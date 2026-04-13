@@ -100,6 +100,7 @@ const Editor = (function () {
       </div>
       <div class="edit-form-group">
         <label class="edit-form-label">題目</label>
+        ${Format.toolbar('edit-question-text')}
         <textarea class="edit-textarea" id="edit-question-text" rows="4">${_esc(question.questionText)}</textarea>
       </div>
       ${optionsHtml}
@@ -109,7 +110,20 @@ const Editor = (function () {
       </div>
       <div class="edit-form-group">
         <label class="edit-form-label">解析</label>
-        <textarea class="edit-textarea" id="edit-explanation" rows="5">${_esc(question.explanation || '')}</textarea>
+        ${Format.toolbar('edit-explanation')}
+        <textarea class="edit-textarea" id="edit-explanation" rows="8">${_esc(question.explanation || '')}</textarea>
+      </div>
+      <div class="edit-form-group">
+        <label class="edit-form-label">關聯概念</label>
+        <div class="concept-tags" id="edit-concept-tags">
+          ${(question.concepts || []).map(c =>
+            `<span class="concept-tag" data-concept="${_esc(c)}">${_esc(c)} <span class="concept-tag-remove" data-concept="${_esc(c)}">×</span></span>`
+          ).join('')}
+        </div>
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <input type="text" class="text-input" id="edit-concept-input" placeholder="輸入概念 ID（如 upj-obstruction）" style="flex:1;" />
+          <button class="btn btn-sm btn-outline" id="edit-concept-add" type="button">新增</button>
+        </div>
       </div>
       <div class="edit-actions">
         <button class="btn btn-primary" id="edit-save-btn">儲存</button>
@@ -117,12 +131,68 @@ const Editor = (function () {
       </div>
     `;
 
+    // 格式工具列
+    Format.bindToolbar(container);
+
+    // 概念標籤事件
+    _bindConceptTags(container, question);
+
     container.querySelector('#edit-save-btn').addEventListener('click', _handleSave);
     container.querySelector('#edit-cancel-btn').addEventListener('click', function () {
       container.innerHTML = '';
       const panel = container.closest('.edit-panel');
       if (panel) panel.hidden = true;
     });
+  }
+
+  /* ── 概念標籤管理 ── */
+  function _bindConceptTags(container, question) {
+    // 移除按鈕
+    container.querySelectorAll('.concept-tag-remove').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const cid = this.dataset.concept;
+        question.concepts = (question.concepts || []).filter(c => c !== cid);
+        const tag = this.closest('.concept-tag');
+        if (tag) tag.remove();
+      });
+    });
+
+    // 新增按鈕
+    const addBtn = container.querySelector('#edit-concept-add');
+    const input = container.querySelector('#edit-concept-input');
+    if (addBtn && input) {
+      const doAdd = () => {
+        const val = input.value.trim().toLowerCase().replace(/\s+/g, '-');
+        if (!val) return;
+        if (!question.concepts) question.concepts = [];
+        if (question.concepts.includes(val)) {
+          showToast('此概念已存在', 'warning');
+          return;
+        }
+        question.concepts.push(val);
+        const tagsEl = container.querySelector('#edit-concept-tags');
+        if (tagsEl) {
+          tagsEl.insertAdjacentHTML('beforeend',
+            `<span class="concept-tag" data-concept="${_esc(val)}">${_esc(val)} <span class="concept-tag-remove" data-concept="${_esc(val)}">×</span></span>`
+          );
+          // 綁定新增的移除按鈕
+          const newRemove = tagsEl.querySelector(`.concept-tag-remove[data-concept="${val}"]`);
+          if (newRemove) {
+            newRemove.addEventListener('click', function (e) {
+              e.stopPropagation();
+              question.concepts = question.concepts.filter(c => c !== val);
+              this.closest('.concept-tag').remove();
+            });
+          }
+        }
+        input.value = '';
+      };
+      addBtn.addEventListener('click', function (e) { e.stopPropagation(); doAdd(); });
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') { e.preventDefault(); doAdd(); }
+      });
+    }
   }
 
   /* ── 儲存處理 ── */
@@ -149,6 +219,12 @@ const Editor = (function () {
         return el ? Object.assign({}, opt, { text: el.value }) : opt;
       });
       patch.options = options;
+    }
+
+    // 概念
+    const tagEls = document.querySelectorAll('#edit-concept-tags .concept-tag');
+    if (tagEls.length > 0 || q.concepts) {
+      patch.concepts = Array.from(tagEls).map(el => el.dataset.concept);
     }
 
     DataLoader.saveQuestionEdit(_currentId, patch);

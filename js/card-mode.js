@@ -170,7 +170,13 @@ const CardMode = (function () {
       : '';
 
     const explanation = q.explanation
-      ? `<div class="card-explanation">${_esc(q.explanation)}</div>`
+      ? `<div class="card-explanation">${Format.render(q.explanation)}</div>`
+      : '';
+
+    const conceptLinks = (q.concepts || []).length > 0
+      ? `<div class="card-concepts" style="margin-top:12px;display:flex;flex-wrap:wrap;gap:6px;">
+          ${q.concepts.map(c => `<a href="#/concept/${_esc(c)}" class="concept-link" onclick="event.stopPropagation()">${_esc(c)}</a>`).join('')}
+        </div>`
       : '';
 
     return `
@@ -195,6 +201,7 @@ const CardMode = (function () {
           <p class="card-question-text">${_esc(q.questionText)}</p>
           <ul class="card-options-list">${optBack}</ul>
           ${explanation}
+          ${conceptLinks}
         </div>
       </div>
     `;

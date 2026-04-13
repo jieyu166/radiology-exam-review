@@ -136,7 +136,13 @@ const ListMode = (function () {
     }).join('');
 
     const explanation = q.explanation
-      ? `<div class="list-explanation">${_esc(q.explanation)}</div>`
+      ? `<div class="list-explanation">${Format.render(q.explanation)}</div>`
+      : '';
+
+    const conceptLinks = (q.concepts || []).length > 0
+      ? `<div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;">
+          ${q.concepts.map(c => `<a href="#/concept/${_esc(c)}" class="concept-link">${_esc(c)}</a>`).join('')}
+        </div>`
       : '';
 
     const images = (q.images || []).length > 0
@@ -162,6 +168,7 @@ const ListMode = (function () {
           ${images}
           <ul class="list-options">${optionsHtml}</ul>
           ${explanation}
+          ${conceptLinks}
           <div class="list-actions">
             <button class="btn btn-sm btn-outline btn-check-toggle" data-id="${_esc(q.id)}">
               ${q.checked ? '取消確認' : '標記已確認'}
