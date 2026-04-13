@@ -61,9 +61,7 @@ const CardMode = (function () {
     _flipped = !_flipped;
     const card = document.querySelector('.flash-card');
     const btn  = _els().toggleAnswer;
-    if (card) {
-      card.classList.toggle('flipped', _flipped);
-    }
+    if (card) card.classList.toggle('flipped', _flipped);
     if (btn) btn.textContent = _flipped ? '隱藏答案' : '顯示答案';
   }
 
@@ -113,28 +111,30 @@ const CardMode = (function () {
 
     e.container.innerHTML = _buildCard(q, _flipped);
 
-    // 卡片點擊翻轉
-    const card = e.container.querySelector('.flash-card');
-    if (card) card.addEventListener('click', toggleAnswer);
-
     // 圖片燈箱
     e.container.querySelectorAll('.question-images img').forEach(img => {
-      img.addEventListener('click', e => { e.stopPropagation(); _lightbox(img.src); });
+      img.addEventListener('click', ev => { ev.stopPropagation(); _lightbox(img.src); });
     });
 
-    // 編輯面板
+    // 編輯按鈕（在卡片上方顯示）
     if (Editor.isEditMode()) {
-      if (e.editPanel) {
-        e.editPanel.hidden = false;
-        Editor.renderForm(e.editForm, q, (id, patch) => {
-          // 更新記憶體中的 q
-          Object.assign(q, patch);
-          _render();
+      const editBtn = e.container.querySelector('.card-edit-btn');
+      if (editBtn) {
+        editBtn.addEventListener('click', ev => {
+          ev.stopPropagation();
+          if (e.editPanel) {
+            e.editPanel.hidden = !e.editPanel.hidden;
+            if (!e.editPanel.hidden) {
+              Editor.renderForm(e.editForm, q, (id, patch) => {
+                Object.assign(q, patch);
+                _render();
+              });
+            }
+          }
         });
       }
-    } else {
-      if (e.editPanel) e.editPanel.hidden = true;
     }
+    if (e.editPanel && !Editor.isEditMode()) e.editPanel.hidden = true;
   }
 
   /* ── 建構卡片 HTML ── */
@@ -143,6 +143,9 @@ const CardMode = (function () {
     const yearBadge = `<span class="badge badge-year">${q.year}</span>`;
     const numBadge  = `<span class="badge badge-num">#${q.number}</span>`;
     const unchecked = q.checked ? '' : `<span class="badge-unchecked">未確認</span>`;
+    const editBtn = Editor.isEditMode()
+      ? `<button class="btn btn-sm btn-outline card-edit-btn" style="margin-left:auto;font-size:.75rem;padding:4px 10px;" onclick="event.stopPropagation()">✏️ 編輯</button>`
+      : '';
 
     const optFront = (q.options || []).map(opt =>
       `<li class="card-option">
@@ -176,7 +179,7 @@ const CardMode = (function () {
         <div class="card-face card-front">
           <div class="card-face-header">
             ${numBadge}${yearBadge}${subBadge}${unchecked}
-            <span style="margin-left:auto;font-size:.75rem;color:var(--text-muted);">點擊翻轉</span>
+            ${editBtn || '<span style="margin-left:auto;font-size:.75rem;color:var(--text-muted);">點擊翻轉</span>'}
           </div>
           <p class="card-question-text">${_esc(q.questionText)}</p>
           ${images}
@@ -186,7 +189,8 @@ const CardMode = (function () {
         <div class="card-face card-back">
           <div class="card-face-header">
             ${numBadge}${yearBadge}${subBadge}
-            <span class="badge badge-checked" style="margin-left:auto;">答案：${_esc(q.correctAnswer || '?')}</span>
+            <span class="badge badge-checked">答案：${_esc(q.correctAnswer || '?')}</span>
+            ${editBtn}
           </div>
           <p class="card-question-text">${_esc(q.questionText)}</p>
           <ul class="card-options-list">${optBack}</ul>
