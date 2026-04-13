@@ -218,11 +218,14 @@ const App = (function () {
       btn.classList.toggle('active', !panel.hidden);
     });
 
-    // 點外部關閉
+    // 點外部關閉（但編輯模式 toggle 區域不觸發關閉）
     document.addEventListener('click', function (e) {
       if (!panel.hidden && !panel.contains(e.target) && e.target !== btn && !btn.contains(e.target)) {
-        panel.hidden = true;
-        btn.classList.remove('active');
+        // 不要在 toggle 剛改變時立刻關閉
+        setTimeout(() => {
+          panel.hidden = true;
+          btn.classList.remove('active');
+        }, 50);
       }
     });
   }

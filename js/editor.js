@@ -17,8 +17,10 @@ const Editor = (function () {
     toggle.addEventListener('change', function () {
       _editMode = this.checked;
       _updateBanner();
-      // 通知 App 刷新卡片區
-      if (window.App) App.onEditModeChange(_editMode);
+      // 延遲一幀確保 DOM 更新完成後再重新渲染
+      requestAnimationFrame(() => {
+        if (window.App) App.onEditModeChange(_editMode);
+      });
     });
 
     const discardBtn = document.getElementById('discard-btn');
