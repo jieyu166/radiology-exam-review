@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>放射科交換考題複習</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<!-- ===== 頂部導覽列（桌機） ===== -->
+<header class="top-nav" id="top-nav">
+  <div class="nav-inner">
+    <div class="nav-brand">放射科交換考題複習</div>
+    <nav class="nav-tabs" role="tablist">
+      <button class="nav-tab" data-route="#/card" role="tab" aria-selected="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+        卡片模式
+      </button>
+      <button class="nav-tab" data-route="#/list" role="tab" aria-selected="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        列表模式
+      </button>
+      <button class="nav-tab" data-route="#/exam" role="tab" aria-selected="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+        模擬考
+      </button>
+    </nav>
+    <button class="btn-icon" id="settings-toggle" aria-label="設定">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== 篩選列 ===== -->
+<div class="filter-bar" id="filter-bar">
+  <div class="filter-inner">
+    <!-- 年份下拉 -->
+    <div class="filter-group">
+      <label class="filter-label" for="year-select">年份</label>
+      <select class="select-input" id="year-select">
+        <option value="">全部年份</option>
+      </select>
+    </div>
+
+    <!-- 次專科藥丸 -->
+    <div class="filter-group pills-group">
+      <label class="filter-label">次專科</label>
+      <div class="pills-row" id="subspecialty-pills">
+        <button class="pill active" data-sub="">全部</button>
+        <button class="pill" data-sub="ABD">ABD</button>
+        <button class="pill" data-sub="CV">CV</button>
+        <button class="pill" data-sub="CH">CH</button>
+        <button class="pill" data-sub="NR">NR</button>
+        <button class="pill" data-sub="MSK">MSK</button>
+        <button class="pill" data-sub="H&N">H&amp;N</button>
+        <button class="pill" data-sub="PED">PED</button>
+        <button class="pill" data-sub="IR">IR</button>
+        <button class="pill" data-sub="Physics">Physics</button>
+        <button class="pill" data-sub="Breast">Breast</button>
+        <button class="pill" data-sub="US">US</button>
+        <button class="pill" data-sub="Unknown">Unknown</button>
+      </div>
+    </div>
+
+    <!-- 只顯示已確認 -->
+    <div class="filter-group toggle-group">
+      <label class="toggle-label" for="checked-toggle">
+        <input type="checkbox" id="checked-toggle" />
+        <span class="toggle-track"></span>
+        只顯示已確認
+      </label>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 設定面板 ===== -->
+<div class="settings-panel" id="settings-panel" hidden>
+  <div class="settings-inner">
+    <h2 class="settings-title">設定</h2>
+    <div class="settings-row">
+      <label class="toggle-label" for="edit-mode-toggle">
+        <input type="checkbox" id="edit-mode-toggle" />
+        <span class="toggle-track"></span>
+        編輯模式
+      </label>
+      <span class="badge-pending" id="pending-badge" hidden>待存 <span id="pending-count">0</span></span>
+    </div>
+    <div class="settings-row settings-actions">
+      <button class="btn btn-primary" id="export-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        匯出 JSON
+      </button>
+      <button class="btn btn-danger" id="discard-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/></svg>
+        放棄所有編輯
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 主內容區 ===== -->
+<main class="main-content" id="main-content">
+
+  <!-- 卡片模式 -->
+  <section id="card-view" class="view-section" hidden>
+    <div class="card-nav-bar">
+      <button class="btn btn-icon" id="card-prev" aria-label="上一題">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      </button>
+      <span class="card-counter" id="card-counter">0 / 0</span>
+      <button class="btn btn-icon" id="card-next" aria-label="下一題">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      </button>
+    </div>
+    <div class="card-container" id="card-container">
+      <!-- 卡片由 card-mode.js 產生 -->
+    </div>
+    <div class="card-actions">
+      <button class="btn btn-outline" id="card-toggle-answer">顯示答案</button>
+      <button class="btn btn-success" id="card-mark-checked">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        標記已確認
+      </button>
+    </div>
+    <!-- 編輯區（edit mode） -->
+    <div class="edit-panel" id="card-edit-panel" hidden>
+      <div class="edit-form" id="card-edit-form">
+        <!-- editor.js 填入 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 列表模式 -->
+  <section id="list-view" class="view-section" hidden>
+    <div class="list-header">
+      <span class="list-count" id="list-count">共 0 題</span>
+      <div class="list-sort">
+        <label for="list-sort-select">排序：</label>
+        <select class="select-input select-sm" id="list-sort-select">
+          <option value="number">題號</option>
+          <option value="subspecialty">次專科</option>
+        </select>
+      </div>
+    </div>
+    <div class="accordion-list" id="accordion-list">
+      <!-- list-mode.js 填入 -->
+    </div>
+  </section>
+
+  <!-- 模擬考設定 -->
+  <section id="exam-setup" class="view-section" hidden>
+    <div class="exam-setup-card">
+      <h2 class="exam-setup-title">模擬考設定</h2>
+      <div class="form-group">
+        <label class="form-label" for="exam-year-select">年份（可多選）</label>
+        <div class="checkbox-group" id="exam-year-checkboxes">
+          <!-- app.js 填入 -->
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">次專科篩選</label>
+        <div class="pills-row" id="exam-sub-pills">
+          <button class="pill active" data-sub="">全部</button>
+          <button class="pill" data-sub="ABD">ABD</button>
+          <button class="pill" data-sub="CV">CV</button>
+          <button class="pill" data-sub="CH">CH</button>
+          <button class="pill" data-sub="NR">NR</button>
+          <button class="pill" data-sub="MSK">MSK</button>
+          <button class="pill" data-sub="H&N">H&amp;N</button>
+          <button class="pill" data-sub="PED">PED</button>
+          <button class="pill" data-sub="IR">IR</button>
+          <button class="pill" data-sub="Physics">Physics</button>
+          <button class="pill" data-sub="Breast">Breast</button>
+          <button class="pill" data-sub="US">US</button>
+          <button class="pill" data-sub="Unknown">Unknown</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="exam-count-input">題數</label>
+        <input type="number" class="text-input" id="exam-count-input" value="20" min="1" max="200" />
+      </div>
+      <div class="form-group">
+        <label class="toggle-label" for="exam-shuffle-toggle">
+          <input type="checkbox" id="exam-shuffle-toggle" checked />
+          <span class="toggle-track"></span>
+          隨機順序
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="toggle-label" for="exam-checked-only-toggle">
+          <input type="checkbox" id="exam-checked-only-toggle" />
+          <span class="toggle-track"></span>
+          只從已確認題目出題
+        </label>
+      </div>
+      <button class="btn btn-primary btn-block" id="exam-start-btn">開始模擬考</button>
+    </div>
+  </section>
+
+  <!-- 模擬考進行 -->
+  <section id="exam-view" class="view-section" hidden>
+    <div class="exam-progress-bar-wrap">
+      <div class="exam-progress-bar" id="exam-progress-bar"></div>
+    </div>
+    <div class="exam-header">
+      <span class="exam-qnum" id="exam-qnum">第 1 題 / 共 20 題</span>
+      <button class="btn btn-outline btn-sm" id="exam-end-btn">結束考試</button>
+    </div>
+    <div class="exam-question-card" id="exam-question-card">
+      <!-- exam-mode.js 填入 -->
+    </div>
+    <div class="exam-nav-bar">
+      <button class="btn btn-outline" id="exam-prev-btn">上一題</button>
+      <div class="exam-grid-wrap">
+        <button class="btn btn-outline btn-sm" id="exam-grid-toggle">題目列表</button>
+        <div class="exam-grid" id="exam-grid" hidden>
+          <!-- exam-mode.js 填入 -->
+        </div>
+      </div>
+      <button class="btn btn-primary" id="exam-next-btn">下一題</button>
+    </div>
+  </section>
+
+  <!-- 模擬考結果 -->
+  <section id="exam-result" class="view-section" hidden>
+    <div class="result-card">
+      <h2 class="result-title">考試結果</h2>
+      <div class="result-score" id="result-score"></div>
+      <div class="result-stats" id="result-stats"></div>
+      <div class="result-review" id="result-review">
+        <!-- exam-mode.js 填入 -->
+      </div>
+      <div class="result-actions">
+        <button class="btn btn-primary" id="result-retry-btn">重新考試</button>
+        <button class="btn btn-outline" id="result-list-btn">回到列表</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 概念卡片 -->
+  <section id="concept-view" class="view-section" hidden>
+    <div class="concept-container" id="concept-container">
+      <!-- concept-cards.js 填入 -->
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== 底部導覽（手機） ===== -->
+<nav class="bottom-nav" id="bottom-nav" role="tablist">
+  <button class="bottom-tab" data-route="#/card" role="tab">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/></svg>
+    <span>卡片</span>
+  </button>
+  <button class="bottom-tab" data-route="#/list" role="tab">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <span>列表</span>
+  </button>
+  <button class="bottom-tab" data-route="#/exam" role="tab">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+    <span>模擬考</span>
+  </button>
+  <button class="bottom-tab" data-route="#/settings" role="tab">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+    <span>設定</span>
+  </button>
+</nav>
+
+<!-- ===== 吐司通知 ===== -->
+<div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+<!-- ===== 載入 JS ===== -->
+<script src="js/data-loader.js"></script>
+<script src="js/question-store.js"></script>
+<script src="js/editor.js"></script>
+<script src="js/card-mode.js"></script>
+<script src="js/list-mode.js"></script>
+<script src="js/exam-mode.js"></script>
+<script src="js/concept-cards.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
