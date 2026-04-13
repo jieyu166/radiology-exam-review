@@ -1,0 +1,60 @@
+{
+  "rex_edits_year_2016": {
+    "2016-001": {
+      "subspecialty": "ABD",
+      "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE?",
+      "correctAnswer": "D",
+      "explanation": "(A) 錯：[[UPJ obstruction]]UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an uncommon cause of hydronephrosis in children."
+        },
+        {
+          "letter": "B",
+          "text": "Urinary tract infection is the most common presentation."
+        },
+        {
+          "letter": "C",
+          "text": "Females and males are affected equally."
+        },
+        {
+          "letter": "D",
+          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty. "
+        }
+      ],
+      "checked": true,
+      "concepts": [
+        "upj-obstruction"
+      ]
+    },
+    "2016-002": {
+      "subspecialty": "ABD",
+      "questionText": "Concerning adrenal adenomas, which one is TRUE?",
+      "correctAnswer": "A",
+      "explanation": "A. 正確. Adrenal adenoma 佔所有腎上腺 incidentaloma 的 75%[1]，一般人群盛行率約 3%[2]。即使在已知有惡性腫瘤的病人中，大多數腎上腺腫塊仍為良性[3]。轉移瘤在 incidentaloma 中僅佔約 1–2%[4]。因此 adenoma 遠比 metastasis 常見。\nB. **錯誤**. 腎上腺腺瘤在非顯影 CT 上密度 ≤10 HU 即可確診[5]。約 70% 為 lipid-rich，密度範圍約 −2 至 16 HU；lipid-poor 腺瘤則約 20–25 HU[6]。因此「典型」腺瘤密度低於 10 HU，而非超過 20 HU。\nC. **錯誤**. Opposed-phase MRI 上的訊號下降是腎上腺腺瘤最具特徵性的表現[7]。腺瘤因含有**細胞內脂質**，在 chemical shift imaging 的 opposed-phase 序列上會出現明顯 signal dropout，這是與轉移瘤鑑別的關鍵。\nD. **錯誤**. 腺瘤的特性是**快速 washout**。研究顯示腺瘤在注射顯影劑後 5 分鐘即開始快速排出，15 分鐘時 washout 達 50–60%；相反地，非腺瘤（如轉移瘤）則傾向保留顯影劑8。診斷標準為 absolute washout >60% 或 relative washout >40%[7]，代表腺瘤在延遲相會大幅washout。\n1. PMC4429195 — Incidental Adrenal Nodules and Masses: The Imaging Approach ↩\n2. ScienceDirect — Adrenal Adenoma: An Overview ↩\n3. AJR Online — Imaging of Adrenal Incidentalomas: Current Status ↩\n4. Korean Endocrine Society — Clinical Guidelines for the Management of Adrenal Incidentaloma ↩\n5. Medscape — Adrenal Adenoma Imaging: Practice Essentials ↩\n6. PMC8722240 — Imaging Features of Atypical Adrenocortical Adenomas: A Radiological-Pathological Correlation \n7. Gland Surgery — Pitfalls and Differential Diagnosis on Adrenal Lesions: Current Concepts in CT/MR Imaging \n",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are a more common cause of adrenal mass than is metastatic disease."
+        },
+        {
+          "letter": "B",
+          "text": "They typically have non-IV contrast density of more than 20 Hounsfield units."
+        },
+        {
+          "letter": "C",
+          "text": "They typically show no decrease in signal intensity on opposed phase MR imaging."
+        },
+        {
+          "letter": "D",
+          "text": "They typically retain 90% of their immediate contrast value on 10-minute delayed CT exam. "
+        }
+      ],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
+      "checked": true
+    }
+  }
+}

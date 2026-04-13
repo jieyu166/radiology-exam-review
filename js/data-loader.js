@@ -79,6 +79,21 @@ const DataLoader = (function () {
     return all;
   }
 
+  /* ── 儲存概念編輯到 localStorage + 記憶體快取 ── */
+  function saveConceptEdit(id, patch) {
+    const key = 'rex_edits_concepts';
+    let edits;
+    try { edits = JSON.parse(localStorage.getItem(key) || '{}'); }
+    catch (e) { edits = {}; }
+    edits[id] = Object.assign({}, edits[id] || {}, patch);
+    localStorage.setItem(key, JSON.stringify(edits));
+
+    // 同步更新記憶體快取
+    if (_concepts) {
+      _concepts[id] = Object.assign({}, _concepts[id] || {}, patch);
+    }
+  }
+
   /* ── 儲存單題編輯到 localStorage ── */
   function saveQuestionEdit(id, patch) {
     const year = id.split('-')[0];
@@ -148,6 +163,7 @@ const DataLoader = (function () {
     loadConcepts,
     getLoadedQuestions,
     saveQuestionEdit,
+    saveConceptEdit,
     discardAllEdits,
     countPendingEdits,
     exportAllEdits,

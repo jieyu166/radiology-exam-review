@@ -125,7 +125,7 @@ const ConceptCards = (function () {
             externalLinks: [],
             checked: false,
           };
-          _saveConcept(id, newConcept);
+          DataLoader.saveConceptEdit(id, newConcept);
           concepts[id] = newConcept;
           renderConcept(id); // 重新渲染
           showToast('概念已建立', 'success');
@@ -265,7 +265,7 @@ const ConceptCards = (function () {
         }).filter(Boolean),
         checked: document.getElementById('cedit-checked').checked,
       };
-      _saveConcept(id, patch);
+      DataLoader.saveConceptEdit(id, patch);
       Object.assign(concept, patch);
       showToast('概念已儲存', 'success');
       Editor.updatePendingBadge();
@@ -276,16 +276,6 @@ const ConceptCards = (function () {
       container.hidden = true;
       container.innerHTML = '';
     });
-  }
-
-  /* ── 儲存概念到 localStorage ── */
-  function _saveConcept(id, patch) {
-    const key = 'rex_edits_concepts';
-    let edits;
-    try { edits = JSON.parse(localStorage.getItem(key) || '{}'); }
-    catch (e) { edits = {}; }
-    edits[id] = Object.assign({}, edits[id] || {}, patch);
-    localStorage.setItem(key, JSON.stringify(edits));
   }
 
   function _esc(str) {
