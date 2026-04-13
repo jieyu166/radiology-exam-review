@@ -74,12 +74,12 @@ const App = (function () {
     // 頂部 tabs
     document.querySelectorAll('.nav-tab').forEach(btn => {
       const r = (btn.dataset.route || '').replace('#/', '');
-      btn.classList.toggle('active', route === r || (r === 'exam' && route.startsWith('exam')));
+      btn.classList.toggle('active', route === r || (r === 'exam' && route.startsWith('exam')) || (r === 'concepts' && route === 'concept'));
     });
     // 底部 tabs
     document.querySelectorAll('.bottom-tab').forEach(btn => {
       const r = (btn.dataset.route || '').replace('#/', '');
-      btn.classList.toggle('active', route === r || (r === 'exam' && route.startsWith('exam')));
+      btn.classList.toggle('active', route === r || (r === 'exam' && route.startsWith('exam')) || (r === 'concepts' && route === 'concept'));
     });
   }
 
@@ -89,9 +89,11 @@ const App = (function () {
 
     let route = _parseHash();
 
-    // 概念頁 /concept/{id}
+    // 概念頁 /concept/{id} or /concepts (列表)
     let conceptId = null;
-    if (route.startsWith('concept/')) {
+    if (route === 'concepts') {
+      route = 'concept'; // 使用同一個 section
+    } else if (route.startsWith('concept/')) {
       conceptId = route.slice('concept/'.length);
       route = 'concept';
     }

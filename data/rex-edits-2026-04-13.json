@@ -4,7 +4,7 @@
       "subspecialty": "ABD",
       "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE?",
       "correctAnswer": "D",
-      "explanation": "(A) 錯：UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "explanation": "(A) 錯：[[UPJ obstruction]]UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
       "options": [
         {
           "letter": "A",
@@ -23,7 +23,10 @@
           "text": "The presence of crossing vessels decreases the success rate of pyeloplasty. "
         }
       ],
-      "checked": true
+      "checked": true,
+      "concepts": [
+        "upj-obstruction"
+      ]
     }
   }
 }

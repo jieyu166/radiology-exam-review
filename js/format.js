@@ -18,10 +18,12 @@ const Format = (function () {
     let html = _esc(text);
 
     // 概念連結：[[concept-id|顯示文字]] 或 [[concept-id]]
+    // 自動正規化：空白→橫線、小寫
     html = html.replace(
       /\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g,
-      function (_, id, label) {
-        const display = label || id;
+      function (_, rawId, label) {
+        const id = _normalizeConceptId(rawId);
+        const display = label || rawId;
         return `<a href="#/concept/${_escAttr(id)}" class="concept-link" title="概念：${_escAttr(display)}">${display}</a>`;
       }
     );
@@ -115,6 +117,13 @@ const Format = (function () {
     });
   }
 
+  /**
+   * 正規化概念 ID：空白→橫線、小寫、去頭尾空白
+   */
+  function _normalizeConceptId(raw) {
+    return raw.trim().toLowerCase().replace(/\s+/g, '-');
+  }
+
   function _esc(str) {
     if (str == null) return '';
     return String(str)
@@ -128,5 +137,5 @@ const Format = (function () {
     return _esc(str).replace(/'/g, '&#39;');
   }
 
-  return { render, insertFormat, toolbar, bindToolbar };
+  return { render, insertFormat, toolbar, bindToolbar, normalizeId: _normalizeConceptId };
 })();

@@ -834,6 +834,48 @@ a { color: var(--primary); text-decoration: none; }
   line-height: 1;
 }
 
+/* 概念列表 grid */
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.concept-grid-item {
+  display: block;
+  padding: 16px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+  transition: box-shadow .2s;
+}
+.concept-grid-item:hover { box-shadow: var(--shadow-md); }
+.concept-grid-title { font-weight: 600; font-size: 1rem; margin-bottom: 4px; }
+
+/* 概念詳情頁 */
+.concept-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.concept-header { margin-bottom: 20px; }
+.concept-title { font-size: 1.3rem; font-weight: 700; margin: 0; }
+.concept-section { margin-top: 20px; }
+.concept-section h3 {
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+.concept-section ul { padding-left: 20px; }
+.concept-section li { margin-bottom: 4px; line-height: 1.6; }
+
 .edit-form-group { margin-bottom: 14px; }
 .edit-form-label {
   display: block;

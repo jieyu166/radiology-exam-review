@@ -163,7 +163,7 @@ const Editor = (function () {
     const input = container.querySelector('#edit-concept-input');
     if (addBtn && input) {
       const doAdd = () => {
-        const val = input.value.trim().toLowerCase().replace(/\s+/g, '-');
+        const val = Format.normalizeId(input.value);
         if (!val) return;
         if (!question.concepts) question.concepts = [];
         if (question.concepts.includes(val)) {
