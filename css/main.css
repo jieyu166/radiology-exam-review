@@ -369,8 +369,6 @@ a { color: var(--primary); text-decoration: none; }
   font-size: .9rem;
   line-height: 1.5;
   background: var(--bg);
-  max-height: 120px;
-  overflow-y: auto;
 }
 .card-option.correct {
   border-color: var(--success);
