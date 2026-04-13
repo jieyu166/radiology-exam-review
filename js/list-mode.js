@@ -88,6 +88,29 @@ const ListMode = (function () {
       });
     });
 
+    // 編輯按鈕
+    list.querySelectorAll('.btn-list-edit').forEach(btn => {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        const id = this.dataset.id;
+        const formEl = document.getElementById('list-edit-form-' + id);
+        if (!formEl) return;
+        const isHidden = formEl.hidden;
+        // 關閉其他編輯表單
+        list.querySelectorAll('.list-edit-form').forEach(f => { f.hidden = true; f.innerHTML = ''; });
+        if (isHidden) {
+          formEl.hidden = false;
+          const q = QuestionStore.getQuestionById(id);
+          if (q) {
+            Editor.renderForm(formEl, q, (savedId, patch) => {
+              Object.assign(q, patch);
+              _render();
+            });
+          }
+        }
+      });
+    });
+
     // 恢復展開狀態
     if (_openId) {
       const hdr = list.querySelector(`.accordion-header[data-id="${_openId}"]`);
@@ -144,7 +167,9 @@ const ListMode = (function () {
               ${q.checked ? '取消確認' : '標記已確認'}
             </button>
             <button class="btn btn-sm btn-outline btn-goto-card" data-id="${_esc(q.id)}">前往卡片</button>
+            ${Editor.isEditMode() ? `<button class="btn btn-sm btn-primary btn-list-edit" data-id="${_esc(q.id)}">✏️ 編輯</button>` : ''}
           </div>
+          <div class="list-edit-form" id="list-edit-form-${_esc(q.id)}" hidden></div>
         </div>
       </div>
     `;
