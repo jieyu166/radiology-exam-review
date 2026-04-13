@@ -157,6 +157,12 @@ const ConceptCards = (function () {
     if (concept.differentialDiagnosis && concept.differentialDiagnosis.length > 0) {
       html += `<div class="concept-section"><h3>鑑別診斷</h3><ul>${concept.differentialDiagnosis.map(d => `<li>${_esc(d)}</li>`).join('')}</ul></div>`;
     }
+    if (concept.keyPoints && concept.keyPoints.length > 0) {
+      html += `<div class="concept-section"><h3>重點</h3><ul>${concept.keyPoints.map(p => `<li>${Format.render(p)}</li>`).join('')}</ul></div>`;
+    }
+    if (concept.management) {
+      html += `<div class="concept-section"><h3>處置</h3><div>${Format.render(concept.management)}</div></div>`;
+    }
     if (concept.externalLinks && concept.externalLinks.length > 0) {
       html += `<div class="concept-section"><h3>外部連結</h3><ul>${concept.externalLinks.map(l =>
         `<li><a href="${_esc(l.url)}" target="_blank" rel="noopener">${_esc(l.label || l.url)}</a></li>`
@@ -204,6 +210,7 @@ const ConceptCards = (function () {
     ).join('');
 
     const ddList = (concept.differentialDiagnosis || []).join('\n');
+    const kpList = (concept.keyPoints || []).join('\n');
     const linksList = (concept.externalLinks || []).map(l => `${l.label || ''}|${l.url || ''}`).join('\n');
 
     container.innerHTML = `
@@ -228,6 +235,15 @@ const ConceptCards = (function () {
         <label class="edit-form-label">影像特徵</label>
         ${Format.toolbar('cedit-imaging')}
         <textarea class="edit-textarea" id="cedit-imaging" rows="5">${_esc(concept.imagingFindings || '')}</textarea>
+      </div>
+      <div class="edit-form-group">
+        <label class="edit-form-label">重點（每行一個）</label>
+        <textarea class="edit-textarea" id="cedit-kp" rows="4">${_esc(kpList)}</textarea>
+      </div>
+      <div class="edit-form-group">
+        <label class="edit-form-label">處置</label>
+        ${Format.toolbar('cedit-mgmt')}
+        <textarea class="edit-textarea" id="cedit-mgmt" rows="3">${_esc(concept.management || '')}</textarea>
       </div>
       <div class="edit-form-group">
         <label class="edit-form-label">鑑別診斷（每行一個）</label>
@@ -258,6 +274,8 @@ const ConceptCards = (function () {
         subspecialty: document.getElementById('cedit-sub').value,
         definition: document.getElementById('cedit-definition').value,
         imagingFindings: document.getElementById('cedit-imaging').value,
+        keyPoints: document.getElementById('cedit-kp').value.split('\n').map(s => s.trim()).filter(Boolean),
+        management: document.getElementById('cedit-mgmt').value,
         differentialDiagnosis: document.getElementById('cedit-dd').value.split('\n').map(s => s.trim()).filter(Boolean),
         externalLinks: document.getElementById('cedit-links').value.split('\n').map(line => {
           const parts = line.split('|');

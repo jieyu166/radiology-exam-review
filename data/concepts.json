@@ -1,3 +1,33 @@
 {
-  "concepts": {}
+  "concepts": {
+    "adrenal-adenoma": {
+      "name": "Adrenal Adenoma",
+      "nameZh": "腎上腺腺瘤",
+      "subspecialty": "ABD",
+      "definition": "最常見的腎上腺病灶，源自腎上腺皮質 lipid-rich clear cell 的良性增殖。70% 為 **lipid-rich adenoma (LRA)**，30% 為 **lipid-poor adenoma (LPA)**。約 95% 為非功能性。",
+      "imagingFindings": "**CT**\n- Non-contrast ≤10 HU → LRA 確診（Sen 71%, Spe 98%）\n- Washout CT（15 min）：APW >60% 或 RPW >40% → adenoma\n- Portal venous >120 HU → 排除 adenoma（考慮 pheochromocytoma）\n\n**MRI**\n- Chemical shift imaging：opposed-phase signal drop >16.5% → 確診\n- 10–20 HU 病灶用 MRI，Sen/Spe 均 100%\n- 不用肝臟作參考（steatosis/hemochromatosis 干擾），用脾臟\n\n**陷阱**\n- Pheochromocytoma 及 hypervascular metastasis（HCC/RCC）可模擬 adenoma 的 washout 與 chemical shift\n- 含脂轉移瘤（HCC/RCC）可出現 opposed-phase signal drop 假陽性",
+      "differentialDiagnosis": [
+        "Adrenal cortical carcinoma — 通常 >4 cm，不均質，壞死",
+        "Pheochromocytoma — CT washout 與 adenoma 顯著重疊，需生化排除",
+        "Adrenal metastasis — 通常 >10 HU，washout 慢，有已知惡性腫瘤史",
+        "Myelolipoma — 含 macroscopic fat（<-20 HU）可確診",
+        "Adrenal cyst — 液體密度，不增強"
+      ],
+      "externalLinks": [
+        {
+          "label": "Radiopaedia",
+          "url": "https://radiopaedia.org/articles/adrenal-adenoma"
+        }
+      ],
+      "keyPoints": [
+        "Non-contrast CT ≤10 HU = 腺瘤確診，不需進一步檢查",
+        "Washout APW >60% / RPW >40% 可診斷 LPA，但 pheochromocytoma 可假陽性",
+        "Chemical shift MRI 對 10-20 HU 病灶 Sen/Spe 均 100%",
+        ">4 cm 70% 惡性，>6 cm 85% 惡性",
+        "Portal venous >120 HU → 停止計算 washout，不是 adenoma"
+      ],
+      "management": "功能性 → 手術。非功能性：<10 HU 不追蹤；10-20 HU 有爭議；>20 HU 6-12 月追蹤；>4 cm 且 >20 HU 考慮手術。增大 ≥5 mm 且 ≥20% → 手術。所有偶發病灶需荷爾蒙篩檢。",
+      "checked": false
+    }
+  }
 }
