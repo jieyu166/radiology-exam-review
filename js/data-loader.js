@@ -122,7 +122,7 @@ const DataLoader = (function () {
     return count;
   }
 
-  /* ── 匯出所有 JSON ── */
+  /* ── 匯出編輯差異（patch JSON） ── */
   function exportAllEdits() {
     const result = {};
     const keys = Object.keys(localStorage).filter(k => k.startsWith('rex_edits_'));

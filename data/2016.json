@@ -6,7 +6,7 @@
       "id": "2016-001",
       "year": 2016,
       "number": 1,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE?",
       "options": [
@@ -24,15 +24,15 @@
         },
         {
           "letter": "D",
-          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty. Davidson AJ, Hartman DS, eds. Radiology of the Kidney and Urinary Tract. Philadelphia, PA: W.B. Saunders, 1984. Herts BR. Helical CT and CT angiography for the identification of crossing vessels at the ureteropelvic junction. Urol Clin North Am. 1998;25(2):259-269. Sandler CM, Newhouse JH, Amis Jr SE, Dunnick NR. Textbook of Uroradiology. 3rd ed. Philadelphia, Pa: Lippincott, Williams, & Wilkins; 2001. A. Incorrect. It i"
+          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty. "
         }
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "The presence of crossing vessels decreases the success rate of\npyeloplasty.\nDavidson AJ, Hartman DS, eds. Radiology of the Kidney and Urinary Tract. Philadelphia, PA: W.B. Saunders, 1984. Herts BR. Helical CT and CT angiography for the identification of crossing vessels at the ureteropelvic junction. Urol Clin North Am. 1998;25(2):259-269. Sandler CM, Newhouse JH, Amis Jr SE, Dunnick NR. Textbook of Uroradiology. 3rd ed. Philadelphia, Pa: Lippincott, Williams, & Wilkins; 2001.\nA. Incorrect. It is the MOST common cause of hydronephrosis in children.\nB. Incorrect. UPJ obstruction is being discovered increasingly in the prenatal period due to frequent use of obstetric ultrasound. When detected due to symptoms or signs, congenital ureteropelvic junction obstruction most often presents in infancy or childhood with an abdominal mass, flank or abdominal pain, failure to thrive, or nonspecific gastrointestinal complaints. Infection, hypertension, hematuria, and stone formation less commonly are the cause for the child to come to medical attention. In a significant number of cases, the disorder is clinically silent into adulthood, when hematuria, flank pain, fever, or rarely, hypertension, are the presenting clinical symptoms. Pain in adults is often episodic and in some cases may only present by high urine flow rates such as those produced by beer drinking.\nC. Incorrect. Males are affected more than females by 2:1.\nD. Correct. Crossing vessels are seen in only 15%-20% of cases but significantly reduce the success of pyeloplasty. Thus, many advocate the use of CT for preoperative planning.",
+      "explanation": "(A) 錯：UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
       "images": [],
       "concepts": [],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-002",
