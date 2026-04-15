@@ -8,3 +8,6 @@ Thumbs.db
 dist/
 build/
 node_modules/
+.spectra/
+openspec/.vector-search.db*
+tmp/

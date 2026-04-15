@@ -15,6 +15,22 @@ const QuestionStore = (function () {
     return a;
   }
 
+  function getQuestionYears(q) {
+    const raw = Array.isArray(q && q.years) && q.years.length > 0 ? q.years : [q && q.year];
+    return Array.from(new Set(raw.map(y => parseInt(y, 10)).filter(Number.isFinite))).sort((a, b) => a - b);
+  }
+
+  function _dedupeById(questions) {
+    const seen = new Set();
+    return questions.filter(q => {
+      const key = q && q.id;
+      if (!key) return true;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
   /**
    * 取得篩選後的問題
    * @param {Object} opts
@@ -28,7 +44,7 @@ const QuestionStore = (function () {
     // 年份篩選
     if (years && years.length > 0) {
       const ySet = new Set(years.map(String));
-      questions = questions.filter(q => ySet.has(String(q.year)));
+      questions = questions.filter(q => getQuestionYears(q).some(y => ySet.has(String(y))));
     }
 
     // 次專科篩選
@@ -42,7 +58,7 @@ const QuestionStore = (function () {
       questions = questions.filter(q => q.checked === true);
     }
 
-    return questions;
+    return _dedupeById(questions);
   }
 
   /**
@@ -82,7 +98,11 @@ const QuestionStore = (function () {
    */
   async function getAllYears() {
     const idx = await DataLoader.loadIndex();
-    return (idx.years || []).map(y => y.year).sort((a, b) => b - a);
+    const set = new Set((idx.years || []).map(y => y.year));
+    for (const q of DataLoader.getLoadedQuestions()) {
+      getQuestionYears(q).forEach(y => set.add(y));
+    }
+    return Array.from(set).sort((a, b) => b - a);
   }
 
   /**
@@ -107,6 +127,7 @@ const QuestionStore = (function () {
     getQuestions,
     getQuestionById,
     getRandomQuestions,
+    getQuestionYears,
     getAllSubspecialties,
     getAllYears,
     countBySubspecialty,

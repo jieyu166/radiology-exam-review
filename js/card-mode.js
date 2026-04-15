@@ -140,7 +140,7 @@ const CardMode = (function () {
   /* ── 建構卡片 HTML ── */
   function _buildCard(q, flipped) {
     const subBadge  = `<span class="badge badge-sub" data-sub="${_esc(q.subspecialty)}">${_esc(q.subspecialty)}</span>`;
-    const yearBadge = `<span class="badge badge-year">${q.year}</span>`;
+    const yearBadge = `<span class="badge badge-year">${QuestionStore.getQuestionYears(q).join(' / ')}</span>`;
     const numBadge  = `<span class="badge badge-num">#${q.number}</span>`;
     const unchecked = q.checked ? '' : `<span class="badge-unchecked">未確認</span>`;
     const editBtn = Editor.isEditMode()

@@ -9,6 +9,8 @@ const Editor = (function () {
   let _currentId = null;
   let _onSave    = null;
 
+  const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E'];
+
   /* ── 初始化 ── */
   function init() {
     const toggle = document.getElementById('edit-mode-toggle');
@@ -83,12 +85,8 @@ const Editor = (function () {
       `<option value="${s}" ${question.subspecialty === s ? 'selected' : ''}>${s}</option>`
     ).join('');
 
-    const optionsHtml = (question.options || []).map((opt, i) => `
-      <div class="edit-form-group">
-        <label class="edit-form-label">選項 ${opt.letter}</label>
-        <textarea class="edit-textarea" data-opt="${i}" rows="2">${_esc(opt.text)}</textarea>
-      </div>
-    `).join('');
+    const optionsHtml = _buildOptionRows(question.options || []);
+    const yearsHtml = _buildYearTags(question);
 
     container.innerHTML = `
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;">
@@ -103,10 +101,25 @@ const Editor = (function () {
         ${Format.toolbar('edit-question-text')}
         <textarea class="edit-textarea" id="edit-question-text" rows="4">${_esc(question.questionText)}</textarea>
       </div>
-      ${optionsHtml}
+      <div class="edit-form-group">
+        <label class="edit-form-label">選項</label>
+        <div class="edit-options-list" id="edit-options-list">
+          ${optionsHtml}
+        </div>
+        <button class="btn btn-sm btn-outline btn-add-option" id="edit-option-add" type="button">＋ 新增選項</button>
+      </div>
       <div class="edit-form-group">
         <label class="edit-form-label">正確答案（字母）</label>
         <input type="text" class="text-input" id="edit-correct-answer" value="${_esc(question.correctAnswer || '')}" maxlength="1" style="width:80px;text-transform:uppercase;" />
+      </div>
+      <div class="edit-form-group">
+        <label class="edit-form-label">出現年份</label>
+        <div class="edit-year-primary">主年份：${_esc(question.year)}</div>
+        <div class="concept-tags" id="edit-year-tags">${yearsHtml}</div>
+        <div style="display:flex;gap:6px;margin-top:8px;">
+          <input type="number" class="text-input" id="edit-year-input" placeholder="加入年份（如 2017）" style="flex:1;" />
+          <button class="btn btn-sm btn-outline" id="edit-year-add" type="button">新增</button>
+        </div>
       </div>
       <div class="edit-form-group">
         <label class="edit-form-label">解析</label>
@@ -134,6 +147,9 @@ const Editor = (function () {
     // 格式工具列
     Format.bindToolbar(container);
 
+    _bindOptionRows(container);
+    _bindYearTags(container, question);
+
     // 概念標籤事件
     _bindConceptTags(container, question);
 
@@ -142,6 +158,110 @@ const Editor = (function () {
       container.innerHTML = '';
       const panel = container.closest('.edit-panel');
       if (panel) panel.hidden = true;
+    });
+  }
+
+  function _buildOptionRows(options) {
+    const normalized = options.slice(0, 5);
+    while (normalized.length < 3) normalized.push({ letter: OPTION_LETTERS[normalized.length], text: '' });
+    return normalized.map((opt, i) => _buildOptionRow(i, opt.text || '')).join('');
+  }
+
+  function _buildOptionRow(index, text) {
+    const letter = OPTION_LETTERS[index];
+    return `
+      <div class="option-row" data-option-row>
+        <label class="option-row-letter">${letter}</label>
+        <textarea class="edit-textarea" data-opt="${index}" rows="2">${_esc(text)}</textarea>
+        <button class="btn btn-sm btn-outline btn-remove-option" type="button" aria-label="移除選項 ${letter}">✕</button>
+      </div>
+    `;
+  }
+
+  function _bindOptionRows(container) {
+    const list = container.querySelector('#edit-options-list');
+    const addBtn = container.querySelector('#edit-option-add');
+    if (!list || !addBtn) return;
+
+    const refresh = () => {
+      const rows = Array.from(list.querySelectorAll('[data-option-row]'));
+      rows.forEach((row, i) => {
+        const letter = OPTION_LETTERS[i];
+        row.querySelector('.option-row-letter').textContent = letter;
+        const textarea = row.querySelector('textarea[data-opt]');
+        if (textarea) textarea.dataset.opt = String(i);
+        const removeBtn = row.querySelector('.btn-remove-option');
+        if (removeBtn) {
+          removeBtn.disabled = rows.length <= 3;
+          removeBtn.setAttribute('aria-label', '移除選項 ' + letter);
+        }
+      });
+      addBtn.disabled = rows.length >= 5;
+    };
+
+    addBtn.addEventListener('click', () => {
+      const count = list.querySelectorAll('[data-option-row]').length;
+      if (count >= 5) return;
+      list.insertAdjacentHTML('beforeend', _buildOptionRow(count, ''));
+      refresh();
+    });
+
+    list.addEventListener('click', (e) => {
+      const btn = e.target.closest('.btn-remove-option');
+      if (!btn) return;
+      const rows = list.querySelectorAll('[data-option-row]');
+      if (rows.length <= 3) return;
+      btn.closest('[data-option-row]').remove();
+      refresh();
+    });
+
+    refresh();
+  }
+
+  function _buildYearTags(question) {
+    const years = QuestionStore.getQuestionYears(question);
+    return years.map(y => _yearTagHtml(y, y === parseInt(question.year, 10))).join('');
+  }
+
+  function _yearTagHtml(year, locked) {
+    const remove = locked ? '' : ` <span class="concept-tag-remove" data-year="${_esc(year)}">×</span>`;
+    const lockedAttr = locked ? ' data-locked="1"' : '';
+    return `<span class="concept-tag year-tag" data-year="${_esc(year)}"${lockedAttr}>${_esc(year)}${remove}</span>`;
+  }
+
+  function _bindYearTags(container, question) {
+    const tagsEl = container.querySelector('#edit-year-tags');
+    const input = container.querySelector('#edit-year-input');
+    const addBtn = container.querySelector('#edit-year-add');
+    if (!tagsEl || !input || !addBtn) return;
+
+    const currentYears = () => Array.from(tagsEl.querySelectorAll('.year-tag'))
+      .map(el => parseInt(el.dataset.year, 10))
+      .filter(Number.isFinite);
+
+    const addYear = () => {
+      const val = parseInt(input.value, 10);
+      if (!Number.isFinite(val) || val <= 0) {
+        showToast('請輸入有效年份', 'warning');
+        return;
+      }
+      if (currentYears().includes(val)) {
+        showToast('此年份已存在', 'warning');
+        return;
+      }
+      tagsEl.insertAdjacentHTML('beforeend', _yearTagHtml(val, val === parseInt(question.year, 10)));
+      input.value = '';
+    };
+
+    addBtn.addEventListener('click', function (e) { e.stopPropagation(); addYear(); });
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter') { e.preventDefault(); addYear(); }
+    });
+    tagsEl.addEventListener('click', function (e) {
+      const btn = e.target.closest('.concept-tag-remove[data-year]');
+      if (!btn) return;
+      const tag = btn.closest('.year-tag');
+      if (tag && tag.dataset.locked !== '1') tag.remove();
     });
   }
 
@@ -212,13 +332,34 @@ const Editor = (function () {
     if (expEl)  patch.explanation   = expEl.value;
 
     // 選項
-    const optTextareas = document.querySelectorAll('.edit-textarea[data-opt]');
-    if (optTextareas.length > 0 && q.options) {
-      const options = q.options.map((opt, i) => {
-        const el = optTextareas[i];
-        return el ? Object.assign({}, opt, { text: el.value }) : opt;
+    const optRows = Array.from(document.querySelectorAll('#edit-options-list [data-option-row]'));
+    if (optRows.length > 0) {
+      const options = optRows.map((row, i) => {
+        const el = row.querySelector('textarea[data-opt]');
+        return { letter: OPTION_LETTERS[i], text: el ? el.value : '' };
       });
       patch.options = options;
+    }
+
+    if (ansEl && patch.options) {
+      const validAnswers = new Set(patch.options.map(opt => opt.letter));
+      if (!validAnswers.has(patch.correctAnswer)) {
+        showToast('正確答案必須是目前選項中的字母', 'warning');
+        return;
+      }
+    }
+
+    const yearTags = Array.from(document.querySelectorAll('#edit-year-tags .year-tag'));
+    if (yearTags.length > 0) {
+      const canonicalYear = parseInt(q.year, 10);
+      const years = Array.from(new Set([
+        canonicalYear,
+        ...yearTags.map(el => parseInt(el.dataset.year, 10)).filter(Number.isFinite)
+      ])).sort((a, b) => a - b);
+      const original = QuestionStore.getQuestionYears(q);
+      if (Array.isArray(q.years) || years.join(',') !== original.join(',')) {
+        patch.years = years;
+      }
     }
 
     // 概念
@@ -228,10 +369,48 @@ const Editor = (function () {
     }
 
     DataLoader.saveQuestionEdit(_currentId, patch);
+    if (patch.years) _ensureYearControls(patch.years);
     _updatePendingBadge();
     showToast('已儲存編輯', 'success');
 
     if (typeof _onSave === 'function') _onSave(_currentId, patch);
+  }
+
+  function _ensureYearControls(years) {
+    const cleanYears = Array.from(new Set((years || [])
+      .map(y => parseInt(y, 10))
+      .filter(Number.isFinite)))
+      .sort((a, b) => b - a);
+
+    const sel = document.getElementById('year-select');
+    if (sel) {
+      const selected = sel.value;
+      const existing = new Set(Array.from(sel.options).map(opt => opt.value));
+      for (const y of cleanYears) {
+        if (!existing.has(String(y))) {
+          sel.insertAdjacentHTML('beforeend', `<option value="${_esc(y)}">${_esc(y)} 年</option>`);
+        }
+      }
+      const all = Array.from(sel.options).filter(opt => opt.value);
+      all.sort((a, b) => parseInt(b.value, 10) - parseInt(a.value, 10));
+      sel.innerHTML = '<option value="">全部年份</option>' + all.map(opt => opt.outerHTML).join('');
+      sel.value = selected;
+    }
+
+    const cbContainer = document.getElementById('exam-year-checkboxes');
+    if (cbContainer) {
+      const existing = new Set(Array.from(cbContainer.querySelectorAll('input')).map(input => input.value));
+      for (const y of cleanYears) {
+        if (!existing.has(String(y))) {
+          cbContainer.insertAdjacentHTML('beforeend', `
+            <label class="checkbox-item">
+              <input type="checkbox" value="${_esc(y)}" checked />
+              ${_esc(y)}年
+            </label>
+          `);
+        }
+      }
+    }
   }
 
   /* ── 匯出 JSON ── */

@@ -1,0 +1,147 @@
+{
+  "rex_edits_year_2016": {
+    "2016-001": {
+      "subspecialty": "ABD",
+      "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE?",
+      "correctAnswer": "D",
+      "explanation": "(A) 錯：[[UPJ obstruction]]UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an uncommon cause of hydronephrosis in children."
+        },
+        {
+          "letter": "B",
+          "text": "Urinary tract infection is the most common presentation."
+        },
+        {
+          "letter": "C",
+          "text": "Females and males are affected equally."
+        },
+        {
+          "letter": "D",
+          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty. "
+        }
+      ],
+      "checked": true,
+      "concepts": [
+        "upj-obstruction"
+      ]
+    },
+    "2016-002": {
+      "subspecialty": "ABD",
+      "questionText": "Concerning adrenal adenomas, which one is TRUE?",
+      "correctAnswer": "A",
+      "explanation": "A. 正確. Adrenal adenoma 佔所有腎上腺 incidentaloma 的 75%[1]，一般人群盛行率約 3%[2]。即使在已知有惡性腫瘤的病人中，大多數腎上腺腫塊仍為良性[3]。轉移瘤在 incidentaloma 中僅佔約 1–2%[4]。因此 adenoma 遠比 metastasis 常見。\nB. **錯誤**. 腎上腺腺瘤在非顯影 CT 上密度 ≤10 HU 即可確診[5]。約 70% 為 lipid-rich，密度範圍約 −2 至 16 HU；lipid-poor 腺瘤則約 20–25 HU[6]。因此「典型」腺瘤密度低於 10 HU，而非超過 20 HU。\nC. **錯誤**. Opposed-phase MRI 上的訊號下降是腎上腺腺瘤最具特徵性的表現[7]。腺瘤因含有**細胞內脂質**，在 chemical shift imaging 的 opposed-phase 序列上會出現明顯 signal dropout，這是與轉移瘤鑑別的關鍵。\nD. **錯誤**. 腺瘤的特性是**快速 washout**。研究顯示腺瘤在注射顯影劑後 5 分鐘即開始快速排出，15 分鐘時 washout 達 50–60%；相反地，非腺瘤（如轉移瘤）則傾向保留顯影劑8。診斷標準為 absolute washout >60% 或 relative washout >40%[7]，代表腺瘤在延遲相會大幅washout。\n1. PMC4429195 — Incidental Adrenal Nodules and Masses: The Imaging Approach ↩\n2. ScienceDirect — Adrenal Adenoma: An Overview ↩\n3. AJR Online — Imaging of Adrenal Incidentalomas: Current Status ↩\n4. Korean Endocrine Society — Clinical Guidelines for the Management of Adrenal Incidentaloma ↩\n5. Medscape — Adrenal Adenoma Imaging: Practice Essentials ↩\n6. PMC8722240 — Imaging Features of Atypical Adrenocortical Adenomas: A Radiological-Pathological Correlation \n7. Gland Surgery — Pitfalls and Differential Diagnosis on Adrenal Lesions: Current Concepts in CT/MR Imaging \n",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are a more common cause of adrenal mass than is metastatic disease."
+        },
+        {
+          "letter": "B",
+          "text": "They typically have non-IV contrast density of more than 20 Hounsfield units."
+        },
+        {
+          "letter": "C",
+          "text": "They typically show no decrease in signal intensity on opposed phase MR imaging."
+        },
+        {
+          "letter": "D",
+          "text": "They typically retain 90% of their immediate contrast value on 10-minute delayed CT exam. "
+        }
+      ],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
+      "checked": true
+    },
+    "2016-003": {
+      "subspecialty": "CV",
+      "questionText": "What was the principal finding of the ACCURACY (Assessment by Coronary Computed Tomographic Angiography of Individuals Undergoning Invasive Coronary Angiography) trial in terms of detection of > 70% stenosis?",
+      "correctAnswer": "A",
+      "explanation": "https://pubmed.ncbi.nlm.nih.gov/19007693/\nACCURACY 試驗是一項前瞻multicenter研究，評估 64切 CCTA 對無已知冠狀動脈疾病患者的診斷準確性。\n共 230 名受試者同時接受 CCTA 與 ICA 檢查（59.1% 男性，平均年齡 57 ± 10 歲） 。\nDetection of ≥70% stenosis:\nSensitivity: 94%\nSpecificity: 83%\nPositive predictive value (PPV): 48%\nNegative predictive value (NPV): **99%** 代表 CCTA 可以 rule out significant (≥70%) coronary stenosis. 幾乎可確定排除具臨床意義的冠狀動脈狹窄，患者得以避免侵入性心導管檢查。\n但冠狀動脈calcium score >400 時，特異度顯著下降（鈣化斑塊產生 blooming artifact，導致偽陽性增加）\nPPV 僅 48% 反映了較高的偽陽性率，意味著 CCTA 陽性結果仍需以侵入性攝影確認。整體而言，此試驗支持 CCTA 在中等前測機率族群中作為第一線非侵入性「守門員」檢查的角色——其最大價值在於 rule-out（排除） 而非 rule-in。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sensitivity and NPV > 90%, PPV < 75%"
+        },
+        {
+          "letter": "B",
+          "text": "Sensitivity 80%, NPV > 90%, PPV< 75%"
+        },
+        {
+          "letter": "C",
+          "text": "Sensitivity >90%, PPV> 90%, NPV > 90% "
+        },
+        {
+          "letter": "D",
+          "text": ""
+        }
+      ],
+      "concepts": [
+        "ccta",
+        "calcium-score"
+      ],
+      "checked": true
+    },
+    "2016-004": {
+      "subspecialty": "CH",
+      "questionText": "What is the following description about \"histopathologically a small (<= 3 cm) and predominantly lepidic growth that has 5-mm or smaller invasion, which at CT is mainly nonsolid but may have a central solid component of up to approximately 5 mm\", according to 2011 classification of Classification of the spectrum of adenocarcinoma of the Lung?",
+      "correctAnswer": "B",
+      "explanation": "Preinvasive Lesions\nAAH（**Atypical Adenomatous Hyperplasia**，非典型腺瘤性增生）\n病理：≤5 mm 的局灶性肺泡上皮非典型增生，沿肺泡壁生長\nCT：純毛玻璃結節（pure GGN），≤5 mm\n\n**Adenocarcinoma in Situ** (AIS，原位腺癌)\n病理：≤3 cm，純 lepidic 生長（沿肺泡壁），無侵犯 RSNA；無間質、血管或胸膜侵犯 \n黏液性：通常為非黏液性，少數可為黏液性 \nCT：通常為純毛玻璃結節（nonsolid） \n\n**Minimally Invasive Adenocarcinoma** (MIA，微浸潤腺癌)\n病理：≤3 cm，以 lepidic 生長為主，侵犯範圍 ≤5 mm \nCT：主要為毛玻璃密度，可有中央實質成分約 ≤5 mm \n\n**Invasive Adenocarcinoma**（浸潤性腺癌）\n侵犯成分 >5 mm。依優勢組織型態分型（以 5% 增量半定量評估，選出單一優勢型態） ：\n- Lepidic predominant 病理：以非黏液性 lepidic 生長為優勢的浸潤性腺癌（侵犯 >5 mm）；CT：通常為 part-solid 結節，亦可為 nonsolid 或有囊性成分 \n- Acinar predominant（腺泡優勢型）病理：以腺泡型態（圓形/橢圓形腺腔結構）為優勢\n- Papillary predominant（乳突優勢型）病理：以乳突狀結構（含纖維血管軸心）為優勢\n- Micropapillary predominant（微乳突優勢型）病理：2011 分類新增的組織學亞型 ；腫瘤細胞形成無纖維血管軸心的小簇狀突起\n- Solid predominant with mucin production（實質優勢型伴黏液產生）病理：以片狀實質生長為優勢，需有細胞內黏液證據\n\nVariants（變異型）\nInvasive mucinous adenocarcinoma (IMA，浸潤性黏液型腺癌)\n病理：原分類之 mucinous BAC，現改稱 IMA American Journal of Respiratory and Critical Care Medicine；以杯狀/柱狀黏液細胞沿肺泡壁生長為主\nCT：表現差異大，從實質結節到肺實質化均可見 RSNA\n\nColloid adenocarcinoma（膠狀腺癌）\nFetal adenocarcinoma（胎兒型腺癌）\nEnteric adenocarcinoma（腸型腺癌）\n\nRef: https://pubs.rsna.org/doi/full/10.1148/radiol.12120240",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adenocarcinoma in situ (AIS)"
+        },
+        {
+          "letter": "B",
+          "text": "Minimally invasive adenocarcinoma (MIA)"
+        },
+        {
+          "letter": "C",
+          "text": "Adenocarcinoma in situ (AIS)"
+        },
+        {
+          "letter": "D",
+          "text": "Invasive mucinous adenocarcinoma "
+        }
+      ],
+      "concepts": [
+        "lung-cancer"
+      ],
+      "checked": true
+    },
+    "2016-005": {
+      "subspecialty": "CH",
+      "questionText": "Which one of the following statement is **correct**?",
+      "correctAnswer": "C",
+      "explanation": "A: no LAM\nB: no subpleural sparing; diffuse; child bearing woman\nC: Young adult(20-40 yr)\nD: no subpleural sparing",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cigarette smoking is related to the development of lymphangioleiomyomatosis (LAM), pulmonary Langerhans cell histiocytosis (PLCH), and idiopathic pulmonary fibrosis (IPF)"
+        },
+        {
+          "letter": "B",
+          "text": "Thin walled cysts throughout the lung with subpleural sparing is the most common finding of LAM."
+        },
+        {
+          "letter": "C",
+          "text": "Nodules and cysts in upper and mid lungs with subpleural sparing are characteristic findings of PLCH."
+        },
+        {
+          "letter": "D",
+          "text": "Honeycombing in lower lungs with subpleural sparing is predominant in IPF. "
+        }
+      ],
+      "concepts": [
+        "lam",
+        "plch",
+        "ipf"
+      ],
+      "checked": true
+    }
+  }
+}

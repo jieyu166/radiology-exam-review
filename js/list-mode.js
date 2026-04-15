@@ -121,7 +121,7 @@ const ListMode = (function () {
   /* ── 建構單一 accordion 項目 ── */
   function _buildItem(q) {
     const subBadge  = `<span class="badge badge-sub" data-sub="${_esc(q.subspecialty)}">${_esc(q.subspecialty)}</span>`;
-    const yearBadge = `<span class="badge badge-year">${q.year}</span>`;
+    const yearBadge = `<span class="badge badge-year">${QuestionStore.getQuestionYears(q).join(' / ')}</span>`;
     const checked   = q.checked
       ? `<span class="badge badge-checked">已確認</span>`
       : `<span class="badge-unchecked">未確認</span>`;
