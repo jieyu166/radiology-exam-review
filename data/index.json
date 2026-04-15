@@ -1,9 +1,143 @@
 {
   "years": [
     {
-      "year": 2016,
-      "totalQuestions": 121,
+      "year": 2024,
+      "totalQuestions": 15,
       "subspecialties": [
+        "NR",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2023,
+      "totalQuestions": 188,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "H&N",
+        "IR",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "US",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2022,
+      "totalQuestions": 239,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "IR",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "US",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2021,
+      "totalQuestions": 84,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "H&N",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2020,
+      "totalQuestions": 181,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "IR",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "US",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2019,
+      "totalQuestions": 89,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "IR",
+        "MSK",
+        "NR",
+        "Physics",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2018,
+      "totalQuestions": 138,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "IR",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2017,
+      "totalQuestions": 99,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "H&N",
+        "IR",
+        "MSK",
+        "NR",
+        "PED",
+        "Physics",
+        "US",
+        "Unknown"
+      ]
+    },
+    {
+      "year": 2016,
+      "totalQuestions": 197,
+      "subspecialties": [
+        "ABD",
+        "Breast",
+        "CH",
+        "CV",
+        "H&N",
+        "MSK",
+        "NR",
+        "PED",
+        "US",
         "Unknown"
       ]
     }

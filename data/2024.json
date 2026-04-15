@@ -1,0 +1,539 @@
+{
+  "year": 2024,
+  "totalQuestions": 15,
+  "questions": [
+    {
+      "id": "2024-001",
+      "year": 2024,
+      "number": 1,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The following description about feature of radiation-induced changes, which one is **wrong**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiation-induced leukoencephalopathy is characterized by cerebral white matter high signal intensity on T2-weighted or fluid-attenuated inversion-recovery (FLAIR) images"
+        },
+        {
+          "letter": "B",
+          "text": "Radiation-induced injury can be divided into three phases: acute, early delayed, and late delayed"
+        },
+        {
+          "letter": "C",
+          "text": "Keys to recognizing radiation-induced changes at follow-up imaging are knowledge of the amount of time during RT"
+        },
+        {
+          "letter": "D",
+          "text": "Radiation-induced leukoencephalopathy exhibits diffuse and symmetric involvement after whole-brain RT, with relative sparing of the subcortical U-fiber, corpus callosum, and gray matter"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "RadioGraphics 2021; 41:224–248\n\n\n## 閱片\n| #閱片                                 | Ans                |\n| ------------------------------------- | ------------------ |\n| ![[Radiation necrosis -202310內.png]] | Radiation necrosis |",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-002",
+      "year": 2024,
+      "number": 2,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問下列敘述何者有**誤**？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There are two distinct enhancement patterns of meninges: the dura-arachnoid (DA; linear pachymeningeal) pattern and the pia-subarachnoid (PS; leptomeningeal) pattern"
+        },
+        {
+          "letter": "B",
+          "text": "In neonates and infants, when compared with bacterial meningitis due to other causative organisms, group B streptococcal meningitis is associated with an increased diagnosis of cerebral infarction (59%), often with multifocal or extensive distribution across multiple vascular territories."
+        },
+        {
+          "letter": "C",
+          "text": "On contrast-enhanced T1-weighted MR images, the normal dura mater shows thick, irregular and continuous enhancement."
+        },
+        {
+          "letter": "D",
+          "text": "Involvement of the ear (ie, otitis media), orbit (eg, lachrymal gland involvement, ocular granuloma, or ischemic optic neuropathy), and nose (ie, sinusitis) are diagnostic indicators for ANCA-associated vasculitis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Dural and Leptomeningeal Diseases: Anatomy, Causes, and Neuroimaging Findings. Radiographics. 2023;43(9):e230039. doi:10.1148/rg.230039",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-003",
+      "year": 2024,
+      "number": 3,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問下列敘述何者有**誤**？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compared with arterial development, intracranial venous development is a relatively passive proces that is influenced by hemodynamic and circulatory factors that are activated in response to local oxygen concentration, among other variables. Therefore, the venous anatomy is highly variable across individuals"
+        },
+        {
+          "letter": "B",
+          "text": "The superficial cortical veins that pierce the external arachnoid limiting membrane and dural border cell layer en route to the dural sinuses are called“bridging”veins. Injury to the relatively fixed bridging vein segments in cases of accidental or abusive head trauma frequently leads to a subdural hematoma (SDH)"
+        },
+        {
+          "letter": "C",
+          "text": "Cortical venous thrombosis may have subtle imaging findings and pediatric isolated cortical venous thrombosis is more common than dural venous sinus thrombosis"
+        },
+        {
+          "letter": "D",
+          "text": "MRI is the most frequently used modality for imaging pediatric intracranial venous anomalies. Commonly used MRI sequences include T1-weighted, T2-weighted, T2-weighted fluid-attenuated inversion-recovery, and T2*- or susceptibility-weighted sequences, as well as contrast-enhanced T1-weighted three-dimensional (3D) gradient-echo sequences in select cases"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Imaging the Cerebral Veins in Pediatric Patients: Beyond Dural Venous Sinus Thrombosis. Radiographics. 2023;43(2):e220129. doi:10.1148/rg.220129",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-004",
+      "year": 2024,
+      "number": 4,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問下列敘述何者有**誤**？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common primary sites for SCC cervical LN metastasis from an unknown primary tumor are reported to be the oropharynx (palatine tonsil, 45%; base of the tongue, 44%), hypopharynx, and nasopharynx"
+        },
+        {
+          "letter": "B",
+          "text": "CT or MRI with contrast medium is usually the first-line imaging examination for patients with cervical LN metastases from an unknown primary site. Further, CT is less susceptible to dental artifacts than is MRI"
+        },
+        {
+          "letter": "C",
+          "text": "Cystic changes in LN metastases from thyroid cancer may be caused by colloid accumulation or hemorrhage."
+        },
+        {
+          "letter": "D",
+          "text": "Early hypopharyngeal carcinoma of the posterior cricoid and posterior wall may not be detected at endoscopic examination because these areas are collapsed anatomically"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Imaging Approach for Cervical Lymph Node Metastases from Unknown Primary Tumor. Radiographics. 2023;43(3):e220071. doi:10.1148/rg.220071",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-005",
+      "year": 2024,
+      "number": 5,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following diffusion MR imaging markers has been used to assess human glymphatic function?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary eigenvalue"
+        },
+        {
+          "letter": "B",
+          "text": "Fractional anisotropy"
+        },
+        {
+          "letter": "C",
+          "text": "Proportion of linear diffusion"
+        },
+        {
+          "letter": "D",
+          "text": "DTI-ALPS index"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-006",
+      "year": 2024,
+      "number": 6,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding skull base injury, choose the incorrect description.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of air in the inner ear may indicate presence of perilymphatic leak."
+        },
+        {
+          "letter": "B",
+          "text": "Clinical symptoms with CSF leak may indicate fovea ethmoidalis fracture."
+        },
+        {
+          "letter": "C",
+          "text": "Traumatic cholesteatoma, a relatively rare entity, may occur after trauma."
+        },
+        {
+          "letter": "D",
+          "text": "Longitudinal temporal bone fractures usually cause sensorineural hearing loss."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "From Radiographics. 2021 May-Jun;41(3):762-782.\nFront Neurol. 2020; 11: 1046.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-007",
+      "year": 2024,
+      "number": 7,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The term “fogging of a cerebral infarction” refers to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Difficulty in diagnosing an infarction on CT scans within the first 24 hours."
+        },
+        {
+          "letter": "B",
+          "text": "The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus."
+        },
+        {
+          "letter": "C",
+          "text": "Diffuse parenchymal enhancement of the brain following transient occlusion a cerebral vessel with reperfusion"
+        },
+        {
+          "letter": "D",
+          "text": "It occurs in chronic infarction."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "![[ADD stroke MRI 1.png]]",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-008",
+      "year": 2024,
+      "number": 8,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following venous pathways is **not** a common outflow connection for arterialized flow in patients with carotid-cavernous fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inferior petrosal sinus"
+        },
+        {
+          "letter": "B",
+          "text": "Superficial sylvian cortical veins"
+        },
+        {
+          "letter": "C",
+          "text": "Pterygoid venous plexus"
+        },
+        {
+          "letter": "D",
+          "text": "Thalamostriate vein"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "| #閱片                                                                  | 答案             |\n| ---------------------------------------------------------------------- | ---------------- |\n| ![[Carotid cavernous fistula with subarachnoid hemorrhage-201502.jpg]] | 201502 CCF + SAH |\n| ![[Carotid cavernous sinus fistula -201105.jpg]]                       | 201105 CCF       |\n| ![[Left side direct type carotid-cavernous fistula -201108.jpg]]       | 201811 CCF       |",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-009",
+      "year": 2024,
+      "number": 9,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下關於 ameloblastoma 的敘述何者**錯誤**？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benign but locally aggressive neoplasm."
+        },
+        {
+          "letter": "B",
+          "text": "Expansile multiloculated or multilobulated mixed cystic & solid posterior mandible mass."
+        },
+        {
+          "letter": "C",
+          "text": "Usually arising at the 3rd molar region."
+        },
+        {
+          "letter": "D",
+          "text": "Typically associated with unerupted tooth."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-010",
+      "year": 2024,
+      "number": 10,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 30 year-old mass with painless unilateral neck adenopathy, intraparotid mass and subcutaneous nodules. The most likely diagnosis is :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Castleman disease"
+        },
+        {
+          "letter": "B",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "C",
+          "text": "Kimura disease"
+        },
+        {
+          "letter": "D",
+          "text": "Parotid cancer"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-011",
+      "year": 2024,
+      "number": 11,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Among patients with intracranial artery atherosclerosis and significant stenosis, which ischemic presentation would get the **least** benefit from stenting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemodynamic compromise/watershed infarction"
+        },
+        {
+          "letter": "B",
+          "text": "Embolic stroke in the absence of cardiac or carotid etiology"
+        },
+        {
+          "letter": "C",
+          "text": "In-situ thrombosis with large vessel occlusion"
+        },
+        {
+          "letter": "D",
+          "text": "Perforator stroke alone"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Intracranial atherosclerosis update for neurointerventionalistsJournal of NeuroInterventional Surgery Published Online First: 09 June 2023. doi: 10.1136/jnis-2022-019628",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-012",
+      "year": 2024,
+      "number": 12,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not present in neuropsychiatric systemic lupus erythematosus ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "New infarcts"
+        },
+        {
+          "letter": "B",
+          "text": "Focal areas of hyperintensity"
+        },
+        {
+          "letter": "C",
+          "text": "Extensive, reversible white matter change"
+        },
+        {
+          "letter": "D",
+          "text": "Brain abscess"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-013",
+      "year": 2024,
+      "number": 13,
+      "years": [
+        2024
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Coronal MR images 發現 hippocampal head 的 loss of digitations，是下列何種疾病的特色？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hippocampal sclerosis"
+        },
+        {
+          "letter": "B",
+          "text": "Hippocampal malrotation"
+        },
+        {
+          "letter": "C",
+          "text": "Focal cortical dysplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Dysembryoplastic neuroepithelial tumor (DNET)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-014",
+      "year": 2024,
+      "number": 14,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "T2/FLAIR mismatch sign is specific for which of the following brain tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glioblastoma, IDH wildtype"
+        },
+        {
+          "letter": "B",
+          "text": "Glioblastoma, IDH mutant"
+        },
+        {
+          "letter": "C",
+          "text": "Astrocytoma, IDH mutant and 1p19q non-codeleted"
+        },
+        {
+          "letter": "D",
+          "text": "Oligodendroglioma, IDH mutant and 1p19q codeleted"
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2024-015",
+      "year": 2024,
+      "number": 15,
+      "years": [
+        2024
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following disease is the “MOST” likely to show knife blade-like gyri of bilateral frontal lobes with“ballooning” appearance of the anterior horns of the lateral ventricles?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Behavioral variant frontotemporal dementia (bvFTD)"
+        },
+        {
+          "letter": "B",
+          "text": "Semantic variant primary progressive aphasia (svPPA)"
+        },
+        {
+          "letter": "C",
+          "text": "Progressive nonfluent aphasia (PNFA)"
+        },
+        {
+          "letter": "D",
+          "text": "Logopenic variant primary progressive aphasia (lvPPA)"
+        },
+        {
+          "letter": "E",
+          "text": "Early-onset Alzheimer disease (EOAD)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    }
+  ]
+}

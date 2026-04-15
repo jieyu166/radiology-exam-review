@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 121,
+  "totalQuestions": 197,
   "questions": [
     {
       "id": "2016-001",
@@ -3883,6 +3883,2653 @@
       "correctAnswer": "D",
       "reference": "",
       "explanation": "3 mm\nCardiac Computed Tomography Problem-Based Learning Page 83",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-122",
+      "year": 2016,
+      "number": 122,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement about fatty liver is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Severe fatty liver may lead to cirrhosis."
+        },
+        {
+          "letter": "B",
+          "text": "Fatty liver can be diagnosed if the attenuation of the liver is at least 10 HU less than that of the spleen or if the attenuation of the liver is less than 40 HU."
+        },
+        {
+          "letter": "C",
+          "text": "Focal fat deposition or sparing characteristically occurs in specific areas such as adjacent to the falciform ligament or ligamentum venosum, porta hepatis, and gallbladder fossa."
+        },
+        {
+          "letter": "D",
+          "text": "Multifocal fat deposition can be differentiated from hypovascular metastases and lymphoma without difficulty."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: RadioGraphics 2006; 26:1637–1653",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-123",
+      "year": 2016,
+      "number": 123,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "The relative liver/gallbladder bile signal intensity ratio may be significantly ___ on T1-weighted sequences in patients with chronic choleystitis or normal status.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "increased"
+        },
+        {
+          "letter": "B",
+          "text": "decreased"
+        },
+        {
+          "letter": "C",
+          "text": "same"
+        },
+        {
+          "letter": "D",
+          "text": "indetermined"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Biliary Tract Radiology, p.67",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-124",
+      "year": 2016,
+      "number": 124,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following description about colon volvulus is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cecal volvulus is the most common type sigmoid(60%)"
+        },
+        {
+          "letter": "B",
+          "text": "Typical cecal volvulus has kidney or coffee bean-shaped gas-filled cecum"
+        },
+        {
+          "letter": "C",
+          "text": "In sigmoid volvulus, the dilated twisted sigmoid colon projects above transverse colon called “Northern exposure” sign"
+        },
+        {
+          "letter": "D",
+          "text": "Colon volvulus is rare in children"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "Ref: Diagnostic imaging: Abdomen (2004) I-5-62~63.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-125",
+      "year": 2016,
+      "number": 125,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "About desmoid, which one is false ? benign, non-inflammatory fibroblastic tumours Local recurrence, invasion, not meta APC gene 5q",
+      "options": [
+        {
+          "letter": "A",
+          "text": "fibroproliferative lesion resemble scar tissue"
+        },
+        {
+          "letter": "B",
+          "text": "intermediate step between reparative process and malignancy"
+        },
+        {
+          "letter": "C",
+          "text": "somatic mutation in APC gene 5q"
+        },
+        {
+          "letter": "D",
+          "text": "would not be “rock hard” resistant to percutaneous biopsy"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: DIAGNOSTIC IMAGING ABDOMEN I-1 56",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-126",
+      "year": 2016,
+      "number": 126,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "“Dual rim sign” on SWI is most likely seen in (A)Glioblastoma",
+      "options": [
+        {
+          "letter": "B",
+          "text": "Brain abscess"
+        },
+        {
+          "letter": "C",
+          "text": "Tumefactive demyelination"
+        },
+        {
+          "letter": "D",
+          "text": "Primary CNS lymphoma"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: AJNR Am J Neuroradiol 2012; 33:1534-8",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-127",
+      "year": 2016,
+      "number": 127,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "有關 Dural sinus thrombosis 敘述，下列何者有誤? (A)Some cases can show ”empty delta” sign on contrast-enhanced CT and MRI",
+      "options": [
+        {
+          "letter": "B",
+          "text": "If thrombus is hypointense, can mimic normal sinus “flow void” on T2WI"
+        },
+        {
+          "letter": "C",
+          "text": "All blood clot in occluded vessel can be seen on DWI"
+        },
+        {
+          "letter": "D",
+          "text": "Transverse sinus common site for hypoplastic segment variations that can mimic occlusion"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: Diagnostic Imaging: Brain. Page: I-4-96~98.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-128",
+      "year": 2016,
+      "number": 128,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下哪個心臟疾病不是造成腦部缺血性中風的原因?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acute myocardial infarction"
+        },
+        {
+          "letter": "B",
+          "text": "Atrial fibrillation"
+        },
+        {
+          "letter": "C",
+          "text": "Arrhythmogenic Right Ventricular Dysplasia"
+        },
+        {
+          "letter": "D",
+          "text": "infectious endocarditis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: NEJM, 373 (12), 1154-64, 2015",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-129",
+      "year": 2016,
+      "number": 129,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common cancer of a large pleural fluid collection in the newborn period ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CHF"
+        },
+        {
+          "letter": "B",
+          "text": "Congenital lofar emphyoema"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumosnia"
+        },
+        {
+          "letter": "D",
+          "text": "Chylothorax"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Imaging of the Newborn Ⅱ edition 2011, p.55",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-130",
+      "year": 2016,
+      "number": 130,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the characteristics of congenital cystic adenoid malformation, which of the following statement is wrong one ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hamartomatous malformation of the lung."
+        },
+        {
+          "letter": "B",
+          "text": "Usually unilateral, involving one lobe."
+        },
+        {
+          "letter": "C",
+          "text": "Microscopic type: small cysts with solid US appearance."
+        },
+        {
+          "letter": "D",
+          "text": "Type I CCAM cysts usually less than 2 cm, overall good prognosis."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Primer of diagnostic imaging pediatric imaging p.852",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-131",
+      "year": 2016,
+      "number": 131,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列關於 amyloidosis 的敘述何者為非? (A)典型 Amyloid deposition signal 在 T1WI&T2WI 皆為 low signal",
+      "options": [
+        {
+          "letter": "B",
+          "text": "經常合併有鈣化"
+        },
+        {
+          "letter": "C",
+          "text": "常見 Synovial thickening and bony erosion"
+        },
+        {
+          "letter": "D",
+          "text": "Plain X-ray 可見 Shoulder pad sign"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Musculoskeletal Image 2nd edition, Chapter 79, p.890-890.e7.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-132",
+      "year": 2016,
+      "number": 132,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列關於 Parosteal osteosarcoma 的敘述，何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A surface lesion wrapping around the underlying bone with a cleavage plane."
+        },
+        {
+          "letter": "B",
+          "text": "Often appears as a lobulated mass inside juxtacortical soft tissue with dense osteoid matrix."
+        },
+        {
+          "letter": "C",
+          "text": "The most common type of osteosarcoma."
+        },
+        {
+          "letter": "D",
+          "text": "A slow growing low-grade osteosarcoma with better differentiation and better prognosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: Musculoskeletal Imaging, The Requisites,3rd ed.p435-438.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-133",
+      "year": 2016,
+      "number": 133,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which structure is not injured in Gamkeeper’s Thumb?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ulnar collateral ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Radial collateral ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Base of proximal phalanx"
+        },
+        {
+          "letter": "D",
+          "text": "Metacarpophlalngeal joint"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Musculoskeletal Imaging-Case review series 2nd edition, p.184",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-134",
+      "year": 2016,
+      "number": 134,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement about US elastography is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "US elastography quantify the tissue stiffness, which was previously judged only subjectively by physical examination."
+        },
+        {
+          "letter": "B",
+          "text": "Stain elastography determine the relative strain or elasticity of tissue within an FOV."
+        },
+        {
+          "letter": "C",
+          "text": "Applying precompression can largely affect the result on both strain and shear wave elastography."
+        },
+        {
+          "letter": "D",
+          "text": "Strain elastography using ARFI as compressing force can serve as a quantification tool of tissue stiffness."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Breast elastography. p.3-9",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-135",
+      "year": 2016,
+      "number": 135,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者”不是” Hypertrophied column of Bertin 常見的超音波影像發 現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "continuous with renal cortex"
+        },
+        {
+          "letter": "B",
+          "text": "similar echotexure as normal renal cortex"
+        },
+        {
+          "letter": "C",
+          "text": "presence of renal surface indentations"
+        },
+        {
+          "letter": "D",
+          "text": "projection of cortex into the renal sinus"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: Sonography of the hypertrophied column of Bertin. AJR Am J Roentgenol. 1986;146 (1): 53-6.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-136",
+      "year": 2016,
+      "number": 136,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "shows a 6 cm right adrenal mass, which shows heterogeneous but peripheral enhancement, necrosis, and some calcifications. There is an early invasion of the IVC. Left adrenal gland is atrophied. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenal cortical carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Pheochromocytoma"
+        },
+        {
+          "letter": "C",
+          "text": "Adrenal neuroblastoma"
+        },
+        {
+          "letter": "D",
+          "text": "Adrenal adenoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "Ref: RadioGraphics 2004;24:435-452",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-137",
+      "year": 2016,
+      "number": 137,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "patella. Which following MRI findings is consistent with the clinical presentations?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bone edema involving medial facet of patella and medial femoral condyle"
+        },
+        {
+          "letter": "B",
+          "text": "Bone edema involving posterior patella and anterior aspect of the tibial plateau"
+        },
+        {
+          "letter": "C",
+          "text": "Bone edema involving medial facet of patella and lateral femoral condyle"
+        },
+        {
+          "letter": "D",
+          "text": "Bone edema involving lateral facet of patella and lateral femoral condyle"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: RadioGraphics 2003;20:S135-S151",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-138",
+      "year": 2016,
+      "number": 138,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "during exercise. Popliteal artery entrapment is suspected clinically. Which of the following statements regarding imaging of popliteal artery entrapment syndrome (PAES) is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In PAES, the popliteal artery is compressed with the ankle in the neutral position"
+        },
+        {
+          "letter": "B",
+          "text": "A normal Doppler ultrasound of the popliteal artery excludes the diagnosis"
+        },
+        {
+          "letter": "C",
+          "text": "In the normal popliteal fossa, the popliteal artery and vein pass lateral to the medial head of the gastrocnemius and are surrounded by fat"
+        },
+        {
+          "letter": "D",
+          "text": "Catheter angiography is the gold standard for the diagnosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: American Journal of Roentgenology 2007;189:S13-S16",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-139",
+      "year": 2016,
+      "number": 139,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "with pain in both hands. Which of the following findings on plain radiograph of the hands is atypical of skeletal sarcoidosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Joint space narrowing"
+        },
+        {
+          "letter": "B",
+          "text": "Bone erosions"
+        },
+        {
+          "letter": "C",
+          "text": "Subcutaneous soft tissue nodules/mass"
+        },
+        {
+          "letter": "D",
+          "text": "Lace like pattern of bone destruction"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "Ref: RadioGraphics 2004;24:87-104",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-140",
+      "year": 2016,
+      "number": 140,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "The tracheal bronchus most commonly arises from which of the following site?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Right tracheal wall, >2cm from tracheal bifurcation"
+        },
+        {
+          "letter": "B",
+          "text": "Right tracheal wall, <2cm from tracheal bifurcation"
+        },
+        {
+          "letter": "C",
+          "text": "Left tracheal wall, >2cm from tracheal bifurcation"
+        },
+        {
+          "letter": "D",
+          "text": "Left tracheal wall, <2cm from tracheal bifurcation"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 1",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-141",
+      "year": 2016,
+      "number": 141,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Calcified pulmonary metastatic nodules occurs commonly in the following except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteogenic sarcoma"
+        },
+        {
+          "letter": "B",
+          "text": "Mucinous adenocarcinoma of colon"
+        },
+        {
+          "letter": "C",
+          "text": "Thyroid carcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatocellular carcinoma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 112",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-142",
+      "year": 2016,
+      "number": 142,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following interstitial pnumonias is smoking-related?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lymphoid interstitial pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "Desquamative interstitial pneumonia"
+        },
+        {
+          "letter": "C",
+          "text": "Nonspecific interstitial pneumonia"
+        },
+        {
+          "letter": "D",
+          "text": "Usual interstitial pneumonia"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 420",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-143",
+      "year": 2016,
+      "number": 143,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the commonest location for spontaneous hypertensive intracranial hemorrhage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Putamen/external capsule"
+        },
+        {
+          "letter": "B",
+          "text": "Cerebellum"
+        },
+        {
+          "letter": "C",
+          "text": "Thalamus"
+        },
+        {
+          "letter": "D",
+          "text": "Pons •"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-144",
+      "year": 2016,
+      "number": 144,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "The effects of acute radiation syndromes are observed in the majority of the population at doses above which of the following? • (A) 10 Gy",
+      "options": [
+        {
+          "letter": "B",
+          "text": "1 Gy •"
+        },
+        {
+          "letter": "C",
+          "text": "25 Gy •"
+        },
+        {
+          "letter": "D",
+          "text": "1 Gy •"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Turner J: Chemical and biological effects of radiation. In Atoms, Radiation, and Radiation Protection. 3rd ed. Weinheim, Germany: Wiley-VCH. 215, 2007",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-145",
+      "year": 2016,
+      "number": 145,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common category of causes for splenomegaly? • (A) Neoplastic (e.g., lymphoma)",
+      "options": [
+        {
+          "letter": "B",
+          "text": "Inflammatory/infectious (e.g., mononucleosis) •"
+        },
+        {
+          "letter": "C",
+          "text": "Congestive (e.g., portal hypertension, heart failure) •"
+        },
+        {
+          "letter": "D",
+          "text": "Hematologic (e.g., hemoglobinopathy) •"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Ref: 1. Peck-Radosavljevic M: Hypersplenism. Eur J Gastroenterol Hepatol. 13(4):317-23, 2001",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-146",
+      "year": 2016,
+      "number": 146,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about a direct digital detector is correct? • (A) Direct exposure of a charge coupled device (CCD) chip by x-ray photons",
+      "options": [
+        {
+          "letter": "B",
+          "text": "X-ray photons are directly converted into visible light, which is • read with a digital detector"
+        },
+        {
+          "letter": "C",
+          "text": "X-ray photons are directly read as they strike the detector while • the exposure is taking place"
+        },
+        {
+          "letter": "D",
+          "text": "X-ray photons are directly converted into an electric charge, • which is read out after the exposure"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Chotas HG et al: Principles of digital radiography with large-area, electronically readable detectors: a review of the basics. Radiology. 210(3):595-9, 1999",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-147",
+      "year": 2016,
+      "number": 147,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the correct explanation for why a particular type of endoleak may occur after endovascular aortic repair (EVAR)? • (A) A type I endoleak occurs when patent branch vessels continue to perfuse the aneurysm sac",
+      "options": [
+        {
+          "letter": "B",
+          "text": "A type IV endoleak occurs when there is a tear in the • endograft fabric"
+        },
+        {
+          "letter": "C",
+          "text": "A type III endoleak occurs when there is separation of • overlapping endograft components"
+        },
+        {
+          "letter": "D",
+          "text": "A type II endoleak occurs when there is poor apposition of the • endograft to the vessel wall"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-148",
+      "year": 2016,
+      "number": 148,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the threshold for permanent sterility in males from an acute exposure, approximately? • (A) 1 Gy",
+      "options": [
+        {
+          "letter": "B",
+          "text": "10 Gy •"
+        },
+        {
+          "letter": "C",
+          "text": "1 Gy •"
+        },
+        {
+          "letter": "D",
+          "text": "6 Gy •"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Bushberg J et al: The Essential Physics of Medical Imaging 2nd ed. Philadelphia: Lippincott Williams & Wilkins. 831, 2002",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-149",
+      "year": 2016,
+      "number": 149,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following types of odontoid fracture is most common? • (A) Type III",
+      "options": [
+        {
+          "letter": "B",
+          "text": "Type I •"
+        },
+        {
+          "letter": "C",
+          "text": "Type IV •"
+        },
+        {
+          "letter": "D",
+          "text": "Type II •"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Ref: Pryputniewicz DM et al: Axis fractures. Neurosurgery. 66(3 Suppl):68-82, 2010",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-150",
+      "year": 2016,
+      "number": 150,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "be improved by the following reconstruction and post-processing techniques: 1. Smooth kernel and narrow window",
+      "options": [
+        {
+          "letter": "B",
+          "text": "Sharp kernel and narrow window"
+        },
+        {
+          "letter": "C",
+          "text": "Sharp kernel and wider window"
+        },
+        {
+          "letter": "D",
+          "text": "Smooth kernel and wider window Cardiac Computed Tomography Problem-Based Learning Page 28"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-151",
+      "year": 2016,
+      "number": 151,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "plaque?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Greater than 100HU units and 2mm3 選項"
+        },
+        {
+          "letter": "B",
+          "text": "Greater than 130HU units and 1mm3"
+        },
+        {
+          "letter": "C",
+          "text": "Greater than 130HU units and 2mm3"
+        },
+        {
+          "letter": "D",
+          "text": "Greater than 150HU units and 1mm3 Cardiac Computed Tomography Problem-Based Learning"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Page 52",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-152",
+      "year": 2016,
+      "number": 152,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下有關 Digital Breast Tomosynthesis (DBT)在乳房診斷的應用，以下何者有**誤**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Architectural distortion is better visualized in DBT, which is important in diagnostic examination due to high PPV for cancer in approximately 60% of cases."
+        },
+        {
+          "letter": "B",
+          "text": "In focal asymmetry, DBT can be used to confirm a finding as a true asymmetry, or reclassify it as a mass. DBT has higher sensitivity than spot compression views."
+        },
+        {
+          "letter": "C",
+          "text": "DBT is often effective in localizing one-view suspicious abnormalities, may help us to target the lesion location."
+        },
+        {
+          "letter": "D",
+          "text": "Due to thin slices provided, DBT is usually better in visualizing the individual morphology of microcalcifications."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "DBT看鈣化沒比較好",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-153",
+      "year": 2016,
+      "number": 153,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is **wrong** about the following descriptions of Digital Breast Tomosynthesis (DBT)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In screening population, DBT have significantly reduced callback rate than 2D mammography."
+        },
+        {
+          "letter": "B",
+          "text": "Better conspicuity of microcalcifications in DBT, in both morphology and distribution."
+        },
+        {
+          "letter": "C",
+          "text": "Better conspicuity of lesions in DBT, especially the architectural distortion and lesion margins."
+        },
+        {
+          "letter": "D",
+          "text": "Problem solve with DBT images may alleviate the need for additional diagnostic images."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "根據[[Digital Breast Tomosynthesis -  Technique and Common Artifacts#增加掃描角度 Sweep Angle]]的說明，sweep angle越小，microcalcification越好看。傳統FFDM可當作sweep angle=0，DBT反而不好看。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-154",
+      "year": 2016,
+      "number": 154,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 Phyllodes tumor of breast 的敘述，下列何者為**非**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Phyllodes tumor generally presents as larger mass. The median size of the tumor is 4~5 cm."
+        },
+        {
+          "letter": "B",
+          "text": "Local recurrence following surgical excision is very rare."
+        },
+        {
+          "letter": "C",
+          "text": "On mammography, phyllodes tumor is typically revealed as well-circumscribed, lobulated mass."
+        },
+        {
+          "letter": "D",
+          "text": "General sonographic features are non specific and can mimic that of a fibroadenoma"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "~~rare~~ 容易復發",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-155",
+      "year": 2016,
+      "number": 155,
+      "years": [
+        2016,
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is **NOT** a typical image finding of endometrioma on MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyperintensity on T1WI"
+        },
+        {
+          "letter": "B",
+          "text": "Hypointensity on T2WI"
+        },
+        {
+          "letter": "C",
+          "text": "Hypervascular on post-contrast images"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are typical image findings"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "(DI: GYN) 可以有 wall enhancement，但如果出現 enhancing mural nodule 要考慮 malignant transformation",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-156",
+      "year": 2016,
+      "number": 156,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of adenomyomatosis of gallbladder?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffuse gallbladder wall thickening"
+        },
+        {
+          "letter": "B",
+          "text": "Focal gallbladder wall thickening"
+        },
+        {
+          "letter": "C",
+          "text": "Comet-tail artifacts"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are typical image findings"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-157",
+      "year": 2016,
+      "number": 157,
+      "years": [
+        2016
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to the revised Atlanta classification system, which of the following terms describes a necrotic collection that persists 4 weeks after the onset of necrotizing pancreatitis and develops a discrete wall?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fluid collection."
+        },
+        {
+          "letter": "B",
+          "text": "Pancreatic abscess."
+        },
+        {
+          "letter": "C",
+          "text": "Pseudocyst."
+        },
+        {
+          "letter": "D",
+          "text": "WON (Walled-off necrosis)."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-158",
+      "year": 2016,
+      "number": 158,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "The CT severity index (CTSI) for acute pancreatitis is based on the Balthazar score, and is probably the most used CT score. Which of the following is **not** included in the parameters of the scoring systems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peri-pancreatic stranding"
+        },
+        {
+          "letter": "B",
+          "text": "The percentage of pancreatic necrosis"
+        },
+        {
+          "letter": "C",
+          "text": "Effacement of the pancreatic lobular contours"
+        },
+        {
+          "letter": "D",
+          "text": "Pleural effusion"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "The original CT severity index has a number of limitations:\n- complications like organ failure, do not correlate well with the score given by original CTSI\n- interobserver variability with original CTSI can result in different scores for the same patient\n- patients with >30% necrosis have similar morbidity and mortality\n- Modified CTSI才看pleural effusion",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-159",
+      "year": 2016,
+      "number": 159,
+      "years": [
+        2016
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following pulse sequences is **not** included in so called multiparametric prostate magnetic resonance imaging (MRI)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffusion weighted image"
+        },
+        {
+          "letter": "B",
+          "text": "Apparent diffusion coefficient (ADC) map"
+        },
+        {
+          "letter": "C",
+          "text": "Opposed phased image"
+        },
+        {
+          "letter": "D",
+          "text": "Dynamic contrast enhanced (DCE) image"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-160",
+      "year": 2016,
+      "number": 160,
+      "years": [
+        2016
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下何者**不**屬於 Xanthogranulomatous pyelonephritis 常見的現象?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a staghorn calculus"
+        },
+        {
+          "letter": "B",
+          "text": "absent or diminished excretion of contrast medium"
+        },
+        {
+          "letter": "C",
+          "text": "presence of pseudoaneurysms"
+        },
+        {
+          "letter": "D",
+          "text": "extension of the inflammatory process to the perinephric space"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "上面影像敘述沒提到血管的問題。\nA. typical. B. 腎臟nonfunction. D. Stage 2.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-161",
+      "year": 2016,
+      "number": 161,
+      "years": [
+        2016
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "_E. coli_ is the most common pathogen behind many urological conditions. All of the following conditions are most commonly due to _E. coli_ infections **excepts**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Xanthogranulomatous pyelonephritis"
+        },
+        {
+          "letter": "B",
+          "text": "Emphysematous pyelonephritis"
+        },
+        {
+          "letter": "C",
+          "text": "Pyeloureteritis cystica"
+        },
+        {
+          "letter": "D",
+          "text": "Malakoplakia"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "最常見的致病菌是Proteus和 E. coli. Proteus可能略多，考這可能太細。\nB.  E coli, Klebsiella pneumonia, and Proteus mirabilis 最常見(Radiopaedia)\nC. 最常見是E. coli 其他還有TB, Enterococcus, Proteus spp., Schistosomiasis等等(Radiopaedia)\nD. 在Urotract常見致病菌是E. coli or Proteus (Radiopaedia)",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-162",
+      "year": 2016,
+      "number": 162,
+      "years": [
+        2016
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the imaging features of multifocal angioinvasive aspergillosis in an immunocompromised patient, which of the followings is **false**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple nodules with strong ring enhancement"
+        },
+        {
+          "letter": "B",
+          "text": "Reduced diffusion pattern is frequently heterogeneous"
+        },
+        {
+          "letter": "C",
+          "text": "Diffusion restriction could be ring-like and peripheral"
+        },
+        {
+          "letter": "D",
+          "text": "On T2WI, the areas of low signal intensity at the periphery of the lesions may correspond to hemorrhages"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "MRI: reduced diffusion and weak ring enhancement.\n- Angioinvasive aspergillosis: multifocal hemorrhagic lesions with reduced diffusion.\n- Cryptococcosi: gelatinous pseudocyst formation in the basal ganglia.\n- Mucormycosis: frontal lesions with markedly reduced diffusion.\n- Candidiasis: microabscesses of less than 3 mm\n- Coccidioidomycosis: meningitis with contrast enhancement of the basal cisterns.\n- Blastomycosis and histoplasmosis: parenchymal abscesses or meningitis",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-163",
+      "year": 2016,
+      "number": 163,
+      "years": [
+        2016
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cigarette smoking is related to the development of lymphangioleiomyomatosis (LAM), pulmonary Langerhans cell histiocytosis (PLCH), and idiopathic pulmonary fibrosis (IPF)"
+        },
+        {
+          "letter": "B",
+          "text": "Thin walled cysts throughout the lung with subpleural sparing is the most common finding of LAM."
+        },
+        {
+          "letter": "C",
+          "text": "Nodules and cysts in upper and mid lungs with subpleural sparing are characteristic findings of PLCH."
+        },
+        {
+          "letter": "D",
+          "text": "Honeycombing in lower lungs with subpleural sparing is predominant in IPF."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "(A) no LAM (B) no subpleural sparing; diffuse; child bearing woman  (C) Young adult(20-40 yr) (D) no subpleural sparing (Basal, subpleural predominant).\n![[ADD ILD.png]]",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-164",
+      "year": 2016,
+      "number": 164,
+      "years": [
+        2016
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the characteristics of extralobar pulmonary sequestration, which of the following statement is **wrong** one ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "90% are left-sided."
+        },
+        {
+          "letter": "B",
+          "text": "Males are more common."
+        },
+        {
+          "letter": "C",
+          "text": "The arterial supply is usually systemic."
+        },
+        {
+          "letter": "D",
+          "text": "The venous drainage usually flows into pulmonary vein."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Intralobar回流至PV，Extralobar回到systematic veins。\nA. 不同書寫的比例不同。如果是Radiology review manual是80%\nB. Intralobar 男女相同，Extralobar M/F=4/1",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-165",
+      "year": 2016,
+      "number": 165,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "About rhinocerebral mucormycosis, which of the following descriptions is **false**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typically affecting diabetic or immunocompromised patients"
+        },
+        {
+          "letter": "B",
+          "text": "A necrotizing vasculitis that extends rapidly into deep face, orbits, cranial cavity, and brain"
+        },
+        {
+          "letter": "C",
+          "text": "Enhancement patterns are variable, ranging from homogeneous to heterogenous or non-enhancing at all."
+        },
+        {
+          "letter": "D",
+          "text": "Signal intensity of mucormycosis lesions tends to be hyperintense on T2WI and hypointensity on T1WI"
+        },
+        {
+          "letter": "E",
+          "text": "May result in cerebral infarction"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": ": Variable T2(20% high); iso T1\nT1: isointense lesions relative to brain in most cases (~80%)\nT2: fungal elements themselves tend to have low signal on T2\n       variable with around 20% of patients showing high T2 signal\nT1 C+ (Gd): the devitalised mucosa appears non-enhancing tissue, leading to he black turbinate sign\n- **A) TRUE** — 搜尋資料明確指出 ROCM 好發於糖尿病控制不佳及免疫抑制患者。\n- **B) TRUE** — PMC 文獻描述 Mucorales 造成 necrotizing vasculitis，經顱底孔道及裂隙迅速擴散至深部面部、眼眶及腦部。\n- **C) TRUE** — 影像文獻記載顯影模式多變，從均勻顯影、不均勻顯影到完全不顯影（壞死組織）皆可出現。\n- **D) ❌ FALSE** — 這是本題的錯誤選項。根據搜尋資料，ROCM 病灶在 **T1WI 多呈等訊號（80%）**，而 **T2WI 傾向等訊號至低訊號**（僅 20% 呈高訊號）。T2 低訊號是因為真菌菌絲含有順磁性物質（鐵、錳），這恰好與一般感染性病灶的 T2 高訊號相反，是重要的鑑別線索。選項描述的「T2 hyperintense, T1 hypointense」是典型發炎/水腫的訊號特徵，並非 mucormycosis 的特點。\n- **E) TRUE** — 真菌的血管侵襲性造成血管血栓，可導致腦梗塞，文獻中有明確記載。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-166",
+      "year": 2016,
+      "number": 166,
+      "years": [
+        2016
+      ],
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is **wrong**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangioblastoma is the most common retinal tumor in the children and associated with von Hippel Lindau disease."
+        },
+        {
+          "letter": "B",
+          "text": "Many benign and malignant entities share clinical and imaging features with rhabdomyosarcoma, but the presence of unilateral, rapidly progressive proptosis must always raise concern for rhabdomyosarcoma."
+        },
+        {
+          "letter": "C",
+          "text": "Children calcifications in the globe mean retinoblastoma until proven otherwise even if it is bilateral."
+        },
+        {
+          "letter": "D",
+          "text": "Retinoblastoma is usually detected through leukocoria as it occurs in two third of patients with retinoblastoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "A. 最常見是retinoblastoma。Hemangioblastoma（retinal capillary hemangioblastoma）與 von Hippel-Lindau disease 相關是正確的\nB. **正確**。單側快速進展的 proptosis 必須先考慮 rhabdomyosarcoma。\nC.  **正確**。Retinoblastoma 30-40%是雙側。遺傳型多為雙側且多焦點。\nD. **正確**。Leukocoria 出現在約三分之二的 retinoblastoma 患者中，是最常見的臨床表現。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-167",
+      "year": 2016,
+      "number": 167,
+      "years": [
+        2016
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者**非**hemophilic arthropathy的表現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enlarged femoral condyle with widened intercondylar notch."
+        },
+        {
+          "letter": "B",
+          "text": "Enlarged humeral head with osteophytes formation."
+        },
+        {
+          "letter": "C",
+          "text": "Squared patella."
+        },
+        {
+          "letter": "D",
+          "text": "Talar collapse, mimicking a Charcot joint."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "Ref: Musculoskeletal Image 2nd edition, Chapter 73, p.870.e16.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-168",
+      "year": 2016,
+      "number": 168,
+      "years": [
+        2016
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which ONE of the following findings is not usually identified in the cervical spine radiography of rheumatoid patients?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caudal migration of C2"
+        },
+        {
+          "letter": "B",
+          "text": "Fusion of apophyseal joints"
+        },
+        {
+          "letter": "C",
+          "text": "Atlantoaxial subluxation"
+        },
+        {
+          "letter": "D",
+          "text": "Erosion of odontoid"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "~~Caudal~~**Cranial** migration",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-169",
+      "year": 2016,
+      "number": 169,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement of artery of Adamkiewicz is **incorrect**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A dominant, great anterior medullary artery usually in the thoracolumbar region"
+        },
+        {
+          "letter": "B",
+          "text": "Typically with the “coathook” configuration"
+        },
+        {
+          "letter": "C",
+          "text": "Usually with ascending and descending branches to the anterior spinal artery"
+        },
+        {
+          "letter": "D",
+          "text": "Most commonly arises from the left side between T9 and T12"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "**hairpin**. Coathook configuration是指anterior radiculomedullary **vein**, anterior spinal vein之間的夾角。不過影像不容易區分A/V只能看大小。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-170",
+      "year": 2016,
+      "number": 170,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is **WRONG** about typical image appearance of brain cavernous hemangioma (cavernous angioma/cavernoma)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mixed internal signal intensities with peripheral hypointensity"
+        },
+        {
+          "letter": "B",
+          "text": "Rarely showing perifocal edema unless recent hemorrhage"
+        },
+        {
+          "letter": "C",
+          "text": "May associated with developmental venous anomaly"
+        },
+        {
+          "letter": "D",
+          "text": "Never shows enhancement"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "No difference was found between the contrast enhancement of cavernomas and AVMs.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-171",
+      "year": 2016,
+      "number": 171,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "一位三歲男孩的 Brain MRI 顯示 cerebellar tonsil 位於 foramen magnum 之下，請問以下何種表現支持 Chiari I malformation 的診斷？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "callosal dysgenesis"
+        },
+        {
+          "letter": "B",
+          "text": "myelomeningocele"
+        },
+        {
+          "letter": "C",
+          "text": "medullary spur"
+        },
+        {
+          "letter": "D",
+          "text": "craniosynostosis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Chiari I可能與craniosynostosis有關，特別是當這導致posterior fossa後顱窩空間不足的時候。\n- Essential of Osborn's brain: Many patients with CM1 demonstrate abnormal geometry of the bony posterior fossa (“normal-sized hindbrain housed in a too-small bony envelope”).\n- Osborn's brain 2/e: 10% of patients with nonsyndromic single-suture craniosynostosis have CM1.\n- A. Chiari II malformation可能合併：corpus callosal dysgenesis, heterotopias, and sulcation abnormalities.\n- B.  Chiari II malformation ：特別指和 Myelomeningocele 脊髓脊膜膨出一起發生的腦部畸形",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-172",
+      "year": 2016,
+      "number": 172,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於 Empty sella ，下列敘述何者**錯誤** ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bony sella 可能會擴大"
+        },
+        {
+          "letter": "B",
+          "text": "可以有正常的 pituitary gland enhancement"
+        },
+        {
+          "letter": "C",
+          "text": "MRI 的訊號和 CSF 相同"
+        },
+        {
+          "letter": "D",
+          "text": "因為 dorsum sellae defect 所造成"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "diaphragma sellae defect",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-173",
+      "year": 2016,
+      "number": 173,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於CNS germinoma下列敘述何者**錯誤**",
+      "options": [
+        {
+          "letter": "A",
+          "text": "90% 病人年紀小於20歲"
+        },
+        {
+          "letter": "B",
+          "text": "女性約為男性的10倍"
+        },
+        {
+          "letter": "C",
+          "text": "大部份位於中線在第三腦室附近"
+        },
+        {
+          "letter": "D",
+          "text": "可以發生於basal ganglia或thalami"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "不同位置男女比不一樣，在pineal男性>女性(5-22:1)，而suprasellar男女比為1:1.3。整體而言**男>女** (Radiopaedia)\nA. 正確。Age: **2 peaks** - **0-2 & 13-19** 歲. Only 9% > 30歲\nC. 正確。Pineal佔一半，suprasellar佔約1/3，其他不在midline不到10%。參考[[Germ cell tumor 影像表現]]\nD. \"可以\" 通常是正確的。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-174",
+      "year": 2016,
+      "number": 174,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement is **wrong**:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lenticulostriate arteries arise from the proximal MCA."
+        },
+        {
+          "letter": "B",
+          "text": "Lenticulostriate arteries enter the brain through the medial 2/3 of the anterior perforated substance."
+        },
+        {
+          "letter": "C",
+          "text": "Lenticulostriate arteries average 9-10.4 (range 1-21) in number."
+        },
+        {
+          "letter": "D",
+          "text": "Lentioculostriate arteries measured about 100-2,200 micrometer in diameter at origin."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "lateral. medial from ACA. Anterior perforated substance derives its name from the numerous small holes created by lenticulostriate arteries, perforating arteries of the anterior and middle cerebral arteries which travel through this area and supply the internal capsule and the structures of the basal ganglia.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-175",
+      "year": 2016,
+      "number": 175,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者**不**屬於posterior cerebral artery的分支?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thalamogeniculate artery"
+        },
+        {
+          "letter": "B",
+          "text": "Marginal tentorial artery"
+        },
+        {
+          "letter": "C",
+          "text": "Perisplenial artery"
+        },
+        {
+          "letter": "D",
+          "text": "Lateral posterior choroidal artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "From meningohypophyseal trunk (MHT, posterior trunk): C4 segment of the ICA. ![[ADD PCA branches.png]]",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-176",
+      "year": 2016,
+      "number": 176,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Usually, the inferior sagittal sinus will join the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "superior sagittal sinus"
+        },
+        {
+          "letter": "B",
+          "text": "straight sinus"
+        },
+        {
+          "letter": "C",
+          "text": "vein of Galen"
+        },
+        {
+          "letter": "D",
+          "text": "confluence of sinsues"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Vein of Galen drain into the confluence of the inferior sagittal sinus and the straight sinus.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-177",
+      "year": 2016,
+      "number": 177,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which vein does **not** belong to the deep venous system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The internal cerebral vein"
+        },
+        {
+          "letter": "B",
+          "text": "The basal vein of Rosenthal"
+        },
+        {
+          "letter": "C",
+          "text": "The vein of Galen."
+        },
+        {
+          "letter": "D",
+          "text": "The superior anastomotic vein of Trolard."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "superf. venous system",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-178",
+      "year": 2016,
+      "number": 178,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which structure is **not** included in the masticator space?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Temporalis muscle"
+        },
+        {
+          "letter": "B",
+          "text": "Pterygoid plate"
+        },
+        {
+          "letter": "C",
+          "text": "Masseter muscle"
+        },
+        {
+          "letter": "D",
+          "text": "Mandibular division of trigeminal nerve"
+        },
+        {
+          "letter": "E",
+          "text": "Mandible ramus"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "![[ADD masticator space 1.png]]![[ADD masticator space 2.png]]\nanteriorly: buccal space\nposterolaterally: parotid space\nmedially: parapharyngeal space\nThe inner layer runs deep to the medial pterygoid muscle and attaches to the skull base medial to foramen ovale.\nThe outer layer covers the masseter and temporalis muscles and attaches to the parietal calvaria superiorly",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-179",
+      "year": 2016,
+      "number": 179,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements is not characterizing Lemierre Syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Also known as suppurative thrombophlebitis of the internal jugular vein."
+        },
+        {
+          "letter": "B",
+          "text": "Typically necrobacillosis, an anaerobic Gram-positive cocci, Fusobacterium necrophorum, is responsible for a majority of cases. Gram-negative cocci"
+        },
+        {
+          "letter": "C",
+          "text": "Infection spreads from the peritonsillar space into the internal jugular vein, causing thrombus formation."
+        },
+        {
+          "letter": "D",
+          "text": "The rates of morbidity and mortality are higher than with other head and neck infections."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "(B?) C. parapharyngeal space B. Gram-negative bacillus\n- pharyngitis/tonsillitis with or without peritonsillar or retropharyngeal abscess\n- During the primary infection, F. necrophorum colonizes the infection site and the infection spreads to the parapharyngeal space. The bacteria then invade the peritonsillar blood vessels where they can spread to the internal jugular vein. In this vein, the bacteria cause the formation of a thrombus containing these bacteria.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-180",
+      "year": 2016,
+      "number": 180,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Lemierre's syndrome, which of the following statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Also known as postanginal sepsis and necrobacillosis, is the suppurative thrombophlebitis of jugular vein."
+        },
+        {
+          "letter": "B",
+          "text": "The condition is frequently preceded by pharyngitis, usually in association with tonsil or peritonsillar involvement."
+        },
+        {
+          "letter": "C",
+          "text": "The causative organisms are usually members of the normal oropharyngeal flora; the most common is Fusobacterium necrophorum"
+        },
+        {
+          "letter": "D",
+          "text": "Imaging hallmark include pharyngitis, infectious lymphadenitis, and thrombosis of jugular vein. Septic emboli to lungs are rare."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "Bacteremia and distal infective thromboembolism is common (lungs most commonly affected). A significant proportion of patients (13% to 27%) will require diagnostic arthrocentesis due to symptoms of septic arthritis. Meningitis has also been shown to complicate up to 3% of cases.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-181",
+      "year": 2016,
+      "number": 181,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to the 2010 McDonald MRI criteria for multiple sclerosis, DIS (dissemination in space) can be demonstrated with at least one T2 lesion in at least 2 of 4 following locations characteristic for MS **EXCEPT**…",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Periventricular"
+        },
+        {
+          "letter": "B",
+          "text": "Juxtacortical"
+        },
+        {
+          "letter": "C",
+          "text": "Optic nerves"
+        },
+        {
+          "letter": "D",
+          "text": "Infratentorial"
+        },
+        {
+          "letter": "E",
+          "text": "Spinal cord"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-182",
+      "year": 2016,
+      "number": 182,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Among the so called carotid-vertebrobasilar anastomoses, which of the following is the one less reported or documented:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "proatlantal artery type 1"
+        },
+        {
+          "letter": "B",
+          "text": "persistent hypoglossal artery"
+        },
+        {
+          "letter": "C",
+          "text": "persistent otic artery"
+        },
+        {
+          "letter": "D",
+          "text": "persistent trigeminal artery"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "otic最少見",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-183",
+      "year": 2016,
+      "number": 183,
+      "years": [
+        2016,
+        2017
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者**未**與 pterygopalatine fossa 相連?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Foramen ovale"
+        },
+        {
+          "letter": "B",
+          "text": "Inferior orbital fissure"
+        },
+        {
+          "letter": "C",
+          "text": "Vidian canal"
+        },
+        {
+          "letter": "D",
+          "text": "Foramen rotumdum"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-184",
+      "year": 2016,
+      "number": 184,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement was **correct**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DWI is regarded as the best sequence for differentiation of ring-enhancing pyogenic abscess from necrotic tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Fungal diseases of the CNS are usually opportunistic infections resulting from hematogenous dissemination in susceptible hosts."
+        },
+        {
+          "letter": "C",
+          "text": "Toxoplasmosis is the most common opportunistic infection affecting the CNS in patients with AIDS"
+        },
+        {
+          "letter": "D",
+          "text": "All above were correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-185",
+      "year": 2016,
+      "number": 185,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "一位 10 歲的男孩因行為異常及課業落後而求診，MRI T2-weighted 影像可見雙側 peritrigone white matter 有對稱性 high signal 病灶；施打對比劑後，在病灶的邊緣可見 enhancement。請問下列何者較可能為適切的診斷？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X-link adrenoleukodystrophy"
+        },
+        {
+          "letter": "B",
+          "text": "Alexander disease"
+        },
+        {
+          "letter": "C",
+          "text": "Globoid Cell Keudokystrophy (Krabbe Disease)"
+        },
+        {
+          "letter": "D",
+          "text": "Multiple slcerosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "trigone是後側。\nAlexander偏前側，Krabbe會在小腦。MS不會只在後側，也不對稱。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-186",
+      "year": 2016,
+      "number": 186,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is **WRONG** about capillary telangiectasia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most commonly found in pons."
+        },
+        {
+          "letter": "B",
+          "text": "Dilated capillaries without intervening brain parenchyma."
+        },
+        {
+          "letter": "C",
+          "text": "Most lesions are clinically silent"
+        },
+        {
+          "letter": "D",
+          "text": "Lacelike re of stippled enhancement with no more subtle signal change on non-contrast spin-echo sequences."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "dilated capillaries and are interspersed with normal brain parenchyma with a thin endothelial lining but no vascular smooth muscle of elastic fibre lining.",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-187",
+      "year": 2016,
+      "number": 187,
+      "years": [
+        2016
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is **wrong** about “pituicytoma”",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rare primary tumor of the adult adenohypophysis."
+        },
+        {
+          "letter": "B",
+          "text": "WHO grade I of CNS tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Sellar or suprasellar tumor"
+        },
+        {
+          "letter": "D",
+          "text": "Immunoreactive for vimentin, S-100 protein, epithelial membrane antigen (EMA) and glial fibrillary acidic protein (GFAP)."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "neurohypophysis and infundibulum of the pituitary gland. ~~adenohypophysis~~\nD. 大致正確但有爭議。\n- GFAP, EMA: variable。另外TTF1(positive) (Radiopaedia)\n- vimentin、S-100、GFAP 通常為陽性，但 EMA 僅偶爾為陽性（occasionally positive） [^6]",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-188",
+      "year": 2016,
+      "number": 188,
+      "years": [
+        2016
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements is **NOT** included in the triad of prune belly syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Widely separated abdominal rectus muscles"
+        },
+        {
+          "letter": "B",
+          "text": "Spinal bifida"
+        },
+        {
+          "letter": "C",
+          "text": "Hydroureteronephrosis"
+        },
+        {
+          "letter": "D",
+          "text": "Cryptorchidism"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-189",
+      "year": 2016,
+      "number": 189,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common type of Salter Harris fracture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type 1"
+        },
+        {
+          "letter": "B",
+          "text": "Type 2"
+        },
+        {
+          "letter": "C",
+          "text": "Type 3"
+        },
+        {
+          "letter": "D",
+          "text": "Type 4"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "",
+      "explanation": "![[ADD Salter Harris fr types 2.png]] Type 2 75% > Type 3,4 (10%) > Type 1 (5%) > Type 5 (~1%)",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-190",
+      "year": 2016,
+      "number": 190,
+      "years": [
+        2016
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an uncommon cause of hydronephrosis in children."
+        },
+        {
+          "letter": "B",
+          "text": "Urinary tract infection is the most common presentation."
+        },
+        {
+          "letter": "C",
+          "text": "Females and males are affected equally."
+        },
+        {
+          "letter": "D",
+          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "- **(A) 錯**：UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n- **(B) 錯**：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n- **(C) 錯**：男性多於女性。\n- **(D) 正確**：Crossing vessel 的存在會**降低 endopyelotomy 的成功率**（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-191",
+      "year": 2016,
+      "number": 191,
+      "years": [
+        2016
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which ultrasound feature is **not** suspicious for thyroid malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Markedly hypoechoic"
+        },
+        {
+          "letter": "B",
+          "text": "Taller than wide in transverse plane"
+        },
+        {
+          "letter": "C",
+          "text": "Enlarged thyroid with multiple nodules"
+        },
+        {
+          "letter": "D",
+          "text": "Microcalcifications"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-192",
+      "year": 2016,
+      "number": 192,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "About ultrasonogrpahy artifacts, which description is **incorrect**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solid masses that attenuate sound less than adjacent soft tissues may cause **posterior enhancement**."
+        },
+        {
+          "letter": "B",
+          "text": "Bone and the back wall of the carotid can act as **mirrors** for color Doppler imaging due to marked contrast between soft tissue and vascular structure."
+        },
+        {
+          "letter": "C",
+          "text": "The **ring down** artifact occurs posterior to air-bubbles, because ultrasound cause resonate vibration of the fluid trapped between bubbles."
+        },
+        {
+          "letter": "D",
+          "text": "The most widely recognized **refraction** artifact occurs at the junction of the rectus abdominis muscle and abdominal wall fat."
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "",
+      "explanation": "A. Attenuation 衰減：聲波在介質中傳播時振幅和強度會慢慢減少。衰減較少後方較強\nD. The most widely recognized **refraction** artifact occurs at the junction of the rectus abdominis muscle and abdominal wall fat. 來源?",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-193",
+      "year": 2016,
+      "number": 193,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is **incorrect** about ultrasound artifact",
+      "options": [
+        {
+          "letter": "A",
+          "text": "**Ring down** occurs most frequently due to gas, and metal is also capable of producing a ring-down artifact."
+        },
+        {
+          "letter": "B",
+          "text": "A high resistance arterial waveform in spermatic artery may be the only imaging finding in partial torsion."
+        },
+        {
+          "letter": "C",
+          "text": "**Aliasing** is a well-known artifact that occurs when the Doppler sampling rate is more than twice the Doppler frequency shift"
+        },
+        {
+          "letter": "D",
+          "text": "None of above. (All of above are correct)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "Nyquist limit=PRF/2。超過會產生 aliasing artifact。主要是sampling rate不夠快。所以應該是less than。![[ADD US Aliasing artifact.png]] Doppler中 upper margin of the velocity scale調太低也會導致(波峰被截斷，出現在基線對側（wrap-around）)。\n- A. Ring-Down appears mostly due to gas (rather than metal, as in the case of comet tail artifact)\n- B. intratesticular arteries 正常是低阻力，阻力變大要懷疑partial torsion。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-194",
+      "year": 2016,
+      "number": 194,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding lung cancer, which of the following statement is **NOT** correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In small cell lung cancer, when tumor and metastatic lesion cannot be encompassed in the same radiation port, it is called extensive disease."
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma is the most common cell type of lung cancer in women and nonsmokers."
+        },
+        {
+          "letter": "C",
+          "text": "Atypical adenomatous hyperplasia, adenocarcinoma in situ, and minimally invasive adenocarcinoma are staged in the 8th edition of TNM system."
+        },
+        {
+          "letter": "D",
+          "text": "Pleural thickening adjacent to the tumor seen in CT is not very accurate for chest wall invasion."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "**選項 (A) ✅ 正確**\n- SCLC 的 extensive disease 定義源自 VALSG 分類系統，指的是腫瘤負擔無法被一個放射治療照野涵蓋的情況，包括惡性肋膜積液及/或遠處轉移 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6003267/)。\n- limited disease 是指腫瘤侷限於同側胸腔、縱隔腔或鎖骨上淋巴結，可被涵蓋在一個可耐受的放射治療照野內 [NCI](https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq)。因此，當腫瘤和轉移病灶無法涵蓋在同一個放射治療照野內，即為 extensive disease，敘述正確。\n**選項 (B) ✅ 正確** Adenocarcinoma 是女性及非吸菸者最常見的肺癌細胞型態，這是公認的事實。\n**選項 (C) ❌ 不正確 ← 答案** 關鍵在於 **AAH（atypical adenomatous hyperplasia）並未被納入第八版 TNM 分期系統**。根據 IASLC 肺癌分期計畫的提案：AAH 雖然被列為肺腺癌的癌前病變，但它類似於鱗狀上皮不典型增生（squamous dysplasia），因此不被納入 TNM 分類 [Journal of Thoracic Oncology](https://www.jto.org/article/S1556-0864\\(16\\)30335-5/fulltext)。\n第八版 TNM 的新增分類是：\n- **AIS → Tis**（adenocarcinoma in situ）\n- **MIA → T1mi**（minimally invasive adenocarcinoma）\n**選項 (D) ✅ 正確** CT 上腫瘤旁的肋膜增厚對於胸壁侵犯的判斷確實不太準確。研究顯示CT 評估胸壁侵犯的敏感度僅 38%，特異度 40%，準確度 39% [PubMed](https://pubmed.ncbi.nlm.nih.gov/3871560/)。另有研究指出在 54% 的病例中觀察到腫瘤附近的局部肋膜增厚，但其中超過一半雖有鈍角接觸卻並無腫瘤侵犯 [PubMed](https://pubmed.ncbi.nlm.nih.gov/1315670/)。CT 評估胸壁侵犯的敏感度範圍為 38%-87%，特異度為 40%-90%，唯一可靠的標準是明確的骨質破壞 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC2072091/)。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-195",
+      "year": 2016,
+      "number": 195,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following image finding of uterine cervical cancer on MRI does not affect cancer TNM staging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor invasion to uterine body"
+        },
+        {
+          "letter": "B",
+          "text": "Tumor invasion to parametrium"
+        },
+        {
+          "letter": "C",
+          "text": "Hydronephrosis"
+        },
+        {
+          "letter": "D",
+          "text": "Pelvic lymphadenopathy"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "",
+      "explanation": "I: confine at cervix\nII: not at lower third vagina, pelvic wall\nIII: lower third vagina, pelvis parametrium\nIV: other organ (rectum, bladder)",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-196",
+      "year": 2016,
+      "number": 196,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "According to the AJCC’s 7th edition TNM staging system of breast cancer, which of the following statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tis – carcinoma in situ (DCIS, LCIS, Paget disease of the nipple not associated with invasive carcinoma)"
+        },
+        {
+          "letter": "B",
+          "text": "T1mi – Invasive carcinoma with tumor equal or less than 1mm"
+        },
+        {
+          "letter": "C",
+          "text": "T2 – tumor > 20 mm but equal or less than 50 mm"
+        },
+        {
+          "letter": "D",
+          "text": "T4a – tumor extension to pectoralis major or minor"
+        },
+        {
+          "letter": "E",
+          "text": "T4b – uncertain, ipsilateral satellite nodules, and/or edema of the skin (including peau d’orange)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "",
+      "explanation": "A. LCIS 7th 時還是, 8TH 時不是 D. 要 invasion chest wall ![[ADD AJCC8 breast.png]]\n\n\n# H&N 1",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2016-197",
+      "year": 2016,
+      "number": 197,
+      "years": [
+        2016
+      ],
+      "subspecialty": "Unknown",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 Proton density-weighted images，下列何項敘述為**非**？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PD images have a signal-to-noise ratio (SNR) that is higher than any comparable T1-weighted or T2W image."
+        },
+        {
+          "letter": "B",
+          "text": "In some musculoskeletal applications, differences in PD within tissue elements is inherently high so that PDW imaging provides both excellent contrast and superior SNR."
+        },
+        {
+          "letter": "C",
+          "text": "Short TR and long TE produces proton density-weighted images."
+        },
+        {
+          "letter": "D",
+          "text": "In detection of multiple sclerosis plaques in posterior fossa, lesions could be more conspicuous on PD than on FLAIR due to better SNR."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "",
+      "explanation": "短TR和長TE產生T2加權影像，而不是proton density-weighted images。而長TR和短TE則產生T1加權影像。\nFLAIR has been shown to be superior to PD-weighted sequences in the detection of MS lesions in the cerebral hemispheres. However, PD-weighted imaging remains the investigation of choice for infratentorial lesions.",
       "images": [],
       "concepts": [],
       "checked": false
