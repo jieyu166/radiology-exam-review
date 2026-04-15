@@ -74,7 +74,7 @@
       "id": "2016-003",
       "year": 2016,
       "number": 3,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "What was the principal finding of the ACCURACY (Assessment by Coronary Computed Tomographic Angiography of Individuals Undergoning Invasive Coronary Angiography) trial in terms of detection of > 70% stenosis?",
       "options": [
@@ -88,27 +88,30 @@
         },
         {
           "letter": "C",
-          "text": "Sensitivity >90%, PPV> 90%, NPV > 90% Diagnostic performance of 64-multidetector row coronary computed tomographic angiography for evaluation of coronary artery stenosis in individuals without known coronary artery disease: results from the prospective multicenter ACCURACY trial. J Am Coll Cardiol. 52 2008:1724-1732 C Based on current recommendations, what is the stent size below which CT should not be considered for stent patency assessment?"
+          "text": "Sensitivity >90%, PPV> 90%, NPV > 90% "
         },
         {
           "letter": "D",
-          "text": "< 3.5 mm Cardiac Computed Tomography: Problem-Based Learning Nov 2011 by Milind Y. Desai (Editor), FAHA Paul Schoenhagen MD."
+          "text": ""
         }
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "< 3.5 mm\nCardiac Computed Tomography: Problem-Based Learning Nov 2011 by Milind Y. Desai (Editor), FAHA Paul Schoenhagen MD.",
+      "explanation": "https://pubmed.ncbi.nlm.nih.gov/19007693/\nACCURACY 試驗是一項前瞻multicenter研究，評估 64切 CCTA 對無已知冠狀動脈疾病患者的診斷準確性。\n共 230 名受試者同時接受 CCTA 與 ICA 檢查（59.1% 男性，平均年齡 57 ± 10 歲） 。\nDetection of ≥70% stenosis:\nSensitivity: 94%\nSpecificity: 83%\nPositive predictive value (PPV): 48%\nNegative predictive value (NPV): **99%** 代表 CCTA 可以 rule out significant (≥70%) coronary stenosis. 幾乎可確定排除具臨床意義的冠狀動脈狹窄，患者得以避免侵入性心導管檢查。\n但冠狀動脈calcium score >400 時，特異度顯著下降（鈣化斑塊產生 blooming artifact，導致偽陽性增加）\nPPV 僅 48% 反映了較高的偽陽性率，意味著 CCTA 陽性結果仍需以侵入性攝影確認。整體而言，此試驗支持 CCTA 在中等前測機率族群中作為第一線非侵入性「守門員」檢查的角色——其最大價值在於 rule-out（排除） 而非 rule-in。",
       "images": [],
-      "concepts": [],
-      "checked": false
+      "concepts": [
+        "ccta",
+        "calcium-score"
+      ],
+      "checked": true
     },
     {
       "id": "2016-004",
       "year": 2016,
       "number": 4,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
-      "questionText": "What is the following description about \" histopathologically a small (<= 3 cm) and predominantly lepidic growth that has 5-mm or smaller invasion, which at CT is mainly nonsolid but may have a central solid component of up to approximately 5 mm, according to 2011 classification of Classification of the spectrum of adenocarcinoma of the Lung?",
+      "questionText": "What is the following description about \"histopathologically a small (<= 3 cm) and predominantly lepidic growth that has 5-mm or smaller invasion, which at CT is mainly nonsolid but may have a central solid component of up to approximately 5 mm\", according to 2011 classification of Classification of the spectrum of adenocarcinoma of the Lung?",
       "options": [
         {
           "letter": "A",
@@ -124,23 +127,25 @@
         },
         {
           "letter": "D",
-          "text": "Invasive mucinous adenocarcinoma A Which of the following statements about 2011 classification of Classification of the spectrum of adenocarcinoma of the Lung is true except for?"
+          "text": "Invasive mucinous adenocarcinoma "
         }
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Nodules and ground-glass opacities are suggestive of granulomatous inflammation that may be reversed with therapy.\nPulmonary sarcoidosis: typical and atypical manifestations at high resolution CT with pathologic correlation. RadioGraphics 2010; 30:1567-1586\nA: Not caseous, but granuloma B: CxR C: Upper middle zone",
+      "explanation": "Preinvasive Lesions\nAAH（**Atypical Adenomatous Hyperplasia**，非典型腺瘤性增生）\n病理：≤5 mm 的局灶性肺泡上皮非典型增生，沿肺泡壁生長\nCT：純毛玻璃結節（pure GGN），≤5 mm\n\n**Adenocarcinoma in Situ** (AIS，原位腺癌)\n病理：≤3 cm，純 lepidic 生長（沿肺泡壁），無侵犯 RSNA；無間質、血管或胸膜侵犯 \n黏液性：通常為非黏液性，少數可為黏液性 \nCT：通常為純毛玻璃結節（nonsolid） \n\n**Minimally Invasive Adenocarcinoma** (MIA，微浸潤腺癌)\n病理：≤3 cm，以 lepidic 生長為主，侵犯範圍 ≤5 mm \nCT：主要為毛玻璃密度，可有中央實質成分約 ≤5 mm \n\n**Invasive Adenocarcinoma**（浸潤性腺癌）\n侵犯成分 >5 mm。依優勢組織型態分型（以 5% 增量半定量評估，選出單一優勢型態） ：\n- Lepidic predominant 病理：以非黏液性 lepidic 生長為優勢的浸潤性腺癌（侵犯 >5 mm）；CT：通常為 part-solid 結節，亦可為 nonsolid 或有囊性成分 \n- Acinar predominant（腺泡優勢型）病理：以腺泡型態（圓形/橢圓形腺腔結構）為優勢\n- Papillary predominant（乳突優勢型）病理：以乳突狀結構（含纖維血管軸心）為優勢\n- Micropapillary predominant（微乳突優勢型）病理：2011 分類新增的組織學亞型 ；腫瘤細胞形成無纖維血管軸心的小簇狀突起\n- Solid predominant with mucin production（實質優勢型伴黏液產生）病理：以片狀實質生長為優勢，需有細胞內黏液證據\n\nVariants（變異型）\nInvasive mucinous adenocarcinoma (IMA，浸潤性黏液型腺癌)\n病理：原分類之 mucinous BAC，現改稱 IMA American Journal of Respiratory and Critical Care Medicine；以杯狀/柱狀黏液細胞沿肺泡壁生長為主\nCT：表現差異大，從實質結節到肺實質化均可見 RSNA\n\nColloid adenocarcinoma（膠狀腺癌）\nFetal adenocarcinoma（胎兒型腺癌）\nEnteric adenocarcinoma（腸型腺癌）\n\nRef: https://pubs.rsna.org/doi/full/10.1148/radiol.12120240",
       "images": [],
-      "concepts": [],
-      "checked": false
+      "concepts": [
+        "lung-cancer"
+      ],
+      "checked": true
     },
     {
       "id": "2016-005",
       "year": 2016,
       "number": 5,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
-      "questionText": "Which one of the following statement is correct?",
+      "questionText": "Which one of the following statement is **correct**?",
       "options": [
         {
           "letter": "A",
@@ -156,15 +161,19 @@
         },
         {
           "letter": "D",
-          "text": "Honeycombing in lower lungs with subpleural sparing is predominant in IPF. (Basal, subpleural predominant) Smoking-related interstitial lung disease: radiologic-clinical-pathologic correlation. RadioGraphics 2008; 28:1383-1398 Lymphangioleiomyomatosis: radiologic-pathologic correlation. RadioGraphics 200; 25:803-828 A: no LAM B: no subpleural sparing; diffuse; child bearing woman C: Young adult(20-40 yr) D: no subpleural sparing"
+          "text": "Honeycombing in lower lungs with subpleural sparing is predominant in IPF. "
         }
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Honeycombing in lower lungs with subpleural sparing is\npredominant in IPF.\n(Basal, subpleural predominant)\nSmoking-related interstitial lung disease: radiologic-clinical-pathologic correlation. RadioGraphics 2008; 28:1383-1398 Lymphangioleiomyomatosis: radiologic-pathologic correlation. RadioGraphics 200; 25:803-828\nA: no LAM B: no subpleural sparing; diffuse; child bearing woman C: Young adult(20-40 yr) D: no subpleural sparing",
+      "explanation": "A: no LAM\nB: no subpleural sparing; diffuse; child bearing woman\nC: Young adult(20-40 yr)\nD: no subpleural sparing",
       "images": [],
-      "concepts": [],
-      "checked": false
+      "concepts": [
+        "lam",
+        "plch",
+        "ipf"
+      ],
+      "checked": true
     },
     {
       "id": "2016-006",
