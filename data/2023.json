@@ -367,7 +367,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[ADD LIRADS major.png]]",
+      "explanation": "![ADD LIRADS major](data/images/obsidian/add-lirads-major-495f2e38.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -585,7 +585,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Pancreatic Neuroendocrine Neoplasms: 2020 Update on Pathologic and Imaging Findings and Classification. Radiographics. 2020 Sep-Oct;40(5):1240-1262.\n\n\n| #閱片                                                                                                                   | Ans |\n| ----------------------------------------------------------------------------------------------------------------------- | --- |\n| ![[(1) Islet cell tumor of pancreas (2) blood supply from dorsal pancreatic artery -201208.JPG]]                        |     |\n| ![[Pancreatic islet cell tumor -202002.PNG]]                                                                            |     |\n| ![[Pancreatic islet cell tumor with liver metastases -201202.JPG]]                                                      |     |\n| ![[Nonfunctioning islet cell tumor -201108.JPG]]                                                                        |     |\n| ![[Neuroendocrine tumor with liver metastasis-201605-1.JPG]][[Neuroendocrine tumor with liver metastasis-201605-2.JPG]] |     |\n| ![[Pancreatic neuroendocine tumor -201211.JPG]]                                                                         |     |\n| ![[Pancreatic Neuroendocrine tumor -202008.png]]                                                                        |     |",
+      "explanation": "Pancreatic Neuroendocrine Neoplasms: 2020 Update on Pathologic and Imaging Findings and Classification. Radiographics. 2020 Sep-Oct;40(5):1240-1262.\n\n\n| #閱片                                                                                                                   | Ans |\n| ----------------------------------------------------------------------------------------------------------------------- | --- |\n| ![(1) Islet cell tumor of pancreas (2) blood supply from dorsal pancreatic artery -201208](data/images/obsidian/1-islet-cell-tumor-of-pancreas-2-blood-supply-from-dorsal-pancreatic-artery--201208-a9360a98.jpg)                        |     |\n| ![Pancreatic islet cell tumor -202002](data/images/obsidian/pancreatic-islet-cell-tumor--202002-67ba04ac.png)                                                                            |     |\n| ![Pancreatic islet cell tumor with liver metastases -201202](data/images/obsidian/pancreatic-islet-cell-tumor-with-liver-metastases--201202-d83d1882.jpg)                                                      |     |\n| ![Nonfunctioning islet cell tumor -201108](data/images/obsidian/nonfunctioning-islet-cell-tumor--201108-2937c21b.jpg)                                                                        |     |\n| ![Neuroendocrine tumor with liver metastasis-201605-1](data/images/obsidian/neuroendocrine-tumor-with-liver-metastasis-201605-1-b8139eb4.jpg)[[Neuroendocrine tumor with liver metastasis-201605-2.JPG]] |     |\n| ![Pancreatic neuroendocine tumor -201211](data/images/obsidian/pancreatic-neuroendocine-tumor--201211-53a88105.jpg)                                                                         |     |\n| ![Pancreatic Neuroendocrine tumor -202008](data/images/obsidian/pancreatic-neuroendocrine-tumor--202008-26493362.png)                                                                        |     |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -904,7 +904,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "分布：diffuse, 或peribronchovascular(較少)\n\n\n### Diffuse Panbronchiolitis\n- Rare form of cellular bronchiolitis。常見於東亞中年人。可能和慢性鼻竇炎有關\n- CT: nonspecific. Centrilobular nodules, tree-in-bud opacities, bronchiolectasis, mosaic attenuation and/or air trapping. 所有lobe都會看到。\n### Constrictive Bronchiolitis\n### Organizing Bronchiolitis\n![[ADD BOOP.png]]\n- OP(Organizing pneumonia): alveolar ducts and alveolar spaces有鬆散結締組織的增生(proliferation of loose connective tissue)\n\t- 典型的small airway disease的mosaic attenuation, air trapping, centrilobular nodules通常不會有\n\t- 最常見的表現是：bilateral multifocal airspace opacities, 通常在peripheral/peribronchial distribution\n\t- 也可能會有perilobular pattern (可看出secondary lobule的樣子)，opacities with reversed halo sign (or atoll sign)代表GGO周圍有consolidation; 還有各種大小的 peribronchovascular nodules\n- 可能是不明原因(idiopathic, 稱作cryptogenic OP)或有明確原因(infection最多, 其他還有autoimmune disease, inhalation injury, hypersensitivity pneumonitis, radiation therapy, and aspiration)，有已知原因就叫OP。\n- BOOP(bronchiolitis obliterans with organizing pneumonia) ，現在建議用COP(cryptogenic organizing pneumonia)來稱呼。\n\t- 病理上，有問題的地方在alveolar ducts and alveolar spaces，不影響bronchiole，非Bronchiolitis\n\n\n---\nCrack the core p.423\n\n- small airway inflammation\n\t- infection(viral, kids), inflammatory(RB-ILD in smoker), asthma(kids)\n\t- Air trapping: mosaic pattern.\n\t- Tree-in-bud: nonspecific. usually associated with centrilobular nodules.\n\n|              |                                        |\n| ------------ | -------------------------------------- |\n| Infection    | Tree-in-bud                            |\n| RB-ILD       | Smokers. Centrilobular GGN, upper lobe |\n| Subacute HP  | Centrilobular GGN                      |\n| Follicular   | RA, Sjogrens, centrilobular GGN        |\n| Constrictive | DIPNECH. Air-trapping                  |\n|              |                                        |\n\n- Follicular bronchiolitis: inflammatory process in RA, Sjogren's. Related to lymphoid hyperplasia.\n\t- Centrilobular GGN, scattered bronchial dilation\n- Constrictive bronchiolitis: inflammatory process, in viral illness, transplant, drug, inhalation...\n\t- DIPNECH\n\t- secondary to mononuclear cells, form granulation tissue, plug airway\n\t- Airtrapping, cause of Swyer-James hyperlucent lung\n- Aspiration pneumonia\n\n[[Fundamentals of High-resolution Lung CT]] Chp. 6 p. 93\nHRCT patterns of small airway disease\n\n| HRCT patterns               | Pathophysiology                          | Common diseases                                                               |\n| --------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------- |\n| Centrilobular GGN           | Peribronchiolar inflammation/fibrosis    | HP, respiratory, follicular bronchiolitis, atypical pneumonia, pneumoconioses |\n| Centrilobular nodules       | Bronchiolar impaction, spread to alveoli | Infection, tumor, aspiration                                                  |\n| Mosaic pattern/air-trapping | Bronchiolar Mucoid impaction             | Infection, aspiration                                                         |\n| Tree-in-bud                 | Bronchiolar narrowing/occlusion          | Asthma, HP, constrictive bronchiolitis                                        |\n\n- 病理的small airway disease分兩種\n\t- cellular bronchiolitis: inflammation(+)\n\t- constrictive bronchiolitis: fibrotic obliteration of bronchioles.\n\n# 閱片\n\n| #閱片 bronchiolitis                               |        |\n| ------------------------------------------------- | ------ |\n| ![[Respiratory Bronchiolitis -201808.jpg]]        |        |\n| Diffuse panbronchiolitis                          |        |\n| ![[Diffuse panbronchiolitis -201008.JPG]]         |        |\n| ![[Diffuse panbronchiolitis -201105, 202008.jpg]] | 201105 |\n| ![[Diffuse panbronchiolitis -201802.jpg]]         |        |\n|                                                   |        |\n| COP                                               |        |\n| ![[Cryptogenic organizing pneumonia -201310.jpg]] |        |\n|                                                   |        |\n\n\n\n# 交換考",
+      "explanation": "分布：diffuse, 或peribronchovascular(較少)\n\n\n### Diffuse Panbronchiolitis\n- Rare form of cellular bronchiolitis。常見於東亞中年人。可能和慢性鼻竇炎有關\n- CT: nonspecific. Centrilobular nodules, tree-in-bud opacities, bronchiolectasis, mosaic attenuation and/or air trapping. 所有lobe都會看到。\n### Constrictive Bronchiolitis\n### Organizing Bronchiolitis\n![ADD BOOP](data/images/obsidian/add-boop-b533b06b.png)\n- OP(Organizing pneumonia): alveolar ducts and alveolar spaces有鬆散結締組織的增生(proliferation of loose connective tissue)\n\t- 典型的small airway disease的mosaic attenuation, air trapping, centrilobular nodules通常不會有\n\t- 最常見的表現是：bilateral multifocal airspace opacities, 通常在peripheral/peribronchial distribution\n\t- 也可能會有perilobular pattern (可看出secondary lobule的樣子)，opacities with reversed halo sign (or atoll sign)代表GGO周圍有consolidation; 還有各種大小的 peribronchovascular nodules\n- 可能是不明原因(idiopathic, 稱作cryptogenic OP)或有明確原因(infection最多, 其他還有autoimmune disease, inhalation injury, hypersensitivity pneumonitis, radiation therapy, and aspiration)，有已知原因就叫OP。\n- BOOP(bronchiolitis obliterans with organizing pneumonia) ，現在建議用COP(cryptogenic organizing pneumonia)來稱呼。\n\t- 病理上，有問題的地方在alveolar ducts and alveolar spaces，不影響bronchiole，非Bronchiolitis\n\n\n---\nCrack the core p.423\n\n- small airway inflammation\n\t- infection(viral, kids), inflammatory(RB-ILD in smoker), asthma(kids)\n\t- Air trapping: mosaic pattern.\n\t- Tree-in-bud: nonspecific. usually associated with centrilobular nodules.\n\n|              |                                        |\n| ------------ | -------------------------------------- |\n| Infection    | Tree-in-bud                            |\n| RB-ILD       | Smokers. Centrilobular GGN, upper lobe |\n| Subacute HP  | Centrilobular GGN                      |\n| Follicular   | RA, Sjogrens, centrilobular GGN        |\n| Constrictive | DIPNECH. Air-trapping                  |\n|              |                                        |\n\n- Follicular bronchiolitis: inflammatory process in RA, Sjogren's. Related to lymphoid hyperplasia.\n\t- Centrilobular GGN, scattered bronchial dilation\n- Constrictive bronchiolitis: inflammatory process, in viral illness, transplant, drug, inhalation...\n\t- DIPNECH\n\t- secondary to mononuclear cells, form granulation tissue, plug airway\n\t- Airtrapping, cause of Swyer-James hyperlucent lung\n- Aspiration pneumonia\n\n[[Fundamentals of High-resolution Lung CT]] Chp. 6 p. 93\nHRCT patterns of small airway disease\n\n| HRCT patterns               | Pathophysiology                          | Common diseases                                                               |\n| --------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------- |\n| Centrilobular GGN           | Peribronchiolar inflammation/fibrosis    | HP, respiratory, follicular bronchiolitis, atypical pneumonia, pneumoconioses |\n| Centrilobular nodules       | Bronchiolar impaction, spread to alveoli | Infection, tumor, aspiration                                                  |\n| Mosaic pattern/air-trapping | Bronchiolar Mucoid impaction             | Infection, aspiration                                                         |\n| Tree-in-bud                 | Bronchiolar narrowing/occlusion          | Asthma, HP, constrictive bronchiolitis                                        |\n\n- 病理的small airway disease分兩種\n\t- cellular bronchiolitis: inflammation(+)\n\t- constrictive bronchiolitis: fibrotic obliteration of bronchioles.\n\n# 閱片\n\n| #閱片 bronchiolitis                               |        |\n| ------------------------------------------------- | ------ |\n| ![Respiratory Bronchiolitis -201808](data/images/obsidian/respiratory-bronchiolitis--201808-206fcd40.jpg)        |        |\n| Diffuse panbronchiolitis                          |        |\n| ![Diffuse panbronchiolitis -201008](data/images/obsidian/diffuse-panbronchiolitis--201008-77996ad8.jpg)         |        |\n| ![Diffuse panbronchiolitis -201105, 202008](data/images/obsidian/diffuse-panbronchiolitis--201105-202008-b06e64d4.jpg) | 201105 |\n| ![Diffuse panbronchiolitis -201802](data/images/obsidian/diffuse-panbronchiolitis--201802-3d4bdcea.jpg)         |        |\n|                                                   |        |\n| COP                                               |        |\n| ![Cryptogenic organizing pneumonia -201310](data/images/obsidian/cryptogenic-organizing-pneumonia--201310-cca397d3.jpg) |        |\n|                                                   |        |\n\n\n\n# 交換考",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1445,7 +1445,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "P1-P4 ![[ADD CADRADS2 plaque burden.png]]",
+      "explanation": "P1-P4 ![ADD CADRADS2 plaque burden](data/images/obsidian/add-cadrads2-plaque-burden-91fe9649.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1655,7 +1655,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "根據 ![[ADD MRI LGE 2.png]] 只有 Takotsubo 不在上面\n(Radiopaedia) Takotsubo典型不會有LGE，在motion異常處會有T2高訊號/edema。",
+      "explanation": "根據 ![ADD MRI LGE 2](data/images/obsidian/add-mri-lge-2-70c92846.png) 只有 Takotsubo 不在上面\n(Radiopaedia) Takotsubo典型不會有LGE，在motion異常處會有T2高訊號/edema。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1970,7 +1970,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "鈣化在約 95% 的 retinoblastoma 中存在，但在 Coats disease 中罕見\n- **(A) Optic nerve enhancement**：雖是 RB 侵犯性指標，但非用於鑑別 Coats disease 的主要特徵。\n- **(B) Retinal detachment**：兩者均可出現視網膜剝離。\n- **(D) Subfoveal enhancing nodules**：這其實是 Coats disease 特有的特徵，而非 retinoblastoma 的特徵\n\n## 閱片\n[!case]- ![[Retinoblastoma -202011.PNG]]\nNECT 右側眼球內見**鈣化**，T1WI slightly hyperintense，T1+c 明顯顯影，STIR 為低訊號\n\n[!case]- ![[Retinoblastoma -2023交 KMU.PNG]]\n影像應為 T1/T2/T1+c 顯示**左眼及右眼均有異常**，右邊應是打藥後，眼球內腫瘤在增強後明顯強化，右眼無法排除視神經是否有侵犯\n\n[!case]- ![[Retinoblastoma -201411.JPG]]\n嬰兒 + leukocoria + CT 眼球內鈣化腫瘤 = retinoblastoma until proven otherwise。\n\n[!case]- ![[Retinoblastoma, left eye -201002.JPG]]\n年齡 1 個月，符合好發年齡 <5 歲。提供了 CT + MRI（T1WI + T2WI）三種影像。\n**CT**：左眼球內可見 hyperdense mass，且有明顯**鈣化**。\n左眼後出血呈現 T1 高 T2 高訊號。腫瘤本身呈現 T2 低訊號，可能代表 round cell type，高 nuclear-cytoplasmic ratio。",
+      "explanation": "鈣化在約 95% 的 retinoblastoma 中存在，但在 Coats disease 中罕見\n- **(A) Optic nerve enhancement**：雖是 RB 侵犯性指標，但非用於鑑別 Coats disease 的主要特徵。\n- **(B) Retinal detachment**：兩者均可出現視網膜剝離。\n- **(D) Subfoveal enhancing nodules**：這其實是 Coats disease 特有的特徵，而非 retinoblastoma 的特徵\n\n## 閱片\n[!case]- ![Retinoblastoma -202011](data/images/obsidian/retinoblastoma--202011-3dc6e9ea.png)\nNECT 右側眼球內見**鈣化**，T1WI slightly hyperintense，T1+c 明顯顯影，STIR 為低訊號\n\n[!case]- ![Retinoblastoma -2023交 KMU](data/images/obsidian/retinoblastoma--2023-kmu-1f2554c7.png)\n影像應為 T1/T2/T1+c 顯示**左眼及右眼均有異常**，右邊應是打藥後，眼球內腫瘤在增強後明顯強化，右眼無法排除視神經是否有侵犯\n\n[!case]- ![Retinoblastoma -201411](data/images/obsidian/retinoblastoma--201411-f1d22d2a.jpg)\n嬰兒 + leukocoria + CT 眼球內鈣化腫瘤 = retinoblastoma until proven otherwise。\n\n[!case]- ![Retinoblastoma, left eye -201002](data/images/obsidian/retinoblastoma-left-eye--201002-29b92168.jpg)\n年齡 1 個月，符合好發年齡 <5 歲。提供了 CT + MRI（T1WI + T2WI）三種影像。\n**CT**：左眼球內可見 hyperdense mass，且有明顯**鈣化**。\n左眼後出血呈現 T1 高 T2 高訊號。腫瘤本身呈現 T2 低訊號，可能代表 round cell type，高 nuclear-cytoplasmic ratio。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2040,7 +2040,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "是主要的治療方法。![[ADD MVT Tx.png]]",
+      "explanation": "是主要的治療方法。![ADD MVT Tx](data/images/obsidian/add-mvt-tx-a903d1cf.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2421,7 +2421,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "![[ADD pes anserine bursa 1.png]](Radiopaedia) 在後內側\nD. 就是Baker cyst",
+      "explanation": "![ADD pes anserine bursa 1](data/images/obsidian/add-pes-anserine-bursa-1-cc3dff77.png)(Radiopaedia) 在後內側\nD. 就是Baker cyst",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2491,7 +2491,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "跟SGHL都是內容物 ![[ADD Rotator interval 2.png]]",
+      "explanation": "跟SGHL都是內容物 ![ADD Rotator interval 2](data/images/obsidian/add-rotator-interval-2-a38f581d.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2736,7 +2736,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD Sever disease.png]]\n- Panner disease: capitellum osteochondroses. 參考 [[Osteochondroses]] ![[ADD osteochondroses.png]]",
+      "explanation": "![ADD Sever disease](data/images/obsidian/add-sever-disease-c11a2e94.png)\n- Panner disease: capitellum osteochondroses. 參考 [[Osteochondroses]] ![ADD osteochondroses](data/images/obsidian/add-osteochondroses-9f73dcd1.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2954,7 +2954,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD cavernous sinus 1.png]]",
+      "explanation": "![ADD cavernous sinus 1](data/images/obsidian/add-cavernous-sinus-1-52c8b653.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3028,7 +3028,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[Pasted image 20240903175613.png]]\n參考Ped課程\n\n\n### Sinus development\n\n### Congenital malformations\n\n#### Failure to form\n[[Agenesis of corpus callosum]]\n\nOpen neural tube defects\n\tAnencephaly\n\tIniencephaly\n\tEncephalocele\n\n#DDx #NR考  沒有cerebellar vermis要想？ >>> Rhombencephalosynapsis, [[Joubert syndrome]]",
+      "explanation": "![Pasted image 20240903175613](data/images/obsidian/pasted-image-20240903175613-fda1f514.png)\n參考Ped課程\n\n\n### Sinus development\n\n### Congenital malformations\n\n#### Failure to form\n[[Agenesis of corpus callosum]]\n\nOpen neural tube defects\n\tAnencephaly\n\tIniencephaly\n\tEncephalocele\n\n#DDx #NR考  沒有cerebellar vermis要想？ >>> Rhombencephalosynapsis, [[Joubert syndrome]]",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3102,7 +3102,7 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "全部正確 ![[ADD DWI brain.png]]",
+      "explanation": "全部正確 ![ADD DWI brain](data/images/obsidian/add-dwi-brain-2008d94f.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3137,7 +3137,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD DAVF 2.png]] from [[2016 Neuro IR]]",
+      "explanation": "![ADD DAVF 2](data/images/obsidian/add-davf-2-7d32fcb6.png) from [[2016 Neuro IR]]",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3425,7 +3425,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD NPSLE 2.png]] WM lesions：30-75%病人會有，主要在frontal, parietal lobes\n- 鈣化: CT看比MRI好用。最常見位置**Basal ganglia(30%)**，比WM, cerebellum來的多。",
+      "explanation": "![ADD NPSLE 2](data/images/obsidian/add-npsle-2-db0f7912.png) WM lesions：30-75%病人會有，主要在frontal, parietal lobes\n- 鈣化: CT看比MRI好用。最常見位置**Basal ganglia(30%)**，比WM, cerebellum來的多。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3740,7 +3740,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "正確\nB. GP.\nC. 白球一鐵桿。T1應該會亮，但 [[20230716 Toxic, metabolic, infection]] [[20230716 Neurodegeneration]]\nD. 看疾病stage，T1亮是因為Mn，Cu會T1暗 ![[ADD Wilson disease 2.png]]",
+      "explanation": "正確\nB. GP.\nC. 白球一鐵桿。T1應該會亮，但 [[20230716 Toxic, metabolic, infection]] [[20230716 Neurodegeneration]]\nD. 看疾病stage，T1亮是因為Mn，Cu會T1暗 ![ADD Wilson disease 2](data/images/obsidian/add-wilson-disease-2-5c269dee.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3810,7 +3810,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Canavan會大頭。![[ADD 2023 WM 4.png]]\nA. Alexander 靠前面，會顯影。大頭。小腦也會。甲醇也是靠前面。\nB. X-ALD靠後面，會顯影。靠後側：PRES，X-ALD。Heroin, uremia等\nC. trigroid pattern: MLD, Pelius會有。",
+      "explanation": "Canavan會大頭。![ADD 2023 WM 4](data/images/obsidian/add-2023-wm-4-3c4cee69.png)\nA. Alexander 靠前面，會顯影。大頭。小腦也會。甲醇也是靠前面。\nB. X-ALD靠後面，會顯影。靠後側：PRES，X-ALD。Heroin, uremia等\nC. trigroid pattern: MLD, Pelius會有。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4591,7 +4591,7 @@
       ],
       "subspecialty": "Physics",
       "subspecialty_confidence": "manual",
-      "questionText": "下圖A為黑冠麻鷺，俗稱大笨鳥。小明利用電腦軟體對該圖進行了某種操作，修改成了圖B。請問小明最有可能做了什麼操作？![[交換2023 1 物理.png]]",
+      "questionText": "下圖A為黑冠麻鷺，俗稱大笨鳥。小明利用電腦軟體對該圖進行了某種操作，修改成了圖B。請問小明最有可能做了什麼操作？![交換2023 1 物理](data/images/obsidian/2023-1-163d9514.png)",
       "options": [
         {
           "letter": "A",
@@ -4700,7 +4700,7 @@
       ],
       "subspecialty": "Physics",
       "subspecialty_confidence": "manual",
-      "questionText": "一33歲乳癌患者進行磁振造影掃描檢查，於post-contrast enhanced T1WI 影像中發現脊椎骨上有許多高訊號的病灶(圖A, B)，請問最可能是什麼原因所造成？![[交換2023 2 MR artifact.png]]",
+      "questionText": "一33歲乳癌患者進行磁振造影掃描檢查，於post-contrast enhanced T1WI 影像中發現脊椎骨上有許多高訊號的病灶(圖A, B)，請問最可能是什麼原因所造成？![交換2023 2 MR artifact](data/images/obsidian/2023-2-mr-artifact-96152583.png)",
       "options": [
         {
           "letter": "A",
@@ -4896,7 +4896,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Int J Gynecol Obstet. 2019;145:129-135. ![[ADD cervical cancer FIGO staging.png]] ![[ADD cervical cancer FIGO staging 2.png]]\nIA是病理診斷，IB以2/4cm區分",
+      "explanation": "Int J Gynecol Obstet. 2019;145:129-135. ![ADD cervical cancer FIGO staging](data/images/obsidian/add-cervical-cancer-figo-staging-14104fdd.png) ![ADD cervical cancer FIGO staging 2](data/images/obsidian/add-cervical-cancer-figo-staging-2-21c41c63.png)\nIA是病理診斷，IB以2/4cm區分",
       "images": [],
       "concepts": [],
       "checked": false
@@ -5149,7 +5149,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD SACD 3 point sign.png]] 3-point sign in SACD. From Medicine (Baltimore). 2018 Aug; 97(31): e11620.",
+      "explanation": "![ADD SACD 3 point sign](data/images/obsidian/add-sacd-3-point-sign-6fcbff5d.png) 3-point sign in SACD. From Medicine (Baltimore). 2018 Aug; 97(31): e11620.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -5293,7 +5293,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "ASIS ![[ADD avulsion injury.jpg]] Sartorius和 tensor fascia latae muscles會附著在ASIS上  (Radiopaedia)",
+      "explanation": "ASIS ![ADD avulsion injury](data/images/obsidian/add-avulsion-injury-7d2891df.jpg) Sartorius和 tensor fascia latae muscles會附著在ASIS上  (Radiopaedia)",
       "images": [],
       "concepts": [],
       "checked": false

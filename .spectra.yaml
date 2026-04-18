@@ -23,8 +23,15 @@ locale: tw
 # worktrees_dir: .spectra/worktrees
 
 # Claude Code skill effort levels (low/medium/high/max)
-# claude_effort:
-#   apply: high
+claude_effort:
+  apply: high
+  archive: low
+  ask: low
+  audit: high
+  debug: high
+  discuss: medium
+  ingest: high
+  propose: high
 
 # AI tools to generate instruction files for
 # tools:

@@ -24,6 +24,11 @@ def write(path: Path, text: str) -> None:
     path.write_text(text, encoding="utf-8")
 
 
+def write_bytes(path: Path, data: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(data)
+
+
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -43,6 +48,10 @@ def run_smoke() -> None:
         vault = root / "Radiology"
         target = root / "radiology-exam-review"
         target.mkdir()
+        write_bytes(vault / "attachments" / "figure.png", b"fake-png")
+        write_bytes(vault / "assets" / "brain.svg", b"<svg></svg>")
+        write_bytes(vault / "dup-a" / "ambig.png", b"a")
+        write_bytes(vault / "dup-b" / "ambig.png", b"b")
 
         multi_year = vault / "2. Areas" / "NR" / "sellar.md"
         write(
@@ -51,7 +60,7 @@ def run_smoke() -> None:
 subspecialty: \u591a\u79d1\u5225
 ---
 
-#2018\u4ea4\u63db #2020\u4ea4\u63db #NR\u8003 Which finding is true?
+#2018\u4ea4\u63db #2020\u4ea4\u63db #NR\u8003 Which finding is true? ![[assets/brain.svg|Brain SVG]]
 ```
 A. Alpha
 B. Beta
@@ -61,6 +70,10 @@ D. Delta
 ??
 Ans: D.
 Delta is correct.
+![[figure.png]]
+![[missing.png]]
+![[ambig.png]]
+![[note.md]]
 <!--SR:!2026-01-01,1,250-->
 """,
         )
@@ -96,19 +109,26 @@ No YAML should become Unknown.
 """,
         )
 
-        before = {path: sha256(path) for path in vault.rglob("*.md")}
+        before = {path: sha256(path) for path in vault.rglob("*") if path.is_file()}
 
-        dry_code = importer.main(["--vault", str(vault), "--target", str(target), "--dry-run"])
+        dry_report = target / "dry-report.json"
+        dry_code = importer.main(["--vault", str(vault), "--target", str(target), "--dry-run", "--report", str(dry_report)])
         assert_true(dry_code == 0, "dry-run should succeed")
         assert_true(not (target / "data" / "index.json").exists(), "dry-run must not write index")
+        dry_report_data = load(dry_report)
+        assert_true(len(dry_report_data["pendingImageCopies"]) == 2, "dry-run should report pending image copies")
+        assert_true(len(dry_report_data["missingImageEmbeds"]) == 1, "dry-run should report missing image embeds")
+        assert_true(len(dry_report_data["ambiguousImageEmbeds"]) == 1, "dry-run should report ambiguous image embeds")
+        assert_true(len(dry_report_data["unsupportedEmbeds"]) == 1, "dry-run should report unsupported embeds")
 
-        code = importer.main(["--vault", str(vault), "--target", str(target)])
+        real_report = target / "real-report.json"
+        code = importer.main(["--vault", str(vault), "--target", str(target), "--report", str(real_report)])
         assert_true(code == 0, "real import should succeed")
         code = importer.main(["--vault", str(vault), "--target", str(target)])
         assert_true(code == 0, "second keep-mode import should succeed without duplicating")
 
-        after = {path: sha256(path) for path in vault.rglob("*.md")}
-        assert_true(before == after, "source markdown hashes must remain unchanged")
+        after = {path: sha256(path) for path in vault.rglob("*") if path.is_file()}
+        assert_true(before == after, "source vault hashes must remain unchanged")
 
         data_2018 = load(target / "data" / "2018.json")
         assert_true(data_2018["totalQuestions"] == 1, "keep mode should not duplicate existing imported questions")
@@ -119,6 +139,18 @@ No YAML should become Unknown.
         assert_true(first["correctAnswer"] == "D", "answer should parse from Ans line")
         assert_true(len(first["options"]) == 4 and first["options"][0]["letter"] == "A", "fenced letter options should parse")
         assert_true("source" not in first and "sourceLine" not in first, "question JSON should match public schema")
+        assert_true("![Brain SVG](data/images/obsidian/brain-" in first["questionText"], "exact path image embed should convert in question text")
+        assert_true("![figure](data/images/obsidian/figure-" in first["explanation"], "basename image embed should convert in explanation")
+        assert_true("![[missing.png]]" in first["explanation"], "missing embeds should remain unchanged")
+        assert_true("![[ambig.png]]" in first["explanation"], "ambiguous embeds should remain unchanged")
+        assert_true("![[note.md]]" in first["explanation"], "unsupported embeds should remain unchanged")
+        assert_true(first["images"] == [], "inline converted images should not be duplicated into images array")
+        for link in importer.OBSIDIAN_EMBED_RE.findall(first["questionText"] + first["explanation"]):
+            assert_true(link in {"missing.png", "ambig.png", "note.md"}, "only unresolved embeds should remain")
+        real_report_data = load(real_report)
+        assert_true(len(real_report_data["copiedImages"]) == 2, "real import should copy converted images")
+        for copied in real_report_data["copiedImages"]:
+            assert_true((target / copied["target"]).exists(), "copied image target should exist")
 
         data_2019 = load(target / "data" / "2019.json")
         assert_true(data_2019["questions"][0]["questionText"] == "Which sequence is best?", "leading numbering and tags should be removed")

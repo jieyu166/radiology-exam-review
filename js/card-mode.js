@@ -112,7 +112,7 @@ const CardMode = (function () {
     e.container.innerHTML = _buildCard(q, _flipped);
 
     // 圖片燈箱
-    e.container.querySelectorAll('.question-images img').forEach(img => {
+    e.container.querySelectorAll('.question-images img, .inline-image').forEach(img => {
       img.addEventListener('click', ev => { ev.stopPropagation(); _lightbox(img.src); });
     });
 
@@ -150,7 +150,7 @@ const CardMode = (function () {
     const optFront = (q.options || []).map(opt =>
       `<li class="card-option">
         <span class="option-letter">${_esc(opt.letter)}.</span>
-        <span>${_esc(opt.text)}</span>
+        <span>${Format.render(opt.text)}</span>
       </li>`
     ).join('');
 
@@ -159,7 +159,7 @@ const CardMode = (function () {
       const cls = isCorrect ? 'correct' : '';
       return `<li class="card-option ${cls}">
         <span class="option-letter">${_esc(opt.letter)}.</span>
-        <span>${_esc(opt.text)}</span>
+        <span>${Format.render(opt.text)}</span>
       </li>`;
     }).join('');
 
@@ -187,7 +187,7 @@ const CardMode = (function () {
             ${numBadge}${yearBadge}${subBadge}${unchecked}
             ${editBtn || '<span style="margin-left:auto;font-size:.75rem;color:var(--text-muted);">點擊翻轉</span>'}
           </div>
-          <p class="card-question-text">${_esc(q.questionText)}</p>
+          <p class="card-question-text">${Format.render(q.questionText)}</p>
           ${images}
           <ul class="card-options-list">${optFront}</ul>
         </div>
@@ -198,7 +198,7 @@ const CardMode = (function () {
             <span class="badge badge-checked">答案：${_esc(q.correctAnswer || '?')}</span>
             ${editBtn}
           </div>
-          <p class="card-question-text">${_esc(q.questionText)}</p>
+          <p class="card-question-text">${Format.render(q.questionText)}</p>
           <ul class="card-options-list">${optBack}</ul>
           ${explanation}
           ${conceptLinks}

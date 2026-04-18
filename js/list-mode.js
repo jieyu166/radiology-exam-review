@@ -131,7 +131,7 @@ const ListMode = (function () {
       const isCorrect = opt.letter === q.correctAnswer;
       return `<li class="list-option ${isCorrect ? 'correct' : ''}">
         <span class="option-letter">${_esc(opt.letter)}.</span>
-        <span>${_esc(opt.text)}</span>
+        <span>${Format.render(opt.text)}</span>
       </li>`;
     }).join('');
 
@@ -160,11 +160,11 @@ const ListMode = (function () {
             ${yearBadge}
             ${checked}
           </div>
-          <span class="accordion-question">${_esc(q.questionText)}</span>
+          <span class="accordion-question">${_esc(_previewText(q.questionText))}</span>
           <svg class="accordion-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
         </button>
         <div class="accordion-body">
-          <p style="font-size:.9rem;line-height:1.7;margin-bottom:12px;">${_esc(q.questionText)}</p>
+          <p style="font-size:.9rem;line-height:1.7;margin-bottom:12px;">${Format.render(q.questionText)}</p>
           ${images}
           <ul class="list-options">${optionsHtml}</ul>
           ${explanation}
@@ -209,6 +209,11 @@ const ListMode = (function () {
         }
       }
     }
+  }
+
+  function _previewText(text) {
+    const plain = Format.toPlainText(text || '');
+    return plain.length > 80 ? plain.slice(0, 80) + '...' : plain;
   }
 
   function _esc(str) {

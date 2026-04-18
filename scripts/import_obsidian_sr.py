@@ -7,6 +7,7 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
@@ -26,6 +27,7 @@ LIST_PREFIX_RE = re.compile(r"^\s*(?:[-*]\s+|\d+[\.\)]\s*)+")
 QUOTE_RE = re.compile(r"^\s*>\s?")
 CODE_FENCE_RE = re.compile(r"^\s*```")
 UNKNOWN_SPECIALTY_TAG_RE = re.compile(r"#\S+\u8003")
+OBSIDIAN_EMBED_RE = re.compile(r"!\[\[([^\]]+)\]\]")
 
 VALID_SUBSPECIALTIES = {
     "ABD",
@@ -45,6 +47,7 @@ SUBSPECIALTY_TAGS = {
     "#NR\u8003": "NR",
 }
 OPTION_LETTERS = ["A", "B", "C", "D", "E"]
+IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
 
 
 @dataclass
@@ -93,6 +96,11 @@ class Report:
     per_year: Counter = field(default_factory=Counter)
     per_subspecialty: Counter = field(default_factory=Counter)
     written_files: list[str] = field(default_factory=list)
+    copied_images: list[dict[str, str]] = field(default_factory=list)
+    missing_image_embeds: list[dict[str, object]] = field(default_factory=list)
+    ambiguous_image_embeds: list[dict[str, object]] = field(default_factory=list)
+    unsupported_embeds: list[dict[str, object]] = field(default_factory=list)
+    image_conflicts: list[dict[str, object]] = field(default_factory=list)
 
     def skip(self, source: str, line: int, reason: str, detail: str = "") -> None:
         self.skipped.append(Skip(source, line, reason, detail))
@@ -112,11 +120,136 @@ class Report:
             "perYear": dict(sorted(report_key_items(self.per_year))),
             "perSubspecialty": dict(sorted(report_key_items(self.per_subspecialty))),
             "writtenFiles": self.written_files,
+            "pendingImageCopies": getattr(self, "pending_image_copies", []),
+            "copiedImages": self.copied_images,
+            "missingImageEmbeds": self.missing_image_embeds,
+            "ambiguousImageEmbeds": self.ambiguous_image_embeds,
+            "unsupportedEmbeds": self.unsupported_embeds,
+            "imageConflicts": self.image_conflicts,
         }
+
+
+class ImageResolver:
+    def __init__(self, vault: Path, target: Path, report: Report) -> None:
+        self.vault = vault
+        self.target = target
+        self.report = report
+        self.by_rel: dict[str, Path] = {}
+        self.by_name: dict[str, list[Path]] = defaultdict(list)
+        self.pending: dict[Path, str] = {}
+        self._output_stems: dict[str, Path] = {}
+        self._build_index()
+
+    def _build_index(self) -> None:
+        for path in sorted(p for p in self.vault.rglob("*") if p.is_file()):
+            if path.suffix.lower() not in IMAGE_EXTENSIONS:
+                continue
+            rel = path.relative_to(self.vault).as_posix()
+            self.by_rel[_norm_embed_target(rel).lower()] = path
+            self.by_name[path.name.lower()].append(path)
+
+    def convert_text(self, text: str, source: str, line: int) -> str:
+        if not text:
+            return text
+
+        def replace(match: re.Match[str]) -> str:
+            raw = match.group(1).strip()
+            target_text, display = split_embed_target(raw)
+            ext = Path(target_text).suffix.lower()
+            if ext not in IMAGE_EXTENSIONS:
+                self.report.unsupported_embeds.append({
+                    "source": source,
+                    "line": line,
+                    "target": target_text,
+                })
+                return match.group(0)
+
+            resolved = self.resolve(target_text, source, line)
+            if resolved is None:
+                return match.group(0)
+
+            web_path = self.register_copy(resolved)
+            alt = display or Path(target_text).stem
+            return f"![{alt}]({web_path})"
+
+        return OBSIDIAN_EMBED_RE.sub(replace, text)
+
+    def resolve(self, target_text: str, source: str, line: int) -> Path | None:
+        normalized = _norm_embed_target(target_text)
+        rel_match = self.by_rel.get(normalized.lower())
+        if rel_match:
+            return rel_match
+
+        matches = self.by_name.get(Path(normalized).name.lower(), [])
+        if len(matches) == 1:
+            return matches[0]
+        if not matches:
+            self.report.missing_image_embeds.append({
+                "source": source,
+                "line": line,
+                "target": target_text,
+            })
+            return None
+
+        self.report.ambiguous_image_embeds.append({
+            "source": source,
+            "line": line,
+            "target": target_text,
+            "candidates": [p.relative_to(self.vault).as_posix() for p in matches],
+        })
+        return None
+
+    def register_copy(self, source_path: Path) -> str:
+        if source_path in self.pending:
+            return self.pending[source_path]
+
+        rel = source_path.relative_to(self.vault).as_posix()
+        digest = hashlib.sha1(rel.encode("utf-8")).hexdigest()[:8]
+        stem = safe_filename_stem(source_path.stem)
+        ext = source_path.suffix.lower()
+        filename = f"{stem}-{digest}{ext}"
+        web_path = f"data/images/obsidian/{filename}"
+        existing_for_stem = self._output_stems.get(stem)
+        if existing_for_stem and existing_for_stem != source_path:
+            self.report.image_conflicts.append({
+                "stem": stem,
+                "source": rel,
+                "existingSource": existing_for_stem.relative_to(self.vault).as_posix(),
+                "target": web_path,
+            })
+        self._output_stems[stem] = source_path
+        self.pending[source_path] = web_path
+        return web_path
+
+    def copy_registered(self) -> None:
+        out_dir = self.target / "data" / "images" / "obsidian"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        for source_path, web_path in sorted(self.pending.items(), key=lambda item: item[1]):
+            target_path = self.target / web_path
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(source_path, target_path)
+            self.report.copied_images.append({
+                "source": source_path.relative_to(self.vault).as_posix(),
+                "target": web_path,
+            })
 
 
 def report_key_items(counter: Counter) -> list[tuple[str, int]]:
     return [(str(key), value) for key, value in counter.items()]
+
+
+def _norm_embed_target(target: str) -> str:
+    return str(target or "").strip().replace("\\", "/").lstrip("/")
+
+
+def split_embed_target(raw: str) -> tuple[str, str]:
+    target, _, display = raw.partition("|")
+    return target.strip(), display.strip()
+
+
+def safe_filename_stem(stem: str) -> str:
+    cleaned = re.sub(r"[^A-Za-z0-9._-]+", "-", stem.strip()).strip(".-").lower()
+    return cleaned or "image"
 
 
 def parse_args(argv: list[str]) -> argparse.Namespace:
@@ -362,7 +495,15 @@ def parse_candidate(candidate: Candidate, report: Report) -> ParsedQuestion | No
     )
 
 
-def scan_vault(vault: Path, report: Report) -> list[ParsedQuestion]:
+def convert_question_images(q: ParsedQuestion, resolver: ImageResolver) -> None:
+    q.question_text = resolver.convert_text(q.question_text, q.source, q.line)
+    q.reference = resolver.convert_text(q.reference, q.source, q.line)
+    q.explanation = resolver.convert_text(q.explanation, q.source, q.line)
+    for option in q.options:
+        option["text"] = resolver.convert_text(option.get("text", ""), q.source, q.line)
+
+
+def scan_vault(vault: Path, report: Report, resolver: ImageResolver | None = None) -> list[ParsedQuestion]:
     parsed: list[ParsedQuestion] = []
     md_files = iter_markdown_files(vault)
     report.scanned_files = len(md_files)
@@ -374,6 +515,8 @@ def scan_vault(vault: Path, report: Report) -> list[ParsedQuestion]:
         for candidate in find_candidates(path, rel_path, body, yaml_subspecialty):
             q = parse_candidate(candidate, report)
             if q:
+                if resolver:
+                    convert_question_images(q, resolver)
                 parsed.append(q)
     return parsed
 
@@ -471,9 +614,11 @@ def build_index(outputs: dict[int, dict], target: Path) -> dict:
     return {"years": [years[y] for y in sorted(years, reverse=True)]}
 
 
-def write_outputs(outputs: dict[int, dict], index: dict, target: Path, report: Report) -> None:
+def write_outputs(outputs: dict[int, dict], index: dict, target: Path, report: Report, resolver: ImageResolver | None = None) -> None:
     data_dir = target / "data"
     data_dir.mkdir(parents=True, exist_ok=True)
+    if resolver:
+        resolver.copy_registered()
     for year, data in sorted(outputs.items()):
         path = data_dir / f"{year}.json"
         path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -497,6 +642,8 @@ def print_report(report: Report) -> None:
         print("  Written files:")
         for path in data["writtenFiles"]:
             print(f"    - {path}")
+    pending = getattr(report, "pending_image_copies", [])
+    print(f"  Images pending-copy/copied/missing/ambiguous/unsupported: {len(pending)}/{len(report.copied_images)}/{len(report.missing_image_embeds)}/{len(report.ambiguous_image_embeds)}/{len(report.unsupported_embeds)}")
     if report.skipped:
         print("  First skipped blocks:")
         for skip in report.skipped[:10]:
@@ -517,12 +664,17 @@ def main(argv: list[str] | None = None) -> int:
 
     source_hashes = {path: file_hash(path) for path in iter_markdown_files(vault)}
     report = Report()
-    parsed = scan_vault(vault, report)
+    resolver = ImageResolver(vault, target, report)
+    parsed = scan_vault(vault, report, resolver)
+    report.pending_image_copies = [
+        {"source": source.relative_to(vault).as_posix(), "target": web_path}
+        for source, web_path in sorted(resolver.pending.items(), key=lambda item: item[1])
+    ]
     outputs = build_outputs(parsed, target, args.merge_mode, report)
     index = build_index(outputs, target)
 
     if not args.dry_run:
-        write_outputs(outputs, index, target, report)
+        write_outputs(outputs, index, target, report, resolver)
 
     after_hashes = {path: file_hash(path) for path in source_hashes}
     changed_sources = [str(path) for path, before in source_hashes.items() if after_hashes.get(path) != before]

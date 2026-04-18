@@ -32,7 +32,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "extends.\n![[ADD breast MLO.png]] MLO view PNL對到的pectoralis major要能看到",
+      "explanation": "extends.\n![ADD breast MLO](data/images/obsidian/add-breast-mlo-44db17ac.png) MLO view PNL對到的pectoralis major要能看到",
       "images": [],
       "concepts": [],
       "checked": false
@@ -728,7 +728,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "PI-RADS不看MRS，MRS不好做，要做很久。\nAB. 正確。對PZ lesions，主要依據 DWI 影像表現來分級；而TZ則是T2WI\nD. 正確。看有沒有顯影而已。![[ADD PI-RADS.jpg]]",
+      "explanation": "PI-RADS不看MRS，MRS不好做，要做很久。\nAB. 正確。對PZ lesions，主要依據 DWI 影像表現來分級；而TZ則是T2WI\nD. 正確。看有沒有顯影而已。![ADD PI-RADS](data/images/obsidian/add-pi-rads-5140b97b.jpg)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1079,7 +1079,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "**late** stage worm cyst的cavity跟周圍的出血也許會像signet ring [[Paragonimiasis]]\n但Signet ring sign多指bronchiectasis在CT的表現。擴張的bronchiectasis+血管，看起來像戒指 ![[ADD signet ring bronchiectasis.png]]\nBronchiectasis: bronchoarterial ratio > 1. 也可能合併tram-track sign [[ADD tram-track sign.png]]",
+      "explanation": "**late** stage worm cyst的cavity跟周圍的出血也許會像signet ring [[Paragonimiasis]]\n但Signet ring sign多指bronchiectasis在CT的表現。擴張的bronchiectasis+血管，看起來像戒指 ![ADD signet ring bronchiectasis](data/images/obsidian/add-signet-ring-bronchiectasis-a16871cd.png)\nBronchiectasis: bronchoarterial ratio > 1. 也可能合併tram-track sign [[ADD tram-track sign.png]]",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1114,7 +1114,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[ADD IgG4 related disease 1.png]]\nA. [[Kikuchi-Fujimoto disease]] 頸部淋巴結壞死性腫大\nB. [[Castleman disease]] 有單一淋巴跟Multicentric\nC. [[Kimura disease]] 頸部淋巴結+唾液腺腫大",
+      "explanation": "![ADD IgG4 related disease 1](data/images/obsidian/add-igg4-related-disease-1-85c4cd20.png)\nA. [[Kikuchi-Fujimoto disease]] 頸部淋巴結壞死性腫大\nB. [[Castleman disease]] 有單一淋巴跟Multicentric\nC. [[Kimura disease]] 頸部淋巴結+唾液腺腫大",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1433,7 +1433,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "60%–70%.\n\n\n## 診斷\nRadiographics. 2016 Mar-Apr;36(2):355-7. Commentary on [[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 一開始被稱作IHSS(idiopathic hypertrophic subaortic stenosis)，因為症狀和AS很像，首先被觀察到的是局部的 septal hypertrophy，但和AS不同的是，病人LVOT會有pressure gradient，且大部分病人其實沒有stenosis(故後來改名為HCM)。事實上還有一大部分病人沒有pressure gradient，但當時沒能力診斷\n- 診斷上的特點包含：局部非對稱性中隔肥厚(ASH, septum/後壁>1.3)。通常伴隨著ant. MV的SAM。當SAM使前葉與中隔接近時，就會出現pressure gradient，造成LVOT obstruction。病人通常也有很嚴重的MR。**ASH和SAM**的組合因此成為了IHSS的標誌。\n- Heart echo普及後發現ASH以外有很多pattern，且有些病人沒有SAM，也沒有pressure gradient。故後來改名叫HCM。\n- Heart MRI：可全面的評估心臟各部位。也可能在病人出現症狀前找出蛛絲馬跡。對有相關家族史的人很重要。\n\nFC 內專2011\n- 壁**不對稱**的增厚(septum/後壁>1.3)，腔室↓，舒張↓\n- 心收縮時，MV前葉往前移動(**SAM**, systolic anterior motion)，造成LVOT obstruction\n- Preload減少(站立, Valsalva maneuver)--> LVOT加重 --> 收縮雜音變得明顯\n\n### Asymmetric HCM\n[[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 最常見，約60-70%\n- Septum 不對稱的增大，最常影響到 anteroseptal myocardium，可能影響subaortic, midventricular, or apical regions 等等有多種不同的情況。\n- LV厚度一般不超過11 mm，要在end diastole時測量。當septum厚度>1.5mm或和下壁(midventricular septum/ inferior wall)比例>1.5即可診斷。小孩的話，厚度要>2個標準差。 ![[ADD HCM Dx 2.png]]\n- anteroseptal myocardium增厚會讓LV變成sigmoid的形狀，讓LV狹窄，阻塞LVOT。通常也會有SAM。\n\n### Apical HCM\n- 日本人佔15%，歐美占2%。\n- EKG會有giant negative T wave，LV cavity形狀如鏟子(spade)\n- 基本上預後良好，但1/3會有嚴重併發症：myocardial infarction, atrial fibrillation, and stroke。\n\t- Apical infarction可能形成aneurysm，叫做burned-out apex，後續可能產生thrombi。有apical aneurysm, >5% delayed enhancement預後可能不良。\n- 診斷如Table。通常RV apex也會受影響。US評估受限，強烈建議用MRI。![[case HCM apical spade.png]]\n\n### LGE late gadolinium enhancement\n肥厚性心肌病變攻略\n- 正常心肌細胞，contrast會在ECM不會進入心肌細胞，過一段時間顯影劑流失呈現低訊號\n- 心肌scar, infarction：顯影劑會滯留在心肌細胞 or fibrotic ECM。造成T1 shortening, 呈現高訊號\n- 觀察LGE的pattern做DDx ![[ADD MRI LGE.png]]\n\t- LGE因sequence種類繁多，目前無法定量。但可獲得定性資訊，要正常心肌來當基準。\n\t- Diffuse疾病可能難以辨識：diffuse fibrosis\n- HCM典型LGE pattern：**midwall patchy or punctate hyperenhancement** in a thickened myocardium in a **noncoronary** distribution\n- T1 mapping代表胞內特性。ECV代表胞外特性\n\n**SAM (systolic anterior motion) of the anterior mitral leaflet**\n - increase LVOT obstruction and decreased coronary and systemic outflow\n - SAM of the posterior leaflet: less common\n - MR (leaflet accessory tissue and elongation)\n\n![[20211218 Structure heart disease#HCM]]\n\n### Pressure gradient\n## Treatment, prognosis",
+      "explanation": "60%–70%.\n\n\n## 診斷\nRadiographics. 2016 Mar-Apr;36(2):355-7. Commentary on [[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 一開始被稱作IHSS(idiopathic hypertrophic subaortic stenosis)，因為症狀和AS很像，首先被觀察到的是局部的 septal hypertrophy，但和AS不同的是，病人LVOT會有pressure gradient，且大部分病人其實沒有stenosis(故後來改名為HCM)。事實上還有一大部分病人沒有pressure gradient，但當時沒能力診斷\n- 診斷上的特點包含：局部非對稱性中隔肥厚(ASH, septum/後壁>1.3)。通常伴隨著ant. MV的SAM。當SAM使前葉與中隔接近時，就會出現pressure gradient，造成LVOT obstruction。病人通常也有很嚴重的MR。**ASH和SAM**的組合因此成為了IHSS的標誌。\n- Heart echo普及後發現ASH以外有很多pattern，且有些病人沒有SAM，也沒有pressure gradient。故後來改名叫HCM。\n- Heart MRI：可全面的評估心臟各部位。也可能在病人出現症狀前找出蛛絲馬跡。對有相關家族史的人很重要。\n\nFC 內專2011\n- 壁**不對稱**的增厚(septum/後壁>1.3)，腔室↓，舒張↓\n- 心收縮時，MV前葉往前移動(**SAM**, systolic anterior motion)，造成LVOT obstruction\n- Preload減少(站立, Valsalva maneuver)--> LVOT加重 --> 收縮雜音變得明顯\n\n### Asymmetric HCM\n[[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 最常見，約60-70%\n- Septum 不對稱的增大，最常影響到 anteroseptal myocardium，可能影響subaortic, midventricular, or apical regions 等等有多種不同的情況。\n- LV厚度一般不超過11 mm，要在end diastole時測量。當septum厚度>1.5mm或和下壁(midventricular septum/ inferior wall)比例>1.5即可診斷。小孩的話，厚度要>2個標準差。 ![ADD HCM Dx 2](data/images/obsidian/add-hcm-dx-2-6712296a.png)\n- anteroseptal myocardium增厚會讓LV變成sigmoid的形狀，讓LV狹窄，阻塞LVOT。通常也會有SAM。\n\n### Apical HCM\n- 日本人佔15%，歐美占2%。\n- EKG會有giant negative T wave，LV cavity形狀如鏟子(spade)\n- 基本上預後良好，但1/3會有嚴重併發症：myocardial infarction, atrial fibrillation, and stroke。\n\t- Apical infarction可能形成aneurysm，叫做burned-out apex，後續可能產生thrombi。有apical aneurysm, >5% delayed enhancement預後可能不良。\n- 診斷如Table。通常RV apex也會受影響。US評估受限，強烈建議用MRI。![case HCM apical spade](data/images/obsidian/case-hcm-apical-spade-3de2592b.png)\n\n### LGE late gadolinium enhancement\n肥厚性心肌病變攻略\n- 正常心肌細胞，contrast會在ECM不會進入心肌細胞，過一段時間顯影劑流失呈現低訊號\n- 心肌scar, infarction：顯影劑會滯留在心肌細胞 or fibrotic ECM。造成T1 shortening, 呈現高訊號\n- 觀察LGE的pattern做DDx ![ADD MRI LGE](data/images/obsidian/add-mri-lge-4e1a684f.png)\n\t- LGE因sequence種類繁多，目前無法定量。但可獲得定性資訊，要正常心肌來當基準。\n\t- Diffuse疾病可能難以辨識：diffuse fibrosis\n- HCM典型LGE pattern：**midwall patchy or punctate hyperenhancement** in a thickened myocardium in a **noncoronary** distribution\n- T1 mapping代表胞內特性。ECV代表胞外特性\n\n**SAM (systolic anterior motion) of the anterior mitral leaflet**\n - increase LVOT obstruction and decreased coronary and systemic outflow\n - SAM of the posterior leaflet: less common\n - MR (leaflet accessory tissue and elongation)\n\n![[20211218 Structure heart disease#HCM]]\n\n### Pressure gradient\n## Treatment, prognosis",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1468,7 +1468,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "應為asymmetric septal form (佔60-70%) Apical 佔2% 但日本人是15%\nD. ![[ADD HCM Dx 2.png]]",
+      "explanation": "應為asymmetric septal form (佔60-70%) Apical 佔2% 但日本人是15%\nD. ![ADD HCM Dx 2](data/images/obsidian/add-hcm-dx-2-6712296a.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1608,7 +1608,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Corona mortis artery characteristically crosses the superior pubic ramus 33–62 mm lateral to the symphysis pubis.\n![[ADD Corona mortis.png]]\n\n\n| #閱片                                    |                             |\n| ---------------------------------------- | --------------------------- |\n| ![[Corona mortis artery 2017內0436.png]] | 201704 Corona mortis artery |\n|                                          |                             |",
+      "explanation": "Corona mortis artery characteristically crosses the superior pubic ramus 33–62 mm lateral to the symphysis pubis.\n![ADD Corona mortis](data/images/obsidian/add-corona-mortis-e1208ef8.png)\n\n\n| #閱片                                    |                             |\n| ---------------------------------------- | --------------------------- |\n| ![Corona mortis artery 2017內0436](data/images/obsidian/corona-mortis-artery-2017-0436-ac8fd9d8.png) | 201704 Corona mortis artery |\n|                                          |                             |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1713,7 +1713,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "# 題目\n| #閱片                                         | Ans                                               |\n| --------------------------------------------- | ------------------------------------------------- |\n| ![[Femoroacetabular impingement -201205.JPG]] | 201205 確定有cam type FAI. labrum不知道有沒有問題 |\n|                                               |                                                   |\n|                                               |                                                   |",
+      "explanation": "# 題目\n| #閱片                                         | Ans                                               |\n| --------------------------------------------- | ------------------------------------------------- |\n| ![Femoroacetabular impingement -201205](data/images/obsidian/femoroacetabular-impingement--201205-18c69a42.jpg) | 201205 確定有cam type FAI. labrum不知道有沒有問題 |\n|                                               |                                                   |\n|                                               |                                                   |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1893,7 +1893,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "- A. ![[ADD femoral neck 2.png]] (圖 From [Orthogeriatrics](https://link.springer.com/chapter/10.1007/978-3-030-48126-1_9)) medial buttress: inferomedial femoral neck cortex最厚的地方，旁邊這些很厚的cortex叫做calcar femorale，支撐femoral neck，implant釘在這也會比較穩。所以受損的話會不穩定。\n- B. 可能是Type III, IV, V都是 unstable. 3-4 parts\n- C. A rare variant. 很不穩定，adductor muscle會讓displacement惡化。\n- D. Type I, II. 2 parts. reduction效果好，很穩定。",
+      "explanation": "- A. ![ADD femoral neck 2](data/images/obsidian/add-femoral-neck-2-c1ac5702.png) (圖 From [Orthogeriatrics](https://link.springer.com/chapter/10.1007/978-3-030-48126-1_9)) medial buttress: inferomedial femoral neck cortex最厚的地方，旁邊這些很厚的cortex叫做calcar femorale，支撐femoral neck，implant釘在這也會比較穩。所以受損的話會不穩定。\n- B. 可能是Type III, IV, V都是 unstable. 3-4 parts\n- C. A rare variant. 很不穩定，adductor muscle會讓displacement惡化。\n- D. Type I, II. 2 parts. reduction效果好，很穩定。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2181,7 +2181,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Commonly, the vascular supply to Juvenile nasopharyngeal angiofibroma(JNA) is primarily from ==distal Internal Maxillary Artery (IMA) branches==, particularly the sphenopalatine, descending palatine, and posterior superior alveolar branches. JNAs may also be supplied by the ==ascending pharyngeal== artery\n![[ADD ECA 3.png]]",
+      "explanation": "Commonly, the vascular supply to Juvenile nasopharyngeal angiofibroma(JNA) is primarily from ==distal Internal Maxillary Artery (IMA) branches==, particularly the sphenopalatine, descending palatine, and posterior superior alveolar branches. JNAs may also be supplied by the ==ascending pharyngeal== artery\n![ADD ECA 3](data/images/obsidian/add-eca-3-fdb7c0e0.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2426,7 +2426,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "A.  **Ipsilateral** piriform sinus dilatation\nB. ![[ADD vagus recurrent laryngeal n.png]] 左側要到mediastinum\nC. 輕微的可能看不出來。",
+      "explanation": "A.  **Ipsilateral** piriform sinus dilatation\nB. ![ADD vagus recurrent laryngeal n](data/images/obsidian/add-vagus-recurrent-laryngeal-n-d707ad0d.png) 左側要到mediastinum\nC. 輕微的可能看不出來。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2566,7 +2566,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "If immune function improves rapidly following the commencement of ART, systemic or local inflammatory reactions may occur at the site or sites of the preexisting infection.\nC. 使用Natalizumab可能要考慮\n\n\n## Spinal cord\n![[ADD 2023 SC 1.png]]![[ADD 2023 SC 2.png]]![[ADD 2023 SC 3.png]]\n![[ADD 2023 SC 4.png]]\n\n最後一個是Spinal Cord，送分題，大家都很熟。\n- 如果是Inverted V sign在post. column，就是在考[[Subacute combined degeneration]]，可能是B12缺乏，或是吸笑氣。\n- 靠前方Owl's eye sign，就會想到ant. spinal cord infarction。\n- Demyelination：\n\t- Partial short segment考MS\n\t - 比較central比較長超過三節就是NMO。NMO打藥顯影比較強，通常比較腫\n\t- Anti-MOG 細細一條，很長，像H-shaped。\n\n\n- 這裡面有很多sign，雖然整理的很好，但是臨床診斷是非常困難的，尤其很多病人好幾個病加在一起，可能感染加上缺氧，或在外面治療過導致影像不典型等。\n- DWI diffusion restriction，要記得看ADC。有可能是T2 shine through effect。",
+      "explanation": "If immune function improves rapidly following the commencement of ART, systemic or local inflammatory reactions may occur at the site or sites of the preexisting infection.\nC. 使用Natalizumab可能要考慮\n\n\n## Spinal cord\n![ADD 2023 SC 1](data/images/obsidian/add-2023-sc-1-3f86d7f7.png)![ADD 2023 SC 2](data/images/obsidian/add-2023-sc-2-af5c76c4.png)![ADD 2023 SC 3](data/images/obsidian/add-2023-sc-3-fd1b00b0.png)\n![ADD 2023 SC 4](data/images/obsidian/add-2023-sc-4-f9af9b96.png)\n\n最後一個是Spinal Cord，送分題，大家都很熟。\n- 如果是Inverted V sign在post. column，就是在考[[Subacute combined degeneration]]，可能是B12缺乏，或是吸笑氣。\n- 靠前方Owl's eye sign，就會想到ant. spinal cord infarction。\n- Demyelination：\n\t- Partial short segment考MS\n\t - 比較central比較長超過三節就是NMO。NMO打藥顯影比較強，通常比較腫\n\t- Anti-MOG 細細一條，很長，像H-shaped。\n\n\n- 這裡面有很多sign，雖然整理的很好，但是臨床診斷是非常困難的，尤其很多病人好幾個病加在一起，可能感染加上缺氧，或在外面治療過導致影像不典型等。\n- DWI diffusion restriction，要記得看ADC。有可能是T2 shine through effect。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2636,7 +2636,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "根據Diagn Interv Imaging. 2013 May;94(5):487-95. Static elastography是指靜態施加壓力給組織，然後評估strain的情況並顯示。因為施加的壓力無法量化，也無法定量評估 Young modulus。而dynamic elastography，會調整力道，測量其shear waves propagation，透過E=3 μ換算可量化Young's modulus。部長投影片： ![[ADD elastography 1.png]]",
+      "explanation": "根據Diagn Interv Imaging. 2013 May;94(5):487-95. Static elastography是指靜態施加壓力給組織，然後評估strain的情況並顯示。因為施加的壓力無法量化，也無法定量評估 Young modulus。而dynamic elastography，會調整力道，測量其shear waves propagation，透過E=3 μ換算可量化Young's modulus。部長投影片： ![ADD elastography 1](data/images/obsidian/add-elastography-1-0de1bc3e.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3144,7 +3144,7 @@
       ],
       "subspecialty": "Physics",
       "subspecialty_confidence": "manual",
-      "questionText": "請問下圖RF pulse給予方式屬於何種MRI sequence? ![[交換2017 MRI GRE.png]]",
+      "questionText": "請問下圖RF pulse給予方式屬於何種MRI sequence? ![交換2017 MRI GRE](data/images/obsidian/2017-mri-gre-15432885.png)",
       "options": [
         {
           "letter": "A",
@@ -3179,7 +3179,7 @@
       ],
       "subspecialty": "Physics",
       "subspecialty_confidence": "manual",
-      "questionText": "請問下圖RF pulse給予方式屬於何種MRI sequence? ![[交換2017 MRI SE.png]]",
+      "questionText": "請問下圖RF pulse給予方式屬於何種MRI sequence? ![交換2017 MRI SE](data/images/obsidian/2017-mri-se-6d49c897.png)",
       "options": [
         {
           "letter": "A",

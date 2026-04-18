@@ -460,7 +460,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "高 Leak sinks, Muffins rise. Lateral會往下，Medial會往上\n![[ADD Triangulation.png]]",
+      "explanation": "高 Leak sinks, Muffins rise. Lateral會往下，Medial會往上\n![ADD Triangulation](data/images/obsidian/add-triangulation-ec8f462e.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -816,7 +816,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "# 題目\n\n| #閱片                                                   | Ans |\n| ------------------------------------------------------- | --- |\n| ![[Omental infarction -202011.PNG]]                     |     |\n| ![[Omental torsion with omental infarction -201708, 202205.jpg]] |     |",
+      "explanation": "# 題目\n\n| #閱片                                                   | Ans |\n| ------------------------------------------------------- | --- |\n| ![Omental infarction -202011](data/images/obsidian/omental-infarction--202011-67c35935.png)                     |     |\n| ![Omental torsion with omental infarction -201708, 202205](data/images/obsidian/omental-torsion-with-omental-infarction--201708-202205-707426c7.jpg) |     |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1251,7 +1251,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "錯誤。看起來硬加not進去。文中有一段是Pulmonary Edema  and Pleural Effusion due to  Molecular Targeting Therapy，常見藥物有BCR-ABL kinase inhibitors。\nD. 文中表格Tyrosine kinase inhibitor，VEGF inhibitor可能引起pneumothorax. ![[ADD ICI lung complications.png]]\n\n\n---\n#### 其他說明\nhttps://pubs.rsna.org/doi/full/10.1148/rg.210146\nCheckpoint inhibitor–associated MIPI 最常見的表現是 OP(organizing pneumonia) pattern，接著是 fibrotic NSIP and centrilobular GGN patterns。有一些會以fibrosing OP呈現。因為和T cell有關，表現也可能會像 sarcoidosis。\n![[ADD MIPI 2.png]]\n![[ADD MIPI 1.png]]\n\n#### RA drugs\n RadioGraphics 2021; 41:32-55\n ![[Pasted image 20241203003111.png]]",
+      "explanation": "錯誤。看起來硬加not進去。文中有一段是Pulmonary Edema  and Pleural Effusion due to  Molecular Targeting Therapy，常見藥物有BCR-ABL kinase inhibitors。\nD. 文中表格Tyrosine kinase inhibitor，VEGF inhibitor可能引起pneumothorax. ![ADD ICI lung complications](data/images/obsidian/add-ici-lung-complications-256e24dc.png)\n\n\n---\n#### 其他說明\nhttps://pubs.rsna.org/doi/full/10.1148/rg.210146\nCheckpoint inhibitor–associated MIPI 最常見的表現是 OP(organizing pneumonia) pattern，接著是 fibrotic NSIP and centrilobular GGN patterns。有一些會以fibrosing OP呈現。因為和T cell有關，表現也可能會像 sarcoidosis。\n![ADD MIPI 2](data/images/obsidian/add-mipi-2-8bd6e0b2.png)\n![ADD MIPI 1](data/images/obsidian/add-mipi-1-1ab72abf.png)\n\n#### RA drugs\n RadioGraphics 2021; 41:32-55\n ![Pasted image 20241203003111](data/images/obsidian/pasted-image-20241203003111-4738ca2f.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1290,7 +1290,7 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "B. Reticular pattern算是Probable或Indeterminate UIP. Definite UIP需honeycomb。兩者須區分 ![[ADD reticulation honeycomb.png]]",
+      "explanation": "B. Reticular pattern算是Probable或Indeterminate UIP. Definite UIP需honeycomb。兩者須區分 ![ADD reticulation honeycomb](data/images/obsidian/add-reticulation-honeycomb-db17b52c.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1782,7 +1782,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "LV lateral wall也會\nD. accordion sign. A corrugated pattern to the RV wall may be seen. ![[ADD ARVD accordion sign.png]]  corrugated 波紋的，瓦楞的",
+      "explanation": "LV lateral wall也會\nD. accordion sign. A corrugated pattern to the RV wall may be seen. ![ADD ARVD accordion sign](data/images/obsidian/add-arvd-accordion-sign-a66cd435.png)  corrugated 波紋的，瓦楞的",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1817,7 +1817,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD cardiac tumor.png]] Papillary fibroelastoma MV比例好像怪怪的",
+      "explanation": "![ADD cardiac tumor](data/images/obsidian/add-cardiac-tumor-9c50c634.png) Papillary fibroelastoma MV比例好像怪怪的",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1922,7 +1922,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "錯誤。通常和iron, fatty overload有關。\nA. 正確。(Core Rad) Double IR是FSE加上dark-blood technique，會讓血液更黑。Triple IR則是再加上IR抑制fat。\nB. 可參考 J Cardiovasc Magn Reson. 2014 Mar 27;16(1):24. MPR定義如題目所述。其Impaired MPR 定義是**<2** (peak CS flow/pre CS flow<2) 且和 advanced age, diabetes, current smoking and higher Framingham risk score 有關。\nC. 大致上是正確的。很難用文字描述。 ![[ADD T1 mapping.png]]",
+      "explanation": "錯誤。通常和iron, fatty overload有關。\nA. 正確。(Core Rad) Double IR是FSE加上dark-blood technique，會讓血液更黑。Triple IR則是再加上IR抑制fat。\nB. 可參考 J Cardiovasc Magn Reson. 2014 Mar 27;16(1):24. MPR定義如題目所述。其Impaired MPR 定義是**<2** (peak CS flow/pre CS flow<2) 且和 advanced age, diabetes, current smoking and higher Framingham risk score 有關。\nC. 大致上是正確的。很難用文字描述。 ![ADD T1 mapping](data/images/obsidian/add-t1-mapping-c9633e41.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1957,7 +1957,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD HCM risk factor SCD.png]]\n- HCM發生SCM的risk factor:\n\t- 曾經SCD過，每年猝死機率達10%\n\t- LV wall>3cm, 有SCD一等親家族史, 非神經性syncope等也很危險\n\t- 年輕病人，nonsustained VT, LA dilation, LVOT obstruction, 運動時血壓變化異常(如SBP↑不足20mmHg)...",
+      "explanation": "![ADD HCM risk factor SCD](data/images/obsidian/add-hcm-risk-factor-scd-a33574cf.png)\n- HCM發生SCM的risk factor:\n\t- 曾經SCD過，每年猝死機率達10%\n\t- LV wall>3cm, 有SCD一等親家族史, 非神經性syncope等也很危險\n\t- 年輕病人，nonsustained VT, LA dilation, LVOT obstruction, 運動時血壓變化異常(如SBP↑不足20mmHg)...",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2027,7 +2027,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "公式沒有Na ![[ADD T1 mapping.png]] From [Cardiac magnetic resonance T1 mapping. Part 1: Aspects of acquisition and evaluation](https://www.ejradiology.com/article/S0720-048X(18)30356-5/fulltext)",
+      "explanation": "公式沒有Na ![ADD T1 mapping](data/images/obsidian/add-t1-mapping-c9633e41.png) From [Cardiac magnetic resonance T1 mapping. Part 1: Aspects of acquisition and evaluation](https://www.ejradiology.com/article/S0720-048X(18)30356-5/fulltext)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2167,7 +2167,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "- 除了double arch都要 ligamentum arteriosum 繞成一圈\n- B. Very rare.\n![[ADD vascular ring and sling.png]]",
+      "explanation": "- 除了double arch都要 ligamentum arteriosum 繞成一圈\n- B. Very rare.\n![ADD vascular ring and sling](data/images/obsidian/add-vascular-ring-and-sling-8650aa58.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2237,7 +2237,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "**Left CCA**. Aberrant SCA通常在食道後，不會是第一個 ![[ADD Rt arch, aberrant Lt SCA, Kommerell diverticulum.png]]\n\n\n\n# 題目\n| #閱片 vascular ring                                                                                                | Ans                                                      |\n| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |\n| ![[Pulmonary sling -201108.JPG]]                                                                     |                                                          |\n| ![[pulmonary sling -201008.jpg]]                                                                     |                                                          |\n| ![[Pulmonary sling (aberrant left pulmonary artery) 202005-46.PNG]]                                  |                                                          |\n| ![[Double aortic arch-201702.JPG]]                                                                   | thymus 還很大應該不能從CXR看吧                           |\n| ![[Double aortic arch -201808.jpg]]                                                                  |                                                          |\n| ![[double aortic arch -201108.JPG]]                                                                  | X光可看到Right side aortic arch 但也不一定是double?      |\n| ![[Right-sided aorta, aberrant left subclavian artery, and Kommerell's diverticulum -201211.jpg]]    | 先看到Rt arch 想 Kommerell diverticulum, aberrant Lt SCA |\n| ![[Aberrant right subclavian artery and calcified aneurysm of kommerell's diverticulum -201402.jpg]] | #問  CXR看到Rt arch [[Kommerell diverticulum]]           |\n|                                                                                                      |                                                          |\n| ![[Aberrant Rt Subclavian Artery causing extrinsic compression the esophagus -201005.jpg]]           | 食道看起來前後都有被壓迫                                 |\n| ![[Aberrant right subclavian artery-201511.JPG]]                                                     |                                                          |\n| ![[aberrant right subclavian artery -201011.JPG]]                                                    | 食道後面被壓迫 原因應該會有3種?                          |\n|                                                                                                      |                                                          |",
+      "explanation": "**Left CCA**. Aberrant SCA通常在食道後，不會是第一個 ![ADD Rt arch, aberrant Lt SCA, Kommerell diverticulum](data/images/obsidian/add-rt-arch-aberrant-lt-sca-kommerell-diverticulum-457ecb39.png)\n\n\n\n# 題目\n| #閱片 vascular ring                                                                                                | Ans                                                      |\n| ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |\n| ![Pulmonary sling -201108](data/images/obsidian/pulmonary-sling--201108-1bcd7ebf.jpg)                                                                     |                                                          |\n| ![pulmonary sling -201008](data/images/obsidian/pulmonary-sling--201008-4a32f615.jpg)                                                                     |                                                          |\n| ![Pulmonary sling (aberrant left pulmonary artery) 202005-46](data/images/obsidian/pulmonary-sling-aberrant-left-pulmonary-artery-202005-46-8913959d.png)                                  |                                                          |\n| ![Double aortic arch-201702](data/images/obsidian/double-aortic-arch-201702-1401d1bf.jpg)                                                                   | thymus 還很大應該不能從CXR看吧                           |\n| ![Double aortic arch -201808](data/images/obsidian/double-aortic-arch--201808-0774fc1c.jpg)                                                                  |                                                          |\n| ![double aortic arch -201108](data/images/obsidian/double-aortic-arch--201108-a8feaccc.jpg)                                                                  | X光可看到Right side aortic arch 但也不一定是double?      |\n| ![Right-sided aorta, aberrant left subclavian artery, and Kommerell's diverticulum -201211](data/images/obsidian/right-sided-aorta-aberrant-left-subclavian-artery-and-kommerell-s-diverticulum--201211-3a19b10c.jpg)    | 先看到Rt arch 想 Kommerell diverticulum, aberrant Lt SCA |\n| ![Aberrant right subclavian artery and calcified aneurysm of kommerell's diverticulum -201402](data/images/obsidian/aberrant-right-subclavian-artery-and-calcified-aneurysm-of-kommerell-s-diverticulum--201402-f852ba2e.jpg) | #問  CXR看到Rt arch [[Kommerell diverticulum]]           |\n|                                                                                                      |                                                          |\n| ![Aberrant Rt Subclavian Artery causing extrinsic compression the esophagus -201005](data/images/obsidian/aberrant-rt-subclavian-artery-causing-extrinsic-compression-the-esophagus--201005-c8649008.jpg)           | 食道看起來前後都有被壓迫                                 |\n| ![Aberrant right subclavian artery-201511](data/images/obsidian/aberrant-right-subclavian-artery-201511-b8c60e45.jpg)                                                     |                                                          |\n| ![aberrant right subclavian artery -201011](data/images/obsidian/aberrant-right-subclavian-artery--201011-7591dc22.jpg)                                                    | 食道後面被壓迫 原因應該會有3種?                          |\n|                                                                                                      |                                                          |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2346,7 +2346,7 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "The atypical fracture pattern occurs in the **proximal third** of the femur, typically **subtrochanteric**, and may be unilateral or bilateral. Atypical femoral fractures can also occur more inferiorly to the level of the supracondylar region.\nAtypical Subtrochanteric and Diaphyseal Femoral Fractures: Second Report of a Task Force of the American Society for Bone and Mineral Research Shane E, JBMR 2014, 29;1-23\n\n\n# 題目\n\n| #閱片                                                                                                                          | Ans    |\n| ------------------------------------------------------------------------------------------------------------------------------ | ------ |\n| ![[Atypical femoral fracture (due to long term use of bisphosphonates) -20181116.JPG]]                                         | 201811 |\n| ![[Atypical femoral fracture, Bisphosphonate related subtrochanteric  -201508.JPG]]                                            | 201508 |\n| ![[BRONJ (Bisphosphonate-Related Osteonecrosis of the Jaw) (Medication-related osteonecrosis of the jaw) (MRONJ) -201702.jpg]] | 201702 |",
+      "explanation": "The atypical fracture pattern occurs in the **proximal third** of the femur, typically **subtrochanteric**, and may be unilateral or bilateral. Atypical femoral fractures can also occur more inferiorly to the level of the supracondylar region.\nAtypical Subtrochanteric and Diaphyseal Femoral Fractures: Second Report of a Task Force of the American Society for Bone and Mineral Research Shane E, JBMR 2014, 29;1-23\n\n\n# 題目\n\n| #閱片                                                                                                                          | Ans    |\n| ------------------------------------------------------------------------------------------------------------------------------ | ------ |\n| ![Atypical femoral fracture (due to long term use of bisphosphonates) -20181116](data/images/obsidian/atypical-femoral-fracture-due-to-long-term-use-of-bisphosphonates--20181116-a79d5a66.jpg)                                         | 201811 |\n| ![Atypical femoral fracture, Bisphosphonate related subtrochanteric  -201508](data/images/obsidian/atypical-femoral-fracture-bisphosphonate-related-subtrochanteric--201508-7e417286.jpg)                                            | 201508 |\n| ![BRONJ (Bisphosphonate-Related Osteonecrosis of the Jaw) (Medication-related osteonecrosis of the jaw) (MRONJ) -201702](data/images/obsidian/bronj-bisphosphonate-related-osteonecrosis-of-the-jaw-medication-related-osteonecrosis-of-the-jaw-mronj--201702-a767337a.jpg) | 201702 |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2416,7 +2416,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "[[ADD Coracoid process.png]]\n\n\n### Rotator interval\n![[ADD Rotator interval 1.png]] from [Intra-Articular Joint Injections | Anesthesia Key](https://aneskey.com/intra-articular-joint-injections-2/)\n![[ADD Rotator interval 2.png]]\n- Triangular space bounded by the base of the **coracoid process base(上), supraspinatus tendon, subscapularis tendon. **\n- Content:\n\t- Coracohumeral Ligament\n\t- Superior glenohumeral ligament (SGHL)\n\t- Long head of the biceps tendon\n- Biceps pulley: Coracohumeral Ligament+SGHL組成，另外包含distal attachment of the subscapularis tendon.  ![[ADD Rotator interval 2.png]] 把biceps tendon long head包起來，形成滑車sling來穩定intraarticular portion of the long head of the biceps tendon",
+      "explanation": "[[ADD Coracoid process.png]]\n\n\n### Rotator interval\n![ADD Rotator interval 1](data/images/obsidian/add-rotator-interval-1-5f9ce426.png) from [Intra-Articular Joint Injections | Anesthesia Key](https://aneskey.com/intra-articular-joint-injections-2/)\n![ADD Rotator interval 2](data/images/obsidian/add-rotator-interval-2-a38f581d.png)\n- Triangular space bounded by the base of the **coracoid process base(上), supraspinatus tendon, subscapularis tendon. **\n- Content:\n\t- Coracohumeral Ligament\n\t- Superior glenohumeral ligament (SGHL)\n\t- Long head of the biceps tendon\n- Biceps pulley: Coracohumeral Ligament+SGHL組成，另外包含distal attachment of the subscapularis tendon.  ![ADD Rotator interval 2](data/images/obsidian/add-rotator-interval-2-a38f581d.png) 把biceps tendon long head包起來，形成滑車sling來穩定intraarticular portion of the long head of the biceps tendon",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2571,7 +2571,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "distal patellar tendon\n\n\n# 題目\n\n| #閱片 Osgood-Schlatter                                       | Ans                                                                                                           |\n| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |\n| ![[Sinding-Larsen-Johansson disease 202106.png]]             | Jumper knee多用在成人 考你拼字 Osgood在chronic trauma/小朋友較常見 發生在tibial tuberosity會出現fragmentation |\n| ![[Osgood-Schlatter disease -202011.PNG]]                    | tibial tuberosity 有fragment ==> Osgood                                                                       |\n| ![[Osgood-Schlatter disease at bilateral tibia -201002.JPG]] |                                                                                                               |\n|                                                              |                                                                                                               |",
+      "explanation": "distal patellar tendon\n\n\n# 題目\n\n| #閱片 Osgood-Schlatter                                       | Ans                                                                                                           |\n| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |\n| ![Sinding-Larsen-Johansson disease 202106](data/images/obsidian/sinding-larsen-johansson-disease-202106-c465f671.png)             | Jumper knee多用在成人 考你拼字 Osgood在chronic trauma/小朋友較常見 發生在tibial tuberosity會出現fragmentation |\n| ![Osgood-Schlatter disease -202011](data/images/obsidian/osgood-schlatter-disease--202011-accddd06.png)                    | tibial tuberosity 有fragment ==> Osgood                                                                       |\n| ![Osgood-Schlatter disease at bilateral tibia -201002](data/images/obsidian/osgood-schlatter-disease-at-bilateral-tibia--201002-6d30ae96.jpg) |                                                                                                               |\n|                                                              |                                                                                                               |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2786,7 +2786,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "雖然沒提到鈣化。但年紀大papillary較多，罕見鈣化。 [[ADD DDx hypothalamic lesions.png]]\n- B. Rathke cleft cyst: cyst T2亮 T1看成分，不會顯影\n- C. Pituitary macroadenoma 可能有solid, cystic part, necrosis, hemorrhage可能不容易區分。Fluid-fluid level比較常見在adenomas，而Craniopharyngioma, Rathke cleft cyst 較少這樣\n- D. Teratoma還要看到fat, 鈣化。\n\n\n\n| #閱片 Craniopharyngioma            | 答案   |\n| ---------------------------------- | ------ |\n| ![[Craniopharyngioma -201008.jpg]] | 201008 |\n| ![[craniopharyngioma -201308.jpg]] | 201308 |\n| ![[ADD craniopharyngioma.png]]     |        |\n|                                    |        |",
+      "explanation": "雖然沒提到鈣化。但年紀大papillary較多，罕見鈣化。 [[ADD DDx hypothalamic lesions.png]]\n- B. Rathke cleft cyst: cyst T2亮 T1看成分，不會顯影\n- C. Pituitary macroadenoma 可能有solid, cystic part, necrosis, hemorrhage可能不容易區分。Fluid-fluid level比較常見在adenomas，而Craniopharyngioma, Rathke cleft cyst 較少這樣\n- D. Teratoma還要看到fat, 鈣化。\n\n\n\n| #閱片 Craniopharyngioma            | 答案   |\n| ---------------------------------- | ------ |\n| ![Craniopharyngioma -201008](data/images/obsidian/craniopharyngioma--201008-69df5753.jpg) | 201008 |\n| ![craniopharyngioma -201308](data/images/obsidian/craniopharyngioma--201308-f131136a.jpg) | 201308 |\n| ![ADD craniopharyngioma](data/images/obsidian/add-craniopharyngioma-9e0682f8.png)     |        |\n|                                    |        |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3188,7 +3188,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD brain tumor CPangle.png]] 單側hearing loss, CP angle tumor延伸到IAC 有顯影\n\n\n\n# Foramen of Magnum\n\nCreated: Mar 28, 2020 11:37 AM\n![[ADD brain tumor FoM.png]]\n(念過) 發炎也會有類似mass的方式出現\n\n![[ADD brain tumor FoM case 1.png]]\n- bone destruction lesion 包括 sphenoid跟 clivus 跟dens都受到影響，在midline會想到chordoma\n- 右邊有dura tail，meningioma真的是無所不在\n\n![[ADD brain tumor FoM case 2.png]]\n- 考題 一個小朋友。在medalla 有一個hypodense lesion，延伸到upper cervical cord。打對比劑顯影很好，這是glioma\n\n![[ADD brain tumor FoM case 3.png]]\n- bone erosion在dens地方 retrodens lesion，MRI有一塊 low signal的部分，打對比劑也顯影很好。這是RA\n- retrodens 有個小鈣化，其實是CPPD而已\n\n# Skull base\n\nCreated: Mar 28, 2020 11:38 AM\n![[ADD brain tumor skull base.png]]\n- Esthesioneuroblastoma臨床不常見，但考題很常見\n\n![[ADD brain tumor skull base case 1.png]]\n- nasal cavity往上，延伸到ethmoid sinus, ant. cranial fissa的lesion ，enhancement非常好，這是典型的Esthesioneuroblastoma\n\t- 跟sino-nasal carcinoma很難DDx，所以也要想到\nEsthesioneuroblastoma\n- olfactory neuroblastoma, sup. olfactory recess - ethmoid - ant. cranial fossa, bone destruction, CE+\n\n![[ADD brain tumor skull base case 2.png]]\n- 左邊是一個考題 只有bone window\n\t- pulsatile tinnitus會想三個DDx: aberrant carotid a., paraganglionoma, dural AV fistula.\n\t- 這個有enlarged jagular foramen是paraganglioma\n- 中間 在central skull base 有 osteolytic? osteolytic lesion\n\t- 打對比劑後在central skull base, atlas有enhancing lesion最後診斷是Multiple Myeloma\n- 小朋友 這個年紀在central skull base看到osteolytic lesion會想到rhabdomyosarcoma, leukemia, neuroblastoma meta\n\t- 病人沒那麼diffuse沒有那麼permiative?只有在右邊skull base有enhancing lesion 這是[[Rhabdomyosarcoma]]",
+      "explanation": "![ADD brain tumor CPangle](data/images/obsidian/add-brain-tumor-cpangle-ea92ffa1.png) 單側hearing loss, CP angle tumor延伸到IAC 有顯影\n\n\n\n# Foramen of Magnum\n\nCreated: Mar 28, 2020 11:37 AM\n![ADD brain tumor FoM](data/images/obsidian/add-brain-tumor-fom-e7d827bd.png)\n(念過) 發炎也會有類似mass的方式出現\n\n![ADD brain tumor FoM case 1](data/images/obsidian/add-brain-tumor-fom-case-1-8ae7b710.png)\n- bone destruction lesion 包括 sphenoid跟 clivus 跟dens都受到影響，在midline會想到chordoma\n- 右邊有dura tail，meningioma真的是無所不在\n\n![ADD brain tumor FoM case 2](data/images/obsidian/add-brain-tumor-fom-case-2-32849ec4.png)\n- 考題 一個小朋友。在medalla 有一個hypodense lesion，延伸到upper cervical cord。打對比劑顯影很好，這是glioma\n\n![ADD brain tumor FoM case 3](data/images/obsidian/add-brain-tumor-fom-case-3-3bbe6e9e.png)\n- bone erosion在dens地方 retrodens lesion，MRI有一塊 low signal的部分，打對比劑也顯影很好。這是RA\n- retrodens 有個小鈣化，其實是CPPD而已\n\n# Skull base\n\nCreated: Mar 28, 2020 11:38 AM\n![ADD brain tumor skull base](data/images/obsidian/add-brain-tumor-skull-base-44d07e62.png)\n- Esthesioneuroblastoma臨床不常見，但考題很常見\n\n![ADD brain tumor skull base case 1](data/images/obsidian/add-brain-tumor-skull-base-case-1-e7896eb0.png)\n- nasal cavity往上，延伸到ethmoid sinus, ant. cranial fissa的lesion ，enhancement非常好，這是典型的Esthesioneuroblastoma\n\t- 跟sino-nasal carcinoma很難DDx，所以也要想到\nEsthesioneuroblastoma\n- olfactory neuroblastoma, sup. olfactory recess - ethmoid - ant. cranial fossa, bone destruction, CE+\n\n![ADD brain tumor skull base case 2](data/images/obsidian/add-brain-tumor-skull-base-case-2-d04c02aa.png)\n- 左邊是一個考題 只有bone window\n\t- pulsatile tinnitus會想三個DDx: aberrant carotid a., paraganglionoma, dural AV fistula.\n\t- 這個有enlarged jagular foramen是paraganglioma\n- 中間 在central skull base 有 osteolytic? osteolytic lesion\n\t- 打對比劑後在central skull base, atlas有enhancing lesion最後診斷是Multiple Myeloma\n- 小朋友 這個年紀在central skull base看到osteolytic lesion會想到rhabdomyosarcoma, leukemia, neuroblastoma meta\n\t- 病人沒那麼diffuse沒有那麼permiative?只有在右邊skull base有enhancing lesion 這是[[Rhabdomyosarcoma]]",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3294,7 +3294,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD Vascular malformation 分類 1.png]][[Sinus pericranii]] is a cranial venous anomaly in which there is an abnormal communication between **intracranial dural sinuses** and **extracranial venous** structures, usually via an **emissary transosseous vein**.",
+      "explanation": "![ADD Vascular malformation 分類 1](data/images/obsidian/add-vascular-malformation-1-3ca865cf.png)[[Sinus pericranii]] is a cranial venous anomaly in which there is an abnormal communication between **intracranial dural sinuses** and **extracranial venous** structures, usually via an **emissary transosseous vein**.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3331,7 +3331,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "**Perimesencephalic subarachnoid haemorrhage (PMSAH)** is a distinct pattern of subarachnoid haemorrhage (SAH), which is centred on the basal cisterns around the midbrain.\n- 95% of cases have a normal cerebral angiogram and the source of bleeding is not identified; the cause is thought to be a venous bleed. This is referred to as **non-aneurysmal perimesencephalic SAH**.\n- The other 5% of cases are due to a vertebrobasilar aneurysm and the prognosis is worse. Rare causes include arteriovenous malformation, dural arteriovenous fistula, trauma and vascular tumours.\nSpecifically, there are criteria for non-aneurysmal perimesencephalic SAH, which if fulfilled, in the presence of a negative CTA negates the need for DSA:\n- SAH in perimesencephalic cisterns anterior to midbrain\n- if SAH extension into the anterior interhemispheric fissure, not extending into all of the fissure\n- if SAH extension into the medial Sylvian fissures, not extending into the lateral fissure\n- if layering interventricular extension, no frank intraventricular haemorrhage\n- no intraparenchymal haemorrhage\n![[ADD perimesencephalic SAH case 1.png]]",
+      "explanation": "**Perimesencephalic subarachnoid haemorrhage (PMSAH)** is a distinct pattern of subarachnoid haemorrhage (SAH), which is centred on the basal cisterns around the midbrain.\n- 95% of cases have a normal cerebral angiogram and the source of bleeding is not identified; the cause is thought to be a venous bleed. This is referred to as **non-aneurysmal perimesencephalic SAH**.\n- The other 5% of cases are due to a vertebrobasilar aneurysm and the prognosis is worse. Rare causes include arteriovenous malformation, dural arteriovenous fistula, trauma and vascular tumours.\nSpecifically, there are criteria for non-aneurysmal perimesencephalic SAH, which if fulfilled, in the presence of a negative CTA negates the need for DSA:\n- SAH in perimesencephalic cisterns anterior to midbrain\n- if SAH extension into the anterior interhemispheric fissure, not extending into all of the fissure\n- if SAH extension into the medial Sylvian fissures, not extending into the lateral fissure\n- if layering interventricular extension, no frank intraventricular haemorrhage\n- no intraparenchymal haemorrhage\n![ADD perimesencephalic SAH case 1](data/images/obsidian/add-perimesencephalic-sah-case-1-9e68ee95.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3401,7 +3401,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Lipoma: 來自 mesoderm.\n- Ectoderm: epidermoid cyst, skin, appendage, CNS...\n- Mesoderm: lipid, 骨骼...\n- Endoderm: liver, adrenal pancreas...\n![[ADD brain embryo ectoderm mesoderm endoderm.png]]\n\n### Hypothalamic hamartoma\n![[ADD Hypothalamic hamartoma.png]]\n- 在tuber cinereum，病人會有gelastic seizure怪笑，不會 LOC，**不會顯影**。T1 T2 iso，不會diffusion restriction\n- 合併多指: Pallister-Hall syndrome",
+      "explanation": "Lipoma: 來自 mesoderm.\n- Ectoderm: epidermoid cyst, skin, appendage, CNS...\n- Mesoderm: lipid, 骨骼...\n- Endoderm: liver, adrenal pancreas...\n![ADD brain embryo ectoderm mesoderm endoderm](data/images/obsidian/add-brain-embryo-ectoderm-mesoderm-endoderm-ad7bd1bf.png)\n\n### Hypothalamic hamartoma\n![ADD Hypothalamic hamartoma](data/images/obsidian/add-hypothalamic-hamartoma-a70bbbba.png)\n- 在tuber cinereum，病人會有gelastic seizure怪笑，不會 LOC，**不會顯影**。T1 T2 iso，不會diffusion restriction\n- 合併多指: Pallister-Hall syndrome",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3436,7 +3436,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "- A. 定義上不會有正常的相通，但intralobar type可能有collateral相交通。\n- B. ![[ADD Congenital lobar emphysema.png]]\n- C. Bronchogenic cysts 一開始和氣管不相通，感染後才相通，會有air-fluid level。\n- D. 相通會咳出變cavity",
+      "explanation": "- A. 定義上不會有正常的相通，但intralobar type可能有collateral相交通。\n- B. ![ADD Congenital lobar emphysema](data/images/obsidian/add-congenital-lobar-emphysema-e854e2fe.png)\n- C. Bronchogenic cysts 一開始和氣管不相通，感染後才相通，會有air-fluid level。\n- D. 相通會咳出變cavity",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3611,7 +3611,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "- A: ureterocele\n- B: 正確 [[ADD urachal abnormal.png]]\n- C: 尿路異常。bladder通常變大，通常合併urachal diverticulum。[[Prune belly syndrome]]\n- D: In male infants, bladder diverticula must be distinguished from protrusions of the urinary bladder bilaterally into the inguinal rings anteriorly. These outpouchings, known as \"bladder ears,\" are transient and usually disappear with age.\n- Hutch diverticula are commonly seen with vesicoureteric reflux, because the normal oblique insertion of the ureter is disrupted. They are thought to result from a weakness in the detrusor muscle anterolateral to the ureteral orifice.\n- From [^1]\n\n## 閱片\n\n[!case]- ![[Ureterocele -201902.JPG]]\n201902 Ureterocele\n\n[!case]- ![[Ureterocele 202005-42.PNG]]\n202005 Ureterocele\n\n[!case]- ![[Right ureterocele with stones -201408.jpg]]\n201408 Rt ureterocele with stones\n\n[!case]- ![[(right) ureterocele -201108.JPG]]\n201108 Ureterocele\n\n[!case]- ![[Bilateral ureteroceles -201808.jpg]]\n201808 Bilateral ureteroceles\n\n[!case]- ![[Rt duplex kidney with ureterocele of upper moiety and VUR of lower moiety -201708, 202205.jpg]]\n201708, 202205 (1) Rt duplex kidney (2) ureterocele of upper moiety (3) VUR of lower moiety 圖片可看到有兩套 至少要寫duplication, ureterocele\n\n[!case]- ![[Complete duplicated collecting system with big ureterocele -202202.png]]\n202202 Complete collecting system duplication with ureterocele\n\n[!case]- ![[Duplication of right collecting system with moderate hydronephrosis of upper moiety and ureterocele -202208.png]]\n202208 Right collecting system duplication, moderate hydronephrosis, ureterocele\n\n[!case]- ![[Left side urinary tract complete duplication with upper moiety  hydroureteronephrosis and ureterocele -201005.JPG]]\n201005 Left complete duplication, upper moiety hydroureteronephrosis and ureterocele\n\n**閱片重點**：(1) 左右 (2) 是否有complete duplication (3) ureterocele, hydronephrosis of upper moiety (4)",
+      "explanation": "- A: ureterocele\n- B: 正確 [[ADD urachal abnormal.png]]\n- C: 尿路異常。bladder通常變大，通常合併urachal diverticulum。[[Prune belly syndrome]]\n- D: In male infants, bladder diverticula must be distinguished from protrusions of the urinary bladder bilaterally into the inguinal rings anteriorly. These outpouchings, known as \"bladder ears,\" are transient and usually disappear with age.\n- Hutch diverticula are commonly seen with vesicoureteric reflux, because the normal oblique insertion of the ureter is disrupted. They are thought to result from a weakness in the detrusor muscle anterolateral to the ureteral orifice.\n- From [^1]\n\n## 閱片\n\n[!case]- ![Ureterocele -201902](data/images/obsidian/ureterocele--201902-ddd012d8.jpg)\n201902 Ureterocele\n\n[!case]- ![Ureterocele 202005-42](data/images/obsidian/ureterocele-202005-42-0a08c06c.png)\n202005 Ureterocele\n\n[!case]- ![Right ureterocele with stones -201408](data/images/obsidian/right-ureterocele-with-stones--201408-51a6f435.jpg)\n201408 Rt ureterocele with stones\n\n[!case]- ![(right) ureterocele -201108](data/images/obsidian/right-ureterocele--201108-adcceb8b.jpg)\n201108 Ureterocele\n\n[!case]- ![Bilateral ureteroceles -201808](data/images/obsidian/bilateral-ureteroceles--201808-05a53315.jpg)\n201808 Bilateral ureteroceles\n\n[!case]- ![Rt duplex kidney with ureterocele of upper moiety and VUR of lower moiety -201708, 202205](data/images/obsidian/rt-duplex-kidney-with-ureterocele-of-upper-moiety-and-vur-of-lower-moiety--201708-202205-1ed6a9e9.jpg)\n201708, 202205 (1) Rt duplex kidney (2) ureterocele of upper moiety (3) VUR of lower moiety 圖片可看到有兩套 至少要寫duplication, ureterocele\n\n[!case]- ![Complete duplicated collecting system with big ureterocele -202202](data/images/obsidian/complete-duplicated-collecting-system-with-big-ureterocele--202202-17607ecc.png)\n202202 Complete collecting system duplication with ureterocele\n\n[!case]- ![Duplication of right collecting system with moderate hydronephrosis of upper moiety and ureterocele -202208](data/images/obsidian/duplication-of-right-collecting-system-with-moderate-hydronephrosis-of-upper-moiety-and-ureterocele--202208-d2875b61.png)\n202208 Right collecting system duplication, moderate hydronephrosis, ureterocele\n\n[!case]- ![Left side urinary tract complete duplication with upper moiety  hydroureteronephrosis and ureterocele -201005](data/images/obsidian/left-side-urinary-tract-complete-duplication-with-upper-moiety-hydroureteronephrosis-and-ureterocele--201005-3f782a2a.jpg)\n201005 Left complete duplication, upper moiety hydroureteronephrosis and ureterocele\n\n**閱片重點**：(1) 左右 (2) 是否有complete duplication (3) ureterocele, hydronephrosis of upper moiety (4)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3685,7 +3685,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "A. Yes. 胖的人要開harmonic\nBC. Yes. ![[ADD GB adenomyomatosis 7.png]]\nD. 錯誤.\n- Side lobes: result of **nonuniformity** of the ultrasound beam at the **periphery** of the transducer. ![[ADD Side lobe artifact 2.png]]\n- Acoustic shadowing: A signal void behind structures that strongly absorb or reflect ultrasonic waves. This happens most frequently with solid structures, such as in bone or stones.  通常是物質有強烈吸收/反射，以致後方無訊號\nE. Yes. Reverberation也是 bouncing",
+      "explanation": "A. Yes. 胖的人要開harmonic\nBC. Yes. ![ADD GB adenomyomatosis 7](data/images/obsidian/add-gb-adenomyomatosis-7-b9f93a01.png)\nD. 錯誤.\n- Side lobes: result of **nonuniformity** of the ultrasound beam at the **periphery** of the transducer. ![ADD Side lobe artifact 2](data/images/obsidian/add-side-lobe-artifact-2-2946608f.png)\n- Acoustic shadowing: A signal void behind structures that strongly absorb or reflect ultrasonic waves. This happens most frequently with solid structures, such as in bone or stones.  通常是物質有強烈吸收/反射，以致後方無訊號\nE. Yes. Reverberation也是 bouncing",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3865,7 +3865,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "- A. 正因為會穿過才能進腦部，可能經由glymphatics。18%–42% of gadolinium appears to have crossed the blood-brain barrier and been deposited into the neural tissue interstitium. 可能假說：(部長投影片，Magn Reson Med Sci. 2018; 17(2): 111–119.)![[交換2018 1 Gado brain depo.png]]\n- B. A significant correlation between the number of gadoxetic acid (Primovist) administrations and the increase of SI in the DN (部長投影片，Radiology 2017) ![[交換2018 2 Gado brain.png]]\n- C. D. (2017 p. 36) 此含釓對比劑沈積現象，亦可見於腎功能正常者。...尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。",
+      "explanation": "- A. 正因為會穿過才能進腦部，可能經由glymphatics。18%–42% of gadolinium appears to have crossed the blood-brain barrier and been deposited into the neural tissue interstitium. 可能假說：(部長投影片，Magn Reson Med Sci. 2018; 17(2): 111–119.)![交換2018 1 Gado brain depo](data/images/obsidian/2018-1-gado-brain-depo-036de7c9.png)\n- B. A significant correlation between the number of gadoxetic acid (Primovist) administrations and the increase of SI in the DN (部長投影片，Radiology 2017) ![交換2018 2 Gado brain](data/images/obsidian/2018-2-gado-brain-36bc54e7.png)\n- C. D. (2017 p. 36) 此含釓對比劑沈積現象，亦可見於腎功能正常者。...尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -3901,7 +3901,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "(部長投影片，Gadolinium presence in the brain) ![[交換2018 3 Gado brain.png]]\n- (A) Gadoterate meglumine  Dotarem\n- (B) Gadobutrol Gadovist\n- (C) Gadopentetate dimeglumine  Multihance",
+      "explanation": "(部長投影片，Gadolinium presence in the brain) ![交換2018 3 Gado brain](data/images/obsidian/2018-3-gado-brain-20c8deaf.png)\n- (A) Gadoterate meglumine  Dotarem\n- (B) Gadobutrol Gadovist\n- (C) Gadopentetate dimeglumine  Multihance",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4111,7 +4111,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[ADD AJCC8 cervical.png]]\nWHO T3c / FIGO IIIC\n- Involvement of pelvic and/or para-aortic lymph nodes, irrespective of tumor size and extent\nWHO T3c1/ FIGO IIIC1\n- Pelvic lymph node metastasis only\nWHO T3c2 / FIGO IIIC2\n- Para-aortic lymph node metastasis\nN0: No regional lymph node metastasis\nN0 (i+): Isolated tumor cells in regional lymph node(s) ≤ 0.2 mm\nN1: Regional LN metastasis (para-aortic, pelvic(para-metrial/cervical), inguinal)",
+      "explanation": "![ADD AJCC8 cervical](data/images/obsidian/add-ajcc8-cervical-ab523788.png)\nWHO T3c / FIGO IIIC\n- Involvement of pelvic and/or para-aortic lymph nodes, irrespective of tumor size and extent\nWHO T3c1/ FIGO IIIC1\n- Pelvic lymph node metastasis only\nWHO T3c2 / FIGO IIIC2\n- Para-aortic lymph node metastasis\nN0: No regional lymph node metastasis\nN0 (i+): Isolated tumor cells in regional lymph node(s) ≤ 0.2 mm\nN1: Regional LN metastasis (para-aortic, pelvic(para-metrial/cervical), inguinal)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4146,7 +4146,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "![[ADD red yellow marrow.png]]\n- The chemical composition of red marrow in young adults is approximately **40% water**, 40% fat, and 20% protein.\n- Yellow marrow has fewer hematopoietic components and a greater proportion of fat, being approximately 15% water, **80% fat**, and 5% protein.\n- Red marrow characteristically has **higher** signal intensity than yellow marrow on T2-weighted fat-saturated or **STIR** images and **lower** signal intensity on **T1**- weighted images",
+      "explanation": "![ADD red yellow marrow](data/images/obsidian/add-red-yellow-marrow-52dc4768.png)\n- The chemical composition of red marrow in young adults is approximately **40% water**, 40% fat, and 20% protein.\n- Yellow marrow has fewer hematopoietic components and a greater proportion of fat, being approximately 15% water, **80% fat**, and 5% protein.\n- Red marrow characteristically has **higher** signal intensity than yellow marrow on T2-weighted fat-saturated or **STIR** images and **lower** signal intensity on **T1**- weighted images",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4181,7 +4181,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD Suprascapular nerve entrapment.png]]",
+      "explanation": "![ADD Suprascapular nerve entrapment](data/images/obsidian/add-suprascapular-nerve-entrapment-c2fb9640.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4290,7 +4290,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "![[ADD chondromyxoid fibroma.png]]\n-  Classical site: **tibia上1/3**(25%), with small tubular bones of the foot\n-  Distal femur, and pelvis/sacrum being other relatively common locations.",
+      "explanation": "![ADD chondromyxoid fibroma](data/images/obsidian/add-chondromyxoid-fibroma-f891d82c.png)\n-  Classical site: **tibia上1/3**(25%), with small tubular bones of the foot\n-  Distal femur, and pelvis/sacrum being other relatively common locations.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4574,7 +4574,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "![[ADD chest wall anatomy.png]] From Multidetector CT for Evaluation of the Extrapleural Space. Radiographics 2017;37:1352-1370",
+      "explanation": "![ADD chest wall anatomy](data/images/obsidian/add-chest-wall-anatomy-543332a2.png) From Multidetector CT for Evaluation of the Extrapleural Space. Radiographics 2017;37:1352-1370",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4644,7 +4644,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Type 2. ![[ADD gastric carcinoid type.png]]\n|      | Type 1 | Type 2 | Type 3 |\n| ---- | ------ | ------ | ------ |\n|      | 1cm    | 2cm    | >2cm   |\n| meta | <10%   | 10-30% | 75%    |\n|      |        | ZES       |        |",
+      "explanation": "Type 2. ![ADD gastric carcinoid type](data/images/obsidian/add-gastric-carcinoid-type-9e2b7708.png)\n|      | Type 1 | Type 2 | Type 3 |\n| ---- | ------ | ------ | ------ |\n|      | 1cm    | 2cm    | >2cm   |\n| meta | <10%   | 10-30% | 75%    |\n|      |        | ZES       |        |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -4754,7 +4754,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": ": sunburst or spokewheel appearances. ![[ADD sunburst angio meningioma.png]]\n- cavenous hemangioma: common show tumor blush and A-V shunting. ![[ADD EPOS hemangioma tumor blush.png]]\n- [[MRS#Meningioma]]",
+      "explanation": ": sunburst or spokewheel appearances. ![ADD sunburst angio meningioma](data/images/obsidian/add-sunburst-angio-meningioma-2f426cbd.png)\n- cavenous hemangioma: common show tumor blush and A-V shunting. ![ADD EPOS hemangioma tumor blush](data/images/obsidian/add-epos-hemangioma-tumor-blush-d59a74ae.png)\n- [[MRS#Meningioma]]",
       "images": [],
       "concepts": [],
       "checked": false

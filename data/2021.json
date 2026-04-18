@@ -325,7 +325,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors ![[Pasted image 20220612080342.png]] ![[Pasted image 20231015205934.png]]\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities",
+      "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors ![Pasted image 20220612080342](data/images/obsidian/pasted-image-20220612080342-4b61ad9e.png) ![Pasted image 20231015205934](data/images/obsidian/pasted-image-20231015205934-6457fb84.png)\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities",
       "images": [],
       "concepts": [],
       "checked": false
@@ -535,7 +535,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Muffins rise.\nB. Leak sinks.\nC. Rolled CC view:  ![[Pasted image 20220607060126.png]]\n- If the top of the breast is rolled medially while the lower part is rolled laterally, the lesion in the upper portion of the breast moves medially and the lesion in the lower portion moves laterally.\n- If the top of the breast is rolled laterally, the lesion in the upper portion of the breast moves laterally and the lesion in the lower portion moves medially.\nD. XCCL exaggerated CC lateral ~~medial~~",
+      "explanation": "Muffins rise.\nB. Leak sinks.\nC. Rolled CC view:  ![Pasted image 20220607060126](data/images/obsidian/pasted-image-20220607060126-ba39fd18.png)\n- If the top of the breast is rolled medially while the lower part is rolled laterally, the lesion in the upper portion of the breast moves medially and the lesion in the lower portion moves laterally.\n- If the top of the breast is rolled laterally, the lesion in the upper portion of the breast moves laterally and the lesion in the lower portion moves medially.\nD. XCCL exaggerated CC lateral ~~medial~~",
       "images": [],
       "concepts": [],
       "checked": false
@@ -609,7 +609,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "ABE.根據guideline應該和惡性有關。\nC. 在其引用的RadioGraphics 2005; 25:1456 有提到 ![[Pasted image 20230720143741.png]]",
+      "explanation": "ABE.根據guideline應該和惡性有關。\nC. 在其引用的RadioGraphics 2005; 25:1456 有提到 ![Pasted image 20230720143741](data/images/obsidian/pasted-image-20230720143741-28d70af6.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -897,7 +897,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "# 題目\n\n| #閱片 Diffuse airway disease                               | Ans |\n| ---------------------------------------------------------- | --- |\n| ![[tracheobronchopathia osteochondroplastica -201808.jpg]] |     |\n|                                                            |     |\n| ![[Relapsing polychondritis-201505.JPG]]                   |     |\n| ![[Relapsing polychondritis -201805.jpg]]                  |     |",
+      "explanation": "# 題目\n\n| #閱片 Diffuse airway disease                               | Ans |\n| ---------------------------------------------------------- | --- |\n| ![tracheobronchopathia osteochondroplastica -201808](data/images/obsidian/tracheobronchopathia-osteochondroplastica--201808-d53356bf.jpg) |     |\n|                                                            |     |\n| ![Relapsing polychondritis-201505](data/images/obsidian/relapsing-polychondritis-201505-c7b3a092.jpg)                   |     |\n| ![Relapsing polychondritis -201805](data/images/obsidian/relapsing-polychondritis--201805-27a2ec22.jpg)                  |     |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1209,7 +1209,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Infrarenal aorta.\n\n\n\n\n# 題目\n\n| #閱片 Leriche syndrome                                           | Ans |\n| ---------------------------------------------------------------- | --- |\n| ![[Leriche syndrome-201511.JPG]]                                 |     |\n| ![[Leriche Syndrome-201602.JPG]]                                 |     |\n| ![[Leriche syndrome -201711.jpg]]                                |     |\n| ![[Leriche's syndrome -201108.JPG]]                              |     |\n| ![[aortoiliac occlusive disease (Leriche syndrome) -201905.jpg]] |     |\n| ![[Leriche syndrome, with LT renal artery stenosis -201402.JPG]] |     |\n| ![[Leriche syndrome -202305.PNG]]                                |     |",
+      "explanation": "Infrarenal aorta.\n\n\n\n\n# 題目\n\n| #閱片 Leriche syndrome                                           | Ans |\n| ---------------------------------------------------------------- | --- |\n| ![Leriche syndrome-201511](data/images/obsidian/leriche-syndrome-201511-56659711.jpg)                                 |     |\n| ![Leriche Syndrome-201602](data/images/obsidian/leriche-syndrome-201602-5efbfc9a.jpg)                                 |     |\n| ![Leriche syndrome -201711](data/images/obsidian/leriche-syndrome--201711-98533f8e.jpg)                                |     |\n| ![Leriche's syndrome -201108](data/images/obsidian/leriche-s-syndrome--201108-5fd45390.jpg)                              |     |\n| ![aortoiliac occlusive disease (Leriche syndrome) -201905](data/images/obsidian/aortoiliac-occlusive-disease-leriche-syndrome--201905-19780f30.jpg) |     |\n| ![Leriche syndrome, with LT renal artery stenosis -201402](data/images/obsidian/leriche-syndrome-with-lt-renal-artery-stenosis--201402-253e4def.jpg) |     |\n| ![Leriche syndrome -202305](data/images/obsidian/leriche-syndrome--202305-f335d2d5.png)                                |     |",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1244,7 +1244,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "會降低native T1值的原因有fat 或iron overload。 ![[ADD T1 mapping ECV 3.png]]",
+      "explanation": "會降低native T1值的原因有fat 或iron overload。 ![ADD T1 mapping ECV 3](data/images/obsidian/add-t1-mapping-ecv-3-d10b1d50.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1279,7 +1279,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "CCTGA: 心臟下半相反，rare。又稱L-TGA。![[ADD L-TGA.png]]",
+      "explanation": "CCTGA: 心臟下半相反，rare。又稱L-TGA。![ADD L-TGA](data/images/obsidian/add-l-tga-2fddc6b6.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1388,7 +1388,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "![[ADD knee avascular injury.png]]\n- [[Osgood-Schlatter disease]] - Avulsion injury at tibial tuberosity\n- Gerdy tubercle is the eponymous name for the lateral condyle of the proximal tibia (where it is located anterolaterally). It is where the iliotibial band and anterior tibialis muscle inserts.",
+      "explanation": "![ADD knee avascular injury](data/images/obsidian/add-knee-avascular-injury-9498649a.png)\n- [[Osgood-Schlatter disease]] - Avulsion injury at tibial tuberosity\n- Gerdy tubercle is the eponymous name for the lateral condyle of the proximal tibia (where it is located anterolaterally). It is where the iliotibial band and anterior tibialis muscle inserts.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1458,7 +1458,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n\n\n## [[CPPD]]\n![[ADD spinal pseudogout.png]]\n- =pseudogout，calcium pyrophosphate crystals沉積在cartilage跟關節旁軟組織，導致的發炎反應，也會導致**chondrocalcinosis**軟骨鈣化症\n- 在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital ligaments。黃韌帶、後縱韌帶和寰枕韌帶，較少影響椎間盤",
+      "explanation": "involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n\n\n## [[CPPD]]\n![ADD spinal pseudogout](data/images/obsidian/add-spinal-pseudogout-6cb3f590.png)\n- =pseudogout，calcium pyrophosphate crystals沉積在cartilage跟關節旁軟組織，導致的發炎反應，也會導致**chondrocalcinosis**軟骨鈣化症\n- 在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital ligaments。黃韌帶、後縱韌帶和寰枕韌帶，較少影響椎間盤",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1718,7 +1718,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[ADD pineal germinoma.png]] ![[ADD Parinaud syndrome.png]] from Radiology review manual",
+      "explanation": "![ADD pineal germinoma](data/images/obsidian/add-pineal-germinoma-809fb4f0.png) ![ADD Parinaud syndrome](data/images/obsidian/add-parinaud-syndrome-87cad706.png) from Radiology review manual",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1754,7 +1754,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![[ADD vagus recurrent laryngeal n.png]] from Radiographics. 2012 May-Jun;32(3):721-40.\n- As the left vagus nerve passes anterolateral to the aortic arch, the left RLN branches off and passes below the arch posterior to the ligamentum arteriosum. It then ascends within the left tracheoesophageal groove to enter the larynx posteriorly at the level of the cricoarytenoid joint.\n- Right vagus nerve descends posterolateral to the internal and common carotid arteries from the right jugular foramen, giving rise to the right RLN as it passes anterior to the right SCA. The right RLN then passes posterior to the right brachiocephalic artery before ascending to the larynx within the right tracheoesophageal groove.",
+      "explanation": "![ADD vagus recurrent laryngeal n](data/images/obsidian/add-vagus-recurrent-laryngeal-n-d707ad0d.png) from Radiographics. 2012 May-Jun;32(3):721-40.\n- As the left vagus nerve passes anterolateral to the aortic arch, the left RLN branches off and passes below the arch posterior to the ligamentum arteriosum. It then ascends within the left tracheoesophageal groove to enter the larynx posteriorly at the level of the cricoarytenoid joint.\n- Right vagus nerve descends posterolateral to the internal and common carotid arteries from the right jugular foramen, giving rise to the right RLN as it passes anterior to the right SCA. The right RLN then passes posterior to the right brachiocephalic artery before ascending to the larynx within the right tracheoesophageal groove.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1832,7 +1832,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "parotid gland: 84% commoner in the superficial lobe submandibular gland: 8% minor salivary glands: 6.5% ![[ADD Warthin tumor, mixed tumor.png]]",
+      "explanation": "parotid gland: 84% commoner in the superficial lobe submandibular gland: 8% minor salivary glands: 6.5% ![ADD Warthin tumor, mixed tumor](data/images/obsidian/add-warthin-tumor-mixed-tumor-01ec69b3.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1974,7 +1974,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "記憶/基本題\n\n\n## Location\n### Intra-axial v.s. extra-axial\n口試常被問 ![[ADD brain tumor 4.png]]\n如何確定是extra-axial lesion？\n- 是否有CSF cleft，血管是否往內推\n- Gray/white matter是否有buckled的型態？WM buckling sign\n- **沿著dura長不能判斷是intra/extra-axial**\n\n### 不同位置的DDx\n![[ADD brain tumor 9.png]]\n接下來要講的outline\n針對不同位置的pathology做介紹\n\n### Extra-axial\n\n### Intraventricular\n![[ADD IV tumors.png]]\n![[20150822 Brain tumor - Intraventricular]]\n\n### Pineal\n![[20150822 Brain tumor - Pineal]]\n\n### Sellar\n![[20150822 Brain tumor - Sellar]]\n\n### CP angle\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#CP angle]]\n\n### Foramen of Magnum\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#Foramen of Magnum]]\n\n### Skull base\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#Skull base]]\n\n### Intra-axial\n- intra-axial為supra/infratentorial，小孩/大人 的排列組合\n![[ADD brain tumor intraaxial.png]]\n![[20150822 Brain tumor - Intraaxial - Infra]]\n\n![[20150822 Brain tumor - Intraaxial - Supra]]\n\n\n# Summary\n最後複習一下金三角\n![[ADD brain tumor 2.png]]\n念書有問題，這三本教科書都很棒(Osborn's brain, DI: Brain, Neuroradiology: The requisites)",
+      "explanation": "記憶/基本題\n\n\n## Location\n### Intra-axial v.s. extra-axial\n口試常被問 ![ADD brain tumor 4](data/images/obsidian/add-brain-tumor-4-f12fb9a4.png)\n如何確定是extra-axial lesion？\n- 是否有CSF cleft，血管是否往內推\n- Gray/white matter是否有buckled的型態？WM buckling sign\n- **沿著dura長不能判斷是intra/extra-axial**\n\n### 不同位置的DDx\n![ADD brain tumor 9](data/images/obsidian/add-brain-tumor-9-4eda3aee.png)\n接下來要講的outline\n針對不同位置的pathology做介紹\n\n### Extra-axial\n\n### Intraventricular\n![ADD IV tumors](data/images/obsidian/add-iv-tumors-4cb06f31.png)\n![[20150822 Brain tumor - Intraventricular]]\n\n### Pineal\n![[20150822 Brain tumor - Pineal]]\n\n### Sellar\n![[20150822 Brain tumor - Sellar]]\n\n### CP angle\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#CP angle]]\n\n### Foramen of Magnum\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#Foramen of Magnum]]\n\n### Skull base\n![[20150822 Brain tumor - CP angle, 枕骨大孔, 顱底#Skull base]]\n\n### Intra-axial\n- intra-axial為supra/infratentorial，小孩/大人 的排列組合\n![ADD brain tumor intraaxial](data/images/obsidian/add-brain-tumor-intraaxial-4f01a221.png)\n![[20150822 Brain tumor - Intraaxial - Infra]]\n\n![[20150822 Brain tumor - Intraaxial - Supra]]\n\n\n# Summary\n最後複習一下金三角\n![ADD brain tumor 2](data/images/obsidian/add-brain-tumor-2-81985d41.png)\n念書有問題，這三本教科書都很棒(Osborn's brain, DI: Brain, Neuroradiology: The requisites)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2009,7 +2009,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "新分類GBM都是IDH-widetype。不會再有IDH-mutant GBM。A對B錯。![[ADD WHO glioma classification.png]]",
+      "explanation": "新分類GBM都是IDH-widetype。不會再有IDH-mutant GBM。A對B錯。![ADD WHO glioma classification](data/images/obsidian/add-who-glioma-classification-fa3d279d.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2048,7 +2048,7 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "![[ADD WHO glioma classification.png]]\nUpdate 3: 病理需有 Presence of necrosis and/or florid microvascular proliferation，或這三種：+7/-10, TERT promoter mutation, EGFR amplification。\nA是本來就有的。BCD是新的。",
+      "explanation": "![ADD WHO glioma classification](data/images/obsidian/add-who-glioma-classification-fa3d279d.png)\nUpdate 3: 病理需有 Presence of necrosis and/or florid microvascular proliferation，或這三種：+7/-10, TERT promoter mutation, EGFR amplification。\nA是本來就有的。BCD是新的。",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2087,7 +2087,7 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "全部都正確。![[ADD WHO glioma classification.png]]",
+      "explanation": "全部都正確。![ADD WHO glioma classification](data/images/obsidian/add-who-glioma-classification-fa3d279d.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2157,7 +2157,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Exploded calcification會偏向pineoblastoma之類的，非germinoma.  ![[ADD pineal tumor calcification.png]]",
+      "explanation": "Exploded calcification會偏向pineoblastoma之類的，非germinoma.  ![ADD pineal tumor calcification](data/images/obsidian/add-pineal-tumor-calcification-41e5cfe1.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2371,7 +2371,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Vertebra\n![[ADD VACTERL association.png]]\n\n\n# 題目\n\n| #閱片 Esophageal atresia with TE fistula                                                                                    |                                                                     |\n| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |\n| ![[VACTERL association -202106.png]]                                                                                        | 202106 VACTERL                                                      |\n| ![[TE fistula; type C -201211.jpg]]                                                                                         | 201211 典型考題。食道NG下不去，腸胃有air是type C                    |\n| ![[Esophageal atresia with distal TEF -201708, 202205.jpg]]                                                                 | 201708, 202205 典型考題。                                           |\n| ![[1. Esophageal atresia 2. a. Esophageal atresia without TEF b. Esophageal atresia with TEF of upper segment -201908.jpg]] | 201908 NG下不去：Esophageal atresia。因腸胃沒air不知道是否有fistula 故(2)有疑問|\n|                                                                                                                             |                                                                     |",
+      "explanation": "Vertebra\n![ADD VACTERL association](data/images/obsidian/add-vacterl-association-2b7f0702.png)\n\n\n# 題目\n\n| #閱片 Esophageal atresia with TE fistula                                                                                    |                                                                     |\n| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |\n| ![VACTERL association -202106](data/images/obsidian/vacterl-association--202106-fed142a5.png)                                                                                        | 202106 VACTERL                                                      |\n| ![TE fistula; type C -201211](data/images/obsidian/te-fistula-type-c--201211-065c38bf.jpg)                                                                                         | 201211 典型考題。食道NG下不去，腸胃有air是type C                    |\n| ![Esophageal atresia with distal TEF -201708, 202205](data/images/obsidian/esophageal-atresia-with-distal-tef--201708-202205-c9c58148.jpg)                                                                 | 201708, 202205 典型考題。                                           |\n| ![1. Esophageal atresia 2. a. Esophageal atresia without TEF b. Esophageal atresia with TEF of upper segment -201908](data/images/obsidian/1.-esophageal-atresia-2.-a.-esophageal-atresia-without-tef-b.-esophageal-atresia-with-tef-of-upper-segment--201908-e1cb31af.jpg) | 201908 NG下不去：Esophageal atresia。因腸胃沒air不知道是否有fistula 故(2)有疑問|\n|                                                                                                                             |                                                                     |",
       "images": [],
       "concepts": [],
       "checked": false
