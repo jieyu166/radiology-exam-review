@@ -897,7 +897,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "# 題目\n\n| #閱片 Diffuse airway disease                               | Ans |\n| ---------------------------------------------------------- | --- |\n| ![tracheobronchopathia osteochondroplastica -201808](data/images/obsidian/tracheobronchopathia-osteochondroplastica--201808-d53356bf.jpg) |     |\n|                                                            |     |\n| ![Relapsing polychondritis-201505](data/images/obsidian/relapsing-polychondritis-201505-c7b3a092.jpg)                   |     |\n| ![Relapsing polychondritis -201805](data/images/obsidian/relapsing-polychondritis--201805-27a2ec22.jpg)                  |     |",
+      "explanation": "",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1209,7 +1209,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Infrarenal aorta.\n\n\n\n\n# 題目\n\n| #閱片 Leriche syndrome                                           | Ans |\n| ---------------------------------------------------------------- | --- |\n| ![Leriche syndrome-201511](data/images/obsidian/leriche-syndrome-201511-56659711.jpg)                                 |     |\n| ![Leriche Syndrome-201602](data/images/obsidian/leriche-syndrome-201602-5efbfc9a.jpg)                                 |     |\n| ![Leriche syndrome -201711](data/images/obsidian/leriche-syndrome--201711-98533f8e.jpg)                                |     |\n| ![Leriche's syndrome -201108](data/images/obsidian/leriche-s-syndrome--201108-5fd45390.jpg)                              |     |\n| ![aortoiliac occlusive disease (Leriche syndrome) -201905](data/images/obsidian/aortoiliac-occlusive-disease-leriche-syndrome--201905-19780f30.jpg) |     |\n| ![Leriche syndrome, with LT renal artery stenosis -201402](data/images/obsidian/leriche-syndrome-with-lt-renal-artery-stenosis--201402-253e4def.jpg) |     |\n| ![Leriche syndrome -202305](data/images/obsidian/leriche-syndrome--202305-f335d2d5.png)                                |     |",
+      "explanation": "Infrarenal aorta.",
       "images": [],
       "concepts": [],
       "checked": false
@@ -2371,7 +2371,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Vertebra\n![ADD VACTERL association](data/images/obsidian/add-vacterl-association-2b7f0702.png)\n\n\n# 題目\n\n| #閱片 Esophageal atresia with TE fistula                                                                                    |                                                                     |\n| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |\n| ![VACTERL association -202106](data/images/obsidian/vacterl-association--202106-fed142a5.png)                                                                                        | 202106 VACTERL                                                      |\n| ![TE fistula; type C -201211](data/images/obsidian/te-fistula-type-c--201211-065c38bf.jpg)                                                                                         | 201211 典型考題。食道NG下不去，腸胃有air是type C                    |\n| ![Esophageal atresia with distal TEF -201708, 202205](data/images/obsidian/esophageal-atresia-with-distal-tef--201708-202205-c9c58148.jpg)                                                                 | 201708, 202205 典型考題。                                           |\n| ![1. Esophageal atresia 2. a. Esophageal atresia without TEF b. Esophageal atresia with TEF of upper segment -201908](data/images/obsidian/1.-esophageal-atresia-2.-a.-esophageal-atresia-without-tef-b.-esophageal-atresia-with-tef-of-upper-segment--201908-e1cb31af.jpg) | 201908 NG下不去：Esophageal atresia。因腸胃沒air不知道是否有fistula 故(2)有疑問|\n|                                                                                                                             |                                                                     |",
+      "explanation": "Vertebra\n![ADD VACTERL association](data/images/obsidian/add-vacterl-association-2b7f0702.png)",
       "images": [],
       "concepts": [],
       "checked": false

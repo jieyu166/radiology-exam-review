@@ -1608,7 +1608,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Corona mortis artery characteristically crosses the superior pubic ramus 33–62 mm lateral to the symphysis pubis.\n![ADD Corona mortis](data/images/obsidian/add-corona-mortis-e1208ef8.png)\n\n\n| #閱片                                    |                             |\n| ---------------------------------------- | --------------------------- |\n| ![Corona mortis artery 2017內0436](data/images/obsidian/corona-mortis-artery-2017-0436-ac8fd9d8.png) | 201704 Corona mortis artery |\n|                                          |                             |",
+      "explanation": "Corona mortis artery characteristically crosses the superior pubic ramus 33–62 mm lateral to the symphysis pubis.\n![ADD Corona mortis](data/images/obsidian/add-corona-mortis-e1208ef8.png)",
       "images": [],
       "concepts": [],
       "checked": false
@@ -1713,7 +1713,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "# 題目\n| #閱片                                         | Ans                                               |\n| --------------------------------------------- | ------------------------------------------------- |\n| ![Femoroacetabular impingement -201205](data/images/obsidian/femoroacetabular-impingement--201205-18c69a42.jpg) | 201205 確定有cam type FAI. labrum不知道有沒有問題 |\n|                                               |                                                   |\n|                                               |                                                   |",
+      "explanation": "",
       "images": [],
       "concepts": [],
       "checked": false

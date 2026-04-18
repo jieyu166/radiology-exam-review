@@ -28,6 +28,7 @@ QUOTE_RE = re.compile(r"^\s*>\s?")
 CODE_FENCE_RE = re.compile(r"^\s*```")
 UNKNOWN_SPECIALTY_TAG_RE = re.compile(r"#\S+\u8003")
 OBSIDIAN_EMBED_RE = re.compile(r"!\[\[([^\]]+)\]\]")
+ORPHAN_SECTION_INTRO_RE = re.compile(r"^\s{0,3}#{1,6}\s*(?:\u984c\u76ee|questions?)\s*$", re.IGNORECASE)
 
 VALID_SUBSPECIALTIES = {
     "ABD",
@@ -318,6 +319,29 @@ def clean_content_lines(lines: Iterable[str]) -> list[str]:
     return cleaned
 
 
+def is_reading_section_start(line: str) -> bool:
+    stripped = line.strip()
+    if not stripped:
+        return False
+    if re.match(r"^#{1,6}\s*\u95b1\u7247\b", stripped):
+        return True
+    if stripped.startswith("|"):
+        cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+        for cell in cells:
+            if re.match(r"^#\s*\u95b1\u7247\b", cell):
+                return True
+    return False
+
+
+def trim_trailing_section_intro(lines: list[str]) -> None:
+    while lines and not lines[-1].strip():
+        lines.pop()
+    if lines and ORPHAN_SECTION_INTRO_RE.match(lines[-1]):
+        lines.pop()
+    while lines and not lines[-1].strip():
+        lines.pop()
+
+
 def find_candidates(path: Path, rel_path: str, body_lines: list[str], yaml_subspecialty: str | None) -> list[Candidate]:
     normalized = [strip_blockquote(line) for line in body_lines]
     starts = [i for i, line in enumerate(normalized) if YEAR_TAG_RE.search(line)]
@@ -475,6 +499,9 @@ def parse_candidate(candidate: Candidate, report: Report) -> ParsedQuestion | No
         explanation_lines.append(first_answer_line)
     for line in lines[ans_idx + 1 :]:
         if SR_COMMENT_RE.search(line):
+            break
+        if is_reading_section_start(line):
+            trim_trailing_section_intro(explanation_lines)
             break
         explanation_lines.append(line)
     explanation = "\n".join(explanation_lines).strip()

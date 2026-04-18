@@ -52,6 +52,7 @@ def run_smoke() -> None:
         write_bytes(vault / "assets" / "brain.svg", b"<svg></svg>")
         write_bytes(vault / "dup-a" / "ambig.png", b"a")
         write_bytes(vault / "dup-b" / "ambig.png", b"b")
+        write_bytes(vault / "reading.png", b"reading")
 
         multi_year = vault / "2. Areas" / "NR" / "sellar.md"
         write(
@@ -74,6 +75,13 @@ Delta is correct.
 ![[missing.png]]
 ![[ambig.png]]
 ![[note.md]]
+
+# \u984c\u76ee
+
+| #\u95b1\u7247 | Ans |
+| ![[reading.png]] | This image belongs to another section. |
+
+This line should not be imported.
 <!--SR:!2026-01-01,1,250-->
 """,
         )
@@ -144,6 +152,9 @@ No YAML should become Unknown.
         assert_true("![[missing.png]]" in first["explanation"], "missing embeds should remain unchanged")
         assert_true("![[ambig.png]]" in first["explanation"], "ambiguous embeds should remain unchanged")
         assert_true("![[note.md]]" in first["explanation"], "unsupported embeds should remain unchanged")
+        assert_true("#\u95b1\u7247" not in first["explanation"], "reading section should be omitted")
+        assert_true("reading.png" not in first["explanation"], "reading-section images should not be converted")
+        assert_true("This line should not be imported." not in first["explanation"], "content after reading section should be omitted")
         assert_true(first["images"] == [], "inline converted images should not be duplicated into images array")
         for link in importer.OBSIDIAN_EMBED_RE.findall(first["questionText"] + first["explanation"]):
             assert_true(link in {"missing.png", "ambig.png", "note.md"}, "only unresolved embeds should remain")
