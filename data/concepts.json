@@ -28,6 +28,34 @@
       ],
       "management": "功能性 → 手術。非功能性：<10 HU 不追蹤；10-20 HU 有爭議；>20 HU 6-12 月追蹤；>4 cm 且 >20 HU 考慮手術。增大 ≥5 mm 且 ≥20% → 手術。所有偶發病灶需荷爾蒙篩檢。",
       "checked": false
+    },
+    "radiation-induced-changes": {
+      "name": "radiation-induced-changes",
+      "nameZh": "放射治療後變化",
+      "subspecialty": "",
+      "definition": "",
+      "imagingFindings": "",
+      "differentialDiagnosis": [],
+      "externalLinks": [],
+      "checked": false,
+      "keyPoints": [
+        "放射治療後中樞神經系統的影像變化依時序可分為 acute／early delayed／late delayed 三期，辨識關鍵為「治療後經過多久 + 標的病灶位置 + 放療野中含入多少正常結構」——這三點是區分 expected post-RT changes 與 tumor recurrence 的核心。"
+      ],
+      "management": ""
+    },
+    "smart-syndrome": {
+      "name": "Stroke-like Migraine Attacks after RT（SMART Syndrome）",
+      "nameZh": "",
+      "subspecialty": "",
+      "definition": "SMART syndrome 是 cranial RT 後罕見的延遲併發症。病人通常在 RT 後數年出現偏頭痛樣頭痛、癲癇、亞急性 stroke-like 發作（偏癱、失語、偏盲）。發作通常亞急性起病，多數數週內緩解。機轉不明，推測為大腦過度興奮伴自動調節機轉受損與遠端放射造成的血管內皮傷害。\nBlack 等（2013）報告 11 位 SMART syndrome 病人中 5 位（45%）有不同程度多處磁感受灶，最符合 cavernous malformation（可能是先前 RT 的後果）。影像可於症狀起始 2–7 天後出現，通常 2–5 週內緩解。\n有個案系列顯示 SMART syndrome 可留下永久影像後遺——cortical laminar necrosis 可早至症狀起始 17 天後出現。RT 造成的血管傷害加上臨床與亞臨床癲癇活動可解釋皮質水腫與 BBB 完整性受損，導致持續數天至數週的強化，有時變為永久，呈現 cortical laminar necrosis。為正確診斷 SMART syndrome 並與腫瘤復發或亞急性梗塞區別，影像科醫師須熟悉其特徵影像、時間演變、與癲癇的關聯、以及可能的永久後遺。",
+      "imagingFindings": "關於影像特徵的報告多為個案或小系列。特徵性影像：\n短暫、單側、gyriform 異常 T2/FLAIR 高訊號\n輕度 mass effect\n皮質強化伴輕度 leptomeningeal 強化\n通常在放射野內\n擴散受限時有時無",
+      "differentialDiagnosis": [],
+      "externalLinks": [],
+      "checked": true,
+      "keyPoints": [
+        "RT 數年後的 migraine + seizure + stroke-like，典型皮質 gyriform T2/FLAIR 高訊號"
+      ],
+      "management": ""
     }
   }
 }

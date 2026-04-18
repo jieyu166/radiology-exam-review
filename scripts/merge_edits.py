@@ -48,8 +48,9 @@ def merge_year(year: str, patches: dict) -> int:
     data["questions"] = list(q_map.values())
     data["totalQuestions"] = len(data["questions"])
 
-    with open(json_path, "w", encoding="utf-8") as f:
+    with open(json_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
     return updated
 
@@ -76,8 +77,9 @@ def merge_concepts(patches: dict) -> int:
 
     data["concepts"] = concepts
 
-    with open(json_path, "w", encoding="utf-8") as f:
+    with open(json_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+        f.write("\n")
 
     return updated
 

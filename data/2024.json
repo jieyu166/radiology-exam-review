@@ -7,6 +7,7 @@
       "year": 2024,
       "number": 1,
       "years": [
+        2023,
         2024
       ],
       "subspecialty": "NR",
@@ -32,10 +33,12 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "RadioGraphics 2021; 41:224–248",
+      "explanation": "Ref. RadioGraphics 2021; 41:224–248\nA. 正確（原文：「T2 或 FLAIR 上大腦白質高訊號」）\nB. 正確（原文：「依表現時間，放射線誘發的傷害可分為三期：acute、early delayed、late delayed」）\nC 的錯誤：原文說的是「RT 後（after RT）經過的時間」，不是「during RT（RT 期間）」。這個時序是用來判讀追蹤影像，指的是 RT 完成之後到目前掃描的時間間隔，因為：\nAcute = 治療中～治療後數天至數週\nEarly delayed = RT 後 1–6 個月\nLate delayed = RT 後 > 6 個月\nD. 正確",
       "images": [],
-      "concepts": [],
-      "checked": false
+      "concepts": [
+        "radiation-induced-changes"
+      ],
+      "checked": true
     },
     {
       "id": "2024-002",

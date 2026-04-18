@@ -3308,7 +3308,7 @@
         2019,
         2024
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which is **wrong** about perimesencephalic subarachnoid hemorrhage ?",
       "options": [
@@ -3333,7 +3333,9 @@
       "reference": "",
       "explanation": "**Perimesencephalic subarachnoid haemorrhage (PMSAH)** is a distinct pattern of subarachnoid haemorrhage (SAH), which is centred on the basal cisterns around the midbrain.\n- 95% of cases have a normal cerebral angiogram and the source of bleeding is not identified; the cause is thought to be a venous bleed. This is referred to as **non-aneurysmal perimesencephalic SAH**.\n- The other 5% of cases are due to a vertebrobasilar aneurysm and the prognosis is worse. Rare causes include arteriovenous malformation, dural arteriovenous fistula, trauma and vascular tumours.\nSpecifically, there are criteria for non-aneurysmal perimesencephalic SAH, which if fulfilled, in the presence of a negative CTA negates the need for DSA:\n- SAH in perimesencephalic cisterns anterior to midbrain\n- if SAH extension into the anterior interhemispheric fissure, not extending into all of the fissure\n- if SAH extension into the medial Sylvian fissures, not extending into the lateral fissure\n- if layering interventricular extension, no frank intraventricular haemorrhage\n- no intraparenchymal haemorrhage\n![ADD perimesencephalic SAH case 1](data/images/obsidian/add-perimesencephalic-sah-case-1-9e68ee95.png)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "perimesencephalic-sah"
+      ],
       "checked": false
     },
     {

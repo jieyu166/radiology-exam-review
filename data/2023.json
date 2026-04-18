@@ -1375,10 +1375,12 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "根據查到的文獻，RT 造成 Na,K-ATPase dysfunction，經過一系列的機轉，結果會造成 massive Na+和 Ca2+influx 到神經細胞內，造成 neuronal hyperexcitability",
+      "explanation": "RadioGraphics 2021; 41:224–248\nC. 原文是「大腦**過度興奮（hyper­excitability）**+ 自動調節受損 + 遠端放射造成的血管內皮（endothelial，**不是 epithelial**）傷害」機轉上也合邏輯：如果是 hypoexcitability（低興奮性），怎麼會合併癲癇發作？與臨床三聯徵的「seizure」直接矛盾。",
       "images": [],
-      "concepts": [],
-      "checked": false
+      "concepts": [
+        "radiation-induced-changes"
+      ],
+      "checked": true
     },
     {
       "id": "2023-039",
