@@ -54,13 +54,15 @@ dateRev: 2026-06-14
 | 鑑別 | TB、矽肺、淋巴瘤、轉移、過敏性肺炎[^1][^2] |
 
 ## 圖示參考
-> 受版權保護，僅列圖號與重點、不含原圖／原圖說；點 DOI 於授權內檢視。皆出自 [^2]（Criado RG 2010, DOI 10.1148/rg.306105512）。
-- **Fig 1**：分期示意（依**胸部 X 光**）——對應 option B「非 CT」。
-- **Fig 6**：active 大結節 + consolidation。
-- **Fig 7**：對稱肺門淋巴結腫 + 蛋殼鈣化。
+> 受版權保護，僅列圖號與自撰重點、不含原圖／原圖說；點 DOI 於授權內檢視。皆出自 [^2]（Criado RG 2010, DOI 10.1148/rg.306105512；圖號於本機 PDF 核實）。
+- **Fig 1**：分期示意圖（依**胸部 X 光**）——對應 option B「非 CT」。
+- **Fig 3**：典型 **perilymphatic** 微結節分布（含病理對照）。
+- **Fig 5**：典型 **peribronchovascular** 微結節、**上肺為主**。
+- **Fig 6**：active 大型 ill-defined 結節 + consolidation。
+- **Fig 7**：雙側淋巴結腫 + 蛋殼鈣化（pulmonary window）。
 - **Fig 9**：alveolar（airspace consolidation）型。
-- **Fig 10**：active GGO（perilymphatic、peribronchovascular/subpleural）。
-- **Fig 13–14**：stage IV 纖維化、subpleural 囊狀/蜂窩（**不可逆**）。
+- **Fig 13–14**：stage IV 纖維化、subpleural 蜂窩囊、上肺容積減少（**不可逆**）。
+- **Fig 16**：miliary 型（countless tiny nodules）。
 
 ### 參考來源
 [^1]: Federle MP. *Sarcoidosis*. STATdx（Dx），updated 2025-06-11. Elsevier（實際查證 accessed 2026-06-14；noncaseating granuloma、雙側肺門淋巴結）。
