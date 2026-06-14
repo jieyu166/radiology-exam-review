@@ -53,6 +53,15 @@ dateRev: 2026-06-14
 | 可逆性 | nodules/GGO active 可逆；fibrosis 不可逆[^2] |
 | 鑑別 | TB、矽肺、淋巴瘤、轉移、過敏性肺炎[^1][^2] |
 
+## 圖示參考
+> 受版權保護，僅列圖號與重點、不含原圖／原圖說；點 DOI 於授權內檢視。皆出自 [^2]（Criado RG 2010, DOI 10.1148/rg.306105512）。
+- **Fig 1**：分期示意（依**胸部 X 光**）——對應 option B「非 CT」。
+- **Fig 6**：active 大結節 + consolidation。
+- **Fig 7**：對稱肺門淋巴結腫 + 蛋殼鈣化。
+- **Fig 9**：alveolar（airspace consolidation）型。
+- **Fig 10**：active GGO（perilymphatic、peribronchovascular/subpleural）。
+- **Fig 13–14**：stage IV 纖維化、subpleural 囊狀/蜂窩（**不可逆**）。
+
 ### 參考來源
 [^1]: Federle MP. *Sarcoidosis*. STATdx（Dx），updated 2025-06-11. Elsevier（實際查證 accessed 2026-06-14；noncaseating granuloma、雙側肺門淋巴結）。
 [^2]: Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512 （實際查證 accessed 2026-06-14）。
