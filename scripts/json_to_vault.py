@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -33,8 +34,58 @@ FLASHCARD_TAG = "#交換"
 
 # ── 題目卡片 ───────────────────────────────────────────────────────────────────
 
-def render_card(q: dict) -> str:
-    """把一題渲染成 SR 卡片 markdown。"""
+# 題幹判定詞 true/false/wrong 加粗（避免落在單字內或已加粗）
+_STEM_VERDICT_RE = re.compile(r"(?<![A-Za-z*])(true|false|wrong)(?![A-Za-z*])", re.IGNORECASE)
+# 詳解行首「X. 正確/錯誤/correct/incorrect…」判定詞加粗（已是 **…** 者跳過）
+_OPT_VERDICT_RE = re.compile(
+    r"(?m)^(\s*[A-Ea-e][.\)、]\s*)(正確|錯誤|Correct|Incorrect|True|False|Wrong)(?=[\s.,，。：:、）)]|$)"
+)
+# 結尾數字參考清單行「1. 文字」
+_TRAILING_REF_RE = re.compile(r"^\s*(\d+)\.\s+(.*)$")
+# 概念 stub 的待補標記（用以判斷概念是否已實質化）
+STUB_MARKER = "概念說明待補"
+
+
+def _bold_verdicts(text: str) -> str:
+    """題幹判定詞 true/false/wrong 加粗。"""
+    return _STEM_VERDICT_RE.sub(lambda m: f"**{m.group(1)}**", text)
+
+
+def _bold_option_verdicts(text: str) -> str:
+    """詳解行首判定詞加粗，已加粗者跳過。"""
+    return _OPT_VERDICT_RE.sub(lambda m: f"{m.group(1)}**{m.group(2)}**", text)
+
+
+def _normalize_footnotes(explanation: str) -> tuple[str, list[str]]:
+    """正規化腳註：內文 [n]→[^n]；結尾「n. 文字」清單→[^n]: 定義（剝除 ↩）。
+
+    回傳 (正規化後內文, 腳註定義清單)。
+    """
+    lines = explanation.rstrip().split("\n")
+    i = len(lines)
+    while i > 0 and (_TRAILING_REF_RE.match(lines[i - 1]) or not lines[i - 1].strip()):
+        i -= 1
+    body_lines, ref_lines = lines[:i], [l for l in lines[i:] if l.strip()]
+
+    body = re.sub(r"(?<!\^)\[(\d+)\]", r"[^\1]", "\n".join(body_lines))
+    body = body.replace("↩", "").rstrip()
+
+    ref_defs = []
+    for l in ref_lines:
+        m = _TRAILING_REF_RE.match(l)
+        if m:
+            ref_defs.append(f"[^{m.group(1)}]: {m.group(2).replace('↩', '').strip()}")
+    return body, ref_defs
+
+
+def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
+    """把一題渲染成 SR 卡片 markdown。
+
+    substantive_concepts：已有實質內容（非 stub）的概念 id。題目若被其中概念涵蓋，則改以
+    `![[concept]]` 嵌入並引用概念來源、移除題卡自身的網路腳註；否則保留題目自帶（網路搜尋）
+    參考於 `## Reference`。
+    """
+    substantive_concepts = substantive_concepts or set()
     concepts = q.get("concepts") or []
     sub = q.get("subspecialty") or "Unknown"
     year = q.get("year", "")
@@ -51,28 +102,46 @@ def render_card(q: dict) -> str:
     ]
     tag_line = f"{FLASHCARD_TAG} #{year}交換 #{sub}"
 
-    # 正面：題幹 + 選項
-    front = [q.get("questionText", "").strip()]
+    # 正面：題幹（判定詞加粗）+ 選項
+    front = [_bold_verdicts(q.get("questionText", "").strip())]
     for opt in q.get("options", []):
         front.append(f"({opt['letter']}) {opt.get('text', '').strip()}")
 
-    # 背面：答案 + 詳解（不足則 callout 佔位，保留既有殘缺詳解）
+    # 背面：答案 + 詳解
     explanation = (q.get("explanation") or "").strip()
     sufficient = bool(explanation) and audit_questions._has_per_option(explanation)
+    defer = any(c in substantive_concepts for c in concepts)  # 概念已能解釋 → 引用概念
     back = [f"**Ans: {q.get('correctAnswer', '')}**"]
+    ref_defs: list[str] = []
+
     if sufficient:
-        back.append(explanation)
+        body_txt, ref_defs = _normalize_footnotes(explanation)
+        body_txt = _bold_option_verdicts(body_txt)
+        if defer:
+            body_txt = re.sub(r"\[\^\d+\]", "", body_txt)  # 移除內聯腳註，改引用概念
+            ref_defs = []
+        back.append(body_txt.rstrip())
     else:
         callout = "> [!todo] 待補詳解"
         if explanation:
             callout += "\n" + "\n".join(f"> {ln}" for ln in explanation.splitlines())
         back.append(callout)
 
-    body = "\n".join(front) + "\n??\n" + "\n".join(back)
-    if concepts:
-        body += "\n\n概念：" + " ".join(f"[[{c}]]" for c in concepts)
+    parts = ["\n".join(front) + "\n??\n" + "\n".join(back)]
 
-    return "\n".join(frontmatter) + "\n" + tag_line + "\n\n" + body + "\n"
+    if concepts:
+        parts.append("概念：" + " ".join(f"[[{c}]]" for c in concepts))
+        embeds = [c for c in concepts if c in substantive_concepts]
+        if embeds:
+            parts.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
+
+    if ref_defs:
+        parts.append("## Reference\n" + "\n".join(ref_defs))
+    elif defer:
+        cites = " ".join(f"[[{c}]]" for c in concepts if c in substantive_concepts)
+        parts.append(f"> 參考依據見概念筆記 {cites}")
+
+    return "\n".join(frontmatter) + "\n" + tag_line + "\n\n" + "\n\n".join(parts) + "\n"
 
 
 # ── 概念筆記 ───────────────────────────────────────────────────────────────────
@@ -180,31 +249,44 @@ def main() -> None:
     if cpath.exists():
         concepts_all = json.loads(cpath.read_text(encoding="utf-8")).get("concepts", {})
 
-    # 1) 題目卡片
-    q_written = q_skipped = 0
     referenced: set[str] = set()
     for q in questions:
-        out = VAULT_DIR / "questions" / str(args.year) / f"{q['id']}.md"
-        if write_file(out, render_card(q), args.force) == "write":
-            q_written += 1
-        else:
-            q_skipped += 1
         referenced.update(q.get("concepts") or [])
 
-    # 2) 概念筆記（只為被引用到的 concept）
+    # 1) 概念筆記先產生（供題卡判斷是否可引用概念）。
+    #    保護已實質化的概念筆記（hand-authored / Note v5）：即使 --force 也不覆寫。
     c_written = c_skipped = 0
     for cid in sorted(referenced):
         out = VAULT_DIR / "concepts" / f"{cid}.md"
+        if out.exists() and STUB_MARKER not in out.read_text(encoding="utf-8"):
+            c_skipped += 1
+            continue
         if write_file(out, render_concept(cid, concepts_all.get(cid, {})), args.force) == "write":
             c_written += 1
         else:
             c_skipped += 1
 
+    # 實質化（非 stub）的概念集合 → 題卡據此決定是否引用概念來源
+    substantive = {
+        cid for cid in referenced
+        if (VAULT_DIR / "concepts" / f"{cid}.md").exists()
+        and STUB_MARKER not in (VAULT_DIR / "concepts" / f"{cid}.md").read_text(encoding="utf-8")
+    }
+
+    # 2) 題目卡片
+    q_written = q_skipped = 0
+    for q in questions:
+        out = VAULT_DIR / "questions" / str(args.year) / f"{q['id']}.md"
+        if write_file(out, render_card(q, substantive), args.force) == "write":
+            q_written += 1
+        else:
+            q_skipped += 1
+
     # 3) SR 外掛設定
     write_obsidian_config(args.force)
 
-    print(f"[{args.year}] 題目卡片：寫入 {q_written}、略過 {q_skipped}（共 {len(questions)}）")
-    print(f"        概念筆記：寫入 {c_written}、略過 {c_skipped}（被引用 {len(referenced)}）")
+    print(f"[{args.year}] 概念筆記：寫入 {c_written}、略過 {c_skipped}（被引用 {len(referenced)}、實質 {len(substantive)}）")
+    print(f"        題目卡片：寫入 {q_written}、略過 {q_skipped}（共 {len(questions)}）")
     print(f"        SR flashcard tag = {FLASHCARD_TAG} → {VAULT_DIR / '.obsidian'}")
 
 
