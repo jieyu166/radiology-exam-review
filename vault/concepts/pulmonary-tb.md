@@ -37,6 +37,11 @@ dateRev: 2026-06-14
 - **Centrilobular nodules / tree-in-bud**（endobronchial spread）→ 近乎診斷性。[^1]
 - 慢性：纖維化、容積減少、支氣管擴張。[^1]
 - 淋巴結、胸水較 primary 少見。[^1][^2]
+- **Cavitation 在 postprimary 常見**（約半數病人）。[^1][^2]
+
+## Miliary 與抗藥性
+- **Miliary TB**：血行播散；CT 為瀰漫、隨機分布的**粟粒狀 <3-mm（2–3 mm）micronodules**。[^1]
+- **MDR-TB**（對 isoniazid + rifampin 抗藥）/ **XDR-TB**（再加 fluoroquinolone + 二線注射劑）：屬**藥物抗藥性定義**，**影像表現與一般 TB 無特異區別、無法可靠以影像區分**，傳染力亦非必然更強——抗藥性靠培養/分子檢測，非影像。[^1]
 
 ## 鑑別與報告要點（Primary vs Postprimary）
 | 特徵 | Primary TB | Postprimary TB |
