@@ -1,0 +1,66 @@
+---
+concepts: [pe-cta-pitfalls]
+name: CT Pulmonary Angiography — PE Pitfalls
+subspecialty: [CH, CV]
+aliases:
+  - pulmonary embolism CT pitfalls
+  - CTPA pitfalls
+  - CT angiography pulmonary embolism
+  - 肺栓塞 CTA 陷阱
+dateRev: 2026-06-14
+---
+
+# pe-cta-pitfalls
+
+**判讀 CTPA 的核心是「分辨真填充缺損 vs 模擬物」，關鍵解剖線索是 bronchoarterial pairing：肺動脈伴隨支氣管、肺靜脈不伴。** 判讀分水嶺一：**有支氣管相伴的血管 = 肺動脈**（其填充缺損才是 PE）；肺靜脈不伴支氣管、走向左心房。判讀分水嶺二：pitfalls 分**技術／解剖／病理**三類，認得它們才不會誤診或漏診。
+
+## Summary
+- **Bronchoarterial pairing**：**肺動脈與支氣管並行（bronchovascular bundle）；肺靜脈不伴支氣管**。故「**伴隨支氣管的血管是肺動脈**」——其內填充缺損可診斷 PE；肺靜脈（不伴支氣管、走向 LA）若未顯影可**模擬**完全阻塞性 PE。[^1]
+- **技術 pitfalls**：部分容積、血流/混合假影、運動假影、雜訊；**走向與掃描面平行（transverse/oblique）之血管最難評估**。[^1]
+- **解剖 pitfalls**：**肺門淋巴結**鄰近 interlobar arteries 可模擬；黏液填充支氣管；未顯影肺靜脈。[^1]
+- **病理 pitfalls**：**pulmonary artery sarcoma**（罕見、最少見之 pitfall）、腫瘤侵犯/瘤栓。[^1]
+
+## 三類 pitfalls
+### 技術性
+部分容積效應、對比劑混合/血流假影（尤其下肺於深吸氣）、運動與呼吸假影、影像雜訊；**血管走向與掃描平面平行（transverse 方向）者最難判讀**。[^1]
+
+### 解剖性
+- **肺門淋巴結**：位於 interlobar arteries 旁，可被誤為填充缺損。[^1]
+- **黏液填充支氣管**：可似血管內缺損——找**並行的正常肺動脈**即可正確判讀。[^1]
+- **未顯影肺靜脈**：不伴支氣管、走向左心房；未顯影時可模擬完全阻塞性 PE。[^1]
+
+### 病理性
+- **Pulmonary artery sarcoma**：罕見，可能是最少見的 PE pitfall；常為大、膨脹性、跨瓣的腔內腫塊（有別於血栓）。[^1]
+- 腫瘤瘤栓/直接侵犯。[^1]
+
+> [!note] 一句話記憶
+> **有支氣管相伴 → 肺動脈**（缺損＝PE 可能）；**沒支氣管相伴、走向 LA → 肺靜脈**（別當 PE）。[^1]
+
+## 鑑別與報告要點
+| pitfall 類別 | 例子 | 辨識 |
+| --- | --- | --- |
+| 解剖 | 肺門淋巴結、肺靜脈、黏液支氣管 | 找並行肺動脈、追血管走向[^1] |
+| 技術 | 部分容積、血流假影、transverse 血管 | 多平面重組、看相鄰切面[^1] |
+| 病理 | pulmonary artery sarcoma（罕） | 膨脹性、跨瓣腔內腫塊[^1] |
+
+## 圖示參考
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。出自 [^1]（Wittram RG 2004, DOI 10.1148/rg.245045008）。
+- 正常肺門淋巴結（鄰 interlobar arteries）可模擬 PE。
+- 黏液填充支氣管 + 並行正常肺動脈（正確判讀）。
+- 未顯影肺靜脈模擬完全阻塞性 PE。
+- Pulmonary artery sarcoma。
+
+### 參考來源
+[^1]: Wittram C, Maher MM, Yoo AJ, Kalra MK, Shepard JO, McLoud TC. *CT Angiography of Pulmonary Embolism: Diagnostic Criteria and Causes of Misdiagnosis*. RadioGraphics. 2004;24(5):1219-1238. https://doi.org/10.1148/rg.245045008 （實際查證 accessed 2026-06-14）。
+
+## 題目
+> [!question]- CTPA 上「伴隨支氣管的血管」是肺動脈還是肺靜脈？對 PE 判讀的意義？
+> 是**肺動脈**（bronchoarterial pairing：動脈伴支氣管、靜脈不伴）。其內填充缺損可診斷 PE；肺靜脈不伴支氣管、走向左心房，未顯影時可模擬 PE。[^1]
+
+> [!question]- CTPA 三類 pitfalls 與各舉一例？
+> 技術（部分容積/血流假影、transverse 血管難判）、解剖（肺門淋巴結、肺靜脈、黏液支氣管）、病理（pulmonary artery sarcoma，罕見）。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "pe-cta-pitfalls")
+```

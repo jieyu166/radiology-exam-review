@@ -269,7 +269,7 @@
       "id": "2016-008",
       "year": 2016,
       "number": 8,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is not true in the diagnosis of pulmonary embolism?",
       "options": [
@@ -292,9 +292,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "pulmonary artery",
+      "explanation": "(A) 不正確（答案）：bronchoarterial pairing —— 伴隨支氣管的血管是肺動脈（非肺靜脈）；其內填充缺損可診斷 PE。肺靜脈不伴支氣管、走向左心房。\n(B) 正確：pulmonary artery sarcoma 可能是最罕見的 PE pitfall。\n(C) 正確：肺門淋巴結（鄰 interlobar arteries）常可模擬 CTA 上的填充缺損。\n(D) 正確：走向與掃描面平行（transverse）之血管最難成像/評估。\n三類 pitfalls 與來源見概念 [[pe-cta-pitfalls]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pe-cta-pitfalls"
+      ],
       "checked": false,
       "years": [
         2016
