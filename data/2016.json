@@ -29,7 +29,7 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "(A) 錯：[[UPJ obstruction]]UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n(B) 錯：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n(C) 錯：男性多於女性。\n(D) 正確：Crossing vessel 的存在會降低 endopyelotomy 的成功率（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "explanation": "(A) 錯：UPJ obstruction 是兒童（及胎兒）水腎最常見的原因，並非 uncommon。\n(B) 錯：多數為無症狀、因其他原因影像偶然發現（新生兒多為產前超音波偵測之水腎）；有症狀時表現隨年齡而異（兒童／成人為間歇性腰痛、血尿），UTI 並非最常見表現。\n(C) 錯：UPJ obstruction 男性多於女性、以左側單側為主（來源僅敘述 more common in males，未提供確切男女比）。\n(D) 正確：Crossing vessel 影響手術成功率，主要降低 endopyelotomy（內視鏡切開）成功率——內視鏡治療成功率約 90%，存在 crossing vessel 時降至約 40%；dismembered／腹腔鏡 pyeloplasty 受影響較小（可將 UPJ 重建至血管前方）。故術前須以 CTA 評估 crossing vessel。",
       "images": [],
       "concepts": [
         "upj-obstruction"
