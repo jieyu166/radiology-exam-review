@@ -339,7 +339,7 @@
       "id": "2016-010",
       "year": 2016,
       "number": 10,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following statements best characterizes the pathophysiology and imaging findings of amyloidosis?",
       "options": [
@@ -362,9 +362,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "B: protein C: It exists as a primary disease or, more commonly, may be secondary to a wide variety of pathologic processes ranging from chronic infection or inflammation to malignancy. D: no spares of the posterior membrane Cf: sparing posterior ⚫ Tracheobronchopathia osteochondroplastica ⚫ Relapsin",
+      "explanation": "(A) 正確（答案）：nodular parenchymal amyloidosis 通常為局部 AL（amyloid light chain）。\n(B) 錯：amyloid 是錯誤摺疊蛋白（Congo red 染色、偏光下 apple-green birefringence），非澱粉（starch）。\n(C) 錯：最常見型為後天（AL 最常見、AA 次發），非遺傳；hereditary 型較少見。\n(D) 錯：tracheobronchial amyloidosis 環狀增厚、累及氣管後壁膜；保留後壁的是 relapsing polychondritis / TBO。\n型別、胸部三型與來源見概念 [[pulmonary-amyloidosis]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-amyloidosis"
+      ],
       "checked": false,
       "years": [
         2016
