@@ -417,7 +417,7 @@
       "id": "2016-012",
       "year": 2016,
       "number": 12,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "有關 pulmonary sclerosing hemangioma 下列何者錯誤?",
       "options": [
@@ -440,9 +440,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "sclerosing hemangioma had several morphologic characteristics on unenhanced CT images: a round or ovoid shape (100% of cases), a smooth margin (100%), homogeneous attenuation (100%), and calcification (30%).",
+      "explanation": "(A) 錯誤（答案）：影像上常為孤立、邊界清楚的圓/卵圓、均質結節，並非不規則腫瘤。\n(B) 對：通常為顯著（marked/significant）強化（可不均），反映血管成分。\n(C) 對：通常生長緩慢。\n(D) 對：良性腫瘤，大多手術切除可根治。\n形態、強化、預後與來源見概念 [[sclerosing-pneumocytoma]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sclerosing-pneumocytoma"
+      ],
       "checked": false,
       "years": [
         2016
