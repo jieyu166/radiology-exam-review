@@ -1,0 +1,76 @@
+---
+concepts: [pulmonary-sarcoidosis]
+name: Pulmonary Sarcoidosis
+subspecialty: [CH]
+aliases:
+  - pulmonary sarcoidosis
+  - thoracic sarcoidosis
+  - sarcoidosis
+  - 肺類肉瘤病
+dateRev: 2026-06-14
+---
+
+# pulmonary-sarcoidosis
+
+**Sarcoidosis = 不明原因的 noncaseating（非乾酪性）肉芽腫，肺部以「上中肺野、perilymphatic 微結節」為指紋。** 判讀分水嶺一：分布**上中肺野為主**、沿**perilymphatic（peribronchovascular / subpleural / 沿葉間裂）**分布；判讀分水嶺二：**nodules / GGO = active 肉芽腫發炎（治療後可逆）**，而 **fibrosis（traction bronchiectasis、結構扭曲、囊狀）= 不可逆**。
+
+## Summary
+- **病理**：**noncaseating epithelioid granuloma**（非乾酪性）——與 TB 的乾酪性肉芽腫關鍵區別。[^1]
+- **分布**：肺實質病灶以**上肺與中肺野為主**（非下肺）。[^2]
+- **影像指紋（HRCT）**：最典型為 **perilymphatic 微結節**（沿 peribronchovascular、subpleural、葉間裂），加 bilateral perihilar opacities 與纖維化變化。[^2]
+- **淋巴結**：**雙側肺門 + 右側 paratracheal、對稱**腫大（典型）。[^1]
+- **分期（Siltzbach / Scadding）基於 chest radiograph（X 光），非 CT**：0 正常／I 僅淋巴結／II 淋巴結+實質／III 僅實質／IV 纖維化。[^2]
+- **可逆性**：nodules、GGO、consolidation = **active**（可隨治療消退）；fibrosis（traction bronchiectasis、distortion、cysts、stage IV）= **不可逆**。約 90% 病人有胸部異常、約 20% 進展為纖維化。[^2]
+
+## 病理與分期
+- **Granuloma**：noncaseating（非乾酪性）epithelioid granuloma，含 Langhans giant cell；Schaumann / asteroid bodies 非特異、非必見。[^1]
+- **Scadding / Siltzbach 分期（依 chest radiograph）**：[^2]
+  - Stage 0：正常
+  - Stage I：僅雙側肺門淋巴結腫
+  - Stage II：淋巴結 + 肺實質
+  - Stage III：僅肺實質（無淋巴結腫）
+  - Stage IV：肺纖維化
+
+## 影像診斷（胸部）
+### 淋巴結
+雙側肺門 + 右側 paratracheal、**對稱**腫大（「1-2-3 / Garland 三角」、lambda sign）；可蛋殼鈣化。[^1]
+
+### 肺實質（HRCT）
+- **Perilymphatic 微結節**（peribronchovascular、subpleural、沿葉間裂呈串珠狀）——最典型。[^2]
+- **GGO**：常為多發 micronodule 融合（peribronchovascular/subpleural 分布）；屬 active 病灶。[^2]
+- **上中肺野為主**。[^2]
+
+> [!note] active（可逆）vs fibrotic（不可逆）
+> **Nodules / GGO / consolidation** 代表 active 肉芽腫發炎，治療後**可能消退**；**traction bronchiectasis、architectural distortion、cystic/honeycomb（stage IV）**代表纖維化、**不可逆**。報告時區分兩者有預後與治療意義。[^2]
+
+## 鑑別與報告要點
+| 要點 | 說明 |
+| --- | --- |
+| granuloma 型態 | **noncaseating**（vs TB 乾酪性）[^1] |
+| 分布 | 上中肺野、**perilymphatic**[^2] |
+| 淋巴結 | 雙側肺門+右 paratracheal、對稱[^1] |
+| 分期依據 | **chest radiograph（X 光）**，非 CT[^2] |
+| 可逆性 | nodules/GGO active 可逆；fibrosis 不可逆[^2] |
+| 鑑別 | TB、矽肺、淋巴瘤、轉移、過敏性肺炎[^1][^2] |
+
+### 參考來源
+[^1]: Federle MP. *Sarcoidosis*. STATdx（Dx），updated 2025-06-11. Elsevier（實際查證 accessed 2026-06-14；noncaseating granuloma、雙側肺門淋巴結）。
+[^2]: Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512 （實際查證 accessed 2026-06-14）。
+
+## 題目
+> [!question]- Sarcoidosis 的肉芽腫是乾酪性還是非乾酪性？與何病關鍵區別？
+> **Noncaseating（非乾酪性）** epithelioid granuloma；與 TB 的乾酪性肉芽腫關鍵區別。[^1]
+
+> [!question]- Sarcoidosis 的分期（Scadding/Siltzbach）依據哪種影像？分哪幾期？
+> 依 **chest radiograph（X 光）**，非 CT。0 正常／I 僅淋巴結／II 淋巴結+實質／III 僅實質／IV 纖維化。[^2]
+
+> [!question]- Sarcoidosis 哪些 HRCT 所見是 active（可逆）、哪些是不可逆？
+> Active（可逆）：nodules、GGO、consolidation（perilymphatic 分布）；不可逆：traction bronchiectasis、結構扭曲、囊狀/纖維化（stage IV）。[^2]
+
+> [!question]- Sarcoidosis 肺實質病灶的分布與結節分布型態？
+> **上中肺野為主**；結節呈 **perilymphatic**（peribronchovascular、subpleural、沿葉間裂）。[^2]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "pulmonary-sarcoidosis")
+```
