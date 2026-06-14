@@ -9,13 +9,20 @@
 單一內容真實來源為 data/{year}.json；本腳本只負責產生 vault。冪等：預設不覆寫既有檔
 （保護使用者編輯與 SR 排程）；--force 覆寫但保留檔內 <!--SR: 排程註解行。
 
+題卡防呆：每張卡的 frontmatter 帶 `genHash`（本腳本上次產生內容的雜湊，排除 <!--SR: 與
+genHash 行本身）。`--force` 重生前比對——若題卡內容已與 genHash 不符（代表使用者在 Obsidian
+手動改過），則該卡視為「已被編輯」而**跳過不覆寫**（md 成為該題的真實來源）。要強制覆蓋這類
+卡片用 --overwrite-edited。
+
 用法：
   python scripts/json_to_vault.py 2016
   python scripts/json_to_vault.py 2016 --force
+  python scripts/json_to_vault.py 2016 --force --overwrite-edited
 """
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -99,7 +106,7 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         f"concepts: [{', '.join(concepts)}]",
         f"checked: {str(bool(q.get('checked'))).lower()}",
         "---",
-    ]
+    ]  # genHash 於最後插入（見函式結尾）
     tag_line = f"{FLASHCARD_TAG} #{year}交換 #{sub}"
 
     # 正面：tag 與題幹「同一行」（SR 外掛需 tag 與卡片同區塊才讀得到）+ 選項
@@ -152,7 +159,13 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     body = card + "\n\n\n"
     if meta:
         body += "\n\n".join(meta) + "\n"
-    return "\n".join(frontmatter) + "\n" + body
+
+    # 計算 genHash（不含 genHash 行）並插入 frontmatter；_card_hash 會略過此行，故穩定。
+    content = "\n".join(frontmatter) + "\n" + body
+    h = _card_hash(content)
+    fm = frontmatter[:]
+    fm.insert(len(fm) - 1, f"genHash: {h}")   # 插在結尾 '---' 前
+    return "\n".join(fm) + "\n" + body
 
 
 # ── 概念筆記 ───────────────────────────────────────────────────────────────────
@@ -215,6 +228,49 @@ def _reinsert_sr(content: str, sr_lines: list[str]) -> str:
     return content.rstrip("\n") + "\n" + "\n".join(sr_lines) + "\n"
 
 
+def _card_hash(text: str) -> str:
+    """題卡內容雜湊：排除 <!--SR: 排程行與 genHash 行本身，逐行去尾空白、去頭尾空行後 sha256。
+
+    如此 SR 外掛注入排程、或 genHash 自身存在，皆不影響雜湊——只有實際內容變動才會改變。"""
+    norm = [
+        ln.rstrip()
+        for ln in text.splitlines()
+        if not ln.lstrip().startswith("<!--SR:") and not ln.lstrip().startswith("genHash:")
+    ]
+    return hashlib.sha256("\n".join(norm).strip().encode("utf-8")).hexdigest()[:12]
+
+
+_GENHASH_RE = re.compile(r"(?m)^genHash:\s*([0-9a-f]+)\s*$")
+
+
+def _extract_genhash(text: str) -> str | None:
+    m = _GENHASH_RE.search(text)
+    return m.group(1) if m else None
+
+
+def write_card(path: Path, content: str, force: bool, overwrite_edited: bool = False) -> str:
+    """寫題卡。回傳 'write' / 'skip' / 'protected'。
+
+    防呆：若既有卡片帶 genHash 且其當前內容雜湊與之不符（＝使用者在 Obsidian 改過），
+    --force 時仍**跳過不覆寫**（回 'protected'），除非 overwrite_edited=True。
+    未改動或無 genHash 的舊卡則照常重生，並保留 <!--SR: 排程行。"""
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content, encoding="utf-8", newline="\n")
+        return "write"
+    if not force:
+        return "skip"
+    old = path.read_text(encoding="utf-8")
+    stored = _extract_genhash(old)
+    if stored is not None and _card_hash(old) != stored and not overwrite_edited:
+        return "protected"
+    sr_lines = [ln for ln in old.splitlines() if ln.lstrip().startswith("<!--SR:")]
+    if sr_lines:
+        content = _reinsert_sr(content, sr_lines)
+    path.write_text(content, encoding="utf-8", newline="\n")
+    return "write"
+
+
 def write_file(path: Path, content: str, force: bool) -> str:
     """寫入檔案。回傳 'write' / 'skip'。--force 覆寫時保留 <!--SR: 排程行並插回卡片後。"""
     if path.exists() and not force:
@@ -260,6 +316,8 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("year")
     ap.add_argument("--force", action="store_true", help="覆寫既有檔（保留 <!--SR: 行）")
+    ap.add_argument("--overwrite-edited", action="store_true",
+                    help="連『使用者已在 Obsidian 改過』的題卡也一併覆寫（預設保護不覆寫）")
     args = ap.parse_args()
 
     json_path = DATA_DIR / f"{args.year}.json"
@@ -298,11 +356,16 @@ def main() -> None:
     }
 
     # 2) 題目卡片
-    q_written = q_skipped = 0
+    q_written = q_skipped = q_protected = 0
+    protected_ids: list[str] = []
     for q in questions:
         out = VAULT_DIR / "questions" / str(args.year) / f"{q['id']}.md"
-        if write_file(out, render_card(q, substantive), args.force) == "write":
+        r = write_card(out, render_card(q, substantive), args.force, args.overwrite_edited)
+        if r == "write":
             q_written += 1
+        elif r == "protected":
+            q_protected += 1
+            protected_ids.append(q["id"])
         else:
             q_skipped += 1
 
@@ -310,7 +373,10 @@ def main() -> None:
     write_obsidian_config(args.force)
 
     print(f"[{args.year}] 概念筆記：寫入 {c_written}、略過 {c_skipped}（被引用 {len(referenced)}、實質 {len(substantive)}）")
-    print(f"        題目卡片：寫入 {q_written}、略過 {q_skipped}（共 {len(questions)}）")
+    print(f"        題目卡片：寫入 {q_written}、略過 {q_skipped}、保護 {q_protected}（共 {len(questions)}）")
+    if protected_ids:
+        print(f"        受保護（Obsidian 已手改、未覆寫）：{', '.join(protected_ids)}")
+        print("        如需強制以 json 覆蓋，加 --overwrite-edited。")
     print(f"        SR flashcard tag = {FLASHCARD_TAG} → {VAULT_DIR / '.obsidian'}")
 
 
