@@ -130,6 +130,9 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
 
     # SR 卡片本體（front + ?? + back）
     card = "\n".join(front) + "\n??\n" + "\n".join(back)
+    # 卡片內**絕不可有空行**：SR 外掛會把 <!--SR:--> 附註插在第一個空行處而截斷卡片。
+    # 故把卡片內 2+ 連續換行壓成單一換行（選項/詳解間的單換行保留），讓詳解成為連續段落。
+    card = re.sub(r"\n[ \t]*\n+", "\n", card)
 
     # 概念連結 / 嵌入 / 參考（卡片之後的 metadata）
     meta: list[str] = []
