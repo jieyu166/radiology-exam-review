@@ -102,8 +102,9 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     ]
     tag_line = f"{FLASHCARD_TAG} #{year}交換 #{sub}"
 
-    # 正面：題幹（判定詞加粗）+ 選項
-    front = [_bold_verdicts(q.get("questionText", "").strip())]
+    # 正面：tag 與題幹「同一行」（SR 外掛需 tag 與卡片同區塊才讀得到）+ 選項
+    stem = _bold_verdicts(q.get("questionText", "").strip())
+    front = [f"{tag_line} {stem}"]
     for opt in q.get("options", []):
         front.append(f"({opt['letter']}) {opt.get('text', '').strip()}")
 
@@ -127,21 +128,27 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
             callout += "\n" + "\n".join(f"> {ln}" for ln in explanation.splitlines())
         back.append(callout)
 
-    parts = ["\n".join(front) + "\n??\n" + "\n".join(back)]
+    # SR 卡片本體（front + ?? + back）
+    card = "\n".join(front) + "\n??\n" + "\n".join(back)
 
+    # 概念連結 / 嵌入 / 參考（卡片之後的 metadata）
+    meta: list[str] = []
     if concepts:
-        parts.append("概念：" + " ".join(f"[[{c}]]" for c in concepts))
+        meta.append("概念：" + " ".join(f"[[{c}]]" for c in concepts))
         embeds = [c for c in concepts if c in substantive_concepts]
         if embeds:
-            parts.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
-
+            meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
     if ref_defs:
-        parts.append("## Reference\n" + "\n".join(ref_defs))
+        meta.append("## Reference\n" + "\n".join(ref_defs))
     elif defer:
         cites = " ".join(f"[[{c}]]" for c in concepts if c in substantive_concepts)
-        parts.append(f"> 參考依據見概念筆記 {cites}")
+        meta.append(f"> 參考依據見概念筆記 {cites}")
 
-    return "\n".join(frontmatter) + "\n" + tag_line + "\n\n" + "\n\n".join(parts) + "\n"
+    # 詳解後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註
+    body = card + "\n\n\n"
+    if meta:
+        body += "\n\n".join(meta) + "\n"
+    return "\n".join(frontmatter) + "\n" + body
 
 
 # ── 概念筆記 ───────────────────────────────────────────────────────────────────
