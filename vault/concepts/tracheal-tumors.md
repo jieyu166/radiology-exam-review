@@ -44,8 +44,13 @@ dateRev: 2026-06-14
 | 惡性（最常見）| SCC、adenoid cystic | 抽菸/黏膜下浸潤[^2] |
 
 ## 圖示參考
-> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。
-- **Park RG 2009, Fig 11**：tracheobronchial papillomatosis（多發 polypoid 結節）。[^1]
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；圖號於本機 PDF 核實。出自 [^1]（Park RG 2009, DOI 10.1148/rg.291085126）。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2009 RG Tumors in the Tracheobronchial Tree - CT and FDG PET Features.pdf]]
+- **Fig 1**：tracheal SCC（惡性）。
+- **Fig 2**：tracheal adenoid cystic carcinoma（惡性）。
+- **Fig 10**：endobronchial hamartoma（脂肪密度）。
+- **Fig 11**：tracheobronchial papillomatosis（多發 polypoid 結節）。
+- **Fig 12–14**：lipoma / leiomyoma / schwannoma（良性間葉）。
 
 ### 參考來源
 [^1]: Park CM, Goo JM, Lee HJ, Kim MA, Lee CH, Kang M-J. *Tumors in the Tracheobronchial Tree: CT and FDG PET Features*. RadioGraphics. 2009;29(1). https://doi.org/10.1148/rg.291085126 （實際查證 accessed 2026-06-14）。

@@ -34,10 +34,14 @@ dateRev: 2026-06-14
 > **中段選擇性 → Williams-Campbell（軟骨缺損）**；中央氣道擴大 → Mounier-Kuhn；單側透亮肺 → Swyer-James。[^1]
 
 ## 圖示參考
-> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。出自 [^1]（Milliron RG 2015, DOI 10.1148/rg.2015140214）。
-- Williams-Campbell：mid-order bronchiectasis。
-- Mounier-Kuhn：tracheobronchomegaly。
-- Swyer-James：單側、不對稱整側肺支氣管擴張。
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；圖號於本機 PDF 核實。出自 [^1]（Milliron RG 2015, DOI 10.1148/rg.2015140214）。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2015 RG Bronchiectasis - Mechanisms and Imaging Clues of Associated Common and Uncommon Diseases.pdf]]
+- **Fig 2**：支氣管擴張三型態（cylindrical / varicose / cystic）。
+- **Fig 6**：ABPA（中央性）。
+- **Fig 15**：Mounier-Kuhn（tracheobronchomegaly，中央氣道）。
+- **Fig 16**：**Williams-Campbell**（mid-order bronchiectasis）→ 對應 2016-011。
+- **Fig 18**：Swyer-James（單側、整側肺不對稱）。
+- **Fig 11**：traction bronchiectasis（UIP pattern）。
 
 ### 參考來源
 [^1]: Milliron B, Henry TS, Veeraraghavan S, Little BP. *Bronchiectasis: Mechanisms and Imaging Clues of Associated Common and Uncommon Diseases*. RadioGraphics. 2015;35(4):1011-1030. https://doi.org/10.1148/rg.2015140214 （實際查證 accessed 2026-06-14）。

@@ -44,11 +44,12 @@ dateRev: 2026-06-14
 | 病理 | pulmonary artery sarcoma（罕） | 膨脹性、跨瓣腔內腫塊[^1] |
 
 ## 圖示參考
-> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。出自 [^1]（Wittram RG 2004, DOI 10.1148/rg.245045008）。
-- 正常肺門淋巴結（鄰 interlobar arteries）可模擬 PE。
-- 黏液填充支氣管 + 並行正常肺動脈（正確判讀）。
-- 未顯影肺靜脈模擬完全阻塞性 PE。
-- Pulmonary artery sarcoma。
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；圖號於本機 PDF 核實。出自 [^1]（Wittram RG 2004, DOI 10.1148/rg.245045008）。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2004 RG CT Angiography of Pulmonary Embolism.pdf]]
+- **Fig 20–24**：技術假影（呼吸運動、影像雜訊、beam-hardening、flow-related）。
+- **Fig 25**：window 設定影響 PE 偵測。
+- **Fig 26–27**：streak / lung-algorithm 假影。
+- **Fig 30**：淋巴結與支氣管/血管的關係（解剖 pitfall）。
 
 ### 參考來源
 [^1]: Wittram C, Maher MM, Yoo AJ, Kalra MK, Shepard JO, McLoud TC. *CT Angiography of Pulmonary Embolism: Diagnostic Criteria and Causes of Misdiagnosis*. RadioGraphics. 2004;24(5):1219-1238. https://doi.org/10.1148/rg.245045008 （實際查證 accessed 2026-06-14）。
