@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+*-key.json
+scripts/conflicts.json
 .DS_Store
 Thumbs.db
 *.egg-info/
@@ -11,3 +13,6 @@ node_modules/
 .spectra/
 openspec/.vector-search.db*
 tmp/
+
+# 版權：本機引用之期刊原文 PDF，僅供 Obsidian 本機參考，不得進 public repo
+vault/references/

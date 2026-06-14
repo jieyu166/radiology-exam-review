@@ -55,6 +55,7 @@ dateRev: 2026-06-14
 
 ## 圖示參考
 > 受版權保護，僅列圖號與自撰重點、不含原圖／原圖說；點 DOI 於授權內檢視。皆出自 [^2]（Criado RG 2010, DOI 10.1148/rg.306105512；圖號於本機 PDF 核實）。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2010 RG Pulmonary Sarcoidosis - Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation.pdf]]
 - **Fig 1**：分期示意圖（依**胸部 X 光**）——對應 option B「非 CT」。
 - **Fig 3**：典型 **perilymphatic** 微結節分布（含病理對照）。
 - **Fig 5**：典型 **peribronchovascular** 微結節、**上肺為主**。

@@ -53,6 +53,7 @@ concepts: [lung-cancer]
 
 ## 圖示參考
 > 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。圖號於本機 PDF 核實。皆出自 [^1]（Austin Radiology 2013, DOI 10.1148/radiol.12120240）。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2013 R Radiologic Implications of the 2011 Classification of Adenocarcinoma of the Lung.pdf]]
 - **Fig 1**：AAH（~3 mm 純 GGN／nonsolid）。
 - **Fig 2**：AIS（純 nonsolid）。
 - **Fig 3**：**MIA**（nonsolid 為主 + <5 mm 中央 solid）→ 對應 2016-004。

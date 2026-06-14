@@ -43,6 +43,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 
 ## 圖示參考
 > 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。圖號於本機 PDF 核實。出自 [^2]（Canan RG 2020, DOI 10.1148/rg.2020190164）；ACCURACY trial [^1] 為 JACC、本機無圖。
+> 本機原文（gitignore、未隨 repo 發佈）：[[2020 RG CAD-RADS - Pushing the Limits.pdf]]
 - **Fig 1**：CAD-RADS 0–5 分類示意。
 - **Fig 12**：**calcium blooming artifact**（重度鈣化→管腔高估/偽陽性；calcium window 改善）——對應「鈣化降 specificity」。
 - **Fig 14**：high-risk/vulnerable plaque（spotty calcification、napkin-ring、low-attenuation）。
