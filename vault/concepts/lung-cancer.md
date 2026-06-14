@@ -1,5 +1,4 @@
 ---
-concept: lung-cancer
 name: Lung Adenocarcinoma — 2011 Classification
 subspecialty: [CH]
 aliases:
@@ -9,7 +8,7 @@ aliases:
   - AIS
   - MIA
 dateRev: 2026-06-14
-concepts: [Lung Cancer]
+concepts: [lung-cancer]
 ---
 
 # lung-cancer

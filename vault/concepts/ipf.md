@@ -1,5 +1,4 @@
 ---
-concept: ipf
 name: Idiopathic Pulmonary Fibrosis (IPF / UIP)
 subspecialty: [CH]
 aliases:
@@ -9,7 +8,7 @@ aliases:
   - UIP
   - 特發性肺纖維化
 dateRev: 2026-06-14
-concepts: [IPF]
+concepts: [ipf]
 ---
 
 # ipf

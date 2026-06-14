@@ -1,5 +1,4 @@
 ---
-concept: upj-obstruction
 name: upj-obstruction
 subspecialty: [ABD, GU]
 aliases:
@@ -8,7 +7,7 @@ aliases:
   - PUJO
   - Pelviureteric junction obstruction
 dateRev: 2026-06-13
-concepts: [UPJ obstruction]
+concepts: [upj-obstruction]
 ---
 
 # upj-obstruction

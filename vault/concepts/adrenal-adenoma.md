@@ -1,12 +1,11 @@
 ---
-concept: adrenal-adenoma
 name: Adrenal Adenoma
 subspecialty: [ABD, GU]
 aliases:
   - 腎上腺腺瘤
   - adrenal cortical adenoma
 dateRev: 2026-06-14
-concepts: [Adrenal Adenoma]
+concepts: [adrenal-adenoma]
 ---
 
 # adrenal-adenoma

@@ -1,5 +1,4 @@
 ---
-concept: lam
 name: Lymphangioleiomyomatosis (LAM)
 subspecialty: [CH]
 aliases:
@@ -7,7 +6,7 @@ aliases:
   - LAM
   - 淋巴管平滑肌增生症
 dateRev: 2026-06-14
-concepts: [LAM]
+concepts: [lam]
 ---
 
 # lam

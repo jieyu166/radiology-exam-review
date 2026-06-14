@@ -1,5 +1,4 @@
 ---
-concept: smoke-lung
 name: Smoking-related Pulmonary Parenchymal Disease
 subspecialty: [CH]
 aliases:
@@ -8,7 +7,7 @@ aliases:
   - SR-ILD
   - 吸菸相關肺實質疾病
 dateRev: 2026-06-14
-concepts: [Smoking-related Lung Disease]
+concepts: [smoke-lung]
 ---
 
 # smoke-lung

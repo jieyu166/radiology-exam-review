@@ -1,5 +1,4 @@
 ---
-concept: plch
 name: Pulmonary Langerhans Cell Histiocytosis (PLCH)
 subspecialty: [CH]
 aliases:
@@ -8,7 +7,7 @@ aliases:
   - histiocytosis X
   - 肺朗格漢斯細胞組織增生症
 dateRev: 2026-06-14
-concepts: [PLCH]
+concepts: [plch]
 ---
 
 # plch

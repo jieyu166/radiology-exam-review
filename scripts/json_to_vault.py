@@ -160,7 +160,7 @@ def render_concept(cid: str, cdata: dict) -> str:
     name = (cdata.get("name") or cid).strip()
     sub = cdata.get("subspecialty", "")
 
-    frontmatter = ["---", f"concept: {cid}", f"name: {name}", f"subspecialty: {sub}", "---"]
+    frontmatter = ["---", f"concepts: [{cid}]", f"name: {name}", f"subspecialty: {sub}", "---"]
     lines = [f"# {name}", ""]
 
     has_desc = False

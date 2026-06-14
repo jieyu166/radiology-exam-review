@@ -1,5 +1,4 @@
 ---
-concept: ccta
 name: Coronary CT Angiography
 subspecialty: [CV]
 aliases:
@@ -7,7 +6,7 @@ aliases:
   - coronary CT angiography
   - 冠狀動脈 CT 血管攝影
 dateRev: 2026-06-14
-concepts: [CCTA]
+concepts: [ccta]
 ---
 
 # ccta

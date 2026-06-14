@@ -1,5 +1,4 @@
 ---
-concept: calcium-score
 name: Coronary Artery Calcium (CAC) Score
 subspecialty: [CV]
 aliases:
@@ -8,7 +7,7 @@ aliases:
   - Agatston score
   - 冠狀動脈鈣化分數
 dateRev: 2026-06-14
-concepts: [Calcium Score]
+concepts: [calcium-score]
 ---
 
 # calcium-score
