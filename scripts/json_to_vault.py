@@ -128,26 +128,27 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
             callout += "\n" + "\n".join(f"> {ln}" for ln in explanation.splitlines())
         back.append(callout)
 
-    # SR 卡片本體（front + ?? + back）
+    # SR 卡片本體（front + ?? + back + 概念 inline 連結）。
+    # 概念連結 `概念：[[...]]` 緊接詳解、屬卡片一部分（複習時一起出現）。
     card = "\n".join(front) + "\n??\n" + "\n".join(back)
+    if concepts:
+        card += "\n概念：" + " ".join(f"[[{c}]]" for c in concepts)
     # 卡片內**絕不可有空行**：SR 外掛會把 <!--SR:--> 附註插在第一個空行處而截斷卡片。
-    # 故把卡片內 2+ 連續換行壓成單一換行（選項/詳解間的單換行保留），讓詳解成為連續段落。
+    # 故把卡片內 2+ 連續換行壓成單一換行（選項/詳解間的單換行保留），讓卡片成為連續段落。
     card = re.sub(r"\n[ \t]*\n+", "\n", card)
 
-    # 概念連結 / 嵌入 / 參考（卡片之後的 metadata）
+    # 卡片之後的 metadata（概念嵌入 / 參考）——重的 embed 放卡片外。
     meta: list[str] = []
-    if concepts:
-        meta.append("概念：" + " ".join(f"[[{c}]]" for c in concepts))
-        embeds = [c for c in concepts if c in substantive_concepts]
-        if embeds:
-            meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
+    embeds = [c for c in concepts if c in substantive_concepts]
+    if embeds:
+        meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
     if ref_defs:
         meta.append("## Reference\n" + "\n".join(ref_defs))
     elif defer:
         cites = " ".join(f"[[{c}]]" for c in concepts if c in substantive_concepts)
         meta.append(f"> 參考依據見概念筆記 {cites}")
 
-    # 詳解後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註
+    # 卡片後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註
     body = card + "\n\n\n"
     if meta:
         body += "\n\n".join(meta) + "\n"
@@ -201,15 +202,28 @@ def render_concept(cid: str, cdata: dict) -> str:
 
 # ── 寫檔（冪等 + SR 排程保留）──────────────────────────────────────────────────
 
+def _reinsert_sr(content: str, sr_lines: list[str]) -> str:
+    """把保留的 <!--SR:--> 排程註解插回卡片正後方（?? 之後第一個空行處），
+    使 SR 外掛能正確關聯回該卡片；無 ?? 的檔（概念筆記）則附在檔尾。"""
+    lines = content.split("\n")
+    qi = next((i for i, l in enumerate(lines) if l.strip() == "??"), -1)
+    if qi >= 0:
+        for j in range(qi + 1, len(lines)):
+            if lines[j].strip() == "":          # 卡片後第一個空行＝SR 槽
+                lines[j:j] = sr_lines
+                return "\n".join(lines)
+    return content.rstrip("\n") + "\n" + "\n".join(sr_lines) + "\n"
+
+
 def write_file(path: Path, content: str, force: bool) -> str:
-    """寫入檔案。回傳 'write' / 'skip'。--force 覆寫時保留 <!--SR: 行。"""
+    """寫入檔案。回傳 'write' / 'skip'。--force 覆寫時保留 <!--SR: 排程行並插回卡片後。"""
     if path.exists() and not force:
         return "skip"
     if path.exists() and force:
         old = path.read_text(encoding="utf-8")
         sr_lines = [ln for ln in old.splitlines() if ln.lstrip().startswith("<!--SR:")]
         if sr_lines:
-            content = content.rstrip("\n") + "\n" + "\n".join(sr_lines) + "\n"
+            content = _reinsert_sr(content, sr_lines)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8", newline="\n")
     return "write"
