@@ -491,7 +491,7 @@
       "id": "2016-014",
       "year": 2016,
       "number": 14,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "According to the AIUM, the FAST exam in the abdomen evaluates the:",
       "options": [
@@ -514,9 +514,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Emergency Ultrasound, Second Edition 2nd Edition",
+      "explanation": "依 **AIUM/ACEP**，FAST 在腹部評估的是**自由液體（free fluid）**，即偵測腹腔積血（hemoperitoneum）。四標準視窗：心包（subxiphoid）、右上腹 Morrison pouch、左上腹脾腎間、骨盆 Douglas pouch。\n\n(A) Aorta：主動脈評估屬 **AAA 篩檢**的另一協定，非 FAST。\n(B) **Abdomen for free fluid（正解）**：FAST 即為找腹腔自由液體（積血）。\n(C) Liver parenchyma：實質器官撕裂分級是 **CT** 的工作，FAST 不做實質評估。\n(D) Hepatic and portal veins：肝/門靜脈血流為 **Doppler 肝臟超音波**，非 FAST。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fast-exam"
+      ],
       "checked": false,
       "years": [
         2016
@@ -526,7 +528,7 @@
       "id": "2016-015",
       "year": 2016,
       "number": 15,
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "The combined effect of scattering and absorption is called:",
       "options": [
@@ -549,9 +551,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Wayne Hedrick 2004 Ultrasound Physics and Instrumentation Mosby; 4th edition",
+      "explanation": "超音波在組織中前進時，振幅與強度的漸進性減弱稱 **attenuation（衰減）**，為**吸收（absorption，能量轉熱、主因）＋散射（scattering）＋反射/折射**的合併效應。\n\n(A) Shear factor：剪力相關（彈性造影），與散射＋吸收的合併損耗無關。\n(B) Propagation：指波的「傳播」本身（含傳播速度），非能量損耗。\n(C) **Attenuation（正解）**：散射與吸收的合併效應即為衰減。\n(D) Impedance：acoustic impedance（Z＝密度×傳播速度）決定**界面反射**多寡，非能量損耗總和。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-attenuation"
+      ],
       "checked": false,
       "years": [
         2016

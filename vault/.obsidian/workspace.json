@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions/2016/2016-002 改.md",
+                "file": "questions/2016/2016-017.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2016-002 改"
+              "title": "2016-017"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "questions/2016/2016-002 改.md",
+                "file": "questions/2016/2016-004.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2016-002 改 的大綱"
+              "title": "2016-004 的大綱"
             }
           },
           {
@@ -181,8 +181,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           }
         ],
@@ -201,29 +201,46 @@
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
-      "realclaudian:Open Claudian": false,
       "obsidian-spaced-repetition:復習卡片": false
     }
   },
   "active": "ed807561158d7c21",
   "lastOpenFiles": [
-    "concepts/adrenal-adenoma.md",
-    "questions/2016/2016-002.md",
-    "questions/2016/2016-001.md",
-    "questions/2016/2016-002 改.md",
+    "questions/2016/2016-016.md",
+    "questions/2016/2016-015.md",
+    "questions/2016/2016-014.md",
+    "questions/2016/2016-013.md",
+    "questions/2016/2016-012.md",
+    "questions/2016/2016-011.md",
+    "questions/2016/2016-010.md",
     "questions/2016/2016-009.md",
+    "concepts/tracheal-tumors.md",
+    "questions/2016/2016-008.md",
     "questions/2016/2016-007.md",
-    "questions/2016/2016-004.md",
-    "questions/2016/2016-003.md",
-    "concepts/upj-obstruction.md",
-    "concepts/calcium-score.md",
-    "concepts/ccta.md",
-    "concepts/lam.md",
-    "concepts/ipf.md",
-    "concepts/lung-cancer.md",
+    "concepts/pulmonary-tb.md",
+    "questions/2016/2016-006.md",
+    "concepts/ccta.md.tmp.56792.b4de259cbb2d",
+    "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
+    "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",
+    "references/2013 R Radiologic Implications of the 2011 Classification of Adenocarcinoma of the Lung.pdf",
+    "references/2020 RG CAD-RADS - Pushing the Limits.pdf",
+    "references/2010 RG Pulmonary Sarcoidosis - Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation.pdf",
+    "references",
+    "concepts/smoke-lung.md",
+    "concepts/pulmonary-sarcoidosis.md.tmp.9952.47b5c6c5cc66",
     "questions/2016/2016-005.md",
-    "concepts/upj-obstruction.txt",
+    "questions/2016/2016-002.md",
+    "questions/2016/2016-003.md",
+    "questions/2016/2016-004.md",
+    "concepts/upj-obstruction.md",
     "concepts/plch.md",
-    "UPJ obstruction.md"
+    "concepts/lung-cancer.md",
+    "concepts/lam.md",
+    "concepts/adrenal-adenoma.md",
+    "concepts/ccta.md",
+    "concepts/ipf.md",
+    "questions/2016/2016-001.md",
+    "concepts/ipf.md.tmp.9952.8183e400d52c",
+    "concepts/plch.md.tmp.9952.24bc0c2c359b"
   ]
 }
