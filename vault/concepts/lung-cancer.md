@@ -51,6 +51,15 @@ concepts: [lung-cancer]
 | MIA | ≤3 cm | ≤5 mm | nonsolid 為主 + <5 mm 中央 solid[^1] |
 | Invasive | 任意 | >5 mm | 常 part-solid / solid[^1] |
 
+## 圖示參考
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。圖號於本機 PDF 核實。皆出自 [^1]（Austin Radiology 2013, DOI 10.1148/radiol.12120240）。
+- **Fig 1**：AAH（~3 mm 純 GGN／nonsolid）。
+- **Fig 2**：AIS（純 nonsolid）。
+- **Fig 3**：**MIA**（nonsolid 為主 + <5 mm 中央 solid）→ 對應 2016-004。
+- **Fig 4**：Lepidic predominant invasive（part-solid）。
+- **Fig 5**：IMA（浸潤性黏液型，表現多樣）。
+- **Fig 6**：AIS vs lepidic 的 CT 數值直方圖。
+
 ### 參考來源
 [^1]: Austin JHM, Garg K, Aberle D, Yankelevitz D, Kuriyama K, Lee HJ, Brambilla E, et al. *Radiologic Implications of the 2011 Classification of Adenocarcinoma of the Lung*. Radiology. 2013;266(1):62-71. https://doi.org/10.1148/radiol.12120240 （實際查證 full text，accessed 2026-06-14；該文影像實作 IASLC/ATS/ERS 2011 分類）。
 

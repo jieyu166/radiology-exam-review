@@ -41,6 +41,12 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 - **Calcium blooming artifact**：重度鈣化斑塊在 CTA 上 blooming，造成管腔高估／偽陽性；以 calcium-specific window width/level 可減少 blooming、改善管腔顯示。[^2]
 - **CAD-RADS 0–5**：標準化冠狀動脈狹窄分級與處置建議的報告框架。[^2]
 
+## 圖示參考
+> 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；點 DOI 於授權內檢視。圖號於本機 PDF 核實。出自 [^2]（Canan RG 2020, DOI 10.1148/rg.2020190164）；ACCURACY trial [^1] 為 JACC、本機無圖。
+- **Fig 1**：CAD-RADS 0–5 分類示意。
+- **Fig 12**：**calcium blooming artifact**（重度鈣化→管腔高估/偽陽性；calcium window 改善）——對應「鈣化降 specificity」。
+- **Fig 14**：high-risk/vulnerable plaque（spotty calcification、napkin-ring、low-attenuation）。
+
 ### 參考來源
 [^1]: Budoff MJ, Dowe D, Jollis JG, et al. *Diagnostic Performance of 64-Multidetector Row Coronary CT Angiography... ACCURACY Trial*. J Am Coll Cardiol. 2008;52(21):1724-32. https://doi.org/10.1016/j.jacc.2008.07.031 （PubMed PMID 19007693；NCT00348569；實際查證 accessed 2026-06-14）。
 [^2]: Canan A, Ranganath P, Goerne H, Abbara S, Landeras L, Rajiah P. *CAD-RADS: Pushing the Limits*. RadioGraphics. 2020;40(3). https://doi.org/10.1148/rg.2020190164 （實際查證 accessed 2026-06-14）。
