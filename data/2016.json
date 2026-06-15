@@ -2230,7 +2230,7 @@
       "id": "2016-061",
       "year": 2016,
       "number": 61,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is the most common malignant primary cardiac tumor?",
       "options": [
@@ -2257,9 +2257,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Cardiovascular Imaging Review , 2011.",
+      "explanation": "最常見的原發『惡性』心臟腫瘤是 **angiosarcoma**(心臟最常見肉瘤)。\n\n(A) **Angiosarcoma（正解）**：最常見原發惡性心臟瘤。\n(B) Cardiac lymphoma：罕見。\n(C) Rhabdomyosarcoma：兒童最常見原發惡性，非整體最常見。\n(D) Fibrosarcoma：少見。\n(E) Osteosarcoma：少見。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2269,7 +2271,7 @@
       "id": "2016-062",
       "year": 2016,
       "number": 62,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which is not the common risk factor of posterior reversible encephalopathy syndrome (PRES) ?",
       "options": [
@@ -2296,9 +2298,11 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "Ref: Hinchey J, Chaves C, Appignani B, Breen J, Pao L, Wang A, et al. A reversible posterior leukoencephalopathy syndrome. N Engl J Med 1996;334:494-500.",
+      "explanation": "PRES 常見危險因子為高血壓、子癇、免疫抑制/藥物毒性、腎功能不全;**DM 非典型危險因子**。\n\n(A) Chronic renal insufficiency：常見危險因子。\n(B) Hypertension：常見(嚴重高血壓)。\n(C) Immunosuppression：常見(tacrolimus/cyclosporine/化療等)。\n(D) Eclampsia：常見(子癇/子癇前症)。\n(E) **DM（正解＝非常見危險因子）**：糖尿病非 PRES 典型危險因子。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pres"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2308,7 +2312,7 @@
       "id": "2016-063",
       "year": 2016,
       "number": 63,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which is not the characteristics of glioblastoma multiforme (GBM) ?",
       "options": [
@@ -2335,9 +2339,11 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "Ref: Philipp Kickingereder, et al. Primary Central Nervous System Lymphoma and Atypical Glioblastoma: Multiparametric Differentiation by Using Diffusion-, Perfusion-, and Susceptibility-weighted MR Imaging",
+      "explanation": "GBM 特徵為中央壞死、出血、perifocal(vasogenic) edema、不規則環狀強化;**顱外轉移極罕見、非其特徵**。\n\n(A) Necrosis：特徵(中央壞死)。\n(B) Hemorrhage：特徵(腫瘤內出血)。\n(C) Perifocal edema：特徵(vasogenic edema)。\n(D) Enhancement：特徵(不規則環狀強化)。\n(E) **Metastasis（正解＝非特徵）**：GBM 顱外轉移極罕見，非其特徵。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gbm"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2347,7 +2353,7 @@
       "id": "2016-064",
       "year": 2016,
       "number": 64,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement about congenital spinal intramedullary tumor is false:",
       "options": [
@@ -2370,9 +2376,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Pediatric Neuroimaging (Barkovich)",
+      "explanation": "Epidermoid 在 CT/MRI 似 CSF,但 **DWI 為 restricted diffusion(高訊號)**,故 (D)「DWI 低訊號」為假。\n\n(A) Mature teratoma 含脂肪/鈣化、可有骨軟骨：正確。\n(B) Hamartoma T1/T2 與脊髓等訊號、罕含功能性脈絡叢致 syringohydromyelia：正確。\n(C) Dermoid 含皮膚附屬器、T1 可變、T2 高訊號：正確。\n(D) **Epidermoid isointense to CSF but LOW DWI（正解＝假）**：epidermoid DWI 為 restricted(高訊號),非低訊號。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "spinal-intramedullary-tumors"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2382,7 +2390,7 @@
       "id": "2016-065",
       "year": 2016,
       "number": 65,
-      "subspecialty": "Unknown",
+      "subspecialty": "IR",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following description about hemodialysis is NOT true?",
       "options": [
@@ -2405,9 +2413,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: AJR 2015; 205:726–734",
+      "explanation": "AVF 的併發症(感染/steal/中央靜脈狹窄)『低於』graft,故 (C) 說 graft 低於 fistula 為非真。\n\n(A) 中央靜脈導管血栓/感染率最高應避免：真。\n(B) AVF 優於 graft：真(fistula first、預後較佳)。\n(C) **Infection/steal/central stenosis lower in grafts than fistulas（正解＝非真）**：相反,fistula 較低。\n(D) Radiocephalic fistula 最常見狹窄為 juxta-anastomotic 段：真。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemodialysis-access"
+      ],
       "checked": false,
       "years": [
         2016

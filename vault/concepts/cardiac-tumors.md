@@ -27,10 +27,14 @@ dateRev: 2026-06-15
 
 ### 參考來源
 [^1]: *Cardiac myxoma*. Radiopaedia.org。成人**最常見原發心臟腫瘤（~50%）**；兒童則 rhabdomyoma 較常見（實際查證 accessed 2026-06-15）。題目另引 *Cardiovascular Imaging Review*, 2011。其餘「最常見」分類為標準心臟腫瘤教學。
+[^2]: *Cardiac angiosarcoma*. Radiopaedia.org。**心臟最常見肉瘤/最常見原發惡性心臟腫瘤**；好發 30–50 歲、男性居多、右心房（實際查證 accessed 2026-06-15）。
 
 ## 題目
 > [!question]- 最常見的原發心臟腫瘤是什麼？
 > **Myxoma**（成人，~50%，好發左心房）。兒童則 rhabdomyoma 最常見；papillary fibroelastoma 為最常見瓣膜腫瘤；整體心臟腫塊以轉移最多。[^1]
+
+> [!question]- 最常見的原發「惡性」心臟腫瘤是什麼？
+> **Angiosarcoma**（心臟最常見肉瘤）。cardiac lymphoma 罕見；rhabdomyosarcoma 為兒童最常見原發惡性。[^2]
 
 ## 考題
 ```dataview
