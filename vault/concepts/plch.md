@@ -14,6 +14,9 @@ concepts: [plch]
 
 **PLCH = 年輕吸菸者、上中肺野的「結節 → 空洞化 → 怪形（bizarre）囊腫」演進，且保留肋膈角。** 判讀分水嶺一：分布**上中肺野為主、保留肋膈角（lung bases / costophrenic angles spared）**——與 LAM 的瀰漫均勻相反；判讀分水嶺二：病灶**從 centrilobular 結節演變為厚/薄壁不規則囊腫**，背景是 20–40 歲吸菸者。
 
+> [!note] PLCH vs 骨/系統性 LCH（同疾病譜、不同表現）
+> **PLCH（肺）**＝年輕**抽菸**成人之上中肺囊腫＋結節；**骨/系統性 LCH**＝**兒童**為主、溶骨 hole-within-a-hole/vertebra plana、可多系統 → 見 [[langerhans-cell-histiocytosis]]。兩者同屬 Langerhans 細胞疾病譜但年齡/器官/影像/關聯不同，分開判讀。
+
 ## Summary
 - **族群**：好發 20–40 歲年輕成人、無明顯性別偏好；**吸菸是最強危險因子，成人 >95% 病例與吸菸有關**。[^1]
 - **本質**：漸被視為帶發炎特徵的骨髓系腫瘤（myeloid neoplasm），多由菸煙觸發；可見 **BRAF V600E / MAPK** 體細胞突變，**戒菸後仍可能持續活動**。[^1]
