@@ -18,8 +18,8 @@ dateRev: 2026-06-15
 - **流行病學**：HCC 常見肝外轉移為肺、淋巴結、腎上腺、骨；骨轉移約占 HCC 肝外轉移的 **~19%**[^4]；文獻整體骨轉移率約 3–20%。[^3]
 - **型態**：**溶骨為主**、常**膨脹性（blow-out）**、**富血管**、伴**軟組織腫塊**（soft-tissue expansion ＋豐富血管成分）。[^1][^3]
 - **膨脹性（blow-out）轉移鑑別**：**RCC、thyroid、HCC、pheochromocytoma、melanoma、gastric carcinoma**——HCC 為其一。[^2]
-- **分布（機轉＝血行播散，與原發肝臟左右無關）**：好發**中軸骨/紅骨髓區**；HCC 經典系列**最常見依序為 肋骨、脊椎、股骨、骨盆、肱骨**（肋骨居首）[^8]；另一 PET/CT 系列 **骨盆 20%、腰椎 14%、長骨 13%**[^5]。**肋骨是 HCC 骨轉移最常見部位之一，左右側皆可（血行散布，不受肝臟在右側影響）。**[^8]
-- **偵測（文獻分歧）**：較新文獻認為 HCC 骨轉移多**溶骨、骨掃描可偽陰性/低估**，**PET/CT 較敏感**（region-based 96.7% vs 52.7%）[^5][^1]；惟早期 Kuhlman 系列觀察到病灶**於骨掃描呈增加攝取且 gallium avid**[^8]。實務：勿單恃骨掃描，以 CT/MRI（±PET-CT）界定。[^6]
+- **分布（機轉＝血行播散，與原發肝臟左右無關）**：好發**中軸骨/紅骨髓區**——骨轉移**分布與紅骨髓成比例（腰＞胸＞頸）**、脊椎為整體最常見部位[^9]；HCC 經典系列**最常見依序為 肋骨、脊椎、股骨、骨盆、肱骨**（肋骨居首）[^8]；另一 PET/CT 系列 **骨盆 20%、腰椎 14%、長骨 13%**[^5]。**肋骨是 HCC 骨轉移最常見部位之一，左右側皆可（血行散布，取決於紅骨髓血流，不受肝臟在右側影響）。**[^8][^9]
+- **偵測（文獻分歧）**：較新文獻認為 HCC 骨轉移多**溶骨、骨掃描可偽陰性/低估**，**PET/CT 較敏感**（region-based 96.7% vs 52.7%）[^5][^1]；STATdx 亦載溶骨轉移**骨掃描可偽陰性**、平片需 50–70% 骨破壞才顯[^9]；惟早期 Kuhlman 系列觀察到病灶**於骨掃描呈增加攝取且 gallium avid**[^8]。實務：勿單恃骨掃描，以 CT/MRI（±PET-CT）界定。[^6]
 - **MRI 訊號**：T1 相對肌肉 iso-/hypointense、T2 hyperintense、**明顯（不均勻）強化**；細胞性轉移灶可呈 **restricted diffusion（DWI↑/ADC↓）**。[^7]
 - **臨床**：多有 HCC/肝硬化病史、**高 AFP**；預後差（自骨轉移確診中位存活數月）。[^3][^5]
 
@@ -57,7 +57,8 @@ T1 iso-/hypo、T2/T2FS hyper（內部不均）、T1FS+C 明顯不均勻強化；
 [^5]: Seo HJ, Kim GM, Kim JH, et al. *¹⁸F-FDG PET/CT in hepatocellular carcinoma: detection of bone metastasis and prediction of prognosis*. Nucl Med Commun. 2015;36(3):226-233. https://doi.org/10.1097/MNM.0000000000000246 （Based on articles retrieved from PubMed；PET/CT vs 骨掃描 region-based 96.7% vs 52.7%；分布 骨盆 20%/腰椎 14%/長骨 13%；高 AFP 不良預後）。
 [^6]: Kim S, Chun M, Wang H, et al. *Bone metastasis from primary hepatocellular carcinoma: characteristics of soft tissue formation*. Cancer Res Treat. 2007;39(3):104-108. https://doi.org/10.4143/crt.2007.39.3.104 （Based on articles retrieved from PubMed；軟組織腫塊常見、骨掃描低估範圍、放療前須 CT/MRI）。
 [^7]: Nam SJ, Kim S, Lim BJ, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （全文已讀；轉移為年長者最常見骨腫瘤；無鈣化的侵襲性大腫塊→懷疑轉移或肉瘤；骨轉移 T1 iso-/hypo、T2 hyper）。
-[^8]: Kuhlman JE, Fishman EK, Leichner PK, et al. *Skeletal metastases from hepatoma: frequency, distribution, and radiographic features*. Radiology. 1986;160(1):175-178. https://doi.org/10.1148/radiology.160.1.3012630 （Based on articles retrieved from PubMed；300 例 hepatoma 中 7.3% 骨轉移；平片全部溶骨、CT 顯示膨脹破壞＋大塊軟組織腫塊；**最常見部位依序：肋骨、脊椎、股骨、骨盆、肱骨**；該系列骨掃描呈增加攝取且 gallium avid；5 例病理性骨折）。
+[^8]: Kuhlman JE, Fishman EK, Leichner PK, et al. *Skeletal metastases from hepatoma: frequency, distribution, and radiographic features*. Radiology. 1986;160(1):175-178. https://doi.org/10.1148/radiology.160.1.3012630 （Based on articles retrieved from PubMed；300 例 hepatoma 中 7.3% 骨轉移；平片全部溶骨、CT 顯示膨脹破壞＋大塊軟組織腫塊；**最常見部位依序：肋骨、脊椎、股骨、骨盆、肱骨**；該系列骨掃描呈增加攝取且 gallium avid；5 例病理性骨折。**全文院內為付費牆、僅讀到摘要層級**，內容以 PubMed 結構式摘要為據）。
+[^9]: Ross JS. *Lytic Osseous Metastases*. STATdx（Spine, Dx），updated 2025-02-25. Elsevier（第六來源交叉比對：脊椎為骨轉移最常見部位、**病灶分布與紅骨髓成比例（腰＞胸＞頸）**、骨掃描可偽陰性、平片需 50–70% 骨破壞才顯；溶骨原發列 renal/lung/breast/thyroid/**GI tract（含 hepatobiliary）**/urothelial/ovarian/melanoma 等，HCC 歸 GI 未單列）（實際查證 accessed 2026-06-15）。
 
 ## 題目
 > [!question]- HCC 骨轉移的典型影像型態？為何骨掃描可能漏診？
