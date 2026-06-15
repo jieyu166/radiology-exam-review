@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions/2016/2016-017.md",
-                "mode": "preview",
+                "file": "questions/2016/2016-004.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2016-017"
+              "title": "2016-004"
             }
           }
         ]
@@ -204,21 +204,24 @@
       "obsidian-spaced-repetition:復習卡片": false
     }
   },
-  "active": "ed807561158d7c21",
+  "active": "4be056b11e91a1ba",
   "lastOpenFiles": [
-    "questions/2016/2016-016.md",
-    "questions/2016/2016-015.md",
-    "questions/2016/2016-014.md",
-    "questions/2016/2016-013.md",
-    "questions/2016/2016-012.md",
-    "questions/2016/2016-011.md",
-    "questions/2016/2016-010.md",
-    "questions/2016/2016-009.md",
-    "concepts/tracheal-tumors.md",
-    "questions/2016/2016-008.md",
-    "questions/2016/2016-007.md",
-    "concepts/pulmonary-tb.md",
+    "questions/2016/2016-004.md",
+    "questions/2016/2016-005.md",
     "questions/2016/2016-006.md",
+    "questions/2016/2016-007.md",
+    "questions/2016/2016-008.md",
+    "questions/2016/2016-009.md",
+    "questions/2016/2016-010.md",
+    "questions/2016/2016-011.md",
+    "questions/2016/2016-012.md",
+    "questions/2016/2016-013.md",
+    "questions/2016/2016-014.md",
+    "questions/2016/2016-015.md",
+    "questions/2016/2016-016.md",
+    "questions/2016/2016-017.md",
+    "concepts/tracheal-tumors.md",
+    "concepts/pulmonary-tb.md",
     "concepts/ccta.md.tmp.56792.b4de259cbb2d",
     "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
     "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",
@@ -228,10 +231,8 @@
     "references",
     "concepts/smoke-lung.md",
     "concepts/pulmonary-sarcoidosis.md.tmp.9952.47b5c6c5cc66",
-    "questions/2016/2016-005.md",
     "questions/2016/2016-002.md",
     "questions/2016/2016-003.md",
-    "questions/2016/2016-004.md",
     "concepts/upj-obstruction.md",
     "concepts/plch.md",
     "concepts/lung-cancer.md",
@@ -239,7 +240,6 @@
     "concepts/adrenal-adenoma.md",
     "concepts/ccta.md",
     "concepts/ipf.md",
-    "questions/2016/2016-001.md",
     "concepts/ipf.md.tmp.9952.8183e400d52c",
     "concepts/plch.md.tmp.9952.24bc0c2c359b"
   ]
