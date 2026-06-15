@@ -2427,7 +2427,7 @@
       "id": "2016-066",
       "year": 2016,
       "number": 66,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "關於 Persistent Left superior vena cava 的敘述，下列何者錯誤?",
       "options": [
@@ -2450,9 +2450,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Comprehensive Imaging Review of the Superior Vena Cava. Sonavane SK, Milner DM, Singh SP, Abdel Aal AK, Shahir KS, Chaturvedi A. Radiographics. 2015 Nov-Dec;35(7):1873-92. doi: 10.1148/rg.2015150056.",
+      "explanation": "PLSVC 通常經 coronary sinus 引流入**右心房**(~90%+),少數才入左心房,故 (B) 說「通常匯入左心房」錯誤。\n\n(A) 最常見胸腔先天靜脈異常:正確。\n(B) **通常匯入 left atrium（正解＝錯誤）**:通常經 coronary sinus → 右心房;入左心房屬少數(致右→左分流)。\n(C) 影像見 dilated coronary sinus:正確(招牌)。\n(D) 源自未退化 left anterior cardinal vein + left common cardinal vein:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "persistent-lsvc"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2462,7 +2464,7 @@
       "id": "2016-067",
       "year": 2016,
       "number": 67,
-      "subspecialty": "Unknown",
+      "subspecialty": "IR",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is incorrect about BRTO (Balloon-occluded retrograde transvenous obliteration)?",
       "options": [
@@ -2485,9 +2487,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Transcatheter Obliteration of Gastric Varices. RadioGraphics 2003; 23:921–937.",
+      "explanation": "BRTO 關閉門體分流 → **改善**肝性腦病(甚至用於 TIPS 禁忌之 HE 者),故 (C) 說 HE 更嚴重為錯誤。\n\n(A) 球囊阻塞下逆行注入硬化劑至曲張:正確。\n(B) 首選硬化劑 ethanolamine oleate(混 iopamidol):正確。\n(C) **Hepatoencephalopathy more severe after BRTO（正解＝錯誤）**:相反,BRTO 改善 HE;惡化的是食道靜脈曲張/腹水(門脈壓↑)。\n(D) 複雜曲張可 BRTO + 經肝順行 obliteration 合併:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "brto"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2497,7 +2501,7 @@
       "id": "2016-068",
       "year": 2016,
       "number": 68,
-      "subspecialty": "Unknown",
+      "subspecialty": "IR",
       "subspecialty_confidence": "auto",
       "questionText": "Concerning percutaneous tumor ablation, which of the following is wrong?",
       "options": [
@@ -2520,9 +2524,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "an indirect approach that leaves an unablated tract of at least 2 cm of aerated lung is preferred (prevent persistent air leaks and bronchopleural fistulas)",
+      "explanation": "肺結節消融偏好**保留一段(約≥2cm)未消融的充氣肺路徑**以防氣漏與支氣管肋膜瘻,故 (C)「盡量不留充氣肺路徑」錯誤。\n\n(A) 器官/腫瘤型態/共病影響各消融模式安全與效果:正確。\n(B) Cryoablation 對鄰近脆弱結構精準度佳:正確。\n(C) **Direct approach leaving as little aerated lung tract as possible preferred（正解＝錯誤）**:應保留≥2cm未消融充氣肺路徑防氣漏/BPF。\n(D) Vascular-mediated cooling(heat sink)顯著影響消融帶大小形狀:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tumor-ablation"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2532,7 +2538,7 @@
       "id": "2016-069",
       "year": 2016,
       "number": 69,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "According to BCLC staging for treatment of hepatocellular carcinoma, the best treatment for intermediate stage is which one of following?",
       "options": [
@@ -2559,9 +2565,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Forner A, Reig ME, de Lope CR, Bruix J. Current strategy for staging and treatment: the BCLC update and future prospects. Semin Liver Dis. 2010 Feb;30(1):61-74. doi: 10.1055/s-0030-1247133. Epub 2010",
+      "explanation": "依 BCLC,中期(intermediate, BCLC B)HCC 的最佳治療是 **TACE**。\n\n(A) Ablation:早期(0/A)根治選項。\n(B) Sorafenib:晚期(C)系統治療。\n(C) **TACE（正解）**:中期(B)第一線。\n(D) Resection:早期根治選項。\n(E) All above:錯(各對應不同期別)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bclc-hcc"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2571,7 +2579,7 @@
       "id": "2016-070",
       "year": 2016,
       "number": 70,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "inguinal hernia 相比，下列何者比較不容易於 femoral hernia 病患中發現?",
       "options": [
@@ -2594,9 +2602,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "",
+      "explanation": "股疝頸窄、疝囊**小而局限**,故相較腹股溝疝,**延伸的大疝囊(extended sac)較不易**見於股疝。\n\n(A) **Extended sac（正解＝較不易見）**:股疝頸窄、疝囊小局限,不易見延伸大疝囊。\n(B) Femoral venous compression:股疝**較常見**(幾乎一定壓迫股靜脈)。\n(C) Localized sac:股疝較常見(小而局限)。\n(D) Hernia sac lateral to pubic tubercle:股疝較常見(位於恥骨結節外側)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "groin-hernia"
+      ],
       "checked": false,
       "years": [
         2016

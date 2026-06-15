@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "concepts/hcc-bone-metastasis.md",
+                "file": "questions/2016/2016-012.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hcc-bone-metastasis"
+              "title": "2016-012"
             }
           }
         ]
@@ -206,8 +206,12 @@
   },
   "active": "ed807561158d7c21",
   "lastOpenFiles": [
+    "concepts/sclerosing-pneumocytoma.md",
     "concepts/rib-tumor.md",
+    "concepts/langerhans-cell-histiocytosis.md",
+    "concepts/plch.md",
     "concepts/hcc-bone-metastasis.md",
+    "concepts/gbm.md",
     "concepts/lung-cancer.md",
     "questions/2016/2016-029.md",
     "concepts/spondylolysis.md",
@@ -229,10 +233,6 @@
     "concepts/ultrasound-speed-artifact.md",
     "concepts/upj-obstruction.md",
     "concepts/ureteral-filling-defect.md",
-    "questions/2016/2016-031.md",
-    "concepts/aspects-score.md",
-    "concepts/adenomyosis-mri.md",
-    "concepts/ectopic-ureter.md",
     "concepts/ccta.md.tmp.56792.b4de259cbb2d",
     "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
     "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",
