@@ -1675,7 +1675,7 @@
       "id": "2016-046",
       "year": 2016,
       "number": 46,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is wrong about septic pulmonary emboli?",
       "options": [
@@ -1698,9 +1698,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual 7th edition, p.542",
+      "explanation": "敗血性肺栓塞的 feeding vessel sign 是其**特徵**，故 (C)「uncommon with feeding vessel sign」為錯誤敘述。\n\n(A) Cavitation happens frequently：真（尤 gram-positive）。\n(B) Migratory infiltrates typical：真（反覆栓子陣雨、多階段並存）。\n(C) **Uncommon with feeding vessel sign（正解＝錯誤）**：feeding vessel sign 為其特徵，非少見。\n(D) Predilection for lung bases：真（周邊、下肺基底為主）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "septic-pulmonary-emboli"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1710,7 +1712,7 @@
       "id": "2016-047",
       "year": 2016,
       "number": 47,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which is the most common complication of tuberculous cavitation?",
       "options": [
@@ -1733,9 +1735,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual 7th edition, p.549",
+      "explanation": "結核空洞最常見的併發症是**經氣道（endobronchial / bronchogenic, acinar）播散**——空洞與支氣管相通，CT 呈 centrilobular nodules + tree-in-bud。\n\n(A) Rasmussen aneurysm：少見併發症（空洞鄰近肺動脈假性動脈瘤）。\n(B) **Endobronchial (acinar) spread（正解）**：最常見；tree-in-bud＝postprimary 經氣道播散。\n(C) Aspergilloma：慢性期既存空洞內真菌球，非最常見。\n(D) Miliary TB：屬血行播散，非空洞之經氣道併發症。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-tb"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1745,7 +1749,7 @@
       "id": "2016-048",
       "year": 2016,
       "number": 48,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is wrong about papillary fibroelastoma?",
       "options": [
@@ -1768,9 +1772,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual 7th edition, p.657",
+      "explanation": "Papillary fibroelastoma **可引起栓塞**（腫瘤/血栓碎屑→中風/TIA），故 (C)「與栓塞無關」為錯誤敘述。\n\n(A) Mostly asymptomatic：真（常偶然發現）。\n(B) Most common valvular tumor：真（約占瓣膜腫瘤 75%）。\n(C) **Not related to embolic events（正解＝錯誤）**：可使腫瘤/血栓碎屑栓塞致中風/TIA。\n(D) Second most common benign cardiac neoplasm after myxoma：真。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "papillary-fibroelastoma"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1780,7 +1786,7 @@
       "id": "2016-049",
       "year": 2016,
       "number": 49,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following statements best describes adrenal cortical nodular hyperplasia?",
       "options": [
@@ -1803,9 +1809,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2014 May-Jun;34(3):805-29.",
+      "explanation": "腎上腺皮質結節性增生**隨年齡增加**而盛行率上升。\n\n(A) Does not occur with adrenal cortical adenomas：錯（可與腺瘤並存）。\n(B) **Increases in prevalence with age（正解）**。\n(C) Most commonly focal：錯（多為瀰漫/多結節，非單一焦點）。\n(D) Most commonly unilateral：錯（多為雙側）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1815,7 +1823,7 @@
       "id": "2016-050",
       "year": 2016,
       "number": 50,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the most likely cause of increased signal intensity within an adrenal pseudocyst on T1-weighted MR images?",
       "options": [
@@ -1838,9 +1846,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2014 May-Jun;34(3):805-29.",
+      "explanation": "腎上腺 pseudocyst 在 T1 加權影像上的高訊號最可能來自**出血**（pseudocyst 多為陳舊出血演變）。\n\n(A) Fat：非（脂肪可 T1 高訊號但 pseudocyst 高訊號源自出血；可用脂抑/反相位區分）。\n(B) **Hemorrhage（正解）**：陳舊出血之血液產物致 T1 高訊號。\n(C) Calcification：鈣化於 T1 多為低訊號。\n(D) Simple fluid：單純液體 T1 低訊號。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1850,7 +1860,7 @@
       "id": "2016-051",
       "year": 2016,
       "number": 51,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Up to what percentage of pheochromocytoma contains calcifications?",
       "options": [
@@ -1873,9 +1883,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2014 May-Jun;34(3):805-29.",
+      "explanation": "Pheochromocytoma 約 **10%** 含鈣化（「10% rule」之一）。\n\n(A) **10%（正解）**。\n(B) 30%：過高。\n(C) 50%：過高。\n(D) 70%：過高。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1885,7 +1897,7 @@
       "id": "2016-052",
       "year": 2016,
       "number": 52,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following conditions is most likely to manifest as well-defined bilateral adrenal masses or enlargement?",
       "options": [
@@ -1908,9 +1920,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2014 May-Jun;34(3):805-29.",
+      "explanation": "**雙側、界清的腎上腺腫塊/腫大**最可能為**感染**（肉芽腫性：結核、組織漿菌等致雙側腎上腺腫大）。\n\n(A) Adrenal cortical carcinoma：多為單側大腫塊。\n(B) Adrenal cortical adenoma：多為單側。\n(C) **Adrenal infection（正解）**：肉芽腫性感染常致雙側界清腫大。\n(D) Adrenal oncocytoma：罕見、多單側。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1920,7 +1934,7 @@
       "id": "2016-053",
       "year": 2016,
       "number": 53,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the most common cause of adrenal hemorrhage in adults?",
       "options": [
@@ -1943,9 +1957,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2014 May-Jun;34(3):805-29.",
+      "explanation": "成人腎上腺出血最常見的原因是**鈍挫傷（blunt trauma）**。\n\n(A) Stress：較少（neonate/重症壓力較相關）。\n(B) Bleeding diathesis：較少（與雙側出血、抗凝/DIC 相關）。\n(C) **Blunt trauma（正解）**：成人最常見（多為單側）。\n(D) Adrenal mass：較少。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1955,7 +1971,7 @@
       "id": "2016-054",
       "year": 2016,
       "number": 54,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a typical image finding of polycystic ovary syndrome on MRI?",
       "options": [
@@ -1978,9 +1994,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "peripheral location of follicles: which can give a string of pearl appearance",
+      "explanation": "PCOS 的濾泡呈**周邊**排列（string of pearls），故 (B)「濾泡位於卵巢中央」**非**典型。\n\n(A) Enlarged ovaries：典型。\n(B) **Multiple follicles at the central part of the ovary（正解＝非典型）**：濾泡應在**周邊**（中央為高回音 stroma）。\n(C) Usually bilateral：典型。\n(D) All of the above are typical：因 (B) 非典型，故此項不成立。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pcos-mri"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1990,7 +2008,7 @@
       "id": "2016-055",
       "year": 2016,
       "number": 55,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a typical ultrasound finding of hepatic hemangioma?",
       "options": [
@@ -2013,9 +2031,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "posterior acoustic enhancement.",
+      "explanation": "肝血管瘤典型為**後方穿透增強（posterior acoustic enhancement）**，故 (D)「posterior acoustic shadowing（遮蔽）」**非**典型。\n\n(A) Hyperechoic mass：典型（界清高回音）。\n(B) No visible color Doppler flow in center：典型（中央慢流、乏血流）。\n(C) Filling-in phenomenon on CEUS：典型（周邊結節狀→向心填充）。\n(D) **Posterior acoustic shadowing（正解＝非典型）**：血管瘤為後方穿透增強，非遮蔽。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
       "checked": false,
       "years": [
         2016

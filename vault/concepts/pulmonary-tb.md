@@ -56,6 +56,12 @@ dateRev: 2026-06-14
 > [!note] 考點：上肺 consolidation 屬哪一型？
 > **上肺 consolidation 是 postprimary TB 的特徵，不是 primary**。Primary 的 consolidation 無上肺偏好（任何肺葉、常下/中葉）。[^1][^2]
 
+## 空洞（cavitation）併發症
+- **最常見併發症＝endobronchial / bronchogenic（acinar）spread**：空洞與支氣管相通 → 經氣道播散，CT 為 **centrilobular nodules + tree-in-bud**（postprimary 經氣道散布、近乎診斷性）。[^1][^2]（2016-047 正解）
+- **Rasmussen aneurysm**：**少見**——空洞鄰近/壁內肺動脈之假性動脈瘤，可致大咯血。[^2]
+- **Aspergilloma（mycetoma）**：**慢性**期，於既存空洞內形成真菌球（air-crescent sign）。[^2]
+- **Miliary TB**：屬**血行**播散，非空洞之經氣道併發症。[^1]
+
 ### 參考來源
 [^1]: Rosado-de-Christenson ML. *Tuberculosis*. STATdx（Chest, Dx），updated 2021-09-27. Elsevier（實際查證 accessed 2026-06-14）。
 [^2]: Nachiappan AC, Rahbar K, Shi X, et al. *Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management*. RadioGraphics. 2017;37(1):52-72. https://doi.org/10.1148/rg.2017160032 （實際查證 accessed 2026-06-14）。
