@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions/2016/2016-029.md",
-                "mode": "source",
+                "file": "concepts/hcc-bone-metastasis.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2016-029"
+              "title": "hcc-bone-metastasis"
             }
           }
         ]
@@ -206,6 +206,10 @@
   },
   "active": "ed807561158d7c21",
   "lastOpenFiles": [
+    "concepts/rib-tumor.md",
+    "concepts/hcc-bone-metastasis.md",
+    "concepts/lung-cancer.md",
+    "questions/2016/2016-029.md",
     "concepts/spondylolysis.md",
     "concepts/synovial-bursa-communication.md",
     "concepts/ct-venography.md",
@@ -229,10 +233,6 @@
     "concepts/aspects-score.md",
     "concepts/adenomyosis-mri.md",
     "concepts/ectopic-ureter.md",
-    "questions/2016/2016-030.md",
-    "questions/2016/2016-029.md",
-    "questions/2016/2016-024.md",
-    "questions/2016/2016-023.md",
     "concepts/ccta.md.tmp.56792.b4de259cbb2d",
     "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
     "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",

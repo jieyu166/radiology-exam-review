@@ -2045,7 +2045,7 @@
       "id": "2016-056",
       "year": 2016,
       "number": 56,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a typical ultrasound finding in patients with portal hypertension?",
       "options": [
@@ -2068,9 +2068,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 1-88~1-89.",
+      "explanation": "門脈高壓使門脈**擴張**，故 (A)「門脈直徑變小」非典型。\n\n(A) **Small diameter of portal vein（正解＝非典型）**：門脈高壓→門脈擴張(>13mm)，非變小。\n(B) Splenomegaly：典型。\n(C) Hepatofugal flow in portal vein：典型(離肝/逆流)。\n(D) Recanalization of umbilical vein：典型(臍靜脈再通，近乎診斷性)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "portal-hypertension-us"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2080,7 +2082,7 @@
       "id": "2016-057",
       "year": 2016,
       "number": 57,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "About splenic tumors, which of the following statement is incorrect?",
       "options": [
@@ -2103,9 +2105,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "lymphoma",
+      "explanation": "脾臟最常見惡性是 **lymphoma**(多為續發)，不是轉移，故 (B) 錯誤。\n\n(A) Most common benign = hemangioma：正確。\n(B) **Most common malignancy = metastasis（正解＝錯誤）**：應為 lymphoma；脾轉移相對少見。\n(C) Epidermoid cyst = true cyst with epithelial lining; false cysts from trauma/infection/infarction：正確。\n(D) Splenic hamartoma may associate with anemia and thrombocytopenia：正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "splenic-tumors"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2115,7 +2119,7 @@
       "id": "2016-058",
       "year": 2016,
       "number": 58,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Generally, a constant relationship between external liver anatomy, haptic veins, and the intrahepatic branches of the portal veins is presumed, but there are still variants. About the right inferior hepatic vein, which of the following statement is incorrect?",
       "options": [
@@ -2138,9 +2142,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Focal liver lesions- Detection, Characterization, Ablation; page 69-70",
+      "explanation": "RHV「缺如」需要的是**大的** RIHV(＋predominant MHV)接管引流；**小的** RIHV 時 RHV 應仍在，故 (C) 錯誤。\n\n(A) Large RIHV draining segment 6 in 15-20% of normal：正確。\n(B) When RIHV present, RHV usually smaller (does not drain seg 6)：正確。\n(C) **Small RIHV + predominant MHV → RHV could be absent（正解＝錯誤）**：需大 RIHV 才可能 RHV 缺如；小 RIHV 時 RHV 應仍存在。\n(D) MPR CT helpful in demonstrating RIHV：正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatic-vein-variants"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2150,7 +2156,7 @@
       "id": "2016-059",
       "year": 2016,
       "number": 59,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Surgical intervention is recommended for idiopathic ascending aortic aneurysms at an aortic diameter of:",
       "options": [
@@ -2173,9 +2179,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Cardiovascular Imaging Review , 2011.",
+      "explanation": "特發性升主動脈瘤的手術閾值約 **5.5 cm**(ACC/AHA；Radiopaedia：5–6 cm 通常考慮介入)。\n\n（註：本題選項在資料庫中小數遺失，正確應為 4.5 / 5.0 / 5.5 / 6.0 cm，正解 5.5 cm）\n(A) ~4.5 cm：偏低(接受其他心臟手術或極高風險時才用)。\n(B) ~5.0 cm：Marfan/二葉式主動脈瓣等高風險族群門檻。\n(C) **~5.5 cm（正解）**：特發性/退化性升主動脈瘤標準手術閾值。\n(D) ~6.0 cm：偏高。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ascending-aortic-aneurysm"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2185,7 +2193,7 @@
       "id": "2016-060",
       "year": 2016,
       "number": 60,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is the most common primary cardiac tumor?",
       "options": [
@@ -2208,9 +2216,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Cardiovascular Imaging Review , 2011.",
+      "explanation": "最常見的原發心臟腫瘤是 **myxoma**(成人，約占 50%)。\n\n(A) Sarcoma：最常見原發『惡性』，非整體最常見。\n(B) Lipoma：常見良性但非最常見。\n(C) Papillary fibroelastoma：最常見『瓣膜』腫瘤，非整體最常見。\n(D) **Myxoma（正解）**：成人最常見原發心臟腫瘤(~50%，好發左心房)；兒童則 rhabdomyoma。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
       "checked": false,
       "years": [
         2016
