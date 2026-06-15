@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions/2016/2016-004.md",
+                "file": "questions/2016/2016-031.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2016-004"
+              "title": "2016-031"
             }
           }
         ]
@@ -204,24 +204,34 @@
       "obsidian-spaced-repetition:復習卡片": false
     }
   },
-  "active": "4be056b11e91a1ba",
+  "active": "ed807561158d7c21",
   "lastOpenFiles": [
+    "concepts/acute-stroke-management.md",
+    "concepts/aspects-score.md",
+    "concepts/adenomyosis-mri.md",
+    "concepts/ureteral-filling-defect.md",
+    "concepts/ectopic-ureter.md",
+    "questions/2016/2016-030.md",
+    "questions/2016/2016-029.md",
+    "questions/2016/2016-028.md",
+    "questions/2016/2016-027.md",
+    "questions/2016/2016-026.md",
+    "questions/2016/2016-025.md",
+    "questions/2016/2016-024.md",
+    "questions/2016/2016-023.md",
+    "questions/2016/2016-022.md",
+    "questions/2016/2016-021.md",
+    "concepts/fnh.md",
+    "questions/2016/2016-019.md",
+    "questions/2016/2016-018.md",
+    "concepts/infiltrative-hcc.md",
+    "questions/2016/2016-020.md",
     "questions/2016/2016-004.md",
     "questions/2016/2016-005.md",
     "questions/2016/2016-006.md",
     "questions/2016/2016-007.md",
     "questions/2016/2016-008.md",
     "questions/2016/2016-009.md",
-    "questions/2016/2016-010.md",
-    "questions/2016/2016-011.md",
-    "questions/2016/2016-012.md",
-    "questions/2016/2016-013.md",
-    "questions/2016/2016-014.md",
-    "questions/2016/2016-015.md",
-    "questions/2016/2016-016.md",
-    "questions/2016/2016-017.md",
-    "concepts/tracheal-tumors.md",
-    "concepts/pulmonary-tb.md",
     "concepts/ccta.md.tmp.56792.b4de259cbb2d",
     "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
     "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",
@@ -229,17 +239,7 @@
     "references/2020 RG CAD-RADS - Pushing the Limits.pdf",
     "references/2010 RG Pulmonary Sarcoidosis - Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation.pdf",
     "references",
-    "concepts/smoke-lung.md",
     "concepts/pulmonary-sarcoidosis.md.tmp.9952.47b5c6c5cc66",
-    "questions/2016/2016-002.md",
-    "questions/2016/2016-003.md",
-    "concepts/upj-obstruction.md",
-    "concepts/plch.md",
-    "concepts/lung-cancer.md",
-    "concepts/lam.md",
-    "concepts/adrenal-adenoma.md",
-    "concepts/ccta.md",
-    "concepts/ipf.md",
     "concepts/ipf.md.tmp.9952.8183e400d52c",
     "concepts/plch.md.tmp.9952.24bc0c2c359b"
   ]

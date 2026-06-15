@@ -824,7 +824,7 @@
       "id": "2016-023",
       "year": 2016,
       "number": 23,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following congenital ureteral abnormalities commonly manifests as incontinence in females but not in males?",
       "options": [
@@ -847,9 +847,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2015 May-Jun;35(3):709-26.",
+      "explanation": "異位輸尿管造成女性持續漏尿、男性不漏，關鍵在**插入點是否越過外尿道括約肌**：女性異位口可在括約肌遠端（陰道/前庭/遠端尿道）→ 漏尿；男性異位口永遠在括約肌近端 → 不漏尿。\n\n(A) **Complete ureteral duplication with an ectopic ureter（正解）**：完全重複系統上極異位輸尿管，女性異位口可在括約肌遠端 → 持續漏尿；男性不漏。\n(B) Ectopic ureterocele：多表現阻塞/UTI（位於膀胱內），非持續漏尿。\n(C) Vesicoureteral reflux：表現逆流/UTI/逆流腎病，非持續漏尿。\n(D) Primary megaureter：表現阻塞/擴張，非持續漏尿。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ectopic-ureter"
+      ],
       "checked": false,
       "years": [
         2016
@@ -859,7 +861,7 @@
       "id": "2016-024",
       "year": 2016,
       "number": 24,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the most common cause of ureteral filling defects?",
       "options": [
@@ -882,9 +884,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiographics. 2015 May-Jun;35(3):709-26.",
+      "explanation": "輸尿管充盈缺損**最常見的原因是結石（calculi）**。\n\n(A) Transitional cell carcinoma：最常見的『腫瘤性』充盈缺損，但整體頻率遠低於結石。\n(B) **Calculi（正解）**：最常見的輸尿管充盈缺損原因。\n(C) Papilloma：罕見。\n(D) Clot：續發於出血（腫瘤/外傷/抗凝），非最常見。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ureteral-filling-defect"
+      ],
       "checked": false,
       "years": [
         2016
@@ -894,7 +898,7 @@
       "id": "2016-025",
       "year": 2016,
       "number": 25,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a typical image finding of adenomyosis on MRI?",
       "options": [
@@ -917,9 +921,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 2-193.",
+      "explanation": "Adenomyosis 在 MRI 為**邊界不清**的肌層增厚，故「邊界清楚的腫塊」**非**典型（那是 leiomyoma）。\n\n(A) Uterine enlargement：典型（局部/瀰漫子宮增大）。\n(B) **A well-defined mass（正解＝非典型）**：adenomyosis 邊界不清；邊界清楚腫塊屬 leiomyoma。\n(C) Thickening of junctional zone：典型（JZ ≥12 mm，正常 ≤5 mm，最易辨識）。\n(D) Small foci of high signal intensity on T2WI：典型（囊性變/異位內膜腺體）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adenomyosis-mri"
+      ],
       "checked": false,
       "years": [
         2016
@@ -929,7 +935,7 @@
       "id": "2016-026",
       "year": 2016,
       "number": 26,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which about ASPECTS (Alberta Stroke Program Early CT Score) is WRONG?",
       "options": [
@@ -952,9 +958,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: AJNR 2001 22: 1534-1542",
+      "explanation": "ASPECTS 採**扣分制**：從 10 分起、每個受累區域 −1，故**正常 CT＝10 分**（不是 0）。\n\n(A) Score is 0 to 10：正確。\n(B) **Normal CT receives ASPECTS of 0 point（正解＝錯誤敘述）**：正常 CT＝10 分，每受累區扣 1。\n(C) Only evaluate MCA territory：正確（原始版針對 MCA 區域）。\n(D) MCA cortex is allotted 7 points：正確（insula＋M1–M6＝7；深部 caudate/lentiform/IC＝3）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "aspects-score"
+      ],
       "checked": false,
       "years": [
         2016
@@ -964,7 +972,7 @@
       "id": "2016-027",
       "year": 2016,
       "number": 27,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "According to American Stroke Association recommendation, which about acute ischemic stroke treatment is WRONG?",
       "options": [
@@ -987,9 +995,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: 2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment",
+      "explanation": "依 2015 AHA/ASA：**符合條件者應照給 IV r-tPA，即使同時考慮血管內治療**（Class I），不可為搶時間跳過。\n\n(A) Observing response not necessary before endovascular：正確（觀察 tPA 反應非必要、不建議，Class III）。\n(B) **IV r-tPA should be skipped to avoid time delay（正解＝錯誤敘述）**：應照給 tPA，不可跳過。\n(C) Thrombectomy recommended over intra-arterial fibrinolysis：正確（stent retriever 取栓優於 IA fibrinolysis）。\n(D) Goal reperfusion to TICI 2b/3 within 6 hours：正確（mTICI 2b/3，發病 6 小時內，Class I）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
       "checked": false,
       "years": [
         2016
@@ -999,7 +1009,7 @@
       "id": "2016-028",
       "year": 2016,
       "number": 28,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "According to American Stroke Association recommendation, which about acute ischemic stroke imaging is WRONG?",
       "options": [
@@ -1022,9 +1032,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Perfusion benefit: unknown",
+      "explanation": "依 2015 AHA/ASA：**CT/MR perfusion 用於『選擇』血管內治療病人的效益『未確立』（Class IIb）**，故「已證實優於 CTA/MRA」為錯誤。\n\n(A) NECT provides necessary info in most instances：正確（Class I）。\n(B) Non-invasive intracranial vascular imaging strongly recommended if endovascular contemplated：正確（但勿延遲 tPA）。\n(C) **Perfusion proven better than CTA/MRA for selecting patients（正解＝錯誤敘述）**：效益未確立（Class IIb），未證實優於 CTA/MRA。\n(D) Non-invasive vascular imaging should not delay IV r-tPA：正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
       "checked": false,
       "years": [
         2016
