@@ -1305,7 +1305,7 @@
       "id": "2016-036",
       "year": 2016,
       "number": 36,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which ONE of the following articulations is involved in the last stage of a lesser-arc injury? 選項 (A) Scaphoid-lunate",
       "options": [
@@ -1324,9 +1324,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Orthopedic Imaging – A Practical Approach 5th Edition, p.211-212",
+      "explanation": "Lesser-arc（月骨周）損傷依 Mayfield 漸進：scapholunate→capitolunate→lunotriquetral→（最後）**radiolunate**（月骨掌側脫位）。最後階段累及 radius-lunate。\n\n(A) Scapholunate：第 1 階段。\n(B) Triquetrum-lunate：第 3 階段。\n(C) Capitate-lunate：第 2 階段。\n(D) **Radius-lunate（正解）**：第 4（最後）階段，月骨掌側脫位、橈月關節失常。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "perilunate-injury"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1336,7 +1338,7 @@
       "id": "2016-037",
       "year": 2016,
       "number": 37,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "在已經接受全腔靜脈肺動脈循環 TCPC（total cavapulmonary circulation）的先天性心臟病的 CT 或 MRI 影像上要特別注意，下列何 種狀況或異常才算判讀完整? (A)Any junctional stenosis between SVC（superior vena cava）/IVC （inferior vena cava）to pulmonary artery",
       "options": [
@@ -1359,9 +1361,11 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "",
+      "explanation": "TCPC（Fontan）術後 CT/MRI 的完整判讀須同時涵蓋路徑狹窄、fenestration、conduit 血栓/內膜增生、房室瓣脫垂四項。\n\n(A) SVC/IVC 到 PA 吻合處任何狹窄：須查（路徑阻力）。\n(B) Conduit fenestration 有無：須查。\n(C) IVC conduit 血栓或內膜增生：須查（慢流易栓）。\n(D) 4 腔 cine 房室瓣脫垂：須查（影響單心室負荷）。\n(E) **All of the above（正解）**：四者並查才算完整。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fontan-tcpc-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1371,7 +1375,7 @@
       "id": "2016-038",
       "year": 2016,
       "number": 38,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "下列有關在 CT 或 MRI 影像上（pulmonary valve），用來判定診斷不同 種類 VSD（ventriaular septal defect）心室中隔缺損的描述是錯的?",
       "options": [
@@ -1394,9 +1398,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "subpulmonary",
+      "explanation": "Subarterial（juxta-arterial）型 VSD 位於**肺動脈瓣下（subpulmonary）**，不是主動脈瓣下，故 (A) 描述錯誤。\n\n(A) **Defect under the aortic valve called 'subarterial type'（正解＝錯誤）**：subarterial 型在**肺動脈瓣下（subpulmonary）**，非主動脈瓣下。\n(B) Perimembranous type：正確（累及膜部間隔）。\n(C) 'Swiss cheese' muscular type：正確（肌部多發）。\n(D) Inlet type extends to AV valve insertion：正確。\n(E) Named by right ventricle viewpoint：正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "vsd-types"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1406,7 +1412,7 @@
       "id": "2016-039",
       "year": 2016,
       "number": 39,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Regarding cleidocranial dysostosis, which of the following statement is TRUE?",
       "options": [
@@ -1429,9 +1435,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Primer of Diagnostic Imaging, 3rd Edition, p.859",
+      "explanation": "Cleidocranial dysplasia 同時具備膜性＋軟骨內骨化缺陷、wormian bones、鎖骨變形，故選「以上皆是」。\n\n(A) Defect in ossification of enchondral and intramembranous bones：真（以膜性為主但長骨亦受累）。\n(B) Wormian bones：真（顱縫多發小骨）。\n(C) Clavicle deformity：真（鎖骨發育不良/缺如）。\n(D) **All of the above（正解）**。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cleidocranial-dysplasia"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1441,7 +1449,7 @@
       "id": "2016-040",
       "year": 2016,
       "number": 40,
-      "subspecialty": "Unknown",
+      "subspecialty": "PED",
       "subspecialty_confidence": "auto",
       "questionText": "Schwachman-Diamond syndrome has",
       "options": [
@@ -1464,9 +1472,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Primer of Diagnostic Imaging, 3rd Edition, p.873",
+      "explanation": "Shwachman-Diamond syndrome 的影像招牌是**胰臟脂肪化（pancreatic lipomatosis）**。\n\n(A) Fatty replacement of the liver：非。\n(B) **Fatty replacement of the pancreas（正解）**：外分泌胰臟功能不全＋胰臟脂肪取代，伴骨髓低下、幹骺端發育不良。\n(C) Fatty replacement of the spleen：非。\n(D) Fatty replacement of the kidneys：非。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "shwachman-diamond"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1476,7 +1486,7 @@
       "id": "2016-041",
       "year": 2016,
       "number": 41,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "請問在超音波彈性影像中，對於慢性 C 型肝炎，若以 shear wave velocity 來診斷肝硬化，常以多少為閾值?",
       "options": [
@@ -1499,9 +1509,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology. 2015 Sep;276(3):845-61. doi: 10.1148/radiol.2015150619. Epub 2015 Jun 16.",
+      "explanation": "以 shear wave velocity 評慢性 C 肝之肝硬化，常用閾值約 **2 m/sec**（SRU 共識：>2.1 m/s / >13 kPa 提示 advanced CLD/硬化）。\n\n(A) 8 m/sec：過高（>2.4 m/s 已屬顯著門脈高壓範圍）。\n(B) 5 m/sec：過高。\n(C) **2 m/sec（正解）**：約為硬化閾值（>2.1 m/s / >13 kPa）。\n(D) 0 m/sec：無意義。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-elastography"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1511,7 +1523,7 @@
       "id": "2016-042",
       "year": 2016,
       "number": 42,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "請問以下何種超音波技術與測量組織硬度有關? (甲) Tissue Harmonics (乙) Strain imaging (丙) Navigation/Fusion (丁) Shear wave imaging",
       "options": [
@@ -1534,9 +1546,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Radiology. 2015 Sep;276(3):845-61. doi: 10.1148/radiol.2015150619. Epub 2015 Jun 16. 吳志宏",
+      "explanation": "測量組織硬度的超音波技術為**乙 Strain imaging** 與 **丁 Shear wave imaging**。\n\n甲 Tissue Harmonics：提升影像品質，與硬度無關。\n乙 Strain imaging：測硬度（壓縮波比較 ROI）。\n丙 Navigation/Fusion：影像融合/導航，與硬度無關。\n丁 Shear wave imaging：測硬度（剪力波速）。\n故選 **(D) 乙丁**。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-elastography"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1546,7 +1560,7 @@
       "id": "2016-043",
       "year": 2016,
       "number": 43,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "請問若要使用超音波 shear wave velocity 來評估肝硬化的情形，以下 何種是較好的測量方式，可以得到穩定、正確及再現性高的結果?",
       "options": [
@@ -1569,9 +1583,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiology. 2015 Sep;276(3):845-61. doi: 10.1148/radiol.2015150619. Epub 2015 Jun 16. 吳志宏",
+      "explanation": "以 shear wave velocity 評肝硬化，較穩定且再現性高的量測：**禁食、測右葉 seg 8（前葉 seg 5/8）、深度約 4 cm**。\n\n(A) 不禁食、Seg 4、深度 4 cm：未禁食會偽高，不佳。\n(B) **禁食、Seg 8（前葉 seg 5/8）、深度約 4 cm（正解）**：右葉肋間、深度 4–4.5 cm 最佳、包膜下 1.5–2 cm。\n(C) 禁食、Seg 5、深度 8 cm：深度過深（>6–7 cm）不可靠。\n(D) 禁食、Seg 6、深度 4 cm：seg 6 非標準首選（右葉前段 5/8 較佳）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-elastography"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1581,7 +1597,7 @@
       "id": "2016-044",
       "year": 2016,
       "number": 44,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which malignancy is the second most common metastasis to pleura?",
       "options": [
@@ -1608,9 +1624,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual 7th edition, p.526",
+      "explanation": "肋膜轉移最常見原發為肺癌（~36–40%，第1）；**第二常見為乳癌（~20–25%）**。\n\n(A) Lung（1st: 36%）：第一常見，非第二。\n(B) Ovary（5%）：較少。\n(C) **Breast（2nd: 25%）（正解）**：第二常見原發。\n(D) Lymphoma（10%）：第三。\n(E) Stomach（2%）：較少。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pleural-metastases"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1620,7 +1638,7 @@
       "id": "2016-045",
       "year": 2016,
       "number": 45,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is wrong about progressive massive fibrosis?",
       "options": [
@@ -1643,9 +1661,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual 7th edition, p.530",
+      "explanation": "PMF 可在**停止粉塵暴露後仍發展或進展**，故 (D)「絕不會在停止暴露後發展」為錯誤敘述。\n\n(A) 幾乎限上肺後段＋下肺上段：正確。\n(B) Bilateral symmetry：正確。\n(C) Bullous/scar emphysema（周圍）：正確。\n(D) **Never develop after cessation of dust exposure（正解＝錯誤）**：PMF 可在暴露停止後仍出現/進展。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "progressive-massive-fibrosis"
+      ],
       "checked": false,
       "years": [
         2016
