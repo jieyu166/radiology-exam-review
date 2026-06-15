@@ -1046,7 +1046,7 @@
       "id": "2016-029",
       "year": 2016,
       "number": 29,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following statement is wrong:",
       "options": [
@@ -1069,9 +1069,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "(lateral, medial from ACA)",
+      "explanation": "Lenticulostriate（豆紋）動脈中 lateral 群來自近端 MCA、經前穿質**外側**進入，故「經 medial 2/3 進入」為錯誤敘述。\n\n(A) Arise from the proximal MCA：正確（lateral lenticulostriate 群來自 M1）。\n(B) **Enter through the medial 2/3 of the anterior perforated substance（正解＝錯誤）**：MCA 來源者經前穿質**外側**進入（medial 群才來自 ACA、經內側）。\n(C) Average 9–10.4 (range 1–21) in number：正確（依解剖文獻數值）。\n(D) ~100–2,200 μm in diameter at origin：正確（依解剖文獻數值）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lenticulostriate-arteries"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1081,7 +1083,7 @@
       "id": "2016-030",
       "year": 2016,
       "number": 30,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Three typical pattern of drainage of sphenoparietal sinus have been described except for Deep drainage",
       "options": [
@@ -1104,9 +1106,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Takahashi S : Neurovascular imaging page 264",
+      "explanation": "蝶頂竇三種典型引流型為：①海綿竇 ②翼叢（basal emissary）③沿中顱窩底向後越岩錐入岩下/橫竇。故「向上至 MCV 再入上矢狀竇」非其引流型（MCV 為其屬支、方向相反）。\n\n(A) Into the cavernous sinus：屬三型之一。\n(B) Into the pterygoid plexus via basal emissary veins：屬三型之一。\n(C) Posteriorly along middle cranial fossa floor over petrous to inferior petrosal/transverse sinus：屬三型之一。\n(D) **Directly upward to MCV then superior sagittal sinus（正解＝EXCEPT）**：非其引流型，MCV 為其屬支、流向相反。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sphenoparietal-sinus"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1116,7 +1120,7 @@
       "id": "2016-031",
       "year": 2016,
       "number": 31,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement is false for anti-NMDA (N-methyl-D-aspartic acid) receptor encephalitis?",
       "options": [
@@ -1139,9 +1143,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Young women",
+      "explanation": "抗 NMDAR 腦炎好發**年輕女性**（F:M≈4:1），故「老年女性好發」為假。\n\n(A) **Old female patients commonly affected（正解＝假）**：好發年輕女性，非老年。\n(B) Prominent psychiatric symptoms and/or seizures：真。\n(C) Ovarian teratoma in >half; early resection better prognosis：真（畸胎瘤 40–60%，早切預後較佳）。\n(D) MRI nonspecific T2/FLAIR without symptom correlation：真（影像常正常/非特異）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "anti-nmda-encephalitis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1151,7 +1157,7 @@
       "id": "2016-032",
       "year": 2016,
       "number": 32,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Deep venous obstruction with cortical involvement is limited to the followings, except:",
       "options": [
@@ -1174,9 +1180,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Imaging of the Brain – Expert Radiology Series p.473",
+      "explanation": "深部靜脈系統（basal vein of Rosenthal 等）阻塞之皮質波及限於 limbic、visual、inferior frontal；**superior frontal 由淺部系統引流**，故為例外。\n\n(A) Limbic lobe：屬深部靜脈皮質範圍。\n(B) Visual cortex：屬深部靜脈皮質範圍（內側枕葉）。\n(C) Inferior frontal lobe：屬深部靜脈皮質範圍。\n(D) **Superior frontal lobe（正解＝例外）**：由淺部大腦靜脈引流（→上矢狀竇），非深部系統。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cerebral-deep-venous-cortex"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1186,7 +1194,7 @@
       "id": "2016-033",
       "year": 2016,
       "number": 33,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "The advantages of CT venography (CTV) includes the followings:",
       "options": [
@@ -1209,9 +1217,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Imaging of the Brain – Expert Radiology Series p.476",
+      "explanation": "CTV 相對 MRV 的三項優勢同時成立，故選「以上皆是」。\n\n(A) Better spatial resolution compared with MRV：正確。\n(B) No flow-related artifacts：正確（TOF-MRV 才有 flow-related 假影）。\n(C) CTV better depicts venous anatomy than time-of-flight MRV：正確。\n(D) **All of the above（正解）**：三項皆為 CTV 優勢。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ct-venography"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1221,7 +1231,7 @@
       "id": "2016-034",
       "year": 2016,
       "number": 34,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following synovial spaces may normally communicate with each other?",
       "options": [
@@ -1244,9 +1254,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: J Clin Imaging Sci. 2011;1:22",
+      "explanation": "正常可與關節相通的是**髖關節與 iliopsoas bursa**（約 15% 正常變異）。\n\n(A) Glenohumeral joint & subacromial bursa：正常不相通；相通代表旋轉肌袖全層撕裂。\n(B) Elbow joint & olecranon bursa：正常不相通（鷹嘴滑囊為皮下、獨立）。\n(C) **Hip joint & iliopsoas bursa（正解）**：約 15% 正常相通。\n(D) Knee joint & pes anserine bursa：正常不相通。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "synovial-bursa-communication"
+      ],
       "checked": false,
       "years": [
         2016
@@ -1256,7 +1268,7 @@
       "id": "2016-035",
       "year": 2016,
       "number": 35,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Concerning pars interarticularis defects, which of the following is TRUE?",
       "options": [
@@ -1279,9 +1291,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Skeletal Radiol. 2015 Apr 10. [Epub ahead of print]",
+      "explanation": "Pars defect：~90% 在 L5，伴隨的 spondylolisthesis 最常見於 **L5-S1**。\n\n(A) **Associated spondylolisthesis most common at L5-S1（正解＝真）**：好發 L5，故伴隨滑脫最常見於 L5-S1。\n(B) Symptomatic spondylolisthesis always associated：假（常無症狀）。\n(C) Usually an acute injury：假（多為慢性重複微創傷/疲勞骨折）。\n(D) MRI best for depicting extent of established defect：假（既成缺損範圍以 CT 最佳；MRI/SPECT 用於早期 stress response）。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "spondylolysis"
+      ],
       "checked": false,
       "years": [
         2016
