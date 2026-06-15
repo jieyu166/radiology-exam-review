@@ -38,6 +38,14 @@ dateRev: 2026-06-15
 > [!warning] 收斂前必問
 > **年齡**（年輕→Ewing；>40→轉移/骨髓瘤/chondrosarcoma）、**已知惡性病史**、**血清/尿 M-protein**（骨髓瘤）、**多發性**（骨骼調查/PET）、**CT matrix**。多數仍需切片。[^1]
 
+## 年齡分層鑑別（STATdx：Solitary Rib Lesion）
+**年齡是最關鍵的鑑別分水嶺。**[^5]
+| 族群 | 常見肋骨病灶 |
+| --- | --- |
+| **兒童** | fibrous dysplasia、Ewing sarcoma / **Askin tumor**、giant cell tumor、aneurysmal bone cyst、Langerhans cell histiocytosis、轉移（**neuroblastoma**）[^5] |
+| **成人** | **metastatic disease、multiple myeloma、chondrosarcoma**（本案 71 歲屬此）[^5] |
+> 多數所列病灶常為多發（polyostotic），但可單發於肋；**評估其他骨骼病灶**有助鑑別。[^5]
+
 ## 範例分析（左第 11 肋：expansile＋皮質破壞＋病理性骨折＋不均勻強化＋restricted diffusion）
 **病人：71 歲男性、切片確診 HCC、AFP 最高 750.9 ng/mL。** 在此臨床脈絡下，鑑別大幅收斂。
 - restricted diffusion（高細胞密度）＋**未見軟骨基質**＋**後外側下位肋**三點，**不典型於傳統 chondrosarcoma**；偏向轉移、漿細胞瘤/骨髓瘤、Ewing/PNET（年輕者）、淋巴瘤。[^2][^4]
@@ -50,6 +58,7 @@ dateRev: 2026-06-15
 [^2]: Nam JG, et al. *Imaging Evaluation of Malignant Chest Wall Neoplasms*. RadioGraphics. 2016;36(6):1285-1306. https://doi.org/10.1148/rg.2016150208 （全文已讀：>50% 胸壁腫瘤為惡性；CT 評骨、MRI 評軟組織；涵蓋 chondrosarcoma/Ewing/plasmacytoma/metastasis）（實際查證 accessed 2026-06-15）。
 [^3]: *Ewing sarcoma of the chest wall*. Radiopaedia.org。兒童與年輕成人；大型侵襲不均勻軟組織腫塊、強烈強化、鈣化少；Askin/pPNET 同家族（實際查證 accessed 2026-06-15）。
 [^4]: *Chondrosarcoma*. Radiopaedia.org。好發年長者；肋骨~8%、前肋/肋軟骨交界；ring-and-arc 軟骨基質、中央高含水→高 T2；低惡性度為低細胞/高含水（高 ADC）（實際查證 accessed 2026-06-15）。
+[^5]: Andrews CL, Manaster BJ, et al. *Solitary Rib Lesion*. STATdx（Musculoskeletal, DDx），updated 2024-02-06. Elsevier（年齡分層：兒童＝fibrous dysplasia/Ewing/Askin/GCT/ABC/LCH/neuroblastoma 轉移；成人＝metastatic disease/multiple myeloma/chondrosarcoma；多為 polyostotic 但可單發於肋）（實際查證 accessed 2026-06-15）。
 
 ## 題目
 > [!question]- 成人侵襲性肋骨腫瘤中，restricted diffusion（ADC 低）把鑑別推向哪些？反向不利於哪個？
