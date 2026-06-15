@@ -39,12 +39,14 @@ dateRev: 2026-06-15
 > **年齡**（年輕→Ewing；>40→轉移/骨髓瘤/chondrosarcoma）、**已知惡性病史**、**血清/尿 M-protein**（骨髓瘤）、**多發性**（骨骼調查/PET）、**CT matrix**。多數仍需切片。[^1]
 
 ## 範例分析（左第 11 肋：expansile＋皮質破壞＋病理性骨折＋不均勻強化＋restricted diffusion）
+**病人：71 歲男性、切片確診 HCC、AFP 最高 750.9 ng/mL。** 在此臨床脈絡下，鑑別大幅收斂。
 - restricted diffusion（高細胞密度）＋**未見軟骨基質**＋**後外側下位肋**三點，**不典型於傳統 chondrosarcoma**；偏向轉移、漿細胞瘤/骨髓瘤、Ewing/PNET（年輕者）、淋巴瘤。[^2][^4]
-- 膨脹性 remodeling 與漿細胞瘤/骨髓瘤、腎/甲狀腺轉移相符；皮質破壞＋病理性骨折＋壞死/囊變強化確立侵襲性。[^2]
-- **建議排序（成人）**：轉移 ≈ 漿細胞瘤/骨髓瘤 > Ewing/PNET（年輕則躍升）> 淋巴瘤 > chondrosarcoma（僅高惡性度/dedifferentiated 才考慮）。年齡與原發癌病史為關鍵分水嶺。[^1][^2]
+- **膨脹性（blow-out）＋富血管不均勻強化＋軟組織腫塊** 與 **HCC 骨轉移** 高度吻合（HCC 屬少數 blow-out 膨脹性轉移之一：RCC/thyroid/**HCC**/pheo/melanoma/gastric）。皮質破壞＋病理性骨折＋壞死/囊變強化確立侵襲性。[^2]
+- **本案首位診斷＝HCC 骨轉移**（71 歲、HCC、高 AFP；膨脹富血管溶骨灶＋restricted diffusion）→ 詳見 [[hcc-bone-metastasis]]；切片可確認。注意**骨掃描可能偽陰性**，靠 CT/MRI/PET-CT。
+- **一般成人排序（無已知原發時）**：轉移 ≈ 漿細胞瘤/骨髓瘤 > Ewing/PNET（年輕則躍升）> 淋巴瘤 > chondrosarcoma（僅高惡性度/dedifferentiated 才考慮）。年齡與原發癌病史為關鍵分水嶺。[^1][^2]
 
 ### 參考來源
-[^1]: Carter BW, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （依年齡/病史/位置/影像之系統性思路；**院內此次僅讀到摘要**，故僅引用摘要層級論點）。
+[^1]: Nam SJ, Kim S, Lim BJ, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （**全文已讀**，本機 PDF [[nam2011.pdf]]：系統性思路依年齡/病史/位置/影像；轉移為年長者最常見骨腫瘤；**無鈣化的侵襲性大腫塊→懷疑轉移或肉瘤**，有鈣化則想 osteosarcoma/chondrosarcoma；原發胸壁骨腫瘤約 95% 在肋骨、胸骨腫瘤多惡性、肋骨病灶良惡各半；Table 1 myeloma/met T1 iso-hypo、T2 hyper）。
 [^2]: Nam JG, et al. *Imaging Evaluation of Malignant Chest Wall Neoplasms*. RadioGraphics. 2016;36(6):1285-1306. https://doi.org/10.1148/rg.2016150208 （全文已讀：>50% 胸壁腫瘤為惡性；CT 評骨、MRI 評軟組織；涵蓋 chondrosarcoma/Ewing/plasmacytoma/metastasis）（實際查證 accessed 2026-06-15）。
 [^3]: *Ewing sarcoma of the chest wall*. Radiopaedia.org。兒童與年輕成人；大型侵襲不均勻軟組織腫塊、強烈強化、鈣化少；Askin/pPNET 同家族（實際查證 accessed 2026-06-15）。
 [^4]: *Chondrosarcoma*. Radiopaedia.org。好發年長者；肋骨~8%、前肋/肋軟骨交界；ring-and-arc 軟骨基質、中央高含水→高 T2；低惡性度為低細胞/高含水（高 ADC）（實際查證 accessed 2026-06-15）。
