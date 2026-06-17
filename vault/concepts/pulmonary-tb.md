@@ -83,6 +83,9 @@ same:
 > [!question]- 哪個 CT 所見對 postprimary TB（經氣道播散）近乎診斷性？
 > **Centrilobular nodules / tree-in-bud**；常伴上肺 **cavitation（厚不規則壁）**。[^1]
 
+> [!question]- 關於 primary pulmonary TB 的診斷,何者「非真」? (2016-203)
+> 「**影像異常在即時治療下常快速消退**」非真——primary TB 實質病灶**消退緩慢（數月至數年）、常留鈣化/疤痕（Ghon/Ranke）**。其餘為真：兒童淋巴結腫常見（右側/單側 >90%、>雙側）、胸水可單獨出現（無肺病灶）、成人淋巴結腫少見（除非免疫低下）。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-tb")

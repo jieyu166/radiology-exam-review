@@ -98,6 +98,9 @@ concepts: [smoke-lung]
 > [!question]- EVALI 的 CT 為何常見 subpleural sparing？與何者相似但不同？
 > EVALI 多為 organizing pneumonia / DAD 樣，centrilobular 結節反映氣道中心傷害，常見 subpleural sparing；影像似 hypersensitivity pneumonitis 但非。[^1]
 
+> [!question]- 何種病造成『中下肺野為主』的融合性毛玻璃（GGO）? (2016-205)
+> **Desquamative interstitial pneumonia（DIP，現稱 AMP）**——吸菸相關，**下肺/周邊為主的瀰漫融合 GGO**。chronic HP（上中肺、馬賽克/air trapping）、respiratory bronchiolitis（上肺 centrilobular 結節）、chronic eosinophilic pneumonia（上肺周邊 consolidation）分布不同。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "smoke-lung")

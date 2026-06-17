@@ -7441,6 +7441,191 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-202",
+      "year": 2016,
+      "number": 202,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements best describes **air trapping**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lobules of air trapping are a common finding in healthy patients."
+        },
+        {
+          "letter": "B",
+          "text": "The presence of any degree of air trapping signifies clinically significant disease."
+        },
+        {
+          "letter": "C",
+          "text": "Air trapping is less common in smokers."
+        },
+        {
+          "letter": "D",
+          "text": "Air trapping tends to decrease with age."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia: air trapping（實際查證 2026-06-18）",
+      "explanation": "正解 **A**。\n- **A（正解）**：**小葉狀 air trapping 在健康人常見**（limited extent ~50% 胸部 CT、隨年齡增加、吸菸者更多）。\n- B 錯：輕度（<25% 肺實質）可無臨床意義。\n- C 錯：吸菸者**更常見**（非更少）。\n- D 錯：**隨年齡增加**（非減少）。\n\n→ [[air-trapping]]",
+      "images": [],
+      "concepts": [
+        "air-trapping"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-203",
+      "year": 2016,
+      "number": 203,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement is **not** true in the diagnosis of primary pulmonary tuberculosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiographic abnormalities in primary tuberculosis infections often resolve quickly under prompt treatment."
+        },
+        {
+          "letter": "B",
+          "text": "Lymphadenopathy commonly occurs in children with primary tuberculosis infection. Unilateral lymphadenopathy is more often seen than bilateral disease."
+        },
+        {
+          "letter": "C",
+          "text": "Pleural effusion may be seen without lung disease."
+        },
+        {
+          "letter": "D",
+          "text": "Lymphadenopathy is uncommon in adults unless they are immunocompromised."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia: tuberculosis (pulmonary manifestations)（實際查證 2026-06-18）",
+      "explanation": "正解 **A**（非真）。\n- **A（正解，非真）**：primary TB 影像異常**消退緩慢（數月至數年），常留鈣化/疤痕（Ghon/Ranke）**，並非快速消退。\n- B 真：兒童淋巴結腫常見、右側/單側 >雙側（childhood >90%）。\n- C 真：胸水可單獨出現（無肺病灶）。\n- D 真：成人淋巴結腫少見（除非免疫低下）。\n\n→ [[pulmonary-tb]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-tb"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-204",
+      "year": 2016,
+      "number": 204,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following diseases tends to cause large regional areas of mosaic attenuation that conform to vascular territories?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chronic thromboembolic pulmonary hypertension (CTEPH)."
+        },
+        {
+          "letter": "B",
+          "text": "Idiopathic PAH."
+        },
+        {
+          "letter": "C",
+          "text": "PVOD."
+        },
+        {
+          "letter": "D",
+          "text": "Mitral stenosis."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Ridge et al. Mosaic Attenuation. RadioGraphics 2015;35(5):1360-1380（題目所引）；Radiopaedia: mosaic attenuation（實際查證 2026-06-18）",
+      "explanation": "正解 **A（CTEPH）**。**CTEPH 因大（節段/葉）肺動脈慢性栓塞，造成大範圍、區域性、符合血管領域（vascular territory）的 mosaic perfusion**。\n- B idiopathic PAH、C PVOD、D mitral stenosis 屬小血管/後微血管，較均勻/瀰漫，非territory mosaic。\n\n→ [[mosaic-attenuation]]",
+      "images": [],
+      "concepts": [
+        "mosaic-attenuation"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-205",
+      "year": 2016,
+      "number": 205,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following diseases causes confluent areas of ground-glass opacity that tends to be mid and lower lung predominant?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chronic hypersensitivity pneumonitis."
+        },
+        {
+          "letter": "B",
+          "text": "Respiratory bronchiolitis."
+        },
+        {
+          "letter": "C",
+          "text": "Desquamative interstitial pneumonia."
+        },
+        {
+          "letter": "D",
+          "text": "Chronic eosinophilic pneumonia."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Ridge et al. Mosaic Attenuation. RadioGraphics 2015;35(5):1360-1380（題目所引）",
+      "explanation": "正解 **C（DIP）**。**Desquamative interstitial pneumonia（DIP，現稱 AMP）為吸菸相關，造成下肺/周邊為主的瀰漫融合 GGO**。\n- A chronic HP（上中肺、馬賽克/air trapping）、B respiratory bronchiolitis（上肺 centrilobular 結節）、D chronic eosinophilic pneumonia（上肺周邊 consolidation）分布不同。\n\n→ [[smoke-lung]]",
+      "images": [],
+      "concepts": [
+        "smoke-lung"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-206",
+      "year": 2016,
+      "number": 206,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "The acronym \"FAST\" stands for Focused Assessment with Sonography for:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Technicians"
+        },
+        {
+          "letter": "B",
+          "text": "The abdomen"
+        },
+        {
+          "letter": "C",
+          "text": "Trauma"
+        },
+        {
+          "letter": "D",
+          "text": "Tendons"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "FAST 定義（Focused Assessment with Sonography for Trauma）",
+      "explanation": "正解 **C（Trauma）**。**FAST＝Focused Assessment with Sonography for Trauma**——創傷快速超音波,偵測 4 腔隙游離液體（肝腎間隙、脾腎間隙、骨盆/膀胱後、心包）。\n\n→ [[fast-exam]]",
+      "images": [],
+      "concepts": [
+        "fast-exam"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
