@@ -2162,24 +2162,24 @@
       "options": [
         {
           "letter": "A",
-          "text": "5 cm"
+          "text": "4.5 cm"
         },
         {
           "letter": "B",
-          "text": "0 cm"
+          "text": "5.0 cm"
         },
         {
           "letter": "C",
-          "text": "5 cm"
+          "text": "5.5 cm"
         },
         {
           "letter": "D",
-          "text": "0 cm"
+          "text": "6.0 cm"
         }
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "特發性升主動脈瘤的手術閾值約 **5.5 cm**(ACC/AHA；Radiopaedia：5–6 cm 通常考慮介入)。\n\n（註：本題選項在資料庫中小數遺失，正確應為 4.5 / 5.0 / 5.5 / 6.0 cm，正解 5.5 cm）\n(A) ~4.5 cm：偏低(接受其他心臟手術或極高風險時才用)。\n(B) ~5.0 cm：Marfan/二葉式主動脈瓣等高風險族群門檻。\n(C) **~5.5 cm（正解）**：特發性/退化性升主動脈瘤標準手術閾值。\n(D) ~6.0 cm：偏高。",
+      "explanation": "依 ACC/AHA 胸主動脈疾病指引，**特發性（sporadic/退化性）升主動脈瘤的預防性手術門檻為 5.5 cm**（2010 ACCF/AHA/AATS 與 2022 ACC/AHA 一致；2022 指引並指出在有經驗的多專科團隊中心可下修至 5.0 cm）。\n\n（註：本題選項原為 4.5 / 5.0 / 5.5 / 6.0 cm，資料庫匯入時小數遺失，已還原。）\n(A) 4.5 cm：偏低（僅用於接受其他心臟手術、或極高風險族群）。\n(B) 5.0 cm：Marfan/二葉式主動脈瓣等高風險族群、或有經驗中心之下修門檻。\n(C) **5.5 cm（正解）**：特發性/退化性升主動脈瘤之標準手術門檻。\n(D) 6.0 cm：高於指引門檻。",
       "images": [],
       "concepts": [
         "ascending-aortic-aneurysm"
