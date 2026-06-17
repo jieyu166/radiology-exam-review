@@ -12,6 +12,8 @@ aliases:
 dateRev: 2026-06-14
 same:
   - "[[septic-pulmonary-emboli]]"
+  - "[[ntm]]"
+  - "[[tree-in-bud]]"
 ---
 
 # pulmonary-tb
@@ -24,6 +26,9 @@ same:
 - **Centrilobular nodules / tree-in-bud**（經氣道播散）**近乎診斷性**，見於 postprimary。[^1]
 - **Primary 的淋巴結**可為**唯一**所見（尤其兒童）：低密度（壞死）中心、環狀強化。[^1][^2]
 - **報告/防疫提醒**：上肺**空洞性肺炎**應積極排除 TB、隔離病人直到排除。[^1]
+
+> [!note] 活動性（active）vs 陳舊（healed）徵象
+> **偏活動性**：**tree-in-bud / centrilobular nodules（endobronchial spread）、空洞、consolidation、低密度淋巴結、miliary** → 提示傳染性、需痰 AFB/培養與隔離。**偏陳舊/不活動**：鈣化結節或淋巴結、纖維化條索、容積減少、牽引性支氣管擴張（無 tree-in-bud）。**單次影像不能確定活性**,須臨床＋痰菌＋追蹤;tree-in-bud 的廣泛 DDx 見 [[tree-in-bud]]、慢性 RML/lingula 支氣管擴張+結節想 [[ntm]]。[^1]
 
 ## Primary TB
 - 族群：兒童、免疫低下（低盛行區也見於成人）。[^1][^2]
