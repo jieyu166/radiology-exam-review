@@ -1250,14 +1250,14 @@
           "text": "Mediastinal lymphadenopathy"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "C",
       "reference": "",
-      "explanation": "⚠️ **官方答案 B（Cysts）,但醫學上有疑義**：瀰漫薄壁囊腫正是 LAM 的標誌性(~100%)發現,不應視為「不常見」。pneumothorax(~36%)、chylothorax(10–20%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆為已知表現;若選真正最少見者應為 mediastinal lymphadenopathy。**建議醫師覆核答案鍵。**\n\n→ [[lam]]",
+      "explanation": "正解 **C**（經查證修正;原官方答案 B 有誤）。LAM 的五個選項皆為已知影像表現,但**囊腫(cysts)是標誌性、近乎 100% 的最常見發現**,故 B 不可能是「不常見」者。依頻率,**chylothorax(~10–20%)為選項中最不常見**;pneumothorax(~36%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆較常見。（Radiopaedia: Lymphangioleiomyomatosis 實際查證 2026-06-18）\n\n→ [[lam]]",
       "images": [],
       "concepts": [
         "lam"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-035",

@@ -49,7 +49,7 @@ same:
 > 育齡女性；合併腎 AML、乳糜胸、反覆氣胸；分 sporadic 與 TSC 相關。**非吸菸相關**。[^1]
 
 > [!question]- 以下何者「非」LAM 常見影像表現? (2017-034)
-> ⚠️ **官方答案 B（Cysts）,但此答案醫學上有疑義**——**瀰漫薄壁囊腫正是 LAM 的標誌性(~100%)發現**,不應視為「不常見」。其餘 pneumothorax(~36%)、chylothorax(10–20%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆為已知表現;若要選真正最少見者應為 **mediastinal lymphadenopathy**。本題建議醫師覆核答案鍵。[^1]
+> **C（chylothorax）**——經查證修正（原官方答案 B 有誤）。LAM 五個選項皆為已知影像表現,但**囊腫(cysts)是標誌性、近乎 100% 的最常見發現**,故 B 不可能是「不常見」者;依頻率 **chylothorax(~10–20%)為選項中最不常見**,pneumothorax(~36%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆較常見。[^1]
 
 ## 考題
 ```dataview
