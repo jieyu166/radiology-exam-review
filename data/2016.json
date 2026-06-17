@@ -4092,7 +4092,7 @@
       "id": "2016-111",
       "year": 2016,
       "number": 111,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "下列何種疾病最不會以 cavitary lung nodule 來表現？",
       "options": [
@@ -4114,10 +4114,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Radiology review manual 6th ed. P.428",
+      "reference": "Radiopaedia: pulmonary cavity / Pneumocystis pneumonia（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（最不會空洞）。\n- A 對：squamous cell carcinoma 是肺癌中最易**空洞**者。\n- B 對：GPA（Wegener）多發結節常空洞。\n- D 對：septic pulmonary emboli 周邊/下肺、厚壁空洞。\n- **C（正解）**：**PCP** 以毛玻璃/薄壁囊腔為主，**最不會以空洞性結節表現**。\n\n→ [[cavitary-lung-nodule]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cavitary-lung-nodule"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4127,7 +4129,7 @@
       "id": "2016-112",
       "year": 2016,
       "number": 112,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which one of the followings is least likely to cause beading or irregular thickening of interlobular septa in lung HRCT ?",
       "options": [
@@ -4149,10 +4151,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Chest Radiology, The Essentials, 2nd edition, by Collins J and Stern EJ. Page 27",
+      "reference": "Radiopaedia: interlobular septal thickening（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（最不會 beading/不規則）。\n- A/B/D（sarcoidosis、lymphoma、amyloidosis）皆可造成**結節/串珠型**間隔增厚。\n- **C（正解）**：**pulmonary edema** 屬**平滑型**，最不會 beading。\n\n→ [[interlobular-septal-thickening]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "interlobular-septal-thickening"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4162,7 +4166,7 @@
       "id": "2016-113",
       "year": 2016,
       "number": 113,
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "關於肺結節病(pulmonary sarcoidosis)的縱膈腔淋巴結腫大有所謂的 Garland's triad (1-2-3 sign)，其中”不包含”下列何處的淋巴結?",
       "options": [
@@ -4184,10 +4188,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Thoracic sarcoidosis : The spectrum of roentgenologic appearances. Indian J Radiol Imaging 2001;11:191-8.",
+      "reference": "Radiopaedia: Garland triad（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（不含左 paratracheal）。Garland triad（1-2-3 sign）＝**雙側肺門（A 左、C 右）+ 右 paratracheal（D）**。\n- **B（正解）**：**左 paratracheal 不在三角內**（左縱膈常被大血管遮蔽而隱匿）。\n\n→ [[pulmonary-sarcoidosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-sarcoidosis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4197,7 +4203,7 @@
       "id": "2016-114",
       "year": 2016,
       "number": 114,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following pulse sequence is most suitable when imaging the presence of myocardial scars during cardiac MR?",
       "options": [
@@ -4219,10 +4225,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Ref: Diagnostic imaging Cardiovascular 2nd edition, Section Intro: Cardiac MR: Acquisition and Imaging Protocols",
+      "reference": "Radiopaedia: myocardial viability protocol (MRI)（實際查證 2026-06-17）",
+      "explanation": "正解 **A（LGE）**。\n- **A（正解）**：**Late gadolinium enhancement** 評估心肌**疤痕/壞死（viability）**，疤痕延遲滯留釓呈高訊號。\n- B resting perfusion＝灌流；C cine＝室壁運動/功能；D phase contrast＝流速。\n\n→ [[cardiac-mri-lge]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mri-lge"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4232,7 +4240,7 @@
       "id": "2016-115",
       "year": 2016,
       "number": 115,
-      "subspecialty": "Unknown",
+      "subspecialty": "Breast",
       "subspecialty_confidence": "auto",
       "questionText": "Which one of the following descriptions about benign cystic lesions of the breast is not true?",
       "options": [
@@ -4254,10 +4262,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Breast Imaging Expert radiology p239-247",
+      "reference": "Radiopaedia: galactocele（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（非真）。\n- A 對：表皮包涵囊腫源自毛囊**漏斗部**阻塞。\n- **B（正解，非真）**：galactocele 的 **fat-fluid level 需水平射束的側位（ML/MLO）才顯現**，非 **CC view**。\n- C 對：乳管擴張為主乳管非特異擴張。\n- D 對：非增生性纖維囊性變化不增乳癌風險。\n\n→ [[breast-cystic-lesions]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-cystic-lesions"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4267,7 +4277,7 @@
       "id": "2016-116",
       "year": 2016,
       "number": 116,
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "一般乳房攝影(mammogram, four view)之有效劑量(effective radiation dose)為何?",
       "options": [
@@ -4289,10 +4299,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: American College of Radiology (ACR) and the Radiological Society of North America (RSNA)",
+      "reference": "MSD Manual Typical Radiation Doses (本於 Mettler 2008 Radiology doi:10.1148/radiol.2481071451)（實際查證 2026-06-17）",
+      "explanation": "正解 **C（0.7 mSv）**。一般乳房攝影（4-view）有效劑量約 **0.4–0.7 mSv**（數位每次 ~0.2 mSv）。\n\n⚠️ 原選項顯示 007/07/7/7 係**小數點遺失**，應為 **0.007 / 0.07 / 0.7 / 7 mSv**，正解 C＝0.7。\n\n→ [[radiation-dose-reference]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-dose-reference"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4302,7 +4314,7 @@
       "id": "2016-117",
       "year": 2016,
       "number": 117,
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "請問下列何種檢查發生比劑過敏之可能性(probability or risk)最高？",
       "options": [
@@ -4320,10 +4332,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "中華民國放射線醫學會對比劑指引；Radiopaedia NSF（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（過敏可能性最高）。\n- **A（正解）**：**靜脈注射含碘對比劑之 CT** 急性類過敏反應率最高。\n- B 靜脈釓（MRI）反應率約碘劑 1/10 或更低。\n- C 膀胱攝影、D 雙重對比下消化道鋇劑：腔內、幾無全身吸收，過敏風險最低。\n\n→ [[contrast-media-safety]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4333,7 +4347,7 @@
       "id": "2016-118",
       "year": 2016,
       "number": 118,
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following answer is correct for the definition of acute adverse reaction to iodine-based contrast medium? Acute <1hr Late 1hr~1wk Very late >1wk",
       "options": [
@@ -4355,10 +4369,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: ESUR contrast medium guideline version 8.1, 2014",
+      "reference": "中華民國放射線醫學會對比劑指引（實際查證 2026-06-17）",
+      "explanation": "正解 **B（1 小時內）**。含碘對比劑**立即性（acute）不良反應**定義為施打後**1 小時內**發生（late＝1 小時～1 週）。\n\n→ [[contrast-media-safety]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4368,7 +4384,7 @@
       "id": "2016-119",
       "year": 2016,
       "number": 119,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which one of the following imaging modality has the highest sensitivity (detection rate) for ureteral calculi?",
       "options": [
@@ -4390,10 +4406,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Dalla Palma L, et al. Eur Radiol 2001;11(1):4-17.",
+      "reference": "Radiopaedia: urolithiasis（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（敏感度最高）。\n- **C（正解）**：**非顯影螺旋 CT（unenhanced helical CT）** 為參考標準、敏感度最高，已取代 IVU。\n- A IVU 已被 CT 取代；B 超音波敏感度低（~24%）；D KUB 漏掉透 X 光結石。\n\n→ [[ureteral-calculi-imaging]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ureteral-calculi-imaging"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4403,7 +4421,7 @@
       "id": "2016-120",
       "year": 2016,
       "number": 120,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which one is the most correct among all of the following descriptions for acute pyelonephritis?",
       "options": [
@@ -4425,10 +4443,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Textbook of uroradiology, 4th edition, page 168",
+      "reference": "Radiopaedia: acute pyelonephritis（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（最正確）。\n- A 錯：影像多正常，**僅約 25% 異常**（非 3/4 異常）。\n- B 錯：CT 評估範圍/併發症**優於** US。\n- **C（正解）**：**非顯影 CT 呈正常或僅腎腫大**；診斷性所見（striated nephrogram、楔形低強化）需顯影。\n\n→ [[acute-pyelonephritis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-pyelonephritis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4438,7 +4458,7 @@
       "id": "2016-121",
       "year": 2016,
       "number": 121,
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "下列四種放射診療檢查中，何者可能對於病人造成最高之有效劑量 (effective dose)?",
       "options": [
@@ -4460,10 +4480,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott Williams & Wilkins, 2011. p.399",
+      "reference": "MSD Manual Typical Radiation Doses (本於 Mettler 2008)（實際查證 2026-06-17）",
+      "explanation": "正解 **C（鋇劑灌腸）**。四者有效劑量：**鋇劑灌腸 ~6–8 mSv** > 頭部CT ~2 > 全脊椎X光 ~1.5 > 骨盆X光 ~0.6 mSv。\n- **C（正解）**：特殊攝影之**鋇劑灌腸**劑量最高。\n\n→ [[radiation-dose-reference]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-dose-reference"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4476,7 +4498,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following statement about fatty liver is incorrect?",
       "options": [
@@ -4498,10 +4520,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: RadioGraphics 2006; 26:1637–1653",
+      "reference": "Radiopaedia: steatotic liver disease（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（錯誤敘述）。\n- A 對：嚴重脂肪肝可致肝硬化。\n- B 對：肝衰減較脾低 ≥10 HU（或 <40 HU）可診斷。\n- C 對：局部脂肪沉積/spared 好發特定區（膽囊旁、葉裂旁、門脈周圍）。\n- **D（正解，錯）**：**多灶性脂肪沉積可被「誤認為」低血管轉移**（mimic、不易區別），並非「可區別」。\n\n→ [[fatty-liver]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fatty-liver"
+      ],
       "checked": false
     },
     {
@@ -4511,7 +4535,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "The relative liver/gallbladder bile signal intensity ratio may be significantly ___ on T1-weighted sequences in patients with chronic choleystitis or normal status.",
       "options": [
@@ -4533,10 +4557,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Biliary Tract Radiology, p.67",
+      "reference": "RadioGraphics 2008 MR of the Gallbladder (doi:10.1148/rg.281065183)（實際查證 2026-06-17）",
+      "explanation": "正解 **B（decreased）**。膽汁 T1 訊號 正比於 濃度；慢性膽囊炎/膽石症膽汁**滯留、濃縮、sludge↑** → 膽囊膽汁 T1 訊號**增高（變亮）** → **肝/膽囊膽汁訊號比值顯著『下降』**。\n\n→ [[chronic-cholecystitis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "chronic-cholecystitis"
+      ],
       "checked": false
     },
     {
@@ -4546,7 +4572,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following description about colon volvulus is incorrect?",
       "options": [
@@ -4568,10 +4594,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Ref: Diagnostic imaging: Abdomen (2004) I-5-62~63.",
+      "reference": "Radiopaedia: sigmoid volvulus / cecal volvulus（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（錯誤敘述）。\n- **A（正解，錯）**：**sigmoid（乙狀結腸）才是最常見（~60%）**，非 cecal。\n- B 對：cecal volvulus 呈腎形/coffee-bean 充氣盲腸。\n- C 對：sigmoid 巨大迴圈投射過橫結腸（northern exposure）。\n- D 對：結腸扭轉好發老年，兒童罕見。\n\n→ [[colon-volvulus]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "colon-volvulus"
+      ],
       "checked": false
     },
     {
@@ -4581,7 +4609,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "About desmoid, which one is false ? benign, non-inflammatory fibroblastic tumours Local recurrence, invasion, not meta APC gene 5q",
       "options": [
@@ -4603,10 +4631,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: DIAGNOSTIC IMAGING ABDOMEN I-1 56",
+      "reference": "Radiopaedia: desmoid tumor（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（為假）。\n- A 對：纖維增生似疤痕組織。\n- B 對：介於修復與惡性之間（locally aggressive、不轉移）。\n- C 對：APC 基因（5q）體細胞突變。\n- **D（正解，假）**：desmoid 緻密膠原→**質硬（rock-hard）、對經皮切片有抵抗**，故「不會 rock-hard」為假。\n\n→ [[desmoid-tumor]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "desmoid-tumor"
+      ],
       "checked": false
     },
     {
@@ -4616,7 +4646,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "“Dual rim sign” on SWI is most likely seen in (A)Glioblastoma",
       "options": [
@@ -4634,10 +4664,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: AJNR Am J Neuroradiol 2012; 33:1534-8",
+      "reference": "Radiopaedia: dual rim sign (brain abscess)（實際查證 2026-06-17）",
+      "explanation": "正解 **B（Brain abscess）**。**Dual rim sign（雙環）** 於 SWI/T2/FLAIR 見兩同心環（外低/內相對高訊號），約見於 **75%** 腦膿瘍，助與 GBM 區別。\n\n→ [[brain-abscess]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "brain-abscess"
+      ],
       "checked": false
     },
     {
@@ -4647,7 +4679,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "有關 Dural sinus thrombosis 敘述，下列何者有誤? (A)Some cases can show ”empty delta” sign on contrast-enhanced CT and MRI",
       "options": [
@@ -4665,10 +4697,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Diagnostic Imaging: Brain. Page: I-4-96~98.",
+      "reference": "Radiopaedia: cerebral venous thrombosis（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（有誤）。\n- A 對：顯影可見 empty delta sign。\n- B 對：急性血栓 T2 低訊號，可模擬正常竇 flow void。\n- **C（正解，有誤）**：血栓 DWI 訊號**多變、並非所有血栓都在 DWI 上可見**（「may demonstrate diffusion restriction」）。\n- D 對：橫竇是常見 hypoplastic 變異區，可模擬血栓。\n\n→ [[dural-venous-sinus-thrombosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "dural-venous-sinus-thrombosis"
+      ],
       "checked": false
     },
     {
@@ -4678,7 +4712,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "以下哪個心臟疾病不是造成腦部缺血性中風的原因?",
       "options": [
@@ -4700,10 +4734,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: NEJM, 373 (12), 1154-64, 2015",
+      "reference": "Radiopaedia: TOAST classification / ARVC（實際查證 2026-06-17）",
+      "explanation": "正解 **C（ARVD）**。\n- A 急性心肌梗塞（左室附壁血栓）、B 心房顫動（左房血栓）、D 感染性心內膜炎（左側贅生物）皆為**心源性腦栓塞來源**。\n- **C（正解）**：**ARVD/ARVC** 為右室心律不整/猝死，栓子源右心→肺，**非腦缺血中風來源**。\n\n→ [[cardioembolic-stroke]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardioembolic-stroke"
+      ],
       "checked": false
     },
     {
@@ -4713,7 +4749,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "PED",
       "subspecialty_confidence": "auto",
       "questionText": "What is the most common cancer of a large pleural fluid collection in the newborn period ?",
       "options": [
@@ -4735,10 +4771,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Imaging of the Newborn Ⅱ edition 2011, p.55",
+      "reference": "Radiopaedia: chylothorax（實際查證 2026-06-17）",
+      "explanation": "正解 **D（Chylothorax）**。**乳糜胸是新生兒期最常見的大量胸腔積液原因**（胸管淋巴外漏，新生兒以特發性/隱源性最常見）。\n\n→ [[neonatal-chylothorax]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neonatal-chylothorax"
+      ],
       "checked": false
     },
     {
@@ -4748,7 +4786,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "PED",
       "subspecialty_confidence": "auto",
       "questionText": "About the characteristics of congenital cystic adenoid malformation, which of the following statement is wrong one ?",
       "options": [
@@ -4770,10 +4808,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Primer of diagnostic imaging pediatric imaging p.852",
+      "reference": "Radiopaedia: congenital pulmonary airway malformation（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（錯誤敘述）。\n- A 對：肺的錯構瘤樣畸形。\n- B 對：多單側、侵犯單一肺葉。\n- C 對：microcystic 型（III）小囊、超音波呈實質樣。\n- **D（正解，錯）**：**Type I 為大囊（2–10 cm）、最常見（70%）、預後佳**，非「<2 cm」（<2cm 是 type II）。\n\n→ [[ccam]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ccam"
+      ],
       "checked": false
     },
     {

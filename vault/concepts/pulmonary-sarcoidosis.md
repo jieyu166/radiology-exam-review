@@ -33,7 +33,8 @@ dateRev: 2026-06-14
 
 ## 影像診斷（胸部）
 ### 淋巴結
-雙側肺門 + 右側 paratracheal、**對稱**腫大（「1-2-3 / Garland 三角」、lambda sign）；可蛋殼鈣化。[^1]
+雙側肺門 + 右側 paratracheal、**對稱**腫大（「1-2-3 / Garland 三角」、lambda sign）；可蛋殼鈣化。[^1][^3]
+**Garland triad（1-2-3 sign / pawnbroker's sign）＝雙側（左+右）肺門 + 右 paratracheal 淋巴結**；**不含左 paratracheal**（左縱膈淋巴結常被大血管遮蔽、X 光上隱匿）。故 2016-113 正解 B（左 paratracheal 非三角組成）。[^3]
 
 ### 肺實質（HRCT）
 - **Perilymphatic 微結節**（peribronchovascular、subpleural、沿葉間裂呈串珠狀）——最典型。[^2]
@@ -68,6 +69,7 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: Federle MP. *Sarcoidosis*. STATdx（Dx），updated 2025-06-11. Elsevier（實際查證 accessed 2026-06-14；noncaseating granuloma、雙側肺門淋巴結）。
 [^2]: Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512 （實際查證 accessed 2026-06-14）。
+[^3]: *Garland triad*. Radiopaedia.org（實際查證 accessed 2026-06-17）：Garland triad＝1-2-3 sign / pawnbroker's sign，**對稱性肺門 + 右 paratracheal 淋巴結腫**；CT 時代雙側肺門+縱膈腫大為常規，**左縱膈淋巴結 X 光上常被大血管遮蔽而隱匿**。
 
 ## 題目
 > [!question]- Sarcoidosis 的肉芽腫是乾酪性還是非乾酪性？與何病關鍵區別？
@@ -81,6 +83,9 @@ dateRev: 2026-06-14
 
 > [!question]- Sarcoidosis 肺實質病灶的分布與結節分布型態？
 > **上中肺野為主**；結節呈 **perilymphatic**（peribronchovascular、subpleural、沿葉間裂）。[^2]
+
+> [!question]- Garland triad（1-2-3 sign）包含哪些淋巴結？不含何處？
+> 含**雙側肺門 + 右 paratracheal**；**不含左 paratracheal**（左縱膈常被大血管遮蔽而隱匿）。[^3]
 
 ## 考題
 ```dataview
