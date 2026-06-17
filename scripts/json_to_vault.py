@@ -290,11 +290,13 @@ def write_file(path: Path, content: str, force: bool) -> str:
 def write_obsidian_config(force: bool) -> None:
     """寫最小 .obsidian 設定：SR flashcard tag = #交換，並標記啟用 SR/Dataview。
 
-    僅寫設定，不安裝外掛（外掛檔需使用者自行安裝）。既有設定預設不覆寫。
+    僅寫設定，不安裝外掛（外掛檔需使用者自行安裝）。
+    **只在檔案不存在時建立一次，絕不覆寫**——即使 --force 也不動使用者在 Obsidian
+    調整過的外掛設定（force 參數於此刻意忽略，保留簽名相容）。
     """
     sr_dir = VAULT_DIR / ".obsidian" / "plugins" / "obsidian-spaced-repetition"
     sr_data = sr_dir / "data.json"
-    if not sr_data.exists() or force:
+    if not sr_data.exists():
         sr_dir.mkdir(parents=True, exist_ok=True)
         sr_data.write_text(
             json.dumps({"flashcardTags": [FLASHCARD_TAG]}, ensure_ascii=False, indent=2) + "\n",
@@ -302,7 +304,7 @@ def write_obsidian_config(force: bool) -> None:
         )
 
     community = VAULT_DIR / ".obsidian" / "community-plugins.json"
-    if not community.exists() or force:
+    if not community.exists():
         community.parent.mkdir(parents=True, exist_ok=True)
         community.write_text(
             json.dumps(["obsidian-spaced-repetition", "dataview"], ensure_ascii=False, indent=2) + "\n",
