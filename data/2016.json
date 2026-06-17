@@ -5531,7 +5531,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "plaque?",
       "options": [
@@ -5553,10 +5553,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Page 52",
+      "reference": "Radiopaedia: Agatston score（實際查證 2026-06-17）；Cardiac CT: A Problem-Based Approach",
+      "explanation": "正解 **B（>130 HU 且 1 mm²）**。Agatston 鈣化定義門檻＝**衰減 ≥130 HU 且面積 ≥1 mm²**（密度係數 130-199=1、200-299=2…）。\n\n→ [[calcium-score]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "calcium-score"
+      ],
       "checked": false
     },
     {
@@ -5588,10 +5590,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "DBT看鈣化沒比較好",
+      "reference": "Radiopaedia: digital breast tomosynthesis（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（有誤）。DBT 強項＝architectural distortion(A)、確認 asymmetry(B)、one-view 病灶定位(C)。\n- **D（正解，有誤）**：「薄切片使 DBT 對微鈣化『更佳』」錯——薄切片反把鈣化分散到多層,微鈣化形態/分布評估不優於 2D。\n\n→ [[breast-tomosynthesis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
       "checked": false
     },
     {
@@ -5623,10 +5627,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "根據[[Digital Breast Tomosynthesis -  Technique and Common Artifacts#增加掃描角度 Sweep Angle]]的說明，sweep angle越小，microcalcification越好看。傳統FFDM可當作sweep angle=0，DBT反而不好看。",
+      "reference": "Radiopaedia: digital breast tomosynthesis（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（錯誤）。A 篩檢 recall↓~40%、C 病灶/結構扭曲更顯、D 減少額外影像皆對。\n- **B（正解，錯）**：「DBT 對微鈣化的『形態與分布』更佳」錯——微鈣化評估仍以 2D/放大為準。\n\n→ [[breast-tomosynthesis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
       "checked": false
     },
     {
@@ -5658,10 +5664,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "~~rare~~ 容易復發",
+      "reference": "Radiopaedia: phyllodes tumor（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（為非）。A 典型大而快速生長、C well-circumscribed、D 似 fibroadenoma 皆對。\n- **B（正解，為非）**：「局部復發很罕見」錯——phyllodes **未廣泛切除易復發**,5-25% 惡性變。\n\n→ [[phyllodes-tumor]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "phyllodes-tumor"
+      ],
       "checked": false
     },
     {
@@ -5694,10 +5702,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "(DI: GYN) 可以有 wall enhancement，但如果出現 enhancing mural nodule 要考慮 malignant transformation",
+      "reference": "Radiopaedia: endometrioma（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（非典型）。endometrioma＝T1 高(A)、T2 低 shading(B)。\n- **C（正解，非典型）**：「post-contrast hypervascular」非典型——endometrioma **無內部強化**；強化壁結節要警惕惡性變。\n\n→ [[endometrioma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "endometrioma"
+      ],
       "checked": false
     },
     {
@@ -5730,10 +5740,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: adenomyomatosis of the gallbladder（實際查證 2026-06-17）",
+      "explanation": "正解 **D**。A 瀰漫壁增厚、B 局部壁增厚、C comet-tail（RAS 內結晶）**皆為典型**超音波所見 → 故「何者『非』典型」答 **D（以上皆典型）**。\n\n→ [[gallbladder-adenomyomatosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gallbladder-adenomyomatosis"
+      ],
       "checked": false
     },
     {
@@ -5765,10 +5777,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: acute pancreatitis (revised Atlanta)（實際查證 2026-06-17）",
+      "explanation": "正解 **D（WON）**。Revised Atlanta：壞死型積液 **>4 週包覆＝WON（walled-off necrosis）**。pseudocyst(C) 是間質水腫型的非壞死積液 >4 週才稱。\n\n→ [[pancreatitis-severity]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatitis-severity"
+      ],
       "checked": false
     },
     {
@@ -5801,10 +5815,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "The original CT severity index has a number of limitations:\n- complications like organ failure, do not correlate well with the score given by original CTSI\n- interobserver variability with original CTSI can result in different scores for the same patient\n- patients with >30% necrosis have similar morbidity and mortality\n- Modified CTSI才看pleural effusion",
+      "reference": "Radiopaedia: CT severity index in acute pancreatitis（實際查證 2026-06-17）",
+      "explanation": "正解 **D（pleural effusion）**。原始 CTSI＝**Balthazar 分級(A-E)＋壞死%**；peripancreatic stranding(A)、necrosis%(B)、胰腫大/輪廓(C) 皆屬之。\n- **D（正解）**：**pleural effusion 不在原始 CTSI**（屬 modified CTSI 2004 的 extrapancreatic complications）。\n\n→ [[pancreatitis-severity]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatitis-severity"
+      ],
       "checked": false
     },
     {
@@ -5836,10 +5852,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: PI-RADS（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（不含）。mpMRI＝**T2W ＋ DWI(含 ADC) ＋ DCE**（A/B/D 皆屬之）。\n- **C（正解）**：**opposed-phase（化學位移）image 不屬 mpMRI**。\n\n→ [[prostate-mpmri]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "prostate-mpmri"
+      ],
       "checked": false
     },
     {
@@ -5871,10 +5889,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "上面影像敘述沒提到血管的問題。\nA. typical. B. 腎臟nonfunction. D. Stage 2.",
+      "reference": "Radiopaedia: xanthogranulomatous pyelonephritis（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（不屬）。XGP 典型＝staghorn 結石(A)、不顯影/排泄減少(B)、腎周延伸(D)。\n- **C（正解，不屬）**：**pseudoaneurysms 不是 XGP 特徵**。\n\n→ [[xanthogranulomatous-pyelonephritis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "xanthogranulomatous-pyelonephritis"
+      ],
       "checked": false
     },
     {
@@ -5906,10 +5926,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "最常見的致病菌是Proteus和 E. coli. Proteus可能略多，考這可能太細。\nB.  E coli, Klebsiella pneumonia, and Proteus mirabilis 最常見(Radiopaedia)\nC. 最常見是E. coli 其他還有TB, Enterococcus, Proteus spp., Schistosomiasis等等(Radiopaedia)\nD. 在Urotract常見致病菌是E. coli or Proteus (Radiopaedia)",
+      "reference": "Radiopaedia: XGP（實際查證 2026-06-17）",
+      "explanation": "正解 **A（XGP）**。問「皆 E. coli 除外」。\n- **A（正解）**：**XGP 經典為 Proteus mirabilis**（產 urease→struvite 結石）。\n- B emphysematous pyelonephritis、C pyeloureteritis cystica、D malakoplakia 多為 E. coli。\n\n→ [[xanthogranulomatous-pyelonephritis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "xanthogranulomatous-pyelonephritis"
+      ],
       "checked": false
     },
     {
@@ -5919,7 +5941,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "CH",
+      "subspecialty": "NR",
       "subspecialty_confidence": "manual",
       "questionText": "About the imaging features of multifocal angioinvasive aspergillosis in an immunocompromised patient, which of the followings is **false**?",
       "options": [
@@ -5941,10 +5963,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "MRI: reduced diffusion and weak ring enhancement.\n- Angioinvasive aspergillosis: multifocal hemorrhagic lesions with reduced diffusion.\n- Cryptococcosi: gelatinous pseudocyst formation in the basal ganglia.\n- Mucormycosis: frontal lesions with markedly reduced diffusion.\n- Candidiasis: microabscesses of less than 3 mm\n- Coccidioidomycosis: meningitis with contrast enhancement of the basal cisterns.\n- Blastomycosis and histoplasmosis: parenchymal abscesses or meningitis",
+      "reference": "Radiopaedia: CNS aspergillosis（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（為假）。免疫低下腦部麴菌症：B 異質擴散受限、C 周邊 ring-like 擴散受限、D 周邊 T2 低訊號皆對。\n- **A（正解，為假）**：「多發結節合併強烈環狀強化」假——免疫低下宿主**強化微弱/不規則**（強環較像化膿性膿瘍）。\n\n→ [[angioinvasive-aspergillosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "angioinvasive-aspergillosis"
+      ],
       "checked": false
     },
     {
@@ -5976,10 +6000,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "(A) no LAM (B) no subpleural sparing; diffuse; child bearing woman  (C) Young adult(20-40 yr) (D) no subpleural sparing (Basal, subpleural predominant).\n![ADD ILD](data/images/obsidian/add-ild-45cd2031.png)",
+      "reference": "Radiopaedia: pulmonary Langerhans cell histiocytosis（實際查證 2026-06-17）",
+      "explanation": "正解 **C**。\n- **C（正解）**：「上中肺野結節＋囊腫、subpleural sparing」是 **PLCH** 的特徵。\n- A 吸菸與 LAM 無關（PLCH 才吸菸相關）；B LAM 為瀰漫均勻囊腫、無 subpleural sparing；D 下肺蜂窩是 UIP/IPF。\n\n→ [[plch]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "plch"
+      ],
       "checked": false
     },
     {
@@ -6011,10 +6037,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Intralobar回流至PV，Extralobar回到systematic veins。\nA. 不同書寫的比例不同。如果是Radiology review manual是80%\nB. Intralobar 男女相同，Extralobar M/F=4/1",
+      "reference": "Radiopaedia: pulmonary sequestration (extralobar)（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（為錯）。extralobar：A 左下葉~90%、B 男性多、C 體循環動脈供血皆對。\n- **D（正解，為錯）**：「靜脈引流入肺靜脈」錯——extralobar 經典**引流入體循環靜脈（azygos/IVC 等）**；intralobar 才入肺靜脈。\n\n→ [[pulmonary-sequestration]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-sequestration"
+      ],
       "checked": false
     },
     {
@@ -6024,7 +6052,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "About rhinocerebral mucormycosis, which of the following descriptions is **false**?",
       "options": [
@@ -6050,10 +6078,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": ": Variable T2(20% high); iso T1\nT1: isointense lesions relative to brain in most cases (~80%)\nT2: fungal elements themselves tend to have low signal on T2\n       variable with around 20% of patients showing high T2 signal\nT1 C+ (Gd): the devitalised mucosa appears non-enhancing tissue, leading to he black turbinate sign\n- **A) TRUE** — 搜尋資料明確指出 ROCM 好發於糖尿病控制不佳及免疫抑制患者。\n- **B) TRUE** — PMC 文獻描述 Mucorales 造成 necrotizing vasculitis，經顱底孔道及裂隙迅速擴散至深部面部、眼眶及腦部。\n- **C) TRUE** — 影像文獻記載顯影模式多變，從均勻顯影、不均勻顯影到完全不顯影（壞死組織）皆可出現。\n- **D) ❌ FALSE** — 這是本題的錯誤選項。根據搜尋資料，ROCM 病灶在 **T1WI 多呈等訊號（80%）**，而 **T2WI 傾向等訊號至低訊號**（僅 20% 呈高訊號）。T2 低訊號是因為真菌菌絲含有順磁性物質（鐵、錳），這恰好與一般感染性病灶的 T2 高訊號相反，是重要的鑑別線索。選項描述的「T2 hyperintense, T1 hypointense」是典型發炎/水腫的訊號特徵，並非 mucormycosis 的特點。\n- **E) TRUE** — 真菌的血管侵襲性造成血管血栓，可導致腦梗塞，文獻中有明確記載。",
+      "reference": "Radiopaedia: sinonasal mucormycosis（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（為假）。A 糖尿病/免疫低下、B 侵血管壞死延伸、C 強化多變、E 可致腦梗塞皆對。\n- **D（正解，為假）**：「T2 傾向高訊號」假——T2 **多變、多數非高訊號（僅~20% 高）**，真菌元素傾向低訊號。\n\n→ [[mucormycosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mucormycosis"
+      ],
       "checked": false
     },
     {
@@ -6085,10 +6115,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "A. 最常見是retinoblastoma。Hemangioblastoma（retinal capillary hemangioblastoma）與 von Hippel-Lindau disease 相關是正確的\nB. **正確**。單側快速進展的 proptosis 必須先考慮 rhabdomyosarcoma。\nC.  **正確**。Retinoblastoma 30-40%是雙側。遺傳型多為雙側且多焦點。\nD. **正確**。Leukocoria 出現在約三分之二的 retinoblastoma 患者中，是最常見的臨床表現。",
+      "reference": "Radiopaedia: retinoblastoma（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（錯誤）。\n- **A（正解，錯）**：「hemangioblastoma 是兒童最常見視網膜腫瘤」錯——**retinoblastoma 才是兒童最常見眼內腫瘤**。\n- B 鑑別多、C 兒童眼球鈣化→retinoblastoma、D leukocoria 表現皆對。\n\n→ [[retinoblastoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "retinoblastoma"
+      ],
       "checked": false
     },
     {
@@ -6120,10 +6152,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Musculoskeletal Image 2nd edition, Chapter 73, p.870.e16.",
+      "reference": "Radiopaedia: hemophilic arthropathy（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（為非）。A 髁間窩變寬、C 方形髕骨、D 距骨塌陷(似 Charcot) 皆典型。\n- **B（正解，為非）**：「肱骨頭增大＋osteophytes」非——肩部最少受累且血友病關節病變不形成骨刺。\n\n→ [[hemophilic-arthropathy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemophilic-arthropathy"
+      ],
       "checked": false
     },
     {
@@ -6155,10 +6189,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "~~Caudal~~**Cranial** migration",
+      "reference": "Radiopaedia: rheumatoid arthritis (MSK manifestations)（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（非常見）。B apophyseal 融合、C 寰樞前脫位、D 齒突侵蝕皆常見。\n- **A（正解，非常見）**：「C2 向尾側(caudal)移位」非——RA 為 **C2『頭側(cranial)』移位（cranial settling/basilar invagination）**。\n\n→ [[ra-cervical-spine]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ra-cervical-spine"
+      ],
       "checked": false
     },
     {
@@ -6190,10 +6226,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "**hairpin**. Coathook configuration是指anterior radiculomedullary **vein**, anterior spinal vein之間的夾角。不過影像不容易區分A/V只能看大小。",
+      "reference": "Radiopaedia: artery of Adamkiewicz（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（錯誤）。A 主要前段髓質動脈、C 升降支至前脊髓動脈、D 左側 T9-T12 為主皆對。\n- **B（正解，錯）**：「coathook configuration」錯——特徵為 **hairpin（髮夾）轉折**。\n\n→ [[artery-of-adamkiewicz]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "artery-of-adamkiewicz"
+      ],
       "checked": false
     },
     {
@@ -6225,10 +6263,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "No difference was found between the contrast enhancement of cavernomas and AVMs.",
+      "reference": "Radiopaedia: cerebral cavernous malformation（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（為錯）。A 混雜訊號+周邊含鐵血黃素低訊號、B 少水腫(除非近期出血)、C 合併 DVA 皆對。\n- **D（正解，為錯）**：「Never shows enhancement（從不強化）」錯——cavernoma 為 **minimal or no enhancement（微弱/無）**，並非絕對不強化。\n\n→ [[cerebral-cavernous-malformation]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cerebral-cavernous-malformation"
+      ],
       "checked": false
     },
     {
