@@ -5500,8 +5500,12 @@
       ],
       "subspecialty": "CV",
       "subspecialty_confidence": "auto",
-      "questionText": "be improved by the following reconstruction and post-processing techniques: 1. Smooth kernel and narrow window",
+      "questionText": "The diagnostic quality of a cardiac CTA with dense calcification can be improved by the following reconstruction and post-processing techniques:",
       "options": [
+        {
+          "letter": "A",
+          "text": "Smooth kernel and narrow window"
+        },
         {
           "letter": "B",
           "text": "Sharp kernel and narrow window"
@@ -5512,17 +5516,17 @@
         },
         {
           "letter": "D",
-          "text": "Smooth kernel and wider window Cardiac Computed Tomography Problem-Based Learning Page 28"
+          "text": "Smooth kernel and wider window"
         }
       ],
       "correctAnswer": "C",
-      "reference": "Cardiac CT: A Problem-Based Approach（題目所引）；標準心臟 CT 後處理教學",
-      "explanation": "正解 **C（Sharp kernel + wider window）**。評估鈣化斑塊/支架內管腔：**銳利（高解析）kernel** 減少鈣/支架部分容積、**較寬 window** 縮小高密度 blooming → 利於看管腔。\n\n→ [[ccta]]",
+      "reference": "Radiopaedia: coronary stent（dedicated/sharp kernel 較 soft kernel 更能區分 in-stent lumen，實際查證 2026-06-17）；Cardiac CT: A Problem-Based Approach（題目所引）",
+      "explanation": "正解 **C（Sharp kernel + wider window）**。評估鈣化斑塊/支架內管腔：**dedicated/sharp（高解析）kernel** 較 soft kernel **減少模糊、更能區分 in-stent lumen 與 struts**（Radiopaedia 實際查證）；**較寬 window** 縮小高密度鈣/支架的 blooming → 利於看管腔。\n\n→ [[ccta]]",
       "images": [],
       "concepts": [
         "ccta"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-151",
@@ -7289,6 +7293,117 @@
         "proton-density-mri"
       ],
       "checked": false
+    },
+    {
+      "id": "2016-198",
+      "year": 2016,
+      "number": 198,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is **TRUE** concerning papillary necrosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common etiologies are analgesics, diabetes mellitus, and sickle cell anemia."
+        },
+        {
+          "letter": "B",
+          "text": "Conventional radiographs usually show characteristic calcification."
+        },
+        {
+          "letter": "C",
+          "text": "Approximately 90% of patients with sickle cell disease develop papillary necrosis."
+        },
+        {
+          "letter": "D",
+          "text": "Medullary type papillary necrosis is associated with an absence of the entire papilla."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Dunnick et al. Textbook of Uroradiology, 3rd ed., pp.299-302；Radiopaedia: renal papillary necrosis（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（為真）。\n- **A（正解，為真）**：papillary necrosis 病因記憶法 **NSAID**——NSAIDs、Sickle cell anemia、Analgesic nephropathy、Infection（含 TB）、Diabetes mellitus。\n- B 錯：平片**通常正常**；壞死時可有不規則鈣化（2-6mm）或滯留脫落乳頭之環狀鈣化，但非「特徵性鈣化」。\n- C 錯：約 **up to 50%**（非 90%）鐮型球患者發生乳頭壞死。\n- D 錯：**medullary 型＝乳頭『中央』侵蝕**；整顆乳頭脫落是 papillary（total）型。\n\n→ [[papillary-necrosis]]",
+      "images": [],
+      "concepts": [
+        "papillary-necrosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-199",
+      "year": 2016,
+      "number": 199,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements about 2011 classification of the spectrum of adenocarcinoma of the lung is true except for?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Focal interstitial fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma in situ (AIS)"
+        },
+        {
+          "letter": "C",
+          "text": "Minimally invasive adenocarcinoma (MIA)"
+        },
+        {
+          "letter": "D",
+          "text": "Atypical adenomatous hyperplasia (AAH)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "IASLC/ATS/ERS 2011 肺腺癌分類；Radiopaedia: lung adenocarcinoma（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（不屬 2011 分類）。2011 IASLC 肺腺癌譜系＝**AAH → AIS → MIA → invasive adenocarcinoma**。\n- **A（正解）**：**Focal interstitial fibrosis（局部間質纖維化）非腫瘤性、不屬 2011 腺癌分類**。\n- B AIS、C MIA、D AAH 皆為 2011 分類中的（前）侵犯性類別。\n\n→ [[lung-cancer]]",
+      "images": [],
+      "concepts": [
+        "lung-cancer"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-200",
+      "year": 2016,
+      "number": 200,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Based on current recommendations, what is the stent size below which CT should not be considered for stent patency assessment?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "< 2 mm"
+        },
+        {
+          "letter": "B",
+          "text": "< 2.5 mm"
+        },
+        {
+          "letter": "C",
+          "text": "< 3 mm"
+        },
+        {
+          "letter": "D",
+          "text": "< 3.5 mm"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "SCCT 2021 Expert Consensus on CCTA；冠狀動脈支架 CT 文獻（實際查證 2026-06-17）",
+      "explanation": "正解 **C（< 3 mm）**。SCCT 共識與文獻：**支架直徑 <3 mm 顯著降低 CT 對 in-stent restenosis 的準確度/敏感度**（≤3mm ~54% vs >3mm ~86%），小支架臨床評估不建議；CT 評估理想對象為**直徑 ≥3 mm 與近端節段**支架。\n\n→ [[ccta]]",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }

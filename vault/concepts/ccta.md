@@ -53,7 +53,8 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 ### 參考來源
 [^1]: Budoff MJ, Dowe D, Jollis JG, et al. *Diagnostic Performance of 64-Multidetector Row Coronary CT Angiography... ACCURACY Trial*. J Am Coll Cardiol. 2008;52(21):1724-32. https://doi.org/10.1016/j.jacc.2008.07.031 （PubMed PMID 19007693；NCT00348569；實際查證 accessed 2026-06-14）。
 [^2]: Canan A, Ranganath P, Goerne H, Abbara S, Landeras L, Rajiah P. *CAD-RADS: Pushing the Limits*. RadioGraphics. 2020;40(3). https://doi.org/10.1148/rg.2020190164 （實際查證 accessed 2026-06-14）。
-[^3]: 評估鈣化斑塊/支架內管腔以 **sharp kernel ＋ wider window** 減少 blooming／部分容積，為標準心臟 CT 後處理教學（題目所引 *Cardiac Computed Tomography: A Problem-Based Approach*）。
+[^3]: *Coronary stent*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「step-and-shoot acquisition 與**dedicated（sharp）kernel** 較 helical retrospective + **soft kernel** 產生**較少模糊、能更好區分 in-stent lumen 與 struts**」——佐證「sharp kernel」改善管腔判讀；**wider window** 縮小高密度鈣/支架的 blooming 為標準 WL/WW 視窗物理（題目所引 *Cardiac Computed Tomography: A Problem-Based Approach*）。
+[^4]: SCCT 2021 Expert Consensus on CCTA（J Cardiovasc Comput Tomogr）與相關文獻（實際查證 accessed 2026-06-17，WebSearch）：**支架直徑 <3 mm 顯著降低 CT 對 in-stent restenosis 的準確度/敏感度（≤3mm ~54% vs >3mm ~86%）；小支架臨床評估不建議**，理想對象為直徑 ≥3 mm 與近端節段支架。
 
 ## 題目
 > [!question]- ACCURACY trial 對 64-MDCT CCTA 偵測 ≥70% 冠狀動脈狹窄的主要發現為何？
@@ -66,7 +67,10 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 > Calcium score >400（重度鈣化的 blooming artifact 增加偽陽性）；而肥胖與心率高低則無顯著影響。[^1]
 
 > [!question]- 評估鈣化斑塊/支架內管腔，哪種重建與後處理可改善？(2016-150)
-> **Sharp（高空間解析）kernel ＋ 較寬（wider）window**——銳利 kernel 提升空間解析、減少鈣/支架部分容積；加寬 window 縮小高密度鈣/支架的 blooming，利於看管腔。（標準心臟 CT 教學，*Cardiac CT: A Problem-Based Approach*）[^3]
+> **Sharp（高空間解析）kernel ＋ 較寬（wider）window**——dedicated/sharp kernel 較 soft kernel **減少模糊、更能區分 in-stent lumen 與 struts**（Radiopaedia 實際查證）；加寬 window 縮小高密度鈣/支架的 blooming，利於看管腔。[^3]
+
+> [!question]- 支架小於多少 mm 時，CT『不』建議用於評估支架通暢？(2016-200)
+> **< 3 mm**。SCCT 共識/文獻：支架 **<3 mm CT 對 in-stent restenosis 敏感度顯著下降（≤3mm ~54% vs >3mm ~86%）**，小支架臨床評估不建議；理想對象為 **≥3 mm、近端節段**支架。[^4]
 
 ## 考題
 ```dataview
