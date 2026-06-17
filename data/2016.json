@@ -5306,20 +5306,20 @@
       "options": [
         {
           "letter": "B",
-          "text": "1 Gy •"
+          "text": "1 Gy"
         },
         {
           "letter": "C",
-          "text": "25 Gy •"
+          "text": "25 Gy"
         },
         {
           "letter": "D",
-          "text": "1 Gy •"
+          "text": "0.1 Gy"
         }
       ],
       "correctAnswer": "B",
       "reference": "Radiopaedia: acute radiation syndrome（實際查證 2026-06-17）",
-      "explanation": "正解 **B（1 Gy）**。急性放射症候群（ARS）>0.5 Gy 可發生，**多數族群在 ~1 Gy** 出現效應（造血型 1–8 Gy）。\n\n（原選項 B、D 皆顯示 1 Gy；正解為 1 Gy。）\n\n→ [[radiation-deterministic-effects]]",
+      "explanation": "正解 **B（1 Gy）**。急性放射症候群（ARS）>0.5 Gy 可發生，**多數族群在 ~1 Gy** 出現效應（造血型 1–8 Gy）。\n- A 10 Gy、C 25 Gy 過高；D 0.1 Gy 過低。\n\n→ [[radiation-deterministic-effects]]",
       "images": [],
       "concepts": [
         "radiation-deterministic-effects"
@@ -5438,20 +5438,20 @@
       "options": [
         {
           "letter": "B",
-          "text": "10 Gy •"
+          "text": "10 Gy"
         },
         {
           "letter": "C",
-          "text": "1 Gy •"
+          "text": "0.1 Gy"
         },
         {
           "letter": "D",
-          "text": "6 Gy •"
+          "text": "6 Gy"
         }
       ],
       "correctAnswer": "D",
       "reference": "Radiopaedia: deterministic effects（實際查證 2026-06-17）",
-      "explanation": "正解 **D（6 Gy）**。男性單次急性照射**永久不孕閾值 ~4–6 Gy**（暫時不孕 ~0.15 Gy、白內障 ~0.5 Gy）。\n\n（原選項 A、C 皆顯示 1 Gy；正解為 6 Gy。）\n\n→ [[radiation-deterministic-effects]]",
+      "explanation": "正解 **D（6 Gy）**。男性單次急性照射**永久不孕閾值 ~4–6 Gy**。\n- A 1 Gy、C 0.1 Gy 過低（0.1 Gy 約暫時不孕）；B 10 Gy 偏高。\n- **D 6 Gy** 符合永久不孕閾值。\n\n→ [[radiation-deterministic-effects]]",
       "images": [],
       "concepts": [
         "radiation-deterministic-effects"
