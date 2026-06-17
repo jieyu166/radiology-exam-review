@@ -7,6 +7,8 @@ aliases:
   - 冠狀動脈 CT 血管攝影
 dateRev: 2026-06-14
 concepts: [ccta]
+same:
+  - "[[calcium-score]]"
 ---
 
 # ccta

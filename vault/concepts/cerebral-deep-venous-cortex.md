@@ -8,6 +8,8 @@ aliases:
   - deep venous thrombosis cortex
   - 深部腦靜脈皮質範圍
 dateRev: 2026-06-15
+same:
+  - "[[ct-venography]]"
 ---
 
 # cerebral-deep-venous-cortex

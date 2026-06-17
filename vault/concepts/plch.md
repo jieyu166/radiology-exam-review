@@ -8,6 +8,8 @@ aliases:
   - 肺朗格漢斯細胞組織增生症
 dateRev: 2026-06-14
 concepts: [plch]
+same:
+  - "[[lam]]"
 ---
 
 # plch

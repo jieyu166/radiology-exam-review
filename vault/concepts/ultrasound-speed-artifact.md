@@ -8,6 +8,9 @@ aliases:
   - speed propagation artifact
   - 傳播速度假影
 dateRev: 2026-06-15
+same:
+  - "[[ultrasound-attenuation]]"
+  - "[[ultrasound-prf-depth]]"
 ---
 
 # ultrasound-speed-artifact

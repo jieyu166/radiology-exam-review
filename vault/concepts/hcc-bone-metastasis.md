@@ -9,6 +9,9 @@ aliases:
   - 肝癌骨轉移
 dateRev: 2026-06-15
 up: "[[rib-tumor]]"
+same:
+  - "[[bclc-hcc]]"
+  - "[[infiltrative-hcc]]"
 ---
 
 # hcc-bone-metastasis

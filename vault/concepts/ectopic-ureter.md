@@ -8,6 +8,8 @@ aliases:
   - Weigert-Meyer rule
   - 異位輸尿管
 dateRev: 2026-06-15
+same:
+  - "[[ureteral-filling-defect]]"
 ---
 
 # ectopic-ureter

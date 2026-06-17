@@ -9,6 +9,8 @@ aliases:
   - central scar
   - 局灶性結節增生
 dateRev: 2026-06-15
+same:
+  - "[[hepatic-hemangioma]]"
 ---
 
 # fnh

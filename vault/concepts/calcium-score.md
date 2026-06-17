@@ -8,6 +8,8 @@ aliases:
   - 冠狀動脈鈣化分數
 dateRev: 2026-06-14
 concepts: [calcium-score]
+same:
+  - "[[ccta]]"
 ---
 
 # calcium-score

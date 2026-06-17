@@ -7,6 +7,8 @@ aliases:
   - ureteric filling defect
   - 輸尿管充盈缺損
 dateRev: 2026-06-15
+same:
+  - "[[ectopic-ureter]]"
 ---
 
 # ureteral-filling-defect

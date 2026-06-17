@@ -8,6 +8,9 @@ aliases:
   - acoustic attenuation
   - 超音波衰減
 dateRev: 2026-06-14
+same:
+  - "[[ultrasound-prf-depth]]"
+  - "[[ultrasound-speed-artifact]]"
 ---
 
 # ultrasound-attenuation

@@ -7,6 +7,7 @@ aliases:
   - cardiac papillary fibroelastoma
   - 乳突狀纖維彈性瘤
 dateRev: 2026-06-15
+up: "[[cardiac-tumors]]"
 ---
 
 # papillary-fibroelastoma

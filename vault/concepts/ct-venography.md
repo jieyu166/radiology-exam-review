@@ -8,6 +8,8 @@ aliases:
   - CTV vs MRV
   - 電腦斷層靜脈攝影
 dateRev: 2026-06-15
+same:
+  - "[[cerebral-deep-venous-cortex]]"
 ---
 
 # ct-venography

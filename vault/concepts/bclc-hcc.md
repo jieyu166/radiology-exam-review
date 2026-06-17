@@ -8,6 +8,9 @@ aliases:
   - HCC treatment staging
   - 肝癌BCLC分期
 dateRev: 2026-06-16
+same:
+  - "[[infiltrative-hcc]]"
+  - "[[hcc-bone-metastasis]]"
 ---
 
 # bclc-hcc

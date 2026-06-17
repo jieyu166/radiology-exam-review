@@ -8,6 +8,8 @@ aliases:
   - most common cardiac tumor
   - 心臟腫瘤
 dateRev: 2026-06-15
+down:
+  - "[[papillary-fibroelastoma]]"
 ---
 
 # cardiac-tumors

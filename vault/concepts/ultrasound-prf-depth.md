@@ -8,6 +8,9 @@ aliases:
   - imaging depth PRF
   - 脈衝重複頻率
 dateRev: 2026-06-15
+same:
+  - "[[ultrasound-attenuation]]"
+  - "[[ultrasound-speed-artifact]]"
 ---
 
 # ultrasound-prf-depth

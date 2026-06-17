@@ -7,6 +7,8 @@ aliases:
   - 淋巴管平滑肌增生症
 dateRev: 2026-06-14
 concepts: [lam]
+same:
+  - "[[plch]]"
 ---
 
 # lam

@@ -8,6 +8,9 @@ aliases:
   - cirrhotomimetic HCC
   - 浸潤型肝細胞癌
 dateRev: 2026-06-15
+same:
+  - "[[bclc-hcc]]"
+  - "[[hcc-bone-metastasis]]"
 ---
 
 # infiltrative-hcc

@@ -7,6 +7,8 @@ aliases:
   - liver hemangioma ultrasound
   - 肝血管瘤
 dateRev: 2026-06-15
+same:
+  - "[[fnh]]"
 ---
 
 # hepatic-hemangioma
