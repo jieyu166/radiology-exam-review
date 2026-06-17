@@ -346,9 +346,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "luteal phase",
+      "explanation": "正解 **B**（錯誤）。**BPE 在黃體期(luteal)最明顯**,非 follicular phase。BPE 與纖維腺體量不必然相關(A)、年輕緻密乳房較易顯 BPE(C)、隨時間 progressive(D)皆正確。\n\n→ [[breast-mri-bpe]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
       "checked": false
     },
     {
@@ -381,9 +383,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "跟gland數量，density沒有correlation。而B也有錯，應該是第二周(7-14天)\nA.  正確，跟血流供應有關。UOQ, inferior可能會先顯影。C. 正確。",
+      "explanation": "正解 **D**（非真）。**BPE 與 mammographic density 不必然相關**（非成正比）;extremely dense 可僅輕微 BPE。BPE 始於周邊(A)、雙側相似強化偏良性(C)皆真。（註：B「第 3 週」亦有爭議——最佳排程為第 2 週/7–14 天;官方標準答案取 D。）\n\n→ [[breast-mri-bpe]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
       "checked": false
     },
     {
@@ -421,9 +425,11 @@
       ],
       "correctAnswer": "E",
       "reference": "",
-      "explanation": "- Focus (formerly defined as <5 mm): enhancement too small to be characterised, should be considered as BPE if symmetric and multiple\n- Pre-contrast high signal in ducts on T1WI: may be blood or fat",
+      "explanation": "正解 **E**（none of the above）。A–D 皆正確：focus 可良可惡(A)、被不強化實質分隔的多發 foci 視為 BPE 型態(B)、benign 形態不強化腫塊近乎良性(C)、T1WI precontrast 管內高訊號為良性(D)。\n\n→ [[breast-mri-bpe]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
       "checked": false
     },
     {
@@ -461,9 +467,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "信號強度下降超過**10%**。",
+      "explanation": "正解 **B**（錯誤）。**washout 定義為峰後訊號下降『>10%』**,非 >20%。峰值 2–3 分(A)、washout 惡性常見(C)、plateau 良惡皆可(D)、choline 升高＝細胞增生(E)皆正確。\n\n→ [[breast-mri-kinetics]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
       "checked": false
     },
     {
@@ -496,9 +504,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "A. 解答：higher rate of palpable invasive CA in p’t with implants. 但根據 Aesthet Surg J. 2015 Jan;35(1):55-62. 這篇meta-analysis，目前implant沒有證據會增加breast cancer risk。\nB. (DI: breast) tends to later stage 但有爭議。因為有mass可能比較好摸。\nC. (DI: breast) Irregular mass, developing asymmetry. DCIS可能有Suspicious calcifications,\nD. (DI: breast) 33% 會沿著capsule走。25%會在pectoralis旁。",
+      "explanation": "正解 **A**（非）。隆乳婦女因植入物降低乳攝敏感度,偵測到的癌**多為『可觸及』**,並非有更高比例的『不可觸及』浸潤癌。分期與篩檢族群相近(B)、多為不規則非清楚邊界強化腫塊(C)、subglandular 易沿輪廓擴散(D)皆正確。\n\n→ [[breast-cancer-implants]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-cancer-implants"
+      ],
       "checked": false
     },
     {
@@ -531,9 +541,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "~~鈣化~~ **spiculated mass lesion** (most common)\n- asymmetrical densities (3-25%)\n- architectural distortions (10-25%)\n- mammographically occult or benign (16%)\n- microcalcifications (<10%)\nD. more commonly seen on the craniocaudal (CC), compared to the mediolateral oblique (MLO)",
+      "explanation": "正解 **C**（非）。**ILC 微鈣化少見(<10%)、非特徵**,以 spiculated mass／架構扭曲／不對稱密度為主。占乳癌 ~10%(A)、單列(single-file)生長(B)、常僅單一投影可見(D)皆正確。\n\n→ [[invasive-lobular-carcinoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
+      ],
       "checked": false
     },
     {
@@ -566,9 +578,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "rapidly enlarging是其特徵。US典型表現是A solid mass containing single or multiple, round or cleft like cystic spaces and demonstrating posterior acoustic enhancement。但其實無法和FA區分。",
+      "explanation": "正解 **A**。**Phyllodes tumor**——40 歲、快速增大、大而多分葉,US 為實心含裂隙狀(cleft-like)囊腔、後方回音增強。adenoid cystic carcinoma、melanoma metastasis、fibromatosis 較不符。\n\n→ [[phyllodes-tumor]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "phyllodes-tumor"
+      ],
       "checked": false
     },
     {
@@ -601,9 +615,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Fat :24-26; gradular:27-31kvp",
+      "explanation": "正解 **D**（不正確）。乳攝用**低 kVp(25–35)**,「銠 80–100 kVp」錯誤。MGD ~2 mGy(A)、薄乳劑量低(B)、Mo/Mo 最常用(C)皆正確。\n\n→ [[mammography-physics]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mammography-physics"
+      ],
       "checked": false
     },
     {
@@ -636,9 +652,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "~~1.4~~應為2.\nThe limiting spatial resolution of digital mammography systems is less (5–10 lp/mm), due to pixelization of the image by the digital image receptor.\nIn digital, a “line” is 1 pixel width, and a line pair is 2 pixels.",
+      "explanation": "正解 **A**（不正確）。乳房置於焦點與接收器**正中間**時 SOD＝SID/2 → **放大率＝2**（非 1.4）。0.1 mm 像素 ~5 lp/mm(B)、放大用小焦點 0.1 mm(C)、MLO 源在內上接收器在外下(D)皆正確。\n\n→ [[mammography-physics]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mammography-physics"
+      ],
       "checked": false
     },
     {

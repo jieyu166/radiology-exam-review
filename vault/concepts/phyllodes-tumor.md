@@ -29,6 +29,9 @@ dateRev: 2026-06-17
 > [!question]- 關於乳房 phyllodes tumor,何者「為非」?
 > 「**局部復發很罕見**」為非——未廣泛切除易復發、5–25% 惡性變。大而快速生長、well-circumscribed、似 fibroadenoma 皆對。[^1]
 
+> [!question]- 40 歲、快速增大左乳大腫塊,乳攝 7 cm 多分葉,US 實心含裂隙狀(cleft-like)囊腔、後方回音增強,最可能? (2017-015)
+> **Phyllodes tumor**——典型 US 為**實心腫塊含單/多個圓形或裂隙狀(cleft-like)囊腔、後方回音增強**;快速增大、大而多分葉為其特徵。adenoid cystic carcinoma、melanoma metastasis、fibromatosis 較不符。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "phyllodes-tumor")
