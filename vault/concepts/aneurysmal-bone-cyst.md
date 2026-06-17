@@ -8,6 +8,7 @@ aliases:
   - fluid-fluid level
   - 動脈瘤樣骨囊腫
 dateRev: 2026-06-15
+up: "[[rib-tumor]]"
 ---
 
 # aneurysmal-bone-cyst

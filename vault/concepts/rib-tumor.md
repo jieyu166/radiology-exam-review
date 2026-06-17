@@ -8,6 +8,11 @@ aliases:
   - chest wall tumor differential
   - 肋骨腫瘤鑑別
 dateRev: 2026-06-15
+down:
+  - "[[hcc-bone-metastasis]]"
+  - "[[fibrous-dysplasia]]"
+  - "[[aneurysmal-bone-cyst]]"
+  - "[[langerhans-cell-histiocytosis]]"
 ---
 
 # rib-tumor

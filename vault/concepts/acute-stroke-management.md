@@ -8,6 +8,8 @@ aliases:
   - thrombectomy stroke
   - 急性缺血中風血管內治療
 dateRev: 2026-06-15
+down:
+  - "[[aspects-score]]"
 ---
 
 # acute-stroke-management

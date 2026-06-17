@@ -8,6 +8,8 @@ aliases:
   - feeding vessel sign
   - 敗血性肺栓塞
 dateRev: 2026-06-15
+same:
+  - "[[pulmonary-tb]]"
 ---
 
 # septic-pulmonary-emboli

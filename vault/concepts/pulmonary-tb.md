@@ -10,6 +10,8 @@ aliases:
   - reactivation TB
   - 肺結核
 dateRev: 2026-06-14
+same:
+  - "[[septic-pulmonary-emboli]]"
 ---
 
 # pulmonary-tb

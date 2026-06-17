@@ -9,6 +9,7 @@ aliases:
   - histiocytosis X
   - 蘭格漢細胞組織球增生症
 dateRev: 2026-06-15
+up: "[[rib-tumor]]"
 ---
 
 # langerhans-cell-histiocytosis

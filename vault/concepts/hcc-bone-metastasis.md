@@ -8,6 +8,7 @@ aliases:
   - blow-out metastasis
   - 肝癌骨轉移
 dateRev: 2026-06-15
+up: "[[rib-tumor]]"
 ---
 
 # hcc-bone-metastasis

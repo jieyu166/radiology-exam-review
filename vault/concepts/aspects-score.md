@@ -7,6 +7,7 @@ aliases:
   - Alberta Stroke Program Early CT Score
   - 早期缺血 CT 評分
 dateRev: 2026-06-15
+up: "[[acute-stroke-management]]"
 ---
 
 # aspects-score

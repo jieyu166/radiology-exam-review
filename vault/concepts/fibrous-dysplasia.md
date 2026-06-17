@@ -7,6 +7,7 @@ aliases:
   - ground-glass matrix
   - 纖維性發育不良
 dateRev: 2026-06-15
+up: "[[rib-tumor]]"
 ---
 
 # fibrous-dysplasia
