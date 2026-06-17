@@ -1034,48 +1034,13 @@
       "checked": false
     },
     {
-      "id": "2017-028",
-      "year": 2017,
-      "number": 28,
-      "years": [
-        2017
-      ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
-      "questionText": "Which statement is **wrong** about septic pulmonary emboli? [[Pulmonary embolism]]",
-      "options": [
-        {
-          "letter": "A",
-          "text": "cavitation happens frequently"
-        },
-        {
-          "letter": "B",
-          "text": "migratory infiltrates is typical"
-        },
-        {
-          "letter": "C",
-          "text": "uncommon with feeding vessel sign"
-        },
-        {
-          "letter": "D",
-          "text": "predilection for lung bases"
-        }
-      ],
-      "correctAnswer": "C",
-      "reference": "",
-      "explanation": "- **Feeding vessel sign** consists of a distinct vessel leading directly to a nodule or a mass. This sign indicates either that the lesion has a haematogenous origin or that the disease process occurs near small pulmonary vessels.\n- A number of vessel-related non-neoplastic disorders of the lung produce focal disease, including:\n• pulmonary infarction\n• septic pulmonary embolism\n• angioinvasive pulmonary aspergillosis\n• pulmonary vasculitis\n• pulmonary embolism\n• pulmonary AVM",
-      "images": [],
-      "concepts": [],
-      "checked": false
-    },
-    {
       "id": "2017-029",
       "year": 2017,
       "number": 29,
       "years": [
         2017
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which one of the followings is least likely to have **crazy paving sign** on HRCT images?",
       "options": [
@@ -1098,9 +1063,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "看Radiopaedia AD難以選擇. 根據 [[2003 RG Crazy-Paving Pattern at Thin-Section CT of the Lungs Radiologic Pathologic Overview.pdf]]有探討NSIP但沒提到RB-ILD，所以RB-ILD機會更低。\nPneumocystis=PcP=PjP\n[Crazy paving](https://radiopaedia.org/articles/crazy-paving)\nCommon causes:\n- Pulmonary edema 現實最常見\n- ARDS, Acute interstitial pneumonia (ARDS of unknown etiology)\n- [[Pulmonary alveolar proteinosis]] (PAP): rare, 但大部分PAP都有crazy paving\n- bacterial pneumonia\nLess common causes:\n- pneumonitis (drug-induced, radiation)\n- Pulmonary hemorrhage\n\t- Goodpasture syndrome\n- Chronic eosinophilic pneumonia\n- UIP + alveolar hemorrhage\n-感染 (mycoplasma, TB, PjP, COVID-19)\n- COP, formerly BOOP\n- invasive mucinous adenocarcinoma of the lung\n- sarcoidosis, esp. alveolar sarcoidosis\n- lipoid pneumonia\n- pulmonary veno-occlusive disease",
+      "explanation": "正解 **D**（最不可能）。**RB-ILD 以氣道中心結節為主、非典型 crazy-paving**。NSIP(A)、COP(B)、PCP(C)皆可呈 crazy-paving。\n\n→ [[crazy-paving]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "crazy-paving"
+      ],
       "checked": false
     },
     {
@@ -1110,7 +1077,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "有關pulmonary infection的敘述，下列何者為**非**",
       "options": [
@@ -1133,9 +1100,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "**late** stage worm cyst的cavity跟周圍的出血也許會像signet ring [[Paragonimiasis]]\n但Signet ring sign多指bronchiectasis在CT的表現。擴張的bronchiectasis+血管，看起來像戒指 ![ADD signet ring bronchiectasis](data/images/obsidian/add-signet-ring-bronchiectasis-a16871cd.png)\nBronchiectasis: bronchoarterial ratio > 1. 也可能合併tram-track sign [[ADD tram-track sign.png]]",
+      "explanation": "正解 **D**（為非）。**Signet ring sign 指支氣管擴張（擴張支氣管＋伴行動脈）,非 paragonimiasis 早期**。Monad（mycetoma 空氣環，A）、finger-in-glove（ABPA，B）、water-lily（hydatid 漂浮內膜，C）皆正確。\n\n→ [[pulmonary-infection-signs]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-infection-signs"
+      ],
       "checked": false
     },
     {
@@ -1168,9 +1137,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "![ADD IgG4 related disease 1](data/images/obsidian/add-igg4-related-disease-1-85c4cd20.png)\nA. [[Kikuchi-Fujimoto disease]] 頸部淋巴結壞死性腫大\nB. [[Castleman disease]] 有單一淋巴跟Multicentric\nC. [[Kimura disease]] 頸部淋巴結+唾液腺腫大",
+      "explanation": "正解 **D**。**Mikulicz disease（淚腺/唾液腺）屬 IgG4-related disease**。Kikuchi-Fujimoto（壞死性淋巴結炎，A）、Castleman（B）、Kimura（C）皆非 IgG4-RD。\n\n→ [[igg4-related-disease]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "igg4-related-disease"
+      ],
       "checked": false
     },
     {
@@ -1180,7 +1151,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "CH",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "manual",
       "questionText": "關於 Autoimmune pancreatitis 以下何者為**非** ?",
       "options": [
@@ -1203,9 +1174,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "diffuse type most common",
+      "explanation": "正解 **D**（為非）。**diffuse（sausage-shaped）型比 focal 型常見**。合併 PSC(A)、香腸狀胰臟(B)、主胰管狹窄(C)皆正確。\n\n→ [[autoimmune-pancreatitis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "autoimmune-pancreatitis"
+      ],
       "checked": false
     },
     {
@@ -1238,9 +1211,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "A history of current or previous cigarette smoking is identified in up to **95%** of cases. Ref: Thoracic Imaging: Pulmonary and Cardiovascular Radiology, p608-609.",
+      "explanation": "正解 **C**（有誤）。**up to ~95% 的成人 LCH 有吸菸史**,非 <10%。早期肉芽腫(A)、後期纖維化+囊腫(B)、HRCT 囊腔常 <10 mm(D)皆正確。\n\n→ [[plch]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "plch"
+      ],
       "checked": false
     },
     {
@@ -1277,9 +1252,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "(A) Pneumothorax 36%. (C) Chylothorax 10-20%. (D) Hyperinflation 33-62%. (E) Mediastinal lymphadenopathy 26%.",
+      "explanation": "⚠️ **官方答案 B（Cysts）,但醫學上有疑義**：瀰漫薄壁囊腫正是 LAM 的標誌性(~100%)發現,不應視為「不常見」。pneumothorax(~36%)、chylothorax(10–20%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆為已知表現;若選真正最少見者應為 mediastinal lymphadenopathy。**建議醫師覆核答案鍵。**\n\n→ [[lam]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lam"
+      ],
       "checked": false
     },
     {
@@ -1312,9 +1289,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **A**。**Cardiac MR imaging 為量測 RV 容積與 EF 的 gold standard**（cine 短軸堆疊、無幾何假設）。echo(幾何假設)、CT(輻射/時間解析)、導管 RV 攝影(侵入)皆較不準。\n\n→ [[cardiac-mri-function]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mri-function"
+      ],
       "checked": false
     },
     {
@@ -1347,9 +1326,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Pre-medication with beta-blocker or nitrates, which is standard for coronary CTA angiography,\n- should be **avoided in patients with severe AS** at the time of scanning, in order to avoid haemodynamic complications.",
+      "explanation": "正解 **A**（為非）。**TAVI 術前 CT 不需(且應避免)β-blocker**（需涵蓋整個心動週期、與冠狀 CTA 不同）。收縮期量 annulus(B)、annulus-冠狀動脈口 <10 mm 有阻塞風險(C)、annulus＝瓣葉最低插入點(D)皆正確。\n\n→ [[tavi]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tavi"
+      ],
       "checked": false
     },
     {
@@ -1382,9 +1363,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "- A. The left ventricular wall is rather thin. However, as the left ventricle is enlarged, the total left ventricular mass may be increased.\n\t- In ischemic dilated cardiomyopathy, regional ventricular wall thinning occurs in one or more locations;\n\t- In nonischemic dilated cardiomyopathy, the ventricular wall thickness is uniform\n- B. Wall thickening\n- C.\n\t- Restrictive cardiomyopathy : Biatrial enlargement with minimal or no ventricular enlargement may be present. Cine MRI will show **altered diastolic filling**.\n\t- Constrictive pericarditis: there can be **septal flattening** on cine MRI and the **pericardium** can be thicker than 4 mm\n\t- 臨床上不容易區分\n- D. Amyloidosis 沒提到會\n- Late enhancement MR images may demonstrate areas of fibrosis within the myocardium, characteristically in the mid- or subepicardial myocardium, allowing differentiation from ischemic cardiomyopathy.",
+      "explanation": "正解 **C**。**Restrictive CM 可藉 MRI 與 constrictive pericarditis 區分**（心包厚度/鈣化）。DCM 為心室擴大室壁薄非局部增厚(A 誤)、HCM 心室不擴大(B 誤)、GRE blooming 低訊號＝鐵沉積(D 誤)。\n\n→ [[cardiomyopathy-mri]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiomyopathy-mri"
+      ],
       "checked": false
     },
     {

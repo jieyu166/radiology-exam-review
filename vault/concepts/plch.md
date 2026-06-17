@@ -51,6 +51,9 @@ same:
 > [!question]- PLCH 與吸菸的關係？預後特點？
 > 吸菸為最強危險因子（成人 >95%）；屬骨髓系腫瘤、可見 BRAF V600E；**戒菸後仍可能持續活動**。[^1]
 
+> [!question]- 關於 pulmonary LCH,何者「有誤」? (2017-033)
+> 「**少於 10% 的成人 LCH 患者吸菸**」有誤——**up to ~95% 有吸菸史**。早期肉芽腫(A)、後期纖維化+囊腫(B)、HRCT 囊腔常 <10 mm(D)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "plch")
