@@ -2616,7 +2616,7 @@
       "id": "2016-071",
       "year": 2016,
       "number": 71,
-      "subspecialty": "Unknown",
+      "subspecialty": "IR",
       "subspecialty_confidence": "auto",
       "questionText": "risks of transarterial chemoembolization for hepatocellular carcinomas?",
       "options": [
@@ -2639,9 +2639,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Hepatocellular Carcinomas in Japan: Historical, Strategic, and Technical Review AJR:205, October 2015",
+      "explanation": "TIPS 存在會使 TACE 後**肝衰竭風險升高**(門脈血流被分流),故 (C)「TIPS 與低風險相關」錯誤。\n\n(A) 主門脈阻塞為(相對)禁忌:正確。\n(B) 膽紅素>3.0 為禁忌:正確。\n(C) **TIPS 與低肝衰竭風險相關(正解＝錯誤)**:TIPS 反而增加肝衰竭風險。\n(D) 膽道擴張/乳頭切開/膽腸吻合增加肝膿瘍風險:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tace"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2651,7 +2653,7 @@
       "id": "2016-072",
       "year": 2016,
       "number": 72,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is the MRI feature of pulmonary stenosis?",
       "options": [
@@ -2674,9 +2676,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Cardiovascular Magnetic Resonance. Oxford Specialist Handbooks.",
+      "explanation": "肺動脈瓣狹窄的 MRI 特徵為狹窄瓣、RV 肥厚、近端肺動脈狹窄後擴張,故選「以上皆是」。\n\n(A) Stenotic pulmonary valve、(B) RV hypertrophy、(C) 近端肺動脈擴張 皆是。\n(D) **All of the above(正解)**。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-stenosis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2686,7 +2690,7 @@
       "id": "2016-073",
       "year": 2016,
       "number": 73,
-      "subspecialty": "Unknown",
+      "subspecialty": "Breast",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is not true for sternalis muscle on mammography?",
       "options": [
@@ -2709,9 +2713,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Pocket Radiologist Breast Top 100 Diagnoses p132-133",
+      "explanation": "Sternalis 見於乳房攝影 **CC view 內側**(非僅 MLO),故 (A) 為非真。\n\n(A) **僅見於 MLO view(正解＝非真)**:見於 CC view 內側、易誤為腫塊。\n(B) 胸骨旁 pectoralis 內緣小肌:真。\n(C) 約 1%:真。\n(D) 圓/三角/火焰狀:真。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sternalis-muscle"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2721,7 +2727,7 @@
       "id": "2016-074",
       "year": 2016,
       "number": 74,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the followings gives rise to differences in transmission and reflection of ultrasound energy?",
       "options": [
@@ -2744,9 +2750,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: The Essential Physics of Medical Imaging, Chapter 14.2: interactions of ultrasound with matter",
+      "explanation": "界面兩側 **acoustic impedance(聲阻抗)** 差決定超音波的反射與穿透。\n\n(A) **Impedance(正解)**。\n(B) Attenuation:能量總衰減,非界面反射/穿透之因。\n(C) Scattering:小界面散射(決定 echogenicity)。\n(D) Refraction:折射(方向改變)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-tissue-interaction"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2756,7 +2764,7 @@
       "id": "2016-075",
       "year": 2016,
       "number": 75,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "What’s the major factor of ultrasound resulting in the different echogenicity of each different tissue?",
       "options": [
@@ -2779,9 +2787,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Chapter 14 Ultrasound. The Essential Physics of Medical Imaging, 3rd edition, by Jerrold T, Bushberg, J, Anothony Seibert, et al. Published by Wolters Kluwer",
+      "explanation": "各組織不同 echogenicity 主要來自小界面的 **scattering(散射/backscatter)**。\n\n(A) Reflection:鏡面反射(大平滑界面)。\n(B) Refraction:折射。\n(C) **Scattering(正解)**:小界面 backscatter 決定組織回音性與紋理。\n(D) Diffraction:繞射。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-tissue-interaction"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2791,7 +2801,7 @@
       "id": "2016-076",
       "year": 2016,
       "number": 76,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Regarding intrascrotal calculus, which of the following is FALSE?",
       "options": [
@@ -2814,9 +2824,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Transabdominal ultrasound of the gastrointestinal tract EFSUMB – European Course Book Editor: Christoph F. Dietrich,P age 4",
+      "explanation": "Scrotal pearl 位於 **tunica vaginalis** 兩層之間(睪丸外),故 (B)「tunica albuginea」為假。\n\n(A) 別名 fibrinoid loose body/scrotal pearl:真。\n(B) **位於 tunica albuginea 兩層之間(正解＝假)**:應為 tunica vaginalis、extratesticular、可游離。\n(C) 病因不明(血腫/發炎/appendix 扭轉脫落):真。\n(D) 伴隨 hydrocele(膜間滲出液):真。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "scrotal-pearl"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2826,7 +2838,7 @@
       "id": "2016-077",
       "year": 2016,
       "number": 77,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following regarding bile duct hemartomas is NOT TRUE?",
       "options": [
@@ -2849,9 +2861,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: • J Ultrasound Med 2006; 25:399–402",
+      "explanation": "膽管錯構瘤管腔內**膽固醇結晶/濃稠物常見**(comet-tail 偽影來源),故 (D)「罕見」為非真。\n\n(A) 別名 von Meyenburg complexes:真。\n(B) US 多發高/低回音結節＋彗星尾:真。\n(C) 囊狀擴張小膽管＋膠原基質之發育畸形:真。\n(D) **膽固醇結晶罕與擴張小管相伴(正解＝非真)**:實為常見、即 comet-tail 來源。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "biliary-hamartoma"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2861,7 +2875,7 @@
       "id": "2016-078",
       "year": 2016,
       "number": 78,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "含碘對比劑血管外滲的處理，何者為非?",
       "options": [
@@ -2884,9 +2898,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "",
+      "explanation": "含碘對比劑外滲應**冰敷**(非熱敷),故 (C) 為非。\n\n(A) 自滲漏處抽吸:正確。\n(B) 抬高患肢:正確。\n(C) **患部先熱敷(正解＝為非)**:應冰敷(cold compress)。\n(D) 嚴重者外用藥＋口服 Dexamethasone:依指引。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2896,7 +2912,7 @@
       "id": "2016-079",
       "year": 2016,
       "number": 79,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "有關對比劑引起之立即性不良反應,何者為非?",
       "options": [
@@ -2919,9 +2935,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: 書名：中華民國放射線醫學會對比劑使用指引 頁次：12",
+      "explanation": "立即性不良反應定義為施打後 **1 小時內**(非 2 小時),故 (A) 為非。\n\n(A) **定義:2 小時內(正解＝為非)**:應為 1 小時內。\n(B) 輕度:噁心/輕吐/蕁麻疹/皮膚癢:正確。\n(C) 中度:嚴重吐/明顯蕁麻疹/支氣管痙攣/喉水腫/血管迷走:正確。\n(D) 重度:低血壓昏迷/呼吸停止/心臟停止/抽搐:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2931,7 +2949,7 @@
       "id": "2016-080",
       "year": 2016,
       "number": 80,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "受檢者的腎功能 eGFR 小於多少時，在接受含釓之磁振造影（MRI） 對比劑或磁振血管攝影（MRA）時，可能會發生腎因性全身纖維化病 變（nephrogenic systemic fibrosis, NSF），因此要盡量避免使用含釓 的對比劑。",
       "options": [
@@ -2954,9 +2972,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: 書名：中華民國放射線醫學會對比劑使用指引 頁次：7",
+      "explanation": "NSF 風險使 **eGFR < 30** 時應避免含釓對比劑。\n\n(A) <15:過嚴。\n(B) **< 30(正解)**:eGFR<30 避免含釓(NSF 風險)。\n(C) <45、(D) <60:非閾值。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -2966,7 +2986,7 @@
       "id": "2016-081",
       "year": 2016,
       "number": 81,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "使用 Metformin 藥物的受檢者，應建議在使用含碘對比劑檢查前多 久停用 Metformin 藥物?",
       "options": [
@@ -2989,9 +3009,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: 書名：中華民國放射線醫學會對比劑使用指引 頁次：9-10",
+      "explanation": "依台灣 2016 對比劑指引,含碘對比劑檢查前應停 Metformin **48 小時**。\n\n(A) 24h、(C) 72h、(D) 1 週:非。\n(B) **48 小時(正解)**。\n(註:現行 ACR 對 eGFR≥30 且無 AKI 者不需常規停用,見 [[contrast-media-safety]] 雙層。)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3001,7 +3023,7 @@
       "id": "2016-082",
       "year": 2016,
       "number": 82,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "若哺乳期婦女接受含釓對比劑多久後方可正常哺乳?",
       "options": [
@@ -3024,9 +3046,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: 書名：中華民國放射線醫學會對比劑使用指引 頁次：9",
+      "explanation": "依台灣 2016 對比劑指引,釓對比劑後暫停哺乳 **24 小時**。\n\n(A) **24 小時(正解)**。\n(B) 48h、(C) 72h、(D) 1 週:非。\n(註:現行 ACR/ESUR 認為可不中斷哺乳,見 [[contrast-media-safety]] 雙層。)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false,
       "years": [
         2016
