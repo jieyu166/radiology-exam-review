@@ -40,8 +40,18 @@ dateRev: 2026-06-15
 | CTA/MRA 若考慮取栓強烈建議、勿延遲 tPA | 正確[^1] |
 | perfusion 已「證實」優於 CTA/MRA 選病人 | **錯誤**（未確立，Class IIb）[^1] |
 
+## 指引更新（2015 → 2019 AHA → 2020 台灣）⚠️
+> [!warning] 本概念之 2016 考題（[[../questions/2016/2016-027]]、[[../questions/2016/2016-028]]）依 **2015 指引**作答；其後條文有**重大更新**，臨床請以最新指引為準。
+- **取栓時間窗大幅延長：6 小時 → 24 小時**。**DAWN（6–24h，臨床–梗塞 mismatch）**與 **DEFUSE-3（6–16h，perfusion–core mismatch）**證實延長窗取栓有效（2018 NEJM）。[^2][^3]
+- **Perfusion 影像地位翻轉**：2015 稱 perfusion 選病人「未確立（Class IIb）」；**2018/2019 AHA 與 2020 台灣指引則對 6–24h／醒睡型／不明發作時間者，建議以 CT/MR perfusion（或臨床–影像 mismatch）選病人（Class I）**。故 2016-028「perfusion 未證實」之答案**僅適用於 2015 早窗脈絡，於延長窗已過時**。[^2][^3]
+- **IV 溶栓**：符合條件者仍應給（即使計畫取栓）；**tenecteplase 已成 alteplase 的替代選項**。[^2]
+- **技術目標 mTICI 2b/3 不變**；但「6 小時內」之時間窗已被延長窗（至 24h，影像選擇）取代。[^2]
+- **台灣（2020 台灣急診醫學會＋腦中風學會）**：影像評估上，IVT 以 NCCT 為主；**EVT 之延長窗/醒睡型建議 multimodal CT/MR perfusion（COR I, LOE B-NR）** 選病人，與國際一致。[^3]
+
 ### 參考來源
-[^1]: Powers WJ, Derdeyn CP, Biller J, et al. *2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment*. Stroke. 2015;46(10):3020-3035. https://doi.org/10.1161/STR.0000000000000074 （實際查證原文 accessed 2026-06-15：IV r-tPA「even if endovascular considered」Class I；觀察 tPA 反應 Class III 不建議；NECT 多數可決策 Class I；CTA/MRA 強烈建議但勿延遲 tPA；perfusion 選病人效益 unknown，Class IIb；技術目標 mTICI 2b/3，6 小時內）。
+[^1]: Powers WJ, Derdeyn CP, Biller J, et al. *2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment*. Stroke. 2015;46(10):3020-3035. https://doi.org/10.1161/STR.0000000000000074 （實際查證原文 accessed 2026-06-15：IV r-tPA「even if endovascular considered」Class I；觀察 tPA 反應 Class III 不建議；NECT 多數可決策 Class I；CTA/MRA 強烈建議但勿延遲 tPA；perfusion 選病人效益 unknown，Class IIb；技術目標 mTICI 2b/3，6 小時內）。**此為 2016 考題之依據；其後更新見 [^2][^3]**。
+[^2]: Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines*. Stroke. 2019;50(12):e344-e418. https://doi.org/10.1161/STR.0000000000000211 （現行 AHA/ASA 綜合指引；取栓窗延長至 24h，DAWN/DEFUSE-3 以 mismatch 選病人 Class I。經 PubMed 取得書目 PMID 31662037）。
+[^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。經 PubMed 取得書目 PMID 33928011）。台灣腦中風學會另有 2020 血壓控制指引（J Formos Med Assoc 2022）、2023 ICAD 指引（JCMA 2023）。
 
 ## 題目
 > [!question]- 考慮血管內治療時，可否為搶時間跳過 IV r-tPA？
@@ -51,7 +61,10 @@ dateRev: 2026-06-15
 > **效益『未確立』（Class IIb, LOE C）**——不可說已證實優於 CTA/MRA。影像決策以 NECT 為主（Class I），CTA/MRA 若考慮取栓則強烈建議但勿延遲 tPA。[^1]
 
 > [!question]- 血管內治療的技術目標與時間窗？
-> **reperfusion 達 mTICI 2b/3**（Class I），儘早且**發病 6 小時內**；stent retriever 取栓優於 IA fibrinolysis。[^1]
+> **reperfusion 達 mTICI 2b/3**（Class I），儘早且**發病 6 小時內**；stent retriever 取栓優於 IA fibrinolysis。[^1]（**更新：2018/2019 起取栓窗延長至 24h，以影像 mismatch 選病人** [^2][^3]）
+
+> [!question]- 2015 後關於「取栓時間窗」與「perfusion 影像」的重大更新？
+> **取栓窗 6h → 24h**（DAWN 6–24h、DEFUSE-3 6–16h）；**perfusion 影像由 2015 的「未確立（Class IIb）」變為延長窗/醒睡型選病人之 Class I**。台灣 2020 指引一致。[^2][^3]
 
 ## 考題
 ```dataview
