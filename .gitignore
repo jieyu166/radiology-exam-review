@@ -19,3 +19,5 @@ vault/references/
 
 # Obsidian 設定/工作區純本地，勿追蹤勿覆寫（外掛設定由使用者自行調整）
 vault/.obsidian/
+scripts/_*.txt
+scripts/_*.json
