@@ -28,6 +28,9 @@ dateRev: 2026-06-17
 > [!question]- 關於冠狀動脈瘻管，何者「為假」？
 > 「**左冠 > 右冠**」假——起源以 **RCA（~50%）> LAD（~42%）**。引流 RV>RA>PA>冠狀竇、左到右分流皆正確。[^1]
 
+> [!question]- 關於 coronary artery fistula(CAF),何者「為假」? (2017-038)
+> 「**最常見引流部位是 pulmonary artery**」假——**最常見引流至 right ventricle(~41%)** > RA > PA > 冠狀竇(低壓結構)。臨床表現依左到右分流嚴重度(A)、症狀性多源自 RCA(B)、引流至低壓結構(C)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "coronary-fistula")

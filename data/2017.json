@@ -1400,9 +1400,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "- The most common drainage sites in order of decreasing frequency are the right ventricle (41%), right atrium (26%), pulmonary artery (17%) , coronary sinus (7%), left atrium (5%), left ventricle (3%), and superior vena cava (1%)\n- The most common origins for the CAVF are the RCA (50%) and LAD (42%), and both the RCA and LCA in approximately 5% of patients\n- A smaller percentage of pediatric patients tend to be asymptomatic, unlike adults\n- These drainage sites may not be well-visualized at conventional angiography because of significant dilution of the contrast medium. Magnetic resonance (MR) imaging and CT are useful, noninvasive, and accurate imaging techniques",
+      "explanation": "正解 **D**（為假）。**CAF 最常引流至 right ventricle(~41%)** > RA > PA > 冠狀竇,故「最常引流至 pulmonary artery」假。臨床依左到右分流嚴重度(A)、症狀性多源自 RCA(B)、引流至低壓結構(C)皆正確。\n\n→ [[coronary-fistula]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "coronary-fistula"
+      ],
       "checked": false
     },
     {
@@ -1435,9 +1437,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Time-resolved MRA sequences, 如 TRICKS, TWIST 等。會在打藥後連續收數張影像\n\t- 一般的藥後影像問題是靜脈也會顯影，造成干擾。有很多技術嘗試解決，如subtraction, venous compression, 其他打藥的方式, 後處理...還有time-resolved MRA。\n\t- 參考 https://www.ajronline.org/doi/full/10.2214/AJR.11.7065\n- TOF brain看過很多，不需要打藥。\n- Cine SSFP也不用打藥。源自GRE，血液是亮的。(Bright blood)\n- 一般的coronary MRA偏好不打顯影劑的方式 non-contrast bright blood techniques (參考 https://mriquestions.com/coronary-artery-mra.html)\n\t1) a single 3D-volumetric sequence covering the entire heart, or\n\t2) two shorter duration slab acquisitions targeting the right and left coronary systems respectively.",
+      "explanation": "正解 **B**。**Time-resolved MRA（下肢，如 TRICKS/TWIST）需注射 gadolinium**。TOF(流入增強,A)、cine SSFP(C)、navigator 3D whole-heart(SSFP 血池,D)皆非對比、不需釓。\n\n→ [[contrast-enhanced-mra]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-enhanced-mra"
+      ],
       "checked": false
     },
     {
@@ -1470,9 +1474,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "60%–70%.\n\n\n## 診斷\nRadiographics. 2016 Mar-Apr;36(2):355-7. Commentary on [[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 一開始被稱作IHSS(idiopathic hypertrophic subaortic stenosis)，因為症狀和AS很像，首先被觀察到的是局部的 septal hypertrophy，但和AS不同的是，病人LVOT會有pressure gradient，且大部分病人其實沒有stenosis(故後來改名為HCM)。事實上還有一大部分病人沒有pressure gradient，但當時沒能力診斷\n- 診斷上的特點包含：局部非對稱性中隔肥厚(ASH, septum/後壁>1.3)。通常伴隨著ant. MV的SAM。當SAM使前葉與中隔接近時，就會出現pressure gradient，造成LVOT obstruction。病人通常也有很嚴重的MR。**ASH和SAM**的組合因此成為了IHSS的標誌。\n- Heart echo普及後發現ASH以外有很多pattern，且有些病人沒有SAM，也沒有pressure gradient。故後來改名叫HCM。\n- Heart MRI：可全面的評估心臟各部位。也可能在病人出現症狀前找出蛛絲馬跡。對有相關家族史的人很重要。\n\nFC 內專2011\n- 壁**不對稱**的增厚(septum/後壁>1.3)，腔室↓，舒張↓\n- 心收縮時，MV前葉往前移動(**SAM**, systolic anterior motion)，造成LVOT obstruction\n- Preload減少(站立, Valsalva maneuver)--> LVOT加重 --> 收縮雜音變得明顯\n\n### Asymmetric HCM\n[[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]\n- 最常見，約60-70%\n- Septum 不對稱的增大，最常影響到 anteroseptal myocardium，可能影響subaortic, midventricular, or apical regions 等等有多種不同的情況。\n- LV厚度一般不超過11 mm，要在end diastole時測量。當septum厚度>1.5mm或和下壁(midventricular septum/ inferior wall)比例>1.5即可診斷。小孩的話，厚度要>2個標準差。 ![ADD HCM Dx 2](data/images/obsidian/add-hcm-dx-2-6712296a.png)\n- anteroseptal myocardium增厚會讓LV變成sigmoid的形狀，讓LV狹窄，阻塞LVOT。通常也會有SAM。\n\n### Apical HCM\n- 日本人佔15%，歐美占2%。\n- EKG會有giant negative T wave，LV cavity形狀如鏟子(spade)\n- 基本上預後良好，但1/3會有嚴重併發症：myocardial infarction, atrial fibrillation, and stroke。\n\t- Apical infarction可能形成aneurysm，叫做burned-out apex，後續可能產生thrombi。有apical aneurysm, >5% delayed enhancement預後可能不良。\n- 診斷如Table。通常RV apex也會受影響。US評估受限，強烈建議用MRI。![case HCM apical spade](data/images/obsidian/case-hcm-apical-spade-3de2592b.png)\n\n### LGE late gadolinium enhancement\n肥厚性心肌病變攻略\n- 正常心肌細胞，contrast會在ECM不會進入心肌細胞，過一段時間顯影劑流失呈現低訊號\n- 心肌scar, infarction：顯影劑會滯留在心肌細胞 or fibrotic ECM。造成T1 shortening, 呈現高訊號\n- 觀察LGE的pattern做DDx ![ADD MRI LGE](data/images/obsidian/add-mri-lge-4e1a684f.png)\n\t- LGE因sequence種類繁多，目前無法定量。但可獲得定性資訊，要正常心肌來當基準。\n\t- Diffuse疾病可能難以辨識：diffuse fibrosis\n- HCM典型LGE pattern：**midwall patchy or punctate hyperenhancement** in a thickened myocardium in a **noncoronary** distribution\n- T1 mapping代表胞內特性。ECV代表胞外特性\n\n**SAM (systolic anterior motion) of the anterior mitral leaflet**\n - increase LVOT obstruction and decreased coronary and systemic outflow\n - SAM of the posterior leaflet: less common\n - MR (leaflet accessory tissue and elongation)\n\n![[20211218 Structure heart disease#HCM]]\n\n### Pressure gradient\n## Treatment, prognosis",
+      "explanation": "正解 **A**。**Asymmetric septal（不對稱中隔型）為 HCM 最常見形態（約 60–70%）**。apical、concentric、basal septal 較少。\n\n→ [[hypertrophic-cardiomyopathy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
       "checked": false
     },
     {
@@ -1505,9 +1511,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "應為asymmetric septal form (佔60-70%) Apical 佔2% 但日本人是15%\nD. ![ADD HCM Dx 2](data/images/obsidian/add-hcm-dx-2-6712296a.png)",
+      "explanation": "正解 **B**（錯誤）。**apical 型非最常見——asymmetric septal 才是（60–70%），apical 僅 ~2%（日本人 ~15%）**。LGE 典型 midwall patchy(A)、apical HCM 併心尖梗塞/動脈瘤(C)、asymmetric septal 定義中隔 ≥1.5×(D)皆正確。\n\n→ [[hypertrophic-cardiomyopathy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
       "checked": false
     },
     {
@@ -1540,9 +1548,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Typical pattern of late gadolinium enhancement (LGE) in HCM: midwall patchy or punctate hyperenhancement in a thickened myocardium in a **noncoronary** distribution.",
+      "explanation": "正解 **D**（錯誤）。**HCM 的 LGE 典型為 midwall patchy/punctate（非 subendocardial 冠狀動脈分布；後者提示缺血）**。肌節疾病(A)、LV 肥厚無其他負荷(B)、asymmetric septal 最常見(C)皆正確。\n\n→ [[hypertrophic-cardiomyopathy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
       "checked": false
     },
     {
@@ -1552,7 +1562,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "NR",
+      "subspecialty": "CH",
       "subspecialty_confidence": "manual",
       "questionText": "Eosinophilic granulomatosis with polyangiitis (Churg-Strauss syndrome) is characterized by following **except**",
       "options": [
@@ -1575,9 +1585,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "cANCA是Wegner's的特徵。Churg-Strauss 50%會有 PR3-ANCA(+)",
+      "explanation": "正解 **C**（除外）。**EGPA（Churg-Strauss）典型為 pANCA(MPO-ANCA)；cANCA(PR3) 屬 GPA/Wegener**。asthma(A)、hypereosinophilia(B)、necrotizing vasculitis(D)皆為 EGPA 特徵。\n\n→ [[egpa-churg-strauss]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "egpa-churg-strauss"
+      ],
       "checked": false
     },
     {
@@ -1610,9 +1622,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "用CT, SWI看鈣化。\n- **(A) 正確**。Retinoblastoma 確實是最常見的兒童眼內腫瘤。\n- **(B) 正確**。遺傳型 retinoblastoma 通常是 bilateral and multifocal。\n- **(C) 正確**。Optic nerve involvement 是侵襲性及進展性腫瘤的標誌，與高轉移風險及增加死亡率相關",
+      "explanation": "正解 **D**（為非）。**眼內鈣化以 CT（或 GRE/SWI）顯示最佳，非 DWI**。最常見兒童眼內腫瘤(A)、遺傳型多雙側多灶(B)、視神經侵犯為侵襲性/進展標記(C)皆正確。\n\n→ [[retinoblastoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "retinoblastoma"
+      ],
       "checked": false
     },
     {
@@ -1643,11 +1657,13 @@
           "text": "由於此血管的高發生率，對於骨盆出血病患之栓塞治療，必須常規地檢查 external iliac artery。"
         }
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "reference": "",
-      "explanation": "Corona mortis artery characteristically crosses the superior pubic ramus 33–62 mm lateral to the symphysis pubis.\n![ADD Corona mortis](data/images/obsidian/add-corona-mortis-e1208ef8.png)",
+      "explanation": "正解 **D**（錯誤）。「因高發生率必須常規檢查 external iliac」措辭過度（盛行率非極高、非強制常規）。crown of death(A)、obturator 源自 external iliac/inf epigastric(B)正確。註：corona mortis 跨 **superior** pubic ramus,故 C 寫「inferior pubic ramus」亦不精確。\n\n→ [[corona-mortis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "corona-mortis"
+      ],
       "checked": false
     },
     {
@@ -1680,9 +1696,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "- Horizontal fractures (Salter-Harris types I and II) result in bridge formation in 25% of cases, whereas longitudinal fractures (Salter-Harris types III and IV) result in bridge formation in 75% of cases (Bridge formation: 填補 fracture cap) 所以A對\n- Factors associated with a worse prognosis include fracture severity (ie, **comminution** or displacement), **younger age**, growth potential of the involved physis, and size of the bony bridge.\n- B. gadolinium在小兒盡量不用",
+      "explanation": "正解 **A**。**縱向(longitudinal/vertical)骨折比橫向(horizontal)更易形成骨橋(bridge)** → 生長停滯風險高。橫向(SH I/II)bridge ~25%;不建議常規打釓(B 誤)、年幼者預後較差(C 誤)、粉碎程度影響預後(D 誤)。\n\n→ [[salter-harris]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "salter-harris"
+      ],
       "checked": false
     },
     {
@@ -1715,9 +1733,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "A. Baker's cysts很常見。有文獻說10- 41%\nB. semimembranosus (SM)-gastrocnemius (GN) bursa\nD.  echogenicity增加，可能是裡面有出血，或是 synovium增厚有發炎等原因。",
+      "explanation": "正解 **C**。**US 上液體位於 semimembranosus 與 medial gastrocnemius 之間為診斷性**。Baker cyst 很常見(非 <1%,A 誤)、經 SM-GN 間相通(非 gracilis-sartorius,B 誤)、有內部回音不能排除(D 誤)。\n\n→ [[baker-cyst]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "baker-cyst"
+      ],
       "checked": false
     },
     {
@@ -1750,9 +1770,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **C**。**Crossover sign（髖臼前緣越過後緣）＝髖臼後傾，屬 pincer 型 femoroacetabular impingement**。Perthes、DDH、SCFE 非以 crossover sign 為特徵。\n\n→ [[femoroacetabular-impingement]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "femoroacetabular-impingement"
+      ],
       "checked": false
     },
     {
@@ -1790,9 +1812,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **A**。**紅骨髓可呈局灶、腫塊樣**。reconversion 型態不一定固定可預期(B 誤)、成人紅髓存中軸非手腳(C 誤)、紅髓含脂肪細胞(D 誤)、不一定易與腫瘤區分(E 誤)。\n\n→ [[bone-marrow]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bone-marrow"
+      ],
       "checked": false
     },
     {
@@ -1825,9 +1849,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Non-sclerotic margin (though < 5% may show some sclerosis)\nGiant Cell Tumor of Bone: Review, Mimics, and New Developments in Treatment. RadioGraphics 2013; 33:197–211",
+      "explanation": "正解 **A**（為假）。**GCT 典型為『非硬化緣』(narrow zone of transition)，非界線清楚的硬化緣**(<5% 可些微硬化)。偏心延伸至軟骨下/骨骺閉合後(B)、可有侵襲徵象(C)、可含 fluid-fluid levels（次發 ABC，D）皆正確。\n\n→ [[giant-cell-tumor]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
       "checked": false
     },
     {

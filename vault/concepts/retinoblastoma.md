@@ -31,6 +31,9 @@ dateRev: 2026-06-17
 > [!question]- 關於兒童眼內腫瘤,何者「為錯」?
 > 「**hemangioblastoma 是兒童最常見視網膜腫瘤**」錯——**retinoblastoma 最常見**。兒童眼球鈣化→retinoblastoma、leukocoria 表現皆對。[^1]
 
+> [!question]- 關於 retinoblastoma,何者「為非」? (2017-044)
+> 「**眼內出血與鈣化在 DWI 序列顯示最佳**」為非——**鈣化以 CT(或 GRE/SWI)顯示最佳,非 DWI**。最常見兒童眼內腫瘤(A)、遺傳型多雙側多灶(B)、視神經侵犯為侵襲性/進展標記(C)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "retinoblastoma")
