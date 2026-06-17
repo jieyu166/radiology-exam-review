@@ -26,7 +26,9 @@ up: "[[bclc-hcc]]"
 ### 參考來源
 [^1]: TACE 禁忌與風險為標準介入腫瘤學/HCC 治療教學（主門脈阻塞、膽紅素>3 mg/dL 為禁忌；TIPS 增肝衰竭風險；膽道異常/乳頭切開/膽腸吻合增肝膿瘍風險）。題目所引 *Development of Conventional Transarterial Chemoembolization for HCC*。上層分期見 [[bclc-hcc]]。
 
-## 題目
+> [!warning] 來源待補（依 SOP 需以一手來源重核）
+> TACE Radiopaedia 條目 slug 未尋得，TIPS 風險/禁忌為標準介入腫瘤學教學。
+
 > [!question]- 關於 TACE 的禁忌/風險，哪項敘述錯誤？
 > 「**TIPS 與 TACE 後『低』肝衰竭風險相關**」錯——TIPS **增加**肝衰竭風險。主門脈阻塞、膽紅素>3 為禁忌；膽道擴張/乳頭切開/膽腸吻合增加肝膿瘍風險。[^1]
 

@@ -26,7 +26,7 @@ same:
 > 「AML **常見鈣化**」錯——鈣化**罕見**(有鈣化想 RCC)。含脂肪良性、多發想 TS、>4cm 常處置皆正確。[^1]
 
 ### 參考來源
-[^1]: 腎 AML 標準泌尿影像教學(Radiopaedia *renal angiomyolipoma*):含肉眼脂肪之良性腫瘤、鈣化罕見(有則想 RCC)、多發想 tuberous sclerosis、>4cm 出血風險高常處置。
+[^1]: 腎 AML 經實際查證（accessed 2026-06-17，Radiopaedia *renal angiomyolipoma*):含肉眼脂肪之良性腫瘤、鈣化罕見(有則想 RCC)、多發想 tuberous sclerosis、>4cm 出血風險高常處置。
 
 ## 題目
 > [!question]- 關於 renal AML,何者「錯」?

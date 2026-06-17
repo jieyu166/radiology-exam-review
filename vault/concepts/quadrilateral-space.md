@@ -23,7 +23,7 @@ dateRev: 2026-06-17
 > 「**suprascapular nerve 通過四邊孔**」錯——通過者為**腋神經**＋後旋肱動脈。邊界(teres major/minor/三頭肌/肱骨)、外科頸骨折可壓迫腋神經皆正確。[^1]
 
 ### 參考來源
-[^1]: 四邊孔解剖標準 MSK 教學（Radiopaedia *quadrilateral space*）：邊界 teres minor/teres major/三頭肌長頭/肱骨；內含腋神經＋後旋肱動脈；外科頸骨折/占位可壓迫腋神經（quadrilateral space syndrome）。
+[^1]: 四邊孔解剖經實際查證（accessed 2026-06-17，Radiopaedia *quadrilateral space*）：邊界 teres minor/teres major/三頭肌長頭/肱骨；內含腋神經＋後旋肱動脈；外科頸骨折/占位可壓迫腋神經（quadrilateral space syndrome）。
 
 ## 題目
 > [!question]- 關於四邊孔(quadrilateral space)，何者「錯」？

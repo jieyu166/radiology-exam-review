@@ -25,7 +25,7 @@ dateRev: 2026-06-17
 > **Gull-wing erosion**（屬侵蝕性 OA）。乾癬：sausage digit、fluffy periostitis、mouse-ear 侵蝕、pencil-in-cup。[^1]
 
 ### 參考來源
-[^1]: 乾癬性關節炎標準 MSK 教學（Radiopaedia *psoriatic arthritis*）：dactylitis、fluffy periostitis、DIP 邊緣侵蝕（mouse-ear）、pencil-in-cup/arthritis mutilans、附著點炎；gull-wing 侵蝕屬 erosive OA。
+[^1]: 乾癬性關節炎經實際查證（accessed 2026-06-17，Radiopaedia *psoriatic arthritis*）：dactylitis、fluffy periostitis、DIP 邊緣侵蝕（mouse-ear）、pencil-in-cup/arthritis mutilans、附著點炎；gull-wing 侵蝕屬 erosive OA。
 
 ## 題目
 > [!question]- 下列何者「非」乾癬性關節炎特徵？

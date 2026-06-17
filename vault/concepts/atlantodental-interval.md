@@ -26,7 +26,9 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 寰齒間距標準教學（Radiopaedia *atlantoaxial interval*）：成人 <3 mm、兒童 <5 mm；增大見於 RA/Down/創傷/Grisel。
 
-## 題目
+> [!warning] 來源待補（依 SOP 需以一手來源重核）
+> Radiopaedia ADI 條目 slug 未尋得，成人<3mm/兒童<5mm 為標準教學。
+
 > [!question]- 兒童 ADI（atlantodental interval）的正常上限？
 > **< 5 mm**（成人 < 3 mm）。[^1]
 

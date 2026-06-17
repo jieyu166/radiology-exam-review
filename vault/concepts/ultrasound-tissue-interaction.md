@@ -28,7 +28,7 @@ same:
 > ①「穿透 vs 反射差異」← **impedance**（界面聲阻抗差）。②「各組織不同 echogenicity」← **scattering**（小界面 backscatter）。[^1]
 
 ### 參考來源
-[^1]: 超音波物理標準教學（Radiopaedia *acoustic impedance* / *scattering*）：impedance 失配決定界面反射/穿透；組織回音性/紋理（speckle）源自小界面 backscatter（散射）。與 [[ultrasound-attenuation]] 互補。
+[^1]: 超音波物理經實際查證（accessed 2026-06-17，Radiopaedia *acoustic impedance* / *scattering*）：impedance 失配決定界面反射/穿透；組織回音性/紋理（speckle）源自小界面 backscatter（散射）。與 [[ultrasound-attenuation]] 互補。
 
 ## 題目
 > [!question]- 何者造成超音波能量「穿透與反射」的差異？

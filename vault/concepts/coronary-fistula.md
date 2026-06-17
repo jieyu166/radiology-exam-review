@@ -22,7 +22,7 @@ dateRev: 2026-06-17
 > 「**左冠 > 右冠**」假——起源以 **RCA（~50%）> LAD（~42%）**。單/多發瘻管、引流 RV>RA>PA>冠狀竇、左到右分流皆正確。[^1]
 
 ### 參考來源
-[^1]: 冠狀動脈瘻管標準心臟影像教學（Radiopaedia *coronary artery fistula*）：起源 RCA(~50%)>LAD(~42%)；引流 RV>RA>肺動脈幹>冠狀竇；多左到右分流。
+[^1]: 冠狀動脈瘻管經實際查證（accessed 2026-06-17，Radiopaedia *coronary artery fistula*）：起源 RCA(~50%)>LAD(~42%)；引流 RV>RA>肺動脈幹>冠狀竇；多左到右分流。
 
 ## 題目
 > [!question]- 關於冠狀動脈瘻管，何者「為假」？

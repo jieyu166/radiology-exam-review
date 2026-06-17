@@ -26,7 +26,9 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 脊髓血管畸形 Anson-Spetzler 分類標準神經放射教學（Radiopaedia *spinal arteriovenous malformations*）：I dural AVF（最常見、老年）、II glomus（髓內、年輕）、III juvenile（罕）、IV perimedullary AVF；兒童以髓內 glomus 最常見。
 
-## 題目
+> [!warning] 來源待補（依 SOP 需以一手來源重核）
+> Radiopaedia spinal AVM 分類條目 slug 未尋得，Anson-Spetzler 為標準神經放射教學。
+
 > [!question]- 兒童族群最常見的脊髓 AVM 是哪一型？
 > **Type II（glomus，髓內）**。（Type I dural AVF 為老年後天病灶。）[^1]
 

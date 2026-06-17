@@ -24,7 +24,7 @@ dateRev: 2026-06-17
 > 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]
 
 ### 參考來源
-[^1]: 頸靜脈球瘤標準神經放射教學（Radiopaedia *glomus jugulare / jugular paraganglioma*）：富血管、T2 salt-and-pepper、ICA/ECA 供血、頸靜脈孔溶骨破壞、pulsatile tinnitus/聽損；惡性轉化約 2–13%。
+[^1]: 頸靜脈球瘤經實際查證（accessed 2026-06-17，Radiopaedia *glomus jugulare / jugular paraganglioma*）：富血管、T2 salt-and-pepper、ICA/ECA 供血、頸靜脈孔溶骨破壞、pulsatile tinnitus/聽損；惡性轉化約 2–13%。
 
 ## 題目
 > [!question]- 關於 glomus jugulare，何者「為非」？

@@ -24,7 +24,7 @@ same:
 > 「血管攝影呈 **bizarre neoplastic vessels＋AV shunting**」錯——那是 **RCC**;oncocytoma 為 **spoke-wheel**。集尿管良性、nephrographic 低密度、中央疤痕皆正確。[^1]
 
 ### 參考來源
-[^1]: 腎嗜酸細胞瘤標準泌尿影像教學(Radiopaedia *renal oncocytoma*):集尿管嗜酸上皮良性、中央星狀疤痕、血管攝影 spoke-wheel;bizarre vessels/AV shunting 屬 RCC;影像難與 RCC 區分。
+[^1]: 腎嗜酸細胞瘤經實際查證（accessed 2026-06-17，Radiopaedia *renal oncocytoma*):集尿管嗜酸上皮良性、中央星狀疤痕、血管攝影 spoke-wheel;bizarre vessels/AV shunting 屬 RCC;影像難與 RCC 區分。
 
 ## 題目
 > [!question]- 關於 renal oncocytoma,何者「錯」?

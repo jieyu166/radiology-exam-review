@@ -25,7 +25,9 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 肺動脈瓣狹窄影像特徵為標準心臟影像教學：瓣膜狹窄（doming）、RV 肥厚、狹窄後肺動脈擴張、CINE 噴流（Radiopaedia *pulmonary valve stenosis* 等一致）。
 
-## 題目
+> [!warning] 來源待補（依 SOP 需以一手來源重核）
+> Radiopaedia 條目未逐字核實，三特徵為標準心臟影像教學。
+
 > [!question]- 肺動脈瓣狹窄的 MRI 特徵？
 > **狹窄的肺動脈瓣、RV 肥厚、近端肺動脈狹窄後擴張**——以上皆是。[^1]
 

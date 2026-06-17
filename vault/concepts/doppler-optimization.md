@@ -27,7 +27,9 @@ same:
 ### 參考來源
 [^1]: 都卜勒物理標準教學（Radiopaedia *Doppler ultrasound*）：頻移 ∝ cosθ；提升敏感度＝增 gain/power、降 PRF、減小角度；角度 >60° 不可靠。
 
-## 題目
+> [!warning] 來源待補（依 SOP 需以一手來源重核）
+> Radiopaedia 條目未逐字核實，都卜勒角度/PRF 為標準物理教學。
+
 > [!question]- 下列何者「不」能提升都卜勒超音波敏感度？
 > **增大 Doppler 角度**（應減小趨 0°）。增 gain、增 power output、降 scale(PRF) 皆可提升。[^1]
 
