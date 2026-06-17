@@ -5558,7 +5558,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiopaedia: Agatston score（實際查證 2026-06-17）；Cardiac CT: A Problem-Based Approach",
-      "explanation": "正解 **B（>130 HU 且 1 mm²）**。Agatston 鈣化定義門檻＝**衰減 ≥130 HU 且面積 ≥1 mm²**（密度係數 130-199=1、200-299=2…）。\n\n→ [[calcium-score]]",
+      "explanation": "正解 **B（>130 HU 且 1 mm²）**。Agatston 鈣化定義門檻＝**衰減 ≥130 HU 且面積 ≥1 mm²**（密度係數 130-199=1、200-299=2…）。\n（註：Agatston 計分用**面積 mm²**；原題作 mm³ 應為筆誤，但選項如實呈現。）\n\n→ [[calcium-score]]",
       "images": [],
       "concepts": [
         "calcium-score"
