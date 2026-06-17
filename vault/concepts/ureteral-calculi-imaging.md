@@ -22,12 +22,19 @@ dateRev: 2026-06-17
 > [!note] 考點：偵測輸尿管結石敏感度最高的檢查?
 > **非顯影螺旋 CT（unenhanced helical CT）**。US 敏感度低(~24%)、KUB 漏透 X 光結石、IVU 已被 CT 取代。[^1]
 
+> [!note] 自發排出率主要取決於『結石大小』
+> 自發排出率（20 週內、軸向徑）：**0–3 mm：98%；4 mm：81%；5 mm：65%；6 mm：33%；>6.5 mm：9%**。**結石越小排出率越高**;故 **UVJ 的 3 mm 結石（98%）排出率最高**,大於近端 9 mm／中段 7 mm／遠端 5 mm。位置（遠端較易過 UVJ）為次要因子。[^2]
+
 ### 參考來源
 [^1]: *Urolithiasis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：IVU「已主要被**非顯影 CT** 取代」;CT 對衰減高敏使平片透光結石亦顯;以 **CT KUB 為 reference**,超音波敏感度僅 **~24%**(漏掉者近 75% <3mm)。
+[^2]: *Ureteric calculi*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「Spontaneous passage by 20 weeks ... (axial dimension): **0-3 mm: 98%; 4 mm: 81%; 5 mm: 65%; 6 mm: 33%; >6.5 mm: 9%**」。
 
 ## 題目
 > [!question]- 哪種影像對輸尿管結石的偵測敏感度（detection rate）最高?
 > **非顯影螺旋電腦斷層（unenhanced helical CT）**——為參考標準,已取代 IVU;US/KUB 敏感度低。[^1]
+
+> [!question]- 哪一輸尿管結石的自發排出率最高? (2016-221)
+> **UVJ 的 3 mm 結石**——排出率主要取決於大小,0–3 mm 達 98%,大於近端 9 mm／中段 7 mm／遠端 5 mm。[^2]
 
 ## 考題
 ```dataview

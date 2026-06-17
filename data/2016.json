@@ -8070,6 +8070,228 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-219",
+      "year": 2016,
+      "number": 219,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the \"wrong\" statement about pyelonephritis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It presents wedge-shaped, striated area of decreased enhancement in enhanced CT scan."
+        },
+        {
+          "letter": "B",
+          "text": "It presents cortical rim sign in delayed phase of enhanced CT scan."
+        },
+        {
+          "letter": "C",
+          "text": "E. coli is the most common pathogen found in urine culture."
+        },
+        {
+          "letter": "D",
+          "text": "The complications include perirenal abscess, necrotizing papillitis, and pyonephrosis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia: acute pyelonephritis / renal infarction（實際查證 2026-06-18）",
+      "explanation": "正解 **B**（錯誤敘述）。**Cortical rim sign 屬腎梗塞**（包膜側支保留薄層皮質強化、數天後最明顯），非腎盂腎炎。腎盂腎炎為楔形 striated reduced enhancement（A 對）、E. coli 最常見（C 對）、併發症含腎周膿瘍/壞死性乳頭炎/膿腎（D 對）。\n\n→ [[acute-pyelonephritis]]",
+      "images": [],
+      "concepts": [
+        "acute-pyelonephritis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-220",
+      "year": 2016,
+      "number": 220,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding testicular torsion, which one is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is ruled in when there is asymmetric flow on color Doppler between the testes."
+        },
+        {
+          "letter": "B",
+          "text": "A high resistance arterial waveform in the spermatic artery may be the only imaging finding in incomplete torsion."
+        },
+        {
+          "letter": "C",
+          "text": "Doppler has equal sensitivity in the pediatric and adult populations."
+        },
+        {
+          "letter": "D",
+          "text": "The bell clapper deformity does not predispose to testicular torsion."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia: testicular torsion（實際查證 2026-06-18）；Allan et al. Clinical Doppler Ultrasound",
+      "explanation": "正解 **B**。不完全扭轉時靜脈先受阻，**精索動脈呈高阻力波形（RI >0.75、舒張期血流喪失/逆轉），可為唯一影像所見**。bell clapper deformity 會增加風險（D 錯）、兩側不對稱血流非確診（A 錯）、Doppler 兒童敏感度低於成人（C 錯）。\n\n→ [[testicular-torsion]]",
+      "images": [],
+      "concepts": [
+        "testicular-torsion"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-221",
+      "year": 2016,
+      "number": 221,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following ureteral calculi has the highest spontaneous passage rate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proximal ureter: 9 mm."
+        },
+        {
+          "letter": "B",
+          "text": "Middle ureter: 7 mm."
+        },
+        {
+          "letter": "C",
+          "text": "Distal ureter: 5 mm."
+        },
+        {
+          "letter": "D",
+          "text": "Ureterovesical junction: 3 mm."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: ureteric calculi（實際查證 2026-06-18）",
+      "explanation": "正解 **D**。自發排出率主要取決於**大小**：0–3 mm 達 98%、4 mm 81%、5 mm 65%、6 mm 33%。故 **UVJ 的 3 mm 結石排出率最高**。\n\n→ [[ureteral-calculi-imaging]]",
+      "images": [],
+      "concepts": [
+        "ureteral-calculi-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-222",
+      "year": 2016,
+      "number": 222,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following findings would make the diagnosis of large renal angiomyolipoma more likely than a retroperitoneal liposarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of mass effect with displacement of kidney."
+        },
+        {
+          "letter": "B",
+          "text": "Presence of aneurysmal blood vessels within the lesion."
+        },
+        {
+          "letter": "C",
+          "text": "Presence of ill-defined margin."
+        },
+        {
+          "letter": "D",
+          "text": "Presence of soft tissue density areas within the lesion."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia: renal angiomyolipoma（實際查證 2026-06-18）；RadioGraphics 2008;28:1325-1338",
+      "explanation": "正解 **B**。**病灶內動脈瘤樣血管 → AML（富血管）**；retroperitoneal liposarcoma 為 hypovascular。腫塊外推腎臟（A）、邊界不清（C）、軟組織密度（D）在兩者皆可見、非鑑別點。\n\n→ [[renal-angiomyolipoma]]",
+      "images": [],
+      "concepts": [
+        "renal-angiomyolipoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-223",
+      "year": 2016,
+      "number": 223,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "A 64-year-old man presents with a 5-month history of painless enlargement of the right testis. Scrotal echo demonstrates a uniformly hypoechoic lesion almost replacing all the parenchyma of the right testis, with enlargement of the right epididymis and adjacent spermatic cord. The left testis shows a small hypoechoic lesion. Most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lymphoma."
+        },
+        {
+          "letter": "B",
+          "text": "Leukemia."
+        },
+        {
+          "letter": "C",
+          "text": "Bilateral seminoma."
+        },
+        {
+          "letter": "D",
+          "text": "Testicular metastases."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia: testicular lymphoma（實際查證 2026-06-18）；RadioGraphics 2002;22:189-216",
+      "explanation": "正解 **A**。**Testicular lymphoma**＝>60 歲男性最常見睪丸腫瘤、最常見雙側睪丸內腫瘤；瀰漫低回聲取代實質、常侵犯附睪/精索、可雙側（~40%）。bilateral seminoma（罕見、年輕）、leukemia、metastases 較不符。\n\n→ [[testicular-lymphoma]]",
+      "images": [],
+      "concepts": [
+        "testicular-lymphoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-224",
+      "year": 2016,
+      "number": 224,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "A 73-year-old male with poorly controlled hypertension referred for renal Doppler US. The US shows bilateral small kidneys about 5-6 cm in bipolar diameters. The resistive indices are about 0.9 on both sides. The peak systolic velocity is 130 cm/s on the left and 160 cm/s on the right. What intervention is indicated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Renal artery angioplasty on the right."
+        },
+        {
+          "letter": "B",
+          "text": "Renal artery angioplasty on the left."
+        },
+        {
+          "letter": "C",
+          "text": "Bilateral renal artery stenting."
+        },
+        {
+          "letter": "D",
+          "text": "No intervention."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: renal artery stenosis（實際查證 2026-06-18）；Morgan & Waltzer, Handbook of Angioplasty and Stenting Procedures",
+      "explanation": "正解 **D**。PSV 130/160 cm/s **未達 >180 cm/s 狹窄閾值**（非血流動力學顯著狹窄）；加上**雙側萎縮小腎（5–6 cm）＋ 實質高阻力（RI 0.9）**＝末期腎硬化，血管重建無益 → **不介入**。\n\n→ [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
