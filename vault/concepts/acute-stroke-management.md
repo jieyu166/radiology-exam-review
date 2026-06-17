@@ -46,12 +46,14 @@ dateRev: 2026-06-15
 - **Perfusion 影像地位翻轉**：2015 稱 perfusion 選病人「未確立（Class IIb）」；**2018/2019 AHA 與 2020 台灣指引則對 6–24h／醒睡型／不明發作時間者，建議以 CT/MR perfusion（或臨床–影像 mismatch）選病人（Class I）**。故 2016-028「perfusion 未證實」之答案**僅適用於 2015 早窗脈絡，於延長窗已過時**。[^2][^3]
 - **IV 溶栓**：符合條件者仍應給（即使計畫取栓）；**tenecteplase 已成 alteplase 的替代選項**。[^2]
 - **技術目標 mTICI 2b/3 不變**；但「6 小時內」之時間窗已被延長窗（至 24h，影像選擇）取代。[^2]
-- **台灣（2020 台灣急診醫學會＋腦中風學會）**：影像評估上，IVT 以 NCCT 為主；**EVT 之延長窗/醒睡型建議 multimodal CT/MR perfusion（COR I, LOE B-NR）** 選病人，與國際一致。[^3]
+- **台灣腦中風學會（現行）**：**2023 動脈內血栓移除（EVT）指引更新** —— EVT 窗 **6→24 小時**（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT），6–24h 以 **CTP/MRP 或 CTA collateral score／DWI infarct core** 選病人；並納入**大梗塞核心（large core，低 ASPECTS）EVT** 之新證據。另 2020 台灣急診＋腦中風學會指引亦建議延長窗用 multimodal CT/MR perfusion（COR I）。[^3][^4]
+- **更新版本**：台灣另有 **2025 急性缺血性腦中風處置建議**、**2025 IVT 指引更新**、**2026 Tenecteplase IVT 共識**（見學會官網）。[^4]
 
 ### 參考來源
 [^1]: Powers WJ, Derdeyn CP, Biller J, et al. *2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment*. Stroke. 2015;46(10):3020-3035. https://doi.org/10.1161/STR.0000000000000074 （實際查證原文 accessed 2026-06-15：IV r-tPA「even if endovascular considered」Class I；觀察 tPA 反應 Class III 不建議；NECT 多數可決策 Class I；CTA/MRA 強烈建議但勿延遲 tPA；perfusion 選病人效益 unknown，Class IIb；技術目標 mTICI 2b/3，6 小時內）。**此為 2016 考題之依據；其後更新見 [^2][^3]**。
 [^2]: Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines*. Stroke. 2019;50(12):e344-e418. https://doi.org/10.1161/STR.0000000000000211 （現行 AHA/ASA 綜合指引；取栓窗延長至 24h，DAWN/DEFUSE-3 以 mismatch 選病人 Class I。經 PubMed 取得書目 PMID 31662037）。
-[^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。經 PubMed 取得書目 PMID 33928011）。台灣腦中風學會另有 2020 血壓控制指引（J Formos Med Assoc 2022）、2023 ICAD 指引（JCMA 2023）。
+[^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。PMID 33928011）。
+[^4]: 台灣腦中風學會治療指引（官網 http://www.stroke.org.tw/guideline/ ，實際查證 accessed 2026-06-17）。**2023 急性缺血中風動脈內血栓移除治療指引更新（全文已讀，官網公開 PDF）**：EVT 窗 6–24h；6–24h 以 CTP/MRP 或 CTA collateral score／DWI infarct core 選病人（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT）；納入 large-core EVT 證據。另列 2025 急性缺血性腦中風處置建議、2025 IVT 指引更新、2026 Tenecteplase IVT 共識、2019 EVT/IVT 指引。
 
 ## 題目
 > [!question]- 考慮血管內治療時，可否為搶時間跳過 IV r-tPA？
