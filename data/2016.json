@@ -7848,6 +7848,228 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-213",
+      "year": 2016,
+      "number": 213,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "The following radiographic abnormalities are NOT related to anterior shoulder dislocation:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hill-Sachs lesion."
+        },
+        {
+          "letter": "B",
+          "text": "Bankart lesion."
+        },
+        {
+          "letter": "C",
+          "text": "Trough-like impaction fracture of the humeral head."
+        },
+        {
+          "letter": "D",
+          "text": "Subcoracoid position of the humeral head."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: posterior shoulder dislocation（實際查證 2026-06-18）；Musculoskeletal Imaging: The Requisites（Manaster）p.554",
+      "explanation": "正解 **C**（非前脫位）。前脫位＝Hill-Sachs（肱骨頭後外側壓迫）、Bankart（前下盂唇）、肱骨頭 subcoracoid 位。\n- **C（正解）**：**trough-like impaction（trough sign／reverse Hill-Sachs）屬『後』脫位**。\n\n→ [[shoulder-dislocation]]",
+      "images": [],
+      "concepts": [
+        "shoulder-dislocation"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-214",
+      "year": 2016,
+      "number": 214,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "A 14 y/o male gets an eccentric geographic osteolytic lesion with a very dense sclerotic border, endosteal scalloping, and sharp zone of transition in his distal metaphysis of the tibia. Which is the most likely impression?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nonossifying fibroma."
+        },
+        {
+          "letter": "B",
+          "text": "Giant cell tumor."
+        },
+        {
+          "letter": "C",
+          "text": "Enchondroma."
+        },
+        {
+          "letter": "D",
+          "text": "Fibrous dysplasia."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia: non-ossifying fibroma（實際查證 2026-06-18）；Diagnostic Imaging: Orthopedics",
+      "explanation": "正解 **A**。**Nonossifying fibroma（NOF）**＝青少年、長骨幹骺端偏心、地圖狀透亮、薄/緻密硬化緣、清楚移行帶。GCT（骨閉合後鄰關節）、enchondroma（手足、軟骨鈣化）、fibrous dysplasia（毛玻璃）皆不符。\n\n→ [[nonossifying-fibroma]]",
+      "images": [],
+      "concepts": [
+        "nonossifying-fibroma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-215",
+      "year": 2016,
+      "number": 215,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a radiographic feature of Ollier disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple endochondromas."
+        },
+        {
+          "letter": "B",
+          "text": "Hand and foot deformities."
+        },
+        {
+          "letter": "C",
+          "text": "Nonhereditary disorder."
+        },
+        {
+          "letter": "D",
+          "text": "Soft tissue hemangiomas."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: enchondromatosis（實際查證 2026-06-18）；Primer of Diagnostic Imaging 5th ed., p.314",
+      "explanation": "正解 **D**（非 Ollier 特徵）。Ollier disease＝非遺傳、多發性內生軟骨瘤、手足變形/肢長不等。\n- **D（正解）**：**軟組織血管瘤屬 Maffucci syndrome**（伴靜脈石），非 Ollier。\n\n→ [[enchondromatosis]]",
+      "images": [],
+      "concepts": [
+        "enchondromatosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-216",
+      "year": 2016,
+      "number": 216,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the followings differentiates aneurysmal bone cyst from simple bone cyst?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shepherd's crook deformity."
+        },
+        {
+          "letter": "B",
+          "text": "Significant limb length discrepancy."
+        },
+        {
+          "letter": "C",
+          "text": "A very dense sclerotic border."
+        },
+        {
+          "letter": "D",
+          "text": "Buttressing effect."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: aneurysmal bone cyst（實際查證 2026-06-18）；Cystic bone lesions, in Imaging of Bone Tumors and Tumor-Like Lesions",
+      "explanation": "正解 **D**。**Buttressing effect（皮質支撐/扶壁）**＝ABC 偏心、明顯膨脹重塑的表現;SBC 為中央性、膨脹不超骨幹寬。Shepherd's crook（fibrous dysplasia）、明顯肢長不等、緻密硬化緣（NOF）非鑑別點。\n\n→ [[aneurysmal-bone-cyst]]",
+      "images": [],
+      "concepts": [
+        "aneurysmal-bone-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-217",
+      "year": 2016,
+      "number": 217,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Most common intramedullary neoplastic lesion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangioblastoma."
+        },
+        {
+          "letter": "B",
+          "text": "Astrocytoma."
+        },
+        {
+          "letter": "C",
+          "text": "Ependymoma."
+        },
+        {
+          "letter": "D",
+          "text": "Metastasis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: spinal ependymoma（實際查證 2026-06-18）；Radiology Review Manual 7th ed.",
+      "explanation": "正解 **C**。**Ependymoma 為成人最常見髓內腫瘤**（占膠質性髓內腫瘤約 60%）。Astrocytoma 為兒童最常見;hemangioblastoma（VHL、壁結節＋囊）、metastasis（少見、明顯水腫）較少。\n\n→ [[intramedullary-spinal-tumors]]",
+      "images": [],
+      "concepts": [
+        "intramedullary-spinal-tumors"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-218",
+      "year": 2016,
+      "number": 218,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "A 40-year-old female with a history of low back pain. What MRI feature is useful in differentiating discitis from Modic type 1 endplate change?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reduction in disc height."
+        },
+        {
+          "letter": "B",
+          "text": "High signal change in the endplate on T2WI."
+        },
+        {
+          "letter": "C",
+          "text": "High signal change within the disc on T2WI."
+        },
+        {
+          "letter": "D",
+          "text": "Mild irregularity of the endplates."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: spondylodiscitis（實際查證 2026-06-18）；RadioGraphics（題目所引）",
+      "explanation": "正解 **C**。**椎間盤內 T2 高訊號（含椎間盤強化、核間裂消失、終板破壞）為感染特徵**;Modic type 1 僅終板/骨髓變化、椎間盤不呈高訊號。椎間盤高度降低（A）、終板 T2 高訊號（B）、終板輕度不規則（D）兩者皆可見、鑑別力低。\n\n→ [[spondylodiscitis]]",
+      "images": [],
+      "concepts": [
+        "spondylodiscitis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
