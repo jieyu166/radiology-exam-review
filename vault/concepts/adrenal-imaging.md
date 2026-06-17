@@ -20,6 +20,7 @@ dateRev: 2026-06-15
 - **腎上腺皮質結節性增生**：**隨年齡增加**而盛行率上升；常**雙側、多結節**（非單一焦點/單側），且**可與腺瘤並存**。[^2]（049：B）
 - **腎上腺 pseudocyst 之 T1 高訊號**：源自**出血**（pseudocyst 多為陳舊出血演變、無上皮襯裡）；非脂肪/鈣化/單純液體。[^2]（050：B）
 - **Pheochromocytoma 鈣化**：**約 10%**（「10% rule」之一）。[^1]（051：A）
+  - **Pheochromocytoma 的「10% rule」**[^1]：~10% **extra-adrenal**、~10% **bilateral**、~10% **malignant**、~10% **in children**、~10% **not associated with hypertension**、~10% **contain calcification**。（舊版另列「10% familial」，但現代資料顯示遺傳性實際 ~30–40%，此項已過時。）
 - **雙側界清腎上腺腫塊/腫大**：最可能為**感染**（肉芽腫性：結核、組織漿菌等致雙側腎上腺腫大）；ACC/腺瘤/oncocytoma 多單側。[^2]（052：C）
 - **成人腎上腺出血最常見病因＝鈍挫傷（blunt trauma）**；雙側出血則少因外傷，多與壓力/敗血（Waterhouse-Friderichsen）/DIC/抗凝有關。[^3][^2]（053：C）
 

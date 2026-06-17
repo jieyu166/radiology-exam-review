@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "questions/2016/2016-012.md",
+                "file": "questions/2016/2016-062.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2016-012"
+              "title": "2016-062"
             }
           }
         ]
@@ -184,9 +184,19 @@
               "icon": "lucide-ghost",
               "title": "claudian-view"
             }
+          },
+          {
+            "id": "74de8187e25112fc",
+            "type": "leaf",
+            "state": {
+              "type": "chronology-calendar-view",
+              "state": {},
+              "icon": "clock",
+              "title": "Chronology"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -201,11 +211,29 @@
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
-      "obsidian-spaced-repetition:復習卡片": false
+      "obsidian-spaced-repetition:復習卡片": false,
+      "chronology:Open Chronology": false
     }
   },
   "active": "ed807561158d7c21",
   "lastOpenFiles": [
+    "questions/2016/2016-059.md",
+    "concepts/ascending-aortic-aneurysm.md",
+    "questions/2016/2016-060.md",
+    "questions/2016/2016-061.md",
+    "questions/2016/2016-054.md",
+    "questions/2016/2016-053.md",
+    "questions/2016/2016-052.md",
+    "questions/2016/2016-049.md",
+    "questions/2016/2016-051.md",
+    "questions/2016/2016-050.md",
+    "concepts/adrenal-adenoma.md",
+    "questions/2016/2016-003.md",
+    "questions/2016/2016-002.md",
+    "questions/2016/2016-005.md",
+    "questions/2016/2016-004.md",
+    "questions/2016/2016-001.md",
+    "questions/2016/2016-012.md",
     "concepts/sclerosing-pneumocytoma.md",
     "concepts/rib-tumor.md",
     "concepts/langerhans-cell-histiocytosis.md",
@@ -215,24 +243,7 @@
     "concepts/lung-cancer.md",
     "questions/2016/2016-029.md",
     "concepts/spondylolysis.md",
-    "concepts/synovial-bursa-communication.md",
-    "concepts/ct-venography.md",
-    "concepts/cerebral-deep-venous-cortex.md",
     "concepts/cerebral-deep-venous-cortex.md.tmp.29896.48d97f844882",
-    "concepts/anti-nmda-encephalitis.md",
-    "concepts/sphenoparietal-sinus.md",
-    "concepts/lenticulostriate-arteries.md",
-    "questions/2016/2016-028.md",
-    "questions/2016/2016-027.md",
-    "questions/2016/2016-026.md",
-    "questions/2016/2016-025.md",
-    "concepts/acute-hepatitis-us.md",
-    "concepts/acute-stroke-management.md",
-    "concepts/pulmonary-sarcoidosis.md",
-    "concepts/tracheal-tumors.md",
-    "concepts/ultrasound-speed-artifact.md",
-    "concepts/upj-obstruction.md",
-    "concepts/ureteral-filling-defect.md",
     "concepts/ccta.md.tmp.56792.b4de259cbb2d",
     "concepts/lung-cancer.md.tmp.56792.d3082bc8199b",
     "concepts/pulmonary-sarcoidosis.md.tmp.56792.6d6e6248412e",

@@ -1883,7 +1883,7 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Pheochromocytoma 約 **10%** 含鈣化（「10% rule」之一）。\n\n(A) **10%（正解）**。\n(B) 30%：過高。\n(C) 50%：過高。\n(D) 70%：過高。",
+      "explanation": "Pheochromocytoma 約 **10%** 含鈣化（「10% rule」之一）。\n\n**Pheochromocytoma 的「10% rule」**：~10% extra-adrenal、~10% bilateral、~10% malignant、~10% in children、~10% not associated with hypertension、~10% contain calcification。（舊版另列「10% familial」，但現代資料顯示遺傳性實際 ~30–40%，已過時。）\n\n(A) **10%（正解）**：約 10% 含鈣化。\n(B) 30%：過高。\n(C) 50%：過高。\n(D) 70%：過高。",
       "images": [],
       "concepts": [
         "adrenal-imaging"
