@@ -4823,7 +4823,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "下列關於 amyloidosis 的敘述何者為非? (A)典型 Amyloid deposition signal 在 T1WI&T2WI 皆為 low signal",
       "options": [
@@ -4841,10 +4841,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Musculoskeletal Image 2nd edition, Chapter 79, p.890-890.e7.",
+      "reference": "Radiopaedia: amyloid arthropathy（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（為非）。\n- A 對：amyloid 沉積 T1WI 與 T2WI 皆低訊號。\n- **B（正解，為非）**：amyloid 沉積**不以鈣化為特徵**（非鈣化軟組織沉積）。\n- C 對：滑膜增厚＋骨侵蝕。\n- D 對：shoulder pad sign（雙肩對稱沉積）。\n\n→ [[musculoskeletal-amyloidosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "musculoskeletal-amyloidosis"
+      ],
       "checked": false
     },
     {
@@ -4854,7 +4856,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "下列關於 Parosteal osteosarcoma 的敘述，何者為非？",
       "options": [
@@ -4876,10 +4878,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Musculoskeletal Imaging, The Requisites,3rd ed.p435-438.",
+      "reference": "Radiopaedia: parosteal osteosarcoma（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（為非）。\n- A 對：與皮質間有 cleavage plane、包繞骨幹。\n- B 對：骨旁分葉腫塊。\n- **C（正解，為非）**：parosteal 只是**最常見的 surface/juxtacortical 型、佔所有骨肉瘤 ~4%**；conventional 髓內型才是所有骨肉瘤中最常見。\n- D 對：低惡性度、分化佳、生長慢、預後較好。\n\n→ [[parosteal-osteosarcoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "parosteal-osteosarcoma"
+      ],
       "checked": false
     },
     {
@@ -4889,7 +4893,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which structure is not injured in Gamkeeper’s Thumb?",
       "options": [
@@ -4911,10 +4915,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Musculoskeletal Imaging-Case review series 2nd edition, p.184",
+      "reference": "Radiopaedia: gamekeeper thumb（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（未受傷）。Gamekeeper/Skier thumb＝拇指第一 MCP 的**尺側副韌帶（UCL）**撕脫/斷裂。\n- **B（正解）**：**橈側副韌帶（radial collateral ligament）未受傷**。\n- A（UCL）、C（近端指骨基部）、D（第一 MCP 關節）皆可受累。\n\n→ [[gamekeeper-thumb]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gamekeeper-thumb"
+      ],
       "checked": false
     },
     {
@@ -4924,7 +4930,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following statement about US elastography is incorrect?",
       "options": [
@@ -4946,10 +4952,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Breast elastography. p.3-9",
+      "reference": "Radiopaedia: ultrasound elastography / liver elastography（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（incorrect）。\n- A 對：elastography 量組織硬度（取代觸診）。\n- B 對：strain elastography 測相對應變/彈性。\n- C 對：precompression 會影響 strain 與 shear wave 結果。\n- **D（正解，錯）**：**ARFI 屬 shear wave（剪力波）技術、為定量**；strain 用（手動/生理）壓縮、為相對/半定量。「strain elastography 用 ARFI 當壓縮力做定量」混淆兩者。\n\n→ [[liver-elastography]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-elastography"
+      ],
       "checked": false
     },
     {
@@ -4959,7 +4967,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "下列何者”不是” Hypertrophied column of Bertin 常見的超音波影像發 現?",
       "options": [
@@ -4981,10 +4989,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Sonography of the hypertrophied column of Bertin. AJR Am J Roentgenol. 1986;146 (1): 53-6.",
+      "reference": "Radiopaedia: hypertrophied column of Bertin（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（不是其發現）。\n- A 對：與腎皮質連續。\n- B 對：回音與正常皮質相同。\n- D 對：皮質突入腎竇。\n- **C（正解，不是）**：柏氏柱肥大**腎輪廓/表面保留正常**，**腎表面凹陷**不是其特徵。\n\n→ [[column-of-bertin]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "column-of-bertin"
+      ],
       "checked": false
     },
     {
@@ -4994,7 +5004,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "shows a 6 cm right adrenal mass, which shows heterogeneous but peripheral enhancement, necrosis, and some calcifications. There is an early invasion of the IVC. Left adrenal gland is atrophied. What is the most likely diagnosis?",
       "options": [
@@ -5016,10 +5026,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Ref: RadioGraphics 2004;24:435-452",
+      "reference": "Radiopaedia: adrenocortical carcinoma（實際查證 2026-06-17）",
+      "explanation": "正解 **A（Adrenal cortical carcinoma）**。6 cm 腎上腺腫塊、異質性周邊強化、壞死、鈣化、早期侵犯 → **ACC**（大、異質、壞死、~30% 鈣化、侵犯腎靜脈/IVC/肝）。\n- B pheo（顯著強化、T2 light-bulb）、C neuroblastoma（兒童、跨中線）、D adenoma（小、富脂、快 washout）較不符。\n\n→ [[adrenocortical-carcinoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenocortical-carcinoma"
+      ],
       "checked": false
     },
     {
@@ -5029,7 +5041,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "patella. Which following MRI findings is consistent with the clinical presentations?",
       "options": [
@@ -5051,10 +5063,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: RadioGraphics 2003;20:S135-S151",
+      "reference": "Radiopaedia: lateral patellar dislocation（實際查證 2026-06-17）",
+      "explanation": "正解 **C**。暫時性外側髕骨脫位的 kissing contusion＝**髕骨內側面（medial facet）＋ 外側股骨髁（lateral femoral condyle）** 骨髓水腫，伴 MPFL/內側支持帶撕裂、關節積液。\n\n→ [[patellar-dislocation]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "patellar-dislocation"
+      ],
       "checked": false
     },
     {
@@ -5064,7 +5078,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "during exercise. Popliteal artery entrapment is suspected clinically. Which of the following statements regarding imaging of popliteal artery entrapment syndrome (PAES) is true?",
       "options": [
@@ -5086,10 +5100,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: American Journal of Roentgenology 2007;189:S13-S16",
+      "reference": "Radiopaedia: popliteal artery entrapment syndrome（實際查證 2026-06-17）",
+      "explanation": "正解 **D**。\n- **D（正解）**：**導管血管攝影（DSA）配合誘發姿勢為（傳統）金標準**。\n- A 錯：壓迫需蹠屈/背屈誘發，非中立位。\n- B 錯：靜息 Doppler 可正常，正常 Doppler **不能**排除診斷。\n- C 錯：解剖敘述不正確。\n\n→ [[popliteal-artery-entrapment]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "popliteal-artery-entrapment"
+      ],
       "checked": false
     },
     {
@@ -5099,7 +5115,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "with pain in both hands. Which of the following findings on plain radiograph of the hands is atypical of skeletal sarcoidosis?",
       "options": [
@@ -5121,10 +5137,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Ref: RadioGraphics 2004;24:87-104",
+      "reference": "Radiopaedia: skeletal sarcoidosis（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（非典型）。\n- **A（正解，非典型）**：骨骼類肉瘤病**關節/椎間隙通常保留**，**關節間隙狹窄非典型**。\n- B（bone erosion）、C（皮下軟組織結節）、D（lace-like 骨破壞）皆典型。\n\n→ [[skeletal-sarcoidosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "skeletal-sarcoidosis"
+      ],
       "checked": false
     },
     {
@@ -5134,7 +5152,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "The tracheal bronchus most commonly arises from which of the following site?",
       "options": [
@@ -5156,10 +5174,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 1",
+      "reference": "Radiopaedia: tracheal bronchus（實際查證 2026-06-17）",
+      "explanation": "正解 **B**。tracheal bronchus（pig bronchus/bronchus suis）最常起自**氣管右側壁、距分叉（隆突）<2 cm**。\n\n→ [[tracheal-bronchus]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tracheal-bronchus"
+      ],
       "checked": false
     },
     {
@@ -5169,7 +5189,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Calcified pulmonary metastatic nodules occurs commonly in the following except?",
       "options": [
@@ -5191,10 +5211,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 112",
+      "reference": "Radiopaedia: calcifying pulmonary metastases（實際查證 2026-06-17）",
+      "explanation": "正解 **D（除外 HCC）**。會鈣化的肺轉移：A osteosarcoma（成骨）、B 大腸黏液腺癌、C 甲狀腺癌皆會鈣化；**D 肝細胞癌（HCC）不屬常見鈣化肺轉移**。\n\n→ [[calcified-pulmonary-metastases]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "calcified-pulmonary-metastases"
+      ],
       "checked": false
     },
     {
@@ -5204,7 +5226,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following interstitial pnumonias is smoking-related?",
       "options": [
@@ -5226,10 +5248,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins P. 420",
+      "reference": "Radiopaedia / RG 2026 smoking-related ILD（實際查證 2026-06-17）",
+      "explanation": "正解 **B（DIP）**。**Desquamative interstitial pneumonia（DIP，現稱 AMP）為直接吸菸相關**。A LIP（Sjögren/自體免疫）、C NSIP（CTD/特發）、D UIP（IPF/特發）非吸菸專屬。\n\n→ [[smoke-lung]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "smoke-lung"
+      ],
       "checked": false
     },
     {
@@ -5239,7 +5263,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "What is the commonest location for spontaneous hypertensive intracranial hemorrhage?",
       "options": [
@@ -5261,10 +5285,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: hypertensive intracerebral hemorrhage（實際查證 2026-06-17）",
+      "explanation": "正解 **A**。自發性高血壓腦出血最常見位置＝**putamen/external capsule（基底節，lenticulostriate ~80%）**；其次 pons、cerebellum 各約 10%。\n\n→ [[hypertensive-hemorrhage]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertensive-hemorrhage"
+      ],
       "checked": false
     },
     {
@@ -5274,7 +5300,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "The effects of acute radiation syndromes are observed in the majority of the population at doses above which of the following? • (A) 10 Gy",
       "options": [
@@ -5292,10 +5318,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: Turner J: Chemical and biological effects of radiation. In Atoms, Radiation, and Radiation Protection. 3rd ed. Weinheim, Germany: Wiley-VCH. 215, 2007",
+      "reference": "Radiopaedia: acute radiation syndrome（實際查證 2026-06-17）",
+      "explanation": "正解 **B（1 Gy）**。急性放射症候群（ARS）>0.5 Gy 可發生，**多數族群在 ~1 Gy** 出現效應（造血型 1–8 Gy）。\n\n（原選項 B、D 皆顯示 1 Gy；正解為 1 Gy。）\n\n→ [[radiation-deterministic-effects]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
       "checked": false
     },
     {
@@ -5305,7 +5333,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the most common category of causes for splenomegaly? • (A) Neoplastic (e.g., lymphoma)",
       "options": [
@@ -5323,10 +5351,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: 1. Peck-Radosavljevic M: Hypersplenism. Eur J Gastroenterol Hepatol. 13(4):317-23, 2001",
+      "reference": "Radiopaedia: splenomegaly（實際查證 2026-06-17）",
+      "explanation": "正解 **C（Congestive）**。脾腫大最常見病因類別＝**充血性（congestive，如門脈高壓、心衰）**（Radiopaedia 將 portal hypertension 標 common；地區依賴，流行區感染性亦常見）。\n\n→ [[splenomegaly]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "splenomegaly"
+      ],
       "checked": false
     },
     {
@@ -5336,7 +5366,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement about a direct digital detector is correct? • (A) Direct exposure of a charge coupled device (CCD) chip by x-ray photons",
       "options": [
@@ -5354,10 +5384,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Chotas HG et al: Principles of digital radiography with large-area, electronically readable detectors: a review of the basics. Radiology. 210(3):595-9, 1999",
+      "reference": "Radiopaedia: flat panel detector（實際查證 2026-06-17）",
+      "explanation": "正解 **D**。直接（direct）數位偵測器＝**X 光光子直接轉換成電荷**（非晶硒 a-Se 光導體）後讀出。\n- A 錯（CCD 屬間接）、B 錯（X 光轉可見光是『間接』）、C 不精確。\n\n→ [[digital-radiography-detectors]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "digital-radiography-detectors"
+      ],
       "checked": false
     },
     {
@@ -5367,7 +5399,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "What is the correct explanation for why a particular type of endoleak may occur after endovascular aortic repair (EVAR)? • (A) A type I endoleak occurs when patent branch vessels continue to perfuse the aneurysm sac",
       "options": [
@@ -5385,10 +5417,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: endoleak（實際查證 2026-06-17）",
+      "explanation": "正解 **C**。\n- **C（正解）**：**type III＝重疊移植物組件分離（junctional separation of modular components）或織物破孔**。\n- B 錯：type IV 才是 fabric porosity（非 tear）。\n- D 錯：附著處封合不良/poor apposition 是 type I（非 II；type II 為分枝血管回填）。\n\n→ [[endoleak]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "endoleak"
+      ],
       "checked": false
     },
     {
@@ -5398,7 +5432,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "What is the threshold for permanent sterility in males from an acute exposure, approximately? • (A) 1 Gy",
       "options": [
@@ -5416,10 +5450,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Bushberg J et al: The Essential Physics of Medical Imaging 2nd ed. Philadelphia: Lippincott Williams & Wilkins. 831, 2002",
+      "reference": "Radiopaedia: deterministic effects（實際查證 2026-06-17）",
+      "explanation": "正解 **D（6 Gy）**。男性單次急性照射**永久不孕閾值 ~4–6 Gy**（暫時不孕 ~0.15 Gy、白內障 ~0.5 Gy）。\n\n（原選項 A、C 皆顯示 1 Gy；正解為 6 Gy。）\n\n→ [[radiation-deterministic-effects]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
       "checked": false
     },
     {
@@ -5429,7 +5465,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following types of odontoid fracture is most common? • (A) Type III",
       "options": [
@@ -5447,10 +5483,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Pryputniewicz DM et al: Axis fractures. Neurosurgery. 66(3 Suppl):68-82, 2010",
+      "reference": "Radiopaedia: odontoid fracture (Anderson-DAlonzo)（實際查證 2026-06-17）",
+      "explanation": "正解 **D（Type II）**。Anderson-DAlonzo：**Type II＝齒突基部橫向骨折＝最常見**（不穩定、易 nonunion）。Type I 齒突尖撕脫（罕、穩定）、Type III 延伸入 C2 椎體。\n\n→ [[odontoid-fracture]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "odontoid-fracture"
+      ],
       "checked": false
     },
     {
@@ -5460,7 +5498,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "be improved by the following reconstruction and post-processing techniques: 1. Smooth kernel and narrow window",
       "options": [
@@ -5478,10 +5516,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "Cardiac CT: A Problem-Based Approach（題目所引）；標準心臟 CT 後處理教學",
+      "explanation": "正解 **C（Sharp kernel + wider window）**。評估鈣化斑塊/支架內管腔：**銳利（高解析）kernel** 減少鈣/支架部分容積、**較寬 window** 縮小高密度 blooming → 利於看管腔。\n\n→ [[ccta]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ccta"
+      ],
       "checked": false
     },
     {

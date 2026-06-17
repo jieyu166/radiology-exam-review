@@ -53,6 +53,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 ### 參考來源
 [^1]: Budoff MJ, Dowe D, Jollis JG, et al. *Diagnostic Performance of 64-Multidetector Row Coronary CT Angiography... ACCURACY Trial*. J Am Coll Cardiol. 2008;52(21):1724-32. https://doi.org/10.1016/j.jacc.2008.07.031 （PubMed PMID 19007693；NCT00348569；實際查證 accessed 2026-06-14）。
 [^2]: Canan A, Ranganath P, Goerne H, Abbara S, Landeras L, Rajiah P. *CAD-RADS: Pushing the Limits*. RadioGraphics. 2020;40(3). https://doi.org/10.1148/rg.2020190164 （實際查證 accessed 2026-06-14）。
+[^3]: 評估鈣化斑塊/支架內管腔以 **sharp kernel ＋ wider window** 減少 blooming／部分容積，為標準心臟 CT 後處理教學（題目所引 *Cardiac Computed Tomography: A Problem-Based Approach*）。
 
 ## 題目
 > [!question]- ACCURACY trial 對 64-MDCT CCTA 偵測 ≥70% 冠狀動脈狹窄的主要發現為何？
@@ -63,6 +64,9 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 
 > [!question]- 哪個因素在 ACCURACY trial 中顯著降低 CCTA 的 specificity？
 > Calcium score >400（重度鈣化的 blooming artifact 增加偽陽性）；而肥胖與心率高低則無顯著影響。[^1]
+
+> [!question]- 評估鈣化斑塊/支架內管腔，哪種重建與後處理可改善？(2016-150)
+> **Sharp（高空間解析）kernel ＋ 較寬（wider）window**——銳利 kernel 提升空間解析、減少鈣/支架部分容積；加寬 window 縮小高密度鈣/支架的 blooming，利於看管腔。（標準心臟 CT 教學，*Cardiac CT: A Problem-Based Approach*）[^3]
 
 ## 考題
 ```dataview

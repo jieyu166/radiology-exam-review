@@ -89,6 +89,9 @@ concepts: [smoke-lung]
 > [!question]- DIP 現在的名稱是什麼？與哪個病同譜系？
 > 現稱 **AMP（alveolar macrophage pneumonia）**；與 **RB-ILD** 同屬巨噬細胞堆積譜系。影像為下肺為主的廣泛 GGO。[^1]
 
+> [!question]- 下列間質性肺炎何者「與吸菸相關」？(2016-142)
+> **Desquamative interstitial pneumonia（DIP，現稱 AMP）**——直接吸菸相關。LIP（Sjögren/自體免疫）、NSIP（CTD/特發）、UIP（IPF/特發）非吸菸專屬。[^1]
+
 > [!question]- 三種主要氣腫亞型的分布？
 > Centrilobular（上肺、最常見、小葉中央）／Paraseptal（subpleural、distal acinus）／Panlobular（下肺、整個小葉）。[^1]
 

@@ -50,6 +50,9 @@ dateRev: 2026-06-15
 > [!question]- 以 shear wave velocity 評肝硬化，怎麼量最穩定、再現性高？
 > **禁食、量右葉 seg 8（前葉 seg 5/8）、深度約 4 cm**（包膜下 1.5–2 cm、勿過深 >6–7 cm、取多次中位）。[^1]
 
+> [!question]- 關於超音波 elastography，何者敘述「錯誤」？(2016-134)
+> 「**strain elastography 用 ARFI 當壓縮力做定量**」錯——**ARFI 屬 shear wave（剪力波）技術、為定量（m/s）**；strain 用（手動/生理）壓縮、為相對/半定量。elastography 量硬度（取代觸診）、strain 測相對應變、precompression 會影響 strain 與 shear wave 結果，皆正確。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "liver-elastography")

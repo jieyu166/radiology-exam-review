@@ -25,11 +25,14 @@ dateRev: 2026-06-17
 > **type I＝附著處封合(device)失敗**(正解)。錯者:最常見其實是 type II;與破裂相關是 type I/III(非 II);porosity 是 type IV(非 III)。[^1]
 
 ### 參考來源
-[^1]: 內漏分型標準教學(Radiopaedia *endoleak*):I 附著處、II 分枝血管(最常見)、III 移植物缺損、IV 織孔 porosity、V endotension;I/III 為高壓破裂風險須處理。
+[^1]: *Endoleak*. Radiopaedia.org(實際查證 accessed 2026-06-17):**type I** 附著處(Ia 近端/Ib 遠端/Ic iliac occluder)、**type II** 分枝血管回填(最常見;IIa 單支/IIb 多支)、**type III** 移植物缺陷(**IIIa junctional separation of modular components**、IIIb fabric fracture/hole)、**type IV** graft fabric porosity(術中、多自行緩解)、type V endotension;I/III 為高壓破裂風險須處理。
 
 ## 題目
 > [!question]- 關於 EVAR 內漏(endoleak),何者正確?
 > **type I 因附著處封合/裝置失敗**。最常見是 **type II**(非 I);與破裂相關是 type I/III(非 II);graft porosity 是 **type IV**(非 III)。[^1]
+
+> [!question]- 哪型內漏的正確成因? (2016-147)
+> **Type III＝重疊移植物組件分離(junctional separation of modular components)或織物破孔**。type IV 才是 fabric porosity(非 tear)、type II 是分枝血管回填、type I 是附著處封合不良。[^1]
 
 ## 考題
 ```dataview
