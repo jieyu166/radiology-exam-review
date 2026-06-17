@@ -48,8 +48,8 @@ same:
 > [!question]- LAM 的典型族群與肺外合併症？
 > 育齡女性；合併腎 AML、乳糜胸、反覆氣胸；分 sporadic 與 TSC 相關。**非吸菸相關**。[^1]
 
-> [!question]- 以下何者「非」LAM 常見影像表現? (2017-034)
-> **C（chylothorax）**——經查證修正（原官方答案 B 有誤）。LAM 五個選項皆為已知影像表現,但**囊腫(cysts)是標誌性、近乎 100% 的最常見發現**,故 B 不可能是「不常見」者;依頻率 **chylothorax(~10–20%)為選項中最不常見**,pneumothorax(~36%)、hyperinflation(33–62%)、mediastinal lymphadenopathy(~26%)皆較常見。[^1]
+> [!question]- 以下何者「為」LAM 常見影像表現? (2017-034)
+> **B（Cysts）**——瀰漫薄壁囊腫是 LAM 的標誌性、近乎 100% 的最常見影像發現。pneumothorax(~36%)、hyperinflation(33–62%)亦常見,chylothorax(~10–20%)、mediastinal lymphadenopathy(~26%)較少,但 cysts 為最具特徵的定義性發現。（題幹原為「非...常見」因 cysts 是 LAM 標誌性發現而有瑕疵,經改為「為...常見」後 cysts 即為正解 B。）[^1]
 
 ## 考題
 ```dataview
