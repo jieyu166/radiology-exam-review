@@ -85,6 +85,18 @@ def _normalize_footnotes(explanation: str) -> tuple[str, list[str]]:
     return body, ref_defs
 
 
+def _yaml_block_list(key: str, items) -> str:
+    """以 YAML block 格式輸出清單欄位（每項一行 `  - x`）。
+
+    Obsidian Properties 對 inline flow 格式（`year: [2016]`）會跳「multitext 不相容」
+    警告；block 格式才會被正確辨識為 List 型別。空清單退回 `key: []`。
+    """
+    items = [str(i) for i in items if str(i) != ""]
+    if not items:
+        return f"{key}: []"
+    return key + ":\n" + "\n".join(f"  - {it}" for it in items)
+
+
 def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     """把一題渲染成 SR 卡片 markdown。
 
@@ -102,10 +114,10 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     frontmatter = [
         "---",
         f"id: {q.get('id', '')}",
-        f"year: [{', '.join(str(y) for y in years)}]",
+        _yaml_block_list("year", years),
         f"subspecialty: {sub}",
         f"correctAnswer: {q.get('correctAnswer', '')}",
-        f"concepts: [{', '.join(concepts)}]",
+        _yaml_block_list("concepts", concepts),
         f"checked: {str(bool(q.get('checked'))).lower()}",
         "---",
     ]  # genHash 於最後插入（見函式結尾）
