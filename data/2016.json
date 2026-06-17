@@ -3356,7 +3356,7 @@
       "id": "2016-091",
       "year": 2016,
       "number": 91,
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "To improve sensitivity of Doppler ultrasonography, which measurement on the list is incorrect?",
       "options": [
@@ -3379,9 +3379,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Ultrasound: The requisite, 2nd edition. Page 18",
+      "explanation": "提升都卜勒敏感度應**減小**角度(趨0°),故 (D)「增大角度」不正確。\n\n(A) 增加 gain:可。\n(B) 增加 power output:可。\n(C) 降低 scale(PRF):可(測慢速血流)。\n(D) **增大 Doppler 角度(正解＝不正確)**:頻移∝cosθ,增角度→訊號↓(>60°不可靠)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "doppler-optimization"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3391,7 +3393,7 @@
       "id": "2016-092",
       "year": 2016,
       "number": 92,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "關於 MRI，下列何項敘述為非？ Chemical shift is due to the differences between resonance frequencies of fat and water. It occurs in the frequency-encode direction Type 1, or chemical shift misregistration artifact, is present on all sequences to some extent, although it is often imperceptible. Type 2, or chemical shift cancellation artifact, is only present on out of phase sequences",
       "options": [
@@ -3414,9 +3416,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Duke Review of MRI Principles: Case Review Series, 1e 1st Edition. Page 102-110.",
+      "explanation": "反相位訊號抵消需『同一像素內脂＋水並存』,純脂肪不會完全失訊號,故 (B) 為非。\n\n(A) Type2 只見於反相位(脂水並存):正確。\n(B) **純脂肪在 out-of-phase 完全失訊號(正解＝為非)**:抵消需脂+水並存。\n(C) India ink 環繞器官、與 type1(僅頻率編碼軸)區分:正確。\n(D) Hemosiderosis 時肝脾 out-of-phase 較亮(in-phase T2*):正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "chemical-shift-artifact"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3426,7 +3430,7 @@
       "id": "2016-093",
       "year": 2016,
       "number": 93,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the “wrong” statement about renal angiomyolipoma?",
       "options": [
@@ -3449,9 +3453,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Diagnostic imaging abdomen, p IV, 3, 121-122",
+      "explanation": "腎 AML 鈣化**罕見**(有鈣化想 RCC),故 (B) 錯。\n\n(A) 含異常血管+平滑肌+脂肪之良性瘤:正確。\n(B) **常見鈣化(正解＝錯)**:罕見,有鈣化想 RCC。\n(C) 多發想 tuberous sclerosis:正確。\n(D) >4cm 常建議部分腎切除:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-aml"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3461,7 +3467,7 @@
       "id": "2016-094",
       "year": 2016,
       "number": 94,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the “wrong” statement about retroperitoneal fibrosis?",
       "options": [
@@ -3480,9 +3486,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Diagnostic imaging abdomen, p IV, 1, 11",
+      "explanation": "後腹膜纖維化使輸尿管**內側(medial)偏移**(非外側),故 (B) 錯。\n\n(A) 包繞主動脈/IVC/輸尿管:正確。\n(B) **輸尿管中段外側(lateral)偏移(正解＝錯)**:應為內側(medial)偏移。\n(C) 斑塊由橫膈腳延伸至 common iliac:正確。\n(D) CT 強化隨纖維分期變化:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3492,7 +3500,7 @@
       "id": "2016-095",
       "year": 2016,
       "number": 95,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "What is the “wrong” statement about renal oncocytoma?",
       "options": [
@@ -3515,9 +3523,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Diagnostic imaging abdomen, p IV, 3, 117",
+      "explanation": "Bizarre neoplastic vessels＋AV shunting 是 RCC 特徵(oncocytoma 為 spoke-wheel),故 (D) 錯。\n\n(A) 集尿管嗜酸上皮良性瘤:正確。\n(B) Nephrographic 期較腎實質低密度:正確。\n(C) 中央放射狀低密度疤痕:正確。\n(D) **血管攝影 bizarre vessels＋AV shunting(正解＝錯)**:屬 RCC;oncocytoma 為 spoke-wheel。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-oncocytoma"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3527,7 +3537,7 @@
       "id": "2016-096",
       "year": 2016,
       "number": 96,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "關於 Endoleaks of the aorta 下列敘述何者正確?",
       "options": [
@@ -3550,9 +3560,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Mita T, Arita T, Matsunaga M et al. Complications of endovascular repair for thoracic and abdominal aortic aneurysm: an imaging spectrum Radiographics. 2000 Sep-Oct; 20(5):1263-78.",
+      "explanation": "消去法:最常見是 type II(非 I)、與破裂相關是 type I/III(非 II)、porosity 是 type IV(非 III) → 唯 (D) type I=封合/裝置失敗正確。\n\n(A) 最常見 type I:錯(type II 最常見)。\n(B) type II 與破裂:錯(type I/III)。\n(C) type III 與 graft porosity:錯(type IV)。\n(D) **type I 因 device 失敗(正解)**:type I=附著處封合不全。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "endoleak"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3562,7 +3574,7 @@
       "id": "2016-097",
       "year": 2016,
       "number": 97,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "下列關於 mycotic aneurysm 的描述何者錯誤?",
       "options": [
@@ -3585,9 +3597,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: Radiology review manual, 7th ed, P.625-626",
+      "explanation": "梅毒性主動脈瘤亦屬感染性,故 (D)「全部都是非梅毒感染所致」錯。\n\n(A) 好發胸/腎上主動脈:正確。\n(B) 主動脈壁鈣化環中斷:正確。\n(C) 主動脈旁發炎/積氣:正確。\n(D) **全部都是非梅毒感染所致(正解＝錯)**:梅毒亦為感染性主動脈炎。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mycotic-aneurysm"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3597,7 +3611,7 @@
       "id": "2016-098",
       "year": 2016,
       "number": 98,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement about the coronary artery fistula is false?",
       "options": [
@@ -3620,9 +3634,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology review manual, 7th ed, P.642",
+      "explanation": "冠狀動脈瘻管起源以 RCA(~50%)>LAD(~42%),故 (C)「左>右」為假。\n\n(A) 單/多發瘻管:正確。\n(B) 引流 RV>RA>肺動脈幹>冠狀竇:正確。\n(C) **左冠 > 右冠(正解＝為假)**:實為 RCA>LAD。\n(D) 可有左到右分流:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "coronary-fistula"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3632,7 +3648,7 @@
       "id": "2016-099",
       "year": 2016,
       "number": 99,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement about the May-Thurner syndrome is right?",
       "options": [
@@ -3655,9 +3671,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Radiology review manual, 7th ed, P.653",
+      "explanation": "May-Thurner＝**右髂總動脈壓迫左髂總靜脈**,故 (B) 正確。\n\n(A) 右動脈壓左『動脈』:錯。\n(B) **右髂總動脈壓迫左髂總靜脈(正解)**。\n(C) 左靜脈壓右靜脈:錯。\n(D) 左靜脈壓右動脈:錯。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "may-thurner"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3667,7 +3685,7 @@
       "id": "2016-100",
       "year": 2016,
       "number": 100,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement about aortic arch anomalies is false?",
       "options": [
@@ -3690,9 +3708,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: Luis Ramos-Duran, John W. Nance, Jr. Developmental Aortic Arch Anomalies in Infants and Children Assessed With CT Angiography. AJR. 2012 May;198(5):W466-74",
+      "explanation": "左弓＋迷走右鎖骨下動脈最常見但**多無症狀**,故 (A)「常造成壓迫症狀」為假。\n\n(A) **最常見且常造成壓迫症狀(正解＝為假)**:最常見但多無症狀(偶 dysphagia lusoria)。\n(B) Kommerell 憩室壓食道:正確。\n(C) 次常見為右弓鏡像分枝:正確。\n(D) 右弓鏡像分枝關聯 DiGeorge:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "aortic-arch-anomalies"
+      ],
       "checked": false,
       "years": [
         2016

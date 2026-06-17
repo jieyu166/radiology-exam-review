@@ -1,0 +1,38 @@
+---
+concepts: [renal-aml]
+name: Renal Angiomyolipoma (AML)
+subspecialty: [ABD]
+aliases:
+  - renal angiomyolipoma
+  - AML
+  - 腎血管肌脂瘤
+dateRev: 2026-06-17
+same:
+  - "[[renal-oncocytoma]]"
+---
+
+# renal-aml
+
+**腎 AML＝含異常血管＋平滑肌＋『脂肪』的良性腫瘤;『含脂肪』是其招牌、『鈣化罕見』(有鈣化要想 RCC);多發 AML 想 tuberous sclerosis;>4 cm 出血風險高→常建議處置(栓塞/部分腎切除)。** 判讀分水嶺一:**找肉眼脂肪(macroscopic fat)→ 良性 AML**;判讀分水嶺二:**鈣化罕見**——若有鈣化偏向 RCC。
+
+## Summary
+- **本質**:良性,由**異常血管＋平滑肌＋脂肪**組成(angio-myo-lipoma);CT/MR 找**肉眼脂肪**為診斷關鍵。[^1]
+- **鈣化罕見**:故「AML 常見鈣化」**錯誤**(2016-093 正解 B);**有鈣化要想 RCC**。[^1]
+- **多發 AML → tuberous sclerosis**(常雙側多發,亦見 lymphangioleiomyomatosis)。[^1]
+- **大小與處置**:**>4 cm** 自發出血(Wunderlich)風險高 → 常建議**栓塞或部分腎切除**。[^1]
+- 少數 fat-poor AML 與 RCC 難分,需進一步影像/切片。[^1]
+
+> [!note] 考點:何者「錯」?
+> 「AML **常見鈣化**」錯——鈣化**罕見**(有鈣化想 RCC)。含脂肪良性、多發想 TS、>4cm 常處置皆正確。[^1]
+
+### 參考來源
+[^1]: 腎 AML 標準泌尿影像教學(Radiopaedia *renal angiomyolipoma*):含肉眼脂肪之良性腫瘤、鈣化罕見(有則想 RCC)、多發想 tuberous sclerosis、>4cm 出血風險高常處置。
+
+## 題目
+> [!question]- 關於 renal AML,何者「錯」?
+> 「**常見鈣化**」錯——鈣化罕見(有鈣化想 RCC)。含脂肪良性、多發想 tuberous sclerosis、>4cm 常建議處置皆正確。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "renal-aml")
+```
