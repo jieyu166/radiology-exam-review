@@ -8292,6 +8292,228 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-225",
+      "year": 2016,
+      "number": 225,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding plain chest radiograph technique, which of the following statements is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "High kVp permits better visualization of the lung parenchyma and mediastinum as compared with low kVp."
+        },
+        {
+          "letter": "B",
+          "text": "Expiration radiography can be used to detect air trapping and confirm small pneumothorax."
+        },
+        {
+          "letter": "C",
+          "text": "Lordotic radiograph can be used to improve visualization of right middle lobe atelectasis."
+        },
+        {
+          "letter": "D",
+          "text": "At a target film distance of 6 feet, grid is not required to reduce scatter radiation."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: chest radiograph（實際查證 2026-06-18）；Thoracic Radiology: The Requisites, 2nd ed., p.1",
+      "explanation": "正解 **D**（不正確）。6 呎（180 cm）SID 主要降低**幾何放大率**,而非散射;降散射靠 **grid**（胸片高 kVp 散射多、常規使用 grid）。A 對（高 kVp 顯示心後/縱膈較佳）、B 對（呼氣片查 air trapping/小氣胸）、C 對（前凸位改善 RML 塌陷）。\n\n→ [[chest-radiography-technique]]",
+      "images": [],
+      "concepts": [
+        "chest-radiography-technique"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-226",
+      "year": 2016,
+      "number": 226,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pulmonary calcifications, which of the following statements is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Interstitial ossification in idiopathic pulmonary fibrosis appears as branching opacities along bronchovascular bundles."
+        },
+        {
+          "letter": "B",
+          "text": "Metastatic calcification due to renal failure usually occurs in the apical and subapical lung zones."
+        },
+        {
+          "letter": "C",
+          "text": "End-stage mitral stenosis is related to diffuse pulmonary calcification."
+        },
+        {
+          "letter": "D",
+          "text": "Laminated pattern in a pulmonary nodule is associated with malignancy."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: calcified pulmonary nodules / metastatic pulmonary calcification（實際查證 2026-06-18）；Thoracic Radiology: The Requisites, 2nd ed., pp.41,284",
+      "explanation": "正解 **D**（不正確）。**層狀（laminated/concentric）鈣化屬良性型態**（如肉芽腫）,非惡性。A 對（IPF 樹枝狀骨化沿支氣管血管束）、B 對（腎衰轉移性鈣化好發上肺、V/Q 高較鹼性）、C 對（末期二尖瓣狹窄致瀰漫肺鈣化/骨化）。\n\n→ [[pulmonary-calcification]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-calcification"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-227",
+      "year": 2016,
+      "number": 227,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding lung atelectasis, which of the following statements is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In lateral view, RUL atelectasis appears as a triangular opacity."
+        },
+        {
+          "letter": "B",
+          "text": "In lateral view, LUL atelectasis appears as an opacity extending from apex to diaphragm."
+        },
+        {
+          "letter": "C",
+          "text": "Luftsichel sign is para-aortic lucency on PA view due to hyper-aeration of the left lower lobe."
+        },
+        {
+          "letter": "D",
+          "text": "Right middle lobe syndrome is associated with endobronchial tumor."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: right middle lobe syndrome / Luftsichel sign（實際查證 2026-06-18）；Thoracic Radiology: The Requisites, 2nd ed., pp.31-34",
+      "explanation": "正解 **D**（不正確）。經典**右中葉症候群為非阻塞型**（差的側枝通氣＋窄 ostium＋感染/發炎）,非內支氣管腫瘤。A 對（RUL 側位三角形）、B 對（LUL 側位自尖延伸至橫膈）、C 對（Luftsichel＝LUL 塌陷時 LLL 上節段疝入致主動脈旁新月透亮）。\n\n→ [[lobar-atelectasis]]",
+      "images": [],
+      "concepts": [
+        "lobar-atelectasis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-228",
+      "year": 2016,
+      "number": 228,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "When performing a longitudinal scan in abdominal sonography, which direction is displayed on the left side of the screen (the left-hand side of the operator)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cranial."
+        },
+        {
+          "letter": "B",
+          "text": "Caudal."
+        },
+        {
+          "letter": "C",
+          "text": "Left."
+        },
+        {
+          "letter": "D",
+          "text": "Right."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "超音波影像方向標準慣例（實際查證 2026-06-18，123sonography / PMC9619033）",
+      "explanation": "正解 **A**。縱切（longitudinal）時探頭 marker 朝病人**頭側**、對應**螢幕左側**,故螢幕左＝**cranial（頭側）**、右＝caudal。\n\n→ [[ultrasound-image-orientation]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-image-orientation"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-229",
+      "year": 2016,
+      "number": 229,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most common congenital abnormality of the urinary tract?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ureteral duplication."
+        },
+        {
+          "letter": "B",
+          "text": "UPJ obstruction."
+        },
+        {
+          "letter": "C",
+          "text": "Primary megaureter."
+        },
+        {
+          "letter": "D",
+          "text": "Vesicoureteral reflux."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia: duplex collecting system（實際查證 2026-06-18）；RadioGraphics 2015;35(3):709-26",
+      "explanation": "正解 **A**。**Ureteral duplication（重複集尿系統）為泌尿道最常見先天異常**（~0.8% 人口）。Weigert-Meyer：上極輸尿管異位易阻塞、下極易 VUR。UPJ 阻塞、原發性巨輸尿管、VUR 較少。\n\n→ [[duplex-collecting-system]]",
+      "images": [],
+      "concepts": [
+        "duplex-collecting-system"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-230",
+      "year": 2016,
+      "number": 230,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which feature best distinguishes CT urography from contrast-enhanced CT with an excretory delayed phase?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are synonymous descriptions of the same CT technique."
+        },
+        {
+          "letter": "B",
+          "text": "Contrast-enhanced CT with an excretory delayed phase does not allow evaluation of the ureters."
+        },
+        {
+          "letter": "C",
+          "text": "CT urography does not include a contrast-enhanced phase."
+        },
+        {
+          "letter": "D",
+          "text": "CT urography includes a nonenhanced phase."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia: CT urography (protocol)（實際查證 2026-06-18）；RadioGraphics 2015;35(3):709-26",
+      "explanation": "正解 **D**。**CTU 含專屬未顯影（nonenhanced）期**（KUB 查結石）＋ nephrogram ＋ excretory 期。兩者皆能評估輸尿管（B 錯）、CTU 含顯影期（C 錯）、非同義詞（A 錯）。\n\n→ [[ct-urography]]",
+      "images": [],
+      "concepts": [
+        "ct-urography"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
