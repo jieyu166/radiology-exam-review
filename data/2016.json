@@ -7404,6 +7404,43 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-201",
+      "year": 2016,
+      "number": 201,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "According to the appropriateness criteria, what is the stent size below which it is inappropriate to perform CT for assessment of stent patency?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 mm"
+        },
+        {
+          "letter": "B",
+          "text": "2.5 mm"
+        },
+        {
+          "letter": "C",
+          "text": "2.75 mm"
+        },
+        {
+          "letter": "D",
+          "text": "3 mm"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "SCCT 2021 Expert Consensus on CCTA；冠狀動脈支架 CT 文獻（實際查證 2026-06-17）",
+      "explanation": "正解 **D（3 mm）**。依 appropriateness criteria，**支架直徑小於 3 mm 時以 CT 評估支架通暢『不適當』**（<3mm CT 對 in-stent restenosis 敏感度顯著下降，≤3mm ~54% vs >3mm ~86%）。與 2016-200 同一閾值（3 mm），僅選項表述不同。\n\n→ [[ccta]]",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }

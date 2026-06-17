@@ -69,8 +69,8 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 > [!question]- 評估鈣化斑塊/支架內管腔，哪種重建與後處理可改善？(2016-150)
 > **Sharp（高空間解析）kernel ＋ 較寬（wider）window**——dedicated/sharp kernel 較 soft kernel **減少模糊、更能區分 in-stent lumen 與 struts**（Radiopaedia 實際查證）；加寬 window 縮小高密度鈣/支架的 blooming，利於看管腔。[^3]
 
-> [!question]- 支架小於多少 mm 時，CT『不』建議用於評估支架通暢？(2016-200)
-> **< 3 mm**。SCCT 共識/文獻：支架 **<3 mm CT 對 in-stent restenosis 敏感度顯著下降（≤3mm ~54% vs >3mm ~86%）**，小支架臨床評估不建議；理想對象為 **≥3 mm、近端節段**支架。[^4]
+> [!question]- 支架小於多少 mm 時，CT『不』建議/不適當用於評估支架通暢？(2016-200/201)
+> **< 3 mm**（appropriateness criteria：直徑 <3 mm 以 CT 評估支架通暢不適當）。SCCT 共識/文獻：支架 **<3 mm CT 對 in-stent restenosis 敏感度顯著下降（≤3mm ~54% vs >3mm ~86%）**，小支架臨床評估不建議；理想對象為 **≥3 mm、近端節段**支架。[^4]
 
 ## 考題
 ```dataview
