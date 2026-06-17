@@ -3722,7 +3722,7 @@
       "id": "2016-101",
       "year": 2016,
       "number": 101,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which is incorrect about focal nodular hyperplasia (FNH)?",
       "options": [
@@ -3744,10 +3744,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Radiology Review Manual (Dahnert, Radiology Review Manual) 7th Edition. (Wolfgang Dähnert MD). Page.727-728",
+      "reference": "Radiopaedia: focal nodular hyperplasia（實際查證 2026-06-17）; Dahnert Radiology Review Manual 7th ed",
+      "explanation": "正解 **C**（敘述錯誤）。\n- A 對：FNH 為肝臟**第二常見良性腫瘤**（次於 hemangioma）。\n- B 對：NECT 呈**等/略高密度均質腫塊**。\n- **C 錯（正解）**：FNH 年齡高峰在**年輕至中年（約 20–50 歲、3rd–5th decade）女性**，非「5th–6th decade」。\n- D 對：MR 比 US/CT **更易顯示中央疤痕**。\n\n→ 概念詳解見 [[fnh]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fnh"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3757,7 +3759,7 @@
       "id": "2016-102",
       "year": 2016,
       "number": 102,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which is incorrect about MEN 1 Syndrome?",
       "options": [
@@ -3779,10 +3781,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Radiology Review Manual (Dahnert, Radiology Review Manual) 7th Edition. (Wolfgang Dähnert MD). Page.748-749",
+      "reference": "Radiopaedia: multiple endocrine neoplasia type 1（實際查證 2026-06-17）; Dahnert Radiology Review Manual 7th ed",
+      "explanation": "正解 **C**（敘述錯誤）。\n- A 對：MEN 1 ＝ **Wermer 症候群**。\n- B 對：胰島細胞瘤以 **gastrinoma**（Zollinger-Ellison）最常見。\n- **C 錯（正解）**：**原發性副甲狀腺機能亢進/增生其實是 MEN1 最常見表現（~95%，多腺體增生）**，並非罕見。\n- D 對：可合併甲狀腺腫瘤、胸腺瘤、頰黏膜腫瘤、結腸息肉等。\n\n→ 概念詳解見 [[men1]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "men1"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3792,7 +3796,7 @@
       "id": "2016-103",
       "year": 2016,
       "number": 103,
-      "subspecialty": "Unknown",
+      "subspecialty": "CV",
       "subspecialty_confidence": "auto",
       "questionText": "Concerning deep venous thrombosis (DVT), which one is TRUE",
       "options": [
@@ -3814,10 +3818,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Bang C. Lower and upper extremity Deep Venous Thrombosis Evaluation. In Dogra V, Rubens DJ(eds): Ultrasound Secrets. 1st Edition. Philadelphia;Hanley and Belfus; 2004. P337-349.",
+      "reference": "Radiopaedia: deep vein thrombosis（實際查證 2026-06-17）; Bang C. Lower/upper extremity DVT evaluation",
+      "explanation": "正解 **D**（敘述正確者）。\n- A 錯：髂股段 DVT 約佔下肢 DVT **~25%**（非 60%）。\n- B 錯：加壓應在**橫切面（transverse）**進行，非縱切。\n- C 錯：急性 DVT 受累靜脈管徑**增大（擴張）**，非縮小。\n- **D 對（正解）**：**無法以加壓完全閉合靜脈管腔＝診斷標準**徵象。\n\n→ 概念詳解見 [[dvt-ultrasound]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "dvt-ultrasound"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3827,7 +3833,7 @@
       "id": "2016-104",
       "year": 2016,
       "number": 104,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "About layers of bowel seen on sonography, which statement is wrong?",
       "options": [
@@ -3849,10 +3855,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Ref: The Requisites Ultrasound P.221",
+      "reference": "Radiopaedia: gut signature sign（實際查證 2026-06-17）; The Requisites: Ultrasound p.221",
+      "explanation": "正解 **B**（敘述錯誤）。腸壁五層（內→外）＝superficial mucosa(高)／muscularis mucosa(低)／submucosa(高,最厚)／muscularis propria(低)／serosa(高)。\n- A 對：最內高回音層＝黏膜介面（superficial mucosa）。\n- **B 錯（正解）**：**第二個高回音層是 submucosa**，非 muscularis mucosa（後者為低回音）。\n- C 對：muscularis propria 為低回音。\n- D 對：最外高回音層＝serosa 介面。\n\n→ 概念詳解見 [[bowel-wall-layers]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bowel-wall-layers"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3862,7 +3870,7 @@
       "id": "2016-105",
       "year": 2016,
       "number": 105,
-      "subspecialty": "Unknown",
+      "subspecialty": "PED",
       "subspecialty_confidence": "auto",
       "questionText": "How much millimeters is the normal length of pyloric muscle less than in the ultrasound study?",
       "options": [
@@ -3884,10 +3892,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Pediatric Imaging The fundamentals P.100",
+      "reference": "Radiopaedia: pyloric stenosis（實際查證 2026-06-17）; Pediatric Imaging: The Fundamentals p.100",
+      "explanation": "正解 **C（15）**。超音波下**正常幽門肌長度 < 15 mm**（異常為 >15–17 mm）。其他診斷數值：**肌壁厚 >3 mm（最準）**、橫徑 >14 mm、容積 >1.5 cm³。\n\n→ 概念詳解見 [[pyloric-stenosis]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pyloric-stenosis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3897,7 +3907,7 @@
       "id": "2016-106",
       "year": 2016,
       "number": 106,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a radiographic feature of McCune-Albright syndrome?",
       "options": [
@@ -3919,10 +3929,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Ref: Primer of Diagnostic Imaging 5th ed., p. 316",
+      "reference": "Radiopaedia: McCune-Albright syndrome（實際查證 2026-06-17）; Primer of Diagnostic Imaging 5th ed p.316",
+      "explanation": "正解 **A**（非特徵）。McCune-Albright 三聯＝性早熟＋café-au-lait（coast of Maine）＋polyostotic fibrous dysplasia。\n- **A（正解，非特徵）**：本症**女性為主**（性早熟多見於女孩），非「男性為主」。\n- B/C/D 皆為特徵：precocious puberty、café-au-lait spots、polyostotic fibrous dysplasia。\n\n→ 概念詳解見 [[mccune-albright]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mccune-albright"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3932,7 +3944,7 @@
       "id": "2016-107",
       "year": 2016,
       "number": 107,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following is NOT a radiographic feature of ankylosing spondylitis? Arthritis mutilans : psoriatic arthritis",
       "options": [
@@ -3954,10 +3966,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Ref: Primer of Diagnostic Imaging 5th ed., p. 328",
+      "reference": "Radiopaedia: ankylosing spondylitis（實際查證 2026-06-17）; Primer of Diagnostic Imaging 5th ed p.328",
+      "explanation": "正解 **C**（非 AS 特徵）。\n- **C（正解，非 AS 特徵）**：**Arthritis mutilans** 是**乾癬性關節炎**（及類風濕）的嚴重破壞性表現，非 AS。\n- A/B/D 皆為 AS 特徵：男性為主、（細直）syndesmophytes（→bamboo spine）、enthesopathy。\n\n→ 概念詳解見 [[ankylosing-spondylitis]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ankylosing-spondylitis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3967,7 +3981,7 @@
       "id": "2016-108",
       "year": 2016,
       "number": 108,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "",
       "options": [
@@ -3989,10 +4003,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: cerebellopontine angle mass（實際查證 2026-06-17）; Radiology Review Manual 7th ed",
+      "explanation": "⚠️ **原題題幹缺失（待補）**：資料庫僅存四選項、questionText 為空；答案鍵為 **A Meningioma**。\n\nCPA 腫瘤鑑別（AMEN/SAME）：**vestibular schwannoma（acoustic neuroma）~80% 最常見** → **meningioma ~10% 第二常見（硬膜基底＋dural tail＋可鈣化、不以 IAC 為中心）** → epidermoid（DWI 受限）→ trigeminal neuroma 等。完整題幹（區分 meningioma 的條件）待回原卷補回。\n\n→ 概念詳解見 [[cpa-masses]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cpa-masses"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4002,7 +4018,7 @@
       "id": "2016-109",
       "year": 2016,
       "number": 109,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "",
       "options": [
@@ -4024,10 +4040,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: splenic trauma / AAST spleen injury scale（實際查證 2026-06-17）; CT & US of the Acute Abdomen",
+      "explanation": "⚠️ **原題題幹缺失（待補）**：資料庫僅存四選項、questionText 為空；答案鍵為 **C**（推測題幹為「脾外傷 CT 何者為非」）。\n- A 對：perisplenic（sentinel）clot 可為脾損傷的**唯一徵象**。\n- B 對：瀰漫低密度脾可因**先前休克（低灌流）**。\n- **C 為非（正解）**：**延遲破裂即使初始 CT 正常仍可能發生**（題述「may not occur」錯誤）。\n- D 對：**CT 分級對臨床結果的預測價值有限**。\n\n→ 概念詳解見 [[splenic-trauma]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "splenic-trauma"
+      ],
       "checked": false,
       "years": [
         2016
@@ -4037,7 +4055,7 @@
       "id": "2016-110",
       "year": 2016,
       "number": 110,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "有關胸壁腫瘤的敘述，下列何者為非?",
       "options": [
@@ -4059,10 +4077,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Ref: Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation RadioGraphics May 2011, Vol. 31, No. 3:749 –770",
+      "reference": "Nam SJ et al. Imaging of Primary Chest Wall Tumors. RadioGraphics 2011;31(3):749-770. doi:10.1148/rg.313105509（全文已讀）",
+      "explanation": "正解 **D（以上皆對）**。問「何者為非」，而 A/B/C 三項敘述皆正確，故答 D。\n- A 對：**chondrosarcoma** 為胸壁**最常見原發惡性**骨腫瘤。\n- B 對：**Ewing sarcoma** 為兒童最常見原發骨腫瘤。\n- C 對：**fibrous dysplasia** 為骨性胸壁最常見良性瘤樣病灶。\n- D（正解）：以上皆對。\n\n→ 概念詳解見 [[rib-tumor]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "rib-tumor"
+      ],
       "checked": false,
       "years": [
         2016
