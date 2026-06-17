@@ -3983,7 +3983,7 @@
       "number": 108,
       "subspecialty": "NR",
       "subspecialty_confidence": "auto",
-      "questionText": "",
+      "questionText": "The 2nd most common cerebellopontine angle tumor in adult?",
       "options": [
         {
           "letter": "A",
@@ -4004,7 +4004,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiopaedia: cerebellopontine angle mass（實際查證 2026-06-17）; Radiology Review Manual 7th ed",
-      "explanation": "⚠️ **原題題幹缺失（待補）**：資料庫僅存四選項、questionText 為空；答案鍵為 **A Meningioma**。\n\nCPA 腫瘤鑑別（AMEN/SAME）：**vestibular schwannoma（acoustic neuroma）~80% 最常見** → **meningioma ~10% 第二常見（硬膜基底＋dural tail＋可鈣化、不以 IAC 為中心）** → epidermoid（DWI 受限）→ trigeminal neuroma 等。完整題幹（區分 meningioma 的條件）待回原卷補回。\n\n→ 概念詳解見 [[cpa-masses]]。",
+      "explanation": "正解 **A（Meningioma）**。CPA 腫瘤頻率：**vestibular schwannoma（acoustic neuroma）~80% 最常見 → meningioma ~10% 第二常見 → epidermoid（CSF 密度、DWI 受限）→ 其他（trigeminal/facial schwannoma 等）**。\n- **A 正解**：**meningioma 為成人 CPA 第二常見腫瘤**（硬膜基底＋dural tail＋可鈣化、不以 IAC 為中心）。\n- B 錯：epidermoid 屬第三常見族群。\n- C 錯：trigeminal neuroma 較少見。\n- D 錯：acoustic neuroma（vestibular schwannoma）是**最常見（~80%）**，非第二常見。\n\n→ 概念詳解見 [[cpa-masses]]。",
       "images": [],
       "concepts": [
         "cpa-masses"
@@ -4020,7 +4020,7 @@
       "number": 109,
       "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
-      "questionText": "",
+      "questionText": "Which of the following statements about splenic trauma is incorrect?",
       "options": [
         {
           "letter": "A",
@@ -4041,7 +4041,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiopaedia: splenic trauma / AAST spleen injury scale（實際查證 2026-06-17）; CT & US of the Acute Abdomen",
-      "explanation": "⚠️ **原題題幹缺失（待補）**：資料庫僅存四選項、questionText 為空；答案鍵為 **C**（推測題幹為「脾外傷 CT 何者為非」）。\n- A 對：perisplenic（sentinel）clot 可為脾損傷的**唯一徵象**。\n- B 對：瀰漫低密度脾可因**先前休克（低灌流）**。\n- **C 為非（正解）**：**延遲破裂即使初始 CT 正常仍可能發生**（題述「may not occur」錯誤）。\n- D 對：**CT 分級對臨床結果的預測價值有限**。\n\n→ 概念詳解見 [[splenic-trauma]]。",
+      "explanation": "正解 **C**（敘述錯誤者）。\n- A 對：perisplenic（sentinel）clot 可為脾損傷的**唯一徵象**。\n- B 對：瀰漫低密度脾可因**先前休克（低灌流）**。\n- **C 錯（正解）**：**延遲破裂即使初始 CT 正常仍可能發生**（題述「may not occur」錯誤）。\n- D 對：**CT 分級對臨床結果的預測價值有限**。\n\n→ 概念詳解見 [[splenic-trauma]]。",
       "images": [],
       "concepts": [
         "splenic-trauma"

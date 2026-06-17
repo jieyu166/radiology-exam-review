@@ -23,8 +23,8 @@ dateRev: 2026-06-17
 > [!note] 考點
 > CPA 最常見＝**vestibular schwannoma（~80%）**；**第二常見＝meningioma（~10%，硬膜基底＋dural tail）**；epidermoid＝DWI 受限。[^1]
 
-> [!warning] 原題題幹缺失（待補）
-> 2016-108 原始 questionText 在資料庫中為空（僅存選項 A Meningioma／B Epidermoid／C Trigeminal neuroma／D Acoustic neuroma），答案鍵為 **A Meningioma**。完整題幹（區分 meningioma 的條件，如「硬膜基底／dural tail／鈣化／非 IAC 中心」）待回原卷補回；本概念提供完整 CPA DDx 供判讀。
+> [!note] 2016-108 題幹
+> 「**The 2nd most common cerebellopontine angle tumor in adult?**」→ 答 **A Meningioma**（CPA 第二常見，~10%；最常見為 vestibular schwannoma ~80%）。
 
 ### 參考來源
 [^1]: *Cerebellopontine angle mass*. Radiopaedia.org（實際查證 accessed 2026-06-17）：最常見**vestibular schwannoma（~80%）**、第二**meningioma（~10%）**、epidermoid（DWI 受限）；記憶法 AMEN/SAME。

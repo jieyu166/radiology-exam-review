@@ -25,8 +25,8 @@ dateRev: 2026-06-17
 > [!note] 考點：何者「為非」？
 > 「**初始 CT 正常便不會（may not）延遲破裂**」錯——**延遲破裂即使初始 CT 正常仍可能發生**。sentinel clot 可為唯一徵象、低密度脾可因休克、CT grade 對結果預測有限皆正確。[^1][^2]
 
-> [!warning] 原題題幹缺失（待補）
-> 2016-109 原始 questionText 在資料庫中為空（僅存四選項），答案鍵為 **C**。完整題幹（推測為「關於脾外傷 CT，何者為非」）待回原卷補回。
+> [!note] 2016-109 題幹
+> 「**Which statement about splenic trauma is incorrect?**」→ 答 **C**（延遲破裂即使初始 CT 正常仍可能發生，故「may not occur」為錯）。
 
 ### 參考來源
 [^1]: *Splenic trauma* / *AAST spleen injury scale*. Radiopaedia.org（實際查證 accessed 2026-06-17）：脾為鈍傷最常傷實質器官；**AAST 2018 分級**（G1–G5，納入血管損傷）；active extravasation／pseudoaneurysm／AVF（~15%）影響處置。
