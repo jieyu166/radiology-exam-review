@@ -7626,6 +7626,43 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-207",
+      "year": 2016,
+      "number": 207,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following arteries is most frequently involved by pseudoaneurysm formation in necrotizing pancreatitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastroduodenal."
+        },
+        {
+          "letter": "B",
+          "text": "Splenic."
+        },
+        {
+          "letter": "C",
+          "text": "Gastric."
+        },
+        {
+          "letter": "D",
+          "text": "Hepatic."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia: peripancreatic pseudoaneurysm（實際查證 2026-06-18）；RadioGraphics 2014;34:1218-1239（題目所引）",
+      "explanation": "正解 **B（Splenic）**。壞死性胰臟炎中,胰酶侵蝕鄰近血管形成假性動脈瘤,**最常侵犯脾動脈（splenic artery）**,其次 gastroduodenal artery。可致大出血、hemosuccus pancreaticus,需血管栓塞處置。\n\n→ [[pancreatitis-severity]]",
+      "images": [],
+      "concepts": [
+        "pancreatitis-severity"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }

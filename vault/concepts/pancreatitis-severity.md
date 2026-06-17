@@ -39,6 +39,12 @@ dateRev: 2026-06-17
 > [!question]- 原始 CTSI（Balthazar-based）「不」包含哪項?
 > **Pleural effusion**（屬 modified CTSI 的 extrapancreatic）。CTSI＝Balthazar 分級＋壞死%。[^2]
 
+> [!question]- 壞死性胰臟炎的假性動脈瘤最常侵犯哪條動脈? (2016-207)
+> **脾動脈（splenic artery）**最常見，其次 gastroduodenal artery（胰酶侵蝕鄰近血管）。可致大出血/hemosuccus pancreaticus，需血管栓塞。[^3]
+
+### 補充參考
+[^3]: *Peripancreatic pseudoaneurysm*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「the most common vessels affected are the **splenic and gastroduodenal arteries**」；MDCT/MRA 顯示源自 donor artery 的圓形結構。題目另引 RadioGraphics 2014;34:1218-1239。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatitis-severity")
