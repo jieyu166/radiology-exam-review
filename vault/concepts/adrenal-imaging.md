@@ -10,9 +10,14 @@ aliases:
   - pheochromocytoma calcification
   - 腎上腺病灶
 dateRev: 2026-06-15
+down:
+  - "[[adrenal-adenoma]]"
 ---
 
 # adrenal-imaging
+
+> [!info] 從屬（Breadcrumbs）
+> 本筆記為**腎上腺病灶總覽 / DDx hub**（tumor-like & misc）。子條目（具體實體）：[[adrenal-adenoma]]（最常見良性、washout/lipid-rich）。日後可加 pheochromocytoma、myelolipoma、adrenal cortical carcinoma 等為 `down`。
 
 **幾個腎上腺常考點：結節性增生『隨年齡增加』、pseudocyst 的 T1 高訊號『來自出血』、pheochromocytoma『約 10% 鈣化』、雙側界清腫塊/腫大想『感染』、成人腎上腺出血最常見『鈍挫傷』。** 判讀分水嶺一：**雙側 vs 單側**（雙側→增生/感染/出血/轉移）；判讀分水嶺二：**T1 高訊號＝脂肪 or 出血**——pseudocyst 是出血。
 

@@ -6,9 +6,13 @@ aliases:
   - adrenal cortical adenoma
 dateRev: 2026-06-14
 concepts: [adrenal-adenoma]
+up: "[[adrenal-imaging]]"
 ---
 
 # adrenal-adenoma
+
+> [!info] 從屬（Breadcrumbs）
+> 上層 hub：[[adrenal-imaging]]（腎上腺病灶總覽 / DDx）。本筆記為其子條目（最常見良性實體）。
 
 **腎上腺腺瘤是最常見的腎上腺病灶，鑑別核心在於「揪出細胞內脂質」。** 判讀分水嶺一：non-contrast CT **≤10 HU** 即可確診 lipid-rich adenoma（NECT 與 chemical-shift MR 準確度相當）；判讀分水嶺二：lipid-poor 病灶靠 **washout CT（15 分延遲，APW>60% / RPW>40%）** 或 **chemical-shift MRI（opposed-phase 訊號下降）**。臨床情境決定一切——washout 與訊號下降都可被 pheochromocytoma、RCC/HCC 轉移模擬。
 
