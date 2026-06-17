@@ -692,9 +692,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "發生率\nInsulinoma > Gastrinoma > Glucagonoma > ... From Core Radiology.\n惡性：\n- insulinoma: 10% malignant\n- gastrinoma: 60% malignant\n- glucagonoma: 80% malignant\n- VIPoma: 75% malignant, somatostatinoma: 75% malignant, non-functional: 85-100% malignant",
+      "explanation": "正解 **B**（錯誤）。**insulinoma 才是最常見的亢進性/功能性 NET**,非 gastrinoma。gastrinoma 占胰 NET 約 20–30%(A 約略)、與 Zollinger-Ellison 相關(C)、60–80% 惡性(D)皆正確。\n\n→ [[pancreatic-neuroendocrine-tumors]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-neuroendocrine-tumors"
+      ],
       "checked": false
     },
     {
@@ -727,9 +729,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Nonfunctioning因沒症狀，通常長很大才被發現。\n- 長太大通常中間會necrosis或鈣化\n- 可能會cystic change，DDx. cystic neoplasm\nD 不清楚",
+      "explanation": "正解 **A**（錯誤）。相反——**nonsyndromic ICT（尤其非功能性）較大、較易囊變/壞死**;syndromic（MEN1）多小而多發、早發現。insulinoma 為最常見 syndromic ICT(B)、gastrinoma 與 ZES 相關(C)、VIPoma 呈 WDHA(D)皆正確。\n\n→ [[pancreatic-neuroendocrine-tumors]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-neuroendocrine-tumors"
+      ],
       "checked": false
     },
     {
@@ -762,9 +766,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "PI-RADS不看MRS，MRS不好做，要做很久。\nAB. 正確。對PZ lesions，主要依據 DWI 影像表現來分級；而TZ則是T2WI\nD. 正確。看有沒有顯影而已。![ADD PI-RADS](data/images/obsidian/add-pi-rads-5140b97b.jpg)",
+      "explanation": "正解 **C**（錯誤）。**PI-RADS v2 不納入 MRS**（已移除、無 ancillary 角色）。PZ 以 DWI/ADC 主導(A)、TZ 以 T2WI 主導(B)、DCE 簡化為陰/陽性(D)皆正確。\n\n→ [[pi-rads]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pi-rads"
+      ],
       "checked": false
     },
     {
@@ -797,9 +803,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "A. Rare (1-2% of exocrine pancreatic tumour)\nB. Daughter tumor\nC. median size ~8 cm. 不過典型是大的且有cystic change；太小會是solid\nD. low malignant potential. 雖然大多良性，~15%是惡性的 Complete resection is associated with long-term survival even in the presence of metastatic disease.\nFrom: 詳解, Core Radiology p.109, Radiology Review Manual 電子 p.2515",
+      "explanation": "正解 **B**。SPN **好發年輕女性**。其為少見腫瘤(A 誤)、常大且有囊變故有症狀(C 誤)、低惡性潛能轉移少見(D 誤)。\n\n→ [[solid-pseudopapillary-neoplasm]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "solid-pseudopapillary-neoplasm"
+      ],
       "checked": false
     },
     {
@@ -832,9 +840,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "From Sabiston Textbook of Surgery\n- Lymphoma是spleen**最常見**的tumor，其他primary/secondary都很rare\n- Hematopoietic: Lymphoma, Leukemia\n- Nonhematopoietic Primary通常是血管相關的\n\t- Hemangiomas 良性 常見\n\t- Splenic hamartomas 良性 rare。 usually composed of malformed disorganized red pulp elements.\n\t- **Angiosarcomas** (or hemangiosarcomas) 惡性 rare。usually occur spontaneously but have been linked to environmental exposures, such as to thorium dioxide and monomeric vinyl chloride. Patients with angiosarcomas may present with splenomegaly, hemolytic anemia, ascites, pleural effusions, or even spontaneous splenic rupture. These tumors are aggressive and have a poor prognosis.\n\t- Lymphangiomas, 良性 are endothelium-lined cysts that come to attention because of splenomegaly secondary to cyst enlargement.\n\t- Lymphangiosarcoma 惡性 has been found within lymphangiomas. Splenectomy is appropriate for the diagnosis, treatment, and palliation of these conditions.",
+      "explanation": "正解 **C**。**Angiosarcoma 為最常見的脾原發非造血性惡性腫瘤**。lymphoma 雖為脾最常見惡性但屬造血性(本題排除);littoral cell tumor、hemangioendothelioma 罕見。\n\n→ [[splenic-angiosarcoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "splenic-angiosarcoma"
+      ],
       "checked": false
     },
     {
@@ -867,9 +877,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **D**。**Chondrosarcoma 為胸壁最常見原發惡性骨腫瘤**（好發肋軟骨交界、含軟骨基質鈣化）。osteosarcoma、Ewing sarcoma、myeloma 較少。\n\n→ [[chest-wall-tumors]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "chest-wall-tumors"
+      ],
       "checked": false
     },
     {
@@ -880,7 +892,7 @@
         2017,
         2018
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "About application of the Silhouette sign on chest plain film, which one of the following statements is **WRONG**?",
       "options": [
@@ -907,9 +919,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "應為LUL. 但Luftsichel sign是LLL superior segment擴張?",
+      "explanation": "正解 **B**（錯誤）。**主動脈弓（knob）消失＝LUL（apicoposterior）或中/後縱膈,非 LLL**。右心緣＝RML/前胸膜(A)、左心緣＝lingula/前胸膜(C)、右氣管旁線＝RUL(D)皆正確。\n\n→ [[silhouette-sign]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "silhouette-sign"
+      ],
       "checked": false
     },
     {
@@ -919,7 +933,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "關於 silhouette sign 下列何者最**不**可能?",
       "options": [
@@ -942,9 +956,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "應為RLL.",
+      "explanation": "正解 **D**（最不可能）。**右橫膈邊緣不清＝RLL,非 RUL**。SVC/升主動脈緣＝RUL 前段(A)、右心緣＝RML medial segment(B)、左心緣＝lingula inferior segment(C)皆合理。\n\n→ [[silhouette-sign]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "silhouette-sign"
+      ],
       "checked": false
     },
     {
@@ -954,7 +970,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "有關 Incomplete border sign 的敘述下列何者為**非**?",
       "options": [
@@ -973,9 +989,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "lung lesion with pleural/extrapleural extension 可以",
+      "explanation": "正解 **D**（為非）。incomplete border sign **亦可見於向胸膜/肺外延伸的肺病灶**,故「不可能是肺病灶」錯誤。可部分邊緣不清(A)、可為 pleural(B)、可為胸壁/皮膚病灶(C)皆正確。\n\n→ [[silhouette-sign]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "silhouette-sign"
+      ],
       "checked": false
     },
     {
@@ -985,7 +1003,7 @@
       "years": [
         2017
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "What sign is seen in pneumpericardium?",
       "options": [
@@ -1008,9 +1026,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **B**。**Continuous diaphragm sign（連續橫膈徵）**見於 pneumopericardium（及 pneumomediastinum）。bulging fissure＝Klebsiella 肺炎(A)、deep sulcus＝仰臥氣胸(C)、Luftsichel＝LUL 塌陷(D)。\n\n→ [[pneumopericardium-signs]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pneumopericardium-signs"
+      ],
       "checked": false
     },
     {
