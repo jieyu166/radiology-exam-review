@@ -6278,7 +6278,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "PED",
       "subspecialty_confidence": "auto",
       "questionText": "一位三歲男孩的 Brain MRI 顯示 cerebellar tonsil 位於 foramen magnum 之下，請問以下何種表現支持 Chiari I malformation 的診斷？",
       "options": [
@@ -6300,10 +6300,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Chiari I可能與craniosynostosis有關，特別是當這導致posterior fossa後顱窩空間不足的時候。\n- Essential of Osborn's brain: Many patients with CM1 demonstrate abnormal geometry of the bony posterior fossa (“normal-sized hindbrain housed in a too-small bony envelope”).\n- Osborn's brain 2/e: 10% of patients with nonsyndromic single-suture craniosynostosis have CM1.\n- A. Chiari II malformation可能合併：corpus callosal dysgenesis, heterotopias, and sulcation abnormalities.\n- B.  Chiari II malformation ：特別指和 Myelomeningocele 脊髓脊膜膨出一起發生的腦部畸形",
+      "reference": "Radiopaedia: Chiari 1 malformation（實際查證 2026-06-17）",
+      "explanation": "正解 **D（craniosynostosis）**。Chiari I 機轉＝後顱窩過小/擁擠 → **顱縫早閉(craniosynostosis)致後顱窩小**支持診斷。A callosal dysgenesis、B myelomeningocele、C medullary spur 屬 Chiari II。\n\n→ [[chiari-malformation]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "chiari-malformation"
+      ],
       "checked": false
     },
     {
@@ -6336,10 +6338,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "diaphragma sellae defect",
+      "reference": "Radiopaedia: empty sella（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（錯誤）。A 骨性蝶鞍可擴大、B 垂體仍正常強化、C 訊號同 CSF 皆對。\n- **D（正解，錯）**：「因 **dorsum sellae（鞍背）缺損**所致」錯——是 **diaphragma sellae（鞍膈）缺損**致 CSF 疝入。\n\n→ [[empty-sella]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "empty-sella"
+      ],
       "checked": false
     },
     {
@@ -6372,10 +6376,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "不同位置男女比不一樣，在pineal男性>女性(5-22:1)，而suprasellar男女比為1:1.3。整體而言**男>女** (Radiopaedia)\nA. 正確。Age: **2 peaks** - **0-2 & 13-19** 歲. Only 9% > 30歲\nC. 正確。Pineal佔一半，suprasellar佔約1/3，其他不在midline不到10%。參考[[Germ cell tumor 影像表現]]\nD. \"可以\" 通常是正確的。",
+      "reference": "Radiopaedia: CNS germinoma（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（錯）。A 90%<20歲、C 中線近第三腦室、D 可及基底節/視丘皆對。\n- **B（正解，錯）**：「女性約男性10倍」錯——germinoma **男性為主**（松果體 M:F 5-22:1）。\n\n→ [[cns-germinoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cns-germinoma"
+      ],
       "checked": false
     },
     {
@@ -6407,10 +6413,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "lateral. medial from ACA. Anterior perforated substance derives its name from the numerous small holes created by lenticulostriate arteries, perforating arteries of the anterior and middle cerebral arteries which travel through this area and supply the internal capsule and the structures of the basal ganglia.",
+      "reference": "Radiopaedia: lateral lenticulostriate arteries（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（錯）。A 起自近端 MCA、C 數目 9-10.4(1-21)、D 管徑 100-2200μm 皆對。\n- **B（正解，錯）**：「經前穿質 **medial 2/3** 進入」錯——MCA 來源者經前穿質**外側**進入。\n\n→ [[lenticulostriate-arteries]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lenticulostriate-arteries"
+      ],
       "checked": false
     },
     {
@@ -6443,10 +6451,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "From meningohypophyseal trunk (MHT, posterior trunk): C4 segment of the ICA. ![ADD PCA branches](data/images/obsidian/add-pca-branches-e73844b7.png)",
+      "reference": "Radiopaedia: posterior cerebral artery（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（不屬）。A thalamogeniculate、C perisplenial、D lateral posterior choroidal 皆 PCA 分支。\n- **B（正解，不屬）**：**marginal tentorial artery（Bernasconi-Cassinari）** 來自 ICA meningohypophyseal trunk,非 PCA 分支。\n\n→ [[pca-branches]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pca-branches"
+      ],
       "checked": false
     },
     {
@@ -6478,10 +6488,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Vein of Galen drain into the confluence of the inferior sagittal sinus and the straight sinus.",
+      "reference": "Radiopaedia: inferior sagittal sinus（實際查證 2026-06-17）",
+      "explanation": "正解 **C（vein of Galen）**。下矢狀竇(ISS)與 **vein of Galen(大腦大靜脈)** 匯合形成 straight sinus。\n\n→ [[cerebral-venous-system]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cerebral-venous-system"
+      ],
       "checked": false
     },
     {
@@ -6513,10 +6525,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "superf. venous system",
+      "reference": "神經解剖（深部 vs 淺表腦靜脈）；Radiopaedia（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（不屬深部）。深部靜脈系統＝A internal cerebral vein、B basal vein of Rosenthal、C vein of Galen。\n- **D（正解，不屬）**：**superior anastomotic vein of Trolard** 是淺表(cortical)吻合靜脈。\n\n→ [[cerebral-venous-system]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cerebral-venous-system"
+      ],
       "checked": false
     },
     {
@@ -6552,10 +6566,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "![ADD masticator space 1](data/images/obsidian/add-masticator-space-1-24875bf5.png)![ADD masticator space 2](data/images/obsidian/add-masticator-space-2-ab4a8762.png)\nanteriorly: buccal space\nposterolaterally: parotid space\nmedially: parapharyngeal space\nThe inner layer runs deep to the medial pterygoid muscle and attaches to the skull base medial to foramen ovale.\nThe outer layer covers the masseter and temporalis muscles and attaches to the parietal calvaria superiorly",
+      "reference": "Radiopaedia: masticator space（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（不含）。A temporalis、C masseter、D V3、E mandible ramus 皆為內容物。\n- **B（正解，不含）**：**pterygoid plate（翼板,骨性結構）** 為骨界,非咀嚼肌間隙內容物。\n\n→ [[masticator-space]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "masticator-space"
+      ],
       "checked": false
     },
     {
@@ -6587,10 +6603,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "(B?) C. parapharyngeal space B. Gram-negative bacillus\n- pharyngitis/tonsillitis with or without peritonsillar or retropharyngeal abscess\n- During the primary infection, F. necrophorum colonizes the infection site and the infection spreads to the parapharyngeal space. The bacteria then invade the peritonsillar blood vessels where they can spread to the internal jugular vein. In this vein, the bacteria cause the formation of a thrombus containing these bacteria.",
+      "reference": "Radiopaedia: Lemierre syndrome（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（非特徵）。Lemierre＝IJV 化膿性血栓性靜脈炎、Fusobacterium necrophorum(Gram-陰性 bacillus)、源自口咽感染。\n- **C（正解）**：「感染由 peritonsillar space 直接入 IJV」非準確描述——實為口咽感染經**側咽/頸動脈間隙**入 IJV。\n（註：該題另一選項稱 Fusobacterium 為「Gram-positive cocci」亦錯,實為 Gram-陰性 bacillus。）\n\n→ [[lemierre-syndrome]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lemierre-syndrome"
+      ],
       "checked": false
     },
     {
@@ -6622,10 +6640,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Bacteremia and distal infective thromboembolism is common (lungs most commonly affected). A significant proportion of patients (13% to 27%) will require diagnostic arthrocentesis due to symptoms of septic arthritis. Meningitis has also been shown to complicate up to 3% of cases.",
+      "reference": "Radiopaedia: Lemierre syndrome（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（錯）。A 命名/本質、B 常前驅咽炎、C 致病菌為口咽常在菌叢皆對。\n- **D（正解，錯）**：影像 hallmark 應為 **IJV 血栓性靜脈炎＋肺敗血栓**,而非「咽炎、感染性淋巴炎」（後者為臨床/非影像 hallmark）。\n\n→ [[lemierre-syndrome]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lemierre-syndrome"
+      ],
       "checked": false
     },
     {
@@ -6661,10 +6681,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "McDonald 2010 criteria；標準 MS 影像準則",
+      "explanation": "正解 **C（optic nerves）**。2010 McDonald 的 DIS 四部位＝periventricular(A)、juxtacortical(B)、infratentorial(D)、spinal cord(E)。\n- **C（正解）**：**optic nerve（視神經）不在 2010 DIS 部位之列**。\n\n→ [[mcdonald-ms-criteria]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mcdonald-ms-criteria"
+      ],
       "checked": false
     },
     {
@@ -6696,10 +6718,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "otic最少見",
+      "reference": "Radiopaedia: persistent otic artery（實際查證 2026-06-17）",
+      "explanation": "正解 **C（persistent otic artery）**。\n- **C（正解）**：**persistent otic artery 最少被記載、其存在仍具相當爭議**。\n- A proatlantal type 1、B persistent hypoglossal、D persistent trigeminal（最常見）皆較確立。\n\n→ [[carotid-vertebrobasilar-anastomoses]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "carotid-vertebrobasilar-anastomoses"
+      ],
       "checked": false
     },
     {
@@ -6732,10 +6756,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: pterygopalatine fossa（實際查證 2026-06-17）",
+      "explanation": "正解 **A（foramen ovale）**。PPF 連通 B inferior orbital fissure、C vidian canal、D foramen rotundum（及 sphenopalatine foramen）。\n- **A（正解，未連）**：**foramen ovale（傳 V3,通咀嚼肌間隙）不與 PPF 相連**。\n\n→ [[pterygopalatine-fossa]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pterygopalatine-fossa"
+      ],
       "checked": false
     },
     {
@@ -6745,7 +6771,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "Which statement was **correct**?",
       "options": [
@@ -6767,10 +6793,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: cerebral abscess / toxoplasmosis（實際查證 2026-06-17）",
+      "explanation": "正解 **D（以上皆正確）**。A DWI 為鑑別環狀強化病灶最佳序列、B CNS 黴菌病多為伺機性感染、C **toxoplasmosis 為 AIDS 最常見 CNS 伺機感染** 皆正確 → 答 D。\n\n→ [[cns-opportunistic-infection]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cns-opportunistic-infection"
+      ],
       "checked": false
     },
     {
@@ -6802,10 +6830,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "trigone是後側。\nAlexander偏前側，Krabbe會在小腦。MS不會只在後側，也不對稱。",
+      "reference": "Radiopaedia: X-linked adrenoleukodystrophy（實際查證 2026-06-17）",
+      "explanation": "正解 **A（X-linked adrenoleukodystrophy）**。10歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高訊號+周邊 leading edge 強化 → **X-ALD**（後部白質為主、splenium 早累、VLCFA↑）。\n\n→ [[adrenoleukodystrophy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenoleukodystrophy"
+      ],
       "checked": false
     },
     {
@@ -6837,10 +6867,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "dilated capillaries and are interspersed with normal brain parenchyma with a thin endothelial lining but no vascular smooth muscle of elastic fibre lining.",
+      "reference": "Radiopaedia: CNS capillary telangiectasia（實際查證 2026-06-17）",
+      "explanation": "正解 **B**（錯）。A 好發橋腦、C 多無症狀、D lacelike/stippled 強化皆對。\n- **B（正解，錯）**：「dilated capillaries **without** intervening brain parenchyma」錯——capillary telangiectasia **間夾正常腦實質**（無間質腦組織者是 cavernoma）。\n\n→ [[capillary-telangiectasia]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "capillary-telangiectasia"
+      ],
       "checked": false
     },
     {
@@ -6872,10 +6904,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "neurohypophysis and infundibulum of the pituitary gland. ~~adenohypophysis~~\nD. 大致正確但有爭議。\n- GFAP, EMA: variable。另外TTF1(positive) (Radiopaedia)\n- vimentin、S-100、GFAP 通常為陽性，但 EMA 僅偶爾為陽性（occasionally positive） [^6]",
+      "reference": "Radiopaedia: pituicytoma（實際查證 2026-06-17）",
+      "explanation": "正解 **A**（錯）。B WHO grade 1、C 鞍/鞍上、D S100/vimentin/EMA 皆對。\n- **A（正解，錯）**：「成人**腺垂體(adenohypophysis)**的罕見原發腫瘤」錯——pituicytoma 源自**神經垂體(neurohypophysis)/漏斗部**。\n\n→ [[pituicytoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pituicytoma"
+      ],
       "checked": false
     },
     {
@@ -6907,10 +6941,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiopaedia: prune belly syndrome（實際查證 2026-06-17）",
+      "explanation": "正解 **B（spina bifida）**。prune belly 三聯＝A 腹直肌分離(腹壁發育不良)、C hydroureteronephrosis、D 隱睪。\n- **B（正解，不屬）**：**spina bifida（脊柱裂）不在三聯內**。\n\n→ [[prune-belly-syndrome]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "prune-belly-syndrome"
+      ],
       "checked": false
     },
     {
@@ -6920,7 +6956,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "What is the most common type of Salter Harris fracture?",
       "options": [
@@ -6942,10 +6978,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "![ADD Salter Harris fr types 2](data/images/obsidian/add-salter-harris-fr-types-2-ae36fb2f.png) Type 2 75% > Type 3,4 (10%) > Type 1 (5%) > Type 5 (~1%)",
+      "reference": "Radiopaedia: Salter-Harris classification（實際查證 2026-06-17）",
+      "explanation": "正解 **B（Type II）**。Salter-Harris **type II（經生長板+幹骺端）約 75%,by far the most common**。\n\n→ [[salter-harris]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "salter-harris"
+      ],
       "checked": false
     },
     {
@@ -6977,10 +7015,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "- **(A) 錯**：UPJ obstruction 是兒童水腎最常見的原因，不是 uncommon。\n- **(B) 錯**：最常見的表現是產前超音波發現的水腎（incidental hydronephrosis），或是間歇性腰痛，UTI 是可能表現之一但非最常見。\n- **(C) 錯**：男性多於女性。\n- **(D) 正確**：Crossing vessel 的存在會**降低 endopyelotomy 的成功率**（從約 82% 降至 33%），因此影響手術方式的選擇。不過需注意，crossing vessel 降低的主要是 endopyelotomy 的成功率；對 dismembered pyeloplasty 而言影響較小，因為 pyeloplasty 可以將 UPJ 重建至 crossing vessel 前方。",
+      "reference": "Radiopaedia: ureteropelvic junction obstruction（實際查證 2026-06-17）",
+      "explanation": "正解 **D**（為真）。\n- **D（正解，真）**：**crossing vessel 存在會降低 pyeloplasty/endopyelotomy 的成功率**。\n- A 錯（UPJO 是兒童 hydronephrosis 最常見原因）、B 錯（現多以產前 hydronephrosis 表現,非 UTI）、C 錯（男>女,非相等）。\n\n→ [[upj-obstruction]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "upj-obstruction"
+      ],
       "checked": false
     },
     {
@@ -7012,10 +7052,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "ACR TI-RADS；Radiopaedia: thyroid nodule（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（非可疑）。A markedly hypoechoic、B taller-than-wide、D microcalcifications 皆為惡性可疑特徵。\n- **C（正解，非可疑）**：**甲狀腺腫大合併多發結節（多結節甲狀腺腫）本身非惡性可疑特徵**。\n\n→ [[thyroid-nodule-us]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "thyroid-nodule-us"
+      ],
       "checked": false
     },
     {
@@ -7025,7 +7067,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "About ultrasonogrpahy artifacts, which description is **incorrect**?",
       "options": [
@@ -7051,10 +7093,12 @@
         }
       ],
       "correctAnswer": "E",
-      "reference": "",
-      "explanation": "A. Attenuation 衰減：聲波在介質中傳播時振幅和強度會慢慢減少。衰減較少後方較強\nD. The most widely recognized **refraction** artifact occurs at the junction of the rectus abdominis muscle and abdominal wall fat. 來源?",
+      "reference": "超音波偽影標準物理；Radiopaedia（實際查證 2026-06-17）",
+      "explanation": "正解 **E（none of above）**。A 後方增強、B mirror（骨/頸動脈後壁）、C ring-down（氣泡共振）、D refraction（腹直肌交界）**描述皆正確** → 無錯誤者,答 E。\n\n→ [[ultrasound-artifacts]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
       "checked": false
     },
     {
@@ -7064,7 +7108,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "US",
       "subspecialty_confidence": "auto",
       "questionText": "Which one is **incorrect** about ultrasound artifact",
       "options": [
@@ -7086,10 +7130,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Nyquist limit=PRF/2。超過會產生 aliasing artifact。主要是sampling rate不夠快。所以應該是less than。![ADD US Aliasing artifact](data/images/obsidian/add-us-aliasing-artifact-f5875b50.png) Doppler中 upper margin of the velocity scale調太低也會導致(波峰被截斷，出現在基線對側（wrap-around）)。\n- A. Ring-Down appears mostly due to gas (rather than metal, as in the case of comet tail artifact)\n- B. intratesticular arteries 正常是低阻力，阻力變大要懷疑partial torsion。",
+      "reference": "超音波都卜勒物理（Nyquist）；Radiopaedia（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（incorrect）。A ring-down（氣體/金屬）、B 高阻力精索動脈波形(partial torsion) 皆對。\n- **C（正解，錯）**：「aliasing occurs when sampling rate is **more than** twice the Doppler shift」錯——應為**取樣率(PRF)『小於』兩倍頻移（頻移 > Nyquist=PRF/2）**才 aliasing。\n\n→ [[ultrasound-artifacts]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
       "checked": false
     },
     {
@@ -7099,7 +7145,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "CH",
       "subspecialty_confidence": "auto",
       "questionText": "Regarding lung cancer, which of the following statement is **NOT** correct?",
       "options": [
@@ -7121,10 +7167,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "**選項 (A) ✅ 正確**\n- SCLC 的 extensive disease 定義源自 VALSG 分類系統，指的是腫瘤負擔無法被一個放射治療照野涵蓋的情況，包括惡性肋膜積液及/或遠處轉移 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC6003267/)。\n- limited disease 是指腫瘤侷限於同側胸腔、縱隔腔或鎖骨上淋巴結，可被涵蓋在一個可耐受的放射治療照野內 [NCI](https://www.cancer.gov/types/lung/hp/small-cell-lung-treatment-pdq)。因此，當腫瘤和轉移病灶無法涵蓋在同一個放射治療照野內，即為 extensive disease，敘述正確。\n**選項 (B) ✅ 正確** Adenocarcinoma 是女性及非吸菸者最常見的肺癌細胞型態，這是公認的事實。\n**選項 (C) ❌ 不正確 ← 答案** 關鍵在於 **AAH（atypical adenomatous hyperplasia）並未被納入第八版 TNM 分期系統**。根據 IASLC 肺癌分期計畫的提案：AAH 雖然被列為肺腺癌的癌前病變，但它類似於鱗狀上皮不典型增生（squamous dysplasia），因此不被納入 TNM 分類 [Journal of Thoracic Oncology](https://www.jto.org/article/S1556-0864\\(16\\)30335-5/fulltext)。\n第八版 TNM 的新增分類是：\n- **AIS → Tis**（adenocarcinoma in situ）\n- **MIA → T1mi**（minimally invasive adenocarcinoma）\n**選項 (D) ✅ 正確** CT 上腫瘤旁的肋膜增厚對於胸壁侵犯的判斷確實不太準確。研究顯示CT 評估胸壁侵犯的敏感度僅 38%，特異度 40%，準確度 39% [PubMed](https://pubmed.ncbi.nlm.nih.gov/3871560/)。另有研究指出在 54% 的病例中觀察到腫瘤附近的局部肋膜增厚，但其中超過一半雖有鈍角接觸卻並無腫瘤侵犯 [PubMed](https://pubmed.ncbi.nlm.nih.gov/1315670/)。CT 評估胸壁侵犯的敏感度範圍為 38%-87%，特異度為 40%-90%，唯一可靠的標準是明確的骨質破壞 [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/PMC2072091/)。",
+      "reference": "肺腺癌 2011/IASLC 分類；TNM（實際查證 2026-06-17）",
+      "explanation": "正解 **C**（不正確）。A SCLC extensive stage、B adeno 為女性/非吸菸者最常見、D 腫瘤旁肋膜增厚對胸壁侵犯準確度不高 皆對。\n- **C（正解，不正確）**：「AAH、AIS、MIA 被歸於『同一』分期」不正確——三者分期不同（AAH preinvasive、**AIS=Tis、MIA=T1mi**）。\n\n→ [[lung-cancer]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer"
+      ],
       "checked": false
     },
     {
@@ -7134,7 +7182,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "Which of the following image finding of uterine cervical cancer on MRI does not affect cancer TNM staging?",
       "options": [
@@ -7156,10 +7204,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "I: confine at cervix\nII: not at lower third vagina, pelvic wall\nIII: lower third vagina, pelvis parametrium\nIV: other organ (rectum, bladder)",
+      "reference": "子宮頸癌 FIGO/TNM 分期（標準婦科腫瘤影像）",
+      "explanation": "正解 **A**（不影響分期）。B parametrium 侵犯(→IIB)、C hydronephrosis(→IIIB)、D 骨盆淋巴結 皆影響分期。\n- **A（正解，不影響）**：**腫瘤侵犯子宮體(uterine corpus)不改變 FIGO 分期**。\n\n→ [[cervical-cancer-staging]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cervical-cancer-staging"
+      ],
       "checked": false
     },
     {
@@ -7169,7 +7219,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "Breast",
       "subspecialty_confidence": "auto",
       "questionText": "According to the AJCC’s 7th edition TNM staging system of breast cancer, which of the following statement is wrong?",
       "options": [
@@ -7195,10 +7245,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "A. LCIS 7th 時還是, 8TH 時不是 D. 要 invasion chest wall ![ADD AJCC8 breast](data/images/obsidian/add-ajcc8-breast-9e957fed.png)\n\n\n# H&N 1",
+      "reference": "乳癌 AJCC TNM 分期（標準）",
+      "explanation": "正解 **D**（錯）。A Tis 原位癌、B T1mi ≤1mm、C T2 20-50mm、E T4b 皮膚 皆對。\n- **D（正解，錯）**：「T4a＝延伸至 **pectoralis major or minor**」錯——**T4a 是延伸至『胸壁』（肋骨/肋間肌/前鋸肌）**;單純胸肌侵犯不算 T4。\n\n→ [[breast-cancer-staging]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-cancer-staging"
+      ],
       "checked": false
     },
     {
@@ -7208,7 +7260,7 @@
       "years": [
         2016
       ],
-      "subspecialty": "Unknown",
+      "subspecialty": "Physics",
       "subspecialty_confidence": "auto",
       "questionText": "關於 Proton density-weighted images，下列何項敘述為**非**？",
       "options": [
@@ -7230,10 +7282,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "短TR和長TE產生T2加權影像，而不是proton density-weighted images。而長TR和短TE則產生T1加權影像。\nFLAIR has been shown to be superior to PD-weighted sequences in the detection of MS lesions in the cerebral hemispheres. However, PD-weighted imaging remains the investigation of choice for infratentorial lesions.",
+      "reference": "MRI 物理：PD = 長TR + 短TE（標準）",
+      "explanation": "正解 **C**（為非）。A PD 的 SNR 高、B MSK 質子密度差敏感、D 後顱窩 MS 較 T2 明顯 皆對。\n- **C（正解，為非）**：「**短 TR + 長 TE 產生 PD**」非——PD 為 **長 TR + 短 TE**（參數相反）。\n\n→ [[proton-density-mri]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "proton-density-mri"
+      ],
       "checked": false
     }
   ]

@@ -143,6 +143,9 @@ NECT/CECT 顯示阻塞層級、水腎程度與病因(結石、馬蹄腎、重複
 > [!question]- UPJ obstruction 的典型先天性病因機轉為何?
 > 胚胎期 UPJ 區再管腔化不全,導致輸尿管肌肉層異常、蠕動波無法有效傳遞,形成無蠕動節段(adynamic segment)。[^1][^2]
 
+> [!question]- 關於先天性 UPJ obstruction,何者「為真」? (2016-190)
+> 「**crossing vessel 存在會降低 pyeloplasty/endopyelotomy 的成功率**」為真（正解 D）。其餘為假：UPJO 是**兒童 hydronephrosis 最常見原因**（非少見）、現多以**產前 hydronephrosis** 表現（非 UTI）、**男>女**（非相等）。[^1][^5]
+
 ## 考題
 
 ```dataview

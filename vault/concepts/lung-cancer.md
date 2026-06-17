@@ -74,6 +74,9 @@ concepts: [lung-cancer]
 > [!question]- 2011 分類中新增、預後較差的浸潤性亞型為何？
 > **Micropapillary predominant**（微乳突優勢型）。[^1]
 
+> [!question]- 關於肺癌,何者「不」正確? (2016-194)
+> 「**AAH、AIS、MIA 被歸於『同一』分期/類別**」不正確（正解 C）——三者分期不同：**AAH 為 preinvasive、AIS＝Tis、MIA＝T1mi**。其餘為真：SCLC 腫瘤與轉移無法納入同一放射照野＝extensive stage、adenocarcinoma 為女性/非吸菸者最常見細胞型、CT 上腫瘤旁肋膜增厚對胸壁侵犯準確度不高。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lung-cancer")
