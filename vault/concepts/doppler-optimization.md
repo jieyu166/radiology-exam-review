@@ -16,19 +16,19 @@ same:
 **提升都卜勒對低速/微弱血流的敏感度：增加 gain、增加 power output、降低 scale(PRF)、並把『都卜勒角度減小(趨近 0°)』——『增大』角度反而降低訊號。** 判讀分水嶺一：**角度越小(趨 0°)cosθ 越大→訊號越強**；判讀分水嶺二：**降低 scale(PRF)** 才測得到慢速血流(但過低會 aliasing)。
 
 ## Summary
-- **增加 Doppler gain**：放大接收訊號 → 敏感度↑（過高則雜訊）。[^1]
-- **增加 power output**：發射功率↑ → 訊號↑（受 MI/TI 安全限制）。[^1]
-- **降低 Doppler scale(PRF)**：偵測慢速血流（過低易 aliasing）。[^1]
-- **減小 Doppler 角度(趨近 0°)**：頻移 ∝ cosθ；角度越小訊號越強。故「**增大**都卜勒角度」**錯誤**（2016-091 正解 D；增角度→cosθ↓→訊號↓，>60° 不可靠）。[^1]
+- **都卜勒頻移公式**：**F = 2·f₀·(v/c)·cosθ**（f₀＝發射頻率、v＝血流速、c＝聲速、θ＝聲束與血流夾角）→ 頻移**正比於 cosθ**。[^1]
+- **減小 Doppler 角度(趨近 0°)**：**0° 時頻移/速度最大且最真**；角度越大 cosθ 越小、訊號越弱。**<60° 才準確，>60° 誤差達 20–30%**。故「**增大**都卜勒角度」**錯誤**（2016-091 正解 D）。[^2]
+- **增加 Doppler gain**：放大接收訊號 → 敏感度↑（過高則雜訊）。[^3]
+- **增加 power output**：發射功率↑ → 訊號↑（受 MI/TI 安全限制）。[^3]
+- **降低 Doppler scale(PRF)**：偵測慢速血流（過低易 aliasing）。[^3]
 
 > [!note] 考點：何者「不」能提升都卜勒敏感度？
-> 「**增大 Doppler 角度**」——角度應**減小**（趨 0°）才增強訊號。其餘（增 gain、增 power、降 scale）皆可提升。[^1]
+> 「**增大 Doppler 角度**」——角度應**減小**（趨 0°，cosθ↑）才增強訊號，>60° 不可靠。其餘（增 gain、增 power、降 scale）皆可提升。[^1][^2]
 
 ### 參考來源
-[^1]: 都卜勒物理標準教學（Radiopaedia *Doppler ultrasound*）：頻移 ∝ cosθ；提升敏感度＝增 gain/power、降 PRF、減小角度；角度 >60° 不可靠。
-
-> [!warning] 來源待補（依 SOP 需以一手來源重核）
-> Radiopaedia 條目未逐字核實，都卜勒角度/PRF 為標準物理教學。
+[^1]: *Doppler shift*. Radiopaedia.org（實際查證 accessed 2026-06-17）：頻移公式 **F = 2f₀(v/c)cosθ**，θ 為聲束與血流軸夾角。
+[^2]: *Doppler angle correction*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**0° 時速度最大且最真**；角度修正在 **<60°** 準確，**>60°** 計算速度誤差達 **20–30%**。
+[^3]: gain、power output、PRF(scale) 為都卜勒操作參數的標準超音波物理教學（提升敏感度＝增 gain/power、降 PRF；過低 PRF 致 aliasing）。
 
 > [!question]- 下列何者「不」能提升都卜勒超音波敏感度？
 > **增大 Doppler 角度**（應減小趨 0°）。增 gain、增 power output、降 scale(PRF) 皆可提升。[^1]

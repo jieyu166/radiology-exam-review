@@ -24,7 +24,7 @@ same:
 > 第四腦室 mass 經 **Magendie 擠出至 cisterna magna**＋**SWI blooming**（鈣化/出血）＋不均勻強化 → **ependymoma**。[^1]
 
 ### 參考來源
-[^1]: 後顱窩 ependymoma 標準神經放射教學（Radiopaedia *ependymoma*）：第四腦室底起源、經 Magendie/Luschka 可塑性擠出、常鈣化/出血(SWI blooming)、不均勻強化；鑑別 medulloblastoma/CPP。
+[^1]: *Posterior fossa ependymoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：為**最常見 ependymoma 型、兒童最多**、源自**第四腦室底**；經 **foramina of Luschka 與 Magendie 擠出 → "plastic ependymoma"**；**CT coarse calcification 常見(~50%)**、伴 necrosis/cystic/hemorrhage → 各模態皆異質、**不均勻強化**（實心強化至囊+壁結節）。鑑別 medulloblastoma/CPP。
 
 ## 題目
 > [!question]- 第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、不均勻強化，最可能診斷？

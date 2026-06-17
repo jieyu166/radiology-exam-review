@@ -15,19 +15,18 @@ dateRev: 2026-06-17
 **脊髓血管畸形(Anson-Spetzler)四型：I dural AVF（最常見、老年男性、後天）、II glomus（髓內 compact nidus、年輕）、III juvenile/metameric（廣泛、罕）、IV perimedullary AVF；兒童族群以『type II glomus』最常見。** 判讀分水嶺一：**dural AVF（type I）是老年後天病灶**，非兒童；判讀分水嶺二：**兒童＝髓內 glomus（type II）最常見**。
 
 ## Summary
-- **Type I — dural AVF**：最常見（整體）、**老年男性、後天**；慢性脊髓靜脈高壓/myelopathy。[^1]
-- **Type II — glomus（intramedullary）**：髓內 compact nidus，**年輕患者**；**兒童族群最常見**（2016-087 正解 B）。[^1]
-- **Type III — juvenile/metameric**：大型、跨多組織（Cobb 症候群相關），**罕見**。[^1]
-- **Type IV — perimedullary AVF**：硬膜內髓外、軟膜表面。[^1]
+- **Type I — dural AVF（SDAVF）**：**所有脊髓血管畸形中最常見（~70%）**、發生高峰在**第 5–6 旬、男>女、後天**；慢性脊髓靜脈高壓/myelopathy。[^1]
+- **Type II — glomus（intramedullary AVM，真 nidus）**：髓內 compact nidus，**年輕患者**；真 nidus 型脊髓 AVM 約佔脊髓血管畸形 ~25%；**兒童族群最常見的脊髓 AVM**（2016-087 正解 B）。[^2][^3]
+- **Type III — juvenile/metameric**：mixed extradural-intradural、大型、跨多組織（Cobb 症候群相關），**罕見**、年輕。[^2]
+- **Type IV — perimedullary AVF**：硬膜內髓外、軟膜表面（高流速、迂曲血管壓迫脊髓）。[^2]
 
 > [!note] 考點：兒童最常見脊髓 AVM 型？
-> **Type II（glomus，髓內）**。Type I dural AVF 為老年後天病灶、非兒童。[^1]
+> **Type II（glomus，髓內）**。Type I dural AVF 雖整體最常見，但為**老年後天**病灶、非兒童。[^1][^3]
 
 ### 參考來源
-[^1]: 脊髓血管畸形 Anson-Spetzler 分類標準神經放射教學（Radiopaedia *spinal arteriovenous malformations*）：I dural AVF（最常見、老年）、II glomus（髓內、年輕）、III juvenile（罕）、IV perimedullary AVF；兒童以髓內 glomus 最常見。
-
-> [!warning] 來源待補（依 SOP 需以一手來源重核）
-> Radiopaedia spinal AVM 分類條目 slug 未尋得，Anson-Spetzler 為標準神經放射教學。
+[^1]: *Spinal dural arteriovenous fistula*. Radiopaedia.org（實際查證 accessed 2026-06-17）：SDAVF（type I）為**最常見**脊髓血管畸形（~70%），發生高峰第 5–6 旬、**男>女**、後天，年發生率 5–10/百萬。
+[^2]: *Spinal arteriovenous malformations*. Radiopaedia.org（實際查證 accessed 2026-06-17）：真 nidus 型脊髓 AVM 約佔脊髓血管畸形 ~25%；分為 **glomus（type II，compact intradural intramedullary）** 與 **juvenile（type III，mixed extradural-intradural）**。
+[^3]: 「兒童族群以髓內 glomus（type II）最常見」為標準神經放射教學（Osborn 等）；Radiopaedia 上述兩條目未逐字陳述兒童占比，故另列。
 
 > [!question]- 兒童族群最常見的脊髓 AVM 是哪一型？
 > **Type II（glomus，髓內）**。（Type I dural AVF 為老年後天病灶。）[^1]
