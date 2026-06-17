@@ -3060,7 +3060,7 @@
       "id": "2016-083",
       "year": 2016,
       "number": 83,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which one of the followings is not the feature of psoriatic arthritis",
       "options": [
@@ -3083,9 +3083,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "Ref: AJR Am J Roentgenol. 1980;134 (1): 125-35",
+      "explanation": "Gull-wing erosion 屬侵蝕性骨關節炎(erosive OA),非乾癬性關節炎特徵,故 (D) 為非。\n\n(A) Sausage digit:是。\n(B) Fluffy periostitis:是。\n(C) Mouse-ear 邊緣侵蝕:是。\n(D) **Gull-wing erosion(正解＝非特徵)**:屬 erosive OA。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "psoriatic-arthritis"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3095,7 +3097,7 @@
       "id": "2016-084",
       "year": 2016,
       "number": 84,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Concerning quadrilateral space, which of the following is wrong",
       "options": [
@@ -3118,9 +3120,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Fundamentals of Diagnostic Radiology. William E. Brant, Clyde A. Helms. P979",
+      "explanation": "通過四邊孔的是**腋神經**＋後旋肱動脈,非 suprascapular nerve,故 (B) 錯。\n\n(A) 邊界 teres major/minor、三頭肌、肱骨:正確。\n(B) **Suprascapular nerve 通過(正解＝錯)**:應為 axillary nerve。\n(C) 外科頸骨折可壓迫:正確。\n(D) None:不成立。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "quadrilateral-space"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3130,7 +3134,7 @@
       "id": "2016-085",
       "year": 2016,
       "number": 85,
-      "subspecialty": "Unknown",
+      "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
       "questionText": "Which the following one is the normal range of atlantodens interval (ADI) in children?",
       "options": [
@@ -3153,9 +3157,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: 書名：Radiographics 頁次：Volume 23(3), May-June 2003 (pp 545)",
+      "explanation": "兒童 ADI 正常上限 **< 5 mm**(成人 < 3 mm)。\n\n(A) <1mm、(B) <3mm:成人/過嚴。\n(C) **< 5 mm(正解)**。\n(D) <7mm:過寬。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "atlantodental-interval"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3165,7 +3171,7 @@
       "id": "2016-086",
       "year": 2016,
       "number": 86,
-      "subspecialty": "Unknown",
+      "subspecialty": "ABD",
       "subspecialty_confidence": "auto",
       "questionText": "In ureters of duplicated upper urinary tracts, where is the typical abnormally location of upper moiety ureteric insertions?",
       "options": [
@@ -3188,9 +3194,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "Ref: 書名：Radiographics 頁次：Volume 35(4), July-August 2015 (pp 1208-1230)",
+      "explanation": "完全重複系統中,引流**上極**的輸尿管異位插入點為**下方且內側(inferior and medial)**——Weigert-Meyer。\n\n(A) **Inferior and medial(正解)**。\n(B) Superior and lateral:為下極輸尿管。\n(C) Anterior、(D) Posterior:非。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ectopic-ureter"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3200,7 +3208,7 @@
       "id": "2016-087",
       "year": 2016,
       "number": 87,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "In the pediatric population, which type is most common in the spinal cord AVM?",
       "options": [
@@ -3223,9 +3231,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: 書名：Caffey's pediatric diagnostic imaging 12th edition 頁次：p482",
+      "explanation": "兒童以 **type 2 glomus(髓內)** AVM 最常見。\n\n(A) Type 1 dural:整體最常見但好發老年男性。\n(B) **Type 2 glomus(正解)**:髓內、年輕/兒童最常見。\n(C) Type 3 juvenile:罕。\n(D) Type 4 perimedullary AVF。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "spinal-avm"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3235,7 +3245,7 @@
       "id": "2016-088",
       "year": 2016,
       "number": 88,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "一位 25 歲女性患者持續頭病而求診。Brain MRI 發現在第四腦室有一個 mass lesion，lesion 透過 foramen magendie 延伸至 cisterna magna。 在 T2WI 呈現高訊號，T1WI 呈現低訊號。SWI 有 blooming foci；施打 對比劑後，此病灶呈 strong enhancement，當中亦有部份呈現 minimal enhancement。請問此病灶較可能是以下何種診斷？",
       "options": [
@@ -3258,9 +3268,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Osborn’s Brain. Page 500-504",
+      "explanation": "第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、不均勻強化 → **ependymoma**。\n\n(A) Medulloblastoma:中線、DWI 受限。\n(B) Myxoid ependymoma:非典型。\n(C) **Ependymoma(正解)**:可塑性擠出、鈣化/出血致 blooming。\n(D) Choroid plexus papilloma:均勻強化。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ependymoma"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3270,7 +3282,7 @@
       "id": "2016-089",
       "year": 2016,
       "number": 89,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "關於 Glomus Jugulare tumor，下列何者為非？",
       "options": [
@@ -3293,9 +3305,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Ref: Radiology Review Manual, 7th edition, page 402",
+      "explanation": "Glomus jugulare **可惡性轉化(~2–13%)**,故 (C)「不會」為非。\n\n(A) T2 salt-and-pepper:正確。\n(B) ICA/ECA 供血:正確。\n(C) **不會惡性轉化(正解＝為非)**:可惡性轉化。\n(D) Tinnitus/聽損:正確。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "glomus-jugulare"
+      ],
       "checked": false,
       "years": [
         2016
@@ -3305,7 +3319,7 @@
       "id": "2016-090",
       "year": 2016,
       "number": 90,
-      "subspecialty": "Unknown",
+      "subspecialty": "NR",
       "subspecialty_confidence": "auto",
       "questionText": "一位 30 歲男性因持續頭痛求診，神經學檢查發現 ataxia 及 nystagmus，MRI 發現在 posterior fossa 有一個 cystic mass，當中有 enhancing solid component，請問些病灶較可能為以下何種診斷？",
       "options": [
@@ -3328,9 +3342,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "Ref: Osborn’s Brain, page 606-609",
+      "explanation": "30 歲成人、ataxia/nystagmus、後顱窩囊性病灶＋強化壁結節 → **hemangioblastoma**。\n\n(A) Pilocytic astrocytoma:兒童對應。\n(B) **Hemangioblastoma(正解)**:成人小腦囊+結節;多發想 VHL。\n(C) GBM:罕於小腦。\n(D) Colloid cyst:第三腦室前上。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemangioblastoma"
+      ],
       "checked": false,
       "years": [
         2016
