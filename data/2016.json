@@ -995,7 +995,7 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "依 2015 AHA/ASA：**符合條件者應照給 IV r-tPA，即使同時考慮血管內治療**（Class I），不可為搶時間跳過。\n\n(A) Observing response not necessary before endovascular：正確（觀察 tPA 反應非必要、不建議，Class III）。\n(B) **IV r-tPA should be skipped to avoid time delay（正解＝錯誤敘述）**：應照給 tPA，不可跳過。\n(C) Thrombectomy recommended over intra-arterial fibrinolysis：正確（stent retriever 取栓優於 IA fibrinolysis）。\n(D) Goal reperfusion to TICI 2b/3 within 6 hours：正確（mTICI 2b/3，發病 6 小時內，Class I）。",
+      "explanation": "【依 2015 AHA/ASA 指引（本題答案）】符合條件者應照給 IV r-tPA，即使同時考慮血管內治療（Class I），故 (B)「為搶時間跳過 IV r-tPA」**錯誤**。\n(A) 不必先觀察 tPA 反應即可取栓：正確（Class III 反對等待）。\n(B) **應跳過 IV r-tPA（正解＝錯誤）**。\n(C) 取栓優於 IA fibrinolysis：正確。\n(D) 目標 TICI 2b/3、發病 6 小時內：正確（當時）。\n\n【依最新指引（2019 AHA／台灣 2023）】**答案不變，仍為 B**：即使計畫取栓，符合條件者仍應給 IV r-tPA（Class I）。註：DIRECT-MT/SKIP/DEVT/MR CLEAN-NO IV 等「直接取栓（略過 IV）」試驗結果不一致，現行指引仍建議**不跳過** IV r-tPA；另 tenecteplase 已成 alteplase 替代。詳見 [[acute-stroke-management]]。",
       "images": [],
       "concepts": [
         "acute-stroke-management"
@@ -1032,7 +1032,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "依 2015 AHA/ASA：**CT/MR perfusion 用於『選擇』血管內治療病人的效益『未確立』（Class IIb）**，故「已證實優於 CTA/MRA」為錯誤。\n\n(A) NECT provides necessary info in most instances：正確（Class I）。\n(B) Non-invasive intracranial vascular imaging strongly recommended if endovascular contemplated：正確（但勿延遲 tPA）。\n(C) **Perfusion proven better than CTA/MRA for selecting patients（正解＝錯誤敘述）**：效益未確立（Class IIb），未證實優於 CTA/MRA。\n(D) Non-invasive vascular imaging should not delay IV r-tPA：正確。",
+      "explanation": "【依 2015 AHA/ASA 指引（本題答案）】perfusion 用於『選擇』血管內治療病人之效益『未確立』（Class IIb），故 (C)「perfusion 已證實優於 CTA/MRA 選病人」**錯誤**。\n(A) NECT 多數情況提供緊急處置所需資訊：正確（Class I）。\n(B) 考慮取栓則強烈建議非侵入性顱內血管攝影：正確。\n(C) **Perfusion proven better for selecting EVT patients（2015 正解＝錯誤）**。\n(D) 非侵入性血管攝影不應延遲 IV r-tPA：正確。\n\n【依最新指引（2018/2019 AHA／台灣 2023）→ 答案可能不再成立】對 **6–24h 延長窗／醒睡型**，perfusion（CTP/MRP）或 collateral/DWI **已是選病人的 Class I 依據**（DAWN、DEFUSE-3、MR CLEAN-LATE、SELECT2、ANGEL-ASPECT），故選項 C 在延長窗已**不再錯誤**。如此 A/B/C/D 於現行指引大多成立，**本題可能『無單一正確答案』**。惟須注意：**早窗（<6h）以 CTA 顯示 LVO 即可、不需 perfusion**，故 C『優於 CTA』並非所有脈絡皆對。詳見 [[acute-stroke-management]] 指引更新段。",
       "images": [],
       "concepts": [
         "acute-stroke-management"
