@@ -96,18 +96,21 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     concepts = q.get("concepts") or []
     sub = q.get("subspecialty") or "Unknown"
     year = q.get("year", "")
+    # 跨年重複題以 years 清單為準（單一份、多年共用）；fallback 至單一 year
+    years = q.get("years") or ([year] if year != "" else [])
 
     frontmatter = [
         "---",
         f"id: {q.get('id', '')}",
-        f"year: {year}",
+        f"year: [{', '.join(str(y) for y in years)}]",
         f"subspecialty: {sub}",
         f"correctAnswer: {q.get('correctAnswer', '')}",
         f"concepts: [{', '.join(concepts)}]",
         f"checked: {str(bool(q.get('checked'))).lower()}",
         "---",
     ]  # genHash 於最後插入（見函式結尾）
-    tag_line = f"{FLASHCARD_TAG} #{year}交換 #{sub}"
+    year_tags = " ".join(f"#{y}交換" for y in years)
+    tag_line = f"{FLASHCARD_TAG} {year_tags} #{sub}"
 
     # 正面：tag 與題幹「同一行」（SR 外掛需 tag 與卡片同區塊才讀得到）+ 選項
     stem = _bold_verdicts(q.get("questionText", "").strip())
@@ -117,23 +120,22 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
 
     # 背面：答案 + 詳解
     explanation = (q.get("explanation") or "").strip()
-    sufficient = bool(explanation) and audit_questions._has_per_option(explanation)
     defer = any(c in substantive_concepts for c in concepts)  # 概念已能解釋 → 引用概念
     back = [f"**Ans: {q.get('correctAnswer', '')}**"]
     ref_defs: list[str] = []
 
-    if sufficient:
+    if explanation:
+        # 有詳解即以純文字呈現（不再包「待補詳解」callout，因詳解已存在、避免誤導）。
         body_txt, ref_defs = _normalize_footnotes(explanation)
         body_txt = _bold_option_verdicts(body_txt)
         if defer:
             body_txt = re.sub(r"\[\^\d+\]", "", body_txt)  # 移除內聯腳註，改引用概念
             ref_defs = []
+        # 去除詳解末尾「→ [[concept]]」指引行——與卡片自帶「概念：[[...]]」行重複（減少重複文字）
+        body_txt = re.sub(r"\n+\s*→\s*(?:概念詳解見\s*)?(?:\[\[[^\]]+\]\]\s*)+\.?\s*$", "", body_txt)
         back.append(body_txt.rstrip())
     else:
-        callout = "> [!todo] 待補詳解"
-        if explanation:
-            callout += "\n" + "\n".join(f"> {ln}" for ln in explanation.splitlines())
-        back.append(callout)
+        back.append("> [!todo] 待補詳解")  # 真正無詳解才標待補
 
     # SR 卡片本體（front + ?? + back + 概念 inline 連結）。
     # 概念連結 `概念：[[...]]` 緊接詳解、屬卡片一部分（複習時一起出現）。
@@ -151,9 +153,7 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
     if ref_defs:
         meta.append("## Reference\n" + "\n".join(ref_defs))
-    elif defer:
-        cites = " ".join(f"[[{c}]]" for c in concepts if c in substantive_concepts)
-        meta.append(f"> 參考依據見概念筆記 {cites}")
+    # 註：原「> 參考依據見概念筆記 [[...]]」行已移除——與上方 ![[concept]] 嵌入重複（減少重複文字）
 
     # 卡片後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註
     body = card + "\n\n\n"

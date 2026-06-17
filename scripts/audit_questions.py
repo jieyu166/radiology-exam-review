@@ -34,9 +34,9 @@ TMP_DIR = Path(__file__).parent.parent / "tmp"
 
 VALID_ANSWERS = {"A", "B", "C", "D", "E"}
 
-# explanation 逐選項樣式：含 (A)…(B)… 或 多行行首 A:/A./A、 等
-_PER_OPTION_PAREN = re.compile(r"\([A-E]\)")
-_PER_OPTION_LINE = re.compile(r"(?m)^\s*[A-E][\s:：.\)、]")
+# explanation 逐選項樣式：含 (A)/（A）… 或 多行行首（可帶 - * 項目符號/粗體）A:/A./A、/A（ 等
+_PER_OPTION_PAREN = re.compile(r"[(（][A-E][)）]")
+_PER_OPTION_LINE = re.compile(r"(?m)^\s*[-*]?\s*\*{0,2}[A-E]\*{0,2}[\s:：.\)）、（(]")
 
 
 def _has_per_option(explanation: str) -> bool:
