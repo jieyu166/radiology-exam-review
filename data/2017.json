@@ -32,9 +32,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "extends.\n![ADD breast MLO](data/images/obsidian/add-breast-mlo-44db17ac.png) MLO view PNL對到的pectoralis major要能看到",
+      "explanation": "正解 **B**（不正確）。足夠的 MLO 胸大肌應呈 convex 且**延伸至或低於 posterior nipple line（PNL）**;「convex 但未延伸至 PNL 下方」屬定位不足。脂肪在纖維腺體後方(A)、CC PNL 在 MLO 1 cm 內(C)、IMF 打開(D)皆正確。\n\n→ [[mammography-positioning]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mammography-positioning"
+      ],
       "checked": false
     },
     {
@@ -63,9 +65,11 @@
       ],
       "correctAnswer": "D",
       "reference": "",
-      "explanation": "A. 正確。Global, focal, one-view, developing 四種。\nB. 正確。比例為15%。\nC. 正確。因為惡性機率15%，是BI-RADS category 4。\nD. Focal asymmetry 惡性程度較高。",
+      "explanation": "正解 **D**（非）。**focal asymmetry 比 global asymmetry 更可疑**（global 多為正常變異）。2013 分四型(A)、developing 約 15% 惡性(B)、developing 即使 US 陰性仍須切片(C)皆正確。\n\n→ [[breast-asymmetry]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-asymmetry"
+      ],
       "checked": false
     },
     {
@@ -102,9 +106,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "正確。有convex outward是mass。\nA. 這是 (One-view) asymmetry. C. convex想到mass。 D. Global asymmetry。E. 應該是developing。",
+      "explanation": "正解 **B**。focal asymmetry＝**在不同(兩個)投影皆可見、缺 convex-outward 邊界（邊界 concave-outward）**。單一投影＝(one-view) asymmetry(A)、有 convex 邊界＝mass(C)、範圍大＝global(D)、新/變大＝developing(E)。\n\n→ [[breast-asymmetry]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-asymmetry"
+      ],
       "checked": false
     },
     {
@@ -137,9 +143,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **C**（非 BI-RADS 2）。**grouped amorphous 屬可疑型態（BI-RADS 4）**。popcorn/coarse(A)、rod/secretory(B)、milk of calcium sedimenting(D)皆典型良性。\n\n→ [[breast-calcifications]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
       "checked": false
     },
     {
@@ -172,9 +180,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "",
+      "explanation": "正解 **B**（非）。BI-RADS 2013 **移除百分比估計、改主觀描述**;不再要求報告纖維腺體佔比(如 0–25%)。a–d 分級(A)、最緻密＝extremely dense(C)、a＝almost entirely fatty(D)皆正確。\n\n→ [[breast-composition]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-composition"
+      ],
       "checked": false
     },
     {
@@ -212,9 +222,11 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "Oval shape: ellipitical or egg-shaped (may include 2/3 undulations) 所以C是oval shape。\nB. Indistinct margin是suspicious，如果覺得是良性會用obscured。\nC. Irregular shape: 不是 round, oval就叫做irregular。\nD. Microlobulated margin: characterized by short cycle undulations. suspicious.",
+      "explanation": "正解 **C**（錯誤）。**2–3 個 undulations 的腫塊仍稱 oval,非 irregular**。indistinct margin＝可疑(B)、short-cycle undulations＝microlobulated/可疑(D)、含脂肪腫塊幾乎良性(A)皆正確。\n\n→ [[bi-rads-mass-lexicon]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
       "checked": false
     },
     {
@@ -251,9 +263,11 @@
       ],
       "correctAnswer": "B",
       "reference": "",
-      "explanation": "<2%",
+      "explanation": "正解 **B**（錯誤）。**BI-RADS 3 為 ≤2%**（非 ≤3%）。category 2 ~0%(A)、4a 2–9%(C)、4b 10–49%(D)、5 ≥95%(E)皆正確。\n\n→ [[bi-rads-categories]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
       "checked": false
     },
     {
@@ -290,9 +304,11 @@
       ],
       "correctAnswer": "A",
       "reference": "",
-      "explanation": "~~nodule~~ mass",
+      "explanation": "正解 **A**（不符 lexicon）。**「nodule」非 BI-RADS 用語,應用「mass」**。developing asymmetry(B)、segmental fine linear calcifications(C)、intramammary lymph node(D)皆為合法 lexicon。\n\n→ [[bi-rads-mass-lexicon]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
       "checked": false
     },
     {
