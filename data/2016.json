@@ -2866,7 +2866,7 @@
       "concepts": [
         "biliary-hamartoma"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -3946,7 +3946,7 @@
       "number": 107,
       "subspecialty": "MSK",
       "subspecialty_confidence": "auto",
-      "questionText": "Which of the following is NOT a radiographic feature of ankylosing spondylitis? Arthritis mutilans : psoriatic arthritis",
+      "questionText": "Which of the following is NOT a radiographic feature of ankylosing spondylitis?",
       "options": [
         {
           "letter": "A",
@@ -3972,7 +3972,7 @@
       "concepts": [
         "ankylosing-spondylitis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
