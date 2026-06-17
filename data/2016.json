@@ -7663,6 +7663,191 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-208",
+      "year": 2016,
+      "number": 208,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "The \"rotator cuff interval\" is defined as the anatomic space between which tendons?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Supraspinatus and infraspinatus."
+        },
+        {
+          "letter": "B",
+          "text": "Supraspinatus and subscapularis."
+        },
+        {
+          "letter": "C",
+          "text": "Long head of biceps and subscapularis."
+        },
+        {
+          "letter": "D",
+          "text": "Infraspinatus and teres minor."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Magn Reson Imaging Clin N Am. 2012;20(2):229-59（題目所引）",
+      "explanation": "正解 **B**。旋轉肌間隙＝**supraspinatus 與 subscapularis 肌腱之間**的三角空間，內含肱二頭肌長頭腱、喙肱韌帶、上盂肱韌帶。\n\n→ [[rotator-cuff-interval]]",
+      "images": [],
+      "concepts": [
+        "rotator-cuff-interval"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-209",
+      "year": 2016,
+      "number": 209,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "A spiral proximal fibular fracture associated with an ankle joint injury is known as a Maisonneuve fracture, which one of the following is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fracture of the sustentaculum tali."
+        },
+        {
+          "letter": "B",
+          "text": "Dislocation of the subtalar joint."
+        },
+        {
+          "letter": "C",
+          "text": "Tear of the spring ligament."
+        },
+        {
+          "letter": "D",
+          "text": "Tear of the tibiofibular syndesmosis."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "AJR Am J Roentgenol. 1999;173(3):702（題目所引）",
+      "explanation": "正解 **D**。Maisonneuve fracture＝近端腓骨螺旋骨折＋踝損傷，合併**脛腓骨聯合（tibiofibular syndesmosis）撕裂**＋內踝/三角韌帶損傷（旋前-外旋機轉、不穩定）。\n\n→ [[maisonneuve-fracture]]",
+      "images": [],
+      "concepts": [
+        "maisonneuve-fracture"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-210",
+      "year": 2016,
+      "number": 210,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning osteopetrosis, which one of the following is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoblastic activity results in excessive bone production."
+        },
+        {
+          "letter": "B",
+          "text": "The radiographic hallmark is diffuse cortical thickening."
+        },
+        {
+          "letter": "C",
+          "text": "Alternating bands of sclerosis indicate the fluctuating course of the disease."
+        },
+        {
+          "letter": "D",
+          "text": "In the adult, bone is more resistant to fracture and undergoes bone marrow suppression."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: osteopetrosis（實際查證 2026-06-18）；Semin Musculoskelet Radiol. 2002;6(4):299-305",
+      "explanation": "正解 **C**。\n- **C（正解）**：交替的硬化帶反映疾病**活性起伏（fluctuating course）**。\n- A 錯：機轉是**破骨細胞缺陷**（非成骨過度）。\n- D 錯：骨雖硬化但**脆弱易骨折**（非更耐折）。\n\n→ [[osteopetrosis]]",
+      "images": [],
+      "concepts": [
+        "osteopetrosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-211",
+      "year": 2016,
+      "number": 211,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which ONE of the following imaging features is NOT usually associated with malignant transformation of osteochondromas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A bulky cartilaginous cap 2-3 cm thick."
+        },
+        {
+          "letter": "B",
+          "text": "Dispersed calcification in the cartilaginous cap."
+        },
+        {
+          "letter": "C",
+          "text": "Development of a bursa over the cartilaginous cap."
+        },
+        {
+          "letter": "D",
+          "text": "Rapid enlargement of the lesion."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Orthopedic Imaging: A Practical Approach 5th ed., p.629（題目所引）",
+      "explanation": "正解 **C**（非惡性徵象）。惡性變（→軟骨肉瘤）徵象＝**軟骨帽增厚（成人 >1.5 cm）、散在/不規則鈣化、快速增大**。\n- **C（正解）**：**軟骨帽上形成滑囊（bursa）為良性反應，非惡性徵象**。\n\n→ [[osteochondroma]]",
+      "images": [],
+      "concepts": [
+        "osteochondroma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-212",
+      "year": 2016,
+      "number": 212,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which ONE of the following locations is NOT the common site of brown tumors developed in patients with hyperparathyroidism?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Jaw."
+        },
+        {
+          "letter": "B",
+          "text": "Shoulder."
+        },
+        {
+          "letter": "C",
+          "text": "Pelvis."
+        },
+        {
+          "letter": "D",
+          "text": "Femur."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Orthopedic Imaging: A Practical Approach 5th ed., p.847（題目所引）",
+      "explanation": "正解 **B**（非常見部位）。棕色瘤好發**下頷/顎（jaw）、骨盆、肋骨、長骨（股骨）**。\n- **B（正解）**：**肩部非棕色瘤常見部位**。\n\n→ [[brown-tumor]]",
+      "images": [],
+      "concepts": [
+        "brown-tumor"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
