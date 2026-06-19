@@ -29,6 +29,9 @@ dateRev: 2026-06-15
 > [!question]- 特發性升主動脈瘤建議手術的主動脈直徑為多少？
 > **5.5 cm**（sporadic/退化性；2010 與 2022 ACC/AHA 一致）。Marfan/HTAD/BAV 約 5.0 cm；2022 指引於有經驗中心可下修至 5.0 cm。[^2][^3]
 
+> [!question]- 44 歲 BAV、mild AR、升主動脈 4.7 cm、兄 48 歲死於升主動脈剝離,建議? (2016-235)
+> **立即擇期手術修補（D）**。**BAV ＋ 一等親主動脈剝離家族史**為高風險特徵,使手術門檻自 5.5 cm 下修（指引約 5.0 cm,合併高風險家族史更低至 ~4.5 cm）;4.7 cm 已達介入指徵。等到 >5.5/>5.0 cm 或症狀才修補（A/B/C）不符高風險族群。[^2][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ascending-aortic-aneurysm")

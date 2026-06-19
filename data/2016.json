@@ -8515,6 +8515,191 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-231",
+      "year": 2016,
+      "number": 231,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT a sign of impending aneurysm rupture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increasing size of aneurysm."
+        },
+        {
+          "letter": "B",
+          "text": "Focal discontinuity in circumferential wall calcifications."
+        },
+        {
+          "letter": "C",
+          "text": "Crescent sign."
+        },
+        {
+          "letter": "D",
+          "text": "Thickening of mural thrombus."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiology Review Manual 7th ed.（題目所引）；Radiopaedia: AAA",
+      "explanation": "正解 **D**。**單純血栓增厚非即將破裂徵象**。increasing size(A)、wall calcification 局部不連續(B)、crescent sign（壁內出血，C）皆為警訊。\n\n→ [[aortic-aneurysm-rupture]]",
+      "images": [],
+      "concepts": [
+        "aortic-aneurysm-rupture"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-232",
+      "year": 2016,
+      "number": 232,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which feature can be observed in the first stage of mitral stenosis (pulmonary venous hypertension)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Loss of hilar angle, redistribution (stage I)."
+        },
+        {
+          "letter": "B",
+          "text": "Interstitial edema (stage II)."
+        },
+        {
+          "letter": "C",
+          "text": "Alveolar edema (stage III)."
+        },
+        {
+          "letter": "D",
+          "text": "Hemosiderin deposit, ossification (stage IV)."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiology Review Manual 7th ed.（題目所引）",
+      "explanation": "正解 **A**。**Stage I＝血流重分布(cephalization)、loss of hilar angle**。interstitial edema 屬 II、alveolar edema 屬 III、hemosiderin/ossification 屬 IV。\n\n→ [[pulmonary-venous-hypertension]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-venous-hypertension"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-233",
+      "year": 2016,
+      "number": 233,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "What is NOT the clue to differentiate chronic myocardial infarct from acute myocardial infarction?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Linear myocardial calcification or subendocardial fatty metamorphosis on CT."
+        },
+        {
+          "letter": "B",
+          "text": "Findings follow coronary vascular distribution."
+        },
+        {
+          "letter": "C",
+          "text": "Myocardial thinning with akinesis or dyskinesis."
+        },
+        {
+          "letter": "D",
+          "text": "Delayed hyperenhancement without increased T2 signal."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Diagnostic Imaging: Cardiovascular（題目所引）；Radiopaedia: myocardial infarction",
+      "explanation": "正解 **B**。**急、慢性梗塞皆循冠狀動脈分布**,故「follows coronary vascular distribution」非鑑別線索。線狀鈣化/脂肪化生(A)、變薄+akinesis(C)、LGE 無 T2 升高(D)皆為慢性線索。\n\n→ [[myocardial-infarction-imaging]]",
+      "images": [],
+      "concepts": [
+        "myocardial-infarction-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-234",
+      "year": 2016,
+      "number": 234,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which description about congestive liver in cardiac disease is NOT true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stasis of blood within liver parenchyma as a result of impaired venous drainage."
+        },
+        {
+          "letter": "B",
+          "text": "Dilated hepatic veins with to-and-fro blood flow on color Doppler."
+        },
+        {
+          "letter": "C",
+          "text": "CT shows delayed enhancement of dilated IVC and hepatic veins."
+        },
+        {
+          "letter": "D",
+          "text": "Differential diagnosis includes Budd-Chiari syndrome and hepatic cirrhosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: passive hepatic congestion（實際查證 2026-06-19）",
+      "explanation": "正解 **C**（不真）。congestive liver 的 CT 為**對比自右房『早期逆流(early reflux)』入擴張 IVC/肝靜脈**,非 delayed。定義(A)、to-and-fro 血流(B)、DDx(D)皆正確。\n\n→ [[passive-hepatic-congestion]]",
+      "images": [],
+      "concepts": [
+        "passive-hepatic-congestion"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-235",
+      "year": 2016,
+      "number": 235,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "A 44-year-old female with a bicuspid aortic valve and mild aortic regurgitation; on metoprolol; smoker; brother died of ascending aortic dissection at 48. CT shows ascending aorta 4.7 cm. You recommend:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Yearly imaging; repair when AR severe or symptoms develop."
+        },
+        {
+          "letter": "B",
+          "text": "Biannual imaging; elective repair when aortic diameter >5.5 cm."
+        },
+        {
+          "letter": "C",
+          "text": "Elective repair when aortic diameter >5 cm."
+        },
+        {
+          "letter": "D",
+          "text": "Proceed with elective ascending aortic aneurysm surgical repair now."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Cardiovascular Imaging Review 2011（題目所引）；2010 ACCF/AHA 與 2022 ACC/AHA aortic guidelines",
+      "explanation": "正解 **D**。**BAV ＋ 一等親主動脈剝離家族史**為高風險特徵,使手術門檻自 5.5 cm 下修（約 5.0 cm,合併高風險家族史更低至 ~4.5 cm）;4.7 cm 已達介入指徵 → 立即擇期手術。等 >5.5/>5.0 cm 或症狀(A/B/C)不符高風險族群。\n\n→ [[ascending-aortic-aneurysm]]",
+      "images": [],
+      "concepts": [
+        "ascending-aortic-aneurysm"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
