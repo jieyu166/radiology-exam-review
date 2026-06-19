@@ -2509,7 +2509,9 @@
       "reference": "",
       "explanation": "Iothalamate meglumine 60 (Conray 60) : 1400 mOsm/Kg Iohexol 350 (Omnipaque 350): 844 mOsm/Kg\nIodixanol 320 (Visipaque 320): 290 mOsm/Kg",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false
     },
     {
@@ -2544,7 +2546,9 @@
       "reference": "",
       "explanation": "半衰期=2小時．全部消失=24小時 [[對比劑 - Metformin]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {
@@ -2693,7 +2697,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -2763,7 +2769,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -2799,7 +2807,9 @@
       "reference": "",
       "explanation": "可以用低風險顯影劑\nC. 理論上是對的，不過eGFR 30-40是風險因子",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -3010,6 +3020,129 @@
       "images": [],
       "concepts": [],
       "checked": false
+    },
+    {
+      "id": "2021-085",
+      "year": 2021,
+      "number": 85,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Which iodinated contrast media is the non-ionic dimer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iopromide."
+        },
+        {
+          "letter": "B",
+          "text": "Iohexol."
+        },
+        {
+          "letter": "C",
+          "text": "Iothalamate meglumine."
+        },
+        {
+          "letter": "D",
+          "text": "Iodixanol."
+        },
+        {
+          "letter": "E",
+          "text": "Iopamidol."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
+      "explanation": "正解 **D**。**Iodixanol（Visipaque）為 non-ionic dimer**（等滲）。Iopromide/Iohexol/Iopamidol 為非離子單體；Iothalamate meglumine 為離子單體。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2021
+      ]
+    },
+    {
+      "id": "2021-086",
+      "year": 2021,
+      "number": 86,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Which space(s) would iodinated contrast media distribute after intravenous injection in a patient with normal renal function? (1) Vascular space (2) Extracellular space (3) Intracellular space",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "1+2"
+        },
+        {
+          "letter": "C",
+          "text": "1+2+3"
+        },
+        {
+          "letter": "D",
+          "text": "1+3"
+        },
+        {
+          "letter": "E",
+          "text": "2+3"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
+      "explanation": "正解 **B（1+2）**。含碘對比劑分子量低（<200 Da），靜脈注射後**自由交換於血管內與細胞外間隙**，不進入細胞內。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2021
+      ]
+    },
+    {
+      "id": "2021-087",
+      "year": 2021,
+      "number": 87,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Which space(s) would iodinated contrast media distribute in the normal brain during angiography? (1) Vascular space (2) Extracellular space (3) Intracellular space",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1"
+        },
+        {
+          "letter": "B",
+          "text": "1+2"
+        },
+        {
+          "letter": "C",
+          "text": "1+2+3"
+        },
+        {
+          "letter": "D",
+          "text": "1+3"
+        },
+        {
+          "letter": "E",
+          "text": "2+3"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
+      "explanation": "正解 **A（1）**。正常腦部血腦障壁（BBB）完整，對比劑**僅分布於血管內間隙**，不滲入腦細胞外間隙。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2021
+      ]
     }
   ]
 }
