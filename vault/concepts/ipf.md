@@ -27,7 +27,17 @@ concepts: [ipf]
 基底為主的網狀影、**牽引性支氣管/細支氣管擴張**、**honeycombing**（蜂窩狀）；GGO 較網狀影少。整體**基底 + subpleural（周邊）為主**，肺容積偏低。[^1]
 
 > [!warning] 「subpleural sparing」是別的病
-> IPF/UIP 是 **subpleural predominant（以周邊為主）**；若見「subpleural sparing（保留周邊）」應想 **NSIP** 等，而非 IPF。考題常以此設陷阱。[^1]
+> IPF/UIP 是 **subpleural predominant（以周邊為主）**；若見「subpleural sparing（保留周邊）」應想 **NSIP**（見 [[nonspecific-interstitial-pneumonia]]）等，而非 IPF。考題常以此設陷阱。[^1]
+
+### UIP pattern 影像分類（2018 ATS/ERS/JRS/ALAT，2022 沿用）
+2018 移除 2013 的「inconsistent with UIP」,改為四類:[^3]
+- **Typical UIP**：subpleural+basal 為主、heterogeneous;**honeycombing ± traction bronchiectasis**＋網狀影。
+- **Probable UIP**：subpleural+basal 為主;**網狀影＋周邊 traction bronchiectasis/bronchiolectasis,『無 honeycombing』**;可少量 GGO。→ **2022 確立 Probable UIP 於臨床情境相符時可『免切片』診斷 IPF**。
+- **Indeterminate for UIP**：subpleural+basal、subtle reticulation;為 early/truly indeterminate。
+- **Alternative diagnosis**：上中肺為主、peribronchovascular＋subpleural sparing、顯著 consolidation/GGO/mosaic+air-trapping/結節/囊腫等 → 指向他病。
+
+> [!note] UIP criteria 的診斷準確度（考點）
+> **CT 為 Typical 或 Probable UIP → 病理約 80–81% 為 UIP**;但 **CT 打 Indeterminate/Alternative,病理仍約 42% 是 UIP** → 影像有極限,需 MDD（多專科討論）。[^3]
 
 ## 鑑別與報告要點
 | 病 | 分布 | 核心型態 | 關鍵 |
@@ -39,6 +49,7 @@ concepts: [ipf]
 ### 參考來源
 [^1]: *Idiopathic Pulmonary Fibrosis*. STATdx（Chest/Thoracic, Dx），updated 2021-10-15. Elsevier（實際查證 accessed 2026-06-14）。
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；IPF 屬「與菸草強烈關聯」之第二組，非純吸菸相關）。
+[^3]: UIP/IPF 診斷指引（ATS/ERS/JRS/ALAT 2018 IPF guideline；2022 update）＋*Usual interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：2018 四分類（Typical/Probable/Indeterminate/Alternative）取代 2013「inconsistent」;2022 Probable UIP 可免切片診斷 IPF;CT Typical/Probable 約 80–81% 病理為 UIP、Indeterminate/Alternative 仍約 42% 為 UIP。
 
 ## 題目
 > [!question]- IPF/UIP 的典型分布與 CT 樣態？
@@ -49,6 +60,12 @@ concepts: [ipf]
 
 > [!question]- 關於 HRCT 的 UIP pattern criteria,何者「為非」? (2017-130)
 > 「**extensive ground-glass abnormality（GGO 多於 reticular）**」為非——大範圍 GGO 屬『**inconsistent with UIP**』。UIP 四特徵＝subpleural/basal predominance、reticular、honeycombing±traction bronchiectasis、無不符特徵。[^1]
+
+> [!question]- 2018 UIP 分類中,「Probable UIP」與「Typical UIP」的關鍵差異?
+> **Probable UIP『無 honeycombing』**（僅網狀影＋周邊 traction bronchiectasis）;Typical UIP **有 honeycombing**。兩者皆 subpleural+basal 為主;2022 起 Probable UIP 於相符臨床情境可免切片診斷 IPF。[^3]
+
+> [!question]- CT 打 Indeterminate/Alternative 的 UIP,病理仍是 UIP 的比例?
+> 約 **42%**（CT Typical/Probable 則約 80–81% 病理為 UIP）→ 影像有極限,需 MDD 多專科討論。[^3]
 
 ## 考題
 ```dataview
