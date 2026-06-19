@@ -1610,7 +1610,9 @@
       "reference": "",
       "explanation": "![ADD CEUS LI-RADS 1](data/images/obsidian/add-ceus-li-rads-1-b242a4a1.png)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-enhanced-ultrasound"
+      ],
       "checked": false
     },
     {
@@ -7086,7 +7088,9 @@
       "reference": "",
       "explanation": "Goup 3: NSF data還不夠多的，如Primovist。Group 2最安全。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -7156,7 +7160,9 @@
       "reference": "",
       "explanation": "50%肝腎室Primovist。常看到藥物需記學名，如Primovist, MultiHance",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {

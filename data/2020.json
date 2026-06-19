@@ -5195,7 +5195,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-enhanced-ultrasound"
+      ],
       "checked": false
     },
     {
@@ -5230,7 +5232,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-enhanced-ultrasound"
+      ],
       "checked": false
     },
     {
@@ -5414,7 +5418,9 @@
       "reference": "",
       "explanation": "- C. 為含碘顯影劑",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -5449,7 +5455,9 @@
       "reference": "",
       "explanation": "Intracellular agent如Primovist，但是是進入hepatocyte",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -5488,7 +5496,9 @@
       "reference": "",
       "explanation": "慢性不良反應",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -5519,7 +5529,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -5554,7 +5566,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -5589,7 +5603,9 @@
       "reference": "",
       "explanation": "- C. 既然對臨床處置無明顯影響那就非必要之檢查\n- D. 懷孕期間MRI 造成胎兒的聽覺損傷似乎是理論上的，而不是真實存在的。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {
@@ -6440,6 +6456,154 @@
       "images": [],
       "concepts": [],
       "checked": false
+    },
+    {
+      "id": "2020-182",
+      "year": 2020,
+      "number": 182,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種含碘對比劑『不可』使用於蜘蛛網膜腔下(intrathecal)注射?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Omnipaque 300"
+        },
+        {
+          "letter": "B",
+          "text": "Omnipaque 240"
+        },
+        {
+          "letter": "C",
+          "text": "Omnipaque 180"
+        },
+        {
+          "letter": "D",
+          "text": "Omnipaque 350"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "中華民國放射線醫學會對比劑手冊；ACR Manual on Contrast Media",
+      "explanation": "正解 **D**。鞘內注射只准**低濃度非離子單體**（如 Omnipaque 180/240/300、Iopamidol 300）；**高濃度 Omnipaque 350 禁用於鞘內**（高滲透壓神經毒性）。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-183",
+      "year": 2020,
+      "number": 183,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種檢查使用含碘對比劑?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "顯影性磁振造影"
+        },
+        {
+          "letter": "B",
+          "text": "雙重對比下消化道攝影"
+        },
+        {
+          "letter": "C",
+          "text": "血管攝影"
+        },
+        {
+          "letter": "D",
+          "text": "顯影性超音波攝影"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "中華民國放射線醫學會對比劑手冊",
+      "explanation": "正解 **C**。**血管攝影使用含碘對比劑**。顯影性磁振用釓劑、雙重對比下消化道用鋇劑＋空氣、顯影性超音波用微氣泡。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-184",
+      "year": 2020,
+      "number": 184,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種檢查需要在動脈內注射含碘對比劑?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "顯影性磁振造影"
+        },
+        {
+          "letter": "B",
+          "text": "雙重對比下消化道攝影"
+        },
+        {
+          "letter": "C",
+          "text": "血管攝影"
+        },
+        {
+          "letter": "D",
+          "text": "顯影性超音波攝影"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "中華民國放射線醫學會對比劑手冊",
+      "explanation": "正解 **C**。**血管攝影（angiography）於動脈內注射含碘對比劑**。其餘檢查不在動脈內注射含碘劑。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-185",
+      "year": 2020,
+      "number": 185,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "下消化道攝影可能使用下列何種對比劑?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "鋇劑"
+        },
+        {
+          "letter": "B",
+          "text": "含碘對比劑"
+        },
+        {
+          "letter": "C",
+          "text": "以上皆是"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆非"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "中華民國放射線醫學會對比劑手冊",
+      "explanation": "正解 **C（以上皆是）**。下消化道攝影可用**鋇劑**或**含碘對比劑**（疑穿孔/吻合口漏時用水溶性含碘劑）。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
     }
   ]
 }

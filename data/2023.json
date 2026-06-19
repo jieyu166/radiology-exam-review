@@ -299,7 +299,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -4223,7 +4225,9 @@
       "reference": "",
       "explanation": "A. 可能要說microbubble/微粒球microspheres比較好。\nC. 大小平均約 2-5 um，無法穿過內皮細胞。\nD. 均嚴禁動脈內注射方式給予",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-enhanced-ultrasound"
+      ],
       "checked": false
     },
     {
@@ -4595,7 +4599,9 @@
       "reference": "",
       "explanation": "必需重複施打含釓對比劑者，建議至少相隔 7 天。(2020指引)\nC. 可以。故NSF也可安排HD時間/增加洗腎次數。但改用環狀對比劑更安全。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {

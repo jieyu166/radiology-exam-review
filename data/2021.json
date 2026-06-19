@@ -2587,7 +2587,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2623,7 +2625,9 @@
       "reference": "",
       "explanation": "Gd contrast agent ==> shortening T1 relaxation time ==> T1WI Hyperintensity\n- 但Gado也會有shortening T2 relaxation time的效果，T2訊號會降低。高濃度時較明顯(Radiopaedia)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2658,7 +2662,9 @@
       "reference": "",
       "explanation": "(2017 p. 36) 尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2734,7 +2740,9 @@
       "reference": "",
       "explanation": "Most cases reported after use of **nonionic linear** agents. (含Ominscan, OptiMARK)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2872,7 +2880,9 @@
       "reference": "",
       "explanation": "- Mn-DPDP是Mn based，另兩個是Gd-based的 (2) Multihance, (3) Primovist",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
