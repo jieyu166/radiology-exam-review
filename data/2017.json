@@ -3804,6 +3804,117 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-106",
+      "year": 2017,
+      "number": 106,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following diseases is NOT associated with increased risk for renal cell carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ADPKD."
+        },
+        {
+          "letter": "B",
+          "text": "von Hippel-Lindau disease."
+        },
+        {
+          "letter": "C",
+          "text": "Acquired cystic kidney disease associated with chronic renal failure."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Katabathina VS et al. RadioGraphics 2010;30:1509-1523",
+      "explanation": "正解 **A**。**ADPKD 不增加 RCC 風險**（雖 60 歲約 50% 末期腎病）。von Hippel-Lindau(B)、acquired cystic kidney disease(C) 皆增加 RCC 風險。\n\n→ [[acquired-cystic-kidney-disease]]",
+      "images": [],
+      "concepts": [
+        "acquired-cystic-kidney-disease"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-107",
+      "year": 2017,
+      "number": 107,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About the TNM staging system for esophageal cancer (AJCC 7th edition), which statement is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T4b tumors are unresectable cancers invading adjacent structures such as aorta, carotid vessels, trachea, left main bronchus, or vertebral body."
+        },
+        {
+          "letter": "B",
+          "text": "Regional lymph nodes include any paraesophageal lymph nodes from cervical to celiac nodes."
+        },
+        {
+          "letter": "C",
+          "text": "Cancer location is determined by where the tumor occupies the largest mass volume, not the position of the upper edge."
+        },
+        {
+          "letter": "D",
+          "text": "EGJ tumors are staged as esophageal cancer if the epicenter is within the proximal 5 cm of the stomach and the tumor extends into the esophagus."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34:1722-1740",
+      "explanation": "正解 **C**（錯誤）。食道癌**位置由 tumor epicenter（中心）決定**，非「佔最大體積處」。regional node 範圍(B)、EGJ 近端 5 cm 規則(D)、T4 侵犯定義(A)皆正確。\n\n→ [[esophageal-cancer-staging]]",
+      "images": [],
+      "concepts": [
+        "esophageal-cancer-staging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-108",
+      "year": 2017,
+      "number": 108,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following structures is the most reliable landmark for the thoracic inlet at axial CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "First thoracic vertebra."
+        },
+        {
+          "letter": "B",
+          "text": "Thyroid gland."
+        },
+        {
+          "letter": "C",
+          "text": "Scalene muscles."
+        },
+        {
+          "letter": "D",
+          "text": "First ribs."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34:1680-1691",
+      "explanation": "正解 **D**。**First ribs（第一肋骨）** 為軸狀 CT 上界定 thoracic inlet 最可靠的標誌。T1 椎體、甲狀腺、斜角肌較不可靠。\n\n→ [[thoracic-inlet-anatomy]]",
+      "images": [],
+      "concepts": [
+        "thoracic-inlet-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

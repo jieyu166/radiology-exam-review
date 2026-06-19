@@ -30,6 +30,9 @@ dateRev: 2026-06-19
 > [!question]- 關於 acquired cystic kidney disease,何者「錯誤」? (2017-104)
 > 「**不會增加腎腫瘤風險**」錯誤——ACKD **增加 RCC 風險**。發生於慢性腎衰透析、腎出血常見、患腎多小但囊腫可致腫大皆正確。[^1]
 
+> [!question]- 何者「不」增加腎細胞癌(RCC)風險? (2017-106)
+> **ADPKD**——雖 60 歲約 50% 進入末期腎病,但 RCC 風險『未增加』。von Hippel-Lindau、acquired cystic kidney disease(慢性腎衰) 皆增加 RCC 風險。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "acquired-cystic-kidney-disease")
