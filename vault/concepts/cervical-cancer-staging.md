@@ -29,6 +29,9 @@ dateRev: 2026-06-17
 > [!question]- 子宮頸癌 MRI 何者「不」影響 TNM/分期?
 > **腫瘤侵犯子宮體（uterine corpus）**。parametrium 侵犯、hydronephrosis、骨盆淋巴結皆影響分期。[^1]
 
+> [!question]- 子宮頸癌 MRI 哪一所見「不」影響 TNM 分期? (2017-134)
+> **Tumor invasion to uterine body（侵犯子宮體）**——子宮體侵犯不改變 FIGO/TNM 分期。parametrium 侵犯(→IIB)、hydronephrosis(→IIIB)、pelvic lymphadenopathy(N 分期)皆影響分期。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cervical-cancer-staging")

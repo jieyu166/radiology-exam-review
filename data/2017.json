@@ -4667,6 +4667,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-129",
+      "year": 2017,
+      "number": 129,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About gastric lesions causing giant gastric folds on MDCT, which description is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giant gastric folds can be caused by scirrhous carcinoma, B-cell lymphoma, acute gastric mucosal lesions, and Menetrier disease."
+        },
+        {
+          "letter": "B",
+          "text": "MDCT is a poor modality of choice to differentiate the diseases causing giant gastric folds."
+        },
+        {
+          "letter": "C",
+          "text": "Gastric lymphoma mostly originates from the submucosa."
+        },
+        {
+          "letter": "D",
+          "text": "Loss of wall stratification is the best MDCT predictor of malignancy."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；AJR 2010;195(Nov)",
+      "explanation": "正解 **B**（為非）。**MDCT 是鑑別巨大胃皺襞病因的『好』工具**（藉壁分層、強化型態），非差選擇。成因(A)、胃淋巴瘤源自黏膜下(C)、壁分層消失＝惡性最佳預測(D)皆正確。\n\n→ [[giant-gastric-folds]]",
+      "images": [],
+      "concepts": [
+        "giant-gastric-folds"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-130",
+      "year": 2017,
+      "number": 130,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding HRCT criteria for usual interstitial pneumonia (UIP) pattern, which one is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Extensive ground-glass abnormality (more than reticular abnormality)."
+        },
+        {
+          "letter": "B",
+          "text": "Subpleural, basal predominance."
+        },
+        {
+          "letter": "C",
+          "text": "Reticular abnormality."
+        },
+        {
+          "letter": "D",
+          "text": "Honeycombing with or without traction bronchiectasis."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Wells, Respiratory Research 2013;14(Suppl 1):S2",
+      "explanation": "正解 **A**（為非）。**Extensive GGO（多於 reticular）屬『inconsistent with UIP』**。UIP 四特徵＝subpleural/basal(B)、reticular(C)、honeycombing±traction bronchiectasis(D)、無不符特徵。\n\n→ [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-131",
+      "year": 2017,
+      "number": 131,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding recurrent pyogenic cholangitis, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No risk of developing cholangiocarcinoma."
+        },
+        {
+          "letter": "B",
+          "text": "Particularly in the lateral segment of the left lobe."
+        },
+        {
+          "letter": "C",
+          "text": "Multifocal bile duct strictures."
+        },
+        {
+          "letter": "D",
+          "text": "Associated findings include gallstones, splenomegaly and varices."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Radiology Review Manual 7th, p712",
+      "explanation": "正解 **A**（為非）。**RPC 增加膽管癌風險**。好發左葉外側段(B)、多發膽管狹窄(C)、合併膽石/脾腫大/靜脈曲張(D)皆正確。\n\n→ [[recurrent-pyogenic-cholangitis]]",
+      "images": [],
+      "concepts": [
+        "recurrent-pyogenic-cholangitis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-132",
+      "year": 2017,
+      "number": 132,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pseudomyxoma peritonei, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scalloping of the liver and spleen."
+        },
+        {
+          "letter": "B",
+          "text": "May contain septa and calcification."
+        },
+        {
+          "letter": "C",
+          "text": "More common in male."
+        },
+        {
+          "letter": "D",
+          "text": "May originate from a lesion of the appendix."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Radiology Review Manual 7th, p883",
+      "explanation": "正解 **C**（為非）。Pseudomyxoma peritonei **女略多於男（M:F ≈ 9:11）**。scalloping of liver/spleen(A)、含分隔與鈣化(B)、源自闌尾(D)皆正確。\n\n→ [[pseudomyxoma-peritonei]]",
+      "images": [],
+      "concepts": [
+        "pseudomyxoma-peritonei"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-133",
+      "year": 2017,
+      "number": 133,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a typical image finding of endometrial cancer on MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isointensity compared to myometrium on T1WI."
+        },
+        {
+          "letter": "B",
+          "text": "Hyperintensity compared to myometrium on T2WI."
+        },
+        {
+          "letter": "C",
+          "text": "Hyperenhancement compared to myometrium on post-contrast images."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are typical image findings."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.2-140~141",
+      "explanation": "正解 **C**（不是典型）。子宮內膜癌 post-contrast 為**強化低於肌層（hypoenhancement）**，非 hyperenhancement。T1WI 與肌層等訊號(A)、T2WI 高於肌層(B)皆為典型。\n\n→ [[endometrial-cancer-mri]]",
+      "images": [],
+      "concepts": [
+        "endometrial-cancer-mri"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-134",
+      "year": 2017,
+      "number": 134,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which MRI image finding of uterine cervical cancer does NOT affect cancer TNM staging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor invasion to the uterine body."
+        },
+        {
+          "letter": "B",
+          "text": "Tumor invasion to the parametrium."
+        },
+        {
+          "letter": "C",
+          "text": "Hydronephrosis."
+        },
+        {
+          "letter": "D",
+          "text": "Pelvic lymphadenopathy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.3-20~25",
+      "explanation": "正解 **A**。**侵犯子宮體（uterine body）不改變子宮頸癌的 FIGO/TNM 分期**。parametrium 侵犯(→IIB，B)、hydronephrosis(→IIIB，C)、pelvic lymphadenopathy(N 分期，D)皆影響分期。\n\n→ [[cervical-cancer-staging]]",
+      "images": [],
+      "concepts": [
+        "cervical-cancer-staging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -47,6 +47,9 @@ concepts: [ipf]
 > [!question]- 「下肺 honeycombing 且 subpleural sparing」符合 IPF 嗎？
 > 不符。IPF 是 subpleural **predominant**；出現 subpleural **sparing** 反而要想 NSIP。[^1]
 
+> [!question]- 關於 HRCT 的 UIP pattern criteria,何者「為非」? (2017-130)
+> 「**extensive ground-glass abnormality（GGO 多於 reticular）**」為非——大範圍 GGO 屬『**inconsistent with UIP**』。UIP 四特徵＝subpleural/basal predominance、reticular、honeycombing±traction bronchiectasis、無不符特徵。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")
