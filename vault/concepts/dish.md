@@ -1,0 +1,40 @@
+---
+concepts: [dish]
+name: Diffuse Idiopathic Skeletal Hyperostosis (DISH)
+subspecialty: [MSK]
+aliases:
+  - DISH
+  - diffuse idiopathic skeletal hyperostosis
+  - Forestier disease
+  - 瀰漫性特發性骨骼增生
+dateRev: 2026-06-19
+same:
+  - "[[ankylosing-spondylitis]]"
+---
+
+# dish
+
+**DISH＝沿前縱韌帶『流注狀(flowing)』骨化、保留椎間盤高度,但『無小面關節僵直、無薦髂關節炎』。** 判讀分水嶺：**DISH＝≥4 個連續椎節流注狀骨化（前/右前外側）、椎間盤高度保留、附著點骨贅;『無 facet/apophyseal joint ankylosis、無 sacroiliitis』（此屬僵直性脊椎炎）**。與 AS 區分見 [[ankylosing-spondylitis]]。
+
+## Summary
+- **DISH 典型徵象**：[^1]
+  - **≥4 個連續椎節的流注狀(flowing)骨化**（前/右前外側）。
+  - **椎間盤高度相對保留**。
+  - 韌帶/肌腱附著點的**明顯、銳利邊界骨贅**（enthesophytes）。
+- **DISH『不』有**：**apophyseal(facet) joint ankylosis、sacroiliitis**——此屬僵直性脊椎炎（AS）。[^1]
+- **vs AS**：AS 為細的 syndesmophyte（bamboo spine）、薦髂關節早期受累、骨質疏鬆明顯。[^1]
+
+> [!note] 考點：關於 DISH 經典徵象,何者「錯誤」?
+> 「**有 apophyseal(facet) joint ankylosis**」錯誤——facet ankylosis 與 sacroiliitis 屬 **AS**,非 DISH。流注狀骨化(≥4 椎節)、椎間盤高度保留、附著點骨贅皆為 DISH。[^1]
+
+### 參考來源
+[^1]: 官方 2017 詳解；Imaging of the Musculoskeletal System, p.1189-1195 (Saunders 2008)：DISH＝流注狀骨化、椎間盤保留、**無 sacroiliitis/facet ankylosis**;AS 為 syndesmophyte/bamboo spine、薦髂早期受累。
+
+## 題目
+> [!question]- 關於 DISH 的經典徵象,何者「錯誤」? (2017-127)
+> 「**有 apophyseal(facet) joint ankylosis**」錯誤——facet ankylosis 與 sacroiliitis 屬 **AS**。流注狀骨化(≥4 連續椎節)、椎間盤高度保留、附著點銳利骨贅皆為 DISH。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "dish")
+```

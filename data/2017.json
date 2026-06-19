@@ -4441,6 +4441,232 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-123",
+      "year": 2017,
+      "number": 123,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement is TRUE about intraventricular tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ependymomas occur in any age group but are more common in elderly patients."
+        },
+        {
+          "letter": "B",
+          "text": "The classic scenario of subependymoma is a middle-aged man with an incidental intraventricular neoplasm at imaging."
+        },
+        {
+          "letter": "C",
+          "text": "Central neurocytomas never contain calcification or hemorrhage."
+        },
+        {
+          "letter": "D",
+          "text": "The most common location of choroid plexus neoplasm is the third ventricle."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2013;33:21-43",
+      "explanation": "正解 **B**。**Subependymoma 經典為中年男性偶發、無症狀的腦室內腫瘤**。ependymoma 偏年輕(A 誤)、central neurocytoma ~50% 含鈣化可出血(C 誤)、choroid plexus 成人最常見側腦室房部非第三腦室(D 誤)。\n\n→ [[intraventricular-tumors]]",
+      "images": [],
+      "concepts": [
+        "intraventricular-tumors"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-124",
+      "year": 2017,
+      "number": 124,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About MR imaging of hypervascular liver tumors, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangiomas are more T2 hypointense than most metastases."
+        },
+        {
+          "letter": "B",
+          "text": "Small uniformly enhancing hemangiomas retain contrast and remain hyperintense, whereas hypervascular metastases show washout."
+        },
+        {
+          "letter": "C",
+          "text": "Depiction of intralesional fat with fat-suppressed or opposed-phase imaging."
+        },
+        {
+          "letter": "D",
+          "text": "Regenerative and dysplastic nodules typically display venous washout."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2009;29:385-402",
+      "explanation": "正解 **B**。**小而均勻強化的血管瘤滯留對比、維持高訊號;hypervascular 轉移呈 washout**。血管瘤較轉移 T2 更高訊號(A 反)、regen/dysplastic nodule 不washout(D 誤)。\n\n→ [[hypervascular-liver-tumor-mr]]",
+      "images": [],
+      "concepts": [
+        "hypervascular-liver-tumor-mr"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-125",
+      "year": 2017,
+      "number": 125,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is a component of the triangle of Guillain and Mollaret?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Putamen."
+        },
+        {
+          "letter": "B",
+          "text": "Caudate nucleus."
+        },
+        {
+          "letter": "C",
+          "text": "Substantia nigra."
+        },
+        {
+          "letter": "D",
+          "text": "Red nucleus."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；AJNR 2000;21:1073-1077",
+      "explanation": "正解 **D**。Guillain-Mollaret triangle＝**red nucleus（紅核）＋inferior olivary nucleus（下橄欖核）＋contralateral dentate nucleus（對側齒狀核）**。putamen、caudate、substantia nigra 非其組成。\n\n→ [[guillain-mollaret-triangle]]",
+      "images": [],
+      "concepts": [
+        "guillain-mollaret-triangle"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-126",
+      "year": 2017,
+      "number": 126,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "According to UCSF and Milan criteria, which patient is suitable for liver transplantation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Single HCC (7.0 cm)."
+        },
+        {
+          "letter": "B",
+          "text": "2 HCCs (5.0 cm and 1.0 cm)."
+        },
+        {
+          "letter": "C",
+          "text": "Single cholangiocarcinoma (3.0 cm)."
+        },
+        {
+          "letter": "D",
+          "text": "3 HCCs (1.5 cm, 3.0 cm, 2.0 cm)."
+        },
+        {
+          "letter": "E",
+          "text": "4 HCCs (1.0, 1.0, 2.0, 2.0 cm)."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Milan / UCSF criteria",
+      "explanation": "正解 **D**。3 顆 HCC（1.5/3.0/2.0 cm）符合 **Milan（≤3 顆、各 ≤3 cm）與 UCSF（總和 <8 cm）**。單一 7 cm(A)、含 5 cm 顆(B)、膽管癌(C)、4 顆(E)皆不符。\n\n→ [[hcc-imaging-diagnosis]]",
+      "images": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-127",
+      "year": 2017,
+      "number": 127,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "About the classic signs of diffuse idiopathic skeletal hyperostosis (DISH), which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flowing ossification along at least four contiguous vertebral levels."
+        },
+        {
+          "letter": "B",
+          "text": "Relative preservation of disc height."
+        },
+        {
+          "letter": "C",
+          "text": "Presence of apophyseal joint ankylosis."
+        },
+        {
+          "letter": "D",
+          "text": "Prominent, sharply marginated bony excrescences at ligament and tendon attachments."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Imaging of the Musculoskeletal System, p.1189-1195",
+      "explanation": "正解 **C**（錯誤）。**Apophyseal(facet) joint ankylosis 與 sacroiliitis 屬僵直性脊椎炎(AS)，非 DISH**。流注狀骨化(≥4 椎節)(A)、椎間盤高度保留(B)、附著點骨贅(D)皆為 DISH。\n\n→ [[dish]]",
+      "images": [],
+      "concepts": [
+        "dish"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-128",
+      "year": 2017,
+      "number": 128,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "When evaluating a hepatic lesion on CT or MRI, all of the following image features favor HCC, EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor within the lumen of a vein."
+        },
+        {
+          "letter": "B",
+          "text": "Arterial phase hyperenhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Portal venous or later phase hypoenhancement (washout)."
+        },
+        {
+          "letter": "D",
+          "text": "Without a capsule or pseudocapsule."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2012;32:1977-1995",
+      "explanation": "正解 **D**。**「無 capsule/pseudocapsule」不利 HCC**——HCC 典型『有』包膜。有利者：tumor in vein 瘤栓(A)、動脈期 hyperenhancement(B)、portal/later washout(C)。\n\n→ [[hcc-imaging-diagnosis]]",
+      "images": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
