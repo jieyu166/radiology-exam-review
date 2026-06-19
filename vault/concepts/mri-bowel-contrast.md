@@ -1,0 +1,40 @@
+---
+concepts: [mri-bowel-contrast]
+name: MRI Bowel / Oral Contrast Agents (Positive / Negative / Biphasic)
+subspecialty: [Physics, ABD]
+aliases:
+  - MRI bowel contrast
+  - oral MR contrast
+  - biphasic contrast
+  - positive negative contrast
+  - 腸道對比劑
+dateRev: 2026-06-19
+---
+
+# mri-bowel-contrast
+
+**MR 腸道對比劑依在 T1/T2 的訊號分 positive、negative、biphasic 三類。** 判讀分水嶺一：**positive＝縮短 T1 → T1 亮（Gd、Mn、油脂類）;negative＝T2 暗（SPIO、鋇劑、氣體/空氣）**;判讀分水嶺二：**biphasic（水性，如水、mannitol、PEG）＝T1 暗、T2 亮**——MR enterography 最常用（腸腔 T2 亮、T1 暗,利於評估腸壁強化）。
+
+## Summary
+- **Positive（T1 亮）**：縮短 T1 弛緩 → T1WI 高訊號;如 **Gd、Mn、油脂(oil/lipid)**。[^1]
+- **Negative（T2 暗）**：縮短 T2 或無質子 → T2WI 低訊號;如 **SPIO、鋇劑(barium)、氣體/空氣、perflubron**。[^1]
+- **Biphasic（水性）**：**T1 暗、T2 亮**;如 **水、mannitol、PEG、methylcellulose**——MR enterography 主力（腸腔擴張、T2 亮對比腸壁、T1 暗利於看強化）。[^1]
+- **稀釋鋇劑（dilute barium）為 water-based**：行為近 **biphasic**——CT 上 high density、MRI **T1 暗、T2 亮**（非 T2 暗）、US 近似水;疑腸道破漏時改用水溶性含碘劑、勿用鋇。[^1]
+
+> [!note] 常見考點
+> positive＝T1 亮（Gd/Mn/油）;negative＝T2 暗（SPIO/鋇/氣）;**biphasic（水/mannitol）＝T1 暗 T2 亮**;**稀釋鋇劑屬 water-based biphasic（MRI T2 亮,非 T2 暗）**。[^1]
+
+### 參考來源
+[^1]: MR 腸道對比劑分類（*Bowel contrast agents — Questions and Answers in MRI*, mriquestions.com；MR enterography 文獻）：positive（T1 短、T1 亮：Gd/Mn/lipid）／negative（T2 暗：SPIO/barium/air）／biphasic（水性：T1 暗 T2 亮：water/mannitol/PEG）;稀釋鋇劑為 water-based、MRI 呈 T1 暗 T2 亮。
+
+## 題目
+> [!question]- MR 腸道對比劑的三大類與訊號特性?
+> **Positive（T1 亮：Gd/Mn/油）、Negative（T2 暗：SPIO/鋇/氣）、Biphasic（水性：T1 暗 T2 亮：水/mannitol）**。MR enterography 多用 biphasic。[^1]
+
+> [!question]- 喝入 ~1000 cc dilute 鋇劑作腸道對比劑,何者「錯誤」?
+> 「**MRI T2WI 下腸道為 hypointense**」錯誤——稀釋鋇劑為 **water-based（biphasic）**,MRI **T2 亮（hyperintense）**。CT high density、T1 暗、US 近似水、疑破漏不用鋇皆正確。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "mri-bowel-contrast")
+```
