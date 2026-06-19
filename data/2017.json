@@ -4909,6 +4909,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-135",
+      "year": 2017,
+      "number": 135,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a typical image finding of polycystic ovary syndrome on MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enlarged ovaries."
+        },
+        {
+          "letter": "B",
+          "text": "Multiple follicles at the central part of the ovary."
+        },
+        {
+          "letter": "C",
+          "text": "Usually bilateral."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are typical image findings."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.7-186~187",
+      "explanation": "正解 **B**（不是典型）。PCOS 濾泡呈**周邊排列(string of pearls)**，非卵巢中央。卵巢腫大(A)、通常雙側(C)皆為典型。\n\n→ [[polycystic-ovary-syndrome]]",
+      "images": [],
+      "concepts": [
+        "polycystic-ovary-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-136",
+      "year": 2017,
+      "number": 136,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is WRONG about adenoma malignum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The initial symptom is often vaginal bleeding."
+        },
+        {
+          "letter": "B",
+          "text": "Multiple grape-like cysts within the cervical stroma."
+        },
+        {
+          "letter": "C",
+          "text": "A subtype of mucinous adenocarcinoma."
+        },
+        {
+          "letter": "D",
+          "text": "Has an unfavorable prognosis."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.3-38~39",
+      "explanation": "正解 **A**（錯誤）。Adenoma malignum 初症常為**水樣/黏液性分泌**，非陰道出血。子宮頸間質葡萄串狀囊腫(B)、黏液腺癌亞型(C)、預後差(D)皆正確。\n\n→ [[adenoma-malignum]]",
+      "images": [],
+      "concepts": [
+        "adenoma-malignum"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-137",
+      "year": 2017,
+      "number": 137,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is WRONG about peritoneal inclusion cysts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most commonly seen in postmenopausal women."
+        },
+        {
+          "letter": "B",
+          "text": "Have a spider web appearance."
+        },
+        {
+          "letter": "C",
+          "text": "Have no malignant potential."
+        },
+        {
+          "letter": "D",
+          "text": "Have no enhancing solid components."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.9-2~9-4",
+      "explanation": "正解 **A**（錯誤）。腹膜包涵囊腫好發**停經前(premenopausal)**且有骨盆手術/PID/內膜異位史者，非停經後。spider web 外觀(B)、無惡性潛能(C)、無強化實質(D)皆正確。\n\n→ [[peritoneal-inclusion-cyst]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-inclusion-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-138",
+      "year": 2017,
+      "number": 138,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement best describes adrenal cortical nodular hyperplasia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It does not occur with adrenal cortical adenomas."
+        },
+        {
+          "letter": "B",
+          "text": "It increases in prevalence with age."
+        },
+        {
+          "letter": "C",
+          "text": "It is most commonly focal."
+        },
+        {
+          "letter": "D",
+          "text": "It is most commonly unilateral."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
+      "explanation": "正解 **B**。腎上腺結節性增生**隨年齡盛行率增加**。可與腺瘤並存(A 誤)、多瀰漫非局灶(C 誤)、多雙側非單側(D 誤)。\n\n→ [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-139",
+      "year": 2017,
+      "number": 139,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most likely cause of increased signal intensity within an adrenal pseudocyst on T1-weighted MR images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fat."
+        },
+        {
+          "letter": "B",
+          "text": "Hemorrhage."
+        },
+        {
+          "letter": "C",
+          "text": "Calcification."
+        },
+        {
+          "letter": "D",
+          "text": "Simple fluid."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
+      "explanation": "正解 **B**。Adrenal pseudocyst T1WI 內高訊號最可能源自**出血(hemorrhage)**（假性囊腫常為出血後）。非脂肪、鈣化或單純液。\n\n→ [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-140",
+      "year": 2017,
+      "number": 140,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Up to what percentage of pheochromocytomas contains calcifications?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10%."
+        },
+        {
+          "letter": "B",
+          "text": "30%."
+        },
+        {
+          "letter": "C",
+          "text": "50%."
+        },
+        {
+          "letter": "D",
+          "text": "70%."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
+      "explanation": "正解 **A**。約 **10%** 的嗜鉻細胞瘤含鈣化。\n\n→ [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
