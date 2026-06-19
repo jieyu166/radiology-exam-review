@@ -2841,7 +2841,9 @@
       "reference": "",
       "explanation": "- C.除非有極強適應症 (very strong indication) ，懷孕婦女建議不使用含釓對比劑。\n\t- 必須使用時建議使用達到診斷目的之**最小劑量**(2017年為標準劑量)、並使用低風險之含釓造影劑。\n- D.為避免嬰兒吸入微量含釓對比劑之母乳，可建議注射對比劑後暫停24 小時哺餵母乳。(2020指引)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {
@@ -2876,7 +2878,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2911,7 +2915,9 @@
       "reference": "",
       "explanation": "日本學者Kanda等2014年首先發現經多次注射含釓對比劑後在腦部（大腦蒼白球 globus pallidus 及小腦齒狀核 dentate nucleus）可發現 T1 加權影像信號變高的傾向，此一現象已被確認為含釓對比劑的沈積。(2017 p. 36)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2946,7 +2952,9 @@
       "reference": "",
       "explanation": "Gadolinium in Humans: A Family of Disorders. AJR Am J Roentgenol. 2016 Aug;207(2):229-33\nDiagnostic criterion for GDD 接受GBCA 注射**2月**內，出現下列至少3種症狀：\n- peripheral neuropathic pain in either a “glove and stocking” or generalized distribution;\n- joint stiffness, muscle spasms, buzzing sensation, and fatigue;\n- headache;\n- clouded mentation;\n- distal extremity and skin substrate thickening, discoloration, and pain",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2981,7 +2989,9 @@
       "reference": "",
       "explanation": "(2017 p.32)\n- A. 在第四期或第五期慢性腎臟病受檢者，注射含釓對比劑後，約有 1-7% 產生腎因性全身纖維化。\n- B. Omniscan 病例數最多。C. 這兩個藥均為高危險性\n- D. 於 2006 年被確認與 MRI 含釓對比劑相關。2009年後沒有新案例被報導 suspect reflects use of more stable GBCAs and limitation of use of GBCAs in patients with renal failure.\n- The overall incidence of NSF was 36.5 cases per 100 000 gadolinium-enhanced magnetic resonance (MR) examinations between 2003 and 2006\n- 4 cases/100 000 gadolinium-enhanced MR examinations between 2007 and 2008 after screening for NSF risk was instituted (Fisher exact test, P = .001)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -3016,7 +3026,9 @@
       "reference": "",
       "explanation": "NSF prevelence:\n- 3-18% after Omniscan;\n- 0.1-1% after Magnevist;\n- ~ 0% after macrocyclic agents (部長投影片)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -3051,7 +3063,9 @@
       "reference": "",
       "explanation": "~~任何~~。可用低風險的對比劑",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -3086,7 +3100,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -3125,7 +3141,9 @@
       "reference": "",
       "explanation": "含hepatocyte",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
       "checked": false
     },
     {
@@ -3160,7 +3178,9 @@
       "reference": "",
       "explanation": "![[20200817 Primovist MRI#Hepatocellular adenoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
       "checked": false
     },
     {
