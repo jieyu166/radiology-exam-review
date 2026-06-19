@@ -9037,6 +9037,154 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-245",
+      "year": 2016,
+      "number": 245,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is the \"wrong\" statement about Paget's disease of the nipple?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grossly, Paget's disease has the appearance of eczema with scaly inflamed areas."
+        },
+        {
+          "letter": "B",
+          "text": "A wedge biopsy of the nipple can successfully establish the diagnosis."
+        },
+        {
+          "letter": "C",
+          "text": "An associated carcinoma is rare when Paget's disease is present in the nipple."
+        },
+        {
+          "letter": "D",
+          "text": "Paget cells in the epidermis within a biopsy specimen confirm the diagnosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: Paget disease of the nipple（題目所引）",
+      "explanation": "正解 **C**（錯誤）。**乳頭 Paget disease 絕大多數(>85–95%)合併下方乳癌（DCIS 或浸潤癌）**，並非罕見。濕疹樣外觀(A)、wedge biopsy 可診斷(B)、表皮 Paget cells 確診(D)皆正確。\n\n→ [[paget-disease-nipple]]",
+      "images": [],
+      "concepts": [
+        "paget-disease-nipple"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-246",
+      "year": 2016,
+      "number": 246,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is the wrong description about endoleak of aortic graft?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type I endoleak indicates a persistent perigraft channel of blood flow caused by attachment site."
+        },
+        {
+          "letter": "B",
+          "text": "Type II endoleak is attributed to retrograde flow from IMA, lumbar arteries, or other branches."
+        },
+        {
+          "letter": "C",
+          "text": "Type III endoleak should be treated immediately."
+        },
+        {
+          "letter": "D",
+          "text": "Endotension is not an endoleak (Type V)."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Comprehensive Vascular and Endovascular Surgery（題目所引）；Radiopaedia: endoleak",
+      "explanation": "正解 **D**（描述錯誤）。**Endotension 即歸類為 Type V endoleak**（無可見漏液但瘤囊持續擴大），故「不是 endoleak」與「Type V」自相矛盾。Type I＝附著處持續血流(A)、Type II＝IMA/腰動脈逆流(B)、Type III＝須立即處理(C)皆正確。\n\n→ [[endoleak]]",
+      "images": [],
+      "concepts": [
+        "endoleak"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-247",
+      "year": 2016,
+      "number": 247,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a common pattern of normal background parenchymal enhancement (BPE) in breast MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Picture framing."
+        },
+        {
+          "letter": "B",
+          "text": "Scattered or innumerable similar foci of enhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Rapid early contrast uptake."
+        },
+        {
+          "letter": "D",
+          "text": "Geographic areas of symmetric regional enhancement."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Background Parenchymal Enhancement 文獻（題目所引）；ACR BI-RADS",
+      "explanation": "正解 **C**（非正常 BPE）。**Rapid early contrast uptake（快速早期攝取）屬可疑/惡性 kinetics，非正常 BPE 型態**。picture framing(A)、scattered/innumerable similar foci(B)、geographic symmetric regional enhancement(D)皆為正常 BPE 型態。\n\n→ [[breast-mri-bpe]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-248",
+      "year": 2016,
+      "number": 248,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is NOT a risk factor of nephrogenic systemic fibrosis for patients receiving gadolinium-based contrast medium?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Patients with chronic kidney disease 4 and 5 (GFR < 30 ml/min)."
+        },
+        {
+          "letter": "B",
+          "text": "Pregnant patients."
+        },
+        {
+          "letter": "C",
+          "text": "Patients on dialysis."
+        },
+        {
+          "letter": "D",
+          "text": "Patients with acute kidney insufficiency."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "ESUR Contrast Medium Guideline（題目所引）；Radiopaedia: NSF（實際查證 2026-06-19）",
+      "explanation": "正解 **B**（非風險因子）。**懷孕本身非 NSF 風險因子**（孕婦避用釓是為胎兒考量）。CKD 4–5/GFR<30(A)、透析(C)、acute kidney insufficiency(D)皆為風險因子。\n\n→ [[nephrogenic-systemic-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }

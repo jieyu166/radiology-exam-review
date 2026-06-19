@@ -34,6 +34,9 @@ dateRev: 2026-06-17
 > [!question]- 哪型內漏的正確成因? (2016-147)
 > **Type III＝重疊移植物組件分離(junctional separation of modular components)或織物破孔**。type IV 才是 fabric porosity(非 tear)、type II 是分枝血管回填、type I 是附著處封合不良。[^1]
 
+> [!question]- 關於 aortic graft 的 endoleak,何者「描述錯誤」? (2016-246)
+> 「**Endotension 不是 endoleak（Type V）**」描述矛盾/錯誤——**endotension 即被歸類為 Type V endoleak**（無可見漏液但動脈瘤囊持續擴大）。Type I＝附著處持續血流(A)、Type II＝IMA/腰動脈逆流(B)、Type III＝須立即處理(C)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endoleak")

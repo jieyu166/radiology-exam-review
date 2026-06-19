@@ -42,6 +42,9 @@ dateRev: 2026-06-18
 > [!question]- 關於 breast MRI,何者「錯誤」? (2017-011)
 > **E（none of the above）**——A–D 皆正確：focus 可良可惡(A)、被不強化實質分隔的多發 foci 視為 BPE(B)、benign 形態不強化腫塊近乎良性(C)、T1WI precontrast 管內高訊號為良性(D)。[^1]
 
+> [!question]- 何者「非」乳房 MRI 正常 BPE 的常見型態? (2016-247)
+> 「**Rapid early contrast uptake（快速早期攝取）**」非正常 BPE——快速早期攝取屬可疑/惡性 kinetics。Picture framing、scattered/innumerable similar foci、geographic symmetric regional enhancement 皆為正常 BPE 型態。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-mri-bpe")
