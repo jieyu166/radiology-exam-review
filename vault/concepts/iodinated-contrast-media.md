@@ -42,6 +42,7 @@ same:
 
 ### 參考來源
 [^1]: 中華民國放射線醫學會《對比劑手冊》2017/2020（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]、[[2020 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）＋標準放射藥理學：HOCM(ionic monomer)≫LOCM(non-ionic monomer)＞IOCM(non-ionic dimer, iso-osmolar);MW<200 Da 分布血管+細胞外;鞘內僅低濃度非離子單體。整理自院內筆記《對比劑 - CT》（醫師依手冊彙整）。
+[^2]: *Iodinated contrast media*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「the only **iso-osmolality** contrast in use is a **non-ionic dimer** ... **iodixanol (Visipaque)**」；「**High osmolality contrast media** are approximately five to eight times the osmolality of serum ... ionic compounds」。交叉確認分類與 iodixanol＝non-ionic dimer。
 
 ## 題目
 > [!question]- 哪種含碘對比劑是 non-ionic dimer? (2021交換)
