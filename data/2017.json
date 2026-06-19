@@ -3582,6 +3582,228 @@
       "images": [],
       "concepts": [],
       "checked": false
+    },
+    {
+      "id": "2017-100",
+      "year": 2017,
+      "number": 100,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About brain tumors, which of the following was INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pilocytic astrocytoma most commonly occurs in the cerebellum."
+        },
+        {
+          "letter": "B",
+          "text": "Pleomorphic xanthoastrocytoma is found almost exclusively in young adults."
+        },
+        {
+          "letter": "C",
+          "text": "All diffusely infiltrating astrocytomas have an inherent tendency to malignant progression."
+        },
+        {
+          "letter": "D",
+          "text": "Ganglioglioma most commonly occurs in the deep hemisphere."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Osborn's Brain, Ch 15",
+      "explanation": "正解 **D**（不正確）。**Ganglioglioma 為皮質腫瘤、最常見於顳葉(~70%)**，非深部半球。pilocytic→小腦(A)、PXA→年輕成人(B)、瀰漫浸潤型有惡性進展傾向(C)皆正確。\n\n→ [[brain-tumor-imaging]]",
+      "images": [],
+      "concepts": [
+        "brain-tumor-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-101",
+      "year": 2017,
+      "number": 101,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About demyelinating disease, which of the following was INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most multiple sclerosis (MS) plaques are supratentorial."
+        },
+        {
+          "letter": "B",
+          "text": "Active MS plaques may show ring enhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Neuromyelitis optica (NMO) preferentially involves the spinal cord and optic nerves."
+        },
+        {
+          "letter": "D",
+          "text": "NMO patients do not have T2/FLAIR hyperintensities in the cerebral white matter."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Osborn's Brain, Ch 15",
+      "explanation": "正解 **D**（不正確）。**NMO 常有腦白質病灶（亞洲 60–80%、歐洲 25–40%）**，鏡像 aquaporin-4 分布。MS 多 supratentorial(A)、活性斑環狀強化(B)、NMO 偏好視神經/脊髓(C)皆正確。\n\n→ [[neuromyelitis-optica]]",
+      "images": [],
+      "concepts": [
+        "neuromyelitis-optica"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-102",
+      "year": 2017,
+      "number": 102,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements is NOT a characteristic of parasitic leiomyoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pedunculated soft tissue mass arising from the uterus."
+        },
+        {
+          "letter": "B",
+          "text": "Arterial supply is best seen on MRA."
+        },
+        {
+          "letter": "C",
+          "text": "Usually has large draining veins."
+        },
+        {
+          "letter": "D",
+          "text": "Image characters on both CT and MRI are similar to that of uterine leiomyoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Gynecology, p.2-80~81",
+      "explanation": "正解 **A**（非特徵）。Parasitic leiomyoma **與子宮分離**、自腹膜血管獲血供，非「由子宮長出的有蒂腫塊」。大引流靜脈(C)、影像似子宮肌瘤(D)、動脈血供 MRA 可見(B)皆正確。\n\n→ [[parasitic-leiomyoma]]",
+      "images": [],
+      "concepts": [
+        "parasitic-leiomyoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-103",
+      "year": 2017,
+      "number": 103,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Pelvic congestion syndrome (PCS) is a cause of chronic pelvic pain; its typical imaging findings include all of the following EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dilated, tortuous, enhancing tubular structures near the uterus and ovary."
+        },
+        {
+          "letter": "B",
+          "text": "On T1-weighted images, varices may appear as flow voids."
+        },
+        {
+          "letter": "C",
+          "text": "Ultrasound shows slow (<3 cm/s) venous flow in the cranial direction in the left ovarian vein."
+        },
+        {
+          "letter": "D",
+          "text": "More than 50% of women with PCS have associated cystic ovaries."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Semin Intervent Radiol 2008;25:361-368",
+      "explanation": "正解 **C**（除外）。PCS 的 US 為慢血流（<3 cm/s）且**逆向 caudal/retrograde**（尤左卵巢靜脈），非 cranial 方向。擴張迂曲強化管狀結構(A)、T1WI flow void(B)、>50% 囊性卵巢(D)皆正確。\n\n→ [[pelvic-congestion-syndrome]]",
+      "images": [],
+      "concepts": [
+        "pelvic-congestion-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-104",
+      "year": 2017,
+      "number": 104,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following descriptions about acquired cystic kidney disease (ACKD) is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Develops in patients with chronic renal failure treated by dialysis."
+        },
+        {
+          "letter": "B",
+          "text": "Not associated with increased risk of renal neoplasm."
+        },
+        {
+          "letter": "C",
+          "text": "Renal hemorrhage is a common associated complication."
+        },
+        {
+          "letter": "D",
+          "text": "The affected kidneys are usually small, but the cysts sometimes cause significant renal enlargement."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Renal Cystic Disease (Hartman), 1989, p.38-43",
+      "explanation": "正解 **B**（錯誤）。**ACKD 增加腎細胞癌風險**（增生性囊腫為 dialysis-associated RCC 的可能來源）。發生於透析病人(A)、腎出血常見(C)、患腎多小但可腫大(D)皆正確。\n\n→ [[acquired-cystic-kidney-disease]]",
+      "images": [],
+      "concepts": [
+        "acquired-cystic-kidney-disease"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-105",
+      "year": 2017,
+      "number": 105,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following descriptions about urogenital tuberculosis is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fewer than 5% of patients with urogenital TB have concomitant active pulmonary TB."
+        },
+        {
+          "letter": "B",
+          "text": "Only 30-50% have evidence of pulmonary abnormality on chest radiograph."
+        },
+        {
+          "letter": "C",
+          "text": "Urine culture is the most definite method, and the false negative rate is less than 3%."
+        },
+        {
+          "letter": "D",
+          "text": "Imaging is essential to assess extent/severity, monitor treatment, and discover complications."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Clinical Urography (Pollack/McClennan), Vol 1, p.1193-1194",
+      "explanation": "正解 **C**（錯誤）。尿培養**敏感度約 65%（偽陰性 ~35%）、特異度 100%**，偽陰性率非 <3%。<5% 同時活動性肺 TB(A)、30–50% 胸片異常(B)、影像評估必要(D)皆正確。\n\n→ [[urogenital-tuberculosis]]",
+      "images": [],
+      "concepts": [
+        "urogenital-tuberculosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
