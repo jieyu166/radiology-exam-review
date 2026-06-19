@@ -8885,6 +8885,158 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-241",
+      "year": 2016,
+      "number": 241,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About rectal MR imaging for T staging, which of the following statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MRI is very accurate in distinguishing between an adenoma and a T1 adenocarcinoma."
+        },
+        {
+          "letter": "B",
+          "text": "MRI is very accurate in identifying tumors limited to the bowel wall (intact muscularis propria)."
+        },
+        {
+          "letter": "C",
+          "text": "MRI is accurate in identifying penetrating tumor when the intact bowel wall sign is absent."
+        },
+        {
+          "letter": "D",
+          "text": "T2/T3 tumors are often understaged because MRI cannot differentiate desmoplastic reaction from tumor."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia: rectal cancer（實際查證 2026-06-19）；RadioGraphics rectal MR",
+      "explanation": "正解 **B**。MRI 能準確判斷腫瘤是否**侷限於腸壁**（完整 muscularis propria 黑線）。MRI 不擅長 adenoma vs T1(A 誤)；desmoplastic reaction 致 T2 被『高估(overstage)』為 T3（非 understage，D 誤）。\n\n→ [[rectal-cancer-mri]]",
+      "images": [],
+      "concepts": [
+        "rectal-cancer-mri"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-242",
+      "year": 2016,
+      "number": 242,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About gastric target (\"bull's eye\") lesions, which of the following statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most are highly suggestive of benign lesions such as ectopic pancreas."
+        },
+        {
+          "letter": "B",
+          "text": "Multiple lesions are almost always benign."
+        },
+        {
+          "letter": "C",
+          "text": "Most common cause of bull's-eye metastases is lymphoma."
+        },
+        {
+          "letter": "D",
+          "text": "Gastric Kaposi sarcoma can also result in a \"bull's-eye\" appearance."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "ExpertDDx: Abdomen（題目所引）",
+      "explanation": "正解 **D**。**Gastric Kaposi sarcoma 也可呈 bull's-eye 外觀**。多發病灶多為惡性（血行轉移，B 誤）；最常見 bull's-eye 轉移原發為 **melanoma**（非 lymphoma，C 誤）；多數非良性（A 誤）。\n\n→ [[gastric-target-lesions]]",
+      "images": [],
+      "concepts": [
+        "gastric-target-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-243",
+      "year": 2016,
+      "number": 243,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning the hepatic falciform ligament artery, which one of the following is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Running within the falciform ligament."
+        },
+        {
+          "letter": "B",
+          "text": "Arising from the middle or left hepatic artery."
+        },
+        {
+          "letter": "C",
+          "text": "Anastomosis with branches of the internal thoracic artery."
+        },
+        {
+          "letter": "D",
+          "text": "Non-target embolization may result in supraumbilical skin complications."
+        },
+        {
+          "letter": "E",
+          "text": "All of the above are correct."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "IR 文獻（題目所引）",
+      "explanation": "正解 **E**（以上皆正確）。HFLA 走行於鐮狀韌帶(A)、源自肝中/左動脈(B)、與內胸動脈分支吻合(C)、非目標栓塞致臍上皮膚紅疹/壞死(D)。\n\n→ [[falciform-ligament-artery]]",
+      "images": [],
+      "concepts": [
+        "falciform-ligament-artery"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-244",
+      "year": 2016,
+      "number": 244,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is incorrect about congenital biliary cysts (Todani classification)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type V is Caroli disease."
+        },
+        {
+          "letter": "B",
+          "text": "Type I is choledochal cyst and accounts for 77-78% of cases."
+        },
+        {
+          "letter": "C",
+          "text": "Choledochocele is type IV."
+        },
+        {
+          "letter": "D",
+          "text": "Choledochal diverticulum is type II."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiology Review Manual (Dahnert)（題目所引）；Radiopaedia: choledochal cyst",
+      "explanation": "正解 **C**（不正確）。**choledochocele 是 type III**（非 IV）。Type V＝Caroli(A)、Type I 最常見 ~77–78%(B)、Type II＝膽總管憩室(D)皆正確。\n\n→ [[choledochal-cyst]]",
+      "images": [],
+      "concepts": [
+        "choledochal-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
