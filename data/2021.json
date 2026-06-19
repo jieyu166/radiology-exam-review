@@ -794,7 +794,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -829,7 +831,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -864,7 +868,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ctd-ild"
+      ],
       "checked": false
     },
     {
@@ -934,7 +940,9 @@
       "reference": "",
       "explanation": "A. 較年輕 B. UIP: 抽菸老男人較多 D. 預後比UIP好",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nonspecific-interstitial-pneumonia"
+      ],
       "checked": false
     },
     {

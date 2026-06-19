@@ -1292,7 +1292,9 @@
       "reference": "",
       "explanation": "B. Reticular pattern算是Probable或Indeterminate UIP. Definite UIP需honeycomb。兩者須區分 ![ADD reticulation honeycomb](data/images/obsidian/add-reticulation-honeycomb-db17b52c.png)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -1327,7 +1329,9 @@
       "reference": "",
       "explanation": "分布不能是subpleural，必須是perilymphatic, peribronchovascular",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -1362,7 +1366,9 @@
       "reference": "",
       "explanation": "ACD. 都是考慮alternative Dx",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -1393,7 +1399,9 @@
       "reference": "",
       "explanation": "RB-ILD: 幾乎都有抽菸，且男性較多。參考 [[bronchiolitis]]\nA. 年輕人要想到AIDS，Sjögren's syndrome\nB. 診斷criteria Prominent GGO會被放在alternative Dx, GGO只能mild\nD. DIP分布 雙側對稱(86%), basal and peripheral (60%)。而patchy, diffuse 各佔20%。典型表現是diffuse GGO。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "smoke-lung"
+      ],
       "checked": false
     },
     {

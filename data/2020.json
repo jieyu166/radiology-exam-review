@@ -2140,7 +2140,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2175,7 +2177,9 @@
       "reference": "",
       "explanation": "![ADD IPF Fleischner](data/images/obsidian/add-ipf-fleischner-9167bdac.png) ABD alternative Dx",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2210,7 +2214,9 @@
       "reference": "",
       "explanation": "Definite UIP",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2241,7 +2247,9 @@
       "reference": "",
       "explanation": "Alternative Dx",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2276,7 +2284,9 @@
       "reference": "",
       "explanation": "possible→**probable**\nC. 流程圖最左邊有說明為何不做，complication risk高。 ![[ADD IPF Tx protocol 1.png]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2315,7 +2325,9 @@
       "reference": "",
       "explanation": "。ABCD Alternative Dx",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2350,7 +2362,9 @@
       "reference": "",
       "explanation": "LIP主要與免疫系統疾病相關，特徵是間質內瀰漫性淋巴細胞浸潤。如：\n    - Sjögren's syndrome\n    - HIV感染\n    - 其他自體免疫疾病",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "smoke-lung"
+      ],
       "checked": false
     },
     {
@@ -2385,7 +2399,9 @@
       "reference": "",
       "explanation": "AJR. 2019 Apr 11; 1-11 Microscopic polyangiitis的表現可能太細了\n- Definie/Possible UIP pattern: Reticulation (93%), Traction bronchiectasis(73%), GGO (66%), Honeycombing (58%), emphysema (35%), septal thickening (22%)\n- Inconsistent with the UIP pattern, GGO (97%), honeycombing (45%), consolidation (17%), mosaic attenuation pattern (7%), micronodules or nodules (10%),\n- In Europe, the most manifestation is diffuse alveolar hemorrhage (DAH) (20.4%).\n- Japan were interstitial pneumonia (IP) in 47.5% of patients and DAH in 11.5%.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2420,7 +2436,9 @@
       "reference": "",
       "explanation": "Ref: Radiology Review Manual 8th edition P.514\n\n---",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "smoke-lung"
+      ],
       "checked": false
     },
     {

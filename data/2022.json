@@ -2497,7 +2497,9 @@
       "reference": "",
       "explanation": "分布：peripheral, basal lung predominance",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2532,7 +2534,9 @@
       "reference": "",
       "explanation": "Probable 沒有honeycombing\n\n## 組織學\nPathological features of UIP/IPF pattern:\n- dense fibrosis, which causes remodelling of lung architecture with frequent honeycomb fibrosis;\n- fibroblast foci, which are typically scattered at the **edges** of dense scars;\n- patchy lung involvement;\n- frequent subpleural, paraseptal, and peripheral acinar distribution.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2567,7 +2571,9 @@
       "reference": "",
       "explanation": "\"Fibroblast foci at the **edge** of dense scars\" or \"at the advancing edge of fibrosis\" ![ADD IPF Fleischner 2](data/images/obsidian/add-ipf-fleischner-2-585ea04d.png)\n\n# 題目",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2602,7 +2608,9 @@
       "reference": "",
       "explanation": "通常在下葉。middle, upper lung是alternative Dx。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2637,7 +2645,9 @@
       "reference": "",
       "explanation": "Honeycomb代表definite UIP。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false
     },
     {
@@ -2672,7 +2682,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nonspecific-interstitial-pneumonia"
+      ],
       "checked": false
     },
     {
