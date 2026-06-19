@@ -2849,7 +2849,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {
@@ -2881,7 +2883,7 @@
       "explanation": "- Mn-DPDP是Mn based，另兩個是Gd-based的 (2) Multihance, (3) Primovist",
       "images": [],
       "concepts": [
-        "gadolinium-contrast"
+        "hepatobiliary-mri-contrast"
       ],
       "checked": false
     },
@@ -2922,7 +2924,9 @@
       "reference": "",
       "explanation": "dilute 代表是water based agent故如同biphasic agent",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mri-bowel-contrast"
+      ],
       "checked": false
     },
     {

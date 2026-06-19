@@ -300,7 +300,7 @@
       "explanation": "",
       "images": [],
       "concepts": [
-        "gadolinium-contrast"
+        "hepatobiliary-mri-contrast"
       ],
       "checked": false
     },
@@ -4564,7 +4564,9 @@
       "reference": "",
       "explanation": "Group I 是最危險的。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false
     },
     {

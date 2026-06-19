@@ -7125,7 +7125,9 @@
       "reference": "",
       "explanation": "High detectability\n缺點如ABC。給藥時病人反應較大A phase，可能會晃動。另外Primovist濃度較低，也讓A phase較不明顯。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
       "checked": false
     },
     {
@@ -7197,7 +7199,9 @@
       "reference": "",
       "explanation": "A. 正確，所以會顯影。\nB. MRI顯影劑有致畸胎性，不建議使用。CT沒有，但可能影響甲狀腺功能\nC. 原則上禁用，除非不得已\nD. 新版(2021) 可以繼續哺乳而不需中斷。媽媽有疑慮 (2020) 暫停24 小時",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {

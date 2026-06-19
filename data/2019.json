@@ -2784,7 +2784,9 @@
       "reference": "",
       "explanation": "(2017 p. 36) 尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2819,7 +2821,9 @@
       "reference": "",
       "explanation": "- A. 腎臟 B. 線狀 D. 腎臟.\n- 只有Primovist, Multihance會部分由肝代謝",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false
     },
     {
@@ -2854,7 +2858,9 @@
       "reference": "",
       "explanation": "- A. 正確 50/50%\n- B. 正確。Multihence只有2-4%被肝uptake\n- C. 較長。Primovist 20分，Multihence 90-120分太久\n- D. 正確。OATP1B1/B3 uptake，之後由MRP2排到膽道。[[20200716 Primovist MRI]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
       "checked": false
     },
     {
