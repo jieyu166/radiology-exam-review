@@ -3915,6 +3915,236 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-109",
+      "year": 2017,
+      "number": 109,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding stereotactic vacuum-assisted breast biopsy (VABB), which is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stereo pair and 0-degree scout view can calculate the 3D position of the target."
+        },
+        {
+          "letter": "B",
+          "text": "About 99% can obtain a representative sample."
+        },
+        {
+          "letter": "C",
+          "text": "Mainly for biopsy of mammographically visible lesions, especially calcifications."
+        },
+        {
+          "letter": "D",
+          "text": "A tissue marker clip is placed for future surgical localization."
+        },
+        {
+          "letter": "E",
+          "text": "If no residual calcification remains on the post-biopsy mammogram and pathology is malignant, surgical excision is not needed."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Breast (Berg 2006)",
+      "explanation": "正解 **E**（為非）。即使 VABB 移除全部微鈣化，惡性者手術時仍約 **80%** 有殘餘癌（Liberman et al.）→ **仍需手術切除**。stereo pair 算 3D(A)、~99% 足夠樣本(B)、針對鈣化(C)、置 marker clip(D)皆正確。\n\n→ [[vacuum-assisted-breast-biopsy]]",
+      "images": [],
+      "concepts": [
+        "vacuum-assisted-breast-biopsy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-110",
+      "year": 2017,
+      "number": 110,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding interpretation of breast MRI, which is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most fundamental required pulse sequence is dynamic contrast-enhanced MRI (DCE MRI)."
+        },
+        {
+          "letter": "B",
+          "text": "Micrometastatic lymph nodes can be clearly seen on MRI."
+        },
+        {
+          "letter": "C",
+          "text": "Malignant lesions may show washout, plateau, or even persistent kinetics on DCE MRI."
+        },
+        {
+          "letter": "D",
+          "text": "DCIS may show linear or segmental clumped enhancement on MRI."
+        },
+        {
+          "letter": "E",
+          "text": "Morphology and kinetics are the two major criteria for interpreting breast MRI."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Morris/Liberman, Breast MRI 2005",
+      "explanation": "正解 **B**（為非）。**MRI 無法清楚偵測淋巴結微轉移**。DCE MRI 為必備序列(A)、惡性可呈 washout/plateau/persistent(C)、DCIS 呈 linear/segmental clumped(D)、morphology＋kinetic 為兩大標準(E)皆正確。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-111",
+      "year": 2017,
+      "number": 111,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a common ultrasound finding of testicular epidermoid cyst?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Purely cystic nodule."
+        },
+        {
+          "letter": "B",
+          "text": "Mural calcification."
+        },
+        {
+          "letter": "C",
+          "text": "Well-defined margin."
+        },
+        {
+          "letter": "D",
+          "text": "Onion-skin appearance."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；J Ultrasound Med 2010;29:831-837",
+      "explanation": "正解 **A**。睪丸表皮樣囊腫為**實質、onion-skin 層狀腫塊**，非純囊性。mural calcification(~86%，B)、well-defined margin(C)、onion-skin appearance(D)皆為其表現。\n\n→ [[testicular-epidermoid-cyst]]",
+      "images": [],
+      "concepts": [
+        "testicular-epidermoid-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-112",
+      "year": 2017,
+      "number": 112,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement regarding ultrasound diagnosis of testicular torsion is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gray-scale ultrasound may be normal in the early phase of testicular torsion."
+        },
+        {
+          "letter": "B",
+          "text": "Preserved vascularity in the painful testis excludes the possibility of testicular torsion."
+        },
+        {
+          "letter": "C",
+          "text": "Para-testicular hyperemia is commonly seen on the affected side."
+        },
+        {
+          "letter": "D",
+          "text": "Heterogeneous echogenicity in the affected testis is a sign of testicular infarction."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2005;25:1197-1214",
+      "explanation": "正解 **B**（錯誤）。**保留血流不能排除扭轉**——不完全/部分扭轉可保留甚至增加血流；torsion-detorsion 反應性充血亦可誤判為 epididymo-orchitis。灰階早期可正常(A)、heterogeneous echogenicity 提示梗塞(D)皆正確。\n\n→ [[testicular-torsion]]",
+      "images": [],
+      "concepts": [
+        "testicular-torsion"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-113",
+      "year": 2017,
+      "number": 113,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement regarding ultrasound appearance of hepatic hemangioma is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typically hyperechoic when the tumor is smaller than 2.5 cm."
+        },
+        {
+          "letter": "B",
+          "text": "Increased echogenicity of the tumor following progression of fatty liver."
+        },
+        {
+          "letter": "C",
+          "text": "Heterogeneous internal echoes are more commonly seen in larger tumors."
+        },
+        {
+          "letter": "D",
+          "text": "May have a thin echogenic rim around the tumor."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Korean J Radiol. 2000;1(4):191-197",
+      "explanation": "正解 **B**（錯誤）。脂肪肝進展使肝背景變亮，血管瘤**相對回音『降低』**（可呈 hypoechoic）。<2.5 cm 多高回音(A)、較大者異質回音(C)、薄 echogenic rim(D)皆正確。\n\n→ [[hepatic-hemangioma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-114",
+      "year": 2017,
+      "number": 114,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "MRI showed a \"bright tongue sign\"; it is a diagnostic marker for which disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ALS (amyotrophic lateral sclerosis)."
+        },
+        {
+          "letter": "B",
+          "text": "ALD (adrenoleukodystrophy)."
+        },
+        {
+          "letter": "C",
+          "text": "MLD (metachromatic leukodystrophy)."
+        },
+        {
+          "letter": "D",
+          "text": "PML (progressive multifocal leukoencephalopathy)."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Arq Neuropsiquiatr. 2014;72(7):572",
+      "explanation": "正解 **A**。**Bright tongue sign（舌肌 T1 高訊號，慢性去神經/脂肪取代）為 ALS 的診斷標記**（另有 motor band sign）。ALD、MLD、PML 為其他白質病變。\n\n→ [[als-imaging]]",
+      "images": [],
+      "concepts": [
+        "als-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

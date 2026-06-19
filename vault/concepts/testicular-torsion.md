@@ -31,6 +31,9 @@ dateRev: 2026-06-18
 > [!question]- 關於睪丸扭轉,何者為真? (2016-220)
 > **不完全扭轉時精索動脈的高阻力波形（RI >0.75、舒張期血流喪失/逆轉）可為唯一影像所見**。bell clapper deformity 會增加風險、兩側不對稱血流非確診、Doppler 兒童敏感度低於成人。[^1]
 
+> [!question]- 關於睪丸扭轉的超音波診斷,何者「錯誤」? (2017-112)
+> 「**疼痛側睪丸保留血流即可排除扭轉**」錯誤——**不完全/部分扭轉可保留(甚至增加)血流**;torsion-detorsion 反應性充血亦可誤判。灰階早期可正常、heterogeneous echogenicity 提示梗塞皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "testicular-torsion")

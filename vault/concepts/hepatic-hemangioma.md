@@ -34,6 +34,9 @@ same:
 > [!question]- 下列哪一項「不是」肝海綿狀血管瘤的超音波發現? (2016-256)
 > 「**ill-defined、heterogeneous、hyperechoic mass**」不是——典型為**well-defined、homogeneous、hyperechoic**（約 10% 因脂肪肝背景而 hypoechoic）。Doppler 無/慢血流、多年穩定、大病灶可含血栓/纖維化/鈣化皆為其表現。[^1]
 
+> [!question]- 關於肝海綿狀血管瘤的超音波表現,何者「錯誤」? (2017-113)
+> 「**脂肪肝進展後腫瘤回音增加**」錯誤——脂肪肝背景變亮,血管瘤『相對回音降低』(可呈 hypoechoic)。<2.5 cm 多高回音、較大者異質回音、可有薄 echogenic rim 皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatic-hemangioma")
