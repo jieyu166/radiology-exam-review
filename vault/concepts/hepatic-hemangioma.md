@@ -31,6 +31,9 @@ same:
 > [!question]- 下列何者「非」肝血管瘤的典型超音波所見？
 > **Posterior acoustic shadowing（後方聲影遮蔽）**——血管瘤典型為**後方穿透增強**。高回音、中央無 Doppler 血流、CEUS 向心填充為典型。[^1]
 
+> [!question]- 下列哪一項「不是」肝海綿狀血管瘤的超音波發現? (2016-256)
+> 「**ill-defined、heterogeneous、hyperechoic mass**」不是——典型為**well-defined、homogeneous、hyperechoic**（約 10% 因脂肪肝背景而 hypoechoic）。Doppler 無/慢血流、多年穩定、大病灶可含血栓/纖維化/鈣化皆為其表現。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatic-hemangioma")

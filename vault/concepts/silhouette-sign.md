@@ -40,6 +40,9 @@ dateRev: 2026-06-18
 > [!question]- 關於 incomplete border sign,何者「為非」? (2017-026)
 > 「**不可能是肺病灶**」為非——肺內病灶若向胸膜/肺外延伸亦可呈 incomplete border sign。可部分邊緣不清、可為 pleural、可為胸壁/皮膚病灶皆正確。[^1]
 
+> [!question]- 下列何者「不是」extrapulmonary（肺外）病灶的特色? (2016-255)
+> 「**engulf pulmonary vessels（包覆肺血管）**」不是——包覆肺血管是『肺內』病灶特徵;肺外病灶為**displacement（推擠）肺血管、incomplete border sign、與胸壁成鈍角**。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "silhouette-sign")

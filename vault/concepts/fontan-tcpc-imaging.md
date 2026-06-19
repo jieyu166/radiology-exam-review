@@ -36,6 +36,9 @@ dateRev: 2026-06-15
 > [!question]- TCPC（Fontan）術後 CT/MRI 要看哪些才算判讀完整？
 > **以上皆是**：①SVC/IVC–PA 吻合處狹窄 ②conduit fenestration 有無 ③conduit 血栓/內膜增生 ④房室瓣脫垂/逆流。[^1][^2]
 
+> [!question]- TCPC（Fontan）術後病人 CT/MRI 須注意哪些? (2016-249)
+> **以上皆是（E）**——SVC/IVC 至肺動脈吻合處狹窄、conduit fenestration、conduit 內血栓/內膜增生、4-chamber CINE 上房室瓣脫垂皆須評估。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fontan-tcpc-imaging")

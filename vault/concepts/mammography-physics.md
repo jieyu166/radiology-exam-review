@@ -36,6 +36,9 @@ dateRev: 2026-06-18
 > [!question]- 關於 mammography,何者「不」正確? (2017-017)
 > 「**乳房置於焦點與接收器正中間放大率為 1.4**」不正確——正中間 SOD＝SID/2 → **放大率＝2**。0.1 mm 像素 ~5 lp/mm(B)、放大用小焦點 0.1 mm(C)、MLO 源在內上接收器在外下(D)皆正確。[^1]
 
+> [!question]- 乳房攝影陽極/濾片由 Mo/Mo 改為 Rh/Rh,對平均乳腺劑量與影像對比之影響? (2016-257)
+> **平均乳腺劑量與影像對比『皆降低』**。Rh/Rh 較具穿透性（用於較厚/緻密乳房），MGD 最低、對比也較 Mo/Mo 低。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mammography-physics")

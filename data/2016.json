@@ -9185,6 +9185,433 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-249",
+      "year": 2016,
+      "number": 249,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "In a patient after total cavopulmonary connection (TCPC, Fontan), what should be carefully evaluated on CT or MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Any junctional stenosis between SVC/IVC and the pulmonary artery."
+        },
+        {
+          "letter": "B",
+          "text": "Presence of IVC conduit fenestration."
+        },
+        {
+          "letter": "C",
+          "text": "Thrombosis or intimal hyperplasia in the IVC conduit."
+        },
+        {
+          "letter": "D",
+          "text": "Prolapse of the atrioventricular valve on 4-chamber CINE images."
+        },
+        {
+          "letter": "E",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2016 詳解；Radiopaedia: Fontan",
+      "explanation": "正解 **E**（以上皆是）。TCPC/Fontan 術後 CT/MRI 須評估 SVC/IVC-PA 吻合處狹窄(A)、conduit fenestration(B)、conduit 血栓/內膜增生(C)、房室瓣脫垂(D)。\n\n→ [[fontan-tcpc-imaging]]",
+      "images": [],
+      "concepts": [
+        "fontan-tcpc-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-250",
+      "year": 2016,
+      "number": 250,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "How is endocardial cushion defect (ECD) confirmed on CT or MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A large VSD (ventricular septal defect)."
+        },
+        {
+          "letter": "B",
+          "text": "ASD located anteriorly."
+        },
+        {
+          "letter": "C",
+          "text": "Parallel arranged bilateral atrioventricular valves."
+        },
+        {
+          "letter": "D",
+          "text": "Short left ventricular outflow tract."
+        },
+        {
+          "letter": "E",
+          "text": "Long right ventricular outflow tract."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2016 詳解；Radiopaedia: AVSD",
+      "explanation": "正解 **C**。**雙側房室瓣平行排列、位於同一水平**（正常 offset 消失）為 ECD 診斷關鍵。LVOT 實為拉長(goose-neck)非縮短。\n\n→ [[endocardial-cushion-defect]]",
+      "images": [],
+      "concepts": [
+        "endocardial-cushion-defect"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-251",
+      "year": 2016,
+      "number": 251,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding the classification of VSD on CT/MRI, which description is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Defect under the aortic valve is called the subarterial type."
+        },
+        {
+          "letter": "B",
+          "text": "Defect involving the perimembranous septum is called the perimembranous type."
+        },
+        {
+          "letter": "C",
+          "text": "\"Swiss cheese\" VSDs occur in the muscular septum (muscular type)."
+        },
+        {
+          "letter": "D",
+          "text": "Defect extending to the atrioventricular valve insertion is called the inlet type."
+        },
+        {
+          "letter": "E",
+          "text": "Types are named from the viewpoint of the right ventricle."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2016 詳解；The Basics 2nd ed. p49-57",
+      "explanation": "正解 **A**（錯誤）。**subarterial（supracristal）VSD 位於『肺動脈瓣下(subpulmonary)』,非主動脈瓣下**。perimembranous、Swiss-cheese muscular、inlet、以右心室面命名皆正確。\n\n→ [[ventricular-septal-defect]]",
+      "images": [],
+      "concepts": [
+        "ventricular-septal-defect"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-252",
+      "year": 2016,
+      "number": 252,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "In tetralogy of Fallot, which associated anomalies should be carefully evaluated on CT/MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anomalous LAD from the right coronary artery crossing the RVOT."
+        },
+        {
+          "letter": "B",
+          "text": "Persistent left-sided superior vena cava."
+        },
+        {
+          "letter": "C",
+          "text": "Right upper lobe tracheobronchus."
+        },
+        {
+          "letter": "D",
+          "text": "Major aortopulmonary collateral arteries (MAPCA)."
+        },
+        {
+          "letter": "E",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2016 詳解；Radiopaedia: tetralogy of Fallot",
+      "explanation": "正解 **E**（以上皆是）。TOF 常合併異常 LAD 自 RCA 跨 RVOT(A)、persistent left SVC(B)、RUL tracheobronchus(C)、MAPCA(D)，術前皆須評估。\n\n→ [[tetralogy-of-fallot]]",
+      "images": [],
+      "concepts": [
+        "tetralogy-of-fallot"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-253",
+      "year": 2016,
+      "number": 253,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pediatric anomalous pulmonary venous return (CT/MRI), which description is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It has supracardiac, cardiac, infracardiac and mixed types."
+        },
+        {
+          "letter": "B",
+          "text": "Always check for left 2 and right 3 pulmonary venous orifices on the left atrium to exclude the diagnosis."
+        },
+        {
+          "letter": "C",
+          "text": "Associated pulmonary venous obstruction most frequently occurs in the infracardiac type."
+        },
+        {
+          "letter": "D",
+          "text": "Obstruction in the supracardiac type occurs where the ascending vein crosses the left pulmonary artery."
+        },
+        {
+          "letter": "E",
+          "text": "Cardiac-type TAPVR may mimic cor triatriatum."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2016 詳解；The Basics 2nd ed. p.221-236",
+      "explanation": "正解 **B**（不對）。正常為**左2右2（共4條）肺靜脈**，非右3。四型分類(A)、infracardiac 最易阻塞(C)、supracardiac 阻塞於垂直靜脈跨左肺動脈(D)、cardiac 型似 cor triatriatum(E)皆正確。\n\n→ [[anomalous-pulmonary-venous-return]]",
+      "images": [],
+      "concepts": [
+        "anomalous-pulmonary-venous-return"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-254",
+      "year": 2016,
+      "number": 254,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding Wilms tumor, which statement is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Accounts for ~90% of pediatric renal tumors."
+        },
+        {
+          "letter": "B",
+          "text": "Peak age is less than 1 year."
+        },
+        {
+          "letter": "C",
+          "text": "May invade the renal vein."
+        },
+        {
+          "letter": "D",
+          "text": "Bilateral masses suggest nephroblastomatosis and genetic predisposition."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2016 詳解；RadioGraphics 2016;36(2):499-522",
+      "explanation": "正解 **B**（為非）。**Wilms tumor peak age 為 3–4 歲（<5 歲）**，非 <1 歲（<1 歲想 mesoblastic nephroma）。占兒童腎腫瘤 90%(A)、可侵腎靜脈(C)、雙側提示 nephroblastomatosis/遺傳(D)皆正確。\n\n→ [[wilms-tumor]]",
+      "images": [],
+      "concepts": [
+        "wilms-tumor"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-255",
+      "year": 2016,
+      "number": 255,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a feature of an extrapulmonary lesion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Engulf pulmonary vessels."
+        },
+        {
+          "letter": "B",
+          "text": "Incomplete border sign."
+        },
+        {
+          "letter": "C",
+          "text": "Obtuse angle with the chest wall."
+        },
+        {
+          "letter": "D",
+          "text": "Displacement of pulmonary vessels."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2016 詳解；RadioGraphics 2012;32:971-985",
+      "explanation": "正解 **A**。**包覆肺血管(engulf)是『肺內』病灶特徵**;肺外病灶為推擠(displacement)肺血管、incomplete border sign、與胸壁成鈍角。\n\n→ [[silhouette-sign]]",
+      "images": [],
+      "concepts": [
+        "silhouette-sign"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-256",
+      "year": 2016,
+      "number": 256,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a sonographic finding of hepatic cavernous hemangioma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ill-defined, heterogeneous, hyperechoic mass."
+        },
+        {
+          "letter": "B",
+          "text": "Doppler shows no internal blood flow or slow flow."
+        },
+        {
+          "letter": "C",
+          "text": "Most lesions remain stable in size over time."
+        },
+        {
+          "letter": "D",
+          "text": "Large lesions may contain hypoechoic thrombosis, fibrosis and calcification."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2016 詳解；Fundamentals of Diagnostic Radiology 3rd ed. p.932",
+      "explanation": "正解 **A**。肝海綿狀血管瘤典型為**well-defined、homogeneous、hyperechoic**（約 10% 因脂肪肝背景呈 hypoechoic），非 ill-defined/heterogeneous。Doppler 無/慢血流(B)、多年穩定(C)、大者可含血栓/纖維化/鈣化(D)皆為其表現。\n\n→ [[hepatic-hemangioma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-257",
+      "year": 2016,
+      "number": 257,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "In mammography, changing the anode/filter from Mo/Mo to Rh/Rh affects mean glandular dose and image contrast how?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mean glandular dose decreases, image contrast increases."
+        },
+        {
+          "letter": "B",
+          "text": "Both mean glandular dose and image contrast decrease."
+        },
+        {
+          "letter": "C",
+          "text": "Mean glandular dose decreases, image contrast unchanged."
+        },
+        {
+          "letter": "D",
+          "text": "Mean glandular dose unchanged, image contrast increases."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2016 詳解；Bushberg, Essential Physics of Medical Imaging 2nd ed. p.198-203",
+      "explanation": "正解 **B**。Rh/Rh 較具穿透性（用於較厚/緻密乳房），**平均乳腺劑量最低、影像對比也較 Mo/Mo 低 → 兩者皆降低**。\n\n→ [[mammography-physics]]",
+      "images": [],
+      "concepts": [
+        "mammography-physics"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-258",
+      "year": 2016,
+      "number": 258,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "When using a C-arm for vascular interventional procedures, which method may reduce staff radiation dose?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "When the C-arm is inverted, staff should stand on the X-ray tube side, not the image receptor side."
+        },
+        {
+          "letter": "B",
+          "text": "Maximize the source-to-detector distance (air gap)."
+        },
+        {
+          "letter": "C",
+          "text": "Reduce the frame rate of fluoroscopy."
+        },
+        {
+          "letter": "D",
+          "text": "Use a larger field of view."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2016 詳解；Bushberg, Essential Physics of Medical Imaging 3rd ed. p.309",
+      "explanation": "正解 **C**。**降低透視 frame rate（脈衝透視）直接減少劑量**。C 臂倒置時應站影像接收器側（非 X 光管側，A 誤）、勿拉長 air gap(B 誤)、勿用過大視野(D 誤)。\n\n→ [[fluoroscopy-radiation-safety]]",
+      "images": [],
+      "concepts": [
+        "fluoroscopy-radiation-safety"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-259",
+      "year": 2016,
+      "number": 259,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "If the MRI receiver bandwidth (BW) is changed to half its original value, what is the effect on signal-to-noise ratio (SNR)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Becomes 2 times the original."
+        },
+        {
+          "letter": "B",
+          "text": "Becomes √2 times the original."
+        },
+        {
+          "letter": "C",
+          "text": "Becomes 1/2 of the original."
+        },
+        {
+          "letter": "D",
+          "text": "Unchanged."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2016 詳解；Hashemi, MRI The Basics 2nd ed. p.168",
+      "explanation": "正解 **B**。**SNR 與接收頻寬的平方根成反比（SNR ∝ 1/√BW）**；頻寬減半 → SNR 變為原來的 **√2 倍**。\n\n→ [[mri-snr]]",
+      "images": [],
+      "concepts": [
+        "mri-snr"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
