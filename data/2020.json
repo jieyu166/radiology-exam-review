@@ -5300,7 +5300,9 @@
       "reference": "",
       "explanation": "- A. SNR增加，CNR也會改善。contrast不影響背景SI\n- C. 平常檢查常用air\n- D. 低滲透壓是相對於舊款顯影劑，仍然比人體高",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false
     },
     {
@@ -5338,7 +5340,9 @@
       "reference": "",
       "explanation": "- D. 焦慮的受檢者，可能會在施打含碘對比劑後出現症狀(Lalli effect)。因此在注射前， 應盡力安撫受檢者的情緒，減少其焦慮感\n- C. 對海鮮/ 乳類過敏或對碘酒過敏 並**非**風險因子",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -5373,7 +5377,9 @@
       "reference": "",
       "explanation": "邏輯問題。有急性腎損傷的病患，若產生對比劑腎病變，使用 Metformin 可能有發生乳酸中毒的風險\n- B為法律規定內容。\n\t- 2008 TFDA: Metformin 成分藥品仿單加刊警語注意事項相關事宜：「靜脈注射顯影劑有導致急性腎功能下降之危險，因此醫師為病患注射顯影劑應先停用 Metformin，且需確認病患術後之腎功能恢復正常，才能再使用該藥品」（此血清Creatine 濃度大約相當於 eGFR < 60 mL/min/1.73 m2）此公告所指之顯影劑應是指含碘對比劑\n\t- 2014 TFDA 放寬腎功能不全患者使用含 Metformin成分藥品之「禁忌」，但未改到使用 Metformin 病患注射含碘對比劑時停用 Metformin 之標準。\n- C. Yes. 2020年guideline內容\n- D. Yes. 基本藥理常識 [[#Metformin]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {

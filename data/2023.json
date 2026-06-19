@@ -4293,7 +4293,9 @@
       "reference": "",
       "explanation": "對比劑的保溫箱，溫度設在攝氏 37 度即可。含碘對比劑放置於保溫箱應儘快用完，最久不能超過一個月，以免對比劑變質。庫存的含碘對比劑，應保存於適當的室溫環境，溫度約攝氏 15 ~ 30 度。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {
@@ -4328,7 +4330,9 @@
       "reference": "",
       "explanation": "事前使用皮膚測試並無法預測是否發生對比劑過敏反應，不建議使用；亦不建議施行注射對比劑試驗（即正式注射之前先注射少量對比劑），因其並不能降低嚴重過敏反應的機率，亦不能反映檢查時正式注射之過敏反應發生與否，甚至有可能增加過敏的機率。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -4363,7 +4367,9 @@
       "reference": "",
       "explanation": "Late是1hr-1周",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -4398,7 +4404,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -4433,7 +4441,9 @@
       "reference": "",
       "explanation": "溫度越高，黏性越低。所以才要加溫。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false
     },
     {
@@ -4472,7 +4482,9 @@
       "reference": "",
       "explanation": "在腎功能正常受檢者，使用常規診斷劑量（含碘對比劑少於 300 mL 或其含碘量少於90 grams）時，對比劑之劑量與毒性之間並沒有相關連。\nA. 正確。腎功能變差之情形，有時不易區分是含碘對比劑或其他同時存在之因子所造成\nD. 對比劑腎病變風險因子並非血管內注射含碘對比劑檢查之絕對禁忌症\n(可再查資料)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-induced-aki"
+      ],
       "checked": false
     },
     {
@@ -4511,7 +4523,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-induced-aki"
+      ],
       "checked": false
     },
     {

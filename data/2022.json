@@ -6928,7 +6928,9 @@
       "reference": "",
       "explanation": "T-cell\nB 應該是對的。 DAR 最常見表現為皮膚反應。表現: rash and itching, deemed to be a macular to maculopapular exanthema。\nC 是對的。 皮膚反應第一次通常要 2-10 天，Reexposure 只要 1-2 天。\nD 是對的。Delay reaction risk factor 有非離子性二聚體(dimer) ；Acute reaction risk factor 有離子性高張對比劑。\n\n\n AJR 2014;203: 1163-1170. 2020 對比劑手冊\n- 顯影劑是藥物引起皮膚反應的第三大原因，僅次於抗生素跟 NSAID。\n- 機轉可能和 T cells 有關。Hapten concept: Ag-hapten pair 被 APC 辨認引起過敏反應。\n- 顯影劑半衰期約 1.5 小時。\n- Delay reaction 大部分在 3 小時~2 天發生。\n\t- 皮膚反應第一次通常要 2-10 天，Reexposure 只要 1-2 天。\n\t- DAR 最常見表現為皮膚反應。表現: rash and itching, deemed to be a macular to maculopapular exanthema。\n\t- Delay reaction risk factor 有非離子性二聚體(dimer) ；Acute reaction risk factor 有離子性高張對比劑。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -6968,7 +6970,9 @@
       "reference": "",
       "explanation": "不一定能找出過敏反應的證據。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -7003,7 +7007,9 @@
       "reference": "",
       "explanation": "A. 要合併嚴重缺氧才是重度。如果沒有是中度\nC. 嘔吐為輕度/中度\nD. 迷走神經失常輕中重都可能，自行緩解輕度，需藥物治療中度，治療無反應重度\n\n\n## 停藥\n#注射室 參考部長顯影劑教學\n\n\n## 小兒\n- 小兒與嬰兒使用的對比劑很少，通常是每公斤體重 1.5~2 cc，因此 CT的時間就要抓得很準，或者，可以慢慢注射，以延長顯影的時間。\n- 小兒與嬰兒使用的IV常常只有 24 號，而且是打在手或腳上很細小的周邊靜脈。用注射器，最快可以打到每秒1.5 cc，最大壓力 150 psi。覺得血管很脆弱，就應該用手推。大多數CVC都不適合用於注射對比劑。\n- 對比劑滲漏是另一個問題，因為小兒與嬰兒不能有效溝通",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
@@ -7038,7 +7044,9 @@
       "reference": "",
       "explanation": "需要停藥\nD. Metformin是在CT對比劑CIN才有提到。MRI用Gadovist, Dotarem類即可，不影響腎功能",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
       "checked": false
     },
     {

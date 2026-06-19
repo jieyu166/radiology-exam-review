@@ -3798,7 +3798,9 @@
       "reference": "",
       "explanation": "[[#Adverse reaction]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false
     },
     {
