@@ -30,6 +30,9 @@ dateRev: 2026-06-17
 > [!question]- 頸動脈-椎基底吻合中,何者最少被記載/存在有爭議?
 > **Persistent otic artery**。trigeminal（最常見）、hypoglossal、proatlantal type 1 皆較確立。[^1]
 
+> [!question]- 哪條動脈可達顱底並經 foramen lacerum 等路徑與顱內吻合? (2017-115)
+> **Ascending pharyngeal artery（升咽動脈）**——其小腦膜分支經 foramen lacerum 達顱底,可與顱內(ICA/椎基底)吻合。ICA 沿 foramen lacerum 上緣走但不穿過。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "carotid-vertebrobasilar-anastomoses")

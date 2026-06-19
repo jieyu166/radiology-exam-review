@@ -4145,6 +4145,302 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-115",
+      "year": 2017,
+      "number": 115,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which artery reaches the skull base and can on occasion have intracranial anastomoses through the foramen lacerum and other routes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Middle meningeal artery."
+        },
+        {
+          "letter": "B",
+          "text": "Accessory pharyngeal artery."
+        },
+        {
+          "letter": "C",
+          "text": "Ascending pharyngeal artery."
+        },
+        {
+          "letter": "D",
+          "text": "Persistent stapedial artery."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；AJNR 2002;23:1246-1256",
+      "explanation": "正解 **C**。**Ascending pharyngeal artery（升咽動脈）** 的小腦膜分支經 foramen lacerum 達顱底,可與顱內(ICA/椎基底)吻合。ICA 沿 foramen lacerum 上緣走但不穿過。\n\n→ [[carotid-vertebrobasilar-anastomoses]]",
+      "images": [],
+      "concepts": [
+        "carotid-vertebrobasilar-anastomoses"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-116",
+      "year": 2017,
+      "number": 116,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is the most common location for posttraumatic myositis ossificans?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Skull."
+        },
+        {
+          "letter": "B",
+          "text": "Trunk."
+        },
+        {
+          "letter": "C",
+          "text": "Proximal extremities."
+        },
+        {
+          "letter": "D",
+          "text": "Distal extremities."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36:1195-1214",
+      "explanation": "正解 **C**。創傷後骨化性肌炎最常侵犯**四肢近端（前側肌群，股四頭肌與肱肌最常受累）**。\n\n→ [[myositis-ossificans]]",
+      "images": [],
+      "concepts": [
+        "myositis-ossificans"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-117",
+      "year": 2017,
+      "number": 117,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "For arrhythmogenic right ventricular dysplasia (ARVD), the typical criteria that can be demonstrated with MRI are:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fatty infiltration of the RV myocardium."
+        },
+        {
+          "letter": "B",
+          "text": "Aneurysms of the RV and RVOT."
+        },
+        {
+          "letter": "C",
+          "text": "Dilatation of the RV and RVOT."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；心臟 MR ARVD criteria",
+      "explanation": "正解 **D**（以上皆是）。ARVD 的 MRI 典型表現含 RV 心肌脂肪浸潤(A)、RV/RVOT 動脈瘤(B)、RV/RVOT 擴張(C)。\n\n→ [[arrhythmogenic-rv-dysplasia]]",
+      "images": [],
+      "concepts": [
+        "arrhythmogenic-rv-dysplasia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-118",
+      "year": 2017,
+      "number": 118,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Where is the most common location of myocardial bridging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Middle segment of LAD."
+        },
+        {
+          "letter": "B",
+          "text": "Distal segment of RCA."
+        },
+        {
+          "letter": "C",
+          "text": "PDA."
+        },
+        {
+          "letter": "D",
+          "text": "Proximal segment of LAD."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；冠狀動脈 CTA 解剖",
+      "explanation": "正解 **A**。**Myocardial bridging 最常見於 LAD 中段（middle segment）**。\n\n→ [[coronary-artery-variants]]",
+      "images": [],
+      "concepts": [
+        "coronary-artery-variants"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-119",
+      "year": 2017,
+      "number": 119,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "The course of the short LAD is along the proximal AIVS; the long LAD has an epicardial course on the LV side of the proximal AIVS, reentering the distal AIVS. Which type of dual LAD is this?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type I."
+        },
+        {
+          "letter": "B",
+          "text": "Type II."
+        },
+        {
+          "letter": "C",
+          "text": "Type III."
+        },
+        {
+          "letter": "D",
+          "text": "Type IV."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；dual LAD 分型",
+      "explanation": "正解 **A（Type I）**。short LAD 走近端 AIVS、long LAD epicardial 於 LV 側再入遠端 AIVS,分支 septal＋diagonal ＝ Type I。\n\n→ [[coronary-artery-variants]]",
+      "images": [],
+      "concepts": [
+        "coronary-artery-variants"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-120",
+      "year": 2017,
+      "number": 120,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Causes of vascular rings and slings commonly include all of the following, EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Double aortic arch."
+        },
+        {
+          "letter": "B",
+          "text": "Right aortic arch."
+        },
+        {
+          "letter": "C",
+          "text": "Aortic coarctation."
+        },
+        {
+          "letter": "D",
+          "text": "Pulmonary sling."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；血管環影像",
+      "explanation": "正解 **C**。**Aortic coarctation（主動脈窄縮）非血管環/吊帶成因**。double aortic arch(A)、right aortic arch(B)、pulmonary sling(D)皆為常見成因。\n\n→ [[vascular-rings-slings]]",
+      "images": [],
+      "concepts": [
+        "vascular-rings-slings"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-121",
+      "year": 2017,
+      "number": 121,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "About the coronary circulation, which pair of vessels has a compensatory relationship?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LAD & LCX."
+        },
+        {
+          "letter": "B",
+          "text": "RCA & PDA."
+        },
+        {
+          "letter": "C",
+          "text": "LAD & PDA."
+        },
+        {
+          "letter": "D",
+          "text": "LAD & RCA."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；冠狀動脈解剖",
+      "explanation": "正解 **C**。**LAD 與 PDA 互為代償**——LAD 繞心尖供應下壁心尖,一者長則另一者短。\n\n→ [[coronary-artery-variants]]",
+      "images": [],
+      "concepts": [
+        "coronary-artery-variants"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-122",
+      "year": 2017,
+      "number": 122,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT in the differential diagnosis of spiculated masses?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Postbiopsy scar."
+        },
+        {
+          "letter": "B",
+          "text": "Tubular cancer."
+        },
+        {
+          "letter": "C",
+          "text": "Radial scar."
+        },
+        {
+          "letter": "D",
+          "text": "Mucinous (colloid) carcinoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；The Requisites: Breast Imaging 3rd ed., p.142",
+      "explanation": "正解 **D**。**Mucinous (colloid) carcinoma 呈圓形/邊界清楚腫塊**，非毛刺狀。postbiopsy scar(A)、tubular cancer(B)、radial scar(C)皆為 spiculated mass DDx。\n\n→ [[breast-spiculated-mass]]",
+      "images": [],
+      "concepts": [
+        "breast-spiculated-mass"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
