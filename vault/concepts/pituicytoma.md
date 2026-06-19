@@ -28,6 +28,9 @@ dateRev: 2026-06-17
 > [!question]- 關於 pituicytoma,何者「錯」?
 > 「成人**腺垂體**的罕見原發腫瘤」錯——源自**神經垂體（neurohypophysis）/漏斗部**。WHO grade 1、鞍/鞍上、S100/vimentin 陽性皆對。[^1]
 
+> [!question]- 關於 pituicytoma,何者「錯誤」? (2016-240)
+> 「**起源於成人腺垂體(adenohypophysis)**」錯誤——pituicytoma 源自**神經垂體(neurohypophysis)/漏斗部的 pituicytes**。WHO grade I(B)、鞍區/鞍上腫瘤(C)、對 vimentin/S-100/EMA/GFAP 陽性(D)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pituicytoma")

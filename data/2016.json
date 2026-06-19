@@ -8700,6 +8700,191 @@
       "years": [
         2016
       ]
+    },
+    {
+      "id": "2016-236",
+      "year": 2016,
+      "number": 236,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "In moyamoya disease, maximal basal collaterals with small ACA/MCA corresponds to which Suzuki stage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stage I."
+        },
+        {
+          "letter": "B",
+          "text": "Stage II."
+        },
+        {
+          "letter": "C",
+          "text": "Stage III."
+        },
+        {
+          "letter": "D",
+          "text": "Stage IV."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Suzuki staging（題目所引）；Radiopaedia: moyamoya disease",
+      "explanation": "正解 **C**。**Stage III＝煙霧側支最盛(maximal basal collaterals)、ACA/MCA 顯影缺損**。之後 IV–VI 煙霧反而減少、轉 ECA 側支代償。\n\n→ [[moyamoya]]",
+      "images": [],
+      "concepts": [
+        "moyamoya"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-237",
+      "year": 2016,
+      "number": 237,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning cerebral amyloid angiopathy, which one of the following is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common cause of spontaneous lobar hemorrhage in the elderly."
+        },
+        {
+          "letter": "B",
+          "text": "Multifocal black dots of susceptibility on gradient echo or SWI."
+        },
+        {
+          "letter": "C",
+          "text": "Mainly involving deep gray matter and brainstem."
+        },
+        {
+          "letter": "D",
+          "text": "Signs/symptoms include dementia."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia: cerebral amyloid angiopathy（實際查證 2026-06-19）",
+      "explanation": "正解 **C**（不正確）。**CAA 為皮質-皮質下(lobar)、保留深部灰質與腦幹**；深部灰質/腦幹出血屬高血壓性。老年 lobar 出血(A)、GRE/SWI 多發黑點(B)、合併失智(D)皆正確。\n\n→ [[cerebral-amyloid-angiopathy]]",
+      "images": [],
+      "concepts": [
+        "cerebral-amyloid-angiopathy"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-238",
+      "year": 2016,
+      "number": 238,
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "high",
+      "questionText": "Subperiosteal abscess of the orbit most commonly involves which compartment of the orbit?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inferior extraconal space."
+        },
+        {
+          "letter": "B",
+          "text": "Medial extraconal space."
+        },
+        {
+          "letter": "C",
+          "text": "Preseptal space."
+        },
+        {
+          "letter": "D",
+          "text": "Intraconal space."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "De Melo WM et al.（題目所引）；Radiopaedia: orbital subperiosteal abscess",
+      "explanation": "正解 **B**。眼眶骨膜下膿瘍**最常見於 medial extraconal space**（沿 lamina papyracea），多繼發於 ethmoid sinusitis。\n\n→ [[orbital-subperiosteal-abscess]]",
+      "images": [],
+      "concepts": [
+        "orbital-subperiosteal-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-239",
+      "year": 2016,
+      "number": 239,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following CANNOT cause multiple hypodense parenchymal lesions seen on NECT scans?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Low-grade diffuse astrocytoma."
+        },
+        {
+          "letter": "B",
+          "text": "Demyelinating disease."
+        },
+        {
+          "letter": "C",
+          "text": "Multiple metastases."
+        },
+        {
+          "letter": "D",
+          "text": "Multiple embolic infarcts."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "神經放射教科書（題目所引）",
+      "explanation": "正解 **A**。**Low-grade diffuse astrocytoma 為單一浸潤性腫瘤**，非多發離散低密度灶。demyelinating disease、multiple metastases、multiple embolic infarcts 皆可造成多發低密度灶。\n\n→ [[multiple-hypodense-brain-lesions]]",
+      "images": [],
+      "concepts": [
+        "multiple-hypodense-brain-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-240",
+      "year": 2016,
+      "number": 240,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is wrong about pituicytoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rare primary tumor of the adult adenohypophysis."
+        },
+        {
+          "letter": "B",
+          "text": "WHO grade I CNS tumor."
+        },
+        {
+          "letter": "C",
+          "text": "Sellar or suprasellar tumor."
+        },
+        {
+          "letter": "D",
+          "text": "Immunoreactive for vimentin, S-100 protein, EMA, and GFAP."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Pituicytoma: case report and literature review. BJR 2011;84:e55-e57（題目所引）",
+      "explanation": "正解 **A**（錯誤）。**Pituicytoma 源自神經垂體(neurohypophysis)/漏斗部的 pituicytes**，非腺垂體(adenohypophysis)。WHO grade I(B)、鞍區/鞍上(C)、vimentin/S-100/EMA/GFAP 陽性(D)皆正確。\n\n→ [[pituicytoma]]",
+      "images": [],
+      "concepts": [
+        "pituicytoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
     }
   ]
 }
