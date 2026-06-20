@@ -16,7 +16,7 @@ same:
 
 # ultrasound-tissue-interaction
 
-**超音波與組織的交互：界面兩側『acoustic impedance（聲阻抗）』差決定『反射 vs 穿透』；而各組織不同的『echogenicity（回音性/紋理）』主要來自小尺度界面的『scattering（散射）』。** 判讀分水嶺一：**impedance 失配大 → 反射多、穿透少**（如軟組織/氣體、軟組織/骨界面）；判讀分水嶺二：**組織紋理/回音性 = backscatter（散射）**，非鏡面反射。
+**超音波在組織裡做兩件不同的事：大界面靠「聲阻抗差（impedance mismatch）」決定反射/穿透比例；各組織肉眼可見的回音紋理則靠「小界面散射（scattering/backscatter）」產生。** 記憶鉤：「大邊界靠阻抗、細紋理靠散射」——impedance 決定有多少能量能穿過去，scattering 決定肝腎脾各自看起來什麼樣。判讀分水嶺一：**acoustic impedance（Z＝密度×聲速）差 → 決定界面反射與穿透比例；差值越大反射越多（如組織/氣體、組織/骨）**；判讀分水嶺二：**各組織 echogenicity 與紋理（speckle）← backscatter（散射）；非鏡面反射（reflection）所致**。
 
 ## Summary
 - **Acoustic impedance（Z＝密度×聲速）**：相鄰組織的 **impedance 差**決定該界面**反射與穿透**能量之比例（差越大反射越多）——故「造成穿透與反射差異」者＝**impedance**。[^1]（2016-074 正解 A）

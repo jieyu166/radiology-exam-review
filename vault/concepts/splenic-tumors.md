@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # splenic-tumors
 
-**脾臟最常見良性腫瘤＝hemangioma；最常見『惡性』＝lymphoma（多為續發），不是轉移。** 判讀分水嶺一：**良性首位 hemangioma、惡性首位 lymphoma**；判讀分水嶺二：**epidermoid（true）cyst 有上皮襯裡 vs pseudocyst（外傷/感染/梗塞）無襯裡**。
+**脾臟腫瘤的兩個首位：最常見良性＝hemangioma，最常見惡性＝lymphoma（非轉移）——「脾最常見惡性是轉移」是高頻錯誤選項。** 判讀分水嶺一：**lymphoma 多為續發性侵犯（非原發），但仍是脾最常見惡性**；轉移相對少見（晚期廣泛轉移癌如黑色素瘤才常見）。判讀分水嶺二：脾囊腫需區分——**epidermoid（true）cyst 有上皮襯裡**，false/pseudocyst 源自外傷/感染/梗塞（無襯裡）；splenic hamartoma 可伴貧血/血小板減少。
 
 ## Summary
 - **最常見良性脾腫瘤＝hemangioma**。[^2]

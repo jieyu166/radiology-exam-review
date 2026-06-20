@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # wilms-tumor
 
-**Wilms tumor（nephroblastoma）＝兒童最常見腎臟惡性腫瘤,好發 3–4 歲,大而異質、推擠周邊。** 判讀分水嶺一：**占兒童腎腫瘤約 90%、peak age 3–4 歲（<5 歲，非 <1 歲）**;判讀分水嶺二：**可侵犯腎靜脈/IVC（瘤栓）;雙側腫塊提示 nephroblastomatosis 與遺傳易感（WAGR、Beckwith-Wiedemann、Denys-Drash）**。
+**Wilms tumor 是兒童最常見腎臟惡性腫瘤（占約 90%），好發 3–4 歲；<1 歲腎腫塊先想 mesoblastic nephroma，不是 Wilms。** 判讀分水嶺一：**peak 3–4 歲（<5 歲），非 <1 歲**；判讀分水嶺二：**可侵犯腎靜脈/IVC 形成瘤栓；雙側腫塊提示 nephroblastomatosis 與遺傳症候群（WAGR、Beckwith-Wiedemann、Denys-Drash）**。年齡鑑別鏈：<1 歲→ mesoblastic nephroma，1–8 歲→ Wilms tumor。
 
 ## Summary
 - **流行病學**：**兒童最常見腎臟惡性腫瘤,占兒童腎腫瘤約 90%**;**peak age 3–4 歲（<5 歲）**——非 <1 歲（<1 歲想 mesoblastic nephroma）。[^1]

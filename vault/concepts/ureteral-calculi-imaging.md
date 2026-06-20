@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # ureteral-calculi-imaging
 
-**偵測輸尿管/泌尿道結石敏感度最高的檢查＝非顯影螺旋電腦斷層（unenhanced/non-contrast helical CT，CT KUB）,已取代靜脈尿路攝影(IVU)成為參考標準;超音波與 KUB 平片敏感度低。** 判讀分水嶺一：**NCCT＝gold standard、敏感度最高**;判讀分水嶺二：**超音波對結石敏感度低(僅見回音灶+音影+twinkle),KUB 漏掉透 X 光結石**。
+**輸尿管結石首選非顯影螺旋 CT（CT KUB）——敏感度最高、已取代 IVU 成為 gold standard；超音波敏感度僅約 24%，KUB 平片漏掉透 X 光結石，兩者皆非首選。** 判讀分水嶺一：**NCCT＝gold standard**；判讀分水嶺二：**超音波只見音影＋twinkle，75% <3 mm 結石被漏掉**。記憶鏈：敏感度 CT >> IVU >> KUB >> US，US 雖「首先執行」卻非「最敏感」。
 
 ## Summary
 - **非顯影螺旋 CT（unenhanced helical CT / CT KUB）**：**敏感度最高、為參考標準**;CT 對組織衰減的高敏感使平片上透 X 光的結石亦可顯示;已大幅取代 IVU（2016-119 正解 C）。[^1]

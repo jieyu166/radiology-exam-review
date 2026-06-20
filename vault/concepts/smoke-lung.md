@@ -12,7 +12,7 @@ concepts: [smoke-lung]
 
 # smoke-lung
 
-**吸菸肺病是一個橫跨「氣道—氣腫—間質」的連續譜，判讀靠「分布線索」分流。** 判讀分水嶺一：**氣腫**看亞型與分布（centrilobular 上肺最常見 / paraseptal 近胸膜 / panlobular 下肺）；判讀分水嶺二：**間質病（SR-ILD）**分兩組——直接吸菸相關（AEP、RB/RB-ILD、AMP、PLCH、SRIF）與強烈吸菸關聯（IPF、CPFE）；上肺+保留肋膈角想 PLCH、下肺+subpleural 想 AMP/IPF。本筆記整理自 Dulcich RG 2026 綜述。[^1]
+**吸菸相關肺病橫跨「氣道—氣腫—間質」連續譜，分流靠分布：上肺想 centrilobular 氣腫/RB-ILD/PLCH，下肺想 AMP（原 DIP）/IPF，subpleural 想 paraseptal 氣腫/SRIF。** 判讀分水嶺一：**SR-ILD 第一組（直接吸菸相關）**：AEP、RB/RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈關聯、非純吸菸）**：IPF、CPFE；LAM 不屬此譜。判讀分水嶺二：術語更新——**DIP 現稱 AMP（alveolar macrophage pneumonia）**，與 RB-ILD 同屬巨噬細胞堆積譜系。本筆記整理自 Dulcich RG 2026 綜述。[^1]
 
 ## Summary
 - **分類框架**：SR-ILD 分兩組——**第一組（直接吸菸相關）**：AEP、RB、RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈吸菸關聯、非純吸菸）**：IPF、CPFE。[^1]

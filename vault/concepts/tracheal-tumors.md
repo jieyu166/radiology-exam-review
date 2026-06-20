@@ -13,7 +13,7 @@ dateRev: 2026-06-14
 
 # tracheal-tumors
 
-**氣管腫瘤：良性以「squamous cell papilloma（最常見良性）」為首，惡性以「squamous cell carcinoma 與 adenoid cystic carcinoma（最常見原發惡性）」為主。** 判讀分水嶺一：**成人原發氣管腫瘤多為惡性**（不像支氣管）；判讀分水嶺二：**廣泛平滑/結節增厚或多發結節傾向良性**，單一不規則 + 管壁外侵犯傾向惡性。
+**成人的氣管腫瘤多半是惡性的；良性最常見是 squamous cell papilloma（孤立性），惡性最常見是 squamous cell carcinoma 與 adenoid cystic carcinoma。** 記憶鉤：良性→多發/平滑/廣泛；惡性→單一/不規則/穿壁。Adenoid cystic 特點是「沿黏膜下潛行」，影像上範圍常比外觀更廣。判讀分水嶺一：**成人單一不規則氣管腔內腫塊 + 管壁外侵犯 → 惡性**；判讀分水嶺二：**多發 polypoid 結節（尤其兒童） → 先想 papillomatosis（HPV）**。
 
 ## Summary
 - **最常見良性氣管腫瘤 = squamous cell papilloma**（孤立性、成人）。[^3]

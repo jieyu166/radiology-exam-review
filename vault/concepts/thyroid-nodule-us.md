@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # thyroid-nodule-us
 
-**甲狀腺結節惡性可疑的超音波特徵（ACR TI-RADS）：markedly hypoechoic、taller-than-wide（縱長>橫寬）、不規則/小葉/毛刺邊緣、microcalcifications、實質成分、腺外延伸。『甲狀腺腫大合併多發結節（多結節甲狀腺腫）』『不』屬可疑特徵。** 判讀分水嶺一：**markedly hypoechoic / taller-than-wide / microcalc / 不規則邊緣＝可疑**;判讀分水嶺二：**多發/腫大本身不增惡性風險**。
+**甲狀腺結節的惡性警示訊號記「明暗界微異」：明顯低回音（markedly hypoechoic）、高聳（taller-than-wide）、邊緣不規則/毛刺、微鈣化（microcalcifications）、腺外延伸——「多發」和「腫大」本身反而不算警示。** 判讀分水嶺一：**markedly hypoechoic / taller-than-wide / microcalcifications / 不規則邊緣 / 腺外延伸＝TI-RADS 可疑特徵**；判讀分水嶺二：**多結節甲狀腺腫（多發 + 腫大）本身不增加每顆結節的惡性機率，不屬可疑特徵——常見陷阱**。
 
 ## Summary
 - **可疑惡性特徵**：[^1]

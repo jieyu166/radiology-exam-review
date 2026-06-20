@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # vacuum-assisted-breast-biopsy
 
-**立體定位真空輔助乳房切片（VABB）主要用於乳攝可見病灶（尤其鈣化）;『切片移除全部鈣化≠不需手術』。** 判讀分水嶺：**stereo pair＋0 度 scout 算出 target 3D 位置;~99% 取得足夠樣本;置 tissue marker clip 供日後定位**;關鍵：**即使 VABB 移除全部微鈣化,惡性者手術時仍約 80% 有殘餘癌 → 仍需開刀切除**。
+**VABB（真空輔助立體定位乳房切片）主要針對乳攝可見病灶（尤其微鈣化），但「切片後無殘餘鈣化」不等於「不需手術」——惡性者術後仍約 80% 有殘餘癌。** 判讀分水嶺：**stereo pair ± 15°＋0 度 scout 算 3D 位置；~99% 取得足夠樣本；置 marker clip**；陷阱：**VABB 完全移除鈣化 ≠ 完全切除腫瘤**，80% 殘餘癌仍須手術切除。
 
 ## Summary
 - **定位**：stereo pair（±15°）＋0 度 scout view 計算 target 的 3D 位置。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # spinal-intramedullary-tumors
 
-**先天性脊髓內腫瘤（teratoma / dermoid / epidermoid / hamartoma）的鑑別靠成分與訊號；最常考的是『epidermoid 似 CSF 但 DWI 為 restricted（高訊號），不是低訊號』。** 判讀分水嶺一：**epidermoid＝DWI restricted（高）**（與 CSF/arachnoid 區分）；判讀分水嶺二：teratoma 含脂肪/鈣化/骨軟骨、dermoid 含皮膚附屬器。
+**先天性脊髓內腫瘤四類（teratoma / dermoid / epidermoid / hamartoma）靠「成分」分流；高頻考點是 epidermoid——T1/T2 似 CSF，但 DWI 為 restricted（高訊號），這是與 arachnoid cyst 的唯一可靠區分。** 判讀分水嶺一：**epidermoid＝DWI restricted（高），非 CSF 的 DWI 低訊號**——誤寫「DWI 低」即答錯。判讀分水嶺二：teratoma 含脂肪/鈣化/骨軟骨（三種外胚層成分）；dermoid 含皮膚附屬器（T2 高）；hamartoma 與脊髓等訊號，罕有功能性脈絡叢致 syringohydromyelia。
 
 ## Summary
 - **Mature teratoma**：含**脂肪與鈣化**，可有**骨與軟骨**成分。[^1]

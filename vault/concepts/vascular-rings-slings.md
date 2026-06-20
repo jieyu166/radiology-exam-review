@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # vascular-rings-slings
 
-**血管環/吊帶常見成因：double aortic arch（最常見症狀性）、right arch+aberrant LSA、aberrant RSA、pulmonary sling;主動脈窄縮『不是』成因。** 判讀分水嶺：**double aortic arch＝最常見『症狀性』血管環;aberrant right subclavian artery＝最常見變異但多無症狀;pulmonary sling＝左肺動脈異常起自右肺動脈、繞氣管後;coarctation 非血管環成因**。
+**血管環/吊帶是主動脈弓或肺動脈異常走行包繞（或壓迫）氣管食道的結構；double aortic arch 是最常見的症狀性血管環，aortic coarctation 不在此類中。** 判讀分水嶺一：**最常見症狀性＝double arch；最常見變異但多無症狀＝aberrant right subclavian artery**；判讀分水嶺二：**pulmonary sling＝左肺動脈起自右肺動脈繞氣管後，coarctation 不是血管環成因**——考點就在排除 coarctation。
 
 ## Summary
 - **常見成因**：[^1]

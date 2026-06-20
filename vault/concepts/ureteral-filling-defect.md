@@ -13,7 +13,7 @@ same:
 
 # ureteral-filling-defect
 
-**輸尿管充盈缺損最常見的原因是『結石（calculi）』；腫瘤（urothelial/TCC）是最常見的『腫瘤性』充盈缺損但整體頻率遠低於結石。** 判讀分水嶺一：**先想結石**（最常見、可 CT 平掃確認）；判讀分水嶺二：再依單發/多發鋪開鑑別（CUPS MET：clot、stone、polyp、sloughed papilla、metastasis、endometriosis、TB、urothelial carcinoma）。
+**輸尿管充盈缺損最常見原因是結石，TCC（urothelial carcinoma）只是最常見的「腫瘤性」充盈缺損，整體頻率遠低於結石——考題最常考此層次差異。** 判讀分水嶺一：**最常見＝石頭**，CT 平掃直接確認；判讀分水嶺二：排除結石後展開 CUPS MET（Clot、stone、Polyp、Sloughed papilla、Metastasis、Endometriosis、TB、urothelial Carcinoma）。
 
 ## Summary
 - **最常見原因＝結石（calculi）**（標準 uroradiology 教學；題目正解）。[^1][^2]

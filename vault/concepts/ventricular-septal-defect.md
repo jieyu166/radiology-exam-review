@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # ventricular-septal-defect
 
-**VSD 依在中隔的位置分型,命名以右心室面觀點。** 判讀分水嶺一：**perimembranous（膜周）最常見;muscular（肌部，可多發呈 Swiss-cheese）;inlet（流入道，延伸至房室瓣插入處,見於 ECD）**;判讀分水嶺二：**subarterial（subpulmonary／supracristal／doubly-committed）位於『肺動脈瓣下』,易合併主動脈瓣脫垂——非『主動脈瓣下』**。
+**VSD 依右心室視角的位置分為四型，最常見是 perimembranous；最大陷阱是 subarterial 型——名稱含「artery」卻是在肺動脈瓣下（subpulmonary），不在主動脈瓣下。** 判讀分水嶺一：**perimembranous＝最常見；muscular＝可多發成 Swiss-cheese；inlet＝延伸至房室瓣插入處（見於 ECD）**；判讀分水嶺二：**subarterial（supracristal）＝subpulmonary 位置＋易合併主動脈瓣脫垂**，勿把「artery」誤讀為主動脈瓣下。
 
 ## Summary
 - **Perimembranous（膜周型）**：涉及膜周中隔,**最常見**。[^1]

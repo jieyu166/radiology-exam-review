@@ -16,7 +16,7 @@ same:
 
 # ultrasound-artifacts
 
-**超音波偽影：posterior enhancement（衰減較少→後方增強）、mirror（強反射面如骨/血管後壁成鏡）、ring-down（氣泡共振→後方連續高回音）、refraction（折射,常見於腹直肌與腹內脂肪交界）、aliasing（『都卜勒頻移超過 Nyquist＝PRF 一半』時發生——即取樣率『小於』兩倍頻移）。** 判讀分水嶺一：**aliasing＝取樣率(PRF)不足、< 2×頻移（Nyquist 被超過）**;判讀分水嶺二：**ring-down＝氣泡共振、mirror＝強反射面**。
+**超音波五種偽影各有成因：posterior enhancement（後方衰減少→增強）、mirror（強反射面照出鏡像）、ring-down（氣泡共振→後方連續亮線）、refraction（腹直肌-脂肪界面折射）、aliasing（都卜勒頻移超過 Nyquist 極限→波形反摺）。** 記憶鉤：aliasing 最容易考錯方向——「取樣率小於兩倍頻移（PRF < 2×頻移）」時才發生，題目若說「取樣率多於兩倍頻移」則是錯的。判讀分水嶺一：**ring-down 氣體/金屬共振、mirror 強反射鏡像、refraction 最常見於腹直肌-腹內脂肪界面**；判讀分水嶺二：**aliasing＝頻移 > PRF/2（Nyquist），即 PRF（取樣率）< 2×頻移——注意大小於方向不可記反**。
 
 ## Summary
 - **Posterior enhancement**：病灶衰減少於周邊軟組織→後方回音增強。[^1]

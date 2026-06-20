@@ -15,7 +15,7 @@ same:
 
 # ultrasound-attenuation
 
-**Attenuation（衰減）＝超音波在組織中前進時振幅與強度的漸進性減弱，是「吸收＋散射（＋反射/折射）」的總和效應。** 判讀分水嶺一：**散射＋吸收合稱 attenuation**（吸收為主因，能量轉為熱）；判讀分水嶺二：**attenuation 隨頻率上升而增加**——故高頻探頭解析度好但穿透淺。
+**Attenuation（衰減）是超音波前進時「吸收＋散射」造成的能量總損耗，也是高頻探頭看得清楚但看不深的原因。** 記憶鉤：把超音波想成「跑步的訊號」——組織的阻礙（吸收成熱＋散射偏向）讓它越跑越弱，頻率越高跑越累（attenuation 係數隨頻率升高）；只有水和血液幾乎不阻礙它。判讀分水嶺一：**散射（scattering）＋吸收（absorption）的合併效應＝attenuation；勿與 acoustic impedance（決定界面反射比例）或 propagation（傳播行進）混淆**；判讀分水嶺二：**attenuation coefficient 隨頻率增加 → 高頻：解析度佳、穿透淺；低頻：穿透深、解析度差**。
 
 ## Summary
 - **定義**：波在組織中傳播時，**振幅與強度隨深度遞減**的現象，即 attenuation。[^1]

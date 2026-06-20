@@ -14,7 +14,7 @@ same:
 
 # tree-in-bud
 
-**樹芽徵（tree-in-bud）＝CT 上多發 centrilobular 微結節＋線狀分支(像發芽的樹枝)。兩大來源：①『遠端氣道（較常見）』——細支氣管被膿/分泌物充填或細支氣管炎(感染為主);②『遠端肺血管』——腫瘤微栓塞或 IV 藥物賦形劑肉芽腫。最初描述於 endobronchial TB。** 判讀分水嶺一：**多數＝小氣道感染（TB/NTM/細菌或病毒性細支氣管炎、吸入）**;判讀分水嶺二：**少見的『血管型』tree-in-bud＝tumor microemboli / IV talcosis,易被忽略**。
+**樹芽徵（tree-in-bud）是 CT 上細支氣管或小肺動脈被充填後的空間輪廓，絕大多數來自小氣道感染（TB/NTM 最典型），少數是腫瘤微栓塞或 IV 藥物賦形劑堵塞小血管。** 記憶鉤：看到「發芽的樹枝」先想「小氣道被膿塞住了」，若有惡性病史且無感染線索，才轉換思路到「小血管被瘤栓堵住了」。判讀分水嶺一：**centrilobular 微結節 + 線狀分支（兩型）→ 氣道型（感染、分泌物、吸入）佔多數，最初描述於 endobronchial TB**；判讀分水嶺二：**血管型（tumor microemboli、IV talcosis）→ 隨機分布、惡性病史、無感染跡象時須考慮，易被漏看**。
 
 ## Summary
 - **定義**：多發 **centrilobular micronodules + 線狀分支**,像萌芽樹枝;反映小氣道/小血管病變。[^1]

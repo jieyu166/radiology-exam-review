@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # vsd-types
 
-**VSD 依位置/邊界（以右心室視角）分型：subarterial（juxta-arterial）型在『肺動脈瓣下（subpulmonary）』，不是主動脈瓣下——把它說成『主動脈瓣下』即錯。** 判讀分水嶺一：**subarterial＝subpulmonary（肺動脈瓣下、雙動脈瓣共界）**；判讀分水嶺二：perimembranous（最常見）、muscular（Swiss cheese）、inlet（達房室瓣）各有其位。
+**VSD 四型以右心室視角命名，記憶訣：由前向後依次是 subarterial（肺動脈瓣下）→ perimembranous（最常見）→ inlet（達房室瓣）→ muscular（肌部/Swiss cheese）；subarterial 名字含「artery」卻位於肺動脈瓣下，考題最愛在此設陷阱。** 判讀分水嶺一：**subarterial＝subpulmonary**，非主動脈瓣下；判讀分水嶺二：**perimembranous＝最常見，muscular 多發呈 Swiss cheese，inlet 延伸至房室瓣插入處**。
 
 ## Summary
 - **分型依右心室視角之位置/邊界**（題目選項 E 正確）。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # spinal-avm
 
-**脊髓血管畸形(Anson-Spetzler)四型：I dural AVF（最常見、老年男性、後天）、II glomus（髓內 compact nidus、年輕）、III juvenile/metameric（廣泛、罕）、IV perimedullary AVF；兒童族群以『type II glomus』最常見。** 判讀分水嶺一：**dural AVF（type I）是老年後天病灶**，非兒童；判讀分水嶺二：**兒童＝髓內 glomus（type II）最常見**。
+**脊髓血管畸形 Anson-Spetzler 四型中，整體最常見是 type I（dural AVF，老年男性後天），但兒童最常見是 type II（glomus，髓內）——「最常見」的答案取決於問的是哪個族群。** 判讀分水嶺一：**type I（dural AVF，~70%）＝後天、第 5–6 旬、老年男性**，問兒童時勿選。判讀分水嶺二：**兒童＝type II（glomus，髓內 compact nidus）最常見**；type III（juvenile/metameric）最廣泛但最罕見；type IV（perimedullary AVF）髓外軟膜。記憶鉤：年齡階梯——「老/後天→I，年輕/髓內→II，小兒廣泛→III，軟膜→IV」。
 
 ## Summary
 - **Type I — dural AVF（SDAVF）**：**所有脊髓血管畸形中最常見（~70%）**、發生高峰在**第 5–6 旬、男>女、後天**；慢性脊髓靜脈高壓/myelopathy。[^1]

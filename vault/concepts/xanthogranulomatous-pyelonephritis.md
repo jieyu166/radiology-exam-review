@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # xanthogranulomatous-pyelonephritis
 
-**黃色肉芽腫性腎盂腎炎（XGP）＝慢性破壞性腎感染,腎實質被充脂質的泡沫巨噬細胞（黃色肉芽腫）取代。典型：『staghorn（struvite）結石』＋『腎不顯影/排泄減少（non-functioning）』＋『擴大膿腔（bear paw sign）』＋『延伸至腎周/鄰近器官』。致病菌經典為『Proteus mirabilis』（與 E. coli）。pseudoaneurysm『不』是其特徵。** 判讀分水嶺一：**staghorn＋non-functioning＋bear paw＝XGP**;判讀分水嶺二：**XGP＝Proteus（非如其他泌尿感染多為 E. coli）**。
+**XGP 是慢性破壞性腎感染，腎實質被充脂質巨噬細胞取代；影像三聯：staghorn 結石＋腎不顯影（non-functioning）＋bear paw sign，pseudoaneurysm 不在其中。** 判讀分水嶺一：**staghorn＋non-functioning＋bear paw＝XGP，pseudoaneurysm 非特徵**；判讀分水嶺二：**致病菌是 Proteus mirabilis（產 urease → struvite 結石），與多數泌尿感染以 E. coli 為主不同**——XGP 是「非 E. coli 泌尿感染」考題的標準答案。
 
 ## Summary
 - **staghorn（struvite）結石**：常見、與感染性結石相關(option A 典型)。[^1]

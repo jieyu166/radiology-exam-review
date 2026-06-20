@@ -11,7 +11,7 @@ dateRev: 2026-06-18
 
 # splenic-angiosarcoma
 
-**Angiosarcoma 是脾臟最常見的『非淋巴造血性（non-hematolymphoid）原發惡性腫瘤』,雖極罕見但侵襲性高。** 判讀分水嶺一：**淋巴瘤是脾最常見惡性腫瘤,但屬造血性;若問『非造血性原發惡性』則為 angiosarcoma**;判讀分水嶺二：**易自發破裂出血、早期肝/全身轉移、預後極差**。
+**脾血管肉瘤（angiosarcoma）是最常見的非淋巴造血性原發脾惡性腫瘤——考題必須先排除 lymphoma（造血性），再選 angiosarcoma。** 判讀分水嶺一：**淋巴瘤是脾最常見惡性腫瘤，但題目若限定「非造血性（non-hematolymphoid）」，答案即為 angiosarcoma**。判讀分水嶺二：**易自發破裂（hemoperitoneum）、早期肝/骨轉移、預後極差**——影像呈出血/壞死異質腫塊，破裂前可無明顯徵象。
 
 ## Summary
 - **angiosarcoma**：**最常見的原發非淋巴造血性脾惡性腫瘤**;雖整體罕見。[^1]

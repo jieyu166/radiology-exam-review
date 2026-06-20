@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # tracheal-bronchus
 
-**Tracheal bronchus（氣管支氣管，又稱 pig bronchus / bronchus suis）＝源自氣管『右側壁』、距氣管分叉（隆突）『<2 cm』的異常/副支氣管,供應（多為右）上葉。** 判讀分水嶺一：**右側壁、<2cm 於隆突上方**;判讀分水嶺二：**整個上葉由其供應時稱 pig bronchus**。
+**Tracheal bronchus（豬支氣管/bronchus suis）是從氣管右側壁直接分出、距隆突 <2 cm 的異常支氣管，供應右上葉——插管時氣管插管卡在它上方會造成右上葉塌陷。** 記憶鉤：「右牆、近叉、不到 2」——右側壁、隆突上方、<2 cm；整個右上葉都靠它時稱 pig bronchus（豬腦支氣管）。判讀分水嶺一：**右側壁 + 隆突上方 <2 cm＝定義**；判讀分水嶺二：**整個上葉由其供應＝pig bronchus；臨床：麻醉插管時阻塞風險、反覆右上葉感染**。
 
 ## Summary
 - **起源**：源自**氣管右側壁、距分叉 <2 cm（隆突上方 supracarinal）**;故 2016-140 正解 **B**（Right tracheal wall, <2cm from tracheal bifurcation）。[^1]

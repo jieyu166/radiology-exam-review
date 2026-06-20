@@ -11,7 +11,7 @@ dateRev: 2026-06-15
 
 # sphenoparietal-sinus
 
-**蝶頂竇沿蝶骨小翼後下緣走行、接收 superficial middle cerebral vein（Sylvian vein），有三種典型『深部引流』型；『向上至 MCV 再入上矢狀竇』不是其中之一。** 判讀分水嶺一：**屬支是 superficial MCV（流向竇內），不是竇向上流入 SSS**；判讀分水嶺二：三型＝海綿竇、翼叢（basal emissary）、沿中顱窩底向後越岩錐入岩下/橫竇。
+**蝶頂竇沿蝶骨小翼後下緣走行，收 superficial middle cerebral vein（Sylvian vein）後有三條出路；考題常問「哪個不是引流型」，陷阱是把屬支（MCV 流入竇）誤當出路（竇流向 SSS）。** 判讀分水嶺一：**superficial MCV 是流『入』蝶頂竇的屬支，不是竇流出的出路**——方向相反。判讀分水嶺二：三型出路＝①海綿竇（最常見、前內側）→②翼叢（sphenobasal，basal emissary）→③沿中顱窩底越岩錐入岩下/橫竇（sphenopetrosal）；空間記憶：前→海綿、下→翼叢、後→岩錐。
 
 ## Summary
 - **解剖**：沿蝶骨小翼後下緣；接收 **superficial middle cerebral vein（Sylvian vein）**、middle meningeal vein（frontal ramus）、anterior temporal diploic vein；典型引流入**海綿竇**。[^1]

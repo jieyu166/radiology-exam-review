@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # splenic-trauma
 
-**脾外傷 CT 要點：脾是腹部鈍傷最常受傷實質器官；以 AAST（2018）分級（納入血管損傷）；CT 分級與『臨床結果』相關性有限；延遲破裂『即使初始 CT 正常仍可能發生』——故「初始 CT 正常即不會延遲破裂」是錯的。** 判讀分水嶺一：**sentinel/perisplenic clot 可能是唯一徵象**；判讀分水嶺二：**血管損傷（pseudoaneurysm/AVF，~15%）與 active extravasation 升級並影響處置**。
+**脾是腹部鈍傷最常受傷實質器官；AAST 2018 納入血管損傷分級，但 CT 分級對臨床結果預測性有限，且初始 CT 正常仍可發生延遲破裂——「初始 CT 正常即安全」是常考的錯誤敘述。** 判讀分水嶺一：**perisplenic sentinel clot 可能是脾損傷的唯一 CT 徵象**，低密度脾（shock spleen）不代表直接損傷。判讀分水嶺二：**血管損傷（pseudoaneurysm/AVF，~15%）與 active extravasation** 在延遲影像才顯現，影響栓塞/手術決策；CT 分級本身與是否需介入相關性不佳。
 
 ## Summary
 - **AAST 脾損傷分級（2018）**：G1 包膜下血腫<10%／裂傷<1cm；G2 10–50%／裂傷1–3cm；G3 >50%／裂傷>3cm／血腫破裂；G4 血管損傷或>25%去血管化；G5 shattered／活動性出血溢入腹腔。2018 版納入**血管損傷（pseudoaneurysm、AVF）**。[^1]
