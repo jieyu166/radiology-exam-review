@@ -48,7 +48,7 @@ dateRev: 2026-06-20
 
 ### 參考來源
 [^1]: Osborn's Brain Ch 15（官方 2017 詳解所引）：NMO 腦病灶亞洲 60–80%／歐洲 25–40%,鏡像 aquaporin-4 分布（室周、導水管周、下視丘/視丘、dorsal pons/medulla、胼胝體）;MS Dawson finger／open-ring 強化。
-[^2]: 據 PubMed——Wingerchuk DM, Banwell B, Bennett JL, et al. *International Consensus Diagnostic Criteria for Neuromyelitis Optica Spectrum Disorders*. Neurology. 2015;85(2):177-189. doi:10.1212/WNL.0000000000001729（PMC4515040,開放取用;NMOSD 依 AQP4-IgG 分層、6 大核心臨床特徵、seronegative 之 MRI 要件）。另 *Neuromyelitis optica spectrum disorder*. Radiopaedia.org（實際查證 accessed 2026-06-20）：AQP4 三聯（雙側 ON＋LETM＋AQP4(+)）、LETM ≥3 椎節常伴脊髓腫脹、核心症候群、**IPND 2025 改名 disorder→disease**。
+[^2]: 據 PubMed——Wingerchuk DM, Banwell B, Bennett JL, et al. *International Consensus Diagnostic Criteria for Neuromyelitis Optica Spectrum Disorders*. Neurology. 2015;85(2):177-189. doi:10.1212/WNL.0000000000001729（PMC4515040,開放取用;NMOSD 依 AQP4-IgG 分層、6 大核心臨床特徵、seronegative 之 MRI 要件）。另 *Neuromyelitis optica spectrum disorder*. Radiopaedia.org（實際查證 accessed 2026-06-20）：AQP4 三聯（雙側 ON＋LETM＋AQP4(+)）、LETM ≥3 椎節常伴脊髓腫脹、核心症候群、**IPND 2025 改名 disorder→disease**。（**provenance**：本概念之 NMOSD 準則與 MS vs NMO 對照整合自演講筆記《Evolution of MS, NMO diagnostic criteria》(林宙晴);事實已依本條 Wingerchuk 2015 與 Radiopaedia 一手來源查核。）
 [^3]: MOGAD（anti-MOG 抗體相關疾病）為與 AQP4-NMOSD、MS 不同之**獨立疾病**,於血清陰性/NMO 樣病例中佔一部分（文獻常引約 10%）;影像可較模糊、ON 常雙側長段。出處：*Neuromyelitis optica spectrum disorder*. Radiopaedia.org（提及 MOG 抗體異質性,accessed 2026-06-20）;延伸文獻 *MOGAD: A Review of Clinical and MRI Features, Diagnosis, and Management*（未取全文,供醫師延伸查閱）。
 
 ## 題目

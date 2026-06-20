@@ -26,6 +26,8 @@ FN_REF = re.compile(r"\[\^([^\]]+)\](?!:)")
 FM_CONCEPTS = re.compile(r"(?m)^concepts:\s*\[([^\]]+)\]")
 DV_SLUG = re.compile(r'contains\(concepts,\s*"([^"]+)"\)')
 INTERNAL_NOTE = re.compile(r"院內筆記|整理自.{0,8}筆記|演講筆記")
+# 一手來源標記：同一條 footnote 若含這些,代表演講/院內筆記僅為 provenance、已附可查證一手來源
+STRONG_REF = re.compile(r"radiopaedia|radiographic|rsna|doi:|ajnr|ajr|statdx|clinicalkey|pubmed|neurolog|lancet|ann neurol|stroke|front oncol|radiology|10\.\d{4}|NBK|實際查證|已查核|查證 accessed", re.I)
 
 # ---- 收集所有「實際被引用的圖」----
 referenced_imgs: set[str] = set()
@@ -64,11 +66,13 @@ for p in concept_files:
         err(f"[footnote 未定義] {name}.md 用了 [^{r}] 但無定義")
     for d in defs - refs:
         warn(f"[footnote 未被引用] {name}.md 定義 [^{d}] 但沒用到")
-    if INTERNAL_NOTE.search(t):
-        # 只在「### 參考來源」區段內才算違規（footnote 引用院內筆記）
+    if "### 參考來源" in t and INTERNAL_NOTE.search(t):
+        # provenance 容忍：逐條 footnote 檢查——提及院內/演講筆記「但同條無一手來源」才算違規
         ref_sec = t.split("### 參考來源", 1)[-1]
-        if INTERNAL_NOTE.search(ref_sec):
-            warn(f"[footnote 引用院內/演講筆記] {name}.md（應改指一手來源）")
+        for e in re.split(r"(?m)^(?=\[\^)", ref_sec):
+            if INTERNAL_NOTE.search(e) and not STRONG_REF.search(e):
+                fnm = re.match(r"\[\^([^\]]+)\]", e.strip())
+                warn(f"[院內/演講筆記為唯一來源] {name}.md [^{fnm.group(1) if fnm else '?'}]（需併附一手來源）")
 
 # ---- 2) json 題目檢查 ----
 for p in sorted(glob.glob("data/20*.json")):
