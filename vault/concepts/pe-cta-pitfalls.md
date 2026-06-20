@@ -12,7 +12,7 @@ dateRev: 2026-06-14
 
 # pe-cta-pitfalls
 
-**判讀 CTPA 的核心是「分辨真填充缺損 vs 模擬物」，關鍵解剖線索是 bronchoarterial pairing：肺動脈伴隨支氣管、肺靜脈不伴。** 判讀分水嶺一：**有支氣管相伴的血管 = 肺動脈**（其填充缺損才是 PE）；肺靜脈不伴支氣管、走向左心房。判讀分水嶺二：pitfalls 分**技術／解剖／病理**三類，認得它們才不會誤診或漏診。
+**CTPA 判讀的根基是 bronchoarterial pairing：有支氣管相伴的血管是肺動脈（填充缺損才算 PE），肺靜脈不伴支氣管、走向左心房，未顯影時可模擬完全阻塞性 PE。** Pitfalls 分技術（部分容積、血流假影、transverse 走向血管）、解剖（肺門淋巴結、肺靜脈、黏液支氣管）、病理（pulmonary artery sarcoma，罕見）三類。判讀分水嶺一：**追支氣管 → 確認是肺動脈再讀填充缺損**；判讀分水嶺二：**transverse 走向血管最易有假影，肺靜脈最易被誤判為 PE**。
 
 ## Summary
 - **Bronchoarterial pairing**：**肺動脈與支氣管並行（bronchovascular bundle）；肺靜脈不伴支氣管**。故「**伴隨支氣管的血管是肺動脈**」——其內填充缺損可診斷 PE；肺靜脈（不伴支氣管、走向 LA）若未顯影可**模擬**完全阻塞性 PE。[^1]

@@ -13,7 +13,7 @@ concepts: [lung-cancer]
 
 # lung-cancer
 
-**肺腺癌是一條由「非侵犯 → 微侵犯 → 侵犯」的連續譜，影像上對應 純 GGN → part-solid → solid 的演進。** 判讀分水嶺一：**純 lepidic、無侵犯、≤3 cm = AIS**（CT 純 nonsolid）；判讀分水嶺二：**侵犯 ≤5 mm = MIA**（CT 主要 nonsolid、可含 <5 mm 中央 solid，僅 solid 部分代表侵犯）；侵犯 >5 mm 即為 invasive adenocarcinoma。
+**2011 IASLC 肺腺癌分類是一條侵犯深度的連續譜：無侵犯（AIS）→ 侵犯 ≤5 mm（MIA）→ 侵犯 >5 mm（invasive），影像對應 純 GGN → 主要 GGN 含小 solid → part-solid/solid。** 判讀分水嶺一：**AIS＝純 lepidic、無侵犯、≤3 cm**（CT 純 nonsolid）；判讀分水嶺二：**MIA＝侵犯 ≤5 mm，CT 僅 solid 部分代表侵犯**；兩者 ≤3 cm 是共同上限，差別只在有無侵犯。
 
 > 範圍：本筆記聚焦 2011 IASLC/ATS/ERS 肺腺癌分類之詞語與 CT 對應（交換考 2016-004 出處）。其他肺癌主題（鱗癌、小細胞、分期 TNM 等）待日後另補。
 

@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # passive-hepatic-congestion
 
-**鬱血性肝病變＝右心衰/限制性病致肝靜脈回流受阻、肝實質鬱血;CT 特徵為對比『早期』逆流入擴張 IVC 與肝靜脈。** 判讀分水嶺一：**定義＝右心回流受損致肝實質血液鬱滯;肝靜脈/IVC 擴張、to-and-fro 血流**;判讀分水嶺二：**CT＝對比自右房『early retrograde reflux』入擴張 IVC/肝靜脈（非 delayed）、不均勻 mosaic/reticulated（似 nutmeg liver）**。DDx：Budd-Chiari、肝硬化。
+**鬱血性肝病變是右心回流受阻導致對比劑自右房「早期逆流」入擴張 IVC 與肝靜脈——說「延遲強化」即錯。** 記憶鉤：心臟打不出去→血液逆堵回肝→CT 上對比劑也跟著逆流（early reflux），肝實質呈 nutmeg 樣不均勻。判讀分水嶺一：**IVC/肝靜脈擴張 + early retrograde reflux（非 delayed）**；判讀分水嶺二：**US 見 to-and-fro 血流、DDx Budd-Chiari**。
 
 ## Summary
 - **定義**：右心回流受損(右心衰/限制/縮窄性心包炎)→ 肝實質血液鬱滯、中央肝靜脈擴張、肝腫大。[^1]

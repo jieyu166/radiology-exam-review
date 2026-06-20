@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # mri-snr
 
-**MRI 的 SNR 與多個掃描參數相關;receiver bandwidth 與 SNR 成『反平方根』關係。** 判讀分水嶺一：**SNR ∝ 1/√(bandwidth)**——頻寬減半 → SNR 變為原來的 **√2 倍**;判讀分水嶺二：**SNR 亦正比於 voxel volume、√(NEX)、√(相位編碼數);較窄頻寬增 SNR 但延長 echo time/加重化學位移偽影**。
+**Bandwidth 與 SNR 的關係是「反平方根」——頻寬窄，雜訊取樣少，SNR 上升，但代價是最短 TE 延長與化學位移偽影加重。** 判讀分水嶺一：**SNR ∝ 1/√BW——頻寬減半，SNR 升為 √2 倍（≈1.41×），非 2 倍**；判讀分水嶺二：**SNR 同時受 voxel volume、√(NEX)、√(相位步數) 影響**，頻寬只是其中一個旋鈕。
 
 ## Summary
 - **Bandwidth 與 SNR**：**SNR 與接收頻寬的平方根成反比（SNR ∝ 1/√BW）**。[^1]

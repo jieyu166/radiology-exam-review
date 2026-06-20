@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # papillary-necrosis
 
-**腎乳頭壞死的病因記憶法『NSAID』：NSAIDs（止痛藥腎病）、Sickle cell anemia、Analgesic nephropathy、Infection（含結核/腎盂腎炎）、Diabetes mellitus（另有 obstruction、RVT）。平片『通常正常』（可有不規則/環狀鈣化但非特徵）；約『50%』鐮型球患者發生（非 90%）。兩型：medullary/partial＝乳頭『中央』空蝕（lobster-claw）；papillary/total＝『整個乳頭』脫落（signet ring + clubbed calyx）。** 判讀分水嶺一：**NSAID 病因＋約 50% sickle cell**；判讀分水嶺二：**medullary＝中央侵蝕；papillary（total）＝整顆乳頭脫落**。
+**腎乳頭壞死病因口訣「NSAID」：NSAIDs/Sickle cell/Analgesic nephropathy/Infection/Diabetes（另加 obstruction、RVT）。** 平片通常正常，鐮型球患者約 50%（非 90%）發生；兩型：medullary＝乳頭中央空蝕（lobster-claw）；papillary/total＝整顆乳頭脫落（signet ring + clubbed calyx）。判讀分水嶺一：**三大陷阱——平片非特徵鈣化、sickle cell 50% 非 90%、medullary 型是中央侵蝕非整顆缺失**；判讀分水嶺二：**papillary/total 型脫落乳頭可成 collecting system 填充缺損致阻塞**。
 
 ## Summary
 - **病因（NSAID 記憶法）**：**N**SAIDs、**S**ickle cell anemia、**A**nalgesic nephropathy、**I**nfection（pyelonephritis、TB）、**D**iabetes mellitus；另 urinary obstruction、renal vein thrombosis。故「analgesics、DM、sickle cell」**正確**（2016-198 正解 A）。[^1]

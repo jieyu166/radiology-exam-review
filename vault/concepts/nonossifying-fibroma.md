@@ -14,7 +14,7 @@ dateRev: 2026-06-18
 
 # nonossifying-fibroma
 
-**NOF＝兒童／青少年最常見的良性『不要碰（leave-me-alone）』骨病變；典型為長骨幹骺端偏心、地圖狀透亮、薄硬化緣。** 判讀分水嶺：**偏心 metaphyseal、地圖狀（geographic）透亮、薄/緻密硬化邊、清楚移行帶（sharp zone of transition）、長軸與骨平行**；隨年齡向骨幹遷移、可自行硬化消退。「N」屬 FEGNOMASHIC 助記。
+**NOF 是兒童長骨幹骺端最典型的「leave-me-alone」病變：偏心地圖狀透亮＋薄硬化緣＋清楚移行帶，隨年齡向骨幹遷移並自行硬化消退。** 判讀分水嶺：**偏心 metaphyseal＋地圖狀透亮＋薄/緻密硬化緣＋清楚移行帶＋長軸平行骨軸**——與 GCT（骨閉合後鄰關節面）、fibrous dysplasia（毛玻璃基質）、enchondroma（手足軟骨鈣化）三者相互對比。記憶鉤：FEGNOMASHIC 的「N」，生長板旁的偏心「凹槽」，長大自己填平。
 
 ## Summary
 - **族群/位置**：兒童與青少年；**長骨幹骺端（metaphysis）、鄰近生長板**，最常見**脛骨/股骨遠端**。[^1]

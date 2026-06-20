@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # liver-elastography
 
-**測『組織硬度』的超音波技術＝strain imaging 與 shear wave imaging；以 shear wave velocity 評肝纖維化要『禁食、右葉 seg 5/8、深度約 4 cm』；硬化（advanced CLD）約以 >2 m/s（>13 kPa）為閾值。** 判讀分水嶺一：**只有 strain＋shear wave 測硬度**（harmonics、fusion 不是）；判讀分水嶺二：**標準化量測＋正確閾值**才可靠。
+**肝臟彈性影像是用「硬度」替代組織切片評纖維化，只有 strain 與 shear wave 兩類技術真正量硬度；tissue harmonics 和 fusion 是影像品質工具，與硬度無關。** 判讀分水嶺一：**測硬度＝strain＋shear wave**（harmonics、fusion 不算）；判讀分水嶺二：**量測標準化——禁食、右葉 seg 5/8、深度約 4 cm；肝硬化閾值 ≈ 2 m/s（>13 kPa）**。
 
 ## Summary
 - **測硬度的技術**：**strain elastography**（壓縮波比較 ROI）＋**shear wave elastography（SWE/ARFI）**（橫向剪力波速）。Tissue harmonics（提升影像品質）、navigation/fusion（影像融合）**與硬度無關**。[^1]

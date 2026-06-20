@@ -17,7 +17,7 @@ same:
 
 # nonspecific-interstitial-pneumonia
 
-**NSIP＝下肺、周邊為主、以 GGO＋網狀影為主、『相對 subpleural sparing（保留周邊）』的均質間質病;分 cellular 與 fibrotic。** 判讀分水嶺一：**subpleural sparing（保留周邊薄帶）＋下肺/基底＋GGO 為主＋牽引性支氣管擴張** → 與 UIP 的 subpleural predominant、honeycombing 區分;判讀分水嶺二：**cellular NSIP（GGO 為主、可逆、預後較好）vs fibrotic NSIP（網狀＋牽引性支氣管擴張、介於 UIP 與 cellular NSIP 之間、UIP→NSIP 光譜的中間過渡）**。常合併 [[ctd-ild]]。
+**NSIP 的靈魂特徵是「subpleural sparing（保留周邊薄帶）＋下肺 GGO 為主＋均質」，正好與 UIP 的「subpleural predominant＋honeycombing＋heterogeneous」互為鏡像。** 判讀分水嶺一：**subpleural sparing＋下肺/基底＋GGO＋牽引性支氣管擴張** → 與 UIP/IPF 區分；判讀分水嶺二：**cellular NSIP（GGO 為主、可逆）vs fibrotic NSIP（網狀＋牽引性支氣管擴張、介於 cellular NSIP 與 UIP 之間、honeycombing 少）**——常見於 CTD-ILD（見 [[ctd-ild]]）。記憶鉤：NSIP「讓開周邊」（subpleural sparing），UIP「偏愛周邊」（subpleural predominant）。
 
 ## Summary
 - **分布/型態**：**下肺、周邊為主**;**GGO ＋ 網狀影**、牽引性支氣管擴張;**相對 subpleural sparing（保留周邊）**為有用區分特徵;下葉容積縮小。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # mcdonald-ms-criteria
 
-**McDonald（2010）MS 的『空間多發性（DIS）』＝在以下『四』個中樞部位中 ≥2 處各有 ≥1 個 T2 病灶：periventricular、juxtacortical、infratentorial、spinal cord。『視神經（optic nerve）』『不』在 2010 DIS 部位之列。** 判讀分水嶺一：**DIS＝四部位中 ≥2 處**;判讀分水嶺二：**optic nerve 非 2010 DIS 部位（2017 版亦未納入為 DIS）**。
+**McDonald 2010 DIS 的四個部位用空間邏輯記：由深到淺——periventricular（室周）→ juxtacortical（皮質旁）→ infratentorial（幕下）→ spinal cord（脊髓），四選二即滿足；視神經雖是 MS 好發部位，卻不在 DIS 計分欄位內——這是最常被誤選的陷阱。** 判讀分水嶺一：**DIS＝上述四部位中 ≥2 處各 ≥1 T2 病灶**；判讀分水嶺二：**optic nerve 非 DIS 四部位之一（2010 及 2017 版皆是）**。
 
 ## Summary
 - **DIS（dissemination in space,2010）四部位**：**periventricular、juxtacortical、infratentorial、spinal cord**;≥2 部位各 ≥1 T2 病灶即滿足。[^1]

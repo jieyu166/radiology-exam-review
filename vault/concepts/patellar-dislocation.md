@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # patellar-dislocation
 
-**暫時性外側髕骨脫位（transient lateral patellar dislocation）的 MRI 指紋＝『kissing contusion』：髕骨『內側面（medial facet）』骨髓水腫＋『外側』股骨髁（lateral femoral condyle）骨髓水腫,並有內側髕骨支持帶/MPFL 撕裂＋關節積液。** 判讀分水嶺一：**髕骨內側面 + 外側股骨髁的對吻挫傷**;判讀分水嶺二：**MPFL/內側支持帶損傷**（髕骨向外脫位、自行復位）。
+**髕骨向外側脫位後自行復位，MRI 留下「對吻挫傷」：髕骨內側面（medial facet）＋外側股骨髁（lateral femoral condyle）各有骨髓水腫，同時伴 MPFL/內側支持帶撕裂及關節積液。** 記憶鉤：脫向外→回彈時「內側面撞外側髁」，方向對立才能對吻。判讀分水嶺一：**medial patella facet + lateral femoral condyle 骨髓水腫**；判讀分水嶺二：**MPFL 撕裂 + 關節積液**。
 
 ## Summary
 - **機轉**：膝屈曲、股骨內旋於固定足上（外翻力）→ 髕骨**向外側脫位後自行復位**;撕裂**內側髕骨支持帶（MPFL）**。[^1]

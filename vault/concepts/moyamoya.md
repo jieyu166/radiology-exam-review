@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # moyamoya
 
-**Moyamoya＝進行性 ICA 末端/Willis 前環狹窄閉塞,伴基底側支(『煙霧』)血管增生;Suzuki 分六期描述其消長。** 判讀分水嶺一：**早期(I–II)＝頸內動脈分叉狹窄、煙霧開始**;判讀分水嶺二：**Stage III＝煙霧側支『最盛(maximal basal collaterals)』、ACA/MCA 顯影缺損;之後(IV–VI)煙霧反而減少、轉由 ECA/leptomeningeal 側支代償**。
+**Moyamoya 的「煙霧」是進行性 ICA 狹窄逼出來的代償側支血管，Suzuki 六期描述的是這朵煙霧先起後滅的全過程——高峰在 Stage III，之後反而消退、由 ECA 側支接手。** 判讀分水嶺一：**Stage III＝煙霧側支最盛（maximal basal collaterals）＋ ACA/MCA 顯影缺損**，這是最常考的分期；判讀分水嶺二：**Stage IV–VI 煙霧反而減少**，切勿以為病越嚴重煙霧越多。
 
 ## Summary
 - **Suzuki 六期**：[^1]

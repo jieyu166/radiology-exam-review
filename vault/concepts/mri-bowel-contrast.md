@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # mri-bowel-contrast
 
-**MR 腸道對比劑依在 T1/T2 的訊號分 positive、negative、biphasic 三類。** 判讀分水嶺一：**positive＝縮短 T1 → T1 亮（Gd、Mn、油脂類）;negative＝T2 暗（SPIO、鋇劑、氣體/空氣）**;判讀分水嶺二：**biphasic（水性，如水、mannitol、PEG）＝T1 暗、T2 亮**——MR enterography 最常用（腸腔 T2 亮、T1 暗,利於評估腸壁強化）。
+**MR 腸道對比劑的三類記法：positive 讓 T1 亮（脂/Gd/Mn）、negative 讓 T2 暗（SPIO/鋇/氣）、biphasic 是水性（T1 暗 T2 亮），腸鏡 MRI 最愛用 biphasic 讓腸腔 T2 亮背景下看強化腸壁。** 判讀分水嶺一：**稀釋鋇劑屬 water-based（biphasic），MRI 呈 T2 亮——「T2 暗」為常見錯誤認知**；判讀分水嶺二：**biphasic（水/mannitol/PEG）在 T1 暗、T2 亮，是 MR enterography 標準選項**。
 
 ## Summary
 - **Positive（T1 亮）**：縮短 T1 弛緩 → T1WI 高訊號;如 **Gd、Mn、油脂(oil/lipid)**。[^1]

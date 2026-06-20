@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # neuromyelitis-optica
 
-**NMO（aquaporin-4 抗體）優先侵犯視神經與脊髓,但『也常有腦病灶』,分布鏡像 aquaporin-4 表現處。** 判讀分水嶺：**MS 斑塊多 supratentorial、活性斑塊可環狀強化；NMO 偏好視神經/脊髓長節段（LETM）,但腦病灶非罕見——亞洲 60–80%、歐洲 25–40% 有腦異常**,好發 periventricular、periaqueductal grey、下視丘/視丘、dorsal pons/medulla、corpus callosum。
+**NMO（aquaporin-4 抗體）主打視神經＋長節段脊髓（LETM），但腦病灶絕非罕見（亞洲 60–80%），分布跟著 AQP-4 高表現區走：室周、periaqueductal grey、下視丘/視丘、dorsal pons/medulla、胼胝體。** 判讀分水嶺：**MS 多 supratentorial 白質斑、活性斑可 open-ring 強化；NMO 偏視神經/脊髓（LETM ≥3 椎節），腦病灶分布鏡像 AQP-4**——「NMO 無腦白質病灶」為錯誤敘述（亞洲 60–80% 有）。記憶鉤：NMO 跟著「水通道」走（AQP-4 高在哪、病灶就在哪）。
 
 ## Summary
 - **MS**：斑塊多 **supratentorial**；活性斑塊可**環狀（open-ring）強化**。[^1]

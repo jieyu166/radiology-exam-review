@@ -13,7 +13,7 @@ dateRev: 2026-06-15
 
 # perilunate-injury
 
-**Lesser-arc（純韌帶）損傷依 Mayfield 由橈側向尺側再到掌側漸進：scapholunate → capitolunate → lunotriquetral →（最後）radiolunate（月骨脫位）。最後階段累及 radius-lunate 關節。** 判讀分水嶺一：**lesser arc＝純韌帶、繞月骨**；greater arc＝經骨（橈骨莖突、scaphoid、capitate、triquetrum、尺骨莖突）。判讀分水嶺二：**末期＝月骨向掌側脫位、橈月關節失常**。
+**月骨周損傷的 Mayfield 四階段「SL→CL→LT→RL」由橈向尺再向掌側推進，最後月骨本身掌側脫位（lunate dislocation）、橈月關節失常。** 記憶鉤：「舟月→頭月→三角月→橈月」，像拉鍊從橈側拉到掌側。判讀分水嶺一：**lesser arc＝純韌帶環繞月骨；greater arc＝經骨（scaphoid、capitate 等骨折）**；判讀分水嶺二：**第 4 階段累及 radius-lunate 關節（月骨掌側脫位）**。
 
 ## Summary
 - **Greater arc injury**：經**骨**路徑——radial styloid、scaphoid、capitate、triquetrum、ulnar styloid（伴骨折，如 trans-scaphoid perilunate）。[^1]

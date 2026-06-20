@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # lenticulostriate-arteries
 
-**Lenticulostriate（豆紋）動脈是供應基底節的小穿通枝：『lateral 群來自近端 MCA（M1）、medial 群來自 A1（ACA）』，且 lateral 群經前穿質的『外側』進入腦——不是 medial 2/3。** 判讀分水嶺一：**lateral=MCA、medial=ACA**；判讀分水嶺二：**MCA 豆紋動脈經前穿質外側進入**（題目「medial 2/3」為錯誤敘述）。
+**豆紋動脈是基底節的末端灌溉系統，記憶鉤：L/M 字首對 L/M 動脈——Lateral 群來自 M1（MCA），Medial 群來自 A1（ACA）。** 判讀分水嶺一：**lateral=MCA、medial=ACA**；判讀分水嶺二：**Lateral（MCA 來源）經前穿質『外側』進入——「medial 2/3」為錯誤敘述**，此為高頻考點。
 
 ## Summary
 - **起源**：自 Willis 環前部發出的小穿通枝，供應基底節；分 **medial（自 A1/ACA）** 與 **lateral（自 M1/近端 MCA）** 兩群。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # pelvic-congestion-syndrome
 
-**PCS＝卵巢/骨盆靜脈曲張致慢性骨盆疼痛;US 關鍵是『逆向（caudal/retrograde）』卵巢靜脈血流。** 判讀分水嶺：**擴張卵巢靜脈 >4 mm、子宮肌層擴張迂曲弓狀靜脈與雙側骨盆曲張靜脈相通、慢血流（<3 cm/s）且『逆向 caudal/retrograde』（尤其左卵巢靜脈）**；T1WI 曲張靜脈呈 flow void；>50% 合併囊性卵巢。
+**PCS 的影像核心是卵巢靜脈「逆向（caudal/retrograde）」血流加上迂曲擴張（>4 mm）、慢速（<3 cm/s）——「cranial 方向」是考試陷阱。** 記憶鉤：正常卵巢靜脈血往上走（cranial），PCS 逆流往下（caudal），方向顛倒才是病態。判讀分水嶺：**US 見 caudal/retrograde 慢血流、卵巢靜脈 >4 mm、子宮肌層弓狀靜脈擴張、>50% 合併囊性卵巢**；T1WI varices 呈 flow void。
 
 ## Summary
 - **影像**：子宮/卵巢旁擴張、迂曲、強化的管狀結構；T1WI varices 呈 flow void。[^1]

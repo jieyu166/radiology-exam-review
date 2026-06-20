@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # pca-branches
 
-**後大腦動脈（PCA）分支：thalamogeniculate、peduncular perforator、posterior choroidal（medial/lateral）、splenial（perisplenial / posterior pericallosal）、calcarine、lateral occipital 等。『marginal tentorial artery（Bernasconi-Cassinari）』來自 ICA 的 meningohypophyseal trunk,『不』屬 PCA 分支。** 判讀分水嶺一：**thalamogeniculate / posterior choroidal / splenial＝PCA 分支**;判讀分水嶺二：**tentorial（Bernasconi）＝ICA meningohypophyseal trunk,非 PCA**。
+**PCA 分支包含 thalamogeniculate、posterior choroidal（medial/lateral）、splenial、calcarine 等；考試陷阱是 marginal tentorial artery（Bernasconi-Cassinari）——它來自 ICA meningohypophyseal trunk，不屬 PCA。** 記憶鉤：Bernasconi 走小腦幕，血供來自 ICA 腦膜支，與 PCA 的枕葉走廊方向不同。判讀分水嶺一：**splenial / thalamogeniculate / lateral posterior choroidal ＝ PCA 分支**；判讀分水嶺二：**Bernasconi-Cassinari（tentorial）＝ ICA meningohypophyseal trunk，非 PCA**。
 
 ## Summary
 - **PCA 分支**：thalamogeniculate(A)、posterior choroidal（medial 與 **lateral posterior choroidal**,D）、**splenial / perisplenial**(C)、peduncular perforator、calcarine、lateral occipital。[^1]

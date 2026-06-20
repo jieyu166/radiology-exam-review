@@ -10,7 +10,7 @@ dateRev: 2026-06-17
 
 # masticator-space
 
-**咀嚼肌間隙（masticator space）由深頸筋膜淺層包覆,內容物＝咀嚼肌（temporalis、masseter、medial+lateral pterygoid）、下頷骨枝/體後部、三叉神經下頷分支（V3）及下齒槽神經血管。『翼板（pterygoid plate）』是蝶骨的骨性結構/邊界,『不』屬其內容物。** 判讀分水嶺一：**內容＝咀嚼肌＋下頷枝＋V3**;判讀分水嶺二：**pterygoid plate＝骨性邊界,非內容物**。
+**咀嚼肌間隙的內容「肌肉、骨、神經」三類都在裡面——四條咀嚼肌、下頷骨枝、V3；翼板（pterygoid plate）是間隙的骨性內側壁，是邊界而非內容，恰好是考題的陷阱選項。** 判讀分水嶺一：**內容＝咀嚼肌（temporalis、masseter、medial+lateral pterygoid）＋下頷骨枝＋V3**；判讀分水嶺二：**pterygoid plate 是蝶骨骨性邊界，不算間隙內容物**。
 
 ## Summary
 - **內容物**：[^1]

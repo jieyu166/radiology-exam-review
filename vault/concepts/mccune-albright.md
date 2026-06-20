@@ -12,7 +12,7 @@ same:
 
 # mccune-albright
 
-**McCune-Albright 三聯＝① polyostotic fibrous dysplasia ② café-au-lait spots（"coast of Maine" 不規則邊界）③ 內分泌異常（性早熟 precocious puberty 最典型）；以『女性為主』（性早熟多見於女孩、可有陰道出血）——故『男性為主』不是其特徵。** 判讀分水嶺一：**多骨性纖維異常增生＋海岸線狀咖啡牛奶斑**；判讀分水嶺二：**性早熟、女性偏多**（GNAS 體細胞突變）。
+**McCune-Albright 三聯靠一個鉤記牢：「骨（多骨性 FD）、皮（coast-of-Maine 咖啡牛奶斑）、荷爾蒙（性早熟）」，其中性早熟以女孩為主——「男性為主」恰好是考題的假選項。** 判讀分水嶺一：**café-au-lait 邊界不規則（coast of Maine）**，與神經纖維瘤病（光滑邊界）不同；判讀分水嶺二：**性早熟＝最典型內分泌異常、女性偏多**（GNAS 鑲嵌突變）。
 
 ## Summary
 - **多骨性纖維異常增生（polyostotic fibrous dysplasia）**：常單側分布。[^1]

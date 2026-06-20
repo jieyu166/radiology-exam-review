@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # musculoskeletal-amyloidosis
 
-**類澱粉關節病變（amyloid arthropathy，常為透析相關 β2-microglobulin）：amyloid 沉積在 T1WI 與 T2WI 皆呈低訊號、滑膜增厚＋骨侵蝕（bony erosion）、關節間隙保留至晚期、肩部對稱沉積＝shoulder pad sign。『經常合併鈣化』並非其特徵。** 判讀分水嶺一：**T1/T2 皆低訊號（纖維性 amyloid）**；判讀分水嶺二：**不以鈣化為特徵**（與痛風 tophi/CPPD 不同）。
+**透析相關 amyloid 關節病變：amyloid（β2-microglobulin）沉積呈 T1/T2 皆低訊號（類比：纖維性緻密物「黑到底」）、滑膜增厚＋骨侵蝕、關節間隙保留至晚期，肩部對稱堆積成「shoulder pad sign」。** 判讀分水嶺一：**T1/T2 皆低訊號（纖維性 amyloid）**；判讀分水嶺二：**不以鈣化為特徵**（痛風 tophi/CPPD 才鈣化，amyloid 不是）——此為最常考的「為非」選項。
 
 ## Summary
 - **訊號**：amyloid 沉積 **T1WI 低訊號、T2WI 多為低至中等訊號**（皆偏低）；故 option A（T1&T2 皆低）正確。[^1]

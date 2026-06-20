@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # mammography-positioning
 
-**判定 MLO／CC 投照是否足夠,靠『pectoralis、PNL、IMF、nipple』四指標。** 判讀分水嶺一：**MLO 足夠＝胸大肌呈 convex、延伸『至或低於』posterior nipple line（PNL）、inframammary fold（IMF）打開、nipple 在 profile**;判讀分水嶺二：**CC 足夠＝PNL 長度在 MLO PNL 的 1 cm 內、nipple 置中、後方含脂肪**。
+**乳攝投照品質的核心在「後方組織有沒有納進去」，MLO 的胸大肌是這個問題的可見代理指標：肌肉夠放鬆（convex）且延伸至 PNL 以下，才表示後乳已納入。** 判讀分水嶺一：**MLO 足夠＝胸大肌 convex 且延伸『至或低於』PNL、IMF 打開**；「convex 但未達 PNL」仍屬不足；判讀分水嶺二：**CC 足夠＝PNL 長度在 MLO PNL 的 1 cm 內，確保後方組織對應**。
 
 ## Summary
 - **MLO 充足性**：[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # orbital-subperiosteal-abscess
 
-**眼眶骨膜下膿瘍最常源自鄰近鼻竇炎(尤其篩竇),位於『內側 extraconal space』。** 判讀分水嶺一：**最常見部位＝medial extraconal（沿 lamina papyracea 的篩竇旁）**;判讀分水嶺二：**多繼發於 ethmoid sinusitis 經 lamina papyracea 蔓延（Chandler 分期 III）;CT 見骨膜下積液、眼外肌/眼球移位、可併眶蜂窩炎**。
+**眼眶骨膜下膿瘍最常繼發於篩竇炎，膿液沿最薄的 lamina papyracea 蔓延，積聚於內側 extraconal space，使內直肌與眼球向外移位。** 判讀分水嶺一：**最常見部位＝medial extraconal（篩竇旁、lamina papyracea 內側）**；判讀分水嶺二：**Chandler 分期 III；CT 見骨膜下低密度積液＋周邊強化＋眼球移位**，可進展至視力威脅。記憶鉤：篩竇→紙板（lamina papyracea）→骨膜下→內直肌被推開→眼球外偏。
 
 ## Summary
 - **位置**：**最常見於 medial extraconal space**（沿 lamina papyracea，與篩竇相鄰）。[^1]

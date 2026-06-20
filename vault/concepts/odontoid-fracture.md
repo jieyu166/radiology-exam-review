@@ -14,7 +14,7 @@ same:
 
 # odontoid-fracture
 
-**齒突（dens）骨折 Anderson-D'Alonzo 三型：I 齒突尖撕脫（穩定、罕）;II 齒突『基部』橫向骨折（最常見、不穩定、易 nonunion）;III 延伸入 C2 椎體/側塊（較易癒合）。最常見＝Type II。** 判讀分水嶺一：**Type II＝基部橫骨折＝最常見**;判讀分水嶺二：**Type II 血供差、易 nonunion**。
+**齒突骨折 Anderson-D'Alonzo 分型從上往下記：I 尖（撕脫、穩定、罕見）→ II 基部（最常見、不穩定、血供差易 nonunion）→ III 延入 C2 椎體（較易癒合）。** 判讀分水嶺一：**Type II 骨折線位於齒突「基部」橫切，是最常見且臨床最重要的型態**；判讀分水嶺二：**Type II 血供差（基部為分水嶺區）→ nonunion 風險高，常需手術固定**。記憶鉤：骨折線越低越穩定——II 在腰（基部）最危險，III 進椎體反而癒合較好。
 
 ## Summary
 - **Anderson-D'Alonzo 分型**（依骨折線高度）：[^1]

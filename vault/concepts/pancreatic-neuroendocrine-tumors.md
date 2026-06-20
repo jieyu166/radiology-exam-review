@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # pancreatic-neuroendocrine-tumors
 
-**胰臟 NET（islet cell tumor）靠『功能性 vs 非功能性』與『症候群 vs 非症候群』分流。** 判讀分水嶺一：**功能性中 insulinoma 最常見（Whipple triad）;gastrinoma 次之（ZES、60–80% 惡性）;non-functioning 常較大、晚發現**;判讀分水嶺二：**syndromic（MEN1/VHL）多『小而多發、早發現』;nonsyndromic（尤其非功能性）較大、較易壞死/囊變/鈣化**。
+**胰臟 NET 的核心分流是「功能性 vs 非功能性」：insulinoma 最常見（Whipple triad）、gastrinoma 次之（ZES、60–80% 惡性）；非功能性腫瘤晚發現、體積大。** 記憶鉤：syndromic（MEN1）＝小而多、早；nonsyndromic＝大而少、晚且易囊變壞死——兩者「誰較易壞死」是逆向陷阱。判讀分水嶺一：**功能性首位為 insulinoma，非 gastrinoma**；判讀分水嶺二：**nonsyndromic（非 syndromic）較易囊變/壞死**。
 
 ## Summary
 - **功能性 NET**：[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # pcos-mri
 
-**PCOS 的卵巢影像招牌＝『周邊』排列的多發小濾泡（string of pearls）＋中央高回音/T2 低訊號 stroma，卵巢增大、多為雙側——濾泡在『中央』不是它的典型。** 判讀分水嶺一：**濾泡周邊環狀（necklace），非中央**；判讀分水嶺二：**中央 stroma 增多**（高回音/低 T2）。
+**PCOS 的影像招牌是濾泡「周邊」環狀排列（string of pearls/necklace sign）加上中央高回音 stroma——「濾泡位於中央」是常見陷阱。** 記憶鉤：珍珠串掛在卵巢外圍，中間留給增生的 stroma 佔位。判讀分水嶺一：**濾泡周邊排列（非中央）、大小相近 2–9 mm**；判讀分水嶺二：**中央 stroma 增多（超音波高回音、T2 偏低），卵巢增大、多雙側**。
 
 ## Summary
 - **濾泡分布**：**周邊（peripheral）環狀排列**——「**string of pearls / necklace sign**」；濾泡大小相近（約 2–9 mm）。[^1]（故「中央濾泡」**非典型**）

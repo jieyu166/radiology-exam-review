@@ -19,7 +19,7 @@ same:
 
 # ntm
 
-**非結核分枝桿菌（NTM）肺病以 MAC（M. avium-intracellulare，~60%）最常見;兩大經典型態：①『上肺纖維空洞型（fibrocavitary）』——老年男性吸菸/COPD/酗酒,像 TB;②『結節支氣管擴張型（nodular bronchiectatic，Lady Windermere）』——老年瘦高白人女性、抑制咳嗽,右中葉/舌葉支氣管擴張＋tree-in-bud。變異型＝hot tub lung（對 MAC 的過敏性肉芽腫肺炎）。** 判讀分水嶺一：**RML/lingula 支氣管擴張＋centrilobular/tree-in-bud＝Lady Windermere**;判讀分水嶺二：**菌落定植常見→isolation 非診斷,需臨床＋影像＋微生物三者吻合**。
+**NTM 肺病以 MAC（~60%）為主，兩大型態對應兩類宿主：上肺空洞型像 TB（老年男/COPD/吸菸），結節支氣管擴張型像 Lady Windermere（老年瘦高女、抑制咳嗽、RML/舌葉受累＋tree-in-bud）；單純培養陽性不能確診。** 判讀分水嶺一：**RML/lingula 支氣管擴張＋centrilobular nodule/tree-in-bud＝Lady Windermere 型**；判讀分水嶺二：**培養陽性僅代表定植，須臨床＋影像＋微生物三者吻合（ATS/IDSA）才算致病**；熱水浴缸肺（hot tub lung）為 MAC 過敏性肉芽腫肺炎。記憶鉤：Lady Windermere「不咳→菌積右中葉＋舌葉」，fibrocavitary「菸酒男→上肺空洞像 TB」。
 
 ## Summary
 - **菌種**：>150 種,**MAC（MAI）最常見（~60%）**;其他 M. abscessus、kansasii、chelonae、chimaera。[^1]

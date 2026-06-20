@@ -18,7 +18,7 @@ same:
 
 # organizing-pneumonia
 
-**OP＝以『周邊/支氣管中心 consolidation』為主、類固醇反應佳的肺病;reversed halo（atoll）sign 為特徵。** 判讀分水嶺一：**周邊或 bronchocentric consolidation ＋ GGO ＋ air bronchogram ＋ perilobular opacities ＋ reversed halo（atoll）sign ＋ 可移行(migratory)**;判讀分水嶺二：**多數（尤其 cryptogenic COP）對類固醇反應佳;但『fibrosing OP（fOP）』為不易消退的纖維化變異,常與 CTD（polymyositis/antisynthetase）相關、與 fibrotic NSIP overlap**。
+**OP 是「周邊/支氣管中心 consolidation＋atoll（reversed halo）sign＋移行性＋類固醇反應佳」的肺病，COP 多可逆，但合併 CTD（polymyositis/antisynthetase）的 fibrosing OP 則不易消退。** 判讀分水嶺一：**周邊或 bronchocentric consolidation＋GGO＋air bronchogram＋perilobular opacities＋atoll sign＋migratory**；判讀分水嶺二：**COP（cryptogenic）類固醇反應佳；fibrosing OP（fOP）不完全消退、與 fibrotic NSIP 重疊、好發 polymyositis/antisynthetase syndrome**。記憶鉤：atoll sign＝環礁（外圍 consolidation 包住中央 GGO），是 OP 的看圖標誌。
 
 ## Summary
 - **典型影像**：**周邊或 bronchocentric consolidation**;GGO、air bronchogram、**curvilinear perilobular／nodular opacities**、**atoll sign（reversed halo）**、peripheral sparing;病灶常**移行(migratory)**。[^1]

@@ -14,7 +14,7 @@ same:
 
 # mosaic-attenuation
 
-**肺馬賽克衰減三大成因：① 小氣道病（air trapping，呼氣相加重、低密度區為病灶）② 閉塞性血管病（mosaic perfusion，低密度區 oligaemic）③ 浸潤性肺病（GGO 為高密度區）。『慢性血栓栓塞性肺高壓（CTEPH）』因大（節段/葉）肺動脈慢性栓塞,造成『大範圍區域性、符合血管領域』的 mosaic perfusion;小血管型肺高壓（idiopathic PAH、PVOD）則較均勻/瀰漫。** 判讀分水嶺一：**呼氣相加重→小氣道病；血管細小→血管病；GGO→浸潤**;判讀分水嶺二：**CTEPH＝大血管→大範圍territory mosaic（與 small-vessel PH 區別）**。
+**馬賽克衰減的三個成因邏輯各異：小氣道病「低密度是病灶，呼氣加重」；血管病「低密度是血流少，呼氣不加重」；浸潤病「GGO 才是高密度病灶」——三者都有深淺交錯，但機轉完全不同。** 判讀分水嶺一：**呼氣相 HRCT 加重→小氣道病；低密度區血管纖細→血管病（oligaemia）；高密度區為 GGO→浸潤**；判讀分水嶺二：**CTEPH 因大血管栓塞，造成符合血管領域的大範圍 mosaic，與小血管型肺高壓（idiopathic PAH、PVOD）的均勻瀰漫型截然不同**。
 
 ## Summary
 - **三大機轉**：[^1][^2]

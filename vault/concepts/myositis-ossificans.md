@@ -10,7 +10,7 @@ dateRev: 2026-06-19
 
 # myositis-ossificans
 
-**創傷後骨化性肌炎好發『四肢近端、前側肌群』（quadriceps femoris、brachialis）,有『區帶現象（zonal phenomenon）』。** 判讀分水嶺：**好發部位＝proximal/anterior 肢體肌群（股四頭肌、肱肌）**;成熟期有**周邊成熟骨化、中央未成熟**的 zonal pattern,與骨旁骨肉瘤（中央成熟、周邊未成熟，反向）相反。
+**創傷後骨化性肌炎好發四肢近端前側肌群（股四頭肌、肱肌），成熟後呈「外熟內嫩」的 zonal phenomenon，與骨旁骨肉瘤的「外嫩內熟」正好相反。** 判讀分水嶺：**好發部位＝proximal/anterior 肢體肌群（股四頭肌、肱肌）**；成熟期**周邊骨化成熟、中央未成熟**（zonal pattern）；與骨皮質間有透亮帶（cleavage plane），為良性線索。記憶鉤：MO「由外往內熟」＝由外往內讀；骨旁骨肉瘤相反（由中心往外熟）。
 
 ## Summary
 - **好發部位**：兒童與成人創傷後皆好發**四肢（extremities）,尤其近端與前側肌群**;**股四頭肌（quadriceps femoris）與肱肌（brachialis）最常受累**。[^1]
