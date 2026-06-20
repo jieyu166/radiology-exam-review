@@ -35,7 +35,8 @@ def collect_imgs(text):
 
 # ---- 1) 概念檔檢查 ----
 concept_slugs: set[str] = set()
-concept_files = sorted(glob.glob("vault/concepts/*.md"))
+concept_files = [p for p in sorted(glob.glob("vault/concepts/*.md"))
+                 if not os.path.basename(p).startswith("_")]   # 跳過 _MOC/_index 等索引檔
 for p in concept_files:
     name = os.path.basename(p)[:-3]
     t = open(p, encoding="utf-8").read()
