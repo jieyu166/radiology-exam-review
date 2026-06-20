@@ -131,10 +131,14 @@ class Report:
 
 
 class ImageResolver:
-    def __init__(self, vault: Path, target: Path, report: Report) -> None:
+    def __init__(self, vault: Path, target: Path, report: Report, r2: bool = False, dry_run: bool = False) -> None:
         self.vault = vault
         self.target = target
         self.report = report
+        self.r2 = r2
+        self.dry_run = dry_run
+        self._r2cfg: tuple[str, str] | None = None
+        self._r2_uploader = None
         self.by_rel: dict[str, Path] = {}
         self.by_name: dict[str, list[Path]] = defaultdict(list)
         self.pending: dict[Path, str] = {}
@@ -200,9 +204,31 @@ class ImageResolver:
         })
         return None
 
+    def _r2_upload(self, source_path: Path) -> str:
+        if self._r2_uploader is None:
+            import os
+            here = os.path.dirname(os.path.abspath(__file__))
+            if here not in sys.path:
+                sys.path.insert(0, here)
+            from r2_upload import load_cfg, upload  # reuse the tested uploader (UA + key from img-hosting .env)
+            self._r2cfg = load_cfg()
+            self._r2_uploader = upload
+        url, api = self._r2cfg
+        return self._r2_uploader(str(source_path), url, api)["link"]
+
     def register_copy(self, source_path: Path) -> str:
         if source_path in self.pending:
             return self.pending[source_path]
+
+        if self.r2 and not self.dry_run:
+            link = self._r2_upload(source_path)
+            self.pending[source_path] = link
+            self.report.copied_images.append({
+                "source": source_path.relative_to(self.vault).as_posix(),
+                "target": link,
+                "r2": True,
+            })
+            return link
 
         rel = source_path.relative_to(self.vault).as_posix()
         digest = hashlib.sha1(rel.encode("utf-8")).hexdigest()[:8]
@@ -223,6 +249,8 @@ class ImageResolver:
         return web_path
 
     def copy_registered(self) -> None:
+        if self.r2:
+            return  # images already uploaded to R2 during register_copy; nothing to copy locally
         out_dir = self.target / "data" / "images" / "obsidian"
         out_dir.mkdir(parents=True, exist_ok=True)
         for source_path, web_path in sorted(self.pending.items(), key=lambda item: item[1]):
@@ -264,6 +292,7 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
         help="How to handle existing target question ids",
     )
     parser.add_argument("--dry-run", action="store_true", help="Parse and report without writing JSON")
+    parser.add_argument("--r2", action="store_true", help="Upload embedded images to the R2 image host (scripts/r2_upload.py) instead of copying into data/images/; embeds become R2 URLs")
     parser.add_argument("--report", type=Path, help="Optional report JSON output path")
     return parser.parse_args(argv)
 
@@ -691,7 +720,7 @@ def main(argv: list[str] | None = None) -> int:
 
     source_hashes = {path: file_hash(path) for path in iter_markdown_files(vault)}
     report = Report()
-    resolver = ImageResolver(vault, target, report)
+    resolver = ImageResolver(vault, target, report, r2=args.r2, dry_run=args.dry_run)
     parsed = scan_vault(vault, report, resolver)
     report.pending_image_copies = [
         {"source": source.relative_to(vault).as_posix(), "target": web_path}
