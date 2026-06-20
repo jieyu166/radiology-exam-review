@@ -31,7 +31,7 @@ same:
 > **NSIP＝subpleural sparing、GGO 為主、均質、honeycombing 少**;**UIP/IPF＝subpleural predominant、honeycombing、heterogeneous**（見 [[ipf]]）。「下肺纖維化＋subpleural sparing」想 NSIP。[^1][^2]
 
 ### 參考來源
-[^1]: *Non-specific interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Relative subpleural sparing is a useful distinguishing feature**」;groups II/III 併為 **fibrotic NSIP**;GGO 可代表 cellular NSIP 或細纖維化;下肺分布、下葉收縮。
+[^1]: *Non-specific interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Relative subpleural sparing is a useful distinguishing feature**」;groups II/III 併為 **fibrotic NSIP**;GGO 可代表 cellular NSIP 或細纖維化;下肺分布、下葉收縮。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: ATS/ERS idiopathic interstitial pneumonia 分類（2013）＋ *Non-specific interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：NSIP 為最常見的 CTD-ILD 影像型態;fibrotic NSIP 介於 cellular NSIP 與 UIP 之間;纖維化進展以牽引性支氣管擴張為指標。
 
 ## 題目

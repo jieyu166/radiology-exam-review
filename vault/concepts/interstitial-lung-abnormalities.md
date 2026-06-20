@@ -28,7 +28,7 @@ same:
 > ILA＝偶見、雙側、non-dependent、**≥5% 肺區**、未疑 ILD;**subpleural fibrotic 型預後/進展風險最高**;見 honeycombing/traction bronchiectasis 要報告並轉介。[^1][^2]
 
 ### 參考來源
-[^1]: *Interstitial lung abnormality*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**incidental, bilateral, non-dependent** CT abnormalities involving **at least 5% of a lung zone** in patients **not suspected of having ILD**」;三型分類「subpleural fibrotic: increased mortality and risk of progression; classify per UIP diagnostic criteria」。
+[^1]: *Interstitial lung abnormality*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**incidental, bilateral, non-dependent** CT abnormalities involving **at least 5% of a lung zone** in patients **not suspected of having ILD**」;三型分類「subpleural fibrotic: increased mortality and risk of progression; classify per UIP diagnostic criteria」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: Fleischner Society ILA 立場聲明（Hatabu et al. Lancet Respir Med 2020）＋ 2022 ILA 共識：見 honeycombing/traction bronchiectasis 為 potentially progressive、應 HRCT/PFT 評估;centrilobular GGO 已移出 ILA 範疇。
 
 ## 題目

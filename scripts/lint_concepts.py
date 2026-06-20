@@ -27,7 +27,7 @@ FM_CONCEPTS = re.compile(r"(?m)^concepts:\s*\[([^\]]+)\]")
 DV_SLUG = re.compile(r'contains\(concepts,\s*"([^"]+)"\)')
 INTERNAL_NOTE = re.compile(r"院內筆記|整理自.{0,8}筆記|演講筆記")
 # 一手來源標記：同一條 footnote 若含這些,代表演講/院內筆記僅為 provenance、已附可查證一手來源
-STRONG_REF = re.compile(r"radiopaedia|radiographic|rsna|doi:|ajnr|ajr|statdx|clinicalkey|pubmed|neurolog|lancet|ann neurol|stroke|front oncol|radiology|10\.\d{4}|NBK|實際查證|已查核|查證 accessed", re.I)
+STRONG_REF = re.compile(r"radiopaedia|radiographic|rsna|doi:|ajnr|ajr|statdx|clinicalkey|pubmed|neurolog|lancet|ann neurol|ann intern|am j|chest\.|stroke|front oncol|radiology|10\.\d{4}|NBK|et al\.|guideline|實際查證|已查核|查證 accessed", re.I)
 
 # ---- 收集所有「實際被引用的圖」----
 referenced_imgs: set[str] = set()

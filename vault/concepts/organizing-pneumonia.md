@@ -30,7 +30,7 @@ same:
 > OP 核心＝**周邊/支氣管中心 consolidation ＋ atoll(reversed halo) sign ＋ 移行性 ＋ 類固醇反應佳**;**fOP（fibrosing OP）較不可逆、常見於 CTD（PM/antisynthetase）**。[^1][^2]
 
 ### 參考來源
-[^1]: *Organizing pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「peripheral or **bronchocentric consolidation** ... ground glass opacity, air bronchogram, curvilinear **perilobular** ... **atoll sign**, peripheral sparing」;「Most (especially cryptogenic forms) **respond very well to corticosteroid**」。
+[^1]: *Organizing pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「peripheral or **bronchocentric consolidation** ... ground glass opacity, air bronchogram, curvilinear **perilobular** ... **atoll sign**, peripheral sparing」;「Most (especially cryptogenic forms) **respond very well to corticosteroid**」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: *Am J Respir Crit Care Med*. 2013;188(6):733-748（fibrosing OP）：部分 OP 不完全消退者與 fibrotic NSIP overlap（histologic OP/NSIP overlap 68% 預後較差）＝**fibrosing OP**,好發 polymyositis/antisynthetase syndrome、屬 CTD-ILD,治療以 steroid 為主。
 
 ## 題目

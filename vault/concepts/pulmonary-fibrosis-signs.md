@@ -21,15 +21,15 @@ same:
 ## Summary
 - **纖維化四要素**：reticulation、**honeycombing**、**traction bronchiectasis**、**volume loss**。[^1]
 - **Honeycombing**：**subpleural 相鄰小囊（3–25 mm、多 <5 mm），成排/堆疊、共用壁、壁厚 1–3 mm**;基底下肺為主;**單層(single-layer)即足以判定**;代表 established fibrosis、結構破壞。[^2]
-- **Traction bronchiectasis（牽引性支氣管擴張）**：纖維化牽拉致支氣管/細支氣管擴張;**分級 grade 1 周邊／2 已到中央／3 周邊＋中央**;為**早期**指標,其**時間變化與 mortality 相關**（在 FVC 下降較少者更明顯）;部分可 reverse（bronchiodilation）。[^1]
+- **Traction bronchiectasis（牽引性支氣管擴張）**：纖維化牽拉致支氣管/細支氣管擴張（Radiopaedia：一般**不可逆**）;**嚴重度獨立預測 mortality、判讀者間一致度高於 honeycombing**（Walsh 2013 Thorax）,為較早期且預後敏感之指標。〔演講另述 grade 1 周邊／2 中央／3 兩者之分級——標準文獻未統一,見 [^1] 註〕[^1]
 - **Volume loss（肺容積減少）**：可由 FVC、或量 retrosternal aorta-sternum 距離、major fissure 後移等 inner-structure 關係評估。[^1]
-- **Gatlin gun sign**：一個平面上像 honeycombing,但**換不同平面看才知是『支氣管擴張』而非蜂巢肺** → 提醒多平面判讀避免誤判。[^1]
+- **Gatlin gun sign**（演講術語,標準文獻/Radiopaedia 未收錄此 eponym）：一個平面上像 honeycombing,但**換不同平面看才知是『支氣管擴張』而非蜂巢肺**——此『多平面區分 honeycombing vs traction bronchiectasis』之**原則為標準作法**（eponym 本身待補出處）。[^1]
 
 > [!note] 考點
 > 纖維化四要素＝reticulation/honeycombing/traction bronchiectasis/volume loss;**honeycombing＝subpleural 簇狀囊、單層即可、晚期**;**traction bronchiectasis＝早期、與預後相關**;**Gatlin gun sign 提醒多平面區分支氣管擴張 vs honeycombing**。[^1][^2]
 
 ### 參考來源
-[^1]: 肺纖維化 HRCT 徵象（牽引性支氣管擴張分級與預後、volume loss 量測、Gatlin gun 多平面判讀）：ILD 影像評估文獻（與 [[ipf]] UIP criteria 配合）。
+[^1]: HRCT 纖維化徵象一手來源（據 PubMed／Radiopaedia,實際查證 accessed 2026-06-20）：Devaraj A. *Imaging: How to Recognise Idiopathic Pulmonary Fibrosis*. Eur Respir Rev. 2014;23(132):215-219. doi:10.1183/09059180.00001514（HRCT 纖維化徵象、honeycombing 與 traction bronchiectasis 之鑑別、traction bronchiectasis 為預後預測）;Walsh SLF, et al. *Connective Tissue Disease Related Fibrotic Lung Disease: HRCT and PFT Prognostic Determinants*. Thorax. 2013;69(3):216-222. doi:10.1136/thoraxjnl-2013-203843（**traction bronchiectasis 嚴重度獨立預測 mortality、判讀者間一致度高於 honeycombing**）;*Traction bronchiectasis*. Radiopaedia.org（纖維化區內之支氣管/細支氣管擴張,一般視為**不可逆**）。**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23;其『grade 1/2/3 周邊→中央分級』與『**Gatlin gun sign**』eponym 於 Radiopaedia/標準文獻查無對應（Gatlin gun 為演講術語、待補一手出處）。
 [^2]: *Honeycombing (lungs)*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「small adjacent **subpleural cystic** structures ... clustered in a row or stacked and with **shared walls** ... walls ... 1-3 mm ... basal lower lobes」;「a **single layer** of cysts is now considered sufficient」。
 
 ## 題目

@@ -47,7 +47,7 @@ concepts: [ipf]
 | **LAM** | 瀰漫均勻 | 薄壁圓形囊 | 育齡女性（見 [[lam]]）|
 
 ### 參考來源
-[^1]: *Idiopathic Pulmonary Fibrosis*. STATdx（Chest/Thoracic, Dx），updated 2021-10-15. Elsevier（實際查證 accessed 2026-06-14）。
+[^1]: *Idiopathic Pulmonary Fibrosis*. STATdx（Chest/Thoracic, Dx），updated 2021-10-15. Elsevier（實際查證 accessed 2026-06-14）。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；IPF 屬「與菸草強烈關聯」之第二組，非純吸菸相關）。
 [^3]: UIP/IPF 診斷指引（ATS/ERS/JRS/ALAT 2018 IPF guideline；2022 update）＋*Usual interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：2018 四分類（Typical/Probable/Indeterminate/Alternative）取代 2013「inconsistent」;2022 Probable UIP 可免切片診斷 IPF;CT Typical/Probable 約 80–81% 病理為 UIP、Indeterminate/Alternative 仍約 42% 為 UIP。
 

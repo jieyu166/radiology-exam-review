@@ -32,7 +32,7 @@ same:
 > **約 1/3 非 IPF ILD 會進展（PF-ILD）**;**2022 PPF＝1 年內 ≥2/3（症狀／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）**;進展看牽引性支氣管擴張優於 honeycombing。[^1][^2]
 
 ### 參考來源
-[^1]: Raghu G et al. *Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis (PPF) — ATS/ERS/JRS/ALAT Clinical Practice Guideline*. Am J Respir Crit Care Med 2022;205(9):e18-e47：PPF＝非 IPF 纖維化 ILD,過去一年 ≥2/3（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）;非 IPF ILD 約 1/3 進展。
+[^1]: Raghu G et al. *Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis (PPF) — ATS/ERS/JRS/ALAT Clinical Practice Guideline*. Am J Respir Crit Care Med 2022;205(9):e18-e47：PPF＝非 IPF 纖維化 ILD,過去一年 ≥2/3（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）;非 IPF ILD 約 1/3 進展。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: 纖維化進展影像 marker（牽引性支氣管擴張變化早於 honeycombing、與 mortality 相關）：ILD 進展評估文獻（與 [[ipf]] UIP criteria 配合判讀）。
 
 ## 題目

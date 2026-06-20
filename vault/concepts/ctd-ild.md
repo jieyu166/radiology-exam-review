@@ -29,7 +29,7 @@ same:
 > CTD-ILD **最常見 NSIP 型**;**年輕（<55）出現 UIP 樣纖維化先想 CTD（非 IPF）**;antisynthetase/polymyositis 常見 NSIP/OP overlap（fOP）;**IPAF＝有自體免疫特徵但未達 CTD 確診**。[^1]
 
 ### 參考來源
-[^1]: *Connective tissue disorders (pulmonary manifestations)*／*Interstitial pneumonia with autoimmune features*. Radiopaedia.org（實際查證 accessed 2026-06-19）＋ ATS/ERS IPAF 研究聲明（2015）：CTD-ILD 最常見 NSIP;CTD-UIP 有別於 IPF 之徵象;IPAF＝自體免疫特徵未達 CTD 確診。
+[^1]: *Connective tissue disorders (pulmonary manifestations)*／*Interstitial pneumonia with autoimmune features*. Radiopaedia.org（實際查證 accessed 2026-06-19）＋ ATS/ERS IPAF 研究聲明（2015）：CTD-ILD 最常見 NSIP;CTD-UIP 有別於 IPF 之徵象;IPAF＝自體免疫特徵未達 CTD 確診。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: *Am J Respir Crit Care Med*. 2013;188(6):733-748：antisynthetase syndrome／polymyositis 常見 OP/NSIP overlap（fibrosing OP）。
 
 ## 題目
