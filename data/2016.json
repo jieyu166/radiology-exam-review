@@ -5434,9 +5434,13 @@
         2016
       ],
       "subspecialty": "Physics",
-      "subspecialty_confidence": "auto",
-      "questionText": "What is the threshold for permanent sterility in males from an acute exposure, approximately? • (A) 1 Gy",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the threshold for permanent sterility in males from an acute exposure, approximately?",
       "options": [
+        {
+          "letter": "A",
+          "text": "1 Gy"
+        },
         {
           "letter": "B",
           "text": "10 Gy"
@@ -5451,13 +5455,13 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "Radiopaedia: deterministic effects（實際查證 2026-06-17）",
-      "explanation": "正解 **D（6 Gy）**。男性單次急性照射**永久不孕閾值 ~4–6 Gy**。\n- A 1 Gy、C 0.1 Gy 過低（0.1 Gy 約暫時不孕）；B 10 Gy 偏高。\n- **D 6 Gy** 符合永久不孕閾值。\n\n→ [[radiation-deterministic-effects]]",
+      "reference": "閾值來源(males, acute single exposure)。【已查證·免費】Radiopaedia: Deterministic effects(accessed 2026-06-20);introductiontoradiology.net 放射生物學(accessed 2026-06-20)。【權威原文·需訂閱/館藏,供醫師找全文】ICRP Publication 103 (2007) 及 ICRP 118 (2012, Tissue Reactions)——暫時不孕 0.15 Gy、永久不孕 3.5–6.0 Gy(icrp.org,摘要免費);Bushberg JT et al. The Essential Physics of Medical Imaging, 2nd ed (2002), p.831(本題原附);De Felice F et al. Radiation effects on male fertility. Andrology 2019;7(1):2-7, DOI 10.1111/andr.12562(Wiley,未讀全文)。概念彙整 [[radiation-deterministic-effects]]。",
+      "explanation": "**男性永久不孕(permanent sterility)的單次急性閾值約 3.5–6 Gy,取 6 Gy → (D)。** 性腺確定性效應由低到高：暫時不孕 ~0.15 Gy ＜ 永久不孕 ~3.5–6 Gy。\n- (A) 1 Gy：低於永久不孕閾值,僅致精子數下降/暫時性不孕,非永久。\n- (B) 10 Gy：高於閾值雖確會永久不孕,但題問「閾值」(最低致效劑量)約 6 Gy、非 10 Gy。\n- (C) 0.1 Gy：低於暫時不孕閾值(0.15 Gy),僅可偵測精子數短暫下降。\n- (D) 6 Gy(正解)：永久不孕閾值上界——ICRP 列 3.5–6 Gy,教科書/考題取 6 Gy。\n對比其他常考閾值：白內障 ~0.5 Gy、ARS 多數族群 ~1 Gy。",
       "images": [],
       "concepts": [
         "radiation-deterministic-effects"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-149",

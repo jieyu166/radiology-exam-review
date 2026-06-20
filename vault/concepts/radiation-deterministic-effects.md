@@ -8,7 +8,7 @@ aliases:
   - acute radiation syndrome
   - radiation sterility cataract
   - 確定效應
-dateRev: 2026-06-17
+dateRev: 2026-06-20
 same:
   - "[[radiation-dose-reference]]"
 ---
@@ -29,7 +29,9 @@ same:
 
 ### 參考來源
 [^1]: *Acute radiation syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：ARS「usually over 0.5 Gy」全身/部分照射;**hematopoietic 1–8 Gy**、gastrointestinal 5–20 Gy。
-[^2]: *Deterministic effects*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「**sterility: 4–6 Gy（male）**、4–20 Gy（female）;**cataracts: 0.5 Gy**」。
+[^2]: 性腺/晶體確定性效應閾值（males, acute single exposure）。
+    **已實際查證（免費來源）**：① *Deterministic effects*, Radiopaedia.org（accessed 2026-06-20）「sterility 4–6 Gy male、4–20 Gy female;cataracts 0.5 Gy」;② introductiontoradiology.net 放射生物學 deterministic effects（accessed 2026-06-20）「暫時不孕 0.15 Gy、永久不孕 >6 Gy、女性 4–6 Gy」。
+    **權威原始來源（全文需訂閱／館藏,供醫師查證原文）**：ICRP Publication 103 (2007 Recommendations) 及 ICRP Publication 118 (2012, *Statement on Tissue Reactions*)——暫時不孕 **0.15 Gy**、永久不孕 **3.5–6.0 Gy**（icrp.org,摘要免費、全文需購買）;Bushberg JT et al. *The Essential Physics of Medical Imaging*, 2nd ed (2002), p.831（教科書,需館藏）;De Felice F et al. *Radiation effects on male fertility*. Andrology 2019;7(1):2-7, DOI 10.1111/andr.12562（Wiley,全文需訂閱、未讀全文）。
 
 ## 題目
 > [!question]- 急性放射症候群在多數族群約於何劑量以上出現?
