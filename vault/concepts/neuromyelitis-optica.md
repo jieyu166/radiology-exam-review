@@ -38,7 +38,7 @@ dateRev: 2026-06-20
 - **⚠ 治療**：MS 用的免疫調節藥（如干擾素）**可能惡化 NMO** → 這是兩者鑑別的臨床關鍵。
 
 ### MOGAD [^3]
-- 抗 **MOG** 抗體相關（NMO 樣表現中約 10%）;為與 AQP4-NMOSD、MS 不同的**獨立疾病**;影像可較模糊（棉絮樣）、ON 常雙側/長段。
+- 抗 **MOG** 抗體相關;為與 AQP4-NMOSD、MS 不同的**獨立疾病**（於血清陰性/NMO 樣病例中佔一部分,文獻常引約 10%）;影像可較模糊（棉絮樣）、ON 常雙側/長段。
 
 > [!note] 時效：NMOSD 命名（IPND 2025）
 > Radiopaedia 載 **IPND 2025 改版**建議將「disorder」改為「**disease**」（依抗 AQP4 抗體）;診斷主幹仍以 2015 IPND（AQP4 分層）為據。[^2]
@@ -49,7 +49,7 @@ dateRev: 2026-06-20
 ### 參考來源
 [^1]: Osborn's Brain Ch 15（官方 2017 詳解所引）：NMO 腦病灶亞洲 60–80%／歐洲 25–40%,鏡像 aquaporin-4 分布（室周、導水管周、下視丘/視丘、dorsal pons/medulla、胼胝體）;MS Dawson finger／open-ring 強化。
 [^2]: 據 PubMed——Wingerchuk DM, Banwell B, Bennett JL, et al. *International Consensus Diagnostic Criteria for Neuromyelitis Optica Spectrum Disorders*. Neurology. 2015;85(2):177-189. doi:10.1212/WNL.0000000000001729（PMC4515040,開放取用;NMOSD 依 AQP4-IgG 分層、6 大核心臨床特徵、seronegative 之 MRI 要件）。另 *Neuromyelitis optica spectrum disorder*. Radiopaedia.org（實際查證 accessed 2026-06-20）：AQP4 三聯（雙側 ON＋LETM＋AQP4(+)）、LETM ≥3 椎節常伴脊髓腫脹、核心症候群、**IPND 2025 改名 disorder→disease**。
-[^3]: MOGAD（anti-MOG 抗體相關疾病）為獨立疾病、於 NMO 樣病例中約 10%;影像較模糊、ON 常雙側長段。出處：演講筆記所引 *MOGAD: A Review of Clinical and MRI Features, Diagnosis, and Management*;Radiopaedia NMOSD 條目亦提及 MOG 抗體之異質性（accessed 2026-06-20）。
+[^3]: MOGAD（anti-MOG 抗體相關疾病）為與 AQP4-NMOSD、MS 不同之**獨立疾病**,於血清陰性/NMO 樣病例中佔一部分（文獻常引約 10%）;影像可較模糊、ON 常雙側長段。出處：*Neuromyelitis optica spectrum disorder*. Radiopaedia.org（提及 MOG 抗體異質性,accessed 2026-06-20）;延伸文獻 *MOGAD: A Review of Clinical and MRI Features, Diagnosis, and Management*（未取全文,供醫師延伸查閱）。
 
 ## 題目
 > [!question]- 關於脫髓鞘疾病,何者「不正確」? (2017-101)

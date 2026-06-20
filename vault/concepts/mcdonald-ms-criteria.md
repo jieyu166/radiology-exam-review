@@ -37,7 +37,7 @@ dateRev: 2026-06-20
 
 ### 參考來源
 [^1]: *McDonald diagnostic criteria for multiple sclerosis*. Radiopaedia.org（實際查證 accessed 2026-06-20）：**2010/2017** DIS＝periventricular、cortical/juxtacortical、infratentorial、spinal cord（≥2 部位各 ≥1 T2 病灶）、**視神經不屬 DIS**;**2024 改版新增 optic nerve 為第 5 個 DIS 部位（if no better explanation）**;DIT＝同時強化＋非強化病灶或追蹤新病灶。原始：Polman CH, et al.（2010 版,2011 發表）;Thompson AJ, et al. Lancet Neurol 2018（2017 版）。
-[^2]: MS 診斷準則演進（整合自演講筆記「Evolution of MS, NMO diagnostic criteria」林宙晴 YouTube 講座,並對照標準文獻）：Charcot 1868 triad、Schumacher 1965（DIS/DIT 概念）、Poser 1983、McDonald WI et al. 2001（Ann Neurol）、Polman 2010/2011、Thompson 2017/2018、2024 改版。各版核心皆為 DIS＋DIT;此演進屬教科書級史實,演講筆記之具體年代與改動已與上述標準文獻對照一致。
+[^2]: MS 診斷準則演進（教科書級史實,對照標準一手文獻）：Charcot 1868 triad;Schumacher 1965（提出 DIS/DIT）;Poser CM et al. 1983;McDonald WI et al. Ann Neurol 2001;Polman CH et al. Ann Neurol 2011（2010 版）;Thompson AJ et al. Lancet Neurol 2018（2017 版）;2024 改版（見 [^1] Radiopaedia）。各版核心皆為 DIS＋DIT。
 
 ## 題目
 > [!question]- 2010 McDonald MS 準則,DIS「不」包含哪個部位?
