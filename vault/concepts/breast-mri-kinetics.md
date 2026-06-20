@@ -16,17 +16,17 @@ dateRev: 2026-06-18
 
 ## Summary
 - **早期相**：峰值強化通常於**注射後 2–3 分鐘**達到。[^1]
-- **延遲期曲線**：[^1]
-  - **Persistent（type 1）**：續升,偏良性。
-  - **Plateau（type 2）**：平台,**良性與惡性皆可見**。
-  - **Washout（type 3）**：峰後**訊號強度下降『>10%』**;**惡性病灶常見**。
+- **延遲期曲線（Kuhl curves）**：[^1]
+  - **Persistent（type 1）**：續升,偏良性,但**~9% 惡性病灶仍可呈此型**（不能單憑此排除惡性）。
+  - **Plateau（type 2）**：初期上升後平台,**concerning for malignancy（良惡皆可見）**。
+  - **Washout（type 3）**：快速上升、峰後**訊號下降**;**strongly suggestive of malignancy**。量化常用門檻＝峰後下降 **>10%**（CAD/定量 DCE 操作型定義;Radiopaedia/BI-RADS 以曲線型態質性描述為主,非硬性 % 門檻）。
 - **MRS**：**choline peak 升高 → 細胞增生指標**(惡性)。[^1]
 
 > [!note] 考點：關於 breast MRI,何者「錯誤」?
 > 「**washout 定義為峰後訊號下降 >20%**」錯誤——應為**>10%**。峰值 2–3 分(對)、washout 惡性常見(對)、plateau 良惡皆可(對)、choline 升高＝增生(對)。[^1]
 
 ### 參考來源
-[^1]: 乳房 MRI 動態判讀標準（ACR BI-RADS Atlas 5th ed. kinetic curve assessment／Kuhl breast MRI）：washout（type 3）定義為峰後訊號**下降 >10%**;persistent/plateau/washout 三型;峰值約 2–3 分;1H-MRS choline 升高為惡性增生指標。
+[^1]: *Breast MRI enhancement curves*（Kuhl curves）. Radiopaedia.org（實際查證 accessed 2026-06-20）：type I persistent（續升、偏良性,**~9% 惡性仍可呈此**）、type II plateau（concerning for malignancy）、type III washout（峰後下降、**strongly suggestive of malignancy**）。延遲期 washout 量化常用門檻為峰後**下降 >10%**（CAD/定量 DCE 之操作型定義;BI-RADS Atlas 與 Radiopaedia 主要以曲線型態質性描述,非硬性 % 門檻）。早期峰值約注射後 2–3 分;1H-MRS choline 升高為細胞增生（惡性）指標。
 
 ## 題目
 > [!question]- 關於 breast MRI,何者「錯誤」? (2017-012)
