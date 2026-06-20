@@ -21,11 +21,14 @@ same:
 
 ## Summary
 - **時間分類**：**急性/立即(<1 小時)、遲發 late(1 小時–1 週)、晚期 very late(>1 週)**;**幾乎所有致命反應在注射後前 20 分鐘**。[^1][^2]
-- **機轉分類**：[^1]
-  - **類過敏(allergic-like/idiosyncratic)**：似其他藥物過敏,**不一定能找到抗原-抗體證據**;~90% 與 basophil/mast cell 釋放 histamine 有關;與劑量/濃度**無關**。蕁麻疹、支氣管痙攣、喉水腫屬之。
-  - **生理性(physiologic/nonidiosyncratic, dose-related)**：心律不整、肺水腫、腎衰竭、血管迷走、噁心嘔吐、發熱;與劑量/滲透壓相關。
+- **機轉分類**：[^1][^3]
+  - **類過敏(allergic-like/idiosyncratic/hypersensitivity)**：似其他藥物過敏,**不一定能找到抗原-抗體證據**;~90% 與 basophil/mast cell 釋放 histamine 有關;與劑量/濃度**無關**。**蕁麻疹、支氣管痙攣、facial oedema、laryngeal oedema、anaphylaxis** 屬之（ESUR 2025 hypersensitivity 分類明列）。
+  - **生理性(physiologic/nonidiosyncratic/chemotoxic, dose-related)**：心律不整、肺水腫、腎衰竭、血管迷走、噁心嘔吐、發熱;與劑量/滲透壓相關。
 - **急性反應風險因子**：**曾有中至重度急性反應、氣喘(尤不穩定)、過度焦慮(Lalli effect)**;**『海鮮/乳類/碘酒過敏』非風險因子**。[^1]
-- **嚴重度**：輕度（噁心/輕吐/局部蕁麻疹）／中度（嚴重吐/廣泛蕁麻疹/支氣管痙攣/喉水腫/血管迷走）／重度（低血壓休克/呼吸或心臟停止/抽搐;支氣管痙攣需合併嚴重缺氧才算重度）。[^1]
+- **ACR 嚴重度分級（每級再分『類過敏／生理性』）**[^1][^3]：
+  - **輕度 Mild（觀察與安撫）**：類過敏＝局部蕁麻疹/搔癢、皮膚水腫、喉嚨癢、鼻塞、噴嚏/結膜炎/流鼻水;生理性＝輕微噁心嘔吐、短暫潮紅/發熱/畏寒、頭痛/頭暈/焦慮/味覺改變、輕度高血壓、**vasovagal（自行緩解）**。
+  - **中度 Moderate（需藥物治療）**：類過敏＝廣泛蕁麻疹、廣泛紅斑＋生命徵象穩定、**臉部水腫（無呼吸困難）**、喉嚨緊/聲音沙啞（無呼吸困難）、喘鳴/支氣管痙攣（輕微或無低血氧）;生理性＝持續噁心嘔吐、高血壓 urgency、單純胸痛、**vasovagal（需治療且有效）**。
+  - **重度 Severe（立即急救）**：類過敏＝廣泛/**臉部水腫＋呼吸困難**、廣泛紅斑＋低血壓、**喉頭水腫＋stridor±低血氧**、支氣管痙攣＋明顯低血氧、過敏性休克（低血壓＋心搏過速）;生理性＝**vasovagal（治療無效）**、**心律不整**、抽搐/癲癇、高血壓急症。
 - **致死率**：不良反應約 **千分之 2–9**;致死約 **百萬分之 2–9**。[^1]
 - **遲發不良反應(DAR)**：[^2]
   - **T 細胞媒介**（非 B 細胞）;最常見**皮膚反應**（maculopapular/斑丘疹、癢）、多 self-limiting。
@@ -45,6 +48,7 @@ same:
 ### 參考來源
 [^1]: 中華民國放射線醫學會《對比劑手冊》2017/2020/2023（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]／[[2023 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）＋ ACR Manual on Contrast Media（實際查證）：反應時間分類（急性<1h／late 1h–1週／very late>1週）、風險因子（曾反應/氣喘/焦慮 Lalli;非海鮮碘酒）、嚴重度分級、premedication 與皮膚測試立場、甲狀腺風暴避用。
 [^2]: 含碘對比劑遲發不良反應(DAR)文獻（AJR 2014;203:1163-1170;2020 對比劑手冊）：**DAR 為 T 細胞媒介**、maculopapular rash、首次 2–10 天/再暴露 1–2 天、**dimer iso-osmolar 為風險因子**;對比劑為藥物性皮膚反應第三大原因（次於抗生素、NSAID）。
+[^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。
 
 ## 題目
 > [!question]- DAR(遲發不良反應)的機轉與特性,何者「不正確」? (2022交換)
@@ -59,8 +63,9 @@ same:
 > [!question]- 關於前用藥/皮膚測試,何者「正確/錯誤」? (2022/2023交換)
 > **皮膚測試/少量試打不建議**（無法預測、可能反增風險）;premedication **不能預防所有反應**、未證實降低致命反應;換不同類別對比劑可能降低再反應。[^1]
 
-> [!question]- 哪一項屬生理性(nonidiosyncratic, dose-related)反應? (2023交換)
-> **心律不整、肺水腫、腎衰竭**屬生理性;**facial/laryngeal edema 屬類過敏(idiosyncratic)**。[^1]
+> [!question]- 哪一項屬生理性(nonidiosyncratic/physiologic, dose-related)反應? (2023交換)
+> **心律不整、肺水腫、腎衰竭**屬生理性(physiologic/chemotoxic、與劑量相關);**facial/laryngeal edema 屬類過敏(allergic-like/idiosyncratic)、與劑量無關**——ESUR 2025 hypersensitivity 分類與 ACR 嚴重度分級皆把 facial/laryngeal oedema 列為類過敏。[^1][^3]
+> ⚠ 原始題庫（《對比劑-CT》筆記引 Radiology Review Manual）答案標「(4) facial laryngeal edema」——**僅在題目實問『哪項屬 idiosyncratic/allergic-like』時才成立**;若按字面「non-idiosyncratic」,正解應為 (1)(2)(3)。
 
 > [!question]- 致命對比劑反應的時間特性? (2023交換)
 > **幾乎所有致命反應在注射後前 20 分鐘內**;低滲透壓對比劑多數副作用為輕度、不可預測之嚴重反應仍罕見發生。[^1]
