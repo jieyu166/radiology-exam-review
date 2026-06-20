@@ -13,7 +13,7 @@ dateRev: 2026-06-15
 
 # fontan-tcpc-imaging
 
-**TCPC（Fontan）術後 CT/MRI 的「完整判讀」要同時看：①SVC/IVC 到肺動脈的吻合處狹窄 ②conduit fenestration 有無 ③conduit 血栓/內膜增生 ④房室瓣脫垂/逆流——四者皆查才算完整。** 判讀分水嶺一：**單心室循環、被動肺血流**，任何路徑阻力（狹窄/血栓）都致命；判讀分水嶺二：**心室與房室瓣功能**同樣決定預後。
+**Fontan/TCPC 繞過右心、讓靜脈血被動流進肺動脈，因此路徑上任何一點堵住（狹窄/血栓）都是危機；CT/MRI 要全程查：管道狹窄→fenestration→血栓→房室瓣。** 判讀分水嶺一：**被動肺血流循環 → 對阻力零容忍，吻合處狹窄＋conduit 血栓最要緊**；判讀分水嶺二：**fenestration（人為小洞降壓）＋房室瓣功能影響單心室負荷，缺一不可**。記憶鉤：從靜脈端順著走——SVC/IVC 吻合→conduit（有無洞/有無栓）→房室瓣，像巡管線一樣頭到尾看完。
 
 ## Summary
 - **Fontan/TCPC 原理**：繞過右心、把體靜脈血（SVC＋IVC）直接導入肺動脈（被動肺血流）；用於 tricuspid atresia、HLHS 等單心室。[^1]

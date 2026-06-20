@@ -10,7 +10,7 @@ dateRev: 2026-06-19
 
 # endometrial-cancer-mri
 
-**子宮內膜癌 MRI 典型：T1 與肌層等訊號、T2 高訊號,但對比後『低於肌層（hypoenhancement）』。** 判讀分水嶺：**T1WI 與 myometrium 等訊號;T2WI 較 myometrium 高訊號;post-contrast 腫瘤『強化低於肌層(hypoenhancement)』（非高強化）→ 用於判斷肌層侵犯深度**。
+**子宮內膜癌在 MRI 上：T1 與肌層「同灰」、T2 比肌層「亮」，但打顯影劑後反而比肌層「暗」（hypoenhancement）——這個對比差正是判斷肌層侵犯深度的依據。** 記憶鉤：T2 亮→顯影後暗，「先亮後暗」；凡題目說「對比後 hyperenhancement」即非典型、選「錯」。
 
 ## Summary
 - **T1WI**：與 myometrium **等訊號（isointense）**。[^1]

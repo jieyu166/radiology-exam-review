@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # hcc-imaging-diagnosis
 
-**HCC 影像主特徵＝動脈期高強化＋washout＋包膜（capsule/pseudocapsule）＋靜脈侵犯;移植採 Milan / UCSF criteria。** 判讀分水嶺一：**有利 HCC＝動脈期 hyperenhancement、portal/delayed washout、capsule/pseudocapsule、tumor in vein（瘤栓）;『無包膜』『不』利 HCC**;判讀分水嶺二：**Milan＝單一 ≤5 cm 或 ≤3 顆且各 ≤3 cm;UCSF＝單一 <6.5 cm 或 ≤3 顆各 <4.5 cm 且總和 <8 cm（且須為 HCC）**。
+**HCC 的影像特徵就是「動脈期亮、門脈期洗掉、有包膜、有瘤栓」；沒有包膜不利 HCC；移植靠 Milan 或 UCSF 決定資格。** 判讀分水嶺一：**有包膜（capsule/pseudocapsule）有利 HCC；無包膜不利 → 這是最常考的陷阱**；判讀分水嶺二：**Milan＝單顆 ≤5 cm 或 ≤3 顆各 ≤3 cm；UCSF＝單顆 <6.5 cm 或 ≤3 顆各 <4.5 cm 且總和 <8 cm，且須為 HCC（膽管癌不算）**。記憶鉤：HCC 四徵「動亮→洗去→有膜→侵血管」；UCSF 比 Milan 寬一號：5→6.5、3→4.5、總和限 8。
 
 ## Summary
 - **有利 HCC 的影像特徵**：動脈期 hyperenhancement、portal/delayed washout、**capsule/pseudocapsule**、tumor within vein（瘤栓）。**『無 capsule/pseudocapsule』不利 HCC**。[^1]

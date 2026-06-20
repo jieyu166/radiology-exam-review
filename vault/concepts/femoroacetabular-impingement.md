@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # femoroacetabular-impingement
 
-**FAI 分 cam（股骨頭頸）與 pincer（髖臼過度覆蓋）兩型;crossover sign 反映髖臼後傾(pincer)。** 判讀分水嶺一：**Cam＝股骨頭頸交界凸起（α 角增大、pistol-grip）;Pincer＝髖臼過度覆蓋/後傾**;判讀分水嶺二：**Crossover（figure-8）sign＝AP 片上髖臼前緣線與後緣線交叉 → 髖臼後傾(acetabular retroversion)、屬 pincer 型 FAI**。
+**FAI 分兩型：cam 是股骨頭頸交界凸出（pistol-grip），pincer 是髖臼蓋過頭；AP 片上出現 crossover sign（前緣越過後緣），代表髖臼後傾，就是 pincer 型。** 判讀分水嶺一：**Cam＝α 角 >55°，pistol-grip；Pincer＝髖臼過度覆蓋/後傾**；判讀分水嶺二：**Crossover sign（figure-of-eight）＝前緣線在上段越過後緣線＝acetabular retroversion＝pincer**。記憶鉤：cam 像相機鏡頭凸出（股骨側凸）；pincer 像螃蟹夾子夾太緊（髖臼側蓋過頭）。
 
 ## Summary
 - **FAI 兩型**：cam（股骨側,α 角>55°、pistol-grip）、pincer（髖臼側,過度覆蓋/後傾）;常混合。[^1]

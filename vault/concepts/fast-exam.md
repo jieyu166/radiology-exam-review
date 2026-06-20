@@ -13,7 +13,7 @@ dateRev: 2026-06-14
 
 # fast-exam
 
-**FAST（Focused Assessment with Sonography for Trauma）的唯一目的是「找自由液體」——腹腔積血（hemoperitoneum）與心包積血（hemopericardium）——不是評估實質器官損傷。** 判讀分水嶺一：**FAST 答的是「有無自由液體」的二元問題**（陽性=低回音/無回音液體聚積），不是「肝/脾撕裂幾級」（那是 CT 的事）；判讀分水嶺二：**標準四視窗** = 心包（subxiphoid）＋右上腹（Morrison pouch）＋左上腹（splenorenal）＋骨盆（Douglas pouch），E-FAST 再加雙側胸廓查氣胸/血胸。
+**FAST 只問一個問題：「有沒有游離液體？」——腹腔積血或心包積血，不評估器官撕裂程度（那是 CT 的事）。** 標準四視窗空間順序：subxiphoid（心包）→ RUQ Morrison pouch（最敏感）→ LUQ 脾腎間 → suprapubic Douglas pouch；E-FAST 再加雙側胸廓查氣胸/血胸。記憶鉤：四窗由上往下掃——「心、右肝、左脾、骨盆」；陽性液體＋血流動力學不穩＝直送開刀，不等 CT。
 
 ## Summary
 - **AIUM/ACEP 定義**：FAST 在腹部的評估目標是**自由液體**（free fluid），即偵測 hemoperitoneum；非評估肝實質、主動脈或肝/門靜脈。[^1][^2]

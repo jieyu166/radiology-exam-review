@@ -14,7 +14,7 @@ same:
 
 # interstitial-lung-abnormalities
 
-**ILA＝在『未懷疑 ILD』者的 CT 偶然發現的間質異常;『subpleural fibrotic』型預後與進展風險最高。** 判讀分水嶺一：**定義（Fleischner 2020）＝偶見、雙側、non-dependent、影響至少『5% 某一肺區』的間質異常,且病人未疑 ILD/無症狀**;判讀分水嶺二：**三型——non-subpleural、subpleural non-fibrotic、subpleural fibrotic;其中 subpleural fibrotic（honeycombing/牽引性支氣管擴張）死亡率與進展風險最高,依 UIP 標準分類**。
+**ILA 是「沒在找 ILD 卻撿到」的間質異常（常見於 LDCT 篩檢）；三型裡 subpleural fibrotic（有 honeycombing 或牽引性支氣管擴張）風險最高、死亡率最高，要轉介。** 判讀分水嶺一：**定義＝偶然、雙側、non-dependent、≥5% 某一肺區、病人未疑 ILD**——缺任一條件即不算標準 ILA；判讀分水嶺二：**三型中 subpleural fibrotic 預後最差（依 UIP 標準分類）**；見到 honeycombing/traction bronchiectasis 務必報告並建議轉胸腔科 + HRCT/PFT 評估。
 
 ## Summary
 - **定義（Fleischner Society 2020）**：**偶然(incidental)、雙側、non-dependent 的 CT 間質異常,影響至少『5% 某一肺區』,且病人非因疑 ILD 受檢/無 ILD 症狀**;常於 LDCT 肺癌篩檢偶見。[^1]

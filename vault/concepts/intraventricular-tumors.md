@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # intraventricular-tumors
 
-**腦室內腫瘤靠年齡與位置分流。** 判讀分水嶺：**subependymoma＝中年/老年男性偶發、無症狀的腦室內腫瘤（經典）;ependymoma 較常見於『年輕』而非老年;central neurocytoma 約 50% 有鈣化、可出血;choroid plexus tumor 成人最常見於『側腦室房部(atrium)』(50%)、其次第四腦室**。
+**腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 成人最常見於側腦室 atrium（~50%），非第三腦室——位置是考點。
 
 ## Summary
 - **Subependymoma**：經典為**中年男性偶發、無症狀**的腦室內腫瘤;好發第四腦室/側腦室。[^1]

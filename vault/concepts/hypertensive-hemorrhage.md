@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # hypertensive-hemorrhage
 
-**自發性高血壓腦出血最常見位置＝基底節（putamen / external capsule，lenticulostriate 領域）約 80%,其次 pons 約 10%、cerebellum 約 10%、thalamus。源自 lenticulostriate 等穿通小動脈（Charcot-Bouchard 微動脈瘤）。** 判讀分水嶺一：**putamen/external capsule 最常見（~80% lenticulostriate）**;判讀分水嶺二：**好發深部（基底節/視丘/橋腦/小腦）而非腦葉**。
+**高血壓腦出血＝穿通小動脈（Charcot-Bouchard 微動脈瘤）破裂，深部為王；記住「80-10-10」：putamen/external capsule 80%、pons 10%、cerebellum 10%。** 判讀分水嶺一：**putamen/external capsule 最常見（~80%，lenticulostriate 供血）**；判讀分水嶺二：**腦葉出血（lobar）偏 amyloid angiopathy，非高血壓**——深部 vs 腦葉是最重要的病因分流鑑別點。
 
 ## Summary
 - **最常見位置**：**putamen / external capsule（基底節，lenticulostriate 供應區）約 80%**（2016-143 正解 A）。[^1]

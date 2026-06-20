@@ -14,7 +14,7 @@ same:
 
 # gap-score
 
-**GAP score 以『Gender、Age、Physiology(2 項肺功能)』預測 IPF/ILD 死亡率;CT-GAP 加入 CT 評分。** 判讀分水嶺一：**GAP＝G(性別)＋A(年齡)＋P(FVC、DLCO 兩項生理值);分數對應 stage I–III 與 1/2/3 年死亡率**;判讀分水嶺二：**CT-GAP 以 CT 纖維化分級取代/加上 DLCO,於進展期（stage 3 後）預測稍佳**。
+**GAP score 用三個字母記住 IPF 預後工具：G = Gender（男性較差）、A = Age（越老越差）、P = Physiology，即 FVC% 與 DLCO% 兩項肺功能；分三個 stage 預測 1/2/3 年死亡率。** 判讀分水嶺一：**P 涵蓋兩項生理值（FVC + DLCO），缺一不完整。** 判讀分水嶺二：**CT-GAP 以 CT 纖維化程度評分補強，於 DLCO 無法取得或進展期時預測稍佳。**
 
 ## Summary
 - **GAP score 變數**：[^1]

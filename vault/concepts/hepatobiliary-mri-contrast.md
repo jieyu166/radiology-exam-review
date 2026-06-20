@@ -18,7 +18,7 @@ same:
 
 # hepatobiliary-mri-contrast
 
-**肝膽特異 GBCA 經肝細胞 OATP 攝取、再由 MRP2 排入膽道,於『肝膽期』提供病灶/膽道評估;含功能性肝細胞的病灶才會攝取。** 判讀分水嶺一：**Gd-EOB-DTPA（gadoxetate, Primovist）約 50% 經膽、肝膽期約 20 分;Gd-BOPTA（gadobenate, MultiHance）僅 ~3–5% 經膽、肝膽期 ~60–120 分**;判讀分水嶺二：**肝膽期攝取（呈等/高訊號）＝含功能性肝細胞且表現 OATP 者——FNH、部分高分化 HCC、再生結節;『不攝取』（呈低訊號）＝轉移、囊腫、多數腺瘤、低分化 HCC**。
+**肝膽特異對比劑靠 OATP 進肝細胞、MRP2 排膽道，只有「含功能性肝細胞的病灶」才亮；Primovist（EOB）50% 走膽、20 分見肝膽期，MultiHance（BOPTA）僅 3–5% 走膽、需等 60–120 分。** 判讀分水嶺：**肝膽期亮（等/高訊號）＝FNH、高分化 HCC、再生結節**；**不亮（低訊號）＝轉移、囊腫、多數腺瘤、低分化 HCC**。記憶鉤：Primovist「五五分」（50/50 肝腎）、MultiHance「3–5% 走膽所以要等」。
 
 ## Summary
 - **製劑與排泄**：[^1]

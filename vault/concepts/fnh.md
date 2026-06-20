@@ -15,7 +15,7 @@ same:
 
 # fnh
 
-**FNH 的標誌＝中央大動脈呈「spoke-wheel（輪輻狀／離心狀）」血流 + 中央疤痕；color Doppler 上 spoke-wheel 幾乎是 FNH 的代名詞。** 判讀分水嶺一：**中央動脈 → 離心放射狀分支**（輪輻）；判讀分水嶺二：**central scar（放射狀纖維隔）**且病灶為良性、無包膜、含 Kupffer 細胞與膽管成分。
+**FNH 就靠 Doppler 上中央動脈向外放射的「輪輻」（spoke-wheel）認出來；好發年輕女性（20–50 歲），不是 5th–6th decade。** 判讀分水嶺一：**spoke-wheel ＝ 中央大動脈離心放射狀分支 → FNH 的代名詞**；判讀分水嶺二：**central scar（僅 <50% 可見）＋ 無包膜＋肝膽期等/高訊號（含膽管，與 adenoma 鑑別）**。記憶鉤：FNH 像腳踏車輪，中央一根動脈往外輻射——看到輪輻就喊 FNH。
 
 ## Summary
 - **本質**：第二常見良性肝腫瘤（次於 hemangioma）；好發**年輕至中年女性（約 3rd–5th decade、20–50 歲）**、無症狀、非腫瘤性的增生反應（含正常肝細胞＋Kupffer 細胞＋膽管，但結構異常）。故「年齡高峰在 5th–6th decade」**錯誤**（2016-101 正解 C）。[^1]

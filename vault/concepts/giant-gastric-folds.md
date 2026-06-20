@@ -10,7 +10,7 @@ dateRev: 2026-06-19
 
 # giant-gastric-folds
 
-**巨大胃皺襞的成因可用 MDCT 鑑別,關鍵在『wall stratification（壁分層）有無』與強化型態。** 判讀分水嶺：**成因＝scirrhous carcinoma、B-cell lymphoma、acute gastric mucosal lesion、Ménétrier disease;MDCT 是『好』工具（非差）;胃淋巴瘤多源自黏膜下;『壁分層消失』為惡性最佳 MDCT 預測**。
+**巨大胃皺襞的鑑別關鍵：「壁分層（wall stratification）還在不在」——惡性（scirrhous ca、B-cell lymphoma）分層消失，良性（Ménétrier、急性胃黏膜病變）分層保留；MDCT 是辨別的好工具，不是差選擇。** 判讀分水嶺一：**壁分層消失 = 惡性最佳 MDCT 預測因子，是分水嶺中的分水嶺。** 判讀分水嶺二：**胃淋巴瘤源自黏膜下（submucosa），這是其生長特性，保留黏膜層使皺襞「大而平滑」。**
 
 ## Summary
 - **成因**：scirrhous（硬化型）carcinoma、B-cell lymphoma、acute gastric mucosal lesion、Ménétrier disease。[^1]

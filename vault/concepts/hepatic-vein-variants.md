@@ -11,7 +11,7 @@ dateRev: 2026-06-15
 
 # hepatic-vein-variants
 
-**Accessory right inferior hepatic vein（RIHV）是最常見的肝靜脈變異，引流右葉後下段（seg 6）直入 IVC；有 RIHV 時右肝靜脈（RHV）較小。但 RHV『缺如』需要的是『大的』RIHV（＋predominant MHV）接管——『小的』RIHV 時 RHV 應仍在。** 判讀分水嶺一：**RIHV 接管 seg 6 → RHV 相對小**；判讀分水嶺二：**large RIHV → RHV 可缺如；small RIHV → RHV 仍在**。
+**RIHV（副右下肝靜脈）是最常見的肝靜脈變異，繞過 RHV 直接把 seg 6 引流入 IVC；RIHV 愈大，RHV 就愈小甚至缺如。** 記憶鉤：「代償程度決定缺如門檻」——只有 **large RIHV（＋ predominant MHV）** 才能讓 RHV 缺如；**small RIHV 時 RHV 仍在**，這是考題常設的陷阱反選項。
 
 ## Summary
 - **RIHV 是最常見肝靜脈變異**，可多條；引流**右葉後下段（含 seg 6）直入 IVC**。[^1]

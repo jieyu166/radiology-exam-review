@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # endoleak
 
-**EVAR 後內漏分型：I=移植物『附著處』封合不全、II=經分枝血管逆流回填(『最常見』)、III=移植物『結構缺損/接合分離』、IV=移植物『織孔 porosity』、V=endotension。** 判讀分水嶺一:**type I、III 為高壓型→破裂風險高、須處理**;判讀分水嶺二:**type II 最常見、多良性可觀察**。
+**EVAR 後漏血的「從哪進來」決定型別：I＝端點沒封好、II＝側枝回流（最常見）、III＝接合處或fabric破孔、IV＝本身多孔、V＝瘤囊脹大但找不到漏。** 判讀分水嶺：高壓危險型需處理＝**I 和 III**；type II 最常見、壓力低、多觀察即可。記憶鉤：I（入口端點）、II（側枝 In-flow）、III（接合破損）、IV（孔洞 porosity）——依「誰讓血進來」排序。
 
 ## Summary
 - **Type I**:**graft 附著處(landing zone)封合不全**(Ia 近端/Ib 遠端/Ic iliac occluder)——高壓、破裂風險,須處理。[^1]

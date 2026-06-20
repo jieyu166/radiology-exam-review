@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # gastric-target-lesions
 
-**胃『靶/牛眼(bull's-eye)』病灶＝中央潰瘍的隆起結節/腫塊,多數提示『惡性/轉移』。** 判讀分水嶺一：**多發 bull's-eye 多為惡性（轉移）,非良性**;判讀分水嶺二：**最常見造成 bull's-eye 轉移的原發癌為『melanoma(黑色素瘤)』(非淋巴瘤);Kaposi sarcoma 亦可呈牛眼**。良性 target（如 ectopic pancreas）少見。
+**胃 bull's-eye（牛眼）病灶 = 中央潰瘍的黏膜下隆起，多發時幾乎必是惡性血行轉移，不要誤判為良性。** 判讀分水嶺一：**多發 bull's-eye → 惡性（轉移），最常見原發為 melanoma（黑色素瘤），非淋巴瘤。** 判讀分水嶺二：**Kaposi sarcoma 也可呈牛眼外觀，這是考試陷阱選項；記住「黑（melanoma）+ 卡（Kaposi）= 牛眼雙王」。**
 
 ## Summary
 - **本質**：中央潰瘍的黏膜下隆起結節/腫塊;DDx 含血行轉移、胃淋巴瘤、GIST(中央潰瘍)、Crohn aphthoid ulcer。[^1]

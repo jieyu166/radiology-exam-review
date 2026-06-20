@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # hypertrophic-cardiomyopathy
 
-**HCM＝肌節基因突變致左心室肥厚（無其他可解釋負荷）;形態以『不對稱中隔型』最常見,LGE 典型為『中壁斑點/局灶』。** 判讀分水嶺一：**形態分型——asymmetric septal（最常見,60–70%）、apical（少見 ~2%，日本人較多 ~15%）、concentric、midventricular**;判讀分水嶺二：**LGE 典型＝midwall patchy/punctate（非冠狀動脈分布、非心內膜下）;不對稱中隔肥厚定義＝中隔/下側壁厚度比 ≥1.5**。
+**HCM 形態記「6-2」：asymmetric septal 佔 60–70%（最常見），apical 僅 ~2%；LGE 要看中壁（midwall），不是心內膜下——後者才是缺血。** 判讀分水嶺一：**asymmetric septal 為最常見型（60–70%），apical 少見（~2%，日本人 ~15%）**；判讀分水嶺二：**LGE 典型＝midwall patchy/punctate，非 subendocardial 冠狀動脈分布**；不對稱中隔肥厚定義＝中隔/下側壁厚度比 ≥1.5。
 
 ## Summary
 - **本質**：肌節蛋白基因突變的異質性疾病;**左心室肥厚而無其他可解釋的負荷**（如高血壓/瓣膜）。[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # interlobular-septal-thickening
 
-**HRCT 小葉間隔增厚分三型：smooth（平滑）／nodular（結節/串珠狀 beading）／irregular（不規則）。『結節/串珠狀』偏向 sarcoidosis、淋巴管癌擴散、淋巴瘤/白血病、amyloidosis；『平滑』偏向肺水腫、淋巴管癌擴散（亦可）。肺水腫『最不會』造成串珠/不規則增厚（典型為平滑）。** 判讀分水嶺一：**串珠 beading＝結節型（sarcoid/淋巴/amyloid）**；判讀分水嶺二：**肺水腫＝平滑型**。
+**小葉間隔增厚看「質地」定方向：平滑→液體（肺水腫）；串珠 beading→細胞/沉積（sarcoid、淋巴管癌、lymphoma、amyloid）；不規則→纖維化。** 判讀分水嶺一：**肺水腫＝平滑型——它「最不會」造成串珠/不規則增厚**，考題若問「最不可能 beading」答案即肺水腫；判讀分水嶺二：**sarcoidosis、lymphoma、amyloidosis 皆可造成結節/串珠型，lymphangitic carcinomatosis 兩型（smooth 或 nodular）皆可**。
 
 ## Summary
 - **Smooth（平滑）**：**pulmonary edema（肺水腫）**、lymphangitic carcinomatosis（亦可結節）、LIP、congenital lymphangiectasia、amyloidosis（有時）。[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # hypervascular-liver-tumor-mr
 
-**高血管性肝腫瘤的延遲期動態是鑑別關鍵：血管瘤『滯留對比/持續高訊號』,高血管轉移則『washout』。** 判讀分水嶺：**小而均勻強化的血管瘤延遲期滯留對比、維持高訊號;hypervascular metastasis 延遲期 washout;血管瘤 T2 較轉移更高訊號（非更低）;regenerative/dysplastic nodule 通常不呈靜脈期 washout**。
+**高血管肝腫瘤的鑑別靠「延遲期行為」：血管瘤滯留（fill-in → 持續亮），轉移 washout（由亮轉暗）。** 判讀分水嶺一：**血管瘤＝延遲期對比滯留、持續高訊號；hypervascular metastasis＝washout**；判讀分水嶺二：**血管瘤 T2 較轉移更高（非更低）**；regenerative/dysplastic nodule 不呈 washout——washout 是 HCC 的標誌，非良性結節。
 
 ## Summary
 - **血管瘤 vs 轉移**：**小而均勻強化的血管瘤『滯留對比、延遲期持續高訊號』;hypervascular 轉移則 washout**。[^1]

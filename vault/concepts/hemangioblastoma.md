@@ -12,7 +12,7 @@ same:
 
 # hemangioblastoma
 
-**Hemangioblastoma＝『成人』後顱窩最常見原發腫瘤，典型『囊伴強化壁結節(cyst with enhancing mural nodule)』；結節貼軟膜、可見 flow void。成人後顱窩 cyst+nodule 想它（兒童則 pilocytic astrocytoma）。** 判讀分水嶺一：**成人＋小腦囊＋強化壁結節**；判讀分水嶺二：**結節富血管（flow void）、貼軟膜**；多發想 **VHL**。
+**成人後顱窩囊加強化壁結節，首先想 hemangioblastoma（兒童同樣型態則想 pilocytic astrocytoma）；結節富血管、貼軟膜、可見 flow void，多發時要排 VHL。** 判讀分水嶺一：**成人＋小腦囊＋強化壁結節（貼軟膜）＝hemangioblastoma**；判讀分水嶺二：**結節有 flow void（富血管）；多發或年輕成人 → 排 von Hippel-Lindau（VHL）**。記憶鉤：年齡配型態——成人（hemangioblastoma）vs 兒童（pilocytic astrocytoma）各守一方；兩者長相一樣，年齡是關鍵。
 
 ## Summary
 - **族群**：**成人**小腦最常見原發腫瘤；好發小腦半球/蚓部；多發或年輕者想 **von Hippel-Lindau**。[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # glomus-jugulare
 
-**Glomus jugulare（頸靜脈副神經節瘤）＝富血管腫瘤，MRI T2 呈『salt-and-pepper』(flow void＋出血)、由 ICA/ECA 分枝供血、臨床 pulsatile tinnitus／聽損；雖多良性，仍可惡性轉化(約 2–13%)。** 判讀分水嶺一：**富血管＋salt-and-pepper＋頸靜脈孔溶骨破壞**；判讀分水嶺二：**可惡性轉化（非「絕不」）**。
+**頸靜脈孔有個「鹽與胡椒」腫瘤：flow void 黑點（胡椒）＋出血/慢流高訊號（鹽）= T2 salt-and-pepper，配上搏動性耳鳴、聽損，這就是 glomus jugulare。** 判讀分水嶺一：**富血管＋頸靜脈孔溶骨擴大＋salt-and-pepper T2 三件套，是 glomus jugulare 的影像識別鏈。** 判讀分水嶺二：**「絕不惡性」是陷阱——惡性轉化約 2–13%，「可惡性轉化」才是正確說法。**
 
 ## Summary
 - **本質**：頸靜脈孔副神經節瘤，**富血管**；侵蝕性溶骨破壞頸靜脈孔（"moth-eaten"）。[^1]

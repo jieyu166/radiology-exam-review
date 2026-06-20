@@ -13,7 +13,7 @@ dateRev: 2026-06-17
 
 # gamekeeper-thumb
 
-**Gamekeeper's（慢性）/ Skier's（急性）thumb＝拇指第一掌指關節（MCP）『尺側（ulnar）副韌帶』的撕脫或斷裂;『橈側（radial）副韌帶』並未受傷。可伴近端指骨基部撕脫骨折;UCL 近端斷端被內收肌腱膜卡住＝Stener lesion（需手術）。** 判讀分水嶺一：**受傷的是尺側（UCL）、非橈側**;判讀分水嶺二：**Stener lesion＝UCL 回不去、需手術**。
+**拇指被往外（尺）掰傷的是「尺側副韌帶（UCL）」，橈側副韌帶完好無損——Gamekeeper's/Skier's thumb 傷的永遠是 UCL，這是核心口訣：UCL = U Can't Lie（不能說「橈側」）。** 判讀分水嶺一：**受傷結構必是第一 MCP 尺側副韌帶，可伴近端指骨基部撕脫骨折。** 判讀分水嶺二：**Stener lesion = UCL 斷端被內收肌腱膜夾住無法癒合 → 必須手術；無 Stener 可保守治療。**
 
 ## Summary
 - **受傷結構**：拇指第一 **MCP 關節的尺側副韌帶（ulnar collateral ligament, UCL）** 撕脫/斷裂;故「**橈側副韌帶（radial collateral ligament）**」**未受傷**＝題目正解（2016-133 正解 B）。[^1]

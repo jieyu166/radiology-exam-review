@@ -18,7 +18,7 @@ same:
 
 # gadolinium-contrast
 
-**GBCA 為順磁性、縮短 T1 → 增強 T1WI 訊號;以『linear vs macrocyclic』與『ionic vs non-ionic』分類,結構穩定度決定 NSF 與腦沉積風險。** 判讀分水嶺一：**macrocyclic 較穩定（去螯合少）→ NSF 與釓沉積風險『較低』;linear（尤其非離子）較不穩定 → 風險『較高』**;判讀分水嶺二：**主要經腎排泄;hepatobiliary 製劑（Gd-EOB-DTPA/Primovist、Gd-BOPTA/MultiHance）部分經膽排泄供肝膽期影像**。詳細 NSF 見 [[nephrogenic-systemic-fibrosis]]。
+**釓劑縮短 T1、讓組織在 T1WI 變亮；安全性關鍵在結構：macrocyclic（環狀）把釓鎖住，不易去螯合，NSF 與腦沉積風險低；linear（線狀）鎖不緊，風險高。** 判讀分水嶺一：**macrocyclic 穩定 → NSF/沉積風險低；linear（尤其非離子，如 Omniscan/Magnevist/OptiMARK）不穩定 → 高風險**；判讀分水嶺二：**主要腎排泄；肝膽製劑（Gd-EOB-DTPA 約 50%、Gd-BOPTA 約 3–5% 走膽道）供肝膽期影像**。記憶鉤：macrocyclic 像環形鎖，線狀像鬆緊帶——鎖越緊越安全；沉積好發齒狀核 > 蒼白球。
 
 ## Summary
 - **作用機轉**：釓為**順磁性**,**縮短 T1（與 T2）** → 增強組織在 **T1WI 的訊號**（非直接被看見,而是改變鄰近質子弛緩）。[^1]

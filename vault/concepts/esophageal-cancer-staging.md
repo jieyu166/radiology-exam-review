@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # esophageal-cancer-staging
 
-**食道癌 TNM（AJCC 7th/8th）：腫瘤位置由『epicenter（中心）』決定,T4 依侵犯結構分 a/b。** 判讀分水嶺一：**位置以 tumor epicenter 決定（非佔最大體積處、非上緣）**;判讀分水嶺二：**T4a＝可切除(侵 pleura/pericardium/azygos/diaphragm/peritoneum);T4b＝不可切除(侵 aorta/vertebral body/trachea)**;regional node 範圍涵蓋頸部至腹腔(celiac) paraesophageal 淋巴結;EGJ 腫瘤 epicenter 在胃近端 5 cm 內且延伸入食道者以食道癌分期。
+**食道癌位置由「腫瘤中心（epicenter）」決定，不是「最大體積處」；T4 的分水嶺是「能不能切」。** T4a＝還能切（侵 pleura/pericardium/azygos/diaphragm/peritoneum）；T4b＝不能切（侵 aorta/vertebral body/trachea）。記憶鉤：T4b 三大死亡鄰居 AVT（Aorta、Vertebra、Trachea）＝手術禁區；EGJ 腫瘤 epicenter 在胃近端 5 cm 內且延伸入食道者，以食道癌分期。
 
 ## Summary
 - **腫瘤位置**：由 **epicenter（腫瘤中心）** 決定（AJCC 8th）——非「佔最大體積處」、非上緣。[^1]

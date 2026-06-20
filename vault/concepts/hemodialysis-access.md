@@ -12,7 +12,7 @@ dateRev: 2026-06-15
 
 # hemodialysis-access
 
-**透析通路優先序：AV fistula（AVF）＞ AV graft（AVG）＞ 導管；AVF 預後最佳、併發症（感染/steal/中央靜脈狹窄）最低，graft 反而較高——說『graft 併發症低於 fistula』即錯。** 判讀分水嶺一：**fistula first**（AVF 優於 graft 優於 catheter）；判讀分水嶺二：**radiocephalic（Brescia-Cimino）AVF 最常見狹窄＝juxta-anastomotic 段**。
+**透析通路「fistula first」：自體 AVF 感染率、steal 率、中央靜脈狹窄率都低於 graft；說「graft 比 fistula 少合併症」即錯，順序是 AVF > graft > 導管。** 判讀分水嶺一：**AVF 預後最佳、併發症最少；graft 次之；中央靜脈導管血栓＋感染率最高**；判讀分水嶺二：**Radiocephalic AVF（Brescia-Cimino）最常見狹窄位置＝juxta-anastomotic（swing）段**。記憶鉤：越「自然」越好——自體血管（AVF）> 人工血管（graft）> 管子（catheter）；併發症反過來排。
 
 ## Summary
 - **優先序**：**native AVF（首選、預後較佳）＞ PTFE graft ＞ tunneled catheter**。[^1]（選項 B 正確）

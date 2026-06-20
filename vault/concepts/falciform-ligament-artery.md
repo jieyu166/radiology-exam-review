@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # falciform-ligament-artery
 
-**肝鐮狀韌帶動脈(HFLA)＝走行於鐮狀韌帶、源自肝左/中動脈、與內胸動脈系統吻合的小變異血管;TACE/栓塞時非目標栓塞可致臍上皮膚併發症。** 判讀分水嶺一：**走行於 falciform ligament、源自 middle/left hepatic artery**;判讀分水嶺二：**與 internal thoracic(superior epigastric) 分支吻合;非目標栓塞 → 臍上皮膚紅疹/疼痛/壞死**。
+**HFLA 是一條沿鐮狀韌帶走、溝通肝動脈與內胸動脈系統的小橋梁；TACE 時若沒認出它，栓塞劑會沿吻合跑到臍上皮膚造成壞死。** 起源：肝中或肝左動脈 → 沿 falciform ligament → 吻合 superior epigastric（內胸動脈分支）。記憶鉤：HFLA 是「肝到胸口的暗道」，TACE 前若見到，須選擇性超越或保護。
 
 ## Summary
 - **走行**：於 **falciform ligament 內**。[^1]

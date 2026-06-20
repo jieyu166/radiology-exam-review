@@ -15,7 +15,7 @@ same:
 
 # intramedullary-spinal-tumors
 
-**髓內（intramedullary）腫瘤靠『年齡 + 位置 + 強化型態』分流;成人最常見為 ependymoma、兒童為 astrocytoma。** 判讀分水嶺一：**Ependymoma＝成人最常見髓內腫瘤(占膠質性 ~60%)、中央位、邊界清、常出血含鐵帽（cap sign）、頸髓多**;判讀分水嶺二：**Astrocytoma＝兒童最常見、偏心、邊界不清**;**Hemangioblastoma＝強化壁結節＋囊＋血管流空（VHL 相關）**;**轉移＝少見、軟膜/髓內伴明顯水腫**。
+**髓內腫瘤靠「年齡」一刀切：成人第一是 ependymoma（中央位、cap sign、頸髓）；兒童第一是 astrocytoma（偏心、邊界不清、長節段）。** 判讀分水嶺一：**Ependymoma＝成人最常見（占膠質性髓內腫瘤 ~60%）——中央位、邊界清、出血 cap sign、好發頸髓**；判讀分水嶺二：**Astrocytoma＝兒童最常見——偏心、邊界不清**；hemangioblastoma 記「壁結節＋囊＋血管流空＋VHL」；轉移少見但水腫不成比例大。
 
 ## Summary
 - **Ependymoma**：**成人最常見髓內腫瘤**,占成人髓內膠質瘤約 **60%**;兒童則為**第二常見**(~30%)。中央位、邊界清、可出血致 **cap sign**、頸髓好發。[^1]

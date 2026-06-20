@@ -12,7 +12,7 @@ up: "[[rib-tumor]]"
 
 # fibrous-dysplasia
 
-**Fibrous dysplasia＝『ground-glass 基質、膨脹性、無 periosteal reaction、rind sign』的良性纖維骨病變；肋骨是 monostotic 型最常見部位，也是最常見的良性肋骨病灶。** 判讀分水嶺一：**ground-glass 霧玻璃基質＋無骨膜反應**＝偏良性；判讀分水嶺二：**monostotic（85%）vs polyostotic**，後者想 McCune-Albright / Mazabraud。
+**Fibrous dysplasia 就是「骨頭裡長纖維骨、磨玻璃模樣、膨脹但沒有骨膜反應」的良性病變，肋骨是單骨型最常見部位。** 判讀分水嶺一：**ground-glass 基質＋無 periosteal reaction＋rind sign**＝良性纖維骨病變；判讀分水嶺二：**多骨型（polyostotic）→ 想 McCune-Albright（皮膚咖啡牛奶斑＋性早熟）或 Mazabraud（＋肌內黏液瘤）**。記憶鉤：「毛玻璃骨、膨脹無骨膜、多骨配咖啡斑」。
 
 ## Summary
 - **本質**：髓內纖維骨組織取代正常骨（GNAS 活化突變）；非遺傳性。[^1]

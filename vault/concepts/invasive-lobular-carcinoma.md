@@ -11,7 +11,7 @@ dateRev: 2026-06-18
 
 # invasive-lobular-carcinoma
 
-**ILC 是第二常見乳癌(~5–10%),以『單列(single-file)生長、影像隱匿、少鈣化』著稱,易被低估。** 判讀分水嶺一：**組織學單列(Indian file)浸潤、E-cadherin 缺失**;判讀分水嶺二：**影像＝spiculated mass(最常見)／架構扭曲／不對稱密度;常僅單一投影可見或 mammographically occult;『微鈣化少見(<10%)、非特徵』**。雙側/多中心傾向較高。
+**ILC 的危險是「容易躲過」：細胞排單列鑽過正常組織（Indian file），不成團不引發纖維反應，mammography 可以完全正常；最重要的陷阱是「鈣化不是 ILC 的特徵（<10%）」，別因無鈣化就排除。** 判讀分水嶺一：**影像以 spiculated mass 最常見，其次架構扭曲/不對稱密度；16% mammographically occult 或看似良性**；判讀分水嶺二：**微鈣化 <10%、非 ILC 特徵**——考題若說「鈣化是其特徵」即為錯誤答案。
 
 ## Summary
 - **流行病學**：占所有乳癌 **5–10%**。[^1]

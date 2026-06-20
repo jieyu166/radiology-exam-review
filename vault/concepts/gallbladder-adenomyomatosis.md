@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # gallbladder-adenomyomatosis
 
-**膽囊腺肌症＝良性、常見（~9% 膽囊切除）的膽囊壁增生,含 Rokitansky-Aschoff sinuses（RAS）。超音波典型＝瀰漫『或』局部（含底部 fundal/環狀 annular）壁增厚＋『comet-tail / V 形 reverberation 偽影』（RAS 內膽固醇結晶）。三者皆為典型,故『何者非典型』選『以上皆典型』。** 判讀分水嶺一：**comet-tail / twinkle 偽影源自 RAS 內結晶＝特徵**;判讀分水嶺二：**diffuse 與 focal 壁增厚皆可**。
+**膽囊腺肌症是良性壁增生，黏膜陷入肌層形成 Rokitansky-Aschoff sinuses（RAS），超音波上三項「都是」典型：瀰漫壁增厚、局部（fundal/annular）壁增厚、comet-tail 偽影——三者皆典型，考「何者非典型」答案是「以上皆典型」。** 判讀分水嶺一：**comet-tail（V 形 reverberation）源自 RAS 內膽固醇結晶，是最具特異性的辨識鑰匙。** 判讀分水嶺二：**diffuse 與 focal 壁增厚兩型皆屬典型，見到任一型加 comet-tail 即可診斷。**
 
 ## Summary
 - **本質**：良性膽囊壁增生（RAS：黏膜上皮陷入肌層的憩室樣陷凹）;~9% 膽囊切除可見;MRI「pearl necklace sign」。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # igg4-related-disease
 
-**IgG4-RD 是多器官纖維發炎症,以淋巴漿細胞浸潤(富 IgG4)、席紋狀纖維化、閉塞性靜脈炎為特徵。** 判讀分水嶺一：**典型器官表現＝Mikulicz（淚腺/唾液腺）、autoimmune pancreatitis（type 1）、IgG4 膽管炎、後腹腔纖維化、腎/肺/主動脈周圍炎**;判讀分水嶺二：**Kikuchi-Fujimoto、Castleman、Kimura 為不同病種,非 IgG4-RD**。
+**IgG4-RD 是一個人體多站都可停的慢性纖維發炎病，考試關鍵是認出它旗下的病名，尤其 Mikulicz（淚腺＋唾液腺）；Kikuchi、Castleman、Kimura 長相相似但屬不同病，勿混淆。** 判讀分水嶺一：**Mikulicz disease（對稱性淚腺/唾液腺腫大）＝IgG4-RD 的代表；同屬者含 type 1 autoimmune pancreatitis、IgG4 膽管炎、後腹腔纖維化**；判讀分水嶺二：**Kikuchi-Fujimoto（壞死性淋巴結炎）、Castleman（血管濾泡增生）、Kimura（嗜酸性頭頸腫塊）皆非 IgG4-RD**。
 
 ## Summary
 - **Mikulicz disease**：對稱性淚腺＋唾液腺腫大,現歸為 **IgG4-RD**。[^1]

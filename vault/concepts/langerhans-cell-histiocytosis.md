@@ -14,7 +14,7 @@ up: "[[rib-tumor]]"
 
 # langerhans-cell-histiocytosis
 
-**骨/系統性 LCH＝兒童為主的 Langerhans 細胞增生；骨骼是最常受侵器官，典型為『無硬化緣的溶骨灶＋beveled edge（hole-within-a-hole）＋button sequestrum』，脊椎則致 vertebra plana。** 判讀分水嶺一：**兒童＋溶骨 hole-within-a-hole**；判讀分水嶺二：**單發（eosinophilic granuloma）vs 多發/多系統**；**肺型（抽菸成人）另論 → [[plch]]**。
+**骨骼 LCH 的招牌是「洞中有洞」（beveled edge，hole-within-a-hole）——內外骨板侵蝕不對稱；脊椎壓扁成餅叫 vertebra plana，兒童最常見的病因就是它。** 判讀分水嶺一：**骨骼表現＝無硬化緣溶骨＋beveled edge（hole-within-a-hole）＋button sequestrum；脊椎→vertebra plana（兒童最常見病因）；下頜→floating tooth**；判讀分水嶺二：**臨床分型：單發（eosinophilic granuloma）→ 多發單系統（Hand-Schüller-Christian：顱骨缺損＋尿崩＋突眼）→ 多系統（Letterer-Siwe，嬰幼兒最惡性）**；肺型（PLCH）屬同譜但需分開看 → [[plch]]。
 
 ## Summary
 - **疾病譜（臨床分型）**：[^1]

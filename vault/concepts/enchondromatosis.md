@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # enchondromatosis
 
-**多發性內生軟骨瘤分兩型,靠『有無軟組織血管瘤』分流。** 判讀分水嶺：**Ollier disease＝非遺傳、散發、多發性內生軟骨瘤（好發幹骺端、手足、常單側偏向）+ 手足變形/肢長不等;無軟組織血管瘤**;**Maffucci syndrome＝內生軟骨瘤 + 軟組織血管瘤（平片可見靜脈石 phleboliths）**。兩者皆有惡性變（軟骨肉瘤）風險,Maffucci 更高。「軟組織血管瘤」屬 Maffucci、不屬 Ollier。
+**平片上多發幹骺端軟骨病灶，「有沒有靜脈石」是 Ollier 與 Maffucci 的分水嶺。** Ollier＝非遺傳、多發內生軟骨瘤＋手足變形/肢長不等、**無**軟組織血管瘤；Maffucci＝Ollier 全部特徵**加**軟組織血管瘤（phleboliths 是靜脈石，平片可見）。記憶鉤：Maffucci 多一個「M」＝多一個 More（血管瘤更多），兩者皆可惡性變為軟骨肉瘤，Maffucci 風險更高。
 
 ## Summary
 - **Ollier disease（enchondromatosis）**：**非遺傳、散發**性骨骼疾患;多發性內生軟骨瘤,主要在**幹骺端**;常有**手足變形、肢長不等、彎曲/短縮**;偏側分布常見。[^1]

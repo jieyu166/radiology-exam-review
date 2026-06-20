@@ -13,7 +13,7 @@ concepts: [ipf]
 
 # ipf
 
-**IPF = idiopathic UIP，以「基底 + subpleural 為主」的 honeycombing 與牽引性支氣管擴張為核心——是 subpleural *predominant*，不是 subpleural *sparing*。** 判讀分水嶺一：分布**基底（basal）+ 周邊/subpleural 為主**、低肺容積；判讀分水嶺二：UIP 樣態 = **honeycombing + traction bronchiectasis + 網狀影**，GGO 少於網狀影。
+**IPF/UIP 住在肺的「底層邊邊」——基底＋subpleural predominant（向周邊偏、非向中間偏），出現 honeycombing 和牽引性支氣管擴張；如果看到 subpleural sparing（邊緣留白）反而要改想 NSIP。** 判讀分水嶺一：**分布＝基底（basal）＋subpleural predominant**；低肺容積；GGO 少於網狀影；判讀分水嶺二：**Probable UIP 無 honeycombing（僅網狀＋牽引性支氣管擴張）；Typical UIP 有 honeycombing**——2022 起 Probable UIP 於臨床相符時可免切片診斷 IPF。
 
 ## Summary
 - **定義**：IPF 為 idiopathic UIP——具 UIP 組織型態的纖維化型 idiopathic interstitial pneumonia；約佔所有 IIP 的 40%。[^1]
