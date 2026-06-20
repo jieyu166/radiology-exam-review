@@ -95,10 +95,11 @@ for p in glob.glob("vault/questions/**/*.md", recursive=True):
 for img in sorted(referenced_imgs):
     if not os.path.exists(img):
         err(f"[壞圖(引用但檔案不存在)] {img}")
+IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"}
 existing = set()
 for root, _, files in os.walk("data/images"):
     for f in files:
-        if f == ".gitkeep": continue
+        if os.path.splitext(f)[1].lower() not in IMG_EXT: continue
         existing.add(os.path.join(root, f).replace("\\", "/"))
 orphans = existing - referenced_imgs
 for o in sorted(orphans):
