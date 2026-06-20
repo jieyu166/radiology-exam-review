@@ -13,13 +13,14 @@ type: MOC
 
 ## 依次專科自動分類（Dataview）
 ```dataview
-TABLE WITHOUT ID rows.file.link AS "概念", length(rows) AS "數"
+TABLE WITHOUT ID key AS "次專科", length(rows) AS "概念數", rows.file.link AS "概念"
 FROM "concepts"
 WHERE concepts AND subspecialty
 FLATTEN subspecialty AS sub
-GROUP BY sub AS "次專科"
-SORT sub ASC
+GROUP BY sub
+SORT key ASC
 ```
+> 註：`GROUP BY sub` 後群組鍵是 `key`（＝該次專科值）;用 `key AS "次專科"` 才會把科別名稱顯示出來。先前用 `TABLE WITHOUT ID` 卻沒列 `key`,故科名那一欄被吃掉。
 
 ## 全部概念（依更新日）
 ```dataview
