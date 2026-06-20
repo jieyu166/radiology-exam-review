@@ -21,6 +21,8 @@ dateRev: 2026-06-20
 
 **肺感染影像徵象,先把『真菌 vs 寄生蟲 vs 氣道』分清楚：真菌（aspergillus 譜系——air crescent 復原期、monod 真菌球、halo 血管侵犯）、寄生蟲（water-lily 包蟲、signet ring/paragonimiasis）、氣道/其他（tree-in-bud 散播、finger-in-glove 黏液栓、bulging fissure 克雷白氏菌、steeple 哮吼）。** 判讀分水嶺一（最常混淆）：**Air crescent＝angioinvasive aspergillosis 的『復原期』（壞死肺回縮、免疫低下、好預後,~50% 可見）vs Monod＝既存空洞內『可動真菌球（aspergilloma）』、免疫正常**;判讀分水嶺二（考題陷阱）：**signet ring sign 在 CT 指『支氣管擴張』（擴張支氣管環＋較小伴行動脈），不是 paragonimiasis 早期表現**。
 
+> 本概念之徵象清單與考題整合自《CXR signs》演講筆記、聚焦「感染相關」徵象並逐項以 Radiopaedia 查核;其餘（縱膈/定位/血管/ILD）徵象分屬他概念。[^3]
+
 ## Summary
 
 ### 真菌（aspergillus 譜系）
