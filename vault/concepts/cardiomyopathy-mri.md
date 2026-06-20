@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # cardiomyopathy-mri
 
-**心肌病 MRI 靠『形態＋LGE＋心包』分流;MRI 能藉心包厚度區分 restrictive CM 與 constrictive pericarditis。** 判讀分水嶺一：**DCM＝心室擴大、室壁相對變薄（非局部增厚）;HCM＝室壁肥厚、心室不擴大**;判讀分水嶺二：**restrictive CM（心包正常）vs constrictive pericarditis（心包增厚 >4 mm）→ MRI 可區分**;GRE 上心肌訊號下降 blooming＝鐵沉積（含鐵血黃素/iron overload），非正常。
+**心肌病 MRI 看三件事：形態（擴大 vs 肥厚）、LGE（疤痕分布）、心包（正常 vs 增厚）。** DCM 是心室擴大＋室壁全面變薄，HCM 是室壁局部肥厚但心室不擴大；最關鍵的是 MRI 可藉心包厚度（>4 mm）區分 restrictive CM（心包正常）與 constrictive pericarditis（心包增厚）——這是 MRI 對心臟的獨特貢獻。GRE blooming 低訊號代表鐵沉積，不是正常表現。
 
 ## Summary
 - **DCM**：心室**擴大**、室壁**相對變薄**（非局部增厚）;A 敘述「regional wall thinning」不準確（為全心室稀薄而非局部）。[^1]

@@ -13,7 +13,7 @@ dateRev: 2026-06-17
 
 # digital-radiography-detectors
 
-**平板偵測器分兩類:『直接（direct）』用非晶硒（a-Se）光導體把 X 光『直接』轉成電荷,經 TFT 讀出;『間接（indirect）』先用閃爍體（CsI）把 X 光轉成可見光,再由光二極體/CCD 轉成電荷。** 判讀分水嶺一：**direct＝X 光→電荷（a-Se,無中間光）**;判讀分水嶺二：**indirect＝X 光→光→電荷（scintillator+photodiode）**。
+**記住兩步驟 vs 三步驟：直接（direct）只需 X 光→電荷（靠 a-Se 光導體），間接（indirect）多一步 X 光→可見光（靠 CsI 閃爍體）→電荷。** 考試問「直接偵測器的正確描述」，答案就是「X 光直接轉成電荷」。記憶鉤：**「direct＝直達電荷，中間沒有光；indirect＝多一道光」**。
 
 ## Summary
 - **直接偵測器（direct conversion）**：**非晶硒（amorphous selenium, a-Se）光導體層** + TFT 讀出陣列;**X 光光子『直接』轉換成電荷**後讀出（2016-146 正解 D）。[^1]

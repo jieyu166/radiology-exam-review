@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # egpa-churg-strauss
 
-**EGPA（Churg-Strauss）＝氣喘＋嗜酸性球增多＋壞死性血管炎的三聯,ANCA 為『pANCA/MPO』而非 cANCA。** 判讀分水嶺一：**臨床三聯——asthma、hypereosinophilia(>10%/>1500)、necrotizing vasculitis(小至中血管)**;判讀分水嶺二：**約 40% ANCA 陽性,且為『pANCA(MPO-ANCA)』;cANCA(PR3) 是 granulomatosis with polyangiitis(GPA/Wegener) 的標記,非 EGPA**。
+**EGPA 的三聯是氣喘＋嗜酸性球增多＋壞死性血管炎，ANCA 陽性時記得是 pANCA（MPO），不是 cANCA。** cANCA（PR3）屬於 GPA/Wegener，兩者在考題常互換作陷阱。記憶鉤：**「EGPA 有氣喘和好多嗜酸球（p 型），GPA 靠 c 型抗體」**——p vs c 對應 EGPA vs GPA，背起來就不混淆。
 
 ## Summary
 - **三聯**：**氣喘、周邊/組織嗜酸性球增多、壞死性血管炎**(常伴肉芽腫)。[^1]

@@ -13,7 +13,7 @@ dateRev: 2026-06-17
 
 # cardiac-mri-lge
 
-**心臟 MR 評估『心肌疤痕/纖維化』的首選序列＝Late Gadolinium Enhancement（LGE，延遲釓增強）；於注射釓對比後約 10 分鐘取像，疤痕/壞死區因對比劑滯留而呈高訊號（IR/PSIR GRE）。** 判讀分水嶺一：**LGE＝疤痕/纖維化（viability）**；判讀分水嶺二：**cine＝功能/室壁運動、perfusion＝灌流、phase contrast＝流速**，皆非疤痕。
+**心肌疤痕（纖維化）的評估靠 LGE（Late Gadolinium Enhancement）：注射釓對比劑約 10 分鐘後，正常心肌把對比劑洗掉，疤痕組織細胞間隙大、對比劑滯留，呈高訊號。** 考場常見陷阱：cine 看功能、perfusion 看灌流、phase contrast 看流速——只有 LGE 看疤痕/viability。記憶鉤：「疤痕藏藥藏最久→晚取像才顯影」，延遲即對應 Late。
 
 ## Summary
 - **LGE（Late gadolinium enhancement）**：評估**心肌壞死與疤痕組織（viability）**的技術；IR/PSIR GRE 序列、延遲取像，疤痕滯留對比劑呈高訊號（2016-114 正解 A）。[^1]

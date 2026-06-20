@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # cpa-masses
 
-**橋小腦角（CPA）腫瘤鑑別記憶法 AMEN/SAME：Acoustic schwannoma（前庭神經鞘瘤，~80% 最常見）> Meningioma（~10%，第二常見、硬膜基底＋dural tail、可鈣化）> Epidermoid（DWI 受限、CSF 般密度但鑽縫生長）> 其他（trigeminal/facial schwannoma、aneurysm、metastasis）。** 判讀分水嶺一：**vestibular schwannoma 遠最常見、以 IAC 為中心、可有 ice-cream-cone**；判讀分水嶺二：**meningioma＝硬膜基底、鈍角、dural tail、可鈣化、不以 IAC 為中心**。
+**CPA 腫瘤的「頻率答案」幾乎都是 vestibular schwannoma（~80%），第二永遠是 meningioma（~10%）。** 三者用影像特徵一刀切：vestibular schwannoma 以 IAC 為中心（ice-cream-cone）、meningioma 有硬膜基底＋dural tail＋可鈣化但不進 IAC、epidermoid 外觀像 CSF 但 DWI 受限（鑽縫走）。記憶鉤：**「80-10-其他」順序＋S（schwannoma 進孔）vs M（meningioma 貼膜）vs E（epidermoid DWI 亮）**。
 
 ## Summary
 - **Vestibular schwannoma（acoustic neuroma）**：**遠最常見（~80%）**；以**內聽道（IAC）**為中心、ice-cream-cone、強烈強化、無鈣化。[^1]

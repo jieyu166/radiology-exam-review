@@ -11,7 +11,7 @@ dateRev: 2026-06-18
 
 # chest-wall-tumors
 
-**胸壁原發惡性骨腫瘤中,chondrosarcoma 最常見。** 判讀分水嶺一：**chondrosarcoma＝胸壁最常見原發惡性骨腫瘤,好發肋軟骨交界/肋骨前段與胸骨,含軟骨基質鈣化（ring-and-arc）**;判讀分水嶺二：**Ewing/PNET、osteosarcoma、plasmacytoma/myeloma 較少**;軟組織者以 desmoid、sarcoma 為主。
+**胸壁原發惡性骨腫瘤，第一名是 chondrosarcoma，不是 osteosarcoma。** 它好發於肋軟骨交界和肋骨前段，影像上的識別鉤是「ring-and-arc」的軟骨基質鈣化——軟骨腫瘤的特徵鈣化。Ewing/PNET 偏好年輕人、osteosarcoma 與 myeloma 在胸壁皆較少見；認清 chondrosarcoma 的部位（前胸壁軟骨）與鈣化型態（ring-and-arc）即抓住考點。
 
 ## Summary
 - **Chondrosarcoma**：**胸壁最常見原發惡性骨腫瘤**;好發**肋軟骨交界、肋骨前段、胸骨**;有**軟骨基質鈣化（ring-and-arc／chondroid）**、骨破壞與軟組織腫塊。[^1]

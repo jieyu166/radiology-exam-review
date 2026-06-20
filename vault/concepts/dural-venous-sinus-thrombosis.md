@@ -15,7 +15,7 @@ same:
 
 # dural-venous-sinus-thrombosis
 
-**硬腦膜靜脈竇血栓判讀：顯影 CT/MR 可見『empty delta sign（空三角）』;急性血栓 T1 等訊號、T2 低訊號可『模擬 flow void』;血栓 DWI 訊號『多變、並非所有血栓都在 DWI 上可見』;橫竇是常見的發育不全變異區、可被『誤認』為血栓。** 判讀分水嶺一：**empty delta＝強化硬膜環繞無強化血栓**;判讀分水嶺二：**橫竇 hypoplasia 為 mimic、需與血栓區別**。
+**靜脈竇血栓的影像陷阱多：急性血栓 T2 低訊號和正常 flow void 長得一樣，容易漏診；顯影後才浮現 empty delta（強化硬膜包圍不強化的血栓）。** DWI 並非萬用——並非所有血栓都呈現擴散受限，「DWI 全看得到」是錯誤敘述。橫竇本身常發育不全，訊號缺乏時要與真血栓區分。記憶鉤：**「急性竇栓＝T2 低→像 flow void→靠顯影 empty delta 揭露」**。
 
 ## Summary
 - **Empty delta sign（空三角）**：上矢狀竇後段於**顯影 CT/MR** 上,強化硬膜環繞中央無強化血栓 → 三角形充盈缺損(選項 A 真)。[^1]

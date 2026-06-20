@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # colon-volvulus
 
-**結腸扭轉以『乙狀結腸（sigmoid）最常見（約 60%）』,非盲腸(cecal);好發老年,兒童罕見。Sigmoid＝coffee-bean 大迴圈投射過橫結腸、northern exposure;Cecal＝腎形/coffee-bean 充氣盲腸多移位至左上腹。** 判讀分水嶺一：**sigmoid 最常見(~60%)**;判讀分水嶺二：**形態與位置區分 sigmoid vs cecal**。
+**結腸扭轉最常見的是乙狀結腸（~60%），不是盲腸——這個順序考試最常逆轉設陷。** 兩者型態各異：sigmoid 呈巨大 inverted-U 迴圈，頂端投射至橫結腸以上（northern exposure）；cecal 呈腎形，充氣盲腸常移位至左上/中腹（盲腸「背井離鄉」跑到對側）。好發老年，兒童罕見，高齡便秘者出現腹脹應先想 sigmoid volvulus。
 
 ## Summary
 - **最常見型＝sigmoid（~60% 腸扭轉）**;故「**cecal 為最常見**」**錯誤**＝題目正解(2016-124 正解 A;sigmoid 才約 60%)。[^1]

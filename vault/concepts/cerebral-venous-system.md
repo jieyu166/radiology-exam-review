@@ -15,7 +15,7 @@ same:
 
 # cerebral-venous-system
 
-**下矢狀竇（ISS）與『vein of Galen（大腦大靜脈）』匯合形成 straight sinus。深部靜脈系統＝internal cerebral veins、basal veins of Rosenthal、vein of Galen。『superior anastomotic vein of Trolard』與 Labbé 屬『淺表』吻合靜脈,非深部。** 判讀分水嶺一：**ISS＋vein of Galen→straight sinus**;判讀分水嶺二：**深部＝ICV/BVR/Galen;Trolard、Labbé＝淺表**。
+**腦靜脈回流有兩套系統：淺部（皮質靜脈→上矢狀竇、橫竇）和深部（內大腦靜脈 + Rosenthal 基底靜脈 → vein of Galen）。** 下矢狀竇（ISS）沿大腦鐮下緣走，最終與 vein of Galen 匯合形成 straight sinus。考點陷阱：Trolard（superior anastomotic）與 Labbé（inferior anastomotic）是淺部吻合靜脈，外表名氣大、實為淺部，不算深部系統。記憶鉤：「ISS 從下走到底找 Galen→直竇；Trolard 和 Labbé 是淺部的橋梁，別歸錯隊伍」。
 
 ## Summary
 - **下矢狀竇（ISS）**：沿大腦鐮下緣走,**與 vein of Galen 匯合形成 straight sinus**（2016-176 正解 C）。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # chiari-malformation
 
-**Chiari I＝小腦扁桃體經枕骨大孔下疝（>5 mm）,機轉為『後顱窩過小/擁擠』。故與『顱縫早閉（craniosynostosis）』等致後顱窩變小者相關;常合併脊髓空洞（syringomyelia）、脊柱側彎、hydrocephalus。myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II,非 I。** 判讀分水嶺一：**Chiari I＝後顱窩小→扁桃體疝**;判讀分水嶺二：**myelomeningocele＝Chiari II 標誌（非 I）**。
+**Chiari I 的核心概念：後顱窩「裝不下」小腦→扁桃體被擠過枕骨大孔（>5 mm）。** 凡是讓後顱窩變小的因素（如顱縫早閉 craniosynostosis）都支持 Chiari I。記憶鉤：把後顱窩想成「過小的鞋盒」，小腦扁桃體是鞋跟，被擠出來就是 Chiari I；合併症按嚴重程度串連：「脊髓空洞→脊柱側彎→腦積水」。關鍵分水嶺：myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II 而非 I——這三樣出現就排除純 Chiari I。
 
 ## Summary
 - **定義**：小腦扁桃體下疝過枕骨大孔（成人 >5 mm;3–5 mm 為 borderline ectopia）。[^1]

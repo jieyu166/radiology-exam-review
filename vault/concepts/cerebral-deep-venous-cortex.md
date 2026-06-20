@@ -14,7 +14,7 @@ same:
 
 # cerebral-deep-venous-cortex
 
-**深部腦靜脈系統（內大腦靜脈、Rosenthal 基底靜脈、Galen 靜脈）阻塞時若波及皮質，範圍限於『邊緣葉、視覺皮質、下額葉』——『上額葉』由淺部系統引流，不屬之。** 判讀分水嶺一：**深部系統經 basal vein of Rosenthal 引流 mesial temporal（limbic）、insula、下/內額**；判讀分水嶺二：**superior frontal 走淺部（→上矢狀竇）**，故為 EXCEPT。
+**深部腦靜脈（內大腦靜脈、Rosenthal 基底靜脈、Galen 靜脈）阻塞波及皮質時，受累範圍是邊緣葉、視覺皮質（內側枕葉）、下額葉——這三個區域都在大腦「深底部」。** 上額葉由淺部大腦靜脈（→上矢狀竇）引流，不屬深部系統，因此是 EXCEPT 題的答案。記憶鉤：「深部靜脈管大腦底部周圍，上額葉走高速公路（上矢狀竇）不走深路」。
 
 ## Summary
 - **深部靜脈系統**：internal cerebral veins ＋ **basal vein of Rosenthal** ＋ vein of Galen，主要引流深部白質、基底節、視丘。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # carotid-vertebrobasilar-anastomoses
 
-**胚胎性頸動脈-椎基底動脈吻合（殘存）由常見到罕見：persistent trigeminal artery（最常見）> hypoglossal > proatlantal（type 1/2）> 『otic artery（最少被記載、其存在仍有爭議）』。** 判讀分水嶺一：**trigeminal 最常見**;判讀分水嶺二：**otic 最罕/存在有爭議**。
+**胚胎期頸動脈與椎基底動脈之間存在幾條臨時吻合，出生後通常消失；若殘留，由常見到罕見依序為：trigeminal > hypoglossal > proatlantal > otic。** 其中 persistent otic artery 不僅最罕見，其「是否真正存在」在文獻上仍有相當爭議。記憶鉤：頭文字字母順序 T-H-P-O 恰好對應由常見到爭議，末位 O（otic）最罕。
 
 ## Summary
 - **Persistent trigeminal artery**：**最常見**的殘存吻合（連 cavernous ICA 與 basilar）。[^1]

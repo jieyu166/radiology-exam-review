@@ -14,7 +14,7 @@ same:
 
 # dish
 
-**DISH＝沿前縱韌帶『流注狀(flowing)』骨化、保留椎間盤高度,但『無小面關節僵直、無薦髂關節炎』。** 判讀分水嶺：**DISH＝≥4 個連續椎節流注狀骨化（前/右前外側）、椎間盤高度保留、附著點骨贅;『無 facet/apophyseal joint ankylosis、無 sacroiliitis』（此屬僵直性脊椎炎）**。與 AS 區分見 [[ankylosing-spondylitis]]。
+**DISH 的骨化像融化的蠟燭油沿前縱韌帶流注（≥4 連續椎節），但椎間盤高度維持、小面關節與薦髂關節全身而退。** 關鍵鑑別 AS：AS 是細的 syndesmophyte（竹節脊椎）＋薦髂關節早期受累；DISH 是粗的流注狀骨贅＋薦髂正常＋無 facet ankylosis。記憶鉤：**「DISH 不進關節，AS 不離關節」**。
 
 ## Summary
 - **DISH 典型徵象**：[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-15
 
 # cleidocranial-dysplasia
 
-**Cleidocranial dysplasia 同時有：膜性＋軟骨內骨化缺陷、wormian bones、鎖骨變形（發育不良/缺如）——三者皆是。** 判讀分水嶺一：**雖以膜性骨為主，長骨（軟骨內）亦受累**；判讀分水嶺二：**鎖骨發育不良→肩可過度內收/下垂**＋顱縫延遲閉合與多顆 wormian bones 為招牌。
+**Cleidocranial dysplasia 的名字藏著兩個線索：cleido（鎖骨）＋cranial（顱骨），兩端同時出問題。** 影像三招牌：①多發 wormian bones＋顱縫延遲閉合；②鎖骨發育不良或缺如（肩可異常靠攏）；③超多牙齒（supernumerary teeth）。雖名稱著重「膜性骨」，但長骨的軟骨內骨化也受累——所以「膜性＋軟骨內缺陷」並存，不要只記一個。
 
 ## Summary
 - **遺傳/本質**：罕見骨骼發育不良、體染色體顯性（RUNX2）；以**膜性骨**受累為主，但**長骨（軟骨內/enchondral）亦有缺陷**——故「膜性＋軟骨內骨化缺陷」成立。[^1]

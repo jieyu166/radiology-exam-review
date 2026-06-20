@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # empty-sella
 
-**空蝶鞍＝蛛網膜下腔（CSF）經『缺損的 diaphragma sellae』疝入蝶鞍,壓扁垂體。MRI 鞍內訊號同 CSF、骨性蝶鞍可擴大重塑、垂體仍可正常強化。是 diaphragma sellae（鞍膈）缺損所致,『非 dorsum sellae（鞍背）缺損』。** 判讀分水嶺一：**缺損在 diaphragma sellae（鞍膈）**;判讀分水嶺二：**CSF 訊號＋垂體仍正常強化＝多為偶見、無臨床意義**。
+**空蝶鞍是 CSF 從「鞍膈（diaphragma sellae）」的破洞鑽進蝶鞍，壓扁垂體；不是鞍背（dorsum sellae）壞掉。** MRI 上鞍內訊號跟 CSF 一樣、蝶鞍骨性輪廓可擴大重塑，但垂體殘留組織仍能正常強化，多為偶發、無臨床意義。記憶鉤：**「鞍膈是蝶鞍的『天花板』，天花板破洞，CSF 漏進來把垂體壓扁」**；考題陷阱在「dorsum sellae 缺損」——那是鞍背，不是天花板。
 
 ## Summary
 - **機轉**：CSF 經**缺損/不全的 diaphragma sellae（鞍膈）**疝入蝶鞍（見於約 20% 人口）;故「因 **dorsum sellae（鞍背）**缺損所致」**錯誤**＝題目正解（2016-172 正解 D）。[^1]

@@ -17,7 +17,7 @@ same:
 
 # ctd-ild
 
-**CTD-ILD＝結締組織疾病引起的間質肺病,影像最常為 NSIP 型;年輕（<55 歲）男性出現 UIP 樣纖維化要先想 CTD 而非 IPF。** 判讀分水嶺一：**最常見影像型態＝(fibrotic) NSIP（subpleural sparing、GGO）＞ UIP**;判讀分水嶺二：**CTD-UIP 有別於 IPF 的特徵（如『straight-edge』、『exuberant honeycomb』、『anterior upper lobe』徵）;fOP、anterior upper lobe＋lower lobe 界限分明常見於 antisynthetase/polymyositis**。**IPAF＝具自體免疫特徵但未達 CTD 確診**。
+**結締組織病打肺，最常打出的是 NSIP 型（subpleural sparing、GGO），不是 UIP。** 分水嶺：年輕（<55 歲）或女性出現 UIP 樣纖維化，要先懷疑是 CTD 而非 IPF——CTD-UIP 常帶 straight-edge、exuberant honeycombing、anterior upper lobe 等反常徵象。IPAF 是中間過渡態：有自體免疫線索但尚未達確診標準，需追蹤。記憶鉤：**「年輕纖維化先查免疫、NSIP＞UIP」**。
 
 ## Summary
 - **常見影像型態**：**NSIP（尤 fibrotic NSIP）最常見**;其次 UIP、OP（含 [[organizing-pneumonia|fibrosing OP]]）、LIP。[^1]

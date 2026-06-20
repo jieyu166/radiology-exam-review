@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # coronary-artery-variants
 
-**冠狀動脈常見變異：myocardial bridging（中段 LAD 最常見）、dual LAD（分型 I–IV）、LAD 與 PDA 的代償關係。** 判讀分水嶺一：**Myocardial bridging 最常見於『LAD 中段』（心肌覆蓋一段冠狀動脈，收縮期受壓）**;判讀分水嶺二：**Dual LAD Type I＝short LAD 走近端 AIVS、long LAD epicardial 於 LV 側、再入遠端 AIVS;LAD（繞心尖）與 PDA 互為代償**。
+**冠狀動脈變異考三個獨立考點，各自有一個「最容易記錯」的地方。** Myocardial bridging（心肌橋）最常見於 LAD「中段」而非近/遠端，收縮期受壓產生 milking 效應。Dual LAD Type I 的空間鏈：short LAD 走近端 AIVS → long LAD 繞 LV 側走 epicardial → 再進入遠端 AIVS（記成「近端─繞彎─遠端歸位」）。LAD 與 PDA 互為代償：LAD 繞心尖長則 PDA 短，反之亦然——一長一短、此消彼長。
 
 ## Summary
 - **Myocardial bridging**：心肌橋覆蓋一段冠狀動脈;**最常見於 LAD 中段（middle segment）**;收縮期 "milking"。[^1]

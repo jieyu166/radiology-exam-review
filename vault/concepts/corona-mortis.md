@@ -11,7 +11,7 @@ dateRev: 2026-06-18
 
 # corona-mortis
 
-**Corona mortis＝跨『恥骨上枝(superior pubic ramus)』後方 Retzius 腔的 obturator 與 external iliac/inferior epigastric 之間的變異吻合,損傷可致難止大出血。** 判讀分水嶺一：**動脈吻合於 obturator 與 external iliac 或 deep inferior epigastric 之間;跨 superior pubic ramus（距恥骨聯合 ~35–72 mm）**;判讀分水嶺二：**盛行率不算極高（動脈 ~17%、靜脈 ~42%、合併 ~49%）;骨盆出血栓塞時應警覺此變異,但『常規檢查 external iliac』之強制說法過度**。
+**Corona mortis（「死亡冠」）是 obturator 與 external iliac/deep inferior epigastric 之間、跨越恥骨上枝後方的變異吻合——骨盆骨折時割破它可引發難以控制的大出血，名字由此而來。** 位置記憶鉤：吻合血管像「皇冠」弧形跨過恥骨上枝後方（Retzius 腔），距恥骨聯合約 35–72 mm。盛行率並非極高（動脈 ~17%、靜脈 ~42%），因此「高盛行率→必須常規檢查 external iliac」的說法措辭過度，為考題陷阱答案。
 
 ## Summary
 - **定義/別名**：「crown of death」;跨 **superior pubic ramus** 後方 space of Retzius 的變異吻合。[^1]

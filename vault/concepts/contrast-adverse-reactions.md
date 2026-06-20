@@ -17,7 +17,7 @@ same:
 
 # contrast-adverse-reactions
 
-**對比劑不良反應分『類過敏(allergic-like/idiosyncratic)』與『生理性(physiologic/dose-related)』,並依時間分急性/遲發/晚期。** 判讀分水嶺一：**急性(<1hr)／遲發 late(1hr–1週)／晚期 very late(>1週);幾乎所有致命反應在前 20 分鐘**;判讀分水嶺二：**急性類過敏風險因子＝曾中重度反應、氣喘、焦慮(Lalli)——『海鮮/碘酒過敏非風險因子』;遲發(DAR)為 T 細胞媒介、maculopapular rash、dimer 風險較高**。處置面（外滲/前用藥細節）見 [[contrast-media-safety]]。
+**對比劑不良反應有兩條分類軸：機轉軸（類過敏 vs 生理性）＋時間軸（急性 <1h → 遲發 1h–1週 → 晚期 >1週）。** 類過敏反應與劑量無關、不一定有抗原抗體證據；幾乎所有致命反應在注射後 20 分鐘內發生。風險因子易考陷阱：海鮮/碘酒過敏「不是」急性類過敏風險因子，反而是曾中重度反應、氣喘、過度焦慮（Lalli effect）才是。遲發反應（DAR）由 T 細胞（非 B 細胞）媒介，非離子二聚體（dimer）風險較高，表現多為 maculopapular rash。
 
 ## Summary
 - **時間分類**：**急性/立即(<1 小時)、遲發 late(1 小時–1 週)、晚期 very late(>1 週)**;**幾乎所有致命反應在注射後前 20 分鐘**。[^1][^2]

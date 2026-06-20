@@ -13,7 +13,7 @@ same:
 
 # cavitary-lung-nodule
 
-**空洞性肺病灶＝厚/不規則壁包繞氣體（中央壞死經支氣管排出）。常見原因含腫瘤（尤 squamous cell carcinoma）、感染（TB、膿瘍、septic emboli）、自體免疫（GPA/Wegener、類風濕結節）；PCP（肺囊蟲肺炎）以毛玻璃/囊狀（pneumatocele）表現，『最不會』以空洞性結節表現。** 判讀分水嶺一：**SCC、Wegener、septic emboli 皆典型空洞**；判讀分水嶺二：**PCP＝GGO/囊腔，非厚壁空洞結節**。
+**空洞性肺結節的本質是壞死組織液化後經支氣管排出，留下厚壁含氣腔；常見原因涵蓋惡性（SCC 最易空洞）、感染（TB、膿瘍、septic emboli）、自體免疫（GPA、類風濕結節）。** 考場 EXCEPT 題型的答案往往是 PCP：肺囊蟲肺炎以瀰漫毛玻璃為主，可形成薄壁囊腔（pneumatocele），並不形成厚壁空洞結節。記憶鉤：「PCP 是毛玻璃人，空洞榜上沒有名」。
 
 ## Summary
 - **Squamous cell carcinoma（鱗狀細胞癌）**：肺癌中**最易空洞**者；cavitating metastases 亦以 SCC 為主。[^1]

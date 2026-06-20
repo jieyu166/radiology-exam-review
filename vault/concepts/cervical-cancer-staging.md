@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # cervical-cancer-staging
 
-**子宮頸癌 MRI 分期關鍵：parametrium 侵犯（→升期）、hydronephrosis（→晚期）、淋巴結轉移（影響預後/TNM N 期）皆影響分期;但『腫瘤侵犯子宮體（uterine corpus）』『不』改變 FIGO/分期。** 判讀分水嶺一：**parametrium / 下 1/3 陰道 / 膀胱直腸 / hydronephrosis＝升期關鍵**;判讀分水嶺二：**子宮體（corpus）延伸不改變分期**。
+**子宮頸癌 MRI 分期的核心是看腫瘤「往外突破了什麼」：穿破基質環侵犯 parametrium → IIB；延伸至下 1/3 陰道/骨盆壁或造成 hydronephrosis → III；侵犯膀胱直腸 → IVA。** 考試常考的反例：腫瘤向上侵犯子宮體（uterine corpus）並不改變 FIGO 分期——子宮體是「向上延伸，不算向外突破」。記憶鉤：「往外突破才升期；往上進子宮體不算出界」。
 
 ## Summary
 - **Parametrium 侵犯**：T2 高訊號腫瘤穿破子宮頸基質低訊號環 → **FIGO IIB（T2b）**(option B 影響分期)。[^1]

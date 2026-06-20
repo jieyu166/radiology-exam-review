@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # cardiac-mri-function
 
-**Cardiac MR（cine SSFP）是量測心室容積與射出分率的參考標準,尤其右心室。** 判讀分水嶺一：**CMR 以 Simpson 法逐切面堆疊、無幾何假設 → RV/LV 容積與 EF 最準確、再現性最高**;判讀分水嶺二：**echo 受幾何假設/聲窗限制、CT 有輻射且時間解析較差、導管 RV 攝影侵入且依賴幾何假設**——故 RV 功能首選 CMR。
+**Cardiac MRI（cine SSFP）是量測心室容積與射出分率的 gold standard，尤其右心室形狀不規則，最需要「逐切面堆疊計算（Simpson 法）」而非幾何假設。** Echo 依賴形狀假設、聲窗受限；CT 有輻射；導管攝影侵入且同樣仰賴幾何假設——只有 CMR 不做幾何假設、直接加總，因此 RV 功能量化首選 CMR。記憶鉤：「RV 長得奇怪、估不準——只有一層一層疊才是真相」。
 
 ## Summary
 - **Cardiac MR（cine）**：**量測 RV/LV 容積與 EF 最準確的方法**（gold standard）;短軸堆疊、Simpson 法、無幾何假設,特別適合形狀不規則的 **右心室**。[^1]

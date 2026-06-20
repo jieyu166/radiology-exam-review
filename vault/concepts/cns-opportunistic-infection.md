@@ -14,7 +14,7 @@ same:
 
 # cns-opportunistic-infection
 
-**DWI 是區分『環狀強化病灶』的最佳序列（化膿性膿瘍中心擴散明顯受限/高 DWI;壞死腫瘤多不受限）;CNS 黴菌病多為免疫低下之伺機性感染;『弓蟲症（toxoplasmosis）是 AIDS 最常見的中樞神經伺機性感染』。三者皆正確。** 判讀分水嶺一：**DWI＝環狀強化 DDx 利器**;判讀分水嶺二：**toxoplasmosis＝AIDS 最常見 CNS 伺機感染**。
+**遇到環狀強化病灶，先想 DWI：膿液黏稠擴散受限（高 DWI/低 ADC），壞死腫瘤不受限——一個序列就能初步分流。** AIDS 患者的 CNS 伺機性感染，首選排除 toxoplasmosis（最常見），典型表現是多發環狀強化、好發基底節、eccentric target sign。記憶鉤：「膿瘍黏→DWI 亮；弓蟲找 AIDS→基底節環」，兩個考點串成一個判讀流程。
 
 ## Summary
 - **DWI 區分環狀強化病灶**：**化膿性膿瘍**中心膿液**擴散明顯受限（DWI 高、ADC 低）**;**壞死/囊變腫瘤**中心多**不受限**——故 DWI 為鑑別最佳序列(option A 正確)。[^1]

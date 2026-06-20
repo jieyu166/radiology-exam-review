@@ -15,7 +15,7 @@ same:
 
 # cerebral-cavernous-malformation
 
-**腦海綿狀血管畸形（cavernoma）＝『桑椹/爆米花狀』混雜訊號病灶,周邊『含鐵血黃素低訊號環』、GRE/SWI『blooming』;少有周邊水腫/腫塊效應（除非近期出血）;常合併『發展性靜脈異常（DVA）』;『強化為微弱或無，並非『完全不強化』』。** 判讀分水嶺一：**popcorn＋周邊低訊號環＋SWI blooming**;判讀分水嶺二：**minimal/no enhancement（『非從不強化』）、合併 DVA**。
+**Cavernoma 的外觀像一顆爆米花（popcorn）或桑椹：內部反覆小出血形成混雜訊號，外包一圈含鐵血黃素低訊號環，GRE/SWI 上 blooming 明顯。** 通常少有周邊水腫（除非近期出血），常合併發展性靜脈異常（DVA）。強化程度是「微弱或無（minimal or no）」——並非「絕對不強化」，這個細節是考試陷阱。記憶鉤：「爆米花有鹽邊（含鐵血黃素環），偶爾還沾一點醬（minimal enhancement）」。
 
 ## Summary
 - **訊號**：**桑椹（mulberry）/爆米花狀混雜訊號 + 周邊含鐵血黃素低訊號環**(option A 對);SWI/GRE blooming。[^1]

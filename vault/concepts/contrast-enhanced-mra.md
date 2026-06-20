@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # contrast-enhanced-mra
 
-**MRA 分『需打釓』與『非對比』兩大類。** 判讀分水嶺一：**需釓＝對比劑增強 MRA(CE-MRA)、time-resolved MRA(TRICKS/TWIST 等動態多時相)**;判讀分水嶺二：**非對比＝time-of-flight(TOF,流入增強)、phase-contrast、cine SSFP(心臟功能)、navigator-gated ECG-triggered 3D whole-heart(用 SSFP 血池對比)**。
+**MRA 分成「要打藥」與「不打藥」兩路：記清楚哪些靠流入/血池天然對比，哪些必須依賴釓劑。** 需打釓的是 CE-MRA 及 time-resolved MRA（如 TRICKS/TWIST，動態多時相抓動靜脈期）；不需打藥的是 TOF（靠流入增強）、phase-contrast、cine SSFP（血池天然高訊號評心室功能）、navigator-gated ECG-triggered 3D whole-heart（同樣用 SSFP 血池）。記憶鉤：「要看時間相、要抓動靜脈→打釓；流入自然亮、血池夠→免打」。
 
 ## Summary
 - **需打釓**：[^1]
