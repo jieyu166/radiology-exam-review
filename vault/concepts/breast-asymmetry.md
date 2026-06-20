@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # breast-asymmetry
 
-**BI-RADS 2013 將 asymmetry 分四型,可疑度與處置各異。** 判讀分水嶺一：**(one-view) asymmetry 僅單一投影可見;focal asymmetry 兩個投影皆見、邊界 concave-outward(非 mass 的 convex);global asymmetry 範圍 >一象限**;判讀分水嶺二：**developing asymmetry(較前片新/變大/更明顯)約 15% 為惡性,即使 US 陰性仍須切片;global 多為正常變異;focal 比 global 更可疑**。
+**乳房不對稱四型的核心差異在於：投影數、範圍、及是否「新出現或變大」。** 記憶梯度：(one-view) asymmetry 只在一個投影可見 → focal asymmetry 兩投影皆見但邊界向內凹（concave-outward，非 mass 的外凸） → global asymmetry 超過一象限但多為正常變異 → **developing asymmetry 是新出現/變大者，約 15% 惡性，US 陰性也不能免切片**。可疑度排序：**focal > global**（別被範圍大的 global 嚇到，它反而最常是正常）。
 
 ## Summary
 - **四型（BI-RADS 2013）**：asymmetry(僅單一投影)、focal asymmetry、global asymmetry、developing asymmetry。[^1][^2]

@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # breast-mri-bpe
 
-**乳房 MRI 的 BPE 與 focus 是判讀正常背景與小病灶的關鍵。** 判讀分水嶺一：**BPE＝正常纖維腺體的對比強化,分 minimal/mild/moderate/marked;與『纖維腺體量(乳房緻密度)不必然相關』、隨時間 progressive、受月經週期影響(黃體期/luteal 最強,第 2 週/7–14 天最弱→排程最佳)**;判讀分水嶺二：**focus＝<5 mm 非特異強化點;多發、被『不強化』正常實質分隔的小點＝BPE 型態(非多發離散病灶)**。
+**BPE 是正常纖維腺體的強化背景，讀懂它的兩大反直覺：「緻密不等於 BPE 多」、「散在小點被正常實質分開就是 BPE，不是多發病灶」。** BPE 程度（minimal/mild/moderate/marked）與乳房緻密度不成正比；強度受月經週期控制——**黃體期最強、第 2 週（7–14 天）最弱，排程非急迫 MRI 優先選第 2 週**。Focus < 5 mm 無法形態學分類；若多發 foci 被「不強化正常實質」隔開，視為 BPE 型態，不要過判。
 
 ## Summary
 - **BPE 程度**：minimal／mild／moderate／marked;於注射後約 **90 秒第一張**評估。[^1]

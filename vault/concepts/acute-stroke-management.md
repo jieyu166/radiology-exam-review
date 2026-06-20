@@ -14,7 +14,7 @@ down:
 
 # acute-stroke-management
 
-**2015 AHA/ASA 重點：『符合條件者照給 IV r-tPA，不可為了搶時間而跳過』，且『不必等 tPA 反應就可進行血管內治療』；影像以 NECT 為決策基礎、CTA/MRA 評估血管，perfusion 用於選病人之效益『未確立』。** 判讀分水嶺一：**IV r-tPA 與血管內治療並行、不互斥**；判讀分水嶺二：**perfusion 選病人＝未證實（Class IIb），不可說「已證實優於 CTA/MRA」**。
+**2015 AHA/ASA 兩個「不可以」：不可跳過 tPA，不可等 tPA 反應再取栓。** tPA 與血管內治療並行、互不阻擋；NECT 多數即可決策，CTA/MRA 若考慮取栓則強烈建議但不得延遲 tPA。考試陷阱：2015 指引對 perfusion 選病人效益「未確立（Class IIb）」，但 2018/2019 起延長窗（6–24h）已翻轉為 Class I——作答前先確認題目問的是哪版指引。
 
 ## Summary — 治療
 - **符合條件者應給 IV r-tPA，即使同時考慮血管內治療**（Class I, LOE A）→ **不可為避免延遲而跳過 tPA**。[^1]

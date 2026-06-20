@@ -14,7 +14,7 @@ up: "[[adrenal-imaging]]"
 > [!info] 從屬（Breadcrumbs）
 > 上層 hub：[[adrenal-imaging]]（腎上腺病灶總覽 / DDx）。本筆記為其子條目（最常見良性實體）。
 
-**腎上腺腺瘤是最常見的腎上腺病灶，鑑別核心在於「揪出細胞內脂質」。** 判讀分水嶺一：non-contrast CT **≤10 HU** 即可確診 lipid-rich adenoma（NECT 與 chemical-shift MR 準確度相當）；判讀分水嶺二：lipid-poor 病灶靠 **washout CT（15 分延遲，APW>60% / RPW>40%）** 或 **chemical-shift MRI（opposed-phase 訊號下降）**。臨床情境決定一切——washout 與訊號下降都可被 pheochromocytoma、RCC/HCC 轉移模擬。
+**腎上腺腺瘤是腎上腺最常見病灶，鑑別的核心思路是「找細胞內脂質」——有脂就是腺瘤。** NECT ≤10 HU 即可確診 lipid-rich adenoma，無需進一步；lipid-poor（>10 HU）則需 15 分鐘 washout CT（RPW>40% 或 APW>60%）或 chemical-shift MRI（opposed-phase 訊號下降）。陷阱：pheochromocytoma 與 RCC/HCC 轉移都可模擬快速 washout 或訊號下降，臨床情境不可省略。
 
 ## Summary
 - **定義 / 流行病學**：腎上腺皮質良性腫瘤，最常見的腎上腺病灶，佔**所有腎上腺腫塊的 60–80%**、>90% incidentaloma；屍解見於約 3–9% 人口、約 5% CT 檢查發現；好發 60–69 歲，糖尿病/高血壓者增加。**即使在已知惡性的病人，偶發腎上腺病灶仍較可能是腺瘤而非轉移。**[^1][^2][^3]

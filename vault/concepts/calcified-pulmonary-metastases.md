@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # calcified-pulmonary-metastases
 
-**會鈣化的肺轉移＝成骨/軟骨基質（osteosarcoma、chondrosarcoma、synovial sarcoma）、黏液腺癌（mucinous adenocarcinoma：大腸、卵巢、乳房）、甲狀腺癌（papillary/medullary）等;肝細胞癌（HCC）『不』屬常見鈣化肺轉移之列。** 判讀分水嶺一：**成骨/軟骨/黏液/甲狀腺＝會鈣化**;判讀分水嶺二：**HCC 不在鈣化肺轉移清單**。
+**肺轉移會鈣化，通常是因為原發腫瘤「會造骨、含軟骨、產黏液、或像甲狀腺鈣化」——記住這四個機轉就能推出清單。** 成骨：osteosarcoma；軟骨：chondrosarcoma、synovial sarcoma；黏液：大腸/卵巢/乳房 mucinous adenocarcinoma；甲狀腺：papillary/medullary carcinoma。**HCC 不在清單**——雖然 HCC 本身肝內有鈣化，但肺轉移通常不鈣化，是考題的「除外」選項。
 
 ## Summary
 - **會鈣化的肺轉移來源**：[^1]

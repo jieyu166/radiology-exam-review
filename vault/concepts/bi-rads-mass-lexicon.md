@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # bi-rads-mass-lexicon
 
-**BI-RADS『mass』需用 shape／margin／density 三軸描述;形狀與邊緣是良惡性關鍵預測。** 判讀分水嶺一：**Shape＝oval（橢圓/蛋形,可含 2–3 個 undulations）／round／irregular（非 round 非 oval,多屬可疑）**;判讀分水嶺二：**Margin＝circumscribed（良性向）／obscured／microlobulated（short-cycle undulations,可疑）／indistinct（可疑）／spiculated（可疑）**;**density＝相對纖維腺體的 X 光衰減**（含脂肪者幾乎都良性）。
+**BI-RADS 描述乳房腫塊用三軸：shape（形狀）、margin（邊緣）、density（密度）——邊緣是良惡性判讀最關鍵的一軸。** Shape 的考試陷阱：oval 允許有 2–3 個 undulations，有三個 undulations 仍叫 oval，不叫 irregular。Margin 記憶鉤：只有 circumscribed（清楚銳利）是良性傾向；microlobulated（短周期波浪、short-cycle undulations）、indistinct、spiculated 皆屬可疑。描述術語用「mass」，「nodule」不是 BI-RADS 認可的詞彙。
 
 ## Summary
 - **Shape**：[^1]

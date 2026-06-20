@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # bowel-wall-layers
 
-**超音波下腸壁＝五層交替高/低回音（gut signature）；由內而外：① superficial mucosa（高回音）② muscularis mucosa（低回音）③ submucosa（高回音、最厚）④ muscularis propria（低回音）⑤ serosa（高回音）。第二個『高回音』層是 submucosa，不是 muscularis mucosa。** 判讀分水嶺一：**高回音＝黏膜表面/黏膜下層/漿膜；低回音＝黏膜肌層/固有肌層**；判讀分水嶺二：**gut signature 保留＝良性；破壞＝惡性**。
+**腸壁超音波五層是「高-低-高-低-高」交替，記憶鉤：「亮-暗-亮-暗-亮」，高回音的三層是黏膜表面、黏膜下層（最厚）、漿膜。** 最常考的錯誤：第二個「高回音」層是 **submucosa（黏膜下層）**，不是 muscularis mucosa——muscularis mucosa 是低回音。由內而外順序：superficial mucosa（高）→ muscularis mucosa（低）→ submucosa（高，最厚）→ muscularis propria（低）→ serosa（高）。臨床判讀：gut signature 五層保留傾向良性發炎，層次破壞傾向惡性浸潤。
 
 ## Summary
 - **五層（內→外）**：[^1]

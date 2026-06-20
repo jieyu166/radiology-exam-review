@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # als-imaging
 
-**ALS 的 MRI 影像標記：『bright tongue sign』與『motor band sign』。** 判讀分水嶺一：**Bright tongue sign＝舌肌 T1 高訊號（慢性去神經致脂肪取代）→ ALS 的診斷性標記**;判讀分水嶺二：**Motor band sign＝運動皮質（precentral gyrus）T2/SWI 低訊號（小膠質鐵沉積）;皮質脊髓束 T2 高訊號**。
+**ALS 有兩個 MRI 標記，一高一低：舌頭 T1 變「亮」（bright tongue）、運動皮質 T2 變「暗」（motor band）。** Bright tongue sign：舌肌因慢性去神經萎縮，脂肪取代致 T1 高訊號，是 ALS 的診斷性標記。Motor band sign：precentral gyrus 沿皮質 T2/SWI 低訊號，反映小膠質細胞鐵沉積；另有皮質脊髓束 T2 高訊號。鑑別：ALD、MLD、PML 均非 bright tongue sign 的病因。
 
 ## Summary
 - **Bright tongue sign**：**舌肌 T1 高訊號**——慢性去神經致脂肪取代;為 **ALS** 的診斷性標記。[^1]

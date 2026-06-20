@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # anomalous-pulmonary-venous-return
 
-**肺靜脈回流異常依引流位置分型;判讀先確認正常『左2右2』四條肺靜脈開口於左心房,再找阻塞與型別。** 判讀分水嶺一：**TAPVR 分 supracardiac、cardiac、infracardiac、mixed 四型**;判讀分水嶺二：**infracardiac 型最易阻塞;supracardiac 型阻塞在垂直靜脈跨左肺動脈處;cardiac 型 TAPVR 可酷似 cor triatriatum**。正常為 4 條肺靜脈（左2右2），『左2右3』為錯誤。
+**肺靜脈沒接回左心房，而是拐彎引流到右側循環——這就是 APVR 的核心。** 正常四條肺靜脈「左2右2」全開口於左心房；TAPVR 依引流終點分四型：supracardiac（上縱膈）、cardiac（冠狀竇/右房）、infracardiac（橫膈下）、mixed。記憶鉤：阻塞風險最高的是「往下鑽過橫膈」的 infracardiac 型，因靜脈需穿越橫膈孔，易受壓；supracardiac 型阻塞點在垂直靜脈「跨越左肺動脈」前方；cardiac 型外觀可酷似 cor triatriatum，兩者都是左心房被膜或異常靜脈隔開。
 
 ## Summary
 - **分型**：**supracardiac、cardiac、infracardiac、mixed**。[^1]

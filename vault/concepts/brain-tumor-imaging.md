@@ -13,7 +13,7 @@ dateRev: 2026-06-19
 
 # brain-tumor-imaging
 
-**各腦腫瘤有特定好發位置與年齡。** 判讀分水嶺：**pilocytic astrocytoma 好發小腦（兒童）；PXA 幾乎只見年輕成人、顳葉皮質；ganglioglioma 為『皮質腫瘤、最常見顳葉(~70%)』非深部；瀰漫浸潤型 astrocytoma 有惡性進展傾向**。
+**選對位置＋對上年齡，腦腫瘤分型就成功一半。** Pilocytic astrocytoma 住小腦（兒童囊＋壁結節）；PXA 幾乎只鎖定年輕成人的顳葉皮質；Ganglioglioma 是「皮質腫瘤」而非深部——最常顳葉（~70%），考試最愛把它說成深部半球；瀰漫浸潤型則天生具惡性進展傾向。記憶鉤：**「小腦小孩（PA）、顳葉年輕（PXA）、顳葉癲癇（GG）、瀰漫轉惡」**。
 
 ## Summary
 - **Pilocytic astrocytoma**：好發**小腦**（兒童），囊＋強化壁結節。[^1]

@@ -13,7 +13,7 @@ up: "[[rib-tumor]]"
 
 # aneurysmal-bone-cyst
 
-**ABC＝良性、膨脹性（blow-out）、偏心、含血液腔隙的骨病變；MRI/CT 見『多房＋fluid-fluid levels』——但 fluid-fluid level 非特異（telangiectatic osteosarcoma 等亦可有）。** 判讀分水嶺一：**膨脹偏心＋fluid-fluid levels＋薄殼**；判讀分水嶺二：**fluid-fluid 非 ABC 專屬**，需排除 telangiectatic osteosarcoma；且 ABC 可**續發**於其他病灶。
+**ABC 是骨頭裡的「血氣球」——偏心膨脹、多房血腔、MRI 見 fluid-fluid levels，但 fluid-fluid 不是 ABC 專屬。** 好發兒童/年輕成人，偏心位於長骨幹骺端，薄硬化殼外包、DSA 乏血管。記憶鉤：ABC vs SBC——ABC「偏心、blow-out 膨脹、buttressing effect」；SBC「中央、膨脹不超骨幹、單房」。Fluid-fluid levels 也可見於 telangiectatic osteosarcoma，出現侵襲性特徵務必排除惡性。
 
 ## Summary
 - **本質**：良性、富 osteoclast-like 巨細胞、含**血液充填腔隙與囊性空間**的膨脹性病變；占原發骨腫瘤 1.4–2.3%。[^1]

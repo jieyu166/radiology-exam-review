@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # adrenoleukodystrophy
 
-**X-linked 腎上腺腦白質失養症（X-ALD）＝過氧化體病、VLCFA 堆積;典型男童（行為異常/學業退步）,MRI 見『雙側頂枕/峰三角（peritrigonal）對稱 T2 高訊號』,由後向前進展、早期侵犯胼胝體壓部（splenium）;『活動性脫髓鞘的周邊 leading edge 強化』。** 判讀分水嶺一：**後部（頂枕/splenium）對稱白質病灶＋周邊強化＝X-ALD**;判讀分水嶺二：**男童＋VLCFA↑＋腎上腺功能不全**。
+**男童行為退步＋腦後部對稱白質 T2 亮＋周邊強化——這是 X-ALD 的三件套。** 過氧化體病，VLCFA 堆積；白質病灶從頂枕（peritrigonal）向前推進，最先侵犯 splenium（胼胝體壓部）。三區帶記憶：中央壞死（T2 最亮）→ 中間活動性脫髓鞘（leading edge 強化）→ 前緣活動帶。鑑別：Alexander 額葉為主；Krabbe 後肢/錐體束及視放射；MS 不對稱且年長。
 
 ## Summary
 - **遺傳/代謝**：X-linked 過氧化體病;**極長鏈脂肪酸（VLCFA）顯著升高**;男童典型。[^1]

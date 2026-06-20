@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # aortic-aneurysm-rupture
 
-**AAA 即將/包覆性破裂有數個 CT 警訊。** 判讀分水嶺一：**增大（快速擴大）、hyperdense crescent sign（壁內/血栓內新鮮出血）、focal discontinuity of wall calcification（鈣化不連續）**;判讀分水嶺二：**draped aorta sign（主動脈後緣貼椎體）、tangential calcium sign**。**單純『血栓增厚』本身非即將破裂徵象**。
+**AAA 快破了，CT 會出現幾個「紅旗」警訊——最重要的是壁內出血形成的高密度新月（crescent sign）。** 記憶鉤：crescent sign 的高密度來自新鮮出血滲入壁內或血栓，形如新月貼著管壁；鈣化局部中斷代表管壁已脆；draped aorta sign 是主動脈後緣失去正常脂肪間隙、直接「披」在椎體上，代表後壁破裂受椎體支撐（包覆性破裂）。考試陷阱：**單純 mural thrombus 增厚不是即將破裂的指標**，不要選它。
 
 ## Summary
 - **即將破裂徵象**：[^1]

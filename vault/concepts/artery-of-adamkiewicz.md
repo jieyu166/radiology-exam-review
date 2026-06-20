@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # artery-of-adamkiewicz
 
-**Adamkiewicz 動脈＝供應下段脊髓的『主要前段髓質動脈（great anterior segmental medullary artery）』,加強前脊髓動脈。特徵『hairpin（髮夾）轉折』與前脊髓動脈吻合;最常起自『左側、T9–T12』。『coathook（衣鉤）configuration』是錯誤描述。** 判讀分水嶺一：**hairpin turn（非 coathook）＝其特徵**;判讀分水嶺二：**左側、thoracolumbar（T9–T12）為主**。
+**Adamkiewicz 動脈是供應胸腰段脊髓的「主力動脈」，一旦術中誤傷就可能造成下肢截癱。** 記憶鉤：它與前脊髓動脈吻合處形成一個「髮夾（hairpin）轉折」——先向下行再急轉向上，形如髮夾；考試常把「coathook（衣鉤）」設為錯誤描述，兩者形狀不同，記「髮夾」即可。起源以**左側（~77%）、T9–T12**為主，手術前 CTA 定位標準。
 
 ## Summary
 - **角色**：胸腰段**主要前段髓質動脈**,加強前脊髓動脈供應下段脊髓(option A 對)。[^1]

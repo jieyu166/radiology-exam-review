@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # acute-pyelonephritis
 
-**急性腎盂腎炎多為『臨床診斷』,影像常正常——僅約 25% 有異常;非顯影 CT 通常正常或僅見腎腫大,診斷性所見（striated nephrogram、楔形低強化區）需『顯影後』CT;CT 評估範圍與併發症優於超音波。** 判讀分水嶺一：**非顯影 CT 多正常/腎腫大**;判讀分水嶺二：**顯影後見 striated nephrogram、楔形 reduced enhancement**。
+**急性腎盂腎炎是臨床診斷，影像多正常——僅約 25% 有異常所見。** 非顯影 CT 多正常或僅見腎腫大；診斷性特徵（striated nephrogram、楔形低強化區）要靠顯影後 CT 才看得到。記憶鉤：「非顯影＝normal or 腎腫大；顯影＝striated stripe 加楔形缺損」。另須記，cortical rim sign 屬**腎梗塞**（包膜側支）而非腎盂腎炎。
 
 ## Summary
 - **影像常正常**：多數病人**影像正常**,**僅約 25% 有異常所見**;故「約 3/4 異常」**錯誤**(2016-120 選項 A 錯)。[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-15
 
 # adenomyosis-mri
 
-**Adenomyosis 在 MRI 是「邊界不清的肌層增厚 + junctional zone（JZ）增厚 ≥12 mm + 內含 T2 小灶高訊號」——它『不是邊界清楚的腫塊』（那是 leiomyoma）。** 判讀分水嶺一：**JZ 增厚 ≥12 mm**（正常 ≤5 mm）為最易辨識特徵；判讀分水嶺二：**ill-defined（瀰漫/局部增厚）vs leiomyoma 的 well-defined 圓形腫塊**。
+**Adenomyosis 是子宮肌壁裡的「浸潤」，不是「腫塊」——邊界不清才是重點。** MRI 上 junctional zone（JZ）≥12 mm（正常 ≤5 mm）是最易辨識的特徵，T2 肌層內散布小灶高訊號（異位腺體囊變）。記憶鉤：「ill-defined 增厚＝adenomyosis；well-defined 圓形腫塊＝leiomyoma」，兩者可並存，但邊界感是分水嶺。
 
 ## Summary
 - **MRI 為首選**（small-FOV T2 矢狀/軸面）；敏感度 78–88%、特異度 67–93%。[^1]

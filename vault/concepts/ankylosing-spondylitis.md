@@ -13,7 +13,7 @@ same:
 
 # ankylosing-spondylitis
 
-**僵直性脊椎炎（AS）影像特徵：對稱性薦腸關節炎、『細直』縱向 syndesmophytes → bamboo spine、椎體方形化（squaring）、shiny corner（Romanus 病灶）、enthesitis、男性為主、HLA-B27。『Arthritis mutilans』不是 AS 特徵——那是乾癬性關節炎（與類風濕）的破壞性表現。** 判讀分水嶺一：**AS＝對稱、細直 syndesmophyte（縱向）**；判讀分水嶺二：**arthritis mutilans / pencil-in-cup＝psoriatic（非 AS）**。
+**AS 是「由下向上、由後向前」融合的脊椎病——對稱薦腸關節炎先，細直 syndesmophytes 後，最終 bamboo spine。** 男性為主、HLA-B27 相關；椎體方形化（squaring）與 shiny corner（Romanus 病灶）是早期特徵；enthesitis 為全身表現。考試分水嶺：**arthritis mutilans（pencil-in-cup）屬乾癬性關節炎，不是 AS**——這幾乎是每次必考的「非 AS 特徵」。
 
 ## Summary
 - **薦腸關節炎**：通常**對稱**、為早期表現。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # adrenal-lesions
 
-**腎上腺常見病灶要點：結節性增生隨年齡增加且雙側;假性囊腫 T1 高訊號多因出血;嗜鉻細胞瘤約 10% 鈣化。** 判讀分水嶺一：**adrenal cortical nodular hyperplasia＝隨年齡盛行率增加、多雙側/瀰漫、可與腺瘤並存**;判讀分水嶺二：**adrenal pseudocyst T1 高訊號＝出血（非脂肪/鈣化/單純液）;pheochromocytoma 約 10% 含鈣化**。
+**腎上腺三題核心：增生「隨齡雙側」、pseudocyst「T1 亮因出血」、pheo「10% 鈣化」。** 結節性增生隨年齡盛行率上升、多雙側瀰漫（非局灶單側）；pseudocyst T1 高訊號來自出血（非脂肪/鈣化/單純液）；pheochromocytoma 的「10% rule」中含鈣化約 10%。這三點直接對應三道獨立考題。
 
 ## Summary
 - **Adrenal cortical nodular hyperplasia**：**隨年齡盛行率增加**;多**雙側/瀰漫**（非局灶、非單側）;可與腎上腺皮質腺瘤並存。[^1]

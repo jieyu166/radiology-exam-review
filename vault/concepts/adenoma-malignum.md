@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # adenoma-malignum
 
-**Adenoma malignum＝子宮頸的高度分化黏液腺癌亞型,初症常為『水樣分泌』而非出血,預後差。** 判讀分水嶺：**子宮頸間質內多發葡萄串狀囊腫(grape-like cysts)、屬黏液性腺癌亞型;初症常為大量水樣/黏液性分泌（非陰道出血）;早期即腹腔播散、對放化療反應差 → 預後不良；與 Peutz-Jeghers 相關**。
+**子宮頸冒出一串葡萄、卻流出大量水——這是 adenoma malignum 的經典場景。** 本質是高度分化的黏液腺癌亞型，初症為大量**水樣/黏液性**分泌（非陰道出血），影像見子宮頸間質多發葡萄串狀囊腫（grape-like cysts）。外觀雖「良性」，實則早期腹腔播散、對放化療反應差，預後不良；與 Peutz-Jeghers 相關。
 
 ## Summary
 - **本質**：子宮頸**高分化黏液性腺癌亞型**（minimal deviation adenocarcinoma）。[^1]

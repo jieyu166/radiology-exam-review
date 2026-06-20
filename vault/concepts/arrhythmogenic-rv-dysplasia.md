@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # arrhythmogenic-rv-dysplasia
 
-**ARVD＝右心室心肌被脂肪/纖維取代,MRI 可顯示脂肪浸潤、動脈瘤與擴張。** 判讀分水嶺：**MRI 典型＝RV 心肌脂肪浸潤、RV/RVOT 局部動脈瘤（akinetic/dyskinetic bulge）、RV/RVOT 擴張與功能下降**;好發 "triangle of dysplasia"（RVOT、RV 心尖、下壁）。
+**ARVD 的核心是右心室心肌被脂肪與纖維慢慢取代，使 RV 變成容易致命性心律不整的「爛橡皮袋」。** MRI 三聯徵：① RV 心肌 T1 高訊號（脂肪浸潤）、② RV/RVOT 局部 akinetic/dyskinetic 膨出（局部動脈瘤）、③ RV/RVOT 整體擴張與功能下降。記憶鉤：病變好發於 "triangle of dysplasia"——RVOT、RV 心尖、RV 下壁，三角形的三個角，MRI 重點看這三區。
 
 ## Summary
 - **MRI 典型表現（可全部出現）**：[^1]

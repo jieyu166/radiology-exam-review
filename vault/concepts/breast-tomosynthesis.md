@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # breast-tomosynthesis
 
-**數位乳房斷層（DBT）以多角度薄切片消除組織重疊（summation），強項在『腫塊形態、結構扭曲（architectural distortion）、不對稱（asymmetry）的辨識與定位，並降低 recall 約 40%』;但對『微鈣化的形態與分布評估『不』更佳』——薄切片反把鈣化分散到不同層,2D/放大攝影仍為鈣化評估標準。** 判讀分水嶺一：**DBT 強項＝腫塊/結構扭曲/不對稱、recall↓**;判讀分水嶺二：**微鈣化 morphology/distribution 評估非 DBT 強項**。
+**DBT 用薄切片打散組織疊影，讓結構扭曲與腫塊更清晰——但這把「鈣化分散到每一層」，反而更難評估其形態與分布，微鈣化判讀仍靠 2D/放大攝影。** 強項：architectural distortion、asymmetry 辨識定位、篩檢 recall 降低約 40%；限制：微鈣化 morphology/distribution 不優於 2D。記憶鉤：**「DBT 切薄吃掉重疊，卻也把鈣化切散——切薄是雙面刃」**。
 
 ## Summary
 - **消除重疊**：2D 乳攝是 summation image;DBT 薄切片**減少組織重疊偽影**,提升 contrast-to-noise。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # baker-cyst
 
-**Baker cyst＝膝後方積液擴張的 semimembranosus–medial gastrocnemius bursa,常見且與關節腔相通。** 判讀分水嶺一：**經 semimembranosus 與 medial gastrocnemius 肌腱間的頸部與關節腔相通;US/MRI 見此兩結構間積液即為診斷性**;判讀分水嶺二：**很常見（膝 MRI 約 10–41%）;內部回音不能排除（可因出血/碎屑/感染）;破裂可下傳至小腿似 DVT**。
+**Baker cyst 是膝後內側的滑液囊積水——積液從膝關節腔「往後滲」，擠進 semimembranosus 與 medial gastrocnemius 肌腱之間的縫隙。** 診斷性超音波特徵就是：液體坐落在這兩條肌腱之間（頸部徵），不是 gracilis 或 sartorius 旁。兩個常見誤解：① Baker cyst 其實相當常見（膝 MRI 盛行率 10–41%）；② 內部有回音（出血、碎屑）**不能排除**診斷。破裂時積液沿小腿筋膜下滲，臨床似 DVT，需注意鑑別。
 
 ## Summary
 - **本質/位置**：膝後內側 **semimembranosus–medial gastrocnemius bursa** 積液擴張;經兩肌腱間頸部與關節腔相通。[^1]

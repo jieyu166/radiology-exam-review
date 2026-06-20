@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # breast-spiculated-mass
 
-**乳房『毛刺狀（spiculated）腫塊』的 DDx 以惡性與術後/放射狀疤痕為主;黏液癌『不』屬之（呈圓形）。** 判讀分水嶺：**spiculated DDx＝invasive ductal carcinoma、tubular carcinoma、radial scar、postbiopsy/postsurgical scar、fat necrosis;mucinous(colloid) carcinoma 呈『圓形/邊界清楚』腫塊,非毛刺狀**。
+**毛刺狀腫塊（spiculated mass）的鑑別以惡性、術後疤痕、放射狀疤痕為主——反直覺的是黏液癌不在其中，因為它偏向圓形、邊界清楚。** 毛刺來自腫瘤牽拉周圍纖維組織，黏液腺癌因膠狀基質反而推開邊界形成光滑圓形。記憶鉤：**「毛刺拉≠黏液推——黏液癌邊界清楚」**；radial scar（複雜硬化病灶）和 tubular carcinoma 都是典型毛刺，也是重要鑑別。
 
 ## Summary
 - **Spiculated mass DDx**：[^1]

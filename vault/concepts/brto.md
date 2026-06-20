@@ -12,7 +12,7 @@ dateRev: 2026-06-16
 
 # brto
 
-**BRTO 是經 gastro-renal/gastro-caval 分流『逆行』把硬化劑送入胃靜脈曲張、以球囊阻塞滯留之 IR 技術；它『改善』肝性腦病（關閉分流），但會因門脈壓上升而『惡化食道靜脈曲張/腹水』。** 判讀分水嶺一：**逆行＋球囊阻塞＋硬化劑（ethanolamine oleate）**；判讀分水嶺二：**BRTO 後 HE 改善、食道靜脈曲張/腹水可惡化**（與 TIPS 相反）。
+**BRTO 走「逆行」路徑經胃腎/胃腔靜脈分流打入硬化劑，用球囊阻塞讓藥物滯留治療胃靜脈曲張；最重要的取捨：關閉分流後肝性腦病（HE）改善，但門脈壓上升使食道靜脈曲張與腹水可能惡化。** 記憶鉤：**「BRTO 關分流 → 毒素不繞過肝 → HE 改善；但分流一關壓力回衝食道 → 食道靜脈曲張惡化」**——與 TIPS（開分流改門壓但惡化 HE）正好相反。硬化劑首選 ethanolamine oleate。
 
 ## Summary
 - **適應症**：胃靜脈曲張（尤其有 infra-diaphragmatic 門體分流，如 **gastro-renal / gastro-caval shunt**）；**TIPS 禁忌者（高 MELD、肝性腦病）**之替代。[^1]

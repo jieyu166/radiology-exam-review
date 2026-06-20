@@ -13,7 +13,7 @@ dateRev: 2026-06-14
 
 # bronchiectasis
 
-**支氣管擴張的鑑別靠「分布（中央 vs 中段 vs 上/下肺 vs 單側）」與「病灶層級」找線索。** 判讀分水嶺一：**侵犯哪一級支氣管**——中央 vs **中段（mid-order）** vs 周邊；判讀分水嶺二：對應的具名症候群——**中段選擇性 → Williams-Campbell**、**中央氣道擴大 → Mounier-Kuhn**、**單側透亮肺 → Swyer-James**。
+**支氣管擴張的鑑別核心是「哪一層級的氣道受累」——中央、中段（第 4–6 級）、周邊各有對應病因與症候群。** 記憶三個具名症候群：**Williams-Campbell＝中段（mid-order）軟骨缺損，選擇性中段擴張**；**Mounier-Kuhn＝中央氣道（氣管/主支氣管）擴大，非中段**；**Swyer-James＝感染後 bronchiolitis obliterans，單側透亮肺**。記憶鉤：**「W（中段）、M（中央）、S（單側）」——W/M/S 層級由內到外顛倒」**。
 
 ## Summary
 - **Williams-Campbell syndrome**：先天**第 4–6 級（mid-order/subsegmental）支氣管軟骨缺損** → **選擇性中段支氣管擴張**；吸氣時氣囊狀膨大、呼氣時塌陷。[^1]

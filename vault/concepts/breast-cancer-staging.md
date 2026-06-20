@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # breast-cancer-staging
 
-**乳癌 AJCC TNM（T 期）：Tis＝原位癌（DCIS/LCIS/不伴侵犯的乳頭 Paget）;T1mi ≤1 mm;T2 >20 至 ≤50 mm;T4a＝延伸至『胸壁（chest wall：肋骨/肋間肌/前鋸肌）』——『不』含單純 pectoralis 肌侵犯;T4b＝皮膚（潰瘍/衛星結節/peau d'orange 水腫）。** 判讀分水嶺一：**T4a＝胸壁（非 pectoralis 肌）**;判讀分水嶺二：**單純胸大/小肌侵犯不算 T4**。
+**乳癌 T 分期的最大陷阱在 T4a：「胸壁」不等於「胸肌」。** T4a 定義的胸壁是肋骨、肋間肌、前鋸肌——單純侵犯 pectoralis major/minor 不構成 T4，考題最愛把胸肌偷換成胸壁。記憶鉤：**「T4a 要穿透肌肉底下的骨/筋膜層才算」**。其餘定義：Tis＝原位癌，T1mi≤1 mm，T2 跨 20–50 mm，T4b＝皮膚潰瘍/衛星結節/橘皮水腫。
 
 ## Summary
 - **Tis**：原位癌（DCIS、LCIS、不伴侵犯之乳頭 Paget）(option A 對)。[^1]

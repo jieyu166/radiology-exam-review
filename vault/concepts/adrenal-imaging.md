@@ -19,7 +19,7 @@ down:
 > [!info] 從屬（Breadcrumbs）
 > 本筆記為**腎上腺病灶總覽 / DDx hub**（tumor-like & misc）。子條目（具體實體）：[[adrenal-adenoma]]（最常見良性、washout/lipid-rich）。日後可加 pheochromocytoma、myelolipoma、adrenal cortical carcinoma 等為 `down`。
 
-**幾個腎上腺常考點：結節性增生『隨年齡增加』、pseudocyst 的 T1 高訊號『來自出血』、pheochromocytoma『約 10% 鈣化』、雙側界清腫塊/腫大想『感染』、成人腎上腺出血最常見『鈍挫傷』。** 判讀分水嶺一：**雙側 vs 單側**（雙側→增生/感染/出血/轉移）；判讀分水嶺二：**T1 高訊號＝脂肪 or 出血**——pseudocyst 是出血。
+**腎上腺影像五個常考「這是什麼」：增生隨年齡增、pseudocyst T1 亮是出血、pheo 10% 鈣化、雙側腫大想感染、成人出血想鈍挫傷。** 判讀邏輯：看到雙側先想增生/感染/出血/轉移（單側才多想腺瘤/ACC）；T1 高訊號二選一——脂肪（如 myelolipoma）或出血（pseudocyst 是出血演變而來）。
 
 ## Summary
 - **腎上腺皮質結節性增生**：**隨年齡增加**而盛行率上升；常**雙側、多結節**（非單一焦點/單側），且**可與腺瘤並存**。[^2]（049：B）
