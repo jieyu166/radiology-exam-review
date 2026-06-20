@@ -1,6 +1,7 @@
 /* =====================================================
    format.js - safe Markdown-like rendering and toolbar
-   Supports: **bold**, *italic*, [[concept|label]], ![alt](data/images/...)
+   Supports: **bold**, *italic*, [[concept|label]],
+            ![alt](data/images/...) 或 ![alt](https://img-hosting.jieyu166.workers.dev/i/<id>.<ext>)
    ===================================================== */
 
 const Format = (function () {
@@ -123,9 +124,12 @@ const Format = (function () {
   function _safeImageSrc(src) {
     const value = String(src || '').trim().replace(/\\/g, '/');
     if (!value) return '';
-    if (/^(?:https?:|data:|javascript:)/i.test(value)) return '';
     if (value.includes('"') || value.includes("'") || value.includes('<') || value.includes('>')) return '';
+    // (1) local repo images
     if (value.startsWith('data/images/')) return value;
+    // (2) R2 image host — strict allowlist: https://img-hosting.jieyu166.workers.dev/i/<id>.<ext>[?w=&h=&fit=&q=]
+    if (/^https:\/\/img-hosting\.jieyu166\.workers\.dev\/i\/[A-Za-z0-9._\/-]+(?:\?[A-Za-z0-9=&%._-]+)?$/.test(value)) return value;
+    // everything else (data:, javascript:, other hosts) is blocked
     return '';
   }
 
