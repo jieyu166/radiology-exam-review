@@ -27,7 +27,7 @@ dateRev: 2026-06-18
 > 乳攝用**低 kVp(25–35)**——「銠 80–100 kVp」**錯誤**;物件置正中間放大率＝**2**(非 1.4)。Mo/Mo 最常用、MGD ~2 mGy、薄乳劑量低、放大用小焦點皆正確。[^1]
 
 ### 參考來源
-[^1]: 乳房攝影物理標準（ACR Mammography QC／diagnostic physics）：數位 MGD ~2 mGy;低 kVp(Mo ~25–28、Rh ~30–35);Mo/Mo 最常用,緻密乳改 Mo/Rh、Rh/Rh;放大率＝SID/SOD（正中間＝2）;數位解析 5–10 lp/mm;放大用 0.1 mm 焦點。（題目所引）
+[^1]: AAPM/RSNA 乳房攝影物理 tutorials（標題/範圍實際查證 accessed 2026-06-20;全文需訂閱,下列為標準乳攝物理數值,主題涵蓋於這兩篇權威 tutorial）：Mahesh M. *AAPM/RSNA Physics Tutorial for Residents: Digital Mammography — An Overview*. RadioGraphics. 2004;24(6). doi:10.1148/rg.246045102（數位乳攝物理、平均腺體劑量、偵測器/解析度）;Villafana T. *Generators, X-ray Tubes, and Exposure Geometry in Mammography*. RadioGraphics. 1990;10(3). doi:10.1148/radiographics.10.3.2343172（摘要明列 target/filter 組合、focal spot、曝光幾何/放大率）。要點：低 kVp（Mo ~25–28、Rh ~30–35,非 80–100）、Mo/Mo 最常用而緻密乳改 Mo/Rh、Rh/Rh、數位 MGD ~2 mGy、放大率＝SID/SOD（正中間＝2）、放大用 0.1 mm 小焦點、數位 limiting resolution ~5–10 lp/mm。
 
 ## 題目
 > [!question]- 關於 mammography,何者「不」正確? (2017-016)
