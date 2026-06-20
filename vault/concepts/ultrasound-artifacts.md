@@ -21,7 +21,7 @@ same:
 ## Summary
 - **Posterior enhancement**：病灶衰減少於周邊軟組織→後方回音增強。[^1]
 - **Mirror artifact**：強反射面（**骨、頸動脈後壁**等）使結構在鏡像位置重複出現（含 color Doppler）。[^1]
-- **Ring-down**：**氣泡/氣體**使超音波引起**共振振動**→後方連續高回音帶（金屬亦可）。[^1]
+- **Ring-down**：**氣泡/氣體**間困住的液體**共振**→後方連續高回音帶;Radiopaedia 明載 ring-down **『僅』與氣泡相關**。**金屬/膽固醇結晶**造成外觀相似但機轉不同的 **comet-tail**,勿與 ring-down 混為一談。[^1]
 - **Refraction**：聲束於不同聲速介面折射;**最常見於腹直肌與腹內脂肪交界**。[^1]
 - **Aliasing（都卜勒）**：當**都卜勒頻移 > Nyquist 極限（＝PRF 的一半）**時發生,即**取樣率(PRF)『小於』兩倍頻移**;表現為頻譜/彩流反摺。[^1]
 
@@ -30,7 +30,7 @@ same:
 > - **2016-193 正解 C**：Aliasing 的描述「occurs when sampling rate is **more than** twice the Doppler shift」**錯**——應為**取樣率『小於』兩倍頻移（頻移超過 Nyquist=PRF/2）**才 aliasing。A（ring-down 氣體/金屬）、B（partial torsion 高阻力波形）皆正確。
 
 ### 參考來源
-[^1]: 超音波偽影標準物理教學（mirror／ring-down／refraction／posterior enhancement／aliasing）。**Aliasing 依 Nyquist：頻移 > PRF/2（取樣率 < 2×頻移）時發生**;ring-down＝氣泡共振;refraction 常見腹直肌-腹脂交界。相關速度/衰減偽影見 [[ultrasound-speed-artifact]]、[[ultrasound-attenuation]]。
+[^1]: Radiopaedia *Ultrasound artifacts*、*Aliasing artifact*、*Ring down artifact*（實際查證 accessed 2026-06-20）：aliasing＝Doppler 間歇取樣率不足、無法正確記錄方向/速度（Nyquist：頻移 > PRF/2、即取樣率 PRF < 2×頻移時發生）;ring-down＝『僅』氣泡間困住液體共振→後方連續訊號（金屬/膽固醇之相似外觀屬機轉不同的 comet-tail）;mirror＝強反射面鏡像;refraction 常見於腹直肌-腹脂交界。相關速度/衰減偽影見 [[ultrasound-speed-artifact]]、[[ultrasound-attenuation]]。
 
 ## 題目
 > [!question]- Aliasing 何時發生?（193 關鍵）
