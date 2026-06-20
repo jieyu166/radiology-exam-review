@@ -12,7 +12,7 @@ up: "[[acute-stroke-management]]"
 
 # aspects-score
 
-**ASPECTS 是 MCA 區域的 10 分量化評分：『從 10 分起、每個受累區域扣 1 分』，所以正常 CT＝10 分（不是 0）。** 判讀分水嶺一：**10→扣分制**（正常=10、全受累=0）；判讀分水嶺二：**10 區＝皮質 7 分（insula＋M1–M6）＋深部 3 分（caudate＋lentiform＋internal capsule）**。
+**ASPECTS 是 MCA 區域的 10 分量化評分,記憶關鍵是『倒扣制』:像考試從滿分 10 開始,每出現一個早期缺血的區域就扣 1 分。所以正常 CT＝10 分（不是 0）——這正是考試最愛挖的陷阱。** 判讀分水嶺一：**10→扣分制**（正常=10、全受累=0）；判讀分水嶺二：**10 區＝皮質 7 分（insula＋M1–M6）＋深部 3 分（caudate＋lentiform＋internal capsule）**。
 
 ## Summary
 - **範圍 0–10 分**；用於 **MCA 區域**急性中風（另有 posterior circulation 改良版 pc-ASPECTS）。[^1]

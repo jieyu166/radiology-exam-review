@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # salter-harris
 
-**Salter-Harris 生長板骨折五型（SALTR 記憶）：I Slipped（僅經生長板）、II Above（經生長板+幹骺端,『最常見 ~75%』）、III Lower（生長板+骨骺）、IV Through（貫穿骨骺-生長板-幹骺端）、V Rammed（壓砸,預後最差）。最常見＝Type II。** 判讀分水嶺一：**type II ~75% 最常見**;判讀分水嶺二：**型號越高（III–V 累及骨骺/關節面）預後越差**。
+**Salter-Harris 生長板骨折五型（SALTR 記憶）。把生長板想成夾心餅乾的『夾心層』,骨折線跟它的相對位置就是分型關鍵:I Slipped（只經夾心/生長板）、II Above（夾心＋上面的幹骺端,『最常見 ~75%』）、III Lower（夾心＋下面的骨骺）、IV Through（上下貫穿骨骺-生長板-幹骺端）、V Rammed（整層被壓砸,預後最差）。最常見＝Type II。** 判讀分水嶺一：**type II ~75% 最常見**;判讀分水嶺二：**型號越高（III–V 累及骨骺/關節面）預後越差**。
 
 ## Summary
 - **Type I（Slipped）**：骨折線僅經生長板;預後好。[^1]

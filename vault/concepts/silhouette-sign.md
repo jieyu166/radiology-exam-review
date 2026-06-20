@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # silhouette-sign
 
-**Silhouette sign 用『邊界消失』定位病灶於相鄰結構同一前後平面;incomplete border sign 用『邊界不全』辨別肺外病灶。** 判讀分水嶺一：**邊界消失＝病灶與該軟組織邊界相鄰（同密度、同平面）→ 定位**;判讀分水嶺二：**incomplete border sign＝肺外（pleural/extrapleural/胸壁）病灶部分邊緣清楚、部分糊;但肺內病灶若向胸膜/肺外延伸亦可有**。
+**Silhouette sign 原理一句話:X 光看得到邊界,是因為兩個『不同密度』的東西相鄰（如心臟 vs 含氣肺）;若病灶跟某結構『同密度又貼在一起』,中間的邊界就糊掉消失——邊界消失在哪,病灶就落在那個結構的同一前後平面。incomplete border sign 則反過來,用『邊界不全』辨別肺外病灶。** 判讀分水嶺一：**邊界消失＝病灶與該軟組織邊界相鄰（同密度、同平面）→ 定位**;判讀分水嶺二：**incomplete border sign＝肺外（pleural/extrapleural/胸壁）病灶部分邊緣清楚、部分糊;但肺內病灶若向胸膜/肺外延伸亦可有**。
 
 ## Summary
 - **Silhouette sign 定位對應**：[^1]

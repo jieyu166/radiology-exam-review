@@ -11,7 +11,7 @@ dateRev: 2026-06-19
 
 # tetralogy-of-fallot
 
-**TOF＝四聯（RVOT 阻塞、VSD、主動脈跨騎、右心室肥厚）;術前 CT/MRI 須特別找出多種常合併的異常。** 判讀分水嶺一：**四聯主體＋RVOT 狹窄程度評估**;判讀分水嶺二：**常合併異常——異常 LAD 自 RCA 跨越 RVOT（手術關鍵）、persistent left SVC、右位主動脈弓(~25%)、tracheal/RUL bronchus、肺動脈閉鎖時的 MAPCA**。
+**TOF＝四聯,英文記憶 PROVe:P=Pulmonary stenosis（RVOT 阻塞）、R=RVH（右心室肥厚）、O=Overriding aorta（主動脈跨騎）、V=VSD;這四個其實是同一個胚胎錯誤（漏斗中膈往前偏移）連帶造成的。考試重點往往不在背四聯,而在『術前 CT/MRI 要找出哪些常合併的異常』。** 判讀分水嶺一：**四聯主體＋RVOT 狹窄程度評估**;判讀分水嶺二：**常合併異常——異常 LAD 自 RCA 跨越 RVOT（手術關鍵）、persistent left SVC、右位主動脈弓(~25%)、tracheal/RUL bronchus、肺動脈閉鎖時的 MAPCA**。
 
 ## Summary
 - **四聯**：RVOT 阻塞（肺動脈狹窄）、VSD、主動脈跨騎(overriding aorta)、右心室肥厚。[^1]

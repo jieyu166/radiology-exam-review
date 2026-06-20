@@ -17,7 +17,7 @@ same:
 
 # hypersensitivity-pneumonitis
 
-**HP＝吸入抗原引起的免疫媒介肺炎;影像核心是『小葉中心結節＋mosaic/氣體滯留』,headcheese（three-density）sign 為特徵。** 判讀分水嶺一：**非纖維化 HP＝瀰漫毛玻璃、上中肺為主小葉中心結節、mosaic＋吐氣 air-trapping**;判讀分水嶺二：**纖維化 HP（chronic HP）＝網狀/纖維化＋上中肺或瀰漫、可有 honeycombing,但仍常見 mosaic/air-trapping、頭乳酪徵** → 易與 UIP/NSIP 混淆。**Headcheese sign＝GGO＋mosaic（air-trapping）＋正常肺三種密度並存**＝three-density sign。
+**HP＝吸入抗原引起的免疫媒介肺炎;影像核心是『小葉中心結節＋mosaic/氣體滯留』,headcheese（three-density）sign 為特徵。Headcheese 直譯是『豬頭肉凍』——切面深淺斑駁,正好對應肺裡三種密度混在一起的樣子。** 判讀分水嶺一：**非纖維化 HP＝瀰漫毛玻璃、上中肺為主小葉中心結節、mosaic＋吐氣 air-trapping**;判讀分水嶺二：**纖維化 HP（chronic HP）＝網狀/纖維化＋上中肺或瀰漫、可有 honeycombing,但仍常見 mosaic/air-trapping、頭乳酪徵** → 易與 UIP/NSIP 混淆。**Headcheese sign＝GGO＋mosaic（air-trapping）＋正常肺三種密度並存**＝three-density sign。
 
 ## Summary
 - **非纖維化 HP**：[^1]

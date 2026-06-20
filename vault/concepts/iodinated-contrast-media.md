@@ -18,7 +18,7 @@ same:
 
 # iodinated-contrast-media
 
-**含碘對比劑以『離子性 vs 非離子性 × monomer vs dimer』分類,決定滲透壓;碘的高原子序提供 X 光衰減。** 判讀分水嶺一：**滲透壓 ionic monomer（HOCM）≫ non-ionic monomer（LOCM）＞ non-ionic dimer（IOCM, iso-osmolar≈血漿)**;判讀分水嶺二：**靜脈注射後為細胞外對比劑、分布於血管＋間質（不入細胞、腎絲球過濾排泄）;腦血管攝影因 BBB 完整僅留血管內;鞘內(intrathecal)只准特定低濃度非離子製劑**。
+**含碘對比劑記兩件事就通:一是『碘』負責擋 X 光（原子序高 Z=53）;二是『一個分子帶幾顆有效顆粒』決定滲透壓——顆粒越多越高滲。所以同樣碘量下,離子性（會解離成兩顆）最高滲、非離子單體次之、非離子雙體（一顆裝兩個碘環、顆粒最少）最接近血漿。** 判讀分水嶺一：**滲透壓 ionic monomer（HOCM）≫ non-ionic monomer（LOCM）＞ non-ionic dimer（IOCM, iso-osmolar≈血漿)**;判讀分水嶺二：**靜脈注射後為細胞外對比劑、分布於血管＋間質（不入細胞、腎絲球過濾排泄）;腦血管攝影因 BBB 完整僅留血管內;鞘內(intrathecal)只准特定低濃度非離子製劑**。
 
 ## Summary
 - **分類與代表藥**：[^1]
