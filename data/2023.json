@@ -1,6 +1,6 @@
 {
   "year": 2023,
-  "totalQuestions": 188,
+  "totalQuestions": 189,
   "questions": [
     {
       "id": "2023-001",
@@ -6749,6 +6749,43 @@
       "images": [],
       "concepts": [],
       "checked": false
+    },
+    {
+      "id": "2023-189",
+      "year": 2023,
+      "number": 189,
+      "years": [
+        2023
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following adverse contrast reactions of water-soluble contrast medium is included in the **Nonidiosyncratic (dose-related)** reactions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pulmonary edema"
+        },
+        {
+          "letter": "B",
+          "text": "Renal failure"
+        },
+        {
+          "letter": "C",
+          "text": "Cardiac arrhythmia"
+        },
+        {
+          "letter": "D",
+          "text": "Facial laryngeal edema"
+        }
+      ],
+      "correctAnswer": "",
+      "reference": "ESUR Guidelines on Contrast Agents v2025（hypersensitivity 分類列 facial/laryngeal oedema）；ACR Manual on Contrast Media 嚴重度分級；概念 [[contrast-adverse-reactions]]",
+      "explanation": "**送分（題目有瑕疵、無單一正解）。** 題問「哪一項屬 Nonidiosyncratic（dose-related，即生理性）反應」,但 (A) Pulmonary edema、(B) Renal failure、(C) Cardiac arrhythmia **三者皆屬生理性/non-idiosyncratic、與劑量相關**——單選題卻有三個正解;而公布答案 (D) Facial laryngeal edema 實屬**類過敏(allergic-like/idiosyncratic)、與劑量無關**（ESUR 2025 hypersensitivity 分類與 ACR 嚴重度分級皆明列 facial/laryngeal oedema 為類過敏）,故 (D) 反而是錯誤選項。題目單選卻有複數正解、且公布答案有誤 → 送分。分類詳見概念。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": true
     }
   ]
 }
