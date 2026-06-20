@@ -18,13 +18,13 @@ dateRev: 2026-06-19
 - **降 frame rate（脈衝透視）**：**直接減少病人與工作人員劑量**。[^1]
 - **站位**：散射主要來自病人**入射（X 光管）側** → 工作人員應**站在影像接收器側**,勿站 X 光管側。[^1]
 - **幾何**：影像接收器(II)**貼近病人**、避免拉長 air gap;放大模式/大視野增加劑量。[^1]
-- 其他：縮短透視時間、用 last-image-hold、適當準直、鉛屏蔽。[^1]
+- 其他：縮短透視時間、last-image-hold、適當準直;**遠離散射源（操作者劑量依距離平方反比遞減）**、穿鉛衣/甲狀腺護蓋、懸吊鉛屏。[^1]
 
 > [!note] 考點：C 臂血管介入,何者可降低工作人員劑量?
 > **降低透視 frame rate**。C 臂倒置時應站影像接收器側（非 X 光管側）、勿拉長 source-detector air gap、勿用過大視野。[^1]
 
 ### 參考來源
-[^1]: 透視輻射防護（官方 2016 詳解；Bushberg, The Essential Physics of Medical Imaging 3rd ed. p.309）：降 frame rate 減劑量;站影像接收器側避散射;II 貼近病人;縮短時間/準直/屏蔽。
+[^1]: 透視輻射防護標準物理：Bushberg JT, et al. *The Essential Physics of Medical Imaging* 3rd ed., p.309（官方 2016 詳解所引）＋ ICRP/NCRP 職業劑量原則。本次以 Radiopaedia *Fluoroscopy* 確認基本構造,**操作者劑量細節以 Bushberg 為據**：脈衝/降 frame rate 減劑量;散射主要來自病人入射（X 光管）側 → 站影像接收器側;II 貼近病人（縮短 air gap）;放大/大視野增劑量;距離平方反比、準直、屏蔽。
 
 ## 題目
 > [!question]- 使用 C 臂執行血管攝影介入,何者可能降低工作人員劑量? (2016-258)
