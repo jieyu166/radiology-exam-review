@@ -13,6 +13,13 @@ const ExamMode = (function () {
     submitted: false,
   };
 
+  /* ── 送分題判定 ──
+     correctAnswer 留空＝送分題：考試模式一律算對（含未作答），不列入錯題。
+     目前全庫僅送分題會留空，其餘題匯入時必有答案。 */
+  function _isBonus(q) {
+    return !q || !q.correctAnswer || !String(q.correctAnswer).trim();
+  }
+
   /* ── 初始化 ── */
   function init() {
     /* 考試設定頁 */
@@ -113,7 +120,9 @@ const ExamMode = (function () {
     const optHtml = (q.options || []).map(opt => {
       let cls = '';
       if (submitted) {
-        if (opt.letter === q.correctAnswer) cls = 'correct';
+        if (_isBonus(q)) {
+          if (opt.letter === selectedAnswer) cls = 'correct';   // 送分：你選的算對
+        } else if (opt.letter === q.correctAnswer) cls = 'correct';
         else if (opt.letter === selectedAnswer) cls = 'wrong';
       } else {
         if (opt.letter === selectedAnswer) cls = 'selected';
@@ -132,6 +141,9 @@ const ExamMode = (function () {
       : '';
 
     const expCls  = submitted ? 'visible' : '';
+    const bonusHtml = (submitted && _isBonus(q))
+      ? `<div class="exam-explanation visible" style="border-left:3px solid var(--success);color:var(--success);font-weight:700;">🎁 送分題：本題一律計為答對</div>`
+      : '';
     const expHtml = q.explanation
       ? `<div class="exam-explanation ${expCls}">${_esc(q.explanation)}</div>`
       : '';
@@ -144,6 +156,7 @@ const ExamMode = (function () {
       <p class="exam-question-text">${_esc(q.questionText)}</p>
       ${images}
       <ul class="exam-options">${optHtml}</ul>
+      ${bonusHtml}
       ${expHtml}
     `;
 
@@ -239,7 +252,8 @@ const ExamMode = (function () {
       let cls = '';
       if (submitted) {
         const ans = answers[q.id];
-        if (!ans) cls = '';
+        if (_isBonus(q)) cls = 'correct';            // 送分一律算對
+        else if (!ans) cls = '';
         else cls = (ans === q.correctAnswer) ? 'correct' : 'wrong';
       } else {
         if (answers[q.id]) cls = 'answered';
@@ -268,7 +282,8 @@ const ExamMode = (function () {
 
     questions.forEach(q => {
       const ans = answers[q.id];
-      if (!ans) { skipped++; wrongItems.push({ q, ans: null }); }
+      if (_isBonus(q)) { correct++; }                       // 送分一律算對（含未作答），不列入錯題
+      else if (!ans) { skipped++; wrongItems.push({ q, ans: null }); }
       else if (ans === q.correctAnswer) { correct++; }
       else { wrong++; wrongItems.push({ q, ans }); }
     });
