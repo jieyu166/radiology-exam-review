@@ -14,6 +14,7 @@ dateRev: 2026-06-19
 # choledochal-cyst
 
 **先天膽道囊腫以 Todani 分五型;最常見為 type I,choledochocele 是 type III（非 IV）。** 判讀分水嶺一：**Type I（膽總管囊狀/梭狀擴張）最常見(~77–80%)**;判讀分水嶺二：**Type II＝膽總管憩室;Type III＝choledochocele（十二指腸內遠端膽總管囊腫）;Type IVa/b＝多發肝內外或多發肝外;Type V＝Caroli disease（肝內膽管囊狀擴張）**。
+![[ADD Todani classification.png]] from Radiopaedia
 
 ## Summary
 - **Type I**：膽總管囊狀/梭狀擴張,**最常見(~77–80%)**。[^1]

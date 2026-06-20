@@ -57,7 +57,7 @@ T1 iso-/hypo、T2/T2FS hyper（內部不均）、T1FS+C 明顯不均勻強化；
 
 ## 圖示參考
 > 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；圖號於本機 PDF 核實。出自 [^8]（Kuhlman Radiology 1986, DOI 10.1148/radiology.160.1.3012630）。
-> 本機原文（gitignore、未隨 repo 發佈）：[[kuhlman1986.pdf]]
+> 本機原文（gitignore、未隨 repo 發佈）：[[1986 R Skeletal metastases from hepatoma.pdf]]
 - **Fig 1**：22 例骨轉移分布示意（圈內數字＝該部位病人數；肋骨/脊椎最多）。
 - **Fig 2**：股骨溶骨轉移＋病理性骨折（permeative、無反應性硬化）。
 - **Fig 3**：**肋骨轉移之大 extrapleural 腫塊**＋骨破壞（對應本案）。
@@ -74,7 +74,7 @@ T1 iso-/hypo、T2/T2FS hyper（內部不均）、T1FS+C 明顯不均勻強化；
 [^5]: Seo HJ, Kim GM, Kim JH, et al. *¹⁸F-FDG PET/CT in hepatocellular carcinoma: detection of bone metastasis and prediction of prognosis*. Nucl Med Commun. 2015;36(3):226-233. https://doi.org/10.1097/MNM.0000000000000246 （Based on articles retrieved from PubMed；PET/CT vs 骨掃描 region-based 96.7% vs 52.7%；分布 骨盆 20%/腰椎 14%/長骨 13%；高 AFP 不良預後）。
 [^6]: Kim S, Chun M, Wang H, et al. *Bone metastasis from primary hepatocellular carcinoma: characteristics of soft tissue formation*. Cancer Res Treat. 2007;39(3):104-108. https://doi.org/10.4143/crt.2007.39.3.104 （Based on articles retrieved from PubMed；軟組織腫塊常見、骨掃描低估範圍、放療前須 CT/MRI）。
 [^7]: Nam SJ, Kim S, Lim BJ, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （全文已讀；轉移為年長者最常見骨腫瘤；無鈣化的侵襲性大腫塊→懷疑轉移或肉瘤；骨轉移 T1 iso-/hypo、T2 hyper）。
-[^8]: Kuhlman JE, Fishman EK, Leichner PK, Magid D, Order SE, Siegelman SS. *Skeletal metastases from hepatoma: frequency, distribution, and radiographic features*. Radiology. 1986;160(1):175-178. https://doi.org/10.1148/radiology.160.1.3012630 （**全文已讀**，本機 PDF [[kuhlman1986.pdf]]：300 例切片確診 HCC 中 22 例（7.3%）骨轉移、17 男 5 女、平均 54 歲、骨轉移後中位存活 14.9 月；平片**全部溶骨**、邊界 ill-defined permeative、少反應性硬化（除非放療後）；分布 肋骨 13／脊椎 13／股骨 11／骨盆 7／肱骨 5／顱骨 4；**肋骨轉移常見大 extrapleural 腫塊＋病理性骨折**；CT 最能顯示破壞與未預期 bulky 軟組織腫塊；**骨掃描（Tc-99m MDP）呈增加攝取、gallium avid**（與 hepatoma 相同，因 ferritin 可 I-131 antiferritin 標靶）；近端股骨為病理性骨折好發；骨轉移多為晚期表現但可為首發）。
+[^8]: Kuhlman JE, Fishman EK, Leichner PK, Magid D, Order SE, Siegelman SS. *Skeletal metastases from hepatoma: frequency, distribution, and radiographic features*. Radiology. 1986;160(1):175-178. https://doi.org/10.1148/radiology.160.1.3012630 （**全文已讀**，本機 PDF [[1986 R Skeletal metastases from hepatoma.pdf]]：300 例切片確診 HCC 中 22 例（7.3%）骨轉移、17 男 5 女、平均 54 歲、骨轉移後中位存活 14.9 月；平片**全部溶骨**、邊界 ill-defined permeative、少反應性硬化（除非放療後）；分布 肋骨 13／脊椎 13／股骨 11／骨盆 7／肱骨 5／顱骨 4；**肋骨轉移常見大 extrapleural 腫塊＋病理性骨折**；CT 最能顯示破壞與未預期 bulky 軟組織腫塊；**骨掃描（Tc-99m MDP）呈增加攝取、gallium avid**（與 hepatoma 相同，因 ferritin 可 I-131 antiferritin 標靶）；近端股骨為病理性骨折好發；骨轉移多為晚期表現但可為首發）。
 [^9]: Ross JS. *Lytic Osseous Metastases*. STATdx（Spine, Dx），updated 2025-02-25. Elsevier（第六來源交叉比對：脊椎為骨轉移最常見部位、**病灶分布與紅骨髓成比例（腰＞胸＞頸）**、骨掃描可偽陰性、平片需 50–70% 骨破壞才顯；溶骨原發列 renal/lung/breast/thyroid/**GI tract（含 hepatobiliary）**/urothelial/ovarian/melanoma 等，HCC 歸 GI 未單列）（實際查證 accessed 2026-06-15）。
 
 ## 題目

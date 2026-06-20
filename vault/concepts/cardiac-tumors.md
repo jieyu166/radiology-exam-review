@@ -25,7 +25,11 @@ down:
 - Lipoma 亦為常見良性，但非最常見原發。
 
 > [!note] 「最常見」一次釐清
-> 原發（成人）＝**myxoma**；兒童＝rhabdomyoma；瓣膜＝papillary fibroelastoma；原發惡性＝sarcoma；整體心臟腫塊＝**轉移**。[^1]
+> 原發（成人）＝**myxoma**；
+> 兒童＝rhabdomyoma；
+> 瓣膜＝papillary fibroelastoma；
+> 原發惡性＝sarcoma；成人Angiosarcoma；小兒rhabdomyosarcoma
+> 整體心臟腫塊＝**轉移**。[^1]
 
 ### 參考來源
 [^1]: *Cardiac myxoma*. Radiopaedia.org。成人**最常見原發心臟腫瘤（~50%）**；兒童則 rhabdomyoma 較常見（實際查證 accessed 2026-06-15）。題目另引 *Cardiovascular Imaging Review*, 2011。其餘「最常見」分類為標準心臟腫瘤教學。

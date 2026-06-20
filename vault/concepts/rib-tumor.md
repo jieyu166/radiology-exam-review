@@ -45,10 +45,12 @@ down:
 
 ## 年齡分層鑑別（STATdx：Solitary Rib Lesion）
 **年齡是最關鍵的鑑別分水嶺。**[^5]
+
 | 族群 | 常見肋骨病灶 |
 | --- | --- |
 | **兒童** | fibrous dysplasia、Ewing sarcoma / **Askin tumor**、giant cell tumor、aneurysmal bone cyst、Langerhans cell histiocytosis、轉移（**neuroblastoma**）[^5] |
 | **成人** | **metastatic disease、multiple myeloma、chondrosarcoma**（本案 71 歲屬此）[^5] |
+
 > 多數所列病灶常為多發（polyostotic），但可單發於肋；**評估其他骨骼病灶**有助鑑別。[^5]
 
 ## 範例分析（左第 11 肋：expansile＋皮質破壞＋病理性骨折＋不均勻強化＋restricted diffusion）
@@ -59,7 +61,7 @@ down:
 - **一般成人排序（無已知原發時）**：轉移 ≈ 漿細胞瘤/骨髓瘤 > Ewing/PNET（年輕則躍升）> 淋巴瘤 > chondrosarcoma（僅高惡性度/dedifferentiated 才考慮）。年齡與原發癌病史為關鍵分水嶺。[^1][^2]
 
 ### 參考來源
-[^1]: Nam SJ, Kim S, Lim BJ, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （**全文已讀**，本機 PDF [[nam2011.pdf]]：系統性思路依年齡/病史/位置/影像；轉移為年長者最常見骨腫瘤；**無鈣化的侵襲性大腫塊→懷疑轉移或肉瘤**，有鈣化則想 osteosarcoma/chondrosarcoma；原發胸壁骨腫瘤約 95% 在肋骨、胸骨腫瘤多惡性、肋骨病灶良惡各半；Table 1 myeloma/met T1 iso-hypo、T2 hyper）。
+[^1]: Nam SJ, Kim S, Lim BJ, et al. *Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation*. RadioGraphics. 2011;31(3):749-770. https://doi.org/10.1148/rg.313105509 （**全文已讀**，本機 PDF [[2011 RG Imaging of Primary Chest Wall Tumors with Radiologic-Pathologic Correlation.pdf]]：系統性思路依年齡/病史/位置/影像；轉移為年長者最常見骨腫瘤；**無鈣化的侵襲性大腫塊→懷疑轉移或肉瘤**，有鈣化則想 osteosarcoma/chondrosarcoma；原發胸壁骨腫瘤約 95% 在肋骨、胸骨腫瘤多惡性、肋骨病灶良惡各半；Table 1 myeloma/met T1 iso-hypo、T2 hyper）。
 [^2]: Nam JG, et al. *Imaging Evaluation of Malignant Chest Wall Neoplasms*. RadioGraphics. 2016;36(6):1285-1306. https://doi.org/10.1148/rg.2016150208 （全文已讀：>50% 胸壁腫瘤為惡性；CT 評骨、MRI 評軟組織；涵蓋 chondrosarcoma/Ewing/plasmacytoma/metastasis）（實際查證 accessed 2026-06-15）。
 [^3]: *Ewing sarcoma of the chest wall*. Radiopaedia.org。兒童與年輕成人；大型侵襲不均勻軟組織腫塊、強烈強化、鈣化少；Askin/pPNET 同家族（實際查證 accessed 2026-06-15）。
 [^4]: *Chondrosarcoma*. Radiopaedia.org。好發年長者；肋骨~8%、前肋/肋軟骨交界；ring-and-arc 軟骨基質、中央高含水→高 T2；低惡性度為低細胞/高含水（高 ADC）（實際查證 accessed 2026-06-15）。
