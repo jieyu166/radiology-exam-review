@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # retroperitoneal-fibrosis
 
-**後腹膜纖維化(Ormond)＝包繞主動脈/IVC/輸尿管的纖維軟組織斑塊;IVP 三聯為上段輸尿管腎積水＋輸尿管『中段內側偏移(medial deviation)』＋輸尿管漸進變細——『外側(lateral)偏移』是錯的。** 判讀分水嶺一:**輸尿管被往內側拉(medial deviation)**(與腫瘤外推相反);判讀分水嶺二:**斑塊由腎門/主動脈周圍延伸至 common iliac**。
+**後腹膜纖維化（Ormond / IgG4 相關）的記憶鉤：斑塊「包住往裡拉」輸尿管——IVP 三聯為腎積水＋輸尿管中段「內側」偏移（medial deviation）＋漸進變細；手術正因此要把輸尿管往外側（lateral transposition）移回來，「外側偏移」是考試陷阱。** 判讀分水嶺一：**輸尿管中 1/3 內側偏移（medial deviation），非外側**；判讀分水嶺二：**斑塊包繞腎下主動脈周圍、強化依纖維化活性而異（活動期↑）**。
 
 ## Summary
 - **本質**:包覆**腎下主動脈、IVC、輸尿管**的纖維發炎斑塊(慢性 periaortitis);典型自腎下主動脈周圍延伸,常致**單/雙側輸尿管 entrapment**與不同程度 hydronephrosis/hydroureter。[^1]

@@ -17,7 +17,7 @@ same:
 
 # progressive-fibrosing-ild
 
-**PF-ILD/PPF＝把『非 IPF 但仍會持續纖維化惡化』的 ILD 挑出來的功能性表型;約 1/3 的非 IPF ILD 屬之。** 判讀分水嶺一：**概念＝跨疾病的『進行性表型』,不論原診斷（CTD-ILD、cHP、fibrotic NSIP、unclassifiable 等）只要持續纖維化進展即適用抗纖維化治療**;判讀分水嶺二：**2022 ATS/ERS/JRS/ALAT『PPF』診斷＝非 IPF 的纖維化 ILD,過去一年內符合 3 項中 ≥2 項（症狀惡化／生理惡化／影像惡化）且無其他解釋**。
+**PF-ILD/PPF 的核心概念：非 IPF 的纖維化 ILD 中約 1/3 會持續惡化，表現「像 IPF 一樣停不下來」，因此同樣適用抗纖維化治療（nintedanib）。** 2022 ATS/ERS/JRS/ALAT 診斷要求：過去一年內符合三項中 ≥2 項（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像纖維化惡化）且無其他解釋。判讀分水嶺一：**「進行性表型」是跨越原診斷的功能性標籤，不換診斷，只加治療決策**；判讀分水嶺二：**影像進展以牽引性支氣管擴張增加最早、最可靠（優於 honeycombing）**。
 
 ## Summary
 - **概念**：**非 IPF 的纖維化 ILD 中,約 1/3 會出現持續進展（progressive phenotype）** → 預後與 IPF 相近,可考慮抗纖維化藥（nintedanib）。[^1]

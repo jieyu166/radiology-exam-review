@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # retinoblastoma
 
-**Retinoblastoma＝兒童『最常見的眼內惡性腫瘤』,典型『鈣化的視網膜腫塊』,以『leukocoria（白瞳）』表現。兒童眼球內鈣化＝retinoblastoma until proven otherwise。『視網膜 hemangioblastoma（capillary hemangioma，VHL 相關）並非兒童最常見視網膜腫瘤』。** 判讀分水嶺一：**兒童眼球鈣化腫塊＝retinoblastoma**;判讀分水嶺二：**leukocoria 為典型表現,但白瞳鑑別多（Coats、PHPV、ROP 等）**。
+**兒童眼球內鈣化腫塊＝retinoblastoma until proven otherwise；白瞳（leukocoria）是最常見臨床表現，但白瞳鑑別廣（Coats、PHPV、ROP、Toxocara）。hemangioblastoma 是 VHL 相關的成人視網膜腫瘤，不是兒童最常見，此點為考試陷阱。** 判讀分水嶺一：**兒童眼球鈣化腫塊 → retinoblastoma 首選（CT 顯示鈣化最佳，非 DWI）**；判讀分水嶺二：**hemangioblastoma（VHL）≠ 兒童最常見視網膜腫瘤**。
 
 ## Summary
 - **最常見**：retinoblastoma 是**兒童最常見的眼內腫瘤**;故「**hemangioblastoma 是兒童最常見視網膜腫瘤**」**錯誤**＝題目正解（2016-166 正解 A）。視網膜 hemangioblastoma 為 VHL 相關,非最常見。[^1]

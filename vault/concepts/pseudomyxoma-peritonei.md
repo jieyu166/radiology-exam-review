@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # pseudomyxoma-peritonei
 
-**Pseudomyxoma peritonei＝腹膜黏液性腫瘤,『扇貝狀壓迫肝脾(scalloping)』為特徵,多源自闌尾,女略多於男。** 判讀分水嶺：**腹膜內膠狀黏液沉積壓迫肝脾邊緣呈 scalloping(扇貝狀)、可含分隔與鈣化、多源自闌尾黏液性腫瘤（亦可卵巢）;性別女略多（M:F ≈ 9:11，非男多）**。
+**Pseudomyxoma peritonei＝闌尾黏液性腫瘤破裂後膠狀物播種腹膜，CT 指紋是肝脾邊緣被壓成扇貝狀（scalloping），不像單純腹水那樣只把器官推開。** 判讀分水嶺一：**scalloping＝膠體壓迫，非位移，且可含分隔與鈣化**；判讀分水嶺二：**性別陷阱——女略多於男（M:F ≈ 9:11）**，「男性較常見」為非。記憶鉤：「膠水黏扇貝」＝膠狀黏液（Jelly belly）把肝脾邊緣壓凹如扇貝。
 
 ## Summary
 - **Scalloping**：膠狀黏液壓迫**肝、脾邊緣呈扇貝狀(scalloping)**——特徵性（與單純腹水的位移不同）。[^1]

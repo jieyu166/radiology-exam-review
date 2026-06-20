@@ -14,7 +14,7 @@ same:
 
 # septic-pulmonary-emboli
 
-**敗血性肺栓塞＝多發、周邊、下肺為主的結節，常空洞化、不同階段並存（可呈 migratory），且常見『feeding vessel sign』。** 判讀分水嶺一：**周邊／下肺基底為主**（血行播散）；判讀分水嶺二：**結節＋空洞＋feeding vessel**＋臨床菌血症（IVDU、感染性心內膜炎、導管感染）。
+**敗血性肺栓塞的因果記憶：菌血症→細菌隨血流到下肺周邊→多發結節→壞死空洞；「血管直通結節」就是 feeding vessel sign，是此症的特徵，不罕見；不同批次栓子造成大小不一、多階段並存（migratory）。** 判讀分水嶺一：**多發、周邊、下肺基底為主（血行播散）**；判讀分水嶺二：**空洞化＋feeding vessel sign（特徵，非 uncommon）**＋臨床菌血症（IVDU、心內膜炎、導管感染）。
 
 ## Summary
 - **分布**：**多發、雙側、周邊、下肺（基底）為主**的結節（血行播散）。[^1]（故「predilection for lung bases」正確）

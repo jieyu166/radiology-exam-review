@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # pulmonary-infection-signs
 
-**多個肺感染影像徵象各對應特定病。** 判讀分水嶺一：**Monad sign＝既存空洞內真菌球(mycetoma)周圍的空氣新月;finger-in-glove＝ABPA 黏液栓塞擴張支氣管;water-lily(camalote)＝包蟲囊內膜漂浮於殘液**;判讀分水嶺二：**signet ring sign＝『支氣管擴張』(擴張支氣管＋伴行肺動脈),非 paragonimiasis 早期表現**。
+**四個肺感染影像徵象每個對應一個病原，monad/finger-in-glove/water-lily 各有其主，signet ring 則是考題陷阱。** 判讀分水嶺一：monad sign＝空洞內真菌球周圍的空氣新月（mycetoma）；finger-in-glove＝ABPA 黏液栓讓支氣管看起來像手套塞著手指；water-lily（camalote）＝hydatid 囊內膜剝離漂浮。判讀分水嶺二：**signet ring sign＝支氣管擴張（擴張支氣管＋較小的伴行動脈），不是肺吸蟲早期表現**。記憶鉤：monad 月亮彎弓射菌球；finger-in-glove 過敏塞手套；water-lily 包蟲漂內膜；戒指（signet ring）永遠屬於支氣管擴張。
 
 ## Summary
 - **Monad sign**：既存肺空洞內**真菌球(aspergilloma/mycetoma)** 周圍的空氣新月(air-crescent)。[^1]

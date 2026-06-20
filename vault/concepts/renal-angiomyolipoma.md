@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # renal-angiomyolipoma
 
-**含脂肪的腎/腹膜後巨大病灶,靠『血管度 + 腎實質缺損 + 起源』區分 AML 與脂肪肉瘤。** 判讀分水嶺一：**AML 富血管（含動脈瘤樣血管,可破裂出血 Wunderlich 症候群）、且常見『腎實質缺損（renal parenchymal defect）』與供應血管延伸入腎**;判讀分水嶺二：**retroperitoneal liposarcoma 乏血管（hypovascular）、外推腎臟、無腎實質缺損**。「病灶內動脈瘤樣血管」指向 AML。
+**巨大腹膜後含脂肪病灶的分水嶺在「血管」：AML 富血管（動脈瘤樣血管延入腎皮質＋腎實質缺損 / beak sign），脂肪肉瘤 hypovascular；找到「病灶內動脈瘤樣血管」即鎖定 AML。** 判讀分水嶺一：**AML → 腎實質缺損＋供應血管深入腎皮質；>4 cm 微動脈瘤破裂 → Wunderlich syndrome**；判讀分水嶺二：**脂肪肉瘤 → hypovascular、外推腎臟、無腎實質缺損**。
 
 ## Summary
 - **AML**：PEComa,由**血管、平滑肌、脂肪**組成;TSC 相關者多發雙側。富血管,**>4 cm 易因微動脈瘤破裂自發出血（Wunderlich syndrome）**。[^1]

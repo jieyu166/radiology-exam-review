@@ -13,7 +13,7 @@ dateRev: 2026-06-14
 
 # pulmonary-amyloidosis
 
-**Amyloidosis = 細胞外「錯誤摺疊蛋白纖維」沉積（Congo red 染色、偏光下 apple-green birefringence）——是蛋白，不是澱粉。** 判讀分水嶺一：胸部三型——**nodular parenchymal（AL，結節/腫塊、可鈣化、緩慢、預後佳）／tracheobronchial（環狀壁增厚、累及後壁膜）／diffuse alveolar-septal（網狀結節、預後較差）**；判讀分水嶺二：**tracheobronchial 累及後壁膜**，與「保留後壁」的 relapsing polychondritis、TBO 關鍵相反。
+**Amyloidosis 是錯誤摺疊蛋白纖維的細胞外沉積（名稱誤稱澱粉，本質是蛋白），胸部依形態分三型，各有影像指紋。** 判讀分水嶺一：三型對應——**nodular（AL，結節可鈣化、預後佳）→ tracheobronchial（環狀壁厚、累及後壁膜）→ diffuse alveolar-septal（網狀結節、預後差）**。判讀分水嶺二：**tracheobronchial amyloidosis 累及後壁膜**，而 relapsing polychondritis 與 TBO「保留後壁」——前後壁是中央氣道病的關鍵分流。記憶鉤：「澱粉非澱粉（Congo red 染蛋白）；後壁被侵是 amyloid，後壁留著是軟骨炎」。
 
 ## Summary
 - **本質**：細胞外 amyloid（錯誤摺疊蛋白纖維）沉積；以 **Congo red 染色、偏光下 apple-green birefringence** 確認——**是蛋白、非澱粉**（amyloid 為誤稱）。[^1]

@@ -14,7 +14,7 @@ same:
 
 # ra-cervical-spine
 
-**類風濕關節炎頸椎（尤 C1–C2）：齒突侵蝕、寰樞椎前脫位（ADI >3mm 屈曲位）、apophyseal/facet 關節融合,以及『atlantoaxial impaction＝cranial settling＝C2 向『頭側（cephalad）』移位/basilar invagination』。『C2 向尾側（caudal）移位』不是 RA 表現。** 判讀分水嶺一：**RA＝C2『上移（cranial settling）』,非下移**;判讀分水嶺二：**ADI >3mm（屈曲）＝寰樞不穩,齒突侵蝕**。
+**RA 頸椎（C1–C2 為主）有四個經典表現，考題陷阱是「cranial settling＝C2 向頭側移位（basilar invagination）」，而非向尾側。** 判讀分水嶺一：**RA 四特徵＝齒突侵蝕、寰樞前脫位（ADI >3 mm 屈曲位）、apophyseal 融合、cranial settling**，這四個全部正確。判讀分水嶺二：**cranial settling＝C2『頭側』移位（cephalad migration）**，答「C2 向尾側（caudal）移位」為非——方向反了即是錯誤選項。記憶鉤：RA 使 C2「往上沉」（cranial settling，如同地基被侵蝕後向上崩入顱底），不是往下掉。
 
 ## Summary
 - **齒突侵蝕（erosion of the dens）**(option D 對)。[^1]

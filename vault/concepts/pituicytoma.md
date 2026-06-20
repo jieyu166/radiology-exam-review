@@ -10,7 +10,7 @@ dateRev: 2026-06-17
 
 # pituicytoma
 
-**Pituicytoma＝源自『神經垂體（neurohypophysis）/漏斗部的 pituicytes』的罕見成人腫瘤(『非腺垂體 adenohypophysis』);WHO grade 1、生長緩慢、位於鞍內或鞍上;免疫染色 S-100、vimentin 陽性、EMA 不定。** 判讀分水嶺一：**起源 neurohypophysis/infundibulum（非 adenohypophysis）**;判讀分水嶺二：**WHO grade 1、鞍/鞍上、S100/vimentin 陽性**。
+**Pituicytoma 最常考的陷阱：它源自「神經垂體（neurohypophysis）/漏斗部」，不是腺垂體（adenohypophysis）。** 記憶鉤：pituicyte 是神經垂體的膠質細胞，pituicytoma 就住在「後葉那一側」（鞍內後部或漏斗），WHO grade 1、生長緩慢。判讀分水嶺一：**起源 neurohypophysis/infundibulum（非 adenohypophysis）**；判讀分水嶺二：**WHO grade 1、鞍/鞍上、S100 ＋ vimentin 陽性**。
 
 ## Summary
 - **起源**：**神經垂體（neurohypophysis）與漏斗部的 pituicytes**;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」**錯誤**＝題目正解（2016-187 正解 A,起源錯）。[^1]

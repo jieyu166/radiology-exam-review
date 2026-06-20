@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # polycystic-ovary-syndrome
 
-**PCOS 影像＝卵巢腫大＋『周邊』多發小濾泡（string of pearls）,雙側。** 判讀分水嶺：**卵巢腫大、多發小濾泡呈『周邊(peripheral)排列』→ string of pearls；雙側對稱；中央間質增多**。濾泡在『中央』不是 PCOS 典型（在周邊）。
+**PCOS 的 string of pearls 是「珍珠串掛在卵巢外圈」——濾泡貼著周邊排，中央是增生的間質，雙側對稱。** 考試陷阱正是「濾泡位於中央」——那不是 PCOS 典型，典型是周邊（peripheral）排列。判讀分水嶺：**卵巢腫大 ＋ 多發小濾泡周邊排列（string of pearls）＋ 中央間質回音增多 ＋ 雙側**。
 
 ## Summary
 - **卵巢腫大**、雙側對稱。[^1]

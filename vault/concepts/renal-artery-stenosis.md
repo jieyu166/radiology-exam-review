@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # renal-artery-stenosis
 
-**腎動脈狹窄的 Doppler 判讀＝『狹窄處 PSV ↑ + 下游 tardus-parvus』,但介入與否還要看『腎臟大小與實質 RI』。** 判讀分水嶺一：**血流動力學顯著狹窄＝PSV >180–200 cm/s、renal-aortic ratio >3.5、下游 tardus-parvus（AT >0.07 s）**;判讀分水嶺二：**小腎（<8 cm 萎縮）＋ 實質高阻力（RI >0.8）＝腎實質已纖維化／腎硬化,血管重建多無效 → 不介入**。
+**腎動脈狹窄 Doppler 的因果鏈：狹窄→局部 PSV ↑（>180 cm/s）→下游水流緩慢（tardus-parvus，AT >0.07 s）；但萎縮小腎（<8 cm）＋高實質 RI（>0.8）代表末期腎硬化，修通血管也無效，即使看到狹窄也不介入。** 判讀分水嶺一：**PSV >180–200 cm/s、RAR >3.5、AT >0.07 s → 血流動力學顯著狹窄**；判讀分水嶺二：**小萎縮腎＋高 RI → 腎實質已纖維化，血管重建無效 → 不介入**。
 
 ## Summary
 - **狹窄直接徵象**：狹窄處 **PSV >180–200 cm/s**、renal-aortic ratio (RAR) >3.5、aliasing。[^1]

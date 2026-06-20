@@ -12,7 +12,7 @@ dateRev: 2026-06-14
 
 # sclerosing-pneumocytoma
 
-**Sclerosing pneumocytoma（原 sclerosing hemangioma）= 中年女性、孤立、邊界清楚的圓形良性肺結節，強烈強化、生長慢、可手術根治。** 判讀分水嶺一：**圓/卵圓、邊界清楚、均質**（不是不規則）——傾向良性；判讀分水嶺二：**顯著（雖可不均）強化**反映其血管成分，且**air-meniscus sign** 可為線索。
+**Sclerosing pneumocytoma 的關鍵：「圓、清楚、強烈強化」的良性肺結節，好發中年亞洲女性；「不規則」是惡性腫瘤的特徵，不屬於 sclerosing pneumocytoma，此點是常考陷阱。** 判讀分水嶺一：**圓/卵圓＋邊界清楚＋均質（非不規則）→ 良性傾向**；判讀分水嶺二：**顯著強化（hemangiomatous 成分）＋air-meniscus sign**；生長緩慢，手術根治。
 
 ## Summary
 - **本質**：罕見**良性**肺腫瘤；組織學四成分（solid、papillary、sclerotic、hemangiomatous），有薄纖維假包膜。[^1]

@@ -12,7 +12,7 @@ same:
 
 # renal-oncocytoma
 
-**腎嗜酸細胞瘤＝源自集尿管嗜酸性上皮的良性腫瘤;典型『中央星狀疤痕』、血管攝影呈『spoke-wheel(輪輻)』——『bizarre neoplastic vessels＋AV shunting』是 RCC、不是 oncocytoma。** 判讀分水嶺一:**中央放射狀低密度疤痕＋spoke-wheel 血管**;判讀分水嶺二:影像無法可靠與 RCC 區分,多需切除確診。
+**腎 oncocytoma 的記憶鉤：外觀像車輪（spoke-wheel 血管攝影）、中心有疤（星狀疤痕）、本身良性；「bizarre neoplastic vessels＋AV shunting」是 RCC 的特徵，oncocytoma 沒有。** 判讀分水嶺一：**中央星狀疤痕＋spoke-wheel 血管 → oncocytoma 典型**；判讀分水嶺二：**bizarre vessels / AV shunting → 屬 RCC，非 oncocytoma**；影像仍難與 RCC 可靠區分，多需手術確診。
 
 ## Summary
 - **本質**:良性,由**集尿管嗜酸性(eosinophilic)上皮細胞**組成。[^1]

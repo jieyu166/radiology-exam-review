@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # prostate-mpmri
 
-**多參數攝護腺 MRI（mpMRI）＝『T2WI ＋ DWI（含 ADC map）＋ 動態對比增強（DCE）』三組序列（PI-RADS 評估基礎）。Opposed-phase（化學位移/Dixon）『不』屬 mpMRI 序列。** 判讀分水嶺一：**周邊區（PZ）以 DWI/ADC 主導、移行區（TZ）以 T2 主導**;判讀分水嶺二：**opposed-phase 是腎上腺/肝脂肪評估,非攝護腺 mpMRI**。
+**攝護腺 mpMRI 的三組序列是「結構＋細胞密度＋灌流」：T2WI 看形態、DWI/ADC 看細胞密度（PZ 主導）、DCE 看血流（二元開關）。** Opposed-phase（化學位移）是肝、腎上腺的工具，不屬於 mpMRI——這是唯一的排除考點。判讀分水嶺一：**PZ → DWI/ADC、TZ → T2WI 主導**；判讀分水嶺二：**opposed-phase 不屬 mpMRI 序列**。
 
 ## Summary
 - **三大序列**：[^1]

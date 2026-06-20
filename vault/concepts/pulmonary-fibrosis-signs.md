@@ -16,7 +16,7 @@ same:
 
 # pulmonary-fibrosis-signs
 
-**HRCT 判定『纖維化』看四要素：reticulation、honeycombing、traction bronchiectasis、volume loss;牽引性支氣管擴張是『早期』且與預後相關的指標。** 判讀分水嶺一：**honeycombing＝subpleural 簇狀囊（壁共用、壁厚 1–3 mm、單層即可）＝established fibrosis,但已是『晚期』、與預後關聯弱**;判讀分水嶺二：**traction bronchiectasis（grade 1 周邊→2 中央→3 周邊＋中央）＝早期纖維化指標、其進展與 mortality 相關（優於 honeycombing）**;**Gatlin gun sign＝多平面看才知是支氣管擴張而非 honeycombing**。
+**HRCT 纖維化四要素（reticulation、honeycombing、traction bronchiectasis、volume loss）中，蜂巢肺是晚期終點，牽引性支氣管擴張才是早期且預後更敏感的指標。** 判讀分水嶺一：**honeycombing＝subpleural 共壁簇狀小囊（1–3 mm 壁、單層即足）＝established fibrosis，但預後關聯弱**。判讀分水嶺二：**traction bronchiectasis 分三級（周邊→中央→兩者皆有），進展與 mortality 相關，優於 honeycombing 作為預後指標**。判讀分水嶺三：**Gatlin gun sign＝單平面像蜂巢肺，換平面才知是支氣管擴張**，提醒多平面驗證。
 
 ## Summary
 - **纖維化四要素**：reticulation、**honeycombing**、**traction bronchiectasis**、**volume loss**。[^1]

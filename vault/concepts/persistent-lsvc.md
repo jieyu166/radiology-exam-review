@@ -12,7 +12,7 @@ dateRev: 2026-06-16
 
 # persistent-lsvc
 
-**PLSVC 是最常見的胸腔先天靜脈異常；它沿縱膈左側下行、**多數經 coronary sinus 引流入『右心房』(~90%+)**、少數才引流入左心房（致右→左分流）；影像招牌＝dilated coronary sinus。** 判讀分水嶺一：**引流路徑＝coronary sinus → 右心房（最常見、無分流）vs 左心房（少數、右→左分流）**；判讀分水嶺二：**擴大的冠狀竇＋左側縱膈靜脈**。
+**PLSVC 是最常見的胸腔先天靜脈異常，核心記憶：「左側縱膈血管影 → 追到 dilated coronary sinus → 問它流去哪」。** 約 90% 經 coronary sinus 引流入右心房（無症狀偶然發現）；少數直接入左心房才產生右→左分流。判讀分水嶺一：**引流路徑決定臨床意義**——coronary sinus → 右心房（最常見、無分流）vs 直接入左心房（少數、可致反常栓塞）；判讀分水嶺二：**dilated coronary sinus 是影像線索，見之需排除 PLSVC**。
 
 ## Summary
 - **最常見的胸腔先天靜脈異常**。[^1]（選項 A 正確）

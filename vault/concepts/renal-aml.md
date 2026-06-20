@@ -13,7 +13,7 @@ same:
 
 # renal-aml
 
-**腎 AML＝含異常血管＋平滑肌＋『脂肪』的良性腫瘤;『含脂肪』是其招牌、『鈣化罕見』(有鈣化要想 RCC);多發 AML 想 tuberous sclerosis;>4 cm 出血風險高→常建議處置(栓塞/部分腎切除)。** 判讀分水嶺一:**找肉眼脂肪(macroscopic fat)→ 良性 AML**;判讀分水嶺二:**鈣化罕見**——若有鈣化偏向 RCC。
+**腎 AML 的兩大記憶點：「有脂肪→良性、有鈣化→想 RCC」；名稱即組成：angio（血管）＋myo（平滑肌）＋lipoma（脂肪），三者缺一考慮 fat-poor 亞型。** 判讀分水嶺一：**CT 見肉眼脂肪（macroscopic fat）→ 良性 AML 首選**；判讀分水嶺二：**鈣化罕見——出現鈣化偏向 RCC**；>4 cm 出血（Wunderlich）風險高→多建議介入。
 
 ## Summary
 - **本質**:良性,由**異常血管＋平滑肌＋脂肪**組成(angio-myo-lipoma);CT/MR 找**肉眼脂肪**為診斷關鍵。[^1]

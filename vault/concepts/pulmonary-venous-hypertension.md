@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # pulmonary-venous-hypertension
 
-**二尖瓣狹窄/左心衰致肺靜脈高壓的胸片變化分四期,依肺靜脈壓上升序列。** 判讀分水嶺一：**Stage I（~13–18 mmHg）＝血流重分布/cephalization、上肺血管擴張、『肛門角（hilar angle）消失』**;判讀分水嶺二：**Stage II（~18–25）＝間質水腫（Kerley B、peribronchial cuffing）;Stage III（>25）＝肺泡水腫（蝙蝠翼）;Stage IV（慢性）＝含鐵血黃素沉積、骨化結節**。
+**肺靜脈高壓四期是胸片上壓力爬升的時間軸：從血管重分布（Stage I）→ 間質水腫（II）→ 肺泡水腫（III）→ 慢性變化（IV），每期對應不同影像。** 判讀分水嶺一：**Stage I 特徵是「cephalization＋loss of hilar angle」**，此時尚無水腫；考題最愛考 Stage I 的「hilar angle 消失」。判讀分水嶺二：**Stage IV（慢性二尖瓣狹窄）＝含鐵血黃素沉積＋骨化結節**，是長期慢性肺靜脈高壓才有的終末表現。記憶鉤：「一重分布角消失，二間質 Kerley，三肺泡蝙蝠翼，四慢性鐵骨化」。
 
 ## Summary
 - **Stage I（重分布）**：肺靜脈壓輕升 → **上肺血管擴張、cephalization、loss of hilar angle**。[^1]

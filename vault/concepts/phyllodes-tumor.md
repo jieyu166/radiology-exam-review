@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # phyllodes-tumor
 
-**乳房葉狀腫瘤（phyllodes）＝源自小葉間質的纖維上皮腫瘤,典型『大、快速生長』,影像非特異、常 well-circumscribed、可酷似 fibroadenoma;但『若未廣泛切除易『局部復發』』(復發並非罕見),約 5–25% 惡性變。** 判讀分水嶺一：**大而快速生長、似 fibroadenoma 但更大**;判讀分水嶺二：**復發傾向高（need wide excision）、可惡性變**。
+**Phyllodes tumor 的考試陷阱是「它復發並非罕見」——未廣泛切除即易局部復發，不可與 fibroadenoma 混為一談。** 影像上兩者均可呈大而 well-circumscribed，區別靠臨床：phyllodes 生長快速、體積大、US 可見裂隙狀囊腔。判讀分水嶺一：**大、快速生長 ＋ 似 fibroadenoma → 想到 phyllodes**；判讀分水嶺二：**局部復發傾向高（need wide excision）、5–25% 惡性變、惡性者可血行轉移肺**。
 
 ## Summary
 - **本質**：源自小葉周圍/小葉間質（periductal stroma）的纖維上皮腫瘤;典型**大、快速生長**(option A 對)。[^1]

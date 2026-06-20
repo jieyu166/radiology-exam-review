@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # rectal-cancer-mri
 
-**直腸 MR 是局部分期主力,擅長判斷『是否突破腸壁(T2 vs T3)、mesorectal fascia、EMVI』,但 desmoplastic reaction 易致『過度分期(overstage)』。** 判讀分水嶺一：**完整外側 muscularis propria 黑線→ 腫瘤侷限腸壁(≤T2);黑線中斷/外延高訊號→ T3**;判讀分水嶺二：**MRI 不擅長 adenoma vs T1（須 EUS/切片）;desmoplastic reaction 與真正外延難分 → 傾向 T2 被『高估』為 T3(overstaging,非 understaging)**。
+**直腸 MR 的核心技能是辨認 muscularis propria 黑線是否完整——完整＝≤T2（侷限腸壁）、中斷／外延高訊號＝T3；但 desmoplastic reaction 訊號與腫瘤外延相仿，造成 T2 被「過度分期（overstage）」為 T3，而非低估。** 判讀分水嶺一：**完整 muscularis propria 黑線→≤T2；黑線中斷/外延→T3**；判讀分水嶺二：**MRI 不擅長 adenoma vs T1（須 EUS/切片）；desmoplastic reaction 致 overstaging，非 understaging**。
 
 ## Summary
 - **角色**：局部分期(locoregional)、評估 mesorectal fascia 受累、extramural spread(T3)、EMVI、腫瘤沉積、N 期。[^1]

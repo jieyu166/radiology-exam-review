@@ -15,7 +15,7 @@ dateRev: 2026-06-18
 
 # shoulder-dislocation
 
-**肩盂肱關節脫位的判讀靠「方向 + 對應壓迫骨折」分流。** 判讀分水嶺一：**前脫位（最常見，~95%）= Hill-Sachs（肱骨頭後外側壓迫骨折）+ Bankart（前下盂唇/緣損傷）+ 肱骨頭 subcoracoid 位**；判讀分水嶺二：**後脫位 = reverse Hill-Sachs（肱骨頭前內側壓迫，呈『trough line / trough-like impaction』縱向緻密線）+ reverse Bankart + 燈泡徵（light bulb sign）**。「trough 壓迫」屬後脫位、不屬前脫位。
+**肩脫位的壓迫骨折邏輯：脫位方向決定「哪面撞哪面」——前脫位時肱骨頭後外側撞前下盂緣（Hill-Sachs＋Bankart）；後脫位時肱骨頭前內側撞後盂緣（reverse Hill-Sachs = trough sign＋reverse Bankart＋light bulb sign）。「trough-like impaction」是後脫位專屬特徵，不屬前脫位。** 判讀分水嶺一：**前脫位（~95%）→ Hill-Sachs（後外側）＋Bankart（前下盂唇）＋subcoracoid 位**；判讀分水嶺二：**後脫位 → trough sign（前內側縱向緻密線）＋light bulb sign＋half-moon overlap 消失**。
 
 ## Summary
 - **前脫位（anterior，~95%）**：[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-17
 
 # scrotal-pearl
 
-**陰囊結石（scrotal pearl / fibrinoid loose body）＝游離、鈣化的小體，位於『tunica vaginalis 兩層之間』的『睪丸外（extratesticular）』腔隙——不是 tunica albuginea。** 判讀分水嶺一：**位於 tunica vaginalis 腔（extratesticular），可游離移動**；判讀分水嶺二：**多無症狀偶然發現**，常伴 hydrocele。
+**Scrotal pearl 的定位記憶：兩層「vaginalis」之間的睪丸外游離鈣化體——考題常把 tunica albuginea 與 tunica vaginalis 對調，記住「珍珠在陰道膜（vaginalis）裡游泳、不在白膜（albuginea）」。** 判讀分水嶺：**extratesticular、位於 tunica vaginalis 腔、可游離移動**；「tunica albuginea 兩層之間」為錯誤選項。
 
 ## Summary
 - **別名**：fibrinoid loose body、scrotal pearl。[^1]

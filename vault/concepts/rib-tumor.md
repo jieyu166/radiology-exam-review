@@ -17,7 +17,7 @@ down:
 
 # rib-tumor
 
-**侵襲性肋骨腫瘤的鑑別靠「年齡＋位置＋基質（matrix）＋DWI 細胞密度」收斂；restricted diffusion（DWI↑/ADC↓）＝高細胞密度，把鑑別推向 round cell（Ewing/PNET、淋巴瘤）、漿細胞瘤/骨髓瘤、轉移與高惡性度肉瘤，而『不利於』傳統低惡性度 chondrosarcoma（高含水/高 ADC）。** 判讀分水嶺一：**年齡**（年輕→Ewing；>40→轉移/骨髓瘤/chondrosarcoma）；判讀分水嶺二：**有無軟骨基質（ring-and-arc）＋ADC 高低**。
+**肋骨腫瘤鑑別的起手式是年齡：年輕→Ewing（大型侵襲性、restricted diffusion）；>40→轉移/骨髓瘤最常見、chondrosarcoma 次之（前肋、ring-and-arc 基質、高 ADC）；restricted diffusion 支持 round cell/高惡性度，反向不利於傳統低惡性度 chondrosarcoma。** 判讀分水嶺一：**年齡分流（年輕vs>40）＋已知惡性病史**；判讀分水嶺二：**DWI/ADC — restricted → round cell/轉移/漿細胞瘤；高 ADC → 偏向 chondrosarcoma 低惡性度**。
 
 ## Summary
 - 胸壁腫瘤影像常**不特異**，須以**年齡、病史、位置、影像特徵**系統性收斂；**逾 50% 胸壁腫瘤為惡性**。[^1][^2]

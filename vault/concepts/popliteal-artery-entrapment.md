@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # popliteal-artery-entrapment
 
-**膕動脈陷套症候群（PAES）＝多由腓腸肌內側頭（medial head of gastrocnemius）壓迫膕動脈,『需誘發動作（蹠屈/背屈）』才顯現壓迫;靜息（中立位）影像可正常,故正常靜息 Doppler『不能』排除。傳統診斷金標準＝導管血管攝影（DSA）配合誘發姿勢。** 判讀分水嶺一：**誘發姿勢（plantar/dorsiflexion）才壓迫**;判讀分水嶺二：**正常靜息檢查不排除診斷**。
+**PAES 的核心概念：「站靜止時沒事，踮腳時腓腸肌夾住膕動脈」——靜息 Doppler 正常不能排除診斷，一定要做誘發姿勢。** 多因腓腸肌內側頭（medial head of gastrocnemius）位置異常壓迫膕動脈，蹠屈（plantar flexion）時壓迫最明顯，傳統金標準是 DSA 加誘發姿勢。判讀分水嶺一：**誘發姿勢（蹠屈/背屈）才壓迫，中立位可正常**；判讀分水嶺二：**正常靜息 Doppler 不排除 PAES**。
 
 ## Summary
 - **機轉**：**腓腸肌內側頭**（或 popliteus/纖維帶）壓迫膕動脈;蹠屈時壓迫最明顯。[^1]

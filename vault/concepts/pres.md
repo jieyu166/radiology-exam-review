@@ -12,9 +12,7 @@ dateRev: 2026-06-15
 
 # pres
 
-**PRES 的危險因子是『高血壓、子癇（eclampsia/pre-eclampsia）、免疫抑制/藥物毒性、腎病（腎功能不全/腎絲球腎炎）』——糖尿病（DM）不是其典型危險因子。
-** 判讀分水嶺一：**血壓自我調節失衡 → 血腦屏障破壞 → vasogenic edema**（典型頂枕葉、對稱）；
-判讀分水嶺二：**移除誘因多可逆**。
+**PRES 的因果鏈：血壓失調 → 高灌流破壞血腦屏障 → vasogenic edema 在後頂枕葉堆積 → T2/FLAIR 亮、DWI 不受限（可逆）。** 常見誘因「高血壓、子癇、免疫抑制藥物（tacrolimus/cyclosporine 等）、腎病」；糖尿病不在此列（考試陷阱）。判讀分水嶺一：**DWI 不受限 ＋ ADC 升高 → vasogenic edema → PRES（區別急性梗塞的 DWI 受限）**；判讀分水嶺二：**移除誘因多可逆；DM 不是典型危險因子**。
 
 ## Summary
 - **機轉**：急性血壓變化超出腦循環自我調節 → 高灌流 → **血腦屏障破壞 → vasogenic edema**（典型 parieto-occipital 對稱，T2/FLAIR 高訊號、DWI 多不受限）。[^1]

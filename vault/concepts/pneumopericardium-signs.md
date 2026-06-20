@@ -13,7 +13,7 @@ dateRev: 2026-06-18
 
 # pneumopericardium-signs
 
-**多個胸片『空氣徵象』各對應特定氣腔。** 判讀分水嶺一：**continuous diaphragm sign＝橫膈中央段被空氣勾勒而連續可見 → pneumomediastinum 或 pneumopericardium（橫膈上方透亮）**;判讀分水嶺二：**deep sulcus sign＝仰臥氣胸;bulging fissure sign＝Klebsiella 肺炎;Luftsichel sign＝LUL 塌陷**。
+**胸片空氣徵象考驗「空氣在哪個腔」的空間定位：橫膈上方透亮連成一線 → 心包或縱膈有氣；橫膈下方透亮 → 氣腹。** 記憶鉤：continuous diaphragm sign 因心包氣把心臟與橫膈分開，中央段橫膈才「連得起來」。判讀分水嶺一：**continuous diaphragm sign → pneumomediastinum 或 pneumopericardium**；判讀分水嶺二：**deep sulcus＝仰臥氣胸、bulging fissure＝Klebsiella 肺炎、Luftsichel＝LUL 塌陷**。
 
 ## Summary
 - **Continuous diaphragm sign**：正常橫膈中央段因與心臟相接而不顯;當空氣介於心臟與橫膈間,中央段橫膈連續可見 → **pneumomediastinum 或 pneumopericardium**（透亮在橫膈『上方』);若透亮在橫膈下方則為 pneumoperitoneum。[^1]

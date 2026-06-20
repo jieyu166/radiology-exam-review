@@ -18,7 +18,7 @@ same:
 
 # pulmonary-tb
 
-**Primary 與 Postprimary TB 的判讀靠「分布 + 病灶型態」分流。** 判讀分水嶺一：**Primary = 淋巴結 + consolidation（無上肺偏好）+ 胸水**（兒童/免疫低下）；判讀分水嶺二：**Postprimary = 上肺 apical/posterior 與下肺 superior segment 的 cavitation + centrilobular nodules（tree-in-bud）**。「上肺 + 空洞 + tree-in-bud」想 postprimary；「淋巴結 + 胸水」想 primary。
+**肺結核的兩型靠「分布＋病灶」快速分流：淋巴結腫＋胸水想 primary；上肺空洞＋tree-in-bud 想 postprimary。** 判讀分水嶺一：**Primary TB＝任何肺葉 consolidation（無上肺偏好）＋右側淋巴結低密度壞死（可為唯一所見）＋單側胸水**，多見兒童/免疫低下。判讀分水嶺二：**Postprimary TB＝上肺 apical/posterior＋下肺 superior segment，空洞（厚壁不規則）＋centrilobular nodules（tree-in-bud）近乎診斷性**，淋巴結與胸水反而少見。記憶鉤：Primary「下肺＋淋巴腫＋積水」；Postprimary「上肺＋空洞＋枝芽」。
 
 ## Summary
 - **Primary TB**：好發兒童與免疫低下；三聯——**consolidation（任何肺葉、無上肺偏好）、lymphadenopathy（右側 hilar/paratracheal、低密度壞死）、pleural effusion（常單側）**。[^1][^2]

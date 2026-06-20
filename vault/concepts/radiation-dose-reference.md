@@ -12,7 +12,7 @@ dateRev: 2026-06-19
 
 # radiation-dose-reference
 
-**常見檢查有效劑量（mSv）概觀（Mettler 2008 catalog 代表值）：四肢X光/DXA ~0.001 < 胸部X光 ~0.1 < 乳房攝影 ~0.4 < 骨盆/腹部X光 ~0.6–0.7 < 腰椎X光 ~1.5 < 頭部CT/肺灌注掃描 ~2 < IVU ~3 < 上消化道 ~6 < 胸部CT/冠狀動脈攝影/骨掃描 ~6–7 < 鋇劑灌腸/腹骨盆CT ~8–10 < 冠狀動脈介入(PCI)/Gallium ~15 < CT 冠狀動脈攝影 ~16 < Tl-201 心肌灌注 ~40 < TIPS ~70。** 判讀分水嶺一：**X光（mSv 級以下）≪ CT／核醫／介入**；判讀分水嶺二：**特殊攝影（鋇劑灌腸）與部分核醫（Tl-201、Gallium）、介入（TIPS）劑量可遠超一般 CT**。
+**有效劑量從平片 mSv 以下、CT 個位數，到介入（TIPS ~70 mSv）遞升；記憶鉤：「平片＜乳攝＜腰椎平片＜頭CT＜IVU＜鋇劑灌腸≈腹骨盆CT＜Gallium/PCI＜CTCA＜Tl-201＜TIPS」。** 判讀分水嶺一：**X光（<2 mSv）≪ CT（6–16 mSv）；鋇劑灌腸（~8）竟與腹骨盆CT相當，是陷阱**；判讀分水嶺二：**核醫中 Tl-201（~22–41 mSv）、Gallium（~15 mSv）劑量遠超 Tc-99m 系列；介入中 TIPS 最高（~70 mSv）**。
 
 ## Summary（Mettler 2008 catalog 代表值）[^1]
 

@@ -8,7 +8,7 @@ dateRev: 2026-06-18
 
 # rotator-cuff-interval
 
-**旋轉肌間隙(rotator cuff interval)＝『supraspinatus 與 subscapularis 肌腱之間』的三角空間,內含肱二頭肌長頭腱、喙肱韌帶(CHL)、上盂肱韌帶(SGHL)。** 判讀分水嶺:**介於 supraspinatus(上)與 subscapularis(前)之間**,非 infraspinatus 相關。
+**旋轉肌間隙位於 supraspinatus（上）與 subscapularis（前）肌腱之間的三角缺口，是肱二頭肌長頭腱的「通道入口」——記憶鉤：「上腱與前腱夾住的三角，長頭腱從這裡進去」；interval 損傷→長頭腱不穩／沾黏性關節囊炎。** 判讀分水嶺：**位於 supraspinatus（上）與 subscapularis（前）之間**，非 infraspinatus 相關。
 
 ## Summary
 - **定義**:supraspinatus 與 subscapularis 肌腱間的間隙(2016 漏題正解 B)。[^1]

@@ -11,7 +11,7 @@ dateRev: 2026-06-17
 
 # psoriatic-arthritis
 
-**乾癬性關節炎＝『香腸指（dactylitis）＋蓬鬆骨膜炎（fluffy periostitis）＋mouse-ear 邊緣侵蝕＋pencil-in-cup』的血清陰性脊椎關節病；『gull-wing 侵蝕』是侵蝕性骨關節炎(EOA)，非乾癬。** 判讀分水嶺一：**新骨形成（蓬鬆骨膜炎/附著點炎）＋侵蝕並存**；判讀分水嶺二：**遠端指間關節(DIP)為主、可 arthritis mutilans（pencil-in-cup）**。
+**乾癬性關節炎的影像特點是「破壞與增生同時存在」：DIP 為主的 mouse-ear 侵蝕、pencil-in-cup 搭配蓬鬆骨膜炎與香腸指，這種「邊侵蝕邊長骨」的雙重面貌是血清陰性脊椎關節病的特徵。** 判讀分水嶺一：**新骨形成（fluffy periostitis/附著點炎）與侵蝕並存**，純侵蝕沒新骨→想 RA。判讀分水嶺二：**gull-wing 侵蝕是 EOA（中央侵蝕），非乾癬**——考題最愛的陷阱。記憶鉤：乾癬「邊長新骨邊咬掉舊骨」；鷗翼（gull-wing）只在 EOA 展翅。
 
 ## Summary
 - **Sausage digit（dactylitis）**：整指軟組織瀰漫腫脹。[^1]

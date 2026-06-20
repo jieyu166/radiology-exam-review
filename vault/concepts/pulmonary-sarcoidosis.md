@@ -12,7 +12,7 @@ dateRev: 2026-06-14
 
 # pulmonary-sarcoidosis
 
-**Sarcoidosis = 不明原因的 noncaseating（非乾酪性）肉芽腫，肺部以「上中肺野、perilymphatic 微結節」為指紋。** 判讀分水嶺一：分布**上中肺野為主**、沿**perilymphatic（peribronchovascular / subpleural / 沿葉間裂）**分布；判讀分水嶺二：**nodules / GGO = active 肉芽腫發炎（治療後可逆）**，而 **fibrosis（traction bronchiectasis、結構扭曲、囊狀）= 不可逆**。
+**Sarcoidosis 的 HRCT 指紋是「上中肺野、沿淋巴管走的微結節」加上「雙側對稱肺門＋右 paratracheal 淋巴結腫」，病理是 noncaseating（非乾酪性）肉芽腫，這點與 TB 的乾酪性直接鑑別。** 判讀分水嶺一：分布 perilymphatic（沿支氣管血管束、肋膜下、葉間裂）且上中肺為主——隨機分布或下肺為主則想其他診斷。判讀分水嶺二：**nodules/GGO＝active 可逆；traction bronchiectasis/結構扭曲（Stage IV）＝不可逆纖維化**；分期依 chest radiograph 而非 CT。記憶鉤：Sarcoidosis「跟著淋巴管走，雙肺門對稱腫，noncaseating 不乾酪」。
 
 ## Summary
 - **病理**：**noncaseating epithelioid granuloma**（非乾酪性）——與 TB 的乾酪性肉芽腫關鍵區別。[^1]

@@ -12,7 +12,7 @@ dateRev: 2026-06-18
 
 # pi-rads
 
-**PI-RADS v2 依病灶所在『分區』選主導序列;DCE 簡化為陰/陽性,MRS 已移除。** 判讀分水嶺一：**周邊區（PZ）以 DWI/ADC 為主導序列;移行區（TZ）以 T2WI 為主導**;判讀分水嶺二：**DCE 簡化為 positive/negative（僅看 PZ 病灶是否早期強化）;MR spectroscopy（MRS）不納入 PI-RADS 評分**。
+**PI-RADS v2 記憶鉤：「分區配序列」——周邊帶（PZ）癌用 DWI 看密度、移行帶（TZ）癌用 T2 看結構；DCE 只當二元開關（有無早期強化），MRS 已從評分中移除。** 判讀分水嶺一：**PZ → DWI/ADC 主導、TZ → T2WI 主導**；判讀分水嶺二：**DCE＝positive/negative（陽性可升 PZ DWI 3 分至 4 分）；MRS 不納入 PI-RADS v2 評分**。
 
 ## Summary
 - **PZ 病灶**：**DWI/ADC 為主導序列**（決定分數）。[^1]
