@@ -44,8 +44,8 @@ up: "[[acute-stroke-management]]"
 - **NCCT-ASPECTS**：原始版,用非顯影 CT。[^1]
 - **CTA-SI ASPECTS（CTA source image）**：在 CTA 來源影像上評分;比 NCCT 更能顯示**側枝循環**與急性期梗塞範圍（顯影差異比早期低衰減更明顯、較不細微）。[^4]
 - **CTP-ASPECTS（CT perfusion）**：把 ASPECTS 分區套到灌注圖,輔助早期梗塞的視覺化與核心估計。[^5]
-
-> 此外尚有 **DWI-ASPECTS**（擴散加權 MRI,對早期梗塞最敏感）與自動化 **e-ASPECTS**（軟體判讀）等延伸;本次未在五來源取得獨立可引出處,暫不展開（待補）。
+- **DWI-ASPECTS**：把 10 區模板用於**擴散加權 MRI**（對早期細胞毒性水腫最敏感）;治療前 DWI-ASPECTS 可預測 rt-PA 後 3 個月功能預後。[^7]
+- **e-ASPECTS**：**軟體自動判讀** ASPECTS;驗證顯示其表現與中風醫師相當、對神經放射科醫師為**非劣性（non-inferior）**。[^8]
 
 > [!note] 與「相關但不同家族」的評分
 > 急性中風取栓決策還會用到**側枝評分（collateral score）**與**灌注 core / mismatch**——與 ASPECTS 互補,但屬不同評分系統。[^6]
@@ -65,6 +65,8 @@ up: "[[acute-stroke-management]]"
 [^4]: *CT angiography source image ASPECTS (CTA-SI ASPECTS)*. Radiopaedia.org（實際查證 accessed 2026-06-20）：CTA 來源影像之 10 分 ASPECTS,直接顯示側枝循環、較佳界定急性期梗塞範圍。
 [^5]: Aviv RI, Mandelcorn J, Chakraborty S, et al. *Alberta Stroke Program Early CT Scoring of CT Perfusion in Early Stroke Visualization and Assessment*. AJNR Am J Neuroradiol. 2007;28(10):1975-1980. doi:10.3174/ajnr.A0689（CTP-ASPECTS）。
 [^6]: Potter CA, Vagal AS, Goyal M, Nunez DB, Leslie-Mazwi TM, Lev MH. *CT for Treatment Selection in Acute Ischemic Stroke: A Code Stroke Primer*. RadioGraphics. 2019;39(6). doi:10.1148/rg.2019190142（教學綜述；ASPECTS 分區、CTA 側枝、CTP core/mismatch）（實際查證 accessed 2026-06-20）。
+[^7]: Nezu T, Koga M, Kimura K, et al. *Pretreatment ASPECTS on DWI Predicts 3-Month Outcome Following rt-PA: SAMURAI rt-PA Registry*. Neurology. 2010;75(6):555-561. doi:10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS 預後驗證；PubMed 實際查證 accessed 2026-06-20）。
+[^8]: e-ASPECTS（自動化軟體）驗證：Herweh C, Ringleb PA, Rauch G, et al. *Performance of e-ASPECTS Software in Comparison to That of Stroke Physicians on Assessing CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2016;11(4):438-445. doi:10.1177/1747493016632244；Nagel S, Sinha D, Day D, et al. *e-ASPECTS Software Is Non-Inferior to Neuroradiologists in Applying the ASPECT Score to CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2017;12(6):615-622. doi:10.1177/1747493016681020（PubMed 實際查證 accessed 2026-06-20）。
 
 ## 題目
 > [!question]- 關於 ASPECTS，何者敘述「錯誤」？
