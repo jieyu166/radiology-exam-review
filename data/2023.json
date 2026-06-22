@@ -4368,13 +4368,13 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Late是1hr-1周",
+      "reference": "ACR Manual on Contrast Media(遲發反應定義 1hr–1週、皮膚最常見、self-limited);Choyke PL, et al. Delayed reactions to contrast media after interleukin-2 immunotherapy. Radiology 1992;183(1):111-4, PMID 1549655(IL-2 為風險因子);含碘對比劑 DAR 文獻 AJR 2014;203:1163-1170(T 細胞媒介、多 3h–2天)。概念 [[contrast-adverse-reactions]]。",
+      "explanation": "**答案 A——遲發反應(DAR)的時間窗是注射後 1 小時–1 週(最多在 3 小時–2 天),故「大部分發生於 24 小時內」為不精確/錯誤敘述。** (B) 最常見為皮膚反應(maculopapular rash)、(C) **近期接受 Interleukin-2 (IL-2) 免疫治療確為 DAR 風險因子**(IL-2 組 DAR 11.8% vs 非 IL-2 組 3.9%、且更嚴重)、(D) 多為 self-limited 給予症狀治療即可——皆正確。DAR 屬 T 細胞媒介(type IV)。",
       "images": [],
       "concepts": [
         "contrast-adverse-reactions"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2023-123",

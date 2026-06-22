@@ -6981,13 +6981,13 @@
         }
       ],
       "correctAnswer": "E",
-      "reference": "",
-      "explanation": "不一定能找出過敏反應的證據。",
+      "reference": "ACR Manual on Contrast Media(類過敏反應機轉、低滲 vs 高滲、致命反應 20 分鐘內、整體頻率下降)。概念 [[contrast-adverse-reactions]]。",
+      "explanation": "**答案 E——類過敏(allergic-like)反應雖表現類似其他藥物過敏,但「一定能找到 antigen-antibody response(抗原-抗體反應)」為錯誤**:類過敏反應不一定能找到抗原抗體證據、與劑量無關。(A) 低滲對比劑多數副作用輕微、僅需觀察安撫支持、(B) 嚴重致命反應仍罕見且不可預測、(C) 幾乎所有致命反應在注射後 20 分鐘內、(D) 由 ionic HOCM 改用 nonionic LOCM 後不良反應頻率明顯下降——皆正確。",
       "images": [],
       "concepts": [
         "contrast-adverse-reactions"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-196",
