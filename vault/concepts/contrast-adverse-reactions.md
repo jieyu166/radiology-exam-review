@@ -18,7 +18,7 @@ same:
 # contrast-adverse-reactions
 
 **對比劑不良反應有兩條分類軸：機轉軸（類過敏 vs 生理性）＋時間軸（急性 <1h → 遲發 1h–1週 → 晚期 >1週）。** 類過敏反應與劑量無關、不一定有抗原抗體證據；幾乎所有致命反應在注射後 20 分鐘內發生。風險因子易考陷阱：海鮮/碘酒過敏「不是」急性類過敏風險因子，反而是曾中重度反應、氣喘、過度焦慮（Lalli effect）才是。遲發反應（DAR）由 T 細胞（非 B 細胞）媒介，非離子二聚體（dimer）風險較高，表現多為 maculopapular rash。
-![[ADD contrast ADR.png]] from ACR contrast manual(2025)
+![ACR contrast adverse-reaction severity](https://img-hosting.jieyu166.workers.dev/i/0PPWDFk.png) from ACR contrast manual(2025)
 
 ## Summary
 - **時間分類**：**急性/立即(<1 小時)、遲發 late(1 小時–1 週)、晚期 very late(>1 週)**;**幾乎所有致命反應在注射後前 20 分鐘**。[^1][^2]
@@ -47,9 +47,9 @@ same:
 > 急性<1hr／late 1hr–1週／very late>1週;DAR 為 **T 細胞**媒介、dimer 風險高;**海鮮過敏非風險因子**、焦慮(Lalli)是;**皮膚測試不建議**、premedication 不能防全部、換類別可降風險;類過敏不一定找得到抗原抗體、與劑量無關。[^1][^2]
 
 ### 參考來源
-[^1]: 中華民國放射線醫學會《對比劑手冊》2017/2020/2023（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]／[[2023 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）＋ ACR Manual on Contrast Media（實際查證）：反應時間分類（急性<1h／late 1h–1週／very late>1週）、風險因子（曾反應/氣喘/焦慮 Lalli;非海鮮碘酒）、嚴重度分級、premedication 與皮膚測試立場、甲狀腺風暴避用。
+[^1]: 中華民國放射線醫學會《對比劑手冊》2017/2020/2023（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]／[[2023 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）＋ **ACR Manual on Contrast Media 2026**（本機 [[2026 ACR Manual on Contrast Media.pdf]]，gitignore）：反應時間分類（急性<1h／late 1h–1週／very late>1週）、風險因子（曾反應/氣喘/焦慮 Lalli;非海鮮碘酒）、嚴重度分級、premedication 與皮膚測試立場、甲狀腺風暴避用。
 [^2]: 含碘對比劑遲發不良反應(DAR)文獻（AJR 2014;203:1163-1170;2020 對比劑手冊）：**DAR 為 T 細胞媒介**、maculopapular rash、首次 2–10 天/再暴露 1–2 天、**dimer iso-osmolar 為風險因子**;對比劑為藥物性皮膚反應第三大原因（次於抗生素、NSAID）。**近期 IL-2 免疫治療亦為 DAR 風險因子**（Choyke PL, Miller DL, Lotze MT, et al. *Delayed reactions to contrast media after interleukin-2 immunotherapy*. Radiology 1992;183(1):111-4, PMID 1549655：IL-2 組遲發反應 11.8% vs 非 IL-2 組 3.9%、症狀更重）。
-[^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。
+[^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。ESUR 2025 hypersensitivity 全文本機備有 [[2025 ESUR Hypersensitivity reactions to contrast media - Part 1.pdf]]／[[2025 ESUR Hypersensitivity reactions to contrast media - Part 2.pdf]]（gitignore）。
 
 ## 題目
 > [!question]- DAR(遲發不良反應)的機轉與特性,何者「不正確」? (2022交換)

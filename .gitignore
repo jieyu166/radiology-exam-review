@@ -17,6 +17,9 @@ tmp/
 # 版權：本機引用之期刊原文 PDF，僅供 Obsidian 本機參考，不得進 public repo
 vault/references/
 
+# Obsidian 圖片附件走 R2 圖床（上傳後以 R2 URL 嵌入），原圖不進 git
+vault/images/
+
 # Obsidian 設定/工作區純本地，勿追蹤勿覆寫（外掛設定由使用者自行調整）
 vault/.obsidian/
 scripts/_*.txt
