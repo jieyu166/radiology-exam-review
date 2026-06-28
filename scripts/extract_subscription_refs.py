@@ -222,6 +222,12 @@ def main():
              "或統一貼到檔尾「醫師回填區」。重跑腳本會**保留**這些編輯。我會據 `[[...pdf]]` 讀取整合。")
     L.append(f"> 重跑：`python scripts/extract_subscription_refs.py`｜更新：{today}｜相異來源 {total} 筆。")
     L.append("")
+    L.append("> **奇美館藏全文授權年限（2026-06-21 實查）**：可取得＝**AJR(1965–)、AJNR(1980–)、"
+             "Stroke/Int J Stroke/J Stroke Cerebrovasc Dis**；**RadioGraphics 與 Radiology 僅 2022–present**"
+             "——本清單的 RG/Radiology 多為 2000–2021，**讀不到全文**，需另尋（PMC/作者版/換刊）。")
+    L.append("> 取得方式：`pubs.rsna.org` 有 Cloudflare、自動化讀取不穩；**最可靠＝醫師手動經圖書館開→下載 PDF→ 給我整合**。"
+             "查授權：lib.chimei.org.tw 電子期刊搜刊名看年限。詳見記憶 `chimei-library-proxy`。")
+    L.append("")
     sections = [
         ("journal", "## 期刊文章（含 DOI，多在 RSNA/Elsevier/Wiley 等付費平台）"),
         ("textbook", "## 教科書（需館藏／訂閱電子書）"),
