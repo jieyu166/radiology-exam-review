@@ -23,10 +23,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Pediatric fibroblastic and myofibroblastic tumors: a pictorial review. RadioGraphics 2016;36:1195-1214：創傷後骨化性肌炎最常侵犯四肢近端/前側肌群,**股四頭肌與肱肌最常受累**。
 
-## 題目
-> [!question]- 創傷後 myositis ossificans 最常見的部位? (2017-116)
-> **Proximal extremities（四肢近端）**——前側肌群（股四頭肌、肱肌）最常受累。非 skull、trunk、distal extremities。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "myositis-ossificans")

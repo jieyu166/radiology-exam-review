@@ -73,19 +73,6 @@ same:
 [^1]: Rosado-de-Christenson ML. *Tuberculosis*. STATdx（Chest, Dx），updated 2021-09-27. Elsevier（實際查證 accessed 2026-06-14）。
 [^2]: Nachiappan AC, Rahbar K, Shi X, et al. *Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management*. RadioGraphics. 2017;37(1):52-72. https://doi.org/10.1148/rg.2017160032 （實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- Primary 與 Postprimary TB 的 consolidation 分布有何不同？
-> **Primary：任何肺葉、無上肺偏好**（常下/中葉）；**Postprimary：上肺 apical/posterior + 下肺 superior segment**。上肺 consolidation 屬 postprimary。[^1][^2]
-
-> [!question]- 哪些影像特徵偏向 primary TB？
-> 右側 hilar/paratracheal **低密度（壞死）淋巴結**（可為唯一所見）、**單側 pleural effusion**、無上肺偏好的 consolidation。[^1][^2]
-
-> [!question]- 哪個 CT 所見對 postprimary TB（經氣道播散）近乎診斷性？
-> **Centrilobular nodules / tree-in-bud**；常伴上肺 **cavitation（厚不規則壁）**。[^1]
-
-> [!question]- 關於 primary pulmonary TB 的診斷,何者「非真」? (2016-203)
-> 「**影像異常在即時治療下常快速消退**」非真——primary TB 實質病灶**消退緩慢（數月至數年）、常留鈣化/疤痕（Ghon/Ranke）**。其餘為真：兒童淋巴結腫常見（右側/單側 >90%、>雙側）、胸水可單獨出現（無肺病灶）、成人淋巴結腫少見（除非免疫低下）。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-tb")

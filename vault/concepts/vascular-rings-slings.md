@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；血管環影像（Radiopaedia *vascular ring*）：double aortic arch（最常見症狀性）、right arch+aberrant LSA、aberrant RSA、pulmonary sling;coarctation 非成因。
 
-## 題目
-> [!question]- 血管環/吊帶的常見成因「除外」何者? (2017-120)
-> **Aortic coarctation（主動脈窄縮）**——非血管環成因。double aortic arch、right aortic arch、pulmonary sling 皆為常見成因。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "vascular-rings-slings")

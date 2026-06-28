@@ -32,10 +32,6 @@ dateRev: 2026-06-17
 [^1]: *Splenic trauma* / *AAST spleen injury scale*. Radiopaedia.org（實際查證 accessed 2026-06-17）：脾為鈍傷最常傷實質器官；**AAST 2018 分級**（G1–G5，納入血管損傷）；active extravasation／pseudoaneurysm／AVF（~15%）影響處置。
 [^2]: sentinel/perisplenic clot 為唯一徵象、shock spleen（瀰漫低密度）、**CT 分級對臨床結果預測價值有限**、**延遲破裂即使初始 CT 正常仍可能發生**＝標準創傷放射教學；題目引 *CT & US of the Acute Abdomen*。
 
-## 題目
-> [!question]- 關於脾外傷 CT，下列何者「為非」？
-> 「**初始 CT 正常便不會延遲破裂**」為非——**延遲破裂即使初始 CT 正常仍可能發生**。perisplenic sentinel clot 可為唯一徵象、瀰漫低密度脾可因休克、CT grade 對結果預測有限皆為真。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "splenic-trauma")

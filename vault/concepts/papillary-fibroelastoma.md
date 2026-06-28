@@ -27,10 +27,6 @@ up: "[[cardiac-tumors]]"
 ### 參考來源
 [^1]: *Papillary fibroelastoma of the heart*. Radiopaedia.org。最常見瓣膜腫瘤（~75% 瓣膜腫瘤）；併發症為腫瘤/血栓碎屑之全身性栓塞；鑑別 Lambl excrescence、myxoma、贅生物（實際查證 accessed 2026-06-15）。題目另引 *Radiology Review Manual* 7th ed, p.657。
 
-## 題目
-> [!question]- 關於 papillary fibroelastoma，何者敘述「錯誤」？
-> 「**與栓塞事件無關**」錯——可使腫瘤/血栓碎屑栓塞致中風/TIA。正確：多無症狀、最常見瓣膜腫瘤、myxoma 後第二常見良性心臟瘤。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "papillary-fibroelastoma")

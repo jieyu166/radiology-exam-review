@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Pyloric stenosis（hypertrophic pyloric stenosis）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：超音波診斷＝**肌壁厚 >3 mm（最準）**、橫徑 >14 mm、**長度 >15–17 mm**、容積 >1.5 cm³。題目另引 Pediatric Imaging: The Fundamentals p.100。
 
-## 題目
-> [!question]- 超音波下正常幽門肌「長度」小於幾 mm？
-> **< 15 mm**（異常 >15–17 mm）；其他指標：肌壁厚 >3 mm（最準）、橫徑 >14 mm、容積 >1.5 cm³。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pyloric-stenosis")

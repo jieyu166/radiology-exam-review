@@ -67,16 +67,6 @@ down:
 [^4]: *Chondrosarcoma*. Radiopaedia.org。好發年長者；肋骨~8%、前肋/肋軟骨交界；ring-and-arc 軟骨基質、中央高含水→高 T2；低惡性度為低細胞/高含水（高 ADC）（實際查證 accessed 2026-06-15）。
 [^5]: Andrews CL, Manaster BJ, et al. *Solitary Rib Lesion*. STATdx（Musculoskeletal, DDx），updated 2024-02-06. Elsevier（年齡分層：兒童＝fibrous dysplasia/Ewing/Askin/GCT/ABC/LCH/neuroblastoma 轉移；成人＝metastatic disease/multiple myeloma/chondrosarcoma；多為 polyostotic 但可單發於肋）（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 成人侵襲性肋骨腫瘤中，restricted diffusion（ADC 低）把鑑別推向哪些？反向不利於哪個？
-> 推向 **round cell（Ewing/PNET、淋巴瘤）、漿細胞瘤/骨髓瘤、轉移、高惡性度肉瘤**（皆高細胞密度）；**反向不利於傳統低惡性度 chondrosarcoma**（高含水/高 ADC）。[^2][^4]
-
-> [!question]- 成人最常見的「原發」惡性胸壁腫瘤是什麼？其典型位置與基質？
-> **Chondrosarcoma**；好發**前肋/肋軟骨交界**、具 **ring-and-arc 軟骨基質**、高 T2。[^4]
-
-> [!question]- 收斂肋骨腫瘤鑑別前最關鍵的臨床分水嶺？
-> **年齡**（年輕→Ewing/PNET；>40→轉移/骨髓瘤/chondrosarcoma）＋已知惡性病史＋M-protein＋多發性。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "rib-tumor")

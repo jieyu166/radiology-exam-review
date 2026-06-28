@@ -32,10 +32,6 @@ same:
 ### 參考來源
 [^1]: *Liver cancer (BCLC staging)*. Radiopaedia.org。BCLC B（中期）第一線 **TACE**，不可行則系統治療；早期根治（切除/消融/移植）、晚期系統治療、末期支持（實際查證 accessed 2026-06-16）。題目另引 Forner A, Reig ME, de Lope CR, Bruix J. *BCLC update*. Semin Liver Dis. 2010;30(1):61-74. https://doi.org/10.1055/s-0030-1247133 。
 
-## 題目
-> [!question]- 依 BCLC，中期（intermediate）HCC 的最佳治療？
-> **TACE**。早期（0/A）→ 切除/消融/移植；晚期（C，血管侵犯/肝外轉移）→ 系統治療；末期（D）→ 支持。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bclc-hcc")

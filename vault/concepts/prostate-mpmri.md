@@ -28,10 +28,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Prostate Imaging Reporting and Data System (PI-RADS)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：multiparametric prostate MRI 由 **T2W、DWI（含 ADC）、dynamic contrast enhancement (DCE)** 構成;PI-RADS 綜合此三者預測臨床顯著攝護腺癌機率。
 
-## 題目
-> [!question]- 下列何者「不」屬於 multiparametric prostate MRI 的序列?
-> **Opposed-phase（化學位移）image**。mpMRI＝T2WI＋DWI/ADC＋DCE。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "prostate-mpmri")

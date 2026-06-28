@@ -41,16 +41,6 @@ same:
 [^1]: *Lymphangioleiomyomatosis*. STATdx（Chest/Thoracic, Dx），updated 2025-03-13. Elsevier（實際查證 accessed 2026-06-14）。
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；LAM 不屬吸菸相關譜系，PLCH/IPF 才是）。
 
-## 題目
-> [!question]- LAM 的囊腫分布與 PLCH 有何關鍵不同？
-> **LAM 瀰漫、均勻、不保留肋膈角**（遍佈全肺）；PLCH 為上中肺野、**保留肋膈角**。[^1][^2]
-
-> [!question]- LAM 的典型族群與肺外合併症？
-> 育齡女性；合併腎 AML、乳糜胸、反覆氣胸；分 sporadic 與 TSC 相關。**非吸菸相關**。[^1]
-
-> [!question]- 以下何者「為」LAM 常見影像表現? (2017-034)
-> **B（Cysts）**——瀰漫薄壁囊腫是 LAM 的標誌性、近乎 100% 的最常見影像發現。pneumothorax(~36%)、hyperinflation(33–62%)亦常見,chylothorax(~10–20%)、mediastinal lymphadenopathy(~26%)較少,但 cysts 為最具特徵的定義性發現。（題幹原為「非...常見」因 cysts 是 LAM 標誌性發現而有瑕疵,經改為「為...常見」後 cysts 即為正解 B。）[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lam")

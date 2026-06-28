@@ -29,10 +29,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: Moyamoya Suzuki staging（題目所引／Radiopaedia *moyamoya disease*）：I 頸內動脈分叉狹窄、II 煙霧初現、**III 煙霧最盛(maximal basal collaterals)＋ACA/MCA 缺損**、IV ECA 側支、V 煙霧減少、VI 煙霧消失。
 
-## 題目
-> [!question]- Moyamoya「maximal basal collaterals、ACA/MCA 縮小」屬 Suzuki 第幾期? (2016-236)
-> **Stage III**——煙霧側支最盛、ACA/MCA 顯影缺損。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "moyamoya")

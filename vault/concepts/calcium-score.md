@@ -39,16 +39,6 @@ same:
 ### 參考來源
 [^1]: Gupta A, Bera K, Kikano E, Pierce JD, Gan J, Rajdev M, Ciancibello LM, Gupta A, Rajagopalan S, Gilkeson RC. *Coronary Artery Calcium Scoring: Current Status and Future Directions*. RadioGraphics. 2022;42(4). https://doi.org/10.1148/rg.210122 （Free Access，實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- Agatston CAC 分數中，鈣化的定義門檻為何？
-> **≥130 HU 且面積 ≥1 mm²**；分數 = 病灶面積 × 依峰值 HU 之加權係數，加總全部病灶。[^1]
-
-> [!question]- 「CAC = 0」的臨床意義是什麼？
-> 強力的**負向風險因子**（power of zero）——心血管事件與疾病別死亡率風險低；SCCT 建議 5 年後再重掃。[^1]
-
-> [!question]- 為什麼高 CAC 會影響 CCTA 判讀？
-> 高 CAC（>400）之重度鈣化 blooming 造成管腔高估／偽陽性，**降低 CCTA 的 specificity**（ACCURACY trial）。見 [[ccta]]。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "calcium-score")

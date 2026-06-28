@@ -32,10 +32,6 @@ same:
 [^1]: Ley B et al. *A Multidimensional Index and Staging System for Idiopathic Pulmonary Fibrosis*（GAP model）. Ann Intern Med 2012;156(10):684-691：GAP＝Gender、Age、2 lung physiology variables（FVC、DLCO）;3 stages 預測死亡率。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: CT-GAP 文獻（以 CT 纖維化分級納入 GAP）：於 DLCO 缺值或進展期預測稍佳;半定量預後工具。
 
-## 題目
-> [!question]- GAP score 包含哪些變數?
-> **Gender（性別）＋ Age（年齡）＋ Physiology：FVC% 與 DLCO%**——分 stage I–III 預測 IPF/ILD 死亡率。CT-GAP 另加 CT 纖維化評分。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gap-score")

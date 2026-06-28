@@ -26,10 +26,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Shwachman-Diamond syndrome*. Radiopaedia.org。體染色體隱性；外分泌胰臟功能不全、幹骺端發育不良、骨髓低下（cyclic neutropenia）、**pancreatic lipomatosis（胰臟脂肪化）**（實際查證 accessed 2026-06-15）。題目另引 *Primer of Diagnostic Imaging*, 3rd ed, p.873。
 
-## 題目
-> [!question]- Shwachman-Diamond syndrome 會出現哪個器官的脂肪取代？
-> **胰臟（pancreatic lipomatosis）**——伴骨髓低下（嗜中性球減少）與幹骺端發育不良。非肝/脾/腎。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "shwachman-diamond")

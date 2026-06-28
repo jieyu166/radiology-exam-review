@@ -30,10 +30,6 @@ same:
 ### 參考來源
 [^1]: *Speed displacement artifact（propagation velocity artifact）*. Radiopaedia.org（ultrasound artifacts）。機器假設 1540 m/s；真實聲速顯著偏離時深度換算錯誤，較慢者顯示更深（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 介質傳播速度比軟組織「慢」時，回波會被放在哪裡？
-> **比真實位置更深（deeper）**——較慢→回波晚返回→機器（固定 1540 m/s）誤判為更深。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-speed-artifact")

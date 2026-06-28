@@ -33,10 +33,6 @@ dateRev: 2026-06-19
 [^1]: 官方 2017 詳解：Guillain-Mollaret 三角＝red nucleus＋inferior olivary nucleus＋contralateral dentate nucleus。
 [^2]: **全文已讀（醫師提供 PDF，accessed 2026-06-28）**。Goyal M, Versnick E, Tuite P, Saint Cyr J, Kucharczyk W, Montanera W, Willinsky R, Mikulis D. Hypertrophic olivary degeneration: meta-analysis of the temporal evolution of MR findings. *AJNR Am J Neuroradiol*. 2000;21(6):1073–1077.
 
-## 題目
-> [!question]- Guillain-Mollaret triangle 的組成包含何者? (2017-125)
-> **Red nucleus（紅核）**——三角＝紅核＋下橄欖核＋對側齒狀核。putamen、caudate nucleus、substantia nigra 非其組成。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "guillain-mollaret-triangle")

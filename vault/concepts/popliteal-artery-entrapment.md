@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Popliteal artery entrapment syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：壓迫多來自 **medial head of gastrocnemius**;US/影像「compression elicited by maneuvers such as **plantar flexion and dorsiflexion**」;DSA「demonstrates medial deviation/compression of the popliteal artery when the ankle is plantarflexed」;CTA 顯示異常結構。
 
-## 題目
-> [!question]- 關於膕動脈陷套症候群（PAES）的影像,何者正確?
-> **導管血管攝影（DSA）配合誘發姿勢為金標準**。壓迫需蹠屈/背屈誘發（非中立位）;正常靜息 Doppler 不排除診斷。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "popliteal-artery-entrapment")

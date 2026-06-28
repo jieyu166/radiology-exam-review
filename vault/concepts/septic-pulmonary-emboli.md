@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Septic pulmonary emboli*. Radiopaedia.org。多發雙側周邊、下肺為主的結節；空洞常見（gram-positive 更甚）；feeding vessel sign 特徵性；subpleural 楔形梗塞；反覆栓子致大小不一/多階段（實際查證 accessed 2026-06-15）。題目另引 *Radiology Review Manual* 7th ed, p.542。
 
-## 題目
-> [!question]- 關於 septic pulmonary emboli，何者敘述「錯誤」？
-> 「**uncommon with feeding vessel sign**」錯——feeding vessel sign 為其特徵。正確：常空洞化、多發 migratory、周邊下肺基底為主。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "septic-pulmonary-emboli")

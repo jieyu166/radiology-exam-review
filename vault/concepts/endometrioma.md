@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Endometrioma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**T1 typically hyperintense**（出血）;**T2 typically hypointense（shading sign，deoxy/methemoglobin）**;無內部強化;decidualised endometrioma（孕期）有 stromal vascularity 為特殊變異。
 
-## 題目
-> [!question]- 何者「非」卵巢 endometrioma 的典型 MRI 所見?
-> 「**hypervascular（post-contrast）**」——endometrioma 為 **T1 高、T2 低（shading）、無內部強化**。強化壁結節→疑惡性變。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endometrioma")

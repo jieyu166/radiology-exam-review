@@ -38,13 +38,6 @@ same:
 ### 參考來源
 [^1]: *Focal nodular hyperplasia*. Radiopaedia.org。中央大動脈 spoke-wheel 離心血流、central scar（<50%）、典型 Doppler 約 20% 可見、無門脈（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 哪種肝腫瘤在 color Doppler 上典型呈「spoke-wheel」型態？
-> **Focal nodular hyperplasia（FNH）**——中央大動脈呈輪輻狀離心血流，常伴 central scar。[^1]
-
-> [!question]- 關於 FNH，何者「為錯」？（年齡）
-> 「**年齡高峰在 5th–6th decade**」錯——FNH 好發**年輕至中年女性（約 20–50 歲、3rd–5th decade）**。FNH 為第二常見良性肝腫瘤、NECT 等/略高密度、有中央疤痕皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fnh")

@@ -30,19 +30,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 胸部 X 光定位徵象（Felson's Principles of Chest Roentgenology／Radiopaedia *silhouette sign*、*incomplete border sign*）：邊界消失定位於相鄰同平面結構;主動脈弓緣對應 LUL、右橫膈對應 RLL;incomplete border sign 主見於 extrapleural 病灶,但肺病灶向胸膜外延伸亦可。
 
-## 題目
-> [!question]- 關於 silhouette sign 應用,何者「錯誤」? (2017-024)
-> 「**主動脈弓消失＝LLL 或中/後縱膈**」錯誤——應為 **LUL**。右心緣＝RML/前胸膜、左心緣＝lingula/前胸膜、右氣管旁線＝RUL 皆正確。[^1]
-
-> [!question]- 關於 silhouette sign,何者最「不」可能? (2017-025)
-> 「**右橫膈邊緣不清＝RUL**」最不可能——應為 **RLL**。SVC/升主動脈緣＝RUL 前段、右心緣＝RML medial segment、左心緣＝lingula inferior segment 皆合理。[^1]
-
-> [!question]- 關於 incomplete border sign,何者「為非」? (2017-026)
-> 「**不可能是肺病灶**」為非——肺內病灶若向胸膜/肺外延伸亦可呈 incomplete border sign。可部分邊緣不清、可為 pleural、可為胸壁/皮膚病灶皆正確。[^1]
-
-> [!question]- 下列何者「不是」extrapulmonary（肺外）病灶的特色? (2016-255)
-> 「**engulf pulmonary vessels（包覆肺血管）**」不是——包覆肺血管是『肺內』病灶特徵;肺外病灶為**displacement（推擠）肺血管、incomplete border sign、與胸壁成鈍角**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "silhouette-sign")

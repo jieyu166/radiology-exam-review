@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *CNS aspergillosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發免疫低下;**aspergillus 膿瘍周邊 T2 低訊號（出血,GRE/SWI 佳）**;與「classic ring-enhancing、均勻高 DWI」的化膿性膿瘍不同（麴菌強化弱、DWI 異質/周邊）;血管侵犯致梗塞/黴菌性動脈瘤。
 
-## 題目
-> [!question]- 免疫低下患者腦部 angioinvasive aspergillosis,何者「為假」?
-> 「多發結節合併**強烈環狀強化**」為假——強化弱/不規則（非如化膿性膿瘍）。周邊 T2 低訊號、異質/周邊 ring-like 擴散受限皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "angioinvasive-aspergillosis")

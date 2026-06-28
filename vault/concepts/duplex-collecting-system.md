@@ -27,10 +27,6 @@ dateRev: 2026-06-18
 [^1]: *Duplex collecting system*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「one of the **most common congenital renal tract abnormalities** ... ~0.8% of the population and up to 8% of patients investigated for urinary tract symptoms」;Weigert-Meyer rule。
 [^2]: RadioGraphics 2015;35(3):709-26（題目所引）——泌尿道先天異常,ureteral duplication 為最常見。
 
-## 題目
-> [!question]- 泌尿道最常見的先天異常? (2016-229)
-> **Ureteral duplication（重複集尿系統）**。UPJ obstruction、primary megaureter、VUR 較少。Weigert-Meyer：上極異位易阻塞、下極易逆流。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "duplex-collecting-system")

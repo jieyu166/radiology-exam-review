@@ -29,10 +29,6 @@ dateRev: 2026-06-16
 [^1]: *Balloon-occluded retrograde transvenous obliteration*. Radiopaedia.org。治胃靜脈曲張（gastro-renal/caval shunt）；TIPS 禁忌（高 MELD、HE）之替代；球囊阻塞＋逆行硬化劑滯留；併發症含惡化食道靜脈曲張、暫時惡化腹水/肋膜積液（實際查證 accessed 2026-06-16）。
 [^2]: Kiyosue H, Mori H, Matsumoto S, Yamada Y, Hori Y, Okino Y. *Transcatheter Obliteration of Gastric Varices: Part 2 — Strategy and Techniques Based on Hemodynamic Features*. RadioGraphics. 2003;23(4):921-937. https://doi.org/10.1148/rg.234025135 （**全文已讀**；硬化劑為 **EOI＝ethanolamine oleate iopamidol**；依血流動力學分型擬定策略；技術含 stepwise/微導管 selective 注射、afferent 胃靜脈 coil 栓塞、double-balloon；**複雜曲張可 BRTO 與經肝（PTO）/transileocolic 順行 NBCA-lipiodol obliteration 合併**。另有 Part 1 [DOI 10.1148/rg.234025044] 為解剖/分型）。
 
-## 題目
-> [!question]- 關於 BRTO，下列何者「錯誤」？
-> 「**BRTO 後肝性腦病更嚴重**」錯——BRTO **改善** HE（關閉門體分流）；惡化的是食道靜脈曲張/腹水。逆行球囊阻塞硬化劑、ethanolamine oleate、可合併經肝順行 obliteration 皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "brto")

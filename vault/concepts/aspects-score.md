@@ -68,13 +68,6 @@ up: "[[acute-stroke-management]]"
 [^7]: Nezu T, Koga M, Kimura K, et al. *Pretreatment ASPECTS on DWI Predicts 3-Month Outcome Following rt-PA: SAMURAI rt-PA Registry*. Neurology. 2010;75(6):555-561. doi:10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS 預後驗證；PubMed 實際查證 accessed 2026-06-20）。
 [^8]: e-ASPECTS（自動化軟體）驗證：Herweh C, Ringleb PA, Rauch G, et al. *Performance of e-ASPECTS Software in Comparison to That of Stroke Physicians on Assessing CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2016;11(4):438-445. doi:10.1177/1747493016632244；Nagel S, Sinha D, Day D, et al. *e-ASPECTS Software Is Non-Inferior to Neuroradiologists in Applying the ASPECT Score to CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2017;12(6):615-622. doi:10.1177/1747493016681020（PubMed 實際查證 accessed 2026-06-20）。
 
-## 題目
-> [!question]- 關於 ASPECTS，何者敘述「錯誤」？
-> 「**正常 CT 得 0 分**」錯誤——正常＝**10 分**（每受累區扣 1）。正確：0–10 分、僅評 MCA 區域、MCA 皮質佔 7 分（深部 3 分）。[^1][^2]
-
-> [!question]- pc-ASPECTS 中,橋腦(pons)受累扣幾分?
-> **扣 2 分**——pc-ASPECTS 的中腦與橋腦各值 2 分（且不分單雙側）;其餘視丘、枕葉、小腦半球各 1 分,合計 10 分。[^1][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aspects-score")

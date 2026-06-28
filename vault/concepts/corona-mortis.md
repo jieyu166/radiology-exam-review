@@ -25,10 +25,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Corona mortis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「crown of death ... cross the space of Retzius posterior to the **superior pubic ramus** ... between either the **external iliac artery or deep inferior epigastric artery and the obturator artery**」;盛行率 venous 41.7%、arterial 17%、combined 49.3%;~50 mm（35–72 mm）lateral to symphysis。
 
-## 題目
-> [!question]- 關於 Corona mortis artery,何者「錯誤」? (2017-045)
-> 官方答案 **D**——「因高發生率必須常規檢查 external iliac」措辭過度。crown of death(A)、obturator 源自 external iliac/inf epigastric(B)正確。註：corona mortis 跨 **superior** pubic ramus,故 C 寫「inferior pubic ramus」亦不精確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "corona-mortis")

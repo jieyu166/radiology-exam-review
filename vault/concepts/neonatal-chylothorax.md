@@ -27,10 +27,6 @@ same:
 ### 參考來源
 [^1]: *Chylothorax*. Radiopaedia.org（實際查證 accessed 2026-06-17）：源自胸管中斷,可先天或後天;病因清單含「idiopathic/cryptogenic: **most common in neonatal period**」、congenital thoracic duct ectasia、lymphangiectasia;多單側、可致胎兒水腫。
 
-## 題目
-> [!question]- 新生兒期最常見的大量胸腔積液（pleural fluid）原因?
-> **Chylothorax（乳糜胸）**——胸管淋巴外漏;新生兒以特發性/隱源性最常見。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "neonatal-chylothorax")

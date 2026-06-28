@@ -46,16 +46,6 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: Milliron B, Henry TS, Veeraraghavan S, Little BP. *Bronchiectasis: Mechanisms and Imaging Clues of Associated Common and Uncommon Diseases*. RadioGraphics. 2015;35(4):1011-1030. https://doi.org/10.1148/rg.2015140214 （實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- 選擇性侵犯「中段（mid-order）」支氣管的支氣管擴張，最可能是哪個症候群？機轉？
-> **Williams-Campbell syndrome**；機轉為第 4–6 級支氣管的**先天軟骨缺損**，故中段選擇性擴張（吸氣膨大、呼氣塌陷）。[^1]
-
-> [!question]- Mounier-Kuhn 與 Williams-Campbell 的層級差異？
-> **Mounier-Kuhn = 中央氣道擴大（tracheobronchomegaly）**；**Williams-Campbell = 中段（4–6 級）支氣管**。[^1]
-
-> [!question]- 單側透亮肺 + 不對稱支氣管擴張，想到哪個症候群與機轉？
-> **Swyer-James syndrome**；感染後 **bronchiolitis obliterans**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bronchiectasis")

@@ -30,13 +30,6 @@ dateRev: 2026-06-17
 [^1]: *Acute pyelonephritis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「most patients having **'normal' scans**. Abnormalities identified in only **~25%**」;顯影後可見 **striated nephrogram** 與楔形 reduced enhancement;若疑腎絞痛先做非顯影掃描評結石。
 [^2]: *Renal infarction*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「a thin rim of cortex continues to enhance, due to **collateral capsular perfusion** ... known as the **cortical rim sign** ... typically best seen several days later」——屬梗塞,非腎盂腎炎。
 
-## 題目
-> [!question]- 關於急性腎盂腎炎,何者「最正確」?
-> **非顯影 CT 上呈正常或僅腎腫大**;診斷性所見（striated nephrogram、楔形低強化）需顯影。影像多正常(僅~25%異常)。[^1]
-
-> [!question]- 關於 pyelonephritis,何者「錯誤」? (2016-219)
-> 「**顯影 CT 延遲期呈 cortical rim sign**」**錯誤**——cortical rim sign 屬**腎梗塞**(包膜側支保留皮質強化),非腎盂腎炎。正確者：楔形 striated reduced enhancement(A)、E. coli 最常見(C)、併發症含腎周膿瘍/壞死性乳頭炎/膿腎(D)。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "acute-pyelonephritis")

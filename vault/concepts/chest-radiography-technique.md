@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 [^1]: *Chest radiograph*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「low kV (60-70 kV) is **less effective in demonstrating the lungs behind the heart, diaphragm, and ribs** than high kV (120-140 kV)」;高 kV 並降有效劑量。
 [^2]: Thoracic Radiology: The Requisites, 2nd ed., p.1（題目所引）——呼氣片偵測 air trapping/小氣胸、前凸位改善 RML 塌陷、6 呎 SID 降放大率、胸片用 grid 降散射。
 
-## 題目
-> [!question]- 關於胸部 X 光技術,何者「不」正確? (2016-225)
-> 「**6 呎距離下 grid 非必需即可降散射**」不正確——6 呎 SID 降放大率,降散射靠 grid。高 kVp 顯示肺/縱膈較佳、呼氣片查 air trapping/小氣胸、前凸位改善 RML 塌陷皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chest-radiography-technique")

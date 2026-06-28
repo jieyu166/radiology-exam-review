@@ -34,13 +34,6 @@ same:
 [^1]: *Hypersensitivity pneumonitis*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「mosaic attenuation with **three-density sign**;mosaic attenuation and gas-trapping ... **centrilobular nodules** involving all lung zones」;分非纖維化/纖維化;「**upper lobe predominance is much more common in fibrotic HP than in IPF**」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: 過敏性肺炎診斷指引（ATS/JRS/ALAT 2020 HP guideline）：可疑 HP 應加做**吐氣 CT** 以證實 air-trapping;mosaic/air-trapping 與 GGO、正常肺三密度並存即 three-density(headcheese) sign。
 
-## 題目
-> [!question]- Headcheese sign 是什麼?與哪個病相關?
-> **三密度並存：GGO ＋ mosaic/air-trapping ＋ 正常肺（＝three-density sign）**,為 **HP（尤其 chronic HP）** 特徵。[^1]
-
-> [!question]- 纖維化 HP 與 IPF/UIP 的影像鑑別線索?
-> 纖維化 HP **常上中肺為主、伴 mosaic/air-trapping、小葉中心結節**;UIP 為 subpleural+basal、honeycombing。可疑時加吐氣 CT 看 air-trapping。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hypersensitivity-pneumonitis")

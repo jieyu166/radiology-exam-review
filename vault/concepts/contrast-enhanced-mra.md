@@ -29,10 +29,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: MR 血管攝影技術（Radiopaedia *MR angiography*／心血管 MR 教科書）：CE-MRA 與 time-resolved MRA（TRICKS/TWIST）需釓;TOF（inflow）、cine SSFP、navigator-gated 3D whole-heart（SSFP 血池）為非對比技術。
 
-## 題目
-> [!question]- 哪種 MR 掃描通常需注射 gadolinium? (2017-039)
-> **Time-resolved MR angiography（下肢）**——打藥後連續多時相。TOF(A)、cine SSFP(C)、navigator 3D whole-heart(D)皆非對比、不需釓。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-enhanced-mra")

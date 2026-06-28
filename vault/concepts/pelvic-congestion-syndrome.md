@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Pelvic Congestion Syndrome: Diagnosis and Treatment. Semin Intervent Radiol 2008;25:361-368：US 準則含卵巢靜脈 >4 mm、慢血流（<3 cm/s）、**逆向/retrograde**（尤左卵巢靜脈）。
 
-## 題目
-> [!question]- PCS 典型影像表現「除外」何者? (2017-103)
-> 「**US 顯示左卵巢靜脈慢血流呈 cranial 方向**」除外——應為**逆向 caudal/retrograde**。擴張迂曲強化管狀結構、T1WI flow void、>50% 囊性卵巢皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pelvic-congestion-syndrome")

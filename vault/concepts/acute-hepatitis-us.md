@@ -35,10 +35,6 @@ dateRev: 2026-06-15
 [^1]: *Acute hepatitis*. Radiopaedia.org。US：肝腫大（最敏感）、starry sky（敏感/特異度差）、GB 壁增厚、periportal edema、整體回音常減低（實際查證 accessed 2026-06-15）。
 [^2]: Ahuja AT. *Diagnostic Imaging: Ultrasound*. Amirsys; 2007, p.1-7（題目所引；periportal 低回音帶、GB 壁增厚為典型）（依題目來源，未逐字核實該頁）。
 
-## 題目
-> [!question]- 下列何者「非」急性病毒性肝炎的典型超音波所見？
-> **瀰漫性回音增加**。急性肝炎典型為回音**減低**（starry sky）、肝腫大、GB 壁增厚、periportal edema；回音增加屬脂肪肝/慢性肝病。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "acute-hepatitis-us")

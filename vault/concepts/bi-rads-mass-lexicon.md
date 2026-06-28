@@ -34,13 +34,6 @@ dateRev: 2026-06-18
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），A. Masses：「An **oval** mass is elliptical or egg-shaped (**may include two or three undulations**)」;「Irregular ... neither round nor oval ... usually implies a suspicious finding」;「Microlobulated ... **short cycle undulations** ... usually implies a suspicious finding」;Indistinct「no clear demarcation」。
 [^2]: *BI-RADS*. Radiopaedia.org（實際查證 accessed 2026-06-18）：mass 描述用 shape/margin/density;「nodule」非 BI-RADS lexicon 用語、應用 mass。
 
-## 題目
-> [!question]- 關於 mammography「mass」描述,何者「錯誤」? (2017-006)
-> 「**有三個 undulations 的腫塊應描述為 irregular shape**」錯誤——**2–3 個 undulations 仍稱 oval**。indistinct margin＝可疑(對)、short-cycle undulations＝microlobulated/可疑(對)、含脂肪腫塊幾乎良性(對)。[^1]
-
-> [!question]- 何種描述「不」符合 BI-RADS 2013 lexicon? (2017-008)
-> 「**An oval circumscribed fat containing nodule**」——**「nodule」非 BI-RADS 用語,應用「mass」**。developing asymmetry、segmental fine linear calcifications、intramammary lymph node 皆為合法 lexicon。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bi-rads-mass-lexicon")

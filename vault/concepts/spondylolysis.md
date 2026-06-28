@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Spondylolysis*. Radiopaedia.org。~90% L5；約 55% 進展為滑脫；常無症狀；後天為重複微創傷/疲勞骨折；X 光與 CT 顯示既成缺損、SPECT-CT/MRI 顯示早期 stress response（實際查證 accessed 2026-06-15）。題目另引 *Skeletal Radiol*. 2015。
 
-## 題目
-> [!question]- 關於 pars interarticularis defect，何者為「真」？
-> **伴隨的 spondylolisthesis 最常見於 L5-S1**。假者：必有症狀性滑脫、為急性損傷、MRI 對既成缺損範圍最佳（既成缺損範圍以 CT 最佳；MRI/SPECT 用於早期 stress response）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "spondylolysis")

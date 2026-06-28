@@ -25,16 +25,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；RadioGraphics 2014;34(3):805-29：腎上腺結節性增生隨年齡增加/雙側;假性囊腫 T1 高訊號多因出血;嗜鉻細胞瘤約 10% 鈣化。
 
-## 題目
-> [!question]- 關於 adrenal cortical nodular hyperplasia,何者最佳描述? (2017-138)
-> **隨年齡盛行率增加（increases in prevalence with age）**。可與腺瘤並存(A 誤)、多瀰漫非局灶(C 誤)、多雙側非單側(D 誤)。[^1]
-
-> [!question]- Adrenal pseudocyst 在 T1WI 內高訊號最可能的原因? (2017-139)
-> **Hemorrhage（出血）**。非脂肪、鈣化或單純液。[^1]
-
-> [!question]- 嗜鉻細胞瘤(pheochromocytoma)約多少比例含鈣化? (2017-140)
-> **約 10%**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenal-lesions")

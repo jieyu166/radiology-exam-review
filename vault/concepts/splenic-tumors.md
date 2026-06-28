@@ -28,10 +28,6 @@ dateRev: 2026-06-15
 [^1]: *Splenic lymphoma*. Radiopaedia.org。脾淋巴瘤為**脾臟最常見惡性**、多為續發、原發罕見（實際查證 accessed 2026-06-15）。
 [^2]: 標準脾臟腫瘤教學：hemangioma 為最常見良性；epidermoid(true) cyst 有上皮襯裡、pseudocyst 源於外傷/感染/梗塞；splenic hamartoma 可伴血液學異常（題目所引 *Radiology Review Manual* 7th ed, p.657 等；A/C/D 為標準教學）。
 
-## 題目
-> [!question]- 關於脾臟腫瘤，下列何者「錯誤」？
-> 「**脾最常見惡性是轉移**」錯——是 **lymphoma**（多續發）。hemangioma 為最常見良性；epidermoid cyst 有上皮襯裡 vs 假性囊腫；hamartoma 可伴貧血/血小板減少。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "splenic-tumors")

@@ -44,13 +44,6 @@ up: "[[rib-tumor]]"
 ### 參考來源
 [^1]: *Langerhans cell histiocytosis (skeletal manifestations)*. Radiopaedia.org。骨骼為最常受侵器官；單發＝eosinophilic granuloma；好發較大兒童(7±4)與年輕成人(36±12)、M:F~2:1；顱骨~50%/肋~15%/脊椎~15%；溶骨無硬化緣、beveled edge(hole-within-a-hole)、button sequestrum；脊椎 vertebra plana（兒童最常見病因）、下頜 floating tooth（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 骨骼 LCH 的特徵性溶骨表現？脊椎與下頜的招牌徵象？
-> **無硬化緣溶骨＋beveled edge（hole-within-a-hole）＋button sequestrum**；脊椎 → **vertebra plana**（兒童最常見病因）、下頜 → **floating tooth**。[^1]
-
-> [!question]- 骨/系統性 LCH 與肺 LCH（PLCH）有何不同？
-> 同屬 Langerhans 細胞疾病譜但表現不同：**骨/系統性 LCH＝兒童溶骨/多系統**；**PLCH＝年輕抽菸成人之肺囊腫＋結節**（見 [[plch]]）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "langerhans-cell-histiocytosis")

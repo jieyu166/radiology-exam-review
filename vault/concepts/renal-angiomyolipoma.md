@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 [^1]: *Renal angiomyolipoma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**a large vessel extending into the renal cortex suggestive of AML; liposarcoma is hypovascular**」;「**renal parenchymal defect at the site of tumor contact favors exophytic angiomyolipoma**」;>4 cm 微動脈瘤破裂致 Wunderlich syndrome。
 [^2]: RadioGraphics 2008;28:1325-1338（題目所引）——AML vs retroperitoneal liposarcoma 鑑別。
 
-## 題目
-> [!question]- 哪一所見使 large renal AML 較 retroperitoneal liposarcoma 更可能? (2016-222)
-> **病灶內動脈瘤樣血管（aneurysmal blood vessels）**——AML 富血管、liposarcoma hypovascular。腫塊外推腎臟、邊界不清、軟組織密度非鑑別點。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-angiomyolipoma")

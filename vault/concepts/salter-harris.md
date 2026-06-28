@@ -26,13 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Salter-Harris classification*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**type II ~75%「by far the most common」**（生長板+幹骺端）;I 僅生長板、III 生長板+骨骺、IV 貫穿、V 壓砸（預後最差）;記憶 SALTR。
 
-## 題目
-> [!question]- 最常見的 Salter-Harris 骨折型?
-> **Type II（~75%）**——經生長板並向上經幹骺端。[^1]
-
-> [!question]- 何種敘述最能描述侵犯生長板(physis)的骨折? (2017-046)
-> **縱向(longitudinal/vertical)骨折比橫向(horizontal)骨折更易形成骨橋(bridge)** → 生長停滯風險高(SH III/IV 跨生長板)。橫向(SH I/II)bridge 約 25%;不建議常規打 gadolinium(B 誤)、年幼者預後較差非年長(C 誤)、粉碎程度影響預後(D 誤)。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "salter-harris")

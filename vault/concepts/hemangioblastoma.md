@@ -27,10 +27,6 @@ same:
 ### 參考來源
 [^1]: 小腦 hemangioblastoma 經實際查證（accessed 2026-06-17，Radiopaedia *hemangioblastoma*）：成人小腦最常見原發、囊+強化壁結節、結節富血管(flow void)貼軟膜、VHL 關聯、ataxia/nystagmus；鑑別 pilocytic astrocytoma（兒童）。
 
-## 題目
-> [!question]- 成人後顱窩囊性病灶伴強化壁結節、ataxia/nystagmus，最可能診斷？
-> **Hemangioblastoma**（成人小腦最常見原發；多發想 VHL）。兒童同型態想 pilocytic astrocytoma。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hemangioblastoma")

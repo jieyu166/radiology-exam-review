@@ -46,34 +46,6 @@ same:
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
 [^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
 
-## 題目
-> [!question]- 臨床使用含釓對比劑的主要目的為何?
-> **縮短 T1（順磁性）→ 增強組織在 T1WI 的訊號**。[^1]
-
-> [!question]- 哪類 GBCA 的 NSF 與腦沉積風險較低?
-> **Macrocyclic（環狀）**——較穩定、去螯合少。高風險為 **linear**（Omniscan/Magnevist/OptiMARK）。[^1][^2]
-
-> [!question]- 釓在腦部沉積的好發部位?
-> **齒狀核(dentate nucleus)、蒼白球(globus pallidus)**,T1WI 高訊號;linear ＞ macrocyclic。[^1]
-
-> [!question]- 哪些是 hepatobiliary-specific 的 MR 對比劑?
-> **Gd-EOB-DTPA（gadoxetate, Primovist，~50% 經膽）、Gd-BOPTA（gadobenate, MultiHance，~3–5% 經膽）**——提供肝膽期影像（詳見 [[hepatobiliary-mri-contrast]]）。[^1]
-
-> [!question]- 結構穩定度（ligand-Gd 結合）最強＝最安全的是?
-> **Macrocyclic, ionic（環狀離子，如 Dotarem/gadoterate）**——結合最強、去螯合最少。linear non-ionic（Omniscan/OptiMARK）最不穩定、NSF 風險最高。[^1][^2]
-
-> [!question]- 關於釓腦沉積,何者「錯誤」?
-> 「**釓不會穿過完整 BBB**」「**重複使用不會沉積腦部**」「**會造成失智/小腦症候群**」皆錯——釓**會**穿過 BBB(推測經 glymphatics)、重複使用**會**沉積（齒狀核>蒼白球，劑量依賴、腎功能正常者亦可）、**目前無證據造成神經副作用**（臨床意義未明）。[^1][^3]
-
-> [!question]- gadopentetate 的滲透壓約為? (血漿 ~290 mOsm/kg)
-> **~1960 mOsm/kg**（高滲；但臨床劑量 0.1 mmol/kg 體積極小，滲透壓非主要顧慮）。[^3]
-
-> [!question]- GDD（gadolinium deposition disease）與無症狀沉積有何不同?
-> **GDD 為少數於注射後 2 個月內出現的症狀群（≥3 項）**：周邊神經痛(glove-and-stocking)、關節僵硬/肌痙攣、頭痛、思緒混沌、肢端皮膚增厚變色痛。無症狀腦沉積則臨床意義未明、無確證副作用。[^3]
-
-> [!question]- 需重複施打含釓對比劑時的建議間隔?
-> eGFR **<30 至少間隔 7 天**;eGFR ≥30 兩次間隔 **~4 小時**（半衰期 ~1.5–2 h，4 h 約排 75%）。血液透析可移除含釓對比劑。[^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")

@@ -29,10 +29,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: TOF 合併異常（官方 2016 詳解／Radiopaedia *tetralogy of Fallot*）：右位主動脈弓(~25%)、肺動脈發育不良±閉鎖、ASD/PDA(pentalogy)、冠狀動脈異常(~3%,含 LAD 自 RCA 跨 RVOT)、persistent left SVC、tracheal bronchus、MAPCA。
 
-## 題目
-> [!question]- TOF 影像判讀要特別注意容易合併哪些異常? (2016-252)
-> **以上皆是（E）**——異常 LAD 自 RCA 跨越 RVOT、persistent left SVC、right upper lobe tracheobronchus、MAPCA 皆為 TOF 常合併異常。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tetralogy-of-fallot")

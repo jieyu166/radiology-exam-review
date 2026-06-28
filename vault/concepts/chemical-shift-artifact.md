@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: MRI 化學位移假影經實際查證（accessed 2026-06-17，Radiopaedia *chemical shift artifact*）：脂水頻率差；type1 頻率編碼方向位移(各序列)、type2 反相位抵消(需脂+水)；India ink 環繞器官；hemosiderosis out-of-phase 較亮(in-phase T2*)。
 
-## 題目
-> [!question]- 關於 MRI 化學位移假影，何者「為非」？
-> 「**純脂肪區在 out-of-phase 完全失去訊號**」為非——抵消需脂＋水同一像素並存。type2 反相位、India ink 環繞器官、hemosiderosis out-of-phase 較亮皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chemical-shift-artifact")

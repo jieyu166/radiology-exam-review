@@ -30,13 +30,6 @@ dateRev: 2026-06-17
 [^1]: *Renal papillary necrosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：病因 diabetes/analgesic nephropathy/pyelonephritis/sickle cell/obstruction/RVT/TB；造影見**中央或周邊壞死空腔（lobster claw forniceal excavation）**、**signet ring（脫落乳頭+clubbed calyx）**、脫落乳頭為 filling defect、可周邊鈣化。
 [^2]: Dunnick NR, Sandler CM, Newhouse JH, Amis ES. *Textbook of Uroradiology*, 3rd ed., pp.299–302. Lippincott Williams & Wilkins, 2001（題目所引）：病因 NSAID 記憶法；**平片通常正常**（壞死時可不規則鈣化 2–6 mm 或滯留乳頭環狀鈣化）；**約 50% 鐮型球患者**發生；**medullary 型＝乳頭中央侵蝕**、papillary（total）型＝整顆乳頭脫落。
 
-## 題目
-> [!question]- 關於 renal papillary necrosis,何者「為真」?
-> 「病因為 **analgesics、diabetes、sickle cell**（NSAID 記憶法）」為真。平片通常正常（非特徵鈣化）、約 50%（非90%）sickle cell 發生、medullary 型為中央侵蝕（非整顆乳頭缺失）。[^1][^2]
-
-> [!question]- papillary necrosis 兩型如何區分?
-> **Medullary/partial＝乳頭中央空蝕（lobster-claw）**、乳頭未整顆脫落；**papillary/total＝整顆乳頭脫落（signet ring + clubbed calyx）**。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "papillary-necrosis")

@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 [^1]: *Accessory right inferior hepatic vein*. Radiopaedia.org。最常見肝靜脈變異、可多條、引流右葉後下段(含 seg 6)入 IVC、可達約 48%、可占肝靜脈引流約 11%、肝切除/移植重要（實際查證 accessed 2026-06-15）。
 [^2]: *Focal Liver Lesions: Detection, Characterization, Ablation*, p.69-70（題目所引；大 RIHV 引流 seg 6 約 15–20%；有 RIHV 則 RHV 較小；RHV 缺如需大 RIHV＋predominant MHV；MPR CT 有助。**未逐字核實該書頁**，依題目陳述與 [^1] 解剖）。
 
-## 題目
-> [!question]- 關於 right inferior hepatic vein，下列何者「錯誤」？
-> 「**small** RIHV ＋ predominant MHV → RHV 可缺如」錯——RHV 缺如需**large** RIHV 接管；small RIHV 時 RHV 應仍在。大 RIHV 引流 seg 6 約 15–20%、有 RIHV 則 RHV 較小、MPR CT 有助皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatic-vein-variants")

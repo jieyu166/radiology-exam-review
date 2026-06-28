@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Polycystic ovarian syndrome*. Radiopaedia.org。濾泡周邊排列（string of pearls）、大小相近 2–9 mm、中央 stroma 高回音、卵巢增大、多雙側（實際查證 accessed 2026-06-15）。題目另引 Hricak《Diagnostic Imaging: Gynecology》。
 
-## 題目
-> [!question]- 下列何者「非」PCOS 的典型 MRI/影像所見？
-> 「**濾泡位於卵巢中央**」非典型——PCOS 濾泡呈**周邊**排列（string of pearls）。卵巢增大、雙側為典型。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pcos-mri")

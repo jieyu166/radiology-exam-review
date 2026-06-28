@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Cerebral venous thrombosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：顯影見 **empty delta sign**;急性血栓 **T1 等、T2 低訊號（可模擬 flow void）**,亞急性 T1 高;**「the clot may demonstrate diffusion restriction」（非全部）**;鑑別含 **hypoplastic venous sinuses**（低流變異模擬血栓）。
 
-## 題目
-> [!question]- 關於硬腦膜靜脈竇血栓,何者敘述「有誤」?
-> 「**所有阻塞血栓都能在 DWI 上看到**」有誤——DWI 訊號多變、非全部可見。empty delta、急性 T2 低訊號模擬 flow void、橫竇 hypoplasia 模擬血栓皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "dural-venous-sinus-thrombosis")

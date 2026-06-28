@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 骨髓 MRI（Radiopaedia *bone marrow*／MSK MRI 文獻）：紅髓可局灶/島狀似腫塊、含脂肪細胞;conversion 末梢→中軸、reconversion 逆向但型態不固定;成人紅髓存中軸與近端長骨;與腫瘤鑑別需 T1/化學位移。
 
-## 題目
-> [!question]- 關於 red bone marrow,何者「為真」? (2017-049)
-> **紅髓可呈局灶、腫塊樣(focal and mass-like)**。reconversion 型態不一定固定可預期、成人紅髓存中軸（非手腳）、紅髓含脂肪細胞、不一定易與腫瘤區分。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bone-marrow")

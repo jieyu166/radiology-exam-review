@@ -28,10 +28,6 @@ dateRev: 2026-06-15
 [^1]: *Sphenoparietal sinus*. Radiopaedia.org。沿蝶骨小翼後下緣；接收 superficial middle cerebral vein 等屬支；引流入海綿竇（實際查證 accessed 2026-06-15）。
 [^2]: Takahashi S. *Neurovascular Imaging*, p.264（題目所引；蝶頂竇三種典型引流型：海綿竇、翼叢、沿中顱窩底越岩錐入岩下/橫竇。**未逐字核實該書頁**，依題目陳述與 [^1] 解剖）。
 
-## 題目
-> [!question]- 蝶頂竇有三種典型引流型，下列除何者外？
-> **「直接向上至 middle cerebral vein 再入上矢狀竇」**。三型為：海綿竇、翼叢（basal emissary）、沿中顱窩底越岩錐入岩下/橫竇。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "sphenoparietal-sinus")

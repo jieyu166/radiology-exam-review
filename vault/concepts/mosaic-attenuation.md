@@ -42,10 +42,6 @@ same:
 [^1]: *Mosaic attenuation pattern in lung*. Radiopaedia.org（實際查證 accessed 2026-06-18）：三型——小氣道病（air trapping，呼氣加重）、occlusive vascular disease（mosaic perfusion，低密度區 oligaemic，含 **chronic thromboembolic pulmonary hypertension**）、浸潤性（GGO 為高密度）。
 [^2]: **全文已讀（醫師提供 PDF，accessed 2026-06-28）**。Kligerman SJ, Henry T, Lin CT, Franks TJ, Galvin JR. *Mosaic Attenuation: Etiology, Methods of Differentiation, and Pitfalls*. RadioGraphics. 2015;35(5):1360-1380. DOI 10.1148/rg.2015140308（題目所引；題庫原註「Ridge CA et al」為誤植，正確第一作者為 Kligerman SJ）。CTEPH 大血管栓塞致大範圍、符合血管領域之 mosaic perfusion;小血管型 PH 較均勻。
 
-## 題目
-> [!question]- 何者造成符合血管領域（vascular territory）的大範圍區域性 mosaic attenuation?
-> **CTEPH（慢性血栓栓塞性肺高壓）**——大血管慢性栓塞;idiopathic PAH、PVOD、mitral stenosis（小血管/後微血管）較均勻,非territory mosaic。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mosaic-attenuation")

@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Gamekeeper's thumb*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「avulsion or rupture of the **ulnar collateral ligament** of the first metacarpophalangeal joint」;Gamekeeper's＝慢性、Skier's＝急性;Stener lesion 需手術。
 
-## 題目
-> [!question]- Gamekeeper's thumb 中哪個結構「未」受傷?
-> **橈側副韌帶（radial collateral ligament）**——受傷者為第一 MCP 的**尺側副韌帶（UCL）**;可伴近端指骨基部撕脫、Stener lesion。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gamekeeper-thumb")

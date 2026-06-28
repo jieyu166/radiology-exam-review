@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Steatotic liver disease（hepatic steatosis）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：可進展至 fibrosis/cirrhosis/HCC;非顯影 CT **肝衰減 <40–45 HU** 定中度脂肪肝(sens 82%/spec 94%);分 focal 與 diffuse,**multifocal steatosis can be mistaken for metastases**。
 
-## 題目
-> [!question]- 關於脂肪肝,何者敘述「為錯」?
-> 「**多灶性脂肪沉積可與低血管轉移區別**」錯——多灶脂肪常**被誤認為**轉移。脂肪肝可致肝硬化、肝較脾低≥10HU(或<40HU)、局部脂肪好發特定區皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fatty-liver")

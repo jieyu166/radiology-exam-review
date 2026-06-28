@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Femoroacetabular impingement*／*Crossover sign (hip)*. Radiopaedia.org（題目所引／實際查證 accessed 2026-06-18）：crossover sign＝髖臼前緣線越過後緣線＝acetabular retroversion,屬 pincer 型 FAI;cam（α角）/pincer（過度覆蓋）兩型。
 
-## 題目
-> [!question]- 髖 AP 片上的 crossover sign 通常與何者相關? (2017-048)
-> **Femoroacetabular impingement（pincer 型、髖臼後傾 acetabular retroversion）**。Perthes、DDH、SCFE 非以 crossover sign 為特徵。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "femoroacetabular-impingement")

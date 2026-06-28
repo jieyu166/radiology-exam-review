@@ -24,10 +24,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.9-2~9-4：腹膜包涵囊腫為非腫瘤反應性間皮增生、好發停經前婦女（手術/PID/內膜異位）、spider web 外觀、無惡性潛能。
 
-## 題目
-> [!question]- 關於 peritoneal inclusion cyst,何者「錯誤」? (2017-137)
-> 「**最常見於停經後婦女**」錯誤——好發**停經前(premenopausal)**且有骨盆手術/外傷/PID/內膜異位史者。spider web 外觀、無惡性潛能、無強化實質皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "peritoneal-inclusion-cyst")

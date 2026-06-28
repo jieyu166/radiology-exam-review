@@ -58,16 +58,6 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: Sugi MD, Kawashima A, Salomao MA, Bhalla S, Venkatesh SK, Pickhardt PJ. *Amyloidosis: Multisystem Spectrum of Disease with Pathologic Correlation*. RadioGraphics. 2021;41(5). https://doi.org/10.1148/rg.2021210006 （本機 PDF 實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- Amyloid 沉積的本質與確認染色為何？是澱粉嗎？
-> 是**細胞外錯誤摺疊蛋白纖維**（非澱粉）；以 **Congo red 染色 + 偏光下 apple-green birefringence** 確認。[^1]
-
-> [!question]- Tracheobronchial amyloidosis 與 relapsing polychondritis / TBO 在氣管後壁膜上的關鍵差異？
-> **Amyloidosis 累及後壁膜**（環狀增厚）；**RP 與 TBO 保留後壁膜**。[^1]
-
-> [!question]- Nodular parenchymal pulmonary amyloidosis 多含哪型 amyloid？預後與處置？
-> 多為局部 **AL（light chain）**；結節可鈣化、生長緩慢、預後佳、可手術。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-amyloidosis")

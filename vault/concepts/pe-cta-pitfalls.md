@@ -54,13 +54,6 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: Wittram C, Maher MM, Yoo AJ, Kalra MK, Shepard JO, McLoud TC. *CT Angiography of Pulmonary Embolism: Diagnostic Criteria and Causes of Misdiagnosis*. RadioGraphics. 2004;24(5):1219-1238. https://doi.org/10.1148/rg.245045008 （實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- CTPA 上「伴隨支氣管的血管」是肺動脈還是肺靜脈？對 PE 判讀的意義？
-> 是**肺動脈**（bronchoarterial pairing：動脈伴支氣管、靜脈不伴）。其內填充缺損可診斷 PE；肺靜脈不伴支氣管、走向左心房，未顯影時可模擬 PE。[^1]
-
-> [!question]- CTPA 三類 pitfalls 與各舉一例？
-> 技術（部分容積/血流假影、transverse 血管難判）、解剖（肺門淋巴結、肺靜脈、黏液支氣管）、病理（pulmonary artery sarcoma，罕見）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pe-cta-pitfalls")

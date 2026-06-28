@@ -36,13 +36,6 @@ dateRev: 2026-06-20
 [^2]: Harisinghani MG, McLoud TC, Shepard JO, Ko JP, Shroff MM, Mueller PR. *Tuberculosis from Head to Toe*. RadioGraphics. 2000;20(2):449-470. doi:10.1148/radiographics.20.2.g00mc12449（實際查證 accessed 2026-06-20;CT 對 GI/GU TB 特別有用;含腎葉狀鈣化、tuberculous pyonephrosis、膀胱壁增厚變形強化等 CT 影像）。
 [^3]: Radiopaedia *Renal tuberculosis*、*Genitourinary tuberculosis*、*Bladder and ureteric tuberculosis*、*Thimble bladder*（實際查證 accessed 2026-06-20）：腎乳頭壞死→caliectasis、鈣化 ~35%、putty kidney/autonephrectomy、IVP ~90% 異常;輸尿管 beaded／pipestem;膀胱 thimble bladder、VUR;GU TB 範圍（腎/輸尿管/膀胱/攝護腺/陰囊/女性 PID）。
 
-## 題目
-> [!question]- 關於 urogenital tuberculosis,何者「錯誤」? (2017-105)
-> 「**尿培養偽陰性率 <3%**」錯誤——尿培養**敏感度約 65%（偽陰性 ~35%）**。<5% 同時活動性肺 TB、30–50% 胸片異常、影像評估侵犯/治療/併發症皆正確。[^1]
-
-> [!question]- 泌尿生殖道結核的經典末期影像有哪些?
-> **putty kidney／autonephrectomy（鈣化無功能腎）、輸尿管 beaded/pipestem 狹窄、thimble bladder（纖維收縮小膀胱）**;屬腎→輸尿管→膀胱的降行性破壞。[^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "urogenital-tuberculosis")

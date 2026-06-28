@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 透視輻射防護標準物理：Bushberg JT, et al. *The Essential Physics of Medical Imaging* 3rd ed., p.309（官方 2016 詳解所引）＋ ICRP/NCRP 職業劑量原則。本次以 Radiopaedia *Fluoroscopy* 確認基本構造,**操作者劑量細節以 Bushberg 為據**：脈衝/降 frame rate 減劑量;散射主要來自病人入射（X 光管）側 → 站影像接收器側;II 貼近病人（縮短 air gap）;放大/大視野增劑量;距離平方反比、準直、屏蔽。
 
-## 題目
-> [!question]- 使用 C 臂執行血管攝影介入,何者可能降低工作人員劑量? (2016-258)
-> **降低透視模式的 frame rate**。C 臂倒置時工作人員應站影像接收器側（非 X 光管側）、勿拉長 source-detector air gap、勿用過大視野。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fluoroscopy-radiation-safety")

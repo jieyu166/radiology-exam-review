@@ -40,19 +40,6 @@ dateRev: 2026-06-15
 [^1]: *Liver elastography*. Radiopaedia.org（摘錄 SRU 共識）。strain 與 shear wave（ARFI）兩類；ARFI 協定：禁食 4h、ROI 包膜下 1.5–2.0 cm、深度 4–4.5 cm 最佳、不深於 6–7 cm、≥5 次取中位；ARFI 閾值 <1.3 m/s 正常、>2.1 m/s（>13 kPa）提示 advanced CLD（實際查證 accessed 2026-06-15）。
 [^2]: Barr RG, Ferraioli G, Palmeri ML, et al. *Elastography Assessment of Liver Fibrosis: SRU Consensus Conference Statement*. Radiology. 2015;276(3):845-861. https://doi.org/10.1148/radiol.2015150619 （題目所引；**該文全文院內為付費牆、僅讀到摘要**，閾值與量測協定以 [^1] Radiopaedia 摘錄之同一 SRU 共識核實）。
 
-## 題目
-> [!question]- 哪些超音波技術與「測量組織硬度」有關？
-> **Strain imaging 與 shear wave imaging**。Tissue harmonics（影像品質）、navigation/fusion（影像融合）與硬度無關。[^1]
-
-> [!question]- 以 shear wave velocity 評慢性 C 肝之肝硬化，常用閾值約多少？
-> **約 2 m/sec**（>2.1 m/s / >13 kPa 提示 advanced CLD/硬化）。[^1]
-
-> [!question]- 以 shear wave velocity 評肝硬化，怎麼量最穩定、再現性高？
-> **禁食、量右葉 seg 8（前葉 seg 5/8）、深度約 4 cm**（包膜下 1.5–2 cm、勿過深 >6–7 cm、取多次中位）。[^1]
-
-> [!question]- 關於超音波 elastography，何者敘述「錯誤」？(2016-134)
-> 「**strain elastography 用 ARFI 當壓縮力做定量**」錯——**ARFI 屬 shear wave（剪力波）技術、為定量（m/s）**；strain 用（手動/生理）壓縮、為相對/半定量。elastography 量硬度（取代觸診）、strain 測相對應變、precompression 會影響 strain 與 shear wave 結果，皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "liver-elastography")

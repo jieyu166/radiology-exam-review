@@ -64,22 +64,6 @@ concepts: [lung-cancer]
 ### 參考來源
 [^1]: Austin JHM, Garg K, Aberle D, Yankelevitz D, Kuriyama K, Lee HJ, Brambilla E, et al. *Radiologic Implications of the 2011 Classification of Adenocarcinoma of the Lung*. Radiology. 2013;266(1):62-71. https://doi.org/10.1148/radiol.12120240 （實際查證 full text，accessed 2026-06-14；該文影像實作 IASLC/ATS/ERS 2011 分類）。
 
-## 題目
-> [!question]- 病理為 ≤3 cm、以 lepidic 生長為主、侵犯 ≤5 mm，CT 主要 nonsolid 但可有 ≤5 mm 中央 solid——2011 分類中屬何者？
-> **Minimally invasive adenocarcinoma（MIA）**。僅其 <5 mm 的 solid 成分代表侵犯，nonsolid 部分為非侵犯。[^1]
-
-> [!question]- AIS 與 MIA 如何區分？
-> 兩者皆 ≤3 cm、lepidic 為主；**AIS 完全無侵犯（純 nonsolid）**，**MIA 有 ≤5 mm 侵犯（含 <5 mm 中央 solid）**。侵犯 >5 mm 即 invasive adenocarcinoma。[^1]
-
-> [!question]- 2011 分類中新增、預後較差的浸潤性亞型為何？
-> **Micropapillary predominant**（微乳突優勢型）。[^1]
-
-> [!question]- 2011 肺腺癌分類譜系包含哪些?「除了」何者? (2016-199)
-> 2011 IASLC 譜系＝**AAH → AIS → MIA → invasive adenocarcinoma**。**「Focal interstitial fibrosis（局部間質纖維化）」非腫瘤性、不屬此分類**（正解 A）。[^1]
-
-> [!question]- 關於肺癌,何者「不」正確? (2016-194)
-> 「**AAH、AIS、MIA 被歸於『同一』分期/類別**」不正確（正解 C）——三者分期不同：**AAH 為 preinvasive、AIS＝Tis、MIA＝T1mi**。其餘為真：SCLC 腫瘤與轉移無法納入同一放射照野＝extensive stage、adenocarcinoma 為女性/非吸菸者最常見細胞型、CT 上腫瘤旁肋膜增厚對胸壁侵犯準確度不高。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lung-cancer")

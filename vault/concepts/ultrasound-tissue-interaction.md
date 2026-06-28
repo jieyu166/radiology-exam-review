@@ -30,13 +30,6 @@ same:
 ### 參考來源
 [^1]: 超音波物理經實際查證（accessed 2026-06-17，Radiopaedia *acoustic impedance* / *scattering*）：impedance 失配決定界面反射/穿透；組織回音性/紋理（speckle）源自小界面 backscatter（散射）。與 [[ultrasound-attenuation]] 互補。
 
-## 題目
-> [!question]- 何者造成超音波能量「穿透與反射」的差異？
-> **Acoustic impedance（聲阻抗）**——界面兩側阻抗差越大，反射越多、穿透越少。[^1]
-
-> [!question]- 各組織呈現不同 echogenicity 的主要因素？
-> **Scattering（散射）**——小於波長的小界面 backscatter 決定組織回音性與紋理。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-tissue-interaction")

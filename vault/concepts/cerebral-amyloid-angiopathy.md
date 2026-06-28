@@ -28,10 +28,6 @@ same:
 ### 參考來源
 [^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。
 
-## 題目
-> [!question]- 關於 cerebral amyloid angiopathy,何者「不正確」? (2016-237)
-> 「**主要侵犯深部灰質(deep gray matter)與腦幹**」不正確——CAA 為**皮質-皮質下(lobar)、保留深部灰質與腦幹**(深部出血屬高血壓)。老年 lobar 出血、GRE/SWI 多發黑點、合併失智皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cerebral-amyloid-angiopathy")

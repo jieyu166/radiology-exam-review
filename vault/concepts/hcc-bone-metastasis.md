@@ -77,19 +77,6 @@ T1 iso-/hypo、T2/T2FS hyper（內部不均）、T1FS+C 明顯不均勻強化；
 [^8]: Kuhlman JE, Fishman EK, Leichner PK, Magid D, Order SE, Siegelman SS. *Skeletal metastases from hepatoma: frequency, distribution, and radiographic features*. Radiology. 1986;160(1):175-178. https://doi.org/10.1148/radiology.160.1.3012630 （**全文已讀**，本機 PDF [[1986 R Skeletal metastases from hepatoma.pdf]]：300 例切片確診 HCC 中 22 例（7.3%）骨轉移、17 男 5 女、平均 54 歲、骨轉移後中位存活 14.9 月；平片**全部溶骨**、邊界 ill-defined permeative、少反應性硬化（除非放療後）；分布 肋骨 13／脊椎 13／股骨 11／骨盆 7／肱骨 5／顱骨 4；**肋骨轉移常見大 extrapleural 腫塊＋病理性骨折**；CT 最能顯示破壞與未預期 bulky 軟組織腫塊；**骨掃描（Tc-99m MDP）呈增加攝取、gallium avid**（與 hepatoma 相同，因 ferritin 可 I-131 antiferritin 標靶）；近端股骨為病理性骨折好發；骨轉移多為晚期表現但可為首發）。
 [^9]: Ross JS. *Lytic Osseous Metastases*. STATdx（Spine, Dx），updated 2025-02-25. Elsevier（第六來源交叉比對：脊椎為骨轉移最常見部位、**病灶分布與紅骨髓成比例（腰＞胸＞頸）**、骨掃描可偽陰性、平片需 50–70% 骨破壞才顯；溶骨原發列 renal/lung/breast/thyroid/**GI tract（含 hepatobiliary）**/urothelial/ovarian/melanoma 等，HCC 歸 GI 未單列）（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- HCC 骨轉移的典型影像型態？為何骨掃描可能漏診？
-> **溶骨＋膨脹性（blow-out）＋富血管不均勻強化＋軟組織腫塊**；因溶骨、低成骨反應，**傳統骨掃描常偽陰性**，須用 CT/MRI/PET-CT。[^1][^2][^4][^5]
-
-> [!question]- 哪些原發癌會造成「膨脹性（blow-out）」骨轉移？
-> **RCC、thyroid、HCC、pheochromocytoma、melanoma、gastric carcinoma**。[^2]
-
-> [!question]- 老年 HCC 病人、高 AFP，肋骨見膨脹富血管溶骨灶＋restricted diffusion，最可能診斷？
-> **HCC 骨轉移**（膨脹性富血管型）；切片可確認。見 [[rib-tumor]]。[^1][^2][^3]
-
-> [!question]- HCC 在右肝，骨轉移卻在左肋，矛盾嗎？HCC 骨轉移最常見部位？
-> **不矛盾**——骨轉移為**血行播散**，分布取決於紅骨髓血流而非原發左右。**肋骨是 HCC 骨轉移最常見部位之一**（Kuhlman 系列：肋骨、脊椎、股骨、骨盆、肱骨），左右皆可。[^8]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hcc-bone-metastasis")

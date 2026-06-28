@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Digital breast tomosynthesis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：DBT 以薄切片消除 summation,**改善腫塊形態與 architectural distortion 分析、降低 recall ~40%**;改善微鈣化「可見度」但**未提升其形態/分布評估**（masses 與 distortion 才是 morphological 分析受益者）。
 
-## 題目
-> [!question]- DBT 的強項與限制各為何?
-> 強項＝**腫塊形態、architectural distortion、不對稱辨識/定位、recall↓~40%**;限制＝**微鈣化 morphology/distribution 評估不優於 2D**（薄切片分散鈣化）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-tomosynthesis")

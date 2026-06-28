@@ -29,10 +29,6 @@ dateRev: 2026-06-18
 [^2]: *Luftsichel sign (lung)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「seen in ... **left upper lobe collapse** ... hyperinflation of the **superior segment of the left lower lobe** interposing itself between the mediastinum and the collapsed left upper lobe」。
 [^3]: *Right middle lobe syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-18）：分 obstructive 與 **non-obstructive** 型;病因「**poor collateral ventilation, a relatively narrow ostium, and infection/inflammation**」（經典為非阻塞性）。
 
-## 題目
-> [!question]- 關於肺葉塌陷,何者「不」正確? (2016-227)
-> 「**右中葉症候群與內支氣管腫瘤相關**」不正確——經典 RML 症候群為非阻塞型（差側枝通氣＋窄 ostium）。RUL 側位三角形、LUL 側位自尖延伸至橫膈、Luftsichel＝LUL 塌陷致主動脈旁新月透亮（LLL 上節段疝入）皆正確。[^1][^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lobar-atelectasis")

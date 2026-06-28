@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Tracheal bronchus*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「Tracheal bronchi arise from the **right lateral wall of the trachea usually at a distance of <2 cm from the level**（of the carina）」;pig bronchus/bronchus suis＝整個上葉由其供應。
 
-## 題目
-> [!question]- Tracheal bronchus 最常起源於?
-> **氣管右側壁、距分叉（隆突）<2 cm**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tracheal-bronchus")

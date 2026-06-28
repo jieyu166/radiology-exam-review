@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 [^1]: Catalano OA, et al. *MR Imaging of the Gallbladder: A Pictorial Essay*. RadioGraphics. 2008;28(1):135-155. https://doi.org/10.1148/rg.281065183 （實際查證 accessed 2026-06-17：濃縮膽汁於 T1 呈高訊號「probably due to increased bile concentration」;膽鹽/蛋白濃度影響 T1 訊號）。
 [^2]: 慢性膽囊炎/膽石症膽汁滯留致 T1 高訊號膽汁/sludge——近期研究示 T1WI layering hyperintensity 與膽囊 sludge、cholecystolithiasis 相關（PMC12267354；Based on articles retrieved from PubMed）。
 
-## 題目
-> [!question]- 慢性膽囊炎患者 T1WI 上「肝/膽囊膽汁訊號比值」會顯著如何?
-> **下降（decreased）**——膽汁濃縮/滯留與 sludge 使膽囊膽汁 T1 訊號增高,故比值下降。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chronic-cholecystitis")

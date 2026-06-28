@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 肺靜脈高壓分期（題目所引 Radiology Review Manual 7th ed.）：Stage I 重分布/cephalization/loss of hilar angle;II 間質水腫;III 肺泡水腫;IV 慢性含鐵血黃素/骨化。
 
-## 題目
-> [!question]- mitral stenosis 第一期(stage I)可觀察到何特徵? (2016-232)
-> **Loss of hilar angle、血流重分布(redistribution)**。interstitial edema 屬 stage II、alveolar edema 屬 III、hemosiderin/ossification 屬 IV。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-venous-hypertension")

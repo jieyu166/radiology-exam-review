@@ -31,10 +31,6 @@ same:
 [^1]: *Solitary / multiple filling defects of the ureter (differential)*. Radiopaedia.org。單發 CUPS MET（clot、ureteric stone、polyp、sloughed papilla、metastasis、endometriosis、TB、urothelial carcinoma）；多發含多發結石、ureteritis cystica、多灶 UC 等（實際查證 accessed 2026-06-15）。
 [^2]: Potenta SE, D'Agostino R, Sternberg KM, Tatsumi K, Perusse K. *CT Urography for Evaluation of the Ureter*. RadioGraphics. 2015;35(3):709-726. https://doi.org/10.1148/rg.2015140209 （**全文已讀，醫師提供 PDF，accessed 2026-06-28**）：「by far the most common causes of filling defects are calculi, tumors such as UCC, and clots」「ureteral calculi are the most common cause of ureteral filling defects」「all urinary tract calculi have high attenuation and measure more than 200 HU (with the rare exception of indinavir calculi)」「any ureteral filling defect that demonstrates soft-tissue attenuation should be considered malignant until proven otherwise」;UCC 最常見尿路上皮腫瘤、常多灶、goblet sign 高度提示但非完全特異;clot 於 NECT >50 HU、可為 vermiform（Table 4、Calculus／Malignancy／Clot 段）。
 
-## 題目
-> [!question]- 輸尿管充盈缺損最常見的原因？
-> **結石（calculi）**。urothelial carcinoma（原 TCC）為最常見的『腫瘤性』充盈缺損但整體頻率低於結石；papilloma 罕見、clot 續發於出血。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ureteral-filling-defect")

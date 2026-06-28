@@ -71,22 +71,6 @@ dateRev: 2026-06-14
 [^2]: Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512 （實際查證 accessed 2026-06-14）。
 [^3]: *Garland triad*. Radiopaedia.org（實際查證 accessed 2026-06-17）：Garland triad＝1-2-3 sign / pawnbroker's sign，**對稱性肺門 + 右 paratracheal 淋巴結腫**；CT 時代雙側肺門+縱膈腫大為常規，**左縱膈淋巴結 X 光上常被大血管遮蔽而隱匿**。
 
-## 題目
-> [!question]- Sarcoidosis 的肉芽腫是乾酪性還是非乾酪性？與何病關鍵區別？
-> **Noncaseating（非乾酪性）** epithelioid granuloma；與 TB 的乾酪性肉芽腫關鍵區別。[^1]
-
-> [!question]- Sarcoidosis 的分期（Scadding/Siltzbach）依據哪種影像？分哪幾期？
-> 依 **chest radiograph（X 光）**，非 CT。0 正常／I 僅淋巴結／II 淋巴結+實質／III 僅實質／IV 纖維化。[^2]
-
-> [!question]- Sarcoidosis 哪些 HRCT 所見是 active（可逆）、哪些是不可逆？
-> Active（可逆）：nodules、GGO、consolidation（perilymphatic 分布）；不可逆：traction bronchiectasis、結構扭曲、囊狀/纖維化（stage IV）。[^2]
-
-> [!question]- Sarcoidosis 肺實質病灶的分布與結節分布型態？
-> **上中肺野為主**；結節呈 **perilymphatic**（peribronchovascular、subpleural、沿葉間裂）。[^2]
-
-> [!question]- Garland triad（1-2-3 sign）包含哪些淋巴結？不含何處？
-> 含**雙側肺門 + 右 paratracheal**；**不含左 paratracheal**（左縱膈常被大血管遮蔽而隱匿）。[^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-sarcoidosis")

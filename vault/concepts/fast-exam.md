@@ -42,13 +42,6 @@ dateRev: 2026-06-14
 [^1]: Richards JR, McGahan JP. *Focused Assessment with Sonography in Trauma (FAST) in 2017: What Radiologists Can Learn*. Radiology. 2017;283(1):30-48. https://doi.org/10.1148/radiol.2017160107 （實際查證 accessed 2026-06-14）。
 [^2]: *Focused Assessment with Sonography for Trauma (FAST) scan*. Radiopaedia.org（引 ACEP/AIUM emergency ultrasound guidelines；FAST 評估自由液體）（實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- 依 AIUM，FAST 在腹部評估的是什麼？
-> **腹腔內自由液體（free fluid / hemoperitoneum）**，不是主動脈、肝實質或肝/門靜脈血流。[^1][^2]
-
-> [!question]- FAST 的標準四視窗與各自腔隙？
-> Subxiphoid（心包）、RUQ（Morrison pouch，最敏感）、LUQ（脾腎間）、suprapubic（Douglas pouch）。E-FAST 再加胸廓查氣胸/血胸。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fast-exam")

@@ -35,13 +35,6 @@ same:
 ### 參考來源
 [^1]: *Tree-in-bud pattern*. Radiopaedia.org（實際查證 accessed 2026-06-17）：CT 多發 **centrilobular micronodules + linear branching**;最初描述於 endobronchial TB;兩大部位＝**distal airways（more common）與 distal pulmonary vasculature**;氣道型（TB、aspiration、bronchopneumonia、CMV、CF mucus plugging、sarcoid/lymphoma/leukemia）、血管型（**tumor emboli 乳癌/胃癌、IV drug excipient/talcosis**）。
 
-## 題目
-> [!question]- tree-in-bud 的兩大來源與最常見病因?
-> ①**遠端氣道（較常）**＝小氣道感染（**TB/NTM**、細菌/病毒性細支氣管炎、aspiration、CF）②**遠端肺血管**＝tumor microemboli（乳/胃癌）、IV 藥物 talcosis。[^1]
-
-> [!question]- 何時要想「血管型」tree-in-bud?
-> 有**惡性病史、無感染證據**時想**腫瘤微栓塞（carcinomatous endarteritis）**;IV 藥癮者想 talcosis/excipient lung。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tree-in-bud")

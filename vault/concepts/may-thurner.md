@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: May-Thurner 經實際查證（accessed 2026-06-17，Radiopaedia *May-Thurner syndrome*）：右髂總動脈壓迫左髂總靜脈（夾於 L5 前）、內膜 spur、左下肢 DVT、好發年輕女性、靜脈支架處置。
 
-## 題目
-> [!question]- May-Thurner syndrome 的正確機轉？
-> **右髂總動脈壓迫左髂總靜脈**（被壓者為左髂總靜脈），致左下肢 DVT。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "may-thurner")

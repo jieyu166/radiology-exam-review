@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 膽管錯構瘤（von Meyenburg complex）經實際查證（accessed 2026-06-17，Radiopaedia *biliary hamartoma*）：囊狀擴張小膽管＋膠原基質、多發<15mm；US 多發高/低回音結節＋comet-tail（膽固醇結晶/濃稠物）；MRCP 多發小囊不通膽道樹。
 
-## 題目
-> [!question]- 關於 biliary hamartoma（von Meyenburg complex），何者「非真」？
-> 「膽固醇結晶**罕**與擴張小管相伴」非真——膽固醇結晶/濃稠物**常見**，為 comet-tail 偽影來源。別名 von Meyenburg；US 多發高/低回音結節＋彗星尾。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "biliary-hamartoma")

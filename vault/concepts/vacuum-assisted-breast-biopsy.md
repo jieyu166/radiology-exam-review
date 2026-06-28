@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Diagnostic Imaging: Breast (Berg et al. 2006) V-2-27~95：Liberman et al. 報告 VABB 完全移除微鈣化後,手術時仍約 **80%** 有殘餘癌。
 
-## 題目
-> [!question]- 關於立體定位真空輔助乳房切片(VABB),何者「為非」? (2017-109)
-> 「**切片後無殘餘鈣化、病理惡性即不需再開刀**」為非——約 **80%** 仍有殘餘癌、須手術。stereo pair 算 3D 位置、~99% 足夠樣本、置 tissue marker clip、主要針對鈣化皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "vacuum-assisted-breast-biopsy")

@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Odontoid fracture（dens fracture）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**Anderson and D'Alonzo** 分型——type I 齒突尖撕脫（穩定）、**type II 齒突基部橫向骨折（不穩定）**、type III 延伸入椎體;type II 為最常見且最易 nonunion（標準脊椎教學）。
 
-## 題目
-> [!question]- 最常見的齒突（odontoid）骨折型?
-> **Type II（齒突基部橫向骨折）**——最常見、不穩定、易 nonunion。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "odontoid-fracture")

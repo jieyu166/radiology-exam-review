@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Amyotrophic lateral sclerosis*. Radiopaedia.org（實際查證 accessed 2026-06-20）：**motor band sign＝precentral gyrus 雙側 SWI 低訊號（鐵沉積）**;**corticospinal tract T2 高訊號（internal capsule 最早）**;bulbar 侵犯可見 **bright tongue sign（舌肌 T1 高訊號、脂肪取代）**。另 Arq Neuropsiquiatr. 2014;72(7):572（官方 2017 詳解所引）。
 
-## 題目
-> [!question]- MRI「bright tongue sign」是何病的診斷標記? (2017-114)
-> **ALS（amyotrophic lateral sclerosis）**——舌肌 T1 高訊號（慢性去神經、脂肪取代）。ALD（adrenoleukodystrophy）、MLD（metachromatic leukodystrophy）、PML 為其他白質病變。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "als-imaging")

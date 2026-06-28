@@ -29,10 +29,6 @@ dateRev: 2026-06-18
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），Breast Composition：「a. almost entirely fatty;b. scattered areas of fibroglandular density;c. heterogeneously dense ... obscure small masses;d. extremely dense ... lowers the sensitivity」;「the **percentages estimates of dense tissue were replaced by** a description of subjectively estimated breast density」。
 [^2]: *Breast density (classification)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：a/b/c/d 定義;5th ed「percentages estimates ... were replaced by a description of subjectively estimated breast density」。
 
-## 題目
-> [!question]- 關於 BI-RADS 2013 breast composition,何者「非」? (2017-005)
-> 「**報告需描述纖維腺體佔比（如 0–25%）**」非——2013 移除百分比、改主觀描述。a–d 分級、最緻密＝extremely dense、a＝almost entirely fatty 皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-composition")

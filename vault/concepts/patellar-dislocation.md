@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Lateral patellar dislocation*. Radiopaedia.org（實際查證 accessed 2026-06-17）：disruptive changes to the **medial patellar retinaculum**;（transient dislocation）「**medial patellar contusion +/- corresponding lateral femoral condyle contusion**」+ joint effusion;機轉為膝屈曲、股骨內旋外翻。
 
-## 題目
-> [!question]- 暫時性外側髕骨脫位的 MRI 骨髓水腫對吻位置?
-> **髕骨內側面（medial facet）＋ 外側股骨髁（lateral femoral condyle）**——kissing contusion;伴 MPFL 撕裂、關節積液。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "patellar-dislocation")

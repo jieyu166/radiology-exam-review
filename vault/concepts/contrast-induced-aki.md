@@ -38,13 +38,6 @@ same:
 [^1]: ACR-NKF 共識（一手、開放取用,實際查證 accessed 2026-06-20）：Davenport MS, Perazella MA, Yee J, et al. *Use of Intravenous Iodinated Contrast Media in Patients with Kidney Disease: Consensus Statements from the ACR and NKF*. Radiology. 2020;294(3):660-668. doi:10.1148/radiol.2019192094——明確區分 **CI-AKI（AKI caused by contrast）vs CA-AKI（AKI coincident to contrast）**;**eGFR <30 mL/min/1.73m²（未透析）屬高風險、可考慮預防**。另 ACR Manual on Contrast Media、中華民國放射線醫學會《對比劑手冊》2023（本機 gitignore）：診斷 3 天內 Cr ≥0.3 mg/dL 或 ≥1.5×;正常腎功能常規劑量無劑量-毒性;心導管研究高估 IV 風險。
 [^2]: 對比劑腎病變風險因子（台灣手冊/ACR）：**最重要為既存嚴重腎功能不全**;DM、脫水、心血管病、短時間多次劑量為次要。
 
-## 題目
-> [!question]- 關於 CA-AKI,何者「不正確」? (2023交換)
-> 「**常規診斷劑量下有 dose-toxicity 關係**」不正確——**正常腎功能、常規劑量（<300 mL 或含碘 <90 g）下無劑量-毒性關係**。CA-AKI 可能他因、心導管研究高估 IV 風險、eGFR≥30 證據少且 <30 無絕對禁忌皆正確。[^1]
-
-> [!question]- CI-AKI 最重要的風險因子? (2023交換)
-> **既存嚴重腎功能不全（pre-existing severe renal insufficiency）**。糖尿病、脫水、心血管病、短時間多次劑量為次要風險因子。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-induced-aki")

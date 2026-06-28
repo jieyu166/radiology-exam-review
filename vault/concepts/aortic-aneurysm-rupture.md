@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 主動脈瘤即將破裂徵象（題目所引 Radiology Review Manual 7th ed.／Radiopaedia *abdominal aortic aneurysm*）：crescent sign（高密度新月＝壁內出血）、鈣化局部不連續、draped aorta sign、快速增大為警訊;單純血栓增厚非指標。
 
-## 題目
-> [!question]- 何者「非」主動脈瘤即將破裂(impending rupture)的徵象? (2016-231)
-> **Thickening of mural thrombus**。increasing size(A)、focal discontinuity of wall calcification(B)、crescent sign(C)皆為警訊。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aortic-aneurysm-rupture")

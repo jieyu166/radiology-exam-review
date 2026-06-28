@@ -32,10 +32,6 @@ same:
 ### 參考來源
 [^1]: *Pulse repetition frequency*. Radiopaedia.org（ultrasound physics）。PRF = c/(2R)、R = 0.5×(c/PRF)（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 增加最大成像深度，下列何者會改變？為什麼？
-> **PRF（脈衝重複頻率）**——PRF = c/(2R)，深度 R↑ → PRF↓。SPL、pulse duration、wavelength 由探頭頻率/介質決定，與深度無關。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-prf-depth")

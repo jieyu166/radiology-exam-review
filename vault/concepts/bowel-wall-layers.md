@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Gut signature sign*. Radiopaedia.org（實際查證 accessed 2026-06-17）：腸壁五層交替高/低回音，內→外＝superficial mucosa（echogenic）／muscularis mucosa（hypoechoic）／**submucosa（echogenic，最厚）**／muscularis propria（hypoechoic）／serosa（echogenic）；保留＝良性、破壞＝惡性。題目另引 The Requisites: Ultrasound p.221。
 
-## 題目
-> [!question]- 超音波腸壁分層（gut signature），何者「為錯」？
-> 「第二個**高回音**層是 muscularis mucosa」錯——應為 **submucosa（最厚）**；muscularis mucosa 為**低回音**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bowel-wall-layers")

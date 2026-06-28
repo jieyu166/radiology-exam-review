@@ -34,10 +34,6 @@ dateRev: 2026-06-16
 ### 參考來源
 [^1]: *Femoral hernia*. Radiopaedia.org。位於腹股溝韌帶後下、股靜脈內側；窄漏斗狀頸；**幾乎一定壓迫股靜脈**（腹股溝疝罕壓迫）；**位於恥骨結節外側**（實際查證 accessed 2026-06-16）。題目另引 AJR 2007;189:W78-83。
 
-## 題目
-> [!question]- 相較於腹股溝疝，下列何者「較不易」於股疝病患見到？
-> **Extended sac（延伸的大疝囊）**——股疝頸窄、疝囊小而局限。壓迫股靜脈、局限疝囊、位於恥骨結節外側則為股疝較常見特徵。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "groin-hernia")

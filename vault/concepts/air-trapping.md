@@ -30,10 +30,6 @@ same:
 ### 參考來源
 [^1]: *Air trapping*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**air-trapping of limited extent is common in normal individuals, occurring in ~50% of CT thorax**」;**輕度（<25%）可無症狀/臨床不顯著**;呼氣相顯現、以小葉界線分界;病態見於小氣道阻塞性病變。
 
-## 題目
-> [!question]- 何者最能描述 air trapping?
-> **小葉狀 air trapping 是健康人常見所見**（~50% CT、隨年齡增加、吸菸者更多）。輕度<25% 多無臨床意義。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "air-trapping")

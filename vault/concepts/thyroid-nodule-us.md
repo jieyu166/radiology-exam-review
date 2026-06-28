@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: ACR TI-RADS / *Thyroid nodule*. Radiopaedia.org（實際查證 accessed 2026-06-17）：可疑特徵含 **markedly hypoechoic、taller-than-wide、不規則/毛刺邊緣、microcalcifications、實質、腺外延伸**;多發/甲狀腺腫大本身非可疑特徵。
 
-## 題目
-> [!question]- 何者「非」甲狀腺惡性的可疑超音波特徵?
-> **甲狀腺腫大合併多發結節**。markedly hypoechoic、taller-than-wide、microcalcifications 皆為可疑。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "thyroid-nodule-us")

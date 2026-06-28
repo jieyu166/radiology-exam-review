@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Desmoid tumor（desmoid-type fibromatosis）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**benign, non-inflammatory fibroblastic tumors**,傾向**局部侵犯與術後復發**、不轉移,「sometimes considered a locally aggressive proliferative disease within the family of soft-tissue sarcomas」;與 **APC 基因**相關;緻密膠原→T2 低訊號帶、質地堅硬。
 
-## 題目
-> [!question]- 關於 desmoid tumor,何者「為假」?
-> 「**不會 rock-hard、對經皮切片無抵抗**」假——緻密膠原致質硬難切片。良性纖維母細胞瘤、介於修復與惡性、APC(5q) 突變、局部侵犯不轉移皆真。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "desmoid-tumor")

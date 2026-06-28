@@ -29,16 +29,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: AAPM/RSNA 乳房攝影物理 tutorials（標題/範圍實際查證 accessed 2026-06-20;全文需訂閱,下列為標準乳攝物理數值,主題涵蓋於這兩篇權威 tutorial）：Mahesh M. *AAPM/RSNA Physics Tutorial for Residents: Digital Mammography — An Overview*. RadioGraphics. 2004;24(6). doi:10.1148/rg.246045102（數位乳攝物理、平均腺體劑量、偵測器/解析度）;Villafana T. *Generators, X-ray Tubes, and Exposure Geometry in Mammography*. RadioGraphics. 1990;10(3). doi:10.1148/radiographics.10.3.2343172（摘要明列 target/filter 組合、focal spot、曝光幾何/放大率）。要點：低 kVp（Mo ~25–28、Rh ~30–35,非 80–100）、Mo/Mo 最常用而緻密乳改 Mo/Rh、Rh/Rh、數位 MGD ~2 mGy、放大率＝SID/SOD（正中間＝2）、放大用 0.1 mm 小焦點、數位 limiting resolution ~5–10 lp/mm。
 
-## 題目
-> [!question]- 關於 mammography,何者「不」正確? (2017-016)
-> 「**銠(Rh)典型 kVp 為 80–100**」不正確——乳攝為**低 kVp(25–35)**。MGD ~2 mGy(A)、薄乳劑量低(B)、Mo/Mo 最常用(C)皆正確。[^1]
-
-> [!question]- 關於 mammography,何者「不」正確? (2017-017)
-> 「**乳房置於焦點與接收器正中間放大率為 1.4**」不正確——正中間 SOD＝SID/2 → **放大率＝2**。0.1 mm 像素 ~5 lp/mm(B)、放大用小焦點 0.1 mm(C)、MLO 源在內上接收器在外下(D)皆正確。[^1]
-
-> [!question]- 乳房攝影陽極/濾片由 Mo/Mo 改為 Rh/Rh,對平均乳腺劑量與影像對比之影響? (2016-257)
-> **平均乳腺劑量與影像對比『皆降低』**。Rh/Rh 較具穿透性（用於較厚/緻密乳房），MGD 最低、對比也較 Mo/Mo 低。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mammography-physics")

@@ -50,13 +50,6 @@ dateRev: 2026-06-15
 [^1]: *Posterior reversible encephalopathy syndrome*. Radiopaedia.org。誘因含嚴重高血壓、產後 eclampsia/pre-eclampsia、急性腎絲球腎炎、藥物毒性（tacrolimus/cyclosporine/化療/類固醇等）；機轉為自我調節失衡致 vasogenic edema。影像：parieto-occipital 為主、可延伸後腦以外（額/腦幹/基底節/小腦）、三型分布；CT 低密度；T2/FLAIR 高訊號、DWI 多不受限/ADC 升高（少數真受限提示梗塞）、強化多變、可出血、DSA 可見 vasospasm（實際查證 accessed 2026-06-16）。
 [^2]: Hinchey J, Chaves C, Appignani B, et al. *A reversible posterior leukoencephalopathy syndrome*. N Engl J Med. 1996;334:494-500. https://doi.org/10.1056/NEJM199602223340803 （題目所引原始描述；危險因子含高血壓、子癇、免疫抑制治療、腎病）。
 
-## 題目
-> [!question]- 下列何者「非」PRES 的常見危險因子？
-> **DM（糖尿病）**。常見危險因子為高血壓、子癇（eclampsia）、免疫抑制/藥物毒性、腎功能不全。[^1][^2]
-
-> [!question]- PRES 的典型影像分布與 DWI 表現？如何與急性梗塞區分？
-> **雙側對稱 vasogenic edema、好發 parieto-occipital 皮質下白質**（可延伸至額/腦幹/基底節/小腦）；**DWI 多不受限、ADC 升高**。急性梗塞為 DWI 受限/ADC 下降；PRES 若真正擴散受限則提示已梗塞、預後差。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pres")

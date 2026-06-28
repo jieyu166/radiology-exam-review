@@ -25,10 +25,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 肝鐮狀韌帶動脈（題目所引／IR 文獻）：走行於 falciform ligament、源自 middle/left hepatic artery、與 internal thoracic（superior epigastric）吻合;TACE 非目標栓塞致 supraumbilical 皮膚併發症。
 
-## 題目
-> [!question]- 關於 hepatic falciform ligament artery,何者「正確」? (2016-243)
-> **以上皆正確（E）**——走行於鐮狀韌帶(A)、源自肝中/左動脈(B)、與內胸動脈分支吻合(C)、非目標栓塞致臍上皮膚併發症(D)。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "falciform-ligament-artery")

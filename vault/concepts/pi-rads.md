@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Prostate Imaging Reporting and Data System (PI-RADS)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**MR spectroscopy does not form part of PI-RADS scoring**」;TZ「primarily determined by the T2W score」、PZ 以 DWI 主導;DCE 簡化為 positive/negative。
 
-## 題目
-> [!question]- 關於 PI-RADS v2,何者「錯誤」? (2017-020)
-> 「**MRS 有輔助角色**」錯誤——**PI-RADS v2 已移除 MRS、不納入評分**。PZ 以 DWI/ADC、TZ 以 T2WI 為主導、DCE 簡化為陰/陽性皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pi-rads")

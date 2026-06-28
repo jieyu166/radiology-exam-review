@@ -29,10 +29,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Spondylodiscitis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**T2: high signal in disc space (fluid)**; high signal in adjacent endplates; loss of low signal cortex at endplates ... **intervertebral disc enhancement** with contrast」;MRI 敏感度 >95%、特異度 >90%。另 RadioGraphics（題目所引）。
 
-## 題目
-> [!question]- 哪一 MRI 特徵最能鑑別 discitis 與 Modic type 1 終板變化? (2016-218)
-> **椎間盤內 T2 高訊號（high signal within the disc on T2WI）**——感染特徵(伴椎間盤強化、終板破壞);Modic 1 僅終板/骨髓變化、椎間盤不高訊號。椎間盤高度降低、終板不規則無鑑別力。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "spondylodiscitis")

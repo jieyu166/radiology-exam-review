@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 主動脈弓變異經實際查證（accessed 2026-06-17，Radiopaedia *aberrant right subclavian artery* / *right aortic arch*）：左弓+迷走右 SCA 最常見、多無症狀；Kommerell 憩室壓食道/氣管；右弓鏡像次常見、關聯 DiGeorge/conotruncal。
 
-## 題目
-> [!question]- 關於主動脈弓變異，何者「為假」？
-> 「左弓＋迷走右 SCA 最常見且**常造成壓迫症狀**」假——最常見但**多無症狀**。Kommerell 壓食道、右弓鏡像次常見關聯 DiGeorge 皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aortic-arch-anomalies")

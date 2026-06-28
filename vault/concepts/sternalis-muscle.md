@@ -23,10 +23,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Sternalis muscle*. Radiopaedia.org。少見胸壁副肌、位於胸骨旁 pectoralis major 內緣；乳房攝影見於 CC view 內側、呈軟組織density、形態多變、易誤為腫塊（實際查證 accessed 2026-06-17）。
 
-## 題目
-> [!question]- 關於乳房攝影上的 sternalis muscle，何者「非」真？
-> 「**僅見於 MLO view**」非真——見於 **CC view 內側**、易誤為腫塊；為胸骨旁 pectoralis 內緣小肌、約 1%、形態多變（火焰/三角/圓）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "sternalis-muscle")

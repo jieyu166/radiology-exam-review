@@ -29,10 +29,6 @@ same:
 [^1]: *Cerebral abscess* / *Dual rim sign*. Radiopaedia.org（實際查證 accessed 2026-06-17）：化膿性膿瘍中心 **DWI 明顯受限**,與壞死腫瘤（多不受限）區別;DWI 為鑑別環狀強化病灶之關鍵。見 [[brain-abscess]]。
 [^2]: *Cerebral toxoplasmosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**AIDS 最常見的機會性 CNS 感染**;多發環狀強化、好發基底節/灰白質交界、eccentric target sign。
 
-## 題目
-> [!question]- 關於環狀強化病灶與 CNS 伺機性感染,何者正確?
-> **以上皆正確**：DWI 為鑑別環狀強化病灶最佳序列、CNS 黴菌病多伺機性、**toxoplasmosis 為 AIDS 最常見 CNS 伺機感染**。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cns-opportunistic-infection")

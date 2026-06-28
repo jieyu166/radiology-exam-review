@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 肺靜脈回流異常（官方 2016 詳解；The Basics 2nd ed. p.221-236／Radiopaedia *TAPVR*）：supracardiac/cardiac/infracardiac/mixed;正常 4 條肺靜脈(左2右2);infracardiac 最易阻塞;supracardiac 阻塞於 ascending vein 跨左肺動脈;cardiac 型似 cor triatriatum。
 
-## 題目
-> [!question]- 關於肺靜脈回流異常(anomalous pulmonary venous return)的描述,何者「不對」? (2016-253)
-> 「**確認左2右3肺靜脈開口以排除診斷**」不對——正常為**左2右2（共4條）**。四型分類、infracardiac 最易阻塞、supracardiac 阻塞於垂直靜脈跨左肺動脈、cardiac 型似 cor triatriatum 皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "anomalous-pulmonary-venous-return")

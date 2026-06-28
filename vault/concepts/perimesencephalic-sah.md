@@ -31,13 +31,6 @@ dateRev: 2026-06-20
 [^3]: van der Schaaf IC, Velthuis BK, Gouw A, Rinkel GJE. *Venous Drainage in Perimesencephalic Hemorrhage*. Stroke. 2004;35(7):1614-1618. doi:10.1161/01.STR.0000131657.08655.ce（靜脈引流變異與靜脈源假說）。另 Velthuis BK, et al. *Perimesencephalic Hemorrhage*. Stroke. 1999;30(5):1103-1109. doi:10.1161/01.str.30.5.1103。
 [^4]: Marder CP, Narla V, Fink JR, Tozer Fink KR. *Subarachnoid Hemorrhage: Beyond Aneurysms*. AJR Am J Roentgenol. 2014;202(1):25-37. doi:10.2214/AJR.12.9749;Rinkel GJE, Wijdicks EFM, Vermeulen M, et al. *Nonaneurysmal Perimesencephalic Subarachnoid Hemorrhage: CT and MR Patterns That Differ from Aneurysmal Rupture*. AJNR Am J Neuroradiol. 1991;12(5):829-834（CT/MR 型態與動脈瘤破裂不同）。
 
-## 題目
-> [!question]- Perimesencephalic SAH 的出血中心在哪?預後如何?
-> 出血**中心在 pons/midbrain 前方的 perimesencephalic 腦池**;95% 血管攝影正常（靜脈源）、**預後極佳、再出血罕見**。[^1]
-
-> [!question]- 既然 perimesencephalic pattern 預後好,為何仍要做 CTA?
-> 因為約 **5% 其實是 vertebrobasilar 動脈瘤破裂**（預後差）——型態不能單獨確診,須影像排除後循環動脈瘤。[^1][^4]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "perimesencephalic-sah")

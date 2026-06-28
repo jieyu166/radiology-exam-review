@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Interlobular septal thickening*. Radiopaedia.org（實際查證 accessed 2026-06-17）：分 smooth／nodular／irregular。**Smooth 含 pulmonary edema**、lymphangitic carcinomatosis；**Nodular 含 sarcoidosis、lymphoma、leukemia、amyloidosis、淋巴管癌擴散**；irregular 多為纖維化。
 
-## 題目
-> [!question]- 何者「最不會」造成小葉間隔的串珠（beading）/不規則增厚？
-> **Pulmonary edema（肺水腫）**——典型平滑型。sarcoidosis、lymphoma、amyloidosis 皆可結節/串珠型。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "interlobular-septal-thickening")

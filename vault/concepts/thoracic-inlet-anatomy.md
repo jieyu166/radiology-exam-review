@@ -43,13 +43,6 @@ dateRev: 2026-06-20
 [^4]: **判斷方法**。(a)**實務首選＝C-spine 影像由 C1/C2 往下逐節數到 C7**（臨床經驗;確認額外肋之椎體來源、為最可靠 gold standard——無 C-spine 時角度/型態差異常看不出）;(b)輔助＝橫突朝向法則（標準解剖,Gray's Anatomy 基礎;Physiopedia／ScienceDirect *Cervical Rib*,實際查證 accessed 2026-06-20）：頸椎橫突向下（inferolateral）、胸椎橫突向上（superolateral）,cervical rib 所附之 C7 橫突朝下,可與 T1（橫突朝上）之第一胸肋區別。**待補（供醫師後續找文獻）**：上述「逐節計數／角度型態鑑別」之放射技術原始全文本次未取得（多屬教科書/技術慣例,如 Keats *Atlas of Normal Roentgen Variants*、Felson 胸部判讀）,可循 [^5] 之 reference list 進一步查證。
 [^5]: 據 PubMed——Henry BM, Vikse J, Sanna B, et al. *Cervical Rib Prevalence and its Association with Thoracic Outlet Syndrome: A Meta-Analysis of 141 Studies with Surgical Considerations*. World Neurosurg. 2017;110:e965-e978. doi:10.1016/j.wneu.2017.11.148（141 篇、77,924 人;cervical rib 一般族群盛行率 **1.1%**、TOS 病人 **29.5%**;逾半單側;症狀者 51.3% 血管型、48.7% 神經型 TOS）。摘要實際查證 accessed 2026-06-20,全文未取。
 
-## 題目
-> [!question]- 軸狀 CT 上界定 thoracic inlet 最可靠的標誌結構? (2017-108)
-> **First ribs（第一肋骨）**。First thoracic vertebra、thyroid gland、scalene muscles 較不可靠。[^2]
-
-> [!question]- 影像上如何判斷一根額外的肋是 cervical rib 而非第一胸肋?
-> **最可靠＝有 C-spine 影像、從 C1/C2 往下數到 C7**,確認椎體來源;輔助看橫突朝向（C7 向下、T1 向上）與肋骨型態,但缺 C-spine 影像時這些差異有時看不出來。源自 C7、可致 TOS（壓臂神經叢下幹 C8/T1）。[^3][^4][^5]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "thoracic-inlet-anatomy")

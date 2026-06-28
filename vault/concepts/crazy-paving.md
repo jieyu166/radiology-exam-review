@@ -24,10 +24,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: Rossi SE et al. *"Crazy-Paving" Pattern at Thin-Section CT of the Lungs: Radiologic-Pathologic Overview*. RadioGraphics. 2003;23(6):1509-1519（題目所引）：crazy-paving 廣泛 DDx（PAP、水腫、出血、PCP、COP、NSIP、lipoid、黏液腺癌等）;RB-ILD 以 centrilobular GGO 結節為主、非典型 crazy-paving。
 
-## 題目
-> [!question]- HRCT 上何者最不可能有 crazy-paving sign? (2017-029)
-> **Respiratory bronchiolitis superimposed on ILD（RB-ILD）**——以氣道中心結節/上肺 GGO 結節為主。NSIP(A)、COP(B)、PCP(C)皆可呈 crazy-paving。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "crazy-paving")

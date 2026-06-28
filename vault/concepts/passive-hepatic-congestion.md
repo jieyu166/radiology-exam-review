@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Passive hepatic congestion*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「enhancement of dilated IVC and hepatic veins due to **contrast reflux from the right atrium into IVC**」;「to-and-fro motion in hepatic veins and IVC」;mottled reticulated mosaic（似 nutmeg liver）;DDx Budd-Chiari。
 
-## 題目
-> [!question]- 關於 cardiac disease 之 congestive liver,何者「不真」? (2016-234)
-> 「**CT 顯示擴張 IVC 與肝靜脈延遲(delayed)強化**」不真——應為對比自右房『早期逆流(early reflux)』入 IVC/肝靜脈。定義、to-and-fro 血流、DDx(Budd-Chiari/肝硬化)皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "passive-hepatic-congestion")

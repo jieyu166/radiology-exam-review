@@ -27,10 +27,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Baker cyst*. Radiopaedia.org（題目所引／實際查證 accessed 2026-06-18）：semimembranosus–medial gastrocnemius bursa 積液、經兩肌腱間與關節腔相通;常見（膝 MRI 約 10–41%）;內部回音不排除（出血/碎屑/感染）。
 
-## 題目
-> [!question]- 關於 Baker's cyst,何者「為真」? (2017-047)
-> **US 上液體位於 semimembranosus 與 medial gastrocnemius 之間為診斷性**。其很常見（非 <1%）、經 SM-GN 間相通（非 gracilis-sartorius）、有內部回音不能排除診斷。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "baker-cyst")

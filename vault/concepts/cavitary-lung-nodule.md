@@ -28,10 +28,6 @@ same:
 [^1]: *Pulmonary cavity*. Radiopaedia.org（實際查證 accessed 2026-06-17）：空洞＝厚/不規則壁、中央壞死經支氣管排出；鑑別含 **lung cancer（尤 squamous cell carcinoma）、cavitating metastases、granulomatosis with polyangiitis、rheumatoid nodules、septic pulmonary emboli（周邊/下肺、厚壁）**。
 [^2]: *Pneumocystis pneumonia*. Radiopaedia.org：典型瀰漫毛玻璃、可形成囊腔/pneumatocele；非以厚壁空洞結節為主要表現（與空洞 DDx 對比，PCP 未列於 [^1] 空洞清單）。
 
-## 題目
-> [!question]- 下列何種疾病「最不會」以空洞性肺結節（cavitary nodule）表現？
-> **PCP（Pneumocystis jiroveci pneumonia）**——以毛玻璃/薄壁囊腔為主。SCC、Wegener（GPA）、septic emboli 皆典型空洞。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cavitary-lung-nodule")

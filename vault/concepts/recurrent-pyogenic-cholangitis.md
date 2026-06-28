@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology Review Manual 7th, p712：RPC＝肝內外膽管狹窄擴張＋管內色素石、左葉外側段萎縮、**有膽管癌風險**。
 
-## 題目
-> [!question]- 關於 recurrent pyogenic cholangitis,何者「為非」? (2017-131)
-> 「**無膽管癌風險**」為非——RPC 增加膽管癌風險。好發左葉外側段、多發膽管狹窄、合併膽石/脾腫大/靜脈曲張皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "recurrent-pyogenic-cholangitis")

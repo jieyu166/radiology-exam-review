@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *CNS germinoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：松果體區「**marked male preponderance, M:F 5–22:1**」;peak 10–12 歲、90% <20 歲;中線（松果體 majority/第三腦室底）;可侵犯 thalami/basal ganglia。
 
-## 題目
-> [!question]- 關於 CNS germinoma,何者「錯」?
-> 「**女性約男性 10 倍**」錯——**男性為主**（松果體 M:F 5–22:1）。90% <20 歲、中線近第三腦室、可及基底節/視丘皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cns-germinoma")

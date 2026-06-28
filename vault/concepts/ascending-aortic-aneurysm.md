@@ -25,13 +25,6 @@ dateRev: 2026-06-15
 [^2]: Hiratzka LF, Bakris GL, Beckman JA, et al. *2010 ACCF/AHA/AATS/ACR/ASA/SCA/SCAI/SIR/STS/SVM Guidelines for the Diagnosis and Management of Patients With Thoracic Aortic Disease*. Circulation. 2010;121(13):e266-e369. https://doi.org/10.1161/CIR.0b013e3181d4739e （2016 年題目當時之指引；退化性升主動脈瘤手術門檻 5.5 cm；Marfan/遺傳性 5.0 cm；接受其他心臟手術時 ≥4.5 cm）。
 [^3]: Isselbacher EM, Preventza O, Hamilton Black J, et al. *2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease*. Circulation. 2022;146(24):e334-e482. https://doi.org/10.1161/CIR.0000000000001106 （**全文已讀（PMC 開放取用）**：sporadic 升主動脈/根部瘤傳統手術門檻 5.5 cm；於有經驗多專科中心可下修至 5.0 cm；快速增大定義 sporadic ≥0.5 cm/年、HTAD/BAV ≥0.3 cm/年。經 PubMed 取得書目 PMID 36322642）。
 
-## 題目
-> [!question]- 特發性升主動脈瘤建議手術的主動脈直徑為多少？
-> **5.5 cm**（sporadic/退化性；2010 與 2022 ACC/AHA 一致）。Marfan/HTAD/BAV 約 5.0 cm；2022 指引於有經驗中心可下修至 5.0 cm。[^2][^3]
-
-> [!question]- 44 歲 BAV、mild AR、升主動脈 4.7 cm、兄 48 歲死於升主動脈剝離,建議? (2016-235)
-> **立即擇期手術修補（D）**。**BAV ＋ 一等親主動脈剝離家族史**為高風險特徵,使手術門檻自 5.5 cm 下修（指引約 5.0 cm,合併高風險家族史更低至 ~4.5 cm）;4.7 cm 已達介入指徵。等到 >5.5/>5.0 cm 或症狀才修補（A/B/C）不符高風險族群。[^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ascending-aortic-aneurysm")

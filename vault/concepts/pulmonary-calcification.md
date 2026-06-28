@@ -32,10 +32,6 @@ dateRev: 2026-06-18
 [^2]: Thoracic Radiology: The Requisites, 2nd ed., pp.41, 284（題目所引,ClinicalKey 可查）——dendriform interstitial ossification、末期二尖瓣狹窄瀰漫肺鈣化。
 [^3]: *Metastatic pulmonary calcification*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「typically most marked in the **upper lobes** ... higher ventilation-to-perfusion ratio in the apices ... more alkaline」;最常見**慢性腎衰**。
 
-## 題目
-> [!question]- 關於肺鈣化,何者「不」正確? (2016-226)
-> 「**肺結節的層狀（laminated）鈣化型態與惡性相關**」不正確——層狀/同心圓屬**良性**。IPF 沿支氣管血管束分支狀骨化、腎衰轉移性鈣化好發上肺、末期二尖瓣狹窄致瀰漫肺鈣化皆正確。[^1][^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-calcification")

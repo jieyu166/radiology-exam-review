@@ -36,13 +36,6 @@ up: "[[rib-tumor]]"
 ### 參考來源
 [^1]: *Fibrous dysplasia*. Radiopaedia.org。膨脹性髓內病變、ground-glass matrix、無 periosteal reaction、rind sign；monostotic 最常見於肋骨(28%)/近端股骨(23%)；GNAS 突變；polyostotic 關聯 McCune-Albright/Mazabraud（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- Fibrous dysplasia 的特徵性影像與最常見的單骨部位？
-> **Ground-glass 基質、膨脹性、無 periosteal reaction、rind sign**；monostotic 最常見於**肋骨（28%）**。[^1]
-
-> [!question]- Polyostotic fibrous dysplasia 想到哪些症候群？
-> **McCune-Albright**（咖啡牛奶斑、性早熟）與 **Mazabraud**（肌內黏液瘤）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fibrous-dysplasia")

@@ -26,10 +26,6 @@ dateRev: 2026-06-15
 [^1]: *Iliopsoas bursa*. Radiopaedia.org。髖周最大滑囊；約 15% 正常與髖關節相通（實際查證 accessed 2026-06-15）。
 [^2]: 標準 MSK 解剖：盂肱-肩峰下相通＝旋轉肌袖全層撕裂、肘-鷹嘴與膝-鵝足正常不相通（題目所引 *J Clin Imaging Sci*. 2011;1:22 之滑囊回顧；非髖-iliopsoas 之配對以標準解剖判定）。
 
-## 題目
-> [!question]- 下列哪一對滑膜腔正常可彼此相通？
-> **髖關節與 iliopsoas bursa**（約 15% 正常變異）。盂肱-肩峰下相通代表 cuff tear；肘-鷹嘴、膝-鵝足正常不相通。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "synovial-bursa-communication")

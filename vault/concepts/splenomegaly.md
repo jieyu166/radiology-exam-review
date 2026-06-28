@@ -23,10 +23,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Splenomegaly*. Radiopaedia.org（實際查證 accessed 2026-06-17）：病因分 hematological / hemodynamic / infectious / storage / neoplastic / traumatic / connective tissue;hemodynamic 之 **cirrhosis: portal hypertension 標註「(common)」**、congestive splenomegaly（Banti）;ellipsoid 公式量體積。
 
-## 題目
-> [!question]- 脾腫大最常見的病因「類別」?
-> **充血性（congestive）**——如門脈高壓、心衰（Radiopaedia 標 portal hypertension 為 common；地區依賴）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "splenomegaly")

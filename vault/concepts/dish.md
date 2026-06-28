@@ -30,10 +30,6 @@ same:
 ### 參考來源
 [^1]: *Diffuse idiopathic skeletal hyperostosis*. Radiopaedia.org（實際查證 accessed 2026-06-20）：**Resnick and Niwayama criteria**——**≥4 連續椎節流注狀前骨化（胸椎最明顯、典型右側為主）、椎間盤高度保留、無 facet/costovertebral 關節 ankylosis、無 SIJ erosion/sclerosis/fusion**;AS 則為 syndesmophyte/bamboo spine、薦髂早期受累。另官方 2017 詳解所引 MSK imaging textbook。
 
-## 題目
-> [!question]- 關於 DISH 的經典徵象,何者「錯誤」? (2017-127)
-> 「**有 apophyseal(facet) joint ankylosis**」錯誤——facet ankylosis 與 sacroiliitis 屬 **AS**。流注狀骨化(≥4 連續椎節)、椎間盤高度保留、附著點銳利骨贅皆為 DISH。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "dish")

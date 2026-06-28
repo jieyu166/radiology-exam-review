@@ -25,10 +25,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Cleidocranial dysostosis（cleidocranial dysplasia）*. Radiopaedia.org。以膜性骨為主但長骨亦受累；多發 wormian bones、囟門/顱縫延遲閉合；鎖骨發育不良/缺如致肩過度活動；過多牙、寬下頜、鐘形胸（實際查證 accessed 2026-06-15）。題目另引 *Primer of Diagnostic Imaging*, 3rd ed, p.859。
 
-## 題目
-> [!question]- 關於 cleidocranial dysplasia，何者為「真」？
-> **以上皆是**：膜性＋軟骨內骨化缺陷、wormian bones、鎖骨變形（發育不良/缺如）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cleidocranial-dysplasia")

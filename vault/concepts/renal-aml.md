@@ -28,10 +28,6 @@ same:
 ### 參考來源
 [^1]: 腎 AML 經實際查證（accessed 2026-06-17，Radiopaedia *renal angiomyolipoma*):含肉眼脂肪之良性腫瘤、鈣化罕見(有則想 RCC)、多發想 tuberous sclerosis、>4cm 出血風險高常處置。
 
-## 題目
-> [!question]- 關於 renal AML,何者「錯」?
-> 「**常見鈣化**」錯——鈣化罕見(有鈣化想 RCC)。含脂肪良性、多發想 tuberous sclerosis、>4cm 常建議處置皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-aml")

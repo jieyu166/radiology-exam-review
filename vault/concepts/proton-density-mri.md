@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 質子密度加權 MRI 標準物理：**長 TR（抑 T1）＋ 短 TE（抑 T2）→ PD 權重**;長 TR 致高 SNR;MSK（軟骨/半月板）主力;後顱窩 MS 斑塊可較 T2 明顯。
 
-## 題目
-> [!question]- 關於 proton density-weighted 影像,何者「為非」?
-> 「**短 TR ＋ 長 TE 產生 PD**」非——PD 為 **長 TR ＋ 短 TE**。PD 的 SNR 高、MSK 敏感、後顱窩 MS 較 T2 明顯皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "proton-density-mri")

@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 [^1]: *Continuous diaphragm sign*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「a chest radiograph sign of **pneumomediastinum or pneumopericardium** if lucency is above the diaphragm, or of pneumoperitoneum if below」。
 [^2]: 胸部 X 光徵象（Radiopaedia *deep sulcus sign*、*bulging fissure sign*、*Luftsichel sign*）：分別對應仰臥氣胸、Klebsiella 肺炎、LUL 塌陷。
 
-## 題目
-> [!question]- pneumopericardium 可見什麼徵象? (2017-027)
-> **Continuous diaphragm sign**（連續橫膈徵）。bulging fissure＝Klebsiella 肺炎、deep sulcus＝仰臥氣胸、Luftsichel＝LUL 塌陷。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pneumopericardium-signs")

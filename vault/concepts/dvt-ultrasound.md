@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Deep vein thrombosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：超音波一般徵象＝**non-compressible venous segment**、Valsalva 喪失相位性血流、完全阻塞 color flow 消失；急性 vs 慢性（post-thrombotic change）區分；近端 DVT＝膕靜脈以上。題目另引 Bang C. *Lower and upper extremity DVT evaluation*。
 
-## 題目
-> [!question]- 關於深部靜脈血栓（DVT）超音波，何者「為真」？
-> 「**靜脈管腔無法以加壓閉合（non-compressible）**」——DVT 的核心診斷徵象。急性血栓使靜脈**擴張**、加壓超音波為首選技術。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "dvt-ultrasound")

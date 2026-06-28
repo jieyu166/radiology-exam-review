@@ -33,10 +33,6 @@ dateRev: 2026-06-15
 [^1]: *Perilunate dislocation*. Radiopaedia.org。perilunate＝腕骨相對月骨脫位、月骨仍對橈骨；lunate dislocation＝月骨掌側脫位、失去橈月關節；Mayfield 四階段（實際查證 accessed 2026-06-15）。
 [^2]: Greenspan A. *Orthopedic Imaging: A Practical Approach*, 5th ed, p.211-212（題目所引；greater arc 經骨、lesser arc 純韌帶；Mayfield 分期）。
 
-## 題目
-> [!question]- Lesser-arc（月骨周）損傷的「最後階段」累及哪個關節？
-> **Radius-lunate（橈月）**。Mayfield 漸進：scapholunate → capitolunate → lunotriquetral → **radiolunate（月骨掌側脫位）**。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "perilunate-injury")

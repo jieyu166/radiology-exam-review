@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 [^2]: *Epidermal inclusion cyst*. Radiopaedia.org:源自毛囊漏斗部上皮阻塞、角質填充。
 [^3]: *Mammary duct ectasia*. Radiopaedia.org:乳暈下主乳管非特異性擴張、可及小乳管,良性。
 
-## 題目
-> [!question]- 關於乳房良性囊性病灶,何者「非真」?
-> 「galactocele 的脂液平面**在 CC view** 具診斷性」非真——需**水平射束側位(ML/MLO)**才顯現。其餘(表皮包涵囊腫源自漏斗部、乳管擴張、纖維囊性變化不增癌險)皆真。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-cystic-lesions")

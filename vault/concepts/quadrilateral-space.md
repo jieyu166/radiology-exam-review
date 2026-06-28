@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 四邊孔解剖經實際查證（accessed 2026-06-17，Radiopaedia *quadrilateral space*）：邊界 teres minor/teres major/三頭肌長頭/肱骨；內含腋神經＋後旋肱動脈；外科頸骨折/占位可壓迫腋神經（quadrilateral space syndrome）。
 
-## 題目
-> [!question]- 關於四邊孔(quadrilateral space)，何者「錯」？
-> 「**suprascapular nerve 通過**」錯——通過者為**腋神經**＋後旋肱動脈。邊界為 teres major/minor/三頭肌長頭/肱骨；外科頸骨折可壓迫腋神經。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "quadrilateral-space")

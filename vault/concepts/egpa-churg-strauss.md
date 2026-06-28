@@ -25,10 +25,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: EGPA/Churg-Strauss（Radiopaedia *eosinophilic granulomatosis with polyangiitis*／風濕免疫文獻）：三聯＝asthma＋hypereosinophilia＋necrotizing vasculitis;ANCA 約 40% 陽性、典型 **pANCA(MPO)**;cANCA(PR3) 為 GPA/Wegener 標記。
 
-## 題目
-> [!question]- Churg-Strauss（EGPA）的特徵「除外」何者? (2017-043)
-> **Serum cANCA positive**——EGPA 典型為 **pANCA(MPO-ANCA)**;cANCA(PR3) 屬 GPA/Wegener。asthma、hypereosinophilia、necrotizing vasculitis 皆為 EGPA 特徵。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "egpa-churg-strauss")

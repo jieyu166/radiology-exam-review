@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**/round/rim/dystrophic/**milk of calcium**/suture;**amorphous** 列於可疑型態（與 coarse heterogeneous、fine pleomorphic、fine linear 同組,建議切片）。Radiopaedia *Breast calcifications* 交叉確認（accessed 2026-06-18）。
 
-## 題目
-> [!question]- 關於 BI-RADS 2 calcifications,何者「非」? (2017-004)
-> **Grouped amorphous calcifications**——amorphous 屬**可疑型態**(BI-RADS 4)。popcorn/coarse、rod/secretory、milk of calcium(sedimenting)皆典型良性。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-calcifications")

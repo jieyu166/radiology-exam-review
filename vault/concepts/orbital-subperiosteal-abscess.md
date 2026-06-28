@@ -24,10 +24,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 眼眶骨膜下膿瘍（題目所引 De Melo WM et al.／Radiopaedia *subperiosteal abscess (orbit)*）：最常見於 **medial extraconal**、繼發於 ethmoid sinusitis 經 lamina papyracea 蔓延;Chandler III。
 
-## 題目
-> [!question]- 眼眶骨膜下膿瘍最常侵犯哪一隔間? (2016-238)
-> **Medial extraconal space**（沿 lamina papyracea、篩竇旁）——多繼發於篩竇炎。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "orbital-subperiosteal-abscess")

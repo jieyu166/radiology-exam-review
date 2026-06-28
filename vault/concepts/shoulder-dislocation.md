@@ -33,10 +33,6 @@ dateRev: 2026-06-18
 [^1]: *Anterior shoulder dislocation*. Radiopaedia.org（accessed 2026-06-18）：Hill-Sachs＝肱骨頭後外側壓迫；Bankart＝前下盂唇損傷。
 [^2]: *Posterior shoulder dislocation*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**trough line sign: dense vertical line in the medial humeral head due to impaction**」＝reverse Hill-Sachs；伴 light bulb sign、rim sign、half-moon overlap 消失。另 Musculoskeletal Imaging: The Requisites（Manaster）p.554。
 
-## 題目
-> [!question]- 下列何者「不」屬前肩脫位的影像異常? (2016-213)
-> **Trough-like impaction fracture of the humeral head**（trough sign／reverse Hill-Sachs）——屬**後**脫位。前脫位三聯＝Hill-Sachs（後外側壓迫）、Bankart（前下盂唇）、肱骨頭 subcoracoid 位。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "shoulder-dislocation")

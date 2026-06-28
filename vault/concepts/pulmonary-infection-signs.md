@@ -54,19 +54,6 @@ dateRev: 2026-06-20
 [^2]: 2024 Fleischner Society glossary：air crescent 為涵蓋『可動腔內真菌球』與『復原期回縮梗塞肺』之首選術語（經 Radiopaedia *Monod sign* 條目轉述、accessed 2026-06-20）。
 [^3]: **provenance**：本概念之徵象清單與考題整合自演講筆記《CXR signs》(整理自 ECR 2014/2017 poster、2015 RG "Back to Basics: Classic Signs in Thoracic Radiology"、江自得《實用胸腔X光診斷學》等);上述事實已逐項以 [^1] Radiopaedia 一手條目查核。原筆記另含 pneumothorax/縱膈、定位、ILD、血管等徵象,分屬 [[silhouette-sign]]、[[pneumopericardium-signs]]、[[ctd-ild]]、[[crazy-paving]] 等概念。
 
-## 題目
-> [!question]- 關於 pulmonary infection 徵象,何者「為非」? (2017-030)
-> 「**signet ring sign 為 paragonimiasis 早期薄壁囊**」為非——signet ring sign 指**支氣管擴張**。Monod（mycetoma 空氣環）、finger-in-glove（ABPA）、water-lily（hydatid 漂浮內膜）皆正確。[^1]
-
-> [!question]- Invasive aspergillosis 出現 air crescent 代表什麼?
-> **復原期（recovery phase）**——免疫恢復、壞死組織回縮形成空氣新月,為好預後徵象（~50% 可見）。[^1]
-
-> [!question]- 關於 Monod sign,何者「錯誤」?（典型病人免疫狀態）
-> 「**通常為 immunocompromised 病人**」錯誤——Monod sign（既存空洞內可動真菌球/aspergilloma）**典型見於免疫正常病人**;air crescent（復原期 angioinvasive aspergillosis）才偏免疫低下。[^1]
-
-> [!question]- Tree-in-bud sign 是什麼?
-> **多發小葉中心微結節呈線狀分枝**（如萌芽樹）;初描述於 endobronchial TB,屬氣道散播性感染但**非特異**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-infection-signs")

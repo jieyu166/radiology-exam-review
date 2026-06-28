@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Progressive massive fibrosis*. Radiopaedia.org。矽肺/CWP 併發；上肺為主、雙側對稱大團塊伴放射狀條索、香腸狀、含鈣化、向肺門遷移、周圍 emphysema；MRI 可助與肺癌鑑別（實際查證 accessed 2026-06-15）。「可在暴露停止後仍進展」為標準塵肺教學；題目另引 *Radiology Review Manual* 7th ed, p.530。
 
-## 題目
-> [!question]- 關於 progressive massive fibrosis，何者敘述「錯誤」？
-> 「**停止粉塵暴露後絕不會發展**」錯——PMF 可在暴露停止後仍出現/進展。正確者：幾乎限上肺後段＋下肺上段、雙側對稱、周圍 scar/bullous emphysema。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "progressive-massive-fibrosis")

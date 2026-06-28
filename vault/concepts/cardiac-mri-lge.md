@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Myocardial viability protocol (MRI)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：viability 評估（myocardial necrosis 與 **myocardial scar tissue**）採 **late gadolinium enhancement**，技術為 2D/3D **IR GRE、PSIR**；缺血性 LGE 依冠脈分布心內膜下→透壁。
 
-## 題目
-> [!question]- 心臟 MR 評估心肌疤痕最適合的脈衝序列？
-> **Late gadolinium enhancement（LGE）**——疤痕/纖維化延遲滯留釓而高訊號。cine/perfusion/phase contrast 各評估功能/灌流/流速。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardiac-mri-lge")

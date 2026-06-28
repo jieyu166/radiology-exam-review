@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Cerebral cavernous (venous) malformation*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「mulberry-like」病灶 + 周邊含鐵血黃素;**「minimal or no enhancement」**;「not usually associated with edema or mass effect, except if recent bleed」;常合併 developmental venous anomaly;SWI/GRE blooming。
 
-## 題目
-> [!question]- 腦海綿狀血管畸形（cavernoma）典型影像,何者「錯」?
-> 「**從不強化（never enhances）**」錯——為 **minimal or no enhancement（微弱/無）**。爆米花混雜訊號+周邊含鐵血黃素環、少水腫（除非近期出血）、合併 DVA 皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cerebral-cavernous-malformation")

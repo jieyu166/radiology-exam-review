@@ -25,10 +25,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Portal hypertension*. Radiopaedia.org。US：門脈擴張 >13 mm、流速 <16 cm/s、pulsatile/biphasic/reverse(hepatofugal) flow、paraumbilical 等側枝再通(近乎診斷性)、脾腫大、腹水（實際查證 accessed 2026-06-15）。題目另引 Ahuja《Diagnostic Imaging: Ultrasound》p.1-88~89。
 
-## 題目
-> [!question]- 下列何者「非」門脈高壓的典型超音波所見？
-> **門脈直徑變小**。門脈高壓使門脈**擴張**（>13 mm）、流速↓、可 hepatofugal 逆流；伴脾腫大、臍靜脈再通、腹水。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "portal-hypertension-us")

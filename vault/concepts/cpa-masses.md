@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Cerebellopontine angle mass*. Radiopaedia.org（實際查證 accessed 2026-06-17）：最常見**vestibular schwannoma（~80%）**、第二**meningioma（~10%）**、epidermoid（DWI 受限）；記憶法 AMEN/SAME。
 
-## 題目
-> [!question]- CPA 最常見與第二常見腫瘤各為何？meningioma 的關鍵影像？
-> 最常見＝**vestibular schwannoma（~80%）**；第二＝**meningioma（~10%）**，呈**硬膜基底＋dural tail＋可鈣化、不以 IAC 為中心**；epidermoid 則 DWI 受限。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cpa-masses")

@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Parosteal osteosarcoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「**most common type of juxtacortical or surface osteosarcoma**,accounts for **~4% of all osteosarcomas**」;低惡性度 spindle cell + woven bone、MDM2 amplification;**幹骺端 80-90%、遠端股骨後方 60%**。
 
-## 題目
-> [!question]- 關於 parosteal osteosarcoma,何者敘述「為非」?
-> 「**最常見的骨肉瘤**」為非——它是最常見的『surface/juxtacortical』型,僅佔所有骨肉瘤 ~4%（conventional 髓內型才最常見）。低惡性度、cleavage plane 包繞骨幹皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "parosteal-osteosarcoma")

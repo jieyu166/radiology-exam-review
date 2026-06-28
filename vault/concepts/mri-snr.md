@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: MRI SNR 與 bandwidth（官方 2016 詳解；Hashemi, MRI: The Basics 2nd ed. p.168）：**SNR ∝ 1/√(bandwidth)**;頻寬減半 SNR 增 √2 倍;窄頻寬延長 TE、加重化學位移偽影。
 
-## 題目
-> [!question]- MRI bandwidth 調整為原來的一半,對 SNR 的影響為何? (2016-259)
-> **變為原來的 √2 倍**（SNR 與 √bandwidth 成反比）。非 2 倍、非 1/2、非不變。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mri-snr")

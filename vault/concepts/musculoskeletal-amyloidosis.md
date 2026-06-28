@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Amyloid arthropathy*. Radiopaedia.org（實際查證 accessed 2026-06-17）：MRI **T1 低訊號、T2 多為低至中等訊號**；常見滑膜增厚、**骨侵蝕（well-defined sclerotic margins）**、關節間隙**通常保留至晚期**；shoulder pad sign（雙肩對稱沉積）；條目未列鈣化為特徵。
 
-## 題目
-> [!question]- 關於 musculoskeletal amyloidosis，何者敘述「為非」？
-> 「**經常合併鈣化**」為非——amyloid 沉積為非鈣化。T1&T2 皆低訊號、滑膜增厚+骨侵蝕、shoulder pad sign 皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "musculoskeletal-amyloidosis")

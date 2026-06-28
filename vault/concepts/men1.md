@@ -28,10 +28,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Multiple endocrine neoplasia type 1*. Radiopaedia.org（實際查證 accessed 2026-06-17）：又名 Wermer 症候群、體染色體顯性、侵犯腦下垂體/胰臟/副甲狀腺；**原發性副甲狀腺機能亢進為最常見表現（~95%）**；胰島腫瘤以 **gastrinoma（Zollinger-Ellison）** 最常見。
 
-## 題目
-> [!question]- 關於 MEN 1（Wermer）症候群，何者敘述「為錯」？
-> 「**副甲狀腺增生罕見**」錯——**原發性副甲狀腺機能亢進是最常見表現（~95%，多腺體增生）**。胰島腫瘤以 gastrinoma 最常見。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "men1")

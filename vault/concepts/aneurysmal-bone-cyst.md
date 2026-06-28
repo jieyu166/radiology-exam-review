@@ -35,16 +35,6 @@ up: "[[rib-tumor]]"
 [^1]: *Aneurysmal bone cyst*. Radiopaedia.org。良性膨脹性、osteoclast 巨細胞、血液腔隙；多房＋fluid-fluid levels；偏心長骨幹骺端；占原發骨腫瘤 1.4–2.3%；poorly vascular(DSA)、bone scan doughnut sign；可續發於 GCT/chondroblastoma/telangiectatic osteosarcoma 等（實際查證 accessed 2026-06-15）。
 [^2]: *Aneurysmal bone cyst*. Radiopaedia.org（實際查證 accessed 2026-06-18）：ABC「typically **eccentrically located** in the metaphysis」、benign **expansile** lesion；對照 SBC 為中央性。另 Cystic bone lesions, in Imaging of Bone Tumors and Tumor-Like Lesions（題目所引，buttressing effect）。
 
-## 題目
-> [!question]- ABC 的典型影像特徵？
-> **膨脹性（blow-out）、偏心、薄硬化殼、多房＋fluid-fluid levels**；偏心位於長骨幹骺端；DSA 乏血管。[^1]
-
-> [!question]- 看到 fluid-fluid level 就是 ABC 嗎？
-> **不是**——fluid-fluid level 非特異，**telangiectatic osteosarcoma**、GCT、chondroblastoma 亦可有；須排除惡性特徵。[^1]
-
-> [!question]- 何者可鑑別 aneurysmal bone cyst 與 simple bone cyst? (2016-216)
-> **Buttressing effect（骨皮質支撐/扶壁）**——ABC 偏心、明顯膨脹重塑致 buttressing；SBC 中央性、膨脹不超骨幹寬。Shepherd's crook（fibrous dysplasia）、明顯肢長不等、緻密硬化緣（NOF）非鑑別點。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aneurysmal-bone-cyst")

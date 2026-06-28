@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Chiari 1 malformation*. Radiopaedia.org（實際查證 accessed 2026-06-17）：小腦扁桃體下疝過枕骨大孔;機轉為「**small cranial vault and/or posterior fossa and consequent overcrowding**」（size-content mismatch）;合併 syringomyelia/脊柱側彎;與 Chiari II（myelomeningocele）區別。
 
-## 題目
-> [!question]- 三歲男童小腦扁桃體位於枕骨大孔下,何者支持 Chiari I?
-> **Craniosynostosis（顱縫早閉→後顱窩過小）**。myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chiari-malformation")

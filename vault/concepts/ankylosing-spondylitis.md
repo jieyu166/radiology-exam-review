@@ -30,10 +30,6 @@ same:
 [^1]: *Ankylosing spondylitis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：syndesmophytes＋ankylosis→**bamboo spine**、薦腸關節炎、enthesitis、**shiny corner sign（Romanus）**、椎體 squaring、Andersson 病灶；**未列 arthritis mutilans**。題目另引 Primer of Diagnostic Imaging 5th ed. p.328。
 [^2]: Arthritis mutilans（含 pencil-in-cup）為**乾癬性關節炎**/類風濕的嚴重破壞表現，非 AS；見 [[psoriatic-arthritis]]。
 
-## 題目
-> [!question]- 下列何者「非」僵直性脊椎炎（AS）的影像特徵？
-> 「**Arthritis mutilans**」——屬**乾癬性關節炎**的破壞性表現。AS＝對稱薦腸關節炎、細直 syndesmophytes（bamboo spine）、enthesopathy、男性為主。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ankylosing-spondylitis")

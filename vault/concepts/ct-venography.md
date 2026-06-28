@@ -30,10 +30,6 @@ same:
 [^1]: *Imaging of the Brain*（Expert Radiology Series）, p.476（題目所引；CTV 對 MRV 之三項優勢：較佳空間解析度、無 flow-related 假影、優於 TOF-MRV 呈現靜脈解剖。**未逐字核實該書頁**，依題目陳述與標準 CVT 影像教學）。
 [^2]: *Dural venous sinus thrombosis*. Radiopaedia.org。多平面重組 CTV 對該診斷敏感度約 95%（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- CTV 相對 MRV 的優勢有哪些？
-> **以上皆是**：較佳空間解析度、無 flow-related 假影、比 TOF-MRV 更能呈現靜脈解剖。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ct-venography")

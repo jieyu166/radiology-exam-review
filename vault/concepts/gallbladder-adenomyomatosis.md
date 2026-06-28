@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Adenomyomatosis of the gallbladder*. Radiopaedia.org（實際查證 accessed 2026-06-17）：良性、~9% 膽囊切除、**diffuse 或 focal 壁增厚**;**comet-tail artifact＝RAS 內 echogenic foci 產生 V 形 reverberation**;與膽囊癌鑑別。
 
-## 題目
-> [!question]- 何者「非」膽囊腺肌症的典型超音波所見?
-> 瀰漫壁增厚、局部壁增厚、comet-tail 偽影**皆典型** → 答 **D（以上皆典型）**。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gallbladder-adenomyomatosis")

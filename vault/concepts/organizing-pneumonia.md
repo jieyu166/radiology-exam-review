@@ -33,13 +33,6 @@ same:
 [^1]: *Organizing pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「peripheral or **bronchocentric consolidation** ... ground glass opacity, air bronchogram, curvilinear **perilobular** ... **atoll sign**, peripheral sparing」;「Most (especially cryptogenic forms) **respond very well to corticosteroid**」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: *Am J Respir Crit Care Med*. 2013;188(6):733-748（fibrosing OP）：部分 OP 不完全消退者與 fibrotic NSIP overlap（histologic OP/NSIP overlap 68% 預後較差）＝**fibrosing OP**,好發 polymyositis/antisynthetase syndrome、屬 CTD-ILD,治療以 steroid 為主。
 
-## 題目
-> [!question]- OP（organizing pneumonia）的典型影像與治療反應?
-> **周邊/支氣管中心 consolidation ＋ GGO ＋ atoll(reversed halo) sign ＋ 移行性**;多數（COP）**對類固醇反應佳**。[^1]
-
-> [!question]- Fibrosing OP（fOP）與一般 OP 有何不同?好發哪類病人?
-> **fOP 不易消退、與 fibrotic NSIP overlap**,好發 **polymyositis／antisynthetase syndrome（CTD-ILD）**;一般 COP 則對類固醇反應佳、易消退。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "organizing-pneumonia")

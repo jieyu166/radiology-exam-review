@@ -56,22 +56,6 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^3]: *Coronary stent*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「step-and-shoot acquisition 與**dedicated（sharp）kernel** 較 helical retrospective + **soft kernel** 產生**較少模糊、能更好區分 in-stent lumen 與 struts**」——佐證「sharp kernel」改善管腔判讀；**wider window** 縮小高密度鈣/支架的 blooming 為標準 WL/WW 視窗物理（題目所引 *Cardiac Computed Tomography: A Problem-Based Approach*）。
 [^4]: SCCT 2021 Expert Consensus on CCTA（J Cardiovasc Comput Tomogr）與相關文獻（實際查證 accessed 2026-06-17，WebSearch）：**支架直徑 <3 mm 顯著降低 CT 對 in-stent restenosis 的準確度/敏感度（≤3mm ~54% vs >3mm ~86%）；小支架臨床評估不建議**，理想對象為直徑 ≥3 mm 與近端節段支架。
 
-## 題目
-> [!question]- ACCURACY trial 對 64-MDCT CCTA 偵測 ≥70% 冠狀動脈狹窄的主要發現為何？
-> Sensitivity 94%、NPV 99%（皆 >90%）、PPV 48%（<75%）、Specificity 83%。→ 高 NPV 支持 CCTA 作為 rule-out 守門員；低 PPV 反映鈣化／假影致偽陽性，陽性需 ICA 確認。[^1]
-
-> [!question]- 為什麼 CCTA 的臨床價值偏向 rule-out 而非 rule-in？
-> NPV 約 99%（陰性幾乎可排除阻塞性狹窄）；但 PPV 偏低（calcium blooming、運動假影致偽陽性）→ 陽性需侵入性攝影確認。[^1][^2]
-
-> [!question]- 哪個因素在 ACCURACY trial 中顯著降低 CCTA 的 specificity？
-> Calcium score >400（重度鈣化的 blooming artifact 增加偽陽性）；而肥胖與心率高低則無顯著影響。[^1]
-
-> [!question]- 評估鈣化斑塊/支架內管腔，哪種重建與後處理可改善？(2016-150)
-> **Sharp（高空間解析）kernel ＋ 較寬（wider）window**——dedicated/sharp kernel 較 soft kernel **減少模糊、更能區分 in-stent lumen 與 struts**（Radiopaedia 實際查證）；加寬 window 縮小高密度鈣/支架的 blooming，利於看管腔。[^3]
-
-> [!question]- 支架小於多少 mm 時，CT『不』建議/不適當用於評估支架通暢？(2016-200/201)
-> **< 3 mm**（appropriateness criteria：直徑 <3 mm 以 CT 評估支架通暢不適當）。SCCT 共識/文獻：支架 **<3 mm CT 對 in-stent restenosis 敏感度顯著下降（≤3mm ~54% vs >3mm ~86%）**，小支架臨床評估不建議；理想對象為 **≥3 mm、近端節段**支架。[^4]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ccta")

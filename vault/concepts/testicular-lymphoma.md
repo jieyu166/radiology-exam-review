@@ -23,10 +23,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Testicular lymphoma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**most common testicular tumor in men over the age of 60 years**」、「**most common bilateral intratesticular tumor**」;臨床「unilateral ... most common, although the **bilateral presentation is common (40%)**」;US「discrete hypoechoic intratesticular mass(es), **epididymis may be enlarged and hypoechoic**」。另 RadioGraphics 2002;22:189-216（題目所引）。
 
-## 題目
-> [!question]- 64 歲無痛睪丸腫大、瀰漫低回聲取代實質、附睪精索受累、雙側,最可能? (2016-223)
-> **Testicular lymphoma**——>60 歲最常見睪丸腫瘤、最常見雙側睪丸內腫瘤,常侵犯附睪/精索。bilateral seminoma、leukemia、metastases 較不符。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "testicular-lymphoma")

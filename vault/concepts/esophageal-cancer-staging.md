@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；New TNM Staging System for Esophageal Cancer: What Chest Radiologists Need to Know. RadioGraphics 2014;34:1722-1740：位置由 epicenter 決定;T4a(pleura/pericardium/azygos/diaphragm/peritoneum) vs T4b(aorta/vertebral body/trachea)。
 
-## 題目
-> [!question]- 關於食道癌 TNM 分期(AJCC 7th),何者「錯誤」? (2017-107)
-> 「**腫瘤位置以佔最大體積處決定**」錯誤——應由 **tumor epicenter** 決定。regional node（頸至 celiac）、EGJ 近端 5 cm 規則、T4a/T4b 定義皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "esophageal-cancer-staging")

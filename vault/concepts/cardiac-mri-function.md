@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 心臟 MR 功能評估（Radiopaedia *cardiac MRI*／心臟影像教科書）：cine SSFP 短軸堆疊以 Simpson 法量化,**為 RV/LV 容積與 EF 的參考標準**,優於 echo（幾何假設）、CT（輻射/時間解析）、導管攝影（侵入）。
 
-## 題目
-> [!question]- 最準確量測右心室容積與射出分率的影像方法? (2017-035)
-> **Cardiac MR imaging**——cine 短軸堆疊、無幾何假設,為 RV 功能 gold standard。echo、CT、導管 RV 攝影皆較不準。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardiac-mri-function")

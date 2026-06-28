@@ -39,12 +39,6 @@ dateRev: 2026-06-20
 [^5]: Kumar AJ, Leeds NE, Fuller GN, et al. *Malignant Gliomas: MR Imaging Spectrum of Radiation Therapy- and Chemotherapy-Induced Necrosis of the Brain After Treatment*. Radiology. 2000;217(2):377-384. doi:10.1148/radiology.217.2.r00nv36377;Mullins ME, Barest GD, Schaefer PW, et al. *Radiation Necrosis Versus Glioma Recurrence: Conventional MR Imaging Clues to Diagnosis*. AJNR Am J Neuroradiol. 2005;26(8):1967-1972。
 [^6]: Katsura M, Sato J, Akahane M, Furuta T, Mori H, Abe O. *Recognizing Radiation-induced Changes in the Central Nervous System: Where to Look and What to Look For*. RadioGraphics. 2021;41(1). doi:10.1148/rg.2021200064（教學綜述;時序分期、白質/血管/壞死變化、壞死 vs 復發）。
 
-## 題目
-> [!question]- 放療後腦變化依時序分哪三期?哪些可逆?
-> **acute（數天–數週）、early-delayed/subacute（數週–3 個月）、late（>90 天）**;acute 與 early-delayed（含 pseudoprogression）多可逆,late（白質腦病、放射性壞死、血管病變、次發腫瘤）多不可逆。[^1][^2]
-> [!question]- 如何用影像區分放射性壞死與腫瘤復發?
-> **壞死：rCBV 低、choline 不升、ADC 偏高、強化 soap-bubble/Swiss cheese**;**腫瘤復發：rCBV 高、choline 升**;輔以 amino-acid/FDG PET。[^3][^5]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "radiation-induced-changes")

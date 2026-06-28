@@ -57,16 +57,6 @@ dateRev: 2026-06-14
 [^2]: *Tracheal Lesion*. STATdx（Chest, DDx）（實際查證 accessed 2026-06-14；SCC + adenoid cystic 為最常見原發惡性；TBO/RP 保留後壁膜）。
 [^3]: 「最常見良性氣管腫瘤 = squamous cell papilloma」為標準教學；題目所引 Müller & Silva *Thoracic Imaging*（2nd ed, p.546）（**未逐字核實該書頁**，依標準教學與題目來源）。
 
-## 題目
-> [!question]- 最常見的良性氣管腫瘤是什麼？
-> **Squamous cell papilloma**（孤立性、成人）。[^3]
-
-> [!question]- Tracheobronchial papillomatosis 的特徵與成因？
-> 多發 papilloma、與 **HPV（recurrent respiratory papillomatosis）** 相關、好發兒童；可向肺內播散（空洞結節）。[^1]
-
-> [!question]- 最常見的原發性氣管「惡性」腫瘤？
-> **Squamous cell carcinoma** 與 **adenoid cystic carcinoma**。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tracheal-tumors")

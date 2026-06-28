@@ -28,10 +28,6 @@ same:
 [^1]: *TOAST classification (ischemic stroke)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：缺血中風分型含 **cardioembolism**;高風險心源性栓塞含心房顫動、近期心肌梗塞、感染性心內膜炎、人工瓣膜等(左心來源)。
 [^2]: *Arrhythmogenic right ventricular cardiomyopathy（ARVD/ARVC）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：右心室心肌病,「one of the more common causes of **sudden cardiac death** in young patients」——以室性心律不整/猝死為主,非腦栓塞來源。
 
-## 題目
-> [!question]- 下列哪個心臟疾病「不是」造成腦缺血中風的原因?
-> **ARVD/ARVC（致心律不整性右室發育不良）**——右室心律不整/猝死。AF、AMI、感染性心內膜炎皆為心源性腦栓塞來源。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardioembolic-stroke")

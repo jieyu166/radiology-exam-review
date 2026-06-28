@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Solid pseudopapillary tumour of the pancreas*. Radiopaedia.org（實際查證 accessed 2026-06-18 ／題目所引）：少見（1–2% 外分泌胰腫瘤）、**年輕女性**;大而有包膜、實質＋出血/囊變、可鈣化;低惡性潛能、預後佳。
 
-## 題目
-> [!question]- 關於胰臟 solid and pseudopapillary tumor,何者「正確」? (2017-021)
-> **好發年輕女性**。SPN 為少見腫瘤、常大而有囊變故有症狀、低惡性潛能（轉移少見）;其餘三項皆誤。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "solid-pseudopapillary-neoplasm")

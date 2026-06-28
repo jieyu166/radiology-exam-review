@@ -43,16 +43,6 @@ down:
 [^2]: Lattin GE, Sturgill ED, Tujo CA, et al. *From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult*. RadioGraphics. 2014;34(3):805-829. https://doi.org/10.1148/rg.343130127 （題目所引；全文已讀。涵蓋皮質增生、pseudocyst/出血、感染、pheo。經 PubMed 取得書目 PMID 24819798。結節性增生隨年齡↑、雙側界清腫大想感染為標準腎上腺教學）。
 [^3]: *Adrenal hemorrhage*. Radiopaedia.org。腎上腺外傷為單側腎上腺出血常見原因；雙側出血多非外傷（敗血/DIC/抗凝）（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 腎上腺皮質結節性增生的描述何者最佳？
-> **隨年齡增加而盛行率上升**；常雙側、多結節，可與腺瘤並存（非單側、非單一焦點）。[^2]
-
-> [!question]- 腎上腺 pseudocyst 在 T1 高訊號最可能來自？
-> **出血**（pseudocyst 多為陳舊出血演變）。[^2]
-
-> [!question]- Pheochromocytoma 約多少比例含鈣化？雙側界清腫塊/腫大想什麼？成人腎上腺出血最常見病因？
-> 鈣化**~10%**；雙側界清腫塊/腫大想**感染**（肉芽腫性）；成人腎上腺出血最常見**鈍挫傷**。[^1][^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenal-imaging")

@@ -24,10 +24,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: Wilms tumor（官方 2016 詳解；RadioGraphics 2016;36(2):499-522）：占兒童腎腫瘤 ~90%、**peak 3–4 歲**、可侵腎靜脈/IVC、雙側提示 nephroblastomatosis 與遺傳症候群。
 
-## 題目
-> [!question]- 關於 Wilms tumor,何者「為非」? (2016-254)
-> 「**Peak age <1 歲**」為非——**peak 3–4 歲（<5 歲）**。占兒童腎腫瘤 90%、可侵犯腎靜脈、雙側腫塊提示 nephroblastomatosis 與遺傳易感皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "wilms-tumor")

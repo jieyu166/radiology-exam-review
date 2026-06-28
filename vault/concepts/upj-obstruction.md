@@ -120,32 +120,6 @@ NECT/CECT 顯示阻塞層級、水腎程度與病因(結石、馬蹄腎、重複
 [^12]: Metzler I, Duty B. *Principles of Urologic Endoscopy*（含 Ureteropelvic Junction Obstruction and Ureteral Stricture）. In: Campbell-Walsh-Wein Urology, Ch. 17, pp. 215–228. Elsevier（via ClinicalKey，實際查證 accessed 2026-06-14）。該章引 Van Cangh 1994、Bagley 1995、Conlin & Bagley 1998 等,述 crossing vessel 降低 endopyelotomy 成功率,宜改採 laparoscopic pyeloplasty。
 [^13]: Khaira HS, Platt JF, Cohan RH, Wolf JS, Faerber GJ. *Helical CT for Identification of Crossing Vessels in UPJ Obstruction — Comparison with Operative Findings*. Urology 2003;62(1):35-9. https://doi.org/10.1016/s0090-4295(03)00156-0 （內視鏡成功率約 90%、有 crossing vessel 時約 40%；PubMed）
 
-## 題目
-
-> [!question]- UPJ obstruction 在超音波上,與下游輸尿管阻塞最關鍵的鑑別點是什麼?
-> 腎盂腎盞明顯擴張,但**輸尿管不擴張**(口徑正常)。擴張止於 UPJ 層級。[^1][^2]
-
-> [!question]- 為什麼「腎功能正常」不能排除 UPJ obstruction?
-> 高度 hydronephrosis 病人中多數阻塞腎臟功能仍接近正常;功能正常不代表無阻塞,腎臟大小與實質厚度才是重要手術決策因子。[^1][^2]
-
-> [!question]- 成人 UPJ obstruction 評估 crossing vessel 首選哪種影像?判讀時最需警惕什麼陷阱?
-> 首選 CTA(MDCT + 2D/3D 後處理,如 hilar clock-face view)評估輸尿管—血管空間關係;陷阱是血管「鄰近」UPJ ≠ 真正壓迫——跨越血管常位於管徑移行點上方、與移行點無直接關係,故報告措辭應保守。[^5][^6]
-
-> [!question]- Diuretic renogram 上,「阻塞」與「非阻塞性擴張」如何區分?
-> 顯著阻塞:利尿劑前後同位素皆不明顯排出;非阻塞性擴張:利尿劑後排空改善。[^1][^2][^3]
-
-> [!question]- Diuretic renogram 首選哪種放射藥劑?為什麼 DTPA 不是首選?
-> 首選 Tc-99m MAG-3(萃取率高、輻射低,適用阻塞系統);DTPA 以腎絲球過濾為主,而阻塞性尿路病變中腎絲球功能下降較早較快,僅在腎功能良好時使用。[^1][^3]
-
-> [!question]- MR renography 在 UPJO 的功能評估上能做到什麼?有何實證支持?
-> 可測 split renal function(與核醫 r=0.87)、估算 GFR(與 MDRD 中度相關 r=0.60),並以腎盂訊號強度變化率(PUR)區分機械性 vs 功能性阻塞(準確度約 89%),有潛力作為「one-stop shop」檢查。[^9]
-
-> [!question]- UPJ obstruction 的典型先天性病因機轉為何?
-> 胚胎期 UPJ 區再管腔化不全,導致輸尿管肌肉層異常、蠕動波無法有效傳遞,形成無蠕動節段(adynamic segment)。[^1][^2]
-
-> [!question]- 關於先天性 UPJ obstruction,何者「為真」? (2016-190)
-> 「**crossing vessel 存在會降低 pyeloplasty/endopyelotomy 的成功率**」為真（正解 D）。其餘為假：UPJO 是**兒童 hydronephrosis 最常見原因**（非少見）、現多以**產前 hydronephrosis** 表現（非 UTI）、**男>女**（非相等）。[^1][^5]
-
 ## 考題
 
 ```dataview

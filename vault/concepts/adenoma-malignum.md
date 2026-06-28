@@ -25,10 +25,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Adenoma malignum (minimal deviation adenocarcinoma)*. Radiopaedia.org（實際查證 accessed 2026-06-20）：子宮頸黏液腺癌之罕見變異;表現 watery discharge／停經後出血／腹脹;US 呈 grape-like 囊狀（多房±實質）;與 **Peutz-Jeghers syndrome**、卵巢黏液/sex cord-stromal 腫瘤相關;預後差。另 Hricak H. *Diagnostic Imaging: Gynecology*. 2007（官方 2017 詳解所引）。
 
-## 題目
-> [!question]- 關於 adenoma malignum,何者「錯誤」? (2017-136)
-> 「**初症常為陰道出血**」錯誤——初症常為**水樣/黏液性分泌**。多發葡萄串狀囊腫於子宮頸間質、黏液腺癌亞型、預後不良皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adenoma-malignum")

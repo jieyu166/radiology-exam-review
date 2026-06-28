@@ -51,26 +51,6 @@ same:
 [^2]: 含碘對比劑遲發不良反應(DAR)文獻（AJR 2014;203:1163-1170;2020 對比劑手冊）：**DAR 為 T 細胞媒介**、maculopapular rash、首次 2–10 天/再暴露 1–2 天、**dimer iso-osmolar 為風險因子**;對比劑為藥物性皮膚反應第三大原因（次於抗生素、NSAID）。**近期 IL-2 免疫治療亦為 DAR 風險因子**（Choyke PL, Miller DL, Lotze MT, et al. *Delayed reactions to contrast media after interleukin-2 immunotherapy*. Radiology 1992;183(1):111-4, PMID 1549655：IL-2 組遲發反應 11.8% vs 非 IL-2 組 3.9%、症狀更重）。
 [^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。ESUR 2025 hypersensitivity 全文本機備有 [[2025 ESUR Hypersensitivity reactions to contrast media - Part 1.pdf]]／[[2025 ESUR Hypersensitivity reactions to contrast media - Part 2.pdf]]（gitignore）。
 
-## 題目
-> [!question]- DAR(遲發不良反應)的機轉與特性,何者「不正確」? (2022交換)
-> 「**DAR 為 B 細胞媒介**」不正確——為 **T 細胞**媒介。多為輕中度 maculopapular rash(self-limiting)、曾反應者再發更快、dimer iso-osmolar 風險較高皆正確。[^2]
-
-> [!question]- 急性類過敏反應的風險因子,何者為「非」? (2020-2023交換)
-> 「**對海鮮/乳類/碘酒過敏**」為非——非風險因子。曾中重度反應、不穩定氣喘、過度焦慮(Lalli effect)皆為風險因子。[^1]
-
-> [!question]- 關於類過敏(allergic-like)反應,何者「不正確」? (2023交換)
-> 「**與劑量及濃度相關**」不正確——類過敏反應**與劑量/濃度無關**;再暴露同類風險約增 5 倍、不同類別間無交叉反應、整體不常見。[^1]
-
-> [!question]- 關於前用藥/皮膚測試,何者「正確/錯誤」? (2022/2023交換)
-> **皮膚測試/少量試打不建議**（無法預測、可能反增風險）;premedication **不能預防所有反應**、未證實降低致命反應;換不同類別對比劑可能降低再反應。[^1]
-
-> [!question]- 哪一項屬生理性(nonidiosyncratic/physiologic, dose-related)反應? (2023交換)
-> **心律不整、肺水腫、腎衰竭**屬生理性(physiologic/chemotoxic、與劑量相關);**facial/laryngeal edema 屬類過敏(allergic-like/idiosyncratic)、與劑量無關**——ESUR 2025 hypersensitivity 分類與 ACR 嚴重度分級皆把 facial/laryngeal oedema 列為類過敏。[^1][^3]
-> ⚠ 原始題庫（《對比劑-CT》筆記引 Radiology Review Manual）答案標「(4) facial laryngeal edema」——**僅在題目實問『哪項屬 idiosyncratic/allergic-like』時才成立**;若按字面「non-idiosyncratic」,正解應為 (1)(2)(3)。
-
-> [!question]- 致命對比劑反應的時間特性? (2023交換)
-> **幾乎所有致命反應在注射後前 20 分鐘內**;低滲透壓對比劑多數副作用為輕度、不可預測之嚴重反應仍罕見發生。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-adverse-reactions")

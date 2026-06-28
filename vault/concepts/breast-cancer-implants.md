@@ -27,10 +27,6 @@ dateRev: 2026-06-18
 [^1]: 隆乳婦女乳癌影像特徵（題目所引 RadioGraphics／augmented breast imaging 文獻）：分期分布與篩檢族群相近;偵測到的癌多為可觸及;多為不規則非清楚邊界強化腫塊;subglandular 植入物較易見沿輪廓擴散。
 [^2]: Balk EM et al. 系統性回顧／meta-analysis（如 Aesthet Surg J. 2015;35(1):55-62）：現有證據未顯示乳房植入物增加乳癌發生率。
 
-## 題目
-> [!question]- 隆乳婦女乳癌特徵,何者「非」? (2017-013)
-> 「**隆乳婦女有更高比例的不可觸及浸潤癌**」非——植入物降低乳攝敏感度,偵測到的癌多為**可觸及**。分期與篩檢族群相近、多為不規則非清楚邊界強化腫塊、subglandular 易沿植入物輪廓擴散皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-cancer-implants")

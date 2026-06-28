@@ -36,13 +36,6 @@ same:
 [^1]: *Pulmonary non-tuberculous mycobacterial infection*. Radiopaedia.org（實際查證 accessed 2026-06-17）：>150 種、**MAI ~60%**;宿主含支氣管擴張、COPD、CF、α1-AT 缺乏、免疫缺損（IFNγ-IL12、AIDS、抗 IFNγ 抗體）、GERD、老年瘦高白人女性;臨床似 TB。
 [^2]: *Pulmonary Mycobacterium avium complex infection*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**nodular bronchiectatic（Lady Windermere）＝老年女性抑制咳嗽、RML/lingula 受累、tree-in-bud endobronchial spread**;**upper lobe cavitary＝中老年男性吸菸/COPD/酗酒**;**hot tub lung＝aerosolized MAC 之肉芽腫性肺炎**;MAC 定植常見、isolation 非 pathognomonic。
 
-## 題目
-> [!question]- NTM 肺病最常見菌種與兩大經典型態?
-> **MAC（MAI，~60%）**;①上肺纖維空洞型（老年男/COPD,像 TB）②結節支氣管擴張型 Lady Windermere（老年女、RML/lingula 支氣管擴張+tree-in-bud）。變異 hot tub lung（過敏性肉芽腫肺炎）。[^1][^2]
-
-> [!question]- 為何 NTM 培養陽性不能直接診斷?
-> **定植常見**,須臨床＋影像＋微生物（ATS/IDSA）三者吻合才算致病。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ntm")

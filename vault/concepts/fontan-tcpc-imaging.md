@@ -32,13 +32,6 @@ dateRev: 2026-06-15
 [^1]: *Fontan procedure*. Radiopaedia.org。繞過右心、體靜脈血導入肺動脈；baffle 開 4–5 mm fenestration 容許右→左分流；extracardiac conduit；併發症含路徑狹窄/血栓（實際查證 accessed 2026-06-15）。
 [^2]: TCPC 之 CT/MRI 監測四要點（吻合狹窄、fenestration、conduit 血栓/內膜增生、房室瓣脫垂）為標準 Fontan 影像監測項目（依題目陳述；以 [^1] Fontan 構造與併發症錨定）。
 
-## 題目
-> [!question]- TCPC（Fontan）術後 CT/MRI 要看哪些才算判讀完整？
-> **以上皆是**：①SVC/IVC–PA 吻合處狹窄 ②conduit fenestration 有無 ③conduit 血栓/內膜增生 ④房室瓣脫垂/逆流。[^1][^2]
-
-> [!question]- TCPC（Fontan）術後病人 CT/MRI 須注意哪些? (2016-249)
-> **以上皆是（E）**——SVC/IVC 至肺動脈吻合處狹窄、conduit fenestration、conduit 內血栓/內膜增生、4-chamber CINE 上房室瓣脫垂皆須評估。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fontan-tcpc-imaging")

@@ -28,10 +28,6 @@ same:
 ### 參考來源
 [^1]: *Adrenocortical carcinoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：larger lesions **heterogeneous secondary to necrosis/hemorrhage**;**invasion into renal vein, IVC, and liver relatively common**;常見鈣化;CT/MR 為主要影像。
 
-## 題目
-> [!question]- 6 cm 腎上腺腫塊、異質性周邊強化、壞死、鈣化、早期血管侵犯,最可能診斷?
-> **Adrenocortical carcinoma（腎上腺皮質癌）**——大、異質、壞死、鈣化、侵犯腎靜脈/IVC/肝。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenocortical-carcinoma")

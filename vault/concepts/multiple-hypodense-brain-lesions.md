@@ -27,10 +27,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 多發低密度腦病灶 DDx（題目所引／神經放射教科書）：多發栓塞梗塞、多發轉移、脫髓鞘、多發膿瘍為常見多發病因;low-grade diffuse astrocytoma 為單一浸潤性腫瘤、非多發離散灶。
 
-## 題目
-> [!question]- 何者「不能」造成 NECT 上多發低密度實質病灶? (2016-239)
-> **Low-grade diffuse astrocytoma**（單一浸潤性腫瘤）。demyelinating disease、multiple metastases、multiple embolic infarcts 皆可造成多發低密度灶。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "multiple-hypodense-brain-lesions")

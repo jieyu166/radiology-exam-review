@@ -27,10 +27,6 @@ same:
 ### 參考來源
 [^1]: *Skeletal sarcoidosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：cyst-like radiolucent areas、**lacelike honeycomb appearance（typically hands）**、extensive **bone erosions**;subcutaneous soft-tissue mass/tenosynovitis;「**disc spaces are usually preserved**」（關節間隙保留）。
 
-## 題目
-> [!question]- 手部 X 光,何者「非典型」於骨骼類肉瘤病?
-> **關節間隙狹窄**——其關節/椎間隙通常保留。lace-like 溶骨、骨侵蝕、皮下軟組織結節皆典型。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "skeletal-sarcoidosis")

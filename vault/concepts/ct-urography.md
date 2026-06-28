@@ -34,10 +34,6 @@ dateRev: 2026-06-18
 [^1]: *CT urography (protocol)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「Example of 3-phase protocol: **Non-contrast KUB** to assess for renal calculi;**Nephrogram** ... at 100 seconds;**Excretory phase** to assess for renal collecting systems」;split-bolus 變化型。
 [^2]: Potenta SE, D'Agostino R, Sternberg KM, Tatsumi K, Perusse K. *CT Urography for Evaluation of the Ureter*. RadioGraphics. 2015;35(3):709-726. https://doi.org/10.1148/rg.2015140209 （**全文已讀，醫師提供 PDF，accessed 2026-06-28**）：完整 CTU 含 nonenhanced＋contrast-enhanced＋excretory 三期（Table 2）;triple-phase nephrographic 於 bolus 後 100 秒、excretory 於 5–15 分;split-bolus 第一/第二 bolus 間延遲 5–15 分、合併期於第二 bolus 後 100 秒;single-phase dual-energy 以 virtual nonenhanced 取代真實未顯影期但對小結石敏感度較低。判讀以 excretory 期 axial source images＋寬窗為佳。
 
-## 題目
-> [!question]- CTU 與『顯影 CT＋排泄延遲期』最能鑑別的特徵? (2016-230)
-> **CTU 包含未顯影（nonenhanced）期**（KUB 查結石）＋ nephrogram ＋ excretory 期。兩者皆可評估輸尿管、皆含顯影期、非同義詞。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ct-urography")

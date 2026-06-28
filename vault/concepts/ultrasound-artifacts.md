@@ -32,13 +32,6 @@ same:
 ### 參考來源
 [^1]: Radiopaedia *Ultrasound artifacts*、*Aliasing artifact*、*Ring down artifact*（實際查證 accessed 2026-06-20）：aliasing＝Doppler 間歇取樣率不足、無法正確記錄方向/速度（Nyquist：頻移 > PRF/2、即取樣率 PRF < 2×頻移時發生）;ring-down＝『僅』氣泡間困住液體共振→後方連續訊號（金屬/膽固醇之相似外觀屬機轉不同的 comet-tail）;mirror＝強反射面鏡像;refraction 常見於腹直肌-腹脂交界。相關速度/衰減偽影見 [[ultrasound-speed-artifact]]、[[ultrasound-attenuation]]。
 
-## 題目
-> [!question]- Aliasing 何時發生?（193 關鍵）
-> 當**都卜勒頻移超過 Nyquist 極限（PRF 的一半）**,即**取樣率(PRF)小於兩倍頻移**時發生。提高 PRF/scale、降頻、增大角度、改基線可緩解。[^1]
-
-> [!question]- ring-down 與 mirror 偽影的機轉?
-> **ring-down＝氣泡/氣體共振**→後方連續高回音;**mirror＝強反射面（骨/血管後壁）**使結構鏡像重複。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-artifacts")

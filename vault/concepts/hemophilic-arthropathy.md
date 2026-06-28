@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Hemophilic arthropathy*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**widened intercondylar notch、squared inferior margin of patella、bulbous femoral condyles**;**骨骺充血性過度生長**;含鐵血黃素滑膜增生、軟骨下骨破壞;**好發 knee>elbow>ankle>hip>shoulder**（肩最少）;非骨刺型。
 
-## 題目
-> [!question]- 何者「非」血友病關節病變（hemophilic arthropathy）的表現?
-> 「**肱骨頭增大＋osteophytes**」非——肩部最少受累、不形成骨刺。髁間窩變寬、方形髕骨、距骨塌陷（似 Charcot）皆典型。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hemophilic-arthropathy")

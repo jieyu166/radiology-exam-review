@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Hypertensive intracerebral hemorrhage*. Radiopaedia.org（實際查證 accessed 2026-06-17）：最常見 ICH（依病因）,好發 **basal ganglia, thalamus, pons, cerebellum**;分布對應穿通小動脈「**80% lenticulostriate、10% pons、10% cerebellum**」;高血壓使 ICH 風險 ×3.5。
 
-## 題目
-> [!question]- 自發性高血壓腦出血最常見的位置?
-> **Putamen / external capsule（基底節，lenticulostriate ~80%）**；其次 pons、cerebellum 各約 10%。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hypertensive-hemorrhage")

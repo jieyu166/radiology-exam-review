@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 乳癌 AJCC TNM 分期（標準）：**Tis 原位癌;T1mi ≤1mm;T2 >20–≤50mm;T4a＝延伸至胸壁（肋骨/肋間肌/前鋸肌,非 pectoralis 肌）;T4b＝皮膚潰瘍/衛星結節/peau d'orange**。
 
-## 題目
-> [!question]- AJCC 乳癌 TNM 分期,何者「錯」?
-> 「**T4a＝延伸至 pectoralis major or minor**」錯——T4a 是延伸至**胸壁（肋骨/肋間肌/前鋸肌）**;單純胸肌侵犯不算 T4。Tis、T1mi≤1mm、T2 20-50mm、T4b 皮膚皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-cancer-staging")

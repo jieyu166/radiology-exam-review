@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Sinonasal mucormycosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發糖尿病（控制差）/免疫低下;高度侵襲、侵眼眶/顱內、侵血管;**T2 variable，約 20% 高訊號（真菌元素傾向低訊號）**;**black turbinate**（非強化壞死黏膜）;可致腦梗塞。
 
-## 題目
-> [!question]- 關於鼻腦型 mucormycosis,何者敘述「為假」?
-> 「病灶 T2 **傾向高訊號**」為假——T2 **多變、多數非高訊號（僅~20% 高）**。糖尿病/免疫低下、侵血管壞死、強化多變、可致腦梗塞皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mucormycosis")

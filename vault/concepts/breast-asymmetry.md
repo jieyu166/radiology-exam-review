@@ -29,13 +29,6 @@ dateRev: 2026-06-18
 [^1]: ACR BI-RADS Atlas 5th ed.（2013）：focal asymmetry「visible on and has a similar shape on different mammographic projections ... lacks the **convex-outward borders** ... borders are **concave-outward**」;developing asymmetry「new, larger, or more conspicuous ... **Approximately 15%** ... malignant ... Absence of a sonographic correlate ... should not avert biopsy」。
 [^2]: *Asymmetry (mammography)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：四型;developing「15% representing malignancy」;global「most commonly a normal variant」。
 
-## 題目
-> [!question]- 關於 asymmetries,何者「非」? (2017-002)
-> 「**focal asymmetry 比 global asymmetry 可疑度低**」非——**focal 比 global 更可疑**(global 多為正常變異)。四型、developing 15% 惡性、developing US 陰性仍切片皆正確。[^1][^2]
-
-> [!question]- focal asymmetry 的定義(BI-RADS 2013)? (2017-003)
-> **在不同(兩個)投影皆可見、缺 convex-outward 邊界(邊界 concave-outward)**。單一投影＝(one-view) asymmetry;有 convex 邊界＝mass;範圍大＝global;新/變大＝developing。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-asymmetry")

@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Renal artery stenosis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「increased **peak systolic velocity (PSV): some advocate 180 cm/s**」、RAR、tardus-parvus、acceleration time >0.07 s。介入排除（小腎＋高實質 RI 預示血管重建無效）依 Morgan R & Waltzer E. Handbook of Angioplasty and Stenting Procedures（題目所引）與既有腎血管文獻。
 
-## 題目
-> [!question]- 73 歲高血壓、雙側小腎（5–6 cm）、RI 0.9、PSV 130／160 cm/s,處置? (2016-224)
-> **No intervention（不介入）**。PSV 未達 >180 cm/s 狹窄閾值、雙側萎縮腎＋高實質 RI（腎硬化）→ 血管重建無益。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-artery-stenosis")

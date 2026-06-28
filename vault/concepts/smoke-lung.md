@@ -82,25 +82,6 @@ concepts: [smoke-lung]
 ### 參考來源
 [^1]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證 full text，accessed 2026-06-14）。
 
-## 題目
-> [!question]- 吸菸相關 ILD 的兩組分類各包含哪些？
-> **第一組（直接吸菸相關）**：AEP、RB、RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈關聯、非純吸菸）**：IPF、CPFE。LAM 不屬吸菸譜系。[^1]
-
-> [!question]- DIP 現在的名稱是什麼？與哪個病同譜系？
-> 現稱 **AMP（alveolar macrophage pneumonia）**；與 **RB-ILD** 同屬巨噬細胞堆積譜系。影像為下肺為主的廣泛 GGO。[^1]
-
-> [!question]- 下列間質性肺炎何者「與吸菸相關」？(2016-142)
-> **Desquamative interstitial pneumonia（DIP，現稱 AMP）**——直接吸菸相關。LIP（Sjögren/自體免疫）、NSIP（CTD/特發）、UIP（IPF/特發）非吸菸專屬。[^1]
-
-> [!question]- 三種主要氣腫亞型的分布？
-> Centrilobular（上肺、最常見、小葉中央）／Paraseptal（subpleural、distal acinus）／Panlobular（下肺、整個小葉）。[^1]
-
-> [!question]- EVALI 的 CT 為何常見 subpleural sparing？與何者相似但不同？
-> EVALI 多為 organizing pneumonia / DAD 樣，centrilobular 結節反映氣道中心傷害，常見 subpleural sparing；影像似 hypersensitivity pneumonitis 但非。[^1]
-
-> [!question]- 何種病造成『中下肺野為主』的融合性毛玻璃（GGO）? (2016-205)
-> **Desquamative interstitial pneumonia（DIP，現稱 AMP）**——吸菸相關，**下肺/周邊為主的瀰漫融合 GGO**。chronic HP（上中肺、馬賽克/air trapping）、respiratory bronchiolitis（上肺 centrilobular 結節）、chronic eosinophilic pneumonia（上肺周邊 consolidation）分布不同。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "smoke-lung")

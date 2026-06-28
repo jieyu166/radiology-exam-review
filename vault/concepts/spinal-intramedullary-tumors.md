@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 [^1]: Barkovich AJ. *Pediatric Neuroimaging*（題目所引）。先天脊髓內腫瘤：teratoma 含脂肪/鈣化/骨軟骨；hamartoma T1/T2 等訊號、罕含功能性脈絡叢致 syringohydromyelia；dermoid 含皮膚附屬器、T2 高訊號（依題目陳述）。
 [^2]: *Intracranial epidermoid cyst*. Radiopaedia.org。epidermoid 內容（脫屑上皮）於 CT/MRI 似 CSF，**惟 DWI 呈 restricted diffusion（高訊號）**（實際查證 accessed 2026-06-15；同一 DWI 原則適用脊髓 epidermoid）。
 
-## 題目
-> [!question]- 關於先天性脊髓內腫瘤，下列何者「假」？
-> 「Epidermoid 似 CSF、但 **DWI 低訊號**」假——epidermoid **DWI 為 restricted（高訊號）**。teratoma（脂肪/鈣化/骨軟骨）、dermoid（皮膚附屬器/T2 高）、hamartoma（等訊號、可致 syringohydromyelia）皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "spinal-intramedullary-tumors")

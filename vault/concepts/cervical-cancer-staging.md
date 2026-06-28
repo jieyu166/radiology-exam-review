@@ -31,13 +31,6 @@ dateRev: 2026-06-20
 [^1]: *Cervical cancer (staging)*. Radiopaedia.org（FIGO 2018,實際查證 accessed 2026-06-20）：I 局限子宮頸（**corpus 延伸 disregarded**）、IIB parametrium 侵犯（未達骨盆壁）、IIIA 下 1/3 陰道、IIIB 骨盆壁/hydronephrosis/無功能腎、**IIIC 骨盆(IIIC1)±主動脈旁(IIIC2)淋巴結**、IVA 膀胱/直腸。
 [^2]: Salib MY, Russell JHB, Stewart VR, et al. *2018 FIGO Staging Classification for Cervical Cancer: Added Benefits of Imaging*. RadioGraphics. 2020;40(6):1807-1822. doi:10.1148/rg.2020200013（實際查證 accessed 2026-06-20;2018 改版納入淋巴結 IIIC、影像輔助分期之角色）。
 
-## 題目
-> [!question]- 子宮頸癌 MRI 何者「不」影響 TNM/分期?
-> **腫瘤侵犯子宮體（uterine corpus）**——FIGO 明定 corpus 延伸 disregarded。parametrium 侵犯、hydronephrosis、骨盆淋巴結（FIGO 2018→IIIC）皆影響分期。[^1]
-
-> [!question]- 子宮頸癌 MRI 哪一所見「不」影響 TNM 分期? (2017-134)
-> **Tumor invasion to uterine body（侵犯子宮體）**——子宮體侵犯不改變 FIGO/TNM 分期。parametrium 侵犯(→IIB)、hydronephrosis(→IIIB)、pelvic lymphadenopathy（FIGO 2018→IIIC;舊版屬 N 期）皆影響分期。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cervical-cancer-staging")

@@ -31,10 +31,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 乳房攝影定位品質準則（ACR Mammography QC／The Requisites: Breast Imaging）：足夠 MLO＝胸大肌 convex 且**延伸至或低於 posterior nipple line**、IMF 打開、nipple in profile;CC PNL 長度應在 MLO PNL 之 **1 cm** 內。（題目所引 Thoracic/Breast positioning 標準）
 
-## 題目
-> [!question]- 關於 mammography 技術,何者「不」正確? (2017-001)
-> 「**MLO 胸大肌 convex 但未延伸至 PNL 下方**」不正確——足夠 MLO 的胸大肌應**延伸至或低於 PNL**。CC PNL 在 MLO 1 cm 內、IMF 打開、脂肪位於纖維腺體後方皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mammography-positioning")

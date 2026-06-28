@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Masticator space*. Radiopaedia.org（實際查證 accessed 2026-06-17）：由深頸筋膜淺層包覆,含 **muscles of mastication（temporalis、masseter、pterygoids）、ramus/body of mandible、mandibular division of trigeminal nerve（V3）**;翼板為骨界非內容物。
 
-## 題目
-> [!question]- 何者「不」包含於咀嚼肌間隙（masticator space）?
-> **Pterygoid plate（翼板,骨性結構）**。temporalis、masseter、pterygoid 肌、mandible ramus、V3 皆為內容物。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "masticator-space")

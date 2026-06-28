@@ -40,16 +40,6 @@ dateRev: 2026-06-28
 [^1]: HCM 影像（題目所引 RadioGraphics 2016;36(2)／Radiopaedia *hypertrophic cardiomyopathy*）：asymmetric septal 為最常見型（~60–70%）、apical 少見（~2%，日本 ~15%）;LGE 典型為 midwall patchy/punctate（非冠狀分布、非心內膜下）;不對稱中隔肥厚定義為中隔/下側壁 ≥1.5。
 [^2]: **Baxi AJ, Restrepo CS, Vargas D, Marmol-Velez A, Ocazionez D, Murillo H. *Hypertrophic Cardiomyopathy from A to Z: Genetics, Pathophysiology, Imaging, and Management*. RadioGraphics 2016;36(2):335-354. DOI 10.1148/rg.2016150137**（**全文 PDF 已讀**,醫師提供 [[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]，accessed 2026-06-28;整合自醫師 [[HCM]] 筆記）。SCD 風險因子之 Class I/II 分類與 LVOT 介入門檻另參 ESC 2014 HCM 指引（Elliott PM et al. Eur Heart J 2014;35(39):2733-2779）。
 
-## 題目
-> [!question]- HCM 最常見的形態學表型? (2017-040)
-> **Asymmetric septal（不對稱中隔型）**——約 60–70%。apical、concentric、basal septal 較少。[^1]
-
-> [!question]- 關於 HCM,何者「錯誤」? (2017-041)
-> 「**apical 型為最常見表型(占很高比例)**」錯誤——**asymmetric septal 才是最常見（60–70%）,apical 僅 ~2%**。LGE 典型 midwall patchy(A)、apical HCM 可併心尖梗塞/動脈瘤(C)、asymmetric septal 定義中隔 ≥1.5×(D)皆正確。[^1]
-
-> [!question]- 關於 HCM,何者「錯誤」? (2017-042)
-> 「**HCM 的 LGE 典型為 subendocardial 冠狀動脈分布強化**」錯誤——應為 **midwall patchy/punctate**（subendocardial 冠狀分布提示缺血/梗塞）。肌節疾病(A)、LV 肥厚無其他負荷(B)、asymmetric septal 最常見(C)皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hypertrophic-cardiomyopathy")

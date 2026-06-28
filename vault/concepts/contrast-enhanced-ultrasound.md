@@ -31,10 +31,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Microbubble contrast agents / Contrast-enhanced ultrasound*. Radiopaedia.org（實際查證 accessed 2026-06-19）＋ CEUS LI-RADS：微氣泡為純血池對比劑、不入間質;無腎毒性/輻射;限制含深部衰減、單病灶評估、操作者依賴、低 MI 成像避免破壞。
 
-## 題目
-> [!question]- 關於超音波顯影劑(微氣泡),何者的描述正確/為非?
-> 微氣泡為**純血池(intravascular)對比劑、不滲入間質**;**無腎毒性、無輻射**;限制＝深部衰減、一次評一個病灶、操作者依賴、氣泡受高 MI 破壞。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-enhanced-ultrasound")

@@ -27,10 +27,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Rectal cancer*. Radiopaedia.org（實際查證 accessed 2026-06-19）：MRI 用於 locoregional staging（T3 extramural spread、mesorectal fascia、EMVI）;「high signal change adjacent to the muscularis propria is due to local **desmoplastic reaction**」（致 overstaging）;adenoma/T1 鑑別非 MRI 強項。題目另引 RadioGraphics 直腸 MR。
 
-## 題目
-> [!question]- 關於直腸 MR 的 T 分期,何者「正確」? (2016-241)
-> **MRI 能準確判斷腫瘤是否侷限於腸壁（依完整 muscularis propria）**。MRI 不擅長 adenoma vs T1、desmoplastic reaction 致 T2 被『高估(overstage)』為 T3（非 understage）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "rectal-cancer-mri")

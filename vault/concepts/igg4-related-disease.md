@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: IgG4-related disease 影像（Radiopaedia *IgG4-related disease*／*Mikulicz*；題目所引）：Mikulicz（淚腺/唾液腺）屬 IgG4-RD;典型含 autoimmune pancreatitis、膽管炎、後腹腔纖維化;Kikuchi-Fujimoto／Castleman／Kimura 為不同病種。
 
-## 題目
-> [!question]- 下列何者為 IgG4-related disease? (2017-031)
-> **Mikulicz disease**（IgG4 相關淚腺/唾液腺炎）。Kikuchi-Fujimoto（壞死性淋巴結炎）、Castleman、Kimura 皆非 IgG4-RD。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "igg4-related-disease")

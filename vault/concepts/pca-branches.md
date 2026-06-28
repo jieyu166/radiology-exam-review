@@ -23,10 +23,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Posterior cerebral artery*. Radiopaedia.org（實際查證 accessed 2026-06-17）：分支含 **thalamogeniculate perforator、medial/lateral posterior choroidal、splenial artery、peduncular perforator、calcarine、lateral occipital**;marginal tentorial artery 未列（屬 ICA meningohypophyseal trunk）。
 
-## 題目
-> [!question]- 下列何者「不」屬於 posterior cerebral artery 的分支?
-> **Marginal tentorial artery（Bernasconi-Cassinari）**——來自 ICA meningohypophyseal trunk。thalamogeniculate、perisplenial、lateral posterior choroidal 皆 PCA 分支。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pca-branches")

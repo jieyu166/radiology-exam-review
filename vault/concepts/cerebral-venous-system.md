@@ -32,13 +32,6 @@ same:
 [^1]: *Inferior sagittal sinus*. Radiopaedia.org（實際查證 accessed 2026-06-17）：沿大腦鐮下緣,與 great cerebral vein（Galen）匯合形成 **straight sinus**。
 [^2]: 腦深部靜脈系統＝internal cerebral veins、basal veins of Rosenthal、vein of Galen（標準神經解剖）;**Trolard（superior anastomotic）與 Labbé（inferior anastomotic）為淺表 cortical 吻合靜脈**。見 [[cerebral-deep-venous-cortex]]。
 
-## 題目
-> [!question]- 下矢狀竇（inferior sagittal sinus）匯入何處?
-> **Vein of Galen（大腦大靜脈）**——兩者匯合形成 straight sinus。[^1]
-
-> [!question]- 何者「不」屬腦深部靜脈系統?
-> **Superior anastomotic vein of Trolard**（淺表吻合靜脈）。ICV、basal vein of Rosenthal、vein of Galen 為深部。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cerebral-venous-system")

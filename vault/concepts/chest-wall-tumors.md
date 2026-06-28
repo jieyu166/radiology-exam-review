@@ -23,10 +23,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 胸壁腫瘤影像（題目所引胸部教科書／Radiopaedia *chest wall tumours*）：chondrosarcoma 為**胸壁最常見原發惡性骨腫瘤**,好發肋軟骨交界、含軟骨基質鈣化。
 
-## 題目
-> [!question]- 胸壁最常見的原發惡性骨腫瘤? (2017-023)
-> **Chondrosarcoma**（好發肋軟骨交界、含軟骨基質鈣化）。osteosarcoma、Ewing sarcoma、myeloma 較少。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chest-wall-tumors")

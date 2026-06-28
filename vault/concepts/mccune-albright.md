@@ -27,10 +27,6 @@ same:
 ### 參考來源
 [^1]: *McCune-Albright syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：三聯＝多骨性 fibrous dysplasia＋coast-of-Maine café-au-lait＋內分泌過度功能（**性早熟**最典型，女孩可見陰道出血 ~25%）；GNAS 鑲嵌突變。題目另引 Primer of Diagnostic Imaging 5th ed. p.316。骨病灶細節見 [[fibrous-dysplasia]]。
 
-## 題目
-> [!question]- 下列何者「非」McCune-Albright 症候群的影像/臨床特徵？
-> 「**男性為主**」——本症**女性為主**（性早熟多見於女孩）。三聯：性早熟、café-au-lait（coast of Maine）、polyostotic fibrous dysplasia。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "mccune-albright")

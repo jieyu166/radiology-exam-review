@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: 頸靜脈球瘤經實際查證（accessed 2026-06-17，Radiopaedia *glomus jugulare / jugular paraganglioma*）：富血管、T2 salt-and-pepper、ICA/ECA 供血、頸靜脈孔溶骨破壞、pulsatile tinnitus/聽損；惡性轉化約 2–13%。
 
-## 題目
-> [!question]- 關於 glomus jugulare，何者「為非」？
-> 「**不會惡性轉化**」為非——可惡性轉化（約 2–13%）。salt-and-pepper、ICA/ECA 供血、pulsatile tinnitus/聽損皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "glomus-jugulare")

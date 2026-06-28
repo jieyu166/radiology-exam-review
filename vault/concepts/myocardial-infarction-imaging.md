@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 心肌梗塞影像（題目所引 Diagnostic Imaging: Cardiovascular／Radiopaedia *myocardial infarction*）：急性 T2 高訊號水腫;慢性變薄、鈣化/脂肪化生、LGE 無 T2 升高;兩者皆循冠狀動脈分布、心內膜下為主。
 
-## 題目
-> [!question]- 何者「非」區分慢性與急性心肌梗塞的線索? (2016-233)
-> 「**病灶依冠狀動脈血管分布(follows coronary vascular distribution)**」——急慢性皆如此,非鑑別。線狀鈣化/心內膜下脂肪化生、變薄+akinesis/dyskinesis、LGE 無 T2 升高皆為慢性線索。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "myocardial-infarction-imaging")

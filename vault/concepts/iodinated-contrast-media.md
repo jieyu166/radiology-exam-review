@@ -47,22 +47,6 @@ same:
 [^2]: 含碘對比劑藥動學（實際查證 accessed 2026-06-19；contrast media pharmacokinetics 文獻，ScienceDirect《Introduction to iodinated contrasts: properties, IV administration and distribution》／Kidney Int. dialysis review；Visipaque FDA label）：碘劑為**細胞外間隙(extracellular)對比劑**——two-compartment（血管內 plasma ＋ 間質 interstitium）、**不顯著進入細胞**、分布體積 ~0.26 L/kg；經**腎絲球過濾**排泄（iodixanol ~97% 於 24 h 經尿排出）。Visipaque(iodixanol) 標示「**NOT FOR INTRATHECAL USE**」。
 [^3]: 中華民國放射線醫學會《對比劑手冊》2017/2020（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]、[[2020 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）：台灣常用製劑與分類、鞘內可用之低濃度非離子單體、保存（37°C 保溫箱／庫存室溫 15–30°C）、小兒劑量（1.5–2 cc/kg）等臨床規範。
 
-## 題目
-> [!question]- 哪種含碘對比劑是 non-ionic dimer? (2021交換)
-> **Iodixanol（Visipaque）**——代表 dimer。Iopromide/Iohexol/Iopamidol 為非離子單體、iothalamate meglumine 為離子單體。[^1]
-
-> [!question]- 滲透壓由高至低排序：iothalamate 60、iohexol 350、iodixanol 320? (2021交換)
-> **iothalamate(~1400) ＞ iohexol 350(~844) ＞ iodixanol 320(~290)**。[^1]
-
-> [!question]- 有關 CT 含碘對比劑,何者為「非」? (物理2017)
-> 「**non-ionic dimer 不需注意術後腎功能**」為非——**均須注意腎功能**（Visipaque 較黏、未較保護腎臟）。non-ionic dimer 滲透壓最低、non-ionic monomer 比 ionic monomer 低、台灣最常用為非離子單體皆正確。[^1]
-
-> [!question]- 正常腎功能病人 IV 注射含碘對比劑後分布於哪些間隙? (2021交換)
-> **血管內＋細胞外間質（1+2）**——碘劑為細胞外對比劑、不顯著入細胞;經腎絲球過濾排泄。腦血管攝影（BBB 完整）則僅血管內(1)。[^2]
-
-> [!question]- 何種含碘對比劑可用於脊髓攝影(鞘內)? (物理2017/NR)
-> **低濃度非離子單體**（如 Iopamiro 300、Omnipaque 240/300）;**高濃度(Omnipaque 350/370、Visipaque)禁用**於鞘內。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "iodinated-contrast-media")

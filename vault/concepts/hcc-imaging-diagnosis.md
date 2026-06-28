@@ -28,13 +28,6 @@ dateRev: 2026-06-19
 [^1]: 官方 2017 詳解；RadioGraphics 2012;32:1977-1995：有利 HCC＝動脈期高強化、washout、capsule/pseudocapsule、tumor in vein。
 [^2]: 官方 2017 詳解；Milan criteria（單一 ≤5 cm/≤3 顆各 ≤3 cm）;UCSF criteria（單一 <6.5 cm/≤3 顆各 <4.5 cm 且總和 <8 cm）。
 
-## 題目
-> [!question]- 評估肝病灶,何者「不」有利 HCC 診斷? (2017-128)
-> 「**無 capsule 或 pseudocapsule**」不利——HCC 典型『有』包膜。有利者：tumor within vein、動脈期 hyperenhancement、portal/later phase washout。[^1]
-
-> [!question]- 依 Milan/UCSF criteria,哪位病人適合肝移植? (2017-126)
-> **3 顆 HCC（1.5、3.0、2.0 cm）**——符合 Milan（≤3 顆、各 ≤3 cm）與 UCSF（總和 <8 cm）。單一 7 cm、含 5 cm 顆、膽管癌、4 顆皆不符。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hcc-imaging-diagnosis")

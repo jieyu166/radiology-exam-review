@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Empty sella*. Radiopaedia.org（實際查證 accessed 2026-06-17）：CSF 經「**deficient diaphragma sellae**」疝入蝶鞍（~20% 人口）;垂體被壓、CSF 填充;骨性蝶鞍可至少略擴大;多為偶見無臨床意義。
 
-## 題目
-> [!question]- 關於 empty sella,何者「錯誤」?
-> 「因 **dorsum sellae（鞍背）缺損**所致」錯——是 **diaphragma sellae（鞍膈）缺損**。MRI 訊號同 CSF、骨性蝶鞍可擴大、垂體仍正常強化皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "empty-sella")

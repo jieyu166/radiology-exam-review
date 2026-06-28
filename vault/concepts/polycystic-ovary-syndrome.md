@@ -25,10 +25,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.7-186~187：PCOS 卵巢腫大、周邊多發小濾泡(string of pearls)、雙側。
 
-## 題目
-> [!question]- 何者「不是」PCOS 的 MRI 典型表現? (2017-135)
-> 「**多發濾泡位於卵巢中央**」不是——PCOS 濾泡呈**周邊排列（string of pearls）**。卵巢腫大、通常雙側皆為典型。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "polycystic-ovary-syndrome")

@@ -25,10 +25,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Enchondromatosis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「Ollier disease ... a **non-hereditary, sporadic** skeletal disorder characterized by **multiple enchondromas** principally located in the metaphyseal regions」；DDx「**Maffucci syndrome: presence of soft-tissue hemangiomas**, heralded ... by phleboliths」。另 Primer of Diagnostic Imaging 5th ed., p.314（題目所引）。
 
-## 題目
-> [!question]- 下列何者「不」屬 Ollier disease 的影像特徵? (2016-215)
-> **Soft tissue hemangiomas（軟組織血管瘤）**——屬 **Maffucci syndrome**。Ollier＝多發性內生軟骨瘤、非遺傳性、手足變形/肢長不等。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "enchondromatosis")

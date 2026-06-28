@@ -28,10 +28,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Non-ossifying fibroma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「lucent lesion **eccentrically located in the metaphysis** near the physis, long axis parallel to the axis of the bone, **thin sclerotic rim**」；隨年齡遠離生長板；屬 FEGNOMASHIC 的 N。另 Diagnostic Imaging: Orthopedics（題目所引）。
 
-## 題目
-> [!question]- 14 歲男性脛骨遠端幹骺端偏心地圖狀透亮、緻密硬化緣、endosteal scalloping、清楚移行帶,最可能? (2016-214)
-> **Nonossifying fibroma（NOF）**。符合幹骺端偏心、薄/緻密硬化緣、清楚移行帶之良性型態;GCT（骨閉合後鄰關節）、enchondroma（手足、軟骨鈣化）、fibrous dysplasia（毛玻璃）皆不符。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "nonossifying-fibroma")

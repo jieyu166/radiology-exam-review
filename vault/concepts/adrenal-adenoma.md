@@ -89,10 +89,6 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 
 > [可選升級] Grainger & Allison's Diagnostic Radiology（Adrenal Imaging 章，Sahdev/Kavanagh 2021）、ACR Appropriateness Criteria Adrenal Mass 2021（JACR）亦可再補。
 
-## 題目
-> [!question]- Concerning adrenal adenomas, which one is TRUE?（A）more common cause of adrenal mass than metastatic disease（B）non-contrast density >20 HU（C）no signal decrease on opposed-phase MR（D）retain 90% of immediate contrast on 10-min delayed CT
-> **Ans: A**。腺瘤是最常見的腎上腺病灶、佔所有腎上腺腫塊 60–80%，**即使已知惡性，偶發病灶仍較可能是腺瘤而非轉移**（A 正確）；典型腺瘤 NECT **≤10 HU** 而非 >20 HU（B 錯）；opposed-phase 因細胞內脂質而**訊號下降**，是特徵（C 錯）；腺瘤為**快速 washout**（15 分 RPW>40%/APW>60%），非滯留顯影劑（D 錯）。[^1][^2][^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenal-adenoma")

@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（實際查證 accessed 2026-06-17）：後部深部白質、posterior-predominant、早期 **splenium of corpus callosum**;**peripheral（outer）zone＝leading edge of active demyelination（強化）**;VLCFA 顯著升高。
 
-## 題目
-> [!question]- 10 歲男童行為/學業退步,雙側 peritrigonal 對稱 T2 高訊號+邊緣強化,最可能診斷?
-> **X-linked adrenoleukodystrophy（X-ALD）**——後部白質為主、splenium 早累、周邊 leading edge 強化、VLCFA↑。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenoleukodystrophy")

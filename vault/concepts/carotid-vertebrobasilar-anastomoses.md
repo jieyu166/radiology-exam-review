@@ -36,13 +36,6 @@ dateRev: 2026-06-17
 [^1]: *Persistent otic artery*. Radiopaedia.org（實際查證 accessed 2026-06-17）：為殘存頸-椎基底吻合之一,「**considerable controversy in regards to its existence**」,起自 petrous（C2）ICA;相對地 persistent trigeminal artery 為最常見的此類吻合。
 [^2]: Hacein-Bey L, Daniels DL, Ulmer JL, et al. *The Ascending Pharyngeal Artery: Branches, Anastomoses, and Clinical Significance.* AJNR Am J Neuroradiol 2002;23(7):1246-1256（無印製 DOI）。**全文已讀（醫師提供 PDF，accessed 2026-06-28）**。重點：升咽動脈分 pharyngeal trunk（extracranial）與 neuromeningeal trunk（intracranial，經 foramen magnum 入後顱窩）；neuromeningeal trunk 分 hypoglossal branch（hypoglossal canal）與 jugular branch（jugular foramen）。與 ICA 的危險吻合經 foramen lacerum 之 superior pharyngeal artery→inferolateral trunk、recurrent artery of foramen lacerum、jugular branch 之 lateral clival artery、clival→meningohypophyseal trunk、inferior tympanic→caroticotympanic branch；與椎動脈經 hypoglossal 及 musculospinal（C2–C3）branch 吻合。
 
-## 題目
-> [!question]- 頸動脈-椎基底吻合中,何者最少被記載/存在有爭議?
-> **Persistent otic artery**。trigeminal（最常見）、hypoglossal、proatlantal type 1 皆較確立。[^1]
-
-> [!question]- 哪條動脈可達顱底並經 foramen lacerum 等路徑與顱內吻合? (2017-115)
-> **Ascending pharyngeal artery（升咽動脈）**——經 superior pharyngeal artery 之 carotid branch 沿 ICA 走於 foramen lacerum,與 inferolateral trunk 吻合;neuromeningeal trunk 則經 foramen magnum 入後顱窩,可與顱內(ICA/椎基底)吻合。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "carotid-vertebrobasilar-anastomoses")

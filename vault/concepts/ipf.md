@@ -51,22 +51,6 @@ concepts: [ipf]
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；IPF 屬「與菸草強烈關聯」之第二組，非純吸菸相關）。
 [^3]: UIP/IPF 診斷指引（ATS/ERS/JRS/ALAT 2018 IPF guideline；2022 update）＋*Usual interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：2018 四分類（Typical/Probable/Indeterminate/Alternative）取代 2013「inconsistent」;2022 Probable UIP 可免切片診斷 IPF;CT Typical/Probable 約 80–81% 病理為 UIP、Indeterminate/Alternative 仍約 42% 為 UIP。
 
-## 題目
-> [!question]- IPF/UIP 的典型分布與 CT 樣態？
-> **基底 + subpleural（周邊）為主**的 honeycombing、牽引性支氣管擴張與網狀影；低肺容積。注意是 subpleural **predominant**（非 sparing）。[^1]
-
-> [!question]- 「下肺 honeycombing 且 subpleural sparing」符合 IPF 嗎？
-> 不符。IPF 是 subpleural **predominant**；出現 subpleural **sparing** 反而要想 NSIP。[^1]
-
-> [!question]- 關於 HRCT 的 UIP pattern criteria,何者「為非」? (2017-130)
-> 「**extensive ground-glass abnormality（GGO 多於 reticular）**」為非——大範圍 GGO 屬『**inconsistent with UIP**』。UIP 四特徵＝subpleural/basal predominance、reticular、honeycombing±traction bronchiectasis、無不符特徵。[^1]
-
-> [!question]- 2018 UIP 分類中,「Probable UIP」與「Typical UIP」的關鍵差異?
-> **Probable UIP『無 honeycombing』**（僅網狀影＋周邊 traction bronchiectasis）;Typical UIP **有 honeycombing**。兩者皆 subpleural+basal 為主;2022 起 Probable UIP 於相符臨床情境可免切片診斷 IPF。[^3]
-
-> [!question]- CT 打 Indeterminate/Alternative 的 UIP,病理仍是 UIP 的比例?
-> 約 **42%**（CT Typical/Probable 則約 80–81% 病理為 UIP）→ 影像有極限,需 MDD 多專科討論。[^3]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")

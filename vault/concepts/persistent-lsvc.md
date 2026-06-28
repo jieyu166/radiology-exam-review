@@ -27,10 +27,6 @@ dateRev: 2026-06-16
 ### 參考來源
 [^1]: *Left-sided superior vena cava*. Radiopaedia.org。最常見胸腔先天靜脈異常；源自 persistent left anterior cardinal vein；多引流入 coronary sinus（→右心房），少數入左心房（右→左分流）；dilated coronary sinus 為線索（實際查證 accessed 2026-06-16）。題目另引 Sonavane SK, et al. *Comprehensive Imaging Review of the Superior Vena Cava*. RadioGraphics 2015;35(7):1873-92. https://doi.org/10.1148/rg.2015150056 。
 
-## 題目
-> [!question]- 關於 persistent left SVC，下列何者「錯誤」？
-> 「**通常匯入左心房**」錯——通常經 **coronary sinus → 右心房**（~90%+），少數才入左心房（右→左分流）。最常見胸腔先天靜脈異常、dilated coronary sinus、源自 left anterior/common cardinal vein 皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "persistent-lsvc")

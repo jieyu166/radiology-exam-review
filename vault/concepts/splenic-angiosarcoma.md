@@ -24,10 +24,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Splenic angiosarcoma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「considered the **most common primary non-hematolymphoid splenic malignancy**」;罕見、侵襲性高、易破裂、早轉移。另 Sabiston Textbook of Surgery（題目所引）。
 
-## 題目
-> [!question]- 最常見的脾臟原發非造血性（nonhematopoietic）惡性腫瘤? (2017-022)
-> **Angiosarcoma**。lymphoma 為脾最常見惡性但屬造血性（排除）;littoral cell tumor、hemangioendothelioma 罕見。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "splenic-angiosarcoma")

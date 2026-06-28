@@ -37,19 +37,6 @@ same:
 ### 參考來源
 [^1]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「progressively into the **hepatocytes and bile ducts during the hepatobiliary phase** ... contrast MRI cholangiogram」;「linear, ionic molecule; **50% hepatic excretion, 50% renal excretion**」。肝膽期病灶攝取（FNH/OATP+ HCC vs 轉移不攝取）、OATP1B1/B3-MRP2 機轉、Gd-BOPTA ~3–5% 膽排為肝膽 MRI 共識（mriquestions.com / 肝臟 MRI 文獻）。
 
-## 題目
-> [!question]- 哪些是 hepatobiliary-specific 的 MR 對比劑?
-> **Gd-EOB-DTPA（Primovist）、Gd-BOPTA（MultiHance）、Mn-DPDP（mangafodipir）**。前兩者釓基、Mn-DPDP 錳基。[^1]
-
-> [!question]- 肝膽期(hepatobiliary phase)會攝取 Gd-EOB-DTPA 的病灶?「不」攝取者?
-> **攝取**：FNH、保留 OATP 的高分化 HCC、再生結節（含功能性肝細胞）。**不攝取（低訊號）**：轉移、囊腫、血管瘤、多數腺瘤、低分化 HCC。[^1]
-
-> [!question]- 關於 Primovist vs MultiHance,何者「錯誤」?
-> Primovist 與 MultiHance 皆肝腎排泄;**Primovist ~50% 經膽、肝膽期約 20 分**;**MultiHance 僅 ~3–5% 經膽、肝膽期較久(~60–120 分)**;肝細胞攝取靠 OATP1。[^1]
-
-> [!question]- Gadoxetate(Primovist)診斷肝病灶的「缺點」何者為非?
-> 「**肝膽期對小病灶偵測率低**」為非——肝膽期對小病灶偵測率**高**。其缺點為動脈/靜脈期強化較弱、動脈期易動作假影、肝功能不良時肝實質攝取下降。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatobiliary-mri-contrast")

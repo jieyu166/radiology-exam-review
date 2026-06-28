@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Giant cell tumour of bone*. Radiopaedia.org（題目所引 *Giant Cell Tumor of Bone: Review*／實際查證 accessed 2026-06-18）：偏心、軟骨下/epiphyseal、地圖狀溶骨、**非硬化緣（<5% 可些微硬化）**、骨骺閉合後;可侵襲（寬移行帶、皮質破壞）、次發 ABC 致 fluid-fluid levels。
 
-## 題目
-> [!question]- 關於 giant cell tumor,何者「為假」? (2017-050)
-> 「**平片呈界線清楚的硬化緣**」為假——GCT 典型為**非硬化緣（narrow zone）**。偏心延伸至軟骨下/骨骺閉合後、可有侵襲徵象、可含 fluid-fluid levels（次發 ABC）皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "giant-cell-tumor")

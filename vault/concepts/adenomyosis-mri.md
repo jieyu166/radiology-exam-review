@@ -34,10 +34,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Adenomyosis*. Radiopaedia.org。MRI 首選；JZ 增厚 ≥12 mm（正常 ≤5 mm）為最易辨識特徵；T2 ill-defined 增厚含小灶高訊號（囊性變）、striated；T1 高訊號小灶（出血）；子宮增大（實際查證 accessed 2026-06-15）。題目另引 Hricak《Diagnostic Imaging: Gynecology》(Amirsys 2007, p.2-193)。
 
-## 題目
-> [!question]- 下列何者「非」adenomyosis 的典型 MRI 所見？
-> **邊界清楚的腫塊（well-defined mass）**。典型為子宮增大、JZ 增厚 ≥12 mm、T2 小灶高訊號；邊界清楚腫塊屬 leiomyoma。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adenomyosis-mri")

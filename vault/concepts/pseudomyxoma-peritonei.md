@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology Review Manual 7th, p883：PMP 呈肝脾 scalloping、含分隔/鈣化、多源自闌尾;**女略多於男（M:F ≈ 9:11）**。
 
-## 題目
-> [!question]- 關於 pseudomyxoma peritonei,何者「為非」? (2017-132)
-> 「**男性較常見**」為非——**女略多於男（M:F ≈ 9:11）**。scalloping of liver/spleen、含分隔與鈣化、源自闌尾病灶皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pseudomyxoma-peritonei")

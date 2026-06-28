@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；The Requisites: Breast Imaging 3rd ed., p.142（mucinous→round mass, p.147）：spiculated mass DDx 含 postbiopsy scar、tubular ca、radial scar;mucinous carcinoma 呈圓形腫塊。
 
-## 題目
-> [!question]- 何者「不屬」乳房毛刺狀(spiculated)腫塊的 DDx? (2017-122)
-> **Mucinous (colloid) carcinoma**——呈圓形/邊界清楚腫塊。Postbiopsy scar、tubular cancer、radial scar 皆為 spiculated DDx。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-spiculated-mass")

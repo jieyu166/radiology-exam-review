@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Flat panel detector*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**direct** flat panel detector＝**photoconductor layer of amorphous selenium (a-Se)** + TFT;**indirect**＝scintillator（X 光先轉可見光）+ photodiode;「X-rays converted into electrical charges, either directly or indirectly」。
 
-## 題目
-> [!question]- 關於直接（direct）數位偵測器,何者正確?
-> **X 光光子直接轉換成電荷**（a-Se 光導體）後讀出;間接型才需閃爍體先轉可見光。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "digital-radiography-detectors")

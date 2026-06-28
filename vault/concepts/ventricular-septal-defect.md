@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: VSD 分型（官方 2016 詳解；The Basics 2nd ed. p49-57／Radiopaedia *ventricular septal defect*）：perimembranous（最常見）、muscular（Swiss-cheese）、inlet、**subarterial/supracristal（肺動脈瓣下，subpulmonary）**;以右心室面觀點命名。
 
-## 題目
-> [!question]- 關於 VSD 分型的描述,何者「錯誤」? (2016-251)
-> 「**主動脈瓣下的缺損稱 subarterial type**」錯——**subarterial（supracristal）位於『肺動脈瓣下(subpulmonary)』**。perimembranous（膜周）、Swiss-cheese（muscular）、inlet（流入道）、以右心室觀點命名皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ventricular-septal-defect")

@@ -24,10 +24,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 乳頭 Paget disease（題目所引／Radiopaedia *Paget disease of the nipple*）：濕疹樣乳頭外觀;表皮內 Paget cells;**絕大多數合併下方乳癌（DCIS 或浸潤癌）**,須尋找潛在惡性。
 
-## 題目
-> [!question]- 關於乳頭 Paget's disease,何者「錯誤」? (2016-245)
-> 「**有 Paget disease 時合併癌很罕見**」錯誤——**絕大多數合併下方乳癌（DCIS/浸潤癌）**。濕疹樣外觀、wedge biopsy 可診斷、表皮見 Paget cells 皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "paget-disease-nipple")

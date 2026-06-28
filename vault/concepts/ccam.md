@@ -31,10 +31,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Congenital pulmonary airway malformation（CCAM/CPAM）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：終末呼吸單位 **hamartomatous** 增生;「usually **unilateral and involve a single lobe**」;Stocker 分型——**type I 最常見(70%)、大囊(優勢囊 2–10 cm)**;type II 囊 <2cm(合併他異常);**type III 微囊 <5mm(microcystic、實質樣)**。
 
-## 題目
-> [!question]- 關於 CCAM/CPAM 的特徵,何者「為錯」?
-> 「**Type I 囊通常 <2 cm**」錯——type I 為**大囊(2–10 cm)、最常見、預後佳**;<2cm 是 type II。錯構瘤樣、多單側單葉、type III microcystic 實質樣皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ccam")

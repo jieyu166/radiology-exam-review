@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Hypertrophied column of Bertin*. Radiopaedia.org（實際查證 accessed 2026-06-17）：辨識關鍵為「in continuity with, and of similar appearance to, normal renal cortical parenchyma, and that **the renal outline is preserved**」;突入腎竇、IVU 上可模擬腫塊但腎輪廓正常。
 
-## 題目
-> [!question]- 何者「不是」hypertrophied column of Bertin 常見的超音波發現?
-> **腎表面凹陷**——其腎**輪廓保留正常**。與皮質連續、等回音、突入腎竇皆為特徵。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "column-of-bertin")

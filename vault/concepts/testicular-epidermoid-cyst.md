@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；J Ultrasound Med 2010;29:831-837：睪丸表皮樣囊腫為無血管、邊界清楚的實質腫塊,onion-skin/whorled 層狀,**mural calcification 見於 86%**。
 
-## 題目
-> [!question]- 何者「不是」睪丸表皮樣囊腫常見的超音波表現? (2017-111)
-> 「**Purely cystic nodule（純囊性結節）**」不是——其為實質 onion-skin 層狀腫塊。mural calcification(~86%)、well-defined margin、onion-skin appearance 皆為其表現。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "testicular-epidermoid-cyst")

@@ -28,10 +28,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Glioblastoma, IDH-wildtype*. Radiopaedia.org。白質不規則周邊強化、中央壞死、周圍 vasogenic edema；可腫瘤內出血；沿白質/胼胝體浸潤；顱外轉移極罕見（實際查證 accessed 2026-06-15）。題目另引 Kickingereder et al.（PCNSL vs atypical GBM 多參數 MRI 鑑別）。
 
-## 題目
-> [!question]- 下列何者「非」GBM 的特徵？
-> **Metastasis（顱外轉移）**。GBM 特徵為中央壞死、出血、perifocal（vasogenic）edema、不規則環狀強化；顱外轉移極罕見。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gbm")

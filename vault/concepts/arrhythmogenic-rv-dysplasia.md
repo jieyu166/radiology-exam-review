@@ -27,10 +27,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；心臟 MR ARVD criteria（Radiopaedia *ARVC*）：脂肪浸潤、局部動脈瘤、RV/RVOT 擴張與功能下降。
 
-## 題目
-> [!question]- ARVD 在 MRI 可顯示的典型標準? (2017-117)
-> **以上皆是（D）**——RV 心肌脂肪浸潤(a)、RV/RVOT 動脈瘤(b)、RV/RVOT 擴張(c)皆為典型 MRI 標準。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "arrhythmogenic-rv-dysplasia")

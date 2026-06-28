@@ -85,19 +85,6 @@ dateRev: 2026-06-19
 [^1]: Mettler FA Jr, Huda W, Yoshizumi TT, Mahesh M. *Effective Doses in Radiology and Diagnostic Nuclear Medicine: A Catalog*. Radiology. 2008;248(1):254-263. https://doi.org/10.1148/radiol.2481071451 （含 radiography／fluoroscopy／CT／interventional／nuclear medicine 各檢查之代表性有效劑量;上表為其 rounded representative values）。
 [^2]: *Typical Radiation Doses*（MSD Manual Professional Edition，本於 Mettler 等；實際查證 accessed 2026-06-17）：數位乳攝 0.21、CT 頭 2、鋇劑灌腸 6、腰椎X光(側位)1.5、CT 腹骨盆 7.7 mSv（與 [^1] 大致一致）。
 
-## 題目
-> [!question]- 骨盆X光、頭部CT、鋇劑灌腸、全脊椎X光中,何者有效劑量最高?
-> **鋇劑灌腸（~8 mSv）** > 頭部CT(~2) > 全脊椎/腰椎X光(~1.5) > 骨盆X光(~0.6)。[^1]
-
-> [!question]- 一般乳房攝影（4-view）的有效劑量約為?
-> 約 **0.4–0.7 mSv**（Mettler 代表值 0.4；數位每次 ~0.2）。[^1]
-
-> [!question]- 下列何種核醫檢查有效劑量偏高?
-> **Tl-201 心肌灌注（~22–41 mSv）** 偏高;Gallium(~15)、FDG PET(~7,PET/CT ~14)、骨掃描(~6.3)、肺灌注(~2) 依序遞減。[^1]
-
-> [!question]- 介入中有效劑量最高的是?
-> **TIPS（~70 mSv）**;其次 PCI/RF ablation(~15)、診斷性冠狀動脈攝影(~7)。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "radiation-dose-reference")

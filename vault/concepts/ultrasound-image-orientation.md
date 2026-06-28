@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: 超音波影像方向標準慣例（實際查證 accessed 2026-06-18，123sonography「Ultrasound 101 - Image Orientation」、PMC9619033「Ultrasound scanning techniques」）：「if the marker on your probe points to the patient's head, the **screen's left side will be cranial**」;指標側對應螢幕左側、頂端靠近探頭。
 
-## 題目
-> [!question]- 腹部超音波縱切時,螢幕左側（操作者左手側）顯示哪個方向? (2016-228)
-> **Cranial（頭側）**。縱切時 marker 朝病人頭側、對應螢幕左側,故螢幕左＝cranial、右＝caudal。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-image-orientation")

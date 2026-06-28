@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 心內膜墊缺損影像（官方 2016 詳解／Radiopaedia *atrioventricular septal defect*）：診斷關鍵為房室瓣失去正常 offset、平行同一水平;合併原發孔 ASD＋inlet VSD＋共同房室瓣;LVOT 拉長(goose-neck);與唐氏症相關。
 
-## 題目
-> [!question]- 如何在 CT/MRI 影像上確診 ECD（endocardial cushion defect）? (2016-250)
-> **Parallel arranged bilateral atrioventricular valves（房室瓣平行、同一水平）**——正常房室瓣 offset 消失。large VSD、anterior ASD、short/long LVOT/RVOT 皆非確診依據。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endocardial-cushion-defect")

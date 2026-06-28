@@ -28,10 +28,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: *Nephrogenic systemic fibrosis*. Radiopaedia.org（實際查證 accessed 2026-06-19）；ESUR Contrast Medium Guideline（題目所引）：主要風險＝eGFR<30、dialysis、AKI、renal transplant;高風險為 ACR group 1 線性釓製劑;**懷孕非 NSF 風險因子**。
 
-## 題目
-> [!question]- 何者「非」接受釓對比劑病人發生 NSF 的風險因子? (2016-248)
-> **Pregnant patients（懷孕）**。CKD 4–5（GFR<30，A）、透析（C）、acute kidney insufficiency（D）皆為風險因子。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "nephrogenic-systemic-fibrosis")

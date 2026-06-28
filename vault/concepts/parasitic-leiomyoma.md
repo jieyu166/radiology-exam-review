@@ -26,10 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Diagnostic Imaging: Gynecology, p.2-80 to 81：parasitic leiomyoma 為子宮外、與子宮分離的腹膜骨盆平滑肌腫塊,自腹膜/網膜血管獲血供,影像似子宮肌瘤。
 
-## 題目
-> [!question]- 何者「不是」parasitic leiomyoma 的特徵? (2017-102)
-> 「**由子宮長出的有蒂軟組織腫塊**」不是——parasitic leiomyoma **與子宮分離**、自腹膜血管獲血供。大引流靜脈、影像似子宮肌瘤、動脈血供 MRA 可見皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "parasitic-leiomyoma")

@@ -26,10 +26,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Dual rim sign (brain abscess)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：dual/double rim sign 見於約 **75%** 腦膿瘍,**SWI 與 T2/FLAIR** 上**兩同心環(外環低訊號、內環相對高訊號)**,有助與 **glioblastoma** 區別;外環低訊號對應 T1 強化內緣。
 
-## 題目
-> [!question]- SWI 上的 "dual rim sign" 最可能見於哪種病灶?
-> **腦膿瘍**——兩同心環(外低/內相對高訊號),約 75% 病例,助與 GBM 區別。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "brain-abscess")

@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Pulmonary sequestration (extralobar)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：extralobar 左下葉 65–90%、男>女（4:1）、**systemic arterial supply**;經典**靜脈引流為 systemic（azygos/hemiazygos/IVC/portal）**;有自己的胸膜、常合併先天膈疝。intralobar 靜脈引流入肺靜脈。
 
-## 題目
-> [!question]- 關於 extralobar pulmonary sequestration,何者「為錯」?
-> 「**靜脈引流入肺靜脈**」錯——extralobar 經典引流入**體循環靜脈（azygos/IVC 等）**;intralobar 才入肺靜脈。左下葉為主、男性多、體循環動脈供血皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-sequestration")

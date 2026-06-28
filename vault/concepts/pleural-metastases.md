@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Pleural metastases*. Radiopaedia.org。肋膜轉移多於 mesothelioma；最常見原發：肺癌 ~40%、乳癌 ~20%、淋巴瘤 ~10%、卵巢/胃等；adenocarcinoma 最易轉移（實際查證 accessed 2026-06-15）。題目另引 *Radiology Review Manual*（Dahnert）7th ed, p.526（肺 36%、乳 25%、淋巴瘤 10%、卵巢 5%、胃 2%）。
 
-## 題目
-> [!question]- 肋膜轉移的第二常見原發癌是？
-> **乳癌**（~20–25%，第 2）。第 1 為肺癌（~36–40%），其後淋巴瘤、卵巢、胃。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pleural-metastases")

@@ -25,10 +25,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Autoimmune pancreatitis*. Radiopaedia.org（題目所引／實際查證 accessed 2026-06-18）：**diffuse「sausage-shaped」最常見**;capsule-like rim;主胰管不規則狹窄;合併 PSC/IgG4 膽管炎、後腹腔纖維化;類固醇反應佳。
 
-## 題目
-> [!question]- 關於 autoimmune pancreatitis,何者「為非」? (2017-032)
-> 「**focal type 比 diffuse type 常見**」為非——**diffuse（sausage-shaped）型最常見**。合併 PSC、香腸狀胰臟、主胰管狹窄皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "autoimmune-pancreatitis")

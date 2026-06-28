@@ -27,10 +27,6 @@ same:
 ### 參考來源
 [^1]: *CNS capillary telangiectasia*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發 **pons（80%）**;擴張微血管「**interspersed with normal brain parenchyma**」;多無症狀偶見;對比後 stippled enhancement、SWI 低訊號。
 
-## 題目
-> [!question]- 關於 capillary telangiectasia,何者「錯」?
-> 「dilated capillaries **without** intervening brain parenchyma」錯——其**間夾正常腦實質**（cavernoma 才無）。好發橋腦、無症狀、點狀淡強化皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "capillary-telangiectasia")

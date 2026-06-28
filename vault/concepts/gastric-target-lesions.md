@@ -25,10 +25,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 胃 target/bull's-eye 病灶（題目所引 ExpertDDx: Abdomen／Radiopaedia *target lesions stomach*）：中央潰瘍隆起;多發多為血行轉移（惡性）;**最常見 bull's-eye 轉移原發為 melanoma**;Kaposi sarcoma 亦可呈牛眼。
 
-## 題目
-> [!question]- 關於胃 target/bull's-eye 病灶,何者「正確」? (2016-242)
-> **Gastric Kaposi sarcoma 也可造成 bull's-eye 外觀**。多發病灶多為惡性（非良性）、最常見 bull's-eye 轉移原發為 **melanoma**（非 lymphoma）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gastric-target-lesions")

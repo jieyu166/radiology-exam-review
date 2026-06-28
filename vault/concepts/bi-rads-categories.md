@@ -30,10 +30,6 @@ dateRev: 2026-06-18
 [^1]: ACR BI-RADS Atlas 5th ed.（2013）——最終評估分類 0–6 與惡性機率區間（4a 2–9%、4b 10–49%、4c 50–94%）。
 [^2]: *BI-RADS*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「BI-RADS 3: probably benign **<2%**;BI-RADS 4: 2–95%(4A 2–9%、4B 10–49%、4C 50–94%);BI-RADS 5: **>95%**」。
 
-## 題目
-> [!question]- BI-RADS 5th ed 各分類惡性機率,何者「錯誤」? (2017-007)
-> 「**category 3 ≤3%**」錯誤——應為 **≤2%**。category 2 ~0%、4a 2–9%、4b 10–49%、5 ≥95% 皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bi-rads-categories")

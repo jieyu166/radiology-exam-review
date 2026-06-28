@@ -32,16 +32,6 @@ same:
 [^1]: HRCT 纖維化徵象一手來源（據 PubMed／Radiopaedia,實際查證 accessed 2026-06-20）：Devaraj A. *Imaging: How to Recognise Idiopathic Pulmonary Fibrosis*. Eur Respir Rev. 2014;23(132):215-219. doi:10.1183/09059180.00001514（HRCT 纖維化徵象、honeycombing 與 traction bronchiectasis 之鑑別、traction bronchiectasis 為預後預測）;Walsh SLF, et al. *Connective Tissue Disease Related Fibrotic Lung Disease: HRCT and PFT Prognostic Determinants*. Thorax. 2013;69(3):216-222. doi:10.1136/thoraxjnl-2013-203843（**traction bronchiectasis 嚴重度獨立預測 mortality、判讀者間一致度高於 honeycombing**）;*Traction bronchiectasis*. Radiopaedia.org（纖維化區內之支氣管/細支氣管擴張,一般視為**不可逆**）。**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23;其『grade 1/2/3 周邊→中央分級』與『**Gatlin gun sign**』eponym 於 Radiopaedia/標準文獻查無對應（Gatlin gun 為演講術語、待補一手出處）。
 [^2]: *Honeycombing (lungs)*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「small adjacent **subpleural cystic** structures ... clustered in a row or stacked and with **shared walls** ... walls ... 1-3 mm ... basal lower lobes」;「a **single layer** of cysts is now considered sufficient」。
 
-## 題目
-> [!question]- HRCT 判定「纖維化」的四要素?
-> **Reticulation、honeycombing、traction bronchiectasis、volume loss**。[^1]
-
-> [!question]- honeycombing 與 traction bronchiectasis 何者為「早期」且與預後較相關?
-> **Traction bronchiectasis**——早期纖維化指標、其進展與 mortality 相關;honeycombing 已是晚期、與預後關聯弱。[^1]
-
-> [!question]- Gatlin gun sign 的意義?
-> 一平面像 honeycombing,**換不同平面才知是支氣管擴張** → 提醒多平面判讀以區分 bronchiectasis 與 honeycombing。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-fibrosis-signs")

@@ -43,17 +43,6 @@ same:
 ### 參考來源
 [^1]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證 full text，accessed 2026-06-14；含 SR-ILD 影像特徵表）。
 
-## 題目
-> [!question]- PLCH 的特徵性 CT 分布與型態？
-> **上中肺野為主、保留肋膈角**；病灶從 centrilobular 結節 → 空洞化 → **bizarre 形厚/薄壁囊腫**。[^1]
-> 此分布（保留肋膈角）正是與 LAM（瀰漫均勻）的關鍵鑑別。
-
-> [!question]- PLCH 與吸菸的關係？預後特點？
-> 吸菸為最強危險因子（成人 >95%）；屬骨髓系腫瘤、可見 BRAF V600E；**戒菸後仍可能持續活動**。[^1]
-
-> [!question]- 關於 pulmonary LCH,何者「有誤」? (2017-033)
-> 「**少於 10% 的成人 LCH 患者吸菸**」有誤——**up to ~95% 有吸菸史**。早期肉芽腫(A)、後期纖維化+囊腫(B)、HRCT 囊腔常 <10 mm(D)皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "plch")

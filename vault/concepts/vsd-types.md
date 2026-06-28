@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 ### 參考來源
 [^1]: *Ventricular septal defect*. Radiopaedia.org。分型依右心室視角之位置/邊界：perimembranous、inlet、muscular（trabecular）、outlet（juxta-arterial）；subarterial/juxta-arterial 型在肺動脈瓣下、常伴主動脈瓣脫垂（實際查證 accessed 2026-06-15）。
 
-## 題目
-> [!question]- 下列 VSD 分型描述何者「錯誤」？
-> 「在**主動脈瓣下**、稱 subarterial」錯——subarterial（juxta-arterial）型在**肺動脈瓣下（subpulmonary）**。perimembranous、Swiss cheese muscular、inlet、依右室視角命名皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "vsd-types")

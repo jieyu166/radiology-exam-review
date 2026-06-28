@@ -25,10 +25,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Invasive lobular carcinoma of the breast*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「represent **5-10%** of all breast cancer」;乳房攝影「**spiculated mass lesion (most common)**, asymmetrical densities, architectural distortions, **microcalcifications (<10%)**;**16% ... mammographically occult or benign**」;單列浸潤、E-cadherin 缺失。
 
-## 題目
-> [!question]- 關於 invasive lobular carcinoma 特徵,何者「非」? (2017-014)
-> 「**鈣化是其特徵**」非——ILC **微鈣化少見(<10%)**,以 spiculated mass／架構扭曲／不對稱密度為主。占乳癌 ~10%、單列(single-file)生長、常僅單一投影可見皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "invasive-lobular-carcinoma")

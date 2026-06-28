@@ -27,10 +27,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Osborn's Brain: Imaging, Pathology, and Anatomy, Ch 15：ganglioglioma 為皮質腫瘤、最常見顳葉(~70%)；pilocytic astrocytoma 好發小腦；PXA 幾乎只見年輕成人。
 
-## 題目
-> [!question]- 關於腦腫瘤,何者「不正確」? (2017-100)
-> 「**Ganglioglioma 最常見於深部半球**」不正確——為**皮質腫瘤、最常見顳葉(~70%)**。pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "brain-tumor-imaging")

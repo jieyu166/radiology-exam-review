@@ -27,13 +27,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Xanthogranulomatous pyelonephritis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：struvite（staghorn）結石、non-functioning kidney、延伸至 perinephric tissues 與鄰近器官;致病菌 **Escherichia coli 與 Proteus mirabilis**;條目未列 pseudoaneurysm。emphysematous pyelonephritis/pyeloureteritis cystica/malakoplakia 多為 E. coli。
 
-## 題目
-> [!question]- 何者「不」屬 XGP 常見現象?
-> **Pseudoaneurysms**。staghorn 結石、不顯影/排泄減少、腎周延伸（bear paw）皆典型。[^1]
-
-> [!question]- 下列泌尿病灶「除了」何者多由 E. coli 引起?
-> **XGP**——經典為 **Proteus mirabilis**。emphysematous pyelonephritis、pyeloureteritis cystica、malakoplakia 多為 E. coli。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "xanthogranulomatous-pyelonephritis")

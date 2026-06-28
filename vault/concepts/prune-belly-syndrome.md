@@ -28,10 +28,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Prune belly syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：三聯＝**腎盂輸尿管擴張+腎發育不良、前腹壁發育不良（prune belly）、雙側隱睪**;又名 Eagle-Barrett / triad syndrome;幾乎只見男嬰。
 
-## 題目
-> [!question]- 何者「不」屬於 prune belly syndrome 的三聯?
-> **Spina bifida（脊柱裂）**。三聯＝腹壁肌發育不良、hydroureteronephrosis、雙側隱睪。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "prune-belly-syndrome")

@@ -44,13 +44,6 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: *Pulmonary pneumocytoma（sclerosing pneumocytoma / 原 sclerosing hemangioma）*. Radiopaedia.org, rID-11119, https://doi.org/10.53347/rID-11119 （實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- Sclerosing pneumocytoma 的典型 CT 形態？是不規則腫瘤嗎？
-> **孤立、邊界清楚的圓/卵圓結節、均質**（常 juxtapleural）；**不是不規則腫瘤**。可鈣化、可見 air-meniscus sign。[^1]
-
-> [!question]- Sclerosing pneumocytoma 的強化、生長與預後？
-> **顯著強化**（可不均）、**生長緩慢**、**良性可手術根治**；好發中年女性。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "sclerosing-pneumocytoma")

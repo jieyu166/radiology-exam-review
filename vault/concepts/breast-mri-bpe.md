@@ -32,19 +32,6 @@ dateRev: 2026-06-18
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），Breast MRI：「BPE can be described as **minimal, mild, moderate, or marked** ... BPE **is not necessarily directly related to the amount of fibroglandular parenchyma** ... usually demonstrates **progressive enhancement over time**」;focus「a unique punctate enhancing dot usually < 5 mm」;「Multiple foci ... separated by intervening normal breast parenchyma that does not enhance ... should be considered ... a pattern of BPE」。
 [^2]: 乳房 MRI 臨床文獻（Kuhl 等／RadioGraphics breast MRI）：BPE 強度受月經週期影響,**黃體期最強、第 2 週（7–14 天）最弱**,非急迫檢查建議排於此時段。
 
-## 題目
-> [!question]- 關於 BPE,何者「錯誤」? (2017-009)
-> 「**BPE 在 follicular phase 較明顯**」錯誤——**黃體期(luteal)最明顯**。BPE 與纖維腺體量不必然相關(A)、年輕緻密乳房較易顯 BPE(C)、隨時間 progressive(D)皆正確。[^1][^2]
-
-> [!question]- 關於 BPE,何者「非真」? (2017-010)
-> 「**BPE 與 mammographic density 成正比**」非真——BPE 與纖維腺體量**不必然相關**。BPE 始於周邊(A)、雙側相似強化偏良性(C)皆真。（註：B「排第 3 週」亦有爭議,最佳排程為**第 2 週/7–14 天**,但官方標準答案取 D。）[^1][^2]
-
-> [!question]- 關於 breast MRI,何者「錯誤」? (2017-011)
-> **E（none of the above）**——A–D 皆正確：focus 可良可惡(A)、被不強化實質分隔的多發 foci 視為 BPE(B)、benign 形態不強化腫塊近乎良性(C)、T1WI precontrast 管內高訊號為良性(D)。[^1]
-
-> [!question]- 何者「非」乳房 MRI 正常 BPE 的常見型態? (2016-247)
-> 「**Rapid early contrast uptake（快速早期攝取）**」非正常 BPE——快速早期攝取屬可疑/惡性 kinetics。Picture framing、scattered/innumerable similar foci、geographic symmetric regional enhancement 皆為正常 BPE 型態。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-mri-bpe")

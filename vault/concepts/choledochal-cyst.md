@@ -29,10 +29,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 膽道囊腫 Todani 分類（題目所引 Radiology Review Manual／Radiopaedia *choledochal cyst*）：I 膽總管擴張(最常見)、II 憩室、**III choledochocele**、IV 多發、V Caroli disease。
 
-## 題目
-> [!question]- 關於先天膽道囊腫(Todani),何者「不正確」? (2016-244)
-> 「**choledochocele 是 type IV**」不正確——**choledochocele 是 type III**。Type V＝Caroli、Type I 最常見(~77–78%)、Type II＝膽總管憩室皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "choledochal-cyst")

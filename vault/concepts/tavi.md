@@ -26,10 +26,6 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: TAVI 術前 CT（題目所引／Radiopaedia *TAVI*、SCCT guideline）：annulus＝瓣葉最低插入點虛擬環、收縮期量測;annulus-冠狀動脈口 <10 mm 有阻塞風險;**不需 β-blocker（需涵蓋整個心動週期，與冠狀 CTA 不同）**。
 
-## 題目
-> [!question]- 關於 TAVI for aortic stenosis,何者「為非」? (2017-036)
-> 「**必須用 β-blocker 控制心率**」為非——TAVI CT 不需(且應避免)β-blocker。收縮期量 annulus(B)、annulus-冠狀動脈口 <10 mm 有阻塞風險(C)、annulus＝瓣葉最低插入點(D)皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tavi")

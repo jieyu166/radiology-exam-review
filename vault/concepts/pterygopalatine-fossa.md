@@ -29,10 +29,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Pterygopalatine fossa*. Radiopaedia.org（實際查證 accessed 2026-06-17）：連通 **inferior orbital fissure（眼眶）、foramen rotundum（中顱窩）、vidian canal、sphenopalatine foramen（鼻腔）、pterygomaxillary fissure（顳下窩）、palatine canals**;foramen ovale 未列（屬咀嚼肌間隙/V3）。
 
-## 題目
-> [!question]- 下列何者「未」與 pterygopalatine fossa 相連?
-> **Foramen ovale**（V3,通咀嚼肌間隙）。inferior orbital fissure、foramen rotundum、vidian canal、sphenopalatine foramen 皆相連。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pterygopalatine-fossa")

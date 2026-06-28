@@ -28,10 +28,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Lemierre syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「postanginal septicemia」,**IJV thrombophlebitis ＋ 遠處厭氧敗血症**;**Fusobacterium necrophorum（anaerobic Gram-negative bacillus,~80%）**;源自口咽感染（pharyngitis/tonsillitis）入側咽間隙;**肺敗血栓 ~90%**;morbidity/mortality 高。
 
-## 題目
-> [!question]- Lemierre 症候群的致病菌與影像 hallmark?
-> **Fusobacterium necrophorum（Gram-陰性 bacillus）**;影像 hallmark＝**IJV 化膿性血栓性靜脈炎＋肺敗血栓（~90%）**。源自口咽感染經側咽間隙擴散。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lemierre-syndrome")

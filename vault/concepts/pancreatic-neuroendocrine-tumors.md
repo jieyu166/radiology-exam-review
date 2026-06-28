@@ -30,13 +30,6 @@ dateRev: 2026-06-18
 [^1]: *Pancreatic neuroendocrine tumors*. Radiopaedia.org（實際查證 accessed 2026-06-18）：insulinoma→Whipple、gastrinoma→ZES、glucagonoma→4D;「**non-functioning tumors tend to present late and often larger in size**」;~10% 與 MEN1/VHL 相關。
 [^2]: RadioGraphics islet cell tumor 綜述（題目所引）：**nonsyndromic ICT 較 syndromic 更大、更易囊變/壞死**;syndromic（MEN1）多小而多發、早期發現。
 
-## 題目
-> [!question]- 關於 gastrinoma 特徵,何者「錯誤」? (2017-018)
-> 「**gastrinoma 為最常見亢進性 NET**」錯誤——**insulinoma 才是最常見功能性 NET**。gastrinoma 占胰 NET 約 20–30%、與 ZES 相關、60–80% 惡性皆正確。[^1]
-
-> [!question]- 關於 syndromic 胰島細胞瘤（ICT）,何者「錯誤」? (2017-019)
-> 「**syndromic ICT 較 nonsyndromic 更易囊變/壞死**」錯誤——相反,**nonsyndromic（尤其非功能性）較大、較易囊變/壞死**。insulinoma 為最常見 syndromic ICT、gastrinoma 與 ZES 相關、VIPoma 呈 WDHA 皆正確。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatic-neuroendocrine-tumors")

@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 [^1]: *Sigmoid volvulus*. Radiopaedia.org（實際查證 accessed 2026-06-17）：大腸扭轉約佔大腸阻塞 5%,「**~60% 腸扭轉發生於 sigmoid colon**」,好發老年;coffee bean sign、Frimann-Dahl sign。
 [^2]: *Cecal volvulus*. Radiopaedia.org：充氣盲腸呈腎形/coffee-bean,常移位至左上/中腹。
 
-## 題目
-> [!question]- 關於結腸扭轉,何者敘述「為錯」?
-> 「**cecal 為最常見型**」錯——**sigmoid 最常見(~60%)**。cecal 腎形/coffee-bean、sigmoid 投射過橫結腸、兒童罕見皆對。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "colon-volvulus")

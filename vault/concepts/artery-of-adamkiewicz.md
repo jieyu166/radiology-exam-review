@@ -25,10 +25,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Artery of Adamkiewicz*. Radiopaedia.org（實際查證 accessed 2026-06-17）：dominant thoracolumbar segmental medullary artery,加強前脊髓動脈;與前脊髓動脈吻合呈**「hairpin turn」**;**左側 77%、T9–T12 最常見**（T8–L1，範圍 T3–L4）。
 
-## 題目
-> [!question]- 關於 Adamkiewicz 動脈,何者「錯」?
-> 「**coathook configuration**」錯——特徵為 **hairpin（髮夾）轉折**。主要前段髓質動脈、升降支至前脊髓動脈、左側 T9–T12 為主皆對。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "artery-of-adamkiewicz")

@@ -38,16 +38,6 @@ same:
 ### 參考來源
 [^1]: *Attenuation (ultrasound)*. Radiopaedia.org, rID-67529, https://doi.org/10.53347/rID-67529 （引 Hedrick《Technology for Diagnostic Sonography》等；實際查證 accessed 2026-06-14）。
 
-## 題目
-> [!question]- 散射（scattering）與吸收（absorption）的合併效應稱為什麼？
-> **Attenuation（衰減）**——波在組織中振幅/強度的漸進遞減，吸收（轉熱）為主要貢獻。[^1]
-
-> [!question]- Attenuation 與 acoustic impedance、propagation 有何不同？
-> Attenuation＝能量損耗總和（吸收＋散射＋反射）；**impedance（Z=密度×傳播速度）**決定界面反射；**propagation** 指傳播本身。[^1]
-
-> [!question]- 為何高頻探頭穿透較淺？
-> **Attenuation coefficient 隨頻率上升而增加**，高頻衰減快、穿透淺（但解析度佳）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ultrasound-attenuation")

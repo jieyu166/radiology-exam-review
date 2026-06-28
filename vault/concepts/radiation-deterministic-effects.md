@@ -33,13 +33,6 @@ same:
     **已實際查證（免費來源）**：① *Deterministic effects*, Radiopaedia.org（accessed 2026-06-20）「sterility 4–6 Gy male、4–20 Gy female;cataracts 0.5 Gy」;② introductiontoradiology.net 放射生物學 deterministic effects（accessed 2026-06-20）「暫時不孕 0.15 Gy、永久不孕 >6 Gy、女性 4–6 Gy」。
     **權威原始來源（全文需訂閱／館藏,供醫師查證原文）**：ICRP Publication 103 (2007 Recommendations) 及 ICRP Publication 118 (2012, *Statement on Tissue Reactions*)——暫時不孕 **0.15 Gy**、永久不孕 **3.5–6.0 Gy**（icrp.org,摘要免費、全文需購買）;Bushberg JT et al. *The Essential Physics of Medical Imaging*, 2nd ed (2002), p.831（教科書,需館藏）;De Felice F et al. *Radiation effects on male fertility*. Andrology 2019;7(1):2-7, DOI 10.1111/andr.12562（Wiley,全文需訂閱、未讀全文）。
 
-## 題目
-> [!question]- 急性放射症候群在多數族群約於何劑量以上出現?
-> 約 **1 Gy**（ARS >0.5 Gy 可發生、造血型 1–8 Gy）。[^1]
-
-> [!question]- 男性單次急性照射造成永久不孕的閾值約為?
-> 約 **4–6 Gy（取 6 Gy）**;暫時不孕 ~0.15 Gy、白內障 ~0.5 Gy。[^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "radiation-deterministic-effects")

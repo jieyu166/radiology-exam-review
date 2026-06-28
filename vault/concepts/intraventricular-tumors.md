@@ -27,10 +27,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Intraventricular Neoplasms: Radiologic-Pathologic Correlation. RadioGraphics 2013;33:21-43：subependymoma 中年男偶發;central neurocytoma ~50% 鈣化;choroid plexus 成人最常見側腦室房部(50%)。
 
-## 題目
-> [!question]- 關於腦室內腫瘤,何者「為真」? (2017-123)
-> **Subependymoma 經典為中年男性偶發發現的腦室內腫瘤**。ependymoma 偏年輕、central neurocytoma ~50% 含鈣化可出血、choroid plexus 成人最常見側腦室房部(非第三腦室)。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "intraventricular-tumors")

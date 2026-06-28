@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Spinal ependymoma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「Spinal ependymomas are the **most common intramedullary neoplasm in adults, comprising 60% of all glial spinal cord tumors**;second most common in the pediatric population (~30%)」。另 Radiology Review Manual 7th ed（題目所引）。
 
-## 題目
-> [!question]- 最常見的髓內（intramedullary）腫瘤? (2016-217)
-> **Ependymoma**——成人最常見髓內腫瘤(占膠質性 ~60%)。Astrocytoma 為兒童最常見;hemangioblastoma（VHL、壁結節＋囊）、metastasis（少見、明顯水腫）較少。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "intramedullary-spinal-tumors")

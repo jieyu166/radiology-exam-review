@@ -27,10 +27,6 @@ dateRev: 2026-06-15
 [^1]: *Lenticulostriate arteries*. Radiopaedia.org。medial 群自 A1（ACA）、lateral 群自 M1（MCA）；供應基底節（實際查證 accessed 2026-06-15）。前穿質「外側進入」為標準神經解剖。
 [^2]: 豆紋動脈顯微解剖數據（數目 9–10.4、range 1–21；起始管徑 100–2200 μm）為題目所引解剖文獻之數值（Takahashi/Marinkovic 等顯微解剖；**未獨立逐字核實該數值來源**，依題目陳述）。
 
-## 題目
-> [!question]- 關於 lenticulostriate arteries，何者敘述「錯誤」？
-> 「經前穿質 **medial 2/3** 進入」——MCA 來源者經前穿質**外側**進入。其餘正確：起源近端 MCA（lateral 群）、數目約 9–10.4（1–21）、起始管徑約 100–2200 μm。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lenticulostriate-arteries")

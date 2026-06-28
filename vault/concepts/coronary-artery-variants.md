@@ -26,16 +26,6 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；冠狀動脈 CTA 解剖變異（心臟影像教科書／RadioGraphics）：myocardial bridging 好發 LAD 中段;dual LAD 分型 I–IV;LAD 與 PDA 代償關係。
 
-## 題目
-> [!question]- Myocardial bridging 最常見的位置? (2017-118)
-> **LAD 中段（middle segment of LAD）**。非 distal RCA、PDA、proximal LAD。[^1]
-
-> [!question]- 「short LAD 走近端 AIVS、long LAD epicardial 於 LV 側再入遠端 AIVS」屬哪型 dual LAD? (2017-119)
-> **Type I**——short LAD 走近端 AIVS、long LAD epicardial 於 LV 側再入遠端 AIVS,分支 septal＋diagonal。[^1]
-
-> [!question]- 冠狀動脈循環中哪一對血管互為代償關係? (2017-121)
-> **LAD 與 PDA**——LAD 繞心尖供應下壁心尖,與 PDA 互為代償（一長則另短）。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "coronary-artery-variants")

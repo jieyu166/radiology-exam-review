@@ -27,10 +27,6 @@ dateRev: 2026-06-17
 [^1]: *Chronic periaortitis（含 retroperitoneal fibrosis / Ormond disease）*. Radiopaedia.org（實際查證 accessed 2026-06-17）:腎下主動脈周圍纖維發炎斑塊、輸尿管 entrapment 與 hydronephrosis/hydroureter;治療為 ureterolysis 並**輸尿管 lateral transposition**＋網膜包覆;CT 強化依纖維活性而異;IgG4 相關。
 [^2]: IVU 三聯「上段腎積水＋輸尿管中 1/3 **內側偏移(medial deviation)**＋漸進變細」為經典泌尿放射教學;與 [^1] 之手術需把輸尿管「外側轉位」一致(因斑塊把輸尿管往內側拉)。
 
-## 題目
-> [!question]- 關於後腹膜纖維化,何者「錯」?
-> 「IVP 示輸尿管**外側偏移**」錯——應為**內側(medial)偏移**。包繞主動脈/IVC/輸尿管、漸進變細、強化依分期皆正確。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "retroperitoneal-fibrosis")

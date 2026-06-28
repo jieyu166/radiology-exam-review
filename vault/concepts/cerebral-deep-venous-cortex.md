@@ -29,10 +29,6 @@ same:
 [^1]: *Basal vein of Rosenthal*. Radiopaedia.org。由 anterior cerebral vein、deep middle cerebral vein、striate veins 匯成；引流 insula、mesial temporal（parahippocampal/uncus）、中腦等；屬深部系統入 vein of Galen（實際查證 accessed 2026-06-15）。
 [^2]: *Imaging of the Brain*（Expert Radiology Series）, p.473（題目所引；深部靜脈阻塞之皮質波及限 limbic/visual/inferior frontal，superior frontal 屬淺部。**未逐字核實該書頁**，依題目陳述與 [^1] 解剖）。
 
-## 題目
-> [!question]- 深部靜脈阻塞合併皮質波及，限於以下何者除外？
-> **Superior frontal lobe**（由淺部系統引流）。深部系統阻塞之皮質波及限於 **limbic lobe、visual cortex、inferior frontal lobe**（basal vein of Rosenthal 範圍）。[^1][^2]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cerebral-deep-venous-cortex")

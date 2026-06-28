@@ -29,10 +29,6 @@ same:
 ### 參考來源
 [^1]: *Rheumatoid arthritis (musculoskeletal manifestations)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：頸椎含 **erosion of the dens、atlantoaxial subluxation（ADI >3mm 屈曲）、fusion of apophyseal/facet joints、atlantoaxial impaction（cranial settling）＝cephalad migration of C2**。
 
-## 題目
-> [!question]- 何者「非」類風濕患者頸椎 X 光常見表現?
-> 「**C2 向尾側（caudal）移位**」非——RA 為 **C2『頭側』移位（cranial settling/basilar invagination）**。齒突侵蝕、寰樞前脫位、apophyseal 融合皆常見。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ra-cervical-spine")

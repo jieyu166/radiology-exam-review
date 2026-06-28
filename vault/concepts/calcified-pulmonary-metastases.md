@@ -28,10 +28,6 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Calcifying pulmonary metastases*. Radiopaedia.org（實際查證 accessed 2026-06-17）：來源含 **osteosarcoma（成骨）、chondrosarcoma、synovial sarcoma、mucinous adenocarcinomas（colorectal/ovarian/breast）、thyroid（papillary/medullary）**;機轉含 osteoid 形成、壞死、營養不良性鈣化、黏液鈣化;條目未列 HCC。
 
-## 題目
-> [!question]- 鈣化肺轉移常見於下列何者「除外」?
-> **Hepatocellular carcinoma（HCC）**。osteosarcoma、大腸黏液腺癌、甲狀腺癌皆會鈣化。[^1]
-
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "calcified-pulmonary-metastases")
