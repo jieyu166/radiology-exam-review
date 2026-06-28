@@ -36,7 +36,7 @@ same:
 
 ### 參考來源
 [^1]: *Ectopic ureter*. Radiopaedia.org。插入點越過外尿道括約肌才有症狀；女性插入點（膀胱頸/尿道、陰道前庭/陰道）可在括約肌遠端 → 持續漏尿；男性插入點（後尿道、精囊、輸精管、射精管）皆在括約肌近端 → 不漏尿；F:M≈10:1；Weigert-Meyer（實際查證 accessed 2026-06-15）。
-[^2]: Potenta SE, D'Agostino R, Sternberg KM, et al. *CT Urography for Evaluation of the Ureter*. RadioGraphics. 2015;35(3):709-726. https://doi.org/10.1148/rg.2015140209 （題目所引；涵蓋輸尿管先天異常與 filling defect。經 PubMed 取得書目 PMID 25815907；本概念之異位輸尿管機轉以 [^1] 核實）。
+[^2]: Potenta SE, D'Agostino R, Sternberg KM, Tatsumi K, Perusse K. *CT Urography for Evaluation of the Ureter*. RadioGraphics. 2015;35(3):709-726. https://doi.org/10.1148/rg.2015140209 （**全文已讀，醫師提供 PDF，accessed 2026-06-28**）：完全重複系統依 Weigert-Meyer 法則，上極輸尿管終止於下極輸尿管之**內下方**且傾向異位、易阻塞，下極因 UVJ 異常瓣膜易逆流;異位輸尿管定義為插入膀胱三角區外（Fig 7、Table 3）。女性異位口可在膀胱頸、尿道、子宮、子宮頸或陰道（外括約肌**遠端** → 廁訓後仍持續滴尿）;男性異位口在後尿道、精囊、輸精管、膀胱頸或攝護腺（皆在括約肌**近端** → 不漏尿、常以 UTI 表現）。
 
 ## 題目
 > [!question]- 哪種先天輸尿管異常常使「女性」持續漏尿、但男性不會？為什麼？
