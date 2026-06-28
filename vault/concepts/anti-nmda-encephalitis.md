@@ -25,9 +25,21 @@ dateRev: 2026-06-21
 > [!note] 考點：何者為「假」？
 > 「**老年女性**好發」為假——好發**年輕女性**（F:M≈4:1）。其餘（精神症狀/癲癇、卵巢畸胎瘤>近半且早切預後佳、MRI 非特異）皆真。[^1]
 
+## 臨床與治療細節（Dalmau 2019 Lancet Neurol）[^2]
+- **流行病學**：發生率約 **1.5/百萬人/年**；為**最常見的神經元抗體媒介（自體免疫）腦炎**。
+- **年齡**：中位 **21 歲**（範圍 <1–85）；女性為主（F:M≈8:2）、約 37% <18 歲。
+- **發病**：約 **90% 以顯著精神/行為症狀起病**，早期難與原發精神疾病區分。
+- **運動異常**：成人約 **75%**、幼童約 **95%**（口-面部 dyskinesia、chorea、dystonia 等）。
+- **癲癇**：約 **70%**（各研究 57–82%）。
+- **加護需求**：約 **70% 需入住 ICU**（自主神經不穩、換氣不足、嚴重 dyskinesia）。
+- **診斷**：**CSF 中 IgG 抗 GluN1（NR1）次單元抗體**為唯一特異檢驗；抗體效價與病程相關性不佳 → **治療依臨床評估、非依抗體效價**。
+- **治療階梯**：一線 **類固醇／IVIG／血漿置換** → 無改善轉二線 **rituximab／cyclophosphamide**。
+- **誘發因子**：腫瘤（多**卵巢畸胎瘤**）與 **單純疱疹病毒腦炎（HSE）**；HLA B*07:02／DRB1*16:02 相關性弱、待確認。
+- **影像/病程**：第一期約 **3 個月**，常伴**短暫（transient）MRI 異常**後漸退——呼應「MRI 多正常或非特異、與症狀相關性不佳」。
+
 ### 參考來源
 [^1]: *N-methyl-D-aspartic acid receptor (NMDAR) antibody encephalitis*. Radiopaedia.org。好發年輕女性（F:M≈4:1）；卵巢畸胎瘤 40–60%；精神症狀續以癲癇/運動異常；神經影像常正常（實際查證 accessed 2026-06-15）。
-[^2]: Dalmau J, Armangué T, Planagumà J, et al. *An update on anti-NMDA receptor encephalitis for neurologists and psychiatrists: mechanisms and models*. Lancet Neurol. 2019;18(11):1045-1057. DOI 10.1016/S1474-4422(19)30244-3, PMID 31326280（Dalmau 權威綜述；依 PubMed **摘要**查證 accessed 2026-06-21，全文需訂閱、未讀全文）：F:M≈8:2、**約 37% 發病時 <18 歲**、誘發因子＝腫瘤（多卵巢畸胎瘤）與**單純疱疹病毒腦炎（HSE）**、**約 80% 經免疫治療±切除腫瘤改善但恢復緩慢**、自體抗體為診斷標記並改變 NMDAR 突觸傳遞、目前無特異預後生物標記、重症常需加護。
+[^2]: Dalmau J, Armangué T, Planagumà J, et al. *An update on anti-NMDA receptor encephalitis for neurologists and psychiatrists: mechanisms and models*. Lancet Neurol. 2019;18(11):1045-1057. DOI 10.1016/S1474-4422(19)30244-3, PMID 31326280（Dalmau 權威綜述；依 PubMed 摘要＋ScienceDirect 公開預覽之 Introduction 與各節 section snippets 查證 accessed 2026-06-21；全文圖表與完整數據未讀）：F:M≈8:2、**約 37% 發病時 <18 歲**、誘發因子＝腫瘤（多卵巢畸胎瘤）與**單純疱疹病毒腦炎（HSE）**、**約 80% 經免疫治療±切除腫瘤改善但恢復緩慢**、自體抗體為診斷標記並改變 NMDAR 突觸傳遞、目前無特異預後生物標記、重症常需加護。
 
 ## 題目
 > [!question]- 關於 anti-NMDA 受體腦炎，何者為「假」？
