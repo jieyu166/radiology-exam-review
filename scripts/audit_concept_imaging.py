@@ -32,6 +32,18 @@ IMG_GROUPS = [
     r"calcif|鈣化", r"邊界|margin|well.?defined|ill.?defined|circumscrib",
     r"充盈缺損|filling defect|washout|wash-?in|delayed", r"水腫|edema|oedema|出血|hemorrhag|壞死|necros",
     r"DDx|鑑別|differential", r"分型|classif|type\b|stage|分期|grade",
+    # 平片/骨骼解剖徵象
+    r"骨化|ossif|骨皮質|cortex|骨膜|periost|骨骺|epiphys|髓腔|metaphys|椎體|vertebr",
+    # 大小/口徑/管腔變化
+    r"萎縮|atroph|肥大|hypertroph|擴張|dilat|狹窄|stenos|strictur|narrow",
+    # 結石/管內/充盈
+    r"結石|stone|calcul|管內|intraluminal|filling|spur|web\b",
+    # 血管影像
+    r"aneurysm|動脈瘤|fistula|瘻|側枝|collateral|引流|drainage|管壁|血栓|thromb",
+    # 先天/變異/發育
+    r"變異|variant|anomal|畸形|發育不全|hypoplas|aplas|agenes|憩室|divertic",
+    # 泌尿/腹部徵象
+    r"水腎|hydronephro|hydroureter|逆流|reflux|膀胱|bladder|輸尿管|ureter|VCUG|腎\b",
 ]
 EXAM_MARKERS = re.compile(r"選項|題目正解|題目所引|正解|何者|不正確|錯誤敘述|為非|為假|為真|皆正確")
 
