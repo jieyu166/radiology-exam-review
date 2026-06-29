@@ -10,7 +10,9 @@ aliases:
   - osmolality
   - intrathecal contrast
   - 含碘對比劑
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "含碘對比劑藥理/分類/安全，非影像判讀"
 same:
   - "[[contrast-media-safety]]"
   - "[[contrast-adverse-reactions]]"

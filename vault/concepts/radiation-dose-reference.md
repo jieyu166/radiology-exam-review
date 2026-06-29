@@ -7,7 +7,9 @@ aliases:
   - radiation dose reference
   - 有效劑量參考值
   - Mettler catalog
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "各檢查有效劑量參考值表，輻射安全/物理非影像判讀"
 ---
 
 # radiation-dose-reference

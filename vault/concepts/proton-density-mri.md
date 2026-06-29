@@ -6,7 +6,9 @@ aliases:
   - proton density weighted
   - PD weighted image
   - 質子密度加權
-dateRev: 2026-06-17
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "PD 加權序列物理；判讀向度已涵蓋、餘為物理參數"
 ---
 
 # proton-density-mri

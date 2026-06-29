@@ -9,7 +9,9 @@ aliases:
   - premedication
   - Lalli effect
   - 對比劑不良反應
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "對比劑不良反應臨床分類/處置，無影像徵象"
 same:
   - "[[contrast-media-safety]]"
   - "[[iodinated-contrast-media]]"

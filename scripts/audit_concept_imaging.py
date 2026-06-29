@@ -90,12 +90,18 @@ def main() -> None:
         thr = int(sys.argv[sys.argv.index("--thr") + 1])
     qc = qcount_map()
     rows = []
+    nonimg = []  # nonImaging:true 概念（本質非影像主題,無法再補）
     dist = collections.Counter()
     for f in sorted(glob.glob(str(CONCEPTS / "*.md"))):
         slug = pathlib.Path(f).stem
         if slug.startswith("_"):  # MOC／索引頁,非醫學概念,排除
             continue
-        body = body_of(pathlib.Path(f).read_text(encoding="utf-8"))
+        raw = pathlib.Path(f).read_text(encoding="utf-8")
+        if re.search(r"^nonImaging:\s*true", raw, re.M):  # 標記為非影像主題
+            m = re.search(r"^nonImagingReason:\s*\"?(.*?)\"?\s*$", raw, re.M)
+            nonimg.append({"slug": slug, "reason": m.group(1) if m else ""})
+            continue
+        body = body_of(raw)
         s = img_score(body)
         dist[s] += 1
         rows.append({
@@ -124,9 +130,20 @@ def main() -> None:
     for r in flagged:
         L.append(f"| [ ] [[{r['slug']}]] | {r['img']} | {r['q']} | {r['len']} | {r['exam']} |")
     L.append("")
+    L.append(f"## 無法再補（非影像主題,nonImaging）— {len(nonimg)} 個")
+    L.append("")
+    L.append("> 經查證為物理/藥理/安全/評分/技術等本質非「判讀影像」主題,無影像特徵可補;"
+             "已於 frontmatter 標 `nonImaging: true`,不列入待補。")
+    L.append("")
+    if nonimg:
+        L.append("| 概念 | 原因 |")
+        L.append("|---|---|")
+        for r in sorted(nonimg, key=lambda x: x["slug"]):
+            L.append(f"| [[{r['slug']}]] | {r['reason']} |")
+        L.append("")
     OUT.write_text("\n".join(L) + "\n", encoding="utf-8")
     print(f"已輸出 {OUT}")
-    print(f"概念 {len(rows)}、標記(img<{thr}) {len(flagged)}｜分數分布 {dict(sorted(dist.items()))}")
+    print(f"概念 {len(rows)}、待補(img<{thr}) {len(flagged)}、無法再補 {len(nonimg)}｜分數分布 {dict(sorted(dist.items()))}")
 
 
 if __name__ == "__main__":

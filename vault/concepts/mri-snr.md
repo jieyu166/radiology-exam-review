@@ -7,7 +7,9 @@ aliases:
   - receiver bandwidth
   - signal-to-noise ratio
   - 磁振訊雜比
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "純 MRI 物理（SNR 公式/參數權衡），無可判讀影像特徵"
 ---
 
 # mri-snr

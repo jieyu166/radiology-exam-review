@@ -8,7 +8,9 @@ aliases:
   - anode filter combination
   - magnification mammography
   - 乳房攝影物理
-dateRev: 2026-06-18
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "乳攝物理/技術參數（劑量/kVp/濾片/幾何），非影像判讀"
 ---
 
 # mammography-physics

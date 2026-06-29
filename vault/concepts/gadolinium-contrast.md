@@ -10,7 +10,9 @@ aliases:
   - gadolinium deposition
   - hepatobiliary contrast
   - 含釓對比劑
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "釓對比劑藥理/安全；唯一影像項（腦沉積）已涵蓋"
 same:
   - "[[nephrogenic-systemic-fibrosis]]"
   - "[[contrast-media-safety]]"

@@ -7,7 +7,9 @@ aliases:
   - NSF
   - gadolinium safety
   - 腎源性全身性纖維化
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "NSF 臨床/安全主題，診斷靠皮膚病理非影像"
 ---
 
 # nephrogenic-systemic-fibrosis
