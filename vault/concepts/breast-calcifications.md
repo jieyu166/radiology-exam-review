@@ -7,26 +7,66 @@ aliases:
   - typically benign calcifications
   - amorphous calcification
   - 乳房鈣化
-dateRev: 2026-06-18
+dateRev: 2026-06-29
 ---
 
 # breast-calcifications
 
-**乳房鈣化判讀的關鍵：認出「典型良性」，剩下的就往可疑靠。** 良性鈣化有個好記的形象：爆米花（coarse/popcorn）、茶杯底（milk of calcium 側位呈彎月形）、大桿子（large rod-like 沿乳管指向乳頭）；**amorphous 雖看似無害的粉狀雲霧，卻屬於「可疑型態」，需歸入 BI-RADS 4 建議切片**，這是最常考的陷阱。可疑四型口訣：**「霧（amorphous）、粗不均（coarse heterogeneous）、多形細（fine pleomorphic）、線分支（fine linear branching）」**。
+**乳房鈣化判讀的關鍵：認出「典型良性」，剩下的就往可疑靠。** 良性鈣化有個好記的形象：爆米花（coarse/popcorn）、茶杯底（milk of calcium 側位呈彎月形）、大桿子（large rod-like 沿乳管指向乳頭）；**amorphous 雖看似無害的粉狀雲霧，卻屬於「可疑型態」，需歸入 BI-RADS 4 建議切片**，這是最常考的陷阱。判讀時兩個軸線一起看：**型態（morphology）決定「長相多可疑」、分布（distribution）決定「排列多可疑」**，惡性可能性兩者相乘。可疑四型口訣：**「霧（amorphous）、粗不均（coarse heterogeneous）、多形細（fine pleomorphic）、線分支（fine linear branching）」**，由左到右惡性風險遞增。
 
 ## Summary
-- **典型良性（BI-RADS 2）**：[^1]
-  - **Coarse/popcorn**：>2–3 mm,萎縮纖維腺瘤。
-  - **Large rod-like（分泌型）**：管擴張,沿管走向、指向乳頭,多 >0.5 mm、常雙側、>60 歲。
-  - **Milk of calcium**：tea-cup,CC 圓/淡、側位/MLO 呈彎月狀沉積。
-  - 另含 skin、vascular、round、rim、dystrophic、suture。
-- **可疑型態（→ BI-RADS 4，切片）**：**amorphous（粉狀/雲狀,無法定形）**、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching。[^1]
+
+### 型態分類（Morphology）
+- **典型良性（BI-RADS 2，無須處置）**：[^1]
+  - **Skin（皮膚）**：常呈中央透亮的多角形鈣化，好發內下／腋部，切線位（tangential view）可證實位於皮膚。[^1]
+  - **Vascular（血管）**：平行雙軌（tram-track）線狀鈣化，沿血管走向。[^1]
+  - **Coarse/popcorn**：>2–3 mm，爆米花狀，典型為萎縮中的纖維腺瘤。[^1]
+  - **Large rod-like（分泌型 secretory）**：實心、平滑、沿乳管走向並指向乳頭，多 >0.5 mm（常 >1 mm），常雙側、好發 >60 歲；分支時可呈偶見透亮中心。[^1]
+  - **Round/punctate**：圓形 <1 mm（punctate <0.5 mm），散在或瀰漫時為良性。[^1]
+  - **Rim（蛋殼／曲線）**：薄壁環狀，見於脂肪壞死或囊壁。[^1]
+  - **Dystrophic（營養不良）**：不規則但通常 >0.5 mm、常含透亮中心，見於放療後、手術／創傷後。[^1]
+  - **Milk of calcium**：囊腫沉積物，CC 位呈淡而模糊的圓形、側位（true lateral）／MLO 呈半月或茶杯（tea-cup）狀，為其特徵性「位置依賴變形」。[^1]
+  - **Suture（縫線）**：線狀或打結狀，多見於放療後。[^1]
+- **可疑型態（→ 至少 BI-RADS 4，建議切片）**，依文獻惡性陽性預測值（PPV）由低到高排列：[^1][^2]
+  - **Amorphous（無定形）**：粉狀／雲霧狀、太小或太淡而無法定出形狀；PPV 約 **13–21%**（多列 4B）。[^2]
+  - **Coarse heterogeneous（粗不均）**：不規則、約 0.5–1 mm、有合併趨勢；PPV 約 **15–35%**。[^2]
+  - **Fine pleomorphic（細多形）**：大小形狀不一的離散顆粒、多 <0.5 mm、無線狀／分支；PPV 約 **29–58%**（常列 4B–4C）。[^2]
+  - **Fine linear / fine-linear branching（細線狀／細線分支）**：纖細、不規則、可間斷的線狀鈣化 <0.5 mm，強烈提示乳管腔內沉積；**最可疑**，PPV 約 **70–95%**（列 4C）。[^1][^2]
+
+### 分布意義（Distribution）
+分布同樣分層，越「沿乳管系統」越可疑：[^1][^3]
+- **較不可疑**：**Diffuse**（隨機散在，幾乎都良性）、**Regional**（>2 cm 大範圍、非乳管走向）、**Grouped/clustered**（<2 cm 內聚集）。[^1][^3]
+- **較可疑**：**Linear**（排成一直線，提示單一乳管內沉積）、**Segmental**（沿一個乳葉／乳管分支的三角分布，尖端指向乳頭）。**Segmental 為最可疑分布**，文獻 PPV 可達 **60–78%**。[^1][^3]
+
+### 特殊徵象
+- **Tea-cup / milk of calcium**：同一群鈣化在 **CC 位**呈淡圓形、在 **90° true lateral（或 MLO）** 沉降成彎月／茶杯底的水平上緣——此「隨體位改變」即良性囊腫內鈣乳沉積的標誌，是區分良性與可疑微鈣化的關鍵動作（必加照 true lateral）。[^1]
+- **Fine linear branching + segmental → DCIS**：細線分支配上節段分布是 **乳管原位癌（DCIS）** 的典型表現，反映腫瘤填充並壞死於乳管樹內（comedo-type 壞死鈣化）；若合併其他可疑徵象常給 **BI-RADS 5**。[^1][^3]
+
+### 處置（BI-RADS 評估）
+- **新發現的鈣化群**：放大攝影（magnification view，建議 CC + true lateral）評估型態與數目，true lateral 並用以偵測 milk of calcium。[^1]
+- **Typically benign**（上列良性型態）→ **BI-RADS 2**，不須處置。[^1]
+- **可疑型態或可疑分布** → **BI-RADS 4**（amorphous／coarse heterogeneous 多 4B；fine pleomorphic 4B–4C；fine linear branching 4C），建議**立體定位（stereotactic）／斷層導引粗針切片**。[^1][^2]
+- **典型惡性表現**（細線分支 + 節段，或鈣化合併可疑腫塊）→ **BI-RADS 5**。[^1]
+- 例外：本屬良性的 punctate／round 群集若**新發現、增加、呈線狀／節段或鄰近已知癌**，仍需進一步評估。[^1]
+
+### 判讀陷阱
+- **Amorphous 是陷阱**：外觀「無害」卻屬可疑型態，須切片，最常入考題。[^1][^2]
+- 數鈣化要用**放大攝影**，標準影像易低估型態（pleomorphic 可能被誤判為 amorphous）。[^1]
+- **斷層攝影（DBT/tomosynthesis）對鈣化的偵測非其強項**——切層可能使微鈣化群在視覺上「分散」而不易整體判讀；鈣化評估仍以全視野數位攝影＋放大為主。[^4]
+- 未加照 true lateral 易把 milk of calcium 誤讀為可疑微鈣化。[^1]
+- 切線位可避免把皮膚鈣化誤判為乳腺實質內鈣化。[^1]
 
 > [!note] 考點：何者「非」BI-RADS 2 典型良性鈣化?
 > **Grouped amorphous calcifications**——**amorphous 屬可疑型態**(BI-RADS 4)。popcorn/coarse、rod-like(secretory)、milk of calcium 皆典型良性。[^1]
 
+> [!note] 考點：最可疑的型態與分布?
+> **型態**：fine linear／fine-linear branching（PPV 最高，列 4C）；**分布**：segmental（最可疑分布）。兩者合併且呈乳管走向時提示 DCIS。[^1][^2][^3]
+
 ### 參考來源
-[^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**/round/rim/dystrophic/**milk of calcium**/suture;**amorphous** 列於可疑型態（與 coarse heterogeneous、fine pleomorphic、fine linear 同組,建議切片）。Radiopaedia *Breast calcifications* 交叉確認（accessed 2026-06-18）。
+[^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**(secretory)/round/punctate/rim/dystrophic/**milk of calcium**/suture；**Suspicious Morphology** 為 amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；**Distribution** 為 diffuse/regional/grouped/linear/segmental（後二者較可疑）。內容經 Radiology Assistant（*BI-RADS for Mammography and Ultrasound 2013*，radiologyassistant.nl）逐項對照確認（accessed 2026-06-29）。指引／教學圖譜級。
+[^2]: 型態 PPV 數據（文獻分歧並列）：(a) 一研究組報告 amorphous ~15.9%、coarse heterogeneous ~31.7%、fine pleomorphic ~58.2%、fine linear/branching ~90.6%；(b) 另一以 BI-RADS 5th ed. 為基礎之研究組報告 amorphous ~7.9–13%、coarse heterogeneous ~17.8%、fine pleomorphic ~63.2%、fine linear/branching 趨近 100%。本文採區間並列。來源：*Malignancy Risk Stratification of Suspicious Breast Microcalcifications…（BI-RADS 5th ed.）*, PMC12788938；及 PubMed 25608770（*Evaluation of malignancy risk stratification of microcalcifications…*）。同儕審查原著級。
+[^3]: 分布 PPV 與 DCIS 關聯（文獻分歧並列）：regional ~9–32%、grouped ~14–31%、linear ~50–88%、segmental ~64–78%；fine linear branching + segmental 為 DCIS（含 comedo-type 壞死）典型表現。來源同 [^2] 之 PMC12788938 及 PubMed 25608770。同儕審查原著級。
+[^4]: 斷層攝影（DBT）對微鈣化的偵測非其優勢、鈣化評估仍以全視野數位攝影＋放大為主：StatPearls（*Breast Imaging Reporting and Data System*, NCBI Bookshelf NBK459169）相關章節說明（accessed 2026-06-29）。教科書／審閱章節級。
 
 ## 考題
 ```dataview
