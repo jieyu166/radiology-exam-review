@@ -35,6 +35,9 @@ dateRev: 2026-06-29
 - **睪丸微石症（testicular microlithiasis）**：**睪丸內（intratesticular）**、seminiferous tubule 內多發 1–3 mm 高回音點、**無聲影、不可移動**、常雙側——與 scrotal pearl 的「睪丸外、可移動、有聲影」相反；微石症另有與生殖細胞瘤關聯之臨床意涵。[^3]
 - **其他睪丸內鈣化**：腫瘤（如畸胎瘤、燒毀型 germ cell tumor）、陳舊發炎或創傷之鈣化、表皮樣囊腫——皆位於睪丸實質內、固定不動。[^3]
 - **附件鈣化／鈣化的 appendix testis**：可為 scrotal pearl 之前驅或鑑別對象。[^1]
+- **鈣化之 tunica albuginea cyst**：最常見的睪丸外良性囊性病灶，**緊貼 tunica albuginea、位置固定不游離**，可觸及；囊壁可鈣化並產生後方聲影（鈣化機轉不明，疑與既往出血有關）——與 scrotal pearl 同有聲影但「附著、不可移動」為區別點。[^4]
+- **鈣化血腫／發炎後鈣化（calcified hematoma / inflammatory sequela）**：陰囊外傷或發炎後遺於鞘膜腔或陰囊壁之鈣化，常形狀不規則、可合併周邊變化，依附於組織而非游離。[^4]
+- **陰囊壁病變鈣化**：特發性陰囊鈣質沉著症（idiopathic scrotal calcinosis，位於陰囊**皮膚／皮下**之多發鈣化結節）與寄生蟲感染（如 filariasis，超音波另可見蟲體蠕動之 "filarial dance sign"、混雜回音）——皆位於陰囊壁／皮下而非鞘膜腔內游離。[^4]
 
 ### 判讀陷阱
 - **勿誤為睪丸內病灶／腫瘤**：scrotal pearl 為良性偶發；務必確認其在睪丸**外**且可移動，避免誤判為睪丸實質鈣化或腫瘤而過度檢查。[^1][^2]
@@ -48,6 +51,7 @@ dateRev: 2026-06-29
 [^1]: Korrapati et al.（2025）, "Scrotal Pearls and Hydrocele: A Unique Case of Scrotal Lithiasis"，PMC 開放全文 PMC11911711（case report，accessed 2026-06-29）：scrotal pearl／fibrinoid loose body 為 hydroxyapatite 核之鈣化遊離體，落於 tunica vaginalis 兩層間之 extratesticular 腔（hydrocele 囊內）；盛行率 1–2.65%；成因含慢性發炎、創傷、appendix testis／epididymis 扭轉脫落鈣化；US 呈明亮高回音伴後方聲影，於 hydrocele 內可游離移動以與病變區別；多 <1.5 cm（常約 0.4 cm）；通常無症狀、良性。
 [^2]: 影像描述彙整（accessed 2026-06-29）：Eurorad case 11266 *Scrotoliths (Extra-testicular calcifications)* 與 Folia Medica 2024 屍體研究 "Scrotoliths in the testicular tunica vaginalis in an elderly male cadaver"，以及 Edward Calleja 影像衛教整理——scrotolith 為位於 tunica vaginalis 兩層間之可移動圓形高回音灶，較大者具明確聲影；US 為首選，合併 hydrocele 時不可觸；benign 但可 mimic tumor。（次級／個案級來源，與 [^1] 互證）
 [^3]: 睪丸微石症鑑別（accessed 2026-06-29，WebSearch 彙整 AJR *Testicular Microlithiasis: What Should You Recommend?* 與 Wikipedia/Eurorad 概述）：testicular microlithiasis 為 seminiferous tubule 內 1–3 mm 高回音點、**無聲影、intratesticular、常雙側、不可移動**，與 scrotal pearl 之 extratesticular／可移動／有聲影相對；微石症與睪丸生殖細胞瘤之關聯存在但因果與監測建議仍有爭議。
+[^4]: 睪丸外鈣化鑑別彙整（accessed 2026-06-29）：Tier 1 — Wang et al., *Gamut of Extratesticular Scrotal Masses: Anatomic Approach to Sonographic Differential Diagnosis*, RadioGraphics 2022（DOI 10.1148/rg.220113；全文需授權，本處引題目／主旨層級）：睪丸外鈣化幾乎皆良性，含 scrotal pearl、tunica/附件鈣化、陰囊壁鈣化，多為血腫或發炎後遺或附件扭轉脫落之 loose body。Tier 2 互證 — Sista & Filly, *Sonographic Spectrum of Tunica Albuginea Cyst*, J Clin Imaging Sci 2011（PMC3169895）：tunica albuginea cyst 為最常見之睪丸外良性囊性灶、常可觸及、附著於 tunica albuginea，囊壁可鈣化並產生後方聲影，鈣化機轉不明（疑與既往出血相關）；以及 PMC11205725 *Idiopathic Scrotal Calcinosis*（陰囊皮膚／皮下多發鈣化結節）與 filariasis 個案（超音波 "filarial dance sign"、混雜回音）——定位於陰囊壁／皮下而非鞘膜腔游離體。
 
 ## 考題
 ```dataview

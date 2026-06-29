@@ -7,7 +7,7 @@ aliases:
   - CTPA pitfalls
   - CT angiography pulmonary embolism
   - 肺栓塞 CTA 陷阱
-dateRev: 2026-06-14
+dateRev: 2026-06-29
 ---
 
 # pe-cta-pitfalls
@@ -16,13 +16,29 @@ dateRev: 2026-06-14
 
 ## Summary
 - **Bronchoarterial pairing**：**肺動脈與支氣管並行（bronchovascular bundle）；肺靜脈不伴支氣管**。故「**伴隨支氣管的血管是肺動脈**」——其內填充缺損可診斷 PE；肺靜脈（不伴支氣管、走向 LA）若未顯影可**模擬**完全阻塞性 PE。[^1]
-- **技術 pitfalls**：部分容積、血流/混合假影、運動假影、雜訊；**走向與掃描面平行（transverse/oblique）之血管最難評估**。[^1]
-- **解剖 pitfalls**：**肺門淋巴結**鄰近 interlobar arteries 可模擬；黏液填充支氣管；未顯影肺靜脈。[^1]
+- **真栓子徵象**：**管腔內填充缺損、與對比劑交界銳利**；急性者血管常**膨脹**、中央漂浮缺損或偏心缺損與管壁夾**銳角（acute angle）**；部分阻塞時環繞對比劑呈 **polo-mint（垂直切面甜甜圈狀）/ railway-track（平行切面軌道狀）**。[^1][^2]
+- **急性 vs 慢性**：急性—血管膨脹、缺損居中或銳角、邊緣銳利凸面；慢性—血管**萎縮變細/retraction**、缺損**貼壁偏心、與管壁夾鈍角（obtuse angle）**、可見 **webs/bands、鈣化栓子、突兀截斷、馬賽克灌注、支氣管動脈側枝**及肺動脈高壓/RV 變化。[^2][^3]
+- **技術 pitfalls**：部分容積、血流/混合假影、運動/呼吸假影、雜訊、beam hardening/streak；**走向與掃描面平行（transverse/oblique）之血管最難評估**。[^1]
+- **transient interruption of contrast（TIC）**：深吸氣→胸內壓降、腹內壓升、靜脈回流增→**IVC 未顯影血流**優先入右心稀釋肺動脈對比劑；表現為**同一層面多條雙側肺動脈同時低顯影且管腔不膨脹**（與真栓子在不同層面、會撐大管腔相反）。[^4]
+- **解剖 pitfalls**：**肺門淋巴結**鄰近 interlobar arteries 可模擬；黏液填充支氣管；未顯影肺靜脈、in-plane 走向血管。[^1]
 - **病理 pitfalls**：**pulmonary artery sarcoma**（罕見、最少見之 pitfall）、腫瘤侵犯/瘤栓。[^1]
+
+## 判讀骨架（一般放射科判讀所需）
+### 真栓子徵象
+- **管腔內充盈缺損 + 對比劑邊界銳利**為診斷核心；真栓子在不同層面出現、會**撐大（膨脹）管腔**。[^1][^2]
+- **急性**：缺損居中（被對比劑環繞→polo-mint／railway-track）或偏心時與管壁夾**銳角**；完全阻塞時血管腫脹、遠端不顯影；可見 saddle embolus 跨主肺動脈分叉。[^1][^2]
+- **慢性/CTEPH**：缺損**貼壁、偏心、與管壁夾鈍角且呈凹面**；血管**變細/retraction**、突兀截斷；**webs/bands、pouch defect、鈣化栓子**；**支氣管動脈側枝擴大、馬賽克灌注**；肺動脈高壓徵象（主肺動脈 >30 mm 或 > 升主動脈、RV 壁肥厚 >4 mm、室間隔平直）。[^2][^3]
+
+### 技術性偽陽性/偽陰性
+- **transient interruption of contrast（TIC）**：最常被誤判的 flow-related 偽影。深吸氣使 IVC 未顯影血優先回右心，造成**同層多條雙側肺動脈同時低顯影、管腔不膨脹**；解法為呼吸指令改「輕輕吸一口氣／停止呼吸」避免深吸氣。[^4]
+- **部分容積效應**：小血管或斜走向血管混入鄰近結構訊號，看相鄰切面／多平面重組辨識。[^1]
+- **運動/呼吸假影**、**影像雜訊/低對比**：降低小栓子可信度，必要時重掃。[^1]
+- **beam hardening / streak**：上腔靜脈高濃度對比劑造成放射狀條紋，可掩蓋或模擬右肺動脈缺損。[^1]
+- **flow-related/混合假影**：對比劑與未顯影血混合的層流，邊界模糊（與真栓子銳利邊不同）。[^1][^4]
 
 ## 三類 pitfalls
 ### 技術性
-部分容積效應、對比劑混合/血流假影（尤其下肺於深吸氣）、運動與呼吸假影、影像雜訊；**血管走向與掃描平面平行（transverse 方向）者最難判讀**。[^1]
+部分容積效應、對比劑混合/血流假影（尤其下肺於深吸氣、TIC）、運動與呼吸假影、影像雜訊、beam hardening/streak（SVC 高濃度對比劑）；**血管走向與掃描平面平行（transverse 方向）者最難判讀**。[^1][^4]
 
 ### 解剖性
 - **肺門淋巴結**：位於 interlobar arteries 旁，可被誤為填充缺損。[^1]
@@ -43,6 +59,8 @@ dateRev: 2026-06-14
 | 技術 | 部分容積、血流假影、transverse 血管 | 多平面重組、看相鄰切面[^1] |
 | 病理 | pulmonary artery sarcoma（罕） | 膨脹性、跨瓣腔內腫塊[^1] |
 
+**判讀重點**：(1) 先用 **bronchoarterial pairing** 確認是肺動脈才讀缺損；(2) **追血管連續性**、看相鄰切面／多平面重組分辨偽影；(3) 調整 **窗位**（窄窗/PE 窗）提升低對比缺損偵測；(4) TIC 時看「同層多血管同步低顯影且不膨脹」即可排除真栓子；(5) 影像與**臨床機率/D-dimer** 相符性對照——影像與臨床高度不符時應警覺偽影或替代診斷。[^1][^4]
+
 ## 圖示參考
 > 受版權保護，僅列圖號 + 自撰重點 + DOI、不含原圖／原圖說；圖號於本機 PDF 核實。出自 [^1]（Wittram RG 2004, DOI 10.1148/rg.245045008）。
 > 本機原文（gitignore、未隨 repo 發佈）：[[2004 RG CT Angiography of Pulmonary Embolism.pdf]]
@@ -52,7 +70,10 @@ dateRev: 2026-06-14
 - **Fig 30**：淋巴結與支氣管/血管的關係（解剖 pitfall）。
 
 ### 參考來源
-[^1]: Wittram C, Maher MM, Yoo AJ, Kalra MK, Shepard JO, McLoud TC. *CT Angiography of Pulmonary Embolism: Diagnostic Criteria and Causes of Misdiagnosis*. RadioGraphics. 2004;24(5):1219-1238. https://doi.org/10.1148/rg.245045008 （實際查證 accessed 2026-06-14）。
+[^1]: Wittram C, Maher MM, Yoo AJ, Kalra MK, Shepard JO, McLoud TC. *CT Angiography of Pulmonary Embolism: Diagnostic Criteria and Causes of Misdiagnosis*. RadioGraphics. 2004;24(5):1219-1238. https://doi.org/10.1148/rg.245045008 （Tier 1 RadioGraphics；本機原文 PDF 已讀，accessed 2026-06-29）。
+[^2]: 急性 PE 充盈缺損與管壁夾銳角、慢性夾鈍角且血管萎縮之判讀準則，Radiology Key《Imaging of Acute Pulmonary Embolism》章節（教科書摘錄，依開放網頁摘要查證、未讀全章紙本）。https://radiologykey.com/imaging-of-acute-pulmonary-embolism/ （accessed 2026-06-29）。
+[^3]: Leng S, et al. *Prediction of chronic thromboembolic pulmonary hypertension with standardised evaluation of initial CTPA*（CTEPH 六項 CT 預測徵象：webs、arterial retraction、dilated bronchial arteries、pulmonary trunk dilatation、RV wall hypertrophy、flattened septum）. PMC8921171（Tier 2，開放全文已讀）. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8921171/ （accessed 2026-06-29）。
+[^4]: Contrast opacification on thoracic CT angiography: challenges and solutions（transient interruption of contrast 機轉—深吸氣使 IVC 未顯影血優先回右心；與真栓子鑑別—同層多血管同步低顯影且管腔不膨脹；呼吸指令建議）. PMC5265191（Tier 2，開放全文已讀）. https://pmc.ncbi.nlm.nih.gov/articles/PMC5265191/ （accessed 2026-06-29）。
 
 ## 考題
 ```dataview
