@@ -87,6 +87,8 @@ def main() -> None:
     dist = collections.Counter()
     for f in sorted(glob.glob(str(CONCEPTS / "*.md"))):
         slug = pathlib.Path(f).stem
+        if slug.startswith("_"):  # MOC／索引頁,非醫學概念,排除
+            continue
         body = body_of(pathlib.Path(f).read_text(encoding="utf-8"))
         s = img_score(body)
         dist[s] += 1
