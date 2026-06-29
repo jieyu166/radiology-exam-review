@@ -44,6 +44,12 @@ IMG_GROUPS = [
     r"變異|variant|anomal|畸形|發育不全|hypoplas|aplas|agenes|憩室|divertic",
     # 泌尿/腹部徵象
     r"水腎|hydronephro|hydroureter|逆流|reflux|膀胱|bladder|輸尿管|ureter|VCUG|腎\b",
+    # 胸部 HRCT 型態學
+    r"consolidat|實變|air bronchogram|氣支氣管",
+    r"ground.?glass|GGO|毛玻璃|halo|atoll|暈徵",
+    r"reticul|網狀|honeycomb|蜂窩|蜂巢|crazy.?paving|鋪石",
+    r"nodul|結節|centrilobular|小葉中心|tree.?in.?bud|樹芽|micronodul",
+    r"bronchiect|支氣管擴張|interlobular|小葉間隔|perilobular|septal thicken|mosaic|嵌鑲",
 ]
 EXAM_MARKERS = re.compile(r"選項|題目正解|題目所引|正解|何者|不正確|錯誤敘述|為非|為假|為真|皆正確")
 
