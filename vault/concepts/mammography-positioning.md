@@ -8,7 +8,9 @@ aliases:
   - CC view
   - posterior nipple line
   - 乳房攝影定位
-dateRev: 2026-06-18
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "乳房攝影擺位/品質準則（胸大肌至PNL、IMF、nipple in profile、CC PNL 1cm 內）屬投照技術與品管評估，非影像病灶判讀主題"
 ---
 
 # mammography-positioning

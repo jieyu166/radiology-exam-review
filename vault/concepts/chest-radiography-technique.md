@@ -8,7 +8,9 @@ aliases:
   - expiration radiograph
   - lordotic view
   - 胸部X光技術
-dateRev: 2026-06-18
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "胸部X光技術/品質參數（高kVp穿透、SID放大率、grid散射、呼氣片/前凸位擺位選擇），無病灶判讀影像特徵或CXR adequacy判讀準則"
 ---
 
 # chest-radiography-technique

@@ -9,7 +9,9 @@ aliases:
   - CIAKI
   - contrast-induced nephropathy
   - 對比劑腎病變
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "對比劑引起急性腎損傷為臨床/安全/預防主題，無影像判讀內容"
 same:
   - "[[contrast-media-safety]]"
   - "[[nephrogenic-systemic-fibrosis]]"

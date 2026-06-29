@@ -8,7 +8,9 @@ aliases:
   - acute radiation syndrome
   - radiation sterility cataract
   - 確定效應
-dateRev: 2026-06-20
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "輻射確定性效應為劑量閾值與生物效應（ARS、白內障、不孕）主題，無可判讀的影像特徵"
 same:
   - "[[radiation-dose-reference]]"
 ---

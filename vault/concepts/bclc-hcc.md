@@ -7,7 +7,9 @@ aliases:
   - Barcelona Clinic Liver Cancer
   - HCC treatment staging
   - 肝癌BCLC分期
-dateRev: 2026-06-16
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "BCLC 為臨床分期/治療決策演算法（腫瘤負荷＋Child-Pugh＋ECOG 對應治療），非影像判讀；HCC 影像診斷見 hcc-imaging-diagnosis 概念"
 same:
   - "[[infiltrative-hcc]]"
   - "[[hcc-bone-metastasis]]"

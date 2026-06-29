@@ -7,7 +7,9 @@ aliases:
   - C-arm radiation safety
   - pulsed fluoroscopy
   - 透視輻射防護
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "透視輻射安全/劑量主題（frame rate、distance/time/shielding、ALARA、皮膚劑量），非影像判讀"
 ---
 
 # fluoroscopy-radiation-safety

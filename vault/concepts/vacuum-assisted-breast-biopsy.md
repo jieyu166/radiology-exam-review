@@ -7,7 +7,9 @@ aliases:
   - VABB
   - stereotactic biopsy
   - 真空輔助乳房切片
-dateRev: 2026-06-19
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "本質為真空輔助乳房切片的手術/介入技術主題（立體定位幾何、取樣、marker clip 置放、術後殘餘癌須再手術），無可判讀的病灶影像特徵／徵象／鑑別。"
 ---
 
 # vacuum-assisted-breast-biopsy

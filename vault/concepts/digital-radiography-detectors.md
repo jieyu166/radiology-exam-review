@@ -8,7 +8,9 @@ aliases:
   - indirect digital detector
   - amorphous selenium
   - 數位偵測器
-dateRev: 2026-06-17
+dateRev: 2026-06-29
+nonImaging: true
+nonImagingReason: "純數位 X 光偵測器物理/工程主題（direct/indirect 轉換、a-Se 光導體、CsI 閃爍體、TFT 讀出），無影像判讀內容"
 ---
 
 # digital-radiography-detectors
