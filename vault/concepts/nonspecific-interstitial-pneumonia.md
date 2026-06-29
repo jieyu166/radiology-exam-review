@@ -31,6 +31,12 @@ same:
 > [!note] 與 UIP/IPF 的關鍵區分（判讀分水嶺）
 > **偏 NSIP**：subpleural sparing、GGO 為主、**對稱均質**、peribronchovascular、honeycombing 少。**偏 UIP/IPF**：**subpleural／基底 predominant、明顯 honeycombing、時空異質（heterogeneous）、上下肺梯度明顯**（見 [[ipf]]）。在無明確 honeycombing 的病例，**廣泛 GGO＋subpleural sparing＋peribronchovascular** 三者偏向 NSIP。[^3]
 
+> [!info] 鑑別診斷（DDx）速查
+> - **UIP/IPF**：基底／周邊 predominant、明顯 **honeycombing**、時空異質、**無 subpleural sparing**；NSIP 反之（GGO 為主、均質、honeycombing 少、可有 subpleural sparing）。[^3][^5]
+> - **Organizing pneumonia（OP）**：以**實質化（consolidation）**為主、常**周邊／支氣管周圍**、可遊走;NSIP 中若出現顯著 consolidation 應想到合併 OP 成分（亦提示 CTD）。[^5]
+> - **Desquamative interstitial pneumonia（DIP）**：**吸菸**相關、瀰漫**下肺周邊 GGO 為主**、可有小囊狀;與 cellular NSIP 影像可重疊，**吸菸史**為重要鑑別線索。[^1][^5]
+> - **慢性過敏性肺炎（chronic HP）**：常**上─中肺或不分上下**、**小葉中心結節、馬賽克衰減／三密度徵（headcheese）、吐氣相空氣滯積**;暴露史＋這些細支氣管徵象偏向 HP 而非 NSIP。[^5]
+
 > [!warning] 判讀陷阱
 > - **Fibrotic NSIP 與 UIP 可難以區分**：當網狀與牽引性支氣管擴張顯著、subpleural sparing 不明顯時，fibrotic NSIP 影像可逼近 possible/probable UIP;隨時間 NSIP 影像可**演變至與 UIP 無法區分**——若有舊片可調閱比對，能提高診斷正確率。[^2][^3]
 > - **subpleural sparing 非 NSIP 專屬、也非每例都有**（CTD-fNSIP 系列僅約 21% 有此徵象）;沒有 sparing 不能排除 NSIP，有 sparing 也偶見於其他纖維化型態。[^4]
@@ -41,6 +47,7 @@ same:
 [^2]: ATS/ERS idiopathic interstitial pneumonia 國際多專科分類（2013）＋ Brixey AG, Oh AS, Alsamarraie A, Chung JH. *Pictorial Review of Fibrotic Interstitial Lung Disease on High-Resolution CT Scan and Updated Classification.* Chest 2024;165(4):908–923（綜述層級，PubMed）。重點：NSIP 影像可隨時間演變至與 UIP 無法區分，調閱舊片有助診斷;cellular 反應佳、fibrotic 預後較差。DOI：https://doi.org/10.1016/j.chest.2023.11.037（According to PubMed）。
 [^3]: Johkoh T. *Nonspecific interstitial pneumonia and usual interstitial pneumonia: is differentiation possible by high-resolution computed tomography?* Semin Ultrasound CT MR 2013;35(1):24–28（綜述層級，PubMed）。重點：**peribronchovascular 分布、廣泛 GGO、subpleural sparing** 偏向 NSIP;**廣泛 honeycombing＋subpleural 分布** 偏向 UIP;NSIP 與 UIP 的鑑別於治療與預後上至關重要。DOI：https://doi.org/10.1053/j.sult.2013.10.004（According to PubMed）。
 [^4]: Yoo H, Hino T, Hwang J, et al. *Connective tissue disease-related interstitial lung disease (CTD-ILD) and interstitial lung abnormality (ILA): Evolving concept of CT findings, pathology and management.* Eur J Radiol Open 2022;9:100419（綜述層級，PMC 開放全文 PMC9014394）。原文（實際查證）：fNSIP CT 為「bilateral, symmetric, lower lung zone-predominant reticular opacities with traction bronchiectasis」;subpleural sparing 見於約 **21%（13/61）**、honeycombing 僅 **5%（3/61）**;NSIP pattern 在 SSc、DM/PM、MCTD 佔大宗;NSIP 患者較常為女性、年齡較輕。DOI：https://doi.org/10.1016/j.ejro.2022.100419（According to PubMed）。
+[^5]: Park JS, et al.（Korean Academy of Tuberculosis and Respiratory Diseases）*Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases: Part 3. Idiopathic Nonspecific Interstitial Pneumonia.* Tuberc Respir Dis 2019（指引層級，PMC 開放全文 PMC6778744）。原文（實際查證）：NSIP HRCT 為雙側下肺為主之網狀影＋GGO、沿支氣管血管束或胸膜下之牽引性支氣管擴張、肺葉容積縮小;**約 20% 病例有 subpleural sparing，有助與 IPF 區分**;honeycombing 稀少或缺如（與 UIP 對比）;若出現 consolidation 提示合併 organizing pneumonia 成分。鑑別需排除 HP、藥物毒性、CTD。（DIP 吸菸相關、chronic HP 之小葉中心結節／馬賽克衰減／空氣滯積為通用 Fleischner 概念，輔以暴露／吸菸史鑑別。）
 
 ## 考題
 ```dataview
