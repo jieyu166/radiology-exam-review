@@ -13,7 +13,7 @@ dateRev: 2026-06-29
 
 # pancreatitis-severity
 
-**急性胰臟炎的積液命名由「有無壞死」×「4週」決定：無壞死→APFC→pseudocyst；有壞死→ANC→WON；記憶鉤：壞死型的包覆版本才叫 WON，pseudocyst 是無壞死型的。** 原始 CTSI＝Balthazar 分級（A–E）＋壞死%，pleural effusion 不在其中（屬 modified CTSI 的 extrapancreatic）。判讀分水嶺一：**壞死＋>4週包覆＝WON**；判讀分水嶺二：**原始 CTSI 不含 pleural effusion**。
+**急性胰臟炎的積液命名由「有無壞死」×「4週」決定：無壞死→APFC→pseudocyst；有壞死→ANC→WON；記憶鉤：壞死型的包覆版本才叫 WON，pseudocyst 是無壞死型的。** 原始 CTSI＝Balthazar 分級（A–E）＋壞死%，pleural effusion 不在其中（屬 modified CTSI 的 extrapancreatic）。判讀分水嶺一：**壞死＋>4週包覆＝WON**；判讀分水嶺二：**原始 CTSI 不含 pleural effusion**。[^1]
 
 ## Summary
 
