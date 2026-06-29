@@ -3176,7 +3176,7 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "![[20200817 Primovist MRI#Hepatocellular adenoma]]",
+      "explanation": "**Gd-EOB-DTPA（gadoxetic acid／Primovist）的 hepatobiliary phase 攝取，需要「有功能的肝細胞＋表現 OATP1B1/3 轉運子」。** 會攝取（HBP 等/高信號）者＝含功能性肝細胞的病灶;不含肝細胞者不攝取（HBP 低信號）。\n- (A) **HCC with preserved OATP**：部分分化良好的 HCC 保留 OATP 表現 → 可攝取、HBP 呈等/高信號。\n- (B) **FNH**：OATP 表現強、膽道排泄受阻 → 典型 HBP 等/高信號攝取。\n- (D) **Regeneration nodules**：含正常功能肝細胞 → 會攝取。\n- (C) **Metastasis（正解,except）**：無肝細胞、不表現 OATP → **不攝取**、HBP 呈低信號。\n詳見 [[hepatobiliary-mri-contrast]]。",
       "images": [],
       "concepts": [
         "hepatobiliary-mri-contrast"

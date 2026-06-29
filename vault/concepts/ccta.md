@@ -40,7 +40,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 > CCTA 強在「陰性可信」（高 NPV → 排除）；偽陽性偏多（鈣化 blooming、運動假影）使 PPV 偏低 → **陽性結果常需 ICA 確認**。臨床價值在 rule-out 而非 rule-in。[^1][^2]
 
 ## 陷阱與報告
-- **Calcium blooming artifact**：重度鈣化斑塊在 CTA 上 blooming，造成管腔高估／偽陽性；以 calcium-specific window width/level 可減少 blooming、改善管腔顯示。[^2]
+- **Calcium blooming artifact**：重度鈣化斑塊在 CTA 上 blooming，造成管腔高估／偽陽性；以 calcium-specific window width/level 可減少 blooming、改善管腔顯示。[^2][^3][^4]
 - **CAD-RADS 0–5**：標準化冠狀動脈狹窄分級與處置建議的報告框架。[^2]
 
 ## 圖示參考

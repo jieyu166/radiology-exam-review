@@ -28,12 +28,13 @@ same:
 > **spoke-wheel ＝ FNH**。HCC＝動脈期 neovascularity／washout；hemangioma＝周邊結節狀不連續填充、血流慢；adenoma＝可含脂肪/出血、周邊血管。[^1]
 
 ## 鑑別與報告要點
-| 病灶 | Doppler／強化線索 |
-| --- | --- |
-| **FNH** | **中央動脈 spoke-wheel**、central scar、HBP 等/高訊號[^1] |
-| HCC | 動脈期強化＋washout、neovascularity[^1] |
-| Hemangioma | 周邊結節狀向心填充、慢血流[^1] |
-| Adenoma | 可含脂肪/出血、周邊血管、HBP 低訊號[^1] |
+| 病灶         | Doppler／強化線索                                    |
+| ---------- | ----------------------------------------------- |
+| **FNH**    | **中央動脈 spoke-wheel**、central scar、HBP 等/高訊號[^1] |
+| HCC        | 動脈期強化＋washout、neovascularity[^1]                |
+| Hemangioma | 周邊結節狀向心填充、慢血流[^1]                               |
+| Adenoma    | 可含脂肪/出血、周邊血管、HBP 低訊號[^1]                        |
+|            |                                                 |
 
 ### 參考來源
 [^1]: *Focal nodular hyperplasia*. Radiopaedia.org。中央大動脈 spoke-wheel 離心血流、central scar（<50%）、典型 Doppler 約 20% 可見、無門脈（實際查證 accessed 2026-06-15）。

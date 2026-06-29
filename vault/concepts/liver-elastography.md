@@ -17,7 +17,7 @@ dateRev: 2026-06-15
 ## Summary
 - **測硬度的技術**：**strain elastography**（壓縮波比較 ROI）＋**shear wave elastography（SWE/ARFI）**（橫向剪力波速）。Tissue harmonics（提升影像品質）、navigation/fusion（影像融合）**與硬度無關**。[^1]
 - **量測協定（SWE/ARFI）**：**禁食約 4 小時**、仰臥/左側臥、右臂外展、平靜呼吸下閉氣；**右葉（肋間，seg 5/8）**、ROI 取肝包膜下 1.5–2.0 cm、**深度約 4–4.5 cm 為最佳**、不深於 6–7 cm；至少 5 次取中位數。[^1]
-- **閾值（ARFI，病毒性/NAFLD；SRU 共識）**：[^1]
+- **閾值（ARFI，病毒性/NAFLD；SRU 共識）**：[^1][^2]
   - <5 kPa / **<1.3 m/s**：likely normal。
   - <9 kPa / <1.7 m/s：排除 advanced CLD（若無臨床徵象）。
   - 9–13 kPa / 1.7–2.1 m/s：likely CLD（需獨立確認）。

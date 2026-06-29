@@ -80,7 +80,7 @@ NECT/CECT 顯示阻塞層級、水腎程度與病因(結石、馬蹄腎、重複
 
 ### MR urography / MR renography
 
-無輻射、適合年輕族群與追蹤。AJR 之 feasibility study(17 名 UPJO 病人,對照利尿性核醫腎圖)顯示:MR renography(MRR)與核醫在 split renal function ratio 有極佳相關(r=0.87,p<0.01,平均差 <10%);MRR 估算 GFR 與 MDRD 為中度相關(r=0.60);腎盂訊號強度變化率(PUR)在機械性阻塞單位顯著較低(0.39±0.26 vs 2.0±1.38 min⁻¹,p<0.01),可以 89% 準確度區分機械性與功能性阻塞,有潛力成為「one-stop shop」檢查。[^9] 小兒方面,靜態與功能性 MR urography 可與 MAG3 核醫及超音波對照評估 CAKUT。[^8][^11]
+無輻射、適合年輕族群與追蹤。AJR 之 feasibility study(17 名 UPJO 病人,對照利尿性核醫腎圖)顯示:MR renography(MRR)與核醫在 split renal function ratio 有極佳相關(r=0.87,p<0.01,平均差 <10%);MRR 估算 GFR 與 MDRD 為中度相關(r=0.60);腎盂訊號強度變化率(PUR)在機械性阻塞單位顯著較低(0.39±0.26 vs 2.0±1.38 min⁻¹,p<0.01),可以 89% 準確度區分機械性與功能性阻塞,有潛力成為「one-stop shop」檢查。[^9][^10] 小兒方面,靜態與功能性 MR urography 可與 MAG3 核醫及超音波對照評估 CAKUT。[^8][^11]
 
 ## 鑑別與報告要點
 

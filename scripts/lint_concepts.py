@@ -85,7 +85,7 @@ for p in sorted(glob.glob("data/20*.json")):
         collect_imgs(blob)
         if WIKI_EMBED.search(blob):
             err(f"[json 殘留 ![[...]]] {qid}")
-        if not q.get("correctAnswer"):
+        if not q.get("correctAnswer") and "送分" not in (q.get("explanation") or ""):
             warn(f"[題目無 correctAnswer] {qid}")
         for c in (q.get("concepts") or []):
             if c not in concept_slugs:

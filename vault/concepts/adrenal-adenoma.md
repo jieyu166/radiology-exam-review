@@ -20,8 +20,8 @@ up: "[[adrenal-imaging]]"
 - **定義 / 流行病學**：腎上腺皮質良性腫瘤，最常見的腎上腺病灶，佔**所有腎上腺腫塊的 60–80%**、>90% incidentaloma；屍解見於約 3–9% 人口、約 5% CT 檢查發現；好發 60–69 歲，糖尿病/高血壓者增加。**即使在已知惡性的病人，偶發腎上腺病灶仍較可能是腺瘤而非轉移。**[^1][^2][^3]
 - **功能性**：約 95% 非功能性、無症狀；功能性以 Conn（原發性醛固酮增多，80% 由腺瘤、常 <2 cm）與 Cushing（15–25% 由腺瘤、常 >2 cm；80–85% 為增生）為主。[^1][^2]
 - **脂質含量**：lipid-rich 與 lipid-poor 兩型——比例各源不一（Radiopaedia 約 70% lipid-rich；STATdx 60–90% lipid-rich / 10–40% lipid-poor）。[^1][^2]
-- **CT 指紋**：non-contrast **<10 HU → 71% 敏感、98% 特異**（直方圖負像素分析可升至約 90%）。[^1][^2]
-- **washout（lipid-poor）**：15 分延遲，**RPW >40%**（96% 敏感、100% 特異）或 **APW >60%**（舊數據 86–88% 敏感、92–96% 特異；較新數據降至 77.5% 敏感、70% 特異）。[^2]
+- **CT 指紋**：non-contrast **<10 HU → 71% 敏感、98% 特異**（直方圖負像素分析可升至約 90%）。[^1][^2][^6]
+- **washout（lipid-poor）**：15 分延遲，**RPW >40%**（96% 敏感、100% 特異）或 **APW >60%**（舊數據 86–88% 敏感、92–96% 特異；較新數據降至 77.5% 敏感、70% 特異）。[^2][^7]
 - **MRI**：chemical shift 為主，opposed-phase 訊號下降＝細胞內脂質；adrenal signal index **>16.5%（1.5T）/ >1.7%（3T）**、adrenal:spleen CSI 比值 **<0.71** 支持腺瘤。[^1][^2]
 - **易混淆**：pheochromocytoma、RCC/HCC 與 hypervascular metastasis 可呈現雷同 washout；含脂惡性病灶可致 opposed-phase 假陽性；collision tumor、India ink artifact 為陷阱。[^1][^2]
 
@@ -69,7 +69,7 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 | lipid-poor 對策 | 15 分 washout（RPW>40% / APW>60%）或 chemical-shift MRI[^1][^2] |
 | 首要鑑別 | adrenal metastasis/lymphoma、(macronodular) hyperplasia、pheochromocytoma、adrenal carcinoma（>6 cm、侵犯）、myelolipoma（巨觀脂肪）、adrenal cyst[^2] |
 | 穩定性 | 與舊片比對穩定 >12 個月傾向良性；腺瘤生長 <3 mm/年（>5 mm/年警惕惡性）[^2] |
-| 處置 | 無症狀偶發不治療；功能性 → 腹腔鏡切除[^1][^2] |
+| 處置 | 無症狀偶發不治療；功能性 → 腹腔鏡切除[^1][^2][^8] |
 
 > [!note] 近期趨勢：washout 的角色式微
 > 第一手多機構證據（AJR Corwin 2022）顯示，真性 incidentaloma（<4 cm、>10 HU、無已知惡性）惡性率極低（0.3%），且有無 APW≥60% 的惡性率無顯著差異 → 主張保守影像追蹤、washout 用途有限。**但 washout 對「已知非高血流原發惡性」者區分 adenoma vs metastasis 仍有價值**（該研究明確排除此族群）。綜述層面亦見 Seow 等 2025（*Washed Up: The End of an Era…*）。[^4][^5][^9]

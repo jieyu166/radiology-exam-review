@@ -24,10 +24,10 @@ dateRev: 2026-06-19
 - **AGML 與 Ménétrier（良性）**：規則皺襞增厚、**保留壁分層**；Ménétrier 因黏膜增生致黏膜層增厚、強化中等、典型侵犯胃底與胃體而相對保留 antrum。[^1]
 
 > [!note] 考點：關於巨大胃皺襞病因,何者「為非」?
-> 「**MDCT 是鑑別這些病因的差選擇**」為非——**MDCT 是好工具**。成因含 scirrhous ca/lymphoma/Ménétrier(A)、胃淋巴瘤源自黏膜下(C)、壁分層消失＝惡性最佳預測(D)皆正確。[^1]
+> 「**MDCT 是鑑別這些病因的好工具**。成因含 scirrhous ca/lymphoma/Ménétrier(A)、胃淋巴瘤源自黏膜下(C)、壁分層消失＝惡性最佳預測(D)皆正確。[^1]
 
 ### 參考來源
-[^1]: Chen CY, Jaw TS, Wu DC, Kuo YT, Lee CH, Huang WT, Liu GC. MDCT of Giant Gastric Folds: Differential Diagnosis. *AJR Am J Roentgenol.* 2010;195(5):1124–1130. DOI: 10.2214/AJR.09.3129. **全文已讀（醫師提供 PDF，accessed 2026-06-28）**。64 例 16-MDCT（30 scirrhous ca／15 large B-cell lymphoma／14 AGML／5 Ménétrier），四病因整體診斷準確率 100%；壁分層消失為惡性最佳 MDCT 預測因子（perfect prediction），abnormal perigastric condition 為次佳（OR 210.1）；lymphoma 壁最厚（26.6±9.0 mm）。
+[^1]: Chen CY, Jaw TS, Wu DC, Kuo YT, Lee CH, Huang WT, Liu GC. MDCT of Giant Gastric Folds: Differential Diagnosis. *AJR Am J Roentgenol.* 2010;195(5):1124–1130. DOI: 10.2214/AJR.09.3129. **全文已讀（[[2010 AJR MDCT of Giant Gastric Folds- Differential Diagnosis.pdf]]，accessed 2026-06-28）**。64 例 16-MDCT（30 scirrhous ca／15 large B-cell lymphoma／14 AGML／5 Ménétrier），四病因整體診斷準確率 100%；壁分層消失為惡性最佳 MDCT 預測因子（perfect prediction），abnormal perigastric condition 為次佳（OR 210.1）；lymphoma 壁最厚（26.6±9.0 mm）。
 
 ## 考題
 ```dataview
