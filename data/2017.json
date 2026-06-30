@@ -5131,6 +5131,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-141",
+      "year": 2017,
+      "number": 141,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following conditions is most likely to manifest as well-defined bilateral adrenal masses or enlargement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenal cortical carcinoma."
+        },
+        {
+          "letter": "B",
+          "text": "Adrenal cortical adenoma."
+        },
+        {
+          "letter": "C",
+          "text": "Adrenal infection."
+        },
+        {
+          "letter": "D",
+          "text": "Adrenal oncocytoma."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
+      "explanation": "正解 **C**。**Adrenal infection（如組織漿菌、結核）常造成雙側腎上腺腫塊/腫大**。adrenal cortical carcinoma(A)、adenoma(B)、oncocytoma(D)多為單側。\n\n→ [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-142",
+      "year": 2017,
+      "number": 142,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most common cause of adrenal hemorrhage in adults?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stress."
+        },
+        {
+          "letter": "B",
+          "text": "Bleeding diathesis."
+        },
+        {
+          "letter": "C",
+          "text": "Blunt trauma."
+        },
+        {
+          "letter": "D",
+          "text": "Adrenal mass."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
+      "explanation": "正解 **C**。成人腎上腺出血最常見原因為**鈍挫傷(blunt trauma)**。\n\n→ [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-143",
+      "year": 2017,
+      "number": 143,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following nerves is NOT a common origin of the brachial plexus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C4."
+        },
+        {
+          "letter": "B",
+          "text": "C5."
+        },
+        {
+          "letter": "C",
+          "text": "C7."
+        },
+        {
+          "letter": "D",
+          "text": "T1."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Surgical Anatomy of the Hand and Upper Extremity, p.297",
+      "explanation": "正解 **A**。臂神經叢常見起源為 **C5–T1**;**C4 非常見起源**（屬變異性 prefixed plexus）。\n\n→ [[brachial-plexus-anatomy]]",
+      "images": [],
+      "concepts": [
+        "brachial-plexus-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-144",
+      "year": 2017,
+      "number": 144,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following tumors does NOT usually occur in a young patient?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ewing sarcoma."
+        },
+        {
+          "letter": "B",
+          "text": "Alveolar soft part sarcoma."
+        },
+        {
+          "letter": "C",
+          "text": "Rhabdomyosarcoma."
+        },
+        {
+          "letter": "D",
+          "text": "Kaposi sarcoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Pediatr Blood Cancer 2011;57(6):943-949",
+      "explanation": "正解 **D**。**Kaposi sarcoma 好發年長/免疫低下（HIV/移植，HHV-8 相關）**，非年輕病人。Ewing sarcoma、alveolar soft part sarcoma、rhabdomyosarcoma 皆好發年輕族群。\n\n→ [[pediatric-soft-tissue-tumors]]",
+      "images": [],
+      "concepts": [
+        "pediatric-soft-tissue-tumors"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-145",
+      "year": 2017,
+      "number": 145,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following tumors does NOT usually involve the epiphysis of a long bone?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ewing sarcoma."
+        },
+        {
+          "letter": "B",
+          "text": "Chondroblastoma."
+        },
+        {
+          "letter": "C",
+          "text": "Giant cell tumor."
+        },
+        {
+          "letter": "D",
+          "text": "Osteosarcoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Radiology Review Manual 7th ed., p.6",
+      "explanation": "正解 **A**。**Ewing sarcoma 好發骨幹/metadiaphysis（骨骺僅 1–2%）**，不常侵犯骨骺。chondroblastoma（骨骺未閉）、giant cell tumor（骨骺已閉）、osteosarcoma（可延伸）較會侵犯骨骺。\n\n→ [[epiphyseal-bone-tumors]]",
+      "images": [],
+      "concepts": [
+        "epiphyseal-bone-tumors"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-146",
+      "year": 2017,
+      "number": 146,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which ONE of the following image findings is NOT commonly seen in a Brodie abscess on radiograph?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Well-demarcated margin."
+        },
+        {
+          "letter": "B",
+          "text": "Sclerotic margin."
+        },
+        {
+          "letter": "C",
+          "text": "Center in the epiphysis."
+        },
+        {
+          "letter": "D",
+          "text": "Extending into the growth plate."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Orthopedic Imaging: A Practical Approach 5th ed., p.800",
+      "explanation": "正解 **C**。Brodie abscess（亞急性骨髓炎）典型位於**幹骺端(metaphysis)**，非骨骺(epiphysis)。well-demarcated margin(A)、sclerotic margin(B)、可延伸跨越生長板(D)皆常見。\n\n→ [[brodie-abscess]]",
+      "images": [],
+      "concepts": [
+        "brodie-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
