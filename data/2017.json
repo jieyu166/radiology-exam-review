@@ -5579,6 +5579,154 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-160",
+      "year": 2017,
+      "number": 160,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following adjustments is used to decrease beam-hardening artifact for cardiac CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase the tube potential."
+        },
+        {
+          "letter": "B",
+          "text": "Decrease the section thickness."
+        },
+        {
+          "letter": "C",
+          "text": "Improve the spatial resolution."
+        },
+        {
+          "letter": "D",
+          "text": "Improve the temporal resolution."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36:2064-2083",
+      "explanation": "正解 **A**。**增加 tube potential（高 kVp）** 降低 beam-hardening artifact（高能光子較不受 beam hardening 影響）。亦可用濾片、虛擬單能量高能影像、iterative reconstruction。\n\n→ [[cardiac-ct-artifacts]]",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-artifacts"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-161",
+      "year": 2017,
+      "number": 161,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following algorithms is associated with lower noise for cardiac CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iterative reconstruction."
+        },
+        {
+          "letter": "B",
+          "text": "Filtered back-projection."
+        },
+        {
+          "letter": "C",
+          "text": "Adaptive filtration."
+        },
+        {
+          "letter": "D",
+          "text": "Partial scanning."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36:2064-2083",
+      "explanation": "正解 **A**。**Iterative reconstruction（迭代重建）** 可降低心臟 CT 雜訊（quantum mottle）。\n\n→ [[cardiac-ct-artifacts]]",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-artifacts"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-162",
+      "year": 2017,
+      "number": 162,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is the cause of slab or banding artifact in cardiac CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Helical mode acquisition."
+        },
+        {
+          "letter": "B",
+          "text": "Beam hardening."
+        },
+        {
+          "letter": "C",
+          "text": "Changes in contrast enhancement over the duration of the scan."
+        },
+        {
+          "letter": "D",
+          "text": "Gadolinium-based contrast agent administration."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36:2064-2083",
+      "explanation": "正解 **C**。Slab/banding artifact 成因為**掃描期間對比強化隨時間變化**（多 slab 接合處）。\n\n→ [[cardiac-ct-artifacts]]",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-artifacts"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-163",
+      "year": 2017,
+      "number": 163,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is the most common cause of sudden death in young athletes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Excessive caffeine intake before vigorous exercise."
+        },
+        {
+          "letter": "B",
+          "text": "Anomalous right coronary artery coursing anterior to the RV outflow tract."
+        },
+        {
+          "letter": "C",
+          "text": "Anomalous left coronary artery coursing posterior to the aorta."
+        },
+        {
+          "letter": "D",
+          "text": "Hypertrophic cardiomyopathy (HCM)."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36(2):335-54",
+      "explanation": "正解 **D**。**Hypertrophic cardiomyopathy (HCM)** 為年輕運動員猝死最常見原因。冠狀動脈異常起源為次要原因。\n\n→ [[hypertrophic-cardiomyopathy]]",
+      "images": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -40,6 +40,9 @@ dateRev: 2026-06-28
 [^1]: HCM 影像（題目所引 RadioGraphics 2016;36(2)／Radiopaedia *hypertrophic cardiomyopathy*）：asymmetric septal 為最常見型（~60–70%）、apical 少見（~2%，日本 ~15%）;LGE 典型為 midwall patchy/punctate（非冠狀分布、非心內膜下）;不對稱中隔肥厚定義為中隔/下側壁 ≥1.5。
 [^2]: **Baxi AJ, Restrepo CS, Vargas D, Marmol-Velez A, Ocazionez D, Murillo H. *Hypertrophic Cardiomyopathy from A to Z: Genetics, Pathophysiology, Imaging, and Management*. RadioGraphics 2016;36(2):335-354. DOI 10.1148/rg.2016150137**（**全文 PDF 已讀**,醫師提供 [[2016 RG Hypertrophic Cardiomyopathy from A to Z.pdf]]，accessed 2026-06-28;整合自醫師 [[HCM]] 筆記）。SCD 風險因子之 Class I/II 分類與 LVOT 介入門檻另參 ESC 2014 HCM 指引（Elliott PM et al. Eur Heart J 2014;35(39):2733-2779）。
 
+> [!question]- 年輕運動員猝死最常見的原因? (2017-163)
+> **Hypertrophic cardiomyopathy (HCM)**——年輕運動員猝死最常見原因。冠狀動脈異常起源（如左冠走主動脈與肺動脈間）為次要原因。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hypertrophic-cardiomyopathy")
