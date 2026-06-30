@@ -8,7 +8,9 @@ aliases:
   - NSF gadolinium
   - metformin contrast
   - 對比劑安全
-dateRev: 2026-06-17
+dateRev: 2026-06-30
+nonImaging: true
+nonImagingReason: "對比劑安全屬藥理／安全／處置主題（外滲處置、立即性反應分級、NSF、Metformin、哺乳），無可判讀之影像診斷特徵；外滲僅以臨床處置呈現而非影像判讀，與既有 nonImaging 之 contrast-adverse-reactions／iodinated-contrast-media／gadolinium-contrast／contrast-induced-aki 同類。"
 ---
 
 # contrast-media-safety

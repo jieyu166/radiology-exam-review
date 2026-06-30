@@ -6,7 +6,9 @@ aliases:
   - Doppler optimization
   - Doppler sensitivity
   - 都卜勒敏感度
-dateRev: 2026-06-17
+dateRev: 2026-06-30
+nonImaging: true
+nonImagingReason: "核心為都卜勒掃描操作 knobology（gain/power/PRF-scale/angle 調整以取得正確波形），屬操作技術而非影像病灶判讀，無影像-假象判讀補強價值"
 same:
   - "[[ultrasound-attenuation]]"
 ---

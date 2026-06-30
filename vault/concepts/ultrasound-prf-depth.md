@@ -7,7 +7,9 @@ aliases:
   - PRF
   - imaging depth PRF
   - 脈衝重複頻率
-dateRev: 2026-06-15
+dateRev: 2026-06-30
+nonImaging: true
+nonImagingReason: "純超音波物理/knobology（PRF=c/2R、深度-PRF反比、SPL/PD/波長不隨深度改變），無可判讀影像特徵；本概念不涉及 Doppler aliasing 影像表現"
 same:
   - "[[ultrasound-attenuation]]"
   - "[[ultrasound-speed-artifact]]"

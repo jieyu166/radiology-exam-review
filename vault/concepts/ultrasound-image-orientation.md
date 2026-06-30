@@ -7,7 +7,9 @@ aliases:
   - probe marker convention
   - longitudinal scan orientation
   - 超音波影像方向
-dateRev: 2026-06-18
+dateRev: 2026-06-30
+nonImaging: true
+nonImagingReason: "超音波影像方位屬掃描操作與影像呈現慣例（探頭 marker 對應、螢幕左右、長短軸、深度軸），為技術/慣例知識，無病灶判讀影像特徵可補強"
 ---
 
 # ultrasound-image-orientation

@@ -7,7 +7,9 @@ aliases:
   - CT-GAP score
   - ILD prognosis
   - 肺纖維化預後評分
-dateRev: 2026-06-19
+dateRev: 2026-06-30
+nonImaging: true
+nonImagingReason: "GAP score 為 IPF/ILD 臨床預後評分（Gender＋Age＋Physiology：FVC%、DLCO%），由人口學與肺功能數值換算 stage I–III 與死亡率，本質無影像判讀特徵；CT-GAP 變體雖納入 CT 纖維化評分，但僅為次要延伸且檔內已涵蓋，核心概念不可作影像補強。"
 same:
   - "[[ipf]]"
 ---
