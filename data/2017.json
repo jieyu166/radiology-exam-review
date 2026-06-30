@@ -8255,6 +8255,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-232",
+      "year": 2017,
+      "number": 232,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which the following statement is wrong about breast MRI? (T2 signal intensity)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2-weighted signal hyperintensity within the enhancing portion of the lesion is highly suggestive of benign histology."
+        },
+        {
+          "letter": "B",
+          "text": "The assessment of lesions on T2-weighted images is most helpful in younger patients."
+        },
+        {
+          "letter": "C",
+          "text": "Medullary cancers tend to occur in younger women and may have a circumscribed appearance."
+        },
+        {
+          "letter": "D",
+          "text": "The signal intensity of the lesion on T2-weighted images can aid in the differential diagnosis of myxoid fibroadenoma and medullary cancer."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2006;26(6):1719-34",
+      "explanation": "**T2 訊號無法可靠區分 myxoid fibroadenoma 與 medullary cancer**——髓質癌也常呈 T2 等/高訊號（約 60%），與黏液性纖維腺瘤重疊。\n\n(A) 正確:強化部分 T2 高訊號偏良性組織。\n(B) 正確:T2 評估在年輕病人最有幫助。\n(C) 正確:髓質癌好發年輕女性、可呈邊界清楚外觀。\n(D) **錯誤（正解）**:T2 訊號無法可靠區分二者（髓質癌也常 T2 高）。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-233",
+      "year": 2017,
+      "number": 233,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "The kinetic curve assessment does not include:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Initial peak"
+        },
+        {
+          "letter": "B",
+          "text": "Delayed phase"
+        },
+        {
+          "letter": "C",
+          "text": "Time to peak"
+        },
+        {
+          "letter": "D",
+          "text": "persistent, plateau, or washout enhancement"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2006;26(6):1719-34",
+      "explanation": "動力學曲線評估含**初期峰值（initial peak）＋延遲期型態（persistent/plateau/washout）**,**不包含「time to peak」**。\n\n(A) Initial peak:初期相評估項目。\n(B) Delayed phase:延遲期評估。\n(C) **不包含（正解）**:time to peak 非標準動力學曲線描述項。\n(D) persistent/plateau/washout:延遲期曲線型態。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-234",
+      "year": 2017,
+      "number": 234,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which the following statement is wrong? (breast MRI sensitivity)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The sensitivity of MR imaging for the detection of breast cancer is very high, with 90% being the value reported in most studies."
+        },
+        {
+          "letter": "B",
+          "text": "The detection of ductal carcinoma in situ (DCIS), the sensitivity of MR imaging varies between 40% and 100%."
+        },
+        {
+          "letter": "C",
+          "text": "The use of computer-assisted methods such as neural network clustering cannot aid in the assessment of contrast enhancement on breast MR images."
+        },
+        {
+          "letter": "D",
+          "text": "The relatively low specificity of breast MR imaging is a disadvantage, and rigorous criteria have been proposed for the interpretation of breast MR images."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2006;26(6):1719-34",
+      "explanation": "**電腦輔助方法（CAD／類神經網路 clustering）『可』輔助評估乳房 MRI 的強化**，並非不能。\n\n(A) 正確:MRI 偵測乳癌敏感度高（多數研究約 90%）。\n(B) 正確:對 DCIS 敏感度差異大（40-100%）。\n(C) **錯誤（正解）**:CAD/類神經網路可輔助評估強化。\n(D) 正確:乳房 MRI 特異度較低為缺點,故有嚴格判讀準則。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-235",
+      "year": 2017,
+      "number": 235,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement is wrong about breast MRI? (mass margin)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Margin of a focal mass is the most predictive feature of the breast MR image."
+        },
+        {
+          "letter": "B",
+          "text": "Irregular or spiculated margins have a positive predictive value (PPV) of 60%-70%."
+        },
+        {
+          "letter": "C",
+          "text": "Features associated with malignancy include heterogeneous internal enhancement and enhancing internal septa."
+        },
+        {
+          "letter": "D",
+          "text": "A segmental distribution of enhancement was associated with a 78% likelihood of cancer."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2006;26(6):1719-34",
+      "explanation": "**不規則/毛刺緣（irregular/spiculated margins）的 PPV 約 84%-91%，非 60%-70%**。\n\n(A) 正確:邊緣為腫塊最具預測性的特徵。\n(B) **錯誤（正解）**:spiculated margin PPV 約 84-91%。\n(C) 正確:不均質內部強化、強化內隔皆偏惡性。\n(D) 正確:節段性分布強化約 78% 為惡性。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-236",
+      "year": 2017,
+      "number": 236,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement is wrong about architectural distortion on breast MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An architectural distortion that is nonenhanced may represent a radial scar."
+        },
+        {
+          "letter": "B",
+          "text": "An architectural distortion that enhanced is highly suggestive of invasive cancer."
+        },
+        {
+          "letter": "C",
+          "text": "Desmoplastic tethering (the hook sign) has been described as highly indicative of a benign lesion."
+        },
+        {
+          "letter": "D",
+          "text": "The hook sign is not observed in the presence of noninvasive cancers."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2006;26(6):1719-34",
+      "explanation": "**Hook sign（desmoplastic tethering，自病灶中心朝胸肌的毛刺狀牽引）高度提示『惡性』，非良性**（惡性 29.3% vs 良性 3.2%）。\n\n(A) 正確:不強化的構造扭曲可能為 radial scar。\n(B) 正確:強化的構造扭曲高度提示侵襲癌。\n(C) **錯誤（正解）**:hook sign 提示惡性,非良性。\n(D) ⚠️ 官方標 C 但註記「D 似乎也錯」——hook sign 亦見於約 9.5% 原位（noninvasive）癌,故「不見於 noninvasive cancer」亦不精確,建議醫師確認。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

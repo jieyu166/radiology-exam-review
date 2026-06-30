@@ -45,8 +45,18 @@ dateRev: 2026-06-29
 - **DWI／ADC**：restricted diffusion（低 ADC）為鑑別良惡的有用輔助,可協助減少不必要切片;為 abbreviated 與全協定的常見加項。[^6]
 - **MRS**：**1H-MRS choline peak 升高 → 細胞增生指標**（偏惡性）。[^1]
 
+### 其他 breast MRI 判讀考點（RG 2006;26:1719-34）
+- **動力學曲線評估的組成**：含**初期峰值（initial peak/slow-medium-fast）＋延遲期型態（persistent/plateau/washout）**;**不包含「time to peak」**（非標準描述項）。[^7]
+- **T2 訊號**：viable 強化部分的 **T2 高訊號高度提示良性組織**;但 **T2 訊號無法可靠區分黏液性纖維腺瘤與髓質癌**——因髓質癌（medullary cancer）也常呈 T2 等/高訊號（約 60%）,易與 myxoid fibroadenoma 混淆。[^7]
+- **敏感度/特異度**：MRI 偵測乳癌**敏感度很高（多數研究約 90%）**;對 DCIS 敏感度差異大（**40%–100%**）;**電腦輔助（CAD/類神經網路 clustering）『可』輔助評估強化**（非不能）;乳房 MRI **特異度相對較低**為缺點,故有嚴格判讀準則。[^7]
+- **腫塊邊緣**：**邊緣（margin）為腫塊最具預測性的特徵**;**不規則/毛刺緣（irregular/spiculated）PPV 約 84–91%**（非 60–70%）;**節段性（segmental）分布強化約 78% 為惡性**。[^7]
+- **構造扭曲（architectural distortion）**：不強化者可能為 radial scar;強化者高度提示侵襲癌;**hook sign（desmoplastic tethering，自病灶中心朝胸肌的毛刺狀牽引）高度提示『惡性』（非良性）**——惡性 29.3% vs 良性 3.2%。[^7]
+
 > [!note] 考點：關於 breast MRI,何者「錯誤」?
 > 「**washout 定義為峰後訊號下降 >20%**」錯誤——常用操作型定義為**>10%**。峰值 2–3 分(對)、washout 惡性常見(對)、plateau 良惡皆可(對)、choline 升高＝增生(對)。[^1][^2]
+
+> [!note] 考點群（RG 2006 breast MRI）
+> ① kinetic curve 不含「time to peak」;② T2 訊號無法可靠區分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）;③ CAD/類神經網路『可』輔助評估強化;④ spiculated margin PPV 84–91%（非 60–70%）;⑤ hook sign 提示惡性（非良性）。[^7]
 
 ### 參考來源
 [^1]: *Breast MRI enhancement curves*（Kuhl curves）. Radiopaedia.org（輔助層級,實際查證 accessed 2026-06-20）：type I persistent（續升、偏良性,**~9% 惡性仍可呈此**）、type II plateau（concerning）、type III washout（峰後下降、**strongly suggestive of malignancy**）。延遲期 washout 量化常用門檻為峰後**下降 >10%**（CAD/定量 DCE 操作型定義;BI-RADS Atlas 與 Radiopaedia 主要以曲線型態質性描述,非硬性 % 門檻）。1H-MRS choline 升高為細胞增生（惡性）指標。
@@ -55,6 +65,7 @@ dateRev: 2026-06-29
 [^4]: *Background Parenchymal Enhancement on Breast MRI: A Comprehensive Review*. PMC7207072（開放全文,依摘要與內文段落層級,accessed 2026-06-29）：BPE 分 minimal/mild/moderate/marked 與對稱性;典型為雙側對稱瀰漫、slow early + persistent delayed;moderate/marked 或非對稱者可 rapid early + plateau/washout;對判讀表現影響小,但與乳癌風險、治療結果相關。
 [^5]: *Utility/diagnostic validity of abbreviated breast MRI* 等比較研究（依摘要層級,未讀全文,accessed 2026-06-29）：fibroadenoma 常見 fast wash-in,但 **washout 不常見**;washout kinetics 典型提示惡性——良性病灶出現 washout 為判讀陷阱。
 [^6]: Mann RM, et al. *Abbreviated Breast MRI: State of the Art*. *Radiology* 2023（doi:10.1148/radiol.221822,依摘要與搜尋層級,未讀全文,accessed 2026-06-29）：abbreviated 核心為 early post-contrast T1WI + MIP,因病灶顯著度與癌偵測主要由早期強化驅動;與全協定 BI-RADS 分類一致性高;常加 T2WI（形態）、DWI/ADC（restricted diffusion 鑑別良惡、減少不必要切片）。
+[^7]: 官方 2017 詳解；Kuhl C. The Current Status of Breast MR Imaging Part I/II. RadioGraphics 2006;26(6):1719-34（乳房 MRI 判讀綜述）：kinetic curve 含 initial peak＋delayed phase（不含 time to peak）;T2 高訊號偏良性但無法可靠分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）;敏感度 ~90%、DCIS 40-100%、CAD 可輔助、特異度較低;margin 最具預測性、spiculated PPV 84-91%、segmental 78% 惡性;hook sign（架構扭曲 desmoplastic tethering）提示惡性（惡性 29.3% vs 良性 3.2%）。
 
 ## 考題
 ```dataview
