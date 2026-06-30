@@ -7774,6 +7774,265 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-219",
+      "year": 2017,
+      "number": 219,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "About premalignant precursors to the development of cholangiocarcinoma, which of the following is the most common?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "intraductal papillary neoplasm"
+        },
+        {
+          "letter": "B",
+          "text": "congenital choledochal cyst"
+        },
+        {
+          "letter": "C",
+          "text": "biliary serous cystic neoplasm"
+        },
+        {
+          "letter": "D",
+          "text": "solid papillary epithelial neoplasm"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Can Assoc Radiol J 2017;68(1):77-83",
+      "explanation": "**Intraductal papillary neoplasm of bile duct（IPNB）為膽管癌最常見的癌前病灶**——膽管內乳頭狀增生、被覆膽道上皮＋中央纖維血管核。\n\n(A) **正解**:IPNB 為最常見前驅。\n(B) congenital choledochal cyst:增加風險但非最常見前驅。\n(C) biliary serous cystic neoplasm、(D) solid papillary epithelial neoplasm:皆非。\n\n→ [[cholangiocarcinoma-precursors]]",
+      "images": [],
+      "concepts": [
+        "cholangiocarcinoma-precursors"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-220",
+      "year": 2017,
+      "number": 220,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about Intraductal papillary mucinous neoplasm (IPMN) is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "IPMNs can be classified anatomically as main duct (MD-IPMN), branch duct (BD-IPMN), or mixed."
+        },
+        {
+          "letter": "B",
+          "text": "The majority of MD-IPMNs arise in the pancreatic head, whereas most BD-IPMNs arise in the uncinated process."
+        },
+        {
+          "letter": "C",
+          "text": "BD-IPMNs have a much lower rate of malignant transformation than MD-IPMNs."
+        },
+        {
+          "letter": "D",
+          "text": "All above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；J Pancreat Cancer 2016;2(1) doi:10.1089/crpc.2016.0004",
+      "explanation": "A、B、C 三項敘述**皆正確**,無錯誤者,故答案為 D「以上皆正確」。\n\n(A) 正確:IPMN 分 MD/BD/mixed。\n(B) 正確:多數 MD-IPMN 在胰頭、多數 BD-IPMN 在鉤突。\n(C) 正確:BD-IPMN 惡性轉變率（~5%, 2-10%）遠低於 MD-IPMN（~60%）。\n(D) **正解**:以上皆正確。\n\n→ [[pancreatic-ipmn]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-ipmn"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-221",
+      "year": 2017,
+      "number": 221,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about MR cholangiopancreatography (MRCP) is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MRCP has been used more often for pre-operative bile ducts exploration to rule out choledocholithiasis in symptomatic patients and to exclude gall stone-associated disease."
+        },
+        {
+          "letter": "B",
+          "text": "The use of the more invasive ERCP is preferred in subjects with low probability of needing therapeutic intervention."
+        },
+        {
+          "letter": "C",
+          "text": "Furthermore, MRCP has the advantage of accurately demonstrating anatomical variants of the biliary system, which are a potential intra-operatively risk factor for iatrogenic injuries."
+        },
+        {
+          "letter": "D",
+          "text": "All above are correct."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Am J Case Rep 2017;18:242-245",
+      "explanation": "**侵入性較高的 ERCP 應用於『需治療介入機率高』者,而非低機率者**——低介入機率者優先用非侵入的 MRCP。\n\n(A) 正確:MRCP 術前排除膽總管結石/膽石疾病。\n(B) **錯誤（正解）**:應為高介入機率者用 ERCP;低機率者用 MRCP。\n(C) 正確:MRCP 準確顯示膽道解剖變異（減少醫源性損傷）。\n\n→ [[mrcp]]",
+      "images": [],
+      "concepts": [
+        "mrcp"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-222",
+      "year": 2017,
+      "number": 222,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following cannot predict non-resectability in patients with pseudomyxoma peritonei from mucinous appendiceal neoplasms?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatoduodenal infiltration"
+        },
+        {
+          "letter": "B",
+          "text": "Extensive small bowel involvement"
+        },
+        {
+          "letter": "C",
+          "text": "Severe co-morbidity"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above can"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Eur J Surg Oncol 2016;42(4):558-566",
+      "explanation": "A、B、C 三者**皆可預測** PMP 不可切除性,故沒有「不能預測」者,答案為 D「以上皆能」。\n\n(A) Hepatoduodenal infiltration（肝十二指腸韌帶浸潤）:可預測不可切除。\n(B) Extensive small bowel involvement（廣泛小腸受累）:可預測。\n(C) Severe co-morbidity（嚴重共病）:可預測（影響手術耐受）。\n(D) **正解**:以上皆能預測。\n\n→ [[pseudomyxoma-peritonei]]",
+      "images": [],
+      "concepts": [
+        "pseudomyxoma-peritonei"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-223",
+      "year": 2017,
+      "number": 223,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the follow is not true for urachal tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The urachus represents the embryologic remnant of two embryologic structures: the cloaca and the allantois."
+        },
+        {
+          "letter": "B",
+          "text": "The urachus extends from the anterosuperior surface of the bladder to the umbilicus and lies in the extraperitoneal space of Retzius between the transverse fascia and parietal peritoneum."
+        },
+        {
+          "letter": "C",
+          "text": "Calcifications are present in 70% of the cases and are mostly seen at the center of the urachal mass."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36(7):2049-2063",
+      "explanation": "**Urachal carcinoma 的鈣化雖見於約 70% 病例，但多位於腫塊『周邊（peripheral）』，非中央**。\n\n(A) 正確:urachus 為 cloaca 與 allantois 的胚胎遺跡。\n(B) 正確:自膀胱前上緣延伸至臍,位於 Retzius 腹膜外間隙。\n(C) **非真（正解）**:鈣化多位於周邊,非中央。\n\n→ [[urachal-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "urachal-carcinoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-224",
+      "year": 2017,
+      "number": 224,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following is not true for ureteral duplication?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ureteral duplication is more common in males."
+        },
+        {
+          "letter": "B",
+          "text": "When bilateral and complete, all four ureters may open orthotopically on the bladder trigone."
+        },
+        {
+          "letter": "C",
+          "text": "In keeping with the Weigert-Meyer law the upper pole ureter typically opens medially while the lower pole ureter opens laterally."
+        },
+        {
+          "letter": "D",
+          "text": "Complete ureteral duplication may be associated with other congenital anomalies such as an upper moiety ureter with a ureterocele causing obstruction."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Int J Surg Case Rep 2015;6:23-25",
+      "explanation": "**輸尿管重複『女性較常見』，非男性**。\n\n(A) **非真（正解）**:女性較常見,非男性。\n(B) 正確:雙側完全重複時四條輸尿管可正位開於膀胱三角。\n(C) 正確:Weigert-Meyer 法則——上極輸尿管開口偏內（下）、下極偏外（上）。\n(D) 正確:完全重複可合併其他先天異常（上極 ureterocele 阻塞）。\n\n→ [[ureteral-duplication]]",
+      "images": [],
+      "concepts": [
+        "ureteral-duplication"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-225",
+      "year": 2017,
+      "number": 225,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following connective tissue disease-associated interstitial lung disease is most commonly found with cysts on HRCT scan?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autoimmune-featured ILD"
+        },
+        {
+          "letter": "B",
+          "text": "Rheumatoid arthritis"
+        },
+        {
+          "letter": "C",
+          "text": "Sjögren syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Systemic sclerosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Chest 2013;143(3):814-824",
+      "explanation": "**Sjögren syndrome 最常合併肺囊腫**——因其相關的 lymphocytic interstitial pneumonia (LIP) 典型產生肺囊腫。\n\n(A) Autoimmune-featured ILD、(B) Rheumatoid arthritis:較少以囊腫為主。\n(C) **正解**:Sjögren → LIP → 肺囊腫。\n(D) Systemic sclerosis:多為 NSIP/UIP（纖維化為主，非囊腫）。\n\n→ [[ctd-ild]]",
+      "images": [],
+      "concepts": [
+        "ctd-ild"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
