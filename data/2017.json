@@ -5390,6 +5390,195 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-155",
+      "year": 2017,
+      "number": 155,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding empyema necessitans, which statement is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It refers to empyema invading the bronchus."
+        },
+        {
+          "letter": "B",
+          "text": "Mycobacterium tuberculosis is the most common causative organism."
+        },
+        {
+          "letter": "C",
+          "text": "Patients commonly present with a red, swollen, warm, painful chest wall mass."
+        },
+        {
+          "letter": "D",
+          "text": "First described by Guillaume de Baillou in 1640."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；AJR 2015;204:W734-W735",
+      "explanation": "正解 **A**（為非）。Empyema necessitans 是膿胸**穿出胸腔、過胸壁進入軟組織**，非侵犯支氣管。M. tuberculosis 最常見(B)、胸壁皮膚紅腫熱痛(C)、歷史(D)皆正確。\n\n→ [[empyema-necessitans]]",
+      "images": [],
+      "concepts": [
+        "empyema-necessitans"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-156",
+      "year": 2017,
+      "number": 156,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is WRONG about the typical morphological classification of bronchiectasis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cylindrical."
+        },
+        {
+          "letter": "B",
+          "text": "Varicose."
+        },
+        {
+          "letter": "C",
+          "text": "Cystic."
+        },
+        {
+          "letter": "D",
+          "text": "Round."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Thoracic Imaging, ch.23, p.529",
+      "explanation": "正解 **D**。支氣管擴張典型形態分型為 **cylindrical、varicose、cystic** 三型;Round 非分型。\n\n→ [[bronchiectasis]]",
+      "images": [],
+      "concepts": [
+        "bronchiectasis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-157",
+      "year": 2017,
+      "number": 157,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "medium",
+      "questionText": "Regarding pulmonary Kaposi sarcoma, which statement is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Single or multiple 1-3 cm pulmonary nodules."
+        },
+        {
+          "letter": "B",
+          "text": "Almost always preceded by cutaneous or visceral involvement."
+        },
+        {
+          "letter": "C",
+          "text": "Coarse linear opacities emanating from the hilum."
+        },
+        {
+          "letter": "D",
+          "text": "It is the most common pulmonary malignancy in AIDS patients."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Primer of Diagnostic Imaging 5th ed., p.18",
+      "explanation": "正解 **D**。1-3 cm 結節(A)、幾乎都先有皮膚/內臟病灶(B)、粗線狀影自肺門放射(C)皆為肺 KS 典型;KS 為 AIDS 最常見相關惡性腫瘤、淋巴瘤次之。\n\n→ [[pulmonary-kaposi-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-kaposi-sarcoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-158",
+      "year": 2017,
+      "number": 158,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following HRCT findings is NOT consistent with UIP pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subpleural and basal predominance."
+        },
+        {
+          "letter": "B",
+          "text": "Reticular abnormality."
+        },
+        {
+          "letter": "C",
+          "text": "Honeycombing with traction bronchiectasis."
+        },
+        {
+          "letter": "D",
+          "text": "Honeycombing without traction bronchiectasis."
+        },
+        {
+          "letter": "E",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；Wells, Respiratory Research 2013;14(Suppl 1):S2",
+      "explanation": "正解 **E**（none of the above）。A-D 皆符合 UIP pattern：subpleural/basal predominance、reticular abnormality、honeycombing（伴或不伴 traction bronchiectasis）。\n\n→ [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-159",
+      "year": 2017,
+      "number": 159,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "About distribution of disease within the lung, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sarcoidosis shows upper lung zone predominance."
+        },
+        {
+          "letter": "B",
+          "text": "Asbestosis shows upper lung zone predominance."
+        },
+        {
+          "letter": "C",
+          "text": "Silicosis shows upper lung zone predominance."
+        },
+        {
+          "letter": "D",
+          "text": "Coal worker's pneumoconiosis shows upper lung zone predominance."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Primer of Diagnostic Imaging 5th ed., p.31-33,65",
+      "explanation": "正解 **B**（錯誤）。**Asbestosis 為下肺周邊為主**，非上肺。sarcoidosis(A)、silicosis(C)、coal worker's pneumoconiosis(D) 皆上肺為主。\n\n→ [[lung-disease-distribution]]",
+      "images": [],
+      "concepts": [
+        "lung-disease-distribution"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

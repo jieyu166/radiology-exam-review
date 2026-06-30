@@ -58,6 +58,9 @@ dateRev: 2026-06-14
 ### 參考來源
 [^1]: Sugi MD, Kawashima A, Salomao MA, Bhalla S, Venkatesh SK, Pickhardt PJ. *Amyloidosis: Multisystem Spectrum of Disease with Pathologic Correlation*. RadioGraphics. 2021;41(5). https://doi.org/10.1148/rg.2021210006 （本機 PDF 實際查證 accessed 2026-06-14）。
 
+> [!question]- 關於 pulmonary amyloidosis,何者「不」正確? (2017-152)
+> **以上皆正確（D）**——amyloid 偏光顯微鏡有 birefringence、可侵犯氣管支氣管樹與肺實質、結節型約 30-50% 鈣化,三者皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-amyloidosis")

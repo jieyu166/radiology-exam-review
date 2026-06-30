@@ -51,6 +51,9 @@ concepts: [ipf]
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；IPF 屬「與菸草強烈關聯」之第二組，非純吸菸相關）。
 [^3]: UIP/IPF 診斷指引（ATS/ERS/JRS/ALAT 2018 IPF guideline；2022 update）＋*Usual interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：2018 四分類（Typical/Probable/Indeterminate/Alternative）取代 2013「inconsistent」;2022 Probable UIP 可免切片診斷 IPF;CT Typical/Probable 約 80–81% 病理為 UIP、Indeterminate/Alternative 仍約 42% 為 UIP。
 
+> [!question]- 何者「不」符合 UIP pattern 的 HRCT 表現? (2017-158)
+> **None of the above（E）**——subpleural/basal predominance、reticular abnormality、honeycombing（伴或不伴 traction bronchiectasis）皆符合 UIP pattern。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")

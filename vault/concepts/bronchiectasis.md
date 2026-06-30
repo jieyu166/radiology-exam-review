@@ -84,6 +84,9 @@ dateRev: 2026-06-29
 [^6]: 【Tier 2｜PMC 開放全文】Lady Windermere syndrome（MAC 感染於老年非免疫缺陷女性，中葉舌葉支氣管擴張＋tree-in-bud）。PMC11134485。https://pmc.ncbi.nlm.nih.gov/articles/PMC11134485/ accessed 2026-06-29。
 [^7]: 【Tier 2｜PMC 開放全文】Reversible / pseudobronchiectasis（急性感染、肺塌陷時可逆性管徑擴張；不符不可逆定義）。PMC8669592。https://pmc.ncbi.nlm.nih.gov/articles/PMC8669592/ accessed 2026-06-29。
 
+> [!question]- 何者「不」屬支氣管擴張的典型形態分型? (2017-156)
+> **Round（圓形）**——典型三型為 cylindrical（圓柱）、varicose（靜脈曲張樣）、cystic（囊狀）。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bronchiectasis")
