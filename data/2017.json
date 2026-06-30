@@ -6886,6 +6886,154 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-195",
+      "year": 2017,
+      "number": 195,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 inflammatory bowel disease 的描述，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ulcerative colitis (UC) is mainly limited to the large intestine and affects only the intestinal mucosa."
+        },
+        {
+          "letter": "B",
+          "text": "Crohn disease (CD) can occur at any location(s) along the GI tract and is often transmural."
+        },
+        {
+          "letter": "C",
+          "text": "Nephrolithiasis is common extraintestinal IBD manifestation in IBD, particularly in CD with distal ileal involvement."
+        },
+        {
+          "letter": "D",
+          "text": "Severe CD may exhibit \"backwash\" ileitis."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Kilcoyne A et al. World J Gastroenterol 2016;22(3):917-932",
+      "explanation": "**Backwash ileitis 是 ulcerative colitis（UC）的特徵**（嚴重全結腸炎逆流入末端迴腸）,不是 Crohn disease。\n\n(A) 正確:UC 侷限大腸、僅黏膜層。\n(B) 正確:CD 全消化道任一段、常為全層（transmural）。\n(C) 正確:草酸鈣腎結石為常見腸外表現,尤其末端迴腸受累的 CD。\n(D) **為非（正解）**:backwash ileitis 屬 UC,非 CD。\n\n→ [[inflammatory-bowel-disease]]",
+      "images": [],
+      "concepts": [
+        "inflammatory-bowel-disease"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-196",
+      "year": 2017,
+      "number": 196,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Multiple patterns of renal and perinephric involvement by lymphoma have been described, 以下何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common pattern, which involves multiple parenchymal lesions, is observed in 50%–60% of patients and is most often unilateral."
+        },
+        {
+          "letter": "B",
+          "text": "A solitary mass is observed in 10%–25% of patients; in these cases, it may be easy to distinguish this condition from renal cell carcinoma."
+        },
+        {
+          "letter": "C",
+          "text": "Lymphomas can also preferentially affect the renal sinuses by mimicking the appearance of urothelial carcinomas."
+        },
+        {
+          "letter": "D",
+          "text": "Diffuse parenchymal infiltration by neoplastic cells may result in enlargement with disruption of the renal contour, but this is usually associated with homogeneous enhancement."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Ganeshan D et al. RadioGraphics 2016;36(4):1038-1054",
+      "explanation": "**淋巴瘤可優先侵犯腎竇,酷似 urothelial（移行細胞）carcinoma**。\n\n(A) 錯:最常見的多發實質腫塊型多為**雙側**（非單側）。\n(B) 錯:單發腫塊（10-25%）常**難**與 RCC 區分（非容易）。\n(C) **正確（正解）**:可侵犯腎竇酷似 urothelial ca。\n(D) 錯:瀰漫浸潤致腎腫大輪廓破壞,多伴**不均（heterogeneous）強化＋局部病灶**（非均質）。\n\n→ [[renal-lymphoma]]",
+      "images": [],
+      "concepts": [
+        "renal-lymphoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-197",
+      "year": 2017,
+      "number": 197,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Tuberculosis (TB) of the urinary tract has a wide spectrum of imaging findings, 以下何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nearly all urinary TB has multiple imaging findings."
+        },
+        {
+          "letter": "B",
+          "text": "Putty kidney is regarded as a pathognomonic finding for renal TB."
+        },
+        {
+          "letter": "C",
+          "text": "Ureteral stricture by TB is most commonly seen in ureteropelvic junction, followed by ureterovesicular junction."
+        },
+        {
+          "letter": "D",
+          "text": "A small bladder without normal distension over time associated with an unusual anatomical change and obstruction on images should alert the readers of the high probability of a bladder TB."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Key Diagnostic Features in Uroradiology, pp.74-84",
+      "explanation": "**TB 輸尿管狹窄好發於 ureteropelvic junction（UPJ）,其次為遠端（ureterovesicular junction）**;結核狹窄好發 infundibulum、UPJ 與遠端輸尿管。\n\n(A) 過度概括:並非「幾乎全部」皆多發影像表現（IVP 約 90% 異常但型態不一）。\n(B) putty kidney（autonephrectomy）為**特徵性**但稱「pathognomonic」過度。\n(C) **正確（正解）**:狹窄好發 UPJ、其次遠端輸尿管。\n(D) thimble bladder 描述大致正確但非本題最佳答案。\n\n→ [[urogenital-tuberculosis]]",
+      "images": [],
+      "concepts": [
+        "urogenital-tuberculosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-198",
+      "year": 2017,
+      "number": 198,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下選項何者正確?（關於 renal artery stenosis / FMD / Takayasu）",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common cause of renal artery stenosis is fibromuscular dysplasia (FMD)."
+        },
+        {
+          "letter": "B",
+          "text": "Medial dysplasia is the most common type FMD and accounts for approximately 90% of cases."
+        },
+        {
+          "letter": "C",
+          "text": "Takayasu aortitis has a male preponderance and is usually seen in patients older than 35 years."
+        },
+        {
+          "letter": "D",
+          "text": "Middle aortic syndrome is a subtype of Takayasu aortitis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Textbook of Uroradiology, 5th ed., pp.191-192",
+      "explanation": "**Medial dysplasia（中膜型纖維增生）為最常見的 FMD 型,約占 90%**,呈 string of beads。\n\n(A) 錯:最常見 RAS 病因為**動脈粥狀硬化（~75%）**,非 FMD。\n(B) **正確（正解）**:medial fibroplasia 占 FMD ~90%。\n(C) 錯:Takayasu aortitis 為**女性為主（F:M≈9:1）、好發 <50 歲**（非男性、非 >35 歲為主）。\n(D) 錯:middle aortic syndrome 為**獨立罕見病種**（兒童／青少年腹主動脈嚴重狹窄＋腎/內臟分支受累）,非 Takayasu 亞型。\n\n→ [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
