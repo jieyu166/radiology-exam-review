@@ -5912,6 +5912,43 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-169",
+      "year": 2017,
+      "number": 169,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "What is TRUE regarding truncus arteriosus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In Type II truncus arteriosus, the pulmonary arteries arise independently from the posterior aspect of the truncus."
+        },
+        {
+          "letter": "B",
+          "text": "In Type I truncus arteriosus, the pulmonary arteries arise from the descending thoracic aorta."
+        },
+        {
+          "letter": "C",
+          "text": "Other congenital cardiac anomalies are uncommon."
+        },
+        {
+          "letter": "D",
+          "text": "Patients usually present after 2 months of age."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2010;30(4):1069-94",
+      "explanation": "正解 **A**。Collett-Edwards **Type II：兩肺動脈各自從動脈幹後方發出**。Type I 主肺動脈自共同幹（非降主動脈，B 錯）、幾乎都合併 VSD 且常合併他異常（C 錯）、出生即發紺非 2 月後（D 錯）。\n\n→ [[truncus-arteriosus]]",
+      "images": [],
+      "concepts": [
+        "truncus-arteriosus"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
