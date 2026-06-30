@@ -7552,6 +7552,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-213",
+      "year": 2017,
+      "number": 213,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "單能光子束在經過五個半值層 (half value layer, HVL) 厚之物質後，可穿透之光子比例約為:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "97%"
+        },
+        {
+          "letter": "B",
+          "text": "50%"
+        },
+        {
+          "letter": "C",
+          "text": "10%"
+        },
+        {
+          "letter": "D",
+          "text": "3%"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Bushberg JT et al. The Essential Physics of Medical Imaging, 3rd ed., p.49",
+      "explanation": "⚠️ 官方原標 B 後改註「D??」;依物理 **5 HVL 穿透＝(1/2)⁵≈3.1%≈3%（D）** 才正確,圖示亦為 5 層→3.1%。\n\n每經過 n 個 HVL 穿透比例＝(1/2)ⁿ:1 HVL→50%、2→25%、3→12.5%、4→6.25%、**5→約 3.1%**。\n\n(D) **3%（正解）**。B(50%) 為 1 HVL 之值,應為筆誤。建議醫師確認答案鍵。\n\n→ [[half-value-layer]]",
+      "images": [],
+      "concepts": [
+        "half-value-layer"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-214",
+      "year": 2017,
+      "number": 214,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於超音波的原理，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "音波在生物體內，在空氣的傳導速率最慢，在骨頭的速率最快"
+        },
+        {
+          "letter": "B",
+          "text": "診斷性超音波所使用的頻率為 1 到 20 MHz"
+        },
+        {
+          "letter": "C",
+          "text": "高頻率的探頭可使用於觀測深部組織"
+        },
+        {
+          "letter": "D",
+          "text": "藉由調整 focal zone 可使 lateral resolution 變好"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Ultrasound: The Requisites, pp.3-5",
+      "explanation": "**高頻率探頭穿透淺、適合表淺構造，不能用於觀測深部組織**（低頻才穿透深）。\n\n(A) 正確:聲速 空氣最慢(~330)<軟組織(~1540)<骨最快(~4080 m/s)。\n(B) 正確:診斷頻率 1-20 MHz。\n(C) **錯誤（正解）**:高頻穿透淺,非觀測深部。\n(D) 正確:調 focal zone（聚焦深度）可改善 lateral resolution。\n\n→ [[ultrasound-physics-basics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-215",
+      "year": 2017,
+      "number": 215,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於肝臟超音波，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Morrison's pouch 介於肝臟與右腎之間是上腹部最低（most dependent）的部位"
+        },
+        {
+          "letter": "B",
+          "text": "Focal nodular hyperplasia 常可看到 central hypoechoic fibrous scar"
+        },
+        {
+          "letter": "C",
+          "text": "Hydatid disease 可看到 cyst with daughter cysts"
+        },
+        {
+          "letter": "D",
+          "text": "Regenerative nodules 一般為 hypoechoic area with thin echogenic border"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Ultrasound, pp.35-41",
+      "explanation": "**FNH 的中央疤痕僅約 20% 病例可見，並非『常』可看到，且多非 hypoechoic**。\n\n(A) 正確:Morrison's pouch（肝腎隱窩）為仰臥上腹最低處。\n(B) **錯誤（正解）**:FNH 多為等回音難察覺,中央疤痕＋周邊血管位移僅約 20% 可見。\n(C) 正確:hydatid disease 可見囊中囊（daughter cysts）。\n(D) 正確:regenerative nodule 一般低回音＋薄高回音邊。\n\n→ [[liver-ultrasound-findings]]",
+      "images": [],
+      "concepts": [
+        "liver-ultrasound-findings"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-216",
+      "year": 2017,
+      "number": 216,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於甲狀腺超音波，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "microcalcification 屬於惡性結節的徵兆"
+        },
+        {
+          "letter": "B",
+          "text": "急性甲狀腺炎也可產生膿瘍"
+        },
+        {
+          "letter": "C",
+          "text": "cystic degeneration 可見於良性與惡性結節"
+        },
+        {
+          "letter": "D",
+          "text": "惡性結節常為高回音病灶"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Diagnostic Ultrasound, pp.105-108",
+      "explanation": "**甲狀腺惡性結節常為『低回音（hypoechoic）』病灶，非高回音**。\n\n(A) 正確:microcalcification（微鈣化）為惡性徵兆。\n(B) 正確:急性甲狀腺炎可形成膿瘍。\n(C) 正確:囊性退化可見於良性與惡性結節。\n(D) **錯誤（正解）**:惡性結節多為低回音,非高回音。\n\n→ [[thyroid-nodule-us]]",
+      "images": [],
+      "concepts": [
+        "thyroid-nodule-us"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-217",
+      "year": 2017,
+      "number": 217,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於唾液腺超音波，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benign lymphoepithelial lesions 在超音波下可以是 cystic、mixed solid and cystic 或 solid lesion"
+        },
+        {
+          "letter": "B",
+          "text": "Sjogren syndrome 可見 parotid gland heterogeneous parenchyma with micro/macrocysts 但不會影響 submandibular gland"
+        },
+        {
+          "letter": "C",
+          "text": "mixed tumor 常見為 homogenous hypoechoic with posterior enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "parotid gland 內的 cystic lesion 可考慮 1st branchial cleft cyst"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Ultrasound: Head and Neck, pp.50-60",
+      "explanation": "**Sjögren syndrome 同樣會影響 submandibular gland（下頜下腺），非只腮腺**。\n\n(A) 正確:benign lymphoepithelial lesion 可囊性/混合/實質。\n(B) **錯誤（正解）**:Sjögren 腮腺與下頜下腺皆會受累（不均質微囊）。\n(C) 正確:mixed tumor（pleomorphic adenoma）典型均質低回音＋後方增強。\n(D) 正確:腮腺囊性病灶可考慮 1st branchial cleft cyst。\n\n→ [[salivary-gland-ultrasound]]",
+      "images": [],
+      "concepts": [
+        "salivary-gland-ultrasound"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-218",
+      "year": 2017,
+      "number": 218,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Abdominal CT shows Fitz-Hugh-Curtis adhesions around both lobes of the liver and adhesions within the pelvis. What is the probable reason for this condition?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perforated peptic ulcer"
+        },
+        {
+          "letter": "B",
+          "text": "Ruptured ovarian dermoid"
+        },
+        {
+          "letter": "C",
+          "text": "Ovarian torsion"
+        },
+        {
+          "letter": "D",
+          "text": "Ruptured ectopic pregnancy"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；J Rawalpindi Med Coll 2016;20(1):70-72（FHC 非典型病因案例報告）",
+      "explanation": "本題為 **Fitz-Hugh-Curtis 症候群之非典型病因案例＝卵巢皮樣囊腫破裂（ruptured ovarian dermoid）**——破裂內容物致化學性腹膜炎,造成肝周＋骨盆黏連。\n\n雖 FHC 典型源自骨盆腔發炎（PID, Chlamydia/Gonorrhea）,本案例（依所引案例報告）答案為 **B（卵巢皮樣囊腫破裂）**。其餘 A 穿孔潰瘍、C 卵巢扭轉、D 子宮外孕破裂非本案例之肝周黏連病因。\n\n→ [[fitz-hugh-curtis-syndrome]]",
+      "images": [],
+      "concepts": [
+        "fitz-hugh-curtis-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
