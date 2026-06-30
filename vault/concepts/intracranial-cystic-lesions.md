@@ -20,6 +20,20 @@ dateRev: 2026-06-30
 - **Neurenteric cyst**：含黏液/蛋白,**可呈 DWI 高訊號**。[^1]
 - **Pineal cyst**：松果體內囊,訊號**多與 CSF 相近**;**ADC 不顯示限制擴散（不會 DWI 限制）**;可有薄壁強化。[^1]
 
+### 胚胎來源分類（Osborn）[^1]
+- **內胚層（endoderm）**：**neurenteric cyst、Rathke cleft cyst、colloid cyst**。
+- **神經外胚層（neuroectoderm）**：**glioependymal cyst、ependymal cyst、choroid plexus cyst**（故 choroid plexus cyst 非內胚層來源）。
+- **先天性包涵囊（congenital inclusion cysts）**：dermoid、epidermoid、arachnoid cyst。
+- **pineal cyst**：自成一類。
+
+### Arachnoid vs Porencephalic cyst 鑑別[^1]
+| 特徵 | Arachnoid cyst | Porencephalic cyst |
+| --- | --- | --- |
+| 與腦室相通 | 不相通 | **相通** |
+| 位置 | **extra-axial（軸外）** | **intra-axial（腦實質內）** |
+| 成因 | congenital | **可 congenital 或 acquired**（非僅後天） |
+| 囊壁 | 鄰接**完整灰質** | **gliotic brain（膠質增生白質）襯裡** |
+
 > [!note] 考點：何種顱內囊性病灶「不會」DWI 限制擴散?
 > 「**Pineal cyst**」不會——其訊號近 CSF、ADC 無限制擴散。Epidermoid、choroid plexus cyst、neurenteric cyst 皆可在 DWI 呈高訊號（限制擴散）。[^1]
 
@@ -29,6 +43,12 @@ dateRev: 2026-06-30
 ## 題目
 > [!question]- 下列 intracranial cystic lesion 中,何者「不會」有 diffusion restriction? (2017-204)
 > 「**Pineal cyst（D）**」不會——訊號近 CSF、ADC 無限制擴散。Epidermoid（限制擴散為其特徵）、choroid plexus cyst、neurenteric cyst 皆可 DWI 高訊號。[^1]
+
+> [!question]- Arachnoid cysts 與 Porencephalic cysts 鑑別,何者「錯誤」? (2017-205)
+> 「**Porencephalic cyst 為 acquired lesion（僅後天）**」錯誤——porencephalic cyst **可 congenital 或 acquired**。其餘（與腦室相通、intra-axial、囊壁 gliotic）皆正確。[^1]
+
+> [!question]- 下列各種 intracranial cystic lesion 中,何者「非」endodermal origin? (2017-206)
+> 「**Choroid plexus cyst（B）**」非內胚層——屬**神經外胚層（neuroectoderm）**。Colloid cyst、Rathke cleft cyst、neurenteric cyst 皆為內胚層來源。[^1]
 
 ## 考題
 ```dataview

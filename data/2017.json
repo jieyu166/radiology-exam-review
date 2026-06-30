@@ -7256,6 +7256,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-205",
+      "year": 2017,
+      "number": 205,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列關於 Arachnoid cysts 與 Porencephalic cysts 的鑑別診斷，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arachnoid cysts 與 ventricular system 不相通；Porencephalic cysts 與 ventricular system 相通。"
+        },
+        {
+          "letter": "B",
+          "text": "Arachnoid cysts 為 congenital cyst；Porencephalic cysts 為 acquired lesion。"
+        },
+        {
+          "letter": "C",
+          "text": "Arachnoid cysts 位於 extra-axial；Porencephalic cysts 為 intra-axial（位於腦實質內）。"
+        },
+        {
+          "letter": "D",
+          "text": "Arachnoid cysts 邊緣可見 intact adjacent grey matter；Porencephalic cysts 邊緣 lined by gliotic brain（white matter）。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Osborn AG, Preece MT. Intracranial cysts. Radiology 2006;239(3):650-664",
+      "explanation": "**Porencephalic cyst 可為 congenital 或 acquired**,並非僅後天（acquired）。\n\n(A) 正確:arachnoid 不與腦室相通、porencephalic 相通。\n(B) **錯誤（正解）**:porencephalic cyst 可 congenital 或 acquired,題述「僅 acquired」錯。\n(C) 正確:arachnoid 軸外、porencephalic 軸內（腦實質）。\n(D) 正確:arachnoid 鄰接完整灰質、porencephalic 囊壁為 gliotic brain（白質膠質增生）。\n\n→ [[intracranial-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "intracranial-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-206",
+      "year": 2017,
+      "number": 206,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列各種 intracranial cystic lesion 中，何者非 endodermal origin?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colloid cysts"
+        },
+        {
+          "letter": "B",
+          "text": "Choroid plexus cysts"
+        },
+        {
+          "letter": "C",
+          "text": "Rathke cleft cysts"
+        },
+        {
+          "letter": "D",
+          "text": "Neuroenteric cysts"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Osborn AG, Preece MT. Intracranial cysts. Radiology 2006;239(3):650-664",
+      "explanation": "**Choroid plexus cysts 屬神經外胚層（neuroectoderm）來源,非內胚層（endoderm）**。\n\n依 Osborn 胚胎來源分類:內胚層＝neurenteric cyst、Rathke cleft cyst、colloid cyst;神經外胚層＝glioependymal cyst、ependymal cyst、choroid plexus cyst。\n\n(A) Colloid cyst:內胚層。(B) **Choroid plexus cyst（正解）**:神經外胚層,非內胚層。(C) Rathke cleft cyst:內胚層。(D) Neurenteric cyst:內胚層。\n\n→ [[intracranial-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "intracranial-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-207",
+      "year": 2017,
+      "number": 207,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下關於 spinal Ewing sarcoma 的敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "約 90% Ewing sarcoma 在 20 歲之前發病，50 歲左右發病率也稍微增加，男:女比例約為 2:1。"
+        },
+        {
+          "letter": "B",
+          "text": "Spinal Ewing sarcoma 最常發生於 lower T-spine，且常以直通神經根。"
+        },
+        {
+          "letter": "C",
+          "text": "Plain film 可呈 moth-eaten bone destruction。"
+        },
+        {
+          "letter": "D",
+          "text": "MRI 上 T1WI 中等訊號、STIR intermediate-to-high signal intensity，post-enhancement 呈 heterogeneous enhancement。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Spine, p.IV-I-50",
+      "explanation": "**脊椎 Ewing sarcoma 以薦尾部（sacrococcygeal region）最常見**,非 lower T-spine。\n\n(A) 正確:90% 在 20 歲前發病、男:女約 2:1（50 歲左右小幅增加）。\n(B) **錯誤（正解）**:脊椎以薦尾部最常見,非下胸椎。\n(C) 正確:X 光呈 moth-eaten（蟲蝕狀）骨破壞。\n(D) 正確:MRI T1 中等、STIR 中-高訊號、增強不均。\n\n→ [[spinal-ewing-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "spinal-ewing-sarcoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-208",
+      "year": 2017,
+      "number": 208,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "About IA thrombectomy, which statement is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Patients eligible for intravenous r-tPA should receive intravenous r-tPA even if endovascular treatments are being considered."
+        },
+        {
+          "letter": "B",
+          "text": "To ensure benefit, reperfusion to TICI grade 2b/3 should be achieved as early as possible."
+        },
+        {
+          "letter": "C",
+          "text": "Observing patients after intravenous r-tPA to assess for clinical response before pursuing endovascular therapy is recommended."
+        },
+        {
+          "letter": "D",
+          "text": "Use of stent retrievers is indicated in preference to the MERCI device."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；2015 AHA/ASA Focused Update of the 2013 Guidelines (Endovascular Treatment), pp.26-30",
+      "explanation": "依 2015 AHA/ASA,**不建議在 IV r-tPA 後先觀察臨床反應再決定是否血管內治療**（Class III）——應儘快進行,不可因觀察等待而延誤取栓。\n\n(A) 正確:符合條件者應給 IV r-tPA,即使同時考慮血管內治療（Class I）。\n(B) 正確:reperfusion 達 TICI 2b/3 應儘早。\n(C) **不正確（正解）**:觀察 tPA 反應再做取栓「不建議」。\n(D) 正確:stent retriever 優先於 MERCI device。\n\n→ [[acute-stroke-management]]",
+      "images": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-209",
+      "year": 2017,
+      "number": 209,
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "auto",
+      "questionText": "有關 congenital sensorineural hearing loss 的敘述，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mondini defect is associated with DiGeorge, Waardenburg, Alagille, Klippel-Feil, Wildervanck, and Pendred syndromes and chromosomal trisomies."
+        },
+        {
+          "letter": "B",
+          "text": "MRI is preferred image study because it provides improved evaluation of the membranous labyrinth and endolymphatic sac and direct visualization of the cochlear nerve."
+        },
+        {
+          "letter": "C",
+          "text": "Cochlear hypoplasia shows a small cochlea with a height less than 4 mm and fewer than two and a half turns."
+        },
+        {
+          "letter": "D",
+          "text": "The upper limit of normal vestibular aqueduct on axial CT is 4 mm."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Caffey's Pediatric Diagnostic Imaging, 12th ed., pp.96-98",
+      "explanation": "**前庭導水管（vestibular aqueduct）軸位正常上限約 1.5 mm**（>1.5 mm 即大前庭導水管 LVAS）,非 4 mm。\n\n(A) 正確:Mondini defect 與 DiGeorge/Waardenburg/Alagille/Klippel-Feil/Wildervanck/Pendred 及染色體 trisomy 相關。\n(B) 正確:MRI 為首選（膜迷路/內淋巴囊/耳蝸神經）。\n(C) 正確:cochlear hypoplasia 高度<4 mm、不足 2.5 圈。\n(D) **為非（正解）**:正常上限約 1.5 mm,非 4 mm。\n\n→ [[congenital-sensorineural-hearing-loss]]",
+      "images": [],
+      "concepts": [
+        "congenital-sensorineural-hearing-loss"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
