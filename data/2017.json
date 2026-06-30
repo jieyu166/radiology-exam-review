@@ -5875,6 +5875,43 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-168",
+      "year": 2017,
+      "number": 168,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "medium",
+      "questionText": "Which one of the following is the most appropriate description of spinal cord injury in children?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spinal cord injury in the pediatric population is relatively rare."
+        },
+        {
+          "letter": "B",
+          "text": "SCIWORA in children is not an indication for spinal MRI examination."
+        },
+        {
+          "letter": "C",
+          "text": "SCIWORA is rare in children with non-accidental trauma."
+        },
+        {
+          "letter": "D",
+          "text": "Scoliosis is uncommon in patients with SCI before their adolescent growth spurt."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；J Neurotrauma 2011;28(8):1515-24",
+      "explanation": "正解 **A**（兒童脊髓損傷相對少見）。SCIWORA 是 MRI 適應症(B 錯)、兒虐近 100% 為 SCIWORA(C 錯)、生長陡增前受傷 ~97% 發展脊柱側彎(D 錯)。⚠️ 官方答案鍵標「D A??」存疑，建議醫師確認。\n\n→ [[sciwora]]",
+      "images": [],
+      "concepts": [
+        "sciwora"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
