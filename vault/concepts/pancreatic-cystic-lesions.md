@@ -1,0 +1,37 @@
+---
+concepts: [pancreatic-cystic-lesions]
+name: Pancreatic Cystic Lesions
+subspecialty: [ABD]
+aliases:
+  - pancreatic cystic lesions
+  - serous cystadenoma
+  - IPMN
+  - 胰臟囊性病灶
+dateRev: 2026-06-30
+---
+
+# pancreatic-cystic-lesions
+
+**胰臟最常見囊性病灶是 pseudocyst（無血管化軟組織成分）;serous cystadenoma 為『良性』（微囊／中央星狀疤痕±鈣化）多觀察不需切除;mucinous cystic neoplasm 與 IPMN 才具惡性潛能;MRI/MRCP 描述 IPMN 與主胰管關係優於 CT。** 判讀分水嶺：**pseudocyst＝有胰臟炎史、無強化壁結節;serous＝良性微囊蜂巢、中央疤痕,觀察;mucinous（MCN，中年女性胰尾）＋IPMN（與胰管相通）＝癌前/惡性,需評估手術;有強化壁結節/主胰管擴張＝高危。**
+
+## Summary
+- **最常見胰臟囊性病灶＝pseudocyst**;**內無 vascularized soft tissue component（無強化壁結節/實質）**。[^1]
+- **Serous cystadenoma（漿液性）**：**良性**,微囊（microcystic）蜂巢狀±中央星狀疤痕/鈣化;**多觀察、不需馬上切除**（切除後不復發）。[^1]
+- **Mucinous cystic neoplasm（MCN）**：中年女性、胰體尾、單/寡房、周邊鈣化 → **有惡性潛能**,常需切除。
+- **IPMN**：與**胰管相通**;主胰管型惡性風險高;**MRI/MRCP 描述 IPMN 與胰管關係優於 CT**。[^1]
+- **高危徵象**：強化壁結節、主胰管擴張（>5-10 mm）、實質成分 → 偏惡性。
+
+> [!note] 考點：關於胰臟囊性病灶,何者「為非」?
+> 「**Serous cystadenoma 為癌前病灶應馬上切除**」為非——serous cystadenoma **良性、多觀察**。最常見為 pseudocyst（無血管化軟組織）、MRI 描述 IPMN 優於 CT 皆正確。[^1]
+
+### 參考來源
+[^1]: 官方 2017 詳解；Sahani DV et al. MR Imaging of Cystic Lesions of the Pancreas. RadioGraphics 2009;29(6):1749-1765：最常見囊性病灶為 pseudocyst（無血管化軟組織）;serous cystadenoma 良性多觀察;MRI/MRCP 評估 IPMN 與胰管關係優於 CT;mucinous/IPMN 具惡性潛能。
+
+## 題目
+> [!question]- 關於胰臟囊性病灶,何者敘述「為非」? (2017-194)
+> 「**Serous cystadenoma 為癌前病灶應馬上切除**」為非——serous cystadenoma **良性、多觀察不需切除**。最常見囊性病灶為 pseudocyst（無血管化軟組織）、pseudocyst 無強化軟組織、MRI 描述 IPMN 優於 CT 皆正確。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "pancreatic-cystic-lesions")
+```

@@ -6701,6 +6701,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-190",
+      "year": 2017,
+      "number": 190,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following possible MRI findings is most suggestive of myocarditis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regional thinning and fatty infiltration of the right ventricular myocardium."
+        },
+        {
+          "letter": "B",
+          "text": "Intramural increased T2 signal intensity and focal regional enhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Multiple intramural nodules."
+        },
+        {
+          "letter": "D",
+          "text": "Diffuse, concentric thickening of the atrial and ventricular walls."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Leipsic JA et al. Cardiac masses and myocardial diseases. Cardiopulmonary imaging syllabus 2005, ARRS 2005:1-13",
+      "explanation": "心肌炎 MRI 以 **Lake Louise 三徵**為主:T2 水腫、早期釓充血、晚期釓增強（心外膜下/壁內）。\n\n(A) 右心室局部變薄＋脂肪浸潤 → **ARVC**,非心肌炎。\n(B) **正解**:壁內增高 T2（水腫）＋局部區域性強化（LGE）最提示心肌炎。\n(C) 多發壁內結節非典型心肌炎。\n(D) 全心房室壁瀰漫向心增厚 → 另有病因（如澱粉樣變性）。\n\n→ [[myocarditis-mri]]",
+      "images": [],
+      "concepts": [
+        "myocarditis-mri"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-191",
+      "year": 2017,
+      "number": 191,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is TRUE concerning MRI of cardiomyopathy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In nonischemic dilated cardiomyopathy, there is regional ventricular wall thinning."
+        },
+        {
+          "letter": "B",
+          "text": "In hypertrophic cardiomyopathy, the left ventricle is grossly dilated."
+        },
+        {
+          "letter": "C",
+          "text": "Restrictive cardiomyopathy can be distinguished from constrictive pericarditis by MRI."
+        },
+        {
+          "letter": "D",
+          "text": "Blooming decreased myocardial signal intensity on gradient recalled echo (GRE) sequences suggests amyloidosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Leipsic JA et al. Cardiac masses and myocardial diseases. Cardiopulmonary imaging syllabus 2005, ARRS 2005:1-13",
+      "explanation": "**Restrictive cardiomyopathy 可藉 MRI 與 constrictive pericarditis 區分**（看心包厚度/鈣化）。\n\n(A) 錯:DCM 為心室擴大、室壁**全面稀薄**,非局部（regional）變薄。\n(B) 錯:HCM 室壁**肥厚**、心室**不擴大**（非 grossly dilated）。\n(C) **為真（正解）**:constrictive pericarditis 心包增厚>4 mm/鈣化、室間隔抖動;restrictive CM 心包正常、雙心房擴大 → MRI 可區分。\n(D) 錯:GRE blooming 低訊號＝心肌**鐵沉積（iron overload）**,非 amyloidosis。\n\n→ [[cardiomyopathy-mri]]",
+      "images": [],
+      "concepts": [
+        "cardiomyopathy-mri"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-192",
+      "year": 2017,
+      "number": 192,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者不是肝臟常見的 hypervascular tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatocellular carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Cholangiocarcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Hemangioma"
+        },
+        {
+          "letter": "D",
+          "text": "Focal nodular hyperplasia"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2009;29:385-402",
+      "explanation": "**Cholangiocarcinoma（膽管癌）為乏血管（hypovascular）腫瘤**,典型呈漸進性／延遲強化（纖維間質）,非動脈期高血流。\n\n(A) HCC:典型動脈期高強化＋洗出 → hypervascular。\n(B) **不是 hypervascular（正解）**:膽管癌乏血管、延遲強化。\n(C) Hemangioma:周邊結節狀漸進填充 → hypervascular。\n(D) FNH:動脈期均勻高強化＋中央疤痕 → hypervascular。\n\n→ [[hypervascular-liver-tumor-mr]]",
+      "images": [],
+      "concepts": [
+        "hypervascular-liver-tumor-mr"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-193",
+      "year": 2017,
+      "number": 193,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is not the complications of postoperative stomach?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dumping syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Afferent loop syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Zollinger-Ellison syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Stomal obstruction"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.772",
+      "explanation": "**Zollinger-Ellison syndrome（ZES）為 gastrinoma 分泌過量 gastrin → 高胃酸／頑固消化性潰瘍**,屬原發內分泌腫瘤疾病,非胃手術併發症。\n\n(A) Dumping syndrome:胃排空過快,術後併發症。\n(B) Afferent loop syndrome:Billroth II 後輸入袢阻塞,術後併發症。\n(C) **不是（正解）**:ZES 與胃手術無因果。\n(D) Stomal obstruction:吻合口阻塞,術後併發症。\n\n→ [[postoperative-stomach]]",
+      "images": [],
+      "concepts": [
+        "postoperative-stomach"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-194",
+      "year": 2017,
+      "number": 194,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於胰臟囊性病灶何者敘述為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "最常見的胰臟囊性病灶為 pseudocyst。"
+        },
+        {
+          "letter": "B",
+          "text": "Pseudocyst 中沒有 vascularized soft tissue component。"
+        },
+        {
+          "letter": "C",
+          "text": "MRI 在描述 IPMN 的病灶優於 CT。"
+        },
+        {
+          "letter": "D",
+          "text": "Serous cystadenoma 為癌前病灶應馬上切除。"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Sahani DV et al. MR Imaging of Cystic Lesions of the Pancreas. RadioGraphics 2009;29(6):1749-1765",
+      "explanation": "**Serous cystadenoma 為良性病灶,多以觀察追蹤,不需馬上切除**（切除後不復發）。\n\n(A) 正確:最常見胰臟囊性病灶為 pseudocyst。\n(B) 正確:pseudocyst 內無血管化軟組織成分（無強化壁結節）。\n(C) 正確:MRI/MRCP 描述 IPMN 與胰管關係優於 CT。\n(D) **為非（正解）**:serous cystadenoma 良性,非癌前,多觀察;具惡性潛能者為 mucinous cystic neoplasm 與 IPMN。\n\n→ [[pancreatic-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
