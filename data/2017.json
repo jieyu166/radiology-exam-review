@@ -5949,6 +5949,43 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-170",
+      "year": 2017,
+      "number": 170,
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Ultrasound transducers operate according to the principle of what?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Photoelectric effect."
+        },
+        {
+          "letter": "B",
+          "text": "Piezoelectric effect."
+        },
+        {
+          "letter": "C",
+          "text": "Piezooptic effect."
+        },
+        {
+          "letter": "D",
+          "text": "Photoacoustic effect."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Pollet, Power Ultrasound in Electrochemistry, Wiley 2012, ch.1",
+      "explanation": "正解 **B**。超音波探頭依**壓電效應(piezoelectric effect)** 運作——電能與機械能互換（逆壓電發射聲波、正壓電接收回波）。\n\n→ [[ultrasound-transducer-physics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-transducer-physics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
