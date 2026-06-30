@@ -6068,6 +6068,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-173",
+      "year": 2017,
+      "number": 173,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement is not true for elastography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The main objective is to provide an imaging representation of lesion stiffness to improve diagnostic confidence and increase specificity of the ultrasonography."
+        },
+        {
+          "letter": "B",
+          "text": "Malignant lesions tend to be stiffer than benign lesions."
+        },
+        {
+          "letter": "C",
+          "text": "With static elastography, the tissue stiffness can be measured by the Young modulus."
+        },
+        {
+          "letter": "D",
+          "text": "Shear-wave based elastography is able to provide quantitative elastic information in real time."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Breast Imaging, ch.42, pp.751-760",
+      "explanation": "**靜態（strain）彈性造影只提供相對形變、無法以 Young modulus 定量組織硬度**;能定量者為 shear wave 彈性造影。\n\n(A) 正確:目的為將病灶硬度影像化,提升診斷信心與特異度。\n(B) 正確:惡性病灶通常較良性硬。\n(C) **不正確（正解）**:static（strain）elastography 給的是相對形變/壓縮,不能用 Young modulus 定量;許多硬度增加的腫瘤無法正確編碼於彈性圖、不能量測 Young modulus。\n(D) 正確:shear-wave elastography 可即時提供定量彈性資訊。\n\n→ [[liver-elastography]]",
+      "images": [],
+      "concepts": [
+        "liver-elastography"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-174",
+      "year": 2017,
+      "number": 174,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement is not correct for mastitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most cases of mastitis occur during lactation, are pyogenic, and are caused by Staphylococcus aureus and Streptococcus species."
+        },
+        {
+          "letter": "B",
+          "text": "If erythema and swelling are present without an abscess, skin punch biopsy is recommended to differentiate between infection and malignancy."
+        },
+        {
+          "letter": "C",
+          "text": "Breast abscesses usually appear as noncalcified oval masses with indistinct margins on mammograms."
+        },
+        {
+          "letter": "D",
+          "text": "MRI is the best imaging modality to assess breast abscesses."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Breast Imaging, ch.20, pp.375-388",
+      "explanation": "懷疑乳房膿瘍時 **US 才是最有用的初始影像與監測工具,非 MRI**。\n\n(A) 正確:多數乳腺炎發生於哺乳期、為化膿性,主因 Staph. aureus 與 Streptococcus。\n(B) 正確:紅腫但無膿瘍時 punch biopsy 可區分感染與惡性（發炎性乳癌）。\n(C) 正確:膿瘍常呈非鈣化、邊緣不清的卵圓形腫塊。\n(D) **不正確（正解）**:US 為懷疑乳房膿瘍之首選影像,也是監測治療反應與緩解的首選,非 MRI。\n\n→ [[breast-mastitis-abscess]]",
+      "images": [],
+      "concepts": [
+        "breast-mastitis-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-175",
+      "year": 2017,
+      "number": 175,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not true for breast cancer during pregnancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In pregnant women, the background parenchymal enhancement is increased due to hormonal stimulation."
+        },
+        {
+          "letter": "B",
+          "text": "Overall the prognosis is better than in non-pregnant-related carcinoma due to age of diagnosis."
+        },
+        {
+          "letter": "C",
+          "text": "Radiotherapy is usually avoided during pregnancy."
+        },
+        {
+          "letter": "D",
+          "text": "None of above."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Breast 1st ed., p.IV-5-16",
+      "explanation": "孕婦乳癌**預後並非較好**——各分期存活率可能比非孕婦更差,主因常較晚期才診斷。\n\n(A) 正確:孕期 BPE 因荷爾蒙刺激而增加。\n(B) **不正確（正解）**:孕婦乳癌各分期存活可能更差,而非因診斷年齡而較好;常因症狀被孕期變化掩蓋而延遲診斷。\n(C) 正確:放療於孕期通常避免（胎兒輻射）。\n\n→ [[pregnancy-breast-cancer]]",
+      "images": [],
+      "concepts": [
+        "pregnancy-breast-cancer"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-176",
+      "year": 2017,
+      "number": 176,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement is not true for background parenchymal enhancement (BPE) at breast MR imaging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BPE commonly begins in the peripheral breast tissue and gradually becomes apparent in more central breast tissue."
+        },
+        {
+          "letter": "B",
+          "text": "Non-urgent breast MR imaging should be scheduled during the 3rd week of the menstrual cycle (days 7-15)."
+        },
+        {
+          "letter": "C",
+          "text": "Bilateral similar areas of enhancement, regardless of distribution, are more characteristic of benign enhancement than malignancy."
+        },
+        {
+          "letter": "D",
+          "text": "BPE is proportional to mammographic density."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Giess CS et al. Background Parenchymal Enhancement at Breast MR Imaging. RadioGraphics 2014;34:234-247",
+      "explanation": "**BPE 與乳房攝影緻密度不必然成正比**——extremely dense 可僅輕微 BPE,scattered 也可 marked。\n\n(A) 正確:BPE 常始於周邊乳組織、漸向中央明顯。\n(B) ⚠️ 官方標 D 但註記 B 也不完全對:非急迫乳房 MRI 宜排於月經週期第 2 週（約 7-14 天）BPE 最弱時,題述「第 3 週」措辭有爭議,建議醫師確認。\n(C) 正確:雙側對稱相似強化較傾向良性。\n(D) **不正確（正解）**:BPE 與纖維腺體量/乳攝緻密度不必然相關。\n\n→ [[breast-mri-bpe]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-177",
+      "year": 2017,
+      "number": 177,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is false in “male breast cancer”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Klinefelter's syndrome increase the risk of breast cancer."
+        },
+        {
+          "letter": "B",
+          "text": "Overall prognosis is better than in women."
+        },
+        {
+          "letter": "C",
+          "text": "Average age of diagnosis range 60-64 years, later than in women."
+        },
+        {
+          "letter": "D",
+          "text": "Usually presented with a subareolar mass without calcifications on mammogram."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Breast 1st ed., p.IV-5-54",
+      "explanation": "男性乳癌預後與**同齡、同分期女性相近,並非較好**;男性常較晚期診斷。\n\n(A) 正確:Klinefelter 症候群增加乳癌風險。\n(B) **為偽（正解）**:男性乳癌預後與同齡同期女性相近,且常因較少回報症狀而較晚期診斷,並非比女性好。\n(C) 正確:平均診斷年齡 60-64 歲,晚於女性。\n(D) 正確:典型呈乳暈下無鈣化腫塊（可被 gynecomastia 遮蔽）。\n\n→ [[male-breast-cancer]]",
+      "images": [],
+      "concepts": [
+        "male-breast-cancer"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-178",
+      "year": 2017,
+      "number": 178,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following statements regarding “high resolution CT of lung” is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acquired during full inspiration and expiration."
+        },
+        {
+          "letter": "B",
+          "text": "Reconstruction using ultra-smooth kernel to reduce noise."
+        },
+        {
+          "letter": "C",
+          "text": "0.625-1.25 mm thick sections."
+        },
+        {
+          "letter": "D",
+          "text": "Primary role is to characterize diffuse lung diseases."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Elicker BM, Webb WR. Fundamentals of High-Resolution Lung CT, p.10",
+      "explanation": "肺部 HRCT 用 **sharp（hard）重組 kernel** 凸顯細微結構,而非 ultra-smooth kernel 降噪。\n\n(A) 正確:HRCT 於全吸氣（必要時加吐氣相偵測 air trapping）取得。\n(B) **不正確（正解）**:重組 kernel 是解析度與雜訊的取捨——肺、骨等要找小而離散特徵（骨折、結節、細網狀）用 sharp kernel 凸顯邊緣（代價噪訊高）;軟組織才用 soft kernel 降噪。HRCT 選 sharp 而非 smooth。\n(C) 正確:薄切約 0.625-1.25 mm。\n(D) 正確:主要用於評估瀰漫性肺病。\n\n→ [[hrct-lung-technique]]",
+      "images": [],
+      "concepts": [
+        "hrct-lung-technique"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
