@@ -8440,6 +8440,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-237",
+      "year": 2017,
+      "number": 237,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about 2011 classification of the spectrum of adenocarcinoma of the Lung is true except for?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Focal interstial fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma in situ (AIS)"
+        },
+        {
+          "letter": "C",
+          "text": "Minimally invasive adenocarcinoma (MIA)"
+        },
+        {
+          "letter": "D",
+          "text": "atypical adenomatous hyperplasia (AAH)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Radiology 2013;266(1):62-71",
+      "explanation": "**Focal interstitial fibrosis（局部間質纖維化）並非 2011 肺腺癌分類光譜的成員**。\n\n2011 IASLC/ATS/ERS 肺腺癌光譜為 AAH → AIS → MIA → invasive adenocarcinoma。\n\n(A) **非成員（正解）**:focal interstitial fibrosis 不屬此分類。\n(B) AIS、(C) MIA、(D) AAH 皆為光譜成員。\n\n→ [[lung-adenocarcinoma-classification]]",
+      "images": [],
+      "concepts": [
+        "lung-adenocarcinoma-classification"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-238",
+      "year": 2017,
+      "number": 238,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the cause of pulmonary arterial hypertension?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "sarcoidosis"
+        },
+        {
+          "letter": "B",
+          "text": "pulmonary venous occlusive disease"
+        },
+        {
+          "letter": "C",
+          "text": "scleroderma"
+        },
+        {
+          "letter": "D",
+          "text": "cor triatriam"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Amirsys Diagnostic Imaging: Chest (Winer-Muram, Stern) II.4.54-57",
+      "explanation": "**Scleroderma（硬皮症）為結締組織病相關的肺動脈高壓（PAH, WHO Group 1，group 1.4.1）病因**。\n\n(A) sarcoidosis:屬 Group 5（多因子）。\n(B) pulmonary venous occlusive disease（PVOD）:屬 Group 1'（PAH 特殊亞群）。\n(C) **scleroderma（正解）**:CTD 相關 PAH, Group 1。\n(D) cor triatriatum:左心病變,屬 Group 2。\n\n→ [[pulmonary-hypertension-classification]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-hypertension-classification"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-239",
+      "year": 2017,
+      "number": 239,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "About interstitial fibrosis and emphysema of the lung, which is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "emphysema is less common than interstitial fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "they are often coexistent and should be regard as a distinct disease entity"
+        },
+        {
+          "letter": "C",
+          "text": "emphysema is always localized at upper lung zone"
+        },
+        {
+          "letter": "D",
+          "text": "they are just two common disease occur together"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Chest 2012;141(1):222-231",
+      "explanation": "**肺氣腫與間質纖維化常共存（尤吸菸者），應視為一個獨立疾病實體——CPFE（combined pulmonary fibrosis and emphysema）syndrome**，凸顯單純二分肺氣腫/纖維化的侷限。\n\n(A) 錯:肺氣腫並非較纖維化少見。\n(B) **正確（正解）**:CPFE 為獨立疾病實體。\n(C) 錯:肺氣腫非總侷限上肺（雖常上肺為主）。\n(D) 錯:非「只是兩種常見病剛好同時出現」,而是有共同（吸菸）易感性的獨立症候群。\n\n→ [[cpfe-syndrome]]",
+      "images": [],
+      "concepts": [
+        "cpfe-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-240",
+      "year": 2017,
+      "number": 240,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement is true for pneumothorax?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1+2+3"
+        },
+        {
+          "letter": "B",
+          "text": "1+3+4"
+        },
+        {
+          "letter": "C",
+          "text": "2+3+4"
+        },
+        {
+          "letter": "D",
+          "text": "All（1.辨識bulla/cyst避免醫源性瘻管 2.吐氣相較吸氣相更敏感 3.吸收約1.5%/天room air 4.純氧加速吸收約4倍）"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Chest, 2nd ed., II.4.28",
+      "explanation": "⚠️ 官方標「**B（1+3+4）**」並註「D???」。\n\n敘述 1（放胸管前須辨識 bulla/cyst 以避免醫源性支氣管胸膜瘻）、3（吸收約 1.5%/天, room air）、4（純氧加速吸收約 3-4 倍）為真;**敘述 2（吐氣相 X 光較全吸氣相『更敏感』於偵測氣胸）存爭議**——現代證據多認為全吸氣相已足夠。故 1+3+4＝B 較合理。\n\n建議醫師確認答案鍵（B vs D）。\n\n→ [[pneumothorax-imaging]]",
+      "images": [],
+      "concepts": [
+        "pneumothorax-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-241",
+      "year": 2017,
+      "number": 241,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the typical recommended flow rate for contrast injection in a cardiac CT study?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 to 2 cc per second"
+        },
+        {
+          "letter": "B",
+          "text": "2 to 3 cc per second"
+        },
+        {
+          "letter": "C",
+          "text": "4 to 7 cc per second"
+        },
+        {
+          "letter": "D",
+          "text": "> 7 cc per second"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Desai MY, Schoenhagen P. Cardiac Computed Tomography: Problem-Based Learning, 2011, p.20",
+      "explanation": "心臟 CT（冠狀動脈 CTA）對比劑注射典型建議流速約 **4-7 cc/秒**（臨床常用 5-6 mL/s），以提升冠脈內碘濃度與對比。\n\n(A) 1-2、(B) 2-3 cc/s:流速太低,冠脈對比不足。\n(C) **4-7 cc/s（正解）**:冠脈 CTA 標準流速。\n(D) >7 cc/s:非常規。\n\n常配合 saline chaser 與 bolus tracking 計時。\n\n→ [[cardiac-ct-contrast-injection]]",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-contrast-injection"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
