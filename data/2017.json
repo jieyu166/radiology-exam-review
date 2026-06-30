@@ -5801,6 +5801,80 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-166",
+      "year": 2017,
+      "number": 166,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding intestinal malrotation and midgut volvulus, which one is the MOST inappropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The potential of malrotation with midgut volvulus demands emergent imaging evaluation."
+        },
+        {
+          "letter": "B",
+          "text": "Every patient suspected of malrotation demands emergent imaging evaluation and intervention."
+        },
+        {
+          "letter": "C",
+          "text": "Less than 5% of children with congenital duodenal obstruction have a second distal obstruction."
+        },
+        {
+          "letter": "D",
+          "text": "Duodenal atresia or other partial duodenal obstructions are often indistinguishable clinically and radiographically."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Brinkley MF et al. Pediatr Radiol 2016;46(8):1084-95",
+      "explanation": "正解 **B**（最不恰當）。僅合併 **midgut volvulus/症狀者**需緊急介入，非每個疑似旋轉不良。volvulus 需緊急影像(A)、<5% 合併遠端阻塞(C)、duodenal atresia 與部分阻塞難分(D)皆正確。\n\n→ [[malrotation-volvulus]]",
+      "images": [],
+      "concepts": [
+        "malrotation-volvulus"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-167",
+      "year": 2017,
+      "number": 167,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding congenital hydronephrosis, which one of the following is the MOST inappropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regardless of etiology, the goal of management is preservation of renal function."
+        },
+        {
+          "letter": "B",
+          "text": "In most cases, surgical reconstruction cannot be delayed after a period of observation."
+        },
+        {
+          "letter": "C",
+          "text": "The majority of antenatally detected hydronephrosis is non-obstructive and resolves or stabilizes."
+        },
+        {
+          "letter": "D",
+          "text": "A minority of prenatally detected hydronephrosis necessitates surgical intervention in persistently severe cases."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Pediatric Nephrology 2013;28(9):1757-1761",
+      "explanation": "正解 **B**（最不恰當）。多數產前腎水腫**非阻塞性、可觀察**，手術保留給腎功能下降/反覆感染，非「不可延後」。保存腎功能為目標(A)、多數非阻塞會緩解(C)、少數持續嚴重才手術(D)皆正確。\n\n→ [[congenital-hydronephrosis]]",
+      "images": [],
+      "concepts": [
+        "congenital-hydronephrosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
