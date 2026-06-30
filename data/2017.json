@@ -5727,6 +5727,80 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-164",
+      "year": 2017,
+      "number": 164,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding the use of MRI in pregnant patients, which statement is the MOST inappropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "One should first consider whether ultrasound is sufficient for clinical evaluation."
+        },
+        {
+          "letter": "B",
+          "text": "If contrast is necessary, consider whether termination of pregnancy before the exam is possible."
+        },
+        {
+          "letter": "C",
+          "text": "For acute brain or spinal cord symptoms, MRI should be performed regardless of gestational age or prior ultrasound."
+        },
+        {
+          "letter": "D",
+          "text": "For acute abdominal symptoms, MRI should be performed regardless of gestational age or prior ultrasound."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；SMRI Safety Committee Guidelines 1991",
+      "explanation": "正解 **D**（最不恰當）。急性腹症 **US 多足夠**，不宜逕用 MRI。先評估 US(A)、釓有必要時權衡(B)、急性腦/脊髓症狀用 MRI(C)皆恰當。\n\n→ [[mri-safety-pregnancy]]",
+      "images": [],
+      "concepts": [
+        "mri-safety-pregnancy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-165",
+      "year": 2017,
+      "number": 165,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pediatric bacterial meningitis, which statement is the MOST inappropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neonatal bacterial meningitis has different causative organisms from that in preschool children."
+        },
+        {
+          "letter": "B",
+          "text": "The disease can progress over hours with rapid deterioration."
+        },
+        {
+          "letter": "C",
+          "text": "Imaging should be recommended for all children with suspected meningitis."
+        },
+        {
+          "letter": "D",
+          "text": "Antibiotic treatment with periodic follow-up of meningeal thickening is appropriate."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Clin Infect Dis 2004;39:1267-84；Lancet 2003;361:2139-48",
+      "explanation": "正解 **C**（最不恰當）。**影像僅用於特定指徵**（免疫低下、局部神經缺損、papilledema、LP 延遲），非所有疑似兒童。致病菌依年齡不同(A)、病程可小時計惡化(B)皆正確。\n\n→ [[pediatric-meningitis]]",
+      "images": [],
+      "concepts": [
+        "pediatric-meningitis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
