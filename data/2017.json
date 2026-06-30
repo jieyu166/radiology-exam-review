@@ -8033,6 +8033,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-226",
+      "year": 2017,
+      "number": 226,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is wrong about autoimmune-featured ILD?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Comprehensive and systematic evaluation will identify these patients."
+        },
+        {
+          "letter": "B",
+          "text": "Patients with ANA titer ≥ 1:1,280 may have improved survival."
+        },
+        {
+          "letter": "C",
+          "text": "Seen in patients with UIP on HRCT scan and pathology."
+        },
+        {
+          "letter": "D",
+          "text": "Tobacco cessation is strongly recommended."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Chest 2013;143(3):814-824",
+      "explanation": "**「強烈建議戒菸」是針對 rheumatoid arthritis（RA）相關 ILD，非 autoimmune-featured ILD**。\n\n(A) 正確:全面系統性評估有助辨識這類病人。\n(B) 正確:ANA titer ≥1:1280 者可能存活較佳。\n(C) 正確:可見於 HRCT 與病理呈 UIP 型者。\n(D) **錯誤（正解）**:強烈建議戒菸屬 RA-ILD 的處置,非 AIF-ILD。\n\n→ [[ctd-ild]]",
+      "images": [],
+      "concepts": [
+        "ctd-ild"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-227",
+      "year": 2017,
+      "number": 227,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is wrong about SVC syndrome (SVCS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The dominant cause of SVCS has varied over time, and the majority of cases today are caused by malignancy, typically metastatic tumors."
+        },
+        {
+          "letter": "B",
+          "text": "Benign processes, such as stenosis and thrombosis induced by central venous catheters, are responsible for an increasing minority of cases."
+        },
+        {
+          "letter": "C",
+          "text": "The majority of patients with SVCS experience face, neck, and upper extremity swelling; dyspnea at rest; and cough."
+        },
+        {
+          "letter": "D",
+          "text": "Endovascular therapy can offer rapid and enduring symptomatic relief and is an important adjunctive therapy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Semin Intervent Radiol 2015;32(4):439-444",
+      "explanation": "**SVCS 的惡性病因最常見為『肺癌與淋巴瘤』，非籠統的『轉移腫瘤』**。\n\n(A) **錯誤（正解）**:惡性主因為肺癌與淋巴瘤,非 metastatic tumors。\n(B) 正確:中心靜脈導管致狹窄/血栓的良性病因佔比逐漸上升。\n(C) 正確:多數有顏面/頸/上肢腫脹、靜息呼吸困難、咳嗽。\n(D) 正確:血管內治療（stent）可快速持久緩解。\n\n→ [[svc-syndrome]]",
+      "images": [],
+      "concepts": [
+        "svc-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-228",
+      "year": 2017,
+      "number": 228,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is wrong about ADC values?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Soft-tissue masses composed primarily of fluid (eg, ganglia or paralabral cysts) exhibit high ADC values."
+        },
+        {
+          "letter": "B",
+          "text": "It is needed to consider myxoid and nonmyxoid tumors separately, since a myxoid matrix will result in increased ADC values."
+        },
+        {
+          "letter": "C",
+          "text": "In malignant bone lesions, the ADC values are usually lower than those in normal fatty marrow."
+        },
+        {
+          "letter": "D",
+          "text": "Hematomas may demonstrate low ADC values at DW imaging."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34(5):1163-1177 doi:10.1148/rg.345140190",
+      "explanation": "**骨內惡性/高細胞病灶的 ADC 值反而『高於』正常脂肪骨髓**（脂肪骨髓 ADC 極低），與軟組織惡性病灶 ADC 低相反。\n\n(A) 正確:液性軟組織腫塊（ganglion/paralabral cyst）ADC 高。\n(B) 正確:myxoid 基質使 ADC 升高,需與 nonmyxoid 分開判讀。\n(C) **錯誤（正解）**:骨惡性病灶 ADC 高於正常脂肪骨髓,非低於。\n(D) 正確:血腫可呈低 ADC。\n\n→ [[adc-msk-imaging]]",
+      "images": [],
+      "concepts": [
+        "adc-msk-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-229",
+      "year": 2017,
+      "number": 229,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is wrong about recurrent soft tissue sarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The complete absence of fluid signal in the surgical bed has been suggested as an excellent sign to rule out the presence of recurrent tumor."
+        },
+        {
+          "letter": "B",
+          "text": "A recurrent tumor is characterized by early and rapid arterial phase enhancement at DCE (dynamic contrast material-enhanced) MR imaging."
+        },
+        {
+          "letter": "C",
+          "text": "A recurrent tumor is characterized by low ADC values at DW imaging."
+        },
+        {
+          "letter": "D",
+          "text": "Postoperative inflammation and fibrosis never have a nodular or masslike appearance."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiology 2014;271(2):499-511 doi:10.1148/radiol.13130844",
+      "explanation": "**術後發炎與纖維化『可』呈結節或腫塊樣外觀，並非『絕不（never）』**——故 D 為錯。\n\n(A) 正確:手術床完全無液訊號為排除復發的良好徵象。\n(B) 正確:復發腫瘤呈早期快速動脈期強化（DCE）。\n(C) 正確:復發腫瘤（高細胞）呈低 ADC。\n(D) **錯誤（正解）**:術後發炎/纖維化可呈結節/腫塊樣,「never」過絕對。\n\n→ [[adc-msk-imaging]]",
+      "images": [],
+      "concepts": [
+        "adc-msk-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-230",
+      "year": 2017,
+      "number": 230,
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is wrong about neck lymph nodes?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "For head and neck cancer staging, it is generally more important to have higher specificity for nodal metastasis."
+        },
+        {
+          "letter": "B",
+          "text": "Although mediastinal nodal calcifications are usually a marker of benign disease, cervical nodal calcifications are more frequently seen with malignancy."
+        },
+        {
+          "letter": "C",
+          "text": "Imaging findings of extracapsular spread are irregular margins, fat stranding, and loss of fat planes with adjacent structures."
+        },
+        {
+          "letter": "D",
+          "text": "In the setting of head and neck cancer, necrotic or cystic change, even in small nodes, is a specific marker of malignancy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；AJR 2013;200:W17-W25 doi:10.2214/AJR.12.8960",
+      "explanation": "**頭頸癌淋巴結分期一般更重視高『敏感度（sensitivity）』，以抓出所有轉移結節，非高特異度**。\n\n(A) **錯誤（正解）**:應重視高敏感度,非高特異度。\n(B) 正確:縱膈鈣化多良性,頸部淋巴結鈣化偏惡性。\n(C) 正確:ECS＝邊緣不規則、脂肪條紋、脂肪面消失。\n(D) 正確:小結節壞死/囊變為惡性特異徵。\n\n→ [[neck-lymph-nodes]]",
+      "images": [],
+      "concepts": [
+        "neck-lymph-nodes"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-231",
+      "year": 2017,
+      "number": 231,
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is wrong about site classification for lymph nodes from American Head and Neck Society and American Academy of Otolaryngology-Head and Neck Surgery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Levels II and III are divided by hyoid bone."
+        },
+        {
+          "letter": "B",
+          "text": "Levels III and IV are divided by inferior border of cricoid cartilage."
+        },
+        {
+          "letter": "C",
+          "text": "Levels IIA and IIB are divided by the medial margins of carotid arteries."
+        },
+        {
+          "letter": "D",
+          "text": "Level V is posterior to the posterior border of sternocleidomastoid muscle."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；AJR 2013;200:W17-W25 doi:10.2214/AJR.12.8960",
+      "explanation": "**Level IIA 與 IIB 的分界是『內頸靜脈後緣（posterior margin of internal jugular vein）』，非頸動脈內緣**。\n\n(A) 正確:Level II/III 以舌骨體下緣分。\n(B) 正確:Level III/IV 以環狀軟骨下緣分。\n(C) **錯誤（正解）**:IIA/IIB 以內頸靜脈後緣分,非頸動脈內緣。\n(D) 正確:Level V 位於胸鎖乳突肌後緣之後。\n\n→ [[neck-lymph-nodes]]",
+      "images": [],
+      "concepts": [
+        "neck-lymph-nodes"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
