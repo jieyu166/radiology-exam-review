@@ -6290,6 +6290,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-179",
+      "year": 2017,
+      "number": 179,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding “Guidelines for Management of Small Pulmonary Nodules Detected on CT scans” from Fleischner Society, which of the statements is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "For high-risk patient with incidentally found pulmonary nodule ≤ 4 mm, follow-up CT after six months is recommended."
+        },
+        {
+          "letter": "B",
+          "text": "For low-risk patient with incidentally found pulmonary nodule ≤ 4 mm, no follow-up is needed."
+        },
+        {
+          "letter": "C",
+          "text": "For low-risk patient with incidentally found pulmonary nodule > 8 mm, follow-up CT at 3, 9, 24 months are recommended."
+        },
+        {
+          "letter": "D",
+          "text": "For high-risk patient with incidentally found pulmonary nodule > 8 mm, follow-up CT at 3, 9, 24 months are recommended."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；MacMahon H et al. Fleischner Society. Radiology 2005;237(2):395-400（2005 版；2017 已更新）",
+      "explanation": "依 **Fleischner 2005**,高風險病人偶見 **≤4 mm 結節為 12 個月**複查,非 6 個月。\n\n(A) **不正確（正解）**:高風險 ≤4 mm → 12 個月複查（低風險不需追蹤）;題述「6 個月」錯。\n(B) 正確:低風險 ≤4 mm 不需追蹤。\n(C)(D) 正確:>8 mm 於 3、9、24 月追蹤（或考慮 PET／切片）。\n\n⚠️ 本指引 2017 已更新（門檻提高、6 mm 起追蹤），作答依題目所依 2005 版。\n\n→ [[fleischner-pulmonary-nodule]]",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-180",
+      "year": 2017,
+      "number": 180,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding idiopathic interstitial pneumonias (IIP), which one of the followings is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Smoking-related IIPs included hypersensitivity pneumonia (HP), desquamative interstitial pneumonia (DIP) and respiratory bronchiolitis interstitial lung disease (RB-ILD)."
+        },
+        {
+          "letter": "B",
+          "text": "RB-ILD is characterized by bronchial wall thickening, centrilobular nodules, patchy ground-glass opacity and often distributed in lower lung zones."
+        },
+        {
+          "letter": "C",
+          "text": "Tree-in-bud appearance in CT is suggestive of IIP entity."
+        },
+        {
+          "letter": "D",
+          "text": "Cryptogenic organizing pneumonia is characterized by subpleural distribution."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiographics 2015;35(7):1849-71（ATS/ERS IIP 分類）",
+      "explanation": "**Cryptogenic organizing pneumonia（COP）典型呈胸膜下／支氣管周圍分布**。\n\n(A) 錯:吸菸相關 IIP 為 RB-ILD 與 DIP;**HP（過敏性肺炎）非吸菸相關、亦非 IIP**。\n(B) 錯:RB-ILD **上肺為主**（非下肺）,呈中央小葉結節＋毛玻璃。\n(C) 錯:tree-in-bud 提示**小氣道感染／發炎**,非 IIP 的特徵。\n(D) **為真（正解）**:COP 以胸膜下／支氣管旁實質化為特徵,可游走。\n\n→ [[idiopathic-interstitial-pneumonia]]",
+      "images": [],
+      "concepts": [
+        "idiopathic-interstitial-pneumonia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-181",
+      "year": 2017,
+      "number": 181,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the followings is least likely to have crazy paving sign on HRCT images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nonspecific interstitial pneumonitis"
+        },
+        {
+          "letter": "B",
+          "text": "Cryptogenic organizing pneumonia"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumocystis pneumonia"
+        },
+        {
+          "letter": "D",
+          "text": "Respiratory bronchiolitis superimposed on interstitial lung disease"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Kumaresh A et al. Back to Basics – Must Know Classical Signs in Thoracic Radiology. J Clin Imaging Sci 2015;5:3",
+      "explanation": "⚠️ **本題官方答案 B 與其引用來源的分類有矛盾,建議醫師確認。**\n\n依題目所引來源的 crazy paving 成因分層:常見＝PAP、ARDS、細菌性肺炎;less common＝COP(B)、PCP(C)、肺出血/水腫、嗜酸性肺炎等;**rare causes＝NSIP(A)、RB-ILD(D)**。\n\n據此,「最不可能」出現 crazy paving 者應為 **rare 類的 NSIP(A) 或 RB-ILD(D)**,而非 less common 的 COP(B)。官方標 B 並自註「還是 D??」,存在爭議。\n\n本卡暫依官方記 B,並標註答案鍵存疑,留待醫師覆核。\n\n→ [[crazy-paving]]",
+      "images": [],
+      "concepts": [
+        "crazy-paving"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-182",
+      "year": 2017,
+      "number": 182,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning pulmonary septic emboli, which of the followings is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most emboli originate in the heart."
+        },
+        {
+          "letter": "B",
+          "text": "Staphylococcus aureus is the most common organism."
+        },
+        {
+          "letter": "C",
+          "text": "Lemierre's syndrome refers to emboli originate from deep vein thrombosis."
+        },
+        {
+          "letter": "D",
+          "text": "Thin-walled cavities are frequently seen on chest radiograph."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Müller NL et al. Radiologic Diagnosis of Diseases of the Chest, 1st ed., p.399",
+      "explanation": "**Lemierre's syndrome 並非源自深部靜脈血栓(DVT)**,而是口咽感染（咽炎/扁桃腺炎±膿瘍）後的**頸內靜脈敗血性血栓性靜脈炎合併遠端轉移性敗血**。\n\n(A) 正確:多數敗血性栓子源自心臟（如三尖瓣心內膜炎）/靜脈導管。\n(B) 正確:Staph. aureus 為最常見致病菌。\n(C) **不正確（正解）**:Lemierre 為頸內靜脈敗血性血栓性靜脈炎（非 DVT）。\n(D) 正確:胸片常見薄壁空洞。\n\n→ [[septic-pulmonary-emboli]]",
+      "images": [],
+      "concepts": [
+        "septic-pulmonary-emboli"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-183",
+      "year": 2017,
+      "number": 183,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何種 Gadolinium based contrast medium 發生過最多 NSF 案例?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gadodiamide (Omniscan)"
+        },
+        {
+          "letter": "B",
+          "text": "Gadofosveset trisodium (Vasovist)"
+        },
+        {
+          "letter": "C",
+          "text": "Gadobenate dimeglumine (MultiHance)"
+        },
+        {
+          "letter": "D",
+          "text": "Gadoterate meglumine (Dotarem)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；AJR Am J Roentgenol 2008;191(4):1129-39",
+      "explanation": "**Gadodiamide（Omniscan）發生過最多 NSF 案例**——屬 linear non-ionic、最不穩定、最易去螯合釋出游離釓。\n\n截至 2009 年同行評審文獻:Omniscan ~347 例、Magnevist ~89 例、OptiMARK ~5 例、未指明 Gd-CM ~151 例;macrocyclic 的 Gadovist 僅 1 例（且組織病理變化存疑）。\n\n(A) **Omniscan（正解）**:最多 NSF。(B)(C) linear 但案例較少。(D) Dotarem 為 macrocyclic,風險低。\n\n→ [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-184",
+      "year": 2017,
+      "number": 184,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何種 contrast medium 結構為 Macrocyclic Gadolinium-based contrast agents?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gadodiamide (Omniscan)"
+        },
+        {
+          "letter": "B",
+          "text": "Gadoterate meglumine (Dotarem)"
+        },
+        {
+          "letter": "C",
+          "text": "Gadobenate dimeglumine (MultiHance)"
+        },
+        {
+          "letter": "D",
+          "text": "Gadoxetate disodium (Eovist/Primovist)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Caravan P, Lenkinski RE. Primer on gadolinium chemistry. J Magn Reson Imaging 2009;30:1240-1248",
+      "explanation": "**Gadoterate meglumine（Dotarem）為 macrocyclic（環狀）Gd 對比劑**——環狀結構把釓鎖住,穩定度高、NSF/沉積風險低。\n\n(A) Omniscan＝linear non-ionic。(C) MultiHance＝linear ionic。(D) Primovist/Eovist＝linear ionic（肝膽特異）。\n(B) **Dotarem（正解）**:macrocyclic;其他常見 macrocyclic 含 Gadavist(gadobutrol)、ProHance(gadoteridol)。\n\n→ [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
