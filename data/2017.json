@@ -6512,6 +6512,195 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-185",
+      "year": 2017,
+      "number": 185,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "衛福部規定 gadopentetic acid、gadodiamide 及 gadoversetamide 不可用於 GFR 小於多少 mL/min/1.73 m² 之病人?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "30"
+        },
+        {
+          "letter": "B",
+          "text": "45"
+        },
+        {
+          "letter": "C",
+          "text": "60"
+        },
+        {
+          "letter": "D",
+          "text": "90"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；衛福部署授食字第1001404389號（中華民國放射線醫學會公告 689-1）",
+      "explanation": "衛福部規定三種**高風險 linear 釓劑**——gadopentetic acid（Magnevist）、gadodiamide（Omniscan）、gadoversetamide（OptiMARK）**不可用於 GFR < 30 mL/min/1.73 m²** 之病人（NSF 風險）。\n\n(A) **30（正解）**:eGFR<30 屬 CKD 4-5 期,高風險 linear 釓劑禁用。\n(B)(C)(D) 皆非規定門檻。\n\n→ [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-186",
+      "year": 2017,
+      "number": 186,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "對於含碘對比劑，以下敘述何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "離子性對比劑一般為高滲透壓"
+        },
+        {
+          "letter": "B",
+          "text": "非離子性對比劑一般為低滲透壓"
+        },
+        {
+          "letter": "C",
+          "text": "非離子性對比劑副作用發生的機會較低"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆正確"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Barrett BJ et al. N Engl J Med 1992;326(7):431-6（非離子低滲透壓 vs 離子高滲透壓對比劑比較）",
+      "explanation": "三項敘述**皆正確**。\n\n(A) 正確:離子性（ionic）含碘對比劑一般為**高滲透壓**（HOCM，~1500-2000 mOsm/kg）。\n(B) 正確:非離子性（non-ionic）一般為**低滲透壓**（LOCM）。\n(C) 正確:非離子性對比劑**副作用（過敏樣反應）發生率較低**,故臨床多用。\n(D) **以上皆正確（正解）**。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-187",
+      "year": 2017,
+      "number": 187,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "對於含 gadolinium 對比劑，以下敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "具順磁性而增強磁振造影的對比"
+        },
+        {
+          "letter": "B",
+          "text": "結構可分為 macrocyclic 和 linear 兩種"
+        },
+        {
+          "letter": "C",
+          "text": "重複使用含 gadolinium 的對比劑不會蓄積於腦部"
+        },
+        {
+          "letter": "D",
+          "text": "Gadopentetic acid、gadodiamide 及 gadoversetamide 不可用於慢性嚴重腎臟疾病（GFR < 30 mL/min/1.73 m²）或急性腎損傷之病人"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；US FDA Drug Safety Communication (ucm455386)；Kanda T et al. Radiology 2014",
+      "explanation": "**重複使用含釓對比劑『會』蓄積於腦部**（齒狀核、蒼白球 T1WI 高訊號;linear > macrocyclic、劑量依賴）,故「不會蓄積」為錯。\n\n(A) 正確:釓為順磁性,縮短 T1 增強對比。\n(B) 正確:結構分 macrocyclic（環狀）與 linear（線狀）。\n(C) **錯誤（正解）**:重複注射後釓會沉積於腦（即使腎功能正常）。\n(D) 正確:三種高風險 linear 釓劑禁用於 eGFR<30 或急性腎損傷（NSF 風險）。\n\n→ [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-188",
+      "year": 2017,
+      "number": 188,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the normal mean pressure of pulmonary artery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10 mmHg"
+        },
+        {
+          "letter": "B",
+          "text": "15 mmHg"
+        },
+        {
+          "letter": "C",
+          "text": "20 mmHg"
+        },
+        {
+          "letter": "D",
+          "text": "25 mmHg"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Herring W. Learning Radiology, 3rd ed., pp.120-121",
+      "explanation": "正常**肺動脈平均壓約 15 mmHg**（收縮 15-30／舒張 4-12 mmHg）。\n\n(A) 10 偏低。(B) **15（正解）**:正常肺動脈平均壓。(C) 20 已達肺高壓門檻（新定義）。(D) 25 為傳統肺高壓定義門檻。\n\n肺高壓定義為靜息平均 PAP ≥20 mmHg（傳統 ≥25）。\n\n→ [[cardiac-hemodynamic-pressures]]",
+      "images": [],
+      "concepts": [
+        "cardiac-hemodynamic-pressures"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-189",
+      "year": 2017,
+      "number": 189,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is the most common intracavitary cardiac mass?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myxoma."
+        },
+        {
+          "letter": "B",
+          "text": "Sarcoma."
+        },
+        {
+          "letter": "C",
+          "text": "Metastasis."
+        },
+        {
+          "letter": "D",
+          "text": "Thrombus."
+        },
+        {
+          "letter": "E",
+          "text": "Lipoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Leipsic JA, Heyneman LE, Kim RJ. Cardiac masses and myocardial diseases. In: Cardiopulmonary imaging syllabus 2005, ARRS 2005:1-13",
+      "explanation": "**血栓（thrombus）為最常見的心腔內（intracavitary）腫塊**,遠多於任何腫瘤。\n\n(A) Myxoma:最常見原發心臟『腫瘤』（成人）,但非整體心腔內腫塊之最。\n(B) Sarcoma:原發惡性最多但少見。\n(C) Metastasis:整體心臟腫『瘤』最常見來源,但多侵犯心包/心肌,非腔內為主。\n(D) **Thrombus（正解）**:最常見心腔內腫塊;first-pass 與 LGE 皆不強化可與腫瘤區分。\n\n→ [[cardiac-tumors]]",
+      "images": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

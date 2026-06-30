@@ -22,6 +22,7 @@ down:
 - **最常見『瓣膜』腫瘤＝papillary fibroelastoma**（見 [[papillary-fibroelastoma]]）。
 - **最常見原發『惡性』心臟瘤＝sarcoma**（angiosarcoma 最多）。
 - **整體最常見心臟腫塊＝轉移（metastasis）**，遠多於原發腫瘤。
+- **最常見『心腔內（intracavitary）』腫塊＝血栓（thrombus）**，遠多於任何腫瘤；故問「intracavitary cardiac mass」最常見答 thrombus（非 myxoma）。血栓 first-pass 與 LGE 皆不強化。[^9]
 - Lipoma 亦為常見良性，但非最常見原發。
 
 > [!note] 「最常見」一次釐清
