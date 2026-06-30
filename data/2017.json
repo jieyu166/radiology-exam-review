@@ -7441,6 +7441,117 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-210",
+      "year": 2017,
+      "number": 210,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者非 Developmental dysplasia of the hip 之 risk factor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Male gender"
+        },
+        {
+          "letter": "B",
+          "text": "Family history"
+        },
+        {
+          "letter": "C",
+          "text": "Breech presentation"
+        },
+        {
+          "letter": "D",
+          "text": "Oligohydramnios"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；USPSTF. Screening for Developmental Dysplasia of the Hip. Pediatrics 2006;117(3):898-902",
+      "explanation": "**男性（male gender）非 DDH 危險因子——女性才是**（M:F≈1:8）。\n\n(A) **非危險因子（正解）**:女性為危險因子,非男性。\n(B) Family history:危險因子。\n(C) Breech presentation（臀位產）:危險因子。\n(D) Oligohydramnios（羊水過少）:危險因子。\n\n→ [[developmental-dysplasia-hip]]",
+      "images": [],
+      "concepts": [
+        "developmental-dysplasia-hip"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-211",
+      "year": 2017,
+      "number": 211,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者為 diagnostic modality of choice prior to ossification of the proximal femoral epiphysis in patients with developmental dysplasia of the hip?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Plain radiograph"
+        },
+        {
+          "letter": "B",
+          "text": "Ultrasound"
+        },
+        {
+          "letter": "C",
+          "text": "CT"
+        },
+        {
+          "letter": "D",
+          "text": "MRI"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Noordin S et al. Developmental dysplasia of the hip. Orthop Rev 2010;2(2):e19",
+      "explanation": "**股骨頭近端骨骺骨化（約 4-6 個月）前，超音波（US, Graf 法）為首選影像**。\n\n(A) Plain radiograph:骨化後才有用（骨化前股骨頭未顯影）。\n(B) **Ultrasound（正解）**:骨化前首選,可動態評估髖臼形態與穩定度。\n(C) CT、(D) MRI:非第一線,用於術前/復位後評估。\n\n→ [[developmental-dysplasia-hip]]",
+      "images": [],
+      "concepts": [
+        "developmental-dysplasia-hip"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-212",
+      "year": 2017,
+      "number": 212,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者非數位乳房攝影使用的靶極/濾片 (target/filter) 組合?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mo/Mo"
+        },
+        {
+          "letter": "B",
+          "text": "W/Ag"
+        },
+        {
+          "letter": "C",
+          "text": "Rh/Mo"
+        },
+        {
+          "letter": "D",
+          "text": "W/Rh"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Bushberg JT et al. The Essential Physics of Medical Imaging, 3rd ed., pp.244-246",
+      "explanation": "**Rh/Mo（銠陽極＋鉬濾片）非有效的乳攝靶/濾片組合**——若以 Mo 濾片配 Rh 陽極,Mo 濾片 K-edge（~20 keV）以上會衰減 Rh 陽極的特徵 X 光（20.3、22.7 keV）,反而濾掉有用射束。\n\n(A) Mo/Mo:最常用組合。(B) W/Ag:數位乳攝常用。(C) **Rh/Mo（正解）**:無效組合。(D) W/Rh:數位乳攝常用。\n\n→ [[mammography-physics]]",
+      "images": [],
+      "concepts": [
+        "mammography-physics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
