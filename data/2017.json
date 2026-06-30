@@ -5205,6 +5205,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-150",
+      "year": 2017,
+      "number": 150,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement is WRONG about pulmonary interstitial emphysema?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sudden deterioration in patients during mechanical ventilation."
+        },
+        {
+          "letter": "B",
+          "text": "Air-block phenomenon is particularly common in the elderly."
+        },
+        {
+          "letter": "C",
+          "text": "Pseudocyst or pneumothorax may happen."
+        },
+        {
+          "letter": "D",
+          "text": "Bilateral symmetrical distribution is typical."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology Review Manual 7th ed., p.532",
+      "explanation": "正解 **B**（錯誤）。PIE 的 air-block 現象好發**新生兒（早產、機械通氣）**，非老年。通氣中突然惡化(A)、可併 pseudocyst/氣胸(C)、雙側對稱(D)皆正確。\n\n→ [[pulmonary-interstitial-emphysema]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-interstitial-emphysema"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-151",
+      "year": 2017,
+      "number": 151,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pulmonary hamartoma, which of the following statement is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hamartoma occasionally occurs endobronchially and produces obstructive symptoms."
+        },
+        {
+          "letter": "B",
+          "text": "The characteristic calcification of hamartoma is a lamellated appearance."
+        },
+        {
+          "letter": "C",
+          "text": "The presence of fat (-50 to -150 HU) is helpful in making this diagnosis."
+        },
+        {
+          "letter": "D",
+          "text": "It may contain bone, vessels, and smooth muscle components."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Thoracic Radiology: The Requisites 2nd ed., p.253",
+      "explanation": "正解 **B**（不正確）。肺錯構瘤特徵鈣化為 **popcorn（爆米花）**，非 lamellated。偶支氣管內致阻塞(A)、脂肪密度(-50~-150 HU)助診斷(C)、含骨/血管/平滑肌(D)皆正確。\n\n→ [[pulmonary-hamartoma]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-hamartoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-152",
+      "year": 2017,
+      "number": 152,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pulmonary amyloidosis, which of the following statement is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amyloid has typical birefringence with polarization microscopy."
+        },
+        {
+          "letter": "B",
+          "text": "It can occur in the tracheobronchial tree as well as lung parenchyma."
+        },
+        {
+          "letter": "C",
+          "text": "In nodular form, calcification occurs in 30-50% of patients."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Thoracic Radiology: The Requisites 2nd ed., p.253",
+      "explanation": "正解 **D**（以上皆正確）。amyloid 偏光顯微鏡有 birefringence(A)、可侵犯氣管支氣管樹與肺實質(B)、結節型約 30-50% 鈣化(C)，三者皆正確。\n\n→ [[pulmonary-amyloidosis]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-amyloidosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-153",
+      "year": 2017,
+      "number": 153,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding lung tumors, which of the following statement is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Leiomyoma is usually solitary, well-circumscribed, and may occasionally calcify."
+        },
+        {
+          "letter": "B",
+          "text": "In diffuse infiltrative amyloidosis, fine linear, nodular, or reticulonodular pattern may be observed."
+        },
+        {
+          "letter": "C",
+          "text": "Calcification is identified in approximately 75% of hamartoma on CT."
+        },
+        {
+          "letter": "D",
+          "text": "Small cell lung cancer usually has massive bilateral mediastinal adenopathy."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Thoracic Radiology: The Requisites 2nd ed., p.253-257",
+      "explanation": "正解 **C**（不正確）。肺錯構瘤 CT 鈣化僅約 **30-40%**，非 75%。leiomyoma 孤立可鈣化(A)、瀰漫型 amyloidosis 呈 fine linear/nodular/reticulonodular(B)、SCLC 大量雙側縱膈淋巴腫(D)皆正確。\n\n→ [[pulmonary-hamartoma]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-hamartoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-154",
+      "year": 2017,
+      "number": 154,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding lung malignancy, which of the following statement is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "About two thirds of adrenal masses identified by CT in lung cancer patients are benign."
+        },
+        {
+          "letter": "B",
+          "text": "Most typical carcinoid tumors show calcifications on CT."
+        },
+        {
+          "letter": "C",
+          "text": "Pleural effusion in non-Hodgkin lymphoma is most likely caused by central lymphatic obstruction."
+        },
+        {
+          "letter": "D",
+          "text": "Pulmonary involvement in Hodgkin disease usually presents as ill-defined nodules along bronchovascular bundles."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Thoracic Radiology: The Requisites 2nd ed., p.268-277",
+      "explanation": "正解 **B**（不正確）。Typical carcinoid 鈣化**少見（約 20-30%，central 40%）**，非「大多顯鈣化」。肺癌病人腎上腺腫塊 2/3 良性(A)、NHL 胸水源自中央淋巴阻塞(C)、Hodgkin 沿支氣管血管束(D)皆正確。\n\n→ [[pulmonary-malignancy-pearls]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-malignancy-pearls"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
