@@ -4874,80 +4874,6 @@
       ]
     },
     {
-      "id": "2017-134",
-      "year": 2017,
-      "number": 134,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "Which MRI image finding of uterine cervical cancer does NOT affect cancer TNM staging?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Tumor invasion to the uterine body."
-        },
-        {
-          "letter": "B",
-          "text": "Tumor invasion to the parametrium."
-        },
-        {
-          "letter": "C",
-          "text": "Hydronephrosis."
-        },
-        {
-          "letter": "D",
-          "text": "Pelvic lymphadenopathy."
-        }
-      ],
-      "correctAnswer": "A",
-      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.3-20~25",
-      "explanation": "正解 **A**。**侵犯子宮體（uterine body）不改變子宮頸癌的 FIGO/TNM 分期**。parametrium 侵犯(→IIB，B)、hydronephrosis(→IIIB，C)、pelvic lymphadenopathy(N 分期，D)皆影響分期。\n\n→ [[cervical-cancer-staging]]",
-      "images": [],
-      "concepts": [
-        "cervical-cancer-staging"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-135",
-      "year": 2017,
-      "number": 135,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "Which of the following is NOT a typical image finding of polycystic ovary syndrome on MRI?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Enlarged ovaries."
-        },
-        {
-          "letter": "B",
-          "text": "Multiple follicles at the central part of the ovary."
-        },
-        {
-          "letter": "C",
-          "text": "Usually bilateral."
-        },
-        {
-          "letter": "D",
-          "text": "All of the above are typical image findings."
-        }
-      ],
-      "correctAnswer": "B",
-      "reference": "官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.7-186~187",
-      "explanation": "正解 **B**（不是典型）。PCOS 濾泡呈**周邊排列(string of pearls)**，非卵巢中央。卵巢腫大(A)、通常雙側(C)皆為典型。\n\n→ [[polycystic-ovary-syndrome]]",
-      "images": [],
-      "concepts": [
-        "polycystic-ovary-syndrome"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
       "id": "2017-136",
       "year": 2017,
       "number": 136,
@@ -5015,191 +4941,6 @@
       "images": [],
       "concepts": [
         "peritoneal-inclusion-cyst"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-138",
-      "year": 2017,
-      "number": 138,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "Which statement best describes adrenal cortical nodular hyperplasia?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "It does not occur with adrenal cortical adenomas."
-        },
-        {
-          "letter": "B",
-          "text": "It increases in prevalence with age."
-        },
-        {
-          "letter": "C",
-          "text": "It is most commonly focal."
-        },
-        {
-          "letter": "D",
-          "text": "It is most commonly unilateral."
-        }
-      ],
-      "correctAnswer": "B",
-      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
-      "explanation": "正解 **B**。腎上腺結節性增生**隨年齡盛行率增加**。可與腺瘤並存(A 誤)、多瀰漫非局灶(C 誤)、多雙側非單側(D 誤)。\n\n→ [[adrenal-lesions]]",
-      "images": [],
-      "concepts": [
-        "adrenal-lesions"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-139",
-      "year": 2017,
-      "number": 139,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "What is the most likely cause of increased signal intensity within an adrenal pseudocyst on T1-weighted MR images?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Fat."
-        },
-        {
-          "letter": "B",
-          "text": "Hemorrhage."
-        },
-        {
-          "letter": "C",
-          "text": "Calcification."
-        },
-        {
-          "letter": "D",
-          "text": "Simple fluid."
-        }
-      ],
-      "correctAnswer": "B",
-      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
-      "explanation": "正解 **B**。Adrenal pseudocyst T1WI 內高訊號最可能源自**出血(hemorrhage)**（假性囊腫常為出血後）。非脂肪、鈣化或單純液。\n\n→ [[adrenal-lesions]]",
-      "images": [],
-      "concepts": [
-        "adrenal-lesions"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-140",
-      "year": 2017,
-      "number": 140,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "Up to what percentage of pheochromocytomas contains calcifications?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "10%."
-        },
-        {
-          "letter": "B",
-          "text": "30%."
-        },
-        {
-          "letter": "C",
-          "text": "50%."
-        },
-        {
-          "letter": "D",
-          "text": "70%."
-        }
-      ],
-      "correctAnswer": "A",
-      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
-      "explanation": "正解 **A**。約 **10%** 的嗜鉻細胞瘤含鈣化。\n\n→ [[adrenal-lesions]]",
-      "images": [],
-      "concepts": [
-        "adrenal-lesions"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-141",
-      "year": 2017,
-      "number": 141,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "Which of the following conditions is most likely to manifest as well-defined bilateral adrenal masses or enlargement?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Adrenal cortical carcinoma."
-        },
-        {
-          "letter": "B",
-          "text": "Adrenal cortical adenoma."
-        },
-        {
-          "letter": "C",
-          "text": "Adrenal infection."
-        },
-        {
-          "letter": "D",
-          "text": "Adrenal oncocytoma."
-        }
-      ],
-      "correctAnswer": "C",
-      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
-      "explanation": "正解 **C**。**Adrenal infection（如組織漿菌、結核）常造成雙側腎上腺腫塊/腫大**。adrenal cortical carcinoma(A)、adenoma(B)、oncocytoma(D)多為單側。\n\n→ [[adrenal-lesions]]",
-      "images": [],
-      "concepts": [
-        "adrenal-lesions"
-      ],
-      "checked": false,
-      "years": [
-        2017
-      ]
-    },
-    {
-      "id": "2017-142",
-      "year": 2017,
-      "number": 142,
-      "subspecialty": "ABD",
-      "subspecialty_confidence": "high",
-      "questionText": "What is the most common cause of adrenal hemorrhage in adults?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Stress."
-        },
-        {
-          "letter": "B",
-          "text": "Bleeding diathesis."
-        },
-        {
-          "letter": "C",
-          "text": "Blunt trauma."
-        },
-        {
-          "letter": "D",
-          "text": "Adrenal mass."
-        }
-      ],
-      "correctAnswer": "C",
-      "reference": "官方 2017 詳解；RadioGraphics 2014;34(3):805-29",
-      "explanation": "正解 **C**。成人腎上腺出血最常見原因為**鈍挫傷(blunt trauma)**。\n\n→ [[adrenal-lesions]]",
-      "images": [],
-      "concepts": [
-        "adrenal-lesions"
       ],
       "checked": false,
       "years": [
@@ -5348,6 +5089,117 @@
       "images": [],
       "concepts": [
         "brodie-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-147",
+      "year": 2017,
+      "number": 147,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding intracranial dural arteriovenous fistula, which of the following descriptions is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common location is the transverse-sigmoid sinus."
+        },
+        {
+          "letter": "B",
+          "text": "The most common clinical presentation is pulsatile tinnitus."
+        },
+        {
+          "letter": "C",
+          "text": "Endovascular treatment is generally more effective than radiosurgery."
+        },
+        {
+          "letter": "D",
+          "text": "It is considered a congenital disease."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Handbook of Cerebrovascular Disease and Neurointerventional Technique, Ch.15",
+      "explanation": "正解 **D**（錯誤）。**dAVF 多為後天性**（常伴靜脈竇栓塞），非先天。最常見於 transverse-sigmoid sinus(A)、最常見症狀 pulsatile tinnitus(B)、血管內栓塞常較放射手術有效(C)皆正確。\n\n→ [[dural-avf]]",
+      "images": [],
+      "concepts": [
+        "dural-avf"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-148",
+      "year": 2017,
+      "number": 148,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "MRI is the most sensitive tool to detect brain metastasis, but not perfect. Which strategy can NOT increase sensitivity for detection of brain or leptomeningeal metastasis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increased dosage of contrast medium."
+        },
+        {
+          "letter": "B",
+          "text": "Add FLAIR image after contrast medium injection."
+        },
+        {
+          "letter": "C",
+          "text": "Use 3D T1W imaging with thin-slice delayed image."
+        },
+        {
+          "letter": "D",
+          "text": "Add DWI image after contrast injection."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Cancer Imaging 2014;14:8",
+      "explanation": "正解 **D**。**顯影後加 DWI 不提升腦/軟腦膜轉移偵測敏感度**。加大對比劑量(A)、post-contrast FLAIR(B)、3D T1W 薄切延遲(C)皆可提升。\n\n→ [[brain-metastasis-mri]]",
+      "images": [],
+      "concepts": [
+        "brain-metastasis-mri"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-149",
+      "year": 2017,
+      "number": 149,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding hypoxic ischemic encephalopathy (HIE), which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mild HIE may affect only the watershed zones."
+        },
+        {
+          "letter": "B",
+          "text": "Hippocampi may be affected in severe HIE."
+        },
+        {
+          "letter": "C",
+          "text": "White cerebellum sign suggests good prognosis."
+        },
+        {
+          "letter": "D",
+          "text": "Delayed leukoencephalopathy may result in diffuse T2 prolongation in the subcortical white matter."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2011;31:5-30",
+      "explanation": "正解 **C**（為非）。**White cerebellum sign 代表嚴重 HIE、預後差**，非預後好。輕度影響 watershed(A)、嚴重影響海馬(B)、delayed leukoencephalopathy 致皮質下白質 T2 延長(D)皆正確。\n\n→ [[hypoxic-ischemic-encephalopathy]]",
+      "images": [],
+      "concepts": [
+        "hypoxic-ischemic-encephalopathy"
       ],
       "checked": false,
       "years": [
