@@ -3254,10 +3254,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "沒有180度 MRI圖解 p.36 Ref: [IMAIOS](https://www.imaios.com/en/e-Courses/e-MRI/MRI-Sequences/gradient-echo)",
+      "reference": "官方 2017 詳解；IMAIOS, MRI Sequences: Gradient Echo",
+      "explanation": "**B（Gradient echo）**——僅見重複可變小翻轉角(α°)脈衝、無180度重聚脈衝，回訊靠梯度反轉產生。\n\n(A) Spin echo:需90+180度脈衝,非本圖。\n(B) **正解**。\n(C) Inversion recovery:需額外180度反轉預備脈衝,非本圖。\n(D) Hybrid echo:非本圖型態。\n\n→ [[mri-pulse-sequence-identification]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mri-pulse-sequence-identification"
+      ],
       "checked": false
     },
     {
@@ -3289,10 +3291,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "MRI圖解 p.29 Ref: [IMAIOS](https://www.imaios.com/en/e-Courses/e-MRI/MRI-Sequences/gradient-echo)",
+      "reference": "官方 2017 詳解；IMAIOS, MRI Sequences: Fast Spin Echo",
+      "explanation": "**A（Spin echo，Fast Spin Echo型態）**——90度激發後接續多個180度重聚脈衝，各自產生回訊填入k空間不同列。\n\n(A) **正解**。\n(B) Gradient echo:無180度重聚脈衝,非本圖。\n(C) Inversion recovery:需額外反轉預備脈衝,非本圖。\n(D) Echo planar imaging:單次激發多回訊靠梯度切換非RF重聚,非本圖。\n\n→ [[mri-pulse-sequence-identification]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mri-pulse-sequence-identification"
+      ],
       "checked": false
     },
     {
@@ -11958,6 +11962,339 @@
       "images": [],
       "concepts": [
         "chemical-shift-artifact"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-330",
+      "year": 2017,
+      "number": 330,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is the characteristic of pheochromocytoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GRE T1-weighted chemical shift out-of-phase imaging shows loss of signal intensity (pheochromocytomas do not contain a large amount of intracellular lipid)"
+        },
+        {
+          "letter": "B",
+          "text": "Most lesions show intense enhancement after the administration of contrast material"
+        },
+        {
+          "letter": "C",
+          "text": "Most lesions demonstrate low signal intensity on T2-weighted images (high, lightbulb sign)"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation, RadioGraphics 2004;24:S73-S86",
+      "explanation": "**B（多數病灶顯著強化）**——pheochromocytoma不含大量微觀脂肪,反相位無訊號掉落;T2WI典型呈高訊號(lightbulb sign),非低訊號。\n\n(A) 反相位不會訊號掉落:A敘述為錯誤描述。\n(B) **正解**。\n(C) T2應為高訊號非低訊號。\n(D) 不適用。\n\n→ [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-331",
+      "year": 2017,
+      "number": 331,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Larmor equation 表示 magnetic moment vector 的 precession frequency 與外加磁場的關係如下 ω₀=γB₀，請於下圖選擇 precession 的方向為何",
+      "options": [
+        {
+          "letter": "A",
+          "text": "圖中A方向（與μ向量固定夾角、環繞B₀軸的圓錐狀進動路徑）"
+        },
+        {
+          "letter": "B",
+          "text": "圖中B方向"
+        },
+        {
+          "letter": "C",
+          "text": "圖中C方向"
+        },
+        {
+          "letter": "D",
+          "text": "圖中D方向"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Magnetic Resonance Imaging, Physical Principles and Sequence Design, 1999, p.3-4",
+      "explanation": "**A**——呈現與μ向量固定夾角、環繞B₀軸的圓錐狀進動路徑，符合陀螺般錐狀擺動的物理定義。\n\n→ [[mri-larmor-precession]]",
+      "images": [],
+      "concepts": [
+        "mri-larmor-precession"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-332",
+      "year": 2017,
+      "number": 332,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "When patient with abnormal low PT or INR on schedule for vascular intervention, best strategy for correction is fresh frozen plasma given at:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 days before vascular intervention"
+        },
+        {
+          "letter": "B",
+          "text": "The night before vascular intervention"
+        },
+        {
+          "letter": "C",
+          "text": "Shortly before and/or during vascular intervention"
+        },
+        {
+          "letter": "D",
+          "text": "The second day after vascular intervention"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.40",
+      "explanation": "**C（緊接手術前及/或手術中）**——FFP效果短暫,須緊鄰手術時機給予才能於操作當下提供足夠矯正效果。\n\n(A)(B)(D) 皆因給予時機與手術操作時間相距過遠,凝血因子效果已消退或尚未發揮作用。\n(C) **正解**。\n\n→ [[periprocedural-coagulopathy-correction]]",
+      "images": [],
+      "concepts": [
+        "periprocedural-coagulopathy-correction"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-333",
+      "year": 2017,
+      "number": 333,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Using balloon catheter for vascular intervention, which one of the following carry the greatest risk for vascular rupture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Low compliance balloon in small vessel"
+        },
+        {
+          "letter": "B",
+          "text": "Low compliance balloon in large vessel"
+        },
+        {
+          "letter": "C",
+          "text": "High compliance balloon in large vessel"
+        },
+        {
+          "letter": "D",
+          "text": "High compliance balloon in small vessel"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.75-81",
+      "explanation": "**B（Low compliance balloon in large vessel）**——低順應性氣球充氣壓力增加時直徑變化小、可耐高壓，用於大血管時若尺寸誤判，破裂風險最高。\n\n(A)(C)(D) 風險相對較低。\n(B) **正解**。\n\n→ [[balloon-catheter-compliance]]",
+      "images": [],
+      "concepts": [
+        "balloon-catheter-compliance"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-334",
+      "year": 2017,
+      "number": 334,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "To prevent Contrast Agent–Induced Nephropathy (CIN), the most widely accepted method is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hydration"
+        },
+        {
+          "letter": "B",
+          "text": "Steroid"
+        },
+        {
+          "letter": "C",
+          "text": "Furosemide"
+        },
+        {
+          "letter": "D",
+          "text": "Hemodialysis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.210",
+      "explanation": "⚠️ 官方原答案標示C(Furosemide),頁緣紅筆加註存疑更正「A??」(不確定)。現行共識以Hydration(A)為CIN預防最廣被接受方法;furosemide非推薦常規手段(可能增加腎損傷風險);steroid無充分實證;hemodialysis屬治療性非預防性。建議醫師查證最新指引確認本題最終答案。\n\n→ [[contrast-induced-nephropathy-prevention]]",
+      "images": [],
+      "concepts": [
+        "contrast-induced-nephropathy-prevention"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-335",
+      "year": 2017,
+      "number": 335,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about \"neonatal lung disease\" is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The cause of hyaline membrane disease (HMD) (or respiratory distress syndrome (RDS)) is immature type II alveolar cells"
+        },
+        {
+          "letter": "B",
+          "text": "Pleural effusions should not be seen with HMD"
+        },
+        {
+          "letter": "C",
+          "text": "Retained fetal lung fluid (transient tachypnea of newborn) is caused by inadequate clearance of lung fluid prior to first breath"
+        },
+        {
+          "letter": "D",
+          "text": "Meconium aspiration syndrome usual in preterm infants"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解",
+      "explanation": "**D為偽**——MAS好發足月或過期產嬰兒(非早產兒),發生率隨妊娠週數增加而上升(31週後遞增)。\n\n(A) HMD因第二型肺泡細胞不成熟:真。\n(B) HMD不應合併肋膜積液:真。\n(C) TTN因出生前肺液清除不完全:真。\n(D) **正解(偽)**。\n\n→ [[neonatal-lung-disease]]",
+      "images": [],
+      "concepts": [
+        "neonatal-lung-disease"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-336",
+      "year": 2017,
+      "number": 336,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not the differential diagnosis of bilaterally enlarged kidneys on ultrasound?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nephroblastomatosis"
+        },
+        {
+          "letter": "B",
+          "text": "Polycystic kidney disease"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphoma/Leukemia"
+        },
+        {
+          "letter": "D",
+          "text": "Chronic pyelonephritis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解",
+      "explanation": "**D（Chronic pyelonephritis）**——慢性腎盂腎炎造成腎臟疤痕化萎縮縮小(非腫大)。\n\n(A)(B)(C) 皆為雙側腎臟腫大之常見鑑別診斷。\n(D) **正解**。\n\n→ [[bilateral-enlarged-kidneys-ddx]]",
+      "images": [],
+      "concepts": [
+        "bilateral-enlarged-kidneys-ddx"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-337",
+      "year": 2017,
+      "number": 337,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not the correct description about \"infantile hypertrophic pyloric stenosis(IHPS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Male predominance (Males: females 4:1 to 6:1)"
+        },
+        {
+          "letter": "B",
+          "text": "It typically occurs soon after birth (symptoms usually begin between 3 and 5 weeks of age, and very rarely occur after 12 weeks of age)"
+        },
+        {
+          "letter": "C",
+          "text": "Manifested by non-bilious vomiting"
+        },
+        {
+          "letter": "D",
+          "text": "Radiographic findings include marked gastric dilatation disproportionate to small bowel gas"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解",
+      "explanation": "**B為偽**——IHPS並非出生後不久發病,症狀典型於出生後3-5週開始,極罕見於12週後才發病。\n\n(A) 男性好發4:1至6:1:真。\n(B) **正解(偽)**。\n(C) 非膽汁性嘔吐:真。\n(D) X光顯著胃擴張與小腸氣體量不成比例:真。\n\n→ [[pyloric-stenosis]]",
+      "images": [],
+      "concepts": [
+        "pyloric-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-338",
+      "year": 2017,
+      "number": 338,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not the common cause of bowed legs in children?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physiologic"
+        },
+        {
+          "letter": "B",
+          "text": "Rickets"
+        },
+        {
+          "letter": "C",
+          "text": "Muscular weakness"
+        },
+        {
+          "letter": "D",
+          "text": "Blount disease"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解",
+      "explanation": "**C（Muscular weakness）**——並非弓形腿的常見病因機轉。\n\n(A) Physiologic:最常見病因。\n(B) Rickets:常見病理性病因。\n(C) **正解**。\n(D) Blount disease:脛骨幹骺端-骨骺角度>11度,重要鑑別。\n\n→ [[bowed-legs-children-ddx]]",
+      "images": [],
+      "concepts": [
+        "bowed-legs-children-ddx"
       ],
       "checked": false,
       "years": [

@@ -1,0 +1,35 @@
+---
+concepts: [contrast-induced-nephropathy-prevention]
+name: Contrast-Induced Nephropathy (CIN) Prevention
+subspecialty: [IR, Physics]
+aliases:
+  - CIN prevention
+  - contrast-induced nephropathy
+  - 顯影劑誘發腎病變預防
+dateRev: 2026-07-01
+---
+
+# contrast-induced-nephropathy-prevention
+
+**預防顯影劑誘發腎病變(CIN)目前最廣被接受的方法是「靜脈輸液水化(hydration)」——現行實證醫學已不支持常規使用furosemide（可能因利尿造成有效血容積下降而增加腎損傷風險）或類固醇作為預防手段；血液透析(hemodialysis)僅用於已發生腎衰竭之後的處理，非預防性介入。** ⚠️ 官方詳解原標示答案C（Furosemide），但頁緣以紅筆加註「A??」表達對此答案的疑慮（現行文獻與臨床指引皆以hydration為CIN預防的主流共識，furosemide非公認的預防方法甚至可能有害），此更正本身標示為不確定（雙問號），建議醫師對照原文全段或最新指引確認正確答案。
+
+## Summary
+- **現行共識（第一線）**：**靜脈水化(hydration)**——通常以生理食鹽水或碳酸氫鈉溶液於術前術後給予，為預防CIN**最廣被接受**的方法。[^1]
+- **不建議常規使用**：**Furosemide（利尿劑）**——舊有文獻曾探討其角色，但現行實證認為利尿可能造成有效血容積下降、反而**增加**腎損傷風險，非推薦的預防方法。[^1]
+- **Steroid（類固醇）**：無充分實證支持用於CIN預防。[^1]
+- **Hemodialysis（血液透析）**：屬**治療性**介入（已發生腎衰竭後之處理方式），非**預防性**手段。[^1]
+
+> [!warning] 答案存疑
+> 官方詳解原答案標示為**C（Furosemide）**，但頁緣紅筆加註「**A??**」表達對此答案的不確定。現行臨床指引與文獻共識普遍以**hydration（A）**為CIN預防之主流方法，furosemide並非公認的預防手段。由於官方本身標示此更正為不確定（雙問號），建議醫師查證最新指引（如ESUR Contrast Media Guidelines最新版）以確認本題最終正確答案。[^1]
+
+### 參考來源
+[^1]: 官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.210：CIN預防以hydration為現行最廣被接受方法;furosemide非推薦常規預防手段(可能增加腎損傷風險);hemodialysis屬治療性介入非預防性;官方詳解原標示答案C(Furosemide)但頁緣加註對此存疑之更正「A??」。
+
+## 題目
+> [!question]- To prevent Contrast Agent–Induced Nephropathy (CIN), the most widely accepted method is: (2017-334)
+> ⚠️ 官方原答案標示C（Furosemide），頁緣紅筆加註存疑更正「A??」（不確定）。現行共識以**Hydration（A）**為CIN預防最廣被接受方法；furosemide非推薦常規手段，建議醫師查證最新指引確認本題最終答案。[^1]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "contrast-induced-nephropathy-prevention")
+```

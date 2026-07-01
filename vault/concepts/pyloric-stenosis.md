@@ -42,11 +42,25 @@ dateRev: 2026-06-29
 > [!note] 考點：超音波下正常幽門肌「長度」小於幾 mm？
 > **< 15 mm**（異常為 >15–17 mm）。配合肌壁厚 >3 mm（最準）、橫徑 >14 mm。[^1]
 
+## 臨床特徵補充（2017-337）
+- **性別分布**：**男性好發**，男：女比例約**4:1至6:1**。[^5]
+- **發病時機（易錯點）**：**並非出生後不久發病**——症狀通常於**出生後3-5週**開始，**極罕見於12週後**才出現。[^5]
+- **臨床表現**：**非膽汁性(non-bilious)嘔吐**（因阻塞位置在幽門，膽汁尚未混入）。[^5]
+- **X光表現**：可見**顯著胃擴張**，與遠端小腸氣體量**不成比例地少(disproportionate to small bowel gas)**。[^5]
+
+> [!note] 考點：關於IHPS，何者敘述「為偽」?
+> **B為偽**——IHPS**並非出生後不久發病**，症狀典型於出生後3-5週開始，極罕見於12週後才發病。男性好發4:1至6:1(A)、非膽汁性嘔吐(C)、X光顯著胃擴張與小腸氣體量不成比例(D)皆為真。[^5]
+
 ### 參考來源
 [^1]: *Pyloric stenosis（hypertrophic pyloric stenosis）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：超音波診斷＝**肌壁厚 >3 mm（最準）**、橫徑 >14 mm、**長度 >15–17 mm**、容積 >1.5 cm³。題目另引 Pediatric Imaging: The Fundamentals p.100。
 [^2]: 原始研究（同儕審查期刊，607 例回溯）。Piotto L, Gent R, Taranath A, Bibbo G, Goh DW. *Ultrasound diagnosis of hypertrophic pyloric stenosis – Time to change the criteria.* Australas J Ultrasound Med. 2022;25(3):116-126。據 PubMed 全文（PMC9351432）：幽門管長度為單一最佳判別指標（正常上限約 4.6 mm，HPS 10–24 mm），主張 16 mm 切點下修至 10 mm；54.9% 手術確診 HPS 肌壁厚 < 3 mm（最低 2 mm）；橫徑因重疊大「非有用判別指標」；技術上以鼻胃管注入溫水充盈胃、右側臥取長軸、即時動態觀察蠕動。[DOI](https://doi.org/10.1002/ajum.12305)
 [^3]: 影像個案/實務回顧（同儕審查）。Pokhrel B, Bhatta A, Basnet A, Pokhrel N, Regmi D. *Hypertrophic Pyloric Stenosis in a Four-Week-Old Infant: Radiological Diagnosis and Pitfalls.* Cureus. 2025;17(12):e98606（含 Le Bonheur Children's Hospital 小兒放射作者）。據 PubMed 全文（PMC12776224）：doughnut sign、antral nipple sign、shouldering、caterpillar sign（腹部 X 光）、UGI string sign；切點 canal length >16 mm／diameter >11 mm／circular muscle >2.5 mm，並註早產/較小新生兒切點可下修；DDx＝pylorospasm（可逆有蠕動）、prostaglandin 黏膜增生（只量肌壁）；陷阱＝胃過度充盈致幽門後移偽陰性需右側臥、GEJ 逆流誤判。string/double-track/beak/mushroom 等 UGI 與 antral web／prepyloric membrane 鑑別屬放射學標準教材通識。[DOI](https://doi.org/10.7759/cureus.98606)
 [^4]: 影像徵象短文（同儕審查，Abdominal Radiology）。Indiran V, Selvaraj V. *The cervix sign and other sonographic signs of hypertrophic pyloric stenosis.* Abdom Radiol (NY). 2016;41(10):2085-6（PubMed 索引，文獻型別 Review）：描述 cervix sign——肥厚幽門突入充液胃竇似子宮頸突入陰道穹窿。[DOI](https://doi.org/10.1007/s00261-016-0809-5)
+[^5]: 官方 2017 詳解：IHPS男性好發(4:1至6:1)，症狀典型於出生後3-5週開始(非出生後不久，極罕見12週後發病)，非膽汁性嘔吐，X光呈顯著胃擴張與小腸氣體量不成比例。
+
+## 題目
+> [!question]- Which one is not the correct description about "infantile hypertrophic pyloric stenosis(IHPS)? (2017-337)
+> **B為偽**——IHPS並非出生後不久發病，症狀典型於出生後**3-5週**開始，極罕見於12週後才發病。男性好發(4:1至6:1)、非膽汁性嘔吐、X光顯著胃擴張與小腸氣體量不成比例皆為真。[^5]
 
 ## 考題
 ```dataview
