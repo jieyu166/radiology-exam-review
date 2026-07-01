@@ -8,7 +8,7 @@ aliases:
   - dendriform ossification
   - nodule calcification pattern
   - 肺鈣化
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # pulmonary-calcification
@@ -39,7 +39,7 @@ dateRev: 2026-06-29
   - 塵肺:**矽肺（silicosis）、煤工塵肺**——肺實質結節鈣化＋**蛋殼狀（eggshell）淋巴結鈣化**。
 - **瀰漫性肺骨化（disseminated pulmonary ossification, DPO）**:含真骨小梁(可含骨髓),非單純鈣化。[^2][^5]
   - **樹枝狀（dendriform）**:沿間質／支氣管血管束之**分支狀**緻密影,見於肺纖維化（IPF 等）、amyloidosis。
-  - **結節狀（nodular）**:肺泡內、下肺為主之圓形小結節(1–5 mm),典型見於**慢性肺靜脈高壓（末期二尖瓣狹窄）**——常合併含鐵血黃素沉積。
+  - **結節狀（nodular pulmonary ossification, NPO）**:肺泡內、下肺為主之圓形小結節(1–5 mm),典型見於**慢性肺靜脈高壓（末期二尖瓣狹窄／二尖瓣修補後）**——常合併含鐵血黃素沉積。**與陳舊肉芽腫鑑別：NPO「無」鈣化縱膈/肺門淋巴結＋有心臟病史;陳舊肉芽腫常「伴」鈣化淋巴結。**[^5]
 - **肺泡微石症（pulmonary alveolar microlithiasis, PAM）**:[^5]
   - 機轉:*SLC34A2* 基因突變致肺泡內磷酸鈣微石沉積。
   - 影像:**砂暴外觀（sandstorm appearance）**——瀰漫極細微結節,下肺為重;**黑胸膜線（black pleura sign）**(肋骨下與含鈣肺實質間之低密度脂肪/小囊帶);可見鈣化葉間隔。
@@ -59,7 +59,7 @@ dateRev: 2026-06-29
 [^2]: Thoracic Radiology: The Requisites, 2nd ed., pp.41, 284（Tier 1,題目所引,ClinicalKey 可查）——dendriform interstitial ossification、末期二尖瓣狹窄瀰漫肺骨化/鈣化結節。
 [^3]: *Metastatic pulmonary calcification*. Radiopaedia.org（輔助層級,實際查證 accessed 2026-06-18）：「typically most marked in the **upper lobes** ... higher ventilation-to-perfusion ratio in the apices ... more alkaline」;最常見**慢性腎衰**。
 [^4]: Baratella E, Carbi M, Minelli P, et al. *Calcified Lung Nodules: A Diagnostic Challenge in Clinical Daily Practice.* Tomography. 2025;11(3):28（Tier 2,open access PMC11946818,DOI:10.3390/tomography11030028）——良性占 >10%、popcorn＝hamartoma(15–20%)、偏心＝engulf 既有鈣化、點狀/不定形為肺癌最常見型態(鈣化見於約 6% 肺癌)、骨肉瘤/軟骨肉瘤/黏液腺癌/甲狀腺癌轉移鈣化。
-[^5]: Toussie D, Azour L, Garrana S, et al. *Pulmonary Calcification and Ossification: Pathogenesis, CT Appearance, and Specific Disorders.* RadioGraphics. 2025;45(6):e240110（Tier 1,DOI:10.1148/rg.240110,PMID 40338797;查證為摘要＋RSNA 公開頁層級,全文需訂閱）——calcification vs ossification 機轉與 CT 表現、MPC 上肺好發、dystrophic、DPO（dendriform/nodular）、PAM。佐以 Jarjou'i A, et al. *Diffuse pulmonary calcifications: a case series and review.* Respirol Case Rep. 2021;9(10):e0839（Tier 2,open access PMC8406395,DOI:10.1002/rcr2.839）——MPC centrilobular 毛玻璃微結節、CT 僅 60% 可見鈣化、PAM sandstorm/black pleura/SLC34A2。
+[^5]: Toussie D, Azour L, Garrana S, et al. *Pulmonary Calcification and Ossification: Pathogenesis, CT Appearance, and Specific Disorders.* RadioGraphics. 2025;45(6):e240110（**Tier 1，全文已讀 via 個人訂閱 pubs.rsna.org，accessed 2026-07-01**，DOI:10.1148/rg.240110,PMID 40338797）——calcification vs ossification 機轉與 CT 表現、MPC 上肺好發、dystrophic、DPO（dendriform/nodular NPO）、PAM;**Pattern-oriented Diagnostic Approach（Table 4）：依上/下肺分布＋臨床史收斂，NPO vs 陳舊肉芽腫以「有無鈣化縱膈/肺門淋巴結＋心臟病史」鑑別**。佐以 Jarjou'i A, et al. *Diffuse pulmonary calcifications: a case series and review.* Respirol Case Rep. 2021;9(10):e0839（Tier 2,open access PMC8406395,DOI:10.1002/rcr2.839）——MPC centrilobular 毛玻璃微結節、CT 僅 60% 可見鈣化、PAM sandstorm/black pleura/SLC34A2。
 [^6]: *Eggshell calcification of lymph nodes: an update.* AJR Am J Roentgenol. 1980;135(6):1265（Tier 1,DOI:10.2214/ajr.135.6.1265,查證為摘要層級）——eggshell 經典見矽肺,亦見 sarcoidosis、放療後淋巴瘤、scleroderma、histoplasmosis;shell 厚度 ≤2 mm、至少兩顆淋巴結、其一 >1 cm。
 [^7]: Seo JB, et al. 及 broncholithiasis CT 文獻（Tier 1/2,AJR 1991;157(2):295 DOI:10.2214/ajr.157.2.1853800 與 RadioGraphics broncholithiasis review;查證為摘要層級）——鈣化支氣管內/旁淋巴結侵蝕或壓迫支氣管,薄層 CT(<3 mm)定位、伴阻塞性變化。
 
