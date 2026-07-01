@@ -17,7 +17,9 @@ dateRev: 2026-06-30
 ## Summary
 - **最常見胰臟囊性病灶＝pseudocyst**;**內無 vascularized soft tissue component（無強化壁結節/實質）**。[^1]
 - **Serous cystadenoma（漿液性）**：**良性**,微囊（microcystic）蜂巢狀±中央星狀疤痕/鈣化;**多觀察、不需馬上切除**（切除後不復發）。[^1]
-- **Mucinous cystic neoplasm（MCN）**：中年女性、胰體尾、單/寡房、周邊鈣化 → **有惡性潛能**,常需切除。
+- **Mucinous cystic neoplasm（MCN）**：中年女性、胰體尾、單/寡房、周邊鈣化 → **有惡性潛能**,常需切除。**好發女性（female predominance），非男性**。[^2]
+- **IPMN**（補充）：常見發生於**胰頭與鉤突（uncinate process）**。[^2]
+- **Serous cystadenoma**（補充）：典型為**微囊病灶合併中央纖維疤痕與鈣化**。[^2]
 - **IPMN**：與**胰管相通**;主胰管型惡性風險高;**MRI/MRCP 描述 IPMN 與胰管關係優於 CT**。[^1]
 - **高危徵象**：強化壁結節、主胰管擴張（>5-10 mm）、實質成分 → 偏惡性。
 
@@ -26,6 +28,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Sahani DV et al. MR Imaging of Cystic Lesions of the Pancreas. RadioGraphics 2009;29(6):1749-1765：最常見囊性病灶為 pseudocyst（無血管化軟組織）;serous cystadenoma 良性多觀察;MRI/MRCP 評估 IPMN 與胰管關係優於 CT;mucinous/IPMN 具惡性潛能。
+[^2]: 2019 交換考詳解；AJR 2013;200:343-54：IPMN好發胰頭與鉤突；mucinous cystadenoma好發胰尾、女性優勢（非男性）；serous cystadenoma典型為微囊病灶合併中央纖維疤痕與鈣化；神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變。
 
 ## 題目
 > [!question]- 關於胰臟囊性病灶,何者敘述「為非」? (2017-194)

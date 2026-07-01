@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 131,
+  "totalQuestions": 137,
   "questions": [
     {
       "id": "2019-001",
@@ -4757,6 +4757,232 @@
       "images": [],
       "concepts": [
         "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-132",
+      "year": 2019,
+      "number": 132,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the modifier for a vulnerable plaque in CAD-RADS reporting and data system for patients presenting with stable chest pain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"G\""
+        },
+        {
+          "letter": "B",
+          "text": "\"P\""
+        },
+        {
+          "letter": "C",
+          "text": "\"S\""
+        },
+        {
+          "letter": "D",
+          "text": "\"V\""
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；J Cardiovasc Comput Tomogr. 2016 Jul-Aug;10(4):269-81",
+      "explanation": "正確答案為 **D「V」**。CAD-RADS（1.0版）對高風險/易損斑塊（vulnerable plaque）之modifier為「V」，於2.0版（2022）改稱為HRP。詳見 [[ccta]]。",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-133",
+      "year": 2019,
+      "number": 133,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "What should be the main reason to obtain a chest CT in the setting of possible acute traumatic aortic injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abnormal chest radiograph"
+        },
+        {
+          "letter": "B",
+          "text": "Mechanism of trauma"
+        },
+        {
+          "letter": "C",
+          "text": "Patient request"
+        },
+        {
+          "letter": "D",
+          "text": "Chest pain"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Creasy JD, Chiles C, Routh WD et al. Overview of traumatic injury of the thoracic aorta. Radiographics. 17(1):27-45",
+      "explanation": "正確答案為 **B**。安排胸部CT評估急性外傷性主動脈損傷的主要依據是受傷機轉（mechanism of trauma），而非單純依賴異常胸部X光、胸痛或病人要求。詳見 [[traumatic-aortic-injury]]。",
+      "images": [],
+      "concepts": [
+        "traumatic-aortic-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-134",
+      "year": 2019,
+      "number": 134,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statement about Bland-White-Garland Syndrome is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anomalous origin of right main coronary artery from pulmonary artery (ARCAPA)"
+        },
+        {
+          "letter": "B",
+          "text": "In contrast to adult type, the infant type is characterized by abundant interarterial collateral vessels between the RCA and the LCA"
+        },
+        {
+          "letter": "C",
+          "text": "It results in the \"coronary steal\" phenomenon, in which a right-to-left shunt leads to abnormal left ventricular perfusion."
+        },
+        {
+          "letter": "D",
+          "text": "Patient may present with mitral insufficiency due to ischemic dysfunction of the papillary muscles and adjacent myocardium."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Peña E, Nguyen ET, Merchant N, Dennie C. ALCAPA syndrome: not just a pediatric disease. Radiographics. 2009 Mar-Apr;29(2):553-65",
+      "explanation": "正確答案為 **D**。Bland-White-Garland syndrome患者可因乳頭肌與鄰近心肌缺血性功能障礙而出現二尖瓣閉鎖不全。本病為ALCAPA（左冠脈異常起源，非ARCAPA）；嬰兒型側支循環發育不足（非豐富）；分流方向為左向右（非右向左）。詳見 [[alcapa-bland-white-garland]]。",
+      "images": [],
+      "concepts": [
+        "alcapa-bland-white-garland"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-135",
+      "year": 2019,
+      "number": 135,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What's WRONG about the description of pancreatic cystic lesions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intraductal papillary mucinous neoplasm usually develops at pancreatic head and uncinate process."
+        },
+        {
+          "letter": "B",
+          "text": "Mucinous cystadenoma has a predilection of location at the tail portion with male predominance."
+        },
+        {
+          "letter": "C",
+          "text": "A microcystic lesion with central fibrous scar and calcifications are typical serous cystadenoma."
+        },
+        {
+          "letter": "D",
+          "text": "Neuroendocrine tumor or ductal adenocarcinoma can also present with central cystic change."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；AJR 2013;200:343-54",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Mucinous cystadenoma好發胰尾，但為**女性優勢（female predominance）**，並非男性。IPMN好發胰頭與鉤突、serous cystadenoma典型微囊合併中央疤痕鈣化、神經內分泌腫瘤或胰管腺癌可表現中央囊性變等敘述皆正確。詳見 [[pancreatic-cystic-lesions]]。",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-136",
+      "year": 2019,
+      "number": 136,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is NOT correct about GIST (gastrointestinal stromal tumor)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Large gastric GIST with central necrosis and ulceration should be differentiated with gastric lymphoma."
+        },
+        {
+          "letter": "B",
+          "text": "The common sites of GIST location are stomach > colon > retroperitoneum > mesentery > small intestine"
+        },
+        {
+          "letter": "C",
+          "text": "lymphadenopathy is uncommon for GIST"
+        },
+        {
+          "letter": "D",
+          "text": "GIST resoponding to Imatinib therapy shows cystic change with myxoid degeneration and scarring."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Acta Radiologica 2009;50(8):837-44",
+      "explanation": "正確答案為 **B**（錯誤敘述）。GIST好發部位頻率為胃（55.6%）>**小腸（31.8%）**>大腸直腸（6.0%）>其他（5.5%）>食道（0.7%），小腸為第二常見，並非大腸/後腹腔/腸繫膜。詳見 [[gist-imaging]]。",
+      "images": [],
+      "concepts": [
+        "gist-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-137",
+      "year": 2019,
+      "number": 137,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About testicular cancer, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Testicular seminoma is the most common subtype of testicular cancer."
+        },
+        {
+          "letter": "B",
+          "text": "Testicular seminoma is highly curable even at advanced stages. The most common stage at presentation is stage I disease."
+        },
+        {
+          "letter": "C",
+          "text": "At Doppler US, seminoma demonstrates increased vascularity compared with adjacent normal testis."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiographics 2017;37:1085-1098",
+      "explanation": "正確答案為 **D（All of the above）**。Seminoma為睪丸癌最常見亞型、即使晚期仍高度可治癒(>90%)且最常見表現為第一期、Doppler US呈現血流增加，皆正確。詳見 [[testicular-seminoma]]。",
+      "images": [],
+      "concepts": [
+        "testicular-seminoma"
       ],
       "checked": false
     }
