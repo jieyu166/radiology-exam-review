@@ -9555,6 +9555,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-267",
+      "year": 2017,
+      "number": 267,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Using Ultrasound Harmonics what change do we see in the wavelength?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is quadrupled"
+        },
+        {
+          "letter": "B",
+          "text": "It is halved"
+        },
+        {
+          "letter": "C",
+          "text": "It is quartered"
+        },
+        {
+          "letter": "D",
+          "text": "It is doubled"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Abdomen 100 question exam",
+      "explanation": "**第二諧波頻率為基頻兩倍，依頻率與波長成反比關係，波長減半**。\n\n(A)(C) 錯:非四倍或四分之一。\n(B) **正解**:波長減半。\n(D) 錯:波長非加倍（頻率才是加倍）。\n\n→ [[ultrasound-harmonics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-harmonics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-268",
+      "year": 2017,
+      "number": 268,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "The anechoic structure lying anterior to the inferior vena cava and posterior to the liver most likely represents the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "main portal vein"
+        },
+        {
+          "letter": "B",
+          "text": "gallbladder"
+        },
+        {
+          "letter": "C",
+          "text": "right hepatic vein"
+        },
+        {
+          "letter": "D",
+          "text": "superior mesenteric vein"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, 2nd ed., p.208",
+      "explanation": "依主葉裂（連接膽囊窩與IVC/中肝靜脈）解剖關係，此位置最可能代表**膽囊**。\n\n(A) main portal vein、(C) right hepatic vein、(D) superior mesenteric vein 皆非此描述下的最佳答案。\n(B) **gallbladder（正解）**。\n\n→ [[gallbladder-ivc-anatomy]]",
+      "images": [],
+      "concepts": [
+        "gallbladder-ivc-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-269",
+      "year": 2017,
+      "number": 269,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following will most likely increase the system's sensitivity of the Doppler shifts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "increasing the Doppler angle"
+        },
+        {
+          "letter": "B",
+          "text": "repositioning the sample volume"
+        },
+        {
+          "letter": "C",
+          "text": "increasing the operating frequency"
+        },
+        {
+          "letter": "D",
+          "text": "decreasing the size of the sample gate"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, 2nd ed., p.76",
+      "explanation": "依都卜勒方程式 Δf=2f₀v·cosθ/c，**頻移與操作頻率成正比，提高操作頻率最直接增加系統對頻移的敏感度**。\n\n(A) 錯:增加角度使cosθ變小，反而降低頻移。\n(B)(D) 影響取樣位置/空間解析度，非直接增加頻移的方法。\n(C) **正解**。\n\n→ [[doppler-ultrasound-physics]]",
+      "images": [],
+      "concepts": [
+        "doppler-ultrasound-physics"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-270",
+      "year": 2017,
+      "number": 270,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following unusual benign breast tumor is most likely to be locally infiltrating, aggressive and proliferative, and consist of only well-differentiated fibroblasts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "areolar leiomyoma"
+        },
+        {
+          "letter": "B",
+          "text": "granular cell tumor"
+        },
+        {
+          "letter": "C",
+          "text": "fibromatosis"
+        },
+        {
+          "letter": "D",
+          "text": "neurofibroma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Get through Final FRCR Part A: SBAs for the modular examination. CRC Press, p.198",
+      "explanation": "**Fibromatosis（即乳房的 desmoid tumor）為局部侵犯性良性腫瘤，僅由分化良好纖維母細胞構成**。\n\n(A) areolar leiomyoma、(B) granular cell tumor、(D) neurofibroma 皆為不尋常良性乳房腫瘤但非以局部侵犯性增生為特徵。\n(C) **fibromatosis（正解）**。\n\n→ [[breast-fibromatosis]]",
+      "images": [],
+      "concepts": [
+        "breast-fibromatosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-271",
+      "year": 2017,
+      "number": 271,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Calcification is seen on a screening mammogram. Which of the following patterns is the most likely to be associated with a carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "tortuous tramline calcification"
+        },
+        {
+          "letter": "B",
+          "text": "a cluster of 10 calcific particles, all less than 0.5mm"
+        },
+        {
+          "letter": "C",
+          "text": "eggshell, curvilinear calcification"
+        },
+        {
+          "letter": "D",
+          "text": "thick, linear, rod-like calcifications, some with a lucent centre"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Get through Final FRCR Part A: SBAs for the modular examination. CRC Press, p.197",
+      "explanation": "**群聚10顆、每顆<0.5mm的細小鈣化顆粒符合 fine pleomorphic 型態**，屬可疑型態（BI-RADS 4，PPV約29-58%）。\n\n(A) tortuous tramline:血管鈣化，良性。\n(B) **正解**:fine pleomorphic 型態，可疑。\n(C) eggshell/curvilinear:rim鈣化（脂肪壞死/囊壁），良性。\n(D) thick rod-like with lucent centre:secretory型，良性。\n\n→ [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -62,6 +62,9 @@ dateRev: 2026-06-29
 > [!note] 考點：最可疑的型態與分布?
 > **型態**：fine linear／fine-linear branching（PPV 最高，列 4C）；**分布**：segmental（最可疑分布）。兩者合併且呈乳管走向時提示 DCIS。[^1][^2][^3]
 
+> [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
+> 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
+
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**(secretory)/round/punctate/rim/dystrophic/**milk of calcium**/suture；**Suspicious Morphology** 為 amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；**Distribution** 為 diffuse/regional/grouped/linear/segmental（後二者較可疑）。內容經 Radiology Assistant（*BI-RADS for Mammography and Ultrasound 2013*，radiologyassistant.nl）逐項對照確認（accessed 2026-06-29）。指引／教學圖譜級。
 [^2]: 型態 PPV 數據（文獻分歧並列）：(a) 一研究組報告 amorphous ~15.9%、coarse heterogeneous ~31.7%、fine pleomorphic ~58.2%、fine linear/branching ~90.6%；(b) 另一以 BI-RADS 5th ed. 為基礎之研究組報告 amorphous ~7.9–13%、coarse heterogeneous ~17.8%、fine pleomorphic ~63.2%、fine linear/branching 趨近 100%。本文採區間並列。來源：*Malignancy Risk Stratification of Suspicious Breast Microcalcifications…（BI-RADS 5th ed.）*, PMC12788938；及 PubMed 25608770（*Evaluation of malignancy risk stratification of microcalcifications…*）。同儕審查原著級。
