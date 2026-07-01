@@ -54,6 +54,9 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「錯」？
 > 「**small** RIHV ＋ predominant MHV → RHV 可缺如」錯——RHV 缺如需**large** RIHV 接管；small RIHV 時 RHV **應仍在**。其餘（large RIHV 15–20%、有 RIHV 則 RHV 較小、MPR CT 有助）皆正確。[^2]
 
+## Segment 5 靜脈引流（2018-152）
+- **Segment 5（右葉前下段）可引流入的肝靜脈**：中肝靜脈（MHV）、右肝靜脈（RHV）、**副下右肝靜脈（accessory inferior right hepatic vein）**皆為 seg 5 常見的引流路徑;seg 5 因位於右前段，**不引流入左肝靜脈（LHV）**——LHV 負責左外側段（seg 2/3）引流，與 seg 5 解剖上不相鄰。[^8]
+
 ### 參考來源
 [^1]: *Accessory right inferior hepatic vein*. Radiopaedia.org。最常見肝靜脈變異、可多條、引流右葉後下段(含 seg 6)入 IVC、可達約 48%、可占肝靜脈引流約 11%、肝切除/移植重要（實際查證 accessed 2026-06-15）。
 [^2]: *Focal Liver Lesions: Detection, Characterization, Ablation*, p.69-70（題目所引；大 RIHV 引流 seg 6 約 15–20%；有 RIHV 則 RHV 較小；RHV 缺如需大 RIHV＋predominant MHV；MPR CT 有助。**未逐字核實該書頁**，依題目陳述與 [^1] 解剖）。
@@ -62,6 +65,8 @@ dateRev: 2026-06-29
 [^5]: **[Tier 2]** Surgical Implications of Portal Vein Variations and Liver Segmentations: A Recent Update. *PMC* PMC5376876。Couinaud 八段依門脈與肝靜脈分布；肝靜脈為段間平面（intersegmental）、門脈分支為段內中央（intrasegmental）。
 [^6]: **[Tier 1]** Living Donor Liver Transplantation: Preoperative Planning and Postoperative Complications. *AJR* 2018。DOI: 10.2214/AJR.18.21064。RIHV 引流 seg 6/7、可單或多條；引流 MHV 的 V5/V8 大屬支（≥5 mm）與 accessory hepatic vein（≥3 mm）右葉移植常需重建以防瘀血。
 [^7]: **[Tier 1]** Budd-Chiari Syndrome: Spectrum of Imaging Findings. *AJR* 2007。DOI: 10.2214/AJR.05.0168。BCS 直接徵象＝肝靜脈/IVC 阻塞與肝內側枝（spider-web、comma-shaped）、間接徵象＝尾葉肥大與不均勻強化；判讀前須辨識正常肝靜脈與變異以免誤判。
+
+[^8]: *Atlas of Applied Internal Liver Anatomy*, p.149-194（2018 交換考題詳解 p.36 引用；Tier 3 教科書）。segment 5 可引流入 MHV、RHV、accessory inferior RHV，不引流入 LHV（LHV 屬左外側段引流）。
 
 ## 考題
 ```dataview

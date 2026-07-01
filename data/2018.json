@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 150,
+  "totalQuestions": 156,
   "questions": [
     {
       "id": "2018-001",
@@ -5405,6 +5405,228 @@
       "images": [],
       "concepts": [
         "may-thurner"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-151",
+      "year": 2018,
+      "number": 151,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Complex cystic breast masses 下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Complex cystic breast masses demonstrate both anechoic (cystic) and echogenic (solid) components at ultrasonography."
+        },
+        {
+          "letter": "B",
+          "text": "Common benign findings include fibrocystic changes, intraductal or intracystic papilloma without atypia, and fibroadenoma."
+        },
+        {
+          "letter": "C",
+          "text": "Common atypical findings include atypical ductal hyperplasia, atypical papilloma, atypical lobular hyperplasia, ductal carcinoma in situ and lobular carcinoma in situ."
+        },
+        {
+          "letter": "D",
+          "text": "Malignant findings include, infiltrating ductal carcinoma, and infiltrating lobular carcinoma."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.33；RadioGraphics. 2007 Oct;27 Suppl 1:S53-64.",
+      "explanation": "常見異型（atypical）表現應為 ADH、非典型乳突瘤、ALH、LCIS，不含原位乳管癌（DCIS）；DCIS 應歸類為惡性表現。\n\n見 [[breast-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-152",
+      "year": 2018,
+      "number": 152,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Segment 5 of liver may drain into the following veins, except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Middle hepatic vein"
+        },
+        {
+          "letter": "B",
+          "text": "Right hepatic vein"
+        },
+        {
+          "letter": "C",
+          "text": "Accessary inferior right hepatic vein"
+        },
+        {
+          "letter": "D",
+          "text": "Left hepatic vein"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.36；Atlas of Applied Internal Liver Anatomy, p.149-194.",
+      "explanation": "Segment 5 可引流入 MHV、RHV、accessory inferior RHV，不引流入左肝靜脈（LHV，負責左外側段引流）。\n\n見 [[hepatic-vein-variants]]",
+      "images": [],
+      "concepts": [
+        "hepatic-vein-variants"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-153",
+      "year": 2018,
+      "number": 153,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Ogilvie's syndrome, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudo-obstruction of small bowel"
+        },
+        {
+          "letter": "B",
+          "text": "Usually happens after surgery"
+        },
+        {
+          "letter": "C",
+          "text": "Probably due to imbalance in the regulation of colonic motor activity"
+        },
+        {
+          "letter": "D",
+          "text": "May cause bowel perforation or ischemia"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.37；Clin Colon Rectal Surg. 2005 May;18(2):96-101.",
+      "explanation": "Ogilvie's syndrome 是結腸（非小腸）的假性阻塞。\n\n見 [[ogilvie-syndrome]]",
+      "images": [],
+      "concepts": [
+        "ogilvie-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-154",
+      "year": 2018,
+      "number": 154,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Annular pancreas 中有多少是incomplete type?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "一半"
+        },
+        {
+          "letter": "B",
+          "text": "1/3"
+        },
+        {
+          "letter": "C",
+          "text": "4/3"
+        },
+        {
+          "letter": "D",
+          "text": "4/5"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.39；AJR Am J Roentgenol. 2009 Aug;193(2).",
+      "explanation": "環狀胰約 1/3 為 incomplete type；incomplete 型十二指腸阻塞風險（33%）與 complete 型（40%）相近，無統計差異。\n\n見 [[pancreatic-anatomic-variants]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-anatomic-variants"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-155",
+      "year": 2018,
+      "number": 155,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is the most common anatomical variant of the pancreas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreas divisum"
+        },
+        {
+          "letter": "B",
+          "text": "Partial dorsal agenesis"
+        },
+        {
+          "letter": "C",
+          "text": "Anomalous pancreatobiliary duct union"
+        },
+        {
+          "letter": "D",
+          "text": "Annular pancreas"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.39；Fundamentals of Body MRI, 2012, P132.",
+      "explanation": "Pancreas divisum（背側與腹側胰管未融合）為胰臟最常見的解剖變異。\n\n見 [[pancreatic-anatomic-variants]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-anatomic-variants"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-156",
+      "year": 2018,
+      "number": 156,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most significant complication of wandering spleen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Compression of the inferior vena cava by the spleen"
+        },
+        {
+          "letter": "B",
+          "text": "Splenic torsion"
+        },
+        {
+          "letter": "C",
+          "text": "Splenic contusion"
+        },
+        {
+          "letter": "D",
+          "text": "Diaphragmatic herniation"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.39；Poster No.C-2817, ECR 2010.",
+      "explanation": "脾臟懸韌帶鬆弛致脾蒂拉長，最顯著併發症為脾臟血管蒂扭轉（splenic torsion）致缺血梗塞。\n\n見 [[wandering-spleen]]",
+      "images": [],
+      "concepts": [
+        "wandering-spleen"
       ],
       "checked": false
     }
