@@ -52,6 +52,9 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「不屬」毛刺狀腫塊的 DDx?
 > **Mucinous (colloid) carcinoma**——呈圓形/邊界清楚腫塊。postbiopsy scar、tubular cancer、radial scar 皆為 spiculated DDx。[^1]
 
+> [!note] 考點：60歲女性、毛刺狀腫塊＋pleomorphic microcalcification，粗針切片證實惡性，最可能的組織學型態?
+> **Invasive ductal carcinoma（A）**——最常見的乳癌組織學型態，典型呈 irregular/spiculated high-density mass ± pleomorphic microcalcification。Mucinous tumor 呈圓形邊界清楚（非毛刺）、intracystic carcinoma 與 papillary carcinoma 相對少見，非此典型表現的最可能型態。[^1][^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；The Requisites: Breast Imaging 3rd ed., p.142（mucinous→round mass, p.147）：spiculated mass DDx 含 postbiopsy scar、tubular ca、radial scar;mucinous carcinoma 呈圓形腫塊。
 [^2]: Tier 1。ACR BI-RADS Atlas mass margin 描述語（spiculated＝radiating lines, 通常可疑惡性）；綜述見 ScienceDirect Topics「Spiculated Mass」彙整：spiculated mass DDx 含 carcinoma、radial scar、postoperative scarring、fat necrosis、desmoid、hemorrhage、abscess;因乳攝特徵非診斷性,常須切片。https://www.sciencedirect.com/topics/medicine-and-dentistry/spiculated-mass

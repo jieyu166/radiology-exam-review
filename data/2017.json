@@ -9740,6 +9740,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-272",
+      "year": 2017,
+      "number": 272,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following forms of calcification raises greatest suspicion of ductal carcinoma in situ (DCIS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coarse"
+        },
+        {
+          "letter": "B",
+          "text": "Dot-dash fine linear/linear branching"
+        },
+        {
+          "letter": "C",
+          "text": "Sedimented"
+        },
+        {
+          "letter": "D",
+          "text": "Egg-shell"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；SBAs for the Final FRCR 2A Oxford Speciality Training, p.145",
+      "explanation": "**Dot-dash fine linear/linear branching 鈣化強烈提示乳管腔內沉積**，為 DCIS 典型表現，可疑度最高。\n\n(A) Coarse:良性。(C) Sedimented（milk of calcium）:良性。(D) Egg-shell（rim）:良性。\n(B) **正解**。\n\n→ [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-273",
+      "year": 2017,
+      "number": 273,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 60-year-old woman presents with a palpable breast lump, which on mammography corresponds to a speculated/stellate soft tissue density seen on both MLO and CC views with associated pleomorphic microcalcification. Wide bore core needle biopsy confirms a malignant lesion. She has no family history of breast cancer. Which of the following histological types in most likely in this case?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "invasive ductal carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "mucinous tumor"
+        },
+        {
+          "letter": "C",
+          "text": "intracystic carcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "papillary carcinoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；SBAs for the Final FRCR 2A Oxford Speciality Training, p.145",
+      "explanation": "**Invasive ductal carcinoma 為最常見的乳癌組織學型態**，典型呈 spiculated/stellate mass ± pleomorphic microcalcification。\n\n(B) mucinous tumor 呈圓形邊界清楚（非毛刺）。(C)(D) 相對少見型態，非此典型表現的最可能型態。\n(A) **正解**。\n\n→ [[breast-spiculated-mass]]",
+      "images": [],
+      "concepts": [
+        "breast-spiculated-mass"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-274",
+      "year": 2017,
+      "number": 274,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about Rasmussen aneurysm is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rasmussen's aneurysm was first subscribed in 1968, known as pulmonary arterial pseudoaneurysm (PAP)"
+        },
+        {
+          "letter": "B",
+          "text": "Rasmussen's pseudoaneurysm is classified as a vascular complication of chronic puomonary tuberculosis, showed a 5% incidence."
+        },
+        {
+          "letter": "C",
+          "text": "Tuberculous PAPs usually involve in lower lung fields."
+        },
+        {
+          "letter": "D",
+          "text": "The most common bleeding source is bronchial circulation (90%)."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Nguyen ET et al. AJR 2007;188:W126-W134",
+      "explanation": "**Tuberculous PAP 通常分布於周邊、超出主肺動脈分支範圍，並非侷限於下肺葉**。\n\n(A) 正確:1868年首次描述（題幹「1968」應為筆誤），稱PAP。\n(B) 正確:慢性肺結核血管併發症，約5%發生率。\n(C) **不正確（正解）**:應為周邊分布，非下肺野。\n(D) 正確:最常見出血來源仍為支氣管循環約90%。\n\n→ [[rasmussen-aneurysm]]",
+      "images": [],
+      "concepts": [
+        "rasmussen-aneurysm"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-275",
+      "year": 2017,
+      "number": 275,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about chest trauma is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ribs 10 – 12 fracture is associated with lacerations of liver/spleen."
+        },
+        {
+          "letter": "B",
+          "text": "Pulmonary Contusion I is most common finding in blunt chest injury."
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary laceration is half solid and half cyst."
+        },
+        {
+          "letter": "D",
+          "text": "Fracture of trachea and bronchus is due to penetration trauma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.469",
+      "explanation": "**氣管與支氣管骨折主要由鈍傷造成**（好發距隆凸2.5cm內的遠端氣管），穿刺傷反而以頸部氣管最常受傷。\n\n(A) 正確:肋骨10-12骨折提示肝脾撕裂。\n(B) 正確:肺挫傷為鈍性胸創最常見表現。\n(C) 正確:肺撕裂傷呈半實質（血腫）半囊狀（創傷性肺氣囊腫）。\n(D) **不正確（正解）**:主要由鈍傷造成，非穿刺傷。\n\n→ [[chest-trauma-imaging]]",
+      "images": [],
+      "concepts": [
+        "chest-trauma-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-276",
+      "year": 2017,
+      "number": 276,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about acute respiratory distress syndrome (ARDS), cardiogenic pulmonary edema, renal based pulmonary edema is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The differential diagnosis of ARDS, included cardiogenic pulmonary edema, interstitial pneumonia, and renal based pulmonary edema."
+        },
+        {
+          "letter": "B",
+          "text": "All three have Kerleys B line."
+        },
+        {
+          "letter": "C",
+          "text": "Renal based pulmonary edema is peripheral in distribution mostly."
+        },
+        {
+          "letter": "D",
+          "text": "Cardiogenic edema is even distribution mostly."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.40",
+      "explanation": "**心因性肺水腫約90%呈均勻分布**。\n\n(A) 敘述本身描述ARDS鑑別診斷正確，但非本題最佳答案。\n(B) 錯:ARDS幾乎無Kerley B lines（僅心因性與腎因性各約30%）。\n(C) 錯:腎因性肺水腫多為**中央**分布（約70%），非周邊。\n(D) **正解**:心因性約90%均勻分布。\n\n→ [[ards-pulmonary-edema-differential]]",
+      "images": [],
+      "concepts": [
+        "ards-pulmonary-edema-differential"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-277",
+      "year": 2017,
+      "number": 277,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about solitary pulmonary nodule (SPN) is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "More cancers are located in the upper than lower lobes."
+        },
+        {
+          "letter": "B",
+          "text": "A nodule that is stable for 2 years is almost always benign."
+        },
+        {
+          "letter": "C",
+          "text": "SPN in a patient with known extrapulmonary malignancy is more often primary lung ca than metastasis."
+        },
+        {
+          "letter": "D",
+          "text": "A notch in the margin (Rigler's notch) is sign of benignancy."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Radiology（SPN etiology in patients with extrapulmonary malignancy, Table 1）",
+      "explanation": "**已知肺外惡性腫瘤病人的SPN為原發肺癌或轉移，取決於該肺外腫瘤的組織學特性與病人吸菸史**（如黑色素瘤/肉瘤/睪丸癌組反而多為轉移），並非一概為原發肺癌較常見。\n\n(A) 正確:上肺葉肺癌較多。\n(B) 正確:穩定2年結節幾乎必為良性。\n(C) **不正確（正解）**:取決於原發腫瘤組織學/吸菸史,非一概較常為原發肺癌。\n(D) 正確（依題幹紅字補充）:Rigler notch提示滋養血管/支氣管癌但鑑別力有限。\n\n→ [[solitary-pulmonary-nodule]]",
+      "images": [],
+      "concepts": [
+        "solitary-pulmonary-nodule"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

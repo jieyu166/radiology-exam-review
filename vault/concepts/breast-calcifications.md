@@ -62,6 +62,9 @@ dateRev: 2026-06-29
 > [!note] 考點：最可疑的型態與分布?
 > **型態**：fine linear／fine-linear branching（PPV 最高，列 4C）；**分布**：segmental（最可疑分布）。兩者合併且呈乳管走向時提示 DCIS。[^1][^2][^3]
 
+> [!note] 考點：何種鈣化型態最提示乳管原位癌(DCIS)?
+> **Dot-dash fine linear/linear branching（B）**——纖細不規則、可間斷的線狀/分支狀鈣化，強烈提示乳管腔內沉積，PPV最高。Coarse（良性）、sedimented（milk of calcium，良性）、egg-shell（rim，良性）皆非DCIS的可疑表現。[^1][^2]
+
 > [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
 > 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
 
@@ -70,6 +73,13 @@ dateRev: 2026-06-29
 [^2]: 型態 PPV 數據（文獻分歧並列）：(a) 一研究組報告 amorphous ~15.9%、coarse heterogeneous ~31.7%、fine pleomorphic ~58.2%、fine linear/branching ~90.6%；(b) 另一以 BI-RADS 5th ed. 為基礎之研究組報告 amorphous ~7.9–13%、coarse heterogeneous ~17.8%、fine pleomorphic ~63.2%、fine linear/branching 趨近 100%。本文採區間並列。來源：*Malignancy Risk Stratification of Suspicious Breast Microcalcifications…（BI-RADS 5th ed.）*, PMC12788938；及 PubMed 25608770（*Evaluation of malignancy risk stratification of microcalcifications…*）。同儕審查原著級。
 [^3]: 分布 PPV 與 DCIS 關聯（文獻分歧並列）：regional ~9–32%、grouped ~14–31%、linear ~50–88%、segmental ~64–78%；fine linear branching + segmental 為 DCIS（含 comedo-type 壞死）典型表現。來源同 [^2] 之 PMC12788938 及 PubMed 25608770。同儕審查原著級。
 [^4]: 斷層攝影（DBT）對微鈣化的偵測非其優勢、鈣化評估仍以全視野數位攝影＋放大為主：StatPearls（*Breast Imaging Reporting and Data System*, NCBI Bookshelf NBK459169）相關章節說明（accessed 2026-06-29）。教科書／審閱章節級。
+
+## 題目
+> [!question]- Calcification is seen on a screening mammogram. Which of the following patterns is the most likely to be associated with a carcinoma? (2017-271)
+> **A cluster of 10 calcific particles, all less than 0.5mm（B）**——符合 fine pleomorphic 型態，屬可疑（BI-RADS 4）。Tortuous tramline（血管，良性）、eggshell/curvilinear（rim，良性）、thick rod-like with lucent centre（secretory，良性）皆為典型良性型態。[^1][^2]
+
+> [!question]- Which of the following forms of calcification raises greatest suspicion of ductal carcinoma in situ (DCIS)? (2017-272)
+> **Dot-dash fine linear/linear branching（B）**——纖細不規則、可間斷的線狀/分支狀鈣化，強烈提示乳管腔內沉積，PPV最高，為DCIS典型表現。Coarse（良性）、sedimented（milk of calcium，良性）、egg-shell（rim，良性）皆非DCIS的可疑表現。[^1][^2]
 
 ## 考題
 ```dataview
