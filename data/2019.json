@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 137,
+  "totalQuestions": 140,
   "questions": [
     {
       "id": "2019-001",
@@ -4983,6 +4983,117 @@
       "images": [],
       "concepts": [
         "testicular-seminoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-138",
+      "year": 2019,
+      "number": 138,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "About PET imaging in prostate cancer, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FDG is limited because of the relatively low glucose metabolism of most prostate tumors."
+        },
+        {
+          "letter": "B",
+          "text": "FDG may have a role in response assessment of osseous disease in metastatic castration-resistant prostate cancer and as a prognostic indicator."
+        },
+        {
+          "letter": "C",
+          "text": "11C-Choline and 18F-choline are sensitive and specific for disease detection in high-risk staging and biochemical relapse after radical therapy in patients with high PSA levels."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiographics. 2017;37:0000-0000",
+      "explanation": "正確答案為 **D（All of the above）**。多數攝護腺腫瘤葡萄糖代謝相對較低使FDG應用受限；FDG對轉移性去勢抗性攝護腺癌骨骼病灶治療反應評估與預後判斷仍有角色；11C/18F-choline PET/CT對高風險分期與生化復發偵測敏感且特異。皆正確。詳見 [[pet-prostate-cancer]]。",
+      "images": [],
+      "concepts": [
+        "pet-prostate-cancer"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-139",
+      "year": 2019,
+      "number": 139,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning adrenal adenomas, which one is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are a more common cause of adrenal mass than is metastatic disease."
+        },
+        {
+          "letter": "B",
+          "text": "They typically have non-IV contrast density of more than 20 Hounsfield units."
+        },
+        {
+          "letter": "C",
+          "text": "They typically show no decrease in signal intensity on opposed phase MR imaging."
+        },
+        {
+          "letter": "D",
+          "text": "They typically retain 90% of their immediate contrast value on 10-minute delayed CT exam."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Davidson AJ, Hartman DS, eds. Radiology of the Kidney and Urinary Tract. Saunders, 1984",
+      "explanation": "正確答案為 **A**。腎上腺腺瘤是最常見的腎上腺病灶，比轉移性疾病更常見，即使已知惡性病人偶發腎上腺病灶仍較可能是腺瘤。詳見 [[adrenal-adenoma]]。",
+      "images": [],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-140",
+      "year": 2019,
+      "number": 140,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is TRUE concerning papillary necrosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common etiologies are analgesics, diabetes mellitus, and sickle cell anemia."
+        },
+        {
+          "letter": "B",
+          "text": "Conventional radiographs usually show characteristic calcification."
+        },
+        {
+          "letter": "C",
+          "text": "Approximately 90% of patients with sickle cell disease develop papillary necrosis."
+        },
+        {
+          "letter": "D",
+          "text": "Medullary type papillary necrosis is associated with an absence of the entire papilla."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Dunnick, Sandler, Newhouse, Amis, Textbook of Uroradiology. 3rd ed. Lippincott Williams & Wilkins, 2001, pp 299-302",
+      "explanation": "正確答案為 **A**。腎乳頭壞死常見病因為NSAIDs、鐮型球貧血、止痛藥性腎病、感染、糖尿病（NSAID記憶法）。平片通常正常（非特徵性鈣化）、鐮型球病人約僅50%（非90%）發生、medullary型為乳頭中央侵蝕（非整顆缺失）。詳見 [[papillary-necrosis]]。",
+      "images": [],
+      "concepts": [
+        "papillary-necrosis"
       ],
       "checked": false
     }
