@@ -8,7 +8,7 @@ aliases:
   - crossover sign
   - acetabular retroversion
   - 髖臼股骨夾擊
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # femoroacetabular-impingement
@@ -32,9 +32,11 @@ dateRev: 2026-06-29
 
 ## CT / MRI 與 MR arthrography
 - **CT／3D-CT**：對骨性形態（bump、α 角、後傾）最直觀，常用於術前規劃，但輻射劑量較高，非首選初診工具。[^1][^7]
-- **MR arthrography（MRA）對 cam vs pincer 的特徵分佈**（Pfirrmann 等 50 例）：
-  - **Cam**：α 角增大、**前上方（anterosuperior）軟骨損傷較大**、頭頸交界 osseous bump（約半數 cam 病例可見）。[^9]
-  - **Pincer**：髖臼較深、**後下方（posteroinferior）軟骨損傷**，即「contrecoup（對沖）」型損傷——前方撞擊使股骨頭被槓桿撬向後下而傷及對側軟骨。[^9]
+- **MR arthrography（MRA）對 cam vs pincer 的特徵分佈**（Pfirrmann 等，50 例連續病人〔30 男 20 女，平均 28.8 歲〕，以手術診斷為金標準；α 角於頭頸交界周圍 8 個時鐘位置量測）：
+  - **手術分型**：50 髖中 **33 例（66%）cam**、**17 例（34%）pincer**；cam 組男性顯著較多（n=27）、pincer 組女性顯著較多（n=14）。[^9]
+  - **Cam**：**α 角於前方（anterior）與前上方（anterosuperior）位置顯著增大**；**前上方、上方（superior）軟骨損傷顯著較大**；頭頸交界 osseous bump（**約半數**病例可見）。[^9]
+  - **Pincer**：髖臼**顯著較深**；**後下方（posteroinferior）軟骨損傷顯著較大**，且**後方／後下方 labral 損傷更明顯**，即「contrecoup（對沖）」型損傷——前方撞擊使股骨頭被槓桿撬向後下而傷及對側軟骨與後方 labrum；osseous bump 約 1/3 病例可見。[^9]
+  - **骨性異常（bump 以外）**：cam 與 pincer 兩組間**無顯著差異**。[^9]
 - **Labrum**：MRA 對 labral tear 與軟骨損傷的偵測優於無對比 MRI；但 labral 撕裂與 FAI 形態在**無症狀者也很常見**（無對比 MRI 約 68% 有 labral injury），影像陽性不等於症狀來源，須結合病史與理學檢查。[^1][^9]
 
 ## DDx（須與之鑑別／不以 crossover sign 為特徵者）
@@ -68,7 +70,7 @@ dateRev: 2026-06-29
 [^6]: Werner CML, Copeland CE, Ruckstuhl T, et al. *Radiographic markers of acetabular retroversion: correlation of the cross-over sign, ischial spine sign and posterior wall sign.* Acta Orthop Belg. 2010;76(2):166-73.（依摘要未讀全文，PMID 20503941）。在 COS 陽性髖中 PRISS 出現 61.7%、PWS 31%；PRISS 與 PWS 皆與較高 crossover ratio 顯著相關 → 三徵俱全代表較嚴重後傾。（資料來自 PubMed）
 [^7]: Tian S, Vahedi H, Goswami K, Parvizi J. *Elephant's ear sign: a new radiographic finding indicative of acetabular retroversion.* Arthroplast Today. 2020;6(1):59-61.（開放全文已讀，PMC7083708）DOI: [10.1016/j.artd.2019.12.007](https://doi.org/10.1016/j.artd.2019.12.007)。COS/PWS/PRISS 受 pelvic tilt、rotation 與 AIIS 形態變異影響而可能偽陽/偽陰；elephant's ear sign 較不受輕微傾斜影響但嚴重 tilt 仍受干擾；CT/MRI 非初診首選、CT 劑量較高。（資料來自 PubMed）
 [^8]: *Radiographic Markers of Femoroacetabular Impingement: Correlation of Herniation Pit and Femoral Bump with a Positive Cross-Over Ratio*（PMC4022160）及 RadiologyKey/ScienceDirect 概述（依摘要與概述，未讀全文）。Herniation pit＝前上方頭頸交界 >3 mm、邊緣硬化透亮區，部分由撞擊造成，與 cam 形態及 crossover ratio 正相關，可伴 bone marrow oedema。
-[^9]: Pfirrmann CWA, Mengiardi B, Dora C, et al. *Cam and pincer femoroacetabular impingement: characteristic MR arthrographic findings in 50 patients.* Radiology. 2006;240(3):778-85.（依摘要未讀全文，PMID 16857978）DOI: [10.1148/radiol.2403050767](https://doi.org/10.1148/radiol.2403050767)。Cam：α 角增大、前上方軟骨損傷較大、約半數有頭頸交界 bump；pincer：髖臼較深、後下方（contrecoup）軟骨損傷、約 1/3 有 bump。（資料來自 PubMed）
+[^9]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Pfirrmann CWA, Mengiardi B, Dora C, et al. *Cam and Pincer Femoroacetabular Impingement: Characteristic MR Arthrographic Findings in 50 Patients.* Radiology. 2006;240(3):778-785. DOI: [10.1148/radiol.2403050767](https://doi.org/10.1148/radiol.2403050767)。50 例連續病人（30 男 20 女，平均 28.8 歲）以手術診斷為金標準：**33 例（66%）cam、17 例（34%）pincer**；cam 組男性顯著較多、pincer 組女性顯著較多；**α 角於前方與前上方位置顯著增大（cam）**；cam 前上方／上方軟骨損傷顯著較大、約半數有頭頸交界 bump；pincer 髖臼顯著較深、後下方（contrecoup）軟骨損傷顯著較大且後方／後下方 labral 損傷更明顯、約 1/3 有 bump；骨性異常（bump 以外）兩組無顯著差異。
 
 ## 考題
 ```dataview
