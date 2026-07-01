@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 162,
+  "totalQuestions": 164,
   "questions": [
     {
       "id": "2019-001",
@@ -5908,6 +5908,80 @@
       "images": [],
       "concepts": [
         "postpneumonectomy-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-163",
+      "year": 2019,
+      "number": 163,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not the usually anterior mediastinal masses?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "thymoma"
+        },
+        {
+          "letter": "B",
+          "text": "lymphoma"
+        },
+        {
+          "letter": "C",
+          "text": "seminima"
+        },
+        {
+          "letter": "D",
+          "text": "neurofibroma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Primer of diagnostic imaging, 4th edition, p.75",
+      "explanation": "正確答案為 **D**。神經纖維瘤屬神經源性腫瘤，典型好發於後縱膈，並非前縱膈常見腫塊。Thymoma、lymphoma、seminoma（生殖細胞瘤之一）皆為前縱膈常見腫塊（4 T's：thymoma/teratoma/terrible lymphoma/thyroid）。詳見 [[anterior-mediastinal-masses]]。",
+      "images": [],
+      "concepts": [
+        "anterior-mediastinal-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-164",
+      "year": 2019,
+      "number": 164,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Select the incorrect statement about \"causes of pulmonary artery hypertension\" from the list below?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "vasculitis"
+        },
+        {
+          "letter": "B",
+          "text": "chronic pulmonary emboli"
+        },
+        {
+          "letter": "C",
+          "text": "sarcoidosis"
+        },
+        {
+          "letter": "D",
+          "text": "emphysema"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Chest radiology: the essentials, p.263",
+      "explanation": "正確答案為 **C**。血管炎、慢性肺栓塞、肺氣腫皆為肺動脈高壓常見影像鑑別診斷所列病因；sarcoidosis並非此差異列表中之典型病因（屬WHO肺高壓分類Group 5）。詳見 [[pulmonary-hypertension-classification]]。",
+      "images": [],
+      "concepts": [
+        "pulmonary-hypertension-classification"
       ],
       "checked": false
     }
