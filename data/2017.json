@@ -9147,6 +9147,191 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-256",
+      "year": 2017,
+      "number": 256,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is not correct about \"molar tooth sign\" of Joubert Syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Elongated, thickened, and horizontally oriented superior cerebellar peduncles"
+        },
+        {
+          "letter": "B",
+          "text": "A deep interpeduncular fossa"
+        },
+        {
+          "letter": "C",
+          "text": "Vermian hypoplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Dilatation of the cystic-appearing fourth ventricle"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2015;35(1):200-220",
+      "explanation": "第四腦室因蚓部缺失、兩側小腦半球對貼，應描述為**蝙蝠展翅（bat wing）徵象**，而非「囊狀擴大」。\n\n(A) 正確:延長增厚水平化的上小腦腳為 molar tooth sign 要素。\n(B) 正確:深腳間窩為要素之一。\n(C) 正確:蚓部發育不全為要素之一。\n(D) **不正確（正解）**:應為 bat wing 4th ventricle sign，非「囊狀擴大」。\n\n→ [[joubert-syndrome]]",
+      "images": [],
+      "concepts": [
+        "joubert-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-257",
+      "year": 2017,
+      "number": 257,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is false statement concerning Vitamin B12 deficiency involving the spinal cord?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "imaging different from nitrous oxide toxicity."
+        },
+        {
+          "letter": "B",
+          "text": "abnormality in the posterior spinal cord."
+        },
+        {
+          "letter": "C",
+          "text": "may no or mild enhancement of the abnormality."
+        },
+        {
+          "letter": "D",
+          "text": "imaging may mimic copper deficiency."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；AJNR Case of the week, 2014.12.15",
+      "explanation": "**亞氧化氮(N2O)中毒的最終脊髓影像表現『與』典型 B12 缺乏相同**（皆為亞急性聯合退化），因 N2O 會使體內 B12 失去活性，並非「不同」。\n\n(A) **為偽（正解）**:兩者影像相同，非不同。\n(B) 正確:病變侷限脊髓後索。\n(C) 正確:通常無或輕微強化。\n(D) 正確:影像可與銅缺乏的脊髓病變相似。\n\n→ [[subacute-combined-degeneration]]",
+      "images": [],
+      "concepts": [
+        "subacute-combined-degeneration"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-258",
+      "year": 2017,
+      "number": 258,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is false statement concerning spinal cord astrocytoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "most common intramedullay tumor in children and young adults."
+        },
+        {
+          "letter": "B",
+          "text": "most are high grade."
+        },
+        {
+          "letter": "C",
+          "text": "most are in cervical and thoracic locations."
+        },
+        {
+          "letter": "D",
+          "text": "hemorrhage is uncommon."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Spine, 2004, IV:1-p103",
+      "explanation": "**脊髓星狀細胞瘤多數為低惡性度**（成人約75%為low-grade、僅約1%為glioblastoma；兒童<3歲約80%為grade I/II），並非多數為高惡性度。\n\n(A) 正確:為兒童/年輕成人最常見髓內腫瘤。\n(B) **為偽（正解）**:多數為低惡性度，非高惡性度。\n(C) 正確:好發頸段與胸段。\n(D) 正確:出血相對不常見。\n\n→ [[spinal-cord-astrocytoma]]",
+      "images": [],
+      "concepts": [
+        "spinal-cord-astrocytoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-259",
+      "year": 2017,
+      "number": 259,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following tumor spread pathways is the least common route of the spinal column and spinal leptomeningeal metastatic neoplasms?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "direct extension from adjacent soft tissue."
+        },
+        {
+          "letter": "B",
+          "text": "hematogenous spread."
+        },
+        {
+          "letter": "C",
+          "text": "lymphatic spread."
+        },
+        {
+          "letter": "D",
+          "text": "CSF-spread."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Spine, 2004, IV:1-p3",
+      "explanation": "**淋巴擴散（lymphatic spread）為最少見途徑**——脊柱周圍缺乏典型淋巴引流系統。\n\n(A) 鄰近軟組織直接侵犯:較常見途徑。\n(B) 血行擴散:**最常見**途徑（經 Batson 靜脈叢）。\n(C) **淋巴擴散（正解）**:最少見。\n(D) CSF 擴散:軟腦膜轉移的主要途徑。\n\n→ [[spinal-metastasis-pathways]]",
+      "images": [],
+      "concepts": [
+        "spinal-metastasis-pathways"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-260",
+      "year": 2017,
+      "number": 260,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which finding is not associated with dysgenesis of corpus callosum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Descended tonsil"
+        },
+        {
+          "letter": "B",
+          "text": "Colpocephaly"
+        },
+        {
+          "letter": "C",
+          "text": "Interhemispheric lipoma"
+        },
+        {
+          "letter": "D",
+          "text": "Probst bundle"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Brain, 2nd ed., I(1):18-21",
+      "explanation": "**扁桃體下降（descended tonsil）屬 Chiari 畸形的表現，與胼胝體發育不良無關**。\n\n(A) **非相關（正解）**:屬 Chiari 畸形。\n(B) Colpocephaly:枕角不成比例擴大，與胼胝體發育不良相關。\n(C) Interhemispheric lipoma:常與胼胝體發育不良併存。\n(D) Probst bundle:白質纖維平行大腦間裂走向，致 racing car sign，為胼胝體發育不良特徵。\n\n→ [[corpus-callosum-dysgenesis]]",
+      "images": [],
+      "concepts": [
+        "corpus-callosum-dysgenesis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
