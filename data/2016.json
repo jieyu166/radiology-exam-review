@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 272,
+  "totalQuestions": 273,
   "questions": [
     {
       "id": "2016-001",
@@ -10131,6 +10131,43 @@
       "images": [],
       "concepts": [
         "testicular-microlithiasis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-273",
+      "year": 2016,
+      "number": 273,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於乳房攝影，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The lower the kilovolt peak (kVp), the higher the contrast."
+        },
+        {
+          "letter": "B",
+          "text": "Molybdenum anode targets were used almost exclusively in film-screen mammography because of the resulting lower energy spectrum."
+        },
+        {
+          "letter": "C",
+          "text": "In digital mammography, the image contrast can be adjusted via the window and level settings of the display, so the target material and goal of obtaining the lowest possible beam energy are less important."
+        },
+        {
+          "letter": "D",
+          "text": "Digital mammography is higher in radiation dose than film-screen mammography."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Making the Diagnosis: A Practical Guide to Breast Imaging, p.21",
+      "explanation": "**數位乳房攝影劑量並未高於（實則≦）傳統film-screen攝影**，故(D)為非。\n\n(A) 對：kVp越低，對比越高。\n(B) 對：傳統film-screen攝影幾乎全用鉬陽極以獲得較低能量光譜。\n(C) 對：數位乳攝可透過螢幕window/level調整對比，故靶材與最低能量目標之重要性降低。\n(D) **錯（正解）**：數位乳攝劑量並未高於film-screen，實務上多數研究顯示數位系統平均腺體劑量與傳統系統相近或更低。\n\n→ [[mammography-physics]]",
+      "images": [],
+      "concepts": [
+        "mammography-physics"
       ],
       "checked": false,
       "years": [
