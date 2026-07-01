@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 180,
+  "totalQuestions": 185,
   "questions": [
     {
       "id": "2019-001",
@@ -6574,6 +6574,191 @@
       "images": [],
       "concepts": [
         "adrenal-adenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-181",
+      "year": 2019,
+      "number": 181,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the follows is not true for prostate adenocarcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prostate cancer is best seen on T2WI MRI."
+        },
+        {
+          "letter": "B",
+          "text": "Lymphatic drains mostly to pelvic nodes."
+        },
+        {
+          "letter": "C",
+          "text": "Most common on the transitional zone."
+        },
+        {
+          "letter": "D",
+          "text": "CT is not accurate in detection of cancer in prostate."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic Imaging (abdomen), P. III-6-31",
+      "explanation": "正確答案為 **C**（錯誤敘述）。攝護腺癌最常見於周邊區，並非移行區（移行區主要與BPH相關）。T2WI為最佳偵測序列、淋巴引流主要至骨盆淋巴結、CT偵測準確度不佳等敘述皆正確。詳見 [[prostate-adenocarcinoma-imaging]]。",
+      "images": [],
+      "concepts": [
+        "prostate-adenocarcinoma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-182",
+      "year": 2019,
+      "number": 182,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning retroperitoneal fibrosis, which one of the following is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most commonly extends from renal hilum to pelvic brim."
+        },
+        {
+          "letter": "B",
+          "text": "The IVU or RP showing medially displaced ureters."
+        },
+        {
+          "letter": "C",
+          "text": "The plaque may be asymmetrical."
+        },
+        {
+          "letter": "D",
+          "text": "The MR findings show T1WI lower signal intensity & T2WI high signal intensity of the plaque."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Diagnostic Imaging (abdomen), P. III-1-11",
+      "explanation": "正確答案為 **D**（錯誤敘述）。軟組織斑塊於T1與T2皆通常呈低訊號，除非合併活動性發炎才會使T2呈高訊號，並非固定「T1低、T2高」的表現。好發自腎門延伸至骨盆入口、輸尿管內移位移、斑塊可不對稱等敘述皆正確。詳見 [[retroperitoneal-fibrosis]]。",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-183",
+      "year": 2019,
+      "number": 183,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following is not the indication of percutaneous ethanol injection therapy (PEIT) for hepatic tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lesions confined to the liver"
+        },
+        {
+          "letter": "B",
+          "text": "Tumor is smaller than 3cm"
+        },
+        {
+          "letter": "C",
+          "text": "A focal, nodular- type lesion"
+        },
+        {
+          "letter": "D",
+          "text": "Poor liver function"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Interventional radiology, p.528",
+      "explanation": "正確答案為 **D**。肝功能不良並非PEIT的適應症。病灶侷限於肝臟、腫瘤小於2公分（非3公分）、局部結節型病灶皆為適應症。詳見 [[percutaneous-ethanol-injection-therapy]]。",
+      "images": [],
+      "concepts": [
+        "percutaneous-ethanol-injection-therapy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-184",
+      "year": 2019,
+      "number": 184,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following is not the suitable embolic material for treatment of duodenal bleeding?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gelfoam"
+        },
+        {
+          "letter": "B",
+          "text": "Polyvinyl alcohol (Ivalon)"
+        },
+        {
+          "letter": "C",
+          "text": "Lipiodol"
+        },
+        {
+          "letter": "D",
+          "text": "Microcoils"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Interventional radiology, p.9",
+      "explanation": "正確答案為 **C**。Lipiodol並非栓塞材料，而是化療栓塞用之油性顯影劑/藥物載體，不適用於治療出血。Gelfoam、PVA顆粒、微線圈皆為適用之栓塞材料。詳見 [[embolic-materials]]。",
+      "images": [],
+      "concepts": [
+        "embolic-materials"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-185",
+      "year": 2019,
+      "number": 185,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following is not long-acting and permanent embolic material?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gelfoam"
+        },
+        {
+          "letter": "B",
+          "text": "Polyvinyl alcohol (Ivalon)"
+        },
+        {
+          "letter": "C",
+          "text": "Isobutyl-2-cyanoacrylate (IBC, Bucrylate)"
+        },
+        {
+          "letter": "D",
+          "text": "Absolute ethanol"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Interventional radiology, p.84",
+      "explanation": "正確答案為 **A**。Gelfoam屬暫時性材料，數週內被人體吸收，並非長效永久性材料。PVA、cyanoacrylate、絕對酒精皆為永久性栓塞材料。詳見 [[embolic-materials]]。",
+      "images": [],
+      "concepts": [
+        "embolic-materials"
       ],
       "checked": false
     }
