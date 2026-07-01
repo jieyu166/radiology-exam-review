@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 287,
+  "totalQuestions": 288,
   "questions": [
     {
       "id": "2016-001",
@@ -10686,6 +10686,43 @@
       "images": [],
       "concepts": [
         "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-288",
+      "year": 2016,
+      "number": 288,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the following description of CROUP, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "supraglottic laryngotracheobronchitis"
+        },
+        {
+          "letter": "B",
+          "text": "Most commonly caused by parainfluenza virus."
+        },
+        {
+          "letter": "C",
+          "text": "Age: 6 months-3 years (younger age group than epiglottitis)."
+        },
+        {
+          "letter": "D",
+          "text": "Radiographic features including inverted \"V\" or \"steeple sign\"."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Primer of Diagnostic Imaging, Pediatric Imaging, p.820",
+      "explanation": "**Croup（急性喉氣管支氣管炎）為聲門下(subglottic)病變，非supraglottic**——supraglottic病變典型為epiglottitis（會厭炎），故(A)為非。\n\n(A) **錯（正解）**：croup應為laryngotracheobronchitis，非supraglottic（supraglottic為epiglottitis特徵）。\n(B) 對：最常見致病病毒為parainfluenza virus。\n(C) 對：好發6個月-3歲（較epiglottitis年齡層小）。\n(D) 對：影像可見inverted V/steeple sign。\n\n→ [[croup-steeple-sign]]",
+      "images": [],
+      "concepts": [
+        "croup-steeple-sign"
       ],
       "checked": false,
       "years": [
