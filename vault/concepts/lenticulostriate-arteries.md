@@ -67,6 +67,10 @@ dateRev: 2026-06-29
 
 > 來源層級提示：依 PubMed/PMC 檢索，本文獻多為案例報告／綜論／原始影像研究；放射判讀標準教科書層級（RG/AJR/STATdx/Osborn）內容此處未獨立逐字核實，數值與機轉敘述以上列可查證來源為準，存疑處已標註「依摘要層級」。
 
+## 題目
+> [!question]- 關於lenticulostriate arteries，何者錯誤? (2016-261)
+> **「經前穿質medial 2/3進入」錯誤（B）**——MCA來源的lateral lenticulostriate經前穿質**外側**進入。起源近端MCA(對)、數目9-10.4條(對)、管徑100-2200μm(對)皆正確。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lenticulostriate-arteries")

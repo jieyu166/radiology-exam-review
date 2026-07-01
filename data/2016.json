@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 260,
+  "totalQuestions": 262,
   "questions": [
     {
       "id": "2016-001",
@@ -9680,6 +9680,80 @@
       "images": [],
       "concepts": [
         "ct-urography"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-261",
+      "year": 2016,
+      "number": 261,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement is wrong:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lenticulostriate arteries arise from the proximal MCA."
+        },
+        {
+          "letter": "B",
+          "text": "Lenticulostriate arteries enter the brain through the medial 2/3 of the anterior perforated substance."
+        },
+        {
+          "letter": "C",
+          "text": "Lenticulostriate arteries average 9-10.4 (range 1-21) in number."
+        },
+        {
+          "letter": "D",
+          "text": "Lentioculostriate arteries measured about 100-2,200 micrometer in diameter at origin."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Takahashi S. Neurovascular Imaging. p.61",
+      "explanation": "**MCA來源的lateral lenticulostriate arteries經前穿質（anterior perforated substance）之「外側」（lateral）進入，而非medial 2/3**——medial群才是自ACA A1發出並經內側進入。\n\n(A) 對：lenticulostriate arteries確實起源自近端MCA（M1）。\n(B) **錯（正解）**：經外側而非medial 2/3進入。\n(C) 對：平均數目約9-10.4條（range 1-21）。\n(D) 對：起始管徑約100-2200微米。\n\n→ [[lenticulostriate-arteries]]",
+      "images": [],
+      "concepts": [
+        "lenticulostriate-arteries"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-262",
+      "year": 2016,
+      "number": 262,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding dissecting/dissection artery, which of the following statement is wrong:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They usually shows various signal changes on MR images."
+        },
+        {
+          "letter": "B",
+          "text": "On spin-echo sequences, intramural hematoma has a striking appearance as an eccentric or occasionally circumferential crescentic, linear, or bank-like focus of high intensity."
+        },
+        {
+          "letter": "C",
+          "text": "Acute hematoma usually shows high signal intensity."
+        },
+        {
+          "letter": "D",
+          "text": "The residual lumen narrows with time, which reflects absent or diminished flow void."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Takahashi S. Neurovascular Imaging. p.357",
+      "explanation": "**急性期血腫（acute hematoma）通常呈低訊號（非高訊號）**，需隨時間演變（deoxyhemoglobin→methemoglobin）才轉為高訊號。\n\n(A) 對：動脈剝離之壁內血腫在MR上隨時期呈多樣訊號變化（依血紅素分解階段）。\n(B) 對：spin-echo序列上壁內血腫可呈偏心或環周之新月形／線狀／帶狀高訊號。\n(C) **錯（正解）**：急性血腫（去氧血紅素為主）通常呈低訊號，而非高訊號；訊號隨時間演變才轉為高訊號（methemoglobin期）。\n(D) 對：殘餘管腔隨時間縮窄，反映流空訊號減少/消失（血栓化）。\n\n→ [[arterial-dissection-mri]]",
+      "images": [],
+      "concepts": [
+        "arterial-dissection-mri"
       ],
       "checked": false,
       "years": [
