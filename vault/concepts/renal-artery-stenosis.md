@@ -80,6 +80,9 @@ dateRev: 2026-06-29
 [^7]: *Radiologic Assessment of Native Renal Vasculature: A Multimodality Review.* RadioGraphics 2017;37:page 140（2018 交換考題詳解 p.85 引用；Tier 1）。直接 US 徵象位於狹窄處（PSV>200、PSV比>3.5、訊號消失、aliasing）；間接徵象位於狹窄遠端（pulsus parvus et tardus、acceleration index<300、acceleration time>70ms）。
 
 ## 題目
+> [!question]- Concerning renal artery stenosis, which one of the ultrasonographic findings is not true? (2016-281)
+> **「Renal-to-aortic ratio (RAR) < 3.5」為非（C）**——顯著狹窄之RAR應為>3.5（敏感度84-91%、特異度95-97%）。輕度狹窄(<50%) PSV 100-200 cm/sec、重度狹窄(50-99%) PSV>200 cm/sec、狹窄後紊流與頻譜增寬皆正確。[^1]
+
 > [!question]- 關於 fibromuscular dysplasia(FMD)，下列何者有誤? (2017-279)
 > 「**少以 vascular ectasia 表現（D）**」有誤——血管迂曲、紡錘狀血管擴張、string-of-beads為**典型**表現（非少見）。好發年輕女性、最常影響腎動脈、intracranial FMD可以SAH表現（但屬較不典型）皆正確。[^6]
 

@@ -35,6 +35,9 @@ dateRev: 2026-07-01
 [^5]: Tier 2 — *Invasive Lobular Carcinoma: A Review of Imaging Modalities with Special Focus on Pathology Concordance.* PMC10000992（accessed 2026-06-29）：mammography 敏感度 34–92%、可達 30% mammographically occult、大小低估可達 70%;US 敏感度 68–92%、低估大小 18–53%;MRI 敏感度多 >95%、偵測 multifocal/multicentric(88–91%)、約 1/3 病人偵測到額外病灶、降低再切除率。
 [^6]: 2019 交換考詳解；RadioGraphics 2009;29:165-176, p.168, p.174：ILC最常見乳攝表現為spiculated mass、US最常見為hypoechoic mass伴angular/ill-defined margins與posterior acoustic shadowing；組織學bull's-eye pattern由腫瘤細胞環繞癌變或正常腺泡/乳管形成。
 
+> [!question]- Which one is the "wrong" statement of the invasive lobular carcinoma? (2016-277)
+> **「ILC是最常見乳癌型態」為非（A）**——ILC僅佔所有乳癌約5-10%，最常見乳癌型態為invasive ductal carcinoma（IDC）。常呈spiculated/ill-defined mass、四種主要型態(classic/signet ring/alveolar/pleomorphic)、classic type呈linear與targetoid組織型態皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "invasive-lobular-carcinoma")

@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 273,
+  "totalQuestions": 291,
   "questions": [
     {
       "id": "2016-001",
@@ -10168,6 +10168,672 @@
       "images": [],
       "concepts": [
         "mammography-physics"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-274",
+      "year": 2016,
+      "number": 274,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about pancreatic cysts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudocysts account for 85% of inflammatory/infection cases"
+        },
+        {
+          "letter": "B",
+          "text": "Congenital pancreatic cysts are rare"
+        },
+        {
+          "letter": "C",
+          "text": "Serous cystadenoma is the most common cystic tumor in pancreas."
+        },
+        {
+          "letter": "D",
+          "text": "For Von Hippel-Lindau disease, renal involvement in all cases"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.691-692",
+      "explanation": "依官方詳解訂正，(C)敘述為非——官方將「serous」訂正為「mucinous cystadenoma為胰臟最常見囊性腫瘤」。\n\n(A) 對：胰臟假性囊腫佔發炎/感染相關囊性病灶約85%。\n(B) 對：先天性胰臟囊腫罕見。\n(C) **錯（正解）**：官方訂正為mucinous cystadenoma才是最常見胰臟囊性腫瘤。\n(D) 對：VHL病人腎臟受侵犯常見（>67%）。\n\n→ [[pancreatic-cystic-lesions]]\n\n> [!warning] 與文獻查證有出入，建議醫師覆核：多數放射文獻（如AJR/MDPI回顧）指出serous cystadenoma佔所有胰臟囊性病灶約16%，為最常見的良性胰臟囊性『腫瘤』（pseudocyst則為最常見胰臟囊性『病灶』整體，非腫瘤）；本題官方訂正將「serous」改為「mucinous」與此常見文獻敘述不同，可能為出題來源(Dahnert)特定段落定義差異或訂正誤植，暫依官方標記答案C為預設值。",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-275",
+      "year": 2016,
+      "number": 275,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about Budd-Chiari syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Budd-Chiari syndrome is a syndrome of global / segmental hepatic venous outflow obstruction."
+        },
+        {
+          "letter": "B",
+          "text": "CT showed \"flip-flop\" enhancement pattern"
+        },
+        {
+          "letter": "C",
+          "text": "Doppler ultrasound has 60% sensitivity and 65% specificity in diagnosing Budd-Chiari syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Female > Male"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.706-707",
+      "explanation": "**都卜勒超音波診斷Budd-Chiari症候群之敏感度實際約87.5%**（非60%），故(C)為非。\n\n(A) 對：定義為全域/節段性肝靜脈流出道阻塞。\n(B) 對：CT呈現「flip-flop」強化型態（尾狀葉早期強化、周邊肝實質延遲強化，隨病程可逆轉）。\n(C) **錯（正解）**：官方訂正敏感度應為約87.5%（非60%）。\n(D) 對：西方文獻女性多於男性（亞洲文獻則男性較多見）。\n\n→ [[budd-chiari-syndrome]]",
+      "images": [],
+      "concepts": [
+        "budd-chiari-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-276",
+      "year": 2016,
+      "number": 276,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the \"wrong\" statement of normal breast anatomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The fibrous strands that extend from the deep dermis into the underlying breast tissue is called suspensory ligaments of Cooper."
+        },
+        {
+          "letter": "B",
+          "text": "The breast consists of 5 to 10 lobes, each emptying into a separate major duct terminating in the nipple."
+        },
+        {
+          "letter": "C",
+          "text": "The lobule is the functional unit of the breast. Historically, it is composed of terminal ducts and acini."
+        },
+        {
+          "letter": "D",
+          "text": "The tissue composition is important because is correlates with the ability of mammography to detect lesions in the breast."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Breast Imaging (Bassett et al.), p.224-226",
+      "explanation": "**乳房由15-25個腺葉(lobes)組成**（非5-10個），各自匯入獨立的主乳管終於乳頭，故(B)為非。\n\n(A) 對：Cooper氏韌帶，深真皮延伸入乳房組織之纖維束。\n(B) **錯（正解）**：官方訂正為15-25個腺葉（非5-10個）。\n(C) 對：小葉為乳房功能單位，由終末導管與腺泡組成。\n(D) 對：組織組成影響乳房攝影偵測病灶之能力。\n\n→ [[breast-normal-anatomy]]",
+      "images": [],
+      "concepts": [
+        "breast-normal-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-277",
+      "year": 2016,
+      "number": 277,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is the \"wrong\" statement of the invasive lobular carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Invasive lobular carcinoma is the most common type of breast malignancy."
+        },
+        {
+          "letter": "B",
+          "text": "Invasive lobular carcinoma most commonly presents as a spiculated or ill-defined mass on mammography, ultrasonography, and MRI."
+        },
+        {
+          "letter": "C",
+          "text": "There are mainly four variants of invasive lobular carcinoma: classic, signet ring, alveolar and pelomorphic."
+        },
+        {
+          "letter": "D",
+          "text": "The classic type invasive lobular carcinoma shows two types of histologic patterns; the linear and targetoid pattern."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Breast Imaging (Bassett et al.), p.496",
+      "explanation": "**ILC僅佔所有乳癌約5-10%**，最常見乳癌型態為invasive ductal carcinoma（IDC），非ILC，故(A)為非。\n\n(A) **錯（正解）**：ILC非最常見乳癌型態（IDC才是），ILC僅佔5-10%。\n(B) 對：最常見表現為spiculated或ill-defined mass。\n(C) 對：classic、signet ring、alveolar、pleomorphic為ILC主要型態與變異型。\n(D) 對：classic type呈linear與targetoid兩種組織型態，linear infiltrates環繞乳管周圍分布。\n\n→ [[invasive-lobular-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-278",
+      "year": 2016,
+      "number": 278,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列entrapment neuropathy與相對應的fibro-osseous channel syndrome,何者為是？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tibial nerve - anterior tarsal tunnel syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Deep peroneal nerve - tarsal tunnel syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Both of above"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Internal Derangements of Joints, 2nd ed., p.2222",
+      "explanation": "兩配對皆錯，故正解為(D) none of above。\n\n(A) 錯：官方訂正應為「deep peroneal nerve - anterior tarsal tunnel syndrome」（非tibial nerve）。\n(B) 錯：官方訂正應為「posterior tibial nerve - tarsal tunnel syndrome」（非deep peroneal nerve）。\n(C) 錯：因A、B皆錯，兩者皆非。\n(D) **對（正解）**：以上皆非——anterior tarsal tunnel syndrome對應deep peroneal nerve；(posterior) tarsal tunnel syndrome對應posterior tibial nerve。\n\n→ [[tarsal-tunnel-syndromes]]",
+      "images": [],
+      "concepts": [
+        "tarsal-tunnel-syndromes"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-279",
+      "year": 2016,
+      "number": 279,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列tendon or ligament attach site avulsion fracture的配對,何者為錯？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior cruciate ligament – Segond fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Iliotibial band - Gerdy's tubercle fracture"
+        },
+        {
+          "letter": "C",
+          "text": "Rectus femoris – Anteroinferior iliac spine fracture"
+        },
+        {
+          "letter": "D",
+          "text": "Hamstring muscle – ischial tuberosity fracture"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Internal Derangements of Joints, 2nd ed., p.616, 1787, 1792",
+      "explanation": "**Segond fracture之附著結構為lateral capsular ligaments（外側關節囊韌帶），非anterior cruciate ligament**，故(A)為錯配對。\n\n(A) **錯（正解）**：官方訂正為lateral capsular ligaments - Segond fracture（非ACL）。\n(B) 對：Iliotibial band - Gerdy's tubercle fracture。\n(C) 對：Rectus femoris - anteroinferior iliac spine fracture。\n(D) 對：Hamstring muscle - ischial tuberosity fracture。\n\n→ [[avulsion-fracture-attachments]]",
+      "images": [],
+      "concepts": [
+        "avulsion-fracture-attachments"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-280",
+      "year": 2016,
+      "number": 280,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning retroperitoneal fibrosis, which one of the following is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibrotic plaque most commonly extends to involved kidneys"
+        },
+        {
+          "letter": "B",
+          "text": "Most commonly extends from renal hilum to pelvic brim"
+        },
+        {
+          "letter": "C",
+          "text": "Plaque may be asymmetrical"
+        },
+        {
+          "letter": "D",
+          "text": "Usually surrounds aorta, IVC & ureters"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Diagnostic Imaging (Abdomen), p.III-1-11",
+      "explanation": "**後腹膜纖維化斑塊典型自主動脈分叉處(aortic bifurcation)向上延伸，可包覆腎門(renal hila)**，並非直接延伸至受侵犯腎臟本身，故(A)為非。\n\n(A) **錯（正解）**：官方訂正為斑塊自主動脈分叉處向上延伸並可包覆腎門，非直接延伸至腎臟。\n(B) 對：常自腎門延伸至骨盆入口。\n(C) 對：斑塊可不對稱。\n(D) 對：通常包繞主動脈、IVC與輸尿管。\n\n→ [[retroperitoneal-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-281",
+      "year": 2016,
+      "number": 281,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning renal artery stenosis, which one of the ultrasonographic findings is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mild stenosis (<50% stenosis) is peak systolic velocity 100-200 cm/sec"
+        },
+        {
+          "letter": "B",
+          "text": "Severe stenosis (50-99% stenosis) is peak systolic velocity > 200 cm/sec"
+        },
+        {
+          "letter": "C",
+          "text": "Renal-to-aortic ratio of peak systolic velocity < 3.5"
+        },
+        {
+          "letter": "D",
+          "text": "Poststenotic turbulent flow and spectral broadening"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Diagnostic Imaging (Abdomen), part III, section 3, p.65",
+      "explanation": "**顯著腎動脈狹窄之renal-aortic ratio(RAR)應為>3.5**（非<3.5），故(C)為非。\n\n(A) 對：輕度狹窄(<50%) PSV約100-200 cm/sec。\n(B) 對：重度狹窄(50-99%) PSV>200 cm/sec。\n(C) **錯（正解）**：RAR應為>3.5（預測≥60%狹窄，敏感度84-91%、特異度95-97%），非<3.5。\n(D) 對：狹窄後可見紊流與頻譜增寬。\n\n→ [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-282",
+      "year": 2016,
+      "number": 282,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about splenic pyogenic abscess is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The imaging appearance is specific"
+        },
+        {
+          "letter": "B",
+          "text": "Guided needle aspiration may be both diagnostic and curative"
+        },
+        {
+          "letter": "C",
+          "text": "Abscess most commonly occur secondary to prior infarction"
+        },
+        {
+          "letter": "D",
+          "text": "Abscess can be differentiated confidently from true cyst"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；CT & US of the Acute Abdomen",
+      "explanation": "**超音波/CT導引針吸引流對脾臟化膿性膿瘍兼具診斷與治療效果**，故(B)為正解。\n\n(A) 錯：影像表現不具特異性。\n(B) **對（正解）**：導引針吸引流可兼具診斷與治療效果。\n(C) 錯：官方訂正為典型繼發於**心內膜炎或其他血行性播種來源**，非「先前梗塞」。\n(D) 錯：無法自信地與真性囊腫作影像鑑別。\n\n→ [[splenic-pyogenic-abscess]]",
+      "images": [],
+      "concepts": [
+        "splenic-pyogenic-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-283",
+      "year": 2016,
+      "number": 283,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which vessel is through the gastrohepatic ligament?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper hepatic artery"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein"
+        },
+        {
+          "letter": "C",
+          "text": "Coronary vein"
+        },
+        {
+          "letter": "D",
+          "text": "Gastroduodenal artery"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.",
+      "explanation": "**Coronary vein（即左胃靜脈）與左胃動脈行經肝胃韌帶（gastrohepatic ligament）**，故(C)為正解。\n\n(A)(B) 錯：proper hepatic artery、portal vein行經肝十二指腸韌帶（hepatoduodenal ligament），非肝胃韌帶。\n(C) **對（正解）**：coronary vein（左胃靜脈）行經肝胃韌帶。\n(D) 錯：gastroduodenal artery不行經肝胃韌帶。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-284",
+      "year": 2016,
+      "number": 284,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which structure is not through the hepatoduodenal ligament?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper hepatic artery"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein"
+        },
+        {
+          "letter": "C",
+          "text": "Common bile duct"
+        },
+        {
+          "letter": "D",
+          "text": "Gastroduodenal artery"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.",
+      "explanation": "**肝十二指腸韌帶（hepatoduodenal ligament）内含門靜脈三合一：proper hepatic artery、portal vein、common bile duct；gastroduodenal artery不在此韌帶內**（走行於十二指腸後方），故(D)為正解。\n\n(A)(B)(C) 錯：皆為肝十二指腸韌帶內三大結構。\n(D) **對（正解）**：gastroduodenal artery不通過肝十二指腸韌帶。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-285",
+      "year": 2016,
+      "number": 285,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者不是Extrapulmonary lesion的特色?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "engulf pulmonary vessels"
+        },
+        {
+          "letter": "B",
+          "text": "incomplete border sign"
+        },
+        {
+          "letter": "C",
+          "text": "obtuse angle with the chest wall"
+        },
+        {
+          "letter": "D",
+          "text": "displacement of pulmonary vessels"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；RadioGraphics 2012;32:971-985",
+      "explanation": "**Extrapulmonary（肺外）病灶是「推擠(displace)」肺血管，而非「吞噬包覆(engulf)」肺血管**——engulf pulmonary vessels為肺內(intrapulmonary)病灶特色，故(A)為非。\n\n(A) **錯（正解）**：engulf pulmonary vessels為肺內病灶特色，非肺外病灶。\n(B) 對：incomplete border sign（內緣清楚、外緣不清）為肺外病灶特色。\n(C) 對：與胸壁成鈍角(obtuse angle)為肺外病灶特色。\n(D) 對：推擠(displace)而非包覆肺血管為肺外病灶特色。\n\n→ [[extrapulmonary-lesion-signs]]",
+      "images": [],
+      "concepts": [
+        "extrapulmonary-lesion-signs"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-286",
+      "year": 2016,
+      "number": 286,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於心肌病變的描述，何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hypertrophic cardiomyopathy屬於遺傳疾病, MRI可以發現late Gd enhancement出現在病變肌肉區域"
+        },
+        {
+          "letter": "B",
+          "text": "Amyloidosis造成的心肌病變屬於restrictive cardiomyopathy"
+        },
+        {
+          "letter": "C",
+          "text": "idiopathic dilated cardiomyopathy是因為心肌異常出現fibrosis"
+        },
+        {
+          "letter": "D",
+          "text": "myocarditis典型MRI發現late Gd enhancement出現在interventricular septum"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Clinical Cardiac MRI, Springer-Verlag Berlin Heidelberg 2012, p.279-333",
+      "explanation": "**心肌炎(myocarditis)之LGE分布多變，但典型位於subepicardial myocardium**（mid-interventricular與focal transmural型態亦可見），並非典型分布於interventricular septum，故(D)為非。\n\n(A) 對：HCM為遺傳疾病，MRI可見病變肌肉區域LGE。\n(B) 對：類澱粉沉積症造成之心肌病變屬restrictive cardiomyopathy。\n(C) 對：特發性擴張型心肌病為心肌異常纖維化所致。\n(D) **錯（正解）**：myocarditis典型LGE位於subepicardial myocardium，非interventricular septum。\n\n→ [[cardiomyopathy-mri]]",
+      "images": [],
+      "concepts": [
+        "cardiomyopathy-mri"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-287",
+      "year": 2016,
+      "number": 287,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下關於Breast MRI lexicon中\"focus\"的敘述，何者有誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "focus為一enhancing dot，通常小於5mm。"
+        },
+        {
+          "letter": "B",
+          "text": "focus可能為良性或惡性的。"
+        },
+        {
+          "letter": "C",
+          "text": "focus可能為惡性的feature有：無fatty hilum，persistent/plateau dynamics，與前片比較有增大。"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆正確。"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；ACR BI-RADS Atlas 2013",
+      "explanation": "**focus之惡性動力學特徵應為rapid rise with washout(type 3)，而非persistent/plateau dynamics**，故(C)為非。\n\n(A) 對：focus為enhancing dot，通常<5mm。\n(B) 對：focus可能良性或惡性。\n(C) **錯（正解）**：官方訂正惡性feature應為rapid rise with washout(type 3)，非persistent/plateau dynamics；無fatty hilum、與前片比較增大仍為惡性可能特徵。\n(D) 錯：因(C)有誤，並非以上皆正確。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-288",
+      "year": 2016,
+      "number": 288,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the following description of CROUP, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "supraglottic laryngotracheobronchitis"
+        },
+        {
+          "letter": "B",
+          "text": "Most commonly caused by parainfluenza virus."
+        },
+        {
+          "letter": "C",
+          "text": "Age: 6 months-3 years (younger age group than epiglottitis)."
+        },
+        {
+          "letter": "D",
+          "text": "Radiographic features including inverted \"V\" or \"steeple sign\"."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Primer of Diagnostic Imaging, Pediatric Imaging, p.820",
+      "explanation": "**Croup（急性喉氣管支氣管炎）為聲門下(subglottic)病變，非supraglottic**——supraglottic病變典型為epiglottitis（會厭炎），故(A)為非。\n\n(A) **錯（正解）**：croup應為laryngotracheobronchitis，非supraglottic（supraglottic為epiglottitis特徵）。\n(B) 對：最常見致病病毒為parainfluenza virus。\n(C) 對：好發6個月-3歲（較epiglottitis年齡層小）。\n(D) 對：影像可見inverted V/steeple sign。\n\n→ [[croup-steeple-sign]]",
+      "images": [],
+      "concepts": [
+        "croup-steeple-sign"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-289",
+      "year": 2016,
+      "number": 289,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列哪一項不是cavernous hemangioma的超音波表現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ill-defined, heterogenous, hyperechoic mass."
+        },
+        {
+          "letter": "B",
+          "text": "Doppler shows no internal blood flow or slow-flow."
+        },
+        {
+          "letter": "C",
+          "text": "Most lesions remain stable in size over time."
+        },
+        {
+          "letter": "D",
+          "text": "Large lesion may contain hypoechoic thrombosis, fibrosis and calcification."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Fundamentals of Diagnostic Radiology, 3rd ed., p.932",
+      "explanation": "**肝血管瘤典型超音波表現為界清、均質高回音腫塊**（非ill-defined、heterogeneous），故(A)為非。\n\n(A) **錯（正解）**：官方訂正為well-defined、homogeneous高回音腫塊，非ill-defined heterogeneous。\n(B) 對：都卜勒中央無明顯血流或慢流。\n(C) 對：多數病灶大小長期穩定。\n(D) 對：大型病灶可含低回音血栓、纖維化與鈣化。\n\n→ [[hepatic-hemangioma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-290",
+      "year": 2016,
+      "number": 290,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 25-year-old male with a 5-month history of increasing low back pain. No other neurological symptoms or signs. An x-ray of lumbar spine demonstrates an enlarged sclerotic left pedicle of L3. A subsequent CT scan shows a 3 cm lucent focus within the left pedicle of L3, which has expanded the bone with surrounding sclerosis. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoid osteoma"
+        },
+        {
+          "letter": "B",
+          "text": "Osteoblastoma"
+        },
+        {
+          "letter": "C",
+          "text": "Intracortical hemangioma"
+        },
+        {
+          "letter": "D",
+          "text": "Enostosis"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；RadioGraphics 2010;30:737-749",
+      "explanation": "**病灶3cm已超過osteoid osteoma典型上限（<1.5-2cm），且為膨脹性病灶伴周圍硬化**，故最可能為osteoblastoma。\n\n(A) 錯：osteoid osteoma典型<1.5-2cm，本病灶3cm過大。\n(B) **對（正解）**：osteoblastoma好發脊椎後柱結構（含椎弓根），體積較osteoid osteoma大（通常>1.5-2cm），可持續增大並使骨膨脹伴周圍硬化。\n(C) 錯：intracortical hemangioma罕見於此表現。\n(D) 錯：enostosis（骨島）為緻密骨島，非膨脹性溶骨病灶。\n\n→ [[spinal-osteoblastoma]]",
+      "images": [],
+      "concepts": [
+        "spinal-osteoblastoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-291",
+      "year": 2016,
+      "number": 291,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "In a calcium scoring scan, what is the definition of a calcified plaque?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Greater than 100HU units and 2mm³"
+        },
+        {
+          "letter": "B",
+          "text": "Greater than 130HU units and 1mm³"
+        },
+        {
+          "letter": "C",
+          "text": "Greater than 130HU units and 2mm³"
+        },
+        {
+          "letter": "D",
+          "text": "Greater than 150HU units and 1mm³"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Cardiac Computed Tomography Problem-Based Learning, p.52",
+      "explanation": "**Agatston鈣化評分定義鈣化斑塊為密度>130 HU、面積≥1 mm²（考題單位標示為mm³，惟標準定義為面積mm²）**，故正解為(B)。\n\n(A) 錯：閾值100HU過低。\n(B) **對（正解）**：>130HU、≥1mm²（Agatston標準定義）。\n(C) 錯：面積門檻應為1非2。\n(D) 錯：閾值150HU過高。\n\n→ [[calcium-score]]",
+      "images": [],
+      "concepts": [
+        "calcium-score"
       ],
       "checked": false,
       "years": [

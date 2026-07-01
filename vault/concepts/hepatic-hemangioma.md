@@ -55,6 +55,10 @@ same:
 [^7]: *Hepatic Hemangioma: Atypical Appearances on CT, MR Imaging, and Sonography*. AJR（article 級，DOI:10.2214/ajr.180.1.1800135）。巨大血管瘤中央疤痕/裂隙不強化；sclerosed/hyalinized 血管瘤強化稀少、T2 訊號下降、包膜回縮擬惡性。
 [^8]: Birnbaum BA, et al. *Definitive diagnosis of hepatic hemangiomas: MR imaging versus Tc-99m-labeled red blood cell SPECT*. Radiology 1990;176(1)（article 級，DOI:10.1148/radiology.176.1.2191377）。Tc-99m RBC SPECT perfusion–blood pool mismatch（早期低、延遲強烈攝取），SPECT 對 ≥1.5–2 cm 病灶敏感度約 78%、準確度約 80%。
 
+## 題目
+> [!question]- 下列哪一項不是cavernous hemangioma的超音波表現? (2016-289)
+> **「Ill-defined、heterogeneous高回音腫塊」為非（A）**——典型應為well-defined、homogeneous高回音腫塊。都卜勒中央無明顯血流/慢流、大小長期穩定、大型病灶可含低回音血栓/纖維化/鈣化皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatic-hemangioma")
