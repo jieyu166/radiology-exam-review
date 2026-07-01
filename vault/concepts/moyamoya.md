@@ -14,6 +14,7 @@ dateRev: 2026-06-29
 **Moyamoya 的「煙霧」是進行性 ICA 狹窄逼出來的代償側支血管，Suzuki 六期描述的是這朵煙霧先起後滅的全過程——高峰在 Stage III，之後反而消退、由 ECA 側支接手。** 判讀分水嶺一：**Stage III＝煙霧側支最盛（maximal basal collaterals）＋ ACA/MCA 顯影缺損**，這是最常考的分期；判讀分水嶺二：**Stage IV–VI 煙霧反而減少**，切勿以為病越嚴重煙霧越多。
 
 ## Summary
+![Moyamoya 影像（Suzuki 分期）](https://img-hosting.jieyu166.workers.dev/i/8Cnis1x.jpg)
 - **Suzuki 六期**：[^1]
   - **I**：頸內動脈分叉(carotid fork)狹窄。
   - **II**：煙霧血管開始、主要腦動脈擴張。

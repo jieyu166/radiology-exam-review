@@ -17,12 +17,15 @@ dateRev: 2026-06-29
 **腸壁超音波五層是「高-低-高-低-高」交替，記憶鉤：「亮-暗-亮-暗-亮」，高回音的三層是黏膜表面、黏膜下層（最厚）、漿膜。** 最常考的錯誤：第二個「高回音」層是 **submucosa（黏膜下層）**，不是 muscularis mucosa——muscularis mucosa 是低回音。由內而外順序：superficial mucosa（高）→ muscularis mucosa（低）→ submucosa（高，最厚）→ muscularis propria（低）→ serosa（高）。臨床判讀：gut signature 五層保留傾向良性發炎，層次破壞傾向惡性浸潤。
 
 ## Summary
+![腸壁超音波五層 gut signature](https://img-hosting.jieyu166.workers.dev/i/upiD86y.png) From [^1]
 - **五層（內→外）**：[^1]
-  1. **superficial mucosa**：高回音（第一高回音層）
-  2. **muscularis mucosa**：低回音
-  3. **submucosa**：高回音（**第二高回音層、最厚**）
-  4. **muscularis propria**：低回音
-  5. **serosa**：高回音（最外高回音層）
+  1. **superficial mucosa**：高回音（第一高回音層，白箭頭）
+  2. **muscularis mucosa**：低回音（黑箭頭）
+  3. **submucosa**：高回音（**第二高回音層、最厚**，白箭）
+  4. **muscularis propria**：低回音（黑箭）
+  5. **serosa**：高回音（最外高回音層＊）
+
+
 - **題目對錯**：A「內層高回音＝superficial mucosa」對；**B「第二高回音層是 muscularis mucosa」錯——應為 submucosa**（muscularis mucosa 是低回音）＝題目正解（2016-104 正解 B）；C「muscularis propria 低回音」對；D「最外高回音層是 serosa」對。[^1]
 - **組織學對應**：高回音層＝脂肪／膠原（submucosa、serosa）與**管腔–黏膜介面**；低回音層＝平滑肌（muscularis mucosa、muscularis propria）。最內高回音層**嚴格說是 gut 管腔與黏膜之介面回音**，muscularis mucosa 通常很薄、不一定可見。[^2]
 - **臨床用**：gut signature **保留**＋長節段受累→偏良性（如發炎）；**破壞**＋短節段→偏惡性浸潤。[^2]
