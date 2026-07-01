@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 277,
+  "totalQuestions": 280,
   "questions": [
     {
       "id": "2016-001",
@@ -10316,6 +10316,117 @@
       "images": [],
       "concepts": [
         "invasive-lobular-carcinoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-278",
+      "year": 2016,
+      "number": 278,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列entrapment neuropathy與相對應的fibro-osseous channel syndrome,何者為是？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tibial nerve - anterior tarsal tunnel syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Deep peroneal nerve - tarsal tunnel syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Both of above"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Internal Derangements of Joints, 2nd ed., p.2222",
+      "explanation": "兩配對皆錯，故正解為(D) none of above。\n\n(A) 錯：官方訂正應為「deep peroneal nerve - anterior tarsal tunnel syndrome」（非tibial nerve）。\n(B) 錯：官方訂正應為「posterior tibial nerve - tarsal tunnel syndrome」（非deep peroneal nerve）。\n(C) 錯：因A、B皆錯，兩者皆非。\n(D) **對（正解）**：以上皆非——anterior tarsal tunnel syndrome對應deep peroneal nerve；(posterior) tarsal tunnel syndrome對應posterior tibial nerve。\n\n→ [[tarsal-tunnel-syndromes]]",
+      "images": [],
+      "concepts": [
+        "tarsal-tunnel-syndromes"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-279",
+      "year": 2016,
+      "number": 279,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列tendon or ligament attach site avulsion fracture的配對,何者為錯？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior cruciate ligament – Segond fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Iliotibial band - Gerdy's tubercle fracture"
+        },
+        {
+          "letter": "C",
+          "text": "Rectus femoris – Anteroinferior iliac spine fracture"
+        },
+        {
+          "letter": "D",
+          "text": "Hamstring muscle – ischial tuberosity fracture"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Internal Derangements of Joints, 2nd ed., p.616, 1787, 1792",
+      "explanation": "**Segond fracture之附著結構為lateral capsular ligaments（外側關節囊韌帶），非anterior cruciate ligament**，故(A)為錯配對。\n\n(A) **錯（正解）**：官方訂正為lateral capsular ligaments - Segond fracture（非ACL）。\n(B) 對：Iliotibial band - Gerdy's tubercle fracture。\n(C) 對：Rectus femoris - anteroinferior iliac spine fracture。\n(D) 對：Hamstring muscle - ischial tuberosity fracture。\n\n→ [[avulsion-fracture-attachments]]",
+      "images": [],
+      "concepts": [
+        "avulsion-fracture-attachments"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-280",
+      "year": 2016,
+      "number": 280,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning retroperitoneal fibrosis, which one of the following is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibrotic plaque most commonly extends to involved kidneys"
+        },
+        {
+          "letter": "B",
+          "text": "Most commonly extends from renal hilum to pelvic brim"
+        },
+        {
+          "letter": "C",
+          "text": "Plaque may be asymmetrical"
+        },
+        {
+          "letter": "D",
+          "text": "Usually surrounds aorta, IVC & ureters"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Diagnostic Imaging (Abdomen), p.III-1-11",
+      "explanation": "**後腹膜纖維化斑塊典型自主動脈分叉處(aortic bifurcation)向上延伸，可包覆腎門(renal hila)**，並非直接延伸至受侵犯腎臟本身，故(A)為非。\n\n(A) **錯（正解）**：官方訂正為斑塊自主動脈分叉處向上延伸並可包覆腎門，非直接延伸至腎臟。\n(B) 對：常自腎門延伸至骨盆入口。\n(C) 對：斑塊可不對稱。\n(D) 對：通常包繞主動脈、IVC與輸尿管。\n\n→ [[retroperitoneal-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
       ],
       "checked": false,
       "years": [

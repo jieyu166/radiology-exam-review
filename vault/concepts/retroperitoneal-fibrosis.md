@@ -28,6 +28,9 @@ dateRev: 2026-06-29
 > [!note] 考點:何者「錯」?
 > 「IVP 示輸尿管**外側(lateral)偏移**」錯——應為**內側(medial)偏移**。包繞主動脈/IVC/輸尿管、漸進變細、強化依分期皆正確。[^1]
 
+> [!note] 考點：關於後腹膜纖維化,何者「非」正確?
+> 「**斑塊最常直接延伸至受侵犯腎臟**」為非——斑塊典型**自主動脈分叉處向上延伸，可包覆腎門(renal hila)**，並非直接延伸進入腎臟本身。常自腎門延伸至骨盆入口、斑塊可不對稱、通常包繞主動脈/IVC/輸尿管皆正確。[^1]
+
 ### 參考來源
 [^1]: *Chronic periaortitis（含 retroperitoneal fibrosis / Ormond disease）*. Radiopaedia.org（實際查證 accessed 2026-06-17）:腎下主動脈周圍纖維發炎斑塊、輸尿管 entrapment 與 hydronephrosis/hydroureter;治療為 ureterolysis 並**輸尿管 lateral transposition**＋網膜包覆;CT 強化依纖維活性而異;IgG4 相關。
 [^2]: IVU 三聯「上段腎積水＋輸尿管中 1/3 **內側偏移(medial deviation)**＋漸進變細」為經典泌尿放射教學;與 [^1] 之手術需把輸尿管「外側轉位」一致(因斑塊把輸尿管往內側拉)。
@@ -37,6 +40,10 @@ dateRev: 2026-06-29
 [^6]: **Tier 2（PMC 案例佐證）**. IgG4-related focal RPF 案例:FDG-PET/CT 顯著攝取（SUVmax 8.93）但無法與惡性區分,需切片確診。According to PubMed, DOI: [10.1186/s40792-020-00964-0](https://doi.org/10.1186/s40792-020-00964-0)（PMC7399002）。
 [^7]: **Tier 2**. 同 [^5] StatPearls：IgG4-RD 好發年長男性、常合併自體免疫胰臟炎等多器官侵犯,對類固醇反應佳。
 [^8]: **Tier 2（PMC，IF 一般）**. *Differentiation of Lymphoma Presenting as Retroperitoneal Mass and Retroperitoneal Fibrosis: Evaluation with MDCT*. Chin Med J（PMC5358419, [連結](https://pmc.ncbi.nlm.nih.gov/articles/PMC5358419/)）：主動脈前移於淋巴瘤約 43.5% vs RPF 約 5.3%;淋巴瘤呈「floating aorta sign」、bulky 分葉、向後包繞。
+
+## 題目
+> [!question]- Concerning retroperitoneal fibrosis, which one of the following is not true? (2016-280)
+> **「斑塊最常直接延伸至受侵犯腎臟」為非（A）**——官方訂正為斑塊自主動脈分叉處向上延伸並可包覆腎門，非直接延伸至腎臟本身。常自腎門延伸至骨盆入口、斑塊可不對稱、通常包繞主動脈/IVC/輸尿管皆正確。[^1]
 
 ## 考題
 ```dataview
