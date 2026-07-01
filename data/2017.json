@@ -11126,6 +11126,244 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-308",
+      "year": 2017,
+      "number": 308,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Following a holiday in South-East Asia, a 33-year-old man presented with abdominal pain. Ultrasound demonstrated an echo-poor lesion within the right lobe of the liver which contained several smaller internal cysts. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoebic abscess"
+        },
+        {
+          "letter": "B",
+          "text": "Echinococcus"
+        },
+        {
+          "letter": "C",
+          "text": "Pyogenic abscess"
+        },
+        {
+          "letter": "D",
+          "text": "Polycystic liver disease"
+        },
+        {
+          "letter": "E",
+          "text": "Haemangioma"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Final FRCR Part A Modules 1-3 Single Best Answer MCQs, Robin Proctor, p.126",
+      "explanation": "**B（Echinococcus）**——子囊(daughter cysts,honeycomb/rosette狀)為肝包蟲病(CE2型)特徵性超音波表現。\n\n(A) Amoebic abscess:無子囊結構。\n(B) **正解**。\n(C) Pyogenic abscess:臨床常伴發燒感染徵象。\n(D) Polycystic liver disease:囊腫間無母子關係。\n(E) Haemangioma:血管性病灶非囊性。\n\n→ [[hepatic-hydatid-cyst]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hydatid-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-309",
+      "year": 2017,
+      "number": 309,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 58-year-old African woman developed right upper quadrant pain. Ultrasound showed a grossly cirrhotic liver with markedly hyperechoic septa separating areas of relatively normal liver, recognized as a 'turtle back' appearance. What is the most likely underlying diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amoebiasis"
+        },
+        {
+          "letter": "B",
+          "text": "Hydatid"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Schistosomiasis"
+        },
+        {
+          "letter": "E",
+          "text": "Tuberculosis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Final FRCR Part A Modules 1-3 Single Best Answer MCQs, Robin Proctor, p.127",
+      "explanation": "**D（Schistosomiasis）**——高回音間隔分隔正常肝實質形成turtle back appearance,反映門脈周圍pipestem fibrosis。\n\n(A) Amoebiasis:典型呈肝膿瘍非纖維化間隔。\n(B) Hydatid:呈囊性病灶伴子囊。\n(C) Lymphoma:呈局部/瀰漫低回音病灶。\n(D) **正解**。\n(E) Tuberculosis:可呈粟粒狀病灶或膿瘍非turtle back紋路。\n\n→ [[hepatic-schistosomiasis]]",
+      "images": [],
+      "concepts": [
+        "hepatic-schistosomiasis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-310",
+      "year": 2017,
+      "number": 310,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 40-year-old woman presents with a palpable breast lump for several weeks. On examination, a firm, relatively mobile mass is palpable in the left upper outer quadrant. Mammograms demonstrated a well-circumscribed round soft-tissue density in the upper outer quadrant of the left breast. What feature on ultrasound would favor a diagnosis of a breast cyst above that of fibroadenoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple bilateral lesions of similar appearance"
+        },
+        {
+          "letter": "B",
+          "text": "Internal calcification"
+        },
+        {
+          "letter": "C",
+          "text": "A round hypoechoic lesion with a smooth well-defined margin"
+        },
+        {
+          "letter": "D",
+          "text": "A hypoechoic lesion with internal echoes homogeneously distributed within the lesion"
+        },
+        {
+          "letter": "E",
+          "text": "A hyperechoic posterior wall"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；Final FRCR Part A Modules 4-6 Single Best Answer MCQs, Robin Proctor, p.11",
+      "explanation": "**E（後方音波增強 hyperechoic posterior wall）**——單純囊腫因液體低衰減之特徵性表現,纖維腺瘤為實質腫塊通常無此表現。\n\n(A)(B)(C)(D) 皆非cyst特有,纖維腺瘤亦可具備類似特徵。\n(E) **正解**。\n\n→ [[breast-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-311",
+      "year": 2017,
+      "number": 311,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 30-year-old female patient with pelvic pain and irregular periods underwent an ultrasound examination. In the left ovary there was a 4-cm diffuse homogeneous hypoechoic focal lesion with low-level internal echoes. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endometrioma"
+        },
+        {
+          "letter": "B",
+          "text": "Functional ovarian cyst"
+        },
+        {
+          "letter": "C",
+          "text": "Polycystic ovary (PCOS)"
+        },
+        {
+          "letter": "D",
+          "text": "Ovarian carcinoma"
+        },
+        {
+          "letter": "E",
+          "text": "Corpus luteum"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Final FRCR Part A Modules 4-6 Single Best Answer MCQs, Robin Proctor, p.17",
+      "explanation": "**A（Endometrioma）**——均勻分佈的低位準內部回音(毛玻璃樣外觀)為endometrioma超音波典型特徵性表現。\n\n(A) **正解**。\n(B) Functional cyst:多為完全無回音。\n(C) PCOS:多發周邊小濾泡非單一均質病灶。\n(D) Ovarian carcinoma:常伴實質成分及血流。\n(E) Corpus luteum:常呈環狀血流(ring of fire)。\n\n→ [[endometrioma]]",
+      "images": [],
+      "concepts": [
+        "endometrioma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-312",
+      "year": 2017,
+      "number": 312,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement of extraadrenal paraganglioma is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most arise in fourth or fifth decades in life"
+        },
+        {
+          "letter": "B",
+          "text": "Carney's triad consists of extraadrenal paraganglioma, pulmonary chondroma and gastrointestinal stromal tumor (gastric GIST)"
+        },
+        {
+          "letter": "C",
+          "text": "Hyperintense on T2-weighted MR images"
+        },
+        {
+          "letter": "D",
+          "text": "These tumors are frequently found in the organs of Zuckerkandl"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；AJR 2006;187:492-504",
+      "explanation": "**B為偽**——Carney triad正確組成為gastric GIST(非泛指一般消化道基質瘤)、pulmonary chondroma、extraadrenal paraganglioma。\n\n(A) 多數40-50歲診斷:真。\n(B) **正解(偽)**:應specifically為gastric GIST。\n(C) T2高訊號:真。\n(D) 好發Zuckerkandl器官:真。\n\n→ [[extraadrenal-paraganglioma]]",
+      "images": [],
+      "concepts": [
+        "extraadrenal-paraganglioma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-313",
+      "year": 2017,
+      "number": 313,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement of malignant melanoma in the head is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Include the melanotic and amelanotic patterns"
+        },
+        {
+          "letter": "B",
+          "text": "High signal intensity on T1-weighted images of melanotic pattern"
+        },
+        {
+          "letter": "C",
+          "text": "Low signal intensity on T2-weighted images of amelanotic pattern"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；RadioGraphics 2001;21:625-639",
+      "explanation": "⚠️ 官方原答案標示B、後更正為C為偽。\n\n(A) 包含melanotic與amelanotic兩型態:真。\n(B) Melanotic pattern T1高訊號:真(黑色素順磁效應)。\n(C) **正解(偽)**:Amelanotic pattern於T2WI應呈高至等訊號,非低訊號。\n(D) 不適用。\n\n→ [[head-melanoma-mri-signal]]",
+      "images": [],
+      "concepts": [
+        "head-melanoma-mri-signal"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
