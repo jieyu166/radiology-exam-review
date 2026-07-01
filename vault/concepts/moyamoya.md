@@ -42,6 +42,7 @@ dateRev: 2026-06-29
 
 - **Moyamoya disease（原發、特發）**：無已知危險因子之健康個體出現上述血管變化。[^2]
 - **Moyamoya syndrome（次發、有相關病因）**：影像表現相同，但合併已知狀況——**NF1、鐮型血球病（sickle cell）、放射治療後（如視交叉腫瘤放療）、Down 症候群**（亦可見靜脈竇栓塞等其他血管異常）、自體免疫等。判讀時須結合臨床病史，影像本身無法區分原發或次發。[^2]
+- **相關疾病清單擴充（考題常見）**：除上述外，尚包含**Marfan syndrome、主動脈弓縮窄(coarctation of the aorta)**——惟兩者與moyamoya病的關聯性文獻報告**較不常見(infrequently reported)**，屬於相對少見但仍存在的關聯，考題常以此類選項測試「全部皆有關聯」的排除法。[^8]
 
 ### 判讀陷阱
 
@@ -58,6 +59,12 @@ dateRev: 2026-06-29
 [^5]: Article（AJNR；PubMed 33664105）：Katsuki M, et al. *Ivy Sign in Moyamoya Disease: A Comparative Study of the FLAIR Vascular Hyperintensity Sign Against Contrast-Enhanced MRI*. AJNR Am J Neuroradiol. 2021;42(4):694–700. doi:10.3174/ajnr.A6983. — ivy sign＝leptomeningeal 緩慢血流；CEMR ivy 評分與 DSA 一致性優於 FLAIR vascular hyperintensity。
 [^6]: Article（AJNR）：*Unilateral Hemispheric Proliferation of Ivy Sign on FLAIR Correlates Highly with Ipsilateral Decrease of Cerebrovascular Reserve*. AJNR Am J Neuroradiol. 2009;30(9):1709. — 單側 ivy sign 與該側 CVR 下降高度相關；另見血管重建後 ivy sign 消退（AJNR 2010;31(9):1713）。
 [^7]: Article（PMC 開放全文）：Sivrioglu AK, et al. *Ivy Sign in Moyamoya Disease*. Eurasian J Med. 2016;48(1):58–61. doi:10.5152/eurasianjmed.2015.14142. — ivy sign FLAIR 軟腦膜高訊號源於 leptomeningeal 側支緩慢血流；判讀須與腦膜病變鑑別（DDx 之腦膜炎／SAH／軟腦膜轉移為一般放射學共識）。
+
+[^8]: 官方 2017 詳解；RadioGraphics 2014;34:873-894：Moyamoya病相關疾病含phakomatoses(NF1、tuberous sclerosis)、血液疾病(sickle cell disease、antiphospholipid syndrome、aplastic anemia)、血管壁異常(atherosclerosis、放射引起血管病變、fibromuscular dysplasia、Marfan syndrome、Ehlers-Danlos syndrome)、少見病因(Graves disease、Down syndrome、ulcerative colitis、Apert syndrome、口服避孕藥)；與主動脈弓縮窄之關聯文獻報告較少見(infrequently reported)但仍存在。
+
+## 題目
+> [!question]- Moyamoya disease is related to following disease except (2017-319)
+> **E（All above are related）**——Sickle cell anemia、Down syndrome、Marfan syndrome、主動脈弓縮窄皆與moyamoya病有關聯記載（縮窄關聯性文獻報告較少見但仍存在），故無「except」選項，答案為全部皆有關。[^8]
 
 ## 考題
 ```dataview

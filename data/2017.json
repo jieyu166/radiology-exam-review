@@ -11549,6 +11549,269 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-319",
+      "year": 2017,
+      "number": 319,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Moyamoya disease is related to following disease except",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sickle cell anemia"
+        },
+        {
+          "letter": "B",
+          "text": "Down syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Marfan syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Coarctation of the aorta"
+        },
+        {
+          "letter": "E",
+          "text": "All above are related"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34:873-894",
+      "explanation": "**E（All above are related）**——Sickle cell anemia、Down syndrome、Marfan syndrome、主動脈弓縮窄皆與moyamoya病有關聯記載(縮窄關聯性文獻報告較少見但仍存在),故答案為全部皆有關。\n\n→ [[moyamoya]]",
+      "images": [],
+      "concepts": [
+        "moyamoya"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-320",
+      "year": 2017,
+      "number": 320,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "About KAWASAKI disease, which following is not true",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mostly involve superficial temporal artery (Giant cell arteritis)"
+        },
+        {
+          "letter": "B",
+          "text": "Mostly involve medium-sized arteries"
+        },
+        {
+          "letter": "C",
+          "text": "May cause coronary dilatation with aneurysm"
+        },
+        {
+          "letter": "D",
+          "text": "Up to 30% of patients exhibit involvement of the CNS"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2014;34:873-894",
+      "explanation": "**A為偽**——川崎病並非主要侵犯顳淺動脈(此為giant cell arteritis的特徵)。\n\n(A) **正解(偽)**。\n(B) 屬中血管血管炎:真。\n(C) 可致冠狀動脈擴張伴動脈瘤:真。\n(D) 中樞神經系統侵犯比例:另一常見誤答陷阱選項。\n\n→ [[kawasaki-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "kawasaki-disease-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-321",
+      "year": 2017,
+      "number": 321,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which following description about Congenital diaphragmatic hernia (CDH) is not true",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bochdalek's hernia is usually involved left-posterior diaphragm"
+        },
+        {
+          "letter": "B",
+          "text": "Bochdalek's hernia is most common type of CDH"
+        },
+        {
+          "letter": "C",
+          "text": "Morgagni hernia is usually involved right-posterior diaphragm (anterior, right-sided ~90%, small, rare ~2% of CDH, at low risk of prolapse)"
+        },
+        {
+          "letter": "D",
+          "text": "CNS abnormality is associated"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Primer of Diagnostic Imaging, 5th edition, p.580-581",
+      "explanation": "**C為偽**——Morgagni hernia為前方(非後方)缺損,好發右側(約90%)。\n\n(A)(B) Bochdalek's hernia左後外側且最常見:真。\n(C) **正解(偽)**:應為前方非後方。\n(D) CDH可合併CNS異常(約10%非症候群性病例):真。\n\n→ [[congenital-diaphragmatic-hernia]]",
+      "images": [],
+      "concepts": [
+        "congenital-diaphragmatic-hernia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-322",
+      "year": 2017,
+      "number": 322,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "About Achondroplasia, which of following is not true",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rhizomelic dwarfism"
+        },
+        {
+          "letter": "B",
+          "text": "The interpedicular distance widening distally (progressive decrease in the interpedicular distance in the lumbar spine)"
+        },
+        {
+          "letter": "C",
+          "text": "Trident hand"
+        },
+        {
+          "letter": "D",
+          "text": "Short and stubby fingers (bullet-shaped)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Primer of Diagnostic Imaging, 5th edition, p.618",
+      "explanation": "**B為偽**——腰椎椎弓根間距應由頭側向尾側漸進縮小(非漸進增寬,與正常脊椎相反)。\n\n(A) Rhizomelic dwarfism:真。\n(B) **正解(偽)**。\n(C) Trident hand:真。\n(D) Bullet-shaped短粗手指:真。\n\n→ [[achondroplasia]]",
+      "images": [],
+      "concepts": [
+        "achondroplasia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-323",
+      "year": 2017,
+      "number": 323,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of following structure is not part of lesser omentum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastrohepatic ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatoduodenal ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Common bile duct"
+        },
+        {
+          "letter": "D",
+          "text": "Gastrosplenic ligament"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2012;32:437-451",
+      "explanation": "**D（Gastrosplenic ligament）**——胃脾韌帶屬大網膜,非小網膜組成。\n\n(A)(B) 小網膜由肝胃韌帶+肝十二指腸韌帶組成:真。\n(C) 肝十二指腸韌帶內含總膽管:真。\n(D) **正解**。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-324",
+      "year": 2017,
+      "number": 324,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of following ligament is landmark between left subphrenic space and left paracolic gutter?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastrosplenic ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Phrenicocolic ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Splenorenal ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Gastrocolic ligament"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2012;32:437-451",
+      "explanation": "**B（Phrenicocolic ligament，Hensing's韌帶）**——連結結腸脾彎曲至橫膈,為左膈下腔隙與左結腸旁溝的解剖界標。\n\n(A)(C)(D) 皆非此界標韌帶。\n(B) **正解**。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-325",
+      "year": 2017,
+      "number": 325,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of following space is relative not direct extent to pelvic space?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Right inframesocolic spaces"
+        },
+        {
+          "letter": "B",
+          "text": "Left inframesocolic spaces"
+        },
+        {
+          "letter": "C",
+          "text": "Right paracolic gutter"
+        },
+        {
+          "letter": "D",
+          "text": "Left paracolic gutter"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2012;32:437-451",
+      "explanation": "**A（Right inframesocolic spaces）**——骨盆腔隙經左右結腸旁溝直接向上延伸,但與右/左腸繫膜下腔隙需經腸繫膜根部間接相通,非直接延伸關係。\n\n(A) **正解**。\n(B)(C)(D) 皆與骨盆腔隙有較直接的延伸關係。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
