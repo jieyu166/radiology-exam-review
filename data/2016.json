@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 284,
+  "totalQuestions": 285,
   "questions": [
     {
       "id": "2016-001",
@@ -10575,6 +10575,43 @@
       "images": [],
       "concepts": [
         "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-285",
+      "year": 2016,
+      "number": 285,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者不是Extrapulmonary lesion的特色?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "engulf pulmonary vessels"
+        },
+        {
+          "letter": "B",
+          "text": "incomplete border sign"
+        },
+        {
+          "letter": "C",
+          "text": "obtuse angle with the chest wall"
+        },
+        {
+          "letter": "D",
+          "text": "displacement of pulmonary vessels"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；RadioGraphics 2012;32:971-985",
+      "explanation": "**Extrapulmonary（肺外）病灶是「推擠(displace)」肺血管，而非「吞噬包覆(engulf)」肺血管**——engulf pulmonary vessels為肺內(intrapulmonary)病灶特色，故(A)為非。\n\n(A) **錯（正解）**：engulf pulmonary vessels為肺內病灶特色，非肺外病灶。\n(B) 對：incomplete border sign（內緣清楚、外緣不清）為肺外病灶特色。\n(C) 對：與胸壁成鈍角(obtuse angle)為肺外病灶特色。\n(D) 對：推擠(displace)而非包覆肺血管為肺外病灶特色。\n\n→ [[extrapulmonary-lesion-signs]]",
+      "images": [],
+      "concepts": [
+        "extrapulmonary-lesion-signs"
       ],
       "checked": false,
       "years": [
