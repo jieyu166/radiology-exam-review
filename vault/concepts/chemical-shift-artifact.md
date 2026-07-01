@@ -45,6 +45,17 @@ dateRev: 2026-07-01
 > [!note] 考點：何者「為非」？
 > 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]
 
+## 腎上腺腺瘤鑑別診斷應用（2017-329）
+- **GRE T1 化學位移in-phase/out-of-phase成像**：對於**腎上腺皮質腺瘤(adrenocortical adenoma)的鑑別診斷有幫助**——腺瘤因含微觀脂肪(intracytoplasmic lipid)，反相位訊號會下降。[^7]
+- **易混淆錯誤選項**：Pheochromocytoma因**不含脂肪成分**，於GRE反相位**不會有訊號掉落(no loss of signal)**，僅呈現對比後顯著強化;adrenal cysts**罕見**（非「常見」，屍檢盛行率僅約0.064-0.018%，非3-5%這麼高）。[^7]
+
+### 參考來源（續）
+[^7]: 官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation. RadioGraphics 2004;24:S73-S86：GRE T1化學位移in/out-of-phase成像有助鑑別腎上腺皮質腺瘤(微觀脂肪致反相位訊號下降);pheochromocytoma不含脂肪故反相位無訊號掉落，僅呈顯著對比強化;adrenal cysts屍檢盛行率罕見(約0.064-0.018%，非3-5%)。
+
+## 題目
+> [!question]- Which of the following description is true? (2017-329)
+> **A（GRE T1化學位移in/out-of-phase成像有助鑑別腎上腺皮質腺瘤）**——腺瘤含微觀脂肪致反相位訊號下降。Pheochromocytoma不含脂肪、反相位無訊號掉落(B錯)；adrenal cysts屍檢盛行率罕見約0.064-0.018%（非3-5%，C錯）。[^7]
+
 ## Susceptibility 偽影大小與 TE 的關係（2018-153）
 - **磁化率偽影大小與 TE 成正比**：Susceptibility Artifact Size ∝ (ΔSusceptibility)·B0·TE / Bandwidth——**TE 越長，磁化率偽影越大**;故「金屬物在較短 TE 時偽影較大」為錯誤敘述（應為較長 TE 偽影較大）。[^6]
 - **縮小磁化率偽影的方法**：改變頻率/相位編碼方向（改變偽影形狀但不消除）、用**較短 TE**、改用 fast spin-echo 取代 gradient-echo、增加梯度強度、避免窄頻寬技術、變薄層厚、平行成像技術。[^6]

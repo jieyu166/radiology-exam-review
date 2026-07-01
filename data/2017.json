@@ -1923,10 +1923,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "官方 2017 詳解；Sanders TG, Medynski MA, Feller JF, et al. Bone contusion patterns of the knee at MR imaging: footprint of the mechanism of injury. RadioGraphics 2000;20:S135-S151",
+      "explanation": "**C（Hyperextension injury with valgus force）**——此機轉之kissing骨挫傷位於脛骨與股骨『內側』前緣，非外側股骨髁。\n\n(A) Pivot shift injury:外側脛骨平台後側+外側股骨髁,真。\n(B) Clip injury:主要外側股骨髁,真。\n(C) **正解**:合併外翻力挫傷偏向內側。\n(D) Transient lateral patellar dislocation:外側股骨髁+內側髕骨,真。\n\n→ [[knee-bone-contusion-patterns]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "knee-bone-contusion-patterns"
+      ],
       "checked": false
     },
     {
@@ -11807,6 +11809,154 @@
       "images": [],
       "concepts": [
         "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-326",
+      "year": 2017,
+      "number": 326,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is wrong about evaluation of anterior cruciate ligament repair using MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The inferior portion of the femoral tunnel should be located at the intersection of the lines along the posterior cortex of the femur and the roof of the intercondylar notch on sagittal MRI images"
+        },
+        {
+          "letter": "B",
+          "text": "The femoral tunnel should open at the superolateral anterior margin of the intercondylar notch on coronal MRI images (posterior)"
+        },
+        {
+          "letter": "C",
+          "text": "The tibial tunnel should be oriented parallel to the Blumensaat line on sagittal MRI images"
+        },
+        {
+          "letter": "D",
+          "text": "The opening of the tibia tunnel should be completely posterior to Blumensaat line"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Kamel HA, Darwish. Evaluation of anterior cruciate ligament repair using magnetic resonance imaging. Medical Imaging and Radiology. 2014;2:6",
+      "explanation": "**B為偽**——股骨隧道應開口於髁間窩的後上方(posterior),非前上方(anterior)。\n\n(A) 矢狀面股骨隧道下緣定位法:真。\n(B) **正解(偽)**:應為posterior非anterior。\n(C) 脛骨隧道與Blumensaat線平行:真。\n(D) 脛骨隧道開口完全位於Blumensaat線後方:真。\n\n→ [[acl-reconstruction-tunnel-mri]]",
+      "images": [],
+      "concepts": [
+        "acl-reconstruction-tunnel-mri"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-327",
+      "year": 2017,
+      "number": 327,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following description concerning with myelolipoma is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An uncommon benign tumor composed of mature adipose tissue and hematopoietic tissue"
+        },
+        {
+          "letter": "B",
+          "text": "It can be large and symptomatic secondary to spontaneous hemorrhage"
+        },
+        {
+          "letter": "C",
+          "text": "It may present as homogeneous, hyperintense masses on T1-weighted images with intermediate signal intensity on T2-weighted images"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation, RadioGraphics 2004;24:S73-S86",
+      "explanation": "**D（All of the above）**——myelolipoma為少見良性腫瘤(成熟脂肪+造血組織)、可因自發性出血致症狀性增大、MR呈T1均質高訊號/T2中等訊號皆為真實描述。\n\n(A)(B)(C) 皆為真。\n(D) **正解**。\n\n→ [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-328",
+      "year": 2017,
+      "number": 328,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following can be classified as adreniform masses? (intrinsic to the adrenal preserving the overall shape, adreniform)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenal cortical hyperplasia"
+        },
+        {
+          "letter": "B",
+          "text": "Adrenal hemorrhage"
+        },
+        {
+          "letter": "C",
+          "text": "Pheochromocytoma"
+        },
+        {
+          "letter": "D",
+          "text": "A and B"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation, RadioGraphics 2004;24:S73-S86",
+      "explanation": "**D（A and B）**——cortical hyperplasia與adrenal hemorrhage皆保留腺體整體外形僅瀰漫增大。\n\n(A)(B) 保留腺體外形:真,屬adreniform。\n(C) Pheochromocytoma:扭曲/取代腺體外形,不屬adreniform。\n(D) **正解**。\n\n→ [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-329",
+      "year": 2017,
+      "number": 329,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following description is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GRE T1-weighted chemical shift in-phase and out-of-phase imaging is helpful for differential diagnosis of adrenocortical adenoma"
+        },
+        {
+          "letter": "B",
+          "text": "The pheochromocytoma shows the typical features of loss of signal intensity on GRE T1-weighted chemical shift out-of-phase image and intense enhancement on the contrast-enhanced image (no loss of signal on GRE/out of phase)"
+        },
+        {
+          "letter": "C",
+          "text": "Adrenal cysts are common and are often detected during radiologic investigation or at autopsy. The frequency of adrenal cysts seen at autopsy studies ranges from 3% to 5% (rare; 0.064-0.018%)"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation, RadioGraphics 2004;24:S73-S86",
+      "explanation": "**A（GRE T1化學位移in/out-of-phase成像有助鑑別腎上腺皮質腺瘤）**——腺瘤含微觀脂肪致反相位訊號下降。\n\n(A) **正解**。\n(B) Pheochromocytoma不含脂肪,反相位無訊號掉落。\n(C) Adrenal cysts屍檢盛行率罕見約0.064-0.018%(非3-5%)。\n(D) 不適用。\n\n→ [[chemical-shift-artifact]]",
+      "images": [],
+      "concepts": [
+        "chemical-shift-artifact"
       ],
       "checked": false,
       "years": [
