@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 290,
+  "totalQuestions": 291,
   "questions": [
     {
       "id": "2016-001",
@@ -10797,6 +10797,43 @@
       "images": [],
       "concepts": [
         "spinal-osteoblastoma"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-291",
+      "year": 2016,
+      "number": 291,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "In a calcium scoring scan, what is the definition of a calcified plaque?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Greater than 100HU units and 2mm³"
+        },
+        {
+          "letter": "B",
+          "text": "Greater than 130HU units and 1mm³"
+        },
+        {
+          "letter": "C",
+          "text": "Greater than 130HU units and 2mm³"
+        },
+        {
+          "letter": "D",
+          "text": "Greater than 150HU units and 1mm³"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Cardiac Computed Tomography Problem-Based Learning, p.52",
+      "explanation": "**Agatston鈣化評分定義鈣化斑塊為密度>130 HU、面積≥1 mm²（考題單位標示為mm³，惟標準定義為面積mm²）**，故正解為(B)。\n\n(A) 錯：閾值100HU過低。\n(B) **對（正解）**：>130HU、≥1mm²（Agatston標準定義）。\n(C) 錯：面積門檻應為1非2。\n(D) 錯：閾值150HU過高。\n\n→ [[calcium-score]]",
+      "images": [],
+      "concepts": [
+        "calcium-score"
       ],
       "checked": false,
       "years": [
