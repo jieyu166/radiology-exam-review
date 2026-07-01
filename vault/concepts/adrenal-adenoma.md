@@ -24,6 +24,7 @@ up: "[[adrenal-imaging]]"
 - **washout（lipid-poor）**：15 分延遲，**RPW >40%**（96% 敏感、100% 特異）或 **APW >60%**（舊數據 86–88% 敏感、92–96% 特異；較新數據降至 77.5% 敏感、70% 特異）。[^2][^7]
 - **MRI**：chemical shift 為主，opposed-phase 訊號下降＝細胞內脂質；adrenal signal index **>16.5%（1.5T）/ >1.7%（3T）**、adrenal:spleen CSI 比值 **<0.71** 支持腺瘤。[^1][^2]
 - **易混淆**：pheochromocytoma、RCC/HCC 與 hypervascular metastasis 可呈現雷同 washout；含脂惡性病灶可致 opposed-phase 假陽性；collision tumor、India ink artifact 為陷阱。[^1][^2]
+- **陷阱（2019交換）**：「MRI延遲相washout <50%」並非腺瘤的正確判斷依據——**washout（絕對/相對洗出百分比）為CT技術之判斷法（RPW>40%或APW>60%），MRI診斷腺瘤依賴的是chemical shift（opposed-phase訊號下降），並非以延遲相washout百分比為準**，兩種技術與判讀方法不應混用。[^10]
 
 ## 定義與術語
 腎上腺皮質之良性腫瘤，常於其他原因之影像偶然發現；佔所有腎上腺腫塊 60–80%，多 <3 cm（故超音波常不易顯示）。注意「incidental adrenal lesion / incidentaloma」涵蓋所有病理（含惡性），與「adrenal adenoma」非同義，混用易誤導。[^1][^2][^3]
@@ -90,6 +91,7 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 [^7]: Caoili EM / Peña CS, et al. *Lipid-Poor Adrenal Masses: Washout Characteristics at Contrast-Enhanced CT*. Radiology. 2000;217(3):798-802. DOI 10.1148/radiology.217.3.r00dc29798.
 [^8]: Mayo-Smith WW, Song JH, Boland GL, et al. *Management of Incidental Adrenal Masses: ACR Incidental Findings Committee White Paper*. J Am Coll Radiol. 2017;14:1038-1044.
 [^9]: Seow J, et al. *Washed Up: The End of an Era for Adrenal Incidentaloma CT*. Insights Imaging. 2025;16(1):136. DOI 10.1186/s13244-025-02015-4.
+[^10]: 2019 交換考詳解；Diagnostic Imaging (abdomen), P. III-2-21：MRI診斷腎上腺腺瘤依賴chemical shift（opposed-phase訊號下降），而非CT washout百分比概念；正確CT washout標準為RPW>40%或APW>60%。
 
 > [可選升級] Grainger & Allison's Diagnostic Radiology（Adrenal Imaging 章，Sahdev/Kavanagh 2021）、ACR Appropriateness Criteria Adrenal Mass 2021（JACR）亦可再補。
 

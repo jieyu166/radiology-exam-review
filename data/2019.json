@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 178,
+  "totalQuestions": 180,
   "questions": [
     {
       "id": "2019-001",
@@ -6500,6 +6500,80 @@
       "images": [],
       "concepts": [
         "pseudomyxoma-peritonei"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-179",
+      "year": 2019,
+      "number": 179,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Each of the following statements accurately characterizes lymphoma of the peritoneum except ______.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary peritoneal lymphoma is associated with human herpes virus 8 and Epstein-Barr virus."
+        },
+        {
+          "letter": "B",
+          "text": "At CT, peritoneal lymphoma from a preexisting nodal lymphoma mimics peritoneal carcinomatosis."
+        },
+        {
+          "letter": "C",
+          "text": "At CT, ascites is the principal manifestation of primary peritoneal lymphoma."
+        },
+        {
+          "letter": "D",
+          "text": "At CT, nodular peritoneal thickening is the principal manifestation of primary peritoneal lymphoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiographics. 2009 Mar-Apr;29(2):347-373, p.355, 359-360",
+      "explanation": "正確答案為 **D**（錯誤敘述）。原發性腹膜淋巴瘤CT上最主要表現為不合併淋巴結病變之惡性腹水，並非結節狀腹膜增厚。與HHV-8/EBV相關、既存結節性淋巴瘤轉移可擬態腹膜癌病、腹水為主要表現等敘述皆正確。詳見 [[peritoneal-lymphoma]]。",
+      "images": [],
+      "concepts": [
+        "peritoneal-lymphoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-180",
+      "year": 2019,
+      "number": 180,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the follows is not true for adrenal adenoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contrast MRI delay phase showing washout < 50%."
+        },
+        {
+          "letter": "B",
+          "text": "Signal \"drop-out\" on T1WI out of phase."
+        },
+        {
+          "letter": "C",
+          "text": "Non-contrast CT showing lower attenuation(less than 10 HU)."
+        },
+        {
+          "letter": "D",
+          "text": "Dynamic contrast CT showing washout rapidly."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Diagnostic Imaging (abdomen), P. III-2-21",
+      "explanation": "正確答案為 **A**（錯誤敘述）。MRI診斷腎上腺腺瘤依賴chemical shift（opposed-phase訊號下降），而非以「MRI延遲相washout百分比」判斷；washout百分比概念屬CT技術（RPW>40%或APW>60%）。T1WI out-of-phase訊號下降、非顯影CT<10HU、CT快速washout皆為腺瘤正確表現。詳見 [[adrenal-adenoma]]。",
+      "images": [],
+      "concepts": [
+        "adrenal-adenoma"
       ],
       "checked": false
     }
