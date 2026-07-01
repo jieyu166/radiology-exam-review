@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 288,
+  "totalQuestions": 289,
   "questions": [
     {
       "id": "2016-001",
@@ -10723,6 +10723,43 @@
       "images": [],
       "concepts": [
         "croup-steeple-sign"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-289",
+      "year": 2016,
+      "number": 289,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列哪一項不是cavernous hemangioma的超音波表現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ill-defined, heterogenous, hyperechoic mass."
+        },
+        {
+          "letter": "B",
+          "text": "Doppler shows no internal blood flow or slow-flow."
+        },
+        {
+          "letter": "C",
+          "text": "Most lesions remain stable in size over time."
+        },
+        {
+          "letter": "D",
+          "text": "Large lesion may contain hypoechoic thrombosis, fibrosis and calcification."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Fundamentals of Diagnostic Radiology, 3rd ed., p.932",
+      "explanation": "**肝血管瘤典型超音波表現為界清、均質高回音腫塊**（非ill-defined、heterogeneous），故(A)為非。\n\n(A) **錯（正解）**：官方訂正為well-defined、homogeneous高回音腫塊，非ill-defined heterogeneous。\n(B) 對：都卜勒中央無明顯血流或慢流。\n(C) 對：多數病灶大小長期穩定。\n(D) 對：大型病灶可含低回音血栓、纖維化與鈣化。\n\n→ [[hepatic-hemangioma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
       ],
       "checked": false,
       "years": [
