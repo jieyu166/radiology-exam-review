@@ -75,6 +75,10 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
   - **I**：缺血 modifier（CT-FFR 或 stress CTP）；I+ 有缺血、I- 無、I± 不確定。[^5]
   - **S**：支架（stent）；**G**：繞道（graft）。[^5]
   - **E**：exception，非動脈硬化異常（如異常起源、瘤、夾層、肌橋等）。[^5]
+  - **V（CAD-RADS 1.0，2016 原始版）**：vulnerable/高風險斑塊 modifier（如 CAD-RADS 4ASV 中的 V），於 **CAD-RADS 2.0（2022）改稱為 HRP**；V 之判定依 positive remodeling（外壁徑/近端參考 >1.1）、low-attenuation plaque（<30 HU）、napkin-ring sign、spotty calcification（<3mm）等特徵。[^10]
+
+> [!note] CAD-RADS 版本（2019交換）
+> **CAD-RADS 1.0 原始版發表於 2016 年**（Cury RC et al. JACC Cardiovasc Imaging 2016;9(9):1099-1113），並非2017年；**CAD-RADS 2.0 修訂版於2022年發表**。狹窄分級門檻（CAD-RADS 3=50–69%、4A=70–99%、4B=left main>50%或3-vessel>70%、5=100%）自1.0版即已確立。
 - **斑塊性質**：calcified / non-calcified（軟斑塊，較易破裂）/ mixed。[^2][^5]
 - **高風險（vulnerable）斑塊徵象（HRP，≥2 項）**：[^5]
   - **Positive remodeling**：病灶處血管壁向外代償性擴大、管腔保留。
@@ -117,6 +121,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^7]: Nørgaard BL 等 FFR-CT 文獻綜整與 Lee/Kim 等回顧（Korean J Radiol 2021 DOI 10.3348/kjr.2020.1277；RadioGraphics 2021 *CT Fractional Flow Reserve: A Practical Guide* DOI 10.1148/rg.210097）（Tier 1/Tier 2，accessed 2026-06-29，WebSearch）：FFR-CT >0.80 正常、≤0.80（常用 <0.80 cutoff）判定病灶特異性缺血、0.76–0.80 灰帶；於狹窄遠端約 2 cm 量測；DISCOVER-FLOW/DeFACTO/HeartFlow NXT 驗證。
 [^8]: *Anomalous origin of coronary arteries with an interarterial course: pictorial essay*（PMC6561366，accessed 2026-06-29，WebFetch）與 Applied Radiology / Diagnosis and Management of Anomalous Coronary Arteries with a Malignant Course（PMC6545977）（Tier 2/輔助）：interarterial（昔稱 malignant）走行行經主動脈與肺動脈間為猝死高風險；CT 惡性徵象含 high take-off、急性銳角 take-off、壁內（intramural）走行/近端橢圓狀受壓；左冠脈起自右竇之 interarterial 走行猝死風險最高，常不論症狀建議手術，右冠脈異常預後較佳。CT 為定義起源與走行首選。
 [^9]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.214/220）：通暢支架管腔內 HU 因 blooming 假性高於近端節段，不可誤判為狹窄；適當使用準則將「有症狀+CABG後評估graft patency」列為適當適應症，「無症狀+stent<2年」「無症狀+CABG<5年」「有症狀+支架<3mm」列為不適當。
+[^10]: 2019 交換考詳解；Cury RC, Abbara S, Achenbach S, et al. *CAD-RADS(TM): Coronary Artery Disease - Reporting and Data System*. JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005：CAD-RADS 1.0原始版發表於2016年（非2017）；狹窄分級0-5、modifiers含N/S/G/V/E；V modifier（vulnerable plaque）依positive remodeling(閾值1.1)、low-attenuation plaque(<30HU)、napkin-ring sign、spotty calcification(<3mm)判定。
 
 ## 考題
 ```dataview

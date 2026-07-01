@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 129,
+  "totalQuestions": 131,
   "questions": [
     {
       "id": "2019-001",
@@ -1309,7 +1309,9 @@
       "reference": "",
       "explanation": "[[20211218 CAD-RADS#4 Modifiers]]\nA. 4A: 70-99% stenosis\nB. V的意思是vulnerable plaque [[#High risk plaque]]\nC. vulnerable plaque 有很多種，不一定是positive remodeling\nD. S: stent 。敘述是4AS的意思，但題目是問V的意思",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ccta"
+      ],
       "checked": false
     },
     {
@@ -4681,6 +4683,80 @@
       "images": [],
       "concepts": [
         "iodinated-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-130",
+      "year": 2019,
+      "number": 130,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which sites would have greatest concentration of gadolinium depostion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Globus pallidus"
+        },
+        {
+          "letter": "B",
+          "text": "Dentate nucleus"
+        },
+        {
+          "letter": "C",
+          "text": "Thalamus"
+        },
+        {
+          "letter": "D",
+          "text": "Pons"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology 2015;275:772-82",
+      "explanation": "正確答案為 **B**。釓劑腦沉積濃度排序為 dentate nucleus（齒狀核）> globus pallidus（蒼白球）> thalamus > pons，齒狀核為沉積濃度最高部位。詳見 [[gadolinium-contrast]]。",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-131",
+      "year": 2019,
+      "number": 131,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "About CAD-RADS, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CARD-RADS 3 means 50-69% stenosis"
+        },
+        {
+          "letter": "B",
+          "text": "S means stent"
+        },
+        {
+          "letter": "C",
+          "text": "It was newly published in 2017"
+        },
+        {
+          "letter": "D",
+          "text": "4B means left main > 50% or 3-vessel obstruction > 70%"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Cury RC et al. CAD-RADS. JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113",
+      "explanation": "正確答案為 **C**（錯誤敘述）。CAD-RADS 原始版（1.0）**發表於2016年**，並非2017年。CAD-RADS 3 = 50-69%狹窄、S代表stent（支架）、4B = left main >50%或3-vessel obstruction >70%等敘述皆正確。詳見 [[ccta]]。",
+      "images": [],
+      "concepts": [
+        "ccta"
       ],
       "checked": false
     }
