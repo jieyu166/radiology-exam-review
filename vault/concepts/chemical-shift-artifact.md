@@ -6,7 +6,7 @@ aliases:
   - chemical shift artifact
   - India ink artifact
   - 化學位移假影
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # chemical-shift-artifact
@@ -14,7 +14,7 @@ dateRev: 2026-06-29
 **化學位移假影來自脂肪與水的共振頻率不同：Type 1 是空間位移（沿頻率編碼方向，各序列皆有）；Type 2 是訊號抵消（只在反相位、且像素內脂肪與水並存才抵消，產生器官邊緣的 India ink 黑線）。** 考試陷阱：「純脂肪區在 out-of-phase 完全失訊號」是錯的——抵消需要脂＋水同時存在，純脂肪沒有水可以抵消。記憶鉤：「抵消要兩個人，純脂肪是獨居，沒人抵消它」。
 
 ## Summary
-- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；在 **1.5T** 約相當於 **220 Hz** 的頻率差，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2]
+- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2][^3]
 
 ### 第一型（misregistration，空間位移）
 - **影像長相**：沿**頻率編碼方向**，脂水介面一側出現**黑帶**、相對側出現**白帶**（black/white boundary，黑白成對）；這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。[^2][^3]
@@ -38,6 +38,8 @@ dateRev: 2026-06-29
 - **可調參數減輕第一型**：加寬接收頻寬、降低場強、或改變頻率編碼方向。[^2][^3]
 
 - **純脂肪區在反相位『不會』完全失訊號**——抵消需脂＋水並存；故「純脂肪在 out-of-phase 完全失去強度」**錯誤**（2016-092 正解 B）。[^1]
+- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]
+- **Dixon 技術陷阱**：以 Dixon 法做脂肪抑制時，因相位誤差可能造成**局部脂水訊號互換（fat-water swap）**，或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；現代三點法 Dixon 已可大幅改善此問題。[^3]
 - **Hemosiderosis**：肝脾在 out-of-phase 反而較亮（in-phase TE 較長、T2* 效應使 in-phase 變暗）。[^1]
 
 > [!note] 考點：何者「為非」？
@@ -46,7 +48,7 @@ dateRev: 2026-06-29
 ### 參考來源
 [^1]: MRI 化學位移假影經實際查證（accessed 2026-06-17，Radiopaedia *chemical shift artifact*）：脂水頻率差；type1 頻率編碼方向位移(各序列)、type2 反相位抵消(需脂+水)；India ink 環繞器官；hemosiderosis out-of-phase 較亮(in-phase T2*)。
 [^2]: Tier 1。Merkle EM 等，*Chemical Shift MR Imaging of the Adrenal Gland: Principles, Pitfalls, and Applications*，RadioGraphics 2016;36(2):414-432（DOI 10.1148/rg.2016150139；PubMed 26849154）＋脂水 3.5 ppm／1.5T 約 220 Hz、頻寬-像素位移換算（accessed 2026-06-29，mrimaster/mri-q chemical shift 教學頁）：化學位移成像原理、微觀脂肪反相位訊號掉落（腎上腺腺瘤、脂肪肝）、輕微掉落與早採反相位 TE 以減 T2* 等判讀陷阱。
-[^3]: Tier 1。Hood MN 等／*In-Phase and Opposed-Phase Imaging: Applications of Chemical Shift and Magnetic Susceptibility in the Chest and Abdomen*，RadioGraphics 2019;39(4)（DOI 10.1148/rg.2019180043，摘要層級可及；accessed 2026-06-29）：第一型沿頻率編碼方向呈黑白帶、隨高場強與低接收頻寬加重、脂水介面（腎/腎上腺/後腹腔）標示；第二型 opposed-phase 沿脂水介面對稱黑線勾邊。
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Hood MN 等／*In-Phase and Opposed-Phase Imaging: Applications of Chemical Shift and Magnetic Susceptibility in the Chest and Abdomen*，RadioGraphics 2019;39(4)。DOI 10.1148/rg.2019180043。重點：第一型沿頻率編碼方向呈黑白帶、隨高場強與低接收頻寬加重、脂水介面（腎/腎上腺/後腹腔）標示；第二型 opposed-phase 沿脂水介面對稱黑線勾邊；化學位移頻率差 **1.5T 約 225 Hz、3T 約 450 Hz**；**Teaching Point：無反相位訊號掉落不代表無脂肪（可能是純脂肪缺水，如 adrenal myelolipoma、Modic type 2、放療後脂肪骨髓），須合併脂肪抑制與非脂肪抑制影像判讀**；Dixon 法脂肪抑制可有 fat-water swap 陷阱，三點法可改善。
 [^4]: Tier 2。Radiopaedia *black boundary artifact*（type 2 chemical shift / India ink artifact，accessed 2026-06-29）：反相位梯度迴訊、沿所有脂水介面 voxel 之黑線（不限頻率編碼方向）、與脂肪量無關、對稱環繞器官；與第一型區分。
 [^5]: Tier 2。mriquestions.com *Chemical Shift 2nd Kind* 與 radiologykey.com *Chemical Shift Type 2 Artifact*（accessed 2026-06-29）：邊界 voxel 脂水相位相反相消產生黑線、各方向對稱、用以辨識器官邊界與確認反相位影像、回到 in-phase TE 即消失、與第一型及其他黑線偽影區分。
 
