@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 144,
+  "totalQuestions": 146,
   "questions": [
     {
       "id": "2019-001",
@@ -5242,6 +5242,80 @@
       "images": [],
       "concepts": [
         "hereditary-renal-cystic-disorders"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-145",
+      "year": 2019,
+      "number": 145,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is not correct about Dandy-Walker Malformation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common posterior fossa malformation and typically occurs only sporadically, with a low overall risk of recurrence (1%-5%)."
+        },
+        {
+          "letter": "B",
+          "text": "The majority of patients with DWM present before 1 year of age with signs and symptoms of increased intracranial pressure."
+        },
+        {
+          "letter": "C",
+          "text": "The key neuroimaging features of DWM are hypoplasia of the cerebellar vermis and dilatation of the cystic-appearing fourth ventricle."
+        },
+        {
+          "letter": "D",
+          "text": "Microcephaly is the most common manifestation, affecting 90%-100% of children during the first months of life."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2015;35:200-220",
+      "explanation": "正確答案為 **D**（錯誤敘述）。DWM最常見表現為**巨頭畸形（macrocephaly）**，並非小頭畸形（microcephaly）。最常見後顱窩畸形、多偶發性且復發風險低（1-5%）、多數1歲前以顱內壓升高表現、關鍵影像特徵為小腦蚓部發育不全與囊狀擴大第四腦室等敘述皆正確。詳見 [[dandy-walker-malformation]]。",
+      "images": [],
+      "concepts": [
+        "dandy-walker-malformation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-146",
+      "year": 2019,
+      "number": 146,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is not correct about Moyamoya Disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Progressive occlusion of the terminal segments of the intracranial internal carotid arteries and compensatory development of tortuous, dilated collateral networks."
+        },
+        {
+          "letter": "B",
+          "text": "Moyamoya vessels depict signal voids within the basal ganglia and thalami."
+        },
+        {
+          "letter": "C",
+          "text": "On T2WI, diffuse leptomeningeal collateral vessels may appear as sulcal hyperintensity (\"ivy sign\")"
+        },
+        {
+          "letter": "D",
+          "text": "SW imaging may depict microbleeding in 15%-44% of patients."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics 2014;34:873-894",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Ivy sign（軟腦膜側支血流之腦溝高訊號）應見於**FLAIR**序列，而非T2WI。終端頸內動脈進行性阻塞合併側支網形成、基底節/視丘之flow void訊號缺失、SWI微出血發生率15-44%等敘述皆正確。詳見 [[moyamoya]]。",
+      "images": [],
+      "concepts": [
+        "moyamoya"
       ],
       "checked": false
     }

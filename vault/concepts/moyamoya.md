@@ -37,6 +37,7 @@ dateRev: 2026-06-29
   - **T2 dilated collaterals**：T2 上基底節／視丘的點狀、線狀 flow void＝擴張側支，與 DSA 的 basal moyamoya 對應。[^2]
 - **缺血評估（perfusion）**：SPECT／PET／ASL／DSC 評估 **CBF 下降、CBV 與 OEF 代償性上升**；以 acetazolamide 或 CO₂ 激發測 **cerebrovascular reserve（CVR）**，CVR 耗竭代表「misery perfusion」、為高缺血風險與 bypass 適應症評估依據；兒童 CBF 下降、CVR 耗竭較成人顯著。[^2]
 - **合併症兩型**：兒童以**缺血型**為主（TIA、邊界帶／lacunar 梗塞，FLAIR/T2 見分水嶺白質與基底節缺血）；成人較多**出血型**（脆弱 moyamoya 側支或側支動脈瘤破裂 → 腦室內出血、基底節／視丘出血、SAH）。[^2]
+- **SWI 微出血（2019交換）**：SWI（susceptibility-weighted imaging）可偵測 moyamoya 病人之微出血（microbleeding），發生率約 **15–44%**，反映脆弱側支血管之亞臨床出血負擔。[^9]
 
 ### Moyamoya disease vs syndrome（鑑別）
 
@@ -61,6 +62,7 @@ dateRev: 2026-06-29
 [^7]: Article（PMC 開放全文）：Sivrioglu AK, et al. *Ivy Sign in Moyamoya Disease*. Eurasian J Med. 2016;48(1):58–61. doi:10.5152/eurasianjmed.2015.14142. — ivy sign FLAIR 軟腦膜高訊號源於 leptomeningeal 側支緩慢血流；判讀須與腦膜病變鑑別（DDx 之腦膜炎／SAH／軟腦膜轉移為一般放射學共識）。
 
 [^8]: 官方 2017 詳解；RadioGraphics 2014;34:873-894：Moyamoya病相關疾病含phakomatoses(NF1、tuberous sclerosis)、血液疾病(sickle cell disease、antiphospholipid syndrome、aplastic anemia)、血管壁異常(atherosclerosis、放射引起血管病變、fibromuscular dysplasia、Marfan syndrome、Ehlers-Danlos syndrome)、少見病因(Graves disease、Down syndrome、ulcerative colitis、Apert syndrome、口服避孕藥)；與主動脈弓縮窄之關聯文獻報告較少見(infrequently reported)但仍存在。
+[^9]: 2019 交換考詳解；RadioGraphics 2014;34:873-894：SWI可偵測moyamoya病人微出血，發生率約15-44%。
 
 ## 題目
 > [!question]- Moyamoya disease is related to following disease except (2017-319)
