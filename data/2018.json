@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 256,
+  "totalQuestions": 258,
   "questions": [
     {
       "id": "2018-001",
@@ -2117,10 +2117,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.150；Radiology. 2016 Mar;278(3):658-76.",
       "explanation": "全對\nA. 正確。 [[2016 Cardiac T1 Mapping and Extracellular Volume (ECV) in clinical practice - a comprehensive review.pdf]] 在myocarditis有提到。[[2016 R State of the Art - Clinical Applications of Cardiac T1 Mapping.pdf]]提到很多diffuse fibrosis都會造成native T1值增加，但和正常人有overlapping所以不好用。\nB. 正確。 [[2016 Cardiac T1 Mapping and Extracellular Volume (ECV) in clinical practice - a comprehensive review.pdf]] 有提到前半，且比post-contrast T1好。[[2016 R State of the Art - Clinical Applications of Cardiac T1 Mapping.pdf]]則提到後半，ECV和collagen volume fraction的一致性比native T1更好。\nC. 正確",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "myocardial-t1-mapping"
+      ],
       "checked": false
     },
     {
@@ -9445,6 +9447,80 @@
       "images": [],
       "concepts": [
         "breast-premalignant-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-257",
+      "year": 2018,
+      "number": 257,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements does NOT apply to myocardial T1?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Native myocardial T1 is influenced by both intracellular and extracellular processes."
+        },
+        {
+          "letter": "B",
+          "text": "Postcontrast T1 values are higher than native T1 values of the myocardium."
+        },
+        {
+          "letter": "C",
+          "text": "For extracellular volume (ECV) measurements, postcontrast T1 mapping should be performed at steady state, which can be assumed 10-15 minutes after application of the contrast agent."
+        },
+        {
+          "letter": "D",
+          "text": "The isolated use of postcontrast T1 as a biomarker is not recommended due to its sensitivity to confounders including contrast material dose and time point of postcontrast image acquisition."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.148；Radiology. 2016 Mar;278(3):658-76.",
+      "explanation": "顯影劑注射後(postcontrast)之T1值「較原生(native)T1值為低」（非較高）——顯影劑造成T1縮短(T1 shortening)效應，故本敘述錯誤。原生T1受細胞內外因素影響、ECV量測應於顯影劑注射後10-15分鐘穩態時進行、單獨使用postcontrast T1易受顯影劑劑量與擷取時間點等干擾因子影響故不建議單獨作為生物標記，皆為正確描述。\n\n見 [[myocardial-t1-mapping]]",
+      "images": [],
+      "concepts": [
+        "myocardial-t1-mapping"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-258",
+      "year": 2018,
+      "number": 258,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements does NOT apply?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myocardial edema affects both myocardial T1 and T2."
+        },
+        {
+          "letter": "B",
+          "text": "The presence of additional water leads to an increase in T2 and a decrease in T1."
+        },
+        {
+          "letter": "C",
+          "text": "Myocardial edema accompanies both acute ischemic and acute inflammatory myocardial injury."
+        },
+        {
+          "letter": "D",
+          "text": "Increases in myocardial T1 are not specific to myocardial edema."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.149；Radiology. 2016 Mar;278(3):658-76.",
+      "explanation": "心肌水腫(edema)造成組織內額外水分增加，會使T2「與T1皆上升」（非T2上升同時T1下降），故本敘述錯誤。心肌水腫同時影響T1與T2、急性缺血性與急性發炎性心肌損傷皆可合併水腫、心肌T1上升並非水腫特異性表現(纖維化/類澱粉沉積等間質擴張亦可致T1上升)，皆為正確描述。\n\n見 [[myocardial-t1-mapping]]",
+      "images": [],
+      "concepts": [
+        "myocardial-t1-mapping"
       ],
       "checked": false
     }
