@@ -1,7 +1,7 @@
 {
-  "next_page": 9,
+  "next_page": 17,
   "total_pages": 183,
-  "processed_pages": [1, 2, 3, 4, 5, 6, 7, 8],
+  "processed_pages": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
   "added_ids": [],
   "next_id": 260,
   "dups_skipped": [
@@ -12,12 +12,20 @@
     "p5=2016-004重複(MIA classification)",
     "p6下=2016-006重複(primary/postprimary TB)",
     "p7=2016-007重複(pulmonary sarcoidosis)",
-    "p8=2016-005重複(LAM/PLCH/IPF)"
+    "p8=2016-005重複(LAM/PLCH/IPF)",
+    "p9=2016-008重複(PE diagnosis not true)+2016-009重複(benign tracheal tumor)",
+    "p10=2016-203重複(primary pulmonary TB not true)+2016-202重複(air trapping)",
+    "p11=2016-010重複(amyloidosis)+2016-205重複(ground-glass mid/lower)",
+    "p12=2016-204重複(mosaic attenuation vascular territories)",
+    "p13=2016-011重複(bronchiectasis mid-order bronchi)",
+    "p14=2016-012重複(pulmonary sclerosing hemangioma)+2016-013重複(TB incorrect,中文版)",
+    "p15=2016-225重複(chest radiograph technique NOT correct)+2016-227重複(lung atelectasis NOT correct)",
+    "p16=2016-226重複(pulmonary calcifications NOT correct)+2016-014重複(FAST acronym)"
   ],
   "xyear_dups_merged": [
-    "p6上=2017-237(2011 lung adenocarcinoma classification except for/AAH)：跨年重複，json已於先前commit(fbcf925之後、years欄位已是[2016,2017])完成合併；本批僅補寫vault卡片vault/questions/2017/2017-237.md使其與json同步（commit 9e2aab0）"
+    "p6上=2017-237(2011 lung adenocarcinoma classification except for/AAH)：跨年重複，json已於先前commit完成合併(years:[2016,2017])；本批僅補寫vault卡片vault/questions/2017/2017-237.md使其與json同步（commit 9e2aab0）"
   ],
   "fig_pages": [],
   "flagged": [],
-  "notes": "頁1-8均為2016年已有題目之重印或已合併之跨年重複，本批無新題需寫入data/2016.json。repo存在大量與本任務無關之未提交變更（醫師手動編輯卡片如2016-256.md含checked:true、SR複習時間戳記、其他年份未提交工作），依使用者指示：只commit本批自己的檔案，其餘一律不動。"
+  "notes": "頁1-16均為2016年已有題目之重印或已合併之跨年重複，本批無新題需寫入data/2016.json。repo存在大量與本任務無關之未提交變更（醫師手動編輯卡片如2016-256.md含checked:true、SR複習時間戳記、其他年份未提交工作），依使用者指示：只commit本批自己的檔案，其餘一律不動，故本批(頁9-16)無需commit(json/vault均無新變動)。"
 }
