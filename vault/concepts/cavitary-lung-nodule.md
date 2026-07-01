@@ -55,11 +55,16 @@ same:
 > [!note] 考點（2016交換 [[2016-111]]）
 > 「何者最不會以空洞性肺結節表現？」→ **Pneumocystis（PCP）**：以 GGO／薄壁囊腔(pneumatocele)為主、非厚壁空洞。SCC、GPA(Wegener)、septic emboli 皆典型空洞。[^1][^2]
 
+## 空洞＋氣液平面（air-fluid level）之鑑別（2019交換）
+- 咳嗽痰多、X光/CT見開洞與air-fluid levels，鑑別包含：**cystic bronchiectasis（囊狀支氣管擴張）**、**empyema（膿胸）**、**diaphragmatic hernia（橫膈疝脫）**、**cystic lung carcinoma（空洞性肺癌）**。[^5]
+- **Empyema單純本身通常不會表現為含氣液平面之空洞**——若膿胸合併氣液平面，須聯想**bronchopleural fistula（支氣管胸膜瘻）**，並非單純膿胸的常見/預期表現，故為此類臨床情境中「最不可能」的診斷。[^5]
+
 ### 參考來源
 [^1]: *Pulmonary cavity*. Radiopaedia.org（實際查證 accessed 2026-06-17）：空洞＝厚/不規則壁、中央壞死經支氣管排出；鑑別含 **lung cancer（尤 squamous cell carcinoma）、cavitating metastases、granulomatosis with polyangiitis、rheumatoid nodules、septic pulmonary emboli（周邊/下肺、厚壁）**。
 [^2]: *Pneumocystis pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-17）：典型瀰漫毛玻璃、可形成囊腔/pneumatocele；非以厚壁空洞結節為主要表現。
 [^3]: *Differential Diagnosis of Cavitary Lung Lesions*（PMC6100641,**開放全文已讀** accessed 2026-06-28）：Woodring 壁厚——**＜7 mm 對良性高度特異、＞24 mm 對惡性**（薄壁癌存在,非絕對）;肺癌 10–15% 空洞、GPA ~25%、sarcoidosis ＜1%;膿瘍中-厚壁＋邊緣強化;TB 上葉＋satellite;NTM 小空洞 ＜2.5 cm;轉移以 SCC/adeno/sarcoma;強調需合併臨床判斷。
 [^4]: *Pulmonary cavitary lesions: a captivating visual review*（PMC12433063,依搜尋摘要＋多來源交叉確認、未逐段讀全文 accessed 2026-06-28）＋ Radiopaedia *Pulmonary cavity*：壁厚 ≤4 mm 良性/≥15 mm 惡性、內壁不規則＋外緣凹陷偏惡性;單發(癌/膿瘍) vs 多發(轉移/septic emboli/GPA);上葉(癌/TB) vs 下肺周邊(septic emboli/轉移);feeding vessel(septic emboli)、air crescent(aspergilloma)、air-fluid level(膿瘍)、satellite/tree-in-bud(TB)。
+[^5]: 2019 交換考詳解；Radiology: Review Manual, 7th edition, page 278：胸部X光/CT見開洞與air-fluid levels之鑑別診斷；empyema合併氣液平面應聯想bronchopleural fistula。
 
 ## 考題
 ```dataview

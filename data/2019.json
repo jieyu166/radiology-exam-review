@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 193,
+  "totalQuestions": 201,
   "questions": [
     {
       "id": "2019-001",
@@ -1068,7 +1068,8 @@
       "year": 2019,
       "number": 31,
       "years": [
-        2019
+        2019,
+        2022
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
@@ -7055,6 +7056,306 @@
       "images": [],
       "concepts": [
         "lipomyelomeningocele"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-194",
+      "year": 2019,
+      "number": 194,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "On thin section CT of the chest, what is the smallest discrete portion of the lung in normal healthy lungs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary pulmonary lobule"
+        },
+        {
+          "letter": "B",
+          "text": "Pulmonary acinus"
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary alveolus"
+        },
+        {
+          "letter": "D",
+          "text": "Secondary pulmonary lobule"
+        },
+        {
+          "letter": "E",
+          "text": "Terminal bronchiole"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Chest Radiology: The Essentials 3rd edition, page 395",
+      "explanation": "正確答案為 **D**。Secondary pulmonary lobule（次級肺小葉）為薄切面CT下正常健康肺臟可辨識之最小離散單位。詳見 [[secondary-pulmonary-lobule]]。",
+      "images": [],
+      "concepts": [
+        "secondary-pulmonary-lobule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-195",
+      "year": 2019,
+      "number": 195,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "一位52歲女性，主訴咳嗽痰多，胸部X光片和CT影像開洞與Air-fluid levels，則最不可能的診斷為下列何者？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "囊狀支氣管擴張（cystic bronchiectasis）"
+        },
+        {
+          "letter": "B",
+          "text": "膿胸（empyema）"
+        },
+        {
+          "letter": "C",
+          "text": "橫膈疝脫（diaphragmatic hernia）"
+        },
+        {
+          "letter": "D",
+          "text": "空洞性肺癌（cystic lung carcinoma）"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology: Review Manual 7th edition, page 278",
+      "explanation": "正確答案為 **B**。單純膿胸通常不會表現為含氣液平面之空洞，若膿胸合併氣液平面應聯想bronchopleural fistula（支氣管胸膜瘻），並非單純膿胸典型表現，故為最不可能之診斷。詳見 [[cavitary-lung-nodule]]。",
+      "images": [],
+      "concepts": [
+        "cavitary-lung-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-196",
+      "year": 2019,
+      "number": 196,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "下列放射線影像圖診斷,氣漏症候群之那一項應立即處置？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "張力性氣胸（tension pneumothorax）"
+        },
+        {
+          "letter": "B",
+          "text": "心包膜積氣（pneumopericardium）"
+        },
+        {
+          "letter": "C",
+          "text": "縱隔積氣（pneumomediastinum）"
+        },
+        {
+          "letter": "D",
+          "text": "腹膜積氣（pneumoperitonium）"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Radiology: Review Manual 7th edition, page 273",
+      "explanation": "正確答案為 **A**。張力性氣胸可迅速導致縱膈移位與循環衰竭,為氣漏症候群中需立即處置的急症。詳見 [[pneumothorax-imaging]]。",
+      "images": [],
+      "concepts": [
+        "pneumothorax-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-197",
+      "year": 2019,
+      "number": 197,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is a manifestation of Kartagener syndrome, especially in children? Except",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abdominal situs inversus"
+        },
+        {
+          "letter": "B",
+          "text": "Situs solitus"
+        },
+        {
+          "letter": "C",
+          "text": "Dextrocardia"
+        },
+        {
+          "letter": "D",
+          "text": "3-5% chance for congenital heart disease"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology: Review Manual 7th edition, page 367",
+      "explanation": "正確答案為 **B**（非表現）。Kartagener syndrome之特徵為situs inversus，並非situs solitus（正常內臟位置）。Abdominal situs inversus、dextrocardia、3-5%先天性心臟病機率皆為其典型表現。詳見 [[kartagener-syndrome]]。",
+      "images": [],
+      "concepts": [
+        "kartagener-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-198",
+      "year": 2019,
+      "number": 198,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statement for epiploic appendagitis is correct except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An ischemic infarction of an epiploic appendage"
+        },
+        {
+          "letter": "B",
+          "text": "Occurring 2nd to fifth decades"
+        },
+        {
+          "letter": "C",
+          "text": "Female predominate."
+        },
+        {
+          "letter": "D",
+          "text": "Obesity may be a risk factor."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Appendices epiploicae of the colon: radiologic & pathologic features. Radiographics. 1992 Jan;12(1):59-77",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Epiploic appendagitis實際上**男性較女性多見**（約4倍），並非女性較多見。腸脂垂缺血性梗塞、好發2-5十年、肥胖為危險因子等敘述皆正確。詳見 [[epiploic-appendagitis]]。",
+      "images": [],
+      "concepts": [
+        "epiploic-appendagitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-199",
+      "year": 2019,
+      "number": 199,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statement for neuroendocrine tumor of pancreas is correct except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An indolent tumor with malignant potential"
+        },
+        {
+          "letter": "B",
+          "text": "Insulinoma is one of the functioning PNET"
+        },
+        {
+          "letter": "C",
+          "text": "Hepatic matastasis are always hypovascular."
+        },
+        {
+          "letter": "D",
+          "text": "FDG-PET is not indicated because most PNET are negative"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Pancreatic neuroendocrine tumors: biology, diagnosis, and treatment. Chinese Journal of Cancer: 2013 Jun; 32(6):312-324",
+      "explanation": "正確答案為 **C**（錯誤敘述）。PNET肝轉移典型為動脈期高強化（hypervascular），並非一律乏血管。惰性腫瘤伴惡性潛能、insulinoma為functioning PNET之一、FDG-PET於分化良好PNET敏感度受限等敘述皆正確。詳見 [[pancreatic-neuroendocrine-tumors]]。",
+      "images": [],
+      "concepts": [
+        "pancreatic-neuroendocrine-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-200",
+      "year": 2019,
+      "number": 200,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "What is true about the common abnormal protein or peptide accumulation in the demented brain?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "τ and β amyloid in AD"
+        },
+        {
+          "letter": "2",
+          "text": "α synuclein in DLB; and"
+        },
+        {
+          "letter": "3",
+          "text": "τ, TDP, or FUS in FTD,"
+        },
+        {
+          "letter": "4",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "4",
+      "reference": "2019 交換考詳解；American Journal of Neuroradiology November 2012, 33 (10) 1836-1844",
+      "explanation": "正確答案為 **4（All of above）**。AD為tau與β-amyloid堆積、DLB為α-synuclein堆積、FTD為tau/TDP-43/FUS堆積，三者皆正確。詳見 [[dementia-neuroimaging-overview]]。",
+      "images": [],
+      "concepts": [
+        "dementia-neuroimaging-overview"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-201",
+      "year": 2019,
+      "number": 201,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "What is true about vascular dementia?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "WMH (White matter hyperintensity) are best demonstrated on MR imaging and can be measured by using semiquantitative visual rating scales or quantitative voxel-based methods, associated with vascular risk factors, particularly hypertension and impaired glycemic control. It is now widely accepted that WMH are an imaging biomarker of vascular disease."
+        },
+        {
+          "letter": "2",
+          "text": "Lacunar infarcts (or lacunes) occur in the subcortical white matter and basal ganglia and are also an imaging correlate of CVD"
+        },
+        {
+          "letter": "3",
+          "text": "Lobar macrohemorrhages having been traditionally associated with cerebral amyloid angiopathy, and macrohemorrhage in deep and infratentorial locations, are associated with vascular risk factors, WMH, and lacunar infarcts"
+        },
+        {
+          "letter": "4",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "4",
+      "reference": "2019 交換考詳解；American Journal of Neuroradiology November 2012, 33 (10) 1836-1844",
+      "explanation": "正確答案為 **4（All of above）**。WMH為血管疾病影像生物標記、腔隙性梗塞為CVD影像相關表現、腦葉巨量出血與CAA相關而深部/幕下巨量出血與血管危險因子相關，三者皆正確。詳見 [[dementia-neuroimaging-overview]]。",
+      "images": [],
+      "concepts": [
+        "dementia-neuroimaging-overview"
       ],
       "checked": false
     }
