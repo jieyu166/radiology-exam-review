@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 270,
+  "totalQuestions": 272,
   "questions": [
     {
       "id": "2016-001",
@@ -10054,6 +10054,80 @@
       "images": [],
       "concepts": [
         "persistent-lsvc"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-271",
+      "year": 2016,
+      "number": 271,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下有關 Digital Breast Tomosynthesis (DBT)在乳房診斷的應用，以下何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Architectural distortion is better visualized in DBT, which is important in diagnostic examination due to high PPV for cancer in approximately 60% of cases."
+        },
+        {
+          "letter": "B",
+          "text": "In focal asymmetry, DBT can be used to confirm a finding as a true asymmetry, or reclassify it as a mass. DBT has higher sensitivity than spot compression views."
+        },
+        {
+          "letter": "C",
+          "text": "DBT is often effective in localizing one-view suspicious abnormalities, may help us to target the lesion location."
+        },
+        {
+          "letter": "D",
+          "text": "Due to thin slices provided, DBT is usually better in visualizing the individual morphology of microcalcifications."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Radiographics 2015 July-August, p.975",
+      "explanation": "**DBT薄切片雖提升微鈣化的「可見度」，但因鈣化分散於多層切面，並未提升對微鈣化個別形態（morphology）的評估能力**，微鈣化型態判讀仍需依賴傳統2D/放大攝影。\n\n(A) 對：DBT對architectural distortion顯示較佳，診斷檢查中此徵象惡性率高。\n(B) 對：DBT可確認focal asymmetry真偽，敏感度優於spot compression view。\n(C) 對：DBT有助於定位單一視野可疑病灶。\n(D) **錯（正解）**：薄切片並未使微鈣化個別形態評估更佳，反而因分散於多層而較不利成群判讀。\n\n→ [[breast-tomosynthesis]]",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-272",
+      "year": 2016,
+      "number": 272,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following regarding microlithiasis is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Discrete, punctate, nonshadowing echogenic foci scattered within testicular parenchyma"
+        },
+        {
+          "letter": "B",
+          "text": "Majority are idiopathic; previous infection or trauma may also be responsible"
+        },
+        {
+          "letter": "C",
+          "text": "Adjacent hypoechoic foci, if seen, may represent neoplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Low resolution US (≦ 3.5 MHz) is modality choice"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Diagnostic Imaging Genitourinary, 3rd Edition, p.460",
+      "explanation": "**睪丸微石症（testicular microlithiasis）之影像評估應使用高解析度超音波，而非低解析度（≤3.5 MHz）探頭**。\n\n(A) 對：典型呈散在、不具聲影之細小點狀強回音，分布於睪丸實質內。\n(B) 對：多數為特發性，既往感染或外傷亦可能為病因。\n(C) 對：鄰近若見低回音病灶，須警覺可能為腫瘤。\n(D) **錯（正解）**：應使用高解析度超音波（非低解析度≤3.5 MHz）以偵測細微點狀回音。\n\n→ [[testicular-microlithiasis]]",
+      "images": [],
+      "concepts": [
+        "testicular-microlithiasis"
       ],
       "checked": false,
       "years": [

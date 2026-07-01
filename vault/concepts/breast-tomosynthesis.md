@@ -60,6 +60,10 @@ dateRev: 2026-06-29
 [^4]: Friedewald SM, et al. *Breast Cancer Screening Using Tomosynthesis in Combination With Digital Mammography.* JAMA 2014;311(24):2499-2507（Tier 1 原始研究；2018 交換考題詳解 p.12 引用）。DBT+FFDM 併用 recall rate 10.7% vs FFDM 單獨 10.3%(p=0.26)；癌偵測率 3.8/1000 vs 1.8/1000(p=0.005)；PPV1 3.6% vs 1.8%(p=0.006)。2019 交換考詳解另引 Skaane P et al. Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56：判讀時間 45秒(2D) vs 91秒(2D+3D，約2倍)；偵測率 6.1(2D) vs 8.0(2D+3D)/1000；額外偵測25例侵襲癌（約增40%）。
 [^5]: 2019 交換考詳解；Breast Tomosynthesis E-Book, p.28：Tomosynthesis 對 focal asymmetry 陽性病灶之 recall rate 降幅最大。
 
+## 題目
+> [!question]- 關於DBT乳房診斷應用,何者有誤? (2016-271)
+> **「DBT薄切片使微鈣化個別形態評估更佳」有誤（D）**——薄切片提升鈣化可見度但分散多層,並未提升形態評估。architectural distortion顯示佳、focal asymmetry確認、one-view定位皆正確。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-tomosynthesis")
