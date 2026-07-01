@@ -229,7 +229,7 @@
       "concepts": [
         "pulmonary-tb"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -266,7 +266,7 @@
       "concepts": [
         "pulmonary-sarcoidosis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -303,7 +303,7 @@
       "concepts": [
         "pe-cta-pitfalls"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -340,7 +340,7 @@
       "concepts": [
         "tracheal-tumors"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -377,7 +377,7 @@
       "concepts": [
         "pulmonary-amyloidosis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -414,7 +414,7 @@
       "concepts": [
         "bronchiectasis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -451,7 +451,7 @@
       "concepts": [
         "sclerosing-pneumocytoma"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -488,7 +488,7 @@
       "concepts": [
         "pulmonary-tb"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -636,7 +636,7 @@
       "concepts": [
         "ultrasound-speed-artifact"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -673,7 +673,7 @@
       "concepts": [
         "acute-hepatitis-us"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -710,7 +710,7 @@
       "concepts": [
         "fnh"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -747,7 +747,7 @@
       "concepts": [
         "infiltrative-hcc"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -784,7 +784,7 @@
       "concepts": [
         "infiltrative-hcc"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -858,7 +858,7 @@
       "concepts": [
         "ectopic-ureter"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -1117,7 +1117,7 @@
       "concepts": [
         "sphenoparietal-sinus"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -1714,7 +1714,7 @@
       "concepts": [
         "septic-pulmonary-emboli"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016,
         2017
@@ -2328,7 +2328,7 @@
       "concepts": [
         "pres"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -2928,7 +2928,7 @@
       "concepts": [
         "contrast-media-safety"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -3701,7 +3701,7 @@
       "concepts": [
         "may-thurner"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -4511,7 +4511,7 @@
       "concepts": [
         "radiation-dose-reference"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -5519,7 +5519,7 @@
       "concepts": [
         "odontoid-fracture"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-150",
@@ -5593,7 +5593,7 @@
       "concepts": [
         "calcium-score"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-152",
@@ -5742,7 +5742,7 @@
       "concepts": [
         "endometrioma"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-156",
@@ -5817,7 +5817,7 @@
       "concepts": [
         "pancreatitis-severity"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-158",
@@ -6721,7 +6721,7 @@
       "concepts": [
         "mcdonald-ms-criteria"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2016-182",
@@ -7358,7 +7358,7 @@
       "concepts": [
         "papillary-necrosis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016,
         2017,
@@ -7397,7 +7397,7 @@
       "concepts": [
         "lung-cancer"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -7434,7 +7434,7 @@
       "concepts": [
         "ccta"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016,
         2017
@@ -7472,7 +7472,7 @@
       "concepts": [
         "ccta"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -7583,7 +7583,7 @@
       "concepts": [
         "mosaic-attenuation"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -7694,7 +7694,7 @@
       "concepts": [
         "pancreatitis-severity"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -7768,7 +7768,7 @@
       "concepts": [
         "maisonneuve-fracture"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -7805,7 +7805,7 @@
       "concepts": [
         "osteopetrosis"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -9072,7 +9072,7 @@
       "concepts": [
         "choledochal-cyst"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
@@ -9536,7 +9536,7 @@
       "concepts": [
         "hepatic-hemangioma"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2016
       ]
