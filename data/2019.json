@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 117,
+  "totalQuestions": 123,
   "questions": [
     {
       "id": "2019-001",
@@ -4229,6 +4229,232 @@
       "images": [],
       "concepts": [
         "bi-rads-categories"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-118",
+      "year": 2019,
+      "number": 118,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "關於乳房真空輔助切片(Vacuum-assisted breast biopsy, VAB), 以下何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "依導引方式分為立體定位(stereotactic), 超音波或MRI導引VAB."
+        },
+        {
+          "letter": "B",
+          "text": "當VAB得到之病理結果為DCIS (ductal carcinoma in situ), 而切片後影像上已無殘餘可見病灶，則術後定期追蹤即可."
+        },
+        {
+          "letter": "C",
+          "text": "當切片後影像未見殘餘病灶，且VAB之病理結果為classic lobular neoplasia,則術後定期追蹤即可."
+        },
+        {
+          "letter": "D",
+          "text": "若mammography見BI-BADS category 4鈣化，以stereotactic VAB切片，VAB術後影像可見殘餘鈣化，病理結果為atypical ductal hyperplasia (ADH),則須更進一步開刀."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；First international consensus conference on lesions of uncertain malignant potential in the breast (B3 lesions). Rageth CJ, et al. Breast Cancer Research and treatment. 2016;159:203-213",
+      "explanation": "正確答案為 **B**（錯誤敘述）。VAB 病理結果為 **DCIS 時，即使切片後影像已無殘餘可見病灶，仍需手術切除**，不可僅定期追蹤。Classic lobular neoplasia（無atypia）於無殘餘病灶時可定期追蹤、ADH 於殘餘鈣化時須進一步開刀等敘述皆正確。詳見 [[vacuum-assisted-breast-biopsy]]。",
+      "images": [],
+      "concepts": [
+        "vacuum-assisted-breast-biopsy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-119",
+      "year": 2019,
+      "number": 119,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "關於乳房切片方式之選擇，以下何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "乳房攝影看到BI-RADS category 4之鈣化，以超音波導引切片最為合適，因為超音波導引切片不需要壓迫乳房，無輻射，且為real time."
+        },
+        {
+          "letter": "B",
+          "text": "MR看到之BI-RADS category 4病灶, 若在mammography及second-look ultrasound皆無法見到此病灶，則仍需做MRI-guided breast biopsy."
+        },
+        {
+          "letter": "C",
+          "text": "超音波可見之腫塊，最適合以ultrasound-guided biopsy做切片."
+        },
+        {
+          "letter": "D",
+          "text": "超音波可見之palpable, oval, well circumscribed mass，且經ultrasound-guided large core biopsy病理為良性之腫瘤，可以考慮以ultrasound-guided 真空輔助切片(VAB)做benign lesion removal."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Berg WA, Birdwell RL, et al. Diagnostic Imaging: Breast. Part V, section 2. V2-2~2-45. 2006",
+      "explanation": "正確答案為 **A**（錯誤敘述）。乳房攝影所見之 BI-RADS category 4 鈣化，因鈣化在超音波上通常難以可靠顯示與定位，**應以 stereotactic（立體定位）VAB 切片為最適合方式**，而非超音波導引切片（即使超音波導引有免壓迫、無輻射、real-time 之優點）。MR-only 病灶需 MRI-guided biopsy、超音波可見腫塊適合 ultrasound-guided biopsy、良性腫瘤可考慮 US-guided VAB 移除等敘述皆正確。詳見 [[vacuum-assisted-breast-biopsy]]。",
+      "images": [],
+      "concepts": [
+        "vacuum-assisted-breast-biopsy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-120",
+      "year": 2019,
+      "number": 120,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "關於gynecomastia (男子女乳症)影像表現，以下何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mammography表現可能為nodular,或dendritic,或diffuse glandular之density."
+        },
+        {
+          "letter": "B",
+          "text": "ultrasound表現為hypoechoic mass, 位於subareolar, 可以有color doppler flow, 也可能沒有flow."
+        },
+        {
+          "letter": "C",
+          "text": "主要位置在subareolar, 必定為對稱分佈."
+        },
+        {
+          "letter": "D",
+          "text": "主要位置在subareolar, 可以為左右不對稱."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Berg WA, Birdwell RL, et al. Diagnostic Imaging: Breast. 2006. Page IV5-50~5-53",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Gynecomastia 主要位置在 subareolar，**可以左右不對稱，並非必定對稱分布**。乳房攝影 nodular/dendritic/diffuse density 表現、超音波 subareolar hypoechoic mass 可有或無 color Doppler flow 等敘述皆正確。詳見 [[gynecomastia-imaging]]。",
+      "images": [],
+      "concepts": [
+        "gynecomastia-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-121",
+      "year": 2019,
+      "number": 121,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most appropriate BI-RADS assessment for the following case scenario: suspicious palpable lump with no mammographic or sonographic correlate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BI-RADS 0"
+        },
+        {
+          "letter": "B",
+          "text": "BI-RADS 1"
+        },
+        {
+          "letter": "C",
+          "text": "BI-RADS 2"
+        },
+        {
+          "letter": "D",
+          "text": "BI-RADS 3"
+        },
+        {
+          "letter": "E",
+          "text": "BI-RADS 4"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140",
+      "explanation": "官方詳解標示答案為 **D（BI-RADS 3）**，但原始答案卷手寫註記以大量問號表達存疑。⚠️ 臨床上「可疑（suspicious）」可觸及腫塊若完整影像評估後仍無對應發現，依一般 BI-RADS 邏輯可能更傾向 category 0（需加做影像）或因臨床高度懷疑而傾向 category 4（切片），暫依官方標示記錄為 D，建議醫師覆核原始情境設定與答案卷。詳見 [[bi-rads-categories]]。",
+      "images": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-122",
+      "year": 2019,
+      "number": 122,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "美國放射線學會(American College of Radiology，ACR)規定每張乳房攝影之平均乳腺劑量於標準假體下攝影不得超過3mGy.下列哪一項檢查超過規定劑量? (2D乳房攝影/3D乳房斷層攝影/2D乳房攝影+3D乳房斷層攝影/以上皆未超過)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2D 乳房攝影"
+        },
+        {
+          "letter": "B",
+          "text": "3D 乳房斷層攝影"
+        },
+        {
+          "letter": "C",
+          "text": "2D 乳房攝影+ 3D 乳房斷層攝影"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆未超過"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56",
+      "explanation": "正確答案為 **D**。2D 乳房攝影、3D 乳房斷層攝影，以及2D+3D併用檢查（約2.0–2.23 mGy），其平均乳腺劑量皆未超過 ACR 規定之 3 mGy 門檻。詳見 [[mammography-dose-limits]]。",
+      "images": [],
+      "concepts": [
+        "mammography-dose-limits"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-123",
+      "year": 2019,
+      "number": 123,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "2D乳房攝影與3D乳房斷層攝影相比,篩檢婦女額外發現乳癌最多的類型為?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "所有乳癌"
+        },
+        {
+          "letter": "B",
+          "text": "侵犯性乳癌"
+        },
+        {
+          "letter": "C",
+          "text": "原位癌"
+        },
+        {
+          "letter": "D",
+          "text": "浸潤型乳癌"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56",
+      "explanation": "正確答案為 **B（侵犯性乳癌）**。乳房攝影併用斷層攝影（tomosynthesis）額外偵測到的乳癌以侵犯性乳癌（invasive cancer）最多（研究中額外偵測25例侵襲癌，約增加40%）。詳見 [[breast-tomosynthesis]]（Oslo試驗侵襲癌+40%）。",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
       ],
       "checked": false
     }
