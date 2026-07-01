@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 171,
+  "totalQuestions": 177,
   "questions": [
     {
       "id": "2018-001",
@@ -6198,6 +6198,228 @@
       "images": [],
       "concepts": [
         "meninges-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-172",
+      "year": 2018,
+      "number": 172,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "On conventional MRI, all of the following are direct signs of cerebral veinous thrombosis involving the sagittal sinus, except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bright signal in the sinus on T1-weighted images."
+        },
+        {
+          "letter": "B",
+          "text": "Isointense signal in the sinus on T1-weighted images."
+        },
+        {
+          "letter": "C",
+          "text": "Absence of signal in the sinus on FLAIR images."
+        },
+        {
+          "letter": "D",
+          "text": "Exaggerated signal loss in the sinus due to increased susceptibility effect on T2-weighted gradient-echo images."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.59；Neurol Int. 2011 Nov 29.",
+      "explanation": "急性血栓 T1 等訊號、亞急性血栓 T1 高訊號、T2*GRE 因磁化率效應訊號誇大流失皆為公認直接徵象；FLAIR 上「無訊號」並非標準直接徵象描述。\n\n見 [[cerebral-venous-thrombosis-mri]]",
+      "images": [],
+      "concepts": [
+        "cerebral-venous-thrombosis-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-173",
+      "year": 2018,
+      "number": 173,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "In xenon inhalation CT, the xenon gas is inhalated?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "as a mixture with oxygen"
+        },
+        {
+          "letter": "B",
+          "text": "as a mixture with CO2"
+        },
+        {
+          "letter": "C",
+          "text": "pure xenon inhalation"
+        },
+        {
+          "letter": "D",
+          "text": "as a mixture with room air"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.60；Neurosurg Clin N Am. 1996 Oct;7(4):605-16.",
+      "explanation": "Xe/CT 標準吸入方式為氙氣與氧氣混合（常見比例約28%氙+40%氧+32%室內空氣）。\n\n見 [[xenon-ct-perfusion]]",
+      "images": [],
+      "concepts": [
+        "xenon-ct-perfusion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-174",
+      "year": 2018,
+      "number": 174,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列那個不是 Diffusion MRI artifacts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Eddy currents"
+        },
+        {
+          "letter": "B",
+          "text": "Motion artifacts"
+        },
+        {
+          "letter": "C",
+          "text": "Ghosting"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆是Diffusion MRI artifacts"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.61；J Magn Reson Imaging. 2006 Sep;24(3):478-88.",
+      "explanation": "渦電流、動作偽影、鬼影皆為 Diffusion MRI 常見偽影。\n\n見 [[mri-flow-and-diffusion-artifacts]]",
+      "images": [],
+      "concepts": [
+        "mri-flow-and-diffusion-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-175",
+      "year": 2018,
+      "number": 175,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不會影響flow-related enhancement?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TR 長短"
+        },
+        {
+          "letter": "B",
+          "text": "Flip angle大小"
+        },
+        {
+          "letter": "C",
+          "text": "Slice thickness厚薄"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆會影響flow-related enhancement"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.62；Magnetic Resonance Imaging - E-Book: Physical and Biological Principles, P334.",
+      "explanation": "TR 長短、flip angle 大小、slice thickness 厚薄皆會影響 flow-related enhancement 強度。\n\n見 [[mri-flow-and-diffusion-artifacts]]",
+      "images": [],
+      "concepts": [
+        "mri-flow-and-diffusion-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-176",
+      "year": 2018,
+      "number": 176,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "About breast MR imaging, which one is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MR imaging can be helpful for further investigation of a persistent one-view finding, particularly in the absence of a US correlation."
+        },
+        {
+          "letter": "B",
+          "text": "In general, breast MR imaging is helpful in affecting the management of probably benign or indeterminate calcifications."
+        },
+        {
+          "letter": "C",
+          "text": "A positive MR imaging should increase clinical suspicion and potentially guide tissue diagnosis, particularly when US is negative."
+        },
+        {
+          "letter": "D",
+          "text": "A negative or benign MR imaging finding reinforces the likelihood that an ambiguous finding is not clinically significant."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.63；Breast MR Imaging for Equivocal Mammographic Findings: Help or Hindrance? RadioGraphics 2016;36:page 944.",
+      "explanation": "乳房 MRI 對可能良性/無法確定鈣化的處置並無幫助，因其陰性預測值不足。\n\n見 [[breast-mri-clinical-utility]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-clinical-utility"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-177",
+      "year": 2018,
+      "number": 177,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Calcifications with suspicious morphology have an increased risk for malignancy, which of the following has the highest risk for malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coarse heterogeneous"
+        },
+        {
+          "letter": "B",
+          "text": "Amorphous"
+        },
+        {
+          "letter": "C",
+          "text": "Pleomorphic"
+        },
+        {
+          "letter": "D",
+          "text": "Fine linear or fine linear branching"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.64；A pictorial Review of Changes in the BI-RADS Fifth edition. RadioGraphics 2016;36:page 624.",
+      "explanation": "可疑鈣化型態依惡性風險由低到高：amorphous < coarse heterogeneous < fine pleomorphic < fine linear/fine-linear branching（風險最高）。\n\n見 [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
       ],
       "checked": false
     }
