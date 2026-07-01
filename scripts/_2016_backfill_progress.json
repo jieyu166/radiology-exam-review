@@ -1,29 +1,28 @@
 {
-  "next_page": 61,
+  "next_page": 69,
   "total_pages": 183,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60],
-  "added_ids": ["2016-260", "2016-261", "2016-262", "2016-263", "2016-264", "2016-265", "2016-266"],
-  "next_id": 267,
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68],
+  "added_ids": ["2016-260","2016-261","2016-262","2016-263","2016-264","2016-265","2016-266","2016-267"],
+  "next_id": 268,
   "dups_skipped": [
-    "p1-52見前次記錄",
-    "p53=2017-017重複(mammoagraphy magnification,已merge)",
-    "p54=2017-001重複(proper mammography technique,已merge)",
-    "p55=2016-041重複(shear wave velocity threshold)",
-    "p56=2016-042重複(US tissue stiffness technique)",
-    "p57=2016-043重複(shear wave velocity best measurement)",
-    "p58=2016-044重複(pleura metastasis 2nd)+2016-045重複(progressive massive fibrosis)",
-    "p59=2016-046重複(septic pulmonary emboli)+2017-150重複(pulmonary interstitial emphysema,已merge)",
-    "p60=2016-047重複(tuberculous cavitation complication)+2016-048重複(papillary fibroelastoma)"
+    "p1-60見前次記錄",
+    "p61=2016-231重複(aneurysm rupture sign)+2016-232重複(mitral stenosis stage)",
+    "p62=2016-049重複(adrenal nodular hyperplasia)+2016-050重複(adrenal pseudocyst T1)",
+    "p63=2016-051重複(pheochromocytoma calcification%)+2016-052重複(bilateral adrenal masses)",
+    "p64=2016-053重複(adrenal hemorrhage cause)+2016-173重複(CNS germinoma wrong)",
+    "p66=2016-236重複(Moyamoya Suzuki stage)",
+    "p67=2016-172重複(Empty sella wrong)+2016-183重複(pterygopalatine fossa)",
+    "p68=2016-195重複(cervical cancer TNM staging)"
   ],
   "xyear_dups_merged": [
-    "p6上=2017-237已合併(見前次記錄)",
-    "p49下/p50/p52上=2017-152/153/154已合併(見前次記錄)",
-    "p49上=2017-151已合併(見前次記錄)",
-    "p53=2017-017已合併years[2016,2017]（commit 350efa8,b01f286）",
-    "p54=2017-001已合併years[2016,2017]",
-    "p59下=2017-150已合併years[2016,2017]（commit d05e9ee,df88a62）"
+    "p6上=2017-237(見前次記錄)",
+    "p49下/p50/p52上=2017-152/153/154(見前次記錄)",
+    "p49上=2017-151(見前次記錄)",
+    "p53=2017-017(見前次記錄)",
+    "p54=2017-001(見前次記錄)",
+    "p59下=2017-150(見前次記錄)"
   ],
   "fig_pages": [],
   "flagged": [],
-  "notes": "頁53-60全數為既有題重印或已解決的跨年重複，本批(頁53-60)無新題需寫入data/2016.json。重要：repo有另一平行session同時在做2017/2018年度backfill工作，已修正一次意外把該session未提交變更掃入我commit的問題。之後每次commit前均先用git diff --cached --stat確認staging區只有自己的檔案，此為必要SOP，務必持續遵守。"
+  "notes": "頁61-66/67/68為既有題重印。頁65新題(PCA分支,marginal tentorial artery實為ICA分支)已新增為2016-267，新建概念posterior-cerebral-artery-branches（commit c8aaa26）。每次commit前均先用git diff --cached --stat確認staging區只有自己的檔案，此為必要SOP，repo有另一平行session同時在做2017/2018年度backfill工作。"
 }
