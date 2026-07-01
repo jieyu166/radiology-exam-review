@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 167,
+  "totalQuestions": 171,
   "questions": [
     {
       "id": "2018-001",
@@ -6050,6 +6050,154 @@
       "images": [],
       "concepts": [
         "odontoid-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-168",
+      "year": 2018,
+      "number": 168,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "海馬鉤疝脫(uncal herniation)容易壓迫那一對腦神經?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "第一對腦神經"
+        },
+        {
+          "letter": "B",
+          "text": "第二對腦神經"
+        },
+        {
+          "letter": "C",
+          "text": "第三對腦神經"
+        },
+        {
+          "letter": "D",
+          "text": "第四對腦神經"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.50；Textbook of Clinical Neurology, 3e, Part1, Chapter1.",
+      "explanation": "海馬鉤疝脫最容易壓迫第三對腦神經（動眼神經）。\n\n見 [[brain-herniation-syndromes]]",
+      "images": [],
+      "concepts": [
+        "brain-herniation-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-169",
+      "year": 2018,
+      "number": 169,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "病患右手大拇指酸麻刺痛,那個神經被壓迫最有可能?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C5"
+        },
+        {
+          "letter": "B",
+          "text": "C6"
+        },
+        {
+          "letter": "C",
+          "text": "C7"
+        },
+        {
+          "letter": "D",
+          "text": "C8"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.50；Clin Orthop Relat Res. 2010 Jul;468(7):1739-1745.",
+      "explanation": "大拇指皮節對應 C6 神經根，故右手大拇指酸麻刺痛最可能為 C6 神經根壓迫。\n\n見 [[cervical-radiculopathy]]",
+      "images": [],
+      "concepts": [
+        "cervical-radiculopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-170",
+      "year": 2018,
+      "number": 170,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following is the most common intra-axial posterior fossa neoplasm in adults?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glioblastoma multiforme"
+        },
+        {
+          "letter": "B",
+          "text": "Hemangioblastoma"
+        },
+        {
+          "letter": "C",
+          "text": "Meningioma"
+        },
+        {
+          "letter": "D",
+          "text": "Metastasis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.51；Neuroimaging Clin N Am. 2016 Nov;26(4):493-510.",
+      "explanation": "成人顱內軸內後顱窩腫瘤以轉移瘤（metastasis）最常見。\n\n見 [[posterior-fossa-neoplasm-by-age]]",
+      "images": [],
+      "concepts": [
+        "posterior-fossa-neoplasm-by-age"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-171",
+      "year": 2018,
+      "number": 171,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is pachymeninges?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dura + Arachnoid"
+        },
+        {
+          "letter": "B",
+          "text": "Arachnoid + Pia"
+        },
+        {
+          "letter": "C",
+          "text": "Dura + Arachnoid + Pia"
+        },
+        {
+          "letter": "D",
+          "text": "Dura + Pia"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.54；RadioGraphics, Vol. 27, No. 2.",
+      "explanation": "放射影像文獻（RadioGraphics）採功能性二分法：pachymeninges 為硬腦膜＋蜘蛛膜（dura + arachnoid），leptomeninges 為軟腦膜（pia）。此分類與部分基礎解剖教材（leptomeninges=arachnoid+pia，pachymeninges=dura 單獨）不同，屬文獻脈絡差異，見 [[meninges-anatomy]]。",
+      "images": [],
+      "concepts": [
+        "meninges-anatomy"
       ],
       "checked": false
     }
