@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 265,
+  "totalQuestions": 266,
   "questions": [
     {
       "id": "2016-001",
@@ -9865,6 +9865,43 @@
       "images": [],
       "concepts": [
         "croup-steeple-sign"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-266",
+      "year": 2016,
+      "number": 266,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding lung cancer, which of the following statement is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In small cell lung cancer, when tumor and metastatic lesion cannot be encompassed in the same radiation port, it is called extensive disease."
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma is the most common cell type of lung cancer in women and nonsmokers."
+        },
+        {
+          "letter": "C",
+          "text": "Atypical adenomatous hyperplasia, adenocarcinoma in situ, and minimally invasive adenocarcinoma are staged in the 8th edition of TNM system."
+        },
+        {
+          "letter": "D",
+          "text": "Pleural thickening adjacent to the tumor seen in CT is not very accurate for chest wall invasion."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Thoracic Radiology: The Requisites, 2nd ed., pp.256-270",
+      "explanation": "**AAH（atypical adenomatous hyperplasia）、AIS（adenocarcinoma in situ）、MIA（minimally invasive adenocarcinoma）為preinvasive/微侵犯病灶，在AJCC 8th TNM分期系統中並「不」列入正式T分期（非侵犯性癌）**。\n\n(A) 對：SCLC中腫瘤與轉移病灶無法納入同一放射治療範圍時稱extensive disease。\n(B) 對：adenocarcinoma為女性與非吸菸者最常見的肺癌細胞型態。\n(C) **錯（正解）**：AAH/AIS/MIA為preinvasive或微侵犯病灶，非8th edition TNM系統中正式分期的侵犯性肺癌。\n(D) 對：CT上腫瘤鄰近肋膜增厚對判斷胸壁侵犯準確度不高。\n\n→ [[lung-cancer-tnm-staging]]",
+      "images": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
       ],
       "checked": false,
       "years": [

@@ -29,6 +29,13 @@ up: "[[lung-cancer]]"
 ### 參考來源
 [^1]: *AJCC Cancer Staging Manual*, 8th Edition — Lung Cancer chapter（2018 交換考題詳解 p.26 引用；Tier 1 分期權威文件）。T2b：>4–5cm；N3：對側縱膈或肺門、或斜角肌/鎖骨上淋巴結；M1a：對側肺結節/肋膜心包結節或惡性積液；M1b：單一胸腔外轉移；M1c：多發胸腔外轉移。
 
+> [!note] 考點：AAH/AIS/MIA是否列入8th edition TNM分期?
+> **不列入**——AAH（非典型腺瘤樣增生）、AIS（原位腺癌）、MIA（微侵犯腺癌）皆屬preinvasive或微侵犯病灶，非AJCC 8th TNM系統中正式分期的侵犯性肺癌。[^1]
+
+## 題目
+> [!question]- Regarding lung cancer staging, which is NOT correct? (2016-266)
+> **「AAH/AIS/MIA列入8th edition TNM分期」不正確（C）**——三者皆為preinvasive/微侵犯病灶，非正式TNM分期對象。SCLC extensive disease定義(對)、adenocarcinoma為女性/非吸菸者最常見型態(對)、CT肋膜增厚判斷胸壁侵犯不準確(對)皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lung-cancer-tnm-staging")
