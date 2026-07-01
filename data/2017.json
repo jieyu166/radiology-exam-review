@@ -8475,6 +8475,7 @@
       ],
       "checked": false,
       "years": [
+        2016,
         2017
       ]
     },
@@ -9327,6 +9328,228 @@
       "images": [],
       "concepts": [
         "corpus-callosum-dysgenesis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-261",
+      "year": 2017,
+      "number": 261,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not triad of Aicardi syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Callosal dysgenesis"
+        },
+        {
+          "letter": "B",
+          "text": "Intracranial cyst"
+        },
+        {
+          "letter": "C",
+          "text": "Infantile spasm"
+        },
+        {
+          "letter": "D",
+          "text": "Chorioretinal lacunae"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Diagnostic Imaging: Brain, 2nd ed., I(1):128-129",
+      "explanation": "**Intracranial cyst 不屬於 Aicardi syndrome 的典型三主徵**。\n\n典型三主徵為：infantile spasms（點頭式痙攣）、corpus callosal dysgenesis（最一致特徵）、chorioretinal lacunae（病理特徵性）。\n\n(A)(C)(D) 皆為三主徵成員。(B) **非三主徵成員（正解）**。\n\n→ [[aicardi-syndrome]]",
+      "images": [],
+      "concepts": [
+        "aicardi-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-262",
+      "year": 2017,
+      "number": 262,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the Meckel's Diverticulum, which of the following description is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Meckel's diverticulums is remnants of the omphalomesenteric duct, therefore involves a connection to the body wall, and usually present a fistula opening through the umbilicus."
+        },
+        {
+          "letter": "B",
+          "text": "CT scan is the modality of choice to make the diagnosis"
+        },
+        {
+          "letter": "C",
+          "text": "Meckel's Scans (Technetium-99m pertechnetate scintigraphy) have no false negatives."
+        },
+        {
+          "letter": "D",
+          "text": "Meckel's Scans have false positive that occur if the person has a concomitant inflammatory disorder."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Francis A et al. Pediatric Meckel's Diverticulum. Fetal Pediatr Pathol 2016;35(3):199-206",
+      "explanation": "**若病人合併發炎性疾病，Meckel scan 可產生偽陽性結果**。\n\n(A) 錯:憩室典型不涉及與臍部連接/瘻管開口。\n(B) 錯:診斷首選為 Meckel scan 或腸繫膜血管攝影，非 CT。\n(C) 錯:Meckel scan 敏感度有限（成人~60%），並非無偽陰性。\n(D) **正解**:合併發炎性疾病可致偽陽性。\n\n→ [[meckel-diverticulum]]",
+      "images": [],
+      "concepts": [
+        "meckel-diverticulum"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-263",
+      "year": 2017,
+      "number": 263,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the Cross-fused renal ectopia, which of the following description is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The definition of Cross-fused renal ectopia is the kidneys fuse on the same side and fails to properly ascend during development."
+        },
+        {
+          "letter": "B",
+          "text": "The most common type of Cross-fused renal ectopia is horseshoe kidney."
+        },
+        {
+          "letter": "C",
+          "text": "Pancake kidney is one of the most common types of renal ectopia."
+        },
+        {
+          "letter": "D",
+          "text": "Image study cannot differentiate inferior crossed fusion type and superiorly crossed fused type."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Srinivas MR et al. Jpn J Radiol 2016;34(3):181-193",
+      "explanation": "**Cross-fused renal ectopia 定義為兩腎融合於同一側，發育中未能正常上升就位**。\n\n(A) **正解**。\n(B) 錯:horseshoe kidney 為獨立的最常見腎融合異常（兩腎仍分居兩側），非 cross-fused ectopia 的一種。\n(C) 錯:pancake（disc）kidney 為 cross-fused ectopia 中的少見型態，非最常見型（最常見為 inferior crossed fusion）。\n(D) 錯:影像可區分不同融合型態。\n\n→ [[cross-fused-renal-ectopia]]",
+      "images": [],
+      "concepts": [
+        "cross-fused-renal-ectopia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-264",
+      "year": 2017,
+      "number": 264,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "About the Henoch-Schonlein purpura (HSP), which of the following description is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HSP is the most common vasculitis of childhood and is an acute, systemic, progressive, small-vessel vasculitis."
+        },
+        {
+          "letter": "B",
+          "text": "Bowel angina occurs in 100%."
+        },
+        {
+          "letter": "C",
+          "text": "Bowel involvement confining to a single vascular territory."
+        },
+        {
+          "letter": "D",
+          "text": "Long segments wall thickening of small bowel, fluid filled small bowel and ascites are diagnostic findings."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Tizard EJ, Hamilton-Ayres MJ. Arch Dis Child Educ Pract Ed 2008;93(1):1-8",
+      "explanation": "**長節段小腸壁增厚、充液小腸與腹水為 HSP 的診斷性影像表現**。\n\n(A) 錯:早發型（early childhood onset）本質上為**非進行性**，非「進行性」。\n(B) 錯:GI 症狀約發生於**一半**兒童，非100%。\n(C) 錯:腸道侵犯呈**跳躍性病灶**，**不侷限**於單一血管領域。\n(D) **正解**。\n\n→ [[henoch-schonlein-purpura]]",
+      "images": [],
+      "concepts": [
+        "henoch-schonlein-purpura"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-265",
+      "year": 2017,
+      "number": 265,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following terms is most likely used to describe the sonographic appearance of mesenteric lymphomatous?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "target sign"
+        },
+        {
+          "letter": "B",
+          "text": "sandwich sign"
+        },
+        {
+          "letter": "C",
+          "text": "keyboard sign"
+        },
+        {
+          "letter": "D",
+          "text": "doughnut sign"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, 2nd ed., p.283",
+      "explanation": "**Sandwich sign**——彩色都卜勒見血管貫穿融合腸繫膜淋巴結團塊中心，高度提示腸繫膜淋巴瘤。\n\n(A) target sign:腸套疊/腸壁病灶的同心圓表現。\n(B) **sandwich sign（正解）**。\n(C) keyboard sign:小腸阻塞皺襞徵象。\n(D) doughnut sign:腸套疊橫切面環狀表現。\n\n→ [[mesenteric-lymphoma-ultrasound]]",
+      "images": [],
+      "concepts": [
+        "mesenteric-lymphoma-ultrasound"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-266",
+      "year": 2017,
+      "number": 266,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "\"This structure is a remnant of the ductus venosus from fetal origins. It is located, as a line, from the left portal vein to the IVC. It separates the left and caudate lobes from each other.\"",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ligamentum Teres (Round Ligament)"
+        },
+        {
+          "letter": "B",
+          "text": "Couinaud ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Falciform ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Ligamentum Venosum"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Abdomen 100 question exam",
+      "explanation": "**Ligamentum Venosum（靜脈韌帶）為靜脈導管(ductus venosus)的殘留**，呈線狀從左門靜脈連到IVC，分隔左葉與尾狀葉。\n\n(A) Ligamentum teres:臍靜脈殘留，位於鐮狀韌帶游離緣，分隔左葉內外側段。\n(B) Couinaud ligament:非標準解剖命名。\n(C) Falciform ligament:腹側腸繫膜殘留（非血管）。\n(D) **Ligamentum Venosum（正解）**。\n\n→ [[hepatic-ligaments-fetal-remnants]]",
+      "images": [],
+      "concepts": [
+        "hepatic-ligaments-fetal-remnants"
       ],
       "checked": false,
       "years": [
