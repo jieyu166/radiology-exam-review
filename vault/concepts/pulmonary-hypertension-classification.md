@@ -36,9 +36,22 @@ dateRev: 2026-06-30
 > [!note] 考點：關於肺高壓，何者「正確」?
 > 「**Mosaic perfusion pattern 在 idiopathic 型比慢性血栓栓塞型少見**」正確。Precapillary 並非比 postcapillary 更常見（臨床上 Group 2/postcapillary 才是最常見病因）、主肺動脈徑 >26mm 門檻已過時（新研究 >29-31.6mm）、單側肺動脈擴大非可靠的 idiopathic PAH 指標。[^2]
 
+### Idiopathic PAH 的影像診斷邏輯——「排除法」
+- **Idiopathic PAH 本質是排除診斷**：**若找不到任何提示特定 PH 亞型/特定疾病的肺部或縱膈伴隨影像徵象，才考慮 idiopathic PAH**。[^3]
+- **各徵象對應特定病因（故非 idiopathic 的線索）**：[^3]
+  - **肺葉間隔增厚（interlobular septal thickening）**→ 左心病變（Group 2）。
+  - **雙側肺動脈不對稱擴大**→ 肝肺症候群（hepatopulmonary syndrome）。
+  - **肺節段動脈 target sign**→ 急性肺栓塞。
+- **D-shape of left ventricle（右心室壓力負荷致室間隔平直化/左移）**：反映**嚴重右心室功能障礙/壓力負荷**，此為 PH 嚴重度的**非特異性**共同表現（各類型晚期 PH 皆可見），**不指向任何特定 PH 亞型**——故當其他徵象都缺席時，D-shape（非特異）反而透過排除法指向 idiopathic PAH。
+- **輔助鑑別**：mosaic attenuation 可見但**在 idiopathic PAH 較 CTEPH 少見**;**支氣管動脈肥大/擴大是 CTEPH 的特徵，idiopathic PAH 通常缺席**——此為兩者鑑別的另一線索。[^3]
+
+> [!note] 考點：何種影像徵象提示 idiopathic pulmonary artery hypertension?
+> **D-shape of left ventricle（C）**——僅反映嚴重右心室功能障礙，非特異性，故當無其他指向特定病因的伴隨徵象時，以排除法考慮 idiopathic PAH。interlobular septal thickening（左心病變/Group 2）、雙側肺動脈不對稱擴大（肝肺症候群）、節段肺動脈 target sign（急性 PE）皆指向特定病因，非 idiopathic。[^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Chest（Winer-Muram, Stern）II.4.54-57：WHO 肺高壓五組分類;Group 1 PAH 含 CTD（scleroderma）;PVOD＝Group 1';左心病變（cor triatriatum）＝Group 2;sarcoidosis＝Group 5。
 [^2]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.7：precapillary（肺動脈循環病變）vs postcapillary（肺靜脈循環病變）分類與病因;臨床上 Group 2（postcapillary/PH-LHD）為最常見病因（mPAP>20、PCWP>15）;主肺動脈徑門檻新研究達 29-31.6mm;單側肺動脈擴大為 PH 較差指標（正常上限 16mm）;CTEPH 比 idiopathic 型更常見 mosaic perfusion。
+[^3]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.6-9：idiopathic PAH 為排除診斷（無特定亞型伴隨徵象時考慮）;interlobular septal thickening＝左心病變、雙側肺動脈不對稱擴大＝肝肺症候群、節段肺動脈 target sign＝急性 PE 皆為特定病因線索;D-shape LV 為非特異性右心室功能障礙表現;mosaic attenuation 於 idiopathic 較 CTEPH 少見;支氣管動脈肥大為 CTEPH 特徵、idiopathic PAH 通常缺席。
 
 ## 題目
 > [!question]- 何者為 pulmonary arterial hypertension (Group 1) 的病因? (2017-238)
@@ -46,6 +59,9 @@ dateRev: 2026-06-30
 
 > [!question]- 關於 pulmonary hypertension (PH)，何者「正確」? (2017-242)
 > 「**Mosaic perfusion pattern 在 idiopathic 型比慢性血栓栓塞型（chronic thromboembolic）少見**」正確。Precapillary 並非比 postcapillary 更常見（臨床上 postcapillary/Group 2 為最常見病因）、主肺動脈徑 >26mm 門檻已過時（新研究達 29-31.6mm）、單側肺動脈擴大非可靠的 idiopathic PAH 指標皆為錯誤選項。[^2]
+
+> [!question]- Which finding suggests idiopathic pulmonary artery hypertension? (2017-243)
+> **D-shape of left ventricle（C）**——僅為嚴重右心室功能障礙的非特異表現，當無其他指向特定病因的徵象時，以排除法考慮 idiopathic PAH。肺葉間隔增厚（左心病變）、雙側肺動脈不對稱擴大（肝肺症候群）、節段肺動脈 target sign（急性肺栓塞）皆指向特定病因。[^3]
 
 ## 考題
 ```dataview
