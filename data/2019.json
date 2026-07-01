@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 149,
+  "totalQuestions": 151,
   "questions": [
     {
       "id": "2019-001",
@@ -5427,6 +5427,80 @@
       "images": [],
       "concepts": [
         "portal-vein-doppler"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-150",
+      "year": 2019,
+      "number": 150,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Dilatation of the intrahepatic ducts with normal extrahepatic ducts is characteristic of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cholangitis"
+        },
+        {
+          "letter": "B",
+          "text": "a Klatskin tumor"
+        },
+        {
+          "letter": "C",
+          "text": "choledocholithiasis"
+        },
+        {
+          "letter": "D",
+          "text": "a pancreatic neoplasm"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.131",
+      "explanation": "正確答案為 **B**。Klatskin tumor（肝門部膽管癌）阻塞位置在左右肝管匯流處，僅造成肝內膽管擴張而肝外膽管正常。Cholangitis通常造成瀰漫性膽管系統變化，choledocholithiasis與胰臟腫瘤通常造成肝外膽管擴張。詳見 [[klatskin-tumor]]。",
+      "images": [],
+      "concepts": [
+        "klatskin-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-151",
+      "year": 2019,
+      "number": 151,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Echogenicity of glandular breast tissue when compared to a fatty breast lobule is best described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "isoechoic"
+        },
+        {
+          "letter": "B",
+          "text": "hyperechoic"
+        },
+        {
+          "letter": "C",
+          "text": "moderately hyperechoic"
+        },
+        {
+          "letter": "D",
+          "text": "moderately hypoechoic"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.236",
+      "explanation": "正確答案為 **C**。腺體組織相對於脂肪小葉呈現中度回音增強（moderately hyperechoic）。詳見 [[breast-tissue-echogenicity]]。",
+      "images": [],
+      "concepts": [
+        "breast-tissue-echogenicity"
       ],
       "checked": false
     }
