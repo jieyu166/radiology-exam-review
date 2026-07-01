@@ -4,7 +4,7 @@ subspecialty: [ABD, GU]
 aliases:
   - 腎上腺腺瘤
   - adrenal cortical adenoma
-dateRev: 2026-06-14
+dateRev: 2026-07-01
 concepts: [adrenal-adenoma]
 up: "[[adrenal-imaging]]"
 ---
@@ -45,7 +45,11 @@ up: "[[adrenal-imaging]]"
 - **DECT**：虛擬非顯影（VNC）會高估真實 HU，降低 <10 HU 敏感度；**iodine:VNC 比值 ≥6.7 → 敏感/特異 95%**。[^2]
 
 > [!warning] washout 假陽性陷阱
-> 快速 washout 可見於 pheochromocytoma、renal cell carcinoma、hepatocellular carcinoma 與 hypervascular metastasis——washout 不能單獨排除這些病灶；約 1/3 pheochromocytoma 也達 APW≥60%。RadioGraphics（Chung 2023）亦指出：washout >60% 的小型 ACC/轉移/pheo 可模擬腺瘤；異質或 ≥4 cm 腺瘤可反向模擬惡性。臨床情境是關鍵。[^2][^4][^5]
+> 快速 washout 可見於 pheochromocytoma、renal cell carcinoma、hepatocellular carcinoma 與 hypervascular metastasis——washout 不能單獨排除這些病灶；**文獻範圍 17–67% 之 pheochromocytoma 可達 adenoma 之 washout 標準**（絕對洗出≥60%、相對洗出≥40%）。RadioGraphics（Chung 2023）亦指出：washout >60% 的小型 ACC/轉移/pheo 可模擬腺瘤；異質或 ≥4 cm 腺瘤可反向模擬惡性。臨床情境是關鍵。[^2][^4][^5]
+> **鑑別加強**：**非顯影 CT ≤10 HU 對腺瘤高度特異、pheochromocytoma 極少見**（可作為washout以外的輔助鑑別）；門脈期衰減閾值：**≥130 HU（38% 敏感、100% 特異）**或 **≥85 HU（88% 敏感、84% 特異）**可助鑑別 pheochromocytoma vs adenoma。[^4]
+
+> [!danger] 疑似 pheochromocytoma：切勿切片
+> **臨床或生化懷疑 pheochromocytoma 時不應做切片（biopsy）**——有誘發高血壓危象之風險，應轉外科會診而非切片確診。若生化檢查陰性但臨床高度懷疑，可用**分子影像**確認：**68Ga 標記 somatostatin analog（如 68Ga-DOTATATE）敏感度優於 18F-fluorodopamine／18F-DOPA**；123I-MIBG 為另一選項。[^4]
 
 ### MRI — chemical shift（in/out-of-phase）
 - MR 診斷主力，敏感/特異與 NECT 相當；適用 NECT 10–30 HU 的中間病灶。opposed-phase T1WI 訊號下降＝細胞內水脂共存。多數情況**目視**訊號下降即足夠。[^1][^2]
@@ -78,7 +82,7 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 [^1]: Gaillard F, et al. *Adrenal adenoma*. Radiopaedia.org, rID-862, DOI 10.53347/rID-862（實際查證，accessed 2026-06-14）。
 [^2]: Chung R, Tublin M, Sugi MD. *Adrenal Adenoma*（Genitourinary, Dx）. STATdx, Elsevier, last updated 2025-10-21（實際查證，31 references，accessed 2026-06-14）。
 [^3]: Kalor AN, Tublin ME. *The Adrenal Glands*. Diagnostic Ultrasound, Chapter 11, pp. 474–491. Elsevier; 2024（實際查證 via ClinicalKey，accessed 2026-06-14）。
-[^4]: Chung R, Garratt J, Remer EM, et al. *Adrenal Neoplasms: Lessons from Adrenal Multidisciplinary Tumor Boards*. RadioGraphics. 2023;43(7):e220191. DOI 10.1148/rg.220191（Free Access，實際查證 accessed 2026-06-14）。
+[^4]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；Free Access 文章）** Chung R, Garratt J, Remer EM, et al. *Adrenal Neoplasms: Lessons from Adrenal Multidisciplinary Tumor Boards*. RadioGraphics. 2023;43(7):e220191. DOI 10.1148/rg.220191。重點：17–67% pheochromocytoma 可達 adenoma washout 標準；NECT ≤10 HU 對腺瘤高度特異、pheo 極少見；門脈期閾值 ≥130 HU（38%/100%）或 ≥85 HU（88%/84%）助鑑別；**疑似 pheochromocytoma 不應切片**（誘發高血壓危象風險），應外科會診；生化陰性但臨床高度懷疑可用 68Ga-DOTATATE（優於 18F-fluorodopamine/DOPA）或 123I-MIBG 分子影像確認；腺瘤約 1/3 會緩慢增長（<3 mm/年），惡性 >5 mm/年（100% 敏感特異）。
 [^5]: Corwin MT, Badawy M, Caoili EM, et al. *Incidental Adrenal Nodules in Patients Without Known Malignancy: Prevalence of Malignancy and Utility of Washout CT for Characterization—A Multiinstitutional Study*. AJR Am J Roentgenol. 2022;219(5). DOI 10.2214/AJR.22.27901（實際查證 full text，accessed 2026-06-14）。
 
 > 延伸經典文獻（上述來源所引；本次未逐篇開啟核實，建議升級引用前查證）：

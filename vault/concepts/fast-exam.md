@@ -8,7 +8,7 @@ aliases:
   - E-FAST
   - focused assessment with sonography for trauma
   - 創傷超音波
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # fast-exam
@@ -43,12 +43,19 @@ dateRev: 2026-06-29
 > **FAST = 找自由液體**（腹腔/心包積血）的二元篩檢，**不是**測主動脈、不是看肝實質、不是 Doppler 看肝/門靜脈。[^1][^2]
 
 ## 判讀陷阱與限度
+- **敏感度的歷史陷阱**：早期（1990 年代）FAST 對 hemoperitoneum 敏感度文獻報告可達 69–98%，但這些多以**臨床結果**（而非 CT）為對照；**首批與 CT 直接比較的研究顯示偵測實質器官損傷敏感度僅約 63%**，主因是「孤立實質器官損傷但無游離液」之情形無法被 FAST 偵測——此為 FAST 敏感度常被高估的重要陷阱。[^1]
 - **偵測門檻量**：腹腔需相當量才陽性——肝腎隱窩平均約需 **>500 mL**（一研究估約 619 mL），骨盆視窗較敏感，平均約 **157 mL**；胸腔積液低至約 20 mL 即可偵。小量積血可偽陰，**血流動力學穩定者連續追蹤**可提高敏感度。[^3]
 - **無法可靠偵測**：實質器官撕裂分級、**後腹腔**出血、中空臟器／腸繫膜損傷——這些是 FAST 盲區，**陰性不能排除損傷**。[^1][^5]
 - **影像品質限制**：肥胖、皮下氣腫、**腸氣**遮蔽、操作者依賴。[^1][^3]
 - **偽陽性**：腹水、腹膜透析液、VP shunt 流出、卵巢囊腫破裂／多囊卵巢、大量輸液致漏出液；育齡女性 Douglas pouch **≤50 mL 為生理性**，創傷情境 >50 mL 才視為病理。[^3]
 - **腹部偽陽性 mimic**：**腎周脂肪（perinephric fat）**撐開肝腎／脾腎介面，呈「double-line（雙線）」徵易誤判為游離液或被膜下血腫。[^3]
 - **心包偽陽性 mimic**：**心包脂肪墊（pericardial fat pad）**——具內部回音、僅見於**前方（淺層）**、不隨心動週期變形，勿誤為積液；真心包液應位於降主動脈**前方**繞行。[^3]
+
+## 延伸應用：IVC 評估容積狀態
+- 部分創傷中心會延伸 FAST，於呼吸週期評估 **下腔靜脈（IVC）**作為**非侵入性容積狀態評估**：吸氣時胸腔內負壓增加靜脈回流 → IVC 管徑縮小，呼氣時回復基礎值。[^1]
+- **正常呼氣 IVC 管徑約 1.5–2.5 cm**；容積正常者，吸氣時 IVC 塌陷至呼氣管徑的 **<50%**。[^1]
+- **Caval index（腔靜脈指數）＝[(呼氣管徑−吸氣管徑)/呼氣管徑]×100%**：**趨近 100% → 近乎完全塌陷，提示容積不足**；**趨近 0% → 幾乎不塌陷，提示容積過荷**。[^1]
+- **創傷情境簡化判讀**：IVC **管徑 <1.5 cm 且明顯塌陷 → 提示容積不足（hypovolemia）**；低血壓創傷病人中，**塌陷的 IVC 與較差預後相關**。可輔助鑑別低血容性 vs 心因性／神經性（分布性）休克——後兩者 IVC 常不塌陷甚至擴張。[^1]
 
 ## 與 CT 的角色分工
 - **FAST 的定位**：床邊即時分流工具，對**血流動力學不穩**創傷病人快速決策——陽性游離液＋低血壓 → **直送手術室／剖腹探查，不等 CT**。[^1][^3]
@@ -59,7 +66,7 @@ dateRev: 2026-06-29
 - 易混選項辨異：主動脈評估＝AAA 篩檢（另一協定）；肝實質損傷分級＝CT；肝/門靜脈血流＝Doppler 肝臟超音波——皆非 FAST 範疇。[^1]
 
 ### 參考來源
-[^1]: Richards JR, McGahan JP. *Focused Assessment with Sonography in Trauma (FAST) in 2017: What Radiologists Can Learn*. Radiology. 2017;283(1):30-48. https://doi.org/10.1148/radiol.2017160107 （實際查證 accessed 2026-06-14）。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Richards JR, McGahan JP. *Focused Assessment with Sonography in Trauma (FAST) in 2017: What Radiologists Can Learn*. Radiology. 2017;283(1):30-48. https://doi.org/10.1148/radiol.2017160107。重點：早期敏感度數據多以臨床結果而非 CT 為對照，首批與 CT 比較之研究顯示實質器官損傷敏感度僅約 63%；延伸應用可評估 IVC 呼吸變異度作容積狀態評估（caval index、正常呼氣管徑 1.5–2.5 cm、<50% 塌陷為正常容積、<1.5 cm 明顯塌陷提示容積不足、塌陷 IVC 與低血壓創傷病人較差預後相關）。
 [^2]: *Focused Assessment with Sonography for Trauma (FAST) scan*. Radiopaedia.org（引 ACEP/AIUM emergency ultrasound guidelines；FAST 評估自由液體）（實際查證 accessed 2026-06-14）。
 [^3]: Tier 2。Bella FM, Bonfichi A, Savioli G, et al. *Extended Focused Assessment with Sonography for Trauma in the Emergency Department: A Comprehensive Review*. J Clin Med. 2025;14(10):3457. https://doi.org/10.3390/jcm14103457（PMC12112529；偵測門檻量、視窗低位點、氣胸/血胸徵象、生理性盆腔液與偽陽性 mimic；實際查證 accessed 2026-06-29）。
 [^4]: Tier 2。Chen H, et al. *Bedside ultrasonography for diagnosis of pneumothorax*. Quant Imaging Med Surg.（seashore/barcode/stratosphere sign、lung sliding、comet-tail、lung point 特異度近 100%；US vs CXR 偵測氣胸敏感度比較）；交叉佐證 ACEP SonoGuide *FAST*（https://www.acep.org/sonoguide/basic/fast）（實際查證 accessed 2026-06-29）。

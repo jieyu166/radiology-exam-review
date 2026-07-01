@@ -9,7 +9,7 @@ aliases:
   - posterior circulation ASPECTS
   - CTA-SI ASPECTS
   - 早期缺血 CT 評分
-dateRev: 2026-06-20
+dateRev: 2026-07-01
 up: "[[acute-stroke-management]]"
 ---
 
@@ -18,7 +18,10 @@ up: "[[acute-stroke-management]]"
 **ASPECTS 是 MCA 區域的 10 分量化評分,記憶關鍵是『倒扣制』:像考試從滿分 10 開始,每出現一個早期缺血的區域就扣 1 分。所以正常 CT＝10 分（不是 0）——這正是考試最愛挖的陷阱。** 判讀分水嶺一：**10→扣分制**（正常=10、全受累=0）；判讀分水嶺二：**10 區＝皮質 7 分（insula＋M1–M6）＋深部 3 分（caudate＋lentiform＋internal capsule）**。後循環另有 **pc-ASPECTS** 變體（區域與配分都不同,見下）。
 
 ## Summary
+- **設計緣由**：ASPECTS 誕生前，急性中風 CT 判讀常用「MCA 領域是否 >1/3 受累」作為 rt-PA 排除標準，但**目視估計 1/3 MCA 領域在實務上並不可靠**；ASPECTS 以**拓樸區域計分**取代此模糊估計，僅需軸位影像即可執行。[^6]
 - **範圍 0–10 分**；用於 **MCA 區域**急性中風（另有 posterior circulation 改良版 pc-ASPECTS）。[^1]
+- **判讀技術細節**：偵測早期灰白質分界消失（GWD loss，急性梗塞最早的 CT 徵象）建議採**窄窗（stroke window）：window width 8 HU、window level 32 HU**，可提升細微 GWD 喪失之偵測；**須加看冠狀與矢狀切面**，軸位上易忽略的腦溝出血徵象在其他切面較明顯。[^6]
+- **判讀盲點（易漏診部位）**：**顱頂端**（volume averaging）、**顳葉下方**（灰白質交界呈軸向走行）、**枕葉**（顱骨不規則輪廓致偽影）、**深部灰質尤其尾狀核頭**——island、caudate、basal ganglia 因側枝血流較差，早期變化常較明顯但也易受上述陷阱干擾。[^6]
 - **計分法**：起始 10 分，**每個受累區域 −1**；故**正常 CT＝10 分**、廣泛受累趨近 0。[^1]
 - **10 個區域**：[^1][^2]
   - **深部（3 分）**：caudate、lentiform（putamen）、internal capsule。
@@ -64,7 +67,7 @@ up: "[[acute-stroke-management]]"
 [^3]: Puetz V, Sylaja PN, Coutts SB, et al. *Extent of Hypoattenuation on CT Angiography Source Images Predicts Functional Outcome in Patients with Basilar Artery Occlusion*. Stroke. 2008;39(9):2485-2490. doi:10.1161/STROKEAHA.107.511162（pc-ASPECTS 原始研究；以 CTA-SI 評 BAO 低衰減範圍與預後）（實際查證 accessed 2026-06-20）。
 [^4]: *CT angiography source image ASPECTS (CTA-SI ASPECTS)*. Radiopaedia.org（實際查證 accessed 2026-06-20）：CTA 來源影像之 10 分 ASPECTS,直接顯示側枝循環、較佳界定急性期梗塞範圍。
 [^5]: Aviv RI, Mandelcorn J, Chakraborty S, et al. *Alberta Stroke Program Early CT Scoring of CT Perfusion in Early Stroke Visualization and Assessment*. AJNR Am J Neuroradiol. 2007;28(10):1975-1980. doi:10.3174/ajnr.A0689（CTP-ASPECTS）。
-[^6]: Potter CA, Vagal AS, Goyal M, Nunez DB, Leslie-Mazwi TM, Lev MH. *CT for Treatment Selection in Acute Ischemic Stroke: A Code Stroke Primer*. RadioGraphics. 2019;39(6). doi:10.1148/rg.2019190142（教學綜述；ASPECTS 分區、CTA 側枝、CTP core/mismatch）（實際查證 accessed 2026-06-20）。
+[^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Potter CA, Vagal AS, Goyal M, Nunez DB, Leslie-Mazwi TM, Lev MH. *CT for Treatment Selection in Acute Ischemic Stroke: A Code Stroke Primer*. RadioGraphics. 2019;39(6). doi:10.1148/rg.2019190142。重點：ASPECTS 設計緣由為取代不可靠之「目視估計 1/3 MCA 領域」判讀法；建議窄窗（8 HU/32 HU）偵測細微 GWD 消失、須加看冠狀矢狀切面；判讀盲點含顱頂端、顳葉下方、枕葉（骨偽影）、深部灰質／尾狀核頭；ASPECTS 亦為 CTA 側枝評估系統之一（與 Miteff、Maas、modified Tan scale 並列，無共識何者最佳）。
 [^7]: Nezu T, Koga M, Kimura K, et al. *Pretreatment ASPECTS on DWI Predicts 3-Month Outcome Following rt-PA: SAMURAI rt-PA Registry*. Neurology. 2010;75(6):555-561. doi:10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS 預後驗證；PubMed 實際查證 accessed 2026-06-20）。
 [^8]: e-ASPECTS（自動化軟體）驗證：Herweh C, Ringleb PA, Rauch G, et al. *Performance of e-ASPECTS Software in Comparison to That of Stroke Physicians on Assessing CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2016;11(4):438-445. doi:10.1177/1747493016632244；Nagel S, Sinha D, Day D, et al. *e-ASPECTS Software Is Non-Inferior to Neuroradiologists in Applying the ASPECT Score to CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2017;12(6):615-622. doi:10.1177/1747493016681020（PubMed 實際查證 accessed 2026-06-20）。
 
