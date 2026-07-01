@@ -53,12 +53,19 @@ dateRev: 2026-06-29
 - **Gerbode 缺損（左室—右房分流）**：膜周型延伸至房室部之變異，彩色都卜勒高速噴流位置偏房室交界。[^4]
 - **主動脈竇瘤破裂入右心**：可與 outlet 型分流混淆，需辨噴流起源於主動脈竇而非中隔。[^2]
 
+## Perimembranous defect 診斷特徵（2018-184）
+- **好發位置：subaortic（主動脈瓣下）**——膜周型缺損典型位於主動脈瓣正下方。[^6]
+- **纖維連續性（fibrous continuity）**：主動脈瓣與三尖瓣葉之間存在纖維連續，是膜周型缺損的診斷特徵之一（因缺損處缺乏肌肉分隔兩瓣）。[^6]
+- **膜部間隔殘餘（remnant of membranous septum）**：常在缺損後緣可見膜部間隔的殘餘組織，構成缺損的「屋頂」。[^6]
+- 上述三項（主動脈瓣下位置、主動脈-三尖瓣纖維連續、膜部間隔殘餘）皆為膜周型缺損的公認診斷特徵。
+
 ### 參考來源
 [^1]: *Ventricular septal defect*. Radiopaedia.org。分型依右心室視角之位置/邊界：perimembranous、inlet、muscular（trabecular）、outlet（juxta-arterial）；subarterial/juxta-arterial 型在肺動脈瓣下、常伴主動脈瓣脫垂（accessed 2026-06-15）。Tier 2（輔助）。
 [^2]: Rao PS. *Diagnosis and Management of Ventricular Septal Defects*. Reviews in Cardiovascular Medicine. 2024. DOI:10.31083/j.rcm2511411（PMC11607469）。VSD 佔先天性心臟病 20–25%；分型、Swiss cheese 多發肌部、inlet 與唐氏症、supracristal 主動脈瓣脫垂/AR、echo 第一線、CT/MRI 多屬非必要、CXR 心臟擴大及肺血管紋增加。Tier 2（PMC 全文）。
 [^3]: VSD 分型相對頻率：perimembranous 約 80%、muscular 約 5–20%、inlet（AV canal）約 5%、outlet/supracristal/subpulmonary 約 5–7%（東亞族群較高）；perimembranous 於 PSSA 大血管層面當主動脈瓣與三尖瓣可見時最易定位（多來源 consensus，含 The Society of Thoracic Surgeons cardiac eBook 與 echo 教材）。Tier 2。
 [^4]: *Ventricular septal defects*. Prague ICU echo content。Qp:Qs 分級（<1.5:1 小型、≥1.5:1 且 <2:1 中度、大型非限制性→肺高壓/逆轉）；膜周型約 10% 合併主動脈瓣脫垂、約 5% 合併 subaortic ridge、三尖瓣葉變形致逆流、膜部間隔瘤（accessed 2026-06-29）。Tier 2。
 [^5]: Cardiac MRI: Part 1, Cardiovascular Shunts. AJR Am J Roentgenol. 2011. DOI:10.2214/AJR.10.7257。相位對比速度編碼於升主動脈與主肺動脈分別量測 Qs、Qp 以計算 Qp/Qs 分流量；低分流或顯著瓣膜逆流時準確度受限。Tier 1（AJR）。
+[^6]: *Septal Atrioventricular Junction Region: Comprehensive Imaging in Adults.* RadioGraphics 2016;36:page 1966（2018 交換考題詳解 p.74 引用；Tier 1）。膜周型缺損診斷特徵含主動脈瓣下位置、主動脈-三尖瓣纖維連續、膜部間隔殘餘。
 
 ## 考題
 ```dataview

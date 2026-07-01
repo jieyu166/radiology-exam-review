@@ -23,8 +23,16 @@ dateRev: 2026-06-30
 > [!note] 考點：關於闌尾(appendix)，何者「為真」?
 > **Most commonly retrocecal（B）**——約65-70%病例闌尾位於盲腸後位。⚠️ 本題官方答案標示存疑（原C後改標B?），依解剖教材最支持的敘述為B（retrocecal最常見），建議醫師確認。Taeniae coli匯聚於根部但闌尾壁本身不含此構造（A宜審慎）、根部在迴盲瓣下方2-3cm而非直接指向其側（C不精確）、血供來自SMA非IMA（D錯）、具漿膜層（E錯）。[^1]
 
+## 闌尾神經內分泌腫瘤（NET）影像特徵（2018-187）
+- **常小型病灶**：平均直徑常 <1 cm，橫斷面影像不易偵測。
+- **好發位置**：**約 75% 位於闌尾遠端（distal appendix）**，**約 25% 位於闌尾根部（base）**，根部病灶可能因阻塞管腔而**引發闌尾炎**（約 40% 病例合併急性闌尾炎表現，為 NET 最常見的伴隨臨床表現）。
+- **典型影像表現**：常呈小型黏膜下腫塊或結節狀壁增厚。
+- **強化型態：典型為強烈強化（avidly enhancing），非弱強化**——「NETs 通常強化不佳並可含鈣化，酷似闌尾結石」為錯誤敘述，闌尾 NET 典型呈明顯（avid）強化。
+- **處置**：腫瘤 <1 cm 以闌尾切除術治療；1–2 cm 處置具爭議；>2 cm 因轉移風險顯著需行右半結腸切除術。
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology: Specialty Board Review, GI Section Ch.48, Section 4 GI tract, p.378：闌尾位置retrocecal(65-70%)>pelvic(25-30%)>pre/post-ileal(5%);根部位於迴盲瓣下方2-3cm;血供來自SMA;具漿膜層覆蓋。
+[^2]: *Neoplasms of the Appendix: Pictorial Review with Clinical and Pathologic Correlation.* RadioGraphics 2017;37:page 1060（2018 交換考題詳解 p.79 引用；Tier 1）。闌尾NET常<1cm；75%位於遠端、25%位於根部（可致闌尾炎，約40%合併急性闌尾炎）；典型呈avid強化而非弱強化；<1cm闌尾切除術、1-2cm具爭議、>2cm需右半結腸切除。
 
 ## 題目
 > [!question]- Concerning the appendix, which of the following is true? (2017-286)

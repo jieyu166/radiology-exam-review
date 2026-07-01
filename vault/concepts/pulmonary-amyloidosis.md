@@ -55,8 +55,15 @@ dateRev: 2026-06-14
 - **Fig 7**：nodular parenchymal pulmonary amyloidosis（masslike opacities）。
 - **Fig 8**：pulmonary amyloidosis 各型態。
 
+## 心臟＋氣管影像特徵（2018-185）
+- **心臟類澱粉沉積：延遲顯影型態以瀰漫性、心內膜下或跨壁延遲增強最典型**——非侷限性/節段性型態，此為心臟 MRI 判讀 amyloidosis 的核心特徵。
+- **肺實質**：結節型類澱粉沉積可表現為單一或多發肺結節（見上）。
+- **胸部分布**：以基底與周邊肺野為主。
+- **氣管：通常「不」出現長節段氣管狹窄/增厚**——與氣管支氣管型類澱粉沉積典型呈環狀壁增厚不同，本題來源強調長節段氣管「狹窄」並非典型必見表現，此為本題錯誤選項所在。
+
 ### 參考來源
 [^1]: Sugi MD, Kawashima A, Salomao MA, Bhalla S, Venkatesh SK, Pickhardt PJ. *Amyloidosis: Multisystem Spectrum of Disease with Pathologic Correlation*. RadioGraphics. 2021;41(5). https://doi.org/10.1148/rg.2021210006 （本機 PDF 實際查證 accessed 2026-06-14）。
+[^7]: *Amyloidosis: Modern Cross-sectional Imaging.* RadioGraphics 2015;35:page 1382（2018 交換考題詳解 p.77 引用；Tier 1）。結節型肺類澱粉可呈單/多發肺結節；心臟延遲增強以瀰漫性/心內膜下或跨壁型態為主；基底與周邊肺野分布；長節段氣管狹窄非典型必見表現。
 
 > [!question]- 關於 pulmonary amyloidosis,何者「不」正確? (2017-152)
 > **以上皆正確（D）**——amyloid 偏光顯微鏡有 birefringence、可侵犯氣管支氣管樹與肺實質、結節型約 30-50% 鈣化,三者皆正確。[^1]

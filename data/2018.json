@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 183,
+  "totalQuestions": 189,
   "questions": [
     {
       "id": "2018-001",
@@ -6645,6 +6645,228 @@
       "images": [],
       "concepts": [
         "cardiac-ct-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-184",
+      "year": 2018,
+      "number": 184,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "The diagnostic characteristics of perimembranous defects include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A subaortic location"
+        },
+        {
+          "letter": "B",
+          "text": "Fibrous continuity between the leaflets of the aortic and tricuspid valves"
+        },
+        {
+          "letter": "C",
+          "text": "The presence of a membranous septum remnant at the posterior aspect of the defect"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.74；Septal Atriventricular Junction Region: Comprehensive Imaging in Adults. RadioGraphics 2016;36:page 1966.",
+      "explanation": "膜周型缺損診斷特徵含主動脈瓣下位置、主動脈-三尖瓣纖維連續、膜部間隔殘餘，皆為正確敘述。\n\n見 [[vsd-types]]",
+      "images": [],
+      "concepts": [
+        "vsd-types"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-185",
+      "year": 2018,
+      "number": 185,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the imaging characteristics of amyloidosis is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nodular parenchymal amyloidosis may manifest as solitary or multiple pulmonary nodules."
+        },
+        {
+          "letter": "B",
+          "text": "The predominant late gadolinium enhancement pattern in amyloidosis is diffuse, subendocardial or transmural delayed enhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Basal and peripheral lung predominance."
+        },
+        {
+          "letter": "D",
+          "text": "Usually, long segment tracheal widening is encountered at imaging."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.77；Amyloidosis: Modern Cross-sectional Imaging. RadioGraphics 2015;35:page 1382.",
+      "explanation": "長節段氣管狹窄（非增寬）並非典型必見表現；其餘（結節型肺侵犯、心臟瀰漫性/心內膜下或跨壁延遲增強、基底周邊肺分布）皆為正確敘述。\n\n見 [[pulmonary-amyloidosis]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-amyloidosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-186",
+      "year": 2018,
+      "number": 186,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "When using contrast-enhanced US to approach focal liver mass, which of the following will have \"portal venous or late phase washout\"?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangioma"
+        },
+        {
+          "letter": "B",
+          "text": "Focal nodular hyperplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Cholangiocarcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Abscess"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.78；Contrast-enhanced US Approach to the Diagnosis of Focal Liver Masses. RadioGraphics 2017;37:page 1391.",
+      "explanation": "Cholangiocarcinoma 屬非肝細胞性惡性病灶，呈快速且強烈的門脈期/延遲期 washout；hemangioma 與 FNH 為良性持續強化。\n\n見 [[contrast-enhanced-ultrasound]]",
+      "images": [],
+      "concepts": [
+        "contrast-enhanced-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-187",
+      "year": 2018,
+      "number": 187,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Neuroendocrine tumors (NETs) of the appendix are often difficult to visualize at cross-sectional imaging. Which of the following is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Often small in size with a mean diameter of less than 1cm"
+        },
+        {
+          "letter": "B",
+          "text": "75% of NETs involve the distal appendix, while 25% occur at the base and may cause appendicitis."
+        },
+        {
+          "letter": "C",
+          "text": "The lesions typically manifest as small submucosal masses or nodular wall thickening."
+        },
+        {
+          "letter": "D",
+          "text": "NETs typically have poor enhancement and may contain calcifications, mimicking appendicoliths."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.79；Neoplasms of the Appendix: Pictorial Review with Clinical and Pathologic Correlation. RadioGraphics 2017;37:page 1060.",
+      "explanation": "闌尾 NET 典型呈明顯（avid）強化，非弱強化。\n\n見 [[appendix-anatomy]]",
+      "images": [],
+      "concepts": [
+        "appendix-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-188",
+      "year": 2018,
+      "number": 188,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not the factors influencing the development of extra-hepatic collateral arteries supplying HCC?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor size greater than 5cm"
+        },
+        {
+          "letter": "B",
+          "text": "Multifocal lesions"
+        },
+        {
+          "letter": "C",
+          "text": "Prior surgery"
+        },
+        {
+          "letter": "D",
+          "text": "Extrahepatic tumor infiltration"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.80；Chemoembolization of Hepatocellular Carcinoma with Extrahepatic Collateral Blood Supply: Anatomic and Technical Considerations. RadioGraphics 2017;37:page 964.",
+      "explanation": "多發病灶（multifocal lesions）並非肝外側枝動脈發展的公認因子；腫瘤>5cm、曾手術、肝外浸潤皆為公認因子。\n\n見 [[tace]]",
+      "images": [],
+      "concepts": [
+        "tace"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-189",
+      "year": 2018,
+      "number": 189,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the advantages for CT imaging in infective endocarditis is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "When prosthetic material, central lines or devices are present"
+        },
+        {
+          "letter": "B",
+          "text": "Complex infections with air or gas"
+        },
+        {
+          "letter": "C",
+          "text": "Coronary evaluation or mycotic aneurysms"
+        },
+        {
+          "letter": "D",
+          "text": "Complete hemodynamic imaging or repeated follow-up imaging"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.76；Infectious Diseases of the Heart: Pathophysiology, Clinical and Imaging Overview. RadioGraphics 2016;36:page 981.",
+      "explanation": "完整血流動力學評估或重複追蹤影像是 MRI（而非 CT）在感染性心內膜炎的角色；人工材料存在、含氣感染、冠脈/黴菌性動脈瘤評估皆為 CT 之優勢情境。\n\n見 [[cardiac-infection-imaging]]",
+      "images": [],
+      "concepts": [
+        "cardiac-infection-imaging"
       ],
       "checked": false
     }

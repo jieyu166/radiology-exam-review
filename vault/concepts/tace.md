@@ -48,6 +48,13 @@ up: "[[bclc-hcc]]"
 ## 療效（vs 全身化療、藥物選擇、門脈血栓）
 - **TACE 較全身輸注化療顯著延長存活**：不可切除 HCC 中 TACE 治療組中位存活較全身化療組長（來源引 J Vasc Interv Radiol 2005;16:1653-9 之比較數據）；「TACE 是唯一治療選項」為錯誤選項（尚有手術、消融、全身治療、移植等）；「療效主要取決於所用藥物種類」與「門脈血栓會提升 TACE 療效」亦非正確敘述——門脈血栓反而是相對禁忌（見上）。（2018 交換考題詳解 p.11）[^8]
 
+## HCC 肝外側枝供血動脈的發展因子（2018-188）
+- **促進肝外側枝（extrahepatic collateral, EHC）動脈發展的因子**：**腫瘤大小 >5 cm**、腫瘤位於**肝裸區（bare area）**、**曾接受 TACE**、**曾接受手術**、**外突性（exophytic）腫瘤**、**肝外腫瘤浸潤**。[^9]
+- **多發病灶（multifocal lesions）本身並非** EHC 發展的公認因子——因子清單聚焦於單一腫瘤的大小/位置/外觀與治療史，而非病灶數目。
+
+### 參考來源
+[^9]: *Chemoembolization of Hepatocellular Carcinoma with Extrahepatic Collateral Blood Supply: Anatomic and Technical Considerations.* RadioGraphics 2017;37:page 964（2018 交換考題詳解 p.80 引用；Tier 1）。EHC 動脈發展因子含腫瘤>5cm、肝裸區位置、曾TACE、曾手術、外突性腫瘤、肝外浸潤；多發病灶非公認因子。
+
 ## 判讀陷阱
 - **碘油偽影**：CT 上碘油高密度會**遮蔽底下強化**，亦造成 beam-hardening 偽影；勿把「碘油緻密沉積」直接當「完全壞死」，亦勿把碘油密度誤判為存活腫瘤——存疑改 MRI 減影。[^3][^5]
 - **良性炎性邊緣（benign periablational/inflammatory rim）vs 結節狀強化**：治療後周邊可見**薄、平滑、連續的環狀強化**（炎性/肉芽組織反應），可持續 >1 年，**無 washout**＝良性；**厚、不規則、結節狀邊緣強化且有 washout**＝存活殘餘腫瘤。形態（平滑 vs 結節/不規則）與是否 washout 為關鍵分辨點。[^3][^5]
