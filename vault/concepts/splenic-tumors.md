@@ -7,7 +7,7 @@ aliases:
   - splenic neoplasms
   - splenic lymphoma
   - 脾臟腫瘤
-dateRev: 2026-06-28
+dateRev: 2026-07-01
 ---
 
 # splenic-tumors
@@ -41,6 +41,7 @@ dateRev: 2026-06-28
 | **Lymphangioma**[^4] | 多發/多房 | **多房、薄壁、被膜下**囊性；T1 低、**T2 高**；僅薄分隔強化，分隔可鈣化 | 多房結構＋纖維分隔；先天性 |
 | **Epidermoid（true）cyst**[^5] | 單發 | 邊界清、單房、**無強化**薄壁；T1 低、**T2 極高**；壁鈣化少見 | **有上皮襯裡**；好發年輕女性；壁鈣化不明顯 |
 | **Pseudocyst（假性囊腫）**[^5] | 單發 | 無強化；**約 50% 有壁鈣化**、壁較厚、可含內部碎屑/分隔 | **無上皮襯裡**；外傷/感染/梗塞史；周邊鈣化＋厚壁是線索 |
+| **Echinococcal（hydatid）cyst**（*E. granulosus* 絛蟲）[^6] | 單發（少數多房） | 單房囊腫內含多發周邊**daughter cyst**（子囊，「一串葡萄」外觀）；囊內**hydatid sand（水囊砂／濃縮母體液）呈相對高衰減碎屑、不強化** | 脾侵犯占 hydatid disease 之 0.9–8%（多續發於肝囊腫破裂全身/腹腔散播）；WHO 分型 1–4 型（含鈣化型、破裂/續發感染型），破裂率高達 50–90%；不強化之囊內碎屑可與多房性淋巴管瘤區分 |
 
 > [!tip] Epidermoid cyst vs Pseudocyst
 > 兩者 CT 皆為邊界清的低密度、無強化。**真性（epidermoid）cyst**：壁薄平滑、年輕、鈣化少；**假性囊腫**：壁厚常含周邊鈣化、有外傷/梗塞史、內部碎屑。[^5]
@@ -56,12 +57,16 @@ dateRev: 2026-06-28
 > [!tip] 加分鑑別：SANT（spoke-wheel）
 > Sclerosing angiomatoid nodular transformation 為良性，呈**特徵性「輪輻狀（spoke-wheel）」強化**：周邊環狀早期強化 + 放射狀漸進向心強化，中央纖維 T2 低訊號——可與惡性區分。[^4]
 
+> [!tip] 加分鑑別：Inflammatory pseudotumor（IPT）
+> **罕見**反應性腫瘤樣病灶，脾臟為少見部位；**與 EBV 感染密切相關**（IPT-like follicular dendritic cell tumor 為最常見之 EBV 相關亞型）；好發中老年；巨觀為邊界清楚黃白／棕色實質腫塊，可伴壞死/出血/硬化；臨床可無症狀或伴貧血、血小板減少、高丙球蛋白血症與發炎指數上升——影像特異性有限，須與淋巴瘤等惡性鑑別。[^6]
+
 ### 參考來源
 [^1]: *Splenic lymphoma*. Radiopaedia.org。脾淋巴瘤為**脾臟最常見惡性**、多為續發、原發罕見（實際查證 accessed 2026-06-15；Radiopaedia 文章頁，免費）。
 [^2]: 標準脾臟腫瘤教學：hemangioma 為最常見良性；epidermoid(true) cyst 有上皮襯裡、pseudocyst 源於外傷/感染/梗塞；splenic hamartoma 可伴血液學異常（題目所引 *Radiology Review Manual* 7th ed, p.657 等；A/C/D 為標準教學）。
-[^3]: *Algorithmic Approach to the Splenic Lesion Based on Radiologic-Pathologic Correlation*. RadioGraphics 2022; rg.210071（正常脾斑紋狀強化、囊性vs實性→強化→數目→臨床的判讀流程；摘要與全文頁，pubs.rsna.org，須訂閱/機構登入，本概念僅引摘要層級可查證內容）。
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** *Algorithmic Approach to the Splenic Lesion Based on Radiologic-Pathologic Correlation*. RadioGraphics 2022; rg.210071。正常脾斑紋狀強化、囊性vs實性→強化→數目→臨床的判讀流程。
 [^4]: *Multimodality Imaging Features of Various Splenic Lesions: Clinical and Histopathologic Correlation*. PMC11625836（各病灶 CT/MRI 強化型態、數目、訊號、鈣化與 DDx 線索；PMC 開放全文，免費，accessed 2026-06-28）。
 [^5]: 脾囊性病灶：epidermoid(true) cyst 薄壁無強化、壁鈣化少、好發年輕女性；pseudocyst 無上皮襯裡、約 50% 壁鈣化、厚壁含碎屑、外傷/梗塞史。綜整自 *Epidermoid cyst of the spleen*（PMC3670013，免費全文）與 *Calcified Splenic Lesions*（AJR 2020，AJR online PDF，須訂閱/機構登入，僅引摘要層級）；accessed 2026-06-28。
+[^6]: 同 [^3]（RadioGraphics 2022 rg.210071，全文已讀）：**Echinococcal cyst**——脾侵犯占 hydatid disease 0.9–8%，多續發於肝囊腫破裂之全身/腹腔散播；daughter cyst「一串葡萄」外觀、hydatid sand 不強化碎屑；WHO 分型 1–4、破裂率 50–90%。**Inflammatory pseudotumor**——罕見、與 EBV 密切相關（IPT-like FDC tumor 為最常見亞型）、好發中老年、可伴血液學/發炎指數異常。
 
 ## 考題
 ```dataview
