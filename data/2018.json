@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 243,
+  "totalQuestions": 248,
   "questions": [
     {
       "id": "2018-001",
@@ -3528,10 +3528,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.139；Applied Radiological Anatomy: The renal tract and retroperitoneum chapter.",
       "explanation": "A: Female:Male ~ 2:1\nB: renal cortical scarring generally overlies the pyramids.\nD: lower position",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "urinary-tract-congenital-anomalies"
+      ],
       "checked": false
     },
     {
@@ -4513,10 +4515,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.138；Applied Radiological Anatomy: The renal tract and retroperitoneum chapter.",
       "explanation": "They form individual arcs which do not anastomose.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-vascular-anatomy"
+      ],
       "checked": false
     },
     {
@@ -8917,6 +8921,212 @@
       "images": [],
       "concepts": [
         "chronic-cholecystitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-244",
+      "year": 2018,
+      "number": 244,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about ultrasound of the kidney is incorrect.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autosomal dominant polycystic kidney disease has a characteristic sonographic appearance of enlarged kidneys with multiple cysts of variable sizes."
+        },
+        {
+          "letter": "B",
+          "text": "Simple cysts have characteristic features of well-defined, anechoic round structures that produce posterior acoustic enhancement.."
+        },
+        {
+          "letter": "C",
+          "text": "Typical sonographic appearance of an angiomyolipoma is a well-defined echogenic mass within the renal cortex."
+        },
+        {
+          "letter": "D",
+          "text": "If an echogenic mass has a hypoechoic halo, AML is more likely than RCC."
+        },
+        {
+          "letter": "E",
+          "text": "RCC can be solid or cystic in ultrasound"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.136；Problem solving in Abdominal imaging, 1st Edition. Chapter 1, Page 25-29.",
+      "explanation": "超音波上迴音性腫塊若合併「低迴音暈輪(hypoechoic halo)」，「腎細胞癌(RCC)較AML更可能」（非AML較可能），此敘述錯誤——低迴音暈輪常反映假包膜(pseudocapsule)或周圍壓迫之腎實質，為RCC較常見之特徵。體染色體顯性多囊腎典型表現、單純囊腫特徵、AML典型呈腎皮質內邊界清楚迴音性腫塊、RCC可為實質性或囊性，皆為正確描述。\n\n見 [[renal-angiomyolipoma]]",
+      "images": [],
+      "concepts": [
+        "renal-angiomyolipoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-245",
+      "year": 2018,
+      "number": 245,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cocaine is the hallmark drug well known for producing both ischemic stroke and intracranial hemorrhage."
+        },
+        {
+          "letter": "B",
+          "text": "The practice of cocaine inhalation is called \"chasing the dragon.\""
+        },
+        {
+          "letter": "C",
+          "text": "Heroin is the hallmark drug associated with leukoencephalopathy."
+        },
+        {
+          "letter": "D",
+          "text": "The key to differentiating heroin-induced leukoencephalopathy from other mimics is involvement of the cerebellum in a clinically nonhypertensive patient."
+        },
+        {
+          "letter": "E",
+          "text": "Alcohol can cause loss of both grey and white matter of brain."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.137；RadioGraphics 2012;32:701-719.",
+      "explanation": "「Chasing the dragon」一詞指的是「海洛因(heroin)」吸入之施用方式，並非古柯鹼(cocaine)，故本敘述錯誤。古柯鹼可致缺血性中風與腦內出血、海洛因為leukoencephalopathy之代表藥物、海洛因白質病變鑑別關鍵為非高血壓病人合併小腦侵犯、酒精可致灰質與白質皆流失，皆為正確描述。\n\n見 [[toxic-metabolic-leukoencephalopathy]]",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-leukoencephalopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-246",
+      "year": 2018,
+      "number": 246,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcineurin inhibitors can cause posterior reversible encephalopathy syndrome (PRES)"
+        },
+        {
+          "letter": "B",
+          "text": "Cocaine and amphetamines can cause PRES as well"
+        },
+        {
+          "letter": "C",
+          "text": "The side effects of phenytoin include skull bone thinning and cerebellar atrophy"
+        },
+        {
+          "letter": "D",
+          "text": "Subacute combined degeneration of spinal cord can be caused by nitrous oxide during dental procedures"
+        },
+        {
+          "letter": "E",
+          "text": "The complications of long-term total parenteral nutrition mainly are due to deposition of manganese"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.137；RadioGraphics 2012;32:701-719.",
+      "explanation": "苯妥英(phenytoin)之副作用包含顱骨「增厚(hyperostosis)」而非「變薄(thinning)」，合併小腦萎縮，故本敘述錯誤。鈣調神經磷酸酶抑制劑可致PRES、古柯鹼與安非他命亦可致PRES、牙科手術使用笑氣可致脊髓亞急性合併退化、長期全靜脈營養併發症主因為錳沉積，皆為正確描述。\n\n見 [[toxic-metabolic-leukoencephalopathy]]",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-leukoencephalopathy",
+        "pres"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-247",
+      "year": 2018,
+      "number": 247,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement about the kidney is false?\nA. The columns of Bertin extend medially within the substance of the kidney separating the medulla into pyramids.\nB. The renal arteries arise from the aorta at the superior margin of L2.\nC. Compound calyces are less efficient at preventing intrarenal reflux of urine.\nD. The right kidney is usually larger by about 1.5cm than the left kidney.\nE. The right renal artery is posterior to the inferior vena cava.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The columns of Bertin extend medially within the substance of the kidney separating the medulla into pyramids."
+        },
+        {
+          "letter": "B",
+          "text": "The renal arteries arise from the aorta at the superior margin of L2."
+        },
+        {
+          "letter": "C",
+          "text": "Compound calyces are less efficient at preventing intrarenal reflux of urine."
+        },
+        {
+          "letter": "D",
+          "text": "The right kidney is usually larger by about 1.5cm than the left kidney."
+        },
+        {
+          "letter": "E",
+          "text": "The right renal artery is posterior to the inferior vena cava."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.138；Applied Radiological Anatomy: The renal tract and retroperitoneum chapter.",
+      "explanation": "正常腎臟頭尾徑約9-13公分，「左」腎本質上較右腎大約0.5公分（非右腎較左腎大1.5公分），男性腎臟略大於女性，故本敘述錯誤。Columns of Bertin向內延伸分隔髓質成錐體、腎動脈於L2上緣起源於主動脈、複合腎盞較不易防止腎內尿液逆流、右腎動脈位於下腔靜脈後方，皆為正確描述。\n\n見 [[renal-anatomy-imaging]]",
+      "images": [],
+      "concepts": [
+        "renal-anatomy-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-248",
+      "year": 2018,
+      "number": 248,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement about the renal tract is wrong?\nA. Perirenal fat allows the renal outline to be seen on plain radiographs.\nB. A high kV radiograph optimizes the detection of calcification.\nC. The ureters are projected over the tips of the transverse processes of L2 to L5.\nD. On computed tomography, the renal upper pole is posterior to the lower pole.\nE. Prone views aid mid ureteric filling during IVP examination.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Perirenal fat allows the renal outline to be seen on plain radiographs."
+        },
+        {
+          "letter": "B",
+          "text": "A high kV radiograph optimizes the detection of calcification."
+        },
+        {
+          "letter": "C",
+          "text": "The ureters are projected over the tips of the transverse processes of L2 to L5."
+        },
+        {
+          "letter": "D",
+          "text": "On computed tomography, the renal upper pole is posterior to the lower pole."
+        },
+        {
+          "letter": "E",
+          "text": "Prone views aid mid ureteric filling during IVP examination."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.139；Applied Radiological Anatomy: The renal tract and retroperitoneum chapter.",
+      "explanation": "偵測鈣化應使用「低kV」攝影（非高kV），高kV會降低腎實質對比，故本敘述錯誤。腎周脂肪使腎輪廓可於平片顯示、輸尿管投影於L2-L5橫突尖端、CT上腎上極較下極偏後、俯臥姿勢有助IVP檢查中段輸尿管充盈，皆為正確描述。\n\n見 [[renal-anatomy-imaging]]",
+      "images": [],
+      "concepts": [
+        "renal-anatomy-imaging"
       ],
       "checked": false
     }
