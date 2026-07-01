@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 173,
+  "totalQuestions": 178,
   "questions": [
     {
       "id": "2019-001",
@@ -6315,6 +6315,191 @@
       "images": [],
       "concepts": [
         "invasive-lobular-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-174",
+      "year": 2019,
+      "number": 174,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following imaging findings of ascites is the most suggestive of a malignant etiology?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Large volume of ascites."
+        },
+        {
+          "letter": "B",
+          "text": "Loculation of ascitic fluid."
+        },
+        {
+          "letter": "C",
+          "text": "High-attenuation ascites."
+        },
+        {
+          "letter": "D",
+          "text": "Hemorrhagic ascites."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2009 Mar-Apr;29(2):347-373, p.352",
+      "explanation": "正確答案為 **B**。腹水呈局限化/分隔化為惡性腹水較特異的影像徵象；大量腹水、高密度腹水、出血性腹水皆可見於良性病因，特異度較低。詳見 [[ascites-malignant-imaging]]。",
+      "images": [],
+      "concepts": [
+        "ascites-malignant-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-175",
+      "year": 2019,
+      "number": 175,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Accumulation of what substance in hepatocellular nodules results in so-called siderotic nodules?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iron."
+        },
+        {
+          "letter": "B",
+          "text": "Fat."
+        },
+        {
+          "letter": "C",
+          "text": "Manganese."
+        },
+        {
+          "letter": "D",
+          "text": "Copper."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Radiographics. 2009 Jan-Feb;29(1):211-229, p.216",
+      "explanation": "正確答案為 **A**。肝細胞結節內鐵的異常沉積累積形成含鐵結節。詳見 [[siderotic-nodules-liver]]。",
+      "images": [],
+      "concepts": [
+        "siderotic-nodules-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-176",
+      "year": 2019,
+      "number": 176,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements best describes Budd-Chiari syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is defined as a lobar or segmental portal venous outflow obstruction."
+        },
+        {
+          "letter": "B",
+          "text": "In Asians, it is most commonly caused by thrombosis."
+        },
+        {
+          "letter": "C",
+          "text": "It is more common in women than in men."
+        },
+        {
+          "letter": "D",
+          "text": "In the chronic disease phase, the liver has a normal morphologic appearance."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiographics. 2008 Nov-Dec;28(6):1967-1982, p.1968",
+      "explanation": "正確答案應為 **C**。Budd-Chiari症候群女性較男性常見（西方文獻約52-69%）。⚠️ 官方詳解印刷答案標示A，但原文定義為「肝靜脈（非門靜脈）流出道阻塞」，選項A用詞有誤；選項B方向亦顛倒（西方族群才是血栓為主要病因，亞洲以膜狀阻塞為重要病因）；選項D「慢性期肝臟型態正常」亦存疑。暫依邏輯改記C為正確答案，建議醫師覆核原始答案卷。詳見 [[budd-chiari-syndrome]]。",
+      "images": [],
+      "concepts": [
+        "budd-chiari-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-177",
+      "year": 2019,
+      "number": 177,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Each of the following anatomic locations is a watershed area that directs the flow of intraperitoneal fluid except ______.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transverse mesocolon."
+        },
+        {
+          "letter": "B",
+          "text": "Small bowel mesentery."
+        },
+        {
+          "letter": "C",
+          "text": "Greater omentum."
+        },
+        {
+          "letter": "D",
+          "text": "Sigmoid mesocolon."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiographics. 2009 Mar-Apr;29(2):347-373, p.348",
+      "explanation": "正確答案為 **C**。大網膜並非引導腹膜液流方向的分水嶺構造；橫結腸繫膜、小腸繫膜、乙狀結腸繫膜皆為分水嶺構造。詳見 [[peritoneal-fluid-watershed-areas]]。",
+      "images": [],
+      "concepts": [
+        "peritoneal-fluid-watershed-areas"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-178",
+      "year": 2019,
+      "number": 178,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements best describes the clinical and pathologic features of pseudomyxoma peritonei?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a distinct pathologic diagnosis."
+        },
+        {
+          "letter": "B",
+          "text": "It develops from low-grade mucinous carcinomas of the appendix."
+        },
+        {
+          "letter": "C",
+          "text": "It has a worse prognosis compared with that of peritoneal mucinous carcinomatosis."
+        },
+        {
+          "letter": "D",
+          "text": "It occurs more commonly in men than women."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2009 Mar-Apr;29(2):347-373",
+      "explanation": "正確答案為 **B**。Pseudomyxoma peritonei多源自闌尾低惡性度黏液性腫瘤破裂播種（peritoneal adenomucinosis）。其為臨床-影像症候群而非單一病理診斷、預後優於腹膜黏液性癌病（HAMN/mucinous carcinoma）、女性略多於男性（非男性較常見）。詳見 [[pseudomyxoma-peritonei]]。",
+      "images": [],
+      "concepts": [
+        "pseudomyxoma-peritonei"
       ],
       "checked": false
     }
