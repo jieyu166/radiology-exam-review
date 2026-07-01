@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 275,
+  "totalQuestions": 277,
   "questions": [
     {
       "id": "2016-001",
@@ -10242,6 +10242,80 @@
       "images": [],
       "concepts": [
         "budd-chiari-syndrome"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-276",
+      "year": 2016,
+      "number": 276,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the \"wrong\" statement of normal breast anatomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The fibrous strands that extend from the deep dermis into the underlying breast tissue is called suspensory ligaments of Cooper."
+        },
+        {
+          "letter": "B",
+          "text": "The breast consists of 5 to 10 lobes, each emptying into a separate major duct terminating in the nipple."
+        },
+        {
+          "letter": "C",
+          "text": "The lobule is the functional unit of the breast. Historically, it is composed of terminal ducts and acini."
+        },
+        {
+          "letter": "D",
+          "text": "The tissue composition is important because is correlates with the ability of mammography to detect lesions in the breast."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Breast Imaging (Bassett et al.), p.224-226",
+      "explanation": "**乳房由15-25個腺葉(lobes)組成**（非5-10個），各自匯入獨立的主乳管終於乳頭，故(B)為非。\n\n(A) 對：Cooper氏韌帶，深真皮延伸入乳房組織之纖維束。\n(B) **錯（正解）**：官方訂正為15-25個腺葉（非5-10個）。\n(C) 對：小葉為乳房功能單位，由終末導管與腺泡組成。\n(D) 對：組織組成影響乳房攝影偵測病灶之能力。\n\n→ [[breast-normal-anatomy]]",
+      "images": [],
+      "concepts": [
+        "breast-normal-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-277",
+      "year": 2016,
+      "number": 277,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is the \"wrong\" statement of the invasive lobular carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Invasive lobular carcinoma is the most common type of breast malignancy."
+        },
+        {
+          "letter": "B",
+          "text": "Invasive lobular carcinoma most commonly presents as a spiculated or ill-defined mass on mammography, ultrasonography, and MRI."
+        },
+        {
+          "letter": "C",
+          "text": "There are mainly four variants of invasive lobular carcinoma: classic, signet ring, alveolar and pelomorphic."
+        },
+        {
+          "letter": "D",
+          "text": "The classic type invasive lobular carcinoma shows two types of histologic patterns; the linear and targetoid pattern."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Breast Imaging (Bassett et al.), p.496",
+      "explanation": "**ILC僅佔所有乳癌約5-10%**，最常見乳癌型態為invasive ductal carcinoma（IDC），非ILC，故(A)為非。\n\n(A) **錯（正解）**：ILC非最常見乳癌型態（IDC才是），ILC僅佔5-10%。\n(B) 對：最常見表現為spiculated或ill-defined mass。\n(C) 對：classic、signet ring、alveolar、pleomorphic為ILC主要型態與變異型。\n(D) 對：classic type呈linear與targetoid兩種組織型態，linear infiltrates環繞乳管周圍分布。\n\n→ [[invasive-lobular-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
       ],
       "checked": false,
       "years": [

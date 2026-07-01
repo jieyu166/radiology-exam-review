@@ -33,6 +33,9 @@ dateRev: 2026-07-01
 [^4]: Tier 2 — *The Shrinking Breast: An Unusual Mammographic Finding of Invasive Lobular Carcinoma*（PMC4895069，accessed 2026-06-29）：shrinking breast 徵象為較舊片乳腺組織體積減少,因惡性浸潤所致,須與舊片比對。
 [^5]: Tier 2 — *Invasive Lobular Carcinoma: A Review of Imaging Modalities with Special Focus on Pathology Concordance.* PMC10000992（accessed 2026-06-29）：mammography 敏感度 34–92%、可達 30% mammographically occult、大小低估可達 70%;US 敏感度 68–92%、低估大小 18–53%;MRI 敏感度多 >95%、偵測 multifocal/multicentric(88–91%)、約 1/3 病人偵測到額外病灶、降低再切除率。
 
+> [!question]- Which one is the "wrong" statement of the invasive lobular carcinoma? (2016-277)
+> **「ILC是最常見乳癌型態」為非（A）**——ILC僅佔所有乳癌約5-10%，最常見乳癌型態為invasive ductal carcinoma（IDC）。常呈spiculated/ill-defined mass、四種主要型態(classic/signet ring/alveolar/pleomorphic)、classic type呈linear與targetoid組織型態皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "invasive-lobular-carcinoma")
