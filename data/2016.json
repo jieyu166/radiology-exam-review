@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 273,
+  "totalQuestions": 275,
   "questions": [
     {
       "id": "2016-001",
@@ -10168,6 +10168,80 @@
       "images": [],
       "concepts": [
         "mammography-physics"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-274",
+      "year": 2016,
+      "number": 274,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about pancreatic cysts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudocysts account for 85% of inflammatory/infection cases"
+        },
+        {
+          "letter": "B",
+          "text": "Congenital pancreatic cysts are rare"
+        },
+        {
+          "letter": "C",
+          "text": "Serous cystadenoma is the most common cystic tumor in pancreas."
+        },
+        {
+          "letter": "D",
+          "text": "For Von Hippel-Lindau disease, renal involvement in all cases"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.691-692",
+      "explanation": "依官方詳解訂正，(C)敘述為非——官方將「serous」訂正為「mucinous cystadenoma為胰臟最常見囊性腫瘤」。\n\n(A) 對：胰臟假性囊腫佔發炎/感染相關囊性病灶約85%。\n(B) 對：先天性胰臟囊腫罕見。\n(C) **錯（正解）**：官方訂正為mucinous cystadenoma才是最常見胰臟囊性腫瘤。\n(D) 對：VHL病人腎臟受侵犯常見（>67%）。\n\n→ [[pancreatic-cystic-lesions]]\n\n> [!warning] 與文獻查證有出入，建議醫師覆核：多數放射文獻（如AJR/MDPI回顧）指出serous cystadenoma佔所有胰臟囊性病灶約16%，為最常見的良性胰臟囊性『腫瘤』（pseudocyst則為最常見胰臟囊性『病灶』整體，非腫瘤）；本題官方訂正將「serous」改為「mucinous」與此常見文獻敘述不同，可能為出題來源(Dahnert)特定段落定義差異或訂正誤植，暫依官方標記答案C為預設值。",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-275",
+      "year": 2016,
+      "number": 275,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about Budd-Chiari syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Budd-Chiari syndrome is a syndrome of global / segmental hepatic venous outflow obstruction."
+        },
+        {
+          "letter": "B",
+          "text": "CT showed \"flip-flop\" enhancement pattern"
+        },
+        {
+          "letter": "C",
+          "text": "Doppler ultrasound has 60% sensitivity and 65% specificity in diagnosing Budd-Chiari syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Female > Male"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.706-707",
+      "explanation": "**都卜勒超音波診斷Budd-Chiari症候群之敏感度實際約87.5%**（非60%），故(C)為非。\n\n(A) 對：定義為全域/節段性肝靜脈流出道阻塞。\n(B) 對：CT呈現「flip-flop」強化型態（尾狀葉早期強化、周邊肝實質延遲強化，隨病程可逆轉）。\n(C) **錯（正解）**：官方訂正敏感度應為約87.5%（非60%）。\n(D) 對：西方文獻女性多於男性（亞洲文獻則男性較多見）。\n\n→ [[budd-chiari-syndrome]]",
+      "images": [],
+      "concepts": [
+        "budd-chiari-syndrome"
       ],
       "checked": false,
       "years": [
