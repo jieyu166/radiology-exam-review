@@ -41,7 +41,7 @@ dateRev: 2026-06-29
 ### Ultrasound lexicon（US 對應軸）
 - **Shape**：oval／round／irregular（與 mammo 同邏輯，oval/round 偏良性）。[^3][^4]
 - **Orientation（方位，US 獨有且關鍵）**：**parallel（與皮膚平行、「寬大於高」wider-than-tall）偏良性;not parallel（不平行、taller-than-wide）為可疑**。[^3][^4]
-- **Margin**：circumscribed（偏良性）;indistinct／angular／microlobulated／spiculated 為可疑。[^3][^4]
+- **Margin**：circumscribed（偏良性）;indistinct／angular／microlobulated／spiculated 為可疑。**「obscured」為乳房攝影專用詞、非超音波 margin lexicon 用語**（2019交換）。[^3][^4]
 - **Echo pattern（內部回音）**：anechoic、hyperechoic、isoechoic、hypoechoic、heterogeneous、complex cystic and solid;**echo pattern 良惡鑑別力相對弱、不可單獨定良惡**。[^3][^4]
 - **Posterior features（後方回音特徵）**：**enhancement（後方增強）偏良性（含囊腫）;shadowing（後方聲影）較可疑**（但特異度有限，纖維化／某些良性也可有聲影);另有 no posterior features 與 combined pattern。[^3][^4]
 

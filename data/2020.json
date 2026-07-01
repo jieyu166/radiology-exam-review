@@ -4183,6 +4183,7 @@
       "year": 2020,
       "number": 118,
       "years": [
+        2019,
         2020
       ],
       "subspecialty": "NR",
@@ -4207,10 +4208,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "",
+      "reference": "2019/2020 交換考詳解；Osborn's Brain, 2nd ed, p.1149-1151; Brain 2017;140:344-352",
+      "explanation": "正確答案為 **B**（錯誤敘述）。SIH 病人因腦幹下沉（sagging brain），中腦-橋腦夾角（midbrain-pons angle）應**縮小（narrowing，<50° 提示顱內低壓）**，而非增大。夾角縮小可預測對 blood patch 治療反應不佳；瀰漫性硬腦膜強化為常見表現；ICHD-3 診斷需低 CSF 壓力測量值及/或影像 CSF 滲漏證據。詳見 [[spontaneous-intracranial-hypotension]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "spontaneous-intracranial-hypotension"
+      ],
       "checked": false
     },
     {

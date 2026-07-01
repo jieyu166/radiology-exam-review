@@ -29,6 +29,7 @@ dateRev: 2026-06-30
 > [!note] category 3 短期追蹤的判讀邏輯
 > 哪些影像表現「合格」當 category 3 是考點核心:**乳房攝影**——無鈣化且邊緣清晰的實質腫塊(不可觸及)、成簇圓形/點狀鈣化、無可疑特徵的局部不對稱;**超音波**——平行走向、邊緣清晰的卵圓形實質腫塊、孤立的複雜囊腫(complicated cyst,均勻低回音)、小或深的群聚微囊腫。**追蹤排程 6/12/24 個月**的邏輯:用時間換取「穩定性」這個良性證據,穩定者降為 2,可省去大量良性病灶的切片而不降低癌偵測率。[^2][^4]
 > **不該用 category 3 的情境**:未完成診斷性檢查的純篩檢片、可觸及病灶或臨床有疑慮、高風險族群(BRCA、懷孕哺乳)、或任何具可疑特徵者——後者應直接進 category 4。[^2]
+> **陷阱（2019交換）**：超音波上「**round**（圓形）、circumscribed solid mass」**不合格**當 category 3——合格描述須為 **oval**（卵圓形）、circumscribed、parallel 之實質腫塊；round 為較不典型形狀，不應直接視為 category 3。[^5]
 
 > [!note] 考點：哪一分類機率敘述「錯誤」?
 > 「**category 3 ≤3%**」**錯誤**——應為**≤2%**。category 2 ~0%、4a ≤~10%(2–9%)、4b 10–50%(10–49%)、5 ≥95% 皆對。[^1][^2]
@@ -38,6 +39,7 @@ dateRev: 2026-06-30
 [^2]: Fazeli S, Stepenosky J, Guirguis MS, et al. *Understanding BI-RADS Category 3*. RadioGraphics. 2024;45(1). https://doi.org/10.1148/rg.240169 ——category 3 定義（≤2%）、合格影像表現、6/12/24 個月（可延 36 個月）追蹤排程、不適用情境。開放摘要層級已讀，全文未讀。
 [^3]: *Breast Imaging Reporting and Data System (BI-RADS)*. StatPearls, NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK459169/ ——分類 0–6 定義與各級處置（常規篩檢／切片／治療規劃），category 0 須加做影像或調舊片。開放全文已讀。
 [^4]: *BI-RADS*. Radiopaedia.org（accessed 2026-06-30）：「BI-RADS 3: probably benign **<2%**;BI-RADS 4: 2–95%（4A 2–9%、4B 10–49%、4C 50–94%）;BI-RADS 5: **>95%**」。輔助來源。
+[^5]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140：category 3 合格超音波表現含 oval、circumscribed、parallel 之實質腫塊、孤立複雜囊腫、群聚微囊腫；round shape 之實質腫塊不列入合格描述。
 
 ## 考題
 ```dataview

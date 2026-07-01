@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 108,
+  "totalQuestions": 117,
   "questions": [
     {
       "id": "2019-001",
@@ -245,10 +245,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 / breast MRI implant imaging",
       "explanation": "Saline才會急速縮小。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-implant-rupture"
+      ],
       "checked": false
     },
     {
@@ -3890,6 +3892,343 @@
       "images": [],
       "concepts": [
         "pulmonary-hypertension-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-109",
+      "year": 2019,
+      "number": 109,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following would be a better action when progressive wall thickening or the emergence of a nodule in a cystic airspace in the lung?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usually an inflammatory process, conservative treatment and clinical observation."
+        },
+        {
+          "letter": "B",
+          "text": "Must be a collagen vascular disease related change, refer to rheumatologist for further survey."
+        },
+        {
+          "letter": "C",
+          "text": "Usually mycobacterial infection, collect sputum for laboratory examination."
+        },
+        {
+          "letter": "D",
+          "text": "Could be suspicious lung cancer and warrants further surveillance or investigation to rule out early lung cancer."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:704-717",
+      "explanation": "正確答案為 **D**。肺囊腔出現進行性壁增厚或新生結節時，應懷疑可疑肺癌並安排進一步監測或檢查以排除早期肺癌，而非一律當作發炎、結締組織病或分枝桿菌感染處理。詳見 [[lung-cystic-airspace-malignancy]]。",
+      "images": [],
+      "concepts": [
+        "lung-cystic-airspace-malignancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-110",
+      "year": 2019,
+      "number": 110,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is correct about lung cancers associated with cystic airspaces according to the Maschlchi (et al) classification system (which was based on Maki (et al) classification).",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type I is that of cyst wall thickening."
+        },
+        {
+          "letter": "B",
+          "text": "Type II is that of a nodule abutting the external aspect of a lung cyst."
+        },
+        {
+          "letter": "C",
+          "text": "Type III is that of a nodule arising from the cyst wall and projecting into the cystic space."
+        },
+        {
+          "letter": "D",
+          "text": "Type IV is that of multicystic lesion that contains areas of soft tissue attenuation."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；J Comput Assist Tomogr 2006;30:447-452; RadioGraphics 2018;38:704-717",
+      "explanation": "正確答案為 **D**。依 Maschlchi/Maki 分類：Type I 為結節貼附囊壁外側（非壁增厚）；Type II 為結節自囊壁向內突出（非貼附外側）；Type III 為單純囊壁增厚（非結節突入）；**Type IV 為多囊性病灶合併軟組織密度區域**，此選項型別編號與描述正確對應。詳見 [[lung-cystic-airspace-malignancy]]。",
+      "images": [],
+      "concepts": [
+        "lung-cystic-airspace-malignancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-111",
+      "year": 2019,
+      "number": 111,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning the normal myelination process in small children, which description is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myelination process starts caudally to cranially."
+        },
+        {
+          "letter": "B",
+          "text": "genu of corpus callosum shows high SI in T1WI by 6 months old"
+        },
+        {
+          "letter": "C",
+          "text": "anterior limb of internal capsule shows low SI in T2WI by 8 months old."
+        },
+        {
+          "letter": "D",
+          "text": "splenium of corpus callosum turns dark earlier than genu in T2WI"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic Imaging: Brain, 1st ed (Elsevier)",
+      "explanation": "正確答案為 **C**（錯誤敘述）。內囊前肢（anterior limb of internal capsule）於 T1WI 約 3 個月即呈高訊號，**T2WI 約 6 個月**（非 8 個月）才轉為低訊號。髓鞘化由尾側到頭側進行、genu T1 6個月呈高訊號、splenium 較 genu 更早於 T2WI 轉暗等敘述皆正確。詳見 [[normal-myelination-pattern]]。",
+      "images": [],
+      "concepts": [
+        "normal-myelination-pattern"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-112",
+      "year": 2019,
+      "number": 112,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is INCORRECT for multiple sclerosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most MS plaques are supratentorial and more than 50% occur in the posterior fossa."
+        },
+        {
+          "letter": "B",
+          "text": "EBV virus, chemicals, smoking, diet and geographic variability all contribute to MS risk."
+        },
+        {
+          "letter": "C",
+          "text": "Ependymal dot-dash sign"
+        },
+        {
+          "letter": "D",
+          "text": "Transient enhancement during active demyelination."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Osborn's Brain, Demyelinating and Inflammatory Diseases, p.449-461",
+      "explanation": "正確答案為 **A**（自相矛盾之錯誤敘述）。MS 斑塊絕大多數位於幕上（supratentorial，尤其腦室周圍），並非「超過50%位於後顱窩」。EBV/化學物質/抽菸/飲食/地理變異為風險因子、ependymal dot-dash sign、活動性去髓鞘期間短暫強化等敘述皆正確。詳見 [[multiple-sclerosis-imaging]]。",
+      "images": [],
+      "concepts": [
+        "multiple-sclerosis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-113",
+      "year": 2019,
+      "number": 113,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is a descriptor of mass shape in the BIRADS lexicon for ultrasound?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Speculated"
+        },
+        {
+          "letter": "B",
+          "text": "Lobulated"
+        },
+        {
+          "letter": "C",
+          "text": "Triangular"
+        },
+        {
+          "letter": "D",
+          "text": "Oval"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.42-45",
+      "explanation": "正確答案為 **D**。BI-RADS 超音波 lexicon 中 mass shape 描述詞為 oval／round／irregular；spiculated、（micro）lobulated 屬於 margin 描述詞，triangular 非 lexicon 用詞。詳見 [[bi-rads-mass-lexicon]]。",
+      "images": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-114",
+      "year": 2019,
+      "number": 114,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a descriptor of mass margin in the BIRADS lexicon for ultrasound?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "indistinct"
+        },
+        {
+          "letter": "B",
+          "text": "angular"
+        },
+        {
+          "letter": "C",
+          "text": "microlobulated"
+        },
+        {
+          "letter": "D",
+          "text": "obscured"
+        },
+        {
+          "letter": "E",
+          "text": "spiculated"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.51-58",
+      "explanation": "正確答案為 **D**。「Obscured」為乳房攝影（mammography）margin lexicon 專用詞，並非超音波 margin lexicon 用語；超音波 margin 描述詞為 circumscribed／indistinct／angular／microlobulated／spiculated。詳見 [[bi-rads-mass-lexicon]]。",
+      "images": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-115",
+      "year": 2019,
+      "number": 115,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "The minimal center frequency of an ultrasound transducer used in breast imaging:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 MHz"
+        },
+        {
+          "letter": "B",
+          "text": "12 MHz"
+        },
+        {
+          "letter": "C",
+          "text": "120 MHz"
+        },
+        {
+          "letter": "D",
+          "text": "1200 MHz"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.18",
+      "explanation": "正確答案應為 **B**。ACR BI-RADS 建議乳房超音波使用 linear array transducer，**最低中心頻率約 10（5–12）MHz**。⚠️ 官方詳解印刷答案標示 D（1200 MHz），但手寫註記自我質疑「答案應該是b??」；1200 MHz 遠超臨床診斷用超音波頻率範圍，物理上不合理，暫依來源文獻改記為 B，建議醫師覆核原始答案卷。詳見 [[ultrasound-transducer-physics]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-transducer-physics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-116",
+      "year": 2019,
+      "number": 116,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "What does the \"snowstorm\" appearance demonstrated in an axillary lymph node result from?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Saline implant rupture"
+        },
+        {
+          "letter": "B",
+          "text": "Silicone implant intracapsular rupture"
+        },
+        {
+          "letter": "C",
+          "text": "Silicone implant exracapsular rupture"
+        },
+        {
+          "letter": "D",
+          "text": "Tatto pigment in lymph node"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013",
+      "explanation": "正確答案應為 **C**。腋下淋巴結內的「snowstorm」超音波徵象，源自游離矽膠droplets（free silicone droplets）與組織混合，是判斷 **extracapsular rupture**（囊外破裂，游離矽膠逸出並遊走至淋巴結）最可靠的徵象。⚠️ 官方詳解印刷答案標示 D，但手寫註記質疑「應該是silicone lymphadenopathy???」；Tattoo pigment 沉積於淋巴結表現為粗鈣化而非 snowstorm，故正確答案應為 C，暫依徵象本身描述改記為 C，建議醫師覆核原始答案卷。詳見 [[breast-implant-rupture]]。",
+      "images": [],
+      "concepts": [
+        "breast-implant-rupture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-117",
+      "year": 2019,
+      "number": 117,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following is NOT appropriate for a BI-RADS 3 assessment on ultrasound?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Isolated complicated cyst"
+        },
+        {
+          "letter": "B",
+          "text": "Clustered microcysts (with diagnostic uncertainty)"
+        },
+        {
+          "letter": "C",
+          "text": "Oval, circumscribed, solid mass"
+        },
+        {
+          "letter": "D",
+          "text": "Round, circumscribed solid mass"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140",
+      "explanation": "正確答案為 **D**。BI-RADS 3 合格超音波表現須為 **oval**（卵圓形）、circumscribed、parallel 之實質腫塊，**round（圓形）並非典型合格形狀描述**，不應直接列入 category 3；孤立複雜囊腫與有診斷不確定性之群聚微囊腫皆為合格表現。詳見 [[bi-rads-categories]]。",
+      "images": [],
+      "concepts": [
+        "bi-rads-categories"
       ],
       "checked": false
     }
