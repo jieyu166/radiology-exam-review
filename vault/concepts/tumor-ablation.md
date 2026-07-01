@@ -7,7 +7,7 @@ aliases:
   - cryoablation
   - heat sink
   - 經皮腫瘤消融
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # tumor-ablation
@@ -37,12 +37,15 @@ dateRev: 2026-06-29
 ### 殘餘/復發的判讀核心
 - **殘餘腫瘤／局部進展**：消融帶**周邊或局部之結節狀（nodular）、偏心、不規則或漸增之強化**；與良性薄環的鑑別在於「結節狀 vs 平滑薄環、漸增 vs 消退」。[^3]
 - **肝臟量化門檻（一般原則）**：任何時點出現超過基準的強化、或增大的結節狀強化提示殘餘/復發。[^3]
+- **局部腫瘤進展（LTP）之發生率變異極大**：文獻報告自 **1.8% 至 56.9%** 不等（依族群、腫瘤大小、追蹤期而異）；**LTP 與消融區內「新發腫瘤」臨床上常難以區分**，須長期規律追蹤。[^3]
 - **肺 RFA 量化門檻**：可疑殘餘/復發包括**結節狀強化 >10 mm、任何中央強化 >15 HU、動態影像 >180 秒之漸增攝取、強化高於基準**；**消融帶於 3 個月後（相對基準）增大、6 個月後更明確**、周邊結節狀生長、由毛玻璃影轉為實質影、局部/遠端淋巴結腫大或新病灶。[^1]
 - **PET/CT 角色**：肺消融術後 **>2 個月仍有代謝活性、中央或原腫瘤處殘存攝取、或出現結節狀活性**提示殘餘/復發；PET/CT 為 CT 的輔助追蹤工具。[^1]
 - **模態分工**：CT（多期對比）為肝/肺術後追蹤主力；MRI、對比超音波可輔助評估；PET/CT 於肺消融輔助偵測。[^1][^3]
 
 ### 併發症影像
 - **肝消融**：可分血管性（門靜脈/肝靜脈栓塞、肝梗塞、被膜下血腫）、膽道性（膽管狹窄、**biloma 膽汁瘤**、膿瘍、hemobilia）、肝外性（胃腸道/膽囊熱傷、氣胸/血胸、**tract seeding 針道種植**）。[^5]
+- **針道腫瘤種植（tumor seeding）之危險因子**：電極口徑／類型、**穿刺次數（增加風險）**、腫瘤位於**被膜下（subcapsular）**、腫瘤**分化不良**；減少穿刺次數與電極重新定位頻率、電極拔除時燒灼針道可降低種植風險。**種植腫瘤有時生長極緩慢**，須**長期追蹤**方能排除；影像上沿針道或重力依賴處見結節狀或扁平狀早期強化病灶。[^5]
+- **重要 mimic**：**異位脾組織（副脾、腹膜脾組織植入 splenosis）** 可表現為結節狀病灶，易與腫瘤針道種植混淆，須影像鑑別（如核醫熱損傷脾臟顯像）。[^5]
 - **肺消融**：**氣胸**最常見，亦見血胸；保留充氣肺路徑可降低持續氣漏/支氣管肋膜瘻（BPF）。[^1][^2]
 - 共通須警覺：出血、膿瘍、針道腫瘤種植、鄰近器官熱傷。[^5]
 
@@ -55,9 +58,9 @@ dateRev: 2026-06-29
 ### 參考來源
 [^1]: 經皮腫瘤消融原則（標準 IR/SIR 教學）：模式選擇受器官/腫瘤/共病影響；cryoablation 冰球可視、對脆弱結構精準；heat sink（血流冷卻）改變熱消融帶大小/形狀（核心概念，與多數 ablation 綜述一致）。
 [^2]: 肺腫瘤消融技術原則（題目所引；**保留 ≥2 cm 未消融充氣肺路徑以防持續氣漏與支氣管肋膜瘻**）。此特定數值依題目來源，未另開原文逐字核實；氣胸為肺消融最常見併發症之概念另與下方肺 RFA 追蹤文獻一致。
-[^3]: Park MH, Rhim H, Kim YS, et al. Spectrum of CT findings after radiofrequency ablation of hepatic tumors. RadioGraphics 2008;28(2):379-390（Tier 1，依摘要未讀全文）。要點：三期對比 CT 於術後即時/1 個月內評估技術成功，成功則每 3 個月追蹤；成功消融帶＝**涵蓋腫瘤＋ablative margin 的低衰減區**，並**隨時間逐漸退縮**；環狀強化代表良性反應性充血、中央高衰減與微小氣泡為早期常見、通常第一/二次追蹤消退；殘餘/局部進展時表現不同。[DOI](https://doi.org/10.1148/rg.282075038)。來源：PubMed（PMID 18349446）。
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Park MH, Rhim H, Kim YS, et al. Spectrum of CT findings after radiofrequency ablation of hepatic tumors. RadioGraphics 2008;28(2):379-390. [DOI](https://doi.org/10.1148/rg.282075038)。要點：三期對比 CT 於術後即時/1 個月內評估技術成功，成功則每 3 個月追蹤；成功消融帶＝**涵蓋腫瘤＋ablative margin（≥0.5 cm）的低衰減區**，並**隨時間逐漸退縮**；環狀強化代表良性反應性充血、中央高衰減與微小氣泡為早期常見、通常第一/二次追蹤消退；**局部腫瘤進展發生率文獻報告差異極大（1.8–56.9%）**，且常難與消融區內新發腫瘤區分。
 [^4]: Fritz J, Sonnow L, Morris CD. Adjuvant MRI-guided percutaneous cryoablation treatment for aneurysmal bone cyst. Skeletal Radiol 2018;48(7):1149-1153（Tier 2，依摘要未讀全文）。支持：cryoablation 之 **ice ball 可被影像直接可視化並監測其延伸超出病灶邊界**，介入 MRI 高對比解析度利於小病灶直接定位。[DOI](https://doi.org/10.1007/s00256-018-3115-1)。來源：PubMed（PMID 30523379）。
-[^5]: Akahane M, Koga H, Kato N, et al. Complications of percutaneous radiofrequency ablation for hepatocellular carcinoma: imaging spectrum and management. RadioGraphics 2005;25 Suppl 1:S57-S68（Tier 1，依摘要未讀全文）。併發症三類：血管性（門靜脈/肝靜脈栓塞、肝梗塞、被膜下血腫）、膽道性（膽管狹窄、biloma、膿瘍、hemobilia）、肝外性（胃腸道/膽囊損傷、氣胸/血胸、tumor seeding 針道種植）。[DOI](https://doi.org/10.1148/rg.25si055505)。來源：PubMed（PMID 16227497）。
+[^5]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Akahane M, Koga H, Kato N, et al. Complications of percutaneous radiofrequency ablation for hepatocellular carcinoma: imaging spectrum and management. RadioGraphics 2005;25 Suppl 1:S57-S68. [DOI](https://doi.org/10.1148/rg.25si055505)。併發症三類：血管性（門靜脈/肝靜脈栓塞、肝梗塞、被膜下血腫）、膽道性（膽管狹窄、biloma、膿瘍、hemobilia）、肝外性（胃腸道/膽囊損傷、氣胸/血胸、tumor seeding 針道種植）；**種植危險因子＝電極口徑類型、穿刺次數、被膜下位置、腫瘤分化不良**；種植腫瘤可生長極緩慢須長期追蹤；**異位脾組織（副脾／splenosis）可 mimic 腫瘤種植**。
 
 ## 考題
 ```dataview

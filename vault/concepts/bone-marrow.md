@@ -8,7 +8,7 @@ aliases:
   - marrow conversion
   - marrow reconversion
   - 骨髓
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # bone-marrow
@@ -36,7 +36,8 @@ dateRev: 2026-06-29
 
 ### 四、良性紅髓 vs 腫瘤浸潤的鑑別工具
 - **Chemical shift（in-/opposed-phase）**：紅髓在同一 voxel 內脂肪與水並存，opposed-phase 訊號明顯下降；腫瘤把脂肪細胞取代掉，opposed-phase **不會掉訊號**。**T1 為骨髓評估最敏感序列，Dixon in-/opposed-phase 與 fat-fraction 為標準解題序列。**[^5][^2][^7]
-  - 常用門檻：opposed-phase 相對 in-phase **訊號下降 > 20%** 提示含正常紅髓脂肪（良性／reconversion）；無明顯下降提示脂肪已被取代（腫瘤浸潤）。亦有文獻採 25% 門檻。[^3][^2]
+  - **場強別門檻（2024 Radiology 現行建議）**：opposed-phase 相對 in-phase**訊號下降 >20%（1.5T）／>25%（3.0T）**，提示含正常紅髓脂肪（良性／reconversion）；未達此下降幅度則提示脂肪已被取代（marrow replacement）。[^7][^3][^2]
+  - **細微病灶線索**：極小的 marrow-replacing 病灶在 opposed-phase 影像周邊可見**etching（勾邊）偽影**（即脂水介面之 India ink artifact），為偵測微小取代性病灶（如轉移）之有用旁證，即使病灶本身訊號下降不明顯。[^7]
   - 量化：訊號強度比（SIR ＝ opposed-phase／in-phase），有研究取 **0.82** 區分紅髓 reconversion 與血液惡性腫瘤（敏感度約 83%、特異度約 87%），但不同研究 cut-off 與群組數值分歧，僅供參考。[^5]
 - **DWI／ADC**：惡性浸潤多呈高 b 值 DWI 高訊號、**ADC 較低（受限擴散）**；良性／reconversion 與水腫 ADC 較高。惟肥厚造血骨髓與發炎亦可造成 DWI 高訊號，**視覺判讀不具特異性**，須量化 ADC。[^6]
 - **局灶良性島的 "bull's-eye sign"**：T1 病灶中央保有一小點脂肪（macroscopic fat）被周邊較低訊號紅髓包繞，對良性極具特異性（文獻報告敏感度約 95%、特異度約 99.5%）。[^6]
@@ -52,8 +53,8 @@ dateRev: 2026-06-29
 - **Conversion/Reconversion**：紅→黃 conversion 自末梢向中軸;**reconversion 逆向,但不一定循固定可預期型態**。[^1][^3]
 - **分布**：成人紅髓存於**中軸骨與近端肱/股骨**,**非手腳末端**(末端為黃髓)。[^1][^3]
 - **與腫瘤鑑別**：紅髓有時**不易**與腫瘤區分,需 T1/化學位移/對稱性綜合判斷。[^1][^5]
-- **判讀基準**：紅髓 T1 應 > 椎間盤與肌肉;**低於兩者＝可疑取代性病變**。[^3][^4]
-- **解題工具**：chemical shift opposed-phase 訊號下降 > 20% ＝良性紅髓;DWI ADC 低＝惡性浸潤;bull's-eye sign ＝良性。[^2][^6]
+- **判讀基準**：紅髓 T1 應 > 椎間盤與肌肉;**低於兩者＝可疑取代性病變**。取代性病灶（focal replacement）於 T1 呈**邊界清楚**之低訊號；正常紅髓島則多**邊界不清（ill-defined）**——形態本身即為初步鑑別線索。[^3][^4][^7]
+- **解題工具**：chemical shift opposed-phase 訊號下降 **>20%（1.5T）／>25%（3.0T）**＝良性紅髓；細微病灶周邊 etching（勾邊）偽影亦可提示微小取代病灶；DWI ADC 低＝惡性浸潤;bull's-eye sign ＝良性。[^2][^6][^7]
 
 > [!note] 考點：關於紅骨髓,何者「為真」?
 > **紅髓可呈局灶、腫塊樣**。reconversion 不一定循固定型態(B 誤)、成人紅髓存中軸非手腳(C 誤)、紅髓含脂肪細胞(D 誤)、不一定易與腫瘤區分(E 誤)。[^1]
@@ -65,7 +66,7 @@ dateRev: 2026-06-29
 [^4]: Tier 2（教學參考）Radsource MRI Web Clinic *Evaluating the Varied Appearances of Normal and Abnormal Marrow*（radsource.us）：成人正常骨髓 T1 應高於鄰近椎間盤／肌肉，低於即疑取代性病變；T2 FSE 對瀰漫病變不可靠；浸潤型態分瀰漫（白血病/瀰漫型骨髓瘤）、variegated、局灶（轉移/局灶骨髓瘤）。
 [^5]: Tier 2（全文）Akman B, Ata Korkmaz HA, Sarı A. *Efficacy of chemical shift MRI for differentiating diffuse red bone marrow reconversion and hematological malignancies.* Turk J Med Sci. 2019;49(2):644-652. PMC7018244. SIR（opposed/in-phase）cut-off 0.82 區分紅髓 reconversion 與血液惡性腫瘤，敏感度 83.3%、特異度 87%；各組數值文獻間分歧，僅供參考。
 [^6]: Tier 2（教學／全文彙整）DWI／ADC：惡性浸潤高 b 值 DWI 高訊號、ADC 偏低；良性 reconversion／水腫 ADC 較高；造血肥厚與發炎亦可 DWI 高訊號，視覺判讀不具特異性，須量化 ADC。Bull's-eye sign（T1 病灶中央保有脂肪點）對良性敏感度 ~95%、特異度 ~99.5%。來源：Egyptian J Radiol Nucl Med 2019;50:17（DWI 紅髓 vs 浸潤，ejrnm.springeropen.com）；Radsource MRI Web Clinic（bull's-eye sign）。
-[^7]: Tier 1（補充）Vande Berg BC 等之 marrow-specific MRI 評論與 RSNA *How I Do It: MRI of the Bone with Marrow-specific Sequences*（Radiology 2024, pubs.rsna.org/doi/10.1148/radiol.242371）：T1 為骨髓評估最敏感序列、Dixon in-/opposed-phase 與 fat-fraction 為標準解題序列；摘要層級引用。
+[^7]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** *How I Do It: MRI of the Bone with Marrow-specific Sequences*. Radiology 2024. DOI 10.1148/radiol.242371。重點：**T1 FSE 為骨髓評估首選序列**（對比解析度與訊噪比最佳），Dixon 序列為替代方案（脂水分離精確、可定量脂肪分率）；取代性病灶於 T1 呈**邊界清楚**低訊號（正常紅髓多邊界不清）；chemical shift 場強別門檻：**訊號下降 >20%（1.5T）／>25%（3.0T）**提示正常紅髓（非取代）；極小取代性病灶可於 opposed-phase 周邊見 **etching（勾邊）偽影**作為輔助線索。
 
 ## 考題
 ```dataview
