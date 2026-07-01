@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 280,
+  "totalQuestions": 284,
   "questions": [
     {
       "id": "2016-001",
@@ -10427,6 +10427,154 @@
       "images": [],
       "concepts": [
         "retroperitoneal-fibrosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-281",
+      "year": 2016,
+      "number": 281,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning renal artery stenosis, which one of the ultrasonographic findings is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mild stenosis (<50% stenosis) is peak systolic velocity 100-200 cm/sec"
+        },
+        {
+          "letter": "B",
+          "text": "Severe stenosis (50-99% stenosis) is peak systolic velocity > 200 cm/sec"
+        },
+        {
+          "letter": "C",
+          "text": "Renal-to-aortic ratio of peak systolic velocity < 3.5"
+        },
+        {
+          "letter": "D",
+          "text": "Poststenotic turbulent flow and spectral broadening"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Diagnostic Imaging (Abdomen), part III, section 3, p.65",
+      "explanation": "**顯著腎動脈狹窄之renal-aortic ratio(RAR)應為>3.5**（非<3.5），故(C)為非。\n\n(A) 對：輕度狹窄(<50%) PSV約100-200 cm/sec。\n(B) 對：重度狹窄(50-99%) PSV>200 cm/sec。\n(C) **錯（正解）**：RAR應為>3.5（預測≥60%狹窄，敏感度84-91%、特異度95-97%），非<3.5。\n(D) 對：狹窄後可見紊流與頻譜增寬。\n\n→ [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-282",
+      "year": 2016,
+      "number": 282,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about splenic pyogenic abscess is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The imaging appearance is specific"
+        },
+        {
+          "letter": "B",
+          "text": "Guided needle aspiration may be both diagnostic and curative"
+        },
+        {
+          "letter": "C",
+          "text": "Abscess most commonly occur secondary to prior infarction"
+        },
+        {
+          "letter": "D",
+          "text": "Abscess can be differentiated confidently from true cyst"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；CT & US of the Acute Abdomen",
+      "explanation": "**超音波/CT導引針吸引流對脾臟化膿性膿瘍兼具診斷與治療效果**，故(B)為正解。\n\n(A) 錯：影像表現不具特異性。\n(B) **對（正解）**：導引針吸引流可兼具診斷與治療效果。\n(C) 錯：官方訂正為典型繼發於**心內膜炎或其他血行性播種來源**，非「先前梗塞」。\n(D) 錯：無法自信地與真性囊腫作影像鑑別。\n\n→ [[splenic-pyogenic-abscess]]",
+      "images": [],
+      "concepts": [
+        "splenic-pyogenic-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-283",
+      "year": 2016,
+      "number": 283,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which vessel is through the gastrohepatic ligament?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper hepatic artery"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein"
+        },
+        {
+          "letter": "C",
+          "text": "Coronary vein"
+        },
+        {
+          "letter": "D",
+          "text": "Gastroduodenal artery"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.",
+      "explanation": "**Coronary vein（即左胃靜脈）與左胃動脈行經肝胃韌帶（gastrohepatic ligament）**，故(C)為正解。\n\n(A)(B) 錯：proper hepatic artery、portal vein行經肝十二指腸韌帶（hepatoduodenal ligament），非肝胃韌帶。\n(C) **對（正解）**：coronary vein（左胃靜脈）行經肝胃韌帶。\n(D) 錯：gastroduodenal artery不行經肝胃韌帶。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-284",
+      "year": 2016,
+      "number": 284,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which structure is not through the hepatoduodenal ligament?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proper hepatic artery"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein"
+        },
+        {
+          "letter": "C",
+          "text": "Common bile duct"
+        },
+        {
+          "letter": "D",
+          "text": "Gastroduodenal artery"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.",
+      "explanation": "**肝十二指腸韌帶（hepatoduodenal ligament）内含門靜脈三合一：proper hepatic artery、portal vein、common bile duct；gastroduodenal artery不在此韌帶內**（走行於十二指腸後方），故(D)為正解。\n\n(A)(B)(C) 錯：皆為肝十二指腸韌帶內三大結構。\n(D) **對（正解）**：gastroduodenal artery不通過肝十二指腸韌帶。\n\n→ [[peritoneal-ligaments-and-spaces]]",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
       ],
       "checked": false,
       "years": [

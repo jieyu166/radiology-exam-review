@@ -25,6 +25,10 @@ dateRev: 2026-07-01
 ### 膈結腸韌帶（Hensing's韌帶）
 - **膈結腸韌帶(phrenicocolic ligament)**：自結腸脾彎曲(splenic flexure)延伸至橫膈的腹膜韌帶，為**左側膈下腔隙(left subphrenic space)與左側結腸旁溝(left paracolic gutter)之間的解剖界標**，可作為感染擴散的潛在屏障(potential barrier)，並於後方支撐脾臟下極。[^1]
 
+### 肝胃韌帶／肝十二指腸韌帶內容物（重要考點）
+- **肝胃韌帶(gastrohepatic ligament)**：內含**coronary vein（左胃靜脈）與左胃動脈**。[^2]
+- **肝十二指腸韌帶(hepatoduodenal ligament)**：內含**portal triad三大結構——proper hepatic artery、portal vein、common bile duct**；**gastroduodenal artery不在此韌帶內**（走行於十二指腸後方）。[^2]
+
 ### 骨盆腔隙的直接延伸
 - **骨盆腔隙(pelvic space)**經**右側結腸旁溝(right paracolic gutter)、左側結腸旁溝(left paracolic gutter)直接向上延伸相通**。
 - **右/左腸繫膜下腔隙(inframesocolic spaces)** 與骨盆腔隙之間**並非直接延伸關係**——需經腸繫膜根部(mesenteric root)/乙狀結腸繫膜等間接路徑相通，故此為「相對非直接延伸」的選項。[^1]
@@ -36,6 +40,7 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: RadioGraphics 2012;32:437-451：小網膜由肝胃韌帶+肝十二指腸韌帶(含總膽管)組成，胃脾/胃結腸韌帶屬大網膜;膈結腸韌帶(Hensing's韌帶)連結腸脾彎曲至橫膈，為左膈下腔隙與左結腸旁溝界標兼脾臟下極支撐;骨盆腔隙經左右結腸旁溝直接向上延伸，與左右腸繫膜下腔隙非直接延伸關係。
+[^2]: 官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.（題目所引）——肝胃韌帶內含coronary vein(左胃靜脈)與左胃動脈；肝十二指腸韌帶內含portal triad(proper hepatic artery、portal vein、common bile duct)，gastroduodenal artery不在此韌帶內。
 
 ## 題目
 > [!question]- Which of following structure is not part of lesser omentum? (2017-323)
@@ -46,6 +51,12 @@ dateRev: 2026-07-01
 
 > [!question]- Which of following space is relative not direct extent to pelvic space? (2017-325)
 > **Right inframesocolic spaces（A）**——骨盆腔隙經左右結腸旁溝直接向上延伸，但與右/左腸繫膜下腔隙需經腸繫膜根部間接相通，非直接延伸關係。[^1]
+
+> [!question]- Which vessel is through the gastrohepatic ligament? (2016-283)
+> **Coronary vein（左胃靜脈，C）**——與左胃動脈行經肝胃韌帶。Proper hepatic artery、portal vein行經肝十二指腸韌帶（非肝胃韌帶）。[^2]
+
+> [!question]- Which structure is not through the hepatoduodenal ligament? (2016-284)
+> **Gastroduodenal artery（D）**——不通過肝十二指腸韌帶。Proper hepatic artery、portal vein、common bile duct為肝十二指腸韌帶內portal triad三大結構。[^2]
 
 ## 考題
 ```dataview
