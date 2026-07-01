@@ -19,12 +19,22 @@ dateRev: 2026-06-18
 - **HCM**：室壁**肥厚**、心室**不擴大**(非 grossly dilated)。[^1]
 - **Restrictive CM vs Constrictive pericarditis**：**MRI 可區分**——constrictive 有**心包增厚(>4 mm)/鈣化、室間隔抖動**;restrictive 心包正常、雙心房擴大。[^1]
 - **GRE blooming 低訊號**：心肌**鐵沉積（iron overload／含鐵血黃素）**致 T2* 縮短,非正常表現。[^1]
+- **心肌炎（myocarditis）LGE分布**：**典型位於subepicardial myocardium**（心外膜下）；分布可變，mid-interventricular與focal transmural型態亦可見；並非典型分布於interventricular septum本身。[^2]
+- **各病因LGE分布速記**：subendocardial/transmural（心內膜下/透壁）＝梗塞相關；mid-wall（中層）＝HCM、右室壓力負荷、idiopathic DCM；epicardial/subepicardial（心外膜下）＝sarcoidosis、myocarditis、Anderson-Fabry、Chagas病。[^2]
+
+> [!note] 考點：myocarditis典型LGE分布位置?
+> **Subepicardial myocardium（心外膜下）**——並非interventricular septum。分布可變，亦可見mid-interventricular與focal transmural型態。[^2]
 
 > [!note] 考點：關於心肌病 MRI,何者「為真」?
 > **Restrictive cardiomyopathy 可藉 MRI 與 constrictive pericarditis 區分**（看心包厚度/鈣化）。DCM 室壁稀薄非局部增厚、HCM 心室不擴大、GRE blooming＝鐵沉積（非正常）。[^1]
 
 ### 參考來源
 [^1]: 心肌病 MRI（Radiopaedia *cardiomyopathy*／心臟 MR 教科書）：DCM 心室擴大室壁薄、HCM 室壁肥厚心室不擴大;**constrictive pericarditis 心包增厚 >4 mm,MRI 可與 restrictive CM 區分**;GRE T2* blooming＝鐵沉積。
+[^2]: 官方2016詳解；Clinical Cardiac MRI, Springer-Verlag Berlin Heidelberg 2012, p.279-333（題目所引）——myocarditis典型LGE分布於subepicardial myocardium（分布可變，mid-interventricular與focal transmural亦可見）；LGE分布依病因分層：subendocardial/transmural＝梗塞、mid-wall＝HCM/右室壓力負荷/idiopathic DCM、epicardial/subepicardial＝sarcoidosis/myocarditis/Anderson-Fabry/Chagas。
+
+## 題目
+> [!question]- 關於心肌病變的描述，何者錯誤？ (2016-286)
+> **「myocarditis典型LGE出現在interventricular septum」錯誤（D）**——典型應為subepicardial myocardium。HCM遺傳疾病+LGE於病變區域、amyloidosis屬restrictive CM、idiopathic DCM為心肌纖維化所致皆正確。[^2]
 
 ## 考題
 ```dataview

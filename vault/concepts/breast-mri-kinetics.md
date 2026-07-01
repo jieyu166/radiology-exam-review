@@ -40,6 +40,10 @@ dateRev: 2026-06-29
 - **惡性也可 persistent**：約 9% 惡性病灶呈 type I persistent,故 **persistent 不能排除惡性**。[^1]
 - **核心原則：kinetics 為輔、morphology 為主。** 形態可疑就切片,不被良性曲線安慰。[^3]
 
+### Focus（BI-RADS MRI lexicon）
+- **Focus定義**：**一個enhancing dot，通常小於5mm**，形態太小無法評估內部特徵；**可能為良性或惡性**。[^8]
+- **Focus之惡性可疑特徵**：**無fatty hilum（不含脂肪門）**、**動力學呈rapid rise with washout（type 3）**（而非persistent/plateau type 1/2）、與前次檢查比較有增大——這些特徵提高惡性可能性，須留意「惡性動力學特徵」考題常誤植為persistent/plateau。[^8]
+
 ### 輔助序列
 - **Abbreviated MRI（縮短協定）**：核心為注射後 **early post-contrast T1WI + MIP**,因乳房 MRI 的病灶顯著度與癌偵測主要由**早期強化**驅動,而非延遲期動力學;與全協定在 BI-RADS 分類上一致性高。常加 T2WI 提供形態資訊（囊腫、發炎）。[^6]
 - **DWI／ADC**：restricted diffusion（低 ADC）為鑑別良惡的有用輔助,可協助減少不必要切片;為 abbreviated 與全協定的常見加項。[^6]
@@ -66,6 +70,11 @@ dateRev: 2026-06-29
 [^5]: *Utility/diagnostic validity of abbreviated breast MRI* 等比較研究（依摘要層級,未讀全文,accessed 2026-06-29）：fibroadenoma 常見 fast wash-in,但 **washout 不常見**;washout kinetics 典型提示惡性——良性病灶出現 washout 為判讀陷阱。
 [^6]: Mann RM, et al. *Abbreviated Breast MRI: State of the Art*. *Radiology* 2023（doi:10.1148/radiol.221822,依摘要與搜尋層級,未讀全文,accessed 2026-06-29）：abbreviated 核心為 early post-contrast T1WI + MIP,因病灶顯著度與癌偵測主要由早期強化驅動;與全協定 BI-RADS 分類一致性高;常加 T2WI（形態）、DWI/ADC（restricted diffusion 鑑別良惡、減少不必要切片）。
 [^7]: 官方 2017 詳解；Kuhl C. The Current Status of Breast MR Imaging Part I/II. RadioGraphics 2006;26(6):1719-34（乳房 MRI 判讀綜述）：kinetic curve 含 initial peak＋delayed phase（不含 time to peak）;T2 高訊號偏良性但無法可靠分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）;敏感度 ~90%、DCIS 40-100%、CAD 可輔助、特異度較低;margin 最具預測性、spiculated PPV 84-91%、segmental 78% 惡性;hook sign（架構扭曲 desmoplastic tethering）提示惡性（惡性 29.3% vs 良性 3.2%）。
+[^8]: 官方2016詳解；ACR BI-RADS Atlas 2013（題目所引）——focus為enhancing dot通常<5mm，可能良性或惡性；惡性可疑特徵為無fatty hilum、動力學rapid rise with washout(type 3，非persistent/plateau)、與前片比較增大。
+
+## 題目
+> [!question]- 以下關於Breast MRI lexicon中"focus"的敘述，何者有誤？ (2016-287)
+> **「focus惡性feature為無fatty hilum、persistent/plateau dynamics、與前片比較增大」有誤（C）**——惡性動力學特徵應為rapid rise with washout(type 3)，非persistent/plateau。focus為<5mm enhancing dot、可能良性或惡性皆正確。[^8]
 
 ## 考題
 ```dataview

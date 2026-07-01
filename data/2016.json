@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 285,
+  "totalQuestions": 287,
   "questions": [
     {
       "id": "2016-001",
@@ -10612,6 +10612,80 @@
       "images": [],
       "concepts": [
         "extrapulmonary-lesion-signs"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-286",
+      "year": 2016,
+      "number": 286,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於心肌病變的描述，何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hypertrophic cardiomyopathy屬於遺傳疾病, MRI可以發現late Gd enhancement出現在病變肌肉區域"
+        },
+        {
+          "letter": "B",
+          "text": "Amyloidosis造成的心肌病變屬於restrictive cardiomyopathy"
+        },
+        {
+          "letter": "C",
+          "text": "idiopathic dilated cardiomyopathy是因為心肌異常出現fibrosis"
+        },
+        {
+          "letter": "D",
+          "text": "myocarditis典型MRI發現late Gd enhancement出現在interventricular septum"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；Clinical Cardiac MRI, Springer-Verlag Berlin Heidelberg 2012, p.279-333",
+      "explanation": "**心肌炎(myocarditis)之LGE分布多變，但典型位於subepicardial myocardium**（mid-interventricular與focal transmural型態亦可見），並非典型分布於interventricular septum，故(D)為非。\n\n(A) 對：HCM為遺傳疾病，MRI可見病變肌肉區域LGE。\n(B) 對：類澱粉沉積症造成之心肌病變屬restrictive cardiomyopathy。\n(C) 對：特發性擴張型心肌病為心肌異常纖維化所致。\n(D) **錯（正解）**：myocarditis典型LGE位於subepicardial myocardium，非interventricular septum。\n\n→ [[cardiomyopathy-mri]]",
+      "images": [],
+      "concepts": [
+        "cardiomyopathy-mri"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-287",
+      "year": 2016,
+      "number": 287,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下關於Breast MRI lexicon中\"focus\"的敘述，何者有誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "focus為一enhancing dot，通常小於5mm。"
+        },
+        {
+          "letter": "B",
+          "text": "focus可能為良性或惡性的。"
+        },
+        {
+          "letter": "C",
+          "text": "focus可能為惡性的feature有：無fatty hilum，persistent/plateau dynamics，與前片比較有增大。"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆正確。"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；ACR BI-RADS Atlas 2013",
+      "explanation": "**focus之惡性動力學特徵應為rapid rise with washout(type 3)，而非persistent/plateau dynamics**，故(C)為非。\n\n(A) 對：focus為enhancing dot，通常<5mm。\n(B) 對：focus可能良性或惡性。\n(C) **錯（正解）**：官方訂正惡性feature應為rapid rise with washout(type 3)，非persistent/plateau dynamics；無fatty hilum、與前片比較增大仍為惡性可能特徵。\n(D) 錯：因(C)有誤，並非以上皆正確。\n\n→ [[breast-mri-kinetics]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-kinetics"
       ],
       "checked": false,
       "years": [
