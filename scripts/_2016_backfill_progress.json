@@ -1,0 +1,23 @@
+{
+  "next_page": 9,
+  "total_pages": 183,
+  "processed_pages": [1, 2, 3, 4, 5, 6, 7, 8],
+  "added_ids": [],
+  "next_id": 260,
+  "dups_skipped": [
+    "p1=2016-001重複(UPJ obstruction)",
+    "p2=2016-002重複(adrenal adenoma)",
+    "p3=2016-198重複(papillary necrosis)",
+    "p4=2016-003重複(ACCURACY trial)+2016-200重複(stent size)",
+    "p5=2016-004重複(MIA classification)",
+    "p6下=2016-006重複(primary/postprimary TB)",
+    "p7=2016-007重複(pulmonary sarcoidosis)",
+    "p8=2016-005重複(LAM/PLCH/IPF)"
+  ],
+  "xyear_dups_merged": [
+    "p6上=2017-237(2011 lung adenocarcinoma classification except for/AAH)：跨年重複，json已於先前commit(fbcf925之後、years欄位已是[2016,2017])完成合併；本批僅補寫vault卡片vault/questions/2017/2017-237.md使其與json同步（commit 9e2aab0）"
+  ],
+  "fig_pages": [],
+  "flagged": [],
+  "notes": "頁1-8均為2016年已有題目之重印或已合併之跨年重複，本批無新題需寫入data/2016.json。repo存在大量與本任務無關之未提交變更（醫師手動編輯卡片如2016-256.md含checked:true、SR複習時間戳記、其他年份未提交工作），依使用者指示：只commit本批自己的檔案，其餘一律不動。"
+}
