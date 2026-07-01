@@ -7,7 +7,7 @@ aliases:
   - GBM
   - glioblastoma multiforme
   - 多形性膠質母細胞瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # gbm
@@ -32,7 +32,7 @@ dateRev: 2026-06-29
 ### 判讀骨架：Advanced（perfusion / spectroscopy / 治療後變化）
 - **DSC perfusion（rCBV）**：實質部 **rCBV 升高**，反映新生血管；**瘤周非強化帶 rCBV 亦升高**（浸潤性腫瘤血管），此點有助與轉移鑑別。[^4]
 - **MRS**：Choline 升高、NAA 下降（Cho/NAA 比上升），壞死區可見 lipid-lactate；瘤周帶 Cho 升高同樣提示腫瘤浸潤而非單純水腫。[^3]
-- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異，須結合時序與臨床。[^6][^7]
+- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]
 
 ### 判讀骨架：分子時代對影像角色
 - 2021 WHO 後，「glioblastoma」專指 **IDH-wildtype**（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。[^2]
@@ -53,7 +53,7 @@ dateRev: 2026-06-29
 [^3]: 瘤周非強化 T2/FLAIR 帶含浸潤腫瘤細胞、MRS Cho↑NAA↓、瘤周 Cho 升高提示浸潤。依 GBM 多參數 MRI 文獻摘要整理（PLOS One PMC5771619 等），開放全文部分已讀（核心/瘤周參數段落）。
 [^4]: Bonm 等／Server 等多參數 perfusion+diffusion 鑑別 GBM、轉移、PCNSL（PLOS One, PMC5771619）。瘤核 GBM 與轉移灌注/擴散無顯著差異；瘤周 GBM 之 mean/max rCBV、rPH 較高、min ADC 較低（max rCBV 區分 GBM cut-off≈0.98，準確度≈0.94）；PCNSL 瘤核 rCBV/rPH 低、PSR 高、ADC 低（max rCBV cut-off≈2.18，準確度≈0.985）。開放全文已讀（結果與 cut-off 表）。DOI:10.1371/journal.pone.0191341。
 [^5]: Toh 等. *Differentiation of Pyogenic Brain Abscesses from Necrotic Glioblastomas with Use of Susceptibility-Weighted Imaging*. AJNR 2012;33(8):1534-8（PMC7966558）。膿瘍 SWI 完整平滑低訊號環、dual rim sign（雙同心環）見於膿瘍而不見於 GBM；膿瘍強化環對應 T2 低訊號內囊，GBM 強化位於 T2 低訊號環之外。開放全文已讀（結果段）。dual rim sign 定義另參 Radiopaedia（輔助）。DOI:10.3174/ajnr.A2986。
-[^6]: Gahramanov 等. *Pseudoprogression of Glioblastoma after Chemo- and Radiation Therapy: DSC perfusion MR with ferumoxytol vs gadoteridol*. Radiology 2013（依摘要未讀全文）。高 rCBV(>1.75) 預後較差傾向真進展、低 rCBV 傾向 pseudoprogression。DOI:10.1148/radiol.12111472。
+[^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Gahramanov 等. *Pseudoprogression of Glioblastoma after Chemo- and Radiation Therapy: DSC Perfusion MR with Ferumoxytol vs Gadoteridol and Correlation with Survival*. Radiology 2013（19 例化放療後 apparently progressive GBM）。**高 rCBV(>1.75)＝腫瘤/真進展、≤1.75＝pseudoprogression;ferumoxytol（血池劑）不需 contrast leakage correction（gadoteridol 需）、且為好的預後 biomarker;pseudoprogression 於 temozolomide 化放療較 RT-only 常見**。DOI:10.1148/radiol.12111472。
 [^7]: MRI perfusion 區分 pseudoprogression 與真進展之綜述/研究：真進展 rCBV、rPH 較高、PSR 較低；MGMT methylated 者較常 pseudoprogression（PMC4755513、PMC7915936）。依摘要整理，部分開放全文已讀（rCBV/PSR 方向性段落）。
 
 ## 考題
