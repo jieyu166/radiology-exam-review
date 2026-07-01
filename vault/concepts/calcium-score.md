@@ -23,6 +23,7 @@ same:
 - **CAC ≥ 400**：高風險族群。[^1]
 - **MESA 計算器**：以 MESA 族群資料，依 CAC 分數與事件給出年齡/性別/種族百分位與風險。[^1]
 - **與 CCTA 連結**：高 CAC（>400）之重度鈣化 blooming 會**顯著降低 CCTA 的 specificity / PPV**（見 [[ccta]]，ACCURACY trial）。[^1]
+- **臨床價值定位**：CAC score 的意義在於對傳統風險因子（如 Framingham risk score）提供**額外（incremental）的預後資訊**、協助重新分層，非用於個別病人精準預測事件，也不能取代整體風險評估或排除 CAD。[^2]
 
 ## 方法（Agatston）
 非顯影、ECG 閘控 CT；鈣化定義為 **≥130 HU 且面積 ≥1 mm²**。Agatston 分數由「病灶面積 × 依該病灶最高 HU 之加權係數」整合而得，再加總全部冠狀動脈病灶。為最廣泛使用的計分法。[^1]
@@ -41,6 +42,7 @@ same:
 
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；Free Access 文章）** Gupta A, Bera K, Kikano E, Pierce JD, Gan J, Rajdev M, Ciancibello LM, Gupta A, Rajagopalan S, Gilkeson RC. *Coronary Artery Calcium Scoring: Current Status and Future Directions*. RadioGraphics. 2022;42(4). https://doi.org/10.1148/rg.210122。重點：標準協定＝前瞻性 ECG 閘控、層厚 2.5 mm／層距 1 mm、主動脈弓至心底、120 kVp；CAC 每年平均增加 20–25%，CAC=0 者約 20% 於 5 年內轉為 >0（隨年齡加劇），為重掃間隔建議之實證基礎；CAC 進展與事件風險相關但預後價值證據較弱。
+[^2]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.211/213/221）：Agatston scoring 採前瞻性 ECG 閘控、120 kVp、層厚 2.5–3.0 mm（非 helical、非 100kVp）；CAC score 對 Framingham risk 提供 incremental prognostic information，非用於個別事件精準預測；CACS>0 者不建議常規重複鈣化分數檢測。
 
 ## 考題
 ```dataview

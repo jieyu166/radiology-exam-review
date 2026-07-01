@@ -93,6 +93,11 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 - **Step artifact（階梯/錯位假影）**：prospective step-and-shoot 各區段心動週期/呼吸不一致時，相鄰 slab 接縫處出現錯位，可截斷或假性中斷血管。[^6]
 - **心率過快**：是 motion/step artifact 的根本驅動因子，故術前心率控制至關重要。[^6]
 - **支架（S）評估**：blooming/struts 限制 in-stent lumen 判讀；**支架直徑 <3 mm 顯著降低偵測 in-stent restenosis 的準確度（≤3 mm ~54% vs >3 mm ~86%），小支架不建議以 CT 評估**；理想對象為 ≥3 mm 與近端節段支架；sharp kernel + wider window 改善。[^3][^4]
+- **通暢支架的假性高密度**：即使支架通暢無狹窄，金屬 struts 造成的 blooming/beam-hardening 仍使**支架管腔內量測 HU 較近端血管節段假性偏高**，判讀時不可單憑管腔內 HU 較高即認定狹窄。[^9]
+
+## 適應症 — Appropriate Use Criteria（術後族群）
+- **有症狀 + 曾行 CABG**：以心臟 CT 評估 **graft patency** 為適當適應症。[^9]
+- **不適當情境**：無症狀病人於冠狀動脈支架植入 **<2 年**內、CABG **<5 年**內之常規篩檢；有症狀病人但支架直徑 **<3 mm**（CT 對小支架評估準確度不佳，見上）。[^9]
 - **繞道（G）評估**：CCTA 對 bypass graft 通暢度評估準確度高（graft 口徑大、運動少）；報告須涵蓋 graft 本體、anastomosis 與被繞道之原生（native）血管遠端流出道。[^2][^5]
 
 ## 圖示參考
@@ -111,6 +116,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^6]: SCCT Guidelines for the Performance and Acquisition of Coronary CTA（J Cardiovasc Comput Tomogr 2016）與 CAR/CSTR Cardiac CT Practice Guidelines Part 1: CCTA（Can Assoc Radiol J 2024）（Tier 1/Tier 2，accessed 2026-06-29，WebSearch）：β-blocker 控制心率目標 ≤60 bpm、舌下 nitroglycerin 掃描前 5 分鐘為預設、prospective ECG-triggered 為心率 <65 bpm 規律者預設低劑量模式、retrospective ECG-gated 用於需心室功能或心率無法控制者。
 [^7]: Nørgaard BL 等 FFR-CT 文獻綜整與 Lee/Kim 等回顧（Korean J Radiol 2021 DOI 10.3348/kjr.2020.1277；RadioGraphics 2021 *CT Fractional Flow Reserve: A Practical Guide* DOI 10.1148/rg.210097）（Tier 1/Tier 2，accessed 2026-06-29，WebSearch）：FFR-CT >0.80 正常、≤0.80（常用 <0.80 cutoff）判定病灶特異性缺血、0.76–0.80 灰帶；於狹窄遠端約 2 cm 量測；DISCOVER-FLOW/DeFACTO/HeartFlow NXT 驗證。
 [^8]: *Anomalous origin of coronary arteries with an interarterial course: pictorial essay*（PMC6561366，accessed 2026-06-29，WebFetch）與 Applied Radiology / Diagnosis and Management of Anomalous Coronary Arteries with a Malignant Course（PMC6545977）（Tier 2/輔助）：interarterial（昔稱 malignant）走行行經主動脈與肺動脈間為猝死高風險；CT 惡性徵象含 high take-off、急性銳角 take-off、壁內（intramural）走行/近端橢圓狀受壓；左冠脈起自右竇之 interarterial 走行猝死風險最高，常不論症狀建議手術，右冠脈異常預後較佳。CT 為定義起源與走行首選。
+[^9]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.214/220）：通暢支架管腔內 HU 因 blooming 假性高於近端節段，不可誤判為狹窄；適當使用準則將「有症狀+CABG後評估graft patency」列為適當適應症，「無症狀+stent<2年」「無症狀+CABG<5年」「有症狀+支架<3mm」列為不適當。
 
 ## 考題
 ```dataview

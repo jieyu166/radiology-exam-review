@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 89,
+  "totalQuestions": 101,
   "questions": [
     {
       "id": "2019-001",
@@ -3176,6 +3176,458 @@
       "explanation": "## Liver",
       "images": [],
       "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2019-090",
+      "year": 2019,
+      "number": 90,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is true regarding detection and quantification of coronary artery calcification (calcium scoring) by CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Agatston scoring is traditionally performed on images acquired using 100kVp."
+        },
+        {
+          "letter": "B",
+          "text": "Should be performed using retrospective ECG-gating"
+        },
+        {
+          "letter": "C",
+          "text": "Is performed using helical (spiral) acquisition"
+        },
+        {
+          "letter": "D",
+          "text": "Is performed using a slice thickness of 2.5-3.0 mm"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；SCCT cardiovascular CT board prep, third edition p.211",
+      "explanation": "正確答案為 **D**。冠狀動脈鈣化分數（Agatston score）以非顯影、前瞻性心電圖閘控（prospective ECG-gated）之單次屏氣掃描取得，管電壓固定 **120 kVp**（非100kVp），採 **step-and-shoot（非helical）**方式，層厚 **2.5–3.0 mm**。詳見 [[calcium-score]]。",
+      "images": [],
+      "concepts": [
+        "calcium-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-091",
+      "year": 2019,
+      "number": 91,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements appropriately describes the value of the coronary artery calcium score (i.e., the \"Agatston score\")?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It accurately predicts cardiovascular events in a given individual"
+        },
+        {
+          "letter": "B",
+          "text": "It accurately assesses the presence or absence of CAD"
+        },
+        {
+          "letter": "C",
+          "text": "It does not require additional risk assessment for establishing prognosis"
+        },
+        {
+          "letter": "D",
+          "text": "It provides incremental prognostic information over Framingham risk"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；SCCT cardiovascular CT board prep, third edition p.213",
+      "explanation": "正確答案為 **D**。CAC score 的臨床價值在於能對傳統風險因子（如 Framingham risk score）提供**額外（incremental）的預後資訊**、協助重新分層，而非用於個別病人的精準事件預測，也不能取代整體風險評估或排除 CAD 的存在。詳見 [[calcium-score]]。",
+      "images": [],
+      "concepts": [
+        "calcium-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-092",
+      "year": 2019,
+      "number": 92,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "In the evaluation of a stent for in-stent restenosis, how does the CT density (HU value) within the stent lumen compare to that of the segment proximal to the stent if the stent is patent and has no stenosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It should be higher"
+        },
+        {
+          "letter": "B",
+          "text": "It should be equal to the segment proximal to the stent"
+        },
+        {
+          "letter": "C",
+          "text": "It should be slightly lower"
+        },
+        {
+          "letter": "D",
+          "text": "It should be significantly lower"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；SCCT cardiovascular CT board prep, third edition p.214",
+      "explanation": "正確答案為 **A**。即使支架通暢無狹窄，支架材質（金屬 struts）造成的 **blooming/beam-hardening 偽影**仍會使支架管腔內量測到的 CT 值（HU）較近端血管節段**假性偏高**，此為判讀 in-stent restenosis 時需注意的陷阱，不可單憑管腔內 HU 較高即判定狹窄。詳見 [[ccta]]（支架評估段落）。",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-093",
+      "year": 2019,
+      "number": 93,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "The use of cardiac CT is appropriate in which of the following scenarios?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Asymptomatic patient with prior coronary stent placed <2 years ago"
+        },
+        {
+          "letter": "B",
+          "text": "Asymptomatic patient with prior CABG performed <5 years ago"
+        },
+        {
+          "letter": "C",
+          "text": "Symptomatic patient with a prior coronary stent with diameter <3mm"
+        },
+        {
+          "letter": "D",
+          "text": "Symptomatic patient with prior CABG to evaluate graft patency"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；SCCT cardiovascular CT board prep, third edition p.220",
+      "explanation": "正確答案為 **D**。適當使用準則（appropriate use criteria）認為**有症狀**且曾接受 CABG 之病人，以心臟 CT 評估 **graft patency** 為適當適應症；相對地，**無症狀**病人於 stent <2 年或 CABG <5 年內常規篩檢、以及支架直徑 **<3 mm**（CT 對小支架評估準確度不佳）皆為不適當情境。詳見 [[ccta]]（適應症段落）。",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-094",
+      "year": 2019,
+      "number": 94,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements is true regarding coronary artery calcium scoring (CACS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coronary calcification frequently occurs in the absence of coronary atherosclerosis"
+        },
+        {
+          "letter": "B",
+          "text": "A CACS of zero excludes the presence of any coronary artery disease"
+        },
+        {
+          "letter": "C",
+          "text": "Extensive coronary calcification is associated with a low risk of myocardial infarction"
+        },
+        {
+          "letter": "D",
+          "text": "Repeat coronary calcium testing is not considered appropriate in patients with prior CACS>0"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；SCCT cardiovascular CT board prep, third edition p.221",
+      "explanation": "正確答案為 **D**。CACS 分數 **>0** 之病人依現行建議（如 SCCT 指引）並**不建議常規重複**鈣化分數檢測（重掃間隔建議主要針對 CACS=0 者，於數年後追蹤是否轉為 >0）；冠狀動脈鈣化通常反映動脈粥樣硬化存在，CACS=0 不能完全排除 CAD（尤其軟斑塊），而廣泛鈣化通常與較高（非低）心肌梗塞風險相關。詳見 [[calcium-score]]。",
+      "images": [],
+      "concepts": [
+        "calcium-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-095",
+      "year": 2019,
+      "number": 95,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the \"wrong\" description about malignant transformation of endometriosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endometriosis have an estimated 1-2% chance of developing ovarian cancer"
+        },
+        {
+          "letter": "B",
+          "text": "The human epididymal secretory protein E4 level is not elevated in endometriosis associated ovarian cancer."
+        },
+        {
+          "letter": "C",
+          "text": "Endometriosis associated ovarian cancer affects women 10-20 years earlier than those affected by ovarian cancer without endometriosis."
+        },
+        {
+          "letter": "D",
+          "text": "Enhancing mural nodules within an endometrioma on T1WI is highly suggestive of endometriosis-associated malignancy"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Endometriosis revisited: an imaging review of the usual and unusual manifestations with pathological correlation. Clinical Imaging 52 (2018) 163-171",
+      "explanation": "正確答案為 **B**（錯誤敘述）。**HE4（human epididymal secretory protein E4）與 CA125 血清濃度上升**皆能提高卵巢癌診斷準確度、有助鑑別卵巢癌與卵巢子宮內膜異位囊腫，而非「不會上升」。子宮內膜異位症相關卵巢癌約 1–2% 發生率、發病年齡較早 10–20 年、囊內強化壁結節高度懷疑惡性轉化等敘述皆正確。詳見 [[endometriosis-malignant-transformation]]。",
+      "images": [],
+      "concepts": [
+        "endometriosis-malignant-transformation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-096",
+      "year": 2019,
+      "number": 96,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the \"wrong\" description about ureteral endometriosis (UE)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The prevalence of UE varies considerably from 0.01% to 1.7% in women with endometriosis."
+        },
+        {
+          "letter": "B",
+          "text": "UE has a peak incidence in patients aged 30-35 years"
+        },
+        {
+          "letter": "C",
+          "text": "UE is commonly unilateral, with a left predisposition"
+        },
+        {
+          "letter": "D",
+          "text": "MRI is the first-line technique for the assessment of UE."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Endometriosis revisited: an imaging review of the usual and unusual manifestations with pathological correlation. Clinical Imaging 52 (2018) 163-171",
+      "explanation": "正確答案為 **D**（錯誤敘述）。輸尿管子宮內膜異位症（ureteral endometriosis）評估的**第一線影像檢查為超音波（ultrasonography）**，而非 MRI；經陰道超音波可偵測卵巢子宮內膜異位瘤及直腸陰道中隔結節，腹部超音波可辨識泌尿道阻塞，必要時再以 MRI 進一步評估、並可依 step-by-step 演算法安排檢查順序。盛行率、好發年齡（30–35歲）與左側偏好（left predisposition）之敘述皆正確。詳見 [[ureteral-endometriosis]]。",
+      "images": [],
+      "concepts": [
+        "ureteral-endometriosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-097",
+      "year": 2019,
+      "number": 97,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About image findings of idiopathic intracranial hypertension, which is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abnormalities of optic nerve sheath complex"
+        },
+        {
+          "letter": "B",
+          "text": "Prominent arachnoid granulation"
+        },
+        {
+          "letter": "C",
+          "text": "Pachymeningeal enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "Empty sella syndrome"
+        },
+        {
+          "letter": "E",
+          "text": "Meningoencephalocele"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Alonso RC et al. Spontaneous skull base meningoencephaloceles and cerebrospinal fluid fistulas. Radiographics. 2013",
+      "explanation": "正確答案為 **C**（錯誤敘述，非其影像表現）。顱內壓升高（idiopathic intracranial hypertension, IIH）之典型影像徵象包含視神經鞘複合體異常、突出之 arachnoid granulation、dural ectasia、meningoencephalocele（尤好發於顳骨與蝶骨翼）與 empty sella syndrome；**pachymeningeal（硬腦膜）增強並非 IIH 的典型表現**，較常見於顱內低壓（intracranial hypotension）。詳見 [[spontaneous-skull-base-cephalocele]]。",
+      "images": [],
+      "concepts": [
+        "spontaneous-skull-base-cephalocele"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-098",
+      "year": 2019,
+      "number": 98,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About risk factor of spontaneous lateral sphenoid cephalocele, which is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obese"
+        },
+        {
+          "letter": "B",
+          "text": "Idiopathic intracranial hypertension"
+        },
+        {
+          "letter": "C",
+          "text": "Poor pneumatization of sphenoid sinus"
+        },
+        {
+          "letter": "D",
+          "text": "Middle-aged women"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Settecase F et al. Spontaneous lateral sphenoid cephaloceles: anatomic factors contributing to pathogenesis and proposed classification. AJNR Am J Neuroradiol. 2014",
+      "explanation": "正確答案為 **C**（錯誤敘述）。自發性外側蝶骨腦膜腦膨出（spontaneous lateral sphenoid cephalocele）之危險因子包含肥胖、中年女性、以及 idiopathic intracranial hypertension；解剖上與蝶竇**過度氣化（hyperpneumatization，而非氣化不良）**造成骨壁變薄相關，故「poor pneumatization」為錯誤敘述。詳見 [[spontaneous-skull-base-cephalocele]]。",
+      "images": [],
+      "concepts": [
+        "spontaneous-skull-base-cephalocele"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-099",
+      "year": 2019,
+      "number": 99,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which cranial nerve is the most common one that cavernous sinus schwannomas arise from?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Oculomotor"
+        },
+        {
+          "letter": "B",
+          "text": "Abducens"
+        },
+        {
+          "letter": "C",
+          "text": "Trigeminal"
+        },
+        {
+          "letter": "D",
+          "text": "Trochlear nerve"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Imaging Spectrum of Cavernous Sinus Lesions with Histopathologic Correlation. RadioGraphics 2019; 39:795-819",
+      "explanation": "正確答案為 **C**。海綿竇神經鞘瘤（cavernous sinus schwannoma）**最常起源於三叉神經（trigeminal nerve）**，其次為動眼神經；其他海綿竇內顱神經（外旋、滑車神經）較少見為起源。詳見 [[cavernous-sinus-schwannoma]]。",
+      "images": [],
+      "concepts": [
+        "cavernous-sinus-schwannoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-100",
+      "year": 2019,
+      "number": 100,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "What is \"not\" the imaging features of intracranial solitary fibrous tumor/Hemangiopericytoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A narrow base of attachment to the dura"
+        },
+        {
+          "letter": "B",
+          "text": "The presence of associated flow voids"
+        },
+        {
+          "letter": "C",
+          "text": "Hyperostosis of adjacent bone (meningioma)"
+        },
+        {
+          "letter": "D",
+          "text": "A well-circumscribed and lobulated soft tissue mass"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Imaging Spectrum of Cavernous Sinus Lesions with Histopathologic Correlation. RadioGraphics 2019; 39:795-819",
+      "explanation": "正確答案為 **C**（非其影像特徵）。顱內 solitary fibrous tumor/hemangiopericytoma（SFT/HPC）之提示徵象為**硬腦膜附著基部窄（narrow dural base）**、**鄰近骨質侵蝕（erosion，而非 hyperostosis）**、**無鈣化**、明顯強化、associated flow voids、以及邊界清楚分葉狀軟組織腫塊；相對地，**硬腦膜廣基附著、鄰近骨質增生硬化（hyperostosis）與瘤內鈣化為腦膜瘤（meningioma）的典型特徵**，可作為鑑別點。詳見 [[solitary-fibrous-tumor-hemangiopericytoma]]。",
+      "images": [],
+      "concepts": [
+        "solitary-fibrous-tumor-hemangiopericytoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-101",
+      "year": 2019,
+      "number": 101,
+      "years": [
+        2019
+      ],
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding salivary gland presentation of Sjogren's syndrome, which one of the following is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mainly in adult female at post-menopausal age"
+        },
+        {
+          "letter": "B",
+          "text": "Diffusely enlarged with normal parenchyma"
+        },
+        {
+          "letter": "C",
+          "text": "May exactly mimic benign lymphoepithelial lesion (BLL)"
+        },
+        {
+          "letter": "D",
+          "text": "High risk for MALToma"
+        },
+        {
+          "letter": "E",
+          "text": "Little to no cystic component"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；Imaging of salivary gland tumours. Eur J Radiol. 2008 Jun;66(3):419-36.",
+      "explanation": "正確答案為 **E**（錯誤敘述）。Sjögren 症候群唾液腺於中期階段典型表現為腺體瀰漫性腫大，伴**多發、散在囊腫**（<1mm 微囊腫至 >2cm 混合實質-囊性腫塊），並非「幾乎無囊性成分」；慢性期則呈腺體萎縮、回音減低（hypoechoic）。其餘敘述（好發停經後女性、可與 BLL 難以區分、MALToma 高風險）皆正確。詳見 [[sjogren-syndrome-salivary-gland]]。",
+      "images": [],
+      "concepts": [
+        "sjogren-syndrome-salivary-gland"
+      ],
       "checked": false
     }
   ]
