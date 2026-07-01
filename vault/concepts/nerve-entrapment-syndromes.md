@@ -23,12 +23,20 @@ dateRev: 2026-07-01
 - **Cubital tunnel syndrome**：壓迫**ulnar nerve**，好發於肘部尺神經溝（cubital tunnel）處。[^1]
 - **Kiloh-Nevin syndrome（anterior interosseous nerve syndrome, AINS）**：壓迫**anterior interosseous nerve**（AIN，為median nerve在前臂的純運動分支）；可由pronator teres兩頭之間或FDS腱弓近端邊緣壓迫所致，臨床表現為FPL、FDP（示指/中指）、pronator quadratus無力（無感覺缺損，因AIN為純運動神經）。[^1]
 
+## 超音波診斷慢性周邊神經壓迫
+- **慢性神經壓迫之US表現**：壓迫處神經束**變細**；壓迫處**近端**約2~4公分處常見**紡錘狀腫脹（fusiform enlargement）**；遠離受傷處，神經最終**恢復正常大小與束狀結構（fascicular form）**。[^2]
+- **US無法區分神經水腫與纖維化**——水腫（edema）與纖維化（fibrosis）在超音波上皆呈現訊號改變，**無法可靠地互相區分**，此為US評估慢性神經壓迫之重要限制。[^2]
+- **US可正確診斷之神經壓迫症候群**：**carpal tunnel syndrome（median nerve）**、**cubital tunnel syndrome（ulnar nerve）**、**Guyon's tunnel syndrome（ulnar nerve）**皆可藉由US做出正確診斷。[^3]
+
 ## 陷阱
 - 「Pronator syndrome壓迫radial nerve」為錯誤——壓迫的是**median nerve**。[^1]
 - Pronator syndrome與AINS皆可由pronator teres兩頭間壓迫造成，但前者壓迫median nerve主幹（有感覺症狀），後者僅壓迫AIN分支（純運動、無感覺症狀）——兩者常被混淆。[^1]
+- 「US可區分神經水腫與纖維化」為錯誤——US**無法**可靠區分兩者。[^2]
 
 ### 參考來源
 [^1]: 2019 交換考詳解；Image of arthritis and metabolic bone disease 2009: 243~249。
+[^2]: 2019 交換考詳解；Essential applications of musculoskeletal ultrasound in rheumatology 2010:123。
+[^3]: 2019 交換考詳解；Essential applications of musculoskeletal ultrasound in rheumatology 2010:125-130。
 
 ## 考題
 ```dataview

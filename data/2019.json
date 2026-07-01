@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 187,
+  "totalQuestions": 193,
   "questions": [
     {
       "id": "2019-001",
@@ -6833,6 +6833,228 @@
       "images": [],
       "concepts": [
         "nerve-entrapment-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-188",
+      "year": 2019,
+      "number": 188,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "關於 ultrasound-guided musculoskeletal intervention 下列何者為誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The outcomes of emergency physicians performing conventional landmark versus ultrasound-guided knee arthrocentesis revealed no difference in success rates."
+        },
+        {
+          "letter": "B",
+          "text": "Realtime scanning allows simultaneous visualization of the target and needle progression and diminishes the rate of complications."
+        },
+        {
+          "letter": "C",
+          "text": "The major limitation of needle guide ultrasound guidance is that they require the needle to be passed at a specific or fixed angle relative to the transducer and plane of imaging."
+        },
+        {
+          "letter": "D",
+          "text": "Ultrasound-guided injection is not a useful alternative in difficult injection cases, such as post-operative change in anatomy landmark."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Essential applications of musculoskeletal ultrasound in rheumatology 2010:296-7",
+      "explanation": "正確答案為 **D**（錯誤敘述）。US導引注射對於術後解剖地標改變等困難注射情境，仍為有用之替代方案，並非「無用」。傳統地標法與US導引膝關節抽吸成功率無差異、即時掃描降低併發症、針導引器需固定角度進針等敘述皆正確。詳見 [[musculoskeletal-ultrasound-intervention]]。",
+      "images": [],
+      "concepts": [
+        "musculoskeletal-ultrasound-intervention"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-189",
+      "year": 2019,
+      "number": 189,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "關於 chronic peripheral nerve compression 在 ultrasound 的 findings，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A thinner nerve bundle at the site of compression."
+        },
+        {
+          "letter": "B",
+          "text": "Fusiform enlargement is usually 2~4 cm proximal to the compression site."
+        },
+        {
+          "letter": "C",
+          "text": "It is possible to differentiate nerve edema from fibrosis."
+        },
+        {
+          "letter": "D",
+          "text": "The nerve eventually recovers its normal size and fasicular form at a distance from the injury site."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Essential applications of musculoskeletal ultrasound in rheumatology 2010:123",
+      "explanation": "正確答案為 **C**（錯誤敘述）。超音波**無法**可靠區分神經水腫（edema）與纖維化（fibrosis）。壓迫處神經變細、近端2-4公分處紡錘狀腫脹、遠離受傷處神經恢復正常大小與束狀結構等敘述皆正確。詳見 [[nerve-entrapment-syndromes]]。",
+      "images": [],
+      "concepts": [
+        "nerve-entrapment-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-190",
+      "year": 2019,
+      "number": 190,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種 peripheral nerve compression 可以藉由 ultrasound 作正確的 diagnosis？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Median nerve compression in carpal tunnel syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Ulnar nerve compression in cubital tunnel syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Ulnar nerve compression in Guyon's tunnel syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆是"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Essential applications of musculoskeletal ultrasound in rheumatology 2010:125-130",
+      "explanation": "正確答案為 **D**。carpal tunnel syndrome（median nerve）、cubital tunnel syndrome（ulnar nerve）、Guyon's tunnel syndrome（ulnar nerve）皆可藉由超音波做出正確診斷。詳見 [[nerve-entrapment-syndromes]]。",
+      "images": [],
+      "concepts": [
+        "nerve-entrapment-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-191",
+      "year": 2019,
+      "number": 191,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 cerebral amyloid angiopathy 的 SWI 影像特徵描述，下列何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SWI 可發現 microbleeds 主要散布在 fronto-temporal lobes."
+        },
+        {
+          "letter": "B",
+          "text": "SWI 可發現 microbleeds 主要散布在 cerebellum"
+        },
+        {
+          "letter": "C",
+          "text": "SWI 可發現 microbleeds 主要散布在 basal ganglia and thalami."
+        },
+        {
+          "letter": "D",
+          "text": "SWI 可發現 microbleeds 主要散布在 parieto-occipital lobes"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Osborn's Brain: Imaging, Pathology, and Anatomy, second edition, pp316-321",
+      "explanation": "正確答案為 **D**。CAA microbleeds主要呈corticosubcortical（灰白質交界）分布，好發於**parieto-occipital lobes**（後部），亦可見於cerebellum但非主要分布；**保留（spare）basal ganglia與pons**（此為高血壓性微出血好發處，兩者恰為對比鑑別點）。詳見 [[cerebral-amyloid-angiopathy]]。",
+      "images": [],
+      "concepts": [
+        "cerebral-amyloid-angiopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-192",
+      "year": 2019,
+      "number": 192,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 tumefactive demyelinating lesion 的影像描述，下列何者不正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "常被誤診為惡性腦瘤或轉移"
+        },
+        {
+          "letter": "B",
+          "text": "磁振影像注射顯影劑T1WI可見大腦皮質下病灶在其外沿不完全顯影(incomplete enhancement)成英文C字形>>>腦室旁"
+        },
+        {
+          "letter": "C",
+          "text": "磁振影像注射顯影劑T1WI可見腦室傍病灶在外沿不完全顯影(incomplete enhancement)成英文C字形"
+        },
+        {
+          "letter": "D",
+          "text": "磁振影像有時可見不規則腫塊顯影，此時可能需要腦切片來診斷。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Neuroradiology - The Requisites, 4th edition, pp.210-211",
+      "explanation": "正確答案為 **B**（錯誤敘述）。C字形不完全強化於**腦室旁（periventricular）病灶較subcortical病灶更常見**（periventricular>>>subcortical），並非「subcortical>>>腦室旁」。常被誤診為惡性腦瘤/轉移、腦室旁C字形不完全強化、疑難病例可能需腦切片等敘述皆正確。詳見 [[tumefactive-demyelinating-lesion]]。",
+      "images": [],
+      "concepts": [
+        "tumefactive-demyelinating-lesion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-193",
+      "year": 2019,
+      "number": 193,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Lipomyelomeningocele 的描述，下列何者不正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "為最常見的 spinal lipoma"
+        },
+        {
+          "letter": "B",
+          "text": "常發生在女性，理學檢查發現下背腫塊(lipoma)稍偏離中線"
+        },
+        {
+          "letter": "C",
+          "text": "常合併脊椎內 inclusion tumors(epidermoid and dermoid)"
+        },
+        {
+          "letter": "D",
+          "text": "影像上可見 lipoma 附著在 neural placode 背面"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Pediatric Neuroimaging, fifth edition, pp.876-882",
+      "explanation": "官方答案為 **D**，惟詳解手寫註記「(C?)」顯示官方對答案存有疑慮。依參考文獻，選項C「常合併脊椎內inclusion tumors」與原文「less commonly合併inclusion cysts/dermal sinus/hamartoma」矛盾，C可能才是真正錯誤敘述；D「lipoma附著於neural placode背面」與原文解剖描述相符。暫以官方答案D為預設，建議醫師覆核。詳見 [[lipomyelomeningocele]]。",
+      "images": [],
+      "concepts": [
+        "lipomyelomeningocele"
       ],
       "checked": false
     }
