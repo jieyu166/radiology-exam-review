@@ -55,7 +55,7 @@ dateRev: 2026-06-29
 - washout 對**較大、含壞死/出血的病灶**準確度下降;ACC 與 pheo 偶可呈高 washout，washout 僅為「中等」鑑別工具。[^6]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；RadioGraphics 2014;34(3):805-29：腎上腺結節性增生隨年齡增加/雙側;假性囊腫 T1 高訊號多因出血;嗜鉻細胞瘤約 10% 鈣化。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；同源見 [[adrenal-imaging]][^2]）** Lattin GE, Sturgill ED, Tujo CA, et al. *From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult*. RadioGraphics. 2014;34(3):805-829. https://doi.org/10.1148/rg.343130127。腎上腺結節性增生隨年齡增加/雙側；假性囊腫 T1 高訊號多因出血；嗜鉻細胞瘤約 10% 鈣化。
 [^2]: ACR Incidental Findings Committee White Paper（管理指引層級），Mayo-Smith WW et al., J Am Coll Radiol 2017;14(8):1038-1044：非顯影 ≤10 HU 或 CSI 對脾訊號掉落幾乎確診 lipid-rich adenoma（不論大小）;11–30 HU 之 lipid-poor adenoma 須 washout 或 CSI。https://doi.org/10.1016/j.jacr.2017.05.001
 [^3]: AJR 評論層級，Corwin MT et al.（Adrenal Incidentalomas: Clinical Controversies and Modified Recommendations），AJR 2016：≤10 HU 對 lipid-rich adenoma 敏感度約 71%、特異度約 98%;lipid-poor adenoma 11–30 HU 不能僅憑 HU 判讀。https://doi.org/10.2214/AJR.15.15475
 [^4]: RadioGraphics 教學文章層級，Blake MA et al.（Adrenal Mass Imaging with Multidetector CT: Pathologic Conditions, Pearls, and Pitfalls），RadioGraphics 2009;29(5):1333-1351：各病灶影像特徵與 washout/CSI 陷阱（pheo T2 高訊號/明顯強化、myelolipoma 含脂肪、ACC 大且不均、washout 重疊）。https://doi.org/10.1148/rg.295095027
