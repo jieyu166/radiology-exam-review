@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 248,
+  "totalQuestions": 256,
   "questions": [
     {
       "id": "2018-001",
@@ -70,10 +70,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.145；American Journal of Roentgenology. June 2014, Volume 202:1389-1394.",
       "explanation": "ADH is usually manifests as a cluster of calcifications\nReference from: American Journal of Roentgenology. June 2014, Volume 202:1389- 1394.\n\n\n## Premalignancy",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-premalignant-lesions"
+      ],
       "checked": false
     },
     {
@@ -2589,10 +2591,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.144；Radiology Review Manual, 6th edition, 131.",
       "explanation": "distal patellar tendon",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "osgood-schlatter-disease"
+      ],
       "checked": false
     },
     {
@@ -2769,10 +2773,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.142；Radiology Review Manual 6th edition 376-7.",
       "explanation": "- Most third branchial cleft cysts tend to lie in the posterior cervical space, posterior to the sternocleidomastoid muscle\n- Cystic hygroma (cystic/nuchal lymphangioma) most commonly occur in the cervicofacial regions (posterior cervical triangle)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "branchial-cleft-cyst"
+      ],
       "checked": false
     },
     {
@@ -2856,7 +2862,7 @@
       ],
       "subspecialty": "NR",
       "subspecialty_confidence": "manual",
-      "questionText": "What’s not your possibly suggestion?",
+      "questionText": "A 13-year-old male presents with recurrent epistaxis. CT shows a highly vascular mass in the nasopharynx, with widening of the pterygopalatine fossa and invasion of the sphenoid sinus. What's not your possibly suggestion?",
       "options": [
         {
           "letter": "A",
@@ -2880,10 +2886,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018 交換考題 詳解 p.142；Radiology Review Manual, 6th edition, 387.",
+      "explanation": "青少年鼻咽血管纖維瘤(JNA)為富血管腫瘤，切片(biopsy)因高出血風險而「不建議」作為處置選項，故本題答案為D。栓塞(TAE)可用於控制活動性出血、荷爾蒙治療與放射治療為文獻報告過之輔助處置選項、外科手術照會為確定性治療方式，皆屬合理建議。\n\n見 [[juvenile-nasopharyngeal-angiofibroma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "juvenile-nasopharyngeal-angiofibroma"
+      ],
       "checked": false
     },
     {
@@ -3279,10 +3287,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.141；STATdx or Radiology Review Manual.",
       "explanation": "Hypothalamic hamartomas are ~~well-enhancing~~ **nonenhancing** lesion associated with precocious puberty and gelastic seizures.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sellar-parasellar-lesions"
+      ],
       "checked": false
     },
     {
@@ -9127,6 +9137,314 @@
       "images": [],
       "concepts": [
         "renal-anatomy-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-249",
+      "year": 2018,
+      "number": 249,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding the epithelial ovarian tumors, which of the following statement is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mucinous cystadenomas tend to be larger than serous cystadenomas at presentation."
+        },
+        {
+          "letter": "B",
+          "text": "Epithelial tumors with low malignant potential demonstrate more proliferation of papillary projections than benign cystadenomas and often seen in younger patients."
+        },
+        {
+          "letter": "C",
+          "text": "The majority of clear cell carcinomas are stage I disease whose prognosis appears to be better than other ovarian cancers."
+        },
+        {
+          "letter": "D",
+          "text": "Psammoma bodies (calcifications) are seen at histologic analysis in up to 30% of malignant serous tumors."
+        },
+        {
+          "letter": "E",
+          "text": "Bilaterality and peritoneal carcinomatosis are seen more commonly in mucinous cystadenomas than serous type."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2018 交換考題 詳解 p.140；CT and MRI Imaging of Ovarian Tumors with Emphasis on Differential Diagnosis. RadioGraphics 2002;22(6):1305-1325.",
+      "explanation": "雙側性(bilaterality)與腹膜癌病變(peritoneal carcinomatosis)於漿液性(serous)囊腺瘤較黏液性(mucinous)囊腺瘤「更」常見（非黏液性較常見），故本敘述錯誤。黏液性囊腺瘤診斷時通常較大、低度惡性潛能腫瘤乳突增生較良性囊腺瘤多且好發較年輕病人、多數透明細胞癌為stage I且預後較佳、砂粒體見於高達30%惡性漿液性腫瘤，皆為正確描述。\n\n見 [[ovarian-tumors-imaging]]",
+      "images": [],
+      "concepts": [
+        "ovarian-tumors-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-250",
+      "year": 2018,
+      "number": 250,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About pituitary gland, which is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physiologic pituitary enlargement may be caused by puberty or pregnancy/postpartum state."
+        },
+        {
+          "letter": "B",
+          "text": "Pituitary gland consists of ventral adenohypophysis and dorsal neurohypophysis."
+        },
+        {
+          "letter": "C",
+          "text": "In T2-weighted image, hyperintense signal is usually observed at neurohypophysis."
+        },
+        {
+          "letter": "D",
+          "text": "In T1-weighted image, the signal of the normal anterior pituitary lobe appears isointense to pons on sagittal images."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.141；STATdx or Radiology Review Manual.",
+      "explanation": "神經下垂體(neurohypophysis)之高訊號「亮點(posterior pituitary bright spot)」典型出現於「T1加權」影像（非T2），反映後葉神經分泌顆粒(vasopressin相關)，故本敘述錯誤。生理性腦垂體增大可見於青春期或懷孕/產後、腦垂體由腹側腺垂體與背側神經垂體組成、T1上正常前葉訊號與橋腦等訊號，皆為正確描述。\n\n見 [[sellar-parasellar-lesions]]",
+      "images": [],
+      "concepts": [
+        "sellar-parasellar-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-251",
+      "year": 2018,
+      "number": 251,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 10-year-old girl presents with right hip pain. The following X-ray shows sclerosis of femoral head epiphysis. MRI study shows double line sign at femoral head, what's the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SUFE"
+        },
+        {
+          "letter": "B",
+          "text": "Panner disease"
+        },
+        {
+          "letter": "C",
+          "text": "Bone infarct"
+        },
+        {
+          "letter": "D",
+          "text": "Perthes disease"
+        },
+        {
+          "letter": "E",
+          "text": "OCD"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.143；Radiology Review Manual, 6th edition, 51.",
+      "explanation": "股骨頭骨骺硬化合併MRI「double line sign」（代表缺血性壞死之肉芽組織/硬化交界）為Perthes disease（股骨頭缺血性壞死）之典型MRI表現。SUFE為骨骺滑脫、Panner disease侵犯肱骨小頭、bone infarct好發長骨幹骺端而非骨骺、OCD好發關節面局部軟骨下骨。\n\n見 [[sufe-vs-perthes-disease]]",
+      "images": [],
+      "concepts": [
+        "sufe-vs-perthes-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-252",
+      "year": 2018,
+      "number": 252,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 6-day newborn presents with abdominal distention, bilous emesis and blood streaked stools. CT scan shows small bowel and colon distention, bowel wall thickening and \"thumbprinting\", pneumatosis intestinalis also noted, what's the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hirschsprung disease"
+        },
+        {
+          "letter": "B",
+          "text": "Familial adenomatous polyposis syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Intussusception"
+        },
+        {
+          "letter": "D",
+          "text": "Necrotizing enterocolitis"
+        },
+        {
+          "letter": "E",
+          "text": "Peutz-Jehger syndrome"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.143；Radiology Review Manual, 6th edition, 861.",
+      "explanation": "新生兒腹脹合併膽汁性嘔吐、血絲便，CT見小腸與結腸擴張、腸壁增厚合併「thumbprinting」及腸壁積氣(pneumatosis intestinalis)，為壞死性腸炎(necrotizing enterocolitis, NEC)之典型表現。Hirschsprung disease好發便秘非血便；FAP、Peutz-Jeghers為息肉症候群非新生兒急症；腸套疊雖可有血便但通常無廣泛腸壁積氣。\n\n見 [[necrotizing-enterocolitis]]",
+      "images": [],
+      "concepts": [
+        "necrotizing-enterocolitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-253",
+      "year": 2018,
+      "number": 253,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement below is incorrect about ADH?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "This is likely that ADH and DCIS are two close histopathologic entities."
+        },
+        {
+          "letter": "B",
+          "text": "Any biopsy technique, limited or partial sampling probably the major factor in underestimated of ADH diagnosed on US guided core needle biopsy."
+        },
+        {
+          "letter": "C",
+          "text": "A re-biopsy using a vacuum-assisted biopsy device under US guidance might result in decreasing the upgrade rate of ADH on final surgery."
+        },
+        {
+          "letter": "D",
+          "text": "ADH is effective at predicting upgrade malignancy by MG and US features."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.145；American Journal of Roentgenology. June 2014, Volume 202:1389-1394.",
+      "explanation": "目前尚「無法有效」單憑乳房攝影(MG)與超音波(US)影像特徵預測ADH最終病理是否會upgrade為惡性，故本敘述錯誤（應為ineffective而非effective）。ADH與DCIS為組織病理學上相近之兩個實體、任何切片技術之取樣不完整為US導引粗針切片低估ADH之主因、以真空輔助切片(VAB)重新切片可能降低最終手術upgrade率，皆為正確描述。\n\n見 [[breast-premalignant-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-premalignant-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-254",
+      "year": 2018,
+      "number": 254,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement below is incorrect about lobular cancer in situ (LCIS) and Atypical lobular hyperplasia (ALH)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LCIS is generally diagnosed in pathologically when there is involvement of more than 50% of lobular acini, less than 50% called ALH."
+        },
+        {
+          "letter": "B",
+          "text": "A pleomorphic variant (PLCIS) strong resembles DCIS in histologically."
+        },
+        {
+          "letter": "C",
+          "text": "LCIS is symptomatic; frequently multifocal, multicentric and can be bilateral in up to 1/3 cases."
+        },
+        {
+          "letter": "D",
+          "text": "Lobular neoplasia can be found associated with DCIS, IDC and ILC."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.146；AJR 2012;198(2):246-248.",
+      "explanation": "LCIS通常「無症狀(asymptomatic)」，多為偶然發現（非有症狀），此為本題錯誤敘述。LCIS病理診斷以侵犯>50%小葉腺泡為準(<50%稱ALH)、多形性變異型(PLCIS)組織學上近似DCIS、常多發灶/多中心且可達1/3雙側、小葉贅生可與DCIS/IDC/ILC並存，皆為正確描述。\n\n見 [[breast-premalignant-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-premalignant-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-255",
+      "year": 2018,
+      "number": 255,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement below is incorrect about Radial Scar (RS) and Complex Sclerosing Lesions (CSL)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiating scar without atypia usually needs to wide excision."
+        },
+        {
+          "letter": "B",
+          "text": "Benign proliferative lesions characterized a fibro-elastic core containing entrapped ducts with an intact myoepithelial layer and ductules radiating outwards."
+        },
+        {
+          "letter": "C",
+          "text": "A radial scar which larger than 1cm termed as a complex sclerosing lesion."
+        },
+        {
+          "letter": "D",
+          "text": "It may co-exist with benign pathologies, such as cysts, sclerosing adenosis; or atypical hyperplasia, DCIS and early stage invasive carcinoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.146；AJR 2012;198(2):246-248.",
+      "explanation": "不具異型性(atypia)之放射狀疤痕(radial scar)通常僅需「保守密切追蹤(conservative close follow-up)」，並非需要廣泛切除(wide excision)，故本敘述錯誤。良性增生病灶特徵為纖維彈性核心包夾陷入之導管、伴完整肌上皮層與放射狀排列之小管、大於1公分稱複合硬化性病灶(CSL)、可與囊腫/硬化性腺病或異型增生/DCIS/早期侵襲癌並存，皆為正確描述。\n\n見 [[breast-premalignant-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-premalignant-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-256",
+      "year": 2018,
+      "number": 256,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement below is incorrect about papillomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solitary papilloma – from a large central duct, common in perimenopausal age, presenting with bloody or clear nipple discharge."
+        },
+        {
+          "letter": "B",
+          "text": "Atypia is more common in central papilloma."
+        },
+        {
+          "letter": "C",
+          "text": "Multiple papilloma – from terminal duct lobular units, peripheral lesions, in younger women, presenting mass."
+        },
+        {
+          "letter": "D",
+          "text": "Papilloma with atypia can be upgraded to malignancy in 67%."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.147；AJR 2012;198(2):246-248.",
+      "explanation": "異型性(atypia)於「周邊型(peripheral)」乳突瘤較中央型(central)乳突瘤更常見（非中央型較常見），故本敘述錯誤。單發性乳突瘤源自大中央導管、好發停經前後年齡、以血性或清澈乳頭分泌物表現；多發性乳突瘤源自終末導管小葉單位、為周邊病灶、好發較年輕女性、以腫塊表現；合併異型性之乳突瘤最終upgrade為惡性之比例可達67%，皆為正確描述。\n\n見 [[breast-premalignant-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-premalignant-lesions"
       ],
       "checked": false
     }
