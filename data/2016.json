@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 266,
+  "totalQuestions": 267,
   "questions": [
     {
       "id": "2016-001",
@@ -9902,6 +9902,43 @@
       "images": [],
       "concepts": [
         "lung-cancer-tnm-staging"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-267",
+      "year": 2016,
+      "number": 267,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者不屬於 posterior cerebral artery 的分支?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thalamogeniculate artery"
+        },
+        {
+          "letter": "B",
+          "text": "Marginal tentorial artery"
+        },
+        {
+          "letter": "C",
+          "text": "Perisplenial artery"
+        },
+        {
+          "letter": "D",
+          "text": "Lateral posterior choroidal artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Practical Neuroangiography, 2nd ed., pp.158, 226-239",
+      "explanation": "**Marginal tentorial artery並非posterior cerebral artery（PCA）的分支**，而是源自internal carotid artery（ICA）C4 segment之meningohypophyseal trunk（後幹）。\n\n(A) 對：Thalamogeniculate artery為PCA P2 segment之central perforating artery分支。\n(B) **錯（正解）**：Marginal tentorial artery來自ICA C4 meningohypophyseal trunk（後幹），非PCA分支。\n(C) 對：Perisplenial artery為PCA P4 segment之medial分支。\n(D) 對：Lateral posterior choroidal artery為PCA P2 segment之choroidal分支。\n\n→ [[posterior-cerebral-artery-branches]]",
+      "images": [],
+      "concepts": [
+        "posterior-cerebral-artery-branches"
       ],
       "checked": false,
       "years": [
