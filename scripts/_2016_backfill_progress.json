@@ -1,20 +1,24 @@
 {
-  "next_page": 41,
+  "next_page": 49,
   "total_pages": 183,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40],
-  "added_ids": ["2016-260", "2016-261", "2016-262", "2016-263", "2016-264"],
-  "next_id": 265,
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48],
+  "added_ids": ["2016-260", "2016-261", "2016-262", "2016-263", "2016-264", "2016-265"],
+  "next_id": 266,
   "dups_skipped": [
-    "p1-36見前次記錄",
-    "p37=2016-033重複(CTV advantages)+2016-208重複(rotator cuff interval)",
-    "p38=2016-209重複(Maisonneuve fracture)",
-    "p39=2016-034重複(synovial spaces communicate)+2016-210重複(osteopetrosis)",
-    "p40上=2016-035重複(pars interarticularis defects)"
+    "p1-40見前次記錄",
+    "p41=2016-168重複(cervical spine RA)+2016-036重複(lesser-arc injury)",
+    "p42=2016-211重複(osteochondroma malignant)+2016-212重複(brown tumor)",
+    "p43=2016-037重複(TCPC Chinese)",
+    "p44=2016-250重複(ECD confirm CT/MRI)",
+    "p45=2016-038重複(VSD types Chinese)/2016-251重複(VSD classification English)+2016-252重複(TOF associations)",
+    "p46=2016-253重複(APVR)+2016-039重複(cleidocranial dysostosis)",
+    "p47=2016-189重複(Salter Harris most common)+2016-188重複(prune belly triad)",
+    "p48下=2016-040重複(Schwachman-Diamond)"
   ],
   "xyear_dups_merged": [
     "p6上=2017-237已合併(見前次記錄)"
   ],
   "fig_pages": [],
   "flagged": [],
-  "notes": "頁37-39/40上為既有題重印。頁40下新題(Lisfranc ligament連接骨頭)已新增為2016-264，新建概念lisfranc-injury（commit eb8aeed）。repo存在大量與本任務無關之未提交變更，依使用者指示：只commit本批自己的檔案。"
+  "notes": "頁41-47/48下為既有題重印。頁48上新題(croup steeple sign病因鑑別)已新增為2016-265，新建概念croup-steeple-sign（commit 6aed45e）。repo存在大量與本任務無關之未提交變更，依使用者指示：只commit本批自己的檔案。"
 }
