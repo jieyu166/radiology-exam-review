@@ -42,6 +42,11 @@ dateRev: 2026-06-29
 
 - 故 **2016-152 正解 D**（「薄切片使 DBT 對鈣化『更佳』」錯）、**2016-153 正解 B**（「DBT 對微鈣化 morphology＋distribution 更佳」錯）。[^1]
 
+### DBT+FFDM(2D+3D) vs FFDM 單獨篩檢（Friedewald 2014 JAMA，2018-8）
+- **2D+3D 併用 recall rate 略低於 2D 單獨**：FFDM 10.3%（1683/16,264）vs DBT 併用 10.7%（2254/21,074），研究族群/年度不同、統計上無顯著差異(p=0.26)，但常被引為 DBT recall 略降之依據。[^4]
+- **癌偵測率（cancer detection rate）DBT 併用較高**：FFDM 1.8/1000 vs DBT 併用 3.8/1000（p=0.005）。[^4]
+- **PPV1（recall 中癌症比例）DBT 併用較高、非較低**：FFDM 1.8%（26/1478）vs DBT 併用 3.6%（37/1036）（p=0.006）——故「2D+3D 併用之 PPV 較單獨 2D 低」為錯誤選項；「2D+3D 併用需切片比率可能較單獨 2D 高」為正確敘述（PPV 提升代表切片中癌症比例上升，但癌偵測率上升也可能伴隨切片量增加）。[^4]
+
 > [!note] 考點：DBT 何者「有誤」?
 > 「DBT 對**微鈣化的形態與分布**評估更佳」有誤——DBT 強在腫塊/結構扭曲/不對稱與降 recall;微鈣化 morphology/distribution 仍以 2D/放大為準。[^1]
 
@@ -49,6 +54,8 @@ dateRev: 2026-06-29
 [^1]: （Tier 輔助）*Digital breast tomosynthesis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：DBT 以薄切片消除 summation,**改善腫塊形態與 architectural distortion 分析、降低 recall**;改善微鈣化「可見度」但**未提升其形態/分布評估**（masses 與 distortion 才是 morphological 分析受益者）。
 [^2]: （Tier 2，免費 PMC review）Gao Y, et al. *Digital Breast Tomosynthesis: an Overview*. PMC8272763（accessed 2026-06-29）：多角度 15–60° 低劑量投影重建 ~1 mm 薄層去 summation;緻密乳房偵測率 +29%;OTST 6.1→8.0、STORM 5.3→8.1/1000、STORM false-positive −17%;DBT 偵測 architectural distortion 惡性率 10.2% vs FFDM 43.4%（各研究 6.8–50.7%）;synthesized 2D 劑量降 ~45%;DBT 單獨不可靠評估微鈣化、spot magnification FFDM 仍必要;判讀時間約倍增、檔案 200–450 MB、加 2 view 劑量增約 2 倍、step-and-shoot motion artifact、手術夾 ripple/皮膚假性增厚偽影。
 [^3]: （Tier 2，免費 PMC review）Hooley RJ, et al. *Digital Breast Tomosynthesis: Lessons Learned from Early Clinical Implementation*. PMC4319526（accessed 2026-06-29）：callback 10.4%→8.8%（約 −24%,OR 1.24,P<.001）;Oslo 試驗整體癌偵測 +27%、侵襲癌 +40%;判讀時間約倍增;微鈣化偵測文獻分歧;synthesized 2D 與 DBT＋傳統 2D 準確度相當,可免額外曝照;逐層 scroll 定位病灶深度供標靶處置。
+
+[^4]: Friedewald SM, et al. *Breast Cancer Screening Using Tomosynthesis in Combination With Digital Mammography.* JAMA 2014;311(24):2499-2507（Tier 1 原始研究；2018 交換考題詳解 p.12 引用）。DBT+FFDM 併用 recall rate 10.7% vs FFDM 單獨 10.3%(p=0.26)；癌偵測率 3.8/1000 vs 1.8/1000(p=0.005)；PPV1 3.6% vs 1.8%(p=0.006)。
 
 ## 考題
 ```dataview

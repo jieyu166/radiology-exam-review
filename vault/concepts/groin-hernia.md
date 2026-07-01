@@ -49,6 +49,11 @@ dateRev: 2026-06-29
 | 股靜脈 | **常壓迫** | 罕壓迫[^1] |
 | 疝囊 | **小、局限、窄頸** | 可較大/延伸[^1] |
 
+### 各型腹壁疝盛行率排序（2018-147）
+- **腹股溝疝（inguinal）最常見**，占所有腹壁疝絕大多數;**股疝（femoral）遠少於腹股溝疝**（故「股疝比腹股溝疝常見」為錯誤選項）。[^7]
+- **臍疝（umbilical hernia）好發女性**，與腹壓升高（懷孕、肥胖、腹水）相關,成人臍疝女性明顯多於男性。[^7]
+- **Parastomal hernia（造口旁疝）屬 incisional hernia 的一種亞型**——皆因腹壁手術缺損（造口本身即是一種腹壁切口）致腸管/脂肪疝出造口周圍。[^7]
+
 ### DDx（腹股溝區腫塊 mimics）
 - **Spermatic cord lipoma（精索脂肪瘤）**：純脂肪密度沿精索走行，無腸管／液體內容；常與間接疝並存或被誤判為「脂肪疝」，US 最難區分。[^4]
 - **腫大淋巴結（inguinal lymphadenopathy）**：橢圓形、有脂肪門（fatty hilum），非沿疝口走行，不隨 Valsalva 變化。[^4]
@@ -62,6 +67,7 @@ dateRev: 2026-06-29
 [^4]: *Groin Hernia*（Radiologykey 章節，輔助）。疝頸定位：direct 內側／indirect 外側／femoral 韌帶下股靜脈內側；US 動態 Valsalva／站立技術；US 敏感度約 97%、特異度約 86%、PPV 約 93%；純脂肪疝最難診斷；精索脂肪瘤與淋巴結 mimics。
 [^5]: *Contemporary imaging of inguinal hernia and pain / abdominal wall hernia MDCT review.* Br J Radiol / RadioGraphics（Tier 1–2 review；全文層級）。MRI 對 occult hernia 敏感度 91–100%、特異度 92–97%；絞扼徵象（腸壁不強化、積液、近端擴張、脂肪 stranding、closed-loop、mesenteric swirl、pneumatosis）；femoral 絞扼風險 20–25% vs inguinal 約 3%。
 [^6]: *Obturator hernia: CT diagnosis*（PMC 病例與文獻回顧，Tier 2）。如 PMC4269088。老年消瘦女性；疝囊於 pectineus 與 obturator externus 間；Howship-Romberg sign 約 37%；CT 為首選診斷工具，常以小腸阻塞表現。
+[^7]: Aguirre DA, et al. *Abdominal Wall Hernias: Imaging Features, Complications, and Diagnostic Pitfalls at Multi–Detector Row CT.* RadioGraphics 2005;25(6):1501-20（Tier 1, RadioGraphics；2018 交換考題詳解 p.9 引用）。腹股溝疝為最常見腹壁疝型別，股疝相對少見；臍疝好發女性（腹壓升高相關）；parastomal hernia 為 incisional hernia 之亞型。
 
 ## 考題
 ```dataview

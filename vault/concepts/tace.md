@@ -45,6 +45,9 @@ up: "[[bclc-hcc]]"
 - **肝梗塞**：動態 CT 見**無強化低密度區（常呈楔狀）＋碘油內氣泡**；MRI T1 低、T2 高訊號。[^7]
 - **異位/非標的栓塞**：碘油經動靜脈分流致**肺碘油栓塞**；反流入胃十二指腸動脈致潰瘍/胰臟炎；囊動脈阻塞致**膽囊缺血**。術前/錐狀束 CT 辨識變異側枝以預防。[^4][^7]
 
+## 療效（vs 全身化療、藥物選擇、門脈血栓）
+- **TACE 較全身輸注化療顯著延長存活**：不可切除 HCC 中 TACE 治療組中位存活較全身化療組長（來源引 J Vasc Interv Radiol 2005;16:1653-9 之比較數據）；「TACE 是唯一治療選項」為錯誤選項（尚有手術、消融、全身治療、移植等）；「療效主要取決於所用藥物種類」與「門脈血栓會提升 TACE 療效」亦非正確敘述——門脈血栓反而是相對禁忌（見上）。（2018 交換考題詳解 p.11）[^8]
+
 ## 判讀陷阱
 - **碘油偽影**：CT 上碘油高密度會**遮蔽底下強化**，亦造成 beam-hardening 偽影；勿把「碘油緻密沉積」直接當「完全壞死」，亦勿把碘油密度誤判為存活腫瘤——存疑改 MRI 減影。[^3][^5]
 - **良性炎性邊緣（benign periablational/inflammatory rim）vs 結節狀強化**：治療後周邊可見**薄、平滑、連續的環狀強化**（炎性/肉芽組織反應），可持續 >1 年，**無 washout**＝良性；**厚、不規則、結節狀邊緣強化且有 washout**＝存活殘餘腫瘤。形態（平滑 vs 結節/不規則）與是否 washout 為關鍵分辨點。[^3][^5]
@@ -60,6 +63,7 @@ up: "[[bclc-hcc]]"
 [^4]: Tier 2（PMC）：TACE 供血動脈解剖、肝外側枝（膈下/肋間/腎上腺等）、cone-beam CT 辨識副/變異動脈（胃左、囊、鐮狀韌帶動脈）以避免非標的栓塞——綜整自 Korean J Radiol 2022 複習（DOI 10.3348/kjr.2022.0395）與 IR 標準教學。
 [^5]: Tier 1（AJR）：*Imaging Assessment of Hepatocellular Carcinoma Response to Locoregional and Systemic Therapy*. AJR 2014. DOI 10.2214/AJR.13.10706（全文付費，依摘要/RSNA 複習交叉查證之層級）——cTACE 碘油高衰減遮蔽 CT 強化判讀、mRECIST/EASL 量「存活（強化）腫瘤」而非整體大小、MRI 減影為 lipiodol-based TACE 追蹤建議方法。
 [^6]: Tier 1（RSNA）：*CT/MRI LI-RADS 2024 Update: Treatment Response Assessment*. Radiology 2024. DOI 10.1148/radiol.232408——LR-TR Viable/Nonviable/Equivocal/Nonevaluable 以動脈期強化為主軸；涵蓋 cTACE、DEB-TACE、bland TAE；Equivocal 多數病理仍有殘存腫瘤。
+[^8]: Georgiades CS, et al. *Safety and efficacy of transarterial chemoembolization in patients with unresectable hepatocellular carcinoma and portal vein thrombosis.* J Vasc Interv Radiol 2005;16:1653-9；Brown DB, et al. *Hepatic arterial chemoembolization for hepatocellular carcinoma: Comparison of survival rates with different embolic agents.* J Vasc Interv Radiol 2005;16:1661-6（2018 交換考題詳解 p.11 引用；Tier 2 原始研究）。
 [^7]: Tier 2（Korean J Radiol，PMC）：*Complications Related to Transarterial Treatment of HCC: A Comprehensive Review*. Korean J Radiol 2022. DOI 10.3348/kjr.2022.0395——PES 無特異影像（純臨床）；肝膿瘍見含氣＋散在碘油（高風險膽腸吻合/乳頭切開/膽道阻塞）；肝梗塞無強化楔狀低密度＋碘油內氣泡；膽道缺血致 biloma/狹窄；肺碘油栓塞、胃十二指腸潰瘍、膽囊缺血為異位栓塞表現。
 
 > [!question]- 關於 TACE 的禁忌/風險，哪項敘述錯誤？

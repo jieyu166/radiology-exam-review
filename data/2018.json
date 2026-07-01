@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 139,
+  "totalQuestions": 145,
   "questions": [
     {
       "id": "2018-001",
@@ -5000,6 +5000,226 @@
       "images": [],
       "concepts": [
         "fatty-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-140",
+      "year": 2018,
+      "number": 140,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Features of abdominal wall hernia, which one is **wrong**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inguinal hernia is the most common type"
+        },
+        {
+          "letter": "B",
+          "text": "Femoral hernias are more common than inguinal hernia"
+        },
+        {
+          "letter": "C",
+          "text": "Umbilical hernia are particularly common in women"
+        },
+        {
+          "letter": "D",
+          "text": "Parastomal hernias are subtype of incisional hernia"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.9；RadioGraphics 2005;25(6):1501-20. Abdominal wall hernias: imaging features, complications, and diagnostic pitfalls at multi-detector row CT.",
+      "explanation": "腹股溝疝為最常見的腹壁疝型別，股疝反而遠少於腹股溝疝，故「股疝較腹股溝疝常見」為錯誤敘述。臍疝好發女性、造口旁疝屬 incisional hernia 亞型皆為正確敘述。\n\n見 [[groin-hernia]]",
+      "images": [],
+      "concepts": [
+        "groin-hernia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-141",
+      "year": 2018,
+      "number": 141,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning dysfunctional dialysis access grafts, the underlying abnormality is MOST frequently found:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "at the arterial anastomosis"
+        },
+        {
+          "letter": "B",
+          "text": "mid graft"
+        },
+        {
+          "letter": "C",
+          "text": "at the venous anastomosis"
+        },
+        {
+          "letter": "D",
+          "text": "involving central veins"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.10；Vogel PM, Parise C. Comparison of SMART Stent Placement for Arteriovenous Graft Salvage versus Successful Graft PTA. J Vasc Interv Radiol 2005;16:1619-26.",
+      "explanation": "透析用人工血管（AV graft）功能不良最常見的病灶位置是靜脈吻合端（venous anastomosis）的內膜增生狹窄，遠多於動脈吻合端、graft 中段或中心靜脈。",
+      "images": [],
+      "concepts": [],
+      "checked": false
+    },
+    {
+      "id": "2018-142",
+      "year": 2018,
+      "number": 142,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning transhepatic arterial chemoembolization (TACE) of hepatocellular carcinoma, which one of the following is TRUE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TACE is the only treatment option for hepatocellular carcinoma."
+        },
+        {
+          "letter": "B",
+          "text": "TACE will prolong survival compared to systemic infused chemotherapy."
+        },
+        {
+          "letter": "C",
+          "text": "The effectiveness of TACE depends greatly on the choice of drugs used."
+        },
+        {
+          "letter": "D",
+          "text": "Thrombosis of the portal vein will increase the effectiveness of TACE"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.11；Georgiades CS, et al. J Vasc Interv Radiol 2005;16:1653-9；Brown DB, et al. J Vasc Interv Radiol 2005;16:1661-6.",
+      "explanation": "TACE 相較全身輸注化療可顯著延長不可切除 HCC 病人的存活期。TACE 並非唯一治療選項（尚有手術/消融/移植/全身治療等）、療效非主要取決於藥物選擇、門脈血栓為相對禁忌而非增效因子。\n\n見 [[tace]]",
+      "images": [],
+      "concepts": [
+        "tace"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-143",
+      "year": 2018,
+      "number": 143,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於digital breast tomosynthesis (DBT)及full-field digital mammography(FFDM)之比較，以下何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "DBT比FFDM之recall rate稍低"
+        },
+        {
+          "letter": "B",
+          "text": "DBT比FFDM之cancer detection rate稍高"
+        },
+        {
+          "letter": "C",
+          "text": "FFDM(2D)和DBT(3D)同時施行時，陽性預測值(PPV)會比單獨2D時低"
+        },
+        {
+          "letter": "D",
+          "text": "2D+3D同時施行，需切片之比率可能比單獨2D時高."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.12（官方答案鍵標 C，並註記 D 也有爭議）；Friedewald SM, et al. JAMA 2014;311(24):2499-2507.",
+      "explanation": "Friedewald 2014 JAMA：DBT+FFDM 併用之 PPV1 較單獨 FFDM 更高（3.6% vs 1.8%），非更低，故 C 為錯誤敘述。recall rate 併用略低於單獨 FFDM（10.7% vs 10.3%，未達顯著）、癌偵測率併用較高（3.8‰ vs 1.8‰）。\n\n> [!warning] 官方詳解在此題答案欄註記「D也錯」，惟依 JAMA 2014 原始數據 D（切片比率可能較高）與 PPV 上升方向一致，暫依官方標示 C 為準，待醫師確認。\n\n見 [[breast-tomosynthesis]]",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-144",
+      "year": 2018,
+      "number": 144,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about Fournier gangrene is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lethal necrotizing fasciitis of scrotum"
+        },
+        {
+          "letter": "B",
+          "text": "usually predisposed with diabetes"
+        },
+        {
+          "letter": "C",
+          "text": "CT is essential to identify the extent of disease"
+        },
+        {
+          "letter": "D",
+          "text": "In most cases, primary focus of infection could not be identified."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.15；Dahnert W. Radiology Review Manual, p.767.",
+      "explanation": "多數 Fournier gangrene 病例的原發感染源「可被找到」，最常見為肛門直腸來源（perianal fistula/abscess），其次泌尿生殖道或會陰創傷；故「大多數找不到原發灶」為錯誤敘述。\n\n見 [[fournier-gangrene]]",
+      "images": [],
+      "concepts": [
+        "fournier-gangrene"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-145",
+      "year": 2018,
+      "number": 145,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT the common complication of ADPKD?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "infection"
+        },
+        {
+          "letter": "B",
+          "text": "hemorrhage"
+        },
+        {
+          "letter": "C",
+          "text": "urolithiasis"
+        },
+        {
+          "letter": "D",
+          "text": "adhesion"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.16；Katano K, et al. Clinical Nephrology 2011;75(Suppl 1):S24-S26.",
+      "explanation": "ADPKD 常見併發症為囊腫感染、囊內出血、尿路結石；沾黏（adhesion）並非 ADPKD 病理本身的典型直接併發症。\n\n見 [[adpkd-complications]]",
+      "images": [],
+      "concepts": [
+        "adpkd-complications"
       ],
       "checked": false
     }
