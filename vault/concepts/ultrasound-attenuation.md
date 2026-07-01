@@ -7,7 +7,7 @@ aliases:
   - ultrasound attenuation
   - acoustic attenuation
   - 超音波衰減
-dateRev: 2026-06-30
+dateRev: 2026-07-01
 same:
   - "[[ultrasound-prf-depth]]"
   - "[[ultrasound-speed-artifact]]"
@@ -23,7 +23,7 @@ same:
 - **題目重點**：「散射與吸收的合併效應」＝ **attenuation**（衰減）。[^1]
 - **頻率相依**：**attenuation coefficient 隨頻率升高而增加**——高頻 → 衰減快、穿透淺；低頻 → 穿透深、解析度差（時間增益補償 TGC 用以校正深部訊號衰減）。[^1]
 - **組織差異**：衰減係數最高為**充氣肺、皮質骨**（近乎不透聲）；最低為**水、血液**；軟組織/肌肉介於其間。[^1]
-- **量化單位**：衰減約「**每公分等於發射頻率（MHz）的 dB 數**」，故 5 MHz 探頭軟組織約 5 dB/cm；頻率越高、單位深度損耗越大。[^2]
+- **量化單位**：衰減係數以 **dB/cm/MHz** 表示，隨頻率近乎線性增加（故高頻解析度好但穿透差、衰減快為必然取捨）；粗略經驗值約「每公分等於發射頻率（MHz）的 dB 數」，5 MHz 探頭軟組織約 5 dB/cm。[^2] **實際組織別衰減係數差異極大**：**水 0.02 dB/cm/MHz、肝臟 0.4 dB/cm/MHz、骨骼 20 dB/cm/MHz**（水與骨骼相差約千倍），此即為何充氣肺／皮質骨後方幾乎全塌陷成聲影，而水／血液幾乎不衰減。[^3]
 
 ## 為何「衰減」是影像判讀的根本：從物理到讀片
 > 此節聚焦 attenuation 如何「決定影像長相」；各偽影的逐項外觀、三型聲影與鑑別陷阱見 [[ultrasound-artifacts]]，此處不重複，只補成因橋樑。
@@ -48,7 +48,7 @@ same:
 ### 參考來源
 [^1]: *Attenuation (ultrasound)*. Radiopaedia.org, rID-67529, https://doi.org/10.53347/rID-67529 （引 Hedrick《Technology for Diagnostic Sonography》等；實際查證 accessed 2026-06-14）。
 [^2]: Grogan SP, Mount CA. *Ultrasound Physics and Instrumentation*. **StatPearls** (Internet). Treasure Island (FL): StatPearls Publishing; bookshelf ID NBK570593（教科書級章節，accessed 2026-06-30）：衰減率約「每公分 dB ≈ 發射頻率 MHz」，頻率↑→穿透↓、解析度↑（反向取捨）；TGC 為依深度補償衰減的增益控制；acoustic shadowing（高衰減/強反射體後方訊號塌陷）與 posterior acoustic enhancement（低衰減含液結構後方相對增亮）皆以衰減為機轉。https://www.ncbi.nlm.nih.gov/books/NBK570593/
-[^3]: Baad M, Lu ZF, Reiser I, Paushter D. *Clinical Significance of US Artifacts*. **RadioGraphics**. 2017;37(5):1408-1423（RSNA 同行評審綜述，Tier 1；付費全文未取得，依 PubMed/摘要層級查證 PMID 28777700）：灰階偽影按物理機轉分類，含衰減相關之 acoustic shadowing 與 posterior acoustic enhancement（後方增強源於低衰減結構使遠端波束相對較強、TGC 過度補償）。[DOI](https://doi.org/10.1148/rg.2017160175)
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Baad M, Lu ZF, Reiser I, Paushter D. *Clinical Significance of US Artifacts*. **RadioGraphics**. 2017;37(5):1408-1423. [DOI](https://doi.org/10.1148/rg.2017160175)。重點：吸收為衰減主因，但反射、散射、波束發散亦有貢獻；吸收與散射皆隨頻率增加，故衰減係數（dB/cm/MHz）幾近線性隨頻率上升，此即高頻解析度佳但穿透差之取捨來源；**組織別衰減係數：水 0.02、肝臟 0.4、骨骼 20 dB/cm/MHz**；TGC 依回聲到達時間調整深部增益之假設與真實組織衰減之偏差，即為衰減相關偽影（後方增強＝TGC 對低衰減結構過度補償；聲影）之成因。
 [^4]: Hsu P-C, Chang K-V, et al. *Artifacts in Musculoskeletal Ultrasonography: From Physics to Clinics*. **Diagnostics** (Basel). 2020;10(9):645（同行評審綜述，full-text via PMC PMC7555047）：頻率-穿透-解析度取捨、posterior enhancement 與 acoustic shadowing 之影像表現與成因。[DOI](https://doi.org/10.3390/diagnostics10090645)
 
 ## 考題
