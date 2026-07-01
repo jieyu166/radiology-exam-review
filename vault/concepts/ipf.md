@@ -54,6 +54,9 @@ concepts: [ipf]
 > [!question]- 何者「不」符合 UIP pattern 的 HRCT 表現? (2017-158)
 > **None of the above（E）**——subpleural/basal predominance、reticular abnormality、honeycombing（伴或不伴 traction bronchiectasis）皆符合 UIP pattern。[^1]
 
+> [!question]- UIP typical features 何者「非真」? (2018-179)
+> **「主要侵犯肺的中上肺野」非真**——UIP/IPF 為 **subpleural + basal predominant**（周邊＋基底為主），非中上肺野為主（中上肺為主反而提示 alternative diagnosis，見上）。Honeycombing、lung architectural distortion、reticular opacities 皆為 UIP 典型真實表現。[^1][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")

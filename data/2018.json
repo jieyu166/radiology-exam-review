@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 177,
+  "totalQuestions": 183,
   "questions": [
     {
       "id": "2018-001",
@@ -4503,7 +4503,8 @@
       "year": 2018,
       "number": 126,
       "years": [
-        2018
+        2018,
+        2019
       ],
       "subspecialty": "Unknown",
       "subspecialty_confidence": "auto",
@@ -5154,7 +5155,8 @@
       "year": 2018,
       "number": 144,
       "years": [
-        2018
+        2018,
+        2019
       ],
       "subspecialty": "ABD",
       "subspecialty_confidence": "manual",
@@ -5191,7 +5193,8 @@
       "year": 2018,
       "number": 145,
       "years": [
-        2018
+        2018,
+        2019
       ],
       "subspecialty": "ABD",
       "subspecialty_confidence": "manual",
@@ -6420,6 +6423,228 @@
       "images": [],
       "concepts": [
         "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-178",
+      "year": 2018,
+      "number": 178,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the internal thoracic lymphadenopathy in breast cancer, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Factors that increase the likelihood of internal thoracic node metastases include medial location, nonpalpable tumor, age less than 35 years and lymphovascular invasion."
+        },
+        {
+          "letter": "B",
+          "text": "Nodal enlargement >5mm is the best clue to metastatic involvement at US, CT or MR imaging."
+        },
+        {
+          "letter": "C",
+          "text": "US-guided FNAB can be a safe and effective method for internal thoracic node sampling when clinically desired."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.65；Internal Thoracic Lymphadenopathy in Breast Cancer. RadioGraphics 2017;37:page 1025.",
+      "explanation": "內乳淋巴結轉移風險因子、增大>5mm之偵測線索、US導引FNAB取樣安全性皆為正確敘述。\n\n見 [[internal-thoracic-lymphadenopathy]]",
+      "images": [],
+      "concepts": [
+        "internal-thoracic-lymphadenopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-179",
+      "year": 2018,
+      "number": 179,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the typical features of usual interstitial pneumonia is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Honey combing"
+        },
+        {
+          "letter": "B",
+          "text": "Lung architectural distortion"
+        },
+        {
+          "letter": "C",
+          "text": "Involves the mid and upper zones of the lung"
+        },
+        {
+          "letter": "D",
+          "text": "Reticular opacities"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.68；Radiopaedia, Usual interstitial pneumonia.",
+      "explanation": "UIP/IPF 為 subpleural + basal predominant（周邊＋基底為主），非中上肺野為主。\n\n見 [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-180",
+      "year": 2018,
+      "number": 180,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which rib malformation has the following imaging characteristic: anterior portion of the rib is duplicated and most often the fourth rib?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Developmental rib fusion"
+        },
+        {
+          "letter": "B",
+          "text": "Bifid rib"
+        },
+        {
+          "letter": "C",
+          "text": "Supernumerary rib"
+        },
+        {
+          "letter": "D",
+          "text": "Bone bridging"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.69；Traumatic Rib Injury: Patterns, Imaging Pitfalls, Complications, and Treatment. RadioGraphics 2017;37:page 633.",
+      "explanation": "Bifid rib（分叉肋）特徵為肋骨前段重複分叉，最常見於第四肋。\n\n見 [[rib-congenital-anomalies]]",
+      "images": [],
+      "concepts": [
+        "rib-congenital-anomalies"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-181",
+      "year": 2018,
+      "number": 181,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "About pulmonary tuberculosis, which of the following is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary tuberculosis has radiologic findings include lymphadenopathy, consolidation, pleural effusion, and military nodules."
+        },
+        {
+          "letter": "B",
+          "text": "Postprimary tuberculosis has consolidations that are predominant in the apical and upper lung zones, nodules and cavitation."
+        },
+        {
+          "letter": "C",
+          "text": "Classic nontuberculous mycobacterial infection is characterized by lower lobe cavitary lesions and centrilobular and tree-in-bud nodules."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.70；Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management. RadioGraphics 2017;37:page 633.",
+      "explanation": "典型（空洞型）非結核分枝桿菌感染特徵為上肺葉（非下肺葉）空洞病灶合併中心小葉與樹芽狀結節，影像可與後原發性結核幾乎無法區分。\n\n見 [[pulmonary-tuberculosis-imaging]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-tuberculosis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-182",
+      "year": 2018,
+      "number": 182,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "The common osseous chest wall malignancies include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple myeloma"
+        },
+        {
+          "letter": "B",
+          "text": "Kaposi sarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "Undifferentiated pleomorphic sarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Metastasis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.70；Imaging Evaluation of Malignant Chest Wall Neoplasms. RadioGraphics 2016;36:page 1287.",
+      "explanation": "胸壁骨性惡性病灶最常見為轉移與多發性骨髓瘤；本題選項中骨性惡性代表為 multiple myeloma（其餘為軟組織惡性腫瘤）。\n\n見 [[chest-wall-tumors]]",
+      "images": [],
+      "concepts": [
+        "chest-wall-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-183",
+      "year": 2018,
+      "number": 183,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which CT artifacts of coronary CT will not be improved by increased tube potential?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Beam hardening"
+        },
+        {
+          "letter": "B",
+          "text": "Metal or streak artifact"
+        },
+        {
+          "letter": "C",
+          "text": "Quantum mottle"
+        },
+        {
+          "letter": "D",
+          "text": "Slab or banding"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.72；Artifacts at Cardiac CT: Physics and Solutions. RadioGraphics 2016;36:page 2066.",
+      "explanation": "Slab/banding artifact 成因為掃描期間對比劑強化變化，與 tube potential 無關；beam hardening、metal/streak artifact、quantum mottle 皆可由增加 tube potential 改善。\n\n見 [[cardiac-ct-artifacts]]",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-artifacts"
       ],
       "checked": false
     }
