@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 195,
+  "totalQuestions": 202,
   "questions": [
     {
       "id": "2018-001",
@@ -7089,6 +7089,265 @@
       "images": [],
       "concepts": [
         "hypertrophic-osteoarthropathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-196",
+      "year": 2018,
+      "number": 196,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "About pectoralis major, which of the following statements is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clavicular head is more commonly torn."
+        },
+        {
+          "letter": "B",
+          "text": "The bicipital groove is a key structure in the US evaluation of the pectoralis major."
+        },
+        {
+          "letter": "C",
+          "text": "At imaging, edema or fluid within the deltopectoral groove and anterior to the coracobrachialis muscle should prompt suspicion of pectoralis major injury."
+        },
+        {
+          "letter": "D",
+          "text": "US findings of pectoralis major tendon injuries include disruption, absence, and retraction of the tendon and muscle fibers, as well as hematoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.89；US and MR imaging of Pectoralis Major Injuries. RadioGraphics 2017;37:page 177.",
+      "explanation": "胸骨頭（sternal head，占肌肉體積約80%）較常撕裂，非鎖骨頭。\n\n見 [[pectoralis-major-injury]]",
+      "images": [],
+      "concepts": [
+        "pectoralis-major-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-197",
+      "year": 2018,
+      "number": 197,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "About metabolic bone disease, which of the following is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoporosis is the most common metabolic bone disease."
+        },
+        {
+          "letter": "B",
+          "text": "Osteomalacia is inadequate or abnormal mineralization of osteoid in cortical and trabecular bone."
+        },
+        {
+          "letter": "C",
+          "text": "In 95% of patients with hyperparathyroidism, skeletal findings are most readily recognized in the spine."
+        },
+        {
+          "letter": "D",
+          "text": "Renal osteodystrophy refers to the complex of findings observed in the setting of chronic renal insufficiency."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.91；Imaging Findings of Metabolic Bone Disease. RadioGraphics 2016;36:page 1872.",
+      "explanation": "95%副甲狀腺機能亢進病人的骨骼變化最容易在「手部」（橈側中節指骨骨膜下骨吸收）辨識，非脊椎。\n\n見 [[metabolic-bone-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-198",
+      "year": 2018,
+      "number": 198,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "About injured pediatric athlete in upper extremity, which of the following statements is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pediatric athletes are related to the presence of the cartilaginous physes and apophyses required for skeletal growth."
+        },
+        {
+          "letter": "B",
+          "text": "Little league's shoulder is an overuse injury, which is usually seen in baseball pitchers aged 11-16 years old."
+        },
+        {
+          "letter": "C",
+          "text": "Gymnast's wrist develops when there is repetitive trauma to the distal wrist in flextension."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.92；https://doi.org/10.1148/rg.2016160036",
+      "explanation": "Gymnast's wrist 是因手腕反覆處於「伸直（extension）」而非「屈曲（flexion）」姿勢下，遠端橈骨骨骺板受壓迫性創傷所致。\n\n見 [[pediatric-athlete-upper-extremity-injury]]",
+      "images": [],
+      "concepts": [
+        "pediatric-athlete-upper-extremity-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-199",
+      "year": 2018,
+      "number": 199,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Temporal lobe involvement with sparing of the lentiform nuclei is typical in ______?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesial temporal sclerosis"
+        },
+        {
+          "letter": "B",
+          "text": "Congenital CMV infection"
+        },
+        {
+          "letter": "C",
+          "text": "Herpes simplex virus encephalitis"
+        },
+        {
+          "letter": "D",
+          "text": "Gliomatosis cerebri"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.93。",
+      "explanation": "HSV 腦炎典型侵犯顳葉並保留豆狀核，為其診斷特徵性影像表現。\n\n見 [[herpes-simplex-encephalitis]]",
+      "images": [],
+      "concepts": [
+        "herpes-simplex-encephalitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-200",
+      "year": 2018,
+      "number": 200,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of ductal ectasia of breast?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ductal ectasia is most commonly found in the subareolar regions of both breasts on mammography"
+        },
+        {
+          "letter": "B",
+          "text": "Calcifications may be present within or around ducts"
+        },
+        {
+          "letter": "C",
+          "text": "MRI showed retroareolar tubular structures may be bright when filled with proteinaceous or bloody fluid on T1WI"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.95；Diagnostic imaging breast, page 45.",
+      "explanation": "雙側乳暈下好發位置、管內外鈣化、MRI T1WI因蛋白性/血性液體可呈高訊號，皆為正確敘述。\n\n見 [[breast-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "breast-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-201",
+      "year": 2018,
+      "number": 201,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Ductal carcinoma in situ (DCIS) of breast?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcifications are the most common findings"
+        },
+        {
+          "letter": "B",
+          "text": "30-67% DCIS patients eventually develop invasive carcinoma in same region"
+        },
+        {
+          "letter": "C",
+          "text": "Presence of fine linear or branching calcifications is highly suggestive of DCIS, usually high-grade"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.96；Diagnostic imaging breast, page 104.",
+      "explanation": "鈣化為DCIS最常見表現、30-67%病人最終發展侵襲性癌、細線狀/分支狀鈣化高度提示高級別DCIS，皆為正確敘述。\n\n見 [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-202",
+      "year": 2018,
+      "number": 202,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Invasive lobular carcinoma of breast?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The best diagnostic clue is developing focal asymmetry with distortion and palpable thickening"
+        },
+        {
+          "letter": "B",
+          "text": "Calcifications are rare (1-11%)"
+        },
+        {
+          "letter": "C",
+          "text": "Ultrasounds can be nearly anechoic with posterior enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.96；Diagnostic imaging breast, page 144.",
+      "explanation": "ILC 最佳診斷線索為局部不對稱合併結構扭曲與可觸摸增厚、鈣化少見（1-11%），皆正確。\n\n> [!warning] 選項C「近乎無回音伴後方回音增強」與 ILC 典型US表現（不規則低回音、邊界不清、後方聲影/shadowing，而非後方增強）不一致——後方增強通常提示囊性/液性病灶而非ILC典型的浸潤性實質病灶。本題原始詳解本身之補充註解亦僅提及「低回音伴後方聲影」，未支持「近乎無回音伴後方增強」之描述。官方標示答案為D（以上皆正確），暫依官方為準，惟此選項C與文獻存在明顯矛盾，建議醫師對照原始考卷確認。\n\n見 [[invasive-lobular-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
       ],
       "checked": false
     }

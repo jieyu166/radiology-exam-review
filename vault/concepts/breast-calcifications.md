@@ -68,11 +68,17 @@ dateRev: 2026-06-29
 > [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
 > 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
 
+## DCIS 整體描述補充（2018-197）
+- **鈣化為 DCIS 最常見的影像表現**，優先於腫塊或其他徵象。
+- **約 30–67% 的 DCIS 病人最終於同一區域發展為侵襲性癌**，故 DCIS 需積極處置與追蹤。
+- **細線狀或分支狀鈣化（fine linear or branching）高度提示 DCIS，且通常為高級別（high-grade）**，與本概念上方「fine linear/fine-linear branching PPV 最高」的判讀骨架一致。
+
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**(secretory)/round/punctate/rim/dystrophic/**milk of calcium**/suture；**Suspicious Morphology** 為 amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；**Distribution** 為 diffuse/regional/grouped/linear/segmental（後二者較可疑）。內容經 Radiology Assistant（*BI-RADS for Mammography and Ultrasound 2013*，radiologyassistant.nl）逐項對照確認（accessed 2026-06-29）。指引／教學圖譜級。
 [^2]: 型態 PPV 數據（文獻分歧並列）：(a) 一研究組報告 amorphous ~15.9%、coarse heterogeneous ~31.7%、fine pleomorphic ~58.2%、fine linear/branching ~90.6%；(b) 另一以 BI-RADS 5th ed. 為基礎之研究組報告 amorphous ~7.9–13%、coarse heterogeneous ~17.8%、fine pleomorphic ~63.2%、fine linear/branching 趨近 100%。本文採區間並列。來源：*Malignancy Risk Stratification of Suspicious Breast Microcalcifications…（BI-RADS 5th ed.）*, PMC12788938；及 PubMed 25608770（*Evaluation of malignancy risk stratification of microcalcifications…*）。同儕審查原著級。
 [^3]: 分布 PPV 與 DCIS 關聯（文獻分歧並列）：regional ~9–32%、grouped ~14–31%、linear ~50–88%、segmental ~64–78%；fine linear branching + segmental 為 DCIS（含 comedo-type 壞死）典型表現。來源同 [^2] 之 PMC12788938 及 PubMed 25608770。同儕審查原著級。
 [^4]: 斷層攝影（DBT）對微鈣化的偵測非其優勢、鈣化評估仍以全視野數位攝影＋放大為主：StatPearls（*Breast Imaging Reporting and Data System*, NCBI Bookshelf NBK459169）相關章節說明（accessed 2026-06-29）。教科書／審閱章節級。
+[^9]: *Diagnostic Imaging: Breast*, page 104（2018 交換考題詳解 p.96 引用；Tier 3 教科書）。鈣化為DCIS最常見表現；30-67%病人最終發展侵襲性癌；細線狀/分支狀鈣化高度提示高級別DCIS。
 
 ## 題目
 > [!question]- Calcification is seen on a screening mammogram. Which of the following patterns is the most likely to be associated with a carcinoma? (2017-271)
