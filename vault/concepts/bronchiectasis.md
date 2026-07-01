@@ -8,7 +8,7 @@ aliases:
   - Mounier-Kuhn syndrome
   - Swyer-James syndrome
   - 支氣管擴張
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # bronchiectasis
@@ -20,7 +20,8 @@ dateRev: 2026-06-29
 - **Mounier-Kuhn syndrome（tracheobronchomegaly）**：**中央氣道（氣管、主支氣管）異常擴大**——是中央、非中段。[^1]
 - **Swyer-James syndrome**：感染後 **bronchiolitis obliterans** → 單側透亮肺 + 不對稱支氣管擴張（整側肺）。[^1]
 - **Bronchiolitis obliterans**：**小氣道**病變，非選擇性中段支氣管擴張之因。[^1]
-- 分布線索：中央 → ABPA（中央性）、Mounier-Kuhn；上肺 → CF、ABPA、TB、sarcoid；下肺 → 吸入、免疫缺乏、primary ciliary dyskinesia。[^1]
+- 分布線索：中央 → ABPA（中央性）、Mounier-Kuhn；上肺 → CF、ABPA、TB、sarcoid、silicosis；下肺 → 吸入、免疫缺乏、primary ciliary dyskinesia；**前段（RML/舌葉）→ MAC（Lady Windermere）**。[^1]
+- **機轉（Cole vicious cycle）**：氣道損傷 → 感染 → 發炎 → 更多氣道損傷的惡性循環;**管壁增厚＋黏液栓＝慢性氣道發炎的徵象**;判讀策略＝以「分布＋型態＋伴隨氣道/實質所見」收斂病因。[^1]
 
 ## HRCT 判讀骨架
 
@@ -44,7 +45,7 @@ dateRev: 2026-06-29
 ### 分布定位鑑別
 | 分布 | 優先病因 | 影像線索 |
 | --- | --- | --- |
-| **上肺** | CF、TB、sarcoidosis、放射後 | CF 多上葉為主合併黏液栓[^1][^5] |
+| **上肺／中上肺** | CF、TB、sarcoidosis、**silicosis／塵肺 pneumoconioses**、ABPA、放射後 | 上肺淋巴清除較差 → 吸入性／perilymphatic 病好發於此;CF 多上葉合併黏液栓[^1][^5] |
 | **中葉／舌葉** | MAC/NTM（**Lady Windermere syndrome**） | 老年非免疫缺陷女性，中葉舌葉支氣管擴張＋centrilobular nodule＋tree-in-bud[^1][^6] |
 | **下肺** | 吸入（aspiration）、感染後、免疫缺乏、PCD | 重力依賴區、後基底段[^1][^5] |
 | **中央** | **ABPA**、Mounier-Kuhn | ABPA 中央性擴張合併黏液栓，**約 1/5 為高密度黏液（>70 HU，因鐵/錳沉積）**[^1][^5] |

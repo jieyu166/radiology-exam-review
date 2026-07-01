@@ -6,7 +6,7 @@ aliases:
   - chronic cholecystitis
   - bile signal T1 MRI
   - 慢性膽囊炎
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # chronic-cholecystitis
@@ -29,6 +29,7 @@ dateRev: 2026-06-29
 - **膽囊壁增厚但「均勻、平滑」**：壁厚 >3 mm，但呈**瀰漫、對稱、平滑**的增厚（纖維化所致），不像急性那樣有明顯水腫分層或高度充血。[^3][^4]
 - **膽囊縮小（contracted GB）**：慢性纖維化使膽囊體積變小、腔變窄；CT 量測短徑／長徑均小於急性（短徑約 2.9 vs 3.7 cm、長徑約 7.6 vs 9.6 cm）。[^4]
 - **壁強化但無周邊發炎徵象**：CT 上慢性膽囊炎壁可強化（纖維化、慢性增厚，甚至比急性更常見壁強化），但**缺乏急性的旁徵**——無 transient hepatic enhancement（肝床一過性高強化）、無壁分層水腫、無周圍脂肪糢糊／積液。[^4]
+- **MRI 釓強化型態（與癌鑑別關鍵）**：慢性膽囊炎壁強化較急性**弱**，呈**平滑、緩慢、延遲（smooth／slow／prolonged）**;膽囊癌則為**不規則、早期、延遲（irregular／early／prolonged）**——鑑別看「強化型態＋時相」而非單看有無強化。[^1]
 - **CT 上「髮絲狀／難辨壁」反而偏慢性**：hairline／imperceptible 壁在慢性較常見（約 55.8% vs 急性 24.4%）。[^4]
 
 ### 對比急性膽囊炎的判讀分水嶺
@@ -65,7 +66,7 @@ dateRev: 2026-06-29
 > 慢性＝**瀰漫對稱平滑壁厚＋結石＋膽囊縮小、無急性旁徵**；急性＝**THAD／壁分層水腫／周圍積液／膽囊脹大**；癌＝**局灶不規則壁厚或腫塊＋黏膜線中斷＋肝侵犯／淋巴結**。壁增厚先分「膽囊本身 vs 全身次發（肝炎/腹水/低蛋白）」。[^3][^4][^6][^9]
 
 ### 參考來源
-[^1]: Catalano OA, et al. *MR Imaging of the Gallbladder: A Pictorial Essay*. RadioGraphics. 2008;28(1):135-155. https://doi.org/10.1148/rg.281065183 （實際查證 accessed 2026-06-17：濃縮膽汁於 T1 呈高訊號「probably due to increased bile concentration」;膽鹽/蛋白濃度影響 T1 訊號）。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Catalano OA, et al. *MR Imaging of the Gallbladder: A Pictorial Essay*. RadioGraphics. 2008;28(1):135-155. https://doi.org/10.1148/rg.281065183。濃縮膽汁 T1 高訊號（膽鹽/蛋白濃度↑）;**慢性膽囊炎＝膽囊小而收縮、壁不規則增厚、幾乎必有結石;釓強化較急性弱且 smooth/slow/prolonged，對比膽囊癌 irregular/early/prolonged**（原文 pp.135-155 Chronic Cholecystitis 段）。
 [^2]: 慢性膽囊炎/膽石症膽汁滯留致 T1 高訊號膽汁/sludge——近期研究示 T1WI layering hyperintensity 與膽囊 sludge、cholecystolithiasis 相關（PMC12267354；Based on articles retrieved from PubMed）。
 [^3]: 〔Tier 1〕O'Connor OJ, Maher MM. *Imaging of Cholecystitis*. AJR Am J Roentgenol. 2011;196(4):W367-W374. https://doi.org/10.2214/AJR.10.4340 （accessed 2026-06-29，摘要層級）。慢性膽囊炎幾乎均合併膽結石，呈瀰漫對稱壁增厚／纖維化、膽囊縮小，缺乏急性發炎旁徵；局灶不規則壁厚需與膽囊癌鑑別。
 [^4]: 〔Tier 2〕Kim SJ, et al. *Differentiation of acute cholecystitis from chronic cholecystitis: Determination of useful multidetector computed tomography findings*. Medicine (Baltimore). 2018;97(33):e11851. https://pmc.ncbi.nlm.nih.gov/articles/PMC6112975/ （accessed 2026-06-29）。急性四大判讀徵象：肝床一過性高強化（THAD，急性 80% vs 慢性 32%）、膽囊脹大、壁分層／mural striation、周圍脂肪糢糊／積液；慢性偏 hairline／imperceptible 壁與纖維化壁強化。
