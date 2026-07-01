@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 229,
+  "totalQuestions": 243,
   "questions": [
     {
       "id": "2018-001",
@@ -638,10 +638,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.131；McGraw-Hill Specialty Board Review: RADIOLOGY, Written Exam GI Q4.",
       "explanation": "**Primary = Pancreas , Secondary = Spleen**",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemochromatosis-mri"
+      ],
       "checked": false
     },
     {
@@ -3853,7 +3855,7 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.129；The presence of the gadolinium-based contrast agent depositions in the brain and symptoms of gadolinium neurotoxicity - A systematic review. 2017;e0171704.",
       "explanation": "基本化學性質，建議直接記。binding最好=最安全",
       "images": [],
       "concepts": [
@@ -3966,7 +3968,7 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.125；RadioGraphics 2015;35:1738-1750 (Safe use of contrast media: What the radiologist needs to know).",
       "explanation": "Omniscan 病例數最多。",
       "images": [],
       "concepts": [
@@ -4003,7 +4005,7 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.126；RadioGraphics 2015;35:1738-1750 (Safe use of contrast media: What the radiologist needs to know).",
       "explanation": "macrocyclic ionic\nA. 可用正常劑量或最低劑量 低風險之顯影劑",
       "images": [],
       "concepts": [
@@ -4652,10 +4654,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018 交換考題 詳解 p.125；Grainger & Allison's Diagnostic Radiology, Chapter 20, 423-446.e1.",
+      "explanation": "法洛氏四合症(Tetralogy of Fallot)胸部X光典型呈「靴狀心(boot-shaped heart)」——右心室肥厚合併肺動脈幹凹陷、心尖上翹，同時因肺動脈狹窄致肺血流減少而肺紋理減少(非增加)。Rib notching為主動脈狹窄(coarctation)特徵；hilum腫大非本病典型特徵。\n\n見 [[tetralogy-of-fallot]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tetralogy-of-fallot"
+      ],
       "checked": false
     },
     {
@@ -4728,10 +4732,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.130；McGraw-Hill Specialty Board Review: RADIOLOGY, Written Exam GI Q2.",
       "explanation": "Regional lymphadenopathy is more commonly seen with cancer than with diverticulitis. Halo sign is indicative of diverticulitis, and mural thickening and pericolonic inflammatory change can be seen in both cancer and diverticulitis.\nAscites is not a discriminator.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "diverticulitis-vs-colon-cancer"
+      ],
       "checked": false
     },
     {
@@ -4763,10 +4769,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.130；McGraw-Hill Specialty Board Review: RADIOLOGY, Written Exam GI Q3.",
       "explanation": "Lung carcinoma is usually associated with hypovascular metastases to the liver",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypervascular-liver-metastases"
+      ],
       "checked": false
     },
     {
@@ -8371,6 +8379,544 @@
       "images": [],
       "concepts": [
         "meconium-ileus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-230",
+      "year": 2018,
+      "number": 230,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "About contrast media extravasation, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The use of deep brachial intravenous catheters seems much more safely"
+        },
+        {
+          "letter": "B",
+          "text": "May have swelling, tightness, stinging, or burning pain"
+        },
+        {
+          "letter": "C",
+          "text": "There is no agreement among physicians on the best treatment of intravenous contrast agent extravasation"
+        },
+        {
+          "letter": "D",
+          "text": "Few patients require surgical intervention"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.126；Safe use of contrast media: What the radiologist needs to know. RadioGraphics 2015;35:1738-1750.",
+      "explanation": "深部肱靜脈導管(deep brachial intravenous catheters)因位置較深、外滲時較不易早期察覺，相對於「較安全」，其外滲風險反而「顯著較高(markedly higher relative risk)」，故本敘述錯誤。外滲可能出現腫脹/緊繃/刺痛/灼熱感、醫師對最佳處置尚無共識、僅少數病人需外科介入，皆為正確描述。\n\n見 [[contrast-media-safety]]",
+      "images": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-231",
+      "year": 2018,
+      "number": 231,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "The higher incidences of primary malignant cardiac tumor is",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myxoma"
+        },
+        {
+          "letter": "B",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "C",
+          "text": "Angiosarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Rhabdomyosarcoma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.127；MR imaging of cardiac tumors and masses: A review of methods and clinical applications. Radiology. 2013;268(1).",
+      "explanation": "心臟原發惡性腫瘤中，血管肉瘤(angiosarcoma)發生率最高，好發右心房。Myxoma為最常見之原發「良性」心臟腫瘤(非惡性)；lymphoma、rhabdomyosarcoma雖亦可發生但發生率低於angiosarcoma。\n\n見 [[cardiac-tumors]]",
+      "images": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-232",
+      "year": 2018,
+      "number": 232,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About coronary artery aneurysm, which statement is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "True aneurysm: vessel wall composed of three layers (adventitia, media, and intima)"
+        },
+        {
+          "letter": "B",
+          "text": "Saccular aneurysm: transverse > longitudinal diameter"
+        },
+        {
+          "letter": "C",
+          "text": "Giant aneurysm: > 20mm-150mm in diameter of adults"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.127；Coronary artery aneurysms and ectasia: Role of coronary CT Angiography. RadioGraphics 2009;29:1939-1954.",
+      "explanation": "真性動脈瘤血管壁由外膜/中膜/內膜三層構成、囊狀動脈瘤橫徑大於縱徑、成人巨大型冠狀動脈瘤定義為直徑>20mm(2公分)，皆為正確描述。\n\n見 [[coronary-artery-aneurysm]]",
+      "images": [],
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-233",
+      "year": 2018,
+      "number": 233,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Kawasaki disease, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "First described in Japan in 1967"
+        },
+        {
+          "letter": "B",
+          "text": "Is an chronic self-limited multisystemic panarteritis"
+        },
+        {
+          "letter": "C",
+          "text": "Cardiac sequelae include coronary artery dilatation, premature atherosclerosis and stenosis, thrombosis, or occlusion with myocardial infarction"
+        },
+        {
+          "letter": "D",
+          "text": "Most affect left main coronary artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.127；Coronary artery aneurysms and ectasia: Role of coronary CT Angiography. RadioGraphics 2009;29:1939-1954.",
+      "explanation": "川崎病為「急性(acute)」而非「慢性(chronic)」自限性多系統性全血管炎，此為本題錯誤敘述。1967年於日本首次描述、心臟後遺症包含冠狀動脈擴張/早發性動脈粥樣硬化與狹窄/血栓/併發心肌梗塞、最常侵犯左主冠狀動脈，皆為正確描述。\n\n見 [[kawasaki-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "kawasaki-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-234",
+      "year": 2018,
+      "number": 234,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "In neurofibromatosis type I, findings include the followings except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Optic nerve glioma"
+        },
+        {
+          "letter": "B",
+          "text": "Sphenoid dysplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Acoustic schwannoma"
+        },
+        {
+          "letter": "D",
+          "text": "Nerve root neurofibroma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.128；STATdx. Copyright © 2018 Elsevier.",
+      "explanation": "雙側聽神經鞘瘤(bilateral acoustic schwannoma)為第二型神經纖維瘤病(NF2)之特徵性表現，並非NF1之典型發現。視神經膠質瘤、蝶骨發育不良(sphenoid dysplasia)、神經根神經纖維瘤皆為NF1之典型影像特徵。\n\n見 [[neurofibromatosis-type-1]]",
+      "images": [],
+      "concepts": [
+        "neurofibromatosis-type-1"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-235",
+      "year": 2018,
+      "number": 235,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Perilymphatic nodules in lung include the differential diagnoses except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Military TB"
+        },
+        {
+          "letter": "B",
+          "text": "Pneumoconiosis"
+        },
+        {
+          "letter": "C",
+          "text": "Sarcoidosis"
+        },
+        {
+          "letter": "D",
+          "text": "Lymphangitic carcinomatosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.128；STATdx. Copyright © 2018 Elsevier.",
+      "explanation": "粟粒性肺結核(miliary TB)之肺結節分布型態為「隨機分布(random distribution)」(血行性散布)，並非淋巴周圍分布(perilymphatic distribution)；矽肺症(pneumoconiosis)、類肉瘤病(sarcoidosis)、淋巴管性癌病(lymphangitic carcinomatosis)皆為典型淋巴周圍分布結節之常見鑑別診斷。\n\n見 [[perilymphatic-nodules-lung]]",
+      "images": [],
+      "concepts": [
+        "perilymphatic-nodules-lung"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-236",
+      "year": 2018,
+      "number": 236,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding scimitar syndrome, which of the following is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A subtype of partial anomalous pulmonary venous return"
+        },
+        {
+          "letter": "B",
+          "text": "Scimitar vein joins inferior vena cava"
+        },
+        {
+          "letter": "C",
+          "text": "Prominent right atrium."
+        },
+        {
+          "letter": "D",
+          "text": "Scimitar vein in left medial costophrenic sulcus"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.128；STATdx. Copyright © 2018 Elsevier.",
+      "explanation": "彎刀症候群(scimitar syndrome)之彎刀靜脈位於「右側」內側肋膈角(right medial costophrenic sulcus)，非左側，故本敘述錯誤。本病為部分肺靜脈異位回流之亞型、彎刀靜脈注入下腔靜脈、常合併右心房突出，皆為正確描述。\n\n見 [[scimitar-syndrome]]",
+      "images": [],
+      "concepts": [
+        "scimitar-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-237",
+      "year": 2018,
+      "number": 237,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Classical findings of intracranial hypotension include the following except?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Downward displacement of brain through incisura (\"slumping\" midbrain)"
+        },
+        {
+          "letter": "B",
+          "text": "Diffuse dural thickening/ enhancement"
+        },
+        {
+          "letter": "C",
+          "text": "Veins/ dural sinuses shrinkage"
+        },
+        {
+          "letter": "D",
+          "text": "Subdural hygromas/ hematomas"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.129；STATdx. Copyright © 2018 Elsevier.",
+      "explanation": "顱內低壓典型影像所見助記為「SEEPS」：Subdural fluid collections、Enhancement of the pachymeninges、Engorgement of the venous sinuses（靜脈竇「充血擴大」，非「萎縮」）、Pituitary hyperemia、Sagging brain。靜脈/硬膜竇為擴大充血而非皺縮，故本敘述錯誤；腦幹經天幕裂孔下垂(\"slumping\")、瀰漫性硬膜增厚強化、硬膜下積液/血腫皆為典型表現。\n\n見 [[spontaneous-intracranial-hypotension]]",
+      "images": [],
+      "concepts": [
+        "spontaneous-intracranial-hypotension"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-238",
+      "year": 2018,
+      "number": 238,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following fetal risks is associated with MRI imaging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hearing loss"
+        },
+        {
+          "letter": "B",
+          "text": "Heart defect"
+        },
+        {
+          "letter": "C",
+          "text": "Leukemia"
+        },
+        {
+          "letter": "D",
+          "text": "Developmental delay"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.129；Association Between MRI Exposure During Pregnancy and Fetal and Childhood Outcomes. JAMA. 2016 Sep 6;316(9):952-61.",
+      "explanation": "大型世代研究顯示孕期暴露於MRI（尤其釓顯影劑）與胎兒聽力損失風險相關；心臟缺陷、白血病、發展遲緩則未顯示與MRI暴露有顯著相關性。\n\n見 [[mri-safety-pregnancy]]",
+      "images": [],
+      "concepts": [
+        "mri-safety-pregnancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-239",
+      "year": 2018,
+      "number": 239,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following polyposis syndromes presents with epidermoid cysts, desmoid tumors, and osteomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gardner syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Turcot syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Familial polyposis"
+        },
+        {
+          "letter": "D",
+          "text": "HNPCC"
+        },
+        {
+          "letter": "E",
+          "text": "Cowden disease"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.130；McGraw-Hill Specialty Board Review: RADIOLOGY, Written Exam GI Q1.",
+      "explanation": "Gardner syndrome(屬FAP腺瘤性息肉症候群之亞型)臨床三合徵為表皮樣囊腫(epidermoid cysts)、類纖維瘤(desmoid tumors)、骨瘤(osteomas)，合併大腸腺瘤性息肉。Turcot syndrome合併CNS glioblastoma；Cowden disease為錯構瘤性疾病可侵犯食道；HNPCC與familial polyposis無此三合徵。\n\n見 [[polyposis-syndromes-gi]]",
+      "images": [],
+      "concepts": [
+        "polyposis-syndromes-gi"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-240",
+      "year": 2018,
+      "number": 240,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about sonography artifact is wrong.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tissue harmonic imaging is helpful with large body habitus or \"noisy\" tissues such as an echogenic liver."
+        },
+        {
+          "letter": "B",
+          "text": "Reverberation is useful in creating the \"comet tail\" artifact characteristic of adenomyomatosis of the gallbladder wall."
+        },
+        {
+          "letter": "C",
+          "text": "Color Doppler can be used to accentuate the reverberation effects of adenomyomatosis."
+        },
+        {
+          "letter": "D",
+          "text": "Acoustic shadowing is the result of nonuniformity of the ultrasound beam at the periphery of the transducer."
+        },
+        {
+          "letter": "E",
+          "text": "Mirror image artifact is the result of the ultrasound beam \"bouncing\" off two strong specular reflectors before returning to the transducer."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.132；Problem solving in Abdominal imaging, 1st Edition. Chapter 1, Page 6-8.",
+      "explanation": "探頭周邊聲束不均勻造成的偽影為「側葉偽影(side lobe artifact)」，並非聲影(acoustic shadowing)——聲影是高衰減/強反射結構後方訊號顯著減弱之現象，本敘述將兩者混淆，故錯誤。組織諧波成像有助於大體型/回音雜訊多的組織(如脂肪肝)、殘響造成腺肌症comet-tail偽影、彩色都卜勒可加強腺肌症殘響效應、鏡像偽影源自聲束於兩強反射面間反彈，皆為正確描述。\n\n見 [[ultrasound-artifacts]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-241",
+      "year": 2018,
+      "number": 241,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about sonography artifact is wrong.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Acoustic enhancement refers to a zone of increased signal seen deep to a structure with low acoustic impedance."
+        },
+        {
+          "letter": "B",
+          "text": "Doppler can e used to increase conspicuity of tissue reflectivity in the form of the color comet tail artifact, also called twinkle artifact."
+        },
+        {
+          "letter": "C",
+          "text": "Tissue harmonic imaging is helpful for thin patient."
+        },
+        {
+          "letter": "D",
+          "text": "Acoustic shadowing is commonly seen with urinary or biliary calculi."
+        },
+        {
+          "letter": "E",
+          "text": "Side lobe artifact is often seen as an apparent septations extending from the side of the gallbladder, the urinary bladder or a simple cyst."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.133；Problem solving in Abdominal imaging, 1st Edition. Chapter 1, Page 6-9.",
+      "explanation": "組織諧波成像(tissue harmonic imaging)有助於「肥胖(fat)」體型或回音雜訊多之病人，而非瘦(thin)病人，故本敘述錯誤。聲增強、彩色都卜勒之twinkle(comet tail)偽影、聲影常見於泌尿/膽道結石、側葉偽影於膽囊/膀胱/單純囊腫呈現假性分隔，皆為正確描述。\n\n見 [[ultrasound-artifacts]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-242",
+      "year": 2018,
+      "number": 242,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about the ultrasound of the liver is incorrect.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No specific sonographic findings are found in acute hepatitis."
+        },
+        {
+          "letter": "B",
+          "text": "Starry sky pattern means increased periportal echoes coupled with decreased parenchymal echogenicity is sensitive and specific for the detection of acute viral hepatitis."
+        },
+        {
+          "letter": "C",
+          "text": "Marked gallbladder wall thickening is sometimes present in patients with acute hepatitis."
+        },
+        {
+          "letter": "D",
+          "text": "Severe fatty infiltration of the liver often results in hepatomegaly and diffusely increased echogenicity."
+        },
+        {
+          "letter": "E",
+          "text": "Flow reversal in portal vein and collateral venous flow is specific finding for liver cirrhosis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.134；Problem solving in Abdominal imaging, 1st Edition. Chapter 1, Page 9-12.",
+      "explanation": "Starry sky pattern(暗肝配亮門脈)對急性病毒性肝炎之偵測敏感度高但特異度「差」，並非「敏感且特異」，故本敘述錯誤。急性肝炎本身無特異性超音波所見、可合併膽囊壁明顯增厚、嚴重脂肪浸潤常致肝腫大合併瀰漫性回音增加、肝硬化可見門脈血流逆轉合併側枝循環，皆為正確描述。\n\n見 [[acute-hepatitis-us]]",
+      "images": [],
+      "concepts": [
+        "acute-hepatitis-us"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-243",
+      "year": 2018,
+      "number": 243,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about ultrasound of the gallbladder is incorrect.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thickening of the gallbladder wall alone should be the specific diagnosis of acute cholecystitis"
+        },
+        {
+          "letter": "B",
+          "text": "Congestive heart failure can cause gallbladder wall thickening."
+        },
+        {
+          "letter": "C",
+          "text": "Flow can be absent on color doppler sonography of gallbladder cancer."
+        },
+        {
+          "letter": "D",
+          "text": "Choledocholithiasis is the most common cause of bile duct dilatation in patients with gallstones.."
+        },
+        {
+          "letter": "E",
+          "text": "The ultrasound finding of adenomyomatosis is comet tail artifact caused by reverberation from crystals trapped within hypertrophied Rokitansky-Aschoff sinuses."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.135；Problem solving in Abdominal imaging, 1st Edition. Chapter 1, Page 17-21.",
+      "explanation": "單獨膽囊壁增厚並「非」急性膽囊炎之特異性診斷依據——瀰漫性膽囊壁增厚可見於肝炎、肝硬化/門脈高壓、腹水、低白蛋白血症、鬱血性心衰竭等多種非膽囊本身病因，故本敘述錯誤。鬱血性心衰竭可致膽囊壁增厚、膽囊癌之彩色都卜勒可無血流訊號、總膽管結石為膽結石病人膽管擴張最常見原因、腺肌症之comet tail偽影源自Rokitansky-Aschoff竇內結晶之殘響，皆為正確描述。\n\n見 [[chronic-cholecystitis]]",
+      "images": [],
+      "concepts": [
+        "chronic-cholecystitis"
       ],
       "checked": false
     }

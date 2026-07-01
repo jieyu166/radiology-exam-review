@@ -73,6 +73,10 @@ down:
 [^8]: *Clinical and Imaging Features of Primary Cardiac Angiosarcoma*. Diagnostics 2020;10(10):776（PMC7600236）（依搜尋摘要查證、未讀全文，accessed 2026-06-28）。病灶均位於右心房、寬基底；常侵犯三尖瓣/右心室/腔靜脈/心包；CT 平掃密度不均、增強不均向心性；MRI 不均、T1/T2 出血灶高訊號、「花椰菜」外觀、強烈不規則或 rim 強化。
 [^9]: *Prognostic utility of differential tissue characterization of cardiac neoplasm and thrombus via LGE CMR*（PubMed 29025425）／*First-Pass Perfusion CMR for Cancer-Associated Cardiac Masses*（PMC11783222）（依搜尋摘要查證、未讀全文，accessed 2026-06-28）。血栓在 first-pass perfusion 與 LGE 皆不強化；長 inversion time（~600 ms）LGE 可 null 無血管組織呈低訊號，用以與腫瘤/轉移區分。
 
+## 題目
+> [!question]- The higher incidences of primary malignant cardiac tumor is (2018-231)
+> **Angiosarcoma（C）**——心臟原發惡性腫瘤中發生率最高、好發右心房。Myxoma為最常見「良性」原發心臟腫瘤，非惡性。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardiac-tumors")

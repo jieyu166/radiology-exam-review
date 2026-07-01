@@ -19,6 +19,7 @@ dateRev: 2026-07-01
 - **息肉症候群分類**：
   - **Adenomatous（腺瘤性）**：Familial adenomatous polyposis syndrome (FAP，含classic FAP、Gardner syndrome、Turcot syndrome)、MYH syndrome。
   - **Hamartomatous（錯構瘤性）**：Juvenile polyposis syndrome、Bannayan-Riley-Ruvalcaba syndrome、Cowden syndrome、**Peutz-Jeghers syndrome**。[^1]
+- **Gardner syndrome 臨床三合徵**：**表皮樣囊腫(epidermoid cysts)、類纖維瘤(desmoid tumors)、骨瘤(osteomas)**，合併大腸腺瘤性息肉；與Turcot syndrome（合併CNS glioblastoma）、Cowden disease（錯構瘤性、可侵犯食道）為易混淆之其他腺瘤性/錯構瘤性息肉症候群。[^3]
 - **Cronkhite-Canada syndrome**：**非遺傳性**，胃腸道遍佈**錯構瘤性息肉**，主要侵犯**胃、大腸**，較少侵犯小腸；**與其他息肉症候群不同，不伴隨惡性風險增加**。[^1]
 - **Peutz-Jeghers syndrome (PJS) 的風險**：
   - **腸套疊(intussusception)**：因錯構瘤性息肉體積大，易成為套疊之導引點(lead point)。
@@ -31,10 +32,14 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: Radiology Review Manual, 6th ed., pp.862-863：息肉症候群分腺瘤性(FAP/Gardner/Turcot/MYH)與錯構瘤性(Juvenile polyposis/Bannayan-Riley-Ruvalcaba/Cowden/Peutz-Jeghers);Cronkhite-Canada為非遺傳性、胃與大腸為主之錯構瘤性息肉、不伴惡性風險增加。
 [^2]: 官方 2017 詳解附註：PJS風險包含腸套疊、GI腺癌(息肉本身非癌前病變)、腸外惡性腫瘤(adenoma malignum子宮頸/乳房/胰臟/卵巢sex cord tumours/睪丸Sertoli cell tumours/肺/子宮)。
+[^3]: *McGraw-Hill Specialty Board Review: RADIOLOGY*（2018 交換考題詳解 p.130 引用；Tier 2 board review教材）。Gardner syndrome三合徵為表皮樣囊腫/類纖維瘤/骨瘤；Turcot syndrome合併CNS glioblastoma；Cowden disease為錯構瘤性可侵犯食道。
 
 ## 題目
 > [!question]- A 15-year-old boy presents with severe abdominal pain, known polyposis syndrome, small bowel intussusception. Which polyposis syndrome does he most probably have? (2017-305)
 > **Peutz-Jeghers syndrome（E）**——錯構瘤性息肉體積大易誘發腸套疊；息肉本身非癌前病變，但仍伴隨GI腺癌及adenoma malignum、乳房/胰臟/卵巢/睪丸/肺/子宮等腸外惡性腫瘤風險。[^1][^2]
+
+> [!question]- Which of the following polyposis syndromes presents with epidermoid cysts, desmoid tumors, and osteomas? (2018-239)
+> **Gardner syndrome（A）**——三合徵為表皮樣囊腫/類纖維瘤/骨瘤。Turcot syndrome(B)合併CNS glioblastoma；Cowden disease(E)可侵犯食道；familial polyposis(C)、HNPCC(D)無此三合徵。[^3]
 
 ## 考題
 ```dataview

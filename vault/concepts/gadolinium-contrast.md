@@ -28,6 +28,7 @@ same:
   - **結構**：**linear（線狀）vs macrocyclic（環狀）**;
   - **電荷**：ionic vs non-ionic。
   - **穩定度**：**macrocyclic ＞ linear**（環狀去螯合少）→ **macrocyclic NSF 與釓沉積風險較低**;惟 macrocyclic 過敏反應風險相對略高。
+- **配位基與釓離子結合強度（考題易錯點）**：**Macrocyclic, ionic 結構之結合最強、最穩定**（如gadoterate/Dotarem）；結合強度排序約為macrocyclic ionic > macrocyclic non-ionic > linear ionic > linear non-ionic，結合越強則越不易去螯合、越安全。[^4]
 - **NSF 風險（ACR 分組，見 [[nephrogenic-systemic-fibrosis]]）**：[^2]
   - **Group I（高風險，避免用於 eGFR<30）**：**gadodiamide（Omniscan）、gadopentetate（Magnevist）、gadoversetamide（OptiMARK）**——皆 **linear**。
   - **Group II（低風險）**：macrocyclic——gadoterate（Dotarem）、gadobutrol（Gadavist）、gadoteridol（ProHance）。
@@ -47,6 +48,11 @@ same:
 [^1]: *Gadolinium-based contrast agents*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Macrocyclic agents have less chemical instability than linear agents, resulting in a lower risk of nephrogenic systemic fibrosis and lower gadolinium deposition**」;deposition「especially the brain (**dentate nucleus**, **globus pallidus**)」;分類依 net charge 與 linear/macrocyclic。
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
 [^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
+[^4]: *The presence of the gadolinium-based contrast agent depositions in the brain and symptoms of gadolinium neurotoxicity - A systematic review*. 2017;e0171704（2018 交換考題詳解 p.129 引用；Tier 2 系統性回顧）。配位基與釓離子結合強度：macrocyclic ionic結構結合最強最穩定。
+
+## 題目
+> [!question]- Which of the following structures for a gadolinium-based contrast agents (GBCAs) will have the strongest binding between the ligand and gadolinium ion? (2018-107)
+> **Macrocyclic, ionic（A）**——結合最強最穩定，去螯合風險最低。[^4]
 
 ## 考題
 ```dataview

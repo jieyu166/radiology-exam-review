@@ -60,6 +60,11 @@ dateRev: 2026-06-29
 [^2]: 開放全文已讀。Imaging considerations in tetralogy of Fallot: a comprehensive review. *World J Radiol* 2025;17(12):112986（PMC12754553）。CXR cor-en-sabot（心尖上抬＋肺血減少＋absent pulmonary bay）；四要素 CT（perimembranous VSD、override ≤50%、多層次 RVOTO、RVH）；左 PA 起始狹窄最常見；McGoon ratio／Nakata index 定義；LAD 自 RCA 跨 RVOT 禁 infundibulotomy（冠脈異常 2–23%）；MAPCAs >3 mm、源自降胸主動脈、報告椎體高度/時鐘位置；右弓 13–34%、LSVC ~11%、ASD ~5%；absent PV（3–6%）main PA 瘤樣擴張；PR RF mild<20%/mod 20–40%/severe>40%。據 PubMed，[DOI](https://doi.org/10.4329/wjr.v17.i12.112986)。
 [^3]: boot-shaped heart 影像徵象與發紺型 5T 鑑別（依摘要／教科書層級，未讀全文）：frontal CXR 心尖上抬、central hilar PA 減少、main PA 段凹陷;The Boot-shaped Heart Sign, *Radiology* 2008;246(2):650-1, [DOI](https://doi.org/10.1148/radiol.2461041673)。發紺型先心 5T 助憶（Truncus、TGA、Tricuspid atresia、TOF、TAPVR），TOF 屬肺血減少型。
 [^4]: 開放全文已讀。Sánchez Ramírez CJ, Pérez de Isla L. Tetralogy of Fallot: cardiac imaging evaluation. *Ann Transl Med* 2020;8(15):966（PMC7475417）。CMR 為 rTOF volumetry／flow gold standard；PVR 門檻 RVEDVi 160 mL/m²、RVESVi 80 mL/m²（不可逆點）；phase-contrast RF>40% 為 severe PR；LGE 標記纖維化／猝死風險；MDCT 冠脈異常 8–12%、LAD 自 RCA 跨 RVOT 禁 RVOT 手術、評估 stent/conduit 鈣化。據 PubMed，[DOI](https://doi.org/10.21037/atm.2020.02.18)。
+[^5]: *Grainger & Allison's Diagnostic Radiology*, Chapter 20, 423-446.e1（2018 交換考題詳解 p.125 引用；Tier 1 教科書）。TOF胸部X光呈boot-shaped heart；因肺血流減少肺紋理減少；rib notching為主動脈狹窄特徵。
+
+## 題目
+> [!question]- Which one of the following radiographic feature is most likely to see in Tetralogy of the fallot? (2018-129)
+> **Boot shaped heart（A）**——心尖上抬＋肺血管減少＋main PA段凹陷之典型TOF胸部X光特徵。Rib notching為主動脈狹窄特徵，非TOF。[^5]
 
 ## 考題
 ```dataview

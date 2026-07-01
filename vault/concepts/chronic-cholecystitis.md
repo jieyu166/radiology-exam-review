@@ -65,6 +65,9 @@ dateRev: 2026-07-01
 > [!note] 判讀重點：慢性 vs 急性 vs 癌
 > 慢性＝**瀰漫對稱平滑壁厚＋結石＋膽囊縮小、無急性旁徵**；急性＝**THAD／壁分層水腫／周圍積液／膽囊脹大**；癌＝**局灶不規則壁厚或腫塊＋黏膜線中斷＋肝侵犯／淋巴結**。壁增厚先分「膽囊本身 vs 全身次發（肝炎/腹水/低蛋白）」。[^3][^4][^6][^9]
 
+> [!note] 考點：膽囊壁增厚「單獨」是否足以特異性診斷急性膽囊炎？
+> **並非**——單獨膽囊壁增厚**非**特異性診斷依據，瀰漫性膽囊壁增厚可見於肝炎、肝硬化/門脈高壓、腹水、低白蛋白血症、鬱血性心衰竭等多種非膽囊本身病因（見上表「非膽囊本身原因」）。[^10]
+
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Catalano OA, et al. *MR Imaging of the Gallbladder: A Pictorial Essay*. RadioGraphics. 2008;28(1):135-155. https://doi.org/10.1148/rg.281065183。濃縮膽汁 T1 高訊號（膽鹽/蛋白濃度↑）;**慢性膽囊炎＝膽囊小而收縮、壁不規則增厚、幾乎必有結石;釓強化較急性弱且 smooth/slow/prolonged，對比膽囊癌 irregular/early/prolonged**（原文 pp.135-155 Chronic Cholecystitis 段）。
 [^2]: 慢性膽囊炎/膽石症膽汁滯留致 T1 高訊號膽汁/sludge——近期研究示 T1WI layering hyperintensity 與膽囊 sludge、cholecystolithiasis 相關（PMC12267354；Based on articles retrieved from PubMed）。
@@ -75,6 +78,11 @@ dateRev: 2026-07-01
 [^7]: 〔Tier 2〕Zhao F, et al. *Xanthogranulomatous cholecystitis: sonographic and CT features and differentiation from gallbladder carcinoma: a pictorial essay*. https://pubmed.ncbi.nlm.nih.gov/22488612/ ；併 Korean J Radiol 相關研究 https://pmc.ncbi.nlm.nih.gov/articles/PMC3021609/ （accessed 2026-06-29）。連續黏膜線 XGC 約 80% vs 癌約 6%；瀰漫壁增厚 XGC 約 70% vs 癌約 12.5%；肝內膽管擴張／鄰近侵犯偏向膽囊癌。
 [^8]: 〔Tier 1〕Boscak AR, et al. *Adenomyomatosis of the Gallbladder*. RadioGraphics. 2006;26(3):941-946. https://doi.org/10.1148/rg.263055180 （accessed 2026-06-29，摘要層級）。Rokitansky-Aschoff 竇內膽固醇結晶 → US 彗尾偽影、MRI pearl necklace 為特徵。
 [^9]: 〔Tier 1〕van Breda Vriesman AC, et al. *Diffuse Gallbladder Wall Thickening: Differential Diagnosis*. AJR Am J Roentgenol. 2007;188(2):495-501. https://doi.org/10.2214/AJR.05.1712 （accessed 2026-06-29，摘要層級）。瀰漫壁增厚的非膽囊原因：肝炎、肝硬化／門脈高壓、腹水、低白蛋白血症、右心衰竭、腎衰竭、膽囊未充分擴張。
+[^10]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 17-21（2018 交換考題詳解 p.135 引用；Tier 2 教科書）。單獨膽囊壁增厚非急性膽囊炎特異性診斷依據；鬱血性心衰竭可致膽囊壁增厚；膽囊癌彩色都卜勒可無血流訊號；總膽管結石為膽結石病人膽管擴張最常見原因；腺肌症comet tail源自Rokitansky-Aschoff竇內結晶殘響。
+
+## 題目
+> [!question]- Which of the following statements about ultrasound of the gallbladder is incorrect. (2018-243)
+> **Thickening of the gallbladder wall alone should be the specific diagnosis of acute cholecystitis（A）**——單獨壁增厚非特異性診斷依據，此敘述錯誤。鬱血性心衰竭致壁增厚(B)、膽囊癌可無彩色都卜勒血流(C)、總膽管結石為膽管擴張最常見原因(D)、腺肌症comet tail源自RAS結晶(E)皆為正確描述。[^10]
 
 ## 考題
 ```dataview

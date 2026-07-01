@@ -25,8 +25,8 @@ dateRev: 2026-06-30
 [^1]: 官方 2017 詳解；Radiology: Specialty Board Review, Ch.51 Biliary System, p.397：急性非結石性膽囊炎占急性膽囊炎約5-10%(10%組距);好發重症加護病人。
 
 ## 題目
-> [!question]- What percentage of patients with acute cholecystitis have no gallstones? (2017-288)
-> **10%（A）**（acute acalculous cholecystitis 文獻範圍約5-10%）。好發重症加護病人（禁食/機械通氣/創傷/燒傷），機轉與膽汁淤積及缺血相關。[^1]
+> [!question]- What percentage of patients with acute cholecystitis have no gallstones? (2017-288/2018同題重複)
+> **10%（A）**（acute acalculous cholecystitis 文獻範圍約5-10%）。好發重症加護病人（禁食/機械通氣/創傷/燒傷），機轉與膽汁淤積及缺血相關。[^1] 此題於2018交換考再次出現(McGraw-Hill Specialty Board Review: RADIOLOGY, Written Exam GI Q5)，內容與答案完全相同，已併入years。
 
 ## 考題
 ```dataview
