@@ -9,7 +9,7 @@ aliases:
   - postprimary TB
   - reactivation TB
   - 肺結核
-dateRev: 2026-06-14
+dateRev: 2026-07-01
 same:
   - "[[septic-pulmonary-emboli]]"
   - "[[ntm]]"
@@ -38,13 +38,20 @@ same:
 - 其他：Ghon focus / Ranke complex；血行播散可致 miliary。[^1]
 
 ## Postprimary（reactivation）TB
-- 機轉：潛伏 dormant 桿菌**再活化**；成人居多。[^1]
-- **分布**：**上肺 apical 與 posterior segment、下肺 superior segment**。[^1]
+- 機轉：潛伏 dormant 桿菌**再活化**；成人居多；**亦可能為不同菌株之二次感染**（尤其流行區），非僅侷限於原潛伏菌再活化。[^1][^2]
+- **分布**：**上肺 apical 與 posterior segment、下肺 superior segment**——機轉與該區**淋巴引流相對較少＋氧分壓較高**有關，有利桿菌複製。[^2]
+- **胸部 CT 角色**：即使胸部 X 光陰性，CT 仍可能偵測到 active TB 病灶；惟 CT **並非常規標準做法**，臨床仍以胸部 X 光為初步評估工具。[^2]
 - **Cavitation**：標誌性、**厚/不規則壁**；影響療程長短。[^1][^2]
 - **Centrilobular nodules / tree-in-bud**（endobronchial spread）→ 近乎診斷性。[^1]
 - 慢性：纖維化、容積減少、支氣管擴張。[^1]
 - 淋巴結、胸水較 primary 少見。[^1][^2]
 - **Cavitation 在 postprimary 常見**（約半數病人）。[^1][^2]
+
+## 免疫低下病人的特殊型態
+- **HIV 陽性合併潛伏結核感染者，發展為活動性結核的風險為 HIV 陰性者的 20–30 倍**。[^2]
+- **免疫低下者的再活化型 TB，影像／臨床表現常「偏向 primary 型態」**（consolidation ＋ lymphadenopathy），**而非典型 postprimary 上肺空洞型態**——即使機轉仍多屬潛伏菌再活化，此為重要的型態學陷阱。[^2]
+- **嚴重免疫抑制者，即使有活動性肺結核，胸部 X 光可能仍正常，比例達 10–40%**——陰性胸片不能排除嚴重免疫低下病人的活動性 TB。[^2]
+- **Miliary TB 在嚴重免疫抑制病人中發生率更高**。[^2]
 
 ## Miliary 與抗藥性
 - **Miliary TB**：血行播散；CT 為瀰漫、隨機分布的**粟粒狀 <3-mm（2–3 mm）micronodules**。[^1]
@@ -71,7 +78,7 @@ same:
 
 ### 參考來源
 [^1]: Rosado-de-Christenson ML. *Tuberculosis*. STATdx（Chest, Dx），updated 2021-09-27. Elsevier（實際查證 accessed 2026-06-14）。
-[^2]: Nachiappan AC, Rahbar K, Shi X, et al. *Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management*. RadioGraphics. 2017;37(1):52-72. https://doi.org/10.1148/rg.2017160032 （實際查證 accessed 2026-06-14）。
+[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Nachiappan AC, Rahbar K, Shi X, et al. *Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management*. RadioGraphics. 2017;37(1):52-72. https://doi.org/10.1148/rg.2017160032。重點：postprimary 上肺分布機轉為該區淋巴引流少＋氧分壓高；亦可為異株二次感染而非僅原菌再活化；CT 可偵測 X 光陰性之活動病灶但非標準做法；**HIV+ 潛伏結核者活動化風險為 HIV- 之 20–30 倍**；**免疫低下者再活化型 TB 影像常呈 primary 型態（consolidation+lymphadenopathy），非典型上肺空洞**；嚴重免疫抑制者胸部 X 光正常比例可達 10–40%；miliary TB 於嚴重免疫抑制者更常見。
 
 ## 考題
 ```dataview

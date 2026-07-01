@@ -7,7 +7,7 @@ aliases:
   - radiation dose reference
   - 有效劑量參考值
   - Mettler catalog
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 nonImaging: true
 nonImagingReason: "各檢查有效劑量參考值表，輻射安全/物理非影像判讀"
 ---
@@ -83,8 +83,11 @@ nonImagingReason: "各檢查有效劑量參考值表，輻射安全/物理非影
 > [!note] 2016-116 選項小數已修正
 > 原資料庫選項顯示 007/07/7/7（小數點遺失），**已修正為 0.007 / 0.07 / 0.7 / 7 mSv**，正解 **C＝0.7 mSv**（乳攝 4-view 約 0.4–0.7）。
 
+> [!note] 有效劑量數值的方法學限制（常忽略但常考）
+> **有效劑量本身有約 ±40% 不確定性**（年齡/性別平均之計算值，非個別病人實測值）；本文獻刻意**僅取一位有效數字**呈現，避免假精確；跨文獻來源之數值差異通常在 **±50%** 內，介入性或高變異性檢查差異更大。**年平均背景輻射約 3 mSv**，常作為劑量換算的教學比較基準（如「一次腹部CT≈數年背景輻射」）；截至 2007 年，**醫療影像已是美國人口最大宗游離輻射暴露來源**。[^1]
+
 ### 參考來源
-[^1]: Mettler FA Jr, Huda W, Yoshizumi TT, Mahesh M. *Effective Doses in Radiology and Diagnostic Nuclear Medicine: A Catalog*. Radiology. 2008;248(1):254-263. https://doi.org/10.1148/radiol.2481071451 （含 radiography／fluoroscopy／CT／interventional／nuclear medicine 各檢查之代表性有效劑量;上表為其 rounded representative values）。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Mettler FA Jr, Huda W, Yoshizumi TT, Mahesh M. *Effective Doses in Radiology and Diagnostic Nuclear Medicine: A Catalog*. Radiology. 2008;248(1):254-263. https://doi.org/10.1148/radiol.2481071451。含 radiography／fluoroscopy／CT／interventional／nuclear medicine 各檢查之代表性有效劑量（上表為其 rounded representative values，僅取一位有效數字）；有效劑量本身約 ±40% 不確定性、跨文獻差異通常 ±50%；年平均背景輻射約 3 mSv；2007 年時醫療影像已為美國最大宗游離輻射暴露來源。
 [^2]: *Typical Radiation Doses*（MSD Manual Professional Edition，本於 Mettler 等；實際查證 accessed 2026-06-17）：數位乳攝 0.21、CT 頭 2、鋇劑灌腸 6、腰椎X光(側位)1.5、CT 腹骨盆 7.7 mSv（與 [^1] 大致一致）。
 
 ## 考題

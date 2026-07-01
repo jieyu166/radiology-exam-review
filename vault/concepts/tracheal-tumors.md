@@ -53,7 +53,7 @@ dateRev: 2026-06-14
 - **Fig 12–14**：lipoma / leiomyoma / schwannoma（良性間葉）。
 
 ### 參考來源
-[^1]: Park CM, Goo JM, Lee HJ, Kim MA, Lee CH, Kang M-J. *Tumors in the Tracheobronchial Tree: CT and FDG PET Features*. RadioGraphics. 2009;29(1). https://doi.org/10.1148/rg.291085126 （實際查證 accessed 2026-06-14）。
+[^1]: **Tier 1（全文已讀，本機 PDF，accessed 2026-06-14）** Park CM, Goo JM, Lee HJ, Kim MA, Lee CH, Kang M-J. *Tumors in the Tracheobronchial Tree: CT and FDG PET Features*. RadioGraphics. 2009;29(1). https://doi.org/10.1148/rg.291085126。
 [^2]: *Tracheal Lesion*. STATdx（Chest, DDx）（實際查證 accessed 2026-06-14；SCC + adenoid cystic 為最常見原發惡性；TBO/RP 保留後壁膜）。
 [^3]: 「最常見良性氣管腫瘤 = squamous cell papilloma」為標準教學；題目所引 Müller & Silva *Thoracic Imaging*（2nd ed, p.546）（**未逐字核實該書頁**，依標準教學與題目來源）。
 

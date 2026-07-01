@@ -41,7 +41,7 @@ same:
 
 ### 參考來源
 [^1]: *Infiltrative hepatocellular carcinoma（diffuse / cirrhotomimetic HCC）*. Radiopaedia.org。占 HCC ~13–20%、微小結節瀰漫整葉/整肝無主導結節、常合併惡性門脈瘤栓、MRI 為首選（實際查證 accessed 2026-06-15）。
-[^2]: Reynolds AR, Furlan A, Fetzer DT, et al. *Infiltrative Hepatocellular Carcinoma: What Radiologists Need to Know*. RadioGraphics. 2015;35(2):371-386. https://doi.org/10.1148/rg.352140114 （實際查證 accessed 2026-06-15：占 7–20%、微小腫瘤結節散布大範圍肝、常合併門脈腫瘤瘤栓、惡性瘤栓「擴張門脈並呈腫瘤樣強化」、T2/DWI 高訊號）。
+[^2]: **Tier 1（全文已讀，accessed 2026-06-15）** Reynolds AR, Furlan A, Fetzer DT, et al. *Infiltrative Hepatocellular Carcinoma: What Radiologists Need to Know*. RadioGraphics. 2015;35(2):371-386. https://doi.org/10.1148/rg.352140114。占 7–20%、微小腫瘤結節散布大範圍肝、常合併門脈腫瘤瘤栓、惡性瘤栓「擴張門脈並呈腫瘤樣強化」、T2/DWI 高訊號。
 
 ## 考題
 ```dataview
