@@ -44,6 +44,11 @@ up: "[[bclc-hcc]]"
 - **膽道損傷 / biloma / 缺血性膽道病變**：peribiliary 血管叢缺血→膽管壞死、biloma、膽管擴張或纖維狹窄；biloma 可續發感染成膿瘍。[^7]
 - **肝梗塞**：動態 CT 見**無強化低密度區（常呈楔狀）＋碘油內氣泡**；MRI T1 低、T2 高訊號。[^7]
 - **異位/非標的栓塞**：碘油經動靜脈分流致**肺碘油栓塞**；反流入胃十二指腸動脈致潰瘍/胰臟炎；囊動脈阻塞致**膽囊缺血**。術前/錐狀束 CT 辨識變異側枝以預防。[^4][^7]
+- **呃逆(hiccups)併發症**：經**膈下動脈(inferior phrenic artery)**灌注栓塞時，因緊鄰橫膈、易刺激膈神經，為TACE誘發呃逆最相關之供血動脈（相較肋間動脈、內乳動脈、囊動脈）。[^9]
+
+## 尾狀葉(caudate lobe)之肝外側枝供血
+- **最常見肝外側枝供血動脈＝右膈下動脈(right inferior phrenic artery)**：尾狀葉(S1)可經右膈下動脈、右肝動脈、左肝動脈等多重路徑供血，其中肝外側枝以**右膈下動脈最常見**。[^9]
+- **各肝段常見肝外側枝供血參考**：S1(尾狀葉)＝右膈下動脈、右胃動脈、左胃動脈；S2/3＝左膈下動脈、左內乳動脈、左胃動脈；S4＝右內乳動脈、左膈下動脈、囊動脈；S5＝囊動脈、腸繫膜上動脈、胃十二指腸動脈；S6＝腎上腺動脈、腎動脈、肋間動脈、腰動脈、SMA、GDA；S7＝右膈下動脈、肋間動脈、腎上腺動脈、腎動脈；S8＝右膈下動脈、右內乳動脈、腎上腺動脈。[^9]
 
 ## 療效（vs 全身化療、藥物選擇、門脈血栓）
 - **TACE 較全身輸注化療顯著延長存活**：不可切除 HCC 中 TACE 治療組中位存活較全身化療組長（來源引 J Vasc Interv Radiol 2005;16:1653-9 之比較數據）；「TACE 是唯一治療選項」為錯誤選項（尚有手術、消融、全身治療、移植等）；「療效主要取決於所用藥物種類」與「門脈血栓會提升 TACE 療效」亦非正確敘述——門脈血栓反而是相對禁忌（見上）。（2018 交換考題詳解 p.11）[^8]
@@ -53,7 +58,7 @@ up: "[[bclc-hcc]]"
 - **多發病灶（multifocal lesions）本身並非** EHC 發展的公認因子——因子清單聚焦於單一腫瘤的大小/位置/外觀與治療史，而非病灶數目。
 
 ### 參考來源
-[^9]: *Chemoembolization of Hepatocellular Carcinoma with Extrahepatic Collateral Blood Supply: Anatomic and Technical Considerations.* RadioGraphics 2017;37:page 964（2018 交換考題詳解 p.80 引用；Tier 1）。EHC 動脈發展因子含腫瘤>5cm、肝裸區位置、曾TACE、曾手術、外突性腫瘤、肝外浸潤；多發病灶非公認因子。
+[^9]: *Chemoembolization of Hepatocellular Carcinoma with Extrahepatic Collateral Blood Supply: Anatomic and Technical Considerations.* RadioGraphics 2017;37:963-977（2018 交換考題詳解 p.80/111/112 引用；Tier 1）。EHC 動脈發展因子含腫瘤>5cm、肝裸區位置、曾TACE、曾手術、外突性腫瘤、肝外浸潤；多發病灶非公認因子；膈下動脈栓塞緊鄰橫膈易誘發呃逆；各肝段常見肝外側枝供血動脈列表(含尾狀葉最常見為右膈下動脈)。
 
 ## 判讀陷阱
 - **碘油偽影**：CT 上碘油高密度會**遮蔽底下強化**，亦造成 beam-hardening 偽影；勿把「碘油緻密沉積」直接當「完全壞死」，亦勿把碘油密度誤判為存活腫瘤——存疑改 MRI 減影。[^3][^5]

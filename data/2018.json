@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 214,
+  "totalQuestions": 220,
   "questions": [
     {
       "id": "2018-001",
@@ -4427,10 +4427,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.112；RadioGraphics 2017;37:963-977.",
       "explanation": "S1: Right IPA, RGA, LGA\nS23: Left IPA, left IMA, LGA\nS4: Right IMA, left IPA, cystic artery\nS5: Cystic artery, superior mesenteric artery, gastroduodenal artery\nS6: Suprarenal arteries, renal artery, ICAs, lumbar arteries, SMA, GDA\nS7: Right IPA, ICAs, suprarenal arteries, renal artery\nS8: Right IPA, right IMA, suprarenal arteries",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tace"
+      ],
       "checked": false
     },
     {
@@ -4462,10 +4464,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.115；RadioGraphics 2008;28:65-79.",
       "explanation": "more common. AML(53-75%)>renal cyst(18-53%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tuberous-sclerosis-renal"
+      ],
       "checked": false
     },
     {
@@ -4677,10 +4681,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.110；RadioGraphics 2017;37:516-536.",
       "explanation": "Type 2.\n|      | Type 1 | Type 2 | Type 3 |\n| ---- | ------ | ------ | ------ |\n|      | 1cm    | 2cm    | >2cm   |\n| meta | <10%   | 10-30% | 75%    |\n|      |        | ZES       |        |",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gastric-carcinoid-tumor-classification"
+      ],
       "checked": false
     },
     {
@@ -7802,6 +7808,228 @@
       "images": [],
       "concepts": [
         "pericardial-germ-cell-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-215",
+      "year": 2018,
+      "number": 215,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which description about the pancreatic features of von Hippel–Lindau syndrome is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreatic cysts are the most common finding and usually multiple and asymptomatic."
+        },
+        {
+          "letter": "B",
+          "text": "Serous cystadenomas do not communicate with the pancreatic duct."
+        },
+        {
+          "letter": "C",
+          "text": "VHL-associated pancreatic NETs can be multiple."
+        },
+        {
+          "letter": "D",
+          "text": "VHL-associated pancreatic NETs manifest at an older age compared with that of sporadic NETs."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.109；RadioGraphics 2018;38:849-866.",
+      "explanation": "VHL相關胰臟神經內分泌腫瘤(NET)好發於「較年輕」年齡(非較年長)，此為與偶發性(sporadic)NET的重要差異，故本敘述錯誤。胰臟囊腫為最常見表現(多發且無症狀)、漿液性囊腺瘤不與胰管相通、VHL相關NET可為多發，皆正確。\n\n見 [[von-hippel-lindau-disease]]",
+      "images": [],
+      "concepts": [
+        "von-hippel-lindau-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-216",
+      "year": 2018,
+      "number": 216,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following arteries is most likely to be associated with hiccups as the complication during TACE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intercostal artery"
+        },
+        {
+          "letter": "B",
+          "text": "Inferior phrenic artery"
+        },
+        {
+          "letter": "C",
+          "text": "Internal mammary artery"
+        },
+        {
+          "letter": "D",
+          "text": "Cystic artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.111；RadioGraphics 2017;37:963-977.",
+      "explanation": "膈下動脈(inferior phrenic artery)緊鄰橫膈，栓塞化療藥物灌注時易刺激橫膈神經而誘發呃逆(hiccups)，為TACE經膈下動脈供血栓塞時常見之併發症。\n\n見 [[tace]]",
+      "images": [],
+      "concepts": [
+        "tace"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-217",
+      "year": 2018,
+      "number": 217,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings about hepatic carcinoid tumors is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary hepatic carcinoid tumors are rare."
+        },
+        {
+          "letter": "B",
+          "text": "Liver is the most common site of carcinoid metastasis"
+        },
+        {
+          "letter": "C",
+          "text": "Female is more common than male for acquiring primary carcinoid tumors"
+        },
+        {
+          "letter": "D",
+          "text": "Primary carcinoid tumors have poorer prognosis than hepatocellular carcinoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.112；RadioGraphics 2017;37:516-536.",
+      "explanation": "原發性肝臟類癌腫瘤(primary hepatic carcinoid tumor)之預後「較」肝細胞癌(HCC)為佳(非較差)，此為本題錯誤敘述。原發性肝臟類癌極罕見、肝臟為類癌轉移最常見部位、女性好發皆為正確描述。\n\n見 [[hepatic-carcinoid-tumor]]",
+      "images": [],
+      "concepts": [
+        "hepatic-carcinoid-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-218",
+      "year": 2018,
+      "number": 218,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is wrong about renal cell carcinoma (RCC) in von Hippel-Lindau disease (VHL)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RCC can arise from renal cysts in VHL disease."
+        },
+        {
+          "letter": "B",
+          "text": "There is no correlation between cyst size and malignancy."
+        },
+        {
+          "letter": "C",
+          "text": "Ultrasound is more sensitive than CT to detect smaller RCC (<2cm)."
+        },
+        {
+          "letter": "D",
+          "text": "RCC occurs in VHL disease at a younger age than general population."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.113；RadioGraphics 2008;28:65-79.",
+      "explanation": "偵測較小腎細胞癌(<2cm)時，CT較超音波更敏感(非超音波較敏感)，此為本題錯誤敘述。VHL疾病中RCC可源自腎囊腫、囊腫大小與惡性度無相關性、VHL之RCC發病年齡較一般族群年輕，皆為正確描述。\n\n見 [[von-hippel-lindau-disease]]",
+      "images": [],
+      "concepts": [
+        "von-hippel-lindau-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-219",
+      "year": 2018,
+      "number": 219,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is wrong about pheochromocytomas in VHL disease compared with those in general population?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They occur at younger age."
+        },
+        {
+          "letter": "B",
+          "text": "They tend to be multiple lesions."
+        },
+        {
+          "letter": "C",
+          "text": "High proportion of malignancy."
+        },
+        {
+          "letter": "D",
+          "text": "Ectopic site can be at carotid body."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.114；RadioGraphics 2008;28:65-79.",
+      "explanation": "VHL疾病相關嗜鉻細胞瘤惡性比例「極低」(約1-5%，非高比例，與一般常提及之10%法則相比更低)，此為本題錯誤敘述。VHL相關嗜鉻細胞瘤發病年齡較輕、多發性病灶、可出現異位部位(如頸動脈體)皆為正確描述。\n\n見 [[von-hippel-lindau-disease]]",
+      "images": [],
+      "concepts": [
+        "von-hippel-lindau-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-220",
+      "year": 2018,
+      "number": 220,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "The retrocaval ureter occurs when the IVC is formed by which of the followings?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "right posterior cardinal vein,"
+        },
+        {
+          "letter": "B",
+          "text": "right supracardinal vein"
+        },
+        {
+          "letter": "C",
+          "text": "right subcardinal vein"
+        },
+        {
+          "letter": "D",
+          "text": "vitelline vein"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.116；RadioGraphics 2008;28:669-689.",
+      "explanation": "下腔靜脈正常發育由subcardinal與supracardinal靜脈系統形成，right posterior cardinal vein正常應退化消失；若異常由right posterior cardinal vein殘留參與形成下腔靜脈腎段，輸尿管會被夾在此異常靜脈與正常靜脈之間，形成retrocaval ureter(輸尿管走行於下腔靜脈後方)。\n\n見 [[retrocaval-ureter]]",
+      "images": [],
+      "concepts": [
+        "retrocaval-ureter"
       ],
       "checked": false
     }
