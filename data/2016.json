@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 268,
+  "totalQuestions": 269,
   "questions": [
     {
       "id": "2016-001",
@@ -9980,6 +9980,43 @@
       "images": [],
       "concepts": [
         "ascending-aortic-aneurysm"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-269",
+      "year": 2016,
+      "number": 269,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "About Vertebrobasilar Dolichoectasia (VBD), which statement was correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most patients with VBD are asymptomatic."
+        },
+        {
+          "letter": "B",
+          "text": "Clinical manifestations can be divided into compressive symptoms and vascular events, including TIA, ischemic stroke, and intraparenchymal or subarachnoid hemorrhage."
+        },
+        {
+          "letter": "C",
+          "text": "The most frequently described ischemic lesion is in the brainstem, accounting for 41% of cases, and is most often in the pons."
+        },
+        {
+          "letter": "D",
+          "text": "All above statements were correct."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2016詳解；RadioGraphics, Jul 2016, Vol.36:1129-1146",
+      "explanation": "**VBD（椎基底動脈延長擴張症）大多數病人無症狀；臨床表現可分為壓迫性症狀與血管事件（TIA、缺血性中風、腦實質內或蜘蛛膜下出血）；最常見缺血病灶位於腦幹（約41%），又以橋腦最常見**。四個敘述皆正確。\n\n(A)(B)(C) 皆正確描述VBD之流行病學、臨床表現分類與最常見缺血病灶部位。\n(D) **正解**：以上皆正確。\n\n→ [[vertebrobasilar-dolichoectasia]]",
+      "images": [],
+      "concepts": [
+        "vertebrobasilar-dolichoectasia"
       ],
       "checked": false,
       "years": [
