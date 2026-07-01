@@ -590,6 +590,7 @@
       "year": 2017,
       "number": 16,
       "years": [
+        2016,
         2017
       ],
       "subspecialty": "Breast",
@@ -5314,6 +5315,7 @@
       ],
       "checked": false,
       "years": [
+        2016,
         2017
       ]
     },
@@ -5351,6 +5353,7 @@
       ],
       "checked": false,
       "years": [
+        2016,
         2017
       ]
     },
@@ -5388,6 +5391,7 @@
       ],
       "checked": false,
       "years": [
+        2016,
         2017
       ]
     },
@@ -10635,6 +10639,314 @@
       "images": [],
       "concepts": [
         "meniscal-tear-mri-signs"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-296",
+      "year": 2017,
+      "number": 296,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is TRUE about ankle Mortise-view radiograph?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an AP-view taken with a 90 degrees endorotation of the foot"
+        },
+        {
+          "letter": "B",
+          "text": "The technologist turns the foot outwards (inward) until the medial malleolus is at the same height as the lateral malleolus"
+        },
+        {
+          "letter": "C",
+          "text": "This view visualizes both the lateral and medial joint spaces"
+        },
+        {
+          "letter": "D",
+          "text": "The talus overlaps a portion of the lateral malleolus, obscuring the lateral aspect of the ankle joint (in AP view)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；MSK 攝影技術附圖",
+      "explanation": "**C（同時顯示內外側關節間隙）為真**。\n\n(A) 為15-20度內轉oblique,非90度AP旋轉。\n(B) 應為內轉(inward)非外轉(outwards)。\n(C) **正解**:Mortise view核心優勢。\n(D) 此為標準AP view的特性(距骨遮蔽外髁)，非Mortise view的敘述。\n\n→ [[ankle-mortise-view]]",
+      "images": [],
+      "concepts": [
+        "ankle-mortise-view"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-297",
+      "year": 2017,
+      "number": 297,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is TRUE about compartment syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Necrosis of tissue may begin at interstitial pressure as low as 50 mmHg (above): pressure higher than 30 mmHg of the diastolic pressure is associated with compartment syndrome; for those with hypotension, a pressure of 20 mmHg higher than the intra-compartmental pressure is associated with compartment syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Compartment syndrome is not a life-threatening condition"
+        },
+        {
+          "letter": "C",
+          "text": "It progresses to rhabdomyolysis if untreated"
+        },
+        {
+          "letter": "D",
+          "text": "A fasciotomy procedure with incision in the skin and the muscle fibers (fascia) is necessary to release the pressure and regain normal function of the arteries"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；MSK Section",
+      "explanation": "**C（未治療進展為橫紋肌溶解症）為真**。\n\n(A) 診斷閾值應以delta pressure(舒張壓−腔室壓)<20-30mmHg為準,非單純腔室壓絕對值。\n(B) 為危及生命之急症,非「非致命」。\n(C) **正解**。\n(D) 筋膜切開術切開皮膚與筋膜(fascia),非肌肉纖維。\n\n→ [[compartment-syndrome-imaging]]",
+      "images": [],
+      "concepts": [
+        "compartment-syndrome-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-298",
+      "year": 2017,
+      "number": 298,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which artery does not supply the internal border zone?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recurrent artery of Heubner"
+        },
+        {
+          "letter": "B",
+          "text": "Lenticulostriate artery"
+        },
+        {
+          "letter": "C",
+          "text": "Middle cerebral artery"
+        },
+        {
+          "letter": "D",
+          "text": "Anterior choroidal artery"
+        },
+        {
+          "letter": "E",
+          "text": "Superior hypophyseal artery"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；NR Section",
+      "explanation": "**E（Superior hypophyseal artery）**——供應下視丘/漏斗部,與大腦內側分水嶺區灌流無關。\n\n(A)(B)(D) 皆為供應內側分水嶺區的穿通動脈。\n(C) MCA為這些穿通動脈的來源動脈,亦參與供血。\n(E) **正解**。\n\n→ [[cerebral-border-zone-infarct-arteries]]",
+      "images": [],
+      "concepts": [
+        "cerebral-border-zone-infarct-arteries"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-299",
+      "year": 2017,
+      "number": 299,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following description concerning lacunar infarction is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ischemia of deep perforators from arterial circle of Willis, the anterior choroidal artery, or the basilar artery"
+        },
+        {
+          "letter": "B",
+          "text": "The most frequently affected perforating arteries include the lenticulostriate, the thalamoperforate and the perforators arising from the anterior choroidal artery"
+        },
+        {
+          "letter": "C",
+          "text": "Maximum size of the infarction in the acute stage is 15 mm (some sources say 20mm)"
+        },
+        {
+          "letter": "D",
+          "text": "Most first-ever symptomatic lacunar infarcts are located in the area supplied by the anterior choroidal artery (posterior limb of internal capsule)"
+        },
+        {
+          "letter": "E",
+          "text": "Most lacunar infarcts are asymptomatic"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；NR Section",
+      "explanation": "⚠️ 官方答案為C,但官方詳解本身亦標註此數值文獻不一(15mm或20mm),建議醫師核對原文確認真正錯誤理由。\n\n(A)(B) 深部穿通動脈供血:真。\n(C) **正解(標示為錯)**:最大範圍數值有爭議。\n(D) 內囊後肢為首次症狀性腔隙梗塞好發部位:真。\n(E) 多數無症狀:真。\n\n→ [[lacunar-infarction]]",
+      "images": [],
+      "concepts": [
+        "lacunar-infarction"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-300",
+      "year": 2017,
+      "number": 300,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about subependymomas is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is thought that they arise from the subependymal glial layer surrounding the cerebral ventricles, but the exact histogenesis remains uncertain"
+        },
+        {
+          "letter": "B",
+          "text": "Enhancement is variable, with most lesions demonstrating no or minimal enhancement"
+        },
+        {
+          "letter": "C",
+          "text": "Invasion into the brain parenchyma usually occurs, and it is often for there to be adjacent T2 hyperintensity in the periventricular white matter (unlike ependymomas, no invasion into brain parenchyma occurs, and it is rare for adjacent T2 hyperintensity)"
+        },
+        {
+          "letter": "D",
+          "text": "No CSF dissemination occurs. Rarely, multiple subependymomas may be present"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Intraventricular Neoplasms: Radiologic-Pathologic Correlation, RadioGraphics 2013;33:21-43",
+      "explanation": "**C為偽**——subependymoma不侵犯腦實質,周邊白質很少出現T2高訊號(與ependymoma相反)。\n\n(A) 組織起源不確定:真。\n(B) 強化多變但多無/輕微強化:真。\n(C) **正解(偽)**。\n(D) 無CSF散播偶可多發:真。\n\n→ [[subependymoma]]",
+      "images": [],
+      "concepts": [
+        "subependymoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-301",
+      "year": 2017,
+      "number": 301,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about central neurocytoma is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central neurocytomas are well-circumscribed, lobulated masses that frequently have cystlike areas"
+        },
+        {
+          "letter": "B",
+          "text": "The term central neurocytoma is exclusively reserved for neurocytomas that occur in the ventricular system"
+        },
+        {
+          "letter": "C",
+          "text": "At contrast-enhanced imaging, the enhancement pattern is variable, but moderate to strong enhancement is typically seen"
+        },
+        {
+          "letter": "D",
+          "text": "Recent evaluation with MR spectroscopy has revealed the presence of glutamine (glycine, 3.55 ppm) within central neurocytomas which help differentiate them from other intraventricular neoplasm"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Intraventricular Neoplasms: Radiologic-Pathologic Correlation, RadioGraphics 2013;33:21-43",
+      "explanation": "**D為偽**——MRS鑑別特徵峰為glycine(3.55 ppm),非glutamine。\n\n(A) 邊界清楚分葉狀伴囊狀變:真。\n(B) 命名專指腦室內病灶:真。\n(C) 強化多變但典型中重度強化:真。\n(D) **正解(偽)**:應為glycine非glutamine。\n\n→ [[central-neurocytoma]]",
+      "images": [],
+      "concepts": [
+        "central-neurocytoma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-302",
+      "year": 2017,
+      "number": 302,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about Paget disease involving petrous apex is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Characterized by production of dense fragile bone formed by alternating episodes of excessive abnormal osteoclastic and osteoblastic activity"
+        },
+        {
+          "letter": "B",
+          "text": "The disease may be polyostotic or monostotic and typically will involve the facial bones (usually involves the calvaria, skull base, and temporal bones)"
+        },
+        {
+          "letter": "C",
+          "text": "It can divided into 4 phases: osteolytic, mixed, sclerotic and remodeling phase"
+        },
+        {
+          "letter": "D",
+          "text": "MR imaging shows heterogeneous signal intensity on T1- and T2-weighted images with heterogeneous enhancement in involved bone"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Lesions of the Petrous Apex: Classification and Findings at CT and MR Imaging, RadioGraphics 2012;32:151-173",
+      "explanation": "**B為偽**——Paget disease典型侵犯顱蓋、顱底、顳骨,非「顏面骨」。\n\n(A) 硬化/溶骨交替活動:真。\n(B) **正解(偽)**:應為calvaria/skull base/temporal bones。\n(C) 四期分類:真。\n(D) MR訊號與強化不均:真。\n\n→ [[paget-disease-bone]]",
+      "images": [],
+      "concepts": [
+        "paget-disease-bone"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-303",
+      "year": 2017,
+      "number": 303,
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 13-year-old male presents with recurrent epistaxis. CT shows a highly vascular mass in the nasopharynx, with widening of the pterygopalatine fossa and invasion of the sphenoid sinus. Which arterial branch is the feeding vessel likely to be arising from?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ascending pharyngeal artery"
+        },
+        {
+          "letter": "B",
+          "text": "facial artery"
+        },
+        {
+          "letter": "C",
+          "text": "Superficial temporal artery"
+        },
+        {
+          "letter": "D",
+          "text": "Internal maxillary artery"
+        },
+        {
+          "letter": "E",
+          "text": "Internal carotid artery"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiology Review Manual, 6th ed., p.387",
+      "explanation": "**D（Internal maxillary artery）**——JNA主要供血來自同側IMA遠端分支(尤其sphenopalatine、descending palatine、posterior superior alveolar)。\n\n(A) Ascending pharyngeal artery:可提供次要供血,非主要。\n(B)(C)(E) 皆非JNA主要供血動脈。\n(D) **正解**。\n\n→ [[juvenile-nasopharyngeal-angiofibroma]]",
+      "images": [],
+      "concepts": [
+        "juvenile-nasopharyngeal-angiofibroma"
       ],
       "checked": false,
       "years": [

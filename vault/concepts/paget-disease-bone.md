@@ -28,10 +28,14 @@ dateRev: 2026-06-30
 ### 參考來源
 [^1]: 官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65. doi:10.2214/AJR.10.7264：Paget disease 徵象含 blade-of-grass（長骨）、cotton-wool（顱骨）、osteoporosis circumscripta（顱骨溶骨期）、ivory vertebra（脊椎,非特異）。
 [^2]: 官方 2017 詳解（同篇附註）：hole-within-hole appearance 為顱骨嗜伊紅性肉芽腫（EG）特徵,因內外板不對稱受侵犯呈雙重輪廓/斜邊外觀,非 Paget disease 徵象。
+[^3]: Lesions of the Petrous Apex: Classification and Findings at CT and MR Imaging. RadioGraphics 2012;32:151-173：Paget disease侵犯petrous apex時,好發部位為顱蓋(calvaria)、顱底(skull base)、顳骨(temporal bones)（非顏面骨facial bones）;可為多骨性(polyostotic)或單骨性(monostotic);分溶骨、混合、硬化、重塑四期;MR上T1/T2訊號不均伴不均勻強化。
 
 ## 題目
 > [!question]- All of the following signs are associated with Paget disease EXCEPT: (2017-254)
 > **Hole-within-hole appearance in long bones（B）**——此為顱骨嗜伊紅性肉芽腫（EG）特徵，非 Paget disease。Blade-of-grass（長骨）、cotton-wool（顱骨）、osteoporosis circumscripta（顱骨）、ivory vertebra（脊椎）皆與 Paget disease 相關。[^1][^2]
+
+> [!question]- Which of the following statements about Paget disease involving petrous apex is FALSE? (2017-302)
+> **B為偽**——Paget disease典型侵犯**顱蓋(calvaria)、顱底(skull base)、顳骨(temporal bones)**，非「顏面骨(facial bones)」。可為多骨性或單骨性(A)、分溶骨/混合/硬化/重塑四期(C)、MR上訊號與強化不均(D)皆為真。[^3]
 
 ## 考題
 ```dataview
