@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 220,
+  "totalQuestions": 229,
   "questions": [
     {
       "id": "2018-001",
@@ -2802,10 +2802,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "雖然沒提到鈣化。但年紀大papillary較多，罕見鈣化。 [[ADD DDx hypothalamic lesions.png]]\n- B. Rathke cleft cyst: cyst T2亮 T1看成分，不會顯影\n- C. Pituitary macroadenoma 可能有solid, cystic part, necrosis, hemorrhage可能不容易區分。Fluid-fluid level比較常見在adenomas，而Craniopharyngioma, Rathke cleft cyst 較少這樣\n- D. Teratoma還要看到fat, 鈣化。",
+      "reference": "2018 交換考題 詳解 p.121；Grainger & Allison's Diagnostic Radiology, Chapter 82, 1978-2041.e2.",
+      "explanation": "鞍上實質性腫塊合併小囊性成分、實質成分明顯強化，最符合顱咽管瘤(craniopharyngioma)之影像特徵。Rathke cleft cyst通常囊性為主且強化不明顯；pituitary macroadenoma多起源鞍內延伸鞍上，實質/囊性/壞死/出血成分多變但通常無此典型強化型態；intracranial teratoma需合併脂肪成分佐證。\n\n見 [[craniopharyngioma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "craniopharyngioma"
+      ],
       "checked": false
     },
     {
@@ -3664,10 +3666,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018 交換考題 詳解 p.124；Grainger & Allison's Diagnostic Radiology, Chapter 81, 1961-1977.e1.",
+      "explanation": "2歲小兒缺鐵性貧血合併9公分後縱膈腫塊併鈣化、雙側肺野清晰，最符合神經母細胞瘤(neuroblastoma)。神經母細胞瘤好發後縱膈、常見鈣化，可合併副腫瘤症候群導致缺鐵性貧血相關表現；淋巴瘤通常無鈣化(治療前)；脂肪瘤不會造成貧血；髓外造血(extramedullary hematopoiesis)雖亦好發後縱膈，但鈣化極不典型(atypical)。\n\n見 [[neuroblastoma-mediastinal]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neuroblastoma-mediastinal"
+      ],
       "checked": false
     },
     {
@@ -4357,10 +4361,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018 交換考題 詳解 p.119；Orthopedic Imaging: A Practical Approach, 6th edition, P1772.",
+      "explanation": "Paget disease、fibrous dysplasia、體外游離輻射線照射(external ionizing irradiation)皆為已知續發性骨肉瘤之危險因子(predisposing factor)，故「以上皆非」為錯誤敘述(即三者皆為危險因子，非「無」危險因子)。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
       "checked": false
     },
     {
@@ -4976,10 +4982,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.123；Grainger & Allison's Diagnostic Radiology, Chapter 76, 1778-1803.e2.",
       "explanation": "normal chest radiograph by 48-72 hours post-partum\nTransient tachypnoea of the newborn, also known as retained fetal fluid or wet lung disease, presents in the neonate as tachypnoea for the first few hours of life, lasting up to one day. The tachypnoea usually resolves by within 48 hours.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neonatal-lung-disease"
+      ],
       "checked": false
     },
     {
@@ -8030,6 +8038,339 @@
       "images": [],
       "concepts": [
         "retrocaval-ureter"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-221",
+      "year": 2018,
+      "number": 221,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is wrong about retroperitoneal fibrosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It's a chronic inflammatory process."
+        },
+        {
+          "letter": "B",
+          "text": "At presentation, about 50% of patients with autoimmune pancreatitis have retroperitoneal fibrosis."
+        },
+        {
+          "letter": "C",
+          "text": "It can cause abdominal aortic aneurysm."
+        },
+        {
+          "letter": "D",
+          "text": "It can cause hydronephrosis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.117；RadioGraphics 2015;35:2007-2025.",
+      "explanation": "自體免疫胰臟炎(autoimmune pancreatitis)患者於診斷時合併後腹膜纖維化之比例約為「20%」(非50%)，故本敘述錯誤。後腹膜纖維化為慢性發炎過程、可導致腹主動脈瘤(炎性腹主動脈瘤IAAA)、可導致腎積水，皆為正確描述。\n\n見 [[retroperitoneal-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-222",
+      "year": 2018,
+      "number": 222,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about osteochondroma is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cartilage cap"
+        },
+        {
+          "letter": "B",
+          "text": "Possible malignant change but rare"
+        },
+        {
+          "letter": "C",
+          "text": "Usually stop growing after bone maturity"
+        },
+        {
+          "letter": "D",
+          "text": "Most common involved site: epiphysis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.118；Orthopedic Imaging: A Practical Approach, 6th edition, P1535.",
+      "explanation": "骨軟骨瘤最常好發部位為「幹骺端(metaphyseal region)」，典型背向骨骺生長，並非好發於骨骺(epiphysis)，故本敘述錯誤。具軟骨帽、惡性變機率低但可能發生、骨骼成熟後通常停止生長，皆為正確描述。\n\n見 [[osteochondroma]]",
+      "images": [],
+      "concepts": [
+        "osteochondroma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-223",
+      "year": 2018,
+      "number": 223,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following bone lesions usually demonstrates different feature of the margin from the others?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Brown tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Giant cell tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrous dysplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Lymphoma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.118；Orthopedic Imaging: A Practical Approach, 6th edition, P1375-1377.",
+      "explanation": "纖維性發育不良(fibrous dysplasia)典型邊緣為厚硬化緣(rind sign)，與其他三者(棕色瘤、巨細胞瘤、淋巴瘤)常見之邊緣型態不同——原發性骨淋巴瘤最常見型態為溶骨性(lytic)、滲透性骨破壞併寬廣移行帶(wide zone of transition)，棕色瘤與巨細胞瘤亦多呈邊緣不清之溶骨性病灶，唯獨fibrous dysplasia以硬化緣(rind sign)為特徵。\n\n見 [[fibrous-dysplasia]]",
+      "images": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-224",
+      "year": 2018,
+      "number": 224,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is not the common differential diagnosis for parosteal osteosarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Parosteal osteoma"
+        },
+        {
+          "letter": "B",
+          "text": "Myositis ossificans"
+        },
+        {
+          "letter": "C",
+          "text": "Sessile osteochondroma"
+        },
+        {
+          "letter": "D",
+          "text": "Fibrous dysplasia"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.119；Orthopedic Imaging: A Practical Approach, 6th edition, P1809.",
+      "explanation": "⚠️ 官方詳解本題答案欄未給出明確答案(僅標示「D??」表達不確定)。依常見骨旁骨肉瘤(parosteal osteosarcoma)之影像鑑別診斷清單，通常包含parosteal osteoma、myositis ossificans、sessile osteochondroma等表面型骨性病灶；fibrous dysplasia為髓內病灶，通常不列為此鑑別診斷清單常見項目，故推測D較符合題意，惟官方本身標示存疑，建議醫師對照原文確認。\n\n見 [[parosteal-osteosarcoma]]",
+      "images": [],
+      "concepts": [
+        "parosteal-osteosarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-225",
+      "year": 2018,
+      "number": 225,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 45 year old woman present with gradual visual loss and proptosis. The Head CT shows enhancing tumor surrounding the non-enhancing optic nerve results in the so-called tram-track sign. Which one of the following is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Optic nerve meningioma"
+        },
+        {
+          "letter": "B",
+          "text": "Optic nerve glioma"
+        },
+        {
+          "letter": "C",
+          "text": "Orbital lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Orbital metastasis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.120；Grainger & Allison's Diagnostic Radiology, Chapter 66, 1556-1589.e1.",
+      "explanation": "漸進性視力喪失合併眼球突出，CT見強化腫瘤包繞不強化之視神經、形成「軌道徵(tram-track sign)」，為視神經腦膜瘤(optic nerve meningioma)之典型影像特徵；視神經腫瘤本身(如optic nerve glioma)通常會使視神經本身增粗且強化，非周邊包繞型態。\n\n見 [[optic-nerve-meningioma]]",
+      "images": [],
+      "concepts": [
+        "optic-nerve-meningioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-226",
+      "year": 2018,
+      "number": 226,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following intracranial tumor is the most likely to see in Von Hippel–Lindau Disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemangioblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Medulloblastoma"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Ependymoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.122；Grainger & Allison's Diagnostic Radiology, Chapter 56, 1316-1344.e2.",
+      "explanation": "血管母細胞瘤(hemangioblastoma)為VHL疾病最典型之中樞神經系統腫瘤，好發於小腦、腦幹、脊髓；可為多發性。Medulloblastoma、lymphoma、ependymoma皆非VHL之特徵性顱內腫瘤。\n\n見 [[von-hippel-lindau-disease]]",
+      "images": [],
+      "concepts": [
+        "von-hippel-lindau-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-227",
+      "year": 2018,
+      "number": 227,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following is most likely to cause a jugular foramen mass",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paraganglioma"
+        },
+        {
+          "letter": "B",
+          "text": "Meningioma"
+        },
+        {
+          "letter": "C",
+          "text": "Medulloblastoma"
+        },
+        {
+          "letter": "D",
+          "text": "Astrocytoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.122；Grainger & Allison's Diagnostic Radiology, Chapter 67, 1590-1647.e1.",
+      "explanation": "副神經節瘤(glomus jugulare/paraganglioma)為頸靜脈孔(jugular foramen)最常見之腫瘤，具富血管特徵與T2 salt-and-pepper徵象。Meningioma可侵犯頸靜脈孔但非最常見原發部位；medulloblastoma、astrocytoma非典型頸靜脈孔腫瘤。\n\n見 [[glomus-jugulare]]",
+      "images": [],
+      "concepts": [
+        "glomus-jugulare"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-228",
+      "year": 2018,
+      "number": 228,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 2 years old child presents with beta thalassaemia, and skeletal survey is performed. Which one of the following radiographic features is favoring thalassaemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hair-on-end appearance with widening of the diploic space is the skull."
+        },
+        {
+          "letter": "B",
+          "text": "Enlargement of the frontal sinuses"
+        },
+        {
+          "letter": "C",
+          "text": "Lucent metaphyseal bands"
+        },
+        {
+          "letter": "D",
+          "text": "Medial displacement of the orbits."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.123；Grainger & Allison's Diagnostic Radiology, Chapter 79, 1891-1930.e2.",
+      "explanation": "重型海洋性貧血(thalassaemia major)因骨髓代償性造血增生，顱骨呈「hair-on-end」放射狀骨針樣外觀合併板障間隙增寬，為典型影像特徵。額竇擴大、乾骺端透亮帶、眼眶向外側(非向內)移位皆非典型海洋性貧血特徵。\n\n見 [[thalassemia-skeletal-survey]]",
+      "images": [],
+      "concepts": [
+        "thalassemia-skeletal-survey"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-229",
+      "year": 2018,
+      "number": 229,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A neonate presents with vomiting and failure to pass meconium within 24 hour. Which one of the following radiographic features is favoring meconium ileus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contrast enema refluxes into the narrow terminal ileum, where pellets of meconium are outlined."
+        },
+        {
+          "letter": "B",
+          "text": "Ultrasound showing target sign."
+        },
+        {
+          "letter": "C",
+          "text": "Contrast enema showing diffusely dilated colon."
+        },
+        {
+          "letter": "D",
+          "text": "KUB showing coffee bean sign."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.124；Grainger & Allison's Diagnostic Radiology, Chapter 77, 1804-1847.e4.",
+      "explanation": "胎便性腸阻塞(meconium ileus)典型灌腸攝影可見顯影劑逆流至狹窄的迴腸末端，並勾勒出胎便糰塊(pellets of meconium)輪廓，同時可見未使用之微結腸(microcolon)；target sign為腸套疊之超音波特徵；瀰漫性結腸擴張非本病典型(反因遠端阻塞而呈microcolon)；coffee bean sign為乙狀結腸扭轉之KUB特徵。\n\n見 [[meconium-ileus]]",
+      "images": [],
+      "concepts": [
+        "meconium-ileus"
       ],
       "checked": false
     }

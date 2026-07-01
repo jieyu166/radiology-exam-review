@@ -13,7 +13,7 @@ dateRev: 2026-06-29
 ## Summary
 
 ### 定義與診斷關鍵
-- **本質**:最常見的良性骨腫瘤;為被覆軟骨帽的骨性突起(骨贅／exostosis),好發於長骨幹骺端,典型背向關節生長。[^1][^2]
+- **本質**:最常見的良性骨腫瘤;為被覆軟骨帽的骨性突起(骨贅／exostosis),好發於長骨**幹骺端(metaphysis)**,典型背向關節/骨骺生長,並**非**好發於骨骺(epiphysis)——此為常見誤判處。[^1][^2][^6]
 - **診斷關鍵(pathognomonic)**:病灶的**皮質與髓腔均與母骨連續**——皮質互相延續、髓腔互通。此連續性是與其他表面型骨腫瘤鑑別的核心依據。[^1][^3]
 - **形態**:**帶柄型(pedunculated)** 有明確骨柄、典型背離關節;**廣基型(sessile)** 無柄、以寬基底貼附母骨。[^1][^3]
 
@@ -48,6 +48,11 @@ dateRev: 2026-06-29
 [^3]: RadioGraphics 經典文獻層級(Murphey MD et al., Imaging of Osteochondroma: Variants and Complications with Radiologic-Pathologic Correlation, RadioGraphics 2000;20(5):1407–1434, doi:10.1148/radiographics.20.5.g00se171407):皮質髓腔連續、形態分類、軟骨帽 MRI 評估與併發症之放射病理對照。
 [^4]: 同儕期刊原著層級(Bernard SA et al., Improved Differentiation of Benign Osteochondromas from Secondary Chondrosarcomas with Standardized Measurement of Cartilage Cap at CT and MR Imaging, Radiology 2010;255(3):857–865, doi:10.1148/radiol.10082120):標準化軟骨帽量測以 2 cm 為界區分良惡性。
 [^5]: 教科書層級(StatPearls, NCBI Bookshelf NBK544296, Osteochondroma — Differential Diagnosis):parosteal osteosarcoma、subungual exostosis、BPOP(Nora lesion)皆**無髓腔連續**,以此與骨軟骨瘤鑑別。
+[^6]: *Orthopedic Imaging: A Practical Approach*, 6th edition, P1535（2018 交換考題詳解 p.118 引用；Tier 2 教科書）。骨軟骨瘤最常好發部位為幹骺端(metaphyseal region)，非骨骺(epiphysis)；具軟骨帽、惡性變機率低但可能發生、骨骼成熟後通常停止生長。
+
+## 題目
+> [!question]- Which of the following about osteochondroma is wrong? (2018-222)
+> **Most common involved site: epiphysis（D）**——骨軟骨瘤最常好發於幹骺端(metaphysis)，非骨骺(epiphysis)，此敘述錯誤。具軟骨帽(A)、惡性變機率低但可能發生(B)、骨骼成熟後通常停止生長(C)皆為正確描述。[^6]
 
 ## 考題
 ```dataview

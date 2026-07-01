@@ -23,6 +23,9 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「為非」？
 > 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]
 
+> [!question]- Which one of the following is most likely to cause a jugular foramen mass? (2018-227)
+> **Paraganglioma（A）**——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。[^5]
+
 ## 影像判讀骨架
 
 ### CT（顳骨高解析骨窗為核心）
@@ -63,6 +66,7 @@ dateRev: 2026-06-29
 [^2]: Vogl TJ, et al. *Differential Diagnosis of Jugular Foramen Lesions*（review，PMC 開放全文 PMC2637573，accessed 2026-06-29）：glomus jugulare CT 蟲蝕狀破壞、頸靜脈棘不規則、MRI salt-and-pepper、富血管強化、傾向管腔內侵犯；schwannoma 平滑有皮質之扇貝狀擴大、一般無內部 flow void；meningioma hyperostosis/鈣化/dural tail；metastasis 通常無 T2 高訊號/flow void；high/dehiscent jugular bulb 假病灶以頸靜脈棘保留辨別。
 [^3]: University of Iowa, *Jugular/Jugulotympanic Paraganglioma — Radiology*（Iowa Head and Neck Protocols，開放全文，accessed 2026-06-29）：CT permeative-destructive、jugular spine erosion、強烈強化；MRI salt-and-pepper、強化邊界清楚；glomus 家族定位（tympanicum 耳蝸鼓岬、jugulare 頸靜脈孔、vagale 頸動脈間隙、carotid body 分叉 lyre sign）；起源於 jugular bulb／CN IX 鼓室支／CN X 耳支。
 [^4]: Fisch 與 Glasscock-Jackson jugulotympanic paraganglioma 分型（otoscape.com eponyms 條目彙整，accessed 2026-06-29）：Fisch Class A（tympanicum）、B（jugulare 無骨破壞）、C1–C3（迷路下／沿頸動脈管侵犯遞增）、D1–D3（顱內延伸）；Glasscock-Jackson 對 tympanicum 與 jugulare 各分四型依侵犯範圍。
+[^5]: *Grainger & Allison's Diagnostic Radiology*, Chapter 67, 1590-1647.e1（2018 交換考題詳解 p.122 引用；Tier 1 教科書）。副神經節瘤(paraganglioma)為頸靜脈孔最常見腫瘤；meningioma可侵犯但非最常見原發部位；medulloblastoma、astrocytoma非典型頸靜脈孔腫瘤。
 
 ## 考題
 ```dataview

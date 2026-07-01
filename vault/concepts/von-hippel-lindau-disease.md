@@ -27,6 +27,9 @@ dateRev: 2026-07-01
 - **偵測較小 RCC（<2cm）之影像模態選擇**：**CT 較超音波(US)更敏感**（非US較敏感），此為常見誤判處。[^2]
 - **發病年齡**：VHL 相關 RCC 發病年齡**較一般族群年輕**。[^2]
 
+## Summary（中樞神經系統）
+- **血管母細胞瘤(hemangioblastoma)**：為VHL疾病**最典型之顱內／中樞神經系統腫瘤**，好發於**小腦、腦幹、脊髓**，可為多發性；medulloblastoma、lymphoma、ependymoma皆非VHL之特徵性腫瘤。[^3]
+
 ## Summary（腎上腺／嗜鉻細胞瘤）
 - **發病年齡較輕**：VHL 相關嗜鉻細胞瘤發病年齡較偶發性病灶年輕。[^2]
 - **多發性**：傾向多發病灶（50–80% 雙側）。[^2]
@@ -39,6 +42,7 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: *RadioGraphics* 2018;38:849-866（2018 交換考題詳解 p.109 引用；Tier 1 影像期刊）。VHL胰臟囊腫最常見多發無症狀；漿液性囊腺瘤不與胰管相通；VHL相關胰臟NET可多發，發病年齡較偶發性NET年輕。
 [^2]: *RadioGraphics* 2008;28:65-79（2018 交換考題詳解 p.113-114 引用；Tier 1 影像期刊）。VHL之RCC可源自腎囊腫、囊腫大小與惡性度無相關、CT偵測<2cm RCC較US敏感、發病年齡較一般族群年輕；VHL相關嗜鉻細胞瘤發病較年輕、多發性(50-80%雙側)、惡性比例極低(1-5%)、異位部位含Zuckerkandl器官/頸動脈體等(異位發生率15-18%)。
+[^3]: *Grainger & Allison's Diagnostic Radiology*, Chapter 56, 1316-1344.e2（2018 交換考題詳解 p.122 引用；Tier 1 教科書）。VHL疾病最典型之顱內腫瘤為血管母細胞瘤，好發小腦/腦幹/脊髓，可多發。
 
 ## 題目
 > [!question]- Which description about the pancreatic features of von Hippel–Lindau syndrome is wrong? (2018-215)
@@ -49,6 +53,9 @@ dateRev: 2026-07-01
 
 > [!question]- Which of the followings is wrong about pheochromocytomas in VHL disease compared with those in general population? (2018-219)
 > **惡性比例高（C）**——實際上VHL相關嗜鉻細胞瘤惡性比例極低(1-5%)，此敘述錯誤。發病較年輕(A)、多發性病灶(B)、可異位於頸動脈體等部位(D)皆為正確描述。[^2]
+
+> [!question]- Which one of the following intracranial tumor is the most likely to see in Von Hippel–Lindau Disease? (2018-226)
+> **Hemangioblastoma（A）**——VHL疾病最典型之中樞神經系統腫瘤，好發小腦/腦幹/脊髓。[^3]
 
 ## 考題
 ```dataview

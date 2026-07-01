@@ -52,11 +52,18 @@ dateRev: 2026-06-28
 - **Osteochondroma**:關鍵在**皮質與髓腔與母骨『連續』**;parosteal OSA 一般不連續,但**進展期皮質受破壞時可偽似連續**,須謹慎。[^4]
 - **Periosteal osteosarcoma**:同屬 surface 型但**中度惡性、以軟骨母細胞為主**,影像偏日光放射狀骨針,非寬基底緻密骨塊。[^2]
 
+## 常見鑑別診斷清單（考題易錯點）
+- ⚠️ **官方詳解本題答案欄未給出明確答案**（僅標示「D??」表達不確定）。依常見教學,parosteal osteosarcoma 之影像鑑別診斷通常聚焦於**表面型骨性病灶**：**parosteal osteoma、myositis ossificans、sessile osteochondroma**;**fibrous dysplasia 為髓內病灶**,通常不列為此鑑別診斷清單常見項目。[^6]
+
 ### 參考來源
 [^1]: *Parosteal osteosarcoma*. Radiopaedia.org（搜尋摘要查證,accessed 2026-06-28;主頁 403,依搜尋結果摘要）：「most common type of juxtacortical or surface osteosarcoma」、「accounts for ~4% of all osteosarcomas」;低惡性度 spindle cell + woven bone、MDM2 amplification;幹骺端 80–90%、遠端股骨後方;MRI 為評估髓內侵犯首選,骨化成分 T1／T2 低訊號。
 [^2]: Murphey MD et al. *Imaging Characteristics of Primary Osteosarcoma: Nonconventional Subtypes*. RadioGraphics 2010;30(6):105524（searches via PMC/RSNA 摘要,accessed 2026-06-28,訂閱全文未登入）：parosteal OSA 好發股骨遠端後側幹骺端;cleavage plane（string sign,對應未侵犯的骨膜內層）約 65% 病例;骨化中央較周邊緻密,與 myositis ossificans 之 zonal 相反;CT 評估皮質、MRI 評估髓內與軟組織侵犯,骨化成分 T1/T2 低訊號。
 [^3]: *Revisiting Myositis Ossificans: A Comprehensive Stage-by-Stage Imaging Review* 及相關 PMC 文獻（免費全文,accessed 2026-06-28）：myositis ossificans 之 zonal phenomenon＝中央透亮不成熟、周邊緻密成熟;parosteal OSA 呈相反型態;cleavage plane「**this radiolucent cleft may be obliterated with advancing tumoral growth**」(進展期消失);MO 隨時間成熟縮小、無髓腔侵犯。
 [^4]: *Parosteal osteosarcoma mimicking osteochondroma: a radio-histologic approach*. PMC3372285（免費全文,accessed 2026-06-28）：osteochondroma 之皮質與髓腔與母骨連續為其診斷特徵;parosteal OSA 因緩慢破壞皮質,進展時可「atypically」偽似皮質／髓腔連續,須與真正連續區分。
+[^6]: *Orthopedic Imaging: A Practical Approach*, 6th edition, P1809（2018 交換考題詳解 p.119 引用；Tier 2 教科書）。Parosteal osteosarcoma常見鑑別診斷清單含parosteal osteoma、myositis ossificans、sessile osteochondroma；fibrous dysplasia非此清單常見項目；官方答案欄本題標示不確定「D??」。
+
+> [!question]- Which of the followings is not the common differential diagnosis for parosteal osteosarcoma? (2018-224)
+> ⚠️ 官方詳解本題答案欄未給明確答案(僅標示「D??」)。依常見鑑別診斷清單推測，**Fibrous dysplasia（D）**較符合題意——parosteal osteoma、myositis ossificans、sessile osteochondroma皆為常見鑑別診斷，fibrous dysplasia為髓內病灶通常不列入此清單。[^6]
 
 ## 考題
 ```dataview

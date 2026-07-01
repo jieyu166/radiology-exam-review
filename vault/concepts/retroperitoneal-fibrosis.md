@@ -24,9 +24,13 @@ dateRev: 2026-06-29
 - **IgG4 相關**:特發性 RPF 中相當比例屬 IgG4-RD(文獻約 35–60%);多見於年長男性,常合併自體免疫胰臟炎等其他 IgG4 器官侵犯,對類固醇反應佳。[^5][^7]
 - **DDx 判讀分水嶺(良性 RPF vs 惡性/淋巴瘤)**:淋巴瘤/惡性常**把主動脈向前抬離脊椎**(anterior displacement,「floating aorta sign」)、**bulky 分葉狀(lobulated)**、可向後包繞並把輸尿管推向**外側(lateral)**;良性 RPF 則貼脊椎不抬主動脈、邊緣平滑、把輸尿管牽向**內側(medial)**。一系列 MDCT 研究中主動脈前移見於淋巴瘤約 43.5% vs RPF 約 5.3%。另需與後腹腔轉移、類肉瘤(sarcoma)、Erdheim-Chester、多發性骨髓瘤鑑別。[^4][^8]
 - 病因:特發性(多)、IgG4 相關、藥物、惡性。[^1]
+- **與自體免疫胰臟炎(autoimmune pancreatitis)之關聯**：自體免疫胰臟炎患者於**診斷時約20%**併有後腹膜纖維化（非50%，此為常見誤判之高估數字）。[^9]
 
 > [!note] 考點:何者「錯」?
 > 「IVP 示輸尿管**外側(lateral)偏移**」錯——應為**內側(medial)偏移**。包繞主動脈/IVC/輸尿管、漸進變細、強化依分期皆正確。[^1]
+
+> [!note] 考點：與自體免疫胰臟炎併發比例
+> 自體免疫胰臟炎診斷時併有後腹膜纖維化之比例約**20%**（非50%）。[^9]
 
 ### 參考來源
 [^1]: *Chronic periaortitis（含 retroperitoneal fibrosis / Ormond disease）*. Radiopaedia.org（實際查證 accessed 2026-06-17）:腎下主動脈周圍纖維發炎斑塊、輸尿管 entrapment 與 hydronephrosis/hydroureter;治療為 ureterolysis 並**輸尿管 lateral transposition**＋網膜包覆;CT 強化依纖維活性而異;IgG4 相關。
@@ -37,6 +41,7 @@ dateRev: 2026-06-29
 [^6]: **Tier 2（PMC 案例佐證）**. IgG4-related focal RPF 案例:FDG-PET/CT 顯著攝取（SUVmax 8.93）但無法與惡性區分,需切片確診。According to PubMed, DOI: [10.1186/s40792-020-00964-0](https://doi.org/10.1186/s40792-020-00964-0)（PMC7399002）。
 [^7]: **Tier 2**. 同 [^5] StatPearls：IgG4-RD 好發年長男性、常合併自體免疫胰臟炎等多器官侵犯,對類固醇反應佳。
 [^8]: **Tier 2（PMC，IF 一般）**. *Differentiation of Lymphoma Presenting as Retroperitoneal Mass and Retroperitoneal Fibrosis: Evaluation with MDCT*. Chin Med J（PMC5358419, [連結](https://pmc.ncbi.nlm.nih.gov/articles/PMC5358419/)）：主動脈前移於淋巴瘤約 43.5% vs RPF 約 5.3%;淋巴瘤呈「floating aorta sign」、bulky 分葉、向後包繞。
+[^9]: *RadioGraphics* 2015;35:2007-2025（2018 交換考題詳解 p.117 引用；Tier 1 影像期刊）。自體免疫胰臟炎診斷時約20%併有後腹膜纖維化；後腹膜纖維化為慢性發炎過程，可導致腹主動脈瘤（炎性腹主動脈瘤IAAA：三聯徵含增厚動脈瘤壁/廣泛動脈瘤周圍纖維化/沾黏，佔腹主動脈瘤3-10%，男女比6:1至30:1）與腎積水。
 
 ## 考題
 ```dataview

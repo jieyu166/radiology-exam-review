@@ -25,6 +25,9 @@ up: "[[rib-tumor]]"
 > [!note] 與 [[rib-tumor]] 的連結
 > 在肋骨病灶鑑別中，**fibrous dysplasia 是最常見良性肋骨病灶**（膨脹＋ground-glass＋無骨膜反應）；屬兒童/年輕成人肋骨 DDx。[^1]
 
+## 邊緣型態與其他溶骨性病灶之對比（考題易錯點）
+- **Fibrous dysplasia 邊緣＝rind sign（厚硬化緣）**，與 brown tumor（棕色瘤）、giant cell tumor（巨細胞瘤）、原發性骨淋巴瘤（最常見型態為溶骨性、滲透性骨破壞併寬廣移行帶）等常呈**邊緣不清之溶骨性**病灶明顯不同——是四者中唯一以硬化緣為特徵者。[^3]
+
 ## 鑑別與報告要點
 | 線索 | 內容 |
 | --- | --- |
@@ -37,6 +40,11 @@ up: "[[rib-tumor]]"
 ### 參考來源
 [^1]: *Fibrous dysplasia*. Radiopaedia.org。膨脹性髓內病變、ground-glass matrix、無 periosteal reaction、rind sign；monostotic 最常見於肋骨(28%)/近端股骨(23%)；GNAS 突變；polyostotic 關聯 McCune-Albright/Mazabraud（實際查證 accessed 2026-06-15）。
 [^2]: 2019 交換考詳解；*Orthopedic Imaging: A Practical Approach*, 5th ed, Ch.19 p.641-666；Resnick, *Bone and Joint Imaging*, 3rd ed, Ch.81 p.1442：股骨頸受侵犯致 shepherd's crook 畸形；惡性轉化 <1%；FD 相關症候群為 McCune-Albright 與 Mazabraud，**Jaffe-Campanacci syndrome 為多發 NOF 相關症候群、與 FD 無關**（常見混淆陷阱）。
+[^3]: *Orthopedic Imaging: A Practical Approach*, 6th edition, P1375-1377（2018 交換考題詳解 p.118 引用；Tier 2 教科書）。Fibrous dysplasia邊緣為rind sign(厚硬化緣)，與brown tumor、giant cell tumor、原發性骨淋巴瘤(常見溶骨性滲透性破壞併寬廣移行帶)之邊緣型態明顯不同。
+
+## 題目
+> [!question]- Which of the following bone lesions usually demonstrates different feature of the margin from the others? (2018-223)
+> **Fibrous dysplasia（C）**——邊緣呈厚硬化緣(rind sign)，與brown tumor(A)、giant cell tumor(B)、lymphoma(D)常見之邊緣不清溶骨性型態明顯不同。[^3]
 
 ## 考題
 ```dataview
