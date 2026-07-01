@@ -70,6 +70,10 @@ dateRev: 2026-06-28
 [^9]: *Impending aortic aneurysm rupture – a case report and review of the warning signs*. PMC（PMC5087263，**全文已讀，開放取用**）。hyperattenuating crescent sign 為對比劑血液滲入壁內血栓，對破裂/壁內出血敏感度約 77%、特異度約 93%（accessed 2026-06-28）。
 [^10]: 即將破裂徵象彙整：*Spectrum of CT Findings in Rupture and Impending Rupture of Abdominal Aortic Aneurysms*（RadioGraphics）＋ PMC5087263。crescent sign、環狀壁鈣化局部不連續（最常見）、draped aorta、bleb/focal bulge、快速增大（搜尋摘要＋ PMC 全文查證 accessed 2026-06-28；腹主動脈瘤文獻之徵象原則沿用於胸主動脈瘤判讀）。
 
+## 題目
+> [!question]- BAV合併升主動脈瘤,無其他高風險因子時,手術修復閾值為? (2016-268)
+> **5.0 cm（C）**——BAV為手術閾值下修族群之一（與Marfan/HTAD並列），低於一般退化性升主動脈瘤5.5 cm閾值。[^2][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ascending-aortic-aneurysm")

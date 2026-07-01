@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 267,
+  "totalQuestions": 268,
   "questions": [
     {
       "id": "2016-001",
@@ -9939,6 +9939,47 @@
       "images": [],
       "concepts": [
         "posterior-cerebral-artery-branches"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-268",
+      "year": 2016,
+      "number": 268,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "It is recommended that a patient (in the absence of significant risk factors such as an expansion rate >0.5 cm/year, aortic coarctation, long smoking history, or first-degree relative with ascending aortic dissection or rupture) with a bicuspid aortic valve and an ascending aortic aneurysm undergo repair of the aneurysm at an aortic diameter of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4.0 cm"
+        },
+        {
+          "letter": "B",
+          "text": "4.5 cm"
+        },
+        {
+          "letter": "C",
+          "text": "5.0 cm"
+        },
+        {
+          "letter": "D",
+          "text": "5.5 cm"
+        },
+        {
+          "letter": "E",
+          "text": "6.0 cm"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Cardiovascular Imaging Review, 2011",
+      "explanation": "**二葉式主動脈瓣（bicuspid aortic valve, BAV）合併升主動脈瘤，即使無其他高風險因子，手術修復閾值降至5.0 cm**（低於一般退化性/散發性升主動脈瘤之5.5 cm閾值）。\n\n(C) **正解**：BAV為手術閾值下修族群之一（與Marfan/HTAD並列），閾值約5.0 cm。\n\n→ [[ascending-aortic-aneurysm]]",
+      "images": [],
+      "concepts": [
+        "ascending-aortic-aneurysm"
       ],
       "checked": false,
       "years": [
