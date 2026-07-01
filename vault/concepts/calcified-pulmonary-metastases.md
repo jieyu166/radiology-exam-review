@@ -6,7 +6,7 @@ aliases:
   - calcified pulmonary metastases
   - calcifying pulmonary metastases
   - 鈣化肺轉移
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # calcified-pulmonary-metastases
@@ -20,8 +20,9 @@ dateRev: 2026-06-29
 
 - **成骨／骨化（osteoid formation, ossification）**——**骨肉瘤（osteosarcoma/osteogenic sarcoma）**、**軟骨肉瘤（chondrosarcoma）**：腫瘤本身造骨或軟骨基質鈣化，CT 上可呈高密度（接近骨密度）。[^2][^3]
 - **營養不良性鈣化（dystrophic calcification，續發於壞死）**——**synovial sarcoma（滑膜肉瘤）**、**giant cell tumor of bone（骨巨細胞瘤）**、papillary thyroid carcinoma（壞死後沉積，亦見 psammoma body 砂礫鈣化）。[^2][^3]
-- **黏液鈣化（mucoid calcification）**——**mucinous adenocarcinoma（黏液腺癌）**：大腸直腸、卵巢、乳房、其他胃腸道原發。[^1][^2][^3]
-- **甲狀腺癌（thyroid carcinoma）**——**papillary**（砂礫鈣化）、偶見 **medullary**。[^1][^2]
+- **黏液鈣化（mucoid calcification）**——**mucinous adenocarcinoma（黏液腺癌）**：大腸直腸、卵巢、乳房、其他胃腸道原發；為獨立於營養不良性鈣化之特殊型態，見於黏液腺癌之 myxoid degeneration 區域。[^1][^2][^3][^4]
+- **甲狀腺癌（thyroid carcinoma）**——**papillary**（砂礫鈣化，即 psammomatous calcification／psammoma bodies——營養不良性鈣化之亞型，為圓形同心層狀鈣化小體，亦見於多種其他腫瘤）、偶見 **medullary**。[^1][^2][^4]
+- **絨毛膜癌（choriocarcinoma）治療後**——與 osteosarcoma、chondrosarcoma、synovial sarcoma、mucinous adenocarcinoma、papillary thyroid carcinoma 並列為可產生鈣化肺轉移之原發腫瘤。[^4]
 - **治療後轉移（treated metastases）**——化療／放療後腫瘤退化，原本不鈣化的轉移可於原處出現新鈣化；曾經消退的轉移病灶位置亦可鈣化。**已知 osteosarcoma 病人新出現的鈣化結節，不可逕自當成肉芽腫，須追蹤其穩定性與是否生長。**[^1][^3]
 
 > [!note] 機轉口訣
@@ -44,8 +45,8 @@ dateRev: 2026-06-29
 | 類別 | 代表病灶 | 鈣化型態／影像線索 |
 |---|---|---|
 | 良性肉芽腫 | calcified granuloma（TB、histoplasmosis）| central／laminated／diffuse；穩定不長 [^1] |
-| 良性腫瘤 | hamartoma | popcorn 鈣化＋脂肪密度 [^1] |
-| 類癌 | carcinoid | 可含鈣化／骨化 [^1] |
+| 良性腫瘤 | hamartoma | popcorn 鈣化見於約 20–30%；脂肪成分見於約 60%，具病理特徵性（pathognomonic）[^1][^4] |
+| 類癌 | carcinoid | 粗大鈣化見於 8–26%（較大之中央型腫瘤更常見）；大細胞神經內分泌癌偏心／點狀鈣化可達約 10% [^1][^4] |
 | 原發肺癌 | bronchogenic carcinoma | 偏心／點狀，≤約10% [^1][^4] |
 | 鈣化轉移 | osteosarcoma、chondrosarcoma、mucinous、papillary thyroid、treated mets | 高密度／骨化；可多發、可隨原發已知病史 [^1][^2][^3] |
 | 沉積／代謝 | metastatic pulmonary calcification、amyloidosis、pulmonary alveolar microlithiasis | 詳見下 [^1][^5] |
@@ -56,7 +57,8 @@ dateRev: 2026-06-29
 ### 四、關鍵鑑別陷阱：鈣化「轉移瘤」≠ metastatic pulmonary calcification（MPC）
 兩者中文都易混為「轉移性鈣化」，但意義完全不同：[^5]
 - **Calcified pulmonary metastases**：腫瘤「結節本身」含鈣化（如上）。
-- **Metastatic pulmonary calcification（MPC）**：**高鈣血症**下鈣鹽沉積於「正常」肺實質（肺泡上皮基底膜為主），**非腫瘤結節**。常見於**慢性腎病合併次發性副甲狀腺亢進**、原發性副甲狀腺亢進、惡性骨破壞／多發性骨髓瘤、過量鈣／維生素 D。HRCT 典型為**中央小葉性毛玻璃結節（常含鈣化）、高密度實變、小鈣化結節**，多雙側分布，可上肺優勢。[^5]
+- **Metastatic pulmonary calcification（MPC）**：**高鈣血症／高磷血症**等全身代謝失衡下鈣鹽沉積於「正常」肺實質（肺泡上皮基底膜為主），**非腫瘤結節**；**血清鈣／磷可持續升高**。常見於**慢性腎病合併次發性副甲狀腺亢進**、原發性副甲狀腺亢進、惡性骨破壞／多發性骨髓瘤、過量鈣／維生素 D。HRCT 典型為**中央小葉性毛玻璃結節（常含鈣化）、高密度實變、小鈣化結節**，多雙側分布，可上肺優勢；CT 上鈣化傾向較瀰漫且衰減值較低。[^5][^4]
+- **鑑別關鍵**：**Dystrophic pulmonary calcification（DPC，含大多數鈣化肺轉移／營養不良性鈣化）發生於既有肺損傷／壞死／纖維化局部，血清鈣、磷正常**；MPC 則反映全身性代謝異常、血清鈣／磷可升高。兩者影像可重疊，須結合臨床病史與檢驗數值判讀。[^4]
 
 ### 五、考點
 - **HCC（肝細胞癌）**：**不在常見鈣化肺轉移之列**；雖 HCC 肝內原發可鈣化，但其肺轉移通常不鈣化，故為「除外」之正解（2016-141 正解 D）。[^1][^2]
@@ -68,7 +70,7 @@ dateRev: 2026-06-29
 [^1]: Khan AN, et al. *The calcified lung nodule: What does it mean?* **Annals of Thoracic Medicine** 2010;5(2):67-79（PMC2883201，開放全文，accessed 2026-06-29）。鈣化轉移原發含 osteogenic/chondrosarcoma/synovial sarcoma/giant cell tumor/malignant mesenchymoma、papillary 與 mucinous adenocarcinoma、偶見 medullary thyroid；治療後亦可鈣化；良性 4 型態（central/laminated/diffuse/popcorn）；其他型態不可視為良性；bronchogenic ca ~10% 可鈣化；≥200 HU 視為鈣化；瀰漫性小鈣化結節 DDx 含 alveolar microlithiasis。
 [^2]: Tomography 2025. *Calcified Lung Nodules: A Diagnostic Challenge in Clinical Daily Practice*（PMC11946818，開放全文，accessed 2026-06-29）。鈣化轉移三大機轉：bone formation/ossification（osteosarcoma、chondrosarcoma）、壞死後 dystrophic calcification（synovial sarcoma、papillary thyroid、GCT）、mucinous adenocarcinoma 之 mucoid calcification；治療後退化亦可鈣化；惡性常為 amorphous/punctate，吞噬既有鈣化結節可成偏心鈣化。
 [^3]: Digumarthy SR, et al. *Atypical Pulmonary Metastases: Patterns and Clinical Significance.* **RadioGraphics** 2025;45(x). doi:10.1148/rg.240202（RSNA，需登入，未取得全文；引用以可查證之文章層級與檢索結果摘要為限）。鈣化／骨化轉移以 osteosarcoma、chondrosarcoma、mucinous carcinoma、papillary thyroid 為代表；治療後（化療）可於消退病灶處新生鈣化；已知 osteosarcoma 之鈣化結節不可逕當肉芽腫，須追蹤穩定性。
-[^4]: *Pulmonary Calcification and Ossification: Pathogenesis, CT Appearance, and Specific Disorders.* **RadioGraphics** 2025. doi:10.1148/rg.240110（RSNA，需登入，未取得全文；引用以文章層級與檢索摘要為限）：良性鈣化型態與惡性／不確定型態（eccentric/stippled/amorphous）之區分、塵肺／纖維化鈣化。
+[^4]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** *Pulmonary Calcification and Ossification: Pathogenesis, CT Appearance, and Specific Disorders.* **RadioGraphics** 2025. doi:10.1148/rg.240110。重點：**MPC 血清鈣／磷持續升高、DPC 血清鈣磷正常**為兩者鑑別關鍵；hamartoma popcorn 鈣化見於 20–30%、脂肪成分見於 60%（pathognomonic）；carcinoid 粗大鈣化 8–26%（大型中央腫瘤更常見）、大細胞神經內分泌癌偏心／點狀鈣化可達 10%；鈣化肺轉移原發腫瘤含 osteosarcoma、chondrosarcoma、synovial sarcoma、mucinous adenocarcinoma、papillary thyroid carcinoma、**治療後絨毛膜癌（treated choriocarcinoma）**；psammomatous calcification（psammoma bodies）為營養不良性鈣化之亞型，圓形同心層狀鈣化小體。
 [^5]: Belém LC, et al. *Metastatic pulmonary calcification: high-resolution computed tomography findings in 23 cases.* **Radiologia Brasileira** 2017;50(4):231-236（PMC5586513，開放全文，accessed 2026-06-29）。MPC = 高鈣血症下鈣鹽沉積於正常肺實質（肺泡基底膜），非腫瘤結節；常見慢性腎病＋次發性副甲狀腺亢進；HRCT：中央小葉毛玻璃結節（常含鈣化）、高密度實變、小鈣化結節，多雙側。
 
 ## 考題
