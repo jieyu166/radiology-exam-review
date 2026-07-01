@@ -36,9 +36,14 @@ same:
 > [!note] 常見考點
 > 定義＝3 天內 Cr ≥0.3 或 ≥1.5×;**最重要風險因子＝既存嚴重腎不全**;**正常腎功能常規劑量無 dose-toxicity**;eGFR≥30 證據少、<30 可預防(擴容);心導管研究高估 IV 風險。[^1][^2]
 
+## AKIN 分期標準（另一常見時間窗，非 CI-AKI 之 3 天定義）
+- **AKIN（Acute Kidney Injury Network）診斷標準**：於**腎毒性事件後 48 小時內**符合下列任一項即成立：①肌酸酐絕對值上升 **≥0.3 mg/dL（>26.4 μmol/L）**、②肌酸酐相對上升 **≥50%（≥1.5倍基礎值）**、③尿量 **≤0.5 mL/kg/hr 達 6 小時以上**。[^3]
+- **與 CI-AKI 定義的時間窗差異**：ACR-NKF 之 CI-AKI/CA-AKI 定義採**對比劑注射後 3 天內**;AKIN 準則採**任一腎毒性事件後 48 小時內**——兩者評估窗口不同,考題可能各自引用,需留意題目引用的是哪一套準則。[^1][^3]
+
 ### 參考來源
 [^1]: ACR-NKF 共識（一手、開放取用,實際查證 accessed 2026-06-20）：Davenport MS, Perazella MA, Yee J, et al. *Use of Intravenous Iodinated Contrast Media in Patients with Kidney Disease: Consensus Statements from the ACR and NKF*. Radiology. 2020;294(3):660-668. doi:10.1148/radiol.2019192094——明確區分 **CI-AKI（AKI caused by contrast）vs CA-AKI（AKI coincident to contrast）**;**eGFR <30 mL/min/1.73m²（未透析）屬高風險、可考慮預防**。另 ACR Manual on Contrast Media、中華民國放射線醫學會《對比劑手冊》2023（本機 gitignore）：診斷 3 天內 Cr ≥0.3 mg/dL 或 ≥1.5×;正常腎功能常規劑量無劑量-毒性;心導管研究高估 IV 風險。
 [^2]: 對比劑腎病變風險因子（台灣手冊/ACR）：**最重要為既存嚴重腎功能不全**;DM、脫水、心血管病、短時間多次劑量為次要。
+[^3]: *ACR Manual on Contrast Media*, page 36（2018 交換考題詳解 p.101 引用；Tier 1 指引）。AKIN診斷標準：腎毒性事件後48小時內，肌酸酐絕對值上升≥0.3 mg/dL、或相對上升≥50%(≥1.5倍基礎值)、或尿量≤0.5 mL/kg/hr達6小時以上，符合任一項即成立。
 
 ## 考題
 ```dataview

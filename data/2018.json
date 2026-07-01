@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 208,
+  "totalQuestions": 214,
   "questions": [
     {
       "id": "2018-001",
@@ -1722,10 +1722,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018 交換考題 詳解 p.107；RadioGraphics 2015;35:1381-1392.",
+      "explanation": "心臟類澱粉沉積(cardiac amyloidosis)典型MRI表現為心內膜下或透壁性延遲強化、心室壁增厚；「心室壁運動不能(akinesia)」並非典型描述特徵(心肌收縮力early期常仍保留，屬非特異性表現)，故為錯誤敘述。\n\n見 [[cardiac-amyloidosis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-amyloidosis"
+      ],
       "checked": false
     },
     {
@@ -1757,10 +1759,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "2D US的診斷標準看RVOT，MR看RV EDV/BSA, RVEF",
+      "reference": "2018 交換考題 詳解 p.104；RadioGraphics 2013;33:1977-2001.",
+      "explanation": "依2010 Revised Task Force準則，ARVC心臟MR影像診斷準則(major/minor)以RV EDV(以BSA校正)與RVEF為依據；RVOT diameter僅為2D心臟超音波準則之一部分，非MR準則所採用之參數，故「RVOT徑增加」不在MR診斷準則內。\n\n見 [[arvc-diagnostic-criteria]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "arvc-diagnostic-criteria"
+      ],
       "checked": false
     },
     {
@@ -1967,10 +1971,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "- HCM發生SCM的risk factor:\n\t- 曾經SCD過，每年猝死機率達10%\n\t- LV wall>3cm, 有SCD一等親家族史, 非神經性syncope等也很危險\n\t- 年輕病人，nonsustained VT, LA dilation, LVOT obstruction, 運動時血壓變化異常(如SBP↑不足20mmHg)...",
+      "reference": "2018 交換考題 詳解 p.105；RadioGraphics 2013;33:1977-2001.",
+      "explanation": "依2010 ACCF/AHA準則，HCM猝死(SCD)之established risk factors為：unexplained syncope、family history of SCD、nonsustained VT、maximal wall thickness≥30mm、運動時血壓反應異常；delayed myocardial enhancement(LGE)僅屬potential risk modifier(證據尚待更多研究確立其獨立預測價值)，非established risk factor。\n\n見 [[hypertrophic-cardiomyopathy]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
       "checked": false
     },
     {
@@ -7573,6 +7579,229 @@
       "images": [],
       "concepts": [
         "contrast-media-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-209",
+      "year": 2018,
+      "number": 209,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of AKIN definition of Acute Kidney Injury within 48 hours after a nephrotoxic event?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Absolute serum creatinine increase ≥0.3 mg/dL (>26.4 μmol/L)"
+        },
+        {
+          "letter": "B",
+          "text": "A percentage increase in serum creatinine ≥50% (≥1.5-fold above baseline)."
+        },
+        {
+          "letter": "C",
+          "text": "Urine output reduced to ≤0.5 mL/kg/hour for at least 6 hours."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.101；ACR Manual on Contrast Media page. 36.",
+      "explanation": "AKIN(Acute Kidney Injury Network)診斷標準為48小時內符合下列任一項：肌酸酐絕對值上升≥0.3 mg/dL、或相對上升≥50%(≥1.5倍基礎值)、或尿量≤0.5 mL/kg/hr達6小時以上，三者皆為AKIN定義之診斷條件，故皆正確。\n\n見 [[contrast-induced-aki]]",
+      "images": [],
+      "concepts": [
+        "contrast-induced-aki"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-210",
+      "year": 2018,
+      "number": 210,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the major preventive action to mitigate the risk of CIN prior to contrast medium administration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diuretics"
+        },
+        {
+          "letter": "B",
+          "text": "N-acetylcystei"
+        },
+        {
+          "letter": "C",
+          "text": "Sodium bicarbonate"
+        },
+        {
+          "letter": "D",
+          "text": "Volume Expansion"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.102；ACR Manual on Contrast Media page. 41.",
+      "explanation": "預防CIN最主要措施為靜脈輸液擴容(volume expansion/hydration)，為現行實證醫學最廣被接受之預防方法；利尿劑、N-acetylcysteine、碳酸氫鈉皆缺乏充分實證支持作為常規預防手段。\n\n見 [[contrast-induced-nephropathy-prevention]]",
+      "images": [],
+      "concepts": [
+        "contrast-induced-nephropathy-prevention"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-211",
+      "year": 2018,
+      "number": 211,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one could be the adverse reactions to GI tract water-soluble iodinated contrast media?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Allergic-like reactions"
+        },
+        {
+          "letter": "B",
+          "text": "Alterations in thyroid function"
+        },
+        {
+          "letter": "C",
+          "text": "Bacteremia"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.102；ACR Manual on Contrast Media page. 62.",
+      "explanation": "腸胃道水溶性碘顯影劑可能之不良反應包括：過敏樣反應、甲狀腺功能改變(碘吸收所致)、菌血症(灌腸操作相關的暫時性菌血症，文獻報告發生率不一)，三者皆有可能發生。\n\n見 [[gi-contrast-media-adverse-reactions]]",
+      "images": [],
+      "concepts": [
+        "gi-contrast-media-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-212",
+      "year": 2018,
+      "number": 212,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下有關游離輻射的健康效應，何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "確定效應：因為游離輻射導致組織或器官之功能損傷而造成之效應，可能有劑量低限值，超過這個值才會發生。"
+        },
+        {
+          "letter": "B",
+          "text": "機率效應：指致癌效應及遺傳效應，沒有劑量低限值，劑量越大越可能發生。"
+        },
+        {
+          "letter": "C",
+          "text": "急性曝露或年有效劑量達到100毫西弗（mSv），每10000人中可能有55人，因此得到癌症；每10000人中可能有2人，出現遺傳效應。"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆正確"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.103；輻射災害第一線應變人員手冊 page 65.",
+      "explanation": "確定效應具劑量閾值、超過閾值才發生且嚴重度隨劑量上升；機率效應(致癌/遺傳)無劑量閾值、劑量越大機率越高但嚴重度不變；急性曝露達100 mSv時，每萬人約55人可能致癌、2人可能出現遺傳效應(此為輻射防護常用之風險係數估計值)，三者敘述皆正確。\n\n見 [[radiation-stochastic-effects]]、[[radiation-deterministic-effects]]",
+      "images": [],
+      "concepts": [
+        "radiation-stochastic-effects",
+        "radiation-deterministic-effects"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-213",
+      "year": 2018,
+      "number": 213,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following storage disease not demonstrating ventricular hypertrophy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gaucher Disease"
+        },
+        {
+          "letter": "B",
+          "text": "Fabry disease"
+        },
+        {
+          "letter": "C",
+          "text": "Danon disease"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.106；RadioGraphics 2013;33:1977-2001.",
+      "explanation": "Gaucher disease為最常見的溶酶體儲積症，主要侵犯骨髓/脾/肝(巨脾/巨肝)，不造成心室肥厚；Fabry disease(溶酶體儲積症，α-galactosidase缺乏)與Danon disease(肝醣儲積症，LAMP2基因突變)皆可造成心室肥厚(尤其左心室)，故不表現心室肥厚者為Gaucher disease。\n\n見 [[cardiac-storage-disease]]",
+      "images": [],
+      "concepts": [
+        "cardiac-storage-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-214",
+      "year": 2018,
+      "number": 214,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about pericardial germ cell tumors is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They arises from pericardium"
+        },
+        {
+          "letter": "B",
+          "text": "Most are located anteriorly and to the left"
+        },
+        {
+          "letter": "C",
+          "text": "They can be diagnosed in utero."
+        },
+        {
+          "letter": "D",
+          "text": "Calcifications are common seen."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.108；RadioGraphics 2013;33:1613-1630.",
+      "explanation": "心包性生殖細胞瘤(pericardial germ cell tumor，多為畸胎瘤teratoma)好發於心包前方偏「右」側，而非偏左側，故「most located anteriorly and to the left」為錯誤敘述；腫瘤源自心包、可產前診斷、常見鈣化(依常見度：多囊性>脂肪>鈣化)皆為正確描述。\n\n見 [[pericardial-germ-cell-tumor]]",
+      "images": [],
+      "concepts": [
+        "pericardial-germ-cell-tumor"
       ],
       "checked": false
     }

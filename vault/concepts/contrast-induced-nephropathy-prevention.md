@@ -24,10 +24,14 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.210：CIN預防以hydration為現行最廣被接受方法;furosemide非推薦常規預防手段(可能增加腎損傷風險);hemodialysis屬治療性介入非預防性;官方詳解原標示答案C(Furosemide)但頁緣加註對此存疑之更正「A??」。
+[^2]: *ACR Manual on Contrast Media*, page 41（2018 交換考題詳解 p.102 引用；Tier 1 指引）。CIN預防之主要措施為靜脈輸液擴容(volume expansion)，官方答案明確標示為D(Volume Expansion)，無存疑註記——與[^1]之hydration共識一致，可作為2017-334答案爭議之佐證(支持hydration/volume expansion為正解，而非furosemide)。
 
 ## 題目
 > [!question]- To prevent Contrast Agent–Induced Nephropathy (CIN), the most widely accepted method is: (2017-334)
 > ⚠️ 官方原答案標示C（Furosemide），頁緣紅筆加註存疑更正「A??」（不確定）。現行共識以**Hydration（A）**為CIN預防最廣被接受方法；furosemide非推薦常規手段，建議醫師查證最新指引確認本題最終答案。[^1]
+
+> [!question]- What is the major preventive action to mitigate the risk of CIN prior to contrast medium administration? (2018-210)
+> **Volume Expansion（D）**——官方答案明確、無存疑，與現行共識一致；Diuretics、N-acetylcysteine、Sodium bicarbonate皆非推薦常規預防手段。[^2]
 
 ## 考題
 ```dataview
