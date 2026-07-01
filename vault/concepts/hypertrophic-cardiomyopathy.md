@@ -27,7 +27,7 @@ dateRev: 2026-06-28
 > **最常見形態＝asymmetric septal（60–70%）**（非 apical）;**LGE 典型＝midwall patchy/punctate**（非 subendocardial 冠狀分布）;asymmetric septal 定義＝中隔/下側壁 ≥1.5。[^1]
 
 ## 診斷量測・LVOT・SCD・處置（整理自醫師 [[HCM]] 筆記）[^2]
-- **診斷量測補充**：室壁厚度於**舒張末期(end-diastole)量測**（非收縮末期）;成人 ≥15 mm、**有家族史降至 ≥13 mm**;兒童 >2 SD。
+- **診斷量測補充**：室壁厚度於**舒張末期(end-diastole)量測**（非收縮末期）;成人 ≥15 mm、**有家族史降至 ≥13 mm**;兒童 >2 SD。**成人 HCM 定義為任一節段左心室壁厚度 ≥15 mm（非 ≥12 mm，常見考題陷阱）**（2019交換，ESC 2014 指引[^2]）。
 - **SAM 與 LVOT 阻塞**：收縮期**二尖瓣前葉前移(systolic anterior motion, SAM)**貼近中隔 → **LVOT 阻塞＋二尖瓣逆流(MR)**;後葉 SAM 較少見。**減少前負荷**（站立、Valsalva）→ 阻塞與收縮期雜音加重。
 - **LVOT 阻塞與壓力差**：阻塞見於 **~70% 患者（半數僅在 Valsalva 等激發後出現、靜息約 30%）**;壓力差依白努利 **≈ 4×(峰值流速)²**,**>30 mmHg ＝阻塞性**、**≥50 mmHg ＝介入門檻**;量化**首選 Doppler 超音波**（phase-contrast CMR 亦可、非首選）。
 - **中隔縮減治療（酒精消融／myectomy）適應症**：**症狀性且藥物難治（NYHA III–IV）＋ LVOT 壓力差 ≥50 mmHg**（2018交換）。

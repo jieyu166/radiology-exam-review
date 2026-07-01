@@ -17,6 +17,7 @@ dateRev: 2026-06-29
 - **膝**：**髁間窩變寬（widened intercondylar notch）、股骨髁增大/球狀、髕骨下緣方形化（squared patella）**(option A、C 對)。[^1]
 - **踝**：**距骨塌陷,似 Charcot joint**(option D 對)。[^1]
 - **共同**：滑膜增生（含鐵血黃素,GRE blooming/MRI 低訊號）、軟骨下囊腫/侵蝕、骨質疏鬆、**骨骺充血性過度生長**;**好發膝>肘>踝>髖>肩**。[^1]
+- **手部關節最少受累**：血友病關節病變典型侵犯大關節（膝/肘/踝/髖），**手部小關節並非典型好發部位**，若考題以「最少受累」選項比較手/肘/踝/髖，正解常為**手（hand）**。[^1]
 - **肩（option B 為非）**：**肩部最少受累,且血友病關節病變『不』形成 osteophytes（骨刺）**——故「humeral head 增大＋osteophytes」**非表現**＝題目正解（2016-167 正解 B）。[^1]
 
 > [!note] 考點：何者「非」血友病關節病變的表現?
@@ -58,7 +59,7 @@ dateRev: 2026-06-29
 - **色素絨毛結節性滑膜炎（PVNS）**：**同樣有含鐵血黃素 → GRE/SWI blooming 低訊號**，是最易混淆者；但 PVNS 多為單關節、無凝血病史、結節狀滑膜增生較侷限，臨床背景可資鑑別。[^6]
 
 ### 參考來源
-[^1]: *Hemophilic arthropathy*. Radiopaedia.org（輔助來源，accessed 2026-06-17）：widened intercondylar notch、squared inferior margin of patella、bulbous femoral condyles；骨骺充血性過度生長；含鐵血黃素滑膜增生、軟骨下骨破壞；好發 knee>elbow>ankle>hip>shoulder（肩最少）；非骨刺型。
+[^1]: *Hemophilic arthropathy*. Radiopaedia.org（輔助來源，accessed 2026-06-17）：widened intercondylar notch、squared inferior margin of patella、bulbous femoral condyles；骨骺充血性過度生長；含鐵血黃素滑膜增生、軟骨下骨破壞；好發 knee>elbow>ankle>hip>shoulder（肩最少）；非骨刺型。2019 交換考詳解（Manaster BJ et al. *Diagnostic Imaging: Musculoskeletal*; Resnick, *Bone and Joint Imaging* 3rd ed, Ch.52 p.706）補充：好發頻率 knee>elbow>ankle>hip>shoulder，手部小關節非典型好發部位。
 [^2]: 病理機轉綜整（review level）：recurrent hemorrhage → hemosiderin deposition → iron-stimulated synovitis with cytokine release → synovial hypertrophy → cartilage/subchondral bone destruction。見 *A semiquantitative color Doppler ultrasound scoring system for evaluation of synovitis in joints of patients with blood-induced arthropathy*. PMC8464640 背景段；及下列 AJR review。
 [^3]: *Role of Imaging in Management of Hemophilic Patients*. AJR Am J Roentgenol. 2005;184(5):1619–1627（article level，DOI: 10.2214/ajr.184.5.01841619）：平片演進——軟組織腫脹→關節旁骨質疏鬆→骨骺過度生長→軟骨下囊腫／侵蝕→關節間隙狹窄；含鑑別診斷討論。
 [^4]: *MRI predicts 5-year joint bleeding and development of arthropathy on radiographs in hemophilia*. Res Pract Thromb Haemost.（article level，PMC6960460）：IPSG MRI score 含 effusion/hemarthrosis、synovial hypertrophy（膝 ≥0.50 cm²、踝 ≥0.25 cm²）、hemosiderin、surface erosion、subchondral cyst、cartilage；Pettersson 0–13；GRE blooming 遮蔽滑膜；synovial hypertrophy 5 年再出血約 80% vs 27%（OR 10.1）。

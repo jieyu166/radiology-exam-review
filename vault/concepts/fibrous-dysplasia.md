@@ -19,7 +19,8 @@ up: "[[rib-tumor]]"
 - **型態**：**膨脹性、髓內、ground-glass（霧玻璃）基質、無 periosteal reaction、rind sign（厚硬化緣）**。[^1]
 - **位置**：monostotic（~85%）最常見於**肋骨（28%）**、近端股骨（23%）、顱面骨、脛骨、肱骨；**肋骨為 monostotic 最常見部位**、也是最常見良性肋骨病灶。[^1]
 - **MRI**：T1 多低～中等、T2 變動（依纖維/囊性/出血成分）、可強化——**訊號非特異、勿誤為侵襲性**。[^1]
-- **併發/關聯**：病理性骨折、肢體變形（shepherd's crook）；**polyostotic** → McCune-Albright（＋皮膚咖啡牛奶斑、性早熟）、Mazabraud（＋肌內黏液瘤）。[^1]
+- **併發/關聯**：病理性骨折、肢體變形（**股骨頸受侵犯可致 shepherd's crook 畸形**）；**polyostotic** → McCune-Albright（＋皮膚咖啡牛奶斑、性早熟）、Mazabraud（＋肌內黏液瘤）；**惡性轉化罕見（約 <1%）**。[^1][^2]
+- **陷阱：Jaffe-Campanacci syndrome 並非 FD 相關症候群**——其定義為多發 non-ossifying fibroma（NOF）＋café-au-lait spots＋智能障礙／脊椎側彎／性腺功能低下或隱睪／眼部畸形／心血管畸形／下顎巨細胞肉芽腫，與 FD 無關；FD 相關症候群僅 **McCune-Albright** 與 **Mazabraud**。[^2]
 
 > [!note] 與 [[rib-tumor]] 的連結
 > 在肋骨病灶鑑別中，**fibrous dysplasia 是最常見良性肋骨病灶**（膨脹＋ground-glass＋無骨膜反應）；屬兒童/年輕成人肋骨 DDx。[^1]
@@ -35,6 +36,7 @@ up: "[[rib-tumor]]"
 
 ### 參考來源
 [^1]: *Fibrous dysplasia*. Radiopaedia.org。膨脹性髓內病變、ground-glass matrix、無 periosteal reaction、rind sign；monostotic 最常見於肋骨(28%)/近端股骨(23%)；GNAS 突變；polyostotic 關聯 McCune-Albright/Mazabraud（實際查證 accessed 2026-06-15）。
+[^2]: 2019 交換考詳解；*Orthopedic Imaging: A Practical Approach*, 5th ed, Ch.19 p.641-666；Resnick, *Bone and Joint Imaging*, 3rd ed, Ch.81 p.1442：股骨頸受侵犯致 shepherd's crook 畸形；惡性轉化 <1%；FD 相關症候群為 McCune-Albright 與 Mazabraud，**Jaffe-Campanacci syndrome 為多發 NOF 相關症候群、與 FD 無關**（常見混淆陷阱）。
 
 ## 考題
 ```dataview

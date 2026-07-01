@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 101,
+  "totalQuestions": 108,
   "questions": [
     {
       "id": "2019-001",
@@ -3627,6 +3627,269 @@
       "images": [],
       "concepts": [
         "sjogren-syndrome-salivary-gland"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-102",
+      "year": 2019,
+      "number": 102,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "請問下列關於脊索瘤(chordoma)好發位置的正確排列為? 1. Spheno-occipital vertebrae 2. Cervical region 3. Thoracolumbar vertebrae 4. Sacrum",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 > 3 > 2 > 4"
+        },
+        {
+          "letter": "B",
+          "text": "1 > 3 > 4 > 2"
+        },
+        {
+          "letter": "C",
+          "text": "4 > 1 > 2 > 3"
+        },
+        {
+          "letter": "D",
+          "text": "4 > 1 > 3 > 2"
+        },
+        {
+          "letter": "E",
+          "text": "2 > 1 > 3 > 4"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Mirra J et al. Chordoma. In: Pathology and genetics of tumours of soft tissue and bone. IARC Press; 2002, p.316-7; Resnick, Bone and Joint Imaging, 3rd ed, Ch.70, p.1180",
+      "explanation": "正確答案為 **C（薦骨 > 蝶枕區 > 頸椎 > 胸腰椎）**。脊索瘤好發部位頻率排序：薦骨（sacrococcygeal, ~30–50%）最常見，其次蝶枕區/顱底斜坡（~30–35%），脊椎體病灶中頸椎又較胸腰椎常見。詳見 [[chordoma]]。",
+      "images": [],
+      "concepts": [
+        "chordoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-103",
+      "year": 2019,
+      "number": 103,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "A 30-year-old male presents with a well-defined, osteolytic lesion at proximal tibia. The lesion is eccentric, extending to subarticular margin of tibia. What is the most likely diagnosis of this lesion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Giant cell tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Ewing sarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Metastasis"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Chakarun CJ et al. Giant cell tumor of bone: review, mimics, and developments in treatment. RadioGraphics, 2013;33:197-211",
+      "explanation": "正確答案為 **B**。骨骺閉合後（30歲成人）、長骨末端偏心、延伸至軟骨下關節面之界線清楚溶骨性病灶，為 giant cell tumor (GCT) 的典型表現。詳見 [[giant-cell-tumor]]。",
+      "images": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-104",
+      "year": 2019,
+      "number": 104,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the least common joint involved in hemophilia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hand"
+        },
+        {
+          "letter": "B",
+          "text": "Elbow"
+        },
+        {
+          "letter": "C",
+          "text": "Hip"
+        },
+        {
+          "letter": "D",
+          "text": "Ankle"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Manaster BJ et al. Diagnostic Imaging: Musculoskeletal: Non-Traumatic Disease. Amirsys; 2010:6:22-27; Weissman BN. Imaging of Arthritis and Metabolic Bone Disease. Saunders; 2009:447-449; Resnick, Bone and Joint Imaging, 3rd ed, Ch.52, p.706",
+      "explanation": "正確答案為 **A**。血友病關節病變（hemophilic arthropathy）好發大關節，頻率排序為 knee > elbow > ankle > hip > shoulder；**手部小關節並非典型好發部位**，於選項中為最少受累關節。詳見 [[hemophilic-arthropathy]]。",
+      "images": [],
+      "concepts": [
+        "hemophilic-arthropathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-105",
+      "year": 2019,
+      "number": 105,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "請問下列對於骨纖維發育不良 fibrous dysplasia(FD)的敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The radiographic appearance of monostotic form: the replacement of medullary bone by fibrous tissue leads to a loss of the trabecular pattern, giving the lesions a ground-glass, milky, or smoky appearance"
+        },
+        {
+          "letter": "B",
+          "text": "Malignant transformation is rare, with a frequency about < 1%."
+        },
+        {
+          "letter": "C",
+          "text": "If FD involves the femoral neck, it can lead to the deformity called \"shepherd's crook\"."
+        },
+        {
+          "letter": "D",
+          "text": "The associated syndromes are known as Albright-McCune Syndrome and Jaffe-Campanacci syndrome."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Orthopedic Imaging: A Practical Approach, 5th ed, Ch.19, p.641-666; Resnick, Bone and Joint Imaging, 3rd ed, Ch.81, p.1442",
+      "explanation": "正確答案為 **D**（錯誤敘述）。FD 相關症候群為 **McCune-Albright syndrome**（皮膚咖啡牛奶斑、性早熟）與 **Mazabraud syndrome**（合併肌內黏液瘤）；**Jaffe-Campanacci syndrome 實為多發 non-ossifying fibroma（NOF）相關症候群，與 FD 無關**，為本題陷阱所在。單骨型 ground-glass 外觀、惡性轉化率 <1%、股骨頸受侵犯致 shepherd's crook 畸形等敘述皆正確。詳見 [[fibrous-dysplasia]]。",
+      "images": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-106",
+      "year": 2019,
+      "number": 106,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following concerning coronary artery aneurysm (CAA) is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CAA is now more precisely defined as a dilated vessel segment that measures at least 1.5 times larger in diameter than the diameters of the adjacent normal arterial segments."
+        },
+        {
+          "letter": "B",
+          "text": "Atherosclerotic coronary artery aneurysms (ACAAs) are usually either saccular or fusiform whereas postinflammatory CAAs are usually fusiform."
+        },
+        {
+          "letter": "C",
+          "text": "The term \"giant\" aneurysm is applied when the size exceeds 5 cm in diameter."
+        },
+        {
+          "letter": "D",
+          "text": "Of all of the different causes of CAAs, atherosclerotic disease is the most common and accounts for at least 50% of CAAs diagnosed in adults."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:11-36",
+      "explanation": "正確答案為 **B**（敘述方向顛倒）。動脈粥樣硬化性冠狀動脈瘤（ACAA）通常呈囊狀或紡錘狀，而**發炎後（postinflammatory，如川崎病）冠狀動脈瘤才是通常呈紡錘狀**——選項將兩者對應關係寫反。CAA 定義（≥1.5倍鄰近正常節段）、giant 定義（成人>5cm）、動脈粥樣硬化為最常見病因（占成人≥50%）等敘述皆正確。詳見 [[coronary-artery-aneurysm]]。",
+      "images": [],
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-107",
+      "year": 2019,
+      "number": 107,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following concerning cardiovascular magnetic resonance imaging (CMR) for hypertrophic cardiomyopathy (HCM) is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is recommended that CMR studies be performed and interpreted by teams experienced in cardiac imaging and in the evaluation of heart muscle disease."
+        },
+        {
+          "letter": "B",
+          "text": "While phase velocity flow mapping sequences of CMR can be used to determine the peak velocity of blood flow through the left ventricular outflow tract (LVOT) in patients LVOT obstruction, doppler echocardiography is still the modality of choice for quantification of LVOT obstruction."
+        },
+        {
+          "letter": "C",
+          "text": "In an adult, HCM is defined by a wall thickness ≥12 mm in one or more left ventricle myocardial segments"
+        },
+        {
+          "letter": "D",
+          "text": "In myocardial hypertrophy in cardiac amyloidosis, there is often global, sub-endocardial or segmental LGE and a highly specific pattern of myocardial and blood-pool gadolinium kinetics caused by similar myocardial and blood T1 signals."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；European Heart Journal 2014;35:2733-2779",
+      "explanation": "正確答案為 **C**（錯誤敘述）。成人 HCM 的定義為任一左心室心肌節段**室壁厚度 ≥15 mm**（非 ≥12 mm），或中隔厚度與中室水平下側壁厚度比 >1.5。Doppler 超音波仍為量化 LVOT 阻塞之首選方式、心臟類澱粉沉積之瀰漫性/心內膜下 LGE 表現等敘述皆正確。詳見 [[hypertrophic-cardiomyopathy]]。",
+      "images": [],
+      "concepts": [
+        "hypertrophic-cardiomyopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-108",
+      "year": 2019,
+      "number": 108,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "The Computed tomography approach to diagnosis of pulmonary hypertension begins with identifying an enlarged pulmonary artery diameter which is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Greater than 29 mm and this diameter must be measured in the axial plane at the bifurcation, orthogonal to the long axis of the pulmonary artery."
+        },
+        {
+          "letter": "B",
+          "text": "Greater than 24 mm and this diameter must be measured in the coronal plane at the pulmonary valve level."
+        },
+        {
+          "letter": "C",
+          "text": "Greater than 29 mm and this diameter must be measured in the axial plane at the pulmonary valve level."
+        },
+        {
+          "letter": "D",
+          "text": "Greater than 24 mm and this diameter must be measured in the sagittal plane, orthogonal to the long axis of the pulmonary artery."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:357-373",
+      "explanation": "正確答案為 **A**。CT 診斷肺高壓始於量測主肺動脈徑，擴大閾值為 **>29 mm**，應於**軸位（axial plane）、肺動脈分叉處（bifurcation）、與長軸垂直（orthogonal）**取得，而非於肺動脈瓣位置或冠狀/矢狀面測量。詳見 [[pulmonary-hypertension-classification]]。",
+      "images": [],
+      "concepts": [
+        "pulmonary-hypertension-classification"
       ],
       "checked": false
     }

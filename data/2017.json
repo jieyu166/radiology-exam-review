@@ -2101,10 +2101,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "",
+      "reference": "官方 2017 詳解；Radiology Review Manual, 6th edition, p.376-7",
+      "explanation": "**C（branchial cleft cyst）**——beak sign（組織尖端指向內外頸動脈分岔之間）為第二鰓裂囊腫的高度特異定位徵象，好發下頷角無痛性囊性腫塊。\n\n(A) Cystic hygroma:多房性,常跨頸部多區域。\n(B) Abscess:臨床常伴疼痛發炎徵象。\n(C) **正解**:beak sign指向頸動脈分岔間。\n(D) Carotid body tumor:富血管實質腫塊,使頸動脈分岔外擴。\n(E) Lymphadenopathy:非典型囊性伴beak sign表現。\n\n→ [[branchial-cleft-cyst]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "branchial-cleft-cyst"
+      ],
       "checked": false
     },
     {
@@ -10952,6 +10954,170 @@
       "images": [],
       "concepts": [
         "juvenile-nasopharyngeal-angiofibroma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-304",
+      "year": 2017,
+      "number": 304,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 10-year-old girl presents with right hip pain. Which of the following radiographic features makes the diagnosis of SUFE more likely than Perthes' disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reduction in size of the proximal femoral epiphysis"
+        },
+        {
+          "letter": "B",
+          "text": "Loss of overlap between the medial femoral metaphysis and acetabulum (loss of triangular sign of Capener)"
+        },
+        {
+          "letter": "C",
+          "text": "Regional femoral demineralization"
+        },
+        {
+          "letter": "D",
+          "text": "A crescent of subcortical lucency in the femoral head"
+        },
+        {
+          "letter": "E",
+          "text": "Fragmentation of the femoral head"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology Review Manual, 6th edition, p.74-75",
+      "explanation": "**B（內側股骨頸幹端與髖臼重疊消失，Capener三角徵消失）**——反映骨骺實質滑脫，為SUFE特異性徵象。\n\n(A)(C)(D)(E) 骨骺縮小、局部去礦質化、軟骨下新月狀透亮、碎裂皆為Perthes disease缺血性壞死重塑過程的典型表現。\n(B) **正解**。\n\n→ [[sufe-vs-perthes-disease]]",
+      "images": [],
+      "concepts": [
+        "sufe-vs-perthes-disease"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-305",
+      "year": 2017,
+      "number": 305,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 15-year-old boy presents with severe abdominal pain. He has a known history of a polyposis syndrome. KUB shows small bowel obstruction, a subsequent abdominal CT scan indicates that this is due to a small bowel intussusception. Which \"polyposis\" syndrome does he most probably have?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cronkhite-Canada syndrome (stomach, colon hamartomatous polyps)"
+        },
+        {
+          "letter": "B",
+          "text": "Familial adenomatous polyposis syndrome (colonic adenomatous polyps)"
+        },
+        {
+          "letter": "C",
+          "text": "Cowden syndrome (terminal ileum and colon hamartomatous polyps)"
+        },
+        {
+          "letter": "D",
+          "text": "Gardner's syndrome (colonic adenomatous polyps)"
+        },
+        {
+          "letter": "E",
+          "text": "Peutz-Jeghers syndrome (intestinal hamartomatous polyps)"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方 2017 詳解；Radiology Review Manual, 6th edition, p.862-863",
+      "explanation": "**E（Peutz-Jeghers syndrome）**——錯構瘤性息肉體積大易誘發小腸套疊。\n\n(A) Cronkhite-Canada:非遺傳性,好發胃/大腸,不伴惡性風險增加。\n(B)(D) FAP/Gardner:腺瘤性息肉,非以套疊為主要特徵。\n(C) Cowden:好發末端迴腸/大腸錯構瘤性息肉,非以套疊為主要特徵。\n(E) **正解**:PJS息肉本身非癌前病變,但仍伴GI腺癌及腸外惡性腫瘤風險。\n\n→ [[polyposis-syndromes-gi]]",
+      "images": [],
+      "concepts": [
+        "polyposis-syndromes-gi"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-306",
+      "year": 2017,
+      "number": 306,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "An infant with ambiguous genitalia is referred for ultrasound of pelvis. This shows a normal uterus and ovaries, suggesting female pseudohermaphroditism. There is elevated 17-hydroxy-progesterone. What further evaluation is recommended?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ultrasound of adrenal gland"
+        },
+        {
+          "letter": "B",
+          "text": "MRI of pelvis"
+        },
+        {
+          "letter": "C",
+          "text": "CT of abdomen and pelvis"
+        },
+        {
+          "letter": "D",
+          "text": "Laparoscopy"
+        },
+        {
+          "letter": "E",
+          "text": "Ultrasound of inguinal region"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；RadioGraphics 2008;28:1891-1904",
+      "explanation": "**A（腎上腺超音波）**——CAH疑診時腎上腺超音波為首選影像工具。\n\n(A) **正解**:評估雙側腎上腺大小(肢長≥20mm、肢寬≥4mm)、表面輪廓(分葉/腦回狀)與回音特徵。\n(B)(C)(D)(E) 皆非CAH疑診時的首選/下一步檢查。\n\n→ [[congenital-adrenal-hyperplasia]]",
+      "images": [],
+      "concepts": [
+        "congenital-adrenal-hyperplasia"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-307",
+      "year": 2017,
+      "number": 307,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "An 8-month-old female had been crying inconsolably for 12 hours during which time she had passed at least two bloodstained stools. She was admitted to hospital and a plain abdominal radiograph showed a soft mass in the right upper quadrant which corresponded to a fullness of the abdomen on physical examination. An ultrasound was performed which showed a 'pseudokidney' in this region. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ileocolic intussusception"
+        },
+        {
+          "letter": "B",
+          "text": "Ileoileocolic intussusception"
+        },
+        {
+          "letter": "C",
+          "text": "Mid-gut volvulus"
+        },
+        {
+          "letter": "D",
+          "text": "Ileo-ileal intussusception"
+        },
+        {
+          "letter": "E",
+          "text": "Pyloric stenosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Final FRCR Part A Modules 1-3 Single Best Answer MCQs, Robin Proctor, p.122",
+      "explanation": "**A（Ileocolic intussusception）**——兒童腸套疊最常見型態,超音波假腎徵/靶徵為特徵性表現。\n\n(A) **正解**。\n(B)(D) 迴迴結腸型/迴迴腸型較少見。\n(C) 中腸扭轉好發更早,常合併腸旋轉不良病史。\n(E) 幽門狹窄臨床表現為噴射性嘔吐非血便。\n\n→ [[pediatric-intussusception-types]]",
+      "images": [],
+      "concepts": [
+        "pediatric-intussusception-types"
       ],
       "checked": false,
       "years": [

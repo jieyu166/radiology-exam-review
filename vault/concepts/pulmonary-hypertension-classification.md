@@ -30,6 +30,7 @@ dateRev: 2026-06-30
 - **Post-capillary**：病變在**肺靜脈循環**（微血管床與左心房之間）;例：左心衰竭、瓣膜病、左心房腫瘤、肺靜脈閉鎖性疾病（PVOD）、縱膈纖維化（也可影響 precapillary 血管）。[^2]
 - **臨床最常見病因＝Group 2（postcapillary，左心病變/PH-LHD）**——**並非** precapillary 類型比 postcapillary 更常見;PH-LHD 定義為 mPAP >20 mmHg 且 PCWP >15 mmHg。[^2]
 - **主肺動脈徑閾值有爭議**：傳統教學 >26–29 mm 高度提示 PH,**較新研究提出 >29 mm 或 31.6 mm** 門檻,故單一「>26 mm」門檻已過時,答題宜留意題目所依版本。[^2]
+- **CT 量測技術（2019交換）**：主肺動脈徑量測應於**軸位（axial plane）、於肺動脈分叉處（bifurcation）、與肺動脈長軸垂直（orthogonal）**取得；>29 mm 為判定擴大之閾值。[^4]
 - **單側肺動脈擴大不可靠**：左右肺動脈徑（正常上限約 16 mm）**對 PH 存在與否是較差的指標**,不能僅憑年輕女性單側左肺動脈擴大就診斷 idiopathic PAH。[^2]
 - **Mosaic perfusion pattern**：**慢性血栓栓塞型（CTEPH）比特發性（idiopathic）型更常見** mosaic perfusion（因不均勻血栓阻塞造成血流分布不均）。[^2]
 
@@ -51,6 +52,7 @@ dateRev: 2026-06-30
 ### 參考來源
 [^1]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Chest（Winer-Muram, Stern）II.4.54-57：WHO 肺高壓五組分類;Group 1 PAH 含 CTD（scleroderma）;PVOD＝Group 1';左心病變（cor triatriatum）＝Group 2;sarcoidosis＝Group 5。
 [^2]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.7：precapillary（肺動脈循環病變）vs postcapillary（肺靜脈循環病變）分類與病因;臨床上 Group 2（postcapillary/PH-LHD）為最常見病因（mPAP>20、PCWP>15）;主肺動脈徑門檻新研究達 29-31.6mm;單側肺動脈擴大為 PH 較差指標（正常上限 16mm）;CTEPH 比 idiopathic 型更常見 mosaic perfusion。
+[^4]: 2019 交換考詳解；RadioGraphics 2018;38:357-373：CT 診斷肺高壓始於量測主肺動脈徑，應於軸位、肺動脈分叉處、與長軸垂直取得，>29 mm 為擴大閾值。
 [^3]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.6-9：idiopathic PAH 為排除診斷（無特定亞型伴隨徵象時考慮）;interlobular septal thickening＝左心病變、雙側肺動脈不對稱擴大＝肝肺症候群、節段肺動脈 target sign＝急性 PE 皆為特定病因線索;D-shape LV 為非特異性右心室功能障礙表現;mosaic attenuation 於 idiopathic 較 CTEPH 少見;支氣管動脈肥大為 CTEPH 特徵、idiopathic PAH 通常缺席。
 
 ## 題目
