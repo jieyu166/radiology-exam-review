@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 164,
+  "totalQuestions": 173,
   "questions": [
     {
       "id": "2019-001",
@@ -5982,6 +5982,339 @@
       "images": [],
       "concepts": [
         "pulmonary-hypertension-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-165",
+      "year": 2019,
+      "number": 165,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not the common cause of pleural calcification?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "healed hemothorax"
+        },
+        {
+          "letter": "B",
+          "text": "tuberculosis"
+        },
+        {
+          "letter": "C",
+          "text": "talcosis"
+        },
+        {
+          "letter": "D",
+          "text": "silicosis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Chest radiology plain film patterns and differential diagnoses, 5th edition, p.66",
+      "explanation": "正確答案為 **D**。矽肺症主要造成肺實質與淋巴結鈣化，並非肋膜鈣化常見病因。癒合後血胸、結核病、滑石沉著症皆為肋膜鈣化常見病因。詳見 [[pleural-calcification]]。",
+      "images": [],
+      "concepts": [
+        "pleural-calcification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-166",
+      "year": 2019,
+      "number": 166,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not the common tumor origin of lymphangitic carcinomatosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cervical cancer"
+        },
+        {
+          "letter": "B",
+          "text": "colon cancer"
+        },
+        {
+          "letter": "C",
+          "text": "thyroid cancer"
+        },
+        {
+          "letter": "D",
+          "text": "brain cancer"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Chest radiology: the essentials, p.37",
+      "explanation": "正確答案為 **D**。原發腦腫瘤極少經淋巴路徑轉移至肺，非肺淋巴管癌病常見來源。子宮頸癌、大腸癌、甲狀腺癌皆為常見原發來源。詳見 [[lymphangitic-carcinomatosis]]。",
+      "images": [],
+      "concepts": [
+        "lymphangitic-carcinomatosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-167",
+      "year": 2019,
+      "number": 167,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not the usually benign calcification of breast?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pleomorphic type calcification"
+        },
+        {
+          "letter": "B",
+          "text": "milk of calcium"
+        },
+        {
+          "letter": "C",
+          "text": "suture calcification"
+        },
+        {
+          "letter": "D",
+          "text": "eggshell-type calcification"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Breast imaging, p.70",
+      "explanation": "正確答案為 **A**。Pleomorphic（細多形）為可疑鈣化型態（BI-RADS 4），非良性。Milk of calcium、suture calcification、eggshell-type皆為典型良性鈣化型態。詳見 [[breast-calcifications]]。",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-168",
+      "year": 2019,
+      "number": 168,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statements about the hemodynamics of cardiac tamponade is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The intracardiac volumes are decreased and the diastolic filling pressures are decreased."
+        },
+        {
+          "letter": "B",
+          "text": "The intracardiac volumes are decreased and the diastolic filling pressures are increased."
+        },
+        {
+          "letter": "C",
+          "text": "The intracardiac volumes are increased and the diastolic filling pressures are increased."
+        },
+        {
+          "letter": "D",
+          "text": "The intracardiac volumes are increased and the diastolic filling pressures are decreased."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2007 Nov-Dec;27(6):1595-1610",
+      "explanation": "正確答案為 **B**。心包填塞時心腔內容積減少，但舒張期充盈壓力因外在壓迫而增加。詳見 [[cardiac-tamponade]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-tamponade"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-169",
+      "year": 2019,
+      "number": 169,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following CT findings has been reported in patients with cardiac tamponade?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "peri-portal acute hemorrhage."
+        },
+        {
+          "letter": "B",
+          "text": "peri-portal tumor invasion."
+        },
+        {
+          "letter": "C",
+          "text": "peri-portal lymphatic distention."
+        },
+        {
+          "letter": "D",
+          "text": "peri-portal abscess formation."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiographics. 2007 Nov-Dec;27(6):1595-1610",
+      "explanation": "正確答案為 **C**。心包填塞病人可見周邊門脈淋巴管擴張，反映靜脈鬱血與淋巴回流障礙。詳見 [[cardiac-tamponade]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-tamponade"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-170",
+      "year": 2019,
+      "number": 170,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following CT imaging features is typical of coronary allograft vasculopathy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Involvement of coronary artery bifurcations."
+        },
+        {
+          "letter": "B",
+          "text": "Diffuse concentric wall thickening."
+        },
+        {
+          "letter": "C",
+          "text": "Collateral vessels."
+        },
+        {
+          "letter": "D",
+          "text": "Calcifications."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2007 Sep-Oct;27(5):1297-1309",
+      "explanation": "正確答案為 **B**。冠狀動脈同種異體移植血管病變典型CT特徵為瀰漫性向心性血管壁增厚，而非侷限於分叉處、側支血管形成或鈣化。詳見 [[coronary-allograft-vasculopathy]]。",
+      "images": [],
+      "concepts": [
+        "coronary-allograft-vasculopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-171",
+      "year": 2019,
+      "number": 171,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following entities is the most common mammographic manifestation of invasive lobular carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Circumscribed mass"
+        },
+        {
+          "letter": "B",
+          "text": "Microcalcifications."
+        },
+        {
+          "letter": "C",
+          "text": "Architectural distortion."
+        },
+        {
+          "letter": "D",
+          "text": "Spiculated mass."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2009;29:165-176, p.168",
+      "explanation": "正確答案為 **D**。浸潤性小葉癌最常見乳攝表現為spiculated mass。詳見 [[invasive-lobular-carcinoma]]。",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-172",
+      "year": 2019,
+      "number": 172,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "The characteristic histopathologic bull's-eye pattern of invasive lobular carcinoma is created by",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor cells surrounding cancerous or normal appearing acini or ducts."
+        },
+        {
+          "letter": "B",
+          "text": "Normal cells surrounding cancerous acini or ducts."
+        },
+        {
+          "letter": "C",
+          "text": "Abundant cytoplasm surrounding small nuclei"
+        },
+        {
+          "letter": "D",
+          "text": "Abundant cytoplasm surrounding large nuclei."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2009;29:165-176, p.168",
+      "explanation": "正確答案為 **A**。組織學牛眼徵是由腫瘤細胞環繞癌變或正常外觀的腺泡/乳管所形成。詳見 [[invasive-lobular-carcinoma]]。",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-173",
+      "year": 2019,
+      "number": 173,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following findings of invasive lobular carcinoma is most commonly seen at ultrasound?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vague shadowing without a definite mass."
+        },
+        {
+          "letter": "B",
+          "text": "Hypoechoic mass."
+        },
+        {
+          "letter": "C",
+          "text": "Hyperechoic mass."
+        },
+        {
+          "letter": "D",
+          "text": "Circumscribed mass."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；RadioGraphics 2009;29:165-176, p.174",
+      "explanation": "正確答案為 **B**。ILC最常見超音波表現為異質性低回音腫塊，邊緣呈角狀或不規則邊界，合併後方聲影。詳見 [[invasive-lobular-carcinoma]]。",
+      "images": [],
+      "concepts": [
+        "invasive-lobular-carcinoma"
       ],
       "checked": false
     }

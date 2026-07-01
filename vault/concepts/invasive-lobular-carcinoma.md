@@ -16,6 +16,7 @@ dateRev: 2026-07-01
 ## Summary
 - **流行病學**：占所有乳癌 **5–10%**。[^1]
 - **組織學/生長型態**：**單列(single-file／Indian file)線狀浸潤**、E-cadherin 缺失 → 浸潤不成團、**少腫塊效應、少破壞正常結構** → 各模態皆易低估範圍、易偽陰性。[^1][^2]
+- **典型病理牛眼徵（bull's-eye pattern，2019交換）**：組織學上特徵性的牛眼樣型態，是由**腫瘤細胞環繞癌變或外觀正常的腺泡/乳管（tumor cells surrounding cancerous or normal appearing acini or ducts）**所形成，並非正常細胞環繞癌變腺泡/乳管（方向相反）。[^6]
 - **乳攝(mammography)**：敏感度僅 **57–81%**(緻密乳房可低至 ~30%)、**偽陰性率高於其他浸潤癌**。最常見為 **spiculated mass**，其次 **架構扭曲(architectural distortion)／不對稱密度**;**微鈣化少見(0–24%)、非 ILC 特徵**;常**僅單一投影可見**;少數以 **shrinking breast(乳房體積較舊片縮小)**表現 → 須左右對稱比對與舊片比對。[^2][^3][^4]
 - **超音波(US)**：**不規則低回音腫塊、邊界不清、後方聲影(posterior acoustic shadowing)**;範圍常被低估(18–53% 低估腫瘤大小)。[^2][^3]
 - **MRI**：**敏感度最高(>95%，約 83–100%)**，最準確評估**範圍、多發(multifocal/multicentric)與雙側(bilateral)**;以 **non-mass enhancement(線狀／節段分布)**為特徵性表現;對範圍低估較少,約 1/3 病人因 MRI 偵測到額外病灶。[^1][^2][^5]
@@ -32,6 +33,7 @@ dateRev: 2026-07-01
 [^3]: Tier 1 — Lopez JK, Bassett LW.*Invasive Lobular Carcinoma of the Breast: Spectrum of Mammographic, US, and MR Imaging Findings.* RadioGraphics 2009;29(1):165–176. DOI:10.1148/rg.291085100（accessed 2026-06-29，摘要層級）：mammography 敏感度 57–81%(緻密乳房可低至 ~30%)、微鈣化少見(0–24%)、常僅單一投影可見、minimal stromal reaction;US 為不規則低回音、邊界不清、後方聲影。
 [^4]: Tier 2 — *The Shrinking Breast: An Unusual Mammographic Finding of Invasive Lobular Carcinoma*（PMC4895069，accessed 2026-06-29）：shrinking breast 徵象為較舊片乳腺組織體積減少,因惡性浸潤所致,須與舊片比對。
 [^5]: Tier 2 — *Invasive Lobular Carcinoma: A Review of Imaging Modalities with Special Focus on Pathology Concordance.* PMC10000992（accessed 2026-06-29）：mammography 敏感度 34–92%、可達 30% mammographically occult、大小低估可達 70%;US 敏感度 68–92%、低估大小 18–53%;MRI 敏感度多 >95%、偵測 multifocal/multicentric(88–91%)、約 1/3 病人偵測到額外病灶、降低再切除率。
+[^6]: 2019 交換考詳解；RadioGraphics 2009;29:165-176, p.168, p.174：ILC最常見乳攝表現為spiculated mass、US最常見為hypoechoic mass伴angular/ill-defined margins與posterior acoustic shadowing；組織學bull's-eye pattern由腫瘤細胞環繞癌變或正常腺泡/乳管形成。
 
 ## 考題
 ```dataview
