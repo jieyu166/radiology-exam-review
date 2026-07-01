@@ -81,6 +81,9 @@ dateRev: 2026-06-29
 > [!question]- About CT urography for evaluation of the ureter, which one is correct? (2017-250)
 > **a+b+c+d（D，全對）**——CTU 可見先天異常/充盈缺損/擴張/狹窄/走行偏移;輸尿管重複為最常見泌尿道先天異常（約占人口1%）;擴張輸尿管不必然阻塞、阻塞輸尿管不必然擴張;ureterocele 為輸尿管穿膀胱壁處球狀擴張，呈投射入膀胱腔的圓形充盈缺損。[^2]
 
+> [!question]- Which findings at CT urography favors fibroepithelial polyp over urothelial carcinoma? (2016-260)
+> **兩者無法可靠區分，常需 ureteroscopy（A）**。Fibroepithelial polyp 為長條、平滑、有蒂之良性病灶，常被對比劑包繞（除蒂部），但影像上不一定能與惡性區分。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ct-urography")

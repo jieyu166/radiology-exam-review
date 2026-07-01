@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 197,
+  "totalQuestions": 260,
   "questions": [
     {
       "id": "2016-001",
@@ -9643,6 +9643,43 @@
       "images": [],
       "concepts": [
         "mri-snr"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-260",
+      "year": 2016,
+      "number": 260,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which findings at CT urography favors a diagnosis of fibroepithelial polyp over urothelial carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The two entities cannot be reliably distinguished at CT urography, and ureteroscopy is often necessary."
+        },
+        {
+          "letter": "B",
+          "text": "internal calcifications."
+        },
+        {
+          "letter": "C",
+          "text": "Hyperattenuation in the unenhanced phase"
+        },
+        {
+          "letter": "D",
+          "text": "Proximal hydroureter."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2016詳解；Potenta SE, et al. CT Urography for Evaluation of the Ureter. RadioGraphics. 2015;35(3):709-726",
+      "explanation": "**Fibroepithelial polyp與urothelial carcinoma在CT urography上無法可靠區分，常需ureteroscopy確診**。\n\nFibroepithelial polyp為長條、平滑、有蒂之良性病灶，常被對比劑完整包繞（除蒂部附著處外），有時隨不同擷取時相位置會移動，但影像上不一定能與惡性病灶區分。\n\n(A) **正解**：兩者影像上無法可靠區分，常需ureteroscopy。\n(B) 錯：內部鈣化非鑑別兩者的典型特徵。\n(C) 錯：未顯影期高衰減提示為結石而非此鑑別點。\n(D) 錯：近端輸尿管擴張非特異性鑑別點。\n\n→ [[ct-urography]]",
+      "images": [],
+      "concepts": [
+        "ct-urography"
       ],
       "checked": false,
       "years": [
