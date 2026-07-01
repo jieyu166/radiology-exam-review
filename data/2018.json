@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 189,
+  "totalQuestions": 195,
   "questions": [
     {
       "id": "2018-001",
@@ -6867,6 +6867,228 @@
       "images": [],
       "concepts": [
         "cardiac-infection-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-190",
+      "year": 2018,
+      "number": 190,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following organs have the highest rate of heterotopic pancreas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esophagus"
+        },
+        {
+          "letter": "B",
+          "text": "Stomach"
+        },
+        {
+          "letter": "C",
+          "text": "Meckel diverticulum"
+        },
+        {
+          "letter": "D",
+          "text": "Ileum"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.82；Heterotopic Pancreas: Histopathologic Features, Imaging Findings, and Complications. RadioGraphics 2017;37:page 486.",
+      "explanation": "異位胰臟最常見於胃（胃竇大彎側，幽門6cm內），其次為十二指腸與近端空腸。\n\n見 [[heterotopic-pancreas]]",
+      "images": [],
+      "concepts": [
+        "heterotopic-pancreas"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-191",
+      "year": 2018,
+      "number": 191,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "About translocation RCC, which of the following is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is the most frequent type of RCC in children."
+        },
+        {
+          "letter": "B",
+          "text": "Generally has a heterogeneous appearance owing to solid and cystic components with hemorrhage, necrosis and calcifications."
+        },
+        {
+          "letter": "C",
+          "text": "The retroperitoneal lymph node involvement is common, even with small tumors."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.84；Renal Tumors of Childhood: Radiologic-Pathologic Correlation Part 2. The 2nd Decade. RadioGraphics 2017;37:page 1539.",
+      "explanation": "Translocation RCC 為兒童/青少年最常見RCC亞型、呈異質性外觀、即使腫瘤小仍常見腹膜後淋巴結侵犯，皆為正確敘述。\n\n見 [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-192",
+      "year": 2018,
+      "number": 192,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Ultrasound diagnostic criteria for renal artery stenosis can be divided into direct signs and indirect signs. Which of the following belongs to the direct signs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Doppler US artifacts caused by turbulence (aliasing)"
+        },
+        {
+          "letter": "B",
+          "text": "Pulsus parvus et tardus"
+        },
+        {
+          "letter": "C",
+          "text": "Acceleration index < 300 cm/sec²"
+        },
+        {
+          "letter": "D",
+          "text": "Acceleration time (time to peak systole) > 70 msec"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.85；Radiologic Assessment of Native Renal Vasculature: A Multimodality Review. RadioGraphics 2017;37:page 140.",
+      "explanation": "因紊流造成的Doppler US假影（aliasing）為狹窄處本身的直接徵象；pulsus parvus et tardus、acceleration index、acceleration time皆為狹窄遠端的間接徵象。\n\n見 [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-193",
+      "year": 2018,
+      "number": 193,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following tumors has microscopic fat?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenal adenoma"
+        },
+        {
+          "letter": "B",
+          "text": "Adrenocortical Carcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Pheochromocytoma"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.86；Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis. RadioGraphics 2016;36:page 718.",
+      "explanation": "Adrenal adenoma、adrenocortical carcinoma、pheochromocytoma 皆可含微觀脂肪成分。\n\n見 [[adrenal-lesions]]",
+      "images": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-194",
+      "year": 2018,
+      "number": 194,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "When angiography shows direct fistulous formation between a single artery and a single draining vein with coexistence of pseudoaneurysms, what is the classification of the renal AV shunts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Traumatic renal AV shunts"
+        },
+        {
+          "letter": "B",
+          "text": "Type I Nontraumatic renal AV shunts"
+        },
+        {
+          "letter": "C",
+          "text": "Type II Nontraumatic renal AV shunts"
+        },
+        {
+          "letter": "D",
+          "text": "Type III Nontraumatic renal AV shunts"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.87；Renal Arteriovenous Shunts: Clinical Features, Imaging Appearance, and Transcatheter Embolization Based on Angioarchitecture. RadioGraphics 2016;36:page 586.",
+      "explanation": "單一動脈對單一引流靜脈的直接瘻管形成，合併假性動脈瘤，定義為外傷性腎動靜脈瘻管。\n\n見 [[renal-av-shunt-classification]]",
+      "images": [],
+      "concepts": [
+        "renal-av-shunt-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-195",
+      "year": 2018,
+      "number": 195,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "The clinical features of hypertrophic osteoarthropathy (HOA) include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Digital clubbing"
+        },
+        {
+          "letter": "B",
+          "text": "Periostosis of tubular bones"
+        },
+        {
+          "letter": "C",
+          "text": "Synovial effusions"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.88；Hypertrophic Osteoarthropathy: Clinical and Imaging Features. RadioGraphics 2017;37:page 158.",
+      "explanation": "杵狀指、長管骨骨膜增生、關節積液合併滑膜絨毛增生，皆為 HOA 公認的臨床特徵。\n\n見 [[hypertrophic-osteoarthropathy]]",
+      "images": [],
+      "concepts": [
+        "hypertrophic-osteoarthropathy"
       ],
       "checked": false
     }

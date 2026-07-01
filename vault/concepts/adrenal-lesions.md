@@ -54,6 +54,12 @@ dateRev: 2026-06-29
 - **≤10 HU 但合併鈣化或壞死區**：ROI 須避開鈣化/壞死，否則衰減值失真;鈣化本身非腺瘤特徵（pheo 約 10% 含鈣化）。[^1][^4]
 - washout 對**較大、含壞死/出血的病灶**準確度下降;ACC 與 pheo 偶可呈高 washout，washout 僅為「中等」鑑別工具。[^6]
 
+## 含微觀脂肪（microscopic fat）的腫瘤（2018-192）
+- **Adrenal adenoma**：多數含微觀脂肪（脂質豐富），MRI chemical shift（in-/opposed-phase）反相位訊號掉落為其診斷基礎。
+- **Adrenocortical carcinoma**：部分病例仍可含微觀脂肪成分，不能單憑「含脂肪」排除惡性。
+- **Pheochromocytoma**：雖傳統認為乏脂肪，惟文獻報告部分嗜鉻細胞瘤仍可見微觀脂肪成分（罕見但已有病例報告）。
+- 故本題三者皆可能含微觀脂肪，正確答案為「以上皆是」——不可僅憑「含脂肪」直接排除 pheochromocytoma 或 adrenocortical carcinoma 之可能。[^9]
+
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；同源見 [[adrenal-imaging]][^2]）** Lattin GE, Sturgill ED, Tujo CA, et al. *From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult*. RadioGraphics. 2014;34(3):805-829. https://doi.org/10.1148/rg.343130127。腎上腺結節性增生隨年齡增加/雙側；假性囊腫 T1 高訊號多因出血；嗜鉻細胞瘤約 10% 鈣化。
 [^2]: ACR Incidental Findings Committee White Paper（管理指引層級），Mayo-Smith WW et al., J Am Coll Radiol 2017;14(8):1038-1044：非顯影 ≤10 HU 或 CSI 對脾訊號掉落幾乎確診 lipid-rich adenoma（不論大小）;11–30 HU 之 lipid-poor adenoma 須 washout 或 CSI。https://doi.org/10.1016/j.jacr.2017.05.001
@@ -63,6 +69,7 @@ dateRev: 2026-06-29
 [^6]: Radiology 原著研究層級，Caoili EM 等延遲洗出協定相關文獻（10–15 min delayed washout protocol）：APW ≥60%、RPW ≥40% 公式與診斷效能（敏感度/特異度如內文）;washout 為中等診斷價值工具。對應 PMC 開放全文（Schloetelburg et al., Eur J Endocrinol 2022;186(2):183-193）所述「moderate diagnostic value」。https://pmc.ncbi.nlm.nih.gov/articles/PMC8679842/
 [^7]: AJR 定量比較研究層級，Israel GM et al. 與 1.5T/3T CSI 量化文獻：SII = [(IP−OOP)/IP]×100%，1.5T >16.5% 提示 lipid-rich adenoma;ASR = (腺瘤OOP/脾OOP)/(腺瘤IP/脾IP)，<0.71 提示腺瘤;兩者為最可靠定量指標。https://doi.org/10.2214/AJR.14.12941
 [^8]: Radiology: Imaging Cancer 原著層級（T2 鑑別 lipid-poor adenoma 與轉移）2020;2(6):e200011，及 PMC 開放全文「MRI of adrenal gland: state of the art」（Adam SZ et al., PMC6755942）：pheo 顯著 T2 高訊號（light bulb sign，約 35% 不典型）;轉移無胞內脂肪、CSI 不掉訊號。https://pmc.ncbi.nlm.nih.gov/articles/PMC6755942/
+[^9]: *Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis.* RadioGraphics 2016;36:page 718（2018 交換考題詳解 p.86 引用；Tier 1）。Adrenal adenoma、adrenocortical carcinoma、pheochromocytoma 皆可含微觀脂肪成分。
 
 ## 考題
 ```dataview

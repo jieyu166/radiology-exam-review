@@ -66,6 +66,10 @@ dateRev: 2026-06-29
 > [!note] 考點：關於 RAS／FMD／Takayasu,何者正確?
 > 「**Medial dysplasia 為最常見 FMD 型（~90%）**」正確。最常見 RAS 病因為粥狀硬化（非 FMD）、Takayasu 為女性為主＜50 歲（非男性＞35）、midaortic syndrome 為獨立病種（非 Takayasu 亞型）。[^3][^5]
 
+## 直接 vs 間接超音波徵象區分（2018-190）
+- **直接徵象（狹窄處本身）**：**腎動脈收縮期峰值流速（PSV）>200 cm/sec**、腎動脈-主動脈 PSV 比值 >3.5:1、狹窄阻塞時 Doppler 訊號消失、**因紊流造成的 Doppler US 假影（aliasing）**——皆位於「狹窄處」本身。[^7]
+- **間接徵象（狹窄遠端）**：**pulsus parvus et tardus（低平延遲的收縮上升波形）**、**acceleration index <300 cm/sec²**、**acceleration time（收縮期峰值時間）>70 msec**——皆位於狹窄「遠端」的葉間動脈，反映下游血流動力學改變而非狹窄處本身。[^7]
+
 ### 參考來源
 [^1]: 〔Tier 2〕Granata A, et al. *Doppler ultrasound and renal artery stenosis: An overview.* J Ultrasound. PMC3567456（accessed 2026-06-29）：PSV >180–200 cm/s、RAR ≥3.5（敏感度 84–91%／特異度 95–97%）、prerenal aortic PSV <40 cm/s 時 RAR 不可靠、AT <0.07 s（distal 標準）、AI <3 m/s²、RI 正常值與 RI >0.80 預示重建反應不佳、副腎動脈 20–30%（主動脈直徑 ≤4.15 mm）、tardus-parvus 不出現不能排除 RAS、粥狀硬化致波形偽陰、直接顯像率約 84–90%、in-stent PSV >180／>226 cm/s 與 RAR >2.7。介入排除（小腎＋高實質 RI 預示血管重建無效）並參 Morgan R & Waltzer E. *Handbook of Angioplasty and Stenting Procedures*（題目所引）。Radiopaedia.org *Renal artery stenosis* 為輔助。
 [^2]: 〔Tier 1／Tier 2〕Medscape eMedicine *Renal Artery Stenosis / Renovascular Hypertension Imaging*（article 380308）與 RSNA Radiology 都卜勒波形系列（Stavros AT, et al. *Segmental stenosis of the renal artery: tardus and parvus.* Radiology 1992；Kliewer MA, et al. *Renal artery stenosis: Doppler waveform parameters and tardus-parvus pattern.* Radiology 1993, DOI 10.1148/radiology.189.3.8234704）（accessed 2026-06-29）：PSV >200 cm/s 對 ≥60% 狹窄、end-diastolic velocity >150 cm/s 提示 >80%、CTA 顯示開口鈣化與 post-stenotic dilation、gadolinium-enhanced MRA 對 ≥50% 狹窄敏感度約 96%、MRA 對 string of beads 敏感度約 97% 而對量化 >50% 約 68%、GFR ≤30 不宜 gadolinium。
@@ -73,6 +77,7 @@ dateRev: 2026-06-29
 [^4]: 〔Tier 2〕Qanadli SD, et al.（Clin Radiol 2000, *Assessment of RAS: captopril renography vs Gd-enhanced MRA*）與 AJR Doppler/scintigraphy/MRA 比較（ajronline.org 10.2214/ajr.177.5.1771123）（accessed 2026-06-29）：captopril renography 對 50–99% 狹窄敏感度約 85%／特異度約 71%、最有用處在預測血管重建獲益；gadolinium MRA 與 NSF 風險（中重度腎病、GFR ≤30）。
 [^5]: 官方 2017 詳解；Textbook of Uroradiology, 5th ed., pp.191-192：最常見 RAS 病因為粥狀硬化（~75%）;FMD 以 medial fibroplasia 最常見（~90% of FMD），呈 string of beads;Takayasu aortitis 女性為主（F:M≈9:1）、好發 <50 歲;middle aortic syndrome 為兒童／青少年之獨立病種（腹主動脈嚴重狹窄＋腎/內臟分支進行性受累），非 Takayasu 亞型。
 [^6]: 官方 2017 詳解（FMD 好發部位與顱內表現統計）：受累動脈依序腎動脈(~80%)、顱外頸內動脈(~74%)、椎動脈(~37%)、腸繫膜動脈(~26%)、顱內頸動脈(~17%);65%腎FMD合併頸腦血管病灶;典型影像為血管迂曲/紡錘狀擴張/string-of-beads;顱內FMD可以SAH表現但屬較不典型;腎內動脈壓力與主動脈壓力差>20mmHg可歸因FMD考慮血管成形術。
+[^7]: *Radiologic Assessment of Native Renal Vasculature: A Multimodality Review.* RadioGraphics 2017;37:page 140（2018 交換考題詳解 p.85 引用；Tier 1）。直接 US 徵象位於狹窄處（PSV>200、PSV比>3.5、訊號消失、aliasing）；間接徵象位於狹窄遠端（pulsus parvus et tardus、acceleration index<300、acceleration time>70ms）。
 
 ## 題目
 > [!question]- 關於 fibromuscular dysplasia(FMD)，下列何者有誤? (2017-279)
