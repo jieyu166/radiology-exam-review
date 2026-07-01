@@ -10418,6 +10418,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-290",
+      "year": 2017,
+      "number": 290,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the below are not characteristic findings of endometriomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A cystic lesion hyperintense on T1WI with \"shading\" or relative hypointense on T2WI images"
+        },
+        {
+          "letter": "B",
+          "text": "Multiple hyperintense lesions on T1WI"
+        },
+        {
+          "letter": "C",
+          "text": "Cystic lesions hyperintense on T1WI and hyperintense without shading on T2WI (old haemorrhage occasionally appears hyperintense)"
+        },
+        {
+          "letter": "D",
+          "text": "Flow voids within the cystic lesion"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GYN Section",
+      "explanation": "**D（囊內流空訊號 flow voids）非典型**——endometrioma為無血管性囊腫，內部不應出現流空訊號。\n\n(A) T1高訊號伴shading或相對T2低訊號:典型。\n(B) 多發T1高訊號病灶:典型。\n(C) T1/T2高訊號無shading(舊出血):可見。\n(D) **正解**:無血管性囊腫不應有流空訊號。\n\n→ [[endometrioma]]",
+      "images": [],
+      "concepts": [
+        "endometrioma"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-291",
+      "year": 2017,
+      "number": 291,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common carcinoma the may develop from ovarian endometriosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clear cell adenocarcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Endometrioid adenocarcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Serous cystadenocarcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Mucinous cystadenocarcinoma"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GYN Section",
+      "explanation": "⚠️ 官方答案原標A後更正為**B（Endometrioid adenocarcinoma，約2/3最常見）**。\n\n(A) Clear cell adenocarcinoma:第二常見(約1/7)。\n(B) **正解**:子宮內膜異位症惡性轉化最常見組織型。\n(C)(D) Serous/mucinous:與子宮內膜異位症關聯性遠低於前兩者。\n\n→ [[endometriosis-malignant-transformation]]",
+      "images": [],
+      "concepts": [
+        "endometriosis-malignant-transformation"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-292",
+      "year": 2017,
+      "number": 292,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the most common site of extragenital endometriosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ileum"
+        },
+        {
+          "letter": "B",
+          "text": "Rectum and rectosigmoid junction"
+        },
+        {
+          "letter": "C",
+          "text": "Abdominal wall"
+        },
+        {
+          "letter": "D",
+          "text": "Lung"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GYN Section",
+      "explanation": "**B（Rectum and rectosigmoid junction）**——GI侵犯中最常見部位（注意為GI侵犯內排序，非全身最常見；全身以卵巢約75%最常見）。\n\n(A) Ileum:GI侵犯排序中較後。\n(B) **正解**。\n(C) Abdominal wall:剖腹產疤痕相關，較少見。\n(D) Lung:罕見部位。\n\n→ [[endometriosis-extragenital-sites]]",
+      "images": [],
+      "concepts": [
+        "endometriosis-extragenital-sites"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-293",
+      "year": 2017,
+      "number": 293,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following about Foot Charcot Arthropathy is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most common secondary to diabetes"
+        },
+        {
+          "letter": "B",
+          "text": "Foot frequently shows ulceration"
+        },
+        {
+          "letter": "C",
+          "text": "Usually first involves metaphysis of MT joint (reabsorption of the ends of the affected bone)"
+        },
+        {
+          "letter": "D",
+          "text": "Usually involves MTP joint with astonishing joint destruction on initial radiograph"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, MSK Section",
+      "explanation": "**C為偽**——病變最初侵犯**1st MTP joint**，表現為受侵犯骨端**reabsorption**（非蹠骨metaphysis破壞）。\n\n(A) 糖尿病最常見病因:真。\n(B) 足部常見潰瘍:真。\n(C) **正解(偽)**:最初侵犯MTP關節非metaphysis。\n(D) MTP關節初診即顯著破壞:真。\n\n→ [[charcot-arthropathy-foot]]",
+      "images": [],
+      "concepts": [
+        "charcot-arthropathy-foot"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-294",
+      "year": 2017,
+      "number": 294,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following about Multiple Myeloma is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Men much more common than women"
+        },
+        {
+          "letter": "B",
+          "text": "Mandible involved in 1/3 of patients with diffuse involvement (Bony metastases rarely involve mandible, distal axial skeleton)"
+        },
+        {
+          "letter": "C",
+          "text": "Sclerosis is usually seen only with treatment or fracture"
+        },
+        {
+          "letter": "D",
+          "text": "In spine, MM destroys body and pedicle"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, MSK Section",
+      "explanation": "**D為偽**——脊椎MM典型**侵犯椎體但保留椎弓根**（骨轉移則常侵犯椎弓根，為鑑別重點）。\n\n(A) 男性好發:真。\n(B) 約1/3侵犯下頜骨:真。\n(C) 硬化僅見治療後或骨折:真。\n(D) **正解(偽)**:MM保留椎弓根,非破壞。\n\n→ [[multiple-myeloma-vs-bone-metastasis]]",
+      "images": [],
+      "concepts": [
+        "multiple-myeloma-vs-bone-metastasis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-295",
+      "year": 2017,
+      "number": 295,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "The double posterior cruciate ligament (PCL) sign is a highly specific indicator of the following meniscal tear.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bucket-handle tear"
+        },
+        {
+          "letter": "B",
+          "text": "Discoid meniscal tear"
+        },
+        {
+          "letter": "C",
+          "text": "Flipped meniscal tear"
+        },
+        {
+          "letter": "D",
+          "text": "Meniscal root tear"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, MSK Section",
+      "explanation": "**A（Bucket-handle tear）**——內側半月板桶柄狀撕裂碎片移位至髁間窩、平行PCL下方，幾乎僅見於ACL完整病人。\n\n(A) **正解**。\n(B)(C)(D) 皆非此徵象對應之撕裂型態。\n\n→ [[meniscal-tear-mri-signs]]",
+      "images": [],
+      "concepts": [
+        "meniscal-tear-mri-signs"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -18,14 +18,24 @@ dateRev: 2026-06-17
 - **T2WI 低訊號（shading sign）**：去氧血紅素/變性血紅素致 T2 變暗,常見且具特徵(option B 對)。[^1]
 - **非 hypervascular**：endometrioma **無內部強化**;故「post-contrast hypervascular」**非典型**＝題目正解（2016-155 正解 C）。[^1]
 - **警訊**：出現**強化壁結節**＝懷疑惡性變（clear cell/endometrioid carcinoma）;孕期 decidualised endometrioma 可有 stromal vascularity（特殊變異）。[^1]
+- **囊內流空訊號（flow voids）**：endometrioma為**無血管性囊腫**，內部本不應出現流空訊號——「flow voids within the cystic lesion」**非典型**表現。[^2]
 
 > [!note] 考點：何者「非」endometrioma 的典型 MRI 所見?
 > 「**post-contrast hypervascular**」非典型——endometrioma **T1 高、T2 低（shading）、無內部強化**。強化壁結節要警惕惡性變。[^1]
 
 ### 參考來源
 [^1]: *Endometrioma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**T1 typically hyperintense**（出血）;**T2 typically hypointense（shading sign，deoxy/methemoglobin）**;無內部強化;decidualised endometrioma（孕期）有 stromal vascularity 為特殊變異。
+[^2]: 官方 2017 詳解：endometrioma為無血管性囊腫，T1高訊號伴shading或相對T2低訊號、多發T1高訊號病灶、T1/T2高訊號無shading(可能為舊出血)皆可為典型表現;但囊內流空訊號(flow voids)非典型。
+
+## 題目
+> [!question]- Which of the following is **NOT** a typical image finding of endometrioma on MRI? (2016-155)
+> **C（post-contrast hypervascular）非典型**——endometrioma無內部強化，出現血管化壁結節要懷疑惡性變。T1高訊號、T2低訊號(shading)皆為典型表現。[^1]
+
+> [!question]- Which of the below are **not** characteristic findings of endometriomas? (2017-290)
+> **D（囊內流空訊號 flow voids）非典型**——endometrioma為無血管性囊腫。T1高訊號伴shading或相對T2低訊號(A)、多發T1高訊號病灶(B)、T1/T2高訊號無shading可代表舊出血(C)皆為可見表現。[^2]
 
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endometrioma")
 ```
+
