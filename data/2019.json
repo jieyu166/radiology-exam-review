@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 185,
+  "totalQuestions": 187,
   "questions": [
     {
       "id": "2019-001",
@@ -6759,6 +6759,80 @@
       "images": [],
       "concepts": [
         "embolic-materials"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-186",
+      "year": 2019,
+      "number": 186,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種疾病和 fibrous dysplasia 無關?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "McCune-Albright syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Mounier-Kuhn syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Mazabraud's syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Activating mutations in the GNAS1 gene"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Image of arthritis and metabolic bone disease 2009: 553",
+      "explanation": "正確答案為 **B**。Mounier-Kuhn syndrome（氣管支氣管擴大症）為獨立疾病實體，與fibrous dysplasia無關。McCune-Albright syndrome、Mazabraud's syndrome、GNAS1基因活化突變皆與FD相關。詳見 [[fibrous-dysplasia]]。",
+      "images": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-187",
+      "year": 2019,
+      "number": 187,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning entrapment syndrome and associated nerve, which one is false as follow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Quadrilateral space syndrome - axillary nerve"
+        },
+        {
+          "letter": "B",
+          "text": "Pronator syndrome – radial nerve"
+        },
+        {
+          "letter": "C",
+          "text": "Cubital tunnel syndrome – ulnar nerve"
+        },
+        {
+          "letter": "D",
+          "text": "Kiloh-Nevin syndrome – anterior interosseous nerve"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Image of arthritis and metabolic bone disease 2009: 243~249",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Pronator syndrome壓迫的是**median nerve**，並非radial nerve；最常見成因為median nerve在pronator teres肌兩頭之間受壓迫。Quadrilateral space syndrome-axillary nerve、cubital tunnel syndrome-ulnar nerve、Kiloh-Nevin syndrome-anterior interosseous nerve皆為正確配對。詳見 [[nerve-entrapment-syndromes]]。",
+      "images": [],
+      "concepts": [
+        "nerve-entrapment-syndromes"
       ],
       "checked": false
     }
