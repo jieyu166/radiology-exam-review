@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 202,
+  "totalQuestions": 208,
   "questions": [
     {
       "id": "2018-001",
@@ -7348,6 +7348,228 @@
       "images": [],
       "concepts": [
         "invasive-lobular-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-203",
+      "year": 2018,
+      "number": 203,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Marfan syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diagnosis of Marfan syndrome based on Ghent criteria which includes cardiovascular (major criteria), ocular (major criteria) and pulmonary (minor criteria) abnormalities"
+        },
+        {
+          "letter": "B",
+          "text": "Annuloaortic ectasia and ascending aortic dissection are the two major criteria."
+        },
+        {
+          "letter": "C",
+          "text": "Mitral valve prolapse is the most prevalent valvular abnormality seen in 35-100% of patients"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.97；Diagnostic imaging chest page. II 2-32.",
+      "explanation": "Ghent分類心血管/眼科為主要標準、肺部為次要標準（無獨立肺部主要標準）；環主動脈擴張與升主動脈剝離為兩大主要標準；MVP為最常見瓣膜異常(35-100%)，皆正確。\n\n見 [[marfan-syndrome]]",
+      "images": [],
+      "concepts": [
+        "marfan-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-204",
+      "year": 2018,
+      "number": 204,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of pulmonary artery sarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pulmonary artery sarcomas are often arose from central or peripheral pulmonary arteries, but also could be in smaller vessels and capillaries."
+        },
+        {
+          "letter": "B",
+          "text": "Chest radiography is often normal"
+        },
+        {
+          "letter": "C",
+          "text": "CECT may show filling defect in central or peripheral pulmonary vessels with enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.97；Diagnostic imaging chest page. II 4-70.",
+      "explanation": "肺動脈肉瘤好發中央/周邊肺動脈亦可侵犯更小血管、胸部平片常正常、CECT見填充缺損合併強化，皆正確。\n\n見 [[pulmonary-artery-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-artery-sarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-205",
+      "year": 2018,
+      "number": 205,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of fibrous tumor of the pleura?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CECT revealed obtuse angle of pleural lesions with homogeneous enhancement when tumors < 6 cm"
+        },
+        {
+          "letter": "B",
+          "text": "MRI shows low signal intensity in T1WI & T2WI"
+        },
+        {
+          "letter": "C",
+          "text": "Fibrous tumor of the pleura might be related with Doege-Potter syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.98；Diagnostic imaging chest page. III, 1-37.",
+      "explanation": "腫瘤<6cm與胸膜呈鈍角均質強化、MRI T1/T2皆常低訊號、可併發Doege-Potter症候群，皆正確。\n\n見 [[solitary-fibrous-tumor-pleura]]",
+      "images": [],
+      "concepts": [
+        "solitary-fibrous-tumor-pleura"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-206",
+      "year": 2018,
+      "number": 206,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Non-Hodgkin lymphoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Superior mediastinal nodes (pre-vascular and para-tracheal) are predominantly involved in approximately 75% of patients"
+        },
+        {
+          "letter": "B",
+          "text": "Intrathoracic involvement in 50% of newly diagnosed cases."
+        },
+        {
+          "letter": "C",
+          "text": "Calcification rarely seen prior to treatment"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.98；Diagnostic imaging chest page. II, 1-26.",
+      "explanation": "上縱膈淋巴結約75%為主要侵犯部位、約50%新診斷病人有胸腔內侵犯、治療前鈣化罕見，皆正確。\n\n見 [[thoracic-lymphoma-hd-nhl]]",
+      "images": [],
+      "concepts": [
+        "thoracic-lymphoma-hd-nhl"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-207",
+      "year": 2018,
+      "number": 207,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Hodgkin disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most commonly involves anterior, superior mediastinal nodes and prevascular and para tracheal lymph nodes are most commonly affected."
+        },
+        {
+          "letter": "B",
+          "text": "Nodes rarely calcify prior to treatment"
+        },
+        {
+          "letter": "C",
+          "text": "CT is the modality of choice for initial staging and follow-up monitoring of HD"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.99；Diagnostic imaging chest page. II, 1-22.",
+      "explanation": "最常侵犯前上縱膈血管前/氣管旁淋巴結、治療前罕見鈣化、CT為初始分期與追蹤監測首選，皆正確。\n\n見 [[thoracic-lymphoma-hd-nhl]]",
+      "images": [],
+      "concepts": [
+        "thoracic-lymphoma-hd-nhl"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-208",
+      "year": 2018,
+      "number": 208,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which the following one is incorrect in description of Extravasation Of Contrast Med?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The reported incidence of intravenous contrast media extravasation related to power injection for CT has ranged from 0.1% to 0.9%"
+        },
+        {
+          "letter": "B",
+          "text": "The acute tissue injury resulting from extravasation of iodinated contrast media is possibly related primarily to the hyperosmolality of the extravasated fluid."
+        },
+        {
+          "letter": "C",
+          "text": "An immediate surgical consultation is indicated for any patient in whom one or more of the following signs or symptoms develops: progressive swelling or pain, altered tissue perfusion, change in sensation in the affected limb, and skin ulceration or blistering."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.100；ACR Manual on Contrast Media page. 20.",
+      "explanation": "外滲通報發生率約0.1-0.9%、急性組織傷害主因為高滲透壓、出現進行性腫痛/灌流改變/感覺改變/皮膚潰瘍水泡時應立即照會外科，皆正確。\n\n見 [[contrast-media-safety]]",
+      "images": [],
+      "concepts": [
+        "contrast-media-safety"
       ],
       "checked": false
     }
