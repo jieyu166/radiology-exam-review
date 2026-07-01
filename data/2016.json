@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 262,
+  "totalQuestions": 263,
   "questions": [
     {
       "id": "2016-001",
@@ -9754,6 +9754,43 @@
       "images": [],
       "concepts": [
         "arterial-dissection-mri"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-263",
+      "year": 2016,
+      "number": 263,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement is false for CLIPPERS (chronic lymphocytic imflammation with pontine perivascular enhancement responsive to steroid)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The disorder predominantly involves pons, however, supratentorial involvement is also possible."
+        },
+        {
+          "letter": "B",
+          "text": "MRI reveals “punctate and curvilinear” or “peppering” enhancement of the lesions."
+        },
+        {
+          "letter": "C",
+          "text": "Definite diagnosis is made by specific serum/CSF marker currently. Image findings are not specific."
+        },
+        {
+          "letter": "D",
+          "text": "Long-term immunosuppressive therapy is mandatory, due to disease exacerbation after withdrawal of glucocorticosteroid."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2016詳解；Clin Exp Immunol. 2014 Mar;175(3):385-396",
+      "explanation": "**CLIPPERS目前並無特異性血清/CSF標記可供確診**——診斷依賴臨床、影像、實驗室與CSF檢查綜合判斷，並需審慎排除其他鑑別診斷（必要時腦切片）。\n\n(A) 對：病灶以橋腦為主，但幕上侵犯亦可見。\n(B) 對：MRI典型呈「點狀與曲線狀（punctate and curvilinear）」或「胡椒粉狀（peppering）」強化。\n(C) **錯（正解）**：目前並無特異性血清/CSF標記可確診，需綜合臨床/影像/實驗室/CSF、審慎排除其他診斷。\n(D) 對：停用類固醇後常復發，故需長期免疫抑制治療。\n\n→ [[clippers]]",
+      "images": [],
+      "concepts": [
+        "clippers"
       ],
       "checked": false,
       "years": [
