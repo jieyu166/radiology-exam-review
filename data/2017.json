@@ -8847,6 +8847,117 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-248",
+      "year": 2017,
+      "number": 248,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is NOT correct about applying TIPS in portal hypertension management?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TIPS is indicated in management of hepatic and posthepatic portal hypertension but not indicated in prehepatic portal hypertension."
+        },
+        {
+          "letter": "B",
+          "text": "TIPS is indicated in primary prophylaxis of variceal bleeding."
+        },
+        {
+          "letter": "C",
+          "text": "Severe liver failure such as Child-Pugh class C, MELD>22, bilirubin >3 mg/dL is not indicated for TIPS"
+        },
+        {
+          "letter": "D",
+          "text": "The strongest evidence of indication of TIPS is secondary prophylaxis of variceal bleeding."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；RadioGraphics 2013;33(5):1473-1496；World J Gastroenterol 2013;19(37):6131-6143",
+      "explanation": "**TIPS 最強實證的適應症是次級預防（已出血過、治療失敗者）,並非初級預防**。\n\n(A) 正確:TIPS 適用肝性/肝後性門脈高壓,不適用肝前性。\n(B) **不正確（正解）**:TIPS 不用於初級預防,而是次級預防。\n(C) 正確:嚴重肝衰竭（Child-Pugh C、MELD>22、bilirubin>3）不建議 TIPS。\n(D) 正確:次級預防為 TIPS 最強實證適應症。\n\n→ [[tips-portal-hypertension]]",
+      "images": [],
+      "concepts": [
+        "tips-portal-hypertension"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-249",
+      "year": 2017,
+      "number": 249,
+      "subspecialty": "MRI",
+      "subspecialty_confidence": "auto",
+      "questionText": "About prostate lesions, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unlike typical adenocarcinoma, mucinous tumors typically appear both T1 and T2 hyperintense because of the proteinaceous fluid content."
+        },
+        {
+          "letter": "B",
+          "text": "Metastatic involvement of the prostate gland is exceptionally rare. However, bladder urothelial carcinoma is the most common cancer to involve the prostate."
+        },
+        {
+          "letter": "C",
+          "text": "Prostatic abscesses appear as peripherally enhancing T2-hyperintense collections, with homogeneously reduced diffusion."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2016;36(4):1055-1075",
+      "explanation": "A、B、C 三項敘述**皆正確**,無錯誤者,故答案為 D。\n\n(A) 正確:黏液性腺癌因黏液蛋白池致 T1/T2 皆高訊號,與典型腺癌相反。\n(B) 正確:攝護腺續發侵犯罕見,但膀胱移行上皮癌為最常見直接侵犯來源。\n(C) 正確:攝護腺膿瘍呈周邊強化的 T2 高訊號積液,內部均質限制擴散。\n(D) **正解**:以上皆非（無錯誤敘述）。\n\n→ [[prostate-lesions-imaging]]",
+      "images": [],
+      "concepts": [
+        "prostate-lesions-imaging"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-250",
+      "year": 2017,
+      "number": 250,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "About CT urography for evaluation of the ureter, which one is correct? a. It can manifest as the following findings: congenital abnormality, filling defect, dilatation, narrowing, or deviation in course. b. Ureteral duplication is the most common congenital anomaly of the urinary tract and occurs in approximately 1% of the population. c. A dilated ureter is not necessarily obstructed; conversely, an obstructed ureter is not always dilated. d. A ureterocele is defined as a bulbous dilatation of the ureter as it passes through the bladder wall, and appears as a rounded filling defect that projects into the urinary bladder lumen.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a+b+d"
+        },
+        {
+          "letter": "B",
+          "text": "b+c+d"
+        },
+        {
+          "letter": "C",
+          "text": "a+c+d"
+        },
+        {
+          "letter": "D",
+          "text": "a+b+c+d"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Potenta SE et al. CT Urography for Evaluation of the Ureter. RadioGraphics 2015;35(3):709-726",
+      "explanation": "a、b、c、d 四項敘述**皆正確**。\n\n(a) 正確:CTU 可見先天異常、充盈缺損、擴張、狹窄、走行偏移等異常型態。\n(b) 正確:輸尿管重複為泌尿道最常見先天異常,約占人口 1%。\n(c) 正確:擴張輸尿管不必然阻塞、阻塞輸尿管不必然擴張。\n(d) 正確:ureterocele 為輸尿管穿膀胱壁處球狀擴張,呈投射入膀胱腔的圓形充盈缺損。\n\n(D) **a+b+c+d（正解）**。\n\n→ [[ct-urography]]",
+      "images": [],
+      "concepts": [
+        "ct-urography"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -34,6 +34,15 @@ dateRev: 2026-06-29
   - **Nephrographic/corticomedullary 期**：腎實質腫瘤（RCC vs 浸潤型上尿路癌）、腫瘤強化、腎柱假瘤排除;UTUC 因早期強化在此期可見「focal 壁增厚＋異常 hyperenhancement」。
   - **Excretory（延遲 7–15 min）期**：集尿系統與輸尿管全程充盈、腔內充盈缺損、壁增厚的「負影」輪廓。**兩期是否都必要**有文獻爭議——有研究主張單用 excretory 期即可達相近 UTUC 敏感度，但 nephrographic 期對偵測非充盈缺損型（壁增厚/浸潤型）腫瘤仍有助益，故多數方案仍保留雙期。[^4]
 
+### 輸尿管一般異常表現與基本概念（CTU for evaluation of the ureter）
+- **CTU 可呈現的輸尿管異常型態**：先天異常（congenital abnormality）、腔內充盈缺損（filling defect）、擴張（dilatation）、狹窄（narrowing）、走行偏移（deviation in course）。[^2]
+- **輸尿管重複（ureteral duplication）**：為**泌尿道最常見的先天異常**，發生率約**佔人口 1%**。[^2]
+- **擴張 ≠ 阻塞（重要判讀陷阱）**：**擴張的輸尿管不必然代表阻塞**（如懷孕、術後、逆流性擴張、慢性阻塞已代償）；反之，**阻塞的輸尿管也不總是擴張**（急性阻塞早期、腎周滲漏減壓）。故單憑輸尿管口徑不能斷定是否阻塞，須合併腎盂腎盞擴張程度、臨床病史等綜合判斷。[^2]
+- **輸尿管膨出（ureterocele）**：定義為輸尿管穿越膀胱壁處的**球狀擴張（bulbous dilatation）**;CT/影像上呈**投射入膀胱腔內的圓形充盈缺損（filling defect）**。[^2]
+
+> [!note] 考點：關於 CT urography 評估輸尿管，何者「正確」?
+> **a+b+c+d 全對**——CTU 可呈現先天異常/充盈缺損/擴張/狹窄/走行偏移;輸尿管重複為最常見先天異常（約占人口1%）;擴張輸尿管不必然阻塞、阻塞輸尿管不必然擴張;ureterocele 為輸尿管穿膀胱壁處球狀擴張，呈投射入膀胱腔的圓形充盈缺損。[^2]
+
 ### Urothelial carcinoma（UTUC）判讀重點
 - **三種形態型態**：[^3]
   - **乳突型（papillary）**：腔內單發或多發**充盈缺損**;可見「oncocalyx」（整個 calyx 被實質組織取代而消失）或「phantom calyx」（infundibulum 阻塞致 calyx 擴張但不顯影）。
@@ -67,6 +76,10 @@ dateRev: 2026-06-29
 [^4]: AJR 文獻針對「CTU 偵測上尿路 urothelial carcinoma 是否需 nephrographic 與 excretory 雙期」之探討（*CT Urography for Diagnosis of Upper Urinary Tract Urothelial Carcinoma: Are Both Nephrographic and Excretory Phases Necessary?* AJR Am J Roentgenol. https://doi.org/10.2214/AJR.14.14075 ;Tier 1 全文付費，僅取得摘要層級，accessed 2026-06-29）：探討單一期相是否足夠;臨床實務多保留雙期以兼顧充盈缺損型與壁增厚/浸潤型病灶之偵測（摘要層級，未取全文細節）。
 [^5]: *Positive Predictive Value of CT Urography in the Evaluation of Upper Tract Urothelial Cancer*. AJR Am J Roentgenol. https://doi.org/10.2214/AJR.09.4147 （Tier 1 全文付費，僅摘要層級，accessed 2026-06-29）：76 例可疑 CTU 中 40 例病理證實 UTUC，整體 PPV 約 53%;歸類為「大腫塊」者 PPV 約 83%。
 [^6]: *Pitfalls in MDCT urography*. Applied Radiology. https://appliedradiology.com/articles/pitfalls-in-mdct-urography （Tier 2，accessed 2026-06-29）：MDCT 尿路攝影常見技術陷阱——充盈不全／輸尿管蠕動造成假性壁增厚或假性缺損、tortuous 輸尿管部分容積偽影、外在壓迫之辨識，以及利尿/水化/俯臥改善充盈。
+
+## 題目
+> [!question]- About CT urography for evaluation of the ureter, which one is correct? (2017-250)
+> **a+b+c+d（D，全對）**——CTU 可見先天異常/充盈缺損/擴張/狹窄/走行偏移;輸尿管重複為最常見泌尿道先天異常（約占人口1%）;擴張輸尿管不必然阻塞、阻塞輸尿管不必然擴張;ureterocele 為輸尿管穿膀胱壁處球狀擴張，呈投射入膀胱腔的圓形充盈缺損。[^2]
 
 ## 考題
 ```dataview
