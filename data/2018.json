@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 156,
+  "totalQuestions": 167,
   "questions": [
     {
       "id": "2018-001",
@@ -5627,6 +5627,429 @@
       "images": [],
       "concepts": [
         "wandering-spleen"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-157",
+      "year": 2018,
+      "number": 157,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列關於Dual Gradient-Echo In-Phase and Opposed-Phase Hepatic MR Imaging的敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A dual gradient-echo technique is very helpful in the visualization of T2* effects and allows to detect hemochromatosis or hemosiderosis."
+        },
+        {
+          "letter": "B",
+          "text": "The displayed intensity on opposed-phase images is the absolute value of the difference between fat and water signals. So tissue that consists of mostly fat protons (eg, subcutaneous fat) shows only little or no obvious drop in signal intensity."
+        },
+        {
+          "letter": "C",
+          "text": "Metallic objects demonstrate a larger susceptibility artifact on the image with shorter echo time."
+        },
+        {
+          "letter": "D",
+          "text": "以上敘述皆正確"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.41；RadioGraphics, Vol. 26, No. 5.",
+      "explanation": "磁化率偽影大小與 TE 成正比（Susceptibility Artifact Size ∝ TE），TE 越長偽影越大，故「較短 TE 偽影較大」為錯誤敘述。\n\n見 [[chemical-shift-artifact]]",
+      "images": [],
+      "concepts": [
+        "chemical-shift-artifact"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-158",
+      "year": 2018,
+      "number": 158,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於Small bowel obstruction (SBO)，下列敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The transition point is determined by identifying a caliber change between the dilated proximal and collapsed distal small bowel loops."
+        },
+        {
+          "letter": "B",
+          "text": "The pathognomonic CT findings of gallstone ileus are pneumobilia, ectopic gallstone and SBO."
+        },
+        {
+          "letter": "C",
+          "text": "Neoplasm could cause SBO. Small bowel involvement by metastatic cancer is more common than involvement by primary small bowel adenocarcinoma."
+        },
+        {
+          "letter": "D",
+          "text": "以上敘述皆正確"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.42；RadioGraphics, Vol. 29, No. 2.",
+      "explanation": "A/B/C 敘述皆正確：transition point 定義、gallstone ileus 三徵象、轉移癌造成 SBO 較原發小腸腺癌常見。\n\n見 [[small-bowel-obstruction-ct]]",
+      "images": [],
+      "concepts": [
+        "small-bowel-obstruction-ct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-159",
+      "year": 2018,
+      "number": 159,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Ovarian dermoid cyst 最主要的診斷依據為何種組成成份?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcification"
+        },
+        {
+          "letter": "B",
+          "text": "Adipose tissue"
+        },
+        {
+          "letter": "C",
+          "text": "Fluid"
+        },
+        {
+          "letter": "D",
+          "text": "Soft tissue"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.43；RadioGraphics, Vol. 21, No. 2.",
+      "explanation": "Dermoid cyst（成熟畸胎瘤）最主要的診斷依據為脂肪組織成分，優先於鈣化。\n\n見 [[ovarian-tumors-imaging]]",
+      "images": [],
+      "concepts": [
+        "ovarian-tumors-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-160",
+      "year": 2018,
+      "number": 160,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common ovarian malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Serous carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Mucinous carcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Clear Cell Carcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Endometrioid Carcinoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.43；RadioGraphics, Vol. 22, No. 6.",
+      "explanation": "漿液性癌（serous carcinoma）為最常見的卵巢惡性腫瘤組織型別。\n\n見 [[ovarian-tumors-imaging]]",
+      "images": [],
+      "concepts": [
+        "ovarian-tumors-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-161",
+      "year": 2018,
+      "number": 161,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "一般正常的 uterine position 為?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anteverted and anteflexed"
+        },
+        {
+          "letter": "B",
+          "text": "Retroverted and retroflexed"
+        },
+        {
+          "letter": "C",
+          "text": "Anteverted and retroflexed"
+        },
+        {
+          "letter": "D",
+          "text": "Retroverted and anteflexed"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.44；StatPearls Publishing; 2017 Nov 15.",
+      "explanation": "正常子宮位置為前傾前屈（anteverted and anteflexed）。\n\n見 [[uterine-position-and-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "uterine-position-and-sarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-162",
+      "year": 2018,
+      "number": 162,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不屬於 mixed uterine sarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Angiosarcoma"
+        },
+        {
+          "letter": "B",
+          "text": "Malignant Mixed Müllerian Tumors"
+        },
+        {
+          "letter": "C",
+          "text": "Leiomyosarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Adenosarcoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.45；Gynecol Oncol (2009), doi:10.1016/j.ygyno.2009.09.023.",
+      "explanation": "子宮肉瘤公認分類含 MMMT（carcinosarcoma）、leiomyosarcoma、adenosarcoma；angiosarcoma（血管肉瘤）並非子宮肉瘤的公認分類成員。\n\n見 [[uterine-position-and-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "uterine-position-and-sarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-163",
+      "year": 2018,
+      "number": 163,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Spontaneous abdominal hemorrhage 的原因不包含下列何者?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ruptured hepatoma"
+        },
+        {
+          "letter": "B",
+          "text": "Ruptured angiomyolipoma"
+        },
+        {
+          "letter": "C",
+          "text": "Ruptured ovarian cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Ectopic pregnancy"
+        },
+        {
+          "letter": "E",
+          "text": "以上皆是 spontaneous abdominal hemorrhage 的可能原因"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2018 交換考題 詳解 p.45；AJR October 2009, Volume 193, Number 4.",
+      "explanation": "破裂性肝癌、破裂性腎血管肌脂肪瘤、破裂性卵巢囊腫、子宮外孕破裂皆為自發性腹內出血的可能原因。\n\n見 [[spontaneous-abdominal-hemorrhage]]",
+      "images": [],
+      "concepts": [
+        "spontaneous-abdominal-hemorrhage"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-164",
+      "year": 2018,
+      "number": 164,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於 chondroblastoma，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "又叫 Codman's tumor"
+        },
+        {
+          "letter": "B",
+          "text": "為常見的 benign neoplasm"
+        },
+        {
+          "letter": "C",
+          "text": "為不常見的 benign neoplasm"
+        },
+        {
+          "letter": "D",
+          "text": "特徵為發生在 epiphysis or apophysis"
+        },
+        {
+          "letter": "E",
+          "text": "以上皆非"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.47；J Bone Joint Surg Am. 2000 Aug;82-A(8):1140-5.",
+      "explanation": "Chondroblastoma 為罕見（rare）良性軟骨源性腫瘤，非常見腫瘤。\n\n見 [[chondroblastoma]]",
+      "images": [],
+      "concepts": [
+        "chondroblastoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-165",
+      "year": 2018,
+      "number": 165,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Shoulder dislocation最常見者為anterior dislocation."
+        },
+        {
+          "letter": "B",
+          "text": "因為impaction,而造成glenoid labrum depressed fracture，形成所謂Hill-Sachs lesion."
+        },
+        {
+          "letter": "C",
+          "text": "Anterior dislocation 常合併rotator cuff injury."
+        },
+        {
+          "letter": "D",
+          "text": "The most common pathogens of osteomyelitis is S. aureus"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.47；Ann R Coll Surg Engl. 2009 Jan;91(1):2-7.",
+      "explanation": "Hill-Sachs lesion 是因肱骨頭撞擊前下盂緣造成的肱骨頭後外側壓迫骨折，非盂唇（glenoid labrum）本身的凹陷性骨折。\n\n見 [[shoulder-dislocation]]",
+      "images": [],
+      "concepts": [
+        "shoulder-dislocation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-166",
+      "year": 2018,
+      "number": 166,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Acromioclavicular joint space wider than __mm is abnormal.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2mm"
+        },
+        {
+          "letter": "B",
+          "text": "3mm"
+        },
+        {
+          "letter": "C",
+          "text": "4mm"
+        },
+        {
+          "letter": "D",
+          "text": "5mm"
+        },
+        {
+          "letter": "E",
+          "text": "6mm"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2018 交換考題 詳解 p.48；Acta Orthop Scand. 1983 Jun;54(3):431-3.",
+      "explanation": "肩鎖關節間隙 >6 mm 視為異常，提示 AC 韌帶斷裂。\n\n見 [[ac-joint-injury]]",
+      "images": [],
+      "concepts": [
+        "ac-joint-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-167",
+      "year": 2018,
+      "number": 167,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "在 odontoid fracture 分類中，何種type為unstable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "type 1"
+        },
+        {
+          "letter": "B",
+          "text": "type 2"
+        },
+        {
+          "letter": "C",
+          "text": "type 3"
+        },
+        {
+          "letter": "D",
+          "text": "a+b"
+        },
+        {
+          "letter": "E",
+          "text": "b+c"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2018 交換考題 詳解 p.48；Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 7e.",
+      "explanation": "依本題來源 Tintinalli's Emergency Medicine，Anderson-D'Alonzo type II 與 type III 皆列為 unstable（b+c）。\n\n> [!warning] 此分類與部分骨科 Tier 1 文獻（如 Acta Biomed 系列，見 [[odontoid-fracture]]）認為 type III 因骨折面積大、血供佳而相對穩定、易癒合的描述有出入，屬文獻分歧，建議對照原始考卷與兩方文獻脈絡確認。\n\n見 [[odontoid-fracture]]",
+      "images": [],
+      "concepts": [
+        "odontoid-fracture"
       ],
       "checked": false
     }

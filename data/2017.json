@@ -10184,6 +10184,240 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-284",
+      "year": 2017,
+      "number": 284,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following groups should begin screening for colorectal carcinoma at age 50?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Patients with polyposis syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Patients with family history of colon cancer"
+        },
+        {
+          "letter": "C",
+          "text": "Asymptomatic patients with no known risk factors"
+        },
+        {
+          "letter": "D",
+          "text": "Patients with prior history of colon cancer"
+        },
+        {
+          "letter": "E",
+          "text": "Patients with heme-positive stools"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GI Section Ch.48, p.375",
+      "explanation": "**一般族群（無症狀無風險因子）從50歲開始篩檢**。\n\n(A) 息肉症候群:需自青少年期即開始篩檢。\n(B) 家族史:通常提早開始。\n(C) **正解**:一般族群篩檢起始年齡。\n(D) 個人病史:依術後監測時程追蹤。\n(E) heme-positive stools:症狀性,需立即檢查。\n\n→ [[colorectal-cancer-screening]]",
+      "images": [],
+      "concepts": [
+        "colorectal-cancer-screening"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-285",
+      "year": 2017,
+      "number": 285,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is not predominantly an ileocolonic disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuberculosis"
+        },
+        {
+          "letter": "B",
+          "text": "Campylobacter"
+        },
+        {
+          "letter": "C",
+          "text": "Crohn Disease"
+        },
+        {
+          "letter": "D",
+          "text": "Giardia"
+        },
+        {
+          "letter": "E",
+          "text": "Typhlitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GI Section Ch.48, p.375",
+      "explanation": "**Giardia 主要侵犯近端小腸，非迴結腸為主**。\n\n(A) Tuberculosis、(C) Crohn Disease、(E) Typhlitis:皆好發迴結腸區域。\n(B) Campylobacter:好發右側結腸。\n(D) **正解**:Giardia侵犯近端小腸,非迴結腸。\n\n→ [[gi-infection-location-pattern]]",
+      "images": [],
+      "concepts": [
+        "gi-infection-location-pattern"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-286",
+      "year": 2017,
+      "number": 286,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning the appendix, which of the following is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Contains taeniae coli"
+        },
+        {
+          "letter": "B",
+          "text": "Most commonly retrocecal"
+        },
+        {
+          "letter": "C",
+          "text": "Directed toward the side of the ileocecal valve"
+        },
+        {
+          "letter": "D",
+          "text": "Supplied by branch of the inferior mesenteric artery"
+        },
+        {
+          "letter": "E",
+          "text": "Does not contain a serosal layer"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, GI Section Ch.48, p.378",
+      "explanation": "⚠️ 官方答案標示存疑（原標C後改註B?），依解剖教材最支持者為**Most commonly retrocecal（B，約65-70%）**。\n\n(A) 闌尾壁本身不含獨立teniae coli構造。\n(B) **正解**:retrocecal最常見位置。\n(C) 根部位於迴盲瓣下方2-3cm,非直接指向其側。\n(D) 血供來自SMA,非IMA。\n(E) 闌尾具漿膜層覆蓋。\n\n→ [[appendix-anatomy]]",
+      "images": [],
+      "concepts": [
+        "appendix-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-287",
+      "year": 2017,
+      "number": 287,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What portion of the liver is not covered by visceral peritoneum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Porta hepatis, caudal right hepatic lobe, and the bare area"
+        },
+        {
+          "letter": "B",
+          "text": "Bare area, porta hepatis, and the gallbladder bed"
+        },
+        {
+          "letter": "C",
+          "text": "Bare area, hepatic dome, and lateral segment"
+        },
+        {
+          "letter": "D",
+          "text": "Porta hepatis, hepatic dome, and gallbladder bed"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, Ch.51 Biliary System, p.387",
+      "explanation": "**未被臟層腹膜覆蓋的肝臟部位為 bare area、porta hepatis、gallbladder bed**。\n\n(A)(C)(D) 皆混入 caudal right hepatic lobe/hepatic dome/lateral segment,這些為一般表面仍被腹膜覆蓋。\n(B) **正解**。\n\n→ [[liver-peritoneal-anatomy]]",
+      "images": [],
+      "concepts": [
+        "liver-peritoneal-anatomy"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-288",
+      "year": 2017,
+      "number": 288,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What percentage of patients with acute cholecystitis have no gallstones?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10%"
+        },
+        {
+          "letter": "B",
+          "text": "20%"
+        },
+        {
+          "letter": "C",
+          "text": "30%"
+        },
+        {
+          "letter": "D",
+          "text": "40%"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Radiology: Specialty Board Review, Ch.51 Biliary System, p.397",
+      "explanation": "**急性非結石性膽囊炎占急性膽囊炎約5-10%（列在10%組距）**，好發重症加護病人。\n\n(A) **正解**。\n(B)(C)(D) 皆高估。\n\n→ [[acalculous-cholecystitis]]",
+      "images": [],
+      "concepts": [
+        "acalculous-cholecystitis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-289",
+      "year": 2017,
+      "number": 289,
+      "subspecialty": "MRI",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement about decidualized endometriotic cyst is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "All decidualized components on the wall of the endometriotic cyst is considered as low-growing component along the cystic wall or the intracystic septa"
+        },
+        {
+          "letter": "B",
+          "text": "The solid component of decidualized endometriotic cysts has higher signal intensity on T2-weighted images as compared with those associated with carcinomas"
+        },
+        {
+          "letter": "C",
+          "text": "The ectopic decidua showed significantly higher ADC value than the carcinomas"
+        },
+        {
+          "letter": "D",
+          "text": "In the setting of gynecological pathology, a number of studies have sought to differentiate benign lesions from malignant lesions, both uterine and ovarian, using DWI values as a distinguishing parameter"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；J Comput Assist Tomogr 2014;38(6):879-884",
+      "explanation": "⚠️ 官方答案為D。依所附段落，A（蛻膜化組件定義）、B（T2蛻膜化略高於惡性）、C（ADC值蛻膜化顯著高於惡性）皆為文獻支持的正確敘述。DWI高訊號本身對蛻膜化組織與惡性皆非特異，需靠ADC定量值鑑別（蛻膜化顯著較高）。D為研究背景性描述，確切被判偽理由建議醫師對照原文全段確認。\n\n→ [[decidualized-endometriotic-cyst]]",
+      "images": [],
+      "concepts": [
+        "decidualized-endometriotic-cyst"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }

@@ -71,6 +71,12 @@ dateRev: 2026-06-29
 - **Perthes 在中立位假陰性**：骨膜完整使盂唇貼回原位，需 ABER 位誘發方能顯示。[^7]
 - **luxatio erecta 勿誤判**：手臂高舉外展固定即應想到下脫位並評估神經血管與旋轉肌袖損傷。[^5]
 
+## 綜合考點（2018-159）：脫位機轉＋合併傷＋非本病相關敘述
+- **前脫位最常見**：肩關節脫位中前脫位占絕大多數（~95%），為考題「最常見脫位方向」的標準答案。[^8]
+- **Hill-Sachs 成因確認**：因肱骨頭撞擊（impaction）前下盂緣造成**肱骨頭後外側**壓迫性骨折，即 Hill-Sachs lesion——注意成因是「肱骨頭撞盂緣」，非「盂唇撞擊肱骨頭」。[^8]
+- **前脫位常合併旋轉肌袖損傷（rotator cuff injury）**：尤其中老年病人前脫位後合併肩旋轉肌袖撕裂比例高，是本病常見合併傷之一。[^8]
+- **骨髓炎最常見病原菌為金黃色葡萄球菌（S. aureus）**：此為骨髓炎（osteomyelitis）之獨立事實，與肩關節脫位機轉無直接關聯，僅為題目並列考點，非本病併發症。[^8]
+
 ### 參考來源
 [^1]: 全文已讀（開放全文）。Galvin JW, et al. *The Radiologic Evaluation and Clinical Significance of Glenohumeral Bone Loss in Anterior Shoulder Instability*. J Clin Med 2024;13(24):7708. PMC11679992. [DOI](https://doi.org/10.3390/jcm13247708)。Hill-Sachs＝後上外側壓迫；soft vs bony Bankart；Pico／best-fit circle／glenoid index；subcritical 13.5%、20–25% 閾值；glenoid track GT=0.83×D−d、on/off-track；MRA engaging 敏72%/特88%。
 [^2]: 開放全文／權威網站已讀。後脫位 AP 間接徵象 light bulb sign、rim sign（>6 mm）、trough line sign、vacant glenoid／half-moon overlap 消失；初診漏診達 50%。綜整自 *Light bulb sign*（Wikipedia/Radiopaedia 一致）與 Cisternino SJ, et al. *The trough line: a radiographic sign of posterior shoulder dislocation*. AJR Am J Roentgenol 1978;130(5):951–954. [DOI](https://doi.org/10.2214/ajr.130.5.951)（trough line 原始描述，依摘要與二手權威整理，AJR 全文未讀）。
@@ -79,6 +85,7 @@ dateRev: 2026-06-29
 [^5]: 開放全文已讀。Patel DN, et al. 與 StatPearls *Inferior Shoulder Dislocations*（NCBI Bookshelf NBK448196，accessed 2026-06-29）。手臂固定外展、肱骨幹平行肩胛棘為 pathognomonic；肱骨頭位盂下方；合併下關節囊撕裂、旋轉肌袖／大結節骨折、腋神經/腋動脈損傷。
 [^6]: 依摘要整理（未讀全文）。盂缺損量化方法與 CT/MRI 比較。Twomey-Kozak J, et al. *Comparative Analysis of 3D MRI and CT in Assessing Static Bone Loss and Dynamic Bipolar Interaction in Glenohumeral Instability*. Orthop J Sports Med 2025;13(7). PMC12290255. [DOI](https://doi.org/10.1177/23259671251343325)。3D MRI 與 3D CT 對盂/肱骨缺損、glenoid track 量測一致；10% subcritical 分層。
 [^7]: 全文已讀（開放全文）。The Radiology Assistant — *Shoulder instability*（radiologyassistant.nl，accessed 2026-06-29）。Bankart（soft/bony）、ALPSA（骨膜撕裂、內移）、Perthes（骨膜完整剝向內側、需 ABER）、GLAD（部分撕裂＋軟骨缺損）、HAGL（肱骨端撕脫）、reverse Bankart（後下 6–9 點）；Hill-Sachs 後上外側、reverse Hill-Sachs 前內側之 MRA 特徵。
+[^8]: *Ann R Coll Surg Engl*. 2009 Jan;91(1):2-7（2018 交換考題詳解 p.47 引用；Tier 2）。前脫位為肩脫位最常見型別；Hill-Sachs 為肱骨頭撞擊前盂緣之後外側壓迫性骨折；前脫位常合併旋轉肌袖損傷；骨髓炎最常見病原菌為 S. aureus（獨立事實，與脫位機轉無關）。
 
 ## 考題
 ```dataview

@@ -45,12 +45,17 @@ dateRev: 2026-07-01
 > [!note] 考點：何者「為非」？
 > 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]
 
+## Susceptibility 偽影大小與 TE 的關係（2018-153）
+- **磁化率偽影大小與 TE 成正比**：Susceptibility Artifact Size ∝ (ΔSusceptibility)·B0·TE / Bandwidth——**TE 越長，磁化率偽影越大**;故「金屬物在較短 TE 時偽影較大」為錯誤敘述（應為較長 TE 偽影較大）。[^6]
+- **縮小磁化率偽影的方法**：改變頻率/相位編碼方向（改變偽影形狀但不消除）、用**較短 TE**、改用 fast spin-echo 取代 gradient-echo、增加梯度強度、避免窄頻寬技術、變薄層厚、平行成像技術。[^6]
+
 ### 參考來源
 [^1]: MRI 化學位移假影經實際查證（accessed 2026-06-17，Radiopaedia *chemical shift artifact*）：脂水頻率差；type1 頻率編碼方向位移(各序列)、type2 反相位抵消(需脂+水)；India ink 環繞器官；hemosiderosis out-of-phase 較亮(in-phase T2*)。
 [^2]: Tier 1。Merkle EM 等，*Chemical Shift MR Imaging of the Adrenal Gland: Principles, Pitfalls, and Applications*，RadioGraphics 2016;36(2):414-432（DOI 10.1148/rg.2016150139；PubMed 26849154）＋脂水 3.5 ppm／1.5T 約 220 Hz、頻寬-像素位移換算（accessed 2026-06-29，mrimaster/mri-q chemical shift 教學頁）：化學位移成像原理、微觀脂肪反相位訊號掉落（腎上腺腺瘤、脂肪肝）、輕微掉落與早採反相位 TE 以減 T2* 等判讀陷阱。
 [^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Hood MN 等／*In-Phase and Opposed-Phase Imaging: Applications of Chemical Shift and Magnetic Susceptibility in the Chest and Abdomen*，RadioGraphics 2019;39(4)。DOI 10.1148/rg.2019180043。重點：第一型沿頻率編碼方向呈黑白帶、隨高場強與低接收頻寬加重、脂水介面（腎/腎上腺/後腹腔）標示；第二型 opposed-phase 沿脂水介面對稱黑線勾邊；化學位移頻率差 **1.5T 約 225 Hz、3T 約 450 Hz**；**Teaching Point：無反相位訊號掉落不代表無脂肪（可能是純脂肪缺水，如 adrenal myelolipoma、Modic type 2、放療後脂肪骨髓），須合併脂肪抑制與非脂肪抑制影像判讀**；Dixon 法脂肪抑制可有 fat-water swap 陷阱，三點法可改善。
 [^4]: Tier 2。Radiopaedia *black boundary artifact*（type 2 chemical shift / India ink artifact，accessed 2026-06-29）：反相位梯度迴訊、沿所有脂水介面 voxel 之黑線（不限頻率編碼方向）、與脂肪量無關、對稱環繞器官；與第一型區分。
 [^5]: Tier 2。mriquestions.com *Chemical Shift 2nd Kind* 與 radiologykey.com *Chemical Shift Type 2 Artifact*（accessed 2026-06-29）：邊界 voxel 脂水相位相反相消產生黑線、各方向對稱、用以辨識器官邊界與確認反相位影像、回到 in-phase TE 即消失、與第一型及其他黑線偽影區分。
+[^6]: *RadioGraphics*, Vol. 26, No. 5（2018 交換考題詳解 p.41 引用；Tier 1）。Dual gradient-echo IP/OOP 可顯示 T2* 效應偵測血鐵沉積症；磁化率偽影大小 ∝ TE，TE 越長偽影越大；縮小方法含改變編碼方向、縮短 TE、改用 FSE、增加梯度強度、避免窄頻寬、變薄層、平行成像。
 
 ## 考題
 ```dataview

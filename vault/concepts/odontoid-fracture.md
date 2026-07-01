@@ -55,6 +55,11 @@ same:
 > [!note] 考點：最常見的齒突骨折型?
 > **Type II（齒突基部橫向骨折）**——最常見、不穩定、易 nonunion。[^1][^4]
 
+## 何種 type 為 unstable（2018-160）
+- **Tintinalli's Emergency Medicine 教材觀點**：Type II 與 Type III 皆列為 unstable（本題官方答案 E＝b+c，即 type 2＋type 3）。[^9]
+- **與本概念上方 Tier 1 文獻觀點的差異（文獻分歧，並列供醫師參考）**：上方 Anderson-D'Alonzo 分型整理（來自 Acta Biomed 等 Tier 1 骨科/創傷文獻）認為 **Type III 因骨折面積大、血供佳而相對穩定、易癒合**，僅 Type II 為明確不穩定。急診教材（Tintinalli's）之分類可能較保守（將 Type III 亦視為潛在不穩定以策安全），與骨科文獻對「癒合率高」與「穩定度」的定義著重點不同。
+- **暫依本題來源（Tintinalli's）標記答案為 E（b+c，即 type II+III）**，惟此與骨科文獻對 Type III 穩定性之描述有出入，建議醫師對照原始考卷與兩方文獻脈絡確認採用何種分類標準作答。
+
 ### 參考來源
 [^1]: Tarantino R, et al. *Cervical spine trauma: impact of different imaging classification systems in the clinical decision-making*. Acta Biomed. 2021;92(S5):e2021434.（開放全文已讀，PMC8477063）依 PubMed：Anderson-D'Alonzo 依骨折線高度分 type I（齒突尖）、II（基部、不穩定）、III（延入 C2 體）；CT 為形態學診斷主軸、可輔以 MRI；type I 多以頸部固定處理（韌帶斷裂時走後路），type II/III 屬不穩定常需手術。[DOI](https://doi.org/10.23750/abm.v92iS5.11877)
 [^2]: Bronson WH, Protopsaltis T. *Management of Type II Odontoid Fractures in Adults*. Bull Hosp Jt Dis (2013). 2019;77(1):4-10.（依摘要未讀全文）依 PubMed：齒突骨折佔成人頸椎骨折達 20%，為 >80 歲最常見脊椎骨折；type II 為齒突 waist 骨折，處置爭議大（hard collar vs halo、前路 vs 後路、nonunion 處理）。PMID 30865859。
@@ -64,6 +69,8 @@ same:
 [^6]: *Open Mouth (Peg) Odontoid View* 與 Mach 效應假骨折——綜合公開放射教學資源（EBMconsult Open Mouth Odontoid Radiograph、RCEMLearning open-mouth peg view module、Radiopaedia "Mach effect mimicking odontoid fracture"，accessed 2026-06-29，輔助來源）：張口位正面評估齒突輪廓與 C1-C2 對位、ADI；齒突常被牙齒/枕骨/Mach 效應遮蔽，無移位骨折可能僅見於 CT；Mach 帶為枕骨/後弓重疊造成、延伸超出骨緣、無對應皮質中斷；兒童 subdental synchondrosis 邊緣規則有硬化緣勿誤判。
 [^7]: *Reliability of the STIR Sequence for Acute Type II Odontoid Fractures*. AJNR Am J Neuroradiol. 2014（PMID 24763415）.（開放全文已讀，PMC7964447）依 PubMed：STIR 偵測 type II 急性骨折在 ≥57 歲族群敏感度僅 54%（vs <57 歲 82%），骨質疏鬆者可無 STIR 高訊號；年長者 STIR 陰性不可排除急性骨折，須對照 CT 與臨床史。[DOI](https://doi.org/10.3174/ajnr.A3962)
 [^8]: Blauth M, et al. *[Operative versus non operative treatment of odontoid non unions...]*. Chirurg. 1999;70(11):1225-38.（依摘要未讀全文，德文）依 PubMed：os odontoideum 多被視為兒童 subdental synchondrosis 損傷後之 pseudarthrosis；齒突 nonunion 最重要的診斷工具為**透視下最大屈伸動態檢查**評估上頸椎不穩定。[DOI](https://doi.org/10.1007/s001040050774)
+
+[^9]: *Tintinalli's Emergency Medicine: A Comprehensive Study Guide*, 7e（2018 交換考題詳解 p.48 引用；Tier 3 教科書）。Anderson-D'Alonzo type II 與 type III 皆列為 unstable。
 
 ## 考題
 ```dataview
