@@ -48,6 +48,15 @@ dateRev: 2026-06-29
 ### RAS 病因辨異（考點）
 - **最常見 RAS 病因＝動脈粥狀硬化（~75%，部分文獻達 90%）**,非 FMD。[^3][^5]
 - **FMD 亞型**：**medial fibroplasia（中膜型）為最常見,約占 FMD 90%**,呈 string of beads;其餘為 intimal/perimedial/adventitial 等少見型。[^3][^5]
+
+### FMD 好發部位與顱內表現
+- **受累動脈依頻率**：主要為**腎動脈（~80%）**、**顱外頸內動脈（~74%）**與**椎動脈（~37%）**，其次腸繫膜動脈（~26%）、顱內頸動脈（~17%）;約65%的腎FMD病人合併頸腦血管病灶。[^6]
+- **典型影像表現＝血管迂曲（vascular loops）、紡錘狀血管擴張（fusiform vascular ectasia）與「string-of-beads」外觀**——這些是**典型（typical）**表現,並非少見。[^6]
+- **顱內FMD**：**可以蛛網膜下腔出血（SAH）表現**——但動脈剝離、動脈瘤與SAH相對而言屬**較不典型（less typical）**的影像表現（多數仍以血管迂曲/紡錘狀擴張/串珠狀為主）。[^6]
+- **腎動脈壓力測量**：可測量**腎內動脈壓力**與主動脈內壓力比較以評估狹窄嚴重度;顯著壓力差（>20 mmHg）時,高血壓可歸因於FMD病灶,可考慮腎血管成形術。[^6]
+
+> [!note] 考點：關於 fibromuscular dysplasia (FMD)，何者「有誤」?
+> 「**FMD 少以 vascular ectasia 表現**」有誤——**血管迂曲、紡錘狀血管擴張與string-of-beads為典型表現**（非少見）。好發年輕女性、最常影響腎動脈、intracranial FMD可以SAH表現（但屬較不典型）皆正確。[^6]
 - **Takayasu aortitis**：**女性為主（F:M ≈ 9:1）、好發 <50 歲（常 <40）**;為大血管炎,可累及主動脈及其分支致腎動脈開口狹窄（非男性、非 >35 歲為主）。[^5]
 - **Middle aortic syndrome（中主動脈症候群）**：為**獨立罕見病種**,好發兒童／青少年,特徵為**腹主動脈嚴重狹窄合併腎及內臟分支進行性受累**;**並非 Takayasu 的亞型**。[^5]
 
@@ -63,6 +72,11 @@ dateRev: 2026-06-29
 [^3]: 〔Tier 2〕Fibromuscular Dysplasia 文獻：Cleveland Clinic J Med 2016;83(11 suppl 2):S45；StatPearls NBK493204；Slovut DP & Olin JW（AHA scientific statement, Circulation 2014）（accessed 2026-06-29）：FMD 約占 RAS 10–20%、好發年輕女性、好發中遠段且很少侵犯開口／近端、medial fibroplasia 呈 string of beads；粥狀硬化好發開口／近端、約占 90%。
 [^4]: 〔Tier 2〕Qanadli SD, et al.（Clin Radiol 2000, *Assessment of RAS: captopril renography vs Gd-enhanced MRA*）與 AJR Doppler/scintigraphy/MRA 比較（ajronline.org 10.2214/ajr.177.5.1771123）（accessed 2026-06-29）：captopril renography 對 50–99% 狹窄敏感度約 85%／特異度約 71%、最有用處在預測血管重建獲益；gadolinium MRA 與 NSF 風險（中重度腎病、GFR ≤30）。
 [^5]: 官方 2017 詳解；Textbook of Uroradiology, 5th ed., pp.191-192：最常見 RAS 病因為粥狀硬化（~75%）;FMD 以 medial fibroplasia 最常見（~90% of FMD），呈 string of beads;Takayasu aortitis 女性為主（F:M≈9:1）、好發 <50 歲;middle aortic syndrome 為兒童／青少年之獨立病種（腹主動脈嚴重狹窄＋腎/內臟分支進行性受累），非 Takayasu 亞型。
+[^6]: 官方 2017 詳解（FMD 好發部位與顱內表現統計）：受累動脈依序腎動脈(~80%)、顱外頸內動脈(~74%)、椎動脈(~37%)、腸繫膜動脈(~26%)、顱內頸動脈(~17%);65%腎FMD合併頸腦血管病灶;典型影像為血管迂曲/紡錘狀擴張/string-of-beads;顱內FMD可以SAH表現但屬較不典型;腎內動脈壓力與主動脈壓力差>20mmHg可歸因FMD考慮血管成形術。
+
+## 題目
+> [!question]- 關於 fibromuscular dysplasia(FMD)，下列何者有誤? (2017-279)
+> 「**少以 vascular ectasia 表現（D）**」有誤——血管迂曲、紡錘狀血管擴張、string-of-beads為**典型**表現（非少見）。好發年輕女性、最常影響腎動脈、intracranial FMD可以SAH表現（但屬較不典型）皆正確。[^6]
 
 ## 考題
 ```dataview

@@ -9962,6 +9962,228 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-278",
+      "year": 2017,
+      "number": 278,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "What a bulla isn't?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gas-containing space in the lung having a wall > 1 mm thick."
+        },
+        {
+          "letter": "B",
+          "text": "Air-filled space In the lung."
+        },
+        {
+          "letter": "C",
+          "text": "Two or more are bullae."
+        },
+        {
+          "letter": "D",
+          "text": "Walls may be formed by pleura, septa,or compressed lung tissue."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.434",
+      "explanation": "**Bulla 應為薄壁(<1mm)或無明顯可辨壁，而非壁厚>1mm**。\n\n(A) **正解（非bulla的定義）**:bulla壁應<1mm或無明顯壁。\n(B) 正確:bulla本質為肺內含氣空間。\n(C) 正確:兩個以上稱bullae。\n(D) 正確:壁可由肋膜/間隔/壓縮肺組織構成。\n\n→ [[pulmonary-bulla-cyst-definitions]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-bulla-cyst-definitions"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-279",
+      "year": 2017,
+      "number": 279,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 fibromuscular dysplasia(FMD)，下列何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "好發於年輕女性"
+        },
+        {
+          "letter": "B",
+          "text": "最常影響 renal artery"
+        },
+        {
+          "letter": "C",
+          "text": "Intracranial FMD 可以SAH表現"
+        },
+        {
+          "letter": "D",
+          "text": "少以 vascular ectasia 表現"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解（FMD標準教材）",
+      "explanation": "**血管迂曲、紡錘狀血管擴張與string-of-beads為FMD的典型表現，非少見**。\n\n(A) 正確:好發年輕女性。\n(B) 正確:最常影響腎動脈。\n(C) 正確:顱內FMD可以SAH表現（雖屬較不典型）。\n(D) **有誤（正解）**:vascular ectasia為典型表現，非少見。\n\n→ [[renal-artery-stenosis]]",
+      "images": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-280",
+      "year": 2017,
+      "number": 280,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 coronary arteriovenous fistula (AVF)，下列何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "drainage site 最常為 right ventricle"
+        },
+        {
+          "letter": "B",
+          "text": "多半為 single communications"
+        },
+        {
+          "letter": "C",
+          "text": "成人多為 asymptomatic"
+        },
+        {
+          "letter": "D",
+          "text": "Left-to-right shunt ratio 與症狀無關"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解（冠狀動脈瘻管標準教材）",
+      "explanation": "**經由冠狀動脈竊血(coronary artery steal)現象，分流比例與症狀發展有關**。\n\n(A) 正確:引流最常為右心室。\n(B) 正確:多半單一交通。\n(C) 正確:成人多無症狀（兒童相對較低）。\n(D) **有誤（正解）**:分流比例與症狀有關，非無關。\n\n→ [[coronary-av-fistula]]",
+      "images": [],
+      "concepts": [
+        "coronary-av-fistula"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-281",
+      "year": 2017,
+      "number": 281,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 Standing (or Stationary) arterial wave，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "與 MR angiography 相比，較常見於 conventional angiography."
+        },
+        {
+          "letter": "B",
+          "text": "為 benign phenomenon 而無顯著臨床意義."
+        },
+        {
+          "letter": "C",
+          "text": "僅發生於下肢血管."
+        },
+        {
+          "letter": "D",
+          "text": "有時會被誤認為 fibromuscular dysplasia"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解（血管攝影標準教材）",
+      "explanation": "**多數描述於周邊動脈整體，非侷限下肢血管**。\n\n(A) 正確:較常見於conventional angiography（導管誘發機轉）。\n(B) 正確:屬良性現象，無顯著臨床意義。\n(C) **錯誤（正解）**:非僅下肢，多描述於周邊動脈。\n(D) 正確:有時被誤認為FMD。\n\n→ [[standing-arterial-wave]]",
+      "images": [],
+      "concepts": [
+        "standing-arterial-wave"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-282",
+      "year": 2017,
+      "number": 282,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 transarterial embolization (TAE) for post-partum hemorrhage (PPH) 下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bleeding sources 主要是 uterine arteries 或 ovarian arteries."
+        },
+        {
+          "letter": "B",
+          "text": "若 hysterectomy 後仍在出血, sole source 為 ovarian arteries."
+        },
+        {
+          "letter": "C",
+          "text": "使用 coils 較 gelfoam 容易失敗."
+        },
+        {
+          "letter": "D",
+          "text": "目前對 menopause 和 pregnancy 無顯著影響."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方 2017 詳解；J Vasc Interv Radiol 2011;22:169-176",
+      "explanation": "**主要出血來源為子宮動脈(uterine artery)**，卵巢/圓韌帶動脈為主要側枝吻合來源而非出血源。\n\n(A) **錯誤（正解）**:主要出血源僅為uterine artery，非uterine與ovarian arteries並列。\n(B) 正確:子宮切除後持續出血非單純卵巢動脈為唯一來源。\n(C) 正確:coils較gelfoam容易栓塞失敗。\n(D) 正確:目前對停經/懷孕無顯著不良影響。\n\n→ [[postpartum-hemorrhage-embolization]]",
+      "images": [],
+      "concepts": [
+        "postpartum-hemorrhage-embolization"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-283",
+      "year": 2017,
+      "number": 283,
+      "subspecialty": "IR",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 Deep vein thrombosis (DVT) in lower extremities 下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "男性略多於女性"
+        },
+        {
+          "letter": "B",
+          "text": "以 Catheter-directed thrombolysis 方式治療,可降低使用 thrombolytic agent 的 dosage"
+        },
+        {
+          "letter": "C",
+          "text": "進行 Catheter-directed thrombolysis 前，安裝 IVC filter 可降低 pulmonary embolism 的可能性"
+        },
+        {
+          "letter": "D",
+          "text": "postoperative patients 發生 calf vein DVT 時，需緊急以 Catheter-directed thrombolysis 治療，以降低 pulmonary embolism 的可能性"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解（下肢DVT管理標準教材）",
+      "explanation": "**Calf vein DVT屬遠端DVT，臨床意義有限**，非緊急溶栓適應症（溶栓保留給phlegmasia cerulea dolens/大範圍髂股DVT/抗凝失敗者）。\n\n(A) 正確:男性略高於女性（~18%）。\n(B) 正確:導管導引可降低溶栓劑量。\n(C) 正確:溶栓前置IVC filter可降低PE風險。\n(D) **錯誤（正解）**:calf vein DVT非緊急溶栓適應症。\n\n→ [[dvt-management-thrombolysis]]",
+      "images": [],
+      "concepts": [
+        "dvt-management-thrombolysis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
