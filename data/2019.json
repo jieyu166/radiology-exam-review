@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 151,
+  "totalQuestions": 162,
   "questions": [
     {
       "id": "2019-001",
@@ -5501,6 +5501,413 @@
       "images": [],
       "concepts": [
         "breast-tissue-echogenicity"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-152",
+      "year": 2019,
+      "number": 152,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about central neurocytoma is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usually mixed solid and cystic"
+        },
+        {
+          "letter": "B",
+          "text": "Intraventricular mass attached to septum pellucidum"
+        },
+        {
+          "letter": "C",
+          "text": "Calcification is rare"
+        },
+        {
+          "letter": "D",
+          "text": "Tumor with extraventricular extension have poorer prognosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic Imaging, Brain, P. I-6-81",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Central neurocytoma常見鈣化，並非罕見。混合囊實質、腦室內附著於透明中隔、合併腦室外延伸預後較差等敘述皆正確。詳見 [[central-neurocytoma]]。",
+      "images": [],
+      "concepts": [
+        "central-neurocytoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-153",
+      "year": 2019,
+      "number": 153,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about glutaric aciduria type 1 is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autosomal recessive"
+        },
+        {
+          "letter": "B",
+          "text": "Wide operculae and bright basal ganglia"
+        },
+        {
+          "letter": "C",
+          "text": "Normal myelination"
+        },
+        {
+          "letter": "D",
+          "text": "Early macrocephaly and late atrophy"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**（錯誤敘述）。嚴重受影響的嬰兒常合併髓鞘化延遲（delay in myelination），並非正常髓鞘化。體染色體隱性遺傳、外側裂寬大合併基底節亮訊號、早期巨頭畸形晚期腦萎縮等敘述皆正確。詳見 [[glutaric-aciduria-type1]]。",
+      "images": [],
+      "concepts": [
+        "glutaric-aciduria-type1"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-154",
+      "year": 2019,
+      "number": 154,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about traumatic carotid-cavernous fistula is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of large superior ophthalmic vein"
+        },
+        {
+          "letter": "B",
+          "text": "Enlarged extra-ocular muscles"
+        },
+        {
+          "letter": "C",
+          "text": "Slow flow fistula between cavernous ICA and sinus"
+        },
+        {
+          "letter": "D",
+          "text": "Filling of cortical veins is a sign of danger"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic Imaging, Brain, P. I-2-63",
+      "explanation": "正確答案為 **C**（錯誤敘述）。外傷性/直接型CCF為頸內動脈與海綿竇直接相通之高流速（非低流速）廔管。大靜脈曲張的上眼靜脈、眼外肌腫大、皮質靜脈填充為危險徵象等敘述皆正確。詳見 [[carotid-cavernous-fistula]]。",
+      "images": [],
+      "concepts": [
+        "carotid-cavernous-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-155",
+      "year": 2019,
+      "number": 155,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about dura A-V fistula is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of AV shunts within dura"
+        },
+        {
+          "letter": "B",
+          "text": "Carotid cavernous fistula is the most common site"
+        },
+        {
+          "letter": "C",
+          "text": "Involved dural sinus is often thrombosed"
+        },
+        {
+          "letter": "D",
+          "text": "Flow reversal in cortical veins increases risk of hemorrhage"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Diagnostic Imaging, Brain, P. I-5-9",
+      "explanation": "正確答案為 **B**（錯誤敘述）。硬腦膜動靜脈瘻管最常見部位為transverse/sigmoid sinus，並非carotid cavernous fistula。硬腦膜內AV shunts、受累靜脈竇常血栓化、皮質靜脈血流逆流增加出血風險等敘述皆正確。詳見 [[dural-avf]]。",
+      "images": [],
+      "concepts": [
+        "dural-avf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-156",
+      "year": 2019,
+      "number": 156,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about cerebral pseudoaneurysm is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Focal arterial dilatation not contained by layers of normal arterial wall"
+        },
+        {
+          "letter": "B",
+          "text": "On DSA, contrast rapidly fills and empties the aneurysmal cavity."
+        },
+        {
+          "letter": "C",
+          "text": "Trauma is the most common cause"
+        },
+        {
+          "letter": "D",
+          "text": "Treatment options include endovascular stenting and surgical occlusion"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Diagnostic Imaging, Brain, P. I-3-17",
+      "explanation": "正確答案為 **B**（錯誤敘述）。DSA上應呈延遲廓清（delayed washout），而非快速填充與排空。局部動脈擴張未被正常動脈壁包覆、外傷為最常見病因、治療含血管內支架與手術阻斷等敘述皆正確。詳見 [[cerebral-pseudoaneurysm]]。",
+      "images": [],
+      "concepts": [
+        "cerebral-pseudoaneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-157",
+      "year": 2019,
+      "number": 157,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何者有關 metachromatic leukodystrophy 描述不正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "最常見的是 late infantile variant 類"
+        },
+        {
+          "letter": "B",
+          "text": "乃先天缺乏 Arylsulfatase A 所致"
+        },
+        {
+          "letter": "C",
+          "text": "磁振造影 T2 權重影像顯示白質訊號增加"
+        },
+        {
+          "letter": "D",
+          "text": "典型白質變化會侵犯到 U fiber"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Pediatric Neuroimaging, 4th edition, pp.81-2",
+      "explanation": "正確答案為 **D**（錯誤敘述）。典型白質病變會保留（sparing）皮質下U型纖維，並非侵犯U fiber。最常見為晚期嬰兒型、先天缺乏arylsulfatase A、T2訊號增加等敘述皆正確。詳見 [[metachromatic-leukodystrophy]]。",
+      "images": [],
+      "concepts": [
+        "metachromatic-leukodystrophy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-158",
+      "year": 2019,
+      "number": 158,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "一名17歲男性癲癇發作，身體檢查發現有大片長毛的黑痣在軀幹上，眼底檢查有視神經頭水腫，電腦斷層攝影發現輕微水腦，同時有些許高密度變化在兩側內側顳葉與小腦上蚓部(superior vermis)，最可能的診斷是?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neurofibromatosis, type II"
+        },
+        {
+          "letter": "B",
+          "text": "Neurocutaneous melanosis"
+        },
+        {
+          "letter": "C",
+          "text": "Nevoid basal cell carcinoma syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Linear sebaceous nevus syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Diagnostic Imaging - Pediatric Neuroradiology, P. I-6-30",
+      "explanation": "正確答案為 **B（Neurocutaneous melanosis）**。臨床特徵（大片長毛先天性黑色素痣、癲癇、視神經頭水腫、輕微水腦）合併影像上內側顳葉與小腦上蚓部高密度變化，符合神經皮膚黑色素沉積症之典型表現，其最常見併發症即為水腦。詳見 [[neurocutaneous-melanosis]]。",
+      "images": [],
+      "concepts": [
+        "neurocutaneous-melanosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-159",
+      "year": 2019,
+      "number": 159,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "high",
+      "questionText": "有關嬰幼兒夏季腸病毒第71型感染所導致的中樞神經系統併發症，其脊髓病變所產生的acute flaccid paralysis的影像發現下列何者不正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "好發兩側posterior columns，T2顯示高訊號"
+        },
+        {
+          "letter": "B",
+          "text": "好發單側anterior horn區，T2顯示高訊號"
+        },
+        {
+          "letter": "C",
+          "text": "可發生在腹側運動神經根，T1可見神經根顯影"
+        },
+        {
+          "letter": "D",
+          "text": "可發生在兩側anterior horn區，T2顯示高訊號"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Viruses and prion in the CNS, Neuroimaging Clinics of North America, pp.123-124",
+      "explanation": "正確答案為 **A**（錯誤敘述）。腸病毒71型CNS併發症之脊髓病變典型侵犯同側前角細胞，並非兩側後柱。單側前角區T2高訊號、腹側運動神經根顯影、可發生於兩側前角區等敘述皆正確。詳見 [[ev71-cns-complications]]。",
+      "images": [],
+      "concepts": [
+        "ev71-cns-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-160",
+      "year": 2019,
+      "number": 160,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following symptoms is most common in patients with postpneumonectomy syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dyspnea and stridor."
+        },
+        {
+          "letter": "B",
+          "text": "Chest pain."
+        },
+        {
+          "letter": "C",
+          "text": "Fever."
+        },
+        {
+          "letter": "D",
+          "text": "Sudden hypotention"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics, September 2006, 26, P1449-1468",
+      "explanation": "正確答案為 **A**。肺切除術後症候群因嚴重縱膈移位造成氣管與主支氣管受壓，最常見症狀為呼吸困難與喘鳴。詳見 [[postpneumonectomy-complications]]。",
+      "images": [],
+      "concepts": [
+        "postpneumonectomy-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-161",
+      "year": 2019,
+      "number": 161,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "If air reappears in a postpneumonectomy space that was previously opaque on serial chest radiographs, which of the following complications is most likely present?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Recurrence of lung cancer"
+        },
+        {
+          "letter": "B",
+          "text": "Postpneumonectomy syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Cardiac herniation"
+        },
+        {
+          "letter": "D",
+          "text": "Bronchopleural fistula"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics, September 2006, 26, P1449-1468",
+      "explanation": "正確答案為 **D**。肺切除術後空間本應逐漸變混濁；若氣體重新出現，應高度懷疑支氣管肋膜瘻管。詳見 [[postpneumonectomy-complications]]。",
+      "images": [],
+      "concepts": [
+        "postpneumonectomy-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-162",
+      "year": 2019,
+      "number": 162,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following imaging methods is most useful for detecting or confirming the presence of an esophagopleural fistula after pneumonectomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esophagography"
+        },
+        {
+          "letter": "B",
+          "text": "Bronchoscopy"
+        },
+        {
+          "letter": "C",
+          "text": "Chest CT"
+        },
+        {
+          "letter": "D",
+          "text": "Chest radiography"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics, September 2006, 26, P1449-1468",
+      "explanation": "正確答案為 **C**。胸部電腦斷層為偵測或確認肺切除術後食道肋膜瘻管存在最有用的影像方式。詳見 [[postpneumonectomy-complications]]。",
+      "images": [],
+      "concepts": [
+        "postpneumonectomy-complications"
       ],
       "checked": false
     }
