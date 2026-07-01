@@ -68,7 +68,7 @@ dateRev: 2026-06-14
 
 ### 參考來源
 [^1]: Federle MP. *Sarcoidosis*. STATdx（Dx），updated 2025-06-11. Elsevier（實際查證 accessed 2026-06-14；noncaseating granuloma、雙側肺門淋巴結）。
-[^2]: Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512 （實際查證 accessed 2026-06-14）。
+[^2]: **Tier 1（全文已讀，本機 PDF，accessed 2026-06-14）** Criado E, Sánchez M, Ramírez J, et al. *Pulmonary Sarcoidosis: Typical and Atypical Manifestations at High-Resolution CT with Pathologic Correlation*. RadioGraphics. 2010;30(6):1567-1586. https://doi.org/10.1148/rg.306105512。
 [^3]: *Garland triad*. Radiopaedia.org（實際查證 accessed 2026-06-17）：Garland triad＝1-2-3 sign / pawnbroker's sign，**對稱性肺門 + 右 paratracheal 淋巴結腫**；CT 時代雙側肺門+縱膈腫大為常規，**左縱膈淋巴結 X 光上常被大血管遮蔽而隱匿**。
 
 ## 考題

@@ -7,7 +7,7 @@ aliases:
   - shear wave elastography
   - shear wave velocity cirrhosis
   - 肝臟彈性影像
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # liver-elastography
@@ -31,6 +31,8 @@ dateRev: 2026-06-29
 - **方法分類**：US 端有 ①**transient elastography（TE，即 vibration-controlled TE／FibroScan）**、②**point shear wave elastography（pSWE，即 ARFI）**、③**2D-SWE（supersonic shear wave）**；MR 端為 ④**MR elastography（MRE）**。四者皆量「剪力波傳播速度」反映硬度，與 strain imaging（壓縮波比較 ROI）並列為真正「測硬度」的技術。[^3][^1]
 - **單位**：SWE 結果可用 **m·s⁻¹（剪力波速度）**或 **kPa（推估之楊氏模量）**呈現，原則是「波速越快＝組織越硬（the faster, the stiffer）」。[^3]
 - **kPa 換算的陷阱（TE vs SWE 不可直接互換）**：TE/FibroScan 報的 kPa 是楊氏模量（E＝3ρc²，ρ≈組織密度），SWE 機台依廠商可顯示 m·s⁻¹ 或同樣以 E＝3ρc² 推算的 kPa；**不同方法、不同廠商的 kPa 數值切點不可直接挪用**，須以該方法／機台自身建立的切點判讀（M 與 XL probe 中位數即有差異，如 7.7 vs 7.0 kPa）。[^4][^3]
+- **MRE vs US 彈性造影單位換算（易混淆）**：**MRE 回報的是剪力模量（shear modulus, μ）；US 端（TE/pSWE/2D-SWE）回報的是楊氏模量（Young modulus, E）**；兩者關係為 **E ＝ 3μ**——故 MRE 數值不可與 US kPa 直接互換比較，須先換算或各自對應其專屬切點。[^2]
+- **ARFI 技術細節**：以 ARFI 脈衝在約 **1 cm³** 之小 ROI 內產生剪力波，B-mode 即時監測位移計算波速；SRU 共識小組建議**跨機台／跨廠牌比較時，應以 m/s（波速）為標準報告單位**，而非各家換算方式互異的 kPa。[^2]
 
 ### 量測技術要點（確保有效）
 - **TE/FibroScan**：右葉肋間掃查、避開大血管與肋骨；**至少 10 次有效量測**取中位數，品質標準為 **IQR/中位數比值 ≤ 30%**；<10 次有效或 IQR/LSM >30% 視為不可靠。肥胖者改用 **XL probe**（中心頻率 2.5 MHz、量測深度 35–75 mm；M probe 為 3.5 MHz、25–65 mm），可降低失敗率。[^4]
@@ -64,7 +66,7 @@ dateRev: 2026-06-29
 
 ### 參考來源
 [^1]: *Liver elastography*. Radiopaedia.org（摘錄 SRU 共識）。strain 與 shear wave（ARFI）兩類；ARFI 協定：禁食 4h、ROI 包膜下 1.5–2.0 cm、深度 4–4.5 cm 最佳、不深於 6–7 cm、≥5 次取中位；ARFI 閾值 <1.3 m/s 正常、>2.1 m/s（>13 kPa）提示 advanced CLD（實際查證 accessed 2026-06-15）。
-[^2]: Barr RG, Ferraioli G, Palmeri ML, et al. *Elastography Assessment of Liver Fibrosis: SRU Consensus Conference Statement*. Radiology. 2015;276(3):845-861. https://doi.org/10.1148/radiol.2015150619 （題目所引；**該文全文院內為付費牆、僅讀到摘要**，閾值與量測協定以 [^1] Radiopaedia 摘錄之同一 SRU 共識核實）。
+[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Barr RG, Ferraioli G, Palmeri ML, et al. *Elastography Assessment of Liver Fibrosis: Society of Radiologists in Ultrasound Consensus Conference Statement*. Radiology. 2015;276(3):845-861. https://doi.org/10.1148/radiol.2015150619。重點：**MRE 回報剪力模量（μ）、US 端回報楊氏模量（E），E＝3μ**，兩者不可直接互換；ARFI 於約 1 cm³ ROI 產生剪力波、B-mode 即時監測位移；SRU 共識建議跨機台比較應以 **m/s** 為標準報告單位（非各家 kPa 換算）；共識採兩切點分層（低風險免追蹤 vs 高風險晚期纖維化/肝硬化），中間值為中重度纖維化須追蹤。
 [^3]: Srinivasa Babu A, Wells ML, Teytelboym OM, et al. *Elastography in Chronic Liver Disease: Modalities, Techniques, Limitations, and Future Directions*. RadioGraphics. 2016;36(7):1987-2006. https://doi.org/10.1148/rg.2016160042 （PubMed/PMC PMC5584553；**僅讀到開放摘要、全文 PMC 未回傳內文**。引用內容——四模態分類、strain vs SWE 測硬度原理、MRE 在 precirrhotic 階段優於斷層影像、發炎／膽汁鬱積／鬱血等 confounder——為該綜述摘要明列範圍；MRE 3.5 kPa 為文獻常引切點。）
 [^4]: Xia B, Wang F, Friedrich-Rust M, et al. *Feasibility and Efficacy of Transient Elastography using the XL probe to diagnose liver fibrosis and cirrhosis*. Medicine (Baltimore). 2018;97(39):e11816. https://doi.org/10.1097/MD.0000000000011816 （PubMed/PMC **開放全文已讀** PMC6181481。TE 品質標準：10 次有效量測、IQR/LSM ≤30%；M vs XL probe 規格（3.5 MHz/25–65 mm vs 2.5 MHz/35–75 mm）與中位數差異 7.7 vs 7.0 kPa；常引切點 ≥F2 7.1、≥F3 9.5、F4 12.5 kPa；ALT flare／急性肝炎高估纖維分期。）
 [^5]: Hu Z, Wang Y, et al. *Diagnostic accuracy of spleen stiffness to evaluate portal hypertension and esophageal varices in chronic liver disease: a systematic review and meta-analysis*. Eur Radiol. 2021;31(4):2392-2404. https://doi.org/10.1007/s00330-020-07223-8 （PubMed/PMC **開放全文已讀** PMC7979650。SSM 對 CSPH 敏感度 0.85／特異度 0.86、AUC 0.92；HREV NPV 0.88；MRE 脾硬度切點 7.23 kPa、EV AUC ~0.83；引內文所述 Baveno VI TE LSM <20 kPa＋PLT >150 G/L 規則與 LSM confounder（發炎、膽汁鬱積、肝鬱血）。）

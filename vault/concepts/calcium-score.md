@@ -6,7 +6,7 @@ aliases:
   - CAC score
   - Agatston score
   - 冠狀動脈鈣化分數
-dateRev: 2026-06-14
+dateRev: 2026-07-01
 concepts: [calcium-score]
 same:
   - "[[ccta]]"
@@ -27,17 +27,20 @@ same:
 ## 方法（Agatston）
 非顯影、ECG 閘控 CT；鈣化定義為 **≥130 HU 且面積 ≥1 mm²**。Agatston 分數由「病灶面積 × 依該病灶最高 HU 之加權係數」整合而得，再加總全部冠狀動脈病灶。為最廣泛使用的計分法。[^1]
 
+**標準掃描協定**：**前瞻性 ECG 閘控**軸位 MDCT；層厚 **2.5 mm**、層距 **1 mm**；掃描範圍**主動脈弓下緣至心臟底部**；固定管電壓 **120 kVp**、管電流依 BMI 調整；重建以 2.5 mm 層厚同時取軟組織窗與肺窗。[^1]
+
 ## 風險分層與臨床應用
 - **CAC = 0**：強力負向預測（事件與疾病別死亡率低）；**CAC ≥ 400**：高風險。[^1]
 - 常用 Agatston 分層（mild / moderate / severe）：0、1–99、100–399、≥400（數值越高、斑塊負擔與風險越高）。[^1]
 - 主要定位於**無症狀**個體的風險預測與重新分層，輔助是否啟動一級預防（如 statin）的決策。[^1]
 - **重掃間隔（SCCT 指引）**：初始 CAC = 0 → 5 年後重掃；CAC > 0 → 3–5 年後重掃（在進展會改變處置時）。[^1]
+- **CAC 進展速率**：CAC 分數平均每年增加約 **20–25%**；初始 **CAC = 0** 者，約 **20%** 於 **5 年內**進展為 >0（隨年齡增加而更明顯），此為「5 年後重掃」建議之實證基礎。CAC 進展本身與心血管事件風險相關，但其預後價值是否優於單次基礎值仍有爭議、證據較弱。[^1]
 
 > [!note] CAC 與 CCTA 的關係
 > CAC 為**非顯影**鈣化定量（風險預測）；CCTA 為**顯影**管腔評估（狹窄偵測）。高 CAC（>400）的 blooming 會降低 CCTA specificity——這正是 ACCURACY trial 中「calcium >400 顯著降低 specificity」的機轉（詳見 [[ccta]]）。
 
 ### 參考來源
-[^1]: Gupta A, Bera K, Kikano E, Pierce JD, Gan J, Rajdev M, Ciancibello LM, Gupta A, Rajagopalan S, Gilkeson RC. *Coronary Artery Calcium Scoring: Current Status and Future Directions*. RadioGraphics. 2022;42(4). https://doi.org/10.1148/rg.210122 （Free Access，實際查證 accessed 2026-06-14）。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；Free Access 文章）** Gupta A, Bera K, Kikano E, Pierce JD, Gan J, Rajdev M, Ciancibello LM, Gupta A, Rajagopalan S, Gilkeson RC. *Coronary Artery Calcium Scoring: Current Status and Future Directions*. RadioGraphics. 2022;42(4). https://doi.org/10.1148/rg.210122。重點：標準協定＝前瞻性 ECG 閘控、層厚 2.5 mm／層距 1 mm、主動脈弓至心底、120 kVp；CAC 每年平均增加 20–25%，CAC=0 者約 20% 於 5 年內轉為 >0（隨年齡加劇），為重掃間隔建議之實證基礎；CAC 進展與事件風險相關但預後價值證據較弱。
 
 ## 考題
 ```dataview
