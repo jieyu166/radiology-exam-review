@@ -1,46 +1,24 @@
 {
-  "next_page": 169,
+  "next_page": 172,
   "total_pages": 183,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168],
-  "added_ids": ["2016-260","2016-261","2016-262","2016-263","2016-264","2016-265","2016-266","2016-267","2016-268","2016-269","2016-270","2016-271","2016-272","2016-273","2016-274","2016-275","2016-276","2016-277","2016-278","2016-279","2016-280","2016-281","2016-282","2016-283","2016-284","2016-285","2016-286","2016-287","2016-288"],
-  "next_id": 289,
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171],
+  "added_ids": ["2016-260","2016-261","2016-262","2016-263","2016-264","2016-265","2016-266","2016-267","2016-268","2016-269","2016-270","2016-271","2016-272","2016-273","2016-274","2016-275","2016-276","2016-277","2016-278","2016-279","2016-280","2016-281","2016-282","2016-283","2016-284","2016-285","2016-286","2016-287","2016-288","2016-289"],
+  "next_id": 290,
   "dups_skipped": [
     "p1-152見前次記錄（詳見git歷史commit b0c880a~faa5fa5之進度檔內容）",
-    "p153a=normal BPE pattern NOT(既有題)",
-    "p154a=NSF risk factor NOT(既有題)",
-    "p154b=比劑過敏可能性最高(既有題)",
-    "p155a=acute adverse reaction定義(既有題)",
-    "p155b=ureteral calculi highest sensitivity(既有題)",
-    "p156a=acute pyelonephritis most correct(既有題)",
-    "p156b=ureteral calculi spontaneous passage rate(既有題)",
-    "p157a=multiparametric prostate MRI NOT included(既有題)",
-    "p157b=Xanthogranulomatous pyelonephritis NOT common(既有題)",
-    "p158a=Mo/Mo改Rh/Rh劑量對比(既有題2016-257，英文翻譯版)",
-    "p158b=C-arm降低工作人員劑量(既有題2016-258，英文翻譯版)",
-    "p159a=四種檢查最高有效劑量(既有題)",
-    "p159b=MRI bandwidth減半SNR影響(既有題)",
-    "p160a=fatty liver incorrect(既有題)",
-    "p160b=liver/GB bile signal ratio T1WI(既有題)",
-    "p161a=colon volvulus incorrect(既有題)",
-    "p161b=congestive liver in cardiac disease NOT true(既有題)",
-    "p162a=desmoid false(既有題)",
-    "p162b=Lemierre syndrome wrong(既有題，第三版)",
-    "p163a=dual rim sign SWI(既有題)",
-    "p163b=dural sinus thrombosis有誤(既有題)",
-    "p164a=ischemic stroke NOT cause(既有題)",
-    "p165a=large pleural fluid collection newborn(既有題)",
-    "p165b=CCAM wrong(既有題)",
-    "p166a=extralobar pulmonary sequestration wrong(既有題)",
-    "p166b=amyloidosis wrong(既有題)",
-    "p167=hemophilic arthropathy NOT feature(既有題)",
-    "p168=parosteal osteosarcoma wrong(既有題)"
+    "p153-168見前次記錄（詳見commit e642345進度檔內容）",
+    "p169a=Gamekeeper Thumb NOT injured(既有題)",
+    "p169b=US elastography incorrect(既有題)",
+    "p170a=Hypertrophied column of Bertin NOT(既有題)",
+    "p171a=E.coli pathogen except(既有題)",
+    "p171b=renal AML vs retroperitoneal liposarcoma(既有題)"
   ],
   "xyear_dups_merged": [
-    "見前次記錄；批19-27無跨年併入"
+    "見前次記錄；批19-28無跨年併入"
   ],
   "fig_pages": [112],
   "flagged": [
     "2016-274：官方訂正(mucinous cystadenoma為最常見胰臟囊性腫瘤)與WebSearch查證之放射文獻(serous cystadenoma佔全部胰臟囊性病灶約16%、為最常見良性腫瘤)有出入，已於pancreatic-cystic-lesions.md加註[!warning]callout，建議醫師覆核，暫依官方答案C為預設值"
   ],
-  "notes": "批27(頁161-168)：僅1新題2016-288(CROUP敘述何者有誤，答案A:croup為聲門下病變非supraglottic，重用croup-steeple-sign概念檔)。其餘全為既有題同年重印。commit e642345。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔，一律不動。剩餘頁169-183(約15頁)為PDF最後段落，下一批預計可完成全部PDF。"
+  "notes": "批28(頁169-171)：僅1新題2016-289(cavernous hemangioma超音波表現，答案A:應well-defined homogeneous非ill-defined heterogeneous，重用hepatic-hemangioma概念檔)。其餘全為既有題同年重印。commit 95dc76c。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔，一律不動。剩餘頁172-183(約12頁)，下一批可完成全部PDF。"
 }
