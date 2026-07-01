@@ -5,7 +5,7 @@ subspecialty: [CV]
 aliases:
   - coronary artery fistula
   - 冠狀動脈瘻管
-dateRev: 2026-06-29
+dateRev: 2026-07-01
 ---
 
 # coronary-fistula
@@ -33,7 +33,7 @@ dateRev: 2026-06-29
 - **病因（先天 vs 後天）**：絕大多數為**先天性**（冠狀動脈終止異常）；**後天性**少見，可見於外傷、心肌梗塞、冠狀動脈繞道手術（CABG）或經皮冠狀動脈介入（PCI）後。[^5]
 
 ### 引流部位頻率
-引流目的地按頻率：**右心室（RV，最常）> 右心房（RA）> 肺動脈（PA）> 冠狀竇**；引流入左心室、左心房少見。[^3] 血流走向多為**左到右分流**（高壓主動脈/冠脈系統 → 低壓右側）。[^3]
+引流目的地按頻率（RG 2009 全文精確值）：**右心室 RV 41% ＞ 右心房 RA 26% ＞ 肺動脈 PA 17% ＞ 冠狀竇 CS 7% ＞ 左心房 LA 5% ＞ 左心室 LV 3% ＞ 上腔靜脈 SVC 1%**;**逾 90% 引流入靜脈（低壓）循環**。血流走向多為**左到右分流**（高壓主動脈/冠脈系統 → 低壓側）。**症狀性 CAF 多源自 RCA;無症狀性則較多源自 LCA**。[^5]
 
 ### CTA / 冠狀動脈攝影特徵
 心電圖門控心臟 CTA 因高時空解析度，已成首選非侵入性檢查；侵入性冠狀動脈攝影仍可界定瘻管起源、走行與大小。[^2][^3]
@@ -60,7 +60,7 @@ dateRev: 2026-06-29
 [^2]: 起源與分類——多源自右冠系統（~55%）、左側 35%、雙側 5%；依起源/引流/瘻管數分類；CTA 為首選非侵入檢查（RadioGraphics 2018; *Coronary Artery Fistulas: Pathophysiology, Imaging Findings, and Management*, doi:10.1148/rg.2018170158，摘要 accessed 2026-06-28，訂閱全文未登入）。
 [^3]: 引流頻率與左到右分流——~90% 引流右側結構，RV（最常）>RA>LV>LA；繞過正常微循環（StatPearls *Coronary Cameral Fistula*, NBK553211，免費全文，accessed 2026-06-28）。
 [^4]: 冠脈竊血與併發症——遠端心肌缺血致心絞痛；心衰、心律不整、心內膜炎、血栓栓塞、破裂（StatPearls *Coronary Artery Anomalies* NBK556060 及 *Coronary Cameral Fistula* NBK553211，免費全文，accessed 2026-06-28）。
-[^5]: 起源頻率（RCA 50–60%、左冠 25–42%、雙側 5%，~90% 引流右側）與先天/後天病因（後天見於外傷、MI、CABG、PCI 後）——Tier 1 RadioGraphics 2009 *Coronary Artery Fistulas: CT Findings*（doi:10.1148/rg.293085120，訂閱全文未登入，摘要與 WebSearch 摘要層級交叉比對 accessed 2026-06-29）；起源頻率並與 AJR 2014 *MDCT of Congenital Coronary Artery Fistulas*（doi:10.2214/AJR.13.12026，全文 403 未取得，摘要層級）一致。
+[^5]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** RadioGraphics 2009 *Coronary Artery Fistulas: CT Findings*（doi:10.1148/rg.293085120）。起源 RCA ~50%、LCA ~42%、雙側 ~5%（**症狀性多源 RCA、無症狀性多源 LCA**）;**逾 90% 引流入靜脈循環**;引流部位頻率 RV 41%＞RA 26%＞PA 17%＞冠狀竇 7%＞LA 5%＞LV 3%＞SVC 1%;先天為主、後天見於外傷/MI/CABG/PCI 後。並與 AJR 2014 *MDCT of Congenital Coronary Artery Fistulas*（doi:10.2214/AJR.13.12026，摘要層級）一致。
 [^6]: CPAF 於 PA-VSD 作為肺循環血流來源、須與 MAPCA 鑑別、多源自左冠（~65%）——Tier 2 *Clinical Characteristics of Coronary-to-Pulmonary Artery Fistula in Patients with Pulmonary Atresia and Ventricular Septal Defect*，PMC9867298，免費全文，accessed 2026-06-29。
 
 ## 考題
