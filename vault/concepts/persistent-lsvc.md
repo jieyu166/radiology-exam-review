@@ -56,6 +56,10 @@ dateRev: 2026-06-29
 [^5]: 同上 J Korean Soc Radiol 2022;83(4):846–860（DDx 鑑別表）。left superior intercostal vein（aortic nipple，主動脈弓後方、口徑小）／vertical vein PAPVR（向上、左主支氣管前無血管）／levoatriocardinal vein（伴左心阻塞、偏後）／pericardiophrenic vein（下行至橫膈、心臟外側）／aberrant left brachiocephalic vein（主動脈弓下方或後方、伴 TOF）。dilated coronary sinus 初看可誤為心旁腫塊。
 [^6]: Bonardi M, et al. *Unroofed coronary sinus and persistent left superior vena cava: A case report*. **J Ultrasound** 2012（PMC 開放全文）。PLSVC 直接入左心房經 unroofed coronary sinus（CS 頂壁完全缺損、RA–LA 寬通道）造成去氧血入左心房之右→左分流；風險為腦膿瘍／腦栓塞等反常栓塞，故診斷對預後重要。https://pmc.ncbi.nlm.nih.gov/articles/PMC3558062/ （accessed 2026-06-29）。
 
+## 題目
+> [!question]- 關於PLSVC,何者錯誤? (2016-270)
+> **「通常匯入left atrium」錯誤（B）**——通常經coronary sinus匯入右心房（約92%）。最常見先天胸腔靜脈異常、dilated coronary sinus線索、由left anterior/common cardinal vein未退化組成皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "persistent-lsvc")

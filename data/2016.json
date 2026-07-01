@@ -1,6 +1,6 @@
 {
   "year": 2016,
-  "totalQuestions": 269,
+  "totalQuestions": 270,
   "questions": [
     {
       "id": "2016-001",
@@ -10017,6 +10017,43 @@
       "images": [],
       "concepts": [
         "vertebrobasilar-dolichoectasia"
+      ],
+      "checked": false,
+      "years": [
+        2016
+      ]
+    },
+    {
+      "id": "2016-270",
+      "year": 2016,
+      "number": 270,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 Persistent Left superior vena cava 的敘述，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "為最常見的先天胸腔靜脈異常"
+        },
+        {
+          "letter": "B",
+          "text": "通常會匯入 left atrium (coronary sinus->right atrium(92%))"
+        },
+        {
+          "letter": "C",
+          "text": "影像上會發現 dilated coronary sinus"
+        },
+        {
+          "letter": "D",
+          "text": "由未退化之 left anterior cardinal vein 與 left common cardinal vein 所共同組成"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2016詳解；Sonavane SK, et al. Comprehensive Imaging Review of the Superior Vena Cava. RadioGraphics. 2015;35(7):1873-92",
+      "explanation": "**Persistent left SVC通常經coronary sinus匯入右心房（約92%），並非直接匯入左心房**——匯入左心房為少數情形（約8%），多合併unroofed coronary sinus才造成右向左分流。\n\n(A) 對：PLSVC為最常見的先天胸腔靜脈異常。\n(B) **錯（正解）**：通常匯入右心房（經coronary sinus，約92%），非左心房。\n(C) 對：影像上可見dilated coronary sinus為重要線索。\n(D) 對：由未退化的left anterior cardinal vein與left common cardinal vein共同組成。\n\n→ [[persistent-lsvc]]",
+      "images": [],
+      "concepts": [
+        "persistent-lsvc"
       ],
       "checked": false,
       "years": [
