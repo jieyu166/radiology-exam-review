@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 146,
+  "totalQuestions": 149,
   "questions": [
     {
       "id": "2019-001",
@@ -5316,6 +5316,117 @@
       "images": [],
       "concepts": [
         "moyamoya"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-147",
+      "year": 2019,
+      "number": 147,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following occurs when a sound wave strikes a large, smooth surface at a 90° angle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "refraction"
+        },
+        {
+          "letter": "B",
+          "text": "specular (鏡面) reflection"
+        },
+        {
+          "letter": "C",
+          "text": "Rayleigh's scatter"
+        },
+        {
+          "letter": "D",
+          "text": "nonspecular reflection"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.36",
+      "explanation": "正確答案為 **B**。聲波以90度角撞擊大而平滑的界面時發生鏡面反射（specular reflection）。詳見 [[ultrasound-reflection-scatter]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-reflection-scatter"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-148",
+      "year": 2019,
+      "number": 148,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is the most consistent predictor of turbulent flow?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Doppler shift"
+        },
+        {
+          "letter": "B",
+          "text": "resistive index"
+        },
+        {
+          "letter": "C",
+          "text": "pressure gradient"
+        },
+        {
+          "letter": "D",
+          "text": "Reynolds number"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.76",
+      "explanation": "正確答案為 **D**。雷諾數（Reynolds number）為量度慣性力與黏性力比值的無量綱量，是預測紊流最一致的指標；都卜勒偏移、阻力指數、壓力梯度皆非最佳預測指標。詳見 [[ultrasound-reflection-scatter]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-reflection-scatter"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-149",
+      "year": 2019,
+      "number": 149,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "The normal blood flow pattern in the main portal vein is described as:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "phasic"
+        },
+        {
+          "letter": "B",
+          "text": "pulsatile"
+        },
+        {
+          "letter": "C",
+          "text": "hepatofugal"
+        },
+        {
+          "letter": "D",
+          "text": "continuous"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.112",
+      "explanation": "正確答案為 **A**。正常主門脈血流為隨呼吸稍微變化的相位性（phasic）波形，方向為順行（hepatopetal），並非搏動性、逆行或連續性。詳見 [[portal-vein-doppler]]。",
+      "images": [],
+      "concepts": [
+        "portal-vein-doppler"
       ],
       "checked": false
     }
