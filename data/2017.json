@@ -8958,6 +8958,195 @@
       "years": [
         2017
       ]
+    },
+    {
+      "id": "2017-251",
+      "year": 2017,
+      "number": 251,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "All of the following are included in the Ewing sarcoma family of tumors (ESFT) EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Askin tumor."
+        },
+        {
+          "letter": "B",
+          "text": "Endothelioma of bone."
+        },
+        {
+          "letter": "C",
+          "text": "Primitive neuroectodermal tumor (PNET)."
+        },
+        {
+          "letter": "D",
+          "text": "Lymphoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65",
+      "explanation": "**Lymphoma（淋巴瘤）不屬於 Ewing sarcoma family of tumors（ESFT）**——淋巴瘤為造血系統起源，與神經外胚層/神經脊起源的 ESFT 譜系完全不同。\n\n(A) Askin tumor:胸壁的 ESFT。\n(B) Endothelioma of bone:Ewing 原始命名（曾認為源自骨血管），現視為 ESFT 譜系一員。\n(C) PNET:周邊原始神經外胚層瘤，ESFT 成員。\n(D) **Lymphoma（正解）**:非 ESFT 成員。\n\n→ [[ewing-sarcoma-family]]",
+      "images": [],
+      "concepts": [
+        "ewing-sarcoma-family"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-252",
+      "year": 2017,
+      "number": 252,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "In a Brodie abscess, there is a layer of hyperintense T1 signal peripheral to the abscess cavity. What is the term used to describe that layer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sequestrum."
+        },
+        {
+          "letter": "B",
+          "text": "Penumbra sign."
+        },
+        {
+          "letter": "C",
+          "text": "Target appearance."
+        },
+        {
+          "letter": "D",
+          "text": "Halo sign."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65",
+      "explanation": "**Penumbra sign** 即骨膿瘍四層構造中的**內環（inner ring）**，代表肉芽組織環（T1 呈肌肉樣、略高於中心膿腔的訊號；T2 低訊號）。\n\n(A) Sequestrum:死骨，非此構造。\n(B) **Penumbra sign（正解）**:膿腔周邊 T1 高訊號的肉芽組織內環。\n(C) Target appearance、(D) Halo sign:其他病灶的強化型態描述，非本題所指構造。\n\n→ [[brodie-abscess]]",
+      "images": [],
+      "concepts": [
+        "brodie-abscess"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-253",
+      "year": 2017,
+      "number": 253,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "The typical clinical course of CRMO (Chronic Recurrent Multifocal Osteomyelitis) is best characterized by which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Severe long-term sequelae are seen in most patients."
+        },
+        {
+          "letter": "B",
+          "text": "CRMO is often accompanied by fulminant systemic symptoms."
+        },
+        {
+          "letter": "C",
+          "text": "CRMO has a prolonged course with periodic exacerbations."
+        },
+        {
+          "letter": "D",
+          "text": "The predominant symptoms of CRMO are diffuse bone pain and swelling."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方 2017 詳解；Imaging of Chronic Recurrent Multifocal Osteomyelitis. AJR 2011;196:WS62-WS65",
+      "explanation": "**CRMO 典型呈長期病程合併週期性惡化**。\n\n(A) 錯:雖可致顯著病態，但非「多數病人有嚴重長期後遺症」的絕對化說法（CRMO 一般為自限性）。\n(B) 錯:全身猛爆症狀少見，非典型特徵。\n(C) **正解**:長期病程、反覆惡化緩解交替。\n(D) 錯:主症狀為**多灶性**骨痛，非彌漫性；且此描述不若「反覆惡化」精確。\n\n→ [[crmo]]",
+      "images": [],
+      "concepts": [
+        "crmo"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-254",
+      "year": 2017,
+      "number": 254,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "All of the following signs are associated with Paget disease EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blade-of-grass appearance in long bones."
+        },
+        {
+          "letter": "B",
+          "text": "Hole-within-hole appearance in long bones."
+        },
+        {
+          "letter": "C",
+          "text": "Cotton-wool appearance in the skull."
+        },
+        {
+          "letter": "D",
+          "text": "Osteoporosis circumscripta in the skull."
+        },
+        {
+          "letter": "E",
+          "text": "Ivory vertebra."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65",
+      "explanation": "**Hole-within-hole appearance 是顱骨嗜伊紅性肉芽腫（Eosinophilic Granuloma, EG）的特徵，非 Paget disease 徵象**——因病灶對顱骨內外板侵犯程度不同，造成雙重輪廓/斜邊外觀。\n\n(A) Blade-of-grass:Paget disease 長骨溶骨前緣。\n(B) **Hole-within-hole（正解）**:EG 顱骨特徵，非 Paget。\n(C) Cotton-wool:Paget disease 顱骨硬化期。\n(D) Osteoporosis circumscripta:Paget disease 顱骨溶骨早期。\n(E) Ivory vertebra:Paget disease 脊椎（非特異，也見於淋巴瘤/轉移性攝護腺癌）。\n\n→ [[paget-disease-bone]]",
+      "images": [],
+      "concepts": [
+        "paget-disease-bone"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
+    },
+    {
+      "id": "2017-255",
+      "year": 2017,
+      "number": 255,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is not correct about Rhombencephalosynapsis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Absence of the vermis and continuity of the cerebellar hemispheres, dentate nuclei, and superior cerebellar peduncles."
+        },
+        {
+          "letter": "B",
+          "text": "The most common clinical manifestations include truncal and/or limb ataxia, abnormal eye movements, head stereotypies, and delayed motor development."
+        },
+        {
+          "letter": "C",
+          "text": "The majority of patients are nonsyndromic."
+        },
+        {
+          "letter": "D",
+          "text": "It is not associated with other central nervous system anomalies."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方 2017 詳解；RadioGraphics 2015;35(1):200-220",
+      "explanation": "**Rhombencephalosynapsis 常合併其他中樞神經系統異常**，並非孤立不合併。\n\n(A) 正確:小腦蚓部缺失＋半球/齒狀核/上小腦腳融合。\n(B) 正確:典型臨床表現為共濟失調、異常眼動、頭部搖擺、動作遲緩。\n(C) 正確:多數為非症候群性（但確有部分為症候群性，如 Gómez-López-Hernández 或 VACTERL）。\n(D) **不正確（正解）**:常合併視丘融合、下丘融合、透明隔缺失、腦室擴大、顱縫早閉等其他 CNS 異常。\n\n→ [[rhombencephalosynapsis]]",
+      "images": [],
+      "concepts": [
+        "rhombencephalosynapsis"
+      ],
+      "checked": false,
+      "years": [
+        2017
+      ]
     }
   ]
 }
