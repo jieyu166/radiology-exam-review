@@ -27,9 +27,17 @@ dateRev: 2026-06-30
 > [!note] 考點：關於 Fleischner 小肺結節追蹤,何者「不正確」?
 > 「**高風險病人 ≤4 mm 結節建議 6 個月後追蹤 CT**」不正確——2005 版高風險 ≤4 mm 為 **12 個月**複查（低風險不需追蹤）。其餘大小分層建議皆正確。[^1]
 
+## ACCP 肺癌風險因子分類（Fleischner 2017 所採用）
+- **高風險因子**：**重度吸菸史**、暴露石綿/鐳/鈾、肺癌家族史、**年齡較大**、性別（女性>男性）、種族（黑人與夏威夷原住民>白人）、邊緣毛刺（marginal speculation）、**上肺葉位置（upper lobe location）**、多發性（結節數<5個時風險增加）、肺氣腫與肺纖維化（尤其IPF）。[^3]
+- **低風險因子**：**年輕**、**較少吸菸**（less smoking）。**上肺葉位置為高風險因子，並非低風險因子**——此為常見混淆點。[^3]
+
+> [!note] 考點（2019交換）：何者不屬於低風險因子?
+> **Location in upper lobe（上肺葉位置）**——依 ACCP 分類，上肺葉位置為**高風險**因子，非低風險。年輕、較少吸菸皆為低風險因子。[^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；MacMahon H et al. Guidelines for Management of Small Pulmonary Nodules Detected on CT Scans: A Statement from the Fleischner Society. **Radiology** 2005;237(2):395-400。
 [^2]: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. **Radiology** 2017;284(1):228-243（2017 更新版，門檻與規則改變）。
+[^3]: 2019 交換考詳解；MacMahon H, Naidich DP, Goo JM, Lee KS, Leung ANC, Mayo JR, Mehta AC, Ohno Y, Powell CA, Prokop M, Rubin GD, Schaefer-Prokop CM, Travis WD, Van Schil PE, Bankier AA. Fleischner Society 2017 guidelines, Radiology 2017;284(1):228-243（ACCP 風險因子分類段落）。
 
 ## 題目
 > [!question]- 關於 Fleischner 小肺結節 CT 追蹤指引,何者「不正確」? (2017-179)

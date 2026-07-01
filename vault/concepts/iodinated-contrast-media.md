@@ -34,6 +34,13 @@ same:
 - **滲透壓排序（高→低）**：iothalamate meglumine 60 (~1400) ＞ iohexol 350 (~844) ＞ iodixanol 320 (~290 ≈ 血漿)。[^1]
   > 「低滲透壓(LOCM)」是相對舊型 HOCM,**仍高於人體血漿**;只有 iso-osmolar(iodixanol)≈血漿。[^1]
 - **非離子 dimer（iodixanol）**：滲透壓最低,但**較黏(viscous)**;『不』因等滲而免除腎功能注意——**仍須注意腎功能**（Visipaque 未證實更保護腎臟）。[^1]
+- **等滲 vs 低滲對 CIN/PC-AKI 的保護力（2019交換）**：**研究未能證實靜脈注射等滲 iodixanol 對比劑，在預防 CIN 或 PC-AKI 方面，比低滲對比劑（LOCM）有明顯優勢**——「等張性含碘對比劑會比低張性對比劑有明顯更好的腎功能保護作用」為錯誤敘述。[^4]
+- **CIN 定義**：對比劑注射後 **48 小時內**，血清肌酸酐（serum creatinine）較注射前上升 **≥50%**。**CIN 最重要之危險因子為既存腎功能障礙**。目前低滲對比劑注射，除非極大劑量或用於心功能障礙患者，即使洗腎病患也通常不需因 IV 對比劑注射而在檢查後急性洗腎。[^4]
+- **延遲性皮膚不良反應（delayed cutaneous adverse events）**：iodixanol（iso-osmolar dimer）發生率略高於其他 LOCM；非離子雙體（dimeric）整體發生率高於非離子單體（monomeric）對比劑。[^4]
+
+## CIAKI（contrast-induced acute kidney injury）之預防：口服 vs 靜脈水化
+- 預防 CIAKI 之傳統指引建議以**長時間、大量生理食鹽水靜脈輸液**擴容;**靜脈輸液應於介入處置前 6–12 小時開始，並維持至處置後 4 小時**。[^5]
+- **門診病人**通常無法配合此類靜脈水化流程，可改採**口服水化（oral hydration）**;現有證據顯示口服水化**至少與靜脈生理食鹽水同樣有效**於預防 CIAKI。[^5]
 - **分布間隙（細胞外對比劑）**：[^2]
   - **靜脈注射、正常腎功能**：碘劑為**細胞外間隙(extracellular)對比劑**,two-compartment 分布於**血管內 plasma ＋ 間質 interstitium**（1+2）、**不顯著進入細胞**;經**腎絲球過濾**排泄（iodixanol ~97%/24 h）。
   - **腦血管攝影（正常 BBB）**：對比劑**僅留血管內間隙**（1）。
@@ -48,6 +55,8 @@ same:
 [^1]: *Iodinated contrast media*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**High osmolality contrast media** are approximately **five to eight times** the osmolality of serum ... ionic compounds」；「**Low osmolality contrast media** are less than three times the osmolality of serum and **preferred for intravascular and intrathecal administration** ... generally ... nonionic monomers」；「the only **iso-osmolality** contrast in use is a **non-ionic dimer** ... **iodixanol (Visipaque)**」。
 [^2]: 含碘對比劑藥動學（實際查證 accessed 2026-06-19；contrast media pharmacokinetics 文獻，ScienceDirect《Introduction to iodinated contrasts: properties, IV administration and distribution》／Kidney Int. dialysis review；Visipaque FDA label）：碘劑為**細胞外間隙(extracellular)對比劑**——two-compartment（血管內 plasma ＋ 間質 interstitium）、**不顯著進入細胞**、分布體積 ~0.26 L/kg；經**腎絲球過濾**排泄（iodixanol ~97% 於 24 h 經尿排出）。Visipaque(iodixanol) 標示「**NOT FOR INTRATHECAL USE**」。
 [^3]: 中華民國放射線醫學會《對比劑手冊》2017/2020（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]、[[2020 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）：台灣常用製劑與分類、鞘內可用之低濃度非離子單體、保存（37°C 保溫箱／庫存室溫 15–30°C）、小兒劑量（1.5–2 cc/kg）等臨床規範。
+[^4]: 2019 交換考詳解；ACR Manual on Contrast Media, Version 10.2, 2016, p.33-40：研究未證實 IV iso-osmolality iodixanol 較 IV LOCM 對 PC-AKI/CIN 有明確優勢；CIN 定義為對比劑注射後48小時內serum creatinine較注射前上升≥50%；CIN最重要危險因子為既存腎功能障礙；iso-osmolar dimer iodixanol 延遲性皮膚不良反應略高於其他LOCM，非離子雙體整體發生率高於非離子單體。
+[^5]: 2019 交換考詳解；Nat Rev Nephrol. 2017 Mar：CIAKI預防傳統指引建議長時間大量生理食鹽水靜脈輸液，介入前6-12小時開始、維持至處置後4小時；門診病人可改採口服水化，現有證據顯示口服水化至少與靜脈生理食鹽水同樣有效。
 
 ## 考題
 ```dataview

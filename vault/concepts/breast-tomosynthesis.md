@@ -23,7 +23,9 @@ dateRev: 2026-06-29
 
 ### 判讀效益
 - **提高癌偵測率**：併用 DBT 使偵測率上升——OTST 試驗 6.1→8.0/1000、STORM 試驗 5.3→8.1/1000;Oslo 試驗整體癌偵測 **+27%**、侵襲癌 **+40%**。[^2][^3]
-- **降低 recall/callback rate**：早期臨床導入觀察 callback 自 10.4%→8.8%（**約降 24%**,OR 1.24);STORM 試驗 false-positive **降 17%**;多數研究顯示 recall 明顯下降。[^2][^3]
+- **降低 recall/callback rate**：早期臨床導入觀察 callback 自 10.4%→8.8%（**約降 24%**,OR 1.24);STORM 試驗 false-positive **降 17%**;多數研究顯示 recall 明顯下降。**其中以 focal asymmetry（局部不對稱）陽性病灶的 recall rate 降幅最大**——DBT 薄層去除組織重疊，最能澄清單純因組織疊影造成的假性不對稱。[^5]
+- **判讀時間**：DBT 判讀時間約為 2D 乳房攝影之 **2 倍**（45 秒 vs 91 秒）。[^4]
+- **篩檢偵測率提升實例**：以 2D 乳房攝影每千人篩檢偵測 6.1 例乳癌為基準，併用 3D 斷層攝影可提升至約每千人 **8.0 例**（OTST 試驗數據）。[^4]
 - **緻密乳房尤佳**：傳統乳攝在緻密乳房敏感度僅約 47.8–64.4%,組織重疊掩蓋病灶;DBT 於緻密乳房偵測率**約 +29%**。[^2]
 - **架構扭曲（architectural distortion）與毛刺顯示更佳**：DBT 對「最可靠但最易漏判」的 architectural distortion 與毛刺（spiculation）/微小葉狀（microlobulation）邊緣更易見、定位更準;但須留意 **DBT 偵測之 distortion 惡性率（PPV）較低**（約 10.2% vs FFDM 偵測之 43.4%,各研究 6.8–50.7% 不等）。[^1][^2]
 - **focal asymmetry 真偽辨識、one-view 可疑病灶定位、減少額外影像需求**。[^1]
@@ -55,7 +57,8 @@ dateRev: 2026-06-29
 [^2]: （Tier 2，免費 PMC review）Gao Y, et al. *Digital Breast Tomosynthesis: an Overview*. PMC8272763（accessed 2026-06-29）：多角度 15–60° 低劑量投影重建 ~1 mm 薄層去 summation;緻密乳房偵測率 +29%;OTST 6.1→8.0、STORM 5.3→8.1/1000、STORM false-positive −17%;DBT 偵測 architectural distortion 惡性率 10.2% vs FFDM 43.4%（各研究 6.8–50.7%）;synthesized 2D 劑量降 ~45%;DBT 單獨不可靠評估微鈣化、spot magnification FFDM 仍必要;判讀時間約倍增、檔案 200–450 MB、加 2 view 劑量增約 2 倍、step-and-shoot motion artifact、手術夾 ripple/皮膚假性增厚偽影。
 [^3]: （Tier 2，免費 PMC review）Hooley RJ, et al. *Digital Breast Tomosynthesis: Lessons Learned from Early Clinical Implementation*. PMC4319526（accessed 2026-06-29）：callback 10.4%→8.8%（約 −24%,OR 1.24,P<.001）;Oslo 試驗整體癌偵測 +27%、侵襲癌 +40%;判讀時間約倍增;微鈣化偵測文獻分歧;synthesized 2D 與 DBT＋傳統 2D 準確度相當,可免額外曝照;逐層 scroll 定位病灶深度供標靶處置。
 
-[^4]: Friedewald SM, et al. *Breast Cancer Screening Using Tomosynthesis in Combination With Digital Mammography.* JAMA 2014;311(24):2499-2507（Tier 1 原始研究；2018 交換考題詳解 p.12 引用）。DBT+FFDM 併用 recall rate 10.7% vs FFDM 單獨 10.3%(p=0.26)；癌偵測率 3.8/1000 vs 1.8/1000(p=0.005)；PPV1 3.6% vs 1.8%(p=0.006)。
+[^4]: Friedewald SM, et al. *Breast Cancer Screening Using Tomosynthesis in Combination With Digital Mammography.* JAMA 2014;311(24):2499-2507（Tier 1 原始研究；2018 交換考題詳解 p.12 引用）。DBT+FFDM 併用 recall rate 10.7% vs FFDM 單獨 10.3%(p=0.26)；癌偵測率 3.8/1000 vs 1.8/1000(p=0.005)；PPV1 3.6% vs 1.8%(p=0.006)。2019 交換考詳解另引 Skaane P et al. Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56：判讀時間 45秒(2D) vs 91秒(2D+3D，約2倍)；偵測率 6.1(2D) vs 8.0(2D+3D)/1000；額外偵測25例侵襲癌（約增40%）。
+[^5]: 2019 交換考詳解；Breast Tomosynthesis E-Book, p.28：Tomosynthesis 對 focal asymmetry 陽性病灶之 recall rate 降幅最大。
 
 ## 考題
 ```dataview

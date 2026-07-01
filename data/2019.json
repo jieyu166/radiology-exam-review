@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 123,
+  "totalQuestions": 129,
   "questions": [
     {
       "id": "2019-001",
@@ -4455,6 +4455,232 @@
       "images": [],
       "concepts": [
         "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-124",
+      "year": 2019,
+      "number": 124,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "2D乳房攝影與3D乳房斷層攝影相比,3D乳房斷層攝影判讀時間為2D乳房攝影幾倍?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "時間不變"
+        },
+        {
+          "letter": "B",
+          "text": "2 倍"
+        },
+        {
+          "letter": "C",
+          "text": "3 倍"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56",
+      "explanation": "正確答案為 **B（2倍）**。研究顯示平均判讀時間為2D乳房攝影45秒，2D+3D併用為91秒，約為2D的2倍。詳見 [[breast-tomosynthesis]]。",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-125",
+      "year": 2019,
+      "number": 125,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "目前你的醫院使用2D乳房攝影篩檢, 篩檢到乳癌約每千人有6個乳癌,改用3D乳房斷層攝影後預測每千人篩檢可發現幾個乳癌?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 人"
+        },
+        {
+          "letter": "B",
+          "text": "6 人"
+        },
+        {
+          "letter": "C",
+          "text": "8 人"
+        },
+        {
+          "letter": "D",
+          "text": "10 人"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56",
+      "explanation": "正確答案為 **C（8人）**。研究顯示偵測率由2D乳房攝影每千人6.1例，提升至2D+3D併用每千人8.0例。詳見 [[breast-tomosynthesis]]。",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-126",
+      "year": 2019,
+      "number": 126,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "Tomosynthesis 最可減少何種陽性病灶的 recall rate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcifications"
+        },
+        {
+          "letter": "B",
+          "text": "Mass"
+        },
+        {
+          "letter": "C",
+          "text": "Focal asymmetry"
+        },
+        {
+          "letter": "D",
+          "text": "Architectural distortion"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Breast Tomosynthesis E-Book, Page 28",
+      "explanation": "正確答案為 **C（Focal asymmetry）**。DBT 薄層去除組織重疊影像，最能澄清單純因組織疊影造成的假性局部不對稱，故對 focal asymmetry 陽性病灶之 recall rate 降幅最大。詳見 [[breast-tomosynthesis]]。",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-127",
+      "year": 2019,
+      "number": 127,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Fleischner Society 2017 guidelines for management of incidental pulmonary nodules detected on CT images recommend that risk factors of lung cancer be assigned according to the categories proposed by the American College of Chest Physicians (ACCP). Which of the following characteristics is not associated with a low risk.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Young age"
+        },
+        {
+          "letter": "B",
+          "text": "Less smoking"
+        },
+        {
+          "letter": "C",
+          "text": "Location in upper lobe"
+        },
+        {
+          "letter": "D",
+          "text": "All above are associated with a low risk"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；MacMahon H et al. Fleischner Society 2017 guidelines. Radiology. 2017 Jul;284(1):228-243",
+      "explanation": "正確答案為 **C**。依 ACCP 肺癌風險因子分類，**上肺葉位置（upper lobe location）為高風險因子**，並非低風險因子；年輕、較少吸菸皆為低風險因子。詳見 [[fleischner-pulmonary-nodule]]。",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-128",
+      "year": 2019,
+      "number": 128,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "Oral versus intravenous fluid expansion for CIAKI (contrast induced acute kidney injury), which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Guidelines for prevention of CIAKI: volume expansion by rigid long-term saline infusions"
+        },
+        {
+          "letter": "B",
+          "text": "Intravenous infusions should start 6-12 h before the intervention and be maintained for 4 h after the intervention"
+        },
+        {
+          "letter": "C",
+          "text": "Out patient: can not undergo such protocols, oral hydration"
+        },
+        {
+          "letter": "D",
+          "text": "at least equally effective as IV saline for preventing CIAKI"
+        },
+        {
+          "letter": "E",
+          "text": "none"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；Nat Rev Nephrol. 2017 Mar",
+      "explanation": "正確答案為 **E（none，全對）**。CIAKI 預防傳統指引建議長時間大量生理食鹽水靜脈輸液擴容、應於處置前6-12小時開始並維持至處置後4小時；門診病人可改採口服水化，現有證據顯示口服水化至少與靜脈生理食鹽水同樣有效預防CIAKI。以上敘述皆正確。詳見 [[iodinated-contrast-media]]。",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-129",
+      "year": 2019,
+      "number": 129,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "有關iodinated contrast medium,以下敘述，何者有誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CIN (contrast-induced nephropathy) 一般是指在對比劑注射後，48小時內，serum creatinine上升，比注射前≥50%以上。"
+        },
+        {
+          "letter": "B",
+          "text": "等張性含碘對比劑，會比低張性對比劑，有明顯更好的腎功能保護作用"
+        },
+        {
+          "letter": "C",
+          "text": "CIN 最重要的因素，是之前就有腎功能障礙"
+        },
+        {
+          "letter": "D",
+          "text": "以目前的低張性對比劑注射，除非很大劑量、或用在有心功能障礙患者，否則，即使在洗腎的病患，也不需要因為IV對比劑注射，而必須在檢查後急洗腎。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；ACR Manual on Contrast Media - Version 10.2, 2016 pp.33-40",
+      "explanation": "正確答案為 **B**（錯誤敘述）。研究未能證實靜脈注射等滲（iso-osmolar）iodixanol對比劑，在預防CIN或PC-AKI方面，比低滲對比劑（LOCM）有明顯優勢。CIN定義（48小時內serum creatinine上升≥50%）、CIN最重要因素為既存腎功能障礙、目前低滲對比劑注射一般不需檢查後急性洗腎等敘述皆正確。詳見 [[iodinated-contrast-media]]。",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
       ],
       "checked": false
     }

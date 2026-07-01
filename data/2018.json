@@ -1519,7 +1519,8 @@
       "year": 2018,
       "number": 43,
       "years": [
-        2018
+        2018,
+        2019
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
@@ -1543,10 +1544,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "2018/2019 交換考詳解；2014 ESC Guidelines on the diagnosis and management of acute pulmonary embolism",
+      "explanation": "正確答案為 **D**。CT 上判斷高風險急性肺栓塞最準確的徵象是 **RV/LV ratio > 1.0**，反映右心室功能障礙，為預測早期死亡率最可靠之CT徵象；主肺動脈徑擴大、右室游離壁增厚（正常應<5mm）等徵象相對較不特異。詳見 [[acute-pe-ct-severity]]。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-pe-ct-severity"
+      ],
       "checked": false
     },
     {
