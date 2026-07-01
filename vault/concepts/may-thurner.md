@@ -46,12 +46,17 @@ dateRev: 2026-06-28
 - 合併急性髂股段血栓：先**導管導引溶栓**清除血栓，再放支架。[^5]
 - 追蹤可用 CTV 評估支架通暢度。[^2]
 
+## 定義題另一種問法（2018-149）
+- **「May-Thurner syndrome 是指？」四選一定義題**：正解為「**左髂總靜脈被夾於右髂總動脈與第五腰椎之間而受壓**」（與上方機轉描述一致，僅措辭不同）;其餘選項描述的是**左腎靜脈夾於 SMA 與主動脈間（nutcracker syndrome）**、**十二指腸第三段夾於 SMA 與主動脈間（SMA syndrome）**、**median arcuate ligament 壓迫腹腔動脈（median arcuate ligament syndrome）**——皆為不同的血管/腸道壓迫症候群，需與 May-Thurner 區辨。[^6]
+
 ### 參考來源
 [^1]: May-Thurner 經實際查證（accessed 2026-06-17，Radiopaedia *May-Thurner syndrome*，免費可讀）：右髂總動脈壓迫左髂總靜脈（夾於 L5 前）、內膜 spur、左下肢 DVT、好發年輕女性、靜脈支架處置。
 [^2]: Wu C-C et al., *May-Thurner Syndrome Complicated by Acute Iliofemoral Vein Thrombosis: Helical CT Venography for Evaluation of Long-Term Stent Patency*，AJR Am J Roentgenol（accessed 2026-06-28，AJRonline 摘要層級，免費）：CTV 顯示左髂總靜脈受右髂總動脈壓迫、bird's beak、評估支架長期通暢。
 [^3]: *May-Thurner syndrome* 回顧，PMC8569277（accessed 2026-06-28，PMC 全文免費）：都卜勒 phasic 變化減弱與 color mosaic、CTV 顯示骨性 spur／DVT／側枝、MRV TOF 患側內髂靜脈血流逆轉、≤65% 壓迫可見於正常人、IVUS 定位 spur 與評估支架、自膨式 nitinol 支架通暢率。
 [^4]: 影像徵象綜整（accessed 2026-06-28）：classic May-Thurner 之腔內 spur／充盈缺損、上游擴張、側枝；CT 直接徵象為左髂總靜脈夾於右髂總動脈與腰椎間呈 bird's beak、間接徵象含左下肢 DVT 與骨盆側枝（多為連通兩側內髂靜脈之水平側枝，少數椎旁垂直側枝）。來源：Radiologica knowledge base 與 wjgnet *Iliac vein compression syndrome: Clinical, imaging and pathologic findings*（摘要層級，免費）。
 [^5]: StatPearls *May-Thurner Syndrome*（NBK554377，accessed 2026-06-28，NCBI Bookshelf 全文免費）：都卜勒操作者依賴且髂段受限；CTV 敏感度／特異度 >95% 並可排除淋巴腫大／惡性／血腫；MRV 與 CTV 相當、孕期可用但壓迫可間歇；IVUS 敏感度 >98%、量化纖維化／狹窄／血栓；鑑別含惡性、淋巴腫大、血腫、子宮肌瘤、主動脈髂動脈瘤、後腹腔纖維化、骨贅；治療為氣球擴張＋靜脈支架（單純氣球不足），有血栓先導管溶栓。
+
+[^6]: *AJR* 2012;199(5)（2018 交換考題詳解 p.32 引用；Tier 1）。May-Thurner syndrome：左髂總靜脈夾於右髂總動脈與第五腰椎間受壓；與 nutcracker syndrome（左腎靜脈夾於 SMA/主動脈間）、SMA syndrome（十二指腸第三段夾於 SMA/主動脈間）、median arcuate ligament syndrome（腹腔動脈受正中弓狀韌帶壓迫）為不同壓迫症候群。
 
 ## 考題
 ```dataview

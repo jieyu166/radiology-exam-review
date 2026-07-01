@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 145,
+  "totalQuestions": 150,
   "questions": [
     {
       "id": "2018-001",
@@ -5220,6 +5220,191 @@
       "images": [],
       "concepts": [
         "adpkd-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-146",
+      "year": 2018,
+      "number": 146,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "A CT scan with findings of a 4.3 cm nodule at right upper lobe with a contralateral 2.0 cm hilar lymphadenopathy and multiple metastatic bilateral pleural nodules with bilateral pleural effusion and one metastatic nodule at left adrenal gland. Which of the following clinical TNM classification according to AJCC 8th edition is correct for the above description?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2bN2M1b"
+        },
+        {
+          "letter": "B",
+          "text": "T2aN2M1a"
+        },
+        {
+          "letter": "C",
+          "text": "T2bN3M1b"
+        },
+        {
+          "letter": "D",
+          "text": "T3N2M1b"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.26；AJCC Cancer Staging Manual 8th Edition, Lung Cancer chapter.",
+      "explanation": "4.3 cm 結節落於 >4–5cm 區間為 T2b；對側肺門淋巴結腫大依規則一律為 N3（非 N2）；雙側肋膜多發轉移結節/積液符合 M1a，另有左腎上腺單一轉移符合 M1b。\n\n> [!warning] 官方詳解本題答案欄僅標示「A C?」（存疑未定案）。依 N 分期邏輯（對側肺門淋巴結應為 N3）僅 C 選項符合；惟同時具 M1a 與 M1b 特徵時分期表未列對應單一類別,暫依此邏輯記為 C,待醫師對照原始 AJCC 8th 規則與原始考卷確認。\n\n見 [[lung-cancer-tnm-staging]]",
+      "images": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-147",
+      "year": 2018,
+      "number": 147,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "About description of pulmonary vasculitis, which one is **wrong**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Temporal (giant cell) vasculitis was classified as large vessel disease."
+        },
+        {
+          "letter": "B",
+          "text": "Behcet's Disease was classified as small vessel disease."
+        },
+        {
+          "letter": "C",
+          "text": "Wegener's Granulomatosis was also classified as immune complex associated vasculitis."
+        },
+        {
+          "letter": "D",
+          "text": "Microscopic Polyangiitis was also classified as immune complex associated vasculitis, usually P-ANCA is present in 80%"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.27；W. Richard Webb, Thoracic Imaging, 3rd edition, p.552.",
+      "explanation": "Behcet's disease 侵犯動靜脈側任何口徑血管，屬獨立的 variable vessel vasculitis 類別，非小血管疾病。\n\n見 [[pulmonary-vasculitis-classification]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-vasculitis-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-148",
+      "year": 2018,
+      "number": 148,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 CXR for acute dyspnea，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "由cardiac size, vessel distribution, pleural effusions 來區分cardiogenic 或 non cardiogenic pulmonary edema."
+        },
+        {
+          "letter": "B",
+          "text": "pneumothorax was more obvious in forced expiratory film."
+        },
+        {
+          "letter": "C",
+          "text": "CXR had important role in diagnosis of pulmonary embolism, usually abnormal."
+        },
+        {
+          "letter": "D",
+          "text": "lateral view was more sensitive than AP view to show pleural effusion."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.28；J Thorac Dis 2012;4(4):398-407.",
+      "explanation": "CXR 對肺栓塞診斷既非敏感亦非特異，不能單靠 CXR 通常異常來診斷 PE，故本敘述錯誤。\n\n見 [[chest-radiography-technique]]",
+      "images": [],
+      "concepts": [
+        "chest-radiography-technique"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-149",
+      "year": 2018,
+      "number": 149,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the standard treatment of malignant SVC syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Stenting"
+        },
+        {
+          "letter": "B",
+          "text": "Surgery"
+        },
+        {
+          "letter": "C",
+          "text": "Angioplasty"
+        },
+        {
+          "letter": "D",
+          "text": "Endovascular treatment is only undertaken with benign disease."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.31；Radiology 2013;266(3).",
+      "explanation": "血管內支架置放（stenting）為惡性 SVC 症候群的標準治療，快速緩解症狀；血管內治療亦適用於惡性病灶，非僅限良性。\n\n見 [[svc-syndrome]]",
+      "images": [],
+      "concepts": [
+        "svc-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-150",
+      "year": 2018,
+      "number": 150,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "May-Thurner syndrome means?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Entrapment of the left renal vein between the superior mesenteric artery and the aorta"
+        },
+        {
+          "letter": "B",
+          "text": "Third portion of the duodenum is compressed between the superior mesenteric artery and the aorta"
+        },
+        {
+          "letter": "C",
+          "text": "Compression of the celiac artery by the median arcuate ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Left common iliac vein is compressed between the right common iliac artery and fifth lumbar vertebra"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.32；AJR November 2012, Volume 199, Number 5.",
+      "explanation": "May-Thurner syndrome：左髂總靜脈被夾於右髂總動脈與第五腰椎間受壓。A為nutcracker syndrome、B為SMA syndrome、C為median arcuate ligament syndrome，皆為不同壓迫症候群。\n\n見 [[may-thurner]]",
+      "images": [],
+      "concepts": [
+        "may-thurner"
       ],
       "checked": false
     }
