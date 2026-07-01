@@ -26,6 +26,10 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: Webb WR, Higgins CB. *Thoracic Imaging: Pulmonary and Cardiovascular Radiology*, 3rd ed., p.552（2018 交換考題詳解 p.27 引用；Tier 3 教科書）。血管炎依血管口徑分大/中/小血管炎；Behçet's disease、Cogan's syndrome 屬獨立的 variable vessel vasculitis 類別，可侵犯動靜脈任何口徑血管。
 
+## 題目
+> [!question]- Which of following vasculitis is large-vessel involved vasculitis? (2017-315)
+> **Giant cell arteritis（B）**——大血管炎僅含Takayasu arteritis與giant cell arteritis兩者。Polyarteritis nodosa(A)屬中血管炎;Granulomatosis with polyangiitis(C)、Eosinophilic granulomatosis with polyangiitis(D)皆屬ANCA associated小血管炎。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-vasculitis-classification")
