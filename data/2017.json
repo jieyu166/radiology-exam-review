@@ -38,7 +38,7 @@
       "concepts": [
         "mammography-positioning"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-002",
@@ -112,7 +112,7 @@
       "concepts": [
         "breast-asymmetry"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-004",
@@ -149,7 +149,7 @@
       "concepts": [
         "breast-calcifications"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-005",
@@ -473,7 +473,7 @@
       "concepts": [
         "breast-mri-kinetics"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-013",
@@ -1108,7 +1108,7 @@
       "concepts": [
         "pulmonary-infection-signs"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-031",
@@ -1482,7 +1482,7 @@
       "concepts": [
         "hypertrophic-cardiomyopathy"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2017-041",
@@ -3720,7 +3720,7 @@
       "concepts": [
         "parasitic-leiomyoma"
       ],
-      "checked": false,
+      "checked": true,
       "years": [
         2017
       ]
