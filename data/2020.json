@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 188,
+  "totalQuestions": 191,
   "questions": [
     {
       "id": "2020-001",
@@ -6739,6 +6739,117 @@
       "images": [],
       "concepts": [
         "renal-aml"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-189",
+      "year": 2020,
+      "number": 189,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於Tuberculous osteomyelitis，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "早期容易以X光片診斷。"
+        },
+        {
+          "letter": "B",
+          "text": "需以Biopsy或手術確定診斷。"
+        },
+        {
+          "letter": "C",
+          "text": "有時會同時出現Tuberculous arthritis。"
+        },
+        {
+          "letter": "D",
+          "text": "晚期常需要與腫瘤做鑑別診斷。"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Tuberculous osteomyelitis. J Bone Joint Surg Br. 1997 Jul;79(4):562-6",
+      "explanation": "**早期結核性骨髓炎X光可能完全正常**，診斷常延遲（中位診斷時間報告達26.4個月），故(A)「早期容易以X光片診斷」為非。\n\n(A) **錯（正解）**：早期infection X光可能正常，非容易診斷；診斷常延遲。\n(B) 對：確定診斷需biopsy或手術取得組織培養/病理。\n(C) 對：可合併Tuberculous arthritis。\n(D) 對：晚期病灶常需與腫瘤做鑑別診斷。\n\n→ [[tuberculous-osteomyelitis]]",
+      "images": [],
+      "concepts": [
+        "tuberculous-osteomyelitis"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-190",
+      "year": 2020,
+      "number": 190,
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於Superficial thrombophlebitis，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "患處常出現紅腫熱痛。"
+        },
+        {
+          "letter": "B",
+          "text": "無顯影劑的CT常無法診斷superficial thrombophlebitis。"
+        },
+        {
+          "letter": "C",
+          "text": "US常出現淺層靜脈無法壓扁。"
+        },
+        {
+          "letter": "D",
+          "text": "在偵測Superficial thrombophlebitis時，CT優於US。"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Superficial thrombophlebitis. Radiopaedia. Henry Knipe and Dr Bruno",
+      "explanation": "**偵測表淺血栓性靜脈炎時，US為標準檢查方式，並非CT優於US**，故(D)為非。\n\n(A) 對：患處典型表現為紅腫熱痛（tender erythematous areas）。\n(B) 對：無顯影劑CT常無法診斷此病灶。\n(C) 對：US可見無法壓扁(incompressible)、曲張之表淺靜脈，伴管腔內回音與周圍脂肪層回音增強。\n(D) **錯（正解）**：US優於CT，非CT優於US。\n\n→ [[superficial-thrombophlebitis]]",
+      "images": [],
+      "concepts": [
+        "superficial-thrombophlebitis"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-191",
+      "year": 2020,
+      "number": 191,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following disease is NOT shown as multifocal hypointense foci on T2* GRE images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cavernous malformations"
+        },
+        {
+          "letter": "B",
+          "text": "Diffuse axonal injury"
+        },
+        {
+          "letter": "C",
+          "text": "Neurofibromatosis type I"
+        },
+        {
+          "letter": "D",
+          "text": "Cerebral amyloid angiopathy"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解",
+      "explanation": "**T2* GRE多發低訊號焦點(microbleeds)之常見病因為cavernous malformations(Zabramski type IV)、diffuse axonal injury、慢性高血壓性腦病變、cerebral amyloid angiopathy；neurofibromatosis type I並非此類典型病因**，故(C)為正解。\n\n(A) 錯：cavernous malformations為T2* GRE多發低訊號焦點常見病因（Zabramski type IV）。\n(B) 錯：diffuse axonal injury為常見病因之一。\n(C) **對（正解）**：neurofibromatosis type I並非T2* GRE多發低訊號焦點之典型病因。\n(D) 錯：cerebral amyloid angiopathy為常見病因之一。\n\n→ [[cerebral-microbleeds]]",
+      "images": [],
+      "concepts": [
+        "cerebral-microbleeds"
       ],
       "checked": false,
       "years": [
