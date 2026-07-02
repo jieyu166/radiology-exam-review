@@ -1,5 +1,5 @@
 {
-  "next_page": 261,
+  "next_page": 269,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -262,7 +262,15 @@
     258,
     259,
     260,
-    261
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269
   ],
   "added_ids": [
     "2020-186",
@@ -404,9 +412,17 @@
     "2020-322",
     "2020-323",
     "2020-324",
-    "2020-325"
+    "2020-325",
+    "2020-326",
+    "2020-327",
+    "2020-328",
+    "2020-329",
+    "2020-330",
+    "2020-331",
+    "2020-332",
+    "2020-333"
   ],
-  "next_id": 326,
+  "next_id": 334,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -512,7 +528,8 @@
     "2020-133(既有題，非本次新增)：json中correctAnswer為C，但本次於p87讀到之PDF該頁標示答案為4(D)並自行加註「都對?????」表達不確定。json現有答案C與PDF頁面標示的D不一致，且PDF本身對自己標示的D也表達存疑。本次僅為同年重印dedup比對，未修改既有json內容，僅記錄於此供醫師覆核（可能兩者皆非最終正確答案，或PDF本身有勘誤）。",
     "2020-220(pilocytic astrocytoma)：官方詳解答案欄標示「A (D?)」，表達對是否應為D之不確定；選項A與D依參考文獻皆為正確敘述，已於pilocytic-astrocytoma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-229(Lisfranc fracture-dislocation)：官方詳解答案欄標示「C (B的描述也不很正確?)」，對選項B用詞是否精確表達存疑，已於lisfranc-injury.md加註[!warning]callout建議醫師覆核，暫依官方標示C為預設值",
-    "2017-168/SCIWORA跨年答案矛盾：詳見xyear_dups_merged說明，2017官方答案A vs 2020重印版官方答案D，已於sciwora.md加註[!warning]callout，暫依2017年A為預設值，強烈建議醫師覆核"
+    "2017-168/SCIWORA跨年答案矛盾：詳見xyear_dups_merged說明，2017官方答案A vs 2020重印版官方答案D，已於sciwora.md加註[!warning]callout，暫依2017年A為預設值，強烈建議醫師覆核",
+    "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批33(頁254-261)：8題候選，2題同年重印(p257=2020-134 Pia-arachnoid enhancement/IIH；p258=2020-135 ring-enhancing lesion filling-in/cerebritis vs abscess)，6題真新題(2020-320~325)：254距骨無肌肉肌腱附著(新建talus-anatomy概念檔)、255壞死性筋膜炎CT定性徵象=氣體沿筋膜追蹤合併液體聚積(新建necrotizing-fasciitis-imaging概念檔)、256續發性骨肉瘤與Paget氏病相關(重用paget-disease-bone概念檔新增段落)、259年輕成人自發性顱內出血最常見病因=血管畸形(新建spontaneous-ich-young-adults概念檔，與既有hypertensive-hemorrhage概念檔以[[]]互相參照)、260-261咽後間隙正常內容物(不含唾液腺)與咽後間隙水腫相關因素(內頸靜脈栓塞/放療/鄰近發炎)(新建retropharyngeal-space概念檔，一檔涵蓋兩題)。totalQuestions(2020)已更新為325。commit 8332c9d(批33內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p262開始，先用render腳本產生頁面PNG。目前進度約65.6%(261/398頁)。累計本session已處理139個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批34(頁262-269)：8題候選皆為真新題(2020-326~333)，皆與心臟CV/GU創傷相關。262冠狀動脈易損斑塊常規血管攝影多無法顯示(重用ccta.md新增段落)、263 Agatston鈣化評分門檻應為130HU非120HU(重用calcium-score.md新增題目)、264 ARVC MRI診斷依據(重用arrhythmogenic-rv-dysplasia.md新增題目)、265惡性冠狀動脈異常定義不含single left coronary artery(重用acaos.md新增段落)、266 TOF為右到左分流非左到右(重用tetralogy-of-fallot.md新增題目)、267傳統vs CT膀胱攝影選擇/268合併膀胱尿道損傷(皆重用bladder-injury-ct-cystography.md新增兩段落)、269陰囊創傷(新建scrotal-trauma.md，官方詳解自身對TRUE/FALSE問法存疑已加[!warning]callout)。totalQuestions(2020)已更新為333。commit f87dcda(批34內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樔另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p270開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約67.6%(269/398頁)。累計本session已處理147個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
 }
