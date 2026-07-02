@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 308,
+  "totalQuestions": 312,
   "questions": [
     {
       "id": "2020-001",
@@ -11262,6 +11262,158 @@
       "images": [],
       "concepts": [
         "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-309",
+      "year": 2020,
+      "number": 309,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "For coronary magnetic resonance (MR) angiography, data are typically obtained over several cardiac cycles. To freeze cardiac motion, it is desirable to obtain image data during a very short time period within each cycle. What would the optimal time for data collection be?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "75 ms after the QRS"
+        },
+        {
+          "letter": "B",
+          "text": "Early systole"
+        },
+        {
+          "letter": "C",
+          "text": "Early diastole"
+        },
+        {
+          "letter": "D",
+          "text": "Mid diastole"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Seifarth H, Wienbeck S, Pusken M, Juergens KU, Maintz D, Vahlhaus C, Heindel W, Fischbach R. Optimal systolic and diastolic reconstruction windows for coronary CT angiography using dual-source CT. AJR Am J Roentgenol. 2007;189:1317-1323.",
+      "explanation": "多數低至中等心率病人，舒張中期(mid diastole)為心臟週期最平靜之時相，最適合凍結心臟運動、獲取影像資料。",
+      "images": [],
+      "concepts": [
+        "coronary-mra-technique"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-310",
+      "year": 2020,
+      "number": 310,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements is correct regarding the usefulness of CMR coronary angiography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is indicated to assess for significant CAD"
+        },
+        {
+          "letter": "B",
+          "text": "It is indicated for screening of subclinical atherosclerosis"
+        },
+        {
+          "letter": "C",
+          "text": "It has high sensitivity but low–moderate specificity for detection of proximal and mid-significant CAD in selected individuals"
+        },
+        {
+          "letter": "D",
+          "text": "It is not useful for assessment of coronary anomalies"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Jahnke C, Paetsch I, Nehrke K, Schnackenburg B, Gebker R, Fleck E, et al. Rapid and complete coronary arterial tree visualization with magnetic resonance imaging: Feasibility and diagnostic performance. Eur Heart J. 2005;26:2313-9.",
+      "explanation": "冠狀動脈MRA對偵測近端/中段顯著CAD於選定族群中呈現高敏感度但中低特異度(約94%/57%)。並非適用於評估顯著CAD之常規指標(CT較適用)、亦非次臨床動脈粥狀硬化篩檢工具；對冠狀動脈異常評估則有其角色(非無用)。",
+      "images": [],
+      "concepts": [
+        "coronary-mra-technique"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-311",
+      "year": 2020,
+      "number": 311,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "The etiology of enlargement of main pulmonary artery includes",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pulmonary arterial hypertension"
+        },
+        {
+          "letter": "B",
+          "text": "Congenital absent pulmonary valve"
+        },
+        {
+          "letter": "C",
+          "text": "Absence of left pericardium"
+        },
+        {
+          "letter": "D",
+          "text": "Aneurysm of pulmonary artery"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Webb, W.R., & Higgins, C.B. (2005). Thoracic imaging: pulmonary and cardiovascular radiology. USA: LWW, pp. 675.",
+      "explanation": "肺動脈高壓、先天性肺動脈瓣缺失、左側心包缺如、肺動脈瘤皆為主肺動脈擴大之已知病因。",
+      "images": [],
+      "concepts": [
+        "pulmonary-artery-enlargement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-312",
+      "year": 2020,
+      "number": 312,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About anomalous origin of the coronary artery from the opposite sinus (ACAOS), which one is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ACAOS takes one of the following courses to reach its dependent myocardial territory: interarterial, transseptal (or subpulmonic), retroaortic, and prepulmonic."
+        },
+        {
+          "letter": "B",
+          "text": "An interarterial course is the abnormality most consistently associated with sudden cardiac death."
+        },
+        {
+          "letter": "C",
+          "text": "Right ACAOS is more commonly associated with sudden cardiac death than left ACAOS"
+        },
+        {
+          "letter": "D",
+          "text": "Slitlike orifice, acute angle of origin, and intramural segment are anatomic features that confer a higher risk of sudden cardiac death."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Anomalous Coronary Arteries That Need Intervention: Review of Pre- and Postoperative Imaging Appearances, RadioGraphics 2017; 37:740-757",
+      "explanation": "實際上左側ACAOS與猝死關聯性較強，右側雖較常見(約為左側3倍)但關聯性較弱，故(C)不正確。走行路徑分四類、interarterial course最一致相關於SCD、高風險解剖特徵(裂縫狀開口/銳角起源/管壁內走行段)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "acaos"
       ],
       "checked": false
     }

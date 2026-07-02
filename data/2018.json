@@ -1900,7 +1900,9 @@
       "reference": "",
       "explanation": "- A. Right ACAOS 比 left ACAOS常見，和sudden cardiac death(SCD)關連較低。\n\t- Right-ACAOS: 0.92% incidence; Left-ACAOS: 0.15%. (Total incidence: 1.07% for ACAOS)\n\t- 64 cardiac deaths, 21 (33%) were related to left-ACAOS and that no other CAAs resulted in cardiac death.\nCirculation. 2007;115:1296–1305\n- B. **Malignant** abnormalies (SCD↑):\n\t- ALCAPA/ARCAPA(Anomalous LCA/RCA from PA)\n\t- **Interarterial** course(Aorta, PA之間)\n\t- **Intramural** course(在aorta壁裡)\n- C. Retroaortic, prepulmonic, **septal(subpulmonic)** ... 都是 benign\n- D. can be...當然可以",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acaos"
+      ],
       "checked": false
     },
     {
