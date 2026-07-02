@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 340,
+  "totalQuestions": 344,
   "questions": [
     {
       "id": "2020-001",
@@ -12450,6 +12450,154 @@
       "images": [],
       "concepts": [
         "pediatric-bone-graft-posttreatment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-341",
+      "year": 2020,
+      "number": 341,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is most likely finding of Wernicke encephalopathy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Always associated with alcohol abuse"
+        },
+        {
+          "letter": "B",
+          "text": "T2-weighted and FLAIR hyperintensities and restricted diffusion at unilateral thalamus"
+        },
+        {
+          "letter": "C",
+          "text": "Post-contrast enhancement at bilateral mammillary bodies in T1-weighted image"
+        },
+        {
+          "letter": "D",
+          "text": "T2-weighted and FLAIR hyperintensities at bilateral insular cortex"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, Radiographics. 2019 Oct;39(6):1672-1695",
+      "explanation": "韋尼克氏腦病(WE)急性期常見雙側對稱T2WI/FLAIR高訊號合併擴散受限，約50%病例可見顯影劑後強化，好發於乳頭體(60%)、內側視丘(85%)、下視丘、頂蓋板與導水管周圍灰質(2/3病例)及殼核；乳頭體之顯影劑後T1強化為其較具特徵性表現。WE並非皆與酒精濫用相關(近50%與酒精無關，可見於孕吐、化療、飲食障礙、減重手術等次發性營養不良)，故A錯；病灶多雙側對稱(非單側視丘)，故B錯；雙側腦島皮質非WE典型部位，故D錯。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-342",
+      "year": 2020,
+      "number": 342,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is wrong about osmotic demyelination syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Commonly symmetric lesion involved oligodendrocytes-rich sites, such as the brainstem region, pons"
+        },
+        {
+          "letter": "B",
+          "text": "Extra-pontine involvement at bilateral corticospinal tracts is also common"
+        },
+        {
+          "letter": "C",
+          "text": "Only extra-pontine involvement can also be found"
+        },
+        {
+          "letter": "D",
+          "text": "Classical MRI finding is trident-shaped lesion at central pons"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, Radiographics. 2019 Oct;39(6):1672-1695",
+      "explanation": "滲透壓性脫髓鞘症候群(ODS)最常見腦橋外(extra-pontine)侵犯部位為基底核、視丘與大腦半球白質(常對稱)，經典病灶特徵性地保留皮質脊髓徑(corticospinal tract)區域與腦橋周邊，並非侵犯雙側皮質脊髓徑，故B敘述錯誤。經典病灶好發少突膠質細胞豐富部位(如腦橋)呈對稱性；亦可僅見腦橋外侵犯(無腦橋病灶)；經典MRI表現為中央腦橋三叉戟狀(trident-shaped)病灶，A/C/D皆正確。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-343",
+      "year": 2020,
+      "number": 343,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About posterior reversible encephalopathy syndrome(PRES), which is less likely description?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common caused by hypoxia or toxic induced cellular edema, mainly involving gray matter"
+        },
+        {
+          "letter": "B",
+          "text": "Common involving parieto-occipital lobes"
+        },
+        {
+          "letter": "C",
+          "text": "Superior frontal sulcus can also be involvement"
+        },
+        {
+          "letter": "D",
+          "text": "Possible progression to subarachnoid hemorrhage"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, Radiographics. 2019 Oct;39(6):1672-1695",
+      "explanation": "PRES主要因血壓調節失能或毒性作用致血管源性水腫(vasogenic edema)，主要侵犯**白質**（非灰質），皮質與皮質下區域皆可受累，故A敘述錯誤。常見侵犯頂枕葉(parieto-occipital，最典型，約90%)、額上溝型(superior frontal sulcus pattern，約70%)，並可能進展為蜘蛛膜下腔出血，B/C/D皆正確。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-344",
+      "year": 2020,
+      "number": 344,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which condition would most likely find unilateral basal ganglions lesion in brain MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "57 years old woman with chronic kidney disease and uremia"
+        },
+        {
+          "letter": "B",
+          "text": "50 years old woman with cirrhosis, presented with acute hyperammonemia and conscious change"
+        },
+        {
+          "letter": "C",
+          "text": "70 years old man with poor controlled type 2 diabetes mellitus, presented with involuntary movements"
+        },
+        {
+          "letter": "D",
+          "text": "40 years man with alcohol abuse, presented with ocular dysfunction and ataxia"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, Radiographics. 2019 Oct;39(6):1672-1695",
+      "explanation": "第二型糖尿病控制不良合併非自主運動(舞蹈症)之病患，MRI呈現**單側紋狀體(unilateral striatum)T1高訊號**，為糖尿病性紋狀體病變(diabetic striatopathy)之特徵表現。尿毒症/慢性腎病(A)、急性高血氨腦病(B)、酒精濫用合併眼球運動障礙與共濟失調(D，Wernicke encephalopathy)皆非典型單側基底核病灶表現。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
       ],
       "checked": false
     }
