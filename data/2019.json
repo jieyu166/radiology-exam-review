@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 394,
+  "totalQuestions": 406,
   "questions": [
     {
       "id": "2019-001",
@@ -14330,6 +14330,451 @@
       "images": [],
       "concepts": [
         "clippers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-433",
+      "year": 2019,
+      "number": 433,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a classic diagnosis of \"Hair on ends\" appearance of skull bone?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thalassemia"
+        },
+        {
+          "letter": "B",
+          "text": "Osteosarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "Sickle cell disease"
+        },
+        {
+          "letter": "D",
+          "text": "Leukemic infiltration"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Expert DDx Brain and Spine 2009 1st ed, Section 1, p6-7",
+      "explanation": "正確答案為 **B**。Osteosarcoma 的 hair-on-end（sunburst）periosteal reaction 出現在長骨，不是頭骨 hair-on-end 外觀的典型診斷。Hair-on-end skull 見於 thalassemia、sickle cell、leukemia 等。詳見 [[hair-on-end-skull]]。",
+      "images": [],
+      "concepts": [
+        "hair-on-end-skull"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-435",
+      "year": 2019,
+      "number": 435,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is wrong about fibrous dysplasia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiographs depict a well-circumscribed lucent lesion in the metaphysis or diaphysis with a ground-glass appearance"
+        },
+        {
+          "letter": "B",
+          "text": "The most common benign rib lesion"
+        },
+        {
+          "letter": "C",
+          "text": "MRI is the best technique for characterizing fibrous dysplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Periosteal reaction is usually not present unless it is associated with a pathologic fracture"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics 2015; 35:2049-2052",
+      "explanation": "正確答案為 **C**。CT 比 MRI 更適合用於 FD 的影像診斷，因為 CT 能更清楚顯示 ground-glass matrix 及骨骼形態。MRI 在 FD 的 signal 變化多樣，難以做出特異性診斷。詳見 [[fibrous-dysplasia]]。",
+      "images": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-436",
+      "year": 2019,
+      "number": 436,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "About elbow ultrasound, which one of the following is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The lacertus fibrosus extends from the myotendinous junction of the distal biceps to the medial deep fascia of the forearm"
+        },
+        {
+          "letter": "B",
+          "text": "The lacertus fibrosus covers the ulnar nerve and the brachial artery and its function is to keep the biceps tendon in the appropriate position"
+        },
+        {
+          "letter": "C",
+          "text": "The distal portion of the biceps tendon is covered by an extrasynovial paratenon and by the bicipitoradial bursa"
+        },
+        {
+          "letter": "D",
+          "text": "This bicipitoradial bursa is normally not visible at US unless distended with fluid effusion"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology 2015 Jun;275(3):636-50",
+      "explanation": "正確答案為 **B**。Lacertus fibrosus 覆蓋的是 **median nerve** 與 brachial artery，非 ulnar nerve。詳見 [[elbow-us-anatomy]]。",
+      "images": [],
+      "concepts": [
+        "elbow-us-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-438",
+      "year": 2019,
+      "number": 438,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "About hand and wrist imaging, which one of the following is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scaphoid fractures represent about 70% of all carpal fractures, dividing into stable and unstable fractures, which is important to define surgical and nonsurgical treatment"
+        },
+        {
+          "letter": "B",
+          "text": "Scaphoid tubercle fractures and incomplete waist fractures are stable"
+        },
+        {
+          "letter": "C",
+          "text": "Comminuted fractures, fracture-dislocations, oblique distal pole fractures, proximal pole fractures, and complete/displaced waist fractures are all considered unstable"
+        },
+        {
+          "letter": "D",
+          "text": "Ligament injuries can lead to progressive instability and further deterioration of the wrist joint; Scapholunate dissociation, resulting from injury of the lunotriquetral ligament is the most common form of carpal instability"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiology 2016 Jun;279(3):674-92",
+      "explanation": "正確答案為 **D**。Scapholunate dissociation 源自 **scapholunate ligament** 損傷，非 lunotriquetral ligament。詳見 [[carpal-instability]]。",
+      "images": [],
+      "concepts": [
+        "carpal-instability"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-439",
+      "year": 2019,
+      "number": 439,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "診斷腎血管肌肉脂肪瘤最可靠的影像工具是？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT"
+        },
+        {
+          "letter": "B",
+          "text": "MRI"
+        },
+        {
+          "letter": "C",
+          "text": "Ultrasound"
+        },
+        {
+          "letter": "D",
+          "text": "Angiography"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Textbook of Uroradiology v4, 2008, p154",
+      "explanation": "正確答案為 **A**。CT 是診斷 renal AML 最可靠的工具，可偵測腫瘤內 macroscopic fat（<-10 HU）。\n\n> [!warning] 爭議答案\n> 答題卷標示 A (or B?)，部分來源認為 MRI 的 chemical shift 對 fat-poor AML 更敏感，但 CT 仍為首選標準工具。\n\n詳見 [[renal-angiomyolipoma]]。",
+      "images": [],
+      "concepts": [
+        "renal-angiomyolipoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-440",
+      "year": 2019,
+      "number": 440,
+      "years": [
+        2016,
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "下列有關 renal oncocytoma 之相關敘述，何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "為良性腫瘤"
+        },
+        {
+          "letter": "B",
+          "text": "較好發於男性"
+        },
+        {
+          "letter": "C",
+          "text": "在電腦斷層上，常可看到腫瘤內有 central stellate scar"
+        },
+        {
+          "letter": "D",
+          "text": "此 central stellate scar 的影像特徵，並未見於 renal cell carcinoma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Textbook of Uroradiology v4, 2008, p137",
+      "explanation": "正確答案為 **D**。Central stellate scar 也可見於 RCC（尤其是 chromophobe RCC），並非 oncocytoma 獨有，影像上無法單靠 scar 鑑別。詳見 [[renal-oncocytoma]]。",
+      "images": [],
+      "concepts": [
+        "renal-oncocytoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-441",
+      "year": 2019,
+      "number": 441,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "下列有關 sporadic renal angiomyolipoma 之敘述，何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "較好發於男性"
+        },
+        {
+          "letter": "B",
+          "text": "約百分之五的腫瘤，在電腦斷層上無法認出腫瘤內所含之脂肪"
+        },
+        {
+          "letter": "C",
+          "text": "大多數病人有明顯症狀"
+        },
+        {
+          "letter": "D",
+          "text": "在超音波上，大多為低回音性實質腫瘤"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Textbook of Uroradiology v4, 2008, p153-154",
+      "explanation": "正確答案為 **B**。約 5% 的 AML 為 fat-poor type，CT 無法偵測 macroscopic fat。A 錯（女性好發 F:M=2-4:1）、C 錯（多無症狀）、D 錯（多為高回音 hyperechoic）。詳見 [[renal-angiomyolipoma]]。",
+      "images": [],
+      "concepts": [
+        "renal-angiomyolipoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-442",
+      "year": 2019,
+      "number": 442,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "下列有關 tuberous sclerosis complex 之描述，何者為誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "約百分之八十的病人，有腎臟血管肌肉脂肪瘤"
+        },
+        {
+          "letter": "B",
+          "text": "常伴隨 renal cysts"
+        },
+        {
+          "letter": "C",
+          "text": "好發於女性"
+        },
+        {
+          "letter": "D",
+          "text": "通常兩側腎臟皆有病灶"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Textbook of Uroradiology v4, 2008, p153",
+      "explanation": "正確答案為 **C**。TSC 為 autosomal dominant，男女比例相當，無明顯性別差異。詳見 [[renal-aml-tuberous-sclerosis]]。",
+      "images": [],
+      "concepts": [
+        "renal-aml-tuberous-sclerosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-443",
+      "year": 2019,
+      "number": 443,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "在判定攝護腺癌之腫瘤局部分期（T staging）上，以下影像工具何者最有用？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TRUS (transrectal ultrasound)"
+        },
+        {
+          "letter": "B",
+          "text": "CT"
+        },
+        {
+          "letter": "C",
+          "text": "MRI"
+        },
+        {
+          "letter": "D",
+          "text": "PET"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Textbook of Uroradiology v4, 2008, p342",
+      "explanation": "正確答案為 **C**。MRI（尤其 mpMRI）為攝護腺癌局部分期（T staging）最佳影像工具，可評估 extracapsular extension、seminal vesicle invasion 等。詳見 [[prostate-mpmri]]。",
+      "images": [],
+      "concepts": [
+        "prostate-mpmri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-444",
+      "year": 2019,
+      "number": 444,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following imaging finding and description about Sclerosing Angiomatoid Nodular Transformation (SANT) is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SANT is a benign vascular lesion consisting of multiple angiomatoid nodules surrounded by dense fibrous tissue that often coalesces centrally to form a scar"
+        },
+        {
+          "letter": "B",
+          "text": "Usually isointense on T1-weighted images and hypointense on T2-weighted images"
+        },
+        {
+          "letter": "C",
+          "text": "Most of them have heterogeneous hypo-enhancement during the arterial and portal venous phases of contrast-enhanced CT or MRI, with peripheral enhancing radiating lines"
+        },
+        {
+          "letter": "D",
+          "text": "They show progressive enhancement and are isoenhancing or hyperenhancing in the delayed phase. A hyper-enhancing central scar may be present."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Rachel B. Lewis, AJR:200, April 2013",
+      "explanation": "正確答案為 **D**。SANT 的 central scar 在延遲期為 **hypoenhancing**（spoke wheel pattern + central hypoenhancing stellate scar），非 hyperenhancing。詳見 [[sant-spleen]]。",
+      "images": [],
+      "concepts": [
+        "sant-spleen"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-445",
+      "year": 2019,
+      "number": 445,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何者為 Radiologic sign of pneumoperitoneum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rigler sign"
+        },
+        {
+          "letter": "B",
+          "text": "Football sign"
+        },
+        {
+          "letter": "C",
+          "text": "Ligamentum teres sign"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆是"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiology Review Manual 7th ed, p771-772",
+      "explanation": "正確答案為 **D**。Rigler sign（double wall sign）、football sign、ligamentum teres sign 都是 pneumoperitoneum 的放射學徵象。詳見 [[pneumoperitoneum-signs]]。",
+      "images": [],
+      "concepts": [
+        "pneumoperitoneum-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-446",
+      "year": 2019,
+      "number": 446,
+      "years": [
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "以下關於彈性影像(elastography)於 chronic liver disease 的敘述何者為錯？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caudate lobe 寬度和右肝寬度的比值大於 0.65 對偵測 liver cirrhosis 的特異性等於 100%"
+        },
+        {
+          "letter": "B",
+          "text": "目前常用於量化 fibrosis 的影像工具為 US elastography 和 MR elastography"
+        },
+        {
+          "letter": "C",
+          "text": "US elastography 的 fibrosis cut-off value 不會隨超音波機器廠牌而改變，因為 fibrosis 的超音波特性是一樣的"
+        },
+        {
+          "letter": "D",
+          "text": "Elastography 無法判別 liver cirrhosis 的病理成因"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics 2016; 36:1987-2006",
+      "explanation": "正確答案為 **C**。US elastography 的 fibrosis cut-off value **會因超音波機器廠牌不同而改變**，各家設備的 shear wave speed 測量有差異，不可直接互換。詳見 [[liver-elastography]]。",
+      "images": [],
+      "concepts": [
+        "liver-elastography"
       ],
       "checked": false
     }
