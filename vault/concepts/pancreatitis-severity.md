@@ -71,6 +71,10 @@ dateRev: 2026-06-29
 [^5]: Mortelé KJ 等（modified CTSI）;經 Mathai 等．**Cureus** 2024 復現之 mCTSI 計分表（PMC11015064 開放全文，accessed 2026-06-29）：胰發炎 0/2/4＋壞死 0/2/4＋**extrapancreatic complications 2（胸水、腹水、血管、實質、GI 任一）**＝/10;輕 0–2／中 4–6／重 7–10。
 [^6]: 急性胰臟炎血管併發症（**脾動脈/GDA 假性動脈瘤、脾/門靜脈栓塞、出血**）影像特徵與 CTA 敏感度/特異度 ~94%/90%、DSA 為金標準兼治療——綜整自 KJR 2012;13(S1):S45（*Vascular Complications of Pancreatitis: Role of Interventional Therapy*，開放全文）與 PMC 個案系列（accessed 2026-06-29）。
 
+## 題目
+> [!question]- Which statement of acute pancreatitis is wrong? (2018-026)
+> **Modified CT severity score > 8 points indicate moderate severity（A）**——modified CTSI 8-10分為**重度(severe)**，非中度；中度為4-6分。兩型含間質水腫型與壞死型(B對)、成因含膽結石/酗酒/代謝異常/特發性(C對)皆為正確描述。[^5]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatitis-severity")

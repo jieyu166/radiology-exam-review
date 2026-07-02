@@ -46,6 +46,9 @@ same:
 [^3]: *ACR Manual on Contrast Media*, page 36（2018 交換考題詳解 p.101 引用；Tier 1 指引）。AKIN診斷標準：腎毒性事件後48小時內，肌酸酐絕對值上升≥0.3 mg/dL、或相對上升≥50%(≥1.5倍基礎值)、或尿量≤0.5 mL/kg/hr達6小時以上，符合任一項即成立。
 
 ## 題目
+> [!question]- Which one is the predisposing factor of contrast-induced nephropathy? (2018-393)
+> **All of above（D）**——congestive heart failure（心衰竭致腎灌流下降）、liver cirrhosis（肝硬化）、dehydration（脫水/血容量不足）皆為CIN之易感因子(併既存腎功能不全為最重要因子)。[^1][^2]
+
 > [!question]- 關於含碘對比劑腎病變(contrast-induced nephropathy)，以下何者錯誤? (2018-369)
 > **透析且無尿的受檢者接受含碘對比劑不會有額外腎損傷風險，但受檢後需緊急洗腎（C）**——前半正確(透析無尿者無殘餘腎功能可損)，但「受檢後需緊急洗腎」**錯誤**：透析無尿病人接受一般劑量IV含碘對比劑通常**不需**因此急性/緊急洗腎。CIN因對比劑致腎功能變差病生理不清(A對)、正常腎功能常規劑量(<300ml或<90g碘)劑量與毒性無相關(B對)、大量高滲透壓對比劑可致透析無尿者全身/肺水腫(D對)、CIN診斷為施打3天內Cr增加0.5mg/dL(E對)皆為正確描述。[^1]
 
