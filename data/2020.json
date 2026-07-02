@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 312,
+  "totalQuestions": 319,
   "questions": [
     {
       "id": "2020-001",
@@ -11414,6 +11414,265 @@
       "images": [],
       "concepts": [
         "acaos"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-313",
+      "year": 2020,
+      "number": 313,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About \"intramural blood pool\" in aortic intramural hematoma, which is CORRECT",
+      "options": [
+        {
+          "letter": "A",
+          "text": "it is hypothesized to be result from tearing of intima"
+        },
+        {
+          "letter": "B",
+          "text": "its prognosis is similar to the ulcer-like projection"
+        },
+        {
+          "letter": "C",
+          "text": "it rarely presents as multiple lesions"
+        },
+        {
+          "letter": "D",
+          "text": "this term is relatively new, recently defined in 2011."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiology 2011, Mar. https://doi.org/10.1148/radiol.10101270",
+      "explanation": "IBP一詞於2011年才正式定義，故(D)正確。IBP假說為主動脈壁剪力撕裂所致(非單純內膜撕裂)、與ULP預後不同(非相似)、可多發並非罕見。",
+      "images": [],
+      "concepts": [
+        "aortic-intramural-hematoma-ibp"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-314",
+      "year": 2020,
+      "number": 314,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About beyond prostate adenocarcinoma, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most sarcomas appear as well-circumscribed masses that are homogeneously hypointense on T1WI, and heteogenous on T2WI, and enhance avidly after contrast material administration."
+        },
+        {
+          "letter": "B",
+          "text": "Paragangliomas can be distinguished from adenocarcinoma on the basis of their T2 signal intensity, because adenocarcinoma is T2 hypointense."
+        },
+        {
+          "letter": "C",
+          "text": "Bladder cancer is the most common carncer to involve the prostate because of its proximity to the prostate gland."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiographics 2016; 36: 1055-1075",
+      "explanation": "多數肉瘤呈邊界清楚、T1均質低訊號、T2異質且明顯強化；副神經節瘤可藉T2訊號較高(腺癌低訊號)與MIBG閃爍攝影與腺癌鑑別；膀胱癌因解剖鄰近是最常侵犯攝護腺之腫瘤，皆正確。",
+      "images": [],
+      "concepts": [
+        "prostate-secondary-involvement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-315",
+      "year": 2020,
+      "number": 315,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About locally advanced and metastatic RCC, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RCC has been reported to metastasize to any part of the human body, including scalp, oral cavity, thyroid, and testis, etc.."
+        },
+        {
+          "letter": "B",
+          "text": "RCC is characterized by tumor heterogeneity, a phenomenon in which different clones of cells with specific genomic alterations coexist in primary tumor and possibly even metastases."
+        },
+        {
+          "letter": "C",
+          "text": "As with most malignancies, the time of greatest risk for recurrence of RCC is early after treatment, with the midian time to relapse within 1-2 years after surgery.."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiographics. 2019;39:998-1016",
+      "explanation": "RCC可轉移至任何部位(含頭皮/口腔/甲狀腺/睪丸)、具高度腫瘤異質性(不同基因變異細胞株可共存於原發與轉移病灶)、復發風險最高於治療後早期(中位復發時間術後1-2年內)，皆正確。",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-316",
+      "year": 2020,
+      "number": 316,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About CT cystography for suspicion of traumatic UB injury, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Understanding the indications and optimal protocol for CT cystography in the acute traumatic setting is critical for efficient and accurate diagnosis ."
+        },
+        {
+          "letter": "B",
+          "text": "Prior to performing CT cystography, first check urethral injury prior to Foley catheter placement."
+        },
+        {
+          "letter": "C",
+          "text": "Type 3 UB injury shows focal contrast extravasation near UB, but without extension into the intra- or extraperitoneal spaces."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiographics. 2018;38:92-93",
+      "explanation": "了解適應症與最佳規範至關重要、應先排除尿道損傷再置Foley導尿管、Type 3損傷為局部對比劑貫穿但未延伸腹膜腔內外空間，A/B/C皆正確，故答案為D(none of the above)。",
+      "images": [],
+      "concepts": [
+        "bladder-injury-ct-cystography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-317",
+      "year": 2020,
+      "number": 317,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About renal cell carcinoma staging, which is Stage T3c?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tumor invades beyond gerota fascia"
+        },
+        {
+          "letter": "B",
+          "text": "Tumor extends into ipsilateral adrenal gland"
+        },
+        {
+          "letter": "C",
+          "text": "Tumor grossly extends into the vena cava above diaphragm"
+        },
+        {
+          "letter": "D",
+          "text": "Tumor grossly extends into the renal vein or its segmental branches"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging Oncology, 5-16",
+      "explanation": "T3c定義為侵犯橫膈以上下腔靜脈或下腔靜脈管壁。侵犯超過Gerota筋膜為T4；侵犯同側腎上腺亦屬T4；侵犯腎靜脈或其節段分支為T3a。",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-318",
+      "year": 2020,
+      "number": 318,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "\"anteater sign\" is tarsal coalition sign, and It showed:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcaneonavicular coalition"
+        },
+        {
+          "letter": "B",
+          "text": "Talocalcaneal Coalition"
+        },
+        {
+          "letter": "C",
+          "text": "Cubonavicular coalition"
+        },
+        {
+          "letter": "D",
+          "text": "Talonavicular Coalition"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Radiographics. 2000;20:321-332",
+      "explanation": "anteater sign為跟骨前突延長形似食蟻獸長吻部，為calcaneonavicular coalition之特徵性側位X光間接徵象。",
+      "images": [],
+      "concepts": [
+        "tarsal-coalition-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-319",
+      "year": 2020,
+      "number": 319,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which structure may cause Pronator Syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A+B"
+        },
+        {
+          "letter": "B",
+          "text": "A+B+C"
+        },
+        {
+          "letter": "C",
+          "text": "B+D"
+        },
+        {
+          "letter": "D",
+          "text": "B+C"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Imaging of the Musculoskeletal System - Compressive and Entrapment Neuropathies of the Upper and Lower Extremities",
+      "explanation": "Ligament of struthers與supracondylar process(A+B)為Pronator Syndrome最主要致病結構，常合併出現。Ganglion cyst at spinoglenoid notch(C)造成肩胛上神經壓迫、thickened cubital tunnel retinaculum(D)造成尺神經肘隧道處壓迫，皆非旋前肌症候群之致病結構。",
+      "images": [],
+      "concepts": [
+        "pronator-syndrome"
       ],
       "checked": false
     }
