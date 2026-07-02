@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 420,
+  "totalQuestions": 430,
   "questions": [
     {
       "id": "2019-001",
@@ -15310,6 +15310,325 @@
         "ipf"
       ],
       "checked": false
+    },
+    {
+      "id": "2019-461",
+      "year": 2019,
+      "questionText": "According to the ACR BI-RADS 5th edition, which morphology of the suspicious calcifications has the highest PPV (70%)?",
+      "options": [
+        {
+          "text": "Fine pleomorphic",
+          "letter": "A"
+        },
+        {
+          "text": "Amorphous",
+          "letter": "B"
+        },
+        {
+          "text": "Fine-linear or fine-linear branching",
+          "letter": "C"
+        },
+        {
+          "text": "Coarse heterogeneous",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "根據 ACR BI-RADS 第 5 版，Fine-linear or fine-linear branching calcifications 的 PPV 最高（約 70%），分類為 BI-RADS 4C。",
+      "subspecialty": "BR",
+      "code": "MG",
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "source": "ACR BI-RADS atlas 5th edition"
+    },
+    {
+      "id": "2019-462",
+      "year": 2019,
+      "questionText": "Which one of the following statements is wrong?",
+      "options": [
+        {
+          "text": "Fine pleomorphic calcifications are distinguished from fine-linear and fine-linear branching forms by the absence of fine-linear particles.",
+          "letter": "A"
+        },
+        {
+          "text": "Fine pleomorphic calcifications vary in size and shape and are usually less than 0.5 mm in diameter.",
+          "letter": "B"
+        },
+        {
+          "text": "Fine pleomorphic calcifications should be placed in BI-RADS assessment category 4C.",
+          "letter": "C"
+        },
+        {
+          "text": "Fine pleomorphic calcifications are usually more conspicuous than amorphous forms.",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Fine pleomorphic calcifications 在 BI-RADS 第 5 版中應歸類為 4B（而非 4C）。4C 是 fine-linear/fine-linear branching 的分類。",
+      "subspecialty": "BR",
+      "code": "MG",
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "source": "ACR BI-RADS atlas 5th edition"
+    },
+    {
+      "id": "2019-463",
+      "year": 2019,
+      "questionText": "Which of the following distributions has the highest likelihood of malignancy?",
+      "options": [
+        {
+          "text": "Diffuse",
+          "letter": "A"
+        },
+        {
+          "text": "Regional",
+          "letter": "B"
+        },
+        {
+          "text": "Grouped",
+          "letter": "C"
+        },
+        {
+          "text": "Linear",
+          "letter": "D"
+        },
+        {
+          "text": "Segmental",
+          "letter": "E"
+        }
+      ],
+      "answer": "E",
+      "explanation": "Segmental distribution 代表鈣化沿一支乳管分布，惡性機率最高，提示 DCIS 或 segmental 分布的惡性病變。",
+      "subspecialty": "BR",
+      "code": "MG",
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "source": "ACR BI-RADS atlas 5th edition"
+    },
+    {
+      "id": "2019-464",
+      "year": 2019,
+      "questionText": "依據 ACR Practice Guideline for Imaging Pregnant Women(2008)，在胚胎劑量多少以下，於器官生成過程中，胚胎無死亡或重大異常之風險?",
+      "options": [
+        {
+          "text": "無論劑量高低，皆無風險",
+          "letter": "A"
+        },
+        {
+          "text": "5 mGy",
+          "letter": "B"
+        },
+        {
+          "text": "50 mGy",
+          "letter": "C"
+        },
+        {
+          "text": "500 mGy",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "依 ACR 指引，胚胎劑量低於 50 mGy 時，在器官生成過程中被歸類為 low risk，無死亡或重大畸形風險。",
+      "subspecialty": "RP",
+      "anatomy": "DR",
+      "code": "OT",
+      "concepts": [
+        "radiation-dose-pregnancy"
+      ],
+      "source": "Walter Huda, Review of radiologic physics. 4th Ed., Lippincott Williams & Wilkins, 2016. P.69"
+    },
+    {
+      "id": "2019-465",
+      "year": 2019,
+      "questionText": "若將 MRI 掃描程序中 NEX (number of excitation)設為 4，則影像訊雜比(SNR)會變為 __倍，掃描時間會變為____倍。二個空格依次為下列何者?",
+      "options": [
+        {
+          "text": "4;4",
+          "letter": "A"
+        },
+        {
+          "text": "4;2",
+          "letter": "B"
+        },
+        {
+          "text": "2;4",
+          "letter": "C"
+        },
+        {
+          "text": "2;2",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "SNR 正比於 √NEX，故 NEX=4 時 SNR 變為 √4=2 倍；掃描時間正比於 NEX，故變為 4 倍。答案為 2;4。",
+      "subspecialty": "RP",
+      "anatomy": "DR",
+      "code": "MR",
+      "concepts": [
+        "mri-snr"
+      ],
+      "source": "Bushberg 3rd Ed., P.460-461; Walter Huda 4th Ed., P.231-232"
+    },
+    {
+      "id": "2019-466",
+      "year": 2019,
+      "questionText": "有關 coronary artery aneurysm(CAA)之敘述，下列何者為非?",
+      "options": [
+        {
+          "text": "Atherosclerotic disease is the most common and accounts for at least 50% of CAAs diagnosed in adults.",
+          "letter": "A"
+        },
+        {
+          "text": "The most common vasculitis to cause acquired CAAs is Kawasaki disease.",
+          "letter": "B"
+        },
+        {
+          "text": "Congenital CAAs may be associated with other abnormalities, such as a coronary artery fistula.",
+          "letter": "C"
+        },
+        {
+          "text": "Mycotic CAAs are frequently associated with sepsis, bacteremia, or endocarditis, and Epstein-Barr virus is reported to be the most common cause.",
+          "letter": "D"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Mycotic CAAs 最常見的原因是細菌感染（bacterial agents），而非 Epstein-Barr virus。EBV 屬病毒感染，在免疫缺陷患者中可見，但並非 mycotic CAA 最常見病因。",
+      "subspecialty": "CV",
+      "anatomy": "Heart",
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "source": "Spectrum of Coronary Artery Aneurysms: From the Radiologic Pathology Archives. RadioGraphics 2018 38:1, 11-36"
+    },
+    {
+      "id": "2019-467",
+      "year": 2019,
+      "questionText": "有關 Evaluation of Acute GI bleeding 之敘述，下列何者為非?",
+      "options": [
+        {
+          "text": "CT angiography is an accurate examination for identifying the source of acute GI bleeding, with an overall sensitivity of 85% and a specificity of 92% for detection of the bleeding site.",
+          "letter": "A"
+        },
+        {
+          "text": "CT angiography is more sensitive than fluoroscopic angiography for detection of active extravasation, but less sensitive than RBC scanning, being able to depict bleeding at a rate of 0.3–0.5 mL/min.",
+          "letter": "B"
+        },
+        {
+          "text": "Endoscopy is highly useful for diagnosing the cause of upper GI bleeding, which is defined as bleeding originating proximal to the superior mesenteric vessel.",
+          "letter": "C"
+        },
+        {
+          "text": "Tc-99m scintigraphy is the most sensitive radiologic technique for the identification of active bleeding, enabling the detection of bleeding at rates as low as 0.1–0.5 mL/min.",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Upper GI bleeding 的定義是出血源位於 ligament of Treitz 近端（即 distal duodenum 以上），而非 superior mesenteric vessel 近端。選項 C 將分界錯誤地定義在 superior mesenteric vessel。",
+      "subspecialty": "GI",
+      "anatomy": "intestine",
+      "concepts": [
+        "lower-gi-bleeding-imaging"
+      ],
+      "source": "CT for Evaluation of Acute Gastrointestinal Bleeding. RadioGraphics 2018 38:4, 1089-1107"
+    },
+    {
+      "id": "2019-468",
+      "year": 2019,
+      "questionText": "關於 abdominopelvic lesions which mimic abscesses，下列何者敘述為是?",
+      "options": [
+        {
+          "text": "A variety of neoplasms, including those with areas of necrosis or fistulization to adjacent bowel loops, may mimic drainable abscesses.",
+          "letter": "A"
+        },
+        {
+          "text": "It may be difficult to distinguish postsurgical change/infection at the staple line from recurrent neoplasm; especially the recurrent neoplasm has a necrotic appearance.",
+          "letter": "B"
+        },
+        {
+          "text": "Owing to the homogeneous cell population, lymphoma can have a cystic appearance at ultrasonography.",
+          "letter": "C"
+        },
+        {
+          "text": "When mesenteric fibromatosis erodes into adjacent small bowel loops, this results in development of gas within the mass or abscess formation mimicking a fluid collection.",
+          "letter": "D"
+        },
+        {
+          "text": "以上皆是。",
+          "letter": "E"
+        }
+      ],
+      "answer": "E",
+      "explanation": "以上四個選項皆正確描述了可模擬腹骨盆膿瘍的不同病灶情境。",
+      "subspecialty": "GI",
+      "concepts": [
+        "abdominopelvic-abscess-mimics"
+      ],
+      "source": "A Spectrum of Entities That May Mimic Abdominopelvic Abscesses Requiring Image-guided Drainage. RadioGraphics 2018 38:4, 1264-1281"
+    },
+    {
+      "id": "2019-469",
+      "year": 2019,
+      "questionText": "Disorders of myelin metabolism (dysmyelinating disorders), including many inherited leukodystrophies, will generally spare the subcortical U-fibers except which following disease?",
+      "options": [
+        {
+          "text": "Alexander disease",
+          "letter": "A"
+        },
+        {
+          "text": "Metachromatic leukodystrophy",
+          "letter": "B"
+        },
+        {
+          "text": "X-linked adrenoleukodystrophy",
+          "letter": "C"
+        },
+        {
+          "text": "None of above",
+          "letter": "D"
+        }
+      ],
+      "answer": "A",
+      "explanation": "大多數 dysmyelinating disorders 保留皮質下 U-fibers，但 Alexander disease 和 Canavan disease 是例外，會侵犯 U-fibers。",
+      "subspecialty": "Neuro",
+      "anatomy": "Brain",
+      "concepts": [
+        "dysmyelinating-u-fiber"
+      ],
+      "source": "Subcortical U-Fibers: Signposts to the Diagnosis of White Matter Disease. Neurographics Vol 8, No 4, 2018, pp. 234-243(10)"
+    },
+    {
+      "id": "2019-470",
+      "year": 2019,
+      "questionText": "下列關於 Acute Mesenteric Ischemia 之 CT 影像敘述何者錯誤?",
+      "options": [
+        {
+          "text": "Mucosal and serosal enhancement may be completely absent in acute arterial embolism.",
+          "letter": "A"
+        },
+        {
+          "text": "Acute thrombosis of SMV is an unusual cause of bowel ischemia.",
+          "letter": "B"
+        },
+        {
+          "text": "Mucosal enhancement is usually decreased in acute venous thrombosis.",
+          "letter": "C"
+        },
+        {
+          "text": "Mesenteric edema is more characteristic of venous than arterial disease.",
+          "letter": "D"
+        }
+      ],
+      "answer": "C",
+      "explanation": "急性靜脈血栓時，mucosal enhancement 通常是增加（increased）而非減少，因為靜脈回流受阻導致腸壁充血水腫。",
+      "subspecialty": "GI",
+      "anatomy": "SB",
+      "concepts": [
+        "acute-mesenteric-ischemia"
+      ],
+      "source": "2019 交換考詳解"
     }
   ]
 }
