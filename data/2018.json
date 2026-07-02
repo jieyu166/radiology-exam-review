@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 381,
+  "totalQuestions": 390,
   "questions": [
     {
       "id": "2018-001",
@@ -1399,8 +1399,8 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "ACD. 都是考慮alternative Dx",
+      "reference": "特發性肺纖維化實證診斷及處置指引 P.12 台灣胸腔暨重症加護醫學會",
+      "explanation": "honeycombing為typical UIP之特徵。UIP為基底+subpleural分布(非上/中肺)、非大量微結節上肺葉、非支氣管血管周圍分布(後者指向替代診斷)。\n\n見 [[ipf]]",
       "images": [],
       "concepts": [
         "ipf"
@@ -1550,10 +1550,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "May show massive osteolysis with little or no periosteal reaction. Often multifocal disease. Ref: Radiology review manual 6th ed. P.508.  [Lymphangioleiomyomatosis](https://radiopaedia.org/articles/lymphangioleiomyomatosis-1)",
+      "reference": "Radiology review manual 6th ed. P.508; https://radiopaedia.org/articles/lymphangioleiomyomatosis-1",
+      "explanation": "官方答案B(Will not involve bone)。惟LAM可侵犯骨呈massive osteolysis(少/無骨膜反應、常多發)，故B實為錯誤敘述；A/C/D/E皆為正確LAM描述。題幹作『何者正確』但答案B為錯誤敘述，推測題幹應為『何者錯誤』。flag待醫師對照原卷。\n\n見 [[lam]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lam"
+      ],
       "checked": false
     },
     {
@@ -2379,10 +2381,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Page kidney(Page phenomenon) 指有subcapsular的東西壓迫腎臟，造成高血壓。如trauma, hematoma, urinoma. 所以原因有很多種。[[2023 RG Wunderlich Syndrome - Comprehensive Review of Diagnosis and Management.pdf]]",
+      "reference": "RadioGraphics 2009; 29:2033-2053",
+      "explanation": "Page kidney指大型慢性被膜下血腫(hematoma)壓迫致高血壓，非urinoma，故C錯。腎撕裂入集尿系統≥grade IV、多數urinoma位於Gerota筋膜內、創傷後腎血管性高血壓可數週至數十年後發生皆正確。\n\n見 [[renal-trauma-grading]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-trauma-grading"
+      ],
       "checked": false
     },
     {
@@ -14186,6 +14190,339 @@
       "images": [],
       "concepts": [
         "posterior-fossa-malformations"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-382",
+      "year": 2018,
+      "number": 382,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following fracture is with highest susceptibility of child abuse?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Linear skull fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Long-bone shaft fractures"
+        },
+        {
+          "letter": "C",
+          "text": "Scapular fractures"
+        },
+        {
+          "letter": "D",
+          "text": "Digital fractures"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "The Radiographic Approach to Child Abuse. Clin Orthop Relat Res. 2011 Mar; 469(3): 776-789.",
+      "explanation": "肩胛骨骨折(scapular fractures)屬高特異性受虐骨折。linear skull/long-bone shaft/digital fractures特異性較低。\n\n見 [[child-abuse-imaging]]",
+      "images": [],
+      "concepts": [
+        "child-abuse-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-383",
+      "year": 2018,
+      "number": 383,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於胸腺瘤，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "好發於青少年"
+        },
+        {
+          "letter": "B",
+          "text": "與myasthenia gravis有關"
+        },
+        {
+          "letter": "C",
+          "text": "男性和女性的發生率相當"
+        },
+        {
+          "letter": "D",
+          "text": "可能沒有臨床症狀"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiology review manual 6th ed. P.537",
+      "explanation": "The typical presentation is in the 5th to 6th decades, without gender predilection. 胸腺瘤好發於50-60歲成人，非青少年。\n\n見 [[thymoma]]",
+      "images": [],
+      "concepts": [
+        "thymoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-384",
+      "year": 2018,
+      "number": 384,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於Marfan syndrome，下列敘述何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT常發現annuloarotic ectasia以及dural ectasia。"
+        },
+        {
+          "letter": "B",
+          "text": "Is a genetic disorder of connective tissue"
+        },
+        {
+          "letter": "C",
+          "text": "Dilatation of the aortic root is the leading cause of aortic valve insufficiency"
+        },
+        {
+          "letter": "D",
+          "text": "Stanford type A aortic dissection will not be found"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Diagnostic Imaging Cardiovascular, p.II-4~37; http://pubs.rsna.org/doi/full/10.1148/rg.274065171",
+      "explanation": "Marfan好發升主動脈/主動脈根部擴張，為Stanford type A(升主動脈)剝離之重要危險因子，故「不會出現type A剝離」錯誤。\n\n見 [[marfan-syndrome]]",
+      "images": [],
+      "concepts": [
+        "marfan-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-385",
+      "year": 2018,
+      "number": 385,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about adrenal infections is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The infection sources including tuberculosis, histoplasmosis, and blastomycosis."
+        },
+        {
+          "letter": "B",
+          "text": "Early stage infection presented as bilateral enlarged adrenal glands."
+        },
+        {
+          "letter": "C",
+          "text": "Chronic infection may cause adrenal gland atrophy, but never calcification."
+        },
+        {
+          "letter": "D",
+          "text": "May result in adrenal insufficiency."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2001; 21:995–1012",
+      "explanation": "慢性腎上腺感染(尤其結核)可造成鈣化，「never calcification」錯誤。\n\n見 [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-386",
+      "year": 2018,
+      "number": 386,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about gestational trophoblastic disease (GTD) is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "46 chromosomes in partial hydatidiform mole (PHM), and 69 chromosomes in complete hydatidiform mole (CHM)."
+        },
+        {
+          "letter": "B",
+          "text": "Both PHM and CHM are surrounding by myometrium, and myometrium is relatively low signal to the mass on T2WI."
+        },
+        {
+          "letter": "C",
+          "text": "Under ultrasonography, the CHM looks like a cluster of grapes, and some fetal parts may present in it."
+        },
+        {
+          "letter": "D",
+          "text": "Under contrast-enhanced CT, moles are strong hyperintensity mass than myometrium."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "RadioGraphics 2017; 37:681–700",
+      "explanation": "PHM與CHM皆被肌層包繞、肌層於T2WI相對mole呈低訊號。A染色體顛倒(CHM 46/PHM 69)、C(CHM胎兒部分應缺如)、D(CECT mole為低衰減併薄強化分隔非強強化)皆為偽。\n\n見 [[gestational-trophoblastic-disease]]",
+      "images": [],
+      "concepts": [
+        "gestational-trophoblastic-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-387",
+      "year": 2018,
+      "number": 387,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about penile fracture is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Penile fracture is defined as rupture of tunica albuginea and corpus spongiosum."
+        },
+        {
+          "letter": "B",
+          "text": "The common mechanism is impulsion with high intracorpus pressure and rupture happened."
+        },
+        {
+          "letter": "C",
+          "text": "The characteristic of penile fracture in MRI is discontinuity of the low-signal-intensity tunica albuginea."
+        },
+        {
+          "letter": "D",
+          "text": "Urethral involvement is often with higher rate of complication."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "MR Image of Acute Penile Fracture. RadioGraphics 2000; 20:1397–1405",
+      "explanation": "陰莖骨折為rupture of corpus cavernosum及其tunica albuginea，非corpus spongiosum，故A錯。\n\n見 [[penile-fracture]]",
+      "images": [],
+      "concepts": [
+        "penile-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-388",
+      "year": 2018,
+      "number": 388,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About MRI of prostate gland, which of the following is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "To define the junction of peripheral zone and transitional zone, T1WI has higher resolution than T2WI."
+        },
+        {
+          "letter": "B",
+          "text": "Focal areas of low intensity in peripheral zone in T2WI are always cancer."
+        },
+        {
+          "letter": "C",
+          "text": "When performing dynamic contrast-enhancing MRI of prostate, fast T1-weighted sequence has higher spatial resolution than slow T1-weighted sequence."
+        },
+        {
+          "letter": "D",
+          "text": "On ADC maps, prostate cancer often shows lower ADC than the surrounding healthy peripheral zone tissue."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiology: Volume 261: Number 1—October 2011",
+      "explanation": "攝護腺癌於ADC map呈較周邊帶健康組織更低之ADC。A(應為T2WI高空間解析度)、B(PZ的T2低訊號不一定是癌)、C(DCE快速T1強調時間解析度非空間解析度)皆為偽。\n\n見 [[prostate-mri]]",
+      "images": [],
+      "concepts": [
+        "prostate-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-389",
+      "year": 2018,
+      "number": 389,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about retroperitoneal fibrosis is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "About 56-100% of idiopathic retroperitoneal fibrosis cases will suffer from obstructive uropathy."
+        },
+        {
+          "letter": "B",
+          "text": "In T1WI, the fibrosis area is low signal intensity. After administration of gadolinium contrast material, some early soft-tissue enhancement may happen."
+        },
+        {
+          "letter": "C",
+          "text": "Carcinoid tumor can induce retroperitoneal fibrosis without direct metastasizing to the retroperitoneal area."
+        },
+        {
+          "letter": "D",
+          "text": "In benign retroperitoneal fibrosis, anterior displacement of aorta and IVC is usually seen."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "RadioGraphics 2013; 33:535–552",
+      "explanation": "良性RPF為浸潤性包繞而非移位，貼脊椎不前抬主動脈；主動脈前移(floating aorta sign)反而提示惡性/淋巴瘤，故D錯。\n\n見 [[retroperitoneal-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-390",
+      "year": 2018,
+      "number": 390,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about scrotal emergencies is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The epididymal tail is caudal to the epididymal head, and when epididymitis happened, the tail will be involved early than head."
+        },
+        {
+          "letter": "B",
+          "text": "The term \"Fournier's gangrene\" only can be used in male."
+        },
+        {
+          "letter": "C",
+          "text": "To initial evaluation of scrotal trauma, the MRI is better than the ultrasonography."
+        },
+        {
+          "letter": "D",
+          "text": "Males who with bell-clapper deformity of the testicle will never suffer from testicular torsion."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "RadioGraphics 2013; 33:721–740",
+      "explanation": "附睪尾位於附睪頭尾側，附睪炎多由尾部開始較頭部早受累。Fournier gangrene非男性專屬(B錯)、陰囊外傷首選超音波非MRI(C錯)、bell-clapper deformity為扭轉危險因子非「不會扭轉」(D錯)。\n\n見 [[scrotal-emergencies]]",
+      "images": [],
+      "concepts": [
+        "scrotal-emergencies"
       ],
       "checked": false
     }

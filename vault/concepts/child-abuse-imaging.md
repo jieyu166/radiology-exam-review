@@ -35,8 +35,17 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: *N Engl J Med* 2017;376:1659-66（2018 交換考題詳解 p.183-184 引用；Tier 1 期刊）。受虐兒童可呈非特異性症狀；臉部/口腔損傷應提高懷疑；評估應含腦部影像+全身骨骼調查+眼底檢查+肝胰酵素；搖晃症候群非僅歸因搖晃；急性神經學症狀優先CT；硬腦膜下出血通常非嚴重後遺症主因；短跌落極少致嚴重顱內損傷；視網膜出血約85%見於受虐性頭部創傷。
+[^2]: *The Radiographic Approach to Child Abuse*. Clin Orthop Relat Res. 2011 Mar;469(3):776-789（2018 交換考題詳解 p.291 引用；Tier 1 期刊；引Kleinman分類）。高特異性受虐骨折：CML、多發肋骨(尤後肋)、肩胛骨、胸骨、棘突骨折；中特異性：多發/不同癒合期/骨骺分離/椎體/指骨/複雜顱骨；低特異性：骨膜下新骨、單純鎖骨、長骨骨幹、線性顱骨骨折。
+
+## 骨折特異性（child abuse specificity，2018-382）
+- **高特異性骨折**：classic metaphyseal lesions（CML）、多發肋骨骨折（尤其後肋）、**肩胛骨骨折（scapular fractures）**、胸骨骨折、鎖骨骨折、棘突骨折。[^2]
+- **中特異性**：多發骨折、不同癒合期骨折、骨骺分離、椎體骨折、指骨骨折、複雜顱骨骨折。[^2]
+- **低特異性**：骨膜下新骨形成、鎖骨骨折(單純)、長骨骨幹骨折、線性顱骨骨折。[^2]
 
 ## 題目
+> [!question]- Which of the following fracture is with highest susceptibility of child abuse? (2018-382)
+> **Scapular fractures（C）**——肩胛骨骨折屬高特異性受虐骨折。linear skull fracture、long-bone shaft fracture、digital fracture特異性較低。[^2]
+
 > [!question]- Which one of the followings related to abusive children is correct? (2018-277)
 > **Physically abused children may present with nonspecific symptoms and signs, such as vomiting or apnea（A）**——正確。[^1]
 

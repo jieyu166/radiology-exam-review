@@ -60,6 +60,9 @@ concepts: [ipf]
 > [!question]- 根據revised ATS/ERS/JRS/ALAT diagnostic criteria，有關inconsistent with UIP pattern何者錯誤? (2018-264)
 > **Subpleural, basal predominance（A）**——此為UIP典型分布特徵，非「與UIP不符」之表現，此敘述錯誤。廣泛毛玻璃異常(範圍>網狀異常)、肺葉/肺段內實質化、支氣管血管周圍為主分布，皆為與UIP不符、指向替代診斷之特徵。[^3]
 
+> [!question]- 有關Usual interstitial pneumonia (UIP)的HRCT判斷標準，下列何者正確? (2018-038)
+> **出現蜂窩現象(honeycombing)（B）**——honeycombing為typical UIP之特徵。UIP為基底+subpleural分布(非上/中肺A錯)、非大量微結節上肺葉(C錯)、非支氣管血管周圍分布(D錯，該分布指向替代診斷)。[^1][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")

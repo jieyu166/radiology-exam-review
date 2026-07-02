@@ -43,6 +43,10 @@ dateRev: 2026-06-29
 [^8]: **Tier 2（PMC，IF 一般）**. *Differentiation of Lymphoma Presenting as Retroperitoneal Mass and Retroperitoneal Fibrosis: Evaluation with MDCT*. Chin Med J（PMC5358419, [連結](https://pmc.ncbi.nlm.nih.gov/articles/PMC5358419/)）：主動脈前移於淋巴瘤約 43.5% vs RPF 約 5.3%;淋巴瘤呈「floating aorta sign」、bulky 分葉、向後包繞。
 [^9]: *RadioGraphics* 2015;35:2007-2025（2018 交換考題詳解 p.117 引用；Tier 1 影像期刊）。自體免疫胰臟炎診斷時約20%併有後腹膜纖維化；後腹膜纖維化為慢性發炎過程，可導致腹主動脈瘤（炎性腹主動脈瘤IAAA：三聯徵含增厚動脈瘤壁/廣泛動脈瘤周圍纖維化/沾黏，佔腹主動脈瘤3-10%，男女比6:1至30:1）與腎積水。
 
+## 題目
+> [!question]- Which of the following about retroperitoneal fibrosis is wrong? (2018-389)
+> **In benign retroperitoneal fibrosis, anterior displacement of aorta and IVC is usually seen（D）**——良性RPF為**浸潤性(infiltrative)、包繞而非移位**鄰近結構，貼脊椎不把主動脈前抬；**主動脈前移(anterior displacement, floating aorta sign)反而提示惡性/淋巴瘤**，故D錯。56-100%特發性RPF有阻塞性尿路病變(A對)、T1WI低訊號且釓後早期軟組織強化(活動期)(B對)、carcinoid tumor可不經轉移誘發RPF(C對)皆為正確描述。[^3][^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "retroperitoneal-fibrosis")

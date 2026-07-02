@@ -43,6 +43,9 @@ dateRev: 2026-06-30
 > [!question]- Which of the following criteria were major ones for diagnosis of Marfan syndrome? (2017-244)
 > **1+3+4（B）**——arm span to height ratio >1.05、ectopia lentis、lumbosacral dural ectasia 屬主要診斷要素相關項。**2（<40歲二尖瓣環鈣化）為次要（minor）標準**，非主要。[^2]
 
+> [!question]- 關於Marfan syndrome，下列敘述何者為非? (2018-384)
+> **Stanford type A aortic dissection will not be found（D）**——Marfan好發升主動脈/主動脈根部擴張，為Stanford type A(升主動脈)剝離之重要危險因子，故「不會出現type A剝離」錯誤。CT常見annuloaortic ectasia與dural ectasia(A對)、為結締組織遺傳疾病(B對)、主動脈根部擴張為主動脈瓣閉鎖不全主因(C對)皆為正確描述。[^1][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "marfan-syndrome")

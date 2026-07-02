@@ -52,6 +52,7 @@ down:
 [^4]: 官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation. RadioGraphics 2004;24:S73-S86：myelolipoma為少見良性腫瘤(成熟脂肪+造血組織)可因自發性出血致症狀性增大，MR呈T1均質高訊號、T2中等訊號;adreniform masses(保留腺體外形之病灶)含cortical hyperplasia與adrenal hemorrhage，pheochromocytoma因扭曲/取代腺體外形而不屬此類;pheochromocytoma不含大量微觀脂肪故反相位無訊號掉落，T2WI呈高訊號(lightbulb sign)，多數病灶顯著強化。
 [^5]: *Problem Solving in Abdominal Imaging*, Chapter 17, p.464-484（2018 交換考題詳解 p.214 引用；Tier 2 教科書）。腎上腺腫塊>4cm傾向惡性；巨觀脂肪與維持腺體外形之鈣化較傾向良性；單純CT高密度非首選惡性指標。
 [^6]: Radiology Review Manual, 6th ed., p.918（2018 交換考題詳解 p.269 引用；Tier 2 教科書）。腎上腺出血成因含鈍腹部外傷(成人單側最常見)、adrenal vein sampling、早產缺氧(新生兒)、潛在腎上腺腫瘤等。
+[^7]: *RadioGraphics* 2001;21:995-1012（2018 交換考題詳解 p.294 引用；Tier 1 期刊）。腎上腺感染源含結核/組織漿菌/芽生菌；早期呈雙側腎上腺腫大；慢性感染可致腺體萎縮並『可』出現鈣化(非never)；可導致腎上腺功能不全(Addison's disease)。
 
 ## 題目
 > [!question]- Which of the following description concerning with myelolipoma is true? (2017-327)
@@ -68,6 +69,9 @@ down:
 
 > [!question]- Which of the following may cause adrenal hemorrhage? (2018-361)
 > **All of the above（E）**——blunt abdominal trauma（成人單側出血最常見主因）、adrenal vein sampling、hypoxia due to prematurity（新生兒）、underlying adrenal tumor皆可造成腎上腺出血。[^6]
+
+> [!question]- Which of the following about adrenal infections is wrong? (2018-385)
+> **Chronic infection may cause adrenal gland atrophy, but never calcification（C）**——慢性腎上腺感染(尤其結核)『可』造成鈣化，「never calcification」錯誤。感染源含結核/組織漿菌/芽生菌(A對)、早期呈雙側腎上腺腫大(B對)、可致腎上腺功能不全Addison's(D對)皆為正確描述。[^7]
 
 ## 考題
 ```dataview
