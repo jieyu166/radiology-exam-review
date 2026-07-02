@@ -36,6 +36,9 @@ dateRev: 2026-06-30
 > [!question]- Which statement about "Weigert-Meyer Rule" for ureteral duplication is correct? (2020-272)
 > **以上皆正確（E）**——上極輸尿管開口偏內下(medial/inferior)且ectopic易合併ureterocele致阻塞；下極輸尿管開口偏外上(lateral)易致vesicoureteral reflux。[^2]
 
+> [!question]- Which statement is true about Weigert-Meyer law? (2020-363)
+> **A、B皆為正確敘述（D）**——上極腎異位開口偏內下(medial/inferior)於下極輸尿管開口且常end於ureterocele；下極腎正位開口偏外上(lateral/superior)於引流上極之輸尿管，因短壁內段常致VUR。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ureteral-duplication")

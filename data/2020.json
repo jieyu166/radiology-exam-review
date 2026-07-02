@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 362,
+  "totalQuestions": 369,
   "questions": [
     {
       "id": "2020-001",
@@ -13264,6 +13264,265 @@
       "images": [],
       "concepts": [
         "adrenal-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-363",
+      "year": 2020,
+      "number": 363,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is true about Weigert-Meyer law?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Upper renal moiety has ectopic insertion medial and inferior to the lower pole moiety ureter, and frequently ends in a ureterocoele."
+        },
+        {
+          "letter": "B",
+          "text": "Lower renal moiety has orthotopic insertion lateral and superior to the ureter draining the upper pole, and vesiculoureteral reflux typically occurs."
+        },
+        {
+          "letter": "C",
+          "text": "Both (A)and(B) are false."
+        },
+        {
+          "letter": "D",
+          "text": "Both (A)and(B) are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Bilateral duplex collecting system with bilateral vesicoureteral reflux: a case report, 2019",
+      "explanation": "Weigert-Meyer法則：上極腎異位開口偏內下（medial/inferior）於下極輸尿管開口，且常end於輸尿管囊腫(ureterocele)；下極腎則呈正位開口(orthotopic)，位置偏外上（lateral/superior）於引流上極之輸尿管，因開口位置異常(短壁內段)常致膀胱輸尿管逆流(VUR)。A、B皆為正確敘述，故答案為D。",
+      "images": [],
+      "concepts": [
+        "ureteral-duplication"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-364",
+      "year": 2020,
+      "number": 364,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not the triad of Meigs syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "malignant ovarian tumor"
+        },
+        {
+          "letter": "B",
+          "text": "ascites"
+        },
+        {
+          "letter": "C",
+          "text": "pleural effusion"
+        },
+        {
+          "letter": "D",
+          "text": "benign ovarian tumor"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.690-713",
+      "explanation": "Meigs syndrome定義為腹水(ascites)、肋膜積水(pleural effusion)合併良性(benign，非惡性)之實質性卵巢腫瘤(絕大多數80-90%為卵巢纖維瘤)，故「惡性卵巢腫瘤」並非其三聯症之一。",
+      "images": [],
+      "concepts": [
+        "meigs-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-365",
+      "year": 2020,
+      "number": 365,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is true about xanthogranulomatous pyelonephritis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chronic renal parenchymal inflammation with replacement of the normal renal parenchyma with lipid-laden histiocytes."
+        },
+        {
+          "letter": "B",
+          "text": "it is secondary to chronic urinary infection (e.g. E coli or Proteus mirabilis ) and obstructing calculus disease."
+        },
+        {
+          "letter": "C",
+          "text": "Renal pelvis initially affected, later corticomedullary areas are affected."
+        },
+        {
+          "letter": "D",
+          "text": "Above of all."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.416-453",
+      "explanation": "XGP為慢性腎實質發炎、正常腎實質被充脂質組織球取代，常次發於慢性泌尿道感染(E coli或Proteus mirabilis)合併阻塞性結石，病程始於腎盂發炎後延伸至皮髓質區。⚠️ 官方詳解本身於此頁加註「(D?)」對答案A表達存疑，因A/B/C皆為正確敘述，理論上應選D(以上皆是)；暫依官方標示A為預設值，建議醫師覆核。",
+      "images": [],
+      "concepts": [
+        "xanthogranulomatous-pyelonephritis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-366",
+      "year": 2020,
+      "number": 366,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is true fracture terminology?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Open fracture = a fracture that communicates with the outside environment such as ambient air."
+        },
+        {
+          "letter": "B",
+          "text": "Fatigue fracture = fracture of an abnormal bone due to a normal stress"
+        },
+        {
+          "letter": "C",
+          "text": "Insufficiency fracture = fracture of a normal bone due to abnormal stress."
+        },
+        {
+          "letter": "D",
+          "text": "Butterfly fragment = fracture entailing a fragment that is pulled away from the bone at the ligamentous or tendinous insertion (avulsion fracture)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Emergency Radiology: The Requisites, 7th Edition, Ch.4, BOX 4-2",
+      "explanation": "開放性骨折定義為骨折處與外界環境(如空氣)相通，A正確。疲勞性骨折(fatigue fracture)實為正常骨骼承受異常/過度應力所致(非異常骨骼承受正常應力)，B敘述將定義對調；不足性骨折(insufficiency fracture)實為異常骨骼承受正常應力所致(非正常骨骼承受異常應力)，C敘述亦將定義對調；蝴蝶狀骨片(butterfly fragment)實為位於近端與遠端骨折片之間之大型三角形/楔形骨片(酷似蝴蝶)，並非韌帶/肌腱附著處撕脫之骨片(該描述屬avulsion fracture定義)，D敘述錯誤。",
+      "images": [],
+      "concepts": [
+        "fracture-terminology"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-367",
+      "year": 2020,
+      "number": 367,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is true as following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monteggia fracture-dislocation is a combination of a fracture of the proximal ulna shaft and subluxation or dislocation of the radial head."
+        },
+        {
+          "letter": "B",
+          "text": "Galeazzi Fracture-Dislocation is a fracture of the distal third of the radius with dislocation of the distal radioulnar joint."
+        },
+        {
+          "letter": "C",
+          "text": "Colles fracture is a transverse extraarticular fracture of the distal inch of the radius with dorsal displacement of the distal fragment together with the bones of the wrist and hand."
+        },
+        {
+          "letter": "D",
+          "text": "All of above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Emergency Radiology: The Requisites, 7th Edition, Ch.4, p.115-164",
+      "explanation": "Monteggia骨折脫位(尺骨近端骨折+橈骨頭半脫位或脫位)、Galeazzi骨折脫位(橈骨遠1/3骨折+遠端橈尺關節脫位)、Colles骨折(橈骨遠端一吋處橫向關節外骨折，遠端骨片連同腕骨與手部向背側移位)之描述皆正確，故答案為D。",
+      "images": [],
+      "concepts": [
+        "forearm-fracture-dislocation-eponyms"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-368",
+      "year": 2020,
+      "number": 368,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is true about rotational malleolar fracture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type A is an infrasyndesmotic injury, in which the fibular fracture is transverse and located below the syndesmosis."
+        },
+        {
+          "letter": "B",
+          "text": "Type B is the most common type of ankle fracture, describing a trans-syndesmotic injury."
+        },
+        {
+          "letter": "C",
+          "text": "Type C is a suprasyndesmotic injury, resulting from pronation-external rotation force."
+        },
+        {
+          "letter": "D",
+          "text": "All of above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Emergency Radiology: The Requisites, 7th Edition, Ch.4, p.115-164",
+      "explanation": "旋轉性內外踝骨折依Weber(AO)分類：Type A為韌帶聯合下方損傷(infrasyndesmotic)，腓骨骨折呈橫向且位於韌帶聯合下方；Type B為最常見之踝關節骨折型態，描述經韌帶聯合損傷(trans-syndesmotic)；Type C為韌帶聯合上方損傷(suprasyndesmotic)，由旋前外旋力(pronation-external rotation)造成。三者描述皆正確，故答案為D。",
+      "images": [],
+      "concepts": [
+        "weber-ankle-fracture-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-369",
+      "year": 2020,
+      "number": 369,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which bone lesion usually lacks a sclerotic border?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giant cell tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Anuerysmal bone cyst"
+        },
+        {
+          "letter": "C",
+          "text": "Epidermoid inclusion cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Nonossifying fibroma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Systematic Approach to Musculoskeletal Benign Tumors, 2017",
+      "explanation": "巨細胞瘤(giant cell tumor)通常缺乏硬化緣(sclerotic border)，與短管狀骨之內生軟骨瘤、副甲狀腺機能亢進之棕色瘤、Paget氏病溶骨期、急性骨髓炎同列典型缺乏硬化緣之病灶；動脈瘤性骨囊腫、表皮樣包涵囊腫、非骨化性纖維瘤則通常具硬化緣。",
+      "images": [],
+      "concepts": [
+        "bone-lesion-sclerotic-border"
       ],
       "checked": false
     }

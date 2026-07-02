@@ -24,6 +24,12 @@ dateRev: 2026-06-29
 > [!note] 考點
 > XGP＝staghorn＋non-functioning＋bear paw＋腎周延伸;**pseudoaneurysm 非特徵**（160 答 C）。致病菌經典 **Proteus**（161：XGP 為「非 E. coli」之例外,答 A）。[^1]
 
+> [!warning] 官方答案存疑（醫師覆核用，2020-365）
+> 本題選項A(慢性腎實質發炎伴充脂質組織球取代)、B(次發於慢性泌尿感染合併阻塞性結石)、C(病程始於腎盂延伸至皮髓質區)依文獻皆為正確敘述，理論上應選「以上皆是（D）」，但官方詳解標示答案為A，且官方詳解本身於此頁加註「(D?)」表達存疑。暫依官方標示A為預設值，建議醫師覆核。
+
+> [!note] 考點（2020-365）：關於XGP之敘述何者為真？
+> A/B/C皆為正確敘述——慢性腎實質發炎伴脂質組織球取代、次發於慢性泌尿感染合併阻塞結石、病程始於腎盂延伸至皮髓質區。官方標示答案A，惟官方詳解自身對是否應選D(以上皆是)表達存疑，詳見上方warning。[^2]
+
 ## 影像判讀
 
 ### 判讀骨架（CT 為主軸）
@@ -54,6 +60,11 @@ dateRev: 2026-06-29
 [^2]: Case report（PMC 開放全文）：Demir AD et al. *Xanthogranulomatous Pyelonephritis: "Bear's Paw Sign"*. J Belg Soc Radiol. 2019;103(1):31. PMC6524550, DOI 10.5334/jbsr.1807（accessed 2026-06-29）。對比後 CT 顯示腎盞擴張、腎結石、增大腎臟之發炎變化與膿腔;增大腎內多發低衰減圓形灶＝bear paw sign,為充脂質巨噬細胞之細胞浸潤（非清液）;瀰漫型佔逾 90%;常見腎周膿瘍累及鄰近器官與後腹腔;治療為腎切除。
 [^3]: Case report / review（PMC 開放全文）：*Bear Paw Sign: Xanthogranulomatous Pyelonephritis*. J Radiol Case Rep. 2018. PMC6312122（accessed 2026-06-29）。低衰減多房灶約 −10～+30 HU（個案 15–18 HU）、不強化但邊緣明亮 rim enhancement;常合併 staghorn 結石;延伸分三期（腎實質→腎周脂肪→腎旁間隙／腹壁）與瘻管（腎皮膚／腎結腸／腎十二指腸）;局灶型與瀰漫型;MRI——T1 病灶邊緣高訊號、中心低訊號,T2 中心高訊號伴液平;鑑別含 clear cell／sarcomatoid RCC、腎膿瘍、結核、AML;免疫組化 XGP CD68(+) vs RCC CD10(+)。
 [^4]: Case report（PMC 開放全文）：*Xanthogranulomatous pyelonephritis mimicking a renal cell carcinoma: a unique and challenging case*. PMC4001428（accessed 2026-06-29）。局灶（tumefactive）型 XGP 影像與臨床表現非特異,常被誤診為 RCC;CT 為主要診斷工具但外觀可模擬 RCC。
+[^2]: 官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.416-453（題目所引）——XGP為慢性腎實質發炎、正常實質被充脂質組織球取代；常次發於慢性泌尿感染(E coli/Proteus mirabilis)合併阻塞性結石；病程始於腎盂發炎延伸至皮髓質區。
+
+## 題目
+> [!question]- Which is true about xanthogranulomatous pyelonephritis? (2020-365)
+> 官方標示**A（慢性腎實質發炎伴脂質組織球取代）**——惟官方詳解自身對答案存疑(D?)，詳見上方[!warning]，建議醫師覆核。[^2]
 
 ## 考題
 ```dataview
