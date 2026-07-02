@@ -44,6 +44,18 @@ dateRev: 2026-07-01
 > [!note] 考點：何者「不」影響子宮頸癌分期?
 > **腫瘤侵犯子宮體（uterine corpus）**。parametrium 侵犯、hydronephrosis、淋巴結轉移（2018 起→IIIC）皆影響分期。[^1]
 
+## AJCC 8th版分期補充要點
+- **T2b＝parametrial invasion**：腫瘤侵犯子宮頸旁組織(parametrium)歸類為T2b，與FIGO IIB對應。[^6]
+- **N1自FIGO IIIB移除**：AJCC 8th版將淋巴結轉移(N1)自FIGO IIIB分期移除，另立獨立分期考量(對應FIGO 2018新增之IIIC概念)。[^6]
+- **主動脈旁淋巴結病變視為N1**：Paraaortic lymphadenopathy歸類為N1（區域淋巴結轉移範疇含骨盆、主動脈旁、子宮旁/子宮頸旁淋巴結、腹股溝）。[^6]
+
+### 參考來源（續）
+[^6]: *AJCC Cancer Staging Manual*, 8th edition, p.649-654（2018 交換考題詳解 p.217 引用；Tier 1 分期權威文件）。T2b對應parametrial invasion；N1自FIGO IIIB移除(另立考量)；主動脈旁淋巴結病變歸類N1(區域淋巴結範疇含骨盆/主動脈旁/子宮旁/腹股溝)。
+
+## 題目
+> [!question]- Which of the following is NOT correct considering the AJCC 8th staging system of cervical cancer? (2018-115)
+> **All of the above are correct（D）**——parametrial invasion=T2b(A)、N1自FIGO IIIB移除(B)、主動脈旁淋巴結病變為N1(C)皆為正確描述。[^6]
+
 ### 參考來源
 [^1]: *Cervical cancer (staging)*. Radiopaedia.org（FIGO 2018,實際查證 accessed 2026-06-20）：I 局限子宮頸（**corpus 延伸 disregarded**）、IIB parametrium 侵犯（未達骨盆壁）、IIIA 下 1/3 陰道、IIIB 骨盆壁/hydronephrosis/無功能腎、**IIIC 骨盆(IIIC1)±主動脈旁(IIIC2)淋巴結**、IVA 膀胱/直腸。
 [^2]: Salib MY, Russell JHB, Stewart VR, et al. *2018 FIGO Staging Classification for Cervical Cancer: Added Benefits of Imaging*. RadioGraphics. 2020;40(6):1807-1822. doi:10.1148/rg.2020200013（實際查證 accessed 2026-06-20;2018 改版納入淋巴結 IIIC、影像輔助分期之角色）。

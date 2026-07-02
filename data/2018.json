@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 309,
+  "totalQuestions": 317,
   "questions": [
     {
       "id": "2018-001",
@@ -4187,10 +4187,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.217；AJCC Cancer Staging Manual, 8th edition. p 649-654.",
       "explanation": "WHO T3c / FIGO IIIC\n- Involvement of pelvic and/or para-aortic lymph nodes, irrespective of tumor size and extent\nWHO T3c1/ FIGO IIIC1\n- Pelvic lymph node metastasis only\nWHO T3c2 / FIGO IIIC2\n- Para-aortic lymph node metastasis\nN0: No regional lymph node metastasis\nN0 (i+): Isolated tumor cells in regional lymph node(s) ≤ 0.2 mm\nN1: Regional LN metastasis (para-aortic, pelvic(para-metrial/cervical), inguinal)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cervical-cancer-staging"
+      ],
       "checked": false
     },
     {
@@ -11428,6 +11430,302 @@
       "images": [],
       "concepts": [
         "adrenal-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-310",
+      "year": 2018,
+      "number": 310,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is correct considering androgen insensitivity syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "46, XX karyotype with female phenotype"
+        },
+        {
+          "letter": "B",
+          "text": "Absent or rudimentary uterus"
+        },
+        {
+          "letter": "C",
+          "text": "Normal ovary"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are correct"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.215；Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 4-14~4-17.",
+      "explanation": "雄性素不敏感症候群(androgen insensitivity syndrome, AIS，又稱睪丸女性化症候群)之病人子宮通常缺如或呈殘跡狀態(absent or rudimentary uterus)，為正確描述。核型為46,XY(非46,XX)、性腺為雙側隱睪(非正常卵巢)，兩者皆為錯誤描述。",
+      "images": [],
+      "concepts": [
+        "androgen-insensitivity-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-311",
+      "year": 2018,
+      "number": 311,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Considering cystic lesions in female pelvis, please list these lesions according to the anatomical relationship, from superior to inferior. 1. Gartner duct cyst. 2. Bartholin cyst. 3. Nabothian cyst.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "321"
+        },
+        {
+          "letter": "B",
+          "text": "132"
+        },
+        {
+          "letter": "C",
+          "text": "312"
+        },
+        {
+          "letter": "D",
+          "text": "213"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.216；Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 3-60, 4-26, 4-58.",
+      "explanation": "女性骨盆囊性病灶由上至下排列順序：(3)Nabothian囊腫(子宮頸表面) → (1)Gartner氏管囊腫(陰道側壁上段) → (2)Bartholin氏腺囊腫(陰道口/會陰最下段)。",
+      "images": [],
+      "concepts": [
+        "female-pelvis-cystic-lesions-location"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-312",
+      "year": 2018,
+      "number": 312,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT correct about Meigs syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of ascites and pleural effusion"
+        },
+        {
+          "letter": "B",
+          "text": "Associated with ovarian tumors"
+        },
+        {
+          "letter": "C",
+          "text": "Presence of peritoneal nodules"
+        },
+        {
+          "letter": "D",
+          "text": "Tumor is typically hypointense on T2WI"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.216；Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 7-198~7-201.",
+      "explanation": "Meigs症候群為良性病程，「不」合併腹膜結節(peritoneal nodules，該表現提示惡性/腹膜轉移)，故本敘述錯誤。合併腹水與肋膜積液、與卵巢腫瘤(典型為fibroma)相關、腫瘤(fibroma)因富含膠原纖維組織於T2WI典型呈低訊號，皆為正確描述。\n\n見 [[meigs-syndrome]]",
+      "images": [],
+      "concepts": [
+        "meigs-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-313",
+      "year": 2018,
+      "number": 313,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT correct about Krukenberg tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metastases to ovary from signet ring cell adenocarcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Most common from stomach"
+        },
+        {
+          "letter": "C",
+          "text": "Often involve bilateral ovaries"
+        },
+        {
+          "letter": "D",
+          "text": "Predominantly cystic ovarian tumors"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.218；Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 7-150~7-153.",
+      "explanation": "Krukenberg腫瘤之多數影像表現非特異性，主要呈「實質為主」或「囊實混合」腫塊，並非「以囊性為主」，故本敘述錯誤。轉移自印戒細胞腺癌至卵巢、最常見原發部位為胃、常侵犯雙側卵巢，皆為正確描述。\n\n見 [[krukenberg-tumor]]",
+      "images": [],
+      "concepts": [
+        "krukenberg-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-314",
+      "year": 2018,
+      "number": 314,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關於成人腸套疊，下列何者敘述錯誤：",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is often a transient benign incidental finding, largely unappreciated before the widespread availability of CT"
+        },
+        {
+          "letter": "B",
+          "text": "Terminal ileum to cecal segment is the most common site of involvement in adults."
+        },
+        {
+          "letter": "C",
+          "text": "Proximal obstruction often accompanies clinically significant intussusception."
+        },
+        {
+          "letter": "D",
+          "text": "If the length of the intussusception measures less than 3 to 5 cm and no proximal dilatation is present in an adult, it is unlikely to be of clinical significance."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.219；Problem Solving in Abdominal Imaging, CHAPTER 16, 416-463 Gastrointestinal Tract.",
+      "explanation": "成人腸套疊「無」固定好發部位分布模式——絕大多數病例存在導引點病灶(lead point lesion)，套疊發生位置取決於該病灶所在位置，故「迴腸末端至盲腸段為最常見侵犯部位」之敘述錯誤。常為短暫良性偶然發現(CT廣泛應用前多未被察覺)、臨床顯著套疊常合併近端阻塞、若套疊長度<3-5公分且無近端擴張則不太可能具臨床意義，皆為正確描述。\n\n見 [[adult-intussusception]]",
+      "images": [],
+      "concepts": [
+        "adult-intussusception"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-315",
+      "year": 2018,
+      "number": 315,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding to acute upper gastrointestinal tract bleeding, which of the following statement is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "For acute nonvariceal upper gastrointestinal tract bleeding with correctable unstable vital sign, trans-arterial embolization is the first-line treatment."
+        },
+        {
+          "letter": "B",
+          "text": "For acute nonvariceal upper gastrointestinal tract bleeding with stable vital sign, trans-arterial embolization is the first-line treatment."
+        },
+        {
+          "letter": "C",
+          "text": "For acute nonvariceal upper gastrointestinal tract acute rebleeding after endoscopic treatment, trans-arterial embolization is the first-line treatment."
+        },
+        {
+          "letter": "D",
+          "text": "For acute upper gastrointestinal tract bleeding with suspected esophageal varices rupture, endoscopy treatment is the first-line treatment."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.220；Gralnek IM, et al. Diagnosis and management of nonvariceal upper gastrointestinal hemorrhage: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy 2015;47(10):a1-46.",
+      "explanation": "疑似食道靜脈瘤破裂之急性上消化道出血，內視鏡治療為首選第一線治療，為正確描述。生命徵象可矯正之不穩定病人仍應先嘗試內視鏡治療(非TAE為首選，A錯)；生命徵象穩定之非靜脈瘤性上消化道出血首選為內視鏡治療(非TAE，B錯)；內視鏡治療後急性再出血，首選應先「重複內視鏡治療(repeat endoscopy)」，而非直接TAE(C錯)。\n\n見 [[upper-gi-bleeding-management]]",
+      "images": [],
+      "concepts": [
+        "upper-gi-bleeding-management"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-316",
+      "year": 2018,
+      "number": 316,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to TIPS(Transjugular intrahepatic portosystemic shunt) is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The main purpose of performing TIPS is to prolong the survival of patient with end stage cirrhosis."
+        },
+        {
+          "letter": "B",
+          "text": "Patient with severe hepatic encephalopathy, decompensated hepatic failure or severe heart failure is contraindicated for TIPS."
+        },
+        {
+          "letter": "C",
+          "text": "After performing TIPS, the porto-systemic pressure gradient decreases."
+        },
+        {
+          "letter": "D",
+          "text": "The most common course of shunting is from right hepatic vein to right portal vein."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.221；Image-Guided Interventions, Chapter 112, 822-828.e1.",
+      "explanation": "TIPS置放之主要目的為降低與門脈高壓相關併發症之門脈壓力(如控制靜脈瘤出血、頑固性腹水)，並非以「延長末期肝硬化病人存活期」為主要目的，故本敘述錯誤。重度肝性腦病變、失代償肝衰竭或嚴重心衰竭為TIPS之禁忌症、術後門體壓力梯度下降(目標<12 mmHg)、最常見分流路徑為右肝靜脈至右門脈，皆為正確描述。\n\n見 [[tips-portosystemic-shunt]]",
+      "images": [],
+      "concepts": [
+        "tips-portosystemic-shunt"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-317",
+      "year": 2018,
+      "number": 317,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is less likely to be the indications of CEUS(contrast-enhanced ultrasound) on FLL(focal liver lesion.)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CEUS is performed to characterize observations detected at surveillance US."
+        },
+        {
+          "letter": "B",
+          "text": "CEUS can be performed to characterize observations detected on prior CT / MRI if the observations are visible as distinct nodules on pre-contrast gray-scale ultrasound."
+        },
+        {
+          "letter": "C",
+          "text": "To characterize observations (generally >10mm and visible as distinct nodules at pre-contrast grayscale US) in patients at risk for HCC and establish a diagnosis of HCC."
+        },
+        {
+          "letter": "D",
+          "text": "To differentiated between different metastases."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.222；LI-RADS CEUS 2016.",
+      "explanation": "區分「不同種類轉移病灶彼此之間」並非CEUS於局部肝病灶(FLL)之常見適應症，故較不可能為適應症。CEUS常見適應症為：確認監測超音波所偵測到之異常表現、確認先前CT/MRI偵測到且於灰階超音波上呈明顯結節之異常表現、於HCC高風險病人中確認一般>10mm且灰階超音波呈明顯結節之異常表現以建立HCC診斷。\n\n見 [[li-rads-ceus]]",
+      "images": [],
+      "concepts": [
+        "li-rads-ceus"
       ],
       "checked": false
     }
