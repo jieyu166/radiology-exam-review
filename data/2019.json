@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 330,
+  "totalQuestions": 347,
   "questions": [
     {
       "id": "2019-001",
@@ -11965,6 +11965,604 @@
       "images": [],
       "concepts": [
         "lower-gi-bleeding-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-360",
+      "year": 2019,
+      "number": 360,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為最常見的 extra-hepatic collateral artery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Right inferior phrenic artery"
+        },
+        {
+          "letter": "B",
+          "text": "Left inferior phrenic artery"
+        },
+        {
+          "letter": "C",
+          "text": "Suprarenal arteries"
+        },
+        {
+          "letter": "D",
+          "text": "Omental arteries"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2017;37:964",
+      "explanation": "正確答案為 **A**（右下橫膈動脈）。Right inferior phrenic artery 為 HCC TACE 時最常見的 extrahepatic collateral artery，尤其供應 bare area 或 dome 位置的 HCC。\n\n→ [[hcc-tace-collateral]]",
+      "images": [],
+      "concepts": [
+        "hcc-tace-collateral"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-361",
+      "year": 2019,
+      "number": 361,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 bronchiolitis，以下何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bronchiolitis refers to inflammation and/or fibrosis involving airways, typically bronchioles and/or alveolar ducts."
+        },
+        {
+          "letter": "B",
+          "text": "CT images, almost always demonstrate abnormal findings that include centrilobular micronodules, bronchial wall thickening, bronchiolar dilatation and mosaic attenuation."
+        },
+        {
+          "letter": "C",
+          "text": "Infectious bronchiolitis is by far the most common type of bronchiolitis."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2017;37:778",
+      "explanation": "正確答案為 **D**（以上皆正確）。Bronchiolitis 累及細支氣管(A)；CT 幾乎必有異常(B)；infectious bronchiolitis 為最常見類型(C)。\n\n→ [[bronchiolitis-imaging]]",
+      "images": [],
+      "concepts": [
+        "bronchiolitis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-363",
+      "year": 2019,
+      "number": 363,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Aortic nipple 指的是下列何者在 PA view chest X ray 上的影子?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left superior intercostal vein"
+        },
+        {
+          "letter": "B",
+          "text": "Left bronchial artery"
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary vein"
+        },
+        {
+          "letter": "D",
+          "text": "Subclavian vein"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Radiopaedia: Aortic nipple",
+      "explanation": "正確答案為 **A**（left superior intercostal vein）。Aortic nipple 為 PA CXR 上主動脈弓外側的小突起，代表左上肋間靜脈匯入左頭臂靜脈前的投影。\n\n→ [[aortic-nipple]]",
+      "images": [],
+      "concepts": [
+        "aortic-nipple"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-364",
+      "year": 2019,
+      "number": 364,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 pulmonary tuberculosis，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mediastinal and hilar lymphadenopathy is the most common radiologic manifestation of primary tuberculosis."
+        },
+        {
+          "letter": "B",
+          "text": "The cavitation pattern in both primary and post-primary tuberculosis demonstrate an upper lung zone predominance."
+        },
+        {
+          "letter": "C",
+          "text": "Pleural effusion is less common in children."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；RadioGraphics 2017;37:633",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Cavitation 的上肺分佈為 **post-primary（reactivation）TB** 特徵，並非 primary TB（primary TB 空洞少見且不具上肺偏好）。A（LAD為primary TB最常見表現）正確；C（兒童較少肋膜積液）正確。\n\n→ [[pulmonary-tb-imaging]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-tb-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-365",
+      "year": 2019,
+      "number": 365,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為 most common primary osseous malignancy of the chest wall?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple myeloma"
+        },
+        {
+          "letter": "B",
+          "text": "Kaposi sarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "Undifferentiated pleomorphic sarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Chondrosarcoma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2016;36:1287",
+      "explanation": "正確答案為 **D**（Chondrosarcoma）。軟骨肉瘤為胸壁最常見原發性骨惡性腫瘤，好發於肋軟骨交界處。\n\n→ [[chest-wall-malignancy]]",
+      "images": [],
+      "concepts": [
+        "chest-wall-malignancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-366",
+      "year": 2019,
+      "number": 366,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者可能在乳房攝影中產生 high density 的假影?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deodorant (含Aluminum)"
+        },
+        {
+          "letter": "B",
+          "text": "Tattoos"
+        },
+        {
+          "letter": "C",
+          "text": "Shrapnel from gunshot wounds"
+        },
+        {
+          "letter": "D",
+          "text": "Gold deposition (treatment for rheumatoid arthritis)"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；Clinical Breast Imaging: The Essentials P166",
+      "explanation": "正確答案為 **E**（以上皆是）。Deodorant（含鋁）、tattoos、彈片、gold deposition 皆可在乳房攝影產生 high density 假影。\n\n→ [[mammography-artifact]]",
+      "images": [],
+      "concepts": [
+        "mammography-artifact"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-367",
+      "year": 2019,
+      "number": 367,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下的鈣化形式何種有最高的惡性可能性?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coarse heterogeneous"
+        },
+        {
+          "letter": "B",
+          "text": "Amorphous"
+        },
+        {
+          "letter": "C",
+          "text": "Pleomorphic"
+        },
+        {
+          "letter": "D",
+          "text": "Fine linear or fine linear branching"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2016;36:624",
+      "explanation": "正確答案為 **D**（fine linear or fine linear branching）。在 BI-RADS 第五版中，fine linear/branching calcifications 惡性可能性最高（PPV 約70%），為 BI-RADS 4C 或 5。Pleomorphic (C) 次之，amorphous (B) 再次之，coarse heterogeneous (A) 最低。\n\n→ [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-368",
+      "year": 2019,
+      "number": 368,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 background parenchymal enhancement (BPE)，在月經週期的什麼時候較低?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Day 1-6"
+        },
+        {
+          "letter": "B",
+          "text": "Day 7-20"
+        },
+        {
+          "letter": "C",
+          "text": "Day 21-28"
+        },
+        {
+          "letter": "D",
+          "text": "與月經周期無關"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:983-996",
+      "explanation": "正確答案為 **B**（Day 7-20）。BPE 在月經第二週（增殖期）最低，為乳房 MRI 最佳檢查時機。月經期(A)和黃體期(C)BPE 較高。\n\n→ [[breast-bpe]]",
+      "images": [],
+      "concepts": [
+        "breast-bpe"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-369",
+      "year": 2019,
+      "number": 369,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 vascular calcification，以下何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dense, linear, parallel, or \"tram track-like\" calcification"
+        },
+        {
+          "letter": "B",
+          "text": "Most common in postmenopausal women; When seen in younger premenopausal women, it is often in patients with diabetes or in those with underlying renal disease."
+        },
+        {
+          "letter": "C",
+          "text": "In some women, this is a reversible process."
+        },
+        {
+          "letter": "D",
+          "text": "The calcification may not simulating those occurring in DCIS, even when only a portion of the arterial wall is affected, or when small vessels are involved."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Clinical Breast Imaging: The Essentials P150",
+      "explanation": "正確答案為 **D**（錯誤敘述）。乳房血管鈣化在僅部分動脈壁鈣化或累及小血管時，**可能模擬 DCIS 鈣化**。選項 D 說「不會模擬」是錯誤的。A（tram track 型態）、B（停經後好發）、C（部分可逆）皆正確。\n\n→ [[vascular-calcification-breast]]",
+      "images": [],
+      "concepts": [
+        "vascular-calcification-breast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-371",
+      "year": 2019,
+      "number": 371,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "The in-phase and opposed-phase imaging of MRI can be used to characterize tissue composition. The following components show magnetic susceptibility on in-phase imaging, EXCEPT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iron deposition in solid organ"
+        },
+        {
+          "letter": "B",
+          "text": "Hemorrhage"
+        },
+        {
+          "letter": "C",
+          "text": "Metal clips or implants"
+        },
+        {
+          "letter": "D",
+          "text": "Melanin"
+        },
+        {
+          "letter": "E",
+          "text": "Gross fat"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **E**（Gross fat）。In-phase imaging 凸顯 magnetic susceptibility artifact：iron deposition(A)、hemorrhage(B)、metal(C)、melanin(D) 皆會。Gross fat（巨觀脂肪）不產生 in-phase susceptibility，而是在 opposed-phase 產生 India ink artifact（水脂界面化學位移）。\n\n→ [[chemical-shift-mri]]",
+      "images": [],
+      "concepts": [
+        "chemical-shift-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-372",
+      "year": 2019,
+      "number": 372,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The Spetzler-Martin arteriovenous malformation (AVM) grading system according to the following three features, which of following was WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Size of nidus"
+        },
+        {
+          "letter": "B",
+          "text": "Eloquence of adjacent brain"
+        },
+        {
+          "letter": "C",
+          "text": "Presence of venous ectasia"
+        },
+        {
+          "letter": "D",
+          "text": "Venous drainage"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Spetzler RF, Martin NA. JNAG 1986;65:476-483",
+      "explanation": "正確答案為 **C**（venous ectasia）。Spetzler-Martin AVM 分級依據三項：nidus 大小(A)、鄰近腦 eloquence(B)、靜脈引流型態 superficial vs deep(D)。**Venous ectasia 非 SM 評分項目**。\n\n→ [[spetzler-martin-avm]]",
+      "images": [],
+      "concepts": [
+        "spetzler-martin-avm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-373",
+      "year": 2019,
+      "number": 373,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not the risk factor of recurrence in pituitary macroadenoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cavernous sinus invasion"
+        },
+        {
+          "letter": "B",
+          "text": "Low ADC value"
+        },
+        {
+          "letter": "C",
+          "text": "Tumor size"
+        },
+        {
+          "letter": "D",
+          "text": "Subtotal resection"
+        },
+        {
+          "letter": "E",
+          "text": "Apoplexy"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **E**（Apoplexy）。垂體大腺瘤復發風險因子包括 cavernous sinus invasion(A)、low ADC value(B)、tumor size(C)、subtotal resection(D)。**Apoplexy（垂體卒中）非復發的獨立風險因子**。\n\n→ [[pituitary-macroadenoma]]",
+      "images": [],
+      "concepts": [
+        "pituitary-macroadenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-374",
+      "year": 2019,
+      "number": 374,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About acute flaccid paralysis in children, which statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MR imaging in enterovirus 71 affected patients typically reveals a rhombencephalitis affecting the dorsal pons and medulla, and a radiculomyelitis with a predilection for the anterior horn cells of the spinal cord and ventral nerve roots."
+        },
+        {
+          "letter": "B",
+          "text": "Patients presenting with acute flaccid paralysis and/or cranial nerve dysfunction during the enterovirus D68 outbreak demonstrate unique imaging findings characterized by brain stem and spinal cord gray matter/anterior horn cells lesions."
+        },
+        {
+          "letter": "C",
+          "text": "Brain stem lesions of enterovirus D68 outbreak most commonly involve the pontine tegmentum."
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（以上皆正確）。EV71 致 rhombencephalitis（dorsal pons/medulla）+ anterior horn cell radiculomyelitis(A)；EV D68 致 brain stem + spinal cord gray matter lesions(B)；EV D68 腦幹病灶最常累及 pontine tegmentum(C)。\n\n→ [[ev71-cns-complications]]",
+      "images": [],
+      "concepts": [
+        "ev71-cns-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-375",
+      "year": 2019,
+      "number": 375,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "For P16+ oropharyngeal cancer, which status is N2 stage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unilateral cervical LN(S) ≤ 3cm in greatest dimension, above of caudal border of cricoid cartilage"
+        },
+        {
+          "letter": "B",
+          "text": "Bilateral cervical LN(S) ≤ 6cm in greatest dimension, above the caudal border of cricoid cartilage"
+        },
+        {
+          "letter": "C",
+          "text": "Unilateral or bilateral retropharyngeal LN ≤ 3cm in greatest dimension (above the caudal border of cricoid cartilage)"
+        },
+        {
+          "letter": "D",
+          "text": "Extension below the caudal border of cricoid cartilage"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；AJCC 8th edition Head and Neck staging",
+      "explanation": "正確答案為 **B**。P16+ OPC 的 N 分期（AJCC 8th）：N1 = 單側淋巴結 ≤6cm 於環狀軟骨下緣以上；**N2 = 雙側淋巴結 ≤6cm 於環狀軟骨下緣以上**；N3 = >6cm 或延伸至環狀軟骨下緣以下。A 為 N1，D 為 N3。\n\n→ [[ajcc-head-neck-8th]]",
+      "images": [],
+      "concepts": [
+        "ajcc-head-neck-8th"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-376",
+      "year": 2019,
+      "number": 376,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "In which one of the following answers can pulmonary ossification be seen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Idiopathic pulmonary fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Aspiration"
+        },
+        {
+          "letter": "C",
+          "text": "Nonspecific interstitial pneumonia"
+        },
+        {
+          "letter": "D",
+          "text": "Pulmonary amyloidosis"
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        },
+        {
+          "letter": "F",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "F",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **F**（以上皆可）。Pulmonary ossification 為肺內成熟骨組織形成，可為 idiopathic 或 secondary，見於 IPF(A)、aspiration(B)、NSIP(C)、pulmonary amyloidosis(D)。\n\n→ [[pulmonary-ossification]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-ossification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-377",
+      "year": 2019,
+      "number": 377,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "The statement of melioidosis, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The \"honeycomb\" appearance has been described to be characteristic for large melioidosis liver abscesses."
+        },
+        {
+          "letter": "B",
+          "text": "Melioidosis is endemic to northern Australia and the Southeast Asia."
+        },
+        {
+          "letter": "C",
+          "text": "Melioidosis is a serious infection by parasite which is found in wet soils."
+        },
+        {
+          "letter": "D",
+          "text": "The lungs are the most commonly affected organ in melioidosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Melioidosis 由**細菌 Burkholderia pseudomallei** 引起，**非 parasite（寄生蟲）**。A（honeycomb肝膿瘍）、B（東南亞/澳洲北部）、D（肺為最常受影響器官）皆正確。\n\n→ [[melioidosis]]",
+      "images": [],
+      "concepts": [
+        "melioidosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-378",
+      "year": 2019,
+      "number": 378,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is wrong about image evaluation for biliary atresia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Biliary atresia can be ruled out if the entire extrahepatic bile duct is seen."
+        },
+        {
+          "letter": "B",
+          "text": "The differential diagnosis of prolonged infant hyperbilirubinemia includes biliary atresia and neonatal hepatitis."
+        },
+        {
+          "letter": "C",
+          "text": "The following image modality can help in diagnosing biliary atresia: sonography, scintigraphy, and MRI."
+        },
+        {
+          "letter": "D",
+          "text": "The diagnosis of biliary atresia can be confirmed if we cannot see extrahepatic bile duct in MRCP study."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（錯誤敘述）。膽道閉鎖的確診需 **intraoperative cholangiogram**，MRCP 看不到肝外膽管並不能確診（可能為技術限制或新生兒膽管太小）。A（見到完整膽管可排除）、B（鑑別含BA與新生兒肝炎）、C（US/scintigraphy/MRI有助診斷）皆正確。\n\n→ [[biliary-atresia]]",
+      "images": [],
+      "concepts": [
+        "biliary-atresia"
       ],
       "checked": false
     }
