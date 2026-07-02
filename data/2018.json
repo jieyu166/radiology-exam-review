@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 302,
+  "totalQuestions": 309,
   "questions": [
     {
       "id": "2018-001",
@@ -11169,6 +11169,265 @@
       "images": [],
       "concepts": [
         "metabolic-bone-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-303",
+      "year": 2018,
+      "number": 303,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following cervical spine injuries is NOT an unstable injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clay shoveler's fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Teardrop fracture"
+        },
+        {
+          "letter": "C",
+          "text": "Hangman's fracture"
+        },
+        {
+          "letter": "D",
+          "text": "Jefferson fracture"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.207；Orthopedic Imaging – A Practical Approach 5th Edition, p.377.",
+      "explanation": "Clay-shoveler骨折(下頸椎棘突骨折)為「穩定」骨折。屈曲型淚滴骨折(flexion teardrop fracture)反映廣泛韌帶損傷合併脊椎不穩定，常合併脊髓損傷(尤其前脊髓症候群)，為不穩定骨折；Hangman骨折(C2椎弓根雙側骨折，即創傷性樞椎脫位)為過度伸展合併牽張所致之不穩定骨折；Jefferson骨折(C1爆裂性骨折，前後弓雙處或多處骨折)為不穩定骨折。\n\n見 [[cervical-spine-fracture-stability]]",
+      "images": [],
+      "concepts": [
+        "cervical-spine-fracture-stability"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-304",
+      "year": 2018,
+      "number": 304,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which ONE of the following image findings is NOT commonly seen in a Brodie abscess on the radiograph?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ill-defined margin"
+        },
+        {
+          "letter": "B",
+          "text": "Surrounding sclerosis"
+        },
+        {
+          "letter": "C",
+          "text": "Center in the metaphysis"
+        },
+        {
+          "letter": "D",
+          "text": "Extending into the growth plate"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.208；Orthopedic Imaging – A Practical Approach 5th Edition, p.800.",
+      "explanation": "Brodie abscess(亞急性骨髓炎)典型呈「界線清楚(well-demarcated)」病灶，而非邊界不清(ill-defined)，故本敘述錯誤。周圍反應性硬化緣、中心位於幹骺端、可延伸跨越生長板，皆為正確典型描述。\n\n見 [[brodie-abscess]]",
+      "images": [],
+      "concepts": [
+        "brodie-abscess"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-305",
+      "year": 2018,
+      "number": 305,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the statement regarding to adnexal tumor is false.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "When searching for ovary, it is often useful to follow the round ligament away from the tapered cornual region of the uterus because this often points toward the ovary."
+        },
+        {
+          "letter": "B",
+          "text": "The claw sign is not useful in determining whether a mass originates from the ovary or the uterus"
+        },
+        {
+          "letter": "C",
+          "text": "Pedunculated lesions from the uterus (usually a fibroid) should have a vascular pedicle extending from the uterus to the mass that can usually be found with imaging."
+        },
+        {
+          "letter": "D",
+          "text": "If ovarian follicles are not visible, or if an abnormality is so large as to distort normal anatomy, tracing the ovarian veins from the inferior vena cava (right) or left renal vein (left) down into the pelvis is often effective."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.211；Problem Solving in Abdominal Imaging, CHAPTER 21, 599-635.",
+      "explanation": "爪徵(claw sign)「有助於」判斷腫塊是否源自子宮(而非卵巢)——腫塊與正常子宮肌層間呈爪狀交界，提示子宮來源(如平滑肌瘤)，故「爪徵無助於判斷」為錯誤敘述。尋找卵巢時沿圓韌帶自子宮角錐狀區向外追蹤常指向卵巢、帶蒂之子宮病灶(通常為肌瘤)應有可見之血管蒂連接子宮與腫塊、卵巢濾泡不可見或異常過大扭曲正常解剖時可沿卵巢靜脈(右側自下腔靜脈、左側自左腎靜脈)向下追蹤至骨盆，皆為正確描述。\n\n見 [[adnexal-tumor-claw-sign]]",
+      "images": [],
+      "concepts": [
+        "adnexal-tumor-claw-sign"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-306",
+      "year": 2018,
+      "number": 306,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "當尿液從膀胱排出時，依序經過哪些構造？(1)membranous urethra (2)Bulbous urethra (3)Pars Nuda (4) prostatic urethra",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1)→(2)→(3)→(4)"
+        },
+        {
+          "letter": "B",
+          "text": "(1)→(4)→(3)→(2)"
+        },
+        {
+          "letter": "C",
+          "text": "(4)→(1)→(3)→(2)"
+        },
+        {
+          "letter": "D",
+          "text": "(4)→(1)→(2)→(3)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.212；Problem Solving in Abdominal Imaging, CHAPTER 19, 530-565.",
+      "explanation": "尿液自膀胱排出依序經過：(4)前列腺部尿道(prostatic urethra) → (1)膜部尿道(membranous urethra) → (3)Pars Nuda(壓迫肌，近端球部尿道與膜部尿道交界之錐狀構造) → (2)球部尿道(bulbous urethra)，其後再接續陰莖部尿道。\n\n見 [[male-urethra-anatomy]]",
+      "images": [],
+      "concepts": [
+        "male-urethra-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-307",
+      "year": 2018,
+      "number": 307,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to nonobstructive mimics of obstructive hydronephrosis is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Renal AVM could be differentiated from hydronephrosis on Doppler ultrasonography."
+        },
+        {
+          "letter": "B",
+          "text": "Renal sinus cyst could be differentiated from hydronephrosis on delayed phase contrast-enhanced ultrasonography (CEUS)."
+        },
+        {
+          "letter": "C",
+          "text": "Staghorn calculus typically accompanys xanthogranulomatous pyelonephritis"
+        },
+        {
+          "letter": "D",
+          "text": "Hydronephrosis is commonly seen in pregnant woman in 3rd trimester."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.213；Problem Solving in Abdominal Imaging, CHAPTER 18, 485-529.",
+      "explanation": "腎竇囊腫(renal sinus cyst)可模擬水腎症，主要應以CT IVP等排泄性影像鑑別(顯示集尿系統正常或受壓變窄/移位但「未」擴張)，而非以延遲期對比增強超音波(CEUS)鑑別，故本敘述錯誤。腎臟動靜脈畸形可以都卜勒超音波與水腎症鑑別、鹿角狀結石常伴隨黃色肉芽腫性腎盂腎炎、妊娠第三孕期常見水腎症(右側較明顯)，皆為正確描述。\n\n見 [[hydronephrosis-mimics]]",
+      "images": [],
+      "concepts": [
+        "hydronephrosis-mimics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-308",
+      "year": 2018,
+      "number": 308,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following ultrasonographical finding is true when we try to differentiate between epididymitis and testicular torsion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Both epididymitis and testicular torsion shows enlarged epididymis size"
+        },
+        {
+          "letter": "B",
+          "text": "Both epididymitis and testicular torsion shows enlarged testis size."
+        },
+        {
+          "letter": "C",
+          "text": "Both epididymitis and testicular torsion shows increased flow to epididymis."
+        },
+        {
+          "letter": "D",
+          "text": "Both epididymitis and testicular torsion shows increased flow to testis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.214；Problem Solving in Abdominal Imaging, CHAPTER 20, 566-598.",
+      "explanation": "⚠️官方答案標示B，惟頁緣加註「A應該也對」——因扭轉(torsion)本身即會造成睪丸「與」附睪皆腫大(increase in the size of the testis and epididymis)，故理論上A(附睪腫大)與B(睪丸腫大)皆為兩者共同表現，考官對單一正解B表達存疑，建議醫師對照原文獻確認。附睪炎(epididymitis)特徵為附睪血流增加(epididymal PSV>15cm/sec，患側/健側比值>1.7，RI<0.5)；扭轉(torsion)特徵為睪丸與附睪血流皆下降、RI>0.75，兩者血流方向相反，故C、D(血流皆增加)不成立。\n\n見 [[testicular-torsion]]",
+      "images": [],
+      "concepts": [
+        "testicular-torsion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-309",
+      "year": 2018,
+      "number": 309,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging finding favors malignancy in adrenal gland?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mass > 4 cm"
+        },
+        {
+          "letter": "B",
+          "text": "Macroscopic fat"
+        },
+        {
+          "letter": "C",
+          "text": "High attenuation (>50 HU)"
+        },
+        {
+          "letter": "D",
+          "text": "Adreniform shape calcification."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.214；Problem Solving in Abdominal Imaging, CHAPTER 17, 464-484.",
+      "explanation": "腎上腺腫塊大小>4公分傾向惡性表現，為腎上腺病灶評估惡性風險的重要影像特徵之一。巨觀脂肪(如myelolipoma/腺瘤)、維持腺體外形之鈣化(adreniform shape calcification)較傾向良性；單純CT高密度(>50HU非顯影)於本題並非首選惡性指標(需搭配其他脂肪含量/washout特徵綜合判斷)。\n\n見 [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
       ],
       "checked": false
     }
