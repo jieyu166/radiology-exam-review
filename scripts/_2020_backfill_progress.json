@@ -1,7 +1,7 @@
 {
-  "next_page": 69,
+  "next_page": 77,
   "total_pages": 398,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69],
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77],
   "added_ids": ["2020-186","2020-187","2020-188","2020-189","2020-190","2020-191","2020-192","2020-193","2020-194","2020-195","2020-196","2020-197","2020-198","2020-199","2020-200","2020-201","2020-202","2020-203","2020-204","2020-205","2020-206","2020-207","2020-208","2020-209","2020-210","2020-211","2020-212"],
   "next_id": 213,
   "dups_skipped": [
@@ -16,7 +16,8 @@
     "p64 Neuro q2=meningioma far from truth→B tumor blush/AV shunting(既有題，已跨年合併2018/2020)",
     "p66-67 北榮q1=architectural distortion 50歲篩檢後續處置→C(既有題2020-007)",
     "p67 北榮q2=BI-RADS 2013 screening audit performance→A PPV1>=12%錯(既有題2020-008)",
-    "p69 CH=Lung-RADS 4A分類→A(既有題)"
+    "p69 CH=Lung-RADS 4A分類→A(既有題)",
+    "批10(頁70-77)：8題候選皆同年重印，無新增。p70 CH=cystic airspace wall thickening→D pathognomonic錯(既有2020-081)；p71 CH=ancillary CT finding endobronchial lesion→D Westermark sign(既有2020-059)；p72 CH=pulmonary hypertension描述錯誤→D right atrial應為left atrial(既有2020-077)；p73 CH=SBRT描述錯誤→C應為2年非4年(既有2020-081區間內、實際為另一題)；p74 CV=high-risk plaque coronary CTA非特徵→A negative remodeling(既有2020-086)；p75 CV=cardiovascular MR正確敘述→C coronary MRA可不打顯影劑(既有2020-090)；p76 CV=prosthetic heart valve描述錯誤→C mechanical更耐久非更易失效(既有題)；p77 CV=cardiac bands描述錯誤→B aberrant papillary muscles有臨床意義(既有題)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改"
@@ -26,5 +27,5 @@
     "2020-187：官方詳解本身對選項D「鈣化之腎內動脈瘤通常congenital/atherosclerotic」加註「似乎也行?NF1的case」表達不確定，已於renal-aml.md加註[!warning]callout建議醫師覆核，暫依官方答案C為預設值",
     "2020-208(PASH)：官方詳解原始標註「ANS: 4」並自行加註「看起來應該都對?」，選項D敘述與參考文獻內容完全吻合、理論上應為正確敘述而非「為非」答案，已於pseudoangiomatous-stromal-hyperplasia.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批1-7(頁1-53)、批8(頁54-61,5題新增2020-203~207)已完成，詳見git歷史。批9(頁62-69)：p54-65為「中山」章節(編號清單格式)，p66起轉為「北榮」章節(恢復表格格式，科目/Anatomy/Code/答案/題目/選項/難易程度/題目來源/擬題者)。批9共12候選題，5題為真正新題(2020-208~212)：208 PASH(新建概念檔，官方答案自我矛盾已標記警示)、209 Gd agent腦沉積風險(重用gadolinium-contrast概念檔)、210 肝硬化腦部錳沉積(新建hepatic-encephalopathy-manganese-deposition概念檔)、211 2015 ATA high suspicious US features(重用thyroid-nodule-us概念檔)、212 FNAC vs core needle biopsy(新建fnac-vs-core-needle-biopsy概念檔)。另有1題跨年合併：2018-169(C6神經根拇指麻痛)與p65 Neuro q3完全相同，已合併years:[2018,2020]。其餘6題同年重印或已於更早session跨年合併(pituitary microadenoma、meningioma)略過。totalQuestions欄位已修正為212。commit 64fc292(批1)、215ec40(批3)、fb3f309(批4)、857fc60(批5)、38e481e(批6)、5e80d9a(批7)、edbe0dd(批8內容)、6ebc420(批8進度)、89d740a(批9內容)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。Bash/PowerShell偶發classifier不可用，已用簡單echo測試+重試策略繼續。下一批應從p70開始，先用render腳本產生頁面PNG。目前進度約17.3%(69/398頁)。"
+  "notes": "批1-7(頁1-53)、批8(頁54-61,5題新增2020-203~207)、批9(頁62-69,5題新增2020-208~212+1跨年合併2018-169)已完成，詳見git歷史。批10(頁70-77)：8題候選皆為同年重印(見dups_skipped)，無新增題目，僅更新進度檔。p70-73仍屬CH章節延續，p74起轉入CV(心血管)章節。totalQuestions維持212(無變動)。commit 64fc292(批1)、215ec40(批3)、fb3f309(批4)、857fc60(批5)、38e481e(批6)、5e80d9a(批7)、edbe0dd(批8內容)、6ebc420(批8進度)、89d740a(批9內容)、1478903(批9進度)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。Bash/PowerShell偶發classifier不可用，已用簡單echo測試+重試策略繼續。下一批應從p78開始，先用render腳本產生頁面PNG。目前進度約19.3%(77/398頁)。"
 }
