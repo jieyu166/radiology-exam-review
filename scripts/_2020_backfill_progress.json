@@ -1,5 +1,5 @@
 {
-  "next_page": 285,
+  "next_page": 293,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -286,7 +286,15 @@
     282,
     283,
     284,
-    285
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293
   ],
   "added_ids": [
     "2020-186",
@@ -443,9 +451,13 @@
     "2020-337",
     "2020-338",
     "2020-339",
-    "2020-340"
+    "2020-340",
+    "2020-341",
+    "2020-342",
+    "2020-343",
+    "2020-344"
   ],
-  "next_id": 341,
+  "next_id": 345,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -542,7 +554,11 @@
     "p281 Breast=DCIS statement NOT correct→B 10%應為30-50%(既有題2020-013)",
     "p282 Breast=MR role in DCIS NOT correct→D(既有題2020-014)",
     "p283 Breast=DCIS MR evaluation NOT correct→D positive margin非risk(既有題2020-015)",
-    "p284 Breast=MR findings of DCIS NOT correct→D(既有題2020-016)"
+    "p284 Breast=MR findings of DCIS NOT correct→D(既有題2020-016)",
+    "p286 CH=primary chest wall tumor wrong→B osteosarcoma most common(既有題2020-057)",
+    "p289 NR=bilateral globi pallidi less likely→A methanol poisoning(既有題2020-131)",
+    "p292 US=TI-RADS highest score feature→A(既有題2020-142)",
+    "p293 US=TI-RADS application correct→A(既有題2020-143)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -564,5 +580,5 @@
     "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批36(頁278-285)：8題候選，5題同年重印(p280-284皆為DCIS/MR相關，對應既有題2020-012~016，同一組RadioGraphics 2010 DCIS來源之連續5題)，3題真新題(2020-338~340)：278游離輻射型態分類(X光/γ射線本質皆為電磁波非粒子型，新建ionizing-radiation-type-classification概念檔)、279輻射生物效應(遺傳效應屬隨機性效應非確定性效應，重用radiation-deterministic-effects.md新增段落)、285兒童骨腫瘤術後移植物影像(透亮區應見於邊緣margin非中心center，新建pediatric-bone-graft-posttreatment概念檔)。totalQuestions(2020)已更新為340。commit 0bc70ab(批36內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p286開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約71.6%(285/398頁)。累計本session已處理154個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批37(頁286-293)：8題候選，4題同年重印(p286=2020-057胸壁腫瘤；p289=2020-131雙側蒼白球病灶；p292=2020-142 TI-RADS高分特徵；p293=2020-143 TI-RADS應用)，4題真新題(2020-341~344)，皆出自同一篇RadioGraphics 2019 Imaging Patterns of Toxic and Metabolic Brain Disorders，新建單一概念檔toxic-metabolic-brain-imaging涵蓋四題：341 Wernicke腦病最可能表現(雙側乳頭體T1顯影後強化)、342滲透壓性脫髓鞘症候群(ODS)腦橋外侵犯應為基底核/視丘/白質非皮質脊髓徑)、343 PRES主要侵犯白質非灰質、344糖尿病性紋狀體病變呈單側紋狀體T1高訊號(與雙側蒼白球病灶模式對比)。totalQuestions(2020)已更新為344。commit fe479ab(批37內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p294開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約73.6%(293/398頁)。累計本session已處理158個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
 }
