@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 333,
+  "totalQuestions": 337,
   "questions": [
     {
       "id": "2020-001",
@@ -12191,6 +12191,154 @@
       "images": [],
       "concepts": [
         "scrotal-trauma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-334",
+      "year": 2020,
+      "number": 334,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of following entities has a key imaging feature of T1 hyperintensity in the pulvinar?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Japan encephalitis"
+        },
+        {
+          "letter": "B",
+          "text": "Fabry disease"
+        },
+        {
+          "letter": "C",
+          "text": "Susac syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Proteus syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Radiopaedia; Insights Imaging. 2018 Dec;9(6):1077-1088",
+      "explanation": "法布瑞氏症(Fabry disease)因醣脂沉積於深部灰質(尤其視丘枕核pulvinar)導致鈣化/礦化，於T1WI呈高訊號，即pulvinar sign，見於少數(約3%)重度腎功能受損之男性病患。",
+      "images": [],
+      "concepts": [
+        "fabry-disease-pulvinar"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-335",
+      "year": 2020,
+      "number": 335,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The \"hummingbird sign\", also known as \"penguin sign\" refers to the appearance of sagittal image of the brainstem in patients with __________.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bickerstaff brainstem encephalitis"
+        },
+        {
+          "letter": "B",
+          "text": "CLIPPERS"
+        },
+        {
+          "letter": "C",
+          "text": "Wernicke encephalopathy"
+        },
+        {
+          "letter": "D",
+          "text": "Progressive supranuclear palsy"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Radiopaedia",
+      "explanation": "進行性核上性麻痺(PSP)因中腦被蓋萎縮，矢狀切面上腦幹上緣由正常上凸變為扁平/凹陷，形似蜂鳥/企鵝之頭部與身體輪廓，稱為hummingbird sign(penguin sign)；另有軸位mickey mouse appearance與morning glory sign等徵象。中腦/橋腦面積比(midbrain to pons area ratio)降至約0.12(正常約0.24)為最準確之影像特徵，並可與MSA-P（橋腦與中腦皆萎縮）區分。",
+      "images": [],
+      "concepts": [
+        "psp-imaging-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-336",
+      "year": 2020,
+      "number": 336,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "在磁振造影中，下列何種波序在針對顱內出血性病灶有較佳的偵測效率?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spin Echo"
+        },
+        {
+          "letter": "B",
+          "text": "Turbo Spin Echo"
+        },
+        {
+          "letter": "C",
+          "text": "Gradient echo (GE)"
+        },
+        {
+          "letter": "D",
+          "text": "無差異"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: MRI IN PRACTICE, Ch.2, p.34",
+      "explanation": "梯度回波(Gradient echo, GE)波序因無180度重聚脈衝，對磁場不均勻性(如出血產物之順磁性代謝物造成之磁化率效應)較敏感，故對顱內出血性病灶之偵測效率優於Spin Echo或Turbo Spin Echo。",
+      "images": [],
+      "concepts": [
+        "gre-hemorrhage-detection"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-337",
+      "year": 2020,
+      "number": 337,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "游離輻射的特性，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "可感受到熱"
+        },
+        {
+          "letter": "B",
+          "text": "無色"
+        },
+        {
+          "letter": "C",
+          "text": "無味"
+        },
+        {
+          "letter": "D",
+          "text": "無感覺"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: 原子、輻射、與輻射防護, Ch.1, p.2",
+      "explanation": "游離輻射之特性為無色、無味、人體無法直接感知(無感覺)；於低能量傳遞情形下亦通常無明顯熱效應。⚠️ 官方詳解答案標示為D，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)是否才是錯誤敘述(游離輻射一般而言不會被人體直接感受到熱)，與官方標示D有出入，已於ionizing-radiation-characteristics.md加註[!warning]callout，暫依官方標示D為預設值，建議醫師覆核。",
+      "images": [],
+      "concepts": [
+        "ionizing-radiation-characteristics"
       ],
       "checked": false
     }
