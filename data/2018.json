@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 348,
+  "totalQuestions": 357,
   "questions": [
     {
       "id": "2018-001",
@@ -12907,6 +12907,343 @@
       "images": [],
       "concepts": [
         "slipped-capital-femoral-epiphysis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-349",
+      "year": 2018,
+      "number": 349,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於Perthes disease何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An idiopathic avascular necrosis (AVN) of the femoral epiphysis seen in children."
+        },
+        {
+          "letter": "B",
+          "text": "more common in girls"
+        },
+        {
+          "letter": "C",
+          "text": "coxa magna present in the late stage of disease"
+        },
+        {
+          "letter": "D",
+          "text": "MRI can help early diagnosis, before the onset of x-ray findings"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Dillman JR, Hernandez RJ. MRI of Legg-Calve-Perthes disease. Am J Roentgenol. 2009;193 (5): 1394-407.",
+      "explanation": "Boys are five times more likely to be affected than girls. Perthes disease男孩多於女孩(約5倍)。\n\n見 [[sufe-vs-perthes-disease]]",
+      "images": [],
+      "concepts": [
+        "sufe-vs-perthes-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-350",
+      "year": 2018,
+      "number": 350,
+      "years": [
+        2018
+      ],
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is true for Le Fort I fracture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Separation at nasofrontal suture."
+        },
+        {
+          "letter": "B",
+          "text": "Fracture of the inferior orbital rim."
+        },
+        {
+          "letter": "C",
+          "text": "Fracture of zygomatic arch"
+        },
+        {
+          "letter": "D",
+          "text": "Fracture of anterolateral margin of the nasal cavity."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "How to simplify the CT diagnosis of Le Fort fracture. AJR 2005;184:1700-1705.",
+      "explanation": "Le Fort I為水平上頜骨折(floating palate)，骨折線通過齒槽脊、鼻腔外側壁(鼻腔前外側緣/梨狀孔)、上頜竇下壁。A鼻額縫=III、B下眶緣=II、C顴弓=ZMC非Le Fort。\n\n見 [[le-fort-fracture]]",
+      "images": [],
+      "concepts": [
+        "le-fort-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-351",
+      "year": 2018,
+      "number": 351,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is thought to have different embryonic origin from the rest?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colloid cyst"
+        },
+        {
+          "letter": "B",
+          "text": "Neurenteric cyst"
+        },
+        {
+          "letter": "C",
+          "text": "Dermoid cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Rathke cleft cyst"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Chapter 27, Imaging of the brain. Elsevier/Saunders, Philadelphia",
+      "explanation": "A, B, D為endodermal origin；dermoid cyst為先天性包涵囊(畸胎瘤性、含發育成熟實質組織)，胚胎來源不同。\n\n見 [[intracranial-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "intracranial-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-352",
+      "year": 2018,
+      "number": 352,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is not reducing radiation exposure of the patient during angiography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Maximize the use of filters"
+        },
+        {
+          "letter": "B",
+          "text": "Minimize the use of geometric magnification"
+        },
+        {
+          "letter": "C",
+          "text": "Collimate as much as possible."
+        },
+        {
+          "letter": "D",
+          "text": "Keep filming rates as low as possible."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Practical neuroangiography (2nd Edition); page 107",
+      "explanation": "官方標示答案A。⚠️惟增加濾片(beam filtration)通常會降低病人劑量，此標示物理上存疑；B減少幾何放大、C盡量準直、D降低攝影張數皆明確降劑量。待醫師確認。\n\n見 [[fluoroscopy-radiation-safety]]",
+      "images": [],
+      "concepts": [
+        "fluoroscopy-radiation-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-353",
+      "year": 2018,
+      "number": 353,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following MR imaging technique or image is the BEST for differentiating Epidermoid cyst and Arachnoid cyst located in the cerebellar pontine angle cistern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2 FLAIR image"
+        },
+        {
+          "letter": "B",
+          "text": "T2 Fast spine echo image"
+        },
+        {
+          "letter": "C",
+          "text": "IV Gd contrast enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "DWI (diffusion weighted imaging)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Expert Differential Diagnosis: Brain and Spine 2009 1st edition, Section 4, page 28.",
+      "explanation": "epidermoid cyst於DWI呈高訊號(限制擴散)，arachnoid cyst隨CSF無限制擴散，DWI為兩者鑑別最佳序列。\n\n見 [[intracranial-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "intracranial-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-354",
+      "year": 2018,
+      "number": 354,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於hemichorea hemiballism syndrome，下列敘述何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usually due to nonketotic hyperglycemia secondary to diabetes mellitus."
+        },
+        {
+          "letter": "B",
+          "text": "Generally unilateral affecting caudate nucleus and putamen"
+        },
+        {
+          "letter": "C",
+          "text": "Hypodensity on non-contrast CT, hyperintensity on T1WI"
+        },
+        {
+          "letter": "D",
+          "text": "Causes of MR abnormalities: presence of gemistocytes, microbleeds, calcium, demyelination, macrophages"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Hemichorea-hemiballism: an explanation for MR signal changes. Shan, D M Ho, C Chang, H C Pan and M M Teng. American Journal of Neuroradiology May 1998, 19 (5) 863-870",
+      "explanation": "非顯影CT應為高密度(hyperdense in non contrast CT)，非低密度(T1WI高訊號正確)。\n\n見 [[hemichorea-hemiballism]]",
+      "images": [],
+      "concepts": [
+        "hemichorea-hemiballism"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-355",
+      "year": 2018,
+      "number": 355,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於青少年運動員的運動傷害，影像判讀的注意事項，以下敘述何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X光片可以探查到創傷性骨折，但是無法看出chronic overuse、infection、inflammation、或neoplasm的線索"
+        },
+        {
+          "letter": "B",
+          "text": "輕微的physeal widening可歸因於acute Salter-Harris fracture或chronic overuse；與對側關節的比較和追蹤X光片的變化能夠幫助診斷"
+        },
+        {
+          "letter": "C",
+          "text": "雙側關節的影像對稱並無法保證毫無異常，尤其像是體操選手的手腕和長跑選手的下肢"
+        },
+        {
+          "letter": "D",
+          "text": "MRI的fluid-sensitive sequences尤其是STIR與T2WI fat saturated影像可以偵測出未成年孩童的physeal & epiphyseal injuries"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiology. 2017 Jul; 284(1):25-42. Sports and Growing Musculoskeletal System: Sports Imaging Series.",
+      "explanation": "X光片亦能提供chronic overuse/感染/發炎/腫瘤之線索(骨膜反應、生長板變化等)，非僅能看創傷性骨折，此敘述為非。\n\n見 [[pediatric-sports-injury-imaging]]",
+      "images": [],
+      "concepts": [
+        "pediatric-sports-injury-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-356",
+      "year": 2018,
+      "number": 356,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關spondyloarthropathy，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spondyloarthropathy的定義涵蓋一大群慢性發炎的風濕免疫疾病，包括ankylosing spondylitis, reactive arthritis, arthritis or spondylitis associated with inflammatory bowel disease, psoriatic arthritis, 還有undifferentiated spondyloarthritis"
+        },
+        {
+          "letter": "B",
+          "text": "在大多數的axial spondyloarthropathy疾病裡, sacroiliac joints是最常被攻擊的，sacroiliitis也是最初的表現"
+        },
+        {
+          "letter": "C",
+          "text": "現今axial spondyloarthropathy已有anti-TNF藥物可供治療，但是疾病發作時往往X光片並無異常，目前的診斷主流已轉由MRI來做診斷標準"
+        },
+        {
+          "letter": "D",
+          "text": "在sacroiliac joint，因為它的上背部屬於syndesmosis，而且iliac side的軟骨厚度較厚，所以在sacroiliitis發作時，sacral alae往往比較嚴重"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiographics. 2013 Jul-Aug; 33(4):933-56. Sacroiliitis Associated with Axial Spondyloarthropathy: New Concepts and Latest Trends.",
+      "explanation": "前方關節透明軟骨薦骨側較厚、髂骨側較薄；正因髂骨側軟骨薄，結構性變化從髂骨側開始且較嚴重(more profuse on iliac facet)。D之方向顛倒為非。\n\n見 [[sacroiliitis-spondyloarthropathy]]",
+      "images": [],
+      "concepts": [
+        "sacroiliitis-spondyloarthropathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-357",
+      "year": 2018,
+      "number": 357,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "In injuries of the knee, the medial meniscus is frequently torn because it is firmly attached to which structure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior cruciate ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Fibular collateral ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Tibial collateral ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Patellar ligament"
+        },
+        {
+          "letter": "E",
+          "text": "Patellar retinaculum"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "University of Michigan Medical School, musculoskeletal quiz",
+      "explanation": "內側半月板牢固附著於脛側副韌帶(tibial collateral ligament/MCL)，活動度低故受外力時易撕裂。\n\n見 [[medial-meniscus-attachment]]",
+      "images": [],
+      "concepts": [
+        "medial-meniscus-attachment"
       ],
       "checked": false
     }
