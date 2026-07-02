@@ -21,14 +21,19 @@ dateRev: 2026-06-30
 - **Osteoporosis circumscripta（顱骨）**：Paget disease **溶骨早期**顱骨局部邊界清楚的**透亮（溶骨）區**。[^1]
 - **Ivory vertebra（脊椎）**：**瀰漫均勻硬化**的椎體,可見於 Paget disease,但**非特異**（亦見於淋巴瘤、轉移性攝護腺癌等硬化性病灶）。[^1]
 - **Hole-within-hole appearance（顱骨）——『非』Paget disease 徵象**：此為**嗜伊紅性肉芽腫（Eosinophilic Granuloma, EG）**在顱骨的特徵性表現——因病灶對顱骨內外板侵犯程度不同，造成**雙重輪廓（double contour）或斜邊（bevelled edge）外觀**（內板受累範圍常大於外板）。[^2]
+- **續發性骨肉瘤（secondary osteosarcoma）與 Paget disease 之關聯**：續發性骨肉瘤與**潛在 Paget disease（Paget 肉瘤變）相關**，並非僅發生於放射治療後；好發於**中老年人**（非兒童為主，兒童骨肉瘤多為原發性）；**預後較原發性骨肉瘤差**。[^4]
 
 > [!note] 考點：下列何種徵象「不」與 Paget disease 相關?
 > **Hole-within-hole appearance in long bones（B）**——此為顱骨嗜伊紅性肉芽腫（EG）的特徵，非 Paget disease。Blade-of-grass（長骨）、cotton-wool（顱骨）、osteoporosis circumscripta（顱骨）、ivory vertebra（脊椎）皆為 Paget disease 相關徵象。[^1][^2]
+
+> [!note] 考點：續發性骨肉瘤(secondary osteosarcoma)與何者相關？
+> **潛在 Paget disease（A）**——續發性骨肉瘤與 Paget 氏病肉瘤變相關，非僅見於放療後、非兒童好發、預後較原發性骨肉瘤差。[^4]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65. doi:10.2214/AJR.10.7264：Paget disease 徵象含 blade-of-grass（長骨）、cotton-wool（顱骨）、osteoporosis circumscripta（顱骨溶骨期）、ivory vertebra（脊椎,非特異）。
 [^2]: 官方 2017 詳解（同篇附註）：hole-within-hole appearance 為顱骨嗜伊紅性肉芽腫（EG）特徵,因內外板不對稱受侵犯呈雙重輪廓/斜邊外觀,非 Paget disease 徵象。
 [^3]: Lesions of the Petrous Apex: Classification and Findings at CT and MR Imaging. RadioGraphics 2012;32:151-173：Paget disease侵犯petrous apex時,好發部位為顱蓋(calvaria)、顱底(skull base)、顳骨(temporal bones)（非顏面骨facial bones）;可為多骨性(polyostotic)或單骨性(monostotic);分溶骨、混合、硬化、重塑四期;MR上T1/T2訊號不均伴不均勻強化。
+[^4]: 官方2020詳解；Ref: AJR 2008, Imaging of Osteosarcoma After Irradiation：續發性骨肉瘤與潛在Paget氏病相關（Paget肉瘤變），非僅見於放療後；好發中老年人；預後較原發性骨肉瘤差。
 
 ## 題目
 > [!question]- All of the following signs are associated with Paget disease EXCEPT: (2017-254)
@@ -36,6 +41,9 @@ dateRev: 2026-06-30
 
 > [!question]- Which of the following statements about Paget disease involving petrous apex is FALSE? (2017-302)
 > **B為偽**——Paget disease典型侵犯**顱蓋(calvaria)、顱底(skull base)、顳骨(temporal bones)**，非「顏面骨(facial bones)」。可為多骨性或單骨性(A)、分溶骨/混合/硬化/重塑四期(C)、MR上訊號與強化不均(D)皆為真。[^3]
+
+> [!question]- Which is TRUE regarding secondary osteosarcomas? (2020-322)
+> **與潛在Paget氏病相關（A）**——續發性骨肉瘤與Paget氏病肉瘤變相關，非僅見於放療後、非兒童好發、預後較原發性骨肉瘤差。[^4]
 
 ## 考題
 ```dataview

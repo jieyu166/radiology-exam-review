@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 319,
+  "totalQuestions": 325,
   "questions": [
     {
       "id": "2020-001",
@@ -11673,6 +11673,228 @@
       "images": [],
       "concepts": [
         "pronator-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-320",
+      "year": 2020,
+      "number": 320,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which tarsal bone has no muscular or tendinous attachments?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcaneus"
+        },
+        {
+          "letter": "B",
+          "text": "Navicular"
+        },
+        {
+          "letter": "C",
+          "text": "Talus"
+        },
+        {
+          "letter": "D",
+          "text": "Cuboid"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: AJR 2010, Radiographic Assessment of Pediatric Foot Alignment",
+      "explanation": "距骨(talus)無任何肌肉或肌腱附著，其血液供應完全依賴周邊韌帶與關節囊進入之血管，故骨折後易發生缺血性壞死(AVN)。",
+      "images": [],
+      "concepts": [
+        "talus-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-321",
+      "year": 2020,
+      "number": 321,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "When necrotizing fasciitis is suspected, which CT finding is important for definitive diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gas tracking with fluid collection along the fascial planes"
+        },
+        {
+          "letter": "B",
+          "text": "Subcutaneous fat stranding"
+        },
+        {
+          "letter": "C",
+          "text": "Skin thickening"
+        },
+        {
+          "letter": "D",
+          "text": "Muscle enlargement with enhancement"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: AJR 2010, Imaging of Necrotizing Fasciitis",
+      "explanation": "壞死性筋膜炎CT定性診斷之關鍵徵象為「氣體沿筋膜層追蹤合併液體聚積(gas tracking with fluid collection along fascial planes)」；皮下脂肪絮狀變化、皮膚增厚、肌肉腫大強化皆為非特異性軟組織感染徵象，無法確診壞死性筋膜炎。",
+      "images": [],
+      "concepts": [
+        "necrotizing-fasciitis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-322",
+      "year": 2020,
+      "number": 322,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is TRUE regarding secondary osteosarcomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Secondary osteosarcoma is associated with underlying Paget's disease"
+        },
+        {
+          "letter": "B",
+          "text": "Secondary osteosarcoma occurs exclusively after radiation therapy"
+        },
+        {
+          "letter": "C",
+          "text": "Secondary osteosarcoma has a better prognosis than primary osteosarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Secondary osteosarcoma most commonly affects children"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: AJR 2008, Imaging of Osteosarcoma After Irradiation",
+      "explanation": "續發性骨肉瘤(secondary osteosarcoma)與潛在Paget氏病相關(Paget肉瘤變)，並非僅發生於放射治療後；多見於中老年人(非兒童為主)，預後較原發性骨肉瘤差。",
+      "images": [],
+      "concepts": [
+        "paget-disease-bone"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-323",
+      "year": 2020,
+      "number": 323,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is the most common cause of spontaneous intracranial hemorrhage in young adults?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vascular malformation"
+        },
+        {
+          "letter": "B",
+          "text": "Hypertension"
+        },
+        {
+          "letter": "C",
+          "text": "Coagulopathy"
+        },
+        {
+          "letter": "D",
+          "text": "Amyloid angiopathy"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Osborn's Brain Imaging, Pathology and Anatomy, p.112",
+      "explanation": "年輕成人自發性腦出血最常見病因為血管畸形(vascular malformation，如AVM、海綿狀血管瘤)，其次為藥物濫用(古柯鹼、安非他命)；高血壓性出血好發於中老年人，amyloid angiopathy亦好發於老年人腦葉出血。",
+      "images": [],
+      "concepts": [
+        "spontaneous-ich-young-adults"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-324",
+      "year": 2020,
+      "number": 324,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is not normal content of retropharyngeal space?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fat"
+        },
+        {
+          "letter": "B",
+          "text": "Salivary gland"
+        },
+        {
+          "letter": "C",
+          "text": "Small vessels"
+        },
+        {
+          "letter": "D",
+          "text": "Lymph nodes"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: AJR 2011; 196: W426-432",
+      "explanation": "咽後間隙(retropharyngeal space)正常內容物為脂肪組織、咽後淋巴結與小血管；唾液腺並非咽後間隙之正常內容物。",
+      "images": [],
+      "concepts": [
+        "retropharyngeal-space"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-325",
+      "year": 2020,
+      "number": 325,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is associated with retropharyngeal edema?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcific tendinitis"
+        },
+        {
+          "letter": "B",
+          "text": "Internal jugular vein thrombosis"
+        },
+        {
+          "letter": "C",
+          "text": "Radiation"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: AJR 2011; 196: W426-432",
+      "explanation": "咽後間隙水腫(retropharyngeal edema)可見於鄰近發炎(如頸長肌鈣化性肌腱炎)、內頸靜脈栓塞、放射治療後等多種情形，故A/B/C皆正確。",
+      "images": [],
+      "concepts": [
+        "retropharyngeal-space"
       ],
       "checked": false
     }
