@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 181,
+  "totalQuestions": 186,
   "questions": [
     {
       "id": "2020-001",
@@ -6620,6 +6620,43 @@
       "images": [],
       "concepts": [
         "iodinated-contrast-media"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-186",
+      "year": 2020,
+      "number": 186,
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following sign is not typical for intracapsular rupture of silicone breast implants?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Linguine sign"
+        },
+        {
+          "letter": "B",
+          "text": "Snowstorm sign"
+        },
+        {
+          "letter": "C",
+          "text": "Stepladder sign"
+        },
+        {
+          "letter": "D",
+          "text": "Keyhole sign"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；RadioGraphics 2017;37(2):366-382",
+      "explanation": "**Snowstorm sign為extracapsular rupture之超音波徵象**（游離矽膠散布於乳房實質造成瀰漫回音雜訊），非intracapsular rupture典型徵象，故(B)為非。\n\n(A) 對：Linguine sign為intracapsular rupture典型MRI/US徵象（塌陷外殼漂浮）。\n(B) **錯（正解）**：Snowstorm sign屬extracapsular rupture，非intracapsular。\n(C) 對：Stepladder sign為intracapsular rupture超音波徵象之一。\n(D) 對：Keyhole/noose sign為intracapsular rupture典型徵象。\n\n→ [[breast-implant-rupture]]",
+      "images": [],
+      "concepts": [
+        "breast-implant-rupture"
       ],
       "checked": false,
       "years": [
