@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 406,
+  "totalQuestions": 420,
   "questions": [
     {
       "id": "2019-001",
@@ -14775,6 +14775,539 @@
       "images": [],
       "concepts": [
         "liver-elastography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-447",
+      "year": 2019,
+      "number": 447,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following descriptions is wrong about peripheral arterial disease (PAD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atherosclerosis resulting in PAD is the most common cause of chronic limb ischemia"
+        },
+        {
+          "letter": "B",
+          "text": "Continued smoking or coexistent diabetes portends worse clinical outcomes for claudicants, including more frequent eventual amputation"
+        },
+        {
+          "letter": "C",
+          "text": "Risk factors for PAD include diabetes, hypertension, chronic renal insufficiency, male, hyperlipidemia, but exclude smoking"
+        },
+        {
+          "letter": "D",
+          "text": "Patients with critical limb ischemia present with some combination of ischemic rest pain, non-healing ulcers and gangrene"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Cardiovascular Imaging 2011, p1573-1589",
+      "explanation": "正確答案為 **C**（錯誤敘述）。吸菸是 PAD **最重要的可改變危險因子**之一，不應排除。其餘敘述皆正確。\n\n→ [[pad-peripheral-arterial]]",
+      "images": [],
+      "concepts": [
+        "pad-peripheral-arterial"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-448",
+      "year": 2019,
+      "number": 448,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "In a patient with Buerger disease, which one of the following descriptions is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Also known as thromboangiitis obliterans, is a chronic, non-atherosclerotic, inflammatory, thrombotic arteritis"
+        },
+        {
+          "letter": "B",
+          "text": "It predominantly involves the lower limbs in young male smokers"
+        },
+        {
+          "letter": "C",
+          "text": "Characteristic angiographic findings include extensive arterial occlusive disease, corkscrew collateral vessels and involving the larger inflow vessels"
+        },
+        {
+          "letter": "D",
+          "text": "Endovascular angioplasty is usually ineffective for treatment"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Dimmick SJ et al. Clin Radiol. 2012;67(12):1207-11",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Buerger disease 侵犯中小型血管，其特徵為**保留（spare）較大 inflow vessels**，而非侵犯。Corkscrew collaterals 正確，但大血管不受累。\n\n→ [[buerger-disease]]",
+      "images": [],
+      "concepts": [
+        "buerger-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-449",
+      "year": 2019,
+      "number": 449,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Concerning the MR imaging presentation of acute myocardial infarction, which one of the followings is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2WI typically shows increased signal intensity in affected region"
+        },
+        {
+          "letter": "B",
+          "text": "Late gadolinium enhancement typically shows hyperintensity in epicardial region"
+        },
+        {
+          "letter": "C",
+          "text": "First-pass perfusion imaging typically shows decreased wash-in of contrast agent, resulting in subendocardial perfusion defect from affected region"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Diagnostic imaging: Cardiovascular, 2nd Edition, Page 8:67",
+      "explanation": "正確答案為 **B**（false）。急性心肌梗塞的 LGE 呈現**心內膜下（subendocardial）**高訊號，而非心外膜（epicardial）。MI 從心內膜開始，往心外膜方向進展（wavefront phenomenon）。\n\n→ [[cardiac-mri-lge]]",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-lge"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-450",
+      "year": 2019,
+      "number": 450,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding chronic venous insufficiency (CVI), which one of the following descriptions is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CVI is the diagnosis given to patients with venous dysfunction causing edema, skin change, or ulcerations"
+        },
+        {
+          "letter": "B",
+          "text": "The CEAP classification provides insight into the clinical presentation, etiology, anatomy, and pathophysiology"
+        },
+        {
+          "letter": "C",
+          "text": "The CVI patients have edema, skin changes like dermatosclerosis pigmentation, corona phlebectatica or eczema, or healed or active venous ulcer"
+        },
+        {
+          "letter": "D",
+          "text": "May-Thurner's syndrome is occlusion or stenosis of the right iliac vein due to compression by the overriding left common iliac artery"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Vascular Medicine: A Companion to Braunwald's Heart Disease, 2nd ed., 2013, p652",
+      "explanation": "正確答案為 **D**（錯誤敘述）。May-Thurner syndrome 是**左**髂總靜脈受**右**髂總動脈壓迫（夾在動脈與 L5 椎體之間），D 選項把左右方向寫反了。\n\n→ [[chronic-venous-insufficiency]] [[may-thurner]]",
+      "images": [],
+      "concepts": [
+        "chronic-venous-insufficiency",
+        "may-thurner"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-451",
+      "year": 2019,
+      "number": 451,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "關於 Marfan syndrome，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "影像上呈現 annuloaortic ectasia，但 sinus of Valsalva 大小正常"
+        },
+        {
+          "letter": "B",
+          "text": "屬於遺傳疾病，有家族史"
+        },
+        {
+          "letter": "C",
+          "text": "有此症的懷孕婦女，有顯著增加 aortic dissection 的風險"
+        },
+        {
+          "letter": "D",
+          "text": "當 aortic root diameter 小於 5cm，但每年增加 1cm 以上，建議開刀處理"
+        },
+        {
+          "letter": "E",
+          "text": "當 aortic root diameter 超過 5cm，應在破裂之前預防性開刀處理"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Diagnostic Imaging, Chest, p II-2-34",
+      "explanation": "正確答案為 **A**（為非）。Marfan syndrome 的特徵為 annuloaortic ectasia 伴隨 sinus of Valsalva **擴大**，而非大小正常。Sinus of Valsalva 擴張（pear-shaped aortic root）是 Marfan 的標誌性表現。\n\n→ [[marfan-syndrome]]",
+      "images": [],
+      "concepts": [
+        "marfan-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-452",
+      "year": 2019,
+      "number": 452,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "依據 2016 ACR 可用於蜘蛛網膜下注射之含碘對比劑包括下列何藥物？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Omnipaque 350"
+        },
+        {
+          "letter": "B",
+          "text": "Isovue-M 300 (Iopamidol 200/300)"
+        },
+        {
+          "letter": "C",
+          "text": "Visipaque 320"
+        },
+        {
+          "letter": "D",
+          "text": "Ultravist 240"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2017 中華民國放射線醫學會對比劑手冊，第 4 頁",
+      "explanation": "正確答案為 **B**。Isovue-M（Iopamidol）是經核准可用於蜘蛛網膜下注射的含碘對比劑。Omnipaque 180/240/300 也可用於 intrathecal，但 350 濃度不可。Visipaque 與 Ultravist 未核准 intrathecal 使用。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-453",
+      "year": 2019,
+      "number": 453,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種症狀為含碘對比劑之遲發不良反應之最常見症狀？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "嚴重低血壓"
+        },
+        {
+          "letter": "B",
+          "text": "皮膚反應"
+        },
+        {
+          "letter": "C",
+          "text": "唾液腺腫大"
+        },
+        {
+          "letter": "D",
+          "text": "心臟停止"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2017 中華民國放射線醫學會對比劑手冊，第 8 頁",
+      "explanation": "正確答案為 **B**。含碘對比劑遲發不良反應（1小時至1週內）最常見為**皮膚反應**（皮疹、蕁麻疹、搔癢），多為自限性。嚴重低血壓、心臟停止為急性反應，唾液腺腫大少見。\n\n→ [[contrast-adverse-reactions]]",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-454",
+      "year": 2019,
+      "number": 454,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "使用下列何種含碘對比劑，較其他種含碘對比劑容易發生遲發不良反應？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "離子性高張含碘對比劑"
+        },
+        {
+          "letter": "B",
+          "text": "非離子性低張含碘對比劑"
+        },
+        {
+          "letter": "C",
+          "text": "離子性低張含碘對比劑"
+        },
+        {
+          "letter": "D",
+          "text": "非離子性等張含碘對比劑"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2017 中華民國放射線醫學會對比劑手冊，第 8 頁",
+      "explanation": "正確答案為 **D**。使用等張對比劑（非離子性等張，即 Iodixanol/Visipaque）較非離子性低張對比劑容易發生遲發皮膚反應。\n\n→ [[iodinated-contrast-media]] [[contrast-adverse-reactions]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media",
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-455",
+      "year": 2019,
+      "number": 455,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "有關不適合用於慢性嚴重腎臟疾病及急性腎衰竭之磁振造影受檢者的含釓對比劑之化學構造及代謝途徑，下列敘述何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Omniscan 為線狀結構，主要由肝臟代謝"
+        },
+        {
+          "letter": "B",
+          "text": "Magnevist 為環狀結構，主要由腎臟代謝"
+        },
+        {
+          "letter": "C",
+          "text": "Optimark 為線狀結構，主要由腎臟代謝"
+        },
+        {
+          "letter": "D",
+          "text": "Dotarem 為環狀結構，主要由肝臟代謝"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2017 中華民國放射線醫學會對比劑手冊，第 34-35 頁",
+      "explanation": "正確答案為 **C**。Optimark（Gadoversetamide）為**線狀（linear）、非離子**，主要由**腎臟**排泄。A 錯：Omniscan 為線狀但主要由腎臟（非肝臟）排泄。B 錯：Magnevist 為**線狀**（非環狀）。D 錯：Dotarem 為環狀但主要由**腎臟**（非肝臟）排泄。\n\n→ [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-456",
+      "year": 2019,
+      "number": 456,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何種含碘對比劑為非離子性等張之含碘對比劑？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Omnipaque 300"
+        },
+        {
+          "letter": "B",
+          "text": "Ultravist 300"
+        },
+        {
+          "letter": "C",
+          "text": "Visipaque 320"
+        },
+        {
+          "letter": "D",
+          "text": "Isovue 300"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "ACR manual on contrast medium, version 10.6, 2016, page 122",
+      "explanation": "正確答案為 **C**。Visipaque 320（Iodixanol）為唯一的非離子性等張（iso-osmolar）含碘對比劑（非離子性 dimer）。其餘 Omnipaque、Ultravist、Isovue 皆為非離子性**低張**對比劑。\n\n→ [[iodinated-contrast-media]]",
+      "images": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-457",
+      "year": 2019,
+      "number": 457,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following descriptions about Boerhaave syndrome is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Boerhaave syndrome refers to an esophageal rupture secondary to forceful vomiting and retching"
+        },
+        {
+          "letter": "B",
+          "text": "The clinical diagnosis in typical cases is based on Mackler's triad: vomiting, sudden onset of severe chest pain, and pneumothorax"
+        },
+        {
+          "letter": "C",
+          "text": "Esophagography typically demonstrates contrast medium extravasation at a supra-diaphragmatic level"
+        },
+        {
+          "letter": "D",
+          "text": "CT typically shows periesophageal air collections at a supra-diaphragmatic level"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Ghanem N. Emerg Radiol. 2003 Apr;10(1):8-13",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Mackler's triad 為嘔吐、劇烈胸痛、**皮下氣腫（subcutaneous emphysema）**，而非氣胸（pneumothorax）。\n\n→ [[boerhaave-syndrome]]",
+      "images": [],
+      "concepts": [
+        "boerhaave-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-458",
+      "year": 2019,
+      "number": 458,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "About CT presentation of acute interstitial pneumonia, which one of the followings is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Exudative phase showed architectural distortion and pulmonary fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Typically demonstrate apico-postero-basal gradient"
+        },
+        {
+          "letter": "C",
+          "text": "Characteristic peripheral or peribronchial distribution"
+        },
+        {
+          "letter": "D",
+          "text": "Areas of consolidation are also present but are usually less extensive as compared to ground glass opacities and limited to the dependent area of the lung"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "What Every Radiologist Should Know about Idiopathic Interstitial Pneumonias. RadioGraphics 2007;27:595-615",
+      "explanation": "正確答案為 **D**（正確敘述）。AIP 滲出期（exudative phase）中實變區域通常較 GGO 範圍小且局限於依賴側肺區。A 錯：architectural distortion 屬組織化期非滲出期。B 不正確。C 不正確：AIP 呈瀰漫雙側分布而非特定周邊/支氣管周圍分布。\n\n→ [[acute-interstitial-pneumonia]]",
+      "images": [],
+      "concepts": [
+        "acute-interstitial-pneumonia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-459",
+      "year": 2019,
+      "number": 459,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "肺內發現多個結節，根據 Sharpness of Nodular margins 來鑑別診斷，以下何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sarcoidosis 通常是 well-defined margin"
+        },
+        {
+          "letter": "B",
+          "text": "Metastases 通常是 well-defined margin"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumoconiosis 可以是 well-defined or ill-defined margin"
+        },
+        {
+          "letter": "D",
+          "text": "Vasculitis 通常是 well-defined margin"
+        },
+        {
+          "letter": "E",
+          "text": "Aspiration 通常是 ill-defined"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "High-Resolution CT of the Lung, 5th edition, p107",
+      "explanation": "正確答案為 **D**（為非）。血管炎（vasculitis）結節常有 halo sign，邊緣模糊，屬 **ill-defined**，而非 well-defined。\n\n→ [[lung-nodule-margins]]",
+      "images": [],
+      "concepts": [
+        "lung-nodule-margins"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-460",
+      "year": 2019,
+      "number": 460,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is not typically associated with honeycombing lung (pulmonary fibrosis)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hypersensitive pneumonitis"
+        },
+        {
+          "letter": "B",
+          "text": "Scleroderma"
+        },
+        {
+          "letter": "C",
+          "text": "Asthma"
+        },
+        {
+          "letter": "D",
+          "text": "Sarcoidosis"
+        },
+        {
+          "letter": "E",
+          "text": "Asbestosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。氣喘（asthma）為阻塞性氣道疾病，**不會產生蜂窩肺**。長期氣喘可能與 ABPA 相關，但 ABPA 特徵為中央型支氣管擴張，非蜂窩肺。其餘（HP、硬皮症、類肉瘤病、石綿肺）皆可產生 UIP pattern 之蜂窩肺。\n\n→ [[honeycombing-lung]] [[ipf]]",
+      "images": [],
+      "concepts": [
+        "honeycombing-lung",
+        "ipf"
       ],
       "checked": false
     }
