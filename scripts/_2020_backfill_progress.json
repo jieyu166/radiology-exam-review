@@ -1,5 +1,5 @@
 {
-  "next_page": 341,
+  "next_page": 349,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -342,7 +342,15 @@
     338,
     339,
     340,
-    341
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349
   ],
   "added_ids": [
     "2020-186",
@@ -542,9 +550,14 @@
     "2020-380",
     "2020-381",
     "2020-382",
-    "2020-383"
+    "2020-383",
+    "2020-384",
+    "2020-385",
+    "2020-386",
+    "2020-387",
+    "2020-388"
   ],
-  "next_id": 384,
+  "next_id": 389,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -655,7 +668,9 @@
     "p318 GU=Bosniak Classification false statement→D Class I requiring regular follow-up(既有題2020-028)",
     "p331 NR=NMOSD false statement→B dorsal/lateral lesions more common in NMOSD(既有題2020-124)",
     "p334 NR=Chiari malformation false statement→C Chiari I involves vermis(既有題2020-109)",
-    "p338 RP=光電效應容易發生狀況→C內層電子(既有題2020-162)"
+    "p338 RP=光電效應容易發生狀況→C內層電子(既有題2020-162)",
+    "p346 Breast=Mammography擺位評估何者錯誤→D(既有題2020-025，years已含2020/2022)",
+    "p349 CH=不屬於inconsistent with UIP pattern→E reticulations(既有題2020-065)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -664,7 +679,8 @@
     "2017-165(pediatric bacterial meningitis most inappropriate)：p172題與此題A/B/C選項幾乎逐字相同，僅D選項由「抗生素治療併定期追蹤腦膜增厚」改為「隱孢子蟲腦膜炎不到一半病患MRI呈現局部腫塊」，核心考點相同(僅特定指徵需影像，非所有疑似兒童)，已合併years:[2017,2020]，pediatric-meningitis概念檔新增隱孢子蟲腦膜炎MRI表現之新事實(2020版D選項獨有)",
     "2017-168(pediatric SCI most appropriate)：p175題與此題A/C/D選項逐字相同，僅B選項由「SCIWORA不需MRI」改為「SCIWORA之mainstay treatment為nonoperative management」，已合併years:[2017,2020]。⚠️ 官方答案鍵矛盾：2017版標A(同時自註「D A??」存疑)，2020重印版官方答案欄卻改標D，兩年官方key互相矛盾，已於sciwora.md新增[!warning]callout詳述，暫依2017年較早且有明確文獻數據支持(側彎~97%發展率)之A為預設值，強烈建議醫師覆核",
     "2022-154(ectopic thyroid most common form)：p196第2題與此題核心事實相同(lingual thyroid最常見)、正解皆為A，但選項C不同(2020版=submandibular；2022版=hyoid thyroid)，判定為同一考點之選項變異版本，已合併years:[2020,2022]，concepts欄位維持空白(2022原檔未建概念檔，本次未新建以維持最小變動)",
-    "2021-059(hypothalamic hamartoma WRONG)：p218題與此題4個選項逐字完全相同、正解皆為B，已合併years:[2020,2021]，新建hypothalamic-hamartoma概念檔並連結至該題concepts欄位(原為空)"
+    "2021-059(hypothalamic hamartoma WRONG)：p218題與此題4個選項逐字完全相同、正解皆為B，已合併years:[2020,2021]，新建hypothalamic-hamartoma概念檔並連結至該題concepts欄位(原為空)",
+    "2019-006(breast implant imaging敘述何者錯誤)：p348題與此題核心事實相同(keyhole sign=腔內破裂、snowstorm sign=腔外破裂、MRI最準確、乳房攝影敏感度低於超音波)，僅選項C/D措辭與答案位置不同(2019版錯誤點在C『mammography敏感度高於US』；2020版錯誤點改在D『intracapsular silicone呈snowstorm』)，已合併years:[2019,2020]，新建breast-implant-rupture-imaging概念檔並連結"
   ],
   "fig_pages": [],
   "flagged": [
@@ -678,5 +694,5 @@
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批43(頁334-341)：8題候選，2題同年重印(p334=2020-109 Chiari malformation；p338=2020-162光電效應)，6題真新題(2020-377~383)：335 DDH Type II alpha角應43-59度非>60度(重用ddh-hip-lines.md新增Graf分類段落)、336 SCFE早期生長板變化MRI優於CT(新建scfe-imaging概念檔)、337游離輻射防護法規登記備查類物質遺失須立即通報(新建radiation-incident-reporting概念檔)、339腸壁超音波應為交替高低回音同心圓環非單純高回音(新建bowel-wall-us-gut-signature概念檔)、340經陰道超音波闌尾外徑門檻>6mm非8mm(重用acute-appendicitis-imaging.md)、341甲狀舌管囊腫舌骨上層級應為正中線非偏中線(新建thyroglossal-duct-cyst概念檔)。totalQuestions(2020)已更新為383。commit 5a653fa(批43內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p342開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約85.7%(341/398頁)。累計本session已處理197個新題、8個跨年合併。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
+  "notes": "批44(頁342-349)：8題候選，2題同年重印(p346=2020-025 Mammography擺位；p349=2020-065 UIP inconsistent)，1題跨年合併(p348→2019-006 breast implant imaging，新建breast-implant-rupture-imaging概念檔)，5題真新題(2020-384~388)：342兒童甲狀腺乳突癌US應呈低回音非高回音、343兒童淋巴管瘤分隔可見都卜勒血流(342/343新建pediatric-neck-mass-us-findings概念檔)、344 BI-RADS 5th amorphous鈣化PPV最低(重用breast-calcifications.md)、345乳房MRI DWI尚不足取代DCE-MRI(新建breast-mri-screening-role概念檔)、347乳房MRI focus無脂肪門非良性判斷依據(新建breast-mri-focus-characterization概念檔)。totalQuestions(2020)已更新為388。commit ae3c86d(批44內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p350開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約87.7%(349/398頁)。累計本session已處理202個新題、9個跨年合併。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
 }
