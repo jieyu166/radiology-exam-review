@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 266,
+  "totalQuestions": 276,
   "questions": [
     {
       "id": "2018-001",
@@ -9837,6 +9837,372 @@
       "images": [],
       "concepts": [
         "hiv-chest-manifestations"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-267",
+      "year": 2018,
+      "number": 267,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問以下何者\"非\"為自體顯性多囊腎（autosomal dominant polycystic kidney disease）的超音波影像診斷標準？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "15-39 years: ≥ 1 renal cyst"
+        },
+        {
+          "letter": "B",
+          "text": "15-39 years: ≥ 3 renal cyst"
+        },
+        {
+          "letter": "C",
+          "text": "40-59 years: ≥ 2 cysts in each kidney"
+        },
+        {
+          "letter": "D",
+          "text": "≥ 60 years: ≥ 4 cysts in each kidney"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.175；J Am Soc Nephrol. 2009 Jan;20(1):205-12.",
+      "explanation": "依Pei/Ravine統一診斷標準(有陽性家族史前提)，15-39歲應為「總共≥3顆」腎囊腫，而非≥1顆，故本敘述錯誤。15-39歲≥3顆、40-59歲每側≥2顆、≥60歲每側≥4顆皆為正確描述。\n\n見 [[adpkd-diagnostic-criteria]]",
+      "images": [],
+      "concepts": [
+        "adpkd-diagnostic-criteria"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-268",
+      "year": 2018,
+      "number": 268,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問以下何者\"非\"多發性結節症（tuberous sclerosis）常見及常須鑑別診斷的超音波影像發現？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "renal cyst"
+        },
+        {
+          "letter": "B",
+          "text": "renal angiomyolipoma"
+        },
+        {
+          "letter": "C",
+          "text": "renal cell carcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "urothelial carcinoma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.176；Pediatr Neurol. 2013 Oct;49(4):243-54.",
+      "explanation": "泌尿上皮癌並非結節性硬化症常見或常需鑑別診斷之超音波影像發現。腎囊腫、AML、RCC皆為TSC病人腎臟常見或常需鑑別之超音波發現。\n\n見 [[tuberous-sclerosis-renal]]",
+      "images": [],
+      "concepts": [
+        "tuberous-sclerosis-renal"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-269",
+      "year": 2018,
+      "number": 269,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問以下何者\"非\"超音波彈性影像常見的功能？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "分辨良性及惡性病灶"
+        },
+        {
+          "letter": "B",
+          "text": "評估肝臟硬化程度"
+        },
+        {
+          "letter": "C",
+          "text": "評估脂肪肝的程度"
+        },
+        {
+          "letter": "D",
+          "text": "偵測血管內是否有血栓"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.177；Ultrasound Elastography: Review of Techniques and Clinical Applications. Theranostics. 2017;7(5):1303-1329.",
+      "explanation": "偵測血管內血栓並非超音波彈性影像常見功能，血栓偵測主要依賴傳統灰階/都卜勒超音波。彈性影像常見功能包括分辨良惡性病灶(硬度差異)、評估肝臟硬化程度(纖維化分期)、評估脂肪肝程度。\n\n見 [[liver-elastography]]",
+      "images": [],
+      "concepts": [
+        "liver-elastography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-270",
+      "year": 2018,
+      "number": 270,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "When performing biliary sonography, what is the anatomical relationship of the following structures at hepatic hilum, from anterior to posterior? 1. Hepatic artery, 2. Main portal vein, 3. Common bile duct.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "321"
+        },
+        {
+          "letter": "B",
+          "text": "312"
+        },
+        {
+          "letter": "C",
+          "text": "123"
+        },
+        {
+          "letter": "D",
+          "text": "213"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.178；Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 2-4.",
+      "explanation": "肝門處由前至後解剖排列順序為：總膽管(3)在最前方、肝動脈(1)居中、主門脈(2)在最後方，故排列順序為312。\n\n見 [[hepatic-hilum-anatomy]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hilum-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-271",
+      "year": 2018,
+      "number": 271,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of intussusception?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Coil spring appearance"
+        },
+        {
+          "letter": "B",
+          "text": "Target sign"
+        },
+        {
+          "letter": "C",
+          "text": "Pseudokidney sign"
+        },
+        {
+          "letter": "D",
+          "text": "Mural vascularity in intussusceptum"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.179；Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 8-26~8-29.",
+      "explanation": "「Coil spring appearance（彈簧狀外觀）」為鋇劑灌腸(barium enema)之典型影像描述，非超音波典型表現。超音波典型表現為靶徵(target sign)、假腎徵(pseudokidney sign)、套入腸段壁血流(mural vascularity in intussusceptum，反映腸段是否仍存活)。\n\n見 [[pediatric-intussusception-types]]",
+      "images": [],
+      "concepts": [
+        "pediatric-intussusception-types"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-272",
+      "year": 2018,
+      "number": 272,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of chronic cholecystitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thickening of gallbladder wall"
+        },
+        {
+          "letter": "B",
+          "text": "Hyperemic changes of gallbladder wall"
+        },
+        {
+          "letter": "C",
+          "text": "Contracted gallbladder"
+        },
+        {
+          "letter": "D",
+          "text": "Gallstones"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.180；Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 2-28~2-29.",
+      "explanation": "膽囊壁充血性變化(hyperemic changes)較典型見於急性膽囊炎(反映急性發炎充血)，非慢性膽囊炎之典型超音波表現。慢性膽囊炎典型表現為膽囊壁增厚(纖維化，多平滑均勻)、膽囊縮小(contracted)、膽結石(幾乎必有)。\n\n見 [[chronic-cholecystitis]]",
+      "images": [],
+      "concepts": [
+        "chronic-cholecystitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-273",
+      "year": 2018,
+      "number": 273,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not an acoustic variable?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Density"
+        },
+        {
+          "letter": "B",
+          "text": "Pressure"
+        },
+        {
+          "letter": "C",
+          "text": "Distance"
+        },
+        {
+          "letter": "D",
+          "text": "Intensity"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.181。",
+      "explanation": "聲學變數(acoustic variables)共有四項：壓力(pressure)、密度(density)、粒子振動/距離(particle vibration/distance)、溫度(temperature)。強度(intensity)不屬於此四項聲學變數之一(intensity為能量相關參數，非直接的聲學變數)。\n\n見 [[ultrasound-physics-basics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-274",
+      "year": 2018,
+      "number": 274,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "If the frequency of an US wave is doubled, what happens to the period?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Doubles"
+        },
+        {
+          "letter": "B",
+          "text": "Halved"
+        },
+        {
+          "letter": "C",
+          "text": "Remains the same"
+        },
+        {
+          "letter": "D",
+          "text": "4 times greater"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.181。",
+      "explanation": "週期(period)與頻率(frequency)互為倒數關係(T=1/f)，故頻率加倍時週期減半。\n\n見 [[ultrasound-physics-basics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-275",
+      "year": 2018,
+      "number": 275,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "If the transducer diameter increases, the lateral resolution at its smallest dimension is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increased"
+        },
+        {
+          "letter": "B",
+          "text": "Decreased"
+        },
+        {
+          "letter": "C",
+          "text": "Unchanged"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.182。",
+      "explanation": "探頭直徑(孔徑)增加時，聚焦區(focal zone)波束最窄處之側向解析度(lateral resolution)會提升(改善)，故答案為increased。\n\n見 [[ultrasound-physics-basics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-276",
+      "year": 2018,
+      "number": 276,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "在OECD國家2012年「健康與安全」這項調查中，台灣1-4歲兒童死亡率由低到高的排名大約如何？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "倒數前三名"
+        },
+        {
+          "letter": "B",
+          "text": "排名中間三分之一"
+        },
+        {
+          "letter": "C",
+          "text": "前3名"
+        },
+        {
+          "letter": "D",
+          "text": "第一名"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.182；http://www.who.int/healthinfo/statistics/mortality_rawdata/en/",
+      "explanation": "依OECD國家2012年「健康與安全」調查，台灣1-4歲兒童死亡率（每十萬人口，2006-2010五年平均約30.6，24國平均值21.9、標準差4.3、最低為芬蘭15.30），排名由低到高（死亡率越低排名越前）屬「倒數前三名」，即死亡率偏高、排名接近最差之列。\n\n見 [[taiwan-child-mortality-oecd]]",
+      "images": [],
+      "concepts": [
+        "taiwan-child-mortality-oecd"
       ],
       "checked": false
     }

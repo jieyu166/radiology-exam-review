@@ -56,6 +56,13 @@ dateRev: 2026-07-01
 > [!note] 三個考點一次記
 > ①測硬度＝**strain＋shear wave**。②量測＝**禁食、右葉 seg 5/8、深度~4 cm**。③硬化閾值 ≈ **2 m/s**（>13 kPa）。[^1]
 
+## 超音波彈性影像常見臨床功能
+- **常見功能**：**分辨良性與惡性病灶**(硬度差異輔助鑑別)、**評估肝臟硬化程度**(纖維化分期)、**評估脂肪肝程度**。[^6]
+- **非典型功能**：**偵測血管內血栓並非**彈性影像之常見功能——血栓偵測主要依賴傳統灰階/彩色都卜勒超音波，非彈性造影之硬度量測原理所擅長。[^6]
+
+> [!note] 考點：何者「非」超音波彈性影像常見功能？
+> **偵測血管內是否有血栓（D）**——非彈性影像常見功能。分辨良惡性病灶(A)、評估肝硬化程度(B)、評估脂肪肝程度(C)皆為常見功能。[^6]
+
 ## 鑑別與報告要點
 | 技術 | 是否測硬度 |
 | --- | --- |
@@ -70,6 +77,11 @@ dateRev: 2026-07-01
 [^3]: Srinivasa Babu A, Wells ML, Teytelboym OM, et al. *Elastography in Chronic Liver Disease: Modalities, Techniques, Limitations, and Future Directions*. RadioGraphics. 2016;36(7):1987-2006. https://doi.org/10.1148/rg.2016160042 （PubMed/PMC PMC5584553；**僅讀到開放摘要、全文 PMC 未回傳內文**。引用內容——四模態分類、strain vs SWE 測硬度原理、MRE 在 precirrhotic 階段優於斷層影像、發炎／膽汁鬱積／鬱血等 confounder——為該綜述摘要明列範圍；MRE 3.5 kPa 為文獻常引切點。）
 [^4]: Xia B, Wang F, Friedrich-Rust M, et al. *Feasibility and Efficacy of Transient Elastography using the XL probe to diagnose liver fibrosis and cirrhosis*. Medicine (Baltimore). 2018;97(39):e11816. https://doi.org/10.1097/MD.0000000000011816 （PubMed/PMC **開放全文已讀** PMC6181481。TE 品質標準：10 次有效量測、IQR/LSM ≤30%；M vs XL probe 規格（3.5 MHz/25–65 mm vs 2.5 MHz/35–75 mm）與中位數差異 7.7 vs 7.0 kPa；常引切點 ≥F2 7.1、≥F3 9.5、F4 12.5 kPa；ALT flare／急性肝炎高估纖維分期。）
 [^5]: Hu Z, Wang Y, et al. *Diagnostic accuracy of spleen stiffness to evaluate portal hypertension and esophageal varices in chronic liver disease: a systematic review and meta-analysis*. Eur Radiol. 2021;31(4):2392-2404. https://doi.org/10.1007/s00330-020-07223-8 （PubMed/PMC **開放全文已讀** PMC7979650。SSM 對 CSPH 敏感度 0.85／特異度 0.86、AUC 0.92；HREV NPV 0.88；MRE 脾硬度切點 7.23 kPa、EV AUC ~0.83；引內文所述 Baveno VI TE LSM <20 kPa＋PLT >150 G/L 規則與 LSM confounder（發炎、膽汁鬱積、肝鬱血）。）
+[^6]: Sigrist RMS, Liau J, El Kaffas A, Chammas MC, Willmann JK. *Ultrasound Elastography: Review of Techniques and Clinical Applications*. Theranostics. 2017;7(5):1303-1329. doi:10.7150/thno.18650（2018 交換考題詳解 p.177 引用；Tier 1 綜述）。超音波彈性影像常見功能含分辨良惡性病灶、評估肝臟硬化程度、評估脂肪肝程度；血管內血栓偵測非其常見功能。
+
+## 題目
+> [!question]- 請問以下何者"非"超音波彈性影像常見的功能? (2018-269)
+> **偵測血管內是否有血栓（D）**——非彈性影像常見功能，需依賴傳統灰階/都卜勒超音波。[^6]
 
 ## 考題
 ```dataview
