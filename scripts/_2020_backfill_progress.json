@@ -1,5 +1,5 @@
 {
-  "next_page": 333,
+  "next_page": 341,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -334,7 +334,15 @@
     330,
     331,
     332,
-    333
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341
   ],
   "added_ids": [
     "2020-186",
@@ -527,9 +535,16 @@
     "2020-373",
     "2020-374",
     "2020-375",
-    "2020-376"
+    "2020-376",
+    "2020-377",
+    "2020-378",
+    "2020-379",
+    "2020-380",
+    "2020-381",
+    "2020-382",
+    "2020-383"
   ],
-  "next_id": 377,
+  "next_id": 384,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -638,7 +653,9 @@
     "p310 NR=Takayasu arteritis wrong→D extracranial carotid/vertebral(既有題2020-094)",
     "p311 NR=giant cell arteritis wrong→B ESR<50(既有題2020-095)",
     "p318 GU=Bosniak Classification false statement→D Class I requiring regular follow-up(既有題2020-028)",
-    "p331 NR=NMOSD false statement→B dorsal/lateral lesions more common in NMOSD(既有題2020-124)"
+    "p331 NR=NMOSD false statement→B dorsal/lateral lesions more common in NMOSD(既有題2020-124)",
+    "p334 NR=Chiari malformation false statement→C Chiari I involves vermis(既有題2020-109)",
+    "p338 RP=光電效應容易發生狀況→C內層電子(既有題2020-162)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -661,5 +678,5 @@
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批42(頁326-333)：8題候選，1題同年重印(p331=2020-124 NMOSD)，7題真新題(2020-370~376)：326 do not touch lesions=非骨化性纖維瘤(新建do-not-touch-bone-lesions概念檔)、327顱內疝subfalcine較少侵犯後循環(新建cerebral-herniation-types概念檔)、328 PRES多數僅輕度血壓上升20-30%正常(重用toxic-metabolic-brain-imaging.md)、329 CO中毒遲發性白質病變可逆非不可逆(重用toxic-metabolic-brain-imaging.md)、330 CVT血管源性與細胞毒性水腫皆可能發生(重用dural-venous-sinus-thrombosis.md新增臨床表現段落)、332兒童脊椎損傷較易韌帶性/成人較易骨性(新建pediatric-cervical-spine-trauma-imaging概念檔)、333骨折邊緣應不具皮質緣(重用pediatric-cervical-spine-trauma-imaging.md，同源論文)。totalQuestions(2020)已更新為376。commit 2c7cb7f(批42內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p334開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約83.7%(333/398頁)。累計本session已處理190個新題、8個跨年合併。⚠️ 使用者於本批完成前又設定/goal next_page=260，惟進度早已超越該值(當時325)，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
+  "notes": "批43(頁334-341)：8題候選，2題同年重印(p334=2020-109 Chiari malformation；p338=2020-162光電效應)，6題真新題(2020-377~383)：335 DDH Type II alpha角應43-59度非>60度(重用ddh-hip-lines.md新增Graf分類段落)、336 SCFE早期生長板變化MRI優於CT(新建scfe-imaging概念檔)、337游離輻射防護法規登記備查類物質遺失須立即通報(新建radiation-incident-reporting概念檔)、339腸壁超音波應為交替高低回音同心圓環非單純高回音(新建bowel-wall-us-gut-signature概念檔)、340經陰道超音波闌尾外徑門檻>6mm非8mm(重用acute-appendicitis-imaging.md)、341甲狀舌管囊腫舌骨上層級應為正中線非偏中線(新建thyroglossal-duct-cyst概念檔)。totalQuestions(2020)已更新為383。commit 5a653fa(批43內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p342開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約85.7%(341/398頁)。累計本session已處理197個新題、8個跨年合併。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
 }
