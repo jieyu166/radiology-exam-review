@@ -27,6 +27,11 @@ nonImagingReason: "透視輻射安全/劑量主題（frame rate、distance/time/
 
 ### 參考來源
 [^1]: 透視輻射防護標準物理：Bushberg JT, et al. *The Essential Physics of Medical Imaging* 3rd ed., p.309（官方 2016 詳解所引）＋ ICRP/NCRP 職業劑量原則。本次以 Radiopaedia *Fluoroscopy* 確認基本構造,**操作者劑量細節以 Bushberg 為據**：脈衝/降 frame rate 減劑量;散射主要來自病人入射（X 光管）側 → 站影像接收器側;II 貼近病人（縮短 air gap）;放大/大視野增劑量;距離平方反比、準直、屏蔽。
+[^2]: Bushberg JT et al. *The Essential Physics of Medical Imaging*, 3rd Ed., Lippincott Williams & Wilkins, 2011, p.309-310（2018 交換考題詳解 p.255 引用；Tier 2 教科書）。降低病人劑量：使用低畫面更新率之脈衝式透視（low frame rate pulsed fluoroscopy）；縮短X光管至病人皮膚距離會『增加』皮膚劑量（應拉長）；放大功能應『縮短』影像接收器與病人距離；X光濾片（beam filtration）應使用以減少低能量光子劑量（非避免）。
+
+## 題目
+> [!question]- 執行血管攝影診療時，下列何種機器設定可降低病人所接受到之劑量? (2018-344)
+> **使用低畫面更新率之脈衝式透視攝影模式 (low frame rate pulsed fluoroscopy)（A）**——直接減少單位時間曝光。縮短X光管到病人皮膚距離會增加皮膚劑量(B錯)、放大時應縮短接收器與病人距離(C錯)、應使用X光濾片減低能光子劑量(D錯)。[^2]
 
 ## 考題
 ```dataview

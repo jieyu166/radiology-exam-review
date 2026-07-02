@@ -37,8 +37,20 @@ dateRev: 2026-06-30
 ### 參考來源
 [^1]: 官方 2017 詳解；AJR 2013;200:W17-W25 doi:10.2214/AJR.12.8960：頭頸癌淋巴結分期重高敏感度;頸部鈣化偏惡性（縱膈鈣化多良性）;ECS＝邊緣不規則/脂肪條紋/脂肪面消失;小結節壞死/囊變為惡性特異徵。
 [^2]: 官方 2017 詳解；AJR 2013;200:W17-W25（同篇，分區表）：Level II/III 舌骨體下緣、III/IV 環狀軟骨下緣、IIA/IIB 內頸靜脈後緣、V 胸鎖乳突肌後緣之後。
+[^3]: *一般超音波診斷學* p.45-49（2018 交換考題詳解 p.253 引用；Tier 2/3 教科書）。局部淋巴結群依位置命名（level VI anterior visceral介於舌骨至胸骨上凹、level VII superior mediastinal自胸骨柄至無名靜脈）；消化系癌轉移頸部多位於左鎖骨上（Virchow's node）；NHL侵犯淋巴結常大而回音低、可酷似囊腫；US無可靠準則區分Hodgkin與non-Hodgkin lymphoma。
+
+### 淋巴瘤之頸部淋巴結超音波
+- **Virchow's node（魏孝氏淋巴結）**：消化系器官癌轉移至頸部時多位於**左鎖骨上**，稱Virchow's node。[^3]
+- **淋巴瘤淋巴結US表現**：淋巴瘤侵犯之淋巴結傾向**圓形、邊界清楚、均質、低回音、無echogenic hilum**；可呈**假囊性（pseudocystic）外觀併後方聲學增強**（NHL尤其可很大、回音很低而酷似囊腫）。[^3]
+- **HL vs NHL之US鑑別限制（本題重點）**：**超音波影像『無』可靠準則可區分Hodgkin與non-Hodgkin lymphoma**——故「Hodgkin淋巴瘤侵犯淋巴結內在回音較不均勻」暗示可藉此區分，與此原則有出入。[^3]
+
+> [!warning] 本題（2018-342）官方答案標示「A (or D?)」未定案
+> A（胸骨上凹屬第六群）：level VI（anterior visceral）介於舌骨至胸骨上凹之間，level VII（superior mediastinal）自胸骨柄上緣至無名靜脈；胸骨上凹為VI與VII之交界，A之敘述略有爭議。D（Hodgkin淋巴瘤內在回音較不均勻）：與來源「US無可靠準則區分HL與NHL」原則不符，亦可視為錯誤。暫依官方標示以A為主記錄，D之爭議並列待醫師確認。
 
 ## 題目
+> [!question]- 關於頸部淋巴結的超音波診斷學，下列何者有誤? (2018-342)
+> **胸骨上凹部分屬於第六群（A，官方標示「A or D?」）**——level VI介於舌骨至胸骨上凹，胸骨上凹為VI/VII交界，A敘述略有爭議；D（HL淋巴結內在回音較不均勻）亦與「US無可靠準則區分HL與NHL」原則不符。Virchow's node位於左鎖骨上(B對)、NHL淋巴結大而低回音酷似囊腫(C對)為正確描述。⚠️見上方warning。[^3]
+
 > [!question]- 關於 neck lymph nodes 何者「錯誤」? (2017-230)
 > 「**頭頸癌分期一般更重視高特異度（specificity）**」錯誤——應重視高**敏感度（sensitivity）**。頸部鈣化偏惡性、ECS 徵象、小結節壞死/囊變為惡性特異徵皆正確。[^1]
 

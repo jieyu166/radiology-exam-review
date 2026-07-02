@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 340,
+  "totalQuestions": 348,
   "questions": [
     {
       "id": "2018-001",
@@ -574,10 +574,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "small focal spot",
+      "reference": "Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott Williams & Wilkins, 2011. P.257-258",
+      "explanation": "small focal spot（放大攝影應使用小焦斑以減幾何模糊，非大焦斑）\n\n見 [[mammography-physics]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mammography-physics"
+      ],
       "checked": false
     },
     {
@@ -1644,10 +1646,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "相反。Intralobar通常較大因感染被發現。Extralobar通常在infant因shunt引起high output heart failure而被發現。\nD. always也怪怪的。",
+      "reference": "Caffey's Pediatric Diagnostic Imaging 12th ed. P562-564",
+      "explanation": "相反。Intralobar通常較大因感染被發現(青少年/成人)。Extralobar通常在infant/新生兒期因shunt引起high output heart failure而被發現。\nD. always也怪怪的。\n\n見 [[pulmonary-sequestration]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-sequestration"
+      ],
       "checked": false
     },
     {
@@ -3833,10 +3837,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "signal void behind structures that strongly **absorb or reflect** ultrasonic waves 吸收反射都有(Radiopaedia)",
+      "reference": "Ultrasound: the requisites, p.19-22",
+      "explanation": "signal void behind structures that strongly **absorb or reflect** ultrasonic waves 吸收反射都有(Radiopaedia)\n\n見 [[ultrasound-artifacts]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
       "checked": false
     },
     {
@@ -4129,10 +4135,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "A. 增加noise\nB. Higher resolution, \"sharp\" kernels (e.g. bone reconstruction): **better spatial resolution** than soft kernels (e.g. soft tissue reconstruction). Transaxial resolution會改善，但非對比\nC. 這會減少noise(即提高對比)，但resolution會變差，會有partial volume artifact\nD. 會增加transaxial resolution",
+      "reference": "Bushberg JT et al., The Essential Physics of Medical Imaging, Lippincott Williams & Wilkins, 2011. P.366",
+      "explanation": "增加切片厚度減少雜訊、提升SNR，改善低對比度。A降mAs增噪、B銳利骨核心增噪、D縮小FOV僅改善橫軸空間解析度。\n\n見 [[ct-image-quality-parameters]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ct-image-quality-parameters"
+      ],
       "checked": false
     },
     {
@@ -12599,6 +12607,306 @@
       "images": [],
       "concepts": [
         "muscle-degloving-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-341",
+      "year": 2018,
+      "number": 341,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不是甲狀腺結節在超音波下的可疑表徵?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "海綿狀結節"
+        },
+        {
+          "letter": "B",
+          "text": "微細鈣化"
+        },
+        {
+          "letter": "C",
+          "text": "前後軸大於橫軸"
+        },
+        {
+          "letter": "D",
+          "text": "邊緣鈣化且有些突出軟組織"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "一般超音波診斷學, p33-34",
+      "explanation": "海綿狀結節(spongiform)於ACR TI-RADS composition給0分，為良性表徵。微細鈣化、前後軸大於橫軸(taller-than-wide)、邊緣鈣化且突出軟組織皆為可疑表徵。\n\n見 [[thyroid-nodule-us]]",
+      "images": [],
+      "concepts": [
+        "thyroid-nodule-us"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-342",
+      "year": 2018,
+      "number": 342,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於頸部淋巴結的超音波診斷學，下列何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "局部淋巴結群可依其位置而命名，胸骨上凹部分屬於第六群"
+        },
+        {
+          "letter": "B",
+          "text": "消化系器官癌轉移至頸部時多位於左鎖骨上，稱魏孝氏淋巴結（Virchow's node）"
+        },
+        {
+          "letter": "C",
+          "text": "非赫金森淋巴瘤（non-Hodgkin lymphoma）侵犯的淋巴結在超音波下通常很大且回音很低，有時酷似囊腫"
+        },
+        {
+          "letter": "D",
+          "text": "赫金森淋巴瘤（Hodgkin lymphoma）侵犯的淋巴結在超音波下其內在回音較為不均勻"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "一般超音波診斷學 p. 45-49",
+      "explanation": "官方答案標示「A (or D?)」未定案。A：level VI介於舌骨至胸骨上凹，胸骨上凹為VI/VII交界，敘述略有爭議。D：與來源「US無可靠準則區分HL與NHL」原則不符，亦可視為錯誤。暫依官方以A為主，D爭議並列待確認。\n\n見 [[neck-lymph-nodes]]",
+      "images": [],
+      "concepts": [
+        "neck-lymph-nodes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-343",
+      "year": 2018,
+      "number": 343,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列哪個MRI掃描參數與掃描時間無關?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "TR"
+        },
+        {
+          "letter": "B",
+          "text": "frequency-encoding step (Nx)"
+        },
+        {
+          "letter": "C",
+          "text": "phase-encoding step (Ny)"
+        },
+        {
+          "letter": "D",
+          "text": "number of excitations (NEX)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "R. H. Hashemi, et al., MRI the basics, 3rd Ed., Lippincott Williams & Wilkins, 2010. P.165",
+      "explanation": "Scan time = TR·Ny·NSA/ETL。頻率編碼步數Nx於單一讀出內採樣完成，不影響掃描時間；TR、phase-encoding Ny、NEX皆直接乘入。\n\n見 [[mri-scan-time-parameters]]",
+      "images": [],
+      "concepts": [
+        "mri-scan-time-parameters"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-344",
+      "year": 2018,
+      "number": 344,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "執行血管攝影診療時，下列何種機器設定可降低病人所接受到之劑量?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "使用低畫面更新率之脈衝式透視攝影模式 (low frame rate pulsed fluoroscopy)"
+        },
+        {
+          "letter": "B",
+          "text": "縮短X光管到病人皮膚表面的距離"
+        },
+        {
+          "letter": "C",
+          "text": "若需使用放大功能，應增加影像接收裝置與病人間距離。"
+        },
+        {
+          "letter": "D",
+          "text": "避免X光濾片之使用"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott Williams & Wilkins, 2011. P.309-310",
+      "explanation": "低畫面更新率脈衝式透視直接減少單位時間曝光。縮短X光管到病人皮膚距離增加皮膚劑量(B)、放大時應縮短接收器與病人距離(C)、應使用X光濾片減低能光子劑量(D)。\n\n見 [[fluoroscopy-radiation-safety]]",
+      "images": [],
+      "concepts": [
+        "fluoroscopy-radiation-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-345",
+      "year": 2018,
+      "number": 345,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "在放射診斷的X光能量範圍內，下列哪個效應是X光光子與軟組織間之主要作用(interaction)方式?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "瑞利散射 (Rayleigh scattering)"
+        },
+        {
+          "letter": "B",
+          "text": "康普頓散射 (Compton scattering)"
+        },
+        {
+          "letter": "C",
+          "text": "光電效應 (Photoelectric effect)"
+        },
+        {
+          "letter": "D",
+          "text": "成對發生 (Pair production)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott Williams & Wilkins, 2011. P.38-39",
+      "explanation": "診斷X光能量範圍與軟組織作用主要為康普頓散射。光電效應於低能/高原子序顯著、瑞利散射佔少數、成對發生需>1.022 MeV遠超診斷範圍。\n\n見 [[xray-tissue-interactions]]",
+      "images": [],
+      "concepts": [
+        "xray-tissue-interactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-346",
+      "year": 2018,
+      "number": 346,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the description about retropharyngeal abscess is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retropharyngeal abscesses in children commonly result from suppurative lymphadenitis associated with tonsillitis, as well as with sinonasal and dental infections."
+        },
+        {
+          "letter": "B",
+          "text": "The retropharyngeal space was the most common location of abscess in the deep neck and second most common location was the peritonsillar space."
+        },
+        {
+          "letter": "C",
+          "text": "Abscesses extending below the T4 vertebra cause concern with regard to danger space infections, which have a high rate of morbidity."
+        },
+        {
+          "letter": "D",
+          "text": "Grisel syndrome is inflammation-induced laxity of the atlantoaxial joint, which may result in atlantoaxial rotatory subluxation."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Caffey's Pediatric Diagnostic Imaging 12th ed. P137-138",
+      "explanation": "Tonsillitis and peritonsillar abscess are the most commonly encountered deep neck infections, among adolescents and young adults, with peritonsillar abscess accounting for one-third of all soft-tissue abscesses of the head and neck. 咽後間隙非最常見。\n\n見 [[retropharyngeal-abscess]]",
+      "images": [],
+      "concepts": [
+        "retropharyngeal-abscess"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-347",
+      "year": 2018,
+      "number": 347,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 2-year-old infant presents with a history of developmental delay, seizures and subcutaneous lesions. The clinicians suspect tuberous sclerosis. Which one of the following radiological findings are consistent with this diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcified subependymal nodules"
+        },
+        {
+          "letter": "B",
+          "text": "Leptomentingeal angiomas"
+        },
+        {
+          "letter": "C",
+          "text": "Multiple meningiomas"
+        },
+        {
+          "letter": "D",
+          "text": "Pilocytic astrocytoma"
+        },
+        {
+          "letter": "E",
+          "text": "Retinoblastoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Pediatric Imaging: The Essentials (2016) p.405-408",
+      "explanation": "鈣化室管膜下結節為TSC典型中樞神經影像。leptomeningeal angiomas=Sturge-Weber、multiple meningiomas=NF2、pilocytic astrocytoma=NF1、retinoblastoma皆非TSC。\n\n見 [[tuberous-sclerosis]]",
+      "images": [],
+      "concepts": [
+        "tuberous-sclerosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-348",
+      "year": 2018,
+      "number": 348,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於slipped capital femoral epiphysis (SCFE)何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "more common in girls"
+        },
+        {
+          "letter": "B",
+          "text": "Obesity is a significant risk factor."
+        },
+        {
+          "letter": "C",
+          "text": "SCFE is essentially a type I Salter-Harris growth plate injury"
+        },
+        {
+          "letter": "D",
+          "text": "line of Klein is helpful for diagnosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Boles CA, El-khoury GY. Slipped capital femoral epiphysis. Radiographics. 17 (4): 809-23.",
+      "explanation": "SCFE男孩多於女孩(more common in boys than girls)。肥胖為重要危險因子、本質為Salter-Harris第一型生長板損傷、Klein線有助診斷皆為正確。\n\n見 [[slipped-capital-femoral-epiphysis]]",
+      "images": [],
+      "concepts": [
+        "slipped-capital-femoral-epiphysis"
       ],
       "checked": false
     }
