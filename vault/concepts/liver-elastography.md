@@ -70,6 +70,11 @@ dateRev: 2026-07-01
 [^3]: Srinivasa Babu A, Wells ML, Teytelboym OM, et al. *Elastography in Chronic Liver Disease: Modalities, Techniques, Limitations, and Future Directions*. RadioGraphics. 2016;36(7):1987-2006. https://doi.org/10.1148/rg.2016160042 （PubMed/PMC PMC5584553；**僅讀到開放摘要、全文 PMC 未回傳內文**。引用內容——四模態分類、strain vs SWE 測硬度原理、MRE 在 precirrhotic 階段優於斷層影像、發炎／膽汁鬱積／鬱血等 confounder——為該綜述摘要明列範圍；MRE 3.5 kPa 為文獻常引切點。）
 [^4]: Xia B, Wang F, Friedrich-Rust M, et al. *Feasibility and Efficacy of Transient Elastography using the XL probe to diagnose liver fibrosis and cirrhosis*. Medicine (Baltimore). 2018;97(39):e11816. https://doi.org/10.1097/MD.0000000000011816 （PubMed/PMC **開放全文已讀** PMC6181481。TE 品質標準：10 次有效量測、IQR/LSM ≤30%；M vs XL probe 規格（3.5 MHz/25–65 mm vs 2.5 MHz/35–75 mm）與中位數差異 7.7 vs 7.0 kPa；常引切點 ≥F2 7.1、≥F3 9.5、F4 12.5 kPa；ALT flare／急性肝炎高估纖維分期。）
 [^5]: Hu Z, Wang Y, et al. *Diagnostic accuracy of spleen stiffness to evaluate portal hypertension and esophageal varices in chronic liver disease: a systematic review and meta-analysis*. Eur Radiol. 2021;31(4):2392-2404. https://doi.org/10.1007/s00330-020-07223-8 （PubMed/PMC **開放全文已讀** PMC7979650。SSM 對 CSPH 敏感度 0.85／特異度 0.86、AUC 0.92；HREV NPV 0.88；MRE 脾硬度切點 7.23 kPa、EV AUC ~0.83；引內文所述 Baveno VI TE LSM <20 kPa＋PLT >150 G/L 規則與 LSM confounder（發炎、膽汁鬱積、肝鬱血）。）
+[^6]: 官方2020詳解；Ref: What we need to know when performing and interpreting US elastography. Clin Mol Hepatol. 2016 Sep;22(3):406-414.（題目所引）——Transient elastography(TE/FibroScan)依賴體外探頭產生機械脈衝量測，不含B mode影像功能；ARFI、shear wave imaging、strain imaging皆整合於具B mode之診斷超音波系統。
+
+## 題目
+> [!question]- 以下各種超音波彈性影像何者不具有B mode的功能？ (2020-265)
+> **Transient elastography（A）**——TE/FibroScan依賴體外探頭產生之機械脈衝(mechanical pulse)量測，不含B mode影像導引；ARFI/pSWE、shear wave imaging(2D-SWE)、strain imaging皆整合於具B mode之診斷超音波系統，可即時影像導引ROI放置。[^6]
 
 ## 考題
 ```dataview

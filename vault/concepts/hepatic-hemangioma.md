@@ -45,6 +45,9 @@ same:
 > [!note] 考點：何者「非」典型？
 > 「**posterior acoustic shadowing**」非典型——血管瘤典型為**後方穿透增強（enhancement）**。高回音、中央無 Doppler 血流、CEUS 向心填充為典型。[^1]
 
+> [!note] 考點二：何者「非」典型US表現？
+> 「**Color Doppler flow in center of lesion（病灶中央可見血流訊號）**」非典型——血管瘤典型為**中央乏血流（慢流），周邊可見feeding vessels**。高回音腫塊、脂肪肝背景下呈低回音、鈣化罕見皆為典型表現。[^1]
+
 ### 參考來源
 [^1]: *Hepatic hemangioma*. Radiopaedia.org（輔助來源）。US：界清高回音（脂肪肝背景下部分低回音）、color Doppler 中央乏血流/周邊 feeding、CEUS 周邊結節狀不連續強化→向心填充。後方穿透增強為典型。
 [^2]: Vilgrain V, et al. *Imaging of Atypical Hemangiomas of the Liver with Pathologic Correlation*. RadioGraphics（article 級）。典型血管瘤動態強化（周邊結節狀不連續→向心填充→延遲滯留）、T2 light bulb 高訊號、與 HCC（washout＋包膜）、FNH（中央疤痕延遲強化、肝膽期攝取）、血管源惡性之鑑別。
@@ -58,6 +61,9 @@ same:
 ## 題目
 > [!question]- 下列哪一項不是cavernous hemangioma的超音波表現? (2016-289)
 > **「Ill-defined、heterogeneous高回音腫塊」為非（A）**——典型應為well-defined、homogeneous高回音腫塊。都卜勒中央無明顯血流/慢流、大小長期穩定、大型病灶可含低回音血栓/纖維化/鈣化皆正確。[^1]
+
+> [!question]- Which of the following is NOT a typical ultrasound finding of hepatic hemangioma? (2020-266)
+> **Color Doppler flow in center of lesion（D）**為非典型——血管瘤中央典型為乏血流(慢流)，非中央可見血流訊號。高回音腫塊、脂肪肝背景下呈低回音、鈣化罕見皆為典型表現。[^1]
 
 ## 考題
 ```dataview

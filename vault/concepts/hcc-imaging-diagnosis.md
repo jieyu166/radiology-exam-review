@@ -51,6 +51,15 @@ dateRev: 2026-06-29
 - **CT 低估**：相較 gadoxetate MRI，CT 對 APHE 假陰性可達 ~57%、washout ~21%、capsule ~43%，並低估 LR 分級；不確定病灶宜以 MRI（含 HBP）再評。[^4][^5]
 - **CID 高危族群限定**：上述特異度／演算法僅適用 LI-RADS 規定的高危族群；非高危者不可套用同一推論。[^3]
 
+### 基礎超音波(US)特徵（非LI-RADS，一般B-mode描述）
+- **回音型態依大小演變**：**小型局灶性HCC典型呈低迴聲(hypoechoic)**（相對正常肝實質）；**較大HCC因合併纖維化、脂肪變性、壞死、鈣化而呈異質性(heterogeneous)**。[^6]
+- **周邊暈環(peripheral halo)**：部分HCC周邊可見**低迴聲暈(hypoechoic halo)**，對應病理上之局部脂肪缺失(focal fatty sparing)或纖維包膜；**並非高迴聲暈(hyperechoic halo)**——此為常考陷阱。[^6]
+- **鈣化**：HCC出現鈣化**罕見(rare)**。[^6]
+- **門脈侵犯**：HCC**可見侵犯門脈(portal vein invasion)**之影像表現，此與LI-RADS之tumor-in-vein概念一致。[^6]
+
+> [!note] 考點三：何者「非」HCC典型US表現？
+> 「**周邊薄層高迴聲暈(thin hyperechoic halo)**」非典型——HCC周邊暈環典型為**低迴聲(hypoechoic halo)**，對應局部脂肪缺失/纖維包膜。可呈高迴聲、鈣化罕見、可侵犯門脈皆為典型/正確敘述。[^6]
+
 ### 移植條件
 - **Milan criteria**：單一腫瘤 ≤5 cm,或 ≤3 顆且各 ≤3 cm,無大血管/肝外侵犯。[^2]
 - **UCSF criteria**：單一 <6.5 cm,或 ≤3 顆各 <4.5 cm 且累積 <8 cm。UCSF 較 Milan 寬一號（5→6.5、3→4.5、加總和 <8 限制）。[^2]
@@ -65,6 +74,11 @@ dateRev: 2026-06-29
 [^3]: 期刊全文（PMC 開放取用）。Schima W, Heiken J. *LI-RADS v2017 for liver nodules: how we read and report.* Cancer Imaging 2018;18:14. PMC5978995. DOI: https://doi.org/10.1186/s40644-018-0149-5 ——主要特徵定義（APHE non-rim、washout 之時間性、enhancing capsule 漸進強化、threshold growth、size 量測避動脈期/DWI）、適用族群、CT/MRI 期相、HBP、ancillary features 升降規則、LR-M／LR-TIV／DDx、APS/THAD 偽病灶與 LR-3。對應 ACR LI-RADS v2017。
 [^4]: 期刊（指南綜述）。Elsayes KM, et al. *2017 Version of LI-RADS for CT and MR Imaging: An Update.* RadioGraphics 2017;37:1994-2017. DOI: https://doi.org/10.1148/rg.2017170098 ——major/ancillary 定義、HBP 與 gadoxetate 之輔助角色、動態期相定義。另 Hope TA, et al. J Comput Assist Tomogr 2017;41:376-381（PMC5411341，DOI: https://doi.org/10.1097/RCT.0000000000000536）：gadoxetate HBP 改善不確定病灶定性，71% 病灶 LI-RADS 分類改變。
 [^5]: 期刊（比較研究）。Zhang YD, et al. *LI-RADS: Substantial Discordance Between CT and MR for Imaging Classification of Hepatic Nodules.* Acad Radiol 2016;23:344-352. DOI: https://doi.org/10.1016/j.acra.2015.11.002 ——CT 對 APHE 假陰性 57.1%、washout 21.2%、pseudocapsule 42.9%，CT 敏感度/準確度低於 MRI。
+[^6]: 官方2020詳解；Ref: Ahuja, A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 1-72~1-73.（題目所引）——小型HCC典型低迴聲，較大者因纖維化/脂肪變性/壞死/鈣化呈異質性；周邊暈環典型為低迴聲(對應局部脂肪缺失)而非高迴聲；鈣化罕見；可侵犯門脈。
+
+## 題目
+> [!question]- Which of the following is NOT a typical ultrasound finding of hepatocellular carcinoma? (2020-267)
+> **May be surrounded by a thin hyperechoic halo（B）**為非典型——HCC周邊暈環典型為**低迴聲(hypoechoic halo)**（對應局部脂肪缺失），非高迴聲。可呈高迴聲腫塊、鈣化罕見、可侵犯門脈皆為典型/正確敘述。[^6]
 
 ## 考題
 ```dataview

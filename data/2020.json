@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 261,
+  "totalQuestions": 268,
   "questions": [
     {
       "id": "2020-001",
@@ -9491,6 +9491,265 @@
       "images": [],
       "concepts": [
         "ring-sling-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-262",
+      "year": 2020,
+      "number": 262,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings is the most appropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regardless of the etiology of UTI, the goal of management is preservation of curative reconstruction."
+        },
+        {
+          "letter": "B",
+          "text": "In most cases, radiologic examinations of urinary tracts cannot be delayed after a period of observation - with or without urinary antibiotic prophylaxis."
+        },
+        {
+          "letter": "C",
+          "text": "The majority of antenatally detected hydronephrosis is obstructive but either resolves or stabilizes."
+        },
+        {
+          "letter": "D",
+          "text": "Voiding cystourethrography is the modality of choice to evaluate patients with urinary tract infection."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Pediatric Nephrology 2013;28(9):1757-1761；Am J Dis Child 1992;146:1181-1184",
+      "explanation": "大多數情況下，泌尿道之影像學檢查不能於觀察期後無限期延後，無論是否使用抗生素預防。(A)目標應為preservation of renal function而非curative reconstruction；(C)多數產前腎水腫為non-obstructive而非obstructive；(D)VCUG並非評估所有UTI病人之首選常規工具，僅限特定指徵者才安排。",
+      "images": [],
+      "concepts": [
+        "congenital-hydronephrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-263",
+      "year": 2020,
+      "number": 263,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "以超音波監測執行射頻消融(radiofrequency ablation)時，其訊號(echogenecity)會有甚麼改變？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "訊號變低(hypo-echoic change)"
+        },
+        {
+          "letter": "B",
+          "text": "訊號變高(hyper-echoic change)"
+        },
+        {
+          "letter": "C",
+          "text": "訊號不變(iso-echoic change)"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆非"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Image-guided tumor ablation: emerging technologies and future directions. Semin Intervent Radiol. 2010 Sep;27(3):302-13.",
+      "explanation": "超音波監測RFA時，消融區訊號呈hyperechoic change，反映組織加熱產生之微氣泡與汽化效應，為術中即時監測消融範圍之關鍵徵象。",
+      "images": [],
+      "concepts": [
+        "rfa-ultrasound-monitoring"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-264",
+      "year": 2020,
+      "number": 264,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "以超音波顯影劑觀察肝硬化病人的肝結節在晚期(delayed phase)時，以下何者組合正確？\n(1) 分化不良結節(dysplatic nodule)-等迴聲(iso-echoic)\n(2) 肝細胞癌(hepatocellular carcinoma)-低迴聲(hypo-echoic)\n(3) 膽管癌(cholangiocarcinoma)-低迴聲(hypo-echoic)\n(4) 血管瘤(hemangioma)-快速填入(flash-filling)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1)(2)(3)"
+        },
+        {
+          "letter": "B",
+          "text": "(2)(3)(4)"
+        },
+        {
+          "letter": "C",
+          "text": "(1)(2)(4)"
+        },
+        {
+          "letter": "D",
+          "text": "(1)(2)(3)(4)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Integration of Contrast-enhanced US into a Multimodality Approach to Imaging of Nodules in a Cirrhotic Liver: How I Do It. Radiology. 2017 Feb;282(2):317-331.",
+      "explanation": "四項組合皆正確：分化不良結節晚期等迴聲；HCC晚期低迴聲(晚而弱之洗出)；膽管癌晚期低迴聲(快速洗出)；血管瘤動脈期周邊結節狀強化或flash-filling，晚期與血池等回音無洗出。",
+      "images": [],
+      "concepts": [
+        "ceus-liver-nodule-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-265",
+      "year": 2020,
+      "number": 265,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下各種超音波彈性影像何者不具有B mode的功能？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transient elastography"
+        },
+        {
+          "letter": "B",
+          "text": "Acoustic radiation force impulse excitation"
+        },
+        {
+          "letter": "C",
+          "text": "Shear wave imaging"
+        },
+        {
+          "letter": "D",
+          "text": "Strain imaging"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: What we need to know when performing and interpreting US elastography. Clin Mol Hepatol. 2016 Sep;22(3):406-414.",
+      "explanation": "Transient elastography(TE/FibroScan)最常依賴體外探頭產生之機械脈衝進行量測，不含B mode影像功能；ARFI、shear wave imaging、strain imaging皆整合於具B mode之診斷超音波系統。",
+      "images": [],
+      "concepts": [
+        "liver-elastography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-266",
+      "year": 2020,
+      "number": 266,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of hepatic hemangioma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyperechoic mass"
+        },
+        {
+          "letter": "B",
+          "text": "Hypoechoic in a fatty liver"
+        },
+        {
+          "letter": "C",
+          "text": "Calcification is rare"
+        },
+        {
+          "letter": "D",
+          "text": "Color Doppler flow in center of lesion"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. 1-78~1-79.",
+      "explanation": "血管瘤中央典型為乏血流(慢流)，非中央可見血流訊號，故(D)為非典型。高回音腫塊、脂肪肝背景下呈低回音、鈣化罕見皆為典型表現。",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-267",
+      "year": 2020,
+      "number": 267,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of hepatocellular carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "May be hyperechoic"
+        },
+        {
+          "letter": "B",
+          "text": "May be surrounded by a thin hyperechoic halo"
+        },
+        {
+          "letter": "C",
+          "text": "Calcification is rare"
+        },
+        {
+          "letter": "D",
+          "text": "May show invasion of portal vein"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 1-72~1-73.",
+      "explanation": "HCC周邊暈環典型為低迴聲(hypoechoic halo)（對應局部脂肪缺失），非高迴聲，故(B)為非典型。可呈高迴聲腫塊、鈣化罕見、可侵犯門脈皆為典型/正確敘述。",
+      "images": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-268",
+      "year": 2020,
+      "number": 268,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of urolithiasis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Echogenic foci"
+        },
+        {
+          "letter": "B",
+          "text": "Posterior acoustic shadowing"
+        },
+        {
+          "letter": "C",
+          "text": "Twinkling artifacts on color Doppler ultrasound"
+        },
+        {
+          "letter": "D",
+          "text": "Ureteral jet into the urinary bladder"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Ahuja, A. Diagnostic Imaging: Ultrasound. Salt Lake City, Utah: Amirsys; 2007. p 5-30~5-31.",
+      "explanation": "輸尿管噴流為正常生理現象，非結石本身之直接超音波表現，故(D)為非典型。Echogenic foci、後方聲影、color Doppler twinkling artifact皆為結石之典型直接徵象。",
+      "images": [],
+      "concepts": [
+        "urolithiasis-ultrasound"
       ],
       "checked": false
     }
