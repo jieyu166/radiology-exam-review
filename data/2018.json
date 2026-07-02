@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 328,
+  "totalQuestions": 336,
   "questions": [
     {
       "id": "2018-001",
@@ -12147,6 +12147,310 @@
       "images": [],
       "concepts": [
         "hepatic-lymphoma-myeloma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-329",
+      "year": 2018,
+      "number": 329,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following MR contrast agents have significant amount excreted from hepatobiliary system?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gd-DTPA"
+        },
+        {
+          "letter": "B",
+          "text": "Gd-DOTA"
+        },
+        {
+          "letter": "C",
+          "text": "Gd-EOB-DTPA"
+        },
+        {
+          "letter": "D",
+          "text": "Gd-DO3A"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Cancer Imaging (2013) 13(4), 567-579",
+      "explanation": "Gd-EOB-DTPA（gadoxetate disodium）為肝膽特異性對比劑，約50%經肝膽排泄；其餘皆為一般細胞外對比劑，主要經腎排泄。\n\n見 [[hepatobiliary-mri-contrast]]",
+      "images": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-330",
+      "year": 2018,
+      "number": 330,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following regarding struma ovarii is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a kind of teratoma"
+        },
+        {
+          "letter": "B",
+          "text": "may associate with hyperthyroidism or carcinoid syndrome."
+        },
+        {
+          "letter": "C",
+          "text": "all are benign"
+        },
+        {
+          "letter": "D",
+          "text": "mostly are asymtomatic"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Abdominal Imaging (2008) 33:740–743",
+      "explanation": "The vast majority of strumae ovarii are benign, but malignant disease is found in a small percentage of cases, the most common being papillary thyroid carcinoma.\n\n見 [[struma-ovarii]]",
+      "images": [],
+      "concepts": [
+        "struma-ovarii"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-331",
+      "year": 2018,
+      "number": 331,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About dural arteriovenous fistula (DAVF), which statement was \"wrong\"?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most common site is cavernous sinus (CS)."
+        },
+        {
+          "letter": "B",
+          "text": "Best diagnostic clue is \"Network of tiny vessels in wall of thrombosed dural venous sinus\"."
+        },
+        {
+          "letter": "C",
+          "text": "Enlarged cortical draining veins means aggressive DAVF"
+        },
+        {
+          "letter": "D",
+          "text": "Acquired direct shunt between dural artery and dural venous sinus or cortical vein"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "STATdx → Dural Arteriovenous Fistula",
+      "explanation": "實際上最常見部位為transverse/sigmoid sinus，非cavernous sinus。\n\n見 [[dural-av-fistula]]",
+      "images": [],
+      "concepts": [
+        "dural-av-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-332",
+      "year": 2018,
+      "number": 332,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which location is the predilection of internal carotid artery (ICA) dissection?\n(1) Just distal to the common carotid bifurcation\n(2) Between C2 and the skull base\n(3) Petrous ICA\n(4) Cavernous ICA\n(5) Terminal ICA",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1), (2)"
+        },
+        {
+          "letter": "B",
+          "text": "(2), (3)"
+        },
+        {
+          "letter": "C",
+          "text": "(3), (5)"
+        },
+        {
+          "letter": "D",
+          "text": "(2), (4)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Practical Neuroangiography, 2nd edition, P321",
+      "explanation": "ICA剝離好發於頸總動脈分叉遠端及C2至顱底之間之頸段ICA；petrous/cavernous/terminal ICA相對少見。\n\n見 [[ica-dissection-sites]]",
+      "images": [],
+      "concepts": [
+        "ica-dissection-sites"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-333",
+      "year": 2018,
+      "number": 333,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About autoimmune encephalitis, which statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Autoimmune encephalitis is a relatively new category of immune-mediated disease that demonstrates a widely variable spectrum of clinical presentations, ranging from the relatively mild or insidious onset of cognitive impairment to more complex forms of encephalopathy with refractory seizure."
+        },
+        {
+          "letter": "B",
+          "text": "Antibody-mediated CNS disorders can be classified into 2 broad categories, paraneoplastic or nonparaneoplastic, based on the presence or absence of an underlying malignancy, respectively."
+        },
+        {
+          "letter": "C",
+          "text": "Recognizing characteristic findings within limbic structures suggestive of autoimmune encephalitis can be a key step in alerting clinicians to the potential diagnosis and ensuring a prompt and appropriate clinical work-up."
+        },
+        {
+          "letter": "D",
+          "text": "Paraneoplastic syndromes are most often seen in small-cell lung cancer but can also be seen in a variety of other cancers as well, such as neuroblastoma, germ cell tumor of the testis, breast cancer, Hodgkin lymphoma, thymoma, and immature ovarian teratomas."
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "American Journal of Neuroradiology 2017, 38 (6) 1070-1078",
+      "explanation": "四項敘述皆正確：臨床光譜廣泛、抗體媒介CNS疾病依有無惡性腫瘤分paraneoplastic/nonparaneoplastic、邊緣系統影像表現為關鍵診斷線索、副腫瘤症候群好發於small-cell lung cancer但亦見於多種其他腫瘤。\n\n見 [[autoimmune-encephalitis]]",
+      "images": [],
+      "concepts": [
+        "autoimmune-encephalitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-334",
+      "year": 2018,
+      "number": 334,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not the factor included in intracranial hemorrhage (ICH) score?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Glasgow Coma Scale score."
+        },
+        {
+          "letter": "B",
+          "text": "Age >/=80 years."
+        },
+        {
+          "letter": "C",
+          "text": "Infratentorial origin of ICH."
+        },
+        {
+          "letter": "D",
+          "text": "Presence of intraventricular hemorrhage."
+        },
+        {
+          "letter": "E",
+          "text": "Location of ICH."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "Hemphill JC 3rd, Bonovich DC, Besmertis L, Manley GT, Johnston SC. Stroke. 2001 Apr;32(4):891-7.",
+      "explanation": "正式因子為更具體之「infratentorial origin」而非泛稱的「location of ICH」。ICH score五因子：GCS score、ICH volume(≥30cm³)、IVH、infratentorial origin、age≥80，總分0–6。\n\n見 [[ich-score]]",
+      "images": [],
+      "concepts": [
+        "ich-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-335",
+      "year": 2018,
+      "number": 335,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to AJCC 8th edition, what is the clinical staging of HPV-associated oropharyngeal cancer with one 3.6cm tumor mass at tongue base, extending to lingual surface of glottis and one 4.5cm metastatic lymph node at right neck level III?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T3N1"
+        },
+        {
+          "letter": "B",
+          "text": "T2N2a"
+        },
+        {
+          "letter": "C",
+          "text": "T2N1"
+        },
+        {
+          "letter": "D",
+          "text": "T3N2a"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "AJCC 8th edition",
+      "explanation": "腫瘤侵犯會厭舌面使T分期升至T3（不受3.6cm大小限制）；單一同側4.5cm淋巴結（未超過6cm）為N1。\n\n見 [[hpv-oropharyngeal-staging]]",
+      "images": [],
+      "concepts": [
+        "hpv-oropharyngeal-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-336",
+      "year": 2018,
+      "number": 336,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Stener lesion is when the ulnar collateral ligament of thumb is superficial to _____, which may need surgery",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radial collateral ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Adductor aponeurosis"
+        },
+        {
+          "letter": "C",
+          "text": "Extensor hood"
+        },
+        {
+          "letter": "D",
+          "text": "Flexor pollicis longus"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Lee Patrick, Tim B. Hunter and Mihra Taljanovic. \"Musculoskeletal Colloquialisms: How Did We Come Up with These Names?\" Radiographics 24, no. 4 (July 2004): 1009-1027.",
+      "explanation": "UCL斷端回縮並移位至內收肌腱膜（adductor aponeurosis）淺層，被腱膜阻隔卡住無法癒合，故需手術。\n\n見 [[gamekeeper-thumb]]",
+      "images": [],
+      "concepts": [
+        "gamekeeper-thumb"
       ],
       "checked": false
     }

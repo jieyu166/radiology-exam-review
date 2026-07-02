@@ -47,6 +47,10 @@ dateRev: 2026-06-29
 > [!note] 考點：Gamekeeper's thumb 何者「未」受傷?
 > **橈側副韌帶（radial collateral ligament）**——受傷的是**尺側副韌帶（UCL）**於第一 MCP 關節;可伴近端指骨基部撕脫骨折、Stener lesion。[^1]
 
+## 題目
+> [!question]- Stener lesion is when the ulnar collateral ligament of thumb is superficial to _____, which may need surgery (2018-336)
+> **Adductor aponeurosis（B）**——UCL斷端回縮並移位至內收肌腱膜淺層，被腱膜阻隔卡住無法癒合，故需手術。[^2]
+
 ### 參考來源
 [^1]: *Gamekeeper's thumb / Stener lesion*. Radiopaedia.org（輔助來源，accessed 2026-06-29）：「avulsion or rupture of the **ulnar collateral ligament** of the first metacarpophalangeal joint」;Gamekeeper's＝慢性、Skier's＝急性;Stener lesion＝回縮 UCL 移位至 adductor aponeurosis 淺層、「yo-yo on a string」、需手術。
 [^2]: Lee AT, Carlson MG. *US Diagnosis of UCL Tears of the Thumb and Stener Lesions: Technique, Pattern-based Approach, and Differential Diagnosis*. **RadioGraphics** 2016;36(6):1631–1644（article 級，RSNA 同儕審查）。DOI: 10.1148/rg.264055117。內含正常 UCL／撕裂 US 表現、Stener lesion「yo-yo on a string／tadpole」徵象、完全斷裂中 Stener 約 64–88%、US 動態鑑別法。

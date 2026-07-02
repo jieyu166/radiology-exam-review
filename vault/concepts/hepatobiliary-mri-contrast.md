@@ -38,10 +38,14 @@ same:
 ### 參考來源
 [^2]: 官方 2017 詳解；European Society of Radiology, ECR 2014, C-0963（doi:10.1594/ecr2014/C-0963）：HCC肝膽期矛盾攝取機轉為OATP8(OATP1B3)表現量升高（非降低）搭配MRP2表現量降低，造成對比劑細胞質滯留呈現高訊號；腫瘤壓迫致膽汁分泌障礙亦可促成訊號滯留。
 [^1]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「progressively into the **hepatocytes and bile ducts during the hepatobiliary phase** ... contrast MRI cholangiogram」;「linear, ionic molecule; **50% hepatic excretion, 50% renal excretion**」。肝膽期病灶攝取（FNH/OATP+ HCC vs 轉移不攝取）、OATP1B1/B3-MRP2 機轉、Gd-BOPTA ~3–5% 膽排為肝膽 MRI 共識（mriquestions.com / 肝臟 MRI 文獻）。
+[^3]: *Cancer Imaging* (2013) 13(4), 567-579（2018 交換考題詳解 p.239 引用；Tier 2 期刊）。Gd-EOB-DTPA為肝膽特異性對比劑，具顯著肝膽排泄比例（約50%）；Gd-DTPA、Gd-DOTA、Gd-DO3A為一般細胞外對比劑，主要經腎排泄，無顯著肝膽排泄。
 
 ## 題目
 > [!question]- Some hepatocellular carcinoma show paradoxical uptake in hepatobiliary phase in liver MRI, which statement for these lesions is wrong? (2017-314)
 > **B為偽**——矛盾攝取HCC之機轉為**OATP8表現量升高**（非「降低」），搭配MRP2表現量降低致對比劑細胞質滯留。MRP3表現量升高(A)、腫瘤壓迫致膽汁分泌障礙(C)皆為真實機轉之一。[^2]
+
+> [!question]- Which of the following MR contrast agents have significant amount excreted from hepatobiliary system? (2018-329)
+> **Gd-EOB-DTPA（C）**——即gadoxetate disodium（Primovist/Eovist），約50%經肝膽排泄。Gd-DTPA、Gd-DOTA、Gd-DO3A皆屬一般細胞外對比劑，主要經腎臟排泄，肝膽排泄比例極低。[^3]
 
 ## 考題
 ```dataview
