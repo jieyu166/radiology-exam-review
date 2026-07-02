@@ -54,6 +54,9 @@ same:
 > [!question]- Which of the following structures for a gadolinium-based contrast agents (GBCAs) will have the strongest binding between the ligand and gadolinium ion? (2018-107)
 > **Macrocyclic, ionic（A）**——結合最強最穩定，去螯合風險最低。[^4]
 
+> [!question]- EMA PRAC於106年建議限縮linear gadolinium靜脈注射使用，以下何者錯誤? (2018-112)
+> **gadobenic acid僅能低劑量用於心臟顯影（B）**——gadoxetic acid與gadobenic acid**僅能用於肝臟顯影**(非心臟)；gadopentetic acid僅能低劑量用於關節顯影(C對)；其餘linear gadolinium(gadodiamide、gadoversetamide)維持下架建議(D對)；gadoxetic acid僅能用於肝臟顯影(A對)。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")

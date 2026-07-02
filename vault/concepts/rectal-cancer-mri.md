@@ -26,6 +26,14 @@ dateRev: 2026-06-19
 
 ### 參考來源
 [^1]: *Rectal cancer*. Radiopaedia.org（實際查證 accessed 2026-06-19）：MRI 用於 locoregional staging（T3 extramural spread、mesorectal fascia、EMVI）;「high signal change adjacent to the muscularis propria is due to local **desmoplastic reaction**」（致 overstaging）;adenoma/T1 鑑別非 MRI 強項。題目另引 RadioGraphics 直腸 MR。
+[^2]: Hricak H, Husband J, Panicek DM, eds. *Oncologic Imaging: Essentials of reporting common cancers*. Philadelphia: Saunders, 2007; 30-1（2018 交換考題詳解 p.275 引用；Tier 2 教科書）。直腸癌MRI局部分期以高解析度序列評估腫瘤與腸壁/mesorectal fascia關係。
+
+> [!warning] 2018-366 官方答案C(FLAIR)與放射科標準實務不符
+> 本題選項為A T1W／B contrast-enhanced T1W／C FLAIR／D proton density，官方標示答案C(FLAIR)。惟直腸癌局部分期之標準最佳序列為**高解析度T2WI**（清楚顯示腸壁分層與muscularis propria），FLAIR並非body/直腸MRI常規分期序列；四選項中亦無T2W。此題疑為選項轉錄不全或瑕疵題，暫依官方記C並flag待醫師對照原始考卷確認。
+
+## 題目
+> [!question]- In the staging of rectal cancer by MRI, which sequence provides optimum visualization of the tumour? (2018-366)
+> **官方標示FLAIR（C）**——⚠️惟標準實務為高解析度T2WI，FLAIR非直腸MRI常規分期序列，疑瑕疵題，見上方warning。[^2]
 
 ## 考題
 ```dataview
