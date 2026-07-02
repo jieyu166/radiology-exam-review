@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 293,
+  "totalQuestions": 302,
   "questions": [
     {
       "id": "2018-001",
@@ -10836,6 +10836,339 @@
       "images": [],
       "concepts": [
         "paraneoplastic-syndromes-brain"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-294",
+      "year": 2018,
+      "number": 294,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is correct about colloid cyst?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most at foramen of Monro."
+        },
+        {
+          "letter": "B",
+          "text": "2/3 hyperdense on non-enhanced CT."
+        },
+        {
+          "letter": "C",
+          "text": "2/3 hyperintense on T1WI."
+        },
+        {
+          "letter": "D",
+          "text": "All of above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.199；Diagnostic Imaging, Brain, Third edition, p.612-613.",
+      "explanation": "膠樣囊腫(colloid cyst)大多位於Monro氏孔(foramen of Monro)、約2/3於非顯影CT呈高密度、約2/3於T1WI呈高訊號，三者皆為正確描述。",
+      "images": [],
+      "concepts": [
+        "colloid-cyst"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-295",
+      "year": 2018,
+      "number": 295,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common benign tumor of hand?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enchondroma"
+        },
+        {
+          "letter": "B",
+          "text": "Osteoid Osteoma"
+        },
+        {
+          "letter": "C",
+          "text": "Giant Cell Tumor"
+        },
+        {
+          "letter": "D",
+          "text": "Non-ossifying Fibroma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.200；Diagnostic Imaging of Benign and Malignant Osseous Tumors of the Fingers. RadioGraphics 2014;34:1954-1967.",
+      "explanation": "內生軟骨瘤(enchondroma)為手部最常見之良性骨腫瘤。",
+      "images": [],
+      "concepts": [
+        "hand-bone-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-296",
+      "year": 2018,
+      "number": 296,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding \"Bizarre Parosteal Osteochondromatous Proliferation\" is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Is a malignant tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Also known as Nora lesion."
+        },
+        {
+          "letter": "C",
+          "text": "Medullary continuity between the normal bone is uncommon."
+        },
+        {
+          "letter": "D",
+          "text": "Most lesions are asymptomatic, but may progressively enlarge."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.200；Diagnostic Imaging of Benign and Malignant Osseous Tumors of the Fingers. RadioGraphics 2014;34:1954-1967.",
+      "explanation": "BPOP(Bizarre Parosteal Osteochondromatous Proliferation)為罕見「良性」病灶(非惡性)，屬局部侵襲性且常復發之骨膜性骨軟骨性外生骨疣，源自皮質，故本敘述錯誤。又稱Nora lesion、與正常骨之髓腔連續性不常見、多數病灶無症狀但可漸進性增大，皆為正確描述。\n\n見 [[hand-bone-tumors]]",
+      "images": [],
+      "concepts": [
+        "hand-bone-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-297",
+      "year": 2018,
+      "number": 297,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging findings not typical for rickets?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bone absorption at distal phalanges."
+        },
+        {
+          "letter": "B",
+          "text": "Rachitis rosary"
+        },
+        {
+          "letter": "C",
+          "text": "A peripheral rim of long bone along metaphysis."
+        },
+        {
+          "letter": "D",
+          "text": "Transverse sclerotic lines paralleling the growth plates."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.201；Imaging Findings of Metabolic Bone Disease. RadioGraphics 2016;36:1871-1887.",
+      "explanation": "遠端指骨骨吸收(acro-osteolysis)並非佝僂病(rickets)之典型表現，其鑑別診斷(口訣PINCHFO)包含乾癬/緻密性骨發育不全、外傷、神經病變、膠原血管病、副甲狀腺機能亢進、家族性、其他(氯乙烯暴露/早老症)——皆與rickets機轉不同，故此敘述為佝僂病非典型表現。佝僂病典型影像特徵含rachitic rosary(肋軟骨交界處膨大)、長骨幹骺端周邊透亮環(peripheral rim)、與生長板平行之橫向硬化線(healing rickets徵象)。\n\n見 [[metabolic-bone-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-298",
+      "year": 2018,
+      "number": 298,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging findings not typical for hypophosphatemia? (應該是指Hypophosphatasia)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffuse sclerotic changes of bones."
+        },
+        {
+          "letter": "B",
+          "text": "Beaten-copper appearance of skull"
+        },
+        {
+          "letter": "C",
+          "text": "Short stature."
+        },
+        {
+          "letter": "D",
+          "text": "Pseudo-fracture of long bone."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.202；Imaging Findings of Metabolic Bone Disease. RadioGraphics 2016;36:1871-1887.",
+      "explanation": "低磷酸酶症(hypophosphatasia)之典型骨骼表現為「瀰漫性骨質疏鬆(generalized/usually irregular osteoporosis)」而非「瀰漫性硬化性變化」，故本敘述錯誤。顱骨敲擊銅樣外觀(beaten-copper appearance，因功能性顱縫早閉、若嬰兒存活顱縫可能永久融合致顱內壓升高)、身材矮小、長骨假性骨折，皆為正確描述。\n\n見 [[metabolic-bone-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-299",
+      "year": 2018,
+      "number": 299,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging findings not typical for renal osteodystrophy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transverse sclerotic lines paralleling the growth plates."
+        },
+        {
+          "letter": "B",
+          "text": "Salt and pepper appearance of skull."
+        },
+        {
+          "letter": "C",
+          "text": "Bone resorption and cortical tunneling of long bone."
+        },
+        {
+          "letter": "D",
+          "text": "Formation of Brown tumor"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.203；Imaging Findings of Metabolic Bone Disease. RadioGraphics 2016;36:1871-1887.",
+      "explanation": "與生長板平行之橫向硬化線為「佝僂病(rickets)」之典型表現，非腎性骨營養不良(renal osteodystrophy)之典型影像特徵，故本敘述錯誤。顱骨鹽和胡椒樣外觀(salt and pepper skull)、長骨骨吸收合併皮質隧道化(cortical tunneling)、棕色瘤(brown tumor)形成，皆為腎性骨營養不良(常合併續發性副甲狀腺機能亢進)之正確典型表現。\n\n見 [[metabolic-bone-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-300",
+      "year": 2018,
+      "number": 300,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following carpal arcs will be disrupted during the lunate dislocation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arc I"
+        },
+        {
+          "letter": "B",
+          "text": "Arc II"
+        },
+        {
+          "letter": "C",
+          "text": "Arc III"
+        },
+        {
+          "letter": "D",
+          "text": "Arc IV"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.204；Orthopedic Imaging – A Practical Approach 5th Edition, p.213 & 216.",
+      "explanation": "月狀骨脫位(lunate dislocation)時，會破壞腕骨弧線中的Arc II(通過近排腕骨遠端凸面之弧線)之連續性。",
+      "images": [],
+      "concepts": [
+        "carpal-arcs-lunate-dislocation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-301",
+      "year": 2018,
+      "number": 301,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following radiographic features on radiography is NOT usually seen in patients with an enchondroma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of sclerotic rim"
+        },
+        {
+          "letter": "B",
+          "text": "Annular or punctate calcifications in the matrix"
+        },
+        {
+          "letter": "C",
+          "text": "Scalloping of the inner cortical margin"
+        },
+        {
+          "letter": "D",
+          "text": "Entirely radiolucent in short bones"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.205；Orthopedic Imaging – A Practical Approach 5th Edition, p.614-621.",
+      "explanation": "邊緣硬化緣(sclerotic rim)並非內生軟骨瘤(enchondroma)之典型平片表現，故本敘述錯誤。基質內環狀或點狀鈣化、內側皮質緣扇形凹陷(scalloping)、於短骨(如手指骨)完全呈透亮性表現，皆為內生軟骨瘤之正確典型表現。\n\n見 [[hand-bone-tumors]]",
+      "images": [],
+      "concepts": [
+        "hand-bone-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-302",
+      "year": 2018,
+      "number": 302,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following radiographic features on radiography is NOT usually seen in patients with hyperthyroidism? (應該是問hyperparathyrodism)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subperiosteal resorption of phalanges"
+        },
+        {
+          "letter": "B",
+          "text": "Intracortical resorption of long bones"
+        },
+        {
+          "letter": "C",
+          "text": "Cystic-like radiolucent lesions in bones"
+        },
+        {
+          "letter": "D",
+          "text": "Button sequestrum in skull vault"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.206；Orthopedic Imaging – A Practical Approach 5th Edition, p.847.",
+      "explanation": "鈕扣狀死骨(button sequestrum)——溶骨性病灶內殘存之中央骨密度區，周圍環繞透亮帶——典型見於骨髓炎(osteomyelitis)與嗜酸性肉芽腫(eosinophilic granuloma)，偶見於纖維肉瘤與淋巴瘤，並非副甲狀腺機能亢進(hyperparathyroidism)之典型表現，故本敘述錯誤。指骨骨膜下骨吸收、長骨皮質內骨吸收、骨內囊狀透亮病灶(棕色瘤)，皆為副甲狀腺機能亢進之正確典型表現。\n\n見 [[metabolic-bone-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
       ],
       "checked": false
     }
