@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 356,
+  "totalQuestions": 362,
   "questions": [
     {
       "id": "2020-001",
@@ -13042,6 +13042,228 @@
       "images": [],
       "concepts": [
         "myocarditis-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-357",
+      "year": 2020,
+      "number": 357,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "When a hypervascular intramural subepithelial mass larger than 3 cm is encountered at contrast-enhanced CT involving the GI tract, which one is the most common and should be considered first in the differential diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Angiosarcoma"
+        },
+        {
+          "letter": "B",
+          "text": "Gastrointestinal Stromal Tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Kaposi Sarcoma"
+        },
+        {
+          "letter": "D",
+          "text": "Nerve Sheath Tumors"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Hypervascular Subepithelial Gastrointestinal Masses: CT-Pathologic Correlation, RadioGraphics Vol. 30, No. 7",
+      "explanation": "當顯影CT上遇到>3cm之富血管性壁內黏膜下腫瘤，GIST為最常見且應優先列入鑑別診斷之腫瘤；其他富血管性黏膜下病灶(類癌、腎絲球瘤、異位胰臟)多呈腔內病灶、<3cm、且較GIST強化更明顯，惟<3cm之GIST影像特徵與上述病灶有重疊。",
+      "images": [],
+      "concepts": [
+        "gist-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-358",
+      "year": 2020,
+      "number": 358,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the clinical and CT features of an hypervascular subepithelial masses and mass-like lesion, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neuroendocrine carcinoma : Ulcerative tumor similar to adenocarcinoma; has metastases"
+        },
+        {
+          "letter": "B",
+          "text": "Glomus tumor : Relatively homogeneous; minimal enhancement in the arterial phase and delayed enhancement in the delayed phase"
+        },
+        {
+          "letter": "C",
+          "text": "Hemangioma : Phleboliths"
+        },
+        {
+          "letter": "D",
+          "text": "Heterotopic pancreas : Typically in the gastric antrum; shows intraluminal growth, an irregular border, and enhancement similar to that of the pancreas"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Hypervascular Subepithelial Gastrointestinal Masses: CT-Pathologic Correlation, RadioGraphics Vol. 30, No. 7",
+      "explanation": "腎絲球瘤(glomus tumor)於動態顯影CT呈動脈期與門脈期強烈周邊結節狀或均質強化、延遲期持續強化(非動脈期微弱強化)，強化型態類似門靜脈、下腔靜脈甚至降主動脈，反映其血管組織成分，故B敘述錯誤。神經內分泌癌似腺癌之潰瘍性腫瘤合併轉移、血管瘤合併靜脈石、異位胰臟典型位於胃竇合併腔內生長不規則邊界及類胰臟強化，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "gist-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-359",
+      "year": 2020,
+      "number": 359,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "About a typical heterotopic pancreas on CT image, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Homogeneous avid enhancement that is greater than or equal to that of the orthotopic pancreas"
+        },
+        {
+          "letter": "B",
+          "text": "Endoluminal growth pattern"
+        },
+        {
+          "letter": "C",
+          "text": "Mostly found at gastic fundus"
+        },
+        {
+          "letter": "D",
+          "text": "Ill-defined microlobulated margins"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Heterotopic Pancreas: Histopathologic Features, Imaging Findings, and Complications, RadioGraphics Vol. 37, No.27",
+      "explanation": "異位胰臟最常見位置為**胃竇(gastric antrum)大彎側，幽門6公分範圍內**，並非胃底(fundus)，故C敘述錯誤。腺泡優勢病灶呈均質強烈強化(可等於或大於原位胰臟)、腔內生長型態、邊界不清微分葉狀，皆為典型胃/十二指腸異位胰臟之正確CT特徵。",
+      "images": [],
+      "concepts": [
+        "heterotopic-pancreas"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-360",
+      "year": 2020,
+      "number": 360,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "About a typical acute appendicitis on image, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT, MR imaging: dilated and blind-ending tubular structure arising from the cecum"
+        },
+        {
+          "letter": "B",
+          "text": "CT, MR imaging: thickening of the cecal wall (\"cecal bar\" sign)"
+        },
+        {
+          "letter": "C",
+          "text": "US: distended (>5 mm), thick-walled,"
+        },
+        {
+          "letter": "D",
+          "text": "US: non-compressible shadowing hyperechoic appendicolith ill-defined microlobulated margins"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Pelvic Inflammatory Disease: Multimodality Imaging Approach with Clinical-Pathologic Correlation, RadioGraphics Vol. 36, No.5",
+      "explanation": "超音波診斷急性闌尾炎之管徑擴大門檻為**外徑>6mm**（非5mm），且應為無蠕動、無法壓縮；CT/MR呈起自盲腸之擴張盲端管狀構造、盲腸壁增厚(cecal bar sign)、超音波可見無法壓縮之聲影闌尾結石，皆為正確敘述，僅C之5mm門檻數值錯誤。",
+      "images": [],
+      "concepts": [
+        "acute-appendicitis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-361",
+      "year": 2020,
+      "number": 361,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About pathologic processes that mimic pelvic inflammatory disease (PID) on images, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ovarian torsion : sausage-shaped solid mass or cystic tubular structure with mural nodules, solid components show blood flow on color Doppler images"
+        },
+        {
+          "letter": "B",
+          "text": "Ovarian torsion : enlarged ovary (>5 cm) with decreased or absent enhancement, in an abnormal location, twisted pedicle, uterine deviation toward the affected side on CT/MRI"
+        },
+        {
+          "letter": "C",
+          "text": "Hemorrhagic ovarian cyst : peripheral \"ring of fire\" on color Doppler images (corpus luteum cyst)"
+        },
+        {
+          "letter": "D",
+          "text": "Isolated fallopian tube torsion fusiform dilatation of fallopian tube with tapered ends (\"beak sign\") CT/MRI"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Pelvic Inflammatory Disease: Multimodality Imaging Approach with Clinical-Pathologic Correlation, RadioGraphics Vol. 36, No.5",
+      "explanation": "「香腸狀實質腫塊或含壁結節之囊性管狀構造、實質成分於彩色都卜勒顯示血流」實為**輸卵管積膿/積水等輸卵管病灶**之描述(壁結節對應增厚之endosalpingeal folds，有助辨識輸卵管)，並非卵巢扭轉之典型表現，故A敘述錯誤地將此歸類為卵巢扭轉。卵巢扭轉典型為卵巢腫大(>5cm)合併顯影減少或消失、位置異常、扭轉之蒂部、子宮偏向患側；出血性卵巢囊腫(黃體囊腫)呈彩色都卜勒周邊「ring of fire」；單純輸卵管扭轉呈紡錘狀擴張合併兩端漸尖(beak sign)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "pid-mimics-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-362",
+      "year": 2020,
+      "number": 362,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is false about adrenal tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myelolipomas contain gross fat and are characteristically identified at CT based on the presence of macroscopic fat."
+        },
+        {
+          "letter": "B",
+          "text": "A heterogeneous enhancing adrenal mass greater than 4 cm in diameter has a high likelihood of malignancy, with approximately 70% of ACCs measuring >6 cm"
+        },
+        {
+          "letter": "C",
+          "text": "Pheochromocytomas typically secrete both norepinephrine and epinephrine."
+        },
+        {
+          "letter": "D",
+          "text": "Adrenal lymphangioma is an exceedingly rare malignant tumor usually discovered incidentally."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult: Radiologic-Pathologic Correlation, RadioGraphics 2014",
+      "explanation": "腎上腺淋巴管瘤(adrenal lymphangioma)為極罕見之**良性**(非惡性)腫瘤，盛行率估計約0.06%，通常無症狀、好發第3-6十年、多為偶然發現，故D敘述錯誤。骨髓脂肪瘤含粗大脂肪並可依CT大體脂肪特徵性識別、異質強化腎上腺腫塊>4cm高度提示惡性(約70%ACC>6cm)、嗜鉻細胞瘤通常同時分泌正腎上腺素與腎上腺素，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
       ],
       "checked": false
     }

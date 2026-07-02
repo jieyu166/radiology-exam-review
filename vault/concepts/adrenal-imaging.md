@@ -31,6 +31,9 @@ down:
 - **成人腎上腺出血最常見病因＝鈍挫傷（blunt trauma）**；雙側出血則少因外傷，多與壓力/敗血（Waterhouse-Friderichsen）/DIC/抗凝有關。[^3][^2]（053：C）
 - **Myelolipoma（腎上腺骨髓脂肪瘤）**：**少見良性腫瘤**，由**成熟脂肪組織與造血組織(hematopoietic tissue)**組成;可因**自發性出血**而體積增大並出現症狀;MR上可呈**T1WI均質高訊號、T2WI中等訊號**（因含大量脂肪成分）。[^4]
 - **Adreniform masses（保留腎上腺外形的病灶）分類**：定義為病灶**內生於腎上腺、保留腺體整體外形(adreniform shape)**——**腎上腺皮質增生(cortical hyperplasia)**與**腎上腺出血(adrenal hemorrhage)**皆屬此類（僅使腺體瀰漫增大但維持原形）;**Pheochromocytoma**則**不屬於**adreniform masses，因其為局部腫塊性病灶會扭曲/取代腺體正常外形，而非單純保留原形之瀰漫性增大。[^4]
+- **腎上腺淋巴管瘤(adrenal lymphangioma)**：極罕見之**良性**（非惡性）腫瘤，盛行率估計約0.06%，通常**無症狀**、多為**偶然發現**、好發年齡高峰於第3-6十年。[^5]
+- **腎上腺皮質癌(ACC)惡性判斷**：異質強化腎上腺腫塊**>4cm**具高度惡性可能，且**約70%之ACC測量>6cm**。[^5]
+- **嗜鉻細胞瘤分泌**：典型**同時分泌正腎上腺素(norepinephrine)與腎上腺素(epinephrine)**。[^5]
 
 ## 鑑別與報告要點
 | 考點 | 答案 |
@@ -46,6 +49,7 @@ down:
 [^2]: Lattin GE, Sturgill ED, Tujo CA, et al. *From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult*. RadioGraphics. 2014;34(3):805-829. https://doi.org/10.1148/rg.343130127 （題目所引；全文已讀。涵蓋皮質增生、pseudocyst/出血、感染、pheo。經 PubMed 取得書目 PMID 24819798。結節性增生隨年齡↑、雙側界清腫大想感染為標準腎上腺教學）。
 [^3]: *Adrenal hemorrhage*. Radiopaedia.org。腎上腺外傷為單側腎上腺出血常見原因；雙側出血多非外傷（敗血/DIC/抗凝）（實際查證 accessed 2026-06-15）。
 [^4]: 官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation. RadioGraphics 2004;24:S73-S86：myelolipoma為少見良性腫瘤(成熟脂肪+造血組織)可因自發性出血致症狀性增大，MR呈T1均質高訊號、T2中等訊號;adreniform masses(保留腺體外形之病灶)含cortical hyperplasia與adrenal hemorrhage，pheochromocytoma因扭曲/取代腺體外形而不屬此類;pheochromocytoma不含大量微觀脂肪故反相位無訊號掉落，T2WI呈高訊號(lightbulb sign)，多數病灶顯著強化。
+[^5]: 官方2020詳解；Ref: From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult: Radiologic-Pathologic Correlation, RadioGraphics 2014（題目所引）——腎上腺淋巴管瘤為極罕見良性腫瘤(非惡性)，盛行率約0.06%，通常無症狀偶然發現；異質強化腎上腺腫塊>4cm高度提示惡性，約70% ACC>6cm；嗜鉻細胞瘤典型同時分泌正腎上腺素與腎上腺素。
 
 ## 題目
 > [!question]- Which of the following description concerning with myelolipoma is true? (2017-327)
@@ -56,6 +60,9 @@ down:
 
 > [!question]- Which one is the characteristic of pheochromocytoma? (2017-330)
 > **B（多數病灶顯著強化）**——pheochromocytoma不含大量微觀脂肪，反相位無訊號掉落(A錯)，T2WI典型呈高訊號"lightbulb sign"(C錯，非低訊號)。[^4]
+
+> [!question]- Which statement is false about adrenal tumors? (2020-362)
+> **Adrenal lymphangioma is an exceedingly rare malignant tumor（D）為錯誤**——腎上腺淋巴管瘤實為極罕見之**良性**腫瘤，非惡性。骨髓脂肪瘤含大體脂肪、異質強化腫塊>4cm高度提示惡性(約70% ACC>6cm)、嗜鉻細胞瘤同時分泌正腎上腺素與腎上腺素，皆為正確敘述。[^5]
 
 ## 考題
 ```dataview

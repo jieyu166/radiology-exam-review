@@ -21,10 +21,14 @@ dateRev: 2026-07-01
 - **MRI 特徵**：與正常胰臟訊號相近，於非顯影 T1WI 呈特徵性**高訊號**，並有**早期強烈強化（intense early enhancement）**。[^1]
 - **鋇劑攝影典型徵象**：胃竇大彎側壁內腫塊，中央可見鋇劑填充之小凹（central umbilication），為異位胰臟的特徵性表現。[^1]
 
+## 題目
+> [!question]- About a typical heterotopic pancreas on CT image, which one is wrong? (2020-359)
+> **Mostly found at gastric fundus（C）為錯誤**——異位胰臟最常見位置為胃竇(gastric antrum)大彎側，非胃底(fundus)。均質強烈強化(可等於或大於原位胰臟)、腔內生長型態、邊界不清微分葉狀，皆為正確CT特徵。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "heterotopic-pancreas")
 ```
 
 ### 參考來源
-[^1]: *Heterotopic Pancreas: Histopathologic Features, Imaging Findings, and Complications.* RadioGraphics 2017;37:page 486（2018 交換考題詳解 p.82-84 引用；Tier 1）。異位胰臟最常見於上消化道（胃/十二指腸/近端空腸），最高發生率器官為胃（胃竇大彎側，幽門6cm內）；CT特徵含卵圓/扁平形、腔內生長、胃竇位置、微分葉邊界；MRI T1高訊號＋早期強烈強化；鋇劑攝影可見中央umbilication。
+[^1]: *Heterotopic Pancreas: Histopathologic Features, Imaging Findings, and Complications.* RadioGraphics 2017;37:page 486（2018 交換考題詳解 p.82-84 引用；官方2020詳解亦引用 RadioGraphics Vol. 37, No.27，Tier 1）。異位胰臟最常見於上消化道（胃/十二指腸/近端空腸），最高發生率器官為胃（胃竇大彎側，幽門6cm內，非胃底）；CT特徵含卵圓/扁平形、腔內生長、胃竇位置、微分葉邊界、均質強烈強化(可等於或大於原位胰臟)；MRI T1高訊號＋早期強烈強化；鋇劑攝影可見中央umbilication。
