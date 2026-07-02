@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 289,
+  "totalQuestions": 296,
   "questions": [
     {
       "id": "2020-001",
@@ -10551,6 +10551,265 @@
       "images": [],
       "concepts": [
         "covid19-chest-ct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-290",
+      "year": 2020,
+      "number": 290,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG for imaging features of thoracic metastases from gynecologic neoplasms.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metastases from endometrial carcinoma exhibit imaging features identical to those of ovarian cancers."
+        },
+        {
+          "letter": "B",
+          "text": "Thoracic metastases from ovarian cancer often manifest with small pleural effusions and subtle pleural nodules."
+        },
+        {
+          "letter": "C",
+          "text": "Thoracic metastases to the lungs, lymph nodes, and pleura may also exhibit calcification and mimic granulomatous disease."
+        },
+        {
+          "letter": "D",
+          "text": "Some pulmonary metastases from gynecologic malignancies exhibit characteristic features such as cavitation (in squamous cell cervical cancer) and the \"halo\" sign (in hemorrhagic metastatic choriocarcinoma)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Martínez-Jiménez S., Rosado-de-Christenson M.L., Walker C.M., et al: Imaging features of thoracic metastases from gynecologic neoplasms. Radiographics 2014; 34: pp. 1742-1754",
+      "explanation": "子宮內膜癌轉移呈indolent型態，與卵巢癌(小量肋膜積液合併細微結節、可鈣化)表現不同，並非相同，故(A)為錯誤敘述。卵巢癌轉移表現、鈣化類似肉芽腫性疾病、子宮頸鱗癌空洞化/絨毛膜癌halo徵象皆正確。",
+      "images": [],
+      "concepts": [
+        "gynecologic-thoracic-metastases"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-291",
+      "year": 2020,
+      "number": 291,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "About \"seronegative spondyloarthropathies\", which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "These disorders are all linked to the HLA-B27 histocompatibility antigen."
+        },
+        {
+          "letter": "B",
+          "text": "Ankylosing spondylitis classically has marginal, symmetric syndesmophytes"
+        },
+        {
+          "letter": "C",
+          "text": "Psoriatic arthritis and Reiter syndrome classically have Nonmarginal, asymmetric syndesmophytes."
+        },
+        {
+          "letter": "D",
+          "text": "Involvement of the SI joints is not common."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Fundamentals of Skeletal Radiology, 2020, 5th ed., Chapter 6, 119-150",
+      "explanation": "實際上薦髂關節侵犯在此疾病家族中常見，並非罕見，故(D)為錯誤敘述。皆與HLA-B27相關、僵直性脊椎炎邊緣性對稱性syndesmophytes、乾癬性關節炎與萊特氏症候群非邊緣性不對稱性syndesmophytes，皆正確。",
+      "images": [],
+      "concepts": [
+        "seronegative-spondyloarthropathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-292",
+      "year": 2020,
+      "number": 292,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "In a Stener lesion, what structure entrapped the ulnar collateral ligament of first metacarpophalangeal joint, which resulted in the need for surgery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Flexor pollicis longus"
+        },
+        {
+          "letter": "B",
+          "text": "Extensor pollicis longus"
+        },
+        {
+          "letter": "C",
+          "text": "Adductor aponeurosis"
+        },
+        {
+          "letter": "D",
+          "text": "Radial collateral ligament"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Lee Patrick, Tim B. Hunter and Mihra Taljanovic. \"Musculoskeletal Colloquialisms: How Did We Come Up with These Names?\" Radiographics 24 (4) (July 2004). P. 1009-1027.",
+      "explanation": "完全斷裂之UCL近端斷端回縮並移位至內收肌腱膜(adductor pollicis aponeurosis)淺層，被腱膜阻隔卡住無法回到原止點，故無法自行癒合須手術。",
+      "images": [],
+      "concepts": [
+        "gamekeeper-thumb"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-293",
+      "year": 2020,
+      "number": 293,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "The combination of radial head fracture and dislocation of distal radio-ulnar joint is called?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Monteggia fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Galeazzi fracture"
+        },
+        {
+          "letter": "C",
+          "text": "Essex-Lopresti fracture"
+        },
+        {
+          "letter": "D",
+          "text": "nightstick fracture"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Pope TL, Harris JH. Harris and Harris' the Radiology of Emergency Medicine. 5th ed. Philadelphia, PA: Lippincott Williams & Wilkins; 2013: 366.",
+      "explanation": "橈骨頭骨折合併遠端橈尺關節脫位稱為Essex-Lopresti fracture。Monteggia為尺骨近端骨折+橈骨頭脫位、Galeazzi為橈骨遠端骨折+遠端橈尺關節脫位。",
+      "images": [],
+      "concepts": [
+        "forearm-fracture-dislocation-eponyms"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-294",
+      "year": 2020,
+      "number": 294,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Wrisberg rip tear of the posterior horn of lateral meniscus originates at the attachment of the ligament of Wrisberg. This pattern is commonly associated with what kind of the following ligamentous injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior cruciate ligament (ACL) tears"
+        },
+        {
+          "letter": "B",
+          "text": "Posterior cruciate ligament (PCL) tears"
+        },
+        {
+          "letter": "C",
+          "text": "Medial collateral ligament (MCL) tears"
+        },
+        {
+          "letter": "D",
+          "text": "Fibular collateral ligament (FCL) tears"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Meniscal Tears Scanned, Scooped, and Sculpted. RadioGraphics 2015; 35:1138-1139",
+      "explanation": "ACL斷裂後之膝關節不穩定使外側半月板後角承受異常應力，增加Wrisberg rip型態撕裂之風險。",
+      "images": [],
+      "concepts": [
+        "meniscal-tear-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-295",
+      "year": 2020,
+      "number": 295,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is Palmer type 1B injury of triangular fibrocartilage complex (TFCC)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ulnar avulsion with or without distal ulnar fracture"
+        },
+        {
+          "letter": "B",
+          "text": "Distal avulsion of ulnocarpal ligaments"
+        },
+        {
+          "letter": "C",
+          "text": "Radial avulsion with or without sigmoid notch fracture"
+        },
+        {
+          "letter": "D",
+          "text": "all of above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Magn Reson Med Sci 2017; 16; 3-15. High-Resolution 3T MR Imaging of the Triangular Fibrocartilage Complex",
+      "explanation": "TFCC Palmer type 1B為尺側撕脫，可合併或不合併尺骨遠端骨折。1c為遠端撕脫(ulnotriquetral/ulnolunate韌帶)、1d為橈側撕脫(±sigmoid notch骨折)。",
+      "images": [],
+      "concepts": [
+        "tfcc-palmer-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-296",
+      "year": 2020,
+      "number": 296,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not one of seat belt-related injuries?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "laryngotracheal injury"
+        },
+        {
+          "letter": "B",
+          "text": "bowel and mesenteric injuries"
+        },
+        {
+          "letter": "C",
+          "text": "C7 and T1 transverse process fractures"
+        },
+        {
+          "letter": "D",
+          "text": "hip dislocation"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Pattern Recognition: A Mechanism-based Approach to Injury Detection after Motor Vehicle Collisions. RadioGraphics 2019; 39:857-876",
+      "explanation": "髖關節脫位屬儀表板相關損傷(dashboard-related injuries)，非安全帶相關損傷。喉氣管損傷、腸道與腸繫膜損傷、C7/T1橫突骨折皆為安全帶相關損傷之典型表現。",
+      "images": [],
+      "concepts": [
+        "trauma-injury-mechanism-patterns"
       ],
       "checked": false
     }

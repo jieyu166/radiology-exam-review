@@ -54,6 +54,10 @@ dateRev: 2026-06-29
 [^4]: *Skier's thumb / Ulnar collateral ligament injury of the thumb* 綜述（Physiopedia、Wikipedia 對照，accessed 2026-06-29）：PA／側位／斜位平片找近端指骨基部撕脫骨折;Stener 平片無診斷力;valgus 應力門檻文獻分歧（約 20–45°，常用 > 35° 或較健側 > 15°）。
 [^5]: Hergan K, Mittler C, Oser W. *Gamekeeper's thumb: diagnosis of ulnar collateral ligament injury using MRI, MR arthrography and stress radiography*（PubMed PMID 9132097，摘要級）：以 MRI、MR arthrography、應力位鑑別 nondisplaced 與 displaced（Stener）UCL 撕裂。
 
+## 題目
+> [!question]- In a Stener lesion, what structure entrapped the ulnar collateral ligament of first metacarpophalangeal joint, which resulted in the need for surgery? (2020-292)
+> **Adductor aponeurosis（C）**——完全斷裂之UCL近端斷端回縮並移位至內收肌腱膜(adductor pollicis aponeurosis)淺層，被腱膜阻隔卡住無法回到原止點，故無法自行癒合須手術。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gamekeeper-thumb")
