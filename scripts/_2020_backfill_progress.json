@@ -1,5 +1,5 @@
 {
-  "next_page": 365,
+  "next_page": 373,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -366,7 +366,15 @@
     362,
     363,
     364,
-    365
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373
   ],
   "added_ids": [
     "2020-186",
@@ -578,9 +586,17 @@
     "2020-392",
     "2020-393",
     "2020-394",
-    "2020-395"
+    "2020-395",
+    "2020-396",
+    "2020-397",
+    "2020-398",
+    "2020-399",
+    "2020-400",
+    "2020-401",
+    "2020-402",
+    "2020-403"
   ],
-  "next_id": 396,
+  "next_id": 404,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -726,5 +742,5 @@
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批46(頁358-365)：8題候選，3題同年重印(p358=2020-152含釓對比劑代謝途徑；p361=2020-088 LGE心肌炎；p364=2020-036膽囊病變)，5題真新題(2020-391~395)：359肺AVM首選栓塞治療非手術(新建pulmonary-avm概念檔)、360 AAA EVAR術後腎功能異常應選不顯影MRI/CT/超音波(新建aaa-evar-followup-imaging概念檔)、362 Marfan annuloaortic ectasia定義含Valsalva竇擴大(重用marfan-syndrome.md新增手術時機段落)、363彎刀症候群右肺靜脈異常回流(新建scimitar-syndrome概念檔，含Chinese ring sword sign混淆點)、365氣腹徵象Rigler/football/ligamentum teres sign皆正確(新建pneumoperitoneum-signs概念檔)。totalQuestions(2020)已更新為395。commit 9716728(批46內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p366開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約91.7%(365/398頁)。累計本session已處理209個新題、9個跨年合併。剩餘約33頁。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
+  "notes": "批47(頁366-373)：8題候選，全部為真新題(2020-396~403，罕見的無同年重印批次)：366多期MDCT胰臟期為胰臟管腺癌偵測最佳時相(新建pancreatic-adenocarcinoma-mdct-phases概念檔)、367 NCCN定義abutment<180°(新建pancreatic-cancer-resectability-nccn概念檔)、368 Lynch syndrome最常見大腸直腸癌與子宮內膜癌非胃癌子宮頸癌(新建hereditary-gi-cancer-syndromes概念檔)、369 cortical rim sign屬腎梗塞非腎盂腎炎徵象(重用acute-pyelonephritis.md，該檔已有此事實僅補題目連結)、370 TZ-PZ交界帶正確名稱為假被膜非prostate capsule(重用prostate-zonal-anatomy.md新增概念混淆段落)、371 oncocytoma中央星狀疤痕/輻輪狀強化非病理特異性(chromophobe RCC亦可有，重用renal-cell-carcinoma.md)、372攝護腺肉瘤choline-to-citrate ratio應升高非降低(重用prostate-secondary-involvement.md)、373腎結核特徵不含阻塞性結石(新建renal-tuberculosis概念檔)。totalQuestions(2020)已更新為403。commit 5a1189a(批47內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p374開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約93.7%(373/398頁)。累計本session已處理217個新題、9個跨年合併。剩餘約25頁。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
 }
