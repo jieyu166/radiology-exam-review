@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 347,
+  "totalQuestions": 375,
   "questions": [
     {
       "id": "2019-001",
@@ -12563,6 +12563,1062 @@
       "images": [],
       "concepts": [
         "biliary-atresia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-379",
+      "year": 2019,
+      "number": 379,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following about fibrous dysplasia (FD) is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only 15-20% are polyostotic, mainly at pelvis, femur, tibia"
+        },
+        {
+          "letter": "B",
+          "text": "Uncommonly based in cortex; tibia is most common site for cortically based fibrous dysplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Commonly involves the metaphysis and occasionally the epiphysis"
+        },
+        {
+          "letter": "D",
+          "text": "Most lesions are mildly sclerotic, causing varying degrees of expansion"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。FD 常見於 diaphysis 或 metaphysis，epiphysis 侵犯極罕見。詳見 [[fibrous-dysplasia]]。",
+      "images": [],
+      "concepts": [
+        "fibrous-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-382",
+      "year": 2019,
+      "number": 382,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "A 75-year-old male with PSA level 8 microgram/L; prostate cancer of Gleason score 3+3; mpMRI revealing no clinically significant tumor in prostate and no metastatic disease. Which of the following strategy of treatment should be suggested?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "active surveillance"
+        },
+        {
+          "letter": "B",
+          "text": "radical prostatectomy"
+        },
+        {
+          "letter": "C",
+          "text": "hormone therapy"
+        },
+        {
+          "letter": "D",
+          "text": "radiotherapy"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。Gleason 3+3、PSA<10、mpMRI 無 significant tumor 屬低風險攝護腺癌，標準處置為 active surveillance。詳見 [[prostate-active-surveillance]]。",
+      "images": [],
+      "concepts": [
+        "prostate-active-surveillance"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-383",
+      "year": 2019,
+      "number": 383,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the followings is NOT a factor predicting better outcome about prostatic artery embolization (PAE) of benign prostatic hyperplasia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Higher CRP levels 24 hours after PAE"
+        },
+        {
+          "letter": "B",
+          "text": "Higher PSA levels 24 hours after PAE"
+        },
+        {
+          "letter": "C",
+          "text": "Unilateral embolization of prostatic artery"
+        },
+        {
+          "letter": "D",
+          "text": "Larger prostates with larger central glands and adenomas"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Unilateral embolization 效果不如 bilateral，非良好預後因子。詳見 [[prostatic-artery-embolization]]。",
+      "images": [],
+      "concepts": [
+        "prostatic-artery-embolization"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-384",
+      "year": 2019,
+      "number": 384,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is not common drainage site of coronary arteriovenous fistulas (CAVFs)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "right atrium"
+        },
+        {
+          "letter": "B",
+          "text": "pulmonary artery"
+        },
+        {
+          "letter": "C",
+          "text": "left ventricle"
+        },
+        {
+          "letter": "D",
+          "text": "right ventricle"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。CAVF 最常見 drainage site：right ventricle (41%)、right atrium (26%)、pulmonary artery (17%)。Left ventricle 不常見。詳見 [[coronary-av-fistula]]。",
+      "images": [],
+      "concepts": [
+        "coronary-av-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-385",
+      "year": 2019,
+      "number": 385,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "依據 Cho-Do classification system，可以將 peripheral AVM 的 nidus 分為 type I, II, IIIa & IIIb。其中 type II 的最佳 embolization 治療方式為: (1) Transarterial approach (2) Transvenous approach (3) direct puncture",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1 or 3"
+        },
+        {
+          "letter": "B",
+          "text": "2 or 3"
+        },
+        {
+          "letter": "C",
+          "text": "1"
+        },
+        {
+          "letter": "D",
+          "text": "2"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Type II AVM（多條 arterioles + single outflow vein）最佳治療為 transvenous approach 或 direct puncture。詳見 [[peripheral-avm-classification]]。",
+      "images": [],
+      "concepts": [
+        "peripheral-avm-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-386",
+      "year": 2019,
+      "number": 386,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the followings noninvasive techniques can eliminate standing arterial waves on angiography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase of filming rate"
+        },
+        {
+          "letter": "B",
+          "text": "Increase of contrast injection rate"
+        },
+        {
+          "letter": "C",
+          "text": "Larger volume of contrast"
+        },
+        {
+          "letter": "D",
+          "text": "Vasodilator"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。Vasodilator 使血管舒張可消除 standing arterial waves，其餘選項無效。詳見 [[angiography-standing-wave]]。",
+      "images": [],
+      "concepts": [
+        "angiography-standing-wave"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-387",
+      "year": 2019,
+      "number": 387,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following regarding the calcifications of male breast cancer is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tends to be more in number than female cancer"
+        },
+        {
+          "letter": "B",
+          "text": "Usually smaller than female"
+        },
+        {
+          "letter": "C",
+          "text": "More likely linear and less often punctate"
+        },
+        {
+          "letter": "D",
+          "text": "Calcifications with a relatively benign appearance in women should be considered suspicious in men"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。男性乳癌鈣化較女性少見、較粗糙，且良性鈣化在男性中罕見（除血管鈣化/脂肪壞死外）。因此在女性看起來良性的鈣化在男性應視為可疑。詳見 [[male-breast-cancer]]。",
+      "images": [],
+      "concepts": [
+        "male-breast-cancer"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-388",
+      "year": 2019,
+      "number": 388,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding the following artifacts of digital breast tomosynthesis (DBT), which one of them is rarely appreciated because of the masking effect of out-of-plane blurring?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blurring-Ripple Artifacts"
+        },
+        {
+          "letter": "B",
+          "text": "Truncation Artifacts"
+        },
+        {
+          "letter": "C",
+          "text": "Loss of Skin and Superficial Tissue Resolution"
+        },
+        {
+          "letter": "D",
+          "text": "Motion Artifacts"
+        },
+        {
+          "letter": "E",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。Motion artifact 在 DBT 因 out-of-plane blurring 的遮蔽效應而不易被察覺。詳見 [[dbt-artifact]]。",
+      "images": [],
+      "concepts": [
+        "dbt-artifact"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-389",
+      "year": 2019,
+      "number": 389,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not the neurovascular contents of superior orbital fissure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trigeminal nerve (V1)"
+        },
+        {
+          "letter": "B",
+          "text": "Vidian nerve"
+        },
+        {
+          "letter": "C",
+          "text": "Oculomotor nerve (III)"
+        },
+        {
+          "letter": "D",
+          "text": "Trochlear nerve (IV)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Vidian nerve 走 vidian canal（pterygopalatine fossa 後方），不經過 superior orbital fissure。SOF 通過 CN III、IV、V1、VI 及 superior ophthalmic vein。詳見 [[superior-orbital-fissure]]。",
+      "images": [],
+      "concepts": [
+        "superior-orbital-fissure"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-390",
+      "year": 2019,
+      "number": 390,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About pediatric low-grade glioma Genetics, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "smallest number of genetic alterations, with a median of one mutation per tumor"
+        },
+        {
+          "letter": "B",
+          "text": "result in activation of the MAPK (mitogen-activated protein kinase) pathway"
+        },
+        {
+          "letter": "C",
+          "text": "most common aberration in this pathway being that of its BRAF component"
+        },
+        {
+          "letter": "D",
+          "text": "all above are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。兒童 LGG 基因突變數最少（median 1/tumor）、活化 MAPK pathway、最常見為 BRAF 成分突變。詳見 [[pediatric-lgg-genetics]]。",
+      "images": [],
+      "concepts": [
+        "pediatric-lgg-genetics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-391",
+      "year": 2019,
+      "number": 391,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "As compared with primary CNS lymphoma, which is not the MRI characteristics in GBM?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lower ADC value"
+        },
+        {
+          "letter": "B",
+          "text": "More tumor necrosis"
+        },
+        {
+          "letter": "C",
+          "text": "Large tumor size"
+        },
+        {
+          "letter": "D",
+          "text": "Irregular tumor margin"
+        },
+        {
+          "letter": "E",
+          "text": "Higher incidence"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。PCNSL 的 ADC value 比 GBM 更低（cellularity 更高）。Lower ADC 是 PCNSL 特徵而非 GBM。詳見 [[gbm-vs-pcnsl]]。",
+      "images": [],
+      "concepts": [
+        "gbm-vs-pcnsl"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-393",
+      "year": 2019,
+      "number": 393,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is not included in the differential list of diffuse/multiple microbleeds?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Traumatic brain injury"
+        },
+        {
+          "letter": "B",
+          "text": "Micrometastasis"
+        },
+        {
+          "letter": "C",
+          "text": "Critical medical status"
+        },
+        {
+          "letter": "D",
+          "text": "Cerebral amyloid angiopathy"
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **E**。A-D 全部都在 diffuse/multiple microbleeds 的鑑別診斷中。詳見 [[cerebral-microbleeds]]。",
+      "images": [],
+      "concepts": [
+        "cerebral-microbleeds"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-394",
+      "year": 2019,
+      "number": 394,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "According to the 2017 Fleischner Society guideline for managing incidental pulmonary nodules, what slice thickness is suggested for accurate measurement and characterization?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "≤1.5 mm"
+        },
+        {
+          "letter": "B",
+          "text": "2 mm"
+        },
+        {
+          "letter": "C",
+          "text": "3 mm"
+        },
+        {
+          "letter": "D",
+          "text": "5 mm"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；MacMahon H et al. Fleischner Society 2017 guidelines. Radiology. 2017;284(1):228-243",
+      "explanation": "正確答案為 **A**。Fleischner 2017 建議使用 ≤1.5 mm 薄切，以 sharp algorithm 重建，避免 partial volume averaging。詳見 [[fleischner-pulmonary-nodule]]。",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-395",
+      "year": 2019,
+      "number": 395,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Managing incidental findings on thoracic CT, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Short-axis size threshold of 15 mm guides the decision process"
+        },
+        {
+          "letter": "B",
+          "text": "Small, asymptomatic anterior mediastinum pure cystic lesions need no further work-up nor FU"
+        },
+        {
+          "letter": "C",
+          "text": "Incidental pericardial cyst, HU < 10, no thickened pericardium, fluid < 50 ml, no calcification, need no further work-up nor FU"
+        },
+        {
+          "letter": "D",
+          "text": "Main pulmonary artery >5.5 cm, or equal in diameter to the ascending aorta, should be reported as dilated"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。Main pulmonary artery **≥3.0 cm**（非 5.5 cm）或直徑等於 ascending aorta 即應報告為擴張。詳見 [[incidental-thoracic-ct]]。",
+      "images": [],
+      "concepts": [
+        "incidental-thoracic-ct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-396",
+      "year": 2019,
+      "number": 396,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding chemotherapy-induced sinusoidal injury of liver, which of the followings is NOT correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "involving non-tumor part of liver"
+        },
+        {
+          "letter": "B",
+          "text": "also called sinusoid obstruction syndrome (SOS)"
+        },
+        {
+          "letter": "C",
+          "text": "sinusoidal dilatation, peliosis and nodular regenerative hyperplasia are pathologic findings"
+        },
+        {
+          "letter": "D",
+          "text": "MRI usually depict well-defined T2 hyperintense nodule with significant diffusion restriction on DWI"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。SOS 結節在 DWI 呈 iso-signal intensity（非 restricted diffusion），ADC 比 metastasis 高。詳見 [[sinusoidal-obstruction-syndrome]]。",
+      "images": [],
+      "concepts": [
+        "sinusoidal-obstruction-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-397",
+      "year": 2019,
+      "number": 397,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is wrong concerning hereditary hemorrhagic telangiectasia (HHT) involving liver?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HHT is characterized by an autosomal dominant inheritance pattern, multiple mucocutaneous telangiectases, epistaxis, and visceral arteriovenous malformations"
+        },
+        {
+          "letter": "B",
+          "text": "Most of the patients with liver involvement are symptomatic"
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary, cerebral, and spinal arteriovenous malformations have been well documented"
+        },
+        {
+          "letter": "D",
+          "text": "The common CT finding includes: dilated hepatic arteries, early filling of portal veins and hepatic veins in arterial phase suggesting arterioportal or arteriovenous shunting, biliary abnormality"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。HHT 的肝臟侵犯雖可見但多數無症狀（symptomatic liver involvement uncommon）。詳見 [[hht-liver]]。",
+      "images": [],
+      "concepts": [
+        "hht-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-398",
+      "year": 2019,
+      "number": 398,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "About musculoskeletal involvement of sarcoidosis, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Soft tissue swelling, and prominent joint effusion are common in acute sarcoidosis arthritis"
+        },
+        {
+          "letter": "B",
+          "text": "Tenosynovitis, tendinitis, bursitis, and synovitis can be demonstrated on MR, but findings are nonspecific"
+        },
+        {
+          "letter": "C",
+          "text": "Sarcoid muscle nodules usually present a fusiform, longitudinally oriented nodules with central low signal umbilication on TT2WI or T1W C+ FS"
+        },
+        {
+          "letter": "D",
+          "text": "Sarcoidosis in digits generally present a lacy trabecular configuration without significant periosteal reaction"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。急性類肉瘤關節炎（Lofgren syndrome）踝關節腫脹為 periarticular soft tissue swelling 及 tenosynovitis，true synovitis 或 joint effusion 少見。詳見 [[sarcoidosis-msk]]。",
+      "images": [],
+      "concepts": [
+        "sarcoidosis-msk"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-399",
+      "year": 2019,
+      "number": 399,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the followings about giant cell tumor (GCT) of bone is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence of a bulging extraosseous soft tissue mass specifies malignant GCT"
+        },
+        {
+          "letter": "B",
+          "text": "Presence of lung metastasis specifies malignant GCT"
+        },
+        {
+          "letter": "C",
+          "text": "Presence of multiple bone lesions specifies malignant GCT"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。GCT 即使有侵犯性表現仍為 low-grade tumor。Lung metastasis 稱為 benign metastasizing GCT（預後良好）。約 5-10% 為 malignant，sarcomatous transformation 多見於放療後。詳見 [[giant-cell-tumor]]。",
+      "images": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-400",
+      "year": 2019,
+      "number": 400,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Acro-osteolysis can be present in the following conditions EXCEPT...",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyperparathyroidism"
+        },
+        {
+          "letter": "B",
+          "text": "Psoriatic arthritis"
+        },
+        {
+          "letter": "C",
+          "text": "Neurofibromatosis type 1"
+        },
+        {
+          "letter": "D",
+          "text": "Scleroderma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。NF1 不是 acro-osteolysis 的典型病因。Scleroderma、psoriatic arthritis、hyperparathyroidism 皆可造成指端骨溶解。詳見 [[acro-osteolysis]]。",
+      "images": [],
+      "concepts": [
+        "acro-osteolysis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-401",
+      "year": 2019,
+      "number": 401,
+      "years": [
+        2019
+      ],
+      "subspecialty": "OB",
+      "subspecialty_confidence": "high",
+      "questionText": "When chorionic villi invade into the myometrium, it is known as",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Placenta previa totalis"
+        },
+        {
+          "letter": "B",
+          "text": "Placenta accreta vera"
+        },
+        {
+          "letter": "C",
+          "text": "Placenta increta"
+        },
+        {
+          "letter": "D",
+          "text": "Placenta percreta"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Accreta = 附著 myometrium 表面；Increta = 侵入 myometrium；Percreta = 穿透至 serosa。詳見 [[placenta-accreta-spectrum]]。",
+      "images": [],
+      "concepts": [
+        "placenta-accreta-spectrum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-403",
+      "year": 2019,
+      "number": 403,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "假設病患的右肱動脈血壓為 a mmHg，左肱動脈血壓為 b mmHg，右大腿血壓為 c mmHg，左大腿血壓為 d mmHg。請問關於 ABI (ankle-brachial pressure index) 之敘述下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "右大腿之 ABI 為 c / (a+b)"
+        },
+        {
+          "letter": "B",
+          "text": "如果右大腿之 ABI= 1.3，原因可能是右大腿動脈嚴重鈣化"
+        },
+        {
+          "letter": "C",
+          "text": "ABI < 0.9 表示動脈異常"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆正確"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。ABI = ankle SBP / 兩側 brachial SBP 中**較高者**（非兩側之和）。正確公式應為 c / max(a,b)。詳見 [[ankle-brachial-index]]。",
+      "images": [],
+      "concepts": [
+        "ankle-brachial-index"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-404",
+      "year": 2019,
+      "number": 404,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following description about thyroid radiofrequency ablation is NOT true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The transisthmic approach refers to the insertion of a RF electrode via the isthmus"
+        },
+        {
+          "letter": "B",
+          "text": "The electrode tip can be initially positioned in the deepest and most remote portion of the nodule, with subsequent retraction to the most superficial portion of the nodule"
+        },
+        {
+          "letter": "C",
+          "text": "The ablation is safe when the electrode moves in a forward direction even toward the \"danger triangle\" between the trachea and thyroid gland"
+        },
+        {
+          "letter": "D",
+          "text": "Ablation is safer when the tip of the electrode is well positioned within a 1-2 mm distance from the target nodule margin"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Danger triangle 位於 trachea 與 thyroid 之間，electrode 朝此方向移動是**危險的**，非安全。詳見 [[thyroid-rfa]]。",
+      "images": [],
+      "concepts": [
+        "thyroid-rfa"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-405",
+      "year": 2019,
+      "number": 405,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding the Synthetic Mammography (SM) reconstructed from digital breast tomosynthesis (DBT), which of the following statements is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unlike standard full-field digital mammography (FFDM), SM does not require additional radiation exposure"
+        },
+        {
+          "letter": "B",
+          "text": "The artifacts of SM include blurring subcutaneous tissue, loss of resolution in the axilla on MLO views, pseudocalcifications, and decreased resolution near foreign bodies"
+        },
+        {
+          "letter": "C",
+          "text": "SM's strengths include a reduced radiation dose, shorter acquisition time compared with a combined FFDM/DBT exam, increased conspicuity of calcifications, speculated margins, and architectural distortion"
+        },
+        {
+          "letter": "D",
+          "text": "The weakness of SM includes the potential for false positives of pseudocalcifications and the difficulty in assessing from motion artifact"
+        },
+        {
+          "letter": "E",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **E**。A-D 全部正確。SM 由 DBT 重建、不需額外輻射、有特定偽影與優缺點。詳見 [[synthetic-mammography]]。",
+      "images": [],
+      "concepts": [
+        "synthetic-mammography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-406",
+      "year": 2019,
+      "number": 406,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About incomplete spinal cord syndromes (ISCS), which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Injury to neurons in the ventral horns and peripheral nerves results in LMN deficits"
+        },
+        {
+          "letter": "B",
+          "text": "CCS is the most common ISCS. Trauma is the most common cause of CCS"
+        },
+        {
+          "letter": "C",
+          "text": "CMS causes mixed UMN and LMN deficits, while CES causes a purely LMN deficit"
+        },
+        {
+          "letter": "D",
+          "text": "All above were correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。A-C 全部正確。CCS 最常見、外傷為主因；CMS = mixed UMN+LMN；CES = pure LMN。詳見 [[incomplete-spinal-cord-syndrome]]。",
+      "images": [],
+      "concepts": [
+        "incomplete-spinal-cord-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-407",
+      "year": 2019,
+      "number": 407,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement about chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids (CLIPPERS) is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "punctate and curvilinear enhancement of the pons"
+        },
+        {
+          "letter": "B",
+          "text": "diffusion restriction of pontine lesion"
+        },
+        {
+          "letter": "C",
+          "text": "clinical and radiological responsiveness to glucocorticosteroid-based immunosuppression"
+        },
+        {
+          "letter": "D",
+          "text": "long-term immunosuppressive therapy for sustained improvement"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。CLIPPERS 的 pontine lesion 不會呈現 diffusion restriction。特徵為 punctate/curvilinear enhancement、steroid responsive。詳見 [[clippers]]。",
+      "images": [],
+      "concepts": [
+        "clippers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-408",
+      "year": 2019,
+      "number": 408,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is not the risk factor of recurrence in meningiomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bone invasion"
+        },
+        {
+          "letter": "B",
+          "text": "Low ADC value"
+        },
+        {
+          "letter": "C",
+          "text": "Proximity to major sinuses"
+        },
+        {
+          "letter": "D",
+          "text": "Mushroom shape"
+        },
+        {
+          "letter": "E",
+          "text": "Age"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **E**。Age 不是 meningioma 復發風險因子。Bone invasion、low ADC、proximity to sinuses、mushroom shape 皆為復發風險因子。詳見 [[meningioma-recurrence]]。",
+      "images": [],
+      "concepts": [
+        "meningioma-recurrence"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-409",
+      "year": 2019,
+      "number": 409,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Rapidly progressive dementia can result from a variety of etiologies, including:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "prion disease such as Creutzfeldt-Jakob disease"
+        },
+        {
+          "letter": "B",
+          "text": "infectious entities such as HIV-associated dementia"
+        },
+        {
+          "letter": "C",
+          "text": "autoimmune and inflammatory conditions such as Hashimoto encephalopathy"
+        },
+        {
+          "letter": "D",
+          "text": "all of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。RPD 的病因涵蓋 prion disease（CJD）、感染（HIV）、自體免疫/發炎（Hashimoto encephalopathy）等。詳見 [[rapidly-progressive-dementia]]。",
+      "images": [],
+      "concepts": [
+        "rapidly-progressive-dementia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-410",
+      "year": 2019,
+      "number": 410,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is the sign of CT diagnosis of chronic pulmonary thromboembolism?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcified thrombus in pulmonary arteries"
+        },
+        {
+          "letter": "B",
+          "text": "Transpleural systemic collateral vessels (eg, intercostal arteries) may develop"
+        },
+        {
+          "letter": "C",
+          "text": "Multiple peripheral linear opacities in both lower lung lobes"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。慢性肺栓塞 CT：鈣化血栓、transpleural collateral vessels、bilateral lower lobe peripheral linear opacities 皆為特徵。詳見 [[chronic-pulmonary-thromboembolism]]。",
+      "images": [],
+      "concepts": [
+        "chronic-pulmonary-thromboembolism"
       ],
       "checked": false
     }
