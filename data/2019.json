@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 319,
+  "totalQuestions": 330,
   "questions": [
     {
       "id": "2019-001",
@@ -11590,6 +11590,381 @@
       "images": [],
       "concepts": [
         "accessory-breast-tissue"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-346",
+      "year": 2019,
+      "number": 346,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is a true diverticulum of the small bowel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Meckel diverticulum"
+        },
+        {
+          "letter": "B",
+          "text": "Duodenal diverticulum"
+        },
+        {
+          "letter": "C",
+          "text": "Jejunal diverticulum"
+        },
+        {
+          "letter": "D",
+          "text": "Ileal diverticulum"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Gore RM, Levine MS. Textbook of Gastrointestinal Radiology. 4th ed.",
+      "explanation": "正確答案為 **A**（Meckel diverticulum）。True diverticulum 包含腸壁所有層次（mucosa + submucosa + muscularis propria）。小腸中唯一常見的 true diverticulum 是 **Meckel diverticulum**（卵黃管殘留）。十二指腸、空腸、迴腸憩室皆為 false (pseudo) diverticulum，僅含黏膜與黏膜下層。\n\n→ [[true-diverticulum]]、[[meckel-diverticulum]]",
+      "images": [],
+      "concepts": [
+        "true-diverticulum",
+        "meckel-diverticulum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-347",
+      "year": 2019,
+      "number": 347,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about Joubert syndrome is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Molar tooth sign on axial MRI"
+        },
+        {
+          "letter": "B",
+          "text": "The cerebellar vermis is enlarged"
+        },
+        {
+          "letter": "C",
+          "text": "Elongated and thickened superior cerebellar peduncles"
+        },
+        {
+          "letter": "D",
+          "text": "Bat wing appearance of the fourth ventricle"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Osborn's Brain 2e P1192-1193",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Joubert syndrome 的小腦蚓部（vermis）為**小且發育不全（small and dysmorphic/hypoplastic）**，非「enlarged」。Molar tooth sign (A)、elongated/thickened SCPs (C)、bat wing 4th ventricle (D) 皆為正確特徵。\n\n→ [[joubert-syndrome]]",
+      "images": [],
+      "concepts": [
+        "joubert-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-348",
+      "year": 2019,
+      "number": 348,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about posterior reversible encephalopathy syndrome (PRES) is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Commonly associated with hypertension, eclampsia, and immunosuppressive therapy"
+        },
+        {
+          "letter": "B",
+          "text": "Predominantly affects parieto-occipital white matter"
+        },
+        {
+          "letter": "C",
+          "text": "Most cases show vasogenic edema"
+        },
+        {
+          "letter": "D",
+          "text": "Restricted diffusion (DWI positive) is the typical finding"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Osborn's Brain 2e P1019-1020",
+      "explanation": "正確答案為 **D**（錯誤敘述）。PRES 絕大多數病例為**血管源性水腫（vasogenic edema）**，DWI 表現為**無擴散受限（DWI 陰性、ADC 升高或正常）**。若出現 restricted diffusion（DWI 陽性、ADC 降低）則提示已進展至細胞毒性水腫，預後較差，但**非典型表現**。\n\n→ [[pres]]",
+      "images": [],
+      "concepts": [
+        "pres"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-349",
+      "year": 2019,
+      "number": 349,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about mucopolysaccharidoses (MPS) imaging findings is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Microcephaly"
+        },
+        {
+          "letter": "B",
+          "text": "White matter changes with enlarged perivascular spaces"
+        },
+        {
+          "letter": "C",
+          "text": "Pachymeningeal thickening"
+        },
+        {
+          "letter": "D",
+          "text": "Anterior vertebral body beaking"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Osborn's Brain 2e P994",
+      "explanation": "正確答案為 **A**（錯誤敘述）。MPS 患者表現為 **macrocephaly（大頭症）**，因 GAG 堆積致腦室擴大與腦容積增加，**非 microcephaly（小頭症）**。B（白質病變、PVS 擴大）、C（硬腦膜增厚）、D（脊椎椎體前喙突）皆為正確影像特徵。\n\n→ [[mucopolysaccharidosis-imaging]]",
+      "images": [],
+      "concepts": [
+        "mucopolysaccharidosis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-351",
+      "year": 2019,
+      "number": 351,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about cerebral proliferative angiopathy (CPA) is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Large, diffuse vascular lesion involving multiple vascular territories"
+        },
+        {
+          "letter": "B",
+          "text": "Transdural arterial supply is common"
+        },
+        {
+          "letter": "C",
+          "text": "Lower hemorrhage risk compared to typical AVM"
+        },
+        {
+          "letter": "D",
+          "text": "No normal brain tissue is present between the abnormal vessels"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Osborn's Brain 2e P163-164",
+      "explanation": "正確答案為 **D**（錯誤敘述）。CPA 與典型 AVM 的關鍵差異在於 CPA **含有正常腦實質夾雜於異常血管之間（interposed normal brain parenchyma）**，典型 AVM 的 compact nidus 則無。A（大範圍瀰漫性）、B（transdural supply 常見）、C（出血風險較低）皆為正確描述。\n\n→ [[cerebral-proliferative-angiopathy]]",
+      "images": [],
+      "concepts": [
+        "cerebral-proliferative-angiopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-352",
+      "year": 2019,
+      "number": 352,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about urethral injury is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Posterior urethral injury is more common than anterior urethral injury"
+        },
+        {
+          "letter": "B",
+          "text": "Retrograde urethrography is the gold standard for diagnosis"
+        },
+        {
+          "letter": "C",
+          "text": "Urethral injury is more common in females than males"
+        },
+        {
+          "letter": "D",
+          "text": "Pelvic fracture is the most common cause of posterior urethral injury"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:1111-1130",
+      "explanation": "正確答案為 **C**（錯誤敘述）。尿道損傷在**男性**遠比女性常見，因男性尿道較長且固定於恥骨聯合，更易受骨盆骨折等外傷影響。女性尿道短且可動性大，損傷罕見。\n\n→ [[urethral-injury-imaging]]",
+      "images": [],
+      "concepts": [
+        "urethral-injury-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-353",
+      "year": 2019,
+      "number": 353,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about Fournier gangrene is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Necrotizing fasciitis of the perineum and genital region"
+        },
+        {
+          "letter": "B",
+          "text": "CT is the imaging modality of choice"
+        },
+        {
+          "letter": "C",
+          "text": "Subcutaneous emphysema is a common finding"
+        },
+        {
+          "letter": "D",
+          "text": "Absence of subcutaneous air excludes the diagnosis of Fournier gangrene"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:1111-1130",
+      "explanation": "正確答案為 **D**（錯誤敘述）。皮下氣腫雖為 Fournier gangrene 常見影像表現（約 60-90%），但**缺乏皮下氣體並不能排除診斷**。早期或產氣菌比例低的病例可無明顯氣體。A（壞死性筋膜炎）、B（CT 為首選）、C（皮下氣腫常見）皆為正確描述。\n\n→ [[fournier-gangrene]]",
+      "images": [],
+      "concepts": [
+        "fournier-gangrene"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-354",
+      "year": 2019,
+      "number": 354,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following tumors can contain microscopic fat?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenal adenoma"
+        },
+        {
+          "letter": "B",
+          "text": "Adrenocortical carcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Pheochromocytoma"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2016;36:718",
+      "explanation": "正確答案為 **D**（以上皆是）。Adrenal adenoma（約 70% 含豐富 intracellular lipid）、adrenocortical carcinoma、pheochromocytoma 皆可含 microscopic fat（intracellular lipid），在 chemical shift MRI 表現 opposed-phase signal drop。\n\n→ [[microscopic-fat-tumors]]",
+      "images": [],
+      "concepts": [
+        "microscopic-fat-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-355",
+      "year": 2019,
+      "number": 355,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common histologic subtype of testicular cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Seminoma"
+        },
+        {
+          "letter": "B",
+          "text": "Embryonal carcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Yolk sac tumor"
+        },
+        {
+          "letter": "D",
+          "text": "Teratoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:806-830",
+      "explanation": "正確答案為 **A**（Seminoma）。Seminoma 佔所有睪丸 GCT 約 50-55%，為最常見的單一組織學亞型。好發年齡 30-40 歲。影像上通常為均勻低回音實質腫塊，增強程度低於正常睪丸。\n\n→ [[testicular-seminoma]]",
+      "images": [],
+      "concepts": [
+        "testicular-seminoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-356",
+      "year": 2019,
+      "number": 356,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about testicular torsion is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most common in adolescents"
+        },
+        {
+          "letter": "B",
+          "text": "Bell clapper deformity is a predisposing factor"
+        },
+        {
+          "letter": "C",
+          "text": "Further ischemia causes hyperechogenicity of the testis, indicating nonviability"
+        },
+        {
+          "letter": "D",
+          "text": "Whirlpool sign of the spermatic cord on ultrasound"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:806-830",
+      "explanation": "正確答案為 **C**（錯誤敘述）。進一步缺血導致睪丸呈現 **hypoechogenicity（低回音）**而非 hyperechogenicity，表示睪丸組織壞死不可逆。A（青少年好發）、B（bell clapper deformity 為易發因素）、D（精索 whirlpool sign）皆為正確描述。\n\n→ [[testicular-torsion]]",
+      "images": [],
+      "concepts": [
+        "testicular-torsion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-357",
+      "year": 2019,
+      "number": 357,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common cause of acute lower gastrointestinal bleeding?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diverticulosis"
+        },
+        {
+          "letter": "B",
+          "text": "Angiodysplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Colorectal cancer"
+        },
+        {
+          "letter": "D",
+          "text": "Ischemic colitis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2018;38:1089-1107",
+      "explanation": "正確答案為 **A**（Diverticulosis）。憩室症佔急性下消化道出血約 30-40%，為最常見原因。Angiodysplasia 為第二常見（約 5-10%），好發於右結腸。大腸癌 (C) 與缺血性結腸炎 (D) 亦可引起但頻率較低。\n\n→ [[lower-gi-bleeding-imaging]]",
+      "images": [],
+      "concepts": [
+        "lower-gi-bleeding-imaging"
       ],
       "checked": false
     }
