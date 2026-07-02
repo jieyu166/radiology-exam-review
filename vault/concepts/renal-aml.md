@@ -68,6 +68,9 @@ same:
 > [!question]- Concerning intrarenal aneurysms, which one is true? (2020-187)
 > **腎內動脈瘤常見於angiomyolipoma（C）**——DSA呈sunburst動脈期、onion peel靜脈期，可伴micro-/macro-aneurysm。NF1中腎內動脈瘤為罕見報告(A錯)、黴菌性非最常見類型(B錯)、鈣化者通常關聯結核病/NF1/結節性多動脈炎而非單純congenital/atherosclerotic(D存疑，見上方warning)。[^7]
 
+> [!question]- Patients with how large size of renal angiomyolipomas are recommended to receive prophylactic surgery or embolization to prevent hemorrhage? (2020-188)
+> **>4cm（40mm，B）**——傳統介入門檻，以栓塞或部分腎切除預防出血。小型單發AML(<20mm)因生長緩慢通常不需追蹤。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-aml")

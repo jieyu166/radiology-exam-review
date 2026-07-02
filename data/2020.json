@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 187,
+  "totalQuestions": 188,
   "questions": [
     {
       "id": "2020-001",
@@ -6695,6 +6695,47 @@
       "correctAnswer": "C",
       "reference": "官方2020詳解；Genitourinary Tract Diseases, p.3",
       "explanation": "**腎內動脈瘤(intrarenal aneurysm)常見於腎血管肌脂瘤(angiomyolipoma)**，故(C)為正解。\n\n(A) 錯：官方訂正為神經纖維瘤病中「罕見報告(rarely reported)」，非常見。\n(B) 錯：黴菌性(mycotic)類型並非最常見類型。\n(C) **對（正解）**：腎內動脈瘤常見於AML，DSA可見sunburst動脈期表現、onion peel靜脈期表現，並可伴micro-或macro-aneurysm。\n(D) 錯：鈣化之腎內動脈瘤通常與結核病、神經纖維瘤病、結節性多動脈炎相關，非單純congenital/atherosclerotic。\n(E) 錯：與Willis環動脈瘤之關聯非典型敘述。\n\n→ [[renal-aml]]",
+      "images": [],
+      "concepts": [
+        "renal-aml"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-188",
+      "year": 2020,
+      "number": 188,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Patients with how large size of renal angiomyolipomas are recommended to receive prophylactic surgery or embolization to prevent hemorrhage.",
+      "options": [
+        {
+          "letter": "A",
+          "text": ">3 cm in diameter"
+        },
+        {
+          "letter": "B",
+          "text": ">4 cm in diameter"
+        },
+        {
+          "letter": "C",
+          "text": ">5 cm in diameter"
+        },
+        {
+          "letter": "D",
+          "text": ">6 cm in diameter"
+        },
+        {
+          "letter": "E",
+          "text": ">7 cm in diameter"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；UpToDate",
+      "explanation": "**傳統慣例為腎血管肌脂瘤(AML)達40mm(4cm)時考慮介入**（栓塞或部分腎切除）以預防出血，故(B)為正解。\n\n(A) 錯：3cm未達傳統介入門檻。\n(B) **對（正解）**：>4cm(40mm)為傳統介入門檻；小型單發AML(<20mm)因生長緩慢通常不需追蹤。\n(C)(D)(E) 錯：門檻過高，非標準建議值。\n\n→ [[renal-aml]]",
       "images": [],
       "concepts": [
         "renal-aml"
