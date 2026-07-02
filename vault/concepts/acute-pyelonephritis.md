@@ -55,6 +55,9 @@ dateRev: 2026-06-29
 > [!note] cortical rim sign 屬腎梗塞、非腎盂腎炎
 > **Cortical rim sign（皮質緣徵）＝梗塞時包膜側薄層皮質因『包膜側支循環』而保留強化,典型於數天後最明顯,見於腎梗塞,『不是』急性腎盂腎炎徵象**。急性腎盂腎炎顯影後為 **striated nephrogram＋楔形 reduced enhancement**。E. coli 為最常見致病菌;併發症含腎周膿瘍、壞死性乳頭炎、膿腎。[^1][^2]
 
+> [!question]- Which is not the finding of acute pyelonephritis on CT? (2020-399)
+> **Cortical rim sign（D）**——屬腎梗塞（包膜側支循環保留強化）之徵象，非急性腎盂腎炎表現。患腎腫大/局部腫脹、集尿系統壁增厚、striated nephrogram、Gerota筋膜增厚，皆為急性腎盂腎炎CT表現。[^1][^2]
+
 ### 參考來源
 [^1]: *Acute pyelonephritis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「most patients having **'normal' scans**. Abnormalities identified in only **~25%**」;顯影後可見 **striated nephrogram** 與楔形 reduced enhancement;若疑腎絞痛先做非顯影掃描評結石。
 [^2]: *Renal infarction*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「a thin rim of cortex continues to enhance, due to **collateral capsular perfusion** ... known as the **cortical rim sign** ... typically best seen several days later」——屬梗塞,非腎盂腎炎。

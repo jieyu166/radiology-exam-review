@@ -42,6 +42,15 @@ dateRev: 2026-06-30
 > [!note] 考點：關於 RCC,何者「正確」?
 > 「**以上皆正確**」——clear cell 為最常見（~70%）、clear cell hypervascular（CT/MR/血管攝影皆強化）、papillary 乏血管且均質,三者皆正確。[^1]
 
+## 良惡性鑑別陷阱：Oncocytoma vs Chromophobe RCC（2020考點）
+- **60%清晰細胞RCC**：MR上可見**病灶內微觀脂肪(intralesional microscopic fat)**，於反相位化學位移影像上相對正相位訊號下降（>25%訊號丟失具預測性）。[^6]
+- **乳突狀RCC(Papillary RCC)**：典型呈**低T2訊號**、**乏血管(hypovascular)**合併**漸進性強化(progressive enhancement)**。[^6]
+- **缺脂性AML(Lipid-poor AML)**：因富含平滑肌，MR呈**均質**、**T2低訊號**合併**T1高訊號**。[^6]
+- **中央星狀疤痕與輻輪狀強化非oncocytoma專屬**：Oncocytoma於MR可見**中央星狀疤痕(central stellate scar)**與**輻輪狀強化(spoke-wheel enhancement)**，但**此二徵象並非病理特異性(pathognomonic)**——**嫌色細胞癌(chromophobe RCC)**因與oncocytoma可能源自共同前驅細胞，組織學與影像上有重疊，**亦可呈現相同徵象**，故不可僅憑此二徵象確診oncocytoma。[^6]
+
+> [!note] 考點：關於腎臟腫瘤MR特徵，何者敘述錯誤？
+> **Oncocytoma中央星狀疤痕與輻輪狀強化為病理特異性徵象，無其他腫瘤有類似特徵（C）為錯誤**——chromophobe RCC亦可呈現相同徵象，兩者組織學與影像有重疊，並非oncocytoma專屬。60%清晰細胞RCC可見病灶內微觀脂肪、乳突狀RCC典型低T2訊號乏血管漸進強化、缺脂性AML呈T2低訊號合併T1高訊號，皆為正確敘述。[^6]
+
 ## Translocation RCC（Xp11.2）（2018-191）
 - **兒童/青少年最常見 RCC 亞型**：translocation RCC（Xp11.2 易位型）為兒童與青少年族群中最常見的 RCC 亞型。[^2]
 - **影像表現不均質**：因含實質與囊性成分、合併出血、壞死與鈣化，呈典型異質性外觀。[^2]
@@ -54,6 +63,7 @@ dateRev: 2026-06-30
 [^3]: 官方2020詳解；Ref: World J Radiol 2016;8(5)484-500（題目所引）——clear cell最常見亞型且傾向exophytic生長、因壞死/出血/囊變常呈異質性；鈣化於papillary與chromophobe較常見；clear cell預後較papillary與chromophobe差，較易有症狀、較晚期發現、轉移傾向較高。
 [^4]: 官方2020詳解；Ref: Diagnostic Imaging Oncology, 5-16（題目所引）——RCC AJCC T分期：T3a侵犯腎靜脈/節段分支或腎盂腎盞系統或腎周/腎竇脂肪未超過Gerota筋膜；T3b侵犯橫膈以下下腔靜脈；T3c侵犯橫膈以上下腔靜脈或下腔靜脈管壁；T4侵犯超過Gerota筋膜(含同側腎上腺)。
 [^5]: 官方2020詳解；Ref: Radiographics. 2019;39:998-1016（題目所引）——RCC可轉移至任何部位(頭皮/口腔/甲狀腺/睪丸等)；具高度腫瘤異質性，不同基因變異細胞株可共存於原發與轉移病灶；復發風險最高於治療後早期，中位復發時間術後1-2年內。
+[^6]: 官方2020詳解；Ref: Differentiation of Solid Renal Tumors with Multiparametric MR Imaging, RadioGraphics 2017; 37:2026-2042（題目所引）——60%清晰細胞RCC見病灶內微觀脂肪；乳突狀RCC低T2訊號乏血管漸進強化；缺脂性AML均質T2低訊號T1高訊號；oncocytoma中央星狀疤痕與輻輪狀強化非病理特異性，chromophobe RCC可有相同特徵。
 
 ## 題目
 > [!question]- 以下關於 renal cell carcinoma (RCC),何者「正確」? (2017-199)
@@ -67,6 +77,9 @@ dateRev: 2026-06-30
 
 > [!question]- About renal cell carcinoma staging, which is Stage T3c? (2020-317)
 > **Tumor grossly extends into the vena cava above diaphragm（C）**——T3c定義為侵犯橫膈以上下腔靜脈或下腔靜脈管壁。侵犯超過Gerota筋膜為T4；侵犯同側腎上腺亦屬T4；侵犯腎靜脈或其節段分支為T3a。[^4]
+
+> [!question]- 以下關於腎臟腫瘤的敘述，何者錯誤？ (2020-401)
+> **Oncocytoma中央星狀疤痕與輻輪狀強化為病理特異性，無其他腫瘤有類似特徵（C）為錯誤**——chromophobe RCC亦可呈相同徵象。[^6]
 
 ## 考題
 ```dataview

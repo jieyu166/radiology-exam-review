@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 395,
+  "totalQuestions": 403,
   "questions": [
     {
       "id": "2020-001",
@@ -14493,6 +14493,314 @@
       "images": [],
       "concepts": [
         "pneumoperitoneum-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-396",
+      "year": 2020,
+      "number": 396,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement about multi-phasic MDCT for assessment of pancreatic ductal adenocarcinoma is true",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreatic phase is best for tumor detection"
+        },
+        {
+          "letter": "B",
+          "text": "Arterial phase is best for tumor detection"
+        },
+        {
+          "letter": "C",
+          "text": "The portal phase is acquired at 35-50 seconds after contrast injection"
+        },
+        {
+          "letter": "D",
+          "text": "Hyperattenuation of the tumor versus the healthy pancreas is characteristic"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Lu et al. Two-phase helical CT for pancreatic tumors: pancreatic versus hepatic phase enhancement of tumor, pancreas, and vascular structures. Radiology 1996;199(3):697-701",
+      "explanation": "胰臟期(pancreatic phase，又稱early-portal phase，掃描延遲約40-50秒)為偵測與分期胰臟腫瘤最重要之時相，A正確。動脈期(arterial phase，掃描延遲約35-40秒)對供血自動脈之構造顯示最佳，但非腫瘤偵測最佳時相；門脈期(portal phase，或稱hepatic/late portal phase)實際掃描延遲約70-80秒(非35-50秒，該數值實為胰臟期範圍)；胰臟管腺癌典型於胰臟期呈**低血流(hypoattenuation)**（非高血流），與正常胰臟實質相比呈相對低密度。",
+      "images": [],
+      "concepts": [
+        "pancreatic-adenocarcinoma-mdct-phases"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-397",
+      "year": 2020,
+      "number": 397,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "In determining resectability of pancreas cancer, NCCN guidelines defines tumor-vessel relationship as",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abutment <180°"
+        },
+        {
+          "letter": "B",
+          "text": "Encasement <180°"
+        },
+        {
+          "letter": "C",
+          "text": "Abutment <90°"
+        },
+        {
+          "letter": "D",
+          "text": "Encasement >270°"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Tempero et al. Pancreatic Adenocarcinoma V2.2017 NCCN Clinical Practice Guidelines in Oncology, J Natl Compr Canc Netw 2017;15(8):1028-1061",
+      "explanation": "NCCN指引定義腫瘤與血管關係：接觸(abutment，腫瘤與血管接觸角度**<180°/<50%**血管周徑)、包覆(encasement，接觸角度**>180°/>50%**血管周徑)。可切除性判定中，接觸<180°(<50%血管周徑)為可切除(resectable)之典型腫瘤血管關係，故A正確。",
+      "images": [],
+      "concepts": [
+        "pancreatic-cancer-resectability-nccn"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-398",
+      "year": 2020,
+      "number": 398,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下關於Hereditary gastrointestinal (GI) cancer syndromes的敘述何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hereditary GI cancer syndrome是遺傳性基因突變引起，導致腸胃道癌症以及其他系統癌症機率增加的病變。"
+        },
+        {
+          "letter": "B",
+          "text": "常見的hereditary GI cancer syndrome如Lynch syndrome, familial adenomatous polyposis (FAP), juvenile polyposis syndrome (JPS), Peutz-Jeghers syndrome (PJS)等。"
+        },
+        {
+          "letter": "C",
+          "text": "Lynch syndrome的病患最常發生胃癌和子宮頸癌。"
+        },
+        {
+          "letter": "D",
+          "text": "針對這群病人，醫學影像可用來篩檢，診斷以及腫瘤分期。"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Radiographics 2015; 35:1031-1032",
+      "explanation": "Lynch syndrome病患終生風險最高之癌症為**大腸直腸癌(52-58%)與子宮內膜癌(25-60%)**，並非胃癌(6-13%)和子宮頸癌（子宮頸癌並非Lynch syndrome之典型相關癌症，應為子宮內膜癌），故C敘述錯誤。Hereditary GI cancer syndrome為遺傳性基因突變致腸胃道及其他系統癌症風險增加之病變、常見類型含Lynch/FAP/JPS/PJS等、醫學影像可用於篩檢診斷分期，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "hereditary-gi-cancer-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-399",
+      "year": 2020,
+      "number": 399,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not the finding of acute pyelonephritis on CT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Generalized enlargement or focal swelling of the affected kidney"
+        },
+        {
+          "letter": "B",
+          "text": "Thickening of walls of renal collecting system"
+        },
+        {
+          "letter": "C",
+          "text": "Striated nephrogram"
+        },
+        {
+          "letter": "D",
+          "text": "Cortical rim sign"
+        },
+        {
+          "letter": "E",
+          "text": "Thickening of Gerota's fascia"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiology Review Manual, 6th ed., p951",
+      "explanation": "皮質緣徵(cortical rim sign)為顯影劑加強CT/MRI上，因腎包膜側支循環使包膜下薄層皮質保持強化，見於**腎血管嚴重受損(如腎梗塞)**，有助於區分急性腎盂腎炎與節段性腎梗塞，並非急性腎盂腎炎本身之典型CT表現，故D為此題答案。患腎瀰漫腫大或局部腫脹、集尿系統壁增厚、條紋狀腎圖(striated nephrogram)、Gerota筋膜增厚，皆為急性腎盂腎炎之CT表現。",
+      "images": [],
+      "concepts": [
+        "acute-pyelonephritis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-400",
+      "year": 2020,
+      "number": 400,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About prostate zonal anatomy, which of the following is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central zone is a cone-shaped glandular tissue surrounding the ejaculatory ducts."
+        },
+        {
+          "letter": "B",
+          "text": "The transition zone is well-demarcated from the peripheral zone by a concentric band of fibromuscular tissue and compressed glandular tissue, which has been historically called the \"prostate capsule\"."
+        },
+        {
+          "letter": "C",
+          "text": "Anterior fibromuscular stroma is the main nonglandular tissue of the prostate."
+        },
+        {
+          "letter": "D",
+          "text": "On MR imaging, the normal peripheral zone has a high T2 signal."
+        },
+        {
+          "letter": "E",
+          "text": "The transition zone can grow significantly in size owing to benign prostatic hyperplasia, resulting in significant deformity of the prostate."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: MR Imaging of Prostate Zonal Anatomy, Radiol Clin North Am. 56 (2018) 197-209",
+      "explanation": "移行區(TZ)與周邊區(PZ)交界處之同心圓纖維肌肉/壓縮腺體組織所形成之薄暗環，於T2WI上稱為「假被膜(pseudocapsule)」或「手術被膜(surgical capsule)」，並非歷史上所稱之「prostate capsule」——後者實際上是指部分包覆整個攝護腺之外層薄暗環（於前方與尖部不完整），與TZ-PZ交界處之假被膜為不同構造，故B將兩者概念混淆，錯誤。中央區為錐狀腺體組織環繞射精管、前纖維肌肉基質為攝護腺主要非腺體組織、周邊區於MR呈T2高訊號、移行區可因BPH顯著增大致攝護腺變形，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "prostate-zonal-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-401",
+      "year": 2020,
+      "number": 401,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下關於腎臟腫瘤的敘述，何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "At MR imaging, a recognized feature in 60% of clear cell renal carcinomas is the presence of intralesional microscopic fat."
+        },
+        {
+          "letter": "B",
+          "text": "Papillary RCCs usually demonstrate low T2 signal intensity and are hypovascular with progressive enhancement after contrast material administration."
+        },
+        {
+          "letter": "C",
+          "text": "At MR imaging, oncocytomas may show a central stellate scar and spoke-wheel enhancement, and these are pathognomonic features, as no other tumors have similar characteristics."
+        },
+        {
+          "letter": "D",
+          "text": "At MR imaging, lipid-poor AMLs are homogeneous and show low signal intensity on T2-weighted images due to the presence of abundant smooth muscle and high signal intensity on T1-weighted images."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Differentiation of Solid Renal Tumors with Multiparametric MR Imaging, RadioGraphics 2017; 37:2026-2042",
+      "explanation": "嫌色細胞癌(chromophobe RCC)亦可呈中央星狀疤痕與輻輪狀強化(spoke-wheel enhancement)，與oncocytoma有重疊之組織學與影像特徵（兩者可能源自共同前驅細胞），故此二徵象並非oncocytoma之病理特異性(pathognomonic)表現，C敘述錯誤。60%清晰細胞RCC可見病灶內微觀脂肪、乳突狀RCC典型呈低T2訊號且乏血管漸進強化、缺脂性AML因富含平滑肌呈T2低訊號合併T1高訊號，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-402",
+      "year": 2020,
+      "number": 402,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下關於攝護腺腫瘤的敘述，何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "At MR imaging, prostatic cystadenomas appear as multilocular T2-hyperintense cystic lesions with surrounding isointense soft tissue."
+        },
+        {
+          "letter": "B",
+          "text": "MR spectroscopic imaging of prostatic sarcomas demonstrates a markedly decreased choline-to-citrate ratio, a finding that helps to differentiate sarcoma from benign mimics, such as unusually large BPH nodules."
+        },
+        {
+          "letter": "C",
+          "text": "Most prostatic sarcomas appear as well-circumscribed masses that are homogeneously hypointense on T1-weighted MR images and heterogeneous on T2-weighted MR images and enhance avidly after contrast material administration."
+        },
+        {
+          "letter": "D",
+          "text": "At MR imaging, prostatic paragangliomas often appear as mildly T2-hyperintense lobulated masses, with avid enhancement after contrast material administration."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Beyond Prostate Adenocarcinoma: Expanding the Differential Diagnosis in Prostate Pathologic Conditions, RadioGraphics 2016; 36:1055-1075",
+      "explanation": "攝護腺肉瘤之MR頻譜造影應呈**明顯升高(elevated)**之choline-to-citrate ratio（非降低），此有助於與良性病灶(如異常大之BPH結節)鑑別，故B敘述將「升高」誤植為「降低」，錯誤。攝護腺囊腺瘤呈多房T2高訊號囊性病灶合併周邊等訊號軟組織、多數肉瘤呈邊界清楚T1均質低訊號T2異質且明顯強化、副神經節瘤呈輕度T2高訊號分葉狀腫塊合併明顯強化，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "prostate-secondary-involvement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-403",
+      "year": 2020,
+      "number": 403,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者有關Characteristics of Renal Tuberculosis的敘述何者為非?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Parenchymal calcification"
+        },
+        {
+          "letter": "2",
+          "text": "Papillary necrosis"
+        },
+        {
+          "letter": "3",
+          "text": "Infundibular strictures"
+        },
+        {
+          "letter": "4",
+          "text": "Obstructing stone"
+        },
+        {
+          "letter": "5",
+          "text": "Nonfunctioning (autonephrectomy)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Textbook of Uroradiology, 4th edition, p.180",
+      "explanation": "阻塞性結石(obstructing stone)並非腎結核之典型特徵性表現；腎結核典型特徵包含實質鈣化(約35%病例，各期皆可見，包含乳突壞死之三角形鈣化與末期putty kidney之局部/不定形鈣化)、乳突壞死、漏斗部狹窄(infundibular strictures)、以及末期無功能(自體腎切除，autonephrectomy)。",
+      "images": [],
+      "concepts": [
+        "renal-tuberculosis"
       ],
       "checked": false
     }
