@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 201,
+  "totalQuestions": 210,
   "questions": [
     {
       "id": "2019-001",
@@ -7356,6 +7356,340 @@
       "images": [],
       "concepts": [
         "dementia-neuroimaging-overview"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-202",
+      "year": 2019,
+      "number": 202,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "What is true about structural MR imaging studies by using VBM?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Atrophy in DLB (dementia with Lewy bodies) greater in the striatum, midbrain, and hypothalamus, but relative preservation of the hippocampus"
+        },
+        {
+          "letter": "2",
+          "text": "Prominent hippocampal atrophy in AD."
+        },
+        {
+          "letter": "3",
+          "text": "Progressive supranuclear palsy results in characteristic atrophy of the midbrain giving rise to the \"hummingbird\" sign on sagittal images and the \"Mickey Mouse\" sign on axial images."
+        },
+        {
+          "letter": "4",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "4",
+      "reference": "2019 交換考詳解；American Journal of Neuroradiology November 2012, 33 (10) 1836-1844",
+      "explanation": "正確答案為 **4（All of above）**。DLB萎縮見於紋狀體/中腦/下視丘而海馬迴相對保留、AD顯著海馬迴萎縮、PSP中腦萎縮致hummingbird與Mickey Mouse sign，三者皆正確。詳見 [[dementia-neuroimaging-overview]]。",
+      "images": [],
+      "concepts": [
+        "dementia-neuroimaging-overview"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-203",
+      "year": 2019,
+      "number": 203,
+      "years": [
+        2019,
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Reflex sympathetic dystrophy 下列何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chronic pain disorder of the sympathetic nervous system, usually result of trauma, or complication of surgery, infection or casting"
+        },
+        {
+          "letter": "B",
+          "text": "Best diagnostic tool is radiography"
+        },
+        {
+          "letter": "C",
+          "text": "Male predominance, and usually occurs in upper extremity"
+        },
+        {
+          "letter": "D",
+          "text": "May follow 30% of all injuries"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 5-146,147,148,149",
+      "explanation": "正確答案為 **A**。CRPS/RSD為交感神經系統之慢性疼痛疾患,通常為外傷、手術、感染或石膏固定之併發症。臨床（clinically）為主要診斷方式（非radiography）、實為女性較多見（非男性優勢）、發生率遠低於30%（約每10萬人年5.46例）。詳見 [[crps]]。",
+      "images": [],
+      "concepts": [
+        "crps"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-204",
+      "year": 2019,
+      "number": 204,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Lisfranc fracture-dislocation 下列何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dislocation of metatarsocuneiform joint"
+        },
+        {
+          "letter": "B",
+          "text": "Associated forced plantar flexion of forefoot on heel"
+        },
+        {
+          "letter": "C",
+          "text": "Athletic injury in older population, and Charcot arthropathy in younger diabetic population."
+        },
+        {
+          "letter": "D",
+          "text": "Identify Lisfranc ligament between medial cuneiform and proximal 2nd metatarsal may be the diagnostic clue"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 6-82,83,84",
+      "explanation": "正確答案為 **C**（錯誤敘述）。運動傷害好發於年輕族群、Charcot arthropathy好發於長期糖尿病患（年齡層通常較高），本選項年齡層對調故錯誤。詳見 [[lisfranc-injury]]。",
+      "images": [],
+      "concepts": [
+        "lisfranc-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-205",
+      "year": 2019,
+      "number": 205,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Scaphoid fracture 下列何者為誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transverse fracture line most commonly seen in proximal pole of scaphoid>>waist"
+        },
+        {
+          "letter": "B",
+          "text": "Usually difficult to visualize non-displaced fracture line"
+        },
+        {
+          "letter": "C",
+          "text": "Union rate is up to 95% in uncomplicated fracture"
+        },
+        {
+          "letter": "D",
+          "text": "Scaphoid non-union mostly associated with fracture at proximal third and vertical oblique fracture at middle third"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 3-38,39,40,41,46",
+      "explanation": "正確答案為 **A**（錯誤敘述）。舟狀骨骨折最常見於waist（腰部，約70-80%），並非近端極（proximal pole，僅約20%）。詳見 [[scaphoid-fracture]]。",
+      "images": [],
+      "concepts": [
+        "scaphoid-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-206",
+      "year": 2019,
+      "number": 206,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Breast hamartoma，下列何者有誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Also known as fibroadenolipomas, are benign breast lesions."
+        },
+        {
+          "letter": "B",
+          "text": "Typified by a \"breast within a breast\" appearance on mammogram."
+        },
+        {
+          "letter": "C",
+          "text": "Hamartomas are hard and not easy to compress."
+        },
+        {
+          "letter": "D",
+          "text": "It shows well-circumscribed, round or oval mass surrounded by a thin capsule."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；https://radiopaedia.org/articles/breast-hamartoma",
+      "explanation": "正確答案為 **C**（錯誤敘述）。乳房錯構瘤質地柔軟、易於壓迫，並非堅硬不易壓迫。詳見 [[breast-hamartoma]]。",
+      "images": [],
+      "concepts": [
+        "breast-hamartoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-207",
+      "year": 2019,
+      "number": 207,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "high",
+      "questionText": "有關 Gynaecomastia，下列何者有誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a benign excess of the male breast tissue, that is usually irreversible."
+        },
+        {
+          "letter": "B",
+          "text": "It may appear as an increased sub-areolar density, which may be flame-shaped."
+        },
+        {
+          "letter": "C",
+          "text": "The differential diagnosis is male breast cancer."
+        },
+        {
+          "letter": "D",
+          "text": "Focal gynaecomastia can variably appear as a retroareolar, triangular or hypoechoic mass."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；https://radiopaedia.org/articles/gynaecomastia",
+      "explanation": "正確答案為 **A**（錯誤敘述）。Gynecomastia並非一律不可逆——早期（<1年）nodular/florid phase仍可逆，僅慢性（>1年）dendritic/quiescent phase纖維化後才不可逆。詳見 [[gynecomastia-imaging]]。",
+      "images": [],
+      "concepts": [
+        "gynecomastia-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-208",
+      "year": 2019,
+      "number": 208,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is true about radiological exam of bladder trauma, regarding the choice between static cystography and CT cystography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The choice between the two exams is largely dependent on the clinical situation and the preferences of the physicains involved."
+        },
+        {
+          "letter": "B",
+          "text": "If CT of the abdomen is considered to assess potential intra-abdominal injurires, CT cystography should be considered to assess the bladder"
+        },
+        {
+          "letter": "C",
+          "text": "If the examination must be performed in the trauma unit with portable equipment, conventional static cystography is a reliable method for establishing the diagnosis of bladder injury."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Clinical urography 2nd Edition:1799",
+      "explanation": "正確答案為 **D（All of the above are true）**。檢查選擇依臨床情境與醫師偏好而定、合併腹部CT時應一併加做CT cystography、創傷單位可攜式設備下static cystography仍可靠，三者皆正確。詳見 [[bladder-urethral-trauma-imaging]]。",
+      "images": [],
+      "concepts": [
+        "bladder-urethral-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-209",
+      "year": 2019,
+      "number": 209,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is true about combined bladder and urethral injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Between 10% and 20% of male patients with an injury of the urethra and pelvic fracture have an injury of the bladder."
+        },
+        {
+          "letter": "B",
+          "text": "They may occur os separate injuries."
+        },
+        {
+          "letter": "C",
+          "text": "The bladder injury may be intraperitoneal, extraperitoneal, or rarely, a combined bladder injury."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Clinical urography 2nd Edition:1831",
+      "explanation": "正確答案為 **D（All of the above are true）**。約10-20%合併骨盆骨折之男性尿道損傷病患亦合併膀胱損傷、兩者可各自獨立發生、膀胱損傷可為腹膜內/腹膜外/合併型，三者皆正確。詳見 [[bladder-urethral-trauma-imaging]]。",
+      "images": [],
+      "concepts": [
+        "bladder-urethral-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-210",
+      "year": 2019,
+      "number": 210,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is true about scrotal trauma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrotal trauma is usually a single injury resulting from a direct forceful compression of the testis or testes against the pubic ramus."
+        },
+        {
+          "letter": "B",
+          "text": "The testis may rupture, fracture, or undergo torsion."
+        },
+        {
+          "letter": "C",
+          "text": "Rupture or fracture occurs when the tunica albuginea is torn."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；泌尿創傷影像教材（頁次未標明）",
+      "explanation": "官方原始答案標示為A，惟詳解手寫更正註記明確指出「答案應該是D（全對）」。A（單一損傷機轉）、B（可能破裂/骨折/扭轉）、C（tunica albuginea撕裂）皆為正確敘述，故採用更正後答案D。詳見 [[scrotal-trauma-imaging]]。",
+      "images": [],
+      "concepts": [
+        "scrotal-trauma-imaging"
       ],
       "checked": false
     }

@@ -40,6 +40,11 @@ same:
 - **FTLD-TDP（GRN基因突變）**：右側半球為主（markedly asymmetric）。[^1]
 - **FTLD-TDP（C9orf72基因突變）**：雙側半球（generalized）。[^1]
 
+## Summary — 結構性MRI（VBM）萎縮型態鑑別
+- **DLB（dementia with Lewy bodies）**：萎縮主要見於**紋狀體（striatum）、中腦（midbrain）、下視丘（hypothalamus）**，**海馬迴（hippocampus）相對保留**——此為與AD鑑別之關鍵（AD則海馬迴明顯萎縮）。[^2]
+- **AD（Alzheimer disease）**：**顯著海馬迴萎縮（prominent hippocampal atrophy）**。[^2]
+- **PSP（progressive supranuclear palsy）**：中腦萎縮致矢狀面**"hummingbird" sign（蜂鳥徵）**、軸切面**"Mickey Mouse" sign（米老鼠徵）**，另可合併**"morning glory" sign**。[^2]
+
 ## Summary — 血管性失智（vascular dementia）影像指標
 - **WMH（white matter hyperintensity）**：MRI上最佳顯示，可用半定量視覺評分或定量voxel-based方法測量；與血管危險因子（尤其高血壓與血糖控制不良）相關；現已廣泛接受為血管疾病之影像生物標記。[^1]
 - **Lacunar infarcts（腔隙性梗塞）**：發生於皮質下白質與基底核，亦為腦血管疾病（CVD）之影像相關表現。[^1]
@@ -50,6 +55,7 @@ same:
 
 ### 參考來源
 [^1]: 2019 交換考詳解；American Journal of Neuroradiology. 2012 Nov;33(10):1836-1844。
+[^2]: 2019 交換考詳解；American Journal of Neuroradiology November 2012, 33(10):1836-1844：DLB海馬迴相對保留（有助與AD鑑別）；AD顯著海馬迴萎縮；PSP中腦萎縮致hummingbird sign（矢狀面）與Mickey Mouse sign（軸切面）、可合併morning glory sign。
 
 ## 考題
 ```dataview
