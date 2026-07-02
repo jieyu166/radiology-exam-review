@@ -7,7 +7,7 @@ aliases:
   - BI-RADS assessment
   - final assessment category
   - 乳房分類
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # bi-rads-categories
@@ -29,6 +29,7 @@ dateRev: 2026-06-30
 > [!note] category 3 短期追蹤的判讀邏輯
 > 哪些影像表現「合格」當 category 3 是考點核心:**乳房攝影**——無鈣化且邊緣清晰的實質腫塊(不可觸及)、成簇圓形/點狀鈣化、無可疑特徵的局部不對稱;**超音波**——平行走向、邊緣清晰的卵圓形實質腫塊、孤立的複雜囊腫(complicated cyst,均勻低回音)、小或深的群聚微囊腫。**追蹤排程 6/12/24 個月**的邏輯:用時間換取「穩定性」這個良性證據,穩定者降為 2,可省去大量良性病灶的切片而不降低癌偵測率。[^2][^4]
 > **不該用 category 3 的情境**:未完成診斷性檢查的純篩檢片、可觸及病灶或臨床有疑慮、高風險族群(BRCA、懷孕哺乳)、或任何具可疑特徵者——後者應直接進 category 4。[^2]
+> **追蹤排程細節與遵從度問題**：標準為 6/12/24 個月序列追蹤（12/24 個月做雙側，與健側篩檢週期對齊）;部分機構採 18 個月間隔、或延長診斷追蹤至 36 個月;**特殊情境可縮短**（如疑似血腫可 4 週追蹤）。**臨床現實：短期追蹤遵從度偏低**（DMIST 試驗僅 29%、Chung 等 18 個月僅 54.8%、Berg 等 6 個月 72.5%）;**category 3 之癌症多於 6 或 12 個月即被診出**（Berg：57.8% 癌症於 6 個月或之前診出），凸顯前兩次追蹤的重要性。[^2]
 > **陷阱（2019交換）**：超音波上「**round**（圓形）、circumscribed solid mass」**不合格**當 category 3——合格描述須為 **oval**（卵圓形）、circumscribed、parallel 之實質腫塊；round 為較不典型形狀，不應直接視為 category 3。[^5]
 
 > [!note] 考點：哪一分類機率敘述「錯誤」?
@@ -39,7 +40,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013）——最終評估分類 0–6 與惡性機率區間（4a >2–10%、4b >10–50%、4c >50–<95%、5 ≥95%）。依摘要／參考卡未讀全文章節。
-[^2]: Fazeli S, Stepenosky J, Guirguis MS, et al. *Understanding BI-RADS Category 3*. RadioGraphics. 2024;45(1). https://doi.org/10.1148/rg.240169 ——category 3 定義（≤2%）、合格影像表現、6/12/24 個月（可延 36 個月）追蹤排程、不適用情境。開放摘要層級已讀，全文未讀。
+[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03；Free Access 文章）** Fazeli S, Stepenosky J, Guirguis MS, et al. *Understanding BI-RADS Category 3*. RadioGraphics. 2024;45(1). https://doi.org/10.1148/rg.240169。category 3 定義（≤2%）、合格影像表現、6/12/24 個月（部分 18 個月、可延 36 個月）追蹤排程、不適用情境；**短期追蹤遵從度偏低（DMIST 29%、Berg 6 個月 72.5%），癌症多於 6/12 個月即診出**；**MRI 之 NME 目前證據不足以支持 category 3（多數研究惡性率 >2%）**，僅 focal/regional 分布＋均質內部強化＋persistent kinetics 較不可疑者或可考慮；MRI 應與 mammography/US 對照，既有穩定對應病灶可免不必要之 6 個月追蹤 MRI。
 [^3]: *Breast Imaging Reporting and Data System (BI-RADS)*. StatPearls, NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK459169/ ——分類 0–6 定義與各級處置（常規篩檢／切片／治療規劃），category 0 須加做影像或調舊片。開放全文已讀。
 [^4]: *BI-RADS*. Radiopaedia.org（accessed 2026-06-30）：「BI-RADS 3: probably benign **<2%**;BI-RADS 4: 2–95%（4A 2–9%、4B 10–49%、4C 50–94%）;BI-RADS 5: **>95%**」。輔助來源。
 [^5]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140：category 3 合格超音波表現含 oval、circumscribed、parallel 之實質腫塊、孤立複雜囊腫、群聚微囊腫；round shape 之實質腫塊不列入合格描述。

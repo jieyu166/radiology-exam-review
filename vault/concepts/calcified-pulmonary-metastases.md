@@ -6,7 +6,7 @@ aliases:
   - calcified pulmonary metastases
   - calcifying pulmonary metastases
   - 鈣化肺轉移
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # calcified-pulmonary-metastases
@@ -19,7 +19,7 @@ dateRev: 2026-07-01
 鈣化的肺轉移本身少見；一旦出現，強烈指向特定原發。可用「成骨、含軟骨、產黏液、似甲狀腺、治療後退化」五個機轉推出清單。[^1][^2][^3]
 
 - **成骨／骨化（osteoid formation, ossification）**——**骨肉瘤（osteosarcoma/osteogenic sarcoma）**、**軟骨肉瘤（chondrosarcoma）**：腫瘤本身造骨或軟骨基質鈣化，CT 上可呈高密度（接近骨密度）。[^2][^3]
-- **營養不良性鈣化（dystrophic calcification，續發於壞死）**——**synovial sarcoma（滑膜肉瘤）**、**giant cell tumor of bone（骨巨細胞瘤）**、papillary thyroid carcinoma（壞死後沉積，亦見 psammoma body 砂礫鈣化）。[^2][^3]
+- **營養不良性鈣化（dystrophic calcification，續發於壞死）**——**synovial sarcoma（滑膜肉瘤）**、**giant cell tumor of bone（骨巨細胞瘤）**、papillary **與 medullary** thyroid carcinoma、**治療後轉移（treated metastases，如 choriocarcinoma）**（壞死後沉積，亦見 psammoma body 砂礫鈣化；**psammoma body 被假說為腫瘤限制自身擴散的一種主動生物機轉**）。[^2][^3]
 - **黏液鈣化（mucoid calcification）**——**mucinous adenocarcinoma（黏液腺癌）**：大腸直腸、卵巢、乳房、其他胃腸道原發；為獨立於營養不良性鈣化之特殊型態，見於黏液腺癌之 myxoid degeneration 區域。[^1][^2][^3][^4]
 - **甲狀腺癌（thyroid carcinoma）**——**papillary**（砂礫鈣化，即 psammomatous calcification／psammoma bodies——營養不良性鈣化之亞型，為圓形同心層狀鈣化小體，亦見於多種其他腫瘤）、偶見 **medullary**。[^1][^2][^4]
 - **絨毛膜癌（choriocarcinoma）治療後**——與 osteosarcoma、chondrosarcoma、synovial sarcoma、mucinous adenocarcinoma、papillary thyroid carcinoma 並列為可產生鈣化肺轉移之原發腫瘤。[^4]
@@ -69,7 +69,7 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: Khan AN, et al. *The calcified lung nodule: What does it mean?* **Annals of Thoracic Medicine** 2010;5(2):67-79（PMC2883201，開放全文，accessed 2026-06-29）。鈣化轉移原發含 osteogenic/chondrosarcoma/synovial sarcoma/giant cell tumor/malignant mesenchymoma、papillary 與 mucinous adenocarcinoma、偶見 medullary thyroid；治療後亦可鈣化；良性 4 型態（central/laminated/diffuse/popcorn）；其他型態不可視為良性；bronchogenic ca ~10% 可鈣化；≥200 HU 視為鈣化；瀰漫性小鈣化結節 DDx 含 alveolar microlithiasis。
 [^2]: Tomography 2025. *Calcified Lung Nodules: A Diagnostic Challenge in Clinical Daily Practice*（PMC11946818，開放全文，accessed 2026-06-29）。鈣化轉移三大機轉：bone formation/ossification（osteosarcoma、chondrosarcoma）、壞死後 dystrophic calcification（synovial sarcoma、papillary thyroid、GCT）、mucinous adenocarcinoma 之 mucoid calcification；治療後退化亦可鈣化；惡性常為 amorphous/punctate，吞噬既有鈣化結節可成偏心鈣化。
-[^3]: Digumarthy SR, et al. *Atypical Pulmonary Metastases: Patterns and Clinical Significance.* **RadioGraphics** 2025;45(x). doi:10.1148/rg.240202（RSNA，需登入，未取得全文；引用以可查證之文章層級與檢索結果摘要為限）。鈣化／骨化轉移以 osteosarcoma、chondrosarcoma、mucinous carcinoma、papillary thyroid 為代表；治療後（化療）可於消退病灶處新生鈣化；已知 osteosarcoma 之鈣化結節不可逕當肉芽腫，須追蹤穩定性。
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Digumarthy SR, et al. *Atypical Pulmonary Metastases: Patterns and Clinical Significance.* **RadioGraphics** 2025. doi:10.1148/rg.240202。鈣化／骨化轉移四機轉：**營養不良性鈣化**（papillary/medullary thyroid、GCT、synovial sarcoma、治療後如 choriocarcinoma；退化細胞可生 psammoma body，**假說為限制惡性擴散之主動生物機轉**）、**黏液鈣化**（mucin 產生腫瘤：黏液性肺/腸胃道/乳癌）、**成骨（osteosarcoma）與成軟骨（chondrosarcoma）**；治療後可於消退病灶處新生鈣化。**非典型生長速率**：肉瘤轉移中位倍增時間可低至 25–35 天（快速生長不一定是感染/發炎）；濾泡性甲狀腺癌 VDT 約 1.3 年、adenoid cystic carcinoma 中位 342 天（惰性）。**「良性」轉移**（組織學良性但會轉移、緩慢生長）：benign metastasizing leiomyoma（子宮）、meningioma、骨 GCT、HPV papillomatosis、唾液腺 pleomorphic adenoma——影像無法單獨鑑別，緩慢生長為典型特徵。
 [^4]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** *Pulmonary Calcification and Ossification: Pathogenesis, CT Appearance, and Specific Disorders.* **RadioGraphics** 2025. doi:10.1148/rg.240110。重點：**MPC 血清鈣／磷持續升高、DPC 血清鈣磷正常**為兩者鑑別關鍵；hamartoma popcorn 鈣化見於 20–30%、脂肪成分見於 60%（pathognomonic）；carcinoid 粗大鈣化 8–26%（大型中央腫瘤更常見）、大細胞神經內分泌癌偏心／點狀鈣化可達 10%；鈣化肺轉移原發腫瘤含 osteosarcoma、chondrosarcoma、synovial sarcoma、mucinous adenocarcinoma、papillary thyroid carcinoma、**治療後絨毛膜癌（treated choriocarcinoma）**；psammomatous calcification（psammoma bodies）為營養不良性鈣化之亞型，圓形同心層狀鈣化小體。
 [^5]: Belém LC, et al. *Metastatic pulmonary calcification: high-resolution computed tomography findings in 23 cases.* **Radiologia Brasileira** 2017;50(4):231-236（PMC5586513，開放全文，accessed 2026-06-29）。MPC = 高鈣血症下鈣鹽沉積於正常肺實質（肺泡基底膜），非腫瘤結節；常見慢性腎病＋次發性副甲狀腺亢進；HRCT：中央小葉毛玻璃結節（常含鈣化）、高密度實變、小鈣化結節，多雙側。
 

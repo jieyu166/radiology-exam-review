@@ -7,7 +7,7 @@ aliases:
   - Chiari 1
   - tonsillar ectopia
   - 小腦扁桃體下疝
-dateRev: 2026-06-29
+dateRev: 2026-07-03
 ---
 
 # chiari-malformation
@@ -29,6 +29,9 @@ dateRev: 2026-06-29
 - **扁桃體形態**：受擠壓變成尖／**peg-like（楔形）**而非圓鈍，>5 mm 下疝者楔形比例顯著較高。[^1][^4]
 - **枕骨大孔擁擠**：FM 處 CSF 間隙被填塞／消失（crowded foramen magnum），可進一步阻礙 CSF 流動。[^1][^4]
 - **後顱窩小**：clivus 短、後顱窩體積偏小（size-content mismatch）。[^1][^4]
+- **骨性標記與 clival hypoplasia 線索**：**McRae line**（basion→opisthion＝FM 平面）＋**Chamberlain line**（硬顎→basion）;**齒突尖高於 Chamberlain line >4.5 mm ＝ basilar invagination**;Chamberlain line 正常與 McRae line 平行，**兩線 dissociation（分離）＝ clival hypoplasia（斜坡發育不良）的重要線索**。[^2]
+- **生理性評估（phase-contrast MRI）**：以心動週期閘控 cine phase-contrast MRI 評估**小腦扁桃體與脊髓的異常運動**及**CSF 流動受阻部位**;產生 rephased（背景可見、評估扁桃體/脊髓運動）、magnitude（判斷流動強度）、phase 三組影像;**定量 PC-MRI 目前幾乎僅用於研究**，非臨床常規。cine balanced SSFP 亦可輔助觀察 CSF 動力學。[^2]
+- **報告要件（RG 2024 建議）**：扁桃體下疝程度＋形態、骨性後顱窩是否 hypoplasia、Chamberlain/McRae 線是否 dissociation（clival hypoplasia）、顱底與顱頸交界（CCJ）異常、腦室是否 hydrocephalus、syrinx 大小/位置、以及（若有 PC-MRI/cine bSSFP）CSF 流動受阻部位與扁桃體/脊髓異常運動。[^2]
 
 ### 合併異常
 - **Syringomyelia／syrinx**：症狀性病人約 **60%** 合併，多位於頸髓（可延伸至胸髓）；T1 低、T2 高、無強化；**syrinx 之有無是預測是否需手術減壓最重要的因子**（扁桃體下疝程度本身與症狀相關性差）。[^4][^5][^6]
@@ -55,7 +58,7 @@ dateRev: 2026-06-29
 
 ### 參考來源
 [^1]: *Chiari 1 malformation*. Radiopaedia.org（輔助來源，實際查證 accessed 2026-06-17）：小腦扁桃體下疝過枕骨大孔；機轉為 small cranial vault and/or posterior fossa 與 overcrowding（size-content mismatch）；扁桃體 peg-like；FM CSF 間隙受壓；矢狀面量測有 ±2 mm 觀察者間差異、可於冠狀面確認；3–5 mm 伴 syrinx 仍可診斷；與 Chiari II（myelomeningocele）區別。
-[^2]: Loftus JR, Wassef C, Ellika S. *Chiari I Deformity: Beyond 5 mm below the Foramen Magnum*. RadioGraphics. 2024;44(9):e230227. DOI [10.1148/rg.230227](https://doi.org/10.1148/rg.230227)。（依出版頁與檢索摘要，未讀全文）：主張 Chiari 1 為發育性 deformity 而非真正 malformation；描述 Chiari 0、0.5、1.5 譜系及理想形態學／生理學影像評估。
+[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Loftus JR, Wassef C, Ellika S. *Chiari I Deformity: Beyond 5 mm below the Foramen Magnum*. RadioGraphics. 2024;44(9):e230227. DOI [10.1148/rg.230227](https://doi.org/10.1148/rg.230227)。主張 Chiari 1 為發育性 deformity 而非真正 malformation；描述 Chiari 0、0.5、1.5 譜系。**形態評估**：McRae line（basion→opisthion＝FM）、Chamberlain line（硬顎→basion，齒突尖高於此 >4.5 mm＝basilar invagination）；**Chamberlain 正常與 McRae 平行，兩線 dissociation＝clival hypoplasia 線索**。**生理評估**：cine phase-contrast MRI（心動閘控，rephased/magnitude/phase 三組影像）評估扁桃體與脊髓異常運動及 CSF 流動受阻部位；定量 PC-MRI 幾乎僅研究用。**報告要件**：下疝程度/形態、骨性 PCF hypoplasia、Chamberlain/McRae dissociation、CCJ 異常、hydrocephalus、syrinx 大小位置、CSF 動力學。
 [^3]: *Chiari Type I/II/III Malformation*. RadiologyKey（節錄自 Osborn 系神經放射教科書內容，開放頁面，accessed 2026-06-29）：Chiari II 後顱窩小、tectal beaking、towering cerebellum、callosal dysgenesis、低位 torcula、interdigitated gyri、hydrocephalus、cervicomedullary kink、myelomeningocele；Chiari III 為高位頸椎／枕部 encephalocele 內含下疝小腦與延髓。
 [^4]: *Chiari I Malformation*. Radsource MRI Web Clinic（開放全文已讀，accessed 2026-06-29）：以 McRae line（basion–opisthion）量扁桃體下緣；≥5 mm 為標準、3–5 mm borderline；Mikulis 年齡標準 <10 歲 6 mm、10–30 歲 5 mm、>30 歲 4 mm；peg-like／尖形扁桃體與 FM CSF 受壓提示症狀性；syrinx 多在頸髓、約 60% 症狀性病人。
 [^5]: Davidson L, et al. *Long-term outcomes for children with an incidentally discovered Chiari malformation type 1*. Childs Nerv Syst. 2020;37(4):1191-1197. DOI [10.1007/s00381-020-04980-1](https://doi.org/10.1007/s00381-020-04980-1)。（依 PubMed 摘要，未讀全文）：偶見 CM-1 兒童中僅 syringomyelia 之有無與是否需手術顯著相關；年齡、性別、扁桃體下疝程度皆非預測因子。
