@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 390,
+  "totalQuestions": 395,
   "questions": [
     {
       "id": "2020-001",
@@ -14300,6 +14300,199 @@
       "images": [],
       "concepts": [
         "ards-pulmonary-edema-differential"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-391",
+      "year": 2020,
+      "number": 391,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following description about pulmonary AVM is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Direct anastomosis between pulmonary artery and pulmonary vein"
+        },
+        {
+          "letter": "B",
+          "text": "A right to left shunt on physiology"
+        },
+        {
+          "letter": "C",
+          "text": "Pulmonary AVM is associated with hereditary hemorrhagic telangiectasia"
+        },
+        {
+          "letter": "D",
+          "text": "Surgical resection is the first choice of treatment"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: AJR 1996;167:648; Postgrad Med J 2002;78:191-197",
+      "explanation": "肺動靜脈畸形(pulmonary AVM)之首選治療為**栓塞治療(embolotherapy)**，並非手術切除；手術僅適用於栓塞治療失敗、病灶不適合栓塞、或無栓塞設備之緊急致命出血等情況，故D敘述錯誤。肺動脈與肺靜脈直接吻合、生理上呈右到左分流、與遺傳性出血性微血管擴張症(HHT)相關，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "pulmonary-avm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-392",
+      "year": 2020,
+      "number": 392,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 50 Y/O male patient with abdominal aortic aneurysm (AAA) S/P endovascular aortic repair (EVAR) had received one time of F/U computed tomography (CT). The report of F/U CT revealed no endoleak and stationary aneurysmal sac size. 6 months later, patient was asked to receive F/U CT again. But the renal function was abnormal (Cr: 2.0, eGFR: 40). What is the optimal image modality/method for AAA evaluation?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "CT with half dosage of iodinated contrast media (CM) given and adequate hydration before/after CM usage"
+        },
+        {
+          "letter": "2",
+          "text": "MRI without IV contrast media"
+        },
+        {
+          "letter": "3",
+          "text": "CT without IV contrast media"
+        },
+        {
+          "letter": "4",
+          "text": "Angiography with CO2"
+        },
+        {
+          "letter": "5",
+          "text": "Sonography"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解",
+      "explanation": "此病患已有一次追蹤CT確認無內漏(endoleak)且動脈瘤囊袋大小穩定，現因腎功能異常(eGFR 40)不宜再使用含碘顯影劑；於此情境下可選擇：不打顯影劑之MRI(2)、不打顯影劑之CT(3，可評估囊袋大小與鈣化/血栓但無法排除內漏)、超音波(5，可評估囊袋大小)。CO2血管攝影(4)屬侵入性檢查非必要；半劑量含碘顯影劑合併水化(1)仍有腎毒性風險，非本情境optimal選擇。故正確組合為(E) 2,3,5。",
+      "images": [],
+      "concepts": [
+        "aaa-evar-followup-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-393",
+      "year": 2020,
+      "number": 393,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於Marfan syndrome，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "影像上呈現annuloaortic ectasia，但sinus of Valsalva大小正常."
+        },
+        {
+          "letter": "B",
+          "text": "屬於遺傳疾病，有家族史"
+        },
+        {
+          "letter": "C",
+          "text": "有此症的懷孕婦女，有顯著增加aortic dissection的風險"
+        },
+        {
+          "letter": "D",
+          "text": "當aortic root diameter小於5cm，但每年增加1cm以上，建議開刀處理."
+        },
+        {
+          "letter": "E",
+          "text": "當aortic root diameter超過5cm，應在破裂之前預防性開刀處理"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging, Chest, p II-2-34",
+      "explanation": "環主動脈擴張(annuloaortic ectasia)定義為主動脈環合併近端主動脈之擴張，呈「燒瓶狀(flask-like)」外觀，此擴張本身即包含Valsalva竇的擴大，並非「Valsalva竇大小正常」，故A敘述錯誤。Marfan syndrome為遺傳性疾病有家族史、懷孕婦女主動脈剝離風險顯著增加、主動脈根部每年增加≥1cm時建議手術(即使<5cm)、主動脈根部>5cm應預防性手術，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "marfan-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-394",
+      "year": 2020,
+      "number": 394,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following descriptions is true for Scimitar syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A rare congenital abnormality characterized by a curved, tubular opacity adjacent to the right of the heart and extending toward the diaphragm seen on a frontal radiograph."
+        },
+        {
+          "letter": "B",
+          "text": "Also called Chinese Ring Sword Sign"
+        },
+        {
+          "letter": "C",
+          "text": "Mainly occurs in the left lung"
+        },
+        {
+          "letter": "D",
+          "text": "Can be total or partial anomalous arterial supply of the lung"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Scimitar Sign, Journal of Thoracic Imaging: July 2013 - Volume 28 - Issue 4 - p W61",
+      "explanation": "彎刀症候群(Scimitar syndrome)於胸部X光正面呈罕見先天異常，表現為心臟右側、朝橫膈延伸之彎曲管狀陰影(彎刀徵象)，A正確。「Chinese ring sword sign」實為主動脈壁內血腫血池(intramural hematoma blood pools)之徵象，與彎刀症候群無關，B錯；彎刀症候群主要發生於**右肺**（非左肺），C錯；彎刀症候群為肺**靜脈**（非動脈）之全部或部分異常回流（異常靜脈引流至下腔靜脈等體循環靜脈），D敘述將靜脈誤植為動脈，錯誤。",
+      "images": [],
+      "concepts": [
+        "scimitar-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-395",
+      "year": 2020,
+      "number": 395,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為Radiologic sign of pneumoperitoneum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rigler sign (double wall sign)"
+        },
+        {
+          "letter": "B",
+          "text": "Football sign"
+        },
+        {
+          "letter": "C",
+          "text": "Ligamentum teres sign"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆是"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiology Review Manual, 7th edition, p.771-772",
+      "explanation": "氣腹(pneumoperitoneum)之放射學徵象包含：Rigler sign(double wall sign，腸壁內外皆可見氣體致腸壁雙側可見)、football sign(大量游離氣體使腹腔呈橢圓形足球狀輪廓)、ligamentum teres sign(肝圓韌帶周圍游離氣體勾勒出線狀密度)，另有urachus sign、leaping dolphins sign、inverted V sign等，皆為氣腹之間接或直接徵象，故答案為D(以上皆是)。",
+      "images": [],
+      "concepts": [
+        "pneumoperitoneum-signs"
       ],
       "checked": false
     }
