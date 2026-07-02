@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 429,
+  "totalQuestions": 434,
   "questions": [
     {
       "id": "2018-001",
@@ -699,10 +699,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "Secondary以reticuloendothelial system為主，但不是only。包含RES 和 non-RES tissue。\nPrimary主要沉積在Parenchymal cells。B正確。",
+      "reference": "MR Imaging Findings of Iron Overload. RadioGraphics 2009;29:1575-1589（2018 交換考題詳解 p.350 引用）",
+      "explanation": "Secondary以reticuloendothelial system為主，但不是only。包含RES 和 non-RES tissue。\nPrimary主要沉積在Parenchymal cells。B正確。\n\n見 [[hemochromatosis-mri]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemochromatosis-mri"
+      ],
       "checked": false
     },
     {
@@ -2541,10 +2543,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "- T1 跟T2都 homogeneously低訊號，想到fibrous tissue。most commonly seen in fibrous masses containing **mature** collagen.\n\t - Fibrosing masses containing immature fibrous tissue or fibroblasts can have intermediate signal intensity.\n\t - Fibrosing masses include plantar fibromatosis and fibroma of tendon sheath. **Option C is the best response.**\n - Morton's neuromas typically have intermediate signal that is **isointense to muscle on T1**-weighted and **low signal on T2**-weighted sequences with variable enhancement (RadioGraphics 1998; 18:1481 –1498)\n - Lipomas: fat signal intensity. They typically have **high T1-and T2**-weighted signal and low signal on **fat-suppressed** sequences.\n - Ganglion cyst: The typical appearance of a ganglion cyst on MRI is a well-defined mass with **low T1-and high T2**-weighted signal.\n\t - Uncomplicated ganglion cysts do not have central enhancement, although a thin rim of enhancement may surround the ganglion.\n\t - If a suspected ganglion cyst has **central enhancement, then malignancy must be excluded**.\n - Hemangiomas have **mixed** signal on T1-and T2-weighted sequences because of the presence of vessels, fat, and fibrous tissue (Semin Musculoskelet Radiol 2005; 9:227 –242).\n\t - The vascular portions of hemangiomas homogeneously enhance.\n\t - Densely calcified masses can have low T1-and T2-weighted signal, but would not be expected to enhance.",
+      "reference": "Imaging Evaluation of Foot and Ankle Pathology. AJR 2008;190:S18-S22. doi:10.2214/AJR.07.7023（2018 交換考題詳解 p.344 引用）",
+      "explanation": "- T1 跟T2都 homogeneously低訊號，想到fibrous tissue。most commonly seen in fibrous masses containing **mature** collagen.\n\t - Fibrosing masses containing immature fibrous tissue or fibroblasts can have intermediate signal intensity.\n\t - Fibrosing masses include plantar fibromatosis and fibroma of tendon sheath. **Option C is the best response.**\n - Morton's neuromas typically have intermediate signal that is **isointense to muscle on T1**-weighted and **low signal on T2**-weighted sequences with variable enhancement (RadioGraphics 1998; 18:1481 –1498)\n - Lipomas: fat signal intensity. They typically have **high T1-and T2**-weighted signal and low signal on **fat-suppressed** sequences.\n - Ganglion cyst: The typical appearance of a ganglion cyst on MRI is a well-defined mass with **low T1-and high T2**-weighted signal.\n\t - Uncomplicated ganglion cysts do not have central enhancement, although a thin rim of enhancement may surround the ganglion.\n\t - If a suspected ganglion cyst has **central enhancement, then malignancy must be excluded**.\n - Hemangiomas have **mixed** signal on T1-and T2-weighted sequences because of the presence of vessels, fat, and fibrous tissue (Semin Musculoskelet Radiol 2005; 9:227 –242).\n\t - The vascular portions of hemangiomas homogeneously enhance.\n\t - Densely calcified masses can have low T1-and T2-weighted signal, but would not be expected to enhance.\n\n見 [[foot-ankle-soft-tissue-masses]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "foot-ankle-soft-tissue-masses"
+      ],
       "checked": false
     },
     {
@@ -2578,10 +2582,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "AJR 2011 Jun;196(6 Suppl):S77-85.\n- 某些病人的 simple hematoma和 hemorrhagic neoplasm很難區分。\n- 兩者都可能含有fluid-fluid level，旁邊muscle也可能有edema, enhancement。(D不適合)\n- 在看post contrast影像時，要注意三個pitfalls誤區：\n    - 在正在變大的evolving hematoma的fibrovascular tissue，是可能會顯影的。這樣和neoplasm會很難區分。\n    - gadolinium可能慢慢擴散進fluid-fluid space，例如hematoma或abscess。因此，應在給藥後立即成像，以避免產生pseudoenhancement。(B不適合)\n    - 在myxoid lesion 顯影不明顯，有可能被當成cystic component。(C不適合)\n- 但是，如果lesion有 enhancing nodules，要優先考愈neoplasm。\n\n\n\n\n# Baker cyst",
+      "reference": "MRI of Nontumorous Skeletal Muscle Disease. AJR 2011;196:WS57-WS61. doi:10.2214/AJR.10.7300（2018 交換考題詳解 p.343 引用）",
+      "explanation": "AJR 2011 Jun;196(6 Suppl):S77-85.\n- 某些病人的 simple hematoma和 hemorrhagic neoplasm很難區分。\n- 兩者都可能含有fluid-fluid level，旁邊muscle也可能有edema, enhancement。(D不適合)\n- 在看post contrast影像時，要注意三個pitfalls誤區：\n    - 在正在變大的evolving hematoma的fibrovascular tissue，是可能會顯影的。這樣和neoplasm會很難區分。\n    - gadolinium可能慢慢擴散進fluid-fluid space，例如hematoma或abscess。因此，應在給藥後立即成像，以避免產生pseudoenhancement。(B不適合)\n    - 在myxoid lesion 顯影不明顯，有可能被當成cystic component。(C不適合)\n- 但是，如果lesion有 enhancing nodules，要優先考愈neoplasm。\n\n見 [[hemorrhagic-mass-vs-hematoma]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemorrhagic-mass-vs-hematoma"
+      ],
       "checked": false
     },
     {
@@ -2614,10 +2620,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "",
+      "reference": "Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65. doi:10.2214/AJR.10.7264（2018 交換考題詳解 p.342 引用）",
+      "explanation": "**Presence of tumor（D）**為正解——腫瘤存在並非 Baker cyst 形成之重要成因。increasing age（A）、total knee replacement（B）、posterior meniscal tear（C）等致關節內積液增多者皆為重要成因。\n\n見 [[baker-cyst]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "baker-cyst"
+      ],
       "checked": false
     },
     {
@@ -2726,10 +2734,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "```dataviewjs\n// Modified from https://zhuanlan.zhihu.com/p/373623264\n// 获取 Obsidian 中的所有 Markdown 文件\ncountTimes(\"Paget\")\n\nfunction countTimes(term){\ndv.header(2, term)\nconst files = app.vault.getMarkdownFiles()\n\n// 将带有标签的文件以及行筛选出来\nlet arr = files.map( async(file) => {\n//turn all the content into an array\n  const content = await app.vault.cachedRead(file)\n  let lines = await content.split(\"\\n\").filter(line => line.includes(term))\n    return [\"[[\"+file.name.split(\".\")[0]+\"]]\", lines]\n})\n\n// 生成表格，如果要将当前的文件排除的话，请修改其中的排除文件\nPromise.all(arr).then(values => {\n\tconst exists = values.filter(value => value[1][0] && value[0] != \"[[測試dataview]]\" && value[0] != \"[[Obsidian 使用規則筆記]]\" && value[0] != \"[[0交換考]]\" && value[0] != \"[[1顯示交換考題數]]\")\n\tdv.table([\"file\", \"lines\"], exists)\n})\n}\n```",
+      "reference": "Imaging of Paget disease of bone and its musculoskeletal complications: review. AJR Integrative Imaging 2011;196（2018 交換考題詳解 p.344 引用）",
+      "explanation": "**Lumbosacral spine（A）**為正解——Paget disease of bone 好發於腰薦椎、骨盆、股骨、顱骨等中軸骨；shoulders（B）、ribs（C）、small bones in the hand（D）相對少見。\n\n見 [[paget-disease-bone]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "paget-disease-bone"
+      ],
       "checked": false
     },
     {
@@ -3425,8 +3435,8 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "**Perimesencephalic subarachnoid haemorrhage (PMSAH)** is a distinct pattern of subarachnoid haemorrhage (SAH), which is centred on the basal cisterns around the midbrain.\n- 95% of cases have a normal cerebral angiogram and the source of bleeding is not identified; the cause is thought to be a venous bleed. This is referred to as **non-aneurysmal perimesencephalic SAH**.\n- The other 5% of cases are due to a vertebrobasilar aneurysm and the prognosis is worse. Rare causes include arteriovenous malformation, dural arteriovenous fistula, trauma and vascular tumours.\nSpecifically, there are criteria for non-aneurysmal perimesencephalic SAH, which if fulfilled, in the presence of a negative CTA negates the need for DSA:\n- SAH in perimesencephalic cisterns anterior to midbrain\n- if SAH extension into the anterior interhemispheric fissure, not extending into all of the fissure\n- if SAH extension into the medial Sylvian fissures, not extending into the lateral fissure\n- if layering interventricular extension, no frank intraventricular haemorrhage\n- no intraparenchymal haemorrhage",
+      "reference": "Osborn AG. Diagnostic Imaging: Brain, I-3-9（2018 交換考題詳解 p.341 引用）",
+      "explanation": "**Perimesencephalic subarachnoid haemorrhage (PMSAH)** is a distinct pattern of subarachnoid haemorrhage (SAH), which is centred on the basal cisterns around the midbrain.\n- 95% of cases have a normal cerebral angiogram and the source of bleeding is not identified; the cause is thought to be a venous bleed. This is referred to as **non-aneurysmal perimesencephalic SAH**.\n- The other 5% of cases are due to a vertebrobasilar aneurysm and the prognosis is worse. Rare causes include arteriovenous malformation, dural arteriovenous fistula, trauma and vascular tumours.\nSpecifically, there are criteria for non-aneurysmal perimesencephalic SAH, which if fulfilled, in the presence of a negative CTA negates the need for DSA:\n- SAH in perimesencephalic cisterns anterior to midbrain\n- if SAH extension into the anterior interhemispheric fissure, not extending into all of the fissure\n- if SAH extension into the medial Sylvian fissures, not extending into the lateral fissure\n- if layering interventricular extension, no frank intraventricular haemorrhage\n- no intraparenchymal haemorrhage\n\n見 [[perimesencephalic-sah]]",
       "images": [],
       "concepts": [
         "perimesencephalic-sah"
@@ -15990,6 +16000,191 @@
       "images": [],
       "concepts": [
         "neuropsychiatric-sle"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-430",
+      "year": 2018,
+      "number": 430,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following pathologic characteristics is the hallmark of Paget disease of bone?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increased bone resorption."
+        },
+        {
+          "letter": "B",
+          "text": "Abundant new bone formation."
+        },
+        {
+          "letter": "C",
+          "text": "Abnormal bone resorption and apposition."
+        },
+        {
+          "letter": "D",
+          "text": "Compensatory formation of good-quality bone."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Imaging of Paget disease of bone and its musculoskeletal complications: review. AJR Integrative Imaging 2011;196（2018 交換考題詳解 p.342 引用）",
+      "explanation": "Paget disease of bone 的病理標誌為**異常的骨吸收與骨再形成（abnormal bone resorption and apposition）**——破骨與成骨活性皆增加但失序，形成結構紊亂脆弱的織狀骨（woven bone）。故非單純骨吸收增加（A）、大量新骨形成（B）或代償形成優質骨（D）。\n\n見 [[paget-disease-bone]]",
+      "images": [],
+      "concepts": [
+        "paget-disease-bone"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-431",
+      "year": 2018,
+      "number": 431,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About testicular cancer, which one is **correct**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Testicular seminoma is the most common subtype of testicular cancer."
+        },
+        {
+          "letter": "B",
+          "text": "Testicular seminoma is highly curable even at advanced stages. The most common stage at presentation is stage I disease."
+        },
+        {
+          "letter": "C",
+          "text": "At Doppler US, seminoma demonstrates increased vascularity compared with adjacent normal testis."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiographics 2017;37:1085-1098（2018 交換考題詳解 p.345 引用）",
+      "explanation": "**All of the above（D）**——精細胞瘤（seminoma）為睪丸癌最常見亞型（A對）；即使晚期仍高度可治癒，最常見表現期別為第一期疾病（B對）；杜卜勒超音波上相對於鄰近正常睪丸組織呈血流增加（C對），三者皆正確。\n\n見 [[testicular-seminoma]]",
+      "images": [],
+      "concepts": [
+        "testicular-seminoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-432",
+      "year": 2018,
+      "number": 432,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About PET imaging in prostate cancer, which one is **correct**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "FDG is limited because of the relatively low glucose metabolism of most prostate tumors."
+        },
+        {
+          "letter": "B",
+          "text": "FDG may have a role in response assessment of osseous disease in metastatic castration-resistant prostate cancer and as a prognostic indicator."
+        },
+        {
+          "letter": "C",
+          "text": "11C-Choline and 18F-choline are sensitive and specific for disease detection in high-risk staging and biochemical relapse after radical therapy in patients with high PSA levels."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiographics 2017;37（2018 交換考題詳解 p.346 引用）",
+      "explanation": "**All of the above（D）**——FDG因多數攝護腺腫瘤葡萄糖代謝相對較低而受限（A對）；FDG於轉移性去勢抗性攝護腺癌骨骼病灶之治療反應評估與預後判斷仍有角色（B對）；11C/18F-choline PET/CT對高風險分期與生化復發偵測敏感且特異（C對），三者皆正確。\n\n見 [[pet-prostate-cancer]]",
+      "images": [],
+      "concepts": [
+        "pet-prostate-cancer"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-433",
+      "year": 2018,
+      "number": 433,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is **TRUE**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an uncommon cause of hydronephrosis in children."
+        },
+        {
+          "letter": "B",
+          "text": "Urinary tract infection is the most common presentation."
+        },
+        {
+          "letter": "C",
+          "text": "Females and males are affected equally."
+        },
+        {
+          "letter": "D",
+          "text": "The presence of crossing vessels decreases the success rate of pyeloplasty."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Herts BR. Helical CT and CT angiography for the identification of crossing vessels at the ureteropelvic junction. Urol Clin North Am 1998;25(2):259-269；Davidson & Hartman, Radiology of the Kidney and Urinary Tract；Sandler et al. Textbook of Uroradiology, 3rd ed.（2018 交換考題詳解 p.347 引用）",
+      "explanation": "**The presence of crossing vessels decreases the success rate of pyeloplasty（D）**——crossing vessel 僅見於約 15%–20% 病例，但顯著降低 pyeloplasty 成功率，故多主張術前 CT 評估。A 誤（UPJ obstruction 為兒童 hydronephrosis **最常見**病因）；B 誤（最常以腹部腫塊/側腹痛/成長遲滯表現，UTI 非最常見）；C 誤（男性多於女性約 2:1）。\n\n見 [[upj-obstruction]]",
+      "images": [],
+      "concepts": [
+        "upj-obstruction"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-434",
+      "year": 2018,
+      "number": 434,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning adrenal adenomas, which one is **TRUE**?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They are a more common cause of adrenal mass than is metastatic disease."
+        },
+        {
+          "letter": "B",
+          "text": "They typically have non-IV contrast density of more than 20 Hounsfield units."
+        },
+        {
+          "letter": "C",
+          "text": "They typically show no decrease in signal intensity on opposed phase MR imaging."
+        },
+        {
+          "letter": "D",
+          "text": "They typically retain 90% of their immediate contrast value on 10-minute delayed CT exam."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Davidson & Hartman, Radiology of the Kidney and Urinary Tract；Sandler et al. Textbook of Uroradiology, 3rd ed.（2018 交換考題詳解 p.348 引用）",
+      "explanation": "**They are a more common cause of adrenal mass than is metastatic disease（A）**——腺瘤為最常見腎上腺病灶（佔人口 2–8%），即使已知惡性者偶發腎上腺病灶仍較可能為腺瘤。B 誤（非顯影密度多 **<10 HU**，非 >20 HU）；C 誤（反相位 opposed-phase 訊號**下降**）；D 誤（10 分延遲 CT 約 **washout 50%**，非保留 90% 初始強化）。\n\n見 [[adrenal-adenoma]]",
+      "images": [],
+      "concepts": [
+        "adrenal-adenoma"
       ],
       "checked": false
     }

@@ -21,7 +21,11 @@ dateRev: 2026-07-01
 - **未滿足需求**：多參數MRI與choline PET/CT雖改善局部區域與遠處復發偵測，但**根除性治療後高PSA病人於低PSA值（<1.0-1.5 ng/mL）時仍有未滿足的偵測需求**。[^1]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Radiographics. 2017;37:0000-0000。
+[^1]: 2019 交換考詳解；Radiographics. 2017;37:0000-0000（2018 交換考題詳解 p.346 亦引用同篇）。
+
+## 題目
+> [!question]- About PET imaging in prostate cancer, which one is correct? (2018-432)
+> **All of the above（D）**——FDG因多數攝護腺腫瘤葡萄糖代謝低而受限(A對)、FDG於轉移性去勢抗性攝護腺癌骨骼病灶反應評估與預後仍有角色(B對)、11C/18F-choline對高風險分期與生化復發敏感且特異(C對),三者皆正確。[^1]
 
 ## 考題
 ```dataview

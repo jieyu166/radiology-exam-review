@@ -20,7 +20,11 @@ dateRev: 2026-07-01
 - **腫瘤標記**：少數（約15%）病例 β-HCG 可能輕微上升。[^1]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Radiographics 2017;37:1085-1098。
+[^1]: 2019 交換考詳解；Radiographics 2017;37:1085-1098（2018 交換考題詳解 p.345 亦引用同篇）。
+
+## 題目
+> [!question]- About testicular cancer, which one is correct? (2018-431)
+> **All of the above（D）**——Testicular seminoma 為睪丸癌最常見亞型(A對)、即使晚期仍高度可治癒且最常見表現為第一期疾病(B對)、杜卜勒超音波上相對正常睪丸組織呈血流增加(C對),三者皆正確。[^1]
 
 ## 考題
 ```dataview

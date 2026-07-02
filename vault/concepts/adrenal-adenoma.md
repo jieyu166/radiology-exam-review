@@ -100,6 +100,9 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 > [!question]- About adrenal adenoma, which of the following is wrong? (2018-360)
 > **官方標示C（Absolute percentage washout > 60% at 15-min）**——⚠️惟APW>60%實為腺瘤之正確特徵，四選項皆為腺瘤正確描述，官方詳解自身標示「錯在哪?」存疑，見上方warning。[^2]
 
+> [!question]- Concerning adrenal adenomas, which one is TRUE? (2018-434)
+> **They are a more common cause of adrenal mass than is metastatic disease（A）**——腺瘤為最常見腎上腺病灶(佔人口2–8%),即使已知惡性者偶發腎上腺病灶仍較可能為腺瘤。B誤(非顯影密度多**<10 HU**,非>20 HU)、C誤(反相位opposed-phase訊號**下降**,非無下降)、D誤(10分延遲CT約**washout 50%**,非保留90%初始強化)。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenal-adenoma")
