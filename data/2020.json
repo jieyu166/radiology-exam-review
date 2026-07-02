@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 403,
+  "totalQuestions": 409,
   "questions": [
     {
       "id": "2020-001",
@@ -14801,6 +14801,228 @@
       "images": [],
       "concepts": [
         "renal-tuberculosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-404",
+      "year": 2020,
+      "number": 404,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which side is more common in meniscal tear?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medial by a ratio of 2 to 1"
+        },
+        {
+          "letter": "B",
+          "text": "Medial by a ratio of 5 to 1"
+        },
+        {
+          "letter": "C",
+          "text": "Lateral by a ratio of 2 to 1"
+        },
+        {
+          "letter": "D",
+          "text": "Lateral by a ratio of 5 to 1"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Musculoskeletal Imaging: The Requisites, 3rd ed, p232",
+      "explanation": "半月板撕裂以內側半月板較外側常見，比例約2:1。",
+      "images": [],
+      "concepts": [
+        "meniscal-tear-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-405",
+      "year": 2020,
+      "number": 405,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is Buford Complex?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Congenital absence of anterosuperior labrum"
+        },
+        {
+          "letter": "2",
+          "text": "Cordlike middle glenohumeral ligament"
+        },
+        {
+          "letter": "3",
+          "text": "Congenital absence of anterior labrum"
+        },
+        {
+          "letter": "4",
+          "text": "Congenital absence of posterior labrum"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Musculoskeletal Imaging: The Requisites, 3rd ed, p96",
+      "explanation": "Buford complex為肩關節正常解剖變異，組合為：先天性前上方盂唇缺失(congenital absence of anterosuperior labrum，選項1)合併索狀增厚之中盂肱韌帶(cordlike middle glenohumeral ligament，選項2)，即1+2(答案C)，不應誤認為病理性盂唇撕裂。",
+      "images": [],
+      "concepts": [
+        "buford-complex"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-406",
+      "year": 2020,
+      "number": 406,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is not the associated risk factor for spontaneous osteonecrosis of the knee?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Obesity"
+        },
+        {
+          "letter": "B",
+          "text": "Corticosteriod adminstration"
+        },
+        {
+          "letter": "C",
+          "text": "Meniscal tear"
+        },
+        {
+          "letter": "D",
+          "text": "Osteoporosis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Musculoskeletal Imaging: The Requisites, 3rd ed, p244-246",
+      "explanation": "自發性膝關節骨壞死(SONK/Ahlbäck disease)之危險因子傳統包含肥胖、皮質類固醇使用、半月板撕裂，教科書列骨質疏鬆非其危險因子(D為此題答案)。⚠️ 官方詳解本身於此頁加註存疑，因其他文獻(如RadioGraphics 2018;38:2018180044之table)將osteoporosis列為SONK危險因子之一(SONK現多被視為subchondral insufficiency fracture，本質與骨質疏鬆之骨小樑弱化有關)，與B選項(corticosteroid administration)何者才是「非」危險因子之答案有出入。暫依官方標示D為預設值，建議醫師覆核。",
+      "images": [],
+      "concepts": [
+        "spontaneous-osteonecrosis-knee"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-407",
+      "year": 2020,
+      "number": 407,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關上肢的神經夾擊與壓迫，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "suprascapular nerve syndrome起因於周邊神經通過肩關節的scapular notch或spinoglenoid notch被壓迫"
+        },
+        {
+          "letter": "B",
+          "text": "病人有quadrilateral space syndrome與median nerve injuries時，肩關節MRI可發現teres minor和deltoid muscle有fatty atrophy"
+        },
+        {
+          "letter": "C",
+          "text": "Pronator syndrome壓迫到median nerve，可能會造成與carpal tunnel syndrome類似的症狀"
+        },
+        {
+          "letter": "D",
+          "text": "carpal tunnel syndrome是上肢最常見的神經壓迫症，源於median nerve通過transverse carpal ligament下方時被壓迫；超音波常可見volar bowing of flexor retinaculum at the distal carpal tunnel"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Imaging of the Musculoskeletal System: Expert Radiology Series, p.214-218",
+      "explanation": "四角間隙症候群(quadrilateral space syndrome)壓迫的是**腋神經(axillary nerve)**（並非median nerve），造成teres minor與deltoid muscle脂肪萎縮，故B敘述將致病神經誤植為median nerve，錯誤。肩胛上神經症候群起因於scapular notch/spinoglenoid notch壓迫、旋前肌症候群壓迫median nerve可致與腕隧道症候群類似症狀、腕隧道症候群為上肢最常見神經壓迫症(超音波可見flexor retinaculum掌側弓起)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "upper-extremity-nerve-entrapment-syndromes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-408",
+      "year": 2020,
+      "number": 408,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to 8th AJCC Cancer staging system, a 3 cm ipsilateral metastatic lymph node with extranodal extension in hypopharyngeal carcinoma denotes:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "N1"
+        },
+        {
+          "letter": "B",
+          "text": "N2a"
+        },
+        {
+          "letter": "C",
+          "text": "N3a"
+        },
+        {
+          "letter": "D",
+          "text": "N3b"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: AJCC Cancer Staging Manual, 8th edition",
+      "explanation": "AJCC第8版頭頸癌症分期中，**N3b定義為任何淋巴結轉移合併臨床明顯之腺外擴散(clinically overt extranodal extension, ENE(+))**——不論淋巴結大小或側別，只要ENE陽性即歸為N3b，故本題3cm同側轉移淋巴結合併腺外擴散應歸類為N3b(D)。",
+      "images": [],
+      "concepts": [
+        "ajcc-8th-head-neck-n-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-409",
+      "year": 2020,
+      "number": 409,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not a typical imaging finding of chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids (CLIPPERS)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Puncate and curvilinear enhancement in pons"
+        },
+        {
+          "letter": "B",
+          "text": "Minimal vasogenic edema"
+        },
+        {
+          "letter": "C",
+          "text": "No mass effect"
+        },
+        {
+          "letter": "D",
+          "text": "Hemorrhage"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Brain. 2017 Sep 1;140(9):2415-2425",
+      "explanation": "CLIPPERS典型影像特徵包含：橋腦點狀與曲線狀強化病灶(puncate and curvilinear enhancement)、極少血管源性水腫(minimal vasogenic edema)、缺乏佔位效應(no mass effect)（儘管顯影後表現顯著但幾乎無水腫或明顯佔位效應）、對類固醇治療後病灶數目與大小放射學上減少。**出血(hemorrhage)並非**CLIPPERS之典型影像表現。",
+      "images": [],
+      "concepts": [
+        "clippers"
       ],
       "checked": false
     }
