@@ -8,7 +8,7 @@ aliases:
   - multiple endocrine neoplasia type 1
   - Wermer syndrome
   - 多發性內分泌腫瘤第一型
-dateRev: 2026-06-28
+dateRev: 2026-07-03
 ---
 
 # men1
@@ -18,7 +18,7 @@ dateRev: 2026-06-28
 ## Summary
 - **同義/遺傳**：又名 **Wermer 症候群**、**體染色體顯性**；侵犯腦下垂體、胰臟、副甲狀腺等內分泌腺（3P）。**滲透率（penetrance）大致：副甲狀腺機能亢進 ~94%、胃腸胰神經內分泌瘤 ~59%、垂體腺瘤 ~50%**，反映受累頻率順序。[^1][^9]
 - **原發性副甲狀腺機能亢進**：**最常見表現（~95%，多腺體增生 hyperplasia）**；故「副甲狀腺增生在 MEN1 罕見」**錯誤**＝題目正解（2016-102 正解 C）。[^1]
-- **胰臟神經內分泌瘤（pancreatic NET）**：伴分泌過多症候群；**gastrinoma 最常見**（Zollinger-Ellison，~40% 患者），常**多發、體積小、位於十二指腸黏膜下/gastrinoma triangle，且多為惡性、易肝轉移**；**insulinoma 為第二常見**功能性 pNET（~10–30%、發病年輕 <35 歲）。[^1][^4][^5]
+- **胰臟神經內分泌瘤（pancreatic NET）**：**MEN1 為 panNET 最常見之遺傳症候群，佔所有 panNET 約 10%**;MEN1 中最常見者為**多發性 gastrinoma（20–60%）與非功能性腫瘤（達 80%）**，皆呈邊界清楚、強烈強化腫塊;**gastrinoma 最常見之功能性者**（Zollinger-Ellison，多發、體積小、位十二指腸黏膜下/gastrinoma triangle、多惡性易肝轉移，CT/MRI 見胃皺襞顯著增厚）;**insulinoma 為第二常見**功能性 pNET（~10–30%、發病年輕 <35 歲）;**囊性 panNET 佔 MEN1 之 panNET 達 15%**（多大、likely benign、非功能性）。**panNET 為 MEN1 疾病相關死亡之首因**。[^1][^4][^5][^8]
 - **腦下垂體腺瘤**：常見 prolactinoma。[^1]
 - 可合併其他內分泌腫瘤（如腎上腺、類癌 carcinoid 等）。[^1]
 
@@ -73,7 +73,7 @@ dateRev: 2026-06-28
 [^5]: 同 [^4]：insulinoma 為 MEN1 第二常見功能性 pNET，~10–30%、發病年輕（<35 歲）。
 [^6]: *A narrative review of multiple endocrine neoplasia syndromes: genetics, clinical features, imaging findings, and diagnosis*. PMC8263874（全文查證 accessed 2026-06-28，免費）：pNET 動脈期強化高於正常胰、多灶、gastrinoma 於十二指腸/gastrinoma triangle、大者囊變壞死鈣化；垂體 T1 低訊號、強化低於正常垂體。
 [^7]: *Genetics of Endocrine and Neuroendocrine Neoplasias (PDQ)*, NCI；emedicine/Medscape MEN overview（搜尋摘要查證 accessed 2026-06-28，免費）：MEN2 由 **RET** 突變致，特徵為 **medullary thyroid carcinoma + pheochromocytoma**；MEN1 由 MEN1 基因致、無 MTC。
-[^8]: Khanna L, Prasad SR, Sunnapwar A, et al. *Pancreatic Neuroendocrine Neoplasms: 2020 Update on Pathologic and Imaging Findings and Classification*. **RadioGraphics** 2020;40(5):1240-1262. DOI 10.1148/rg.2020200025（摘要查證 accessed 2026-06-28；RSNA，全文需訂閱）：pNET 多為富血管、動脈/胰相高強化、DWI 受限；insulinoma 典型動脈期均勻高強化、gastrinoma 血供較少且常延遲強化並偏胰外；DOTATATE PET 為非 insulinoma pNET 分期首選。
+[^8]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Khanna L, Prasad SR, Sunnapwar A, et al. *Pancreatic Neuroendocrine Neoplasms: 2020 Update on Pathologic and Imaging Findings and Classification*. **RadioGraphics** 2020;40(5):1240-1262. DOI 10.1148/rg.2020200025。pNET 多為富血管、動脈/胰相高強化、DWI 受限；insulinoma 典型動脈期均勻高強化、gastrinoma 血供較少且常延遲強化並偏胰外；DOTATATE PET 為非 insulinoma pNET 分期首選。**MEN1 為 panNET 最常見遺傳症候群（佔所有 panNET 約 10%）**；MEN1 中最常見為**多發 gastrinoma（20–60%）與非功能性腫瘤（達 80%）**，皆邊界清、強烈強化；MEN1+gastrinoma→ZES→胃皺襞顯著增厚；**panNET 為 MEN1 疾病相關死亡首因**；68Ga-DOTATATE PET/CT 正取代其他影像作 MEN1 監測；**囊性 panNET 佔 MEN1 之 panNET 達 15%**（大、likely benign、非功能性）。functional imaging：panNEN 50–80% 表現 somatostatin receptor，111In-pentetreotide 整體敏感度 77%。
 [^9]: *Diagnosing pancreatic neuroendocrine tumors in patients with multiple endocrine neoplasia type 1 in daily practice*（PMC9585192）；MEN1 case/review 系列（搜尋摘要查證 accessed 2026-06-28，免費）：MEN1 滲透率約 副甲狀腺機能亢進 94.4%、胃腸胰神經內分泌瘤 58.6%、垂體腺瘤 49.6%。
 
 ## 考題

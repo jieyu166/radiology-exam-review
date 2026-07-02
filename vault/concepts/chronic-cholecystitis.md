@@ -6,7 +6,7 @@ aliases:
   - chronic cholecystitis
   - bile signal T1 MRI
   - 慢性膽囊炎
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # chronic-cholecystitis
@@ -61,7 +61,7 @@ dateRev: 2026-07-01
 | 類別 | 鑑別線索 |
 |---|---|
 | 慢性膽囊炎 | 瀰漫對稱平滑壁厚＋結石＋膽囊縮小，無急性旁徵 [^3][^4] |
-| 腺肌瘤症 (adenomyomatosis) | 壁內 Rokitansky-Aschoff 竇內膽固醇結晶 → US **彗尾偽影（comet-tail）**；MRI「pearl necklace」 [^8] |
+| 腺肌瘤症 (adenomyomatosis) | 良性增生性 cholecystosis，膽囊切除標本 ≥5% 可見（相對常見）。壁內 Rokitansky-Aschoff 竇內膽固醇結晶 → US **V 形彗尾偽影（comet-tail，高度特異，為膽固醇結晶之聲學特徵）**；CT **rosary sign**（壁內憩室之強化上皮被相對不強化之肥厚肌層環繞）；MRI R-A 竇呈壁內 T2 高、T1 低、不強化，MRCP／T2 見「**pearl necklace sign**」（多個圓形高訊號腔呈曲線排列） [^8] |
 | 膽囊癌 | 局灶不規則壁厚／腫塊、黏膜線中斷、肝侵犯、淋巴結 [^6][^7] |
 | XGC | 壁內低密度結節＋連續黏膜線 [^6][^7] |
 | 非膽囊本身原因（次發性壁增厚） | 肝炎、肝硬化／門脈高壓、腹水、低白蛋白血症、右心衰竭、腎衰竭、膽囊未充分擴張 → 常為水腫性、與全身狀態相關，無結石／局灶腫塊 [^9] |
@@ -80,7 +80,7 @@ dateRev: 2026-07-01
 [^5]: 〔Tier 2〕Khan S, et al. *Porcelain Gallbladder: Decoding the malignant truth*. Sultan Qaboos Univ Med J. 2016;16(4):e416-e419. https://pmc.ncbi.nlm.nih.gov/articles/PMC5135451/ ；併 Schnelldorfer T. *Porcelain gallbladder: a benign process or concern for malignancy?* J Gastrointest Surg. 2013. https://www.sciencedirect.com/science/article/abs/pii/S1091255X23070701 （accessed 2026-06-29）。選擇性黏膜／點狀鈣化較具癌風險，完整壁內鈣化風險低；去偏差次群分析惡性率約 6%（對照約 1%），舊說 7–60% 已被推翻。
 [^6]: 〔Tier 1〕Goshima S, et al. *Xanthogranulomatous cholecystitis: CT features with emphasis on differentiation from gallbladder carcinoma*. Radiology. 1997;203(1):93-97. https://doi.org/10.1148/radiology.203.1.9122422 （accessed 2026-06-29，摘要層級）。壁內低密度結節幾乎見於所有 XGC、連續黏膜線多保留；膽囊癌多見黏膜線中斷、肝侵犯。
 [^7]: 〔Tier 2〕Zhao F, et al. *Xanthogranulomatous cholecystitis: sonographic and CT features and differentiation from gallbladder carcinoma: a pictorial essay*. https://pubmed.ncbi.nlm.nih.gov/22488612/ ；併 Korean J Radiol 相關研究 https://pmc.ncbi.nlm.nih.gov/articles/PMC3021609/ （accessed 2026-06-29）。連續黏膜線 XGC 約 80% vs 癌約 6%；瀰漫壁增厚 XGC 約 70% vs 癌約 12.5%；肝內膽管擴張／鄰近侵犯偏向膽囊癌。
-[^8]: 〔Tier 1〕Boscak AR, et al. *Adenomyomatosis of the Gallbladder*. RadioGraphics. 2006;26(3):941-946. https://doi.org/10.1148/rg.263055180 （accessed 2026-06-29，摘要層級）。Rokitansky-Aschoff 竇內膽固醇結晶 → US 彗尾偽影、MRI pearl necklace 為特徵。
+[^8]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Boscak AR, et al. *Adenomyomatosis of the Gallbladder*. RadioGraphics. 2006;26(3):941-946. https://doi.org/10.1148/rg.263055180。adenomyomatosis＝adenomyomatous hyperplasia＝良性增生性 cholecystosis，膽囊切除標本 **≥5%** 可見（相對常見）。US：壁內回音灶發出 **V 形 comet-tail reverberation 偽影＝高度特異，為 Rokitansky-Aschoff 竇內膽固醇結晶之獨特聲學特徵**；CT：**rosary sign**（壁內憩室之強化上皮被相對不強化之肥厚膽囊肌層環繞）；MRI：R-A 竇為壁內 T2 高訊號、T1 低訊號、不強化，MRCP／T2 呈 **pearl necklace sign**（多個圓形高訊號腔曲線排列）。
 [^9]: 〔Tier 1〕van Breda Vriesman AC, et al. *Diffuse Gallbladder Wall Thickening: Differential Diagnosis*. AJR Am J Roentgenol. 2007;188(2):495-501. https://doi.org/10.2214/AJR.05.1712 （accessed 2026-06-29，摘要層級）。瀰漫壁增厚的非膽囊原因：肝炎、肝硬化／門脈高壓、腹水、低白蛋白血症、右心衰竭、腎衰竭、膽囊未充分擴張。
 [^10]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 17-21（2018 交換考題詳解 p.135 引用；Tier 2 教科書）。單獨膽囊壁增厚非急性膽囊炎特異性診斷依據；鬱血性心衰竭可致膽囊壁增厚；膽囊癌彩色都卜勒可無血流訊號；總膽管結石為膽結石病人膽管擴張最常見原因；腺肌症comet tail源自Rokitansky-Aschoff竇內結晶殘響。
 [^11]: Ahuja A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 2-28~2-29（2018 交換考題詳解 p.180 引用；Tier 2 教科書）。慢性膽囊炎典型超音波表現為壁增厚、膽囊縮小、膽結石；壁充血變化較典型見於急性膽囊炎非慢性。

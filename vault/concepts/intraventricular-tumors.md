@@ -8,7 +8,7 @@ aliases:
   - central neurocytoma
   - choroid plexus tumor
   - 腦室內腫瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-03
 ---
 
 # intraventricular-tumors
@@ -16,7 +16,7 @@ dateRev: 2026-06-29
 **腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 成人最常見於側腦室 atrium（~50%），非第三腦室——位置是考點。
 
 ## Summary
-- **Subependymoma**：經典為**中年男性偶發、無症狀**的腦室內腫瘤;好發第四腦室/側腦室。[^1]
+- **Subependymoma**：經典為**中年男性偶發、無症狀**的腦室內腫瘤;佔顱內腫瘤 **0.2–0.7%**（因常無症狀偶發而低估）;好發**第四腦室（50–60%）＞側腦室（30–40%）**;多 <2 cm（症狀性者常 ≥4 cm）;**男性居多（2.3:1）、82% 見於 >15 歲**、60% 無症狀（有症狀者多為水腦）。[^1]
 - **Ependymoma**：任何年齡,但**較常見於年輕族群**（非老年）。[^1]
 - **Central neurocytoma**：**約 50% 含鈣化（punctate）、可出血**（非「從不」）;側腦室、年輕成人。[^1]
 - **Choroid plexus tumor**：成人最常見於**側腦室房部(atrium)（~50%）**,40% 第四腦室、10% 第三腦室。[^1]
@@ -30,9 +30,9 @@ dateRev: 2026-06-29
 
 ### 側腦室
 
-- **Choroid plexus papilloma / carcinoma**：兒童最常見位於**側腦室三角區(atrium/trigone)**;呈分葉狀「花椰菜(cauliflower)／frond-like」腫塊,T1 低、T2 高訊號,**強烈但略不均勻強化**,常見血流空洞(flow void)代表高血管性。臨床常以**腦積水**表現(CSF 過度製造或阻塞)。約 5–10% 退變為 carcinoma,後者好發單側三角區並**侵犯周邊腦實質**(papilloma 邊界清楚、carcinoma 邊界浸潤是鑑別點)。[^2][^3]
+- **Choroid plexus papilloma / carcinoma**：**位置頻率——側腦室房部(atrium/trigone) 50%＞第四腦室 40%＞第三腦室 10%＞多處 ~5%**;側腦室病灶 80% 見於兒童（無性別偏好），第四腦室病灶各年齡均勻分布且**男性略多（3:2）**;**與 Aicardi、Li-Fraumeni 症候群相關**。呈分葉狀「花椰菜(cauliflower)／frond-like」腫塊,T1 低、T2 高訊號,**強烈但略不均勻強化**,常見血流空洞(flow void)代表高血管性。臨床常以**腦積水**表現(CSF 過度製造或阻塞)。約 5–10% 退變為 carcinoma,後者好發單側三角區並**侵犯周邊腦實質**(papilloma 邊界清楚、carcinoma 邊界浸潤是鑑別點)。[^2][^3]
 - **Astrocytoma**：兒童側腦室壁來源,常見於腦室周邊;以實質性／囊實混合腫塊表現。[^2]
-- **Central neurocytoma**：**年輕成人**,典型附著於**透明隔(septum pellucidum)／Monro 孔**處、寬基底向側腦室擴張;T1/T2 與灰質等訊號的實質部分夾雜 T2 高訊號囊變,呈「**肥皂泡／swiss-cheese 多囊狀**」外觀;**約 50% 含鈣化**、可出血;中度不均勻強化。[^4]
+- **Central neurocytoma**：佔顱內腫瘤 **0.25–0.5%**（1982 年首次描述）;**年輕成人（平均約 29 歲、無性別偏好）**,典型**附著於透明隔(septum pellucidum)／腦室壁**、寬基底向側腦室（±延伸第三腦室）擴張;「central」一詞專指位於腦室系統者（另有腦實質/小腦/脊髓之 extraventricular neurocytoma）;T1/T2 與灰質等訊號的實質部分夾雜 T2 高訊號囊變,呈「**肥皂泡／swiss-cheese 多囊狀**」外觀;**約 50% 含鈣化**、可出血;中度不均勻強化。[^1][^4]
 - **SEGA(subependymal giant cell astrocytoma)**：位於 **Monro 孔**,幾乎都合併**結節硬化症(TSC)**;實質部分與灰質等訊號、**強烈強化**,常見鈣化或囊變。診斷／生長判準:**直徑 >12 mm**,或 >5 mm 病灶在連續追蹤影像上**有生長**;接近 Monro 孔、合併腦積水、兩次 MRI 間變化皆支持 SEGA。[^5]
 - **Subependymoma**：**中年／老年男性、偶發無症狀**;好發第四腦室與側腦室;典型**均質、不強化或僅輕微強化**,水腫少見。[^1][^6]
 - **Ependymoma**：可任何年齡但相對偏**年輕**;訊號不均,T2 較亮,常強化。[^1][^2]
@@ -56,8 +56,8 @@ dateRev: 2026-06-29
 - **Choroid plexus 腫瘤的位置陷阱**:成人 choroid plexus 腫瘤最常見於**側腦室房部(~50%)**,不是第三腦室;位置記錯會誤導年齡與鑑別判斷。[^1][^2]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；From the Radiologic Pathology Archives: Intraventricular Neoplasms: Radiologic-Pathologic Correlation. RadioGraphics 2013;33(1):21-43. doi:10.1148/rg.331125192（依摘要與權威二手整理,未讀全文）：位置＋年齡＋性別＋基礎疾病縮小鑑別;subependymoma 中年男偶發、ependymoma 偏年輕且第四腦室、好鈣化、強化明顯;choroid plexus 成人最常見側腦室房部(~50%),40% 第四腦室、10% 第三腦室。
-[^2]: From the Radiologic Pathology Archives: Intraventricular Neoplasms: Radiologic-Pathologic Correlation. RadioGraphics 2013;33(1):21-43. doi:10.1148/rg.331125192（依 RSNA 摘要,未讀全文）：腔室內腫瘤依來源分類(室管膜→ependymoma、室管膜下→subependymoma、脈絡叢→choroid plexus 腫瘤、來源未明→chordoid glioma);其他含 central neurocytoma、SEGA、meningioma、metastasis;位置與年齡縮小鑑別。
+[^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Smith AB, Smirniotopoulos JG, Horkanyne-Szakaly I. *From the Radiologic Pathology Archives: Intraventricular Neoplasms: Radiologic-Pathologic Correlation*. RadioGraphics 2013;33(1):21-43. doi:10.1148/rg.331125192。**subependymoma** 佔顱內腫瘤 0.2–0.7%、第四腦室(50–60%)＞側腦室(30–40%)、多<2cm（症狀性≥4cm）、男性 2.3:1、82%>15歲、60% 無症狀;**central neurocytoma** 0.25–0.5%、平均 29 歲、無性別偏好、附著透明隔/腦室壁、約 50% 鈣化;**choroid plexus** 側腦室房部 50%＞第四腦室 40%＞第三腦室 10%、側腦室病灶 80% 見於兒童、與 Aicardi/Li-Fraumeni 相關;ependymoma 偏年輕。
+[^2]: **Tier 1（同 [^1]，全文已讀 accessed 2026-07-03）** 同 doi:10.1148/rg.331125192：腔室內腫瘤依來源分類(室管膜→ependymoma、室管膜下→subependymoma、脈絡叢→choroid plexus 腫瘤、來源未明→chordoid glioma);其他含 central neurocytoma、SEGA、meningioma、metastasis、rosette-forming glioneuronal tumor;位置與年齡縮小鑑別。
 [^3]: Choroid plexus papilloma 影像綜述(StatPearls / AJR Spectrum of Choroid Plexus Lesions in Children, AJR 2009;192:32-41 摘要;依摘要與權威二手,未讀全文)：兒童好發側腦室三角區、成人好發第四腦室;frond-like／cauliflower 分葉狀、強烈強化、flow void;5–10% 退變 carcinoma,carcinoma 侵犯周邊腦實質。
 [^4]: Central neurocytoma 臨床／影像綜述(Clinical Radiology 2006;61(2):113-119;PMC10087641 病例綜述;依摘要,未讀全文)：年輕成人、附著透明隔／Monro 孔、寬基底;T1/T2 等灰質實質+T2 高訊號多囊,肥皂泡／swiss-cheese 外觀;約 50% 鈣化、可出血;不均勻強化;MRS 高 Cho。
 [^5]: SEGA 影像與診斷判準(Pediatric Radiology 2021;51:1058 / Chinese Neurosurgical Journal 2017;3:36;依摘要,未讀全文)：Monro 孔、合併 TSC;與灰質等訊號、強烈強化,常鈣化或囊變;判準 直徑 >12 mm 或 >5 mm 病灶連續追蹤有生長;接近 Monro 孔、腦積水、兩次 MRI 間變化支持診斷。
