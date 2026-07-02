@@ -21,12 +21,21 @@ nonImagingReason: "純 MRI 物理（SNR 公式/參數權衡），無可判讀影
   - **頻寬減半 → SNR 變為原來 √2 倍**（≈1.41×）。
 - **代價**：較窄頻寬雖增 SNR,但**延長最短 TE、加重化學位移偽影**。[^1]
 - 其他影響 SNR：voxel volume、√(NEX/averages)、√(phase-encoding steps)、線圈、場強。[^1]
+- **場強(field strength)與SNR**：理論上訊號強度與靜磁場強度(B0)**平方**成正比，雜訊則與場強成**線性**正比——完美系統下**SNR與B0成正比**，故**3T系統之SNR理論上為1.5T之2倍**。[^2]
 
 > [!note] 考點：bandwidth 減半,SNR 如何變化?
 > **變為原來的 √2 倍**（SNR ∝ 1/√BW）。非 2 倍、非 1/2、非不變。[^1]
 
+> [!note] 考點：3T MRI的SNR是1.5T的幾倍？
+> **2倍（B）**——SNR理論上與場強(B0)成正比。[^2]
+
 ### 參考來源
 [^1]: MRI SNR 與 bandwidth（官方 2016 詳解；Hashemi, MRI: The Basics 2nd ed. p.168）：**SNR ∝ 1/√(bandwidth)**;頻寬減半 SNR 增 √2 倍;窄頻寬延長 TE、加重化學位移偽影。
+[^2]: 官方2020詳解；Ref: Walter Huda, Review of radiologic physics. 4th Ed., 2016. P.206, 231（題目所引）——訊號強度與B0平方成正比、雜訊與B0線性成正比，故SNR理論上與B0成正比，3T之SNR為1.5T之2倍。
+
+## 題目
+> [!question]- 3T MRI 的訊雜比(SNR)是1.5T MRI的幾倍？ (2020-417)
+> **2倍（B）**——SNR理論上與靜磁場強度(B0)成正比。[^2]
 
 ## 考題
 ```dataview

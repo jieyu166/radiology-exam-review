@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 414,
+  "totalQuestions": 422,
   "questions": [
     {
       "id": "2020-001",
@@ -15208,6 +15208,302 @@
       "images": [],
       "concepts": [
         "cardiac-ct-artifacts"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-415",
+      "year": 2020,
+      "number": 415,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "若一透視攝影設備設定的可視照野大小(field of view, FOV)為30 cm，且影像成像矩陣(imaging matrix)為1024x1024，則該系統理論上解析度不超過多少 lp/mm？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.29 lp/mm"
+        },
+        {
+          "letter": "B",
+          "text": "0.58 lp/mm"
+        },
+        {
+          "letter": "C",
+          "text": "3.45 lp/mm"
+        },
+        {
+          "letter": "D",
+          "text": "1.72 lp/mm"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., 2011, p.299",
+      "explanation": "pixel size = 300mm/1024 = 0.293mm。分辨一組line pair需2個pixel寬度(一亮一暗)，故極限解析度(lp/mm) = 1/(2×pixel size) = 1/(2×0.293mm) ≈ 1.706 lp/mm，最接近選項D(1.72 lp/mm)。",
+      "images": [],
+      "concepts": [
+        "fluoroscopy-spatial-resolution-calculation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-416",
+      "year": 2020,
+      "number": 416,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "依據我國於民國94年修正之游離輻射防護安全標準第七條對於輻射工作人員職業曝露的規定，眼球水晶體的等價劑量於一年內不得超過多少毫西弗(mSv)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20"
+        },
+        {
+          "letter": "B",
+          "text": "50"
+        },
+        {
+          "letter": "C",
+          "text": "150"
+        },
+        {
+          "letter": "D",
+          "text": "500"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: 游離輻射防護安全標準",
+      "explanation": "依民國94年修正之游離輻射防護安全標準第七條，輻射工作人員職業曝露：有效劑量一年50mSv、五年100mSv；眼球水晶體等價劑量一年內不得超過150mSv；皮膚或四肢等價劑量一年內不得超過500mSv。（一般人：有效劑量1mSv、眼球水晶體15mSv/年、皮膚或四肢50mSv/年）。此為我國較早期法規數值，與國際ICRP晚近建議之眼球水晶體限值（20mSv/年，5年平均且任一年不超過50mSv）不同，考題明確以「民國94年修正」版本之法規條文為準。",
+      "images": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-417",
+      "year": 2020,
+      "number": 417,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "3T MRI的訊雜比(signal-to-noise ratio, SNR)是1.5T MRI的幾倍？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4倍"
+        },
+        {
+          "letter": "B",
+          "text": "2倍"
+        },
+        {
+          "letter": "C",
+          "text": "√2倍"
+        },
+        {
+          "letter": "D",
+          "text": "相同"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Walter Huda, Review of radiologic physics. 4th Ed., 2016. P.206, 231",
+      "explanation": "理論上訊號強度與靜磁場強度(B0)平方成正比，而雜訊與場強成線性正比，故完美系統下SNR與B0成正比——3T系統之SNR理論上為1.5T之2倍。",
+      "images": [],
+      "concepts": [
+        "mri-snr"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-418",
+      "year": 2020,
+      "number": 418,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "About \"the pulse-echo display modes\", which of the following statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A-mode produces a one-dimensional image that displays the amplitude strength of the returning echo signals along the horizontal axis and the time along the vertical axis"
+        },
+        {
+          "letter": "B",
+          "text": "The B-mode method displays the intensity of an echo by varying the brightness of a dot to correspond to echo strength."
+        },
+        {
+          "letter": "C",
+          "text": "The M-mode displays time along the horizontal axis and the depth along the vertical axis to depict movement, especially in cardiac structures"
+        },
+        {
+          "letter": "D",
+          "text": "Real-time imaging provides a dynamic presentation of multiple image frames per second over selected areas of the body"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Textbook of Diagnostic sonography, Sandra L. Hagen-Ansert, I-1-14",
+      "explanation": "A-mode產生一維影像，應為振幅(amplitude)沿縱軸(vertical axis)、時間沿橫軸(horizontal axis)呈現，題目敘述橫縱軸相反，為錯誤敘述。B-mode以亮度對應回音強度、M-mode以橫軸為時間縱軸為深度呈現運動(如心臟結構)、即時成像(real-time)提供每秒多張動態影像，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "ultrasound-display-modes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-419",
+      "year": 2020,
+      "number": 419,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Comparison of color Doppler with power Doppler, which of the following statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Power Doppler encodes the Doppler signal base on the power of the signal rather than on the frequency shift"
+        },
+        {
+          "letter": "B",
+          "text": "The advantage of color Doppler is its capability to determine flow direction and its relative lack of sensitivity to tissue and transducer motion"
+        },
+        {
+          "letter": "C",
+          "text": "The advantage of power Doppler is its increased sensitivity to slow flow and increased dependence on the Doppler angle."
+        },
+        {
+          "letter": "D",
+          "text": "Color Doppler codes based on mean frequency shift which is dependent on flow velocity."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: General and Vascular Ultrasound Case Review Series, 2nd ed., William D. Middleton, Fair Game p.90",
+      "explanation": "Power Doppler以訊號振幅(power/amplitude)而非頻移編碼，其優勢為對慢血流敏感度較高，且『不依賴』都卜勒角度(independent of angle)——因不受流速方向影響，故無aliasing問題，可偵測較小流速；題目敘述『increased dependence on Doppler angle』為錯誤，應為『independent of angle』。Power Doppler較Color Doppler敏感度高，但以flash artifact為代價。Color Doppler優勢為可判斷流向且較不受組織/探頭移動影響、依平均頻移編碼(與流速相關)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "color-vs-power-doppler"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-420",
+      "year": 2020,
+      "number": 420,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "About normal sonographic appearance of adult kidney, which of the following statement is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The normal adult kidney is approximately 11±2 cm"
+        },
+        {
+          "letter": "B",
+          "text": "The normal liver is usually similar or slightly more echogenic than the right kidney."
+        },
+        {
+          "letter": "C",
+          "text": "The central renal sinus contains a combination of fat and soft tissue and appears echogenic."
+        },
+        {
+          "letter": "D",
+          "text": "It is possible to visualize the renal pyramids as structures even slightly more echogenic than the renal cortex"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: General and Vascular Ultrasound Case Review Series, 2nd ed., William D. Middleton, Opening Round p.4",
+      "explanation": "正常腎錐體(renal pyramid/medulla)於超音波應呈現較腎皮質(renal cortex)『低回音(hypoechoic)』，而非『稍高回音』，故題目敘述為錯誤。正常成人腎臟長度約11±2cm、正常肝臟回音通常與右腎相似或稍高於右腎、腎竇(renal sinus)含脂肪與軟組織混合呈高回音，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "renal-ultrasound-normal-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-421",
+      "year": 2020,
+      "number": 421,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "About \"the sonographic findings of bile ducts\", which of the following statement is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The proximal common bile duct normally runs anterior to the portal vein and right hepatic artery."
+        },
+        {
+          "letter": "B",
+          "text": "Dilated intrahepatic ducts produce the parallel channel sign"
+        },
+        {
+          "letter": "C",
+          "text": "Bile duct stones are more likely to shadow than gallstones."
+        },
+        {
+          "letter": "D",
+          "text": "The central dot sign is classic for Caroli's disease and is caused by the dilated bile duct surrounding the adjacent hepatic artery and portal vein."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: The Requisites Ultrasound, 3rd ed., Barbara S. Hertzberg, Chapter 4 p.101",
+      "explanation": "約20%之總膽管結石(common bile duct stones)不會產生聲影(shadow)；相對地，膽囊結石(gallstones)幾乎皆呈現顯著後方聲影(不論成分/鈣化程度)，故『總膽管結石較膽囊結石更容易產生聲影』為錯誤敘述，實際情況相反。近端總膽管正常走行於門靜脈與右肝動脈前方、擴張之肝內膽管產生parallel channel sign、central dot sign為Caroli's disease之典型徵象(擴張膽管環繞相鄰肝動脈與門靜脈)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "biliary-tree-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-422",
+      "year": 2020,
+      "number": 422,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "About hepatic abscess, which of the following statement is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It may appear as a complex solid and cystic liver lesion."
+        },
+        {
+          "letter": "B",
+          "text": "Target lesions are usually malignant tumors, but abscesses may also produce a target appearance"
+        },
+        {
+          "letter": "C",
+          "text": "Abscess can appear solid on ultrasound."
+        },
+        {
+          "letter": "D",
+          "text": "Liver abscesses often appear more characteristic on ultrasound than on CT"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: General and Vascular Ultrasound Case Review Series, 2nd ed., William D. Middleton, Fair Game p.126；Multimodality Imaging of Liver Infections. RadioGraphics 2016;36:1001-1023",
+      "explanation": "非顯影超音波(nonenhanced US)鑑別膿瘍與腫瘤(neoplasm)之能力，相較CT或MR影像有限——肝膿瘍於超音波上之特徵性表現『不如』CT明確，題目敘述相反，為錯誤。肝膿瘍可表現為複雜實性合併囊性病灶、可產生target appearance(靶樣病灶，通常見於惡性腫瘤但膿瘍亦可產生)、超音波上亦可呈實性(solid)表現，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "liver-ultrasound-findings"
       ],
       "checked": false
     }
