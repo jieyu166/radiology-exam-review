@@ -1,5 +1,5 @@
 {
-  "next_page": 389,
+  "next_page": 399,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -390,7 +390,16 @@
     386,
     387,
     388,
-    389
+    389,
+    390,
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398
   ],
   "added_ids": [
     "2020-186",
@@ -621,9 +630,17 @@
     "2020-411",
     "2020-412",
     "2020-413",
-    "2020-414"
+    "2020-414",
+    "2020-415",
+    "2020-416",
+    "2020-417",
+    "2020-418",
+    "2020-419",
+    "2020-420",
+    "2020-421",
+    "2020-422"
   ],
-  "next_id": 415,
+  "next_id": 423,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -750,7 +767,8 @@
     "p380 Physics=SWI NOT proper explanation→D spin echo sequence(既有題2020-160)",
     "p383 NR=神經退化疾病MRI敘述何者不對(CJD pulvinar sign)→A(既有題2020-132)",
     "p385 NR=metopic craniosynostosis imaging feature→D omega sign(既有題2020-115)",
-    "p387 PE=LCH敘述何者為非→A well-defined lytic with sclerotic rim錯(既有題2020-069)"
+    "p387 PE=LCH敘述何者為非→A well-defined lytic with sclerotic rim錯(既有題2020-069)",
+    "p390 Physics=光電效應描述何者錯誤→B當光子能量增加機率增加(既有題2020-163)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -775,5 +793,5 @@
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-406(SONK NOT risk factor)：官方標示答案D(osteoporosis)依教科書為正確，但官方詳解本身於此頁加註存疑，因RadioGraphics 2018文獻table將osteoporosis列為SONK危險因子之一(SONK現正名為subchondral insufficiency fracture，病因與骨質疏鬆相關)，已於spontaneous-osteonecrosis-knee.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批49(頁382-389)：8題候選，3題同年重印(p383=2020-132 CJD pulvinar sign；p385=2020-115 metopic craniosynostosis omega sign；p387=2020-069 LCH sclerotic rim)，5題真新題(2020-410~414)：382 dAVF Ethmoid位置SAH風險最高(重用dural-avf.md新增位置風險段落)、384 Hepatoblastoma非典型影像特徵為cystic(新建hepatoblastoma-imaging概念檔)、386 JIA TMJ受累比例17-87%非不常受累(新建juvenile-idiopathic-arthritis-imaging概念檔)、388 Wimberger ring sign實為壞血病非先天性梅毒徵象(新建congenital-syphilis-imaging概念檔)、389 後顱窩岩骨間暗帶假影成因為beam hardening(重用cardiac-ct-artifacts.md新增非心臟部位範例)。totalQuestions(2020)已更新為414。commit 28e6210(批49內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p390開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約97.7%(389/398頁)。累計本session已處理228個新題、9個跨年合併。剩餘約9頁，預估1-2批即可完成全書。"
+  "notes": "批50(頁390-398)：本批為PDF全書最後9頁(390-398)，398頁已全數讀畢，2020交換考官方詳解PDF逐頁視覺補完工作正式完成。9題候選，1題同年重印(p390=2020-163光電效應)，8題真新題(2020-415~422)：415 FOV/matrix極限解析度計算=1.72lp/mm(新建fluoroscopy-spatial-resolution-calculation.md)、416 民國94年游離輻射防護安全標準眼球水晶體限值150mSv/年(重用radiation-deterministic-effects.md，並註明與該檔案原有引用之晚近國際標準50mSv/年之法規版本差異，非矛盾)、417 3T MRI SNR為1.5T之2倍(重用mri-snr.md新增場強-SNR關係段落)、418 pulse-echo display modes：A-mode振幅/時間軸相反為誤(新建ultrasound-display-modes.md)、419 power Doppler實為『不依賴』都卜勒角度非依賴增加(新建color-vs-power-doppler.md)、420 正常腎臟超音波：腎錐體應較皮質低回音非稍高回音(新建renal-ultrasound-normal-anatomy.md)、421 總膽管結石較膽囊結石『較不』容易產生聲影(新建biliary-tree-ultrasound.md)、422 肝膿瘍US鑑別能力不如CT/MR(重用liver-ultrasound-findings.md新增肝膿瘍段落)。totalQuestions(2020)已更新為422。commit 93aec55(批50內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。【全書完成】2020交換考398頁PDF已100%處理完畢(next_page=399，超過total_pages=398代表全書完成)。本session(批33-50，頁254-398，共145頁)累計新增103題新題(2020-320~422)、全session(含前次)累計新增236個新題、9個跨年合併(詳見xyear_dups_merged)。若日後PDF有勘誤或新版本，或需回頭複查flagged清單中之官方答案存疑題目(共10則，詳見flagged欄位)，建議由醫師人工覆核後將對應概念檔[!warning]callout移除或更新，並將該題json之checked欄位視情況設true。"
 }
