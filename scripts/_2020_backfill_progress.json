@@ -1,5 +1,5 @@
 {
-  "next_page": 277,
+  "next_page": 285,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -278,7 +278,15 @@
     274,
     275,
     276,
-    277
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285
   ],
   "added_ids": [
     "2020-186",
@@ -432,9 +440,12 @@
     "2020-334",
     "2020-335",
     "2020-336",
-    "2020-337"
+    "2020-337",
+    "2020-338",
+    "2020-339",
+    "2020-340"
   ],
-  "next_id": 338,
+  "next_id": 341,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -526,7 +537,12 @@
     "p270 NR=Lyre sign→A carotid body tumor(既有題2020-116)",
     "p272 NR=bright claustrum sign→B Wilson disease(既有題2020-127)",
     "p274 NR=putaminal rim sign→C MSA-p(既有題2020-128)",
-    "p275 Physics=SAR值敘述何者為非→D(既有題2020-159)"
+    "p275 Physics=SAR值敘述何者為非→D(既有題2020-159)",
+    "p280 Breast=DCIS statement NOT correct→C evidence of invasion through basement(既有題2020-012)",
+    "p281 Breast=DCIS statement NOT correct→B 10%應為30-50%(既有題2020-013)",
+    "p282 Breast=MR role in DCIS NOT correct→D(既有題2020-014)",
+    "p283 Breast=DCIS MR evaluation NOT correct→D positive margin非risk(既有題2020-015)",
+    "p284 Breast=MR findings of DCIS NOT correct→D(既有題2020-016)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -548,5 +564,5 @@
     "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批35(頁270-277)：8題候選，4題同年重印(p270=2020-116 Lyre sign/carotid body tumor；p272=2020-127 bright claustrum/Wilson；p274=2020-128 putaminal rim/MSA-p；p275=2020-159 SAR值敘述)，4題真新題(2020-334~337)：271 T1 pulvinar高訊號=Fabry disease(新建fabry-disease-pulvinar概念檔)、273 hummingbird/penguin sign=PSP(新建psp-imaging-signs概念檔)、276 GE波序對顱內出血偵測較佳(新建gre-hemorrhage-detection概念檔，與既有2020-160 SWI physics題不同topic)、277游離輻射特性何者為非(新建ionizing-radiation-characteristics概念檔，官方詳解自身對答案D存疑已加[!warning])。totalQuestions(2020)已更新為337。commit 098f9f4(批35內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p278開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約69.6%(277/398頁)。累計本session已處理151個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批36(頁278-285)：8題候選，5題同年重印(p280-284皆為DCIS/MR相關，對應既有題2020-012~016，同一組RadioGraphics 2010 DCIS來源之連續5題)，3題真新題(2020-338~340)：278游離輻射型態分類(X光/γ射線本質皆為電磁波非粒子型，新建ionizing-radiation-type-classification概念檔)、279輻射生物效應(遺傳效應屬隨機性效應非確定性效應，重用radiation-deterministic-effects.md新增段落)、285兒童骨腫瘤術後移植物影像(透亮區應見於邊緣margin非中心center，新建pediatric-bone-graft-posttreatment概念檔)。totalQuestions(2020)已更新為340。commit 0bc70ab(批36內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p286開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約71.6%(285/398頁)。累計本session已處理154個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
 }
