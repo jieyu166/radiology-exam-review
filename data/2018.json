@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 258,
+  "totalQuestions": 262,
   "questions": [
     {
       "id": "2018-001",
@@ -1033,10 +1033,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.157；Bronchiolitis: A Practical Approach for the General Radiologist. RadioGraphics 2017;37:778.",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bronchiolitis-classification"
+      ],
       "checked": false
     },
     {
@@ -1068,10 +1070,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.158；Bronchiolitis: A Practical Approach for the General Radiologist. RadioGraphics 2017;37:779.",
       "explanation": "Follicular bronchiolitis (FB) is a non-neoplastic primary polyclonal B cell hyperplasia of the bronchus-associated lymphoid tissue (BALT) due to chronic exposure to antigens in those with underlying collagen vascular or immune deficiency diseases which usually manifested as small centrilobular ground glass nodules with **lower lobe** distribution.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bronchiolitis-classification"
+      ],
       "checked": false
     },
     {
@@ -1835,10 +1839,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.156；Thoracic Imaging 2nd edition, Webb, p.825.",
       "explanation": "Papillary fibroelastoma MV比例好像怪怪的",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
       "checked": false
     },
     {
@@ -2154,10 +2160,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.153；Radiology. 2016 Mar;278(3):658-76.",
       "explanation": "正確。用一些統計方法，可用ECV算出病人at risk for death, hospitalization for heart failure, or both.\nB: 錯誤。文中提到 Data regarding the prognostic value of native T1 are limited. 而ECV至少在組織學的correlation比native T1更好。文中提到在預後和LVEF不相上下。所以T1 higher應該是錯的。也有人認為ECV跟正常人難以區分，其預後價值仍待商確。\nC: 錯誤。ECV和LVEF在預測預後都有效果。但文中沒提到兩者是否有correlation。\nD: 錯誤。myocardial fibrosis is **associated** with mechanical, vasomotor, and electrical dysfunction.\n回覆根據[[2016 R State of the Art - Clinical Applications of Cardiac T1 Mapping.pdf]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "myocardial-t1-mapping"
+      ],
       "checked": false
     },
     {
@@ -9521,6 +9529,154 @@
       "images": [],
       "concepts": [
         "myocardial-t1-mapping"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-259",
+      "year": 2018,
+      "number": 259,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements applies to ECV and late gadolinium enhancement (LGE)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "LGE is more sensitive to the presence of myocardial fibrosis than ECV."
+        },
+        {
+          "letter": "B",
+          "text": "Areas without hyperenhancement on LGE images always show normal ECV."
+        },
+        {
+          "letter": "C",
+          "text": "The calculation of ECV requires the acquisition of LGE images."
+        },
+        {
+          "letter": "D",
+          "text": "Areas with high ECV might not show hyperenhancement on LGE"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.152；Radiology. 2016 Mar;278(3):658-76.",
+      "explanation": "瀰漫性纖維化或微觀性間質纖維化可能無法被LGE偵測，但可於ECV影像上顯示——故高ECV區域未必於LGE呈現過度強化，此為正確敘述。LGE對心肌纖維化之敏感度非優於ECV(A錯)、無LGE過度強化區域未必ECV正常(B錯)、ECV計算不需LGE影像(僅需pre/post-contrast T1 mapping計算R1值，C錯)。\n\n見 [[myocardial-t1-mapping]]",
+      "images": [],
+      "concepts": [
+        "myocardial-t1-mapping"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-260",
+      "year": 2018,
+      "number": 260,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Where is the most common origin site of papillary fibroelastoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pulmonary valve"
+        },
+        {
+          "letter": "B",
+          "text": "mitral valve"
+        },
+        {
+          "letter": "C",
+          "text": "aortic valve"
+        },
+        {
+          "letter": "D",
+          "text": "tricuspid valve"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.154；Thoracic Imaging 2nd edition, Webb, p.825.",
+      "explanation": "乳突狀纖維彈性瘤(papillary fibroelastoma)最常見起源部位為主動脈瓣(約29%)，其次為二尖瓣(25%)、三尖瓣(17%)、肺動脈瓣(13%)。\n\n見 [[papillary-fibroelastoma]]",
+      "images": [],
+      "concepts": [
+        "papillary-fibroelastoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-261",
+      "year": 2018,
+      "number": 261,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not an imaging feature of malignant cardiac tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hemorrhagic pericardial effusion"
+        },
+        {
+          "letter": "B",
+          "text": "combined intramural and intracavitary components"
+        },
+        {
+          "letter": "C",
+          "text": "extension into pulmonary veins"
+        },
+        {
+          "letter": "D",
+          "text": "thickening of mural thrombus"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.155；Thoracic Imaging 2nd edition, Webb, p.832.",
+      "explanation": "惡性心臟腫瘤之影像特徵包含：侵犯超過一個心腔或心腔加附著血管、侵犯至肺靜脈/腔靜脈/肺動脈/主動脈、心腔壁上寬廣附著點、合併壁內與心腔內成分、腫瘤內壞死、侵犯至心腔外、出血性心包積液、肺轉移，共8項；「附壁血栓增厚」並非惡性心臟腫瘤之影像特徵清單項目。\n\n見 [[cardiac-tumors]]",
+      "images": [],
+      "concepts": [
+        "cardiac-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-262",
+      "year": 2018,
+      "number": 262,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "In patients with cancer treated with VEGF inhibitors (Bevacizumab, sorafenib, sunitinib), which major complications are included?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bleeding or hemorrhage due to the decreased renewal capacity of endothelial cells."
+        },
+        {
+          "letter": "B",
+          "text": "Thrombosis due to tissue factor activation secondary to exposure to subendothelial collagen."
+        },
+        {
+          "letter": "C",
+          "text": "Both of the aboved."
+        },
+        {
+          "letter": "D",
+          "text": "None of the aboved."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.157；Thoracic Complications of Precision Cancer Therapies: A Practical Guide for Radiologists in the New Era of Cancer Care. RadioGraphics 2017;37:1372.",
+      "explanation": "VEGF抑制劑(Bevacizumab、sorafenib、sunitinib)可同時造成出血(因血管內皮細胞更新能力下降)與血栓(因暴露內皮下膠原致組織因子活化)兩種看似矛盾的併發症，兩者皆為主要併發症。VEGF抑制劑治療其他常見胸腔併發症尚包括肺栓塞與氣胸。\n\n見 [[vegf-inhibitor-thoracic-complications]]",
+      "images": [],
+      "concepts": [
+        "vegf-inhibitor-thoracic-complications"
       ],
       "checked": false
     }
