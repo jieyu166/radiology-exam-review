@@ -20,6 +20,7 @@ dateRev: 2026-06-30
 - **>6–8 mm**：低風險 **6–12 月再 18–24 月**;高風險 **3–6 月、9–12 月、24 月**。[^1]
 - **>8 mm**：**3、9、24 月**追蹤,或考慮**增強 CT／PET／切片**。[^1]
 - 僅適用**實質（solid）偶見結節、≥35 歲**;不適用已知惡性、免疫低下、肺癌篩檢族群。[^1]
+- **適用/排除族群（2017版明確排除清單）**：指引適用於**35歲以上**、**偶然發現**（非篩檢發現）之結節；**排除**：**35歲以下病患**、**已知惡性病史者**、**免疫低下病患**、**肺癌篩檢族群**（此族群另有專屬Lung-RADS篩檢指引）。[^4]
 
 > [!warning] 版本時效
 > 本題依 **Fleischner 2005**;**2017 更新版**將追蹤門檻提高（solid 結節多自 6 mm 起追蹤）、加入結節體積與多發結節規則 → 同一臨床情境的建議可能改變,作答以題目所依版本為準,臨床採最新版。[^1][^2]
@@ -38,10 +39,14 @@ dateRev: 2026-06-30
 [^1]: 官方 2017 詳解；MacMahon H et al. Guidelines for Management of Small Pulmonary Nodules Detected on CT Scans: A Statement from the Fleischner Society. **Radiology** 2005;237(2):395-400。
 [^2]: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. **Radiology** 2017;284(1):228-243（2017 更新版，門檻與規則改變）。
 [^3]: 2019 交換考詳解；MacMahon H, Naidich DP, Goo JM, Lee KS, Leung ANC, Mayo JR, Mehta AC, Ohno Y, Powell CA, Prokop M, Rubin GD, Schaefer-Prokop CM, Travis WD, Van Schil PE, Bankier AA. Fleischner Society 2017 guidelines, Radiology 2017;284(1):228-243（ACCP 風險因子分類段落）。
+[^4]: 官方2020詳解；Ref: Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules: Common Questions and Challenging Scenarios, RadioGraphics Vol. 38, No. 5（題目所引）——指引適用35歲以上偶見結節；排除35歲以下、已知惡性病史、免疫低下、肺癌篩檢族群。
 
 ## 題目
 > [!question]- 關於 Fleischner 小肺結節 CT 追蹤指引,何者「不正確」? (2017-179)
 > 「**高風險病人偶見 ≤4 mm 結節,建議 6 個月後追蹤 CT**」不正確——2005 版高風險 ≤4 mm 為 **12 個月**複查（低風險不需追蹤）。⚠️ 本指引 2017 已更新。[^1]
+
+> [!question]- Which one of the following is not recommended for using Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules? (2020-350)
+> **Lung Cancer Screening Population（C）**——肺癌篩檢族群被排除於本指引適用範圍外(另有Lung-RADS專屬指引)；35歲以下、已知惡性病史、免疫低下亦被排除。40歲及50歲病患皆在適用範圍內。[^4]
 
 ## 考題
 ```dataview

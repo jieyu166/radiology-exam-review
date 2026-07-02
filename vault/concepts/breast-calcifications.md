@@ -90,6 +90,9 @@ dateRev: 2026-06-29
 > [!question]- Which of the following forms of calcification raises greatest suspicion of ductal carcinoma in situ (DCIS)? (2017-272)
 > **Dot-dash fine linear/linear branching（B）**——纖細不規則、可間斷的線狀/分支狀鈣化，強烈提示乳管腔內沉積，PPV最高，為DCIS典型表現。Coarse（良性）、sedimented（milk of calcium，良性）、egg-shell（rim，良性）皆非DCIS的可疑表現。[^1][^2]
 
+> [!question]- Which type of microcalcifications in mammography dose it indicate malignancy? (2020-346)
+> **Fine pleomorphic（D）**——細多形鈣化屬可疑型態(BI-RADS 4)，PPV約29-58%。Popcorn、eggshell(rim)、milk of calcium皆為典型良性鈣化型態。[^1][^2]
+
 > [!question]- Which of the following description about breast calcification is WRONG? (2020-302)
 > **可疑鈣化型態包括amorphous、coarse heterogeneous、dystrophic、fine pleomorphic、fine-linear/fine-linear branching（A）**為錯誤——**dystrophic實屬典型良性型態**，不應列入可疑型態清單（可疑型態僅四類，不含dystrophic）。Fine-linear/branching於可疑型態中PPV最高、rim鈣化為oil cyst典型表現、大而邊界銳利合併爆米花狀鈣化為involuting fibroadenoma典型表現，皆正確。[^1][^2]
 

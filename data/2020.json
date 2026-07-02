@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 344,
+  "totalQuestions": 350,
   "questions": [
     {
       "id": "2020-001",
@@ -12598,6 +12598,228 @@
       "images": [],
       "concepts": [
         "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-345",
+      "year": 2020,
+      "number": 345,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "一位30歲女性，在月經週期後，在左乳外側發現有一會痛之硬塊，到乳房外科就診，經檢查後發現病人沒有發燒，乳房皮膚無異狀。在左乳房之外上方處（OUQ）有一約3公分有壓痛之硬塊。宜先進行下列何項檢查最適合？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "磁振造影（MRI）"
+        },
+        {
+          "letter": "B",
+          "text": "乳房超音波檢查（breast sonography）"
+        },
+        {
+          "letter": "C",
+          "text": "乳房攝影檢查（mammography）"
+        },
+        {
+          "letter": "D",
+          "text": "粗針穿刺檢查（core needle biopsy）"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689; AJR 2014; 203:1142-1153",
+      "explanation": "對於懷孕、哺乳中、或未滿30歲之可觸摸乳房硬塊病患，乳房超音波應為優先檢查工具；40歲以上建議先做乳房攝影(通常後續加做超音波)；30-39歲則由醫師視情況決定先做超音波或攝影。本題病患30歲，觸摸性硬塊，宜先安排乳房超音波檢查。",
+      "images": [],
+      "concepts": [
+        "breast-imaging-modality-by-age"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-346",
+      "year": 2020,
+      "number": 346,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which type of microcalcifications in mammography dose it indicate malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "popcorn"
+        },
+        {
+          "letter": "B",
+          "text": "eggshell"
+        },
+        {
+          "letter": "C",
+          "text": "milk of calcium"
+        },
+        {
+          "letter": "D",
+          "text": "Fine pleomorphic"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689",
+      "explanation": "Fine pleomorphic(細多形)鈣化屬可疑型態，PPV約29-58%，需歸入BI-RADS 4建議切片；popcorn、eggshell(rim)、milk of calcium皆為典型良性鈣化型態。",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-347",
+      "year": 2020,
+      "number": 347,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which type of enhancement kinetics in breast MRI dose it indicate malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type I"
+        },
+        {
+          "letter": "B",
+          "text": "Type II"
+        },
+        {
+          "letter": "C",
+          "text": "Type III"
+        },
+        {
+          "letter": "D",
+          "text": "Type IV"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689; radiopaedia.org/articles/breast-mri-enhancement-curves",
+      "explanation": "乳房MRI強化動力學曲線分三型：Type I(漸進性/持續上升，多屬良性，僅約9%惡性病灶呈此型)、Type II(高原型，初期上升後平緩，具惡性疑慮)、Type III(廓清型washout，初期快速上升後訊號下降，最強烈提示惡性)。",
+      "images": [],
+      "concepts": [
+        "breast-mri-morphology-features"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-348",
+      "year": 2020,
+      "number": 348,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of genetic defects is not the risk of breast malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "BRCA1"
+        },
+        {
+          "letter": "B",
+          "text": "BRCA2"
+        },
+        {
+          "letter": "C",
+          "text": "p53"
+        },
+        {
+          "letter": "D",
+          "text": "p54"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689",
+      "explanation": "BRCA1、BRCA2為乳癌最重要之高風險基因；TP53(p53)胚系突變(Li-Fraumeni syndrome)亦增加乳癌風險(雖為罕見成因)。「p54」並非已知之乳癌風險基因，屬不存在之虛構選項。",
+      "images": [],
+      "concepts": [
+        "breast-cancer-genetics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-349",
+      "year": 2020,
+      "number": 349,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement about Axillary node levels is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Level 1 : superior to the superior border of pectoralis minor"
+        },
+        {
+          "letter": "B",
+          "text": "Level 2: beneath pectoralis minor"
+        },
+        {
+          "letter": "C",
+          "text": "Level 3: inferolateral to the inferior border of pectoralis minor."
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689; radiopaedia.org/articles/axillary-lymph-nodes-1",
+      "explanation": "腋窩淋巴結分level以胸小肌(pectoralis minor)為界：Level I位於胸小肌下緣以下(inferior/lateral)、Level II位於胸小肌深面(beneath/posterior)、Level III位於胸小肌上緣以上/內側(superior/medial)。故僅B(Level 2在胸小肌深面)正確；A、C之level與方位對應錯誤。",
+      "images": [],
+      "concepts": [
+        "axillary-lymph-node-levels"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-350",
+      "year": 2020,
+      "number": 350,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following is not recommended for using Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A 40-Years-old patient"
+        },
+        {
+          "letter": "B",
+          "text": "Patient without known malignancy"
+        },
+        {
+          "letter": "C",
+          "text": "Lung Cancer Screening Population"
+        },
+        {
+          "letter": "D",
+          "text": "A 50-Years-old patient"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules: Common Questions and Challenging Scenarios, RadioGraphics Vol. 38, No. 5",
+      "explanation": "Fleischner偶見肺結節指引適用於35歲以上、無已知惡性病史之偶見結節病患；不適用族群包括：35歲以下病患、已知惡性病史者、免疫低下病患、肺癌篩檢族群(此族群另有專屬篩檢指引LungRADS)。40歲及50歲病患皆在適用範圍內。",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
       ],
       "checked": false
     }
