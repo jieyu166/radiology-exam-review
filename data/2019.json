@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 210,
+  "totalQuestions": 218,
   "questions": [
     {
       "id": "2019-001",
@@ -7690,6 +7690,302 @@
       "images": [],
       "concepts": [
         "scrotal-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-211",
+      "year": 2019,
+      "number": 211,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following diseases is NOT related to osteonecrosis (avascular necrosis)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Panner disease."
+        },
+        {
+          "letter": "B",
+          "text": "Kienbock disease."
+        },
+        {
+          "letter": "C",
+          "text": "Legg-Calve-Perthes disease."
+        },
+        {
+          "letter": "D",
+          "text": "Blount disease."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 53-54",
+      "explanation": "官方原始答案標示為A，惟手寫更正註記「D才對？」。Panner disease（capitellum osteochondrosis）、Kienbock disease（lunate AVN）、Legg-Calve-Perthes（femoral head AVN）皆屬AVN相關疾病；Blount disease為脛骨內翻，病因為機械壓力致生長板障礙，並非AVN。故D為正確答案（NOT related to osteonecrosis）。詳見 [[osteochondroses]]。",
+      "images": [],
+      "concepts": [
+        "osteochondroses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-212",
+      "year": 2019,
+      "number": 212,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following bone centers at elbow is the LAST to occur?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radial head."
+        },
+        {
+          "letter": "B",
+          "text": "Medial humeral epicondyle."
+        },
+        {
+          "letter": "C",
+          "text": "Trochlea."
+        },
+        {
+          "letter": "D",
+          "text": "Capitulum (capitellum)."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., p. 35",
+      "explanation": "正確答案為 **C（Trochlea）**。CRITOE口訣：Capitellum(1Y)→Radial head(3Y)→Internal epicondyle(5Y)→Trochlea(7Y)→Olecranon(9Y)→External epicondyle(11Y)。在四個選項中，Trochlea(7Y)出現最晚。詳見 [[elbow-ossification-centers]]。",
+      "images": [],
+      "concepts": [
+        "elbow-ossification-centers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-213",
+      "year": 2019,
+      "number": 213,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a normal variant of glenoid labrum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subglenoid recess."
+        },
+        {
+          "letter": "B",
+          "text": "Buford complex."
+        },
+        {
+          "letter": "C",
+          "text": "Sublabral foramen."
+        },
+        {
+          "letter": "D",
+          "text": "Superior recess."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 32-33",
+      "explanation": "正確答案為 **A（Subglenoid recess）**。公認之盂唇正常變異包括Buford complex、sublabral foramen、superior sublabral sulcus/recess、pseudo-SLAP lesion等，「subglenoid recess」不在標準正常變異清單中。詳見 [[glenoid-labral-lesions]]。",
+      "images": [],
+      "concepts": [
+        "glenoid-labral-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-214",
+      "year": 2019,
+      "number": 214,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is FALSE regarding developmental dysplasia of the hip?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increased risk if born in breech position."
+        },
+        {
+          "letter": "B",
+          "text": "Positive Trendelenburg test."
+        },
+        {
+          "letter": "C",
+          "text": "Left hip more commonly involved."
+        },
+        {
+          "letter": "D",
+          "text": "Male predominance."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 67-68",
+      "explanation": "正確答案為 **D（Male predominance）**（錯誤敘述）。DDH為女性顯著多於男性（M:F ratio約1:8），並非male predominance。臀位產增加風險(A正確)、Trendelenburg test陽性(B正確)、左髖較常見(C正確)。詳見 [[developmental-dysplasia-hip]]。",
+      "images": [],
+      "concepts": [
+        "developmental-dysplasia-hip"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-215",
+      "year": 2019,
+      "number": 215,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT associated with distal radioulnar joint instability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Triangular fibrocartilage complex tear."
+        },
+        {
+          "letter": "B",
+          "text": "Monteggia fracture."
+        },
+        {
+          "letter": "C",
+          "text": "Galleazzi fracture."
+        },
+        {
+          "letter": "D",
+          "text": "Essex-Lopresti fracture."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., p. 90",
+      "explanation": "正確答案為 **B（Monteggia fracture）**。Monteggia fracture為尺骨幹骨折合併橈骨頭脫臼，影響近端橈尺關節（PRUJ），與遠端橈尺關節（DRUJ）不穩定無關。TFCC撕裂、Galeazzi fracture、Essex-Lopresti fracture皆與DRUJ不穩定相關。詳見 [[forearm-fracture-dislocation]]。",
+      "images": [],
+      "concepts": [
+        "forearm-fracture-dislocation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-216",
+      "year": 2019,
+      "number": 216,
+      "years": [
+        2019
+      ],
+      "subspecialty": "RP",
+      "subspecialty_confidence": "high",
+      "questionText": "放射師同仁向你說病人閉氣太短，可能會影響影像品質，下圖是 GE lightspeed VCT 操作畫面，請選擇欲調整的參數欄位以避免可能的 motion artifact。",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(A) — 圖中標示區域"
+        },
+        {
+          "letter": "B",
+          "text": "(B) — 圖中標示區域（掃描速度/間距相關參數）"
+        },
+        {
+          "letter": "C",
+          "text": "(C) — 圖中標示區域"
+        },
+        {
+          "letter": "D",
+          "text": "(D) — 圖中標示區域"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；GE Lightspeed CT console",
+      "explanation": "正確答案為 **B**。減少motion artifact需加快掃描速度——調整掃描速度/間距（scan speed/interval）相關參數，使病人在擷取過程中移動的時間更短。詳見 [[ct-scan-parameters]]。",
+      "images": [],
+      "concepts": [
+        "ct-scan-parameters"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-217",
+      "year": 2019,
+      "number": 217,
+      "years": [
+        2019
+      ],
+      "subspecialty": "RP",
+      "subspecialty_confidence": "high",
+      "questionText": "電腦斷層掃描分為 axial 與 helical 兩種模式，請問在 axial 模式下，下圖那項參數將不需調整？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Detector Coverage (mm)"
+        },
+        {
+          "letter": "B",
+          "text": "Helical Thickness (mm)"
+        },
+        {
+          "letter": "C",
+          "text": "Pitch & Speed (mm/rot)"
+        },
+        {
+          "letter": "D",
+          "text": "Rotation Time (s)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；GE Lightspeed CT console",
+      "explanation": "正確答案為 **C（Pitch & Speed）**。Pitch定義為每轉一圈的床台移動距離與beam collimation之比，僅適用於helical（螺旋）模式。在axial模式下床台不連續移動，故pitch不適用、不需調整。詳見 [[ct-scan-parameters]]。",
+      "images": [],
+      "concepts": [
+        "ct-scan-parameters"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-218",
+      "year": 2019,
+      "number": 218,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the following is unlikely to be a 'primary retroperitoneal malignant tumour'?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Liposarcoma"
+        },
+        {
+          "letter": "2",
+          "text": "Malignant fibrous histiocytoma"
+        },
+        {
+          "letter": "3",
+          "text": "Leiomyosarcoma"
+        },
+        {
+          "letter": "4",
+          "text": "Myelolipoma"
+        }
+      ],
+      "correctAnswer": "4",
+      "reference": "2019 交換考詳解；Radiology Review Manual 7e page 898",
+      "explanation": "正確答案為 **4（Myelolipoma）**。Myelolipoma為良性腫瘤（成熟脂肪+造血組織），最常見於腎上腺，不屬於原發後腹腔惡性腫瘤。Liposarcoma、MFH/UPS、Leiomyosarcoma皆為常見之原發後腹腔肉瘤。詳見 [[retroperitoneal-tumors]]。",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-tumors"
       ],
       "checked": false
     }
