@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 325,
+  "totalQuestions": 333,
   "questions": [
     {
       "id": "2020-001",
@@ -11895,6 +11895,302 @@
       "images": [],
       "concepts": [
         "retropharyngeal-space"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-326",
+      "year": 2020,
+      "number": 326,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the coronary artery vulnerable plaques, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prone to rupture."
+        },
+        {
+          "letter": "B",
+          "text": "Tend to have a thin fibrous cap and a large lipid core."
+        },
+        {
+          "letter": "C",
+          "text": "Often visible by x-ray angiography."
+        },
+        {
+          "letter": "D",
+          "text": "Acute coronary syndromes often result from the rupture of modestly stenotic plaques."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.361",
+      "explanation": "易損斑塊(vulnerable plaque)易破裂、具薄纖維帽與大脂質核心、急性冠心症常起因於狹窄程度不高之斑塊破裂，皆正確；但因血管代償性正性重塑(positive remodeling)，管腔常無明顯狹窄，故常規X光血管攝影(僅顯示管腔)常無法顯示此類斑塊，此敘述錯誤。",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-327",
+      "year": 2020,
+      "number": 327,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "The description about Agatston calcium scoring, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT image greater than 120HU in density is identified as calcification."
+        },
+        {
+          "letter": "B",
+          "text": "The lesion must > 1mm square in area."
+        },
+        {
+          "letter": "C",
+          "text": "The sum of all lesions in all four coronary vessels(LM, LAD, LCx and RCA) corresponds to the total Agatston score."
+        },
+        {
+          "letter": "D",
+          "text": "The Agatston quantification method is of limited value for MDCT."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.377",
+      "explanation": "Agatston法鈣化定義門檻為**>130 HU**(非120HU)且面積>1mm²；四條冠狀動脈(LM/LAD/LCx/RCA)各病灶總和即為總Agatston分數，此法於MDCT仍廣泛適用(非限制其價值)，故A敘述錯誤。",
+      "images": [],
+      "concepts": [
+        "calcium-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-328",
+      "year": 2020,
+      "number": 328,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "The diagnosis of ARVC by MRI is presently based on",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The morphology of the right ventricle."
+        },
+        {
+          "letter": "B",
+          "text": "Global and regional function of right ventricle."
+        },
+        {
+          "letter": "C",
+          "text": "To differentiate fatty tissue from myocardium."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.160",
+      "explanation": "ARVC之MRI診斷需綜合右心室形態、整體與局部功能評估，以及脂肪組織與心肌之區別，三者皆為診斷依據，故答案為D(以上皆是)。",
+      "images": [],
+      "concepts": [
+        "arrhythmogenic-rv-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-329",
+      "year": 2020,
+      "number": 329,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Malignant coronary anomaly (often associated with sudden death) excluded,",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The LM and RCA arising from the right aortic sinus, with the anomalous LM coursing between the aorta and pulmonary trunk."
+        },
+        {
+          "letter": "B",
+          "text": "The LM and RCA originating from the left aortic sinus and the anomalous RCA coursing between the aorta and pulmonary trunk."
+        },
+        {
+          "letter": "C",
+          "text": "Single left coronary artery."
+        },
+        {
+          "letter": "D",
+          "text": "1+2."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Computed Tomography of the Coronary Arteries, p.111",
+      "explanation": "惡性冠狀動脈異常(常合併猝死)之典型定義為LM或RCA異常起源於對側竇並經interarterial course(主動脈與肺動脈幹間)走行，選項A、B皆屬此類。單一左冠狀動脈(single left coronary artery)本身並非此惡性異常之定義範疇，故被排除在外。",
+      "images": [],
+      "concepts": [
+        "acaos"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-330",
+      "year": 2020,
+      "number": 330,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Tetralogy of Fallot, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyanotic congenital heart disease."
+        },
+        {
+          "letter": "B",
+          "text": "Included VSD, pulmonary stenosis, right ventricular hypertrophy and an overriding aorta."
+        },
+        {
+          "letter": "C",
+          "text": "The heart is usually not enlarged at birth but it may later become \"Boot-shaped heart\"."
+        },
+        {
+          "letter": "D",
+          "text": "Left-to-right shunt."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Grainger and Allison's Diagnostic Radiology, p.801",
+      "explanation": "法洛氏四重症為發紺型先心病(A對)，含VSD/肺動脈狹窄/RVH/主動脈跨騎(B對)，出生時心臟通常不大、日後可呈靴狀心(C對)；但因右心室流出道阻塞造成經VSD之**右到左分流**（非左到右分流），故D敘述錯誤。",
+      "images": [],
+      "concepts": [
+        "tetralogy-of-fallot"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-331",
+      "year": 2020,
+      "number": 331,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is true about radiological exam of bladder trauma, regarding the choice between static cystography and CT cystography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The choice between the two exams is largely dependent on the clinical situation and the preferences of the physicians involved."
+        },
+        {
+          "letter": "B",
+          "text": "If CT of the abdomen is considered to assess potential intra-abdominal injuries, CT cystography should be considered to assess the bladder"
+        },
+        {
+          "letter": "C",
+          "text": "If the examination must be performed in the trauma unit with portable equipment, conventional static cystography is a reliable method for establishing the diagnosis of bladder injury."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Clinical Urography, 2nd Edition, p.1799",
+      "explanation": "傳統膀胱攝影與CT膀胱攝影之選擇取決於臨床情境與醫師偏好；若已排CT腹部評估腹內損傷應一併做CT膀胱攝影；若須於創傷單位以可攜式設備檢查，傳統靜態膀胱攝影仍為可靠方法，三者皆正確。",
+      "images": [],
+      "concepts": [
+        "bladder-injury-ct-cystography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-332",
+      "year": 2020,
+      "number": 332,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is true about combined bladder and urethral injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Between 10% and 20% of male patients with an injury of the urethra and pelvic fracture have an injury of the bladder."
+        },
+        {
+          "letter": "B",
+          "text": "They may occur as separate injuries."
+        },
+        {
+          "letter": "C",
+          "text": "The bladder injury may be intraperitoneal, extraperitoneal, or rarely, a combined bladder injury."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Clinical Urography, 2nd Edition, p.1831",
+      "explanation": "合併骨盆骨折之尿道損傷男性病患中10-20%合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外、或少見之合併型，三者皆正確。",
+      "images": [],
+      "concepts": [
+        "bladder-injury-ct-cystography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-333",
+      "year": 2020,
+      "number": 333,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is true about scrotal trauma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scrotal trauma is usually a single injury resulting from a direct forceful compression of the testis or testes against the pubic ramus."
+        },
+        {
+          "letter": "B",
+          "text": "The testis may rupture, fracture, or undergo torsion."
+        },
+        {
+          "letter": "C",
+          "text": "Rupture or fracture occurs when the tunica albuginea is torn."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Clinical Urography, 2nd Edition, p.1839",
+      "explanation": "陰囊創傷常因單一直接暴力將睪丸壓迫於恥骨枝而造成；睪丸可能破裂、骨折或扭轉；破裂/骨折發生於白膜(tunica albuginea)撕裂時。⚠️ 官方詳解本身於此頁加註「題目應該是false?」並補充陰囊外傷可合併副睪骨折、副睪炎、陰囊壁血腫、陰囊積液等睪丸外損傷，對本題官方標示答案A(而非D，以上皆是)表達存疑，暫依官方標示A為預設值，建議醫師覆核。",
+      "images": [],
+      "concepts": [
+        "scrotal-trauma"
       ],
       "checked": false
     }

@@ -48,6 +48,9 @@ same:
 > [!question]- In a calcium scoring scan, what is the definition of a calcified plaque? (2016-291)
 > **Greater than 130HU units and 1mm²（B）**——Agatston法標準定義：鈣化斑塊密度>130 HU、面積≥1 mm²。[^1]
 
+> [!question]- The description about Agatston calcium scoring, which is wrong? (2020-327)
+> **CT image greater than 120HU in density is identified as calcification（A）為錯誤敘述**——正確門檻為**>130 HU**（非120HU）；四條冠狀動脈(LM/LAD/LCx/RCA)病灶總和即為總Agatston分數，此法於MDCT仍廣泛適用，其餘選項皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "calcium-score")

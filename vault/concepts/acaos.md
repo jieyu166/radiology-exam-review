@@ -21,6 +21,7 @@ dateRev: 2026-07-02
 - **高風險解剖特徵**：**裂縫狀開口(slitlike orifice)、起源處銳角(acute angle of origin)、管壁內走行段(intramural segment)**皆為賦予較高猝死風險之解剖特徵。[^1]
 - **retroaortic與prepulmonic路徑之風險**：此二路徑之猝死風險**極低至趨近於零**。[^3]
 - **臨床表現**：合併interarterial course之ACAOS病患**可完全無症狀**。[^3]
+- **「惡性(malignant)冠狀動脈異常」之定義範疇**：常指LM或RCA異常起源於對側竇並經**interarterial course**（主動脈與肺動脈幹間）走行者；**單一左冠狀動脈(single left coronary artery)本身並非此惡性異常之定義範疇**——其風險取決於其分支之實際走行路徑（是否合併interarterial/intramural），而非「single coronary artery」此診斷本身。[^4]
 
 > [!note] 考點一：關於ACAOS與猝死風險，何者不正確？
 > **右側ACAOS比左側ACAOS更常與猝死相關（C）**不正確——實際上**左側ACAOS**雖較少見（約為右側1/3發生率），但與猝死之關聯性**較強**；右側ACAOS雖較常見，關聯性反而較弱。Interarterial course最一致相關、裂縫狀開口/銳角起源/管壁內走行段為高風險解剖特徵，皆為正確敘述。[^1][^2]
@@ -32,6 +33,7 @@ dateRev: 2026-07-02
 [^1]: 官方2020詳解；Ref: Anomalous Coronary Arteries That Need Intervention: Review of Pre- and Postoperative Imaging Appearances, RadioGraphics 2017; 37:740-757（題目所引）——ACAOS走行路徑分interarterial/transseptal(subpulmonic)/retroaortic/prepulmonic；裂縫狀開口、銳角起源、管壁內走行段為高風險解剖特徵。
 [^2]: Basso C, et al. autopsy registries資料（RadioGraphics 2017綜述引用）——左ACAOS 23例死亡、右ACAOS 4例死亡；右ACAOS發生率為左側3倍但與SCD關聯性較弱，左ACAOS較少見但關聯性較強。
 [^3]: 官方2018詳解（題目所引，出處同上RadioGraphics 2017綜述）——interarterial course(尤其合併intramural segment)為與SCD最一致相關之異常；retroaortic與prepulmonic路徑SCD風險極低至趨近零；interarterial course病患可完全無症狀。
+[^4]: 官方2020詳解；Ref: Computed Tomography of the Coronary Arteries, p.111（題目所引）——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course走行；單一左冠狀動脈本身非此惡性異常定義範疇。
 
 ## 題目
 > [!question]- About anomalous origin of the coronary artery from the opposite sinus (ACAOS), which one is not correct? (2020-312)
@@ -39,6 +41,9 @@ dateRev: 2026-07-02
 
 > [!question]- About anomalous origin of the coronary artery from the opposite sinus(ACAOS) and the risk of sudden cardiac death (SCD), which description is wrong? (2018-053)
 > **Left ACAOS is three times more commonly encountered than right ACAOS, but has a weaker association with SCD（A）**錯誤——實際上應為右側ACAOS發生率為左側3倍，但左側與SCD關聯性較強(右側較弱)，選項文字左右對調。Interarterial course(尤其合併intramural segment)最一致相關於SCD、retroaortic與prepulmonic路徑SCD風險極低、interarterial course病患可無症狀，皆正確。[^2][^3]
+
+> [!question]- Malignant coronary anomaly (often associated with sudden death) excluded, (2020-329)
+> **Single left coronary artery（C）**被排除——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course（主動脈與肺動脈幹間）走行，選項A、B皆屬此類；單一左冠狀動脈本身並非此惡性異常之定義範疇。[^4]
 
 ## 考題
 ```dataview

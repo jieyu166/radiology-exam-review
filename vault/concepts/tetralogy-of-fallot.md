@@ -61,6 +61,10 @@ dateRev: 2026-06-29
 [^3]: boot-shaped heart 影像徵象與發紺型 5T 鑑別（依摘要／教科書層級，未讀全文）：frontal CXR 心尖上抬、central hilar PA 減少、main PA 段凹陷;The Boot-shaped Heart Sign, *Radiology* 2008;246(2):650-1, [DOI](https://doi.org/10.1148/radiol.2461041673)。發紺型先心 5T 助憶（Truncus、TGA、Tricuspid atresia、TOF、TAPVR），TOF 屬肺血減少型。
 [^4]: 開放全文已讀。Sánchez Ramírez CJ, Pérez de Isla L. Tetralogy of Fallot: cardiac imaging evaluation. *Ann Transl Med* 2020;8(15):966（PMC7475417）。CMR 為 rTOF volumetry／flow gold standard；PVR 門檻 RVEDVi 160 mL/m²、RVESVi 80 mL/m²（不可逆點）；phase-contrast RF>40% 為 severe PR；LGE 標記纖維化／猝死風險；MDCT 冠脈異常 8–12%、LAD 自 RCA 跨 RVOT 禁 RVOT 手術、評估 stent/conduit 鈣化。據 PubMed，[DOI](https://doi.org/10.21037/atm.2020.02.18)。
 
+## 題目
+> [!question]- About Tetralogy of Fallot, which statement is wrong? (2020-330)
+> **Left-to-right shunt（D）為錯誤敘述**——法洛氏四重症因右心室流出道阻塞造成經VSD之**右到左分流**（非左到右分流）。發紺型先心病、四聯病灶(VSD/肺動脈狹窄/RVH/主動脈跨騎)、出生時心臟通常不大日後可呈靴狀心，皆為正確敘述。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tetralogy-of-fallot")

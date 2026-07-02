@@ -58,6 +58,10 @@ dateRev: 2026-06-29
 [^2]: Tier 2，2010 Task Force Criteria CMR 量化切點（regional akinesia/dyskinesia/dyssynchrony 合併 RVEDVI 男≥110／女≥100 mL/m² 或 RVEF≤40% 為 major；男100–<110／女90–<100 或 RVEF >40–≤45% 為 minor；2010 版特異度提升）。J Cardiovasc Magn Reson／JACC Cardiovasc Imaging 系列，PMC4105392、DOI:10.1016/j.jcmg.2011.01.005（PMC3106722）。
 [^3]: Tier 1，RadioGraphics「Cardiac MR Findings and Potential Diagnostic Pitfalls in Patients Evaluated for ARVC」DOI:10.1148/rg.346140194（PMC5550031）：脂肪非診斷標準與排除理由、生理 vs ARVC 脂肪壁厚差異、LGE subtricuspid→RVOT 分布、triangle of dysplasia 區域、left-dominant／biventricular、moderator band 插入點假象、pericardial tether、pectus／butterfly apex 變異、Uhl anomaly 鑑別。
 
+## 題目
+> [!question]- The diagnosis of ARVC by MRI is presently based on (2020-328)
+> **以上皆是（D）**——ARVC之MRI診斷需綜合右心室形態、整體與局部功能評估，以及脂肪組織與心肌之區別，三者皆為診斷依據。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "arrhythmogenic-rv-dysplasia")

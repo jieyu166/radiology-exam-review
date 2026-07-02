@@ -85,6 +85,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
   - **Low-attenuation plaque**：密度 **<30 HU**（富脂核心）。
   - **Napkin-ring sign**：中央低密度核心、周邊環狀較高密度「餐巾環」。
   - **Spotty calcification**：點狀鈣化（**<3 mm**）。
+- **易損斑塊與傳統血管攝影之落差**：易損斑塊常因正性重塑而**管腔無明顯狹窄**，而傳統X光血管攝影僅能顯示管腔輪廓（非血管壁本身），故此類斑塊**常規X光血管攝影多無法顯示**；急性冠心症事件常起因於狹窄程度不高（modestly stenotic）之斑塊破裂，而非高度狹窄病灶。[^11]
 
 ## 判讀 — 進階：calcium score / FFR-CT / 異常起源
 - **Calcium score（Agatston）**：量化鈣化斑塊負荷做心血管風險分層；calcium score **>400** 顯著降低 CCTA specificity（blooming 偽陽性），與 P 負荷分級對應。[^1][^5]
@@ -122,6 +123,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^8]: *Anomalous origin of coronary arteries with an interarterial course: pictorial essay*（PMC6561366，accessed 2026-06-29，WebFetch）與 Applied Radiology / Diagnosis and Management of Anomalous Coronary Arteries with a Malignant Course（PMC6545977）（Tier 2/輔助）：interarterial（昔稱 malignant）走行行經主動脈與肺動脈間為猝死高風險；CT 惡性徵象含 high take-off、急性銳角 take-off、壁內（intramural）走行/近端橢圓狀受壓；左冠脈起自右竇之 interarterial 走行猝死風險最高，常不論症狀建議手術，右冠脈異常預後較佳。CT 為定義起源與走行首選。
 [^9]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.214/220）：通暢支架管腔內 HU 因 blooming 假性高於近端節段，不可誤判為狹窄；適當使用準則將「有症狀+CABG後評估graft patency」列為適當適應症，「無症狀+stent<2年」「無症狀+CABG<5年」「有症狀+支架<3mm」列為不適當。
 [^10]: 2019 交換考詳解；Cury RC, Abbara S, Achenbach S, et al. *CAD-RADS(TM): Coronary Artery Disease - Reporting and Data System*. JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005：CAD-RADS 1.0原始版發表於2016年（非2017）；狹窄分級0-5、modifiers含N/S/G/V/E；V modifier（vulnerable plaque）依positive remodeling(閾值1.1)、low-attenuation plaque(<30HU)、napkin-ring sign、spotty calcification(<3mm)判定。
+[^11]: 官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.361（題目所引）——易損斑塊易破裂、具薄纖維帽與大脂質核心、急性冠心症常起因於狹窄程度不高之斑塊破裂；因正性重塑管腔常無明顯狹窄，常規X光血管攝影常無法顯示此類斑塊。
 
 ## 考題
 ```dataview
