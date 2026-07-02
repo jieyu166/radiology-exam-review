@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 337,
+  "totalQuestions": 340,
   "questions": [
     {
       "id": "2020-001",
@@ -12339,6 +12339,117 @@
       "images": [],
       "concepts": [
         "ionizing-radiation-characteristics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-338",
+      "year": 2020,
+      "number": 338,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於游離輻射的型態，可分為粒子型及電磁波型游離輻射，在此一分類下，以下敘述何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X-ray 與 r-ray 型態上完全相同，具高度穿透能力，為粒子型游離輻射"
+        },
+        {
+          "letter": "B",
+          "text": "粒子型游離輻射是由粒子本身之動能或電位能使受作用物質產生游離或制動輻射"
+        },
+        {
+          "letter": "C",
+          "text": "電磁波型輻射純粹為一種能量，可將能量傳遞給物質，使其產生激發與游離"
+        },
+        {
+          "letter": "D",
+          "text": "中子射線多由核反應產生，不帶電荷，屬間接游離輻射"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: 原子、輻射、與輻射防護, Ch.3, p.75",
+      "explanation": "X光與γ射線本質皆為電磁波（僅來源不同：X光來自原子軌域電子躍遷或制動輻射，γ射線來自原子核衰變），屬**電磁波型游離輻射**，並非粒子型，故A敘述錯誤。粒子型游離輻射(如α、β粒子)藉粒子動能/電位能致游離；電磁波型輻射為能量傳遞致激發游離；中子不帶電荷、多由核反應產生，須先與物質作用產生荷電粒子，屬間接游離輻射，B/C/D皆正確。",
+      "images": [],
+      "concepts": [
+        "ionizing-radiation-type-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-339",
+      "year": 2020,
+      "number": 339,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關輻射對人體造成的生物效應以下敘述何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "確定性效應造成之損害程度取決於吸收劑量的多寡"
+        },
+        {
+          "letter": "B",
+          "text": "隨機性效應特點在於損害程度與吸收劑量無關且不存在劑量閾值"
+        },
+        {
+          "letter": "C",
+          "text": "隨機性效應發生的機率與吸收劑量有關"
+        },
+        {
+          "letter": "D",
+          "text": "遺傳效應屬於確定性效應的一種"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: 原子、輻射、與輻射防護, Ch.13, p.566",
+      "explanation": "遺傳效應(genetic effect)屬於**隨機性效應(stochastic effect)**（與輻射引致之癌病同列隨機性效應範例），並非確定性效應，故D敘述錯誤。確定性效應（如白內障、皮膚損傷、生育能力損害）損害程度隨劑量增加、存在劑量閾值；隨機性效應損害程度與劑量無關、不存在閾值、但發生機率隨劑量增加，A/B/C皆正確。",
+      "images": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-340",
+      "year": 2020,
+      "number": 340,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is wrong concerning the posttreatment imaging features of pediatric musculoskeletal tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The goal of treatment in benign bone tumors is removal of the tumor followed by the reestablishment of bone morphology and structural support without compromising axial growth, joint function, or overall morbidity."
+        },
+        {
+          "letter": "B",
+          "text": "Ceramic material appears denser than adjacent native bone, and a thin, well-defined radiolucent zone at the host-graft junction is an expected finding early after placement, but this radiolucent zone should disappear as osseous ingrowth occurs."
+        },
+        {
+          "letter": "C",
+          "text": "Persistent or developing radiolucency—often at the center of the graft—following graft placement may indicate tumor recurrence or graft resorption without incorporation."
+        },
+        {
+          "letter": "D",
+          "text": "Nonunion is arbitrarily defined as lack of union by 1 year and is the most frequently encountered complication in biologic reconstruction."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Posttreatment Imaging of Pediatric Musculoskeletal Tumors, Radiographics. 2014;34(3):724-40",
+      "explanation": "移植物置放後持續性或新發之透亮區(radiolucency)常見於**移植物邊緣(margin)**（非中心center），可提示腫瘤復發或移植物未整合之吸收，故C敘述之「center」有誤。良性骨腫瘤治療目標為切除並重建骨形態與結構支撐、不影響生長板/關節功能；陶瓷材料植入早期於host-graft交界處可見薄而清楚之透亮帶並隨骨整合消失；不癒合(nonunion)定義為1年內未癒合、為生物重建最常見併發症，A/B/D皆正確。",
+      "images": [],
+      "concepts": [
+        "pediatric-bone-graft-posttreatment"
       ],
       "checked": false
     }
