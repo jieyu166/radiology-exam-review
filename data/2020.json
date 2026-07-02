@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 186,
+  "totalQuestions": 187,
   "questions": [
     {
       "id": "2020-001",
@@ -6657,6 +6657,47 @@
       "images": [],
       "concepts": [
         "breast-implant-rupture"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-187",
+      "year": 2020,
+      "number": 187,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning intrarenal aneurysms, which one is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "they occur commonly in neurofibromatosis"
+        },
+        {
+          "letter": "B",
+          "text": "the mycotic type is common"
+        },
+        {
+          "letter": "C",
+          "text": "they occur commonly in angiomyolipoma"
+        },
+        {
+          "letter": "D",
+          "text": "when calcified they are usually congenital or atherosclerotic"
+        },
+        {
+          "letter": "E",
+          "text": "they are associated with aneurysms of the circle of Willis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Genitourinary Tract Diseases, p.3",
+      "explanation": "**腎內動脈瘤(intrarenal aneurysm)常見於腎血管肌脂瘤(angiomyolipoma)**，故(C)為正解。\n\n(A) 錯：官方訂正為神經纖維瘤病中「罕見報告(rarely reported)」，非常見。\n(B) 錯：黴菌性(mycotic)類型並非最常見類型。\n(C) **對（正解）**：腎內動脈瘤常見於AML，DSA可見sunburst動脈期表現、onion peel靜脈期表現，並可伴micro-或macro-aneurysm。\n(D) 錯：鈣化之腎內動脈瘤通常與結核病、神經纖維瘤病、結節性多動脈炎相關，非單純congenital/atherosclerotic。\n(E) 錯：與Willis環動脈瘤之關聯非典型敘述。\n\n→ [[renal-aml]]",
+      "images": [],
+      "concepts": [
+        "renal-aml"
       ],
       "checked": false,
       "years": [

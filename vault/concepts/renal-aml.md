@@ -36,6 +36,7 @@ same:
 - **鈣化方向相反**:典型 AML **罕見鈣化**,RCC 則相對常見鈣化;故**見鈣化偏向 RCC**。[^1][^3]
 - **陷阱並列**:文獻提醒存在**「有鈣化的 AML」與「含脂肪而無鈣化的 RCC」**(RCC 偶因鈣化/骨化包埋或壞死而出現少量脂肪),因此鈣化與脂肪都非絕對——關鍵仍是**巨觀脂肪 < −10 HU 幾乎只見於 AML**。[^2][^3]
 - **腫瘤內動脈瘤(intratumoral aneurysm)** 較偏向 AML,RCC 一般無此特徵,可作輔助線索。[^3]
+- **腎內動脈瘤(intrarenal aneurysm)常見於AML**：DSA可見動脈期「sunburst」表現、靜脈期「onion peel」周邊血管表現，並可伴micro-或macro-aneurysm；此為腎內動脈瘤病因中的常見一項（其餘病因含結核病、神經纖維瘤病、結節性多動脈炎）。[^7]
 
 ### Fat-poor / fat-invisible AML —— 判讀困難
 - 約 **5% AML** 在 NECT 上**測不到肉眼脂肪**;此型常呈**均質高衰減(homogeneously hyperattenuating,約 44–45 HU 以上)**,US 可呈等回音、與惡性難分。[^2][^3]
@@ -58,6 +59,14 @@ same:
 [^4]: 化學位移鑑別 minimal-fat AML 與 clear cell RCC 準確度受限(opposed-phase/in-phase GRE 區辨力不佳),經查證(accessed 2026-06-29,AJR opposed-phase chemical shift 文獻 ajronline.org/doi/10.2214/ajr.184.6.01841868 與 PMC6032655 綜述)。
 [^5]: Yamakado K, et al. *Renal angiomyolipoma: relationships between tumor size, aneurysm formation, and rupture.* Radiology. 2002(原始研究,PMID 12354988,accessed 2026-06-29). 出血病灶皆腫瘤 > 4 cm 且動脈瘤 ≥ 5 mm;動脈瘤 ≥ 5 mm 預測敏感度 100%/特異度 86%,優於腫瘤大小(特異度 38%)。
 [^6]: 較新研究質疑動脈瘤(含 ≥ 5 mm)與出血的顯著關聯,改提 angiomyogenic component 比例為可能因子(Insights into Imaging 2025,*Renal angiomyolipoma—investigating radiological signs indicative of risk for bleeding*,doi:10.1186/s13244-025-01957-z,via PMC11972250,accessed 2026-06-29)。
+[^7]: 官方2020詳解；Genitourinary Tract Diseases, p.3（題目所引）——腎內動脈瘤(intrarenal aneurysm)常見於angiomyolipoma；神經纖維瘤病中腎內動脈瘤為罕見報告（非常見）；黴菌性類型非最常見類型；鈣化之腎內動脈瘤通常與結核病、神經纖維瘤病、結節性多動脈炎相關。
+
+> [!warning] 選項(D)存疑，建議醫師覆核
+> 官方詳解本身在(D)「鈣化之腎內動脈瘤通常為congenital或atherosclerotic」旁加註「似乎也行?NF1的case」，顯示出題者自己對此選項是否應排除有所猶豫（可能因某些NF1相關腎內動脈瘤案例確實呈congenital表現而產生混淆）。官方標記答案仍為(C)，本檔案暫依官方答案為預設值，惟(D)之排他性建議醫師進一步確認。
+
+## 題目
+> [!question]- Concerning intrarenal aneurysms, which one is true? (2020-187)
+> **腎內動脈瘤常見於angiomyolipoma（C）**——DSA呈sunburst動脈期、onion peel靜脈期，可伴micro-/macro-aneurysm。NF1中腎內動脈瘤為罕見報告(A錯)、黴菌性非最常見類型(B錯)、鈣化者通常關聯結核病/NF1/結節性多動脈炎而非單純congenital/atherosclerotic(D存疑，見上方warning)。[^7]
 
 ## 考題
 ```dataview
