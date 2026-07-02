@@ -33,6 +33,10 @@ dateRev: 2026-06-29
 [^3]: Plaza MJ, Swintelski C, Yaziji H, Torres-Salichs M, Esserman LE. *Phyllodes tumor: review of key imaging characteristics*. Breast Dis. 2015;35(2):79-86（review,摘要實際查證,全文未開放）。回顧 PT 於乳攝、超音波、MRI 之關鍵影像特徵;PT 影像與 fibroadenoma 重疊,核心切片不一定能區分,放射-病理一致性評估對處置至關重要。據 PubMed,[DOI](https://doi.org/10.3233/BD-150399)。
 [^4]: Nam G, et al. *"Growing fibroadenoma": Are there clinical and pathological features predicting a phyllodes tumor on surgical excision?* Ann Diagn Pathol. 2022;62:152069（摘要實際查證）。影像記錄為「生長中 FA」者,切除後約 47% 重新分類為 benign PT;PT 患者年齡較大（平均 42.6 vs FA 28.2 歲）;≥40 歲之「生長中 FA」因 CNB 偽陰性率高、PT 可能性高,建議切除。據 PubMed,[DOI](https://doi.org/10.1016/j.anndiagpath.2022.152069)。
 
+## 題目
+> [!question]- Which statement about phyllodes tumor is wrong? (2018-014)
+> **None of above（D）**——A(又稱cystosarcoma phyllodes)、B(乳房罕見纖維上皮腫瘤)、C(典型呈無痛、快速生長之乳房腫塊)皆為正確描述，無錯誤選項。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "phyllodes-tumor")

@@ -58,6 +58,9 @@ dateRev: 2026-06-30
 > [!question]- 根據2017 Fleischner society guidelines，有關solid nodules下列何者錯誤? (2018-265)
 > **單發<6mm低風險結節須於12個月後追蹤CT（A）**——實際上不需常規追蹤，此敘述錯誤。單發>8mm考慮3個月追蹤/PET-CT/切片(B)、單發6-8mm高風險先6-12個月後18-24個月(C)、多發6-8mm高風險先3-6個月後18-24個月(D)皆為正確描述。[^4]
 
+> [!question]- According to Fleischner 2017 guideline for pulmonary nodules, which statement is wrong? (2018-394)
+> **High risk of malignancy included non-upper lobe location（A）**——**上肺葉位置(upper lobe location)才是惡性高風險因子**，非「非上肺葉」，故A錯。適用35歲以上(B對)、單發實質<6mm低風險可不需常規追蹤(C對)皆為正確描述。[^3][^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fleischner-pulmonary-nodule")

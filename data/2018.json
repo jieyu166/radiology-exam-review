@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 393,
+  "totalQuestions": 399,
   "questions": [
     {
       "id": "2018-001",
@@ -512,10 +512,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "均正確。",
+      "reference": "Radiopaedia; radiopaedia.org/articles/phyllodes-tumour",
+      "explanation": "A(又稱cystosarcoma phyllodes)、B(乳房罕見纖維上皮腫瘤)、C(典型無痛快速生長腫塊)皆正確，故答案D none of above。\n\n見 [[phyllodes-tumor]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "phyllodes-tumor"
+      ],
       "checked": false
     },
     {
@@ -14644,6 +14646,232 @@
       "images": [],
       "concepts": [
         "contrast-induced-aki"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-394",
+      "year": 2018,
+      "number": 394,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to Fleischner 2017 guideline for pulmonary nodules, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "High risk of malignancy included non-upper lobe location."
+        },
+        {
+          "letter": "B",
+          "text": "Suggest apply for subjects 35 y/o or older."
+        },
+        {
+          "letter": "C",
+          "text": "Single solid nodule and sized < 6mm with low risk could accept no routine follow up."
+        },
+        {
+          "letter": "D",
+          "text": "None of above."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Fleischner 2017 guideline",
+      "explanation": "上肺葉位置(upper lobe location)才是惡性高風險因子，非「非上肺葉」，故A錯。\n\n見 [[fleischner-pulmonary-nodule]]",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-395",
+      "year": 2018,
+      "number": 395,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is the common tumor for anterior mediastinum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Thymic tumor."
+        },
+        {
+          "letter": "B",
+          "text": "Teratoma."
+        },
+        {
+          "letter": "C",
+          "text": "Thyroid tumor."
+        },
+        {
+          "letter": "D",
+          "text": "All of bove."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "放射科基本學理",
+      "explanation": "前縱膈常見腫瘤為4 T's：thymic tumor(胸腺瘤)、teratoma(畸胎瘤)、thyroid tumor(甲狀腺腫)、terrible lymphoma，故答案D all of above。\n\n見 [[anterior-mediastinal-masses]]",
+      "images": [],
+      "concepts": [
+        "anterior-mediastinal-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-396",
+      "year": 2018,
+      "number": 396,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement about male gynecomastia is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common male breast abnormality."
+        },
+        {
+          "letter": "B",
+          "text": "Presents as a soft mobile tender subareolar mass."
+        },
+        {
+          "letter": "C",
+          "text": "May be tender sensation at acute phase."
+        },
+        {
+          "letter": "D",
+          "text": "None of above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia; radiopaedia.org/articles/gynaecomastia",
+      "explanation": "A(最常見男性乳房異常)、B(柔軟可移動觸痛之乳暈下腫塊)、C(急性期可有觸痛)皆正確，故答案D none of above。\n\n見 [[gynecomastia-imaging]]",
+      "images": [],
+      "concepts": [
+        "gynecomastia-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-397",
+      "year": 2018,
+      "number": 397,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Disregard of different pathologies, cardiac thrombi may occur in any cardiac chamber, which of the below descriptions about cardiac thrombi is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It responsible for about 15% of all ischemic strokes"
+        },
+        {
+          "letter": "B",
+          "text": "Artificial devices(e.g pacemakers) is a leading risk factor"
+        },
+        {
+          "letter": "C",
+          "text": "Crescent-shape thrombi located next to infarct or abnormal myocardial wall segments."
+        },
+        {
+          "letter": "D",
+          "text": "All of the cardiac thrombi are round or oval in appearance."
+        },
+        {
+          "letter": "E",
+          "text": "Most common intracardiac mass"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Multi-slice and Dual-source CT in Cardiac Imaging (Bernd M. Ohnesorge) P291 7.12.3.2; Direct Diagnosis in Radiology-Cardiac Imaging (C.D Claussen) P140",
+      "explanation": "鄰近梗塞或異常心肌壁之附壁血栓常呈新月形(crescent-shape)，非全為圓/卵圓形，故D不正確。\n\n見 [[cardiac-thrombus]]",
+      "images": [],
+      "concepts": [
+        "cardiac-thrombus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-398",
+      "year": 2018,
+      "number": 398,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement is false for Ulcerative Colitis:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usually in chronic, \"burned out\" phase"
+        },
+        {
+          "letter": "B",
+          "text": "Colon may appear smooth, tubular, with loss of usual transverse folds and haustra."
+        },
+        {
+          "letter": "C",
+          "text": "Colon may be foreshortened"
+        },
+        {
+          "letter": "D",
+          "text": "Results in neuromuscular damage"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Expertddx series – Abdomen (Michael P. Federle), Section 7, page 26",
+      "explanation": "官方標示答案D(Results in neuromuscular damage)但附註「A?」。A/B/C皆為慢性burned-out UC正確影像描述；D之機轉描述存疑，flag待醫師對照原卷。\n\n見 [[inflammatory-bowel-disease]]",
+      "images": [],
+      "concepts": [
+        "inflammatory-bowel-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-399",
+      "year": 2018,
+      "number": 399,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於 Normal pregnancy 與 ectopic pregnancy 的描述下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In normal pregnancy, β-HCG level doubles every 48-72 hours until it reaches 10,000-20,000mIU/mL."
+        },
+        {
+          "letter": "B",
+          "text": "If serum β-HCG level was 1600 mIU/mL and no gestational sac within the uterus seen under abdominal ultrasonography, normal pregnancy could be excluded."
+        },
+        {
+          "letter": "C",
+          "text": "Direct sign of ectopic pregnancy on CT or MR is ectopic gestational sac."
+        },
+        {
+          "letter": "D",
+          "text": "Indirect signs of ectopic pregnancy on CT or MR include adnexal hematoma, hemosalpinx and hemoperitoneum."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Ectopic pregnancy, UpToDate, eMedicine",
+      "explanation": "腹部超音波判別區約6000-6500 mIU/mL，β-HCG 1600遠低於此門檻，未見妊娠囊不能排除正常懷孕，故B錯。(transvaginal判別區1500-1800)\n\n見 [[ectopic-pregnancy]]",
+      "images": [],
+      "concepts": [
+        "ectopic-pregnancy"
       ],
       "checked": false
     }
