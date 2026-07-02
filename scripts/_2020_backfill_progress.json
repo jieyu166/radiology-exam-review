@@ -1,5 +1,5 @@
 {
-  "next_page": 269,
+  "next_page": 277,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -270,7 +270,15 @@
     266,
     267,
     268,
-    269
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277
   ],
   "added_ids": [
     "2020-186",
@@ -420,9 +428,13 @@
     "2020-330",
     "2020-331",
     "2020-332",
-    "2020-333"
+    "2020-333",
+    "2020-334",
+    "2020-335",
+    "2020-336",
+    "2020-337"
   ],
-  "next_id": 334,
+  "next_id": 338,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -510,7 +522,11 @@
     "p241 CM=Metformin+含碘對比劑何者為非→A(既有題2020-151)",
     "p250 GU=xanthogranulomatous pyelonephritis image finding WRONG→D(既有題2020-051)",
     "p257 NR=Pia-arachnoid enhancement NOT seen in→A idiopathic intracranial hypotension(既有題2020-134)",
-    "p258 NR=ring-enhancing lesion organized abscess LESS likely→B filling in of center(既有題2020-135)"
+    "p258 NR=ring-enhancing lesion organized abscess LESS likely→B filling in of center(既有題2020-135)",
+    "p270 NR=Lyre sign→A carotid body tumor(既有題2020-116)",
+    "p272 NR=bright claustrum sign→B Wilson disease(既有題2020-127)",
+    "p274 NR=putaminal rim sign→C MSA-p(既有題2020-128)",
+    "p275 Physics=SAR值敘述何者為非→D(既有題2020-159)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -529,7 +545,8 @@
     "2020-220(pilocytic astrocytoma)：官方詳解答案欄標示「A (D?)」，表達對是否應為D之不確定；選項A與D依參考文獻皆為正確敘述，已於pilocytic-astrocytoma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-229(Lisfranc fracture-dislocation)：官方詳解答案欄標示「C (B的描述也不很正確?)」，對選項B用詞是否精確表達存疑，已於lisfranc-injury.md加註[!warning]callout建議醫師覆核，暫依官方標示C為預設值",
     "2017-168/SCIWORA跨年答案矛盾：詳見xyear_dups_merged說明，2017官方答案A vs 2020重印版官方答案D，已於sciwora.md加註[!warning]callout，暫依2017年A為預設值，強烈建議醫師覆核",
-    "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
+    "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
+    "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批34(頁262-269)：8題候選皆為真新題(2020-326~333)，皆與心臟CV/GU創傷相關。262冠狀動脈易損斑塊常規血管攝影多無法顯示(重用ccta.md新增段落)、263 Agatston鈣化評分門檻應為130HU非120HU(重用calcium-score.md新增題目)、264 ARVC MRI診斷依據(重用arrhythmogenic-rv-dysplasia.md新增題目)、265惡性冠狀動脈異常定義不含single left coronary artery(重用acaos.md新增段落)、266 TOF為右到左分流非左到右(重用tetralogy-of-fallot.md新增題目)、267傳統vs CT膀胱攝影選擇/268合併膀胱尿道損傷(皆重用bladder-injury-ct-cystography.md新增兩段落)、269陰囊創傷(新建scrotal-trauma.md，官方詳解自身對TRUE/FALSE問法存疑已加[!warning]callout)。totalQuestions(2020)已更新為333。commit f87dcda(批34內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樔另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p270開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約67.6%(269/398頁)。累計本session已處理147個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批35(頁270-277)：8題候選，4題同年重印(p270=2020-116 Lyre sign/carotid body tumor；p272=2020-127 bright claustrum/Wilson；p274=2020-128 putaminal rim/MSA-p；p275=2020-159 SAR值敘述)，4題真新題(2020-334~337)：271 T1 pulvinar高訊號=Fabry disease(新建fabry-disease-pulvinar概念檔)、273 hummingbird/penguin sign=PSP(新建psp-imaging-signs概念檔)、276 GE波序對顱內出血偵測較佳(新建gre-hemorrhage-detection概念檔，與既有2020-160 SWI physics題不同topic)、277游離輻射特性何者為非(新建ionizing-radiation-characteristics概念檔，官方詳解自身對答案D存疑已加[!warning])。totalQuestions(2020)已更新為337。commit 098f9f4(批35內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p278開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約69.6%(277/398頁)。累計本session已處理151個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
 }
