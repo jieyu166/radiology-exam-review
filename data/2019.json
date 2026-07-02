@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 476,
+  "totalQuestions": 485,
   "questions": [
     {
       "id": "2019-001",
@@ -17203,6 +17203,341 @@
       "concepts": [
         "ischemic-stroke-imaging-timeline"
       ]
+    },
+    {
+      "id": "2019-517",
+      "year": 2019,
+      "number": 517,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何種非 pulmonary alveolar microlithiasis 的特色？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20-50 years of age"
+        },
+        {
+          "letter": "B",
+          "text": "Radiographs dense lung"
+        },
+        {
+          "letter": "C",
+          "text": "Apical predominance >> lower"
+        },
+        {
+          "letter": "D",
+          "text": "Black pleural line"
+        }
+      ],
+      "answer": "C",
+      "reference": "Thoracic Imaging P507",
+      "explanation": "正確答案為 **C**。Pulmonary alveolar microlithiasis 的鈣化微結節以 **下肺野為主**（bilateral distribution with middle to lower zone predilection），非 apical predominance。其餘皆正確：好發 20-50 歲(A)、CXR 呈極高密度(B)、black pleural line 為其特徵(D)。\n\n→ [[pulmonary-alveolar-microlithiasis]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-alveolar-microlithiasis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-518",
+      "year": 2019,
+      "number": 518,
+      "years": [
+        2019,
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下何者不是好發在 anterior mediastinum (cardiophrenic angle)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pericardial cyst"
+        },
+        {
+          "letter": "B",
+          "text": "Morgagni hernia"
+        },
+        {
+          "letter": "C",
+          "text": "Neurogenic tumor"
+        },
+        {
+          "letter": "D",
+          "text": "Lymph node masses"
+        }
+      ],
+      "answer": "C",
+      "reference": "Thoracic Imaging P214",
+      "explanation": "正確答案為 **C**。Neurogenic tumor 好發於 **posterior mediastinum**（後縱膈腔），非前縱膈腔 cardiophrenic angle。Pericardial cyst(A)、Morgagni hernia(B)、lymph node masses(D) 皆好發於前下縱膈腔 cardiophrenic angle 區域。\n\n→ [[anterior-mediastinum-masses]]",
+      "images": [],
+      "concepts": [
+        "anterior-mediastinum-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-519",
+      "year": 2019,
+      "number": 519,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "A diagnosed non-small cell lung cancer which is 5.1cm in size with visceral pleural involvement and ipsilateral mediastinal lymphadenopathy. What is the TNM staging? (No definite distant metastasis)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T1N3"
+        },
+        {
+          "letter": "B",
+          "text": "T2N2"
+        },
+        {
+          "letter": "C",
+          "text": "T3N2"
+        },
+        {
+          "letter": "D",
+          "text": "T3N3"
+        }
+      ],
+      "answer": "B",
+      "reference": "AJCC 8th edition, lung cancer stage",
+      "explanation": "官方答案為 **B**（T2N2），但此答案有爭議。根據 AJCC 8th edition：腫瘤 5.1 cm 已超過 5 cm（T2 上限），應為 **T3**（>5 to ≤7 cm）。Visceral pleural involvement 本身為 T2 criteria，但腫瘤大小 >5 cm 已使 T 分期升至 T3。Ipsilateral mediastinal lymphadenopathy = N2。因此正確分期應為 **T3N2（選項 C）**，非 T2N2。\n\n→ [[lung-cancer-tnm-staging]]",
+      "images": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-520",
+      "year": 2019,
+      "number": 520,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不會造成 cavitating lung nodule？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lipoid pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberculosis"
+        },
+        {
+          "letter": "C",
+          "text": "Septic emboli"
+        },
+        {
+          "letter": "D",
+          "text": "Wegener granulomatosis"
+        }
+      ],
+      "answer": "A",
+      "reference": "Radiology Review Manual P.428",
+      "explanation": "正確答案為 **A**。Lipoid pneumonia（油脂性肺炎）表現為脂肪密度實質化或 ground-glass opacity，**不會形成空洞**。TB(B)、septic emboli(C)、Wegener granulomatosis(D) 皆為常見造成肺空洞的疾病。\n\n→ [[cavitating-lung-nodule]]",
+      "images": [],
+      "concepts": [
+        "cavitating-lung-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-521",
+      "year": 2019,
+      "number": 521,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不是 allergic bronchopulmonary aspergillosis 的表現？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Migratory pneumonitis"
+        },
+        {
+          "letter": "B",
+          "text": "Peripheral bronchiectasis"
+        },
+        {
+          "letter": "C",
+          "text": "Gloved finger sign"
+        },
+        {
+          "letter": "D",
+          "text": "Lobar consolidation"
+        }
+      ],
+      "answer": "B",
+      "reference": "Radiology Review Manual P.466",
+      "explanation": "正確答案為 **B**。ABPA 的支氣管擴張為 **中央型**（central bronchiectasis），非周邊型。Peripheral bronchiectasis 較常見於 post-infectious 或 primary ciliary dyskinesia。Migratory pneumonitis(A)、gloved finger sign(C, 黏液嵌塞)、lobar consolidation(D) 皆為 ABPA 可能表現。\n\n→ [[allergic-bronchopulmonary-aspergillosis]]",
+      "images": [],
+      "concepts": [
+        "allergic-bronchopulmonary-aspergillosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-522",
+      "year": 2019,
+      "number": 522,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning hepatic metastatic tumors, which one is typically hypovascular?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Melanoma"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Renal cell carcinoma"
+        },
+        {
+          "letter": "D",
+          "text": "Sarcoma"
+        }
+      ],
+      "answer": "B",
+      "reference": "IR Kamel, Liapi E, Fishman EK. Liver and Biliary System: Evaluation by Multidetector CT. Radiol Clin North Am, 2005 Nov; 43(6):977-997.",
+      "explanation": "正確答案為 **B**。Adenocarcinoma（腺癌）肝轉移為 **hypovascular**，動脈期不強化。Melanoma(A)、RCC(C)、sarcoma(D) 皆為 hypervascular 肝轉移，動脈期明顯強化。大部分上皮癌（colon、lung、gastric、pancreatic）轉移為 hypovascular。\n\n→ [[hepatic-metastasis-vascularity]]",
+      "images": [],
+      "concepts": [
+        "hepatic-metastasis-vascularity"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-523",
+      "year": 2019,
+      "number": 523,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following diseases is MOST frequently seen in patients with neutropenia who are undergoing chemotherapy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ischemic colitis"
+        },
+        {
+          "letter": "B",
+          "text": "Typhlitis"
+        },
+        {
+          "letter": "C",
+          "text": "Radiation colitis"
+        },
+        {
+          "letter": "D",
+          "text": "Graft-versus-host disease"
+        }
+      ],
+      "answer": "B",
+      "reference": "Purysko AS, Remer EM, et al. (2011) Beyond Appendicitis: Common and Uncommon Gastrointestinal Causes of Right Lower Quadrant Abdominal Pain at Multidetector CT. RadioGraphics 31(4):927-947.",
+      "explanation": "正確答案為 **B**。Typhlitis（neutropenic enterocolitis）為化療後嗜中性白血球減少症患者最常見的腸道併發症，主要侵犯盲腸。Ischemic colitis(A) 好發老年人、radiation colitis(C) 需有放射治療史、GVHD(D) 需有移植史。\n\n→ [[typhlitis]]",
+      "images": [],
+      "concepts": [
+        "typhlitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-524",
+      "year": 2019,
+      "number": 524,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the MOST common cause of a gastrocolic fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Crohn disease"
+        },
+        {
+          "letter": "B",
+          "text": "Chronic NSAID use"
+        },
+        {
+          "letter": "C",
+          "text": "Adenocarcinoma of the colon"
+        },
+        {
+          "letter": "D",
+          "text": "Ulcerative colitis"
+        }
+      ],
+      "answer": "B",
+      "reference": "Levine MS, Kelly MR, Laufer I, Rubesin SE, Herlinger H (1993) Gastrocolic fistulas: the increasing role of aspirin. Radiology 187(2):359-361.",
+      "explanation": "正確答案為 **B**。根據文獻，chronic NSAID/aspirin use 已成為 gastrocolic fistula 最常見病因。NSAID 造成胃潰瘍穿透至橫結腸形成廔管。傳統上 malignancy 曾為最常見原因，但 NSAID 使用增加後已超越之。\n\n→ [[gastrocolic-fistula]]",
+      "images": [],
+      "concepts": [
+        "gastrocolic-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-525",
+      "year": 2019,
+      "number": 525,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following conditions is associated with anomalous pancreatobiliary duct union?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreas divisum"
+        },
+        {
+          "letter": "B",
+          "text": "Chronic calcific pancreatitis"
+        },
+        {
+          "letter": "C",
+          "text": "Choledochal cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Sclerosing cholangitis"
+        }
+      ],
+      "answer": "C",
+      "reference": "Mortelé KJ, Rocha TC, Streeter JL, Taylor AJ (2006) Multimodality Imaging of Pancreatic and Biliary Congenital Anomalies. RadioGraphics 26(3):715-731.",
+      "explanation": "正確答案為 **C**。Anomalous pancreatobiliary duct union（APBDU）與 **choledochal cyst（先天性膽道囊腫）** 高度相關，50-80% 膽道囊腫患者可見 APBDU。共同通道 >15 mm 時，Oddi 括約肌無法有效控制胰液逆流，導致膽道損傷與囊性擴張。\n\n→ [[anomalous-pancreatobiliary-duct-union]] [[choledochal-cyst]]",
+      "images": [],
+      "concepts": [
+        "anomalous-pancreatobiliary-duct-union",
+        "choledochal-cyst"
+      ],
+      "checked": false
     }
   ]
 }
