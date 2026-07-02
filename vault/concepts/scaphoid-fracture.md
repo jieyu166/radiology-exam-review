@@ -5,31 +5,48 @@ subspecialty: [MSK]
 aliases:
   - scaphoid fracture
   - scaphoid nonunion
+  - navicular fracture
   - 舟狀骨骨折
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # scaphoid-fracture
 
-**舟狀骨骨折的核心風險口訣「越近端、越危險」——骨折位置越靠近proximal pole，缺血性壞死(AVN)機率越高（proximal 5th可達100%）、癒合率越低；未併發症骨折之整體癒合率應遠高於50%（非「僅50%」），常見誤區。**
+**舟狀骨骨折的核心風險口訣「越近端、越危險」——血供由遠端逆行進入（radial artery 分支遠端入、近端出），故越靠近 proximal pole 的骨折越易缺血性壞死（AVN）、癒合越慢；未併發症之未位移骨折整體癒合率約 90%（非「僅 50%」），是常見反轉陷阱。** 判讀分水嶺一：**骨折部位＝waist 最多、proximal 最危險**；判讀分水嶺二：**初期 X 光陰性但臨床可疑（snuffbox 壓痛）→ 不能排除，須 MR／延遲追蹤**。
 
 ## Summary
-- **骨折部位分布**：**waist（腰部）65%** > proximal third（近端1/3）25% > distal third（遠端1/3）10%（**較常見於兒童**）。[^1]
-- **人口學**：男女比**2:1**；好發**第三個十年**。[^1]
-- **未位移骨折線常難以顯示**：non-displaced fracture line常**難以於初期X光辨識**，X光初期可能呈陰性（約27%），建議**14-21天後複查**。[^1]
-- **癒合率（核心考點）**：**未併發症骨折之癒合率應遠高於50%**（並非「僅50%」）；nonunion發生率僅**5-10%**（經固定後），意即多數簡單骨折癒合率可達90%以上。[^1]
-- **Nonunion危險因子**：**proximal third骨折**、**middle third之vertical oblique骨折型態**、位移>1mm、年齡增長、吸菸；**transverse型態較vertical/oblique型態穩定**。[^1]
-- **AVN風險與骨折位置直接相關**：**proximal 5th（最近端）AVN率達100%**；**proximal 3rd AVN率33%**——骨折位置越靠近端，血流供應越差，AVN風險越高。[^1]
+- **骨折部位分布**：**waist（腰部／中 1/3）最多**——STATdx 60–85%；**distal 1/3** 10–25%（較常見於兒童）；**proximal 1/3** 5–10%；tubercle ~5%。（註：部分經典教科書將 proximal 列至 ~20–25%，數字分歧並列。）[^1]
+- **人口學**：舟狀骨為**最常骨折之腕骨**（占腕骨骨折約 65%〔60–70%〕、占所有骨折約 5%〔2–7%〕）；好發**年輕活躍男性、峰值 15–29 歲**。[^2]
+- **癒合率（核心考點）**：**未位移骨折癒合率約 90%**（非「僅 50%」）；nonunion 僅 **5–10%**。[^1]
+- **併發症與部位相關**：**AVN 佔所有舟狀骨骨折 15–30%**，proximal pole 因完全依賴骨內逆行血流風險最高；delayed union＝4 個月未癒、nonunion＝6 個月未癒；**humpback deformity 為最常見 malunion**（續發 DISI）。[^1][^2]
+- **癒合時間（保守治療）**：distal 6–8 週＜waist 8–12 週＜proximal 12–24 週。[^1]
 
-> [!note] 考點：有關Scaphoid fracture何者為誤？
-> 「**未併發症骨折癒合率僅50%**」為錯——實際癒合率應遠高於50%（nonunion率僅5-10%）。骨折橫型好發middle third、未位移骨折線難辨識、nonunion多與proximal third及middle third之vertical oblique型態相關皆為正確敘述。[^1]
+## 放射科醫師影像判讀重點
+- **X 光（初評首選）**：至少**三個投影**（PA、lateral、scaphoid/ulnar-deviated view），惟投影數無共識；骨折可能**僅一個投影可見**。**陷阱**：radial-deviated PA view 會遮蔽骨折線；舟狀骨多溝脊面（sulci/ridges/facets）可**擬似骨折線**致過度固定；且舟狀骨大部分被軟骨包覆、callus 生成受限，追蹤時不易靠 callus 確認癒合。[^1][^3]
+- **潛在（occult）骨折**：初期 X 光陰性者，**19–21.8% 最終於 CT/MR 證實**有骨折；臨床可疑但 X 光陰性應加做 MR（或 10–14 天後複查 X 光）。**MR 對急性骨折最敏感（傷後 24 小時內即可）**：T1 fracture line 低訊號、fluid-sensitive 序列見周圍骨髓水腫高訊號（可與單純 marrow contusion 區分）。[^1][^3]
+- **CT**：**oblique sagittal 沿舟狀骨長軸薄層**最佳，用於評估位移、humpback deformity 與癒合。[^1]
+- **CT vs MR 效能**：兩者診斷準確度相當，且**「排除」骨折優於「確認」**——CT PPV 0.76／NPV 0.94；MR PPV 0.54／NPV 0.93（高 NPV 適合排除）。[^3]
+- **判讀陷阱**：proximal pole 初期密度增高可為正常演變、隨時間消退，**不一定代表 AVN**；真 AVN 需結合持續高密度／MR 無強化判定。[^1]
+
+## 臨床重點（5 句）
+1. 機轉幾乎都是跌倒手撐地（FOOSH）＋前臂背屈與橈偏，力量集中於舟狀骨腰部。
+2. 理學檢查以**anatomic snuffbox 壓痛**為主要線索，敏感但不特異。
+3. 未位移骨折以石膏固定即約 90% 癒合，位移或近端骨折常需手術（如 Herbert screw）。
+4. 主要併發症為 nonunion（5–10%）與 AVN（15–30%，近端最高），可進展為 SNAC wrist（scaphoid nonunion advanced collapse）退化性關節炎。
+5. 因初期 X 光可能陰性，臨床可疑即應「當骨折處理」（固定＋追蹤影像），以免延誤造成上述併發症。[^1][^2][^3]
+
+> [!note] 考點：有關 Scaphoid fracture 何者為誤？
+> 「**未併發症骨折癒合率僅 50%**」為錯——實際約 90%（nonunion 率僅 5–10%）。骨折橫型好發 middle third、未位移骨折線難辨識、nonunion 多與 proximal third 及 middle third 之 vertical oblique 型態相關皆正確。[^1]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 3-38, 39, 40, 41, 46.
+[^1]: **Tier 1** Scaphoid Fracture. STATdx（Musculoskeletal, Dx），last updated 2026-04-06. Elsevier（實際查證 accessed 2026-07-03，16 references）：部位分布（waist 60–85%／distal 10–25%／proximal 5–10%）、FOOSH＋背屈橈偏機轉、proximal pole 完全依賴骨內逆行血流、MR 為 occult fracture 最敏感（24h 內）、CT oblique sagittal 長軸、nonunion 5–10%（>6 月）／delayed union（>4 月）、AVN 15–30%、humpback deformity 最常見 malunion、癒合時間 distal 6–8/waist 8–12/proximal 12–24 週；陷阱：radial-deviated PA 遮蔽骨折線、proximal 初期密度增高可正常消退。
+[^2]: **Tier 1/2** *Scaphoid fracture*. Radiopaedia.org（實際查證 accessed 2026-07-03）：最常骨折之腕骨（占腕骨骨折 ~65%〔60–70%〕、所有骨折 ~5%〔2–7%〕）、年輕活躍男性峰值 15–29 歲；血供逆行（radial artery 分支遠端入、近端出）致 waist/proximal 骨折易 AVN；Mayo（穩定度/位移）與 Herbert 分類。
+[^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** *From Diagnosis to Treatment: Challenges in Scaphoid Imaging*. RadioGraphics 2025. doi:10.1148/rg.250050：舟狀骨複雜幾何（sulci/ridges/facets）擬似骨折線致過度固定、軟骨包覆限制 callus；投影數無共識（建議至少三張）；**CT 與 MR 準確度相當、排除優於確認（CT PPV 0.76/NPV 0.94；MR PPV 0.54/NPV 0.93）**；初期 X 光漏診 19–21.8% 於 CT/MR 證實。
+[^4]: 官方 2020 詳解（題目所引）；原引 Diagnostic Imaging: Orthopaedics（Amirsys 2004）Section 3-38~46——已由上述 [^1][^2][^3] 一手來源查核取代並補強。
 
 ## 題目
-> [!question]- 有關Scaphoid fracture下列何者為誤? (2020-230)
-> **C**——未併發症骨折癒合率應遠高於50%（nonunion率僅5-10%），非僅50%。其餘敘述（middle third橫型骨折最常見、未位移骨折線難辨識、nonunion多見於proximal third與middle third vertical oblique型態）皆正確。[^1]
+> [!question]- 有關 Scaphoid fracture 下列何者為誤? (2020-230)
+> **C**——未併發症骨折癒合率應遠高於 50%（約 90%、nonunion 率僅 5–10%），非僅 50%。其餘敘述（middle third 橫型骨折最常見、未位移骨折線難辨識、nonunion 多見於 proximal third 與 middle third vertical oblique 型態）皆正確。[^1][^4]
 
 ## 考題
 ```dataview
