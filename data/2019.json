@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 290,
+  "totalQuestions": 319,
   "questions": [
     {
       "id": "2019-001",
@@ -10584,6 +10584,1012 @@
       "images": [],
       "concepts": [
         "mediastinal-pleural-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-315",
+      "year": 2019,
+      "number": 315,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding the WHO 2016 classification of medulloblastoma molecular subtypes, which one is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "WNT-activated: centered in cerebellar peduncle/CPA, best prognosis"
+        },
+        {
+          "letter": "B",
+          "text": "SHH-activated: rostral cerebellar hemisphere"
+        },
+        {
+          "letter": "C",
+          "text": "Group 4: midline, most common subtype"
+        },
+        {
+          "letter": "D",
+          "text": "Group 3: midline, good prognosis with well-defined margins"
+        },
+        {
+          "letter": "E",
+          "text": "Group 3: poor prognosis with ill-defined margins and extensive enhancement"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2018; 38:37-55",
+      "explanation": "正確答案為 **D**（錯誤敘述）。Group 3 medulloblastoma 預後**最差**，呈邊界不清 (ill-defined) 且顯著增強，並非 good prognosis with well-defined margins。\n\n→ [[medulloblastoma-subtypes]]",
+      "images": [],
+      "concepts": [
+        "medulloblastoma-subtypes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-316",
+      "year": 2019,
+      "number": 316,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about pediatric hepatic neoplasms is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatic neoplasms are the most common intraabdominal tumor in children"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatoblastoma is the most common malignant hepatic tumor in children < 5 years"
+        },
+        {
+          "letter": "C",
+          "text": "AFP is elevated in hepatoblastoma"
+        },
+        {
+          "letter": "D",
+          "text": "HCC is more common in older children with underlying liver disease"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Caffey's Pediatric Diagnostic Imaging, e3, Ch91 P.838-850",
+      "explanation": "正確答案為 **A**（錯誤敘述）。兒童最常見腹腔內腫瘤為**神經母細胞瘤 (neuroblastoma)**，非肝臟腫瘤。\n\n→ [[hepatic-neoplasm-pediatric]]",
+      "images": [],
+      "concepts": [
+        "hepatic-neoplasm-pediatric"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-317",
+      "year": 2019,
+      "number": 317,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding esophageal atresia, which of the following is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Associated with VACTERL and CHARGE associations"
+        },
+        {
+          "letter": "B",
+          "text": "Polyhydramnios with small or absent stomach bubble on prenatal US"
+        },
+        {
+          "letter": "C",
+          "text": "Presence of bowel gas indicates fistula status"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Caffey's Pediatric Diagnostic Imaging, e2, Ch96 P.901-910",
+      "explanation": "正確答案為 **D**（以上皆是）。EA 與 VACTERL/CHARGE 相關(A)、產前 polyhydramnios + 胃泡縮小/消失(B)、腹部有腸氣代表有 distal TEF(C) 皆正確。\n\n→ [[esophageal-atresia]]",
+      "images": [],
+      "concepts": [
+        "esophageal-atresia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-318",
+      "year": 2019,
+      "number": 318,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding vesicoureteral reflux (VUR), which statement is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VCUG is the standard imaging for diagnosis and grading"
+        },
+        {
+          "letter": "B",
+          "text": "VUR grading ranges from I to V"
+        },
+        {
+          "letter": "C",
+          "text": "It is NOT necessary to evaluate bowel and bladder dysfunction"
+        },
+        {
+          "letter": "D",
+          "text": "BBD affects spontaneous resolution rate"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Caffey's Pediatric Diagnostic Imaging, e3, Ch119 P.1148-1156",
+      "explanation": "正確答案為 **C**（錯誤敘述）。評估 BBD 是 VUR 管理中**必要**的一環，BBD 存在會降低 VUR 自然緩解率。\n\n→ [[vur-pediatric]]",
+      "images": [],
+      "concepts": [
+        "vur-pediatric"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-319",
+      "year": 2019,
+      "number": 319,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following best describes Mirizzi syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CBD stone causing pancreatic duct obstruction"
+        },
+        {
+          "letter": "B",
+          "text": "Gallstone impaction in cystic duct causing CBD compression"
+        },
+        {
+          "letter": "C",
+          "text": "Gallstone impaction in GB neck compressing adjacent CHD with intrahepatic bile duct dilation"
+        },
+        {
+          "letter": "D",
+          "text": "Cholecystoenteric fistula with gallstone ileus"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Mirizzi syndrome 為膽囊頸部結石嵌塞，外在壓迫鄰近總肝管 (CHD)，導致肝內膽管擴張。\n\n→ [[mirizzi-syndrome]]",
+      "images": [],
+      "concepts": [
+        "mirizzi-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-320",
+      "year": 2019,
+      "number": 320,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most significant complication of wandering spleen?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Splenic abscess"
+        },
+        {
+          "letter": "B",
+          "text": "Splenic torsion leading to ischemia"
+        },
+        {
+          "letter": "C",
+          "text": "Splenomegaly"
+        },
+        {
+          "letter": "D",
+          "text": "Splenic cyst formation"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**（脾扭轉致缺血）。游離脾最嚴重併發症為脾蒂扭轉導致脾臟缺血壞死，需緊急處理。\n\n→ [[wandering-spleen]]",
+      "images": [],
+      "concepts": [
+        "wandering-spleen"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-321",
+      "year": 2019,
+      "number": 321,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common form of intracranial tuberculosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuberculoma"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberculous abscess"
+        },
+        {
+          "letter": "C",
+          "text": "Miliary TB of the brain"
+        },
+        {
+          "letter": "D",
+          "text": "Tuberculous meningitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（結核性腦膜炎）。顱內結核最常見形式為 tuberculous meningitis，好發於顱底蛛網膜下腔 (basal cisterns)，可合併 dystrophic calcification。\n\n→ [[mycobacterial-infection-imaging]]",
+      "images": [],
+      "concepts": [
+        "mycobacterial-infection-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-322",
+      "year": 2019,
+      "number": 322,
+      "subspecialty": "BR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding digital breast tomosynthesis (DBT) and architectural distortion (AD), which statement is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "AD is less commonly detected on DBT than on 2D mammography"
+        },
+        {
+          "letter": "B",
+          "text": "DBT can reduce false positive recall rates"
+        },
+        {
+          "letter": "C",
+          "text": "DBT provides better tissue overlap resolution"
+        },
+        {
+          "letter": "D",
+          "text": "DBT is useful for characterizing focal asymmetries"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2015; 35:975-990",
+      "explanation": "正確答案為 **A**（錯誤敘述）。Architectural distortion 在 DBT 上偵測率**更高**（非更低），因 DBT 去除組織重疊，使 AD 更容易辨識。\n\n→ [[breast-tomosynthesis]]",
+      "images": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-323",
+      "year": 2019,
+      "number": 323,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common congenital abnormality of the GI tract?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duodenal atresia"
+        },
+        {
+          "letter": "B",
+          "text": "Intestinal malrotation"
+        },
+        {
+          "letter": "C",
+          "text": "Hirschsprung disease"
+        },
+        {
+          "letter": "D",
+          "text": "Meckel diverticulum"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（梅克爾憩室）。Meckel diverticulum 為最常見 GI 先天異常，盛行率約 2%。遵循 rule of 2s：2% 人口、距 ileocecal valve 2 feet、2 inches 長。\n\n→ [[meckel-diverticulum]]",
+      "images": [],
+      "concepts": [
+        "meckel-diverticulum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-325",
+      "year": 2019,
+      "number": 325,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a cause of small bowel obstruction (SBO)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adhesion"
+        },
+        {
+          "letter": "B",
+          "text": "Hernia"
+        },
+        {
+          "letter": "C",
+          "text": "Crohn disease"
+        },
+        {
+          "letter": "D",
+          "text": "Intussusception"
+        },
+        {
+          "letter": "E",
+          "text": "All of the above can cause SBO"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；RadioGraphics 2009; 29:423-439",
+      "explanation": "正確答案為 **E**（以上皆可造成 SBO）。Adhesion、hernia、Crohn disease、intussusception 皆為 SBO 之已知原因。\n\n→ [[sbo-causes-imaging]]",
+      "images": [],
+      "concepts": [
+        "sbo-causes-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-326",
+      "year": 2019,
+      "number": 326,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Renal angiomyolipoma (AML) is most commonly associated with which condition?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Von Hippel-Lindau disease"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberous sclerosis"
+        },
+        {
+          "letter": "C",
+          "text": "Neurofibromatosis type 1"
+        },
+        {
+          "letter": "D",
+          "text": "Sturge-Weber syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**（結節性硬化症）。腎 AML 與 TSC 高度相關，TSC 患者中 AML 常為多發、雙側。\n\n→ [[renal-aml-tuberous-sclerosis]]",
+      "images": [],
+      "concepts": [
+        "renal-aml-tuberous-sclerosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-327",
+      "year": 2019,
+      "number": 327,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "A patient presents with thumb pain due to nerve compression. Which nerve root is most likely involved?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "C5"
+        },
+        {
+          "letter": "B",
+          "text": "C6"
+        },
+        {
+          "letter": "C",
+          "text": "C7"
+        },
+        {
+          "letter": "D",
+          "text": "C8"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Diagnostic Neuroradiology, Osborn P.121",
+      "explanation": "正確答案為 **B（C6）**。拇指皮節對應 C6 神經根。C5 = 上臂外側（deltoid area），C7 = 中指，C8 = 小指。\n\n→ [[cervical-nerve-root-dermatome]]",
+      "images": [],
+      "concepts": [
+        "cervical-nerve-root-dermatome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-328",
+      "year": 2019,
+      "number": 328,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding basilar artery occlusion, which of the following is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proximal segment occlusion is most common"
+        },
+        {
+          "letter": "B",
+          "text": "Can cause bilateral thalamic infarction"
+        },
+        {
+          "letter": "C",
+          "text": "Associated with intracranial atherosclerotic stenosis (ICAS)"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；AJNR August 2017, 38(8):1600-1604",
+      "explanation": "正確答案為 **D**（以上皆是）。BAO 以近端阻塞最常見(A)、可致雙側丘腦梗塞(B)、與 ICAS 高度相關(C)。\n\n→ [[basilar-artery-occlusion]]",
+      "images": [],
+      "concepts": [
+        "basilar-artery-occlusion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-329",
+      "year": 2019,
+      "number": 329,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於結核病傳播途徑，下列何者為非？",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Hematogenous spread plays important role in early stages of initial/primary infection"
+        },
+        {
+          "letter": "2",
+          "text": "Lymphatic dissemination incidence in postprimary TB is low due to enhanced acquired immunity"
+        },
+        {
+          "letter": "3",
+          "text": "Increasing incidence of primary TB in adults and postprimary TB in immunocompromised"
+        },
+        {
+          "letter": "4",
+          "text": "Miliary CT findings represent hematogenous dissemination with random pattern micronodules"
+        }
+      ],
+      "correctAnswer": "1",
+      "reference": "2019 交換考詳解；AJR 2015;204:38-43",
+      "explanation": "正確答案為 **1**（錯誤敘述）。初期/原發感染早期重要的傳播途徑是**淋巴性傳播 (lymphatic spread)**，非血行性傳播。血行性傳播（粟粒性）較晚發生。\n\n→ [[mycobacterial-infection-imaging]]",
+      "images": [],
+      "concepts": [
+        "mycobacterial-infection-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-330",
+      "year": 2019,
+      "number": 330,
+      "subspecialty": "HN",
+      "subspecialty_confidence": "manual",
+      "questionText": "根據 2015 年 ATA guideline，下列何者為 high suspicious sonographic patterns for malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1,2,3)"
+        },
+        {
+          "letter": "B",
+          "text": "(3,4,5)"
+        },
+        {
+          "letter": "C",
+          "text": "(2,3,5)"
+        },
+        {
+          "letter": "D",
+          "text": "(1,3,4)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；2015 ATA Management Guidelines",
+      "explanation": "正確答案為 **D（1,3,4）**。High suspicious patterns: (1) hypoechoic + irregular margin、(3) hypoechoic + taller-than-wide、(4) interrupted rim calcification with soft tissue extrusion。(2) isoechoic + regular margin 非 high suspicion、(5) spongiform 為 very low suspicion。\n\n→ [[ata-thyroid-guideline]]",
+      "images": [],
+      "concepts": [
+        "ata-thyroid-guideline"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-331",
+      "year": 2019,
+      "number": 331,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "May-Thurner syndrome means:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left renal vein between SMA and aorta"
+        },
+        {
+          "letter": "B",
+          "text": "Third portion of duodenum compressed between SMA and aorta"
+        },
+        {
+          "letter": "C",
+          "text": "Compression of celiac artery by median arcuate ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Left common iliac vein compressed between right common iliac artery and fifth lumbar vertebra"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。May-Thurner syndrome：左髂總靜脈被夾於右髂總動脈與第五腰椎之間。A = Nutcracker syndrome、B = SMA syndrome、C = Median arcuate ligament syndrome。跨年重複 2018-150。\n\n→ [[may-thurner]]",
+      "images": [],
+      "concepts": [
+        "may-thurner"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-332",
+      "year": 2019,
+      "number": 332,
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關 Maffucci's syndrome，下列何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesodermal proliferation (dysplasia)"
+        },
+        {
+          "letter": "B",
+          "text": "Multiple enchondroma 與 soft tissue sarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "常合併有 soft tissue hemangioma"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆非"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Maffucci syndrome = 多發性內生軟骨瘤 (multiple enchondromas) + **軟組織血管瘤 (soft tissue hemangiomas)**，非 sarcoma。\n\n→ [[enchondromatosis]]",
+      "images": [],
+      "concepts": [
+        "enchondromatosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-333",
+      "year": 2019,
+      "number": 333,
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is true regarding complete D-transposition of the great arteries (D-TGA)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There is atrioventricular concordance and ventriculoarterial discordance"
+        },
+        {
+          "letter": "B",
+          "text": "Congenitally corrected transposition"
+        },
+        {
+          "letter": "C",
+          "text": "Aorta is anterior and slightly leftward to PA"
+        },
+        {
+          "letter": "D",
+          "text": "Newborns are asymptomatic if VSD intact"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。D-TGA = AV concordance (RA→RV, LA→LV) + VA discordance (RV→Aorta, LV→PA)。B 錯（corrected TGA = L-TGA）、C 錯（偏右非偏左）、D 錯（intact septum 嚴重發紺）。\n\n→ [[d-tga]]",
+      "images": [],
+      "concepts": [
+        "d-tga"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-334",
+      "year": 2019,
+      "number": 334,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About MR Elastography, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Can detect brain stiffness"
+        },
+        {
+          "letter": "B",
+          "text": "An invasive MRI exam"
+        },
+        {
+          "letter": "C",
+          "text": "Edge effects, partial volume, CSF contamination need to be minimized"
+        },
+        {
+          "letter": "D",
+          "text": "In NPH, MRE showed increased brain stiffness in cerebrum, especially occipital lobe"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；AJNR March 2016, 37(3):462-467",
+      "explanation": "正確答案為 **B**（錯誤敘述）。MR Elastography 為**非侵入性 (non-invasive)** MRI 技術，利用外部振動源產生 shear wave 量測組織硬度。\n\n→ [[mr-elastography-brain]]",
+      "images": [],
+      "concepts": [
+        "mr-elastography-brain"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-335",
+      "year": 2019,
+      "number": 335,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is classically seen with sigmoid volvulus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "U-shaped sigmoid"
+        },
+        {
+          "letter": "B",
+          "text": "Dilated sigmoid directed toward right hemidiaphragm"
+        },
+        {
+          "letter": "C",
+          "text": "Twisted appearance of ileo-cecal region"
+        },
+        {
+          "letter": "D",
+          "text": "Decompressed small bowel"
+        },
+        {
+          "letter": "E",
+          "text": "Transverse colon cranial to sigmoid colon"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Sigmoid volvulus 經典表現：擴張的乙狀結腸朝右側橫膈方向延伸（coffee bean sign / inverted U sign）。\n\n→ [[colon-volvulus]]",
+      "images": [],
+      "concepts": [
+        "colon-volvulus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-336",
+      "year": 2019,
+      "number": 336,
+      "subspecialty": "HN",
+      "subspecialty_confidence": "manual",
+      "questionText": "根據 2015 年 ATA guideline，下列何種 thyroid nodules 建議接受 fine needle aspiration?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1,2,3)"
+        },
+        {
+          "letter": "B",
+          "text": "(3,4,5)"
+        },
+        {
+          "letter": "C",
+          "text": "(2,3,4)"
+        },
+        {
+          "letter": "D",
+          "text": "(1,3,4)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；2015 ATA Management Guidelines",
+      "explanation": "正確答案為 **C（2,3,4）**。FNA 建議閾值：(2) intermediate ≥ 1 cm、(3) low ≥ 1.5 cm、(4) very low ≥ 2 cm。(1) high suspicious 閾值為 ≥ 1 cm（非 0.5 cm）、(5) benign 不需 FNA。\n\n→ [[ata-thyroid-guideline]]",
+      "images": [],
+      "concepts": [
+        "ata-thyroid-guideline"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-337",
+      "year": 2019,
+      "number": 337,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "The risk of bowel incarceration in hernias, from high to low:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inguinal hernia (direct) > Inguinal hernia (indirect) > Femoral hernia"
+        },
+        {
+          "letter": "B",
+          "text": "Inguinal hernia (indirect) > Inguinal hernia (direct) > Femoral hernia"
+        },
+        {
+          "letter": "C",
+          "text": "Femoral hernia > Inguinal hernia (direct) > Inguinal hernia (indirect)"
+        },
+        {
+          "letter": "D",
+          "text": "Femoral hernia > Inguinal hernia (indirect) > Inguinal hernia (direct)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；RadioGraphics 2011; 31:E1-E12",
+      "explanation": "正確答案為 **D**。嵌頓風險由高到低：Femoral > Indirect inguinal > Direct inguinal。股疝股環狹窄堅硬，嵌頓風險最高。\n\n→ [[hernia-incarceration-risk]]",
+      "images": [],
+      "concepts": [
+        "hernia-incarceration-risk"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-338",
+      "year": 2019,
+      "number": 338,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "An 8-month-old male infant with contracted skull base, small foramen magnum, rhizomelic shortening, trident hands, brachydactyly, progressive interpedicular narrowing at lumbar spine, short pedicles, and flat-roofed acetabula. Most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Achondrogenesis"
+        },
+        {
+          "letter": "B",
+          "text": "Chondroectodermal dysplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Thanatophoric dysplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Achondroplasia"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（軟骨發育不全）。Achondroplasia 典型特徵：contracted skull base、small foramen magnum、rhizomelic shortening、trident hand、brachydactyly、腰椎 interpedicular distance 漸縮、short pedicles、flat-roofed acetabula。其他選項（achondrogenesis、thanatophoric dysplasia）多為致死性。\n\n→ [[achondroplasia]]",
+      "images": [],
+      "concepts": [
+        "achondroplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-339",
+      "year": 2019,
+      "number": 339,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "目前 IA mechanical thrombectomy 的最高 Strength of Evidence?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1a"
+        },
+        {
+          "letter": "B",
+          "text": "1b"
+        },
+        {
+          "letter": "C",
+          "text": "2a"
+        },
+        {
+          "letter": "D",
+          "text": "2b"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；AHA guideline 2015",
+      "explanation": "正確答案為 **A（1a）**。根據 AHA 2015 guideline，mechanical thrombectomy 之 Class I; Level of Evidence A（最高等級）recommendation。\n\n→ [[intra-arterial-thrombectomy]]",
+      "images": [],
+      "concepts": [
+        "intra-arterial-thrombectomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-340",
+      "year": 2019,
+      "number": 340,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "A large infiltrative hepatic mass demonstrating early enhancement and portal vein invasion is most consistent with which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cholangiocarcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Biliary cystadenoma"
+        },
+        {
+          "letter": "C",
+          "text": "Primary hepatic lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatocellular carcinoma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（肝細胞癌）。HCC 典型特徵為動脈期早期增強 (arterial enhancement) 合併門脈侵犯 (portal vein invasion/tumor thrombus)。Cholangiocarcinoma 通常延遲增強；lymphoma 通常低血管性；biliary cystadenoma 為囊性病灶。\n\n→ [[infiltrative-hcc]]",
+      "images": [],
+      "concepts": [
+        "infiltrative-hcc"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-341",
+      "year": 2019,
+      "number": 341,
+      "subspecialty": "HN",
+      "subspecialty_confidence": "manual",
+      "questionText": "AJCC 8th edition 對於頭頸癌之分期有哪些重大改變？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "(1,2)"
+        },
+        {
+          "letter": "B",
+          "text": "(2,3)"
+        },
+        {
+          "letter": "C",
+          "text": "(2,3,4)"
+        },
+        {
+          "letter": "D",
+          "text": "(1,2,3,4)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；AJCC Cancer Staging Manual, 8th Edition",
+      "explanation": "正確答案為 **B（2,3）**。重大改變：(2) p16-positive OPC 有獨立 TNM 分期、(3) extranodal extension 影響 N 分期。(1) 口腔癌 tumor thickness 取代 depth of invasion 非此題範圍表述方式、(4) 口咽癌須量測 DOI 之敘述形式與正確答案不符。\n\n→ [[ajcc-head-neck-8th]]",
+      "images": [],
+      "concepts": [
+        "ajcc-head-neck-8th"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-342",
+      "year": 2019,
+      "number": 342,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is the most common anatomical variant of the pancreas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreas divisum"
+        },
+        {
+          "letter": "B",
+          "text": "Partial dorsal agenesis"
+        },
+        {
+          "letter": "C",
+          "text": "Anomalous pancreatobiliary duct union"
+        },
+        {
+          "letter": "D",
+          "text": "Annular pancreas"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2006; 26:715-731",
+      "explanation": "正確答案為 **A**（Pancreas divisum）。Pancreas divisum 為最常見胰臟解剖變異，盛行率 5-10%。由胚胎期腹側與背側胰管未融合所致。\n\n→ [[pancreas-divisum]]",
+      "images": [],
+      "concepts": [
+        "pancreas-divisum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-344",
+      "year": 2019,
+      "number": 344,
+      "subspecialty": "HN",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關 Cone beam CT (CBCT) 與 MDCT 比較，何者為非？",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Higher spatial resolution"
+        },
+        {
+          "letter": "2",
+          "text": "Higher temporal resolution"
+        },
+        {
+          "letter": "3",
+          "text": "Longer image reconstruction time"
+        },
+        {
+          "letter": "4",
+          "text": "More scatter artifact"
+        },
+        {
+          "letter": "5",
+          "text": "Non of above"
+        }
+      ],
+      "correctAnswer": "2",
+      "reference": "2019 交換考詳解；AJNR Am J Neuroradiol 37:481-86",
+      "explanation": "正確答案為 **2**（錯誤敘述）。CBCT 的 temporal resolution **低於** MDCT（旋轉速度較慢）。其餘皆正確：spatial resolution 較高(1)、重建時間較長(3)、scatter artifact 較多(4)。\n\n→ [[cbct-vs-mdct]]",
+      "images": [],
+      "concepts": [
+        "cbct-vs-mdct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-345",
+      "year": 2019,
+      "number": 345,
+      "subspecialty": "BR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者有誤？關於 accessory breast tissue",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Accessory breast tissue is residual breast tissue from normal embryologic development"
+        },
+        {
+          "letter": "2",
+          "text": "Accessory breast tissue can be found in up to 36% of the population"
+        },
+        {
+          "letter": "3",
+          "text": "The highest incidence occurs in Japanese population, lowest in white individuals"
+        },
+        {
+          "letter": "4",
+          "text": "Supernumerary breasts are found along the milk line from anterior axillary folds to inguinal region and medial thigh"
+        },
+        {
+          "letter": "5",
+          "text": "Aberrant breast tissue is an island of breast tissue usually located in proximity to the normal breast"
+        }
+      ],
+      "correctAnswer": "2",
+      "reference": "2019 交換考詳解；AJR DOI:10.2214/AJR.13.10930",
+      "explanation": "正確答案為 **2**（錯誤敘述）。副乳組織盛行率約 **2-6%**，非 36%。\n\n→ [[accessory-breast-tissue]]",
+      "images": [],
+      "concepts": [
+        "accessory-breast-tissue"
       ],
       "checked": false
     }
