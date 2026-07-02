@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 260,
+  "totalQuestions": 277,
   "questions": [
     {
       "id": "2019-001",
@@ -9556,6 +9556,584 @@
       "images": [],
       "concepts": [
         "fahr-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-270",
+      "year": 2019,
+      "number": 270,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which nerve injury does NOT cause muscle atrophy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Trigeminal nerve (CN V)"
+        },
+        {
+          "letter": "B",
+          "text": "Vestibulocochlear nerve (CN VIII)"
+        },
+        {
+          "letter": "C",
+          "text": "Facial nerve (CN VII)"
+        },
+        {
+          "letter": "D",
+          "text": "Hypoglossal nerve (CN XII)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiopaedia: cranial nerves",
+      "explanation": "正確答案為 **B**（前庭耳蝸神經）。CN VIII 為純感覺神經（聽覺＋平衡），無運動纖維，損傷不會造成去神經化肌肉萎縮。CN V（咀嚼肌）、CN VII（面部表情肌）、CN XII（舌肌）損傷皆可致肌肉萎縮。\n\n→ [[cranial-nerve-muscle-atrophy]]",
+      "images": [],
+      "concepts": [
+        "cranial-nerve-muscle-atrophy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-272",
+      "year": 2019,
+      "number": 272,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG about location of tuber cinereum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inferior to hypothalamic sulcus"
+        },
+        {
+          "letter": "B",
+          "text": "Superior to infundibulum"
+        },
+        {
+          "letter": "C",
+          "text": "Between optic chiasm and mammillary body"
+        },
+        {
+          "letter": "D",
+          "text": "Posterior to mammillary bodies"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Diagnostic and surgical imaging anatomy: brain, head & neck, spine. P.88",
+      "explanation": "正確答案為 **D**（錯誤敘述）。Tuber cinereum 位於 mammillary body **前方**（anterior），非後方。它是介於 optic chiasm 與 mammillary body 之間的間腦膜，infundibulum 自此向下延伸至垂體柄。\n\n→ [[hypothalamic-anatomy]]",
+      "images": [],
+      "concepts": [
+        "hypothalamic-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-276",
+      "year": 2019,
+      "number": 276,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following structures makes up the boundary of the perineum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Puborectalis muscle"
+        },
+        {
+          "letter": "B",
+          "text": "Pubococcygeus muscle"
+        },
+        {
+          "letter": "C",
+          "text": "Sacrotuberous ligaments"
+        },
+        {
+          "letter": "D",
+          "text": "Bulbospongiosus muscle"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiographics. 2018 Jul-Aug;38(4):1111-1130",
+      "explanation": "正確答案為 **C**（薦結節韌帶）。會陰邊界：前方 pubic symphysis、前外側 ischiopubic ramus、**後外側 sacrotuberous ligament**、後方 coccyx/sacrum。A/B/D 皆為會陰區域肌肉，非邊界結構。\n\n→ [[perineum-anatomy-imaging]]",
+      "images": [],
+      "concepts": [
+        "perineum-anatomy-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-277",
+      "year": 2019,
+      "number": 277,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging findings allows differentiation of a urethral diverticulum from other periurethral cystic lesions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Posterolateral location"
+        },
+        {
+          "letter": "B",
+          "text": "Round or oval shape"
+        },
+        {
+          "letter": "C",
+          "text": "Proteinaceous component"
+        },
+        {
+          "letter": "D",
+          "text": "Direct continuity with the urethral lumen"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiographics. 2018 Jul-Aug;38(4):1111-1130",
+      "explanation": "正確答案為 **D**。尿道憩室與尿道管腔直接相通為其獨特鑑別特徵。Gartner duct cyst（陰道近端前外側）、Bartholin gland cyst（恥骨聯合以下後外側）、Skene duct cyst（外尿道口旁）均不與尿道管腔相通。\n\n→ [[urethral-diverticulum]]",
+      "images": [],
+      "concepts": [
+        "urethral-diverticulum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-278",
+      "year": 2019,
+      "number": 278,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What artery is the major blood supply to the perineum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lateral sacral artery"
+        },
+        {
+          "letter": "B",
+          "text": "Internal pudendal artery"
+        },
+        {
+          "letter": "C",
+          "text": "Obturator artery"
+        },
+        {
+          "letter": "D",
+          "text": "Inferior vesical artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2018 Jul-Aug;38(4):1111-1130",
+      "explanation": "正確答案為 **B**（內陰部動脈）。Internal pudendal artery 為內髂動脈前分支，是會陰區的主要血液供應。\n\n→ [[perineum-anatomy-imaging]]",
+      "images": [],
+      "concepts": [
+        "perineum-anatomy-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-279",
+      "year": 2019,
+      "number": 279,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What imaging modality is best for evaluation of urethral injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT with intravenous contrast material, delayed phase"
+        },
+        {
+          "letter": "B",
+          "text": "CT cystography"
+        },
+        {
+          "letter": "C",
+          "text": "Fluoroscopic retrograde urethrography"
+        },
+        {
+          "letter": "D",
+          "text": "Fluoroscopic cystography"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiographics. 2018 Jul-Aug;38(4):1111-1130",
+      "explanation": "正確答案為 **C**（透視引導逆行性尿道攝影）。RUG 為評估尿道損傷之 gold standard。CT cystography / fluoroscopic cystography 用於膀胱損傷。\n\n→ [[urethral-injury-imaging]]",
+      "images": [],
+      "concepts": [
+        "urethral-injury-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-280",
+      "year": 2019,
+      "number": 280,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What imaging modality is best for initial evaluation of scrotal injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "US"
+        },
+        {
+          "letter": "B",
+          "text": "CT"
+        },
+        {
+          "letter": "C",
+          "text": "MR imaging"
+        },
+        {
+          "letter": "D",
+          "text": "Retrograde urethrography"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Radiographics. 2018 Jul-Aug;38(4):1111-1130",
+      "explanation": "正確答案為 **A**（超音波）。US 為陰囊損傷初始評估首選：快速、無輻射、可即時評估睪丸完整性與血流。\n\n→ [[scrotal-trauma-imaging]]",
+      "images": [],
+      "concepts": [
+        "scrotal-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-281",
+      "year": 2019,
+      "number": 281,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to the classic radiological signs of ureter stricture is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Balloon on a string sign: Dilation of the renal collecting system and proximal ureter classically seen in UVJ obstruction >> UPJ"
+        },
+        {
+          "letter": "B",
+          "text": "Sawtooth appearance of the ureter: Occurs in patients with TB involvement of the ureter characterized by luminal irregularity with areas of narrowing and dilation"
+        },
+        {
+          "letter": "C",
+          "text": "Pipe stem ureter: Occurs later in the course of tuberculous involvement of the ureter with the ureter rigid and straight"
+        },
+        {
+          "letter": "D",
+          "text": "Corkscrew or beaded ureter: Seen after healing and fibrosis in patients with tuberculous involvement of the ureter"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Abdominal imaging, chap 63 Benign and Malignant Ureteral Strictures",
+      "explanation": "正確答案為 **A**（錯誤敘述）。Balloon on a string sign 經典見於 **UPJ 阻塞**，非 UVJ。選項敘述「UVJ obstruction >> UPJ」方向反了。\n\n→ [[ureter-stricture-signs]]",
+      "images": [],
+      "concepts": [
+        "ureter-stricture-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-282",
+      "year": 2019,
+      "number": 282,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Renal venous thrombosis is sometimes seen in radiological studies. Which of the following statement regarding to the cause of renal venous thrombosis is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Renal vein thrombosis in adults usually is due to a hypercoagulable state, most commonly nephrotic syndrome."
+        },
+        {
+          "letter": "B",
+          "text": "In children, it is usually associated with sepsis and dehydration"
+        },
+        {
+          "letter": "C",
+          "text": "Neoplastic invasion of the renal vein is more common in metastatic renal tumors than in primary renal tumors."
+        },
+        {
+          "letter": "D",
+          "text": "Mechanical compression of renal vein from abscess, tumor, lymphadenopathy, and aneurysm will cause renal venous thrombosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Abdominal imaging chap 65 Renal Vascular Diseases",
+      "explanation": "正確答案為 **C**（錯誤敘述）。腫瘤性腎靜脈侵犯在**原發性腎腫瘤（RCC）**比轉移性腎腫瘤更常見，選項 C 敘述反了。\n\n→ [[renal-venous-thrombosis]]",
+      "images": [],
+      "concepts": [
+        "renal-venous-thrombosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-283",
+      "year": 2019,
+      "number": 283,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following signs is not a classic finding of renal TB?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Papillary necrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Rice bodies"
+        },
+        {
+          "letter": "C",
+          "text": "Infundibular strictures with localized caliectasis"
+        },
+        {
+          "letter": "D",
+          "text": "End-stage renal parenchymal disease manifesting as a calcified putty kidney"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Abdominal imaging chap 64 Diffuse Renal Parenchymal Diseases",
+      "explanation": "正確答案為 **B**（Rice bodies）。Rice bodies 為**關節結核（TB arthritis）**之關節腔內特徵，非泌尿系統結核。腎結核經典表現包括乳頭壞死(A)、漏斗狹窄合併局部腎盞擴張(C)、灰泥腎(D)。\n\n→ [[renal-tuberculosis]]",
+      "images": [],
+      "concepts": [
+        "renal-tuberculosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-284",
+      "year": 2019,
+      "number": 284,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging strategy for acute pyelonephritis (APN) is least appropriate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CT is appropriate in adult patient who are diabetic, immunocompromised or complicated."
+        },
+        {
+          "letter": "B",
+          "text": "Reflux study is appropriate in pediatric patient who had suspected functional disorder of urinary system."
+        },
+        {
+          "letter": "C",
+          "text": "CT or MRI is appropriate in pediatric patient who had repeated pyelonephritis without definite findings in reflux study."
+        },
+        {
+          "letter": "D",
+          "text": "CT is important in patient with simple APN to exam the extend of infection."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Abdominal imaging chap 64 Diffuse Renal Parenchymal Diseases",
+      "explanation": "正確答案為 **D**（最不適當）。單純性 APN 不需常規 CT 評估感染範圍。CT 主要適用於複雜性、糖尿病/免疫低下(A)、或兒童反覆發作(C)。\n\n→ [[acute-pyelonephritis-imaging]]",
+      "images": [],
+      "concepts": [
+        "acute-pyelonephritis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-285",
+      "year": 2019,
+      "number": 285,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to the RCC is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Small RCCs (<3 cm) are more likely to be hyperechoic, which can lead to misdiagnosis as angiomyolipoma."
+        },
+        {
+          "letter": "B",
+          "text": "Despite their large size, chromophobe RCCs are homogeneously hyperechoic on ultrasonography"
+        },
+        {
+          "letter": "C",
+          "text": "Preoperative CT is more than 90% accurate in staging RCC, and distinguishes T2 from T3a lesions easily by observing perinephric stranding."
+        },
+        {
+          "letter": "D",
+          "text": "A chest radiograph is usually sufficient in the initial staging of RCC if the primary tumor is small (<3 cm)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Abdominal imaging chap 63 Benign, Malignant, and Cystic Focal Renal Lesions",
+      "explanation": "正確答案為 **C**（錯誤敘述）。CT 術前分期整體準確度高，但**無法可靠由 perinephric stranding 區分 T2 與 T3a**。腎周脂肪條紋可見於水腫/血管充血等非侵犯因素。\n\n→ [[renal-cell-carcinoma-imaging]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-286",
+      "year": 2019,
+      "number": 286,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical MRI finding of endometrial cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intermediate signal intensity on T2WI relative to normal endometrium"
+        },
+        {
+          "letter": "B",
+          "text": "Isointensity on T1WI relative to myometrium"
+        },
+        {
+          "letter": "C",
+          "text": "Low signal intensity on ADC map"
+        },
+        {
+          "letter": "D",
+          "text": "Hyperenhancement on post-contrast images"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Hricak H. Diagnostic Imaging: Gynecology. 2007. p 2-140~2-141",
+      "explanation": "正確答案為 **D**（非典型表現）。子宮內膜癌在 T1C+(Gd) 增強後**強化程度低於正常子宮內膜**，非高增強。A（T2WI 中等訊號）、B（T1WI 等訊號）、C（ADC 低訊號）皆為典型表現。\n\n→ [[endometrial-cancer-mri]]",
+      "images": [],
+      "concepts": [
+        "endometrial-cancer-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-287",
+      "year": 2019,
+      "number": 287,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT correct considering staging of endometrial cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intact junctional zone is suggestive of absence of deep myometrial invasion"
+        },
+        {
+          "letter": "B",
+          "text": "Disruption of low signal intensity cervical stroma is suggestive of cervical invasion"
+        },
+        {
+          "letter": "C",
+          "text": "Disruption of outer low signal line of uterus is suggestive of serosal invasion"
+        },
+        {
+          "letter": "D",
+          "text": "Bullous edema of urinary bladder wall is suggestive of bladder mucosal invasion > cystitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Hricak H. Diagnostic Imaging: Gynecology. 2007. p 2-150~2-152",
+      "explanation": "正確答案為 **D**（不正確敘述）。膀胱壁水泡狀水腫（bullous edema）提示膀胱炎（cystitis），而非膀胱黏膜侵犯。\n\n→ [[endometrial-cancer-mri]]",
+      "images": [],
+      "concepts": [
+        "endometrial-cancer-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-288",
+      "year": 2019,
+      "number": 288,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical image finding of ovarian mucinous cystadenoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Very large"
+        },
+        {
+          "letter": "B",
+          "text": "Multilocular cyst"
+        },
+        {
+          "letter": "C",
+          "text": "\"Spider web\" appearance"
+        },
+        {
+          "letter": "D",
+          "text": "\"Stained glass\" appearance"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Hricak H. Diagnostic Imaging: Gynecology. 2007. p 7-54~7-59",
+      "explanation": "正確答案為 **C**。\"Spider web\" appearance 為**腹膜包裹性囊腫（peritoneal inclusion cyst）**之特徵。黏液性囊腺瘤特徵為體積大(A)、多房(B)、\"stained glass\" appearance(D)。\n\n→ [[ovarian-mucinous-cystadenoma]]",
+      "images": [],
+      "concepts": [
+        "ovarian-mucinous-cystadenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-289",
+      "year": 2019,
+      "number": 289,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical image finding of ovarian fibrothecoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solid mass"
+        },
+        {
+          "letter": "B",
+          "text": "Low signal intensity on T2WI"
+        },
+        {
+          "letter": "C",
+          "text": "Early enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "Ascites (Meigs syndrome)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Hricak H. Diagnostic Imaging: Gynecology. 2007. p 7-28~7-31",
+      "explanation": "正確答案為 **C**。纖維莢膜瘤因富含纖維基質，動態增強呈**延遲弱增強（delayed weak enhancement）**，非早期增強。A/B/D 皆為典型表現。\n\n→ [[ovarian-fibrothecoma]]",
+      "images": [],
+      "concepts": [
+        "ovarian-fibrothecoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-290",
+      "year": 2019,
+      "number": 290,
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical image finding of ovarian mature cystic teratoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "High signal intensity on T1WI without fat saturation"
+        },
+        {
+          "letter": "B",
+          "text": "Shadowing on T2WI"
+        },
+        {
+          "letter": "C",
+          "text": "Wall calcifications on CT"
+        },
+        {
+          "letter": "D",
+          "text": "Fat-fluid level"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Hricak H. Diagnostic Imaging: Gynecology. 2007",
+      "explanation": "正確答案為 **B**。T2WI shadowing（shading sign）為**子宮內膜異位瘤（endometrioma）**特徵（含鐵血黃素致 T2 訊號降低），非成熟囊性畸胎瘤。\n\n→ [[ovarian-mature-cystic-teratoma]]",
+      "images": [],
+      "concepts": [
+        "ovarian-mature-cystic-teratoma"
       ],
       "checked": false
     }
