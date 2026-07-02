@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 276,
+  "totalQuestions": 283,
   "questions": [
     {
       "id": "2018-001",
@@ -3420,10 +3420,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.188；The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol. DOI 10.1007/s00401-016-1545-1.",
       "explanation": "Grade 1\nA. Grade 2-3\nB. Grade 2\nD. Grade 2-3",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "who-cns-tumor-grading"
+      ],
       "checked": false
     },
     {
@@ -10203,6 +10205,265 @@
       "images": [],
       "concepts": [
         "taiwan-child-mortality-oecd"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-277",
+      "year": 2018,
+      "number": 277,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings related to abusive children is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physically abused children, particularly infants, may present with nonspecific symptoms and signs, such as vomiting or apnea."
+        },
+        {
+          "letter": "B",
+          "text": "Physical findings, such as bruising of the face, neck, or torso, or intraoral lesions, such as torn frenula, in infants should not arouse suspicion of non-accidental trauma."
+        },
+        {
+          "letter": "C",
+          "text": "The evaluation of infants and young children for suspected inflicted trauma should include imaging of the brain and regional radiographs of symptomatic extremities."
+        },
+        {
+          "letter": "D",
+          "text": "the shaken-baby syndrome are attributable to shaking alone"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.183；N Engl J Med 2017;376:1659-66.",
+      "explanation": "受虐兒童(尤其嬰兒)可能以嘔吐、呼吸暫停等「非特異性」症狀表現，此為正確敘述。臉部/頸部/軀幹瘀傷或口腔內損傷(如舌繫帶撕裂)於嬰兒應「高度」懷疑非意外傷害(B錯，非「不應懷疑」)；評估應包含腦部影像與「全身」骨骼調查(skeletal survey)而非僅症狀肢體之局部攝影(C錯)；嬰兒搖晃症候群並非僅歸因於搖晃本身，常合併撞擊等其他機轉(D錯)。\n\n見 [[child-abuse-imaging]]",
+      "images": [],
+      "concepts": [
+        "child-abuse-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-278",
+      "year": 2018,
+      "number": 278,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings related to abusive children with head injury is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MRI is recommended if acute neurologic symptoms or signs, even nonspecific, are present."
+        },
+        {
+          "letter": "B",
+          "text": "Subdural hemorrhages frequently account for severe neurologic sequelae of head trauma"
+        },
+        {
+          "letter": "C",
+          "text": "A short fall may still frequently cause child’s severe intracranial injury."
+        },
+        {
+          "letter": "D",
+          "text": "Retinal hemorrhages are reported in approximately 85% of children with abusive head trauma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.184；N Engl J Med 2017;376:1659-66.",
+      "explanation": "視網膜出血於受虐性頭部創傷兒童中約85%可見，為正確敘述。急性神經學症狀/徵象出現時應優先安排CT（非MRI，A錯）；硬腦膜下出血雖可見但「通常不」是造成嚴重神經學後遺症的主因(B錯)；低處跌落極少造成兒童嚴重顱內損傷，非常見機轉(C錯)。\n\n見 [[child-abuse-imaging]]",
+      "images": [],
+      "concepts": [
+        "child-abuse-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-279",
+      "year": 2018,
+      "number": 279,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings related to use of contrast medium in breastfeeding women is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ought to discontinue breastfeeding after using all contrast media."
+        },
+        {
+          "letter": "B",
+          "text": "clear encouragement to continue breastfeeding after imaging with the iodine-containging contrast media."
+        },
+        {
+          "letter": "C",
+          "text": "no need to discontinue breastfeeding after imaging with MRI contrast media."
+        },
+        {
+          "letter": "D",
+          "text": "all breastfeeding mothers should temporarily discontinue breastfeeding after contrast media imaging."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.185；Eur Radiol. 2014 Aug;24(8):2012-22.",
+      "explanation": "靜脈注射含碘顯影劑後，血液中僅約1%進入母親乳汁，嬰兒消化道中乳汁內含碘對比劑再約1%進入嬰兒血液，故嬰兒實際吸收量僅約母親所接受劑量的0.01%，因此應明確鼓勵哺乳期婦女於注射含碘對比劑後「繼續」哺乳，不需暫停。並非所有顯影劑皆需停止哺乳(A、D錯)；含釓MRI對比劑則有微量(<0.04%)進入乳汁，為避免嬰兒吸入微量含釓對比劑，仍可建議暫停哺乳24小時(C錯，並非完全不需暫停)。\n\n見 [[contrast-media-safety]]",
+      "images": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-280",
+      "year": 2018,
+      "number": 280,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings about TB infection in pediatric patients is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Children are amongst the low-risk groups for developing tuberculosis worldwide."
+        },
+        {
+          "letter": "B",
+          "text": "Diagnostic and treatment algorithms of tuberculosis for children are similar to those of adults."
+        },
+        {
+          "letter": "C",
+          "text": "Subpleural nodules (“tree-in-bud” appearance) on CT scan are suggestive of active tuberculosis."
+        },
+        {
+          "letter": "D",
+          "text": "Radiologists have an important role to play in early diagnosis of TB infection because bacteriologic confirmation of the disease is often difficult in children"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.186；Pediatr Radiol (2017) 47:1260-1268.",
+      "explanation": "兒童結核病之細菌學確診(如痰液採檢、培養)常較成人困難，故放射科醫師於早期診斷上扮演重要角色，為正確敘述。兒童實為全球結核病發展之「高」風險族群之一(A錯)；兒童結核病之診斷與治療流程與成人「不」完全相同(B錯)；「tree-in-bud」表現實為「小葉中心性(centrilobular)」結節，非subpleural結節(C錯，此為考點常見混淆處)。\n\n見 [[pediatric-tuberculosis]]",
+      "images": [],
+      "concepts": [
+        "pediatric-tuberculosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-281",
+      "year": 2018,
+      "number": 281,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which should be included in the differential diagnosis of dural-based masses in AIDS patients?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Germ cell tumors."
+        },
+        {
+          "letter": "B",
+          "text": "EBV-associated smooth muscle tumors."
+        },
+        {
+          "letter": "C",
+          "text": "Neurogenic tumors."
+        },
+        {
+          "letter": "D",
+          "text": "Glial tumors."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.187；Mass Lesions of the Dura: Beyond Meningioma—Radiologic-Pathologic Correlation. RadioGraphics 2014;34:295-312.",
+      "explanation": "EBV相關平滑肌腫瘤(EBV-associated smooth muscle tumors, EBV-SMT)源自硬腦膜或腦血管之間質細胞，AIDS病人因免疫低下與EBV共感染而好發此類腫瘤(常稱EBV-SMT)，故應列入AIDS病人硬腦膜基底腫塊之鑑別診斷。生殖細胞瘤、神經源性腫瘤、神經膠質瘤皆非AIDS相關硬腦膜基底病灶之典型鑑別診斷。\n\n見 [[dural-based-masses-aids]]",
+      "images": [],
+      "concepts": [
+        "dural-based-masses-aids"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-282",
+      "year": 2018,
+      "number": 282,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is WRONG about intracranial lipoma.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tissue from all 3 embryonic germ layers."
+        },
+        {
+          "letter": "B",
+          "text": "20% in the infratentorial region."
+        },
+        {
+          "letter": "C",
+          "text": "Could have extensive calcifications."
+        },
+        {
+          "letter": "D",
+          "text": "40 – 50 % in the interhemispheric fissure."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.189；Diagnostic Imaging, Brain, Third edition, p.22.",
+      "explanation": "顱內脂肪瘤成因主流理論為「meninx primitiva（腦膜原基，即蛛網膜下腔前驅組織）之持續存在與分化不良」，此組織主要為「間質(mesenchymal)」來源(主要屬中胚層，僅軟膜最內層可能屬神經外胚層)，並非「來自所有3個胚層」之組織，故本敘述錯誤。約20%位於天幕下、可有廣泛鈣化、約40-50%位於大腦半球間裂，皆為正確描述。\n\n見 [[intracranial-lipoma]]",
+      "images": [],
+      "concepts": [
+        "intracranial-lipoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-283",
+      "year": 2018,
+      "number": 283,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is wrong about second impact syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Disproportionate mass effect of the acute subdural hemorrhage."
+        },
+        {
+          "letter": "B",
+          "text": "Repeated head trauma within “window of vulnerability”."
+        },
+        {
+          "letter": "C",
+          "text": "Can result catastrophic brain swelling with permanent disability or death."
+        },
+        {
+          "letter": "D",
+          "text": "Acute subdural hemorrhage usually > 0.5cm."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.190；Diagnostic Imaging, Brain, Third edition, p.206-207.",
+      "explanation": "二次撞擊症候群(second impact syndrome)之顱內急性硬腦膜下出血通常「薄(thin，<0.5cm)」，但可合併與其血腫大小不成比例(disproportionate)之嚴重中線偏移與腫塊效應，故「通常>0.5cm」為錯誤敘述。反覆頭部創傷發生於「易感窗期(window of vulnerability)」內、可致災難性腦腫脹合併永久失能或死亡、硬腦膜下出血合併不成比例腫塊效應，皆為正確描述。\n\n見 [[second-impact-syndrome]]",
+      "images": [],
+      "concepts": [
+        "second-impact-syndrome"
       ],
       "checked": false
     }
