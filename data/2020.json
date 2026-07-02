@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 257,
+  "totalQuestions": 261,
   "questions": [
     {
       "id": "2020-001",
@@ -9327,6 +9327,170 @@
       "images": [],
       "concepts": [
         "glomus-jugulare"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-258",
+      "year": 2020,
+      "number": 258,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關於利用心血管影像 (cardiovascular imaging)檢查小朋友(children)先天性心臟病(congenital heart diseases)的描述何者 錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "最新(2019)的心臟電腦斷層掃描攝影(cardiac computed tomography)，可以利用X光球管電壓電流的調控(X-ray tube current & voltage modulation)，可大幅降低輻射劑量(radiation dose)，甚至小於一個毫西弗(mSv)。"
+        },
+        {
+          "letter": "B",
+          "text": "目前臨床上使用的非侵襲性(non-invasive)心血管影像設備中（包括心臟超音波echocardiography、電腦斷層CT、磁振掃描MRI、核子醫學掃描nuclear medicine scan），就以電腦斷層掃描攝影(computed tomography)，能夠提供最高解析度(highest spatial resolution)的影像，適合用來找尋其他影像檢查不容易探查的微小構造，例如小朋友的冠狀動脈異常。"
+        },
+        {
+          "letter": "C",
+          "text": "心臟磁振掃描攝影(cardiac MRI)可以提供心臟各個腔室和血管，有關血行動力學(hemodynamics)的測量。"
+        },
+        {
+          "letter": "D",
+          "text": "心臟磁振掃描攝影(cardiac MRI)對於心臟肌肉(myocardium)的組織特性(tissue contrast)及接受顯影劑增強(contrast enhancement)的變化情形，優於心臟電腦斷層(cardiac CT)。"
+        },
+        {
+          "letter": "E",
+          "text": "以上的四項描述都沒有錯誤，都是正確的。"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Multimodality Appropriate Use Criteria for Noninvasive Cardiac Imaging: Expert Consensus of the Asian Society of Cardiovascular Imaging. Korean J Radiol. 2017 Nov-Dec;18(6):871-880.",
+      "explanation": "四項描述皆正確：(A)2019年起心臟CT可利用X光管電壓/電流調控大幅降低輻射劑量甚至<1mSv；(B)CT於四種非侵襲性心血管影像中提供最高空間解析度，適合找尋冠狀動脈異常等微小構造；(C)cardiac MRI可測量心臟腔室/血管之血行動力學；(D)cardiac MRI於心肌組織特性與顯影劑增強變化判讀優於cardiac CT。",
+      "images": [],
+      "concepts": [
+        "pediatric-cardiac-imaging-modality-selection"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-259",
+      "year": 2020,
+      "number": 259,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關利用心臟影像檢查（cardiac CT & cardiac MRI）診斷「右心室雙出口」(double outlet of right ventricle; DORV)的先天性心臟病 (congenital heart disease)要點中，下列何者 錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "按照英國派Anderson的定義，只要有其中一條大血管（主動脈或肺動脈）100%加上另外一條大血管（肺動脈或主動脈）超過50%的動脈瓣膜下(subvalvular)面積，由右心室的出來，便能診斷「右心室雙出口」(DORV)。"
+        },
+        {
+          "letter": "B",
+          "text": "按照美國派Van Praagh的定義，不管大動脈（主動脈或肺動脈）動脈瓣膜下(subvalvular)有多少面積是源出於右心室，但是這兩個大動脈動脈瓣(great arterial valve)和二尖瓣(mitral valve)中間務必要有肌肉層阻擋(block)住這兩個瓣膜之間「纖維的連結」(fibrous continuity)，才能夠診斷「右心室雙出口」。"
+        },
+        {
+          "letter": "C",
+          "text": "在「右心室雙出口」的個案中，正確診斷出心室中膈缺損(ventricular septal defect)的位置是靠近哪一個大動脈下面，對未來開刀術式的選擇相當重要。"
+        },
+        {
+          "letter": "D",
+          "text": "典型的「右心室雙出口」，兩條大動脈呈現併行(parallel arrangement)的排列。"
+        },
+        {
+          "letter": "E",
+          "text": "以上的四項描述都沒有錯誤，都是正確的。"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: How should we diagnose and differentiate hearts with double-outlet right ventricle? Cardiol Young. 2017 Jan;27(1):1-15.",
+      "explanation": "四項描述皆正確：(A)Anderson定義以動脈瓣膜下面積百分比(一條100%+另一條>50%)診斷DORV；(B)Van Praagh定義要求兩大動脈瓣與二尖瓣間有肌肉層阻隔(無fibrous continuity)；(C)VSD相對大動脈位置(subaortic/subpulmonary/doubly committed/non-committed)決定手術術式選擇；(D)典型DORV兩條大動脈呈parallel arrangement排列。",
+      "images": [],
+      "concepts": [
+        "dorv-diagnostic-criteria"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-260",
+      "year": 2020,
+      "number": 260,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關「成人期先天性心臟病」(adult congenital heart disease; ACHD)的描述何者 錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "在公共衛生普及並且醫療科技相對進步的國家，「成人期先天性心臟病」(ACHD)的比例比較高，2019年數據顯示，美國先天性心臟病門診中，已經有超過一半的個案，屬於成人。"
+        },
+        {
+          "letter": "B",
+          "text": "「成人期先天性心臟病」需要進一步接受心血管相關影像檢查(cardiac CT and/or cardiac MRI)的疾病種類分佈，和兒童期的先天性心臟病不一樣，佔最大比例的疾病別是原有的先天性心臟病，在手術開刀之後，慢性後期併發症，需要進一步處置。"
+        },
+        {
+          "letter": "C",
+          "text": "這些「成人期先天性心臟病」，也可能會有肺部和胸腔的問題或者是冠狀動脈的疾病，因而接受心血管或者是胸腔影像的掃描檢查，大大的增加放射診斷科醫師需診斷撰打此類報告的機會。"
+        },
+        {
+          "letter": "D",
+          "text": "若在沒有全面普及性兒童篩檢的情境下，某些特殊的先天性心臟病，有可能因為在孩童時期沒有明顯症狀，一直到了成人期才被發現，最典型的例子就是「部分的肺靜脈回流異常(partial anomalous pulmonary venous return)」，例如右上側肺靜脈(right upper pulmonary vein)異常回流注入上腔靜脈(superior vena cava)，孩童時期一直沒被發現，時間久之後，慢慢的造成了肺動脈高壓(pulmonary hypertension)，出現了症狀才來就醫。"
+        },
+        {
+          "letter": "E",
+          "text": "以上的四項描述都沒有錯誤，都是正確的。"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: 2018 AHA/ACC Guideline for the Management of Adults With Congenital Heart Disease: A Report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines. Circulation. 2019 Apr 2;139(14):e698-e800.",
+      "explanation": "四項描述皆正確：(A)2019年美國先天性心臟病門診已逾半數個案為成人；(B)ACHD影像疾病分佈以術後慢性後期併發症為主，與兒童期不同；(C)ACHD常合併肺部/胸腔/冠狀動脈疾病，增加放射科醫師判讀報告機會；(D)部分肺靜脈回流異常等疾病可能延遲至成人期因肺動脈高壓症狀才被發現。",
+      "images": [],
+      "concepts": [
+        "adult-congenital-heart-disease-followup"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-261",
+      "year": 2020,
+      "number": 261,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "下面有關「環形氣管-左肺動脈吊索症候群」(ring-sling syndrome)的描述何者 錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "氣管狹窄(tracheal stenosis)的涵蓋範圍(involved range)，經常遠遠超過左肺動脈吊索(left pulmonary artery sling)繞過氣管所壓迫的範圍。"
+        },
+        {
+          "letter": "B",
+          "text": "從胚胎發育學(embryogenesis)的角度來看，氣管發育不良(tracheal underdevelopment)是「因」，而左肺動脈吊索(left pulmonary artery sling)是「果」。"
+        },
+        {
+          "letter": "C",
+          "text": "如果只是將吊索的左肺動脈重新縫合(re-implantation)到主肺動脈幹(pulmonary trunk)，並沒辦法解決內在的(intrinsic)氣管狹窄(tracheal stenosis)的問題。"
+        },
+        {
+          "letter": "D",
+          "text": "這些發育不良(underdeveloped)相對狹窄的氣管，比起正常人而言反而「比較長」(longer)，因而有利於外科醫師進行「滑動氣管整形術」(sliding tracheoplasty)，用以改善氣管的狹窄。"
+        },
+        {
+          "letter": "E",
+          "text": "以上的四項描述都沒有錯誤，都是正確的。"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Left pulmonary artery sling complex: computed tomography and hypothesis of embryogenesis. Ann Thorac Surg. 2007 Nov;84(5):1645-50.；Excessive Tracheal Length in Patients With Congenital Tracheal Stenosis. Ann Thorac Surg. 2019 Jul;108(1):138-145.",
+      "explanation": "四項描述皆正確：(A)氣管狹窄範圍常超過吊索壓迫範圍；(B)氣管發育不良為因、左肺動脈吊索為果；(C)單純吊索復位無法解決內在性氣管狹窄；(D)發育不良氣管反而較長、carina角度較寬，有利於滑動氣管整形術，兼可恢復氣管支氣管形態。",
+      "images": [],
+      "concepts": [
+        "ring-sling-syndrome"
       ],
       "checked": false
     }
