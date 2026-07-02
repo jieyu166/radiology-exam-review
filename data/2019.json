@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 244,
+  "totalQuestions": 260,
   "questions": [
     {
       "id": "2019-001",
@@ -8964,6 +8964,598 @@
       "images": [],
       "concepts": [
         "ultrasound-fusion-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-250",
+      "year": 2019,
+      "number": 250,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "超音波對比劑 Sonazoid 在 Kupffer phase（post-vascular phase）時，微氣泡主要被以下何種細胞吞噬？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "肝細胞（hepatocyte）"
+        },
+        {
+          "letter": "B",
+          "text": "庫佛氏細胞（Kupffer cell）"
+        },
+        {
+          "letter": "C",
+          "text": "內皮細胞（endothelial cell）"
+        },
+        {
+          "letter": "D",
+          "text": "星狀細胞（satellite cell）"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Curr Pharm Des. 2012;18(15):2236-52",
+      "explanation": "正確答案為 **B（Kupffer cell）**。Sonazoid 為第二代超音波對比劑，約注射 10-15 分鐘後進入 Kupffer phase，微氣泡被庫佛氏細胞吞噬滯留，惡性病灶因缺乏 Kupffer cell 而呈現 defect。詳見 [[us-contrast-agents-sonazoid]]。",
+      "images": [],
+      "concepts": [
+        "us-contrast-agents-sonazoid"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-251",
+      "year": 2019,
+      "number": 251,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "請問在執行超音波導引射頻電燒(US-guided radiofrequency ablation)時，常使用以下何種方法來治療肝臟穹窿(hepatic dome)的病灶？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "融合影像"
+        },
+        {
+          "letter": "B",
+          "text": "人工復水"
+        },
+        {
+          "letter": "C",
+          "text": "超音波顯影劑"
+        },
+        {
+          "letter": "D",
+          "text": "難以治療，為射頻電燒的禁忌症"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；AJR Am J Roentgenol. 2008 Jan;190(1):91-8",
+      "explanation": "正確答案為 **B（人工復水 artificial ascites）**。注入生理食鹽水至肝臟表面與橫膈間，改善超音波視窗並作為隔熱層保護橫膈膜。詳見 [[us-guided-rfa-liver]]。",
+      "images": [],
+      "concepts": [
+        "us-guided-rfa-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-252",
+      "year": 2019,
+      "number": 252,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following types of tissue would have the lowest mean propagation velocity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Air"
+        },
+        {
+          "letter": "B",
+          "text": "Fat"
+        },
+        {
+          "letter": "C",
+          "text": "Blood"
+        },
+        {
+          "letter": "D",
+          "text": "Bone"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A（Air, 330 m/sec）**。超音波傳播速度：air(330) < fat(1450) < water(1480) < liver(1550) < kidney(1560) < blood(1570) < muscle(1580) < bone(4080 m/s)。詳見 [[ultrasound-physics-basics]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-253",
+      "year": 2019,
+      "number": 253,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "1 atmosphere (14.7 psi) = 101325 Pa, which is closest to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10kPa"
+        },
+        {
+          "letter": "B",
+          "text": "50kPa"
+        },
+        {
+          "letter": "C",
+          "text": "75kPa"
+        },
+        {
+          "letter": "D",
+          "text": "100kPa"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D（100kPa）**。1 atmosphere = 101,325 Pa = 101.325 kPa ≈ 100 kPa。詳見 [[ultrasound-physics-basics]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-254",
+      "year": 2019,
+      "number": 254,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is not a factor determining spatial resolution?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Frequency"
+        },
+        {
+          "letter": "B",
+          "text": "Transmit intensity"
+        },
+        {
+          "letter": "C",
+          "text": "Pulse interval"
+        },
+        {
+          "letter": "D",
+          "text": "Acquisition"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D（Acquisition）**。影響 spatial resolution 的因素包括 frequency、transmit intensity、pulse interval，但 acquisition 不是。詳見 [[ultrasound-physics-basics]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-255",
+      "year": 2019,
+      "number": 255,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Avulsion fracture of the medial epicondyle of the humerus may be seen in ___?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a young baseball pitcher"
+        },
+        {
+          "letter": "B",
+          "text": "a young tennis player"
+        },
+        {
+          "letter": "C",
+          "text": "a young runner"
+        },
+        {
+          "letter": "D",
+          "text": "a young basketball player"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Fundamentals of Pediatric Radiology, p.177",
+      "explanation": "正確答案為 **A（young baseball pitcher）**。肱骨內上髁撕裂性骨折好發於年輕棒球投手（Little Leaguer's elbow），因反覆投球 valgus stress 造成。詳見 [[medial-epicondyle-avulsion]]。",
+      "images": [],
+      "concepts": [
+        "medial-epicondyle-avulsion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-256",
+      "year": 2019,
+      "number": 256,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the followings is the least common cause of intestinal obstruction in neonates?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Midgut volvulus"
+        },
+        {
+          "letter": "B",
+          "text": "Duodenal atresia"
+        },
+        {
+          "letter": "C",
+          "text": "Annular pancreas"
+        },
+        {
+          "letter": "D",
+          "text": "Acute appendicitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 99",
+      "explanation": "正確答案為 **D（Acute appendicitis）**。急性闌尾炎極罕見於新生兒。Midgut volvulus、duodenal atresia、annular pancreas 皆為新生兒腸阻塞常見原因。詳見 [[neonatal-intestinal-obstruction]]。",
+      "images": [],
+      "concepts": [
+        "neonatal-intestinal-obstruction"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-257",
+      "year": 2019,
+      "number": 257,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "According to Salter-Harris classification, which type of fracture refers to fracture involving the physis only?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type 1"
+        },
+        {
+          "letter": "B",
+          "text": "Type 2"
+        },
+        {
+          "letter": "C",
+          "text": "Type 3"
+        },
+        {
+          "letter": "D",
+          "text": "Type 4"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 174",
+      "explanation": "正確答案為 **A（Type 1）**。Salter-Harris Type I = 僅通過生長板（physis only）的骨折，X光可能正常。詳見 [[salter-harris]]。",
+      "images": [],
+      "concepts": [
+        "salter-harris"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-258",
+      "year": 2019,
+      "number": 258,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "According to Salter-Harris classification, which type of fracture consists of a crush injury to part or all of a physis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type 2"
+        },
+        {
+          "letter": "B",
+          "text": "Type 3"
+        },
+        {
+          "letter": "C",
+          "text": "Type 4"
+        },
+        {
+          "letter": "D",
+          "text": "Type 5"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 175",
+      "explanation": "正確答案為 **D（Type 5）**。Salter-Harris Type V = 生長板壓碎傷（crush injury），X光可能初期正常，診斷常為回顧性。詳見 [[salter-harris]]。",
+      "images": [],
+      "concepts": [
+        "salter-harris"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-259",
+      "year": 2019,
+      "number": 259,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "According to grading system for vesicoureteral reflux, ___ is defined by the presence of a very tortuous, dilated ureter.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Grade II reflux"
+        },
+        {
+          "letter": "B",
+          "text": "Grade III reflux"
+        },
+        {
+          "letter": "C",
+          "text": "Grade IV reflux"
+        },
+        {
+          "letter": "D",
+          "text": "Grade V reflux"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 146",
+      "explanation": "正確答案為 **D（Grade V reflux）**。Grade V = 嚴重擴張的輸尿管及腎盂腎盞系統 + 輸尿管迂曲（tortuous）+ 乳頭壓痕消失。詳見 [[vesicoureteral-reflux-grading]]。",
+      "images": [],
+      "concepts": [
+        "vesicoureteral-reflux-grading"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-261",
+      "year": 2019,
+      "number": 261,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About inflammatory lesions of the temporal bone, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "External auditory canal cholesteatoma is a rare lesion with an incidence of approximately 1%-5%."
+        },
+        {
+          "letter": "B",
+          "text": "Keratosis obturans often occurs in younger patients and tends to be bilateral."
+        },
+        {
+          "letter": "C",
+          "text": "Necrotizing or malignant otitis externa most commonly occurs in young female without underlying disease."
+        },
+        {
+          "letter": "D",
+          "text": "External auditory canal cholesteatoma can be easily differentiated from entities such as carcinoma and otitis externa."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology 2013; 269:17-33",
+      "explanation": "正確答案為 **B**。Keratosis obturans 好發 <40 歲年輕人，50% 雙側。A 錯（EAC cholesteatoma 發生率約 0.1-0.5%，非 1-5%）。C 錯（necrotizing OE 好發老年糖尿病/免疫低下，非年輕女性）。D 錯（影像非特異性，可被 carcinoma 和 OE 模擬）。詳見 [[temporal-bone-inflammatory]]。",
+      "images": [],
+      "concepts": [
+        "temporal-bone-inflammatory"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-262",
+      "year": 2019,
+      "number": 262,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About temporal bone fracture, which one is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The transverse fracture type is more common."
+        },
+        {
+          "letter": "B",
+          "text": "Classification of temporal bone fractures is according to their orientation relative to the long axis of the petrous pyramid."
+        },
+        {
+          "letter": "C",
+          "text": "A transverse fracture is associated with a higher risk of facial nerve injury."
+        },
+        {
+          "letter": "D",
+          "text": "Conductive hearing loss after temporal bone trauma is usually related to hemotympanum or tympanic membrane rupture, rather than ossicular chain disruption."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Radiology 2015; 276:655-672",
+      "explanation": "正確答案為 **A**（錯誤敘述）。**Longitudinal fracture 才是最常見（70-80%）**，非 transverse。B、C、D 皆為正確敘述。詳見 [[temporal-bone-fracture]]。",
+      "images": [],
+      "concepts": [
+        "temporal-bone-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-263",
+      "year": 2019,
+      "number": 263,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About large vestibular aqueduct syndrome, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rarely occurs simultaneously with other inner ear abnormalities."
+        },
+        {
+          "letter": "B",
+          "text": "Large vestibular aqueduct is the most common findings on CT for pediatric patient with sensorineural hearing loss."
+        },
+        {
+          "letter": "C",
+          "text": "No genetic cause has been found."
+        },
+        {
+          "letter": "D",
+          "text": "The vestibular aqueduct was considered enlarged when it measured greater than 0.6 mm at the midpoint at tomography greater than 1.5 mm."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiology 2015; 276:655-672",
+      "explanation": "正確答案為 **B**。LVA 是兒童 SNHL CT 上最常見的發現。A 錯（常合併其他內耳異常）。C 錯（SLC26A4 基因突變約 27%）。D 的敘述其實是 LVA 的判定標準描述，但選項語句不完整（missing \"or\"），且 B 為最佳正確答案。詳見 [[large-vestibular-aqueduct]]。",
+      "images": [],
+      "concepts": [
+        "large-vestibular-aqueduct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-264",
+      "year": 2019,
+      "number": 264,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "About otosclerosis, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It seldom involves bilaterally."
+        },
+        {
+          "letter": "B",
+          "text": "CT is not useful for identifying causes of post-stapedectomy failure."
+        },
+        {
+          "letter": "C",
+          "text": "Retrofenestral otosclerosis rarely occurs in isolation and is almost always seen in association with fenestral otosclerosis."
+        },
+        {
+          "letter": "D",
+          "text": "Retrofenestral otosclerosis manifests as a characteristic \"halo\" around the oval window."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Radiology 2015; 276:655-672",
+      "explanation": "正確答案為 **C**。Retrofenestral otosclerosis 幾乎不單獨出現，通常伴隨 fenestral 病變。A 錯（frequently bilateral）。B 錯（CT 可用於評估 post-stapedectomy failure）。D 錯（retrofenestral 表現為 cochlea 周圍 halo，非 oval window）。詳見 [[otosclerosis]]。",
+      "images": [],
+      "concepts": [
+        "otosclerosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-265",
+      "year": 2019,
+      "number": 265,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is contraindication of intra-arterial thrombectomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Alberta stroke programme early CT score = 6"
+        },
+        {
+          "letter": "B",
+          "text": "The National Institutes of Health Stroke Scale = 6"
+        },
+        {
+          "letter": "C",
+          "text": "The modified Rankin Scale = 6"
+        },
+        {
+          "letter": "D",
+          "text": "The Glasgow Coma Scale = 6"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Stroke. 1988;19:604-607",
+      "explanation": "正確答案為 **C（mRS = 6）**。Modified Rankin Scale 6 = 死亡，為絕對禁忌症。ASPECTS 6 仍可考慮治療（美國建議 ≥6），NIHSS 6 在治療範圍內，GCS 6 非特定禁忌。詳見 [[intra-arterial-thrombectomy]]。",
+      "images": [],
+      "concepts": [
+        "intra-arterial-thrombectomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-266",
+      "year": 2019,
+      "number": 266,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one is WRONG about Fahr Disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bilateral symmetric calcifications in basal ganglia."
+        },
+        {
+          "letter": "B",
+          "text": "The calcification is usually hyperintense on T1WI."
+        },
+        {
+          "letter": "C",
+          "text": "There is no infantile form."
+        },
+        {
+          "letter": "D",
+          "text": "Onset of clinical symptoms is typically 30-60 years."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Diagnostic Imaging, Brain, Third edition, p.876-879",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Fahr disease 有文獻報告存在 infantile form，\"no infantile form\" 為不正確。A（雙側對稱基底核鈣化）、B（T1WI 高訊號）、D（30-60 歲發病）皆為正確敘述。詳見 [[fahr-disease]]。",
+      "images": [],
+      "concepts": [
+        "fahr-disease"
       ],
       "checked": false
     }
