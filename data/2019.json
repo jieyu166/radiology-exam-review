@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 227,
+  "totalQuestions": 244,
   "questions": [
     {
       "id": "2019-001",
@@ -8319,6 +8319,651 @@
       "images": [],
       "concepts": [
         "contrast-induced-nephropathy-prevention"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-230",
+      "year": 2019,
+      "number": 230,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "關於 metformin 受檢者敘述，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Metformin 最嚴重副作用乳酸中毒，發生率低但致死率高達 30-50%"
+        },
+        {
+          "letter": "B",
+          "text": "腎絲球過濾率介於 30-45ml/min/1.73m2, metformin 應減量使用"
+        },
+        {
+          "letter": "C",
+          "text": "腎絲球過濾率小於等於 30ml/min/1.73m2, 禁止使用 metformin"
+        },
+        {
+          "letter": "D",
+          "text": "使用 metformin 患者在注射含釓對比劑, 即使劑量在一般範圍時 (0.1-0.2 mmol/kg), 仍須暫停使用 metformin。"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；2017 中華民國放射線醫學會對比劑使用指引, 24 頁",
+      "explanation": "正確答案為 **D**（錯誤敘述）。依現行指引，注射一般劑量含釓對比劑（0.1-0.3 mmol/kg）不須停用 metformin。A(乳酸中毒致死率高)、B(eGFR 30-45減量)、C(eGFR≤30禁用)皆為正確敘述。詳見 [[contrast-media-safety]]。",
+      "images": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-231",
+      "year": 2019,
+      "number": 231,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "According to ACR BI-RADS 5th edition for mammography, which of the following statements is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A group of amorphous calcifications: category 4A"
+        },
+        {
+          "letter": "B",
+          "text": "A solid mass with indistinct margin: category 4B"
+        },
+        {
+          "letter": "C",
+          "text": "A new indistinct, irregular solid mass: category 4C"
+        },
+        {
+          "letter": "D",
+          "text": "New fine linear and branching calcifications in segmental distribution: category 5"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；ACR BI-RADS ATLAS 2013, mammography, p153-154",
+      "explanation": "正確答案為 **A**（錯誤敘述）。Amorphous calcifications 屬 suspicious morphology，歸類為 category 4B（非 4A）。Indistinct margin mass = 4B，new irregular mass = 4C，fine linear/branching calcifications in segmental distribution = category 5。詳見 [[breast-calcifications]]。",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-232",
+      "year": 2019,
+      "number": 232,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding abnormal enhancement on breast MRI, which of the following statements is suggestive of benign lesion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rim enhancement of a solid mass"
+        },
+        {
+          "letter": "B",
+          "text": "A circumscribed mass with non-enhancing, dark, internal septation"
+        },
+        {
+          "letter": "C",
+          "text": "Non-mass enhancement with clumped internal enhancement pattern"
+        },
+        {
+          "letter": "D",
+          "text": "Non-mass enhancement with linear distribution"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；ACR BI-RADS ATLAS 2013, MRI, p14-15",
+      "explanation": "正確答案為 **B**。Circumscribed mass with non-enhancing dark internal septation 提示良性（如 fibroadenoma）。Rim enhancement（非典型囊腫惡性率~40%）、enhancing internal septation、clumped/linear non-mass enhancement 均提示惡性。詳見 [[breast-mri-enhancement-patterns]]。",
+      "images": [],
+      "concepts": [
+        "breast-mri-enhancement-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-234",
+      "year": 2019,
+      "number": 234,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following gadolinium doses is most appropriate for assessment of myocardial viability?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.01 mmol/kg"
+        },
+        {
+          "letter": "B",
+          "text": "0.2 mmol/kg"
+        },
+        {
+          "letter": "C",
+          "text": "0.5 mmol/kg"
+        },
+        {
+          "letter": "D",
+          "text": "1 mmol/kg"
+        },
+        {
+          "letter": "E",
+          "text": "Standard dose of 100 mmol (not weight-based)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Cardiovascular MRI: 150 MCQ, P. 106",
+      "explanation": "正確答案為 **B（0.2 mmol/kg）**。LGE viability assessment 使用 0.1-0.2 mmol/kg gadolinium，注射後至少等待 10 分鐘再擷取影像。Perfusion imaging 使用較低劑量（0.05-0.1 mmol/kg）。詳見 [[cardiac-mri-delayed-enhancement]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-delayed-enhancement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-235",
+      "year": 2019,
+      "number": 235,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "A 23-year-old man presents with fever, pleuritic chest pain, diffuse ST segment elevation, and serum troponin level elevation. A clinical diagnosis of viral myocarditis is made. Which of the following CMR findings would be most consistent with the diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A dilated and paper-thin right ventricular free wall with areas of fatty infiltration"
+        },
+        {
+          "letter": "B",
+          "text": "A dilated left ventricle with severe aortic regurgitation"
+        },
+        {
+          "letter": "C",
+          "text": "A thickened pericardium with normal left ventricular function and no pericardial effusion"
+        },
+        {
+          "letter": "D",
+          "text": "A normal size left ventricle with focal mid and subepicardial gadolinium enhancement"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Cardiovascular MRI: 150 MCQ, P. 60",
+      "explanation": "正確答案為 **D**。Viral myocarditis 的 CMR 典型表現為 mid-wall 或 subepicardial delayed enhancement。A = ARVC，B = valvular disease，C = constrictive pericarditis。詳見 [[cardiac-mri-delayed-enhancement]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-delayed-enhancement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-236",
+      "year": 2019,
+      "number": 236,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following findings is suggestive of poor outcome in an adult patient with thalassemia major?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase of the myocardial T1 at rest"
+        },
+        {
+          "letter": "B",
+          "text": "Increase of the myocardial T1 with vasodilation"
+        },
+        {
+          "letter": "C",
+          "text": "Decrease of the T2* of the myocardium at rest"
+        },
+        {
+          "letter": "D",
+          "text": "Increase of the T2* of the myocardium at rest"
+        },
+        {
+          "letter": "E",
+          "text": "Increase of the T2 of the myocardium at rest"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Cardiovascular MRI: 150 MCQ, P. 73",
+      "explanation": "正確答案為 **C（Decrease of T2*）**。T2* 下降代表心肌鐵沉積增加，T2* <20 ms 異常，<10 ms 嚴重且 heart failure 風險顯著增加。詳見 [[cardiac-mri-iron-overload]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-iron-overload"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-237",
+      "year": 2019,
+      "number": 237,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "A patient with multiple myeloma and heart failure is referred for a CMR study. Which of the following findings would be most consistent with cardiac amyloidosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dilated and hyperdynamic left ventricle with small atria"
+        },
+        {
+          "letter": "B",
+          "text": "Thickened pericardium"
+        },
+        {
+          "letter": "C",
+          "text": "Asymmetric septal hypertrophy"
+        },
+        {
+          "letter": "D",
+          "text": "Patchy myocardial uptake of contrast, with difficult to completely suppress myocardial signal with inversion-recovery sequences obtained 20 minutes after contrast administration"
+        },
+        {
+          "letter": "E",
+          "text": "Focal subendocardial delayed contrast enhancement with regional wall motion abnormality"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Cardiovascular MRI: 150 MCQ, P. 82",
+      "explanation": "正確答案為 **D**。Cardiac amyloidosis 特徵為 global/diffuse subendocardial LGE + 異常 gadolinium kinetics（心肌 T1 與血池相近，null point 難以設定，IR 序列難以完全抑制心肌訊號）。E 為 ischemic pattern。詳見 [[cardiac-mri-delayed-enhancement]]。",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-delayed-enhancement"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-239",
+      "year": 2019,
+      "number": 239,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is not true in the radiographic features in congenital syphilis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bony changes of congenital syphilis predominately involve the bone metaphyses."
+        },
+        {
+          "letter": "B",
+          "text": "Bony involvement includes metaphyseal lucent bands, which may be a nonspecific response to systemic illness or may be due to syphilitic granulation tissue in the metaphyses."
+        },
+        {
+          "letter": "C",
+          "text": "A more specific finding is localized bony destruction of the medial portion of the proximal tibial metaphysis (Wimberger sign)."
+        },
+        {
+          "letter": "D",
+          "text": "Other findings include metaphyseal serration (\"sawtooth metaphyses\"), and diaphyseal involvement with periosteal reaction."
+        },
+        {
+          "letter": "E",
+          "text": "Bony destruction in congenital syphilis may not lead to pathologic fractures, and may mimic battered child syndrome."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；Pediatric Radiology Case of the Week, Virginia Commonwealth University, May 2005",
+      "explanation": "正確答案為 **E**（錯誤敘述）。先天性梅毒之骨破壞「可以」導致病理性骨折（may lead to pathologic fractures），而非「不會」。A-D 皆為正確敘述。詳見 [[congenital-syphilis-skeletal]]。",
+      "images": [],
+      "concepts": [
+        "congenital-syphilis-skeletal"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-241",
+      "year": 2019,
+      "number": 241,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The three common pediatric primary tracheal & bronchial neoplasms are 1) tracheal hemangioma, 2) papillomatosis, 3) carcinoid tumor.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1+2"
+        },
+        {
+          "letter": "B",
+          "text": "2+3"
+        },
+        {
+          "letter": "C",
+          "text": "1+3"
+        },
+        {
+          "letter": "D",
+          "text": "1+2+3"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Radiologic Clinics of North America Vol 55, Issue 4, July 2017, pp 657-676",
+      "explanation": "正確答案為 **D（1+2+3）**。三者皆為常見兒童原發氣管/支氣管腫瘤：hemangioma（聲門下）、papillomatosis（喉部為主）、carcinoid tumor（最常見，中央支氣管）。詳見 [[pediatric-airway-neoplasms]]。",
+      "images": [],
+      "concepts": [
+        "pediatric-airway-neoplasms"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-242",
+      "year": 2019,
+      "number": 242,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "The accessory cardiac bronchus most commonly arises from which of the following site?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medial wall of LLL bronchus"
+        },
+        {
+          "letter": "B",
+          "text": "Medial wall of RLL bronchus"
+        },
+        {
+          "letter": "C",
+          "text": "Medial wall of bronchus intermedius"
+        },
+        {
+          "letter": "D",
+          "text": "Medial wall of RML bronchus"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 1",
+      "explanation": "正確答案為 **C（Medial wall of bronchus intermedius）**。副心臟支氣管最常見起源自中間支氣管內側壁。詳見 [[accessory-cardiac-bronchus]]。",
+      "images": [],
+      "concepts": [
+        "accessory-cardiac-bronchus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-243",
+      "year": 2019,
+      "number": 243,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most characteristic feature of pulmonary involvement of Kaposi's sarcoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pleural nodules and effusion"
+        },
+        {
+          "letter": "B",
+          "text": "Peribronchovascular flame-shaped nodules"
+        },
+        {
+          "letter": "C",
+          "text": "Thickening of peribronchovascular interstitium"
+        },
+        {
+          "letter": "D",
+          "text": "Lymphadenopathy"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 124",
+      "explanation": "正確答案為 **B（Peribronchovascular flame-shaped nodules）**。肺 Kaposi sarcoma 最具特徵性表現為支氣管血管周圍火焰狀（ill-defined）結節，雙側大致對稱分布。詳見 [[pulmonary-kaposi-sarcoma]]。",
+      "images": [],
+      "concepts": [
+        "pulmonary-kaposi-sarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-244",
+      "year": 2019,
+      "number": 244,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is the most common type of congenital pulmonary adenomatoid malformation (CPAM)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type I"
+        },
+        {
+          "letter": "B",
+          "text": "Type II"
+        },
+        {
+          "letter": "C",
+          "text": "Type III"
+        },
+        {
+          "letter": "D",
+          "text": "Type IV"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 6",
+      "explanation": "正確答案為 **A（Type I）**。CPAM Type I 最常見（~65%），含大囊（>2 cm），預後最佳。詳見 [[cpam-congenital-pulmonary]]。",
+      "images": [],
+      "concepts": [
+        "cpam-congenital-pulmonary"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-245",
+      "year": 2019,
+      "number": 245,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is the most common type of mediastinal malignant germ cell tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Seminoma"
+        },
+        {
+          "letter": "B",
+          "text": "Embryonal carcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Malignant teratoma"
+        },
+        {
+          "letter": "D",
+          "text": "Endodermal sinus (yolk sac) tumor"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 225",
+      "explanation": "正確答案為 **A（Seminoma）**。Seminoma 為縱膈腔最常見之惡性生殖細胞瘤（約占 40%）。整體而言 mature teratoma 最常見（良性），但 seminoma 為單一組織型態惡性之首。詳見 [[mediastinal-germ-cell-tumors]]。",
+      "images": [],
+      "concepts": [
+        "mediastinal-germ-cell-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-246",
+      "year": 2019,
+      "number": 246,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of cholelithiasis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Posterior acoustic shadow"
+        },
+        {
+          "letter": "B",
+          "text": "Echogenic foci"
+        },
+        {
+          "letter": "C",
+          "text": "Comet-tail artifact"
+        },
+        {
+          "letter": "D",
+          "text": "Gravity dependent movement"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. 2-6~2-9",
+      "explanation": "正確答案為 **C（Comet-tail artifact）**。Comet-tail artifact 為 adenomyomatosis 的特徵，非膽結石典型表現。膽結石典型三聯徵：echogenic foci + posterior acoustic shadow + gravity-dependent movement。詳見 [[cholelithiasis-ultrasound]]。",
+      "images": [],
+      "concepts": [
+        "cholelithiasis-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-247",
+      "year": 2019,
+      "number": 247,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of pyogenic liver abscess?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Variable echogenicity"
+        },
+        {
+          "letter": "B",
+          "text": "Well-defined to irregular border"
+        },
+        {
+          "letter": "C",
+          "text": "Vascularity in thick wall portion on color Doppler"
+        },
+        {
+          "letter": "D",
+          "text": "Posterior acoustic shadow"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. p 1-42~1-47",
+      "explanation": "正確答案為 **D（Posterior acoustic shadow）**。Posterior acoustic shadow 為 solid lesion/calcification 特徵，非化膿性肝膿瘍典型表現。肝膿瘍典型表現為 variable echogenicity、irregular border、thick wall vascularity。詳見 [[pyogenic-liver-abscess-ultrasound]]。",
+      "images": [],
+      "concepts": [
+        "pyogenic-liver-abscess-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-248",
+      "year": 2019,
+      "number": 248,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following is NOT a typical ultrasound finding of cirrhosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nodular contour"
+        },
+        {
+          "letter": "B",
+          "text": "Increased parenchymal echogenicity"
+        },
+        {
+          "letter": "C",
+          "text": "Atrophy of caudate lobe"
+        },
+        {
+          "letter": "D",
+          "text": "Splenomegaly"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. p 1-10~1-13",
+      "explanation": "正確答案為 **C（Atrophy of caudate lobe）**（錯誤敘述）。肝硬化時 caudate lobe 因獨立靜脈回流而代償性「增大（hypertrophy）」，非萎縮。Nodular contour、increased echogenicity、splenomegaly 皆為典型表現。詳見 [[cirrhosis-ultrasound]]。",
+      "images": [],
+      "concepts": [
+        "cirrhosis-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-249",
+      "year": 2019,
+      "number": 249,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "以下關於超音波融合影像(ultrasound fusion imaging)的描述何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "通常超音波與磁振造影(MRI)的對位較電腦斷層(CT)準"
+        },
+        {
+          "letter": "B",
+          "text": "在調整對位時，通常超音波的影像與電能斷層/磁振造影的影像會連動"
+        },
+        {
+          "letter": "C",
+          "text": "左肝常以左門靜脈的臍部作為標定"
+        },
+        {
+          "letter": "D",
+          "text": "右肝常以右門靜脈分叉作為標定"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Lee MW. Ultrasonography 2014;33(4):227-239",
+      "explanation": "正確答案為 **B**（錯誤敘述）。調整對位時移動的是 CT/MRI 影像，超音波為即時影像不動，兩者不會連動。MRI 對位較 CT 準（A正確），左肝以左門靜脈臍部標定（C正確），右肝以右門靜脈分叉標定（D正確）。詳見 [[ultrasound-fusion-imaging]]。",
+      "images": [],
+      "concepts": [
+        "ultrasound-fusion-imaging"
       ],
       "checked": false
     }

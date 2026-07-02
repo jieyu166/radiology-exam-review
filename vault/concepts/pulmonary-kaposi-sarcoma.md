@@ -5,7 +5,7 @@ subspecialty: [CH]
 aliases:
   - pulmonary Kaposi sarcoma
   - 肺卡波西肉瘤
-dateRev: 2026-06-19
+dateRev: 2026-07-02
 ---
 
 # pulmonary-kaposi-sarcoma
@@ -23,8 +23,14 @@ dateRev: 2026-06-19
 > [!note] 考點：關於 pulmonary Kaposi sarcoma,何者「錯誤」?
 > 官方答案 **D**（「為 AIDS 病患最常見的肺部惡性腫瘤」之敘述）。1-3 cm 結節(A)、幾乎都先有皮膚/內臟病灶(B)、粗線狀影自肺門放射(C)皆為其典型表現。[^1]
 
+## Summary — 2019 補充
+- 最具特徵性表現：**peribronchovascular flame-shaped (ill-defined) nodules**，雙側大致對稱。[^2]
+- 其他：interlobular septal thickening、lymphadenopathy（50%，high attenuation）、pleural effusion。[^2]
+
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Primer of Diagnostic Imaging 5th ed., p.18：肺 KS 沿支氣管血管束自肺門放射的結節/線狀影、幾乎都先有皮膚/內臟 KS;KS 為 AIDS 最常見相關惡性腫瘤、淋巴瘤次之。
+[^2]: 2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 124。
 
 ## 題目
 > [!question]- 關於 pulmonary Kaposi sarcoma,何者「錯誤」? (2017-157)
