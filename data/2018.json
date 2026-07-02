@@ -216,10 +216,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.170；ACR BI-RADS Mammography 2013, p13-14.",
       "explanation": "~~nodule~~ mass ... space occupying lesion",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
       "checked": false
     },
     {
@@ -1221,10 +1223,12 @@
         }
       ],
       "correctAnswer": "E",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.168；RadioGraphics 2017;37:1371-1387. https://doi.org/10.1148/rg.2017170015",
       "explanation": "根據文章，治療ICI-related pneumonitis包含停藥，steroid治療。嚴重患者還需要其他免疫抑制劑治療。約三分之一的患者在肺炎成功治療後，可以重新使用ICI治療，但25-28% 患者可能復發。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "immune-checkpoint-inhibitor-pneumonitis"
+      ],
       "checked": false
     },
     {
@@ -1260,10 +1264,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.169；Thoracic Complications of Precision Cancer Therapies. RadioGraphics 2017;37:1372.",
       "explanation": "錯誤。看起來硬加not進去。文中有一段是Pulmonary Edema  and Pleural Effusion due to  Molecular Targeting Therapy，常見藥物有BCR-ABL kinase inhibitors。\nD. 文中表格Tyrosine kinase inhibitor，VEGF inhibitor可能引起pneumothorax.\n\n---\n#### 其他說明\nhttps://pubs.rsna.org/doi/full/10.1148/rg.210146\nCheckpoint inhibitor–associated MIPI 最常見的表現是 OP(organizing pneumonia) pattern，接著是 fibrotic NSIP and centrilobular GGN patterns。有一些會以fibrosing OP呈現。因為和T cell有關，表現也可能會像 sarcoidosis。\n\n#### RA drugs\n RadioGraphics 2021; 41:32-55",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "vegf-inhibitor-thoracic-complications"
+      ],
       "checked": false
     },
     {
@@ -1390,8 +1396,12 @@
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
-      "questionText": "Which of the following description about interstitial pneumonitis is **WRONG**? A . LIP presents as ground-glass opacity, poorly defined centrilobular nodules, thin-walled cysts and air trapping. More common in younger patients.",
+      "questionText": "Which of the following description about interstitial pneumonitis is WRONG?",
       "options": [
+        {
+          "letter": "A",
+          "text": "LIP presents as ground-glass opacity, poorly defined centrilobular nodules, thin-walled cysts and air trapping. More common in younger patients."
+        },
         {
           "letter": "B",
           "text": "UIP presents as peripheral, basal, subpleural reticulation and honeycombing and ground-glass opacity."
@@ -1406,7 +1416,7 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.167；Primer, 6th ed.",
       "explanation": "RB-ILD: 幾乎都有抽菸，且男性較多。參考 [[bronchiolitis]]\nA. 年輕人要想到AIDS，Sjögren's syndrome\nB. 診斷criteria Prominent GGO會被放在alternative Dx, GGO只能mild\nD. DIP分布 雙側對稱(86%), basal and peripheral (60%)。而patchy, diffuse 各佔20%。典型表現是diffuse GGO。",
       "images": [],
       "concepts": [
