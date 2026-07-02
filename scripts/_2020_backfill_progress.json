@@ -1,9 +1,9 @@
 {
-  "next_page": 19,
+  "next_page": 22,
   "total_pages": 398,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
-  "added_ids": ["2020-186"],
-  "next_id": 187,
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21],
+  "added_ids": ["2020-186","2020-187"],
+  "next_id": 188,
   "dups_skipped": [
     "p1=myocardial calcification常見原因為非(既有題，答案C)",
     "p2=coarse amorphous myocardial calcification常見原因為非(既有題，答案D)",
@@ -21,10 +21,14 @@
     "p15=splenic hemangioma wrong(既有題，答案A)",
     "p16=hepatic cavernous hemangioma wrong(既有題，答案B)",
     "p17=focal fat-sparing diffuse fatty liver wrong(既有題，答案D)",
-    "p18=T1-hyperintense liver metastasis cause(既有題，答案D)"
+    "p18=T1-hyperintense liver metastasis cause(既有題，答案D)",
+    "p19=transplant renal artery reversed diastolic flow causes(既有題，答案D)",
+    "p20=ectopic pancreas wrong(既有題，答案B)"
   ],
   "xyear_dups_merged": [],
   "fig_pages": [],
-  "flagged": [],
-  "notes": "批1-2(頁1-18)完成：既有data/2020.json在本次backfill開始前已含185題(非本session產物，為原始題庫)，頁1-18中僅頁9(silicone breast implant intracapsular rupture超音波徵象)為真正新題→2020-186，其餘17題皆為同年重印略過。流程確認正確，比照2016/2017模式繼續往後處理398頁。totalQuestions欄位已從181修正為186(原181與實際陣列長度185不符，屬既有資料欄位過時問題，非本次新增造成)。commit 64fc292(批1)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。Bash偶發classifier不可用，已用PowerShell備援成功render頁11-18。"
+  "flagged": [
+    "2020-187：官方詳解本身對選項D「鈣化之腎內動脈瘤通常congenital/atherosclerotic」加註「似乎也行?NF1的case」表達不確定，已於renal-aml.md加註[!warning]callout建議醫師覆核，暫依官方答案C為預設值"
+  ],
+  "notes": "批1-3(頁1-21)完成：既有data/2020.json在backfill開始前已含185題(非本session產物，為原始題庫)。頁1-21僅2題為真正新題：2020-186(silicone breast implant intracapsular rupture超音波徵象，重用breast-implant-rupture概念檔)、2020-187(intrarenal aneurysm常見於AML，重用renal-aml概念檔，官方詳解自身對選項D存疑已標註warning)。其餘19題皆為同年重印略過。流程確認正確，比照2016/2017模式繼續往後處理398頁大型PDF。totalQuestions欄位已從181修正為187(原181與實際陣列長度不符，屬既有資料欄位過時問題，非本次新增造成)。commit 64fc292(批1)、215ec40(批3)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。Bash/PowerShell偶發classifier不可用，已用簡單echo測試+重試/互相備援策略成功繼續。"
 }
