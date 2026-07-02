@@ -24,8 +24,14 @@ dateRev: 2026-06-19
 > [!note] 考點：關於直腸 MR T 分期,何者「正確」?
 > **MRI 能準確判斷腫瘤是否侷限於腸壁（完整 muscularis propria 黑線）** = 正解 B。MRI 不擅長 adenoma vs T1(A 誤)、desmoplastic reaction 致 T2→T3 『過度』分期非『不足』分期(D 誤)。[^1]
 
+- **直腸癌 vs 結腸癌之差異**：擴散途徑（pathways of spread，因直腸無漿膜層、鄰近mesorectal fascia）、術前影像評估範圍（直腸癌需MRI評估mesorectal fascia與T分期）、局部復發率（直腸癌因骨盆腔空間有限、鄰近構造多，局部復發率較結腸癌高）皆不同；**組織病理學（histopathology）則相同，兩者皆為adenocarcinoma**。[^2]
+
+> [!question]- Rectal cancer differs from colon carcinoma in all of these ways EXCEPT? (2020-241)
+> **Histopathology（D）**——兩者組織病理學相同（皆為adenocarcinoma），但擴散途徑、術前影像評估範圍、局部復發率皆不同。[^2]
+
 ### 參考來源
 [^1]: *Rectal cancer*. Radiopaedia.org（實際查證 accessed 2026-06-19）：MRI 用於 locoregional staging（T3 extramural spread、mesorectal fascia、EMVI）;「high signal change adjacent to the muscularis propria is due to local **desmoplastic reaction**」（致 overstaging）;adenoma/T1 鑑別非 MRI 強項。題目另引 RadioGraphics 直腸 MR。
+[^2]: 官方2020詳解；Ref: Radprimer。
 
 ## 考題
 ```dataview

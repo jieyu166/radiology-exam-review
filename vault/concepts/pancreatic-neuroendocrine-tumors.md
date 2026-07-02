@@ -76,6 +76,10 @@ dateRev: 2026-06-29
 [^3]: Lee NJ, Hruban RH, Fishman EK 等。*State-Of-The-Art Imaging of Pancreatic Neuroendocrine Tumors*. Surg Oncol Clin N Am（PMC 開放全文，PMC4808582，accessed 2026-06-29）。據 PubMed；[DOI](https://doi.org/10.1016/j.soc.2015.11.007)：功能性 vs 非功能性大小／表現、動脈期 83–88% sensitivity、hypervascular rim、囊變/鈣化/瘤栓、gastrinoma triangle、insulinoma octreotide 50–70%、Ga-68 DOTATATE/FDG/EUS、肝轉移與淋巴結 DWI/T2、acinar/SPN/IPAS/serous/PDAC 鑑別、非典型強化與 grade。
 [^4]: WHO 消化系統腫瘤分類（2017/2019）well-differentiated NET G1（Ki-67 < 3%）/ G2（3–20%）/ G3（> 20%）vs poorly-differentiated NEC；交叉查證（PMC4398606「WHO G3 PanNET 異質、含 well 與 poorly differentiated」、PMC7510074 中國大型機構 WHO 分級分析，accessed 2026-06-29）。註：各文獻 G1/G2 Ki-67 切點略有版本差異（< 2% vs < 3%），此處採 2017/2019 WHO 之 < 3% / 3–20% / > 20%。
 
+## 題目
+> [!question]- All of the following may cause or simulate a hypervascular mass within the pancreas. Which is the MOST common etiology for such a lesion within the pancreatic body? (2020-243)
+> **Pancreatic neuroendocrine tumor（A）**——胰臟體部富血管腫塊最常見病因。Accessory spleen好發胰尾（非胰體）；serous cystadenoma多呈微囊蜂窩狀伴中央瘢痕；胰臟轉移癌相對少見。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatic-neuroendocrine-tumors")
