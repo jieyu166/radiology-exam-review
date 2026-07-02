@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 246,
+  "totalQuestions": 252,
   "questions": [
     {
       "id": "2020-001",
@@ -8920,6 +8920,228 @@
       "images": [],
       "concepts": [
         "prostate-zonal-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-247",
+      "year": 2020,
+      "number": 247,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 79-year-old male presents with an ureteroenteric anastomotic stricture of his urinary diversion after radical cystectomy for what ultimately was shown to be a confined tumor. Ureteroenteric anastomotic strictures are most commonly due to which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Radiation treatment"
+        },
+        {
+          "letter": "B",
+          "text": "Recurrent tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Improperly fashioned anastomosis"
+        },
+        {
+          "letter": "D",
+          "text": "Ureteral ischemia"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radprimer",
+      "explanation": "以Indiana pouch進行continent diversion後，約8%病人會發生輸尿管狹窄，尤其ureteroenteric anastomotic strictures。術後ureteroenteric anastomotic stricture通常於術後約1年出現，最常見原因為缺血所致之良性狹窄（benign strictures secondary to ischemia），左側輸尿管受累較右側常見。惡性狹窄（因腫瘤復發）亦可能發生，但相對少見。",
+      "images": [],
+      "concepts": [
+        "ureteroenteric-anastomotic-stricture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-248",
+      "year": 2020,
+      "number": 248,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following ovarian lesions is typically hypointense (relative to skeletal muscles) at T2W MR imaging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Krukenberg tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Yolk sac tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Abscess"
+        },
+        {
+          "letter": "D",
+          "text": "Subacute hemorrhage"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radprimer",
+      "explanation": "T2低訊號（相對於骨骼肌）之卵巢病灶包括：endometrioma、cystic adenomyosis、hematosalpinx、leiomyoma、fibroma、fibrothecoma、cystadenofibroma、struma ovarii。T2高訊號病灶則包括：hemorrhagic cyst、malignant transformation of endometrioma、mucinous cystic neoplasm、Krukenberg tumor。本題答案D「subacute hemorrhage」須留意：早期subacute（intracellular methemoglobin，3-7天）T1高、T2低；但late subacute（extracellular methemoglobin，1週至數月）則T1與T2皆呈高訊號，官方詳解對此已加註提醒。",
+      "images": [],
+      "concepts": [
+        "ovarian-lesion-t2-signal"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-249",
+      "year": 2020,
+      "number": 249,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What are the characteristics of a typical transitional zone prostate cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Well-defined, low T2 signal intensity, early enhancement, and low apparent diffusion coefficient (ADC)."
+        },
+        {
+          "letter": "B",
+          "text": "Ill-defined, low T2 signal intensity, late enhancement, and low ADC."
+        },
+        {
+          "letter": "C",
+          "text": "Ill-defined, low T2 signal intensity, early enhancement, and low ADC."
+        },
+        {
+          "letter": "D",
+          "text": "Well-defined, low T2 signal intensity, early enhancement, and high ADC."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Multiparametric MR Imaging of the Prostate after Treatment of Prostate Cancer. Patel P, Mathew MS, Trilisky I, Oto A. Radiographics 2018 Mar-Apr;38(2):437-449.",
+      "explanation": "移行區前列腺癌（transition zone cancer）於T2WI呈均質低訊號（「erased charcoal」sign），邊界不清（ill-defined margins）、缺乏包膜（lack of capsule）、呈lenticular形狀，可合併或不合併anterior fibromuscular stroma侵犯，並呈低ADC值、早期顯影(early enhancement)。詳見[[prostate-cancer-mri-treatment]]。",
+      "images": [],
+      "concepts": [
+        "prostate-cancer-mri-treatment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-250",
+      "year": 2020,
+      "number": 250,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following best describes the Epstein inclusion criteria for active surveillance?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gleason score less than or equal to 7, two or fewer cores with cancer, and less than or equal to 33% cancer involvement of any core."
+        },
+        {
+          "letter": "B",
+          "text": "Gleason score less than or equal to 6, three or fewer cores with cancer, and less than or equal to 50% cancer involvement of any core."
+        },
+        {
+          "letter": "C",
+          "text": "Gleason score less than or equal to 7, three or fewer cores with cancer, and less than or equal to 33% cancer involvement of any core."
+        },
+        {
+          "letter": "D",
+          "text": "Gleason score less than or equal to 6, two or fewer cores with cancer, and less than or equal to 50% cancer involvement of any core."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Multiparametric MR Imaging of the Prostate after Treatment of Prostate Cancer. Patel P, Mathew MS, Trilisky I, Oto A. Radiographics 2018 Mar-Apr;38(2):437-449.",
+      "explanation": "Epstein inclusion criteria：Gleason score ≤6、two or fewer cores with cancer、PSA density ≤0.15 ng/mL、cancer involvement ≤50% of any core，符合者可納入active surveillance。與Johns Hopkins、Sunnybrook、PRIAS等其他主動監測納入標準（各系統於clinical stage/PSA level/PSA density/Gleason score/cancer amount之閾值略有不同）併列比較。詳見[[prostate-cancer-mri-treatment]]。",
+      "images": [],
+      "concepts": [
+        "prostate-cancer-mri-treatment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-251",
+      "year": 2020,
+      "number": 251,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the most common site of recurrence after radical prostatectomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lymph nodes."
+        },
+        {
+          "letter": "B",
+          "text": "Incision/port site."
+        },
+        {
+          "letter": "C",
+          "text": "Vesicourethral anastomosis."
+        },
+        {
+          "letter": "D",
+          "text": "Prostatic bed."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Multiparametric MR Imaging of the Prostate after Treatment of Prostate Cancer. Patel P, Mathew MS, Trilisky I, Oto A. Radiographics 2018 Mar-Apr;38(2):437-449.",
+      "explanation": "根治性前列腺切除術後最常見局部復發部位為vesicourethral anastomosis（膀胱尿道吻合處），典型表現為環繞膀胱及/或membranous urethra之顯影軟組織結節，於T1WI與肌肉等訊號、T2WI較肌肉略高訊號。DCE與T2WI對偵測吻合處及anterolateral手術邊緣、精囊內、膀胱與直腸間之復發病灶最有幫助。詳見[[prostate-cancer-mri-treatment]]。",
+      "images": [],
+      "concepts": [
+        "prostate-cancer-mri-treatment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-252",
+      "year": 2020,
+      "number": 252,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "In evaluation of DDH, the tangent line drawn across the lowest points of both iliac wings is called:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hilgenreiner line"
+        },
+        {
+          "letter": "B",
+          "text": "X line"
+        },
+        {
+          "letter": "C",
+          "text": "Perkins line"
+        },
+        {
+          "letter": "D",
+          "text": "Shenton line"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Radiography, CT, and MRI of Hip and Lower Limb Disorders in Children and Adolescents. Radiographics 39(4):1232-1232",
+      "explanation": "Hilgenreiner line：連接雙側髂骨翼最低點之切線（tangent line），為評估DDH（developmental dysplasia of the hip）之基準水平線。Perkins line：通過髖臼外側緣，垂直於Hilgenreiner line之垂直線；正常股骨頭應位於Perkins line內側、Hilgenreiner line下方。Shenton line：沿股骨頸內側緣與恥骨上支下緣連成之弧線，正常應連續平滑，dysplastic hip則呈中斷（broken）。Acetabular roof angle正常應<30°，dysplastic hip則>30°。",
+      "images": [],
+      "concepts": [
+        "ddh-hip-lines"
       ],
       "checked": false
     }
