@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 410,
+  "totalQuestions": 429,
   "questions": [
     {
       "id": "2018-001",
@@ -15283,6 +15283,713 @@
       "images": [],
       "concepts": [
         "uterine-mullerian-anomalies"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-411",
+      "year": 2018,
+      "number": 411,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following usually involves the proximal small bowel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "B",
+          "text": "Sprue"
+        },
+        {
+          "letter": "C",
+          "text": "Yersenia"
+        },
+        {
+          "letter": "D",
+          "text": "Giardiasis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Herlinger H, Ekberg OT. Other Inflammatory Conditions of the Small Bowel. In: Gore RM, Levine MS, eds. Gastrointestinal Radiology, 2nd ed. Philadelphia: W.B. Saunders 2000; 746-758",
+      "explanation": "Giardiasis好發十二指腸-空腸(近端小腸)。lymphoma好發迴腸、Yersinia好發末端迴腸。\n\n見 [[small-bowel-disease-distribution]]",
+      "images": [],
+      "concepts": [
+        "small-bowel-disease-distribution"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-412",
+      "year": 2018,
+      "number": 412,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "The small bowel feces sign suggests which of the following diagnoses?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Low-grade small bowel obstruction"
+        },
+        {
+          "letter": "B",
+          "text": "Cystic fibrosis"
+        },
+        {
+          "letter": "C",
+          "text": "Crohn disease"
+        },
+        {
+          "letter": "D",
+          "text": "Ischemic enteritis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Fuchsjager MH. The small-bowel feces sign. Radiology. 2002;225(2):378-9.",
+      "explanation": "小腸糞便徵(腔內氣泡混雜微粒狀物質)提示低度/亞急性小腸阻塞。\n\n見 [[small-bowel-obstruction-ct]]",
+      "images": [],
+      "concepts": [
+        "small-bowel-obstruction-ct"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-413",
+      "year": 2018,
+      "number": 413,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning Meckel's diverticula, which one of the following is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Usually asymptomatic in the first years of life"
+        },
+        {
+          "letter": "B",
+          "text": "Diverticulitis is a known complication."
+        },
+        {
+          "letter": "C",
+          "text": "False diverticulum"
+        },
+        {
+          "letter": "D",
+          "text": "Tc99m scintigraphy is 20-30% sensitive in detecting gastrointestinal bleeding."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Thurley PD, Halliday KE, Somers JM et-al. Radiological features of Meckel's diverticulum and its complications. Clin Radiol. 2009;64(2):109-18.",
+      "explanation": "Diverticulitis為已知併發症。為真性diverticulum(非false)、Meckel scan對出血敏感度兒童85%/成人54%(非20-30%)。\n\n見 [[meckel-diverticulum]]",
+      "images": [],
+      "concepts": [
+        "meckel-diverticulum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-414",
+      "year": 2018,
+      "number": 414,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning focal nodular hyperplasia, which of the following is an atypical feature?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibrous central scar"
+        },
+        {
+          "letter": "B",
+          "text": "Isodensity to the liver on unenhanced and portal venous phase images"
+        },
+        {
+          "letter": "C",
+          "text": "Discontinuous peripheral enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "Hyperenhancement on arterial phase images"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Grazioli L, Morana G, Kirchin MA et-al. Accurate differentiation of focal nodular hyperplasia from hepatic adenoma at gadobenate dimeglumine-enhanced MR imaging: prospective study. Radiology. 2005;236(1):166-77.",
+      "explanation": "Discontinuous peripheral enhancement為非典型FNH特徵(典型為動脈期均質高強化，不連續周邊強化偏向hemangioma)。\n\n見 [[fnh]]",
+      "images": [],
+      "concepts": [
+        "fnh"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-415",
+      "year": 2018,
+      "number": 415,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何種非pulmonary alveolar microlithiasis的特色?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "20-50 years of age"
+        },
+        {
+          "letter": "B",
+          "text": "Radiographs dense lung"
+        },
+        {
+          "letter": "C",
+          "text": "Apical predominance"
+        },
+        {
+          "letter": "D",
+          "text": "Black pleural line"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Thoracic Imaging. P507",
+      "explanation": "PAM為雙側中下肺野為主分布，非上肺(apical predominance為metastatic pulmonary calcification特徵)。\n\n見 [[pulmonary-alveolar-microlithiasis]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-alveolar-microlithiasis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-416",
+      "year": 2018,
+      "number": 416,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "以下何者不是好發在anterior mediastinum (cardiophrenic angle)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pericardial cyst"
+        },
+        {
+          "letter": "B",
+          "text": "Morgagni hernia"
+        },
+        {
+          "letter": "C",
+          "text": "Neurogenic tumor"
+        },
+        {
+          "letter": "D",
+          "text": "Lymph node masses"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Thoracic Imaging. P214",
+      "explanation": "Neurogenic tumor好發於後縱膈(脊椎旁溝)，非前縱膈/心膈角。pericardial cyst/Morgagni hernia/lymph node masses皆好發於心膈角。\n\n見 [[anterior-mediastinal-masses]]",
+      "images": [],
+      "concepts": [
+        "anterior-mediastinal-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-417",
+      "year": 2018,
+      "number": 417,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "A proved non-small cell lung cancer which is 5.1cm in size with visceral pleural involvement and ipsilateral mediastinal lymphadenopathy. What is the TNM staging? (No definite distant metastasis)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T1N3"
+        },
+        {
+          "letter": "B",
+          "text": "T2N2"
+        },
+        {
+          "letter": "C",
+          "text": "T3N2"
+        },
+        {
+          "letter": "D",
+          "text": "T3N3"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "AJCC, 7th, lung cancer stage",
+      "explanation": "官方依AJCC 7th答B(T2N2)：5.1cm於7th為T2b、同側縱膈LN為N2。AJCC 8th中5.1cm(>5cm)為T3→T3N2(答案C)。時效雙層，flag。\n\n見 [[lung-cancer-tnm-staging]]",
+      "images": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-418",
+      "year": 2018,
+      "number": 418,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不會造成cavitating lung nodule?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lipoid pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberculosis"
+        },
+        {
+          "letter": "C",
+          "text": "Septic emboli"
+        },
+        {
+          "letter": "D",
+          "text": "Wegener granulomatosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiology Review Mannual. P.428",
+      "explanation": "Lipoid pneumonia多呈含脂肪實質化腫塊，通常不形成空洞。TB/septic emboli/Wegener granulomatosis皆為典型空洞成因。\n\n見 [[cavitary-lung-lesions]]",
+      "images": [],
+      "concepts": [
+        "cavitary-lung-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-419",
+      "year": 2018,
+      "number": 419,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不是allergic bronchopulmonary aspergillosis的表現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Migratory pneumonitis"
+        },
+        {
+          "letter": "B",
+          "text": "Peripheral bronchiectasis"
+        },
+        {
+          "letter": "C",
+          "text": "Gloved finger sign"
+        },
+        {
+          "letter": "D",
+          "text": "Lobar consolidation"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiology Review Mannual. P.466",
+      "explanation": "ABPA為中央性(central)支氣管擴張，非周邊。\n\n見 [[allergic-bronchopulmonary-aspergillosis]]",
+      "images": [],
+      "concepts": [
+        "allergic-bronchopulmonary-aspergillosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-420",
+      "year": 2018,
+      "number": 420,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is true about cardiooncology?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cardiotoxicity induced by chemotherapy has been classified into two groups: Type I is related to oxidative with irreversible response ex: anthracyclines; Type II is related to the inhibition of ErbB2 pathway with reversible response, ex: trastuzumab."
+        },
+        {
+          "letter": "B",
+          "text": "3D-STE had significantly reduced global longitudinal strain (GLS) and torsion and greater systolic dys-synchrony index."
+        },
+        {
+          "letter": "C",
+          "text": "Cardiac Magnetic Resonance provide perform a tissue characterization, identifying fibrosis and edema of both early and late stage of cardiotoxicity."
+        },
+        {
+          "letter": "D",
+          "text": "Myocardial biopsy is still considered the most accurate and specific method in identifying the myocardial damage induced by chemotherapy"
+        },
+        {
+          "letter": "E",
+          "text": "All of the above is true."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "Multimodality Imaging in Cardiooncology, Pizzino F et al. Journal of Oncology Volume 2015",
+      "explanation": "四項皆正確：Type I/II心毒性分類、3D-STE GLS/torsion下降、CMR組織特徵化、心肌切片最準確特異。\n\n見 [[cardiooncology-imaging]]",
+      "images": [],
+      "concepts": [
+        "cardiooncology-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-421",
+      "year": 2018,
+      "number": 421,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the pediatric liver tumor, which the following description is CORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Mesenchymal hamartoma of the liver is the most common benign liver mass in children."
+        },
+        {
+          "letter": "B",
+          "text": "Fine needle biopsy is necessary for diagnosis of Infantile hemangioendothelioma."
+        },
+        {
+          "letter": "C",
+          "text": "Hepatocellular adenomas are usually asymptomatic or present with an abdominal mass."
+        },
+        {
+          "letter": "D",
+          "text": "Serum AFP levels are usually elevation in pediatric liver tumors."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Chung EM et al. From the archives of the AFIP: Pediatric liver masses: radiologic-pathologic correlation part 1. Benign tumors. Radiographics. 2010 May;30(3):801-26.",
+      "explanation": "Hepatocellular adenomas通常無症狀或以腹部腫塊表現。mesenchymal hamartoma為第二常見(非最常見)、infantile hemangioendothelioma不需FNA、AFP非皆升高。\n\n見 [[pediatric-liver-tumors]]",
+      "images": [],
+      "concepts": [
+        "pediatric-liver-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-422",
+      "year": 2018,
+      "number": 422,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the lesions in the presacral region in children, which the following description is CORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sacrococcygeal germ cell tumors are malignant germ cell tumors."
+        },
+        {
+          "letter": "B",
+          "text": "Anterior sacral meningocele is most common type of congenital spinal meningocoele. It may occur as part of ASP triad (anorectal malformation, sacrococcygeal osseous defect, and presacral mass)."
+        },
+        {
+          "letter": "C",
+          "text": "Tailgut cysts only manifested in childhood."
+        },
+        {
+          "letter": "D",
+          "text": "Cystic lymphatic malformations usually appear as fluid-fluid level and heterogeneous high signal intensity on T2-weighted images"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Kocaoglu M, et al. Pediatric presacral masses. Radiographics. 2006.May-Jun;26(3):833-57. Review.",
+      "explanation": "Anterior sacral meningocele為最常見先天脊椎脊膜膨出、可為ASP/Currarino triad一部分。SC-GCT多為良性teratoma、tailgut cyst可任何年齡、cystic lymphatic malformation為均質高T2。\n\n見 [[pediatric-presacral-masses]]",
+      "images": [],
+      "concepts": [
+        "pediatric-presacral-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-423",
+      "year": 2018,
+      "number": 423,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Hereditary Renal Cystic Disorders, which the following description is CORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple and/or bilateral macroscopic renal cysts is never occur in the autosomal dominant polycystic kidney disease (ADPKD) while pediatric period."
+        },
+        {
+          "letter": "B",
+          "text": "The cysts in Autosomal Recessive Polycystic Kidney Disease (ARPKD) are more often complicated by hemorrhage than in ADPKD."
+        },
+        {
+          "letter": "C",
+          "text": "Tuberous Sclerosis Complex represent a heterogeneous group of hereditary neurocutaneous multisystem disorders that commonly affect tissues of ectodermal origin (eg, the CNS, eyes, and skin)."
+        },
+        {
+          "letter": "D",
+          "text": "Renal cell carcinoma associated with von Hippel-Lindau syndrome is commonly multifocal, may be bilateral, with a competely cystic appearance."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Dillman JR et al. Hereditary Renal Cystic Disorders: Imaging of the Kidneys and Beyond. Radiographics. 2017 May-Jun;37(3).",
+      "explanation": "TSC為侵犯外胚層來源組織(CNS/眼/皮膚)之神經皮膚多系統疾病。ADPKD兒童期可出現囊腫、ARPKD囊腫較ADPKD較少併出血/感染。\n\n見 [[hereditary-renal-cystic-disorders]]",
+      "images": [],
+      "concepts": [
+        "hereditary-renal-cystic-disorders"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-424",
+      "year": 2018,
+      "number": 424,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not correct about Dandy-Walker Malformation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common posterior fossa malformation and typically occurs only sporadically, with a low overall risk of recurrence (1%-5%)."
+        },
+        {
+          "letter": "B",
+          "text": "The majority of patients with DWM present before 1 year of age with signs and symptoms of increased intracranial pressure."
+        },
+        {
+          "letter": "C",
+          "text": "The key neuroimaging features of DWM are hypoplasia of the cerebellar vermis and dilatation of the cystic-appearing fourth ventricle."
+        },
+        {
+          "letter": "D",
+          "text": "Microcephaly is the most common manifestation, affecting 90%-100% of children during the first months of life."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "RadioGraphics 2015; 35:200-220",
+      "explanation": "應為Macrocephaly(巨頭)影響90%-100%嬰兒，非microcephaly。\n\n見 [[posterior-fossa-malformations]]",
+      "images": [],
+      "concepts": [
+        "posterior-fossa-malformations"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-425",
+      "year": 2018,
+      "number": 425,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not correct about Moyamoya Disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Progressive occlusion of the terminal segments of the intracranial internal carotid arteries and compensatory development of tortuous, dilated collateral networks."
+        },
+        {
+          "letter": "B",
+          "text": "Moyamoya vessels depict signal voids within the basal ganglia and thalami."
+        },
+        {
+          "letter": "C",
+          "text": "On T2WI, diffuse leptomeningeal collateral vessels may appear as sulcal hyperintensity (\"ivy sign\")"
+        },
+        {
+          "letter": "D",
+          "text": "SW imaging may depict microbleeding in 15%-44% of patients."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2014; 34:873-894",
+      "explanation": "Ivy sign見於FLAIR及T1增強後(高溝狀訊號)，非典型T2WI。\n\n見 [[moyamoya-disease]]",
+      "images": [],
+      "concepts": [
+        "moyamoya-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-426",
+      "year": 2018,
+      "number": 426,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Select the one wrong statement about Sturge-Weber syndrome from the list below:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It belongs to venous abnormralities."
+        },
+        {
+          "letter": "B",
+          "text": "Blood is shunted through deep collateral to the superficial venous system."
+        },
+        {
+          "letter": "C",
+          "text": "It is characterized by thickened dipole."
+        },
+        {
+          "letter": "D",
+          "text": "It has hypointense subcortical zone on T2-weighted imaging."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "ASNR Core Curriculum Course 1995, P.23",
+      "explanation": "實際為淺層皮質靜脈缺如、血流改由深部靜脈引流擴大(absent superficial cortical veins with abnormal enlarged deep venous drainage)，方向相反。\n\n見 [[sturge-weber-syndrome]]",
+      "images": [],
+      "concepts": [
+        "sturge-weber-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-427",
+      "year": 2018,
+      "number": 427,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following venous pathways is not a common outflow connection for arterialized flow in patients with carotid-cavernous fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Inferior petrosal sinus"
+        },
+        {
+          "letter": "B",
+          "text": "Superficial sylvian cortical veins"
+        },
+        {
+          "letter": "C",
+          "text": "Pterygoid venous plexus"
+        },
+        {
+          "letter": "D",
+          "text": "Thalamostriate vein"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "ASNR Core Curriculum Course 1994, P.49",
+      "explanation": "Thalamostriate vein屬深部腦靜脈系統，非CCF常見外流路徑。inferior petrosal sinus/superficial sylvian cortical veins/pterygoid venous plexus皆為常見外流路徑。\n\n見 [[carotid-cavernous-fistula]]",
+      "images": [],
+      "concepts": [
+        "carotid-cavernous-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-428",
+      "year": 2018,
+      "number": 428,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The term \"fogging of a cerebral infarction\" refers to:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Difficulty in diagnosing an infarction on CT scans within the first 24 hours."
+        },
+        {
+          "letter": "B",
+          "text": "The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus."
+        },
+        {
+          "letter": "C",
+          "text": "Diffuse parenchymal enhancement of the brain following transient occlusion a cerebral vessel with reperfusion"
+        },
+        {
+          "letter": "D",
+          "text": "It occurs in chronic infarction."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "ASNR Core Curriculum Course 1994, P.62",
+      "explanation": "亞急性期(約發病第2週)梗塞區於CT呈一過性等密度、MR T2訊號一過性減低而看似消失。\n\n見 [[cerebral-infarction-evolution]]",
+      "images": [],
+      "concepts": [
+        "cerebral-infarction-evolution"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-429",
+      "year": 2018,
+      "number": 429,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is not present in neuropsychiatric systemic lupus erythematosus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "New infarcts"
+        },
+        {
+          "letter": "B",
+          "text": "Focal areas of hyperintensity"
+        },
+        {
+          "letter": "C",
+          "text": "Extensive, reversible white matter change"
+        },
+        {
+          "letter": "D",
+          "text": "Brain abscess"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Diagnostic Imaging, Brain, I-4-64",
+      "explanation": "Brain abscess非ACR NPSLE定義項目(雖可因心臟瓣膜黴菌性栓子續發)。new infarcts/focal hyperintensity/extensive reversible white matter change皆為NPSLE表現。\n\n見 [[neuropsychiatric-sle]]",
+      "images": [],
+      "concepts": [
+        "neuropsychiatric-sle"
       ],
       "checked": false
     }

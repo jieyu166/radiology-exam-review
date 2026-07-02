@@ -24,8 +24,16 @@ dateRev: 2026-07-01
 - **定位阻塞層級**：先辨識擴張（>2.5–3 cm）小腸環的最遠端邊界（transition point），該處常見腫塊、疝氣嵌頓、沾黏帶或異物（如膽結石）。
 - **鑑別阻塞病因**：疝氣（含內疝/嵌頓疝）、術後沾黏、腫瘤（原發或轉移）、發炎性腸病狹窄、膽石腸阻塞；CT 需沿腸管追蹤並評估阻塞遠近端腸壁強化以排除絞窄。
 
+## Small bowel feces sign（2018-412）
+- **Small bowel feces sign（小腸糞便徵）**：擴張小腸腔內見**氣泡混雜微粒狀物質(似糞便)**，代表腸內容物停滯脫水；**提示低度/亞急性小腸阻塞(low-grade/subacute SBO)**，常位於transition point近端，有助定位阻塞。[^2]
+
 ### 參考來源
 [^1]: *RadioGraphics*, Vol. 29, No. 2（2018 交換考題詳解 p.42 引用；Tier 1）。SBO 之 transition point 定義；gallstone ileus 三徵象（pneumobilia+異位結石+SBO）；小腸轉移癌造成阻塞較原發腺癌常見；Bouveret syndrome 為極近端 gallstone ileus 變異（胃出口阻塞）。
+[^2]: Fuchsjäger MH. *The small-bowel feces sign*. Radiology 2002;225(2):378-9（2018 交換考題詳解 p.325 引用；Tier 1 期刊）。small bowel feces sign為擴張小腸腔內氣泡混雜微粒狀物質(似糞便)，提示低度/亞急性小腸阻塞，有助定位transition point。
+
+## 題目
+> [!question]- The small bowel feces sign suggests which of the following diagnoses? (2018-412)
+> **Low-grade small bowel obstruction（A）**——小腸糞便徵(腔內氣泡混雜微粒狀物質)提示低度/亞急性小腸阻塞。[^2]
 
 ## 考題
 ```dataview

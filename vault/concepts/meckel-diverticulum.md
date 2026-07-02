@@ -23,8 +23,19 @@ dateRev: 2026-06-30
 > [!note] 考點：關於 Meckel's Diverticulum，何者「正確」?
 > 「**Meckel scan 若病人合併發炎性疾病可產生偽陽性（D）**」正確。憩室不涉及臍部連接（A錯）、診斷首選為 Meckel scan/血管攝影非CT（B錯）、Meckel scan 敏感度有限並非無偽陰性（C錯）。[^1]
 
+## 補充（2018-413）
+- **Meckel憩室之併發症**：**diverticulitis(憩室炎)為已知併發症**；亦含出血(異位胃黏膜)、腸阻塞/腸套疊、穿孔。[^2]
+- **本質**：為**真性憩室(true diverticulum，含全層腸壁)**，非false diverticulum。[^2]
+- **多數無症狀**：大多數Meckel憩室終身無症狀(silent Meckel's)；若出現症狀多在**2歲前**。[^2]
+- **Tc99m scintigraphy(Meckel scan)敏感度**：對出血之Meckel scan兒童約85%、成人降至約54%（非20-30%）。[^2]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Francis A et al. Pediatric Meckel's Diverticulum: Report of 208 Cases and Review of the Literature. Fetal Pediatr Pathol 2016;35(3):199-206：Meckel憩室為卵黃管殘留,不涉及臍部連接;出血性診斷用 Meckel scan/腸繫膜血管攝影非CT;Meckel scan 敏感度有限（成人~60%,兒童~85-90%）;合併發炎性疾病可致偽陽性。
+[^2]: Thurley PD, Halliday KE, Somers JM, et al. *Radiological features of Meckel's diverticulum and its complications*. Clin Radiol 2009;64(2):109-18（2018 交換考題詳解 p.326 引用；Tier 2 期刊）。Meckel憩室為真性憩室；多數無症狀(症狀多在2歲前)；diverticulitis為已知併發症；Meckel scan對出血敏感度兒童約85%、成人約54%。
+
+## 題目
+> [!question]- Concerning Meckel's diverticula, which one of the following is true? (2018-413)
+> **Diverticulitis is a known complication（B）**。usually asymptomatic in first years of life敘述不精確(A)、為真性diverticulum非false(C)、Tc99m scintigraphy敏感度兒童85%/成人54%非20-30%(D)。[^2]
 
 ## 題目
 > [!question]- About the Meckel's Diverticulum, which of the following description is correct? (2017-262)
