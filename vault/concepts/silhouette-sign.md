@@ -51,6 +51,10 @@ dateRev: 2026-06-29
 [^3]: 漏斗胸與右心旁脂肪墊偽 silhouette sign（The Radiology Assistant – Chest X-Ray Basic Interpretation;Wikipedia *Silhouette sign*,依摘要未讀全文）：右心緣旁模糊若無 air bronchogram 須考慮心外膜脂肪墊或前胸壁組織重疊,非肺炎。
 [^4]: 漏斗胸偽 silhouette sign 徵象（Eurorad case 1678 *Pectus excavatum*,依摘要未讀全文）：右心緣模糊、右下肺內側密度增加、前肋陡斜、後肋水平、降主動脈緣消失,可酷似 RML 病變。
 
+## 題目
+> [!question]- 關於Silhouette Sign在肺葉病灶的運用下列何者為誤? (2020-225)
+> **B**——RLL lesion應遮蓋right hemidiaphragm（右橫膈），而非right heart border（右心緣，由RML遮蓋）。RML/right heart border、lingula/left heart border、RLL/diaphragm之對應關係皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "silhouette-sign")

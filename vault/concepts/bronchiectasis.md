@@ -88,6 +88,9 @@ dateRev: 2026-07-01
 > [!question]- 何者「不」屬支氣管擴張的典型形態分型? (2017-156)
 > **Round（圓形）**——典型三型為 cylindrical（圓柱）、varicose（靜脈曲張樣）、cystic（囊狀）。[^1]
 
+> [!question]- 54歲男性抽菸史，長期咳嗽多黃痰，CT見右下肺囊狀病灶，最可能診斷? (2020-223)
+> **支氣管擴張症 Bronchiectasis（C）**——CT呈cystic bronchiectasis，肺組織被支氣管擴張及疤痕組織取代，符合長期慢性咳嗽多黃痰之臨床病史。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bronchiectasis")
