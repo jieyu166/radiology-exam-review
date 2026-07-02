@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 388,
+  "totalQuestions": 390,
   "questions": [
     {
       "id": "2020-001",
@@ -14226,6 +14226,80 @@
       "images": [],
       "concepts": [
         "breast-mri-focus-characterization"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-389",
+      "year": 2020,
+      "number": 389,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列各疾病的pulmonary involvement何者非basilar peripheral lung predominant？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NSIP"
+        },
+        {
+          "letter": "B",
+          "text": "DIP"
+        },
+        {
+          "letter": "C",
+          "text": "UIP"
+        },
+        {
+          "letter": "D",
+          "text": "Chronic hypersensitivity pneumonitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging - Chest",
+      "explanation": "慢性過敏性肺炎(chronic hypersensitivity pneumonitis)典型呈上肺葉優勢分布(upper lung predominance)，並非下肺葉周邊優勢；NSIP、DIP、UIP皆典型呈下肺葉周邊優勢(basilar peripheral predominant)分布。",
+      "images": [],
+      "concepts": [
+        "ild-distribution-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-390",
+      "year": 2020,
+      "number": 390,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Pressure lung edema在不同PCWP[mmHg]的影像表現，以下何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PCWP 5-12mmHg，會出現cephalization of pulmonary vessels (only in chronic conditions)"
+        },
+        {
+          "letter": "B",
+          "text": "PCWP 12-17mmHg，會出現Kerley lines, subpleural effusions"
+        },
+        {
+          "letter": "C",
+          "text": "PCWP > 25mmHg，會出現alveolar flooding edema"
+        },
+        {
+          "letter": "D",
+          "text": "PCWP 17-20mmHg，會出現normal"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Radiology Review Manual, 8th ed., p.516",
+      "explanation": "肺微血管楔壓(PCWP)正常(8-12mmHg)時胸部X光正常；輕度上升(12-18mmHg)呈下肺葉血管收縮合併上肺葉血管擴大(即cephalization)；漸進上升(19-25mmHg)呈間質性肺水腫表現(血管邊界模糊、支氣管周圍套袖、Kerley lines)；PCWP>25mmHg則呈肺泡填塞水腫(alveolar flooding edema)，雙側肺門周圍及下肺野空氣腔實質化。僅C選項數值與表現對應正確。",
+      "images": [],
+      "concepts": [
+        "ards-pulmonary-edema-differential"
       ],
       "checked": false
     }
