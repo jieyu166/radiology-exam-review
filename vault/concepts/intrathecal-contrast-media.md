@@ -32,6 +32,9 @@ nonImagingReason: "碘對比劑核准適應症/法規主題，非影像判讀"
 > [!question]- 請問目前在台灣，下列哪兩種contrast medium可以用來intra-thecal injection？ (2020-227)
 > **Ominpaque 300 / Iopamidol 300（C）**——僅Omnipaque與Isovue-M(iopamidol)核准用於脊髓腔內注射。[^1]
 
+> [!question]- 下列何者含碘對比劑不可使用於蜘蛛網膜腔下注射? (2020-353)
+> **Ominpaque 350（D）**——核准之Omnipaque濃度僅180、240、300；350濃度過高，未核准用於脊髓腔內注射。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "intrathecal-contrast-media")

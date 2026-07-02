@@ -65,6 +65,9 @@ dateRev: 2026-06-30
 > [!question]- Which finding suggests idiopathic pulmonary artery hypertension? (2017-243)
 > **D-shape of left ventricle（C）**——僅為嚴重右心室功能障礙的非特異表現，當無其他指向特定病因的徵象時，以排除法考慮 idiopathic PAH。肺葉間隔增厚（左心病變）、雙側肺動脈不對稱擴大（肝肺症候群）、節段肺動脈 target sign（急性肺栓塞）皆指向特定病因。[^3]
 
+> [!question]- What will not be found on a pulmonary hypertension patient? (2020-354)
+> **Pulmonary artery diameter 25 mm（B）**——CT診斷肺高壓之主肺動脈徑擴大門檻為**>29mm**（非25mm）。mPAP≥25mmHg之定義、主肺動脈徑常大於同層降主動脈、非特異性心肺症狀，皆為正確之肺高壓相關描述。[^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pulmonary-hypertension-classification")

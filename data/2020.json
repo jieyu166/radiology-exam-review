@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 350,
+  "totalQuestions": 356,
   "questions": [
     {
       "id": "2020-001",
@@ -12820,6 +12820,228 @@
       "images": [],
       "concepts": [
         "fleischner-pulmonary-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-351",
+      "year": 2020,
+      "number": 351,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules, when a solitary solid nodule 6-8 mm present, what is the recommendation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "no routine follow-up required"
+        },
+        {
+          "letter": "B",
+          "text": "optional CT at 12 months"
+        },
+        {
+          "letter": "C",
+          "text": "CT at 6-12 months, then consider CT at 18-24 months"
+        },
+        {
+          "letter": "D",
+          "text": "consider CT at 3 months, PET/CT, or tissue sampling"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules, RadioGraphics Vol. 38, No. 5",
+      "explanation": "單一實質結節6-8mm（無論低/高風險），建議6-12個月CT複查，再考慮18-24個月CT複查；<6mm低風險不需常規追蹤；>8mm單一結節建議考慮3個月CT、PET/CT或組織切片。",
+      "images": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-352",
+      "year": 2020,
+      "number": 352,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Patients with influenza pneumonia show reticulonodular areas of opacity with or without focal areas of consolidation, usually in which lobe of lung?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "upper lobe, unilateral"
+        },
+        {
+          "letter": "B",
+          "text": "upper lobes, bilateral"
+        },
+        {
+          "letter": "C",
+          "text": "lower lobes, unilateral"
+        },
+        {
+          "letter": "D",
+          "text": "lower lobes, bilateral"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiographic and CT Features of Viral Pneumonia, RadioGraphics Vol. 38, No. 3",
+      "explanation": "流感肺炎(influenza pneumonia)胸部X光典型呈雙側下肺葉(bilateral lower lobes)網狀結節狀混濁，可合併局部實質化；邊界不清之斑片狀或結節狀實質化可迅速融合，代表瀰漫性肺泡損傷或次發感染，多於3週內消退。",
+      "images": [],
+      "concepts": [
+        "influenza-pneumonia-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-353",
+      "year": 2020,
+      "number": 353,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者含碘對比劑不可使用於蜘蛛網膜腔下注射?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ominpaque 300"
+        },
+        {
+          "letter": "B",
+          "text": "Ominpaque 240"
+        },
+        {
+          "letter": "C",
+          "text": "Ominpaque 180"
+        },
+        {
+          "letter": "D",
+          "text": "Ominpaque 350"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: 中華民國放射線醫學會對比劑手冊(2017); 2016 ACR manual",
+      "explanation": "台灣核准可用於蜘蛛網膜腔下(intrathecal)注射之Omnipaque(iohexol)劑型僅限180、240、300三種濃度；350mg I/mL濃度過高，未核准用於此途徑。",
+      "images": [],
+      "concepts": [
+        "intrathecal-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-354",
+      "year": 2020,
+      "number": 354,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "What will not be found on a pulmonary hypertension patient?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "mean pulmonary pressure of 25 mm Hg"
+        },
+        {
+          "letter": "B",
+          "text": "pulmonary artery diameter 25 mm"
+        },
+        {
+          "letter": "C",
+          "text": "pulmonary artery larger than that of the ascending aorta at the same level"
+        },
+        {
+          "letter": "D",
+          "text": "nonspecific cardiovascular and respiratory symptoms including dyspnea, fatigue, chest pain or angina, and syncope"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Approach to Pulmonary Hypertension: From CT to Clinical Diagnosis, RadioGraphics",
+      "explanation": "CT診斷肺高壓始於量測主肺動脈徑擴大，門檻為**>29mm**（通常較同層降主動脈徑為大），非25mm；肺高壓定義為靜息平均肺動脈壓≥25mmHg；臨床表現為非特異性心肺症狀(呼吸困難/疲倦/胸痛/暈厥)，皆為正確之肺高壓相關表現，僅B之25mm門檻數值錯誤。",
+      "images": [],
+      "concepts": [
+        "pulmonary-hypertension-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-355",
+      "year": 2020,
+      "number": 355,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is not a complication of coronary vasculitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "aneurysmal dilatation, which can lead to rupture and hemorrhage"
+        },
+        {
+          "letter": "B",
+          "text": "thrombosis"
+        },
+        {
+          "letter": "C",
+          "text": "stenosis"
+        },
+        {
+          "letter": "D",
+          "text": "all of the above will be seen in coronary vasculitis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: CT and MR Imaging of Cardiothoracic Vasculitis, RadioGraphics Vol. 38, No. 4",
+      "explanation": "冠狀動脈血管炎之併發症包括：動脈瘤樣擴張(可致破裂出血)、血栓形成、狹窄，三者皆為冠狀動脈血管炎之已知併發症，故答案為D(以上皆會出現於冠狀動脈血管炎)。加速性動脈粥狀硬化為冠狀動脈血管炎之共同病理途徑(與慢性發炎之致粥狀硬化效應相關)；成人以結節性多動脈炎(polyarteritis nodosa)、兒童以川崎氏病(Kawasaki disease)最常見冠狀動脈受侵犯。",
+      "images": [],
+      "concepts": [
+        "coronary-vasculitis-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-356",
+      "year": 2020,
+      "number": 356,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about the Lake Louise consensus criteria is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2 myocardium to skeletal muscle ratio >1.5"
+        },
+        {
+          "letter": "B",
+          "text": "delayed enhancement in subepicardial and or mid-myocardium in nonischemic distribution"
+        },
+        {
+          "letter": "C",
+          "text": "increased global myocardial early gadolinium enhancement ratio between myocardium and skeletal muscle in gadolinium-enhanced T1WI"
+        },
+        {
+          "letter": "D",
+          "text": "all of the above is correct"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: CT and MR Imaging of Cardiothoracic Vasculitis, RadioGraphics Vol. 38, No. 4",
+      "explanation": "當局部T2高訊號不明顯無法定位發炎病灶時，可利用心肌相對骨骼肌之整體T2訊號比值輔助偵測，異常門檻為**比值≥2.0**（非>1.5）；心外膜下/壁內延遲強化(非缺血性分布)、心肌相對骨骼肌之整體早期釓增強比值增加，皆為Lake Louise準則之正確描述，僅A之比值門檻數字錯誤。",
+      "images": [],
+      "concepts": [
+        "myocarditis-mri"
       ],
       "checked": false
     }

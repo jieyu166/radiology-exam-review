@@ -48,6 +48,9 @@ dateRev: 2026-06-30
 > [!question]- Which one of the following is not recommended for using Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules? (2020-350)
 > **Lung Cancer Screening Population（C）**——肺癌篩檢族群被排除於本指引適用範圍外(另有Lung-RADS專屬指引)；35歲以下、已知惡性病史、免疫低下亦被排除。40歲及50歲病患皆在適用範圍內。[^4]
 
+> [!question]- According to Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules, when a solitary solid nodule 6-8 mm present, what is the recommendation? (2020-351)
+> **CT at 6-12 months, then consider CT at 18-24 months（C）**——單一實質結節6-8mm(無論低/高風險)建議6-12個月CT複查，再考慮18-24個月複查。[^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fleischner-pulmonary-nodule")
