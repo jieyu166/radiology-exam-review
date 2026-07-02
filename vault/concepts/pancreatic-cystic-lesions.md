@@ -34,6 +34,9 @@ dateRev: 2026-06-30
 > [!question]- 關於胰臟囊性病灶,何者敘述「為非」? (2017-194)
 > 「**Serous cystadenoma 為癌前病灶應馬上切除**」為非——serous cystadenoma **良性、多觀察不需切除**。最常見囊性病灶為 pseudocyst（無血管化軟組織）、pseudocyst 無強化軟組織、MRI 描述 IPMN 優於 CT 皆正確。[^1]
 
+> [!question]- What's WRONG about the description of pancreatic cystic lesions? (2018-435)
+> **Mucinous cystadenoma has a predilection of location at the tail portion with male predominance（B）**——mucinous cystadenoma 雖好發胰體尾，但為**女性優勢（female predominance）**，非男性。IPMN 好發胰頭與鉤突（A對）、serous cystadenoma 為微囊病灶合併中央纖維疤痕與鈣化（C對）、神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變（D對）皆正確。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatic-cystic-lesions")

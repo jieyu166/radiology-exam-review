@@ -25,6 +25,10 @@ dateRev: 2026-06-18
 ### 參考來源
 [^1]: *Autoimmune pancreatitis*. Radiopaedia.org（題目所引／實際查證 accessed 2026-06-18）：**diffuse「sausage-shaped」最常見**;capsule-like rim;主胰管不規則狹窄;合併 PSC/IgG4 膽管炎、後腹腔纖維化;類固醇反應佳。
 
+## 題目
+> [!question]- An 88-year-old male with epigastric pain; CT showed diffuse IHD dilatation with obstruction at liver hilum, diffuse pancreas swollen with sausage appearance. Impression and next work-up? (2018-040)
+> **IgG4-related sclerosing disease, check IgG4 level（D）**——香腸狀瀰漫腫大胰臟(sausage appearance)＋肝門膽管狹窄致 IHD 擴張，符合自體免疫胰臟炎／IgG4 相關硬化性疾病，應檢測血清 IgG4。屬 [[igg4-related-disease]] 譜系；非胰頭癌(A)、Mirizzi(B)或 Klatskin tumor(C)。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "autoimmune-pancreatitis")

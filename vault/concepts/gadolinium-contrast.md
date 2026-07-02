@@ -57,6 +57,15 @@ same:
 > [!question]- EMA PRAC於106年建議限縮linear gadolinium靜脈注射使用，以下何者錯誤? (2018-112)
 > **gadobenic acid僅能低劑量用於心臟顯影（B）**——gadoxetic acid與gadobenic acid**僅能用於肝臟顯影**(非心臟)；gadopentetic acid僅能低劑量用於關節顯影(C對)；其餘linear gadolinium(gadodiamide、gadoversetamide)維持下架建議(D對)；gadoxetic acid僅能用於肝臟顯影(A對)。[^2]
 
+> [!question]- Which statement is incorrect about gadolinium deposition in the brain? (2018-108)
+> **The gadolinium would not cross intact blood-brain barrier（A）**——實際上約 18%–42% 的釓會穿過完整 BBB 沉積於神經組織間質（推測經 glymphatics）。T1WI 高訊號劑量依賴(B對)、腎功能正常者亦可發生(C對)、臨床意義未明(D對)皆正確。[^3]
+
+> [!question]- Which gadolinium-based contrast agents (GBCAs) would have higher possibility of brain deposition? (2018-109)
+> **Gadopentetate dimeglumine（C，Magnevist，linear ionic）**——linear 製劑去螯合多、腦沉積風險高於 macrocyclic。Gadoterate meglumine(A，Dotarem，macrocyclic ionic)、Gadobutrol(B，Gadavist，macrocyclic non-ionic)皆為低沉積風險之 macrocyclic。[^1][^3]
+
+> [!question]- Which sites would have greatest concentration of gadolinium deposition? (2018-444)
+> **Dentate nucleus（B）**——釓腦沉積程度依序為 dentate nucleus > globus pallidus > thalamus > pons，以齒狀核濃度最高。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")

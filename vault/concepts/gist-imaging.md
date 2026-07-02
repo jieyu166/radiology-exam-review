@@ -23,7 +23,11 @@ dateRev: 2026-07-01
 - 常見好發部位排序易誤植為「胃>大腸>後腹腔>腸繫膜>小腸」——正確應為**胃>小腸>大腸直腸>其他>食道**。[^1]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Acta Radiologica 2009;50(8):837-44。
+[^1]: 2019 交換考詳解；Acta Radiologica 2009;50(8):837-44（2018 交換考題詳解 p.353 亦引用同篇）。
+
+## 題目
+> [!question]- Which one is NOT correct about GIST (gastrointestinal stromal tumor)? (2018-436)
+> **The common sites of GIST location are stomach > colon > retroperitoneum > mesentery > small intestine（B）**——正確排序應為**胃 > 小腸 > 大腸直腸 > 其他 > 食道**，小腸為第二常見（非大腸/後腹腔/腸繫膜）。大型胃GIST合併中央壞死潰瘍須與胃淋巴瘤鑑別(A對)、淋巴結轉移少見(C對)、Imatinib治療反應後可呈囊性變合併黏液樣退化與疤痕化(D對)皆正確。[^1]
 
 ## 考題
 ```dataview

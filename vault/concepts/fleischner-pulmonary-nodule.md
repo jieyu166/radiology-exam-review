@@ -61,6 +61,9 @@ dateRev: 2026-06-30
 > [!question]- According to Fleischner 2017 guideline for pulmonary nodules, which statement is wrong? (2018-394)
 > **High risk of malignancy included non-upper lobe location（A）**——**上肺葉位置(upper lobe location)才是惡性高風險因子**，非「非上肺葉」，故A錯。適用35歲以上(B對)、單發實質<6mm低風險可不需常規追蹤(C對)皆為正確描述。[^3][^4]
 
+> [!question]- Fleischner 2017/ACCP：which characteristic is NOT associated with a low risk? (2018-445)
+> **Location in upper lobe（C）**——依 ACCP 分類，**上肺葉位置為惡性高風險因子**，非低風險。Young age（A）、Less smoking（B）皆為低風險因子；故「D. 以上皆為低風險」不成立。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fleischner-pulmonary-nodule")

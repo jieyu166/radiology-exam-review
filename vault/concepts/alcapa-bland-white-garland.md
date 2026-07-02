@@ -24,7 +24,11 @@ dateRev: 2026-07-01
 - 分流方向與側支發育程度常被出題者反寫（嬰兒型誤植為側支豐富、分流方向誤植為右向左），作答時需仔細核對方向性敘述。[^1]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Peña E, Nguyen ET, Merchant N, Dennie C. ALCAPA syndrome: not just a pediatric disease. Radiographics. 2009 Mar-Apr;29(2):553-65。
+[^1]: 2019 交換考詳解；Peña E, Nguyen ET, Merchant N, Dennie C. ALCAPA syndrome: not just a pediatric disease. Radiographics. 2009 Mar-Apr;29(2):553-65（2018 交換考題詳解 p.358 亦引用同篇）。
+
+## 題目
+> [!question]- Which of the following statement about Bland-White-Garland Syndrome is correct? (2018-441)
+> **Patient may present with mitral insufficiency due to ischemic dysfunction of the papillary muscles and adjacent myocardium（D）**——ALCAPA可因乳頭肌與鄰近心肌缺血性功能障礙致二尖瓣閉鎖不全。A誤（為左冠脈異常起源ALCAPA，非右冠脈ARCAPA）；B誤（嬰兒型側支發育**不足**，非豐富）；C誤（冠狀動脈竊血為**左向右**分流，非右向左）。[^1]
 
 ## 考題
 ```dataview

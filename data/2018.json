@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 434,
+  "totalQuestions": 451,
   "questions": [
     {
       "id": "2018-001",
@@ -1480,10 +1480,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "sausage appearance想到autoimmune pancreatitis",
+      "reference": "Adult bile duct strictures. RadioGraphics 2014;34:565-586（2018 交換考題詳解 p.352 引用）",
+      "explanation": "香腸狀瀰漫腫大胰臟（sausage appearance）＋肝門膽管狹窄致肝內膽管（IHD）擴張，符合自體免疫胰臟炎／IgG4-related sclerosing disease，下一步應檢測血清 IgG4 濃度。非胰頭癌（A）、Mirizzi syndrome（B）或 Klatskin tumor（C）。\n\n見 [[autoimmune-pancreatitis]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "autoimmune-pancreatitis"
+      ],
       "checked": false
     },
     {
@@ -16186,6 +16188,643 @@
       "concepts": [
         "adrenal-adenoma"
       ],
+      "checked": false
+    },
+    {
+      "id": "2018-435",
+      "number": 435,
+      "subspecialty": "ABD",
+      "questionText": "What's WRONG about the description of pancreatic cystic lesions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intraductal papillary mucinous neoplasm usually develops at pancreatic head and uncinate process."
+        },
+        {
+          "letter": "B",
+          "text": "Mucinous cystadenoma has a predilection of location at the tail portion with male predominance."
+        },
+        {
+          "letter": "C",
+          "text": "A microcystic lesion with central fibrous scar and calcifications are typical serous cystadenoma."
+        },
+        {
+          "letter": "D",
+          "text": "Neuroendocrine tumor or ductal adenocarcinoma can also present with central cystic change."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "AJR 2013;200:343-54（2018 交換考題詳解 p.351 引用）",
+      "explanation": "**Mucinous cystadenoma... tail portion with male predominance（B）**為錯——mucinous cystadenoma 雖好發胰體尾，但為**女性優勢（female predominance）**，非男性。IPMN好發胰頭與鉤突(A對)、serous cystadenoma為微囊病灶合併中央纖維疤痕與鈣化(C對)、神經內分泌腫瘤或胰管腺癌亦可中央囊性變(D對)皆正確。\n\n見 [[pancreatic-cystic-lesions]]",
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-436",
+      "number": 436,
+      "subspecialty": "ABD",
+      "questionText": "Which one is NOT correct about GIST (gastrointestinal stromal tumor)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Large gastric GIST with central necrosis and ulceration should be differentiated with gastric lymphoma."
+        },
+        {
+          "letter": "B",
+          "text": "The common sites of GIST location are stomach > colon > retroperitoneum > mesentery > small intestine."
+        },
+        {
+          "letter": "C",
+          "text": "Lymphadenopathy is uncommon for GIST."
+        },
+        {
+          "letter": "D",
+          "text": "GIST responding to Imatinib therapy shows cystic change with myxoid degeneration and scarring."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Acta Radiologica 2009;50(8):837-44（2018 交換考題詳解 p.353 引用）",
+      "explanation": "**好發部位排序（B）**錯——正確應為**胃 > 小腸 > 大腸直腸 > 其他 > 食道**，小腸為第二常見，非大腸/後腹腔/腸繫膜。大型胃GIST合併中央壞死潰瘍須與胃淋巴瘤鑑別(A對)、淋巴結轉移少見(C對)、Imatinib反應後可呈囊性變合併黏液樣退化與疤痕化(D對)皆正確。\n\n見 [[gist-imaging]]",
+      "concepts": [
+        "gist-imaging"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-437",
+      "number": 437,
+      "subspecialty": "CV",
+      "questionText": "About CAD-RADS, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CAD-RADS 3 means 50 – 69% stenosis."
+        },
+        {
+          "letter": "B",
+          "text": "S means stent."
+        },
+        {
+          "letter": "C",
+          "text": "It was newly published in 2017."
+        },
+        {
+          "letter": "D",
+          "text": "4B means left main > 50% or 3-vessel obstruction > 70%."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005（2018 交換考題詳解 p.354 引用）",
+      "explanation": "**It was newly published in 2017（C）**錯——CAD-RADS 實為 **2016 年**發表（SCCT/ACR/NASCI）。CAD-RADS 3＝50–69% 狹窄(A對)、S＝stent(B對)、4B＝左主幹>50% 或三血管阻塞>70%(D對)皆正確。\n\n見 [[cad-rads]]",
+      "concepts": [
+        "cad-rads"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-438",
+      "number": 438,
+      "subspecialty": "CV",
+      "questionText": "For a case of CAD-RADS 4ASV, what does it mean?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There is a artery has stenosis > 90%."
+        },
+        {
+          "letter": "B",
+          "text": "There is a vulnerable plaque."
+        },
+        {
+          "letter": "C",
+          "text": "There is Positive remodeling > 120% as compared to proximal reference."
+        },
+        {
+          "letter": "D",
+          "text": "There is a stent, in which there is stenosis > 70%."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005（2018 交換考題詳解 p.355 引用）",
+      "explanation": "**There is a vulnerable plaque（B）**——4ASV＝CAD-RADS 4A（單支 70–99% 狹窄）＋S（stent）＋**V（vulnerable plaque 易損斑塊）**，故含易損斑塊。\n\n見 [[cad-rads]]",
+      "concepts": [
+        "cad-rads"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-439",
+      "number": 439,
+      "subspecialty": "CV",
+      "questionText": "What is the modifier for a vulnerable plaque in CAD-RADS reporting and data system for patients presenting with stable chest pain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "\"G\""
+        },
+        {
+          "letter": "B",
+          "text": "\"P\""
+        },
+        {
+          "letter": "C",
+          "text": "\"S\""
+        },
+        {
+          "letter": "D",
+          "text": "\"V\""
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "J Cardiovasc Comput Tomogr. 2016 Jul-Aug;10(4):269-81（2018 交換考題詳解 p.356 引用）",
+      "explanation": "**\"V\"（D）**——V＝vulnerability of plaque（易損斑塊）。G＝graft、S＝stent、N＝non-diagnostic 為其他修飾詞。\n\n見 [[cad-rads]]",
+      "concepts": [
+        "cad-rads"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-440",
+      "number": 440,
+      "subspecialty": "CV",
+      "questionText": "What should be the main reason to obtain a chest CT in the setting of possible acute traumatic aortic injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abnormal chest radiograph"
+        },
+        {
+          "letter": "B",
+          "text": "Mechanism of trauma"
+        },
+        {
+          "letter": "C",
+          "text": "Patient request"
+        },
+        {
+          "letter": "D",
+          "text": "Chest pain"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Creasy JD, Chiles C, Routh WD et al. Overview of traumatic injury of the thoracic aorta. Radiographics. 17(1):27-45（2018 交換考題詳解 p.357 引用）",
+      "explanation": "**Mechanism of trauma（B）**——高能量減速傷之受傷機轉本身即為安排胸部CT評估主動脈損傷的主要理由。異常胸部X光(A)、胸痛(D)僅為輔助線索、敏感度特異度不足；病人要求(C)非臨床適應症。\n\n見 [[traumatic-aortic-injury]]",
+      "concepts": [
+        "traumatic-aortic-injury"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-441",
+      "number": 441,
+      "subspecialty": "CV",
+      "questionText": "Which of the following statement about Bland-White-Garland Syndrome is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anomalous origin of right main coronary artery from pulmonary artery (ARCAPA)."
+        },
+        {
+          "letter": "B",
+          "text": "In contrast to adult type, the infant type is characterized by abundant interarterial collateral vessels between the RCA and the LCA."
+        },
+        {
+          "letter": "C",
+          "text": "It results in the “coronary steal” phenomenon, in which a right-to-left shunt leads to abnormal left ventricular perfusion."
+        },
+        {
+          "letter": "D",
+          "text": "Patient may present with mitral insufficiency due to ischemic dysfunction of the papillary muscles and adjacent myocardium."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Peña E, Nguyen ET, Merchant N, Dennie C. ALCAPA syndrome: not just a pediatric disease. Radiographics. 2009 Mar-Apr;29(2):553-65（2018 交換考題詳解 p.358 引用）",
+      "explanation": "**Mitral insufficiency due to ischemic dysfunction of papillary muscles（D）**——ALCAPA可因乳頭肌與鄰近心肌缺血性功能障礙致二尖瓣閉鎖不全。A誤(為左冠脈異常起源ALCAPA，非右冠脈ARCAPA)、B誤(嬰兒型側支發育**不足**非豐富)、C誤(冠狀動脈竊血為**左向右**分流非右向左)。\n\n見 [[alcapa-bland-white-garland]]",
+      "concepts": [
+        "alcapa-bland-white-garland"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-442",
+      "number": 442,
+      "subspecialty": "Physics",
+      "questionText": "Oral versus intravenous fluid expansion for CIAKI (contrast induced acute kidney injury), which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Guidelines for prevention of CIAKI: volume expansion by rigid long-term saline infusions."
+        },
+        {
+          "letter": "B",
+          "text": "Intravenous infusions should start 6–12 h before the intervention and be maintained for 4 h after the intervention."
+        },
+        {
+          "letter": "C",
+          "text": "Out patient: can not undergo such protocols → oral hydration."
+        },
+        {
+          "letter": "D",
+          "text": "Oral hydration is at least equally effective as IV saline for preventing CIAKI."
+        },
+        {
+          "letter": "E",
+          "text": "None"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "Oral versus intravenous fluid expansion for contrast-induced acute kidney injury. Nat Rev Nephrol. 2017 Mar（2018 交換考題詳解 p.359 引用）",
+      "explanation": "**None（E）**——四項敘述皆正確：CIAKI 預防以生理食鹽水靜脈擴容(A)、靜脈輸液術前 6–12 h 開始並維持術後 4 h(B)、門診病人可改口服水化(C)、口服水化在預防 CIAKI 上至少與靜脈生理食鹽水同等有效(D)。故「何者錯誤」答案為「以上皆非（none）」。\n\n見 [[contrast-induced-nephropathy-prevention]]",
+      "concepts": [
+        "contrast-induced-nephropathy-prevention"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-443",
+      "number": 443,
+      "subspecialty": "Physics",
+      "questionText": "有關 iodinated contrast medium，以下敘述何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CIN (contrast-induced nephropathy) 一般是指在對比劑注射後，48 小時內，serum creatinine 上升，比注射前 ≥50% 以上。"
+        },
+        {
+          "letter": "B",
+          "text": "等張性含碘對比劑，會比低張性對比劑，有明顯更好的腎功能保護作用。"
+        },
+        {
+          "letter": "C",
+          "text": "CIN 最重要的因素，是之前就有腎功能障礙。"
+        },
+        {
+          "letter": "D",
+          "text": "以目前的低張性對比劑注射，除非很大劑量、或用在有心功能障礙患者，否則即使在洗腎的病患，也不需要因為 IV 對比劑注射而必須在檢查後急洗腎。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "ACR Manual on Contrast Media – Version 10.2, 2016, pp.33-40（2018 交換考題詳解 p.360 引用）",
+      "explanation": "**等張性含碘對比劑比低張性有明顯更好腎保護（B）**為誤——以現行低張性(low-osmolar)對比劑注射，等張性(iso-osmolar)並無明顯更佳腎保護。CIN 定義為注射後48小時內 Cr↑≥50%(A對)、CIN 最重要因素為既存腎功能障礙(C對)、洗腎病人接受一般 IV 對比劑不需檢查後急洗腎(D對)皆正確。\n\n見 [[contrast-induced-aki]]",
+      "concepts": [
+        "contrast-induced-aki"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-444",
+      "number": 444,
+      "subspecialty": "Physics",
+      "questionText": "Which sites would have greatest concentration of gadolinium deposition?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Globus pallidus"
+        },
+        {
+          "letter": "B",
+          "text": "Dentate nucleus"
+        },
+        {
+          "letter": "C",
+          "text": "Thalamus"
+        },
+        {
+          "letter": "D",
+          "text": "Pons"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiology 2015;275:772-82（2018 交換考題詳解 p.360 引用）",
+      "explanation": "**Dentate nucleus（B）**——釓腦沉積程度依序為 dentate nucleus > globus pallidus > thalamus > pons，以齒狀核濃度最高。\n\n見 [[gadolinium-contrast]]",
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-445",
+      "number": 445,
+      "subspecialty": "CH",
+      "questionText": "Fleischner Society 2017 guidelines assign lung cancer risk by ACCP categories. Which of the following characteristics is NOT associated with a low risk?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Young age"
+        },
+        {
+          "letter": "B",
+          "text": "Less smoking"
+        },
+        {
+          "letter": "C",
+          "text": "Location in upper lobe"
+        },
+        {
+          "letter": "D",
+          "text": "All above are associated with a low risk"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "MacMahon H et al. Fleischner Society 2017 guidelines. Radiology. 2017 Jul;284(1):228-243（2018 交換考題詳解 p.364 引用）",
+      "explanation": "**Location in upper lobe（C）**——依 ACCP 分類，上肺葉位置為惡性**高風險**因子，非低風險。Young age(A)、Less smoking(B)皆為低風險因子，故 D 不成立。\n\n見 [[fleischner-pulmonary-nodule]]",
+      "concepts": [
+        "fleischner-pulmonary-nodule"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-446",
+      "number": 446,
+      "subspecialty": "CH",
+      "questionText": "Which of the following combination of “Radiological sign – Possible etiology” is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hilum convergence sign – Sarcoidosis"
+        },
+        {
+          "letter": "B",
+          "text": "Luftsichel Sign – LUL collapse"
+        },
+        {
+          "letter": "C",
+          "text": "Cervicothoracic sign – Intrathoracic goiter"
+        },
+        {
+          "letter": "D",
+          "text": "Comet tail sign – Round atelectasis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Rosado-de-Christenson ML. Diagnostic Imaging: Chest, 2nd ed. Lippincott Williams & Wilkins, 2012, p.71-83（2018 交換考題詳解 p.365 引用）",
+      "explanation": "**Hilum convergence sign – Sarcoidosis（A）**不正確——hilum convergence sign 用於區分擴大肺動脈與縱膈腫塊（對應**肺動脈擴大**），非 sarcoidosis。Luftsichel–LUL collapse(B)、cervicothoracic–intrathoracic goiter(C)、comet tail–round atelectasis(D)皆正確。\n\n見 [[chest-radiographic-signs]]",
+      "concepts": [
+        "chest-radiographic-signs"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-447",
+      "number": 447,
+      "subspecialty": "Breast",
+      "questionText": "美國放射線學會(ACR)規定每張乳房攝影之平均乳腺劑量於標準假體下攝影不得超過 3mGy。下列哪一項檢查超過規定劑量?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2D 乳房攝影"
+        },
+        {
+          "letter": "B",
+          "text": "3D 乳房斷層攝影"
+        },
+        {
+          "letter": "C",
+          "text": "2D 乳房攝影 + 3D 乳房斷層攝影"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆未超過"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Comparison of digital mammography alone and digital mammography plus tomosynthesis in a population-based screening program. Radiology 2013;267:47-56（2018 交換考題詳解 p.367 引用）",
+      "explanation": "**以上皆未超過（D）**——2D 乳房攝影、3D 斷層攝影、2D+3D 併用（每一模式/每一 view）之平均乳腺劑量皆未超過 3 mGy 規定。\n\n見 [[breast-tomosynthesis]]",
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-448",
+      "number": 448,
+      "subspecialty": "Breast",
+      "questionText": "2D 乳房攝影與 3D 乳房斷層攝影相比，篩檢婦女額外發現乳癌最多的類型為?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "所有乳癌"
+        },
+        {
+          "letter": "B",
+          "text": "侵犯性乳癌"
+        },
+        {
+          "letter": "C",
+          "text": "原位癌"
+        },
+        {
+          "letter": "D",
+          "text": "浸潤型乳癌"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiology 2013;267:47-56（2018 交換考題詳解 p.367 引用）",
+      "explanation": "**侵犯性乳癌（B）**——DBT 額外偵測之乳癌以侵犯性乳癌為主（尤其較多侵犯性小葉癌 invasive lobular carcinoma），非原位癌。\n\n見 [[breast-tomosynthesis]]",
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-449",
+      "number": 449,
+      "subspecialty": "Breast",
+      "questionText": "2D 乳房攝影與 3D 乳房斷層攝影相比，3D 乳房斷層攝影判讀時間為 2D 乳房攝影幾倍?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "時間不變"
+        },
+        {
+          "letter": "B",
+          "text": "2 倍"
+        },
+        {
+          "letter": "C",
+          "text": "3 倍"
+        },
+        {
+          "letter": "D",
+          "text": "1/2"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiology 2013;267:47-56（2018 交換考題詳解 p.368 引用）",
+      "explanation": "**2 倍（B）**——DBT 判讀時間約為 2D 之 2 倍（45 秒 vs 91 秒，Skaane Radiology 2013）。\n\n見 [[breast-tomosynthesis]]",
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-450",
+      "number": 450,
+      "subspecialty": "Breast",
+      "questionText": "目前你的醫院使用 2D 乳房攝影篩檢，篩檢到乳癌約每千人有 6 個乳癌，改用 3D 乳房斷層攝影後預測每千人篩檢可發現幾個乳癌?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "4 人"
+        },
+        {
+          "letter": "B",
+          "text": "6 人"
+        },
+        {
+          "letter": "C",
+          "text": "8 人"
+        },
+        {
+          "letter": "D",
+          "text": "10 人"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiology 2013;267:47-56（2018 交換考題詳解 p.368 引用）",
+      "explanation": "**8 人（C）**——由每千人 6.1 例提升至約 8.0 例（Skaane Radiology 2013;267:47-56）。\n\n見 [[breast-tomosynthesis]]",
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
+      "checked": false
+    },
+    {
+      "id": "2018-451",
+      "number": 451,
+      "subspecialty": "Breast",
+      "questionText": "Tomosynthesis 最可減少何種陽性病灶的 recall rate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Calcifications"
+        },
+        {
+          "letter": "B",
+          "text": "Mass"
+        },
+        {
+          "letter": "C",
+          "text": "Focal asymmetry"
+        },
+        {
+          "letter": "D",
+          "text": "Architectural distortion"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Breast Tomosynthesis E-Book, Page 28（2018 交換考題詳解 p.369 引用）",
+      "explanation": "**Focal asymmetry（C）**——DBT 薄層去除組織重疊，最能澄清單純因組織疊影造成的假性局部不對稱，故 focal asymmetry 之 recall rate 降幅最大。\n\n見 [[breast-tomosynthesis]]",
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
+      "year": 2018,
+      "years": [
+        2018
+      ],
+      "subspecialty_confidence": "manual",
+      "images": [],
       "checked": false
     }
   ]
