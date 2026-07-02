@@ -40,6 +40,20 @@ same:
 [^2]: 【Tier 1，peer-reviewed open access】Young WF Jr. *Conventional Imaging in Adrenocortical Carcinoma: Update and Perspectives.* Horm Cancer. 2011. DOI: 10.1007/s12672-011-0089-z（PMC10358061，accessed 2026-06-29）：約 90% > 6 cm、範圍 5–20 cm；非顯影衰減通常 > 30 HU；relative washout < 50%、absolute washout < 60%；T1 低／T2 高訊號且不均，出血灶 T1/T2 皆高訊號，部分含脂質灶 out-of-phase 掉訊號；達 25% 有腎靜脈/IVC 瘤栓，MRI 評估 IVC 延伸優於 CT/US；hepatic、lymph node、pulmonary 轉移常見。
 [^3]: 【Tier 1，AJR】Bharwani N, et al. *Adrenocortical Carcinoma: The Range of Appearances on CT and MRI.* AJR Am J Roentgenol. 2011. DOI: 10.2214/AJR.10.5540（全文付費，依摘要／檢索層級查證，accessed 2026-06-29）：非顯影衰減 > 10 HU、周邊為主之不均勻強化、washout 慢於腺瘤（APW < 60%、RPW < 40%）；腺瘤小且 ≤10 HU 或快 washout；最高達 25% 病人有腎靜脈/IVC 瘤栓。
 [^4]: 【Tier 2，StatPearls】Menon G, Prasath S, Correa R. *Adrenocortical Carcinoma.* StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan-（NBK546580，accessed 2026-06-29）：約 40–60% 為功能性，庫欣最常見，雄性素過多占功能性約 20–30%、常與糖皮質素併存（約占功能性一半）；腺瘤 ≤10 HU、RPW > 58%；metastasis 來自肺/腎細胞/黑色素瘤/乳癌；myelolipoma 含巨觀脂肪。
+[^5]: *Radiol Clin N Am* 2011;49:711-727（2018 交換考題詳解 p.317 引用；Tier 1 期刊）。兒童腎上腺皮質腺瘤罕見、較腎上腺皮質癌少見，兒童腺瘤常為荷爾蒙活性；年齡雙峰(<5歲及>10歲)；好發年輕女性；關聯Beckwith-Wiedemann、Li-Fraumeni(p53突變)、泌尿道發育異常。
+
+## 兒童腎上腺皮質腫瘤（2018-404）
+- **兒童腎上腺皮質腺瘤罕見**、較腎上腺皮質癌少見；與成人不同，**兒童腺瘤常為荷爾蒙活性(hormonally active)**。[^5]
+- **年齡分布**：**雙峰（<5歲及>10歲）**。[^5]
+- **性別（本題重點）**：**好發年輕女性(predominance in young female)**——「predominance in young male」為**錯誤**。[^5]
+- **關聯症候群**：**Beckwith-Wiedemann syndrome、Li-Fraumeni syndrome（p53腫瘤抑制基因突變）、泌尿道發育異常**。[^5]
+
+> [!note] 考點：關於兒童腎上腺皮質腫瘤何者「錯誤」？
+> **Predominance in young male（C）**——好發**年輕女性**，非男性。多數<5歲(及>10歲雙峰)(A對)、多數荷爾蒙活性(B對)、關聯Beckwith-Wiedemann/Li-Fraumeni/泌尿道異常(D對)皆為正確描述。[^5]
+
+## 題目
+> [!question]- Which statement about adrenocortical tumor of adrenal gland in children is false? (2018-404)
+> **Predominence in young male（C）**——兒童腎上腺皮質腫瘤好發年輕女性，非男性。[^5]
 
 ## 考題
 ```dataview

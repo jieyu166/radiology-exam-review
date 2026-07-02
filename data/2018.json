@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 399,
+  "totalQuestions": 410,
   "questions": [
     {
       "id": "2018-001",
@@ -14872,6 +14872,417 @@
       "images": [],
       "concepts": [
         "ectopic-pregnancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-400",
+      "year": 2018,
+      "number": 400,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one listed below about the descriptions of ureteritis cystica is not true?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Predominantly in the proximal 1/3 ureter."
+        },
+        {
+          "letter": "2",
+          "text": "The lesion is a malignant condition has high potential for degeneration."
+        },
+        {
+          "letter": "3",
+          "text": "Does not cause ureteral obstruction."
+        },
+        {
+          "letter": "4",
+          "text": "Related to transformation of the epithelial nest of Brunn."
+        },
+        {
+          "letter": "5",
+          "text": "Predominantly in adult female."
+        }
+      ],
+      "correctAnswer": "2",
+      "reference": "Diagnostic Imaging—Abdomen—by Michael P. Federle-AMIRSYS, III:4-10 to III:4-11",
+      "explanation": "Ureteritis cystica為良性黏膜下多發小囊病變(非惡性、無高度惡性轉化潛能)，故選項2為非。\n\n見 [[ureteritis-cystica]]",
+      "images": [],
+      "concepts": [
+        "ureteritis-cystica"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-401",
+      "year": 2018,
+      "number": 401,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning hemimegalencephaly, which of the followings is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "defect of cellular organization and neuronal migration"
+        },
+        {
+          "letter": "B",
+          "text": "enlargement of a part or all of a hemisphere"
+        },
+        {
+          "letter": "C",
+          "text": "progression of myelination"
+        },
+        {
+          "letter": "D",
+          "text": "decreased signal of white matter on T1-weighted MR images caused by reduced myelination"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Diagnostic Imaging: Pediatric Neuroradiology (2007) by A. James Barkovich, Kevin R. Moore, Blaise V. Jones, et al. P.20-23",
+      "explanation": "hemimegalencephaly因加速髓鞘化，白質於T1呈增高訊號、CT值增高(非減少)，故D不正確。\n\n見 [[hemimegalencephaly]]",
+      "images": [],
+      "concepts": [
+        "hemimegalencephaly"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-402",
+      "year": 2018,
+      "number": 402,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "The most common extracranial solid neoplasm in children is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neuroblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Whilm's tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Hepatoblastoma"
+        },
+        {
+          "letter": "D",
+          "text": "Pheochromocytoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiol Clin N Am 49 2011;49:711-727",
+      "explanation": "Neuroblastoma為最常見兒童顱外實質腫瘤(第三常見兒童癌症，次於白血病與腦瘤)。\n\n見 [[pediatric-neuroblastic-tumors]]",
+      "images": [],
+      "concepts": [
+        "pediatric-neuroblastic-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-403",
+      "year": 2018,
+      "number": 403,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is not the medullary neoplasm of adrenal glands in children?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neuroblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Ganglioneuroblastoma"
+        },
+        {
+          "letter": "C",
+          "text": "Teratoma"
+        },
+        {
+          "letter": "D",
+          "text": "Ganglioneuroma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiol Clin N Am 49 2011;49:711-727",
+      "explanation": "Teratoma為生殖細胞腫瘤，非腎上腺髓質/神經母細胞腫瘤。neuroblastoma/ganglioneuroblastoma/ganglioneuroma皆為neuroblastic(髓質)腫瘤譜系。\n\n見 [[pediatric-neuroblastic-tumors]]",
+      "images": [],
+      "concepts": [
+        "pediatric-neuroblastic-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-404",
+      "year": 2018,
+      "number": 404,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statements about adrenocortical tumor of adrenal gland in children is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most of the patients are below 5 years old."
+        },
+        {
+          "letter": "B",
+          "text": "Most of the patients are hormone active."
+        },
+        {
+          "letter": "C",
+          "text": "Predominence in young male"
+        },
+        {
+          "letter": "D",
+          "text": "Most associated with Beckwith-Wiedemann syndrome, Li-Fraumen syndrome (mutation of p53 tumor supressor gene) & developmental abnormalities of urinary tract"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiol Clin N Am 49 2011;49:711-727",
+      "explanation": "兒童腎上腺皮質腫瘤好發年輕女性(predominance in young female)，非男性，故C為false。\n\n見 [[adrenocortical-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "adrenocortical-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-405",
+      "year": 2018,
+      "number": 405,
+      "years": [
+        2018
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "The most common incidental adrenal mass in children is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neuroblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Whilm's tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Hepatoblastoma"
+        },
+        {
+          "letter": "D",
+          "text": "Pheochromocytoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiol Clin N Am 49 2011;49:711-727",
+      "explanation": "Neuroblastoma為最常見兒童偶見腎上腺腫塊。\n\n見 [[pediatric-neuroblastic-tumors]]",
+      "images": [],
+      "concepts": [
+        "pediatric-neuroblastic-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-406",
+      "year": 2018,
+      "number": 406,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為Kienböck disease在MRI的表現?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Scaphoid, low signal on T1 and T2"
+        },
+        {
+          "letter": "B",
+          "text": "Scaphoid, low signal on T1 and high signal on T2"
+        },
+        {
+          "letter": "C",
+          "text": "Lunate, low signal on T1 and T2"
+        },
+        {
+          "letter": "D",
+          "text": "Lunate, low signal on T1 and high signal on T2"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Musculoskeletal MRI, Second Edition, CH12, p264",
+      "explanation": "Kienböck disease為月狀骨(lunate)缺血性壞死，進展期T1與T2皆呈低訊號。Preiser disease才是舟狀骨(scaphoid)AVN。\n\n見 [[kienbock-disease]]",
+      "images": [],
+      "concepts": [
+        "kienbock-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-407",
+      "year": 2018,
+      "number": 407,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列關於Gamekeeper's Thumb敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Abduction injury to the first metacarpophalangeal joint"
+        },
+        {
+          "letter": "B",
+          "text": "May injure the ulnar collateral ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Stener lesion means ulnar collateral ligament is retracted proximally and displaced superficial to the abductor aponeurosis"
+        },
+        {
+          "letter": "D",
+          "text": "Stener lesion prevents healing and lead to chronic laxity, loss of grip, and degenerative joint disease."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Musculoskeletal MRI, Second Edition, CH 12, p253",
+      "explanation": "應為adductor aponeurosis(內收肌腱膜)，非abductor(外展肌腱膜)，故C錯。\n\n見 [[gamekeeper-thumb]]",
+      "images": [],
+      "concepts": [
+        "gamekeeper-thumb"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-408",
+      "year": 2018,
+      "number": 408,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列關於Sclerosing Bone Dysplasias何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteopoikilosis shows numerous small foci of sclerotic bone in medullary cavity"
+        },
+        {
+          "letter": "B",
+          "text": "Osteopathia striata shows linear pattern of medullary sclerosis and adjacent soft tissues"
+        },
+        {
+          "letter": "C",
+          "text": "Melorheostosis means bone formation is along the cortex and/or adjacent soft tissues"
+        },
+        {
+          "letter": "D",
+          "text": "The three type of Sclerosing Bone Dysplasias mention above can appear together in mixed patterns"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Problem Solving in Musculoskeletal Imaging, CH6, p267-268",
+      "explanation": "Osteopathia striata僅呈線狀髓質硬化條紋，不侵犯鄰近軟組織(軟組織受累為melorheostosis特徵)，故B錯。\n\n見 [[sclerosing-bone-dysplasias]]",
+      "images": [],
+      "concepts": [
+        "sclerosing-bone-dysplasias"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-409",
+      "year": 2018,
+      "number": 409,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於髓質空洞與尿路攝影顯影，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Medullary cavities resulting from papillary necrosis fill with contrast at retrograde pyelography."
+        },
+        {
+          "letter": "B",
+          "text": "Medullary cavities resulting from papillary necrosis fill with contrast at antegrade pyelography."
+        },
+        {
+          "letter": "C",
+          "text": "Cavities presenting with medullary sponge kidney opacify during retrograde pyelography"
+        },
+        {
+          "letter": "D",
+          "text": "Cavities presenting with medullary sponge kidney opacify during antegrade pyelography"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Genitourinary Imaging: The Requisites, CH2 p57",
+      "explanation": "海綿腎之擴張集尿小管於排泄性/順行(antegrade)尿路攝影顯影(firework/paintbrush)，非逆行(retrograde)，故C錯。\n\n見 [[medullary-sponge-kidney]]",
+      "images": [],
+      "concepts": [
+        "medullary-sponge-kidney"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-410",
+      "year": 2018,
+      "number": 410,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which uterus anomaly is associated with in utero diethylstilbestrol (DES) exposure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Didelphys"
+        },
+        {
+          "letter": "B",
+          "text": "T-shaped endometrial cavity"
+        },
+        {
+          "letter": "C",
+          "text": "Bicornuate uterus"
+        },
+        {
+          "letter": "D",
+          "text": "Mayer-Rokitansky Küster-Hauser (MRKH) syndrome"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Genitourinary Imaging: The Requisites, CH7, p260",
+      "explanation": "子宮內DES暴露特徵為T形子宮腔(T-shaped endometrial cavity)。didelphys/bicornuate為融合缺陷、MRKH為Müllerian發育不全，皆非DES相關。\n\n見 [[uterine-mullerian-anomalies]]",
+      "images": [],
+      "concepts": [
+        "uterine-mullerian-anomalies"
       ],
       "checked": false
     }
