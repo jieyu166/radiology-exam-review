@@ -65,6 +65,9 @@ dateRev: 2026-06-29
 > [!note] 考點：何種鈣化型態最提示乳管原位癌(DCIS)?
 > **Dot-dash fine linear/linear branching（B）**——纖細不規則、可間斷的線狀/分支狀鈣化，強烈提示乳管腔內沉積，PPV最高。Coarse（良性）、sedimented（milk of calcium，良性）、egg-shell（rim，良性）皆非DCIS的可疑表現。[^1][^2]
 
+> [!note] 考點：可疑鈣化型態清單中，何者不屬於可疑型態？
+> **Dystrophic（營養不良性鈣化）不屬於可疑型態清單**——可疑型態僅四類：amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；dystrophic實屬**典型良性**型態（常見於放療後/術後創傷）。fine-linear/fine-linear branching於可疑型態中PPV最高、rim(蛋殼狀)鈣化為oil cyst（脂肪壞死）之典型表現、大而邊界銳利合併爆米花狀鈣化之腫塊為involuting fibroadenoma之典型表現，皆為正確敘述。[^1][^2]
+
 > [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
 > 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
 
@@ -86,6 +89,9 @@ dateRev: 2026-06-29
 
 > [!question]- Which of the following forms of calcification raises greatest suspicion of ductal carcinoma in situ (DCIS)? (2017-272)
 > **Dot-dash fine linear/linear branching（B）**——纖細不規則、可間斷的線狀/分支狀鈣化，強烈提示乳管腔內沉積，PPV最高，為DCIS典型表現。Coarse（良性）、sedimented（milk of calcium，良性）、egg-shell（rim，良性）皆非DCIS的可疑表現。[^1][^2]
+
+> [!question]- Which of the following description about breast calcification is WRONG? (2020-302)
+> **可疑鈣化型態包括amorphous、coarse heterogeneous、dystrophic、fine pleomorphic、fine-linear/fine-linear branching（A）**為錯誤——**dystrophic實屬典型良性型態**，不應列入可疑型態清單（可疑型態僅四類，不含dystrophic）。Fine-linear/branching於可疑型態中PPV最高、rim鈣化為oil cyst典型表現、大而邊界銳利合併爆米花狀鈣化為involuting fibroadenoma典型表現，皆正確。[^1][^2]
 
 ## 考題
 ```dataview
