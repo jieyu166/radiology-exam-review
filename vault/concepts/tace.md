@@ -48,12 +48,19 @@ up: "[[bclc-hcc]]"
 ## 療效（vs 全身化療、藥物選擇、門脈血栓）
 - **TACE 較全身輸注化療顯著延長存活**：不可切除 HCC 中 TACE 治療組中位存活較全身化療組長（來源引 J Vasc Interv Radiol 2005;16:1653-9 之比較數據）；「TACE 是唯一治療選項」為錯誤選項（尚有手術、消融、全身治療、移植等）；「療效主要取決於所用藥物種類」與「門脈血栓會提升 TACE 療效」亦非正確敘述——門脈血栓反而是相對禁忌（見上）。（2018 交換考題詳解 p.11）[^8]
 
+## cTACE碘油-epirubicin乳劑製備技術
+- **乳劑型態**：適合cTACE之碘油(Lipiodol)-epirubicin乳劑應製成**water-in-oil (W/O)**型態。[^10]
+- **抽吸循環次數**：建議透過三通接頭(stopcock)進行**至少20次**來回抽吸交換，惟研究顯示10次與20次完整循環對液滴大小差異不大。[^10]
+- **體積比例**：**epirubicin溶液與Lipiodol之體積比以1:2為最佳參數**，可產生穩定之W/O乳劑（優於傳統常用之1:1比例）。[^10]
+- **Epirubicin水溶液配製**：Epirubicin hydrochloride應溶於**顯影劑(contrast material)**中配製（而非單純生理食鹽水），使溶液比重(specific gravity)與Lipiodol相近（約1.27），以利乳化穩定；**單純以生理食鹽水配製並非建議做法**。[^10]
+
 ## HCC 肝外側枝供血動脈的發展因子（2018-188）
 - **促進肝外側枝（extrahepatic collateral, EHC）動脈發展的因子**：**腫瘤大小 >5 cm**、腫瘤位於**肝裸區（bare area）**、**曾接受 TACE**、**曾接受手術**、**外突性（exophytic）腫瘤**、**肝外腫瘤浸潤**。[^9]
 - **多發病灶（multifocal lesions）本身並非** EHC 發展的公認因子——因子清單聚焦於單一腫瘤的大小/位置/外觀與治療史，而非病灶數目。
 
 ### 參考來源
 [^9]: *Chemoembolization of Hepatocellular Carcinoma with Extrahepatic Collateral Blood Supply: Anatomic and Technical Considerations.* RadioGraphics 2017;37:page 964（2018 交換考題詳解 p.80 引用；Tier 1）。EHC 動脈發展因子含腫瘤>5cm、肝裸區位置、曾TACE、曾手術、外突性腫瘤、肝外浸潤；多發病灶非公認因子。
+[^10]: 官方2020詳解；Ref: J Vasc Interv Radiol 2017;28:1461-1466（題目所引）——cTACE碘油-epirubicin乳劑以W/O型態為佳；建議至少20次stopcock抽吸交換（10次與20次差異不大）；epirubicin溶液與Lipiodol體積比1:2為最佳參數；epirubicin應溶於顯影劑（比重與Lipiodol相近~1.27）而非生理食鹽水配製。
 
 ## 判讀陷阱
 - **碘油偽影**：CT 上碘油高密度會**遮蔽底下強化**，亦造成 beam-hardening 偽影；勿把「碘油緻密沉積」直接當「完全壞死」，亦勿把碘油密度誤判為存活腫瘤——存疑改 MRI 減影。[^3][^5]
@@ -75,6 +82,9 @@ up: "[[bclc-hcc]]"
 
 > [!question]- 關於 TACE 的禁忌/風險，哪項敘述錯誤？
 > 「**TIPS 與 TACE 後『低』肝衰竭風險相關**」錯——TIPS **增加**肝衰竭風險。主門脈阻塞、膽紅素>3 為禁忌；膽道擴張/乳頭切開/膽腸吻合增加肝膿瘍風險。[^1]
+
+> [!question]- Which of the followings is NOT a recommended technique forming a suitable lipiodol-epirubicin emulsion for conventional TACE(cTACE) of hepatoma? (2020-273)
+> **Normal saline is recommended for preparation of epirubicin aqueous solution（D）**為非建議——epirubicin應溶於顯影劑（比重與Lipiodol相近），而非生理食鹽水。W/O型態、至少20次stopcock抽吸交換、epirubicin溶液與Lipiodol體積比1:2皆為建議技術。[^10]
 
 ## 考題
 ```dataview

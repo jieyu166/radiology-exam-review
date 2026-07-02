@@ -27,10 +27,14 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Int J Surg Case Rep 2015;6:23-25：輸尿管重複女性較常見;Weigert-Meyer 法則（上極內下開口易 ureterocele/阻塞、下極外上開口易 VUR）;雙側完全重複四管可正位開於膀胱三角。
+[^2]: 官方2020詳解；Ref: Radiology Review Manual 6th edition（題目所引）——Weigert-Meyer法則：上極輸尿管開口偏內下且ectopic易合併ureterocele致阻塞；下極輸尿管開口偏外上易致VUR。
 
 ## 題目
 > [!question]- 關於 ureteral duplication，何者「非真」? (2017-224)
 > 「**Ureteral duplication 男性較常見**」非真——**女性較常見**。Weigert-Meyer 法則（上極內下/下極外上開口）、雙側完全重複四管可正位開於三角、完全重複可合併他異常皆正確。[^1]
+
+> [!question]- Which statement about "Weigert-Meyer Rule" for ureteral duplication is correct? (2020-272)
+> **以上皆正確（E）**——上極輸尿管開口偏內下(medial/inferior)且ectopic易合併ureterocele致阻塞；下極輸尿管開口偏外上(lateral)易致vesicoureteral reflux。[^2]
 
 ## 考題
 ```dataview

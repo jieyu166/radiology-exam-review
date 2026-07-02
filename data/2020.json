@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 268,
+  "totalQuestions": 276,
   "questions": [
     {
       "id": "2020-001",
@@ -9750,6 +9750,306 @@
       "images": [],
       "concepts": [
         "urolithiasis-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-269",
+      "year": 2020,
+      "number": 269,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "The time gain compensation (TGC) control, compensates for? Please select the CORRECT response.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The time take to undertake the scan"
+        },
+        {
+          "letter": "B",
+          "text": "Attenuation deficits"
+        },
+        {
+          "letter": "C",
+          "text": "The difference in ultrasound speed in different body tissues"
+        },
+        {
+          "letter": "D",
+          "text": "The video image display lag time"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解",
+      "explanation": "TGC用以補償聲波隨深度增加而衰減(attenuation)之效應，使等回音組織於不同深度呈現相同亮度。非補償掃描所需時間、不同組織間聲速差異、或影像顯示延遲時間。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-270",
+      "year": 2020,
+      "number": 270,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is least likely to improve a suboptimal US image?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Changing the focal point of the transducer"
+        },
+        {
+          "letter": "B",
+          "text": "Altering the angle of the transducer"
+        },
+        {
+          "letter": "C",
+          "text": "Turning the overall gain up to maximum"
+        },
+        {
+          "letter": "D",
+          "text": "Moving the patient"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解",
+      "explanation": "單純將整體增益(overall gain)調至最大最不可能改善影像品質，過度增益反使影像過曝、雜訊增加、對比下降。調整焦點位置、改變探頭角度、移動病人改善聲窗皆為有效方法。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-271",
+      "year": 2020,
+      "number": 271,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which step will most improve image resolution? Please select the CORRECT response.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increasing the depth"
+        },
+        {
+          "letter": "B",
+          "text": "Reducing the frequency"
+        },
+        {
+          "letter": "C",
+          "text": "Moving your point of interest to the lower part of the screen"
+        },
+        {
+          "letter": "D",
+          "text": "Increasing the frequency"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解",
+      "explanation": "提高探頭頻率可縮短波長、提升軸向與側向解析度，是提升解析度最有效方法，惟需犧牲穿透深度。增加深度、降低頻率、將目標移至螢幕下方皆不會改善解析度。",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-272",
+      "year": 2020,
+      "number": 272,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement about \"Weigert-Meyer Rule\" for ureteral duplication is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Upper moiety ureter is subject to ureter obstruction."
+        },
+        {
+          "letter": "B",
+          "text": "Upper moiety ureter is associated with ectopic insertion and ureterocele."
+        },
+        {
+          "letter": "C",
+          "text": "The ectopic ureteral orifice is inferior and medial to orthotopic orifice."
+        },
+        {
+          "letter": "D",
+          "text": "Lower moiety ureter is subject to vesicoureteral reflux."
+        },
+        {
+          "letter": "E",
+          "text": "All statements are correct."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Radiology Review Manual 6th edition",
+      "explanation": "四項描述皆正確：Weigert-Meyer法則中，上極輸尿管開口偏內下(medial/inferior)且ectopic易合併ureterocele致阻塞；下極輸尿管開口偏外上易致vesicoureteral reflux。",
+      "images": [],
+      "concepts": [
+        "ureteral-duplication"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-273",
+      "year": 2020,
+      "number": 273,
+      "years": [
+        2020
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is NOT a recommended technique forming a suitable lipiodol-epirubicin emulsion for conventional TACE(cTACE) of hepatoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "water-in-oil [W/O]"
+        },
+        {
+          "letter": "B",
+          "text": "at least 20 pumping exchanges through the stopcock"
+        },
+        {
+          "letter": "C",
+          "text": "the volume ratio of epirubicin solution and Lipiodol of 1:2"
+        },
+        {
+          "letter": "D",
+          "text": "normal saline is recommended for preparation of epirubicin aqueous solution"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: J Vasc Interv Radiol 2017;28:1461-1466",
+      "explanation": "Epirubicin應溶於顯影劑（比重與Lipiodol相近約1.27）配製，而非生理食鹽水，故(D)非建議技術。W/O型態、至少20次stopcock抽吸交換、epirubicin溶液與Lipiodol體積比1:2皆為建議技術。",
+      "images": [],
+      "concepts": [
+        "tace"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-274",
+      "year": 2020,
+      "number": 274,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding the hepatocellular adenoma (HCA), which of the followings is accurate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HCA is 10 times more common than focal nodular hyperplasia (FNH)"
+        },
+        {
+          "letter": "B",
+          "text": "HCA has no risk of bleeding and malignant transformation"
+        },
+        {
+          "letter": "C",
+          "text": "HCA has link with use of steroids"
+        },
+        {
+          "letter": "D",
+          "text": "CT outperforms MRI in differential diagnosis of different types of HCA"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Journal of Hepatology 2016 vol. 65 j 386-398",
+      "explanation": "HCA之發生與口服避孕藥/雄性素類固醇使用有密切關聯，故(C)正確。HCA實際上約比FNH少見10倍(非常見10倍)；HCA具有出血與惡性轉化風險(非無風險)；MRI(非CT)在鑑別HCA不同分子亞型上表現較佳。",
+      "images": [],
+      "concepts": [
+        "hepatocellular-adenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-275",
+      "year": 2020,
+      "number": 275,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "According the 8th version of the American Joint Committee on Cancer (AJCC), which of the following T stage is accurate for hepatocellular carcinoma with tumor involvement of a major branch of the portal vein?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T1b"
+        },
+        {
+          "letter": "B",
+          "text": "T2"
+        },
+        {
+          "letter": "C",
+          "text": "T3"
+        },
+        {
+          "letter": "D",
+          "text": "T4"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: AJCC cancer stage Version 8",
+      "explanation": "AJCC第8版HCC T分期中，單一或多發腫瘤任何大小併門脈或肝靜脈主要分支侵犯即歸為T4，與腫瘤大小無關。",
+      "images": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-276",
+      "year": 2020,
+      "number": 276,
+      "years": [
+        2020
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is NOT true while talking about air emboli?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A pressure gradient is not required to drive air into the vascular system; a central line or its tract (post-removal) is an example of such a connection."
+        },
+        {
+          "letter": "B",
+          "text": "As CVP may be sub-atmospheric at baseline in up to 40% of patients, those patients in an upright position or those undergoing IR procedures such as hemodialysis catheter placements are particularly susceptible."
+        },
+        {
+          "letter": "C",
+          "text": "Animal studies have been performed to estimate the volume of air required to produce lethal circulatory arrest, with case reported suggesting the lethal dose of air in adults to be between 200 and 300c.c., or 3-5 mL/kg"
+        },
+        {
+          "letter": "D",
+          "text": "A 15 French (5 mm diameter) peel-away sheath used during placement of a tunneled hemodialysis catheter can allow 300 c.c. of air to enter the vascular system in just 0.5 s"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: J. Clin. Med. 2016, 5, 93; doi:10.3390/jcm5110093",
+      "explanation": "空氣進入血管系統需要壓力梯度驅動，故(A)敘述之「不需要壓力梯度」為非真。中心靜脈導管或其拔除後之管道本身可構成連通路徑。CVP於40%病人可呈次大氣壓、成人致死量約200-300cc(3-5 mL/kg)、15Fr peel-away鞘管可於0.5秒內使300cc空氣進入血管系統，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "air-embolism-ir"
       ],
       "checked": false
     }

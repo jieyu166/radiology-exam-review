@@ -60,6 +60,16 @@ dateRev: 2026-06-29
 > [!note] 考點三：何者「非」HCC典型US表現？
 > 「**周邊薄層高迴聲暈(thin hyperechoic halo)**」非典型——HCC周邊暈環典型為**低迴聲(hypoechoic halo)**，對應局部脂肪缺失/纖維包膜。可呈高迴聲、鈣化罕見、可侵犯門脈皆為典型/正確敘述。[^6]
 
+### AJCC第8版病理/臨床分期 — T分期
+- **T1a**：單一腫瘤 ≤2 cm。
+- **T1b**：單一腫瘤 >2 cm，**無血管侵犯**。
+- **T2**：單一腫瘤 >2 cm**併血管侵犯**，或多發腫瘤但皆 ≤5 cm。
+- **T3**：多發腫瘤，**至少一顆 >5 cm**。
+- **T4**：單一或多發腫瘤，**任何大小，侵犯門脈或肝靜脈之主要分支(major branch)**，或腫瘤**直接侵犯膽囊以外之鄰近器官**，或**穿破臟層腹膜(visceral peritoneum)**。[^7]
+
+> [!note] 考點四：HCC侵犯門脈主要分支，AJCC第8版T分期為？
+> **T4**——單一或多發腫瘤任何大小併門脈或肝靜脈主要分支侵犯，即歸為T4（與腫瘤大小無關）。[^7]
+
 ### 移植條件
 - **Milan criteria**：單一腫瘤 ≤5 cm,或 ≤3 顆且各 ≤3 cm,無大血管/肝外侵犯。[^2]
 - **UCSF criteria**：單一 <6.5 cm,或 ≤3 顆各 <4.5 cm 且累積 <8 cm。UCSF 較 Milan 寬一號（5→6.5、3→4.5、加總和 <8 限制）。[^2]
@@ -75,10 +85,14 @@ dateRev: 2026-06-29
 [^4]: 期刊（指南綜述）。Elsayes KM, et al. *2017 Version of LI-RADS for CT and MR Imaging: An Update.* RadioGraphics 2017;37:1994-2017. DOI: https://doi.org/10.1148/rg.2017170098 ——major/ancillary 定義、HBP 與 gadoxetate 之輔助角色、動態期相定義。另 Hope TA, et al. J Comput Assist Tomogr 2017;41:376-381（PMC5411341，DOI: https://doi.org/10.1097/RCT.0000000000000536）：gadoxetate HBP 改善不確定病灶定性，71% 病灶 LI-RADS 分類改變。
 [^5]: 期刊（比較研究）。Zhang YD, et al. *LI-RADS: Substantial Discordance Between CT and MR for Imaging Classification of Hepatic Nodules.* Acad Radiol 2016;23:344-352. DOI: https://doi.org/10.1016/j.acra.2015.11.002 ——CT 對 APHE 假陰性 57.1%、washout 21.2%、pseudocapsule 42.9%，CT 敏感度/準確度低於 MRI。
 [^6]: 官方2020詳解；Ref: Ahuja, A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 1-72~1-73.（題目所引）——小型HCC典型低迴聲，較大者因纖維化/脂肪變性/壞死/鈣化呈異質性；周邊暈環典型為低迴聲(對應局部脂肪缺失)而非高迴聲；鈣化罕見；可侵犯門脈。
+[^7]: 官方2020詳解；Ref: AJCC cancer stage Version 8（題目所引）——AJCC第8版HCC T分期：T1a單一≤2cm；T1b單一>2cm無血管侵犯；T2單一>2cm併血管侵犯或多發皆≤5cm；T3多發至少一顆>5cm；T4任何大小併門脈/肝靜脈主要分支侵犯，或侵犯膽囊以外鄰近器官，或穿破臟層腹膜。
 
 ## 題目
 > [!question]- Which of the following is NOT a typical ultrasound finding of hepatocellular carcinoma? (2020-267)
 > **May be surrounded by a thin hyperechoic halo（B）**為非典型——HCC周邊暈環典型為**低迴聲(hypoechoic halo)**（對應局部脂肪缺失），非高迴聲。可呈高迴聲腫塊、鈣化罕見、可侵犯門脈皆為典型/正確敘述。[^6]
+
+> [!question]- According the 8th version of the American Joint Committee on Cancer (AJCC), which of the following T stage is accurate for hepatocellular carcinoma with tumor involvement of a major branch of the portal vein? (2020-275)
+> **T4（D）**——單一或多發腫瘤任何大小併門脈或肝靜脈主要分支侵犯，即歸為T4，與腫瘤大小無關。[^7]
 
 ## 考題
 ```dataview
