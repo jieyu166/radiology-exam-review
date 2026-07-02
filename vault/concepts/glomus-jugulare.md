@@ -64,6 +64,15 @@ dateRev: 2026-06-29
 [^3]: University of Iowa, *Jugular/Jugulotympanic Paraganglioma — Radiology*（Iowa Head and Neck Protocols，開放全文，accessed 2026-06-29）：CT permeative-destructive、jugular spine erosion、強烈強化；MRI salt-and-pepper、強化邊界清楚；glomus 家族定位（tympanicum 耳蝸鼓岬、jugulare 頸靜脈孔、vagale 頸動脈間隙、carotid body 分叉 lyre sign）；起源於 jugular bulb／CN IX 鼓室支／CN X 耳支。
 [^4]: Fisch 與 Glasscock-Jackson jugulotympanic paraganglioma 分型（otoscape.com eponyms 條目彙整，accessed 2026-06-29）：Fisch Class A（tympanicum）、B（jugulare 無骨破壞）、C1–C3（迷路下／沿頸動脈管侵犯遞增）、D1–D3（顱內延伸）；Glasscock-Jackson 對 tympanicum 與 jugulare 各分四型依侵犯範圍。
 
+> [!question]- For bone changes in glomus jugulare paraganglioma, which one of the following is most likely? (2020-255)
+> **Permeative, destructive（A）**——蟲蝕狀侵蝕性骨破壞，隨腫瘤增大侵蝕頸靜脈棘並延伸入中耳/顳下窩。對照schwannoma之平滑扇貝狀擴大(B)、meningioma之硬化/骨增生(C)。[^2]
+
+> [!question]- For bone changes in jugular foramen schwannoma, which one of the following is most likely? (2020-256)
+> **Sharply-marginated, enlarged jugular fossa（B）**——邊緣具皮質之平滑扇貝狀骨質擴大，內部通常無flow void，非高度富血管。[^2]
+
+> [!question]- For bone changes in jugular foramen meningioma, which one of the following is most likely? (2020-257)
+> **Sclerotic, hyperostosis（C）**——約5%病例可見骨增生，為meningioma緊貼顱底骨質之典型表現，可合併鈣化與板障浸潤。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "glomus-jugulare")

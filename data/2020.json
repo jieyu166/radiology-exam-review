@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 252,
+  "totalQuestions": 257,
   "questions": [
     {
       "id": "2020-001",
@@ -9142,6 +9142,191 @@
       "images": [],
       "concepts": [
         "ddh-hip-lines"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-253",
+      "year": 2020,
+      "number": 253,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關 acute vertebrobasilar occlusion 的取栓治療，何者為錯？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "屬於 AHA/ASA class1/level A 的建議 (2019)。"
+        },
+        {
+          "letter": "B",
+          "text": "DWI MRI 可能可以協助評估合適病人。"
+        },
+        {
+          "letter": "C",
+          "text": "在本地常因源於 intracranial atherosclerotic disease (ICAD)。"
+        },
+        {
+          "letter": "D",
+          "text": "不應延誤靜脈溶栓治療。"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2019;50:e344–e418",
+      "explanation": "2019 AHA/ASA更新中，對於basilar/vertebral artery occlusion之機械取栓建議為Class IIb（弱）、Level of Evidence C-LD（有限資料），並非Class I/Level A，故(A)為錯。急性basilar artery occlusion可能源於thromboembolism、atherosclerosis(ICAD於亞洲人族群常見)或intracranial dissection延伸；DWI MRI可協助評估適合治療之病人；不應因評估延誤靜脈溶栓治療。",
+      "images": [],
+      "concepts": [
+        "ia-thrombectomy-stroke-window"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-254",
+      "year": 2020,
+      "number": 254,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列那個構造不屬於 supraglottis？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "False cord"
+        },
+        {
+          "letter": "B",
+          "text": "Arytenoid"
+        },
+        {
+          "letter": "C",
+          "text": "Epiglottis"
+        },
+        {
+          "letter": "D",
+          "text": "Postcricoid area"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Larynx and hypopharynx. Radiol Clin N Am. 1998; 36: 891-9205",
+      "explanation": "喉部三分區(supraglottis/glottis/subglottis)中，supraglottis包含epiglottis、false cord(ventricular fold)、arytenoid cartilage、aryepiglottic fold等結構。Postcricoid area屬於下咽(hypopharynx)之次分區（與piriform fossae、posterior pharyngeal wall並列），非supraglottis之一部分，故(D)為不屬於。",
+      "images": [],
+      "concepts": [
+        "larynx-hypopharynx-subsite-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-255",
+      "year": 2020,
+      "number": 255,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "For bone changes in glomus jugulare paraganglioma, which one of the following is most likely?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Permeative, destructive"
+        },
+        {
+          "letter": "B",
+          "text": "Sharply-marginated, enlarged jugular fossa."
+        },
+        {
+          "letter": "C",
+          "text": "Sclerotic, hyperostosis"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging: Head and neck, I-3-26",
+      "explanation": "Glomus jugulare paraganglioma之CT骨窗典型呈permeative, destructive（蟲蝕狀侵蝕性）骨破壞，隨腫瘤增大侵蝕jugular spine並延伸入中耳及顳下窩。相對地，jugular foramen schwannoma呈sharply-marginated smooth骨質擴大(B)，jugular foramen meningioma呈sclerotic/hyperostosis(C)。",
+      "images": [],
+      "concepts": [
+        "glomus-jugulare"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-256",
+      "year": 2020,
+      "number": 256,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "For bone changes in jugular foramen schwannoma, which one of the following is most likely?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Permeative, destructive"
+        },
+        {
+          "letter": "B",
+          "text": "Sharply-marginated, enlarged jugular fossa."
+        },
+        {
+          "letter": "C",
+          "text": "Sclerotic, hyperostosis"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging: Head and neck. I-3-30",
+      "explanation": "Jugular foramen schwannoma之骨質變化特徵為sharply-marginated smooth（邊緣具皮質之扇貝狀）骨質擴大，內部通常無flow void，血管攝影非高度富血管，無salt-and-pepper徵象，Indium-111 octreotide呈陰性。與glomus jugulare paraganglioma之permeative destructive(A)、meningioma之sclerotic/hyperostosis(C)形成對比，骨緣型態為主要鑑別點。",
+      "images": [],
+      "concepts": [
+        "glomus-jugulare"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-257",
+      "year": 2020,
+      "number": 257,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "For bone changes in jugular foramen meningioma, which one of the following is most likely?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Permeative, destructive"
+        },
+        {
+          "letter": "B",
+          "text": "Sharply-marginated, enlarged jugular fossa."
+        },
+        {
+          "letter": "C",
+          "text": "Sclerotic, hyperostosis"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Diagnostic Imaging: Head and neck, I-3 37",
+      "explanation": "Jugular foramen meningioma典型呈sclerotic骨質變化，伴hyperostosis（約5%），為meningioma緊貼顱底骨質時之常見表現，可合併鈣化與板障浸潤。與glomus jugulare paraganglioma之permeative destructive(A)、schwannoma之sharply-marginated smooth擴大(B)不同。",
+      "images": [],
+      "concepts": [
+        "glomus-jugulare"
       ],
       "checked": false
     }

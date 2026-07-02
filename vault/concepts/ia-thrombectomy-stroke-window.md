@@ -35,9 +35,18 @@ dateRev: 2026-07-02
 > [!note] 考點二：台灣全民健保IA thrombectomy給付標準？
 > **前循環8小時內／後循環24小時內＋NIHSS 8-30分＋特定大血管阻塞（ICA/M1/M2/ACA/basilar/vertebral）需同時符合**——三項條件缺一不可。[^2]
 
+### Vertebrobasilar occlusion取栓建議等級（2019更新）
+- **basilar/vertebral artery occlusion之機械取栓為Class IIb（弱）、Level of Evidence C-LD（有限資料）**，並非前循環LVO常見引用之Class I/Level A建議。[^3]
+- 急性basilar artery occlusion病因可為thromboembolism、atherosclerosis（本地/亞洲人族群常見intracranial atherosclerotic disease, ICAD）或intracranial dissection延伸。[^3]
+- DWI MRI可協助評估合適取栓之病人；評估過程**不應延誤靜脈溶栓治療**（IV thrombolysis與IAT非互斥、應先啟動）。[^3]
+
+> [!note] 考點三：acute vertebrobasilar occlusion取栓治療，何者為錯？
+> **屬於AHA/ASA class1/level A建議為錯**——實際為**Class IIb/Level C-LD**（弱建議、有限資料）。DWI MRI可協助評估、本地常見病因為ICAD、不應延誤IV溶栓皆為正確敘述。[^3]
+
 ### 參考來源
 [^1]: 官方2020詳解；Ref: 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2018;49:e46–e99.
 [^2]: 官方2020詳解；Ref: 全民健保，衛生福利部中央健康保險署醫療給付項目及支付標準。
+[^3]: 官方2020詳解；Ref: Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2019;50:e344–e418.
 
 ## 題目
 > [!question]- According to the 2018 AHA/ASA Guidelines, IAT treatment window can be extended up to how long with MR-DWI/perfusion imaging help? (2020-231)
@@ -45,6 +54,9 @@ dateRev: 2026-07-02
 
 > [!question]- What is the scope of benefits (給付標準) of IA thrombectomy in National Health Insurance of Taiwan? (2020-232)
 > **All of the above（E）**——前循環8小時/後循環24小時、NIHSS 8-30分、特定大血管阻塞部位需同時符合。[^2]
+
+> [!question]- 下列有關 acute vertebrobasilar occlusion 的取栓治療，何者為錯？ (2020-253)
+> **屬於AHA/ASA class1/level A的建議（A）**——實際為2019更新中之Class IIb/Level C-LD（弱建議）。本地常因ICAD、DWI MRI可協助評估、不應延誤IV溶栓皆正確。[^3]
 
 ## 考題
 ```dataview
