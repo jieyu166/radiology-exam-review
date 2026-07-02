@@ -1,5 +1,5 @@
 {
-  "next_page": 309,
+  "next_page": 317,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -310,7 +310,15 @@
     306,
     307,
     308,
-    309
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317
   ],
   "added_ids": [
     "2020-186",
@@ -483,9 +491,15 @@
     "2020-353",
     "2020-354",
     "2020-355",
-    "2020-356"
+    "2020-356",
+    "2020-357",
+    "2020-358",
+    "2020-359",
+    "2020-360",
+    "2020-361",
+    "2020-362"
   ],
-  "next_id": 357,
+  "next_id": 363,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -590,7 +604,9 @@
     "p299 CH=chest wall DFSP CT key finding→B(既有題)",
     "p300 CH=chest wall UPS MRI key finding→B(既有題，小兒最常見primary bone tumor為Ewing sarcoma同段落)",
     "p304 Physics=高風險含釓對比劑使用限制何者錯誤→D 80歲以上老年人(既有題2020-155)",
-    "p306 Physics=含碘對比劑急性全身性不良反應風險因子何者為非→D 海鮮乳類碘酒過敏(既有題2020-150,years已含2020-2023)"
+    "p306 Physics=含碘對比劑急性全身性不良反應風險因子何者為非→D 海鮮乳類碘酒過敏(既有題2020-150,years已含2020-2023)",
+    "p310 NR=Takayasu arteritis wrong→D extracranial carotid/vertebral(既有題2020-094)",
+    "p311 NR=giant cell arteritis wrong→B ESR<50(既有題2020-095)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -612,5 +628,5 @@
     "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
   ],
-  "notes": "批39(頁302-309)：8題候選，2題同年重印(p304=2020-155含釓對比劑限制；p306=2020-150含碘對比劑風險因子，後者years已跨年含2020-2023)，6題真新題(2020-351~356)：302 Fleischner 6-8mm單一實質結節建議6-12月CT複查(重用fleischner-pulmonary-nodule.md)、303流感肺炎典型雙側下肺葉分布(新建influenza-pneumonia-imaging概念檔)、305 Omnipaque 350不可用於蜘蛛網膜腔下注射(重用intrathecal-contrast-media.md)、307肺高壓主肺動脈徑門檻>29mm非25mm(重用pulmonary-hypertension-classification.md)、308冠狀動脈血管炎三大併發症(動脈瘤/血栓/狹窄皆屬之，新建coronary-vasculitis-complications概念檔)、309 Lake Louise準則T2比值應≥2.0非>1.5(重用myocarditis-mri.md新增量化指標段落)。totalQuestions(2020)已更新為356。commit 7a28b10(批39內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p310開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約77.6%(309/398頁)。累計本session已處理170個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批40(頁310-317)：8題候選，2題同年重印(p310=2020-094 Takayasu arteritis；p311=2020-095 giant cell arteritis)，6題真新題(2020-357~362)：312 >3cm富血管性壁內黏膜下腫瘤GIST最常見、313腎絲球瘤動脈期即強烈強化非微弱(皆重用gist-imaging.md新增段落)、314異位胰臟最常見於胃竇非胃底(重用heterotopic-pancreas.md)、315急性闌尾炎超音波擴張門檻應為>6mm非5mm(新建acute-appendicitis-imaging概念檔)、316 PID影像鑑別中香腸狀含壁結節管狀構造實為輸卵管積膿而非卵巢扭轉(新建pid-mimics-imaging概念檔)、317腎上腺淋巴管瘤為良性非惡性腫瘤(重用adrenal-imaging.md新增段落)。totalQuestions(2020)已更新為362。commit dad8ee4(批40內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p318開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約79.6%(317/398頁)。累計本session已處理176個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
 }
