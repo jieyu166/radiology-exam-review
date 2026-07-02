@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 196,
+  "totalQuestions": 202,
   "questions": [
     {
       "id": "2020-001",
@@ -7035,6 +7035,228 @@
       "images": [],
       "concepts": [
         "neonatal-bowel-atresia-bubble-signs"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-197",
+      "year": 2020,
+      "number": 197,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Air in the portal vein在新生兒時期，常因何疾病引起？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bowel distention（腸子擴張）"
+        },
+        {
+          "letter": "B",
+          "text": "Leukemia（白血病）"
+        },
+        {
+          "letter": "C",
+          "text": "Necrotizing enterocolitis（壞死性腸炎）"
+        },
+        {
+          "letter": "D",
+          "text": "Collagen disease（膠原病）"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Radiology Review Manual, 7th ed.",
+      "explanation": "**壞死性腸炎(NEC)是早產兒最常見腸胃道疾病，portal venous gas為其重要影像徵象之一**，故(C)為正解。\n\n(A)(B)(D) 錯：非新生兒期portal venous gas之常見病因。\n(C) **對（正解）**：NEC影像徵象含腸壁積氣(pneumatosis intestinalis)、portal venous gas、腸擴張伴不對稱分布、腸壁水腫伴thumbprinting；氣腹(pneumoperitoneum)代表重度疾病。\n\n→ [[necrotizing-enterocolitis]]",
+      "images": [],
+      "concepts": [
+        "necrotizing-enterocolitis"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-198",
+      "year": 2020,
+      "number": 198,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列器官遭受體外輻射曝露時，何者是以防止確定效應來決定劑量限度？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "性腺"
+        },
+        {
+          "letter": "B",
+          "text": "肺"
+        },
+        {
+          "letter": "C",
+          "text": "眼球水晶體"
+        },
+        {
+          "letter": "D",
+          "text": "甲狀腺"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；The Essential Physics for Medical Imaging, 3rd ed., p.772",
+      "explanation": "**眼球水晶體之劑量限度是以防止白內障（確定效應，閾值約0.5 Gy）為考量而訂定**，故(C)為正解。\n\n(A)(B)(D) 錯：性腺、肺、甲狀腺之劑量限度主要考量隨機效應（致癌/遺傳）而非確定效應。\n(C) **對（正解）**：眼球水晶體確定效應閾值約0.5 Gy（白內障形成）；職業曝露之水晶體等價劑量限度不得超過100mSv/5年或50mSv/年。\n\n→ [[radiation-deterministic-effects]]",
+      "images": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-199",
+      "year": 2020,
+      "number": 199,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列那些設備，主管機關已要求實施醫療曝露品質保證計畫？①醫用直線加速器 ②磁振造影儀 ③電腦斷層治療機 ④乳房X光攝影儀 ⑤診斷型透視攝影X光機 ⑥含鈷六十放射性物質之遠隔治療機",
+      "options": [
+        {
+          "letter": "A",
+          "text": "①③④⑥"
+        },
+        {
+          "letter": "B",
+          "text": "①②③⑤"
+        },
+        {
+          "letter": "C",
+          "text": "①③④⑤"
+        },
+        {
+          "letter": "D",
+          "text": "②③⑤⑥"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；游離輻射防護法",
+      "explanation": "**主管機關已要求實施醫療曝露品質保證計畫之設備為①醫用直線加速器、③電腦斷層治療機、④乳房X光攝影儀、⑥含鈷六十放射性物質之遠隔治療機**，故(A)為正解。\n\n(A) **對（正解）**：①③④⑥須實施醫療曝露品質保證計畫（另含含放射性物質之遙控後荷式近接治療設備、電腦刀、加馬刀、X光模擬定位儀）。\n(B)(C)(D) 錯：②磁振造影儀、⑤診斷型透視攝影X光機非此規範對象。\n\n→ [[medical-exposure-quality-assurance]]",
+      "images": [],
+      "concepts": [
+        "medical-exposure-quality-assurance"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-200",
+      "year": 2020,
+      "number": 200,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "X光機產生之特性輻射（characteristic X-rays）光子能量與下列何者最有關？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X光機管電流"
+        },
+        {
+          "letter": "B",
+          "text": "陰極燈絲材質"
+        },
+        {
+          "letter": "C",
+          "text": "陽極靶材質"
+        },
+        {
+          "letter": "D",
+          "text": "X光機管電壓"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；The Essential Physics for Medical Imaging, 3rd ed., Chapter 6",
+      "explanation": "**特性輻射光子能量取決於陽極靶材質元素之核結合能（binding energy）**，每個元素之特性輻射能量固定，故(C)為正解。\n\n(A) 錯：管電流影響X光強度（光子數量），非特性輻射能量。\n(B) 錯：陰極燈絲材質與熱電子產生有關，非特性輻射能量。\n(C) **對（正解）**：特性輻射能量取決於陽極靶元素之電子結合能（如鎢靶K-shell特性輻射為57.98、59.32 keV；乳房攝影常用鉬靶）。\n(D) 錯：管電壓影響X光最高能量與連續輻射(bremsstrahlung)強度，特性輻射能量本身不隨電壓改變（僅電壓需超過該元素結合能才會產生）。\n\n→ [[characteristic-xray-physics]]",
+      "images": [],
+      "concepts": [
+        "characteristic-xray-physics"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-201",
+      "year": 2020,
+      "number": 201,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列那些為游離輻射的確定效應？①脫毛 ②皮膚紅斑 ③基因突變 ④白內障",
+      "options": [
+        {
+          "letter": "A",
+          "text": "①②④"
+        },
+        {
+          "letter": "B",
+          "text": "②③④"
+        },
+        {
+          "letter": "C",
+          "text": "①②③"
+        },
+        {
+          "letter": "D",
+          "text": "①③④"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；The Essential Physics for Medical Imaging, 3rd ed., p.772",
+      "explanation": "**確定效應為①脫毛、②皮膚紅斑、④白內障；③基因突變屬機率（隨機）效應**，故(A)為正解。\n\n(A) **對（正解）**：脫毛(~2-5Gy)、皮膚紅斑(2Gy)、白內障(0.5Gy)皆有劑量閾值，屬確定效應。\n(B)(C)(D) 錯：③基因突變（遺傳效應）為機率效應，無劑量閾值、機率隨劑量增但嚴重度不變，不應與確定效應並列。\n\n→ [[radiation-deterministic-effects]]",
+      "images": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-202",
+      "year": 2020,
+      "number": 202,
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "對告知懷孕之女性輻射工作人員，其腹部表面之等價劑量於剩餘妊娠期間不超過X毫西弗，且攝入體內之放射性核種造成之約定有效劑量不超過Y毫西弗，懷孕期間TLD佩章請佩帶於腹部。其中X與Y分別為多少？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1與1"
+        },
+        {
+          "letter": "B",
+          "text": "1與2"
+        },
+        {
+          "letter": "C",
+          "text": "2與1"
+        },
+        {
+          "letter": "D",
+          "text": "2與2"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；游離輻射防護法、醫療院所輻射安心手冊, p.2",
+      "explanation": "**告知懷孕之女性輻射工作人員，剩餘妊娠期間下腹部表面等價劑量不得超過2毫西弗(mSv)，攝入體內放射性核種造成之約定有效劑量不得超過1毫西弗(mSv)**，故(C)為正解（X=2, Y=1）。\n\n(A)(B)(D) 錯：數值組合錯誤。\n(C) **對（正解）**：X=2 mSv（腹部表面等價劑量）、Y=1 mSv（攝入放射性核種約定有效劑量）；懷孕期間TLD佩章應佩帶於腹部。\n\n→ [[pregnant-radiation-worker-dose-limits]]",
+      "images": [],
+      "concepts": [
+        "pregnant-radiation-worker-dose-limits"
       ],
       "checked": false,
       "years": [
