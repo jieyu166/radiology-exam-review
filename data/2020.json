@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 409,
+  "totalQuestions": 414,
   "questions": [
     {
       "id": "2020-001",
@@ -15023,6 +15023,191 @@
       "images": [],
       "concepts": [
         "clippers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-410",
+      "year": 2020,
+      "number": 410,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which location of the dural arteriovenous fistula (dAVF) have higher risk of subarachnoid hemorrhage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Superior sagittal sinus"
+        },
+        {
+          "letter": "B",
+          "text": "Middle fossa"
+        },
+        {
+          "letter": "C",
+          "text": "Ethmoid"
+        },
+        {
+          "letter": "D",
+          "text": "Cavernous sinus (CCF)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Practical Neuroangiography, 2nd ed, p.386",
+      "explanation": "dAVF位置分布：SSS 8%、Ethmoidal 6%、Middle fossa 4%、Petrosal 9%、CCF 12%、Transverse/Sigmoid 60%。雖然ethmoidal dAVF所占比例不高，但其引流靜脈缺乏靜脈竇保護、直接引流入軟腦膜/皮質靜脈，故蜘蛛網膜下腔出血風險最高。",
+      "images": [],
+      "concepts": [
+        "dural-avf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-411",
+      "year": 2020,
+      "number": 411,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging features is not typically seen in hepatoblastoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Well-defined heterogeneous mass"
+        },
+        {
+          "letter": "B",
+          "text": "Cystic"
+        },
+        {
+          "letter": "C",
+          "text": "Chunky dense calcification"
+        },
+        {
+          "letter": "D",
+          "text": "Hypoattenuating"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Caffey's Pediatric Diagnostic Imaging, 13th ed., p.838-839",
+      "explanation": "肝母細胞瘤(hepatoblastoma)典型影像為邊界清楚之異質性(heterogeneous)腫塊，低密度(hypoattenuating)，可見壞死/出血，約40%可見緻密塊狀鈣化(chunky dense calcification)，並非典型囊性(cystic)病灶。轉移最常至肺(10-20%)，亦可轉移骨/腦/淋巴結/眼/卵巢；可侵犯或壓迫肝內血管及下腔靜脈。",
+      "images": [],
+      "concepts": [
+        "hepatoblastoma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-412",
+      "year": 2020,
+      "number": 412,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which description about juvenile idiopathic arthritis is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common symptoms are joint swelling/effusion, stiffness, pain & tenderness."
+        },
+        {
+          "letter": "B",
+          "text": "TMJs are not often involved."
+        },
+        {
+          "letter": "C",
+          "text": "The definition of polyarticular arthritis is more than 5 joints involvement in first 6 months of disease."
+        },
+        {
+          "letter": "D",
+          "text": "The polyarticular rheumatoid factor (RF)-positive arthritis is more commonly in adolescent girls."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Caffey's Pediatric Diagnostic Imaging 12th ed. p.1453",
+      "explanation": "TMJ可於任何JIA亞型受累，受影響比例達17%-87%，並非「不常受累」；因TMJ形態發生學與解剖複雜，受發炎性關節炎影響時特別容易產生生長障礙。多關節型(polyarticular)定義為發病6個月內≥5個關節受累；RF陽性多關節型較常見於青少女；症狀以關節腫脹/積液、僵硬、疼痛與壓痛最常見，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "juvenile-idiopathic-arthritis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-413",
+      "year": 2020,
+      "number": 413,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which imaging sign is not correlated with congenital syphilis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hutchinson's teeth"
+        },
+        {
+          "letter": "B",
+          "text": "Metaphyseal lucent band"
+        },
+        {
+          "letter": "C",
+          "text": "Wimberger corner sign"
+        },
+        {
+          "letter": "D",
+          "text": "Wimberger ring sign"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Caffey's Pediatric Diagnostic Imaging 12th ed. p.1530",
+      "explanation": "Wimberger ring sign（又稱Wimberger ring）為壞血病(scurvy)之徵象，指圍繞骨骺骨化中心之環狀鈣化，與骨質疏鬆合併出血相關，與先天性梅毒無關。先天性梅毒相關徵象包含Hutchinson's teeth、metaphyseal lucent band、Wimberger corner sign（雙側近端脛骨內側乾骺端局部破壞，為先天性梅毒之病理特徵性表現）。",
+      "images": [],
+      "concepts": [
+        "congenital-syphilis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-414",
+      "year": 2020,
+      "number": 414,
+      "years": [
+        2020
+      ],
+      "subspecialty": "RP",
+      "subspecialty_confidence": "manual",
+      "questionText": "於下圖電腦斷層掃描影像中，造成後顱窩中岩骨(petrous bone)間的黑色帶狀假影的原因為何？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "射束硬化 (beam hardening)"
+        },
+        {
+          "letter": "B",
+          "text": "光子數不足 (photon starvation)"
+        },
+        {
+          "letter": "C",
+          "text": "偵檢器校正有誤"
+        },
+        {
+          "letter": "D",
+          "text": "病人晃動"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., Lippincott Williams & Wilkins, 2011. P.367-368",
+      "explanation": "後顱窩兩側緻密岩骨(petrous bone)間之黑色帶狀假影(dark band artifact)為典型beam hardening artifact，因X光束通過高密度骨質後低能光子被優先吸收，能譜偏移使密緻結構之間出現異常低密度暗帶；可透過calibration correction與iterative beam hardening correction降低此假影(RadioGraphics 2004)。",
+      "images": [],
+      "concepts": [
+        "cardiac-ct-artifacts"
       ],
       "checked": false
     }

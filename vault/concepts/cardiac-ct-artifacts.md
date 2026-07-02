@@ -17,6 +17,7 @@ dateRev: 2026-06-19
 
 ## Summary
 - **Beam-hardening artifact**：鈣化/高對比旁的暗紋;**降低法＝增 tube potential(高 kVp)、X 光 beam filtration、虛擬單能量高能影像、iterative reconstruction**。[^1]
+- **非心臟部位範例（後顱窩岩骨間暗帶）**：兩側緻密岩骨(petrous bone)間之黑色帶狀假影(dark band artifact)亦為典型beam hardening artifact——X光束通過高密度骨質後低能光子被優先吸收、能譜偏移，可用**calibration correction + iterative beam hardening correction**降低。[^3]
 - **Noise（quantum mottle）**：低光子量;**降低法＝iterative reconstruction**（亦可增 mAs/kVp/厚度、降 kernel 銳利度）。[^1]
 - **Slab/banding artifact**：軸狀分段(slab)接合處的條帶;**成因＝掃描期間對比劑強化隨時間變化**（非 beam hardening、非 helical 模式）。[^1]
 
@@ -30,6 +31,7 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；RadioGraphics 2016;36:2064-2083：beam-hardening 用高 kVp/濾片/虛擬單能量;noise 用 iterative reconstruction;slab/banding 因掃描期間對比變化。
 [^2]: *Artifacts at Cardiac CT: Physics and Solutions.* RadioGraphics 2016;36:page 2066（2018 交換考題詳解 p.72 引用；Tier 1）。Beam hardening、metal/streak artifact、quantum mottle 皆可由增加 tube potential 改善；slab/banding 成因為掃描期間對比劑強化變化，改善靠增加每心週期 z 覆蓋範圍/減少心週期數/維持均勻對比強化，與 tube potential 無關。
+[^3]: 官方2020詳解；Ref: Bushberg JT et al., The Essential Physics of Medical Imaging, 3rd Ed., 2011, p.367-368（題目所引）；RadioGraphics 2004——後顱窩岩骨間黑色帶狀假影為beam hardening artifact，可用calibration correction + iterative beam hardening correction降低。
 
 ## 題目
 > [!question]- 降低心臟 CT 的 beam-hardening artifact 用何調整? (2017-160)
@@ -40,6 +42,9 @@ dateRev: 2026-06-19
 
 > [!question]- 心臟 CT 的 slab/banding artifact 成因? (2017-162)
 > **掃描期間對比強化隨時間變化（changes in contrast enhancement over the scan duration）**。非 helical 模式、beam hardening、釓對比劑。[^1]
+
+> [!question]- 於電腦斷層掃描影像中，造成後顱窩中岩骨(petrous bone)間的黑色帶狀假影的原因為何？(2020-414)
+> **射束硬化（beam hardening，A）**。[^3]
 
 ## 考題
 ```dataview
