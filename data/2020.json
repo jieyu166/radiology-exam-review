@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 296,
+  "totalQuestions": 300,
   "questions": [
     {
       "id": "2020-001",
@@ -10810,6 +10810,158 @@
       "images": [],
       "concepts": [
         "trauma-injury-mechanism-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-297",
+      "year": 2020,
+      "number": 297,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於心臟核磁共振造影(Cardiovascular Magnetic Resonance，CMR)所使用的顯影劑，下列何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "目前臨床上只有含釓顯影劑(gadolinium-based contrast agents) CMR顯影所使用。"
+        },
+        {
+          "letter": "B",
+          "text": "含釓顯影劑(gadolinium-based contrast agents)在臨床上的安全性很高，發生嚴重併發症腎因性全身纖維化(Nephrogenic systemic fibrosis，NSF)的機率約1%。"
+        },
+        {
+          "letter": "C",
+          "text": "NSF是一種間質組織發炎反應，造成全身性影響，包括皮膚硬結、四肢攣縮、多重器官纖維化，以致最終死亡。"
+        },
+        {
+          "letter": "D",
+          "text": "發生NSF的風險因子包括腎絲球過濾率小於30毫升/分鐘、急性腎臟衰竭，以及末期腎臟疾病需血液透析者"
+        },
+        {
+          "letter": "E",
+          "text": "在目前尚未有腎絲球過濾率大於或等於30毫升/分鐘之慢性腎臟衰竭患者發生過NSF的案例"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Heart Disease_ Eugene Braunwald (2019年11版) Ch. 17, P302",
+      "explanation": "含釓顯影劑發生NSF之機率遠低於1%（eGFR<30族群<1/10,000），並非約1%，故(B)為錯誤敘述。NSF是間質組織發炎反應致皮膚硬結/肢體攣縮/多重器官纖維化、風險因子含eGFR<30/急性腎衰竭/末期腎病需透析、目前無eGFR≥30患者發生NSF案例，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-298",
+      "year": 2020,
+      "number": 298,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following imaging appearance is NOT related to agenesis of corpus callosum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Racing car sign"
+        },
+        {
+          "letter": "B",
+          "text": "Moose head sign"
+        },
+        {
+          "letter": "C",
+          "text": "Colpocephaly"
+        },
+        {
+          "letter": "D",
+          "text": "Molar tooth sign"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Cherian EV, Shenoy KV, Bukelo MJ, Thomas DA. Racing car brings tear drops in the moose. BMJ Case Rep. 2013;2013:bcr2012008165.",
+      "explanation": "Molar tooth sign與胼胝體發育不全無關，屬Joubert症候群及相關疾病之中腦徵象(上小腦腳拉長)。Racing car sign、moose head sign、colpocephaly皆為胼胝體發育不全之典型影像表現。",
+      "images": [],
+      "concepts": [
+        "corpus-callosum-agenesis-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-299",
+      "year": 2020,
+      "number": 299,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which description about disease of neonatal chest is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Infantile respiratory distress syndrome, previously known as hyaline membrane disease, usually occurs in premature infants."
+        },
+        {
+          "letter": "B",
+          "text": "Cesarean section, prolonged labor and maternal aneshesis or diabetes are shown to be contributing factors of fetal lung fluid retention."
+        },
+        {
+          "letter": "C",
+          "text": "Meconium aspiration syndrome is related to perinal stress and commonly ocurrs in pre-term infant."
+        },
+        {
+          "letter": "D",
+          "text": "Pulmonary interstitial emphysema (PIE) and bronchopulmonary dysplasia (BPD) are possible complications of ventilatory therapy for iinfantile respiratory distress syndrme"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: The requisites: Pediatric Radiology 3rd edition p.26~30",
+      "explanation": "胎便吸入症候群(MAS)實際上常發生於足月或過期產兒，非早產兒，故(C)為錯誤敘述。IRDS好發早產兒、剖腹產/產程延長/母體麻醉或糖尿病為胎兒肺液滯留促成因子、PIE與BPD為IRDS呼吸器治療之可能併發症，皆正確。",
+      "images": [],
+      "concepts": [
+        "neonatal-chest-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-300",
+      "year": 2020,
+      "number": 300,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which description about child abuse is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In children less than 2 years of age who are possible victims of abuse, a skeletal survey is mandatory. A \"babygram\" consisting of single or few images of the entire infant is unsatisfactory."
+        },
+        {
+          "letter": "B",
+          "text": "Follow-up skeletal survey performed 2 weeks later is not necessary."
+        },
+        {
+          "letter": "C",
+          "text": "Radiographic skeletal surveys should be performed in all cases of fatal suspected abuse and unexplained infant death, following the same protocol as used in living infants."
+        },
+        {
+          "letter": "D",
+          "text": "Computed tomography (CT) and magnetic resonance imaging (MRI) are used to evaluate suspected head trauma."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Caffey's Pediatric Diagnostic Imaging 13ed Ch.143 p. 1454-1463",
+      "explanation": "追加複查骨骼調查(通常2週後)是必要的，可提高診斷率並協助精確判斷損傷時間，故(B)為錯誤敘述。2歲以下完整骨骼調查為必要(babygram不足)、死亡病例應依相同協定調查、CT/MRI用於評估疑似頭部外傷，皆正確。",
+      "images": [],
+      "concepts": [
+        "child-abuse-skeletal-survey"
       ],
       "checked": false
     }

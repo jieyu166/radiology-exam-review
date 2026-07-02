@@ -39,6 +39,8 @@ same:
   - **重複注射間隔**：eGFR **<30 建議至少間隔 7 天**;eGFR ≥30 兩次間隔 **~4 小時**（~75% 已排出）。
   - **Hepatobiliary 製劑**（詳見 [[hepatobiliary-mri-contrast]]）：**Gd-EOB-DTPA（Primovist）~50% 經膽**、**Gd-BOPTA（MultiHance）~3–5% 經膽**。
 - **EMA（2017）**：因腦沉積,**暫停/限制多數 linear 製劑**（gadodiamide、gadopentetate IV、gadoversetamide）;保留肝膽特異 linear（gadoxetate、gadobenate）與關節腔內 gadopentetate。[^2]
+- **NSF實際發生率遠低於1%**：含釓對比劑臨床安全性極高，於**eGFR<30 mL/min族群發生NSF之風險<1/10,000**——並非約1%這麼高，此為常考陷阱（誤把極低風險誇大為1%）。[^4]
+- **CMR顯影並非僅限含釓對比劑**：心臟核磁共振造影(CMR)臨床上並非「只有」使用含釓顯影劑，仍有其他造影技術（如non-contrast/native T1 mapping等）可用於評估心肌組織特性，惟含釓對比劑仍是評估延遲強化(LGE)之主要工具。[^4]
 
 > [!note] 常見考點
 > 釓劑目的＝**縮短 T1 增訊號**;**macrocyclic 較穩定、NSF/沉積風險低**;高風險＝linear（Omniscan/Magnevist/OptiMARK）;沉積於齒狀核/蒼白球（linear>macrocyclic）;肝膽製劑＝**Gd-EOB-DTPA(Primovist)、Gd-BOPTA(MultiHance)**。[^1][^2]
@@ -47,10 +49,14 @@ same:
 [^1]: *Gadolinium-based contrast agents*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Macrocyclic agents have less chemical instability than linear agents, resulting in a lower risk of nephrogenic systemic fibrosis and lower gadolinium deposition**」;deposition「especially the brain (**dentate nucleus**, **globus pallidus**)」;分類依 net charge 與 linear/macrocyclic。
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
 [^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
+[^4]: 官方2020詳解；Ref: Heart Disease_ Eugene Braunwald (2019年11版) Ch. 17, P302——含釓對比劑臨床安全性高，eGFR<30族群NSF風險<1/10,000（遠低於1%）；風險因子含腎絲球過濾率<30、急性腎衰竭、末期腎臟病需透析；目前尚無eGFR≥30之慢性腎衰竭患者發生NSF案例報告。
 
 ## 題目
 > [!question]- Which kind of Gd agent has higher risk for brain deposition after repeated used? (2020-209)
 > **Linear non-ionic（D）**——macrocyclic較linear穩定（環狀鎖住不易去螯合），ionic較non-ionic穩定（靜電作用較強）；故cyclic ionic最穩定、linear non-ionic穩定度最低、腦沉積風險最高。[^1][^2]
+
+> [!question]- 關於心臟核磁共振造影(CMR)所使用的顯影劑，下列何者錯誤？ (2020-297)
+> **含釓顯影劑在臨床上發生NSF之機率約1%（B）**為錯誤——實際上NSF風險**遠低於1%**（eGFR<30族群<1/10,000）。NSF是間質組織發炎反應致皮膚硬結/肢體攣縮/多重器官纖維化、風險因子含eGFR<30/急性腎衰竭/末期腎病需透析、目前無eGFR≥30患者發生NSF案例，皆為正確敘述。[^4]
 
 ## 考題
 ```dataview

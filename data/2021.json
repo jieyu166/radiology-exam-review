@@ -2105,6 +2105,7 @@
       "year": 2021,
       "number": 59,
       "years": [
+        2020,
         2021
       ],
       "subspecialty": "NR",
@@ -2132,7 +2133,9 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypothalamic-hamartoma"
+      ],
       "checked": false
     },
     {
