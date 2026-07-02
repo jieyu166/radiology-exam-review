@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 262,
+  "totalQuestions": 264,
   "questions": [
     {
       "id": "2018-001",
@@ -1107,10 +1107,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.159；Bronchiolitis: A Practical Approach for the General Radiologist. RadioGraphics 2017;37:790.",
       "explanation": "Aside from bronchiolitis obliterans syndrome, rheumatoid arthritis and idiopathic constrictive bronchiolitis are the most commonly encoun-tered types of constrictive bronchiolitis.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bronchiolitis-classification"
+      ],
       "checked": false
     },
     {
@@ -9677,6 +9679,80 @@
       "images": [],
       "concepts": [
         "vegf-inhibitor-thoracic-complications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-263",
+      "year": 2018,
+      "number": 263,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is the typical CT feature of lymphoid interstitial pneumonitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "diffuse lung consolidation with ground-glass opacities"
+        },
+        {
+          "letter": "B",
+          "text": "ground-glass opacities, often in combination with cystic lesions"
+        },
+        {
+          "letter": "C",
+          "text": "centrilobular nodules and ground-glass opacities"
+        },
+        {
+          "letter": "D",
+          "text": "patchy peripheral or peribronchovascular consolidation"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.160；What Every Radiologist Should Know about Idiopathic Interstitial Pneumonias. RadioGraphics 2007;27:595.",
+      "explanation": "淋巴球性間質性肺炎(LIP)典型CT表現為毛玻璃樣混濁(ground-glass opacities)，常合併囊性病灶(cystic lesions)——雙側毛玻璃、邊界不清之小葉中心性結節、小葉間隔輕度增厚、支氣管血管束增厚(約85%)、周邊小結節(約85%)、薄壁囊腫(約70%)為其特徵組合。\n\n見 [[lymphoid-interstitial-pneumonia]]",
+      "images": [],
+      "concepts": [
+        "lymphoid-interstitial-pneumonia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-264",
+      "year": 2018,
+      "number": 264,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "根據revised ATS/ERS/JRS/ALAT diagnostic criteria for idiopathic pulmonary fibrosis，有關inconsistent with UIP pattern下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subpleural, basal predominance"
+        },
+        {
+          "letter": "B",
+          "text": "Extensive ground glass abnormality (extent >reticular abnormality)。"
+        },
+        {
+          "letter": "C",
+          "text": "Consolidation in bronchopulmonary segment(s)/lobe(s)。"
+        },
+        {
+          "letter": "D",
+          "text": "Peribronchovascular predominance。"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.164；Respir Res. 2013;14(Suppl 1):S2.",
+      "explanation": "Subpleural、basal predominance為UIP典型分布特徵之一，並非「與UIP不符(inconsistent with UIP)」之表現，故本敘述錯誤。廣泛毛玻璃異常(範圍多於網狀異常)、肺葉/肺段內實質化(consolidation)、支氣管血管周圍為主分布，皆為與UIP不符、指向替代診斷(alternative diagnosis)之特徵。\n\n見 [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
       ],
       "checked": false
     }

@@ -57,6 +57,9 @@ concepts: [ipf]
 > [!question]- UIP typical features 何者「非真」? (2018-179)
 > **「主要侵犯肺的中上肺野」非真**——UIP/IPF 為 **subpleural + basal predominant**（周邊＋基底為主），非中上肺野為主（中上肺為主反而提示 alternative diagnosis，見上）。Honeycombing、lung architectural distortion、reticular opacities 皆為 UIP 典型真實表現。[^1][^3]
 
+> [!question]- 根據revised ATS/ERS/JRS/ALAT diagnostic criteria，有關inconsistent with UIP pattern何者錯誤? (2018-264)
+> **Subpleural, basal predominance（A）**——此為UIP典型分布特徵，非「與UIP不符」之表現，此敘述錯誤。廣泛毛玻璃異常(範圍>網狀異常)、肺葉/肺段內實質化、支氣管血管周圍為主分布，皆為與UIP不符、指向替代診斷之特徵。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")
