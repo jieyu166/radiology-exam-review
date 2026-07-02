@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 453,
+  "totalQuestions": 460,
   "questions": [
     {
       "id": "2019-001",
@@ -16397,6 +16397,251 @@
       "concepts": [
         "contrast-induced-aki",
         "contrast-induced-nephropathy-prevention"
+      ]
+    },
+    {
+      "id": "2019-494",
+      "year": 2019,
+      "number": 494,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following congenial heart disease is with normal pulmonary artery structure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tetralogy of Fallot"
+        },
+        {
+          "letter": "B",
+          "text": "Atrial septal defect (ASD)"
+        },
+        {
+          "letter": "C",
+          "text": "VSD"
+        },
+        {
+          "letter": "D",
+          "text": "Aortic stenosis"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。Aortic stenosis 屬於左心系統疾病，不影響肺動脈結構，肺動脈大小正常。TOF 有肺動脈狹窄，ASD 與 VSD 因 left-to-right shunt 導致肺血流增加、肺動脈擴大。",
+      "reference": "2019 交換考詳解",
+      "concepts": [
+        "congenital-heart-disease-chest-xray"
+      ]
+    },
+    {
+      "id": "2019-495",
+      "year": 2019,
+      "number": 495,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following about Tetralogy of Fallot is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left ventricular hypertrophy"
+        },
+        {
+          "letter": "B",
+          "text": "Subpulmonary infundibular stenosis"
+        },
+        {
+          "letter": "C",
+          "text": "Boot-shaped heart"
+        },
+        {
+          "letter": "D",
+          "text": "Ventricular septal defect (VSD)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "正確答案為 **A**。TOF 的四大特徵為：(1) VSD、(2) 右心室出口阻塞（subpulmonary infundibular stenosis）、(3) 主動脈跨騎（overriding aorta）、(4) **右心室肥大**（right ventricular hypertrophy, RVH）。選項 A 誤寫為左心室肥大（LVH），應為 RVH。Boot-shaped heart（coeur en sabot）為 TOF 之典型 X 光表現。",
+      "reference": "2019 交換考詳解；Tetralogy of Fallot - Radiopaedia",
+      "concepts": [
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "id": "2019-496",
+      "year": 2019,
+      "number": 496,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following congenital heart disease is with a large aorta on plain film?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "VSD"
+        },
+        {
+          "letter": "B",
+          "text": "ASD"
+        },
+        {
+          "letter": "C",
+          "text": "AV communis"
+        },
+        {
+          "letter": "D",
+          "text": "Aortic stenosis"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。Aortic stenosis 可因 post-stenotic dilatation 導致升主動脈與主動脈弓增大。VSD、ASD 與 AV communis（endocardial cushion defect）因左心輸出量減少，主動脈弓反而偏小。",
+      "reference": "2019 交換考詳解；Congenital heart disease chest x-ray (an approach) - Radiopaedia",
+      "concepts": [
+        "congenital-heart-disease-chest-xray"
+      ]
+    },
+    {
+      "id": "2019-497",
+      "year": 2019,
+      "number": 497,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "The most common form of GI tract volvulus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastric volvulus"
+        },
+        {
+          "letter": "B",
+          "text": "Midgut Volvulus"
+        },
+        {
+          "letter": "C",
+          "text": "Sigmoid Volvulus"
+        },
+        {
+          "letter": "D",
+          "text": "Cecal volvulus"
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。Sigmoid volvulus 是消化道扭轉中最常見的類型，約占所有結腸扭轉的 60-75%。好發於年長者、慢性便秘、精神科用藥患者。",
+      "reference": "2019 交換考詳解；Sigmoid volvulus - Radiopaedia",
+      "concepts": [
+        "colon-volvulus"
+      ]
+    },
+    {
+      "id": "2019-498",
+      "year": 2019,
+      "number": 498,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the statements about renal angiomyolipoma (AML) is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typically identified in adults, with a strong female predilection."
+        },
+        {
+          "letter": "B",
+          "text": "In the setting of tuberous sclerosis, it is typically associated phakomatoses."
+        },
+        {
+          "letter": "C",
+          "text": "Intensive treatments, such as embolization or partial nephrectomy, are necessary due to its nature of rapid growth."
+        },
+        {
+          "letter": "D",
+          "text": "In MRI, AML typically shows macroscopic fat components with absence of ossification/calcification."
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。AML 為良性腫瘤，生長緩慢；並非所有 AML 都需要積極治療。僅在腫瘤 >4 cm 或有出血風險時才考慮栓塞或手術。",
+      "reference": "2019 交換考詳解；Renal angiomyolipoma - Radiopaedia",
+      "concepts": [
+        "renal-angiomyolipoma"
+      ]
+    },
+    {
+      "id": "2019-499",
+      "year": 2019,
+      "number": 499,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "In vesicoureteral reflux (VUR) grading, in which grade, the level of reflux is up to the renal pelvis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "I"
+        },
+        {
+          "letter": "B",
+          "text": "II"
+        },
+        {
+          "letter": "C",
+          "text": "III"
+        },
+        {
+          "letter": "D",
+          "text": "IV"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。VUR 分級：Grade I 逆流僅至輸尿管；**Grade II 逆流至腎盂但無擴張**；Grade III 輸尿管與腎盂腎盞輕度擴張；Grade IV 輸尿管扭曲、中度擴張、腎盞杯狀結構變鈍但保留乳突壓痕；Grade V 嚴重擴張、腎盞杯狀結構與乳突壓痕消失。",
+      "reference": "2019 交換考詳解；Vesicoureteric reflux - Radiopaedia",
+      "concepts": [
+        "vesicoureteral-reflux-grading"
+      ]
+    },
+    {
+      "id": "2019-500",
+      "year": 2019,
+      "number": 500,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the statements about discoid meniscus is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is much more commonly involved in the lateral meniscus than in the medial meniscus."
+        },
+        {
+          "letter": "B",
+          "text": "It is seen in 1%-5% of knees"
+        },
+        {
+          "letter": "C",
+          "text": "Discoid meniscus is diagnosed when the body of the meniscus measures 5 mm or more on a midline coronal image."
+        },
+        {
+          "letter": "D",
+          "text": "Discoid meniscus is diagnosed when three or more bow-tie shapes are identified on contiguous sagittal (4-mm-thick) images"
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。Discoid meniscus 的 MRI 冠狀面診斷標準為半月板體寬度 **≥15 mm**（非 5 mm）。選項 C 將門檻誤寫為 5 mm，為錯誤敘述。",
+      "reference": "2019 交換考詳解；Nguyen, J.C. et al., 2014. MR Imaging-based Diagnosis and Classification of Meniscal Tears. RadioGraphics, 34(4):981-999",
+      "concepts": [
+        "discoid-meniscus"
       ]
     }
   ]
