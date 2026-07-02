@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 235,
+  "totalQuestions": 238,
   "questions": [
     {
       "id": "2020-001",
@@ -8513,6 +8513,117 @@
       "images": [],
       "concepts": [
         "torch-infection-neuroimaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-236",
+      "year": 2020,
+      "number": 236,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which data is the first randomized controlled trial to report a significant reduction in disease-specific lung cancer mortality due to screening?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "NELSON (Dutch-Belgian Randomized Lung Cancer Screening Trial)"
+        },
+        {
+          "letter": "B",
+          "text": "DLCST (Danish Lung Cancer Screening Trial)"
+        },
+        {
+          "letter": "C",
+          "text": "NLST (National Lung Screening Trial)"
+        },
+        {
+          "letter": "D",
+          "text": "UKLS (U.K. Lung Cancer Screening Trial)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2015; 35:1893–1908",
+      "explanation": "NLST（National Lung Screening Trial）於2011年首度公布結果，是第一個報告低劑量CT肺癌篩檢可顯著降低肺癌特異性死亡率之隨機對照試驗，成為2013年USPSTF公共衛生建議之實證基礎。詳見[[lung-cancer-screening-trials]]。",
+      "images": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-237",
+      "year": 2020,
+      "number": 237,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "How many percentage of relative reduction in the rate of death due to lung cancer after three rounds of low-dose CT screening in NLST (National Lung Screening Trial)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "10%"
+        },
+        {
+          "letter": "B",
+          "text": "20%"
+        },
+        {
+          "letter": "C",
+          "text": "30%"
+        },
+        {
+          "letter": "D",
+          "text": "40%"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2015; 35:1893–1908",
+      "explanation": "NLST於55-74歲高風險族群53,454人進行篩檢（低劑量螺旋CT或胸部X光基準攝影加兩次年度追蹤），三輪低劑量CT篩檢使肺癌死亡率相對降低20%。詳見[[lung-cancer-screening-trials]]。",
+      "images": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-238",
+      "year": 2020,
+      "number": 238,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "根據Diagnostic criteria for idiopathic pulmonary fibrosis: a Fleischner Society White Paper (2018)，下列描述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typical UIP CT pattern的distribution為basal predominant (occasionally diffuse)和subpleural predominant。"
+        },
+        {
+          "letter": "B",
+          "text": "Probable UIP CT pattern需有honeycombing。"
+        },
+        {
+          "letter": "C",
+          "text": "CT pattern indeterminate for UIP的distribution為variable或diffuse。"
+        },
+        {
+          "letter": "D",
+          "text": "CT features most consistent with non-IPF diagnosis的表現包含predominant consolidation。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Lancet Respir Med 2018; 6: 138–53",
+      "explanation": "依2018 Fleischner Society診斷分類，Probable UIP CT pattern之定義為「reticular pattern with peripheral traction bronchiectasis/bronchiolectasis，honeycombing需為缺無（absent）」，而非「需有honeycombing」——有honeycombing者應歸類為Typical UIP，非Probable UIP。詳見[[ipf]]。",
+      "images": [],
+      "concepts": [
+        "ipf"
       ],
       "checked": false
     }

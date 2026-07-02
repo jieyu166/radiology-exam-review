@@ -57,6 +57,9 @@ concepts: [ipf]
 > [!question]- UIP typical features 何者「非真」? (2018-179)
 > **「主要侵犯肺的中上肺野」非真**——UIP/IPF 為 **subpleural + basal predominant**（周邊＋基底為主），非中上肺野為主（中上肺為主反而提示 alternative diagnosis，見上）。Honeycombing、lung architectural distortion、reticular opacities 皆為 UIP 典型真實表現。[^1][^3]
 
+> [!question]- 根據2018 Fleischner Society White Paper，下列描述何者錯誤? (2020-238)
+> **「Probable UIP CT pattern需有honeycombing」為錯**——Probable UIP之定義為reticular pattern合併周邊traction bronchiectasis/bronchiolectasis、**honeycombing需為缺無**；有honeycombing者應歸類為Typical UIP。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")
