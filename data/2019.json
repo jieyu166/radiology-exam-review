@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 467,
+  "totalQuestions": 476,
   "questions": [
     {
       "id": "2019-001",
@@ -16887,6 +16887,321 @@
       "reference": "2019 交換考詳解；The cri du chat syndrome - Radiopaedia",
       "concepts": [
         "cri-du-chat-syndrome"
+      ]
+    },
+    {
+      "id": "2019-508",
+      "year": 2019,
+      "number": 508,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Focal fatty infiltration, focal fatty sparing, enlarged caudate lobe and an increase in liver echogenicity are all indicators of what?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fatty liver disease"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatitis"
+        },
+        {
+          "letter": "C",
+          "text": "Focal Nodular Hyperplasia"
+        },
+        {
+          "letter": "D",
+          "text": "Cirrhosis"
+        }
+      ],
+      "answer": "A",
+      "explanation": "正確答案為 **A**。局灶性脂肪浸潤、局灶性脂肪保留區、尾狀葉增大、肝實質回音增加皆為脂肪肝（hepatic steatosis）的超音波指標。",
+      "reference": "2019 交換考詳解；Hepatic steatosis - Radiopaedia",
+      "concepts": [
+        "fatty-liver"
+      ]
+    },
+    {
+      "id": "2019-509",
+      "year": 2019,
+      "number": 509,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "Usually the result of ischemic bowel (Crohn's disease, ulcerative colitis) this will appear as echogenic linear structures in the periphery of liver.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pneumothorax"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatic portal vein gas"
+        },
+        {
+          "letter": "C",
+          "text": "Pneumobilia"
+        },
+        {
+          "letter": "D",
+          "text": "Pneumoperitoneum"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。門靜脈氣體（hepatic portal vein gas）在超音波上表現為肝臟周邊的線狀高回音結構。常見病因包括缺血性腸病、克隆氏症、潰瘍性結腸炎。與氣膽症（pneumobilia）不同，門靜脈氣體分布在肝臟周邊而非中央。",
+      "reference": "2019 交換考詳解；Portal venous gas - Radiopaedia",
+      "concepts": [
+        "portal-venous-gas"
+      ]
+    },
+    {
+      "id": "2019-510",
+      "year": 2019,
+      "number": 510,
+      "years": [
+        2019
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
+      "questionText": "When ultrasound travels through a medium:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Its Intensity diminishes with distance"
+        },
+        {
+          "letter": "B",
+          "text": "It spreads perpendicular to the primary direction of wave travel"
+        },
+        {
+          "letter": "C",
+          "text": "Its speed remains constant"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。超音波穿過介質時：(A) 強度隨距離衰減（attenuation）；(B) 波前垂直於主要傳播方向擴散（Huygens 原理）；(C) 在同一均質介質中速度保持恆定。以上皆正確。",
+      "reference": "2019 交換考詳解；Ultrasound (Introduction) - Radiopaedia",
+      "concepts": [
+        "ultrasound-physics-basics"
+      ]
+    },
+    {
+      "id": "2019-511",
+      "year": 2019,
+      "number": 511,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The most frequent cause of upper airway obstruction in children is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Miss swallowing of foreign body"
+        },
+        {
+          "letter": "B",
+          "text": "Laryngotracheitis"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphoid hyperplasia within Waldeyer's ring"
+        },
+        {
+          "letter": "D",
+          "text": "Retropharyngeal abscess"
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。兒童上呼吸道阻塞最常見原因為 Waldeyer's ring（腺樣體及腭扁桃腺）的淋巴組織增生（adenotonsillar hypertrophy），導致鼻咽及口咽氣道狹窄。",
+      "reference": "2019 交換考詳解；Radiol Clin N Am 49 2011;49:617-632",
+      "concepts": [
+        "pediatric-head-neck-infections"
+      ]
+    },
+    {
+      "id": "2019-512",
+      "year": 2019,
+      "number": 512,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The most common cause of bilateral cervical adenitis in children is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacterial infection"
+        },
+        {
+          "letter": "B",
+          "text": "Viral infection"
+        },
+        {
+          "letter": "C",
+          "text": "Tuberculous infection"
+        },
+        {
+          "letter": "D",
+          "text": "None of above"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。兒童雙側頸部淋巴腺炎最常見原因為**病毒感染**，典型表現為雙側多發小型淋巴結腫大，常伴隨上呼吸道感染。",
+      "reference": "2019 交換考詳解；Radiol Clin N Am 49 2011;49:617-632",
+      "concepts": [
+        "pediatric-head-neck-infections"
+      ]
+    },
+    {
+      "id": "2019-513",
+      "year": 2019,
+      "number": 513,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The most common cause of unilateral cervical adenitis in children is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bacterial infection"
+        },
+        {
+          "letter": "B",
+          "text": "Viral infection"
+        },
+        {
+          "letter": "C",
+          "text": "Tuberculous infection"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "answer": "A",
+      "explanation": "正確答案為 **A**。兒童單側頸部淋巴腺炎最常見原因為**細菌感染**（常為 S. aureus 或 Group A streptococcus），典型表現為單側單一腫大且觸痛的淋巴結。",
+      "reference": "2019 交換考詳解；Radiol Clin N Am 49 2011;49:617-632",
+      "concepts": [
+        "pediatric-head-neck-infections"
+      ]
+    },
+    {
+      "id": "2019-514",
+      "year": 2019,
+      "number": 514,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The most common location for cervical adenitis in children aged 1 to 5 years is:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Submandibular lymph nodes."
+        },
+        {
+          "letter": "B",
+          "text": "Palatine lymph nodes."
+        },
+        {
+          "letter": "C",
+          "text": "Lymph nodes at jugular chains."
+        },
+        {
+          "letter": "D",
+          "text": "Retropharyngeal lymph nodes."
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。1-5 歲兒童頸部淋巴腺炎最常見位置為咽後淋巴結（retropharyngeal lymph nodes），因這些淋巴結引流鼻咽及扁桃腺的感染。",
+      "reference": "2019 交換考詳解；Radiol Clin N Am 49 2011;49:617-632",
+      "concepts": [
+        "pediatric-head-neck-infections"
+      ]
+    },
+    {
+      "id": "2019-515",
+      "year": 2019,
+      "number": 515,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following imaging modality is highly sensitive but not specific for diagnosis of deep neck space abscess in children?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ultrasound"
+        },
+        {
+          "letter": "B",
+          "text": "CT"
+        },
+        {
+          "letter": "C",
+          "text": "MRI"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。CT 對深頸部膿瘍具有高度敏感性（highly sensitive）但特異性不高（not specific），因為環形增強（rim enhancement）在蜂窩性組織炎（cellulitis）與膿瘍（abscess）皆可出現，無法可靠區分兩者。",
+      "reference": "2019 交換考詳解；Radiol Clin N Am 49 2011;49:617-632",
+      "concepts": [
+        "pediatric-head-neck-infections"
+      ]
+    },
+    {
+      "id": "2019-516",
+      "year": 2019,
+      "number": 516,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which following statement is false in most patients with ischemic stroke:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Non-contrast CT findings is more delayed than MR findings"
+        },
+        {
+          "letter": "B",
+          "text": "Findings on FLAIR images are positive 12-24 hours after onset of symptoms."
+        },
+        {
+          "letter": "C",
+          "text": "High signal intensity is not usually seen at T2-weighted imaging until at least 8 hours after the initial ischemic insult."
+        },
+        {
+          "letter": "D",
+          "text": "If parenchymal enhancement persists longer than 8-12 weeks, a diagnosis other than ischemic stroke should be sought."
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。FLAIR 影像在缺血性中風症狀發生後 **6-12 小時**即轉為陽性，而非 12-24 小時。DWI-FLAIR mismatch（DWI 陽性但 FLAIR 陰性）提示發病 <6 小時。選項 A、C、D 皆為正確敘述。",
+      "reference": "2019 交換考詳解；RadioGraphics 2012; 32:1285-1297",
+      "concepts": [
+        "ischemic-stroke-imaging-timeline"
       ]
     }
   ]
