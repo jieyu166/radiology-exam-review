@@ -22,8 +22,14 @@ dateRev: 2026-07-01
 > [!warning] 答案存疑
 > 官方詳解原答案標示為**C（Furosemide）**，但頁緣紅筆加註「**A??**」表達對此答案的不確定。現行臨床指引與文獻共識普遍以**hydration（A）**為CIN預防之主流方法，furosemide並非公認的預防手段。由於官方本身標示此更正為不確定（雙問號），建議醫師查證最新指引（如ESUR Contrast Media Guidelines最新版）以確認本題最終正確答案。[^1]
 
+## Summary — 透析病人與對比劑
+- **透析病人不需要在注射對比劑後立即進行透析**——對比劑會在下次常規透析時被移除，無需緊急安排額外透析。[^2]
+- 已在規則透析的病人，腎功能已失，對比劑不會「再惡化」腎功能，主要關注點是體液過載（volume overload）。[^2]
+
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.210：CIN預防以hydration為現行最廣被接受方法;furosemide非推薦常規預防手段(可能增加腎損傷風險);hemodialysis屬治療性介入非預防性;官方詳解原標示答案C(Furosemide)但頁緣加註對此存疑之更正「A??」。
+[^2]: 2019 交換考詳解；ACR Manual on Contrast Media：透析病人接受含碘對比劑後不需立即透析，對比劑會在下次常規透析時被清除。
 
 ## 題目
 > [!question]- To prevent Contrast Agent–Induced Nephropathy (CIN), the most widely accepted method is: (2017-334)

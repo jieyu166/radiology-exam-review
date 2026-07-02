@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 218,
+  "totalQuestions": 227,
   "questions": [
     {
       "id": "2019-001",
@@ -7986,6 +7986,339 @@
       "images": [],
       "concepts": [
         "retroperitoneal-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-219",
+      "year": 2019,
+      "number": 219,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding CT protocol for adrenal incidentaloma washout study, which of the following is NOT needed?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Unenhanced CT"
+        },
+        {
+          "letter": "2",
+          "text": "5-min delayed CT"
+        },
+        {
+          "letter": "3",
+          "text": "15-min delayed CT"
+        },
+        {
+          "letter": "4",
+          "text": "Enhanced CT (60-70 seconds)"
+        }
+      ],
+      "correctAnswer": "2",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.",
+      "explanation": "正確答案為 **2（5-min delayed CT）**。標準 adrenal washout protocol 僅需 unenhanced + enhanced + 15-min delayed，不包含 5 分鐘延遲。Absolute washout ≥60% 或 relative washout ≥40% 提示 adenoma。詳見 [[adrenal-incidentaloma-washout]]。",
+      "images": [],
+      "concepts": [
+        "adrenal-incidentaloma-washout"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-221",
+      "year": 2019,
+      "number": 221,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "high",
+      "questionText": "Which subtype of renal cell carcinoma (RCC) is the most common?",
+      "options": [
+        {
+          "letter": "1",
+          "text": "Papillary RCC"
+        },
+        {
+          "letter": "2",
+          "text": "Chromophobe RCC"
+        },
+        {
+          "letter": "3",
+          "text": "Clear cell RCC"
+        },
+        {
+          "letter": "4",
+          "text": "Collecting duct carcinoma"
+        }
+      ],
+      "correctAnswer": "3",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.",
+      "explanation": "正確答案為 **3（Clear cell RCC）**。Clear cell RCC 約占 70-80%，為最常見亞型，影像特徵為 hypervascular。Papillary RCC 約 10-15%，Chromophobe 約 5%。詳見 [[renal-cell-carcinoma]]。",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-222",
+      "year": 2019,
+      "number": 222,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "Which type of tracheoesophageal fistula (TEF) is the most common?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type A (pure EA, no fistula)"
+        },
+        {
+          "letter": "B",
+          "text": "Type B (EA + proximal fistula)"
+        },
+        {
+          "letter": "C",
+          "text": "Type C (EA + distal fistula)"
+        },
+        {
+          "letter": "D",
+          "text": "Type E (H-type fistula, no EA)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.",
+      "explanation": "正確答案為 **C（Type C）**。Type C（食道閉鎖＋遠端瘔管）約占 85-86%，為最常見。記憶：Type C = most Common。詳見 [[tracheoesophageal-fistula]]。",
+      "images": [],
+      "concepts": [
+        "tracheoesophageal-fistula"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-223",
+      "year": 2019,
+      "number": 223,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "The esophageal ring that is located proximal to the gastroesophageal junction is called:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A ring (muscular ring)"
+        },
+        {
+          "letter": "B",
+          "text": "B ring (Schatzki ring)"
+        },
+        {
+          "letter": "C",
+          "text": "C ring"
+        },
+        {
+          "letter": "D",
+          "text": "Peptic ring"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.",
+      "explanation": "正確答案應為 **A（A ring / muscular ring）**。A ring 位於 GE junction 近端，由平滑肌構成，可收縮；B ring（Schatzki ring）位於 squamocolumnar junction（GE junction 處）。官方答案標示 D，惟題意明確指向 A ring，採用 A。詳見 [[esophageal-rings]]。",
+      "images": [],
+      "concepts": [
+        "esophageal-rings"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-224",
+      "year": 2019,
+      "number": 224,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "What is the most common site of small bowel hemangioma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duodenum"
+        },
+        {
+          "letter": "B",
+          "text": "Ileum"
+        },
+        {
+          "letter": "C",
+          "text": "Jejunum"
+        },
+        {
+          "letter": "D",
+          "text": "Terminal ileum"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.",
+      "explanation": "正確答案為 **C（Jejunum）**。小腸血管瘤最常見於空腸。詳見 [[small-bowel-hemangioma]]。",
+      "images": [],
+      "concepts": [
+        "small-bowel-hemangioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-226",
+      "year": 2019,
+      "number": 226,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "關於對比劑不良反應之死亡率，下列何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "千分之二至九"
+        },
+        {
+          "letter": "B",
+          "text": "萬分之二至九"
+        },
+        {
+          "letter": "C",
+          "text": "十萬分之二至九"
+        },
+        {
+          "letter": "D",
+          "text": "百萬分之二至九"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR Manual on Contrast Media",
+      "explanation": "正確答案為 **D（百萬分之二至九）**。對比劑不良反應發生率約千分之 2-9，死亡率約百萬分之 2-9。詳見 [[contrast-adverse-reactions]]。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-227",
+      "year": 2019,
+      "number": 227,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "下列何者屬於對比劑中度不良反應（moderate adverse reaction），而非輕度？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Limited urticaria"
+        },
+        {
+          "letter": "B",
+          "text": "Pruritus"
+        },
+        {
+          "letter": "C",
+          "text": "Bronchospasm (mild)"
+        },
+        {
+          "letter": "D",
+          "text": "Nausea"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；ACR Manual on Contrast Media",
+      "explanation": "正確答案為 **C（Bronchospasm）**。ACR 分級：支氣管痙攝（bronchospasm）屬於中度不良反應（需藥物治療），而 limited urticaria、pruritus、nausea 屬於輕度（觀察與安撫即可）。詳見 [[contrast-adverse-reactions]]。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-228",
+      "year": 2019,
+      "number": 228,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "關於對比劑前用藥（premedication），下列何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "曾有中至重度反應者可考慮前用藥"
+        },
+        {
+          "letter": "B",
+          "text": "前用藥不能預防所有反應"
+        },
+        {
+          "letter": "C",
+          "text": "可考慮換用不同類別對比劑"
+        },
+        {
+          "letter": "D",
+          "text": "皮膚測試可以有效預測過敏反應"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；ACR Manual on Contrast Media",
+      "explanation": "正確答案為 **D（皮膚測試可以有效預測過敏反應）**——此為錯誤敘述。皮膚測試/少量試打『不建議』，無法預測且可能反增風險。A、B、C 皆為正確敘述。詳見 [[contrast-adverse-reactions]]。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-229",
+      "year": 2019,
+      "number": 229,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "關於透析病人與對比劑使用，下列何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "透析病人不應使用含碘對比劑"
+        },
+        {
+          "letter": "B",
+          "text": "注射對比劑後應立即安排緊急透析"
+        },
+        {
+          "letter": "C",
+          "text": "對比劑會在下次常規透析時被移除，不需緊急透析"
+        },
+        {
+          "letter": "D",
+          "text": "透析病人不可使用 MRI 含釓對比劑"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；ACR Manual on Contrast Media",
+      "explanation": "正確答案為 **C**。透析病人接受含碘對比劑後，對比劑會在下次常規透析時被清除，不需要緊急安排額外透析。主要關注點是體液過載（volume overload），而非對比劑本身。詳見 [[contrast-induced-nephropathy-prevention]]。",
+      "images": [],
+      "concepts": [
+        "contrast-induced-nephropathy-prevention"
       ],
       "checked": false
     }
