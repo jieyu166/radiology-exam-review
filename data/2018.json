@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 336,
+  "totalQuestions": 340,
   "questions": [
     {
       "id": "2018-001",
@@ -12451,6 +12451,154 @@
       "images": [],
       "concepts": [
         "gamekeeper-thumb"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-337",
+      "year": 2018,
+      "number": 337,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is not for evaluation and measurement for developmental dysplasia of hip?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Meary's angle"
+        },
+        {
+          "letter": "B",
+          "text": "Hilgenreiner's line"
+        },
+        {
+          "letter": "C",
+          "text": "Center-edge angle"
+        },
+        {
+          "letter": "D",
+          "text": "Slope of lateral edge of acetabulum"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Bone and Joint Imaging. Resnick. Elsevier Sauners. 3rd Edition. p. 1268",
+      "explanation": "Meary's angle為足部(1st metatarsal與talus軸線)測量方法，非DDH評估項目。Hilgenreiner's line、center-edge角、acetabulum外側緣斜率皆為DDH標準評估測量項目。\n\n見 [[developmental-dysplasia-hip]]",
+      "images": [],
+      "concepts": [
+        "developmental-dysplasia-hip"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-338",
+      "year": 2018,
+      "number": 338,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the use of ultrasound in trauma, which following statement is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The first and easiest view to obtain is of the right-upper quadrant hepatorenal space, also known as Morison's pouch."
+        },
+        {
+          "letter": "B",
+          "text": "The goal of the FAST examination is to visualize intraperitoneal fluid in dependent areas of the abdominal cavity."
+        },
+        {
+          "letter": "C",
+          "text": "Intraperitoneal blood is anechoic (black) on ultrasonography."
+        },
+        {
+          "letter": "D",
+          "text": "Ultrasonography has a high sensitivity for detecting parenchymal injury of liver or kidney."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Ultrasound-guided procedures and investigations, p. 77-79",
+      "explanation": "實際上FAST對肝/腎實質損傷之敏感度有限，非高敏感度；孤立實質器官損傷但無游離液時FAST無法偵測。\n\n見 [[fast-exam]]",
+      "images": [],
+      "concepts": [
+        "fast-exam"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-339",
+      "year": 2018,
+      "number": 339,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列關於醫用超音波的基本物理何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "超音波是一種人耳聽不到的聲音，頻率大於20000赫茲(Hertz, Hz)"
+        },
+        {
+          "letter": "B",
+          "text": "超音波的影像由回波所組成"
+        },
+        {
+          "letter": "C",
+          "text": "超音波的顯示方式裡A mode目前已幾乎不用"
+        },
+        {
+          "letter": "D",
+          "text": "側向或橫向解析度是區分音波前進方向的兩個反射點的能力"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "一般超音波診斷學 p. 1-9",
+      "explanation": "此為軸向解析度(axial resolution)之定義；側向/橫向解析度應為區分垂直於音波前進方向的兩個反射點之能力。\n\n見 [[ultrasound-physics-basics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-340",
+      "year": 2018,
+      "number": 340,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings can present muscle in muscle degloving pattern of injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Semitendinosus"
+        },
+        {
+          "letter": "B",
+          "text": "Adductor Magnus"
+        },
+        {
+          "letter": "C",
+          "text": "Medial Gastronemius"
+        },
+        {
+          "letter": "D",
+          "text": "Rctus femoris"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "RadioGraphics 2018; 38:0000–0000 https://doi.org/10.1148/rg.2018170072",
+      "explanation": "Rectus femoris具雙羽狀(bipennate)構造，中央腱膜位於內側肌腱複合體中央，為此脫套傷型態之好發肌肉。\n\n見 [[muscle-degloving-injury]]",
+      "images": [],
+      "concepts": [
+        "muscle-degloving-injury"
       ],
       "checked": false
     }
