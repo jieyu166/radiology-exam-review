@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 277,
+  "totalQuestions": 290,
   "questions": [
     {
       "id": "2019-001",
@@ -10134,6 +10134,456 @@
       "images": [],
       "concepts": [
         "ovarian-mature-cystic-teratoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-291",
+      "year": 2019,
+      "number": 291,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to the echo appearance of bowel wall is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bowel lumen is well-demonstrated under echo, especially when air is present."
+        },
+        {
+          "letter": "B",
+          "text": "Muscularis mucosae layer is hyperechoic."
+        },
+        {
+          "letter": "C",
+          "text": "Submucosa is hyperechoic."
+        },
+        {
+          "letter": "D",
+          "text": "Under most circumstances, US could identify five bowel wall layers"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Problem Solving in Abdominal Imaging, First Edition, chap 16, fig 16-5",
+      "explanation": "正確答案為 **C**。腸壁超音波五層（gut signature）：superficial mucosa(高)/deep mucosa(低)/**submucosa(高,最亮最厚)**/muscularis propria(低)/serosa(高)。A 錯（空氣干擾回音）、B 錯（muscularis mucosae 為低回音）、D 為部分正確但非最佳答案（大多情況可辨 5 層，但考慮腸氣干擾）。\n\n→ [[bowel-wall-layers]]",
+      "images": [],
+      "concepts": [
+        "bowel-wall-layers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-292",
+      "year": 2019,
+      "number": 292,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which finding is the clue to rotational abnormalities of the bowel?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Superior mesenteric vein positioned to the right of the SMA"
+        },
+        {
+          "letter": "B",
+          "text": "SMA initially courses to the left rather than right"
+        },
+        {
+          "letter": "C",
+          "text": "Duodenum crosses midline between the aorta and SMA"
+        },
+        {
+          "letter": "D",
+          "text": "Small bowel located in the right abdomen, large bowel on the left"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；Problem Solving in Abdominal Imaging, First Edition, chap 16 BOX 16-1",
+      "explanation": "正確答案為 **D**。小腸位於右側腹部、大腸位於左側腹部是腸道旋轉異常最具診斷價值的線索。A/B/C 為正常解剖配置或非特異性發現。\n\n→ [[bowel-rotational-abnormalities]]",
+      "images": [],
+      "concepts": [
+        "bowel-rotational-abnormalities"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-293",
+      "year": 2019,
+      "number": 293,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following state describes typical morphological change of cirrhosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left lateral segment hypertrophy, caudate lobe hypertrophy and expanded gallbladder fossa."
+        },
+        {
+          "letter": "B",
+          "text": "Left lateral segment hypotrophy, caudate lobe hypertrophy and expanded gallbladder fossa."
+        },
+        {
+          "letter": "C",
+          "text": "Left lateral segment hypotrophy, caudate lobe hypotrophy and expanded gallbladder fossa."
+        },
+        {
+          "letter": "D",
+          "text": "Left lateral segment hypotrophy, caudate lobe hypotrophy and tight gallbladder fossa."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Problem Solving in Abdominal Imaging, First Edition, chap 12 Fig 12-34",
+      "explanation": "正確答案為 **A**。肝硬化典型形態變化：left lateral segment **肥大**（hypertrophy）、caudate lobe **肥大**（hypertrophy）、gallbladder fossa **擴張**（expanded）。Right lobe 則萎縮。\n\n→ [[cirrhosis-morphology-imaging]]",
+      "images": [],
+      "concepts": [
+        "cirrhosis-morphology-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-294",
+      "year": 2019,
+      "number": 294,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement about common collaterals of portal hypertension is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esophageal and paraesophageal varices are typically supplied by left gastric (coronary) vein."
+        },
+        {
+          "letter": "B",
+          "text": "Gastric varices are typically supplied by left gastric (coronary) vein and short gastric veins."
+        },
+        {
+          "letter": "C",
+          "text": "Paraumbilical varices are typically supplied by mesenteric veins."
+        },
+        {
+          "letter": "D",
+          "text": "Left renal vein shunts are typically supplied by gastric (gastrorenal shunt) and splenic (splenorenal shunt) veins"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Problem Solving in Abdominal Imaging, First Edition, chap 12 table 12-9",
+      "explanation": "正確答案為 **C**（錯誤敘述）。Paraumbilical varices 由 **paraumbilical veins（Inf. Vein of Sappey）** 供應，非 mesenteric veins。\n\n→ [[portal-hypertension-collaterals]]",
+      "images": [],
+      "concepts": [
+        "portal-hypertension-collaterals"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-295",
+      "year": 2019,
+      "number": 295,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "About the incidence of US findings in patient with acute pancreatitis, which of the following order is correct (from highest to lowest)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peripancreatic inflammation > Indistinct ventral margin > Focal mass > Venous thrombosis"
+        },
+        {
+          "letter": "B",
+          "text": "Venous thrombosis > Peripancreatic inflammation > Indistinct ventral margin > Focal mass"
+        },
+        {
+          "letter": "C",
+          "text": "Peripancreatic inflammation > Venous thrombosis > Indistinct ventral margin > Focal mass"
+        },
+        {
+          "letter": "D",
+          "text": "Focal mass > Peripancreatic inflammation > Indistinct ventral margin > Venous thrombosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；Problem Solving in Abdominal Imaging, First Edition, chap 14 table 14-2",
+      "explanation": "正確答案為 **A**。急性胰臟炎超音波發現頻率排序：Peripancreatic inflammation（最常見）> Indistinct ventral margin > Focal mass > Venous thrombosis（最少見）。\n\n→ [[acute-pancreatitis-ultrasound]]",
+      "images": [],
+      "concepts": [
+        "acute-pancreatitis-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-296",
+      "year": 2019,
+      "number": 296,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT the portosystemic collaterals pathways area?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Umbilicus"
+        },
+        {
+          "letter": "B",
+          "text": "Rectum"
+        },
+        {
+          "letter": "C",
+          "text": "Duodenum"
+        },
+        {
+          "letter": "D",
+          "text": "Esophagus"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；World Journal of Gastroenterology, March 14, 2017 Volume 23 Issue 10",
+      "explanation": "正確答案為 **C**（十二指腸）。主要門體側枝通路為：EV/GV（食道/胃）、直腸、臍旁（caput medusae）、後腹膜、肝裸區。十二指腸不在經典側枝通路中。\n\n→ [[portal-hypertension-collaterals]]",
+      "images": [],
+      "concepts": [
+        "portal-hypertension-collaterals"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-299",
+      "year": 2019,
+      "number": 299,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is the ancillary features favoring benignity in liver tumors?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iron in mass, more than liver."
+        },
+        {
+          "letter": "B",
+          "text": "Nodule-in-nodule architecture."
+        },
+        {
+          "letter": "C",
+          "text": "Corona enhancement."
+        },
+        {
+          "letter": "D",
+          "text": "Non-enhancing capsule."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2017; 37:1994-2017",
+      "explanation": "正確答案為 **A**。Iron in mass more than liver 為 LI-RADS ancillary feature favoring **benignity**。B（nodule-in-nodule）、C（corona enhancement）、D（non-enhancing capsule）皆為 favoring malignancy/HCC 之特徵。\n\n→ [[li-rads-ancillary-benignity]]",
+      "images": [],
+      "concepts": [
+        "li-rads-ancillary-benignity"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-300",
+      "year": 2019,
+      "number": 300,
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following concerning renal lymphoma is False?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Non-enhanced CT shows about 30-50 HU."
+        },
+        {
+          "letter": "B",
+          "text": "Can present as bilateral nephromegaly without any focal lesions."
+        },
+        {
+          "letter": "C",
+          "text": "It shows hypoechoic on ultrasound."
+        },
+        {
+          "letter": "D",
+          "text": "Typical hypervascular with vessels invasion."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解；AJR 2013; 201:W712-W719",
+      "explanation": "正確答案為 **D**（錯誤敘述）。腎臟淋巴瘤為 **hypovascular**，非 hypervascular。Vessels invasion 亦非其典型特徵。A/B/C 皆正確。\n\n→ [[renal-lymphoma-imaging]]",
+      "images": [],
+      "concepts": [
+        "renal-lymphoma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-307",
+      "year": 2019,
+      "number": 307,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which disease can be characterized with air trapping in the appearance of mosaic lung attenuation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chronic eosinophilic pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "Pulmonary vascular disease"
+        },
+        {
+          "letter": "C",
+          "text": "Small airway disease"
+        },
+        {
+          "letter": "D",
+          "text": "Cryptogenic organizing pneumonia"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解；Chest. 2017 Jun;151(6):1356-1374",
+      "explanation": "正確答案為 **C**（小氣道疾病）。Air trapping 合併 mosaic lung attenuation 為小氣道疾病之典型表現。呼氣相可確認 air trapping。\n\n→ [[small-airway-disease-imaging]]",
+      "images": [],
+      "concepts": [
+        "small-airway-disease-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-309",
+      "year": 2019,
+      "number": 309,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "根據 revised ATS/ERS/JRS/ALAT diagnostic criteria for idiopathic pulmonary fibrosis，下列 pattern 何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "UIP pattern"
+        },
+        {
+          "letter": "B",
+          "text": "NSIP pattern"
+        },
+        {
+          "letter": "C",
+          "text": "Possible UIP pattern"
+        },
+        {
+          "letter": "D",
+          "text": "Inconsistent with UIP pattern"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Respir Res. 2013; 14(Suppl 1): S2",
+      "explanation": "正確答案為 **B**。ATS/ERS/JRS/ALAT IPF 診斷標準的 HRCT pattern 分類為：UIP pattern、Possible UIP pattern、Inconsistent with UIP pattern。**NSIP pattern 不在此分類中** — NSIP 為獨立的 IIP 亞型。\n\n→ [[ipf-uip-pattern-criteria]]",
+      "images": [],
+      "concepts": [
+        "ipf-uip-pattern-criteria"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-310",
+      "year": 2019,
+      "number": 310,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列 pulmonary nodules 的描述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Solid nodule 指 size<3 cm 實質化的結節。"
+        },
+        {
+          "letter": "B",
+          "text": "Subsolid nodule 專指部分 solid、部分 ground glass component 的結節，不包含 pure ground glass nodule。"
+        },
+        {
+          "letter": "C",
+          "text": "Ground glass nodule 指其 density 比一般肺高，但比 soft tissue density 低。"
+        },
+        {
+          "letter": "D",
+          "text": "Perifissural nodule 指鄰近 lung fissure 的結節。"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解；Radiographics. 2014 Oct;34(6):1658-1679; Radiology. 2017 Jul;284(1):228-243",
+      "explanation": "正確答案為 **B**（錯誤敘述）。Subsolid nodule 涵蓋 part-solid nodule **和** pure ground-glass nodule 兩者，選項 B 稱「不包含 pure GGN」為錯誤。\n\n→ [[pulmonary-nodule-classification]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-nodule-classification"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-311",
+      "year": 2019,
+      "number": 311,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which choice is false about image findings of mycobacterial infection?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary tuberculosis demonstrates radiologic findings that include lymphadenopathy, consolidation, pleural effusion, and miliary nodules."
+        },
+        {
+          "letter": "B",
+          "text": "Postprimary tuberculosis demonstrates consolidations that are predominant in the apical and upper lung zones, nodules, and cavitation."
+        },
+        {
+          "letter": "C",
+          "text": "Lymphadenopathy in tuberculosis typically demonstrates a low-attenuation center with peripheral rim enhancement on contrast material-enhanced CT images."
+        },
+        {
+          "letter": "D",
+          "text": "Classic (cavitary) nontuberculous mycobacterial infection can have an appearance and clinical manifestations indistinguishable from those of postprimary tuberculosis."
+        },
+        {
+          "letter": "E",
+          "text": "Miliary tuberculosis is spread by endobronchial spreading, as demonstrated by the finding of a miliary nodule centered on a small bronchiole."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "2019 交換考詳解；RadioGraphics 2017; 37(1):52-72",
+      "explanation": "正確答案為 **E**（錯誤敘述）。Miliary TB 經由**血行散播（hematogenous dissemination）**，非支氣管內散播（endobronchial）。Miliary nodules 為 random distribution，非 centrilobular。Endobronchial spread 才會產生 tree-in-bud pattern。\n\n→ [[mycobacterial-infection-imaging]]",
+      "images": [],
+      "concepts": [
+        "mycobacterial-infection-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-312",
+      "year": 2019,
+      "number": 312,
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which choice is false about mediastinal and pleural MR imaging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Early arterial phase images are critical for detection of enhancement of mediastinal soft-tissue lesions."
+        },
+        {
+          "letter": "B",
+          "text": "Lesions that demonstrate foci of enhancement, whether nodular, circumferential, septate, diffuse, or heterogeneous, cannot be considered benign mediastinal cysts by their MR appearance."
+        },
+        {
+          "letter": "C",
+          "text": "The two key MR imaging features that can be used to direct biopsy are areas of enhancement and diffusion restriction."
+        },
+        {
+          "letter": "D",
+          "text": "Enhancement within a thrombus should be considered diagnostic of tumor and is best identified in the portal venous phase."
+        },
+        {
+          "letter": "E",
+          "text": "Signal intensity index was recently shown to be of benefit in thoracic MR imaging for evaluating thymic hyperplasia."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解；RadioGraphics 2017; 37(1):52-72",
+      "explanation": "正確答案為 **A**（錯誤敘述）。縱膈腔軟組織病灶的增強偵測不依賴早期動脈相 — 延遲相更重要。B/C/D/E 皆為正確敘述。SII = [(tSIin - tSIop) / tSIin] × 100%。\n\n→ [[mediastinal-pleural-mri]]",
+      "images": [],
+      "concepts": [
+        "mediastinal-pleural-mri"
       ],
       "checked": false
     }
