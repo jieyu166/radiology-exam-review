@@ -34,6 +34,9 @@ dateRev: 2026-07-01
 > [!question]- Which of the following sign is not typical for intracapsular rupture of silicone breast implants? (2020-186)
 > **Snowstorm sign（B）**——屬extracapsular rupture之超音波徵象，非intracapsular。Linguine sign、stepladder sign、keyhole sign皆為intracapsular rupture典型徵象。[^3]
 
+> [!question]- 超音波下若見到何種sign代表extracapsular breast implant rupture？ (2020-207)
+> **Snowstorm sign（A）**——腋下淋巴結內游離矽膠droplets與組織混合之瀰漫回音，為extracapsular rupture最可靠徵象。Stepladder sign為intracapsular rupture徵象。[^2][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-implant-rupture")

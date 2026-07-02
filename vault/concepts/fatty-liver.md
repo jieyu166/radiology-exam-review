@@ -63,6 +63,9 @@ dateRev: 2026-06-29
 [^4]: Wang K, Cunha GM, Hasenstab K, et al. *Deep Learning for Inference of Hepatic Proton Density Fat Fraction From T1-Weighted In-Phase and Opposed-Phase MRI.* **AJR Am J Roentgenol 2023;221(5):620-631**（original article 級）。CSE-MRI 之 **PDFF 為肝脂肪定量參考標準**，跨平台可重現;**CSE-PDFF >15% 為中重度、>30% 為重度**;兩點 Dixon signal FF 在高 R2\*（鐵過載）時產生不合理負值（本研究 18% 受試者）。[DOI](https://doi.org/10.2214/AJR.23.29607)（依 PubMed 檢索，PMC13173666 全文）。
 [^5]: Klein WM, Sonnemans LJP, Franckenberg S, et al. *Pseudolesion in the right parafissural liver parenchyma on CT: The base is found in embryology and collagen content.* **PLoS One 2020;15(1):e0221544**（original article 級）。顯影 CT 約 **20% 病人**在鐮韌帶右側 segment IVa/b 出現門脈期低衰減假病灶，可酷似惡性腫瘤;成因為臍靜脈退化後局部低灌流、'third' inflow 經 paraumbilical/Sappey 靜脈、膠原稍增（fat 含量與對側相近）。[DOI](https://doi.org/10.1371/journal.pone.0221544)（依 PubMed 檢索，PMC6984698 全文）。
 
+> [!question]- Hepatic pseudolesion 描述何者錯誤? (2020-204)
+> **以上描述皆正確（D，無錯誤選項）**——鐮韌帶旁假病灶與異常靜脈引流(Sappey vein)有關；segment 4後部假病灶與insulin theory有關（aberrant right gastric veins低insulin造成focal fatty sparing、aberrant duodenopancreatic arcades高insulin造成focal fatty steatosis）；膽囊窩旁segment 4/5亦可見focal fatty sparing。[^5]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fatty-liver")

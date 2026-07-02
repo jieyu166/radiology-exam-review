@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 202,
+  "totalQuestions": 207,
   "questions": [
     {
       "id": "2020-001",
@@ -7262,6 +7262,195 @@
       "years": [
         2020
       ]
+    },
+    {
+      "id": "2020-203",
+      "year": 2020,
+      "number": 203,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Impaction of a stone in the gallbladder neck producing inflammation of the adjacent common hepatic duct and intrahepatic bile duct dilation describes which of the following conditions?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Choledocholithiasis"
+        },
+        {
+          "letter": "B",
+          "text": "Charcot triad"
+        },
+        {
+          "letter": "C",
+          "text": "Mirizzi syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Carcinoid syndrome"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解（中山）",
+      "explanation": "Mirizzi syndrome：膽囊頸或膽囊管結石嵌塞，壓迫/發炎鄰近之總肝管，造成肝內外膽管擴張。\nCholedocholithiasis：結石位於膽道系統內造成阻塞。\nCharcot triad：黃疸、發燒、右上腹痛，為cholangitis之典型表現。\nCarcinoid syndrome：肝臟carcinoid轉移所致之全身症狀，與此題無關。",
+      "images": [],
+      "concepts": [
+        "mirizzi-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-204",
+      "year": 2020,
+      "number": 204,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Hepatic pseudolesion 描述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Focal low attenuation on CT images or low signal intensity on contrast-enhanced MR images adjacent to the falciform ligament is probably related to anomalous venous drainage."
+        },
+        {
+          "letter": "B",
+          "text": "A focal liver lesion located in the posterior part of segment 4 initially suggests focal fatty sparing or focal steatosis."
+        },
+        {
+          "letter": "C",
+          "text": "In patients with steatosis, focal fatty sparing may be seen around the gallbladder fossa in segments 4 and 5."
+        },
+        {
+          "letter": "D",
+          "text": "以上描述皆正確"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解（中山）；Ref: Pitfalls in Liver Imaging. Radiology. 2016 Jan;278(1):34-51.",
+      "explanation": "四個選項皆正確，無錯誤選項。\nPseudolesions around the falciform ligament：probably related to anomalous venous drainage (inferior vein of Sappey)，因多數病人於OOP-images無訊號掉落。\nPseudolesion in the posterior part of segment 4（insulin theory）：aberrant right gastric veins（低insulin濃度）直接引流入segment 4造成focal fatty sparing；aberrant duodenopancreatic arcades（高insulin濃度）直接引流入segment 4造成focal fatty steatosis。",
+      "images": [],
+      "concepts": [
+        "fatty-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-205",
+      "year": 2020,
+      "number": 205,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Where is the most common location of visceral artery aneurysm formation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Splenic artery (70%)"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatic artery (20%)"
+        },
+        {
+          "letter": "C",
+          "text": "Superior mesenteric artery (5%)"
+        },
+        {
+          "letter": "D",
+          "text": "Gastroduodennal artery (6%)"
+        },
+        {
+          "letter": "E",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解（中山）；Ref: Visceral and Renal Artery Aneurysms: A Pictorial Essay on Endovascular Therapy. Radiographics. Nov-Dec 2006;26(6):1687-704",
+      "explanation": "內臟動脈瘤最常見部位為脾動脈（70%），其次為肝動脈（20%）、胃十二指腸動脈（6%）、腸繫膜上動脈（5%）。一般而言，內臟動脈瘤治療時機為>2 cm。",
+      "images": [],
+      "concepts": [
+        "visceral-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-206",
+      "year": 2020,
+      "number": 206,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不是 inhalational lung injury associated with vaping？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffuse alveolar hemorrhage"
+        },
+        {
+          "letter": "B",
+          "text": "Acute eosinophilic pneumonia"
+        },
+        {
+          "letter": "C",
+          "text": "Giant cell interstitial pneumonia"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆是 inhalational lung injury associated with vaping"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解（中山）；Ref: Radiologic, Pathologic, Clinical, and Physiologic Findings of Electronic Cigarette or Vaping Product Use–associated Lung Injury (EVALI): Evolving Knowledge and Remaining Questions",
+      "explanation": "Vaping所致肺部傷害之影像型態包括：organizing pneumonia (OP)、diffuse alveolar damage (DAD)、acute eosinophilic pneumonia、diffuse alveolar hemorrhage、hypersensitivity pneumonitis (HP)、exogenous lipoid pneumonia (ELP)，以及giant cell interstitial pneumonia。四個選項所列皆屬之，故答案為D。",
+      "images": [],
+      "concepts": [
+        "evali-vaping-lung-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-207",
+      "year": 2020,
+      "number": 207,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "超音波下若見到何種sign代表extracapsular breast implant rupture？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Snowstorm sign"
+        },
+        {
+          "letter": "B",
+          "text": "Stepladder sign"
+        },
+        {
+          "letter": "C",
+          "text": "All of the above"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解（中山）；Ref: Insights Imaging. 2011 Dec;2(6):653-670；AJR Am J Roentgenol. 2011 Apr;196(4):W451-60.",
+      "explanation": "Snowstorm sign代表extracapsular breast implant rupture：游離矽膠droplets與乳房組織混合，為判斷extracapsular rupture最可靠之超音波徵象，類似表現亦可見於矽膠淋巴結病之腋下淋巴結。Stepladder sign則為intracapsular rupture之徵象（塌陷外殼呈階梯狀不連續回音線）。",
+      "images": [],
+      "concepts": [
+        "breast-implant-rupture"
+      ],
+      "checked": false
     }
   ]
 }
