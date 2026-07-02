@@ -76,6 +76,10 @@ CTA 是 endoleak 偵測與分型的主流(gold standard)影像工具。[^2][^4]
 [^7]: 同 [^2] Diagnosis 章節:DUS/CEUS 常用於 EVAR 後追蹤,可近、廉、無輻射,經驗操作者準確度高;CEUS 可即時顯示血流進入瘤囊,利於分型。[DOI](https://doi.org/10.1007/s00270-020-02572-9)
 [^8]: 原始研究(經 PubMed 查證)。Wacker FK, et al. *C-arm CT—an adjunct to DSA for endoleak classification in patients with EVAR of AAA*. Rofo. 2014;186(3):247–252. 要點:CT 已知有漏但分型不明者,單獨 DSA 可分型 9/12、加 C-arm CT 提升至 11/12;C-arm CT 有助定位、分型與術中導引。[DOI](https://doi.org/10.1055/s-0033-1350500)
 
+## 題目
+> [!question]- Which one of the followings is the wrong description about endoleak after endovascular aneurysmal repair? (2018-375)
+> **Type 2 endoleak should be treated as soon as possible（D）**——type II endoleak多為良性、常自行消退，僅在瘤囊持續增大(常用>5mm)時才介入，非「盡快治療」。type I=端點封合(A對)、type II=經腰動脈/IMA逆流回填(B對)、type III=移植物壁缺損(C對)皆為正確描述。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endoleak")

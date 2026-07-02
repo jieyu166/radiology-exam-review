@@ -27,12 +27,23 @@ dateRev: 2026-07-01
 > [!note] 考點：嬰兒血便合併右上腹「假腎徵」，最可能診斷?
 > **Ileocolic intussusception（A）**——為兒童腸套疊最常見型態，超音波假腎徵/靶徵為特徵性表現。迴迴結腸型(B)、迴迴腸型(D)較少見;中腸扭轉(C)好發更早且常合併腸旋轉不良病史;幽門狹窄(E)臨床表現為噴射性嘔吐非血便。[^1]
 
+## 超音波 vs 鋇劑灌腸典型徵象區分
+- **超音波典型表現**：靶徵(target sign)、假腎徵(pseudokidney sign)、套入腸段壁血流(mural vascularity in intussusceptum，反映套入段是否仍存活)。[^2]
+- **非超音波典型表現**：**「彈簧狀外觀」(coil spring appearance)為鋇劑灌腸(barium enema)之典型影像描述**，非超音波典型表現——此為常見模態混淆陷阱。[^2]
+
+> [!note] 考點：何者「非」超音波典型套疊表現？
+> **Coil spring appearance（A）**——為鋇劑灌腸典型描述，非超音波表現。靶徵(B)、假腎徵(C)、套入腸段壁血流(D)皆為超音波典型表現。[^2]
+
 ### 參考來源
 [^1]: Final FRCR Part A Modules 1-3 Single Best Answer MCQs, Robin Proctor, p.122：兒童腸套疊最常見型態為迴結腸型(約80-90%)，好發6個月至3歲嬰幼兒，表現陣發性哭鬧血便，超音波假腎徵/靶徵為特徵；迴迴結腸型、迴迴腸型較少見，中腸扭轉好發更早常合併腸旋轉不良。
+[^2]: Ahuja A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 8-26~8-29（2018 交換考題詳解 p.179 引用；Tier 2 教科書）。超音波典型套疊表現為靶徵/假腎徵/套入腸段壁血流；彈簧狀外觀為鋇劑灌腸典型描述非超音波表現。
 
 ## 題目
 > [!question]- An 8-month-old female with bloodstained stools, RUQ mass, ultrasound shows 'pseudokidney' sign. What is the most likely diagnosis? (2017-307)
 > **Ileocolic intussusception（A）**——兒童腸套疊最常見型態，超音波假腎徵/靶徵為特徵性表現。[^1]
+
+> [!question]- Which of the following is NOT a typical ultrasound finding of intussusception? (2018-271)
+> **Coil spring appearance（A）**——為鋇劑灌腸典型描述，非超音波表現，此為錯誤敘述所指選項。[^2]
 
 ## 考題
 ```dataview

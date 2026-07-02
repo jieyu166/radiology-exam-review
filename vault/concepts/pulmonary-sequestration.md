@@ -55,11 +55,18 @@ dateRev: 2026-06-29
 > [!note] 考點：extralobar sequestration 何者「為錯」?
 > 「**靜脈引流入肺靜脈**」為錯——extralobar **多引流入體循環靜脈（azygos/IVC 等）**；intralobar 才引流入肺靜脈。左下葉、男性多、體循環供血皆對。[^1][^2]
 
+> [!note] 考點（2018-045）：pulmonary sequestration 敘述何者「錯」?
+> **Intralobar sequestration通常在新生兒期以呼吸窘迫/發紺/感染表現，extralobar則在兒童期以反覆感染表現（B）**——**相反**。ILS多在青少年/成人因反覆感染被發現；ELS多在新生兒/嬰兒期表現（可因分流致high output heart failure）或產前發現。分型25%/75%(A對)、ELS靜脈引流入體循環靜脈至右心房、ILS引流入肺靜脈(C對)、ELS好發左下葉可位於膈下(D對)皆為正確描述。[^1][^2]
+
 ### 參考來源
 [^1]: Abbey P, Das CJ, Pangtey GS, et al. *Imaging in bronchopulmonary sequestration*. J Med Imaging Radiat Oncol. 2009;53(1):22–31（期刊綜述，據 PubMed 摘要查證 2026-06-29）。BPS 為接受體循環動脈供血、與氣管支氣管樹無相通之異常肺組織；ILS 位於肺葉臟層胸膜內，ELS 有自己的臟層胸膜；ELS 靜脈引流多入體循環靜脈，ILS 引流入肺靜脈；影像（CT/MR/血管攝影）在確診與提供術前血管路線圖上扮演關鍵角色。According to PubMed，[DOI](https://doi.org/10.1111/j.1754-9485.2009.02033.x)。
 [^2]: Zylak CJ, Eyler WR, Spizarny DL, Stone CH. *Developmental lung anomalies in the adult: radiologic-pathologic correlation*. RadioGraphics. 2002;22 Spec No:S25–S43（RadioGraphics 綜述，據 PubMed 摘要與 MeSH 查證 2026-06-29）：BPS（含 ILS 與 ELS）歸於「合併肺與血管畸形」，以體循環供血與分型/合併畸形為要點。According to PubMed，[DOI](https://doi.org/10.1148/radiographics.22.suppl_1.g02oc26s25)。
 [^3]: Lin CH, Chuang CY, Hsia JY, et al. *Pulmonary sequestration—differences in diagnosis and treatment in a single institution*. J Chin Med Assoc. 2013;76(7):385–389（單一機構 31 例系列，據 PubMed 摘要查證 2026-06-29）：成人系列以 ILS 為大宗（31 例中 29 例 ILS、2 例 ELS），96.8% 由胸部 CT 診斷，CTA 為評估隔離肺與其血管供應之首選影像。According to PubMed，[DOI](https://doi.org/10.1016/j.jcma.2013.04.002)。
 [^4]: Naffaa L, Tank J, Ali S, Ong C. *Bronchopulmonary sequestration in a 60 year old man*. J Radiol Case Rep. 2014;8(10):32–39（個案＋影像綜述，PMC 開放全文，據 PubMed 摘要查證 2026-06-29）：以胸主動脈發出之供血動脈確立 BPS 診斷，並強調各影像模態在 ILS 診斷與術前規劃的角色。According to PubMed，[DOI](https://doi.org/10.3941/jrcr.v8i10.2235)。
+
+## 題目
+> [!question]- Which of the description about pulmonary sequestration is wrong? (2018-045)
+> **Intralobar sequestration usually present in the neonatal period... Extralobar sequestration present later in childhood（B）**——相反：ILS多在青少年/成人因反覆感染發現，ELS多在新生兒/嬰兒期或產前發現。[^1][^2]
 
 ## 考題
 ```dataview

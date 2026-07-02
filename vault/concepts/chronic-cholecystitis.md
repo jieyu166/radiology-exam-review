@@ -32,6 +32,10 @@ dateRev: 2026-07-01
 - **MRI 釓強化型態（與癌鑑別關鍵）**：慢性膽囊炎壁強化較急性**弱**，呈**平滑、緩慢、延遲（smooth／slow／prolonged）**;膽囊癌則為**不規則、早期、延遲（irregular／early／prolonged）**——鑑別看「強化型態＋時相」而非單看有無強化。[^1]
 - **CT 上「髮絲狀／難辨壁」反而偏慢性**：hairline／imperceptible 壁在慢性較常見（約 55.8% vs 急性 24.4%）。[^4]
 
+### 超音波基本鑑別：慢性 vs 急性
+- **慢性膽囊炎典型超音波表現**：膽囊壁增厚(纖維化，多平滑均勻)、**膽囊縮小(contracted)**、幾乎必有膽結石。[^11]
+- **充血性壁變化(hyperemic changes)非慢性典型表現**：都卜勒上膽囊壁充血血流增加，較典型見於**急性**膽囊炎(反映急性發炎反應)，非慢性膽囊炎之典型超音波表現——此為考題常見模態誤判方向。[^11]
+
 ### 對比急性膽囊炎的判讀分水嶺
 - **指向急性（≥2 項時對急性敏感度約 83%、全無時 NPV 約 96%）**：① 肝床一過性高強化（THAD，急性 80% vs 慢性 32%）；② 膽囊脹大；③ 壁分層／mural striation（急性約 70%）；④ 周圍脂肪糢糊或積液（急性 66% vs 慢性 21%）。[^4]
 - 臨床對照：急性多有 Murphy sign、壁水腫分層、周圍積液；慢性以纖維化縮小、均勻壁厚、缺乏這些急性旁徵為特徵。[^3][^4]
@@ -65,6 +69,9 @@ dateRev: 2026-07-01
 > [!note] 判讀重點：慢性 vs 急性 vs 癌
 > 慢性＝**瀰漫對稱平滑壁厚＋結石＋膽囊縮小、無急性旁徵**；急性＝**THAD／壁分層水腫／周圍積液／膽囊脹大**；癌＝**局灶不規則壁厚或腫塊＋黏膜線中斷＋肝侵犯／淋巴結**。壁增厚先分「膽囊本身 vs 全身次發（肝炎/腹水/低蛋白）」。[^3][^4][^6][^9]
 
+> [!note] 考點：膽囊壁增厚「單獨」是否足以特異性診斷急性膽囊炎？
+> **並非**——單獨膽囊壁增厚**非**特異性診斷依據，瀰漫性膽囊壁增厚可見於肝炎、肝硬化/門脈高壓、腹水、低白蛋白血症、鬱血性心衰竭等多種非膽囊本身病因（見上表「非膽囊本身原因」）。[^10]
+
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Catalano OA, et al. *MR Imaging of the Gallbladder: A Pictorial Essay*. RadioGraphics. 2008;28(1):135-155. https://doi.org/10.1148/rg.281065183。濃縮膽汁 T1 高訊號（膽鹽/蛋白濃度↑）;**慢性膽囊炎＝膽囊小而收縮、壁不規則增厚、幾乎必有結石;釓強化較急性弱且 smooth/slow/prolonged，對比膽囊癌 irregular/early/prolonged**（原文 pp.135-155 Chronic Cholecystitis 段）。
 [^2]: 慢性膽囊炎/膽石症膽汁滯留致 T1 高訊號膽汁/sludge——近期研究示 T1WI layering hyperintensity 與膽囊 sludge、cholecystolithiasis 相關（PMC12267354；Based on articles retrieved from PubMed）。
@@ -75,6 +82,15 @@ dateRev: 2026-07-01
 [^7]: 〔Tier 2〕Zhao F, et al. *Xanthogranulomatous cholecystitis: sonographic and CT features and differentiation from gallbladder carcinoma: a pictorial essay*. https://pubmed.ncbi.nlm.nih.gov/22488612/ ；併 Korean J Radiol 相關研究 https://pmc.ncbi.nlm.nih.gov/articles/PMC3021609/ （accessed 2026-06-29）。連續黏膜線 XGC 約 80% vs 癌約 6%；瀰漫壁增厚 XGC 約 70% vs 癌約 12.5%；肝內膽管擴張／鄰近侵犯偏向膽囊癌。
 [^8]: 〔Tier 1〕Boscak AR, et al. *Adenomyomatosis of the Gallbladder*. RadioGraphics. 2006;26(3):941-946. https://doi.org/10.1148/rg.263055180 （accessed 2026-06-29，摘要層級）。Rokitansky-Aschoff 竇內膽固醇結晶 → US 彗尾偽影、MRI pearl necklace 為特徵。
 [^9]: 〔Tier 1〕van Breda Vriesman AC, et al. *Diffuse Gallbladder Wall Thickening: Differential Diagnosis*. AJR Am J Roentgenol. 2007;188(2):495-501. https://doi.org/10.2214/AJR.05.1712 （accessed 2026-06-29，摘要層級）。瀰漫壁增厚的非膽囊原因：肝炎、肝硬化／門脈高壓、腹水、低白蛋白血症、右心衰竭、腎衰竭、膽囊未充分擴張。
+[^10]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 17-21（2018 交換考題詳解 p.135 引用；Tier 2 教科書）。單獨膽囊壁增厚非急性膽囊炎特異性診斷依據；鬱血性心衰竭可致膽囊壁增厚；膽囊癌彩色都卜勒可無血流訊號；總膽管結石為膽結石病人膽管擴張最常見原因；腺肌症comet tail源自Rokitansky-Aschoff竇內結晶殘響。
+[^11]: Ahuja A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 2-28~2-29（2018 交換考題詳解 p.180 引用；Tier 2 教科書）。慢性膽囊炎典型超音波表現為壁增厚、膽囊縮小、膽結石；壁充血變化較典型見於急性膽囊炎非慢性。
+
+## 題目
+> [!question]- Which of the following statements about ultrasound of the gallbladder is incorrect. (2018-243)
+> **Thickening of the gallbladder wall alone should be the specific diagnosis of acute cholecystitis（A）**——單獨壁增厚非特異性診斷依據，此敘述錯誤。鬱血性心衰竭致壁增厚(B)、膽囊癌可無彩色都卜勒血流(C)、總膽管結石為膽管擴張最常見原因(D)、腺肌症comet tail源自RAS結晶(E)皆為正確描述。[^10]
+
+> [!question]- Which of the following is NOT a typical ultrasound finding of chronic cholecystitis? (2018-272)
+> **Hyperemic changes of gallbladder wall（B）**——較典型見於急性膽囊炎，非慢性典型表現。膽囊壁增厚(A)、膽囊縮小(C)、膽結石(D)皆為慢性膽囊炎典型超音波表現。[^11]
 
 ## 考題
 ```dataview

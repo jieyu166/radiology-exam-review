@@ -35,6 +35,16 @@ dateRev: 2026-06-29
 > [!note] 考點：哪一所見較傾向 AML 而非腹膜後脂肪肉瘤?
 > **病灶內動脈瘤樣血管（aneurysmal vessels）**——AML 富血管;脂肪肉瘤 hypovascular。腫塊外推腎臟、軟組織密度、邊界不清在兩者皆可見,鑑別力低。[^1][^2]
 
+## 迴音性腎腫塊：AML vs RCC 之「暈輪」判讀
+- **低迴音暈輪(hypoechoic halo)較傾向RCC，非AML**——暈輪常反映假包膜(pseudocapsule)或周圍受壓腎實質，是RCC較常見之特徵；此為常見誤判方向（易誤認暈輪支持AML診斷）。[^5]
+
+### 參考來源（續）
+[^5]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 25-29（2018 交換考題詳解 p.136 引用；Tier 2 教科書）。迴音性腎腫塊合併低迴音暈輪時，RCC較AML更可能。
+
+## 題目
+> [!question]- Which of the following statements about ultrasound of the kidney is incorrect. (2018-244)
+> **If an echogenic mass has a hypoechoic halo, AML is more likely than RCC（D）**——實際上RCC較AML更可能，此敘述錯誤。ADPKD典型表現(A)、單純囊腫特徵(B)、AML呈腎皮質內邊界清楚迴音性腫塊(C)、RCC可實質或囊性(E)皆為正確描述。[^5]
+
 ### 參考來源
 [^1]: *Renal angiomyolipoma*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**a large vessel extending into the renal cortex suggestive of AML; liposarcoma is hypovascular**」;「**renal parenchymal defect at the site of tumor contact favors exophytic angiomyolipoma**」;>4 cm 微動脈瘤破裂致 Wunderlich syndrome。
 [^2]: RadioGraphics 2008;28:1325-1338（題目所引）——AML vs retroperitoneal liposarcoma 鑑別。

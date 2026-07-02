@@ -53,6 +53,10 @@ same:
 [^2]: 含碘對比劑遲發不良反應(DAR)文獻（AJR 2014;203:1163-1170;2020 對比劑手冊）：**DAR 為 T 細胞媒介**、maculopapular rash、首次 2–10 天/再暴露 1–2 天、**dimer iso-osmolar 為風險因子**;對比劑為藥物性皮膚反應第三大原因（次於抗生素、NSAID）。**近期 IL-2 免疫治療亦為 DAR 風險因子**（Choyke PL, Miller DL, Lotze MT, et al. *Delayed reactions to contrast media after interleukin-2 immunotherapy*. Radiology 1992;183(1):111-4, PMID 1549655：IL-2 組遲發反應 11.8% vs 非 IL-2 組 3.9%、症狀更重）。
 [^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。ESUR 2025 hypersensitivity 全文本機備有 [[2025 ESUR Hypersensitivity reactions to contrast media - Part 1.pdf]]／[[2025 ESUR Hypersensitivity reactions to contrast media - Part 2.pdf]]（gitignore）。
 
+## 題目
+> [!question]- What statement of iodinated contrast media adverse reactions is wrong? (2018-106)
+> **Delayed reaction happened after 15 minutes after injection（D）**——遲發(late/delayed)反應定義為施打後**1小時至1週內**發生，非「15分鐘後」(15分鐘內仍屬急性反應範圍)。類過敏反應可發生於<1%(A對)、風險因子含氣喘/焦慮/過敏史(B對)、重度反應常為中度症狀之進展且危及生命(C對)皆為正確描述。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-adverse-reactions")

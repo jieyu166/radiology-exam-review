@@ -47,6 +47,36 @@ down:
 | **Fibroma**（兒童第二常見） | 心室肌內、好發心室中隔 | 等或高訊號 | **低訊號**（纖維成分） | 可呈周邊強化、中央不強化 | 約 25% 有鈣化 [^5][^6] |
 | **Lipoma** | 心房/心室、心包 | **高訊號**（脂肪） | 高訊號 | 脂肪抑制序列訊號被壓掉 | CT 為脂肪密度（約 −50 至 −150 HU） [^6] |
 | **Angiosarcoma**（原發惡性最多，成人） | **右心房**、基底寬、易侵犯鄰近構造 | 不均，可見出血灶（高訊號） | 不均；「花椰菜（cauliflower）」外觀 | 強烈不規則或周邊（rim）強化 | CT 平掃密度不均、增強呈不均；可侵犯心包、三尖瓣、腔靜脈 [^2][^8] |
+| **Pheochromocytoma（心臟性）** | Peri-left atrium、retroaortic、aorticopulmonary window | — | — | — | 好發部位與myxoma之左心房不同，考題常見鑑別點 [^10] |
+
+## 常見腫瘤起源部位速查表（Table 35.2）
+| 腫瘤 | 好發部位 |
+|---|---|
+| Myxoma | 左心房 75%；右心房 20% |
+| Lipoma | **右心房**；心房中隔 |
+| Papillary fibroelastoma | 主動脈瓣 29-30%；二尖瓣 2-25%；肺動脈瓣 13%；三尖瓣 17% |
+| Rhabdomyoma | 左右心室肌 |
+| Fibroma | 右心室壁及心室中隔 |
+| Pheochromocytoma（心臟性） | Peri-left atrium；retroaortic；aorticopulmonary window |
+| Hemangioma | 任何心腔 |
+| Angiosarcoma | 右心房、心包腔 |
+| Rhabdomyosarcoma | 心室肌 |
+| Lymphoma | 右心房 |
+
+[^10]
+
+## 惡性心臟腫瘤之影像特徵清單（Table 35.4）
+1. 侵犯超過一個心腔或心腔加附著血管
+2. 侵犯至肺靜脈、腔靜脈、肺動脈或主動脈
+3. 心腔壁上寬廣附著點
+4. 合併壁內(intramural)與心腔內(intracavitary)成分
+5. 腫瘤內壞死
+6. 侵犯至心腔外
+7. 出血性心包積液
+8. 肺轉移
+
+> [!note] 考點：「附壁血栓增厚」不在惡性腫瘤影像特徵清單內
+> 惡性心臟腫瘤之8項影像特徵中不含「附壁血栓增厚(thickening of mural thrombus)」——血栓增厚並非腫瘤侵襲性徵象，不應與上述8項清單混淆。[^10]
 
 ## 鑑別重點
 
@@ -72,6 +102,17 @@ down:
 [^7]: 模態定位（CMR 組織特性、CT 鈣化/脂肪、echo 篩檢）為標準心臟影像教學，整理自上述 [^3][^5] 等綜論。
 [^8]: *Clinical and Imaging Features of Primary Cardiac Angiosarcoma*. Diagnostics 2020;10(10):776（PMC7600236）（依搜尋摘要查證、未讀全文，accessed 2026-06-28）。病灶均位於右心房、寬基底；常侵犯三尖瓣/右心室/腔靜脈/心包；CT 平掃密度不均、增強不均向心性；MRI 不均、T1/T2 出血灶高訊號、「花椰菜」外觀、強烈不規則或 rim 強化。
 [^9]: *Prognostic utility of differential tissue characterization of cardiac neoplasm and thrombus via LGE CMR*（PubMed 29025425）／*First-Pass Perfusion CMR for Cancer-Associated Cardiac Masses*（PMC11783222）（依搜尋摘要查證、未讀全文，accessed 2026-06-28）。血栓在 first-pass perfusion 與 LGE 皆不強化；長 inversion time（~600 ms）LGE 可 null 無血管組織呈低訊號，用以與腫瘤/轉移區分。
+[^10]: *Thoracic Imaging*, 2nd edition, Webb, p.825 & p.832（2018 交換考題詳解 p.156/155 引用；Tier 2 教科書，Table 35.2 Typical Sites of Origin of Cardiac Tumors / Table 35.4 Imaging Features of Malignant Cardiac Tumors）。心臟性嗜鉻細胞瘤好發peri-left atrium/retroaortic/aorticopulmonary window；lipoma好發右心房/心房中隔(非左心房)；惡性心臟腫瘤8項影像特徵不含附壁血栓增厚。
+
+## 題目
+> [!question]- The higher incidences of primary malignant cardiac tumor is (2018-231)
+> **Angiosarcoma（C）**——心臟原發惡性腫瘤中發生率最高、好發右心房。Myxoma為最常見「良性」原發心臟腫瘤，非惡性。[^2]
+
+> [!question]- Which is wrong about the common origin site of cardiac tumors? (2018-051)
+> **Lipoma: left atrium（B）**——實際上lipoma好發右心房/心房中隔（非左心房），此敘述錯誤。Myxoma好發左心房(A)、心臟性嗜鉻細胞瘤好發aorticopulmonary window(C)、angiosarcoma好發右心房(D)皆為正確描述。[^10]
+
+> [!question]- Which is not an imaging feature of malignant cardiac tumors? (2018-261)
+> **Thickening of mural thrombus（D）**——非惡性心臟腫瘤8項影像特徵清單之一。侵犯超過一心腔加附著血管、侵犯肺靜脈/腔靜脈/肺動脈/主動脈、寬廣附著點、合併壁內與心腔內成分、腫瘤內壞死、侵犯心腔外、出血性心包積液、肺轉移，方為此8項特徵。[^10]
 
 ## 考題
 ```dataview

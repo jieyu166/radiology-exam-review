@@ -46,6 +46,12 @@ dateRev: 2026-06-15
 > [!note] 考點：何者「非」常見危險因子？(2016)
 > **DM（糖尿病）**。常見者：高血壓、子癇、免疫抑制/藥物、腎功能不全。[^1][^2]
 
+## 補充危險因子（2018交換）
+- **鈣調神經磷酸酶抑制劑(calcineurin inhibitors，如tacrolimus/cyclosporine)** 與**古柯鹼、安非他命**皆可致PRES。詳見 [[toxic-metabolic-leukoencephalopathy]] 之其他藥物性中樞神經病變（chasing the dragon、苯妥英顱骨增厚、TPN錳沉積等）。[^3]
+
+### 參考來源（續）
+[^3]: *RadioGraphics* 2012;32:701-719（2018 交換考題詳解 p.137 引用；Tier 1 影像期刊）。鈣調神經磷酸酶抑制劑、古柯鹼、安非他命皆可致PRES。
+
 ### 參考來源
 [^1]: *Posterior reversible encephalopathy syndrome*. Radiopaedia.org。誘因含嚴重高血壓、產後 eclampsia/pre-eclampsia、急性腎絲球腎炎、藥物毒性（tacrolimus/cyclosporine/化療/類固醇等）；機轉為自我調節失衡致 vasogenic edema。影像：parieto-occipital 為主、可延伸後腦以外（額/腦幹/基底節/小腦）、三型分布；CT 低密度；T2/FLAIR 高訊號、DWI 多不受限/ADC 升高（少數真受限提示梗塞）、強化多變、可出血、DSA 可見 vasospasm（實際查證 accessed 2026-06-16）。
 [^2]: Hinchey J, Chaves C, Appignani B, et al. *A reversible posterior leukoencephalopathy syndrome*. N Engl J Med. 1996;334:494-500. https://doi.org/10.1056/NEJM199602223340803 （題目所引原始描述；危險因子含高血壓、子癇、免疫抑制治療、腎病）。

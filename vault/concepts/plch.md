@@ -55,6 +55,11 @@ same:
 [^1]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （Tier 1；實際查證 full text，accessed 2026-06-14；含 SR-ILD 影像特徵表）。
 [^2]: Castañer E, et al.（PMC 全文）*Diffuse cystic lung diseases: differential diagnosis*. PMC4141336 / 相關綜述。https://pmc.ncbi.nlm.nih.gov/articles/PMC4141336/ （Tier 2 PMC，accessed 2026-06-29；PLCH 初診多種型態、氣胸 15–25%、肺高壓與 PA 擴張）。
 [^3]: Gupta N, et al. *Diffuse cystic lung diseases: differential diagnosis*. PMC5474378. https://pmc.ncbi.nlm.nih.gov/articles/PMC5474378/ （Tier 2 PMC，accessed 2026-06-29；PLCH vs LAM vs LIP 囊壁/分布/分水嶺與演化序列查證）。
+[^4]: *HRCT of the Lung*, p.264-267（2018 交換考題詳解 p.230 引用；Tier 2 教科書）。PLCH：absence of mediastinal and hilar lymphadenopathy（無明顯縱膈/肺門淋巴腫大）；對照PCP（LAP少見10%）、LAM（縱膈/腹腔LAP）、LIP（縱膈LAP）。
+
+## 題目
+> [!question]- Which of the following is NOT the feature of pulmonary Langerhans cell histiocytosis? (2018-041)
+> **Usually with very large lymphadenopathy（C）**——PLCH特徵為absence of mediastinal and hilar lymphadenopathy，非明顯淋巴腫大。[^4]
 
 ## 考題
 ```dataview

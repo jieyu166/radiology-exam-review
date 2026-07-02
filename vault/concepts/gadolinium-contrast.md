@@ -28,6 +28,7 @@ same:
   - **結構**：**linear（線狀）vs macrocyclic（環狀）**;
   - **電荷**：ionic vs non-ionic。
   - **穩定度**：**macrocyclic ＞ linear**（環狀去螯合少）→ **macrocyclic NSF 與釓沉積風險較低**;惟 macrocyclic 過敏反應風險相對略高。
+- **配位基與釓離子結合強度（考題易錯點）**：**Macrocyclic, ionic 結構之結合最強、最穩定**（如gadoterate/Dotarem）；結合強度排序約為macrocyclic ionic > macrocyclic non-ionic > linear ionic > linear non-ionic，結合越強則越不易去螯合、越安全。[^4]
 - **NSF 風險（ACR 分組，見 [[nephrogenic-systemic-fibrosis]]）**：[^2]
   - **Group I（高風險，避免用於 eGFR<30）**：**gadodiamide（Omniscan）、gadopentetate（Magnevist）、gadoversetamide（OptiMARK）**——皆 **linear**。
   - **Group II（低風險）**：macrocyclic——gadoterate（Dotarem）、gadobutrol（Gadavist）、gadoteridol（ProHance）。
@@ -49,9 +50,24 @@ same:
 [^1]: *Gadolinium-based contrast agents*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Macrocyclic agents have less chemical instability than linear agents, resulting in a lower risk of nephrogenic systemic fibrosis and lower gadolinium deposition**」;deposition「especially the brain (**dentate nucleus**, **globus pallidus**)」;分類依 net charge 與 linear/macrocyclic。
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
 [^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
-[^4]: 官方2020詳解；Ref: Heart Disease_ Eugene Braunwald (2019年11版) Ch. 17, P302——含釓對比劑臨床安全性高，eGFR<30族群NSF風險<1/10,000（遠低於1%）；風險因子含腎絲球過濾率<30、急性腎衰竭、末期腎臟病需透析；目前尚無eGFR≥30之慢性腎衰竭患者發生NSF案例報告。
+[^4]: 官方2020詳解；Heart Disease: Eugene Braunwald (2019年11版) Ch. 17, P302——含釓對比劑臨床安全性高，eGFR<30族群NSF風險<1/10,000（遠低於1%）；風險因子含腎絲球過濾率<30、急性腎衰竭、末期腎臟病需透析；目前尚無eGFR≥30之慢性腎衰竭患者發生NSF案例報告。並 *The presence of the gadolinium-based contrast agent depositions in the brain and symptoms of gadolinium neurotoxicity - A systematic review*. 2017;e0171704（2018 交換考題詳解 p.129 引用；Tier 2 系統性回顧）：配位基與釓離子結合強度以macrocyclic ionic結構結合最強最穩定。
 
 ## 題目
+> [!question]- Which of the following structures for a gadolinium-based contrast agents (GBCAs) will have the strongest binding between the ligand and gadolinium ion? (2018-107)
+> **Macrocyclic, ionic（A）**——結合最強最穩定，去螯合風險最低。[^4]
+
+> [!question]- EMA PRAC於106年建議限縮linear gadolinium靜脈注射使用，以下何者錯誤? (2018-112)
+> **gadobenic acid僅能低劑量用於心臟顯影（B）**——gadoxetic acid與gadobenic acid**僅能用於肝臟顯影**(非心臟)；gadopentetic acid僅能低劑量用於關節顯影(C對)；其餘linear gadolinium(gadodiamide、gadoversetamide)維持下架建議(D對)；gadoxetic acid僅能用於肝臟顯影(A對)。[^2]
+
+> [!question]- Which statement is incorrect about gadolinium deposition in the brain? (2018-108)
+> **The gadolinium would not cross intact blood-brain barrier（A）**——實際上約 18%–42% 的釓會穿過完整 BBB 沉積於神經組織間質（推測經 glymphatics）。T1WI 高訊號劑量依賴(B對)、腎功能正常者亦可發生(C對)、臨床意義未明(D對)皆正確。[^3]
+
+> [!question]- Which gadolinium-based contrast agents (GBCAs) would have higher possibility of brain deposition? (2018-109)
+> **Gadopentetate dimeglumine（C，Magnevist，linear ionic）**——linear 製劑去螯合多、腦沉積風險高於 macrocyclic。Gadoterate meglumine(A，Dotarem，macrocyclic ionic)、Gadobutrol(B，Gadavist，macrocyclic non-ionic)皆為低沉積風險之 macrocyclic。[^1][^3]
+
+> [!question]- Which sites would have greatest concentration of gadolinium deposition? (2018-444)
+> **Dentate nucleus（B）**——釓腦沉積程度依序為 dentate nucleus > globus pallidus > thalamus > pons，以齒狀核濃度最高。[^3]
+
 > [!question]- Which kind of Gd agent has higher risk for brain deposition after repeated used? (2020-209)
 > **Linear non-ionic（D）**——macrocyclic較linear穩定（環狀鎖住不易去螯合），ionic較non-ionic穩定（靜電作用較強）；故cyclic ionic最穩定、linear non-ionic穩定度最低、腦沉積風險最高。[^1][^2]
 

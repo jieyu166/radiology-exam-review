@@ -93,6 +93,16 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 
 > [可選升級] Grainger & Allison's Diagnostic Radiology（Adrenal Imaging 章，Sahdev/Kavanagh 2021）、ACR Appropriateness Criteria Adrenal Mass 2021（JACR）亦可再補。
 
+## 題目
+> [!warning] 2018-360 官方詳解本身標示「C? 錯在哪?」（作者亦不確定）
+> 「About adrenal adenoma, which is wrong?」四選項：A非顯影CT <10 HU、B輕度均質強化、C 15分延遲absolute percentage washout >60%、D T1反相位訊號下降——**四者皆為腺瘤之正確特徵**。官方答案標示C但附註「錯在哪?」，顯示出題者本身存疑。暫依官方記C，惟此題可能為瑕疵題，建議醫師對照原始考卷確認。附註：APW>60%高度提示腺瘤（C敘述實為正確）。
+
+> [!question]- About adrenal adenoma, which of the following is wrong? (2018-360)
+> **官方標示C（Absolute percentage washout > 60% at 15-min）**——⚠️惟APW>60%實為腺瘤之正確特徵，四選項皆為腺瘤正確描述，官方詳解自身標示「錯在哪?」存疑，見上方warning。[^2]
+
+> [!question]- Concerning adrenal adenomas, which one is TRUE? (2018-434)
+> **They are a more common cause of adrenal mass than is metastatic disease（A）**——腺瘤為最常見腎上腺病灶(佔人口2–8%),即使已知惡性者偶發腎上腺病灶仍較可能為腺瘤。B誤(非顯影密度多**<10 HU**,非>20 HU)、C誤(反相位opposed-phase訊號**下降**,非無下降)、D誤(10分延遲CT約**washout 50%**,非保留90%初始強化)。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "adrenal-adenoma")

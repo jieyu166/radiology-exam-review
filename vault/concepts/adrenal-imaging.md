@@ -35,6 +35,10 @@ down:
 - **腎上腺皮質癌(ACC)惡性判斷**：異質強化腎上腺腫塊**>4cm**具高度惡性可能，且**約70%之ACC測量>6cm**。[^5]
 - **嗜鉻細胞瘤分泌**：典型**同時分泌正腎上腺素(norepinephrine)與腎上腺素(epinephrine)**。[^5]
 
+## 惡性風險評估影像特徵（2018交換）
+- **腫塊大小 >4 cm**：傾向惡性表現，為腎上腺病灶惡性風險評估之重要影像特徵之一。[^5]
+- **良性傾向特徵**：巨觀脂肪(如腺瘤/myelolipoma)、維持腺體整體外形之鈣化(adreniform shape calcification)較傾向良性；單純高密度(>50HU非顯影)本身非首選惡性指標，須搭配脂肪含量與washout特徵綜合判斷。[^5]
+
 ## 鑑別與報告要點
 | 考點 | 答案 |
 | --- | --- |
@@ -49,7 +53,9 @@ down:
 [^2]: Lattin GE, Sturgill ED, Tujo CA, et al. *From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult*. RadioGraphics. 2014;34(3):805-829. https://doi.org/10.1148/rg.343130127 （題目所引；全文已讀。涵蓋皮質增生、pseudocyst/出血、感染、pheo。經 PubMed 取得書目 PMID 24819798。結節性增生隨年齡↑、雙側界清腫大想感染為標準腎上腺教學）。
 [^3]: *Adrenal hemorrhage*. Radiopaedia.org。腎上腺外傷為單側腎上腺出血常見原因；雙側出血多非外傷（敗血/DIC/抗凝）（實際查證 accessed 2026-06-15）。
 [^4]: 官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation. RadioGraphics 2004;24:S73-S86：myelolipoma為少見良性腫瘤(成熟脂肪+造血組織)可因自發性出血致症狀性增大，MR呈T1均質高訊號、T2中等訊號;adreniform masses(保留腺體外形之病灶)含cortical hyperplasia與adrenal hemorrhage，pheochromocytoma因扭曲/取代腺體外形而不屬此類;pheochromocytoma不含大量微觀脂肪故反相位無訊號掉落，T2WI呈高訊號(lightbulb sign)，多數病灶顯著強化。
-[^5]: 官方2020詳解；Ref: From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult: Radiologic-Pathologic Correlation, RadioGraphics 2014（題目所引）——腎上腺淋巴管瘤為極罕見良性腫瘤(非惡性)，盛行率約0.06%，通常無症狀偶然發現；異質強化腎上腺腫塊>4cm高度提示惡性，約70% ACC>6cm；嗜鉻細胞瘤典型同時分泌正腎上腺素與腎上腺素。
+[^5]: 官方2020詳解；Ref: From the Radiologic Pathology Archives: Adrenal Tumors and Tumor-like Conditions in the Adult: Radiologic-Pathologic Correlation, RadioGraphics 2014（題目所引；另 *Problem Solving in Abdominal Imaging*, Ch.17, p.464-484 於 2018 交換考題詳解 p.214 亦引用同概念）——腎上腺淋巴管瘤為極罕見良性腫瘤(非惡性)，盛行率約0.06%，通常無症狀偶然發現；異質強化腎上腺腫塊>4cm高度提示惡性，約70% ACC>6cm；嗜鉻細胞瘤典型同時分泌正腎上腺素與腎上腺素；巨觀脂肪與維持腺體外形之鈣化較傾向良性；單純CT高密度非首選惡性指標。
+[^6]: Radiology Review Manual, 6th ed., p.918（2018 交換考題詳解 p.269 引用；Tier 2 教科書）。腎上腺出血成因含鈍腹部外傷(成人單側最常見)、adrenal vein sampling、早產缺氧(新生兒)、潛在腎上腺腫瘤等。
+[^7]: *RadioGraphics* 2001;21:995-1012（2018 交換考題詳解 p.294 引用；Tier 1 期刊）。腎上腺感染源含結核/組織漿菌/芽生菌；早期呈雙側腎上腺腫大；慢性感染可致腺體萎縮並『可』出現鈣化(非never)；可導致腎上腺功能不全(Addison's disease)。
 
 ## 題目
 > [!question]- Which of the following description concerning with myelolipoma is true? (2017-327)
@@ -63,6 +69,15 @@ down:
 
 > [!question]- Which statement is false about adrenal tumors? (2020-362)
 > **Adrenal lymphangioma is an exceedingly rare malignant tumor（D）為錯誤**——腎上腺淋巴管瘤實為極罕見之**良性**腫瘤，非惡性。骨髓脂肪瘤含大體脂肪、異質強化腫塊>4cm高度提示惡性(約70% ACC>6cm)、嗜鉻細胞瘤同時分泌正腎上腺素與腎上腺素，皆為正確敘述。[^5]
+
+> [!question]- Which of the following imaging finding favors malignancy in adrenal gland? (2018-309)
+> **Mass > 4 cm（A）**——腫塊大小為重要惡性風險評估特徵。巨觀脂肪(B)、adreniform shape鈣化(D)較傾向良性。[^5]
+
+> [!question]- Which of the following may cause adrenal hemorrhage? (2018-361)
+> **All of the above（E）**——blunt abdominal trauma（成人單側出血最常見主因）、adrenal vein sampling、hypoxia due to prematurity（新生兒）、underlying adrenal tumor皆可造成腎上腺出血。[^6]
+
+> [!question]- Which of the following about adrenal infections is wrong? (2018-385)
+> **Chronic infection may cause adrenal gland atrophy, but never calcification（C）**——慢性腎上腺感染(尤其結核)『可』造成鈣化，「never calcification」錯誤。感染源含結核/組織漿菌/芽生菌(A對)、早期呈雙側腎上腺腫大(B對)、可致腎上腺功能不全Addison's(D對)皆為正確描述。[^7]
 
 ## 考題
 ```dataview

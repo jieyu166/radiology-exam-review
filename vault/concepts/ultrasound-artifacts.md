@@ -61,6 +61,15 @@ same:
 [^2]: Hsu P-C, Chang K-V, et al. *Artifacts in Musculoskeletal Ultrasonography: From Physics to Clinics*. **Diagnostics** (Basel). 2020;10(9):645（同行評審期刊綜述，full-text via PMC PMC7555047）。逐項影像-成因-解法：focal zone/beam-width、posterior enhancement、acoustic shadowing（clean/partial/dirty）、reverberation（comet-tail 樣）、ring-down（氣泡共振→向深部衰減的連續條紋）、mirror image（強反射面如長骨對側等距副本）、anisotropy（非垂直入射→肌腱假性低回音）、side-lobe（離軸能量→囊內鬼影）、refraction（聲速差→深度誤判）、edge artifact（弧形邊緣→外緣低回音平行線）、range ambiguity（降 PRF 可改善）。[DOI](https://doi.org/10.3390/diagnostics10090645)
 [^3]: Le Polain de Waroux J-B, et al. *Fact or Artifact in Two-Dimensional Echocardiography: Avoiding Misdiagnosis and Missed Diagnosis*. **J Am Soc Echocardiogr** (JASE). 2016;29(5):381-391（同行評審期刊綜述，full-text via PMC PMC4851918）。提供重建四假設、reverberation 「step-ladder」與兩倍深度／兩倍振幅同向移動、comet-tail（緊鄰多層強反射體）、ring-down（困住氣泡共振）、mirror（鏡像反向移動、彩流一併鏡射、pseudo-MR）、side-lobe vs grating-lobe 弧線鬼影穿越解剖界線、聲影遮蔽彩流低估逆流、以及「真實結構 vs 偽影」鑑別通則。[DOI](https://doi.org/10.1016/j.echo.2016.01.009)
 [^4]: Kamaya A, Tuthill T, Rubin JM. *Twinkling Artifact on Color Doppler Sonography: Dependence on Machine Parameters and Underlying Cause*. **AJR Am J Roentgenol**. 2003;180(1):215-222（同行評審期刊原著）。twinkling 機轉以機器內在相位/時脈抖動（phase/clock jitter）窄頻雜訊為主、表面粗糙度使頻譜變寬;高度依賴 PRF、color-write priority、灰階與都卜勒 gain;struvite 結石後方閃爍與頻譜變寬最強;偵測小結石較聲影敏感。[DOI](https://doi.org/10.2214/ajr.180.1.1800215)
+[^5]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 6-8（2018 交換考題詳解 p.132 引用；Tier 2 教科書）。Acoustic shadowing為高衰減/強反射結構後方訊號減弱；探頭周邊聲束不均勻造成的偽影為side lobe artifact，非acoustic shadowing。
+[^6]: *Ultrasound: the requisites*, p.19-22（2018 交換考題詳解 p.252 引用；Tier 2 教科書）。石頭/鈣化/骨後方聲影源自強烈**吸收或反射**超音波（signal void，非僅反射）；posterior enhancement鑑別囊實性；mirror image偽影常見於color Doppler；duplication偽影源自脾-鄰近脂肪界面之折射。
+
+## 題目
+> [!question]- Which of the following statements about sonography artifact is wrong. (2018-240)
+> **Acoustic shadowing is the result of nonuniformity of the ultrasound beam at the periphery of the transducer（D）**——此描述其實是**side lobe artifact**的成因，非acoustic shadowing（聲影是高衰減/強反射結構後方訊號減弱），此敘述混淆兩者，錯誤。組織諧波成像有助於大體型/雜訊多組織(A)、殘響造成腺肌症comet-tail(B)、彩色都卜勒可加強腺肌症殘響效應(C)、鏡像偽影源自兩強反射面間反彈(E)皆為正確描述。[^5]
+
+> [!question]- About artifacts of ultrasound images, which following statement is not true? (2018-105)
+> **The shadowing that occurs behind stones, calcifications, and bones is primarily due to sound reflection by these structures（A）**——聲影為結構強烈**吸收或反射**超音波所致之signal void（非僅反射）。posterior enhancement鑑別囊實性(B)、mirror image偽影常見於color Doppler(C)、duplication偽影源自脾-脂肪界面折射(D)皆為正確描述。[^6]
 
 ## 考題
 ```dataview

@@ -120,6 +120,10 @@ NECT/CECT 顯示阻塞層級、水腎程度與病因(結石、馬蹄腎、重複
 [^12]: Metzler I, Duty B. *Principles of Urologic Endoscopy*（含 Ureteropelvic Junction Obstruction and Ureteral Stricture）. In: Campbell-Walsh-Wein Urology, Ch. 17, pp. 215–228. Elsevier（via ClinicalKey，實際查證 accessed 2026-06-14）。該章引 Van Cangh 1994、Bagley 1995、Conlin & Bagley 1998 等,述 crossing vessel 降低 endopyelotomy 成功率,宜改採 laparoscopic pyeloplasty。
 [^13]: Khaira HS, Platt JF, Cohan RH, Wolf JS, Faerber GJ. *Helical CT for Identification of Crossing Vessels in UPJ Obstruction — Comparison with Operative Findings*. Urology 2003;62(1):35-9. https://doi.org/10.1016/s0090-4295(03)00156-0 （內視鏡成功率約 90%、有 crossing vessel 時約 40%；PubMed）
 
+## 題目
+> [!question]- Concerning congenital ureteropelvic junction (UPJ) obstruction, which one of the following is TRUE? (2018-433)
+> **The presence of crossing vessels decreases the success rate of pyeloplasty（D）**——crossing vessel 僅見於 15%–20% 病例但顯著降低 pyeloplasty 成功率,故多主張術前 CT 評估。A 誤(UPJ obstruction 為兒童 hydronephrosis **最常見**病因,非少見)、B 誤(UTI 非最常見表現;多以 antenatal US 發現或幼兒期腹部腫塊/側腹痛表現)、C 誤(男性多於女性約 2:1,非等比)。[^2][^5]
+
 ## 考題
 
 ```dataview

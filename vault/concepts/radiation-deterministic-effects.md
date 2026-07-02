@@ -32,11 +32,19 @@ same:
 > [!note] 考點：常考閾值
 > ARS（多數族群）**~1 Gy**;男性永久不孕 **~4–6 Gy（取 6 Gy）**;白內障 ~0.5 Gy;暫時不孕 ~0.15 Gy。[^1][^2]
 
+> [!note] 考點：輻射防護的目的（2018-380）
+> **輻射防護目的＝『防止發生確定效應（deterministic effects）』＋限制機率效應之發生率至可接受範圍**。確定效應有閾值→目標為完全避免(D正確)；機率效應無閾值→只能『限制/抑低』而非『防止』(C錯)；輻射工作人員可接受劑量但須在限值內(A錯，非「不得接受」)；確定效應是嚴重度隨劑量增而非「機率」(B措辭錯)。[^3]
+
 ### 參考來源
 [^1]: *Acute radiation syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：ARS「usually over 0.5 Gy」全身/部分照射;**hematopoietic 1–8 Gy**、gastrointestinal 5–20 Gy。
 [^2]: 性腺/晶體確定性效應閾值（males, acute single exposure）。
     **已實際查證（免費來源）**：① *Deterministic effects*, Radiopaedia.org（accessed 2026-06-20）「sterility 4–6 Gy male、4–20 Gy female;cataracts 0.5 Gy」;② introductiontoradiology.net 放射生物學 deterministic effects（accessed 2026-06-20）「暫時不孕 0.15 Gy、永久不孕 >6 Gy、女性 4–6 Gy」。
     **權威原始來源（全文需訂閱／館藏,供醫師查證原文）**：ICRP Publication 103 (2007 Recommendations) 及 ICRP Publication 118 (2012, *Statement on Tissue Reactions*)——暫時不孕 **0.15 Gy**、永久不孕 **3.5–6.0 Gy**（icrp.org,摘要免費、全文需購買）;Bushberg JT et al. *The Essential Physics of Medical Imaging*, 2nd ed (2002), p.831（教科書,需館藏）;De Felice F et al. *Radiation effects on male fertility*. Andrology 2019;7(1):2-7, DOI 10.1111/andr.12562（Wiley,全文需訂閱、未讀全文）。
+[^3]: 102年第一次專門職業及技術人員高等考試 放射師考試（2018 交換考題詳解 p.289 引用；Tier 2/3 國考題）。輻射防護目的為防止發生確定效應(deterministic effects，有閾值可完全避免)、並限制機率效應(stochastic，無閾值)之發生率；輻射工作人員可在劑量限值內接受輻射。
+
+## 題目
+> [!question]- 下列何者為正確的輻射防護目的? (2018-380)
+> **防止發生確定效應（D）**——確定效應有閾值，防護目標為完全避免；機率效應無閾值只能限制發生率(C錯用「防止」)、確定效應為嚴重度隨劑量而非機率(B錯)、工作人員可在限值內接受劑量(A錯)。[^3]
 
 ### 參考來源（續）
 [^3]: 官方2020詳解；The Essential Physics for Medical Imaging, 3rd ed., p.772（題目所引）——眼球水晶體劑量限度以防止確定效應（白內障）為考量而訂定；性腺/肺/甲狀腺劑量限度主要考量隨機效應；眼球水晶體職業等價劑量限度100mSv/5年或50mSv/年。

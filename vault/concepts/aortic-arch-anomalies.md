@@ -46,6 +46,10 @@ dateRev: 2026-06-28
 [^6]: 右弓與先心關聯查證（accessed 2026-06-28）：右弓鏡像型約 98% 合併先心（以 TOF 為主）；右弓＋迷走左 SCA 較少合併先心但可成血管環（PMC4904426、PMC10544067 等病例報告與 Radiology Assistant 摘要，免費）。
 [^7]: Cervical aortic arch 查證（accessed 2026-06-28）：弓上升至鎖骨上方（約 C6/C7）、鎖骨上搏動性腫塊、CT/MR 見高位弓與氣管食道後方壓痕（PMC8581583 及相關病例報告，免費）。
 
+## 題目
+> [!question]- Which statement of right arch with aberrant left subclavian artery is wrong? (2018-063)
+> **The first branch of aorta is left subclavian artery（A）**——右弓+迷走左鎖骨下動脈之分支順序為**左總頸動脈(left CCA)→右總頸→右鎖骨下→最後迷走左鎖骨下動脈**，故第一分支為left CCA非left subclavian。約佔右弓39.5%(B對)、常伴Kommerell憩室(C對)、較少合併其他心血管異常(D對)皆為正確描述。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aortic-arch-anomalies")

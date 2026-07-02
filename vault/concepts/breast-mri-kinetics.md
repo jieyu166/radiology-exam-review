@@ -76,6 +76,10 @@ dateRev: 2026-06-29
 > [!question]- 以下關於Breast MRI lexicon中"focus"的敘述，何者有誤？ (2016-287)
 > **「focus惡性feature為無fatty hilum、persistent/plateau dynamics、與前片比較增大」有誤（C）**——惡性動力學特徵應為rapid rise with washout(type 3)，非persistent/plateau。focus為<5mm enhancing dot、可能良性或惡性皆正確。[^8]
 
+## 題目
+> [!question]- 請問關於breast MRI的kinetic enhancement curve assessment，下列何者為真? (2018-010)
+> **Persistent type favored benign lesion over malignancy（A）**——type I persistent(續升)偏良性(惟約9%惡性仍可呈此)。plateau型良惡皆可(非專指惡性)、washout型偏惡性而非血管瘤，故B/C為偽。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-mri-kinetics")

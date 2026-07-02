@@ -28,6 +28,7 @@ up: "[[cardiac-tumors]]"
 
 ### 好發位置與一般徵象
 - **好發於瓣膜心內膜面**，依序：主動脈瓣（約 35–63%）＞二尖瓣（約 9–35%）＞三尖瓣（約 6–15%）＞肺動脈瓣（約 0.5–8%）；亦可見於非瓣膜心內膜（罕見）。[^2]
+- **另一組常引用之比例（考題來源）**：主動脈瓣 **29%（最常見）**＞二尖瓣 25%＞三尖瓣 17%＞肺動脈瓣 13%——不同文獻百分比略異，但**主動脈瓣皆為最常見起源部位**此點一致。[^6]
 - **典型形態**：小、有蒂（短蒂）或無蒂的圓形腫塊，**多 <1 cm**（文獻整體範圍 2–70 mm），收縮或舒張期會在瓣膜上**擺動／脫垂（flutter/prolapse）** 進入心腔。[^2]
 - 大體上呈**多發乳突狀分支（papillary fronds），如海葵 sea-anemone**；核心為無血管的膠原／彈性纖維。[^2]
 
@@ -65,6 +66,11 @@ up: "[[cardiac-tumors]]"
 [^3]: Sun JP, et al. *Papillary Fibroelastoma: Echocardiographic Characteristics for Diagnosis and Pathologic Correlation*. J Am Coll Cardiol（原始診斷影像研究）。特徵性 stippled/shimmer 邊緣、高頻 TEE 放大可辨指狀 fronds；與 Lambl's excrescence 鑑別（PFE 較大、較呈蒂狀，Lambl 罕見於半月瓣動脈側）。[DOI](https://doi.org/10.1016/S0735-1097(97)00211-8)
 [^4]: Sharma R, et al. *Multimodality cardiac imaging of a left ventricular papillary fibroelastoma: a case report*. BMC Res Notes. 2017;10:25（病例報告；據 PubMed/PMC5219654）。左心室腔內不典型 PFE，超音波／CMR 因無 LGE 強化而傾向血栓，最終手術病理確診——示影像鑑別陷阱與「無強化≠必為血栓」。[DOI](https://doi.org/10.1186/s13104-016-2323-9)
 [^5]: Grolla E, et al. *Papillary fibroelastoma, unusual cause of stroke in a young man: a case report*. J Cardiothorac Surg. 2017;12:33（病例報告；據 PubMed）。約占心臟瓣膜瘤 75%；雖良性但栓塞風險極高，可為年輕人栓塞性中風成因；本例 TTE 見二尖瓣前葉 10×10mm 腫塊。[DOI](https://doi.org/10.1186/s13019-017-0592-6)
+[^6]: *Thoracic Imaging*, 2nd edition, Webb, p.825（2018 交換考題詳解 p.154 引用；Tier 2 教科書）。乳突狀纖維彈性瘤起源部位比例：主動脈瓣29%＞二尖瓣25%＞三尖瓣17%＞肺動脈瓣13%，主動脈瓣為最常見起源部位。
+
+## 題目
+> [!question]- Where is the most common origin site of papillary fibroelastoma? (2018-260)
+> **Aortic valve（C）**——約29%，為最常見起源部位，其次二尖瓣25%、三尖瓣17%、肺動脈瓣13%。[^6]
 
 ## 考題
 ```dataview

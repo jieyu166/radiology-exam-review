@@ -46,6 +46,10 @@ dateRev: 2026-06-29
 [^4]: **(同儕審查 review／鑑別)** 年齡＋性別組合對 SPN vs PNET 鑑別有價值（年輕女性偏向 SPN）;術前最常見誤判為 PNET、MCN、PDAC;SPN 與 PNET 影像／免疫表現重疊。Pathological/clinicopathologic differential studies, PubMed/PMC（PMC9587641, PMC5064041）。
 [^5]: **(同儕審查 review)** SPN 占胰腫瘤約 1–3%,好發年輕女性（多為第 3–4 個十年,平均約 25–35 歲）;病理以核內 β-catenin 表現、E-cadherin 缺失為特徵,可與 PNET 鑑別。PubMed/PMC review（PMC8422912）。
 
+## 題目
+> [!question]- Which statement of solid pseudopapillary tumor of pancreas is wrong? (2018-391)
+> **Greater predilection location at pancreatic head and body（C）**——SPN好發於胰**尾(tail)**(greater predilection at pancreatic tail)，非頭/體。少見外分泌胰腫瘤(A對)、可無症狀(B對)、好發年輕女性(D對)皆為正確描述。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "solid-pseudopapillary-neoplasm")

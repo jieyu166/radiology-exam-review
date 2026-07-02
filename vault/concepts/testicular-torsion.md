@@ -47,6 +47,17 @@ dateRev: 2026-06-29
 > [!note] 考點：關於睪丸扭轉,何者「正確」?
 > **不完全扭轉時,精索動脈的高阻力波形/殘留血流可能是唯一所見,有血流不能排除扭轉**。bell clapper deformity 會增加風險(非不增加);兩側不對稱血流非確診;Doppler 在兒童敏感度低於成人。[^1][^3]
 
+## 附睪炎 vs 睪丸扭轉：大小與血流方向鑑別（2018交換）
+- **大小變化**：**扭轉本身即會造成睪丸「與」附睪皆腫大**（血管鬱血致兩者皆增大），並非僅睪丸腫大；附睪炎則以附睪腫大為主，依病程時間可合併睪丸腫大。⚠️官方答案標示「兩者皆使睪丸腫大」為正解，但頁緣加註「附睪腫大」選項應該也對，顯示此鑑別點在「大小」單獨判讀上有其模糊性，建議醫師對照原文獻確認官方最終立場。[^4]
+- **血流方向鑑別（較可靠）**：**附睪炎**特徵為**附睪血流增加**（epididymal PSV >15 cm/sec、患側/健側比值>1.7、RI<0.5）；**扭轉**特徵為**睪丸與附睪血流皆下降**（RI>0.75、舒張期血流喪失/逆轉）——血流方向為兩者關鍵鑑別點，較單純大小比較更可靠。[^4]
+
+### 參考來源（續）
+[^4]: *Problem Solving in Abdominal Imaging*, Chapter 20, p.566-598（2018 交換考題詳解 p.214 引用；Tier 2 教科書）。扭轉造成睪丸與附睪皆腫大；附睪炎附睪PSV>15cm/sec、患健側比值>1.7、RI<0.5(血流增加)；扭轉RI>0.75、舒張期血流喪失或逆轉(血流下降)。
+
+## 題目
+> [!question]- Which of the following ultrasonographical finding is true when we try to differentiate between epididymitis and testicular torsion? (2018-308)
+> ⚠️ 官方答案標示**Both epididymitis and testicular torsion shows enlarged testis size（B）**，惟頁緣加註「A(附睪腫大)應該也對」——因扭轉本身即使睪丸與附睪皆腫大。血流增加(C/D)不成立(附睪炎血流增加、扭轉血流下降，方向相反)。建議醫師對照原文獻確認。[^4]
+
 ### 參考來源
 [^1]: Bandarkar AN, Blask AR. *Testicular torsion with preserved flow: key sonographic features and value-added approach to diagnosis*. Pediatr Radiol. 2018;48(5):735-744. [DOI](https://doi.org/10.1007/s00247-018-4093-0)（PMC5895684 開放全文已讀,據 PubMed 檢索）。bell clapper 屍檢 12%、whirlpool/redundant cord/boggy pseudomass(torsion knot)、globular 腫大、horizontal lie、早期均質→晚期異質、完全扭轉血流消失、晚期 halo sign、正常睪丸內動脈 RI 平均 0.62(0.48–0.75)、衰減波形/舒張期血流喪失或逆轉、有血流不排除扭轉、附睪炎呈血流增加、附件扭轉 blue dot/無血流結節 等均出自全文。
 [^2]: Vijayaraghavan SB. *Sonographic differential diagnosis of acute scrotum: real-time whirlpool sign, a key sign of torsion*. J Ultrasound Med. 2006;25(5):563-574. [DOI](https://doi.org/10.7863/jum.2006.25.5.563)（依摘要,未讀全文,據 PubMed）。前瞻 221 例:完全扭轉見 whirlpool＋遠端血流消失;附睪睪丸炎為精索直、彩色都卜勒血流增加;real-time whirlpool sign 為扭轉最敏感且最特異徵象。

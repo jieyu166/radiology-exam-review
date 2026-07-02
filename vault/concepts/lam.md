@@ -37,9 +37,17 @@ same:
 > [!note] LAM vs PLCH 一句話
 > 都以薄壁囊腫為主，但 **LAM 瀰漫均勻、女性、非吸菸**；**PLCH 上中肺+肋膈角 sparing、結節合併 bizarre 囊腫、吸菸者**。[^1][^2]
 
+## 骨侵犯（2018-042）
+- **LAM可侵犯骨骼**：可呈**大量骨溶解（massive osteolysis）伴少或無骨膜反應**，常為多發病灶（multifocal disease）——故「LAM will not involve bone（不侵犯骨）」為**錯誤**。[^3]
+
 ### 參考來源
 [^1]: *Lymphangioleiomyomatosis*. STATdx（Chest/Thoracic, Dx），updated 2025-03-13. Elsevier（實際查證 accessed 2026-06-14）。
 [^2]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證；LAM 不屬吸菸相關譜系，PLCH/IPF 才是）。
+[^3]: Radiology review manual, 6th ed., p.508；Radiopaedia *Lymphangioleiomyomatosis*（2018 交換考題詳解 p.292 引用）。LAM好發育齡婦女、可與tuberous sclerosis相關、可反覆pneumothorax/chylothorax、CT呈瀰漫薄壁肺囊；**可侵犯骨骼呈massive osteolysis伴少/無骨膜反應、常多發**（故「不侵犯骨」為錯）。
+
+## 題目
+> [!question]- 關於lymphangioleiomyomatosis，下列何者正確? (2018-042)
+> **官方答案B（Will not involve bone）**——⚠️注意：LAM『可』侵犯骨(massive osteolysis)，故B實為錯誤敘述；A(育齡婦女)/C(薄壁肺囊)/D(pneumothorax/chylothorax)/E(與TSC相關)皆為正確LAM描述。題幹作「何者正確」而答案為B，推測題幹應為「何者錯誤」，B(不侵犯骨)即為該錯誤敘述。flag待醫師對照原卷。[^3]
 
 ## 考題
 ```dataview

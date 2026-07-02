@@ -51,12 +51,25 @@ same:
 > [!note] 常見考點
 > non-ionic dimer 滲透壓最低但**仍須注意腎功能**;非離子單體比離子單體滲透壓低;台灣最常用 CT 對比劑為**非離子單體**;鞘內只准低濃度非離子(Iopamiro 300/Omnipaque 300)、高濃度禁用;IV 分布血管＋細胞外、腦血管攝影僅血管內。[^1]
 
+### 含碘對比劑與甲狀腺核醫/放射碘之時效
+- **含碘對比劑注射後甲狀腺核醫掃瞄**：注射後**至少兩個月內**應避免甲狀腺核醫同位素掃瞄（碘對比劑競爭性抑制甲狀腺攝碘）。[^6]
+- **放射碘-131治療前**：接受放射碘-131治療者**最好於治療前兩個月內不曾使用含碘對比劑**；若病情需要，則最好安排在使用含碘對比劑約4週之後再接受碘-131治療。[^6]
+- **骨骼及紅血球核醫造影**：與含碘對比劑之時效限制（2020版對比劑手冊已刪除此條）。[^6]
+
 ### 參考來源
+[^6]: 2017 中華民國放射線醫學會對比劑手冊, p.25（2018 交換考題詳解 p.277 引用；Tier 2 指引；註：部分條文2020版已修訂/刪除）。含碘對比劑注射後至少兩個月避免甲狀腺核醫掃瞄；放射碘-131治療者最好治療前兩個月不曾用含碘對比劑(若需要則使用後約4週再治療)。
 [^1]: *Iodinated contrast media*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**High osmolality contrast media** are approximately **five to eight times** the osmolality of serum ... ionic compounds」；「**Low osmolality contrast media** are less than three times the osmolality of serum and **preferred for intravascular and intrathecal administration** ... generally ... nonionic monomers」；「the only **iso-osmolality** contrast in use is a **non-ionic dimer** ... **iodixanol (Visipaque)**」。
 [^2]: 含碘對比劑藥動學（實際查證 accessed 2026-06-19；contrast media pharmacokinetics 文獻，ScienceDirect《Introduction to iodinated contrasts: properties, IV administration and distribution》／Kidney Int. dialysis review；Visipaque FDA label）：碘劑為**細胞外間隙(extracellular)對比劑**——two-compartment（血管內 plasma ＋ 間質 interstitium）、**不顯著進入細胞**、分布體積 ~0.26 L/kg；經**腎絲球過濾**排泄（iodixanol ~97% 於 24 h 經尿排出）。Visipaque(iodixanol) 標示「**NOT FOR INTRATHECAL USE**」。
 [^3]: 中華民國放射線醫學會《對比劑手冊》2017/2020（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]、[[2020 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）：台灣常用製劑與分類、鞘內可用之低濃度非離子單體、保存（37°C 保溫箱／庫存室溫 15–30°C）、小兒劑量（1.5–2 cc/kg）等臨床規範。
 [^4]: 2019 交換考詳解；ACR Manual on Contrast Media, Version 10.2, 2016, p.33-40：研究未證實 IV iso-osmolality iodixanol 較 IV LOCM 對 PC-AKI/CIN 有明確優勢；CIN 定義為對比劑注射後48小時內serum creatinine較注射前上升≥50%；CIN最重要危險因子為既存腎功能障礙；iso-osmolar dimer iodixanol 延遲性皮膚不良反應略高於其他LOCM，非離子雙體整體發生率高於非離子單體。
 [^5]: 2019 交換考詳解；Nat Rev Nephrol. 2017 Mar：CIAKI預防傳統指引建議長時間大量生理食鹽水靜脈輸液，介入前6-12小時開始、維持至處置後4小時；門診病人可改採口服水化，現有證據顯示口服水化至少與靜脈生理食鹽水同樣有效。
+
+## 題目
+> [!question]- 含碘對比劑分類，以下選項何者錯誤? (2018-367)
+> **離子性單體型及離子性二聚體型對比劑皆為高滲透壓對比劑（C）**——離子性**單體型**為高滲透壓(5-8x血漿)，但離子性**二聚體型**為**低滲透壓**(~2x血漿)，非高滲透壓。依水溶液解離與苯環數分四型(A對)、依滲透壓分高/低/等滲透壓(B對)、非離子單體低滲透壓/非離子二聚體等滲透壓(D對)、台灣健保給付CT及血管造影用低滲/非離子含碘對比劑(E對)皆為正確描述。[^1]
+
+> [!question]- 含碘對比劑與甲狀腺核醫/放射碘時效，以下何者錯誤? (2018-368)
+> **官方標示B（接受放射碘-131治療者需至少治療前一個月不曾使用含碘對比劑）**——⚠️有爭議：手冊建議最好治療前**兩個月**內不曾使用含碘對比劑(非一個月)，故B之「一個月」為錯。註：選項C(骨骼/紅血球核醫造影24小時)於2020版手冊已刪除。此題具時效性爭議，flag待醫師確認。[^6]
 
 ## 考題
 ```dataview

@@ -61,6 +61,17 @@ dateRev: 2026-07-01
 [^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Park MH, Rhim H, Kim YS, et al. Spectrum of CT findings after radiofrequency ablation of hepatic tumors. RadioGraphics 2008;28(2):379-390. [DOI](https://doi.org/10.1148/rg.282075038)。要點：三期對比 CT 於術後即時/1 個月內評估技術成功，成功則每 3 個月追蹤；成功消融帶＝**涵蓋腫瘤＋ablative margin（≥0.5 cm）的低衰減區**，並**隨時間逐漸退縮**；環狀強化代表良性反應性充血、中央高衰減與微小氣泡為早期常見、通常第一/二次追蹤消退；**局部腫瘤進展發生率文獻報告差異極大（1.8–56.9%）**，且常難與消融區內新發腫瘤區分。
 [^4]: Fritz J, Sonnow L, Morris CD. Adjuvant MRI-guided percutaneous cryoablation treatment for aneurysmal bone cyst. Skeletal Radiol 2018;48(7):1149-1153（Tier 2，依摘要未讀全文）。支持：cryoablation 之 **ice ball 可被影像直接可視化並監測其延伸超出病灶邊界**，介入 MRI 高對比解析度利於小病灶直接定位。[DOI](https://doi.org/10.1007/s00256-018-3115-1)。來源：PubMed（PMID 30523379）。
 [^5]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Akahane M, Koga H, Kato N, et al. Complications of percutaneous radiofrequency ablation for hepatocellular carcinoma: imaging spectrum and management. RadioGraphics 2005;25 Suppl 1:S57-S68. [DOI](https://doi.org/10.1148/rg.25si055505)。併發症三類：血管性（門靜脈/肝靜脈栓塞、肝梗塞、被膜下血腫）、膽道性（膽管狹窄、biloma、膿瘍、hemobilia）、肝外性（胃腸道/膽囊損傷、氣胸/血胸、tumor seeding 針道種植）；**種植危險因子＝電極口徑類型、穿刺次數、被膜下位置、腫瘤分化不良**；種植腫瘤可生長極緩慢須長期追蹤；**異位脾組織（副脾／splenosis）可 mimic 腫瘤種植**。
+[^6]: *RadioGraphics* 2014;35:1344–1362（2018 交換考題詳解 p.236 引用；Tier 1 期刊）。細胞凍死機轉為細胞膜破壞與胞內物質釋出；可靠細胞壞死溫度依細胞型態與熱歷史而異(估計-35°C至-20°C)；**肝硬化合併HCC病人，cryoablation出血風險『高於』heat ablation**（非相等）——熱消融可提供較佳止血且幾無cryoshock（瀰漫性血管內凝血樣反應）風險，故肝硬化病人存在可行熱消融替代方案時，難以正當化cryoablation之額外出血風險；cryoablation之精準度對鄰近脆弱結構之腫瘤治療具重要性。
+
+### Cryoablation於肝硬化合併HCC之出血風險（重要陷阱）
+**熱消融（heat-based ablation）是肝硬化合併HCC病人之優先消融方式**，因cryoablation伴隨較高出血風險與cryoshock（瀰漫性血管內凝血樣反應）;熱消融提供較佳止血且幾無cryoshock風險。故雖多項研究顯示小體積cryoablation於肝硬化合併HCC病人具可行性，但在有熱消融替代方案可用時，難以正當化cryoablation之額外風險。[^6]
+
+> [!note] 考點：Cryoablation敘述何者「不正確」？
+> **肝硬化合併HCC病人cryoablation出血風險明顯等同於heat ablation（C）**——實際上cryoablation出血風險『高於』heat ablation，熱消融為肝硬化病人之優先消融方式。細胞膜破壞機轉(A對)、可靠壞死溫度-35°C至-20°C依細胞型態而異(B對)、cryoablation精準度利於鄰近脆弱結構腫瘤(D對)皆為正確描述。[^6]
+
+## 題目
+> [!question]- Which of the following description about cryoablation is NOT true? (2018-326)
+> **The bleeding risk of cryoablation for patients with liver cirrhosis and hepatocellular carcinoma obviously equals to that of heat ablation（C）**——實際上cryoablation出血風險高於heat ablation。[^6]
 
 ## 考題
 ```dataview

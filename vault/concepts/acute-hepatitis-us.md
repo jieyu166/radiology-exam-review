@@ -26,6 +26,9 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「非」典型？
 > **瀰漫性回音『增加』非典型**。急性肝炎是回音『減低』（starry sky）；瀰漫回音增加要想**脂肪肝/慢性肝病**。[^1][^2]
 
+> [!note] 考點：starry sky 對急性病毒性肝炎是否「敏感且特異」？
+> **並非敏感且特異**——starry sky 為**高敏感度、低特異度**之非特異性徵象，多種狀況皆可出現類似表現，不可單憑此徵象確診急性病毒性肝炎。[^5]
+
 ## 判讀分水嶺與陷阱
 - **starry sky 高敏、低特異**：在系列研究中 GB 壁增厚（約 83%）、膽囊周圍水腫（約 66%）、starry sky（約 64%）、肝腫大（約 60%）皆常見，但「**這些徵象換不來特異度**」——許多狀況都可出現。[^3]
 - **starry sky 的鑑別（任何使肝實質變暗者皆可仿）**：高回音 cuffing 型多見於急性肝炎，但亦見於**右心衰竭/肝鬱血、發炎性腸病、急性膽囊炎、肝外傷、原發性膽汁性膽管炎、恙蟲病（scrub typhus）**；**低回音 cuffing**型則提示**血液惡性腫瘤浸潤（白血病、淋巴瘤）、Langerhans 細胞組織球增生症、惡性門脈周圍淋巴結**等。發燒病人亦可出現一過性 periportal 高回音，退燒後消退，勿誤判為肝病。[^4]
@@ -46,6 +49,11 @@ dateRev: 2026-06-29
 [^2]: Ahuja AT. *Diagnostic Imaging: Ultrasound*. Amirsys; 2007, p.1-7（題目所引；periportal 低回音帶、GB 壁增厚為典型）（依題目來源，未逐字核實該頁）。
 [^3]: *Acute nontraumatic imaging in the liver and spleen*（ClinicalKey/Radiology Key 章節）＋系列研究 *An acute viral hepatitis epidemic: does ultrasound help the pediatrician?* BMC Res Notes. 2021;14:100（PMC7944630, doi:10.1186/s13104-021-05510-1）。徵象頻率：GB 壁增厚 82.9%、膽囊周圍水腫 65.9%、starry sky 63.8%、肝腫大 59.5%、腹水 53.2%；高敏低特異，正常 US 不排除（Tier 1 章節＋Tier 2 PMC；accessed 2026-06-29）。
 [^4]: *Ultrasound periportal cuffing: differential diagnosis*（ECR 2013 教育電子海報, EPOS C-0184）。高回音 cuffing（約 91%）：急性肝炎、IBD、急性膽囊炎、肝外傷、鬱血肝、PBC、恙蟲病；低回音 cuffing（約 9%）：白血病/淋巴瘤、LCH、惡性門脈周圍淋巴結等（Tier 2 會議教育海報；accessed 2026-06-29）。
+[^5]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 9-12（2018 交換考題詳解 p.134 引用；Tier 2 教科書）。Starry sky pattern對急性病毒性肝炎偵測敏感度高但特異度差，非「敏感且特異」。
+
+## 題目
+> [!question]- Which of the following statements about the ultrasound of the liver is incorrect. (2018-242)
+> **Starry sky pattern...is sensitive and specific（B）**——實際上敏感但特異度差，此敘述錯誤。急性肝炎無特異性所見(A)、可合併膽囊壁明顯增厚(C)、嚴重脂肪浸潤致肝腫大合併回音增加(D)、肝硬化門脈血流逆轉合併側枝循環(E)皆為正確描述。[^5]
 
 ## 考題
 ```dataview

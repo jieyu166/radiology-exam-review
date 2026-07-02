@@ -42,6 +42,7 @@ concepts: [smoke-lung]
 - **RB**：吸菸者常見的**偶發組織病理**所見（呼吸性細支氣管內色素巨噬細胞堆積）。[^1]
 - **RB-ILD 與 RB 的區別是「臨床性」**（有無症狀）。[^1]
 - 影像：**ill-defined centrilobular GGO 結節**、patchy GGO、支氣管壁增厚；**上肺為主**；常與 centrilobular 氣腫並存。[^1]
+- **好發族群**：**幾乎所有病例皆與吸菸相關**（非「非吸菸中年女性」，此為常見誤判方向），男性略多。[^2]
 
 ### AMP（原 DIP）
 **Alveolar macrophage pneumonia，原名 desquamative interstitial pneumonia（DIP）**；以肺泡內巨噬細胞大量堆積 + 肺泡隔纖維化為特徵；與 RB-ILD 為同一巨噬細胞譜系。影像：**廣泛雙側 GGO、下肺為主、周邊或瀰漫**、輕度網狀影、可有小囊。[^1]
@@ -81,6 +82,11 @@ concepts: [smoke-lung]
 
 ### 參考來源
 [^1]: Dulcich G, Mestas Nuñez M, Bang TJ, Zuccarino F, Perez-Johnston R, Cool C, Vargas D. *Imaging Findings of Smoking-related Pulmonary Parenchymal Disease*. RadioGraphics. 2026;46(6). https://doi.org/10.1148/rg.250167 （實際查證 full text，accessed 2026-06-14）。
+[^2]: *Primer of Diagnostic Imaging*, 6th ed.（2018 交換考題詳解 p.167 引用；Tier 2 教科書）。RB-ILD幾乎所有病例皆與吸菸相關(非非吸菸中年女性)；UIP典型表現為周邊/基底/胸膜下網狀影+蜂窩狀變化+毛玻璃；DIP(AMP)典型表現為瀰漫毛玻璃混濁，組織學對應肺泡內巨噬細胞均勻堆積+肺泡隔增厚。
+
+## 題目
+> [!question]- Which of the following description about interstitial pneumonitis is WRONG? (2018-039)
+> **RB-ILD are more common in non-smoling middle aged females（C）**——實際上幾乎所有病例皆與吸菸相關，此敘述錯誤。LIP典型表現(A)、UIP典型表現(B)、DIP瀰漫毛玻璃對應巨噬細胞堆積(D)皆為正確描述。[^2]
 
 ## 考題
 ```dataview

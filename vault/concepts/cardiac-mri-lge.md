@@ -25,6 +25,11 @@ dateRev: 2026-06-17
 
 ### 參考來源
 [^1]: *Myocardial viability protocol (MRI)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：viability 評估（myocardial necrosis 與 **myocardial scar tissue**）採 **late gadolinium enhancement**，技術為 2D/3D **IR GRE、PSIR**；缺血性 LGE 依冠脈分布心內膜下→透壁。
+[^2]: *A Pattern-based Approach to Assessment of Delayed Enhancement in Nonischemic Cardiomyopathy at MR Imaging*. RadioGraphics 2009;29:89–103（2018 交換考題詳解 p.229 引用；Tier 1 期刊）。心肌梗塞為subendocardial→transmural分布（非subepicardial）；amyloidosis/myocarditis/sarcoidosis可呈patchy delayed enhancement；梗塞區於delayed enhancement MR呈高訊號；enhancement>50%心肌厚度視為transmural，術後功能恢復可能性低。
+
+## 題目
+> [!question]- Which is wrong about delayed enhancement in cardiac MRI? (2018-052)
+> **Delayed contrast enhancement of the subepicardial myocardium is highly suggestive of myocardial infarction（B）**——心肌梗塞之延遲強化型態為subendocardial（非subepicardial）。[^2]
 
 ## 考題
 ```dataview

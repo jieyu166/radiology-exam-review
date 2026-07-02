@@ -24,6 +24,12 @@ dateRev: 2026-06-19
 > [!note] 考點：何種材料具天然壓電性質?
 > **Quartz 石英（C）**。Lead/Silver/Copper/Barium 金屬本身非天然壓電體。[^2]
 
+## 探頭陣列型態與影像形狀（2018-378）
+- **壓電元件厚度與頻率**：**較厚元件產生較低頻率**振盪、**較薄元件產生較高頻率**振盪。[^4]
+- **Linear/sequential array（線性/序列陣列）**：影像上緣與下緣形狀相同（矩形場）。[^4]
+- **Phased array（相位陣列，本題重點）**：影像**上緣形狀與下緣形狀不同**（上緣窄/點狀、下緣扇形展開）；故「phased array上緣與下緣皆為curved shape」為**錯誤**——一般規則：若上下緣形狀相同為sequential array，形狀不同(如上矩形下扇形)則為phased array。[^4]
+- **甲狀腺超音波**：淺表構造需**高頻探頭（約10 MHz）**。[^4]
+
 ## 乳房超音波探頭頻率（2019交換）
 - ACR BI-RADS 建議乳房超音波使用**線性陣列探頭（linear array transducer）**，**最低中心頻率約 10（5–12）MHz**——考題常見誤導選項將此門檻誇大至不合理數值（如 1200 MHz），須留意物理合理性。[^3]
 
@@ -34,6 +40,7 @@ dateRev: 2026-06-19
 [^1]: 官方 2017 詳解；Bruno Pollet, Power Ultrasound in Electrochemistry, Wiley 2012, ch.1：US 探頭依壓電效應（機械能↔電能互換，正/逆壓電效應）運作。
 [^2]: 官方 2017 詳解（Cady WG. The piezoelectric resonator. Physical Review 1921;17:531-533 所引）；天然壓電材料含 quartz、berlinite、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨(apatite)；臨床探頭用人造 PZT 陶瓷。
 [^3]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.18：乳房超音波建議使用 linear array transducer，最低中心頻率 10（5–12）MHz。
+[^4]: Radiopaedia – Ultrasound transducer（2018 交換考題詳解 p.288 引用；輔助來源）。壓電材料PZT(lead zirconate titanate)；較厚元件低頻/較薄元件高頻；phased array影像上緣與下緣形狀不同(sequential array則相同)；甲狀腺淺表構造需高頻探頭(~10 MHz)。
 
 ## 題目
 > [!question]- 超音波探頭依何原理運作? (2017-170)
@@ -41,6 +48,9 @@ dateRev: 2026-06-19
 
 > [!question]- 何種材料具天然壓電性質? (2017-171)
 > **Quartz 石英（C）**——經典天然壓電晶體。Lead/Silver/Copper/Barium 等金屬本身非天然壓電體。[^2]
+
+> [!question]- Which of the followings about ultrasound transducer is wrong? (2018-378)
+> **The phased array probes make image fields of curved shape at the top and also curved shape at the bottom（C）**——phased array影像上緣與下緣形狀『不同』(上下緣形狀相同者為sequential array)。含PZT壓電材料(A對)、較厚元件低頻/較薄高頻(B對)、甲狀腺需高頻探頭~10MHz(D對)皆為正確描述。[^4]
 
 ## 考題
 ```dataview

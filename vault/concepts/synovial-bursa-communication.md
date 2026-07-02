@@ -48,12 +48,20 @@ dateRev: 2026-06-29
 > [!note] 考點：哪一對「正常」可相通？
 > 髖關節 ↔ iliopsoas bursa（約 15%）；膝關節 ↔ suprapatellar recess（~85%）與 gastrocnemio-semimembranosus/Baker 囊（~30–50%，單向閥）。盂肱-肩峰下（SASD）相通＝旋轉肌袖全層撕裂；肘-鷹嘴、膝-鵝足正常不相通。[^1][^2][^3][^4][^5]
 
+> [!note] 盂肱關節 ↔ subscapular(is) bursa（正常相通）
+> **subscapular bursa（subscapular recess）為盂肱關節腔之正常延伸**——經關節囊纖維層之開口與關節腔相通。肩關節造影時對比劑由關節腔流入此囊屬正常，非旋轉肌袖撕裂之徵象。（與 SASD 囊不同，SASD 正常不通、相通＝cuff tear）[^6]
+
 ### 參考來源
 [^1]: 期刊回顧（J Clin Imaging Sci）：suprapatellar plica 於胎兒第 5 月穿孔形成 suprapatellar bursa 與膝關節相通，發生於約 85% 成人。Chatra PS. *Imaging of the Bursae*. J Clin Imaging Sci. 2011;1:22.（accessed 2026-06-29，clinicalimagingscience.org/imaging-of-the-bursae/）
 [^2]: 期刊/教科書級：gastrocnemio-semimembranosus 囊約 30–50% 成人與膝關節腔相通、呈單向球-閥機制（屈開伸閉），為 Baker（popliteal）囊形成基礎；常反映關節內病變，破裂可致 pseudothrombophlebitis。綜整自 *Imaging of the Bursae*（J Clin Imaging Sci. 2011;1:22）與 popliteal cyst 回顧（Frush TJ, Noyes FR. *Popliteal cysts: a current review*. Sports Health/相關回顧，PubMed PMID 25102502；accessed 2026-06-29）。
 [^3]: 期刊級：iliopsoas（iliopectineal）bursa 為髖周最大滑囊（出現率約 98%），約 15% 正常經 pubofemoral-iliofemoral 韌帶間缺口與髖關節相通。Van Dyke JA, Holley HC, Anderson SD. *Review of iliopsoas anatomy and pathology*. RadioGraphics. 1987;7(1):53-84；交叉比對 *Imaging of the Bursae*（J Clin Imaging Sci. 2011;1:22）。
 [^4]: 教科書/造影標準：SASD bursa 正常不與盂肱關節相通；關節造影或 MR-arthrography 上對比劑/液體由關節進入 SASD 囊＝旋轉肌袖全層撕裂之傳統診斷標準（須注意 SASD 與 subcoracoid 囊相通之偽陽性陷阱）。綜整自肩部 CT/MR 關節造影回顧與 *Imaging of the Bursae*（J Clin Imaging Sci. 2011;1:22；accessed 2026-06-29）。
 [^5]: 標準 MSK 解剖：olecranon bursa 為皮下獨立滑囊、正常不通肘關節；pes anserine bursa 正常不與膝關節相通（與 suprapatellar/腓腸-半膜囊不同）。依標準解剖與 *Imaging of the Bursae*（J Clin Imaging Sci. 2011;1:22）判定。
+[^6]: University of Michigan Medical School, musculoskeletal quiz（2018 交換考題詳解 p.267 引用；Tier 2/3 教學資源）。subscapular bursa為盂肱關節腔之正常延伸，經關節囊纖維層開口與關節腔相通；肩關節造影對比劑流入此囊屬正常，非cuff tear徵象。
+
+## 題目
+> [!question]- Shoulder arthrogram: contrast spread from shoulder joint onto anterior lateral surface of scapula — this is a normal extension of the joint cavity called the: (2018-358)
+> **subscapular bursa（D）**——subscapular bursa為盂肱關節腔之正常延伸（經關節囊纖維層開口相通），非anterior cuff tear。bicipital/olecranon/subacromial/ulnar bursa皆非此正常延伸。[^6]
 
 ## 考題
 ```dataview

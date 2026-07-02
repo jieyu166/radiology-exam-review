@@ -28,6 +28,14 @@ up: "[[lung-cancer]]"
 
 ### 參考來源
 [^1]: *AJCC Cancer Staging Manual*, 8th Edition — Lung Cancer chapter（2018 交換考題詳解 p.26 引用；Tier 1 分期權威文件）。T2b：>4–5cm；N3：對側縱膈或肺門、或斜角肌/鎖骨上淋巴結；M1a：對側肺結節/肋膜心包結節或惡性積液；M1b：單一胸腔外轉移；M1c：多發胸腔外轉移。
+[^2]: *RadioGraphics* 2018;38:374–391（2018 交換考題詳解 p.227 引用；Tier 1 期刊）。侵犯主支氣管、距隆突<2cm但未及隆突者歸類T2（非T3）；6cm腫瘤落於>5–7cm區間歸類T3；膈肌侵犯歸類T4；T1細分T1a/b/c。
+[^3]: *AJCC Cancer Staging* 7th/8th — Lung（2018 交換考題詳解 p.330 引用；Tier 1）。AJCC 7th：T2a >3-5cm、T2b >5-7cm；AJCC 8th：T2b >4-5cm、T3 >5-7cm。5.1cm於7th為T2b、於8th為T3；臟層肋膜侵犯為T2 descriptor；同側縱膈淋巴結為N2。
+
+## 判讀骨架：本題（2018-417）之AJCC 7th vs 8th
+- **5.1cm NSCLC**：AJCC 7th→T2b(>5-7cm)→歸T2；AJCC 8th→T3(>5cm起為T3)。
+- **臟層肋膜侵犯**：T2 descriptor(不改上述由大小主導之T在此情境)。
+- **同側縱膈淋巴腫大**：N2。
+- **結論**：AJCC 7th＝T2N2(答案B)；AJCC 8th＝T3N2(答案C)。官方引7th答B並註C in AJCC8th。
 
 > [!note] 考點：AAH/AIS/MIA是否列入8th edition TNM分期?
 > **不列入**——AAH（非典型腺瘤樣增生）、AIS（原位腺癌）、MIA（微侵犯腺癌）皆屬preinvasive或微侵犯病灶，非AJCC 8th TNM系統中正式分期的侵犯性肺癌。[^1]
@@ -35,6 +43,15 @@ up: "[[lung-cancer]]"
 ## 題目
 > [!question]- Regarding lung cancer staging, which is NOT correct? (2016-266)
 > **「AAH/AIS/MIA列入8th edition TNM分期」不正確（C）**——三者皆為preinvasive/微侵犯病灶，非正式TNM分期對象。SCLC extensive disease定義(對)、adenocarcinoma為女性/非吸菸者最常見型態(對)、CT肋膜增厚判斷胸壁侵犯不準確(對)皆正確。[^1]
+
+> [!question]- Which statement about lung cancer staging according to AJCC 8th edition is false? (2018-114)
+> **A cancer mass with 6cm in greatest diameter is classified as T2（B）**——應為T3（>5–7cm）。[^2]
+
+> [!warning] 2018-417 版本雙層：AJCC 7th vs 8th 之T分期差異
+> 5.1cm NSCLC＋臟層肋膜侵犯＋同側縱膈淋巴腫大(N2)：**AJCC 7th中5.1cm屬T2b(>5-7cm)→T2N2(答案B)**；**AJCC 8th中>5cm屬T3(>5-7cm)→T3N2(答案C)**。官方題幹引AJCC 7th答案B，並註記「C in AJCC8th」。臨床採AJCC 8th(T3N2)。[^3]
+
+> [!question]- A proved NSCLC 5.1cm with visceral pleural involvement and ipsilateral mediastinal lymphadenopathy, no distant metastasis. TNM staging? (2018-417)
+> **官方答案B(T2N2，依AJCC 7th)；AJCC 8th則為C(T3N2)**——5.1cm於7th為T2b、於8th為T3(>5cm)；同側縱膈LN為N2。見上方warning。[^3]
 
 ## 考題
 ```dataview

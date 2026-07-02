@@ -59,6 +59,9 @@ dateRev: 2026-06-30
 > [!question]- 關於Marfan syndrome，下列何者為非? (2020-393)
 > **Annuloaortic ectasia但sinus of Valsalva大小正常（A）為錯誤**——annuloaortic ectasia定義本身即包含Valsalva竇擴大。[^4]
 
+> [!question]- 關於Marfan syndrome，下列敘述何者為非? (2018-384)
+> **Stanford type A aortic dissection will not be found（D）**——Marfan好發升主動脈/主動脈根部擴張，為Stanford type A(升主動脈)剝離之重要危險因子，故「不會出現type A剝離」錯誤。CT常見annuloaortic ectasia與dural ectasia(A對)、為結締組織遺傳疾病(B對)、主動脈根部擴張為主動脈瓣閉鎖不全主因(C對)皆為正確描述。[^1][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "marfan-syndrome")

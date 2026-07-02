@@ -26,6 +26,8 @@ dateRev: 2026-06-29
 - **降低 recall/callback rate**：早期臨床導入觀察 callback 自 10.4%→8.8%（**約降 24%**,OR 1.24);STORM 試驗 false-positive **降 17%**;多數研究顯示 recall 明顯下降。**其中以 focal asymmetry（局部不對稱）陽性病灶的 recall rate 降幅最大**——DBT 薄層去除組織重疊，最能澄清單純因組織疊影造成的假性不對稱。[^5]
 - **判讀時間**：DBT 判讀時間約為 2D 乳房攝影之 **2 倍**（45 秒 vs 91 秒）。[^4]
 - **篩檢偵測率提升實例**：以 2D 乳房攝影每千人篩檢偵測 6.1 例乳癌為基準，併用 3D 斷層攝影可提升至約每千人 **8.0 例**（OTST 試驗數據）。[^4]
+- **額外偵測之乳癌類型**：DBT 併用 2D 相較單獨 2D，額外偵測到的乳癌以**侵犯性乳癌（invasive carcinoma）為主**（尤其較多**侵犯性小葉癌 invasive lobular carcinoma**），非原位癌。[^4]
+- **平均乳腺劑量（ACR ≤3 mGy/view）**：ACR 規定標準假體下每張乳房攝影平均乳腺劑量不得超過 **3 mGy**；**2D 乳房攝影、3D 斷層攝影、及 2D+3D 併用（每一模式/每一 view）皆未超過此規定劑量**（合成 2D 取代傳統 2D 可進一步省劑量）。[^4]
 - **緻密乳房尤佳**：傳統乳攝在緻密乳房敏感度僅約 47.8–64.4%,組織重疊掩蓋病灶;DBT 於緻密乳房偵測率**約 +29%**。[^2]
 - **架構扭曲（architectural distortion）與毛刺顯示更佳**：DBT 對「最可靠但最易漏判」的 architectural distortion 與毛刺（spiculation）/微小葉狀（microlobulation）邊緣更易見、定位更準;但須留意 **DBT 偵測之 distortion 惡性率（PPV）較低**（約 10.2% vs FFDM 偵測之 43.4%,各研究 6.8–50.7% 不等）。[^1][^2]
 - **focal asymmetry 真偽辨識、one-view 可疑病灶定位、減少額外影像需求**。[^1]
@@ -63,6 +65,21 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- 關於DBT乳房診斷應用,何者有誤? (2016-271)
 > **「DBT薄切片使微鈣化個別形態評估更佳」有誤（D）**——薄切片提升鈣化可見度但分散多層,並未提升形態評估。architectural distortion顯示佳、focal asymmetry確認、one-view定位皆正確。[^1][^2]
+
+> [!question]- ACR 規定每張乳房攝影平均乳腺劑量於標準假體下不得超過 3mGy，下列哪一項檢查超過規定劑量? (2018-447)
+> **以上皆未超過（D）**——2D 乳房攝影、3D 斷層攝影、2D+3D 併用（每一模式/每一 view）之平均乳腺劑量皆**未超過 3 mGy** 規定。[^4]
+
+> [!question]- 2D 乳房攝影與 3D 乳房斷層攝影相比，篩檢婦女額外發現乳癌最多的類型為? (2018-448)
+> **侵犯性乳癌（B）**——DBT 額外偵測之乳癌以侵犯性乳癌為主（尤其較多侵犯性小葉癌 invasive lobular carcinoma），非原位癌。[^4]
+
+> [!question]- 2D 乳房攝影與 3D 乳房斷層攝影相比，3D 判讀時間為 2D 幾倍? (2018-449)
+> **2 倍（B）**——DBT 判讀時間約為 2D 之 2 倍（45 秒 vs 91 秒，Skaane Radiology 2013）。[^4]
+
+> [!question]- 目前 2D 乳房攝影篩檢每千人約 6 個乳癌，改用 3D 斷層攝影後預測每千人可發現幾個乳癌? (2018-450)
+> **8 人（C）**——由每千人 6.1 例提升至約 8.0 例（Skaane Radiology 2013;267:47-56）。[^4]
+
+> [!question]- Tomosynthesis 最可減少何種陽性病灶的 recall rate? (2018-451)
+> **Focal asymmetry（C）**——DBT 薄層去除組織重疊，最能澄清單純因組織疊影造成的假性局部不對稱，故 focal asymmetry 之 recall rate 降幅最大。[^5]
 
 ## 考題
 ```dataview

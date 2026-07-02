@@ -45,7 +45,7 @@ dateRev: 2026-07-01
 > 「**GIST為壁內或漿膜下腫瘤，不可能為腔內位置**」錯誤——GIST傾向壁內生長，但腫瘤夠大時可向腔內凸出或向外突出，**並非不可能腔內生長**。小腸腫瘤<5%佔所有腸胃道腫瘤、小腸淋巴瘤伴明顯腔擴張、類癌腸繫膜腫塊合併促結締組織增生反應與鈣化皆為正確敘述。[^3]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Acta Radiologica 2009;50(8):837-44。
+[^1]: 2019 交換考詳解；Acta Radiologica 2009;50(8):837-44（2018 交換考題詳解 p.353 亦引用同篇）。
 [^3]: 官方2020詳解（題目未附明確引用文獻，依標準腸胃道影像教學）——小腸腫瘤<5%佔所有GI腫瘤；小腸淋巴瘤伴明顯腔擴張；類癌腸繫膜腫塊合併促結締組織增生反應與鈣化；GIST傾向壁內生長，夠大時可呈腔內或漿膜外生長，少見造成吞嚥困難/腸阻塞直到腫瘤相當大。
 [^4]: 官方2020詳解；Ref: Hypervascular Subepithelial Gastrointestinal Masses: CT-Pathologic Correlation, RadioGraphics Vol. 30, No. 7（題目所引）——>3cm富血管性壁內黏膜下腫瘤GIST最常見；腎絲球瘤動脈期即強烈周邊結節狀或均質強化並持續至延遲期(類似門靜脈/IVC/降主動脈強化型態)；神經內分泌癌似腺癌之潰瘍性腫瘤合併轉移；血管瘤合併靜脈石；異位胰臟典型胃竇位置合併腔內生長不規則邊界類胰臟強化。
 
@@ -58,6 +58,9 @@ dateRev: 2026-07-01
 
 > [!question]- About the clinical and CT features of an hypervascular subepithelial masses and mass-like lesion, which one is wrong? (2020-358)
 > **腎絲球瘤動脈期微弱強化、延遲期強化（B）為錯誤**——實際動脈期即呈強烈強化並持續至延遲期。[^4]
+
+> [!question]- Which one is NOT correct about GIST (gastrointestinal stromal tumor)? (2018-436)
+> **The common sites of GIST location are stomach > colon > retroperitoneum > mesentery > small intestine（B）**——正確排序應為**胃 > 小腸 > 大腸直腸 > 其他 > 食道**，小腸為第二常見（非大腸/後腹腔/腸繫膜）。大型胃GIST合併中央壞死潰瘍須與胃淋巴瘤鑑別(A對)、淋巴結轉移少見(C對)、Imatinib治療反應後可呈囊性變合併黏液樣退化與疤痕化(D對)皆正確。[^1]
 
 ## 考題
 ```dataview

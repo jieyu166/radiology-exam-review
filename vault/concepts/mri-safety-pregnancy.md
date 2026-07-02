@@ -18,16 +18,21 @@ dateRev: 2026-06-19
 - **釓對比劑**：盡量避免;若必要須權衡（穿越胎盤、胎兒風險）。[^1]
 - **急性神經症狀**：孕婦有急性腦/脊髓症狀 → MRI 適當（不論妊娠期）。[^1]
 - **急性腹症**：**US 多足夠,不宜逕用 MRI**（故「急性腹症無論如何都應 MRI」最不恰當）。[^1]
+- **胎兒風險（大型世代研究）**：孕期暴露於MRI（尤其釓顯影劑）與**胎兒聽力損失(hearing loss)**風險相關；心臟缺陷、白血病、發展遲緩則未顯示與MRI暴露有顯著相關性。[^2]
 
 > [!note] 考點：孕婦 MRI 使用,何者「最不恰當」?
 > 「**急性腹症無論妊娠期/是否已 US 都應 MRI**」最不恰當——急性腹症 US 多足夠。先評估 US、釓有必要時權衡、急性腦脊髓症狀用 MRI 皆恰當。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Policies, Guidelines, and Recommendations for MR Imaging Safety and Patient Management (SMRI Safety Committee, 1991)：US 為孕婦首選、MRI 用於 US 不足;急性神經症狀用 MRI;急性腹症 US 多足夠。
+[^2]: Ray JG, et al. *Association Between MRI Exposure During Pregnancy and Fetal and Childhood Outcomes*. JAMA. 2016;316(9):952-961（2018 交換考題詳解 p.129 引用；Tier 1 原始研究）。孕期MRI暴露與胎兒聽力損失風險相關；心臟缺陷、白血病、發展遲緩未顯示顯著相關性。
 
 ## 題目
 > [!question]- 關於孕婦磁振造影使用,何者「最不恰當」? (2017-164)
 > 「**急性腹症無論妊娠期/是否已 US 都應施 MRI**」最不恰當——急性腹症 US 多足夠。先評估 US 是否足夠、釓有必要時權衡時機、急性腦脊髓症狀用 MRI 皆恰當。[^1]
+
+> [!question]- Which of the following fetal risks is associated with MRI imaging? (2018-238)
+> **Hearing loss（A）**——大型世代研究顯示孕期MRI暴露與胎兒聽力損失風險相關。心臟缺陷(B)、白血病(C)、發展遲緩(D)未顯示顯著相關性。[^2]
 
 ## 考題
 ```dataview

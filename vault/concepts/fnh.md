@@ -36,8 +36,17 @@ same:
 | Adenoma    | 可含脂肪/出血、周邊血管、HBP 低訊號[^1]                        |
 |            |                                                 |
 
+## 典型 vs 非典型影像特徵（2018-414）
+- **典型FNH特徵**：fibrous central scar、動脈期均質高強化(hyperenhancement)、門脈期與延遲期與肝實質等密度/訊號(isodense/isointense)。[^2]
+- **非典型FNH特徵(本題重點)**：pseudocapsule、病灶不均質(heterogeneity，較常見於adenoma)、缺乏中央疤痕/中央動脈(常見於<3cm)、中央疤痕不強化、病灶內脂肪、**周邊環狀/不連續強化(discontinuous peripheral enhancement)**等。故「discontinuous peripheral enhancement」為**非典型**特徵(典型為均質動脈期強化，不連續周邊強化偏向hemangioma)。[^2]
+
 ### 參考來源
 [^1]: *Focal nodular hyperplasia*. Radiopaedia.org。中央大動脈 spoke-wheel 離心血流、central scar（<50%）、典型 Doppler 約 20% 可見、無門脈（實際查證 accessed 2026-06-15）。
+[^2]: Grazioli L, Morana G, Kirchin MA, et al. *Accurate differentiation of focal nodular hyperplasia from hepatic adenoma at gadobenate dimeglumine-enhanced MR imaging: prospective study*. Radiology 2005;236(1):166-77（2018 交換考題詳解 p.327 引用；Tier 1 期刊）。典型FNH：fibrous central scar、動脈期均質高強化、門脈期等密度/訊號；非典型特徵含pseudocapsule、不均質、缺中央疤痕、脂肪、不連續周邊強化。
+
+## 題目
+> [!question]- Concerning focal nodular hyperplasia, which of the following is an atypical feature? (2018-414)
+> **Discontinuous peripheral enhancement（C）**——為非典型FNH特徵(典型為動脈期均質高強化，不連續周邊強化偏向hemangioma)。fibrous central scar(A)、門脈期與肝等密度(B)、動脈期高強化(D)皆為典型FNH特徵。[^2]
 
 ## 考題
 ```dataview

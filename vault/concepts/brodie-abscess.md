@@ -40,6 +40,9 @@ dateRev: 2026-06-19
 > [!question]- 何者「非」Brodie abscess 在 X 光上常見的影像表現? (2017-146)
 > 「**中心位於骨骺(epiphysis)**」非——典型位於 **metaphysis（幹骺端）**。well-demarcated margin、sclerotic margin、可延伸跨越生長板皆常見。[^1]
 
+> [!question]- Which ONE of the following image findings is NOT commonly seen in a Brodie abscess on the radiograph? (2018-304)
+> **Ill-defined margin（A）**——實際上典型呈界線清楚(well-demarcated)，非邊界不清，此敘述錯誤。周圍硬化緣(B)、中心位於幹骺端(C)、延伸跨越生長板(D)皆為正確描述。[^1]
+
 > [!question]- In a Brodie abscess, there is a layer of hyperintense T1 signal peripheral to the abscess cavity. What is the term used to describe that layer? (2017-252)
 > **Penumbra sign（B）**——四層構造中的內環（inner ring），代表肉芽組織環（T1 肌肉樣訊號、T2 低訊號）。非 sequestrum、target appearance、halo sign。[^2]
 

@@ -72,6 +72,10 @@ dateRev: 2026-07-01
 [^4]: Tier 2。Chen H, et al. *Bedside ultrasonography for diagnosis of pneumothorax*. Quant Imaging Med Surg.（seashore/barcode/stratosphere sign、lung sliding、comet-tail、lung point 特異度近 100%；US vs CXR 偵測氣胸敏感度比較）；交叉佐證 ACEP SonoGuide *FAST*（https://www.acep.org/sonoguide/basic/fast）（實際查證 accessed 2026-06-29）。
 [^5]: Tier 2。*Blunt Abdominal Trauma, Evaluation of — Practice Management Guideline*（EAST, https://www.east.org/education-resources/practice-management-guidelines/archived/blunt-abdominal-trauma-evaluation-of）；陰性 FAST／CT 均不能可靠排除後腹腔與中空臟器損傷，穩定病人以 CT 進一步評估（實際查證 accessed 2026-06-29）。
 
+## 題目
+> [!question]- About the use of ultrasound in trauma, which following statement is not true? (2018-338)
+> **Ultrasonography has a high sensitivity for detecting parenchymal injury of liver or kidney（D）**——實際上FAST對實質器官損傷（肝/腎）之敏感度有限（與CT直接比較之研究僅約63%），非高敏感度；孤立實質器官損傷但無游離液時FAST無法偵測。RUQ Morrison pouch為第一且最容易取得之視窗(A對)、FAST目標為偵測腹腔依賴區之游離液(B對)、腹腔內出血呈無回音(黑色)(C對)皆為正確描述。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fast-exam")

@@ -57,6 +57,11 @@ dateRev: 2026-06-29
 [^1]: 官方 2017 詳解；心臟 MR ARVD criteria（Radiopaedia *ARVC*，輔助）：脂肪浸潤、局部動脈瘤、RV/RVOT 擴張與功能下降。
 [^2]: Tier 2，2010 Task Force Criteria CMR 量化切點（regional akinesia/dyskinesia/dyssynchrony 合併 RVEDVI 男≥110／女≥100 mL/m² 或 RVEF≤40% 為 major；男100–<110／女90–<100 或 RVEF >40–≤45% 為 minor；2010 版特異度提升）。J Cardiovasc Magn Reson／JACC Cardiovasc Imaging 系列，PMC4105392、DOI:10.1016/j.jcmg.2011.01.005（PMC3106722）。
 [^3]: Tier 1，RadioGraphics「Cardiac MR Findings and Potential Diagnostic Pitfalls in Patients Evaluated for ARVC」DOI:10.1148/rg.346140194（PMC5550031）：脂肪非診斷標準與排除理由、生理 vs ARVC 脂肪壁厚差異、LGE subtricuspid→RVOT 分布、triangle of dysplasia 區域、left-dominant／biventricular、moderator band 插入點假象、pericardial tether、pectus／butterfly apex 變異、Uhl anomaly 鑑別。
+[^4]: *AJR* 194, April 2010（2018 交換考題詳解 p.225 引用；Tier 1 期刊）。ARVD可致猝死、triangle of dysplasia為脂肪浸潤好發區、MRI可見accordion sign（波紋狀RV壁）；left ventricular myocardial wall亦可受侵犯（非僅限右心室）。
+
+## 題目
+> [!question]- Which statement about arrhythmogenic right ventricular dysplasia (ARVD) is incorrect? (2018-050)
+> **ARVD does not occur in left ventricle（C）**——實際上left ventricular myocardial wall亦可受侵犯，此敘述錯誤。[^4]
 
 ## 題目
 > [!question]- The diagnosis of ARVC by MRI is presently based on (2020-328)

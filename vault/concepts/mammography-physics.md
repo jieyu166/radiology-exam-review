@@ -41,6 +41,11 @@ nonImagingReason: "乳攝物理/技術參數（劑量/kVp/濾片/幾何），非
 [^2]: 官方 2017 詳解；Bushberg JT et al. The Essential Physics of Medical Imaging, 3rd ed., pp.244-246：數位乳攝 target/filter 組合（Mo/Mo、Mo/Rh、Rh/Rh、W/Rh、W/Ag）;Rh/Mo 無效（Mo 濾片 K-edge ~20 keV 以上衰減 Rh 特徵 X 光 20.3/22.7 keV）。
 [^1]: AAPM/RSNA 乳房攝影物理 tutorials（標題/範圍實際查證 accessed 2026-06-20;全文需訂閱,下列為標準乳攝物理數值,主題涵蓋於這兩篇權威 tutorial）：Mahesh M. *AAPM/RSNA Physics Tutorial for Residents: Digital Mammography — An Overview*. RadioGraphics. 2004;24(6). doi:10.1148/rg.246045102（數位乳攝物理、平均腺體劑量、偵測器/解析度）;Villafana T. *Generators, X-ray Tubes, and Exposure Geometry in Mammography*. RadioGraphics. 1990;10(3). doi:10.1148/radiographics.10.3.2343172（摘要明列 target/filter 組合、focal spot、曝光幾何/放大率）。要點：低 kVp（Mo ~25–28、Rh ~30–35,非 80–100）、Mo/Mo 最常用而緻密乳改 Mo/Rh、Rh/Rh、數位 MGD ~2 mGy、放大率＝SID/SOD（正中間＝2）、放大用 0.1 mm 小焦點、數位 limiting resolution ~5–10 lp/mm。
 [^3]: 官方2016詳解；*Making the Diagnosis: A Practical Guide to Breast Imaging*, p.21（題目所引）——低kVp提升對比；傳統film-screen攝影幾乎全用鉬陽極（較低能量光譜）；數位乳攝可用window/level調整對比使靶材/最低能量目標重要性降低；數位乳攝劑量並未高於film-screen攝影。
+[^4]: Bushberg JT et al. *The Essential Physics of Medical Imaging*, 3rd Ed., Lippincott Williams & Wilkins, 2011, p.257-258（2018 交換考題詳解 p.255 引用；Tier 2 教科書）。乳房放大攝影：臨床放大倍率1.5-2.0、需使用壓迫板、不使用鉛柵(grid)、使用小焦斑(small focal spot, 0.1mm)以減幾何模糊（非大焦斑）。
+
+## 題目
+> [!question]- 下列關於乳房攝影之放大攝影技術(magnification)敘述何者錯誤? (2018-016)
+> **與一般攝影模式(contact mammography)相同，使用大焦斑(large focal spot)（D）**——放大攝影應使用**小焦斑(small focal spot, 0.1 mm)**以減少幾何模糊。臨床放大倍率1.5-2.0(A對)、需使用壓迫板(B對)、不使用鉛柵grid(C對)皆為正確描述。[^4]
 
 ## 考題
 ```dataview

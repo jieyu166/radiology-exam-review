@@ -41,6 +41,9 @@ dateRev: 2026-06-30
 > [!question]- Which is incorrect about pancreatic cysts? (2016-274)
 > 官方訂正「**mucinous cystadenoma 才是最常見胰臟囊性腫瘤**」（非 serous），故原敘述(C)為非。Pseudocysts 佔發炎相關囊性病灶85%、先天性胰臟囊腫罕見、VHL腎臟受侵犯常見皆正確（依官方詳解，見上方 warning 提醒定義爭議）。[^3]
 
+> [!question]- What's WRONG about the description of pancreatic cystic lesions? (2018-435)
+> **Mucinous cystadenoma has a predilection of location at the tail portion with male predominance（B）**——mucinous cystadenoma 雖好發胰體尾，但為**女性優勢（female predominance）**，非男性。IPMN 好發胰頭與鉤突（A對）、serous cystadenoma 為微囊病灶合併中央纖維疤痕與鈣化（C對）、神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變（D對）皆正確。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatic-cystic-lesions")
