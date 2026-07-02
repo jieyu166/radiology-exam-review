@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 212,
+  "totalQuestions": 216,
   "questions": [
     {
       "id": "2020-001",
@@ -7634,6 +7634,158 @@
       "images": [],
       "concepts": [
         "fnac-vs-core-needle-biopsy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-213",
+      "year": 2020,
+      "number": 213,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "About alternative access beyond the femoral arterial approach for transcatheter aortic valve replacement (TAVR), which description is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An abnormal location of the left ventricular apex in the thorax (too medial, inferior, or posterior) is not a relative contraindication for a transapical approach."
+        },
+        {
+          "letter": "B",
+          "text": "The factors that may prevent a subclavian approach include a narrowed vessel (<6 mm), severe calcification, and excessive tortuosity."
+        },
+        {
+          "letter": "C",
+          "text": "In the transaortic approach, the ideal aortotomy site is located along the right lateral aspect of the aorta, along the greater curvature of the aorta."
+        },
+        {
+          "letter": "D",
+          "text": "Preexisting pleural calcifications and pericardial calcifications may limit access to the left ventricular apex via thoracotomy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；doi.org/10.1148/rg.2019180059",
+      "explanation": "左心室尖端異常位置（過於medial、inferior或posterior）為transapical approach之相對禁忌症，並非「非」相對禁忌症。Transapical approach為最侵襲性之替代路徑，通常保留給股動脈、鎖骨下動脈、transaortic路徑皆有禁忌時採用；限制left ventricular apex經thoracotomy路徑之因素包括：左心室尖端位置異常、既往心肌梗塞造成之心肌變薄或鈣化、肋膜/心包鈣化、左心室射血分率過低(<20%)。Subclavian approach禁忌因素：血管狹窄(<6mm)、嚴重鈣化、過度扭曲。Transaortic approach理想aortotomy位置：主動脈右側緣、沿主動脈greater curvature，距離無名動脈近端1cm，距離主動脈瓣至少5.5cm。",
+      "images": [],
+      "concepts": [
+        "tavr-alternative-access"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-214",
+      "year": 2020,
+      "number": 214,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Concerning hepatic iron overload, which one of the following is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "On unenhanced CT, normal liver attenuation ranges from 45 to 65 HU."
+        },
+        {
+          "letter": "B",
+          "text": "Iron overload can result in a homogeneously hyperattenuating liver (75 to 135 HU) because of the high electron density associated with iron atoms."
+        },
+        {
+          "letter": "C",
+          "text": "Iron overload causes T2 and T2* shortening of the liver, which manifests as relative hypointensity on T2W and T2*W images."
+        },
+        {
+          "letter": "D",
+          "text": "Spin-echo sequences (T2 relaxation) are more sensitive to mild iron overload than Gradient-echo sequences (T2* relaxation)."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Abdominal image 1st ed, p628",
+      "explanation": "應為Gradient-echo序列(T2*弛豫)對輕度鐵過載較spin-echo序列(T2弛豫)敏感，而非相反。肝內鐵具順磁性，使T2弛豫時間縮短，此加速弛豫程度與鐵含量成正比；需以不同echo time取得訊號才能得到可靠T2測量值，訊號強度對echo time之函數關係可製成T2 parametric map。CT雖易取得，但對hemochromatosis診斷敏感度不佳；陽性病例可見肝密度均勻性增加(75-130 HU)，使門脈與肝靜脈相對於肝實質呈低衰減；dual-energy CT可用於定量鐵沉積。",
+      "images": [],
+      "concepts": [
+        "hepatic-iron-overload-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-215",
+      "year": 2020,
+      "number": 215,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列器官由頭側至尾側之正常解剖排列順序，何者正確？\n甲：left renal vein (L2)\n乙：3rd portion of duodenum (L3)\n丙：right adrenal gland (T12)\n丁：bifurcation of common iliac artery (L4)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "丙甲乙丁"
+        },
+        {
+          "letter": "B",
+          "text": "丙乙甲丁"
+        },
+        {
+          "letter": "C",
+          "text": "甲丙乙丁"
+        },
+        {
+          "letter": "D",
+          "text": "丙甲丁乙"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Jamie Weir, Imaging Atlas of Human Anatomy 4th edition",
+      "explanation": "由頭側至尾側依脊椎節數排列：丙right adrenal gland(T12) → 甲left renal vein(L2) → 乙3rd portion of duodenum(L3) → 丁bifurcation of common iliac artery(L4)。故正確順序為丙甲乙丁(A)。補充：pylorus of stomach位於L1；celiac trunk起於T12；SMA起於L1。",
+      "images": [],
+      "concepts": [
+        "abdominal-organ-vertebral-levels"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-216",
+      "year": 2020,
+      "number": 216,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "The ideal renal entry and puncture site for a simple draining percutaneous nephrostomy includes the following:\nA. subcostal, B. intercostal, C. upper pole calyx, D. lower pole calyx, E. posterior calyx, F. anterior calyx, G. Brodel bloodless line, H. Treves bloodless line.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A+C+E+G"
+        },
+        {
+          "letter": "B",
+          "text": "A+D+E+G"
+        },
+        {
+          "letter": "C",
+          "text": "A+D+F+H"
+        },
+        {
+          "letter": "D",
+          "text": "B+D+E+H"
+        },
+        {
+          "letter": "E",
+          "text": "B+C+E+G"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Percutaneous Nephrostomy with Extensions of the Technique: Step by Step. RB. Dyer et al. Radiographics 2002; 22:503-525.",
+      "explanation": "理想之經皮腎造廔穿刺進針點為：subcostal(肋骨下，避開肋間神經血管及胸膜)＋lower pole calyx(下極腎盞，較安全)＋posterior calyx(後側腎盞，經Brodel無血管平面進入)＋Brodel bloodless line(腎臟腹側2/3與背側1/3交界處之相對無血管平面)。故正確組合為A+D+E+G(B)。Brodel無血管平面約位於腎臟腹側2/3與背側1/3交界；下側後方腎盞方向朝向此無血管平面。",
+      "images": [],
+      "concepts": [
+        "percutaneous-nephrostomy-access"
       ],
       "checked": false
     }
