@@ -67,6 +67,10 @@ dateRev: 2026-06-29
 [^6]: Mann RM, et al. *Abbreviated Breast MRI: State of the Art*. *Radiology* 2023（doi:10.1148/radiol.221822,依摘要與搜尋層級,未讀全文,accessed 2026-06-29）：abbreviated 核心為 early post-contrast T1WI + MIP,因病灶顯著度與癌偵測主要由早期強化驅動;與全協定 BI-RADS 分類一致性高;常加 T2WI（形態）、DWI/ADC（restricted diffusion 鑑別良惡、減少不必要切片）。
 [^7]: 官方 2017 詳解；Kuhl C. The Current Status of Breast MR Imaging Part I/II. RadioGraphics 2006;26(6):1719-34（乳房 MRI 判讀綜述）：kinetic curve 含 initial peak＋delayed phase（不含 time to peak）;T2 高訊號偏良性但無法可靠分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）;敏感度 ~90%、DCIS 40-100%、CAD 可輔助、特異度較低;margin 最具預測性、spiculated PPV 84-91%、segmental 78% 惡性;hook sign（架構扭曲 desmoplastic tethering）提示惡性（惡性 29.3% vs 良性 3.2%）。
 
+## 題目
+> [!question]- 請問關於breast MRI的kinetic enhancement curve assessment，下列何者為真? (2018-010)
+> **Persistent type favored benign lesion over malignancy（A）**——type I persistent(續升)偏良性(惟約9%惡性仍可呈此)。plateau型良惡皆可(非專指惡性)、washout型偏惡性而非血管瘤，故B/C為偽。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-mri-kinetics")

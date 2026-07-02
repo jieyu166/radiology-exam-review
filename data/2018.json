@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 374,
+  "totalQuestions": 381,
   "questions": [
     {
       "id": "2018-001",
@@ -148,10 +148,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "",
+      "reference": "Radiology review manual, 8th edition, p.1769-1770",
+      "explanation": "純高回音結節(purely echogenic nodule)為良性特徵(脂肪/纖維化)，最不可能為惡性。microlobulation/angular margins/hypoechoic texture皆為惡性特徵。\n\n見 [[breast-ultrasound-features]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-ultrasound-features"
+      ],
       "checked": false
     },
     {
@@ -259,10 +261,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "Focal asymmetry represents a relatively small amount of fibroglandular density tissue over a confined portion (**less than one quadrant**).",
+      "reference": "ACR BIRADS atlas 2013. Page 86",
+      "explanation": "focal asymmetry範圍<一象限；範圍≥一象限者為global asymmetry，C將兩者定義顛倒故錯。\n\n見 [[breast-asymmetry]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-asymmetry"
+      ],
       "checked": false
     },
     {
@@ -329,10 +333,12 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "",
-      "explanation": "DCIS most commonly appears as non-mass enhancement, most commonly with a\n- segmental or linear distribution and clumped or heterogeneous internal enhancement pattern\n- clustered ring internal enhancement pattern is most specific for malignancy, usually DCIS",
+      "reference": "Radiology review manual 8th edition, p.1786-1787",
+      "explanation": "invasive carcinoma因中心壞死/纖維化+周邊血管新生而呈rim-enhancement。papilloma/DCIS/hemorrhage皆非典型rim enhancement。\n\n見 [[breast-mri-mass-morphology]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-mass-morphology"
+      ],
       "checked": false
     },
     {
@@ -364,10 +370,12 @@
         }
       ],
       "correctAnswer": "A",
-      "reference": "",
-      "explanation": "B. 惡性機率64% 良性機率也不低\nC. Suspicious 87%是惡性",
+      "reference": "Diagnostic imaging, Breast. 2nd Edition",
+      "explanation": "type I persistent(續升)偏良性(約9%惡性仍可呈此)；plateau良惡皆可、washout偏惡性，故B/C為偽。\n\n見 [[breast-mri-kinetics]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
       "checked": false
     },
     {
@@ -1010,10 +1018,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "Radiology review manual 6th ed. P.443",
+      "reference": "Radiology review manual 6th ed. P.443",
+      "explanation": "神經源性腫瘤(neurogenic tumor)好發於後縱膈(脊椎旁)，非前縱膈。前縱膈常見腫瘤為4 T's(thymoma/teratoma/thyroid goiter/lymphoma)。\n\n見 [[anterior-mediastinal-masses]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "anterior-mediastinal-masses"
+      ],
       "checked": false
     },
     {
@@ -13917,6 +13927,265 @@
       "images": [],
       "concepts": [
         "myocarditis-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-375",
+      "year": 2018,
+      "number": 375,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the followings is the wrong description about endoleak after endovascular aneurysmal repair?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type 1 endoleak reaches the aneurysm around the end of stent graft"
+        },
+        {
+          "letter": "B",
+          "text": "Type 2 endoleak reaches the aneurysm by retrograde flow through lumbar or inferior mesenteric branches"
+        },
+        {
+          "letter": "C",
+          "text": "Type 3 endoleak reaches the aneurysm through a defect in the wall of stent-graft"
+        },
+        {
+          "letter": "D",
+          "text": "Type 2 endoleak should be treated as soon as possible"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Vascular Surgery, 7th edition, p1974",
+      "explanation": "type II endoleak多為良性、常自行消退，僅在瘤囊持續增大(>5mm)時才介入，非「盡快治療」。\n\n見 [[endoleak]]",
+      "images": [],
+      "concepts": [
+        "endoleak"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-376",
+      "year": 2018,
+      "number": 376,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following statements about Paget disease is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Paget disease is a rare malignancy of the breast characterized by infiltration of the nipple epidermis by adenocarcinoma cells."
+        },
+        {
+          "letter": "B",
+          "text": "More than 90% of cases of Paget disease are associated with an additional underlying breast malignancy."
+        },
+        {
+          "letter": "C",
+          "text": "Temporary resolution of the eczematous changes is possible with the application of topical corticosteroids."
+        },
+        {
+          "letter": "D",
+          "text": "Breast conservation therapy is not a treatment of choice for Paget disease."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Paget Disease of the Breast: Mammographic, US, and MR Imaging Findings with Pathologic Correlation. RadioGraphics 2011",
+      "explanation": "隨MRI界定範圍，保乳治療(切除NAC+放療)已漸增使用，非「非治療選項」。\n\n見 [[paget-disease-nipple]]",
+      "images": [],
+      "concepts": [
+        "paget-disease-nipple"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-377",
+      "year": 2018,
+      "number": 377,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings about contrast-enhanced ultrasonography is wrong.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The contrast agent are microbubbles, composed by high-solubility gas surrounded by phospholipid shells."
+        },
+        {
+          "letter": "B",
+          "text": "The contrast agents are not nephrotoxic."
+        },
+        {
+          "letter": "C",
+          "text": "The enhancement after IV injection of the contrast agent may persist about 5 minutes."
+        },
+        {
+          "letter": "D",
+          "text": "The contrast agent can be injected into physiologic or pathologic cavities, for example, renal pelvis, biliary tracts, or even abscess cavity."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Contrast-enhanced US–guided Interventions: Improving Success Rate and Avoiding Complications Using US Contrast Agents. RadioGraphics 2017; 37:0001–0013",
+      "explanation": "UCA微泡由低溶解度氣體(如sulfur hexafluoride六氟化硫)外包磷脂質殼組成，非高溶解度氣體，故A錯。\n\n見 [[ceus-microbubble-agents]]",
+      "images": [],
+      "concepts": [
+        "ceus-microbubble-agents"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-378",
+      "year": 2018,
+      "number": 378,
+      "years": [
+        2018
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings about ultrasound transducer is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The transducers contain materials with piezoelectric properties, for example: lead zirconate titanate."
+        },
+        {
+          "letter": "B",
+          "text": "A thicker element produces a lower frequency oscillation while a thinner element produces a higher frequency oscillation"
+        },
+        {
+          "letter": "C",
+          "text": "The phased array probes make image fields of curved shape at the top and also curved shape at the bottom."
+        },
+        {
+          "letter": "D",
+          "text": "To perform ultrasound exam of the thyroid gland needs high frequency probes, for example, frequency about 10 MHz."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiopaedia – Ultrasound transducer",
+      "explanation": "phased array影像上緣與下緣形狀『不同』(上下緣形狀相同者為sequential array)，故C錯。\n\n見 [[ultrasound-transducer-physics]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-transducer-physics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-379",
+      "year": 2018,
+      "number": 379,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "某個側面胸部照射使用110 kVp/10 mAs，產生強度為32 mR的X光，如果將電壓改變成125 kVp時，其X光強度是?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "36mR"
+        },
+        {
+          "letter": "B",
+          "text": "41mR"
+        },
+        {
+          "letter": "C",
+          "text": "28mR"
+        },
+        {
+          "letter": "D",
+          "text": "25mR"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "102年第一次專門職業及技術人員高等考試 放射師考試",
+      "explanation": "X光強度與電壓平方成正比：32×(125/110)²≈41 mR。\n\n見 [[xray-tube-output]]",
+      "images": [],
+      "concepts": [
+        "xray-tube-output"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-380",
+      "year": 2018,
+      "number": 380,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者為正確的輻射防護目的?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輻射工作人員不得接受輻射劑量"
+        },
+        {
+          "letter": "B",
+          "text": "抑低確定效應發生的機率"
+        },
+        {
+          "letter": "C",
+          "text": "防止發生機率效應"
+        },
+        {
+          "letter": "D",
+          "text": "防止發生確定效應"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "102年第一次專門職業及技術人員高等考試 放射師考試",
+      "explanation": "確定效應有閾值→防護目標為完全避免(防止發生確定效應)；機率效應無閾值只能限制發生率(C錯用防止)、確定效應為嚴重度隨劑量而非機率(B錯)、工作人員可在限值內接受劑量(A錯)。\n\n見 [[radiation-deterministic-effects]]",
+      "images": [],
+      "concepts": [
+        "radiation-deterministic-effects"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-381",
+      "year": 2018,
+      "number": 381,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following about congenital posterior fossa abnormalities is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The cystic structure over posterior fossa of Dandy-Walker malformation is dilated fourth ventricle."
+        },
+        {
+          "letter": "B",
+          "text": "Blake pouch cyst is caused by lack of fenestration of the Blake pouch which communicated between fourth ventricle and subarachnoid space."
+        },
+        {
+          "letter": "C",
+          "text": "Rhombencephalosynapsis is characterized by absence of cerebellar vermis and leading to discontinuity of bilateral cerebellar hemispheres."
+        },
+        {
+          "letter": "D",
+          "text": "Hydrocephalus is less associated with mega cisterna megna."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Congenital Abnormalities of the Posterior Fossa. RadioGraphics 2015; 35:200–220.",
+      "explanation": "rhombencephalosynapsis蚓部缺如導致雙側小腦半球『連續(continuity)』融合，非discontinuity，故C錯。\n\n見 [[posterior-fossa-malformations]]",
+      "images": [],
+      "concepts": [
+        "posterior-fossa-malformations"
       ],
       "checked": false
     }

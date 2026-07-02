@@ -55,6 +55,11 @@ dateRev: 2026-06-29
 [^2]: 期刊原始系列（一級）。Leung JWT, Sickles EA. *Developing Asymmetry Identified on Mammography: Correlation with Imaging Outcome and Pathologic Findings.* AJR Am J Roentgenol 2007;188(3):667–675. DOI:10.2214/AJR.06.0413。發展性不對稱：篩檢偵測 PPV1 ~12.8%、診斷性偵測 PPV1 ~26.7%;「the likelihood of malignancy is sufficiently high to justify recall and biopsy」、「Normal sonographic findings do not exclude malignancy in the case of developing asymmetry」。
 [^3]: 期刊回顧（RadioGraphics,一級）。Chesebro AL, Winkler NS, et al. *Developing Asymmetries at Mammography: A Multimodality Approach to Assessment and Management.* RadioGraphics 2016;36(2):322–334. DOI:10.1148/rg.2016150123。四型分類、評估流程（spot compression → lateral/rolled views → DBT → targeted US → MRI）、「lack of a US correlate should not preclude biopsy of a developing asymmetry」。
 [^4]: 期刊（一級,輔助佐證無 US 對應之惡性率）。*Suspicious Ultrasound-Occult Non-Calcified Mammographic Masses, Asymmetries, and Architectural Distortions Are Moderate Probability for Malignancy.* Cancers (Basel) 2024。無 US 對應之 asymmetry 惡性率 44/194（22.7%）,屬 BI-RADS 4b 中度機率,支持切片建議。
+[^5]: ACR BI-RADS Atlas 2013, Page 86（2018 交換考題詳解 p.285 引用；Tier 1 圖譜）。focal asymmetry範圍<一象限、global asymmetry範圍≥一象限(多為normal variant)；typically benign calcifications含round/rim/dystrophic/milk of calcium；architectural distortion可與asymmetry或鈣化並存。
+
+## 題目
+> [!question]- 以下關於mammography Lexicon之敘述何者錯誤? (2018-007)
+> **Focal asymmetry定義是不對稱的乳房組織，所佔面積大於一個quadrant（C）**——focal asymmetry範圍**<一象限**；範圍**≥一象限**者為**global asymmetry**，此題將兩者定義顛倒。typically benign calcifications含round/rim/dystrophic/milk of calcium(A對)、global asymmetry大部分為normal variant(B對)、architectural distortion可與asymmetry或鈣化同時出現(D對)皆為正確描述。[^1][^5]
 
 ## 考題
 ```dataview

@@ -46,11 +46,21 @@ dateRev: 2026-06-29
 > [!note] 考點：關於乳頭 Paget disease,何者「錯誤」?
 > 「**有 Paget disease 時合併癌很罕見**」錯誤——**絕大多數合併下方乳癌（DCIS/浸潤癌）**。濕疹樣外觀、wedge biopsy 可診斷、表皮 Paget cells 皆正確。[^1]
 
+### 治療（2018-376）
+- **傳統治療**：mastectomy併淋巴結廓清。[^5]
+- **保乳治療（breast conservation therapy）**：**隨MRI界定範圍普及，保乳治療（切除NAC＋放療）已漸增使用**——故「breast conservation therapy不是治療選項」為**錯誤**。[^5]
+- 局部類固醇可暫時改善濕疹樣變化（但不治本、易延誤診斷）。[^5]
+
 ### 參考來源
 [^1]: 乳頭 Paget disease（題目所引／Radiopaedia *Paget disease of the nipple*）：濕疹樣乳頭外觀;表皮內 Paget cells;**絕大多數合併下方乳癌（DCIS 或浸潤癌）**,須尋找潛在惡性。
 [^2]: Sripathi S, et al. *Spectrum of Imaging Findings in Paget's Disease of the Breast—A Pictorial Review*. Insights into Imaging 2015;6(4):419–429. DOI: 10.1007/s13244-015-0415-z（PMC4519816，開放全文）。乳攝約 50% 陰性、皮膚／乳頭增厚、乳頭凹陷、多形性鈣化；US 低回音區／擴張導管；MRI NAC 不對稱強化、增厚、乳攝/US 陰性時仍可偵測下方 DCIS／腫塊；DDx 含接觸性皮膚炎、乾癬等；陰性乳攝不排除惡性；80–90% 合併下方惡性。
 [^3]: Bilge AC, Aydın H, Bostancı IE, et al. *Comparison of the MRI Findings of Paget's Disease of the Breast and Malignant Tumor Invasion of the Nipple-Areola Complex*. European Journal of Breast Health 2021;17(3):234–240. DOI: 10.4274/ejbh.galenos.2021.6091（PMC8246046，開放全文）。NAC 不對稱強化 plateau 型較具特徵；Paget 乳暈周圍皮膚增厚相對少見（約 12.5% vs 侵犯者約 91%）；DCIS 為主（約 56%），常呈 NME；MRI 對乳癌敏感度高。
 [^4]: Liu, et al. *Pathological and imaging features of Paget's disease and nipple adenoma: a comparative study*. Gland Surgery（章節級摘要）。Paget 與乳頭腺瘤臨床相似但病理不同；乳攝／US 可陰性，DCE-MRI 可較佳界定乳暈病灶與範圍以利鑑別；乳頭腺瘤為良性，Paget >90% 合併下方惡性。
+[^5]: *Paget Disease of the Breast: Mammographic, US, and MR Imaging Findings with Pathologic Correlation*. RadioGraphics 2011（2018 交換考題詳解 p.285 引用；Tier 1 期刊）。Paget disease為乳頭表皮腺癌細胞浸潤之罕見乳癌，>90%合併下方乳癌；傳統治療為mastectomy併淋巴結廓清，惟隨MRI界定範圍，保乳治療漸增使用；局部類固醇可暫時改善濕疹樣變化。
+
+## 題目
+> [!question]- Which one of the following statements about Paget disease is wrong? (2018-376)
+> **Breast conservation therapy is not a treatment of choice for Paget disease（D）**——隨MRI界定範圍，保乳治療(切除NAC+放療)已漸增使用，非「非治療選項」。Paget為乳頭表皮腺癌浸潤之罕見乳癌(A對)、>90%合併下方乳癌(B對)、局部類固醇可暫時改善濕疹樣變化(C對)皆為正確描述。[^5]
 
 ## 考題
 ```dataview
