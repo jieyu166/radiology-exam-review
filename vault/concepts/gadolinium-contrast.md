@@ -58,6 +58,9 @@ same:
 > [!question]- 關於心臟核磁共振造影(CMR)所使用的顯影劑，下列何者錯誤？ (2020-297)
 > **含釓顯影劑在臨床上發生NSF之機率約1%（B）**為錯誤——實際上NSF風險**遠低於1%**（eGFR<30族群<1/10,000）。NSF是間質組織發炎反應致皮膚硬結/肢體攣縮/多重器官纖維化、風險因子含eGFR<30/急性腎衰竭/末期腎病需透析、目前無eGFR≥30患者發生NSF案例，皆為正確敘述。[^4]
 
+> [!question]- Current gadolinium chelates (e.g., Gd-DTPA) that are commonly used as CMR contrast agents are: (2020-308)
+> **Extracellular agents（B）**——多數含釓對比劑(GBCA)為細胞外對比劑，分布於血管與組織間質，非細胞內攝取（Primovist等肝細胞特異性製劑為例外）。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")

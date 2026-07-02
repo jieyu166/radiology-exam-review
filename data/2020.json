@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 305,
+  "totalQuestions": 308,
   "questions": [
     {
       "id": "2020-001",
@@ -11147,6 +11147,121 @@
       "images": [],
       "concepts": [
         "breast-mri-morphology-features"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-306",
+      "year": 2020,
+      "number": 306,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is the most common location of bronchial atresia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RUL"
+        },
+        {
+          "letter": "B",
+          "text": "RML"
+        },
+        {
+          "letter": "C",
+          "text": "RLL"
+        },
+        {
+          "letter": "D",
+          "text": "LUL"
+        },
+        {
+          "letter": "E",
+          "text": "LLL"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Webb, W.R., & Higgins, C.B. (2005). Thoracic imaging: pulmonary and cardiovascular radiology. USA: LWW, pp. 2-4.",
+      "explanation": "支氣管閉鎖典型發生於節段或次節段層級，可侵犯任一肺葉，最常見於左上肺葉(LUL)之尖後段(apicoposterior segment)，其次為右上肺葉。",
+      "images": [],
+      "concepts": [
+        "bronchial-atresia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-307",
+      "year": 2020,
+      "number": 307,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "manual",
+      "questionText": "About CT attenuation, which one is CORRECT",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The unit is after the name of a sole CT inventor"
+        },
+        {
+          "letter": "B",
+          "text": "It linearly correlates with the physical density of the human body"
+        },
+        {
+          "letter": "C",
+          "text": "The optimal HU of contrast enhanced artery is about 800 HU"
+        },
+        {
+          "letter": "D",
+          "text": "normal lung parenchyma is about -700 to -950 HU"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Primer of Diagnostic Radiology, 5th ed. Weissleder. P.4",
+      "explanation": "正常肺實質約-700至-950 HU，故(D)正確。HU以Hounsfield命名但非唯一CT發明者(Cormack共同獲諾貝爾獎)、HU非直接與物理密度線性相關(實為衰減係數之線性轉換)、冠狀動脈CTA最佳血管內強化約250-300 HU非800 HU，其餘選項皆錯誤。",
+      "images": [],
+      "concepts": [
+        "ct-attenuation-hounsfield-units"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-308",
+      "year": 2020,
+      "number": 308,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Current gadolinium chelates (e.g., Gd-DTPA) that are commonly used as CMR contrast agents are:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intracellular agents"
+        },
+        {
+          "letter": "B",
+          "text": "Extracellular agents"
+        },
+        {
+          "letter": "C",
+          "text": "60% extracellular and 40% intracellular"
+        },
+        {
+          "letter": "D",
+          "text": "Extracellular for the first 5 minutes after administration and then intracellular"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Jain A, Tandri H, Calkins H, Bluemke DA. Role of cardiovascular magnetic resonance imaging in arrhythmogenic right ventricular dysplasia. J Cardiovasc Magn Reson. 2008;10:32.",
+      "explanation": "多數含釓對比劑(GBCA)為細胞外對比劑，分布於血管與組織間質，非細胞內攝取(Primovist等肝細胞特異性製劑為例外)。",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
       ],
       "checked": false
     }
