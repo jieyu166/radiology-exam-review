@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 430,
+  "totalQuestions": 444,
   "questions": [
     {
       "id": "2019-001",
@@ -15629,6 +15629,452 @@
         "acute-mesenteric-ischemia"
       ],
       "source": "2019 交換考詳解"
+    },
+    {
+      "id": "2019-471",
+      "year": 2019,
+      "questionText": "All naso-orbito-ethmoidal fractures are made up of a single or comminuted central fragment liberated along at least four of the five key fracture lines. Which of the following is not the key cardinal tracts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "the lateral nose and piriform aperture"
+        },
+        {
+          "letter": "B",
+          "text": "the nasomaxillary buttress"
+        },
+        {
+          "letter": "C",
+          "text": "the inferior orbital rim and floor"
+        },
+        {
+          "letter": "D",
+          "text": "the lateral orbital wall"
+        },
+        {
+          "letter": "E",
+          "text": "the frontomaxillary suture"
+        }
+      ],
+      "answer": "D",
+      "explanation": "五條 key fracture lines 中第四條是 medial orbital wall，不是 lateral orbital wall。",
+      "subspecialty": "Neuro",
+      "anatomy": "HN",
+      "concepts": [
+        "noe-fracture"
+      ],
+      "source": "Multidetector CT of Midfacial Fractures. RadioGraphics 2018 38:1, 248-274"
+    },
+    {
+      "id": "2019-472",
+      "year": 2019,
+      "questionText": "About coronary artery anomalies, which of the following descriptions is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In multiple ostia, typically either the RCA and the conus branch arise separately or the LAD and LCx arteries arise separately with no LCA."
+        },
+        {
+          "letter": "B",
+          "text": "\"High takeoff\" refers to the origin of coronary artery at a point above the junctional zone between its sinus and the tubular part of the ascending aorta."
+        },
+        {
+          "letter": "C",
+          "text": "The most common course of an anomalous RCA arising from the left sinus of Valsalva is prepulmonic."
+        },
+        {
+          "letter": "D",
+          "text": "An interarterial course carries a high risk for sudden cardiac death."
+        }
+      ],
+      "answer": "C",
+      "explanation": "異常 RCA 起源於 left sinus of Valsalva 時，最常見路徑為 interarterial（介於主動脈與肺動脈之間），而非 prepulmonic。",
+      "subspecialty": "CV",
+      "anatomy": "Heart",
+      "concepts": [
+        "coronary-artery-variants"
+      ],
+      "source": "Coronary Artery Anomalies: Classification and ECG-gated Multi-Detector Row CT. RadioGraphics 2006 26:2, 317-333"
+    },
+    {
+      "id": "2019-473",
+      "year": 2019,
+      "questionText": "下列何者並非 chronic pulmonary thromboembolism 的 CT 特徵?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Enlargement of the main pulmonary artery"
+        },
+        {
+          "letter": "B",
+          "text": "Central filling defect surrounded by contrast material in pulmonary artery"
+        },
+        {
+          "letter": "C",
+          "text": "Bronchial artery hypervascularization"
+        },
+        {
+          "letter": "D",
+          "text": "Mosaic perfusion pattern"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Central filling defect surrounded by contrast（polo mint sign）是急性 PE 的特徵，不是慢性 PE。慢性 PE 表現為偏心附壁血栓、web/band、及鈣化血栓。",
+      "subspecialty": "Chest",
+      "anatomy": "Lung",
+      "concepts": [
+        "chronic-pulmonary-thromboembolism"
+      ],
+      "source": "CT Diagnosis of Chronic Pulmonary Thromboembolism. RadioGraphics 2009 29:1, 31-50"
+    },
+    {
+      "id": "2019-474",
+      "year": 2019,
+      "questionText": "下列有關 perineal infection 的敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vulvar abscesses are associated with high morbidity and can progress to life-threatening necrotizing fasciitis, especially in patients with diabetes."
+        },
+        {
+          "letter": "B",
+          "text": "Supralevator abscesses are located in the deeper tissues in the ischioanal fossa."
+        },
+        {
+          "letter": "C",
+          "text": "Intersphincteric abscesses are located in the intersphincteric space between the internal and external sphincter muscles."
+        },
+        {
+          "letter": "D",
+          "text": "Perianal fistula occurs in approximately one-third of patients with a history of perianal abscess."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Supralevator abscesses 位於 levator ani 以上，不在 ischioanal fossa 內。Ischioanal abscess 才位於 ischioanal fossa。",
+      "subspecialty": "GU",
+      "anatomy": "Perineum",
+      "concepts": [
+        "perineal-infection"
+      ],
+      "source": "Imaging of Acute Conditions of the Perineum. RadioGraphics 2018 38:4, 1111-1130"
+    },
+    {
+      "id": "2019-475",
+      "year": 2019,
+      "questionText": "Which of the following lesion is most likely a tubuloalveolar structure located in the posterolateral aspect of the distal two-thirds of the urethra?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Skene Gland Cyst"
+        },
+        {
+          "letter": "B",
+          "text": "Bartholin Gland Cyst"
+        },
+        {
+          "letter": "C",
+          "text": "Gardner Duct Cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Urethral diverticulum"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Skene gland cysts 來自 Skene（periurethral）ducts，為 tubuloalveolar 結構，位於尿道遠端 2/3 的後外側。",
+      "subspecialty": "GU",
+      "anatomy": "urethra",
+      "concepts": [
+        "skene-gland-cyst"
+      ],
+      "source": "Imaging of Acute Conditions of the Perineum. RadioGraphics 2018 38:4, 1111-1130"
+    },
+    {
+      "id": "2019-476",
+      "year": 2019,
+      "questionText": "關於 Avascular necrosis of the knee at MRI 之影像表現，下列何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Absent marrow signal in necrotic marrow"
+        },
+        {
+          "letter": "B",
+          "text": "Edema spares the devascularized infarcted segment"
+        },
+        {
+          "letter": "C",
+          "text": "Double-line sign"
+        },
+        {
+          "letter": "D",
+          "text": "Development of a collapse"
+        }
+      ],
+      "answer": "A",
+      "explanation": "AVN 壞死區骨髓保留原始脂肪訊號，不會呈現 absent marrow signal。Absent marrow signal 是錯誤描述。",
+      "subspecialty": "MSK",
+      "anatomy": "Knee",
+      "concepts": [
+        "avascular-necrosis-knee"
+      ],
+      "source": "Osteochondral Lesions of the Knee. RadioGraphics 2018 38:5, 1478-1495"
+    },
+    {
+      "id": "2019-477",
+      "year": 2019,
+      "questionText": "關於 osteochondritis dissecans 的敘述何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteochondral lesions related to arthritis"
+        },
+        {
+          "letter": "B",
+          "text": "Classic location: lateral aspect of the medial femoral condyle"
+        },
+        {
+          "letter": "C",
+          "text": "Usually occurred in old age"
+        },
+        {
+          "letter": "D",
+          "text": "May associated with meniscal tears"
+        }
+      ],
+      "answer": "B",
+      "explanation": "OCD 典型位於 medial femoral condyle 的 lateral aspect，好發於兒童/青少年，與關節炎無關。",
+      "subspecialty": "MSK",
+      "anatomy": "Knee",
+      "concepts": [
+        "osteochondritis-dissecans"
+      ],
+      "source": "Osteochondral Lesions of the Knee. RadioGraphics 2018 38:5, 1478-1495"
+    },
+    {
+      "id": "2019-478",
+      "year": 2019,
+      "questionText": "The characteristics of involvement of the deep fasciae significantly associated with necrotizing infectious fasciitis include?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Extensive involvement of the deep intermuscular fascia"
+        },
+        {
+          "letter": "B",
+          "text": "Thickening of fascia measuring 3 mm or more at STIR or fat-suppressed T2-weighted imaging"
+        },
+        {
+          "letter": "C",
+          "text": "Involvement of three or more compartments"
+        },
+        {
+          "letter": "D",
+          "text": "Low signal intensity with fat-suppressed T2-weighted imaging in the deep fascia with corresponding nonenhancement on postcontrast images"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "answer": "E",
+      "explanation": "以上四項皆是 NF 深層筋膜侵犯的顯著特徵，可與蜂窩組織炎區分。",
+      "subspecialty": "MSK",
+      "anatomy": "Muscle",
+      "concepts": [
+        "necrotizing-fasciitis-imaging"
+      ],
+      "source": "Soft-Tissue Infections and Their Imaging Mimics. RadioGraphics 2016 36:6, 1888-1910"
+    },
+    {
+      "id": "2019-479",
+      "year": 2019,
+      "questionText": "下列關於 Infectious Myositis 敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The causative agent of pyomyositis is a Gram-positive organism, most frequently S aureus."
+        },
+        {
+          "letter": "B",
+          "text": "Predisposing factors include diabetes, drug use, malnutrition, HIV infection, immunodeficiency, malignancy, and trauma."
+        },
+        {
+          "letter": "C",
+          "text": "Both pyomyositis and viral myositis may progress to intramuscular abscess."
+        },
+        {
+          "letter": "D",
+          "text": "At CT, the affected muscles enlarge and demonstrate decreased attenuation, with effacement of the fat planes between the involved muscles and surrounding soft tissues."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Intramuscular abscess 是 pyomyositis 的標誌性特徵。Viral myositis 不會進展為膿瘍。",
+      "subspecialty": "MSK",
+      "anatomy": "Muscle",
+      "concepts": [
+        "infectious-myositis"
+      ],
+      "source": "Soft-Tissue Infections and Their Imaging Mimics. RadioGraphics 2016 36:6, 1888-1910"
+    },
+    {
+      "id": "2019-480",
+      "year": 2019,
+      "questionText": "Which of the following intracranial lesions is not presented with high signal intensity at T1-weighted imaging?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Meningeal Melanomatosis"
+        },
+        {
+          "letter": "B",
+          "text": "Epidermoid Cysts"
+        },
+        {
+          "letter": "C",
+          "text": "Intracranial teratoma"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatic Encephalopathy"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Epidermoid cysts 在 T1 呈低訊號（類似 CSF），T2 高訊號，DWI 受限。與含脂肪成分的 dermoid 不同。",
+      "subspecialty": "Neuro",
+      "anatomy": "Brain",
+      "concepts": [
+        "intracranial-high-t1"
+      ],
+      "source": "Intracranial Lesions with High Signal Intensity on T1-weighted MR Images. RadioGraphics 2012 32:2, 499-516"
+    },
+    {
+      "id": "2019-481",
+      "year": 2019,
+      "questionText": "下列何者並非 MR imaging characteristics for labral tear?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Irregular labral margins"
+        },
+        {
+          "letter": "B",
+          "text": "Signal intensity parallels the glenoid rim"
+        },
+        {
+          "letter": "C",
+          "text": "Extension: posterior to the long head of the biceps tendon origin or inferior to the 3-o'clock position"
+        },
+        {
+          "letter": "D",
+          "text": "Paralabral cyst"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Signal intensity paralleling the glenoid recess（而非 rim）是正常 sublabral recess 的特徵，非 labral tear。",
+      "subspecialty": "MSK",
+      "anatomy": "Shoulder",
+      "concepts": [
+        "glenoid-labral-lesions"
+      ],
+      "source": "Imaging the Glenoid Labrum and Labral Tears. RadioGraphics 2016 36:6, 1628-1647"
+    },
+    {
+      "id": "2019-482",
+      "year": 2019,
+      "questionText": "下列關於 closed-loop obstruction 敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A segment of bowel that is obstructed at two points along its course"
+        },
+        {
+          "letter": "B",
+          "text": "Impair venous return resulting in ischemia"
+        },
+        {
+          "letter": "C",
+          "text": "Twist or volvulus due to peristalse around its narrow point of obstruction"
+        },
+        {
+          "letter": "D",
+          "text": "Most commonly, the closed loop is caused by defects in the mesentery or omentum"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Closed-loop obstruction 最常見原因是 adhesion（沾黏），而非 mesentery 或 omentum 的缺損。",
+      "subspecialty": "GI",
+      "anatomy": "SB",
+      "concepts": [
+        "closed-loop-obstruction"
+      ],
+      "source": "Review of Small-Bowel Obstruction. Radiology 2015 275:2, 332-342"
+    },
+    {
+      "id": "2019-483",
+      "year": 2019,
+      "questionText": "關於 posttreatment imaging in head and neck cancer 之敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Myocutaneous flaps will gradually show denervation atrophy, which causes volume loss and fatty replacement of the muscle."
+        },
+        {
+          "letter": "B",
+          "text": "Blurred boundaries between the flap and the adjacent normal structures are commonly seen due to benign postoperative change."
+        },
+        {
+          "letter": "C",
+          "text": "Radical neck dissection involves the removal of the ipsilateral levels I-V lymph nodes, sternocleidomastoid muscle, internal jugular vein, submandibular gland, and spinal accessory nerve."
+        },
+        {
+          "letter": "D",
+          "text": "Tumor recurrence is identified as a slightly expansile lesion in the operative bed or as progressive thickening of soft tissues deep to the flap."
+        }
+      ],
+      "answer": "B",
+      "explanation": "良性術後變化表現為皮瓣與鄰近組織間邊界清晰（sharp），blurred boundaries 反而提示腫瘤復發。",
+      "subspecialty": "Neuro",
+      "anatomy": "HN",
+      "concepts": [
+        "posttreatment-head-neck-cancer"
+      ],
+      "source": "Posttreatment CT and MR Imaging in Head and Neck Cancer. RadioGraphics 2012 32:5, 1261-1282"
+    },
+    {
+      "id": "2019-484",
+      "year": 2019,
+      "questionText": "Which of the following bronchiectasis is lower lung predominant?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cystic Fibrosis"
+        },
+        {
+          "letter": "B",
+          "text": "Bronchiolitis obliterans"
+        },
+        {
+          "letter": "C",
+          "text": "Primary Ciliary Dyskinesia"
+        },
+        {
+          "letter": "D",
+          "text": "Allergic bronchopulmonary aspergillosis"
+        },
+        {
+          "letter": "E",
+          "text": "Tracheobronchomegaly"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Primary Ciliary Dyskinesia（PCD）的支氣管擴張以下肺野為主。CF 與 ABPA 為上肺/中央，Tracheobronchomegaly 為中央。",
+      "subspecialty": "Chest",
+      "anatomy": "Lung",
+      "concepts": [
+        "bronchiectasis"
+      ],
+      "source": "Bronchiectasis: Mechanisms and Imaging Clues. RadioGraphics 2015 35:4, 1011-1030"
     }
   ]
 }
