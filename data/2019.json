@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 444,
+  "totalQuestions": 453,
   "questions": [
     {
       "id": "2019-001",
@@ -16075,6 +16075,329 @@
         "bronchiectasis"
       ],
       "source": "Bronchiectasis: Mechanisms and Imaging Clues. RadioGraphics 2015 35:4, 1011-1030"
+    },
+    {
+      "id": "2019-485",
+      "year": 2019,
+      "number": 485,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Neuro",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following entity is associated with cytotoxic lesions of the corpus callosum (CLOCCs)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Antiseizure drugs"
+        },
+        {
+          "letter": "B",
+          "text": "Diffuse axonal injury"
+        },
+        {
+          "letter": "C",
+          "text": "Meningoencephalitis"
+        },
+        {
+          "letter": "D",
+          "text": "Hepatic encephalopathy"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "answer": "E",
+      "explanation": "正確答案為 **E**。CLOCCs（cytotoxic lesions of the corpus callosum）可見於多種病因：抗癲癇藥物驟停（最經典）、瀰漫性軸索損傷、腦膜腦炎、肝性腦病變等，以上皆是。",
+      "reference": "2019 交換考詳解；Cytotoxic Lesions of the Corpus Callosum That Show Restricted Diffusion. RadioGraphics 2017;37(2):562-576",
+      "concepts": [
+        "cytotoxic-lesions-corpus-callosum"
+      ]
+    },
+    {
+      "id": "2019-486",
+      "year": 2019,
+      "number": 486,
+      "years": [
+        2019
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "high",
+      "questionText": "關於 paraduodenal hernia 之敘述，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left paraduodenal hernia: the fossa of Landzert"
+        },
+        {
+          "letter": "B",
+          "text": "Right paraduodenal hernia: the fossa of Waldeyer"
+        },
+        {
+          "letter": "C",
+          "text": "Left paraduodenal hernia: dilated small bowel loops lying between the pancreas and stomach to the left of the ligament of Treitz"
+        },
+        {
+          "letter": "D",
+          "text": "Right paraduodenal hernia: presence of mesentery between the inferior vena cava and main portal vein (hernia of foramen of Winslow)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。Right paraduodenal hernia 是小腸經 fossa of Waldeyer 疝出（升結腸系膜與後腹膜先天融合不完全所致），小腸環位於 SMV、SMA 與右結腸血管後方、右下腹腔。選項 D 描述的是 **foramen of Winslow hernia**（網膜孔疝氣），位於 IVC 與 portal vein 之間，並非 right paraduodenal hernia。",
+      "reference": "2019 交換考詳解；CT of Internal Hernias. RadioGraphics 2005;25(4):997-1015",
+      "concepts": [
+        "paraduodenal-hernia"
+      ]
+    },
+    {
+      "id": "2019-487",
+      "year": 2019,
+      "number": 487,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following about invasive lobular carcinoma of breast is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It accounts for 3%-4% of all malignancy of breast"
+        },
+        {
+          "letter": "B",
+          "text": "Often bilateral and multi-centricity"
+        },
+        {
+          "letter": "C",
+          "text": "The features in mammography are poorly defined opacity and architectural distortion"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。ILC 為第二常見的浸潤性乳癌，佔所有乳癌約 5-10%（選項 A 所列 3-4% 偏低但大方向正確）；ILC 較常為雙側及多中心（10-15%）；乳房攝影常表現為邊界不清的不對稱密度或結構扭曲（architectural distortion），亦可表現為 spiculated mass。",
+      "reference": "2019 交換考詳解；Radiographics 2009;29(1):165-76",
+      "concepts": [
+        "invasive-lobular-carcinoma"
+      ]
+    },
+    {
+      "id": "2019-488",
+      "year": 2019,
+      "number": 488,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "How can we decrease radiation doses when performing film-screen mammography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "No grid for breast with higher fatty content"
+        },
+        {
+          "letter": "B",
+          "text": "Use fast screen/film"
+        },
+        {
+          "letter": "C",
+          "text": "Extended processing"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。降低傳統底片式乳房攝影劑量的三種方法皆正確：(A) 脂肪型乳房散射少，可省略 grid 降低劑量；(B) 快速增感屏/底片系統感度高，降低所需曝光量；(C) 延長顯影處理可增加底片感度。",
+      "reference": "2019 交換考詳解；Comparison of Digital Mammography and Screen-Film Mammography. AJR 2009",
+      "concepts": [
+        "mammography-dose-reduction-techniques"
+      ]
+    },
+    {
+      "id": "2019-489",
+      "year": 2019,
+      "number": 489,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following statement about breast is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gynecomastia is not a risk factor of male breast cancer"
+        },
+        {
+          "letter": "B",
+          "text": "Fibroadenoma typically shows no enhancement on enhanced T1WI"
+        },
+        {
+          "letter": "C",
+          "text": "Adenosis is only found in elder women."
+        },
+        {
+          "letter": "D",
+          "text": "Phyllodes tumor typically shows halo sign on mammography due to compression of surrounding tissue."
+        }
+      ],
+      "answer": "A",
+      "explanation": "官方答案為 **A**，但此答案有爭議。NIH 研究顯示 gynecomastia（與 Klinefelter syndrome 及肥胖獨立）與男性乳癌風險增加 10 倍有關，因此 A 敘述可能為錯誤。選項 D（Phyllodes tumor 呈 halo sign）可能為較正確的選項。",
+      "disputedAnswer": "D",
+      "reference": "2019 交換考詳解；Radiology Review Manual 6th edition, page 566-569",
+      "concepts": [
+        "gynecomastia-imaging",
+        "male-breast-cancer",
+        "phyllodes-tumor"
+      ]
+    },
+    {
+      "id": "2019-490",
+      "year": 2019,
+      "number": 490,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which description about pulmonary embolism is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Predisposing factors include prolonged immobilization and the frequency of surgical procedures."
+        },
+        {
+          "letter": "B",
+          "text": "CT pulmonary angiography has a very low sensitivity and high specificity and negative predictive value"
+        },
+        {
+          "letter": "C",
+          "text": "A peripheral area of more or less wedge-shaped consolidation may indicate associated infarction (Hampton's hump)"
+        },
+        {
+          "letter": "D",
+          "text": "The chest radiograph is of limited value. It may be normal or reveal non-specific atelectasis."
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。CTPA 對肺栓塞的敏感度為**高**（83-100%），並非 very low sensitivity。CTPA 確實具有高特異度與高陰性預測值。",
+      "reference": "2019 交換考詳解；Adam: Grainger & Allison's Diagnostic Radiology, 5th ed. Chapter 20 p123",
+      "concepts": [
+        "pulmonary-embolism-diagnosis"
+      ]
+    },
+    {
+      "id": "2019-491",
+      "year": 2019,
+      "number": 491,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following about Mounier-Kuhn syndrome is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only children can get Mounier-Kuhn syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Trachea collapse while inspiration and dilatation while expiration"
+        },
+        {
+          "letter": "C",
+          "text": "It is a genetic disorder caused by point mutation of exon 19"
+        },
+        {
+          "letter": "D",
+          "text": "May be associated with some connective tissue disorder, like Ehlers-Danlos syndrome"
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。Mounier-Kuhn syndrome 可合併結締組織疾病如 Ehlers-Danlos syndrome。A 錯：非僅兒童，主要發生於成人。B 錯：方向搞反，氣管在吸氣時擴張、呼氣時塌陷。C 錯：非單一基因點突變所致。",
+      "reference": "2019 交換考詳解；Mounier-Kuhn Syndrome - A Rare Cause of Bronchial Dilation. Tex Heart Inst J. 2011;38(2):194-196",
+      "concepts": [
+        "mounier-kuhn-syndrome"
+      ]
+    },
+    {
+      "id": "2019-492",
+      "year": 2019,
+      "number": 492,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "high",
+      "questionText": "What is false about the possible UIP (usual interstitial pneumonia) pattern (all Three Features) according to 2011 an Official ATS/ERS/JRS/ALAT Statement: Idiopathic Pulmonary Fibrosis: Evidence-based Guidelines for Diagnosis and Management?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subpleural, basal predominance"
+        },
+        {
+          "letter": "B",
+          "text": "Reticular abnormality"
+        },
+        {
+          "letter": "C",
+          "text": "Honeycombing with or without traction bronchiectasis"
+        },
+        {
+          "letter": "D",
+          "text": "Absence of features listed as inconsistent with UIP pattern"
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。Honeycombing（合併或不合併 traction bronchiectasis）屬於 **definite UIP pattern** 的特徵，而非 possible UIP pattern。Possible UIP pattern 僅包含三項特徵：(1) subpleural, basal predominance、(2) reticular abnormality、(3) absence of inconsistent features。",
+      "reference": "2019 交換考詳解；2011 Official ATS/ERS/JRS/ALAT Statement: IPF Guidelines",
+      "concepts": [
+        "ipf-uip-pattern-criteria"
+      ]
+    },
+    {
+      "id": "2019-493",
+      "year": 2019,
+      "number": 493,
+      "years": [
+        2019
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the following about post-contrast acute kidney injury is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In CKD patients, hydration reduced the post-contrast AKI risk"
+        },
+        {
+          "letter": "B",
+          "text": "Dialysis schedule should be change into the same day of contrast agent administration"
+        },
+        {
+          "letter": "C",
+          "text": "Intravenous normal saline and intravenous sodium bicarbonate provide equally effective prophylaxis"
+        },
+        {
+          "letter": "D",
+          "text": "No drugs have been consistently shown to reduce the risk of PC-AKI"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。不需要因為注射含碘對比劑而將透析時間提前到注射當天。對比劑會在下一次常規透析時被清除。A 正確：CKD 病患補液可降低 PC-AKI 風險。C 正確：生理食鹽水與碳酸氫鈉效果相當。D 正確：目前無藥物被一致證實能降低 PC-AKI 風險。",
+      "reference": "2019 交換考詳解；Post-contrast acute kidney injury. Part 2. European Radiology, July 2018",
+      "concepts": [
+        "contrast-induced-aki",
+        "contrast-induced-nephropathy-prevention"
+      ]
     }
   ]
 }
