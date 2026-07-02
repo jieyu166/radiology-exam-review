@@ -186,7 +186,8 @@
       "year": 2019,
       "number": 6,
       "years": [
-        2019
+        2019,
+        2020
       ],
       "subspecialty": "Breast",
       "subspecialty_confidence": "manual",
@@ -213,7 +214,9 @@
       "reference": "",
       "explanation": "低於超音波，mammo基本上看不到intra-capsular rupture。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-implant-rupture-imaging"
+      ],
       "checked": false
     },
     {

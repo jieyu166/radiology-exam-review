@@ -93,6 +93,9 @@ dateRev: 2026-06-29
 > [!question]- Which type of microcalcifications in mammography dose it indicate malignancy? (2020-346)
 > **Fine pleomorphic（D）**——細多形鈣化屬可疑型態(BI-RADS 4)，PPV約29-58%。Popcorn、eggshell(rim)、milk of calcium皆為典型良性鈣化型態。[^1][^2]
 
+> [!question]- According to the ACR BI-RADS 5th edition, which one of the suspicious calcifications has the lowest PPV? (2020-386)
+> **Amorphous（B）**——三種可疑鈣化型態(amorphous、coarse heterogeneous、fine pleomorphic)皆列4B類，其中amorphous之PPV最低(約7.2-10.5%)，低於coarse heterogeneous(約13%平均)。[^2]
+
 > [!question]- Which of the following description about breast calcification is WRONG? (2020-302)
 > **可疑鈣化型態包括amorphous、coarse heterogeneous、dystrophic、fine pleomorphic、fine-linear/fine-linear branching（A）**為錯誤——**dystrophic實屬典型良性型態**，不應列入可疑型態清單（可疑型態僅四類，不含dystrophic）。Fine-linear/branching於可疑型態中PPV最高、rim鈣化為oil cyst典型表現、大而邊界銳利合併爆米花狀鈣化為involuting fibroadenoma典型表現，皆正確。[^1][^2]
 

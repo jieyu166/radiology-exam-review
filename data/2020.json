@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 383,
+  "totalQuestions": 388,
   "questions": [
     {
       "id": "2020-001",
@@ -14041,6 +14041,191 @@
       "images": [],
       "concepts": [
         "thyroglossal-duct-cyst"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-384",
+      "year": 2020,
+      "number": 384,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about the US findings of pediatric thyroid papillary carcinoma is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyperchoic solid nodule compared with the adjacent normal thyroid parenchyma."
+        },
+        {
+          "letter": "B",
+          "text": "Prominent perinodular and/or intranodular vascular flow."
+        },
+        {
+          "letter": "C",
+          "text": "Irregular border."
+        },
+        {
+          "letter": "D",
+          "text": "Enlarged glands with diffuse microcalcifications."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: US of Pediatric Superficial Masses of the Head and Neck, RadioGraphics 2018; 38:1239-1263",
+      "explanation": "兒童甲狀腺乳突癌超音波典型呈**低回音(hypoechoic)**（非高回音）之實質結節，相對於鄰近正常甲狀腺實質；結節周邊/內部血流增加、邊界不規則、彌漫性甲狀腺腫大合併微鈣化，皆為正確之惡性特徵。故A敘述錯誤。",
+      "images": [],
+      "concepts": [
+        "pediatric-neck-mass-us-findings"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-385",
+      "year": 2020,
+      "number": 385,
+      "years": [
+        2020
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about the US findings of pediatric lymphangiomas is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "They most often affect the head and neck regions and consist of variably sized cystic spaces."
+        },
+        {
+          "letter": "B",
+          "text": "At US, lymphangiomas generally appear as multilocular cystic masses containing internal septa of varying thickness."
+        },
+        {
+          "letter": "C",
+          "text": "Hyperechoic content might be observed if there is internal hemorrhage, infection, or an elevated lipid content"
+        },
+        {
+          "letter": "D",
+          "text": "Lack of Doppler flow on the internal septa."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: US of Pediatric Superficial Masses of the Head and Neck, RadioGraphics 2018; 38:1239-1263",
+      "explanation": "都卜勒超音波檢查時，淋巴管瘤之內部分隔**可見動脈或靜脈血流**（並非缺乏都卜勒血流），故D敘述錯誤。淋巴管瘤最常侵犯頭頸部並由大小不一之囊性空間組成、超音波典型呈多房囊性腫塊合併厚薄不一之內部分隔、合併出血/感染/脂質含量增加時可見高回音內容物，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "pediatric-neck-mass-us-findings"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-386",
+      "year": 2020,
+      "number": 386,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to the ACR BI-RADS 5th edition, which one of the suspicious calcifications has the lowest PPV?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fine pleomorphic"
+        },
+        {
+          "letter": "B",
+          "text": "Amorphous"
+        },
+        {
+          "letter": "C",
+          "text": "Fine-linear or fine-linear branching"
+        },
+        {
+          "letter": "D",
+          "text": "Coarse heterogenous"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: ACR BI-RADS Atlas 5th edition",
+      "explanation": "ACR BI-RADS第5版中，三種可疑鈣化型態(amorphous、coarse heterogeneous、fine pleomorphic)皆列為4B類，PPV介於13-26%(平均20%)；其中amorphous(無定形)鈣化之PPV最低，文獻報告約7.2-10.5%，低於coarse heterogeneous(約13%平均)。",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-387",
+      "year": 2020,
+      "number": 387,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following statements is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The detection of more disease at breast MRI has not been translated into improved outcomes."
+        },
+        {
+          "letter": "B",
+          "text": "Abbreviated MRI had been reported to have equivalent diagnostic accuracy compared to full protocols."
+        },
+        {
+          "letter": "C",
+          "text": "DWI are sensitive enough to replace contrast-enhanced breast MRI."
+        },
+        {
+          "letter": "D",
+          "text": "The American Cancer Society and the American College of Radiology categorize women with a lifetime risk of more than 20% as high risk, and recommend annual screening MRI and mammography in this subset of women."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Breast MRI: State of the Art, Radiology 2019; 292:520-536",
+      "explanation": "擴散加權影像(DWI)雖具良好敏感度(如ADC切點0.92×10⁻³mm²/s提供91.5%敏感度、86.5%特異度)，但**尚不足以取代顯影劑加強乳房MRI(DCE-MRI)**（DCE-MRI單獨敏感度達97.9%），故C敘述錯誤。乳房MRI偵測更多病灶未必轉化為更好預後、簡化版MRI已有報告顯示與完整方案診斷準確度相當、終生風險>20%者建議每年篩檢MRI合併乳房攝影，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "breast-mri-screening-role"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-388",
+      "year": 2020,
+      "number": 388,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "On breast MRI, a focus is a dot of enhancement which is too small to be otherwise characterized. Which one of the following features does not make a focus more likely to be benign?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "High signal intensity on T2WI."
+        },
+        {
+          "letter": "B",
+          "text": "No fatty hilum."
+        },
+        {
+          "letter": "C",
+          "text": "Persistent kinetics."
+        },
+        {
+          "letter": "D",
+          "text": "Stable since the prior examination."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: ACR-BIRADS atlas, 2013, p33",
+      "explanation": "Focus(直徑<5mm、無法進一步定性之點狀強化病灶)為良性之特徵包含：T2WI高訊號(如囊腫/淋巴結/脂肪壞死，但膠樣癌為例外)、持續型(Type I)強化動力學、與前次檢查相比穩定不變。「無脂肪門(no fatty hilum)」為淋巴結相關描述(正常淋巴結應具脂肪門)，並非focus良性與否之判斷依據，故B為不使focus更可能良性之選項。",
+      "images": [],
+      "concepts": [
+        "breast-mri-focus-characterization"
       ],
       "checked": false
     }
