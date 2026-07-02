@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 217,
+  "totalQuestions": 219,
   "questions": [
     {
       "id": "2020-001",
@@ -7823,6 +7823,80 @@
       "images": [],
       "concepts": [
         "brain-abscess"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-218",
+      "year": 2020,
+      "number": 218,
+      "years": [
+        2020
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which type of asymmetry identified at mammography has the MOST malignant likelihood of malignancy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Focal asymmetry (2%)"
+        },
+        {
+          "letter": "B",
+          "text": "Palpable global asymmetry (8%)"
+        },
+        {
+          "letter": "C",
+          "text": "Non palpable global asymmetry (~0%)"
+        },
+        {
+          "letter": "D",
+          "text": "Developing asymmetry (13-27%)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: ACR BIRADS Atlas mammography P95 2013",
+      "explanation": "四型不對稱惡性風險排序：developing asymmetry（新增/變大，惡性率13-27%，篩檢偵測PPV約13%、診斷性偵測PPV約27%）> palpable global asymmetry（8%）> focal asymmetry（2%）> non-palpable global asymmetry（幾近0%）。惡性風險最高者為developing asymmetry，因其代表「新出現或較前片變大」，此變化本身即為重要警訊，即使超音波無對應病灶亦不應省略切片。詳見[[breast-asymmetry]]。",
+      "images": [],
+      "concepts": [
+        "breast-asymmetry"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-219",
+      "year": 2020,
+      "number": 219,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列有關superficial siderosis下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "臨床上表現以ataxia或兩側sensorineural hearing loss."
+        },
+        {
+          "letter": "B",
+          "text": "常見的原因是重複性subarachnoid hemorrhages"
+        },
+        {
+          "letter": "C",
+          "text": "磁振造影以T2* GRE最易顯示病灶位置。"
+        },
+        {
+          "letter": "D",
+          "text": "病灶分布以小腦表面為主，顱神經表面不常見"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解（北醫）；Ref: Diagnostic imaging—Brain I2-3-7-9",
+      "explanation": "顱神經表面（尤其CN VIII前庭耳蝸神經）之含鐵血黃素沉積並不罕見，是造成雙側感音性聽力喪失（見於約95%病人）之機轉——CN VIII具長段cisternal course、暴露於蛛網膜下腔且microglial cells對鐵化合物敏感，故顱神經表面沉積並非「不常見」，選項D敘述錯誤。臨床表現：sensorineural hearing loss（雙側、漸進，~95%最常見）、cerebellar ataxia（~90%）、pyramidal signs（~75%）。常見病因為重複性蛛網膜下腔出血。MRI以T2*/SWI（susceptibility-weighted）序列最易顯示腦幹與小腦表面（小腦vermis與folia為偵測細微沉積之佳部位）之低訊號含鐵血黃素緣，長期病例可合併小腦萎縮。",
+      "images": [],
+      "concepts": [
+        "superficial-siderosis"
       ],
       "checked": false
     }

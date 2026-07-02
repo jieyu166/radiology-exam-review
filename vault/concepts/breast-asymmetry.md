@@ -50,6 +50,9 @@ dateRev: 2026-06-29
 > [!note] 考點
 > Focal asymmetry＝**兩投影皆見、concave-outward 邊界、缺 mass 的 convex**;developing＝新／變大、~15% 惡性（PPV 篩檢 ~12.8%／診斷 ~26.7%）、US 陰性仍切片;**developing > focal > global**;asymmetry（單一投影）多為 summation 疊影。[^1][^2][^3]
 
+> [!question]- Which type of asymmetry identified at mammography has the MOST malignant likelihood of malignancy? (2020-218)
+> **Developing asymmetry（D，13-27%）**——依惡性風險排序：developing(13-27%) > palpable global(8%) > focal(2%) > non-palpable global(~0%)。[^1]
+
 ### 參考來源
 [^1]: 教科書／圖譜級。ACR BI-RADS Atlas 5th ed.（2013）, Mammography — Asymmetries：focal asymmetry「visible on and has a similar shape on different mammographic projections ... lacks the **convex-outward borders** ... borders are **concave-outward**」;developing asymmetry「new, larger, or more conspicuous ... **Approximately 15%** ... malignant ... Absence of a sonographic correlate ... should not avert biopsy」;asymmetry「seen on only one projection」、global asymmetry 多為正常變異。
 [^2]: 期刊原始系列（一級）。Leung JWT, Sickles EA. *Developing Asymmetry Identified on Mammography: Correlation with Imaging Outcome and Pathologic Findings.* AJR Am J Roentgenol 2007;188(3):667–675. DOI:10.2214/AJR.06.0413。發展性不對稱：篩檢偵測 PPV1 ~12.8%、診斷性偵測 PPV1 ~26.7%;「the likelihood of malignancy is sufficiently high to justify recall and biopsy」、「Normal sonographic findings do not exclude malignancy in the case of developing asymmetry」。
