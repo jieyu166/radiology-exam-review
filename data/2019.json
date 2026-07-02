@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 375,
+  "totalQuestions": 394,
   "questions": [
     {
       "id": "2019-001",
@@ -13619,6 +13619,717 @@
       "images": [],
       "concepts": [
         "chronic-pulmonary-thromboembolism"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-411",
+      "year": 2019,
+      "number": 411,
+      "years": [
+        2019
+      ],
+      "subspecialty": "Chest",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding pulmonary complications of hematologic malignancy. Which is NOT true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pulmonary hemorrhage, leukostasis, pneumonia are the most common pulmonary complications"
+        },
+        {
+          "letter": "B",
+          "text": "Leukostasis is difficult to differentiate from pulmonary hemorrhage radiologically"
+        },
+        {
+          "letter": "C",
+          "text": "CMV and RSV viral pneumonia are usually found during the period of 31-100 days after transplantation"
+        },
+        {
+          "letter": "D",
+          "text": "Findings of CMV pneumonia include bilateral parenchymal opacities and innumerable nodules"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Leukostasis 以 interstitial pattern 為主，pulmonary hemorrhage 以 alveolar consolidation 為主，影像上**可以區分**。詳見 [[hematologic-malignancy-pulmonary]]。",
+      "images": [],
+      "concepts": [
+        "hematologic-malignancy-pulmonary"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-412",
+      "year": 2019,
+      "number": 412,
+      "years": [
+        2016,
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "The \"gut signature\" is disrupted in which of the following diseases?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colon carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Early Crohn's disease"
+        },
+        {
+          "letter": "C",
+          "text": "Ulcerative colitis"
+        },
+        {
+          "letter": "D",
+          "text": "Diverticulosis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。Colon carcinoma 侵犯腸壁全層，破壞正常 gut signature（五層結構消失）。Early Crohn's、UC、diverticulosis 雖影響腸壁但仍保留基本層狀結構。詳見 [[bowel-wall-layers]]。",
+      "images": [],
+      "concepts": [
+        "bowel-wall-layers"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-413",
+      "year": 2019,
+      "number": 413,
+      "years": [
+        2016,
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which type of osteosarcoma has the best prognosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conventional (intramedullary)"
+        },
+        {
+          "letter": "B",
+          "text": "Parosteal"
+        },
+        {
+          "letter": "C",
+          "text": "Periosteal"
+        },
+        {
+          "letter": "D",
+          "text": "Telangiectatic"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Parosteal osteosarcoma 為 low-grade surface osteosarcoma，預後最好（5年存活率 >90%）。Conventional 與 telangiectatic 為 high-grade。詳見 [[parosteal-osteosarcoma]]。",
+      "images": [],
+      "concepts": [
+        "parosteal-osteosarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-414",
+      "year": 2019,
+      "number": 414,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Compared with pyogenic spondylitis, which is NOT a common feature of TB spondylitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Panvertebral involvement"
+        },
+        {
+          "letter": "B",
+          "text": "Early and severe disc destruction"
+        },
+        {
+          "letter": "C",
+          "text": "Subligamentous spread of large paraspinal abscesses"
+        },
+        {
+          "letter": "D",
+          "text": "Skip lesions"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Early and severe disc destruction 是 pyogenic spondylitis 的特徵，非 TB。TB spondylitis 特徵為 relative disc preservation、subligamentous spread、skip lesions、panvertebral involvement。詳見 [[tb-spondylitis]]。",
+      "images": [],
+      "concepts": [
+        "tb-spondylitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-415",
+      "year": 2019,
+      "number": 415,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT a common finding of scurvy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Frankel line"
+        },
+        {
+          "letter": "B",
+          "text": "Beaking at metaphysis"
+        },
+        {
+          "letter": "C",
+          "text": "Periosteal elevation"
+        },
+        {
+          "letter": "D",
+          "text": "Hypoplasia of epiphysis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。Epiphyseal hypoplasia 不是 scurvy 的典型表現。Scurvy 特徵包括 Frankel line、beaking/corner sign、periosteal elevation（subperiosteal hemorrhage）。詳見 [[scurvy-skeletal]]。",
+      "images": [],
+      "concepts": [
+        "scurvy-skeletal"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-416",
+      "year": 2019,
+      "number": 416,
+      "years": [
+        2017,
+        2019
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding adrenal tumors, which statement is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chemical shift MRI can be used to differentiate adenoma from non-adenoma adrenal lesion"
+        },
+        {
+          "letter": "B",
+          "text": "Unenhanced CT value less than 10HU is suggestive of adrenal adenoma"
+        },
+        {
+          "letter": "C",
+          "text": "Myelolipoma cannot be diagnosed from fat-suppression MRI or non-contrast CT"
+        },
+        {
+          "letter": "D",
+          "text": "Fat-containing adrenal metastases can be misleading"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Myelolipoma 含大量 macroscopic fat，在 non-contrast CT 可見明顯脂肪密度（<-30 HU），fat-suppression MRI 亦可見 signal drop。因此 C 敘述錯誤。詳見 [[adrenal-adenoma]]。",
+      "images": [],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-417",
+      "year": 2019,
+      "number": 417,
+      "years": [
+        2019,
+        2022
+      ],
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT a TI-RADS assessment item?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Echogenicity"
+        },
+        {
+          "letter": "B",
+          "text": "Shape"
+        },
+        {
+          "letter": "C",
+          "text": "Vascularity"
+        },
+        {
+          "letter": "D",
+          "text": "Echogenic foci"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。ACR TI-RADS 五項評估為 composition、echogenicity、shape、margin、echogenic foci。Vascularity 不在其中。詳見 [[ti-rads]]。",
+      "images": [],
+      "concepts": [
+        "ti-rads"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-418",
+      "year": 2019,
+      "number": 418,
+      "years": [
+        2018,
+        2019
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding gadolinium deposition in brain, which statement is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Only happens in patients with renal insufficiency"
+        },
+        {
+          "letter": "B",
+          "text": "Only associated with linear gadolinium agents"
+        },
+        {
+          "letter": "C",
+          "text": "The clinical significance of gadolinium deposition remains unknown"
+        },
+        {
+          "letter": "D",
+          "text": "Can only be detected by inductively coupled plasma mass spectrometry (ICPMS), not by in vivo MRI"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Gd 沉積的臨床意義仍未知。A 錯（腎功能正常者亦可發生）、B 錯（linear 為主但 macrocyclic 亦有報告）、D 錯（T1WI 上可見 dentate nucleus/globus pallidus 訊號增加）。詳見 [[gadolinium-contrast]]。",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-419",
+      "year": 2019,
+      "number": 419,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT true about TACE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lidocaine added to the chemotherapy mixture decreases the analgesic requirements post-embolization"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein visualization of iodized oil in post-procedure CT implies recurrence of HCC"
+        },
+        {
+          "letter": "C",
+          "text": "Grade 0 portal vein visualization is the best prognosis"
+        },
+        {
+          "letter": "D",
+          "text": "The blockage of the blood supply at the level of the distal subsegmental artery is important"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **C**。Portal vein visualization grading：grade 0 = 沒有 lipiodol 進入 portal vein，但這不代表預後最好。Portal vein visualization 反映 TACE 的滲透程度，適度滲透反映較佳的治療效果。詳見 [[tace]]。",
+      "images": [],
+      "concepts": [
+        "tace"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-422",
+      "year": 2019,
+      "number": 422,
+      "years": [
+        2019
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which statement about pinch-off syndrome is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The lumen of the central venous catheter is compromised between the clavicle and the first rib"
+        },
+        {
+          "letter": "B",
+          "text": "Lateral subclavian vein insertion is more vulnerable to pinch-off"
+        },
+        {
+          "letter": "C",
+          "text": "The catheter may fragment and embolize to the heart or pulmonary artery"
+        },
+        {
+          "letter": "D",
+          "text": "Pinch-off sign can be recognized on chest X-ray"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。**Medial** insertion 更容易被 costoclavicular space 夾擠，非 lateral。詳見 [[pinch-off-syndrome]]。",
+      "images": [],
+      "concepts": [
+        "pinch-off-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-423",
+      "year": 2019,
+      "number": 423,
+      "years": [
+        2019
+      ],
+      "subspecialty": "BR",
+      "subspecialty_confidence": "high",
+      "questionText": "關於由 digital breast tomosynthesis (DBT) 重建之 Synthetic Mammography (SM)，下列何者敘述錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SM/DBT combo 較 FFDM/DBT combo 可減少篩檢劑量"
+        },
+        {
+          "letter": "B",
+          "text": "SM 優勢包含 calcification conspicuity 增加、spiculated margin 與 architectural distortion 偵測提升"
+        },
+        {
+          "letter": "C",
+          "text": "SM 缺點包含 blurring subcutaneous tissue、axilla 解析度降低、pseudocalcifications、foreign body 附近解析度降低"
+        },
+        {
+          "letter": "D",
+          "text": "以上皆錯"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**（D 是錯誤敘述，因為 A-C 全部正確）。SM 由 DBT 重建不需額外輻射，具有特定優缺點。詳見 [[synthetic-mammography]]。",
+      "images": [],
+      "concepts": [
+        "synthetic-mammography"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-424",
+      "year": 2019,
+      "number": 424,
+      "years": [
+        2016,
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding McCune-Albright syndrome, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GNAS1 mutation at 20q13.2"
+        },
+        {
+          "letter": "B",
+          "text": "Polyostotic fibrous dysplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Endocrine hyperfunction"
+        },
+        {
+          "letter": "D",
+          "text": "Precocious puberty is more common in males"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。McCune-Albright syndrome 的 precocious puberty 在男女發生率相當（或女性更多），非男性較多。Triad：polyostotic FD + café-au-lait spots + endocrine hyperfunction。詳見 [[mccune-albright]]。",
+      "images": [],
+      "concepts": [
+        "mccune-albright"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-425",
+      "year": 2019,
+      "number": 425,
+      "years": [
+        2019,
+        2024
+      ],
+      "subspecialty": "H&N",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding ameloblastoma, which statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Histologically benign but locally aggressive"
+        },
+        {
+          "letter": "B",
+          "text": "May present with oral and facial symptoms"
+        },
+        {
+          "letter": "C",
+          "text": "Soap bubble appearance on panoramic radiograph"
+        },
+        {
+          "letter": "D",
+          "text": "Most commonly found in maxilla"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。Ameloblastoma 最常見於 **mandible**（約 80%），非 maxilla。詳見 [[ameloblastoma]]。",
+      "images": [],
+      "concepts": [
+        "ameloblastoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-426",
+      "year": 2019,
+      "number": 426,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Umbilical venous catheter (UVC) does NOT traverse which of the following structures?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ductus venosus"
+        },
+        {
+          "letter": "B",
+          "text": "Portal vein"
+        },
+        {
+          "letter": "C",
+          "text": "Portal sinus"
+        },
+        {
+          "letter": "D",
+          "text": "Inferior vena cava"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。UVC 正常路徑：umbilical vein → portal sinus → ductus venosus → IVC。Portal vein（右門脈分支等）不在正常路徑上，進入 portal vein 為 malposition。詳見 [[uvc-catheter-route]]。",
+      "images": [],
+      "concepts": [
+        "uvc-catheter-route"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-427",
+      "year": 2019,
+      "number": 427,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT a musculoskeletal manifestation of congenital syphilis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Wimberger's ring sign"
+        },
+        {
+          "letter": "B",
+          "text": "Metaphyseal lucent bands"
+        },
+        {
+          "letter": "C",
+          "text": "Symmetrical periosteal reaction"
+        },
+        {
+          "letter": "D",
+          "text": "Celery stalk metaphysis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **A**。Wimberger **ring** sign 是 scurvy 的特徵（epiphysis 周圍環狀密度增加），而非 congenital syphilis。注意：Wimberger **sign**（proximal tibial metaphysis 內側破壞）才是 congenital syphilis。詳見 [[congenital-syphilis-skeletal]]。",
+      "images": [],
+      "concepts": [
+        "congenital-syphilis-skeletal"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-428",
+      "year": 2019,
+      "number": 428,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding meconium peritonitis, which statement is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a chemical peritonitis caused by in utero bowel perforation"
+        },
+        {
+          "letter": "B",
+          "text": "Fibroadhesive type is the most common"
+        },
+        {
+          "letter": "C",
+          "text": "Water-soluble contrast enema can be used for differential diagnosis"
+        },
+        {
+          "letter": "D",
+          "text": "No case requires surgery despite calcification, ascites, or pseudocyst"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **D**。嚴重 meconium peritonitis（伴有 calcification + ascites + pseudocyst）仍可能需要手術。並非所有病例都不需手術。詳見 [[meconium-peritonitis]]。",
+      "images": [],
+      "concepts": [
+        "meconium-peritonitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-429",
+      "year": 2019,
+      "number": 429,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which is NOT a characteristic finding of optic nerve sheath meningioma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Intratumor calcification"
+        },
+        {
+          "letter": "B",
+          "text": "Hypointense pseudocapsule"
+        },
+        {
+          "letter": "C",
+          "text": "Tram-tracking enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "Perioptic cyst"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。Hypointense pseudocapsule 不是 ONSM 的特徵。ONSM 典型表現包括 intratumor calcification、tram-tracking enhancement、perioptic cyst。詳見 [[optic-nerve-sheath-meningioma]]。",
+      "images": [],
+      "concepts": [
+        "optic-nerve-sheath-meningioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-430",
+      "year": 2019,
+      "number": 430,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which CNS disease has a relapsing-remitting course?",
+      "options": [
+        {
+          "letter": "a",
+          "text": "Leukodystrophies"
+        },
+        {
+          "letter": "b",
+          "text": "Neuro-Behcet disease"
+        },
+        {
+          "letter": "c",
+          "text": "CADASIL"
+        },
+        {
+          "letter": "d",
+          "text": "Reversible migrainous stroke"
+        }
+      ],
+      "correctAnswer": "d",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **d**。Reversible migrainous stroke 具有 relapsing-remitting 病程。Leukodystrophies 為進行性退化、CADASIL 為進行性小血管病變、Neuro-Behcet 雖可復發但以 progressive 為主。詳見 [[relapsing-remitting-cns]]。",
+      "images": [],
+      "concepts": [
+        "relapsing-remitting-cns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2019-431",
+      "year": 2019,
+      "number": 431,
+      "years": [
+        2016,
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Regarding CLIPPERS (chronic lymphocytic inflammation with pontine perivascular enhancement responsive to steroids), which statement is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is a brainstem encephalitis centered on the pons"
+        },
+        {
+          "letter": "B",
+          "text": "It shows prominent vasogenic edema"
+        },
+        {
+          "letter": "C",
+          "text": "It is responsive to corticosteroids"
+        },
+        {
+          "letter": "D",
+          "text": "It shows punctate and curvilinear enhancement predominantly in the pons"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2019 交換考詳解",
+      "explanation": "正確答案為 **B**。CLIPPERS 的特徵為**無明顯 vasogenic edema**（lack of significant edema），這是與其他 brainstem lesions 鑑別的重要線索。詳見 [[clippers]]。",
+      "images": [],
+      "concepts": [
+        "clippers"
       ],
       "checked": false
     }
