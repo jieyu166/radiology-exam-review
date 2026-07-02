@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 369,
+  "totalQuestions": 376,
   "questions": [
     {
       "id": "2020-001",
@@ -13523,6 +13523,265 @@
       "images": [],
       "concepts": [
         "bone-lesion-sclerotic-border"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-370",
+      "year": 2020,
+      "number": 370,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MS",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is the \"Do not touch lesions\"of bone?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoblastoma"
+        },
+        {
+          "letter": "B",
+          "text": "Giant cell tumor"
+        },
+        {
+          "letter": "C",
+          "text": "Langerhans cells histiocytosis"
+        },
+        {
+          "letter": "D",
+          "text": "Nonossifying fibroma"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Systematic Approach to Musculoskeletal Benign Tumors, 2017",
+      "explanation": "「Do not touch lesions」為影像特徵典型到不需切片即可確診之良性骨病灶，包含良性腫瘤(纖維皮質缺損、非骨化性纖維瘤、皮質性纖維瘤、小範圍纖維性發育不良、血友病假瘤、骨內神經節、短管狀骨內生軟骨瘤)與非腫瘤性病灶(應力性骨折、撕脫性骨折、骨梗塞、骨島、肌炎骨化症、外傷後囊腫、棕色瘤、椎間盤性椎體硬化)。骨母細胞瘤、巨細胞瘤、Langerhans細胞組織球增生症皆非此類典型病灶。",
+      "images": [],
+      "concepts": [
+        "do-not-touch-bone-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-371",
+      "year": 2020,
+      "number": 371,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following type of intracranial hernia less frequently affects the posterior circulation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Subfalcine"
+        },
+        {
+          "letter": "B",
+          "text": "Transtentorial descending"
+        },
+        {
+          "letter": "C",
+          "text": "Transtentorial ascending"
+        },
+        {
+          "letter": "D",
+          "text": "Tonsillar"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Types of Cerebral Herniation and Their Imaging Features, RadioGraphics 2019 39:6, 1598-1610",
+      "explanation": "大腦鐮下疝(subfalcine)主要壓迫前大腦動脈(anterior cerebral artery)，屬前循環，較少侵犯後循環；下行經天幕疝(transtentorial descending)壓迫後大腦動脈與脈絡叢動脈；上行經天幕疝(transtentorial ascending)壓迫後大腦動脈與小腦上動脈；小腦扁桃體疝(tonsillar)壓迫小腦後下動脈；三者皆屬後循環血管壓迫。",
+      "images": [],
+      "concepts": [
+        "cerebral-herniation-types"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-372",
+      "year": 2020,
+      "number": 372,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about posterior reversible encephalopathy syndrome is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It's a process with potentially reversible subcortical vasogenic brain edema."
+        },
+        {
+          "letter": "B",
+          "text": "Most of the patients have the presentation of elevated blood pressure."
+        },
+        {
+          "letter": "C",
+          "text": "Common imaging findings include bilateral asymmetric high T2-weighted and FLAIR lesions without diffusion restriction."
+        },
+        {
+          "letter": "D",
+          "text": "The complications include subarachnoid hemorrhage and infarction."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, RadioGraphics 2019 39:6, 1672-1695",
+      "explanation": "傳統認為PRES為高血壓致腦血管自體調節失能之病理過程，但此理論無法解釋所有臨床/影像表現；實際上多數病患僅呈現輕度血壓上升，且約20-30%病患血壓正常(normotensive)，故B「多數病患呈現血壓上升」之敘述雖部分正確但易誤導、經官方認定為錯誤敘述（更準確而言：多數僅輕度上升，非典型「血壓上升」表現）。潛在可逆之皮質下血管源性水腫、雙側不對稱T2/FLAIR高訊號病灶無擴散受限、可能併發蜘蛛膜下腔出血與腦梗塞(10-25%梗塞、15%出血)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-373",
+      "year": 2020,
+      "number": 373,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about carbon monoxide poisoning is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyperintensities on T2-weighted and FLAIR images with a thin hypointense rim around the lesion caused by hemorrhage."
+        },
+        {
+          "letter": "B",
+          "text": "Also symmetric diffusion restriction in bilateral globi pallidi."
+        },
+        {
+          "letter": "C",
+          "text": "The second most common site is cerebral white matter."
+        },
+        {
+          "letter": "D",
+          "text": "The white matter signal change is irreversible."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Imaging Patterns of Toxic and Metabolic Brain Disorders, RadioGraphics 2019 39:6, 1672-1695",
+      "explanation": "一氧化碳中毒次發之遲發性白質病變(delayed leukoencephalopathy)於亞急性期(初次中毒後數週)出現，呈瀰漫雙側對稱融合性T2/FLAIR白質高訊號，數月後可完全或部分消退(可逆)，並非不可逆，故D敘述錯誤。病灶周邊因出血呈薄層T2低訊號邊緣、雙側蒼白球對稱性擴散受限、第二常見侵犯部位為大腦白質，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-374",
+      "year": 2020,
+      "number": 374,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about cerebral venous thrombosis (CVT) is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CVT causes decreased blood pressure."
+        },
+        {
+          "letter": "B",
+          "text": "Neurological defect is the most common presentation."
+        },
+        {
+          "letter": "C",
+          "text": "Both vasogenic and cytotoxic edema can develop."
+        },
+        {
+          "letter": "D",
+          "text": "The first-line image modality for CVT is contrast-enhanced CT."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Radiologic Clues to Cerebral Venous Thrombosis, RadioGraphics 2019 39:6, 1611-1628",
+      "explanation": "CVT(尤其硬膜竇血栓)阻塞靜脈回流，導致逆行性靜脈壓上升(而非血壓下降)；側枝循環代償不良或血栓延伸至皮質靜脈時，顱內壓持續上升致腦灌注壓下降，可造成缺血性損傷合併細胞毒性水腫，加上靜脈鬱血本身之血管源性水腫，故血管源性與細胞毒性水腫皆可能發生，C正確。頭痛(89-91%)為CVT最常見症狀(非神經學缺損)；深部CVT首選影像為非顯影CT(而非顯影CT)。",
+      "images": [],
+      "concepts": [
+        "dural-venous-sinus-thrombosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-375",
+      "year": 2020,
+      "number": 375,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is false about the differences of spinal injury between children and adults?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The incidence of spinal injury is lower in children than adults, but the sequelae are more severe."
+        },
+        {
+          "letter": "B",
+          "text": "The cervical spinal injury in children tends to involve the craniocervical junction to C3 spinal level."
+        },
+        {
+          "letter": "C",
+          "text": "The spinal injury that occurs in adults is more likely to be ligamentous."
+        },
+        {
+          "letter": "D",
+          "text": "The spinal injury in adults is rarely associated with delayed spinal cord infarction."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Emergent Imaging of Pediatric Cervical Spine Trauma, RadioGraphics 2019; 39:1126-1142",
+      "explanation": "兒童脊椎損傷較成人更易呈韌帶性/軟組織性損傷(而非骨性)，成人則以骨性損傷為主，故C敘述將兒童與成人之損傷型態對調，錯誤。兒童脊椎損傷發生率較成人低但後遺症較嚴重、兒童頸椎損傷好發顱頸交界至C3節段(成人則為C5-T1)、成人脊椎損傷少合併遲發性脊髓梗塞(兒童因對縱向牽拉之彈性韌性佳、易發生SCIWORA合併遲發性脊髓梗塞)，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "pediatric-cervical-spine-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-376",
+      "year": 2020,
+      "number": 376,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pseudosubluxation shows mild anterior positioning of C2 in relation to C3."
+        },
+        {
+          "letter": "B",
+          "text": "Pseudosubluxation is rarely seen in the 2nd decade of life."
+        },
+        {
+          "letter": "C",
+          "text": "The margin of a fracture is irregular with a cortical border."
+        },
+        {
+          "letter": "D",
+          "text": "Synchondroses are located in predictable areas with relatively smooth border."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Emergent Imaging of Pediatric Cervical Spine Trauma, RadioGraphics 2019; 39:1126-1142",
+      "explanation": "骨折邊緣特徵為不規則且「不具(without)」皮質緣(cortical border)，而非「具有(with)」皮質緣，C敘述錯誤（應為irregular WITHOUT cortical border）。假性半脫位(pseudosubluxation)呈C2相對C3輕度前移，於兒童常見但青春期後(第二個十年)少見；軟骨聯合(synchondroses)位於可預測部位且邊緣相對平滑，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "pediatric-cervical-spine-trauma-imaging"
       ],
       "checked": false
     }

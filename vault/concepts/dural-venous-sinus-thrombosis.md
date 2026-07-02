@@ -31,6 +31,15 @@ same:
 - **慢性(>1 月)**：訊號不定、可部分**再通**。
 - **T2*GRE/SWI** 對**皮質靜脈與急性血栓最敏感**;**DWI 可呈擴散受限但非全部血栓可見**（特異度高於 T2、敏感度較低;受限者再通率較低）。
 
+## 臨床表現與病理生理（2020考點）
+- **最常見症狀為頭痛**（約89-91%病患），並非局部神經學缺損（motor deficit約52-68%、seizure約39-44%）。[^3]
+- **血壓變化**：CVT（尤其硬膜竇血栓）阻塞靜脈回流，導致**逆行性靜脈壓上升**（並非血壓下降），因靜脈排空延遲與CSF吸收減少。[^3]
+- **水腫型態（可並存）**：側枝循環代償良好時僅呈顱內壓升高症狀；若代償不良或血栓延伸至皮質靜脈，顱內壓持續上升致腦灌注壓下降，可致缺血性損傷與**細胞毒性水腫(cytotoxic edema)**；同時靜脈鬱血本身亦造成**血管源性水腫(vasogenic edema)**——兩者可**同時發生**。[^3]
+- **首選影像模式**：深部腦靜脈血栓(DCVT)與硬膜竇血栓(DST)皆以**非顯影CT(nonenhanced CT)**為急診首選（並非顯影CT），惟血栓於非顯影CT之直接可視化(cord sign)敏感度不高（僅25-56%）。[^3]
+
+> [!note] 考點（2020）：關於CVT之敘述何者為真？
+> **血管源性與細胞毒性水腫皆可能發生（C）**——側枝循環不良或延伸至皮質靜脈時可致細胞毒性水腫，靜脈鬱血本身則致血管源性水腫。CVT致靜脈壓「上升」而非血壓下降；頭痛(非神經缺損)為最常見症狀；深部CVT首選為非顯影CT(非顯影後CT)。[^3]
+
 ## 間接徵象：靜脈梗塞與實質變化[^2]
 - **靜脈梗塞「跨越/不依動脈分布界線」**（與動脈中風的關鍵鑑別）;**約 2/3 合併出血**,可伴血管源性水腫、SAH。
 - **位置依阻塞竇**：上矢狀竇→**額頂葉（常雙側旁矢狀）**;lateral（transverse/sigmoid、vein of Labbé）→**顳/枕葉**;**深部靜脈系統（直竇/內大腦靜脈/Galen）→雙側視丘/基底核**。
@@ -49,6 +58,11 @@ same:
 ### 參考來源
 [^1]: *Cerebral venous thrombosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：顯影見 **empty delta sign**;急性血栓 **T1 等、T2 低訊號（可模擬 flow void）**,亞急性 T1 高;**「the clot may demonstrate diffusion restriction」（非全部）**;鑑別含 **hypoplastic venous sinuses**（低流變異模擬血栓）。
 [^2]: *Imaging of Cerebral Venous Thrombosis*（PMC9410175,**開放全文已讀** accessed 2026-06-28）：dense cord/clot sign 敏感 ~64%/特異 ~97%、第一週;empty delta 5 天–2 月;血栓訊號隨血腫演變（急性 T1 等/T2 低、亞急性 T1/T2 高、慢性不定）;T2*/SWI 對皮質靜脈最敏感;DWI 特異高於 T2;CTV/MRV ~82%/92%;靜脈梗塞跨動脈分布、~2/3 出血、位置依竇（SSS 額頂、lateral 顳枕、deep 視丘）;陷阱含 lateral sinus hypoplasia、arachnoid granulation、慢流。另參標準綜述 Leach JL, et al. *Imaging of Cerebral Venous Thrombosis: Current Techniques, Spectrum of Findings, and Diagnostic Pitfalls*. RadioGraphics 2006;26 Suppl 1:S19-S41. DOI 10.1148/rg.26si055174（pre-2022,未讀全文）。
+[^3]: 官方2020詳解；Ref: Radiologic Clues to Cerebral Venous Thrombosis, RadioGraphics 2019 39:6, 1611-1628（題目所引）——頭痛(89-91%)為最常見症狀；DST致靜脈回流阻塞使逆行靜脈壓上升；代償不良/延伸至皮質靜脈可致細胞毒性水腫，靜脈鬱血本身致血管源性水腫(可並存)；DST與DCVT首選皆為非顯影CT，cord sign敏感度25-56%。
+
+## 題目
+> [!question]- Which of the following descriptions about cerebral venous thrombosis (CVT) is true? (2020-374)
+> **血管源性與細胞毒性水腫皆可能發生（C）**——側枝循環不良或延伸至皮質靜脈時可致細胞毒性水腫，靜脈鬱血本身則致血管源性水腫。[^3]
 
 ## 考題
 ```dataview
