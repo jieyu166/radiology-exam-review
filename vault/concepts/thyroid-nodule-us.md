@@ -67,6 +67,9 @@ dateRev: 2026-06-29
 [^7]: ATA 2015 pattern 之 FNA 尺寸閾值（very low ≥2cm、low ≥1.5cm、intermediate/high ≥1cm）與 high-suspicion 特徵 — 開放網頁交叉查證 accessed 2026-06-29（Haugen BR, et al. 2015 ATA Management Guidelines, *Thyroid* 2016;26:1-133 之 US risk pattern）。
 [^8]: Beland MD 等所述「mixed solid-cystic 結節中點狀高回音多為膠質、易誤判 microcalcification」之陷阱 — 對應 Hoang/Tessler 等就 punctate echogenic foci 點數調整之討論（AJR 線上摘要查證 accessed 2026-06-29，未讀全文）。
 
+> [!question]- 下面哪些是2015年ATA發佈high suspicious US features for malignancy？①irregular margins②macrocalcifications③taller than wide shape④spongiform nodule (2020-211)
+> **①③（A）**——high suspicion pattern須為microcalcifications（非②macrocalcifications）、irregular margins、taller than wide、extrathyroidal extension等；④spongiform nodule屬very low suspicion pattern（<3%風險）。[^7]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "thyroid-nodule-us")

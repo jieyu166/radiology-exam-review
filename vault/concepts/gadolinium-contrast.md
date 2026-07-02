@@ -48,6 +48,10 @@ same:
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
 [^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
 
+## 題目
+> [!question]- Which kind of Gd agent has higher risk for brain deposition after repeated used? (2020-209)
+> **Linear non-ionic（D）**——macrocyclic較linear穩定（環狀鎖住不易去螯合），ionic較non-ionic穩定（靜電作用較強）；故cyclic ionic最穩定、linear non-ionic穩定度最低、腦沉積風險最高。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")
