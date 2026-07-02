@@ -1,9 +1,9 @@
 {
-  "next_page": 101,
+  "next_page": 109,
   "total_pages": 398,
-  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101],
-  "added_ids": ["2020-186","2020-187","2020-188","2020-189","2020-190","2020-191","2020-192","2020-193","2020-194","2020-195","2020-196","2020-197","2020-198","2020-199","2020-200","2020-201","2020-202","2020-203","2020-204","2020-205","2020-206","2020-207","2020-208","2020-209","2020-210","2020-211","2020-212","2020-213","2020-214","2020-215","2020-216","2020-217","2020-218","2020-219"],
-  "next_id": 220,
+  "processed_pages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109],
+  "added_ids": ["2020-186","2020-187","2020-188","2020-189","2020-190","2020-191","2020-192","2020-193","2020-194","2020-195","2020-196","2020-197","2020-198","2020-199","2020-200","2020-201","2020-202","2020-203","2020-204","2020-205","2020-206","2020-207","2020-208","2020-209","2020-210","2020-211","2020-212","2020-213","2020-214","2020-215","2020-216","2020-217","2020-218","2020-219","2020-220","2020-221","2020-222","2020-223","2020-224","2020-225"],
+  "next_id": 226,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -33,7 +33,9 @@
     "p96 US=seminoma vs NSGCT differentiation EXCEPT→B seminoma較少cystic spaces(既有題)",
     "p97 US=Warthin tumor WRONG→C(既有題)",
     "p98 US=diabetic mastopathy WRONG→D type2也可見(既有題)",
-    "p99 US=mammography asymmetry LEAST malignant→C non-palpable global(既有題)"
+    "p99 US=mammography asymmetry LEAST malignant→C non-palpable global(既有題)",
+    "p103 NR=Chiari II影像發現不相關→A falx thickening錯(既有題)",
+    "p105 CH=intralobar sequestration typically associated→A venous drainage to pulmonary veins(既有題)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -43,7 +45,8 @@
   "flagged": [
     "2020-187：官方詳解本身對選項D「鈣化之腎內動脈瘤通常congenital/atherosclerotic」加註「似乎也行?NF1的case」表達不確定，已於renal-aml.md加註[!warning]callout建議醫師覆核，暫依官方答案C為預設值",
     "2020-208(PASH)：官方詳解原始標註「ANS: 4」並自行加註「看起來應該都對?」，選項D敘述與參考文獻內容完全吻合、理論上應為正確敘述而非「為非」答案，已於pseudoangiomatous-stromal-hyperplasia.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
-    "2020-133(既有題，非本次新增)：json中correctAnswer為C，但本次於p87讀到之PDF該頁標示答案為4(D)並自行加註「都對?????」表達不確定。json現有答案C與PDF頁面標示的D不一致，且PDF本身對自己標示的D也表達存疑。本次僅為同年重印dedup比對，未修改既有json內容，僅記錄於此供醫師覆核（可能兩者皆非最終正確答案，或PDF本身有勘誤）。"
+    "2020-133(既有題，非本次新增)：json中correctAnswer為C，但本次於p87讀到之PDF該頁標示答案為4(D)並自行加註「都對?????」表達不確定。json現有答案C與PDF頁面標示的D不一致，且PDF本身對自己標示的D也表達存疑。本次僅為同年重印dedup比對，未修改既有json內容，僅記錄於此供醫師覆核（可能兩者皆非最終正確答案，或PDF本身有勘誤）。",
+    "2020-220(pilocytic astrocytoma)：官方詳解答案欄標示「A (D?)」，表達對是否應為D之不確定；選項A與D依參考文獻皆為正確敘述，已於pilocytic-astrocytoma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批1-7(頁1-53)、批8(頁54-61)、批9(頁62-69)、批10(頁70-77,無新增)、批11(頁78-85,4新增+1跨年合併2022-025)、批12(頁86-93,1新增)已完成，詳見git歷史。批13(頁94-101)：p94-99為US(超音波)章節(表格格式，多一「類科」欄位)，p100-101起進入BR(乳房)/北醫NR章節。8題候選，2題為真正新題(2020-218~219)：218 乳攝不對稱惡性風險MOST malignant→developing asymmetry(重用breast-asymmetry概念檔，該檔已含完整四型分類與百分比，新增題目entry)、219 superficial siderosis顱神經表面沉積不罕見(新建superficial-siderosis概念檔，CN VIII長cisternal course易受累致雙側聽力喪失)。其餘6題同年重印(CEUS limitation/CEUS optimization/seminoma vs NSGCT/Warthin tumor/diabetic mastopathy/asymmetry LEAST)略過。totalQuestions欄位已修正為219。commit 64fc292(批1)、215ec40(批3)、fb3f309(批4)、857fc60(批5)、38e481e(批6)、5e80d9a(批7)、edbe0dd(批8內容)、6ebc420(批8進度)、89d740a(批9內容)、1478903(批9進度)、bc11e09(批10進度)、da39207(批11內容)、bd96244(批11進度)、c306e52(批12內容)、388fd11(批12進度)、426ad91(批13內容)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。下一批應從p102開始，先用render腳本產生頁面PNG。目前進度約25.4%(101/398頁)。"
+  "notes": "批1-13(頁1-101)已完成，詳見git歷史。批14(頁102-109)：p102-103為NR，p104起轉CH(胸腔)章節，p106-109起出現image-based病例題（CXR/CT圖片，題目文字仍可dedup比對，images欄位維持空陣列，未額外抽取圖檔）。10題候選，6題為真正新題(2020-220~225)：220 pilocytic astrocytoma(新建概念檔，官方答案A自身存疑D，[!warning]已標記)、221 兒童AIDS-defining疾病LIP(新建lymphoid-interstitial-pneumonia概念檔)、222 前縱膈畸胎瘤image-based(新建mediastinal-mass-teratoma概念檔)、223 支氣管擴張症case image-based(重用bronchiectasis概念檔)、224 蜂窩狀肺=慢性間質性肺病image-based(新建honeycombing-interstitial-lung-disease概念檔)、225 Silhouette sign RLL遮橫膈非心緣(重用silhouette-sign概念檔)。其餘4題同年重印(pilocytic astrocytoma之Chiari II題/intralobar sequestration)略過。totalQuestions欄位已修正為225。commit 64fc292(批1)、215ec40(批3)、fb3f309(批4)、857fc60(批5)、38e481e(批6)、5e80d9a(批7)、edbe0dd(批8內容)、6ebc420(批8進度)、89d740a(批9內容)、1478903(批9進度)、bc11e09(批10進度)、da39207(批11內容)、bd96244(批11進度)、c306e52(批12內容)、388fd11(批12進度)、426ad91(批13內容)、5c7e594(批13進度)、5bec20a(批14內容)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017卡片)，一律不動。下一批應從p110開始，先用render腳本產生頁面PNG。目前進度約27.4%(109/398頁)。"
 }
