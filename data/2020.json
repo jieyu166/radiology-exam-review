@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 225,
+  "totalQuestions": 230,
   "questions": [
     {
       "id": "2020-001",
@@ -8131,6 +8131,199 @@
       "images": [],
       "concepts": [
         "silhouette-sign"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-226",
+      "year": 2020,
+      "number": 226,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "下列何者不會造成air bronchograms現象？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "肺炎 pneumonia"
+        },
+        {
+          "letter": "B",
+          "text": "肺水腫 pulmonary edema"
+        },
+        {
+          "letter": "C",
+          "text": "非阻塞性肺塌陷 nonobstructive pulmonary atelectasis"
+        },
+        {
+          "letter": "D",
+          "text": "縱隔腔腫瘤 mediastinal tumor"
+        },
+        {
+          "letter": "E",
+          "text": "肺腫瘤 lung neoplasm"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: The ideal high-yield review of chest imaging! chest Radiology the Essentials. Page18",
+      "explanation": "Air bronchogram可見於：pulmonary consolidation（肺炎）、pulmonary edema（尤其alveolar edema）、non-obstructive atelectasis（非阻塞性肺塌陷）、severe interstitial lung disease、neoplasms（bronchioloalveolar carcinoma、pulmonary lymphoma）、pulmonary infarct、pulmonary hemorrhage、normal expiration。縱隔腔腫瘤（mediastinal tumor）本身位於肺實質外，不會造成肺內air bronchogram現象。",
+      "images": [],
+      "concepts": [
+        "air-bronchogram"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-227",
+      "year": 2020,
+      "number": 227,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問目前在台灣，下列哪兩種contrast medium可以用來intra-thecal injection？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Optiray 300 / Ultravist 370"
+        },
+        {
+          "letter": "B",
+          "text": "Ultravist 300 / Ominpaque 350"
+        },
+        {
+          "letter": "C",
+          "text": "Ominpaque 300 / Iopamidol 300"
+        },
+        {
+          "letter": "D",
+          "text": "Iopamidol 300 / Optiray 300"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: 2017中華民國放射線醫學會對比劑手冊；2020 ACR manual",
+      "explanation": "依2020 ACR對比劑手冊，可用於intrathecal injection之對比劑限「nonionic」且經核准之特定劑型：Omnipaque(iohexol) 180/240/300，以及Isovue-M(iopamidol) 200/300。故正確組合為Omnipaque 300 (iohexol) / Iopamidol 300（C）。Optiray(ioversol)與Ultravist(iopromide)未列於核准可用於intrathecal injection之對比劑清單。",
+      "images": [],
+      "concepts": [
+        "intrathecal-contrast-media"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-228",
+      "year": 2020,
+      "number": 228,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CM",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於MR使用的contrast medium，下列敘述何者正確?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "以含釓對比劑對腎因性全身纖維化(NSF)之風險度來看，對比劑化學結構為環狀者風險較線狀者高。"
+        },
+        {
+          "letter": "B",
+          "text": "腎因性全身纖維化之受檢者風險因子包括1.因任何原因接受透析治療，2.慢性腎臟病第四期或第五期（即估計腎絲球過濾率小於<30 mL/min/1.73m2）尚未透析治療者，3.急性腎衰竭(acute kidney insufficiency)"
+        },
+        {
+          "letter": "C",
+          "text": "現經多次注射含釓對比劑後在腦部（大腦蒼白球globus pallidus及小腦齒狀核dentate nucleus）可發現T1加權影像信號變高的傾向，但在腎功能正常者不會發生"
+        },
+        {
+          "letter": "D",
+          "text": "含釓對比劑在標準劑量(0.5mmol/kg)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: 2017中華民國放射線醫學會對比劑手冊",
+      "explanation": "NSF受檢者風險因子正確包含：①因任何原因接受透析治療、②CKD stage 4/5（eGFR<30 mL/min/1.73m2）尚未透析治療者、③急性腎損傷(AKI)。A錯誤：對比劑化學結構為線狀者NSF風險較環狀者高，非相反。C錯誤：釓於腦部蒼白球/齒狀核之T1高訊號沉積在腎功能正常者亦有發現，並非僅腎功能不全者才有。D錯誤：含釓對比劑標準劑量為0.1mmol/kg，非0.5mmol/kg。詳見[[nephrogenic-systemic-fibrosis]]。",
+      "images": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-229",
+      "year": 2020,
+      "number": 229,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關Lisfranc fracture-dislocation下列何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dislocation of metatarso-cuneiform joint"
+        },
+        {
+          "letter": "B",
+          "text": "Associated forced plantar flexion of forefoot on heel"
+        },
+        {
+          "letter": "C",
+          "text": "Athletic injury in older population, and Charcot arthropathy in younger diabetic population."
+        },
+        {
+          "letter": "D",
+          "text": "Identify Lisfranc ligament between medial cuneiform and proximal 2nd metatarsal may be the diagnostic clue"
+        },
+        {
+          "letter": "E",
+          "text": "None of above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 6-82,83,84",
+      "explanation": "官方詳解標示答案C（選項C年齡族群與病因描述反了——athletic injury好發於較年輕族群、Charcot arthropathy好發於較年長糖尿病族群，與選項所述相反）。官方詳解對選項B亦加註「描述也不很正確?」表達存疑，因受傷機轉原文為軸向負荷合併forefoot過度蹠屈（axial load through hyperplantar flexed forefoot），與選項B「forced plantar flexion of forefoot on heel」用詞略有差異，暫依官方標示C為預設值。Lisfranc ligament連接medial cuneiform與2nd metatarsal base，是唯一跨越第1、2列之骨間韌帶，斷裂為診斷關鍵線索，詳見[[lisfranc-injury]]。好發第三個十年、男性多於女性。",
+      "images": [],
+      "concepts": [
+        "lisfranc-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-230",
+      "year": 2020,
+      "number": 230,
+      "years": [
+        2020
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "有關Scaphoid fracture下列何者為誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Transverse fracture line most commonly seen in middle third of scaphoid"
+        },
+        {
+          "letter": "B",
+          "text": "Usually difficult to visualize non-displaced fracture line"
+        },
+        {
+          "letter": "C",
+          "text": "Union rate is up to 50% in uncomplicated fracture"
+        },
+        {
+          "letter": "D",
+          "text": "Scaphoid non-union mostly associated with fracture at proximal third and vertical oblique fracture at middle third"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Diagnostic imaging, Orthopaedics. Amirsys Inc. (2004) Section 3-38, 39, 40, 41, 46",
+      "explanation": "未併發症之scaphoid fracture癒合率應遠高於50%（非unproblematic fracture本身癒合率僅50%這麼低）；非癒合(nonunion)發生率僅5-10%（固定後），意即多數uncomplicated fracture癒合率應達90%以上，故C敘述錯誤。骨折部位分布：waist 65%、proximal third 25%、distal third 10%（較常見於兒童）；男女比2:1，好發第三個十年。Nonunion危險因子：vertical oblique骨折型態、位移>1mm、年齡增長、吸菸；transverse型態較vertical/oblique型態穩定。AVN發生率與骨折距近端極之距離直接相關：proximal 5th AVN率達100%，proximal 3rd AVN率33%。X光初期可能為陰性(27%)，需於14-21天後複查。",
+      "images": [],
+      "concepts": [
+        "scaphoid-fracture"
       ],
       "checked": false
     }

@@ -30,6 +30,9 @@ nonImagingReason: "NSF 臨床/安全主題，診斷靠皮膚病理非影像"
 ### 參考來源
 [^1]: *Nephrogenic systemic fibrosis*. Radiopaedia.org（實際查證 accessed 2026-06-19）；ESUR Contrast Medium Guideline（題目所引）：主要風險＝eGFR<30、dialysis、AKI、renal transplant;高風險為 ACR group 1 線性釓製劑;**懷孕非 NSF 風險因子**。
 
+> [!question]- 關於MR使用的contrast medium，下列敘述何者正確? (2020-228)
+> **B**——NSF風險因子正確包含：透析治療、CKD stage 4/5(eGFR<30)尚未透析者、急性腎損傷(AKI)。A錯（線狀較環狀風險高，非相反）；C錯（釓沉積於腦部在腎功能正常者亦有發現）；D錯（標準劑量為0.1mmol/kg，非0.5mmol/kg）。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "nephrogenic-systemic-fibrosis")
