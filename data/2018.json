@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 317,
+  "totalQuestions": 321,
   "questions": [
     {
       "id": "2018-001",
@@ -1489,10 +1489,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "HRCT of the Lung, page 3:264-267\n- Pulmonary Langerhans cell histiocytosis (PLCH): absence of mediastinal and hilar LAPs\n- Pneumocystis pneumonia (PCP): LAP rare (10%), pleural effusions are rare\n- lymphangioleiomyomatosis (LAM):  mediastinal /abdominal LAPs\n- Lymphocytic interstitial pneumonitis (LIP): mediastinal LAPs",
+      "reference": "HRCT of the Lung, page 3:264-267",
+      "explanation": "Pulmonary Langerhans cell histiocytosis (PLCH): absence of mediastinal and hilar LAPs\nPneumocystis pneumonia (PCP): LAP rare (10%), pleural effusions are rare\nlymphangioleiomyomatosis (LAM):  mediastinal /abdominal LAPs\nLymphocytic interstitial pneumonitis (LIP): mediastinal LAPs\n\n見 [[plch]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "plch"
+      ],
       "checked": false
     },
     {
@@ -1816,10 +1818,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "LV lateral wall也會\nD. accordion sign. A corrugated pattern to the RV wall may be seen.   corrugated 波紋的，瓦楞的",
+      "reference": "AJR:194, April 2010",
+      "explanation": "LV lateral wall也會\nD. accordion sign. A corrugated pattern to the RV wall may be seen.   corrugated 波紋的，瓦楞的\n\n見 [[arrhythmogenic-rv-dysplasia]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "arrhythmogenic-rv-dysplasia"
+      ],
       "checked": false
     },
     {
@@ -1888,10 +1892,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "subendocardial.",
+      "reference": "A Pattern-based Approach to Assessment of Delayed Enhancement in Nonischemic Cardiomyopathy at MR Imaging. RadioGraphics 2009; 29:89–103",
+      "explanation": "subendocardial.\n\n見 [[cardiac-mri-lge]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mri-lge"
+      ],
       "checked": false
     },
     {
@@ -4152,10 +4158,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "應是T3",
+      "reference": "RadioGraphics 2018; 38:374–391",
+      "explanation": "應是T3\n\n見 [[lung-cancer-tnm-staging]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
       "checked": false
     },
     {
@@ -11726,6 +11734,154 @@
       "images": [],
       "concepts": [
         "li-rads-ceus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-318",
+      "year": 2018,
+      "number": 318,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which disease does not show T1 shortening at basal ganglia",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cirrhosis of liver"
+        },
+        {
+          "letter": "B",
+          "text": "Hypoglycemia"
+        },
+        {
+          "letter": "C",
+          "text": "Parenteral nutrition use"
+        },
+        {
+          "letter": "D",
+          "text": "Hemorrhage"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "RadioGraphics 2011; 31:5–30",
+      "explanation": "B: hypoglycemia造成bilateral areas of increased signal on both T2 and FLAIR，侵犯posterior limb of internal capsule、cerebral cortex（尤其parieto-occipital與insula）、hippocampus與basal ganglia，並非T1 shortening；restricted diffusion可為更早期敏感之表現，多可回復。\nT1 shortening at basal ganglia之常見原因：肝硬化(manganese沉積)、長期全靜脈營養(manganese)、出血(methemoglobin)等。\n\n見 [[basal-ganglia-t1-shortening]]",
+      "images": [],
+      "concepts": [
+        "basal-ganglia-t1-shortening"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-319",
+      "year": 2018,
+      "number": 319,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement about MR spectroscopy is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lactate resonates at 1.3 ppm chemical shift with a double peak at short TE"
+        },
+        {
+          "letter": "B",
+          "text": "N-acetylaspartate (NAA) resonates at 3.0 ppm"
+        },
+        {
+          "letter": "C",
+          "text": "Canavan disease shows decreased NAA"
+        },
+        {
+          "letter": "D",
+          "text": "Choline is a precursor of acetylcholine (ACH), a component of cell membranes"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiographics. 2006;26 Suppl 1 (suppl_1): S173-89.",
+      "explanation": "A: Lactate為double peak出現在long TE（非short TE），且與lipid band重疊，可用intermediate TE如144ms使lactate反轉以資鑑別，故A錯。\nB: NAA共振於2.02 ppm（非3.0 ppm），B錯。\nC: Canavan disease為NAA增加（非減少），C錯。\nD正確：Choline為acetylcholine（細胞膜成分）之前驅物。\n\n見 [[mr-spectroscopy-brain]]",
+      "images": [],
+      "concepts": [
+        "mr-spectroscopy-brain"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-320",
+      "year": 2018,
+      "number": 320,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following statement regarding to contrast medium used in liver imaging is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SPIO uptake by Kupffer cells, hypointense on MRI"
+        },
+        {
+          "letter": "B",
+          "text": "Sonazoid microbubbles uptake by Kupffer cells, hyperechoic on US"
+        },
+        {
+          "letter": "C",
+          "text": "Gadoxetate disodium (Primovist) uptake by Kupffer cells, high signal on MRI"
+        },
+        {
+          "letter": "D",
+          "text": "Extracellular gadolinium-based contrast distributes in liver sinusoid, high signal on MRI"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Gandhi SN, Brown MA, Wong JG, Aguirre DA, Sirlin CB. MR contrast agents for liver imaging: what, when, how. RadioGraphics 2006;26(6):1621-1636; LI-RADS CEUS 2016",
+      "explanation": "C為偽：Gadoxetate disodium (Primovist)實際由hepatocytes（非Kupffer cells）經OATP1（organic anion transporting polypeptide-dependent transporter）攝取。\n\n見 [[mr-contrast-agents-liver]]",
+      "images": [],
+      "concepts": [
+        "mr-contrast-agents-liver"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-321",
+      "year": 2018,
+      "number": 321,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which statement about IVC leiomyosarcoma is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Upper-segment IVC involvement (hepatic vein to right atrium) causes Budd-Chiari syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Middle-segment involvement (hepatic vein to renal vein) causes nephrotic syndrome"
+        },
+        {
+          "letter": "C",
+          "text": "Lower-segment involvement (infrarenal) causes lower extremity edema"
+        },
+        {
+          "letter": "D",
+          "text": "All statements are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "RadioGraphics 2015;35:616-620",
+      "explanation": "以上敘述皆正確，A/B/C三段分類與對應症候群描述皆為正確配對。\n\n見 [[ivc-leiomyosarcoma]]",
+      "images": [],
+      "concepts": [
+        "ivc-leiomyosarcoma"
       ],
       "checked": false
     }
