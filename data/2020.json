@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 276,
+  "totalQuestions": 281,
   "questions": [
     {
       "id": "2020-001",
@@ -10050,6 +10050,199 @@
       "images": [],
       "concepts": [
         "air-embolism-ir"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-277",
+      "year": 2020,
+      "number": 277,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions about small bowel is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Small bowel neoplasms are rare lesions that account for less than 5% of all gastrointestinal neoplasms."
+        },
+        {
+          "letter": "B",
+          "text": "Small bowel lymphoma is characteristically associated with marked lumen dilation."
+        },
+        {
+          "letter": "C",
+          "text": "Mesenteric mass with desmoplastic reaction and calcification may suggest the diagnosis of carcinoid tumor."
+        },
+        {
+          "letter": "D",
+          "text": "Gastrointestinal stromal tumors are intramural or subserosal tumors, which cannot be intraluminal location."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解",
+      "explanation": "GIST傾向壁內生長，但腫瘤夠大時可向腔內凸出(bulging intraluminal)或向外突出(extramural)，並非不可能腔內生長，故(D)為錯誤敘述。小腸腫瘤<5%佔所有GI腫瘤、小腸淋巴瘤伴明顯腔擴張、類癌腸繫膜腫塊合併促結締組織增生反應與鈣化皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "gist-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-278",
+      "year": 2020,
+      "number": 278,
+      "years": [
+        2020
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於 splenic injury 的敘述，下列何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "根據最新 The American Association for the Surgery of Trauma (AAST) 的分級，Active bleeding confined within splenic capsule 屬於 grade 4 injury."
+        },
+        {
+          "letter": "B",
+          "text": "承上，Active bleeding extending beyond the spleen into the peritoneum，but Parenchymal laceration >3 cm in depth. 屬於 grade 5 injury"
+        },
+        {
+          "letter": "C",
+          "text": "為了盡可能保留脾臟，一旦CT發現脾臟出血，就應該立刻施行TAE"
+        },
+        {
+          "letter": "D",
+          "text": "脾臟摘除之後的病患，對於 encapsulated organisms 的抵抗力會變差。"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Uptodate, Topic 7957 version 26.0",
+      "explanation": "治療決策須依血液動力學穩定度分層：穩定之低分級(I-III)損傷病人優先建議保守治療；穩定但見active contrast extravasation/contrast blush者才建議脾栓塞優於觀察，非CT一發現出血就一律立即TAE，故(C)為錯誤敘述。AAST分級(bleeding侷限包膜內=Grade IV、延伸入腹腔=Grade V)、脾切除後對莢膜細菌抵抗力下降皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "splenic-trauma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-279",
+      "year": 2020,
+      "number": 279,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GI",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following descriptions is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pancreaticobiliary maljunction (PBM) usually forms a long common channel."
+        },
+        {
+          "letter": "B",
+          "text": "Prevalence of PBM is much higher in Asian people than Western people."
+        },
+        {
+          "letter": "C",
+          "text": "MR cholangiopancreatography is an important modality in diagnosis of PBM, featuring pancreaticobiliary junction located outside the duodenal wall."
+        },
+        {
+          "letter": "D",
+          "text": "PBM cannot be diagnosed without the presence of biliary dilatation."
+        },
+        {
+          "letter": "E",
+          "text": "PBM is associated with higher risk of biliary cancer."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2020 40:2, 378-392.",
+      "explanation": "PBM即使不伴膽道擴張仍可診斷，惟此類無擴張型較難診斷，多數成人病例經由膽道癌臨床徵象發現，故(D)為錯誤敘述。PBM通常形成過長共同管、亞洲族群盛行率遠高於西方、MRCP特徵為膽胰管匯合位於十二指腸壁外、PBM與較高膽道癌風險相關，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "choledochal-cyst"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-280",
+      "year": 2020,
+      "number": 280,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the followings is not a main risk factor for local recurrence of rectal cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Circumferential resection margin(CRM) positivity"
+        },
+        {
+          "letter": "B",
+          "text": "Close proximity of the tumor to the anal verge"
+        },
+        {
+          "letter": "C",
+          "text": "Higher tumor differentiation"
+        },
+        {
+          "letter": "D",
+          "text": "Extramural vascular invasion(EMVI)"
+        },
+        {
+          "letter": "E",
+          "text": "Anastomotic leak"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2019; 39:367-387",
+      "explanation": "實際上是較差分化(lower differentiation)才是局部復發危險因子，非較高分化，故(C)非危險因子。CRM陽性、腫瘤靠近肛緣、EMVI、吻合口滲漏皆為確立之局部復發危險因子。",
+      "images": [],
+      "concepts": [
+        "rectal-cancer-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-281",
+      "year": 2020,
+      "number": 281,
+      "years": [
+        2020
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following regarding renal cell carcinoma is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clear cell type is the most common subtype"
+        },
+        {
+          "letter": "B",
+          "text": "Clear cell type typically exhibits exophytic growth and tends to be heterogeneous due to necrosis, hemorrhage or cystic change"
+        },
+        {
+          "letter": "C",
+          "text": "Calcification is more common in the papillary and chromophone subtype"
+        },
+        {
+          "letter": "D",
+          "text": "Cleat cell RCC have a better prognosis and less likelihood of metastasus than the other subtypes of RCC"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: World J Radiol 2016; 8(5)484-500",
+      "explanation": "實際上clear cell RCC預後較差、轉移傾向較高（相對papillary/chromophobe），故(D)為非真敘述。Clear cell最常見亞型且呈exophytic異質性生長(壞死/出血/囊變)、鈣化於papillary/chromophobe較常見，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
       ],
       "checked": false
     }

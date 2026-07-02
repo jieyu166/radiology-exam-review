@@ -45,6 +45,11 @@ dateRev: 2026-06-29
 ### Anomalous pancreaticobiliary junction（APBJ／PBM）
 - 胰管與膽管在十二指腸壁外匯合，形成過長的共同管（common channel），失去 Oddi 括約肌正常調控。「共同管理論」認為胰液逆流入膽管造成管壁慢性損傷、擴張，是膽總管囊腫（尤其 type I／IV）與惡性化的關鍵機轉。[^6][^7]
 - 共同管長度閾值文獻有分歧：直接膽胰管造影常以 **≥15 mm** 為診斷標準[^6]，部分文獻採 **>10 mm**[^7]——數字並列、判讀時以該報告所用定義為準。MRCP 與高解析 MDCT 多平面重組可非侵入性顯示此長共同管。[^6]
+- **好發族群**：**PBM於亞洲族群之盛行率遠高於西方族群**。[^9]
+- **MRCP診斷特徵**：MR cholangiopancreatography為診斷PBM之重要影像工具，特徵為**膽胰管匯合處位於十二指腸壁外**（outside the duodenal wall）。[^9]
+- **不伴膽管擴張仍可診斷**：**PBM即使不伴隨膽道擴張，仍可診斷**（並非「無膽道擴張即無法診斷」）——此類無擴張型PBM因缺乏典型影像徵象，臨床上較難診斷，許多成人病例是因合併之膽道癌臨床徵象才被發現；膽囊壁增厚可作為癌症發生前之早期診斷線索。[^9]
+- **惡性風險**：PBM與**較高之膽道癌(biliary cancer)風險**相關。[^9]
+- **併發症**：急性胰臟炎（兒童較常見，約30%病例，與是否合併膽道擴張無關）、慢性胰臟炎（較少見，約3%）、膽道結石、膽管炎、膽道系統癌（膽管癌、膽囊癌等）。[^9]
 
 ### 惡性風險判讀
 - 膽總管囊腫具膽道惡性（以膽管癌 cholangiocarcinoma 為主）風險：西方成人切除系列合併惡性率約 **10.9%**。[^3]
@@ -66,6 +71,11 @@ dateRev: 2026-06-29
 [^6]: ajronline.org — *Choledochal Malformations: Surgical Implications of Radiologic Findings* AJR 2018（同行評閱影像綜述，章節級；摘要與檢索層級）與 *Assessment of Anomalous Pancreaticobiliary Ductal Junction* AJR：MRCP 為評估膽管樹首選非侵入檢查；ERCP／PTC／術中造影為顯示膽胰匯合之決定性侵入檢查；直接造影共同管 **≥15 mm** 定義 APBJ。DOI: [10.2214/AJR.17.18402](https://doi.org/10.2214/AJR.17.18402)
 [^7]: *Rare triad of anomalous biliary anatomy (PBM), choledochal cyst and cholangiocarcinoma*（病例報告，PMC 開放全文 PMC11558630）：PBM＝胰膽管於十二指腸壁外匯合形成過長共同管，閾值常採 **>10 mm**（文獻無統一定義）；胰液逆流致管壁慢性發炎、囊腫形成與膽管癌風險；MRI／MRCP 對偵測解剖異常較佳。Based on PubMed. PMC: [PMC11558630](https://pmc.ncbi.nlm.nih.gov/articles/PMC11558630/)
 [^8]: Lewin M, et al. *Diffuse Versus Localized Caroli Disease: A Comparative MRCP Study.* AJR Am J Roentgenol 2021;216(6):1530-1538（多中心比較研究，66 例）：瀰漫型 Caroli central dot sign 約 43%、周邊 funnel-shaped 徵象 91%、囊狀＋梭狀混合 96%；局限型幾乎皆伴肝內結石（100%）與左葉萎縮（86%），主要與原發性肝內結石相關。Based on PubMed. DOI: [10.2214/AJR.20.23522](https://doi.org/10.2214/AJR.20.23522)
+[^9]: 官方2020詳解；Ref: RadioGraphics 2020;40:2,378-392（題目所引）——PBM亞洲族群盛行率遠高於西方；MRCP特徵為膽胰管匯合處位於十二指腸壁外；PBM不伴膽道擴張仍可診斷（但較難診斷，許多成人病例經由膽道癌臨床徵象診斷，膽囊壁增厚可為早期線索）；PBM與較高膽道癌風險相關；併發症含急性胰臟炎(兒童約30%、與膽道擴張無關)、慢性胰臟炎(約3%)、膽道結石、膽管炎、膽道系統癌。
+
+## 題目
+> [!question]- Which of the following descriptions is wrong? （關於PBM/Pancreaticobiliary maljunction） (2020-279)
+> **PBM cannot be diagnosed without the presence of biliary dilatation（D）**為錯誤——PBM即使不伴膽道擴張仍可診斷，惟此類無擴張型較難診斷，多數成人病例經由膽道癌臨床徵象發現。PBM通常形成過長共同管、亞洲族群盛行率遠高於西方、MRCP特徵為膽胰管匯合位於十二指腸壁外、PBM與較高膽道癌風險相關，皆為正確敘述。[^9]
 
 ## 考題
 ```dataview

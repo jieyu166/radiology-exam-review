@@ -46,6 +46,10 @@ dateRev: 2026-06-29
 - **瀰漫低密度脾（shock spleen / 低灌流）**：休克/低血容造成全脾低強化，**不一定為直接損傷**，勿過度判讀。[^2]
 - **伴隨損傷**：脾外傷常合併**左腎、胰尾、左側下位肋骨骨折、左橫膈、左血胸**——須一併檢視。[^3][^5]
 
+### 治療決策（非所有CT出血皆立即TAE）與脾切除後續
+- **並非「CT一旦發現脾臟出血就應立刻施行TAE」**：治療決策仍須依**血液動力學穩定度**分層——血液動力學穩定之低分級(Grade I-III)損傷病人，優先建議**保守治療(nonoperative management)**；血液動力學穩定但CT見**活動性對比劑外滲(active contrast extravasation)或contrast blush**之病人，才建議**初始脾動脈栓塞(splenic embolization)**優於單純觀察；血液動力學不穩定者仍需緊急手術，而非一律TAE。[^7]
+- **脾切除術後易感染性(post-splenectomy sepsis)**：脾臟摘除後之病患，對**具莢膜(encapsulated)細菌**（如肺炎鏈球菌、腦膜炎雙球菌、b型嗜血桿菌）之**抵抗力會下降**，此為脾切除後重要臨床併發症考量。[^7]
+
 ### 延遲性破裂與遲發血管損傷
 - **延遲破裂可發生**：**即使初始 CT 正常或近乎正常，仍可能延遲破裂**（故「初始 CT 正常便不會延遲破裂」為錯誤敘述＝題目正解 2016-109 C）。[^2]
 - **遲發性 pseudoaneurysm**：可在初始 CT 後數日才出現，文獻報遲發血管損傷約 **3–20%**、破裂率約 6%，多在傷後一週內、偶可數月後——故部分病人需追蹤影像。[^4]
@@ -56,6 +60,9 @@ dateRev: 2026-06-29
 > [!note] 2016-109 題幹
 > 「**Which statement about splenic trauma is incorrect?**」→ 答 **C**（延遲破裂即使初始 CT 正常仍可能發生，故「may not occur」為錯）。
 
+> [!question]- 關於splenic injury的敘述，下列何者錯誤？ (2020-278)
+> **為了盡可能保留脾臟，一旦CT發現脾臟出血就應該立刻施行TAE（C）**為錯誤——治療決策須依血液動力學穩定度分層：穩定之低分級損傷優先保守治療；穩定但見active extravasation/contrast blush者才建議脾動脈栓塞。AAST分級（bleeding侷限包膜內=Grade IV、延伸入腹腔=Grade V）、脾切除後對莢膜細菌抵抗力下降皆為正確敘述。[^7]
+
 ### 參考來源
 [^1]: *Splenic trauma* / *AAST spleen injury scale*. Radiopaedia.org（實際查證 accessed 2026-06-17）：脾為鈍傷最常傷實質器官；**AAST 2018 分級**（G1–G5，納入血管損傷）；active extravasation／pseudoaneurysm／AVF（~15%）影響處置。
 [^2]: sentinel/perisplenic clot 為唯一徵象、shock spleen（瀰漫低密度）、**CT 分級對臨床結果預測價值有限**、**延遲破裂即使初始 CT 正常仍可能發生**＝標準創傷放射教學；題目引 *CT & US of the Acute Abdomen*。
@@ -63,6 +70,7 @@ dateRev: 2026-06-29
 [^4]: Tier 1 — Radiology／PMC：(a) *Active Hemorrhage and Vascular Injuries in Splenic Trauma: Utility of the Arterial Phase in Multidetector CT.* Radiology 2013. DOI: 10.1148/radiol.13121242；(b) *The prevalence of early contained vascular injury of spleen.* PMC10995136（accessed 2026-06-29）。Active bleeding 延遲期擴大不沖洗 vs CVI（pseudoaneurysm/AVF）密度近主動脈、延遲期 wash out 不擴散；雙期掃描 CVI 偵測率約 8.3%→14.5%，僅靜脈期漏約半數；遲發 pseudoaneurysm 約 3–20%、破裂率約 6%。
 [^5]: Tier 1／2 — *Pearls and Pitfalls in Emergency Radiology*（Cambridge）Case 56 splenic clefts、Case 57 inhomogeneous/arciform splenic enhancement；AJR *Sentinel clot sign*（DOI 10.2214/ajr.153.4.747）。splenic cleft 邊緣平滑無周邊血腫；早動脈期 arciform/zebra 偽裂傷延遲期均質化；伴隨左腎/胰/左下肋/橫膈損傷。
 [^6]: Tier 1 — RadioGraphics：*Multidetector CT Evaluation of Active Extravasation in Blunt Abdominal and Pelvic Trauma Patients.* RadioGraphics 2008. DOI: 10.1148/rg.286085522（accessed 2026-06-29）。Active extravasation 動脈期高衰減對比劑（約 80–95 HU）、延遲期擴大且不退，與包含性血管損傷區分。
+[^7]: 官方2020詳解；Ref: Uptodate, Topic 7957 version 26.0（題目所引）——血液動力學穩定之低分級(I-III)損傷病人優先建議保守治療；穩定但見active contrast extravasation/contrast blush者建議初始脾栓塞優於觀察；脾切除後對莢膜細菌抵抗力下降。
 
 ## 考題
 ```dataview

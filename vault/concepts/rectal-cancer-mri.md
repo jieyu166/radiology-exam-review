@@ -26,12 +26,21 @@ dateRev: 2026-06-19
 
 - **直腸癌 vs 結腸癌之差異**：擴散途徑（pathways of spread，因直腸無漿膜層、鄰近mesorectal fascia）、術前影像評估範圍（直腸癌需MRI評估mesorectal fascia與T分期）、局部復發率（直腸癌因骨盆腔空間有限、鄰近構造多，局部復發率較結腸癌高）皆不同；**組織病理學（histopathology）則相同，兩者皆為adenocarcinoma**。[^2]
 
+## 直腸癌局部復發之主要危險因子
+- **主要危險因子**：**circumferential resection margin (CRM) positivity**、**extramural vascular invasion (EMVI)**、**腫瘤靠近肛緣(close proximity to anal verge)**、**吻合口滲漏(anastomotic leak)**、缺乏術前放射治療、手術時腫瘤穿孔、較高之病理TNM分期、以及**分化較差(lower tumor differentiation)**。[^3]
+- **常見混淆點**：是「**分化較差(lower differentiation)**」而非「分化較高(higher differentiation)」為局部復發危險因子——腫瘤分化程度越低（越惡性），局部復發風險越高。[^3]
+- **臨床表現**：雖約30%病人可無症狀，但多數局部復發病人會出現症狀並伴隨癌胚抗原(CEA)上升。[^3]
+
 > [!question]- Rectal cancer differs from colon carcinoma in all of these ways EXCEPT? (2020-241)
 > **Histopathology（D）**——兩者組織病理學相同（皆為adenocarcinoma），但擴散途徑、術前影像評估範圍、局部復發率皆不同。[^2]
+
+> [!question]- Which of the followings is not a main risk factor for local recurrence of rectal cancer? (2020-280)
+> **Higher tumor differentiation（C）**非危險因子——實際上是**較差分化(lower differentiation)**才是危險因子。CRM陽性、腫瘤靠近肛緣、EMVI、吻合口滲漏皆為確立之局部復發危險因子。[^3]
 
 ### 參考來源
 [^1]: *Rectal cancer*. Radiopaedia.org（實際查證 accessed 2026-06-19）：MRI 用於 locoregional staging（T3 extramural spread、mesorectal fascia、EMVI）;「high signal change adjacent to the muscularis propria is due to local **desmoplastic reaction**」（致 overstaging）;adenoma/T1 鑑別非 MRI 強項。題目另引 RadioGraphics 直腸 MR。
 [^2]: 官方2020詳解；Ref: Radprimer。
+[^3]: 官方2020詳解；Ref: RadioGraphics 2019;39:367-387（題目所引）——直腸癌局部復發主要危險因子含CRM陽性、EMVI、腫瘤靠近肛緣、吻合口滲漏、缺乏術前放療、手術穿孔、較高TNM分期、較差分化(lower differentiation非higher)；約30%病人可無症狀，多數伴CEA上升。
 
 ## 考題
 ```dataview
