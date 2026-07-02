@@ -1,6 +1,6 @@
 {
   "year": 2019,
-  "totalQuestions": 460,
+  "totalQuestions": 467,
   "questions": [
     {
       "id": "2019-001",
@@ -16642,6 +16642,251 @@
       "reference": "2019 交換考詳解；Nguyen, J.C. et al., 2014. MR Imaging-based Diagnosis and Classification of Meniscal Tears. RadioGraphics, 34(4):981-999",
       "concepts": [
         "discoid-meniscus"
+      ]
+    },
+    {
+      "id": "2019-501",
+      "year": 2019,
+      "number": 501,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the statements about osteochondritis dissecans is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Majority of patients are between 10 and 40 years of age."
+        },
+        {
+          "letter": "B",
+          "text": "Knee is most common site to be involved."
+        },
+        {
+          "letter": "C",
+          "text": "Osteochondritis dissecans in the knees is more likely to involve in the lateral condyle than the medial condyle."
+        },
+        {
+          "letter": "D",
+          "text": "MRI T2WI typically shows low signal loose bodies outlined by high signal fluid."
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。OCD 在膝關節最常侵犯 **medial femoral condyle**（約 70-85%），而非 lateral condyle。選項 C 敘述錯誤。OCD 好發於 10-40 歲，膝關節為最常見部位，MRI T2WI 可見低訊號 loose body 被高訊號關節液包圍。",
+      "reference": "2019 交換考詳解；Osteochondritis dissecans - Radiopaedia",
+      "concepts": [
+        "osteochondritis-dissecans"
+      ]
+    },
+    {
+      "id": "2019-502",
+      "year": 2019,
+      "number": 502,
+      "years": [
+        2019
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the accessory ossicle is less likely associated with pain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Os trigonum"
+        },
+        {
+          "letter": "B",
+          "text": "Os intermetatarseum"
+        },
+        {
+          "letter": "C",
+          "text": "Accessory navicular"
+        },
+        {
+          "letter": "D",
+          "text": "Os peroneum"
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。Os intermetatarseum 位於第一、二蹠骨基部背側，通常為偶然發現、無症狀。Os trigonum 可因 posterior impingement 致痛；accessory navicular 可因 tibialis posterior 牽拉致痛；os peroneum 骨折可致外踝痛。",
+      "reference": "2019 交換考詳解；Pope, T. et al., 2015. Musculoskeletal Imaging, Elsevier",
+      "concepts": [
+        "accessory-ossicles-foot"
+      ]
+    },
+    {
+      "id": "2019-503",
+      "year": 2019,
+      "number": 503,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which of the statements about radiation necrosis (RN) of radiotherapy in the brain is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RN typically occurs 1 to 2 years after radiation."
+        },
+        {
+          "letter": "B",
+          "text": "The total radiation dose and fraction size are important risk factors."
+        },
+        {
+          "letter": "C",
+          "text": "The RN appearance in conventional imaging is often distinguishable from tumor recurrence."
+        },
+        {
+          "letter": "D",
+          "text": "MRS shows decreased Cho, NAA, and creatine, and elevated lactate in RN."
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。放射線壞死（RN）在傳統影像上常與腫瘤復發難以區分（indistinguishable），而非容易區分。鑑別需仰賴 MR perfusion（RN 低灌流）、MRS（RN 的 Cho 降低）、及 FDG-PET（RN 低代謝）。選項 A、B、D 皆正確。",
+      "reference": "2019 交換考詳解；Barisano, G. et al., 2018. Complications of Radiotherapy and Radiosurgery in the Brain and Spine. Neurographics, 8(3), pp.167-187",
+      "concepts": [
+        "radiation-necrosis-vs-tumor-recurrence"
+      ]
+    },
+    {
+      "id": "2019-504",
+      "year": 2019,
+      "number": 504,
+      "years": [
+        2019
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "high",
+      "questionText": "Which one of the statements is WRONG about expected complications of facial bone fractures?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Superior orbital fissure syndrome is caused by extension of the fracture through the superior orbital fissure with resultant injury to cranial nerves III, IV, V1 and VI."
+        },
+        {
+          "letter": "B",
+          "text": "Orbital apex syndrome is caused by fracture through the superior orbital fissure with only injury to the optic nerve."
+        },
+        {
+          "letter": "C",
+          "text": "Fractures through the mandibular canal may damage the inferior alveolar nerve, a branch of cranial nerve V3, may result in anesthesia of the ipsilateral chin."
+        },
+        {
+          "letter": "D",
+          "text": "Injury to the infraorbital nerve (cranial nerve V2) is a common complication of orbital blowout fracture and can result in hypesthesia of the ipsilateral cheek."
+        }
+      ],
+      "answer": "B",
+      "explanation": "正確答案為 **B**。Orbital apex syndrome 並非僅損傷 optic nerve，而是累及通過 orbital apex 的所有神經，包括 optic nerve（CN II）加上 CN III、IV、V1、VI。選項 B 將其描述為「only injury to the optic nerve」是錯誤的。",
+      "reference": "2019 交換考詳解；Winegar, B.A. et al., 2013. Spectrum of Critical Imaging Findings in Complex Facial Skeletal Trauma. RadioGraphics, 33(1), pp.3-19",
+      "concepts": [
+        "facial-fracture-complications"
+      ]
+    },
+    {
+      "id": "2019-505",
+      "year": 2019,
+      "number": 505,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "The age of a child is judged by the",
+      "options": [
+        {
+          "letter": "A",
+          "text": "presence or absence of various ossification centers as compared to known standards."
+        },
+        {
+          "letter": "B",
+          "text": "radio-density of the long bones as compared to known standards."
+        },
+        {
+          "letter": "C",
+          "text": "width-length ratios of the wrist bones as compared to known standards."
+        },
+        {
+          "letter": "D",
+          "text": "chondral development compared to cortical thickening."
+        }
+      ],
+      "answer": "A",
+      "explanation": "正確答案為 **A**。骨齡評估主要依據左手腕 X 光上各骨化中心（ossification centers）的出現與否，與標準圖譜（如 Greulich-Pyle atlas）比對。骨密度、腕骨寬長比、軟骨發育程度等皆非標準骨齡判定方法。",
+      "reference": "2019 交換考詳解；Bone age assessment - Radiopaedia",
+      "concepts": [
+        "bone-age-assessment"
+      ]
+    },
+    {
+      "id": "2019-506",
+      "year": 2019,
+      "number": 506,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Scheuermann disease, also known as vertebral epiphysitis, results in:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "thoracic scoliosis."
+        },
+        {
+          "letter": "B",
+          "text": "lumbar lordosis."
+        },
+        {
+          "letter": "C",
+          "text": "cervical kyphosis."
+        },
+        {
+          "letter": "D",
+          "text": "thoracic kyphosis."
+        }
+      ],
+      "answer": "D",
+      "explanation": "正確答案為 **D**。Scheuermann disease 為青少年最常見的後凸畸形原因，主要影響胸椎，導致 **thoracic kyphosis**（胸椎後凸 >40°）。診斷標準為至少 3 個相鄰椎體前緣楔形變 >5°。",
+      "reference": "2019 交換考詳解；Scheuermann disease - Radiopaedia",
+      "concepts": [
+        "scheuermann-disease"
+      ]
+    },
+    {
+      "id": "2019-507",
+      "year": 2019,
+      "number": 507,
+      "years": [
+        2019
+      ],
+      "subspecialty": "PE",
+      "subspecialty_confidence": "high",
+      "questionText": "Cri du chat (cat cry) syndrome is associated with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "hip dysplasia and gonadoblastomas."
+        },
+        {
+          "letter": "B",
+          "text": "ambiguous genitalia in males, Wilm's tumor."
+        },
+        {
+          "letter": "C",
+          "text": "microencephaly, epicanthal folds, micrognathia."
+        },
+        {
+          "letter": "D",
+          "text": "pyloric stenosis, wide-spaced nipples."
+        }
+      ],
+      "answer": "C",
+      "explanation": "正確答案為 **C**。Cri du chat syndrome（5p deletion syndrome）的典型特徵為小頭症（microcephaly）、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、遠距眼（hypertelorism）。選項 A 與 Turner syndrome 較相關；選項 B 與 Denys-Drash syndrome 較相關；選項 D 與 Turner syndrome 較相關。",
+      "reference": "2019 交換考詳解；The cri du chat syndrome - Radiopaedia",
+      "concepts": [
+        "cri-du-chat-syndrome"
       ]
     }
   ]
