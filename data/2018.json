@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 357,
+  "totalQuestions": 364,
   "questions": [
     {
       "id": "2018-001",
@@ -728,10 +728,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "",
+      "reference": "Dahnert W. Radiology Review Manual, 6th edn. Philadelphia: Lippincott Williams & Wilkins, 2007; 717.",
+      "explanation": "原發性血鐵沉積症肝內鐵沉積使肝臟於T1W與T2W皆呈訊號下降(鐵之順磁性縮短T2/T2*)。\n\n見 [[hemochromatosis-mri]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemochromatosis-mri"
+      ],
       "checked": false
     },
     {
@@ -2330,10 +2332,12 @@
         }
       ],
       "correctAnswer": "C",
-      "reference": "",
-      "explanation": "另外D. 是grade V.",
+      "reference": "Radiology Review Manual 6th ed., p981",
+      "explanation": "撕裂延伸入集尿系統為AAST grade 4。另外D.主腎動脈撕脫是grade V。\n\n見 [[renal-trauma-grading]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-trauma-grading"
+      ],
       "checked": false
     },
     {
@@ -13244,6 +13248,285 @@
       "images": [],
       "concepts": [
         "medial-meniscus-attachment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-358",
+      "year": 2018,
+      "number": 358,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "While performing an arthrogram to study an apparent rotator cuff injury, it was noted that the contrast material had spread from the shoulder joint onto the anterior lateral surface of the scapula near the joint. When asked, the first year resident responded that this was due to an anterior tear in the cuff. Having just studied the shoulder joint you respond that the contrast is in a normal extension of the joint cavity called the:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "bicipital bursa."
+        },
+        {
+          "letter": "B",
+          "text": "olecranon bursa."
+        },
+        {
+          "letter": "C",
+          "text": "subacromial bursa."
+        },
+        {
+          "letter": "D",
+          "text": "subscapular bursa."
+        },
+        {
+          "letter": "E",
+          "text": "ulnar bursa."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "University of Michigan Medical School, musculoskeletal quiz",
+      "explanation": "subscapular bursa為盂肱關節腔之正常延伸(經關節囊纖維層開口相通)，非anterior cuff tear。\n\n見 [[synovial-bursa-communication]]",
+      "images": [],
+      "concepts": [
+        "synovial-bursa-communication"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-359",
+      "year": 2018,
+      "number": 359,
+      "years": [
+        2018
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which muscle contributes to the \"rotator cuff\"?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Deltoid"
+        },
+        {
+          "letter": "B",
+          "text": "Latissimus dorsi"
+        },
+        {
+          "letter": "C",
+          "text": "Pectoralis Minor"
+        },
+        {
+          "letter": "D",
+          "text": "Supraspinatus"
+        },
+        {
+          "letter": "E",
+          "text": "Teres major"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "University of Michigan Medical School, musculoskeletal quiz",
+      "explanation": "旋轉肌袖為SITS四肌(supraspinatus/infraspinatus/teres minor/subscapularis)。deltoid、latissimus dorsi、pectoralis minor、teres major皆非。\n\n見 [[rotator-cuff-muscles]]",
+      "images": [],
+      "concepts": [
+        "rotator-cuff-muscles"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-360",
+      "year": 2018,
+      "number": 360,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "About adrenal adenoma, which of the following is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "< 10 HU on unenhanced CT"
+        },
+        {
+          "letter": "B",
+          "text": "Mild homogeneous enhancement"
+        },
+        {
+          "letter": "C",
+          "text": "Absolute percentage washout > 60% (at 15-min delayed enhanced CT images)"
+        },
+        {
+          "letter": "D",
+          "text": "Signal drop on T1-weighted out-of-phase image"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Radiology Review Manual 6th ed., p919; AJR 1998; 170(3), 747-752.",
+      "explanation": "官方標示答案C，惟附註「錯在哪?」——四選項皆為腺瘤正確特徵(APW>60%高度提示腺瘤)，官方詳解自身存疑，可能為瑕疵題，待醫師確認。\n\n見 [[adrenal-adenoma]]",
+      "images": [],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-361",
+      "year": 2018,
+      "number": 361,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following may cause adrenal hemorrhage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Blunt abdominal trauma"
+        },
+        {
+          "letter": "B",
+          "text": "Adrenal vein sampling"
+        },
+        {
+          "letter": "C",
+          "text": "Hypoxia due to prematurity"
+        },
+        {
+          "letter": "D",
+          "text": "Underlying adrenal tumor"
+        },
+        {
+          "letter": "E",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "Radiology Review Manual 6th ed., p918",
+      "explanation": "blunt abdominal trauma(成人單側最常見)、adrenal vein sampling、早產缺氧(新生兒)、潛在腎上腺腫瘤皆可造成腎上腺出血。\n\n見 [[adrenal-imaging]]",
+      "images": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-362",
+      "year": 2018,
+      "number": 362,
+      "years": [
+        2018
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "About varicocele, which of the following is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Varicocele is one of the causes of infertility."
+        },
+        {
+          "letter": "B",
+          "text": "Primary varicocele is most commonly located on the right side."
+        },
+        {
+          "letter": "C",
+          "text": "Varicocele may cause scrotal pain and swelling."
+        },
+        {
+          "letter": "D",
+          "text": "Venous valve incompetence is one of the cause of varicocele."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiology Review Manual 6th ed., p991",
+      "explanation": "The left testicle is affected much more commonly (~85%) than the right，因左睪丸靜脈行程長、直角匯入左腎靜脈。孤立右側varicocele罕見，須評估次發性原因。\n\n見 [[varicocele]]",
+      "images": [],
+      "concepts": [
+        "varicocele"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-363",
+      "year": 2018,
+      "number": 363,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "In a 67-year-old female patient with jaundice and gallbladder wall thickening on ultrasound scan, which feature on CT favors a diagnosis of xanthogranulomatous cholecystitis rather than gallbladder carcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "pericholecystic fat infiltration"
+        },
+        {
+          "letter": "B",
+          "text": "intramural hypoattenuating nodules throughout the gallbladder"
+        },
+        {
+          "letter": "C",
+          "text": "biliary obstruction"
+        },
+        {
+          "letter": "D",
+          "text": "hepatic extension"
+        },
+        {
+          "letter": "E",
+          "text": "regional lymphadenopathy"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Chun KA, Ha KH, Yu ES, et al. Xanthogranulomatous cholecystitis: CT features with emphasis on differentiation from gallbladder carcinoma. Radiology 1997; 203: 93-7.",
+      "explanation": "膽囊壁內低衰減結節(intramural hypoattenuating nodules，壁內肉芽腫/膿瘍)傾向XGC。其餘徵象於XGC與膽囊癌皆可見無法區分。\n\n見 [[xanthogranulomatous-cholecystitis]]",
+      "images": [],
+      "concepts": [
+        "xanthogranulomatous-cholecystitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-364",
+      "year": 2018,
+      "number": 364,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "During MRCP, which substance may be administered to improve visualization of the pancreatic ducts?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "glucagon"
+        },
+        {
+          "letter": "B",
+          "text": "secretin"
+        },
+        {
+          "letter": "C",
+          "text": "cholecystokinin"
+        },
+        {
+          "letter": "D",
+          "text": "gastrin"
+        },
+        {
+          "letter": "E",
+          "text": "Buscopan"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Akisik MF, Sandrasegaran K, Aisen AA, et al. Dynamic secretin-enhanced MR cholangiopancreatography. Radiographics 2006; 26:665-77.",
+      "explanation": "Secretin刺激胰管細胞分泌碳酸氫鹽液體使胰管充盈顯影。glucagon/Buscopan為抗蠕動劑、cholecystokinin刺激膽囊收縮、gastrin刺激胃酸，皆非使胰管顯影。\n\n見 [[mrcp]]",
+      "images": [],
+      "concepts": [
+        "mrcp"
       ],
       "checked": false
     }

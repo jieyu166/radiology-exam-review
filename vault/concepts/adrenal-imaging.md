@@ -51,6 +51,7 @@ down:
 [^3]: *Adrenal hemorrhage*. Radiopaedia.org。腎上腺外傷為單側腎上腺出血常見原因；雙側出血多非外傷（敗血/DIC/抗凝）（實際查證 accessed 2026-06-15）。
 [^4]: 官方 2017 詳解；Adrenal Masses: MR Imaging Features with Pathologic Correlation. RadioGraphics 2004;24:S73-S86：myelolipoma為少見良性腫瘤(成熟脂肪+造血組織)可因自發性出血致症狀性增大，MR呈T1均質高訊號、T2中等訊號;adreniform masses(保留腺體外形之病灶)含cortical hyperplasia與adrenal hemorrhage，pheochromocytoma因扭曲/取代腺體外形而不屬此類;pheochromocytoma不含大量微觀脂肪故反相位無訊號掉落，T2WI呈高訊號(lightbulb sign)，多數病灶顯著強化。
 [^5]: *Problem Solving in Abdominal Imaging*, Chapter 17, p.464-484（2018 交換考題詳解 p.214 引用；Tier 2 教科書）。腎上腺腫塊>4cm傾向惡性；巨觀脂肪與維持腺體外形之鈣化較傾向良性；單純CT高密度非首選惡性指標。
+[^6]: Radiology Review Manual, 6th ed., p.918（2018 交換考題詳解 p.269 引用；Tier 2 教科書）。腎上腺出血成因含鈍腹部外傷(成人單側最常見)、adrenal vein sampling、早產缺氧(新生兒)、潛在腎上腺腫瘤等。
 
 ## 題目
 > [!question]- Which of the following description concerning with myelolipoma is true? (2017-327)
@@ -64,6 +65,9 @@ down:
 
 > [!question]- Which of the following imaging finding favors malignancy in adrenal gland? (2018-309)
 > **Mass > 4 cm（A）**——腫塊大小為重要惡性風險評估特徵。巨觀脂肪(B)、adreniform shape鈣化(D)較傾向良性。[^5]
+
+> [!question]- Which of the following may cause adrenal hemorrhage? (2018-361)
+> **All of the above（E）**——blunt abdominal trauma（成人單側出血最常見主因）、adrenal vein sampling、hypoxia due to prematurity（新生兒）、underlying adrenal tumor皆可造成腎上腺出血。[^6]
 
 ## 考題
 ```dataview

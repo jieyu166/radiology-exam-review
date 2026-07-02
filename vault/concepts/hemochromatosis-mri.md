@@ -24,10 +24,14 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: *McGraw-Hill Specialty Board Review: RADIOLOGY*（2018 交換考題詳解 p.131 引用；Tier 2 board review教材）。早期原發性血鐵沉積症肝臟T2低訊號、脾臟不受累；續發性血鐵沉積症肝臟與脾臟皆T2低訊號；記憶口訣Primary=Pancreas、Secondary=Spleen。
+[^2]: Dähnert W. *Radiology Review Manual*, 6th edn. Philadelphia: Lippincott Williams & Wilkins, 2007; p.717（2018 交換考題詳解 p.274 引用；Tier 2 教科書）。原發性血鐵沉積症鐵沉積於肝實質細胞(肝/胰/心/腦下垂體/甲狀腺/滑膜)，肝臟於T1W與T2W皆訊號下降；續發性(血鐵沉積症haemosiderosis，如thalassemia)鐵主要沉積於脾/骨髓之網狀內皮系統。
 
 ## 題目
 > [!question]- Concerning MR imaging features (with T2-weighting) of primary and secondary hemochromatosis, which of the following is true? (2018-018)
 > **Liver and spleen are hypointense in secondary hemochromatosis（C）**——續發性血鐵沉積症肝脾皆T2低訊號。原發性早期僅肝臟(非脾臟)低訊號。[^1]
+
+> [!question]- A 40-year-old man with hyperpigmentation, arthralgia and diabetes mellitus suspected primary hemochromatosis. Most likely liver MRI findings? (2018-020)
+> **decreased signal intensity on T1W and T2W images（B）**——原發性血鐵沉積症肝內鐵沉積使肝臟於T1W與T2W皆呈訊號下降（鐵之順磁性縮短T2/T2\*）。[^2]
 
 ## 考題
 ```dataview
