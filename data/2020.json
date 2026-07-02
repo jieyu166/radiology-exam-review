@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 191,
+  "totalQuestions": 196,
   "questions": [
     {
       "id": "2020-001",
@@ -6850,6 +6850,191 @@
       "images": [],
       "concepts": [
         "cerebral-microbleeds"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-192",
+      "year": 2020,
+      "number": 192,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which type of the cavernous-carotid fistula is the most common?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type A"
+        },
+        {
+          "letter": "B",
+          "text": "Type B"
+        },
+        {
+          "letter": "C",
+          "text": "Type C"
+        },
+        {
+          "letter": "D",
+          "text": "Type D"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Neuroradiology: The Requisites, 3rd ed., p.337",
+      "explanation": "**Barrow type A（直接型carotid-cavernous fistula）最常見**，故(A)為正解。\n\n(A) **對（正解）**：Type A為直接型（頸內動脈與海綿竇直接相通），最常見類型；主因為外傷或動脈瘤破裂。\n(B)(C)(D) 錯：Type B/C/D為間接型（dural AVF），繼發於海綿竇血栓合併再血管化，較少見。\n\n→ [[carotid-cavernous-fistula]]",
+      "images": [],
+      "concepts": [
+        "carotid-cavernous-fistula"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-193",
+      "year": 2020,
+      "number": 193,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which cranial nerve is more easier being involved in a patient with carotid-cavernous fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "CN III"
+        },
+        {
+          "letter": "B",
+          "text": "CN IV"
+        },
+        {
+          "letter": "C",
+          "text": "CN VI"
+        },
+        {
+          "letter": "D",
+          "text": "CN V"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Diagnostic Cerebral Angiography, 2nd ed. (Anne G. Osborn), p.85",
+      "explanation": "**CN VI（外旋神經）因解剖位置最接近內頸動脈，於carotid-cavernous fistula中最常受累**，故(C)為正解。\n\n(A)(B)(D) 錯：CN III、IV、V雖也可能受累（因走行於海綿竇外側壁），但CN VI因游離走行於海綿竇內、緊鄰ICA，最易受影響致複視。\n(C) **對（正解）**：CN VI最常受累，可致同側或對側外旋神經麻痺（血流/壓力可傳導至對側海綿竇）。\n\n→ [[carotid-cavernous-fistula]]",
+      "images": [],
+      "concepts": [
+        "carotid-cavernous-fistula"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-194",
+      "year": 2020,
+      "number": 194,
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the most common cause of the cavernous-carotid fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibromuscular dysplasia"
+        },
+        {
+          "letter": "B",
+          "text": "ICA Aneurym"
+        },
+        {
+          "letter": "C",
+          "text": "Trauma"
+        },
+        {
+          "letter": "D",
+          "text": "Ehlers-Danlos syndrome"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Neuroradiology: The Requisites, 3rd ed., p.337",
+      "explanation": "**外傷(trauma，含手術/血管攝影相關損傷)為直接型(Barrow type A) carotid-cavernous fistula最常見病因**，故(C)為正解。\n\n(A)(D) 錯：Fibromuscular dysplasia、Ehlers-Danlos syndrome皆為直接型病因之一，但非最常見。\n(B) 錯：ICA動脈瘤破裂亦為病因之一，但外傷更常見。\n(C) **對（正解）**：外傷為最常見病因。\n\n→ [[carotid-cavernous-fistula]]",
+      "images": [],
+      "concepts": [
+        "carotid-cavernous-fistula"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-195",
+      "year": 2020,
+      "number": 195,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "在孩童時期氣管內病灶最常見的原因是？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adenoma（腺瘤）"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma（腺癌）"
+        },
+        {
+          "letter": "C",
+          "text": "Subglottic mucocele（聲門下黏液囊腫）"
+        },
+        {
+          "letter": "D",
+          "text": "Croup（哮吼）"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Radiology Review Manual, 7th ed.",
+      "explanation": "**Croup好發6個月-3歲，為幼童上呼吸道阻塞最常見原因**，故(D)為正解。\n\n(A) 錯：Adenoma罕見於孩童氣管內病灶。\n(B) 錯：Adenocarcinoma更罕見於孩童。\n(C) 錯：Subglottic mucocele非最常見原因。\n(D) **對（正解）**：Croup（急性喉氣管支氣管炎）為幼童上呼吸道阻塞最常見原因。\n\n→ [[croup-steeple-sign]]",
+      "images": [],
+      "concepts": [
+        "croup-steeple-sign"
+      ],
+      "checked": false,
+      "years": [
+        2020
+      ]
+    },
+    {
+      "id": "2020-196",
+      "year": 2020,
+      "number": 196,
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "在plain abdomen的X片上，出現Three bubbles air density最可能的阻塞處是？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Colon(結腸)"
+        },
+        {
+          "letter": "B",
+          "text": "Stomach(胃)"
+        },
+        {
+          "letter": "C",
+          "text": "Upper jejunum(上部空腸)"
+        },
+        {
+          "letter": "D",
+          "text": "Low small bowel(低位為小腸)"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Radiology Review Manual, 7th ed.",
+      "explanation": "**Triple bubble sign為空腸閉鎖(jejunal atresia)之典型X光表現**，為double bubble sign（胃＋近端十二指腸擴張）之延伸，多一顆氣泡代表近端空腸擴張，故(C)為正解。\n\n(A)(B)(D) 錯：非triple bubble sign之對應阻塞部位。\n(C) **對（正解）**：Upper jejunum阻塞（空腸閉鎖）致胃＋十二指腸＋近端空腸三顆氣泡擴張。\n\n→ [[neonatal-bowel-atresia-bubble-signs]]",
+      "images": [],
+      "concepts": [
+        "neonatal-bowel-atresia-bubble-signs"
       ],
       "checked": false,
       "years": [

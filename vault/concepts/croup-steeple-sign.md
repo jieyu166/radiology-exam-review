@@ -21,6 +21,7 @@ dateRev: 2026-07-01
 - **病變部位（關鍵鑑別）**：Croup本質為**聲門下(subglottic)病變**（laryngotracheobronchitis），**非supraglottic**——supraglottic病變典型為epiglottitis（會厭炎），兩者部位相反，考題常互換。[^2]
 - **致病原**：最常見為**parainfluenza virus**。[^2]
 - **好發年齡**：**6個月-3歲**，較epiglottitis好發年齡層小（epiglottitis好發年齡稍大）。[^2]
+- **孩童氣管內病灶最常見原因**：**Croup為幼童上呼吸道阻塞最常見原因**；相對之下adenoma、adenocarcinoma、subglottic mucocele皆屬罕見病因。[^3]
 
 > [!note] 考點：Steeple sign典型見於何種疾病?
 > **Croup（B）**——病毒性聲門下水腫致對稱性聲門下狹窄、失去正常肩部輪廓，形似教堂尖塔。[^1]
@@ -31,6 +32,7 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: 官方2016詳解；*Primer of Diagnostic Imaging*, 3rd ed., p.803-804（題目所引）——steeple sign定義（聲門下狹窄、失去subglottic shoulders）及croup為典型病因。
 [^2]: 官方2016詳解；Primer of Diagnostic Imaging, Pediatric Imaging, p.820（題目所引）——croup為聲門下(subglottic)病變非supraglottic、最常見病毒parainfluenza、好發6個月-3歲（較epiglottitis年輕）、影像可見inverted V/steeple sign。
+[^3]: 官方2020詳解；Radiology Review Manual, 7th ed.（題目所引）——croup為孩童時期氣管內病灶/上呼吸道阻塞最常見原因，adenoma、adenocarcinoma、subglottic mucocele皆屬罕見。
 
 ## 題目
 > [!question]- Which disease has "steeple sign"? (2016-265)
@@ -38,6 +40,9 @@ dateRev: 2026-07-01
 
 > [!question]- About the following description of CROUP, which one is wrong? (2016-288)
 > **「Supraglottic laryngotracheobronchitis」有誤（A）**——croup為聲門下病變非supraglottic。最常見致病病毒parainfluenza、好發6個月-3歲、可見inverted V/steeple sign皆正確。[^2]
+
+> [!question]- 在孩童時期氣管內病灶最常見的原因是？ (2020-195)
+> **Croup（D）**——為幼童上呼吸道阻塞最常見原因；adenoma、adenocarcinoma、subglottic mucocele皆罕見。[^3]
 
 ## 考題
 ```dataview
