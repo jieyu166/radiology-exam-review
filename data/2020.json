@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 243,
+  "totalQuestions": 246,
   "questions": [
     {
       "id": "2020-001",
@@ -8809,6 +8809,117 @@
       "images": [],
       "concepts": [
         "pancreatic-neuroendocrine-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-244",
+      "year": 2020,
+      "number": 244,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT correct about theca lutein cyst?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Related to gestational trophoblastic disease"
+        },
+        {
+          "letter": "B",
+          "text": "Typically bilateral involvement"
+        },
+        {
+          "letter": "C",
+          "text": "Multiple cysts"
+        },
+        {
+          "letter": "D",
+          "text": "Malignant potential"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 7-16~7-18.",
+      "explanation": "Theca lutein cyst（黃素化卵泡膜細胞囊腫，又稱hyperreactio luteinalis）為functional（良性）卵巢囊腫，不具惡性潛能。典型多發（multiple）且雙側（bilateral），與循環中過量促性腺激素（如beta-hCG）有關，與妊娠滋養層疾病（gestational trophoblastic disease）高度相關；其他相關病況包括多胎妊娠、多囊性卵巢症候群(PCOS)、糖尿病、clomiphene使用、排卵誘導。",
+      "images": [],
+      "concepts": [
+        "theca-lutein-cyst"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-245",
+      "year": 2020,
+      "number": 245,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following is NOT a typical image finding of adnexal torsion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hemorrhage"
+        },
+        {
+          "letter": "B",
+          "text": "Uterine deviation towards torsed ovary"
+        },
+        {
+          "letter": "C",
+          "text": "\"Twisted vascular pedicle\" sign"
+        },
+        {
+          "letter": "D",
+          "text": "More commonly related to a malignant ovarian tumor"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Hricak, H. Diagnostic Imaging: Gynecology. Salt Lake City, Utah: Amirsys; 2007. p 7-176~7-178.",
+      "explanation": "卵巢/附件扭轉大多與良性病灶（most commonly dermoid cysts或paraovarian cysts）相關，而非惡性卵巢腫瘤；5-10cm大小之腫塊風險最高。扭轉主要特徵為卵巢腫大（因靜脈/淋巴回流受阻、水腫、出血），次要徵象包括骨盆腔游離液體、underlying ovarian lesion、血流減少或消失、及twisted dilated tubular structure對應vascular pedicle（twisted vascular pedicle sign）。附件扭轉常見單側，右側略多見(3:2)。",
+      "images": [],
+      "concepts": [
+        "adnexal-torsion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-246",
+      "year": 2020,
+      "number": 246,
+      "years": [
+        2020
+      ],
+      "subspecialty": "GU",
+      "subspecialty_confidence": "manual",
+      "questionText": "Benign prostatic hypertrophy involves which portion of the prostate gland?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peripheral zone"
+        },
+        {
+          "letter": "B",
+          "text": "Anterior fibromuscular stroma"
+        },
+        {
+          "letter": "C",
+          "text": "Transition zone"
+        },
+        {
+          "letter": "D",
+          "text": "Central zone"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Radprimer",
+      "explanation": "良性前列腺肥大（BPH）好發於transition zone（移行區）。前列腺分區：central zone（中央區）、fibromuscular zone（纖維肌肉區）、transitional zone（移行區）、peripheral zone（周邊區）、periurethral gland region（尿道周圍腺體區）。前列腺癌則好發於peripheral zone。",
+      "images": [],
+      "concepts": [
+        "prostate-zonal-anatomy"
       ],
       "checked": false
     }
