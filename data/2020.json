@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 230,
+  "totalQuestions": 235,
   "questions": [
     {
       "id": "2020-001",
@@ -8324,6 +8324,195 @@
       "images": [],
       "concepts": [
         "scaphoid-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-231",
+      "year": 2020,
+      "number": 231,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to the 2018 AHA/ASA Guidelines for Management of Acute Ischemic Stroke, for acute large vessel occlusion stroke case of anterior circulation, with the help of MR-DWI or perfusion imaging, it is possible to extend the Intra-arterial thrombectomy (IAT) treatment window up to How Long after symptom onset?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "6 hours"
+        },
+        {
+          "letter": "B",
+          "text": "16~24 hours"
+        },
+        {
+          "letter": "C",
+          "text": "72 hours"
+        },
+        {
+          "letter": "D",
+          "text": "120 hours"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2018;49:e46–e99",
+      "explanation": "2018 AHA/ASA指引：advanced imaging（CT perfusion或MRI/MR perfusion）可將前循環大血管阻塞中風之機械取栓治療窗延長至最後正常時間後6-24小時，用於篩選具可挽救腦組織之病人（DAWN試驗：good outcome 49% vs 13%；DEFUSE 3試驗：good outcome 45% vs 17%），選項B(16-24小時)為最接近之區間。詳見[[ia-thrombectomy-stroke-window]]。",
+      "images": [],
+      "concepts": [
+        "ia-thrombectomy-stroke-window"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-232",
+      "year": 2020,
+      "number": 232,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "What is the scope of benefits (給付標準) of IA thrombectomy in National Health Insurance of Taiwan(全民健保)？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior circulation, onset within 8 hours."
+        },
+        {
+          "letter": "B",
+          "text": "Posterior circulation, onset within 24 hours."
+        },
+        {
+          "letter": "C",
+          "text": "Large vessel occlusion, including internal carotid artery、M1, M2 segment of middle cerebral artery, anterior cerebral artery, basilar and vertebral arteries."
+        },
+        {
+          "letter": "D",
+          "text": "NIHSS ≧8 and lower than ≦30"
+        },
+        {
+          "letter": "E",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: 全民健保，衛生福利部中央健康保險署醫療給付項目及支付標準",
+      "explanation": "台灣全民健保顱內血管支架取栓裝置給付需同時符合：①前循環發作內8小時、後循環發作後24小時內；②NIH Stroke Scale評分≧8 and ≦30；③影像診斷為顱內大動脈阻塞，包括內頸動脈、大腦中動脈第1及第2段、大腦前動脈、基底動脈和脊椎動脈。四個選項皆為正確之給付條件組成部分，故答案為E(all of the above)。詳見[[ia-thrombectomy-stroke-window]]。",
+      "images": [],
+      "concepts": [
+        "ia-thrombectomy-stroke-window"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-233",
+      "year": 2020,
+      "number": 233,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which molecular subtype of Medulloblastoma has lowest risk and best prognosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "WNT group"
+        },
+        {
+          "letter": "B",
+          "text": "SHH group"
+        },
+        {
+          "letter": "C",
+          "text": "Group 3"
+        },
+        {
+          "letter": "D",
+          "text": "Group 4"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary. Acta Neuropathol (2016) 131:803–820.",
+      "explanation": "2016 WHO CNS分類將髓母細胞瘤分四個分子亞型：WNT group（頻率~10%，好發較大兒童，CTNNB1突變/monosomy 6，存活率非常好且不受p53狀態影響，好發位置CP angle，轉移少見）；SHH group（~30%，好發嬰兒與較大兒童/青少年，存活中等且依p53狀態而異，好發小腦半球）；Group 3（~20%，好發幼童，MYC/OTX2擴增，存活最差，好發中線/第四腦室，轉移常見）；Group 4（~40%，各年齡層皆可見，i17q/MYCN/OTX2異常，存活中等，好發中線/第四腦室，轉移常見）。WNT group具最低風險與最佳預後。",
+      "images": [],
+      "concepts": [
+        "medulloblastoma-molecular-subgroups"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-234",
+      "year": 2020,
+      "number": 234,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A 1-month-old girl is brought to her pediatrician for a unilateral neck mass associated with torticollis. The mass was not present at birth. The patient's mother reports that forceps were used during the delivery. An ultrasound of the mass shows a heterogeneous solid lesion in the midportion of the sternocleidomastoid muscle. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibromatosis colli"
+        },
+        {
+          "letter": "B",
+          "text": "Rhabdomyosarcoma"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphatic malformation"
+        },
+        {
+          "letter": "D",
+          "text": "Infantile hemangioma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: Wojcicki KM et al: Fibromatosis colli spuriously presenting as a retropharyngeal mass on cervical spine radiographs. Intern Emerg Med. 11(2):277-9, 2015",
+      "explanation": "Fibromatosis colli為罕見之嬰兒纖維瘤病，發生於胸鎖乳突肌(SCM)內。臨床表現常為斜頸(torticollis)，最常與生產創傷（如forceps delivery）或胎位不正（如breech presentation）有關；可能略好發於男性。屬自限性疾病，通常於4-8個月內自行緩解，僅需物理治療。超音波典型呈SCM肌肉中段之異質性實質病灶。",
+      "images": [],
+      "concepts": [
+        "fibromatosis-colli"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-235",
+      "year": 2020,
+      "number": 235,
+      "years": [
+        2020
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "manual",
+      "questionText": "A newborn with microcephaly has a \"blueberry muffin\" rash. Head ultrasound shows lateral ventriculomegaly with numerous periventricular calcifications, abnormal sulcation, and cerebellar hypoplasia. What is the most likely diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dandy-Walker malformation"
+        },
+        {
+          "letter": "B",
+          "text": "Tuberous sclerosis"
+        },
+        {
+          "letter": "C",
+          "text": "TORCH (toxoplasmosis, other agents, rubella, cytomegalovirus, herpes simplex) infection"
+        },
+        {
+          "letter": "D",
+          "text": "Alobar holoprosencephaly"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Clinical features and neuroimaging (CT and MRI) findings in presumed Zika virus related congenital infection and microcephaly: retrospective case series study. BMJ. 353:i3182, 2016",
+      "explanation": "Blueberry muffin syndrome（藍莓鬆餅疹）指皮膚多發性隆起、典型藍紫色病灶，因真皮層髓外造血所致，病因包括先天性感染（CMV、rubella）、血液疾病、惡性腫瘤（neuroblastoma、AML）、先天性血管疾病。合併microcephaly、腦室擴大、periventricular calcification、異常腦溝形成、小腦發育不全，符合TORCH（toxoplasmosis、other agents、rubella、CMV、herpes simplex）先天性感染之典型神經影像表現。不同病原體鈣化位置略有差異：CMV為thick chunky periventricular calcification；toxoplasmosis為nodular periventricular/cortical calcification；rubella為basal ganglia/periventricular；Zika則為皮質-皮質下白質交界處點狀鈣化，且microcephaly/micrencephaly程度通常較其他先天感染更嚴重。",
+      "images": [],
+      "concepts": [
+        "torch-infection-neuroimaging"
       ],
       "checked": false
     }
