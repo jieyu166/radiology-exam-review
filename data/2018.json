@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 283,
+  "totalQuestions": 293,
   "questions": [
     {
       "id": "2018-001",
@@ -3346,10 +3346,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
+      "reference": "2018 交換考題 詳解 p.194；Diagnostic Imaging, Brain, Third edition, p.393.",
       "explanation": "[[Sinus pericranii]] is a cranial venous anomaly in which there is an abnormal communication between **intracranial dural sinuses** and **extracranial venous** structures, usually via an **emissary transosseous vein**.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cerebrovascular-malformations"
+      ],
       "checked": false
     },
     {
@@ -10464,6 +10466,376 @@
       "images": [],
       "concepts": [
         "second-impact-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-284",
+      "year": 2018,
+      "number": 284,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is not lysosomal disorder?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Kearns-Sayre syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Mucopolysaccharidoses"
+        },
+        {
+          "letter": "C",
+          "text": "Metachromatic leukodystrophy"
+        },
+        {
+          "letter": "D",
+          "text": "Krabbe"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.191；Diagnostic Imaging, Brain, Third edition, p.773.",
+      "explanation": "Kearns-Sayre症候群為粒線體疾病(mitochondrial disorder)，非溶酶體儲積症；粒線體疾病影響範圍較侷限，僅在特定組織(多為肌肉與中樞神經系統)發現粒線體基因缺失，病人常見外眼肌麻痺與眼底色素沉積。黏多醣症(mucopolysaccharidoses)、異染性腦白質失養症(metachromatic leukodystrophy)、Krabbe氏病皆為溶酶體儲積症。\n\n見 [[lysosomal-storage-disorders-cns]]",
+      "images": [],
+      "concepts": [
+        "lysosomal-storage-disorders-cns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-285",
+      "year": 2018,
+      "number": 285,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG about idiopathic intracranial hypertension?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Empty or partially empty sella."
+        },
+        {
+          "letter": "B",
+          "text": "Often shows transverse sinus enlargement."
+        },
+        {
+          "letter": "C",
+          "text": "Intraocular protrusion of optic nerve head."
+        },
+        {
+          "letter": "D",
+          "text": "Posterior eye globe flattening."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.191；Diagnostic Imaging, Brain, Third edition, p.896.",
+      "explanation": "原發性顱內壓升高(IIH)常見表現為橫竇「狹窄/血栓/web」(stenosis/thrombosis/web)，而非橫竇「擴大」——硬腦膜靜脈竇擴張反而見於「低顱內壓」情境，兩者方向相反，故本敘述錯誤。空蝶鞍或部分空蝶鞍、視神經頭眼球內突出、後眼球扁平化，皆為IIH正確之影像表現。\n\n見 [[idiopathic-intracranial-hypertension]]",
+      "images": [],
+      "concepts": [
+        "idiopathic-intracranial-hypertension"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-286",
+      "year": 2018,
+      "number": 286,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG about schwannomatosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Incidence similar to NF2."
+        },
+        {
+          "letter": "B",
+          "text": "Germline mutation of SMARCB1 gene."
+        },
+        {
+          "letter": "C",
+          "text": "Multiple schwannomas of peripheral nervous system with involvement of vestibular nerves."
+        },
+        {
+          "letter": "D",
+          "text": "Peak incidence between ages 30-60."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.192；Diagnostic Imaging, Brain, Third edition, p.130-131.",
+      "explanation": "神經鞘瘤病(schwannomatosis)之診斷準則要求「不合併」前庭神經(vestibular nerve)侵犯，若合併前庭神經腫瘤則應歸類為NF2，而非schwannomatosis，故本敘述錯誤。其發生率與NF2相近、可有SMARCB1基因生殖細胞突變、好發年齡通常>30歲(30-60歲區間)，皆為正確描述。\n\n見 [[schwannomatosis]]",
+      "images": [],
+      "concepts": [
+        "schwannomatosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-287",
+      "year": 2018,
+      "number": 287,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is non-SAH cause of vasospasm?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Meningitis."
+        },
+        {
+          "letter": "B",
+          "text": "Acute hypertensive encephalopathy."
+        },
+        {
+          "letter": "C",
+          "text": "Migraine headache."
+        },
+        {
+          "letter": "D",
+          "text": "All of above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.192；Diagnostic Imaging, Brain, Third edition, p.308.",
+      "explanation": "血管痙攣(vasospasm)之非蛛網膜下腔出血(non-SAH)成因包含腦膜炎、急性高血壓腦病變、偏頭痛等多種病因，皆可造成血管痙攣，故答案為「以上皆是」。\n\n見 [[non-sah-vasospasm]]",
+      "images": [],
+      "concepts": [
+        "non-sah-vasospasm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-288",
+      "year": 2018,
+      "number": 288,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is wrong about fibromuscular dysplasia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "ECA(30-50%) > ICA > vertebral arteries(10-20%)"
+        },
+        {
+          "letter": "B",
+          "text": "Type I (85%): Classic \"string of beads\" = medial fibroplasia."
+        },
+        {
+          "letter": "C",
+          "text": "Type II (10%): Long, tubular stenosis = intimal fibroplasia."
+        },
+        {
+          "letter": "D",
+          "text": "Type III (5%): Asymmetric outpouching from 1 side of artery = periadventitial fibroplasia."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.193；Diagnostic Imaging, Brain, Third edition, p.328.",
+      "explanation": "依Olin et al. 2012年447例病人資料，纖維肌肉發育不良(FMD)最常侵犯動脈依序為腎動脈(79.7%)、肋外頸動脈(74.4%)與椎動脈(36.6%)、腸繫膜動脈(26%)、顱內頸動脈(17%)——並非「外頸動脈>內頸動脈>椎動脈」之排序(內頸動脈非典型好發部位)，故本敘述錯誤。Type I(85%，classic string of beads=medial fibroplasia)、Type II(10%，長管狀狹窄=intimal fibroplasia)、Type III(5%，單側不對稱外突=periadventitial fibroplasia)皆為正確描述。\n\n見 [[fibromuscular-dysplasia]]",
+      "images": [],
+      "concepts": [
+        "fibromuscular-dysplasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-289",
+      "year": 2018,
+      "number": 289,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is most commonly involved in dural AV fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Superior sagittal sinus."
+        },
+        {
+          "letter": "B",
+          "text": "Cavernous sinus."
+        },
+        {
+          "letter": "C",
+          "text": "Transverse sinus and sigmoid sinus."
+        },
+        {
+          "letter": "D",
+          "text": "Superior petrosal sinus."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.195；Diagnostic Imaging, Brain, Third edition, p.401.",
+      "explanation": "硬腦膜動靜脈瘻(dural AV fistula)最常侵犯之部位為橫竇與乙狀竇(transverse sinus and sigmoid sinus)。\n\n見 [[cerebrovascular-malformations]]",
+      "images": [],
+      "concepts": [
+        "cerebrovascular-malformations"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-290",
+      "year": 2018,
+      "number": 290,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG about remote cerebellar hemorrhage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typically after supratentorial craniotomy."
+        },
+        {
+          "letter": "B",
+          "text": "Can present \"Zebra\" sign."
+        },
+        {
+          "letter": "C",
+          "text": "No underlying pathologic lesion."
+        },
+        {
+          "letter": "D",
+          "text": "Usually at vermis only."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "2018 交換考題 詳解 p.196；Diagnostic Imaging, Brain, Third edition, p.267.",
+      "explanation": "遠端小腦出血(remote cerebellar hemorrhage)之出血位置可為手術部位之對側或同側，亦可雙側，甚至可侷限於小腦蚓部——並非「僅侷限於蚓部」，故本敘述錯誤。典型發生於天幕上開顱術後、可呈現斑馬徵(zebra sign，血液沿小腦葉層狀分布)、無潛在病理病灶(良性、罕見之術後併發症，因CSF低容積致小腦下垂壓迫上方穿通靜脈引發出血性梗塞)，皆為正確描述。\n\n見 [[remote-cerebellar-hemorrhage]]",
+      "images": [],
+      "concepts": [
+        "remote-cerebellar-hemorrhage"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-291",
+      "year": 2018,
+      "number": 291,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which site is most involved in Behçet's disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Midbrain"
+        },
+        {
+          "letter": "B",
+          "text": "Pons"
+        },
+        {
+          "letter": "C",
+          "text": "Basal ganglia"
+        },
+        {
+          "letter": "D",
+          "text": "Thalami"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "2018 交換考題 詳解 p.197；Diagnostic Imaging, Brain, Third edition, p.324.",
+      "explanation": "⚠️官方詳解標示答案為A(midbrain)，惟頁緣紅筆加註「應該B才對」，對此答案表達存疑。依原始文獻，neuro-Behçet disease病灶好發部位依序為：腦幹(brainstem，最常見)＞基底核(basal ganglia，約1/3雙側)＞視丘＞皮質下白質(較少見)＞脊髓(較少見)。「腦幹」為最常見侵犯部位，但選項並未列出廣義「腦幹」，僅細分中腦(midbrain)與橋腦(pons)供選——官方答案認定中腦，惟考官加註質疑應為橋腦，此細分於原始文獻未明確區分，建議醫師對照原文獻確認。\n\n見 [[behcet-disease-neuro]]",
+      "images": [],
+      "concepts": [
+        "behcet-disease-neuro"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-292",
+      "year": 2018,
+      "number": 292,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is correct about pial AV fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "About 10% of all brain vascular malformations."
+        },
+        {
+          "letter": "B",
+          "text": "Higher hemorrhage risk than AVM."
+        },
+        {
+          "letter": "C",
+          "text": "Presence of intervening nidus."
+        },
+        {
+          "letter": "D",
+          "text": "No spontaneous obliteratoin."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "2018 交換考題 詳解 p.198；Diagnostic Imaging, Brain, Third edition, p.404.",
+      "explanation": "軟膜動靜脈瘻(pial AV fistula)之出血風險較動靜脈畸形(AVM)為高，為正確敘述——瘻管本身較脆弱，長期高流速血流增加破裂出血風險。軟膜動靜脈瘻為罕見病灶，約僅佔所有顱內血管畸形之1.6%(非10%，A錯)；其病灶為單一動靜脈直接相通、「無」中介之nidus(此為與AVM之關鍵鑑別點，C錯，AVM才有nidus)；病灶小且血流量較低時仍可能自發性阻塞(非「無法」自發阻塞，D錯)。\n\n見 [[cerebrovascular-malformations]]",
+      "images": [],
+      "concepts": [
+        "cerebrovascular-malformations"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-293",
+      "year": 2018,
+      "number": 293,
+      "years": [
+        2018
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG about paraneoplastic syndromes of the brain?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Immune-mediated by autoantibodies or cytotoxic T cell-related mechanisms."
+        },
+        {
+          "letter": "B",
+          "text": "Limbic encephalitis is most common clinical paraneoplastic syndrome."
+        },
+        {
+          "letter": "C",
+          "text": "About 10% of patients with systemic cancers develop paraneoplastic syndrome."
+        },
+        {
+          "letter": "D",
+          "text": "Most common tumor is small cell lung carcinoma."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "2018 交換考題 詳解 p.198；Diagnostic Imaging, Brain, Third edition, p.598.",
+      "explanation": "副腫瘤症候群(paraneoplastic syndrome)發生於高達「15%」（非10%）之癌症病人，故本敘述錯誤。機轉為自體抗體或細胞毒性T細胞相關之免疫媒介反應、邊緣系統腦炎(limbic encephalitis)為最常見之臨床副腫瘤症候群、最常見相關腫瘤為小細胞肺癌，皆為正確描述。\n\n見 [[paraneoplastic-syndromes-brain]]",
+      "images": [],
+      "concepts": [
+        "paraneoplastic-syndromes-brain"
       ],
       "checked": false
     }
