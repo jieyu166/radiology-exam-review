@@ -21,6 +21,7 @@ dateRev: 2026-06-30
 - **Group 3 — 肺病/缺氧**：COPD、ILD、CPFE、睡眠呼吸障礙、高海拔。[^1]
 - **Group 4 — CTEPH**：慢性血栓栓塞性肺高壓。[^1]
 - **Group 5 — 多因子/不明**：血液病、**sarcoidosis**、代謝病、機械壓迫等。[^1]
+- **影像鑑別診斷清單（2019交換，Radiopaedia差異列表）**：常見「肺動脈高壓」影像鑑別診斷包含**血管炎（vasculitis）、慢性肺栓塞（chronic pulmonary emboli）、肺氣腫（emphysema）**；**sarcoidosis並非此差異列表中常見病因**（sarcoidosis屬WHO Group 5，非典型肺動脈本身病變）。[^5]
 
 > [!note] 考點：何者為『肺動脈高壓（PAH, Group 1）』的病因?
 > **Scleroderma（C，結締組織病相關 PAH，group 1.4.1）**。sarcoidosis＝Group 5、PVOD＝Group 1'、cor triatriatum（左心病變）＝Group 2,皆非典型 Group 1 PAH。[^1]
@@ -54,6 +55,7 @@ dateRev: 2026-06-30
 [^2]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.7：precapillary（肺動脈循環病變）vs postcapillary（肺靜脈循環病變）分類與病因;臨床上 Group 2（postcapillary/PH-LHD）為最常見病因（mPAP>20、PCWP>15）;主肺動脈徑門檻新研究達 29-31.6mm;單側肺動脈擴大為 PH 較差指標（正常上限 16mm）;CTEPH 比 idiopathic 型更常見 mosaic perfusion。
 [^4]: 2019 交換考詳解；RadioGraphics 2018;38:357-373：CT 診斷肺高壓始於量測主肺動脈徑，應於軸位、肺動脈分叉處、與長軸垂直取得，>29 mm 為擴大閾值。
 [^3]: 官方 2017 詳解；Amirsys Diagnostic Imaging: Cardiovascular（Abbara & Walker）I.8.6-9：idiopathic PAH 為排除診斷（無特定亞型伴隨徵象時考慮）;interlobular septal thickening＝左心病變、雙側肺動脈不對稱擴大＝肝肺症候群、節段肺動脈 target sign＝急性 PE 皆為特定病因線索;D-shape LV 為非特異性右心室功能障礙表現;mosaic attenuation 於 idiopathic 較 CTEPH 少見;支氣管動脈肥大為 CTEPH 特徵、idiopathic PAH 通常缺席。
+[^5]: 2019 交換考詳解；Chest radiology: the essentials, p.263; https://radiopaedia.org/articles/pulmonary-hypertension-differential-1：肺動脈高壓影像鑑別診斷含vasculitis、chronic pulmonary emboli、emphysema；sarcoidosis非此差異列表病因（屬WHO Group 5）。
 
 ## 題目
 > [!question]- 何者為 pulmonary arterial hypertension (Group 1) 的病因? (2017-238)

@@ -8,7 +8,7 @@ aliases:
   - hip dysplasia
   - alpha angle
   - 髖關節發育不良
-dateRev: 2026-06-30
+dateRev: 2026-07-02
 ---
 
 # developmental-dysplasia-hip
@@ -32,7 +32,13 @@ dateRev: 2026-06-30
 > [!note] 考點二：股骨頭骨化前 DDH 的首選影像?
 > **超音波（Ultrasound）**——骨化前 US（Graf 法）為首選;骨化後改 X 光。[^2]
 
+## Summary — 臨床特徵
+- **好發側**：**左髖較常見**。[^3]
+- **性別**：**女性顯著多於男性**（M:F≈1:8）——「male predominance」為錯誤敘述。[^3]
+- **臨床徵象**：Positive **Trendelenburg test**。[^3]
+
 ### 參考來源
+[^3]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 67-68。
 [^1]: 官方 2017 詳解；US Preventive Services Task Force. Screening for Developmental Dysplasia of the Hip: Recommendation Statement. Pediatrics 2006;117(3):898-902. doi:10.1542/peds.2005-1995：DDH 危險因子含女性（M:F≈1:8）、家族史、臀位產、羊水過少;男性非危險因子。
 [^2]: 官方 2017 詳解；Noordin S et al. Developmental dysplasia of the hip. Orthop Rev 2010;2(2):e19. doi:10.4081/or.2010.e19：股骨頭骨化前 US 為首選影像;Graf α 角 ≥60°、β 角 <77°、骨性覆蓋率 >50% 為正常。
 [^3]: *Bone and Joint Imaging*. Resnick. Elsevier Saunders. 3rd Edition. p.1268（2018 交換考題詳解 p.248 引用；Tier 2 教科書）。DDH評估測量含Hilgenreiner's line、center-edge角、acetabulum外側緣斜率；Meary's angle為足部(1st metatarsal-talus軸線)測量法，非DDH評估項目。

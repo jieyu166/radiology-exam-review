@@ -116,7 +116,7 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         f"id: {q.get('id', '')}",
         _yaml_block_list("year", years),
         f"subspecialty: {sub}",
-        f"correctAnswer: {q.get('correctAnswer', '')}",
+        f"correctAnswer: {q.get('correctAnswer', q.get('answer', ''))}",
         _yaml_block_list("concepts", concepts),
         f"checked: {str(bool(q.get('checked'))).lower()}",
         "---",
@@ -133,7 +133,7 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     # 背面：答案 + 詳解
     explanation = (q.get("explanation") or "").strip()
     defer = any(c in substantive_concepts for c in concepts)  # 概念已能解釋 → 引用概念
-    back = [f"**Ans: {q.get('correctAnswer', '')}**"]
+    back = [f"**Ans: {q.get('correctAnswer', q.get('answer', ''))}**"]
     ref_defs: list[str] = []
 
     if explanation:

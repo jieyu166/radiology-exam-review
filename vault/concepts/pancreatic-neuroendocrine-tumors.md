@@ -60,6 +60,9 @@ dateRev: 2026-06-29
 - **PDAC**：乏血管、促結締組織增生、上游胰管／膽管阻塞、罕見瘤栓——與富血管 PNET 對比鮮明。[^3]
 
 ### 判讀陷阱
+- **肝轉移「並非一律乏血管（always hypovascular）」為錯誤**——PNET肝轉移典型為**動脈期高強化（hypervascular）**，惟亦可全期相乏強化（此類預後較差）;不可一概而論為乏血管。[^5]
+- **FDG-PET並非「因多數PNET為陰性而不建議使用」之絕對排除**——分化良好PNET FDG攝取確實偏低（sensitivity受限），但**分化差（poorly-differentiated）PNET/NEC則FDG常呈陽性**，故FDG-PET於高grade或SSTR顯影陰性時仍有互補角色，並非全然不建議。[^5]
+- Somatostatin受體顯影比較：**In-111 octreotide** sensitivity約80%，**gastrinoma（>2cm）敏感度最高、insulinoma敏感度最低**;**Ga-68 DOTATATE PET/CT** 優於octreotide scan（空間解析度與整體敏感度皆較佳）。[^5]
 - **功能性首位是 insulinoma 而非 gastrinoma**;且 insulinoma **octreotide 顯影常陰性**——勿因 SSTR 影像陰性排除 insulinoma，應靠 CT/MRI。[^3]
 - 小腫瘤可能**只在動脈期或只在門脈期**單一期相顯影，單看一期會漏診。[^3]
 - 十二指腸壁內 gastrinoma 多發、subcentimeter，CT/MRI 易漏，需 EUS／SSTR 補強。[^3]
@@ -75,6 +78,7 @@ dateRev: 2026-06-29
 [^2]: RadioGraphics islet cell tumor 綜述（題目所引）：**nonsyndromic ICT 較 syndromic 更大、更易囊變/壞死**;syndromic（MEN1）多小而多發、早期發現。
 [^3]: Lee NJ, Hruban RH, Fishman EK 等。*State-Of-The-Art Imaging of Pancreatic Neuroendocrine Tumors*. Surg Oncol Clin N Am（PMC 開放全文，PMC4808582，accessed 2026-06-29）。據 PubMed；[DOI](https://doi.org/10.1016/j.soc.2015.11.007)：功能性 vs 非功能性大小／表現、動脈期 83–88% sensitivity、hypervascular rim、囊變/鈣化/瘤栓、gastrinoma triangle、insulinoma octreotide 50–70%、Ga-68 DOTATATE/FDG/EUS、肝轉移與淋巴結 DWI/T2、acinar/SPN/IPAS/serous/PDAC 鑑別、非典型強化與 grade。
 [^4]: WHO 消化系統腫瘤分類（2017/2019）well-differentiated NET G1（Ki-67 < 3%）/ G2（3–20%）/ G3（> 20%）vs poorly-differentiated NEC；交叉查證（PMC4398606「WHO G3 PanNET 異質、含 well 與 poorly differentiated」、PMC7510074 中國大型機構 WHO 分級分析，accessed 2026-06-29）。註：各文獻 G1/G2 Ki-67 切點略有版本差異（< 2% vs < 3%），此處採 2017/2019 WHO 之 < 3% / 3–20% / > 20%。
+[^5]: 2019 交換考詳解；Pancreatic neuroendocrine tumors: biology, diagnosis, and treatment. Chinese Journal of Cancer. 2013 Jun;32(6):312-324：肝轉移可為hypervascular；FDG-PET於分化差PNET/NEC可呈陽性；In-111 octreotide sensitivity ~80%（gastrinoma>2cm最高、insulinoma最低）；Ga-68 DOTATATE PET/CT優於octreotide scan。
 
 ## 題目
 > [!question]- All of the following may cause or simulate a hypervascular mass within the pancreas. Which is the MOST common etiology for such a lesion within the pancreatic body? (2020-243)
