@@ -1,5 +1,5 @@
 {
-  "next_page": 325,
+  "next_page": 333,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -326,7 +326,15 @@
     322,
     323,
     324,
-    325
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333
   ],
   "added_ids": [
     "2020-186",
@@ -512,9 +520,16 @@
     "2020-366",
     "2020-367",
     "2020-368",
-    "2020-369"
+    "2020-369",
+    "2020-370",
+    "2020-371",
+    "2020-372",
+    "2020-373",
+    "2020-374",
+    "2020-375",
+    "2020-376"
   ],
-  "next_id": 370,
+  "next_id": 377,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -622,7 +637,8 @@
     "p306 Physics=含碘對比劑急性全身性不良反應風險因子何者為非→D 海鮮乳類碘酒過敏(既有題2020-150,years已含2020-2023)",
     "p310 NR=Takayasu arteritis wrong→D extracranial carotid/vertebral(既有題2020-094)",
     "p311 NR=giant cell arteritis wrong→B ESR<50(既有題2020-095)",
-    "p318 GU=Bosniak Classification false statement→D Class I requiring regular follow-up(既有題2020-028)"
+    "p318 GU=Bosniak Classification false statement→D Class I requiring regular follow-up(既有題2020-028)",
+    "p331 NR=NMOSD false statement→B dorsal/lateral lesions more common in NMOSD(既有題2020-124)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -645,5 +661,5 @@
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批41(頁318-325)：8題候選，1題同年重印(p318=2020-028 Bosniak分類)，7題真新題(2020-363~369)：319 Weigert-Meyer法則上極內下開口/下極外上開口皆正確(重用ureteral-duplication.md，補充特定方位描述)、320 Meigs syndrome三聯症不含惡性卵巢腫瘤(新建meigs-syndrome概念檔)、321 XGP true statement(重用xanthogranulomatous-pyelonephritis.md，官方答案A自身存疑已加warning)、322骨折術語(開放性骨折定義正確，疲勞/不足性骨折定義易對調，新建fracture-terminology概念檔)、323 Monteggia/Galeazzi/Colles骨折描述皆正確(重用forearm-fracture-dislocation-eponyms.md新增Colles段落)、324旋轉性內外踝骨折Weber分類A/B/C皆正確(新建weber-ankle-fracture-classification概念檔)、325巨細胞瘤通常缺乏硬化緣(新建bone-lesion-sclerotic-border概念檔)。totalQuestions(2020)已更新為369。commit eb51f91(批41內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p326開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約81.7%(325/398頁)。累計本session已處理183個新題、8個跨年合併。⚠️ 使用者於p325完成後又設定新/goal next_page=260，但當時進度已達325(遠超260)，該hook條件同前次一樣為literal equality非>=判定、目標值已被超越無法再滿足；已簡短告知使用者並依標準指示繼續推進backfill工作，未停下等待。"
+  "notes": "批42(頁326-333)：8題候選，1題同年重印(p331=2020-124 NMOSD)，7題真新題(2020-370~376)：326 do not touch lesions=非骨化性纖維瘤(新建do-not-touch-bone-lesions概念檔)、327顱內疝subfalcine較少侵犯後循環(新建cerebral-herniation-types概念檔)、328 PRES多數僅輕度血壓上升20-30%正常(重用toxic-metabolic-brain-imaging.md)、329 CO中毒遲發性白質病變可逆非不可逆(重用toxic-metabolic-brain-imaging.md)、330 CVT血管源性與細胞毒性水腫皆可能發生(重用dural-venous-sinus-thrombosis.md新增臨床表現段落)、332兒童脊椎損傷較易韌帶性/成人較易骨性(新建pediatric-cervical-spine-trauma-imaging概念檔)、333骨折邊緣應不具皮質緣(重用pediatric-cervical-spine-trauma-imaging.md，同源論文)。totalQuestions(2020)已更新為376。commit 2c7cb7f(批42內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p334開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約83.7%(333/398頁)。累計本session已處理190個新題、8個跨年合併。⚠️ 使用者於本批完成前又設定/goal next_page=260，惟進度早已超越該值(當時325)，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
 }
