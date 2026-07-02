@@ -27,6 +27,17 @@ dateRev: 2026-06-30
 > [!note] 考點：關於 Fleischner 小肺結節追蹤,何者「不正確」?
 > 「**高風險病人 ≤4 mm 結節建議 6 個月後追蹤 CT**」不正確——2005 版高風險 ≤4 mm 為 **12 個月**複查（低風險不需追蹤）。其餘大小分層建議皆正確。[^1]
 
+## Summary（依 2017 版 Solid Nodules 表，2018交換所依）
+- **單發、低風險、<6 mm**：**不需常規追蹤(no routine follow-up)**。[^4]
+- **單發、高風險、<6 mm**：可選擇性(optional) 12 個月CT追蹤。[^4]
+- **單發、任何風險、6–8 mm**：先於 **6–12 個月**追蹤CT，其後於 **18–24 個月**再追蹤（低風險可選擇性）。[^4]
+- **單發、任何風險、>8 mm**：考慮於 **3 個月**追蹤CT，或PET/CT，或組織切片。[^4]
+- **多發、低風險**：<6 mm不需常規追蹤；6–8 mm於 **3–6 個月**追蹤，其後18–24個月視情況再追蹤。[^4]
+- **多發、高風險**：<6 mm可選擇性12個月追蹤；6–8 mm於 **3–6 個月**追蹤，其後18–24個月再追蹤。[^4]
+
+> [!note] 考點（2018交換）：Solid nodules追蹤何者「錯誤」？
+> **單發<6mm低風險結節須於12個月後追蹤CT（A為偽）**——2017版規定**不需常規追蹤**（非需12個月追蹤，該項為高風險病人之optional選項）。單發>8mm(B)、單發6-8mm高風險(C)、多發6-8mm高風險(D)之敘述皆正確對應2017版表格。[^4]
+
 ## ACCP 肺癌風險因子分類（Fleischner 2017 所採用）
 - **高風險因子**：**重度吸菸史**、暴露石綿/鐳/鈾、肺癌家族史、**年齡較大**、性別（女性>男性）、種族（黑人與夏威夷原住民>白人）、邊緣毛刺（marginal speculation）、**上肺葉位置（upper lobe location）**、多發性（結節數<5個時風險增加）、肺氣腫與肺纖維化（尤其IPF）。[^3]
 - **低風險因子**：**年輕**、**較少吸菸**（less smoking）。**上肺葉位置為高風險因子，並非低風險因子**——此為常見混淆點。[^3]
@@ -38,10 +49,14 @@ dateRev: 2026-06-30
 [^1]: 官方 2017 詳解；MacMahon H et al. Guidelines for Management of Small Pulmonary Nodules Detected on CT Scans: A Statement from the Fleischner Society. **Radiology** 2005;237(2):395-400。
 [^2]: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. **Radiology** 2017;284(1):228-243（2017 更新版，門檻與規則改變）。
 [^3]: 2019 交換考詳解；MacMahon H, Naidich DP, Goo JM, Lee KS, Leung ANC, Mayo JR, Mehta AC, Ohno Y, Powell CA, Prokop M, Rubin GD, Schaefer-Prokop CM, Travis WD, Van Schil PE, Bankier AA. Fleischner Society 2017 guidelines, Radiology 2017;284(1):228-243（ACCP 風險因子分類段落）。
+[^4]: MacMahon H et al. *Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017*. Radiology. 2017 Jul;284(1):228-243（2018 交換考題詳解 p.165 引用；Tier 1 影像期刊，Table A: Solid Nodules）。單發低風險<6mm不需常規追蹤；單發高風險<6mm可選擇性12個月追蹤；單發6-8mm先6-12個月後18-24個月追蹤；單發>8mm考慮3個月/PET-CT/切片；多發低風險<6mm不需常規追蹤，6-8mm先3-6個月後視情況18-24個月；多發高風險<6mm可選擇性12個月，6-8mm先3-6個月後18-24個月。
 
 ## 題目
 > [!question]- 關於 Fleischner 小肺結節 CT 追蹤指引,何者「不正確」? (2017-179)
 > 「**高風險病人偶見 ≤4 mm 結節,建議 6 個月後追蹤 CT**」不正確——2005 版高風險 ≤4 mm 為 **12 個月**複查（低風險不需追蹤）。⚠️ 本指引 2017 已更新。[^1]
+
+> [!question]- 根據2017 Fleischner society guidelines，有關solid nodules下列何者錯誤? (2018-265)
+> **單發<6mm低風險結節須於12個月後追蹤CT（A）**——實際上不需常規追蹤，此敘述錯誤。單發>8mm考慮3個月追蹤/PET-CT/切片(B)、單發6-8mm高風險先6-12個月後18-24個月(C)、多發6-8mm高風險先3-6個月後18-24個月(D)皆為正確描述。[^4]
 
 ## 考題
 ```dataview
