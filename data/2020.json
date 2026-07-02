@@ -1,6 +1,6 @@
 {
   "year": 2020,
-  "totalQuestions": 281,
+  "totalQuestions": 289,
   "questions": [
     {
       "id": "2020-001",
@@ -10243,6 +10243,314 @@
       "images": [],
       "concepts": [
         "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-282",
+      "year": 2020,
+      "number": 282,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About Temporal Bone Trauma, which statement is Correct ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common site of ossicular dislocation is the incudostapedial joint."
+        },
+        {
+          "letter": "B",
+          "text": "Incudomalleolar junction dislocations are the second most common, often occur with longitudinal temporal bone fractures."
+        },
+        {
+          "letter": "C",
+          "text": "The incudomalleolar joint normally forms the so-called \"ice-cream cone\" sign on axial CT images"
+        },
+        {
+          "letter": "D",
+          "text": "all of above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "官方2020詳解；Ref: Radiographics. May 2020, 40(4):1148-1162",
+      "explanation": "四項描述皆正確：incudostapedial joint為聽小骨脫位最常見部位；incudomalleolar junction脫位第二常見且常合併縱向顳骨骨折；正常incudomalleolar joint軸位CT呈ice-cream cone徵象。",
+      "images": [],
+      "concepts": [
+        "temporal-bone-trauma-ossicular"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-283",
+      "year": 2020,
+      "number": 283,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "About oropharyngeal squamous cell carcinoma (OPSCC), which one is \"WRONG\"?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Smoking-related OPSCC tends to occur in younger patients."
+        },
+        {
+          "letter": "B",
+          "text": "Nonsmokers with HPV-positive OPSCC have the best prognosis with 3-year overall survival of 93%."
+        },
+        {
+          "letter": "C",
+          "text": "Despite multiple metastatic nodes, the prognosis is not poor for these p16-positive tumors, resulting in reevaluation of the nodal tables."
+        },
+        {
+          "letter": "D",
+          "text": "The most common source of a metastatic cervical LN in level II is a p16-positive OPSCC arising from the tonsil-like tissue of the palatine and lingual tonsils"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2019; 39:2055-2068",
+      "explanation": "實際上HPV相關(非抽菸相關)OPSCC才好發較年輕病人，故(A)為錯誤敘述。不吸菸HPV陽性OPSCC三年存活率93%預後最佳、p16陽性腫瘤多發轉移淋巴結預後仍不差(促使N分期表格重新評估)、level II轉移淋巴結最常見來源為顎/舌扁桃體之p16陽性OPSCC，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "opscc-hpv"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-284",
+      "year": 2020,
+      "number": 284,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is included in machine learning technique?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Neural networks"
+        },
+        {
+          "letter": "B",
+          "text": "Decision trees"
+        },
+        {
+          "letter": "C",
+          "text": "k-nearest neighbors"
+        },
+        {
+          "letter": "D",
+          "text": "Support vector machine"
+        },
+        {
+          "letter": "E",
+          "text": "All the above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Koçak B, Durmaz EŞ, Ateş E, Kılıçkesmez Ö. Radiomics with artificial intelligence: a practical guide for beginners. Diagn Interv Radiol. 2019 Nov; 25(6): 485-495.",
+      "explanation": "Neural networks、decision trees、k-nearest neighbors、support vector machine皆屬機器學習技術範疇。",
+      "images": [],
+      "concepts": [
+        "machine-learning-radiomics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-285",
+      "year": 2020,
+      "number": 285,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is the factor associated with aneurysm recurrence after coiling?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Volume"
+        },
+        {
+          "letter": "B",
+          "text": "Packing density"
+        },
+        {
+          "letter": "C",
+          "text": "Usage of stent"
+        },
+        {
+          "letter": "D",
+          "text": "Location"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: Huang DZ, Jiang B, He W, Wang YH, Wang ZG. Risk factors for the recurrence of an intracranial saccular aneurysm following endovascular treatment. Oncotarget. 2017 May 16;8(20):33676-33682.",
+      "explanation": "動脈瘤體積、栓塞密度、是否使用輔助支架、動脈瘤位置皆與栓塞術後復發相關。",
+      "images": [],
+      "concepts": [
+        "aneurysm-coiling-recurrence"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-286",
+      "year": 2020,
+      "number": 286,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "According to AJCC 8th edition of buccal cancer, what is the clinical staging of one 3.6cm tumor mass at right tongue with right genioglossus muscle involvement and one 2.5cm metastatic lymph node at left neck level IIA?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T3N2c"
+        },
+        {
+          "letter": "B",
+          "text": "T4N2b"
+        },
+        {
+          "letter": "C",
+          "text": "T2N2a"
+        },
+        {
+          "letter": "D",
+          "text": "T4N2a"
+        },
+        {
+          "letter": "E",
+          "text": "T2N2c"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "官方2020詳解；Ref: AJCC 8th edition",
+      "explanation": "腫瘤3.6cm(2-4cm範圍)且DOI未達>10mm故為T2；轉移淋巴結位於對側(contralateral)頸部(腫瘤右側、淋巴結左側)，即使單一顆對側淋巴結≤6cm仍歸為N2c。",
+      "images": [],
+      "concepts": [
+        "oral-cavity-cancer-ajcc-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-287",
+      "year": 2020,
+      "number": 287,
+      "years": [
+        2020
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which is wrong about \"persistent stapedial artery (PSA)\" ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It can cause conductive hearing loss or pulsatile tinnitus"
+        },
+        {
+          "letter": "B",
+          "text": "It may be an isolated anomaly or associated with an aberrant ICA."
+        },
+        {
+          "letter": "C",
+          "text": "There is no vidian canal in cases of PSA."
+        },
+        {
+          "letter": "D",
+          "text": "None of above."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "官方2020詳解；Ref: Thiers FA, Sakai O, Poe DS, et al. Persistent Stapedial Artery: CT Findings. AJNR 2000;21:1551-4.",
+      "explanation": "PSA之影像關鍵徵象是無foramen spinosum(因中腦膜動脈血流改由PSA供應)，與vidian canal無關，PSA不影響vidian canal之存在，故(C)為錯誤敘述。可致傳導性聽損/搏動性耳鳴、可單獨或合併aberrant ICA，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "persistent-stapedial-artery"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-288",
+      "year": 2020,
+      "number": 288,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one of the following statements about pulmonary embolism is false?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Most pulmonary emboli resolve without sequelae."
+        },
+        {
+          "letter": "B",
+          "text": "Acute pulmonary embolism cause more severe pulmonary hypertension and cor pulmonale than chronic thromboembolism."
+        },
+        {
+          "letter": "C",
+          "text": "Patients with underlying malignancy, cardiovascular, or pulmonary disease are at increased risk of pulmonary embolism."
+        },
+        {
+          "letter": "D",
+          "text": "Mosaic perfusion pattern may be seen in chronic pulmonary thromboembolism."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: RadioGraphics 2009, CT Diagnosis of Chronic Pulmonary Thromboembolism",
+      "explanation": "實際上是慢性血栓栓塞才因血管長期重塑導致更嚴重之肺動脈高壓與肺心症，非急性肺栓塞，故(B)為假。多數肺栓塞自行消退不留後遺症、惡性腫瘤/心血管/肺部疾病增加風險、mosaic perfusion pattern見於慢性肺血栓栓塞症，皆正確。",
+      "images": [],
+      "concepts": [
+        "pulmonary-embolism-acute-vs-chronic"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2020-289",
+      "year": 2020,
+      "number": 289,
+      "years": [
+        2020
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is WRONG for imaging features of COVID-19.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The typical findings on CT is ground-glass opacities ( bilateral, subpleural, peripheral) crazy paving appearance, air space consolidation, bronchovascular thickening, traction bronchiectasis."
+        },
+        {
+          "letter": "B",
+          "text": "Contrast chest CT is the first-line screening imaging modality for COVID-19 in daily practice."
+        },
+        {
+          "letter": "C",
+          "text": "The primary findings of COVID-19 on chest radiograph and CT are those of atypical pneumonia or organizing pneumonia in peak stage (9-13 days)"
+        },
+        {
+          "letter": "D",
+          "text": "Mediastinal lymphadenopathy, pleural effusion, multiple tiny pulmonary nodules, cavitation are relative atypical."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "官方2020詳解；Ref: Simpson S et al. Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Radiology: Cardiothoracic Imaging 2020 2:2.",
+      "explanation": "常規篩檢CT並非第一線診斷工具，多數放射學會不建議以CT作為COVID-19常規篩檢方法，故(B)為錯誤敘述。典型CT表現、高峰期呈非典型/機化性肺炎、縱膈淋巴結病變等相對非典型徵象之描述，皆為正確敘述。",
+      "images": [],
+      "concepts": [
+        "covid19-chest-ct"
       ],
       "checked": false
     }
