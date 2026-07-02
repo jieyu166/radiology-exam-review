@@ -1,5 +1,5 @@
 {
-  "next_page": 317,
+  "next_page": 325,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -318,7 +318,15 @@
     314,
     315,
     316,
-    317
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325
   ],
   "added_ids": [
     "2020-186",
@@ -497,9 +505,16 @@
     "2020-359",
     "2020-360",
     "2020-361",
-    "2020-362"
+    "2020-362",
+    "2020-363",
+    "2020-364",
+    "2020-365",
+    "2020-366",
+    "2020-367",
+    "2020-368",
+    "2020-369"
   ],
-  "next_id": 363,
+  "next_id": 370,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -606,7 +621,8 @@
     "p304 Physics=高風險含釓對比劑使用限制何者錯誤→D 80歲以上老年人(既有題2020-155)",
     "p306 Physics=含碘對比劑急性全身性不良反應風險因子何者為非→D 海鮮乳類碘酒過敏(既有題2020-150,years已含2020-2023)",
     "p310 NR=Takayasu arteritis wrong→D extracranial carotid/vertebral(既有題2020-094)",
-    "p311 NR=giant cell arteritis wrong→B ESR<50(既有題2020-095)"
+    "p311 NR=giant cell arteritis wrong→B ESR<50(既有題2020-095)",
+    "p318 GU=Bosniak Classification false statement→D Class I requiring regular follow-up(既有題2020-028)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -626,7 +642,8 @@
     "2020-229(Lisfranc fracture-dislocation)：官方詳解答案欄標示「C (B的描述也不很正確?)」，對選項B用詞是否精確表達存疑，已於lisfranc-injury.md加註[!warning]callout建議醫師覆核，暫依官方標示C為預設值",
     "2017-168/SCIWORA跨年答案矛盾：詳見xyear_dups_merged說明，2017官方答案A vs 2020重印版官方答案D，已於sciwora.md加註[!warning]callout，暫依2017年A為預設值，強烈建議醫師覆核",
     "2020-333(scrotal trauma)：官方詳解本身於此頁加註「題目應該是false?」，選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，但官方標示答案為A，已於scrotal-trauma.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值",
-    "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值"
+    "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
+    "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批40(頁310-317)：8題候選，2題同年重印(p310=2020-094 Takayasu arteritis；p311=2020-095 giant cell arteritis)，6題真新題(2020-357~362)：312 >3cm富血管性壁內黏膜下腫瘤GIST最常見、313腎絲球瘤動脈期即強烈強化非微弱(皆重用gist-imaging.md新增段落)、314異位胰臟最常見於胃竇非胃底(重用heterotopic-pancreas.md)、315急性闌尾炎超音波擴張門檻應為>6mm非5mm(新建acute-appendicitis-imaging概念檔)、316 PID影像鑑別中香腸狀含壁結節管狀構造實為輸卵管積膿而非卵巢扭轉(新建pid-mimics-imaging概念檔)、317腎上腺淋巴管瘤為良性非惡性腫瘤(重用adrenal-imaging.md新增段落)。totalQuestions(2020)已更新為362。commit dad8ee4(批40內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p318開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約79.6%(317/398頁)。累計本session已處理176個新題、8個跨年合併。⚠️ 使用者/goal目標next_page=150已於批21達成並超越(該hook為literal equality非>=判定，next_page持續增加後條件不再滿足；已多次請求使用者執行/goal clear但尚未收到回應，依標準指示繼續推進backfill工作)。"
+  "notes": "批41(頁318-325)：8題候選，1題同年重印(p318=2020-028 Bosniak分類)，7題真新題(2020-363~369)：319 Weigert-Meyer法則上極內下開口/下極外上開口皆正確(重用ureteral-duplication.md，補充特定方位描述)、320 Meigs syndrome三聯症不含惡性卵巢腫瘤(新建meigs-syndrome概念檔)、321 XGP true statement(重用xanthogranulomatous-pyelonephritis.md，官方答案A自身存疑已加warning)、322骨折術語(開放性骨折定義正確，疲勞/不足性骨折定義易對調，新建fracture-terminology概念檔)、323 Monteggia/Galeazzi/Colles骨折描述皆正確(重用forearm-fracture-dislocation-eponyms.md新增Colles段落)、324旋轉性內外踝骨折Weber分類A/B/C皆正確(新建weber-ankle-fracture-classification概念檔)、325巨細胞瘤通常缺乏硬化緣(新建bone-lesion-sclerotic-border概念檔)。totalQuestions(2020)已更新為369。commit eb51f91(批41內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p326開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約81.7%(325/398頁)。累計本session已處理183個新題、8個跨年合併。⚠️ 使用者於p325完成後又設定新/goal next_page=260，但當時進度已達325(遠超260)，該hook條件同前次一樣為literal equality非>=判定、目標值已被超越無法再滿足；已簡短告知使用者並依標準指示繼續推進backfill工作，未停下等待。"
 }
