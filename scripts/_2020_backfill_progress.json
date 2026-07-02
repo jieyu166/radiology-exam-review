@@ -1,5 +1,5 @@
 {
-  "next_page": 357,
+  "next_page": 365,
   "total_pages": 398,
   "processed_pages": [
     1,
@@ -358,7 +358,15 @@
     354,
     355,
     356,
-    357
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365
   ],
   "added_ids": [
     "2020-186",
@@ -565,9 +573,14 @@
     "2020-387",
     "2020-388",
     "2020-389",
-    "2020-390"
+    "2020-390",
+    "2020-391",
+    "2020-392",
+    "2020-393",
+    "2020-394",
+    "2020-395"
   ],
-  "next_id": 391,
+  "next_id": 396,
   "dups_skipped": [
     "p1-45見前次記錄（詳見git歷史commit 64fc292~2de2e71之進度檔內容）",
     "p47=X光透視皮膚反應threshold dose(既有題，答案A)",
@@ -686,7 +699,10 @@
     "p354 Physics=下列何種檢查使用含碘對比劑→C血管攝影(既有題2020-183)",
     "p355 Physics=下列何種檢查需要在動脈內注射含碘對比劑→C血管攝影(既有題2020-184)",
     "p356 Physics=下列何種檢查使用含釓對比劑→A顯影性磁振造影(既有題2020-156)",
-    "p357 Physics=下消化道攝影可能使用下列何種對比劑→C以上皆是(既有題2020-185)"
+    "p357 Physics=下消化道攝影可能使用下列何種對比劑→C以上皆是(既有題2020-185)",
+    "p358 Physics=下列何種含釓對比劑之主要代謝途徑僅有腎臟→A Omniscan(既有題2020-152)",
+    "p361 CV=LGE subepicardial/midwall正常wall厚度最可能原因→B acute myocarditis(既有題2020-088)",
+    "p364 GI=膽囊病變的敘述何者為非→A膽囊癌都可早期發現(既有題2020-036)"
   ],
   "xyear_dups_merged": [
     "2018-169(病患右手大拇指酸麻刺痛C6神經根)：p65 Neuro q3與此題完全相同，已合併years:[2018,2020]，cervical-radiculopathy概念檔沿用既有內容未修改",
@@ -710,5 +726,5 @@
     "2020-337(游離輻射特性何者為非)：官方標示答案D(無感覺)，但官方詳解本身於此頁加註存疑「但好像不會有什麼heating effect」，質疑選項A(可感受到熱)才是應為錯誤敘述之選項(標準輻射防護概念：無色/無味/無法直接感知皆為正確特性)，已於ionizing-radiation-characteristics.md加註[!warning]callout建議醫師覆核，暫依官方標示D為預設值",
     "2020-365(XGP true statement)：官方詳解答案標示A，但官方詳解本身於此頁加註「(D?)」表達存疑，因選項A/B/C依文獻皆為正確敘述，理論上應選D(以上皆是)，已於xanthogranulomatous-pyelonephritis.md加註[!warning]callout建議醫師覆核，暫依官方標示A為預設值"
   ],
-  "notes": "批45(頁350-357)：8題候選，高達6題同年重印(p351/352/354/355/356/357，其中p354-357為連續4題對比劑matching題，皆與既有2020-183~185及2020-156完全相同；p352之既有題2020-066/068本身在資料庫中即有內部重複，非本次造成)，僅2題真新題(2020-389~390)：350慢性過敏性肺炎為上肺葉優勢分布例外(新建ild-distribution-patterns概念檔)、353 PCWP>25mmHg呈肺泡填塞水腫(重用ards-pulmonary-edema-differential.md新增PCWP分期段落)。totalQuestions(2020)已更新為390。commit 49c18b2(批45內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p358開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約89.7%(357/398頁)。累計本session已處理204個新題、9個跨年合併。剩餘約41頁。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
+  "notes": "批46(頁358-365)：8題候選，3題同年重印(p358=2020-152含釓對比劑代謝途徑；p361=2020-088 LGE心肌炎；p364=2020-036膽囊病變)，5題真新題(2020-391~395)：359肺AVM首選栓塞治療非手術(新建pulmonary-avm概念檔)、360 AAA EVAR術後腎功能異常應選不顯影MRI/CT/超音波(新建aaa-evar-followup-imaging概念檔)、362 Marfan annuloaortic ectasia定義含Valsalva竇擴大(重用marfan-syndrome.md新增手術時機段落)、363彎刀症候群右肺靜脈異常回流(新建scimitar-syndrome概念檔，含Chinese ring sword sign混淆點)、365氣腹徵象Rigler/football/ligamentum teres sign皆正確(新建pneumoperitoneum-signs概念檔)。totalQuestions(2020)已更新為395。commit 9716728(批46內容，進度檔待commit)。每次commit前均git diff --cached --stat確認staging只含自己檔案。工作樹另有並行session/醫師未提交檔(SR時間戳、2016/2017其他卡片)，一律不動。下一批應從p366開始，先用render腳本產生頁面PNG(注意：render_2020.py須在專案根目錄下執行，因PDF路徑為相對路徑)。目前進度約91.7%(365/398頁)。累計本session已處理209個新題、9個跨年合併。剩餘約33頁。⚠️ 使用者於批42完成後又設定/goal next_page=260，惟進度早已超越該值，同前次hook問題(literal equality非>=判定)無法再滿足，已簡短告知並依標準指示繼續推進，未停下等待。"
 }
