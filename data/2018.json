@@ -1,6 +1,6 @@
 {
   "year": 2018,
-  "totalQuestions": 321,
+  "totalQuestions": 328,
   "questions": [
     {
       "id": "2018-001",
@@ -99,7 +99,11 @@
         },
         {
           "letter": "C",
-          "text": "The ability to directly observe therapeutic efficacy in the neoadjuvant setting. (D)The attainment of pathologic complete response (pCR) and subsequently surgical resection is associated with improved disease-free survival."
+          "text": "The ability to directly observe therapeutic efficacy in the neoadjuvant setting."
+        },
+        {
+          "letter": "D",
+          "text": "The attainment of pathologic complete response (pCR) and subsequently surgical resection is associated with improved disease-free survival."
         },
         {
           "letter": "E",
@@ -107,10 +111,12 @@
         }
       ],
       "correctAnswer": "B",
-      "reference": "",
-      "explanation": "There is growing evidence indicating that full axillary nodal dissection may be omitted(省略) for patients presenting with biopsy-proven node-positive disease that converts to clinically node-negative disease after neoadjuvant chemotherapy\n\n\n## 其他",
+      "reference": "Radiology: Volume 285: Number 2—November 2017, p.359",
+      "explanation": "There is growing evidence indicating that full axillary nodal dissection may be omitted（省略）for patients presenting with biopsy-proven node-positive disease that converts to clinically node-negative disease after neoadjuvant chemotherapy\n\n見 [[neoadjuvant-chemo-breast-cancer]]",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neoadjuvant-chemo-breast-cancer"
+      ],
       "checked": false
     },
     {
@@ -11882,6 +11888,265 @@
       "images": [],
       "concepts": [
         "ivc-leiomyosarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-322",
+      "year": 2018,
+      "number": 322,
+      "years": [
+        2018
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which one is relative rarely affected by posterior mediastinum tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Phrenic nerve."
+        },
+        {
+          "letter": "B",
+          "text": "Vagus nerve."
+        },
+        {
+          "letter": "C",
+          "text": "Rt recurrent laryngeal nerve."
+        },
+        {
+          "letter": "D",
+          "text": "Intercostal nerve."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Cummings KW, Sridhar S, Parsons MS, et al. Cross-sectional imaging anatomy and pathologic conditions affecting thoracic nerves. RadioGraphics 2017; 37:73–92",
+      "explanation": "Phrenic nerve走行於前縦隔（沿心包外側），不在後縦隔路徑內，故後縦隔腫瘤相對少侵犯。\n\n見 [[posterior-mediastinum-nerves]]",
+      "images": [],
+      "concepts": [
+        "posterior-mediastinum-nerves"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-323",
+      "year": 2018,
+      "number": 323,
+      "years": [
+        2018
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "manual",
+      "questionText": "請問 lobular carcinoma in situ (LCIS) 於AJCC 8th breast cancer T stage 為何?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tis"
+        },
+        {
+          "letter": "B",
+          "text": "T1a"
+        },
+        {
+          "letter": "C",
+          "text": "Tx"
+        },
+        {
+          "letter": "D",
+          "text": "T stage is not necessary because LCIS is considered a risk factor rather than a malignancy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "AJCC 8th cancer stage",
+      "explanation": "LCIS屬原位癌，與DCIS、不伴侵犯之乳頭Paget同歸類為Tis。\n\n見 [[breast-cancer-staging]]",
+      "images": [],
+      "concepts": [
+        "breast-cancer-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-324",
+      "year": 2018,
+      "number": 324,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Regarding to retrievable IVC filter, which one of the following statements was not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There were less adversed events than permanent IVC filter when prolonged IVC filter implanted."
+        },
+        {
+          "letter": "B",
+          "text": "Tilting of IVC filter do not decrease the thrombus-trapping efficiency."
+        },
+        {
+          "letter": "C",
+          "text": "The complications of prolonged IVC filter implantation include filter migration, fracture, IVC perforation."
+        },
+        {
+          "letter": "D",
+          "text": "When an atretic diminutive IVC caudal to the level of the IVC filter is found on abdominal CT, the diagnosis of filter-related chronic iliocaval thrombosis can be made."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiographics. 2017 Jul-Aug;37(4):1236-1245.",
+      "explanation": "實際上Tilting會降低血栓捕捉效率，非「不影響」。\n\n見 [[ivc-filter-retrievable]]",
+      "images": [],
+      "concepts": [
+        "ivc-filter-retrievable"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-325",
+      "year": 2018,
+      "number": 325,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "The development of extrahepatic collateral (EHC) arteries can interfere with the therapeutic efficacy of TACE for hepatocellular carcinoma (HCC). About EHC arteries, which statement is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "There is a positive correlation between development of a parasitic arterial supply to HCC and the number of previous TACE procedure."
+        },
+        {
+          "letter": "B",
+          "text": "The right inferior phrenic artery directly contacts with bare area of liver, and contributes up to 70% of HCCs with a parasitic supply."
+        },
+        {
+          "letter": "C",
+          "text": "Selective angiography of the right internal mammary artery should be performed in patient with large HCC abutting the dorsal aspect of the diaphragm."
+        },
+        {
+          "letter": "D",
+          "text": "TACE of the intercostal artery is contraindicated if the microcatheter cannot be advanced distally, owing to high risk for spinal cord infarction and skin necrosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2017; 37:963–977",
+      "explanation": "正確應為ventral（腹側）aspect，非dorsal。\n\n見 [[tace-extrahepatic-collateral]]",
+      "images": [],
+      "concepts": [
+        "tace-extrahepatic-collateral"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-326",
+      "year": 2018,
+      "number": 326,
+      "years": [
+        2018
+      ],
+      "subspecialty": "IR",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following description about cryoablation is NOT true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The mechanism of cell death with freezing is associated with cell membrane disruption and an associated release of intracellular contents."
+        },
+        {
+          "letter": "B",
+          "text": "The temperature necessary to cause reliable cellular necrosis depends on the cell type and thermal history of the tissue, with estimates of -35°C to -20°C"
+        },
+        {
+          "letter": "C",
+          "text": "The bleeding risk of cryoablation for patients with liver cirrhosis and hepatocellular carcinoma obviously equals to that of heat ablation."
+        },
+        {
+          "letter": "D",
+          "text": "The precision that is possible with cryoablation can be important for treatment of tumors adjacent to vulnerable structures"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2014; 35:1344–1362",
+      "explanation": "Heat is the preferred method for treating HCC in patients with cirrhosis because of the increased bleeding risk and disseminated intravascular coagulation-like reaction, called cryoshock, associated with cryoablation. Heat-based ablation provides improved hemostasis compared with cryoablation and essentially no risk for cryoshock; 實際上cryoablation出血風險高於heat ablation，非相等。\n\n見 [[tumor-ablation]]",
+      "images": [],
+      "concepts": [
+        "tumor-ablation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-327",
+      "year": 2018,
+      "number": 327,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "關於 paradoudenal hernia(PDH)下列何者敘述為錯?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "PDHs constitute approximately 53% of all internal hernias. Approximately three-fourths of these hernias occur on the left and are more predominant in men than in women."
+        },
+        {
+          "letter": "B",
+          "text": "Left PDH develops through the fossa of Landzert into the descending mesocolon and left of the transverse mesocolon and results from failure of fusion of the inferior mesentery to the parietal peritoneum."
+        },
+        {
+          "letter": "C",
+          "text": "CT demonstrates superior mesenteric vein and left colic artery, as a landmark above the encapsulated bowel loops for left PDH."
+        },
+        {
+          "letter": "D",
+          "text": "The superior mesenteric artery and right colic vein are located at the anterior-medial border of the encapsulated small bowel loops and are a landmark for right PDH"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2005; 25:997–1015",
+      "explanation": "正確地標應為IMV（下腸繫膜靜脈）與ascending left colic artery，非SMV/left colic artery。\n\n見 [[paraduodenal-hernia]]",
+      "images": [],
+      "concepts": [
+        "paraduodenal-hernia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2018-328",
+      "year": 2018,
+      "number": 328,
+      "years": [
+        2018
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "manual",
+      "questionText": "Which of the following in false concerning hematological malignancy of liver?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The possible symptoms of primary hepatic lymphoma (PHL) includes right upper quadrant pain, jaundice, fever and weight loss."
+        },
+        {
+          "letter": "B",
+          "text": "The most common imaging manifestation of PHL is a solitary discrete lesion. Diffuse infiltration is uncommon in PHL and indicates a poor prognosis."
+        },
+        {
+          "letter": "C",
+          "text": "Secondary liver involvement of non-Hodgkin lymphoma is seen in at least 50% of patients, whereas PHL of non-Hodgkin lymphoma is rare."
+        },
+        {
+          "letter": "D",
+          "text": "In patient with multiple myeloma, the involvement of liver is not a common extraosseous manifestation."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "RadioGraphics 2015; 35:71-86",
+      "explanation": "Radiologically detectable extraosseous manifestations occur in 10%–16% of patients with multiple myeloma. The lymph nodes, pleura, and liver are the most commonly involved organs；實際上肝臟侵犯並不罕見。\n\n見 [[hepatic-lymphoma-myeloma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-lymphoma-myeloma"
       ],
       "checked": false
     }

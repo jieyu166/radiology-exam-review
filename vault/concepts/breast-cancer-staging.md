@@ -64,6 +64,10 @@ dateRev: 2026-07-01
 [^7]: 腋窩淋巴結超音波形態評估（Sci Rep 2024 / 多參數超音波,開放全文已讀）：皮質增厚最早但特異度低、脂肪門消失/取代特異度最高（PPV 58–97%）、皮質 >5 mm PPV 最高。doi:10.1038/s41598-024-73376-x。
 [^8]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；原引用誤植為同期 Kim/Moy 社論 radiol.230387，已更正為原始研究）** Park AR, Chae EY, Kim HJ, et al. *Effects of Preoperative Breast MRI on Breast Cancer Survival Outcomes in Women Aged 35 Years and Younger*. Radiology 2023;307(4):e221797. doi:10.1148/radiol.221797。回溯性研究、708 例 ≤35 歲乳癌病人、傾向分數配對（23 項病人/腫瘤特徵）：術前 MRI 與總復發（HR 1.0, P=.99）、局部區域復發（HR 1.3, P=.42）、對側復發（HR 0.7, P=.39）、遠端復發（HR 0.9, P=.79）皆無顯著相關；整體存活呈改善趨勢但未達統計顯著（HR 0.47, P=.07）；MRI 額外偵測病灶惡性率跨 17 篇文獻（2201 病灶）分歧達 2–51%。同期社論（Kim & Moy, doi:10.1148/radiol.230387）標題摘要此研究結論。
 
+## 題目
+> [!question]- 請問lobular carcinoma in situ (LCIS) 於AJCC 8th breast cancer T stage 為何? (2018-323)
+> **Tis（A）**——LCIS屬原位癌，與DCIS、不伴侵犯之乳頭Paget同歸類為Tis。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-cancer-staging")
