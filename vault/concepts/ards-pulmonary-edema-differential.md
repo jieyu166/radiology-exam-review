@@ -24,6 +24,21 @@ dateRev: 2026-06-30
 - **肋膜積液（pleural effusions）**：**心因性（40%）> 腎因性（30%）> ARDS（10%）**。[^1]
 - **支氣管充氣徵（air bronchograms）**：**ARDS（70%）遠高於心因性與腎因性（各約20%）**——反映 ARDS 肺泡實質性病變（alveolar filling）的特徵。[^1]
 
+## 放射科醫師影像判讀重點
+- **ARDS 時序演變（STATdx，關鍵）**：**小時（傷後 12-24 h 可正常）→ 天（24 h 內雙側空氣腔陰影/實質化 + dependent atelectasis）→ 週（實質化減少、reticular/GGO 持續）→ 月（subpleural reticular + honeycombing、可前側為主）**。[^3]
+- **肺內 vs 肺外損傷（STATdx）**：**肺內損傷（肺炎/吸入/創傷）＝實質化與 GGO 等量、不對稱；肺外損傷（敗血/胸外創傷）＝GGO 多於實質化、對稱**。[^3]
+- **與心因性鑑別徵象（STATdx）**：ARDS **interlobular septal thickening 與 pleural effusion 較心因性少見**、心臟大小正常；心因性＝中央 > 周邊（bat-wing）+ Kerley B + peribronchial cuffing + 心臟肥大。[^3]
+- **三表現型（STATdx phenotypes）**：**瀰漫均勻分布（肺順應性低、死亡率高、PEEP 顯著肺泡再擴張）、下肺葉為主（PEEP 過度擴張無再擴張）、patchy 不均（PEEP 過度擴張無再擴張）**。[^3]
+- **分布量化（官方詳解）**：心因性 90% 均勻、腎因性 70% 中央、ARDS 45% 周邊/35% 均勻；air bronchogram ARDS 70% >> 心因/腎因各 20%。[^1]
+- **監測工具**：**胸部 X 光足以監測病程演變、CT 為 problem-solving**；ARDS 併肺炎＝non-dependent 位置緻密實質化。[^3]
+
+## 臨床重點（5 句）
+1. **定義（Berlin criteria）**：**臨床損傷後 1 週內發作、胸片雙側陰影（非積液/塌陷/結節可解釋）、PF ratio（PaO₂:FiO₂）<300 mmHg（PEEP/CPAP ≥5 cmH₂O）、非全由心衰/體液過載解釋**。[^3]
+2. **病理（DAD 四階段）**：**早期滲出（數小時，內皮水腫/微血管充血）→ 晚期滲出（1 天-1 週，第 I 型肺泡細胞壞死/水腫/出血）→ 增生修復（1 週-1 月，第 II 型肺泡細胞/纖維母細胞增生/膠原沉積）→ 纖維化（數月）**。[^3]
+3. **病因**：**肺內（肺炎、吸入、吸入性傷害、創傷）；肺外（敗血症、胸外創傷）**。[^3]
+4. **臨床/預後**：呼吸急促、缺氧；**可併發肺炎、存活者可留纖維化與 honeycombing**。[^3]
+5. **治療**：**機械通氣併高 PEEP**（高吐氣末正壓）。[^3]
+
 ## 靜水壓性肺水腫依PCWP分期（Pressure lung edema，2020考點）
 - **PCWP 正常（8–12 mmHg）**：胸部X光**正常**。[^2]
 - **PCWP 輕度上升（12–18 mmHg）**：**下肺葉血管收縮＋上肺葉血管擴大**（即cephalization of pulmonary vessels）。[^2]
@@ -39,7 +54,7 @@ dateRev: 2026-06-30
 ### 參考來源
 [^1]: 官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.40：ARDS鑑別診斷含心因性肺水腫/間質性肺炎/腎因性肺水腫;分布型態心因性90%均勻、腎因性70%中央、ARDS 45%周邊+35%均勻;Kerley B lines心因/腎因各30%、ARDS無;肋膜積液心因40%>腎因30%>ARDS10%;air bronchograms ARDS 70%>>心因/腎因各20%。
 [^2]: 官方2020詳解；Ref: Radiology Review Manual, 8th ed., p.516（題目所引）——PCWP 8-12mmHg正常胸部X光；12-18mmHg呈cephalization(下肺葉血管收縮+上肺葉血管擴大)；19-25mmHg呈間質性肺水腫(血管邊界模糊、支氣管周圍套袖、Kerley lines)；>25mmHg呈肺泡填塞水腫(雙側肺門周圍及下肺野空氣腔實質化)。
-[^3]: Gaillard F, et al. *Acute respiratory distress syndrome*. Radiopaedia, rID-858, DOI 10.53347/rID-858——**ARDS 為急性肺損傷、全肺異質性瀰漫肺泡損傷（DAD）**，源自直接肺損傷或全身性損傷；與 AIP 同一病理（DAD）、Berlin 定義診斷——佐證 ARDS 為通透性（非靜水壓）水腫，故周邊分布、air bronchogram 多而 Kerley/積液少。
+[^3]: **Tier 1** Alegría J. *Acute Respiratory Distress Syndrome (ARDS)*（Chest, Idiopathic Interstitial Lung Diseases, Dx）. STATdx, Elsevier, updated 09/29/21（7 refs；實際查證 accessed 2026-07-04）——ARDS＝非心因性肺水腫致急性呼吸衰竭；**Berlin criteria（1 週內發作、雙側陰影非積液/塌陷/結節可解釋、PF ratio <300 且 PEEP/CPAP ≥5、非全由心衰解釋）**；**時序（小時 12-24h 可正常→天 24h 內雙側空氣腔陰影+dependent atelectasis→週 實質化減 reticular/GGO 持續→月 subpleural reticular+honeycombing 可前側）**；**肺內損傷（實質化與 GGO 等量、不對稱）vs 肺外損傷（GGO>實質化、對稱）**；三表現型（瀰漫均勻死亡率高/下肺葉為主/patchy 不均）；ARDS **septal thickening 與 pleural effusion 較心因性少、心臟正常**；DDx（AIP idiopathic ARDS 無法區分、心因性中央 bat-wing+Kerley+心臟肥大、其他非心因性周邊>中央+心臟正常、肺出血、PJP）；**病理 DAD 四階段（早期滲出數小時內皮水腫→晚期滲出 1 天-1 週第 I 型肺泡壞死→增生修復 1 週-1 月第 II 型/纖維母細胞→纖維化數月）**；病因（肺內肺炎/吸入/創傷、肺外敗血/胸外創傷）；臨床（呼吸急促/缺氧、可併肺炎 non-dependent 緻密、存活者纖維化 honeycombing）；治療（機械通氣高 PEEP）；胸片足以監測、CT problem-solving。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which statement about acute respiratory distress syndrome (ARDS), cardiogenic pulmonary edema, renal based pulmonary edema is true? (2017-276)
