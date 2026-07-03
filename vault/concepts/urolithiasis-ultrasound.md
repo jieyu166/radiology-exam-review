@@ -6,29 +6,44 @@ aliases:
   - urolithiasis ultrasound
   - ureteral jet
   - twinkling artifact
+  - renal calculi
   - 泌尿道結石超音波
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # urolithiasis-ultrasound
 
-**泌尿道結石的超音波三大直接徵象是「echogenic focus + posterior acoustic shadowing + color Doppler twinkling artifact」——輸尿管噴流(ureteral jet)則是正常生理現象，其消失或變短才提示阻塞，並非結石本身的直接影像表現。**
+**泌尿道結石的超音波三大直接徵象是「echogenic focus（高迴聲病灶）＋ posterior acoustic shadowing（後方聲影）＋ color Doppler twinkling artifact（閃爍偽像，又稱 color comet-tail）」；輸尿管噴流（ureteral jet）是正常生理現象，其「消失」才是阻塞的間接徵象，並非結石本身的直接影像表現。** 判讀分水嶺：**結石高迴聲不隨化學成分改變（即使 X 光不顯影的尿酸結石在 US 上仍為高迴聲）；twinkling artifact 對辨識小或弱聲影的結石特別有用，是灰階聲影之外的第二把鑰匙。**
 
 ## Summary
-- **結石直接徵象**：**echogenic foci（高迴聲病灶）**、**posterior acoustic shadowing（後方聲影）**、**color Doppler上之twinkling artifact（閃爍偽像）**皆為泌尿道結石之典型超音波表現。[^1]
-- **輸尿管噴流(ureteral jet)**：為正常生理性間歇性尿液自輸尿管末端排入膀胱之現象，**其存在與否/型態改變是「阻塞的間接輔助徵象」，並非結石本身的典型超音波表現**。[^1]
-  - Pulsed wave Doppler測得**最大噴流速度(Vmax)持續<19.5 cm/s** 提示阻塞性尿路病變。
-  - **噴流時間縮短**（正常≥6秒）提示部分輸尿管阻塞。
+- **結石直接徵象（三件套）**：**圓/卵圓形 echogenic foci**、**posterior acoustic shadowing（後方線狀低回聲帶）**、**color Doppler twinkling artifact（結石後方雜亂快速變換色帶，即 color comet-tail）**。高迴聲**不依化學成分而定**，故連 X 光陰性結石也可偵測。[^1]
+- **輸尿管噴流（ureteral jet）**：正常間歇性尿液自 UVJ 排入膀胱之生理現象；**「缺乏」患側 jet 才與阻塞性輸尿管結石相關**，屬阻塞之**間接輔助徵象**，非結石本身直接表現。[^1]
+- **懷孕/年輕族群首選 US**：孕婦腎絞痛先以 US 起步，US 無定論再考慮 MR，最後才 CT，以減少輻射。[^1]
+
+## 放射科醫師影像判讀重點
+- **US 三徵象與陷阱**：小結石可能**無明顯聲影**，此時 **twinkling artifact 是關鍵**（於高反射面後方出現）；**腎竇動脈鈣化亦可高迴聲＋聲影**，與 <1 cm 結石難分，需以 X 光/CT 對照。[^1]
+- **CT（NECT 為診斷主力）**：結石除 matrix 與 indinavir 外皆均勻高密度；**放射不透性排序 鈣（草酸/磷酸，400–600 HU）> cystine > struvite > 尿酸（100–300 HU）**；輸尿管結石看 **soft tissue rim sign（≤4 mm 結石敏感度 91%）**、**perinephric stranding＋hydroureteronephrosis（阻塞 PPV 97%／NPV 93%）**。[^1]
+- **Dual-energy CT**：以高低能量下衰減差異**判定結石化學成分**（尤其分辨尿酸 vs 非尿酸）；<3 mm 或體型大者特異度下降。[^1]
+- **鑑別 phlebolith vs 輸尿管結石**：靜脈石常有**中央透亮、comet-tail sign（偏心錐狀軟組織尾）、缺 soft tissue rim sign**，且骨盆靜脈石多位於 UVJ 尾側（子宮頸/精囊高度）。[^1]
+- **MR**：結石為**訊號空缺（signal void）**，靠續發徵象（腎實質 T2↑、腎周脂肪 T2↑、輸尿管口徑突變）間接判讀。[^1]
+
+## 臨床重點（5 句）
+1. 結石成分以**鈣質（草酸/磷酸）75–80% 最多**，其次 struvite 15–20%（感染性、Proteus/Klebsiella，形成鹿角結石）、尿酸 5–10%（X 光陰性）、cystine 1–3%。[^1]
+2. 典型表現為**急性絞痛由腰脅放射至腹股溝**、血尿；小的「非阻塞性」結石也可能有症狀。[^1]
+3. 盛行率約 **2–3%**、男:女 ≈ **3:1**（但 struvite/matrix 女多於男）；好發 20–60 歲。[^1]
+4. **自然排石率**與大小相關：<4 mm 約 80%、4–6 mm 約 50%、>8 mm 約 20% 可自行排出；未治療復發率 1 年 10%、5 年 35%、10 年 50%。[^1]
+5. 治療含多喝水、飲食調整、藥物（thiazide/allopurinol）與體外震波碎石/內視鏡取石；**孕婦腎絞痛影像由 US 起步**。[^1]
 
 > [!note] 考點：何者「非」泌尿道結石之典型超音波表現？
-> **Ureteral jet into the urinary bladder（D）**為非典型——噴流為正常生理現象，其消失/變短/流速降低才是阻塞之間接輔助徵象，非結石本身之直接超音波表現。Echogenic foci、後方聲影、color Doppler twinkling artifact皆為結石之典型直接徵象。[^1]
+> **Ureteral jet into the urinary bladder（D）**為非典型——噴流為正常生理現象，其「消失／變短／流速下降」才是阻塞之間接輔助徵象，並非結石本身之直接超音波表現。Echogenic foci、後方聲影、color Doppler twinkling artifact（color comet-tail）皆為結石之典型直接徵象。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Ahuja, A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 5-30~5-31.（題目所引）——泌尿道結石典型超音波徵象為echogenic foci、posterior acoustic shadowing、color Doppler twinkling artifact；ureteral jet為正常生理性尿液排出現象，Vmax持續<19.5cm/s或噴流時間<6秒提示阻塞性尿路病變，屬間接輔助徵象非結石直接表現。
+[^1]: **Tier 1** Heller MT. *Urolithiasis*. STATdx（Genitourinary, Dx），last updated 2025-09-10. Elsevier（實際查證 accessed 2026-07-03，13 references）：US 三徵象＝圓/卵圓 echogenic foci、posterior shadowing（線狀低回聲）、twinkle artifact（後方雜亂快速變色帶＝color comet-tail，不依化學成分）；缺患側 urine jet 與阻塞性輸尿管結石相關（間接徵象）；CT 放射不透性 鈣>cystine>struvite>尿酸、鈣 400–600 HU 尿酸 100–300 HU、soft tissue rim sign（≤4 mm 91% 敏感）、perinephric stranding＋hydroureteronephrosis（PPV 97%/NPV 93%）、dual-energy 判成分；成分鈣 75–80%/struvite 15–20%/尿酸 5–10%/cystine 1–3%；男:女 3:1、盛行率 2–3%；自然排石 <4 mm 80%/4–6 mm 50%/>8 mm 20%；孕婦先 US、次 MR、末 CT。
+[^2]: 官方 2020 詳解（題目所引）；原引 Ahuja A. *Diagnostic Imaging: Ultrasound*. Amirsys 2007. p5-30~5-31——泌尿道結石 US 典型直接徵象與 ureteral jet 為生理性間接徵象之依據，已由 [^1] STATdx 一手來源查核並補強 CT/MR 與臨床。
 
 ## 題目
 > [!question]- Which of the following is NOT a typical ultrasound finding of urolithiasis? (2020-268)
-> **Ureteral jet into the urinary bladder（D）**為非典型——噴流為正常生理現象，非結石本身之直接超音波表現；其消失/變短/流速<19.5cm/s才提示阻塞。Echogenic foci、後方聲影、twinkling artifact皆為結石之典型直接徵象。[^1]
+> **Ureteral jet into the urinary bladder（D）**為非典型——噴流為正常生理現象，非結石本身之直接超音波表現；其消失/變短才提示阻塞。Echogenic foci、後方聲影、twinkling artifact 皆為結石之典型直接徵象。[^1][^2]
 
 ## 考題
 ```dataview
