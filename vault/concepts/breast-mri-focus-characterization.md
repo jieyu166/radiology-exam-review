@@ -6,30 +6,43 @@ aliases:
   - breast MRI focus
   - focus enhancement breast
   - 乳房MRI點狀強化病灶
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # breast-mri-focus-characterization
 
-**乳房MRI之focus(直徑<5mm、太小而無法進一步定性之點狀強化)偏良性的特徵包括：T2WI高訊號、持續型(Type I)強化動力學、與前次檢查相比穩定——「無脂肪門(no fatty hilum)」則是淋巴結相關描述，並非focus良惡性判斷依據。**
+**乳房 MRI 之 focus（≤4-5 mm、太小而無法定性之點狀強化）偏良性的特徵包括：T2WI 高訊號、持續型（persistent/Type I）強化動力學、停經前（premenopausal）、與前次相比穩定——「無脂肪門（no fatty hilum）」是『淋巴結』的描述，並非 focus 良惡性判斷依據。** 判讀分水嶺：**focus 惡性率低於 mass/NME；偏良性看「持續強化 + T2 高訊號 + 停經前 + 穩定」；轉惡性警訊看「washout 動力學、停經後新現 solitary focus、與已知癌同側/同象限」→ BI-RADS 4（20-53% 惡性）。**
 
 ## Summary
-- **Focus定義**：直徑通常**<5mm**、太小而無法進一步定性之點狀強化病灶，多屬乳房正常背景強化之一部分。[^1]
-- **偏良性之特徵**：[^1]
-  - **T2WI高訊號**：如囊腫、淋巴結、脂肪壞死（惟膠樣癌colloid carcinoma為例外之惡性病灶，亦可呈T2高訊號）。
-  - **持續型強化動力學(persistent kinetics，Type I curve)**。
-  - **與前次檢查相比穩定不變(stable since prior examination)**。
-- **「無脂肪門(no fatty hilum)」非focus良性判斷依據**：脂肪門(fatty hilum)為**淋巴結**之正常構造描述（正常淋巴結應具脂肪門），與focus之良惡性判斷無直接關聯，不應列為focus之良性特徵。[^1]
+- **Focus 定義**：**≤4-5 mm 之孤立圓/卵圓點狀強化**，太小無法從型態或內部定性；**惡性率低於 mass 或 non-mass enhancement（NME）**。[^1]
+- **偏良性之特徵組合**：**persistent kinetics（Type I）、T2WI 高訊號、premenopausal、與前次相比穩定**。[^1]
+- **T2 高訊號例外**：多數 T2 高訊號者偏良性（囊腫/淋巴結/脂肪壞死），但**黏液/膠樣癌（colloid/mucinous carcinoma）為 T2 高訊號之惡性例外**。[^1]
+- **轉惡性警訊**：**washout 動力學、停經後新現 solitary focus（washout/plateau）、與已知癌同側（尤同象限）** → 可疑、**BI-RADS 4（20-53% 惡性）**；baseline 或對側之 solitary focus BI-RADS 3 約 1-2% 惡性。[^1]
+- **「無脂肪門」非 focus 判斷依據**：fatty hilum 為**淋巴結**正常構造（正常淋巴結應有脂肪門），與 focus 良惡性無直接關聯。[^1]
+
+## 放射科醫師影像判讀重點
+- **評估四軸**：T2 訊號、動力學（persistent vs plateau vs washout）、時間穩定性、檢查適應症。[^1]
+- **穩定性最有力**：與前次比穩定不變是強力良性指標；新現/增大則升級。[^1]
+- **US 相關性陷阱**：**無 US correlate 並不可靠地代表良性**，不能因超音波看不到就判良性。[^1]
+- **停經狀態**：premenopausal + 持續強化偏良性；postmenopausal 新現 focus 要更警覺。[^1]
+- **命名紀律**：若已可見型態/內部特徵（如可辨邊緣、內部結構），就不該再稱「focus」而應歸為 mass。[^1]
+
+## 臨床重點（5 句）
+1. **focus 風險低**：小於 mass/NME 之惡性率。[^1]
+2. **良性四特徵**：persistent kinetics、T2 高訊號、premenopausal、穩定。[^1]
+3. **警訊**：washout、停經後新現、與已知癌同側/同象限。[^1]
+4. **T2 例外**：黏液/膠樣癌可 T2 高訊號。[^1]
+5. **陷阱**：無 US correlate 不代表良性；fatty hilum 是淋巴結描述非 focus 依據。[^1]
 
 > [!note] 考點：何種特徵「不」使focus更可能為良性？
-> **無脂肪門（No fatty hilum，B）**——脂肪門為淋巴結相關描述，非focus之良性判斷依據。T2WI高訊號、持續型強化動力學、與前次檢查相比穩定，皆為focus偏良性之特徵。[^1]
+> **無脂肪門（No fatty hilum，B）**——fatty hilum 為淋巴結相關描述，非 focus 之良性判斷依據。T2WI 高訊號、持續型（persistent）強化動力學、與前次檢查相比穩定，皆為 focus 偏良性之特徵。[^1]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: ACR-BIRADS atlas, 2013, p33（題目所引）——focus為<5mm點狀強化病灶；偏良性特徵含T2WI高訊號(膠樣癌為例外)、持續型強化動力學、與前次檢查相比穩定；「無脂肪門」為淋巴結描述非focus良性判斷依據。
+[^1]: *Focus (MR)* (Dx). STATdx, updated 04/25/19. Elsevier——focus＝**≤4 mm 孤立圓/卵圓點狀強化、太小無法定性、惡性率低於 mass/NME**；偏良性特徵組合＝**persistent kinetics、T2 hyperintensity、premenopausal、stability**；警訊（washout、停經後新現 solitary、與已知癌同側/同象限）→ BI-RADS 4（20-53% 惡性）；baseline/對側 solitary focus BI-RADS 3 約 1-2% 惡性；**無 US correlate 不可靠代表良性**。原「官方 2020 詳解／ACR BI-RADS Atlas 2013 p33」弱來源已由此一手來源查核佐證。
 
 ## 題目
 > [!question]- On breast MRI, a focus is a dot of enhancement which is too small to be otherwise characterized. Which one of the following features does not make a focus more likely to be benign? (2020-388)
-> **無脂肪門（No fatty hilum，B）**——脂肪門為淋巴結相關描述，非focus良性判斷依據。[^1]
+> **無脂肪門（No fatty hilum，B）**——fatty hilum 為淋巴結相關描述，非 focus 良性判斷依據。T2 高訊號、持續型動力學、與前次比穩定皆為 focus 偏良性特徵。[^1]
 
 ## 考題
 ```dataview
