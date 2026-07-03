@@ -27,7 +27,7 @@ dateRev: 2026-06-30
 > **D**——「TAE 必須避開腫瘤周邊門脈栓塞以防肝梗塞/膿瘍」的絕對化敘述與文獻強調（門脈在腫瘤血供中扮演重要角色、不應被治療策略忽略）有所出入。A（動脈為主要供血）、B（四型動脈門脈交通）、C（動脈血先入門脈小靜脈再供應腫瘤）皆為文獻支持之正確敘述。[^1]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；In vivo microscopy of hepatic tumors in animal models: a dynamic investigation of blood supply to hepatic metastases. Radiology 1993;187:621-626：肝腫瘤血供主要來自肝動脈;動脈-門脈交通四型（peribiliary plexus、terminal arterioportal anastomosis、vasa vasora、direct connections）;動脈血可先入門脈小靜脈再供應腫瘤;僅處理肝動脈忽略門脈的傳統治療策略不足夠,門脈角色比先前認知更重要。
+[^1]: 官方 2017 詳解；Ref: *In vivo microscopy of hepatic tumors in animal models: a dynamic investigation of blood supply to hepatic metastases*. Radiology 1993;187(3):621-626（PMID 8497606；accessed 2026-07-03）——原文結論：**腫瘤血管與周圍門脈小靜脈/肝竇相通；肝動脈未直接連至腫瘤，而是動脈血『經門脈小靜脈』進入腫瘤（無阻力），門脈血在腫瘤邊界遇高阻力僅少量進入**；提出肝動脈與門脈供血之互惠關係、**arterioportal communications 扮演重要角色**。四型動脈-門脈交通（peribiliary plexus、terminal arterioportal anastomosis、vasa vasorum、direct connections）；故僅處理肝動脈、忽略門脈的傳統治療策略不足夠。
 
 ## 題目
 > [!question]- 關於 liver tumor 的 blood supply，請問以下何者「不正確」? (2017-247)
