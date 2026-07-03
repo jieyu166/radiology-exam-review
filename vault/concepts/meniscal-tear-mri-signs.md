@@ -20,7 +20,10 @@ dateRev: 2026-07-03
 - **前提**：**幾乎只見於 ACL 完整者**——需完整 ACL 限制碎片、避免過度翻轉。[^1][^2]
 - **Double ACL sign（flipped meniscus）**：內/外側半月板桶柄碎片移位至髁間窩、平行/前於 ACL，內外側皆可造成。[^1]
 - **移位方向規律**：**外側**半月板桶柄碎片移**後下方**；**內側**桶柄碎片移**前上方**。[^1]
-- **Jack and Jill lesion**：內外側半月板**同時**桶柄撕裂，冠狀面呈 **quadruple（cruciate）sign**。[^1]
+- **Jack and Jill lesion**：內外側半月板**同時**桶柄撕裂，冠狀面呈 **quadruple sign**。[^1][^3]
+- **本質**：BHT＝廣泛之**垂直縱向撕裂**、游離緣碎片向髁間窩移位、**碎片保留前後兩端附著**；若一端（多為前端）斷裂＝**broken BHT**。[^3]
+- **Double PCL 之敏感度**：對 BHT **具特異性但「不特別敏感」**；**LM BHT 若出現 double PCL，反而提示 ACL 可能已撕裂**（完整 ACL 正常會阻擋外側碎片入髁間窩）。[^3]
+- **最佳序列**：**冠狀面最準確**（見 body 截斷/變小、碎片入髁間窩、可追至前後附著）。[^3]
 
 ## 放射科醫師影像判讀重點
 - **辨識雙 PCL**：矢狀面 PCL 前下方見另一條低訊號帶（翻轉之桶柄碎片）＝bucket-handle + 完整 ACL。[^2]
@@ -28,6 +31,8 @@ dateRev: 2026-07-03
 - **內外側方向**：內側→前上、外側→後下，有助定位撕裂來源。[^1]
 - **合併 ACL 評估**：double PCL 提示 ACL 完整；若 ACL 撕裂則碎片翻轉型態改變。[^1][^2]
 - **陷阱**：勿把翻轉碎片誤為正常 PCL/ACL 或游離體；追蹤來源半月板缺損。[^2]
+- **鑑別（DDx）**：**flipped tear**（碎片非前後皆附著、多後端完全斷裂並翻至前角前方）、**關節內游離體**（無半月板缺損）、**Humphry 韌帶**（LM 後角→髁間窩上內壁）、**慢性 ACL 撕裂殘端**（水平躺於髁間窩）。[^3]
+- **診斷 pearl 與治療**：**確認碎片前後兩端皆附著於周邊殘餘後才診斷 BHT**；截斷/變小之半月板要主動找移位碎片；**紅區（周邊 <3–5 mm 血管區）可修復、中央無血管區則切除**；**medial BHT 常合併 ACL 損傷、需及時手術**（延遲降低修復成功率）。[^3]
 
 ## 臨床重點（5 句）
 1. **Double PCL**：bucket-handle（內側 80%）碎片於 PCL 前下方。[^1][^2]
@@ -41,7 +46,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解——Double PCL sign 為桶柄撕裂碎片移位至髁間窩、位 PCL 前下方之高度特異徵象，幾乎僅見於 ACL 完整者；Double ACL sign 可見於內/外側桶柄（平行 ACL）；外側碎片移後下、內側碎片移前上；Jack and Jill 為雙側桶柄呈 quadruple sign（已由下述 Radiopaedia 一手來源查核佐證）。
-[^2]: Gaillard F, et al. *Double posterior cruciate ligament sign*. Radiopaedia, rID-1234, DOI 10.53347/rID-1234——矢狀面 MRI，**bucket-handle 撕裂（內側半月板 80%）**碎片翻轉至關節中心、位於 **PCL 前下方**似第二條較小韌帶；**幾乎只見於 ACL 完整者**。
+[^2]: *Double posterior cruciate ligament sign*. Radiopaedia.org, rID-1234, DOI 10.53347/rID-1234（輔助來源）——矢狀面 MRI，**bucket-handle 撕裂（內側半月板 80%）**碎片翻轉至關節中心、位於 **PCL 前下方**似第二條較小韌帶；幾乎只見於 ACL 完整者。
+[^3]: **Tier 1** Blankenbaker DG, Davis KW, Sonin A. *Meniscus Bucket-Handle Tear*（Musculoskeletal, Dx）. STATdx, Elsevier, updated 01/26/26（33 refs；實際查證 accessed 2026-07-03）——BHT＝廣泛垂直縱向撕裂、游離緣碎片向髁間窩移位且**保留前後附著**（一端斷=broken BHT）；**MM > LM**；**double PCL sign 具特異性但不特別敏感、碎片位 PCL 前下方；LM BHT 出現 double PCL 則 ACL 可能已撕裂**（完整 ACL 阻擋外側碎片入 notch）；輔助徵象（冠狀 body 截斷/變小=最準、two anterior horns、Jack and Jill=quadruple sign）；DDx（flipped tear、關節內游離體、Humphry 韌帶、慢性 ACL 殘端）；臨床（joint line 痛/locking/giving way、年輕運動、M>F、medial BHT 常合併 ACL 傷、需及時手術、紅區 <3–5mm 可修復）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- The double posterior cruciate ligament (PCL) sign is a highly specific indicator of the following meniscal tear. (2017-295)
