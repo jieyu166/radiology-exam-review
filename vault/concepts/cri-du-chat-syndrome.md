@@ -1,44 +1,52 @@
 ---
 concepts: [cri-du-chat-syndrome]
-name: Cri du Chat Syndrome (5p Syndrome)
-subspecialty: [PE]
+name: Cri du Chat Syndrome (5p− Syndrome)
+subspecialty: [PED, NR]
 modality: [XR, US, MR]
 aliases:
   - 5p deletion syndrome
   - cat cry syndrome
+  - 5p minus syndrome
   - 貓哭症候群
-dateRev: 2026-07-03
+dateRev: 2026-07-04
 ---
 
 # cri-du-chat-syndrome
 
-**Cri du chat syndrome（貓哭症候群）為第 5 號染色體短臂缺失（5p deletion）所致，特徵為新生兒高亢如貓叫的哭聲、小頭症（microcephaly）、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、遠距眼（hypertelorism）。影像可見小腦症、腦幹發育不良（特別是 pons）、胼胝體發育不全等。**
+**貓哭症候群（cri du chat / 5p− syndrome）＝第 5 號染色體短臂『可變大小缺失』所致，最常見人類染色體缺失症候群之一（發生率 1:15,000–1:50,000）。核心臨床＝新生兒『高亢單調如貓叫』的哭聲（多在頭幾年消失）、小頭症、內眥贅皮、小下頜、寬鼻樑、嚴重精神運動與智能遲滯。** 判讀分水嶺：**「microencephaly + epicanthal folds + micrognathia」三聯為本症考點答案（Turner＝hip dysplasia/gonadoblastoma、wide-spaced nipples；Denys-Drash＝男性性別不明/Wilms）；貓叫聲關鍵區與智能遲滯關鍵區位於 5p 不同位置（基因型-表現型變異）；診斷以臨床 + karyotype，疑難用 FISH；影像非診斷主軸，用於評估合併之腦/心/腎異常。**
 
 ## Summary
-- **病因**：染色體 5p 短臂缺失（5p deletion syndrome）。[^1]
-- **典型特徵**：[^1]
-  - 高亢如貓叫的哭聲（cat cry）
-  - **小頭症（microcephaly）**
-  - **內眥贅皮（epicanthal folds）**
-  - **小下頜（micrognathia）**
-  - 遠距眼（hypertelorism）
-  - 鼻骨發育不全（nasal bone hypoplasia）
-- **影像表現**：[^1]
-  - 腦部：小腦症、腦幹發育不良（particularly pons）、胼胝體發育不全、小腦發育不良、Dandy-Walker malformation
-  - 頸椎：nuchal fold 增厚或 cystic hygroma（產前超音波）
-  - 心臟缺損
-  - 唇裂/顎裂
-- **產前生長限制**：胎兒及產後生長遲滯。
+- **病因/遺傳**：**第 5 號染色體短臂缺失（5p−），缺失大小可變**；多為新發（de novo）末端缺失，少數源自親代平衡轉位。[^1]
+- **發生率**：**1:15,000–1:50,000 活產**，為最常見染色體缺失症候群之一；女略多於男。[^1]
+- **核心臨床特徵**：**高亢單調貓叫哭聲（cat cry，多於頭幾年消失）、小頭症（microcephaly）、寬鼻樑、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、異常掌紋（dermatoglyphics）、嚴重精神運動與智能遲滯**。[^1]
+- **較少見畸形**：心臟、神經、腎臟異常、preauricular tags、併指（syndactyly）、hypospadias、cryptorchidism。[^1]
+- **基因型-表現型（genotype-phenotype）**：**臨床與細胞遺傳變異大**；特定缺失大小/型態對應表現型子集，具診斷與預後意義；**貓叫聲關鍵區與智能遲滯關鍵區位於 5p 不同區段**；候選基因 SEMAF/CTNND2（腦發育、智能遲滯）、hTERT（5p15.33）。[^1]
+- **影像**：屬 syndromic microcephaly——顱面比例下降、顱縫緊貼/重疊；可伴胼胝體發育不全、小腦/腦幹發育不良；產前 US 可見 nuchal fold 增厚/cystic hygroma、生長受限、心臟缺損、唇顎裂。[^2][^3]
+
+## 放射科醫師影像判讀重點
+- **顱面比例（STATdx microcephaly 框架）**：**側位片/CT/矢狀 MR 見顱面比下降、額頭後斜、顱縫緊貼或重疊 ± 續發性顱縫早閉**；正常顱面比 term 4:1、2 歲 3:1、成人 1.5:1。[^2]
+- **腦部（syndromic microcephaly）**：**架構大致正常之小腦（smaller-but-normal）± 腦回簡化（oligogyria/淺溝）**；可伴胼胝體發育不全/發育不良、小腦發育不良——**cri-du-chat 為 STATdx 明列之 microcephaly 症候群病因（5p−）**。[^2]
+- **MR 為主**：評估腦回型態、皮質組織/移行、髓鞘化、中線異常、大腦對後顱窩相對大小；NECT 補充看鈣化/subdural。[^2]
+- **產前 US/MR**：nuchal fold 增厚或 cystic hygroma、對稱性生長受限、心臟缺損、顏面（小下頜/寬鼻樑）；胎兒 MR 補充腦部評估。[^3]
+- **判讀定位**：影像非本症診斷主軸（診斷靠 karyotype/FISH），角色在**篩檢並描述合併之腦/心/腎結構異常以利預後與遺傳諮詢**。[^1][^2]
+- **陷阱**：小頭 + 中線異常時亦須想 fetal alcohol syndrome 等；cerebellar hypoplasia 在基因性小頭較常見。[^2]
+
+## 臨床重點（5 句）
+1. **命名由來**：1963 年 Lejeune 描述，名稱源自新生兒**高亢單調如貓叫的哭聲**（喉部異常），此哭聲多於**出生頭幾年逐漸消失**。[^1]
+2. **口顏面表現**：**mandibular microretrognathia、高腭（少真裂）、可變咬合不正（常前開咬）、琺瑯質發育不全、牙齒萌發遲緩、牙周問題**。[^1]
+3. **發展/預後**：嚴重精神運動與智能遲滯；已建立**專屬生長與精神運動發展曲線**；**早期復健與教育介入可改善預後、社會適應進步顯著**。[^1]
+4. **診斷流程**：以**典型臨床表現**為基礎，**karyotype 確認**，**疑難個案以 FISH（或 array-CGH）**釐清缺失大小/型態。[^1]
+5. **治療**：**無專一療法**，以支持性照護、早期療育與遺傳諮詢為主；合併心/腎/神經異常各別處置。[^1]
+
+> [!question]- Cri du chat (cat cry) syndrome is associated with: (2019-507)
+> **microencephaly, epicanthal folds, micrognathia（C）**——為 5p− 症候群典型三聯。選項 A（hip dysplasia/gonadoblastoma）、D（wide-spaced nipples）較偏 Turner；B（男性性別不明 + Wilms）偏 Denys-Drash。[^1]
 
 ### 參考來源
-[^1]: The cri du chat syndrome - Radiopaedia.
+[^1]: **Tier 1** Cerruti Mainardi P. *Cri du Chat syndrome*. Orphanet J Rare Dis 2006;1:33（據 PubMed，DOI [10.1186/1750-1172-1-33](https://doi.org/10.1186/1750-1172-1-33)，PMC1574300；Review；實際查證 accessed 2026-07-04）——CdCS＝5p 短臂可變大小缺失、發生率 1:15,000–1:50,000；核心＝高亢單調貓叫哭聲/小頭症/寬鼻樑/內眥贅皮/小下頜/異常掌紋/嚴重精神運動與智能遲滯；較少見畸形（心/神經/腎、preauricular tags、syndactyly、hypospadias、cryptorchidism）；**基因型-表現型變異大、貓叫聲與智能遲滯關鍵區位於 5p 不同區段、候選基因 SEMAF/CTNND2/hTERT**；診斷（臨床 + karyotype，疑難 FISH/array-CGH）；已建立生長/精神運動發展曲線；無專一療法、早期療育改善預後。
+[^2]: **Tier 1** Moore KR. *Congenital Microcephaly*（Pediatrics, Pediatric Neuroradiology, Dx）. STATdx, Elsevier, updated 02/02/24（22 refs；實際查證 accessed 2026-07-04）——microcephaly＝OFC >3 SD 低於同齡同性別均值；**顱面比下降/額頭後斜/顱縫緊貼重疊 ± 續發顱縫早閉**；primary（MCPH，體隱性、腦回簡化 oligogyria）vs secondary（HIE/感染/代謝）；**syndrome associations 明列 Cri-du-chat（5p−）、Down、Edward、Cornelia de Lange、Rubinstein-Taybi**；MR 為評估腦回/皮質移行/髓鞘化/中線最佳、NECT 看鈣化 subdural；小腦發育不良於基因性小頭較常見；中線異常合併小頭想 FAS。
+[^3]: *The cri du chat syndrome*. Radiopaedia.org（輔助來源）——5p 缺失、貓叫哭聲、小頭、內眥贅皮、小下頜、遠距眼、鼻骨發育不全；影像可見胼胝體發育不全、小腦/腦幹（尤 pons）發育不良、Dandy-Walker；產前 nuchal fold 增厚/cystic hygroma、心臟缺損、唇顎裂、生長受限。
 
 ## 考題
 ```dataview
-TABLE WITHOUT ID
-  file.link AS 題目,
-  answer AS 答案
-FROM "vault/cards"
-WHERE contains(concepts, [[cri-du-chat-syndrome]])
-SORT file.name ASC
+list from #交換 where contains(concepts, "cri-du-chat-syndrome")
 ```
