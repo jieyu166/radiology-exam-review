@@ -24,25 +24,29 @@ same:
 - **自然病程**：蛻膜化子宮內膜異位**通常於生產或終止妊娠後消退**——追蹤消退可確認良性。[^1][^2]
 
 ## 放射科醫師影像判讀重點
-- **孕期背景**：孕婦已知 endometrioma 內新見壁結節 → 先想 decidualization，勿逕判惡性。[^2]
-- **ADC 定量**：測壁結節 ADC，蛻膜化顯著高於惡性；DWI 訊號本身不可靠。[^1]
-- **T2 對照**：蛻膜化壁結節 T2 略高於惡性結節。[^1]
-- **血流陷阱**：蛻膜化結節可有血流（Doppler/強化），故單看血管化不能排除良性。[^1]
+- **孕期背景**：孕婦已知 endometrioma 內新見壁結節 → 先想 decidualization，勿逕判惡性。[^2][^3]
+- **蛻膜化壁結節特徵（STATdx）**：**實性、平滑或乳突狀、T2 極高訊號、於各序列 isointense to placenta（似胎盤）、內部血流明顯（Doppler flow / MR 強化）**；產後/終止妊娠後消退。[^3]
+- **ADC/大小定量（Morisawa 原文）**：**蛻膜化實性成分高度多 <11.1 mm、顯著小於卵巢癌**；**蛻膜化 T2 訊號與 ADC 值皆顯著高於惡性、但 DWI 訊號無差異**；蛻膜化囊內液 T1 訊號亦較惡性高。[^1]
+- **DWI 陷阱**：**DWI 高訊號對蛻膜化與惡性皆非特異**（endometrioma 本身 ~50% 受限），僅**定量 ADC** 可鑑別（蛻膜化較高）。[^1][^3]
+- **惡性壁結節警訊（STATdx，對照）**：**強化壁結節為最敏感 MR 徵象（97% 敏感/56% 特異）、T2 shading 消失、壁結節 >3 cm、囊增大、subtraction 影像利辨識**——與蛻膜化（低高度、極高 T2、產後消退）相反。[^3]
+- **血流陷阱**：蛻膜化結節可有血流（Doppler/強化），故單看血管化不能排除良性。[^1][^3]
+- **CA 125 無用（STATdx）**：孕期第 11-14 週生理性上升，**不能用以區分蛻膜化與惡性**。[^3]
 - **追蹤**：產後/終止妊娠後消退＝確認良性；持續存在/增大則重新評估。[^1][^2]
 
 ## 臨床重點（5 句）
-1. **背景**：孕期蛻膜化致 endometrioma 內壁結節。[^1][^2]
-2. **ADC**：蛻膜化顯著高於惡性（關鍵鑑別）。[^1]
-3. **DWI**：高訊號非特異，不能單獨區分。[^1]
-4. **T2**：蛻膜化略高於惡性。[^1]
-5. **病程**：產後消退確認良性。[^1][^2]
+1. **機轉（STATdx）**：**孕期 ↑ progesterone 促使 endometrioma 內子宮內膜基質細胞肥大，形成血管化壁結節**，模擬惡性。[^3]
+2. **良性依據**：**蛻膜化壁結節於各序列 isointense to placenta、實性成分低高度（<11.1 mm）、產後或終止妊娠後消退**。[^1][^3]
+3. **鑑別關鍵**：**定量 ADC 蛻膜化顯著高於惡性；DWI 訊號本身非特異、不能單獨區分**。[^1][^3]
+4. **陷阱**：蛻膜化結節可有明顯血流/強化、CA 125 孕期生理上升 → 皆不能單獨排除良/惡。[^3]
+5. **背景（endometrioma 惡變）**：**endometriosis 惡變率約 1%（女性罹卵巢癌風險 4.5 倍）、以 endometrioid(66.7%)/clear cell(14.8%) 為主**；故孕期壁結節仍須審慎追蹤。[^3]
 
 > [!note] 考點：關於蛻膜化子宮內膜異位囊腫(decidualized endometriotic cyst)，何者「為偽」?
 > 官方標示 D 為偽。需注意：**DWI 高訊號本身對蛻膜化與惡性皆非特異**，僅**定量 ADC 值**可鑑別（蛻膜化顯著較高）。A（蛻膜化組件定義）、B（T2 蛻膜化略高於惡性）、C（ADC 蛻膜化顯著高於惡性）皆為文獻支持之正確敘述。⚠️ D 為研究背景之 generic 敘述，其「為偽」之確切理由需結合原文全段判斷，建議醫師覆核。[^1]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Ref: *Magnetic Resonance Imaging Manifestations of Decidualized Endometriotic Cysts: Comparative Study With Ovarian Cancers Associated With Endometriotic Cysts*. J Comput Assist Tomogr 2014;38(6):879-884（accessed 2026-07-03）——蛻膜化組件定義；T2 蛻膜化略高於惡性；DWI 高訊號兩者皆非特異但 ADC 值蛻膜化顯著較高；蛻膜化子宮內膜異位通常產後/終止妊娠後消退。
-[^2]: Gaillard F, et al. *Endometriosis*. Radiopaedia, rID-6699, DOI 10.53347/rID-6699——endometrioma 於孕期可**蛻膜化**、形成可血管化之壁結節而模擬惡性、產後多消退；佐證蛻膜化壁結節之背景與良性病程（與惡性壁結節之鑑別見 [[endometriosis-malignant-transformation]]）。
+[^1]: **Tier 1** Morisawa N, Kido A, Kataoka M, et al. *Magnetic resonance imaging manifestations of decidualized endometriotic cysts: comparative study with ovarian cancers associated with endometriotic cysts*. J Comput Assist Tomogr 2014;38(6):879-84（據 PubMed，DOI [10.1097/RCT.0000000000000136](https://doi.org/10.1097/RCT.0000000000000136)；實際查證 accessed 2026-07-04；原官方 2017 詳解所引即此文）——18 例蛻膜化 vs 24 例卵巢癌對照；**蛻膜化實性成分高度 <11.1 mm、顯著小於惡性；蛻膜化 T2 訊號與 ADC 值皆顯著較高、但 DWI 訊號無差異；蛻膜化較小、囊內液 T1 訊號較高**；結論：孕婦 endometriotic cyst 之低高度實性成分呈 T2 高訊號高度提示蛻膜化。
+[^2]: Gaillard F, et al. *Endometriosis*. Radiopaedia, rID-6699, DOI 10.53347/rID-6699（輔助來源）——endometrioma 於孕期可**蛻膜化**、形成可血管化之壁結節而模擬惡性、產後多消退；佐證蛻膜化壁結節之背景與良性病程（與惡性壁結節之鑑別見 [[endometriosis-malignant-transformation]]）。
+[^3]: **Tier 1** Olpin JD, Rezvani M. *Endometrioma*（Gynecology, Adnexa, Nonneoplastic Adnexal Lesions, Dx）. STATdx, Elsevier, updated 09/23/25（31 refs；實際查證 accessed 2026-07-04）——**孕期蛻膜化：↑ progesterone 促內膜基質細胞肥大形成血管化壁結節；壁結節實性平滑/乳突狀、T2 極高訊號、各序列 isointense to placenta、內部血流明顯（Doppler/強化）、產後或終止妊娠後消退；CA 125 週 11-14 生理上升不能區分惡性**；**endometriosis 相關惡變 MR（強化壁結節最敏感 97% 敏感/56% 特異、T2 shading 消失、壁結節 >3cm、囊增大、subtraction 影像、restricted diffusion 增疑但非特異）**；endometrioma 本質（chocolate cyst、T1 高/T2 shading、T2 dark spot 特異 93%、~50% DWI 受限、雙側 30-50%、<15cm）；惡變率 1%、女性卵巢癌風險 4.5 倍、endometrioid 66.7%/clear cell 14.8%。佐證蛻膜化壁結節與惡性鑑別（另見 [[endometriosis-malignant-transformation]]）。
 
 ## 題目
 > [!question]- Which of the following statement about decidualized endometriotic cyst is FALSE? (2017-289)
