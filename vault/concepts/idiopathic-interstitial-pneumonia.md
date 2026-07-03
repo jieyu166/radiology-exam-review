@@ -7,7 +7,7 @@ aliases:
   - IIP
   - smoking-related IIP
   - 特發性間質性肺炎
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # idiopathic-interstitial-pneumonia
@@ -16,7 +16,7 @@ dateRev: 2026-06-30
 
 ## Summary
 - **分類（ATS/ERS）**：主要型含 **IPF/UIP、NSIP、COP、AIP、DIP、RB-ILD、LIP**;依組織型態與分布鑑別。[^1]
-- **吸菸相關 IIP**：**RB-ILD 與 DIP**（部分含 Langerhans cell histiocytosis）;**過敏性肺炎（HP）不是吸菸相關、亦非 IIP**（屬外因過敏性肺泡炎）。[^1]
+- **吸菸相關 IIP**：**RB-ILD 與 DIP**（部分含 Langerhans cell histiocytosis）;**過敏性肺炎（HP）不是吸菸相關、亦非 IIP**（屬外因過敏性肺泡炎）。[^1][^2]
 - **RB-ILD**：**上肺為主**、**中央小葉結節＋毛玻璃**、輕度支氣管壁增厚（題述「下肺為主」錯）。[^1]
 - **COP（前稱 BOOP）**：典型**胸膜下／支氣管周圍實質化**,可**游走（migratory）**,常對類固醇反應佳。[^1]
 - **Tree-in-bud**：反映**小氣道腔內充填（感染、吸入、發炎）**,**非 IIP 的提示徵象**。[^1]
@@ -26,6 +26,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Kumaresh A et al. Back to Basics – Must Know Classical Signs in Thoracic Radiology. J Clin Imaging Sci 2015;5:3;ATS/ERS IIP classification update（Travis WD et al. Am J Respir Crit Care Med 2013;188:733-748）：吸菸相關 IIP＝RB-ILD/DIP（HP 除外）;RB-ILD 上肺為主、中央小葉結節＋毛玻璃;COP 胸膜下／支氣管旁實質化;tree-in-bud 屬小氣道病。
+[^2]: Weerakkody Y, et al. *Idiopathic interstitial pneumonias*. Radiopaedia, rID-1493, DOI 10.53347/rID-1493——ATS/ERS 2002 分類、2013 修訂；**主要類別含 IPF/UIP、idiopathic NSIP、smoking-related IIPs（RB-ILD 與 DIP）、acute/subacute（AIP 與 COP）、rare（LIP、idiopathic PPFE）**——佐證吸菸相關 IIP＝RB-ILD/DIP、HP 不屬 IIP。
 
 ## 題目
 > [!question]- 關於 idiopathic interstitial pneumonias (IIP),何者「為真」? (2017-180)

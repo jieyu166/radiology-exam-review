@@ -7,7 +7,7 @@ aliases:
   - AAH AIS MIA
   - minimally invasive adenocarcinoma
   - 肺腺癌分類
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # lung-adenocarcinoma-classification
@@ -21,6 +21,7 @@ dateRev: 2026-06-30
   - **MIA（minimally invasive adenocarcinoma）**：**≤3 cm、以 lepidic 為主、侵犯 ≤5 mm**;CT 多為非實質但可有**約 ≤5 mm 中央實質成分**;切除後近 100% 無病存活。
   - **Invasive adenocarcinoma**：侵犯 >5 mm（lepidic/acinar/papillary/micropapillary/solid 等亞型）;invasive mucinous adenocarcinoma 為一型。
 - **不屬此分類**：**focal interstitial fibrosis（局部間質纖維化）非肺腺癌光譜成員**。[^1]
+- **術語更新**：2011 IASLC 分類已**廢除 mucinous/non-mucinous bronchoalveolar carcinoma（BAC）舊稱**；AIS 以 non-mucinous 最常見。[^2]
 
 > [!note] 考點一：依 2011 分類，「≤3 cm、lepidic 為主、侵犯 ≤5 mm、CT 多非實質但可有 ≤5 mm 中央實質」描述何者?
 > **Minimally invasive adenocarcinoma（MIA）**。[^1]
@@ -30,6 +31,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology 2013;266(1):62-71（2011 IASLC/ATS/ERS 肺腺癌分類影像）：光譜為 AAH→AIS→MIA→invasive;AIS ≤3 cm 純 lepidic、MIA ≤3 cm lepidic 為主＋侵犯 ≤5 mm（CT 可有 ≤5 mm 中央實質）;focal interstitial fibrosis 非此分類。
+[^2]: Gaillard F, et al. *Adenocarcinoma in situ, minimally invasive adenocarcinoma and invasive adenocarcinoma of lung*. Radiopaedia, rID-5920, DOI 10.53347/rID-5920——**肺腺癌組織學光譜、始於惰性增生（AAH）、可數年進展為侵襲**；**2011 IASLC 修訂分類含 AAH、AIS（≤3 cm、lepidic、無壞死/侵犯）、MIA（≤3 cm）、invasive；廢除 mucinous/non-mucinous BAC 舊稱**——佐證分類成員與 focal interstitial fibrosis 不屬其中。
 
 ## 題目
 > [!question]- 依 2011 分類，「≤3 cm、lepidic 為主、侵犯 ≤5 mm」之描述為何? (2016-004)
