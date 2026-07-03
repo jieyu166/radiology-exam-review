@@ -21,25 +21,27 @@ dateRev: 2026-07-03
 - **流行病學**：KS 為 AIDS 最常見相關惡性腫瘤；淋巴瘤次之。[^1]
 
 ## 放射科醫師影像判讀重點
-- **flame-shaped**：自肺門放射之邊界不清結節/粗線狀影沿支氣管血管束，雙側對稱、下肺為主為特徵。[^1][^2]
-- **CT 淋巴結**：縱膈/肺門淋巴腫可呈**高衰減**（顯影後），為 KS 線索。[^2]
-- **胸水**：常為出血性、可雙側。[^2]
-- **臨床連結**：AIDS + 皮膚/黏膜紫紅病灶 + 上述肺型態 → 想肺 KS；確診需切片。[^1][^2]
-- **鑑別**：與感染（PCP/細菌）、淋巴瘤、bacillary angiomatosis 區分——KS 沿淋巴管/支氣管血管束、flame-shaped 為特徵。[^2]
+- **最佳診斷線索（STATdx）**：**AIDS-KS＝界不清 peribronchovascular 結節 + 淋巴結腫 + 雙側肋膜積液並存**。[^3]
+- **CT 徵象（STATdx）**：**雙側對稱、界不清、perihilar、flame-shaped 結節（多 >1 cm、傾向融合、沿支氣管血管束）、周圍毛玻璃即 CT halo sign、interlobular septal thickening、fissural nodularity**；**空洞化多因合併伺機感染（尤 PCP）**；淋巴結腫（腋/縱膈/肺門，可強化）、肋膜積液常見（可 chylothorax）。[^3]
+- **核醫（STATdx，鑑別關鍵）**：**AIDS-KS 為 FDG-avid**；**Gallium-67 於 epidemic KS 陰性但感染/淋巴瘤陽性；Thallium 於 KS 與淋巴瘤陽性**——Ga/Tl 併用助分 KS vs 感染/淋巴瘤。[^3]
+- **MR（STATdx）**：罕用，但 **T1 高訊號、T2 明顯低訊號、釓後強烈腫瘤強化**（評估骨/軟組織）。[^3]
+- **DDx（STATdx）**：**sarcoidosis（淋巴結較對稱、不強化）、lymphoma（結節較大、air bronchogram 較常）、lymphangitic carcinomatosis（單側偏此）、感染性 bronchiolitis（結節 <1cm、tree-in-bud）、bacillary angiomatosis（Bartonella、異性戀 AIDS 者）、肺水腫**。[^3]
+- **臨床連結**：AIDS + 皮膚/黏膜紫紅病灶 + 上述肺型態 → 想肺 KS；**flame-shaped 結節於適當臨床高度提示 AIDS-KS**；確診需切片。[^1][^3]
 
 ## 臨床重點（5 句）
-1. **AIDS 相關（HHV-8）**、肺受侵多已有皮膚/內臟 KS。[^1][^2]
-2. **flame-shaped peribronchovascular 結節**、雙側對稱下肺。[^1][^2]
-3. **伴**：septal thickening、（出血性）胸水、淋巴腫（高衰減）。[^2]
-4. **KS 為 AIDS 最常見相關惡性腫瘤**、淋巴瘤次之。[^1]
-5. **確診**：切片（HHV-8）。[^2]
+1. **病因/四型（STATdx）**：**HHV-8（KSHV）驅動**（亦關聯 primary effusion lymphoma、multicentric Castleman）；**四型：classic/Mediterranean、endemic/African、AIDS-KS（最常見）、iatrogenic（IKS）**。[^3]
+2. **流行病學（STATdx）**：**AIDS-KS 好發同性戀/雙性戀男性、為 AIDS 最常見相關腫瘤（HAART 後盛行率下降）**；classic KS 50-80 歲 M:F 10-15:1；肺受侵者 85% 有黏膜皮膚 KS。[^3]
+3. **臨床表現（STATdx）**：**呼吸困難、咳嗽、低血氧、低 CD4（<150-200/mm³）、咳血、體重減輕**；胸腔受侵於 45% 病例、內臟侵犯（淋巴結 72%、肺 51%）。[^3]
+4. **分期/預後（STATdx）**：**ACTG TIS 分期（tumor/immune CD4/systemic illness）；肺 KS 預後差**；短存活指標（內臟侵犯、肋膜積液、伺機感染、低 CD4）；**伺機感染為 80% AIDS-KS 死因**。[^3]
+5. **治療（STATdx）**：**AIDS-KS＝HAART ± 化療；IKS＝減少免疫抑制**。[^3]
 
 > [!note] 考點：關於 pulmonary Kaposi sarcoma，何者「錯誤」?
 > 官方答案 **D**（關於「為 AIDS 病患最常見肺部惡性腫瘤」之敘述）。1-3 cm 結節(A)、幾乎都先有皮膚/內臟病灶(B)、粗線狀影自肺門放射沿支氣管血管束(C)皆為其典型表現。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Primer of Diagnostic Imaging, 5th ed., p.18（題目所引）——肺 KS 沿支氣管血管束自肺門放射之結節/線狀影、幾乎都先有皮膚/內臟 KS；KS 為 AIDS 最常見相關惡性腫瘤、淋巴瘤次之。
-[^2]: Gaillard F, et al. *Kaposi sarcoma*（thoracic 段）. Radiopaedia, rID-7539, DOI 10.53347/rID-7539——**HHV-8 驅動、免疫低下（HIV/AIDS）**；胸部：**bilateral、大致對稱、ill-defined（flame-shaped）結節（>1 cm）、perilymphatic/peribronchovascular 分布、下肺為主**；**interlobular septal thickening、胸水、縱膈淋巴腫**；沿 peribronchovascular interstitium/septa 生長致肺泡出血。原「2019 交換 Webb Thoracic Imaging」弱來源之型態已由此一手來源查核佐證。
+[^2]: Gaillard F, et al. *Kaposi sarcoma*（thoracic 段）. Radiopaedia, rID-7539, DOI 10.53347/rID-7539（輔助來源）——**HHV-8 驅動、免疫低下（HIV/AIDS）**；胸部：**bilateral、大致對稱、ill-defined（flame-shaped）結節（>1 cm）、perilymphatic/peribronchovascular 分布、下肺為主**；**interlobular septal thickening、胸水、縱膈淋巴腫**；沿 peribronchovascular interstitium/septa 生長致肺泡出血。
+[^3]: **Tier 1** Restrepo CS, Carter BW. *Kaposi Sarcoma*（Chest, Pulmonary Neoplasms, Uncommon Neoplasms, Dx）. STATdx, Elsevier, updated 10/15/21（11 refs；實際查證 accessed 2026-07-04）——**HHV-8 驅動、四型（classic/endemic/AIDS-KS 最常見/iatrogenic）**；**AIDS-KS 最佳線索＝界不清 peribronchovascular 結節+淋巴結腫+雙側肋膜積液；CT（雙側對稱 perihilar flame-shaped 結節 >1cm 融合、CT halo sign、septal thickening、fissural nodularity、空洞化多因合併伺機感染、淋巴結可強化、chylothorax）**；**核醫（AIDS-KS FDG-avid；Gallium-67 KS 陰性但感染/淋巴瘤陽性、Thallium KS/淋巴瘤陽性→併用助分）；MR（T1 高/T2 明顯低/釓強烈強化）**；**流病（同性戀男 AIDS、最常見 AIDS 相關腫瘤、HAART 後下降、肺受侵 85% 有黏膜皮膚 KS、胸腔受侵 45%）；臨床（呼吸困難/咳嗽/低 CD4<150-200、咳血）；分期（ACTG TIS、肺 KS 預後差、伺機感染為 80% 死因）；治療（HAART±化療、IKS 減免疫抑制）**；DDx（sarcoidosis 淋巴結對稱不強化、lymphoma 結節大 air bronchogram、lymphangitic carcinomatosis 單側、感染 tree-in-bud、bacillary angiomatosis Bartonella）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 pulmonary Kaposi sarcoma，何者「錯誤」? (2017-157)
