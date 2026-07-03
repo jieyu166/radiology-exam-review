@@ -26,12 +26,26 @@ dateRev: 2026-06-30
 > [!note] 考點：關於 IBD,何者「為非」?
 > 「**嚴重 Crohn disease 可出現 backwash ileitis**」為非——**backwash ileitis 是 UC** 的特徵（全結腸炎逆流末端迴腸）。UC 侷限大腸僅黏膜、CD 全消化道全層、CD 末端迴腸受累常見草酸鈣腎結石皆正確。[^1]
 
+## 放射科醫師影像判讀重點
+- **影像角色（Kilcoyne）**：**CT/MR enterography 評估內視鏡不可及之小腸、可同時評估腔壁與腔外表現**（傳統 barium fluoroscopy 已漸被取代）；用於偵測腔外併發、腸外表現、疾病活性與治療反應、並**區分發炎性 vs 纖維性狹窄**。[^1]
+- **CD 活性徵象（Kilcoyne）**：**壁增厚、mural hyperenhancement（分層 target/stratified）、DWI 受限、comb sign（直小血管充血）、脂肪爬行 creeping fat、潰瘍/鵝卵石、mesenteric 淋巴結**。[^1]
+- **CD 併發**：**瘻管（腸-腸/腸-膀胱/腸-皮）、膿瘍、狹窄（發炎性強化 vs 纖維性延遲/T2 低）、sinus tract**——跳躍分布、末端迴腸為主。[^1]
+- **UC 徵象**：**直腸起連續向近端、僅黏膜/黏膜下、對稱、無跳躍**；急性壁增厚 + 黏膜強化，慢性 lead-pipe（見下）；可 backwash ileitis。[^1]
+- **腸外表現（Kilcoyne）**：**PSC（尤 UC）、sacroiliitis/脊椎關節炎、膽石、腎草酸鈣結石（CD 末端迴腸受累）、血栓栓塞、脂肪肝**。[^1]
+
+## 臨床重點（5 句）
+1. **本質（Kilcoyne）**：IBD＝慢性特發性腸道疾病，含 **Crohn disease 與 ulcerative colitis 兩相關但不同之疾病**。[^1]
+2. **UC**：侷限大腸、僅黏膜/黏膜下、直腸連續向近端、可 backwash ileitis；癌變風險隨病程/範圍增加需監測。[^1]
+3. **CD**：全消化道跳躍性、全層（transmural）、好發末端迴腸；全層病變致瘻管/膿瘍/狹窄。[^1]
+4. **腸外/併發**：**CD 末端迴腸受累 → 脂肪吸收不良 → 腸道草酸吸收增加 → 草酸鈣腎結石**；IBD 神經學併發（藥物或疾病本身）相對常見。[^1][^2]
+5. **影像取捨（Kilcoyne）**：MR enterography 免輻射、對活性/纖維化分辨與年輕/需反覆追蹤者佳；CT enterography 急症/廣泛評估快速；US 可作為輔助。[^1]
+
 ## 慢性UC「burned-out」影像（2018-398）
 - **末期/burned-out UC**：慢性UC呈**大腸縮短(foreshortened)、乙狀結腸與脾/肝曲正常冗長消失、haustra消失、平滑管狀(lead-pipe/smooth tubular)、無特徵黏膜(featureless)**。[^2]
 - **神經學併發症**：IBD之神經學併發症(藥物相關或疾病本身)相對常見，可致相當程度罹病率——惟慢性UC之「featureless/lead-pipe colon」主要源自慢性發炎/肌層變化，「results in neuromuscular damage」作為主要機轉之描述存疑（官方答案標示D但附註「A?」）。[^2]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Kilcoyne A et al. Inflammatory bowel disease imaging: current practice and future directions. World J Gastroenterol 2016;22(3):917-932：UC 侷限大腸、僅黏膜、直腸起連續、可 backwash ileitis;CD 全消化道跳躍性全層、好發末端迴腸;CD 末端迴腸受累者常見草酸鈣腎結石。
+[^1]: **Tier 1** Kilcoyne A, Kaplan JL, Gee MS. *Inflammatory bowel disease imaging: current practice and future directions*. World J Gastroenterol 2016;22(3):917-32（據 PubMed，DOI [10.3748/wjg.v22.i3.917](https://doi.org/10.3748/wjg.v22.i3.917)，PMC4716045；Review；實際查證 accessed 2026-07-04；原官方 2017 詳解所引即此文）——IBD＝慢性特發性腸道病（Crohn + UC）；**影像用於偵測腔外併發、腸外表現、評估活性/治療反應、區分發炎性 vs 纖維性狹窄**；**cross-sectional（CT/MR enterography）可同時評估腔壁與腔外、漸取代 barium fluoroscopy**；CD 活性（壁增厚、mural hyperenhancement、DWI 受限、comb sign、creeping fat）與併發（瘻管/膿瘍/狹窄）；UC 直腸連續向近端僅黏膜、可 backwash ileitis；腸外（PSC、sacroiliitis、膽石、草酸鈣腎結石、血栓栓塞）。
 [^2]: *Expertddx series – Abdomen* (Michael P. Federle), Section 7, p.26（2018 交換考題詳解 p.312 引用；Tier 2 教科書）。末期/burned-out UC呈大腸縮短、冗長消失、haustra消失、平滑管狀、featureless mucosa；IBD神經學併發症相對常見。
 
 ## 題目
