@@ -24,8 +24,8 @@ dateRev: 2026-07-03
 ## 放射科醫師影像判讀重點
 - **辨圖法**：只見重複 α 小翻轉角、無 180° → GRE；見 90° + 180°(s) → SE/FSE。[^1][^2]
 - **GRE 物理**：無 180° 補償 → 保留 T2\*（磁化率）→ 對出血/鈣化敏感（見 [[gre-hemorrhage-detection]]）、但氣骨界面偽影多。[^2]
-- **SE/FSE 物理**：180° 重聚 → 真 T2、抗磁化率偽影；FSE echo train 長度（ETL/turbo factor）越大越快但模糊/T2 blur。[^1]
-- **翻轉角意義**：GRE 大 α → 較 T1 權重、小 α → 較 PD/T2\* 權重；SE 固定 90°/180°。[^2]
+- **SE/FSE 物理**：**180° 重聚脈衝重新聚相、抵消靜磁場不均勻造成之去相位 → 真 T2（非 T2\*）**；FSE echo train 長度（ETL/turbo factor）越大越快但模糊/T2 blur。[^1][^3]
+- **翻轉角意義**：GRE 大 α → 較 T1 權重、小 α → 較 PD/T2\* 權重；SE 固定 90°/180°。[^2][^3]
 - **應用**：GRE 用於動態/血管/SWI；FSE 用於高解析 T2（省時）。[^1][^2]
 
 ## 臨床重點（5 句）
@@ -41,7 +41,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: IMAIOS e-MRI, MRI Sequences: Gradient Echo / Fast Spin Echo（題目所引；accessed 2026-07-03）——GRE 以重複可變小翻轉角(α°)激發、無 RF 重聚、靠梯度反轉產生回訊；SE 以 90°+180° 重聚產生回訊，FSE 於同一 TR 接續多個 180° 產多回訊加速。
-[^2]: Gaillard F, et al. *Gradient echo sequences*. Radiopaedia, rID-18339, DOI 10.53347/rID-18339——GRE 與 spin-echo 之兩大差異：**用梯度場產生橫向磁化**、**翻轉角 <90°**（SE 約 90°，GRE 常 10-80°，以 α 表示）；佐證以「翻轉角 + 有無 180° 重聚」辨識序列。
+[^2]: Gaillard F, et al. *Gradient echo sequences*. Radiopaedia, rID-18339, DOI 10.53347/rID-18339（輔助來源）——GRE 與 spin-echo 之兩大差異：**用梯度場產生橫向磁化**、**翻轉角 <90°**（SE 約 90°，GRE 常 10-80°，以 α 表示）；佐證以「翻轉角 + 有無 180° 重聚」辨識序列。
+[^3]: **Tier 1** Plewes DB, Kucharczyk W. *Physics of MRI: a primer*. J Magn Reson Imaging 2012;35(5):1038-54（據 PubMed，DOI [10.1002/jmri.23642](https://doi.org/10.1002/jmri.23642)；Review；基於 ISMRM「MR Physics for Clinicians」課程；實際查證 accessed 2026-07-04）——闡述基本脈衝序列與影像對比之形成：**spin echo 以 90° 激發 + 180° 重聚脈衝重新聚相、抵消靜磁場不均勻之去相位而得真 T2（非 T2\*）；gradient echo 以梯度反轉重聚、可用 <90° 翻轉角縮短 TR 但保留 T2\* 敏感度**；並涵蓋 NMR 弛豫、Fourier transform、梯度空間編碼與 TR/TE/翻轉角對對比之影響。佐證以「有無 180° RF 重聚 + 翻轉角」辨識序列與 T2 vs T2\* 之差異。原「官方/Radiopaedia」弱來源已由本次 PubMed DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 請問下圖RF pulse給予方式屬於何種MRI sequence? (α°重複脈衝、無180度重聚) (2017-089)
