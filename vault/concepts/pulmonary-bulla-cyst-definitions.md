@@ -15,7 +15,7 @@ dateRev: 2026-07-03
 **肺大泡（bulla）定義關鍵在「壁極薄或幾乎看不見（fine/imperceptible wall，<1 mm，由一層塌陷肺組織構成）」，而非「壁厚 >1 mm」——這是最常見誤解。** 判讀分水嶺：**bulla＝薄壁（<1 mm）/無明顯壁之含氣腔（>1 cm、通常比 bleb 大、常胸膜下且好發肺尖）；bleb＝更小之胸膜下含氣腔；pulmonary cyst＝壁較明顯（~<3 mm）；pneumatocele＝深部肺實質內、多與感染/創傷相關之暫時性含氣腔。**
 
 ## Summary
-- **Bulla（肺大泡）**：由**融合、破壞擴張之氣腔（末端細支氣管遠端）**形成之含氣囊腔；**壁極薄/幾乎不可辨（<1 mm，由一層塌陷肺組成）**——並非「壁 >1 mm」。[^1][^2]
+- **Bulla（肺大泡）**：**2008 Fleischner 定義＝直徑 ≥1 cm、由「薄壁（≤1 mm）」清楚界定之含氣腔、常伴 emphysema**——並非「壁 >1 mm」。[^1][^2][^3]
 - **大小/位置**：**通常 >1 cm（2008 Fleischner）**、比 bleb 大；常**胸膜下、好發肺尖（張力最大）**、與 **paraseptal emphysema** 相關；**giant bulla＝占 ≥1/3 胸廓**、可壓迫鄰肺致塌陷。[^2]
 - **複數命名**：兩個或以上稱 **bullae**。[^1]
 - **壁的組成**：可由**肋膜（pleura）、間隔（septa）、壓縮肺組織**構成。[^1]
@@ -44,7 +44,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Dähnert W. Radiology Review Manual, 6th ed., p.434（題目所引）——bulla 為薄壁（<1 mm）/無明顯壁之含氣腔、大於 bleb；pulmonary cyst 壁薄可辨；pneumatocele 位肺實質較深處；bulla 壁可由肋膜/間隔/壓縮肺組織構成（已由下述 Radiopaedia/Fleischner 一手來源查核佐證）。
-[^2]: Weerakkody Y, et al. *Pulmonary bulla*. Radiopaedia, rID-9203, DOI 10.53347/rID-9203（引 2024/2008 Fleischner Society glossary）——bulla＝融合破壞擴張氣腔形成之含氣囊、**well-demarcated、rounded、fine smooth wall（幾乎不可辨，由一層塌陷肺組成）**；**>1 cm（2008 Fleischner）**、常胸膜下/肺尖、與 paraseptal emphysema 相關；**giant bulla ≥1/3 胸廓**、可壓迫鄰肺。
+[^2]: *Pulmonary bulla*. Radiopaedia.org, rID-9203, DOI 10.53347/rID-9203（輔助來源，引 Fleischner glossary）——bulla＝融合破壞擴張氣腔形成之含氣囊、**well-demarcated、rounded、fine smooth wall（幾乎不可辨）**；**≥1 cm**、常胸膜下/肺尖、與 paraseptal emphysema 相關；**giant bulla ≥1/3 胸廓**、可壓迫鄰肺。
+[^3]: **Tier 1** Hansell DM, Bankier AA, MacMahon H, McLoud TC, Müller NL, Remy J. *Fleischner Society: glossary of terms for thoracic imaging*. Radiology 2008;246(3):697-722（據 PubMed，DOI [10.1148/radiol.2462070712](https://doi.org/10.1148/radiol.2462070712)，實際查證 accessed 2026-07-03）——胸腔影像術語之權威定義：**bulla＝≥1 cm、薄壁 ≤1 mm 之含氣腔、常伴 emphysema**；**bleb＝臟層胸膜內或胸膜下之小氣腔（≤1 cm）**；**cyst＝圓形界清、有可辨壁（通常 <2 mm）之腔（可含氣/液/實質）**；**cavity＝實變/腫塊/結節內之含氣腔（壁通常 >2–4 mm 較厚）**；**pneumatocele＝薄壁含氣腔、多繼發於急性肺炎/創傷、暫時性**。原「官方/Radiopaedia」弱來源之定義已由本次 Fleischner 一手來源查核升級。
 
 ## 題目
 > [!question]- What a bulla isn't? (2017-278)
