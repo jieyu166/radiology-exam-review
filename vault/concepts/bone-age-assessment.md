@@ -6,32 +6,59 @@ modality: [XR]
 aliases:
   - skeletal maturity
   - Greulich-Pyle
+  - Tanner-Whitehouse
   - 骨齡評估
 dateRev: 2026-07-03
 ---
 
 # bone-age-assessment
 
-**骨齡（bone age）評估主要依據左手腕 X 光片上各骨化中心（ossification centers）的出現與否，與已知標準（如 Greulich-Pyle atlas）比對。骨化中心的出現順序與時間為判定骨骼成熟度的金標準，而非骨密度、寬長比或軟骨發育程度。**
+**骨齡（bone age）＝以左手腕 PA X 光片上「骨化中心／骨骺的出現與成熟程度」與已知年齡標準圖譜（Greulich-Pyle atlas）比對——判定依據是骨化中心「有無與成熟度」，不是骨密度、腕骨寬長比、或軟骨對皮質的發育程度。** 判讀分水嶺：**骨骼成熟是「骨化中心依可預期順序出現→增大→融合」的過程，所以「看骨化中心與標準比」才是骨齡評估的正確方法（2019-505 答案 A）。記憶鉤：左手腕、骨化中心/骨骺、對圖譜——不是量密度或比例。GP 圖譜以白人北美兒童為本，判讀須留意族群差異。**
 
 ## Summary
-- **判定依據**：各骨化中心（ossification centers）的有無，與已知標準比對。[^1]
-- **標準方法**：Greulich-Pyle atlas（左手腕 X 光與標準圖譜對照）。[^1]
-- **替代方法**：Tanner-Whitehouse method（各骨骼分別評分計算）。
-- **錯誤選項辨識**：
-  - 骨密度（radio-density）：與骨齡無直接關係
-  - 腕骨寬長比（width-length ratios）：非標準評估方式
-  - 軟骨發育對比皮質增厚：非骨齡評估方法
+- **判定依據**：左手腕各**骨化中心/骨骺的出現與成熟度**，與已知年齡標準比對。[^1][^2]
+- **標準方法**：**Greulich-Pyle（GP）atlas**——左手腕 PA 片對照標準圖譜；**基於白人北美兒童、非必然適用所有族群**。[^1][^2]
+- **替代方法**：**Tanner-Whitehouse（TW）**——對個別骨骼（橈尺骨短骨 RUS／腕骨）分別評分加總。[^3]
+- **考點辨錯**：骨密度（radio-density）、腕骨寬長比（width-length ratio）、軟骨發育對皮質增厚——**皆非**骨齡判定方法。[^1]
+
+## 放射科醫師影像判讀重點
+
+### 評估方法與判讀基礎
+- **GP atlas（最常用）**：左手腕 PA 片整體對照最接近之標準年齡圖；快速但主觀、族群校正需注意。[^1]
+- **TW 法**：逐骨評分（成熟度分期加總），較客觀但耗時。[^3]
+- **判讀基礎**：骨骼經**軟骨內骨化（endochondral，四肢/骨盆/脊椎/肋骨）與膜內骨化（intramembranous，鎖骨大部/顱蓋/顏面骨）**；**diaphysis＝初級骨化中心、epiphysis＝次級骨化中心、physis 負責縱向生長、apophysis 為附屬骨骺**；骨化中心依可預期順序出現、增大、融合，是骨齡判讀的解剖依據。[^1]
+
+### 正常變異陷阱（勿誤判）
+- **Pseudoepiphysis（假骨骺）**：手/足管狀骨對側之骨化中心，正常變異、不顯著貢獻生長。[^1]
+- **生長板波浪狀（undulation）**：勿誤為骨折；須留意額外的次級骨化中心。[^1]
+- **FOPE（focal periphyseal edema）**：接近骨骼成熟時膝關節可見、屬生理性、可伴疼痛。[^1]
+- **殘存紅骨髓島**：足部可持續至約 14 歲，MR 上勿誤為骨髓置換病變。[^1]
+
+### 骨齡異常之判讀
+- **延遲骨齡（delayed）**：**骨骼成熟度低於平均 > 2 個標準差**；以**序列左手 PA 片**評估、GP 標準比對。[^2]
+- **stippled epiphyses（點狀骨骺）DDx**：甲狀腺低下、warfarin embryopathy、chondrodysplasia punctata、multiple epiphyseal dysplasia、trisomy 21/18、產前感染、Morquio 症候群。[^2]
+- **進階骨齡（advanced）**：為對側類別（STATdx 另有 *Bone Age, Advanced* DDx 主題），常見性早熟/性荷爾蒙過量等（本檔未展開細目）。[^2]
+
+> [!note] 考點：孩童年齡（骨齡）如何判定?
+> **以各骨化中心之出現與否對照已知標準（A）**——即左手腕 X 光對 Greulich-Pyle 圖譜比對骨化中心/骨骺成熟度。骨密度(B)、腕骨寬長比(C)、軟骨對皮質發育(D) 皆非骨齡判定方法。[^1][^2]
+
+## 臨床重點（5 句）
+1. **臨床用途**：骨齡評估**骨骼成熟度與實際年齡之差距**，用於生長異常評估、身高預測、內分泌評估、脊椎側彎/矯形手術時機判斷。[^1][^2]
+2. **延遲骨齡定義與方法**：**成熟度低於平均 > 2 SD**，以序列左手 PA 片＋GP 標準判定；**constitutional delay（體質性延遲）為正常變異、屬排除性診斷**。[^2]
+3. **延遲常見病因**：**慢性疾病＋營養不良**、**皮質類固醇治療**（抑制生長）、**甲狀腺低下、生長激素缺乏/腦下垂體功能低下**。[^2]
+4. **延遲較少見病因**：**Down 症候群**（伴髂骨翼外張、髖臼頂扁平、clinodactyly）、鉛中毒（緻密幹骺線）、hypopituitarism（Kallmann/Prader-Willi、或後天放射/腫瘤如顱咽管瘤）、**性腺低下（Turner、Klinefelter）**。[^2]
+5. **方法侷限**：**GP 圖譜以白人北美兒童建立、不必然適用所有族群**——判讀須結合族群背景；序列追蹤較單張更有意義。[^1][^2]
 
 ### 參考來源
-[^1]: Bone age assessment - Radiopaedia.
+[^1]: **Tier 1** Crim J. *Bone Maturation*（Musculoskeletal, Anatomy）. STATdx, Elsevier, updated 04/29/26（7 refs；實際查證 accessed 2026-07-03）——軟骨內 vs 膜內骨化；diaphysis 初級/epiphysis 次級/physis/apophysis；骨化中心依序出現增大融合為骨齡基礎；**Greulich-Pyle atlas 用手腕、基於白人北美兒童、非普遍適用**；正常變異陷阱（pseudoepiphysis、生長板波浪、FOPE、殘存紅骨髓島）。
+[^2]: **Tier 1** Davis KW, Petersilge CA, Roberts CC. *Bone Age, Delayed*（Musculoskeletal, DDx）. STATdx, Elsevier, updated 06/14/23（實際查證 accessed 2026-07-03）——延遲骨齡＝成熟度低於平均 >2 SD、序列左手 PA 片、GP 標準；病因含 constitutional delay（排除診斷）、慢性病/營養不良、皮質類固醇、甲低、GH 缺乏/hypopituitarism、性腺低下（Turner/Klinefelter）、Down、鉛中毒；stippled epiphyses DDx（甲低/warfarin embryopathy/chondrodysplasia punctata/MED/trisomy 21/18/Morquio）。
+[^3]: *Bone age / skeletal maturity*. Radiopaedia.org（輔助來源）——骨齡兩大法：Greulich-Pyle（手腕對圖譜）與 Tanner-Whitehouse（逐骨評分 RUS/carpal）；皆用左手腕。佐證 [^1] 之 GP 方法並補 TW 法。
+
+## 題目
+> [!question]- The age of a child is judged by the ... (2019-505)
+> **(A) presence or absence of various ossification centers as compared to known standards**——骨齡以左手腕各骨化中心之出現與成熟度對照 Greulich-Pyle 標準圖譜判定；非長骨骨密度(B)、腕骨寬長比(C)、或軟骨對皮質發育(D)。[^1][^2]
 
 ## 考題
 ```dataview
-TABLE WITHOUT ID
-  file.link AS 題目,
-  answer AS 答案
-FROM "vault/cards"
-WHERE contains(concepts, [[bone-age-assessment]])
-SORT file.name ASC
+list from #交換 where contains(concepts, "bone-age-assessment")
 ```
