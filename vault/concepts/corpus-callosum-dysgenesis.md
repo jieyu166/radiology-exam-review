@@ -24,25 +24,32 @@ same:
 - **Descended tonsil（不相關）**：小腦扁桃體疝出至枕骨大孔以下＝**Chiari malformation**，**非**胼胝體發育不良之伴隨徵象。[^1]
 
 ## 放射科醫師影像判讀重點
-- **軸位 racing car**：側腦室平行分開 + colpocephaly（後角擴大）+ 尖額角——Probst bundle 的直接表現。[^2]
-- **脂肪瘤搜尋**：半球間裂 T1 高訊號（脂肪抑制掉訊號）+ 可鈣化（tubulonodular 型常伴 CC 異常）。[^1]
-- **矢狀確認**：胼胝體部分/完全缺如、cingulate sulcus 消失、腦溝放射狀達第三腦室。[^2]
-- **合併畸形**：interhemispheric cyst、灰質異位、Dandy-Walker 等；症狀多取決於合併異常。[^2]
+- **三面最佳線索（STATdx）**：**軸位＝側腦室平行 + colpocephaly；矢狀＝cingulate sulcus 消失、腦溝放射狀達第三腦室緣；冠狀＝high-riding 第三腦室 + 額角上翹呈 trident/Viking helmet/Texas Longhorn**。[^3]
+- **軸位 racing car**：側腦室平行分開 + colpocephaly（後角擴大）+ 尖額角——Probst bundle 的直接表現。[^2][^3]
+- **Probst bundle 機轉（STATdx）**：**縱走異位白質束、位於 cingulate gyrus 與側腦室間、壓迫側腦室內側壁**；T2 略低訊號（似內囊/前連合）；DTI 沿側腦室內側壁走行。[^3]
+- **脂肪瘤搜尋**：半球間裂 T1 高訊號（脂肪抑制掉訊號）+ 可鈣化（tubulonodular 型常伴 CC 異常）；**interhemispheric cyst 可分 type I（與腦室相通）/type II（不相通）**。[^1][^3]
+- **矢狀確認**：胼胝體部分/完全缺如、cingulate sulcus 消失、腦溝放射狀達第三腦室；**septum pellucidum 缺如**。[^2][^3]
+- **前連合評估（STATdx checklist）**：**完全 ACC 分型依三前腦連合（CC/前連合/海馬連合）——僅前連合存在為最常見、tricommissural agenesis（三者皆無）最少見**；CC 缺如時務必描述其他連合。[^3]
+- **血管/靜脈（STATdx）**：**ACA 及 pericallosal/callosomarginal 動脈不符正常 CC 形狀、± azygous ACA**；MRV 常見 **persistent falcine sinus**。[^3]
+- **合併畸形（STATdx）**：**皮質畸形（polymicrogyria/heterotopia/schizencephaly/lissencephaly）、interhemispheric cyst/lipoma、小腦/腦幹/眼/顏面/脊椎異常**；症狀多取決於合併異常。[^2][^3]
+- **產前（STATdx）**：**cavum septi pellucidi 缺如為最常見產前徵象**、重要間接徵象常 24 週後才顯現；color Doppler 見 ACA 不循 CC 走行。[^3]
 - **鑑別要點**：見 descended tonsil 想 Chiari（另一疾病），勿歸入 CC 發育不良。[^1]
+- **DDx（STATdx）**：**破壞型（callosotomy/外傷/早產 PVL/梗塞/代謝）、拉伸衰減型（hydrocephalus）、未成熟（新生兒 CC 本薄未髓鞘化）、前腦裂化失敗（holoprosencephaly 譜）**。[^3]
 
 ## 臨床重點（5 句）
-1. **相關徵象**：colpocephaly、interhemispheric lipoma、Probst bundle（racing car）。[^1][^2]
-2. **不相關**：descended tonsil＝Chiari。[^1]
-3. **Probst bundle**：白質縱走致側腦室平行分開。[^1][^2]
-4. **lipoma**：常併存、原始腦膜異常分化。[^1]
-5. **同一實體**：與 [[corpus-callosum-agenesis-signs]] 互參（機轉/三面徵象）。[^2]
+1. **分類（STATdx）**：**agenesis（完全缺如）/ hypogenesis（部分，五部分不全、AP 縮短）/ hypoplasia（瀰漫變薄但五部分皆在、AP 正常）**；胚胎 6 週始形成、15 週各部完成（舊「前→後發育」說已大致被取代）。[^3]
+2. **臨床表現**：**癲癇、發展遲緩、下視丘-垂體軸異常**為典型；孤立性 ACC 可無症狀；嚴重度視 CC 異常型別與合併畸形/症候群而定。[^3]
+3. **流行病學**：**最常見腦部畸形、0.5-1.8/萬活產**、多於幼兒期發現。[^3]
+4. **症候群關聯（STATdx）**：**Aicardi（女性 ACC + polymicrogyria + 半球間裂囊 + 灰質異位）、Rubinstein-Taybi/Apert/Smith-Lemli-Opitz、纖毛病（Joubert/acrocallosal/Meckel）**；關聯數百種基因/非基因症候群，孤立性僅少數。[^3]
+5. **治療/互參**：處理合併之內分泌缺損與癲癇；與 [[corpus-callosum-agenesis-signs]] 互參（機轉/三面徵象）。[^2][^3]
 
 > [!note] 考點：何種發現「非」與胼胝體發育不良相關?
 > **Descended tonsil（A）**——扁桃體下降屬 Chiari 畸形之表現，與胼胝體發育不良無關。Colpocephaly、interhemispheric lipoma、Probst bundle（致 racing car sign）皆為胼胝體發育不良之相關/伴隨徵象。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Diagnostic Imaging: Brain, 2nd ed., I(1):18-21（題目所引）——胼胝體發育不良伴隨 colpocephaly、interhemispheric lipoma（常併存）、Probst bundle（白質平行半球間裂、致 racing car sign）；descended tonsil 屬 Chiari，非相關。
-[^2]: Gaillard F, et al. *Dysgenesis of the corpus callosum*. Radiopaedia, rID-864, DOI 10.53347/rID-864——白質縱走成 **Probst bundle（racing car sign）**、colpocephaly、常合併其他中樞畸形；為與 [[corpus-callosum-agenesis-signs]] 同一實體之伴隨徵象查核來源。
+[^2]: Gaillard F, et al. *Dysgenesis of the corpus callosum*. Radiopaedia, rID-864, DOI 10.53347/rID-864（輔助來源）——白質縱走成 **Probst bundle（racing car sign）**、colpocephaly、常合併其他中樞畸形；為與 [[corpus-callosum-agenesis-signs]] 同一實體之伴隨徵象查核來源。
+[^3]: **Tier 1** Nagaraj UD. *Callosal Anomalies*（Pediatrics, Brain, Dx）. STATdx, Elsevier, updated 10/21/21（26 refs；實際查證 accessed 2026-07-04）——分類（agenesis 完全/hypogenesis 部分五部分不全 AP 縮短/hypoplasia 瀰漫變薄五部分皆在）；**三面線索（軸位側腦室平行+colpocephaly、矢狀 cingulate sulcus 消失+腦溝放射狀達第三腦室緣、冠狀 high-riding 第三腦室+額角上翹 trident/Viking helmet/Texas Longhorn）、septum pellucidum 缺如**；**Probst bundle＝縱走異位白質束於 cingulate gyrus 與側腦室間壓迫內側壁、T2 略低訊號、DTI 沿內側壁**；interhemispheric lipoma（±Ca）/cyst（type I 相通/type II 不相通）；**完全 ACC 依三前腦連合分型（僅前連合存在最常見、tricommissural agenesis 最少見）**；血管（ACA/pericallosal 不符 CC 形狀、±azygous ACA、MRV persistent falcine sinus）；胚胎 6 週始 15 週完成；產前（**cavum septi pellucidi 缺如最常見、24 週後間接徵象才顯**）；**臨床（癲癇/發展遲緩/下視丘-垂體軸異常、孤立性可無症狀、最常見腦畸形 0.5-1.8/萬活產）**；症候群（**Aicardi 女性 ACC+polymicrogyria+半球間裂囊+灰質異位**、Rubinstein-Taybi/Apert/Smith-Lemli-Opitz、纖毛病 Joubert/acrocallosal/Meckel）；DDx（破壞 callosotomy/外傷/PVL/梗塞、hydrocephalus 拉伸衰減、新生兒未成熟、holoprosencephaly 前腦裂化失敗）；治療（處理內分泌缺損/癲癇）。原「官方/題目所引」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which finding is not associated with dysgenesis of corpus callosum? (2017-260)
