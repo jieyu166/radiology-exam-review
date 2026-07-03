@@ -7,34 +7,49 @@ aliases:
   - ligament of Wrisberg
   - meniscal tear ACL
   - 半月板撕裂型態
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # meniscal-tear-patterns
 
-**Wrisberg rip撕裂發生在外側半月板後角、起源於Wrisberg韌帶附著處，這種特殊撕裂型態常與前十字韌帶(ACL)撕裂合併發生——因外側半月板後角在ACL斷裂後之膝關節不穩定狀態下承受異常應力。**
+**Wrisberg rip 撕裂發生在外側半月板後角、起源於 Wrisberg 韌帶（後 meniscofemoral 韌帶）附著處，常與前十字韌帶(ACL)撕裂合併發生——因急性 ACL 損傷時外側半月板後角承受異常剪力。** 判讀分水嶺：**看似矛盾但要並記——「整體」半月板撕裂內側:外側≈2:1（退化性以內側為主）；但「急性 ACL 損傷」時反而外側半月板撕裂較多（42–80% 合併半月板撕裂、lateral>medial）——Wrisberg rip 屬於後者情境，故與 ACL 撕裂關聯。**
 
 ## Summary
-- **Wrisberg rip定義**：外側半月板後角(posterior horn of lateral meniscus)之撕裂，起源於**Wrisberg韌帶(ligament of Wrisberg)附著處**。[^1]
-- **常見合併韌帶損傷**：Wrisberg rip型態撕裂**常與前十字韌帶(anterior cruciate ligament, ACL)撕裂合併發生**——ACL斷裂後膝關節旋轉不穩定，使外側半月板後角承受異常剪力應力，增加此型態撕裂之風險。[^1]
-- **內外側半月板撕裂比例**：半月板撕裂以**內側半月板(medial meniscus)較外側常見，比例約2:1**。[^2]
+- **Wrisberg rip 定義**：外側半月板後角(posterior horn of lateral meniscus)之撕裂，起源於 **Wrisberg 韌帶附著處**。[^1]
+- **常見合併韌帶損傷**：Wrisberg rip 型態撕裂**常與前十字韌帶(ACL)撕裂合併發生**——**ACL 損傷 42–80% 合併半月板撕裂，且急性期以「外側」較「內側」多、周邊垂直縱向(peripheral vertical-longitudinal)最常見**，故外側後角承受異常剪力而致此型撕裂。[^1][^3]
+- **內外側半月板撕裂整體比例**：整體（含退化性）半月板撕裂以**內側半月板較外側常見，約 2:1**（複雜型撕裂亦內側>外側，好發後角與體部）。[^2]
+
+## 放射科醫師影像判讀重點
+- **兩種比例要分情境（考點核心）**：**整體/退化性＝內側>外側(2:1)**；**急性 ACL 損傷＝外側>內側**——判讀 ACL 斷裂膝要主動找外側半月板後角撕裂。[^2][^3]
+- **ACL 損傷之半月板連帶**：合併半月板撕裂 42–80%，**周邊垂直縱向最常見**；另 MCL 損傷約 30%、Segond 骨折（近 100% 合併 ACL）、posterolateral corner 損傷。[^3]
+- **半月板撕裂 MR 判讀**：**短 TE 序列(T1, PD±FS)最利辨識/定性**；異常訊號需延伸至關節面才算撕裂（不接觸關節面＝退化）。[^2]
+- **複雜型撕裂**：≥2 種型態併存（最常水平＋放射狀）、可 macerated；**與骨關節炎相關、較不易自癒**，報告須註明 OA（可能改變術式為關節成形）。[^2]
+- **ACL 撕裂之次發徵象**：**uncovered lateral meniscus**（外側半月板後角後移超過脛骨後緣，特異性 100%）、pivot-shift 挫傷（後外側脛骨平台＋外側股骨髁 terminal sulcus）、Segond 骨折、deep sulcus sign。[^3]
+
+## 臨床重點（5 句）
+1. 半月板撕裂為膝痛/關節線壓痛常見病因，**MR 為最佳影像工具**；型態（水平/放射狀/垂直縱向/複雜/桶柄狀）影響手術決策。[^2]
+2. **ACL 為最常斷裂之膝韌帶**（美國每年 >10 萬例，女:男 2.4–9.7:1），機轉多為固定足旋轉扭傷（籃球/足球/滑雪），常「pop」聲＋不穩/腫脹。[^3]
+3. **所有 ACL 撕裂皆增加半月板撕裂與年輕型骨關節炎風險**、再斷裂常見；重建成功率 75–95%。[^3]
+4. Wrisberg rip 等外側後角撕裂於 ACL 損傷情境須留意，因影響半月板修補與膝穩定策略。[^1][^3]
+5. 判讀時把「整體內側 2:1、急性 ACL 情境外側為主、Wrisberg rip＝外側後角＋ACL、撕裂須接觸關節面」記牢，避免比例情境誤判。[^2][^3]
 
 > [!note] 考點：Wrisberg rip撕裂常合併哪種韌帶損傷？
-> **前十字韌帶(ACL)撕裂（A）**——ACL斷裂後之膝關節不穩定使外側半月板後角承受異常應力，增加Wrisberg rip型態撕裂之風險。[^1]
+> **前十字韌帶(ACL)撕裂（A）**——急性 ACL 損傷合併半月板撕裂達 42–80% 且以外側較多，外側半月板後角承受異常應力，增加 Wrisberg rip 型撕裂之風險。[^1][^3]
 
 > [!note] 考點：半月板撕裂哪一側較常見？
-> **內側（Medial）約2:1（A）**——內側半月板較外側半月板更常撕裂。[^2]
+> **內側（Medial）約 2:1（A）**——「整體」半月板撕裂內側較外側常見（複雜型亦內側>外側）。惟須注意「急性 ACL 損傷」情境反而外側較多。[^2][^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Meniscal Tears Scanned, Scooped, and Sculpted. RadioGraphics 2015; 35:1138-1139（題目所引）——Wrisberg rip撕裂為外側半月板後角起源於Wrisberg韌帶附著處之撕裂型態，常與ACL撕裂合併發生。
-[^2]: 官方2020詳解；Ref: Musculoskeletal Imaging: The Requisites, 3rd ed, p232（題目所引）——半月板撕裂內側較外側常見，比例約2:1。
+[^1]: 官方2020詳解；Ref: Meniscal Tears Scanned, Scooped, and Sculpted. RadioGraphics 2015;35:1138-1139（題目所引）——Wrisberg rip 撕裂為外側半月板後角起源於 Wrisberg 韌帶附著處之撕裂型態，常與 ACL 撕裂合併發生。
+[^2]: **Tier 1** *Complex Meniscus Tear*（Musculoskeletal, Dx；Davis KW 等，updated 2026-03-17）. STATdx（實際查證 accessed 2026-07-03）：**半月板撕裂 medial > lateral、好發後角與體部**；複雜型＝≥2 型態併存（最常水平＋放射狀）、與 OA 相關、較不易自癒；短 TE(T1/PD±FS)最利辨識、須延伸至關節面。原「官方 2020 詳解（題目所引，Requisites 2:1）」弱來源由本 Tier 1 佐證升級。
+[^3]: **Tier 1** *Anterior Cruciate Ligament Injury*（Musculoskeletal, Dx；Flores DV 等，updated 2026-03-17）. STATdx（實際查證 accessed 2026-07-03）：**ACL 損傷合併半月板撕裂 42–80%、周邊垂直縱向最常見、lateral > medial**（急性情境）；MCL 30%、Segond（近 100% 合併 ACL）、posterolateral corner；次發徵象 uncovered lateral meniscus（特異 100%）、pivot-shift 挫傷、deep sulcus sign；ACL 為最常斷裂膝韌帶、重建成功率 75–95%。此 Tier 1 佐證 Wrisberg rip（外側後角）↔ACL 之機轉，並釐清「整體 2:1 內側 vs 急性 ACL 外側」情境差異。
 
 ## 題目
 > [!question]- Wrisberg rip tear of the posterior horn of lateral meniscus originates at the attachment of the ligament of Wrisberg. This pattern is commonly associated with what kind of the following ligamentous injury? (2020-294)
-> **Anterior cruciate ligament (ACL) tears（A）**——ACL斷裂後之膝關節不穩定使外側半月板後角承受異常應力，增加Wrisberg rip型態撕裂之風險。[^1]
+> **Anterior cruciate ligament (ACL) tears（A）**——急性 ACL 損傷合併半月板撕裂達 42–80% 且以外側為主，外側半月板後角承受異常應力，增加 Wrisberg rip 型撕裂之風險。[^1][^3]
 
 > [!question]- Which side is more common in meniscal tear? (2020-404)
-> **Medial by a ratio of 2 to 1（A）**——內側半月板較外側常見撕裂，比例約2:1。[^2]
+> **Medial by a ratio of 2 to 1（A）**——整體半月板撕裂內側較外側常見（惟急性 ACL 情境外側為主）。[^2][^3]
 
 ## 考題
 ```dataview
