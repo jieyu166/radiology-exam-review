@@ -1,8 +1,10 @@
 ---
+concepts: [ovarian-mature-cystic-teratoma]
 tags: [radiology-concept, GU]
 aliases: [dermoid cyst, mature cystic teratoma]
 dateCreated: 2026-07-02
 dateRev: 2026-07-02
+see: "[[ovarian-lesion-t2-signal]]"
 ---
 
 **卵巢成熟囊性畸胎瘤（Ovarian mature cystic teratoma / dermoid cyst）**——含脂肪腫塊，T1WI 高訊號（脂肪）、CT 可見壁鈣化與脂肪-液面（fat-fluid level）；T2WI "shading" 為**子宮內膜異位瘤（endometrioma）**特徵而非畸胎瘤。[^1]
@@ -21,8 +23,5 @@ dateRev: 2026-07-02
 
 ## 考題
 ```dataview
-TABLE WITHOUT ID
-  file.link AS "概念",
-  dateRev AS "更新"
-WHERE contains(file.name, "ovarian-mature-cystic-teratoma")
+list from #交換 where contains(concepts, "ovarian-mature-cystic-teratoma")
 ```
