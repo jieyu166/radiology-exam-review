@@ -24,22 +24,26 @@ dateRev: 2026-07-03
 - **Bochdalek**：新生兒左後外側缺損 + 胸內腸/胃泡、縱膈右移、患側肺發育不全——預後與肺發育/肺高壓相關。[^2]
 - **Morgagni**：前方心膈角腫塊/含氣結構（右側多），常為年長兒/成人偶然發現；內含脂肪/橫結腸。[^1]
 - **前 vs 後定位**：側位/CT 分辨前（Morgagni）vs 後（Bochdalek）缺損。[^1][^2]
-- **合併評估**：找 CNS 異常（神經管缺損/水腦）、心臟異常、染色體異常。[^1]
-- **陷阱**：勿把 Morgagni 記成後方/左側；它是前方、右側為主。[^1]
+- **胎兒判讀（STATdx）**：**intrathoracic peristalsis（胸內腸蠕動）為 pathognomonic**；左 CDH 胃入胸＋心臟右移（dextroposition）、**up to 85% liver up（左葉疝至心旁、胃後移，Doppler 找 portal/hepatic vein）**；右 CDH（含肝±膽囊±腸、心左移）易誤為實質胸內腫塊；bilateral 見胸內胃但縱膈少移位。[^3]
+- **預後指標（核心）**：**LHR（<1.0 高死亡、1.0-1.4 常需 ECMO、>1.4 較佳）、O:E LHR（<25% 存活 12-30%、>35% 65-88%）、MR O:E TFLV（<25% ↑死亡/ECMO/CLD）、liver herniation（liver up 為獨立不良因子、>20% LH 更差）、胃位置越後外越差**。[^3]
+- **合併評估（40-50%）**：**心臟異常 35%（必做胎兒心臟超音波）、CNS 10%、染色體異常 16-37%（trisomy 18/13/21）**；hernia sac（10-15%）預後較佳；所有 CDH 應提供基因檢測。[^1][^3]
+- **鑑別（DDx）**：**CPAM（macrocystic 可擬胃/腸、無胸內蠕動、Doppler 見肺動脈供血、橫膈完整胃在下）**、bronchogenic/duplication/neurenteric cyst、teratoma（鈣化）。[^3]
+- **陷阱**：勿把 Morgagni 記成後方/左側（實為前方、右側為主）；斜軸位 US 可造成 pseudo-CDH 偽陽性。[^1][^3]
 
 ## 臨床重點（5 句）
 1. **Bochdalek**：後外側、左、最常見。[^1][^2]
 2. **Morgagni**：前方、右為主、少見。[^1]
 3. **左側 84%**（CDH 整體）。[^2]
 4. **內容物**：Morgagni 多大網膜脂肪（橫結腸/胃亦可）。[^1]
-5. **合併**：~10% CNS 異常（神經管/水腦）。[^1]
+5. **合併與治療**：合併異常 40-50%（心 35%/CNS 10%/染色體 16-37%）；**肺發育不全＋肺高壓/持續胎兒循環為主要死因**；治療需**三級中心分娩、產前類固醇、iNO/HFOV/surfactant、必要時 ECMO/EXIT-to-ECMO**；中重度（O:E LHR <45%）可考慮 **FETO（胎兒鏡氣管內球囊阻塞）**促肺成熟、34 週前需移除。[^1][^3]
 
 > [!note] 考點：關於先天性橫膈疝氣(CDH)，何者「為偽」?
 > **C 為偽**——Morgagni hernia 為**前方**（非後方）橫膈缺損，好發**右側**（約 90%）。Bochdalek 為左後外側且最常見型態、CDH 可合併 CNS 異常（神經管缺損/水腦症）皆為真。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Primer of Diagnostic Imaging, 5th ed., pp.580-581（題目所引）——Bochdalek 為左後外側缺損最常見；Morgagni 為前方缺損好發右側(~90%)、體積小、少見(~2%)、疝出風險低，內容物最常大網膜脂肪但橫結腸(60%)/胃(12%)亦可；CDH 可合併 CNS 異常(~10% 非症候群，最常神經管缺損/水腦)。
-[^2]: Gaillard F, et al. *Congenital diaphragmatic hernia*. Radiopaedia, rID-1161, DOI 10.53347/rID-1161——CDH 約 1/2000-4000、**84% 左/13% 右/2% 雙側**；**Bochdalek＝最常見、posterolateral、左 75-90%**；**Morgagni＝anterior**——佐證前/後定位與側別。
+[^2]: *Congenital diaphragmatic hernia*. Radiopaedia.org, rID-1161, DOI 10.53347/rID-1161（輔助來源）——CDH 約 1/2000-4000、**84% 左/13% 右/2% 雙側**；**Bochdalek＝最常見、posterolateral、左 75-90%**；**Morgagni＝anterior**——佐證前/後定位與側別。
+[^3]: **Tier 1** Edwards E. *Congenital Diaphragmatic Hernia*（Obstetrics, Dx）. STATdx, Elsevier, updated 06/10/25（15 refs；實際查證 accessed 2026-07-03）——Bochdalek 後外側最常見、Morgagni 前內側多右側；左 CDH 85%（胃入胸、心右移、liver up 85%）、右 13%、雙側 2%；**intrathoracic peristalsis pathognomonic**；**預後指標 LHR（<1.0 高死亡）、O:E LHR（<25% 存活 12-30%）、MR O:E TFLV（<25% ↑死亡/ECMO/CLD）、liver herniation（>20% 更差、liver up 獨立不良）、胃位置**；hernia sac 10-15% 較佳；合併異常 40-50%（心 35%、CNS 10%、染色體 16-37% trisomy 18/13/21、syndrome 5-10%）；胚胎＝pleuroperitoneal 膜融合失敗；肺發育不全＋肺高壓；DDx（CPAM 無蠕動/肺動脈供血、bronchogenic/duplication/neurenteric cyst、teratoma 鈣化）；治療（三級分娩、antenatal steroid、iNO/HFOV/surfactant、ECMO/EXIT、FETO for O:E LHR <45%）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which following description about Congenital diaphragmatic hernia (CDH) is not true (2017-321)
