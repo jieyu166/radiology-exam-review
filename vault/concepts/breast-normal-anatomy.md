@@ -7,7 +7,7 @@ aliases:
   - Cooper ligaments
   - breast lobes
   - 乳房正常解剖
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # breast-normal-anatomy
@@ -15,7 +15,7 @@ dateRev: 2026-07-01
 **乳房由15-25個腺葉組成（不是常被誤記的5-10個），各自匯入獨立主乳管終於乳頭；Cooper氏韌帶為深真皮延伸入乳房組織的纖維支持結構；小葉（由終末導管與腺泡組成）才是功能單位。**
 
 ## Summary
-- **腺葉數目**：乳房由**15-25個腺葉(lobes)**組成，各自匯入獨立主乳管終於乳頭——**常見誤植為5-10個，須留意**。[^1]
+- **腺葉數目**：乳房由**約 15-20 個腺葉(lobes)**組成（文獻分歧：Bassett 教材 15-25、Radiopaedia 14-18），各自匯入獨立主乳管終於乳頭——**常見誤植為5-10個為錯，須留意**；各 lobe→數個 lobule→數個 acinus。[^1][^2]
 - **Cooper氏韌帶**：深真皮延伸入乳房組織之纖維束，稱為suspensory ligaments of Cooper，提供乳房結構支持。[^1]
 - **功能單位**：**小葉(lobule)**為乳房之功能單位，組織學上由終末導管(terminal duct)與腺泡(acini)組成（terminal duct lobular unit, TDLU）。[^1]
 - **組織組成之臨床意義**：乳房組織組成（緻密度）與乳房攝影偵測病灶之能力（敏感度）密切相關——緻密乳房降低乳攝敏感度。[^1]
@@ -25,6 +25,7 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: 官方2016詳解；Breast Imaging (Bassett LW et al.), p.224-226（題目所引）——乳房由15-25個腺葉組成（非5-10個）各自匯入獨立主乳管終於乳頭；Cooper氏韌帶定義；小葉為功能單位（終末導管+腺泡）；組織組成與乳攝偵測敏感度關聯。
+[^2]: Bell D, et al. *Breast*. Radiopaedia, rID-25714, DOI 10.53347/rID-25714——乳房為 apocrine 腺、主要由脂肪與腺體組成，**成人乳房約 14-18 個 lactiferous lobes、各 lobe 由數個 lobule、各 lobule 由數個 acinus 組成、匯入分支導管收斂至單一主乳管**；Cooper's ligaments 為結締組織支持——佐證腺葉數遠多於「5-10」（文獻分歧 14-18 至 15-25）。
 
 ## 題目
 > [!question]- Which is the "wrong" statement of normal breast anatomy? (2016-276)
