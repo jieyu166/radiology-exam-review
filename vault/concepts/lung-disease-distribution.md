@@ -6,7 +6,7 @@ aliases:
   - lung zonal distribution
   - upper vs lower zone lung disease
   - 肺病分布
-dateRev: 2026-06-19
+dateRev: 2026-07-03
 ---
 
 # lung-disease-distribution
@@ -16,13 +16,14 @@ dateRev: 2026-06-19
 ## Summary
 - **上肺為主**：sarcoidosis、**silicosis、CWP（塵肺）**、PLCH、TB、AS、CF。[^1]
 - **下肺/周邊為主**：**asbestosis（周邊下肺）**、IPF/UIP、DIP、吸入性。[^1]
-- 故 **asbestosis 為下肺周邊**（非上肺）;sarcoidosis/silicosis/CWP 為上肺。[^1]
+- 故 **asbestosis 為下肺周邊**（非上肺）;sarcoidosis/silicosis/CWP 為上肺。[^1][^2]
 
 > [!note] 考點：關於肺病分布,何者「錯誤」?
 > 「**Asbestosis 上肺為主**」錯誤——asbestosis 為**下肺周邊**。sarcoidosis、silicosis、CWP 上肺為主皆正確。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Primer of Diagnostic Imaging 5th ed., p.31-33,65：上肺＝sarcoidosis/silicosis/CWP;下肺周邊＝asbestosis/IPF。
+[^2]: Gaillard F, et al. *Asbestosis*. Radiopaedia, rID-5017, DOI 10.53347/rID-5017——石綿纖維吸入相關之纖維化肺病，**纖維化為下肺葉（lower lobe）為主、可進展**，肺癌風險增加，胸膜斑塊表現不定——佐證 asbestosis 屬下肺分布（非上肺）。
 
 ## 題目
 > [!question]- 關於肺病在肺內的分布,何者「錯誤」? (2017-159)

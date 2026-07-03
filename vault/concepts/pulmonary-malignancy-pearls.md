@@ -7,7 +7,7 @@ aliases:
   - carcinoid calcification
   - Hodgkin pulmonary
   - 肺惡性腫瘤要點
-dateRev: 2026-06-19
+dateRev: 2026-07-03
 ---
 
 # pulmonary-malignancy-pearls
@@ -16,7 +16,7 @@ dateRev: 2026-06-19
 
 ## Summary
 - **肺癌病人的腎上腺腫塊**：約 **2/3 為良性**（腺瘤），不可逕判轉移。[^1]
-- **Typical carcinoid 鈣化**：**少見**（約 20-30%，central pattern 約 40%）——故「大多顯鈣化」錯誤。[^1]
+- **Typical carcinoid 鈣化**：**少見**（約 20-30%，central pattern 約 40%）——故「大多顯鈣化」錯誤;肺類癌多為**中央支氣管型（~75%、最常見）、typical 佔 ~90%**。[^1][^2]
 - **NHL 胸水**：多因**中央淋巴管阻塞**。[^1]
 - **Hodgkin 肺侵犯**：多為**沿支氣管血管束的 ill-defined 結節**。[^1]
 
@@ -25,6 +25,7 @@ dateRev: 2026-06-19
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Thoracic Radiology: The Requisites 2nd ed., p.268-277：肺癌病人腎上腺腫塊 2/3 良性;typical carcinoid 鈣化約 20-30%;NHL 胸水源自中央淋巴阻塞;Hodgkin 沿支氣管血管束。
+[^2]: Gaillard F, et al. *Carcinoid tumors of the lung*. Radiopaedia, rID-22431, DOI 10.53347/rID-22431——肺神經內分泌腫瘤、分級低於小細胞/大細胞神經內分泌癌；**支氣管型為中央病灶（最常見 ~75%）、周邊型 16–40%；typical carcinoid ~90%（低度/分化良好）、atypical 較侵襲**——佐證中央支氣管好發（鈣化少見之型態背景）。
 
 ## 題目
 > [!question]- 關於肺惡性腫瘤,何者「不」正確? (2017-154)
