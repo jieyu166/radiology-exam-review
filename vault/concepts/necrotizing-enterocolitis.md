@@ -9,41 +9,65 @@ aliases:
   - pneumatosis intestinalis newborn
   - thumbprinting neonate
   - 壞死性腸炎
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # necrotizing-enterocolitis
 
-**壞死性腸炎(NEC)是早產兒最常見的腸胃道急症，好發於終端迴腸；影像徵象依嚴重度分層：腸壁積氣→門靜脈氣體→氣腹（代表重度疾病），portal venous gas是新生兒期最常聯想到NEC的關鍵徵象。新生兒腹脹＋膽汁性嘔吐＋血便，CT/X光見腸壁積氣(pneumatosis intestinalis)＋thumbprinting——這組合直接鎖定NEC，是新生兒腹部影像急症的招牌組合。**
+**壞死性腸炎（NEC）是早產兒最常見、危及生命的腸胃道急症，好發右下腹（升結腸/終端迴腸）；影像以「連續 X 光」為主力，徵象由非特異（腸氣稀少/多邊形氣型消失）→ 提示（不對稱擴張、固定腸環、腸環分離）→ 診斷性（腸壁積氣 pneumatosis 50–75%、門靜脈氣體 PVG、氣腹）逐級升高。新生兒腹脹＋餵食不耐/血便＋腸壁積氣＋thumbprinting ＝ NEC 的招牌組合。** 判讀分水嶺：**①嚴重度階梯 pneumatosis → PVG → 氣腹（穿孔）；②PVG 分布在肝「周邊」（膽道氣則中央、新生兒罕見）；③US 對「surgical NEC（腸壞死）」敏感度可達 100%——血流下降＝缺血、複雜積液＝穿孔；④NEC 因沾黏，腹腔游離氣可能被包裹（loculated），要加左側躺/水平側射片。記憶鉤：X 光看階梯、Duke 分數評嚴重度、US 抓缺血穿孔。**
 
 ## Summary
-- **流行病學**：**NEC為早產兒最常見的腸胃道疾病**；雖可影響大小腸任何部位，最常見位置為**終端迴腸(terminal ileum)**，右側結腸（含盲腸）偶爾受累。[^1]
-- **臨床表現**：新生兒（常為早產兒或病重新生兒）出現**腹脹(abdominal distention)**、**膽汁性嘔吐(bilious emesis)**、**血絲便(blood streaked stools)**。[^2]
-- **影像徵象（依嚴重度分層）**：
-  - 腸擴張（常呈不對稱分布）、正常多邊形氣體形狀消失
-  - 腸壁水腫伴thumbprinting
-  - **腸壁積氣(pneumatosis intestinalis)**
-  - **門靜脈氣體(portal venous gas)**——新生兒期出現此徵象需高度懷疑NEC
-  - **氣腹(pneumoperitoneum)**——代表重度疾病（穿孔）[^1]
-- **影像特徵（招牌組合）**：小腸與結腸擴張、**腸壁增厚合併thumbprinting**（黏膜下水腫/出血所致）、**腸壁積氣(pneumatosis intestinalis)**——為NEC之特徵性徵象組合；嚴重時可見**門脈氣體(portal venous gas)**、腸穿孔游離氣體。[^2]
-- **鑑別診斷**：Hirschsprung disease好發便秘而非血便；家族性腺瘤性息肉症候群與Peutz-Jeghers syndrome為兒童/青少年息肉症候群，非新生兒急症表現；腸套疊雖可有血便，但通常不合併廣泛腸壁積氣。[^2]
+- **流行病學**：**早產兒最常見腸胃道急症**；**90% 發生於早產 VLBW（<1500g）/<32 週**、多在出生後 2–3 週；**足月僅 10%（常伴先天心臟病等，發病較早）**；整體發生率約 1/1000 活產。[^3]
+- **好發位置**：**右下腹（升結腸、終端迴腸）**，但可及胃到直腸任一處。[^3]
+- **臨床**：餵食不耐（嘔吐、胃殘留增加、血便）、腹脹/變色、呼吸暫停/心搏過緩；**1/3 猛暴穿孔、1/3 敗血性休克**。[^3]
+- **影像嚴重度階梯**：非特異（腸氣稀少/多邊形氣型消失）→ 提示（不對稱擴張、固定腸環、腸環分離）→ **診斷性（pneumatosis 50–75%、PVG、氣腹）**。[^1][^3]
+- **Duke Abdominal Assessment Scale（0–10）**：標準化 X 光報告詞彙，**9 ＝ PVG、10 ＝ 氣腹**，分數越高越需手術。[^3]
 
-> [!note] 考點：Air in the portal vein在新生兒時期,常因何疾病引起?
-> **Necrotizing enterocolitis（C）**——NEC為早產兒最常見腸胃道疾病，portal venous gas為其重要影像徵象，代表病程嚴重。[^1]
+## 放射科醫師影像判讀重點
 
-> [!note] 考點
-> 新生兒腹脹＋膽汁性嘔吐＋血便＋CT見腸壁增厚thumbprinting＋腸壁積氣，最可能診斷為**necrotizing enterocolitis**。[^2]
+### X 光（主力）與 Duke 分數
+- **非特異**：腸氣稀少、正常多邊形腸氣型消失。**提示**：不對稱腸擴張、連續片上「固定/未展開」腸環、腸環分離（腸壁水腫出血或間隔積液）。[^3]
+- **診斷性**：**pneumatosis（50–75%）**＝bubbly（黏膜下）或 curvilinear（漿膜下）透亮（勿與糞便混淆）；**PVG ＝肝上分支狀透亮、較膽道氣更向周邊延伸**；**氣腹徵象**＝football sign（鐮狀韌帶）、cupola sign（中線橫膈下）、Rigler sign（腸壁雙側顯影）。[^3]
+- **Duke Abdominal Assessment Scale 0–10**：0 正常→8 pneumatosis→9 PVG→10 氣腹，intra/interobserver 一致性高、分數高強烈相關手術需求。[^3]
+- **包裹性游離氣**：NEC 常伴沾黏，游離氣可能不「自由」上升，**強烈建議加左側躺（LLD）或水平側射片**找腹腔氣。[^3]
+
+### 超音波（偵測 surgical NEC 之利器）
+- **對腸壞死/"surgical NEC" 敏感度可達 100%、特異度 95%**；**彩色都卜勒血流早期增加 → 後期下降＝缺血（恐壞死/穿孔）**；SMA peak systolic velocity/RI 上升。[^3]
+- pneumatosis＝腸壁環周結節狀高回音 ± 後方 dirty shadowing；PVG＝肝周邊分支/點狀高回音（即時可見沿門脈流動）；**複雜積液＝穿孔**。[^3]
+
+### 其他模態
+- **CT 非常規**（可見腸壁增厚±強化增減、pneumatosis/PVG/氣腹/腹水）。**急性期禁做鋇/顯影劑灌腸**；灌腸僅用於治療後 4–8 週之狹窄評估（放射發現多左側、手術發現多右結腸）。[^3]
+
+### 鑑別診斷
+- **新生兒腸阻塞**（閉鎖/胎便性腸阻塞）：出生後 1–3 天即發病、膽汁性嘔吐/未解胎便。[^3]
+- **新生兒自發性腸穿孔（SIP）**：**通常無 pneumatosis/PVG、壞死為局部**。[^3]
+- **足月兒腸炎**：牛奶過敏、發紺性心臟病、母親古柯鹼、Hirschsprung（尤其全結腸型）。[^3]
+- **良性 pneumatosis**（年長兒、骨髓移植/類固醇）、CPAP/面罩通氣致非特異腸脹氣。[^3]
+
+> [!note] 考點：Air in the portal vein 在新生兒時期，常因何疾病引起?
+> **Necrotizing enterocolitis（NEC）**——NEC 為早產兒最常見腸胃道急症，portal venous gas 為其重要影像徵象（Duke 分數 9），代表病程嚴重。[^1][^3]
+
+> [!note] 考點：6 天新生兒腹脹＋膽汁性嘔吐＋血便，CT 見小腸結腸擴張、腸壁增厚 thumbprinting、pneumatosis intestinalis，最可能診斷?
+> **Necrotizing enterocolitis**——腸壁積氣＋thumbprinting 為 NEC 特徵組合。Hirschsprung 好發便秘、FAP/Peutz-Jeghers 為息肉症候群、腸套疊通常無廣泛腸壁積氣。[^2][^3]
+
+## 臨床重點（5 句）
+1. **流行病學**：新生兒最常見腸胃道急症；**90% 為早產 VLBW（<1500g）/<32 週、出生後 2–3 週發病**；足月佔 10%（發病更早、常伴先天心臟病）；發生率約 1/1000 活產。[^3]
+2. **病因（多因子）**：早產腸道不成熟、餵食停滯（**配方奶發生率為母乳 2 倍**）、腸道菌叢不全、缺氧缺血、**輸血（早產貧血情境）**。[^3]
+3. **臨床表現**：餵食不耐（嘔吐、胃殘留增加、血便）、腹脹/變色/發亮、呼吸暫停心搏過緩、體溫不穩；**1/3 猛暴穿孔、1/3 敗血性休克**。[^3]
+4. **治療**：疑似時**禁食＋靜脈營養＋抗生素 ± 手術**（**穿孔為絕對手術指徵**，臨床惡化/腸壞死亦是）；**益生菌可降低 VLBW 之 NEC 發生與死亡**。[^3]
+5. **預後**：**整體死亡率 10–50%**（死於穿孔敗血）；存活者 **10–20% 延遲性腸狹窄**、短腸症、神經發育遲緩。[^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Radiology Review Manual, 7th ed.（題目所引）——NEC為早產兒最常見腸胃道疾病，好發終端迴腸；影像徵象含腸擴張(不對稱)、腸壁水腫thumbprinting、腸壁積氣、門靜脈氣體、氣腹（代表重度疾病）。
-[^2]: *Radiology Review Manual*, 6th edition, p.861（2018 交換考題詳解 p.143 引用；Tier 2 教科書）。NEC典型表現為新生兒腹脹/膽汁性嘔吐/血便，CT見小腸結腸擴張、腸壁增厚thumbprinting、腸壁積氣。
+[^1]: 官方 2020 詳解（題目所引，Radiology Review Manual, 7th ed.）——NEC 為早產兒最常見腸胃道疾病、好發終端迴腸；影像含腸擴張（不對稱）、腸壁水腫 thumbprinting、腸壁積氣、門靜脈氣體、氣腹（重度）。與 [^3] STATdx 一致。
+[^2]: *Radiology Review Manual*, 6th ed., p.861（2018 交換考詳解引用；Tier 2 教科書）——NEC 典型為新生兒腹脹/膽汁性嘔吐/血便，CT 見小腸結腸擴張、腸壁增厚 thumbprinting、腸壁積氣。
+[^3]: **Tier 1** Baskin H. *Necrotizing Enterocolitis*（Pediatrics, Dx）. STATdx, Elsevier, updated 12/15/21（24 refs；實際查證 accessed 2026-07-03）——X 光為主力、徵象非特異→提示→診斷性（pneumatosis 50–75%、PVG 較膽道氣更周邊、氣腹 football/cupola/Rigler sign）；**Duke Abdominal Assessment Scale 0–10（9=PVG、10=氣腹）**；US 對 surgical NEC 敏 100%/特 95%、血流下降＝缺血、複雜積液＝穿孔；好發右下腹（升結腸/終端迴腸）；90% 早產 VLBW<1500g/<32 週、2–3 週發病、足月 10%（早發、CHD）；病因多因子（配方奶 2 倍、輸血、菌叢、缺氧缺血）；死亡率 10–50%、狹窄 10–20%、益生菌可降；DDx（新生兒腸阻塞、SIP 無 pneumatosis/PVG、足月兒腸炎、良性 pneumatosis）。原「官方/教科書」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
-> [!question]- Air in the portal vein在新生兒時期,常因何疾病引起? (2020-197)
-> **Necrotizing enterocolitis（C）**——NEC為早產兒最常見腸胃道疾病，portal venous gas為其重要影像徵象。[^1]
+> [!question]- Air in the portal vein 在新生兒時期，常因何疾病引起? (2020-197)
+> **Necrotizing enterocolitis**——NEC 為早產兒最常見腸胃道急症，portal venous gas 為其重要影像徵象。[^1][^3]
 
-> [!question]- A 6-day newborn presents with abdominal distention, bilous emesis and blood streaked stools. CT scan shows small bowel and colon distention, bowel wall thickening and "thumbprinting", pneumatosis intestinalis also noted, what's the most likely diagnosis? (2018-252)
-> **Necrotizing enterocolitis（D）**——腸壁積氣＋thumbprinting為NEC特徵性組合。Hirschsprung disease(A)好發便秘、FAP(B)/Peutz-Jeghers(E)為息肉症候群、腸套疊(C)通常無廣泛腸壁積氣。[^2]
+> [!question]- A 6-day newborn presents with abdominal distention, bilious emesis and blood streaked stools. CT shows small bowel and colon distention, bowel wall thickening and "thumbprinting", pneumatosis intestinalis also noted. Most likely diagnosis? (2018-252)
+> **Necrotizing enterocolitis**——腸壁積氣＋thumbprinting 為 NEC 特徵性組合。Hirschsprung 好發便秘、FAP/Peutz-Jeghers 為息肉症候群、腸套疊通常無廣泛腸壁積氣。[^2][^3]
 
 ## 考題
 ```dataview
