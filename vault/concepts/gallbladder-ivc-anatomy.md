@@ -5,29 +5,46 @@ subspecialty: [US, ABD]
 aliases:
   - gallbladder anatomy ultrasound
   - main lobar fissure
+  - Cantlie line
   - IVC-gallbladder line
   - 膽囊與下腔靜脈解剖關係
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # gallbladder-ivc-anatomy
 
-**超音波掃描平面上，膽囊(gallbladder)與下腔靜脈(IVC)之間存在解剖對應關係——連接兩者的假想線即為肝臟『主葉裂(main lobar fissure)』，用以區分肝左右葉;在特定切面上，膽囊窩可呈現位於肝臟後方、IVC前方的無回音構造。** 判讀分水嶺：**主葉裂連接膽囊窩與IVC/中肝靜脈，是超音波辨識肝右葉與肝左葉分界的關鍵標誌;某些右肋緣下斜切面可見膽囊呈現在肝臟與IVC之間的位置關係，與門靜脈主幹、右肝靜脈、腸繫膜上靜脈等血管構造需加以區分。**
+**超音波上連接膽囊窩與下腔靜脈（IVC）的假想線＝肝臟『主葉裂（main lobar fissure；Cantlie line）』，內含中肝靜脈（MHV），是區分肝右葉與左葉的關鍵標誌；某些切面膽囊呈位於肝臟後方、IVC 前方的無回音構造。** 判讀分水嶺：**main lobar fissure 連接膽囊窩與 IVC/中肝靜脈、分肝左右葉；US 上為膽囊頸/窩至右門靜脈之高回音線；膽囊-IVC-主葉裂之空間關係需與 main portal vein、right hepatic vein、SMV 區分。**
 
 ## Summary
-- **主葉裂（main lobar fissure）**：連接**膽囊窩**與**下腔靜脈（IVC）／中肝靜脈**的假想解剖線，是超音波上區分**肝右葉與肝左葉**的重要標誌。[^1]
-- **膽囊與IVC的空間關係**：在特定掃描切面（如右肋緣下斜切）可見**膽囊呈現於肝臟實質後方、IVC前方**的無回音（anechoic）構造位置關係——此為訓練考題常用來測試對膽囊-IVC-主葉裂解剖關係理解的經典描述。[^1]
-- **鑑別其他構造**：main portal vein、right hepatic vein、superior mesenteric vein 皆為此區域可能混淆的血管構造，但均非本題描述的空間關係。[^1]
+- **主葉裂（main lobar fissure / Cantlie line）**：連接**膽囊窩**與**IVC**之假想解剖線，**內含中肝靜脈（MHV）**，將肝分為**右葉與左葉（right/left hemiliver）**。[^1][^2]
+- **膽囊與 IVC 空間關係**：特定切面（右肋緣下斜切）可見**膽囊呈於肝臟後方、IVC 前方**之無回音（anechoic）構造。[^1]
+- **US 標誌**：膽囊頸/窩至右門靜脈之**高回音線（main lobar fissure）**為肝左右葉分界之超音波標誌。[^1]
+- **鑑別**：main portal vein、right hepatic vein、SMV 為此區可能混淆之血管，但位置關係不同。[^1]
+
+## 放射科醫師影像判讀重點
+- **找分界線**：US 見膽囊窩延伸至右門靜脈之高回音 main lobar fissure → 定右/左葉。[^1][^2]
+- **MHV 在裂內**：CT/MRI 上中肝靜脈走主葉裂，是肝切除（右/左肝）之解剖界標。[^2]
+- **膽囊定位**：膽囊沿主葉裂位於臟面；無回音、後方增強、隨體位移動可與血管區分。[^1]
+- **血管鑑別**：門靜脈有回音壁、都卜勒有血流；膽囊無血流、內可有結石/膽泥。[^1]
+- **陷阱**：勿把 IVC 前方之膽囊誤為血管；用都卜勒與位置關係確認。[^1]
+
+## 臨床重點（5 句）
+1. **主葉裂**：連膽囊窩與 IVC、含 MHV、分肝左右葉。[^1][^2]
+2. **US 標誌**：膽囊窩至右門靜脈之高回音線。[^1]
+3. **膽囊位置**：肝後、IVC 前之無回音構造。[^1]
+4. **MHV**：走主葉裂，肝切除界標。[^2]
+5. **鑑別**：與門靜脈/肝靜脈/SMV 以都卜勒與位置區分。[^1]
 
 > [!note] 考點：無回音構造位於IVC前方、肝臟後方，最可能代表?
-> **Gallbladder（B）**——依主葉裂（連接膽囊窩與IVC）的解剖關係，此位置最可能代表膽囊。Main portal vein、right hepatic vein、superior mesenteric vein 於此描述下皆非最佳答案。[^1]
+> **Gallbladder（B）**——依主葉裂（連接膽囊窩與 IVC）之解剖關係，此位置最可能代表膽囊。Main portal vein、right hepatic vein、superior mesenteric vein 於此描述下皆非最佳答案。[^1][^2]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, 2nd ed., p.208：主葉裂連接膽囊窩與IVC/中肝靜脈，為肝左右葉分界標誌;特定切面膽囊可呈現於肝臟後方IVC前方之空間關係。
+[^1]: 官方 2017 詳解；Ref: Sonography Exam Review: Physics, Abdomen, OB/GYN, 2nd ed., p.208（題目所引）——主葉裂連接膽囊窩與 IVC/中肝靜脈、為肝左右葉分界標誌；特定切面膽囊呈於肝後 IVC 前之空間關係。
+[^2]: Gaillard F, et al. *Couinaud classification of hepatic segments*. Radiopaedia, rID-4474, DOI 10.53347/rID-4474——**middle hepatic vein 走 main lobar fissure、將肝分為右葉與左葉**；佐證主葉裂（Cantlie line，膽囊窩至 IVC）為肝左右分界之標誌。
 
 ## 題目
 > [!question]- The anechoic structure lying anterior to the inferior vena cava and posterior to the liver most likely represents the: (2017-268)
-> **Gallbladder（B）**——依主葉裂（連接膽囊窩與IVC）解剖關係。Main portal vein、right hepatic vein、superior mesenteric vein 皆非此描述下的最佳答案。[^1]
+> **Gallbladder（B）**——依主葉裂（連接膽囊窩與 IVC）解剖關係。Main portal vein、right hepatic vein、superior mesenteric vein 皆非此描述下的最佳答案。[^1][^2]
 
 ## 考題
 ```dataview
