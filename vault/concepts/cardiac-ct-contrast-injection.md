@@ -6,7 +6,7 @@ aliases:
   - cardiac CT contrast injection
   - coronary CTA flow rate
   - 心臟CT對比劑注射
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # cardiac-ct-contrast-injection
@@ -14,7 +14,7 @@ dateRev: 2026-06-30
 **心臟 CT（冠狀動脈 CTA）對比劑注射典型流速約『4-7 cc/秒』（高流速以求冠脈高對比），常配合 saline chaser 與 bolus tracking/test bolus 計時。** 判讀分水嶺：**冠脈 CTA 需高碘流入率 → 流速 4-7 mL/s（多用 5-6）;搭配生理食鹽水追注（saline chaser）推進團注、減少上腔靜脈條紋偽影;以 bolus tracking（升主動脈 ROI 觸發）或 test bolus 計時。**
 
 ## Summary
-- **典型流速**：心臟 CT 對比劑注射建議流速約 **4-7 cc/秒**（臨床常用 5-6 mL/s）——高流速以提升冠狀動脈內碘濃度與對比。[^1]
+- **典型流速**：心臟 CT 對比劑注射建議流速約 **4-7 cc/秒**（臨床常用 5-6 mL/s；三相注射常 50-70 mL @ 5-7 mL/s）——高流速以提升冠狀動脈內碘濃度與對比;用高碘濃度對比劑（270-400 mg I/mL）。[^1][^2]
 - **技術配套**：[^1]
   - **Saline chaser（生理食鹽水追注）**：推進對比劑團注、減少 SVC/右心條紋偽影、節省對比劑。
   - **計時**：bolus tracking（升主動脈 ROI 達閾值觸發）或 test bolus。
@@ -25,6 +25,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Desai MY, Schoenhagen P (eds). Cardiac Computed Tomography: Problem-Based Learning, 2011, p.20：心臟 CT 對比劑注射典型流速約 4-7 cc/秒;配合 saline chaser 與 bolus tracking/test bolus 計時。
+[^2]: Moore C, et al. *Coronary CT angiography (protocol)*. Radiopaedia, rID-88070, DOI 10.53347/rID-88070——**高碘濃度對比劑（270-400 mg I/mL）、三相注射常 50-70 mL @ 5-7 mL/s + saline chaser、以升主動脈 bolus tracking 或 test bolus（10-20 mL @ 5-6 mL/s）計時**——佐證 4-7 cc/s 流速、生理食鹽水追注與計時法。
 
 ## 題目
 > [!question]- 心臟 CT 對比劑注射的典型建議流速為何? (2017-241)

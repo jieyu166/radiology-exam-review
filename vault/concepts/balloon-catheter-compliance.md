@@ -7,7 +7,7 @@ aliases:
   - high compliance balloon
   - vascular rupture balloon
   - 氣球導管順應性
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # balloon-catheter-compliance
@@ -15,6 +15,7 @@ dateRev: 2026-07-01
 **血管介入使用氣球導管時，「低順應性氣球(low compliance balloon)用於大血管(large vessel)」造成血管破裂的風險最高——低順應性氣球擴張時直徑變化小、但充氣壓力上升快且高，於大血管中若氣球尺寸略有誤判或血管壁薄弱，容易因局部高壓造成血管壁破裂。** 判讀分水嶺：**低順應性氣球(low compliance)特性是充氣壓力增加時直徑變化很小（幾乎維持設定尺寸），故可耐受高壓精確擴張，但也代表若尺寸選擇錯誤時無法「自我讓步」而直接以高壓力傳遞至血管壁;用於大血管時因血管壁本身張力及氣球所需充氣量較大，破裂風險較低順應性氣球用於小血管更高（小血管操作者通常更謹慎控制壓力，且血管彈性回縮空間相對存在）。**
 
 ## Summary
+- **背景（PTA）**：balloon angioplasty／percutaneous transluminal angioplasty＝經皮以充氣氣球導管撐開狹窄血管段，可併或不併支架;適應症含動脈粥狀硬化、冠脈/腎動脈狹窄、FMD、洗腎通路靜脈狹窄。[^2]
 - **低順應性氣球(low compliance balloon)特性**：充氣壓力增加時，氣球**直徑變化極小**（幾乎維持設定尺寸不變），可耐受**高壓力**精確擴張，常用於支架後擴張或鈣化病灶擴張。[^1]
 - **高順應性氣球(high compliance balloon)特性**：充氣壓力增加時直徑變化較**大**、耐壓能力較**低**，常用於初步擴張或順應血管彎曲處。[^1]
 - **破裂風險最高組合**：**低順應性氣球用於大血管**——大血管操作常需要較大充氣量與較高壓力才能達到治療效果，若氣球尺寸與血管管徑不匹配（過大），低順應性氣球「不讓步」的特性會將全部高壓力直接傳遞至血管壁，造成破裂風險最高。[^1]
@@ -23,7 +24,8 @@ dateRev: 2026-07-01
 > **Low compliance balloon in large vessel（B）**——低順應性氣球充氣壓力增加時直徑變化小、可耐高壓，若用於大血管且尺寸誤判，全部高壓力會直接傳遞至血管壁，破裂風險最高。[^1]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.75-81：低順應性氣球充氣壓力增加時直徑變化小可耐高壓;高順應性氣球直徑變化大耐壓低;低順應性氣球用於大血管時尺寸誤判會使高壓力直接傳遞血管壁,破裂風險最高。
+[^1]: 官方 2017 詳解；Expert Radiology Series: Image-Guided Interventions, p.75-81：低順應性氣球充氣壓力增加時直徑變化小可耐高壓;高順應性氣球直徑變化大耐壓低;低順應性氣球用於大血管時尺寸誤判會使高壓力直接傳遞血管壁,破裂風險最高。（本卡順應性/破裂風險之細節以此教材為主要出處。）
+[^2]: Gaikwad P, et al. *Angioplasty*. Radiopaedia, rID-85305, DOI 10.53347/rID-85305——**balloon angioplasty／PTA＝以充氣氣球導管經皮撐開狹窄血管段、可併或不併支架**；適應症含動脈粥狀硬化、冠脈/腎動脈狹窄、FMD、洗腎通路靜脈狹窄——佐證 PTA 氣球導管之基本框架（順應性分型/破裂風險細節見 [^1]）。
 
 ## 題目
 > [!question]- Using balloon catheter for vascular intervention, which one of the following carry the greatest risk for vascular rupture? (2017-333)
