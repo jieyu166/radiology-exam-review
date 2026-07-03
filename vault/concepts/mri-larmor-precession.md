@@ -16,14 +16,14 @@ dateRev: 2026-07-03
 
 ## Summary
 - **Larmor 方程式**：**ω₀ = γB₀**——ω₀＝進動（角）頻率（MHz）、γ＝旋磁比（gyromagnetic ratio，MHz/tesla；¹H 約 42.58 MHz/T）、B₀＝靜磁場強度（tesla）。[^1][^2]
-- **進動本質**：質子磁矩向量繞外加磁場 B₀ **進動**，路徑呈**圓形/圓錐狀，如陀螺（spinning top）般錐狀擺動**（secondary spin / wobble），與 μ 維持固定夾角。[^1][^2]
+- **進動本質**：質子磁矩向量繞外加磁場 B₀ **進動**，路徑呈**圓形/圓錐狀，如陀螺（spinning top）般錐狀擺動**（secondary spin / wobble），與 μ 維持固定夾角（B₀ 對磁矩之扭矩使其繞 B₀ 軸進動）。[^1][^2][^3]
 - **頻率正比 B₀**：**場愈強、進動頻率愈高**（如 ¹H 於 1.5T ≈ 63.9 MHz、3T ≈ 127.7 MHz）；決定共振所需 RF 頻率。[^2]
 - **正確進動方向**：與 μ 向量呈固定張角、以**圓錐狀**繞 B₀ 軸連續旋轉——非平面內簡單擺動、非偏離 B₀ 軸之路徑。[^1][^2]
 
 ## 放射科醫師影像判讀重點
 - **陀螺類比**：磁矩像旋轉陀螺在重力下之進動——繞主軸（B₀）畫圓錐。[^2]
 - **頻率-場強**：ω₀ ∝ B₀；高場 MRI 進動更快、SNR 較高、RF 頻率需相應提高。[^2]
-- **共振條件**：RF 脈衝頻率須等於 Larmor 頻率才能激發（共振），是選頻/選層基礎。[^2]
+- **共振條件**：RF 脈衝頻率須等於 Larmor 頻率才能激發（共振），是選頻/選層基礎。[^2][^3]
 - **旋磁比**：不同核種 γ 不同（¹H 最常用）；同一 B₀ 下不同核種進動頻率不同。[^2]
 - **判圖要點**：選「與 μ 固定夾角、繞 B₀ 圓錐掃描」之路徑，非平面擺動。[^1]
 
@@ -39,7 +39,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Magnetic Resonance Imaging: Physical Principles and Sequence Design, 1999, p.3-4（題目所引）——Larmor 方程式 ω₀=γB₀ 描述磁矩進動頻率；外加磁場使原子核產生二次自旋/搖擺，進動路徑呈圓形如陀螺般錐狀擺動環繞主磁場。
-[^2]: Weerakkody Y, et al. *Larmor frequency*. Radiopaedia, rID-5855, DOI 10.53347/rID-5855——Larmor/precessional frequency＝**質子磁矩繞外加磁場 B₀ 進動之速率**；**頻率正比於 B₀ 強度（ω₀=γB₀）**；奇數質子/中子核具磁偶極矩而進動。佐證磁矩繞 B₀ 圓錐進動與頻率-場強關係。
+[^2]: Weerakkody Y, et al. *Larmor frequency*. Radiopaedia, rID-5855, DOI 10.53347/rID-5855（輔助來源）——Larmor/precessional frequency＝**質子磁矩繞外加磁場 B₀ 進動之速率**；**頻率正比於 B₀ 強度（ω₀=γB₀）**；奇數質子/中子核具磁偶極矩而進動。佐證磁矩繞 B₀ 圓錐進動與頻率-場強關係。
+[^3]: **Tier 1** Plewes DB, Kucharczyk W. *Physics of MRI: a primer*. J Magn Reson Imaging 2012;35(5):1038-54（據 PubMed，DOI [10.1002/jmri.23642](https://doi.org/10.1002/jmri.23642)；Review；基於 ISMRM「MR Physics for Clinicians」課程；實際查證 accessed 2026-07-04）——以直觀非數學模型自核自旋物理起：**外加 B₀ 中核磁矩因扭矩而繞 B₀ 軸進動（precession），進動角頻率 ω₀=γB₀（Larmor），γ 為旋磁比（¹H ≈42.58 MHz/T）**；淨磁化向量沿 B₀；**RF 脈衝於 Larmor 頻率共振方能激發翻轉**；續述 NMR 弛豫、Fourier transform 與影像形成、磁場梯度空間編碼、基本脈衝序列與對比。佐證磁矩繞 B₀ 圓錐進動、ω₀∝B₀ 與共振條件。原「官方/Radiopaedia」弱來源已由本次 PubMed DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Larmor equation 表示 magnetic moment vector 的 precession frequency 與外加磁場的關係如下 ω₀=γB₀，請於下圖選擇 precession 的方向為何 (2017-331)
