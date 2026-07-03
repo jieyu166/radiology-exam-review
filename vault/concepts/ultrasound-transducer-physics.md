@@ -16,6 +16,7 @@ dateRev: 2026-06-19
 ## Summary
 - **壓電效應**：介電質晶體（如 PZT）中**機械能與電能互換**;有**正壓電（壓力→電壓，接收回波）與逆壓電（電壓→形變，發射聲波）**兩種。[^1]
 - 故 US 探頭發射與接收皆靠壓電效應。[^1]
+- **探頭於成像鏈之角色（Hangiandreou）**：**壓電陣列產生/偵測超音波脈衝、電子相位延遲掃描與聚焦波束**；現代 B-mode 成像含超音波脈衝形成、波束掃描、回音偵測與訊號處理；新技術（tissue harmonic、spatial compound、電子聚焦、3D/4D）多藉陣列與波束成形達成。[^5]
 - **天然壓電材料**：**石英(quartz)** 為經典天然壓電晶體;其他天然者含 berlinite(塊磷鋁礦,結構同石英)、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨(因 apatite 晶體)。鉛/銀/銅/鋇等金屬本身非天然壓電體;臨床探頭多用人造 **PZT(鋯鈦酸鉛)** 陶瓷。[^2]
 
 > [!note] 考點：超音波探頭依何原理運作?
@@ -41,6 +42,7 @@ dateRev: 2026-06-19
 [^2]: 官方 2017 詳解（Cady WG. The piezoelectric resonator. Physical Review 1921;17:531-533 所引）；天然壓電材料含 quartz、berlinite、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨(apatite)；臨床探頭用人造 PZT 陶瓷。
 [^3]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.18：乳房超音波建議使用 linear array transducer，最低中心頻率 10（5–12）MHz。
 [^4]: Radiopaedia – Ultrasound transducer（2018 交換考題詳解 p.288 引用；輔助來源）。壓電材料PZT(lead zirconate titanate)；較厚元件低頻/較薄元件高頻；phased array影像上緣與下緣形狀不同(sequential array則相同)；甲狀腺淺表構造需高頻探頭(~10 MHz)。
+[^5]: **Tier 1** Hangiandreou NJ. *AAPM/RSNA physics tutorial for residents. Topics in US: B-mode US: basic concepts and new technology*. RadioGraphics 2003;23(4):1019-33（據 PubMed，DOI [10.1148/rg.234035034](https://doi.org/10.1148/rg.234035034)；Review；實際查證 accessed 2026-07-04）——現代 US 掃描儀基於 pulse-echo + B-mode 顯示；**壓電陣列產生/偵測超音波脈衝、電子相位延遲掃描與聚焦波束**；成像基本面（超音波物理、與組織交互作用、脈衝形成、波束掃描、回音偵測與訊號處理）與新技術（tissue harmonic imaging、spatial compound imaging、電子聚焦、3D/4D）——佐證探頭（壓電效應）於超音波發射/接收與波束成形之核心角色。原「官方」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 超音波探頭依何原理運作? (2017-170)
