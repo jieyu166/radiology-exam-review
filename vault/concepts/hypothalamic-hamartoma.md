@@ -4,29 +4,49 @@ name: Hypothalamic Hamartoma
 subspecialty: [NR, PE]
 aliases:
   - hypothalamic hamartoma
+  - tuber cinereum hamartoma
   - gelastic seizure
   - 下視丘錯構瘤
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # hypothalamic-hamartoma
 
-**下視丘錯構瘤的影像關鍵是「不強化」——這是與其他下視丘/漏斗腫塊（如生殖細胞瘤、顱咽管瘤）最重要的鑑別點，錯構瘤是良性、非腫瘤性病灶，注射Gd後T1並無明顯強化。**
+**下視丘錯構瘤（HH）是非腫瘤性、先天性灰質異位（gray matter heterotopia），影像關鍵是「不強化」——注射 Gd 後 T1 無明顯強化，這是與其他會強化的下視丘/漏斗腫塊（生殖細胞瘤、顱咽管瘤、星細胞瘤、LCH）最重要的鑑別點。** 判讀分水嶺：**形態預測症狀——「大、無柄（sessile）」多致癲癇（gelastic seizure）；「小、有柄（pedunculated，collar-button）」多致中樞性性早熟。**
 
 ## Summary
-- **臨床表現**：可造成**gelastic seizures（大笑性癲癇）**；亦可表現**性早熟(precocious puberty)**。[^1]
-- **T2WI訊號**：病灶於T2加權影像通常呈**與大腦皮質等訊號至高訊號(iso- to hyper-intense)**。[^1]
-- **顯影特徵（關鍵鑑別點）**：**病灶通常不強化（no contrast enhancement）**，並非「usually shows strong enhancement」——此為與其他下視丘腫塊（如生殖細胞瘤、顱咽管瘤，通常會強化）鑑別之重要影像特徵。[^1]
+- **本質**：**非腫瘤性、先天性灰質異位**（tuber cinereum / diencephalic hamartoma），病理為**成熟但發育異常的神經節細胞組織**——非真性腫瘤，不會生長惡變。[^1][^2]
+- **位置**：與 **tuber cinereum 相連**、位於**乳頭體（mammillary bodies）與漏斗（infundibulum）之間**的下視丘腫塊。[^1]
+- **形態**：可為**無柄（sessile）或有柄（pedunculated，"collar button"）**，大小數 mm 至數 cm；大病灶可異質、含囊。[^1]
+- **臨床表現**：可造成 **gelastic seizures（大笑性癲癇）**與**中樞性性早熟（precocious puberty）**；常合併認知/神經精神共病。[^1]
+- **形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。[^1]
+- **顯影特徵（關鍵鑑別點）**：**注射對比劑後無強化（no enhancement）**——為與其他強化性下視丘腫塊（生殖細胞瘤、顱咽管瘤等）鑑別之核心。[^1][^2]
+
+## 放射科醫師影像判讀重點
+- **首選檢查**：MRI（癲癇 protocol）為此區病灶評估之首選；含冠狀/矢狀薄層最能顯示病灶與 tuber cinereum 的連續性。[^1][^2]
+- **T1 訊號（來源分歧，並列）**：STATdx 稱**與灰質等訊號**；Radiopaedia 稱**約 74% 對大腦皮質呈低訊號**（「所有序列皆與皮質等訊號」的舊說法多數不成立）。[^1][^2]
+- **T2/FLAIR**：對皮質呈**輕度高訊號**；大病灶可異質、含囊。[^1][^2]
+- **T1 C+**：**無強化**（關鍵）。[^1][^2]
+- **CT**：與腦實質等密度之軟組織結節，**無鈣化、無強化**；偶見鞍上鈣化、dorsum sellae 侵蝕或垂體窩擴大；軸位薄層易漏，需 volumetric + 重組。[^2]
+- **陷阱**：下視丘/鞍上腫塊若「無強化」＋位於 tuber cinereum，且臨床有癲癇或性早熟 → 直接想到 HH，勿誤判為會強化的腫瘤。[^1]
+
+## 臨床重點（5 句）
+1. **兩大症候**：gelastic seizure（大笑性癲癇，難治性混合型癲癇）與中樞性性早熟，可單獨或並存。[^1]
+2. **影像即診斷**：於癲癇或性早熟影像中發現 tuber cinereum 無強化腫塊即可診斷 HH，通常不需切片。[^1]
+3. **形態決定表現**：sessile 大病灶偏癲癇、pedunculated 小病灶偏 CPP，影像形態可預測臨床。[^1]
+4. **共病**：常合併認知障礙與神經精神共病，非單純內分泌問題。[^1]
+5. **鑑別**：craniopharyngioma、chiasmatic/hypothalamic astrocytoma、ectopic posterior pituitary、germinoma、LCH、lipoma——多數會強化，HH 的「不強化」是關鍵區辨。[^1]
 
 > [!note] 考點：關於下視丘錯構瘤何者錯誤？
-> **病灶通常呈強烈強化（B）**為錯誤——實際上下視丘錯構瘤**通常不強化**，此為與其他強化性下視丘腫塊鑑別之關鍵。可致gelastic seizures、性早熟為可能症狀、T2呈等至高訊號，皆為正確敘述。[^1]
+> **病灶通常呈強烈強化（B）**為錯誤——實際上下視丘錯構瘤**通常不強化**，此為與其他強化性下視丘腫塊鑑別之關鍵。可致 gelastic seizures、性早熟為可能症狀、T2 呈等至高訊號，皆為正確敘述。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解／2021重印；Ref: Kerrigan JF, Parsons A, Tsang C, Simeone K, Coons S, Wu J. Hypothalamic hamartoma: Neuropathology and epileptogenesis. Epilepsia. 2017;58 Suppl 2:22-31.（題目所引）——下視丘錯構瘤可致gelastic seizures與性早熟；T2呈等至高訊號；T1顯影劑注射後無明顯強化(no contrast enhancement)，為與強化性下視丘腫塊鑑別之關鍵。
+[^1]: Salzman KL. *Hypothalamic Hamartoma* (Dx). STATdx, updated 04/01/25（24 refs）. Elsevier——非腫瘤性先天灰質異位；與 tuber cinereum 相連、位於乳頭體與漏斗間；sessile/pedunculated（collar button）；T1 與灰質等訊號、T2/FLAIR 輕度高訊號、**無強化**；形態-症狀相關（大 sessile→癲癇、小 pedunculated→CPP）；DDx（craniopharyngioma/astrocytoma/ectopic posterior pituitary/germinoma/LCH/lipoma）。
+[^2]: Gaillard F, et al. *Hypothalamic hamartoma*. Radiopaedia, rID-1485, DOI 10.53347/rID-1485——MRI 癲癇 protocol 為首選；**T1 約 74% 對皮質低訊號**、T2/FLAIR 高訊號、T1 C+ 無強化；CT 等密度、無鈣化/強化（偶見鞍上鈣化/dorsum sellae 侵蝕）。原「官方 2020 詳解／Kerrigan 2017 Epilepsia」弱來源已由上述一手影像來源查核取代。
 
 ## 題目
 > [!question]- Which description about hypothalamic hamartoma is WRONG? (2021-059／2020重印)
-> **The lesion usually shows strong enhancement（B）**為錯誤——實際上下視丘錯構瘤通常**不強化**。可致gelastic seizures、性早熟為可能症狀、T2呈等至高訊號，皆為正確敘述。[^1]
+> **The lesion usually shows strong enhancement（B）**為錯誤——實際上下視丘錯構瘤通常**不強化**。可致 gelastic seizures、性早熟為可能症狀、T2 呈等至高訊號，皆為正確敘述。[^1][^2]
 
 ## 考題
 ```dataview
