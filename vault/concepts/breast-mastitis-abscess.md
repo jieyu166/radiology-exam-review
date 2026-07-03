@@ -8,7 +8,7 @@ aliases:
   - puerperal mastitis
   - 乳腺炎
   - 乳房膿瘍
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # breast-mastitis-abscess
@@ -16,7 +16,7 @@ dateRev: 2026-06-30
 **乳腺炎多發生於哺乳期、屬化膿性，主因 Staph. aureus／Streptococcus;懷疑乳房膿瘍時『超音波』是首選與追蹤工具,不是 MRI。** 判讀分水嶺：**急性乳腺炎＝皮膚增厚／間質水腫／脂肪回音增強;形成膿瘍→US 見壁厚、內部碎屑、後方增強的積液,可見都卜勒充血環但中心無血流;若紅腫但無膿瘍且抗生素無效,須 skin punch biopsy 排除發炎性乳癌（inflammatory breast cancer）。**
 
 ## Summary
-- **病因**：多數乳腺炎發生於**哺乳期、為化膿性**,主因 **Staphylococcus aureus 與 Streptococcus**。[^1]
+- **病因**：多數乳腺炎發生於**哺乳期、為化膿性**,主因 **Staphylococcus aureus 與 Streptococcus**;膿瘍發生於 **5–11% 感染性乳腺炎哺乳婦（lactational abscess，尤其初產婦）**。[^1][^2]
 - **影像首選**：懷疑乳房膿瘍時 **US 為最有用的初始影像**,也是**監測治療反應與緩解的首選**——非 MRI。[^1]
 - **膿瘍 US 表現**：複雜積液、壁厚、內部碎屑／分隔、後方聲影增強;周邊都卜勒充血、中心無血流。[^1]
 - **乳房攝影**：膿瘍常呈**非鈣化、邊緣不清的卵圓形腫塊**。[^1]
@@ -27,6 +27,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Cardeñosa G. *Breast Imaging* (Requisites), ch.20, pp.375-388：乳腺炎多哺乳期化膿性(Staph/Strep);US 為懷疑膿瘍之首選初始影像及監測工具;紅腫無膿瘍且抗生素無效應 punch biopsy 排除發炎性乳癌。
+[^2]: Gaillard F, et al. *Breast abscess*. Radiopaedia, rID-14818, DOI 10.53347/rID-14818——**乳腺炎之併發（哺乳期、尤初產婦），發生於 5–11% 感染性乳腺炎哺乳婦（lactational abscess）**；US 表現可酷似乳癌、臨床病史為診斷關鍵；主要致病菌 **Staphylococcus aureus**——佐證病因、族群與 US 首選判讀。
 
 ## 題目
 > [!question]- 關於 mastitis（乳腺炎），何者敘述「不正確」? (2017-174)

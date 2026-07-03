@@ -6,7 +6,7 @@ aliases:
   - breast fibromatosis
   - desmoid tumor breast
   - 乳房纖維瘤病
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # breast-fibromatosis
@@ -14,7 +14,7 @@ dateRev: 2026-06-30
 **乳房纖維瘤病(fibromatosis，即乳房的 desmoid tumor)是一種罕見的良性乳房腫瘤，組織學上僅由『分化良好的纖維母細胞(well-differentiated fibroblasts)』構成，但生物學行為卻是『局部侵犯、具侵襲性、增生活躍』——雖無轉移能力（良性），卻可局部侵犯胸壁肌肉筋膜且術後易局部復發。** 判讀分水嶺：**Fibromatosis 為此類「不尋常良性乳房腫瘤」中，唯一以局部侵犯性生長為特徵者;areolar leiomyoma(乳暈平滑肌瘤)、granular cell tumor(顆粒細胞瘤)、neurofibroma(神經纖維瘤)雖也是不尋常良性腫瘤，但皆非以局部侵犯性增生為典型特徵。**
 
 ## Summary
-- **Fibromatosis（纖維瘤病）**：**罕見良性**乳房腫瘤，組織學上僅含**分化良好的纖維母細胞**;生物學行為呈**局部侵犯性（locally infiltrating）、侵襲性（aggressive）、增生活躍（proliferative）**——可侵犯鄰近胸壁肌肉/筋膜，**無遠端轉移能力**但**局部復發率高**。[^1]
+- **Fibromatosis（纖維瘤病）**：**罕見良性**乳房腫瘤（僅占乳房腫瘤 ~0.2%），組織學為**纖維母細胞/肌纖維母細胞源**;生物學行為呈**局部侵犯性（locally infiltrating）、無轉移（non-metastasizing）**——可附著皮膚/胸大肌筋膜、影像/臨床可酷似乳癌（毛刺狀），**局部復發率高**;關聯 Gardner 症候群、矽膠/鹽水植入物、術後創傷。[^1][^2]
 - **鑑別其他不尋常良性乳房腫瘤**：[^1]
   - **Areolar leiomyoma**：源自乳暈平滑肌的平滑肌瘤，非侵犯性生長。
   - **Granular cell tumor**：多源自神經鞘（Schwann細胞），影像可酷似惡性（毛刺狀邊緣）但組織學為良性，非以局部侵犯增生為特徵。
@@ -25,6 +25,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Get through Final FRCR Part A: SBAs for the modular examination. CRC Press, p.198：乳房fibromatosis(desmoid tumor)為分化良好纖維母細胞構成的局部侵犯性良性腫瘤,無轉移但局部復發率高;areolar leiomyoma/granular cell tumor/neurofibroma為其他不尋常良性乳房腫瘤但非局部侵犯性。
+[^2]: Weerakkody Y, et al. *Fibromatosis of the breast*. Radiopaedia, rID-15144, DOI 10.53347/rID-15144——**又稱乳房 extra-abdominal desmoid tumor、罕見（~0.2% 乳房腫瘤）、無轉移但局部侵犯之基質腫瘤**、纖維母/肌纖維母細胞源、可酷似乳癌；關聯 Gardner 症候群/植入物/術後創傷、好發近胸大肌——佐證「良性但局部侵犯」之核心特徵。
 
 ## 題目
 > [!question]- Which of the following unusual benign breast tumor is most likely to be locally infiltrating, aggressive and proliferative, and consist of only well-differentiated fibroblasts? (2017-270)

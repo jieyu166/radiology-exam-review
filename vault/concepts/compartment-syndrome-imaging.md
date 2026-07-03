@@ -7,7 +7,7 @@ aliases:
   - ACS
   - fasciotomy
   - 肌肉腔室症候群
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # compartment-syndrome-imaging
@@ -17,7 +17,7 @@ dateRev: 2026-07-01
 ## Summary
 - **正常腔室壓力**：組織腔室正常壓力介於**0-8 mmHg**之間。[^1]
 - **診斷閾值（delta pressure）**：以**舒張壓(diastolic BP) − 測得腔室壓 = delta pressure**，當delta pressure **<20-30 mmHg**時即提示需要筋膜切開術（非單純腔室壓>30 mmHg絕對值）。[^1]
-- **危及生命**：腔室症候群**是危及肢體/生命的急症**，若未治療會進展為**橫紋肌溶解症(rhabdomyolysis)**。[^1]
+- **危及生命**：腔室症候群**是危及肢體/生命的外科急症**（腔內壓升高損及灌流→肌肉/神經受損），若未治療會進展為**橫紋肌溶解症(rhabdomyolysis)**;好發 <35 歲、男性約 10 倍、最常見於脛骨骨幹骨折後;臨床 5 Ps（pain out of proportion 最早）。[^1][^2]
 - **筋膜切開術**：手術切開**皮膚與筋膜(fascia)**（非「肌肉纖維muscle fibers」）以釋放壓力、恢復動脈血流灌注。[^1]
 - **延遲筋膜切開術的風險**：診斷延遲（發病後3-4天）才進行筋膜切開術，可能因**去血管化壞死肌肉組織**造成**感染與腎衰竭**，此情境下手術效益需審慎評估（非絕對禁忌，但風險增加）。[^1]
 
@@ -26,6 +26,7 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: 官方 2017 詳解：正常腔室壓力0-8mmHg;診斷閾值為delta pressure(舒張壓−腔室壓)<20-30mmHg;腔室症候群未治療會進展為橫紋肌溶解症，屬危及生命急症;筋膜切開術切開皮膚與筋膜(非肌肉纖維)；診斷延遲3-4天後筋膜切開術可能因去血管化壞死肌肉致感染及腎衰竭。
+[^2]: Bell D, et al. *Acute compartment syndrome*. Radiopaedia, rID-60854, DOI 10.53347/rID-60854——**肢體與生命威脅之外科急症、腔內壓升高損及灌流致肌肉神經受損**；好發 <35 歲、男性約 10 倍、最常見於脛骨骨幹骨折後；5 Ps（pain out of proportion 為早期常見）——佐證屬危及生命急症、與橫紋肌溶解之關聯。
 
 ## 題目
 > [!question]- Which of the following is TRUE about compartment syndrome? (2017-297)
