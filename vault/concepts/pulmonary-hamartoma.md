@@ -23,8 +23,10 @@ dateRev: 2026-07-03
 - **診斷線索**：孤立周邊結節 + 內見脂肪密度（-40~-120 HU）±popcorn 鈣化 → 幾可確定良性 hamartoma。[^1][^2]
 - **popcorn 鈣化**：軟骨鈣化之爆米花/爆玉米花狀，非層狀（層狀見於肉芽腫）。[^1]
 - **無空洞化**：見空洞應想其他（惡性/感染）。[^2]
-- **endobronchial 型**：少見，可致阻塞性肺炎/咳血，需支氣管鏡。[^1][^2]
-- **穩定/緩慢**：良性、生長緩慢；不確定時可 CT 追蹤或非手術。[^2]
+- **組織學（STATdx）**：多種間葉組織——**軟骨最豐富、脂肪、骨**；表面可鱗狀化生 mimics SCC、**支氣管鏡切片常誤導**。[^3]
+- **endobronchial/airway 型（STATdx）**：**占肺錯構瘤 1.4-13%、中央支氣管 > 氣管、多 <2 cm**；**內含脂肪 ± 鈣化提示診斷（endoluminal 結節含脂肪僅見於 airway hamartoma 或 lipoma）、endobronchial 型較 parenchymal 含更多巨觀脂肪**；表現＝**阻塞後效應（肺葉萎陷/阻塞性肺炎/遠端支氣管擴張）**、asthma-like 症狀/咳嗽/呼吸困難/stridor；CT 為首選、**FDG 攝取極低**。[^3]
+- **DDx（STATdx，endoluminal）**：**SCC（吸菸、腔外生長+環周、淋巴結）、metastasis（多發、乳/腸/腎/甲狀腺/黑色素瘤）、lipoma（純脂肪無軟組織）、chondroma（鈣化）、bronchial carcinoid（鈣化 25-30%、強化、內外支氣管成分）**。[^3]
+- **穩定/緩慢**：良性、生長緩慢；不確定時可 CT 追蹤或非手術；**與 Cowden 症候群相關（多發 hamartoma + 乳/甲狀腺癌傾向）**。[^2][^3]
 
 ## 臨床重點（5 句）
 1. **良性間葉瘤**：軟骨/脂肪/骨，最常見良性肺瘤之一。[^1][^2]
@@ -38,7 +40,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Thoracic Radiology: The Requisites, 2nd ed., p.253-257（題目所引）——肺錯構瘤 popcorn 鈣化、鈣化約 30-40%、脂肪密度(-50~-150 HU)助診斷、含軟骨/脂肪/骨/血管/平滑肌、偶支氣管內。
-[^2]: Gaillard F, et al. *Pulmonary hamartoma*. Radiopaedia, rID-4602, DOI 10.53347/rID-4602——良性間葉瘤（軟骨/結締/肌/脂肪/骨）、**~8% 肺腫瘤、6% SPN**；**>90% 周邊**、well-circumscribed；**~60% 含脂肪、~20-30% popcorn 鈣化/骨化、無空洞化**；偶 endobronchial 致阻塞/咳血。
+[^2]: Gaillard F, et al. *Pulmonary hamartoma*. Radiopaedia, rID-4602, DOI 10.53347/rID-4602（輔助來源）——良性間葉瘤（軟骨/結締/肌/脂肪/骨）、**~8% 肺腫瘤、6% SPN**；**>90% 周邊**、well-circumscribed；**~60% 含脂肪、~20-30% popcorn 鈣化/骨化、無空洞化**；偶 endobronchial 致阻塞/咳血。
+[^3]: **Tier 1** Garrana SH, Walker CM. *Tracheobronchial Hamartoma*（Chest, Airway Diseases, Benign Neoplasms, Dx）. STATdx, Elsevier, updated 09/27/21（18 refs；實際查證 accessed 2026-07-04）——良性間葉腫瘤（**軟骨最豐富、脂肪、骨**）；**endobronchial/airway hamartoma 占肺錯構瘤 1.4-13%、中央支氣管>氣管、多 <2cm、較 parenchymal 含更多巨觀脂肪**；**CT 內含脂肪 ± 鈣化提示診斷（endoluminal 含脂肪僅 airway hamartoma/lipoma）、FDG 攝取極低**；表現＝阻塞後效應（肺葉萎陷/阻塞性肺炎/遠端支氣管擴張）、asthma-like/咳嗽/stridor、50-70 歲 M:F 2-4:1；表面鱗狀化生 mimics SCC、支氣管鏡切片常誤導；**與 Cowden 症候群相關**；DDx（SCC、metastasis、lipoma、chondroma、bronchial carcinoid 鈣化 25-30%）；治療（小者支氣管鏡切除、大者手術）。佐證肺錯構瘤之組織學與 endobronchial 變異型（parenchymal 之 popcorn 鈣化/脂肪/percentages 見 [^1][^2]）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 pulmonary hamartoma，何者「不」正確? (2017-151)
