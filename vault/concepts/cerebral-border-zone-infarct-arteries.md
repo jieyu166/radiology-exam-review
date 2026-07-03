@@ -25,7 +25,11 @@ dateRev: 2026-07-03
 - **內 vs 外**：internal＝深部白質 string-of-pearls（hemodynamic）；external＝皮質交界楔形（embolic）。[^2]
 - **hemodynamic 線索**：頸動脈嚴重狹窄/閉塞 + 低血壓 → internal border zone 梗塞，評估頸動脈/Willis 環。[^2]
 - **穿通支概念**：MCA 為這些穿通動脈之來源；穿通支（lenticulostriate 等）供 internal border zone。[^1]
-- **鑑別**：與小血管腔隙、脫髓鞘白質病變區分（分水嶺呈線狀沿側腦室 DWI 陽性）。[^1]
+- **hypotensive cerebral infarction 譜（STATdx）**：低流量狀態下的譜系——border zone（外/內）＋**global hypoxic-ischemic injury（HII，心跳停止）**；後者見 **disappearing BG sign（基底節/皮質低密度）、white cerebellum（cerebellar reversal sign）、cortical laminar necrosis（gyriform 高密度/T1 縮短，第 3/5/6 層）**。[^3]
+- **internal WS 之機轉關聯**：**rosary/string-of-pearls 於 centrum semiovale 高度特異於 hemodynamic compromise**；**約 35-40% 之 WS 梗塞與近端 ICA 狹窄/閉塞相關**；單側則找同側大血管狹窄。[^3]
+- **external WS**：為最常見型、**多數為 embolic**（ICA 動脈粥狀硬化、Willis 環血流不均之方向性）。[^3]
+- **序列/檢查**：**DWI 受限（區分 cytotoxic vs vasogenic）**、MRA 須含頸段＋顱內、**CTA/DSA 優於 MRA 判 ICA 全/近全閉塞**、MRS ↑lactate/↓NAA；灌注可見 CBF 下降。[^3]
+- **鑑別（DDx）**：**急性多發栓塞（雙側多領域）、小血管病（室旁融合、無 WS 偏好）、PRES（不受限、後 PCA 分佈、vasogenic）、vasculitis、pseudolaminar necrosis（Reye/lupus/CPM）**。[^3]
 - **陷阱**：superior hypophyseal artery 非大腦分水嶺供血（下視丘/垂體）。[^1]
 
 ## 臨床重點（5 句）
@@ -40,7 +44,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解——內側分水嶺區位於 ACA/MCA/PCA 交界，由 lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 等穿通動脈供應；典型 ≥3 病灶每處 ≥3mm 沿側腦室線狀排列於 centrum semiovale/corona radiata、可融合帶狀；superior hypophyseal artery 供下視丘/漏斗、與腦分水嶺無關。
-[^2]: Gaillard F, et al. *Watershed cerebral infarction*. Radiopaedia, rID-2282, DOI 10.53347/rID-2282——border zone 梗塞位血管領域交界、占 5-10%；**deep（internal）border zone 典型受系統性低血壓 + 嚴重 inflow 狹窄（頸動脈）影響、呈 string of pearls sign**；**external（cortical）border zone 多為微栓塞**；佐證 internal/external 分區與 hemodynamic vs embolic 機轉。
+[^2]: *Watershed cerebral infarction*. Radiopaedia.org, rID-2282, DOI 10.53347/rID-2282（輔助來源）——border zone 梗塞位血管領域交界、占 5-10%；deep（internal）border zone 典型受系統性低血壓 + 嚴重 inflow 狹窄（頸動脈）影響、呈 string of pearls sign；external（cortical）border zone 多為微栓塞。
+[^3]: **Tier 1** Dahlstrom KA, Osborn AG. *Hypotensive Cerebral Infarction*（Brain, Dx）. STATdx, Elsevier, updated 08/20/25（23 refs；實際查證 accessed 2026-07-03）——HCI＝CBF 不足（低流量）；**external（皮質/gray-white junction/major territory 間/最常見/多 embolic）vs internal（深白質 centrum semiovale/perforating artery 間/ICA 狹窄/hemodynamic）**；**global HII（心跳停止）→ BG/皮質、disappearing BG sign、white cerebellum、cortical laminar necrosis（gyriform 高密度/T1 縮短、第 3/5/6 層）**；internal WS＝**≥3 深白質病灶、rosary/string of pearls、AP 線狀平行側腦室、高度特異於 hemodynamic compromise、約 35-40% WS 與近端 ICA 狹窄相關、單側找同側狹窄**；**DWI 受限、MRA 頸+顱內、CTA/DSA>MRA 判全閉塞、MRS ↑lactate/↓NAA**；DDx（急性多發栓塞、小血管病、PRES 不受限後部、vasculitis、pseudolaminar necrosis Reye/lupus/CPM）；病因（嚴重低血壓/心跳停止/窒息/CO、大血管狹窄易感）；HCI 占梗塞 0.7-3.2%；預後差（深核無皮質受累者較輕）、治療（矯正低血壓/血管重建）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which artery does not supply the internal border zone? (2017-298)
