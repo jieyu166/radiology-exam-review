@@ -4,32 +4,48 @@ name: Renal Tuberculosis — Characteristic Findings
 subspecialty: [GU]
 aliases:
   - renal TB
+  - genitourinary tuberculosis
   - putty kidney
   - autonephrectomy
   - 腎結核
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # renal-tuberculosis
 
-**腎結核之典型特徵包含實質鈣化(約35%病例)、乳突壞死、漏斗部狹窄(infundibular strictures)、以及末期無功能(自體腎切除，autonephrectomy)——阻塞性結石(obstructing stone)並非其典型特徵。**
+**腎結核之典型特徵＝乳突壞死（早期最常見）＋腎盞漏斗部狹窄（infundibular strictures）＋urothelial 增厚/caseous debris/腎積水＋實質病灶（低強化結節/膿瘍）＋末期鈣化無功能（putty kidney／autonephrectomy，鈣化約 35%）。阻塞性結石（obstructing stone）並非其典型特徵。** 判讀分水嶺：**腎結核是「血行播種後由腎髓質乳突往下依序破壞（腎盞→漏斗→腎盂→輸尿管→膀胱）」的下行性病程，特徵是「狹窄＋鈣化＋壞死」而非結石阻塞——見多發性腎盞漏斗狹窄合併鈣化與 urothelial 增厚就要想腎結核。**
 
 ## Summary
-- **實質鈣化(Parenchymal calcification)**：見於約35%病例(範圍25-45%)，可呈**乳突壞死之三角形鈣化**，或末期呈**局部/不定形鈣化(putty kidney，泥狀腎)**。[^1]
-- **乳突壞死(Papillary necrosis)**：腎結核之典型特徵。[^1]
-- **漏斗部狹窄(Infundibular strictures)**：腎盞漏斗部因慢性肉芽腫發炎與纖維化致狹窄，為典型特徵。[^1]
-- **末期無功能/自體腎切除(Nonfunctioning/autonephrectomy)**：疾病末期腎臟完全鈣化失去功能，稱為putty kidney或autonephrectomy。[^1]
-- **非典型特徵**：**阻塞性結石(obstructing stone)並非**腎結核之典型特徵性表現。[^1]
+- **乳突壞死（papillary necrosis）**：**集尿系統受侵、乳突壞死為很常見之早期表現**（蟲蝕狀 moth-eaten／截斷 amputated calyx）。[^1][^2]
+- **漏斗/腎盞狹窄**：慢性肉芽腫發炎與纖維化致**腎盞漏斗部與腎盞狹窄**，urothelial 增厚、caseous debris，可致**局部腎積水（如上極 phantom calyx）**。[^1]
+- **實質病灶**：低強化區、低密度結節或腎膿瘍。[^1]
+- **末期鈣化/無功能**：慢性可致**小而鈣化之無功能腎（autonephrectomy／putty kidney）**；實質鈣化見於約 **35%（25–45%）**。[^1][^2]
+- **非典型特徵**：**阻塞性結石（obstructing stone）並非**腎結核之典型特徵。[^2]
+
+## 放射科醫師影像判讀重點
+- **下行性破壞路徑**：血行播種至腎髓質→**乳突壞死→腎盞漏斗狹窄→腎盂→輸尿管（串珠/pipestem、多發狹窄）→膀胱（thimble bladder 小容量攣縮膀胱）**——沿路「狹窄＋鈣化」為判讀主軸。[^1]
+- **鈣化型態**：可為**乳突壞死之三角形鈣化**、局部不定形鈣化，至末期整腎鈣化＝**putty kidney**；鈣化約 35%，是重要線索但非全有。[^2]
+- **狹窄之影像**：靜脈尿路攝影/CT urography 見**腎盞邊緣不規則（moth-eaten）、漏斗狹窄致腎盞擴張或不顯影（phantom calyx）**；輸尿管多發狹窄呈串珠/pipestem。[^1]
+- **CT 的角色**：CT urography 綜合評估實質病灶、鈣化、集尿系統狹窄與腎功能，並找腎外（腎上腺/腸道/腹膜/淋巴結）結核。[^1]
+- **重要提醒**：**胸部 X 光正常或結核菌素皮膚試驗陰性不能排除肺外結核**；腎結核可與泌尿道結石並存，但結石阻塞非其特徵性病灶。[^1][^2]
+
+## 臨床重點（5 句）
+1. 常以**發燒、體重減輕、腹/腰痛**表現，泌尿症狀含頑固性膿尿/血尿；經典為**無菌性膿尿（sterile pyuria）**（一般細菌培養陰性）。[^1]
+2. 腎結核多為**肺部感染後之血行播種**，可有或無明顯肺結核證據。[^1]
+3. **早期診斷與抗結核治療可阻止進展**，延誤則致漏斗狹窄、腎積水與末期無功能腎（autonephrectomy）。[^1][^2]
+4. 狹窄性病變（漏斗/輸尿管）可能需**支架、氣球擴張或手術重建**；無功能鈣化腎有時需腎切除。[^2]
+5. 判讀時應把「多發腎盞漏斗狹窄＋鈣化＋urothelial 增厚」視為腎結核之組合線索，並與腎乳突壞死其他病因、黃色肉芽腫性腎盂腎炎鑑別。[^1]
 
 > [!note] 考點：下列何者「非」腎結核之特徵？
-> **阻塞性結石（Obstructing stone，選項4）**——實質鈣化、乳突壞死、漏斗部狹窄、末期無功能(autonephrectomy)皆為腎結核之典型特徵，阻塞性結石則非。[^1]
+> **阻塞性結石（Obstructing stone，選項4）**——實質鈣化（~35%）、乳突壞死、漏斗部狹窄、末期無功能（autonephrectomy／putty kidney）皆為腎結核之典型特徵；阻塞性結石則非。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Textbook of Uroradiology, 4th edition, p.180（題目所引）——腎結核典型特徵含實質鈣化(~35%，各期可見，含乳突壞死三角形鈣化與末期putty kidney)、乳突壞死、漏斗部狹窄、末期無功能(autonephrectomy)；阻塞性結石非典型特徵。
+[^1]: **Tier 1** *Tuberculosis, Abdominal Manifestations*（含 Renal TB）. STATdx（實際查證 accessed 2026-07-03）：腎結核**集尿系統受侵、乳突壞死為很常見之早期表現**；urothelial 增厚、caseous debris、**腎盞與漏斗狹窄致腎積水**；實質可低強化區/低密度結節/膿瘍；**慢性致小而鈣化之無功能腎（autonephrectomy／putty kidney）**；常見發燒/體重減輕/腹痛，胸片正常或 TST 陰性不排除肺外結核。
+[^2]: 官方 2020 詳解（題目所引）；原引 *Textbook of Uroradiology* 4th ed. p.180——腎結核典型含實質鈣化（~35%，含乳突壞死三角形鈣化與末期 putty kidney）、乳突壞死、漏斗部狹窄、末期無功能（autonephrectomy）；**阻塞性結石非典型特徵**，已由 [^1] STATdx 一手來源查核並補強下行破壞路徑與影像判讀。
 
 ## 題目
 > [!question]- 下列何者有關Characteristics of Renal Tuberculosis的敘述何者為非? (2020-403)
-> **阻塞性結石（Obstructing stone）**——非腎結核之典型特徵，其餘(實質鈣化/乳突壞死/漏斗部狹窄/末期無功能)皆為典型特徵。[^1]
+> **阻塞性結石（Obstructing stone）**——非腎結核之典型特徵；實質鈣化、乳突壞死、漏斗部狹窄、末期無功能（autonephrectomy）皆為典型特徵。[^1][^2]
 
 ## 考題
 ```dataview
