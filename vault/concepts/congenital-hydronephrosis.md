@@ -6,7 +6,7 @@ aliases:
   - congenital hydronephrosis
   - antenatal hydronephrosis
   - 先天性腎水腫
-dateRev: 2026-06-19
+dateRev: 2026-07-03
 ---
 
 # congenital-hydronephrosis
@@ -15,7 +15,8 @@ dateRev: 2026-06-19
 
 ## Summary
 - **目標**：**保存腎功能**。[^1]
-- **自然史**：**多數產前腎水腫為非阻塞性,會自行緩解或穩定** → 保守追蹤＋抗生素預防 UTI。[^1]
+- **自然史**：**多數產前腎水腫為非阻塞性,會自行緩解或穩定** → 保守追蹤＋抗生素預防 UTI（輕度多以 pyelectasis 稱之，絕大多屬生理性、自行緩解）。[^1][^3]
+- **病因**：**PUJ obstruction 為最常見原因**；重度（尤其第三孕期）另含 posterior urethral valves（男嬰）、VUR、megaureter、multicystic dysplastic kidney 等；盛行率 ~1–3% 孕婦。[^3]
 - **手術指徵**：依阻塞程度、**腎功能進行性下降、反覆感染** → 才介入;不需急著（多可觀察）。[^1]
 - **UTI後VUR影像評估指徵**：兒童UTI後，**多數情況下泌尿道之影像學檢查（無論有無使用抗生素預防）不能無限期延後於一段觀察期之後**——即並非所有UTI個案都要延後或省略影像評估;常規篩檢VUR並**非**建議用於所有UTI嬰幼兒，僅限特定情境：①**未滿6個月且有不典型或反覆感染**；②6個月至3歲間，且合併輸尿管擴張/腎水腫（US異常）、尿流減少、非大腸桿菌感染、或VUR家族史。[^2]
 - **VCUG非首選常規工具**：Voiding cystourethrography（VCUG）並非用於評估所有UTI病人之首選影像工具，僅於符合上述特定指徵者才安排。[^2]
@@ -26,6 +27,7 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: 官方 2017 詳解；Pediatric Nephrology 2013;28(9):1757-1761；Am J Dis Child 1992;146:1181-1184：多數產前腎水腫非阻塞性、會緩解/穩定;保守追蹤＋抗生素預防;手術保留給腎功能下降/反覆感染。
 [^2]: 官方2020詳解；Ref: Pediatric Nephrology 2013;28(9):1757-1761；Am J Dis Child 1992;146:1181-1184——UTI後泌尿道影像檢查於多數情況不能無限期延後於觀察期後；VUR常規篩檢僅限<6個月不典型/反覆感染者，或6個月-3歲間合併US異常/尿流減少/非大腸桿菌感染/VUR家族史者；VCUG非所有UTI病人之首選常規工具。
+[^3]: Ferreira A, et al. *Fetal hydronephrosis*. Radiopaedia, rID-13786, DOI 10.53347/rID-13786——**胎兒腎集尿系統異常擴張、PUJ obstruction 最常見原因**；輕度多以 pyelectasis 稱之，**絕大多屬生理性偶見、可自行緩解**，hydronephrosis 一詞多保留給疑似病理性阻塞；盛行率 ~1–3% 孕婦；重度另含 posterior urethral valves/VUR/megaureter/MCDK——佐證多數非阻塞、可觀察。
 
 ## 題目
 > [!question]- 關於先天性腎水腫(congenital hydronephrosis),何者敘述「最不恰當」? (2017-167)
