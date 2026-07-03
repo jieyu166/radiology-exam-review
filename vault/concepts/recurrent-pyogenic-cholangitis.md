@@ -7,7 +7,7 @@ aliases:
   - oriental cholangiohepatitis
   - RPC
   - 復發性化膿性膽管炎
-dateRev: 2026-06-28
+dateRev: 2026-07-03
 ---
 
 # recurrent-pyogenic-cholangitis
@@ -15,7 +15,7 @@ dateRev: 2026-06-28
 **RPC（東方膽管肝炎）的空間記憶：肝外→肝內→好發左葉外側段→節段萎縮，管內全是色素結石（Clonorchis 為蟲核），且有膽管癌風險——「無膽管癌風險」是考試陷阱。** 判讀分水嶺：**肝內外膽管多發狹窄＋擴張、管內 pigmented stone（常無膽囊結石）、好發左葉外側段節段萎縮；膽管癌為重要併發症**。
 
 ## Summary
-- **本質**：肝內外膽管反覆化膿性發炎，導致**多發膽管狹窄與擴張＋管內色素性結石（pigment stones）**;與肝吸蟲（*Clonorchis sinensis*）、蛔蟲（*Ascaris lumbricoides*）相關，蟲體/蟲卵可作為結石 nidus。[^1][^2]
+- **本質**：肝內外膽管反覆化膿性發炎，導致**多發膽管狹窄與擴張＋管內色素性結石（pigment stones）**;與肝吸蟲（*Clonorchis sinensis*）、蛔蟲（*Ascaris lumbricoides*）相關，蟲體/蟲卵可作為結石 nidus。[^1][^2][^4]
 - **流行病學**：好發**東亞、東南亞**（盛行率可達該區 30%）;女多於男，年齡 >50 歲為危險因子;西方國家因移民而漸增。[^1]
 - **分布**：兩側皆可侵犯，但**左葉外側段（lateral segment）**與右葉後段較常受累;晚期可節段性肝實質萎縮。[^1][^2]
 - **膽管癌風險**：**增加膽管癌風險（約 5–6%）**（故「無風險」為考試陷阱）。[^2]
@@ -43,6 +43,7 @@ dateRev: 2026-06-28
 [^1]: StatPearls, "Recurrent Pyogenic Cholangitis"（NCBI Bookshelf NBK564308，免費全文）：US/CT/MRCP 影像（central > peripheral 擴張、arrowhead sign、左葉外側段萎縮）、流行病學（東亞/東南亞達 30%、女>男、>50 歲、Clonorchis/Ascaris）、DDx（PSC、choledocholithiasis、cholangiocarcinoma、急性上行性膽管炎）。https://www.ncbi.nlm.nih.gov/books/NBK564308/
 [^2]: 官方 2017 詳解；Radiology Review Manual 7th, p712（RPC＝肝內外膽管狹窄擴張＋管內色素石、左葉外側段萎縮、**有膽管癌風險**）。膽管癌風險約 5–6%：Radiology Key, "Recurrent Pyogenic Cholangitis"（免費摘要）。https://radiologykey.com/recurrent-pyogenic-cholangitis/
 [^3]: Radiology Key, "Recurrent Pyogenic Cholangitis"（免費摘要）：US（echogenic sludge/stones、ductal rigidity/straightening、rapid tapering）、CT/MRCP（intra-/extrahepatic duct dilatation with stones as filling defects、左葉外側段與右葉後段受累、arrowhead sign）。對應 AJR "Recurrent Pyogenic Cholangitis: From Imaging to Intervention"（AJR.08.1104，訂閱源）。https://radiologykey.com/recurrent-pyogenic-cholangitis/
+[^4]: Gaillard F, et al. *Recurrent pyogenic cholangiohepatitis*. Radiopaedia, rID-5795, DOI 10.53347/rID-5795——**東南亞居民/移民好發、肝內外膽管狹窄擴張 + 管內色素結石**；診斷須排除已知病因（術後/外傷/PSC/膽管癌）；病因與 *Clonorchis sinensis*/*Ascaris lumbricoides* 感染相關——佐證本質與流行病學。
 
 ## 考題
 ```dataview
