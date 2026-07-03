@@ -28,6 +28,7 @@ nonImagingReason: "光電效應物理機轉為輻射物理主題，無可判讀�
 - **臨床參數取捨**：**乳房攝影用低 kVp** 以最大化光電對比（代價是劑量較高、穿透差）；提高 kVp 則康普頓散射佔比上升、對比下降。[^1]
 - **防護意義**：鉛（高 Z）之光電吸收強，故**鉛衣/鉛屏蔽**於診斷能量範圍有效阻擋。[^1]
 - **與康普頓散射對照**：**光電（∝Z³/E³）主導低能量/高 Z；康普頓（與 Z 無關、隨電子密度）主導較高能量**——判讀影像對比與散射時要分清兩機轉。[^1]
+- **衰減整體框架（McKetty）**：**衰減＝X 光束穿過物質之強度衰減，由吸收（光電）或偏折（散射）造成，受束能量與吸收體原子序影響**；I=I₀e^(−μx)（單能束）、以 half-value layer（HVL）與 homogeneity coefficient 描述穿透力；**加濾片降強度、增 HVL、降病人曝露、改善影像品質**。[^3]
 
 ## 應用重點（5 句）
 1. 光電效應是**診斷能量下產生影像對比的關鍵機轉**（尤其骨、鈣化、對比劑），因其強烈依賴 Z。[^1]
@@ -42,6 +43,7 @@ nonImagingReason: "光電效應物理機轉為輻射物理主題，無可判讀�
 ### 參考來源
 [^1]: **Tier 1/2** *Photoelectric effect*. Radiopaedia.org（實際查證 accessed 2026-07-03）：光子與內層電子作用、光子被完全吸收打出 photoelectron；機率最大之條件＝入射光子能量等於或略高於電子結合能（K-absorption edge）且電子束縛緊（K 層）；**機率 ∝ Z³/E³×ρ**（Z 加倍→×8）；隨 Z 增加大幅上升造就骨與軟組織之高對比；空缺由外層電子填補釋出特徵輻射或 Auger 電子。
 [^2]: 官方 2020 詳解（題目所引）；原引 *Nuclear Medicine: The Requisites* 4th ed., Ch.3, 24-36——光電效應與內層電子結合能相關、原子序愈大吸收愈高、機率與光子能量約成反比（1/E³），已由 [^1] Radiopaedia 一手物理條目查核並補強 Z³/E³ 關係與影像/防護應用。
+[^3]: **Tier 1** McKetty MH. *The AAPM/RSNA physics tutorial for residents. X-ray attenuation*. RadioGraphics 1998;18(1):151-63（據 PubMed，DOI [10.1148/radiographics.18.1.9460114](https://doi.org/10.1148/radiographics.18.1.9460114)；實際查證 accessed 2026-07-04）——**衰減＝X 光束穿過物質強度衰減，由吸收（光電）或偏折（散射）造成，受束能量與吸收體原子序影響**；linear/mass attenuation coefficient；**I=I₀e^(−μx)（單能束指數關係）**；以 half-value layer（HVL）與 homogeneity coefficient 描述穿透力；**加濾片降束強度、增 HVL、降病人曝露、改善影像品質**——佐證光電吸收隨低能量/高 Z 增強及其對影像對比與衰減之整體意義。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 光電效應容易發生在什麼狀況? (2020-380)
