@@ -28,6 +28,7 @@ dateRev: 2026-07-03
 - **Nyquist 概念**：取樣頻率須 ≥ 2 倍最高空間頻率，才不失真（aliasing）；影像上即「2 pixel/line pair」。[^1]
 - **上限非實測**：此為「取樣/顯示」理論上限，實際受焦點大小、幾何放大、散射、偵測器 MTF 等進一步限制而更低。[^1]
 - **縮小 FOV/增矩陣**：pixel 變小 → 極限解析度上升（但雜訊/劑量/計算負擔隨之變化）。[^1]
+- **數位系統脈絡（Körner）**：數位偵測器（DR/CR/flat-panel）之空間解析度由**偵測器元素（del/pixel）間距**決定；數位系統之優點含更大 dynamic range、劑量效率、PACS 整合，但**取樣像素間距設定了 Nyquist 極限解析度上限**（實際尚受偵測器 MTF/DQE 限制）。[^2]
 
 ## 臨床重點（5 句）
 1. **公式**：pixel = FOV/matrix；極限 = 1/(2×pixel)。[^1]
@@ -41,6 +42,7 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2020 詳解；Ref: Bushberg JT, et al. *The Essential Physics of Medical Imaging*, 3rd ed., 2011, p.299（題目所引；accessed 2026-07-03）——**pixel size = FOV/matrix**；**極限空間解析度(lp/mm) = 1/(2×pixel size)**（Nyquist 抽樣定理：分辨一組 line pair 需 2 個 pixel 寬度）。範例 FOV 30 cm、matrix 1024 → 0.293 mm → ~1.71 lp/mm，計算經逐步覆核無誤。
+[^2]: **Tier 1** Körner M, Weber CH, Wirth S, et al. *Advances in digital radiography: physical principles and system overview*. RadioGraphics 2007;27(3):675-86（據 PubMed，DOI [10.1148/rg.273065075](https://doi.org/10.1148/rg.273065075)；Review；實際查證 accessed 2026-07-04）——數位放射攝影已取代 screen-film；概述各偵測器/讀出技術、**影像品質準則（空間解析度由偵測器元素/pixel 間距決定）**、劑量議題與 PACS 整合；數位系統之更大 dynamic range 與劑量效率；**取樣 pixel 間距設定 Nyquist 極限解析度上限（實際尚受 MTF/DQE 限制）**。佐證 FOV/matrix→pixel→Nyquist(1/(2×pixel)) 之解析度框架與其實務限制。原「官方/教科書」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 若一透視攝影設備設定的可視照野大小(FOV)為30cm，且影像成像矩陣(imaging matrix)為1024x1024，則該系統理論上解析度不超過多少lp/mm？ (2020-415)
