@@ -21,9 +21,10 @@ dateRev: 2026-07-03
 
 ## 放射科醫師影像判讀重點
 - **時機貼近操作**：需矯正者於術前即刻/術中給 FFP，並在效果窗內完成操作。[^1]
-- **風險分層**：依 SIR 將處置分低/高出血風險，設不同 INR/血小板管理閾值，非一律矯正。[^2]
-- **替代/輔助**：維生素 K、PCC（凝血酶原複合物）等視情況；FFP 量大、負荷/TRALI 風險需權衡。[^2]
-- **不過度矯正**：輕度 INR 上升多數不需 FFP；避免不必要輸血相關風險。[^2]
+- **SIR 2019 出血風險兩分層**：**low-risk（可壓迫）vs high-risk 處置**——2019 更新由三分層簡化為二分層，各設不同 INR/血小板閾值與抗凝/抗血小板停藥建議。[^3]
+- **風險分層閾值（SIR 2019）**：**high-risk 處置建議 INR 矯正至 ≤1.5-1.8、血小板 ≥50×10⁹/L；low-risk 則閾值放寬**（不常規為輕度異常輸血）。[^3]
+- **替代/輔助**：維生素 K、PCC（凝血酶原複合物）等視情況；FFP 量大、負荷/TRALI 風險需權衡。[^2][^3]
+- **不過度矯正**：**延長之凝血時間不應被假定為出血風險增加、亦不應僅據此預防性輸 FFP**；輕度 INR 上升多數不需 FFP。[^2]
 - **記憶點**：FFP＝「即時、短效」——給得太早或太晚都無效。[^1]
 
 ## 臨床重點（5 句）
@@ -38,7 +39,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Expert Radiology Series: Image-Guided Interventions, p.40（題目所引）——FFP 矯正之凝血因子半衰期短，最佳給予時機為緊接手術前及/或手術中；提前或延後給予皆無法於操作當下提供足夠保護。
-[^2]: Patel IJ, et al. *Consensus Guidelines for Periprocedural Management of Coagulation Status and Hemostasis Risk in Percutaneous Image-guided Interventions*. J Vasc Interv Radiol 2012;23(6):727-736（SIR/CIRSE；PMID 22513394；accessed 2026-07-03）——依處置出血風險分層管理凝血；**延長之凝血時間不應被假定為出血風險增加、亦不應僅據此預防性輸 FFP**；FFP 效果短暫、需貼近操作時機（佐證緊鄰術前/術中給予之原則）。
+[^2]: **Tier 1** Patel IJ, Davidson JC, Nikolic B, et al. *Consensus Guidelines for Periprocedural Management of Coagulation Status and Hemostasis Risk in Percutaneous Image-guided Interventions*. J Vasc Interv Radiol 2012;23(6):727-36（據 PubMed，DOI [10.1016/j.jvir.2012.02.012](https://doi.org/10.1016/j.jvir.2012.02.012)；SIR/CIRSE Practice Guideline；實際查證 accessed 2026-07-04）——依處置出血風險分層管理凝血；**延長之凝血時間不應被假定為出血風險增加、亦不應僅據此預防性輸 FFP**；FFP 效果短暫、需貼近操作時機（佐證緊鄰術前/術中給予之原則）。
+[^3]: **Tier 1** Patel IJ, Rahim S, Davidson JC, et al. *Society of Interventional Radiology Consensus Guidelines for the Periprocedural Management of Thrombotic and Bleeding Risk in Patients Undergoing Percutaneous Image-Guided Interventions—Part II: Recommendations*. J Vasc Interv Radiol 2019;30(8):1168-84（據 PubMed，DOI [10.1016/j.jvir.2019.04.017](https://doi.org/10.1016/j.jvir.2019.04.017)；SIR/CAIR/CIRSE Practice Guideline；實際查證 accessed 2026-07-04）——2019 更新將處置**由三分層簡化為 low-risk（可壓迫）vs high-risk 二分層**；**high-risk 建議 INR 矯正至 ≤1.5-1.8、血小板 ≥50×10⁹/L，low-risk 閾值放寬**；納入 DOAC/抗血小板停藥與橋接建議；延續「不因單純 INR 上升即預防性輸 FFP」原則。原「官方/無 DOI 引用」弱來源已由本次 PubMed DOI 查核升級。
 
 ## 題目
 > [!question]- When patient with abnormal low PT or INR on schedule for vascular intervention, best strategy for correction is fresh frozen plasma given at: (2017-332)
