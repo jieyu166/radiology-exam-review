@@ -7,33 +7,48 @@ aliases:
   - 21-hydroxylase deficiency
   - cerebriform adrenal gland
   - 先天性腎上腺增生症
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # congenital-adrenal-hyperplasia
 
-**先天性腎上腺增生症(CAH)是體染色體隱性遺傳之腎上腺皮質醇合成酵素缺乏症（約90%為21-hydroxylase deficiency），造成17-hydroxy-progesterone無法轉換為cortisol而堆積，並促使雄性素過度生成——當嬰兒因外生殖器性別模糊(ambiguous genitalia)合併17-hydroxy-progesterone上升懷疑CAH時，首選影像檢查是「腎上腺超音波(ultrasound of adrenal gland)」。** 判讀分水嶺：**CAH的超音波診斷依據為雙側腎上腺增大——肢長(limb length)≥20mm、肢寬(limb width)≥4mm，合併正常皮髓質分化;肢寬>4mm合併分葉狀表面(lobulated surface)與斑點狀回音(stippled echogenicity)三者合併敏感度92%、特異度100%;特徵性徵象為「cerebriform pattern（腦回狀）」腎上腺外觀；部分病人超音波仍可能正常;男性病人可見睪丸腎上腺殘餘組織(testicular adrenal rest)形成之腫塊。**
+**先天性腎上腺增生症（CAH）是體染色體隱性之腎上腺類固醇合成酵素缺乏（約 90% 為 21-hydroxylase deficiency），酵素阻斷使 cortisol↓→ACTH↑→腎上腺增生 + 雄性素過度生成 → 女嬰外生殖器男性化。疑診 CAH（外生殖器模糊 + 17-OHP 上升）時，首選影像為『腎上腺超音波』。** 判讀分水嶺：**US 診斷依雙側腎上腺增大——肢長 ≥20mm、肢寬 ≥4mm、皮髓質分化正常；肢寬 >4mm + 分葉表面 + 斑點回音三者合併敏感度 92%/特異度 100%；特徵為 cerebriform（腦回狀）外觀；部分可正常；男性可見睪丸腎上腺殘餘組織腫塊。**
 
 ## Summary
-- **生化機轉**：CAH為體染色體隱性遺傳的皮質醇合成酵素缺乏症，**21-hydroxylase deficiency約占90%**病例、11-beta hydroxylase deficiency次之。酵素缺乏使progesterone/17-hydroxyprogesterone無法下游轉換為cortisol，經負回饋刺激ACTH分泌增加，促使腎上腺雄性素(adrenal androgens)過度生成——女嬰因此出現外生殖器男性化(female pseudohermaphroditism/ambiguous genitalia)。[^1]
-- **首選影像檢查**：新生兒/嬰兒疑似CAH時，**腎上腺超音波(ultrasound of adrenal gland)為首選檢查方式**。[^2]
-- **超音波診斷徵象**：
-  - 雙側腎上腺增大：**肢長(limb length) ≥20 mm、肢寬(limb width) ≥4 mm**，且皮髓質分化正常。
-  - **肢寬>4mm + 分葉狀表面(lobulated surface) + 斑點狀回音(stippled echogenicity)** 三者合併，敏感度**92%**、特異度**100%**。
-  - **Cerebriform pattern（腦回狀外觀）**：CAH腎上腺的特徵性表現。
-  - 部分病人超音波表現可為**正常**。
-  - 男性病人可見**睪丸腎上腺殘餘組織(testicular adrenal rest)**形成之腫塊。[^2]
+- **生化機轉**：AR 之皮質醇合成酵素缺乏（**21-hydroxylase ~90%**、11-β 次之）→ 17-OHP 堆積、**ACTH 代償↑ → 腎上腺增生 + 雄性素過度** → **女嬰外生殖器男性化（female pseudohermaphroditism/ambiguous genitalia）**。[^1][^3]
+- **首選影像**：疑似 CAH（外生殖器模糊 + 17-OHP↑）→ **腎上腺超音波為首選**。[^2][^3]
+- **US 徵象**：[^2]
+  - 雙側腎上腺增大：**肢長 ≥20mm、肢寬 ≥4mm**、皮髓質分化正常。
+  - **肢寬 >4mm + 分葉表面 + 斑點回音**三者合併：敏感度 **92%**、特異度 **100%**。
+  - **Cerebriform pattern（腦回狀）**為特徵；部分病人可正常。
+  - 男性可見**睪丸腎上腺殘餘組織（testicular adrenal rest tumor）**腫塊。
+- **腎上腺腫瘤**：20-30% CAH 病人有腎上腺腫瘤。[^3]
+
+## 放射科醫師影像判讀重點
+- **首選 US**：新生兒疑 CAH 用腎上腺 US 量肢長/肢寬 + 看表面輪廓/回音。[^2][^3]
+- **cerebriform**：腦回狀增大腎上腺為特徵；肢寬 >4mm + 分葉 + 斑點回音特異度極高。[^2]
+- **可正常陷阱**：部分 CAH US 正常，不能單以正常排除，需結合生化。[^2]
+- **男性 TART**：追蹤睪丸腎上腺殘餘腫瘤（多數男性 CAH），影響生育。[^3]
+- **性別評估**：女嬰外生殖器模糊 + 子宮/卵巢正常 + 17-OHP↑ → CAH → 查腎上腺。[^1]
+
+## 臨床重點（5 句）
+1. **機轉**：21-hydroxylase 缺乏（~90%）→ 雄性素過度、女嬰男性化。[^1][^3]
+2. **首選影像**：腎上腺超音波。[^2][^3]
+3. **US 徵象**：肢長 ≥20mm/肢寬 ≥4mm、cerebriform。[^2]
+4. **高特異**：肢寬 >4mm + 分葉 + 斑點回音（92%/100%）。[^2]
+5. **男性**：睪丸腎上腺殘餘腫瘤。[^3]
 
 > [!note] 考點：嬰兒外生殖器性別模糊合併17-hydroxy-progesterone上升，懷疑CAH，下一步檢查?
-> **Ultrasound of adrenal gland（A）**——CAH疑診時腎上腺超音波為首選影像工具，評估雙側腎上腺大小(肢長≥20mm、肢寬≥4mm)、表面輪廓（分葉/腦回狀）與回音特徵。[^1][^2]
+> **Ultrasound of adrenal gland（A）**——CAH 疑診時腎上腺超音波為首選影像工具，評估雙側腎上腺大小（肢長 ≥20mm、肢寬 ≥4mm）、表面輪廓（分葉/腦回狀）與回音特徵。[^1][^2][^3]
 
 ### 參考來源
-[^1]: 官方 2017 詳解：CAH為體染色體隱性遺傳皮質醇合成酵素缺乏症(21-hydroxylase deficiency約90%)，酵素缺乏致17-hydroxyprogesterone堆積、ACTH代償性增加致腎上腺雄性素過度生成，造成女嬰外生殖器男性化。
-[^2]: RadioGraphics 2008;28:1891-1904：CAH超音波首選檢查，診斷依據為雙側腎上腺增大(肢長≥20mm、肢寬≥4mm)伴正常皮髓質分化;肢寬>4mm+分葉狀表面+斑點狀回音三者合併敏感度92%特異度100%;cerebriform pattern為特徵性外觀;部分病人可正常;男性病人可見睪丸腎上腺殘餘組織腫塊。
+[^1]: 官方 2017 詳解——CAH 為 AR 皮質醇合成酵素缺乏（21-hydroxylase ~90%），酵素缺乏致 17-OHP 堆積、ACTH 代償增加致雄性素過度，造成女嬰外生殖器男性化。
+[^2]: RadioGraphics 2008;28(7):1891-1904（題目所引）——CAH 超音波首選，診斷依雙側腎上腺增大（肢長 ≥20mm、肢寬 ≥4mm）伴正常皮髓質分化；肢寬 >4mm + 分葉表面 + 斑點回音三者合併敏感度 92%/特異度 100%；cerebriform pattern 為特徵；部分可正常；男性可見睪丸腎上腺殘餘組織腫塊。
+[^3]: Gaillard F, et al. *Congenital adrenal hyperplasia*. Radiopaedia, rID-31066, DOI 10.53347/rID-31066——**一組 7 種 AR 腎上腺類固醇合成酵素缺乏症**；**女性雄性素過度致 virilization/atypical genitalia**；腎上腺最常受累（cerebriform 增大），**20-30% 有腎上腺腫瘤**；**多數男性有 testicular adrenal rest tumor**。
 
 ## 題目
-> [!question]- An infant with ambiguous genitalia is referred for ultrasound of pelvis. Normal uterus and ovaries suggest female pseudohermaphroditism. There is elevated 17-hydroxy-progesterone. What further evaluation is recommended? (2017-306)
-> **Ultrasound of adrenal gland（A）**——CAH疑診時腎上腺超音波為首選影像工具，評估雙側腎上腺大小(肢長≥20mm、肢寬≥4mm)、表面輪廓與回音特徵（cerebriform pattern為特徵性外觀）。[^1][^2]
+> [!question]- An infant with ambiguous genitalia... elevated 17-hydroxy-progesterone. What further evaluation is recommended? (2017-306)
+> **Ultrasound of adrenal gland（A）**——CAH 疑診時腎上腺超音波為首選影像工具，評估雙側腎上腺大小（肢長 ≥20mm、肢寬 ≥4mm）、表面輪廓與回音特徵（cerebriform pattern 為特徵性外觀）。[^1][^2][^3]
 
 ## 考題
 ```dataview
