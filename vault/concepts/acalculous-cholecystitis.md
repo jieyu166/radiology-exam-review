@@ -20,25 +20,28 @@ dateRev: 2026-07-03
 - **臨床意義**：**預後較結石性差**、**壞疽/穿孔/膿胸風險較高**、死亡率較高；診斷較難（症狀非特異、鎮靜病人）。[^1][^2]
 
 ## 放射科醫師影像判讀重點
-- **US 徵象**：膽囊壁增厚（>3 mm）、膨大、腔內淤泥、周圍積液、sonographic Murphy 徵（鎮靜病人可缺）——**無結石**。[^2]
-- **HIDA**：膽囊不顯影支持診斷，但**禁食/重症病人偽陽性**（morphine augmentation 可輔助）。[^2]
-- **併發搜尋**：壁內氣（emphysematous）、壁剝離/膜狀（gangrenous）、周圍膿瘍/穿孔——高風險族群積極找。[^2]
-- **診斷情境化**：ICU 不明發燒/敗血 + 膽囊壁增厚 + 無結石 → 高度懷疑；需結合臨床。[^1][^2]
-- **陷阱**：低白蛋白/腹水/心衰亦致膽囊壁增厚，勿單以壁厚診斷。[^2]
+- **US 首選徵象（STATdx）**：**膽囊壁增厚 >3-4 mm（低回音層狀/striated）、膨大（短軸 >4 cm）、腔內淤泥、周圍積液、sonographic Murphy 徵（鎮靜/昏迷者可缺）——無嵌頓結石**；**hepatic artery 流速 >100 cm/s 提高準確度**；color Doppler 壁充血（壞疽時消失）、CEUS 早期動脈黏膜強化。[^2][^3]
+- **CT（STATdx）**：膽囊膨大 + pericholecystic 發炎 ± 高密度淤泥/出血；CECT **mural hyperemia + hot rim sign（反應性肝充血）**；**強化中斷/不良示缺血/壞疽**；**排除膽囊炎 NPV 89%、評估併發最佳**。[^3]
+- **MR（STATdx）**：T1 高訊號淤泥、T2 壁水腫 + 周圍游離液、C+ hot rim sign、**動態早期動脈強化偏急性（慢性為漸進強化）、強化中斷示壞死**；emphysematous 於 in/out-of-phase 訊號流失。[^3]
+- **HIDA（STATdx）**：**敏感 30-100%/特異 89-100%**；4 小時或 morphine augmentation 後 90 分膽囊不顯影支持；**偽陰性＝感染但未阻塞膽囊、偽陽性＝肝功能差/禁食/TPN**；較結石性敏感度低，為 US 不確定之輔助。[^3]
+- **併發搜尋（STATdx）**：**gangrenous（壁不規則/不連續、腔內剝落膜、Doppler 血流消失）、perforation（多在 fundus、塌陷膽囊 + 壁缺損 + 鄰近積液）、emphysematous（壁/腔內氣）**——高風險族群積極找。[^3]
+- **DDx（STATdx）**：**acute calculous cholecystitis（有嵌頓結石）、sympathetic 壁增厚（平滑、Murphy 陰性、非敗血；低白蛋白/肝硬化/心衰/肝炎胰臟炎）、hyperplastic cholecystosis（comet-tail/壁內囊）、GB mucocele/hydrops（慢性阻塞膨大、壁不厚、痛少）**。[^3]
+- **陷阱**：低白蛋白/腹水/心衰亦致膽囊壁增厚，勿單以壁厚診斷。[^2][^3]
 
 ## 臨床重點（5 句）
-1. **比例**：5-10% 急性膽囊炎無結石。[^1][^2]
-2. **機轉**：膽汁淤積 + 缺血。[^2]
-3. **族群**：ICU 重症（創傷/燒傷/敗血/TPN）。[^1][^2]
-4. **預後**：較差、壞疽/穿孔率高。[^1][^2]
-5. **處置**：不穩定者經皮膽囊造廔引流（cholecystostomy）。[^2]
+1. **比例/流病（STATdx）**：**占急性膽囊炎 5-10%、發生於 0.2-0.4% 重症病人；M:F=3:1、中老年較多**。[^1][^3]
+2. **機轉（STATdx）**：**多因子——膽汁黏稠度增加 + 壁缺血再灌流傷害**；膽汁淤積（禁食/阻塞/手術）刺激上皮、缺血（低血壓/休克/創傷/敗血/燒傷/血管炎）；亦可感染（細菌/病毒/黴菌/寄生蟲，AIDS 伺機感染）或外在壓迫（腫瘤/淋巴結）。[^3]
+3. **族群/危險因子（STATdx）**：**大手術後、嚴重創傷、敗血、糖尿病、動脈硬化、TPN、長期禁食、燒傷**。[^3]
+4. **預後（STATdx）**：**較結石性差、40% 併發（壞疽/穿孔/膿胸）、死亡率高達 30%**；重症多共病診斷困難；膽汁培養陽性達 78%（G(−) 桿菌最常）。[^1][^3]
+5. **治療（STATdx）**：**手術候選者立即膽囊切除為標準；高風險者經皮膽囊造廔 + 抗生素（可診斷兼治療、留管 ≥3 週、移除前需膽道攝影排除結石）；壞疽膽囊不宜造廔**。[^2][^3]
 
 > [!note] 考點：急性膽囊炎病人中，多少比例並無膽結石?
 > **約 10%（A）**（文獻範圍 5-10%）。急性非結石性膽囊炎好發重症加護病人，機轉與膽汁淤積/缺血相關（非結石阻塞）。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Radiology: Specialty Board Review, Ch.51 Biliary System, p.397（題目所引）——急性非結石性膽囊炎占急性膽囊炎約 5-10%（10% 組距）；好發重症加護病人。
-[^2]: Gaillard F, et al. *Acute acalculous cholecystitis*. Radiopaedia, rID-18611, DOI 10.53347/rID-18611——膽囊炎無結石（或結石非致病）、**由膽汁淤積和/或膽囊缺血**；**占急性膽囊炎 5-10%**；**好發重症/受傷病人（創傷、燒傷、敗血症）**；預後較差、併發（壞疽/穿孔）風險高。
+[^2]: Gaillard F, et al. *Acute acalculous cholecystitis*. Radiopaedia, rID-18611, DOI 10.53347/rID-18611（輔助來源）——膽囊炎無結石（或結石非致病）、**由膽汁淤積和/或膽囊缺血**；**占急性膽囊炎 5-10%**；**好發重症/受傷病人（創傷、燒傷、敗血症）**；預後較差、併發（壞疽/穿孔）風險高。
+[^3]: **Tier 1** Manning MA. *Acute Acalculous Cholecystitis*（Ultrasound, Biliary System, Gallbladder Wall Pathology, Dx）. STATdx, Elsevier, updated 06/14/21（15 refs；實際查證 accessed 2026-07-04）——急性壞死發炎性膽囊病與結石無關、續發膽汁淤積 + 缺血；**占急性膽囊炎 5-10%、0.2-0.4% 重症、M:F=3:1**；**US 首選（壁 >3-4mm 層狀、膨大短軸 >4cm、淤泥、周圍積液、Murphy 徵鎮靜者可缺、hepatic artery >100cm/s 增準確、Doppler 壁充血壞疽時消失）；CT（hot rim sign、強化中斷示壞疽、排除 NPV 89%、評估併發最佳）；MR（T1 高訊號淤泥、動態早期動脈強化偏急性、emphysematous in/out-phase 訊號流失）；HIDA（敏感 30-100%/特異 89-100%、morphine augmentation、偽陽性禁食/TPN/肝功差）**；併發（gangrene 壁不連續+剝落膜、perforation fundus、emphysematous 壁氣）；**預後（較結石性差、40% 併發、死亡率達 30%、膽汁培養陽性 78% G(−)桿菌）**；治療（手術候選者立即切除、高風險經皮造廔+抗生素、壞疽不宜造廔）；DDx（結石性、sympathetic 壁增厚 Murphy 陰性、hyperplastic cholecystosis、mucocele/hydrops）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- What percentage of patients with acute cholecystitis have no gallstones? (2017-288/2018同題重複)
