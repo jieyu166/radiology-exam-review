@@ -4,29 +4,61 @@ name: HIV — Chest Manifestations & Hilar Lymphadenopathy
 subspecialty: [CH]
 aliases:
   - HIV related chest disease
+  - AIDS thoracic manifestations
   - pulmonary nocardiosis
   - HIV hilar lymphadenopathy
   - 愛滋病胸腔表現
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # hiv-chest-manifestations
 
-**肺諾卡氏菌病(pulmonary nocardiosis)不會造成肋膜門/縱膈淋巴結腫大——這是與HIV相關其他胸腔感染/腫瘤（分枝桿菌感染、卡波西氏肉瘤、淋巴瘤皆可致肺門淋巴結腫大）的重要鑑別點。**
+**HIV 胸腔病變以「CD4 數」為判讀主軸（AIDS＝CD4 <200）；肺門/縱膈淋巴結腫大的鑑別可依強化型態分類——瀰漫強化（Kaposi sarcoma、Castleman）、周邊強化伴中央壞死（結核、非結核分枝桿菌、黴菌）、軟組織密度（淋巴瘤、肺癌、全身性 HIV 淋巴腺病、類肉瘤）。而「肺諾卡氏菌病（pulmonary nocardiosis）」呈 consolidation/結節/空洞/膿瘍，『不造成肺門淋巴結腫大』——這是考題判讀關鍵。** 判讀分水嶺：**會造成肺門 LAD 者＝結核/分枝桿菌、Kaposi、淋巴瘤、Castleman、黴菌、肺癌、類肉瘤；不造成者＝Nocardia。判讀先問 CD4：PCP/KS/lymphoma 各有 CD4 門檻，型態＋免疫狀態＋病程＋ART/預防性抗生素史一起看。記憶鉤：Nocardia 有實質/空洞、沒淋巴。**
 
 ## Summary
-- **會造成肺門淋巴結腫大之HIV相關胸腔病變**：分枝桿菌感染(mycobacterial infection，如TB)、卡波西氏肉瘤(Kaposi sarcoma)、淋巴瘤(lymphoma)皆可造成肺門/縱膈淋巴結腫大。[^1]
-- **肺諾卡氏菌病(pulmonary nocardiosis)之典型影像特徵**：肺葉性或多肺葉實質化(lobar/multilobar consolidation，可能為主要表現)、局部低密度區可能反映膿瘍形成、約30%可見空洞化(cavitation)、孤立性肺腫塊或結節、網狀結節浸潤。**肺門或縱膈淋巴結腫大並非諾卡氏菌病之特徵**——此為本題判讀關鍵。[^1]
+- **考點**：**Nocardia（肺諾卡氏菌病）不造成肺門/縱膈淋巴結腫大**（呈肺葉/多葉 consolidation、結節、約 30% 空洞、膿瘍）；**結核/分枝桿菌、Kaposi sarcoma、淋巴瘤**皆可致肺門 LAD。[^1][^2]
+- **CD4 主軸**：AIDS＝CD4 <200；CD4 數為 HIV 免疫抑制之通用指標，驅動病譜與鑑別。[^1]
+- **肺門/縱膈 LAD 鑑別**：瀰漫強化（KS/Castleman）、周邊強化中央壞死（TB/NTM/黴菌）、軟組織密度（淋巴瘤/肺癌/全身性 HIV LAD/類肉瘤）。[^1]
+- **ART 改變病譜**：機會性感染（PCP）↓、非感染性併發症（肺癌、肺高壓、COPD）↑。[^1]
 
-> [!note] 考點：何者「不」造成肺門淋巴結腫大？
-> **Nocardia infection（C）**——諾卡氏菌病不造成肺門/縱膈淋巴結腫大。分枝桿菌感染(A)、卡波西氏肉瘤(B)、淋巴瘤(D)皆可造成肺門淋巴結腫大。[^1]
+## 放射科醫師影像判讀重點
+
+### 依 CD4 分層之胸腔病譜（STATdx）
+- **細菌性肺炎**：任何 CD4（有莢膜菌 S. pneumoniae/H. influenzae/Staph）——最常見呼吸道感染。[^1]
+- **PCP（Pneumocystis jirovecii）**：**CD4 <200**；雙側肺門周邊對稱毛玻璃、**>40% CXR 正常**、囊/pneumatocele 10–40%、自發性氣胸；噴霧 pentamidine 預防使表現非典型（囊/空洞）。[^1]
+- **結核（第二常見機會性感染）**：**CD4 >200 → 後原發型**（上肺尖後段/下肺上段、空洞、tree-in-bud）；**CD4 <200 → 原發型**（consolidation、**淋巴結周邊強化中央壞死**、肋膜積液、miliary）；**極低 CD4 → CXR 可正常**。[^1]
+- **NTM（MAC/kansasii）**：CD4 <50，擬 TB。黴菌（cryptococcus/histo/cocci）：CD4 <100，結節±空洞、miliary、LAD。[^1]
+- **Kaposi sarcoma**：**CD4 <200、男性、HHV-8**；**沿支氣管血管束之 flame-shaped 結節＋毛玻璃暈、小葉間隔增厚、強化性淋巴結（縱膈/肺門/腋）**。[^1]
+- **淋巴瘤**：CD4 <100、EBV；**縱膈與肺門 LAD**＋結節/consolidation。**肺癌**：任何 CD4、風險升高、結節/腫塊（腺癌最多）。[^1]
+- **LIP**：任何 CD4（兒童多）、小葉中心/支氣管血管旁結節、毛玻璃、囊。**Castleman**：任何 CD4、HHV-8、強化 LAD。**類肉瘤**：ART 時代增加。[^1]
+
+### 肺門/縱膈淋巴結腫大之鑑別（考點核心）
+- **瀰漫強化**：Kaposi sarcoma、Castleman disease。[^1]
+- **周邊強化＋中央壞死**：結核、非結核分枝桿菌、黴菌感染。[^1]
+- **軟組織密度**：淋巴瘤、肺癌、全身性 HIV 淋巴腺病、類肉瘤。[^1]
+- **Nocardia 不在此列**：肺諾卡氏菌病呈 consolidation/結節/空洞（~30%）/膿瘍、網狀結節浸潤，**不造成肺門淋巴結腫大**。[^2]
+
+### ART 病譜變化與 IRIS／模態
+- **ART 使機會性感染（PCP）↓、非感染性（肺癌、肺高壓、COPD、氣腫）↑**；**IRIS**＝ART 後免疫回復致矛盾性惡化（危險因子 CD4 <50＋高病毒量）。[^1]
+- **模態**：X 光偵測與追蹤；**CT 較敏感/特異**（偵測 X 光隱匿之 PCP/TB、特徵化、導引切片/引流、腫瘤分期）。[^1]
+
+> [!note] 考點：下列 HIV 相關胸腔病變何者「不」造成肺門淋巴結腫大？
+> **Nocardia infection**——肺諾卡氏菌病呈肺葉/多葉 consolidation、結節、約 30% 空洞、膿瘍，**不造成肺門/縱膈淋巴結腫大**。分枝桿菌感染、Kaposi sarcoma、淋巴瘤皆可致肺門 LAD。[^1][^2]
+
+## 臨床重點（5 句）
+1. **定義**：HIV 為反轉錄病毒，感染 helper T 細胞/巨噬細胞/樹突細胞 → **細胞媒介免疫下降**；**AIDS＝CD4 <200**；CD4 數為免疫抑制程度指標、驅動鑑別。[^1]
+2. **傳播**：不安全性行為、污染針具/靜脈藥癮、周產期母嬰垂直傳染（開發國家輸血已罕見）。[^1]
+3. **病程線索**：**突發（<1 週）＝細菌性肺炎；漸進（>1 週）＝PCP/分枝桿菌/腫瘤**；症狀含咳嗽/發燒/體重減輕/淋巴腺病。[^1]
+4. **治療/預防**：ART 為核心；依 **CD4 給預防性抗生素**（PCP、弓形蟲、TB、NTM）。[^1]
+5. **預後**：**ART 大幅降低死亡率**（診斷後餘命 20–50 年）；無 ART 或不遵從者預後差，發展成 AIDS 後存活僅 6–19 個月。[^1]
 
 ### 參考來源
-[^1]: Radiopaedia.org, *Pulmonary nocardiosis*（2018 交換考題詳解 p.166 引用；Tier 3 輔助）；*Primer of Diagnostic Imaging*, 6th ed.。肺諾卡氏菌病典型表現為肺葉/多肺葉實質化(主要特徵)、局部低密度可能為膿瘍、約30%空洞化、孤立肺腫塊/結節、網狀結節浸潤；肺門或縱膈淋巴結腫大非諾卡氏菌病特徵；分枝桿菌感染/卡波西氏肉瘤/淋巴瘤皆為HIV相關可致肺門淋巴結腫大之病變。
+[^1]: **Tier 1** Betancourt-Cuellar SL. *HIV/AIDS*（Chest, Dx）. STATdx, Elsevier, updated 10/20/21（5 refs；實際查證 accessed 2026-07-03）——CD4 主軸（AIDS<200）；病譜（細菌性肺炎任何 CD4、PCP<200 雙側毛玻璃/CXR>40% 正常、TB>200 後原發/<200 原發含壞死性 LAD、NTM<50、黴菌<100、KS<200 flame-shaped+強化 LAD、淋巴瘤<100 縱膈肺門 LAD、肺癌任何 CD4、LIP/Castleman/類肉瘤）；**肺門 LAD 鑑別＝瀰漫強化(KS/Castleman)/周邊強化壞死(TB/NTM/黴菌)/軟組織(淋巴瘤/肺癌/全身 HIV LAD/類肉瘤)**；ART 使機會感染↓、非感染併發症↑；IRIS；X 光追蹤、CT 較敏感。
+[^2]: *Pulmonary nocardiosis*. Radiopaedia.org；*Primer of Diagnostic Imaging*, 6th ed.（輔助來源，題目所引）——肺諾卡氏菌病典型為肺葉/多葉 consolidation（主要）、局部低密度膿瘍、約 30% 空洞、孤立肺腫塊/結節、網狀結節浸潤；**肺門或縱膈淋巴結腫大非其特徵**。與 [^1] 之 LAD 鑑別互補、支撐考題答案。原「Radiopaedia/教科書 only」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following HIV related chest manifestation would NOT cause hilar lymphadenopathy? (2018-266)
-> **Nocardia infection（C）**——諾卡氏菌病不造成肺門淋巴結腫大。分枝桿菌感染(A)、卡波西氏肉瘤(B)、淋巴瘤(D)皆可致肺門淋巴結腫大。[^1]
+> **Nocardia infection**——諾卡氏菌病不造成肺門淋巴結腫大（呈 consolidation/結節/空洞/膿瘍）。分枝桿菌感染、Kaposi sarcoma、淋巴瘤皆可致肺門 LAD。[^1][^2]
 
 ## 考題
 ```dataview
