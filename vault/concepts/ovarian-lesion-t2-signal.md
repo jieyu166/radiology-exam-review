@@ -5,6 +5,7 @@ subspecialty: [GU]
 aliases:
   - T2 hypointense ovarian lesion
   - T2 shading sign
+  - T2-dark spot
   - ageing blood on MRI
   - 卵巢病灶T2訊號分類
 dateRev: 2026-07-03
@@ -12,42 +13,51 @@ dateRev: 2026-07-03
 
 # ovarian-lesion-t2-signal
 
-**卵巢/附件病灶依 T2 訊號（相對骨骼肌）分兩大類：T2 低訊號（endometrioma、cystic adenomyosis、hematosalpinx、fibroma/fibrothecoma、leiomyoma、cystadenofibroma、struma ovarii）與 T2 高訊號（hemorrhagic cyst、endometrioma 惡性轉化、mucinous neoplasm、Krukenberg tumor）。血液產物之訊號隨出血分期而變——這是「subacute 出血」判讀的核心陷阱。** 判讀分水嶺：**「subacute 出血是 T2 低還是高」取決於是 early 還是 late——early subacute（intracellular methemoglobin，3–7 天）T1 高/T2 低；late subacute（extracellular methemoglobin，1 週–數月）T1 高/T2「亦高」。考題若只說 subacute 而標 T2 低，是取 early subacute。**
+**卵巢/附件病灶以 T2 訊號（相對「骨盆肌肉」）分群：T2 與肌肉等訊號（相對偏低）＝endometrioma、fibroma/fibrothecoma、cystadenofibroma、struma ovarii；T2 高於肌肉＝hemorrhagic cyst、Krukenberg、mucinous cystic neoplasm。T2 偏低多因「纖維成分、慢性血鐵、或黏液/signet-ring」。** 判讀分水嶺：**若考題問「subacute 出血 T2 高或低」，答案取決 early/late——early subacute（細胞內 methemoglobin，3–7 天）T1 高/T2 低；late subacute（細胞外 metHb，1 週–數月）T1 高/T2「亦高」。含血病灶先定出血分期，勿一律當 T2 高或低。記憶鉤：纖維與 signet-ring 讓 T2 變暗；血的 T2 隨分期翻轉。**
 
 ## Summary
-- **T2 低訊號（相對骨骼肌）**：endometrioma、cystic adenomyosis、hematosalpinx、leiomyoma、fibroma、fibrothecoma、cystadenofibroma、struma ovarii（多為纖維成分或含鐵/慢性血）。[^1]
-- **T2 高訊號（相對骨骼肌）**：hemorrhagic cyst、endometrioma 惡性轉化、mucinous cystic neoplasm、Krukenberg tumor。[^1]
-- **出血分期與 T1/T2 訊號（核心）**：[^2]
-  - **Hyperacute（分鐘–24h）**：oxyhemoglobin（細胞內）→ **T1 iso/低、T2 高**。
-  - **Acute（1–3 天）**：deoxyhemoglobin（細胞內）→ **T1 iso/低、T2 低**。
-  - **Early subacute（3–7 天）**：methemoglobin（細胞內）→ **T1 高、T2 低**。
-  - **Late subacute（1 週–數月）**：methemoglobin（細胞外）→ **T1 高、T2 亦高**。
-  - **Chronic（數月–數年）**：hemosiderin/ferritin → **T1 低、T2 極低（GRE/SWI blooming）**。
+- **T2 與肌肉等訊號（相對低）**：endometrioma、fibroma/fibrothecoma、cystadenofibroma、struma ovarii。[^3]
+- **T2 高於肌肉**：hemorrhagic cyst、Krukenberg tumor、mucinous cystic neoplasm。[^3]
+- **依囊實性**：實性＝fibroma/fibrothecoma、Krukenberg、adenofibroma；囊性＝endometrioma、hemorrhagic cyst、mucinous；囊實混合＝cystadenofibroma、struma ovarii、Brenner tumor。[^3]
+- **出血分期與 T1/T2（核心陷阱）**：early subacute（細胞內 metHb）T1 高/T2 低 → late subacute（細胞外 metHb）T1 高/T2 高；chronic（hemosiderin）T2 極低 blooming。[^2]
 
 ## 放射科醫師影像判讀重點
-- **subacute 的 T2「翻轉」（考點）**：**early subacute（細胞內 metHb）T2 低 → late subacute（細胞外 metHb）T2 高**——判讀含血病灶要先定分期，勿一律當 T2 高或低。[^2]
-- **endometrioma 之 T2 shading**：**T1 高、T2 低（shading sign）**因慢性反覆出血之高蛋白/血鐵含量；與單純出血性囊腫（T1 高、T2 常仍高）區分。[^1]
-- **纖維性 T2 低病灶**：fibroma/fibrothecoma/cystadenofibroma/leiomyoma 因膠原纖維呈 T2 低——若見「附件 T2 低實質腫塊」要想纖維性腫瘤，勿逕判惡性。[^1]
-- **惡性線索仍看形態**：T2 高訊號本身不等於惡性——需合併實質成分、乳突狀突起、血流、腹水判讀（見 [[ovarian-mass-benign-vs-malignant]]）。[^1]
-- **GRE/SWI**：慢性血之 hemosiderin 於 GRE/SWI 呈明顯低訊號 blooming，有助辨識舊出血。[^2]
 
-## 臨床重點（5 句）
-1. T2 訊號分類是附件 MRI 特徵化的骨架——**T2 低（纖維/慢性血/子宮內膜異位）vs T2 高（新血/黏液/轉移）**。[^1]
-2. **endometrioma（T1 高、T2 shading）**臨床與不孕、痛經相關，惡性轉化（多為 clear cell/endometrioid）時囊內出現強化實質結節。[^1]
-3. 出血分期判讀影響臨床——例如區分新鮮 vs 舊出血、追蹤病灶演變。[^2]
-4. 附件 T2 低實質腫塊若見於停經婦女仍須排除惡性/轉移（Krukenberg 常 T2 高但可混雜）。[^1]
-5. 判讀時把「subacute T2 翻轉、endometrioma shading、纖維性 T2 低」三個陷阱記牢，避免誤判。[^1][^2]
+### 各實體之 T2 低訊號機轉與判讀特徵（STATdx）
+- **Endometrioma**：**T1 高、T1 FS 仍高**（與含脂之成熟畸胎瘤區分）、**T2 shading**（T1 高之囊在 T2 訊號流失）、**T2-dark spots**（囊內離散顯著低訊號點）；US 均質低階回音「毛玻璃」、35% 囊壁小高回音灶；15% 非典型可有壁結節（多無血流、adherent clot/fibrin）；惡性轉化＝clear cell/endometrioid。[^3]
+- **Hemorrhagic cyst**：**僅停經前生理性、追蹤會消退**；US retracted clot 凹形、fishnet/reticular 細線不完全橫跨；T1 高、T1 FS 仍高；**T2 常為高（可低）、無 shading、無 T2-dark spots**（與 endometrioma 區分）。[^3]
+- **Fibroma/fibrothecoma**：**T2 低**（膠原纖維）、US 明顯後方聲影、乏血流；**Meigs 症候群（腹水＋肋膜積液）**、fibrothecoma 可高雌激素（子宮內膜增生/息肉/癌）。[^3]
+- **Krukenberg tumor**：**T2 可變低訊號**（轉移性含黏液 signet-ring 細胞＋豐富膠原）、**雙側 60–80%**、原發多為胃（70%）＞乳/大腸/闌尾；實性＋囊、實質中度–明顯強化。[^3]
+- **Cystadenofibroma/adenofibroma**：低 T2 纖維成分致**壁/中隔增厚（可 > 3 mm）**、± 乳突狀突起；adenofibroma 以實性為主似 fibroma、cystadenofibroma 以囊為主。[^3]
+- **Brenner tumor**：**極低 T2＋鈣化**、低 T1（纖維成分）、**中度以上強化**（與乏血流之 fibrothecoma 區分）；合併上皮性腫瘤與鈣化偏向 Brenner。[^3]
+- **Struma ovarii**：**濃稠膠質致部分囊室 T2 顯著低訊號**、T1 中等；± 成熟畸胎瘤、實質強強化、~5% 甲狀腺功能亢進。[^3]
+- **Ovarian fibromatosis**：**black garland sign**（T2 低訊號環繞卵巢、central 卵巢不受累），與實性卵巢腫塊區分。[^3]
+
+### 出血分期之 T2「翻轉」（考點）
+- **early subacute（細胞內 metHb，3–7 天）T2 低 → late subacute（細胞外 metHb，1 週–數月）T2 高**；acute（deoxyHb）T2 低、hyperacute（oxyHb）T2 高；**chronic（hemosiderin/ferritin）T2 極低、GRE/SWI blooming**。判讀含血病灶要先定分期。[^2]
+
+### 判讀提醒
+- **T2 高訊號 ≠ 惡性**：需合併實質成分、乳突突起、血流、腹水綜合判讀（見 [[ovarian-mass-benign-vs-malignant]]）。[^3]
+- 附件「T2 低實性腫塊」先想**纖維性（fibroma/Brenner/cystadenofibroma）**，勿逕判惡性；但停經婦女仍須排除 Krukenberg/轉移。[^3]
 
 > [!note] 考點：何種卵巢病灶典型呈 T2 低訊號（相對骨骼肌）？
-> **Subacute hemorrhage（D）**——惟需留意**僅 early subacute（3–7 天，細胞內 methemoglobin）呈 T2 低**；**late subacute（1 週–數月，細胞外 methemoglobin）則轉為 T2 高**。其餘選項（Krukenberg tumor、yolk sac tumor、abscess）多呈 T2 高或混雜訊號。[^1][^2]
+> **Subacute hemorrhage（D）**——惟需留意**僅 early subacute（3–7 天，細胞內 methemoglobin）呈 T2 低**；**late subacute（細胞外 methemoglobin）轉為 T2 高**。其餘（Krukenberg、yolk sac tumor、abscess）多呈 T2 高或混雜。纖維性腫瘤（fibroma/Brenner）與 endometrioma 亦為典型 T2 低。[^2][^3]
+
+## 臨床重點（5 句）
+1. **框架**：T2 訊號（相對肌肉）是附件 MRI 特徵化骨架——T2 低（纖維/慢性血/黏液 signet-ring）vs T2 高（新血/多數黏液）。[^3]
+2. **Endometrioma**：與**不孕、痛經、子宮內膜異位症**相關；長期監測，**惡性轉化（clear cell/endometrioid）**時囊內出現強化實質結節。[^3]
+3. **Fibroma/fibrothecoma**：**Meigs 症候群**（良性纖維瘤＋腹水＋肋膜積液，術後緩解）；fibrothecoma 之**高雌激素**可致子宮內膜病變。[^3]
+4. **Krukenberg tumor 為轉移瘤**（原發胃 70%、雙側 60–80%）——診斷卵巢 signet-ring 轉移須尋找並處理原發（多為胃腸）。[^3]
+5. **Struma ovarii** ~5% 甲亢；出血分期判讀（新鮮 vs 舊血、hemosiderin blooming）影響病灶演變追蹤與臨床決策。[^2][^3]
 
 ### 參考來源
-[^1]: 官方 2020 詳解（題目所引，RadPrimer）——T2 低訊號附件病灶＝endometrioma/cystic adenomyosis/hematosalpinx/leiomyoma/fibroma/fibrothecoma/cystadenofibroma/struma ovarii；T2 高訊號＝hemorrhagic cyst/endometrioma 惡性轉化/mucinous neoplasm/Krukenberg；此 T2 分類與 endometrioma shading、纖維性腫瘤 T2 低為標準婦科 MRI 教學。
-[^2]: **Tier 1/2** *Hemorrhage on MRI（Ageing blood on MRI）*. Radiopaedia.org（doi:10.53347/rID-6671，last revised 2026-04-08，實際查證 accessed 2026-07-03）：出血分期 T1/T2——hyperacute（oxyHb 細胞內）T1 iso-低/T2 高、acute（deoxyHb 細胞內）T1 iso-低/T2 低、**early subacute（metHb 細胞內）T1 高/T2 低、late subacute（metHb 細胞外）T1 高/T2 高**、chronic（hemosiderin/ferritin）T1 低/T2 極低（GRE blooming）——證實 subacute 之 T2 訊號隨 early/late 翻轉。
+[^1]: 官方 2020 詳解（題目所引，RadPrimer）——T2 低訊號附件病灶＝endometrioma/cystic adenomyosis/hematosalpinx/leiomyoma/fibroma/fibrothecoma/cystadenofibroma/struma ovarii；T2 高＝hemorrhagic cyst/endometrioma 惡性轉化/mucinous/Krukenberg。原弱來源之分類已由 [^3] STATdx Tier 1 查核並細化。
+[^2]: *Hemorrhage on MRI（Ageing blood on MRI）*. Radiopaedia.org（DOI 10.53347/rID-6671，last revised 2026-04-08，實際查證 accessed 2026-07-03，輔助來源）——出血分期 T1/T2：hyperacute（oxyHb 細胞內）T1 iso-低/T2 高、acute（deoxyHb）T1 iso-低/T2 低、**early subacute（metHb 細胞內）T1 高/T2 低、late subacute（metHb 細胞外）T1 高/T2 高**、chronic（hemosiderin/ferritin）T1 低/T2 極低（GRE blooming）——證實 subacute T2 隨 early/late 翻轉。
+[^3]: **Tier 1** Shaaban AM. *Ovarian Lesions With Low T2 Signal Intensity*（Gynecology, DDx）. STATdx, Elsevier, updated 07/15/22（7 refs；實際查證 accessed 2026-07-03）——T2（相對骨盆肌肉）分群：iso（endometrioma/fibroma-fibrothecoma/cystadenofibroma/struma ovarii）vs hyper（hemorrhagic cyst/Krukenberg/mucinous）；endometrioma T2 shading＋T2-dark spots、T1 FS 仍高；hemorrhagic cyst 停經前/會消退/無 shading；fibroma T2 低＋後方聲影＋Meigs；Krukenberg signet-ring 黏液＋膠原致 T2 低、雙側 60–80%、原發胃 70%；cystadenofibroma 纖維成分致中隔>3mm；Brenner 極低 T2＋鈣化＋中度強化；struma ovarii 膠質致 T2 低、~5% 甲亢；fibromatosis black garland sign。
 
 ## 題目
 > [!question]- Which of the following ovarian lesions is typically hypointense (relative to skeletal muscles) at T2W MR imaging? (2020-248)
-> **Subacute hemorrhage（D）**——需留意僅 early subacute（細胞內 methemoglobin）呈 T2 低，late subacute（細胞外 methemoglobin）轉為 T2 高。[^1][^2]
+> **Subacute hemorrhage（D）**——需留意僅 early subacute（細胞內 methemoglobin）呈 T2 低，late subacute（細胞外 methemoglobin）轉為 T2 高。纖維性腫瘤（fibroma/Brenner）與 endometrioma 亦為典型 T2 低。[^2][^3]
 
 ## 考題
 ```dataview
