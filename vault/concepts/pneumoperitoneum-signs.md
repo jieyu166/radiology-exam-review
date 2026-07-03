@@ -6,30 +6,49 @@ aliases:
   - pneumoperitoneum
   - Rigler sign
   - football sign
-  - ligamentum teres sign
+  - cupola sign
+  - continuous diaphragm sign
   - 氣腹放射學徵象
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # pneumoperitoneum-signs
 
-**氣腹(pneumoperitoneum)之放射學徵象眾多，包含Rigler sign(double wall sign，腸壁內外皆可見氣體致腸壁雙側可見)、football sign(大量游離氣體使腹腔呈橢圓形足球狀輪廓)、ligamentum teres sign(肝圓韌帶周圍游離氣體勾勒線狀密度)，另有urachus sign、leaping dolphins sign、inverted V sign等。**
+**氣腹徵象眾多且依「拍攝姿勢」而異——立位看橫膈下透亮＋continuous diaphragm sign；仰臥看 Rigler sign（腸壁雙側可見）、football sign（大量游離氣體＋falciform 如球縫線）、cupola sign（氣體勾勒橫膈中央腱）、ligamentum teres/falciform sign、urachus sign、inverted V sign 等；CT（尤肺窗）最敏感。** 判讀分水嶺：**見游離氣體先想「85–95% 為腸道穿孔」之外科急症，但要排除術後（多 3 天內吸收）、由氣胸/縱膈氣腫沿橫膈下延、腹膜透析等非穿孔性原因——區分「該開刀 vs 觀察」是判讀的臨床價值。**
 
 ## Summary
-- **Rigler sign (double wall sign)**：游離氣體同時位於腸腔內與腹腔內，使腸壁內外兩側輪廓皆可見(腸壁呈「雙壁」表現)。[^1]
-- **Football sign**：大量游離氣體使腹腔輪廓呈**橢圓形/足球狀**外觀（多見於新生兒大量氣腹）。[^1]
-- **Ligamentum teres sign**：游離氣體勾勒**肝圓韌帶(ligamentum teres)裂隙**周圍，呈線狀密度影，沿肝下緣走行。[^1]
-- **其他徵象**：**Urachus sign**（充氣urachus，膀胱與臍之間垂直線）、**Leaping dolphins sign**（橫膈下氣體與橫膈肌條紋可見）、**Inverted V sign**（游離氣體勾勒外側臍韌帶，自臍部向外下走行）。[^1]
+- **Rigler sign（double wall sign）**：游離氣體同時在腸腔內外，使**腸壁內外兩側輪廓皆可見**（惟緊貼之充氣腸環可偽陽性）。[^1]
+- **Football sign**：大量游離氣體使腹腔呈**橢圓/足球狀**、氣體撐開兩側腹並勾勒 **falciform 韌帶如球縫線**（多見新生兒大量氣腹）。[^1]
+- **Ligamentum teres / falciform sign**：游離氣體勾勒肝圓韌帶/鐮狀韌帶裂隙呈線狀密度。[^1][^2]
+- **其他仰臥徵象**：**cupola sign（氣體勾勒橫膈中央腱）**、continuous diaphragm sign、urachus sign、leaping dolphins sign、inverted V sign（勾勒外側臍韌帶）。[^1][^2]
+
+## 放射科醫師影像判讀重點
+- **依姿勢找氣體（關鍵）**：[^1]
+  - **立位**：橫膈下新月形透亮、**continuous diaphragm sign**。
+  - **仰臥**：amorphous 透亮（肝比心臟更透亮）、Rigler、falciform 顯影、football、cupola。
+  - **cross-table lateral**：前腹壁下曲線狀透亮勾勒腸環/肝前緣。
+  - **左側臥（left lateral decubitus）**：側腹壁與肝緣間曲線狀透亮（無法站立者首選）。
+- **CT 最敏感**：**尤以肺窗**顯示少量游離氣體最佳；US 見前腹膜下線狀強回聲＋**dirty posterior shadowing**（肝表面最確定）。[^1]
+- **偽陽性/鑑別**：緊貼充氣腸環可偽 Rigler；**由氣胸/縱膈氣腫沿橫膈裂孔下延**（機械通氣/CPAP、腹部理學檢查良性、無腹膜炎）；chilaiditi（結腸嵌於肝橫膈間）勿誤判。[^1]
+- **量與時序判讀**：術後游離氣體**多 3 天內吸收**；**持續或增量**應懷疑穿孔/吻合處漏。[^1]
+
+## 臨床重點（5 句）
+1. 氣腹之外科意義在於**85–95% 為腸道穿孔**，屬急症，需結合臨床（腹膜炎徵象）判斷是否開刀。[^1]
+2. **穿孔常見原因**：消化性潰瘍穿孔（NSAID/類固醇/壓力）、感染性結腸穿孔（非外傷最常見）、腫瘤/淋巴瘤、阻塞、缺血、外傷。[^1]
+3. **新生兒**須想 NEC（早產/低體重）、自發性腸/胃穿孔、腸閉鎖/腸扭轉；影像找 pneumatosis、門靜脈氣體。[^1]
+4. **非穿孔性氣腹**（術後、腹膜透析、內視鏡/管路、氣胸下延）不需手術——臨床病史與腹膜炎徵象是分流關鍵。[^1]
+5. 判讀時應主動描述游離氣體之量、位置與可能來源，協助外科決定處置。[^1][^2]
 
 > [!note] 考點：下列何者為氣腹之放射學徵象？
-> **以上皆是（D）**——Rigler sign、football sign、ligamentum teres sign皆為氣腹之已知徵象。[^1]
+> **以上皆是（D）**——Rigler sign（double wall）、football sign、ligamentum teres sign（另含 cupola、continuous diaphragm、urachus、leaping dolphins、inverted V sign）皆為氣腹之已知徵象。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radiology Review Manual, 7th edition, p.771-772（題目所引）——氣腹徵象含Rigler sign(double wall sign)、football sign、ligamentum teres sign、urachus sign、leaping dolphins sign、inverted V sign。
+[^1]: **Tier 1** Retrouvey M, Aquino MR. *Pneumoperitoneum*（Pediatrics, Gastrointestinal, DDx）. STATdx，last updated 2026-03-24. Elsevier（實際查證 accessed 2026-07-03，4 references）：**腸道穿孔佔 85–95%**；徵象 Rigler（腸壁雙側，緊貼腸環可偽陽性）、立位橫膈下透亮＋continuous diaphragm、仰臥 falciform 顯影/football（air 撐兩側腹＋falciform 如球縫線）/cupola（橫膈中央腱）、cross-table lateral、left lateral decubitus；**CT（肺窗）最敏感、US 前腹膜下線狀強回聲＋dirty shadowing（肝表面最確定）**；病因術後（3 天內吸收，持續/增量疑漏）、NEC、外傷、氣胸/縱膈氣腫下延、阻塞、穿孔性潰瘍/感染/腫瘤/缺血/異物（磁鐵）/Ehlers-Danlos type 4。
+[^2]: 官方 2020 詳解（題目所引）；原引 *Radiology Review Manual* 7th ed. p.771-772——氣腹徵象含 Rigler sign(double wall)、football sign、ligamentum teres sign、urachus sign、leaping dolphins sign、inverted V sign，已由 [^1] STATdx 一手來源查核並補強姿勢別偵測、CT/US 與病因分流。
 
 ## 題目
 > [!question]- 下列何者為Radiologic sign of pneumoperitoneum? (2020-395)
-> **以上皆是（D）**——Rigler sign、football sign、ligamentum teres sign皆為氣腹徵象。[^1]
+> **以上皆是（D）**——Rigler sign、football sign、ligamentum teres sign（及 cupola、continuous diaphragm、urachus、leaping dolphins、inverted V sign）皆為氣腹徵象。[^1][^2]
 
 ## 考題
 ```dataview
