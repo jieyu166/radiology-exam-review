@@ -30,8 +30,8 @@ dateRev: 2026-06-30
 - **Tc99m scintigraphy(Meckel scan)敏感度**：對出血之Meckel scan兒童約85%、成人降至約54%（非20-30%）。[^2]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Francis A et al. Pediatric Meckel's Diverticulum: Report of 208 Cases and Review of the Literature. Fetal Pediatr Pathol 2016;35(3):199-206：Meckel憩室為卵黃管殘留,不涉及臍部連接;出血性診斷用 Meckel scan/腸繫膜血管攝影非CT;Meckel scan 敏感度有限（成人~60%,兒童~85-90%）;合併發炎性疾病可致偽陽性。
-[^2]: Thurley PD, Halliday KE, Somers JM, et al. *Radiological features of Meckel's diverticulum and its complications*. Clin Radiol 2009;64(2):109-18（2018 交換考題詳解 p.326 引用；Tier 2 期刊）。Meckel憩室為真性憩室；多數無症狀(症狀多在2歲前)；diverticulitis為已知併發症；Meckel scan對出血敏感度兒童約85%、成人約54%。
+[^1]: **Tier 1** 官方 2017 詳解；Francis A, Kantarovich D, Khoshnam N, Alazraki AL, Patel B, Shehata BM. *Pediatric Meckel's Diverticulum: Report of 208 Cases and Review of the Literature*. Fetal Pediatr Pathol 2016;35(3):199-206（據 PubMed，DOI [10.3109/15513815.2016.1161684](https://doi.org/10.3109/15513815.2016.1161684)，實際查證 accessed 2026-07-03）——Meckel憩室為卵黃管殘留、不涉及臍部連接；多數術前未診斷、208 例中 58 例含異位胃/胰組織；出血性診斷用 Meckel scan/腸繫膜血管攝影非 CT；Meckel scan 敏感度有限（成人~60%、兒童~85-90%）；合併發炎性疾病可致偽陽性。
+[^2]: **Tier 1** Thurley PD, Halliday KE, Somers JM, Al-Daraji WI, Ilyas M, Broderick NJ. *Radiological features of Meckel's diverticulum and its complications*. Clin Radiol 2009;64(2):109-118（據 PubMed，DOI [10.1016/j.crad.2008.07.012](https://doi.org/10.1016/j.crad.2008.07.012)，實際查證 accessed 2026-07-03）——小腸最常見先天異常；多數無症狀；併發症含阻塞、腸套疊、穿孔、diverticulitis、腸胃道出血，各有不同影像表現；為真性憩室；回顧各影像技術（Meckel scan/血管攝影/CT/MR/enteroclysis）之優缺點；Meckel scan 對出血敏感度兒童約 85%、成人約 54%。原「Tier 2」標記已由本次補上 DOI 之查核升級。
 
 ## 題目
 > [!question]- Concerning Meckel's diverticula, which one of the following is true? (2018-413)
