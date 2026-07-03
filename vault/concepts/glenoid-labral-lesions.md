@@ -9,7 +9,7 @@ aliases:
   - ALPSA
   - Buford complex
   - 肩盂唇傷害
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # glenoid-labral-lesions
@@ -20,7 +20,7 @@ dateRev: 2026-07-02
 - **Bankart lesion**：前下盂唇自盂緣撕脫（前脫位典型）;**bony Bankart**＝合併前下盂緣骨折。[^1]
 - **Perthes lesion**：前下盂唇撕脫但**骨膜完整、盂唇未明顯移位**仍貼附 → MRI 易漏,**ABER（外展外旋）姿勢**較易顯現。[^1]
 - **ALPSA（anterior labroligamentous periosteal sleeve avulsion）**：盂唇-骨膜袖套**向內下移位並內側化癒合**。[^1]
-- **Buford complex（正常變異,非傷害）**：**前上盂唇（1-3 點鐘）缺如＋中盂肱韌帶呈索狀（cord-like）增厚**;勿誤判為盂唇撕裂或 SLAP。[^1]
+- **Buford complex（正常變異,非傷害）**：**前上盂唇（1-3 點鐘）缺如＋中盂肱韌帶呈索狀（cord-like）增厚**（見於 ~3%，範圍 1.5-5%）;勿誤判為盂唇撕裂或 sublabral foramen;**與肩不穩定無關、但增加 SLAP 頻率**。[^1][^3]
 
 > [!note] 考點：關於肩部盂唇,何者「為非（不是傷害）」?
 > 「**Buford complex**」為非——它是**正常解剖變異**（前上盂唇缺如＋索狀中盂肱韌帶）,不是盂唇傷害。Bankart、Perthes、ALPSA 皆為前下盂唇損傷型態。[^1]
@@ -35,6 +35,7 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 官方 2017 詳解；Tuite MJ et al. / Radiology 2016;278(2):316-332（盂唇損傷與變異綜述）：Bankart/bony Bankart、Perthes（骨膜完整、需 ABER）、ALPSA（內側化癒合）為前下盂唇損傷;Buford complex（前上盂唇缺如＋索狀中盂肱韌帶）為正常變異。
 [^2]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 32-33。
+[^3]: Gaillard F, et al. *Buford complex*. Radiopaedia, rID-1024, DOI 10.53347/rID-1024——**先天盂唇變異：前上盂唇（1-3 點鐘）缺如 + 中盂肱韌帶索狀增厚，見於 ~3%（1.5-5%）**；不應誤為上盂唇撕裂或 sublabral foramen；**與肩不穩定無關、但 SLAP 頻率增加**——佐證屬正常變異而非傷害。
 
 ## 題目
 > [!question]- 有關棒球投手肩部盂唇傷害,下列何者「為非」? (2017-203)
