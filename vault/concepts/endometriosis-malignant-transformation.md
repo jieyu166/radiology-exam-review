@@ -23,26 +23,29 @@ same:
 - **鑑別**：孕期 **decidualized endometrioma** 可有壁結節而模擬惡性——靠 **ADC 定量**（蛻膜化較高）與產後消退區分（見 [[decidualized-endometriotic-cyst]]）。[^2]
 
 ## 放射科醫師影像判讀重點
-- **強化壁結節**：endometrioma 內出現 T1WI 強化實質壁結節＝惡變高風險，須動態增強確認血流。[^2]
-- **T2 shading 變化**：長期 shading 之 endometrioma 若 shading 消失/出現實質成分，警覺惡變。[^1]
-- **年齡線索**：較年輕（早 10-20 年）出現卵巢癌 + 內膜異位病史 → 想 EAOC。[^3]
-- **標記整合**：HE4+CA125 升高提高準確度；與 decidualization（孕期、ADC 高）鑑別避免誤診。[^2]
+- **強化壁結節（STATdx，最敏感）**：**endometrioma 內出現強化壁結節為惡變最敏感 MR 徵象——97% 敏感、56% 特異**；須動態增強 + **subtraction 影像（後減前）**於高 T1 訊號囊內辨識強化結節。[^2][^4]
+- **T2 shading 消失（STATdx）**：腫瘤分泌液稀釋出血性囊內容 → **T2 shading 減弱/消失**，配合實質成分出現警覺惡變。[^1][^4]
+- **其他警訊（STATdx）**：**壁結節直徑 >3 cm、囊逐漸增大、restricted diffusion（增疑但非特異）**；腹水/腹膜植入反而少見。[^4]
+- **年齡線索/發生（STATdx）**：EAOC 發病較年輕、發生於 1% 內膜異位女性、**75% 發生於卵巢 endometrioma、25% 卵巢外病灶**；期別較早、預後較佳。[^3][^4]
+- **標記整合**：HE4+CA125 升高提高準確度；與 decidualization（孕期、ADC 高、似胎盤、產後消退）鑑別避免誤診。[^2]
 - **範圍評估**：對側卵巢、子宮內膜、腹膜植入一併評估分期。[^1]
+- **polypoid endometriosis 陷阱（STATdx）**：**息肉狀腫塊突入 endometrioma 腔、強化明顯、可與外源性雌激素（tamoxifen）相關**——組織學似子宮內膜息肉、屬良性但易誤為惡性。[^4]
 
 ## 臨床重點（5 句）
-1. **組織型**：endometrioid（~2/3）> clear cell（~1/7）。[^1][^3]
-2. **風險**：約 1-2%，發病早 10-20 年。[^2][^3]
-3. **警訊**：強化壁結節、T2 shading 消失、病灶增大。[^1][^2]
-4. **標記**：HE4+CA125 升高有助鑑別。[^2]
-5. **鑑別**：孕期 decidualization（ADC 高、產後消退）。[^2]
+1. **組織型**：endometrioid（~66.7%，最常見）> clear cell（~14.8%）；serous/mucinous 關聯低。[^1][^3][^4]
+2. **風險（STATdx）**：**內膜異位女性約 1% 發生惡變、罹卵巢癌風險為一般 4.5 倍**；發病較早、期別較早、預後較佳。[^2][^4]
+3. **transitional lesion（STATdx）**：**惡變常見「內膜異位 + 腫瘤 + 中間過渡病灶（異型內膜）」三者並存，嚴格準則 40% 病例符合**。[^4]
+4. **警訊/標記**：強化壁結節（最敏感）、T2 shading 消失、>3 cm、囊增大；HE4+CA125 升高有助鑑別。[^2][^4]
+5. **鑑別**：孕期 decidualization（ADC 高、似胎盤、產後消退）、polypoid endometriosis（良性、tamoxifen 相關）勿誤為惡變（見 [[decidualized-endometriotic-cyst]]）。[^2][^4]
 
 > [!note] 考點：子宮內膜異位症最常轉化為哪種卵巢癌?
 > **Endometrioid adenocarcinoma（B）**，約占 2/3；其次為 clear cell adenocarcinoma（約 1/7）。⚠️ 原始答案 A（clear cell）經官方紅字更正為 B。[^1][^3]
 
 ### 參考來源
 [^1]: 官方 2017 詳解——EAOC 以 endometrioid adenocarcinoma(66.7%)、clear cell adenocarcinoma(14.8%) 最常見；MRI 實質腫塊 T1/T2 中等訊號、可合併子宮內膜增厚/對側卵巢病灶。
-[^2]: 2019 交換考詳解；Ref: *Endometriosis revisited: an imaging review of the usual and unusual manifestations with pathological correlation*. Clinical Imaging 2018;52:163-171（accessed 2026-07-03）——HE4/CA125 升高有助鑑別卵巢癌 vs endometrioma；EAOC 約 1-2%、發病早 10-20 年；**囊內強化壁結節於 T1WI 高度懷疑惡性轉化**。
-[^3]: Gaillard F, et al. *Endometriosis*. Radiopaedia, rID-6699, DOI 10.53347/rID-6699——內膜異位（尤 endometrioma）具惡性轉化潛能，**主要為 endometrioid 與 clear cell carcinoma**；佐證組織型與惡變概念。
+[^2]: **Tier 1** Tran-Harding K, Nair RT, Dawkins A, et al. *Endometriosis revisited: an imaging review of the usual and unusual manifestations with pathological correlation*. Clin Imaging 2018;52:163-71（據 PubMed，DOI [10.1016/j.clinimag.2018.07.017](https://doi.org/10.1016/j.clinimag.2018.07.017)；Review；實際查證 accessed 2026-07-04；原 2019 交換考詳解所引即此文）——MRI 為內膜異位高準確度、可完整評估骨盆各腔；**HE4/CA125 升高有助鑑別卵巢癌 vs endometrioma；囊內強化壁結節於 T1WI 高度懷疑惡性轉化**；涵蓋少見部位與罕見併發。
+[^3]: Gaillard F, et al. *Endometriosis*. Radiopaedia, rID-6699, DOI 10.53347/rID-6699（輔助來源）——內膜異位（尤 endometrioma）具惡性轉化潛能，**主要為 endometrioid 與 clear cell carcinoma**；佐證組織型與惡變概念。
+[^4]: **Tier 1** Olpin JD, Rezvani M. *Endometrioma*（Gynecology, Adnexa, Nonneoplastic Adnexal Lesions, Dx）. STATdx, Elsevier, updated 09/23/25（31 refs；實際查證 accessed 2026-07-04）——**endometriosis 相關惡變發生於 1% 內膜異位女性、期別較早/患者較年輕/預後較佳、75% 卵巢 endometrioma/25% 卵巢外**；**ovarian carcinoma 以 endometrioid 66.7%、clear cell 14.8% 為主**；borderline（seromucinous/endometrioid/clear cell）；**惡變 MR（強化壁結節最敏感 97% 敏感/56% 特異、subtraction 影像、T2 shading 消失＝腫瘤液稀釋、壁結節 >3cm、囊增大、restricted diffusion 增疑非特異、腹水/腹膜植入少見）**；**transitional lesion（內膜異位+腫瘤+中間異型內膜過渡病灶，嚴格準則 40% 符合）、女性卵巢癌風險 4.5 倍**；polypoid endometriosis（息肉突入腔、強化明顯、tamoxifen 相關、良性似內膜息肉）；孕期 decidualization 模擬惡性（見 [[decidualized-endometriotic-cyst]]）。原「官方」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- What is the most common carcinoma the may develop from ovarian endometriosis? (2017-291)
