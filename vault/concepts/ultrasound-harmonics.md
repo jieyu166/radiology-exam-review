@@ -19,10 +19,12 @@ dateRev: 2026-07-03
 - **頻率-波長反比**：基頻 f=a、λ=x → **第二諧波 f=2a、λ=x/2（減半）**；第三諧波 f=3a、λ=x/3，以此類推。[^1][^2]
 - **臨床應用（THI）**：改善**對比解析度、減少旁瓣與混響（clutter）偽影**，尤其對肥胖/困難掃描病人有幫助。[^1][^2]
 - **深度分佈**：組織內諧波隨深度增加至最大強度後再遞減。[^2]
+- **影像處理技術**：以 **bandwidth receive filtering、pulse inversion、side-by-side phase cancellation、pulse-coded harmonics** 消除基頻回音、僅取諧波成像。[^3]
+- **Differential THI**：結合 THI 之組織清晰/減少 speckle 與「低頻穿透」→ 於更深處仍能高品質諧波成像。[^3]
 
 ## 放射科醫師影像判讀重點
 - **為何選第二諧波**：振幅最大之諧波，訊噪比足以成像；更高階諧波太弱。[^2]
-- **影像優勢**：窄波束 + 少旁瓣/混響 → 邊界更清、囊腫內更乾淨（減少假回音）。[^2]
+- **影像優勢**：改善**訊噪比（SNR）**、減少 **side lobes、grating lobes、reverberation** 偽影 → 邊界更清、囊腫內更乾淨（減少假回音）。[^2][^3]
 - **困難病人**：肥胖、腹壁厚者 THI 改善穿透與對比。[^2]
 - **物理提醒**：頻率↑則波長↓、且衰減↑（穿透↓）——THI 以組織產生之諧波兼顧解析與偽影抑制。[^1]
 - **考點**：諧波成像波長「減半」（非兩倍/四倍/1/4）。[^1]
@@ -39,7 +41,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: 超音波物理標準教材（Abdomen 100 question exam；題目所引）——諧波序列頻率與波長成反比，第二諧波頻率 2 倍對應波長減半（1/2）。
-[^2]: Weerakkody Y, et al. *Harmonic imaging*. Radiopaedia, rID-25238, DOI 10.53347/rID-25238——THI 利用**非線性傳播**（高壓部分傳播較快致波形扭曲）產生**諧波（基頻倍數）**；**第二諧波＝基頻兩倍**（振幅最大之可用諧波）；影像品質優於傳統（對比解析度佳、偽影少）；諧波隨深度先增後減。
+[^2]: *Harmonic imaging*. Radiopaedia.org, rID-25238, DOI 10.53347/rID-25238（輔助來源）——THI 利用**非線性傳播**（高壓部分傳播較快致波形扭曲）產生**諧波（基頻倍數）**；**第二諧波＝基頻兩倍**（振幅最大之可用諧波）；影像品質優於傳統（對比解析度佳、偽影少）；諧波隨深度先增後減。
+[^3]: **Tier 1** Anvari A, Forsberg F, Samir AE. *A Primer on the Physical Principles of Tissue Harmonic Imaging*. RadioGraphics 2015;35(7):1955-1964（據 PubMed，DOI [10.1148/rg.2015140338](https://doi.org/10.1148/rg.2015140338)，實際查證 accessed 2026-07-03）——THI 以非線性基頻傳播產生之高頻諧波成像、偽影較傳統少；**諧波頻率為基頻之整數倍**、目前系統多用**第二諧波**；以 bandwidth receive filtering/pulse inversion/side-by-side phase cancellation/pulse-coded harmonics 消除基頻回音；優勢＝**SNR 改善、減少 side lobes/grating lobes/reverberation**；**differential THI** 結合 THI 優勢與低頻穿透、可於更深處高品質成像。原「官方 2017 詳解／Radiopaedia only」弱來源已由本次 Tier 1 RadioGraphics 查核升級。
 
 ## 題目
 > [!question]- Using Ultrasound Harmonics what change do we see in the wavelength? (2017-267)
