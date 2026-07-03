@@ -6,7 +6,7 @@ aliases:
   - HRCT
   - high resolution CT lung
   - 高解析度電腦斷層
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # hrct-lung-technique
@@ -17,7 +17,7 @@ dateRev: 2026-06-30
 - **重組 kernel**：HRCT 用 **sharp（hard）kernel** 凸顯肺實質細微結構（細網狀、結節、支氣管壁、小葉間隔）;**非** ultra-smooth kernel。[^1]
   - Sharp kernel：空間解析度高、邊緣銳利,**代價是影像雜訊高**;適合肺、骨等高對比解剖。
   - Soft kernel：降噪、影像平滑,適合腦／腹部等低對比軟組織。
-- **切片厚度**：薄切約 **0.625–1.25 mm**。[^1]
+- **切片厚度**：薄切約 **0.5–0.625 mm**（現代掃描器）至 1.25 mm。[^1][^2]
 - **呼吸相**：**全吸氣**為主,必要時加**吐氣相**偵測 air trapping。[^1]
 - **主要角色**：評估**瀰漫性肺病**（ILD、emphysema、bronchiectasis、small airways disease）。[^1]
 
@@ -26,6 +26,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Elicker BM, Webb WR. *Fundamentals of High-Resolution Lung CT*, p.10：HRCT 用 sharp/hard 重組 kernel 凸顯肺與骨等小而離散特徵(代價噪訊高),軟組織用 soft kernel 降噪;薄切、吸／吐氣相、主評估瀰漫性肺病。
+[^2]: Weerakkody Y, et al. *HRCT chest (protocol)*. Radiopaedia, rID-68126, DOI 10.53347/rID-68126——**現代掃描器以 0.5–0.625 mm 薄切 + sharp reconstruction algorithm 取得 HRCT**；ILD 時另加**吐氣相、俯臥相**輔助——佐證 HRCT 用 sharp（非 smooth）kernel、薄切、吐氣相。
 
 ## 題目
 > [!question]- 關於肺部 high resolution CT,何者「不正確」? (2017-178)

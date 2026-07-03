@@ -6,7 +6,7 @@ aliases:
   - half value layer
   - HVL
   - 半值層
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # half-value-layer
@@ -18,6 +18,7 @@ dateRev: 2026-06-30
 - **指數衰減**：經 **n 個 HVL** 後穿透比例＝**(1/2)ⁿ**。[^1]
   - 1 HVL→50%、2→25%、3→12.5%、4→6.25%、**5→約 3.1%（≈3%）**、6→1.6%、7→0.8%。
 - **意義**：HVL 越大代表束質越硬（穿透力越強）;與濾片、kVp 相關。[^1]
+- **公式（單能）**：**HVL ＝ 0.693 / μ**（線性衰減係數）,由 Beer-Lambert 導出;最準確於 narrow-beam 幾何量測。**多能束因 beam hardening，每一層 HVL 依序變大**（低能光子先被衰減）。[^2]
 
 > [!warning] 答案鍵存疑
 > 官方原標 **B（50%）後改註「D??」**;依物理 **5 HVL 穿透＝(1/2)⁵≈3.1%≈3%（D）** 才正確,圖示亦為 5 層→3.1%。本卡採 **D**,B 應為筆誤。
@@ -27,6 +28,7 @@ dateRev: 2026-06-30
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Bushberg JT et al. The Essential Physics of Medical Imaging, 3rd ed., p.49：HVL＝使 air kerma 減半之厚度（mm Al）;n 個 HVL 後穿透＝(1/2)ⁿ;5 HVL≈3.1%。
+[^2]: Murphy A, et al. *Half-value layer*. Radiopaedia, rID-22271, DOI 10.53347/rID-22271——**HVL＝使 X/γ 射束 air kerma 減半之物質厚度**；單能束 **HVL ＝ 0.693 / μ**（由 Beer-Lambert 導出），最準確於 narrow-beam 幾何量測；**多能束因 beam hardening 使每層 HVL 依序增大**——佐證定義與單能束 (1/2)ⁿ 衰減。
 
 ## 題目
 > [!question]- 單能光子束在經過五個半值層 (HVL) 厚之物質後，可穿透之光子比例約為? (2017-213)
