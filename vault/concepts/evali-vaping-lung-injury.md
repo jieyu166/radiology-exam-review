@@ -6,26 +6,44 @@ aliases:
   - EVALI
   - vaping lung injury
   - 電子煙相關肺損傷
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # evali-vaping-lung-injury
 
-**電子煙/vaping相關肺損傷（EVALI）之影像型態多樣，涵蓋幾乎所有急性肺部發炎反應模式——這是此題型的核心考點：不要只記單一型態，而要記「涵蓋範圍廣」這個大原則。**
+**電子煙/vaping 相關肺損傷（EVALI）是「排除性診斷」，影像為非特異急性肺損傷型態，可涵蓋幾乎所有急性肺發炎反應模式——這是此題型核心：別只記單一型態，要記「涵蓋範圍廣」這個大原則。** 判讀分水嶺：**年輕、近數週~數月有 vaping 史 + 雙側對稱磨玻璃影且常見「subpleural sparing（胸膜下倖免）」與 perilobular/OP 型態 → 先想 EVALI，但必須排除感染。**
 
 ## Summary
-- **影像型態涵蓋**：organizing pneumonia (OP)、diffuse alveolar damage (DAD)、acute eosinophilic pneumonia、diffuse alveolar hemorrhage、hypersensitivity pneumonitis (HP)、exogenous lipoid pneumonia (ELP)、giant cell interstitial pneumonia，皆可為EVALI之表現型態。[^1]
-- **臨床脈絡**：好發於年輕電子煙使用者，急性起病，胸部影像常見雙側磨玻璃影(GGO)為主之瀰漫性肺實質病變，需與感染性肺炎、其他瀰漫性肺泡損傷病因鑑別。[^1]
+- **本質**：**diagnosis of exclusion**——年輕使用者、數週至數月 vaping 後之非特異呼吸道症狀，須先排除感染等。[^1]
+- **成因**：**THC 為最常見吸入物（>90%）**，其次尼古丁（70%）、CBD（8%）；**vitamin E acetate** 被強烈懷疑相關（BAL 佐證）。[^1]
+- **共通影像**：**非特異急性肺損傷型態（100%）**；**最常見為雙側對稱磨玻璃影（GGO）合併 subpleural sparing、perilobular/peribronchovascular 分布**，可見 crazy-paving、中央小葉結節。[^1]
+- **可涵蓋之型態（考點）**：**organizing pneumonia（OP，最常見組織型）、diffuse alveolar damage（DAD）、acute eosinophilic pneumonia、diffuse alveolar hemorrhage、hypersensitivity pneumonitis（HP，headcheese sign）、exogenous lipoid pneumonia、giant cell interstitial pneumonia**，皆可為 EVALI 表現。[^1]
+- **BAL**：**lipid-laden（foamy）macrophages >80%**（是否等同 lipoid pneumonia 仍有爭議）。[^1]
+- **併發症**：pneumomediastinum、pneumothorax、皮下氣腫（少見）。[^1]
+
+## 放射科醫師影像判讀重點
+- **subpleural sparing**：雙側對稱 GGO 但胸膜下倖免，是 EVALI/OP 型的特徵性線索。[^1]
+- **OP 型指紋**：perilobular / crazy-paving / 中央小葉結節 / tree-in-bud，最常見對應組織學 OP。[^1]
+- **型態多樣**：同一疾病可呈 AEP（周邊 GGO/實變 + 間隔增厚）、HP（mosaic/air-trapping、headcheese）、DAH、DAD 等——判讀重點是「串聯 vaping 病史」而非單一型態。[^1]
+- **併發症搜尋**：年輕人胸痛 + 縱膈/皮下氣腫 + 多灶 peribronchovascular GGO，警覺 EVALI 併 pneumomediastinum。[^1]
+- **鑑別要點**：必須排除感染性肺炎（含 COVID-19）、其他 DAH/嗜酸性肺炎病因；EVALI 無特異影像，靠臨床整合。[^1]
+
+## 臨床重點（5 句）
+1. **排除性診斷**：診斷 EVALI 前須排除感染與其他病因，並確認 vaping 史。[^1]
+2. **THC/vitamin E**：THC（>90%）與 vitamin E acetate 是主要相關暴露。[^1]
+3. **影像大原則**：非特異急性肺損傷、雙側 GGO + subpleural sparing，可跨多種型態。[^1]
+4. **BAL 線索**：lipid-laden macrophages >80% 支持但非確診。[^1]
+5. **併發症**：注意 pneumomediastinum/pneumothorax，尤其年輕胸痛患者。[^1]
 
 > [!note] 考點：下列何者不是inhalational lung injury associated with vaping?
-> 選項所列（diffuse alveolar hemorrhage、acute eosinophilic pneumonia、giant cell interstitial pneumonia）**皆屬**EVALI影像型態範疇，故答案為「以上皆是」。
+> **以上皆是（D）**——diffuse alveolar hemorrhage、acute eosinophilic pneumonia、giant cell interstitial pneumonia 皆屬 EVALI 影像/組織型態範疇（另含 OP、DAD、HP、lipoid pneumonia）。EVALI 影像涵蓋範圍廣為核心考點。[^1]
 
 ### 參考來源
-[^1]: 官方2020詳解（中山）；Ref: Radiologic, Pathologic, Clinical, and Physiologic Findings of Electronic Cigarette or Vaping Product Use–associated Lung Injury (EVALI): Evolving Knowledge and Remaining Questions.
+[^1]: Restrepo CS. *E-Cigarette or Vaping Product Use-Associated Lung Injury (EVALI)* (Dx). STATdx, updated 09/16/21. Elsevier——**diagnosis of exclusion**；THC >90%、尼古丁 70%、CBD 8%、vitamin E acetate 相關；**非特異急性肺損傷（100%）**、最常見雙側對稱 GGO + **subpleural sparing**、perilobular/crazy-paving；涵蓋 OP/DAD/AEP/DAH/HP（headcheese）/lipoid/giant cell interstitial pneumonia；BAL lipid-laden macrophages >80%；併 pneumomediastinum/pneumothorax。原「官方 2020 詳解（中山）/EVALI review」弱來源已由此一手來源查核取代。
 
 ## 題目
 > [!question]- 下列何者不是inhalational lung injury associated with vaping？ (2020-206)
-> **以上皆是（D）**——diffuse alveolar hemorrhage、acute eosinophilic pneumonia、giant cell interstitial pneumonia皆為vaping相關肺損傷之已知影像型態，另包含OP、DAD、HP、ELP。[^1]
+> **以上皆是（D）**——diffuse alveolar hemorrhage、acute eosinophilic pneumonia、giant cell interstitial pneumonia 皆為 vaping 相關肺損傷之已知型態，另含 OP、DAD、HP、lipoid pneumonia。[^1]
 
 ## 考題
 ```dataview
