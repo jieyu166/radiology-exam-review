@@ -1,6 +1,8 @@
 ---
+concepts: [medulloblastoma-subtypes]
 tags: [concept, NR, PED]
 aliases: [medulloblastoma molecular subtypes, MB subtypes]
+see: "[[medulloblastoma-molecular-subgroups]]"
 ---
 
 **Medulloblastoma 分子亞型**依 WHO 2016 分為 WNT-activated、SHH-activated、Group 3、Group 4 四大類，各亞型之影像位置、好發年齡與預後截然不同。
