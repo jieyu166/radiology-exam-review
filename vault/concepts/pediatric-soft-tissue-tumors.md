@@ -7,7 +7,7 @@ aliases:
   - alveolar soft part sarcoma
   - Kaposi sarcoma age
   - 兒童軟組織腫瘤
-dateRev: 2026-06-19
+dateRev: 2026-07-03
 ---
 
 # pediatric-soft-tissue-tumors
@@ -18,7 +18,7 @@ dateRev: 2026-06-19
 - **年輕族群好發**：[^1]
   - **Rhabdomyosarcoma**：兒童最常見軟組織肉瘤;頭頸、泌尿生殖、四肢。
   - **Ewing sarcoma / PNET**：兒童青少年。
-  - **Alveolar soft part sarcoma（ASPS）**：年輕成人（~15–35 歲）;富血管、MR 見血管流空、慢性病程。
+  - **Alveolar soft part sarcoma（ASPS）**：年輕成人（<30 歲略偏女）;**富血管、深部（下肢/臀部大腿）**、MR 見血管流空、慢性病程;佔軟組織肉瘤 <1%、確診時常已肺/骨/腦轉移。[^2]
 - **年長/免疫低下**：**Kaposi sarcoma**——與 **HHV-8** 相關，見於 HIV/移植/老年，非年輕族群典型。[^1]
 
 > [!note] 考點：何者「不」常見於年輕病人?
@@ -26,6 +26,7 @@ dateRev: 2026-06-19
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Pediatr Blood Cancer 2011;57(6):943-949；Imaging of Soft Tissue Tumors 3rd ed., p.471：RMS/Ewing/ASPS 好發年輕族群;Kaposi sarcoma 與 HHV-8 相關、見於年長/免疫低下。
+[^2]: Gaillard F, et al. *Alveolar soft part sarcoma*. Radiopaedia, rID-59433, DOI 10.53347/rID-59433——**罕見、高度血管化之深部軟組織惡性腫瘤，典型見於年輕成人下肢**（<30 歲略偏女、佔軟組織肉瘤 <1%）；成人好發下肢深部（大腿/臀），嬰幼兒多在頭頸；確診時常已血行轉移至肺/骨/腦——佐證 ASPS 屬年輕族群。
 
 ## 題目
 > [!question]- 何者「不」常見於年輕病人? (2017-144)
