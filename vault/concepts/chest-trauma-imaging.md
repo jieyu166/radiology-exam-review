@@ -23,12 +23,29 @@ dateRev: 2026-07-03
   - **穿刺傷**：反而以**頸部氣管（cervical trachea）**最常受傷。[^2]
   - **影像線索**：皮下氣腫、氣胸、縱膈積氣；CT 可於 ~70% 定位損傷處。[^2]
 
+## 放射科醫師影像判讀重點
+- **檢查流程（STATdx）**：**仰臥可攜式胸片為初始、CT 為首選（血管傷須 IV 對比）；胸片正常者仍達 20% 於 CT 見損傷**；損傷隨時間演變、常多構造並存、需結合機轉/部位判讀。[^3]
+- **肋骨骨折（STATdx）**：**最常見骨骼傷；第 1-3 肋（+胸骨/肩胛）骨折＝高能創傷；flail chest＝≥3 段性或 >5 連續肋骨骨折、呼吸反常運動**；第 10-12 肋提示肝/脾撕裂。[^1][^3]
+- **氣胸/血胸（STATdx）**：氣胸仰臥片可達 50% 隱匿——**deep sulcus sign、基底透亮**；張力性＝對側縱膈移位 + 患側肋間增寬 + 橫膈下陷；血胸 CT 見 hematocrit effect（分層）、active bleeding 對比外滲。[^3]
+- **肺挫傷 vs 撕裂（STATdx）**：**挫傷＝周邊 ground-glass/實質化、地圖狀不循解剖界、傷後 6 小時內可不顯、3-14 天消退；撕裂＝肺撕裂之球/卵圓形空腔含氣/液/氣液平（traumatic pneumatocele），周圍挫傷初可遮蔽**。[^1][^3]
+- **氣管支氣管損傷（STATdx，考點核心）**：**好發遠端氣管與近端主支氣管、支氣管撕裂較常見**；**氣管撕裂多垂直軟骨環、支氣管撕裂多平行軟骨環**；直接徵象＝管腔中斷 + 腔外氣；間接徵象＝**fallen lung sign（塌陷肺墜向 dependent、遠離肺門）、置胸管後持續氣胸、持續縱膈氣、ET 球疝出**。[^2][^3]
+- **創傷性主動脈損傷（STATdx）**：**固定段最易傷——aortic isthmus > 弓 > 根部 > 遠端降主動脈**；胸片縱膈增寬/periaortic 血腫；**CT 主動脈攝影為首選**（直接徵象假性動脈瘤/內膜撕裂/caliber 突變）。[^3]
+- **橫膈破裂（STATdx）**：左 > 右、診斷常延遲；**collar sign（疝出臟器腰狀縮窄）、dependent viscera sign**、多平面提高敏感。[^3]
+
+## 臨床重點（5 句）
+1. **流行/機轉（STATdx）**：**胸創存活者 10% 死亡率；車禍為鈍性胸創最常見成因；鈍傷佔 90%、穿刺傷（刺/槍）佔其餘**。[^3]
+2. **氣管支氣管損傷機轉（考點）**：**鈍傷致氣管支氣管損傷（好發距 carina 2.5 cm 內遠端氣管）；穿刺傷則以頸部氣管最常受傷**——罕見但高死亡。[^1][^2]
+3. **心臟/心包損傷（STATdx）**：**穿刺傷較常、高死亡、需高度懷疑**；hemopericardium/pneumopericardium/心臟疝。[^3]
+4. **食道破裂（STATdx）**：罕見、穿刺傷/醫源性較常；縱膈出血 + 縱膈氣 + 食道攝影對比外漏。[^3]
+5. **判讀整合**：知悉受傷部位與機轉對正確判讀至關重要；多構造傷常並存，須系統性檢視軟組織/骨/肺/縱膈/橫膈。[^3]
+
 > [!note] 考點：關於胸部創傷，何者「不正確」?
 > 「**氣管與支氣管骨折是由穿刺傷造成（fracture of trachea and bronchus is due to penetration trauma）**」不正確——**主要由鈍傷造成**（好發距隆凸2.5cm內的遠端氣管）；穿刺傷反而以頸部氣管最常受傷。肋骨10-12骨折提示肝脾撕裂、肺挫傷為鈍創最常見表現、肺撕裂傷呈半實質半囊狀皆正確。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.469：肋骨10-12骨折提示肝脾撕裂;肺挫傷為鈍性胸創最常見表現;肺撕裂傷半實質(血腫)半囊狀(創傷性肺氣囊腫);氣管支氣管骨折主要由鈍傷造成(遠端氣管,距隆凸2.5cm內);穿刺傷則以頸部氣管最常受傷。
-[^2]: Weerakkody Y, et al. *Tracheobronchial injury*. Radiopaedia, rID-45454, DOI 10.53347/rID-45454——胸創嚴重但少見、常致命；**穿刺傷以 cervical trachea 最常受傷，鈍性胸創則以距 carina 2.5 cm 內之遠端氣管最常見**；影像見皮下氣腫/氣胸/縱膈積氣，CT 可於 ~70% 定位——佐證鈍傷 vs 穿刺傷之部位差異。
+[^2]: Weerakkody Y, et al. *Tracheobronchial injury*. Radiopaedia, rID-45454, DOI 10.53347/rID-45454（輔助來源）——胸創嚴重但少見、常致命；**穿刺傷以 cervical trachea 最常受傷，鈍性胸創則以距 carina 2.5 cm 內之遠端氣管最常見**；影像見皮下氣腫/氣胸/縱膈積氣，CT 可於 ~70% 定位——佐證鈍傷 vs 穿刺傷之部位差異。
+[^3]: **Tier 1** Bueno J. *Chest Trauma*（Chest, Approach to Clinical Presentation, DDx）. STATdx, Elsevier, updated 03/16/20（5 refs；實際查證 accessed 2026-07-04）——**胸創存活者 10% 死亡率、車禍為鈍性胸創最常見成因、鈍傷佔 90%**；**CT 為首選（血管傷須 IV 對比）、胸片正常者 20% 於 CT 見損傷**；**肋骨骨折最常見（1-3 肋+胸骨/肩胛＝高能、flail chest ≥3 段或 >5 連續）；氣胸仰臥 50% 隱匿 deep sulcus sign、張力性對側縱膈移位；血胸 hematocrit effect；肺挫傷周邊 ground-glass 地圖狀 6h 內可不顯 3-14 天退；肺撕裂空腔含氣/液/氣液平**；**氣管支氣管損傷（好發遠端氣管+近端主支氣管、支氣管撕裂較常、氣管撕裂垂直軟骨環/支氣管平行、fallen lung sign、置胸管後持續氣胸/縱膈氣）**；**創傷性主動脈損傷（isthmus>弓>根>遠端降主動脈、CT 主動脈攝影首選）；橫膈破裂（左>右、collar sign、dependent viscera sign）；心臟/食道傷穿刺傷較常**；Macklin effect（肺泡破裂沿支氣管血管束入縱膈）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which statement about chest trauma is not true? (2017-275)
