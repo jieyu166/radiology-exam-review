@@ -6,27 +6,44 @@ aliases:
   - influenza pneumonia
   - viral pneumonia imaging
   - 流感肺炎影像
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # influenza-pneumonia-imaging
 
-**流感肺炎(influenza pneumonia)胸部X光典型呈「雙側下肺葉」網狀結節狀混濁，可合併局部實質化——邊界不清之斑片狀/結節狀實質化可迅速融合，代表瀰漫性肺泡損傷或次發細菌感染，多於3週內消退。**
+**流感肺炎胸部影像典型呈「雙側（或單側）、下肺葉」為主之網狀結節狀混濁 + 斑片狀 GGO/實變（bronchopneumonia 型態），邊界不清之斑片可迅速融合、進展為 ARDS/瀰漫性肺泡損傷（DAD）；多於約 3 週內消退。** 判讀分水嶺：**下肺為主的斑片 GGO/實變 + centrilobular nodule/tree-in-bud ＝流感；若出現「空洞」要想 Staph 二次感染、出現「肋膜積液」多代表細菌重疊感染。**
 
 ## Summary
-- **典型分布**：**雙側(bilateral)、下肺葉(lower lobes)**為主之網狀結節狀混濁(reticulonodular opacity)，可合併局部實質化(focal consolidation)。[^1]
-- **快速融合之實質化**：邊界不清之斑片狀或結節狀實質化可**迅速融合(rapidly confluent)**，代表**瀰漫性肺泡損傷(diffuse alveolar damage)**或**次發感染(superinfection)**。[^1]
-- **病程**：典型於**3週內消退**。[^1]
+- **典型分布**：**單側或雙側、以下肺葉為主**之網狀結節狀混濁（reticulonodular），合併**斑片狀 GGO/實變（bronchopneumonia 型態）**；**lobar consolidation 少見**。[^1][^2]
+- **細部徵象**：**centrilobular nodules 1-10 mm、tree-in-bud**、patchy consolidation（1-2 cm）。[^1]
+- **快速融合/重症化**：邊界不清實變可**迅速融合**，可進展為 **ARDS/瀰漫性肺泡損傷（DAD）±肺泡出血**。[^1][^2]
+- **二次細菌感染**：常見 **Strep pneumoniae、H. influenzae、Staph aureus**；**空洞形成提示 Staph 二次感染**；肋膜積液（少見）多代表重疊細菌感染。[^1]
+- **病程**：典型於**約 3 週內消退**。[^2]
+
+## 放射科醫師影像判讀重點
+- **分布指紋**：下肺為主的雙側斑片 GGO/實變 + reticulonodular，符合病毒性 bronchopneumonia。[^1]
+- **tree-in-bud/centrilobular nodule**：小氣道受累線索，有助與純肺泡填塞型鑑別。[^1]
+- **惡化警訊**：短時間內斑片迅速融合成瀰漫實變 → 疑進展 ARDS/DAD，臨床需加護。[^1][^2]
+- **空洞 = 想 Staph**：流感本身不造空洞，出現空洞高度提示 Staph aureus 二次感染。[^1]
+- **肋膜積液**：流感罕見；若明顯積液應想細菌重疊感染。[^1]
+
+## 臨床重點（5 句）
+1. **典型部位**：雙側下肺葉為主之網狀結節 + 斑片實變。[^1][^2]
+2. **可重症化**：迅速融合、進展 ARDS/DAD 是流感肺炎重症影像特徵。[^1]
+3. **二次感染**：Strep/H. influenzae/Staph；空洞→Staph、積液→細菌重疊。[^1]
+4. **病程**：多 3 週內消退，未消退者想重疊感染或其他病因。[^2]
+5. **鑑別**：與其他病毒肺炎、mycoplasma、細菌性肺炎鑑別，靠分布 + tree-in-bud + 臨床。[^1]
 
 > [!note] 考點：流感肺炎典型侵犯部位？
-> **雙側下肺葉（lower lobes, bilateral，D）**——網狀結節狀混濁合併局部實質化，典型雙側下肺葉分布，3週內消退。[^1]
+> **雙側下肺葉（lower lobes, bilateral，D）**——網狀結節狀混濁合併局部實變、bronchopneumonia 型態，典型雙側下肺葉分布，可迅速融合並約 3 週內消退。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radiographic and CT Features of Viral Pneumonia, RadioGraphics Vol. 38, No. 3（題目所引）——流感肺炎胸部X光典型雙側下肺葉網狀結節狀混濁合併局部實質化；邊界不清實質化可迅速融合(瀰漫肺泡損傷或次發感染)；多3週內消退。
+[^1]: Restrepo CS. *Influenza Pneumonia* (Dx). STATdx, updated 10/15/21. Elsevier——**單/雙側、以下肺葉為主**之 nodular/patchy GGO + 實變（bronchopneumonia）、centrilobular nodule 1-10 mm、tree-in-bud、lobar consolidation 少見；可**迅速進展 ARDS/DAD**；二次細菌感染（Strep pneumoniae、H. influenzae、Staph aureus）、**空洞提示 Staph**、肋膜積液多為細菌重疊。
+[^2]: 官方 2020 詳解；Ref: *Radiographic and CT Features of Viral Pneumonia*. RadioGraphics 2018;38(3):719-739（題目所引）——流感肺炎典型雙側下肺葉網狀結節 + 局部實變、邊界不清可迅速融合（DAD 或二次感染）、多 3 週內消退（結論已由上述 STATdx 一手來源查核佐證）。
 
 ## 題目
 > [!question]- Patients with influenza pneumonia show reticulonodular areas of opacity with or without focal areas of consolidation, usually in which lobe of lung? (2020-352)
-> **雙側下肺葉（lower lobes, bilateral，D）**——流感肺炎典型雙側下肺葉分布。[^1]
+> **雙側下肺葉（lower lobes, bilateral，D）**——流感肺炎典型雙側下肺葉分布（bronchopneumonia 型態）。[^1][^2]
 
 ## 考題
 ```dataview
