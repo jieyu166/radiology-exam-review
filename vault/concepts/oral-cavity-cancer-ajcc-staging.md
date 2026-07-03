@@ -4,39 +4,60 @@ name: Oral Cavity Cancer — AJCC 8th Edition T/N Staging
 subspecialty: [NR]
 aliases:
   - AJCC 8th oral cavity
+  - oral tongue SCC
   - tongue cancer staging
   - depth of invasion DOI
   - 口腔癌AJCC分期
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # oral-cavity-cancer-ajcc-staging
 
-**AJCC第8版口腔癌T分期的核心是「侵犯深度(depth of invasion, DOI)」而非單純腫瘤大小——DOI是實際垂直侵犯深度，不等於腫瘤厚度；N分期則用「側別」（同側/雙側/對側）與大小/ENE狀態決定，對側或雙側淋巴結轉移即歸為N2c。**
+**AJCC 第 8 版口腔癌 T 分期把「侵犯深度（depth of invasion, DOI）」與腫瘤最大徑並列納入——DOI 是垂直侵犯深度；影像上以 tumor thickness 估計 histologic DOI，且量測基準線是「正常（非潰瘍）黏膜表面之切線」。N 分期以「側別」（同側/雙側/對側）＋大小＋ENE 決定，只要有對側或雙側淋巴結轉移（≤6cm、ENE−）即為 N2c。** 判讀分水嶺：**①T 分期記「大小＋DOI 兩軸」，DOI >5mm、>10mm 為門檻；②N 分期最常考「對側一顆也算 N2c」；③黏膜大小（T1–T3）臨床評估比影像準，影像的價值在「判 T4 深部侵犯與頸部淋巴結」。記憶鉤：DOI 定深度、對側即 N2c、影像看深部與淋巴。**
 
 ## Summary
-- **T分期核心參數**：**DOI（depth of invasion，侵犯深度）**與腫瘤最大徑共同決定T分期，DOI**並非**腫瘤厚度(tumor thickness)。[^1]
-  - T1：腫瘤≤2cm且DOI≤5mm。
-  - T2：腫瘤≤2cm且DOI>5mm；或腫瘤>2cm且≤4cm且DOI≤10mm。
-  - T3：腫瘤>2cm且≤4cm且DOI>10mm；或腫瘤>4cm且DOI≤10mm。
-  - T4a：腫瘤>4cm且DOI>10mm，或侵犯鄰近構造（如穿透下頷骨/上頷骨皮質骨、上頷竇、顏面皮膚）。
-  - T4b：侵犯咀嚼肌間隙、翼板、顱底，或包覆頸內動脈。
-- **N分期核心邏輯（側別是關鍵）**：[^1]
-  - N1：單一同側淋巴結≤3cm且ENE(-)。
-  - N2a：單一同側淋巴結>3cm但≤6cm且ENE(-)。
-  - N2b：多發同側淋巴結，皆≤6cm且ENE(-)。
-  - **N2c：雙側或對側(bilateral or contralateral)淋巴結，皆≤6cm且ENE(-)**——即使僅單一對側淋巴結轉移，仍歸為N2c（並非N1或N2a）。
-  - N3：淋巴結>6cm且ENE(-)；或任何臨床顯著ENE(+)。
+- **T 分期核心＝腫瘤大小＋DOI**（DOI 非腫瘤厚度本身，但影像 tumor thickness 為 histologic DOI 之估計）：[^1][^2]
+  - **T1**：≤2cm 且 DOI ≤5mm。
+  - **T2**：≤2cm 且 DOI >5mm 且 ≤10mm；或 >2cm 且 ≤4cm 且 DOI ≤10mm。
+  - **T3**：>2cm 且 ≤4cm 且 DOI >10mm；或任何 DOI >10mm；或 >4cm 且 DOI ≤10mm。
+  - **T4a**：>4cm 且 DOI >10mm，或侵犯鄰近構造（下頷/上頷皮質骨、上頷竇、顏面皮膚）。
+  - **T4b**：侵犯咀嚼肌間隙、翼板、顱底，或包覆頸內動脈。
+- **N 分期（側別是關鍵）**：N1＝單一同側 ≤3cm ENE−；N2a＝單一同側 >3–6cm ENE−；N2b＝多發同側 ≤6cm ENE−；**N2c＝雙側或對側 ≤6cm ENE−（對側一顆亦算 N2c）**；N3a＝>6cm ENE−；N3b＝任何臨床顯著 ENE+。[^1]
+- **預後分組**：I＝T1N0；II＝T2N0；III＝T3N0 或 T1–3N1；IVA＝T4aN0–1 或 T1–4aN2；IVB＝任何 T N3 或 T4b 任何 N；IVC＝M1。[^2]
 
-> [!note] 考點：右側舌癌3.6cm併右側頦舌肌侵犯、左頸level IIA 2.5cm轉移淋巴結，AJCC第8版分期為？
-> **T2N2c（E）**——腫瘤3.6cm(2-4cm範圍)且DOI未達>10mm故T2；轉移淋巴結位於**對側(contralateral)**頸部（腫瘤右側、淋巴結左側），即使單一顆對側淋巴結≤6cm仍歸為**N2c**。[^1]
+## 放射科醫師影像判讀重點
+
+### 影像的角色與模態選擇（考點）
+- **黏膜大小（T1–T3）臨床評估較影像準確**；**影像價值在判「深部侵犯（T4）與淋巴結」**——淺表病灶在 MR/CECT 可能隱匿。[^2]
+- **MR 為口腔首選**：軟組織對比佳、**受牙科汞合金假影影響較 CT 小**（但較易受動作影響）；脂肪抑制提升 T2 與 T1 C+ 對比。[^2]
+- **DWI 與 histologic DOI 相關性優於常規序列**；**DECT/光譜 CT 可提升病灶對比**；PET/CT（及 PET/MR）對淋巴結敏感、受汞合金假影影響小。[^2]
+- **tumor thickness 量法**：自「正常（非潰瘍）黏膜表面之切線」量至腫瘤最深處，為 histologic DOI 之影像估計。[^2]
+- **報告要點**：是否跨中線（影響術式）、有無 T4a/b 深部侵犯特徵、評估同側與對側 IB/IIA 淋巴結、警覺 skip nodes（III/IV 而無較高 level）。[^2]
+
+### 淋巴引流與轉移（判讀關鍵）
+- **一階引流：submandibular（IB）→ jugulodigastric（IIA）**；前舌腫瘤可**直接引流至 III/IV（"skip nodes"）**；**中線腫瘤易雙側淋巴結**；舌尖腫瘤可至 submental（IA）。[^2]
+- **就診時高淋巴負擔**：**達 35% 已 ≥N1**；**30% 臨床 "N0" 頸部有顯微轉移**——故常行選擇性頸部廓清。[^2]
+
+### 鑑別診斷（舌部腫塊）
+- **Lingual tonsil SCCa**（舌根侵犯延伸）、**tongue schwannoma**（界清、均質強化）、**venous malformation**（phleboliths 幾乎確診）、**oral cavity abscess**（環狀強化囊、常伴牙病）、**alveolar soft part sarcoma**（侵襲性、好發 <35 歲女性）。[^2]
+
+> [!note] 考點：右側舌癌 3.6cm 併右頦舌肌侵犯、左頸 level IIA 2.5cm 轉移淋巴結，AJCC 第 8 版分期為？
+> **T2N2c**——腫瘤 3.6cm（2–4cm）且 DOI 未達 >10mm 故 T2；轉移淋巴結位於**對側（腫瘤右、淋巴結左）**，即使單一顆對側 ≤6cm 仍歸 **N2c**（非 N1/N2a）。[^1][^2]
+
+## 臨床重點（5 句）
+1. **流行病學**：口腔惡性腫瘤 **>90% 為 SCC**，**舌與口底最常見**、舌 SCC 發生率上升；**中位年齡 61 歲、男：女 4:1**。[^2]
+2. **危險因子**：**吸菸/嚼菸、酒精、檳榔/paan** 強相關；蔬果攝取似有保護作用。[^2]
+3. **臨床表現**：**口腔舌部疼痛性不癒潰瘍**（較其他口腔腫瘤在較小體積即疼痛）；**潰瘍逾 3 週應懷疑惡性**、± 出血、頸部腫塊。[^2]
+4. **治療**：以**手術切除 ± 放療**為主；未跨中線之較大腫瘤可**半舌切除（midline 以脂肪性舌中隔為界）**、需 1.5–2cm 邊界；因隱匿轉移風險高常行**選擇性頸部廓清**。[^2]
+5. **預後**：整體 **5 年存活約 60%（無淋巴轉移約 77%）**；DOI/厚度與 tumor budding 可預測淋巴轉移、**sublingual space 侵犯為獨立不良預後因子**；持續菸酒惡化預後。[^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: AJCC 8th edition（題目所引）——口腔癌T分期以DOI（非腫瘤厚度）搭配腫瘤大小決定；N分期以側別（同側/雙側/對側）搭配大小與ENE狀態決定，雙側或對側淋巴結轉移即歸N2c。
+[^1]: 官方 2020 詳解（題目所引，AJCC 8th edition, 2017）——口腔癌 T 分期以 DOI（非腫瘤厚度）搭配腫瘤大小；N 分期以側別（同側/雙側/對側）＋大小＋ENE 決定，雙側或對側轉移即 N2c。與 [^2] STATdx 交叉核對一致。
+[^2]: **Tier 1** Hamilton BE, Koontz NA. *Oral Tongue Squamous Cell Carcinoma*（Head and Neck, Dx）. STATdx, Elsevier, updated 07/17/25（35 refs；實際查證 accessed 2026-07-03）——完整 AJCC 8th T 分期（T1 ≤2cm/DOI≤5mm…T4a >4cm+DOI>10mm 或侵皮質骨/上頷竇/顏面皮膚、T4b 咀嚼肌間隙/翼板/顱底/包覆頸內動脈）與預後分組；影像判讀＝黏膜大小臨床較準、影像判深部(T4)與淋巴、**MR 首選（受汞合金假影小、DWI 對應 histologic DOI）**、tumor thickness 自正常黏膜切線量、DECT 增對比；一階引流 IB→IIA、skip nodes III/IV、中線→雙側；**35% 就診已 ≥N1、30% N0 有顯微轉移**；DDx（lingual tonsil SCCa/schwannoma/venous malformation phleboliths/abscess/ASPS）；菸酒檳榔、中位 61 歲、M:F 4:1、5 年存活 60%（node− ~77%）、sublingual space 侵犯獨立不良預後。原「官方 2020 詳解」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
-> [!question]- According to AJCC 8th edition of buccal cancer, what is the clinical staging of one 3.6cm tumor mass at right tongue with right genioglossus muscle involvement and one 2.5cm metastatic lymph node at left neck level IIA? (2020-286)
-> **T2N2c（E）**——腫瘤3.6cm且DOI未達>10mm故為T2；轉移淋巴結位於對側頸部，即使單一顆對側淋巴結≤6cm仍歸為N2c。[^1]
+> [!question]- According to AJCC 8th edition, clinical staging of a 3.6cm right tongue tumor with right genioglossus involvement and one 2.5cm metastatic node at left neck level IIA? (2020-286)
+> **T2N2c**——腫瘤 3.6cm 且 DOI 未達 >10mm 故 T2；轉移淋巴結位於對側頸部，即使單一顆對側 ≤6cm 仍歸 N2c。[^1][^2]
 
 ## 考題
 ```dataview
