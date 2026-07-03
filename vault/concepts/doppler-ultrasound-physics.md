@@ -25,6 +25,8 @@ dateRev: 2026-07-03
 - **頻率取捨**：f₀↑ → 頻移↑ + 空間解析↑，但**穿透↓、易 aliasing**（需提高 PRF/scale）。[^2]
 - **正/負頻移**：反射體朝探頭＝正頻移（received>emitted）、遠離＝負頻移——判血流方向。[^2]
 - **敏感度優化**：欲增頻移敏感度優先調 f₀ 與角度，而非 gate/位置。[^1]
+- **技術參數（慢流判讀）**：**frequency、gain、wall filter、scale/PRF** 之調校對正確判斷血管通暢或血栓（尤其慢流血管）至關重要；濾波過高會濾掉慢流訊號。[^3]
+- **假影查證**：Doppler 訊號源可為血流/運動/假影；**假影可由不典型頻譜波形辨識**；**aliasing（超過 Nyquist 極限＝PRF/2 時發生）可快速標示狹窄/AVF 之高速噴流**——提高 PRF/scale、降 f₀、移基線可緩解。[^3]
 - **陷阱**：增大都卜勒角反而降頻移（cosθ 變小），勿誤以為「增角＝增敏」。[^1]
 
 ## 臨床重點（5 句）
@@ -39,7 +41,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Sonography Exam Review: Physics, Abdomen, OB/GYN, 2nd ed., p.76（題目所引）——都卜勒方程式 Δf=2f₀v·cosθ/c；提高操作頻率直接增加頻移敏感度；增加角度使 cosθ 變小反而降低頻移。
-[^2]: Weerakkody Y, et al. *Doppler shift*. Radiopaedia, rID-25283, DOI 10.53347/rID-25283——Doppler shift＝反射體相對探頭運動致頻率改變（朝向＝正頻移、遠離＝負頻移）；**方程式 ΔF = 2f₀(v/c)cos(θ)**（f₀ 發射頻率、v 速度、c 聲速、θ 聲束與血流夾角）；頻移大小受角度影響。
+[^2]: *Doppler shift*. Radiopaedia.org, rID-25283, DOI 10.53347/rID-25283（輔助來源）——Doppler shift＝反射體相對探頭運動致頻率改變（朝向＝正頻移、遠離＝負頻移）；**方程式 ΔF = 2f₀(v/c)cos(θ)**（f₀ 發射頻率、v 速度、c 聲速、θ 聲束與血流夾角）；頻移大小受角度影響。
+[^3]: **Tier 1** Rubens DJ, Bhatt S, Nedelka S, Cullinan J. *Doppler artifacts and pitfalls*. Radiol Clin North Am 2006;44(6):805-835（據 PubMed，DOI [10.1016/j.rcl.2006.10.014](https://doi.org/10.1016/j.rcl.2006.10.014)，實際查證 accessed 2026-07-03）——須理解產生 Doppler 訊號之因素（血流/運動/假影）；假影可由不典型頻譜波形查證；**aliasing（快速偵測狹窄/AVF）、twinkle artifact（辨識結石）為有用診斷假影**；須注意 **frequency、gain、filter、scale** 等技術參數方能正確判斷血管通暢或血栓（尤其慢流血管）。原「官方/Radiopaedia」弱來源已由本次 Tier 1 綜述查核升級。
 
 ## 題目
 > [!question]- Which of the following will most likely increase the system's sensitivity of the Doppler shifts? (2017-269)
