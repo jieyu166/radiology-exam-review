@@ -16,7 +16,7 @@ dateRev: 2026-07-03
 **卵巢/附件病灶以 T2 訊號（相對「骨盆肌肉」）分群：T2 與肌肉等訊號（相對偏低）＝endometrioma、fibroma/fibrothecoma、cystadenofibroma、struma ovarii；T2 高於肌肉＝hemorrhagic cyst、Krukenberg、mucinous cystic neoplasm。T2 偏低多因「纖維成分、慢性血鐵、或黏液/signet-ring」。** 判讀分水嶺：**若考題問「subacute 出血 T2 高或低」，答案取決 early/late——early subacute（細胞內 methemoglobin，3–7 天）T1 高/T2 低；late subacute（細胞外 metHb，1 週–數月）T1 高/T2「亦高」。含血病灶先定出血分期，勿一律當 T2 高或低。記憶鉤：纖維與 signet-ring 讓 T2 變暗；血的 T2 隨分期翻轉。**
 
 ## Summary
-- **T2 與肌肉等訊號（相對低）**：endometrioma、fibroma/fibrothecoma、cystadenofibroma、struma ovarii。[^3]
+- **T2 與肌肉等訊號（相對低）**：endometrioma、fibroma/fibrothecoma、cystadenofibroma、struma ovarii。[^1][^3]
 - **T2 高於肌肉**：hemorrhagic cyst、Krukenberg tumor、mucinous cystic neoplasm。[^3]
 - **依囊實性**：實性＝fibroma/fibrothecoma、Krukenberg、adenofibroma；囊性＝endometrioma、hemorrhagic cyst、mucinous；囊實混合＝cystadenofibroma、struma ovarii、Brenner tumor。[^3]
 - **出血分期與 T1/T2（核心陷阱）**：early subacute（細胞內 metHb）T1 高/T2 低 → late subacute（細胞外 metHb）T1 高/T2 高；chronic（hemosiderin）T2 極低 blooming。[^2]
