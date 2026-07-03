@@ -5,29 +5,45 @@ subspecialty: [CH, PED]
 aliases:
   - innominate artery compression syndrome
   - brachiocephalic artery compression syndrome
+  - anomalous innominate artery
   - 無名動脈壓迫症候群
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # innominate-artery-compression
 
-**無名動脈壓迫症候群（＝brachiocephalic artery compression syndrome）：無名動脈起源偏左、走行時由前方壓迫氣管，好發於嬰幼兒可致氣管狹窄。手術修補的門檻是「症狀性病人氣管管腔狹窄超過70%」——本題四選項A/B/C皆正確，故答案為D（none of above，即無錯誤選項）。**
+**無名動脈壓迫症候群（＝brachiocephalic artery compression syndrome）：無名動脈由氣管「左側」發出、走向右上時「橫過氣管前方」，在胸廓入口（thoracic inlet）由前方壓迫氣管；嬰兒氣管相對軟弱（flaccid），故此橫越更易造成前後徑狹窄與症狀（喘鳴、呼吸暫停、呼吸困難）。「anomalous innominate artery」其實是誤稱——動脈走行本屬正常。** 判讀分水嶺：**許多無症狀孩童在側位片/斷層上都有「輕度前方壓迫」屬正常變異；有意義＝症狀＋動態影像顯示 >50–75% 氣管壓迫（本題採症狀性 >70% 建議手術）。判讀時務必用動態 CT/MR 找 tracheomalacia，並排除其他外在壓迫（縱膈腫塊、血管環）。記憶鉤：左發、跨前、嬰兒軟氣管、動態看塌陷。**
 
 ## Summary
-- **別名**：**brachiocephalic artery compression syndrome**（無名動脈＝brachiocephalic artery/innominate artery）。[^1]
-- **機轉/族群**：無名動脈起源較偏左，走向右上時由**前方壓迫氣管**；好發**嬰幼兒**，可致**氣管狹窄（tracheal stenosis）**、咳嗽、喘鳴、反射性呼吸暫停。[^1]
-- **手術門檻**：症狀性病人若**氣管管腔狹窄超過70%**，建議手術修補（如aortopexy/無名動脈固定術）。[^1]
-- **本題**：A（別名brachiocephalic artery compression syndrome）、B（嬰幼兒可致氣管狹窄）、C（症狀性病人氣管狹窄>70%建議手術）皆為正確描述，故答案為**D（none of above，無錯誤選項）**。[^1]
+- **別名/機轉**：brachiocephalic（innominate）artery compression syndrome；無名動脈**由氣管左側發出、橫過氣管前方於胸廓入口壓迫**，嬰兒氣管軟弱使狹窄加重。[^1][^2]
+- **族群/表現**：**年輕嬰兒、男性較多**；喘鳴、呼吸暫停、呼吸困難、反覆支氣管肺部感染、生長遲滯。[^1]
+- **影像**：**壓迫侷限於無名動脈橫越之層面**、氣管前壁受壓；動態 CT/MR 顯示 tracheomalacia、**症狀性者動態 >50–75% 氣管壓迫**（本題採 >70% 建議手術修補）。[^1]
+- **本題**：A（別名 brachiocephalic artery compression syndrome）、B（嬰幼兒可致氣管狹窄）、C（症狀性 >70% 建議手術）皆正確，故答案為 **D（none of above，無錯誤選項）**。[^1][^2]
 
-> [!note] 考點：無名動脈壓迫症候群何者錯誤？
-> **None of above（D）**——A(別名brachiocephalic artery compression syndrome)、B(嬰幼兒可致氣管狹窄)、C(症狀性病人氣管狹窄>70%建議手術修補)皆為正確描述，無錯誤選項。[^1]
+## 放射科醫師影像判讀重點
+- **側位 X 光**：胸廓入口處**氣管前方壓跡**；正面投影無空氣滯留。[^1]
+- **CT/MR（首選定量與排除他因）**：**壓迫侷限於無名動脈橫越層面**；**CTA 3D 後處理／虛擬支氣管鏡**顯示血管與氣管關係；**動態影像偵測 tracheomalacia（>50–75% 動態壓迫具意義）**。[^1]
+- **內視鏡**：氣管前壁「固定、搏動性」壓迫。[^1]
+- **判讀陷阱**：**氣管內管或正壓呼吸支持可撐開氣管、遮蔽阻塞**——評估時須留意；且**許多無症狀孩童有輕度前方壓迫屬正常變異**，勿過度診斷。[^1]
+- **鑑別（外在氣道壓迫）**：縱膈腫塊（bronchogenic/duplication cyst、neurofibroma、lymphoma、thymic cyst、teratoma）、異位甲狀腺/胸腺、血管異常（右位主動脈弓＋迷走左鎖骨下、雙主動脈弓、主動脈/無名動脈瘤）、淋巴管畸形。[^1]
+
+## 臨床重點（5 句）
+1. **定義/機轉**：無名動脈橫過氣管前方於胸廓入口造成**症狀性氣管壓迫**；嬰兒氣管軟弱加重；**「anomalous innominate artery」為誤稱**（走行本屬正常）。[^1]
+2. **流行病學**：好發**年輕嬰兒、男性較多**。[^1]
+3. **臨床表現**：喘鳴、呼吸暫停、呼吸困難、**反覆支氣管肺部感染、生長遲滯**；嚴重胃食道逆流者可伴 tracheomalacia。[^1]
+4. **自然史**：**多數隨孩童成長而症狀減輕**、以保守治療為主。[^1]
+5. **治療**：保守失敗或反覆住院之症狀性病人採手術——**aortopexy 或無名動脈起源再植入（reimplantation）**；本題以症狀性氣管狹窄 >70% 為手術門檻。[^1][^2]
+
+> [!note] 考點：無名動脈壓迫症候群何者「錯誤」？
+> **None of above**——A（別名 brachiocephalic artery compression syndrome）、B（嬰幼兒可致氣管狹窄）、C（症狀性氣管狹窄 >70% 建議手術修補）皆為正確描述，無錯誤選項。[^1][^2]
 
 ### 參考來源
-[^1]: 放射科基本學理／Radiopaedia *innominate artery compression syndrome*（2018 交換考題詳解 p.307 引用；輔助來源）。無名動脈壓迫症候群＝brachiocephalic artery compression syndrome；無名動脈起源偏左由前方壓迫氣管、好發嬰幼兒致氣管狹窄；症狀性病人氣管管腔狹窄>70%建議手術修補。
+[^1]: **Tier 1** Masand PM, Richardson RR. *Innominate Artery Compression Syndrome*（Pediatrics, Dx）. STATdx, Elsevier, updated 11/11/21（11 refs；實際查證 accessed 2026-07-03）——症狀性氣管壓迫因無名動脈於胸廓入口橫過氣管前方、嬰兒軟氣管加重；正常無名動脈由氣管左側發出、橫過前方（「anomalous」為誤稱）；影像＝側位片前方壓跡、壓迫侷限於橫越層面、CT/MR＋動態偵測 tracheomalacia（>50–75% 動態壓迫）、CTA 3D/虛擬支氣管鏡、內視鏡固定搏動性壓迫；ETT/正壓可遮蔽；許多無症狀孩童有輕度前壓屬正常變異；表現喘鳴/呼吸暫停/呼吸困難/反覆感染/FTT、男性較多、隨成長減輕；治療多保守、失敗者 aortopexy 或無名動脈再植入；DDx（縱膈腫塊/異位甲狀腺胸腺/血管環/淋巴管畸形）。
+[^2]: *Innominate artery compression syndrome*. Radiopaedia.org（2018 交換考詳解引用；輔助來源）——＝brachiocephalic artery compression syndrome；無名動脈起源偏左由前方壓迫氣管、好發嬰幼兒致氣管狹窄；症狀性病人氣管狹窄 >70% 建議手術修補。與 [^1] 一致。原「放射基本學理/Radiopaedia only」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which statement of innominate artery compression syndrome is wrong? (2018-392)
-> **None of above（D）**——A/B/C皆為正確描述(別名brachiocephalic artery compression syndrome、嬰幼兒可致氣管狹窄、症狀性氣管狹窄>70%建議手術)，無錯誤選項。[^1]
+> **None of above**——A/B/C 皆為正確描述（別名 brachiocephalic artery compression syndrome、嬰幼兒可致氣管狹窄、症狀性氣管狹窄 >70% 建議手術修補），無錯誤選項。[^1][^2]
 
 ## 考題
 ```dataview
