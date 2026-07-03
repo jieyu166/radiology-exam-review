@@ -6,50 +6,64 @@ aliases:
   - CT cystography
   - bladder injury classification
   - molar tooth sign bladder rupture
-  - Type 3 UB injury
+  - Sandler classification
   - 膀胱外傷CT膀胱攝影分類
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # bladder-injury-ct-cystography
 
-**創傷性膀胱損傷之CT膀胱攝影分類分五型，關鍵原則是「先排除尿道損傷再放Foley導尿管」——放置導尿管前若尿道已損傷卻強行置入，可能加重損傷；影像上「molar tooth sign（磨牙徵象）」是extraperitoneal膀胱破裂的典型表現。**
+**創傷性膀胱損傷之 CT 膀胱攝影分五型（Sandler）：關鍵臨床原則是「先排除尿道損傷再放 Foley」——尿道已傷卻強插導尿管會加重損傷。影像上「molar tooth sign」是 extraperitoneal（type 4）破裂的典型；管理分水嶺＝腹膜腔內破裂（type 2，dome）需手術、腹膜腔外破裂（type 4，最常見）多以導尿保守治療。** 判讀分水嶺：**對比劑「環繞腸道/進 Douglas/Morrison pouch」＝intraperitoneal（手術）；對比劑「局限骨盆腔外間隙（space of Retzius）呈 molar tooth」＝extraperitoneal（保守）。**
 
 ## Summary
-- **檢查前置作業**：執行CT膀胱攝影前，**應先排除尿道損傷(check urethral injury)**，再放置Foley導尿管——若尿道已受損卻強行置入導尿管，恐加重損傷。[^1]
-- **膀胱損傷放射學分類（五型）**：[^1]
-  - **Type 1（UB contusion）**：膀胱壁不對稱增厚，無對比劑外滲入膀胱壁或腔外空間。
-  - **Type 2（Intraperitoneal UB rupture）**：對比劑/尿液外滲入腹膜腔，環繞腸道。
-  - **Type 3（Interstitial UB injury）**：膀胱壁增厚合併**局部對比劑貫穿(focal contrast material transection)**，但**未延伸入腹膜腔內或腹膜腔外空間**。
-  - **Type 4a（Simple extraperitoneal UB rupture）**：對比劑外溢入膀胱前間隙，呈典型**molar tooth sign（磨牙徵象）**。
-  - **Type 5（Combined intra- and extraperitoneal UB rupture）**：同時合併腹膜腔內與腹膜腔外破裂表現。
-- **臨床重要性**：了解急性創傷情境下CT膀胱攝影之適應症與最佳掃描規範，對於有效率且準確之診斷至關重要。[^1]
-- **傳統膀胱攝影(static cystography) vs CT膀胱攝影之選擇**：兩者之選擇主要取決於**臨床情境與醫師偏好**；若已因評估腹內損傷而執行CT腹部檢查，應**一併加做CT膀胱攝影**評估膀胱；若須於創傷單位以**可攜式設備**執行檢查，**傳統靜態膀胱攝影**仍為建立膀胱損傷診斷之可靠方法。[^2]
-- **合併尿道損傷**：合併骨盆骨折之尿道損傷男性病患中約**10-20%合併膀胱損傷**；兩者**可各自單獨發生**（非必然合併）；膀胱損傷可為腹膜腔內、腹膜腔外、或少見之**合併型**。[^3]
+- **檢查前置**：CT 膀胱攝影前**先排除尿道損傷**（疑似則先逆行尿道攝影），再放 Foley；技術上需**逆行主動灌注使膀胱充分擴張（約 300-400 mL）**，clamped Foley 被動充盈可能不足而漏診。[^1][^2]
+- **敏感度**：**CT cystogram ~100%（首選）**、fluoroscopic cystography ~95%。[^2]
+- **Sandler 五型分類**：[^1][^2]
+  - **Type 1（contusion 挫傷）**：膀胱壁不對稱增厚，無對比劑外滲。
+  - **Type 2（intraperitoneal rupture，10-20%）**：好發**dome**；對比劑/尿液外滲入**腹膜腔（Douglas/Morrison pouch）、環繞腸道**——**需手術**。
+  - **Type 3（interstitial 間質性）**：壁內局部貫穿但**未延伸入腹膜腔內外空間**。
+  - **Type 4（extraperitoneal rupture，80-90%，最常見）**：**4A simple**＝局限骨盆腔外間隙（space of Retzius），呈 **molar tooth sign**；**4B complex**＝外滲延伸至大腿/陰囊/會陰/前腹壁/後腹腔/髖關節——多**保守（Foley）**。
+  - **Type 5（combined）**：合併腹膜腔內外破裂。
+- **molar tooth sign**：extraperitoneal 外滲對比劑**上方呈圓、下外側呈尖**，形似臼齒。[^2]
+- **合併骨折/尿道**：**約 80% 膀胱破裂合併骨盆骨折**（骨刺可指向膀胱）；合併尿道損傷之男性約 **10-20% 合併膀胱損傷**，兩者可各自單獨發生。[^2][^3]
+
+## 放射科醫師影像判讀重點
+- **充分擴張是關鍵**：主動逆行灌注至充分擴張才能顯現小破口；被動 clamp 易低估。[^2]
+- **腹膜腔內 vs 外**：intraperitoneal（環腸/入 pouch）→手術；extraperitoneal（Retzius/molar tooth）→導尿保守——決定處置。[^2]
+- **type 3 陷阱**：間質性為壁內貫穿但未穿透至腔內外，勿升級為破裂。[^1]
+- **合併徵象**：骨盆骨折 + 骨刺指向膀胱、膀胱周圍血腫、teardrop bladder（受血腫壓迫）提高警覺。[^2]
+- **模態選擇**：已做 CT 腹部評估腹內損傷者應**一併加做 CT 膀胱攝影**；創傷單位可攜式情境下傳統靜態膀胱攝影仍可靠。[^3]
+
+## 臨床重點（5 句）
+1. **先尿道後導尿**：疑尿道損傷先逆行尿道攝影，勿貿然插 Foley。[^1]
+2. **技術**：主動逆行灌注充分擴張，CT cystogram ~100% 敏感為首選。[^2]
+3. **分型決定處置**：type 2 手術、type 4 保守。[^2]
+4. **molar tooth**＝extraperitoneal；環腸/入 pouch＝intraperitoneal。[^2]
+5. **合併損傷**：80% 膀胱破裂伴骨盆骨折；可合併尿道損傷（10-20%）。[^2][^3]
 
 > [!note] 考點一：關於疑似創傷性膀胱損傷之CT膀胱攝影，何者錯誤？
-> **以上皆非（D，即A/B/C皆正確）**——了解適應症與最佳規範對準確診斷至關重要、應先排除尿道損傷再放置Foley導尿管、Type 3損傷為局部對比劑貫穿但未延伸入腹膜腔內外空間，皆為正確敘述。[^1]
+> **以上皆非（D，即A/B/C皆正確）**——了解適應症與最佳規範對準確診斷至關重要、應先排除尿道損傷再放置 Foley、Type 3 為局部對比劑貫穿但未延伸入腹膜腔內外空間，皆為正確。[^1][^2]
 
 > [!note] 考點二：傳統膀胱攝影 vs CT膀胱攝影如何選擇？
-> **以上皆是（D）**——取決於臨床情境與醫師偏好；已做CT腹部評估腹內損傷時應一併做CT膀胱攝影；創傷單位可攜式設備情境下傳統靜態膀胱攝影仍可靠。[^2]
+> **以上皆是（D）**——取決於臨床情境與醫師偏好；已做 CT 腹部評估腹內損傷時應一併做 CT 膀胱攝影；創傷單位可攜式設備情境下傳統靜態膀胱攝影仍可靠。[^3]
 
 > [!note] 考點三：膀胱與尿道損傷合併發生之特性？
-> **以上皆是（D）**——10-20%合併尿道損傷之男性病患合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外、或少見合併型。[^3]
+> **以上皆是（D）**——10-20% 合併尿道損傷之男性合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外或少見合併型。[^2][^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radiographics. 2018;38:92-93（題目所引）——CT膀胱攝影前應先排除尿道損傷再置Foley導尿管；膀胱損傷放射學分類Type 1(挫傷)/Type 2(腹膜腔內破裂)/Type 3(間質性損傷，局部貫穿未延伸腹膜腔內外)/Type 4a(單純腹膜腔外破裂，molar tooth sign)/Type 5(合併腹膜腔內外破裂)。
-[^2]: 官方2020詳解；Ref: Clinical Urography, 2nd Edition, p.1799（題目所引）——傳統與CT膀胱攝影之選擇取決於臨床情境與醫師偏好；已做CT腹部者應一併做CT膀胱攝影；可攜式設備情境下傳統靜態膀胱攝影仍可靠。
-[^3]: 官方2020詳解；Ref: Clinical Urography, 2nd Edition, p.1831（題目所引）——10-20%合併尿道損傷男性病患合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外、或少見合併型。
+[^1]: Vaccaro JP, et al. *CT Cystography for Suspicion of Traumatic Urinary Bladder Injury: Indications, Technique, Findings, and Pitfalls*. RadioGraphics 2018;38(1):92-93（Fundamentals; DOI 10.1148/rg.2018170125；accessed 2026-07-03）——CT 膀胱攝影前先排除尿道損傷再置 Foley；Sandler 五型（1 挫傷／2 腹膜腔內／3 間質性／4 腹膜腔外，molar tooth／5 合併）。
+[^2]: *Bladder Trauma* (Dx). STATdx, updated 09/02/25. Elsevier——**CT cystogram ~100% 敏感、首選**；**intraperitoneal（type 2）10-20%（dome、入 Douglas/Morrison、環腸）、extraperitoneal（type 4）80-90%（4A Retzius/molar tooth、4B 延伸至大腿/陰囊/會陰等）**；molar tooth 上圓下外尖；**~80% 膀胱破裂伴骨盆骨折、骨刺指向膀胱**。
+[^3]: 官方 2020 詳解；Ref: Clinical Urography, 2nd ed., pp.1799, 1831（題目所引）——靜態 vs CT 膀胱攝影選擇取決臨床情境與偏好、已做 CT 腹部者一併做 CT 膀胱攝影、可攜式情境靜態仍可靠；合併尿道損傷男性 10-20% 合併膀胱損傷、兩者可各自發生（結論已由上述一手來源查核佐證）。
 
 ## 題目
 > [!question]- About CT cystography for suspicion of traumatic UB injury, which one is wrong? (2020-316)
-> **以上皆非（D，A/B/C皆正確）**——了解適應症與最佳規範至關重要、應先排除尿道損傷再置Foley導尿管、Type 3損傷為局部對比劑貫穿但未延伸腹膜腔內外空間，皆正確。[^1]
+> **以上皆非（D，A/B/C皆正確）**——了解適應症與最佳規範至關重要、應先排除尿道損傷再置 Foley、Type 3 為局部對比劑貫穿但未延伸腹膜腔內外空間，皆正確。[^1][^2]
 
 > [!question]- Which is true about radiological exam of bladder trauma, regarding the choice between static cystography and CT cystography? (2020-331)
-> **以上皆是（D）**——取決於臨床情境與醫師偏好；已做CT腹部者應一併做CT膀胱攝影；創傷單位可攜式設備情境下傳統靜態膀胱攝影仍可靠。[^2]
+> **以上皆是（D）**——取決於臨床情境與醫師偏好；已做 CT 腹部者應一併做 CT 膀胱攝影；創傷單位可攜式設備情境下傳統靜態膀胱攝影仍可靠。[^3]
 
 > [!question]- Which is true about combined bladder and urethral injury? (2020-332)
-> **以上皆是（D）**——10-20%合併尿道損傷之男性病患合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外、或少見合併型。[^3]
+> **以上皆是（D）**——10-20% 合併尿道損傷之男性合併膀胱損傷；兩者可各自單獨發生；膀胱損傷可為腹膜腔內、腹膜腔外或少見合併型。[^2][^3]
 
 ## 考題
 ```dataview
