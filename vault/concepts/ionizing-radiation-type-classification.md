@@ -27,6 +27,7 @@ dateRev: 2026-07-03
 - **帶電否定直/間接**：帶電（α/β）＝直接；不帶電（光子/中子）＝間接——是分類的關鍵判準。[^2]
 - **中子定位**：不帶電、多由核反應產生，屬間接游離（經氫核反衝等）。[^2]
 - **二次電子概念**：X 光/γ 之游離大多經其產生之二次電子完成（Compton/光電）。[^2]
+- **防護權重（ICRP 103）**：**不同輻射型態之生物效應以 radiation weighting factor（w_R）表述——光子/電子 w_R=1、α 粒子 w_R=20、中子依能量 2.5-20**；反映高 LET（α/中子）之直接/密集游離傷害較大。[^3]
 - **考點提醒**：「X 光與 γ 為粒子型」是常見錯誤敘述（應為電磁波型）。[^1]
 
 ## 臨床重點（5 句）
@@ -41,7 +42,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2020 詳解；Ref: 原子、輻射、與輻射防護, Ch.3, p.75（題目所引）——分粒子型（帶電粒子動能/電位能）與電磁波型（能量傳遞致激發游離）；X 光與 γ 本質皆電磁波、僅來源不同（核外躍遷/制動 vs 核衰變）。
-[^2]: Weerakkody Y, et al. *Ionizing radiation*. Radiopaedia, rID-59177, DOI 10.53347/rID-59177——**直接游離＝帶電粒子（α、β）**；**間接游離＝不帶電之 X 光/γ 與中子**（X 光/γ 經二次電子、Compton/光電；中子經與氫核作用），佐證直接/間接分類與 X 光/γ 之電磁波本質。
+[^2]: Weerakkody Y, et al. *Ionizing radiation*. Radiopaedia, rID-59177, DOI 10.53347/rID-59177（輔助來源）——**直接游離＝帶電粒子（α、β）**；**間接游離＝不帶電之 X 光/γ 與中子**（X 光/γ 經二次電子、Compton/光電；中子經與氫核作用），佐證直接/間接分類與 X 光/γ 之電磁波本質。
+[^3]: **Tier 1（權威一手）** ICRP. *The 2007 Recommendations of the International Commission on Radiological Protection. ICRP Publication 103*. Ann ICRP 2007;37(2-4):1-332（據 PubMed，DOI [10.1016/j.icrp.2007.10.003](https://doi.org/10.1016/j.icrp.2007.10.003)；實際查證 accessed 2026-07-04）——放射防護體系基準；定義 **radiation weighting factor（w_R）反映不同輻射型態之相對生物效應：光子與電子 w_R=1、α 粒子 w_R=20、質子 2、中子依能量 2.5-20**（equivalent dose = w_R × absorbed dose），高 LET（α/中子）密集直接游離故權重高；另以 tissue weighting factor 求 effective dose。佐證粒子型（帶電高 LET）vs 電磁波型（光子 w_R=1）之防護意涵。原「官方/Radiopaedia」弱來源已由本次 ICRP 權威一手來源查核升級。
 
 ## 題目
 > [!question]- 關於游離輻射的型態，可分為粒子型及電磁波型游離輻射，在此一分類下，以下敘述何者為非? (2020-338)
