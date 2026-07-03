@@ -24,24 +24,27 @@ dateRev: 2026-07-03
 
 ## 放射科醫師影像判讀重點
 - **先問骨骺板狀態**：未閉青少年骨骺溶骨＝先想 chondroblastoma；已閉成人偏心軟骨下＝先想 GCT。[^1][^2]
-- **軟骨基質**：chondroblastoma 可見絮狀/環弧狀鈣化 + 常伴周邊骨髓水腫。[^2]
+- **chondroblastoma 位置（STATdx）**：**85% 起於 epiphysis、12% apophysis、其餘 epiphyseal equivalent（跗骨/腕骨/髕骨）；達 55% 延伸至鄰接 metaphysis；純 meta/diaphyseal 罕見**；長骨 75-80%（近脛/遠近股/近肱最常）；大小 1-4 cm。[^3]
+- **chondroblastoma X 光/CT（STATdx）**：**界清溶骨骨骺病灶 + 硬化緣、chondroid ring-and-arc 鈣化 30-50%、鄰接 metaphysis solid 骨膜反應 60%**；CT 鈣化 ~44%、皮質破壞 19%。[^3]
+- **chondroblastoma MR（STATdx，關鍵）**：**T2 FS 內部異質 + 低/中 T2 訊號灶（有別於多數高 T2 軟骨瘤）、低訊號 rim、周圍骨髓/軟組織水腫、反應性關節積液達 50%、續發 ABC（fluid-fluid level）23-33%**。[^3]
 - **clear cell**：骨骺型軟骨肉瘤，勿當良性軟骨病灶。[^1]
-- **感染別漏**：骨骺膿瘍可擬似腫瘤，找臨床發炎與破壞。[^1]
+- **DDx（STATdx chondroblastoma）**：**osteoid osteoma（皮質幹/幹骺、小 nidus 早期強化）、osteomyelitis（幹骺、大量水腫無界清病灶）、LCH（皮質破壞+軟組織、高 T2、偏 metadiaphysis/扁骨）、轉移（多發侵襲）、GCT（軟骨下無硬化緣、骨骼成熟者、較偏 metaphysis）**。[^3]
 - **陷阱**：Ewing 不是骨骺病灶（偏骨幹/metadiaphysis）。[^1]
 
 ## 臨床重點（5 句）
-1. **骨骺 DDx＝CGI**（chondroblastoma、GCT、感染）+ clear cell chondrosarcoma。[^1][^2]
-2. **chondroblastoma**：10–25 歲、男略多、骨骺未閉。[^2]
-3. **GCT**：骨骺已閉、偏心軟骨下。[^1]
-4. **clear cell chondrosarcoma**：骨骺型。[^1]
-5. **Ewing 非骨骺**（骨骺僅 1–2%）。[^1]
+1. **骨骺 DDx＝CGI**（chondroblastoma、GCT、感染）+ clear cell chondrosarcoma；Ewing 非骨骺（僅 1-2%）。[^1][^2]
+2. **chondroblastoma（STATdx）**：**占原發骨腫瘤 1%、peak 15-20 歲（範圍 3-85）、M:F 1.6-3.5:1**；表現痛/壓痛/僵硬/腫脹/跛行、症狀至診斷平均 9 月。[^3]
+3. **病理（STATdx）**：未成熟軟骨細胞（chondroblasts）+ 散在成熟軟骨與巨細胞；**細胞間 "chicken-wire" 鈣化 60%**；續發 ABC（依定義 23-33%、microcyst+出血達 83%）。[^3]
+4. **GCT**：骨骺已閉、偏心軟骨下、無硬化緣。[^1][^3]
+5. **治療/預後（STATdx）**：**手術刮除 ± 植骨（優於切除以保護鄰接生長板）或 RFA；復發 5-35%（骨骼未成熟者較高）、罕見肺轉移**。[^3]
 
 > [!note] 考點：何者「不」常侵犯長骨骨骺?
 > **Ewing sarcoma**——好發骨幹/metadiaphysis，骨骺僅 1–2%。chondroblastoma、giant cell tumor、osteosarcoma（可延伸）較會侵犯骨骺。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology Review Manual 7th ed., p.6：epiphyseal lesions 含 chondroblastoma（骨骺未閉）、GCT（骨骺已閉）、clear cell chondrosarcoma、感染；Ewing sarcoma 分布 mid-diaphysis 33%/metadiaphysis 44%/metaphysis 15%/epiphysis 1–2%。
-[^2]: Weerakkody Y, et al. *Chondroblastoma*. Radiopaedia, rID-9259, DOI 10.53347/rID-9259——**良性軟骨源腫瘤，特徵性起於長骨 epiphysis 或 apophysis、年輕病人（10–25 歲、男略多）**，為骨骼未成熟者最常見之良性骨骺腫瘤之一；WHO 必要診斷條件含「epiphyseal/apophyseal 溶骨性腫瘤」——佐證骨骺病灶清單。
+[^2]: Weerakkody Y, et al. *Chondroblastoma*. Radiopaedia, rID-9259, DOI 10.53347/rID-9259（輔助來源）——**良性軟骨源腫瘤，特徵性起於長骨 epiphysis 或 apophysis、年輕病人（10–25 歲、男略多）**，為骨骼未成熟者最常見之良性骨骺腫瘤之一；WHO 必要診斷條件含「epiphyseal/apophyseal 溶骨性腫瘤」——佐證骨骺病灶清單。
+[^3]: **Tier 1** Merrow AC Jr. *Chondroblastoma*（Pediatrics, Musculoskeletal, Focal/Multifocal/Diffuse Bone Lesions, Dx）. STATdx, Elsevier, updated 11/01/21（15 refs；實際查證 accessed 2026-07-04）——良性至中度惡性、未成熟軟骨細胞；**85% 起 epiphysis、12% apophysis、其餘 epiphyseal equivalent（跗/腕/髕）；達 55% 延伸 metaphysis、純 meta/diaphyseal 罕見；長骨 75-80%（近脛/遠近股/近肱）**；**X 光（界清溶骨骨骺+硬化緣、chondroid ring-and-arc 鈣化 30-50%、鄰接 metaphysis solid 骨膜反應 60%）；MR T2 FS（內部異質+低/中 T2 訊號灶有別於高 T2 軟骨瘤、低訊號 rim、周圍水腫、反應性關節積液 50%、續發 ABC fluid-fluid level 23-33%）**；病理（chicken-wire 鈣化 60%）；**流病（原發骨腫瘤 1%、peak 15-20 歲、M:F 1.6-3.5:1）；治療（刮除±植骨/RFA、復發 5-35%、罕肺轉移）**；DDx（osteoid osteoma、osteomyelitis、LCH、轉移、GCT）。佐證 chondroblastoma 為骨骺病灶之核心（另 GCT/感染/clear cell chondrosarcoma 見 [^1]）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 何者「不」常侵犯長骨骨骺（epiphysis）? (2017-145)
