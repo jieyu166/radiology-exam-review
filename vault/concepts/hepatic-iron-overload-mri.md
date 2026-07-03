@@ -5,30 +5,48 @@ subspecialty: [ABD]
 aliases:
   - hemochromatosis imaging
   - hepatic siderosis
+  - hepatic hemosiderosis
   - T2* iron quantification
   - 肝鐵沉積
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # hepatic-iron-overload-mri
 
-**肝鐵過載的判讀陷阱在於「哪個MRI序列對輕度鐵沉積較敏感」——答案是Gradient-echo（T2*弛豫），而非Spin-echo（T2弛豫），因鐵之順磁性效應對梯度回波序列的磁場不均勻更敏感。**
+**肝鐵過載的判讀陷阱在於「哪個 MRI 序列對輕度鐵沉積較敏感」——答案是 Gradient-echo（T2\* 弛豫），而非 Spin-echo（T2 弛豫）：GRE 缺 180° 重聚脈衝，對鐵之磁化率（susceptibility）造成的磁場不均勻更敏感，且延長 TE 可再增敏。** 判讀分水嶺：**分佈型態可分辨病因——原發性（hemochromatosis）沉積在「實質細胞」（肝細胞、胰、心，脾/骨髓相對倖免）；續發性（輸血性 siderosis）先沉積在「網狀內皮系統」（肝、脾、骨髓，胰早期倖免）。另：鐵在 in-phase（TE 較長）掉訊號、脂肪在 out-of-phase 掉訊號，剛好相反。**
 
 ## Summary
-- **CT表現**：非顯影CT下，**正常肝衰減45-65 HU**；鐵過載可致肝實質**均勻性高衰減（75-135 HU）**，因鐵原子高電子密度所致；此時門脈與肝靜脈相對呈**低衰減**。CT對hemochromatosis診斷**敏感度不佳**，僅作粗略篩檢，dual-energy CT可用於定量。[^1]
-- **MRI表現**：鐵之順磁性(paramagnetic)造成**T2與T2\*弛豫時間縮短**，於T2WI與T2\*WI呈相對低訊號(hypointensity)。[^1]
-- **序列敏感度比較（核心考點）**：**Gradient-echo序列（T2\*弛豫）對輕度鐵過載較Spin-echo序列（T2弛豫）更敏感**——梯度回波序列缺乏180°重聚脈衝，對磁場不均勻（鐵造成之磁化率效應）更敏感，故偵測輕度鐵沉積能力優於自旋回波序列。[^1]
-- **定量方法**：需以多個不同echo time取得訊號強度，建立訊號強度對echo time之衰減曲線（T2 parametric map），弛豫加速程度與鐵含量成正比。[^1]
+- **CT 表現**：非顯影 CT 下正常肝衰減 **45-65 HU**；鐵過載致肝實質**均勻高衰減（約 75-135 HU）**（鐵之高電子密度），此時肝內血管相對呈低衰減；**siderotic regenerating nodule** 於 CT 呈高衰減結節。CT 對鐵過載**敏感度不佳**，僅粗略篩檢；**dual-energy CT** 可用於定量。[^1][^3]
+- **MRI 表現**：鐵為**順磁性（paramagnetic）**，縮短 **T2 與 T2\***，於 T2WI/T2\*WI 呈相對**低訊號**；「心臟和/或肝臟 T2 低訊號」應懷疑鐵過載。[^1][^2]
+- **序列敏感度（核心考點）**：**Gradient-echo（T2\*）對輕度鐵過載較 Spin-echo（T2）更敏感**——GRE 無 180° 重聚脈衝，對磁化率效應更敏感；**延長 TE 可提高偵測（含 siderotic nodule）**。[^1][^2]
+- **鐵 vs 脂肪（in/out-of-phase 反向）**：**鐵在 in-phase（TE 較長）訊號下降較 out-of-phase 明顯**（T2\* 效應在較長 TE 更強）；**脂肪則相反**（out-of-phase 掉訊號）——為區分脂肪與鐵之關鍵。[^2]
+- **定量方法**：以**多個 echo time** 取得訊號-TE 衰減曲線（T2\*/R2\* 或 R2 relaxometry），弛豫加速與鐵含量成正比；**T2\* MR 為心肌鐵定量標準**。[^1]
+
+## 放射科醫師影像判讀重點
+- **首要線索**：肝（±心、胰）在 T2/T2\* 呈瀰漫低訊號，較脾/背景肌肉更黑。[^1][^2]
+- **分佈型態辨病因**：原發性 hemochromatosis → **肝細胞、胰、心**受累、脾/骨髓倖免；續發性輸血性 → **肝-脾-骨髓（RES）**先受累、胰早期倖免（RES 飽和後才波及）。[^1]
+- **胰與心受累**＝晚期/嚴重指標，心肌鐵過載須 T2\* 定量以評估心臟風險。[^1]
+- **量化**：R2\*（1/T2\*）與肝鐵濃度線性相關；FerriScan(R2) 與 T2\* 為臨床常用。[^1]
+- **陷阱**：同時有脂肪肝時，鐵（in-phase 掉訊號）與脂肪（out-of-phase 掉訊號）方向相反，判讀須看 TE；CT 高衰減亦可能被脂肪抵消。[^2][^3]
+
+## 臨床重點（5 句）
+1. **病因二分**：原發性為 HFE 基因型 hemochromatosis（實質沉積）；續發性以**輸血依賴之 thalassemia major/intermedia** 最常見（RES 沉積）。[^1]
+2. **為何要定量**：MRI（T2\*/R2）可非侵入取代肝切片評估鐵負荷並追蹤治療。[^1]
+3. **心臟風險**：心肌鐵沉積是輸血性鐵過載主要死因，需 cardiac T2\* 定量。[^1]
+4. **治療**：續發性以**鐵螯合劑（deferoxamine 靜脈/皮下、deferiprone 口服）**；原發性以放血。[^1]
+5. **影像優先**：MRI 較 CT 敏感且可定量，為評估與追蹤首選；CT 僅偶然或篩檢角色。[^1][^3]
 
 > [!note] 考點：關於肝鐵過載,何者錯誤?
-> 「**Spin-echo序列（T2弛豫）對輕度鐵過載較Gradient-echo序列（T2\*弛豫）更敏感**」為錯——應為相反，Gradient-echo（T2\*）對輕度鐵過載更敏感。正常肝衰減45-65HU、鐵過載致均勻高衰減75-135HU、鐵過載致T2/T2\*縮短呈相對低訊號皆為正確敘述。[^1]
+> 「**Spin-echo（T2 弛豫）對輕度鐵過載較 Gradient-echo（T2\* 弛豫）更敏感**」為錯——應相反，**Gradient-echo（T2\*）對輕度鐵過載更敏感**（磁化率效應、延長 TE 增敏）。正常肝 45-65 HU、鐵過載致均勻高衰減 75-135 HU、鐵過載致 T2/T2\* 縮短呈相對低訊號皆為正確。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Abdominal image 1st ed, p628。
+[^1]: Hanneman K. *Iron Overload Syndromes* (Dx). STATdx, updated 01/23/25（12 refs）. Elsevier——原發（parenchymal：肝細胞/胰/心）vs 續發（transfusional/RES：肝-脾-骨髓，胰早期倖免、thalassemia 最常見）；T2/T2\* 定性低訊號、**T2\* 定量心肌鐵**；螯合治療（deferoxamine/deferiprone）。
+[^2]: Gaillard F, et al. *Hepatic hemosiderosis*. Radiopaedia, rID-2001——GRE T2\* 低訊號、**GRE 較 SE 敏感、延長 TE 增敏偵測 siderotic nodule**；GRE T1 in-phase 訊號較 out-of-phase 下降（TE 較長、T2\* 效應強）＝與脂肪相反；siderotic nodule 於 CT 高衰減、MRI 較 CT 敏感。
+[^3]: 官方 2020 詳解；Ref: Abdominal Imaging 1st ed, p628（題目所引）——已由上述一手來源查核取代方向性結論；CT 正常肝 45-65 HU、鐵過載均勻高衰減 75-135 HU、CT 敏感度不佳、dual-energy CT 可定量。
 
 ## 題目
 > [!question]- Concerning hepatic iron overload, which one of the following is incorrect? (2020-214)
-> **D**——應為Gradient-echo（T2\*弛豫）對輕度鐵過載較Spin-echo（T2弛豫）更敏感，而非相反。[^1]
+> **D**——應為 Gradient-echo（T2\* 弛豫）對輕度鐵過載較 Spin-echo（T2 弛豫）更敏感，而非相反。[^1][^2]
 
 ## 考題
 ```dataview

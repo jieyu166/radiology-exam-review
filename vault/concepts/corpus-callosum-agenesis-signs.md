@@ -4,33 +4,52 @@ name: Agenesis of Corpus Callosum — Imaging Signs
 subspecialty: [NR, PE]
 aliases:
   - agenesis of corpus callosum
+  - dysgenesis of corpus callosum
+  - Probst bundles
   - racing car sign
   - moose head sign
   - colpocephaly
   - 胼胝體發育不全
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # corpus-callosum-agenesis-signs
 
-**胼胝體發育不全有兩個著名的動物意象徵象——冠狀切面的「麋鹿頭徵象(moose head sign)」與軸切面的「賽車徵象(racing car sign)」，兩者皆描述側腦室因缺乏胼胝體壓迫而呈特徵性平行擴大變形；molar tooth sign（磨牙齒徵象）則是完全不同疾病（Joubert症候群）的中腦徵象，與胼胝體發育不全無關。**
+**胼胝體發育不全（ACC）的所有經典徵象都源自同一個解剖機轉：本應跨中線的白質束無法交叉，改沿中線縱走形成 Probst bundles，把兩側側腦室「平行」推開。冠狀切面的「麋鹿頭徵象」與軸切面的「賽車徵象」都在描述這個平行擴大變形；molar tooth sign 則屬 Joubert 症候群的中腦徵象，與 ACC 無關。** 判讀分水嶺：**看到「側腦室平行、額角上翹、第三腦室高位、枕角不成比例擴大（colpocephaly）」＝ ACC；別把 Joubert 的 molar tooth（上小腦腳拉長）算進來。**
 
 ## Summary
-- **Racing car sign（賽車徵象）**：軸切面上，因胼胝體缺如、側腦室額角(frontal horn)向外側移位呈平行狀，加上第三腦室高位擴張置中，形似賽車之整體外觀。[^1]
-- **Moose head sign（麋鹿頭徵象）**：冠狀切面上，擴大分離之側腦室額角形似麋鹿之鹿角，第三腦室高位擴張形似麋鹿頭部，為胼胝體發育不全之經典冠狀切面徵象。[^1]
-- **Colpocephaly（枕角擴大症）**：側腦室**枕角(occipital horn)不成比例擴大**，因缺乏胼胝體壓部(splenium)與周邊白質束正常發育所致，為胼胝體發育不全常見合併影像表現。[^1]
-- **Molar tooth sign（磨牙齒徵象）**：**與胼胝體發育不全無關**——此徵象描述軸切面中腦因**上小腦腳(superior cerebellar peduncles)拉長**而形似磨牙/智齒之外觀，最初描述於**Joubert症候群及相關疾病(JSRD)**，亦見於腎消耗症、肝纖維化等其他疾病。[^2]
+- **共同機轉（Probst bundles）**：孕期約 **8-12 週**的損傷使胼胝體無法形成，原本橫跨中線的白質束改**縱向平行走行**於半球間裂旁（**Probst bundles**），將兩側側腦室**大幅平行推開**——這是所有徵象的解剖基礎。[^1][^2]
+- **Racing car sign（賽車徵象）**：軸切面上，側腦室額角/體部因 Probst bundles 而**平行外移**、加上高位擴張居中的第三腦室，整體形似賽車。[^1][^2]
+- **Moose head sign（麋鹿頭徵象）**：冠狀切面上，**上翹分離之側腦室額角**似鹿角、**高位（high-riding）第三腦室**居中似頭部（亦稱 trident/Viking helmet 形態）。[^1]
+- **Colpocephaly（枕角擴大症）**：側腦室**枕角/三角區（posterior/occipital horn）不成比例擴大**，因缺乏壓部（splenium）與後方白質束正常發育；額角則呈**尖角（pointed）**。[^1][^2]
+- **Molar tooth sign（磨牙齒徵象）**：**與 ACC 無關**——為軸切面中腦因**上小腦腳拉長**似臼齒之徵象，屬 **Joubert 症候群及相關疾病（JSRD）**，亦見於腎消耗症、肝纖維化等。[^3]
+
+## 放射科醫師影像判讀重點
+- **矢狀切面（最佳確認面）**：**cingulate sulcus 消失**、半球間腦溝呈**放射狀直達第三腦室邊緣**（因缺乏胼胝體與扣帶迴翻轉）；正中矢狀可直接看胼胝體是否存在/部分缺如。[^1]
+- **軸切面**：側腦室平行（racing car）＋ colpocephaly（後角擴大）＋額角尖。[^1]
+- **冠狀切面**：**高位第三腦室 + 上翹側腦室（trident/moose head）**；Probst bundles 呈壓迫額角內側之縱向白質。[^1]
+- **Probst bundles**：緊密堆積之異位白質束，平行半球間裂——是 ACC 的病理標記，DTI 可見縱向纖維。[^1]
+- **完全 vs 部分**：完全 agenesis 上述徵象俱全；部分 dysgenesis（後段常缺）徵象較輕，症狀多取決於合併異常。[^2]
+- **必查合併異常**：interhemispheric cyst、Dandy-Walker、灰質異位、Chiari II、holoprosencephaly 等——ACC 常非孤立存在。[^2]
+
+## 臨床重點（5 句）
+1. **表現多元**：孤立部分 dysgenesis 常無症狀；症狀多由**合併之解剖異常**決定（癲癇、發展遲緩）。[^2]
+2. **流行病學**：屍檢盛行率可低至約 **1:20,000**，但兒童神經影像轉診中可達 ~1%（選樣偏差，因多有症狀性合併異常）。[^2]
+3. **胚胎時序**：損傷約在孕 8-12 週，胼胝體由前往後發育，故部分缺如常缺後段（splenium）。[^2]
+4. **診斷面向**：正中矢狀 + 冠狀 MRI 最能確認並評估合併畸形。[^1]
+5. **鑑別觀念**：ACC 的徵象群與 Joubert 的 molar tooth sign 分屬不同疾病，考題常混用作陷阱。[^1][^3]
 
 > [!note] 考點：何者與胼胝體發育不全影像表現無關？
-> **Molar tooth sign（D）**與胼胝體發育不全無關——此徵象屬**Joubert症候群及相關疾病**之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly皆為胼胝體發育不全之典型影像表現。[^1][^2]
+> **Molar tooth sign（D）**與 ACC 無關——此徵象屬 **Joubert 症候群及相關疾病**之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly（皆源自 Probst bundles 造成之側腦室平行擴大）為 ACC 之典型表現。[^1][^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Cherian EV, Shenoy KV, Bukelo MJ, Thomas DA. Racing car brings tear drops in the moose. BMJ Case Rep. 2013;2013:bcr2012008165.（題目所引）——胼胝體發育不全之racing car sign（軸切面側腦室額角平行外移+第三腦室高位置中）、moose head sign（冠狀切面側腦室額角分離似鹿角）、colpocephaly（枕角不成比例擴大）。
-[^2]: 官方2020詳解（題目未附獨立引用，依molar tooth sign標準文獻）——molar tooth sign為中腦因上小腦腳拉長形似磨牙之徵象，最初描述於Joubert症候群及相關疾病，亦見於腎消耗症、肝纖維化、Cogan症候群、pontine tegmental cap dysplasia等，與胼胝體發育不全無關。
+[^1]: Nagaraj UD. *Callosal Anomalies* (Dx). STATdx, updated 10/21/21（26 refs）. Elsevier——軸切面側腦室平行 + colpocephaly（三角區/後角擴大）+ 尖額角；**Probst bundles**（緊密異位白質束平行半球間裂）；矢狀面 cingulate sulcus 消失、腦溝放射狀達第三腦室邊緣；冠狀面高位第三腦室 + 上翹側腦室（trident）。
+[^2]: Gaillard F, et al. *Dysgenesis of the corpus callosum*. Radiopaedia, rID-864——胚胎損傷約孕 8-12 週致胼胝體無法形成、白質縱走成 Probst bundles（**racing car sign**）；盛行率約 1:20,000（兒童神經影像轉診可達 1%）；症狀取決於合併異常。原「官方 2020 詳解／Cherian 2013 BMJ Case Rep」弱來源已由上述一手來源查核取代。
+[^3]: molar tooth sign 標準文獻——中腦因上小腦腳拉長形似臼齒，最初描述於 Joubert 症候群及相關疾病（JSRD），亦見於腎消耗症、肝纖維化、Cogan 症候群、pontine tegmental cap dysplasia，**與 ACC 無關**（作為考題鑑別點）。
 
 ## 題目
 > [!question]- Which of the following imaging appearance is NOT related to agenesis of corpus callosum? (2020-298)
-> **Molar tooth sign（D）**——與胼胝體發育不全無關，屬Joubert症候群及相關疾病之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly皆為胼胝體發育不全之典型影像表現。[^1][^2]
+> **Molar tooth sign（D）**——與 ACC 無關，屬 Joubert 症候群及相關疾病之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly 皆為 ACC 之典型影像表現。[^1][^3]
 
 ## 考題
 ```dataview
