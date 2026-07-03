@@ -25,7 +25,9 @@ dateRev: 2026-07-03
 - **良惡性辨識**：benign（mixed tumor）＝邊界清、均質低回音、後方增強；malignant＝不均、邊界不清、內血流雜亂/周邊淋巴結。[^1]
 - **囊性病灶**：腮腺囊性 → 1st branchial cleft cyst/Warthin/淋巴上皮囊腫；HIV 相關 benign lymphoepithelial lesion 可囊/混合/實質。[^1]
 - **淋巴瘤警覺**：Sjögren 病人腺內局部低回音實質結節/持續腫大 → 想 MALT 淋巴瘤。[^2]
-- **導引 FNA**：US 區分囊/實、良/惡並導引穿刺。[^1]
+- **US 特徵譜（Bialek）**：**急性發炎＝腺體腫大低回音 + 血流增加 ± 多發小卵圓低回音；慢性發炎＝正常/縮小、低回音、不均；sialolithiasis＝明顯高回音線/點 + 遠端聲影；sialosis＝腺體增大高回音、無局灶、無血流增加；進展 Sjögren＝不均 + 散在小卵圓低/無回音（界清）+ 實質血流增加**。[^3]
+- **腫瘤 US 特徵（Bialek）**：**pleomorphic adenoma＝低回音、界清、分葉、後方增強 ± 鈣化；Warthin＝卵圓低回音界清、常含無回音區、常富血流；惡性＝形狀不規則/邊界模糊/低回音不均（惟亦可貌似良性）；囊腫＝界清無回音後方增強無內部血流**——特徵可重疊為判讀陷阱。[^3]
+- **導引 FNA**：US 區分囊/實、良/惡並導引穿刺。[^1][^3]
 
 ## 臨床重點（5 句）
 1. **Sjögren**：腮腺 + 下頜下腺（+淚腺）皆受累。[^1][^2]
@@ -39,7 +41,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Ahuja AT, et al. Diagnostic Ultrasound: Head and Neck, pp.50-60（題目所引）——Sjögren 累及腮腺與下頜下腺（不均質微囊）；benign lymphoepithelial lesion 可囊/混合/實質；pleomorphic adenoma 均質低回音 + 後方增強；腮腺囊性病灶考慮 1st branchial cleft cyst。
-[^2]: Gaillard F, et al. *Sjögren disease*. Radiopaedia, rID-6885, DOI 10.53347/rID-6885——慢性自體免疫、主要侵犯**唾液腺與淚腺**；雙側腮腺腫大/不均質、多囊（honeycomb/salt-and-pepper/reticular）、punctate 鈣化、晚期萎縮；**淋巴瘤風險 ~4%（MALT）**——佐證 Sjögren 廣泛累及唾液腺（含下頜下腺）。
+[^2]: Gaillard F, et al. *Sjögren disease*. Radiopaedia, rID-6885, DOI 10.53347/rID-6885（輔助來源）——慢性自體免疫、主要侵犯**唾液腺與淚腺**；雙側腮腺腫大/不均質、多囊（honeycomb/salt-and-pepper/reticular）、punctate 鈣化、晚期萎縮；**淋巴瘤風險 ~4%（MALT）**——佐證 Sjögren 廣泛累及唾液腺（含下頜下腺）。
+[^3]: **Tier 1** Bialek EJ, Jakubowski W, Zajkowski P, et al. *US of the major salivary glands: anatomy and spatial relationships, pathologic conditions, and pitfalls*. RadioGraphics 2006;26(3):745-63（據 PubMed，DOI [10.1148/rg.263055024](https://doi.org/10.1148/rg.263055024)；Review；實際查證 accessed 2026-07-04）——**US 為唾液腺疾病鑑別要角**；**急性發炎（腫大低回音+血流增）、慢性發炎（正常/縮小低回音不均）、sialolithiasis（高回音線/點+遠端聲影）、sialosis（增大高回音無局灶無血流）、進展 Sjögren（不均+散在小卵圓低/無回音界清+實質血流增）**；**腫瘤（pleomorphic adenoma 低回音界清分葉後方增強±鈣化、Warthin 卵圓低回音含無回音區常富血流、惡性形狀/邊界不規則低回音不均亦可貌似良性）、囊腫（界清無回音後方增強無內部血流）**；特徵可重疊為診斷陷阱。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於唾液腺超音波，以下何者「錯誤」? (2017-217)
