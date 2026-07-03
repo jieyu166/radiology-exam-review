@@ -15,7 +15,7 @@ dateRev: 2026-06-30
 **三種肺水腫的影像分布型態各異：心因性(cardiogenic)呈『均勻分布(even, ~90%)』、腎因性(renal-based)呈『中央分布(central, ~70%)』、ARDS 則以『周邊(peripheral, ~45%)』為主（僅約35%均勻）——ARDS的鑑別診斷涵蓋心因性肺水腫、間質性肺炎、腎因性肺水腫。** 判讀分水嶺：**分布型態是三者鑑別的關鍵：心因性均勻>>腎因性中央>ARDS周邊;Kerley B lines/支氣管周圍套袖：心因性與腎因性皆約30%可見，ARDS則幾乎『無』;胸腔積液：心因性(40%)>腎因性(30%)>ARDS(10%);air bronchograms：ARDS(70%)遠高於心因性與腎因性(各20%)。**
 
 ## Summary
-- **ARDS 的鑑別診斷（differential diagnosis）**：包含**心因性肺水腫（cardiogenic pulmonary edema）、間質性肺炎（interstitial pneumonia）、腎因性肺水腫（renal-based pulmonary edema）**。[^1]
+- **ARDS 的鑑別診斷（differential diagnosis）**：包含**心因性肺水腫（cardiogenic pulmonary edema）、間質性肺炎（interstitial pneumonia）、腎因性肺水腫（renal-based pulmonary edema）**;ARDS 病理為**瀰漫肺泡損傷（DAD）、微血管通透性增加**（非靜水壓性），與 AIP 同一病理光譜。[^1][^3]
 - **肺水腫分布型態（Distribution of Pulmonary edema）**：[^1]
   - **心因性（Cardiogenic）**：**約90%呈均勻分布（even）**。
   - **腎因性（Renal）**：**約70%呈中央分布（central）**。
@@ -39,6 +39,7 @@ dateRev: 2026-06-30
 ### 參考來源
 [^1]: 官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.40：ARDS鑑別診斷含心因性肺水腫/間質性肺炎/腎因性肺水腫;分布型態心因性90%均勻、腎因性70%中央、ARDS 45%周邊+35%均勻;Kerley B lines心因/腎因各30%、ARDS無;肋膜積液心因40%>腎因30%>ARDS10%;air bronchograms ARDS 70%>>心因/腎因各20%。
 [^2]: 官方2020詳解；Ref: Radiology Review Manual, 8th ed., p.516（題目所引）——PCWP 8-12mmHg正常胸部X光；12-18mmHg呈cephalization(下肺葉血管收縮+上肺葉血管擴大)；19-25mmHg呈間質性肺水腫(血管邊界模糊、支氣管周圍套袖、Kerley lines)；>25mmHg呈肺泡填塞水腫(雙側肺門周圍及下肺野空氣腔實質化)。
+[^3]: Gaillard F, et al. *Acute respiratory distress syndrome*. Radiopaedia, rID-858, DOI 10.53347/rID-858——**ARDS 為急性肺損傷、全肺異質性瀰漫肺泡損傷（DAD）**，源自直接肺損傷或全身性損傷；與 AIP 同一病理（DAD）、Berlin 定義診斷——佐證 ARDS 為通透性（非靜水壓）水腫，故周邊分布、air bronchogram 多而 Kerley/積液少。
 
 ## 題目
 > [!question]- Which statement about acute respiratory distress syndrome (ARDS), cardiogenic pulmonary edema, renal based pulmonary edema is true? (2017-276)

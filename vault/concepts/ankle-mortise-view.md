@@ -6,7 +6,7 @@ aliases:
   - ankle mortise view
   - mortise view radiograph
   - 踝關節Mortise攝影
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # ankle-mortise-view
@@ -14,7 +14,7 @@ dateRev: 2026-07-01
 **踝關節Mortise view是將足部「內轉(internally rotate/inward)」約15-20度，讓內外髁(malleoli)等高，可同時顯示「內側與外側」關節間隙——與標準AP view不同，AP view上距骨(talus)會遮蔽外髁一部分而看不清外側關節間隙。** 判讀分水嶺：**AP view（0度）僅能顯示內側關節間隙、外側被距骨部分遮蔽;Mortise view（15-20度內轉oblique）同時顯示內外側關節間隙，為評估踝關節骨折/脫位的關鍵視角;45度oblique則進一步顯示外髁及遠端腓骨。**
 
 ## Summary
-- **技術定義**：Mortise view為**15-20度內轉(inward/internal rotation)**的oblique攝影，使內外髁達相同高度。[^1]
+- **技術定義**：Mortise view為**下肢內轉 15-20 度(internal rotation)**的攝影，使**intermalleolar line（兩髁連線）平行於偵測器**、內外髁達相同高度。[^1][^2]
 - **關鍵優勢**：**同時顯示內側與外側關節間隙**——此為與標準AP view的核心差異。[^1]
 - **標準AP view的限制**：距骨(talus)會**遮蔽部分外髁**，導致外側關節間隙不易評估。[^1]
 - **45度oblique view**：進一步旋轉可更清楚顯示外髁及遠端腓骨形態。[^1]
@@ -24,6 +24,7 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: 官方 2017 詳解附圖：AP/15-20度oblique(Mortise)/45度oblique三種踝關節攝影角度比較圖，Mortise view為足部內轉15-20度使內外髁等高、可同時顯示內外側關節間隙;標準AP view距骨遮蔽部分外髁。
+[^2]: Bell D, et al. *Ankle (mortise view)*. Radiopaedia, rID-40730, DOI 10.53347/rID-40730——**踝三視角系列之一，最適評估 tibial plafond 與兩髁對 talar dome 之 mortise 關節**；技術為**下肢內轉 15°–20°，使 intermalleolar line 平行偵測器**；適應症含疑似骨折/脫位、osteochondral injury、骨關節炎——佐證角度與用途。
 
 ## 題目
 > [!question]- Which of the following is TRUE about ankle Mortise-view radiograph? (2017-296)

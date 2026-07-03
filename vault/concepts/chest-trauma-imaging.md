@@ -7,7 +7,7 @@ aliases:
   - tracheobronchial injury
   - pulmonary laceration
   - 胸部創傷影像
-dateRev: 2026-06-30
+dateRev: 2026-07-03
 ---
 
 # chest-trauma-imaging
@@ -19,14 +19,16 @@ dateRev: 2026-06-30
 - **肺挫傷（pulmonary contusion）**：為**鈍性胸部創傷最常見**的影像表現。[^1]
 - **肺撕裂傷（pulmonary laceration）**：呈現**一半實質性（solid,肺內血腫 pulmonary hematoma）、一半囊狀（cystic,創傷性肺氣囊腫 traumatic pneumatocele，可伴或不伴氣液平面）**的混合病灶。[^1]
 - **氣管與支氣管骨折的機轉（重要考點）**：**主要由鈍傷造成**（並非穿刺傷）；具體而言：[^1]
-  - **鈍性胸創**：好發於**遠端氣管（距隆凸 carina 2.5cm 以內）**。
-  - **穿刺傷**：反而以**頸部氣管（cervical trachea）**最常受傷。
+  - **鈍性胸創**：好發於**遠端氣管（距隆凸 carina 2.5cm 以內）**。[^2]
+  - **穿刺傷**：反而以**頸部氣管（cervical trachea）**最常受傷。[^2]
+  - **影像線索**：皮下氣腫、氣胸、縱膈積氣；CT 可於 ~70% 定位損傷處。[^2]
 
 > [!note] 考點：關於胸部創傷，何者「不正確」?
 > 「**氣管與支氣管骨折是由穿刺傷造成（fracture of trachea and bronchus is due to penetration trauma）**」不正確——**主要由鈍傷造成**（好發距隆凸2.5cm內的遠端氣管）；穿刺傷反而以頸部氣管最常受傷。肋骨10-12骨折提示肝脾撕裂、肺挫傷為鈍創最常見表現、肺撕裂傷呈半實質半囊狀皆正確。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.469：肋骨10-12骨折提示肝脾撕裂;肺挫傷為鈍性胸創最常見表現;肺撕裂傷半實質(血腫)半囊狀(創傷性肺氣囊腫);氣管支氣管骨折主要由鈍傷造成(遠端氣管,距隆凸2.5cm內);穿刺傷則以頸部氣管最常受傷。
+[^2]: Weerakkody Y, et al. *Tracheobronchial injury*. Radiopaedia, rID-45454, DOI 10.53347/rID-45454——胸創嚴重但少見、常致命；**穿刺傷以 cervical trachea 最常受傷，鈍性胸創則以距 carina 2.5 cm 內之遠端氣管最常見**；影像見皮下氣腫/氣胸/縱膈積氣，CT 可於 ~70% 定位——佐證鈍傷 vs 穿刺傷之部位差異。
 
 ## 題目
 > [!question]- Which statement about chest trauma is not true? (2017-275)
