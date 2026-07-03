@@ -22,25 +22,27 @@ dateRev: 2026-07-03
 - **併發**：可形成 **pseudocyst、氣胸、縱膈氣腫**；典型**雙側對稱**。[^1]
 
 ## 放射科醫師影像判讀重點
-- **型態**：沿支氣管血管束之線狀/點狀/小囊狀透亮，不隨呼吸消長，異於正常含氣支氣管。[^1][^2]
-- **背景**：早產 + 正壓通氣 + 突然惡化 → 高度懷疑 PIE。[^2]
-- **併發警覺**：追蹤是否進展為 pseudocyst/氣胸/縱膈氣腫。[^1]
-- **成人偶見**：正壓通氣成人亦可偶發，非僅新生兒獨有。[^2]
-- **陷阱**：air-block 好發新生兒而非老年。[^1]
+- **最佳線索（STATdx）**：**插管早產兒肺內新出現「bubbly」囊狀或線狀透亮**、大小常均一、常自肺門放射狀、背景多為 noncompliant 肺（尤 SDD）；範圍單葉至雙側廣泛。[^3]
+- **與 air bronchogram 區分（STATdx，關鍵）**：**PIE 透亮不循正常支氣管走行、可向周邊變寬**（air bronchogram 循支氣管、向周邊變窄）。[^3]
+- **CT dot-dash sign（STATdx）**：**persistent PIE 於氣體積聚內見肺血管呈線狀（dash）或圓點（dot）軟組織密度、82% 呈 dot-dash pattern**——先天囊性肺病灶不會有此徵，助鑑別。[^3]
+- **persistent PIE（STATdx）**：**最常犯左上葉、可成 mass-like 囊/多囊病灶壓迫致惡化**；病理為纖維化囊壁襯多核巨細胞（對長期氣體滯留反應）。[^3]
+- **DDx（STATdx）**：**surfactant deficiency（可底層並似 PIE）、air bronchogram（循支氣管）、BPD（>1 月、漸進、CT 血管不被間質氣包繞）、congenital lobar overinflation（肺葉結構保留無離散囊）、CPAM、pleuropulmonary blastoma、meconium aspiration（繩索狀+air-trapping 可併 PIE）**。[^3]
+- **陷阱**：air-block 好發新生兒而非老年；PIE 起病突然、BPD 漸進（年齡+速度助鑑別）。[^1][^3]
 
 ## 臨床重點（5 句）
-1. **氣體入間質/淋巴管**、barotrauma。[^1][^2]
-2. **好發新生兒**（早產、機械通氣）。[^1][^2]
-3. **早產兒 20–30%**、低體重最高。[^2]
-4. **通氣中突然惡化**。[^1]
-5. **併 pseudocyst/氣胸/縱膈氣腫**、雙側對稱。[^1]
+1. **機轉（STATdx）**：**肺泡壓升高過度膨脹（barotrauma+volutrauma）→ 肺泡基底膜破裂 → 氣入間質**；早產兒間質血管周圍結締組織豐富限制進一步擴散、氣困於此致線狀/bubbly；ball-valve 使囊增大。[^3]
+2. **好發族群（STATdx）**：**早產兒、多於出生頭 10 天、正壓機械通氣者風險最高（未通氣者罕發）**；亦罕見於他肺病新生兒、成人（底層肺病/Valsalva）；無性別/種族偏好。[^3]
+3. **流行病學（STATdx）**：**NICU 2-3%、SDD 早產兒 20-30%**；隨適當族群使用表面張力素而下降。[^3]
+4. **臨床（STATdx）**：**常無症狀於 NICU 例行胸片偶見**；氣胸致通氣困難、氣體交換受損；併發（氣胸/縱膈氣/心包氣/順應性下降/氣栓、腦室內出血率增）。[^3]
+5. **治療（STATdx）**：**多數以支持性 + 通氣調整（降平均氣道壓、改高頻通氣）暫時性緩解**；additional（選擇性插管健側、患側 down decubitus、患側主支氣管暫時球囊阻塞）；大囊致無法控制之窘迫才手術切除。[^3]
 
 > [!note] 考點：關於 PIE，何者「錯誤」?
 > 「**air-block 現象好發老年**」錯誤——好發**新生兒（早產/機械通氣）**。通氣中突然惡化、可併 pseudocyst/氣胸、雙側對稱皆正確。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology Review Manual 7th ed., p.532：PIE air-block 現象好發新生兒；通氣中突然惡化；可併 pseudocyst/氣胸；雙側對稱。
-[^2]: Gaillard F, et al. *Pulmonary interstitial emphysema*. Radiopaedia, rID-1939, DOI 10.53347/rID-1939——**氣體異常積聚於肺間質與淋巴管、多因正壓通氣**、常為 RDS 新生兒過度膨脹肺泡破裂之 barotrauma；**NICU 發生率 2–3%、早產兒 20–30%、低體重最高**；亦偶見於成人——佐證機轉與流行病學。
+[^2]: Gaillard F, et al. *Pulmonary interstitial emphysema*. Radiopaedia, rID-1939, DOI 10.53347/rID-1939（輔助來源）——**氣體異常積聚於肺間質與淋巴管、多因正壓通氣**、常為 RDS 新生兒過度膨脹肺泡破裂之 barotrauma；**NICU 發生率 2–3%、早產兒 20–30%、低體重最高**；亦偶見於成人——佐證機轉與流行病學。
+[^3]: **Tier 1** Orscheln ES, Merrow AC Jr. *Pulmonary Interstitial Emphysema*（Pediatrics, Chest, Neonatal Chest Issues, Dx）. STATdx, Elsevier, updated 12/14/21（20 refs；實際查證 accessed 2026-07-04）——PIE＝氣入肺間質與淋巴管、屬 neonatal air leak syndrome；**最佳線索＝插管早產兒新出現 bubbly 囊/線狀透亮、自肺門放射、背景 noncompliant 肺（尤 SDD）**；**與 air bronchogram 區分（PIE 不循支氣管、向周邊變寬）；CT dot-dash sign（persistent PIE 82%、氣體內見血管線/點軟組織密度、先天囊性病灶無此徵）；persistent PIE 最常左上葉 mass-like 囊**；**機轉（barotrauma+volutrauma→肺泡基底膜破裂→氣入間質、早產兒血管周圍結締組織豐富限制擴散、ball-valve 使囊增大）**；**流病（NICU 2-3%、SDD 早產 20-30%、頭 10 天、正壓通氣風險最高）；常無症狀偶見；併發（氣胸/縱膈氣/心包氣/氣栓、IVH 增）；治療（降平均氣道壓、改高頻通氣、選擇性插管/患側 down、大囊手術）**；DDx（SDD、air bronchogram、BPD >1 月漸進、congenital lobar overinflation、CPAM、PPB、meconium aspiration）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 pulmonary interstitial emphysema，何者「錯誤」? (2017-150)
