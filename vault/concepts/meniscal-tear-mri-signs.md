@@ -8,30 +8,44 @@ aliases:
   - bucket-handle meniscal tear
   - Jack and Jill lesion
   - 半月板桶柄狀撕裂
-dateRev: 2026-07-01
+dateRev: 2026-07-03
 ---
 
 # meniscal-tear-mri-signs
 
-**「Double PCL sign（雙重後十字韌帶徵象）」高度特異性指向「桶柄狀撕裂(bucket-handle tear)」——撕裂的內側半月板碎片翻轉移位至髁間窩(intercondylar notch)、平行於PCL下方，形成貌似「兩條PCL」的假象。** 判讀分水嶺：**Double PCL sign幾乎只見於ACL完整(intact)的病人，因為需要完整ACL才能限制碎片位置、防止其過度翻轉;內側半月板桶柄撕裂碎片移位至前上方，外側半月板桶柄撕裂碎片則移位至後下方;Double ACL sign則是桶柄撕裂碎片移位至髁間窩、平行於ACL上方，內外側半月板皆可造成。**
+**「Double PCL sign（雙重後十字韌帶徵象）」高度特異性指向「桶柄狀撕裂（bucket-handle tear）」——撕裂的半月板碎片（內側半月板占 80%）翻轉移位至髁間窩、於矢狀面位於 PCL 之『前下方（anteroinferior）』，形似「兩條 PCL」。** 判讀分水嶺：**Double PCL sign 幾乎只見於 ACL 完整（intact）者（完整 ACL 限制碎片翻轉）；內側半月板碎片移前上、外側碎片移後下；Double ACL sign（flipped meniscus）＝碎片平行/前於 ACL，內外側皆可。**
 
 ## Summary
-- **Double PCL sign**：內側半月板**桶柄狀撕裂**的碎片移位至髁間窩、於矢狀面上平行於PCL下方，形成類似「兩條PCL」的高度特異影像徵象。[^1]
-- **前提條件**：Double PCL sign**幾乎只發生於ACL完整（intact）**的病人——需完整的ACL才能限制碎片、避免過度翻轉(flip)造成的移位型態改變。[^1]
-- **Double ACL sign**：內側或外側半月板桶柄狀撕裂的碎片皆可移位至髁間窩、平行於ACL**上方**，形成類似徵象。[^2]
-- **移位方向規律**：外側半月板桶柄撕裂碎片移位至**後下方**;內側半月板桶柄撕裂碎片移位至**前上方**。[^2]
-- **Jack and Jill lesion**：內外側半月板**同時**發生桶柄狀撕裂，碎片皆移位至髁間窩，冠狀面MRI上呈現「quadruple sign（四重徵象）」。[^2]
+- **Double PCL sign**：**桶柄狀撕裂（bucket-handle，內側半月板 80%）**碎片翻轉至髁間窩、矢狀面位於 **PCL 前下方**，形成類似「兩條 PCL」之高度特異徵象。[^1][^2]
+- **前提**：**幾乎只見於 ACL 完整者**——需完整 ACL 限制碎片、避免過度翻轉。[^1][^2]
+- **Double ACL sign（flipped meniscus）**：內/外側半月板桶柄碎片移位至髁間窩、平行/前於 ACL，內外側皆可造成。[^1]
+- **移位方向規律**：**外側**半月板桶柄碎片移**後下方**；**內側**桶柄碎片移**前上方**。[^1]
+- **Jack and Jill lesion**：內外側半月板**同時**桶柄撕裂，冠狀面呈 **quadruple（cruciate）sign**。[^1]
+
+## 放射科醫師影像判讀重點
+- **辨識雙 PCL**：矢狀面 PCL 前下方見另一條低訊號帶（翻轉之桶柄碎片）＝bucket-handle + 完整 ACL。[^2]
+- **輔助徵象**：absent bow-tie sign（正常應 ≥2 個 bow-tie 節段，桶柄時 <2）、fragment-in-notch、disproportionate posterior horn。[^2]
+- **內外側方向**：內側→前上、外側→後下，有助定位撕裂來源。[^1]
+- **合併 ACL 評估**：double PCL 提示 ACL 完整；若 ACL 撕裂則碎片翻轉型態改變。[^1][^2]
+- **陷阱**：勿把翻轉碎片誤為正常 PCL/ACL 或游離體；追蹤來源半月板缺損。[^2]
+
+## 臨床重點（5 句）
+1. **Double PCL**：bucket-handle（內側 80%）碎片於 PCL 前下方。[^1][^2]
+2. **需完整 ACL**：幾乎只見於 ACL intact 者。[^1][^2]
+3. **方向**：內側前上、外側後下。[^1]
+4. **Double ACL**：flipped meniscus 平行 ACL，內外側皆可。[^1]
+5. **Jack and Jill**：雙側桶柄 → quadruple sign。[^1]
 
 > [!note] 考點：Double PCL sign高度特異性指向哪種半月板撕裂?
-> **Bucket-handle tear（A）**——內側半月板桶柄狀撕裂碎片移位至髁間窩、平行於PCL下方。此徵象幾乎只見於ACL完整的病人（完整ACL限制碎片翻轉）。[^1]
+> **Bucket-handle tear（A）**——半月板（內側 80%）桶柄狀撕裂碎片移位至髁間窩、位於 PCL 前下方。此徵象幾乎只見於 ACL 完整的病人（完整 ACL 限制碎片翻轉）。[^1][^2]
 
 ### 參考來源
-[^1]: 官方 2017 詳解：Double PCL sign為桶柄狀撕裂碎片移位至髁間窩、平行PCL下方之高度特異徵象，幾乎僅見於ACL完整病人（需完整ACL限制碎片避免過度翻轉）。
-[^2]: 官方 2017 詳解附註：Double ACL sign可見於內側或外側半月板桶柄狀撕裂(碎片平行ACL上方);外側半月板碎片移位至後下方、內側半月板碎片移位至前上方;Jack and Jill lesion為內外側半月板同時桶柄狀撕裂，冠狀面MRI呈quadruple sign。
+[^1]: 官方 2017 詳解——Double PCL sign 為桶柄撕裂碎片移位至髁間窩、位 PCL 前下方之高度特異徵象，幾乎僅見於 ACL 完整者；Double ACL sign 可見於內/外側桶柄（平行 ACL）；外側碎片移後下、內側碎片移前上；Jack and Jill 為雙側桶柄呈 quadruple sign（已由下述 Radiopaedia 一手來源查核佐證）。
+[^2]: Gaillard F, et al. *Double posterior cruciate ligament sign*. Radiopaedia, rID-1234, DOI 10.53347/rID-1234——矢狀面 MRI，**bucket-handle 撕裂（內側半月板 80%）**碎片翻轉至關節中心、位於 **PCL 前下方**似第二條較小韌帶；**幾乎只見於 ACL 完整者**。
 
 ## 題目
 > [!question]- The double posterior cruciate ligament (PCL) sign is a highly specific indicator of the following meniscal tear. (2017-295)
-> **Bucket-handle tear（A）**——內側半月板桶柄狀撕裂碎片移位至髁間窩、平行於PCL下方，此徵象幾乎僅見於ACL完整的病人。[^1]
+> **Bucket-handle tear（A）**——半月板（內側 80%）桶柄狀撕裂碎片移位至髁間窩、位於 PCL 前下方，此徵象幾乎僅見於 ACL 完整的病人。[^1][^2]
 
 ## 考題
 ```dataview
