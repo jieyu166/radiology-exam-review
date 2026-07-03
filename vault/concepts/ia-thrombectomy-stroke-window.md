@@ -18,10 +18,11 @@ dateRev: 2026-07-02
 
 ## Summary
 
-### 2018 AHA/ASA指引（影像延窗）
-- **核心原則**：**Advanced imaging（CT perfusion或MRI/MR perfusion）可篩選具可挽救腦組織之病人，將機械取栓治療窗延長至最後正常時間後6-24小時**。[^1]
-- **實證依據**：兩項RCT（DAWN試驗：good outcome mRS 0-2於49% vs 13%；DEFUSE 3試驗：good outcome於45% vs 17%）皆顯示取栓組相較非取栓組有顯著獲益。[^1]
-- **建議等級**：Class I, Level of Evidence A——「In selected patients with AIS within 6-24 hours of last known normal who have large vessel occlusion in the anterior circulation, obtaining CT perfusion, diffusion weighted MRI or MRI perfusion is recommended to aid in patient selection for mechanical thrombectomy」。[^1]
+### 2018/2019 AHA/ASA指引（影像延窗）
+- **核心原則**：**Advanced imaging（CT perfusion 或 DW-MRI ± MR perfusion）篩選具可挽救腦組織之病人，將前循環機械取栓治療窗延長至最後正常時間後 6-24 小時**。[^1]
+- **2019 更新之時間分層**：**6-16 小時**內符合 DAWN 或 DEFUSE-3 條件者「**建議（Class I）**」取栓；**16-24 小時**內符合 DAWN 條件者「**合理（Class IIa）**」取栓——最大延窗達 24 小時。[^1]
+- **實證依據**：兩項 RCT（**DAWN**：good outcome mRS 0-2 於 49% vs 13%；**DEFUSE 3**：45% vs 17%）皆顯示取栓組顯著獲益。[^1]
+- **影像選擇建議（Class I, LOE A）**：「In selected patients with AIS within 6-24 hours of last known normal who have LVO in the anterior circulation, obtaining CTP, DW-MRI, or MRI perfusion is recommended to aid in patient selection for mechanical thrombectomy」（僅在符合 DAWN/DEFUSE-3 條件時）。[^1]
 
 ### 台灣全民健保取栓給付標準
 - **需同時符合以下三項條件**：[^2]
@@ -44,9 +45,9 @@ dateRev: 2026-07-02
 > **屬於AHA/ASA class1/level A建議為錯**——實際為**Class IIb/Level C-LD**（弱建議、有限資料）。DWI MRI可協助評估、本地常見病因為ICAD、不應延誤IV溶栓皆為正確敘述。[^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: 2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2018;49:e46–e99.
-[^2]: 官方2020詳解；Ref: 全民健保，衛生福利部中央健康保險署醫療給付項目及支付標準。
-[^3]: 官方2020詳解；Ref: Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines for the Early Management of Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association. Stroke. 2019;50:e344–e418.
+[^1]: Powers WJ, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update*. Stroke 2019;50(12):e344–e418, DOI 10.1161/STR.0000000000000211（accessed 2026-07-03；亦含 2018 版 Stroke 2018;49:e46–e99, DOI 10.1161/STR.0000000000000158）——前循環 LVO 6-16 小時符合 DAWN/DEFUSE-3 取栓為 Class I、16-24 小時符合 DAWN 為 Class IIa；6-24 小時以 CTP/DW-MRI±perfusion 選病人（Class I, LOE A）。查證註記：截至 2026-07 此仍為 AHA/ASA 最新完整 AIS 指引，晚窗另有 2023 SVIN 指引補充，6-24h 影像導向延窗維持標準。
+[^2]: 官方 2020 詳解；Ref: 全民健保，衛生福利部中央健康保險署醫療給付項目及支付標準（accessed 2026-07-03）——前循環 8 小時/後循環 24 小時、NIHSS 8-30、特定大血管阻塞（ICA/M1/M2/ACA/basilar/vertebral）三條件須同時符合。
+[^3]: Powers WJ, et al. *AIS 2019 Update*. Stroke 2019;50(12):e344–e418, DOI 10.1161/STR.0000000000000211（accessed 2026-07-03）——vertebrobasilar occlusion 取栓為 **Class IIb / LOE C-LD**（弱建議、有限資料），非前循環 LVO 之 Class I/LOE A；評估不應延誤 IV 溶栓。
 
 ## 題目
 > [!question]- According to the 2018 AHA/ASA Guidelines, IAT treatment window can be extended up to how long with MR-DWI/perfusion imaging help? (2020-231)
