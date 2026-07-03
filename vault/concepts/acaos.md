@@ -30,7 +30,7 @@ dateRev: 2026-07-02
 > 「**左側ACAOS發生率為右側3倍，但與SCD關聯性較弱**」錯誤——實際上應為**右側ACAOS發生率為左側3倍**，但左側與SCD關聯性較強（右側較弱），選項文字左右對調。Interarterial course(尤其合併intramural segment)最一致相關於SCD、retroaortic與prepulmonic路徑SCD風險極低、interarterial course病患可無症狀，皆為正確敘述。[^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Anomalous Coronary Arteries That Need Intervention: Review of Pre- and Postoperative Imaging Appearances, RadioGraphics 2017; 37:740-757（題目所引）——ACAOS走行路徑分interarterial/transseptal(subpulmonic)/retroaortic/prepulmonic；裂縫狀開口、銳角起源、管壁內走行段為高風險解剖特徵。
+[^1]: Kim SY, et al. *Anomalous Coronary Arteries That Need Intervention: Review of Pre- and Postoperative Imaging Appearances*. RadioGraphics 2017;37(3):740-757, DOI 10.1148/rg.2017160124（accessed 2026-07-03；官方 2020 詳解題目所引）——ACAOS 走行路徑分 interarterial/transseptal(subpulmonic)/retroaortic/prepulmonic；**裂縫狀開口、銳角起源、管壁內走行段（intramural segment）為高風險解剖特徵**；interarterial course（尤合併 intramural）與 SCD 最一致相關。
 [^2]: Basso C, et al. autopsy registries資料（RadioGraphics 2017綜述引用）——左ACAOS 23例死亡、右ACAOS 4例死亡；右ACAOS發生率為左側3倍但與SCD關聯性較弱，左ACAOS較少見但關聯性較強。
 [^3]: 官方2018詳解（題目所引，出處同上RadioGraphics 2017綜述）——interarterial course(尤其合併intramural segment)為與SCD最一致相關之異常；retroaortic與prepulmonic路徑SCD風險極低至趨近零；interarterial course病患可完全無症狀。
 [^4]: 官方2020詳解；Ref: Computed Tomography of the Coronary Arteries, p.111（題目所引）——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course走行；單一左冠狀動脈本身非此惡性異常定義範疇。
