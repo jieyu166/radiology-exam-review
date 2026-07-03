@@ -6,7 +6,7 @@ aliases:
   - brachial plexus
   - roots trunks divisions cords
   - 臂神經叢
-dateRev: 2026-06-19
+dateRev: 2026-07-03
 ---
 
 # brachial-plexus-anatomy
@@ -14,7 +14,7 @@ dateRev: 2026-06-19
 **臂神經叢的常見起源是 C5–T1 五條神經根（C4 屬變異 prefixed plexus）。** 判讀分水嶺一：**Roots（C5–T1）→ Trunks（upper C5-6／middle C7／lower C8-T1）→ Divisions（各分前後股）→ Cords（lateral／posterior／medial，依與腋動脈關係命名）→ Branches**;判讀分水嶺二：**prefixed plexus 多 C4 貢獻、postfixed 多 T2 貢獻**。
 
 ## Summary
-- **常見起源**：**C5、C6、C7、C8、T1 五條腹支（ventral rami）**;C4 非常見起源。[^1]
+- **常見起源**：**C5、C6、C7、C8、T1 五條腹支（ventral rami）**;C4 非常見起源;位於頸部延伸至腋部、鎖骨後方。[^1][^2]
 - **層次（roots→branches）**：[^1]
   - **Trunks**：upper（C5-6）、middle（C7）、lower（C8-T1）。
   - **Divisions**：各 trunk 分 anterior／posterior division（位鎖骨後）。
@@ -27,6 +27,7 @@ dateRev: 2026-06-19
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Surgical Anatomy of the Hand and Upper Extremity, p.297：臂神經叢常見起源 C5–T1;roots→trunks→divisions→cords→branches;prefixed(C4)/postfixed(T2) 變異。
+[^2]: Jones J, et al. *Brachial plexus*. Radiopaedia, rID-24704, DOI 10.53347/rID-24704——**由 C5–T1 腹支（ventral rami）構成、供上肢與肩帶運動感覺**；於前中斜角肌間出、經頸後三角、鎖骨後，於腋部圍繞腋動脈第二段成 cords，終為 median/ulnar/radial/musculocutaneous/axillary 五大分支——佐證 C5–T1 起源與層次。
 
 ## 題目
 > [!question]- 何者「非」臂神經叢的常見起源? (2017-143)
