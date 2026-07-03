@@ -4,32 +4,48 @@ name: Pulmonary Arteriovenous Malformation (AVM)
 subspecialty: [CV, CH]
 aliases:
   - pulmonary AVM
+  - PAVM
   - hereditary hemorrhagic telangiectasia
+  - Osler-Weber-Rendu
   - HHT
   - 肺動靜脈畸形
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # pulmonary-avm
 
-**肺動靜脈畸形(pulmonary AVM)為肺動脈與肺靜脈直接吻合，生理上呈右到左分流，與遺傳性出血性微血管擴張症(HHT)相關——首選治療為栓塞治療(embolotherapy)，並非手術切除，手術僅適用於栓塞失敗或不適合栓塞之情況。**
+**肺動靜脈畸形（PAVM）＝肺動脈與肺靜脈間「無微血管」之異常直接吻合，生理上呈右到左分流；約 90% 與遺傳性出血性微血管擴張症（HHT／Osler-Weber-Rendu）相關。首選治療是「栓塞（embolotherapy：coil/balloon/Amplatzer plug）」而非手術切除——手術僅用於栓塞失敗或不適合栓塞者。** 判讀分水嶺：**CTA 見「平滑、強化明顯之結節＋供血肺動脈＋引流肺靜脈」即診斷（98% 敏），下肺葉為主；供血動脈 ≥3 mm 是傳統栓塞門檻；未治療之 R→L 分流會招致矛盾性栓塞（腦中風、腦膿瘍）——這是「即使無症狀也要治療」的理由。**
 
 ## Summary
-- **解剖本質**：**肺動脈與肺靜脈直接吻合(direct anastomosis)**。[^1]
-- **生理**：呈**右到左分流(right to left shunt)**。[^1]
-- **相關疾病**：與**遺傳性出血性微血管擴張症(hereditary hemorrhagic telangiectasia, HHT)**相關。[^1]
-- **首選治療**：**栓塞治療(embolotherapy)**為首選，並非手術切除。[^1]
-- **手術適應症（非首選，但特定情況考慮）**：栓塞治療失敗之病患、病灶適合介入但經驗豐富之放射科醫師評估後認為不適合栓塞治療者、於無栓塞設備之機構出現危及生命之急性破裂出血者。[^1]
+- **解剖與生理**：**肺動脈與肺靜脈間無微血管之直接吻合 → 右到左分流（R→L shunt）**。[^1]
+- **相關疾病**：**HHT（Osler-Weber-Rendu，體染色體顯性）佔 PAVM 達 90%**；50% HHT 有 PAVM；三聯徵＝鼻血、皮膚黏膜微血管擴張、家族史；PAVM 於 HHT1 較 HHT2 多 10 倍。[^1]
+- **首選治療＝栓塞**：coil/balloon/**Amplatzer plug**，傳統以供血動脈 **≥3 mm** 為門檻，**永久閉塞 >98%**、可一次栓多個、併發症低；**非手術切除**（手術僅用於栓塞失敗/不適合栓塞者）。[^1]
+- **影像**：CTA 見平滑、強化明顯結節＋**供血動脈與引流靜脈**；**50–70% 位於下肺葉**、70% 單發、30% 多發。[^1]
+
+## 放射科醫師影像判讀重點
+- **CTA 為診斷首選（98% 敏）**：找**供血肺動脈＋引流肺靜脈**，多平面/MIP/3D 供栓塞規劃；比傳統血管攝影更敏感、解剖細節更佳。[^1]
+- **分型（影響治療）**：**Simple 80%（單一供血 segmental 動脈→單一引流靜脈）**、**Complex 20%（≥2 供血/引流，好發 lingula 與右中葉）**、Diffuse（罕見、整葉 subsegmental）、Telangiectatic（兒童/HHT，周邊毛玻璃）。[^1]
+- **確認 R→L 分流**：**agitated saline 對比心臟超音波**區分心內 vs 肺內分流（肺內者對比劑延遲 2–5 秒才入左心）；**Tc-99m MAA 肺灌流掃描**（分流時顆粒穿過肺被腦/腎捕獲，可算 shunt fraction）。[^1]
+- **鑑別**：granuloma（無伴隨血管、多鈣化少強化）、**pulmonary varix（只有擴張肺靜脈、無供血動脈或 nidus）**、systemic artery to pulmonary vein shunt、肺轉移（多發、無大血管、有原發癌）。[^1]
+- **其他病因**：先天（最常見）、**hepatopulmonary syndrome（50% 末期肝病）**、cyanotic CHD 之 Glenn/Fontan 術後、感染（結核/放線菌/血吸蟲）。[^1]
+
+## 臨床重點（5 句）
+1. 典型為**無症狀之孤立肺結節偶然發現**；HHT 病人多於 **20 歲前**出現症狀，鼻血最常見、呼吸困難為最常見肺部症狀。[^1]
+2. **R→L 分流之神經併發症（矛盾性栓塞致腦中風、腦膿瘍）**是治療 PAVM 的主要理由，另有咳血（第三常見、懷孕時可大量）、發紺、杵狀指、platypnea。[^1]
+3. 盛行率低（約 1:5000）、女多於男（M:F 1:2）；**diffuse PAVM 幾乎皆有症狀**。[^1]
+4. **應篩檢 HHT 病人之家屬（PAVM 發生率 35%）**，並轉介 HHT 卓越中心行血管內治療。[^1]
+5. 栓塞後可能有 **postembolization syndrome（肋膜性胸痛、短暫發燒）**；系統性栓塞（氣泡/線圈跑位）罕見。[^1]
 
 > [!note] 考點：關於肺動靜脈畸形，何者敘述錯誤？
-> **手術切除為首選治療（D）為錯誤敘述**——栓塞治療才是首選，手術僅用於栓塞失敗或不適合栓塞之情況。肺動脈與肺靜脈直接吻合、右到左分流、與HHT相關，皆為正確敘述。[^1]
+> **手術切除為首選治療（D）為錯誤**——**栓塞（embolotherapy）才是首選**（供血動脈 ≥3 mm、永久閉塞 >98%），手術僅用於栓塞失敗或不適合栓塞之情況。肺動脈與肺靜脈直接吻合、右到左分流、與 HHT 相關，皆為正確敘述。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: AJR 1996;167:648; Postgrad Med J 2002;78:191-197（題目所引）——肺AVM為肺動靜脈直接吻合，呈右到左分流，與HHT相關；首選治療為栓塞治療；手術僅用於栓塞失敗、不適合栓塞、或無栓塞設備之急性致命出血情況。
+[^1]: **Tier 1** Baskin H. *Pulmonary Arteriovenous Malformation*（Pediatrics, Chest, Dx）. STATdx，last updated 2021-10-29. Elsevier（實際查證 accessed 2026-07-03，10 references）：PAVM＝肺動脈-靜脈無微血管直接吻合致 R→L 分流；HHT 佔 90%、50% HHT 有 PAVM、HHT1>HHT2 10 倍、家屬篩檢 35%；CTA 98% 敏、供血動脈＋引流靜脈、50–70% 下肺；分型 simple 80%/complex 20%/diffuse/telangiectatic；agitated saline 心超與 Tc-99m MAA 確認分流；**栓塞（coil/balloon/Amplatzer，供血≥3 mm、永久閉塞>98%）為首選、非手術**；併發症矛盾栓塞（中風/腦膿瘍）、咳血；病因先天/肝肺症候群/Glenn-Fontan/感染。
+[^2]: 官方 2020 詳解（題目所引）；原引 AJR 1996;167:648 與 Postgrad Med J 2002;78:191-197——肺 AVM 為肺動靜脈直接吻合、R→L 分流、與 HHT 相關、首選栓塞、手術僅用於栓塞失敗/不適合/無設備之急性致命出血，已由 [^1] STATdx 一手來源查核並補強分型、確認分流方法與併發症。
 
 ## 題目
 > [!question]- Which of the following description about pulmonary AVM is wrong? (2020-391)
-> **手術切除為首選治療（D）為錯誤**——首選應為栓塞治療。[^1]
+> **手術切除為首選治療（D）為錯誤**——首選應為**栓塞治療**（供血動脈 ≥3 mm、永久閉塞 >98%）。肺動脈-靜脈直接吻合、R→L 分流、與 HHT 相關皆正確。[^1][^2]
 
 ## 考題
 ```dataview
