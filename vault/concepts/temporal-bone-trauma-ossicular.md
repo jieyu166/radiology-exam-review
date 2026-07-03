@@ -6,28 +6,42 @@ aliases:
   - ossicular dislocation
   - incudostapedial joint dislocation
   - ice-cream cone sign
+  - otic capsule sparing fracture
   - 顳骨外傷聽小骨脫位
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # temporal-bone-trauma-ossicular
 
-**顳骨外傷聽小骨脫位最常見部位是incudostapedial joint（砧鐙關節），第二常見是incudomalleolar joint（砧槌關節）脫位常合併縱向顳骨骨折；正常砧槌關節在軸位CT上呈特徵性的「ice-cream cone」徵象，脫位時此徵象消失或變形。**
+**顳骨外傷聽小骨脫位最常見於 incudostapedial joint（砧鐙關節），第二常見為 incudomalleolar joint（砧槌關節）脫位、常合併縱向顳骨骨折；正常砧槌關節於軸位 CT 呈特徵性「ice-cream cone」徵象（槌骨頭＝冰淇淋球、砧骨體＝蛋捲筒），脫位時此徵象失準/變形。** 判讀分水嶺：**incudostapedial 關節因構造微小＋常被 hemotympanum 遮蔽，CT 判讀困難、易漏；聽小骨傷多伴縱向骨折且為傳導性聽損（CHL），與橫向骨折經迷路致感音性聽損（SNHL）＋顏面神經麻痺要分開。**
 
 ## Summary
-- **最常見脫位部位**：**incudostapedial joint（砧鐙關節）**為聽小骨脫位最常見部位。[^1]
-- **第二常見**：**incudomalleolar junction（砧槌關節）脫位**，常合併**縱向(longitudinal)顳骨骨折**。[^1]
-- **正常影像徵象**：正常incudomalleolar joint在軸位CT上形成特徵性的**「ice-cream cone」徵象**（槌骨頭如冰淇淋球、砧骨體如蛋捲筒）。[^1]
+- **脫位頻率排序**：**incudostapedial joint（砧鐙）最常見** → **incudomalleolar junction（砧槌）第二常見**（常合併**縱向顳骨骨折**）。脫位/半脫位遠比聽小骨骨折常見；聽小骨傷與縱向骨折相關性高於橫向骨折。[^1]
+- **正常徵象**：正常砧槌關節於軸位 CT 形成 **「ice-cream cone」徵象**（malleus head 如冰淇淋球、incus body 如蛋捲筒），失準/變形提示 incudomalleolar 脫位。[^1]
+- **判讀難點**：incudostapedial 關節構造微小、常被中耳出血（hemotympanum）遮蔽，CT 評估困難。[^1]
+
+## 放射科醫師影像判讀重點
+- **ice-cream cone 的用法**：於軸位薄層 CT 逐一確認冰淇淋（槌骨頭）與蛋捲筒（砧骨體）是否對齊；失準＝incudomalleolar 脫位；再往下追 incudostapedial 連續性（此處最常脫位卻最難看）。[^1]
+- **骨折型態（傳統）**：**縱向（temporoparietal 撞擊、沿岩骨長軸）** → EAC/鼓室壁、鼓膜破裂、聽小骨傷、hemotympanum、**傳導性聽損（CHL）**，因岩骨為緻密骨少累及 otic capsule；**橫向（枕部撞擊、垂直長軸、經 IAC/迷路）** → **感音性聽損（SNHL）、眩暈、顏面神經麻痺**。[^1]
+- **現代分類「otic capsule sparing vs violating」較能預後**：**violating 型**常經 jugular foramen、IAC、foramen lacerum、累及迷路與顏面神經管；相較 sparing 型，**顏面神經麻痺風險 >2 倍、（SNHL/CSF 漏等）約 4 倍**，故報告應優先描述 otic capsule 是否受累。[^1]
+- **一定要找的併發症**：顏面神經管（膝狀神經節段最常傷）、鼓室蓋/CSF 漏、迷路積氣（pneumolabyrinth，提示外淋巴瘻）、頸靜脈孔/頸動脈管受累。[^1]
+
+## 臨床重點（5 句）
+1. 聽小骨脫位與縱向骨折者臨床多為**持續性傳導性聽損（CHL）**，急性期常先被 hemotympanum 掩蓋，血塊吸收後聽損若不改善才顯現，是延遲診斷主因。[^1]
+2. 橫向或 otic-capsule-violating 骨折傷及 IAC/迷路者出現**感音性聽損、眩暈**，顏面神經受累則有周邊性顏面麻痺。[^1]
+3. **otic capsule violating 骨折**之顏面麻痺、SNHL 與 CSF 漏風險顯著高於 sparing 型，需神經外科/耳科積極介入。[^1]
+4. 顏面神經麻痺之**發作時機（立即 vs 遲發）**影響處置——立即完全麻痺常需手術減壓，遲發/不完全者多可保守觀察。[^1]
+5. 傳導性聽損若源於聽小骨脫位、保守無改善，可行**聽小骨鏈重建（ossiculoplasty）**恢復聽力。[^1]
 
 > [!note] 考點：關於顳骨外傷，何者正確？
-> **以上皆正確（D）**——incudostapedial joint為最常見脫位部位、incudomalleolar junction脫位第二常見且常合併縱向顳骨骨折、正常incudomalleolar joint形成ice-cream cone徵象，皆為正確敘述。[^1]
+> **以上皆正確（D）**——incudostapedial joint 為聽小骨脫位最常見部位、incudomalleolar junction 脫位第二常見且常合併縱向顳骨骨折、正常 incudomalleolar joint 於軸位 CT 呈 ice-cream cone 徵象，皆為正確敘述。[^1]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radiographics. May 2020, 40(4):1148-1162（題目所引）——聽小骨脫位最常見部位為incudostapedial joint；incudomalleolar junction脫位第二常見，常合併縱向顳骨骨折；正常incudomalleolar joint軸位CT呈ice-cream cone徵象。
+[^1]: **Tier 1（全文已讀）** Nash R 等. *Temporal Bone Trauma: Typical CT and MRI Appearances and Important Points for Evaluation*. RadioGraphics 2020;40(4):1148-1162（doi:10.1148/rg.2020190023，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）：**聽小骨脫位最常見 incudostapedial joint（構造微小＋hemotympanum 致 CT 難判）、incudomalleolar 脫位第二常見且常伴縱向骨折**；正常 incudomalleolar 於軸位 CT 呈 ice-cream cone；脫位/半脫位比聽小骨骨折常見；縱向骨折（temporoparietal、沿長軸）致 CHL/聽小骨傷/鼓膜破裂/hemotympanum、少累及 otic capsule，橫向骨折（枕部、經 IAC/迷路）致 SNHL/眩暈/顏面麻痺；現代以 otic capsule sparing vs violating 分類較能預後（violating 顏面麻痺 >2 倍、SNHL 約 4 倍），常經 jugular foramen/IAC/foramen lacerum。
 
 ## 題目
 > [!question]- About Temporal Bone Trauma, which statement is Correct? (2020-282)
-> **以上皆正確（D）**——incudostapedial joint為聽小骨脫位最常見部位；incudomalleolar junction脫位第二常見，常合併縱向顳骨骨折；正常incudomalleolar joint軸位CT呈ice-cream cone徵象。[^1]
+> **以上皆正確（D）**——incudostapedial joint 為聽小骨脫位最常見部位；incudomalleolar junction 脫位第二常見，常合併縱向顳骨骨折；正常 incudomalleolar joint 軸位 CT 呈 ice-cream cone 徵象。[^1]
 
 ## 考題
 ```dataview
