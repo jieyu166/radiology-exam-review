@@ -5,30 +5,45 @@ subspecialty: [GU]
 aliases:
   - PCN access
   - Brodel avascular line
+  - plane of Brödel
   - 經皮腎造廔
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # percutaneous-nephrostomy-access
 
-**經皮腎造廔理想進針口訣「肋骨下、下極腎盞、經後方、走Brodel無血管線」——四個要素同時滿足才是最安全的單純引流型進針路徑，避開肋間神經血管、胸膜、與腎臟主要血管分支。**
+**經皮腎造廔（PCN）單純引流之理想進針口訣「肋骨下、下極、後側腎盞、走 Brödel 無血管面」——四要素同時滿足最安全：subcostal 避肋間神經血管與胸膜、lower pole 降低鄰近器官/胸膜風險、posterior calyx 朝向背側、Brödel plane（離矢狀面 20–30°、腎動脈前後分支間之相對無血管區）降低出血。** 判讀分水嶺：**進針點要「經腎盞乳頭尖/穹窿（papillary tip/fornix）」，避開 infundibulum 與腎盂（血管損傷風險）；且避免 supracostal（肋骨上）以免氣胸/血胸——Treves 無血管線是腸繫膜結構，非腎穿刺定位，屬混淆選項。**
 
 ## Summary
-- **Subcostal（肋骨下）優於intercostal（肋間）**：肋骨下進針可避開肋間神經血管束及胸膜穿刺風險。[^1]
-- **Lower pole calyx（下極腎盞）優於upper pole calyx**：下極進針路徑較安全，降低傷及胸膜、脾臟/肝臟等鄰近器官之風險。[^1]
-- **Posterior calyx（後側腎盞）優於anterior calyx**：後側腎盞方向朝向腎臟之相對無血管平面。[^1]
-- **Brodel bloodless line（Brodel無血管平面）**：位於腎臟**腹側2/3與背側1/3交界處**，為腎動脈dorsal（背側）與ventral（腹側）分支間之相對無血管區，沿此線穿刺可降低出血風險；**Treves bloodless line**為腸繫膜相關之無血管平面，非腎臟穿刺定位標的，屬常見混淆選項。[^1]
-- **理想組合**：**subcostal + lower pole calyx + posterior calyx + Brodel bloodless line**（A+D+E+G）。[^1]
+- **理想組合（考點）**：**subcostal（肋骨下）＋ lower pole（下極）＋ posterior calyx（後側腎盞）＋ Brödel bloodless plane**。[^1][^2]
+- **Subcostal 優於 intercostal/supracostal**：避肋間神經血管束與**胸膜（supracostal 有氣胸/血胸/膿胸風險）**。[^1]
+- **下極後側腎盞優先**：**inferior pole posterior calyx 為外引流之常用進針**（中/上極便於通往 UPJ 但常需 intercostal、穿胸膜風險）。[^1]
+- **Brödel plane**：腎動脈**前後分支間之相對無血管面、離矢狀面約 20–30°**，沿此進針降低出血；**Treves 無血管線為腸繫膜結構**，非腎穿刺標的。[^1]
+
+## 放射科醫師影像判讀重點
+- **進針目標＝腎盞乳頭尖/穹窿**：**避開 infundibulum 與腎盂**（此處進針血管損傷/血尿風險高）。[^1]
+- **後側 vs 前側腎盞辨識**：**後側腎盞於影像上呈端視「圓形」、前側腎盞呈側視「杯狀」**；prone 病人可注入空氣/CO₂ 使後側腎盞（antidependent）更明顯。[^1]
+- **腎臟方位**：腎臟與冠狀面約 30–50°、上極較內側、平均約 14 個腎盞；定位 Brödel plane 需將 C-arm 旋轉離矢狀面 20–30°（或於同側墊楔形墊）。[^1]
+- **US 導引初始 access（積水時）**、fluoroscopy（非積水或有可視結石/支架時）；CT 少用（馬蹄腎/嚴重脊柱側彎/避開間置臟器）。[^1]
+- **安全提醒**：避 supracostal（胸膜併發症）、避 infundibular/腎盂進針（血管傷）；抽尿量須 > 預計注入對比量以免過度擴張加重菌血症。[^1]
+
+## 臨床重點（5 句）
+1. 適應症含**阻塞性腎積水/膿腎減壓、antegrade 支架、經皮取石（腎盂結石 >2 cm/鹿角/下極 >1–2 cm）、尿路改道、Whitaker test**。[^1]
+2. **技術成功率：積水 95–98%、非積水 80–85%**；置管後**暫時性血尿常見、多 24–48 小時緩解**。[^1]
+3. 術前 platelet >50,000、INR ≤1.5；uroseptic 者需抗生素與血流動力學支持（術中敗血/敗血休克風險）。[^1]
+4. **最可怕併發症為醫源性血管損傷/大量血尿**（假性動脈瘤、AV fistula、動脈撕裂），持續則血管攝影＋栓塞；另有臟器貫穿（retrorenal colon/脾/肝/胸膜）。[^1]
+5. Whitaker test 評估腎盂-膀胱阻塞：壓力梯度 <15 cmH₂O 正常、>22 阻塞、15–22 不定（可提高灌注率再測）。[^1]
 
 > [!note] 考點：單純引流型經皮腎造廔理想穿刺路徑?
-> **Subcostal（肋骨下）+ Lower pole calyx（下極腎盞）+ Posterior calyx（後側腎盞）+ Brodel bloodless line（Brodel無血管線）**。Treves bloodless line非腎臟穿刺相關結構，為常見混淆選項。[^1]
+> **Subcostal（肋骨下）＋ Lower pole calyx（下極腎盞）＋ Posterior calyx（後側腎盞）＋ Brödel bloodless line（Brödel 無血管面，離矢狀面 20–30°、腎動脈前後分支間）**。**Treves bloodless line 為腸繫膜結構、非腎穿刺相關**，為混淆選項。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Percutaneous Nephrostomy with Extensions of the Technique: Step by Step. RB. Dyer et al. Radiographics 2002; 22:503-525.
+[^1]: **Tier 1** Heller MT, Thabet A, Jenner ZB. *Percutaneous Urinary Interventions*（Genitourinary, Procedures）. STATdx，last updated 2025-09-04. Elsevier（實際查證 accessed 2026-07-03，26 references）：**subcostal 進針優先（避血管/臟器/胸膜）、inferior pole posterior calyx 為外引流常用、Brödel 無血管面離矢狀面 20–30°（腎動脈前後分支間）降低出血**；進針目標腎盞乳頭尖/穹窿、避 infundibulum/腎盂（血管傷）、避 supracostal（氣胸/血胸/膿胸）；後側腎盞端視圓形、前側杯狀；成功率積水 95–98%/非積水 80–85%、暫時血尿 24–48 小時緩解；最可怕併發症血管損傷/血尿（假性動脈瘤/AV fistula）；platelet>50k/INR≤1.5；Whitaker 梯度 <15 正常/>22 阻塞。
+[^2]: 官方 2020 詳解（題目所引）；原引 Dyer RB 等. *Percutaneous Nephrostomy with Extensions of the Technique: Step by Step*. RadioGraphics 2002;22:503-525——理想 PCN 為 subcostal＋下極＋後側腎盞＋Brödel 無血管面；Treves 無血管線非腎穿刺定位，已由 [^1] STATdx 一手來源查核並補強進針目標、併發症與成功率。
 
 ## 題目
 > [!question]- The ideal renal entry and puncture site for a simple draining percutaneous nephrostomy includes the following? (2020-216)
-> **A+D+E+G（B）**——subcostal（肋骨下）+ lower pole calyx（下極腎盞）+ posterior calyx（後側腎盞）+ Brodel bloodless line（Brodel無血管平面，位於腎臟腹側2/3與背側1/3交界）。[^1]
+> **subcostal（肋骨下）＋ lower pole calyx（下極腎盞）＋ posterior calyx（後側腎盞）＋ Brödel bloodless line（離矢狀面 20–30°、腎動脈前後分支間之相對無血管面）**。Treves 無血管線為腸繫膜結構、非腎穿刺相關。[^1][^2]
 
 ## 考題
 ```dataview
