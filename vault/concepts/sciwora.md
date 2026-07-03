@@ -40,7 +40,7 @@ dateRev: 2026-07-03
 > 2017 原版標 A（附註「D A??」自我不確定）、2020 重印版標 D（側彎少見）。依 J Neurotrauma 2011 數據，生長陡增前受傷 ~97% 發展側彎，故 D「側彎少見」實為錯誤、A 應為正確。兩年官方 key 矛盾，建議醫師覆核；本筆記暫依 2017 原標之 A。
 
 ### 參考來源
-[^1]: 官方 2017 詳解；Ref: J Neurotrauma 2011;28(8):1515-1524（題目所引）——兒童 SCI 相對少見；SCIWORA 為 MRI 適應症；運動傷害 75%、兒虐近 100% 為 SCIWORA；生長陡增前受傷 ~97% 發展側彎。
+[^1]: **Tier 1** Parent S, Mac-Thiong JM, Roy-Beaudry M, et al. *Spinal cord injury in the pediatric population: a systematic review of the literature*. J Neurotrauma 2011;28(8):1515-24（據 PubMed，DOI [10.1089/neu.2009.1153](https://doi.org/10.1089/neu.2009.1153)，PMC3143390；Systematic Review；實際查證 accessed 2026-07-04；原官方 2017 詳解所引即此文）——**兒童 SCI 相對少見但後果重大**；系統性回顧結論：**兒童 SCI 機轉與成人不同、神經恢復潛能較佳；於 adolescent growth spurt 前受傷者發展 scoliosis 之可能性高**；**即使影像無異常，遇異常頸/神經學檢查、高風險機轉或 distracting injury 仍應高度懷疑外傷性 SCI（即 SCIWORA 概念）**——直接佐證「兒童 SCI 相對少見（選項 A 正確）」與生長陡增前受傷高比例側彎，解決跨年答案鍵矛盾。
 [^2]: Gaillard F, et al. *Spinal cord injury without radiographic abnormality (SCIWORA)*. Radiopaedia, rID-9442, DOI 10.53347/rID-9442——**SCIWORA＝外傷後持續客觀脊髓病但平片 + CT 正常時之 MRI 適應症**、約占 SCI ~10%；**好發兒童（韌帶鬆弛 + 頭身比大）、<8 歲最易**——佐證 MRI 必要性與兒童好發。
 
 ## 題目
