@@ -7,28 +7,44 @@ aliases:
   - ovarian cancer pleural metastasis
   - choriocarcinoma halo sign
   - 婦科腫瘤胸腔轉移
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # gynecologic-thoracic-metastases
 
-**婦科惡性腫瘤的胸腔轉移型態依原發腫瘤種類而異，各有特徵性影像線索——子宮內膜癌轉移呈「indolent」型態明顯不同於卵巢癌之鈣化轉移，兩者影像表現並不相同，切勿混為一談。**
+**婦科惡性腫瘤的胸腔轉移型態「依原發腫瘤種類而異」，各有特徵性影像線索——子宮內膜癌以「肺結節 + 淋巴結腫大」為主，與卵巢癌之「少量肋膜積液 + 細微肋膜結節」表現不同，切勿混為一談（真正與卵巢癌「相同」的是輸卵管癌）。** 判讀分水嶺：**空洞化肺轉移→想子宮頸鱗癌；出血性肺轉移的「halo」徵象→想絨毛膜癌；鈣化肺/淋巴結/肋膜轉移→卵巢癌，且會 mimic 肉芽腫性疾病。**
 
 ## Summary
-- **子宮內膜癌(endometrial carcinoma)**：胸腔轉移型態為**indolent（惰性、緩慢進展）**，與卵巢癌轉移之影像表現**不同**（並非"identical"）。[^1]
-- **卵巢癌(ovarian cancer)**：胸腔轉移常表現為**小量肋膜積液合併細微肋膜結節**；轉移病灶（肺、肋膜）可合併**鈣化**。[^1]
-- **鈣化與肉芽腫性疾病之混淆**：肺、淋巴結、肋膜之胸腔轉移可呈**鈣化**，形態可**類似肉芽腫性疾病(mimic granulomatous disease)**，須小心鑑別勿誤判為感染性病灶。[^1]
-- **特徵性肺轉移型態**：部分婦科惡性腫瘤肺轉移具特徵性表現——**子宮頸鱗狀細胞癌**轉移可呈**空洞化(cavitation)**；**絨毛膜癌(choriocarcinoma)**出血性轉移可見**「halo」徵象**。[^1]
+- **子宮內膜癌（endometrial carcinoma）**：胸腔轉移典型為**肺結節 + 淋巴結腫大**（相對 indolent），與卵巢癌表現**不同**（並非 identical）。[^1]
+- **卵巢癌（ovarian cancer）**：常表現**少量肋膜積液 + 細微肋膜結節**；肺/淋巴結/肋膜轉移可**鈣化**，可 **mimic 肉芽腫性疾病**。[^1]
+- **輸卵管癌（fallopian tube carcinoma）**：轉移影像**與卵巢癌「相同（identical）」**——此為考題易混點（相同的是輸卵管癌而非子宮內膜癌）。[^1]
+- **子宮頸鱗癌（cervical SCC）**：肺轉移以**實質結節較常見，但空洞化（cavitation）亦不少見**。[^1]
+- **絨毛膜癌（choriocarcinoma）**：肺轉移為實質結節；**出血性轉移於 CT 可見「halo」徵象**。[^1]
+- **一般規律**：胸腔轉移多伴局部侵犯性原發 + 腹腔內擴散，但亦可**延遲數月-數年**或**孤立**出現（無腹腔病灶）。[^1]
+
+## 放射科醫師影像判讀重點
+- **依原發辨型**：肺結節+淋巴結→子宮內膜；肋膜積液+細微肋膜結節（±鈣化）→卵巢/輸卵管；空洞→子宮頸鱗癌；halo→絨毛膜癌。[^1]
+- **鈣化陷阱**：卵巢癌鈣化轉移（肺/淋巴結/肋膜）可**類似肉芽腫（肉芽腫性感染/舊病灶）**，勿誤判為良性。[^1]
+- **halo 徵象**：絨毛膜癌出血性轉移周圍磨玻璃暈，反映瘤周出血；配合 β-hCG 升高。[^1]
+- **空洞轉移**：子宮頸鱗癌（鱗狀組織學）較易空洞化，與其他鱗癌轉移一致。[^1]
+- **時序/孤立性**：胸腔轉移可在原發診斷後數月-數年才現、或無腹腔病灶而孤立出現，追蹤勿鬆懈。[^1]
+
+## 臨床重點（5 句）
+1. **型態依原發**：不同婦科原發之胸腔轉移型態不同，不可一概而論。[^1]
+2. **子宮內膜 ≠ 卵巢**：前者肺結節+淋巴結、後者肋膜積液+細微結節；相同者是輸卵管癌。[^1]
+3. **特徵徵象**：子宮頸鱗癌空洞化、絨毛膜癌 halo（出血性）。[^1]
+4. **鈣化 mimic**：卵巢癌鈣化轉移可仿肉芽腫，需鑑別。[^1]
+5. **時序**：可延遲或孤立出現，長期追蹤重要。[^1]
 
 > [!note] 考點：關於婦科腫瘤胸腔轉移影像特徵何者錯誤？
-> **子宮內膜癌轉移影像特徵與卵巢癌完全相同（A）**為錯誤——子宮內膜癌轉移呈indolent型態，與卵巢癌（小量肋膜積液合併細微結節、可鈣化）之表現不同。卵巢癌轉移表現、鈣化可類似肉芽腫性疾病、子宮頸鱗狀細胞癌空洞化/絨毛膜癌halo徵象皆為正確敘述。[^1]
+> **子宮內膜癌轉移影像特徵與卵巢癌完全相同（A）**為錯誤——子宮內膜癌轉移為肺結節+淋巴結腫大，與卵巢癌（少量肋膜積液+細微肋膜結節、可鈣化）不同；真正與卵巢癌 identical 者為**輸卵管癌**。卵巢癌轉移表現、鈣化可 mimic 肉芽腫、子宮頸鱗癌空洞化/絨毛膜癌 halo 徵象皆為正確。[^1]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Martínez-Jiménez S., Rosado-de-Christenson M.L., Walker C.M., et al: Imaging features of thoracic metastases from gynecologic neoplasms. Radiographics 2014; 34: pp. 1742-1754（題目所引）——子宮內膜癌胸腔轉移呈indolent型態，與卵巢癌（小量肋膜積液+細微肋膜結節、可鈣化）表現不同；胸腔轉移(肺/淋巴結/肋膜)可鈣化並類似肉芽腫性疾病；子宮頸鱗狀細胞癌肺轉移可空洞化、絨毛膜癌出血性肺轉移可見halo徵象。
+[^1]: Martínez-Jiménez S, Rosado-de-Christenson ML, Walker CM, et al. *Imaging Features of Thoracic Metastases from Gynecologic Neoplasms*. RadioGraphics 2014;34(6):1742-1754, DOI 10.1148/rg.346140052（accessed 2026-07-03）——子宮內膜癌胸腔轉移＝肺結節+淋巴結腫大；卵巢癌＝少量肋膜積液+細微肋膜結節、可鈣化並 mimic 肉芽腫；**輸卵管癌轉移與卵巢癌 identical**；子宮頸鱗癌肺轉移實質為主但空洞化不少見；絨毛膜癌出血性肺轉移於 CT 見 halo 徵象。原「官方 2020 詳解」弱來源已由此一手全文查核取代。
 
 ## 題目
 > [!question]- Which one is WRONG for imaging features of thoracic metastases from gynecologic neoplasms. (2020-290)
-> **Metastases from endometrial carcinoma exhibit imaging features identical to those of ovarian cancers（A）**為錯誤——子宮內膜癌轉移呈indolent型態，與卵巢癌（小量肋膜積液合併細微結節、可鈣化）表現不同，並非相同。卵巢癌轉移表現、鈣化類似肉芽腫性疾病、子宮頸鱗癌空洞化/絨毛膜癌halo徵象皆正確。[^1]
+> **Metastases from endometrial carcinoma exhibit imaging features identical to those of ovarian cancers（A）**為錯誤——子宮內膜癌轉移為肺結節+淋巴結腫大，與卵巢癌不同；與卵巢癌 identical 的是輸卵管癌。卵巢癌轉移、鈣化 mimic 肉芽腫、子宮頸鱗癌空洞化/絨毛膜癌 halo 皆正確。[^1]
 
 ## 考題
 ```dataview
