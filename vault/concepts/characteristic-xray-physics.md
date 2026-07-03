@@ -26,8 +26,8 @@ nonImagingReason: "X光物理原理主題，非影像判讀"
 ## 放射科醫師影像判讀重點
 - **靶材決定能量**：換靶（W↔Mo/Rh）即換特性輻射能量——乳房攝影用 Mo/Rh 取得低能量特性輻射以增軟組織對比。[^1]
 - **閾值概念**：kVp 低於 K 邊緣（如 W 的 ~69.5 keV）則無 K 特性輻射，只有 L 線與 bremsstrahlung。[^1]
-- **強度 vs 能量**：mA/時間、kVp 調「多少/最高能量」；特性輻射「峰值位置」只由靶元素決定。[^1]
-- **光譜辨識**：X 光光譜＝連續 bremsstrahlung 上疊幾條尖峰（特性輻射線）。[^2]
+- **強度 vs 能量（McCollough）**：**X 光『數量』正比於 tube potential²、tube current、曝光時間、靶原子序，反比於距離²**；受電壓波形/濾片影響；特性輻射「峰值位置」只由靶元素決定。[^1][^3]
+- **光譜形狀（McCollough）**：**X 光光譜『形狀』受靶原子序、kVp、濾片、電壓波形影響**；為連續 bremsstrahlung 上疊幾條尖峰（特性輻射線）。[^2][^3]
 - **臨床連結**：靶/濾片組合（Mo-Mo、Mo-Rh、W-Rh）藉特性輻射與吸收邊調整乳攝光譜。[^1]
 
 ## 臨床重點（5 句）
@@ -42,7 +42,8 @@ nonImagingReason: "X光物理原理主題，非影像判讀"
 
 ### 參考來源
 [^1]: 官方 2020 詳解；Ref: Bushberg JT, et al. The Essential Physics of Medical Imaging, 3rd ed., Ch.6（題目所引）——特性輻射能量取決於陽極靶元素之結合能；鎢 K 特性輻射 57.98/59.32 keV；乳攝常用鉬靶；kVp 需超過結合能才產生；特性輻射疊於連續 bremsstrahlung 之上。
-[^2]: Bell DJ, et al. *Characteristic radiation*. Radiopaedia, rID-25429, DOI 10.53347/rID-25429——特性輻射為**線光譜、是靶元素之專屬**（電子殼層能階固定）；入射電子能量須大於 K 殼結合能才撞出 K 電子、外層填補釋放等於結合能差之光子；**線光譜疊於連續 bremsstrahlung 之上、不單獨存在**。
+[^2]: Bell DJ, et al. *Characteristic radiation*. Radiopaedia, rID-25429, DOI 10.53347/rID-25429（輔助來源）——特性輻射為**線光譜、是靶元素之專屬**（電子殼層能階固定）；入射電子能量須大於 K 殼結合能才撞出 K 電子、外層填補釋放等於結合能差之光子；**線光譜疊於連續 bremsstrahlung 之上、不單獨存在**。
+[^3]: **Tier 1** McCollough CH. *The AAPM/RSNA physics tutorial for residents. X-ray production*. RadioGraphics 1997;17(4):967-84（據 PubMed，DOI [10.1148/radiographics.17.4.9225393](https://doi.org/10.1148/radiographics.17.4.9225393)；實際查證 accessed 2026-07-04）——高能電子撞擊物質將動能轉為電磁輻射；**兩機制：bremsstrahlung（連續光譜）與 characteristic（特定窄能帶線光譜）**；**X 光『數量』正比於 tube potential²、tube current、曝光時間、靶原子序，反比於距離²，亦受電壓波形（產生器類型）與濾片影響**；**X 光光譜『形狀』受靶原子序、tube potential、濾片、電壓波形影響**——直接佐證特性輻射為靶元素專屬線光譜、kVp/mA 分別調形狀與數量。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- X光機產生之特性輻射（characteristic X-rays）光子能量與下列何者最有關? (2020-200)
