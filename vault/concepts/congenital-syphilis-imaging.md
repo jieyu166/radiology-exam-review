@@ -5,31 +5,49 @@ subspecialty: [PE]
 aliases:
   - congenital syphilis
   - Wimberger corner sign
+  - Wegner sign
   - Hutchinson's teeth
   - 先天性梅毒
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # congenital-syphilis-imaging
 
-**先天性梅毒相關徵象包含Hutchinson's teeth、metaphyseal lucent band、Wimberger corner sign（雙側近端脛骨內側乾骺端破壞）——Wimberger ring sign則為壞血病(scurvy)之徵象，與先天性梅毒無關，是考題常見混淆點。**
+**先天性梅毒的骨骼影像以「對稱、多發」為特徵——osteochondritis/metaphysitis（乾骺端透亮帶）、對稱性 periostitis、以及 Wimberger corner sign（雙側近端脛骨「內側」乾骺端破壞，pathognomonic）。考題核心陷阱：Wimberger corner sign 屬梅毒，而 Wimberger ring sign（骨骺周圍環狀鈣化）屬壞血病（scurvy），兩者常被混稱。** 判讀分水嶺：**看到「雙側對稱、內側近端脛骨乾骺端破壞」＝梅毒 Wimberger corner；看到「骨骺骨化中心外圍環狀緻密環」＝壞血病 Wimberger ring——名字像、疾病不同。**
 
 ## Summary
-- **Hutchinson's teeth**：先天性梅毒之典型牙齒發育異常表徵。[^1]
-- **Metaphyseal lucent band**：先天性梅毒之乾骺端透亮帶徵象。[^1]
-- **Wimberger corner sign（伯格征）**：雙側近端脛骨**內側乾骺端局部破壞(localized bilateral metaphyseal destruction of the medial proximal tibia)**，為先天性梅毒之**病理特徵性(pathognomonic)**表現。[^1]
-- **Wimberger ring sign（易混淆）**：指圍繞骨骺骨化中心之**環狀鈣化**，實為**壞血病(scurvy)**之徵象（骨質疏鬆合併出血所致），**與先天性梅毒無關**。[^1]
-- **CAMEL口訣（乾骺端透亮橫線鑑別診斷）**：**C**ongenital infection(如STORCH)、**A**natomical variation、**M**etastatic neuroblastoma、**E**arlier systemic illness(rickets, scurvy)、**L**eukemia/lymphoma。[^1]
+- **骨軟骨炎/乾骺端炎（osteochondritis/metaphysitis）**：早期先天性梅毒最常見骨變化之一，**periostitis 或 osteochondritis 見於約 75%**；乾骺端呈**透亮帶（metaphyseal lucent band）**。[^1][^2]
+- **Wimberger corner sign（Wegner sign）**：**雙側近端脛骨「內側」乾骺端局部破壞**，為先天性梅毒之 **pathognomonic** 表現（因該處梅毒性肉芽腫破壞）。[^2]
+- **對稱性 periostitis**：多發長骨、對稱之骨膜新生骨，反映瀰漫性感染。[^1]
+- **Hutchinson's teeth**：晚期先天性梅毒之典型牙齒 stigmata（切牙桶狀凹陷）。[^2]
+- **Wimberger ring sign（易混淆，屬壞血病）**：**環繞骨骺骨化中心之環狀鈣化**（骨質疏鬆＋出血所致），為 **scurvy** 徵象，**與先天性梅毒無關**。[^3]
+- **CAMEL 口訣（乾骺端透亮橫帶鑑別）**：**C**ongenital infection（STORCH）、**A**natomical variation、**M**etastatic neuroblastoma、**E**arlier systemic illness（rickets、scurvy）、**L**eukemia/lymphoma。[^2]
+
+## 放射科醫師影像判讀重點
+- **對稱＋多發＝先天性**：先天性梅毒骨變化多**雙側對稱、多骨**，是與外傷/非意外傷害（NAI）鑑別的重點。[^1][^2]
+- **好發部位**：長骨乾骺端與骨幹；Wimberger corner 特別在**近端脛骨內側**（亦可見於其他乾骺端角）。[^2]
+- **時序**：早期（<2 歲）以 metaphysitis/periostitis/Wimberger corner 為主；晚期以 stigmata（Hutchinson 牙、sabre shin、frontal bossing）為主。[^2]
+- **系統性線索**：新生兒可見肝脾腫大（STATdx 胎兒/新生兒觀點：胃被脾往內推為脾腫大首徵）、貧血、黃疸——骨變化常伴全身表現。[^1]
+- **陷阱**：Wimberger corner（梅毒，破壞）vs Wimberger ring（壞血病，環狀鈣化）——兩者皆以 Hans Wimberger 命名，務必分清。[^2][^3]
+
+## 臨床重點（5 句）
+1. **一句鑑別**：Wimberger **corner** sign＝梅毒（內側近端脛骨破壞）；Wimberger **ring** sign＝壞血病（骨骺環狀鈣化）。[^2][^3]
+2. **骨變化盛行率**：早期先天性梅毒約 75% 有 periostitis 或 osteochondritis。[^1]
+3. **對稱多發為要**：雙側對稱的乾骺端/骨膜變化強烈提示先天性感染，而非外傷。[^1][^2]
+4. **透亮帶鑑別**：乾骺端透亮橫帶用 CAMEL 口訣鑑別（含 STORCH、白血病、神經母細胞瘤轉移、壞血病/佝僂病）。[^2]
+5. **治療可逆**：適當抗梅毒治療後骨變化多可癒合，早診早治重要。[^1]
 
 > [!note] 考點：以下何者與先天性梅毒無關？
-> **Wimberger ring sign（D）**——為壞血病(scurvy)之徵象，非先天性梅毒。Hutchinson's teeth、metaphyseal lucent band、Wimberger corner sign皆為先天性梅毒相關徵象。[^1]
+> **Wimberger ring sign（D）**——為壞血病（scurvy）之徵象（骨骺骨化中心外圍環狀鈣化），非先天性梅毒。Hutchinson's teeth、metaphyseal lucent band、Wimberger corner sign（雙側內側近端脛骨乾骺端破壞，pathognomonic）皆為先天性梅毒相關徵象。[^2][^3]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Caffey's Pediatric Diagnostic Imaging 12th ed. p.1530（題目所引）——先天性梅毒相關徵象含Hutchinson's teeth、metaphyseal lucent band、Wimberger corner sign（雙側近端脛骨內側乾骺端破壞，病理特徵性）；Wimberger ring sign為壞血病徵象，與先天性梅毒無關；CAMEL口訣鑑別乾骺端透亮橫線病因。
+[^1]: Sohaey R. *Congenital Syphilis* (Dx, 胎兒/新生兒觀點). STATdx, updated 08/20/25. Elsevier——先天性梅毒 **osteochondritis 或 periostitis 見於約 75%**；伴肝脾腫大（脾腫大以胃內移為首徵）、貧血等全身表現。
+[^2]: Gaillard F, et al. *Wimberger sign*. Radiopaedia, rID-21286, DOI 10.53347/rID-21286——**Wimberger（corner）sign＝雙側近端脛骨內側乾骺端局部破壞，pathognomonic of congenital syphilis**；勿與壞血病之 Wimberger ring sign 混淆；以 Hans Wimberger（奧地利小兒科醫師）命名。原「官方 2020 詳解／Caffey's 12th p.1530」弱來源之骨骼徵象已由此一手來源查核取代。
+[^3]: Gaillard F, et al. *Wimberger ring sign*. Radiopaedia, rID-21287, DOI 10.53347/rID-21287——**環繞骨骺骨化中心之環狀鈣化，見於壞血病（scurvy）**（骨質疏鬆＋出血），**與先天性梅毒無關**、不可與 Wimberger（corner）sign 混淆。
 
 ## 題目
 > [!question]- Which imaging sign is not correlated with congenital syphilis? (2020-413)
-> **Wimberger ring sign（D）**——為壞血病(scurvy)徵象，非先天性梅毒相關徵象。[^1]
+> **Wimberger ring sign（D）**——為壞血病（scurvy）徵象（骨骺環狀鈣化），非先天性梅毒相關徵象。[^2][^3]
 
 ## 考題
 ```dataview
