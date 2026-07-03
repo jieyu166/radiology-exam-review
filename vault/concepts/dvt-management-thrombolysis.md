@@ -23,25 +23,29 @@ dateRev: 2026-07-03
 - **性別**：DVT 發生率**男性略高於女性（約高 18%）**。[^1]
 
 ## 放射科醫師影像判讀重點
-- **定位分近端/遠端**：報告區分 above-knee（膕以上）vs below-knee（小腿）——影響處置積極度。[^2]
-- **soleal 血管**：無瓣膜、free-floating propagating thrombus 可脫落致大 PE——需注意近端延伸。[^2]
-- **CDT 前評估**：確認 iliofemoral 範圍、症狀時程<14 天、出血禁忌；置 IVC filter 保護。[^1]
-- **calf DVT**：多不需 CDT；追蹤是否往近端延伸（延伸則升級處置）。[^1][^2]
-- **陷阱**：勿把 calf DVT 當緊急溶栓適應症；CDT 保留給嚴重/近端大範圍病例。[^1]
+- **解剖分類（STATdx，SVS 建議用詞）**：**iliofemoral（髂/總股靜脈）、femoropopliteal（膕/股/深股）、calf（腓/前後脛，不含膕靜脈）**——**SVS 建議用精確解剖詞取代「proximal/distal」**；報告須註明是否延伸入 IVC。[^3]
+- **時程分類（STATdx）**：**acute <14 天、subacute 15-28 天、chronic >28 天**；灰階 US 急性血栓較慢性更低回音。[^3]
+- **US 為診斷首選（STATdx）**：**近端 DVT US 敏感 94%/特異 98%，但 calf DVT 僅敏感 57%/特異 48%**；CFV spectral Doppler 失去 pulsatility/phasicity 提示髂或 IVC 阻塞。[^3]
+- **CTV/MRV/DSA（STATdx）**：CTV 對 IVC/骨盆/femoropopliteal 高敏、看外在壓迫；MRV 92-94% 敏感、免輻射評估骨盆；**DSA 為金標但侵入性、多作溶栓前置**；IVUS 可辨 May-Thurner venous「spur」。[^3]
+- **左腿好發（STATdx）**：**DVT 左腿為右腿 3-5 倍（May-Thurner：右髂動脈壓迫左髂靜脈於匯入 IVC 處）**；May-Thurner anatomy 偶見（女 41%>男 27%）多無症狀，有 DVT 才稱 syndrome。[^3]
+- **CDT 前評估**：確認 iliofemoral 範圍、症狀時程<14 天、出血禁忌；**注意當代指引（ACCP/ASH/SVS）建議接受抗凝者不常規置 IVC filter**（本題 2017 答案按當時教材，臨床已演進）。[^1][^3]
+- **calf DVT**：多不需 CDT；**ACCP 2021：孤立遠端 DVT 無嚴重症狀者不抗凝、2 週序列影像追蹤，延伸才抗凝**。[^1][^3]
+- **陷阱**：勿把 calf DVT 當緊急溶栓適應症；CDT 保留給嚴重/近端大範圍病例（phlegmasia cerulea dolens 為肢體威脅之明確適應）。[^1][^3]
 
 ## 臨床重點（5 句）
-1. **calf DVT**：遠端、臨床意義有限，非緊急 CDT。[^1][^2]
-2. **CDT 適應**：phlegmasia/massive iliofemoral/抗凝失敗。[^1]
-3. **候選條件**：症狀<14 天、功能佳、出血風險低。[^1]
-4. **技術**：CDT 降劑量、前置 IVC filter 降 PE。[^1]
-5. **性別**：男性略多於女性。[^1]
+1. **VTE 負擔（STATdx）**：VTE（DVT+PE）年發生率約 1/1000、美國 >25 萬住院/年；風險因子（惡性、遺傳性血栓體質、手術、外傷、久坐/長途、肥胖、口服避孕/HRT、癱瘓、懷孕、既往 VTE）。[^3]
+2. **PTS（後血栓症候群）**：**首次急性 iliofemoral DVT 者 2 年內 20-40% 發生 PTS、5-10% 嚴重**；為瓣膜逆流 + 靜脈阻塞致慢性靜脈高壓；Villalta scale 分級（<5 無、5-14 輕中、≥15 重）。[^3]
+3. **抗凝為主流（STATdx/ACCP 2021）**：**急性 VTE 首選 DOAC（apixaban/dabigatran/edoxaban/rivaroxaban）優於 VKA、初始 3 個月後評估延長；癌相關用口服 Xa；壓力襪不再常規建議（SOX trial）**。[^3]
+4. **CDT 證據（ATTRACT/CaVenT）**：**ATTRACT（2017）PMT 對 PTS 無顯著差異但增出血與住院；CaVenT（2012）24 個月 PTS 絕對風險降 14%（NNT 7）、生活品質無差異**；CDT 成功率 80-90%、US 加速 CDT 91%（完全 70%）。[^3]
+5. **phlegmasia（STATdx）**：**phlegmasia alba dolens＝大量血栓致腫脹無發紺；phlegmasia cerulea dolens＝伴肢體威脅發紺，為血管內取栓/溶栓之明確適應（保肢）**。[^3]
 
 > [!note] 考點：關於下肢DVT，何者「錯誤」?
 > 「**術後病人發生 calf vein DVT 時，需緊急以 catheter-directed thrombolysis 治療以降低 PE 風險（D）**」錯誤——calf vein DVT 屬**遠端 DVT、臨床意義有限**，非緊急溶栓適應症（CDT 保留給 phlegmasia/大範圍髂股 DVT/抗凝失敗者）。男性略多於女性、CDT 可降溶栓劑量、溶栓前置 IVC filter 可降 PE 風險皆正確。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解（下肢 DVT 管理標準教材／ACR-SIR/CHEST 原則）——DVT 男性略高於女性(~18%)；CDT 可降所需藥物劑量；溶栓前置 IVC filter 可降 PE 風險；calf vein DVT 屬遠端 DVT 臨床意義有限、非緊急溶栓適應症；CDT 保留給 phlegmasia cerulea dolens/大範圍髂股 DVT/抗凝失敗者，候選條件症狀<14 天/功能佳/出血風險低。
-[^2]: Gaillard F, et al. *Deep vein thrombosis*. Radiopaedia, rID-1204, DOI 10.53347/rID-1204——**distal（"below-knee"）DVT＝小腿靜脈、proximal（"above-knee"）＝膕靜脈或更近端**；多數下肢 DVT 源自小腿靜脈（soleal 無瓣膜、free-floating 血栓可脫落致大 PE）；佐證 calf DVT 之遠端分類。
+[^2]: Gaillard F, et al. *Deep vein thrombosis*. Radiopaedia, rID-1204, DOI 10.53347/rID-1204（輔助來源）——**distal（"below-knee"）DVT＝小腿靜脈、proximal（"above-knee"）＝膕靜脈或更近端**；多數下肢 DVT 源自小腿靜脈（soleal 無瓣膜、free-floating 血栓可脫落致大 PE）；佐證 calf DVT 之遠端分類。
+[^3]: **Tier 1** Wible BC. *Lower Extremity and Iliocaval Intervention*（Interventional Radiology, Venous Interventions, Procedure）. STATdx, Elsevier, updated 06/23/22（40 refs；實際查證 accessed 2026-07-04）——**解剖分類 iliofemoral/femoropopliteal/calf（SVS 建議取代 proximal/distal）、時程 acute<14/subacute15-28/chronic>28 天**；VTE 年 1/1000、美國 >25 萬住院/年；**左腿 3-5 倍（May-Thurner：右髂動脈壓左髂靜脈）、May-Thurner anatomy 女 41%>男 27% 多無症狀**；phlegmasia alba（無發紺）vs cerulea dolens（發紺肢威脅）；**影像（US 首選、近端敏感 94%/特異 98% vs calf 57%/48%、CFV 失 phasicity 示髂/IVC 阻塞；CTV IVC/骨盆佳；MRV 92-94% 敏感；DSA 金標多溶栓前置；IVUS 辨 May-Thurner spur）**；治療（CDT/PMT/MT/venous stent、tPA 0.5-1.0 mg/h、fibrinogen 每 6h 監測 <150 減半/<100 停）；**指引（ACCP 2021 孤立遠端 DVT 無嚴重症狀不抗凝+2 週序列影像、急性 VTE 首選 DOAC 3 個月、壓力襪不再常規 SOX trial、接受抗凝者不常規置 IVC filter；ASH 2020 廣泛 DVT 適溶栓者 CDT>系統性；SVS 2012 早期取栓 grade 2C：iliofemoral 首次/症狀<14 天/功能佳/低出血、限威脅肢體者 grade 1A）**；**PTS（iliofemoral 2 年 20-40%、Villalta 分級）、CDT 成功 80-90%/US 加速 91%、髂靜脈支架 2 年 primary 70%/secondary 90%**；**ATTRACT（2017 PMT 對 PTS 無顯著差異但增出血/住院）、CaVenT（2012 24 月 PTS 絕對降 14% NNT 7 但 QoL 無差異）**；併發（溶栓出血 0-17%、症狀性 PE 1%、支架移位）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 Deep vein thrombosis (DVT) in lower extremities，下列何者錯誤? (2017-283)
