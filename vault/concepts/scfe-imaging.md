@@ -5,29 +5,46 @@ subspecialty: [PE, MSK]
 aliases:
   - SCFE
   - slipped capital femoral epiphysis
+  - Klein line
+  - Southwick angle
   - 股骨頭骨骺滑脫
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # scfe-imaging
 
-**SCFE評估必做雙側髖關節X光（因約20%初診即雙側），但滑脫前之早期生長板變化偵測則以MRI優於CT——MRI可偵測滑脫前之生長板水腫等早期變化，CT對軟組織/生長板之敏感度不及MRI。**
+**SCFE＝經近端股骨生長板之移位性 Salter-Harris I 型骨折（剪力所致，斷於肥大軟骨細胞層）；骨骺向「後內側」滑脫。評估必做雙側髖 X 光（20–40% 初診雙側、對側多於 2 年內滑脫），滑脫前之早期生長板變化以 MRI 最敏感（優於 X 光與 CT）。** 判讀分水嶺：**AP 之 Klein line（沿股骨頸外緣畫線應切到骨骺，僅適用 AP）易漏（60% 漏診）→ 必加 frog-leg view（較敏感）；MRI 可在「preslip」即見生長板增寬/水腫，故對早期優於 CT，這是考題核心。**
 
 ## Summary
-- **雙側性**：約**20%**股骨頭骨骺滑脫於**初診時已呈雙側**。[^1]
-- **檢查範圍**：X光評估SCFE**必須雙側髖關節攝影**（即使症狀單側，亦須評估對側以利早期偵測）。[^1]
-- **早期生長板變化偵測**：**MRI優於CT**，可於滑脫發生前偵測早期生長板變化（如生長板水腫）；CT對此並非優於MRI。[^1]
-- **致病因子(predisposing factors)**：甲狀腺功能低下(hypothyroidism)、生長激素缺乏(growth hormone deficiency)、腎性骨病變(renal osteodystrophy)等內分泌/代謝性疾病。[^1]
+- **雙側性**：**約 20–40% 初診即雙側**（MR 可再提高此比例）；對側滑脫通常於初診後 **2 年內**發生。[^1]
+- **檢查範圍**：X 光須**雙側髖攝影＋frog-leg view**（frog-leg 較 AP 敏感）；即使症狀單側亦評估對側。[^1]
+- **早期偵測 MRI 優於 CT/X 光**：MRI 可於**滑脫前（preslip）**偵測生長板增寬/不規則、active 期生長板高訊號＋鄰近骨髓水腫±積液；CT 對此並非優於 MRI。[^1]
+- **致病/次發因子**：肥胖（額外剪力）、**生長激素治療、甲狀腺功能低下、全垂體功能低下、佝僂病/腎性骨病變、Down 症、放/化療、骨髓炎/化膿性髖**等。[^1]
 
-> [!note] 考點：關於SCFE，何者敘述錯誤？
-> **CT優於MRI評估滑脫前早期生長板變化（C）為錯誤**——實際上MRI優於CT。約20%初診雙側、X光須雙側評估、致病因子含甲狀腺低下/生長激素缺乏/腎性骨病變，皆為正確敘述。[^1]
+## 放射科醫師影像判讀重點
+- **Klein line（AP 專用）**：沿股骨頸外緣之線**正常應切過骨骺**；不切到＝股骨頭內移；**60% 會漏**。**Modified Klein line**（比較兩側 Klein line 外側骨骺寬度、差 2 mm）敏感度提升至 79%。**Klein line 僅適用 AP、不適用 frog-leg**。[^1]
+- **Frog-leg view**：滑脫常更明顯；細微時**骨骺後內側角超出 metaphysis 邊緣、前外側角仍對齊**；需雙側/全骨盆比較。[^1]
+- **量化分級（frog lateral）**：**Southwick head-shaft 角**（normal/preslip 0°、mild ≤29°、moderate 30–50°、severe ≥51°）；**Wilson 線性位移**（grade1 <1/3、grade2 1/3–2/3、grade3 >2/3）。[^1]
+- **穩定度（Loder）**：**stable＝可負重（85%）、unstable＝痛到無法負重**（unstable ON 風險高）。[^1]
+- **MR 徵象與併發症**：正常矢狀面骨骺如**「冰淇淋球穩置於蛋捲筒」**，滑脫時球向後傾；評估 **chondrolysis（軟骨變薄、7–10%）、osteonecrosis（double line sign、1%）**；X 光常**低估滑脫程度**。[^1]
+
+## 臨床重點（5 句）
+1. **最常見青少年髖部疾病**；女生平均 11–12 歲（8–15）、男生 13–14 歲（10–17）、**男:女 2.5:1**、肥胖與黑人族群風險較高，發生率隨兒童肥胖上升。[^1]
+2. 表現為**漸進性髖痛、內旋受限、屈曲時強制外旋**；**約 15% 以膝痛表現**（易誤診），滑脫變 unstable 則劇痛無法負重。[^1]
+3. **年齡低於 8–14 歲之非典型 SCFE 應排查代謝（甲狀腺低下/腎性骨病變/佝僂）或感染性病因**。[^1]
+4. 治療以 **in situ 釘合**為主（moderate）、severe 才嘗試部分復位；**多採原位釘合而非復位以降低 ON 風險**；對側預防性釘合仍有爭議。[^1]
+5. 長期併發症以 **FAI（32%，cam 型；Southwick >35° 相關）**最常見，另有 chondrolysis 與 ON，可續發唇裂/軟骨流失/骨關節炎。[^1]
+
+> [!note] 考點：關於 SCFE，何者敘述錯誤？
+> **CT 優於 MRI 評估滑脫前早期生長板變化（C）為錯誤**——實際上 **MRI 優於 CT**（可於 preslip 見生長板增寬/水腫）。約 20–40% 初診雙側、X 光須雙側＋frog-leg 評估、致病因子含甲狀腺低下/生長激素治療/腎性骨病變，皆為正確敘述。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radiography, CT, and MRI of Hip and Lower Limb Disorders in Children and Adolescents, RadioGraphics 2019; 39:779-794（題目所引）——約20%SCFE初診雙側；X光須雙側髖關節攝影；MRI優於CT評估滑脫前早期生長板變化；致病因子含甲狀腺低下、生長激素缺乏、腎性骨病變。
+[^1]: **Tier 1** Gill KG, Manaster BJ. *Slipped Capital Femoral Epiphysis*（Musculoskeletal, Dx）. STATdx，last updated 2022-02-11. Elsevier（實際查證 accessed 2026-07-03，23 references）：SCFE＝近端股骨生長板 Salter-Harris I 剪力骨折、骨骺後內側滑脫；bilateral 20–40%（對側 2 年內）；Klein line（AP 專用、60% 漏、modified 2 mm 敏 79%）、frog-leg 較 AP 敏；MRI preslip 即見生長板增寬水腫、優於 X 光/CT；Southwick（mild≤29/mod30–50/severe≥51）、Wilson（<1/3、1/3–2/3、>2/3）、Loder（stable 85%/unstable）；女 11–12/男 13–14、M:F 2.5:1、肥胖；15% 膝痛；併發症 FAI 32%/chondrolysis 7–10%/ON 1%；in situ 釘合；次發因子 GH 治療/甲狀腺低下/佝僂/腎性骨病變/感染。
+[^2]: 官方 2020 詳解（題目所引）；原引 *Radiography, CT, and MRI of Hip and Lower Limb Disorders in Children and Adolescents*. RadioGraphics 2019;39(3):779-794——約 20% SCFE 初診雙側、X 光須雙側攝影、MRI 優於 CT 評估滑脫前早期生長板變化、致病因子含甲狀腺低下/生長激素/腎性骨病變，已由 [^1] STATdx 一手來源查核並補強（bilateral 20–40%、Klein line、量化分級與併發症）。
 
 ## 題目
 > [!question]- Which of the following descriptions about slipped capital femoral epiphysis (SCFE) is wrong? (2020-378)
-> **CT優於MRI評估早期生長板變化（C）為錯誤**——應為MRI優於CT。[^1]
+> **CT 優於 MRI 評估早期生長板變化（C）為錯誤**——應為 **MRI 優於 CT**（preslip 生長板增寬水腫）。20–40% 初診雙側、須雙側＋frog-leg、致病因子含內分泌/代謝病皆正確。[^1][^2]
 
 ## 考題
 ```dataview
