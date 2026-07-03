@@ -24,6 +24,7 @@ dateRev: 2026-07-03
 ## 放射科醫師影像判讀重點
 - **篩檢工具**：colonoscopy（q10yr）、FIT（annual）、stool DNA（FIT-DNA）、**CT colonography（q5yr）**、flex sig；CTC 為影像科主要角色。[^2]
 - **CTC 適應**：不完全大腸鏡、抗凝、風險高不宜大腸鏡者之替代；報告用 C-RADS。[^2]
+- **USPSTF 2021 分級（JAMA，據 PubMed）**：**50-75 歲 A 級（實質淨效益，高確定）、45-49 歲 B 級（中度淨效益，中確定）、76-85 歲 C 級（選擇性、依整體健康/既往篩檢/偏好）**。[^2]
 - **風險分層決定起點**：一般風險依最新指引 45 歲起；高風險（症候群/家族史/病史）提早。[^1][^2]
 - **症狀者非篩檢**：出血/潛血陽性/貧血 → 直接診斷性大腸鏡，勿當篩檢延後。[^1]
 - **時效提醒**：報告/衛教引用起始年齡以最新 45 歲為準，並知曉舊制 50 歲。[^2]
@@ -40,7 +41,7 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Radiology: Specialty Board Review, GI Section Ch.48, p.375（題目所引）——一般族群（無症狀無風險因子）50 歲起始篩檢；息肉症候群/家族史/個人病史/heme-positive stools 者需提早篩檢或直接診斷性檢查。
-[^2]: US Preventive Services Task Force. *Final Recommendation: Screening for Colorectal Cancer*（2021-05-18；grade B for 45-49；accessed 2026-07-03）；American Cancer Society 2018；US Multi-Society Task Force——**一般風險 CRC 篩檢起始年齡由 50 下修至 45 歲**（因年輕型 CRC 上升）；篩檢工具含 colonoscopy/FIT/stool-DNA/CT colonography/flex sig。時效變革：2017 題 50、最新 45。
+[^2]: **Tier 1** US Preventive Services Task Force (Davidson KW, et al). *Screening for Colorectal Cancer: US Preventive Services Task Force Recommendation Statement*. JAMA 2021;325(19):1965-77（據 PubMed，DOI [10.1001/jama.2021.6238](https://doi.org/10.1001/jama.2021.6238)；Practice Guideline；實際查證 accessed 2026-07-04）——**一般風險起始 45 歲：50-75 歲 A 級（高確定實質淨效益）、45-49 歲 B 級（中確定中度淨效益）、76-85 歲 C 級（選擇性）**；下修因**年輕型 CRC 上升（40-49 歲腺癌發生率 2000-02 至 2014-16 增近 15%、<50 歲佔新病例 10.5%）**；average risk＝無 CRC/腺瘤/IBD 病史、無 Lynch/FAP 等遺傳傾向；篩檢工具含 colonoscopy/FIT/stool-DNA/CT colonography/flex sig。時效：2017 題 50、最新 45。（另 American Cancer Society 2018/US Multi-Society Task Force 亦建議 45 起。）
 
 ## 題目
 > [!question]- Which of the following groups should begin screening for colorectal carcinoma at age 50? (2017-284)
