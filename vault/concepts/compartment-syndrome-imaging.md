@@ -21,12 +21,29 @@ dateRev: 2026-07-03
 - **筋膜切開術**：手術切開**皮膚與筋膜(fascia)**（非「肌肉纖維muscle fibers」）以釋放壓力、恢復動脈血流灌注。[^1]
 - **延遲筋膜切開術的風險**：診斷延遲（發病後3-4天）才進行筋膜切開術，可能因**去血管化壞死肌肉組織**造成**感染與腎衰竭**，此情境下手術效益需審慎評估（非絕對禁忌，但風險增加）。[^1]
 
+## 放射科醫師影像判讀重點
+- **影像角色（重要）**：**ACS 為臨床診斷與外科急症、影像少有必要且會延誤治療**；MR 於適當臨床情境「高度提示但非診斷性」。[^3]
+- **MR 徵象**：**受累腔室橫斷面全區肌肉水腫**（fluid-sensitive 高訊號、T1 低訊號/紋理消失/肌肉腫大）、沿筋膜面積液/出血；**T1 C+ 見 myonecrosis 低訊號區 ± stipple sign（保留部分灌流之強化點）**。[^3]
+- **CECS（慢性運動型）**：**75% 雙側、50% 多腔室**；運動後 T2 訊號升高約 30 分鐘。[^3]
+- **好發部位/腔室解剖**：**小腿最常（anterior > lateral > 淺/深後）**；anterior compartment＝tibialis anterior/EHL/EDL/peroneus tertius＋**deep peroneal nerve＋anterior tibial artery**；報告以「腔室解剖」描述。[^3]
+- **壓力閾值（STATdx）**：**急性 resting >30 mmHg**；慢性 resting ≥15、運動後 1 分 ≥30、5 分 ≥20 mmHg（臨床亦用 delta pressure＝舒張壓−腔室壓 <20–30）。[^1][^3]
+- **muscle hernia**：**tibialis anterior 最常**、經筋膜缺損/變薄突出、**US 動態（收縮/負重）最佳**；peroneus 肌疝可致 superficial peroneal 神經病變。[^3]
+- **鑑別（DDx）**：muscle strain（羽毛狀）、pyogenic myositis（膿瘍/發炎指數）、DOMS（運動後 1–3 天、無肌腫大自限）、DVT、myositis ossificans/rhabdo、diabetic muscle infarct、denervation、longitudinal stress fracture。[^3]
+
+## 臨床重點（5 句）
+1. **本質**：灌流壓低於腔室組織壓致缺血；**臨床診斷＋外科急症**，**nerve/muscle 缺血 >6-8 小時致永久傷害**。[^1][^3]
+2. **病因**：**脛骨骨幹骨折佔 ACS 35-40%**（open tibia 20% 併發）、crush/出血/石膏/lithotomy 姿勢/古柯鹼血管痙攣/蛇毒/對比劑外滲；bivalving 石膏可降腔內壓 85%。[^3]
+3. **臨床表現**：**crescendo pain out of proportion（最早）、被動牽拉加劇**；**5 Ps（pain/paresthesia/pallor/pulselessness/poikilothermia）為晚期**、遠端脈搏多仍在、感覺先於運動受影響；CK↑/myoglobinuria。[^3]
+4. **併發症**：**reperfusion injury、rhabdomyolysis→腎衰竭、Volkmann 攣縮（前臂屈肌）、截肢**。[^3]
+5. **治療**：**ACS 筋膜切開術 ± 清創**（切開皮膚與筋膜，非肌纖維）；CECS 手術減壓；muscle hernia 幾乎保守（手術縫合反致 CS）。[^1][^3]
+
 > [!note] 考點：關於compartment syndrome，何者「為真」?
 > **C（若未治療會進展為橫紋肌溶解症）為真**。診斷閾值應以**delta pressure（舒張壓−腔室壓）<20-30 mmHg**為準（非單純腔室壓>30 mmHg絕對值）;腔室症候群為危及生命之急症（非「非致命」）；筋膜切開術切開的是**筋膜**而非肌肉纖維。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解：正常腔室壓力0-8mmHg;診斷閾值為delta pressure(舒張壓−腔室壓)<20-30mmHg;腔室症候群未治療會進展為橫紋肌溶解症，屬危及生命急症;筋膜切開術切開皮膚與筋膜(非肌肉纖維)；診斷延遲3-4天後筋膜切開術可能因去血管化壞死肌肉致感染及腎衰竭。
-[^2]: Bell D, et al. *Acute compartment syndrome*. Radiopaedia, rID-60854, DOI 10.53347/rID-60854——**肢體與生命威脅之外科急症、腔內壓升高損及灌流致肌肉神經受損**；好發 <35 歲、男性約 10 倍、最常見於脛骨骨幹骨折後；5 Ps（pain out of proportion 為早期常見）——佐證屬危及生命急症、與橫紋肌溶解之關聯。
+[^2]: *Acute compartment syndrome*. Radiopaedia.org, rID-60854, DOI 10.53347/rID-60854（輔助來源）——肢體與生命威脅之外科急症、腔內壓升高損及灌流致肌肉神經受損；好發 <35 歲、男性約 10 倍、最常見於脛骨骨幹骨折後；5 Ps（pain out of proportion 為早期常見）。
+[^3]: **Tier 1** Flores DV, Davis KW, Blankenbaker DG. *Compartment Syndrome and Muscle Hernia*（Musculoskeletal, Dx）. STATdx, Elsevier, updated 01/26/26（37 refs；實際查證 accessed 2026-07-03）——CS＝灌流壓低於組織壓致缺血；**臨床診斷＋外科急症、影像少用且延誤治療**；MR＝受累腔室橫斷全區肌肉水腫、T1 C+ stipple sign（myonecrosis）；**CECS 75% 雙側/50% 多腔室、運動後 T2↑約 30 分**；小腿最常（anterior>lateral>後）、anterior 腔室含 TA/EHL/EDL＋deep peroneal nerve＋anterior tibial artery；**壓力閾值急性 resting >30、慢性運動後 1 分 ≥30/5 分 ≥20**；病因（脛骨骨幹骨折 35-40% ACS、crush/出血/石膏/lithotomy/古柯鹼/蛇毒/對比劑外滲、bivalving 降壓 85%）；**crescendo pain 最早、5 Ps 晚期、感覺先於運動、遠端脈搏多在、CK↑/myoglobinuria、缺血>6-8 小時永久傷害**；併發症（reperfusion/rhabdo→腎衰、Volkmann 攣縮、截肢）；muscle hernia（TA 最常、US 動態最佳、peroneus 疝致 superficial peroneal 神經病變）；DDx（strain/pyogenic myositis/DOMS/DVT/myositis ossificans/diabetic infarct/denervation/stress fracture）；治療（fasciotomy±清創）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following is TRUE about compartment syndrome? (2017-297)
