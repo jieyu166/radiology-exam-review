@@ -28,6 +28,10 @@ dateRev: 2026-07-03
 - **病史連結**：移植病人見此徵象 → 想 PTLD；否則以 NHL 為主。[^2]
 - **範圍評估**：常伴後腹腔/其他部位淋巴結腫大，分期需全面掃描。[^2]
 - **鑑別其他徵象**：target/keyboard/doughnut 屬腸相關徵象，非淋巴瘤特徵。[^1]
+- **NHL vs HD（STATdx）**：**mesenteric adenopathy 於 NHL >50%、HD <5%**（故 sandwich sign 偏向 NHL）；NHL 淋巴結較大、分佈非連續；HD 早期以上位 paraaortic 連續分佈。[^3]
+- **淋巴瘤影像特性**：CT **輕度均質強化（~肌肉密度）、治療前罕鈣化（<1%）**；**融合軟組織 mantle 包繞腸繫膜血管與主動脈/IVC、推移主動脈離開脊椎、推移靜脈但「不壓迫」**（軟、包繞不阻塞）；MR T1 低/T2 iso-高（低 T2 疑治療後纖維化）、DWI 受限；US 低回音、fatty hilum 消失。[^3]
+- **PET/分期/切片**：**PET 敏感度 90-95%（CECT 80-85%）**，但 MALT/marginal zone/CLL-SLL 敏感度低；Lugano 分類＋Deauville 評分評療效；**需 core biopsy＋flow cytometry（FNA 不足）**。[^3]
+- **DDx（後腹腔/腸繫膜腫大）**：轉移（離散非融合）、睪丸轉移（沿 gonadal vein）、肉瘤、神經源腫瘤、**結核（低密度淋巴結）**、**retroperitoneal fibrosis（包繞不推移、輸尿管內移）**、Castleman/Kaposi（富血管）。[^3]
 
 ## 臨床重點（5 句）
 1. **sandwich sign**：血管兩側融合淋巴結包夾血管。[^1][^2]
@@ -41,7 +45,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Sonography Exam Review: Physics, Abdomen, OB/GYN, 2nd ed., p.283（題目所引）——腸繫膜淋巴瘤典型呈 sandwich sign（都卜勒見血管貫穿融合淋巴結團塊中心）；與 target/keyboard/doughnut sign 等其他病灶徵象不同。
-[^2]: Weerakkody Y, et al. *Sandwich sign (mesentery)*. Radiopaedia, rID-1425, DOI 10.53347/rID-1425——亦稱 hamburger sign；**融合淋巴結於腸繫膜血管兩側包夾血管與脂肪**；**特異於腸繫膜淋巴瘤（typically non-Hodgkin）**，移植後則須想 PTLD。
+[^2]: *Sandwich sign (mesentery)*. Radiopaedia.org, rID-1425, DOI 10.53347/rID-1425（輔助來源）——亦稱 hamburger sign；**融合淋巴結於腸繫膜血管兩側包夾血管與脂肪**；**特異於腸繫膜淋巴瘤（typically non-Hodgkin）**，移植後則須想 PTLD。
+[^3]: **Tier 1** Fung A, Heller MT. *Retroperitoneal and Mesenteric Lymphoma*（Genitourinary, Dx）. STATdx, Elsevier, updated 10/21/25（23 refs；實際查證 accessed 2026-07-03）——NHL vs HD；**mesenteric adenopathy NHL >50%/HD <5%**、NHL 淋巴結較大且非連續、HD 上位 paraaortic 連續；淋巴結 >1.5cm（Lugano）；**融合軟組織 mantle 包繞腸繫膜血管與主動脈/IVC、推移主動脈離脊椎、推移靜脈但不壓迫**；CT 輕度均質強化~肌肉、罕鈣化（<1%）；MR T1 低/T2 iso-高（低 T2 疑纖維化）、DWI 受限；**PET 敏 90-95%（CECT 80-85%），MALT/marginal zone/CLL-SLL 敏感度低**；Lugano/Deauville 評療效；DDx（轉移離散、睪丸轉移沿 gonadal vein、肉瘤、神經源、TB 低密度、RPF 包繞不推移輸尿管內移、Castleman/Kaposi 富血管）；B symptoms（發燒/夜汗/體重減輕）、HD 雙峰(20-29/>55)、core biopsy+flow cytometry（FNA 不足）、HD 5 年存活 87%/NHL 73%。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following terms is most likely used to describe the sonographic appearance of mesenteric lymphomatous? (2017-265)
