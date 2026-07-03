@@ -39,7 +39,7 @@ dateRev: 2026-07-01
 > 3. 何者「相對非」骨盆腔隙的直接延伸?——**右側腸繫膜下腔隙(right inframesocolic spaces，A)**。[^1]
 
 ### 參考來源
-[^1]: RadioGraphics 2012;32:437-451：小網膜由肝胃韌帶+肝十二指腸韌帶(含總膽管)組成，胃脾/胃結腸韌帶屬大網膜;膈結腸韌帶(Hensing's韌帶)連結腸脾彎曲至橫膈，為左膈下腔隙與左結腸旁溝界標兼脾臟下極支撐;骨盆腔隙經左右結腸旁溝直接向上延伸，與左右腸繫膜下腔隙非直接延伸關係。
+[^1]: Tirkes A, et al. *Peritoneal and Retroperitoneal Anatomy and Its Relevance for Cross-Sectional Imaging*. RadioGraphics 2012;32(2):437-451, DOI 10.1148/rg.322115032（accessed 2026-07-03）——小網膜由肝胃韌帶+肝十二指腸韌帶(含總膽管)組成，胃脾/胃結腸韌帶屬大網膜;膈結腸韌帶(Hensing's韌帶)連結腸脾彎曲至橫膈，為左膈下腔隙與左結腸旁溝界標兼脾臟下極支撐;腹膜韌帶/繫膜/網膜既為疾病邊界亦為擴散通道;骨盆腔隙經左右結腸旁溝直接向上延伸，與左右腸繫膜下腔隙非直接延伸關係。
 [^2]: 官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.（題目所引）——肝胃韌帶內含coronary vein(左胃靜脈)與左胃動脈；肝十二指腸韌帶內含portal triad(proper hepatic artery、portal vein、common bile duct)，gastroduodenal artery不在此韌帶內。
 
 ## 題目
