@@ -4,32 +4,49 @@ name: Seronegative Spondyloarthropathies
 subspecialty: [MSK]
 aliases:
   - seronegative spondyloarthropathy
+  - axial spondyloarthritis
   - ankylosing spondylitis syndesmophytes
   - psoriatic arthritis
   - Reiter syndrome
+  - bamboo spine
   - 血清陰性脊椎關節病變
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # seronegative-spondyloarthropathy
 
-**血清陰性脊椎關節病變家族共同特徵是HLA-B27相關與薦髂關節(SI joint)侵犯常見——這是此家族疾病的核心共同點，並非罕見；不同亞型的syndesmophyte型態是鑑別要點：僵直性脊椎炎為邊緣性、對稱性，乾癬性關節炎與萊特氏症候群則為非邊緣性、不對稱性。**
+**血清陰性脊椎關節病變（現稱 axial spondyloarthritis）＝類風濕因子陰性之發炎性關節炎＋附著點病變（enthesopathy），侵犯脊椎與薦髂關節；共同特徵是 HLA-B27 相關與「薦髂關節（SIJ）常受侵犯」（絕非罕見）。** 判讀分水嶺：**syndesmophyte 型態＋SIJ 對稱性分型——僵直性脊椎炎（AS）＝薄、邊緣性、對稱性（bamboo spine），乾癬性/反應性關節炎＝粗、非邊緣性、不對稱性；SIJ 若完全正常則「無法」下血清陰性脊椎關節病變之影像診斷。**
 
 ## Summary
-- **HLA-B27關聯**：血清陰性脊椎關節病變家族**皆與HLA-B27組織相容性抗原相關**。[^1]
-- **僵直性脊椎炎(ankylosing spondylitis)**：典型呈**邊緣性(marginal)、對稱性(symmetric)syndesmophytes**。[^1]
-- **乾癬性關節炎與萊特氏症候群(psoriatic arthritis and Reiter syndrome)**：典型呈**非邊緣性(nonmarginal)、不對稱性(asymmetric)syndesmophytes**。[^1]
-- **薦髂關節侵犯**：**薦髂關節(SI joint)侵犯在此疾病家族中常見**，並非罕見——這是血清陰性脊椎關節病變的共同特徵之一。[^1]
+- **家族與 HLA-B27**：含 **AS、反應性（reactive，舊稱 Reiter）、乾癬性、發炎性腸病相關（enteropathic）、未分化（uSpA）**；皆 RF(-)，**強烈與 HLA-B27 相關（AS 95%、Reiter 80%、乾癬性 50% 陽性）**；正常人口 6–8% 帶 HLA-B27，其中僅 1–2% 發病。[^1]
+- **syndesmophyte 型態（核心鑑別）**：AS 典型呈**薄、邊緣性（marginal）、對稱性**（多節形成 bamboo spine）；**乾癬性與反應性關節炎呈粗、非邊緣性（nonmarginal）、不對稱性**（起自椎體中段，故非邊緣）。[^1]
+- **薦髂關節侵犯常見（考點）**：**SIJ 是最先、最常受侵犯處**——「SIJ 侵犯不常見」為錯誤；SIJ 對稱 vs 不對稱可再分型。[^1]
+
+## 放射科醫師影像判讀重點
+- **SIJ 影像**：**侵蝕先見於關節下 1/3、髂側先受累**，最早徵象為**軟骨下骨板界線模糊**，侵蝕呈小而多之「鋸齒牛排刀（serrated steak knife）」樣、進展為關節間隙變寬、**融合為晚期現象**；**PA/Ferguson view 優於 AP**。[^1]
+- **SIJ 對稱性分型**：**雙側對稱＝AS 與發炎性腸病關節炎**；**雙側不對稱＝反應性與乾癬性關節炎**；**單側→想感染性 sacroiliitis**。[^1]
+- **syndesmophyte vs osteophyte**：syndesmophyte **起自椎體中段、垂直細長**（osteophyte 起自終板、水平）；椎體角侵蝕→**squaring→shiny corner sign（Romanus lesion）**；粗大椎旁韌帶骨化更常見於乾癬性/反應性。[^1]
+- **MR/CT 角色**：**MR 為早期 sacroiliitis 診斷首選**（角落/SIJ 骨髓水腫、STIR/T2 高訊號、active 期強化、Andersson lesion）；**CT 對早期 SIJ 侵蝕與骨折最敏感**（含 costotransverse/costovertebral 關節）。[^1]
+- **骨折高風險**：多節僵直（bamboo spine）者輕微外傷即可致**貫穿 syndesmophyte/椎體之不穩定三柱骨折**，好發**頸胸/胸腰交界**，因骨質疏鬆與變形而難判讀——高度警覺。[^1]
+- **DDx**：**DISH**（流動狀椎旁骨化但**SIJ 正常**）、retinoid therapy（同 DISH、SIJ 正常）、RA（少侵 SIJ、主要頸椎、不強直）、感染性 sacroiliitis（單側）。[^1]
+
+## 臨床重點（5 句）
+1. **薦髂關節炎為最初表現**，臨床以**晨間最重之下背痛**、疲勞、低度發燒起病；好發早至中成年、**男多於女**、盛行率約 0.1–1%。[^1]
+2. **周邊關節分布有別**：AS/反應性偏好下肢（髖、膝、足底腱膜），**乾癬性偏好手部**；反應性關節炎常隨性病或痢疾感染後發生。[^1]
+3. **關節外表現**：所有型皆可有**葡萄膜炎/虹膜炎/結膜炎**；AS 另有 IBD、主動脈炎、**上肺葉纖維化**；反應性有尿道炎/龜頭炎/足跟痛。[^1]
+4. **僵直脊椎骨折是急重症**——常因輕傷、不穩定、老年病人高併發率，可續發不穩定/假關節（Andersson lesion）甚至神經損害。[^1]
+5. 治療以 **TNF-α 抑制劑（起效快、有效）** 與 NSAIDs 為主；多數病程輕微且局限於 SIJ，部分數年內進展為廣泛脊椎強直。[^1]
 
 > [!note] 考點：關於血清陰性脊椎關節病變何者錯誤？
-> **薦髂關節侵犯不常見（D）**為錯誤——實際上薦髂關節侵犯在此疾病家族中**常見**。皆與HLA-B27相關、僵直性脊椎炎邊緣性對稱性syndesmophytes、乾癬性關節炎與萊特氏症候群非邊緣性不對稱性syndesmophytes，皆為正確敘述。[^1]
+> **薦髂關節侵犯不常見（D）為錯誤**——SIJ 是**最先、最常**受侵犯處。皆與 HLA-B27 相關、AS 呈邊緣性對稱性 syndesmophytes、乾癬性與反應性關節炎呈非邊緣性不對稱性 syndesmophytes，皆為正確敘述。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Fundamentals of Skeletal Radiology, 2020, 5th ed., Chapter 6, 119-150（題目所引）——血清陰性脊椎關節病變皆與HLA-B27相關；僵直性脊椎炎邊緣性對稱性syndesmophytes；乾癬性關節炎與萊特氏症候群非邊緣性不對稱性syndesmophytes；薦髂關節侵犯常見。
+[^1]: **Tier 1** Ross JS. *Spondyloarthropathy*（Spine, Arthritides, Dx）. STATdx，last updated 2025-02-12. Elsevier（實際查證 accessed 2026-07-03，22 references）：RF(-) 發炎性關節炎＋附著點病變侵犯脊椎與 SIJ；HLA-B27（AS 95%/Reiter 80%/乾癬 50%）；SIJ 先受累（下 1/3、髂側先、界線模糊→鋸齒侵蝕→融合晚期）、對稱＝AS/IBD、不對稱＝反應性/乾癬、單側＝感染；syndesmophyte 起椎體中段（別於 osteophyte）、AS 薄邊緣對稱 bamboo spine、乾癬/反應性粗非邊緣不對稱；Romanus/shiny corner；MR 早期 sacroiliitis 首選、CT 侵蝕與骨折敏感；僵直脊椎不穩三柱骨折於頸胸/胸腰交界；DDx DISH/retinoid（SIJ 正常）、RA、感染；周邊 AS/反應性下肢、乾癬手；關節外葡萄膜炎/AS 上肺纖維化；TNF-α 抑制劑有效。
+[^2]: 官方 2020 詳解（題目所引）；原引 *Fundamentals of Skeletal Radiology* 2020, 5th ed., Ch 6, 119-150——家族皆 HLA-B27 相關、AS 邊緣性對稱 syndesmophytes、乾癬性/Reiter 非邊緣性不對稱、SIJ 侵犯常見，已由 [^1] STATdx 一手來源查核並補強分型、影像判讀與臨床。
 
 ## 題目
 > [!question]- About "seronegative spondyloarthropathies", which one is wrong? (2020-291)
-> **Involvement of the SI joints is not common（D）**為錯誤——實際上薦髂關節侵犯在此疾病家族中常見。皆與HLA-B27相關、僵直性脊椎炎邊緣性對稱性syndesmophytes、乾癬性關節炎與萊特氏症候群非邊緣性不對稱性syndesmophytes，皆正確。[^1]
+> **Involvement of the SI joints is not common（D）為錯誤**——SIJ 侵犯在此家族中常見（且為最先表現）。皆與 HLA-B27 相關、AS 邊緣性對稱性 syndesmophytes、乾癬性與反應性關節炎非邊緣性不對稱性 syndesmophytes，皆正確。[^1][^2]
 
 ## 考題
 ```dataview
