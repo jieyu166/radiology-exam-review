@@ -15,16 +15,31 @@ dateRev: 2026-06-19
 **鬱血性肝病變是右心回流受阻導致對比劑自右房「早期逆流」入擴張 IVC 與肝靜脈——說「延遲強化」即錯。** 記憶鉤：心臟打不出去→血液逆堵回肝→CT 上對比劑也跟著逆流（early reflux），肝實質呈 nutmeg 樣不均勻。判讀分水嶺一：**IVC/肝靜脈擴張 + early retrograde reflux（非 delayed）**；判讀分水嶺二：**US 見 to-and-fro 血流、DDx Budd-Chiari**。
 
 ## Summary
-- **定義**：右心回流受損(右心衰/限制/縮窄性心包炎)→ 肝實質血液鬱滯、中央肝靜脈擴張、肝腫大。[^1]
-- **超音波**：擴張肝靜脈/IVC、**to-and-fro 血流**、肝動脈 RI 上升。[^1]
-- **CT**：**對比自右房 early retrograde reflux 進入擴張 IVC 與肝靜脈**;不均勻 mottled/reticulated mosaic（似 nutmeg liver）。**故「delayed enhancement of IVC/肝靜脈」不真——應為『早期逆流』**。[^1]
-- **DDx**：Budd-Chiari、肝硬化伴鬱血。[^1]
+- **定義**：**肝靜脈引流受損致肝實質血液鬱滯**（右心衰/縮窄性心包炎/三尖瓣不全/右心衰）；為心臟病之肝表現。[^1][^2]
+- **超音波（STATdx）**：擴張肝靜脈（**正常 5-6 mm、鬱血 8-13 mm**）/IVC、肝腫大 ± 腹水；**失去正常三相波形、頻譜可呈 M 形、to-and-fro 血流、門脈搏動性增加**；三尖瓣逆流時 systolic:diastolic <0.6（正常 >4.0）。[^2]
+- **CT（STATdx）**：**對比自右房 early retrograde reflux 進入擴張 IVC 與肝靜脈**；不均勻 mottled/reticulated mosaic（**nutmeg liver**，門脈期最明顯、周邊 patchy 延遲強化）；**periportal low attenuation（血管周淋巴水腫）、IVC 周低密度**、肝腫大/腹水。[^1][^2]
+- **DDx（STATdx）**：**Budd-Chiari（IVC/HV 狹窄、collateral）、肝硬化（HV 正常口徑/流型、caudate 肥大）、急性病毒性肝炎（HV/門脈正常）**。[^2]
+
+## 放射科醫師影像判讀重點
+- **判讀陷阱（考點核心）**：**IVC/肝靜脈為『早期逆流強化』（early retrograde reflux from right atrium），非延遲強化**；nutmeg 為較小肝靜脈延遲強化所致。[^1][^2]
+- **US 首選（STATdx）**：**color Doppler US 為最佳工具**（擴張 HV/IVC + to-and-fro + 失三相波），MR 評估心臟病本質、dual-phase CT/MR 評估肝損範圍。[^2]
+- **MR（STATdx）**：T2 periportal 高訊號（水腫）、C+ 同 CT 之 IVC/HV 擴張 + mottled 強化、MRA IVC 前向流緩/無、MR elastography 評纖維化、hepatobiliary 期低強化疤。[^2]
+- **慢性/心因性肝硬化（STATdx）**：**Fontan 術後慢性鬱血者可生 FNH-like 再生結節與 HCC**；晚期小肝似他因肝硬化，勿誤為 cryptogenic cirrhosis（可能為縮窄性心包炎）。[^2]
+- **放射科價值**：**放射科可能是最先辨識肝病之心臟源者**（hepatojugular reflux 為理學線索）。[^2]
+
+## 臨床重點（5 句）
+1. **病因（STATdx）**：**鬱血性心衰、縮窄性心包炎、三尖瓣/肺動脈瓣病、心肌病、右心衰（如肺癌阻塞肺動脈）**。[^2]
+2. **病理（STATdx）**：**急性/早期＝centrilobular congestion ± 竇擴張；慢性/晚期＝實質萎縮→centrilobular necrosis→纖維化→硬化（nutmeg liver）**。[^2]
+3. **臨床表現（STATdx）**：**肝腫大且觸痛、RUQ 痛（肝包膜牽張）、hepatojugular reflux 陽性、急性期 pulsatile liver、晚期脾腫大**；肝衰可先於心臟病被診斷。[^2]
+4. **實驗室（STATdx）**：急性 LFT 輕度異常、慢性大幅異常；診斷靠臨床 + 影像。[^2]
+5. **預後/治療（STATdx）**：**急性/早期矯正心臟病後可完全恢復；慢性心因性肝硬化即使矯正心功能亦可能不可逆**。[^2]
 
 > [!note] 考點：關於 congestive liver,何者「不真」?
-> 「**CT 顯示擴張 IVC 與肝靜脈『延遲』強化**」不真——實為**對比自右房『早期逆流(early reflux)』** 入 IVC/肝靜脈。to-and-fro 血流、定義、DDx 皆正確。[^1]
+> 「**CT 顯示擴張 IVC 與肝靜脈『延遲』強化**」不真——實為**對比自右房『早期逆流(early reflux)』** 入 IVC/肝靜脈。to-and-fro 血流、定義、DDx 皆正確。[^1][^2]
 
 ### 參考來源
-[^1]: *Passive hepatic congestion*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「enhancement of dilated IVC and hepatic veins due to **contrast reflux from the right atrium into IVC**」;「to-and-fro motion in hepatic veins and IVC」;mottled reticulated mosaic（似 nutmeg liver）;DDx Budd-Chiari。
+[^1]: *Passive hepatic congestion*. Radiopaedia.org（輔助來源；實際查證 accessed 2026-06-19）：「enhancement of dilated IVC and hepatic veins due to **contrast reflux from the right atrium into IVC**」;「to-and-fro motion in hepatic veins and IVC」;mottled reticulated mosaic（似 nutmeg liver）;DDx Budd-Chiari。
+[^2]: **Tier 1** Zaheer A, Federle MP. *Passive Hepatic Congestion*（Gastrointestinal, Liver, Vascular Disorders, Dx）. STATdx, Elsevier, updated 04/23/25（14 refs；實際查證 accessed 2026-07-04）——**肝靜脈引流受損致肝實質血液鬱滯（心臟病之肝表現）**；**CT（IVC/HV early retrograde reflux 自右房、nutmeg liver 門脈期最明顯周邊 patchy 延遲、periportal low attenuation 血管周淋巴水腫、肝腫大/腹水）；US 首選（HV 正常 5-6mm/鬱血 8-13mm、失三相波形、M 形頻譜、to-and-fro、三尖瓣逆流 S:D<0.6）；MR（T2 periportal 高訊號、MR elastography、MRA IVC 前向流緩）**；**病因（CHF/縮窄性心包炎/三尖瓣病/心肌病/右心衰）；病理（急性 centrilobular congestion→慢性萎縮/壞死/纖維化）；臨床（肝腫大觸痛、hepatojugular reflux、pulsatile liver、可誤 cryptogenic cirrhosis）；Fontan 術後慢性鬱血可生 FNH-like 結節/HCC；預後（急性可恢復、慢性心因性肝硬化不可逆）**；DDx（Budd-Chiari、肝硬化、急性病毒性肝炎）。原「Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 考題
 ```dataview
