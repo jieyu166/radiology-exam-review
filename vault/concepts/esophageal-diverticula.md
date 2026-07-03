@@ -8,33 +8,47 @@ aliases:
   - epiphrenic diverticulum
   - traction diverticulum
   - 食道憩室
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # esophageal-diverticula
 
-**食道/下咽憩室依部位分三層——上段（Zenker最常見、Killian-Jamieson較少見）、中段（traction較pulsion常見）、下段（epiphrenic），Killian-Jamieson diverticulum是四者中相對最少見的類型。**
+**食道/下咽憩室依部位分三層——上段（Zenker 最常見、Killian-Jamieson 相對最少見）、中段（traction）、下段（epiphrenic）。另一個關鍵軸線是「true vs false」：traction 是唯一的 true diverticulum（含全層肌肉），Zenker/KJ/epiphrenic 都是 pulsion／false（僅黏膜+黏膜下、無肌層）。** 判讀分水嶺：**Zenker 與 Killian-Jamieson 都在環咽肌附近但要分清——Zenker＝後方、環咽肌「上方」、經 Killian 三角；KJ＝前外側/左側、環咽肌「下方」、經 Killian-Jamieson space，且體積更小（<1.5 cm）、最少見。**
 
 ## Summary
-- **上食道憩室（upper esophageal diverticula）**：[^1]
-  - **Zenker diverticulum（pulsion diverticula）**：起源於下咽後壁正中，near pharyngoesophageal junction；膨出可能為暫時性。**最常見**之上段憩室。
-  - **Killian-Jamieson diverticulum（pulsion diverticula）**：位於cricopharyngeus肌下方，前外側，多為左側，少數雙側。相較Zenker diverticulum**較少見**。
-- **中段食道憩室（middle esophageal diverticula）**：[^1]
-  - **Traction diverticula**：**true diverticula**，繼發於縱膈疤痕、纖維化、發炎（如結核性淋巴結炎）。
-  - **Pulsion diverticula**：通常為false diverticula，繼發於管腔內壓力異常升高對抗虛弱食道節段；**較traction diverticula少見**。
-- **下食道憩室（lower esophageal diverticula）**：[^1]
-  - **Epiphrenic diverticula**：pulsion diverticula，位於下食道括約肌上方，**多見於右後外側壁**。
-- **臨床表現**：Traction與epiphrenic diverticula多為**largely asymptomatic**；症狀（吸入、逆流、食道腔壓迫）通常於憩室**>5cm**（typically pulsion型）時出現。[^1]
+- **上食道憩室**：[^1][^2]
+  - **Zenker（pulsion/false）**：下咽後壁正中、經環咽肌上方之 **Killian 三角（dehiscence）**黏膜疝出，**上段最常見**。
+  - **Killian-Jamieson（pulsion/false）**：**環咽肌下方、前外側、多左側**（少數雙側），經 **Killian-Jamieson space** 疝出；通常**更小（<1.5 cm）**、**相對最少見**、偶有症狀。
+- **中段食道憩室**：**Traction diverticulum＝唯一 true diverticulum（含食道全層）**，繼發於縱膈疤痕/纖維化/發炎（**結核、組織漿菌病**流行區常見），鋇劑呈**tented/三角形**外突；可侵蝕、穿孔。[^1]
+- **下食道憩室**：**Epiphrenic（pulsion/false）**，位於下食道括約肌上方、多**右後外側**，常合併食道**動力障礙（achalasia、DES）**。[^1]
+- **true vs false（機轉核心）**：**Pulsion＝黏膜+黏膜下、無肌層（false）**（Zenker、KJ、epiphrenic）；**Traction＝全層（true）**。[^1]
+- **臨床**：traction 與 epiphrenic **多無症狀**；症狀（吞嚥困難、逆流、吸入）多見於**大憩室（>5 cm，pulsion 型）**；Zenker 易致**吸入性肺炎/細支氣管炎**（肺內找 centrilobular nodules）。[^1][^2]
+
+## 放射科醫師影像判讀重點
+- **首選檢查**：**吞鋇（pharyngoesophagography/esophagogram）**為診斷與定位主力；CT 見含食物殘渣/氣液平之囊袋。[^1][^2]
+- **鋇劑形態辨型**：**pulsion＝圓形囊袋**（Zenker/KJ/epiphrenic）；**traction＝tented/三角形**外突。[^1]
+- **氣液平定位**：上縱膈氣液平 → Zenker；中食道 → traction。[^1]
+- **Zenker vs KJ 定位表**：Zenker＝**後方、環咽肌上、Killian 三角**；KJ＝**左前外側、環咽肌下、KJ space、較小**。[^1][^2]
+- **併發症搜尋**：Zenker 之吸入性肺炎/細支氣管炎（centrilobular nodules）；traction 之侵蝕/穿孔。[^1]
+- **陷阱**：KJ 位置與側別（左側、環咽肌下）易與 Zenker（後正中、環咽肌上）混淆，內視鏡/治療前定位很重要（KJ 鄰近喉返神經）。[^2]
+
+## 臨床重點（5 句）
+1. **三層定位**：上（Zenker>KJ）、中（traction）、下（epiphrenic），是判讀第一步。[^1]
+2. **KJ 為最少見型**：較 Zenker 罕見且更小（<1.5 cm），左前外側、環咽肌下。[^2]
+3. **traction 唯一 true**：含全層、多繼發於 TB/組織漿菌病之縱膈纖維化。[^1]
+4. **epiphrenic 找動力病**：常伴 achalasia/彌漫性食道痙攣，處理需一併評估動力。[^1]
+5. **症狀與大小相關**：>5 cm 的 pulsion 型才較常出現吞嚥困難/吸入；小者多無症狀。[^1]
 
 > [!note] 考點：食道/下咽憩室中相對最少見之類型/病因?
-> **Killian-Jamieson diverticulum（A）**——相較Zenker diverticulum較少見。上段(Zenker最常見) > 中段(traction較pulsion常見) > 下段(epiphrenic)之分類架構有助定位判讀。[^1]
+> **Killian-Jamieson diverticulum（A）**——較 Zenker 罕見（且更小 <1.5 cm、位環咽肌下前外側/左側）。分類架構：上段（Zenker 最常見）> 中段（traction，唯一 true）> 下段（epiphrenic）有助定位判讀。[^1][^2]
 
 ### 參考來源
-[^1]: 官方2020詳解；Ref: Radprimer.
+[^1]: Alegría J. *Esophageal Diverticula* (Dx). STATdx, updated 10/18/21. Elsevier——pulsion（黏膜+黏膜下、無肌層＝false：Zenker/epiphrenic）vs traction（全層＝true）；Zenker 經環咽肌 Killian 三角黏膜疝出；traction 好發 TB/組織漿菌病流行區、鋇劑 tented/三角、可侵蝕穿孔；定位（PE junction=Zenker、mid=traction、distal=epiphrenic）；鋇劑 pulsion 圓形/traction 三角；氣液平上縱膈(Zenker)/中食道(traction)；Zenker 併吸入性肺炎/細支氣管炎（centrilobular nodules）。
+[^2]: Gaillard F, et al. *Killian-Jamieson diverticulum*. Radiopaedia, rID-19899, DOI 10.53347/rID-19899——KJ 為 false diverticulum，經 Killian-Jamieson space、**環咽肌下方、前外側、左側**（少雙側）；**較 Zenker 罕見、通常 <1.5 cm、偶有症狀**；吞鋇呈左側近端頸段食道外突。原「官方 2020 詳解／Radprimer」弱來源已由上述一手來源查核取代。
 
 ## 題目
 > [!question]- The least common etiology or type of diverticulum in the esophagus/hypopharynx is which of the following? (2020-242)
-> **Killian-Jamieson diverticulum（A）**——相較Zenker diverticulum較少見。[^1]
+> **Killian-Jamieson diverticulum（A）**——較 Zenker diverticulum 罕見（更小、環咽肌下前外側/左側）。[^1][^2]
 
 ## 考題
 ```dataview
