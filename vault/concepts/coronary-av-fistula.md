@@ -24,7 +24,11 @@ dateRev: 2026-07-03
 - **CTA/血管攝影**：見擴張迂曲之供血冠狀動脈連至右側腔室；定位起源（RCA/LAD）與引流口（RV/RA/PA）與分流大小。[^2]
 - **竊血徵象**：瘻管遠端心肌灌流缺損（負荷影像/MPI）反映 steal。[^2]
 - **併發搜尋**：供血冠狀動脈瘤樣擴張/血栓、心衰、心內膜炎、罕見破裂。[^2]
-- **處置指標**：有症狀/顯著分流/併發 → 經導管封堵（coil/device）或手術結紮。[^2]
+- **CAF vs CAVF（STATdx）**：**coronary cameral fistula（CAF）＝直接與心腔相通；coronary arteriovenous fistula（CAVF）＝與肺/體循環相通、無中介微血管網**；佔先天性心臟病 0.3%、**90% 先天（persistent embryonic sinusoids）**。[^3]
+- **CTA 判讀（首選）**：**心電門控 CTA 最佳、須自主動脈弓頂掃起（否則肺動脈瘻管顯示不全）**；徵象＝擴張迂曲心外膜血管＋**contrast shunt sign（對比劑噴入受血腔）**＋**引流口近端 aneurysmal dilatation（遠端冠脈正常）**；feeders 起源 **RCA 系統 55%、左冠 35%、兩者/其他 10%**（與官方 RCA 50%/LAD 42% 略異）。[^3]
+- **DDx（STATdx）**：**Bland-White-Garland/ALCAPA/ARCAPA（冠脈起自肺動脈、無主動脈 ostium、嬰兒期 MI/餵食呼吸困難）**、冠脈瘤（無異常引流/feeders）、anomalous coronary origin、Kawasaki/Takayasu（多冠脈瘤、正常起源引流）。[^3]
+- **分類**：**Sakakibara（Type A 近端瘻遠端正常、Type B 端動脈瘻整條擴張）**；cameral（arteriosinusoidal/arterioluminal）vs CAVF；**引流部位比起源更具臨床意義**。[^3]
+- **處置指標**：**僅較大/有症狀者需治療**（心律不整/呼吸困難/CHF/心絞痛/MI/endocarditis 3-12%）；**手術結紮 vs 導管栓塞（殘漏/再通 10%）**；**牙科/GI/GU 術前抗生素預防心內膜炎**；自發性血栓閉合 1-2%。[^3]
 - **陷阱**：勿把「分流與症狀無關」當正確——竊血機轉使兩者相關。[^1][^2]
 
 ## 臨床重點（5 句）
@@ -39,7 +43,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解（冠狀動脈瘻管標準教材）——引流最常右心室；多半單一交通；成人多無症狀（兒童相對較低）；左向右分流經冠狀動脈竊血致心肌缺血症狀（心絞痛/呼吸困難/連續性雜音吸氣減弱），分流比例與症狀有關。
-[^2]: *Coronary arteriovenous fistula*. Radiopaedia, rID-55515, DOI 10.53347/rID-55515——罕見冠狀動脈異常、與心臟右側循環相通；**起源 RCA 50%、LAD 42%**；**引流 RV 41%（最常）、RA 26%、PA 17%**；**左向右分流 → coronary artery steal 現象**（致缺血）；可無症狀或有症狀。
+[^2]: *Coronary arteriovenous fistula*. Radiopaedia.org, rID-55515, DOI 10.53347/rID-55515（輔助來源）——罕見冠狀動脈異常、與心臟右側循環相通；起源 RCA 50%、LAD 42%；引流 RV 41%（最常）、RA 26%、PA 17%；左向右分流 → coronary artery steal 現象（致缺血）；可無症狀或有症狀。
+[^3]: **Tier 1** Al-Kinani M, Abbara S, Walker CM. *Coronary Fistula*（Cardiac, Dx）. STATdx, Elsevier, updated 12/19/24（17 refs；實際查證 accessed 2026-07-03）——冠脈與心腔/血管異常相通、無中介微血管；**CAF（cameral，直接通心腔）vs CAVF（通肺/體循環）**；佔先天心臟病 0.3%、**90% 先天**；**引流 RV 41%/RA 26%/PA 17%/coronary sinus 7%**、feeders RCA 系統 55%/左 35%/兩者 10%；**心電門控 CTA 最佳、須自主動脈弓頂掃**；contrast shunt sign、引流口近端 aneurysm；DDx（Bland-White-Garland/ALCAPA/ARCAPA 無主動脈 ostium、冠脈瘤、Kawasaki/Takayasu）；**Sakakibara 分類（Type A 近端/Type B 端動脈）**、引流部位比起源重要；臨床無症狀或 arrhythmia/dyspnea/CHF/角/MI/endocarditis 3-12%、兒童連續性雜音；治療僅大/有症狀者（手術結紮 vs 導管栓塞、殘漏 10%、抗生素預防）、自發閉合 1-2%。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 coronary arteriovenous fistula (AVF)，下列何者有誤? (2017-280)
