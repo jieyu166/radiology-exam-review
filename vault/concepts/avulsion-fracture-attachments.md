@@ -20,12 +20,28 @@ dateRev: 2026-07-03
 - **Anteroinferior iliac spine (AIIS) fracture**：**rectus femoris**起端之撕脫骨折，好發青少年運動員。[^1]
 - **Ischial tuberosity fracture**：**hamstring muscle群**起端之撕脫骨折。[^1]
 
+## 放射科醫師影像判讀重點
+- **Segond＝ALL 撕脫（實證，Claes 2014）**：**屍體 + 影像研究證實 anterolateral ligament（ALL）於近端脛骨之附著點與 Segond 骨折床一致（距 Gerdy 結節中心 ~22 mm，差異僅 0.4 mm 無統計/臨床意義）**——故 Segond 應視為 ALL 之骨性撕脫，而非 ACL 附著。[^3]
+- **lateral capsular sign**：正面膝 X 光見脛骨外側平台邊緣**小片縱向撕脫骨片**；為 ACL 損傷之間接影像線索（~75% 伴 ACL 斷裂）、應進一步 MRI。[^2]
+- **機轉**：**internal rotation + varus stress**；見 Segond 須主動搜尋 ACL、外側半月板、後外側角損傷。[^2]
+- **reverse Segond**：脛骨**內側**平台撕脫（deep MCL/後斜韌帶），伴 PCL + 內側半月板損傷——與 Segond 對稱概念勿混。[^2]
+- **附著點記憶（配對）**：**Gerdy 結節＝腸脛束（ITB）、AIIS＝rectus femoris、坐骨結節＝hamstring、ASIS＝sartorius/TFL、lesser trochanter＝iliopsoas、tibial tubercle＝patellar tendon**；青少年運動員好發 apophyseal 撕脫。[^1]
+- **陷阱**：勿把「伴隨損傷（ACL）」誤當「附著結構」；Segond 附著為 ALL/外側關節囊韌帶。[^1][^3]
+
+## 臨床重點（5 句）
+1. **Segond 意義（Claes 2014）**：**Segond 骨折仍為 ACL 損傷之有用影像線索，但其本身即 ALL 之骨性撕脫**——重新定義了此經典徵象。[^3]
+2. **伴隨損傷**：**~75-100% 伴 ACL 斷裂**，常併外側半月板、後外側角損傷；見 Segond 應轉 MRI 全面評估。[^2]
+3. **好發族群**：膝 Segond 多見於運動扭傷（內轉+內翻）；骨盆/髖 apophyseal 撕脫好發**青少年運動員**（骨骺未閉、肌腱較骨強）。[^1]
+4. **臨床處置**：多數撕脫小片保守（休息/漸進復健）；大移位或功能受限之 apophyseal 撕脫（尤坐骨結節）可需手術固定。[^1]
+5. **配對考點**：ITB-Gerdy、rectus femoris-AIIS、hamstring-坐骨結節皆正確；ACL-Segond 為錯（應為 ALL/外側關節囊韌帶-Segond）。[^1][^3]
+
 > [!note] 考點：tendon/ligament attach site avulsion fracture配對何者為錯?
 > 「Anterior cruciate ligament – Segond fracture」為錯——**Segond fracture附著結構為lateral capsular ligaments（外側關節囊韌帶），非ACL**（ACL斷裂為常見伴隨損傷，非附著結構本身）。Iliotibial band-Gerdy's tubercle、rectus femoris-AIIS、hamstring-ischial tuberosity皆正確配對。[^1]
 
 ### 參考來源
 [^1]: 官方2016詳解；Internal Derangements of Joints, 2nd ed., p.616, 1787, 1792（題目所引）——Segond fracture為lateral capsular ligaments撕脫（非ACL本身，惟高度伴隨ACL斷裂）；Gerdy's tubercle fracture為iliotibial band撕脫；anteroinferior iliac spine fracture為rectus femoris撕脫；ischial tuberosity fracture為hamstring muscle撕脫。
-[^2]: Gaillard F, et al. *Segond fracture*. Radiopaedia, rID-8874, DOI 10.53347/rID-8874——**膝關節撕脫骨折、侵犯脛骨外側平台、~75% 伴隨 ACL 斷裂**（正面 X 光為 lateral capsular sign）；機轉為 internal rotation + varus stress；傳統教學為 middle third of lateral capsular ligaments 撕脫，候選結構亦含 iliotibial band 與 ALL——佐證附著結構為關節囊韌帶而非 ACL 本身。
+[^2]: Gaillard F, et al. *Segond fracture*. Radiopaedia, rID-8874, DOI 10.53347/rID-8874（輔助來源）——**膝關節撕脫骨折、侵犯脛骨外側平台、~75% 伴隨 ACL 斷裂**（正面 X 光為 lateral capsular sign）；機轉為 internal rotation + varus stress；傳統教學為 middle third of lateral capsular ligaments 撕脫，候選結構亦含 iliotibial band 與 ALL；reverse Segond＝脛骨內側平台撕脫伴 PCL/內側半月板損傷——佐證附著結構為關節囊韌帶而非 ACL 本身。
+[^3]: **Tier 1** Claes S, Luyckx T, Vereecke E, Bellemans J. *The Segond fracture: a bony injury of the anterolateral ligament of the knee*. Arthroscopy 2014;30(11):1475-82（據 PubMed，DOI [10.1016/j.arthro.2014.05.039](https://doi.org/10.1016/j.arthro.2014.05.039)；實際查證 accessed 2026-07-04）——屍體膝(n=30)+影像(n=26)研究：**ALL 為連接外側股骨上髁與前外側近端脛骨之明確韌帶；其脛骨附著中心距 Gerdy 結節 ~22.0 mm，與 Segond 骨折床距 Gerdy 之 ~22.4 mm 幾乎一致（差 0.4 mm，無統計/臨床意義）**；結論：**Segond 骨折為 ALL 之骨性撕脫，雖仍為 ACL 損傷之有用間接線索，應視為真正的韌帶撕脫本身**——直接佐證「Segond 附著結構為 ALL/外側關節囊韌帶而非 ACL」。原「官方/Radiopaedia」弱來源已由本次 PubMed DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 下列tendon or ligament attach site avulsion fracture的配對,何者為錯？ (2016-279)
