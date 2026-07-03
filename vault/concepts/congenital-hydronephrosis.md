@@ -21,13 +21,28 @@ dateRev: 2026-07-03
 - **UTI後VUR影像評估指徵**：兒童UTI後，**多數情況下泌尿道之影像學檢查（無論有無使用抗生素預防）不能無限期延後於一段觀察期之後**——即並非所有UTI個案都要延後或省略影像評估;常規篩檢VUR並**非**建議用於所有UTI嬰幼兒，僅限特定情境：①**未滿6個月且有不典型或反覆感染**；②6個月至3歲間，且合併輸尿管擴張/腎水腫（US異常）、尿流減少、非大腸桿菌感染、或VUR家族史。[^2]
 - **VCUG非首選常規工具**：Voiding cystourethrography（VCUG）並非用於評估所有UTI病人之首選影像工具，僅於符合上述特定指徵者才安排。[^2]
 
+## 放射科醫師影像判讀重點
+- **UTD 分類系統（Nguyen 2014 多科共識，關鍵）**：**以 6 項 US 參數分級——① anterior-posterior renal pelvic diameter (APRPD)、② 腎盞擴張、③ 腎實質厚度、④ 腎實質外觀、⑤ 膀胱異常、⑥ 輸尿管異常**；依妊娠週數與產前/產後分層。[^4]
+- **UTD 分級（Nguyen）**：**產前 UTD A1（低風險）/ A2-3（增風險）；產後 UTD P1/P2/P3**（隨級別上升，postnatal uropathy 風險增）；取代舊 SFU 分級與單純 APRPD 門檻之不一致。[^4]
+- **APRPD 門檻（Nguyen）**：**產前 16-27 週 APRPD ≥4mm、≥28 週 ≥7mm 為異常起點**；產後另有門檻與追蹤方案。[^4]
+- **病因分層**：**PUJ obstruction 最常見**；重度（尤第三孕期）找 posterior urethral valves（男嬰、膀胱壁厚/keyhole）、VUR、megaureter、MCDK、duplex/ureterocele。[^3]
+- **UTI 後影像（考點）**：**VUR 常規篩檢僅限特定指徵（<6 月不典型/反覆、或 6 月-3 歲合併 US 異常/尿流減少/非 E. coli/VUR 家族史）**；VCUG 非所有 UTI 之首選常規工具。[^2]
+
+## 臨床重點（5 句）
+1. **流行病學（Nguyen）**：**UT dilation 見於 1-2% 胎兒**，反映一系列可能 uropathy；產前嚴重度與產後泌尿病理相關性有限，故需統一分類。[^4]
+2. **自然史**：**多數產前腎水腫為非阻塞性、會自行緩解或穩定** → 保守追蹤 + 抗生素預防；輕度多為生理性 pyelectasis。[^1][^3]
+3. **共識目的（Nguyen）**：**8 大學會（ACR/AIUM/ASPN/SFU/SMFM/SPU/SPR/SRU）共識，提出產前產後可通用之 UTD 描述與依 US 之標準化評估/追蹤方案**。[^4]
+4. **手術指徵**：**保存腎功能為目標**；依阻塞程度、**腎功能進行性下降、反覆感染**才介入，不需急著手術。[^1]
+5. **追蹤**：依 UTD 級別安排產後 US 時機與是否 VCUG/核醫；級別越高越需積極評估。[^4]
+
 > [!note] 考點：關於先天性腎水腫,何者「最不恰當/錯誤」?
 > 「**多數情況手術重建不可延後**」最不恰當——**多數為非阻塞性、可觀察**,手術保留給腎功能下降/反覆感染。保存腎功能為目標、多數會緩解/穩定皆正確。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Pediatric Nephrology 2013;28(9):1757-1761；Am J Dis Child 1992;146:1181-1184：多數產前腎水腫非阻塞性、會緩解/穩定;保守追蹤＋抗生素預防;手術保留給腎功能下降/反覆感染。
 [^2]: 官方2020詳解；Ref: Pediatric Nephrology 2013;28(9):1757-1761；Am J Dis Child 1992;146:1181-1184——UTI後泌尿道影像檢查於多數情況不能無限期延後於觀察期後；VUR常規篩檢僅限<6個月不典型/反覆感染者，或6個月-3歲間合併US異常/尿流減少/非大腸桿菌感染/VUR家族史者；VCUG非所有UTI病人之首選常規工具。
-[^3]: Ferreira A, et al. *Fetal hydronephrosis*. Radiopaedia, rID-13786, DOI 10.53347/rID-13786——**胎兒腎集尿系統異常擴張、PUJ obstruction 最常見原因**；輕度多以 pyelectasis 稱之，**絕大多屬生理性偶見、可自行緩解**，hydronephrosis 一詞多保留給疑似病理性阻塞；盛行率 ~1–3% 孕婦；重度另含 posterior urethral valves/VUR/megaureter/MCDK——佐證多數非阻塞、可觀察。
+[^3]: Ferreira A, et al. *Fetal hydronephrosis*. Radiopaedia, rID-13786, DOI 10.53347/rID-13786（輔助來源）——**胎兒腎集尿系統異常擴張、PUJ obstruction 最常見原因**；輕度多以 pyelectasis 稱之，**絕大多屬生理性偶見、可自行緩解**，hydronephrosis 一詞多保留給疑似病理性阻塞；盛行率 ~1–3% 孕婦；重度另含 posterior urethral valves/VUR/megaureter/MCDK——佐證多數非阻塞、可觀察。
+[^4]: **Tier 1** Nguyen HT, Benson CB, Bromley B, et al. *Multidisciplinary consensus on the classification of prenatal and postnatal urinary tract dilation (UTD classification system)*. J Pediatr Urol 2014;10(6):982-98（據 PubMed，DOI [10.1016/j.jpurol.2014.10.002](https://doi.org/10.1016/j.jpurol.2014.10.002)；Consensus Statement；實際查證 accessed 2026-07-04）——**UT dilation 見於 1-2% 胎兒**；**8 大學會（ACR/AIUM/ASPN/SFU/SMFM/SPU/SPR/SRU）共識之 UTD 分類系統**——以 6 項 US 參數（**APRPD、腎盞擴張、腎實質厚度、腎實質外觀、膀胱異常、輸尿管異常**）分級，依妊娠週數與產前（UTD A1/A2-3）/產後（UTD P1/P2/P3）分層並附追蹤方案；**APRPD 門檻（產前 16-27 週 ≥4mm、≥28 週 ≥7mm）**；級別與產後 uropathy 風險相關——佐證產前腎水腫之標準化分級與多數非阻塞可觀察之管理。原「官方/Radiopaedia」弱來源已由本次多科共識 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於先天性腎水腫(congenital hydronephrosis),何者敘述「最不恰當」? (2017-167)
