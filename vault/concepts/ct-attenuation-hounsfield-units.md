@@ -29,7 +29,7 @@ dateRev: 2026-07-03
 - **量測概念**：HU 是相對水/空氣的標準化值，同一組織在不同 kVp 可略有差異（雙能量 CT 利用此特性）。[^2]
 - **顯示 ≠ 數值**：影像明暗由 window/level 決定，與底層 HU 分開；量測要用 ROI 讀實際 HU。[^2]
 - **常用閾值**：脂肪負 HU（−100~−50）、單純液體 ~0、急性血 +50~+70、鈣化/骨/對比劑數百以上——用於病灶定性。[^2]
-- **冠狀 CTA**：目標管腔強化 250-300 HU 兼顧斑塊對比；過高（>500）會遮蔽鈣化評估。[^1]
+- **冠狀 CTA**：目標管腔強化 250-300 HU 兼顧斑塊對比；**過高之 over-opacification（>500 HU）會遮蔽鈣化/斑塊評估**，故對比劑劑量宜依體重/BMI/心率個別化以降低過度強化。[^1][^3]
 - **陷阱**：把 HU 直接當密度、或忽略 kVp/能量對 HU 的影響，是常見物理誤區。[^1][^2]
 
 ## 臨床重點（5 句）
@@ -44,7 +44,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2020 詳解；Ref: Weissleder R, et al. Primer of Diagnostic Radiology, 5th ed., p.4（題目所引）——HU 以 Hounsfield 命名（Cormack 共獲諾貝爾但 CT 值未冠其名）；HU 為衰減係數經線性轉換、非直接等同密度；冠狀 CTA 最佳血管內強化 250-300 HU；正常肺 −700~−950 HU；Agatston 分級（0/1-10/11-100/101-400/>400）、>160 分 MACE 風險增加。
-[^2]: Gaillard F, et al. *Hounsfield unit*. Radiopaedia, rID-38181, DOI 10.53347/rID-38181——HU 為無因次量、**衰減係數之線性轉換**；**水 = 0、空氣 = −1000 HU**（任意指定）；刻度 −1000（空氣）、−100~+100（多數組織）、~2000（緻密骨）、>3000（金屬）；顯示由 window/level 決定。
+[^2]: *Hounsfield unit*. Radiopaedia.org, rID-38181, DOI 10.53347/rID-38181（輔助來源）——HU 為無因次量、**衰減係數之線性轉換**；**水 = 0、空氣 = −1000 HU**（任意指定）；刻度 −1000（空氣）、−100~+100（多數組織）、~2000（緻密骨）、>3000（金屬）；顯示由 window/level 決定。
+[^3]: **Tier 1** Zhu X, Zhu Y, Xu H, et al. *An individualized contrast material injection protocol with respect to patient-related factors for dual-source CT coronary angiography*. Clin Radiol 2013;69(2):e86-92（據 PubMed，DOI [10.1016/j.crad.2013.09.018](https://doi.org/10.1016/j.crad.2013.09.018)，實際查證 accessed 2026-07-03）——冠狀動脈 CTA 之對比劑注射協定依 **體重/BMI/心率個別化**可降低個體差異與**動脈過度強化（over-opacification，定義為衰減 >500 HU）之發生率**；佐證本檔「冠狀 CTA 目標強化 250-300 HU、過高遮蔽鈣化」之臨床要點。原「官方詳解／Radiopaedia only」弱來源已由本次期刊查核升級。
 
 ## 題目
 > [!question]- About CT attenuation, which one is CORRECT (2020-307)
