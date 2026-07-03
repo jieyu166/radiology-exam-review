@@ -27,6 +27,7 @@ nonImagingReason: "超音波顯示模式基本原理定義題，無特定病例�
 - **三模式的軸向對照（易混淆重點）**：A-mode＝振幅(y)／深度(x)；M-mode＝深度(y)／**時間(x)**；B-mode＝以亮度編碼回音強度成點，多點成線、多線成 2D 影像。**A-mode 與 M-mode 縱軸皆為深度**，差別在橫軸（A-mode 為單次深度掃描、M-mode 為時間展開）。[^1][^2]
 - **回音亮度的意義**：B/M-mode 之亮點**亮度正比於反射波振幅**（反映介面聲阻抗差異），這是灰階影像的物理根基。[^2]
 - **M-mode 的解析度優勢**：以**單線高幀率**取得，故**時間解析度極高**，最能刻畫高速運動結構之路徑與時序（相對於幀率受限的 2D real-time）。[^2]
+- **B-mode 成像流程（Hangiandreou）**：現代掃描儀採 **pulse-echo + brightness-mode 顯示**；基本要素＝超音波物理、超音波與組織交互作用、脈衝形成、掃描波束、回音偵測與訊號處理；新技術含 **tissue harmonic imaging、spatial compound imaging、extended FOV、coded pulse excitation、電子聚焦、3D/4D、設備微型化**——US 廉價、可攜、安全、即時。[^3]
 
 ## 臨床應用重點（5 句）
 1. **B-mode／real-time** 是今日臨床絕大多數超音波檢查的預設模式（腹部、婦產、血管、肌骨等灰階即時掃描）。[^1]
@@ -40,7 +41,8 @@ nonImagingReason: "超音波顯示模式基本原理定義題，無特定病例�
 
 ### 參考來源
 [^1]: 官方 2020 詳解（題目所引）；原引 Hagen-Ansert SL. *Textbook of Diagnostic Sonography*. I-1-14——A-mode 一維、振幅沿縱軸/時間沿橫軸；B-mode 以亮度對應回音強度；M-mode 橫軸時間縱軸深度呈現運動（尤心臟）；real-time 每秒多幀動態——顯示模式定義，已由 [^2] Radiopaedia 一手物理條目查核並補強應用。
-[^2]: **Tier 1/2** *M-mode (ultrasound)*. Radiopaedia.org（實際查證 accessed 2026-07-03）：M-mode 為單一掃描線之圖形化顯示，**abscissa（橫軸）＝時間、ordinate（縱軸）＝離探頭距離（深度）**，具優異軸向與時間解析度；亮點亮度正比於反射波振幅；臨床用於心臟（mitral valve excursion、EPSS 估 EF、E/A 波時序）與肺部（氣胸）等高速運動結構之判讀。
+[^2]: *M-mode (ultrasound)*. Radiopaedia.org（輔助來源；實際查證 accessed 2026-07-03）：M-mode 為單一掃描線之圖形化顯示，**abscissa（橫軸）＝時間、ordinate（縱軸）＝離探頭距離（深度）**，具優異軸向與時間解析度；亮點亮度正比於反射波振幅；臨床用於心臟（mitral valve excursion、EPSS 估 EF、E/A 波時序）與肺部（氣胸）等高速運動結構之判讀。
+[^3]: **Tier 1** Hangiandreou NJ. *AAPM/RSNA physics tutorial for residents. Topics in US: B-mode US: basic concepts and new technology*. RadioGraphics 2003;23(4):1019-33（據 PubMed，DOI [10.1148/rg.234035034](https://doi.org/10.1148/rg.234035034)；Review；實際查證 accessed 2026-07-04）——現代 US 掃描儀基於 **pulse-echo 途徑 + brightness-mode（B-mode）顯示**；B-mode 成像基本面（超音波物理、與組織交互作用、脈衝形成、波束掃描、回音偵測與訊號處理）；新技術（**tissue harmonic imaging、spatial compound imaging、extended FOV、coded pulse excitation、電子聚焦、3D/4D、微型化**）；US 為廉價、可攜、安全、即時之模態。佐證 B-mode 為現代灰階即時影像基礎、亮度編碼回音振幅之物理根基。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- About "the pulse-echo display modes", which of the following statement is wrong? (2020-418)
