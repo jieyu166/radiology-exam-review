@@ -7,7 +7,7 @@ aliases:
   - VABB
   - stereotactic biopsy
   - 真空輔助乳房切片
-dateRev: 2026-06-29
+dateRev: 2026-07-03
 nonImaging: true
 nonImagingReason: "本質為真空輔助乳房切片的手術/介入技術主題（立體定位幾何、取樣、marker clip 置放、術後殘餘癌須再手術），無可判讀的病灶影像特徵／徵象／鑑別。"
 ---
@@ -18,7 +18,7 @@ nonImagingReason: "本質為真空輔助乳房切片的手術/介入技術主題
 
 ## Summary
 - **定位**：stereo pair（±15°）＋0 度 scout view 計算 target 的 3D 位置。[^1]
-- **取樣**：~99% 取得足夠代表性樣本;主要針對**乳攝可見病灶（尤其鈣化）**。[^1]
+- **取樣**：~99% 取得足夠代表性樣本;**stereotactic 為病灶最佳見於乳攝時之首選切片法（微鈣化最常見，亦含 architectural distortion、無超音波對應之 asymmetry/mass），用於 BI-RADS 4/5**。[^1][^4]
 - **Tissue marker clip**：置於切片處供日後手術/追蹤定位。[^1]
 - **關鍵**：**VABB 移除全部微鈣化後,若病理惡性,手術時仍約 80% 有殘餘癌（Liberman et al.）→ 仍需手術切除**（故「無殘餘鈣化即不需開刀」為錯）。[^1]
 - **VAB 病理結果之後續處置（2019交換）**：[^2]
@@ -37,6 +37,7 @@ nonImagingReason: "本質為真空輔助乳房切片的手術/介入技術主題
 [^1]: 官方 2017 詳解；Diagnostic Imaging: Breast (Berg et al. 2006) V-2-27~95：Liberman et al. 報告 VABB 完全移除微鈣化後,手術時仍約 **80%** 有殘餘癌。
 [^2]: 2019 交換考詳解；First international consensus conference on lesions of uncertain malignant potential in the breast (B3 lesions). Rageth CJ, et al. Breast Cancer Research and Treatment. 2016;159:203-213。
 [^3]: 2019 交換考詳解；Liberman L, Berg WA. In: Breast MRI. 2005. Chapter 15, p.238-255；Berg WA, Birdwell RL, et al. Diagnostic Imaging: Breast. Part V, section 2, V2-2~2-45. 2006。
+[^4]: Weerakkody Y, et al. *Stereotactic breast biopsy*. Radiopaedia, rID-15231, DOI 10.53347/rID-15231——**以乳攝導引經皮取樣，為病灶最佳見於乳攝時之首選切片法（微鈣化最常見、亦含 architectural distortion／無超音波對應之 asymmetry/mass）、用於 BI-RADS 4/5**；設備含 vacuum-assisted core needle、俯臥或坐姿——佐證 VAB 針對乳攝鈣化之立體定位切片。
 
 ## 考題
 ```dataview

@@ -8,7 +8,7 @@ aliases:
   - CC view
   - posterior nipple line
   - 乳房攝影定位
-dateRev: 2026-06-29
+dateRev: 2026-07-03
 nonImaging: true
 nonImagingReason: "乳房攝影擺位/品質準則（胸大肌至PNL、IMF、nipple in profile、CC PNL 1cm 內）屬投照技術與品管評估，非影像病灶判讀主題"
 ---
@@ -23,7 +23,7 @@ nonImagingReason: "乳房攝影擺位/品質準則（胸大肌至PNL、IMF、nip
   - **IMF（乳下皺褶）打開**,可見下乳與部分上腹壁。
   - nipple 在 profile、無皮膚皺褶。
 - **CC 充足性**：[^1]
-  - **PNL 長度應在 MLO PNL 的 1 cm 之內**（確保後方組織納入）。
+  - **PNL 長度應在 MLO PNL 的 1 cm 之內**（確保後方組織納入）;PNL＝自乳頭向後垂直至胸大肌（CC 則至影像後緣）之連線，為三角定位病灶第一關鍵。[^2]
   - nipple 置中、後方可見脂肪。
 - **正常解剖**：脂肪位於纖維腺體組織**後方**（後方含脂肪反映納入足夠後段組織）。[^1]
 
@@ -32,6 +32,7 @@ nonImagingReason: "乳房攝影擺位/品質準則（胸大肌至PNL、IMF、nip
 
 ### 參考來源
 [^1]: 乳房攝影定位品質準則（ACR Mammography QC／The Requisites: Breast Imaging）：足夠 MLO＝胸大肌 convex 且**延伸至或低於 posterior nipple line**、IMF 打開、nipple in profile;CC PNL 長度應在 MLO PNL 之 **1 cm** 內。（題目所引 Thoracic/Breast positioning 標準）
+[^2]: Weerakkody Y, et al. *Posterior nipple line*. Radiopaedia, rID-15044, DOI 10.53347/rID-15044——**PNL＝自乳頭向後垂直畫至胸大肌（CC 則至影像後緣）之連線**；擺位充足時 **CC 與 MLO 之 PNL 量測差理想應在 1 cm 內**、為三角定位乳攝病灶之第一關鍵——佐證 CC/MLO 1 cm 準則。
 
 ## 考題
 ```dataview
