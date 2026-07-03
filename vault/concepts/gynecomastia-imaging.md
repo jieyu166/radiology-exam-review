@@ -12,22 +12,33 @@ dateRev: 2026-07-01
 
 **男子女乳症（gynecomastia）主要位置在乳暈下方（subareolar），可以是左右不對稱，並非必定對稱分布。**
 
+**男子女乳症（gynecomastia）＝男性乳房因『導管增生 + 間質增生』之非腫瘤性腫大，位於乳暈下（subareolar）、以乳頭為中心呈扇形/火焰形，融入周邊脂肪；可單側或左右不對稱（非必對稱）。** 判讀分水嶺：**subareolar 為中心 + 融入脂肪＝gynecomastia；偏離乳頭（eccentric）/後緣凸出/毛刺 → 疑男性乳癌須切片；假性男子女乳（pseudogynecomastia）＝純脂肪無導管/間質、乳攝呈輻射透亮；mammogram/US NPV 近 100%，影像符合者不需切片。**
+
 ## Summary
-- **乳房攝影（mammography）**：可呈 nodular、dendritic 或 diffuse glandular 型態之 density。[^1]
-- **超音波（ultrasound）**：subareolar 之 hypoechoic mass，可有或無 color Doppler flow。[^1]
-- **分布**：主要位置在 subareolar，**可以左右不對稱**——並非必定對稱分布。[^1]
+- **本質（STATdx）**：**導管增生 + 間質增生之非腫瘤性男性乳房腫大**；反映 estrogen:androgen 比值功能性上升。[^3]
+- **乳房攝影三型（STATdx）**：**early nodular（<1 年，界清乳暈下腫塊向後扇形漸尖，可逆）、late dendritic（>1 年，火焰狀中央乳暈下腫塊 + 線狀突入深部脂肪，不可逆）、diffuse glandular（外源性雌激素——攝護腺癌治療/跨性別，緻密結節似女乳但無 Cooper 韌帶）**。[^1][^3]
+- **超音波（STATdx）**：**乳頭下略低回音組織、向周邊漸尖（tapering）**；early nodular 可見略分葉之後緣。[^1][^3]
+- **CT/MR（STATdx）**：CT 火焰狀乳暈後不對稱；MR 於 T1/T2/C+ 與正常乳腺組織相似；FDG 輕度攝取、可 sestamibi 攝取。[^3]
+- **分布（STATdx，考點）**：**subareolar 為中心；一系列 70% 單側；雙側時 67% 不對稱**——**並非必定對稱分布**。[^1][^3]
 
-## 陷阱
-- 「主要位置在 subareolar，必定為對稱分布」為錯誤敘述——gynecomastia **可為單側或左右不對稱**。[^1]
+## 放射科醫師影像判讀重點
+- **檢查起點（STATdx）**：**≥25 歲先做雙側乳攝、<25 歲先做 US（必要時加乳攝）**；mammogram/US 之 **NPV 近 100%**。[^3]
+- **最佳診斷線索**：扇形/火焰形、乳暈下、以乳頭為中心之局部不對稱、融入周邊脂肪；大小 2-6 cm、可佔整個乳房。[^3]
+- **與男性乳癌區分（關鍵）**：**癌多界清或毛刺、後緣凸出、常偏離乳頭（eccentric）**；**若腫塊偏離乳頭 → 須切片排除惡性**；影像符合 gynecomastia 之可觸腫塊不需切片（不同於女性乳房）。[^3]
+- **DDx（STATdx）**：**pseudogynecomastia（純脂肪、乳攝透亮、佔男性乳房腫塊主訴 9%）、lipoma（透亮薄囊、US 略高回音）、myofibroblastoma（老年男界清腫塊）、diabetic mastopathy（長期第一型糖尿病硬腫塊）、fat necrosis、膿瘍**。[^3]
+- **監測**：**高劑量雌激素治療 >5 年（部分建議 >10 年）者考慮每年監測乳攝**。[^3]
 
-## 臨床特徵（2018-396）
-- **最常見的男性乳房異常**（most common male breast abnormality）。[^2]
-- 觸診典型為**柔軟、可移動、觸痛之乳暈下腫塊(soft mobile tender subareolar mass)**、盤狀。[^2]
-- **急性期(acute/florid phase)可有觸痛(tender sensation)**。[^2]
+## 臨床重點（5 句）
+1. **流行病學（STATdx）**：**一般人盛行率 32-65%（非肥胖 40%、肥胖 85%）、佔男性乳房腫塊 85%**；為最常見男性乳房異常。[^2][^3]
+2. **三峰年齡分布（STATdx）**：**新生兒（60-90% 暫時性、witch's milk、數週消退）、青春期（10-13 歲雌激素暫升、多雙側不對稱、60% 受影響、數月消退）、老年（>60 歲睪固酮下降 + 脂肪芳香化）**。[^3]
+3. **病因（STATdx）**：**荷爾蒙（estrogen:androgen 比升）、藥物（cannabis/anabolic steroids/酒精/spironolactone/cimetidine/digitalis 等長清單）、系統病（肝硬化/腎衰/HIV/甲狀腺/refeeding）、腫瘤（睪丸 germ cell/Leydig/Sertoli、非睪丸異位 HCG）、Klinefelter（47XXY，50% 發生）**。[^3]
+4. **觸診/自然史**：**柔軟、可移動、觸痛之乳暈下盤狀腫塊**；**<1 年移除病因可自退、>1 年常不可逆（導管增生退但纖維化永久）**；與男性乳癌無因果、但可共存。[^2][^3]
+5. **治療（STATdx）**：**早期可觀察/reassurance；藥物 tamoxifen 10-20 mg bid 2-8 月（急性增生期反應率 ~30%、1 月內減痛）**；aromatase inhibitor/danazol 較少驗證；不可逆者選擇性手術切除；攝護腺癌雌激素治療前可放療預防。[^3]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Berg WA, Birdwell RL, et al. Diagnostic Imaging: Breast. 2006. Page IV5-50~5-53。
-[^2]: Radiopaedia *Gynaecomastia*（2018 交換考題詳解 p.310 引用；輔助來源）。男子女乳症為最常見男性乳房異常；觸診呈柔軟、觸痛、可移動之乳暈下盤狀腫塊；急性期可有觸痛；多為單側或不對稱。
+[^1]: 官方 2019 交換考詳解；Berg WA, Birdwell RL, et al. *Diagnostic Imaging: Breast*. 2006, p.IV5-50~5-53（結論已由下述 STATdx 一手來源查核佐證）——乳攝 nodular/dendritic/diffuse glandular 三型、US subareolar 略低回音、分布可不對稱。
+[^2]: Gaillard F, et al. *Gynaecomastia*. Radiopaedia.org（2018 交換考題詳解 p.310 引用；輔助來源）——最常見男性乳房異常；觸診柔軟、觸痛、可移動之乳暈下盤狀腫塊；急性期可有觸痛；多為單側或不對稱。
+[^3]: **Tier 1** Eghtedari M, Yang WT. *Gynecomastia*（Breast, Special Topics, Male Breast, Dx）. STATdx, Elsevier, updated 04/25/19（24 refs；實際查證 accessed 2026-07-04）——**導管增生+間質增生之非腫瘤性男性乳房腫大、estrogen:androgen 比升**；**乳攝三型（early nodular <1 年界清扇形漸尖可逆、late dendritic >1 年火焰狀線狀突入脂肪不可逆、diffuse glandular 外源雌激素似女乳但無 Cooper 韌帶）**；US 乳頭下略低回音向周邊漸尖、CT 火焰狀、MR 似正常乳腺、FDG 輕度攝取；**分布 subareolar、70% 單側、雙側 67% 不對稱**；大小 2-6cm；**檢查（≥25 歲先乳攝、<25 歲先 US、NPV 近 100%）**；**與男性乳癌區分（癌界清/毛刺/後緣凸/偏離乳頭 eccentric→切片、gynecomastia 可觸腫塊不需切片）**；DDx（pseudogynecomastia 純脂肪透亮佔 9%、lipoma、myofibroblastoma、diabetic mastopathy、fat necrosis、膿瘍）；**流行病學（盛行 32-65%、非肥胖 40%/肥胖 85%、佔男性乳房腫塊 85%、三峰新生兒/青春期 10-13 歲/老年 >60）**；病因（荷爾蒙/藥物長清單 cannabis-spironolactone-cimetidine-digitalis/系統病肝硬化-腎衰-HIV-甲狀腺-refeeding/腫瘤睪丸 germ cell-Leydig-Sertoli 與非睪丸異位 HCG/Klinefelter 47XXY 50%）；自然史（<1 年移除病因可退、>1 年常不可逆纖維化永久、與男性乳癌無因果可共存）；治療（reassurance、tamoxifen 10-20mg bid 2-8 月反應 ~30%、aromatase inhibitor/danazol、不可逆手術、攝護腺癌雌激素治療前放療預防）；監測（高劑量雌激素 >5-10 年每年乳攝）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which statement about male gynecomastia is wrong? (2018-396)
