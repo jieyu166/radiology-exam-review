@@ -18,7 +18,8 @@ dateRev: 2026-07-03
 ## Summary
 - **GRE 無 180° 重聚**：GRE 僅用梯度反轉形成回波（SE/TSE 用 180° RF 重聚），**無法補償局部靜態磁場不均勻**，影像權重帶 **T2\*** 特性。[^1]
 - **對出血敏感之機轉**：血產物（**deoxyhemoglobin、ferritin、hemosiderin**、細胞內 methemoglobin）具**順磁性**，造成局部磁化率（susceptibility）不均 → GRE 無重聚，dephasing 不被補償 → 呈明顯低訊號並 **blooming（放大）**，故偵測微出血/出血較 SE/TSE 敏感。[^1][^2]
-- **SWI 延伸**：SWI ＝**以 GRE 為基礎之 3D 高解析、速度校正序列**，同時利用**相位 + 強度**並經 high-pass filter 後處理放大磁化率效應，對**微出血最敏感**；相位資訊亦可**區分鈣化（反磁性）與血產物（順磁性）**。[^2]
+- **SWI 延伸**：SWI ＝**以 GRE 為基礎之 3D 高解析、速度校正序列**，同時利用**相位 + 強度**並經 high-pass filter 後處理放大磁化率效應，對**微出血最敏感**；相位資訊亦可**區分鈣化（反磁性）與血產物（順磁性）**。[^2][^3]
+- **T2\* 加權參數與其他應用**：**GRE 以「低翻轉角、長 TE、長 TR」使影像偏 T2\* 加權**；T2\*-based 對比為多種應用之基礎——**SWI、灌注 MR（gadolinium 通過微血管致訊號下降）、功能性 MR（BOLD 效應）、鐵過載影像**。[^3]
 
 ## 放射科醫師影像判讀重點
 - **blooming 徵象**：小出血在 GRE/SWI 上因 dephasing 而看起來比實際大 → 提高偵測率，但**會高估病灶大小**。[^1][^2]
@@ -39,7 +40,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2020 詳解；Ref: MRI in Practice, Ch.2, p.34（題目所引）——GRE 波序無 180° 重聚脈衝、對磁場不均勻（出血之順磁性代謝物）較敏感，偵測顱內出血優於 SE/TSE。此物理原理與下述一手來源一致。
-[^2]: Gaillard F, et al. *Susceptibility weighted imaging*. Radiopaedia, rID-13858, DOI 10.53347/rID-13858——SWI 為對「扭曲局部磁場之化合物」特別敏感之 MRI 序列，利於偵測**血產物、鈣化**；為 **3D 高解析、velocity-corrected gradient-echo** 序列，利用**相位 + 強度** + 後處理；順磁性化合物含 **deoxyhemoglobin、ferritin、hemosiderin**——佐證 GRE 基礎之磁化率敏感度與微出血偵測。
+[^2]: *Susceptibility weighted imaging*. Radiopaedia.org, rID-13858, DOI 10.53347/rID-13858（輔助來源）——SWI 為對「扭曲局部磁場之化合物」特別敏感之 MRI 序列，利於偵測**血產物、鈣化**；為 **3D 高解析、velocity-corrected gradient-echo** 序列，利用**相位 + 強度** + 後處理；順磁性化合物含 **deoxyhemoglobin、ferritin、hemosiderin**。
+[^3]: **Tier 1（開放取用）** Chavhan GB, Babyn PS, Thomas B, Shroff MM, Haacke EM. *Principles, techniques, and applications of T2\*-based MR imaging and its special applications*. RadioGraphics 2009;29(5):1433-1449（據 PubMed，DOI [10.1148/rg.295095034](https://doi.org/10.1148/rg.295095034)，PMC2799958，實際查證 accessed 2026-07-03）——**T2\* relaxation ＝自旋-自旋弛豫＋磁場不均勻所致橫向磁化衰減，「僅見於 GRE」，因 SE 之 180° 脈衝消除磁場不均勻造成的橫向弛豫**；GRE 以低翻轉角/長 TE/長 TR 使影像偏 T2\* 加權；**T2\*-weighted GRE 用以顯示出血、鈣化、鐵沉積**；**SWI 利用相位＋T2\* 對比開發血/鐵/鈣之磁化率差異**；T2\* 基礎另用於灌注 MR、BOLD 功能性 MR、鐵過載影像。原「官方 2020 詳解（題目所引）」弱來源已由本 Tier 1 RadioGraphics 全文查核升級。
 
 ## 題目
 > [!question]- 在磁振造影中，下列何種波序在針對顱內出血性病灶有較佳的偵測效率? (2020-336)
