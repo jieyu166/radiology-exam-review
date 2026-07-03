@@ -39,7 +39,7 @@ nonImagingReason: "影像模態選擇之比較，非單一病例影像判讀"
 > **以上四項描述都沒有錯誤（E）**——CT 空間解析度最高、適合找細小構造（冠狀動脈異常）；MRI 於心肌組織特性與血行動力學測量優於 CT；現代心臟 CT 劑量調控可降至 <1 mSv，皆為正確敘述。[^1]
 
 ### 參考來源
-[^1]: 官方 2020 詳解（題目所引）；原引 *Multimodality Appropriate Use Criteria for Noninvasive Cardiac Imaging: Expert Consensus of the Asian Society of Cardiovascular Imaging*. Korean J Radiol 2017;18(6):871-880——四大非侵襲工具（echo/CT/MRI/核醫）；**CT 空間解析度最高、適合冠狀動脈異常等細小構造；MRI 於心肌組織特性與血行動力學量測優於 CT；現代心臟 CT 劑量調控可 <1 mSv**。以上模態強項與適用為心臟影像共識（多模態互補、問題導向、ALARA），與 ASCI/一般心臟影像教材一致。
+[^1]: Yang DH, et al. *2017 Multimodality Appropriate Use Criteria for Noninvasive Cardiac Imaging: Expert Consensus of the Asian Society of Cardiovascular Imaging*. Korean J Radiol 2017;18(6):871-880, DOI 10.3348/kjr.2017.18.6.871（PMID 29089819, PMC5639152；accessed 2026-07-03）——四大非侵襲工具（echo/CT/MRI/核醫）；**CT 空間解析度最高、適合冠狀動脈異常等細小構造；MRI 於心肌組織特性與血行動力學量測優於 CT；現代心臟 CT 劑量調控可 <1 mSv**；模態選擇採問題導向、ALARA、多模態互補之 appropriate use 共識。原「官方 2020 詳解」弱標記已由此一手來源查核佐證。
 
 ## 題目
 > [!question]- 下列有關於利用心血管影像檢查小朋友先天性心臟病的描述何者錯誤？ (2020-258)
