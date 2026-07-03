@@ -26,24 +26,30 @@ same:
 
 ## 放射科醫師影像判讀重點
 - **三主徵確認**：MRI 看胼胝體缺如 + 眼底 chorioretinal lacunae（眼科/影像）+ EEG（burst-suppression/hypsarrhythmia）。[^1][^2]
-- **合併畸形搜尋**：見 ACC 女嬰 + 癲癇 → 找灰質異位、polymicrogyria、後顱窩囊腫、choroid plexus papilloma。[^2]
-- **囊腫辨位**：interhemispheric/後顱窩囊腫常見但屬合併非三主徵；勿誤列為診斷主徵。[^1][^2]
-- **choroid plexus 腫瘤**：papilloma/carcinoma 發生率增高，追蹤側腦室脈絡叢。[^2]
-- **鑑別/連結**：與單純胼胝體發育不全（[[corpus-callosum-agenesis-signs]]）區分——Aicardi 為女嬰 + 三主徵 + 多發畸形。[^1]
+- **影像三徵組合（STATdx）**：**arachnoid cyst + 扭曲半球間裂 + 異常 CC 三者見於 95%**，高度提示 AS。[^3]
+- **MR 表現頻率（STATdx 產後系列）**：**CC 畸形 100%（agenesis 66%/dysgenesis 33%）、皮質發育不良/結節性異位 98%、顱內囊腫 96%、後顱窩異常 63%、dysmorphic basal ganglia 76%（新發現）**；polymicrogyria 產後系列 100% 以額/perisylvian 為主 + sylvian 溝 under-operculization。[^3]
+- **合併畸形搜尋**：見 ACC 女嬰 + 癲癇 → 找灰質異位（腦室旁沿側腦室體、雙側 > 單側、單結節 > 融合）、polymicrogyria、後顱窩囊腫、choroid plexus papilloma、大腦半球不對稱。[^2][^3]
+- **囊腫辨位（STATdx）**：**Barkovich type 2b 最常見（多房、不與腦室相通、伴 falx 缺損/室管膜下異位/polymicrogyria）**；單發 > 多發、可 intra/extra-axial（中線/腦室內/pineal/後顱窩）；屬合併非三主徵，勿誤列為診斷主徵。[^1][^3]
+- **choroid plexus 腫瘤**：papilloma/carcinoma 發生率增高，追蹤側腦室脈絡叢。[^2][^3]
+- **小腦（STATdx）**：Dandy-Walker/vermian dysgenesis、inferior vermian hypoplasia、小腦實質內/軸外囊腫、tectal enlargement（一系列 43%）；亦見 pituitary 異常。[^3]
+- **產前判讀（STATdx）**：**ACC 胎兒務必查性別、找小腦/vermis 異常、脊椎節段異常、眼（microphthalmia/coloboma）**；nodular 腦室內襯示異位；sylvian operculization 異常對應皮質發育不良；MR 建議延至第三孕期、serial US/MR 顯全譜。[^3]
+- **1999 擴充診斷（STATdx）**：**2 典型 + 2 其他 major/supporting**；major＝皮質畸形(多 polymicrogyria)/腦室旁-皮質下異位/第三腦室-脈絡叢周圍囊腫/choroid plexus papilloma/視盤-視神經 coloboma；supporting＝肋椎異常/microphthalmia/大腦半球明顯不對稱。[^3]
+- **鑑別/連結（STATdx）**：與單純 ACC（[[corpus-callosum-agenesis-signs]]，孤立性癲癇較晚、畸形較少、PET 較 MR 廣）、Dandy-Walker、arachnoid cyst（CC 正常無皮質發育不良）、顱內出血（隨時間變化 vs 異位不變、porencephalic 取代破壞腦）、**OFD1（男致死纖毛病、女性 CC 異常 + 囊性腎 + 顏面/指異常）**區分。[^3]
 
 ## 臨床重點（5 句）
-1. **遺傳**：X 連鎖、男性致死、僅女性（47,XXY 例外）。[^1][^2]
-2. **三主徵**：ACC + chorioretinal lacunae + infantile spasms。[^1][^2]
-3. **非三主徵**：顱內囊腫。[^1][^2]
-4. **合併**：灰質異位/polymicrogyria/後顱窩異常/脈絡叢腫瘤。[^2]
-5. **預後**：嚴重發展遲緩、癲癇難治。[^2]
+1. **遺傳（STATdx）**：**僅見於女性與 47,XXY（須有 2 條 X）、probable X 連鎖顯性 + 半合子男性早期胚胎致死**；患病女性不生育故皆視為新突變；無強力候選基因（至 2025）、曾報 Xp22.3 微缺失。[^3]
+2. **三主徵**：ACC + chorioretinal lacunae（**眼科檢查 pathognomonic**）+ infantile spasms（1965 年最初定義）。[^1][^3]
+3. **流行病學/預後（STATdx）**：**美國發生率 1/105,000 活產**；癲癇 98%（infantile spasms 最常、EEG 異常 99%）；**平均死亡年齡 3.9 歲（中位 1.75）、1 歲存活 94%、20 歲存活機率 0.62、癲癇 <2.1 月發作者存活顯著較差**。[^3]
+4. **神經發展（STATdx）**：智能障礙 96%（重度 75%）、70% 無語言、54% 無法移動；abnormal muscle tone 35%；**scoliosis 可快速進展、bracing 無效、嚴重者需手術**。[^3]
+5. **合併/視力**：肋椎缺損 ~39%（hemivertebrae/scoliosis/肋骨缺失）、眼（microphthalmia/coloboma/視神經-視交叉發育不全）；**macula 保留 + lacunae 較小者視力較佳**。[^3]
 
 > [!note] 考點：何者「非」Aicardi syndrome 的三主徵之一?
 > **Intracranial cyst（B）**——非三主徵成員（雖 interhemispheric/後顱窩囊腫常見）。Infantile spasm、corpus callosal dysgenesis（最一致特徵）、chorioretinal lacunae（近 pathognomonic）為典型三主徵。[^1][^2]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Diagnostic Imaging: Brain, 2nd ed., I(1):128-129（題目所引）——Aicardi 為 X 連鎖對男性致死之罕見發育性疾病；三主徵 infantile spasms、corpus callosal dysgenesis（最一致）、chorioretinal lacunae（病理特徵性）；顱內囊腫非三主徵。
-[^2]: Gaillard F, et al. *Aicardi syndrome*. Radiopaedia, rID-5377, DOI 10.53347/rID-5377——**僅女性表現（罕見 47,XXY 例外）**、~1/100,000；**classic triad：agenesis of corpus callosum、chorioretinal lacunae（punched-out、近 pathognomonic）、infantile spasms/早發癲癇**；合併灰質異位、polymicrogyria、後顱窩異常（95%，Dandy-Walker）、choroid plexus papilloma/carcinoma、視神經 coloboma。
+[^2]: Gaillard F, et al. *Aicardi syndrome*. Radiopaedia, rID-5377, DOI 10.53347/rID-5377（輔助來源）——**僅女性表現（罕見 47,XXY 例外）**、~1/100,000；**classic triad：agenesis of corpus callosum、chorioretinal lacunae（punched-out、近 pathognomonic）、infantile spasms/早發癲癇**；合併灰質異位、polymicrogyria、後顱窩異常（95%，Dandy-Walker）、choroid plexus papilloma/carcinoma、視神經 coloboma。
+[^3]: **Tier 1** Kennedy A. *Aicardi Syndrome*（Obstetrics, Syndromes & Multisystem Disorders, Dx）. STATdx, Elsevier, updated 07/08/25（12 refs；實際查證 accessed 2026-07-04）——1965 年定義三主徵（infantile spasms/ACC/chorioretinal lacunae）、1999 年擴充為 2 典型+2 major/supporting；**遺傳（僅女性與 47,XXY 須 2 條 X、X 連鎖顯性+男性胚胎致死、皆新突變、Xp22.3 微缺失）**；**影像三徵（arachnoid cyst+扭曲半球間裂+異常 CC 見 95%）**；**MR 頻率（CC 畸形 100% agenesis 66%/dysgenesis 33%、皮質發育不良/結節異位 98%、顱內囊腫 96%、後顱窩 63%、dysmorphic basal ganglia 76%、polymicrogyria 產後 100% 額/perisylvian+under-operculization）**；囊腫（Barkovich type 2b 最常、多房不通腦室、伴 falx 缺損/室管膜下異位、單發>多發、中線/腦室/pineal/後顱窩）；小腦（Dandy-Walker/vermian dysgenesis/inferior vermian hypoplasia/tectal enlargement 43%）；產前判讀（ACC 查性別/小腦/脊椎/眼、nodular 腦室內襯示異位、sylvian operculization 對應皮質發育不良、MR 延第三孕期）；**臨床（美國 1/105,000、癲癇 98% EEG 異常 99%、平均死亡 3.9 歲中位 1.75、1 歲存活 94%、20 歲 0.62、<2.1 月發作預後差、智障 96% 重度 75%、scoliosis 快速進展需手術、chorioretinal lacunae 眼科 pathognomonic）**；DDx（孤立性 ACC 較晚癲癇畸形少、Dandy-Walker、arachnoid cyst、顱內出血 vs 異位、OFD1 男致死纖毛病女性 CC 異常+囊性腎）；肋椎缺損 ~39%、AS 為臨床診斷無特徵性顏面/基因檢測。原「官方/題目所引」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which one is not triad of Aicardi syndrome? (2017-261)
