@@ -3,26 +3,50 @@ concepts: [pituitary-macroadenoma]
 name: Pituitary Macroadenoma
 subspecialty: [NR]
 aliases:
+  - pituitary macroadenoma
+  - PitNET
+  - Knosp classification
+  - prolactinoma
   - 腦垂體大腺瘤
-dateRev: 2026-07-02
+dateRev: 2026-07-03
 ---
 
 # pituitary-macroadenoma
 
-**垂體大腺瘤復發的風險因子包括 cavernous sinus invasion、low ADC value、tumor size、subtotal resection。Apoplexy（垂體卒中）不是復發的獨立風險因子。**
+**垂體大腺瘤（PitNET，>10 mm）復發之風險因子包括 cavernous sinus invasion（Knosp 3-4）、low ADC value、tumor size、subtotal resection（及高 MIB-1/Ki-67）——Apoplexy（垂體卒中）是急性併發症，「不是」復發之獨立風險因子（常考陷阱）。** 判讀分水嶺：**「蝶鞍腫塊且找不到獨立的正常垂體＝腫塊本身就是垂體」＝macroadenoma；用 Knosp 0-4 判海綿竇侵犯（腫瘤越過海綿竇 ICA 外側緣＝grade 3-4＝侵犯）；不論看起來多具侵襲性，垂體腫瘤幾乎都不是惡性（carcinoma <0.4%，須有轉移才算）。**
 
 ## Summary
-- 復發風險因子：cavernous sinus invasion、low ADC、large size、subtotal resection [^1]
-- **Apoplexy 非復發風險因子**（常見陷阱）[^1]
-- Cavernous sinus invasion = Knosp grade 3-4 [^1]
+- **復發風險因子**：**cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection**，另 **MIB-1 >1%／高 Ki-67** 提示早期復發/快速再長。**Apoplexy 非復發風險因子**。[^1]
+- **海綿竇侵犯＝Knosp grade 3-4**：**腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）**即侵犯；grade 1 至內側 50%、grade 2 至外側 50%。[^1]
+- **診斷要點**：**蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）**；>10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；為**成人最常見之鞍上腫塊**。[^1]
+- **良性本質**：不論多具侵襲外觀，**垂體腫瘤幾乎都不是惡性**（pituitary carcinoma <0.4%，須有轉移才診斷）。[^1]
+
+## 放射科醫師影像判讀重點
+- **形態與訊號**：多呈 **figure 8/snowman（diaphragma sellae 壓迫產生腰身）**、T1/T2 與灰質等訊號、**強而異質強化**；囊變/壞死 15-20%、出血 10%、鈣化 1-2%；**densely granulated GH 腺瘤 T2 低訊號**。[^1]
+- **Knosp 分級判海綿竇侵犯**（海綿竇內側壁薄弱、直接看難）：**腫瘤位於海綿竇 ICA 與外側硬膜之間＝侵犯**；grade 越高越可能侵犯。[^1]
+- **DWI/ADC**：**bright DWI／low ADC 對應「軟」腫瘤、可能較高復發**（尚有爭議，但為考點）。[^1]
+- **後葉 bright spot**：80% 被推移至 supradiaphragmatic、20% 大腺瘤消失；**視路 T2 高訊號**見於 15-20% 觸及視神經之腺瘤。[^1]
+- **DDx（鞍/鞍上腫塊）**：pituitary hyperplasia（正常垂體可見/內分泌正常）、saccular aneurysm（flow void/鈣化）、meningioma（可見 diaphragma sellae 暗線、垂體可分辨、hyperostosis）、metastasis、lymphocytic hypophysitis（產後）、craniopharyngioma（鈣化/囊/兒童）、Rathke cleft cyst（不強化囊）。[^1]
+
+## 臨床重點（5 句）
+1. **75% 內分泌活性**——**泌乳素瘤（prolactinoma）為最常見功能性腺瘤**，另有 acromegaly/gigantism（GH）、Cushing（ACTH）、hyperthyroidism（TSH）。[^1]
+2. 典型為**中年女性合併雙顳側偏盲（bitemporal hemianopsia）**；20-25% 有視野缺損/顱神經麻痺。[^1]
+3. **治療以手術切除為主**（復發 8 年 15%、20 年 35%）；**泌乳素瘤首選多巴胺促效劑（cabergoline、bromocriptine）**，另有放射手術/傳統放療。[^1]
+4. **Pituitary apoplexy（急性出血/梗塞）**可急性、危及生命（可有 fluid-fluid level），為併發症而非復發因子。[^1]
+5. 與 **MEN1**（50% 多發 PitNET）等症候群相關；青春期前/年輕男性「似腺瘤」之垂體可能為 end-organ failure 之增生，須內分泌檢查。[^1]
+
+> [!note] 考點：垂體大腺瘤之復發風險因子？
+> **cavernous sinus invasion（Knosp 3-4）、low ADC value、tumor size、subtotal resection（及高 MIB-1/Ki-67）**為復發風險因子；**Apoplexy（垂體卒中）不是復發之獨立風險因子**。海綿竇侵犯＝Knosp grade 3-4（腫瘤越過海綿竇 ICA 外側緣或完全包繞）。[^1][^2]
 
 ### 參考來源
-[^1]: 官方 2019 詳解；Pituitary macroadenoma recurrence predictors.
+[^1]: **Tier 1** Salzman KL, Osborn AG. *Pituitary Macroadenoma/Pituitary Neuroendocrine Tumor*（Brain, Sella, Dx）. STATdx，last updated 2025-07-25. Elsevier（實際查證 accessed 2026-07-03，29 references）：macroadenoma >10 mm、giant >4 cm、成人最常見鞍上腫塊、「腫塊即垂體」；figure 8/snowman、等灰質訊號強異質強化、囊變 15-20%/出血 10%/鈣化 1-2%；**Knosp 0-4（grade 3 越過海綿竇 ICA 外側緣、grade 4 完全包繞＝侵犯）**；**low ADC/bright DWI 對應軟腫瘤、可能較高復發（爭議）**；**MIB-1 >1%/高 Ki-67 早期復發、切除復發 8 年 15%/20 年 35%**；75% 內分泌活性、泌乳素瘤最常見、雙顳側偏盲；apoplexy 為急性併發症；垂體腫瘤幾乎非惡性（carcinoma <0.4%）；治療手術±放療、泌乳素瘤用多巴胺促效劑。
+[^2]: 官方 2019 詳解（題目所引，pituitary macroadenoma recurrence predictors）——復發風險因子含 cavernous sinus invasion、low ADC、tumor size、subtotal resection；apoplexy 非復發因子；海綿竇侵犯＝Knosp grade 3-4，已由 [^1] STATdx 一手來源查核並補強影像判讀、DDx 與臨床。
+
+## 題目
+> [!question]- 垂體大腺瘤之復發風險因子，何者為非？
+> **Apoplexy（垂體卒中）為非**——復發風險因子為 cavernous sinus invasion（Knosp 3-4）、low ADC、tumor size、subtotal resection（及高 MIB-1/Ki-67）；apoplexy 為急性併發症而非復發因子。[^1][^2]
 
 ## 考題
-> [!question]- 相關考題
-> ```dataview
-> TABLE WITHOUT ID file.link AS "概念卡", concepts AS "概念"
-> FROM "concepts"
-> WHERE contains(concepts, "pituitary-macroadenoma")
-> ```
+```dataview
+list from #交換 where contains(concepts, "pituitary-macroadenoma")
+```
