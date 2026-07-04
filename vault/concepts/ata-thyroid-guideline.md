@@ -1,41 +1,54 @@
 ---
-tags: [concept, HN]
-aliases: [ATA 2015, thyroid nodule management, TI-RADS]
+concepts: [ata-thyroid-guideline]
+name: 2015 ATA Thyroid Nodule Guideline
+subspecialty: [HN]
+aliases:
+  - ATA 2015
+  - thyroid nodule management
+  - TI-RADS context
+  - 甲狀腺結節指引
+dateRev: 2026-07-04
 ---
 
-**2015 ATA guideline** 依甲狀腺結節超音波特徵分為 high / intermediate / low / very low suspicion，各有不同 FNA 建議閾值。
+# ata-thyroid-guideline
+
+**2015 ATA 甲狀腺結節分水嶺：依超音波特徵分 high / intermediate / low / very low / benign 五類，FNA 閾值隨惡性風險上升而下降——High 與 Intermediate ≥1cm、Low ≥1.5cm、Very low ≥2cm、純海綿狀（spongiform）benign 不需 FNA。惡性度愈高、切片門檻愈低。**
 
 ## Summary
+- 據 2015 ATA 指引，甲狀腺結節依超音波型態分為五個惡性風險層級，各層級對應不同 FNA 尺寸閾值。[^1]
+- **High suspicion（惡性風險 >70–90%）**型態包含：hypoechoic + irregular margin、hypoechoic + taller-than-wide、interrupted rim calcification with soft tissue extrusion 等。[^1]
+- **FNA 閾值（考點）**：High ≥1cm、**Intermediate ≥1cm**、**Low ≥1.5cm**、**Very low ≥2cm**（或觀察）、benign（純 spongiform / 純囊性）**不建議 FNA**。[^1]
+- ATA 屬「型態模式（pattern-based）」系統，與 ACR TI-RADS 之「計點（point-based）」系統邏輯不同，兩者閾值與分類不可直接互換。[^1]
 
-### High suspicion sonographic patterns [^1]
-- Hypoechoic + irregular margin
-- Hypoechoic + taller-than-wide
-- Interrupted rim calcification with soft tissue extrusion
-- FNA threshold: **≥ 1 cm**
+## 放射科醫師影像判讀重點
+- **High suspicion 影像特徵（考點）**：實質低回音（hypoechoic）+ 不規則邊緣、低回音 + taller-than-wide（縱徑>橫徑）、微鈣化、被膜外侵犯、interrupted rim calcification 伴軟組織外突。[^1]
+- **非 high suspicion 的辨識**：isoechoic + regular margin 屬 intermediate 而非 high；**spongiform（純海綿狀）屬 very low suspicion / benign**，常為良性膠質結節。[^1]
+- **FNA 閾值判讀（考點）**：報告須結合 pattern 與最大徑決定是否建議 FNA——intermediate/high 於 ≥1cm 建議、low 於 ≥1.5cm、very low 於 ≥2cm。[^1]
+- **陷阱**：high suspicion FNA 閾值為 **≥1cm（非 0.5cm）**；spongiform 結節不因偶見微囊而升級為需 FNA。[^1]
 
-### FNA 建議閾值
-| Suspicion level | FNA threshold |
-|----------------|---------------|
-| High | ≥ 1 cm |
-| Intermediate | ≥ 1 cm |
-| Low | ≥ 1.5 cm |
-| Very low | ≥ 2 cm |
-| Benign (spongiform) | 不建議 FNA |
+## 臨床重點（5 句）
+1. FNA 結果以 Bethesda 系統分類，決定後續追蹤或手術。[^1]
+2. 影像特徵相同時，尺寸愈大惡性機率不必然等比上升，故指引以 pattern 為主、size 為輔設閾值。[^1]
+3. 未達 FNA 閾值之可疑結節建議超音波追蹤而非立即切片。[^1]
+4. 頸部異常淋巴結若存在，可下修原發結節之 FNA 決策門檻。[^1]
+5. 考題所依為 2015 ATA 版本；若臨床改用 ACR TI-RADS，分類與閾值須另行對照。[^1]
 
-## 陷阱
+> [!note] 考點一：2015 ATA guideline 中，何者為 high suspicious sonographic patterns？
+> hypoechoic + irregular margin、hypoechoic + taller-than-wide、interrupted rim calcification with soft tissue extrusion（isoechoic + regular margin 非 high；spongiform 為 very low）。[^1]
 
-- High suspicion FNA 閾值為 **≥ 1 cm**（非 0.5 cm）
-- Spongiform nodule 屬 very low suspicion / benign，不需 FNA
-- ACR TI-RADS 與 ATA 系統略有不同
+> [!note] 考點二：依 2015 ATA，哪些 thyroid nodules 建議接受 FNA？
+> intermediate ≥1cm、low ≥1.5cm、very low ≥2cm 者建議 FNA；high suspicion 閾值為 ≥1cm（非 0.5cm），benign（spongiform）不需 FNA。[^1]
 
 ### 參考來源
+[^1]: 據 PubMed，Haugen BR, et al. 2015 American Thyroid Association Management Guidelines for Adult Patients with Thyroid Nodules and Differentiated Thyroid Cancer. Thyroid. 2016. [DOI](https://doi.org/10.1089/thy.2015.0020)。
 
-[^1]: 2015 ATA Management Guidelines for Adult Patients with Thyroid Nodules
+> [!question]- 根據 2015 年 ATA guideline，下列何者為 high suspicious sonographic patterns for malignancy? (2019-330)
+> **D（1,3,4）。** (1) hypoechoic + irregular margin、(3) hypoechoic + taller-than-wide、(4) interrupted rim calcification with soft tissue extrusion。[^1]
+
+> [!question]- 根據 2015 年 ATA guideline，下列何種 thyroid nodules 建議接受 fine needle aspiration? (2019-336)
+> **C（2,3,4）。** intermediate ≥1cm、low ≥1.5cm、very low ≥2cm；high 閾值為 ≥1cm、benign 不需 FNA。[^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID file.link AS 卡片, questionText AS 題目
-FROM "vault/cards"
-WHERE contains(concepts, "ata-thyroid-guideline")
+list from #交換 where contains(concepts, "ata-thyroid-guideline")
 ```

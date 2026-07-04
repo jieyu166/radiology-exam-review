@@ -1,31 +1,48 @@
 ---
-tags: [concept, NR]
-aliases: [BAO, basilar artery thrombosis, 基底動脈阻塞]
+concepts: [basilar-artery-occlusion]
+name: Basilar Artery Occlusion
+subspecialty: [NR]
+aliases:
+  - BAO
+  - basilar artery thrombosis
+  - 基底動脈阻塞
+dateRev: 2026-07-04
 ---
 
-**基底動脈阻塞 (Basilar Artery Occlusion, BAO)** 可導致雙側丘腦梗塞，與顱內動脈粥樣硬化 (ICAS) 相關。
+# basilar-artery-occlusion
+
+**後循環大血管阻塞：BAO 最常見於近端節（proximal basilar），與顱內動脈粥樣硬化狹窄（ICAS）高度相關，穿通枝阻塞可致雙側丘腦梗塞——凡見雙側丘腦病灶，先想 BAO 或 artery of Percheron。**
 
 ## Summary
+- BAO 屬後循環大血管阻塞，未治療死亡率高；病灶部位取決於阻塞節段與側枝供應。[^1]
+- 阻塞好發於基底動脈**近端節（proximal segment）**，亞洲族群病因以**顱內動脈粥樣硬化狹窄（ICAS）**為主，非單純心源性栓塞。[^2]
+- 基底動脈之穿通枝（paramedian/thalamoperforators）供應中腦、橋腦與丘腦，故 BAO 可造成**雙側丘腦梗塞**與 top-of-the-basilar 症候群。[^1]
+- 治療核心為血管內取栓（endovascular thrombectomy），ATTENTION 試驗顯示取栓相較單純內科治療改善預後。[^1]
 
-BAO 影像與臨床特徵 [^1]：
-- Proximal segment occlusion 最常見
-- 可導致**雙側丘腦梗塞**（perforating arteries 起源於 basilar artery）
-- 與 intracranial atherosclerotic stenosis (ICAS) 高度相關
-- CT angiography 為急性期首選影像
-- 治療：endovascular thrombectomy + IV tPA
+## 放射科醫師影像判讀重點
+- **CT/CTA 為急性期首選**：非顯影 CT 可見 hyperdense basilar artery sign；CTA/MRA 直接顯示阻塞節段與側枝，並評估 ICAS。[^2]
+- **DWI 判讀分水嶺**：BAO 造成之梗塞常呈**雙側、對稱**分布（丘腦、中腦、橋腦、小腦上），與單側栓塞不同。[^1]
+- **雙側丘腦病灶 DDx**：BAO（穿通枝）vs. **artery of Percheron 阻塞**（單一變異穿通枝供雙側旁正中丘腦±中腦）vs. deep cerebral venous thrombosis——後者須看靜脈系統。[^1]
+- **陷阱**：後顱窩 beam-hardening artifact 易掩蓋橋腦早期缺血；DWI/CTA 為關鍵補充，勿只憑平掃 CT 排除。[^2]
 
-## 陷阱
+## 臨床重點（5 句）
+1. 臨床可表現為意識障礙、四肢癱、眼球運動異常與 locked-in syndrome，症狀常波動或漸進。[^1]
+2. ATTENTION 隨機試驗中，取栓組 90 天良好功能結局優於內科組。[^1]
+3. 取栓時間窗與適應症正隨試驗證據演進，臨床決策須整合影像側枝與臨床嚴重度。[^2]
+4. IV thrombolysis 可作為橋接，但大血管阻塞多需血管內治療達成再灌流。[^2]
+5. ICAS 相關 BAO 於取栓後可能需血管成形/支架處理殘餘狹窄。[^2]
 
-- 雙側 thalamic infarction 需考慮 BAO 或 artery of Percheron occlusion
+> [!note] 考點：關於 basilar artery occlusion，下列敘述何者正確？
+> 以上皆是。BAO **近端節阻塞最常見**、可致**雙側丘腦梗塞**（穿通枝起自基底動脈）、且與**顱內動脈粥樣硬化狹窄（ICAS）**高度相關，三者皆對。[^1][^2]
 
 ### 參考來源
+[^1]: 據 PubMed，Tao C, et al. Trial of Endovascular Treatment of Acute Basilar-Artery Occlusion (ATTENTION). N Engl J Med. 2022. [DOI](https://doi.org/10.1056/NEJMoa2206317)。
+[^2]: 據 PubMed，Nguyen TN, et al. Endovascular thrombectomy for basilar artery occlusion: translating research findings into clinical practice. Lancet Neurol. 2022. [DOI](https://doi.org/10.1016/S1474-4422(22)00483-5)。
 
-[^1]: AJNR August 2017, 38(8):1600-1604
+> [!question]- Regarding basilar artery occlusion, which of the following is correct? (2019-328)
+> **D. All of the above.** BAO 近端節阻塞最常見、可致雙側丘腦梗塞、與 ICAS 相關皆正確。[^1][^2]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID file.link AS 卡片, questionText AS 題目
-FROM "vault/cards"
-WHERE contains(concepts, "basilar-artery-occlusion")
+list from #交換 where contains(concepts, "basilar-artery-occlusion")
 ```

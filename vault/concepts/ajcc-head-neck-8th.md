@@ -1,35 +1,53 @@
 ---
-tags: [concept, HN]
-aliases: [AJCC 8th edition head neck, 頭頸癌分期]
+concepts: [ajcc-head-neck-8th]
+name: AJCC 8th Edition Head & Neck Staging
+subspecialty: [HN]
+aliases:
+  - AJCC 8th head neck
+  - p16 oropharyngeal staging
+  - 頭頸癌分期第八版
+dateRev: 2026-07-04
 ---
 
-**AJCC 8th edition** 頭頸癌分期重大改變包括 p16-positive OPC 獨立 TNM 分期及 extranodal extension 影響 N 分期。
+# ajcc-head-neck-8th
+
+**AJCC 第八版頭頸癌兩大分水嶺：(1) p16/HPV 陽性口咽癌（OPC）獨立出全新 TNM 分期（且其 cN 以「單側 vs 雙側、≤6cm、環狀軟骨下緣為界」分級，不看 ENE）；(2) 非 HPV 相關頭頸癌的淋巴結 extranodal extension（ENE）納入並上調 N 分期。**
 
 ## Summary
+- 據第八版，**p16 陽性 OPC 具獨立的 TNM 分期系統**，與非 HPV 相關頭頸癌分開，反映其較佳預後。[^1]
+- p16+ OPC 的**臨床 N 分期（cN）**依側性與大小分級（環狀軟骨下緣為關鍵界標），且**不納入 ENE**。[^1]
+- 非 HPV 相關頭頸鱗癌（如口腔癌）之淋巴結 **extranodal extension（ENE）納入 N 分期並上調分級**。[^1]
+- p16+ OPC 之病理 N（pN）另有不同準則（依陽性淋巴結數目），與 cN 不同，須區分臨床/病理分期。[^1]
 
-AJCC 8th 主要改變 [^1]：
-1. **口腔癌**：tumor thickness 比 depth of invasion 更能反映預後
-2. **p16-positive OPC (口咽癌)**：有**獨立的 TNM 分期**系統（但 HPV+OPC 不看 ENE）
-3. **淋巴結 extranodal extension (ENE)**：影響 N 分期
-4. 口咽癌病人須量測 depth of invasion
+## 放射科醫師影像判讀重點
+- **p16+ OPC 臨床 cN 判讀（AJCC 8th，考點）**：cN1＝**同側**淋巴結 ≤6cm 且位於環狀軟骨下緣以上；**cN2＝雙側（bilateral）**淋巴結 ≤6cm 且於環狀軟骨下緣以上；cN3＝>6cm 或延伸至環狀軟骨下緣以下。[^1]
+- **影像須明確報告**：受侵淋巴結之側性（單/雙側）、最大徑（6cm 閾值）、以及是否延伸至環狀軟骨下緣以下——三者決定 p16+ OPC 的 N 分級。[^1]
+- **HPV+ OPC 影像特徵**：常見囊性化淋巴結（cystic nodal metastasis），原發灶可小而隱匿（扁桃體/舌根隱窩），勿因原發灶不明顯而低估分期。[^1]
+- **ENE 陷阱**：影像上淋巴結被膜外侵犯（模糊邊緣、脂肪浸潤、周邊結構侵犯）在**非 HPV 相關**頭頸癌會上調 N 分期；但 **p16+ OPC 的臨床分期不看 ENE**，兩系統勿混用。[^1]
 
-HPV-positive OPC 特徵：
-- 較年輕、社經地位較高、較少吸菸
-- 初診時常較晚期（regional lymph node involvement）
-- 非角化型鱗狀細胞癌 (nonkeratinizing SCC) 與 HPV-OPC 高度相關
+## 臨床重點（5 句）
+1. HPV 相關 OPC 病人相對年輕、社經地位較高、吸菸較少，且多為非角化型鱗狀細胞癌。[^1]
+2. HPV+ OPC 初診時常已有區域淋巴結轉移，但整體預後仍優於 HPV 陰性者，故需獨立分期。[^1]
+3. p16 免疫組化為臨床判定 HPV 狀態之代用標記，決定病人走 p16+ 或 p16− 分期系統。[^1]
+4. 考題所依版本為 AJCC 第八版；若題幹或臨床沿用第七版，分期界值不同須註明版本。[^1]
+5. p16+ OPC 之 T 分期取消原位癌/Tis 並整併，須以第八版準則判讀。[^1]
 
-## 陷阱
+> [!note] 考點一：AJCC 第八版頭頸癌分期有哪些重大改變？
+> 主要為 **(2) p16 陽性 OPC 有獨立 TNM 分期** 與 **(3) extranodal extension（ENE）影響 N 分期**（正解 2,3）。[^1]
 
-- HPV+OPC 有獨立 TNM 但**不看 ENE**
+> [!note] 考點二：p16+ OPC 之 cN2 為何種狀態？
+> **雙側（bilateral）**頸部淋巴結 ≤6cm 且位於環狀軟骨下緣以上 → cN2。（同側 ≤6cm 為 cN1；>6cm 或延伸至環狀軟骨下緣以下為 cN3。）[^1]
 
 ### 參考來源
+[^1]: 據 PubMed，Kubo K, et al. The applicability of new TNM classification for HPV-related oropharyngeal cancer in the 8th edition of the AJCC/UICC TNM staging system in Japan. Auris Nasus Larynx. 2018.（涵蓋第八版 p16+ OPC 之 T/N 分期準則）[DOI](https://doi.org/10.1016/j.anl.2017.07.010)。
 
-[^1]: AJCC Cancer Staging Manual, 8th Edition
+> [!question]- AJCC 8th edition 對於頭頸癌之分期有哪些重大改變？ (2019-341)
+> **B（2,3）。** (2) p16+ OPC 有獨立 TNM 分期；(3) ENE 影響 N 分期。[^1]
+
+> [!question]- For P16+ oropharyngeal cancer, which status is N2 stage? (2019-375)
+> **B。** 雙側頸部淋巴結 ≤6cm 且於環狀軟骨下緣以上為 cN2（選項 A 為 cN1、D 延伸至環狀軟骨下緣以下為 cN3）。[^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID file.link AS 卡片, questionText AS 題目
-FROM "vault/cards"
-WHERE contains(concepts, "ajcc-head-neck-8th")
+list from #交換 where contains(concepts, "ajcc-head-neck-8th")
 ```
