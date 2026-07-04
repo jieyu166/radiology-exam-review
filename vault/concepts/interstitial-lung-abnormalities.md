@@ -24,12 +24,26 @@ same:
   - **Subpleural fibrotic**：含**牽引性支氣管擴張/honeycombing** → **死亡率與進展風險最高,依 UIP 診斷標準分類**;至少看到 subpleural fibrotic 應報告。
 - **處置**：看到 honeycombing/traction bronchiectasis → 轉胸腔科評估、做 HRCT/PFT;**centrilobular GGO 已不納入 ILA 範疇**。[^2]
 
+## 放射科醫師影像判讀重點
+- **定義三要件（Fleischner 2020）**：**偶然、雙側、non-dependent 之 CT 間質異常、影響 ≥5% 某一肺區、病人非疑 ILD**——缺任一即非標準 ILA。[^2]
+- **三型（Fleischner 2020）**：**① non-subpleural、② subpleural non-fibrotic、③ subpleural fibrotic（含 traction bronchiectasis/honeycombing）**；**subpleural fibrotic 最易進展、死亡率最高，依 UIP 診斷標準分類**。[^2]
+- **不納入（Fleischner 2020）**：**centrilobular GGO、dependent atelectasis、smoking-related centrilobular nodularity（RB）不屬 ILA**。[^2]
+- **報告/處置**：見 honeycombing/traction bronchiectasis（subpleural fibrotic）→ 報告並建議轉胸腔科 + HRCT/PFT；亦註明併發（化療/手術風險增）。[^2]
+- **量化評估**：可用定量 CT 追蹤進展（Fleischner 提及為未來研究方向）。[^2]
+
+## 臨床重點（5 句）
+1. **本質/盛行（Fleischner 2020）**：**ILA＝與 ILD 相容但無臨床疑診之偶見 CT 發現**；**吸菸者 4-9%、非吸菸者 2-7%、老年較多**；隨肺癌 LDCT 篩檢普及而增多。[^2]
+2. **臨床意義（Fleischner）**：**與影像進展、死亡率增加、及醫療介入（化療/手術）併發風險相關**。[^2]
+3. **管理核心（Fleischner）**：**區分臨床顯著 ILD 與 subclinical ILA**——尤其辨識 subpleural fibrotic 亞型（最易進展/相關死亡）。[^2]
+4. **危險因子**：吸菸、老年、遺傳（MUC5B）等。[^2]
+5. **追蹤**：多科整合評估初始檢查、監測與管理；subpleural fibrotic 需較密切追蹤。[^2]
+
 > [!note] 考點
 > ILA＝偶見、雙側、non-dependent、**≥5% 肺區**、未疑 ILD;**subpleural fibrotic 型預後/進展風險最高**;見 honeycombing/traction bronchiectasis 要報告並轉介。[^1][^2]
 
 ### 參考來源
 [^1]: *Interstitial lung abnormality*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**incidental, bilateral, non-dependent** CT abnormalities involving **at least 5% of a lung zone** in patients **not suspected of having ILD**」;三型分類「subpleural fibrotic: increased mortality and risk of progression; classify per UIP diagnostic criteria」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
-[^2]: Fleischner Society ILA 立場聲明（Hatabu et al. Lancet Respir Med 2020）＋ 2022 ILA 共識：見 honeycombing/traction bronchiectasis 為 potentially progressive、應 HRCT/PFT 評估;centrilobular GGO 已移出 ILA 範疇。
+[^2]: **Tier 1** Hatabu H, Hunninghake GM, Richeldi L, et al. *Interstitial lung abnormalities detected incidentally on CT: a Position Paper from the Fleischner Society*. Lancet Respir Med 2020;8(7):726-37（據 PubMed，DOI [10.1016/S2213-2600(20)30168-5](https://doi.org/10.1016/S2213-2600(20)30168-5)，PMC7970441；Consensus Statement；實際查證 accessed 2026-07-04）——**ILA＝與 ILD 相容但無臨床疑診之偶見 CT 發現（吸菸者 4-9%/非吸菸者 2-7%）**；**定義（偶然、雙側、non-dependent、≥5% 肺區、非疑 ILD）；三型（non-subpleural / subpleural non-fibrotic / subpleural fibrotic 最易進展依 UIP 分類）；centrilobular GGO/dependent atelectasis/RB 不屬 ILA**；與影像進展、死亡率增加、化療/手術併發風險相關；管理須區分臨床顯著 ILD 與 subclinical，見 honeycombing/traction bronchiectasis 應 HRCT/PFT 評估轉介。
 
 ## 考題
 ```dataview
