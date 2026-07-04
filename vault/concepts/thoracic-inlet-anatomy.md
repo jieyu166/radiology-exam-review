@@ -34,6 +34,13 @@ Thoracic outlet syndrome 相關的狹窄好發於三個由內而外排列的腔�
 - **傳統胸廓入口／頸椎 X 光的角色**：疑似 TOS 病人**即使已安排 MRI，仍應加做傳統攝影**——**頸肋等骨性異常在 MRI 上可能被漏掉**；X 光同時可篩檢其他致上肢症狀之病因（如腫瘤）。與 TOS 相關之主要骨性異常：頸肋、elongated C7 橫突、第一肋異常、鎖骨異常。[^3]
 - **臨床**[^3]：可壓迫造成 **thoracic outlet syndrome（TOS）**;神經型壓迫**臂神經叢下幹（C8、T1）**→手與前臂無力、可有第 3–5 指 clawing;亦可壓迫鎖骨下動/靜脈（但影像上鎖骨下血管狹窄 ≠ 一定是 TOS,須避免過度診斷）。
 
+## 放射科醫師影像判讀重點
+- **軸狀 CT 定位（考點 1）**：以**完整第一肋環**作為 thoracic inlet 平面的最可靠標誌；T1 椎體會傾斜、甲狀腺大小／位置多變、scalene 附著變異，皆較不可靠。[^2]
+- **邊界與內容物判讀**：邊界＝後 T1＋肋椎關節、外側第一肋＋肋軟骨、前 manubrium 上緣；判讀時定位氣管／食道、tracheo-esophageal sulcus（含 recurrent laryngeal nerve）、胸管（偏左）、大血管與肺尖（Sibson's fascia）。[^1]
+- **Cervical rib 鑑別（考點 2，最可靠→輔助）**：**gold standard＝有 C-spine 影像時從 C1/C2 逐節數到 C7**，確認額外肋源自 C7（cervical rib）或 T1（第一胸肋）；輔助看橫突朝向（**C7 向下、T1 向上**）與肋骨型態，但缺 C-spine 時角度／型態差異常看不出、易誤判。[^3][^4]
+- **TOS 三腔室（由內而外）**：**scalene triangle → costoclavicular space → pectoralis minor space**；神經型多壓迫**臂神經叢下幹（C8/T1）**，亦可壓鎖骨下動／靜脈，但影像上血管狹窄 ≠ 一定是 TOS，須避免過度診斷。[^3]
+- **判讀陷阱／技巧**：疑似 TOS 病人**即使已排 MRI 仍應加做傳統攝影**，因**頸肋等骨性異常在 MRI 可能被漏掉**，且可同時篩檢其他致上肢症狀病因；cervical rib 影像譜自 elongated C7 橫突 → 不完全頸肋 → 完整頸肋（與第一肋 tubercle 形成關節／假關節，CT MIP 可見）。[^3]
+
 > [!note] 考點 1：軸狀 CT 上界定 thoracic inlet 最可靠的標誌?
 > **First ribs（第一肋骨）**;T1 椎體、甲狀腺、斜角肌較不可靠。[^2]
 

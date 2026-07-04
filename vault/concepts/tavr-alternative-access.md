@@ -24,6 +24,19 @@ dateRev: 2026-07-02
   - 肋膜鈣化/異常、心包鈣化
   - 左心室射血分率過低（**<20%**）
 
+## 放射科醫師影像判讀重點
+- **術前 CTA（路徑選擇核心）**：以 gated 主動脈-髂-股動脈 CTA 評估各路徑可行性；subclavian／腋動脈需管徑 **≥6 mm**、無嚴重鈣化或過度扭曲（tortuosity），任一不符即為禁忌。[^1]
+- **Transaortic 進針點判讀**：理想 aortotomy 位於**升主動脈右側緣（right lateral aspect）、沿 greater curvature**，距無名動脈近端約 1 cm，且距主動脈瓣至少 **5.5 cm** 以容納 balloon-expandable valve 展開空間。[^1]
+- **Transapical 影像評估**：於 CT 評估左心室尖端位置與心肌狀態；**尖端過於 medial／inferior／posterior 為相對禁忌**（thoracotomy 路徑受限），此為考題陷阱（非「非禁忌症」）。[^1]
+- **胸壁／心臟結構限制**：既往心梗致心肌顯著變薄或鈣化、肋膜／心包鈣化或異常、LVEF 過低（**<20%**）皆限制 transapical 路徑，術前影像須逐項排查。[^1]
+
+## 臨床重點（5 句）
+- 股動脈路徑仍為 TAVR 首選；替代路徑依侵襲程度排序為 subclavian → transaortic → transapical。[^1]
+- Transapical 侵襲性最高，通常保留於股動脈、鎖骨下、transaortic 路徑皆有禁忌時採用。[^1]
+- 路徑選擇由 heart team 綜合血管條件、心功能與胸壁解剖共同決定。[^1]
+- Subclavian／腋動脈路徑對嚴重周邊動脈疾病者提供可行替代。[^1]
+- 各替代路徑之選擇直接影響出血、中風與併發症風險，術前影像評估為關鍵。[^1]
+
 > [!note] 考點：左心室尖端位置異常（過於medial/inferior/posterior）是否為transapical approach之相對禁忌症？
 > **是**（相對禁忌症）——若考題敘述「不是相對禁忌症」則為錯誤選項。[^1]
 

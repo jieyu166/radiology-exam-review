@@ -20,6 +20,20 @@ dateRev: 2026-07-02
 - **Necrotizing/malignant otitis externa**：好發**老年糖尿病或免疫低下**患者（非年輕女性）。[^1]
 - **EAC carcinoma**：不規則軟組織腫塊伴骨侵蝕。[^1]
 
+## 放射科醫師影像判讀重點
+- **CT 為顳骨發炎首選**：高解析度骨窗判斷 EAC 內軟組織與**骨侵蝕的有無與型態**，是鑑別各病種的主軸。[^1]
+- **keratosis obturans vs EAC cholesteatoma**：keratosis obturans 呈 EAC **對稱擴大、無局部骨侵蝕、常雙側、好發年輕人**；EAC cholesteatoma 為**局部（多下壁）骨侵蝕＋骨片游離（sequestrum）、多單側、年長者**——兩者角質堆積相似，靠侵蝕型態分辨。[^1]
+- **necrotizing（malignant）otitis externa 判讀警訊**：EAC 底壁軟組織＋**進行性骨破壞**可沿顱底蔓延，須評估至顳顎關節、頸動脈管、顱底孔道與顱內；好發老年糖尿病／免疫低下，勿誤為單純外耳炎。[^1]
+- **EAC carcinoma 鑑別**：不規則軟組織腫塊伴侵襲性骨破壞，影像與 necrotizing otitis externa 重疊，臨床病史（糖尿病 vs 腫塊）與必要時切片為分辨關鍵。[^1]
+- **判讀陷阱**：EAC cholesteatoma 與 keratosis obturans 皆為角質堆積，關鍵區別在「有無局部骨侵蝕」；勿只憑管內軟組織即下診斷。[^1]
+
+## 臨床重點（5 句）
+- keratosis obturans 好發 <40 歲年輕人、約半數雙側，臨床可表現急性耳痛與傳導性聽力減退。[^1]
+- EAC cholesteatoma 發生率低（約 0.1–0.5%），多見於年長者、單側、常伴慢性鈍痛與耳漏。[^1]
+- necrotizing（malignant）otitis externa 好發老年糖尿病或免疫低下患者，致病菌典型為綠膿桿菌（Pseudomonas aeruginosa）。[^1]
+- necrotizing otitis externa 可併發顱神經麻痺（尤其顏面神經），為病情惡化與預後不良的警訊。[^1]
+- EAC carcinoma 罕見，常以慢性耳漏、疼痛與出血表現，易被誤診為慢性外耳炎而延誤。[^1]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Radiology 2013; 269:17-33, Imaging Review of the Temporal Bone: Part I。
 

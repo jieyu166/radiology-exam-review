@@ -51,6 +51,13 @@ dateRev: 2026-06-29
 > [!note] 考點：除哪一項外？
 > 三型＝海綿竇／翼叢（sphenobasal, basal emissary）／沿中顱窩底越岩錐入岩下或橫竇（sphenopetrosal）。**「向上至 MCV 再入 SSS」非其引流型**（MCV 為其屬支、流向相反）。[^2][^3]
 
+## 放射科醫師影像判讀重點
+- **定位起點**：先於影像定位**蝶骨小翼後下緣／脊**，沿此追蹤細小竇道即蝶頂竇（sinus of Breschet）。[^1][^2]
+- **辨方向（最常考）**：**superficial MCV（Sylvian vein）是流『入』SPS 的屬支**，SPS 再向內引流入海綿竇；「SPS 向上至 MCV 再入 SSS」方向相反，非其引流型。[^2][^3]
+- **三型出路（依最終出口分）**：①海綿竇型（小翼→海綿竇，最常見、最 benign）②sphenobasal（大翼→經 emissary foramina 入翼叢）③sphenopetrosal（大翼→沿中顱窩底至岩竇／橫竇）——判讀以**最終出口**而非單看 SMCV。[^3]
+- **序列選擇**：DSA 為金標準（辨流向與多條平行淺 Sylvian 靜脈中的真竇）；**對比後 T1WI／MRV** 對顯示外側腔室化（laterocavernous/paracavernous）最佳，TOF-MRV 因慢流／小管徑易漏顯小竇。[^4]
+- **DDx／陷阱**：①「看不到 SPS」≠異常（盛行率僅約 70–85%、管徑多 ≤3 mm）②沿蝶脊多條平行淺 Sylvian 靜脈勿一概當單一竇③SPS／SMCV 異常擴張、迂曲、早顯影須警覺 **DAVF**，尤其**大翼型（sphenobasal/sphenopetrosal）** CVR、SMCV 受累、varix 比例遠高於小翼型，不可一概視為良性。[^1][^3][^4]
+
 ### 參考來源
 [^1]: Posey RG, et al. *The Sphenoparietal Sinus Revisited: Anatomical and Histological Study With Application to Interventional Procedures and Skull Base Surgery.* Cureus. 2023（解剖／組織學研究，article 級）。SPS 沿蝶骨小翼走行；屬支含 superficial Sylvian、middle meningeal、anterior temporal veins，向內側入海綿竇；盛行率肉眼 70%（14/20）、組織學 85%、合併約 78%；管徑多 ≤3 mm。DOI: 10.7759/cureus.33419。
 [^2]: *Sphenoparietal sinus.* Radiopaedia.org（輔助來源，accessed 2026-06-29）。沿蝶骨小翼後下緣；接收 superficial middle cerebral vein 等屬支；典型引流入海綿竇。

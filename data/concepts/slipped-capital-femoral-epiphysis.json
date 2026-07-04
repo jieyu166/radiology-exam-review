@@ -3,14 +3,14 @@
   "definition": "**SCFE好發於「男孩」不是女孩——這是本題陷阱。其餘記憶：肥胖是重要危險因子、本質是Salter-Harris第一型生長板損傷（骨骺相對幹骺端向後內下滑脫）、Klein線（沿股骨頸上緣畫線正常應切過骨骺外側部分，SCFE時未切過）有助診斷。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **首選 X 光取雙側 AP＋frog-leg lateral**：早期或輕度滑脫在正面片可能不明顯，frog-leg lateral（側位）對後方滑脫更敏感，務必雙側比對。\n- **Klein 線的正確畫法與判讀**：沿股骨頸上緣（外側緣）畫直線，正常應切到骨骺外上部分；SCFE 時切過的骨骺量減少或未切過（改良 Trethowan sign），是最常被考的影像徵象。\n- **早期間接徵象**：生長板增寬且邊緣模糊、幹骺端相對骨骺呈相對外移、Capener 三角消失、骨骺高度變矮，可在 Klein 線明顯異常前先出現。\n- **本質為 Salter-Harris I 型**：骨骺相對幹骺端經生長板向後、內、下滑脫，報告描述滑脫方向與程度（輕/中/重）有助臨床決定固定角度。\n- **陷阱：務必評估對側**——雙側可先後發生，單側 SCFE 診斷成立時要主動看對側生長板是否已早期變化。",
   "keyPoints": [
     "**性別/族群**：**男孩多於女孩**（本題A敘述「more common in girls」為錯誤）；黑人/加勒比裔多於白人；男孩發病年齡較晚（10-17歲）、女孩較早（8-15歲）。",
     "**危險因子**：**肥胖為重要危險因子**；亦見於內分泌異常（甲狀腺低下、生長激素治療等）。",
     "**病理本質**：**Salter-Harris第一型生長板損傷**——股骨頭骨骺相對於幹骺端經生長板向後、內、下方滑脫。",
     "**影像診斷**：**Klein線（line of Klein）**——沿股骨頸上緣畫直線，正常應切過股骨頭骨骺外側部分；SCFE時該線未切過骨骺（或切過變少），有助診斷；亦可見骨骺高度變矮、生長板增寬模糊。"
   ],
-  "management": "",
+  "management": "- SCFE **男孩多於女孩**（本題陷阱），男孩發病年齡較晚（約 10-17 歲）、女孩較早（約 8-15 歲）。\n- **肥胖是重要危險因子**；亦與甲狀腺低下、生長激素治療等內分泌異常相關。\n- 黑人／加勒比裔發生率高於白人。\n- 典型表現為髖／膝／大腿疼痛與跛行，膝部轉移痛易延誤診斷。\n- 屬需及時處理的骨科半急症，延遲固定會增加股骨頭缺血性壞死風險。\n\n> [!note] 考點：關於SCFE何者「為非」？\n> **More common in girls（A）**——實際上SCFE男孩多於女孩。肥胖為重要危險因子(B對)、本質為Salter-Harris第一型生長板損傷(C對)、Klein線有助診斷(D對)皆為正確描述。\n\n**參考來源**\n: Boles CA, El-khoury GY. *Slipped capital femoral epiphysis*. RadioGraphics. 17(4):809-23（2018 交換考題詳解 p.258 引用；Tier 1 期刊）。SCFE男孩多於女孩、黑人/加勒比裔多於白人、男孩發病較晚(10-17歲)女孩較早(8-15歲)；肥胖為重要危險因子；本質為Salter-Harris第一型生長板損傷；Klein線有助診斷。",
   "name": "Slipped Capital Femoral Epiphysis (SCFE)",
   "nameZh": "股骨頭骨骺滑脫",
   "slug": "slipped-capital-femoral-epiphysis",

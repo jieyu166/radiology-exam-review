@@ -21,6 +21,19 @@ same:
 - **貼近橫膈腹側的大型HCC**：應執行**right internal mammary artery**（非其他方位）之選擇性血管攝影，因其供應橫膈**腹側（ventral）**——「dorsal aspect of the diaphragm」為錯誤方位描述，正確應為「ventral aspect」。[^1]
 - **Intercostal artery TACE之禁忌**：若microcatheter無法遠端推進，因脊髓梗塞與皮膚壞死高風險而**禁忌**執行TACE。[^1]
 
+## 放射科醫師影像判讀重點
+- **懷疑EHC供應的觸發情境**：多次TACE後、腫瘤位於肝周邊（裸區、包膜下、鄰近橫膈）或治療後仍有殘留染色時，須主動於血管攝影搜尋寄生性肝外側枝；接受TACE次數越多，寄生供應機率越高。[^1]
+- **最常見來源—right inferior phrenic artery**：因直接接觸肝臟裸區，為肝外寄生供應**最常見**來源（可達HCC寄生供應之70%）；判讀腫瘤位於裸區/橫膈面時，應優先於此動脈行選擇性攝影確認供血。[^1]
+- **方位判讀關鍵（ventral vs dorsal 陷阱）**：貼近橫膈**腹側（ventral）**的大型HCC，應執行**right internal mammary artery**之選擇性血管攝影（因其供應橫膈腹側）；題目常以「dorsal aspect」偷換方位設陷阱，正確方位為ventral。[^1]
+- **肋間動脈途徑之安全判讀（禁忌辨識）**：經intercostal artery行TACE時，若microcatheter無法充分遠端推進超過脊髓供血分支，因脊髓梗塞與皮膚壞死之高風險而**禁忌**施行；影像上須辨識並避開發出脊髓根動脈之節段。[^1]
+
+## 臨床重點（5 句）
+- 肝外側枝（EHC）動脈的形成會削弱TACE對HCC的療效，屬治療殘留與復發的重要機轉。[^1]
+- 反覆TACE會提高腫瘤發展寄生性肝外供血的機率，故多次治療後須警覺EHC。[^1]
+- 辨識並栓塞主要EHC（如right inferior phrenic artery）有助於提升腫瘤壞死程度與治療完整性。[^1]
+- 經肋間動脈途徑存在脊髓梗塞與皮膚壞死風險，microcatheter無法安全遠端推進時為禁忌。[^1]
+- 完整的EHC評估需要對周邊型HCC進行系統性供血動脈搜尋，以避免療效受寄生供血干擾。[^1]
+
 > [!note] 考點：EHC動脈敘述何者「不正確」？
 > **Right internal mammary artery選擇性血管攝影應用於貼近橫膈「dorsal」aspect之大型HCC（C）**——正確應為「ventral」aspect（腹側），非dorsal。Parasitic supply與TACE次數正相關(A對)、right inferior phrenic artery貢獻達70%(B對)、intercostal artery microcatheter無法遠端推進時禁忌TACE(D對)皆為正確描述。[^1]
 

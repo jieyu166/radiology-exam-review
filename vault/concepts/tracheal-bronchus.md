@@ -26,6 +26,20 @@ dateRev: 2026-06-28
 - **氣道管理**：插管時氣管內管若卡在開口上方或誤入，可阻塞此支氣管致**右上葉塌陷、阻塞後肺炎、呼吸衰竭**；術前若已知 anomaly 應留意管尖位置。[^statpearls][^pmc]
 - **DDx — accessory cardiac bronchus**：起自 **bronchus intermedius（或右主支氣管）內側壁**、朝心臟/縱膈下內側走、多為盲端（無周邊肺組織）；與 tracheal bronchus 的「氣管側壁起源、供 RUL」不同。[^acb]
 
+## 放射科醫師影像判讀重點
+- **判讀關鍵＝定位起點**：在氣管**右側壁、隆突上方 <2 cm** 找到額外支氣管開口即最常見定義；記憶鉤「右牆、近叉、不到 2」。[^statpearls][^jksr]
+- **MDCT ＋ 3D／冠狀重組為診斷利器**：可非侵入性直接顯示異常支氣管起點並釐清 RUL 支氣管來源，優於單看軸位；TTB 多自奇靜脈弓下方走向 RUL。[^statpearls][^jksr]
+- **分型判讀**：正常 RUL 三分支缺一支而由此支取代＝**displaced（移位型，較常見）**；RUL 三分支齊全另多一支＝**supernumerary（額外型）**；整個 RUL 由起自氣管者供應＝**pig bronchus / bronchus suis**。[^statpearls]
+- **必評估併發影像**：所供應肺段有無 **bronchiectasis、局部 emphysema、囊狀病變、反覆感染／塌陷**痕跡，並在報告中提示。[^statpearls][^pmc]
+- **陷阱：與 accessory cardiac bronchus 區分**——後者起自 bronchus intermedius 內側壁、朝心臟下內側走、多為盲端無周邊肺組織；起點與走向不同，勿混淆。[^acb]
+
+## 臨床重點（5 句）
+- 成人多為**無症狀**，常於 CT 或支氣管鏡偶然發現。[^statpearls]
+- 分泌物滯留可致**反覆右上葉肺炎、慢性支氣管炎、肺葉／節塌陷、支氣管擴張**。[^statpearls][^pmc]
+- **麻醉插管時**氣管內管若卡在開口上方或誤入，可阻塞此支氣管致右上葉塌陷、阻塞後肺炎、甚至呼吸衰竭。[^statpearls][^pmc]
+- 術前若已知此 anomaly，應留意氣管內管管尖位置以避免阻塞。[^pmc]
+- 屬先天性支氣管分支變異，右側遠多於左側。[^statpearls][^jksr]
+
 > [!note] 考點：tracheal bronchus 最常起自何處?
 > **氣管右側壁、距氣管分叉 <2 cm**（隆突上方）。[^statpearls]
 

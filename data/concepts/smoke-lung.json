@@ -18,7 +18,7 @@
       "url": "https://doi.org/10.1148/rg.250167"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **分布是第一分流線索**：上肺想 centrilobular 氣腫／RB-ILD／PLCH；下肺想 AMP（原 DIP）／IPF；subpleural 想 paraseptal 氣腫／SRIF——先定位分布再套病種。\n- **氣腫型態辨識**：centrilobular（小葉中央低密度、早期尊重小葉界線、上肺）／paraseptal（distal acinus、近胸膜、易併自發氣胸）／panlobular（整個小葉均勻破壞、下肺、α1-antitrypsin）；VLS 為上肺巨大 bullae。\n- **RB-ILD 判讀關鍵**：ill-defined centrilobular GGO 結節＋支氣管壁增厚、上肺為主、常與 centrilobular 氣腫並存；幾乎全數與吸菸相關，勿誤判為「非吸菸中年女性」方向。\n- **SRIF vs honeycombing**：SRIF 為 subpleural predominant 的 hyalinized 纖維化＋氣腫＋色素巨噬細胞，須與 UIP 的 honeycombing 區分，因兩者預後與處置不同。\n- **EVALI 判讀陷阱**：CT 呈 organizing pneumonia／DAD 樣、centrilobular 結節反映氣道中心傷害，常見 subpleural sparing（貌似 HP 但非），須結合近 90 天 vaping 史臨床診斷。",
   "keyPoints": [
     "**分類框架**：SR-ILD 分兩組——**第一組（直接吸菸相關）**：AEP、RB、RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈吸菸關聯、非純吸菸）**：IPF、CPFE。",
     "**氣腫**：centrilobular（最常見、上肺、尊重小葉界線）／paraseptal PSE（distal acinus、近胸膜）／panlobular（整個小葉、下肺）；極端為 **VLS（giant bullous emphysema）** 上肺大 bullae。",
@@ -27,7 +27,7 @@
     "**SRIF**：新近認可的吸菸相關纖維化；hyalinized 間質纖維化 + 氣腫 + 色素巨噬細胞；**subpleural predominant**，須與 honeycombing 區分。",
     "**新型吸入傷害**：EVALI（vaping，organizing pneumonia 樣、常 subpleural sparing）、marijuana（barotrauma → bullae/氣胸/縱膈氣腫）。"
   ],
-  "management": "",
+  "management": "- 吸菸相關肺實質疾病橫跨氣道—氣腫—間質連續譜，分兩組：第一組直接吸菸相關（AEP、RB／RB-ILD、AMP、PLCH、SRIF），第二組強烈吸菸關聯但多因子（IPF、CPFE）。\n- 術語已更新：DIP 現稱 AMP（alveolar macrophage pneumonia），與 RB-ILD 同屬巨噬細胞堆積譜系。\n- AEP 為急性病程（≤1 個月）、對類固醇反應佳，常見於近期開始或重新吸菸者。\n- CPFE 肺功能特徵為肺容積相對保留但 DLCO 明顯下降，易併發肺高壓。\n- 戒菸是 RB-ILD、AMP 等第一組疾病的核心處置，多數病灶可隨戒菸改善。",
   "name": "Smoking-related Pulmonary Parenchymal Disease",
   "nameZh": "吸菸相關肺實質疾病",
   "slug": "smoke-lung",

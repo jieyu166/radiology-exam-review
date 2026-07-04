@@ -3,14 +3,14 @@
   "definition": "**顳骨發炎性病變鑑別：keratosis obturans 好發年輕人，常雙側；EAC cholesteatoma 發生率約 0.1-0.5%（非 1-5%）；necrotizing otitis externa 好發老年糖尿病/免疫低下（非年輕女性）。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **CT 為顳骨發炎首選**：高解析度骨窗判斷 EAC 內軟組織與**骨侵蝕的有無與型態**，是鑑別各病種的主軸。\n- **keratosis obturans vs EAC cholesteatoma**：keratosis obturans 呈 EAC **對稱擴大、無局部骨侵蝕、常雙側、好發年輕人**；EAC cholesteatoma 為**局部（多下壁）骨侵蝕＋骨片游離（sequestrum）、多單側、年長者**——兩者角質堆積相似，靠侵蝕型態分辨。\n- **necrotizing（malignant）otitis externa 判讀警訊**：EAC 底壁軟組織＋**進行性骨破壞**可沿顱底蔓延，須評估至顳顎關節、頸動脈管、顱底孔道與顱內；好發老年糖尿病／免疫低下，勿誤為單純外耳炎。\n- **EAC carcinoma 鑑別**：不規則軟組織腫塊伴侵襲性骨破壞，影像與 necrotizing otitis externa 重疊，臨床病史（糖尿病 vs 腫塊）與必要時切片為分辨關鍵。\n- **判讀陷阱**：EAC cholesteatoma 與 keratosis obturans 皆為角質堆積，關鍵區別在「有無局部骨侵蝕」；勿只憑管內軟組織即下診斷。",
   "keyPoints": [
     "**Keratosis obturans**：好發 **<40 歲年輕人**，**50% 雙側**，EAC 內角質碎片堆積。",
     "**EAC cholesteatoma**：發生率約 **0.1-0.5%**，EAC 局部骨侵蝕，軟組織密度。",
     "**Necrotizing/malignant otitis externa**：好發**老年糖尿病或免疫低下**患者（非年輕女性）。",
     "**EAC carcinoma**：不規則軟組織腫塊伴骨侵蝕。"
   ],
-  "management": "",
+  "management": "- keratosis obturans 好發 <40 歲年輕人、約半數雙側，臨床可表現急性耳痛與傳導性聽力減退。\n- EAC cholesteatoma 發生率低（約 0.1–0.5%），多見於年長者、單側、常伴慢性鈍痛與耳漏。\n- necrotizing（malignant）otitis externa 好發老年糖尿病或免疫低下患者，致病菌典型為綠膿桿菌（Pseudomonas aeruginosa）。\n- necrotizing otitis externa 可併發顱神經麻痺（尤其顏面神經），為病情惡化與預後不良的警訊。\n- EAC carcinoma 罕見，常以慢性耳漏、疼痛與出血表現，易被誤診為慢性外耳炎而延誤。\n\n**參考來源**\n: 2019 交換考詳解；Radiology 2013; 269:17-33, Imaging Review of the Temporal Bone: Part I。",
   "name": "Temporal Bone — Inflammatory Lesions",
   "nameZh": "顳骨發炎病變",
   "slug": "temporal-bone-inflammatory",

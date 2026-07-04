@@ -27,6 +27,14 @@ down:
 - **Chondrosarcoma**：成人**最常見的『原發』惡性胸壁腫瘤**；肋骨占~8%、好發**前肋/肋軟骨交界**；**ring-and-arc 軟骨基質鈣化**、**高 T2（中央高含水）**、低惡性度為**低細胞/高 ADC（擴散不受限）**。[^4]
 - **Ewing/PNET（Askin tumor）**：**兒童與年輕成人**；大型侵襲性、不均勻（出血/壞死/囊變）軟組織腫塊、**強烈強化**、鈣化少；round cell → **restricted diffusion**。[^3]
 
+## 放射科醫師影像判讀重點
+- **判讀第一步＝分流年齡與病史**：>40 歲先想轉移／骨髓瘤／chondrosarcoma，兒童／年輕成人才把 Ewic/Askin 提到最前；有已知原發癌時整組鑑別大幅收斂。[^1][^5]
+- **CT 看骨與基質、MRI 看軟組織範圍**：CT 判斷皮質破壞、膨脹型態與有無鈣化基質（ring-and-arc＝軟骨、雲霧狀 osteoid＝骨源性）；MRI 界定軟組織腫塊與侵犯範圍以利分期與切片規劃。[^2]
+- **DWI/ADC 是良惡與細胞型態的分水嶺**：restricted diffusion（低 ADC）＝高細胞密度，支持 round cell（Ewing/淋巴瘤）、漿細胞瘤、轉移、高惡性度肉瘤；高 ADC／不受限則偏向傳統低惡性度 chondrosarcoma。[^2][^4]
+- **膨脹性（blow-out）＋富血管不均勻強化**：想 RCC／thyroid／HCC／pheo／melanoma 等 hypervascular 轉移；配合病史可高度收斂（如本案 HCC 骨轉移）。[^2]
+- **陷阱：後外側下位肋＋restricted diffusion＋無軟骨基質**，三點同時出現時不典型於傳統 chondrosarcoma，勿因位置在肋骨就先扣 chondrosarcoma；反而偏向轉移／漿細胞瘤／round cell。[^2][^4]
+- **陷阱：骨掃描可能偽陰性**（如 HCC 溶骨轉移），懷疑時靠 CT／MRI／PET-CT 判定，勿因骨掃描陰性而排除。[^2]
+
 ## 鑑別與報告要點
 | 實體 | 年齡/族群 | 關鍵影像 | DWI/ADC |
 | --- | --- | --- | --- |

@@ -8,13 +8,13 @@
       "url": "https://doi.org/10.1148/rg.2018180044——SONK正名為subchondral"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **好發部位與族群**：典型見於年長者（尤其女性）之單一膝關節、無明顯外傷史，最常侵犯**內側股骨髁承重面（medial femoral condyle）**；此臨床-部位組合本身即為傾向 SONK／軟骨下不足性骨折的重要判讀線索。\n- **X光**：早期常正常；進展後可見承重面下方之軟骨下透亮／扁平化、軟骨下塌陷（subchondral collapse），Ahlbäck 分期即描述此塌陷進程；晚期併發次發性退化性關節炎。\n- **MRI（最敏感、判讀主軸）**：軟骨下 T2 高訊號骨髓水腫合併與關節面平行之**低訊號軟骨下線（subchondral fracture line）**，反映軟骨下不足性骨折；病灶集中於單一承重髁，水腫範圍與臨床疼痛相關。\n- **關鍵鑑別**：與缺血性壞死（多因、常雙側/多灶、地圖狀 double-line sign）及一過性骨髓水腫（無軟骨下骨折線、可自限）鑑別；SONK 之核心是「軟骨下不足性骨折」而非原發性骨梗塞，判讀重點在找軟骨下低訊號骨折線與塌陷。",
   "keyPoints": [
     "**傳統危險因子**：**肥胖(obesity)**、**皮質類固醇使用(corticosteroid administration)**、**半月板撕裂(meniscal tear)**。",
     "**教科書列為非危險因子**：**骨質疏鬆(osteoporosis)**——依Musculoskeletal Imaging: The Requisites教科書未列為SONK之關聯危險因子。",
     "**概念更新（重要背景）**：Society of Skeletal Radiology Subchondral Bone Nomenclature Committee建議將SONK正名為「**subchondral insufficiency fracture（軟骨下不足性骨折）**」，因其本質並非單純骨壞死，而是軟骨下不足性骨折進展為軟骨下塌陷合併次發性骨壞死；其病因學上與**骨質疏鬆(osteoporosis)及不足性骨折(insufficiency fractures)**有關（骨小樑弱化合併微創傷力），非傳統認為之骨死亡。"
   ],
-  "management": "",
+  "management": "- SONK（Ahlbäck disease）典型為年長者急性發作之單膝疼痛、無明顯外傷史，常夜間加劇。\n- 傳統危險因子包含肥胖、皮質類固醇使用與半月板撕裂。\n- Society of Skeletal Radiology 建議正名為「subchondral insufficiency fracture（軟骨下不足性骨折）」，反映其本質為軟骨下不足性骨折而非原發骨壞死。\n- 依此概念更新，骨質疏鬆與不足性骨折被部分文獻列為相關因子，與傳統教科書分類存在分歧（見上方存疑註記）。\n- 治療依塌陷程度分層：早期可保守（減重、止痛、限重），塌陷／續發退化性變化嚴重者需手術（如單髁置換或全膝置換）。\n\n> [!warning] 官方答案存疑（醫師覆核用）\n> 本題官方標示答案為D（骨質疏鬆非危險因子），依教科書來源(Musculoskeletal Imaging: The Requisites)為正確。惟官方詳解本身於此頁加註存疑，因RadioGraphics(2018;38, DOI 10.1148/rg.2018180044)之table將osteoporosis列為SONK/subchondral insufficiency fracture之危險因子之一——此文獻觀點下，反而應考慮**皮質類固醇使用(corticosteroid administration，選項B)**是否才是「非」危險因子之答案更具爭議。暫依官方標示D為預設值，建議醫師覆核最新文獻共識。\n\n> [!note] 考點：何者「非」SONK之相關危險因子？\n> 官方標示**骨質疏鬆（Osteoporosis，D）**——依傳統教科書分類非其危險因子。肥胖、皮質類固醇使用、半月板撕裂皆為傳統認定之危險因子。惟本題官方答案本身存疑，詳見上方[!warning]。\n\n**參考來源**\n: 官方2020詳解；Ref: Musculoskeletal Imaging: The Requisites, 3rd ed, p244-246（題目所引）——SONK傳統危險因子含肥胖、皮質類固醇使用、半月板撕裂；骨質疏鬆未列為危險因子。\n: 官方2020詳解（題目所引補充文獻）；RadioGraphics 2018;38, DOI 10.1148/rg.2018180044——SONK正名為subchondral insufficiency fracture，病因與骨質疏鬆及不足性骨折相關，該文獻table將osteoporosis列為危險因子之一，與教科書分類有出入。",
   "name": "Spontaneous Osteonecrosis of the Knee (SONK/Ahlbäck Disease)",
   "nameZh": "膝關節自發性骨壞死",
   "slug": "spontaneous-osteonecrosis-knee",

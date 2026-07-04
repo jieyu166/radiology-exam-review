@@ -3,14 +3,14 @@
   "definition": "**輸尿管先天異常四要點：VUR兒童的膀胱內黏膜下輸尿管隧道是『短的（short）』（隧道短→抗逆流機轉失效）；異位輸尿管開口往『尾側(caudal)』移位（女性可入尿道/前庭/陰道），非往頭側；重複集尿系統依Weigert-Meyer rule，ureterocele阻塞的是『上極(upper pole)』moiety，非下極。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **VUR 判讀（VCUG 主軸）**：以排尿性膀胱尿道攝影確診並分級，機轉為膀胱內輸尿管黏膜下隧道**過短（short）**使斜行抗逆流閥失效；隧道愈短逆流愈嚴重，判讀時勿把「long submucosal tunnel」當成 VUR 成因（正確為 short）。\n- **Primary megaureter 分型**：輸尿管全程擴張、遠端呈 tapered 且無機械阻塞灶時傾向原發性巨輸尿管；須分辨 refluxing（可由 VUR 造成）、obstructive 與 non-refluxing non-obstructive 三型，功能性影像（利尿性腎圖/VCUG）用以區分。\n- **Ectopic ureter 方位（尾側陷阱）**：異位開口向**尾側（caudal）**移位——女性可入膀胱頸下方、尿道、前庭或陰道，臨床可致持續滴尿性尿失禁；影像須追蹤異位輸尿管走行至膀胱三角下方，勿誤判為往頭側/膀胱頂。\n- **重複集尿系統與 Weigert-Meyer 定則**：上極輸尿管開口偏**內下**（易 ectopic/ureterocele、阻塞），下極開口偏**外上**（易 VUR）；判讀重複系統合併囊腫時，ureterocele 造成阻塞者為**上極（upper pole）moiety**，下極則多見逆流，勿把阻塞歸給下極。",
   "keyPoints": [
     "**VUR之黏膜下隧道**：VUR兒童膀胱內輸尿管**黏膜下隧道『短』（short submucosal tunnel）**——隧道短使斜行抗逆流機轉失效而逆流，非「long」。",
     "**Primary megaureter（本題正解）**：**可由VUR造成**（refluxing primary megaureter為原發性巨輸尿管之一型；另有阻塞型、非逆流非阻塞型）。",
     "**Ectopic ureter（異位輸尿管）**：開口往**尾側（caudally）異位**——女性可插入下膀胱、尿道、前庭或陰道（可致持續滴尿性尿失禁）；非往頭側/膀胱頂。",
     "**重複集尿系統（Weigert-Meyer rule）**：上極輸尿管開口偏內下（易ectopic/ureterocele、阻塞）、下極開口偏外上（易VUR）；ureterocele常**阻塞『上極(upper pole)』moiety**，非下極。"
   ],
-  "management": "",
+  "management": "- 先天輸尿管異常涵蓋 VUR、原發性巨輸尿管、異位輸尿管與重複集尿系統，常於兒童期表現。\n- VUR 使含菌尿液逆流上行，增加腎盂腎炎與腎瘢痕風險，屬兒童反覆泌尿道感染的重要成因。\n- 女性異位輸尿管開口於括約肌遠端者可造成持續性滴尿型尿失禁，為典型臨床線索。\n- 重複集尿系統依 Weigert-Meyer 定則，上極易阻塞（含 ureterocele）、下極易逆流，決定併發症型態。\n- 處置依逆流分級、阻塞程度與症狀分層，從觀察/預防性抗生素到手術矯正不等。\n\n> [!note] 考點：關於先天輸尿管異常，何者正確？\n> **Primary megaureter can be caused by VUR（B）**（refluxing型）。VUR兒童黏膜下隧道為short非long(A錯)、異位輸尿管往caudal非cephalic(C錯)、重複系統ureterocele阻塞上極非下極(D錯)。\n\n**參考來源**\n: *RadioGraphics* 2002;22:1139-1164（2018 交換考題詳解 p.302 引用；Tier 1 期刊）。VUR兒童膀胱內輸尿管黏膜下隧道短；primary megaureter可由VUR造成(refluxing型)；異位輸尿管往尾側移位(女性入尿道/前庭/陰道)；重複集尿系統依Weigert-Meyer rule，ureterocele阻塞上極moiety。",
   "name": "Congenital Ureteral Anomalies (VUR, Megaureter, Ectopic, Duplex)",
   "nameZh": "輸尿管先天異常",
   "slug": "ureteral-anomalies-congenital",

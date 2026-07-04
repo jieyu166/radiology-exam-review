@@ -50,6 +50,13 @@ same:
 > [!note] 收斂思路
 > tree-in-bud 先想**小氣道感染（TB/NTM）**;若有惡性病史、無感染證據、隨機分布,須想**腫瘤微栓塞（血管型）**或 IV 藥物 talcosis。配合分布、空洞、淋巴結、臨床。
 
+## 放射科醫師影像判讀重點
+- **辨識徵象（薄層 CT）**：於次級小葉層級找多發 centrilobular（小葉中心）soft-tissue 微結節，連接口徑相近、源自單一柄之分支線狀結構，外觀如萌芽樹枝；此輪廓代表被填充擴張的細支氣管或平行走行之小肺動脈。[^rg2005][^radiopaedia]
+- **分型分水嶺一（氣道型，佔多數）**：見 tree-in-bud 應同時搜尋近端氣道異常（支氣管擴張、氣道壁增厚）作佐證——原始系列中 27 例有 26 例(96%)合併此類氣道變化；分布多為斑塊狀、不對稱、重力依賴/下肺與支氣管周圍，最初描述於結核之 endobronchial spread。[^aquino1996][^rg2005]
+- **分型分水嶺二（血管型，易漏看）**：因肺小動脈與細支氣管平行，小動脈被瘤栓填充/內膜增生時亦呈 tree-in-bud；當**惡性病史 + 無近端氣道病變 + 增強 CT 大血管無 PE** 時，須把 PTTM／腫瘤微栓塞列入，血管型多呈隨機分布並合併 ground-glass centrilobular 結節與小葉間隔增厚。[^pttm2023][^rg2005]
+- **TB vs NTM 判讀取向**：兩者 tree-in-bud 與小結節重疊大；**上肺空洞、淋巴結鈣化、較多空洞且較年輕**傾向 TB/MDR-TB；**中葉/舌葉 nodular bronchiectatic form、廣泛支氣管擴張、年長女性**傾向 NTM（尤其 MAC）。[^chung2006][^ntm2005]
+- **最大陷阱與時效**：癌症病人急性呼吸衰竭、增強 CT 大肺動脈找不到栓子時，勿只當感染或單純 PE——PTTM 進展極快（發病後常 1–2 週內死亡），早期把血管型 tree-in-bud 納入鑑別直接影響預後；好發原發癌以胃癌最多(約26%)、次為乳癌、攝護腺、肺。[^pttm2023]
+
 ### 參考來源
 [^rg2005]: Rossi SE, Franquet T, Volpacchio M, et al. *Tree-in-bud pattern at thin-section CT of the lungs: radiologic-pathologic overview*. RadioGraphics 2005;25(3):789–801（review，徵象/病理/DDx 分類權威來源；摘要與分類經查證）. [DOI](https://doi.org/10.1148/rg.253045115)
 [^aquino1996]: Aquino SL, Gamsu G, Webb WR, Kee ST. *Tree-in-bud pattern: frequency and significance on thin section CT*. J Comput Assist Tomogr 1996;20(4):594–9（原始薄層 CT 描述：27 例中 26 例合併支氣管擴張或近端氣道壁增厚；多與大氣道感染相關）. [DOI](https://doi.org/10.1097/00004728-199607000-00018)

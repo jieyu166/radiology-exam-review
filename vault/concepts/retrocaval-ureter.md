@@ -20,6 +20,13 @@ dateRev: 2026-07-01
 > [!note] 考點
 > Retrocaval ureter 之成因為 **right posterior cardinal vein** 異常參與IVC形成（正常應退化）。[^1]
 
+## 放射科醫師影像判讀重點
+- **側別與定位**：retrocaval ureter 幾乎僅見於**右側**（左側需合併 IVC 反位／重複才可能），影像上近端輸尿管走行至 L3–L4 椎體高度時向**內側偏移、走行於下腔靜脈後方**再繞回前外側。[^1]
+- **IVU／CTU 特徵徵象**：排泄期近端輸尿管呈典型 **S 形／reverse-J（fishhook，魚鉤狀）** 走向，於 IVC 後方形成內移轉折，是本病的判讀關鍵。[^1]
+- **分型（Bateson–Atwell）**：type 1（low loop，轉折在 L3–L4，較常見且較易阻塞）與 type 2（high loop，轉折在腎盂下方近腎盂-輸尿管接合處），影像須辨明轉折高度以分型。[^1]
+- **阻塞判讀**：近端集尿系統／上段輸尿管可有輕中度 hydronephrosis／hydroureter，轉折點以下輸尿管管徑正常；CT/MR 可直接顯示輸尿管與 IVC 的空間關係，優於單純 IVU。[^1]
+- **DDx／陷阱**：不可誤判為單純 UPJ 阻塞、輸尿管腫瘤或纖維化所致的內移；關鍵是**確認輸尿管走行於 IVC 之後**（軸狀影像最直接），而非僅看到近端擴張即歸因於管內病灶。[^1]
+
 ### 參考來源
 [^1]: *RadioGraphics* 2008;28:669-689（2018 交換考題詳解 p.116 引用；Tier 1 影像期刊）。下腔靜脈胚胎發育由posterior cardinal/subcardinal/supracardinal/vitelline靜脈系統分段組成；right posterior cardinal vein正常退化，若異常殘留參與IVC形成則造成retrocaval ureter。
 

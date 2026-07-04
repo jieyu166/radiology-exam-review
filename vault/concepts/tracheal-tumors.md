@@ -22,6 +22,20 @@ dateRev: 2026-06-14
 - **最常見原發惡性 = squamous cell carcinoma + adenoid cystic carcinoma**；SCC 與抽菸相關、好發 >50 歲。[^2]
 - **良性 vs 惡性線索**：廣泛平滑/結節增厚或多發結節→良性；單一不規則、管壁外侵犯、淋巴結→惡性。[^2]
 
+## 放射科醫師影像判讀重點
+- **良惡性分流主軸**：成人**單一、不規則、管壁外侵犯（extraluminal component）＋縱膈淋巴結**傾向惡性；**多發、平滑、廣泛**或含脂肪／軟骨傾向良性——形態＋數目＋壁外侵犯三者並看。[^2]
+- **多發 polypoid 結節（尤其兒童）先想 papillomatosis（HPV／RRP）**：可沿氣道向下播散至肺，形成空洞結節，勿誤判為轉移。[^1]
+- **hamartoma 特徵**：CT 可見**脂肪密度或 popcorn 鈣化**，為腔內良性腫瘤的高特異度線索。[^1]
+- **adenoid cystic carcinoma 判讀陷阱**：沿**黏膜下／神經周圍潛行浸潤**，影像可見範圍常比腔內外觀更廣，須以 MRI／增強評估縱向侵犯範圍以免低估切除界。[^2]
+- **後壁膜「累及 vs 保留」鑑別瀰漫氣道病**：保留後壁膜者為 tracheobronchopathia osteochondroplastica（TBO）與 relapsing polychondritis；累及後壁膜者為 amyloidosis——此徵象是鑑別鑰匙。[^2]
+
+## 臨床重點（5 句）
+- 成人原發氣管腫瘤多為惡性，最常見為 squamous cell carcinoma 與 adenoid cystic carcinoma。[^2]
+- 最常見的良性氣管腫瘤為孤立性 squamous cell papilloma。[^3]
+- squamous cell carcinoma 與抽菸密切相關，好發於 >50 歲族群。[^2]
+- tracheobronchial papillomatosis 與 HPV（recurrent respiratory papillomatosis）相關，好發兒童，具氣道與肺內播散潛能。[^1]
+- 氣管腫瘤臨床常以進行性呼吸困難、喘鳴或咳血表現，且因症狀貌似氣喘而常延遲診斷。[^2]
+
 ## 良性
 - **Squamous cell papilloma**：**最常見良性氣管腫瘤**（孤立性）。[^3][^1]
 - **Tracheobronchial papillomatosis**：多發（HPV/RRP）、兒童常見；可肺內播散（空洞結節）。[^1]

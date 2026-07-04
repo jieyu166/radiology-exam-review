@@ -29,6 +29,20 @@ dateRev: 2026-06-29
 > [!note] 考點：哪一項「不」屬前脫位？
 > **Trough-like impaction fracture of the humeral head（trough sign / reverse Hill-Sachs）屬『後』脫位**，不屬前脫位。前脫位看 Hill-Sachs、Bankart、subcoracoid 位。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **方向決定撞擊面（判讀主軸）**：前脫位（~95%）＝肱骨頭後外側 ↔ 前下盂緣 → Hill-Sachs＋Bankart；後脫位＝肱骨頭前內側 ↔ 後盂緣 → reverse Hill-Sachs（trough）＋reverse Bankart。撞擊面配對是分辨徵象歸屬的關鍵。[^1][^2]
+- **後脫位最易漏診**：AP 片看似在位，須抓 light bulb sign（大小結節輪廓消失呈燈泡狀）、rim sign（肱骨頭內緣與前盂緣 >6 mm）、trough line、vacant glenoid／half-moon overlap 消失；凡見肱骨固定內旋務必補 axillary／Velpeau 軸位比對。[^2][^4]
+- **CT 量化盂缺損為術前核心**：3D CT en-face 為偵測與量化 gold standard；閾值文獻並列（傳統 >20–25% 需植骨，近年 subcritical 低至 13.5% 即臨床顯著）；並以 glenoid track（GT≈0.83×D−d）判 on-track（穩定）vs off-track（易 engaging、需 remplissage）。[^1][^3][^6]
+- **MRA 評盂唇軟組織**：ABER 位可誘發顯示中立位假陰性的 Perthes（骨膜完整）；區分 soft/bony Bankart、ALPSA（內移）、GLAD、HAGL（肱骨端撕脫）。[^7]
+- **luxatio erecta 勿誤判**：手臂固定外展高舉、肱骨幹平行肩胛棘為 pathognomonic，須評估腋神經／腋動脈與旋轉肌袖損傷。[^5]
+
+## 臨床重點（5 句）
+- 前脫位為肩關節脫位最常見型別（約 95%），多因外展外旋外力所致。[^8]
+- 後脫位少見（約 2–4%），典型誘因為癲癇發作、電擊與重大外傷，臨床上肱骨呈固定內旋。[^2][^4]
+- 前脫位（尤其中老年）常合併旋轉肌袖撕裂，須一併評估與追蹤。[^8]
+- 復發性不穩定與盂骨缺損量密切相關，缺損越大復發風險越高，影響手術方式選擇（Bankart 修補 vs Latarjet／植骨）。[^1][^3]
+- luxatio erecta（下脫位）罕見但併發症多，包括腋神經／腋動脈損傷與旋轉肌袖／大結節骨折。[^5]
+
 # 影像判讀
 
 ## 一、分型與方向（決定撞擊面）

@@ -19,6 +19,14 @@ dateRev: 2026-06-19
 - **探頭於成像鏈之角色（Hangiandreou）**：**壓電陣列產生/偵測超音波脈衝、電子相位延遲掃描與聚焦波束**；現代 B-mode 成像含超音波脈衝形成、波束掃描、回音偵測與訊號處理；新技術（tissue harmonic、spatial compound、電子聚焦、3D/4D）多藉陣列與波束成形達成。[^5]
 - **天然壓電材料**：**石英(quartz)** 為經典天然壓電晶體;其他天然者含 berlinite(塊磷鋁礦,結構同石英)、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨(因 apatite 晶體)。鉛/銀/銅/鋇等金屬本身非天然壓電體;臨床探頭多用人造 **PZT(鋯鈦酸鉛)** 陶瓷。[^2]
 
+## 放射科醫師影像判讀重點
+- **運作原理＝壓電效應（核心考點）**：探頭發射靠**逆壓電（施加電壓→晶體形變→發出聲波）**、接收靠**正壓電（回波壓迫晶體→產生電壓）**；非 photoelectric/piezooptic/photoacoustic 效應。臨床探頭材料多為人造 **PZT（鋯鈦酸鉛）陶瓷**。[^1][^4]
+- **天然壓電材料**：**石英（quartz）** 為經典天然壓電晶體，另含 berlinite、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨（apatite）；鉛/銀/銅/鋇等金屬本身非天然壓電體。[^2]
+- **元件厚度↔頻率（判讀分水嶺）**：**較厚元件產生較低頻率、較薄元件產生較高頻率**；選探頭時淺表高解析用高頻、深部用低頻。[^4]
+- **陣列型態辨識影像形狀（2018-378 考點）**：**linear/sequential array 影像上緣與下緣形狀相同（矩形場）；phased array 上緣與下緣形狀不同**（上緣窄/點狀、下緣扇形展開）——一般規則：上下緣形狀相同為 sequential、不同（如上矩形下扇形）為 phased；故「phased array 上下緣皆 curved」為錯誤敘述。[^4]
+- **探頭於成像鏈角色**：壓電陣列產生/偵測超音波脈衝、以電子相位延遲掃描並聚焦波束；現代 B-mode 含脈衝形成、波束掃描、回音偵測與訊號處理，tissue harmonic、spatial compound、電子聚焦、3D/4D 等新技術多藉陣列與波束成形達成。[^5]
+- **臨床頻率選擇陷阱**：甲狀腺等淺表構造需**高頻探頭（約 10 MHz）**；ACR BI-RADS 建議乳房超音波用 **linear array、最低中心頻率約 10（5–12）MHz**——考題常見誤導選項將門檻誇大至物理上不合理數值（如 1200 MHz），須以物理合理性判別。[^3][^4]
+
 > [!note] 考點：超音波探頭依何原理運作?
 > **Piezoelectric effect（壓電效應）**。非 photoelectric、piezooptic、photoacoustic effect。[^1]
 

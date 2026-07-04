@@ -11,14 +11,14 @@
       "url": "https://doi.org/10.1016/j.pediatrneurol.2013.08.001（2018"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **AML 診斷核心＝找脂肪**：US 上典型 AML 呈**強回音（hyperechoic）**結節；CT／MR 見**巨觀脂肪（<-10 HU 或 MR 化學位移訊號掉落）** 即可確診典型 AML，是與 RCC 區分的關鍵徵象。\n- **TSC 型 AML 特徵**：相較偶發性 AML，TSC 之 AML **多發、雙側、體積較大、發病較年輕**，須全腎系統性搜尋而非只報單一病灶。\n- **含極少脂肪型 AML（fat-poor AML）陷阱**：少數 AML 脂肪含量極低，影像上與 RCC 難分；TSC 病人 RCC 風險亦高於一般族群，故**乏脂肪、快速增大或壞死的病灶不可一律當良性 AML**。\n- **出血風險評估**：AML **>4 cm 或含動脈瘤（aneurysm ≥5 mm）** 破裂出血（Wunderlich syndrome）風險升高，判讀時應量測大小並找瘤內血管；CTA 有助辨識可栓塞的動脈瘤。\n- **鑑別範圍（US 影像譜）**：TSC 腎臟超音波常見／須鑑別者為**腎囊腫、AML、RCC**；**urothelial carcinoma 非** TSC 譜系病灶，為考題誘餌與判讀分界。",
   "keyPoints": [
     "**AML 為結節性硬化症最常見之良性腫瘤**：發生率約 **53–75%**。",
     "**AML 較腎囊腫更常見**：結節性硬化症之腎臟表現中，AML(53–75%) **多於**腎囊腫(18–53%)（非「較少見」）。",
     "**發病年齡**：結節性硬化症之 AML 發病年齡**較一般族群年輕**。",
     "**型態特徵**：傾向**多發且體積較大**，相較於一般族群偶發性 AML。"
   ],
-  "management": "",
+  "management": "- TSC 為 **TSC1／TSC2 基因突變**的體染色體顯性神經皮膚症候群，mTOR 路徑過度活化。\n- 腎臟病變是 TSC **成人期主要死因之一**（出血與慢性腎病），需長期影像追蹤。\n- **mTOR 抑制劑（everolimus）** 可縮小 AML，為體積大或出血高風險 AML 的一線內科治療。\n- 大型或出血 AML 的介入首選**選擇性動脈栓塞（保留腎功能）**，而非全腎切除。\n- 診斷依 **2012／後續 TSC 共識標準**（含基因與臨床主／次要條件），腎 AML ≥2 個為主要臨床特徵之一。",
   "name": "Renal Angiomyolipoma (AML) in Tuberous Sclerosis",
   "nameZh": "結節性硬化症腎臟表現",
   "slug": "tuberous-sclerosis-renal",

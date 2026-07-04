@@ -16,7 +16,7 @@
       "url": "https://doi.org/10.1097/BPO.0000000000001626"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **平片首要工作——認出並分型**：正確分型的關鍵在骨折線與生長板的相對走向。**先找 Thurston-Holland 幹骺端三角骨片（＝Type II，最常見約 74%）**；見骺端獨立移位而無幹骺端骨片者為 Type I；骨折線越過骺端達關節面者為 Type III/IV。\n- **關節內型（III/IV）看關節面台階**：Type III/IV 為關節內骨折，須評估 **articular step-off（關節面對位）** 與 Type IV 的幹骺-生長板-骺端貫穿線；對位不良預後差。\n- **易漏的 I 與 V（判讀分水嶺）**：Type I 無移位時平片可近乎正常，只見生長板增寬或軟組織腫脹，須靠壓痛點懷疑；**Type V 幾乎皆為 occult**，常於追蹤時因生長停滯或畸形回溯診斷——平片陰性不能排除。\n- **平片一致性低估移位**：平片對移位程度「consistently underappreciated」，與 3D 影像比對時移位常被低估甚至改變分型；**對位/移位程度才是預後關鍵**，不可只憑平片下定論。\n- **MRI 進階角色**：MRI 可顯示平片看不到的軟骨與生長板損傷、判定累及生長板的哪些帶（zones）；**流體敏感壓脂序列可偵測骨挫傷**，對 Type I/V 等平片陰性或可疑者是釐清工具，並可改變預後評估。\n- **追蹤看併發症**：Type IV 復位不良可形成**跨生長板骨橋（transphyseal bony bar）**致不對稱生長/成角畸形，並有完全生長停滯風險；關節內型（III/IV）另有創傷後關節炎之虞——distal radius 關節內系列生長停滯率達 43%。",
   "keyPoints": [
     "生長板（physis）是骺端與幹骺端之間的軟骨層，是兒童骨骼最脆弱處;骨折線相對於生長板的走向＝分型關鍵。記憶法 **SALTR**：I = **S**lipped、II = **A**bove、III = **L**ower、IV = **T**hrough、V = c**R**ush（壓砸）。",
     "**Type I（Slipped）**：骨折線**僅**經生長板，使骺端與幹骺端分離（epiphysis 與 metaphysis 分開）。好發於生長板較厚的**較年幼**兒童。",
@@ -39,7 +39,7 @@
     "**Peterson 分類**另加兩型：Type I（幹骺端骨折延伸至生長板）與 Type VI（生長板部分缺損，如除草機等開放性傷害）。",
     "**Ogden 分類**細分為九型並含次分型，依生長停滯風險分層。"
   ],
-  "management": "",
+  "management": "- 生長板是兒童骨骼**最脆弱處**，故兒童此類外力常造成生長板骨折而非韌帶傷；分型用於溝通與預後分層。\n- **初始移位程度與復位準確度是最重要的預後指標**，Salter-Harris 分型本身並非預後的獨立預測因子。\n- 影響預後的其他因子包括年齡、血供保存、是否開放性骨折、固定方式與時間、以及**受累的特定生長板**。\n- **生長停滯／骨橋**是主要長期併發症，須臨床與影像追蹤生長情形，必要時行骨橋切除或矯正手術。\n- distal radial physis 早閉可致正 ulnar variance 與尺骨撞擊症候群，屬需留意的遲發後遺症。\n\n> [!note] 考點：最常見的 Salter-Harris 型?\n> **Type II（約 74%，by far the most common）**——經生長板+幹骺端，帶走 Thurston-Holland 骨片。\n\n**參考來源**\n: Cepela DJ, et al. *Classifications In Brief: Salter-Harris Classification of Pediatric Physeal Fractures.* Clin Orthop Relat Res. 2016;474(11):2531-2537（PMC 開放全文 PMC5052189，實際查證 accessed 2026-06-29）。本文層級：peer-reviewed review。Type II「most common type, accounting for **74%**」帶 Thurston-Holland fragment;Type I 經生長板、好發較年幼厚生長板;Type III 關節內經骺端、較 II 少見;Type IV 貫穿三層、可形成 transphyseal bony bar 與完全生長停滯;Type V crush、rare;分型本身「not an independent predictor of prognosis」，**初始移位與復位準確度為最重要預後指標**;MRI 可判定累及之生長板帶;平片對移位「consistently underappreciated」;Peterson 加 Type I/VI、Ogden 九型。DOI: https://doi.org/10.1007/s11999-016-4891-3 （資料來源 PubMed/PMC）\n: Little JT, et al. *Pediatric distal forearm and wrist injury: an imaging review.* RadioGraphics. 2014;34(2):472-490（abstract 查證 accessed 2026-06-29;全文付費，僅依摘要）。RG（RSNA）review。摘要明載：Salter-Harris 分型依影像分級且**有預後意義——較高分級代表較高生長障礙可能**;骨挫傷可用流體敏感壓脂 MRI 診斷且可改變預後;distal radial physis 早閉會致正 ulnar variance 與尺骨撞擊。DOI: https://doi.org/10.1148/rg.342135073 （資料來源 PubMed）\n: *Salter-Harris classification* 及 *Salter-Harris type V fracture*. Radiopaedia.org（輔助來源，accessed 2026-06-29）：SALTR 記憶法（S slipped / A above / L lower / T through / R crush）;**type V 幾乎都 occult，常於追蹤出現臨床畸形或生長停滯時回溯診斷**;type I 多可見但無移位時平片可近乎正常。\n: Kallini JR, et al. *Growth Disturbance Following Intra-articular Distal Radius Fractures in the Skeletally Immature Patient.* J Pediatr Orthop. 2020;40(10):e910-e915（abstract 查證 accessed 2026-06-29）。case series。28 例關節內 distal radius 骨折（SH-III 9 例、SH-IV 19 例），**生長停滯發生率 43%**（含 3 例 SH-III、9 例 SH-IV），顯著高於關節外生長板骨折。DOI: https://doi.org/10.1097/BPO.0000000000001626 （資料來源 PubMed）",
   "name": "Salter-Harris Classification",
   "nameZh": "生長板骨折分類",
   "slug": "salter-harris",

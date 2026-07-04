@@ -44,6 +44,21 @@ dateRev: 2026-06-29
 - **可觸性陷阱**：合併 hydrocele 時臨床常無法觸及，理學檢查陰性不能排除，需靠 US。[^1][^2]
 - **臨床多無症狀**：通常偶發、benign；僅症狀性個案才考慮手術移除。[^1]
 
+## 放射科醫師影像判讀重點
+- **US（首選，核心徵象）**：睪丸輪廓**之外**、hydrocele 囊液中之明亮 echogenic focus；較大者（一般 >5 mm）伴後方 acoustic shadowing——先確認「睪丸外」再看聲影。[^1][^2]
+- **US（動態判讀關鍵）**：隨體位／探頭加壓**可游離移動**，此為與睪丸內固定病灶決定性區別；理學檢查合併 hydrocele 時常不可觸，陰性不能排除。[^1][^2]
+- **定位分水嶺（pitfall）**：位於 tunica **vaginalis** 兩層間（extratesticular），非 tunica **albuginea**；考題常將兩者對調，判讀時勿把鞘膜腔游離體誤植為睪丸表層白膜病灶。[^1][^2]
+- **DDx（睪丸內 vs 睪丸外）**：testicular microlithiasis 為睪丸內、1–3 mm、**無聲影、不可移動、常雙側**，與 scrotal pearl 之睪丸外／可移動／有聲影相反。[^3]
+- **DDx（附著 vs 游離）**：tunica albuginea cyst 囊壁鈣化亦可有聲影，但**附著 tunica albuginea、固定不游離**、可觸及；calcified hematoma、陰囊壁鈣質沉著（idiopathic scrotal calcinosis）、filariasis 皆位於壁／皮下而非鞘膜腔游離。[^4]
+- **判讀陷阱**：勿誤為睪丸實質鈣化或腫瘤而過度檢查；確認「睪丸外＋可游離」即可定性為良性偶發之鞘膜腔遊離體。[^1][^4]
+
+## 臨床重點（5 句）
+- 一般男性盛行率約 1–2.65%，可單發或多發，多為偶發、良性、無症狀。[^1][^2]
+- 極限登山車等反覆會陰創傷族群盛行率顯著偏高。[^1]
+- 成因不明且多機轉並列：慢性發炎、創傷、appendix testis／epididymis 扭轉梗塞脫落後鈣化。[^1][^2]
+- 常合併 hydrocele，臨床多不可觸及，故仰賴超音波偵測。[^1][^2]
+- 僅症狀性個案才考慮手術移除，多數僅需影像確認與安撫。[^1]
+
 > [!note] 考點：何者「假」？
 > 「位於 **tunica albuginea** 兩層之間」為假——scrotal pearl 位於 **tunica vaginalis** 兩層之間、**睪丸外（extratesticular）**、可游離。[^1][^2]
 
