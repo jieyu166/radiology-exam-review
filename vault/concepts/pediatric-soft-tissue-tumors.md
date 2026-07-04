@@ -21,12 +21,27 @@ dateRev: 2026-07-03
   - **Alveolar soft part sarcoma（ASPS）**：年輕成人（<30 歲略偏女）;**富血管、深部（下肢/臀部大腿）**、MR 見血管流空、慢性病程;佔軟組織肉瘤 <1%、確診時常已肺/骨/腦轉移。[^2]
 - **年長/免疫低下**：**Kaposi sarcoma**——與 **HHV-8** 相關，見於 HIV/移植/老年，非年輕族群典型。[^1]
 
+## 放射科醫師影像判讀重點
+- **首選模態（Navarro）**：**MR 為兒童深部/大型軟組織腫塊之首選**（優異軟組織對比、多平面、無游離輻射）；然多數情況仍須結合臨床病史/年齡/部位才能定性，單靠 MR 訊號常不足以定良惡。[^3]
+- **年齡×部位定位（考點）**：**RMS＝兒童最常見軟組織肉瘤（頭頸/眼眶/泌尿生殖/四肢）；Ewing/PNET＝兒童青少年（可骨外軟組織）；ASPS＝年輕成人下肢深部（大腿/臀），嬰幼兒則多頭頸**——年齡與部位為縮小 DDx 之首要軸。[^1][^2]
+- **ASPS 富血管徵（Radiopaedia/考點）**：**MR 見腫瘤內外多發血管流空（flow voids）、高血流、明顯強化**——年輕成人深部下肢腫塊見流空應想到 ASPS；富血管亦見於部分血管性病變（須鑑別）。[^2]
+- **Kaposi 對比（陷阱）**：**Kaposi sarcoma 屬年長/免疫低下（HIV/移植、HHV-8）**，皮膚/黏膜/淋巴結多發，非年輕族群典型軟組織肉瘤——考題「不常見於年輕病人」即指此。[^1]
+- **假性腫瘤警覺（Navarro）**：兒童軟組織腫塊含大量**pseudotumor（外傷後/發炎性、periarticular cyst、血管畸形）**，病史與部位常較訊號更關鍵，避免逕行惡性判讀。[^3]
+
+## 臨床重點（5 句）
+1. **流行病學（Navarro）**：兒童軟組織腫塊多為良性（血管畸形/脂肪性/假性腫瘤），惡性肉瘤相對少；RMS 為兒童最常見軟組織肉瘤。[^1][^3]
+2. **RMS 好發**：胚胎型（embryonal）多見於幼兒頭頸/眼眶/泌尿生殖道，腺泡型（alveolar）多見於較大兒童/青少年四肢、預後較差。[^1]
+3. **ASPS 自然史**：生長緩慢但**確診時常已血行轉移（肺/骨/腦）**，即使原發小亦可轉移；預後與轉移相關、對化放療反應差。[^2]
+4. **Kaposi sarcoma**：與 HHV-8 相關，見於 HIV/移植/老年（地中海型），恢復免疫（HAART）後可退縮——與年輕肉瘤族群互斥。[^1]
+5. **處置原則**：兒童不明軟組織腫塊須結合年齡/部位/臨床與 MR，必要時切片；避免把假性腫瘤/血管畸形誤為肉瘤或反之。[^3]
+
 > [!note] 考點：何者「不」常見於年輕病人?
 > **Kaposi sarcoma**——好發年長/免疫低下(HIV/移植)。Ewing sarcoma、alveolar soft part sarcoma、rhabdomyosarcoma 皆好發年輕族群。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Pediatr Blood Cancer 2011;57(6):943-949；Imaging of Soft Tissue Tumors 3rd ed., p.471：RMS/Ewing/ASPS 好發年輕族群;Kaposi sarcoma 與 HHV-8 相關、見於年長/免疫低下。
-[^2]: Gaillard F, et al. *Alveolar soft part sarcoma*. Radiopaedia, rID-59433, DOI 10.53347/rID-59433——**罕見、高度血管化之深部軟組織惡性腫瘤，典型見於年輕成人下肢**（<30 歲略偏女、佔軟組織肉瘤 <1%）；成人好發下肢深部（大腿/臀），嬰幼兒多在頭頸；確診時常已血行轉移至肺/骨/腦——佐證 ASPS 屬年輕族群。
+[^2]: Gaillard F, et al. *Alveolar soft part sarcoma*. Radiopaedia, rID-59433, DOI 10.53347/rID-59433（輔助來源）——**罕見、高度血管化之深部軟組織惡性腫瘤，典型見於年輕成人下肢**（<30 歲略偏女、佔軟組織肉瘤 <1%）；成人好發下肢深部（大腿/臀），嬰幼兒多在頭頸；MR 見血管流空/明顯強化；確診時常已血行轉移至肺/骨/腦——佐證 ASPS 屬年輕族群。
+[^3]: **Tier 1** Navarro OM, Laffan EE, Ngan BY. *Pediatric soft-tissue tumors and pseudo-tumors: MR imaging features with pathologic correlation: part 1*. RadioGraphics 2009;29(3):887-906（據 PubMed，DOI [10.1148/rg.293085168](https://doi.org/10.1148/rg.293085168)；Review；實際查證 accessed 2026-07-04）——**兒童軟組織腫塊譜含良/惡性腫瘤、假性腫瘤與血管性病變；MR 因優異軟組織對比/多平面/無輻射為深部大型腫塊首選模態，惟多數需結合臨床病史/年齡/部位方能定性**（外傷後/發炎性假性腫瘤靠病史、periarticular cyst 靠與關節關係、血管病變靠臨床+MR、脂肪性腫瘤靠 fat 辨識但常需切片）。佐證兒童軟組織腫塊之影像途徑與「年齡/部位/臨床整合」判讀框架。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 何者「不」常見於年輕病人? (2017-144)
