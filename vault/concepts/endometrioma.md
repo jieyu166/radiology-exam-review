@@ -21,6 +21,20 @@ dateRev: 2026-06-17
 - **囊內流空訊號（flow voids）**：endometrioma為**無血管性囊腫**，內部本不應出現流空訊號——「flow voids within the cystic lesion」**非典型**表現。[^2]
 - **超音波表現**：典型呈**均勻分佈的低位準內部回音（homogeneous low-level internal echoes）**，形成類似「毛玻璃(ground-glass)」外觀，為endometrioma在超音波上最具特徵性的鑑別表現（區別於功能性囊腫的完全無回音、或惡性病灶的實質成分及血流）。[^3]
 
+## 放射科醫師影像判讀重點
+- **US 特異徵（Woodward）**：**低位準內部回音（homogeneous low-level echoes）＋echogenic wall foci（囊壁高回音灶）為 endometrioma 較具特異之 US 表現**；然 US 表現多變、可與其他良/惡性卵巢病灶重疊。[^4]
+- **MRI 確診三徵**：**T1 高訊號（陳舊出血）＋T2 shading（去氧/變性血紅素致 T2 變暗）＋無內部強化**——三者合一近乎確診；T1 抑脂序列有助與畸胎瘤脂肪區分（endometrioma 抑脂後仍高、脂肪則被壓低）。[^1][^4]
+- **多發性線索**：**多發 T1 高訊號病灶（雙側卵巢±腹膜植入）較單發更支持子宮內膜異位**；MRI 提升診斷準確度。[^2][^4]
+- **惡變警訊（考點）**：**出現強化壁結節/實質成分/內部血流→懷疑惡性變（clear cell/endometrioid carcinoma）**；孕期 decidualised endometrioma 可有 stromal vascularity 為良性變異、勿誤判。[^1]
+- **限制（Woodward）**：**小植入灶與沾黏 MRI/US 皆顯示不佳→腹腔鏡仍為診斷與分期之參考標準**；胸腔/腸道/泌尿道之深部子宮內膜異位須專門序列/protocol。[^4]
+
+## 臨床重點（5 句）
+1. **定義（Woodward）**：子宮內膜異位＝**功能性子宮內膜組織位於子宮外**，範圍從顯微植入灶到大型囊腫（endometrioma）。[^4]
+2. **流行病學**：主要影響**生育年齡女性**；表現多變，症狀與疾病嚴重度不必然相關（可無症狀或嚴重骨盆痛/不孕）。[^4]
+3. **好發部位（Woodward）**：**卵巢最常見**，亦可侵犯腸胃道、泌尿道、胸腔與軟組織（可致週期性血胸/血尿）。[^4]
+4. **診斷路徑**：影像（US 篩、MRI 定性）＋**腹腔鏡為參考標準**；深部浸潤型須專門影像評估以規劃手術。[^4]
+5. **處置**：依症狀與生育需求採**藥物（荷爾蒙抑制）或手術**；endometrioma 惡變風險低但需追蹤壁結節/實質成分變化。[^1][^4]
+
 > [!note] 考點：何者「非」endometrioma 的典型 MRI 所見?
 > 「**post-contrast hypervascular**」非典型——endometrioma **T1 高、T2 低（shading）、無內部強化**。強化壁結節要警惕惡性變。[^1]
 
@@ -28,6 +42,7 @@ dateRev: 2026-06-17
 [^1]: *Endometrioma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**T1 typically hyperintense**（出血）;**T2 typically hypointense（shading sign，deoxy/methemoglobin）**;無內部強化;decidualised endometrioma（孕期）有 stromal vascularity 為特殊變異。
 [^2]: 官方 2017 詳解：endometrioma為無血管性囊腫，T1高訊號伴shading或相對T2低訊號、多發T1高訊號病灶、T1/T2高訊號無shading(可能為舊出血)皆可為典型表現;但囊內流空訊號(flow voids)非典型。
 [^3]: 官方 2017 詳解；Final FRCR Part A Modules 4-6 Single Best Answer MCQs, Robin Proctor, p.17：endometrioma超音波典型呈均勻分佈的低位準內部回音(毛玻璃樣外觀)，為與功能性囊腫/惡性病灶鑑別的關鍵超音波特徵。
+[^4]: **Tier 1** Woodward PJ, Sohaey R, Mezzetti TP Jr. *Endometriosis: radiologic-pathologic correlation*. RadioGraphics 2001;21(1):193-216（據 PubMed，DOI [10.1148/radiographics.21.1.g01ja14193](https://doi.org/10.1148/radiographics.21.1.g01ja14193)；Review；實際查證 accessed 2026-07-04）——**子宮內膜異位＝功能性子宮內膜位於子宮外，範圍從顯微植入灶到大型囊腫（endometrioma）**；**US 表現多變，低位準內部回音與 echogenic wall foci 較具特異性；MRI 提升準確度——endometriotic cyst 典型 T1 高訊號、T2 shading**；**卵巢為最常見部位，亦可侵犯腸胃道/泌尿道/胸腔/軟組織；小植入灶與沾黏影像顯示不佳、腹腔鏡仍為診斷與分期參考標準**；藥物與手術治療並存。佐證 endometrioma 之 US/MRI 特徵、好發部位與診斷限制。原「官方/FRCR MCQ」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following is **NOT** a typical image finding of endometrioma on MRI? (2016-155)
