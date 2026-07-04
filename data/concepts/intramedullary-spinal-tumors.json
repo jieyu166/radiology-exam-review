@@ -14,7 +14,17 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**Intramedullary 影像定錨**：病灶位於脊髓「實質內」→ **脊髓對稱性膨大（cord expansion）**、兩側蜘蛛膜下腔／CSF 對稱變窄、**無 CSF cap、無硬膜外脂肪推擠**;與 intradural-extramedullary（CSF cap、脊髓被推向對側）及 extradural（硬膜外、脊髓與 CSF 一起被往內推）區分。定位錯誤是髓內腫瘤判讀最常見的第一個陷阱。",
+    "**Ependymoma（成人第一）**：**成人最常見髓內腫瘤**,占成人髓內膠質瘤約 **60%**;兒童則為第二常見(~30%)。判讀特徵——**位置居中（central，沿中央管生長）、邊界清、易出血**,慢性出血含鐵血黃素沉積在腫瘤兩極形成 **cap sign（T2/GRE/SWI 低訊號帽）**,好發**頸髓**;常合併瘤旁囊變與 **syrinx（syringohydromyelia）**,強化多為明顯且較均質。**Syrinx＋中央位＋cap sign 是與 astrocytoma 區分的主軸**。",
+    "**Myxopapillary ependymoma（特例，WHO grade 1）**：好發**圓錐／終絲（conus medullaris／filum terminale）**,為圓錐-馬尾區最常見原發腫瘤;**香腸狀（sausage-shaped）**、分葉、可達數節段;**T1 可因黏液（mucin）或出血而呈高訊號**（與一般 ependymoma 不同的辨識點）、T2 高訊號、釓注後強烈強化。屬 intradural-extramedullary 位置，但與髓內 ependymoma 同源故並列鑑別。",
+    "**Astrocytoma（兒童第一）**：兒童最常見髓內腫瘤;判讀特徵——**偏心位（eccentric）、邊界不清（infiltrative）、長節段（long-segment）**,膨大範圍常較廣;強化常為斑片狀／不均、cap sign 罕見。年齡（兒童）＋偏心＋邊界不清即可往 astrocytoma 偏。",
+    "**Hemangioblastoma**：判讀特徵——**軟膜下（pial/subpial surface）強烈強化的小壁結節＋大囊／大範圍 syrinx＋T2 蛇形血管流空（serpentine flow voids，代表擴張的供血／引流血管）**;好發頸、胸髓背側軟膜面;逾半數合併 syrinx;若**多發**（脊髓和/或小腦）務必查 **von Hippel-Lindau（VHL，約佔 30%，並評估 RCC、嗜鉻細胞瘤、視網膜血管瘤）**。",
+    "**髓內轉移／淋巴瘤**：轉移相對少見但**水腫不成比例大**、可軟膜播散;原發已知時優先考量。",
+    "**脫髓鞘（MS／NMOSD）／橫貫性脊髓炎（transverse myelitis）**：可膨大、強化而 mimic 腫瘤;偏好**急／亞急性病程、CSF oligoclonal bands／NMO-IgG 陽性、腦部脫髓鞘病灶**;LETM（長節段）需與 NMOSD、結節病、感染並列鑑別。",
+    "**脊髓梗塞（cord infarction）**：前脊髓動脈（ASA）區缺血→軸位 **owl-eye sign（貓頭鷹眼／前角灰質 H 型對稱 T2 高訊號、DWI 受限／ADC 下降）**,病程超急性、可正常 early MRI 而 mimic ATM。",
+    "**神經結節病（neurosarcoidosis）**：軸位 **trident sign（背側軟膜下＋中央管線狀強化的三叉戟樣）**,提示軟膜／軟膜下侵犯,為脊髓結節病重要線索（非絕對特異，淋巴瘤亦可見）。"
+  ],
   "management": "",
   "name": "Intramedullary Spinal Cord Tumors",
   "nameZh": "髓內腫瘤",

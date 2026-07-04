@@ -54,6 +54,21 @@ dateRev: 2026-06-29
 > [!note] 考點：DBT 何者「有誤」?
 > 「DBT 對**微鈣化的形態與分布**評估更佳」有誤——DBT 強在腫塊/結構扭曲/不對稱與降 recall;微鈣化 morphology/distribution 仍以 2D/放大為準。[^1]
 
+## 放射科醫師影像判讀重點
+- **微鈣化評估仍靠 2D/放大攝影(兩題核心考點)**：DBT 薄切片把鈣化**分散到多層**，不利成群(morphology/distribution)判讀；DBT 提升鈣化「可見度」但**不優於 2D**，**spot magnification FFDM/2D 仍為鈣化評估標準**。[^1][^2]
+- **DBT 強項在腫塊/結構扭曲/不對稱**：薄層去除 summation 使 **architectural distortion 與毛刺(spiculation)** 更易見、定位更準；但 DBT 偵測之 distortion 惡性率(PPV)較低(約 10.2% vs FFDM 43.4%)，仍須追加影像確認。[^1][^2]
+- **降 recall 以 focal asymmetry 降幅最大**：薄層最能澄清單純組織疊影造成的假性不對稱；緻密乳房偵測率約 +29%。[^5][^2]
+- **合成 2D(C-view)取代傳統 2D**：由 DBT 投影重建，免額外曝照、整體劑量約降 45%；合成 2D 作全乳綜觀、不可單獨判讀，須配 DBT 薄層逐層 scroll 定位病灶深度。[^2][^3]
+- **DBT+FFDM 併用之量化指標(Friedewald 2014)**：癌偵測率 3.8 vs 1.8/1000(p=0.005)、**PPV1 3.6% vs 1.8% 為升高非降低**；額外偵測之乳癌以**侵犯性(尤其侵犯性小葉癌)為主**，非原位癌。[^4]
+- **判讀陷阱**：判讀時間約為 2D 兩倍(45 vs 91 秒)、檔案 200–450 MB 需專用工作站；留意 step-and-shoot motion blur、手術夾 ripple、皮膚假性增厚偽影；DBT(去重疊) ≠ CEM(碘對比劑功能性血管新生)。[^2][^4]
+
+## 臨床重點（5 句）
+- **平均乳腺劑量(ACR ≤3 mGy/view)**：2D、3D、及 2D+3D 併用(每一模式/每一 view)之平均乳腺劑量**皆未超過 3 mGy** 規定；合成 2D 取代傳統 2D 可進一步省劑量。[^4]
+- 篩檢實務：以 2D 每千人偵測 6.1 例為基準，併用 3D 可提升至約 **8.0 例/1000**(Skaane/OTST)。[^4]
+- 併用 DBT 之偵測率提升，STORM 5.3→8.1/1000、Oslo 整體癌偵測 +27%/侵襲癌 +40%，且降低 callback(約 −24%)，減少不必要回診焦慮。[^2][^3]
+- 額外偵測之乳癌以**侵犯性乳癌**為主(尤其侵犯性小葉癌)，臨床意義較大；DBT 於**緻密乳房**族群獲益最明顯。[^4][^2]
+- 判讀時間約增為 2 倍，臨床導入須考量放射師工作負荷與工作站/儲存(檔案大)成本。[^2]
+
 ### 參考來源
 [^1]: （Tier 輔助）*Digital breast tomosynthesis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：DBT 以薄切片消除 summation,**改善腫塊形態與 architectural distortion 分析、降低 recall**;改善微鈣化「可見度」但**未提升其形態/分布評估**（masses 與 distortion 才是 morphological 分析受益者）。
 [^2]: （Tier 2，免費 PMC review）Gao Y, et al. *Digital Breast Tomosynthesis: an Overview*. PMC8272763（accessed 2026-06-29）：多角度 15–60° 低劑量投影重建 ~1 mm 薄層去 summation;緻密乳房偵測率 +29%;OTST 6.1→8.0、STORM 5.3→8.1/1000、STORM false-positive −17%;DBT 偵測 architectural distortion 惡性率 10.2% vs FFDM 43.4%（各研究 6.8–50.7%）;synthesized 2D 劑量降 ~45%;DBT 單獨不可靠評估微鈣化、spot magnification FFDM 仍必要;判讀時間約倍增、檔案 200–450 MB、加 2 view 劑量增約 2 倍、step-and-shoot motion artifact、手術夾 ripple/皮膚假性增厚偽影。

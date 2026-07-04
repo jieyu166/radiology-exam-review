@@ -15,7 +15,7 @@
     "部分可逆",
     "**陷阱**：部分壁鈣化或小血管可模擬 DCIS 鈣化"
   ],
-  "management": "- BAC 在停經後女性較常見；於年輕女性見到應考慮糖尿病(DM)、慢性腎病(CKD)等中膜鈣化相關全身性疾病。\n- BAC 與動脈粥狀硬化性心血管疾病(ASCVD)風險因子及亞臨床/臨床 CVD（冠心病、中風）相關，可作為女性特異性風險標記。\n- 心血管疾病是女性主要死因之一，藉每年大量進行的乳房攝影識別 BAC，有機會在無症狀女性提早介入危險因子。\n- 目前尚無專業學會對 BAC 報告或處置之正式指引，且評估方法未標準化，為臨床應用的主要落差。\n- 偵測 BAC 不需額外費用或輻射，具高臨床實用潛力。",
+  "management": "- BAC 在停經後女性較常見；於年輕女性見到應考慮糖尿病(DM)、慢性腎病(CKD)等中膜鈣化相關全身性疾病。\n- BAC 與動脈粥狀硬化性心血管疾病(ASCVD)風險因子及亞臨床/臨床 CVD（冠心病、中風）相關，可作為女性特異性風險標記。\n- 心血管疾病是女性主要死因之一，藉每年大量進行的乳房攝影識別 BAC，有機會在無症狀女性提早介入危險因子。\n- 目前尚無專業學會對 BAC 報告或處置之正式指引，且評估方法未標準化，為臨床應用的主要落差。\n- 偵測 BAC 不需額外費用或輻射，具高臨床實用潛力。\n\n**參考來源**\n: Clinical Breast Imaging: The Essentials, P150.\n: **Tier 1** Rossi J, Cho L, Newell MS, et al. *Breast Arterial Calcifications on Mammography: A Review of the Literature*. J Breast Imaging 2025;7(3):268-279（據 PubMed，DOI [10.1093/jbi/wbaf009](https://doi.org/10.1093/jbi/wbaf009)；實際查證 accessed 2026-07-04）——BAC 為血管中膜鈣化，機轉不同於冠狀動脈內膜粥狀鈣化，但與 CVD 風險相關；國際上正評估於乳房攝影報告記錄 BAC 作為亞臨床 CVD 指標，AI 可自動偵測量化；惟評估與量化方法尚未標準化、無正式學會指引。原「Radiopaedia／教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Vascular Calcification (Breast)",
   "nameZh": "乳房血管鈣化",
   "slug": "vascular-calcification-breast",

@@ -2,10 +2,8 @@
   "checked": false,
   "definition": "**植入物遮住腺體、降低乳攝敏感度，所以隆乳婦女被找到的癌反而多是「摸得到」的可觸及腫塊——而不是更多不可觸及癌。** 整體分期分布與一般篩檢族群相近，影像多呈不規則、邊界不清的強化腫塊；subglandular 位置的植入物，腫瘤較易沿其輪廓擴散。記憶鉤：**「植入物遮蔽 → 越晚發現 → 摸得到才報告 → 不是更多 nonpalpable」**；植入物本身未被證實增加乳癌風險。",
   "differentialDiagnosis": [
-    "**radial folds（放射狀皺褶）勿誤為破裂**：正常的外殼內摺呈與包膜相連的低訊號線，**不應誤判為 subcapsular line／linguine**。鑑別關鍵：**破裂時外殼兩側都見得到矽膠訊號**，而 radial fold 僅單側；善用軸位＋矢狀位多平面對照確認。",
-    "**water droplet／\"salad oil\" sign**：包膜內正常少量水分或矽膠—鹽水混合，屬正常，勿過度判讀。",
-    "**BIA-ALCL（植入物相關退行性大細胞淋巴瘤）**：與**織紋面（textured）植入物**相關；典型表現為植入術後**晚發性 peri-implant 積液（late seroma）**，少數為包膜旁腫塊或腋下淋巴結腫大。超音波為首選評估工具；對 textured 植入物之晚發積液／腫塊務必納入鑑別，影像導引抽吸送細胞學＋流式細胞免疫分型確診（細胞學敏感度有限、可能偽陰）。",
-    "**篩檢限制總結**：植入物遮蔽腺體 → 乳攝敏感度下降 → 偵測到的癌偏向可觸及；矽膠破裂在乳攝上常無法判讀，須以 MRI／超音波補強。"
+    "**radial fold 勿誤為破裂**：正常外殼內摺與包膜相連、**僅單側見矽膠訊號**；破裂則**外殼兩側都見矽膠訊號**，用軸位＋矢狀位多平面對照確認。",
+    "**BIA-ALCL**：與 **textured（織紋面）** 植入物相關，典型為**晚發性 peri-implant seroma**；超音波首選，影像導引抽吸＋流式免疫分型確診（細胞學可偽陰）。"
   ],
   "externalLinks": [
     {
@@ -21,7 +19,7 @@
       "url": "https://doi.org/10.1148/rg.2017160086"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "**植入物分類（判讀第一步）**\n- **材質**：**saline** 乳攝呈卵圓腫塊、周邊緻密外殼＋中央透亮填充閥（valve），破裂即塌陷縮小、臨床顯而易見；**silicone** 密度高、乳攝看不到外殼皺褶呈均勻緻密腫塊，破裂須靠 MRI/超音波。\n- **位置**：**subglandular（腺體下，胸大肌前）** vs **subpectoral（胸肌下）**，MLO 上看與胸大肌相對位置判定；**subglandular 的癌較易沿植入物輪廓擴散**。\n\n**乳攝技術與偵測限制（考點核心）**\n- **Eklund（implant-displaced, ID）視角**：將植入物向後上推向胸壁、把前方腺體拉出加壓；標準 4 張＋ID 4 張共 8 張。\n- **植入物遮蔽腺體 → 乳攝敏感度下降**是根本限制；故偵測到的癌**偏向可觸及（palpable）**，**並非有更高比例的不可觸及（nonpalpable）浸潤癌**（本題考點）；分期分布與篩檢族群相近，多為**不規則、非邊界清楚的強化腫塊**。\n\n**破裂判讀（MRI 為金標準）**\n- **intracapsular（最常見，矽膠侷限於纖維包膜內）**：**linguine sign（麵條徵，外殼完全塌陷漂浮）** 為典型；另有 subcapsular line、keyhole/noose、teardrop。\n- **extracapsular（矽膠穿出包膜）**：超音波 **snowstorm sign（暴風雪徵，dirty shadowing）** 最可靠；出現在淋巴結內＝silicone lymphadenopathy。\n\n**判讀陷阱與 DDx**\n- **radial fold 勿誤為破裂**：正常外殼內摺與包膜相連、**僅單側見矽膠訊號**；破裂則**外殼兩側都見矽膠訊號**，用軸位＋矢狀位多平面對照確認。\n- **BIA-ALCL**：與 **textured（織紋面）** 植入物相關，典型為**晚發性 peri-implant seroma**；超音波首選，影像導引抽吸＋流式免疫分型確診（細胞學可偽陰）。",
   "keyPoints": [
     "**分期分布**：與一般篩檢族群**相近**（implants 未顯著惡化分期）。",
     "**臨床表現**：植入物降低乳攝敏感度,故偵測到的癌**多為可觸及(palpable)**;**並非有更高比例的『不可觸及(nonpalpable)』浸潤癌**。",
@@ -29,7 +27,7 @@
     "**植入物位置**：**subglandular(腺體下)** 植入物較 subpectoral 易見**腫瘤沿植入物輪廓擴散**。",
     "**風險**：meta-analysis 未證實植入物增加乳癌發生率。"
   ],
-  "management": "",
+  "management": "1. 隆乳婦女篩檢須標準視角＋Eklund ID 視角（共 8 張），但仍有部分腺體無法完全顯露。\n2. **偵測到的癌多為可觸及**，臨床上常以摸得到的腫塊表現，而非篩檢發現的不可觸及癌。\n3. 植入物本身**未被證實增加乳癌發生率**（meta-analysis）。\n4. saline 破裂臨床即明顯（塌陷）；**silicone 破裂常無症狀**，須靠影像（MRI/超音波）發現。\n5. **textured 植入物晚發積液**應警覺 BIA-ALCL，須抽吸送檢確診。\n\n> [!note] 考點：隆乳婦女乳癌特徵,何者「非」?\n> 「**隆乳婦女有更高比例的『不可觸及』浸潤癌**」非——因植入物降低乳攝敏感度,偵測到的癌**多為可觸及**。分期與篩檢族群相近、多為不規則非清楚邊界強化腫塊、subglandular 易沿輪廓擴散皆正確。",
   "name": "Breast Cancer in Women with Implants",
   "nameZh": "隆乳乳癌",
   "slug": "breast-cancer-implants",

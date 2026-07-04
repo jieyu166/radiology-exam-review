@@ -13,7 +13,7 @@
     "**富血管性(hypervascular)肝轉移常見原發癌**：絨毛膜癌(choriocarcinoma)、嗜鉻細胞瘤(pheochromocytoma)、腎細胞癌(renal cell carcinoma)、神經內分泌腫瘤、甲狀腺癌、乳癌、黑色素瘤等。",
     "**乏血管性(hypovascular)肝轉移**：**肺癌(lung carcinoma)** 通常合併乏血管性肝轉移，非富血管性——此為本題判讀關鍵。"
   ],
-  "management": "- 富血管性肝病灶涵蓋良性（FNH、腺瘤）與惡性（HCC、纖維板層癌、周邊型膽管癌）多種病因。\n- 神經內分泌腫瘤（含胰臟神經內分泌瘤、carcinoid、GIST）之肝轉移傾向富血管，與其動脈血供招募增加有關。\n- 多數消化道惡性腫瘤之肝轉移於影像上呈乏血管。\n- 罕見肝病灶如glomus tumor、發炎性偽瘤（inflammatory pseudotumor）亦可呈富血管外觀。\n- 富血管與乏血管之區分影響多期對比劑掃描時相選擇與病灶偵測敏感度。",
+  "management": "- 富血管性肝病灶涵蓋良性（FNH、腺瘤）與惡性（HCC、纖維板層癌、周邊型膽管癌）多種病因。\n- 神經內分泌腫瘤（含胰臟神經內分泌瘤、carcinoid、GIST）之肝轉移傾向富血管，與其動脈血供招募增加有關。\n- 多數消化道惡性腫瘤之肝轉移於影像上呈乏血管。\n- 罕見肝病灶如glomus tumor、發炎性偽瘤（inflammatory pseudotumor）亦可呈富血管外觀。\n- 富血管與乏血管之區分影響多期對比劑掃描時相選擇與病灶偵測敏感度。\n\n**參考來源**\n: *McGraw-Hill Specialty Board Review: RADIOLOGY*（2018 交換考題詳解 p.130 引用；Tier 2 board review教材）。富血管性肝轉移常見原發癌含絨毛膜癌、嗜鉻細胞瘤、腎細胞癌等；肺癌通常合併乏血管性肝轉移。\n: **Tier 1** Kamaya A, Maturen KE, Tye GA, Liu YI, Parti NN, Desser TS. *Hypervascular liver lesions*. Semin Ultrasound CT MR 2009;30(5):387-407（據 PubMed，DOI [10.1053/j.sult.2009.06.001](https://doi.org/10.1053/j.sult.2009.06.001)；實際查證 accessed 2026-07-04）——回顧文獻明列神經內分泌腫瘤等因動脈血供招募增加而呈富血管性肝轉移，多數消化道惡性腫瘤（含肺癌）之轉移呈乏血管，並整理富血管肝病灶之良惡性鑑別。原「McGraw-Hill board review」Tier 2 弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Hypervascular vs Hypovascular Liver Metastases",
   "nameZh": "肝臟富血管性轉移",
   "slug": "hypervascular-liver-metastases",

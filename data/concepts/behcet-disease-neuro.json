@@ -12,7 +12,7 @@
   "keyPoints": [
     "**病灶好發部位排序**：**腦幹(brainstem)最常見** ＞ 基底核(basal ganglia，約1/3為雙側) ＞ 視丘(thalamus) ＞ 皮質下白質(subcortical white matter，較少見；深部白質相對常見) ＞ 脊髓(spinal cord，較少見)。"
   ],
-  "management": "- 神經貝西氏症(NBD)指貝西氏症病人出現神經症狀/徵象，發生率約 5–30%，男性較常見且預後較差。\n- 中樞神經受侵分為實質型(腦幹、大腦半球、脊髓、腦膜腦炎表現)與非實質型(靜脈竇栓塞、動脈病變)，實質型較常見。\n- 實質型 NBD 腦脊髓液常見輕度淋巴球增多與蛋白升高、葡萄糖正常；CVST 則腦壓升高而 CSF 內容多正常。\n- 脊髓受侵在急性/亞急性期常呈頸胸段非連續多發病灶，慢性可見脊髓萎縮。\n- 治療上實質型以皮質類固醇合併免疫抑制劑(azathioprine 等，難治者升級 mycophenolate/cyclophosphamide 或標靶治療)，CVST 則以免疫抑制併抗凝為主。",
+  "management": "- 神經貝西氏症(NBD)指貝西氏症病人出現神經症狀/徵象，發生率約 5–30%，男性較常見且預後較差。\n- 中樞神經受侵分為實質型(腦幹、大腦半球、脊髓、腦膜腦炎表現)與非實質型(靜脈竇栓塞、動脈病變)，實質型較常見。\n- 實質型 NBD 腦脊髓液常見輕度淋巴球增多與蛋白升高、葡萄糖正常；CVST 則腦壓升高而 CSF 內容多正常。\n- 脊髓受侵在急性/亞急性期常呈頸胸段非連續多發病灶，慢性可見脊髓萎縮。\n- 治療上實質型以皮質類固醇合併免疫抑制劑(azathioprine 等，難治者升級 mycophenolate/cyclophosphamide 或標靶治療)，CVST 則以免疫抑制併抗凝為主。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.324（2018 交換考題詳解 p.197 引用；Tier 2 教科書）。Neuro-Behçet disease病灶好發部位依序：腦幹(最常見)、基底核(約1/3雙側)、視丘、皮質下白質(較少見，深部白質相對較多)、脊髓(較少見)；官方答案標示中腦(A)，頁緣加註質疑應為橋腦(B)，原始文獻未細分腦幹內部位之相對頻率。\n: **Tier 1** Borhani-Haghighi A, Kardeh B, Banerjee S, et al. *Neuro-Behcet's disease: An update on diagnosis, differential diagnoses, and treatment.* Mult Scler Relat Disord 2019;39:101906（據 PubMed，DOI [10.1016/j.msard.2019.101906](https://doi.org/10.1016/j.msard.2019.101906)；實際查證 accessed 2026-07-04）——實質型 NBD 典型急性病灶位於中腦-間腦交界，視丘至中腦延伸呈 cascade sign；急性 T2 高訊號、慢性見腦幹萎縮與黑洞；分實質型與非實質型(CVST/動脈)，後者以 MRV/CTV 評估；治療依型別採類固醇＋免疫抑制或加抗凝。本文獻支持腦幹為最常見受侵部位、惟未細分中腦/橋腦相對頻率，與本題爭議一致。原「教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Neuro-Behçet Disease — CNS Distribution",
   "nameZh": "神經貝西氏症",
   "slug": "behcet-disease-neuro",

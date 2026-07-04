@@ -4,17 +4,21 @@
   "differentialDiagnosis": [],
   "externalLinks": [
     {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s12282-021-01298-x"
+    },
+    {
       "label": "10.1148/rg.2020190181;",
       "url": "https://doi.org/10.1148/rg.2020190181;"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **高風險族群的篩檢策略要個別化**：BRCA1/2、TP53 等致病性突變帶原者或估計終生風險 **≥20%** 者，屬「高風險」，應在乳房攝影之外加做**輔助性乳房 MRI 篩檢**。\n- **為何加做 MRI**：MRI 對高風險族群偵測乳癌之敏感度高於乳房攝影，尤其在**緻密乳房**及年輕帶原者（癌症常在較年輕發生、乳房攝影敏感度受限）。\n- **判讀時把基因狀態當先驗機率**：已知高風險者判讀門檻應更低——對可疑病灶更傾向切片、對 MRI 背景實質強化（BPE）與新增病灶更警覺，避免以「年輕、緻密」淡化可疑所見。\n- **報告與追蹤**：高風險者常採乳房攝影與 MRI 交替／密集追蹤；影像陰性不排除臨床遺傳評估與風險降低諮詢的必要。\n- **判讀陷阱**：TP53（Li-Fraumeni）帶原者對游離輻射較敏感，篩檢時**更倚重 MRI、審慎使用乳房攝影**；勿把「罕見成因」誤讀為「可忽略」。",
   "keyPoints": [
     "**高風險基因**：**BRCA1**、**BRCA2**為乳癌最重要且最常見之高風險胚系突變基因；另有**TP53(p53)**（Li-Fraumeni syndrome，胚系突變增加乳癌、白血病、腦瘤、肉瘤等風險，為乳癌之罕見成因）、**PTEN**、**CDH1**、**STK11**。",
     "**中度風險基因**：**ATM**、**CHEK2**、**PALB2**。",
     "**陷阱**：「p54」為不存在之虛構基因，非乳癌風險基因。"
   ],
-  "management": "",
+  "management": "- **BRCA1、BRCA2 為乳癌最重要且最常見之高風險胚系突變基因**；TP53（Li-Fraumeni syndrome）、PTEN、CDH1、STK11 亦屬高風險但較罕見。\n- **中度風險基因**包含 **ATM、CHEK2、PALB2**；「p54」為不存在之虛構基因、非乳癌風險基因。\n- 乳癌風險由基因、生活型態、乳房密度、生育與荷爾蒙等多因素共同決定，須以風險評估模型整體評估而非僅看單一基因。\n- 高風險者的處置除加強影像篩檢外，尚可考慮**化學預防與風險降低手術**，並經共享決策individualize。\n- 帶原者之一等親亦具風險，臨床應轉介**遺傳諮詢與基因檢測**以完整評估家族風險。\n\n**參考來源**\n: 官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689; RadioGraphics DOI:10.1148/rg.2020190181; cancer.org 乳癌風險因子頁面（題目所引）——高風險基因BRCA1/BRCA2/TP53/PTEN/CDH1/STK11；中度風險基因ATM/CHEK2/PALB2；TP53胚系突變致Li-Fraumeni syndrome，為乳癌之罕見成因。\n: 據 PubMed，Vegunta S, Bhatt AA, Choudhery SA, Pruthi S, Kaur AS. *Identifying women with increased risk of breast cancer and implementing risk-reducing strategies and supplemental imaging.* Breast Cancer. 2021;29(1):19-29. [DOI](https://doi.org/10.1007/s12282-021-01298-x)（綜述）。乳癌風險受基因（含 BRCA）、乳房密度、生活型態、生育荷爾蒙等影響；高風險（終生風險 ≥20%）者應加做輔助性乳房 MRI 篩檢；篩檢與預防須個別化並經共享決策。",
   "name": "Breast Cancer — High-Risk Genetic Mutations",
   "nameZh": "乳癌高風險基因",
   "slug": "breast-cancer-genetics",

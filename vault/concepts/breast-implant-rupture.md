@@ -22,6 +22,21 @@ dateRev: 2026-07-01
 - **鑑別**：**Tattoo pigment 沉積於淋巴結**通常表現為**粗鈣化（coarse calcification）**，與 snowstorm 的瀰漫聲影表現不同，不應混淆。[^2]
 - **Saline implant rupture**：因鹽水被人體吸收，超音波/MRI 上呈植入物塌陷、體積縮小，並非以 linguine/keyhole/snowstorm 表現為特徵（該三徵象皆為矽膠植入物破裂專屬）。[^1]
 
+## 放射科醫師影像判讀重點
+
+### 分型與各模態徵象
+- **Intracapsular rupture（MRI 最敏感）**：外殼塌陷但矽膠仍局限於纖維囊內；MRI 見 **linguine sign（多條漂浮曲線＝塌陷外殼）** 最具特徵，另有 **keyhole/noose sign** 與 **subcapsular line sign**；超音波對應為 **stepladder sign** 與 keyhole sign。[^1][^3]
+- **Extracapsular rupture（US 最可靠）**：游離矽膠逸出纖維囊外，超音波呈 **snowstorm sign**（回音增強＋後方聲影模糊），可波及腋下淋巴結；**extracapsular（~15%）幾乎必然合併 intracapsular（~85%）**，判 extracapsular 時應同時確認囊內破裂。[^2][^4]
+- **判讀陷阱／DDx**：**snowstorm 屬 extracapsular，勿誤歸 intracapsular**；淋巴結內 **tattoo pigment 呈粗鈣化**、與 snowstorm 之瀰漫聲影不同，勿混淆；**saline 破裂**呈植入物塌陷縮小、不具上述矽膠徵象。[^1][^2]
+- **模態選擇**：MRI 為偵測 intracapsular rupture 的首選（無症狀者靈敏度最高）；超音波便於評估 extracapsular free silicone 與淋巴結波及；乳房攝影可見輪廓改變或囊外矽膠但對囊內破裂不敏感。[^3][^4]
+
+## 臨床重點（5 句）
+1. **流病**：矽膠植入物破裂隨植入年限增加而上升，多數為無症狀之 silent rupture。[^4]
+2. **病因**：外殼老化、機械外力或製造缺陷致外殼破損。[^4]
+3. **表現**：多無症狀，偶有乳房外形改變、腫塊或不適；extracapsular 者可觸及囊外矽膠肉芽腫。[^4]
+4. **監測**：對無症狀者以 MRI（或高解析超音波）偵測 silent rupture，為破裂診斷的主要影像工具。[^3]
+5. **處置**：確診破裂通常建議手術移除或更換植入物（屬臨床外科處置，非影像判讀範疇）。[^4]
+
 ## 陷阱
 - Snowstorm sign 反映的是 **extracapsular rupture**（游離矽膠進入淋巴結），而非單純 intracapsular rupture；若考題誤將其歸為 intracapsular rupture 或誤認淋巴結內鈣化即為此徵象，皆為常見陷阱。[^1][^2]
 

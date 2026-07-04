@@ -3,7 +3,7 @@
   "definition": "**Budd-Chiari 症候群＝肝靜脈流出道（肝靜脈～IVC匯入右心房前）全域或節段性阻塞；CT/MR 典型為「flip-flop」強化型態，都卜勒超音波實際敏感度約 87.5%（非常見誤植的 60%）。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **定義用詞（考點陷阱）**：本質為**肝靜脈（hepatic venous）流出道**全域或節段性阻塞（肝靜脈～IVC 匯入右心房前），**非門靜脈（portal venous）流出道阻塞**——考題若誤植為 portal venous 即為錯誤敘述。\n- **CT/MR「flip-flop」強化型態**：動脈期尾狀葉（獨立引流入 IVC、較少受累）早期強化、周邊肝實質相對低強化；門靜脈期逆轉，周邊延遲強化、尾狀葉相對變低——為特徵型態。\n- **都卜勒超音波為首選**：可直接評估肝靜脈／IVC 是否通暢與血流方向，**敏感度約 87.5%**（文獻約 79–89%），並非常見誤植的 60%。\n- **輔助徵象**：尾狀葉肥大、肝內側枝（comma-shaped intrahepatic collaterals）、肝靜脈無法顯示或血流逆轉、慢性期呈結節狀再生（regenerative nodules）與尾狀葉／周邊實質不均強化。\n- **DDx／陷阱**：flip-flop 與尾狀葉不成比例強化易與肝硬化、瀰漫性肝病混淆；務必確認肝靜脈流出道阻塞的直接證據，並注意「敏感度 60%」為典型錯誤選項。",
   "keyPoints": [
     "**定義**：全域或節段性**肝靜脈流出道阻塞**（肝靜脈～下腔靜脈匯入右心房前的任一節段）。",
     "**CT/MR 強化型態**：典型呈 **「flip-flop」強化**——動脈期尾狀葉（獨立靜脈引流入IVC，較少受累）**早期強化**、周邊肝實質相對低強化；門靜脈期則逆轉，周邊肝實質延遲強化、尾狀葉相對變低訊號。",
@@ -12,7 +12,7 @@
     "**病因地區差異（2019交換）**：**西方族群最常見病因為血栓形成（thrombosis）**；**膜狀阻塞（membranous webs）則於亞洲病人中被日益發現為重要病因**——若考題敘述「亞洲最常見病因為血栓形成」，方向恰好相反，應為錯誤敘述。",
     "**定義用詞陷阱**：Budd-Chiari症候群本質為**肝靜脈（hepatic venous）流出道阻塞**，並非「門靜脈（portal venous）流出道阻塞」——考題若將定義誤植為portal venous，即為錯誤敘述。"
   ],
-  "management": "",
+  "management": "- 病因具地區差異：西方族群最常見為血栓形成（thrombosis），膜狀阻塞（membranous webs）則於亞洲病人日益被認為是重要病因。\n- 性別分布有地區差異：西方文獻女性多於男性（約 52–69%），亞洲文獻則男性較常見（約 48–70%）。\n- 常見危險因子為高凝血狀態，如骨髓增生性腫瘤、抗磷脂症候群、口服避孕藥與懷孕。\n- 臨床可從無症狀到猛爆性肝衰竭，典型三聯徵為腹痛、腹水與肝腫大。\n- 治療階梯依阻塞範圍與肝功能，包含抗凝、血管成形／支架、TIPS，末期則需肝移植。\n\n**參考來源**\n: 官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.706-707（題目所引）：Budd-Chiari症候群定義（肝靜脈流出道全域/節段性阻塞）、CT flip-flop強化型態、都卜勒超音波敏感度訂正約87.5%。\n: 交叉查證（實際查證 2026-07-01）：*Diagnostic accuracy of Doppler ultrasound, CT and MRI in Budd Chiari syndrome: systematic review and meta-analysis*, PMC7217562——都卜勒超音波敏感度/特異度依研究介於約79–97%不等（單一研究達85–89%）；*Epidemiology of Budd–Chiari Syndrome*（Springer）／UpToDate：西方文獻女性多於男性（約52–69%），亞洲文獻男性較常見（約48–70%）。\n: 2019 交換考詳解；Radiographics. 2008 Nov-Dec;28(6):1967-1982, p.1968：Budd-Chiari為肝靜脈流出道阻塞；西方族群最常見病因為血栓形成，膜狀阻塞於亞洲病人中日益被發現為重要病因；女性較男性常見。",
   "name": "Budd-Chiari Syndrome",
   "nameZh": "巴德吉亞利症候群",
   "slug": "budd-chiari-syndrome",

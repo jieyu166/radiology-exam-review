@@ -15,7 +15,7 @@
     "**發生率**：癌症病人中約**高達15%**（非10%）發展副腫瘤症候群。",
     "**最常見相關腫瘤**：**小細胞肺癌(small cell lung carcinoma)**。"
   ],
-  "management": "- 副腫瘤神經症候群為免疫媒介，經**自體抗體或細胞毒性 T 細胞**機轉致病。\n- 抗**細胞表面抗原**抗體者對免疫治療反應與預後優於抗**細胞內抗原**者。\n- 神經症狀常**早於**已知惡性腫瘤出現，故確診後應積極搜尋潛在原發腫瘤（以小細胞肺癌最常見）。\n- 診斷挑戰在於避免漏診/治療不足，同時避免過度診斷與過度治療。\n- 腦脊髓液與神經抗體檢測為臨床診斷之關鍵佐證，影像僅為支持性。",
+  "management": "- 副腫瘤神經症候群為免疫媒介，經**自體抗體或細胞毒性 T 細胞**機轉致病。\n- 抗**細胞表面抗原**抗體者對免疫治療反應與預後優於抗**細胞內抗原**者。\n- 神經症狀常**早於**已知惡性腫瘤出現，故確診後應積極搜尋潛在原發腫瘤（以小細胞肺癌最常見）。\n- 診斷挑戰在於避免漏診/治療不足，同時避免過度診斷與過度治療。\n- 腦脊髓液與神經抗體檢測為臨床診斷之關鍵佐證，影像僅為支持性。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.598（2018 交換考題詳解 p.198 引用；Tier 2 教科書）。副腫瘤症候群機轉為自體抗體或細胞毒性T細胞相關；邊緣系統腦炎最常見臨床表現；發生率高達15%(非10%)；最常見相關腫瘤為小細胞肺癌。\n: **Tier 1** Madhavan AA, Carr CM, Morris PP, et al. *Imaging Review of Paraneoplastic Neurologic Syndromes*. AJNR Am J Neuroradiol 2020;41(12):2176-2187（據 PubMed，DOI [10.3174/ajnr.A6815](https://doi.org/10.3174/ajnr.A6815)；實際查證 accessed 2026-07-04）——AJNR 影像回顧：邊緣系統腦炎為最具代表性表現，FLAIR/T2 於內側顳葉（海馬、杏仁核）高訊號腫脹；亦可累及腦幹、小腦、皮質；FDG-PET 常早於 MRI 出現代謝異常；常模擬 HSV 腦炎等常見病灶為判讀陷阱；抗表面抗原者預後優於抗細胞內抗原者。原「Diagnostic Imaging, Brain 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Paraneoplastic Syndromes of the Brain",
   "nameZh": "副腫瘤神經症候群",
   "slug": "paraneoplastic-syndromes-brain",

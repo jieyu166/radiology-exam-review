@@ -15,7 +15,7 @@
     "最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等）",
     "風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk"
   ],
-  "management": "- PLGNT 已進入「分子分型指導治療」時代，基因／分子特徵越來越用於治療決策而非僅組織學。\n- 多數 pediatric LGG 走 MAPK/MAPK 單一路徑活化，故 BRAF/MEK 抑制劑等標靶治療對特定基因型有效。\n- KIAA1549-BRAF fusion 與 NF-1 相關者預後最佳（lowest risk 層）。\n- BRAF V600E 為中度風險，臨床上可作為標靶藥（BRAF 抑制劑）之選擇依據。\n- H3 K27M 突變（diffuse midline glioma）雖組織學低度，臨床行為屬高度惡性、預後差。",
+  "management": "- PLGNT 已進入「分子分型指導治療」時代，基因／分子特徵越來越用於治療決策而非僅組織學。\n- 多數 pediatric LGG 走 MAPK/MAPK 單一路徑活化，故 BRAF/MEK 抑制劑等標靶治療對特定基因型有效。\n- KIAA1549-BRAF fusion 與 NF-1 相關者預後最佳（lowest risk 層）。\n- BRAF V600E 為中度風險，臨床上可作為標靶藥（BRAF 抑制劑）之選擇依據。\n- H3 K27M 突變（diffuse midline glioma）雖組織學低度，臨床行為屬高度惡性、預後差。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Bag AK, Chiang J, Patay Z. *Radiohistogenomics of pediatric low-grade neuroepithelial tumors.* Neuroradiology 2021;63(8):1185-1213（據 PubMed，DOI [10.1007/s00234-021-02691-1](https://doi.org/10.1007/s00234-021-02691-1)；PMC8295117；實際查證 accessed 2026-07-04）——PLGNT 之影像—組織—基因整合綜述，提出以形態／部位／組織學／基因分層之影像判讀架構，涵蓋 KIAA1549-BRAF fusion（pilocytic）、BRAF p.V600E、MAPK 路徑與風險分層。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Pediatric Low-Grade Glioma Genetics",
   "nameZh": "",
   "slug": "pediatric-lgg-genetics",

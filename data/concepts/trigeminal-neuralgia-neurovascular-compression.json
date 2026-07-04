@@ -11,7 +11,7 @@
     "**受累分支**：**V2（maxillary）最常**、**V1（ophthalmic）最少**；痛多放射至 V2/V3。",
     "**側別/年齡**：**右側 > 左側（約 1.5:1）、~3% 雙側**；**60-70 歲**高峰。"
   ],
-  "management": "1. **病因**：血管環壓迫 REZ（SCA 最常），少數腫瘤/MS。\n2. **REZ 關鍵**：近端中央有髓鞘段受壓才致病。\n3. **分支/側別**：V2 最常、V1 最少；右 > 左、~3% 雙側。\n4. **影像**：FIESTA/CISS + MRA 找 REZ 接觸。\n5. **治療**：carbamazepine；責任血管 MVD。\n\n> [!note] 考點：關於神經血管壓迫症候群造成三叉神經痛，何者敘述「為偽」?\n> **B 為偽**——**右側**臉部受累較常見（1.5:1，非「左側」），僅約 3% 雙側。上頷支（V2）最常受累（A）、60-70 歲高峰（C）、受累血管 SCA>AICA>VA/BA（D）皆為真。",
+  "management": "1. **病因**：血管環壓迫 REZ（SCA 最常），少數腫瘤/MS。\n2. **REZ 關鍵**：近端中央有髓鞘段受壓才致病。\n3. **分支/側別**：V2 最常、V1 最少；右 > 左、~3% 雙側。\n4. **影像**：FIESTA/CISS + MRA 找 REZ 接觸。\n5. **治療**：carbamazepine；責任血管 MVD。\n\n> [!note] 考點：關於神經血管壓迫症候群造成三叉神經痛，何者敘述「為偽」?\n> **B 為偽**——**右側**臉部受累較常見（1.5:1，非「左側」），僅約 3% 雙側。上頷支（V2）最常受累（A）、60-70 歲高峰（C）、受累血管 SCA>AICA>VA/BA（D）皆為真。\n\n**參考來源**\n: *Trigeminal Neuralgia* (Dx). STATdx, updated 07/24/18. Elsevier——**80-90% 為血管壓迫池段 CNV 之 root entry zone**；**~90% 動脈環（SCA 75-88%）、~10% 靜脈**；**SCA > AICA > PICA > 椎動脈**；痛放射至 V2/V3；高解析 MR-MRA（FIESTA/CISS）定位責任血管；MVD 治療；schwannoma/MS 亦可致 TN。\n: 官方 2017 詳解；Ref: AJNR 2016（10.3174…；題目所引）——血管環（最常 SCA）壓迫 REZ（中央有髓鞘近端段）約 95%；**V2 最常受累、V1 最少；右側較常見（1.5:1）、~3% 雙側；60-70 歲高峰；SCA>AICA>VA/BA**（結論已由上述 STATdx 一手來源查核佐證；血管性比例 STATdx 80-90% vs AJNR ~95% 並列）。",
   "name": "Trigeminal Neuralgia — Neurovascular Compression Syndrome",
   "nameZh": "三叉神經痛神經血管壓迫",
   "slug": "trigeminal-neuralgia-neurovascular-compression",

@@ -20,7 +20,7 @@
     "骨盆固定：穩定骨折、降低靜脈出血，但**對動脈性出血無直接止血效果**。",
     "手術結紮髂內動脈：創傷大、精準度不如選擇性栓塞，非首選。"
   ],
-  "management": "1. **多靜脈**：多數骨盆出血靜脈性，束帶/固定/packing 處理。\n2. **動脈 10-20%**：需血管栓塞控制。\n3. **CT blush**：活動性動脈外滲，導引 angio。\n4. **流程**：復甦 + 束帶 → CT → 栓塞；in extremis → packing/REBOA。\n5. **固定 ≠ 止動脈**：外固定對動脈出血無直接效果。\n\n> [!note] 考點：骨盆骨折合併生命徵象不穩，CVP/輸液/輸血後下一步?\n> **先做 CT（評估動脈出血 contrast blush），迅速送血管攝影室做栓塞治療**。骨盆 packing、單純骨盆固定、結紮髂內動脈皆非此情境下的優先步驟。",
+  "management": "1. **多靜脈**：多數骨盆出血靜脈性，束帶/固定/packing 處理。\n2. **動脈 10-20%**：需血管栓塞控制。\n3. **CT blush**：活動性動脈外滲，導引 angio。\n4. **流程**：復甦 + 束帶 → CT → 栓塞；in extremis → packing/REBOA。\n5. **固定 ≠ 止動脈**：外固定對動脈出血無直接效果。\n\n> [!note] 考點：骨盆骨折合併生命徵象不穩，CVP/輸液/輸血後下一步?\n> **先做 CT（評估動脈出血 contrast blush），迅速送血管攝影室做栓塞治療**。骨盆 packing、單純骨盆固定、結紮髂內動脈皆非此情境下的優先步驟。\n\n**參考來源**\n: 官方 2017 詳解；Ref: *Angioembolization and laparotomy for patients with concomitant pelvic arterial hemorrhage and blunt abdominal trauma*. Langenbecks Arch Surg 2011;396(2):243-250（題目所引；accessed 2026-07-03）——血流動力不穩骨盆骨折，CT 評估動脈出血後迅速送血管攝影栓塞；出血多靜脈性、動脈性占少數但需栓塞控制。\n: Hallinan JTPD, et al.（原 Yoon W, et al.）*Pelvic Arterial Hemorrhage in Patients with Pelvic Fractures: Detection with Contrast-enhanced CT*. RadioGraphics 2004;24(6):1591-1605, DOI 10.1148/rg.246045028（accessed 2026-07-03）——**CT contrast extravasation（blush）為活動性動脈出血徵象、導引 transcatheter arterial embolization**；責任血管多為髂內動脈分支；多數骨盆出血為靜脈性、動脈性為少數但致命。",
   "name": "Pelvic Fracture with Hemorrhagic Shock — Management",
   "nameZh": "骨盆骨折出血處置",
   "slug": "pelvic-fracture-hemorrhage-management",

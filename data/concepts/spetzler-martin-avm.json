@@ -16,7 +16,7 @@
     "總分 1-5，分數越低手術預後越好",
     "**Venous ectasia 非 SM 評分要素**（常見陷阱）"
   ],
-  "management": "- SM 總分 1–5，分數越低手術可切除性與神經學預後越好。\n- 補充（Supplemented / Lawton-Young）分級把年齡、破裂史、nidus compactness 併入，預測手術結果優於單用 SM 分級。\n- 對 SM Grade III AVM，補充分級可辨識可接受手術風險的界線（Supp-SM grade 6 為上限）。\n- 高齡（>60 歲）與較高補充分級與術後神經學惡化相關，屬決策警訊。\n- 分級是決策輔助工具，最終仍須結合臨床表現、破裂與否及術者經驗綜合判斷。",
+  "management": "- SM 總分 1–5，分數越低手術可切除性與神經學預後越好。\n- 補充（Supplemented / Lawton-Young）分級把年齡、破裂史、nidus compactness 併入，預測手術結果優於單用 SM 分級。\n- 對 SM Grade III AVM，補充分級可辨識可接受手術風險的界線（Supp-SM grade 6 為上限）。\n- 高齡（>60 歲）與較高補充分級與術後神經學惡化相關，屬決策警訊。\n- 分級是決策輔助工具，最終仍須結合臨床表現、破裂與否及術者經驗綜合判斷。\n\n**參考來源**\n: Spetzler RF, Martin NA. JNAG 1986;65:476-483.\n: **Tier 1** Frisoli FA, Catapano JS, Farhadi DS, ... Lawton MT. *Spetzler-Martin Grade III Arteriovenous Malformations: A Comparison of Modified and Supplemented Spetzler-Martin Grading Systems*. Neurosurgery 2021;88(6):1103-1110（據 PubMed，DOI [10.1093/neuros/nyab020](https://doi.org/10.1093/neuros/nyab020)；實際查證 accessed 2026-07-04）——補充（Supplemented, Lawton-Young）分級納入年齡、破裂史、nidus compactness，對 Grade III AVM 之手術結果預測優於單用 SM 分級，Supp-SM grade 6 為可接受手術風險上限。原「官方/單一原始文獻」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Spetzler-Martin AVM Grading",
   "nameZh": "AVM分級",
   "slug": "spetzler-martin-avm",

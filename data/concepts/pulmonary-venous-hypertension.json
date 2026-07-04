@@ -13,7 +13,20 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**Stage I（重分布 redistribution / cephalization）**：肺靜脈壓輕升 → **上肺血管擴張、cephalization、loss of hilar angle**；尚無水腫。心因性肺水腫慣稱「Stage 1」，對應 **PCWP ≈ 13–18 mmHg**。",
+    "**Stage II（間質水腫 interstitial edema）**：**Kerley A/B lines、peribronchial cuffing、肺門/血管模糊（vessel indistinctness）、葉間裂增厚（fissural/subpleural thickening）**；對應 **PCWP ≈ 18–25 mmHg**。",
+    "**Stage III（肺泡水腫 alveolar edema）**：**蝙蝠翼/蝴蝶狀（bat-wing / butterfly）中央分布的 consolidation/GGO**；對應 **PCWP > 25 mmHg**。",
+    "**Stage IV（慢性）**：**含鐵血黃素沉積、肺骨化結節**（慢性二尖瓣狹窄之終末變化；此期屬慢性 MS 特有，非急性心因性水腫時間軸）。",
+    "**Cephalization 定義**：上肺葉靜脈管徑 **等於或大於**下肺葉靜脈（正常立位時下肺血管較粗），即血流重分布。",
+    "**Peribronchial cuffing**：中央較大支氣管的管壁增厚最易見，為間質水腫表現。",
+    "**Kerley B lines**：< 2 mm 短線、位於周邊、與肋膜面**垂直**；Kerley A lines 由周邊向肺門斜行。",
+    "**心臟擴大**：CT ratio > 0.5 為 cardiomegaly；**VPW（vascular pedicle width）> 70 mm 合併 CT ratio > 0.55**，PCWP > 18 mmHg 機率高 3 倍以上，是區辨容積過載最有用的客觀組合。",
+    "**肋膜積液**：常見且常**雙側**，臨床上**右側偏多**。",
+    "**平滑的小葉間隔增厚（smooth interlobular septal thickening）** ＋支氣管血管束增厚。",
+    "**中央/肺門周圍 GGO**，可進展為 consolidation。",
+    "**重力依賴梯度（gravity-dependent）分布**＋（雙側）肋膜積液。"
+  ],
   "management": "",
   "name": "Pulmonary Venous Hypertension Stages (Mitral Stenosis)",
   "nameZh": "肺靜脈高壓分期",

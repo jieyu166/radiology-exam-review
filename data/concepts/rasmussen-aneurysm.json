@@ -15,7 +15,7 @@
     "**位置**：在**結核空洞旁**（空洞多為上肺葉再活化）、**周邊、超出主肺動脈分支範圍**——**非侷限下肺葉**（常見誤解）。",
     "**咳血來源（對照）**：約 1/3 肺結核病人咳血，**<10% 來自肺動脈（即 ~90% 來自支氣管循環）**；massive hemoptysis 少見但未治療約 **50% 致命**。"
   ],
-  "management": "1. **本質**：TB 空洞旁之肺動脈假瘤（PAP），首述 1868。\n2. **盛行率**：空洞性肺結核約 5%。\n3. **位置**：空洞旁、周邊、多上肺，非下肺。\n4. **咳血來源**：~90% 支氣管循環，肺動脈 <10%。\n5. **處置**：大咳血先 BAE；PA 來源需肺動脈栓塞，致命率高。\n\n> [!note] 考點：關於 Rasmussen aneurysm，何者「不正確」?\n> 「**Tuberculous PAP 通常侵犯下肺野（lower lung fields）**」不正確——通常在**結核空洞旁、周邊、超出主肺動脈分支範圍**（空洞多在上肺），非特定下肺葉。1868 年首述稱 PAP（A 對）、屬慢性肺結核血管併發症約 5%（B 對）、咳血最常見來源仍是支氣管循環約 90%（D 對）皆正確。",
+  "management": "1. **本質**：TB 空洞旁之肺動脈假瘤（PAP），首述 1868。\n2. **盛行率**：空洞性肺結核約 5%。\n3. **位置**：空洞旁、周邊、多上肺，非下肺。\n4. **咳血來源**：~90% 支氣管循環，肺動脈 <10%。\n5. **處置**：大咳血先 BAE；PA 來源需肺動脈栓塞，致命率高。\n\n> [!note] 考點：關於 Rasmussen aneurysm，何者「不正確」?\n> 「**Tuberculous PAP 通常侵犯下肺野（lower lung fields）**」不正確——通常在**結核空洞旁、周邊、超出主肺動脈分支範圍**（空洞多在上肺），非特定下肺葉。1868 年首述稱 PAP（A 對）、屬慢性肺結核血管併發症約 5%（B 對）、咳血最常見來源仍是支氣管循環約 90%（D 對）皆正確。\n\n**參考來源**\n: Gaillard F, et al. *Rasmussen aneurysm*. Radiopaedia, rID-9839, DOI 10.53347/rID-9839——肺動脈假性動脈瘤，由**結核空洞內/鄰近之肺動脈壁破壞弱化**形成；**空洞性肺結核約 5%**（屍檢）、大咳血 CT 約 6.9%；約 1/3 TB 咳血、**<10% 來自肺動脈（~90% 支氣管循環）**；massive hemoptysis 未治約 50% 致命。\n: 官方 2017 詳解；Ref: Nguyen ET, et al. *Pulmonary Artery Aneurysms and Pseudoaneurysms in Adults: Findings at CT and Radiography*. AJR 2007;188(2):W126-W134（題目所引）——Rasmussen（PAP）首述 1868；慢性肺結核血管併發症約 5%；**周邊、超出主肺動脈分支範圍（非下肺葉）**；咳血最常見來源仍為支氣管循環（~90%）（結論已由上述 Radiopaedia 一手來源查核佐證）。",
   "name": "Rasmussen Aneurysm (Pulmonary Artery Pseudoaneurysm in TB)",
   "nameZh": "拉斯穆森動脈瘤",
   "slug": "rasmussen-aneurysm",

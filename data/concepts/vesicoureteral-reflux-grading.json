@@ -16,7 +16,7 @@
     "**Grade IV**：**中度擴張（moderate dilatation）**，腎盞鈍化（blunting of fornices），乳頭壓痕（papillary impressions）尚存。",
     "**Grade V**：**嚴重擴張 + 輸尿管迂曲（tortuous ureter）+ 乳頭壓痕消失**。"
   ],
-  "management": "- VUR 是常見的先天泌尿道異常，可自發緩解、也可致腎瘢痕與腎功能損害而需手術。\n- 正確分級可指導處置:低級別多保守觀察、高級別（IV–V）較可能需介入。\n- 及早正確診斷 VUR 有助預防腎盂腎炎與腎瘢痕形成。\n- 檢查前的病人準備與適應症選擇（篩檢／確診／追蹤）影響檢查價值與成本效益。\n- ceVUS 因無游離輻射，在兒科族群的追蹤與診斷角色逐漸擴大。",
+  "management": "- VUR 是常見的先天泌尿道異常，可自發緩解、也可致腎瘢痕與腎功能損害而需手術。\n- 正確分級可指導處置:低級別多保守觀察、高級別（IV–V）較可能需介入。\n- 及早正確診斷 VUR 有助預防腎盂腎炎與腎瘢痕形成。\n- 檢查前的病人準備與適應症選擇（篩檢／確診／追蹤）影響檢查價值與成本效益。\n- ceVUS 因無游離輻射，在兒科族群的追蹤與診斷角色逐漸擴大。\n\n**參考來源**\n: 2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 146。\n: **Tier 1** Cajigas-Loyola SC, Chow JS, Hayatghaibi S, Iyer RS, Kwon J, Rubesova E, Sánchez-Jacob R, Wyers M, Otero HJ. *Imaging of Vesicoureteral Reflux: Expert Panel Narrative Review*. AJR Am J Roentgenol 2024;222(6):e2329741（據 PubMed，DOI [10.2214/AJR.23.29741](https://doi.org/10.2214/AJR.23.29741)；實際查證 accessed 2026-07-04）——AJR 專家小組回顧:VCUG、放射核素膀胱攝影、造影劑增強排尿性尿路超音波（ceVUS）三法之分級、優缺點與適應症;強調排尿期影像、避免過度診斷、ceVUS 之無輻射優勢。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Vesicoureteral Reflux (VUR) Grading",
   "nameZh": "膀胱輸尿管逆流分級",
   "slug": "vesicoureteral-reflux-grading",

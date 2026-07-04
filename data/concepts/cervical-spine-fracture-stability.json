@@ -15,7 +15,7 @@
     "**Hangman骨折（不穩定）**：即創傷性樞椎脫位(traumatic spondylolisthesis of the axis)，為雙側C2椎弓根(pars interarticularis)骨折，因過度伸展合併牽張力所致。",
     "**Jefferson骨折（不穩定）**：C1爆裂性骨折(burst fracture)，原始描述為前後弓雙處骨折之四部分骨折，亦可見三部分或二部分變異型。"
   ],
-  "management": "- Clay-shoveler 骨折為孤立棘突骨折，屬穩定損傷；淚滴、Hangman、Jefferson 骨折均為不穩定損傷。\n- Canadian C-Spine Rule 可作為是否需影像檢查的臨床決策工具。\n- AOSpine 分類因易用且信度佳，被建議作為 subaxial 頸椎損傷的溝通與治療依據。\n- A0 損傷保守治療；A4、B 型與 C 型損傷原則上需手術穩定。\n- 僵直性脊椎（強直脊椎，M3 修飾）之損傷宜以後路長節段內固定優先處理。\n\n> [!note] 考點：何者「非」不穩定頸椎損傷？\n> **Clay-shoveler's fracture（A）**——為孤立棘突骨折，屬穩定骨折。淚滴骨折(B)、Hangman骨折(C)、Jefferson骨折(D)皆為不穩定骨折。",
+  "management": "- Clay-shoveler 骨折為孤立棘突骨折，屬穩定損傷；淚滴、Hangman、Jefferson 骨折均為不穩定損傷。\n- Canadian C-Spine Rule 可作為是否需影像檢查的臨床決策工具。\n- AOSpine 分類因易用且信度佳，被建議作為 subaxial 頸椎損傷的溝通與治療依據。\n- A0 損傷保守治療；A4、B 型與 C 型損傷原則上需手術穩定。\n- 僵直性脊椎（強直脊椎，M3 修飾）之損傷宜以後路長節段內固定優先處理。\n\n> [!note] 考點：何者「非」不穩定頸椎損傷？\n> **Clay-shoveler's fracture（A）**——為孤立棘突骨折，屬穩定骨折。淚滴骨折(B)、Hangman骨折(C)、Jefferson骨折(D)皆為不穩定骨折。\n\n**參考來源**\n: *Orthopedic Imaging – A Practical Approach*, 5th Edition, p.377（2018 交換考題詳解 p.207 引用；Tier 2 教科書）。Clay-shoveler骨折為下頸椎棘突孤立骨折，屬穩定骨折；屈曲型淚滴骨折反映廣泛韌帶損傷與脊椎不穩定，常合併前脊髓症候群/四肢癱瘓；Hangman骨折為雙側C2椎弓根骨折(過度伸展+牽張)；Jefferson骨折為C1爆裂性骨折(前後弓雙處或多處)。\n: **Tier 1** Schleicher P, Scholz M, Kandziora F, et al. *Subaxial Cervical Spine Injuries: Treatment Recommendations of the German Orthopedic and Trauma Society*. Z Orthop Unfall 2017;155(5):556-566（據 PubMed，DOI [10.1055/s-0043-110855](https://doi.org/10.1055/s-0043-110855)；實際查證 accessed 2026-07-04）——共識性治療建議，明訂 subaxial 頸椎損傷以 AOSpine 分類判定穩定性、CT 為結構評估首選、MRI 排除韌帶損傷、CTA 之觸發條件，及各型損傷（A0–A4、B、C）的處置分界。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Cervical Spine Fracture Stability",
   "nameZh": "頸椎骨折穩定性",
   "slug": "cervical-spine-fracture-stability",

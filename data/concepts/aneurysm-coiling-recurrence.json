@@ -14,7 +14,7 @@
     "**Huang 2017 具體風險因子**：**大尺寸、寬頸、AComm 或 MCA 動脈瘤、破裂、VER <20%、無支架輔助**，另加吸菸；整體復發率 **12.6%（83/658）**。",
     "**機轉**：復發源自 **coil compaction（線圈壓實）、瘤體再生長、初始栓塞不完全**——栓塞密度不足與寬頸使殘餘/再通機率上升。"
   ],
-  "management": "1. **多因子**：大小/位置/頸寬/破裂 + 栓塞密度/支架，共同決定復發。\n2. **可控技術因子**：提高 VER（≥20-25%）與支架輔助可降復發。\n3. **整體復發率**：Huang 2017 約 12.6%。\n4. **機轉**：coil compaction + 再生長 + 初始不完全栓塞。\n5. **追蹤**：MRA/DSA 監測 recurrence，AComm/MCA、寬頸者更密集。\n\n> [!note] 考點：何者與動脈瘤栓塞後復發相關？\n> **以上皆是（E）**——volume/size、packing density（VER）、usage of stent、location 皆為 coiling 術後復發之相關因子（另含寬頸、破裂、吸菸）。",
+  "management": "1. **多因子**：大小/位置/頸寬/破裂 + 栓塞密度/支架，共同決定復發。\n2. **可控技術因子**：提高 VER（≥20-25%）與支架輔助可降復發。\n3. **整體復發率**：Huang 2017 約 12.6%。\n4. **機轉**：coil compaction + 再生長 + 初始不完全栓塞。\n5. **追蹤**：MRA/DSA 監測 recurrence，AComm/MCA、寬頸者更密集。\n\n> [!note] 考點：何者與動脈瘤栓塞後復發相關？\n> **以上皆是（E）**——volume/size、packing density（VER）、usage of stent、location 皆為 coiling 術後復發之相關因子（另含寬頸、破裂、吸菸）。\n\n**參考來源**\n: 官方 2020 詳解（題目所引）——動脈瘤體積、栓塞密度、是否使用輔助支架、位置皆與 coiling 術後復發相關。\n: Huang DZ, Jiang B, He W, Wang YH, Wang ZG. *Risk factors for the recurrence of an intracranial saccular aneurysm following endovascular treatment*. Oncotarget 2017;8(20):33676-33682, DOI 10.18632/oncotarget.16897（PMC5464901；accessed 2026-07-03）——658 例、復發率 12.6%；顯著風險因子＝**大尺寸、寬頸、AComm/MCA 位置、破裂、VER <20%、無支架輔助**、吸菸。",
   "name": "Intracranial Aneurysm Recurrence After Coiling — Risk Factors",
   "nameZh": "動脈瘤栓塞後復發",
   "slug": "aneurysm-coiling-recurrence",

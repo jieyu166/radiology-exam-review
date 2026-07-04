@@ -22,7 +22,17 @@
     "**族群/出血**：**正常血壓老年人**的 **lobar（皮質-皮質下）腦出血**;為老年自發性 lobar ICH 常見原因。",
     "**分布**：**皮質-皮質下為主,『保留(spares)』basal ganglia 與 pons**——對比高血壓出血好發深部(基底核/視丘/腦橋,見 [[hypertensive-hemorrhage]])。",
     "**微出血**：GRE/SWI 多發皮質-皮質下『**黑點(susceptibility)**』、cortical superficial siderosis。",
-    "**臨床**：與失智(Alzheimer 共病)相關。"
+    "**臨床**：與失智(Alzheimer 共病)相關。",
+    "**首選序列**：以 **SWI 或 GRE/T2\\*** 偵測出血標記;SWI 對微出血與含鐵血黃素的敏感度高於傳統 GRE T2\\*。微出血計數與分布判讀均建立在這類磁敏感序列上。",
+    "**微出血分布（最關鍵的判讀區別）**：CAA 微出血呈 **多發(≥2)、嚴格腦葉(strictly lobar)、皮質/皮質-皮質下**,且 **好發後部(後枕葉/頂葉)**;反之 **高血壓性微出血好發深部(基底核、視丘、腦幹/橋腦、小腦深部)**。看到深部微出血應優先想高血壓性微血管病而非 CAA。",
+    "**皮質表面含鐵血黃素沉積(cortical superficial siderosis, cSS)**：沿腦溝/腦回表面的曲線狀(gyriform/\"tram-track\")磁敏感低訊號;依範圍分 **focal(<4 個腦溝)** 與 **disseminated(≥4 個腦溝)**;**幕下(infratentorial)cSS 與嚴重 CAA 相關**。cSS 是 CAA 高度特異的標記,也是反覆 convexity SAH 的後遺。",
+    "**凸面蛛網膜下出血(convexity SAH, cSAH)**：出血 **侷限於腦凸面腦溝、不在基底池(basal cisterns)**;在老年人為 CAA 的表現之一,常以暫時性局灶神經發作(transient focal neurological episodes, \"amyloid spells\")表現,並可演變為 cSS。動脈瘤性 SAH 則以基底池為中心,為重要鑑別。",
+    "**改良 Boston 2.0 診斷標準影像要件**(年齡 **≥50 歲**、且無其他出血原因):新增 **兩項非出血性白質標記**——(1) **半卵圓中心嚴重血管周隙擴大(>20 個 enlarged perivascular spaces / 半球)**;(2) **多斑點型白質高訊號(multispot WMH,雙側皮質下 >10 個小圓/卵圓 T2/FLAIR 高訊號)**。**Probable CAA** = 至少 **2 個嚴格腦葉出血性病灶(lobar ICH、微出血或 cSS 任意組合)**,或 **1 個腦葉出血性病灶 + 1 項白質標記**;**Possible CAA** = 僅 **1 個腦葉出血性病灶** 或僅 **1 項白質標記**。對照神經病理金標準,Probable CAA 敏感度約 74.5%、特異度約 95%。",
+    "**CAA 相關發炎(CAA-related inflammation, CAA-ri)**:**不對稱、斑塊狀或融合性 T2/FLAIR 白質高訊號(血管源性水腫)**,常延伸至皮質下白質、可有腫脹/輕度佔位效應;**水腫區常重疊或鄰近多發微出血/cSS**(此空間關聯為診斷要點);**post-contrast 可見軟腦膜或腦回狀強化(但非必然)**。為類固醇可反應、臨床重要的可逆型。",
+    "**高血壓性微出血/微血管病**：微出血與出血 **好發深部(基底核、視丘、腦幹、小腦)**;CAA 則 **腦葉/皮質**且保留深部。分布是首要區分點。",
+    "**瀰漫性軸突損傷(diffuse axonal injury, DAI)**:外傷史,微出血分布於 **灰白質交界、胼胝體、腦幹背外側** 等剪力好發處,非腦葉皮質隨機散布;臨床情境(外傷)即可區分。",
+    "**海綿狀血管瘤(cavernoma)**:典型 **\"爆米花(popcorn)\" 混雜訊號核心 + 完整含鐵血黃素低訊號環(complete hemosiderin ring)**,可單發或多發(家族型);CAA 微出血則為均質小黑點、無爆米花核心。",
+    "**出血性轉移**：出血灶 **多在灰白質交界**、常有 **周邊水腫與結節狀強化**、大小不一並有原發癌病史;CAA 微出血無強化結節、無顯著病灶周圍水腫(發炎型除外)。"
   ],
   "management": "",
   "name": "Cerebral Amyloid Angiopathy (CAA)",

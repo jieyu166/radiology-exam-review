@@ -15,7 +15,7 @@
     "**Transition point（阻塞點）**：擴張腸（>3 cm）與塌陷遠端腸之交界即阻塞處；**冠狀面重組對辨識 transition point 是有用輔助**（軸位＋冠狀合併判讀信心最高）。",
     "**診斷準確度侷限**：CT 對腸段侵犯範圍、腫塊與 transition point 判定尚可，但對沾黏、穿孔、缺血之偵測較不可靠。"
   ],
-  "management": "1. Adhesion 為 SBO 最常見病因，多見於腹部手術後。\n2. 臨床以腹痛、腹脹、嘔吐、停止排氣排便表現，非特異。\n3. CT 有助決定手術時機與是否合併缺血。\n4. Closed-loop 阻塞絞扼風險高，須緊急手術。\n5. 保守（NG 減壓、補液）對單純沾黏性部分阻塞常有效。\n\n> [!note] 考點：下列何者「不是」小腸阻塞（SBO）的病因？\n> **以上皆可造成 SBO（E）**——Adhesion、hernia、Crohn disease、intussusception 皆為 SBO 之確認病因，故無單一「非病因」選項。",
+  "management": "1. Adhesion 為 SBO 最常見病因，多見於腹部手術後。\n2. 臨床以腹痛、腹脹、嘔吐、停止排氣排便表現，非特異。\n3. CT 有助決定手術時機與是否合併缺血。\n4. Closed-loop 阻塞絞扼風險高，須緊急手術。\n5. 保守（NG 減壓、補液）對單純沾黏性部分阻塞常有效。\n\n> [!note] 考點：下列何者「不是」小腸阻塞（SBO）的病因？\n> **以上皆可造成 SBO（E）**——Adhesion、hernia、Crohn disease、intussusception 皆為 SBO 之確認病因，故無單一「非病因」選項。\n\n**參考來源**\n: 據 PubMed，Filippone A、Cianci R、Storto ML，*Bowel obstruction: comparison between multidetector-row CT axial and coronal planes*（Review），Abdom Imaging 2006;32(3):310-6，[DOI](https://doi.org/10.1007/s00261-006-9065-4)——SBO 病因含腫瘤、發炎、術後（沾黏）、先天等；CT 顯示阻塞部位與病因，冠狀面利於辨識自擴張至塌陷腸之 transition point，軸位＋冠狀合併判讀信心最高。\n: 據 PubMed，Barnett RE 等，*Accuracy of computed tomography in small bowel obstruction*，Am Surg 2013;79(6):641-3——CT 對腸段侵犯（小腸 83%、大腸 80%）、腫塊（69%）、transition point（64%）判定尚可，但對沾黏（21%）、穿孔、缺血（20%）偵測較不可靠。\n\n> [!question]- Which of the following is NOT a cause of small bowel obstruction (SBO)? (2019-325)\n> **All of the above can cause SBO（E）**——Adhesion、hernia、Crohn disease、intussusception 皆為 SBO 確認病因，無單一非病因選項。",
   "name": "Small Bowel Obstruction — Causes & CT Imaging",
   "nameZh": "小腸阻塞病因影像",
   "slug": "sbo-causes-imaging",

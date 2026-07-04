@@ -10,7 +10,7 @@
     "**膽管癌/非肝細胞惡性（含轉移）**：**周邊 rim 強化＋明顯快速洗出（marked, rapid，典型 <60 秒）** → 晚期呈**明顯低迴聲**，較 HCC 更早更深。",
     "**血管瘤（hemangioma）**：典型動脈期**周邊結節狀/球狀不連續強化並向心填入**；小型高流量者可**flash-filling**（動脈期迅速均質強化）；**晚期與血池等回音、無洗出**（sustained enhancement）。"
   ],
-  "management": "1. **CEUS 用途**：可即時、無輻射地在肝硬化肝中偵測與定性結節，準確度高，並能立即排除良性避免不必要轉檢。\n2. **HCC 標記**：APHE + 晚弱洗出＝HCC 之 CEUS hallmark，是與良性/其他惡性區分的核心。\n3. **非 HCC 惡性警訊**：rim 強化 + <60 秒明顯洗出 → 膽管癌/轉移，處置與 HCC 不同。\n4. **良性代表**：flash-filling 或周邊結節狀向心填入且無洗出 → 血管瘤，通常無需進一步處置。\n5. **演變概念**：RN→DN→HCC，CEUS 洗出出現與加深反映去分化，需結合大小/追蹤判讀。\n\n> [!note] 考點：CEUS晚期回音變化組合，何者正確？\n> **四者皆正確（D）**——(1) 分化不良結節-等迴聲（等強化、無洗出）、(2) HCC-低迴聲（晚弱洗出）、(3) 膽管癌-低迴聲（早而明顯快速洗出）、(4) 血管瘤-快速填入（flash-filling，晚期等血池無洗出）。",
+  "management": "1. **CEUS 用途**：可即時、無輻射地在肝硬化肝中偵測與定性結節，準確度高，並能立即排除良性避免不必要轉檢。\n2. **HCC 標記**：APHE + 晚弱洗出＝HCC 之 CEUS hallmark，是與良性/其他惡性區分的核心。\n3. **非 HCC 惡性警訊**：rim 強化 + <60 秒明顯洗出 → 膽管癌/轉移，處置與 HCC 不同。\n4. **良性代表**：flash-filling 或周邊結節狀向心填入且無洗出 → 血管瘤，通常無需進一步處置。\n5. **演變概念**：RN→DN→HCC，CEUS 洗出出現與加深反映去分化，需結合大小/追蹤判讀。\n\n> [!note] 考點：CEUS晚期回音變化組合，何者正確？\n> **四者皆正確（D）**——(1) 分化不良結節-等迴聲（等強化、無洗出）、(2) HCC-低迴聲（晚弱洗出）、(3) 膽管癌-低迴聲（早而明顯快速洗出）、(4) 血管瘤-快速填入（flash-filling，晚期等血池無洗出）。\n\n**參考來源**\n: Wilson SR. *CEUS Liver: Focal Lesions in High-Risk Patients* (Dx). STATdx, updated 02/03/19. Elsevier——肝硬化 RN→DN→HCC；**APHE + 晚弱洗出＝高度提示 HCC**；**rim 強化 + 明顯快速洗出（<60 秒）＝非肝細胞惡性（膽管癌/轉移）**；DN 動脈期 hypo/iso/hyper、晚期多等強化；即時動態最能顯示 flash-filling 血管瘤等良性型態。與官方 2020 詳解原引 Wilson SR 等 *Integration of CEUS into a Multimodality Approach to Nodules in a Cirrhotic Liver: How I Do It*. Radiology 2017;282(2):317-331 為同一作者群、結論一致（該弱來源已由此一手來源查核取代）。",
   "name": "Contrast-Enhanced US (CEUS) — Cirrhotic Liver Nodule Patterns",
   "nameZh": "肝硬化結節顯影劑超音波",
   "slug": "ceus-liver-nodule-patterns",

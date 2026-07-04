@@ -2,10 +2,8 @@
   "checked": false,
   "definition": "**腎上腺腫塊越大越要想惡性——>4–6 cm 加上壞死鈣化侵犯血管，指向 ACC。** 腎上腺皮質癌常呈大型異質腫塊（壞死/出血）、周邊不均勻強化、約 30% 鈣化，且相對常侵犯腎靜脈、IVC 及肝。記憶鉤：「大（>4 cm）＋異質＋鈣化＋血管栓」＝ACC；反之，小＋均質＋富脂快 washout＝adenoma；T2 燈泡亮＋顯著強化＝pheo；跨中線包繞血管的兒童＝neuroblastoma。",
   "differentialDiagnosis": [
-    "**Adrenal adenoma**：小（多 < 4 cm）、均質、**非顯影 ≤10 HU（富脂）或快速 washout（RPW > 58%／APW > 60%）**；ACC 衰減高且 washout 慢。陷阱：大型乏脂腺瘤可與 ACC 重疊，需看大小／異質／侵犯綜合判斷。",
-    "**Pheochromocytoma**：**T2 顯著高訊號（light-bulb）＋明顯強化**，臨床兒茶酚胺症狀、metanephrine 升高；影像可與 ACC 重疊（皆可大且異質、可壞死），須結合生化。",
-    "**Metastasis**：常有原發癌病史（肺癌、腎細胞癌、黑色素瘤、乳癌），常雙側。",
-    "**Myelolipoma**：含**巨觀脂肪**（CT 上明確脂肪密度），與 ACC 不同；惟 ACC 偶含少量脂質灶不應誤判為含脂良性病灶。"
+    "**強化型態**：**不均勻、周邊為主**的強化＋中央壞死無強化。",
+    "**washout 慢於腺瘤**：ACC 典型 **absolute washout < 60%、relative washout < 50%**；腺瘤 APW > 60%／RPW > 58%。慢 washout ＋高衰減即偏惡性。"
   ],
   "externalLinks": [
     {
@@ -17,7 +15,7 @@
       "url": "https://doi.org/10.2214/AJR.10.5540（全文付費，依摘要／檢索層級查證，accessed"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "**平掃 CT（第一步定良惡）**\n- **看衰減、看大小**：富脂腺瘤非顯影 ≤10 HU；ACC 因實質豐富＋出血壞死，非顯影**通常 > 30 HU**，不能以「脂質判讀」排除惡性。\n- **大小門檻**：診斷時約 **90% > 6 cm**（範圍 5–20 cm）；腫塊越大越要優先想 ACC，邊緣不規則、內部出血/壞死致異質。\n- **鈣化**：**約 30%** 可見鈣化，是支持 ACC 的線索之一。\n\n**對比 CT washout（與腺瘤最關鍵的鑑別）**\n- **強化型態**：**不均勻、周邊為主**的強化＋中央壞死無強化。\n- **washout 慢於腺瘤**：ACC 典型 **absolute washout < 60%、relative washout < 50%**；腺瘤 APW > 60%／RPW > 58%。慢 washout ＋高衰減即偏惡性。\n\n**MRI（分期與 IVC 評估首選）**\n- 相對肝臟呈 **T1 低、T2 高且不均**；出血灶 T1/T2 皆高訊號。\n- **化學位移**：少數含脂質灶可在 out-of-phase 局部掉訊號，但**無腺瘤式瀰漫均勻掉訊號**，不可誤判為腺瘤。\n- **IVC/腎靜脈瘤栓**：達 **25%** 診斷時即有瘤栓（右側較多、可上達右心房）；**MRI 評估 IVC 侵犯與頭側延伸優於 CT/US**，並評估肝、淋巴結、肺轉移。\n\n**DDx（判讀時並列）**\n- **Adrenal adenoma**：小、均質、≤10 HU 或快 washout；大型乏脂腺瘤可與 ACC 重疊，須綜合大小/異質/侵犯。\n- **Pheochromocytoma**：T2 light-bulb ＋明顯強化，metanephrine 升高；影像可重疊須靠生化。\n- **Metastasis**：多有原發癌病史、常雙側。\n- **Myelolipoma**：含**巨觀脂肪**（明確脂肪密度），與 ACC 少量脂質灶不同。\n\n**判讀陷阱**\n- **「含脂＝良性」陷阱**：ACC 偶含少量脂質灶，勿因 out-of-phase 局部掉訊號誤判為腺瘤；判讀重點在**是否瀰漫均勻掉訊號**。\n- **大型乏脂腺瘤**與 ACC 在單一參數上會重疊，須大小＋異質＋侵犯＋washout 綜合判讀。",
   "keyPoints": [
     "**大小/型態**：常**大型**，診斷時約 **90% > 6 cm**、典型範圍 **5–20 cm**；邊緣不規則。小病灶可較均質，大病灶因**出血/壞死**而呈明顯異質。",
     "**非顯影 CT 衰減**：因含豐富實質與出血壞死，衰減**通常 > 30 HU**（遠高於富脂腺瘤的 ≤10 HU 門檻），無法以脂質判讀排除惡性。",
@@ -28,7 +26,7 @@
     "**功能性**：約 **40–60%** 為功能性腫瘤——以**庫欣症候群最常見**，其次**雄性素過多（虛化／virilization，約占功能性 20–30%）**，常**糖皮質素＋雄性素併存（約占功能性一半）**；醛固酮過多與男性女乳化（雌激素）較少見。",
     "**本題**：6 cm 右腎上腺腫塊、異質性周邊強化、壞死、鈣化、早期侵犯 → **ACC**（2016-136 正解 A）。"
   ],
-  "management": "",
+  "management": "1. **功能性約 40–60%**：以**庫欣症候群最常見**，其次雄性素過多（virilization，約占功能性 20–30%），常糖皮質素＋雄性素併存（約占功能性一半）；醛固酮或雌激素過多較少見。\n2. 臨床可因荷爾蒙過量（庫欣、女性男性化）或腫塊壓迫/腹痛就診；亦有無功能而偶然發現者。\n3. 診斷需**生化功能評估**（庫欣、雄性素、必要時 metanephrine 排除 pheo）搭配影像。\n4. 屬**侵襲性惡性**，預後與分期相關；診斷時常已侵犯血管或遠端轉移。\n5. 兒童病例與 **Beckwith-Wiedemann、Li-Fraumeni（p53 突變）** 等症候群相關，且兒童腺瘤常具荷爾蒙活性、好發年輕女性。\n\n> [!note] 考點\n> 大型（>4–6cm）異質腎上腺腫塊＋壞死＋鈣化＋血管侵犯 → **adrenocortical carcinoma**。\n\n**判讀鑑別重點**\n- **Adrenal adenoma**：小（多 < 4 cm）、均質、**非顯影 ≤10 HU（富脂）或快速 washout（RPW > 58%／APW > 60%）**；ACC 衰減高且 washout 慢。陷阱：大型乏脂腺瘤可與 ACC 重疊，需看大小／異質／侵犯綜合判斷。\n- **Pheochromocytoma**：**T2 顯著高訊號（light-bulb）＋明顯強化**，臨床兒茶酚胺症狀、metanephrine 升高；影像可與 ACC 重疊（皆可大且異質、可壞死），須結合生化。\n- **Metastasis**：常有原發癌病史（肺癌、腎細胞癌、黑色素瘤、乳癌），常雙側。\n- **Myelolipoma**：含**巨觀脂肪**（CT 上明確脂肪密度），與 ACC 不同；惟 ACC 偶含少量脂質灶不應誤判為含脂良性病灶。\n\n**參考來源**\n: *Adrenocortical carcinoma*. Radiopaedia.org（輔助來源，accessed 2026-06-17）：larger lesions **heterogeneous secondary to necrosis/hemorrhage**；**invasion into renal vein, IVC, and liver relatively common**；常見鈣化；CT/MR 為主要影像。\n: 【Tier 1，peer-reviewed open access】Young WF Jr. *Conventional Imaging in Adrenocortical Carcinoma: Update and Perspectives.* Horm Cancer. 2011. DOI: 10.1007/s12672-011-0089-z（PMC10358061，accessed 2026-06-29）：約 90% > 6 cm、範圍 5–20 cm；非顯影衰減通常 > 30 HU；relative washout < 50%、absolute washout < 60%；T1 低／T2 高訊號且不均，出血灶 T1/T2 皆高訊號，部分含脂質灶 out-of-phase 掉訊號；達 25% 有腎靜脈/IVC 瘤栓，MRI 評估 IVC 延伸優於 CT/US；hepatic、lymph node、pulmonary 轉移常見。\n: 【Tier 1，AJR】Bharwani N, et al. *Adrenocortical Carcinoma: The Range of Appearances on CT and MRI.* AJR Am J Roentgenol. 2011. DOI: 10.2214/AJR.10.5540（全文付費，依摘要／檢索層級查證，accessed 2026-06-29）：非顯影衰減 > 10 HU、周邊為主之不均勻強化、washout 慢於腺瘤（APW < 60%、RPW < 40%）；腺瘤小且 ≤10 HU 或快 washout；最高達 25% 病人有腎靜脈/IVC 瘤栓。\n: 【Tier 2，StatPearls】Menon G, Prasath S, Correa R. *Adrenocortical Carcinoma.* StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan-（NBK546580，accessed 2026-06-29）：約 40–60% 為功能性，庫欣最常見，雄性素過多占功能性約 20–30%、常與糖皮質素併存（約占功能性一半）；腺瘤 ≤10 HU、RPW > 58%；metastasis 來自肺/腎細胞/黑色素瘤/乳癌；myelolipoma 含巨觀脂肪。\n: *Radiol Clin N Am* 2011;49:711-727（2018 交換考題詳解 p.317 引用；Tier 1 期刊）。兒童腎上腺皮質腺瘤罕見、較腎上腺皮質癌少見，兒童腺瘤常為荷爾蒙活性；年齡雙峰(<5歲及>10歲)；好發年輕女性；關聯Beckwith-Wiedemann、Li-Fraumeni(p53突變)、泌尿道發育異常。",
   "name": "Adrenocortical Carcinoma (ACC)",
   "nameZh": "腎上腺皮質癌",
   "slug": "adrenocortical-carcinoma",

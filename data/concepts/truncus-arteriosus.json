@@ -19,7 +19,7 @@
     "**Type IV（pseudotruncus）**：肺動脈不從幹發出 → 現視為**肺動脈閉鎖 + VSD**。",
     "**臨床**：**出生即發紺 + 數週內心衰**（肺血管阻力下降 → 肺過度灌流）；**右位主動脈弓約 30%**。"
   ],
-  "management": "1. **單幹供三循環 + 幾乎都 VSD**。\n2. **Collett-Edwards I-IV**（I 最常、III 最少、IV pseudotruncus）。\n3. **臨床**：出生發紺 + 早期心衰。\n4. **合併**：22q11/DiGeorge、右位弓 ~30%。\n5. **術前**：評估 truncal valve/肺動脈/冠狀動脈。\n\n> [!note] 考點：關於 truncus arteriosus，何者「為真」?\n> 「**Type II 兩肺動脈各自從幹後方發出**」為真。Type I 為主肺動脈自共同幹（非降主動脈，B 錯）、幾乎都合併 VSD 且常合併其他異常（C 錯）、出生即發紺非 2 月後（D 錯）。",
+  "management": "1. **單幹供三循環 + 幾乎都 VSD**。\n2. **Collett-Edwards I-IV**（I 最常、III 最少、IV pseudotruncus）。\n3. **臨床**：出生發紺 + 早期心衰。\n4. **合併**：22q11/DiGeorge、右位弓 ~30%。\n5. **術前**：評估 truncal valve/肺動脈/冠狀動脈。\n\n> [!note] 考點：關於 truncus arteriosus，何者「為真」?\n> 「**Type II 兩肺動脈各自從幹後方發出**」為真。Type I 為主肺動脈自共同幹（非降主動脈，B 錯）、幾乎都合併 VSD 且常合併其他異常（C 錯）、出生即發紺非 2 月後（D 錯）。\n\n**參考來源**\n: 官方 2017 詳解；Ref: MRI: The Basics, 2nd ed., p.221-236；RadioGraphics 2010;30(4):1069-1094（題目所引）——Collett-Edwards Type I-IV；幾乎都合併 VSD；出生發紺/早期心衰；發生率 ~1/10,000（結論已由下述 Radiopaedia 一手來源查核佐證）。\n: Weerakkody Y, et al. *Truncus arteriosus (cardiac anomaly)*. Radiopaedia, rID-7376, DOI 10.53347/rID-7376——單一動脈幹供應體/肺/冠狀循環（conotruncal）、**約 2% CHD、幾乎都合併 VSD**、單一 truncal valve（2-4 cusps）；**Collett-Edwards I（最常）/II（後方相鄰）/III（兩側，最少）/IV（pseudotruncus＝肺動脈閉鎖+VSD）**；右位弓常見。",
   "name": "Truncus Arteriosus",
   "nameZh": "動脈幹",
   "slug": "truncus-arteriosus",

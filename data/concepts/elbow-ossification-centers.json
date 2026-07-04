@@ -19,7 +19,7 @@
     "**E**xternal (lateral) epicondyle：**11** 歲",
     "**臨床意義**：小兒肘部骨折評估時，若某骨化中心已出現而其前序中心未見，需懷疑該前序中心已撕脫/移位。"
   ],
-  "management": "- 骨化中心可預測的出現順序對判讀兒童肘部（尤其外傷）X 光至關重要。\n- 常用記憶口訣為 CRITOE（同義 CRITOL，L 指 lateral epicondyle）。\n- 多數兒童遵循此順序，但正常變異確實存在且被視為常態。\n- 順序變異在女童較男童常見（統計上顯著）。\n- 認識這些正常變異有助避免將變異誤判為病理或誤診骨折。",
+  "management": "- 骨化中心可預測的出現順序對判讀兒童肘部（尤其外傷）X 光至關重要。\n- 常用記憶口訣為 CRITOE（同義 CRITOL，L 指 lateral epicondyle）。\n- 多數兒童遵循此順序，但正常變異確實存在且被視為常態。\n- 順序變異在女童較男童常見（統計上顯著）。\n- 認識這些正常變異有助避免將變異誤判為病理或誤診骨折。\n\n**參考來源**\n: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., p. 35。\n: **Tier 1** Goodwin SJ, Irwin LJ, Irwin GJ. *Gender differences in the order of appearance of elbow ossification centres*. Scott Med J 2019;64(1):2-9（據 PubMed，DOI [10.1177/0036933018812000](https://doi.org/10.1177/0036933018812000)；實際查證 accessed 2026-07-04）——回顧 421 例兒童肘部 X 光，證實多數符合 CRITOL 順序，但約四分之一（兩中心可見時）至三分之一（四中心可見時）出現例外，女童變異顯著較多；強調順序判讀優先且須認識正常變異以免誤判。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Elbow Ossification Centers — CRITOE",
   "nameZh": "肘部骨化中心",
   "slug": "elbow-ossification-centers",

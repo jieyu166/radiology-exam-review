@@ -13,7 +13,19 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**核心原則**：**Advanced imaging（CT perfusion 或 DW-MRI ± MR perfusion）篩選具可挽救腦組織之病人，將前循環機械取栓治療窗延長至最後正常時間後 6-24 小時**。",
+    "**2019 更新之時間分層**：**6-16 小時**內符合 DAWN 或 DEFUSE-3 條件者「**建議（Class I）**」取栓；**16-24 小時**內符合 DAWN 條件者「**合理（Class IIa）**」取栓——最大延窗達 24 小時。",
+    "**實證依據**：兩項 RCT（**DAWN**：good outcome mRS 0-2 於 49% vs 13%；**DEFUSE 3**：45% vs 17%）皆顯示取栓組顯著獲益。",
+    "**影像選擇建議（Class I, LOE A）**：「In selected patients with AIS within 6-24 hours of last known normal who have LVO in the anterior circulation, obtaining CTP, DW-MRI, or MRI perfusion is recommended to aid in patient selection for mechanical thrombectomy」（僅在符合 DAWN/DEFUSE-3 條件時）。",
+    "**需同時符合以下三項條件**：",
+    "**時間窗**：前循環發作內**8小時**、後循環發作後**24小時**內。",
+    "**NIHSS評分**：**≧8 and ≦30**。",
+    "**影像診斷為顱內大動脈阻塞**：包括**內頸動脈（ICA）、大腦中動脈第1及第2段（M1/M2）、大腦前動脈（ACA）、基底動脈（basilar artery）、脊椎動脈（vertebral artery）**。",
+    "**basilar/vertebral artery occlusion之機械取栓為Class IIb（弱）、Level of Evidence C-LD（有限資料）**，並非前循環LVO常見引用之Class I/Level A建議。",
+    "急性basilar artery occlusion病因可為thromboembolism、atherosclerosis（本地/亞洲人族群常見intracranial atherosclerotic disease, ICAD）或intracranial dissection延伸。",
+    "DWI MRI可協助評估合適取栓之病人；評估過程**不應延誤靜脈溶栓治療**（IV thrombolysis與IAT非互斥、應先啟動）。"
+  ],
   "management": "",
   "name": "Intra-arterial Thrombectomy — Treatment Window & Taiwan NHI Criteria",
   "nameZh": "機械取栓治療窗",

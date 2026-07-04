@@ -14,7 +14,7 @@
     "**Type II**（~20%）：中等囊（0.5-2 cm），常合併其他先天異常。",
     "**Type III**（~10%）：微囊/實質型，預後較差。"
   ],
-  "management": "- CPAM 為錯構瘤性肺發育異常，多數於產前診斷、出生時無症狀，少數以呼吸窘迫或反覆呼吸道感染表現。\n- 症狀性病灶建議手術切除；無症狀者之處置（保守 vs 預防性切除）仍有爭議。\n- CPAM 有惡性轉化（如胸膜肺母細胞瘤、黏液性腺癌）與反覆感染風險，是主張切除的主要理由。\n- 影像追蹤與手術/保守決策需高品質影像判讀支持，時機常安排於出生後數月。\n- Stocker 分型（Type I 大囊最常見、Type II 中囊、Type III 微囊/實質）與預後及合併異常相關。",
+  "management": "- CPAM 為錯構瘤性肺發育異常，多數於產前診斷、出生時無症狀，少數以呼吸窘迫或反覆呼吸道感染表現。\n- 症狀性病灶建議手術切除；無症狀者之處置（保守 vs 預防性切除）仍有爭議。\n- CPAM 有惡性轉化（如胸膜肺母細胞瘤、黏液性腺癌）與反覆感染風險，是主張切除的主要理由。\n- 影像追蹤與手術/保守決策需高品質影像判讀支持，時機常安排於出生後數月。\n- Stocker 分型（Type I 大囊最常見、Type II 中囊、Type III 微囊/實質）與預後及合併異常相關。\n\n**參考來源**\n: 2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 6。\n: **Tier 1** Newman B. *Magnetic resonance imaging for congenital lung malformations*. Pediatr Radiol 2021;52(2):312-322（據 PubMed，DOI [10.1007/s00247-021-05018-7](https://doi.org/10.1007/s00247-021-05018-7)；實際查證 accessed 2026-07-04）——小兒放射專科綜述：CPAM 等先天肺畸形多由產前超音波發現、胎兒 MRI 進一步評估；產後影像常延至 3–6 個月，對比增強 CT（血管攝影技術）為標準，MRI 為無輻射替代並討論鑑別診斷與 CT/MR 優劣。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Congenital Pulmonary Adenomatoid Malformation (CPAM)",
   "nameZh": "先天性肺腺瘤樣畸形",
   "slug": "cpam-congenital-pulmonary",

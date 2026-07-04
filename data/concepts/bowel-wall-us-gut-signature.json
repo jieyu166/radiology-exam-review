@@ -19,7 +19,7 @@
     "**檢查工具**：**經腹超音波（視野廣）評估腸道病灶優於經陰道超音波**；經陰道為女性骨盆常規初始檢查但視野受限，必要時加經陰道/經會陰。",
     "**膿瘍內部**：可見**漂浮回音（floating echogenicity）**。"
   ],
-  "management": "1. **正常＝交替 5 層**，非單一高回音環。\n2. **厚度**：小腸 ≤3 mm、大腸 ≤4 mm。\n3. **分層意義**：保留→發炎性；消失→穿壁性（缺血/腫瘤）。\n4. **經腹 > 經陰道**：評估腸道視野較廣。\n5. **膿瘍**：內見漂浮回音。\n\n> [!note] 考點：關於腸壁超音波表現，何者為非？\n> **正常腸壁橫切面呈同心圓「高回音」環（B）為錯誤**——實際為**交替之高回音與低回音同心圓環（gut signature，5 層）**。經腹超音波優於經陰道評估腸道病灶、大腸壁正常 ≤4 mm、膿瘍內可見漂浮回音，皆為正確。",
+  "management": "1. **正常＝交替 5 層**，非單一高回音環。\n2. **厚度**：小腸 ≤3 mm、大腸 ≤4 mm。\n3. **分層意義**：保留→發炎性；消失→穿壁性（缺血/腫瘤）。\n4. **經腹 > 經陰道**：評估腸道視野較廣。\n5. **膿瘍**：內見漂浮回音。\n\n> [!note] 考點：關於腸壁超音波表現，何者為非？\n> **正常腸壁橫切面呈同心圓「高回音」環（B）為錯誤**——實際為**交替之高回音與低回音同心圓環（gut signature，5 層）**。經腹超音波優於經陰道評估腸道病灶、大腸壁正常 ≤4 mm、膿瘍內可見漂浮回音，皆為正確。\n\n**參考來源**\n: 官方 2020 詳解；Ref: *Nongynecologic Findings Seen at Pelvic US*. RadioGraphics 2017;37(7):2045-2062, DOI 10.1148/rg.2017170053（題目所引；accessed 2026-07-03）——正常腸壁呈交替高低回音同心圓環（gut signature）；小腸壁 ≤3 mm、大腸壁 ≤4 mm；經腹超音波視野較廣優於經陰道；膿瘍內可見漂浮回音。\n: Gaillard F, et al. *Gut signature sign*. Radiopaedia, rID-25173, DOI 10.53347/rID-25173——腸壁 **5 層交替高/低回音**（淺層黏膜 echogenic / 黏膜肌層 hypoechoic / **submucosa echogenic 最厚** / 固有肌層 hypoechoic / 漿膜 echogenic）；intussusception 之配置與正常 5 層不同。",
   "name": "Bowel Wall — Ultrasound Layered Appearance (\"Gut Signature\")",
   "nameZh": "腸壁超音波分層徵象",
   "slug": "bowel-wall-us-gut-signature",

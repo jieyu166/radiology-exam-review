@@ -14,7 +14,7 @@
     "**機轉**：腫瘤位於左右肝管**匯流處（confluence）**，阻塞位置使近端（肝內）膽管擴張，遠端（肝外）膽管因阻塞點以下不受影響而維持正常口徑。",
     "**鑑別**：Cholangitis通常造成瀰漫性膽管系統變化（非侷限性肝內擴張）；choledocholithiasis與胰臟腫瘤通常造成肝外膽管（甚至肝內）擴張（阻塞點在更遠端）。"
   ],
-  "management": "- 肝門部(perihilar)膽管癌是膽管癌中最常見的解剖亞型，屬肝膽系統第二常見惡性腫瘤。\n- 影像在偵測、特徵化、分期與可切除性評估上不可或缺，直接影響手術與治療策略。\n- 治療以根治性手術切除(常需合併肝葉切除)為主，可切除性取決於膽管與血管受侵範圍。\n- 膽道系統之癌前病變與膽管癌發生機轉的新概念，對影像判讀與病灶定性有重要意義。\n- 危險因子包括原發性硬化性膽管炎、膽管囊腫與肝吸蟲感染等慢性膽道發炎狀態。",
+  "management": "- 肝門部(perihilar)膽管癌是膽管癌中最常見的解剖亞型，屬肝膽系統第二常見惡性腫瘤。\n- 影像在偵測、特徵化、分期與可切除性評估上不可或缺，直接影響手術與治療策略。\n- 治療以根治性手術切除(常需合併肝葉切除)為主，可切除性取決於膽管與血管受侵範圍。\n- 膽道系統之癌前病變與膽管癌發生機轉的新概念，對影像判讀與病灶定性有重要意義。\n- 危險因子包括原發性硬化性膽管炎、膽管囊腫與肝吸蟲感染等慢性膽道發炎狀態。\n\n**參考來源**\n: 2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.131。\n: **Tier 1** Joo I, Lee JM, Yoon JH. *Imaging Diagnosis of Intrahepatic and Perihilar Cholangiocarcinoma: Recent Advances and Challenges*. Radiology 2018;288(1):7-13（據 PubMed，DOI [10.1148/radiol.2018171187](https://doi.org/10.1148/radiol.2018171187)；實際查證 accessed 2026-07-04）——回顧肝內與肝門部膽管癌之最新影像技術，說明其於偵測、特徵化、分期與可切除性評估之角色，並討論分類系統、膽管癌前病變新概念與治療趨勢；管周浸潤型多呈延遲性強化，分期須評估縱向膽管與血管受侵。原「Sonography Exam Review 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Klatskin Tumor (Hilar Cholangiocarcinoma)",
   "nameZh": "肝門部膽管癌",
   "slug": "klatskin-tumor",

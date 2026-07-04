@@ -15,7 +15,7 @@
     "**Thick wall with vascularity** on color Doppler。",
     "**Posterior acoustic shadow → NOT typical**（為 solid lesion 特徵）。"
   ],
-  "management": "- 化膿性肝膿瘍臨床表現常非特異，以發燒、右上腹痛、噁心嘔吐為主。\n- 實驗室常見 C-反應蛋白與纖維蛋白原上升，是敏感但非特異的發炎指標。\n- 致病菌具地域差異：亞洲以 Klebsiella pneumoniae 為主，歐洲以 Escherichia coli 較常見。\n- 治療主軸為早期抗生素合併經皮引流或抽吸。\n- 好發於右肝葉，糖尿病等宿主因子與較差預後及較長住院相關。",
+  "management": "- 化膿性肝膿瘍臨床表現常非特異，以發燒、右上腹痛、噁心嘔吐為主。\n- 實驗室常見 C-反應蛋白與纖維蛋白原上升，是敏感但非特異的發炎指標。\n- 致病菌具地域差異：亞洲以 Klebsiella pneumoniae 為主，歐洲以 Escherichia coli 較常見。\n- 治療主軸為早期抗生素合併經皮引流或抽吸。\n- 好發於右肝葉，糖尿病等宿主因子與較差預後及較長住院相關。\n\n**參考來源**\n: 2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. p 1-42~1-47。\n: **Tier 1** Serraino C, Elia C, Bracco C, et al. *Characteristics and management of pyogenic liver abscess: A European experience*. Medicine (Baltimore) 2018;97(19):e0628（據 PubMed，DOI [10.1097/MD.0000000000010628](https://doi.org/10.1097/MD.0000000000010628)；實際查證 accessed 2026-07-04）——PubMed 索引之臨床研究，記錄化膿性肝膿瘍的臨床表現、發炎指標、致病菌譜（歐洲以 E. coli 為主）、超音波為常用診斷工具，及抗生素合併經皮引流之處置主軸。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Pyogenic Liver Abscess — Ultrasound",
   "nameZh": "化膿性肝膿瘍超音波",
   "slug": "pyogenic-liver-abscess-ultrasound",

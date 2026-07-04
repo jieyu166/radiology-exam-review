@@ -15,7 +15,7 @@
     "**White cerebellum sign**：大腦瀰漫水腫/密度下降使**小腦（+腦幹）相對高密度**；**屬嚴重 HIE、預後差**（非預後好）。",
     "**Delayed post-hypoxic leukoencephalopathy**：缺氧後數週，皮質下/深部白質**瀰漫 T2 延長**。"
   ],
-  "management": "1. **輕度**：watershed 分佈。\n2. **嚴重**：深部灰質 + perirolandic + 海馬 + 腦幹。\n3. **white cerebellum**：嚴重 HIE、預後差。\n4. **delayed leukoencephalopathy**：皮質下白質 T2 延長。\n5. **DWI 早陽性**、可假性正常化。\n\n> [!note] 考點：關於 HIE，何者「為非」?\n> 「**white cerebellum sign 代表預後好**」為非——其代表**嚴重 HIE、預後差**。輕度影響 watershed、嚴重影響海馬/深部灰質、delayed leukoencephalopathy 致皮質下白質 T2 延長皆正確。",
+  "management": "1. **輕度**：watershed 分佈。\n2. **嚴重**：深部灰質 + perirolandic + 海馬 + 腦幹。\n3. **white cerebellum**：嚴重 HIE、預後差。\n4. **delayed leukoencephalopathy**：皮質下白質 T2 延長。\n5. **DWI 早陽性**、可假性正常化。\n\n> [!note] 考點：關於 HIE，何者「為非」?\n> 「**white cerebellum sign 代表預後好**」為非——其代表**嚴重 HIE、預後差**。輕度影響 watershed、嚴重影響海馬/深部灰質、delayed leukoencephalopathy 致皮質下白質 T2 延長皆正確。\n\n**參考來源**\n: 官方 2017 詳解；Ref: RadioGraphics 2011;31(1):5-30（題目所引）——HIE 輕度影響 watershed、嚴重影響深部灰質/海馬/腦幹；white cerebellum sign 屬嚴重 HIE、預後差；delayed leukoencephalopathy 致皮質下白質 T2 延長。\n: Gaillard F, et al. *Hypoxic-ischemic encephalopathy (adults and children)*. Radiopaedia, rID-14025, DOI 10.53347/rID-14025——嚴重全面缺氧多影響**皮質 + 深部灰質（basal ganglia、perirolandic 皮質最常）**，亦可 isolated basal ganglia 或 **watershed distribution**；病因含心跳停止/上吊/CO/溺水——佐證嚴重度決定分佈。",
   "name": "Hypoxic Ischemic Encephalopathy (HIE)",
   "nameZh": "缺氧缺血性腦病變",
   "slug": "hypoxic-ischemic-encephalopathy",

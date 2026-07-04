@@ -16,7 +16,7 @@
     "**Mushroom shape**：higher grade 表現（narrow dural base + lobulated irregular outline）",
     "**Age 非風險因子**"
   ],
-  "management": "- **Ki-67 增殖指數**是腦膜瘤侵襲性與復發風險的重要病理指標。\n- **高分級（atypical/anaplastic）腦膜瘤臨床病程較具侵襲性、復發率較高**。\n- 影響復發的臨床/手術因素包括**切除完全度（Simpson grade）與腫瘤位置**。\n- **年齡本身不是獨立的復發風險因子**。\n- 影像若提示高分級，可**術前調整手術與後續治療策略**。",
+  "management": "- **Ki-67 增殖指數**是腦膜瘤侵襲性與復發風險的重要病理指標。\n- **高分級（atypical/anaplastic）腦膜瘤臨床病程較具侵襲性、復發率較高**。\n- 影響復發的臨床/手術因素包括**切除完全度（Simpson grade）與腫瘤位置**。\n- **年齡本身不是獨立的復發風險因子**。\n- 影像若提示高分級，可**術前調整手術與後續治療策略**。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Tang Y, Dundamadappa SK, Thangasamy S, Flood T, Moser R, Smith T, Cauley K, Takhtani D. *Correlation of apparent diffusion coefficient with Ki-67 proliferation index in grading meningioma*. AJR Am J Roentgenol 2014;202(6):1303-1308（據 PubMed，DOI [10.2214/AJR.13.11637](https://doi.org/10.2214/AJR.13.11637)；實際查證 accessed 2026-07-04）——68 例手術腦膜瘤：ADC 與 Ki-67 增殖指數呈顯著負相關，低 ADC 對應高細胞密度/高分級；ADC cutoff 0.70×10⁻³ mm²/s 診斷 aggressive meningioma 特異度 94%、敏感度 29%，可協助術前預測侵襲性與復發傾向。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Meningioma Recurrence Risk Factors",
   "nameZh": "腦膜瘤復發因子",
   "slug": "meningioma-recurrence",

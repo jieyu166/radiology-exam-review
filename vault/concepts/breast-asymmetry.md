@@ -53,6 +53,20 @@ dateRev: 2026-06-29
 > [!question]- Which type of asymmetry identified at mammography has the MOST malignant likelihood of malignancy? (2020-218)
 > **Developing asymmetry（D，13-27%）**——依惡性風險排序：developing(13-27%) > palpable global(8%) > focal(2%) > non-palpable global(~0%)。[^1]
 
+## 放射科醫師影像判讀重點
+- **四型分辨（投影數＋範圍）**：asymmetry 僅單一投影可見（多為 summation 疊影）；focal asymmetry 兩投影皆見且形狀相似、範圍 <一象限、邊界 concave-outward 且內夾脂肪；global asymmetry ≥一象限、多為正常變異；developing asymmetry 為較前片新出現／變大者。[^1][^3]
+- **與真腫塊鑑別**：mass 具三維佔位、**convex-outward（外凸）邊界、各投影皆見、中央緻密**；asymmetry 無外凸邊界、無中央緻密、其內夾脂肪——邊界方向是關鍵鑑別點。[^1][^3]
+- **與 summation artifact 鑑別**：疊影僅單一投影出現，經 **spot compression（點壓迫）** 或加照後散開消失；真實病灶跨投影持續存在且形狀一致。[^1][^3]
+- **評估流程**：spot compression 釐清疊影 → lateral（90°）與 rolled views 三維定位 → DBT（tomosynthesis）提升敏感／特異度 → targeted US 找良性成因或作切片標靶 → 少數用 MRI 問題釐清。[^3]
+- **陷阱**：可疑度 **developing > focal > global**（勿被 global 大範圍嚇到，它反而最常正常）；developing 必比對前片才辨識得出「新增／變大」；**US 陰性不能排除 developing asymmetry 的惡性**，仍須切片（無 US 對應之乳攝不對稱惡性率約 22.7%）。[^1][^2][^3][^4]
+
+## 臨床重點（5 句）
+- Developing asymmetry 惡性風險最高，BI-RADS Atlas 引述約 15%，原始系列 PPV 篩檢 ~12.8%、診斷性 ~26.7%，故一律建議召回並切片。[^1][^2]
+- 即使超音波陰性，developing asymmetry 仍不應省略組織切片。[^1][^2]
+- Global asymmetry 多為正常變異，僅在伴可觸及腫塊或其他可疑徵象時才需進一步評估。[^1][^3]
+- Focal asymmetry 若穩定且典型良性可考慮 BI-RADS 3 短期追蹤，新發現或不確定者需完整診斷性評估。[^3]
+- 每次判讀都應與舊片逐一對照，不比對前片是漏診乳癌的常見原因。[^2][^3]
+
 ### 參考來源
 [^1]: 教科書／圖譜級。ACR BI-RADS Atlas 5th ed.（2013）, Mammography — Asymmetries：focal asymmetry「visible on and has a similar shape on different mammographic projections ... lacks the **convex-outward borders** ... borders are **concave-outward**」;developing asymmetry「new, larger, or more conspicuous ... **Approximately 15%** ... malignant ... Absence of a sonographic correlate ... should not avert biopsy」;asymmetry「seen on only one projection」、global asymmetry 多為正常變異。
 [^2]: 期刊原始系列（一級）。Leung JWT, Sickles EA. *Developing Asymmetry Identified on Mammography: Correlation with Imaging Outcome and Pathologic Findings.* AJR Am J Roentgenol 2007;188(3):667–675. DOI:10.2214/AJR.06.0413。發展性不對稱：篩檢偵測 PPV1 ~12.8%、診斷性偵測 PPV1 ~26.7%;「the likelihood of malignancy is sufficiently high to justify recall and biopsy」、「Normal sonographic findings do not exclude malignancy in the case of developing asymmetry」。

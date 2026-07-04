@@ -48,7 +48,7 @@
       "url": "https://doi.org/10.1016/s0090-4295(03"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "**超音波(第一線;新生兒 / 兒童首選)**\n最具特徵性的所見:UPJ 層級以上明顯 hydronephrosis,但輸尿管不擴張——「腎盂腎盞擴張但輸尿管正常口徑」是與下游阻塞鑑別的關鍵;腎盂呈氣球狀擴張,嚴重者見腎皮質變薄、對側代償肥大。評估範圍應涵蓋腎盞系統、renal pelvis、UPJ 及盡可能多的近端輸尿管;可用腎動脈 resistive index 嘗試區分阻塞性與非阻塞性 hydronephrosis。產前定量:AP 腎盂徑 > 10 mm、腎盂:AP 腎徑比 > 0.5。\n\n**核醫 — Diuretic renogram(功能性診斷黃金標準)**\n超音波顯示 hydronephrosis 且 VCUG 排除 reflux 後,做利尿腎掃描(MAG-3 首選;DTPA 次之)量化相對腎功能並界定阻塞程度。\n\n- 顯著阻塞 → 利尿劑前後同位素皆不明顯排出(腎圖無向下斜降、示蹤劑滯留)。\n- 非阻塞性擴張 → 利尿劑後排空改善(腎圖向下斜降)。\n\n> [!note] DTPA 非首選\n> DTPA 以腎絲球過濾為主,而阻塞性尿路病變中腎絲球功能下降較早較快;MAG-3 萃取率高、輻射負擔較低。\n\n> [!note] 功能正常 ≠ 沒有阻塞\n> 高度 hydronephrosis 病人中多數阻塞腎臟功能仍接近正常;腎臟大小與實質厚度才是重要手術決策因子。\n\n**CT / CTA(成人、crossing vessel、術前規劃)**\nNECT/CECT 顯示阻塞層級、水腎程度與病因(結石、馬蹄腎、重複腎)。CTA / CT urography 以軸位 + MPR + 3D volume rendering,於單一檢查完整評估 crossing vessel 與輸尿管—血管空間關係。 RadioGraphics 描述實用判讀技巧:oblique sagittal「hilar clock-face view」呈現腎門血管—輸尿管的放射狀關係,以及 UPJO 的「inverted teardrop(倒淚滴)」外形與擴張腎外型腎盂向前 / 向後 ballooning。 Helical CT 亦可用於偵測 UPJO 的 crossing vessel。\n\n**MR urography / MR renography**\n無輻射、適合年輕族群與追蹤。AJR 之 feasibility study(17 名 UPJO 病人,對照利尿性核醫腎圖)顯示:MR renography(MRR)與核醫在 split renal function ratio 有極佳相關(r=0.87,p<0.01,平均差 <10%);MRR 估算 GFR 與 MDRD 為中度相關(r=0.60);腎盂訊號強度變化率(PUR)在機械性阻塞單位顯著較低(0.39±0.26 vs 2.0±1.38 min⁻¹,p<0.01),可以 89% 準確度區分機械性與功能性阻塞,有潛力成為「one-stop shop」檢查。 小兒方面,靜態與功能性 MR urography 可與 MAG3 核醫及超音波對照評估 CAKUT。",
   "keyPoints": [
     "**定義**:尿流在 renal pelvis → proximal ureter 交界處受阻;先天性 / 胎兒腎盂腎盞擴張最常見的原因。",
     "**病因**:先天性內在性(輸尿管肌肉層異常、再管腔化不全、蠕動波傳遞失敗)最常見;成人與較大兒童常見 crossing vessel 參與(各來源比例差異大,見內文);少數為後天(術後、發炎、結石、腫瘤)。",

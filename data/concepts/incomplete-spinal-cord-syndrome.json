@@ -16,7 +16,7 @@
     "**Cauda equina syndrome**：purely LMN deficits",
     "鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss）"
   ],
-  "management": "- 外傷性 CCS 臨床表現為**上肢無力重於下肢**、遠端重於近端，合併不同程度感覺與膀胱功能障礙。\n- 入院與出院之 ASIA motor score 及頸椎椎管直徑為重要預後預測因子；motor score ≥60 者出院可行走機率約80%。\n- 多數 CCS 可先行保守治療並常見良好恢復，但出現延遲性神經惡化或持續壓迫時需手術減壓。\n- Conus medullaris 症候群產生混合 UMN+LMN 缺損並早期出現膀胱／直腸功能障礙；cauda equina 症候群為純 LMN、常伴鞍區感覺喪失與神經根痛。\n- 急性脊髓損傷屬急症，及時影像評估與神經學分級（ISNCSCI/ASIA）決定處置與復健時機。",
+  "management": "- 外傷性 CCS 臨床表現為**上肢無力重於下肢**、遠端重於近端，合併不同程度感覺與膀胱功能障礙。\n- 入院與出院之 ASIA motor score 及頸椎椎管直徑為重要預後預測因子；motor score ≥60 者出院可行走機率約80%。\n- 多數 CCS 可先行保守治療並常見良好恢復，但出現延遲性神經惡化或持續壓迫時需手術減壓。\n- Conus medullaris 症候群產生混合 UMN+LMN 缺損並早期出現膀胱／直腸功能障礙；cauda equina 症候群為純 LMN、常伴鞍區感覺喪失與神經根痛。\n- 急性脊髓損傷屬急症，及時影像評估與神經學分級（ISNCSCI/ASIA）決定處置與復健時機。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Thompson C, Gonsalves JF, Welsh D. *Hyperextension injury of the cervical spine with central cord syndrome*. Eur Spine J 2015;24(1):195-202（據 PubMed，DOI [10.1007/s00586-014-3432-6](https://doi.org/10.1007/s00586-014-3432-6)；實際查證 accessed 2026-07-04）——外傷性中央脊髓症候群（TCCS）為最常見的不完全脊髓損傷，典型見於50歲以上、椎管狹窄病人之頸椎過度後仰外傷；ASIA motor score 與頸椎椎管直徑為預後預測因子。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Incomplete Spinal Cord Syndromes",
   "nameZh": "不完全脊髓損傷症候群",
   "slug": "incomplete-spinal-cord-syndrome",

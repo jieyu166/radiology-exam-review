@@ -15,7 +15,7 @@
     "Type IIIa：多支 feeder + multiple non-dilated shunts → direct puncture + transarterial",
     "Type IIIb：多支 feeder + multiple dilated shunts → direct puncture + transarterial"
   ],
-  "management": "- AVM 屬血管異常中最具症狀且最難處理者，具內在進展性與治療後高復發率。\n- 影像對於準確且早期診斷至關重要，可據以導向適當處置。\n- 栓塞已演變為 AVM 的主要治療方式，放射科於偵測、評估與處置扮演關鍵角色。\n- Cho-Do 分類依 nidus 結構分型，並據此決定經動脈、經靜脈或直接穿刺的最佳栓塞路徑。\n- Type II（多條 arteriole 匯入單一 outflow vein）之最佳栓塞為 transvenous 或 direct puncture，而非 transarterial。",
+  "management": "- AVM 屬血管異常中最具症狀且最難處理者，具內在進展性與治療後高復發率。\n- 影像對於準確且早期診斷至關重要，可據以導向適當處置。\n- 栓塞已演變為 AVM 的主要治療方式，放射科於偵測、評估與處置扮演關鍵角色。\n- Cho-Do 分類依 nidus 結構分型，並據此決定經動脈、經靜脈或直接穿刺的最佳栓塞路徑。\n- Type II（多條 arteriole 匯入單一 outflow vein）之最佳栓塞為 transvenous 或 direct puncture，而非 transarterial。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Dunham GM, Ingraham CR, Maki JH, Vaidya SS. *Finding the Nidus: Detection and Workup of Non-Central Nervous System Arteriovenous Malformations*. RadioGraphics 2016;36(3):891-903（據 PubMed，DOI [10.1148/rg.2016150177](https://doi.org/10.1148/rg.2016150177)；實際查證 accessed 2026-07-04）——MRA 為周邊 AVM 之偏好影像與治療後追蹤模態；US 為初始工具但對深部/複雜病灶不足；CTA 保留給無法 MRA 或急性症狀者；傳統導管血管攝影用於規劃/執行血管內治療；栓塞為主要治療，AVM 具進展性與高復發率。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Peripheral AVM Cho-Do Classification",
   "nameZh": "周邊動靜脈畸形分類",
   "slug": "peripheral-avm-classification",

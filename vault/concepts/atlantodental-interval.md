@@ -41,6 +41,15 @@ dateRev: 2026-06-29
 > [!note] 考點：兒童 ADI 正常上限？
 > **X 光 ≤ 5 mm**（成人 ≤ 3 mm；CT 更嚴：成人 ≤2 mm、兒童 <2.6 mm）。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **X 光正常上限（本題核心考點）**：AADI **成人 <3 mm、兒童可達 5 mm**（兒童韌帶較鬆、可有生理性 pseudosubluxation）；成人 >3 mm／兒童 >5 mm 即異常。記憶鉤「兒童翻倍(3→5)」。[^1][^2]
+- **CT 判讀標準更嚴**：因無放大效應、解析度高，**成人 ≤2 mm、兒童 <2.6 mm**；勿把 X 光閾值直接套用於 CT。[^1][^2]
+- **量測正確性**：AADI 量 **C1 前弓後緣皮質→齒突前緣**、中段最準；須為真正側位，非真側位與頸部姿勢是常見測量誤差來源。[^1][^2]
+- **動態屈伸是主軸**：中立位正常不能排除不穩，須於**屈曲位**量最大 AADI／最小 PADI；os odontoideum 與韌帶鬆弛常僅屈曲位顯現。[^2][^5]
+- **PADI/SAC 才預測脊髓病變**：PADI(齒突後緣→C1 後弓)等同 SAC，**<14 mm** 對神經缺損敏感度 97%、應進一步 MRI，常為手術固定指標；AADI 增寬未必壓迫脊髓。[^3]
+- **橫韌帶量化與 DDx**：AADI **≥5 mm** 提示韌帶鬆弛/斷裂或齒突畸形、**≥7 mm** 提示完全斷裂；Jefferson 骨折側塊外突總和 **>6.9 mm**(rule of Spence)提示橫韌帶斷裂。增寬病因想 RA(pannus)、Down 症、創傷、Grisel、os odontoideum。[^4][^2][^3]
+- **判讀陷阱**：兒童生理性 pseudosubluxation 勿誤判；os odontoideum 皮質緣**光滑圓鈍且有獨立小骨**，須與急性齒突骨折(緣銳利)鑑別。[^2][^5]
+
 ### 參考來源
 [^1]: *Atlantodental interval*. Radiopaedia.org（實際查證 accessed 2026-06-17）：前 ADI（AADI）X 光正常 成人男 <3 mm／女 <2.5 mm／**兒童 <5 mm**；CT 成人 <2 mm／兒童 <2.6 mm；後 ADI（PADI）正常 >15 mm。增大見於 RA/Down/創傷/Grisel。
 [^2]: Morimoto LR, Kase DT, Esmanhotto PG, et al. *Imaging Assessment of Nontraumatic Pathologic Conditions at the Craniovertebral Junction: A Comprehensive Review*. RadioGraphics. 2024;44(5):e230137. https://doi.org/10.1148/rg.230137 （**全文實際查證 accessed 2026-06-17**）：寰齒間隙（前弓↔齒突）正常 **X 光 成人 ≤3 mm、兒童 ≤5 mm**；**CT 成人 ≤2 mm**（參考值小於 X 光）；強調 **dynamic／lateral view** 評估外傷與非外傷性脫位/不穩；非外傷病因含先天韌帶鬆弛、Grisel、RA/AS/crystal deposition 致寰樞不穩與脊髓壓迫。（Based on articles retrieved from PubMed）

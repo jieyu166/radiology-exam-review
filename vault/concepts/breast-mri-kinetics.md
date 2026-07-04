@@ -14,6 +14,20 @@ dateRev: 2026-07-03
 
 **乳房 MRI 動態曲線的判讀關鍵在「延遲期」——三型中 washout 最可疑，但定義門檻是 >10%，不是 >20%。** 早期峰值約在注射後 2–3 分鐘；延遲期：persistent（續升，偏良性）→ plateau（平台，良惡皆可）→ washout（峰後降 >10%，惡性常見）。記憶鉤：**「wash『out』→洗掉→惡性洗光光」**；另外 1H-MRS choline 峰升高代表細胞增生，也是惡性指標。
 
+## 放射科醫師影像判讀重點
+- **兩相動力學（考點核心）**：以注射後約 2 分鐘為界；初期 slow／medium／fast（90 秒內上升 >90% 為 rapid，偏惡性），延遲期 Kuhl 三型——**Type I persistent（續升，偏良性；仍約 9% 惡性可呈此）／Type II plateau（良惡皆可）／Type III washout（峰後下降 >10%，strongly suggestive of malignancy）**。washout 門檻是 **>10% 不是 >20%**。[^1][^2]
+- **形態優先於動力學（morphology > kinetics）**：BI-RADS MRI 以形態為主軸，**形態懷疑惡性者無論曲線為何都應切片**；rim enhancement、spiculated margin、irregular shape、clustered ring enhancement、segmental／linear NME 偏惡性。[^3][^7]
+- **focus（<5 mm enhancing dot）判讀**：可良可惡；惡性可疑特徵為**無 fatty hilum、rapid rise with washout（type 3）、與前片比較增大**——考題常誤植為 persistent／plateau。[^8]
+- **輔助序列與技術**：時間解析度是曲線品質主要決定因子；DWI 低 ADC（restricted diffusion）助鑑別良惡、減少不必要切片；**1H-MRS choline peak 升高＝細胞增生（偏惡性）**；abbreviated MRI 以 early post-contrast T1WI + MIP 為核心。[^2][^6]
+- **判讀陷阱**：良性也可 washout（fibroadenoma／papilloma），惡性也可 persistent（約 9%）——kinetics 為輔、morphology 為主；T2 高訊號偏良性但無法可靠區分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）；hook sign 提示惡性（非良性）。[^1][^5][^7]
+
+## 臨床重點（5 句）
+- 乳房 MRI 為**釓對比劑動態增強**檢查，臨床用途含高風險篩檢、術前分期、新輔助化療反應評估與腋下轉移查原發等。[^6]
+- 施打釓對比劑前須評估腎功能與過敏史；背景實質強化（BPE）受月經週期影響，**篩檢建議安排在月經週期第 7–14 天**以降低 BPE 干擾。[^4]
+- MRI 偵測乳癌敏感度高（多數研究約 90%），但**特異度相對較低**，故須嚴格判讀準則並常需影像導引切片確認。[^7]
+- MRI 對 DCIS 的敏感度差異大（約 40%–100%），臨床判讀須與乳房攝影微鈣化所見對照。[^7]
+- 動力學與形態可疑者最終仍以**組織病理確診**為準，影像用於分層與導引切片，而非取代病理。[^3]
+
 ## 判讀骨架
 
 ### 兩相動力學（BI-RADS DCE kinetics）

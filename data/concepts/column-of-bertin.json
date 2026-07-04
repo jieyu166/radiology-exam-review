@@ -21,7 +21,21 @@
     }
   ],
   "imagingFindings": "- **超音波（US）**：與正常腎皮質**等回音、回音紋理相同、與皮質連續（continuity）**;腎外緣輪廓平滑、無後方聲影增強(lack of posterior acoustic enhancement)。彩色都卜勒可見**與腎實質一致的動靜脈血流型態**（非腫瘤的異常雜亂血管）。\n- **CT／MRI**：各期皆與正常腎實質**同步**——平掃 CT 等密度（isodense）、MRI 等訊號（isointense）;打顯影後在**所有對比期相（皮髓質期、腎實質期、排泄期）皆與周邊腎實質呈相同強化**。此「全期同步強化」即與實質腫瘤（強化型態相異）鑑別的判讀分水嶺。MRI 對比 CT 更敏感。\n- **體積與輪廓**：通常**體積小**、無外突的輪廓變形（contour deformity），腎外緣（outline）維持正常——此為與真腫瘤外推輪廓的關鍵差異。\n- **IVU**：可推移／變形腎盞、模擬腫塊，但腎輪廓正常。",
-  "keyPoints": [],
+  "keyPoints": [
+    "**本質為正常皮質的局部肥大**：是「正常存在於兩腎錐體之間的皮質組織呈腫塊樣增大（mass-like enlargement of cortical tissue between renal pyramids）」，非真腫瘤、無需治療。",
+    "**好發位置**：典型位於**腎中段三分之一（middle third）**、**左側較多**;常見於上極與中極交界、相鄰兩錐體之間。",
+    "**超音波（US）**：與正常腎皮質**等回音、回音紋理相同、與皮質連續（continuity）**;腎外緣輪廓平滑、無後方聲影增強(lack of posterior acoustic enhancement)。彩色都卜勒可見**與腎實質一致的動靜脈血流型態**（非腫瘤的異常雜亂血管）。",
+    "**CT／MRI**：各期皆與正常腎實質**同步**——平掃 CT 等密度（isodense）、MRI 等訊號（isointense）;打顯影後在**所有對比期相（皮髓質期、腎實質期、排泄期）皆與周邊腎實質呈相同強化**。此「全期同步強化」即與實質腫瘤（強化型態相異）鑑別的判讀分水嶺。MRI 對比 CT 更敏感。",
+    "**體積與輪廓**：通常**體積小**、無外突的輪廓變形（contour deformity），腎外緣（outline）維持正常——此為與真腫瘤外推輪廓的關鍵差異。",
+    "**IVU**：可推移／變形腎盞、模擬腫塊，但腎輪廓正常。",
+    "**US 偵測→進階確認**：US 發現可疑「腫塊」後，以**對比增強 US（CEUS）／CT／MRI** 證實其強化與周邊皮質一致即可確認;影像不確定時，**Tc-99m DMSA 腎皮質掃描**可見**與正常腎實質相同的攝取（normal uptake）**＝功能正常的腎皮質。",
+    "**與真腫瘤的核醫差異**：實質性腎腫瘤在 DMSA 上多呈**攝取缺損／光子缺乏區（photopenic defect）**;柏氏柱肥大則**攝取正常**——這是鑑別 pseudotumor 與真腫瘤的核醫判讀要點。",
+    "**Dromedary hump（駝峰）**：左腎上外側緣的**局部凸起**，因脾臟壓跡（splenic impression）所致;回音、血流與腎實質相同，US 即可診斷。",
+    "**Persistent fetal lobulation（持續性胎兒分葉）**：腎外緣呈**錐體之間的凹陷／分葉**（凹陷位於錐體間，而非對著錐體的真疤痕）。",
+    "**Junctional parenchymal defect（接合部實質缺損）**：胚胎腎節段融合不全所致，呈**三角形、高回音**的缺損，位於**前上（anterosuperior）**部、右側較多;易誤為皮質疤痕，無臨床意義。",
+    "**RCC（腎細胞癌）**：多有**異質強化／洗出（washout）**、可外突輪廓、可壞死出血;與皮質「非」全期同步強化，DMSA 呈缺損。",
+    "**Oncocytoma／AML 等實質腫瘤**：均屬「會推移輪廓、強化型態與皮質相異」之真腫瘤;AML 另以**巨觀脂肪（macroscopic fat）**為特徵。凡見全期等強化＋與皮質連續＋無輪廓變形＋DMSA 正常攝取者，傾向 pseudotumor 而非腫瘤。"
+  ],
   "management": "",
   "name": "Hypertrophied Column of Bertin",
   "nameZh": "柏氏柱肥大",

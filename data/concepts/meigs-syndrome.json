@@ -7,7 +7,7 @@
     "**成熟囊性畸胎瘤**：含巨觀脂肪具診斷性（與實質纖維瘤不同）。"
   ],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "**卵巢纖維瘤影像特徵（STATdx）**\n- **實質性卵巢腫塊**；**TVUS 低回音＋明顯衰減（後方聲影、edge artifact）**、乏血流、± 鈣化/囊變（較大者）；中位徑約 13cm。\n- **MR**：**T2WI 低訊號**（fibrothecoma T2 稍高、較大者可因水腫升高）、T1 與子宮肌層等/低訊號、**早期乏血流、延遲漸進強化**（fibrothecoma 因 theca 細胞血管較多而強化較純 fibroma 明顯）。\n- **DWI**：**純 fibroma 低訊號（不受限）**，thecoma/fibrothecoma 常有明顯擴散受限。\n- **側別**：多單側，**雙側（尤年輕者）要想 Gorlin-Goltz（痣樣基底細胞癌症候群）**。\n\n**Meigs 三聯與積液判讀**\n- **約 1% 纖維瘤 → Meigs**；纖維瘤之 **ascites 10–15%（較大腫瘤）**、pleural effusion；**兩者於腫瘤切除後消失**——此「可逆性」為 Meigs 特徵。\n- **不合併腹膜結節**：若見腹膜結節/網膜餅，應疑惡性或腹膜轉移，非典型 Meigs。\n\n**鑑別診斷**\n- **帶蒂子宮肌瘤（pedunculated leiomyoma）**：源自子宮、有 **bridging vessel sign**、可見另側正常卵巢、強化較纖維瘤明顯。\n- **Brenner tumor**：亦 T2 低但**較小（均徑 2.5cm vs 纖維瘤 6.4cm）、較常鈣化**。\n- **成熟囊性畸胎瘤**：含巨觀脂肪具診斷性（與實質纖維瘤不同）。\n\n> [!note] 考點：何者「不」是 Meigs syndrome 三聯症之一？\n> **惡性卵巢腫瘤（malignant ovarian tumor）**——Meigs 定義為腹水＋肋膜積水＋「良性」實質性卵巢腫瘤（多為纖維瘤）；惡性腫瘤合併此二積液應稱 pseudo-Meigs syndrome。\n\n> [!note] 考點：Meigs 症候群何者「非」正確？\n> **合併腹膜結節（peritoneal nodules）**——Meigs 為良性病程、不合併腹膜結節（有結節疑惡性）。合併腹水與肋膜積液、與卵巢腫瘤相關、腫瘤 T2WI 典型低訊號皆正確。",
   "keyPoints": [
     "**三聯症**：**腹水＋肋膜積水＋良性實質性卵巢腫瘤**（切除腫瘤後積液消退）。",
     "**最常見原發腫瘤＝卵巢纖維瘤（fibroma，80–90%）**；亦見 fibrothecoma、thecoma、granulosa cell tumor、Brenner（鈣化）。",
@@ -15,7 +15,7 @@
     "**陷阱**：**惡性腫瘤＋積液 ＝ pseudo-Meigs**（非典型 Meigs）；**不合併腹膜結節**（有結節疑惡性/腹膜轉移）。",
     "**腫瘤 MRI**：fibroma 富膠原纖維 → **T2WI 低訊號**、乏血流、延遲強化。"
   ],
-  "management": "1. **定義與可逆性**：良性實質性卵巢腫瘤（多為纖維瘤）＋腹水＋肋膜積水；**三者於腫瘤切除後緩解**——與惡性（pseudo-Meigs）之預後判然不同。\n2. **纖維瘤流行病學**：**最常見之性索間質腫瘤、約占卵巢腫瘤 4%、恆為良性**、中位年齡約 48 歲；多為偶見之無症狀附件腫塊（可扭轉）。\n3. **Gorlin-Goltz 症候群（痣樣基底細胞癌症候群）**：**約 75% 女性有卵巢纖維瘤、常雙側/鈣化/多發**（patched 抑癌基因，第 9 號染色體）——年輕女性雙側鈣化纖維瘤要想此症。\n4. **荷爾蒙表現**：**thecoma 可分泌雌激素（子宮內膜增厚/增生/出血）或雄激素（多毛/停經）**；純 fibroma 多為內分泌惰性。\n5. **治療**：較大病灶以腹腔鏡切除患側卵巢；診斷時須辨明良性 Meigs vs 惡性 pseudo-Meigs（影響處置與預後）。",
+  "management": "1. **定義與可逆性**：良性實質性卵巢腫瘤（多為纖維瘤）＋腹水＋肋膜積水；**三者於腫瘤切除後緩解**——與惡性（pseudo-Meigs）之預後判然不同。\n2. **纖維瘤流行病學**：**最常見之性索間質腫瘤、約占卵巢腫瘤 4%、恆為良性**、中位年齡約 48 歲；多為偶見之無症狀附件腫塊（可扭轉）。\n3. **Gorlin-Goltz 症候群（痣樣基底細胞癌症候群）**：**約 75% 女性有卵巢纖維瘤、常雙側/鈣化/多發**（patched 抑癌基因，第 9 號染色體）——年輕女性雙側鈣化纖維瘤要想此症。\n4. **荷爾蒙表現**：**thecoma 可分泌雌激素（子宮內膜增厚/增生/出血）或雄激素（多毛/停經）**；純 fibroma 多為內分泌惰性。\n5. **治療**：較大病灶以腹腔鏡切除患側卵巢；診斷時須辨明良性 Meigs vs 惡性 pseudo-Meigs（影響處置與預後）。\n\n**參考來源**\n: 官方 2020 詳解（題目所引，Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.690–713）——Meigs 三聯症＝腹水、肋膜積水、良性實質性卵巢腫瘤（80–90% 為纖維瘤）；惡性腫瘤合併此二積液為 pseudo-Meigs。與  STATdx 一致。\n: *Diagnostic Imaging: Gynecology*, Hricak H. Amirsys; 2007, p 7-198~7-201（2018 交換考詳解引用；Tier 2 教科書）——Meigs 三聯＝卵巢腫瘤（典型 fibroma）＋腹水＋肋膜積液；不合併腹膜結節（合併則疑惡性）；fibroma 膠原含量高 T2WI 典型低訊號。\n: **Tier 1** Shaaban AM. *Fibroma, Thecoma, and Fibrothecoma*（Gynecology, Dx）. STATdx, Elsevier, updated 09/23/25（26 refs；實際查證 accessed 2026-07-03）——良性性索間質腫瘤；TVUS 低回音＋衰減後方聲影、T2WI 低訊號、乏血流延遲強化、DWI 純 fibroma 不受限（thecoma/fibrothecoma 受限）；中位 13cm、約 4% 卵巢腫瘤、最常見性索間質腫瘤、恆良性、均齡 48；**1% 併 Meigs、ascites 10–15%（較大腫瘤）＋pleural effusion，切除後消退**；**Gorlin-Goltz 約 75% 有卵巢纖維瘤、雙側 75%/鈣化/多發**（patched/chr9）；thecoma 分泌雌/雄激素；DDx（帶蒂肌瘤 bridging vessel、Brenner 較小較常鈣化、dermoid 含脂）。原「官方/教科書」弱來源已由本次 STATdx Tier 1 查核升級。",
   "name": "Meigs Syndrome",
   "nameZh": "Meigs三聯症",
   "slug": "meigs-syndrome",

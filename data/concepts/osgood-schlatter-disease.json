@@ -20,7 +20,7 @@
     "**成因**：**多為外傷/重複性拉力所致(trauma induced)**，反覆股四頭肌收縮牽拉髕韌帶所致之慢性牽拉傷。",
     "**處置**：可考慮**類固醇注射(steroid injection)**作為症狀治療選項之一。"
   ],
-  "management": "- OSD 為脛骨粗隆的牽引性骨骺炎，好發於快速生長期的活躍青少年。\n- 男性多於女性，好發男性 10–15 歲、女性 8–12 歲。\n- 反覆股四頭肌收縮經髕韌帶牽拉脛骨粗隆骨骺為主要致病機轉。\n- 多數為自限性，經休息、活動調整與復健多可緩解。\n- 追蹤研究顯示約半數病例於發病後約 2 年症狀完全恢復。",
+  "management": "- OSD 為脛骨粗隆的牽引性骨骺炎，好發於快速生長期的活躍青少年。\n- 男性多於女性，好發男性 10–15 歲、女性 8–12 歲。\n- 反覆股四頭肌收縮經髕韌帶牽拉脛骨粗隆骨骺為主要致病機轉。\n- 多數為自限性，經休息、活動調整與復健多可緩解。\n- 追蹤研究顯示約半數病例於發病後約 2 年症狀完全恢復。\n\n**參考來源**\n: *Radiology Review Manual*, 6th edition, p.131（2018 交換考題詳解 p.144 引用；Tier 2 教科書）。OSD為重複性微創傷致遠端髕韌帶增厚(非股四頭肌肌腱)於脛骨粗隆附著處；好發男性10-15歲/女性8-12歲；脛骨粗隆骨化中心小骨化片分離；多為外傷/重複拉力所致；可考慮類固醇注射治療。\n: **Tier 1** Blankstein A, Cohen I, Heim M, Diamant L, Salai M, Chechick A, Ganel A. *Ultrasonography as a diagnostic modality in Osgood-Schlatter disease. A clinical study and review of the literature*. Arch Orthop Trauma Surg 2001;121(9):536-539（據 PubMed，DOI [10.1007/s004020100285](https://doi.org/10.1007/s004020100285)；實際查證 accessed 2026-07-04）——臨床研究併文獻回顧：超音波可顯示脛骨前腫脹、骨化中心碎裂、髕韌帶插入處增厚與髕下囊積液，並驗證 De Flaviis 超音波分型之效度與再現性。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。\n: **Tier 1** Miller TT. *The patellar tendon*. Semin Musculoskelet Radiol 2013;17(1):56-59（據 PubMed，DOI [10.1055/s-0033-1333915](https://doi.org/10.1055/s-0033-1333915)；實際查證 accessed 2026-07-04）——回顧髕韌帶疾患之超音波表現：因其大而淺表適合超音波評估，空間解析度優於 MRI 並可動態掃描，涵蓋 OSD 等插入處病變之判讀。",
   "name": "Osgood-Schlatter Disease (OSD)",
   "nameZh": "脛骨粗隆骨骺炎",
   "slug": "osgood-schlatter-disease",

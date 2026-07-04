@@ -16,7 +16,7 @@
     "Sarcoid muscle nodule：fusiform、longitudinal、central low signal on T2WI/T1W C+ FS",
     "指骨：lacy trabecular pattern，無明顯骨膜反應"
   ],
-  "management": "- Löfgren 症候群為急性類肉瘤，三聯徵為雙側肺門淋巴結腫大、結節性紅斑與關節痛，預後通常良好。\n- 肌肉受累於活動性類肉瘤其實常見，但多為臨床無症狀而易被忽略。\n- 若標準 X 光陰性而病人有無法解釋之骨關節症狀，臨床可考慮以 MRI 進一步評估。\n- 骨性類肉瘤常見於已有肺部及皮膚侵犯之慢性病人，代表全身性病程。\n- 影像表現非特異，確診仍須結合臨床、實驗室與必要時之組織病理。",
+  "management": "- Löfgren 症候群為急性類肉瘤，三聯徵為雙側肺門淋巴結腫大、結節性紅斑與關節痛，預後通常良好。\n- 肌肉受累於活動性類肉瘤其實常見，但多為臨床無症狀而易被忽略。\n- 若標準 X 光陰性而病人有無法解釋之骨關節症狀，臨床可考慮以 MRI 進一步評估。\n- 骨性類肉瘤常見於已有肺部及皮膚侵犯之慢性病人，代表全身性病程。\n- 影像表現非特異，確診仍須結合臨床、實驗室與必要時之組織病理。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Brandão Guimarães J, Nico MA, Omond AG, Silva FD, Aivazoglou LU, Carneiro BC, Fernandes ARC. *Radiologic Manifestations of Musculoskeletal Sarcoidosis.* Curr Rheumatol Rep 2019;21(3):7（據 PubMed，DOI [10.1007/s11926-019-0806-0](https://doi.org/10.1007/s11926-019-0806-0)；實際查證 accessed 2026-07-04）——回顧肌骨類肉瘤之多模態影像，涵蓋骨性（lacy trabecular／溶骨）、關節（sarcoidal arthropathy）與肌肉（結節型／MRI 常見但常臨床無症狀）表現，並強調標準 X 光陰性時 MRI 之篩檢價值。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Musculoskeletal Sarcoidosis",
   "nameZh": "肌骨類肉瘤病",
   "slug": "sarcoidosis-msk",

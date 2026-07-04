@@ -15,7 +15,7 @@
     "**CT評估時相（本題重點）**：以ECG-gated cardiac CTA評估瓣口/狹窄程度時，應於**收縮中期（midsystole）**取像——此時瓣膜開啟、相對靜止（valve cusps open and relatively quiescent），可準確量測最大瓣口；**「舒張期取像」錯誤**（舒張期瓣膜關閉）。",
     "**治療**：最新技術為**經皮穿刺以導管技術置換人工瓣膜（TAVI/TAVR）**。"
   ],
-  "management": "- 退化性鈣化性 AS 為老年最常見瓣膜病，與年齡、高血壓、脂質及慢性發炎相關，病程進行性。\n- 典型症狀三聯為心絞痛、暈厥與心衰竭，症狀出現後若不治療預後顯著惡化。\n- Severe symptomatic AS 為介入指標；治療選項為外科換瓣（SAVR）與經導管置換（TAVI/TAVR）。\n- 現行歐洲與美國指引中，TAVI 於高齡與較高手術風險者已成主流，且逐步擴及低風險族群。\n- 治療決策由多專科 Heart Team 依年齡、手術風險、解剖與共病共同決定。",
+  "management": "- 退化性鈣化性 AS 為老年最常見瓣膜病，與年齡、高血壓、脂質及慢性發炎相關，病程進行性。\n- 典型症狀三聯為心絞痛、暈厥與心衰竭，症狀出現後若不治療預後顯著惡化。\n- Severe symptomatic AS 為介入指標；治療選項為外科換瓣（SAVR）與經導管置換（TAVI/TAVR）。\n- 現行歐洲與美國指引中，TAVI 於高齡與較高手術風險者已成主流，且逐步擴及低風險族群。\n- 治療決策由多專科 Heart Team 依年齡、手術風險、解剖與共病共同決定。\n\n**參考來源**\n: *Diagnostic Imaging: Cardiovascular*, p.I-2-8（2018 交換考題詳解 p.281 引用；Tier 2 教科書）。AS好發70歲以上老人；severe AS瓣口<1cm²(<100mm²)常伴嚴重鈣化(梯度>40mmHg；critical梯度>80mmHg/<0.5cm²)；CT評估瓣口應於收縮中期(瓣膜開啟相對靜止)取像非舒張期；TAVI為最新導管置換治療。\n: **Tier 1** Iung B, Delgado V, Rosenhek R, et al. *Contemporary Presentation and Management of Valvular Heart Disease: The EURObservational Research Programme Valvular Heart Disease II Survey.* Circulation 2019;140(14):1156-1169（據 PubMed，DOI [10.1161/CIRCULATIONAHA.119.041080](https://doi.org/10.1161/CIRCULATIONAHA.119.041080)；實際查證 accessed 2026-07-04；並對照 2021 ESC/EACTS 與 2020 ACC/AHA 瓣膜病指引原則）——28 國 7247 例前瞻登錄，AS 為最常見原生瓣膜病、患者中位 71 歲；重症 AS 中約 38.7% 以經導管方式（TAVI）治療，並強調 Heart Team 依指引 Class I 建議決定介入時機。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Aortic Stenosis (AS) — Imaging & CT",
   "nameZh": "主動脈瓣狹窄",
   "slug": "aortic-stenosis",

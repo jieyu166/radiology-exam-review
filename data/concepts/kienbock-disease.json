@@ -16,7 +16,7 @@
     "**對比**：**Preiser disease＝舟狀骨(scaphoid) AVN**（本題distractor）。",
     "進展：Lichtman分期I-IV(訊號異常→硬化→塌陷→腕關節退化)；晚期月狀骨塌陷、腕高度下降、續發性OA。"
   ],
-  "management": "- 病因仍未完全明確，目前視為月狀骨缺血性壞死，多因素（血供、機械負荷）共同作用。\n- 好發於 20–40 歲、慣用手，常以腕背側疼痛與活動受限表現。\n- 成人保守治療效果有限，進展性病例常需手術。\n- 手術以降低月狀骨負荷為原則（如橈骨縮短截骨術），保護月狀骨免於塌陷。\n- 末期腕關節退化則採挽救性術式（如近端腕骨切除或腕融合）。",
+  "management": "- 病因仍未完全明確，目前視為月狀骨缺血性壞死，多因素（血供、機械負荷）共同作用。\n- 好發於 20–40 歲、慣用手，常以腕背側疼痛與活動受限表現。\n- 成人保守治療效果有限，進展性病例常需手術。\n- 手術以降低月狀骨負荷為原則（如橈骨縮短截骨術），保護月狀骨免於塌陷。\n- 末期腕關節退化則採挽救性術式（如近端腕骨切除或腕融合）。\n\n**參考來源**\n: *Musculoskeletal MRI*, Second Edition, CH12, p.264（2018 交換考題詳解 p.319 引用；Tier 2 教科書）。Kienböck disease為月狀骨缺血性壞死，進展期T1/T2皆低訊號；負性尺骨變異為危險因子；Preiser disease為舟狀骨AVN；Lichtman分期I-IV。\n: **Tier 1** Arnaiz J, Piedra T, Cerezal L, Ward J, Thompson A, Vidal JA, Canga A. *Imaging of Kienböck disease*. AJR Am J Roentgenol 2014;203(1):131-139（據 PubMed，DOI [10.2214/AJR.13.11606](https://doi.org/10.2214/AJR.13.11606)；實際查證 accessed 2026-07-04）——AJR 影像回顧：涵蓋月狀骨 AVN 之解剖、病生理、X 光/MRI 分期與訊號演變（水腫期 T1 低 T2 高 → 硬化期 T1/T2 皆低）、負性尺骨變異之角色，以及 pseudo-Kienböck（含 Preiser disease 舟狀骨 AVN、ulnar impaction）之鑑別。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Kienböck Disease (Lunate AVN)",
   "nameZh": "月狀骨壞死",
   "slug": "kienbock-disease",

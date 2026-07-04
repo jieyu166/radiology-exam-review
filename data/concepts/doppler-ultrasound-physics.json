@@ -19,7 +19,7 @@
     "**都卜勒角 θ**：cosθ 隨角度增加而變小（**θ→90°、cosθ→0，頻移消失**）；理想都卜勒角應**盡量小（<60°）**。",
     "**其他選項**：重新定位 sample volume（影響取樣位置）、改變 sample gate 大小（影響空間解析/訊號強度）——**非直接增加頻移量**。"
   ],
-  "management": "1. **方程式**：Δf = 2f₀(v/c)cosθ。\n2. **f₀↑ → Δf↑**：最直接增敏感度。\n3. **角度**：θ<60° 佳，θ=90° 無頻移。\n4. **取捨**：f₀↑ 穿透↓、易 aliasing。\n5. **方向**：正/負頻移判血流方向。\n\n> [!note] 考點：何者最可能增加系統對都卜勒頻移的敏感度?\n> **Increasing the operating frequency（C）**——依都卜勒方程式，頻移與操作頻率成正比。增加都卜勒角度反使 cosθ 變小、降低頻移；重新定位 sample volume、改變 sample gate 大小非直接增加頻移的方法。",
+  "management": "1. **方程式**：Δf = 2f₀(v/c)cosθ。\n2. **f₀↑ → Δf↑**：最直接增敏感度。\n3. **角度**：θ<60° 佳，θ=90° 無頻移。\n4. **取捨**：f₀↑ 穿透↓、易 aliasing。\n5. **方向**：正/負頻移判血流方向。\n\n> [!note] 考點：何者最可能增加系統對都卜勒頻移的敏感度?\n> **Increasing the operating frequency（C）**——依都卜勒方程式，頻移與操作頻率成正比。增加都卜勒角度反使 cosθ 變小、降低頻移；重新定位 sample volume、改變 sample gate 大小非直接增加頻移的方法。\n\n**參考來源**\n: 官方 2017 詳解；Ref: Sonography Exam Review: Physics, Abdomen, OB/GYN, 2nd ed., p.76（題目所引）——都卜勒方程式 Δf=2f₀v·cosθ/c；提高操作頻率直接增加頻移敏感度；增加角度使 cosθ 變小反而降低頻移。\n: *Doppler shift*. Radiopaedia.org, rID-25283, DOI 10.53347/rID-25283（輔助來源）——Doppler shift＝反射體相對探頭運動致頻率改變（朝向＝正頻移、遠離＝負頻移）；**方程式 ΔF = 2f₀(v/c)cos(θ)**（f₀ 發射頻率、v 速度、c 聲速、θ 聲束與血流夾角）；頻移大小受角度影響。\n: **Tier 1** Rubens DJ, Bhatt S, Nedelka S, Cullinan J. *Doppler artifacts and pitfalls*. Radiol Clin North Am 2006;44(6):805-835（據 PubMed，DOI [10.1016/j.rcl.2006.10.014](https://doi.org/10.1016/j.rcl.2006.10.014)，實際查證 accessed 2026-07-03）——須理解產生 Doppler 訊號之因素（血流/運動/假影）；假影可由不典型頻譜波形查證；**aliasing（快速偵測狹窄/AVF）、twinkle artifact（辨識結石）為有用診斷假影**；須注意 **frequency、gain、filter、scale** 等技術參數方能正確判斷血管通暢或血栓（尤其慢流血管）。原「官方/Radiopaedia」弱來源已由本次 Tier 1 綜述查核升級。",
   "name": "Doppler Ultrasound — Sensitivity to Doppler Shift",
   "nameZh": "都卜勒頻移敏感度",
   "slug": "doppler-ultrasound-physics",

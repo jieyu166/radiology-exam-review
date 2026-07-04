@@ -15,7 +15,7 @@
     "**Multiple peripheral linear opacities** in lower lobes（organized pulmonary infarcts）",
     "其他：mosaic perfusion、web/band in PA、PA enlargement、RV hypertrophy"
   ],
-  "management": "- CTEPH 是急性肺栓塞後的併發症，為肺動脈高壓的重要且可能可治癒的病因，惟臨床上常被低估、診斷延遲。\n- 表現多為漸進性運動性呼吸困難、運動耐受下降等非特異症狀，易被誤認為其他心肺疾病。\n- 確診須整合影像、血流動力學(右心導管)與通氣灌注評估，V/Q 掃描對排除 CTEPH 具高敏感度。\n- 肺動脈內膜切除術(pulmonary endarterectomy)為近端病灶可手術者的首選治癒性治療。\n- 不可手術或術後殘餘病灶者可考慮球囊肺血管成形術與標靶藥物治療。",
+  "management": "- CTEPH 是急性肺栓塞後的併發症，為肺動脈高壓的重要且可能可治癒的病因，惟臨床上常被低估、診斷延遲。\n- 表現多為漸進性運動性呼吸困難、運動耐受下降等非特異症狀，易被誤認為其他心肺疾病。\n- 確診須整合影像、血流動力學(右心導管)與通氣灌注評估，V/Q 掃描對排除 CTEPH 具高敏感度。\n- 肺動脈內膜切除術(pulmonary endarterectomy)為近端病灶可手術者的首選治癒性治療。\n- 不可手術或術後殘餘病灶者可考慮球囊肺血管成形術與標靶藥物治療。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Moore J, Altschul E, Remy-Jardin M, Raoof S. *Chronic Thromboembolic Pulmonary Hypertension: Clinical and Imaging Evaluation*. Clin Chest Med 2024;45(2):405-418（據 PubMed，DOI [10.1016/j.ccm.2024.02.012](https://doi.org/10.1016/j.ccm.2024.02.012)；實際查證 accessed 2026-07-04）——回顧 CTEPH 之臨床與影像徵象，含 CTPA 偏心性壁貼血栓、web/band、mosaic 灌注、PA 擴大與 RV 變化，及各影像模態(CTPA、DECT、V/Q)之優缺，強調其常被低估且診斷延遲。原「官方 2019 詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Chronic Pulmonary Thromboembolism CT Signs",
   "nameZh": "慢性肺栓塞",
   "slug": "chronic-pulmonary-thromboembolism",

@@ -13,7 +13,11 @@
     "**Epidermoid cyst**：**限制擴散（DWI 高訊號、ADC 低）**;含角質碎屑,沿腦池蔓延、包繞血管/神經;為與 arachnoid cyst 鑑別關鍵。",
     "**Choroid plexus cyst**：常含蛋白質,**可呈 DWI 高訊號**。",
     "**Neurenteric cyst**：含黏液/蛋白,**可呈 DWI 高訊號**。",
-    "**Pineal cyst**：松果體內囊,訊號**多與 CSF 相近**;**ADC 不顯示限制擴散（不會 DWI 限制）**;可有薄壁強化。"
+    "**Pineal cyst**：松果體內囊,訊號**多與 CSF 相近**;**ADC 不顯示限制擴散（不會 DWI 限制）**;可有薄壁強化。",
+    "**內胚層（endoderm）**：**neurenteric cyst、Rathke cleft cyst、colloid cyst**。",
+    "**神經外胚層（neuroectoderm）**：**glioependymal cyst、ependymal cyst、choroid plexus cyst**（故 choroid plexus cyst 非內胚層來源）。",
+    "**先天性包涵囊（congenital inclusion cysts）**：dermoid、epidermoid、arachnoid cyst。",
+    "**pineal cyst**：自成一類。"
   ],
   "management": "",
   "name": "Intracranial Cystic Lesions — DWI",

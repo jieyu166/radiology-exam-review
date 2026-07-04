@@ -22,6 +22,13 @@ dateRev: 2026-07-02
   - 其他：Japanese encephalitis、neurofibromatosis type 1之hamartoma
 - **低血糖（hypoglycemia）不屬於T1縮短病因**：造成bilateral T2/FLAIR高訊號，侵犯posterior limb of internal capsule、cerebral cortex（parieto-occipital、insula）、hippocampus與basal ganglia；restricted diffusion可為更早期敏感表現，多可回復。[^1]
 
+## 放射科醫師影像判讀重點
+- **先分「T1 亮 vs T2/FLAIR 亮」兩條路**：基底核 T1 縮短（T1 高訊號）與低血糖等細胞毒性水腫（T2/FLAIR 高訊號＋擴散受限）機轉不同，判讀第一步先看是哪個序列亮。[^1]
+- **T1 縮短的鑑別口訣「鈣、肝、毒、血」**：鈣化、肝衰竭（錳沉積）、中毒/長期靜脈營養（錳）、出血（methemoglobin）——見到雙側對稱 globus pallidus T1 高訊號，先想錳沉積（肝衰竭或 TPN）。[^1]
+- **錳沉積型的分布特徵**：典型為雙側對稱、以 globus pallidus 為主的 T1 高訊號，且**不伴 T2 明顯異常或擴散受限**，可與缺血/出血區分。[^1]
+- **鈣化要回頭看 CT/SWI**：T1 高訊號若為鈣化，CT 呈高密度、SWI 呈 blooming，可與順磁性沉積（錳、methemoglobin）互相佐證。[^1]
+- **低血糖的影像對應**：造成雙側 T2/FLAIR 高訊號侵犯 posterior limb of internal capsule、皮質（頂枕葉、insula）、海馬與基底核，早期以擴散受限最敏感、多可回復——**不是 T1 縮短**，是最常被反寫的陷阱選項。[^1]
+
 > [!note] 考點：何者「不」造成基底核T1縮短？
 > **Hypoglycemia（B）**——其表現為T2/FLAIR高訊號合併擴散受限，非T1縮短。肝硬化(A)、長期全靜脈營養(C)、出血(D)皆為T1縮短常見病因。[^1]
 

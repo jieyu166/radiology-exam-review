@@ -3,12 +3,12 @@
   "definition": "**細支氣管炎典型CT三徵象是支氣管壁增厚、細支氣管擴張、馬賽克灌注不良——「周淋巴管性微小結節(perilymphatic micronodules)」屬於淋巴路徑病變(如類肉瘤病)，不是細支氣管炎的典型表現。濾泡性細支氣管炎(follicular bronchiolitis)的病因是膠原血管病/免疫缺乏，不是黴菌感染。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **典型 CT 三徵象**：支氣管壁增厚、細支氣管擴張、馬賽克灌注不良（mosaic attenuation，吐氣相見氣體滯留 air trapping 更明顯），是判讀細支氣管炎的直接與間接徵象組合。\n- **結節分布定路徑**：細支氣管炎之結節為**小葉中心性（centrilobular）**分布（tree-in-bud 為感染性/吸入性線索）；**周淋巴管性（perilymphatic）微小結節不屬細支氣管炎**，見到它應改想類肉瘤病、淋巴管播散性癌轉移。\n- **依分布縮小病因**：呼吸性細支氣管炎（吸菸）多上肺葉毛玻璃小葉中心結節；過敏性肺炎瀰漫分布伴 air trapping；濾泡性細支氣管炎與吸入性多下肺葉為主。\n- **吐氣相加照的價值**：懷疑 constrictive/氣體滯留時加吐氣相 CT，馬賽克灌注在吐氣相對比更明顯，有助確認小氣道病變。\n- **濾泡性細支氣管炎的判讀連結**：下肺葉為主的小葉中心毛玻璃小結節，配上膠原血管病（Sjögren、RA）或免疫缺乏病史，即應想到 follicular bronchiolitis，而**非黴菌感染**。",
   "keyPoints": [
     "**典型特徵**：支氣管壁增厚(bronchial wall thickening)、細支氣管擴張(bronchiolar dilatation)、馬賽克灌注不良(mosaic attenuation，反映氣體滯留)。",
     "**非典型特徵**：**周淋巴管性微小結節(perilymphatic micronodules)並非**細支氣管炎之典型CT特徵——此徵象典型見於類肉瘤病(sarcoidosis)、淋巴管播散性癌轉移等經淋巴路徑分布之疾病，屬於不同的分布型態（細支氣管炎之結節為centrilobular分布，非perilymphatic）。"
   ],
-  "management": "",
+  "management": "- 細支氣管炎依臨床/病理分型對應不同病因，判讀須結合病史才能定型。\n- 吸入性細支氣管炎源於慢性吸入、呼吸性細支氣管炎源於吸菸、過敏性肺炎源於過敏原暴露。\n- 濾泡性細支氣管炎為 BALT 之非腫瘤性多株 B 細胞增生，因慢性抗原暴露所致，非黴菌感染。\n- 濾泡性細支氣管炎好發於膠原血管病（如 Sjögren、類風濕性關節炎）或先天/後天免疫缺乏（如 AIDS）病人。\n- 呼吸性細支氣管炎與吸菸密切相關，戒菸為重要處置方向。\n\n> [!note] 考點：何者「非」典型細支氣管炎CT特徵？\n> **周淋巴管性微小結節（D）**——屬類肉瘤病等淋巴路徑分布疾病之特徵，非細支氣管炎。支氣管壁增厚(A)、細支氣管擴張(B)、馬賽克灌注不良(C)皆為典型特徵。\n\n> [!note] 考點：濾泡性細支氣管炎病因為何？\n> **膠原血管病或免疫缺乏狀態**（非黴菌感染）——因慢性抗原暴露致BALT多株B細胞增生，好發下肺葉小葉中心性毛玻璃小結節。\n\n**參考來源**\n: *Bronchiolitis: A Practical Approach for the General Radiologist*. RadioGraphics 2017;37:778（2018 交換考題詳解 p.157 引用；Tier 1 影像期刊）。細支氣管炎典型CT特徵為支氣管壁增厚、細支氣管擴張、馬賽克灌注不良；周淋巴管性微小結節非典型特徵(屬淋巴路徑分布疾病)。\n: *Bronchiolitis: A Practical Approach for the General Radiologist*. RadioGraphics 2017;37:779（2018 交換考題詳解 p.158 引用；Tier 1 影像期刊）。吸入性細支氣管炎因慢性吸入；呼吸性細支氣管炎因吸菸；過敏性肺炎因過敏原；濾泡性細支氣管炎為BALT多株B細胞增生，因慢性抗原暴露，好發膠原血管病/免疫缺乏病人(非黴菌感染)，小葉中心性毛玻璃小結節下肺葉分布。",
   "name": "Bronchiolitis — CT Features & Clinical/Pathological Causes",
   "nameZh": "細支氣管炎",
   "slug": "bronchiolitis-classification",

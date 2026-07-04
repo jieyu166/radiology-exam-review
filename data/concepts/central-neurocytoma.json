@@ -16,7 +16,7 @@
     "**MRS（關鍵易錯）**：**glycine peak（3.55 ppm，長 TE）**+ 顯著 **choline** 峰——**非 glutamine**（Glx 位 2.2-2.4 ppm、與 GABA 重疊，非鑑別標記）。",
     "**鈣化/預後**：鈣化常見（非罕見）；合併**腦室外延伸者預後較差**。"
   ],
-  "management": "1. **WHO 2、年輕成人、預後佳**。\n2. **位置**：側腦室 Monro 孔、附透明隔。\n3. **影像**：高衰減、鈣化 >50%、多囊、輕-中度強化。\n4. **MRS**：glycine 3.55ppm + choline（非 glutamine）。\n5. **預後**：腦室外延伸較差。\n\n> [!note] 考點：關於central neurocytoma，何者「為偽」?\n> **D 為偽**——MRS 鑑別特徵峰為 **glycine（3.55 ppm）**，並非 glutamine。邊界清楚分葉狀伴囊狀變(A)、命名專指腦室內病灶(B)、強化多變但典型中重度強化(C)皆為真。⚠️ Glutamate-glutamine(Glx)峰位於 2.2-2.4 ppm、與 GABA 重疊，非鑑別性標記。",
+  "management": "1. **WHO 2、年輕成人、預後佳**。\n2. **位置**：側腦室 Monro 孔、附透明隔。\n3. **影像**：高衰減、鈣化 >50%、多囊、輕-中度強化。\n4. **MRS**：glycine 3.55ppm + choline（非 glutamine）。\n5. **預後**：腦室外延伸較差。\n\n> [!note] 考點：關於central neurocytoma，何者「為偽」?\n> **D 為偽**——MRS 鑑別特徵峰為 **glycine（3.55 ppm）**，並非 glutamine。邊界清楚分葉狀伴囊狀變(A)、命名專指腦室內病灶(B)、強化多變但典型中重度強化(C)皆為真。⚠️ Glutamate-glutamine(Glx)峰位於 2.2-2.4 ppm、與 GABA 重疊，非鑑別性標記。\n\n**參考來源**\n: 官方 2017 詳解；Ref: *Intraventricular Neoplasms: Radiologic-Pathologic Correlation*. RadioGraphics 2013;33(1):21-43（題目所引；亦引 2019 交換考 Diagnostic Imaging: Brain）——central neurocytoma 為邊界清楚分葉狀伴囊狀變之腦室內腫瘤、命名專指腦室內、強化多變但典型中重度、MRS 顯著 choline + glycine(3.55ppm)；鈣化常見；腦室外延伸預後較差。\n: Gaillard F, et al. *Central neurocytoma*. Radiopaedia, rID-1076, DOI 10.53347/rID-1076——**WHO grade 2 腦室內腫瘤、側腦室 Monro 孔附近(50%)、附透明隔、年輕、預後佳**；高衰減、**鈣化 >50%(punctate)**、多囊（bubbly/swiss cheese）、輕-中度強化 + 腦室擴大；**MRS glycine peak(3.55ppm, long TE) + 顯著 choline**。",
   "name": "Central Neurocytoma",
   "nameZh": "中樞神經細胞瘤",
   "slug": "central-neurocytoma",

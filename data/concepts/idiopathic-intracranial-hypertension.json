@@ -14,7 +14,7 @@
     "**蝶鞍表現**：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。",
     "**眼球/視神經表現**：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。"
   ],
-  "management": "- IIH 好發於育齡肥胖女性，典型症狀為頭痛與視力障礙。\n- 診斷須符合腰椎穿刺測得腦壓升高且腦脊髓液成分正常。\n- 視乳突水腫（papilledema）是主要臨床徵象，須眼底檢查評估。\n- 治療目標為保護視力，包含減重、acetazolamide 及必要時外科分流或視神經鞘開窗。\n- 影像徵象即使陰性也不能排除 IIH，臨床與腦壓測量仍為確診依據。",
+  "management": "- IIH 好發於育齡肥胖女性，典型症狀為頭痛與視力障礙。\n- 診斷須符合腰椎穿刺測得腦壓升高且腦脊髓液成分正常。\n- 視乳突水腫（papilledema）是主要臨床徵象，須眼底檢查評估。\n- 治療目標為保護視力，包含減重、acetazolamide 及必要時外科分流或視神經鞘開窗。\n- 影像徵象即使陰性也不能排除 IIH，臨床與腦壓測量仍為確診依據。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.896（2018 交換考題詳解 p.191 引用；Tier 2 教科書）。IIH常見橫竇狹窄/血栓/web(非擴大)；橫竇擴張見於低顱內壓；空蝶鞍或部分空蝶鞍；視神經頭眼球內突出；後眼球扁平化。\n: **Tier 1** Kwee RM, Kwee TC. *Systematic review and meta-analysis of MRI signs for diagnosis of idiopathic intracranial hypertension*. Eur J Radiol 2019;116:106-115（據 PubMed，DOI [10.1016/j.ejrad.2019.04.023](https://doi.org/10.1016/j.ejrad.2019.04.023)；實際查證 accessed 2026-07-04）——統合 21 篇、724 名 IIH 病人：橫竇狹窄敏感度 84.4%、特異度 94.9%，為最有用單一徵象；空蝶鞍、後眼球扁平化、視神經鞘擴張、視神經迂曲等特異度高但敏感度低，陰性不排除診斷。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Idiopathic Intracranial Hypertension (IIH)",
   "nameZh": "原發性顱內壓升高",
   "slug": "idiopathic-intracranial-hypertension",

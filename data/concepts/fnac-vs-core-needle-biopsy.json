@@ -16,7 +16,7 @@
     "**FNAC 優勢族群**：**B2/C2**（如 fibroadenoma）表現優越，為 FNA 門診主要病例。",
     "**FNAC 限制**：gray zone（**B3/C3、B4/C4**）角色有限；**B3/C3 以上**（ADH、原位癌、乳突病灶）需明確組織學以定處置（是否手術/化療）。"
   ],
-  "management": "1. **FNAC 導引**：US 導引最適，非 MR。\n2. **敏感度**：FNAC < CNB（CNB 14G 取 3 條 ~95%）。\n3. **人員依賴**：需資深 cytopathologist。\n4. **適用**：FNAC 適 B2/C2、囊液；gray zone 用 CNB。\n5. **原則**：需組織學/分級選 CNB，需細胞學/抽液選 FNAC。\n\n> [!note] 考點：關於breast FNAC與core needle biopsy,何者為非？\n> 「**FNAC 最適用於 MR-guided 之 FNAC**」為非——FNAC 最適合超音波導引（MR 導引多用於 CNB）。經驗豐富 cytopathologist 判讀時 FNAC 準確度高、FNAC 敏感度低於 core needle biopsy（14G 取 3 條 95% vs 1 條 70%）皆為正確。",
+  "management": "1. **FNAC 導引**：US 導引最適，非 MR。\n2. **敏感度**：FNAC < CNB（CNB 14G 取 3 條 ~95%）。\n3. **人員依賴**：需資深 cytopathologist。\n4. **適用**：FNAC 適 B2/C2、囊液；gray zone 用 CNB。\n5. **原則**：需組織學/分級選 CNB，需細胞學/抽液選 FNAC。\n\n> [!note] 考點：關於breast FNAC與core needle biopsy,何者為非？\n> 「**FNAC 最適用於 MR-guided 之 FNAC**」為非——FNAC 最適合超音波導引（MR 導引多用於 CNB）。經驗豐富 cytopathologist 判讀時 FNAC 準確度高、FNAC 敏感度低於 core needle biopsy（14G 取 3 條 95% vs 1 條 70%）皆為正確。\n\n**參考來源**\n: 官方 2020 詳解（北榮）；Ref: Berg WA, et al. Diagnostic Imaging: Breast, 2006, V-2-41（題目所引）——FNAC 最適 US 導引、快且安全、亦可抽囊液；MR 導引多用於 core needle biopsy（已由下述一手來源查核佐證）。\n: Mitra S, Dey P. *Fine-needle aspiration and core biopsy in the diagnosis of breast lesions: a comparison and review of the literature*. CytoJournal 2016;13:18, DOI 10.4103/1742-6413.189637（PMID 27651820, 開放全文；accessed 2026-07-03）——FNAC 敏感度/特異度受取樣與 cytopathologist 經驗影響、整體不確定度較 CNB 高；CNB 提供組織結構與分級、於 gray zone（B3/C3 以上）較能定診；FNAC 於明確良性（fibroadenoma）與囊液抽取有其優勢。",
   "name": "Breast FNAC vs Core Needle Biopsy",
   "nameZh": "細針抽吸細胞學",
   "slug": "fnac-vs-core-needle-biopsy",

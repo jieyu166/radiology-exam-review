@@ -11,7 +11,7 @@
     "**禁忌/不建議**：**嚴重肝衰竭（Child-Pugh C、MELD>18-22、bilirubin>3）**、心衰竭/右心衰/肺高壓、難控肝性腦病變、嚴重多囊肝、敗血症——分流後 HE 與死亡率大增。",
     "**成效/併發**：靜脈曲張出血控制 **~90%**；**post-TIPS 肝性腦病變 25-30%**、肝功能失代償、↑ 肝腎症候群風險、支架狹窄；**MELD 可預測 post-TIPS 死亡率**。"
   ],
-  "management": "1. **次級預防為主**：已出血、治療失敗者，非初級預防。\n2. **解剖**：肝性/肝後性適用，肝前性為經典限制。\n3. **禁忌**：Child C/MELD>18-22/bili>3、心衰、難控 HE。\n4. **併發**：HE 25-30%、失代償、HRS、支架狹窄。\n5. **成效**：出血控制 ~90%，MELD 預測死亡率。\n\n> [!note] 考點：關於 TIPS 應用於門脈高壓治療，何者「不正確」?\n> 「**TIPS 適用於靜脈曲張出血的初級預防（primary prophylaxis）**」不正確——**TIPS 最強實證為次級預防**（已出血、治療失敗者）。肝性/肝後性適用（肝前性為限制）、嚴重肝衰竭（Child-Pugh C/MELD 高/bilirubin>3）不建議 TIPS，皆正確。",
+  "management": "1. **次級預防為主**：已出血、治療失敗者，非初級預防。\n2. **解剖**：肝性/肝後性適用，肝前性為經典限制。\n3. **禁忌**：Child C/MELD>18-22/bili>3、心衰、難控 HE。\n4. **併發**：HE 25-30%、失代償、HRS、支架狹窄。\n5. **成效**：出血控制 ~90%，MELD 預測死亡率。\n\n> [!note] 考點：關於 TIPS 應用於門脈高壓治療，何者「不正確」?\n> 「**TIPS 適用於靜脈曲張出血的初級預防（primary prophylaxis）**」不正確——**TIPS 最強實證為次級預防**（已出血、治療失敗者）。肝性/肝後性適用（肝前性為限制）、嚴重肝衰竭（Child-Pugh C/MELD 高/bilirubin>3）不建議 TIPS，皆正確。\n\n**參考來源**\n: *TIPS* (Dx/Procedure). STATdx, updated 06/28/22. Elsevier——適應症（**急性難治靜脈曲張出血 rescue、次級預防復發出血、難治性腹水/肝性肋膜積液、Budd-Chiari、PVT access**）；**相對禁忌（心臟舒張功能障礙、progressive liver failure/HE、MELD 升高）**；出血控制 ~90%、**post-TIPS 腦病變 25-30%**、MELD 預測死亡率、↑ HRS。\n: 官方 2017 詳解；Ref: RadioGraphics 2013;33(5):1473-1496；World J Gastroenterol 2013;19(37):6131-6143（題目所引）——TIPS 適肝性/肝後性（非肝前性）；適應症含難治靜脈曲張出血、次級預防、頑固腹水/肋膜積液、Budd-Chiari、肝腎/肝肺症候群；**最強實證為次級預防、非初級預防**；嚴重肝衰竭（Child-Pugh C、MELD>22、bilirubin>3）不建議（結論已由上述 STATdx 一手來源查核佐證）。",
   "name": "TIPS — Indications in Portal Hypertension",
   "nameZh": "經頸靜脈肝內門體分流術",
   "slug": "tips-portal-hypertension",

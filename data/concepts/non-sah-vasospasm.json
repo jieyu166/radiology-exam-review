@@ -12,7 +12,7 @@
   "keyPoints": [
     "**非SAH性血管痙攣之常見成因**：**腦膜炎(meningitis)**、**急性高血壓腦病變(acute hypertensive encephalopathy)**、**偏頭痛(migraine headache)**，皆為蛛網膜下腔出血以外可造成血管痙攣之病因。"
   ],
-  "management": "- RCVS 典型以反覆「雷擊性頭痛（thunderclap headache）」表現，可伴癲癇、中風或非動脈瘤性 SAH。\n- 逾半數病例發生於產後或在暴露於擬腎上腺素／血清素類藥物之後。\n- 病程呈單相性，多於 3 個月內自行緩解，但少數可有嚴重出血與缺血併發症甚至死亡。\n- 鈣離子通道阻斷劑 nimodipine 可於數十小時內緩解雷擊性頭痛，惟對出血/缺血併發症無實證療效。\n- 因臨床影像具動態性，診斷易被延誤，須警覺並適時安排追蹤血管影像。\n\n> [!note] 考點\n> 腦膜炎、急性高血壓腦病變、偏頭痛「皆為」非SAH性血管痙攣之成因（以上皆是）。",
+  "management": "- RCVS 典型以反覆「雷擊性頭痛（thunderclap headache）」表現，可伴癲癇、中風或非動脈瘤性 SAH。\n- 逾半數病例發生於產後或在暴露於擬腎上腺素／血清素類藥物之後。\n- 病程呈單相性，多於 3 個月內自行緩解，但少數可有嚴重出血與缺血併發症甚至死亡。\n- 鈣離子通道阻斷劑 nimodipine 可於數十小時內緩解雷擊性頭痛，惟對出血/缺血併發症無實證療效。\n- 因臨床影像具動態性，診斷易被延誤，須警覺並適時安排追蹤血管影像。\n\n> [!note] 考點\n> 腦膜炎、急性高血壓腦病變、偏頭痛「皆為」非SAH性血管痙攣之成因（以上皆是）。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.308（2018 交換考題詳解 p.192 引用；Tier 2 教科書）。非SAH血管痙攣成因含腦膜炎、急性高血壓腦病變、偏頭痛。\n: **Tier 1** Ducros A. *Reversible cerebral vasoconstriction syndrome*. Lancet Neurol 2012;11(10):906-917（據 PubMed，DOI [10.1016/S1474-4422(12)70135-7](https://doi.org/10.1016/S1474-4422(12)70135-7)；實際查證 accessed 2026-07-04）——高影響力綜論，闡述 RCVS 之節段性可逆腦血管收縮、雷擊性頭痛、產後/藥物誘發、血管收縮於 2–3 週最明顯之時序陷阱及 nimodipine 療效，屬非動脈瘤/非 SAH 血管痙攣之權威依據。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Non-SAH Causes of Vasospasm",
   "nameZh": "非蛛網膜下腔出血血管痙攣",
   "slug": "non-sah-vasospasm",

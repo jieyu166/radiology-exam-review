@@ -15,7 +15,7 @@
     "術後 24h PSA 升高 = 攝護腺壞死充分",
     "較大攝護腺（中央腺體/腺瘤體積大）= 症狀改善更明顯"
   ],
-  "management": "- PAE 是治療 BPH 相關下泌尿道症狀（LUTS）的微創技術。\n- 可改善 IPSS、生活品質分數、最大尿流率與殘尿量。\n- 併發症發生率低，安全性佳。\n- 對大體積攝護腺亦能提供良好臨床結果。\n- 現有多為回顧性研究，長期療效與耐久性仍需更高品質證據。",
+  "management": "- PAE 是治療 BPH 相關下泌尿道症狀（LUTS）的微創技術。\n- 可改善 IPSS、生活品質分數、最大尿流率與殘尿量。\n- 併發症發生率低，安全性佳。\n- 對大體積攝護腺亦能提供良好臨床結果。\n- 現有多為回顧性研究，長期療效與耐久性仍需更高品質證據。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Young S, Golzarian J. *Prostatic artery embolization for benign prostatic hyperplasia: a review*. Curr Opin Urol 2018;28(3):284-287（據 PubMed，DOI [10.1097/MOU.0000000000000495](https://doi.org/10.1097/MOU.0000000000000495)；實際查證 accessed 2026-07-04）——回顧 PAE 治療 BPH 之臨床結果（IPSS、生活品質、尿流率、殘尿、攝護腺體積縮小）與低併發症率，指出對大攝護腺亦有良好療效，惟現有證據多為回顧性、長期耐久性待驗證。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Prostatic Artery Embolization (PAE)",
   "nameZh": "攝護腺動脈栓塞",
   "slug": "prostatic-artery-embolization",

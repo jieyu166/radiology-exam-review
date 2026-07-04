@@ -16,7 +16,7 @@
     "**監測建議**：Lynch 病患建議**每年經陰道超音波 ± 子宮內膜切片**篩檢卵巢/子宮內膜癌；並行大腸鏡監測。",
     "**影像角色**：對此類病人，影像用於**篩檢、診斷、分期與追蹤**，並延伸至**高風險家屬**之監測與治療後追蹤。"
   ],
-  "management": "1. **Lynch 兩主軸**：大腸直腸癌 + 子宮內膜癌終生風險最高，非胃癌/子宮頸癌。\n2. **基因基礎**：Lynch 為 mismatch-repair（MLH1/MSH2/MSH6/PMS2）缺陷、微衛星不穩定。\n3. **監測**：每年經陰道 US ± 子宮內膜切片 + 大腸鏡，並含高風險家屬。\n4. **影像四用途**：篩檢、診斷、分期、追蹤。\n5. **症候群辨識**：不同症候群有特徵性瘜肉型態/腸外表現，影像協助分類。\n\n> [!note] 考點：關於遺傳性GI癌症症候群，何者敘述為非？\n> **Lynch syndrome 病患最常發生胃癌和子宮頸癌（C）為錯誤**——終生風險最高者為大腸直腸癌（52-58%）與子宮內膜癌（25-60%）。定義（germline 突變致 GI+腸外癌）、常見類型（Lynch/FAP/JPS/PJS…）、影像用於篩檢/診斷/分期/追蹤，皆為正確。",
+  "management": "1. **Lynch 兩主軸**：大腸直腸癌 + 子宮內膜癌終生風險最高，非胃癌/子宮頸癌。\n2. **基因基礎**：Lynch 為 mismatch-repair（MLH1/MSH2/MSH6/PMS2）缺陷、微衛星不穩定。\n3. **監測**：每年經陰道 US ± 子宮內膜切片 + 大腸鏡，並含高風險家屬。\n4. **影像四用途**：篩檢、診斷、分期、追蹤。\n5. **症候群辨識**：不同症候群有特徵性瘜肉型態/腸外表現，影像協助分類。\n\n> [!note] 考點：關於遺傳性GI癌症症候群，何者敘述為非？\n> **Lynch syndrome 病患最常發生胃癌和子宮頸癌（C）為錯誤**——終生風險最高者為大腸直腸癌（52-58%）與子宮內膜癌（25-60%）。定義（germline 突變致 GI+腸外癌）、常見類型（Lynch/FAP/JPS/PJS…）、影像用於篩檢/診斷/分期/追蹤，皆為正確。\n\n**參考來源**\n: Yousaf HM, et al. *Hereditary Gastrointestinal Cancer Syndromes: Role of Imaging in Screening, Diagnosis, and Management*. RadioGraphics 2019;39(5):1441-1464, DOI 10.1148/rg.2019180185——germline 突變致 GI + 腸外癌 + 良性異常；含 **Lynch、FAP、JPS、PJS、Cowden、HDGC、hereditary pancreatic cancer**；影像於**篩檢/監測/診斷/追蹤**及高風險家屬之角色。\n: 官方 2020 詳解；Ref: *Hereditary GI Cancer Syndromes*. RadioGraphics 2015;35:1031-（題目所引）——Lynch 相關癌終生風險：大腸直腸癌 52-58%、子宮內膜癌 25-60%、胃癌 6-13%、卵巢癌 4-12%；建議每年經陰道 US ± 子宮內膜切片；子宮頸癌非 Lynch 典型相關癌（框架已由上述 2019 RG 一手來源查核佐證）。",
   "name": "Hereditary GI Cancer Syndromes — Lynch, FAP, JPS, PJS",
   "nameZh": "遺傳性腸胃道癌症症候群",
   "slug": "hereditary-gi-cancer-syndromes",

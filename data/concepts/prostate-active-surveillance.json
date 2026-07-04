@@ -14,7 +14,7 @@
     "Active surveillance 與 watchful waiting 不同：AS 有計劃性定期追蹤（PSA、mpMRI、切片），一旦進展則介入",
     "mpMRI 上無 clinically significant cancer（PI-RADS ≤2）更支持 AS"
   ],
-  "management": "- Active surveillance 是低風險局限型攝護腺癌的標準處置，目的在避免對惰性癌的過度治療。\n- Active surveillance 與 watchful waiting 不同：AS 以治癒為目標、進展時轉為根治性治療，watchful waiting 則為緩和取向。\n- AS 追蹤含定期 PSA、直腸指診、mpMRI 與重複切片，一旦病理升級（GG1→≥GG2）即介入。\n- 低風險攝護腺癌自然史多惰性、長期癌症特異存活率高，故延後治療風險有限。\n- 病理或影像顯示進展時才轉手術或放療，處置取決於風險再分層而非診斷當下即治療。",
+  "management": "- Active surveillance 是低風險局限型攝護腺癌的標準處置，目的在避免對惰性癌的過度治療。\n- Active surveillance 與 watchful waiting 不同：AS 以治癒為目標、進展時轉為根治性治療，watchful waiting 則為緩和取向。\n- AS 追蹤含定期 PSA、直腸指診、mpMRI 與重複切片，一旦病理升級（GG1→≥GG2）即介入。\n- 低風險攝護腺癌自然史多惰性、長期癌症特異存活率高，故延後治療風險有限。\n- 病理或影像顯示進展時才轉手術或放療，處置取決於風險再分層而非診斷當下即治療。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Dominique G, Brisbane WG, Reiter RE. *The utility of prostate MRI within active surveillance: description of the evidence*. World J Urol 2021;40(1):71-77（據 PubMed，DOI [10.1007/s00345-021-03853-9](https://doi.org/10.1007/s00345-021-03853-9)；實際查證 accessed 2026-07-04）——系統回顧 mpMRI 於 AS 之證據，量化陰性 MRI（PI-RADS ≤2）3 年 NPV 達約 85%、陽性 MRI PPV 較低且不能取代切片，直接佐證低風險癌以 AS 為標準、mpMRI 主排除的考點。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Prostate Cancer Active Surveillance",
   "nameZh": "攝護腺癌主動監測",
   "slug": "prostate-active-surveillance",

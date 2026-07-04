@@ -60,6 +60,21 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「錯」？
 > 「**BRTO 後肝性腦病更嚴重**」錯——BRTO **改善** HE（關閉分流），甚至用於 TIPS 禁忌（HE）者；惡化的是**食道靜脈曲張/腹水**（門脈壓↑）。[^1]
 
+## 放射科醫師影像判讀重點
+- **HE↔門壓方向勿記反(本題核心考點)**：BRTO **關閉**離肝分流→含氨血回流經肝→**改善 HE**，但門脈壓↑→**惡化食道靜脈曲張/暫時惡化腹水**；與 TIPS(開分流改門壓但惡化 HE)正好相反。[^1][^4]
+- **術前 CECT 找逆行路徑**：首選對比增強 CT 辨識曲張位置、供血(afferent)與引流(efferent)；**無 gastrorenal shunt(GRS)或 gastrocaval shunt 即無逆行路徑**，典型 BRTO 不可行。[^1][^5]
+- **供血/引流解剖判讀**：胃底曲張多由 **PGV＋SGV** 供應、賁門部由 **LGV** 供應；量測 **GRS 直徑於與左腎靜脈匯合處(base)** 以選球囊/plug 尺寸；評估分流角度與左腎靜脈瘤樣擴張(影響可行性)。[^5][^6][^7]
+- **特意保留 afferent-efferent direct connection**：CT 見供血-引流短路直連時，保留此連結可**降低術後腹水與食道靜脈曲張惡化**——術前須主動尋找。[^8]
+- **Hirota 分級**(球囊阻塞下側支發育 1–5 級)：**>grade 2 須先栓塞側支**，硬化劑才能滯留於曲張，否則易外漏被誤判為失敗。[^9]
+- **術後追蹤影像重點轉移**：CECT 見曲張內及 afferent PGV/GRS 內**高密度栓塞物、不再強化**＝閉塞成功；追蹤重點應轉為偵測**新生食道靜脈曲張與腹水**，勿只確認胃底曲張消失(meta 分析食道靜脈曲張復發約 33%)。[^5][^16]
+
+## 臨床重點（5 句）
+- BRTO 主要適應症為**胃底靜脈曲張(IGV1/GOV2)出血或高危出血**，及**門體分流相關難治性肝性腦病(即使無曲張出血亦可關分流降血氨)**。[^1][^2]
+- 相對 TIPS，BRTO 較不侵襲、可用於**肝儲備差/高 MELD/已有 HE** 者(TIPS 在這些族群風險高)，且改善 HE。[^1][^4]
+- 硬化劑經典首選 **ethanolamine oleate iopamidol(EOI)**；美國因藥源改用 **3% STS 泡沫**或 polidocanol 泡沫。[^10][^11]
+- 常見併發症含**血色素尿/血尿(溶血)、後栓塞症候群(發燒/上腹背痛)**，及腎/脾/門靜脈血栓、肺栓塞；門脈壓↑相關者為暫時性腹水/肋膜積液。[^5][^17]
+- 選擇邏輯：**GV＋顯著食道靜脈曲張或難治腹水→偏 TIPS(或 BRTO＋TIPS)；GV＋HE 或肝儲備差且有合適 GRS→偏 BRTO**。[^4][^5]
+
 ### 參考來源
 [^1]: **〔教科書／回顧，TVIR〕** Saad WEA. *Balloon-Occluded Retrograde Transvenous Obliteration of Gastric Varices: Concept, Basic Techniques, and Outcomes*. Tech Vasc Interv Radiol. 2012;15(2):109-124. PMC3444869；[DOI](https://doi.org/10.1055/s-0032-1312573)（abstract 查證）。BRTO 閉塞自發性 hepatofugal「TIPS-equivalent」分流，與美式門脈減壓相反；可用於肝儲備差／HE 者並改善之；副產品為門脈壓上升→惡化食道靜脈曲張與腹水。
 [^2]: **〔多中心研究，Hepatology〕** Lee EW, Saab S, et al. *Coil or plug-assisted retrograde transvenous obliteration (CARTO/PARTO) for treating portal hypertensive variceal bleeding: a multicenter, real-world 10-year retrospective study*. Hepatology. 2025;82(6):1498-1511. [DOI](https://doi.org/10.1097/HEP.0000000000001255)（abstract 查證）。CARTO/PARTO 治 GV 出血與 HE；高 MELD（>27）、合併 HCC、共存食道靜脈曲張為預後不良因子。

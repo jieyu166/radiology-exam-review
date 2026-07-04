@@ -32,6 +32,20 @@ dateRev: 2026-06-19
 > [!note] 考點二：Brodie abscess 膿腔周邊的 T1 高訊號層稱為?
 > **Penumbra sign（B）**——即四層構造中的內環（inner ring），代表肉芽組織環，T1 呈肌肉樣（略高）訊號、T2 低訊號。與 sequestrum（死骨）、target/halo appearance（其他病灶的強化型態）不同。[^2]
 
+## 放射科醫師影像判讀重點
+- **位置（最高頻考點）**：典型位於**長骨 metaphysis（幹骺端）**而非 epiphysis；可延伸**跨越生長板**至骨骺——「中心位於骨骺」為錯誤描述。[^1]
+- **X 光徵象**：**界線清楚（well-demarcated）的透亮病灶＋周圍反應性硬化緣（sclerotic margin）**；「邊界不清（ill-defined margin）」為錯誤描述。[^1]
+- **MRI penumbra sign（相對特異）**：膿腔周圍內環在 **T1 呈肌肉樣（略高於中心）訊號、T2 低訊號**，代表肉芽組織環；為 Brodie abscess 相對特異徵象，須與 sequestrum、target/halo appearance 區分。[^2]
+- **MRI 四層構造**：由內而外＝中心膿腔（T1 低／T2 高）→ 內環 penumbra（T1 肌肉樣／T2 低）→ 外環纖維反應（T1、T2 皆低）→ 周邊骨髓水腫暈（T1 低／T2 多變）。[^2]
+- **DDx／陷阱**：需與骨樣骨瘤（osteoid osteoma）、嗜伊紅性肉芽腫、軟骨母細胞瘤等透亮伴硬化緣病灶鑑別；penumbra sign 與跨生長板延伸有助偏向感染性病因。[^1][^2]
+
+## 臨床重點（5 句）
+- Brodie abscess 為**亞急性骨髓炎**的局部化膿腔，好發於兒童與青少年。[^1]
+- 最常見致病菌為金黃色葡萄球菌（Staphylococcus aureus）。[^1]
+- 臨床常呈亞急性、症狀輕微不典型（局部疼痛為主），全身性感染徵象與發炎指標可不明顯，易延遲診斷。[^1]
+- 因病灶界線清楚、硬化緣明顯，影像上須與骨樣骨瘤等良性病灶鑑別，必要時切片以確立診斷。[^1][^2]
+- 治療以抗生素為主，膿腔較大或藥物反應不佳者需手術清創／引流。[^1]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Orthopedic Imaging: A Practical Approach 5th ed., p.800：Brodie abscess 為亞急性骨髓炎、好發長骨 metaphysis、界線清楚＋硬化緣、可跨生長板。
 [^2]: 官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65 doi:10.2214/AJR.10.7264（引 Marti-Bonmati）：骨膿瘍四層構造——中心(T1低/T2高)、內環/penumbra sign(T1肌肉樣/T2低)、外環纖維反應(T1/T2皆低)、周邊骨髓水腫暈(T1低/T2多變)。

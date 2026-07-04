@@ -20,7 +20,22 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**Valvar（瓣膜型，最常見）**：佔肺動脈狹窄之大宗、約佔先天性心臟病 8–10%。最典型為 **dome 型（圓頂狀，40–60%）**——三葉交界融合（commissural fusion）形成中央小開口、收縮期瓣葉呈魚嘴狀向遠端膨出成圓頂；CT/MR 可直接顯示增厚瓣葉與圓頂。",
+    "**Dysplastic valve（發育不良型，20–30%）**：瓣葉不規則增厚、黏液樣（myxomatous）組織、交界融合少、活動度差，瓣環常偏小。**重點：dysplastic 型常『無』狹窄後擴張**，與 dome 型可資鑑別；好發於 **Noonan 症候群**。",
+    "**Subvalvar（瓣下、infundibular）**：右心室漏斗部（conus）狹窄；嚴重瓣膜狹窄時漏斗部代償性肥厚可產生**動態性瓣下狹窄**。",
+    "**Supravalvar（瓣上）＋ peripheral／branch PA stenosis（周邊分支型）**：主肺動脈以遠至左右肺動脈及其分支層次的狹窄，常多發；CT 血管攝影為形態定位之首選工具。",
+    "**右心室肥厚（RVH）＋擴張**：對抗增加之後負荷，久之心輸出下降；可伴三尖瓣逆流。",
+    "**近端肺動脈狹窄後擴張（post-stenotic dilatation）**：高速噴流**優先進入『左』肺動脈** → **主肺動脈與左肺動脈擴張、右肺動脈口徑正常**；X 光可見 **Chen sign**（左肺底血管充盈>右）。心臟大小常正常、肺血量正常或減少。",
+    "**MRI/CINE**：直接評估瓣膜形態、跨瓣噴流（flow jet）、相位對比測流計算跨瓣壓差，及 RV 大小／功能／肥厚。",
+    "**Noonan**：瓣膜型、典型為 dysplastic valve（故狹窄後擴張常缺如）。",
+    "**Williams（Williams–Beuren）**：周邊／瓣上肺動脈狹窄，常合併**主動脈上狹窄（supravalvar aortic stenosis）**。",
+    "**Alagille**：周邊分支型肺動脈狹窄。",
+    "**先天性德國麻疹（rubella）**：分支肺動脈狹窄。",
+    "另與 **TOF**（漏斗部＋瓣膜狹窄）、**類癌症候群（carcinoid）**（瓣膜增厚）相關。",
+    "**狹窄後擴張（主＋左 PA 擴張、右 PA 正常）＋ 肺血正常或減少 → 指向 valvar PS**；若見圓頂瓣更確立。",
+    "主肺動脈擴張之鑑別：**idiopathic（特發性）PA dilatation**（無瓣膜狹窄、無壓差）、**肺動脈高壓**（中央 PA 擴張但常雙側對稱、伴 RV 應變）、**ASD 等高流量分流**（肺血增多、雙側肺動脈與右心房室皆大）。dysplastic valve 因常無狹窄後擴張，勿因此排除瓣膜狹窄。"
+  ],
   "management": "",
   "name": "Pulmonary (Valve) Stenosis — Imaging",
   "nameZh": "肺動脈瓣狹窄",

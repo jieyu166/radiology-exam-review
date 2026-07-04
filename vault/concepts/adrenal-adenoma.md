@@ -26,6 +26,21 @@ up: "[[adrenal-imaging]]"
 - **易混淆**：pheochromocytoma、RCC/HCC 與 hypervascular metastasis 可呈現雷同 washout；含脂惡性病灶可致 opposed-phase 假陽性；collision tumor、India ink artifact 為陷阱。[^1][^2]
 - **陷阱（2019交換）**：「MRI延遲相washout <50%」並非腺瘤的正確判斷依據——**washout（絕對/相對洗出百分比）為CT技術之判斷法（RPW>40%或APW>60%），MRI診斷腺瘤依賴的是chemical shift（opposed-phase訊號下降），並非以延遲相washout百分比為準**，兩種技術與判讀方法不應混用。[^10]
 
+## 放射科醫師影像判讀重點
+- **NECT 是解題第一步**：均質、圓/卵圓、邊界清的腎上腺病灶量中央 2/3 的 ROI，**≤10 HU 即確診 lipid-rich adenoma**（98% 特異），不必再做延遲相或 MRI；>10 HU 才進入 washout/CSI 流程。[^1][^2]
+- **lipid-poor 的判讀分岔**：走 adrenal washout protocol（門脈期＋15 分延遲），**RPW>40% 或 APW>60%** 支持腺瘤；但在「真性 incidentaloma（<4 cm、無已知惡性）」族群 washout 用途有限，此時保守追蹤優於強行定性。[^2][^5]
+- **washout 陽性不等於良性**：17–67% pheochromocytoma、部分 RCC/HCC/hypervascular metastasis 也可達腺瘤 washout 標準；判讀時務必回看臨床情境與生化，勿只憑 washout 下良性結論。[^2][^4]
+- **MRI 用 chemical shift 不用 washout**：opposed-phase 訊號下降＝細胞內脂質；量化用 adrenal signal index（>16.5% @1.5T）或 adrenal:spleen 比值 <0.71，**參考器官用脾臟勿用肝臟**（脂肪肝/血鐵沉積會污染肝訊號）。[^1][^2]
+- **反向陷阱要主動排除**：含脂惡性（HCC、RCC 轉移）可在 opposed-phase 假性掉訊號、India ink artifact 可偽裝小病灶掉訊號；不均質、周邊環狀掉訊號或已知腺外惡性者，警覺 collision tumor / 轉移。[^2]
+- **大小與生長速率是報告紅旗**：>4 cm 約 70%、>6 cm 約 85% 惡性；穩定 >12 個月傾向良性，生長 >5 mm/年須警惕，報告應明列固定量測基準以利追蹤。[^1][^2]
+
+## 臨床重點（5 句）
+- 約 95% 腺瘤為非功能性、無症狀，多於其他檢查偶然發現。[^1][^2]
+- 功能性腺瘤以 Conn（原發性醛固酮增多，常 <2 cm）與 Cushing（常 >2 cm）為主，須生化確認而非單憑影像。[^1][^2]
+- 即使已知惡性的病人，偶發腎上腺病灶仍較可能是腺瘤而非轉移。[^1][^2]
+- 臨床或生化懷疑 pheochromocytoma 時**不應切片**，有誘發高血壓危象風險，應轉外科會診；必要時以 68Ga-DOTATATE 等分子影像確認。[^4]
+- 無症狀非功能腺瘤不需治療、預後極佳；功能性者以腹腔鏡腎上腺切除處置。[^2][^8]
+
 ## 定義與術語
 腎上腺皮質之良性腫瘤，常於其他原因之影像偶然發現；佔所有腎上腺腫塊 60–80%，多 <3 cm（故超音波常不易顯示）。注意「incidental adrenal lesion / incidentaloma」涵蓋所有病理（含惡性），與「adrenal adenoma」非同義，混用易誤導。[^1][^2][^3]
 

@@ -14,7 +14,7 @@
     "通常為盲端（blind-ending），偶含肺泡組織。",
     "多為偶然發現，臨床意義不大，但須與支氣管病變鑑別。"
   ],
-  "management": "- 副心臟支氣管為氣管支氣管樹罕見的先天變異，多在影像檢查中偶然發現。\n- 絕大多數個案終生無症狀，臨床意義有限。\n- 少數病人可出現反覆呼吸道感染或咳血等併發症。\n- 認出此變異的意義在於避免誤診並預期可能的感染/出血併發症。\n- 有反覆症狀者可考慮手術切除，無症狀者一般僅需觀察。",
+  "management": "- 副心臟支氣管為氣管支氣管樹罕見的先天變異，多在影像檢查中偶然發現。\n- 絕大多數個案終生無症狀，臨床意義有限。\n- 少數病人可出現反覆呼吸道感染或咳血等併發症。\n- 認出此變異的意義在於避免誤診並預期可能的感染/出血併發症。\n- 有反覆症狀者可考慮手術切除，無症狀者一般僅需觀察。\n\n**參考來源**\n: 2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 1。\n: **Tier 1** McGuinness G, Naidich DP, Garay SM, et al. *Accessory cardiac bronchus: CT features and clinical significance*. Radiology 1993;189(2):563-6（據 PubMed，DOI [10.1148/radiology.189.2.8210391](https://doi.org/10.1148/radiology.189.2.8210391)；實際查證 accessed 2026-07-04）——經 CT 與支氣管鏡/手術對照之經典系列，明確記載副心臟支氣管起源自 bronchus intermedius **內側壁**、多為盲端並可伴迷走肺實質，及反覆感染/咳血之臨床意義，直接佐證考點。原「官方/Webb Thoracic Imaging」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Accessory Cardiac Bronchus",
   "nameZh": "副心臟支氣管",
   "slug": "accessory-cardiac-bronchus",

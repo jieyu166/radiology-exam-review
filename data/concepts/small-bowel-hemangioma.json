@@ -15,7 +15,7 @@
     "可以 GI bleeding（陰性或顯性）為臨床表現。",
     "影像特徵：強化的腸壁/腸腔內腫瘤，偶合併 phlebolith。"
   ],
-  "management": "- 小腸血管瘤為良性先天性血管病灶，可終生無症狀，或以慢性缺鐵性貧血、消化道出血表現。\n- 因病灶多位於傳統胃鏡／大腸鏡無法到達的空腸，常延誤診斷，需靠膠囊內視鏡或 CT 血管攝影。\n- 臨床上是「不明原因（obscure）消化道出血」與長期缺鐵性貧血須考量的少見病因之一。\n- 確定診斷與根治多依賴手術切除並經病理證實。\n- 手術切除後預後良好，復發少見。",
+  "management": "- 小腸血管瘤為良性先天性血管病灶，可終生無症狀，或以慢性缺鐵性貧血、消化道出血表現。\n- 因病灶多位於傳統胃鏡／大腸鏡無法到達的空腸，常延誤診斷，需靠膠囊內視鏡或 CT 血管攝影。\n- 臨床上是「不明原因（obscure）消化道出血」與長期缺鐵性貧血須考量的少見病因之一。\n- 確定診斷與根治多依賴手術切除並經病理證實。\n- 手術切除後預後良好，復發少見。\n\n**參考來源**\n: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.：小腸 hemangioma 最常見於 jejunum。\n: **Tier 1** Carballo-Folgoso L, Cuevas Pérez J, Celada-Sendino M, et al. *Small bowel cavernous hemangioma as an uncommon cause of iron-deficiency anemia*. Rev Esp Enferm Dig 2023;115(11):672-673（據 PubMed，DOI [10.17235/reed.2023.9778/2023](https://doi.org/10.17235/reed.2023.9778/2023)；實際查證 accessed 2026-07-04）——經同儕審查之 PubMed 索引文獻，記錄空腸海綿狀血管瘤以缺鐵性貧血表現、經膠囊內視鏡診斷並手術切除確診，佐證好發空腸、GI 出血表現與診斷路徑。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Small Bowel Hemangioma",
   "nameZh": "小腸血管瘤",
   "slug": "small-bowel-hemangioma",

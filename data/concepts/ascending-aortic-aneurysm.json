@@ -17,7 +17,7 @@
       "url": "https://doi.org/10.1161/CIR.0000000000001106"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **量測要量對才有意義**：在**垂直血流長軸的雙斜面（double-oblique）**橫切面量，單純用 axial 會因主動脈傾斜而高估；報告固定 landmark（sinus of Valsalva、sinotubular junction、mid-ascending），並註明量法（inner vs outer edge）以利追蹤。\n- **用 ECG-gated 減搏動假影**：升主動脈與根部受心搏影響大，gated CTA/MRA 可避免根部假性剝離影，是量測與追蹤的首選。\n- **手術閾值看風險族群**：sporadic/退化性傳統門檻 **5.5 cm**（多專科中心可下修 5.0 cm）；**Marfan/HTAD/BAV 約 5.0 cm**、合併其他心臟手術時 ≥4.5 cm——報告尺寸時要連同病因與風險一起提。\n- **快速增大本身就是指徵**：sporadic **≥0.5 cm/年**（或連 2 年 ≥0.3 cm/年）、HTAD/BAV **≥0.3 cm/年**，追蹤比較須固定同一模態與量法。\n- **即將破裂的 CT 紅旗要一眼認出**：hyperattenuating crescent sign（敏 ~77%/特 ~93%）、環狀鈣化局部不連續（最常見）、draped aorta、focal bleb、快速增大——見到即屬不穩定，須緊急處置。\n- **DDx 分岔**：找 intimal flap/雙腔（剝離）、新月狀無強化壁增厚（IMH）、穿過鈣化內膜的龕影（PAU）、頸窄囊袋狀壁不完整（偽動脈瘤，警覺感染/術後）；gated 影像有助排除根部假 flap。",
   "keyPoints": [
     "**升主動脈定義為瘤**：軸徑 >5.0 cm（>4.0 cm 已可作診斷門檻/dilatation）。",
     "**手術介入閾值（特發性/sporadic/退化性）＝5.5 cm**——2010 ACCF/AHA/AATS 與 2022 ACC/AHA 指引一致之傳統門檻（Class 1）。（題目正解）",
@@ -25,7 +25,7 @@
     "**降低門檻者**：**Marfan / 其他遺傳性胸主動脈病（HTAD）/ 二葉式主動脈瓣（BAV）**約 **5.0 cm**（合併風險因子/家族剝離史更低）；**接受其他心臟手術**時 ≥4.5 cm。",
     "**快速增大為介入指徵**：sporadic **≥0.5 cm/年**（或連續 2 年 ≥0.3 cm/年）；HTAD/BAV **≥0.3 cm/年**。"
   ],
-  "management": "",
+  "management": "- 多數胸主動脈瘤無症狀，常於其他檢查偶然發現，症狀（胸背痛、聲音沙啞、吞嚥困難）多與擴大或壓迫有關。\n- 危險因子含高血壓、動脈硬化、吸菸與結締組織病（Marfan、BAV、家族史）。\n- BAV 是最常見的非症候群先天病因，須一併評估瓣膜形態與是否合併瓣膜逆流。\n- 確診後一般每 6–12 個月序列 CTA 或 MRA 追蹤，並依風險族群調整閾值與頻率。\n- 達手術閾值或有即將破裂徵象者應轉心臟外科，未達門檻者以控制血壓等內科治療為主。",
   "name": "Ascending Aortic Aneurysm — Surgical Threshold",
   "nameZh": "升主動脈瘤手術閾值",
   "slug": "ascending-aortic-aneurysm",

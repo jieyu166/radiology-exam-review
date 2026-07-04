@@ -13,7 +13,7 @@
     "**排名**：Liposarcoma > Leiomyosarcoma > MFH/UPS。",
     "**Myelolipoma**：良性（成熟脂肪 + 造血組織），不是 malignant tumour。"
   ],
-  "management": "- 原發後腹腔惡性腫瘤以軟組織肉瘤為主，其中 liposarcoma 最常見。\n- 影像通常無法可靠判定肉瘤的確切組織學亞型，最終診斷仍需病理。\n- MRI 對脂肪與軟組織對比較 CT 佳，有助於評估脂肪成分與局部侵犯範圍。\n- Myelolipoma 為良性、通常不需手術，正確辨識可避免不必要的積極處置。\n- 影像報告重點在於病灶起源、範圍與可切除性評估，以支援外科與腫瘤團隊決策。",
+  "management": "- 原發後腹腔惡性腫瘤以軟組織肉瘤為主，其中 liposarcoma 最常見。\n- 影像通常無法可靠判定肉瘤的確切組織學亞型，最終診斷仍需病理。\n- MRI 對脂肪與軟組織對比較 CT 佳，有助於評估脂肪成分與局部侵犯範圍。\n- Myelolipoma 為良性、通常不需手術，正確辨識可避免不必要的積極處置。\n- 影像報告重點在於病灶起源、範圍與可切除性評估，以支援外科與腫瘤團隊決策。\n\n**參考來源**\n: 2019 交換考詳解；Radiology Review Manual 7e, p. 898。\n: **Tier 1** Shaaban AM, Rezvani M, Tubay M, Elsayes KM, Woodward PJ, Menias CO. *Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis.* RadioGraphics 2016;36(3):710-734（據 PubMed，DOI [10.1148/rg.2016150149](https://doi.org/10.1148/rg.2016150149)；實際查證 accessed 2026-07-04）——後腹腔含脂病灶影像判讀綜述，說明原發 vs. 臟器起源之定位徵象（beak/embedded organ/phantom organ/feeding artery），脂肪偵測技術，並比較 lipoma、liposarcoma、myelolipoma、AML 等鑑別。原「交換考詳解／Review Manual」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Primary Retroperitoneal Tumors",
   "nameZh": "後腹腔腫瘤",
   "slug": "retroperitoneal-tumors",

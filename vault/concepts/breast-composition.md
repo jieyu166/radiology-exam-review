@@ -43,6 +43,20 @@ dateRev: 2026-06-29
 > [!note] 考點：關於 breast composition（2013）何者「非」?
 > 「**報告需描述纖維腺體佔全乳約略比例（如 0–25%）**」**非**——第 5 版**移除百分比**、改主觀描述。a–d 分級、最緻密為 extremely dense、a＝almost entirely fatty 皆正確。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **四級定義（a–d）**：a＝almost entirely fatty；b＝scattered fibroglandular；c＝heterogeneously dense（可遮蔽小腫塊）；d＝extremely dense（降低乳攝敏感度）。[^1][^2]
+- **2013 關鍵改版**：移除前版百分比估計（quartile 0–25% 等），改主觀描述，強調緻密組織的**遮蔽效應**而非比例數字——此為最高頻考點陷阱。[^1][^2]
+- **分級邏輯（怎麼選 a–d）**：依「腫塊被纖維腺體遮蔽的機率」而非整體百分比、且看「最緻密區」而非平均；故纖維腺體 <50% 的乳房，若局部夠緻密足以遮蔽小腫塊仍歸 c。[^1][^3]
+- **判讀陷阱**：(1) 定性分級具觀察者間變異、b↔c 交界受經驗影響；(2) 緻密度通常雙側對稱，**不對稱的局部緻密化不是「升級 composition」**，而應視為需排除的可疑發現（focal/global asymmetry）；(3) **density ≠ BPE**——緻密度是乳攝上纖維腺體的量／遮蔽能力，BPE 是 MRI（或對比乳攝）正常實質的強化程度，兩者不同模態、可不平行，須分開報告。[^3][^9][^10]
+- **補充篩檢連動**：c/d＝dense breast，因敏感度下降常追加補充篩檢——MRI／AB-MRI 敏感度與癌偵測率最高（extremely dense 獲益最大）、US（含 ABUS）提升 CDR 但偽陽性高、DBT 增益不一致。[^6][^7]
+
+## 臨床重點（5 句）
+- c＋d 級（dense breast）具雙重意義：遮蔽效應降低乳攝敏感度，且緻密度本身是獨立的乳癌風險因子。[^4][^5]
+- 以 BI-RADS 級別比較，extremely dense（d）相對 scattered（b）約 2 倍乳癌風險（一研究 ~2.11×）。[^4][^5]
+- DENSE trial 顯示 extremely dense 乳房補充 MRI 篩檢可顯著降低間隔癌。[^7]
+- 美國 FDA 自 2024-09-10 起依 MQSA 終版規則，要求乳攝報告以「dense／not dense」告知病人並說明其影響。[^8]
+- 緻密度告知的目的在提醒緻密組織較難於乳攝偵測癌、且增加罹癌風險，並提示可考慮補充影像。[^8]
+
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），Breast Composition：「a. almost entirely fatty;b. scattered areas of fibroglandular density;c. heterogeneously dense ... obscure small masses;d. extremely dense ... lowers the sensitivity」;「the **percentages estimates of dense tissue were replaced by** a description of subjectively estimated breast density」。
 [^2]: *Breast density (classification)*. Radiopaedia.org（實際查證 accessed 2026-06-18）：a/b/c/d 定義;5th ed「percentages estimates ... were replaced by a description of subjectively estimated breast density」。

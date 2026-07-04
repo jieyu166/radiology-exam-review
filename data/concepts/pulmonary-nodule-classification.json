@@ -15,7 +15,7 @@
     "Ground-glass nodule（GGN）：密度高於正常肺、但不遮蔽下方支氣管血管結構、低於軟組織密度",
     "Fleischner 2017 指引整合 solid 與 subsolid 結節追蹤，並提高常規追蹤的最小門檻尺寸"
   ],
-  "management": "1. Fleischner 2017 指引適用於 ≥35 歲、無已知惡性/免疫不全的偶見結節 \n2. 追蹤間隔以「範圍」表示，讓臨床依風險因子與病人偏好調整 \n3. Subsolid 結節（尤其 part-solid）較 solid 結節有更高的惡性可能，追蹤較嚴 \n4. 常規追蹤最小門檻尺寸較舊版提高，以降低過度追蹤 \n5. 多發結節依風險最高者決定處置 \n\n> [!note] 考點：關於肺結節分類，下列哪一敘述為「錯誤」？\n> 「Subsolid nodule 專指部分 solid、部分 ground glass，不包含 pure GGN」為錯誤 —— subsolid 是 pure GGN 與 part-solid 兩者的總稱。",
+  "management": "1. Fleischner 2017 指引適用於 ≥35 歲、無已知惡性/免疫不全的偶見結節 \n2. 追蹤間隔以「範圍」表示，讓臨床依風險因子與病人偏好調整 \n3. Subsolid 結節（尤其 part-solid）較 solid 結節有更高的惡性可能，追蹤較嚴 \n4. 常規追蹤最小門檻尺寸較舊版提高，以降低過度追蹤 \n5. 多發結節依風險最高者決定處置 \n\n> [!note] 考點：關於肺結節分類，下列哪一敘述為「錯誤」？\n> 「Subsolid nodule 專指部分 solid、部分 ground glass，不包含 pure GGN」為錯誤 —— subsolid 是 pure GGN 與 part-solid 兩者的總稱。 \n\n**參考來源**\n: MacMahon H, et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-243（據 PubMed；[DOI](https://doi.org/10.1148/radiol.2017161659)）。結節/腫塊定義、subsolid（pure GGN + part-solid）分類、solid component 量測、追蹤門檻。\n\n> [!question]- 關於肺結節分類定義，下列哪一敘述為錯誤（非正確描述）？ (2019-310)\n> 答案：B.「Subsolid nodule 僅指部分 solid、部分 ground glass，不含 pure GGN」為錯誤 —— subsolid 包含 pure GGN 與 part-solid 兩者。",
   "name": "Pulmonary Nodule Classification",
   "nameZh": "肺結節分類",
   "slug": "pulmonary-nodule-classification",

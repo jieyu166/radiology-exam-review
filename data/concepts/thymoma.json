@@ -15,7 +15,7 @@
     "**臨床表現**：**可能無臨床症狀**（前縱膈偶發腫塊），或因局部壓迫/副腫瘤症候群（MG、純紅血球再生不良、低丙球蛋白血症）表現。",
     "**影像**：前縱膈邊界清楚之軟組織腫塊，可有鈣化；侵犯性胸腺瘤可穿破包膜、沿胸膜種植。"
   ],
-  "management": "- 胸腺瘤典型好發於 **50–60 歲（5th–6th decades）成人**，非青少年，且**無性別偏好**。\n- 與**重症肌無力（myasthenia gravis）** 密切相關（約 30–50% 胸腺瘤病人有 MG；約 10–15% MG 病人有胸腺瘤）。\n- 可**無臨床症狀**（前縱膈偶發），或因局部壓迫、副腫瘤症候群（MG、純紅血球再生不良、低丙球蛋白血症）表現。\n- 為前縱膈最常見之原發性腫瘤之一，屬胸腺上皮腫瘤（thymic epithelial neoplasm）。\n- 影像分期與可切除性評估仰賴 CT/MR 判定包膜完整性與胸膜/血管侵犯，直接影響治療決策。",
+  "management": "- 胸腺瘤典型好發於 **50–60 歲（5th–6th decades）成人**，非青少年，且**無性別偏好**。\n- 與**重症肌無力（myasthenia gravis）** 密切相關（約 30–50% 胸腺瘤病人有 MG；約 10–15% MG 病人有胸腺瘤）。\n- 可**無臨床症狀**（前縱膈偶發），或因局部壓迫、副腫瘤症候群（MG、純紅血球再生不良、低丙球蛋白血症）表現。\n- 為前縱膈最常見之原發性腫瘤之一，屬胸腺上皮腫瘤（thymic epithelial neoplasm）。\n- 影像分期與可切除性評估仰賴 CT/MR 判定包膜完整性與胸膜/血管侵犯，直接影響治療決策。\n\n**參考來源**\n: Radiology review manual, 6th ed., p.537（2018 交換考題詳解 p.292 引用；Tier 2 教科書）。胸腺瘤典型好發於50-60歲(5th-6th decades)、無性別偏好；與myasthenia gravis密切相關；可能無臨床症狀；前縱膈邊界清楚腫塊。\n: **Tier 1** Goldstein AJ, Oliva I, Honarpisheh H, Rubinowitz A. *A tour of the thymus: a review of thymic lesions with radiologic and pathologic correlation*. Can Assoc Radiol J 2014;66(1):5-15（據 PubMed，DOI [10.1016/j.carj.2013.09.003](https://doi.org/10.1016/j.carj.2013.09.003)；實際查證 accessed 2026-07-04）——加拿大放射學會期刊影像-病理對照回顧：胸腺瘤位於前縱膈、CT 呈邊界清楚軟組織腫塊可伴鈣化/囊變，侵犯性者見包膜外浸潤與胸膜種植；MR 有助區分囊實成分並鑑別胸腺增生/正常胸腺與胸腺上皮腫瘤，避免不必要之追蹤。原「Radiology review manual 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Thymoma",
   "nameZh": "胸腺瘤",
   "slug": "thymoma",

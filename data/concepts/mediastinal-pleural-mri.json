@@ -15,7 +15,7 @@
     "引導切片的兩大 MR 特徵：**強化區**與**擴散受限（diffusion restriction）**",
     "Chemical shift MRI 的 signal intensity index（SII）近年用於評估 thymic hyperplasia，區分正常/增生胸腺（含脂肪，反相位訊號下降）與腫瘤"
   ],
-  "management": "1. MRI 對縱膈囊性 vs 實質、含水 vs 含血/蛋白病灶的組織特性判讀優於 CT \n2. Chemical shift MRI 是鑑別胸腺增生與胸腺腫瘤的重要工具，可避免不必要手術 \n3. Diffusion restriction 可輔助鎖定活性最高的取檢區域 \n4. ITMIG 三腔（prevascular/visceral/paravertebral）分類同樣適用於 MR 的定位與鑑別 \n5. 疑似腫瘤性血栓者，MR 強化評估有助決定分期與治療策略 \n\n> [!note] 考點：關於縱膈/胸膜 MRI，下列哪一敘述為「錯誤」？\n> 「Early arterial phase images are critical for detection of enhancement of mediastinal soft-tissue lesions」為錯誤 —— 縱膈軟組織強化偵測重延遲相，非早期動脈相。其餘（囊腫強化即非良性、強化+擴散受限引導切片、血栓內強化＝腫瘤性血栓、SII 用於胸腺增生）皆正確。",
+  "management": "1. MRI 對縱膈囊性 vs 實質、含水 vs 含血/蛋白病灶的組織特性判讀優於 CT \n2. Chemical shift MRI 是鑑別胸腺增生與胸腺腫瘤的重要工具，可避免不必要手術 \n3. Diffusion restriction 可輔助鎖定活性最高的取檢區域 \n4. ITMIG 三腔（prevascular/visceral/paravertebral）分類同樣適用於 MR 的定位與鑑別 \n5. 疑似腫瘤性血栓者，MR 強化評估有助決定分期與治療策略 \n\n> [!note] 考點：關於縱膈/胸膜 MRI，下列哪一敘述為「錯誤」？\n> 「Early arterial phase images are critical for detection of enhancement of mediastinal soft-tissue lesions」為錯誤 —— 縱膈軟組織強化偵測重延遲相，非早期動脈相。其餘（囊腫強化即非良性、強化+擴散受限引導切片、血栓內強化＝腫瘤性血栓、SII 用於胸腺增生）皆正確。 \n\n**參考來源**\n: Carter BW. International Thymic Malignancy Interest Group Model of Mediastinal Compartments. Radiol Clin North Am. 2021;59(2):149-153（據 PubMed；[DOI](https://doi.org/10.1016/j.rcl.2020.11.007)）。縱膈橫斷影像分腔、MR 對囊性/實質與胸腺病灶鑑別、chemical shift/SII 應用。\n\n> [!question]- 關於縱膈腔/胸膜 MRI，下列哪一項敘述為錯誤（非正確描述）？ (2019-312)\n> 答案：A.「Early arterial phase images are critical for detection of enhancement of mediastinal soft-tissue lesions」為錯誤敘述（應重延遲相）。B/C/D/E 皆為正確描述。",
   "name": "Mediastinal and Pleural MRI",
   "nameZh": "縱膈腔胸膜MRI",
   "slug": "mediastinal-pleural-mri",

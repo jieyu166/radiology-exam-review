@@ -71,10 +71,18 @@ dateRev: 2026-06-29
 > [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
 > 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **兩軸一起看**：型態（morphology）決定「長相多可疑」、分布（distribution）決定「排列多可疑」，惡性可能性兩者相乘；報告時務必同時描述兩者。[^1][^3]
+- **可疑型態只有四類、依 PPV 遞增**：amorphous → coarse heterogeneous → fine pleomorphic → fine linear/fine-linear branching；**dystrophic、popcorn、rod-like、milk of calcium 皆屬典型良性**，不可誤列為可疑（最常考陷阱）。[^1][^2]
+- **amorphous 是最大陷阱**：外觀「無害」的粉狀雲霧卻屬可疑型態（PPV ~13–21%），須歸 BI-RADS 4 建議切片，別因看起來淡而判良性。[^1][^2]
+- **milk of calcium 必加照 true lateral**：CC 位淡圓、side/MLO 位沉降成茶杯／半月狀的「位置依賴變形」是良性標誌；未加照 true lateral 易誤讀為可疑微鈣化。[^1]
+- **fine linear branching + segmental → DCIS**：細線分支配節段分布反映腫瘤填充壞死於乳管樹（comedo-type），通常為高級別 DCIS，合併其他可疑徵象常給 BI-RADS 5。[^1][^3]
+- **用對技術避免誤判**：數鈣化與定型態須用**放大攝影**（易把 pleomorphic 誤成 amorphous）；**DBT/tomosynthesis 對微鈣化偵測非強項**，切層反使鈣化群視覺分散，鈣化評估仍以全視野數位攝影＋放大為主；切線位可證實皮膚鈣化。[^1][^4]
+
 ## DCIS 整體描述補充（2018-197）
-- **鈣化為 DCIS 最常見的影像表現**，優先於腫塊或其他徵象。
-- **約 30–67% 的 DCIS 病人最終於同一區域發展為侵襲性癌**，故 DCIS 需積極處置與追蹤。
-- **細線狀或分支狀鈣化（fine linear or branching）高度提示 DCIS，且通常為高級別（high-grade）**，與本概念上方「fine linear/fine-linear branching PPV 最高」的判讀骨架一致。
+- **鈣化為 DCIS 最常見的影像表現**，優先於腫塊或其他徵象。[^9]
+- **約 30–67% 的 DCIS 病人最終於同一區域發展為侵襲性癌**，故 DCIS 需積極處置與追蹤。[^9]
+- **細線狀或分支狀鈣化（fine linear or branching）高度提示 DCIS，且通常為高級別（high-grade）**，與本概念上方「fine linear/fine-linear branching PPV 最高」的判讀骨架一致。[^9]
 
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013），B. Calcifications：「**Typically Benign**」含 skin/vascular/**coarse or popcorn-like**(involuting fibroadenoma)/**large rod-like**(secretory)/round/punctate/rim/dystrophic/**milk of calcium**/suture；**Suspicious Morphology** 為 amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；**Distribution** 為 diffuse/regional/grouped/linear/segmental（後二者較可疑）。內容經 Radiology Assistant（*BI-RADS for Mammography and Ultrasound 2013*，radiologyassistant.nl）逐項對照確認（accessed 2026-06-29）。指引／教學圖譜級。

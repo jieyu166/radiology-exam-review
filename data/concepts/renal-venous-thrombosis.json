@@ -19,7 +19,7 @@
     "**腫瘤性侵犯（癌栓）**：原發腎腫瘤（尤其 RCC）侵犯腎靜脈/下腔靜脈遠比轉移性腎腫瘤常見。",
     "**機械性壓迫**：腫瘤、膿瘍、淋巴結腫大、動脈瘤壓迫腎靜脈皆可誘發血栓。"
   ],
-  "management": "1. 腎病症候群因抗凝血蛋白流失造成高凝血，是成人 RVT 的典型病因。\n2. 新生兒 RVT 多見於脫水、敗血、母親糖尿病等情境，可表現血尿與可觸及腫塊。\n3. RCC 具沿腎靜脈向 IVC 生長的傾向，術前須明確癌栓上緣以決定手術路徑。\n4. AML 等良性腎腫瘤偶亦可侵犯腎靜脈與 IVC，非惡性腫瘤專利（見 [[renal-aml-tuberous-sclerosis]]）。\n5. 急性 RVT 可致腎梗塞與腎功能惡化，慢性者可形成側支循環。\n\n> [!note] 考點：關於腎靜脈血栓的病因，何者「錯誤」？\n> **「腫瘤性侵犯在轉移性腎腫瘤比原發腎腫瘤更常見」為錯誤**——原發腎腫瘤（RCC）侵犯腎靜脈遠比轉移性腫瘤常見。",
+  "management": "1. 腎病症候群因抗凝血蛋白流失造成高凝血，是成人 RVT 的典型病因。\n2. 新生兒 RVT 多見於脫水、敗血、母親糖尿病等情境，可表現血尿與可觸及腫塊。\n3. RCC 具沿腎靜脈向 IVC 生長的傾向，術前須明確癌栓上緣以決定手術路徑。\n4. AML 等良性腎腫瘤偶亦可侵犯腎靜脈與 IVC，非惡性腫瘤專利（見 [[renal-aml-tuberous-sclerosis]]）。\n5. 急性 RVT 可致腎梗塞與腎功能惡化，慢性者可形成側支循環。\n\n> [!note] 考點：關於腎靜脈血栓的病因，何者「錯誤」？\n> **「腫瘤性侵犯在轉移性腎腫瘤比原發腎腫瘤更常見」為錯誤**——原發腎腫瘤（RCC）侵犯腎靜脈遠比轉移性腫瘤常見。\n\n**參考來源**\n: 據 PubMed，Shah JN, et al. Wunderlich Syndrome: Comprehensive Review of Diagnosis and Management. RadioGraphics. 2023;43(6):e220172. [10.1148/rg.220172](https://doi.org/10.1148/rg.220172)（含 RVT 為腎血管病因之一）；並參 2019 交換考詳解（成人/兒童病因）。\n: 據 PubMed，Smith RK, et al. Systematic review and meta-analysis of preoperative imaging prediction of renal cell carcinoma tumour thrombus inferior vena cava wall invasion. Clin Radiol. 2023;78(7):540-547. [10.1016/j.crad.2023.02.022](https://doi.org/10.1016/j.crad.2023.02.022)。\n\n> [!question]- Which statement regarding the cause of renal venous thrombosis is incorrect? (2019-282)\n> **C. Neoplastic invasion of the renal vein is more common in metastatic renal tumors than in primary renal tumors**（錯誤）。原發腎腫瘤（RCC）的靜脈侵犯遠多於轉移性腫瘤。",
   "name": "Renal Venous Thrombosis",
   "nameZh": "腎靜脈血栓",
   "slug": "renal-venous-thrombosis",

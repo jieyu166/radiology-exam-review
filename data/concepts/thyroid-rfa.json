@@ -15,7 +15,7 @@
     "**Danger triangle**（trachea 與 thyroid 之間）：electrode 不可朝此方向前進",
     "安全距離：electrode tip 距結節邊緣 1-2 mm 內較安全"
   ],
-  "management": "- 甲狀腺 RFA 為手術以外的微創替代選項，用於良性甲狀腺結節與復發性甲狀腺癌。\n- 適應症通常為造成壓迫/美容/症狀之良性結節，或不宜/拒絕再手術之復發癌。\n- 治療前須以細胞學（至少兩次良性）或病理確認良性，避免消融未確診之惡性病灶。\n- 主要目標為縮小結節體積、緩解症狀，而非一次完全消除，常需追蹤與可能重複治療。\n- 常見併發症含疼痛、出血、聲音改變（喉返神經受損），多為暫時性；規範化技術可降低風險。",
+  "management": "- 甲狀腺 RFA 為手術以外的微創替代選項，用於良性甲狀腺結節與復發性甲狀腺癌。\n- 適應症通常為造成壓迫/美容/症狀之良性結節，或不宜/拒絕再手術之復發癌。\n- 治療前須以細胞學（至少兩次良性）或病理確認良性，避免消融未確診之惡性病灶。\n- 主要目標為縮小結節體積、緩解症狀，而非一次完全消除，常需追蹤與可能重複治療。\n- 常見併發症含疼痛、出血、聲音改變（喉返神經受損），多為暫時性；規範化技術可降低風險。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Kim JH, Baek JH, Lim HK, et al.; Korean Society of Thyroid Radiology (KSThR). *2017 Thyroid Radiofrequency Ablation Guideline: Korean Society of Thyroid Radiology.* Korean J Radiol 2018;19(4):632-655（據 PubMed，DOI [10.3348/kjr.2018.19.4.632](https://doi.org/10.3348/kjr.2018.19.4.632)；PMC6005940；實際查證 accessed 2026-07-04）——KSThR 甲狀腺 RFA 學會指引：適應症（良性結節、復發癌）、trans-isthmic approach、moving-shot 技術、危險三角/喉返神經保護、hydrodissection 與併發症管理。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 學會指引查核升級。",
   "name": "Thyroid Radiofrequency Ablation (RFA)",
   "nameZh": "甲狀腺射頻消融",
   "slug": "thyroid-rfa",

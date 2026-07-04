@@ -33,6 +33,13 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「為錯」？
 > 「**第二個高回音層是 muscularis mucosa**」錯——第二高回音層是 **submucosa（最厚）**；muscularis mucosa 為低回音。其餘（superficial mucosa 高回音、muscularis propria 低回音、serosa 高回音）皆對。[^1]
 
+## 放射科醫師影像判讀重點
+- **五層順序與回音（考點核心）**：由內而外「高-低-高-低-高」——superficial mucosa（高）→ muscularis mucosa（低）→ **submucosa（高、最厚、最易辨識）** → muscularis propria（低）→ serosa（高）；**第二高回音層是 submucosa 不是 muscularis mucosa**（後者為低回音、常薄不可見）。[^1][^2]
+- **組織學對應**：高回音層＝脂肪／膠原（submucosa、serosa）與管腔–黏膜介面；低回音層＝平滑肌（muscularis mucosa、muscularis propria）；最內高回音嚴格說是管腔與黏膜之介面回音。[^2]
+- **gut signature 良惡鑑別**：**五層保留＋長節段受累→偏良性（發炎）**；**層次破壞＋短節段→偏惡性浸潤**，此為超音波判讀腸壁病變的第一原則。[^1][^2]
+- **對接 CT（本卡下半部）**：US 的分層概念與 CT 的分層強化互通——CT 上 water halo／target（submucosa 水腫低衰減環）偏良性／發炎，強化「減弱或消失」才提示缺血；判讀時兩模態互相印證。[^3][^6]
+- **判讀陷阱**：塌陷或未充分擴張腸段會造成假性增厚，評估腸壁分層前須確認管腔適度擴張；muscularis mucosa 甚薄，看不到不代表異常。[^2][^3]
+
 # CT 腸壁判讀
 
 CT 評估腸壁須整合三軸：**(1) 增厚程度與分布、(2) 強化型態（attenuation pattern）、(3) 周邊徵象（mesentery／氣體）**，再對應發炎 vs 缺血 vs 腫瘤的鑑別。Macari & Balthazar 的演算法即以此為骨架。[^3]

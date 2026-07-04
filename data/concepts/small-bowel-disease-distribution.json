@@ -15,7 +15,7 @@
     "**Giardiasis（本題答案）**：由鞭毛蟲Giardia lamblia引起，**好發十二指腸與空腸(duodenum-jejunum，近端小腸)**，伴痙攣、易激、分泌增加；小腸攝影見腸道擴張、環狀皺襞增厚。",
     "**Sprue（celiac disease）**：亦好發**近端小腸**（十二指腸/空腸絨毛萎縮）。"
   ],
-  "management": "- Giardiasis 由鞭毛蟲 *Giardia lamblia* 引起，經糞口／污染水傳播，好發近端小腸。\n- Giardiasis 臨床以慢性腹瀉、腹脹、脂肪瀉與吸收不良為主。\n- Celiac disease 為對麩質（gluten）之免疫媒介小腸黏膜損傷，常以吸收不良表現，腹部徵象常先於神經學表現出現。\n- Celiac 患者其腹部影像表現（十二指腸炎、皺襞逆轉、轉運變慢、一過性腸套疊）常較顱內表現更常見。\n- 依臨床（感染 vs 自體免疫 vs 腫瘤）結合好發節段，可有效收斂小腸疾病之鑑別診斷。",
+  "management": "- Giardiasis 由鞭毛蟲 *Giardia lamblia* 引起，經糞口／污染水傳播，好發近端小腸。\n- Giardiasis 臨床以慢性腹瀉、腹脹、脂肪瀉與吸收不良為主。\n- Celiac disease 為對麩質（gluten）之免疫媒介小腸黏膜損傷，常以吸收不良表現，腹部徵象常先於神經學表現出現。\n- Celiac 患者其腹部影像表現（十二指腸炎、皺襞逆轉、轉運變慢、一過性腸套疊）常較顱內表現更常見。\n- 依臨床（感染 vs 自體免疫 vs 腫瘤）結合好發節段，可有效收斂小腸疾病之鑑別診斷。\n\n**參考來源**\n: Herlinger H, Ekberg OT. *Other Inflammatory Conditions of the Small Bowel*. In: Gore RM, Levine MS, eds. Gastrointestinal Radiology, 2nd ed. Philadelphia: W.B. Saunders 2000; 746-758（2018 交換考題詳解 p.323 引用；Tier 2 教科書）。lymphoma好發迴腸；Yersinia好發末端迴腸；Giardiasis好發十二指腸-空腸(近端)伴環狀皺襞增厚；sprue好發近端小腸。\n: **Tier 1** Bhavsar AS, Verma S, Lamba R, Lall CG, Koenigsknecht V, Rajesh A. *Abdominal manifestations of neurologic disorders*. RadioGraphics 2013;33(1):135-153（據 PubMed，DOI [10.1148/rg.331125097](https://doi.org/10.1148/rg.331125097)；實際查證 accessed 2026-07-04）——celiac disease 之腹部表現以**近端**為主：十二指腸炎、空腸-迴腸皺襞型態逆轉、腸道轉運變慢、一過性小腸腸套疊，且腹部表現常較顱內表現更常見、可先於神經症狀。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Small Bowel Disease — Segmental Distribution",
   "nameZh": "小腸疾病分布",
   "slug": "small-bowel-disease-distribution",

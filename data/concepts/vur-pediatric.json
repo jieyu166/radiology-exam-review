@@ -19,7 +19,7 @@
     "**必須評估腸道與膀胱功能障礙（BBD）**：BBD 存在時 VUR 自發緩解率下降、突破性感染增加，是管理必要環節。",
     "**BBD 包含**：便秘、急尿、失禁、功能失調性排尿等。"
   ],
-  "management": "1. 首次發熱性 UTI 後影像檢查中約 30–40% 兒童診斷有 VUR。\n2. 首次發熱性 UTI 後約 15% 兒童出現腎瘢痕，處置目標在預防復發性 UTI 與腎損傷。\n3. 高級數逆流（3–5 級）多先以預防性抗生素處理，等待自發緩解。\n4. 早期辨識並處理 BBD 是成功內科治療 VUR 的關鍵。\n5. 內視鏡注射填充劑對 3 級逆流有用；手術矯正可減少復發性腎盂腎炎與住院。\n\n> [!note] 考點：關於膀胱輸尿管逆流（VUR），何者「錯誤」？\n> **「不需評估腸道與膀胱功能障礙（BBD）」為錯誤**。評估 BBD 為 VUR 管理必要環節；BBD 存在會降低自發緩解率。",
+  "management": "1. 首次發熱性 UTI 後影像檢查中約 30–40% 兒童診斷有 VUR。\n2. 首次發熱性 UTI 後約 15% 兒童出現腎瘢痕，處置目標在預防復發性 UTI 與腎損傷。\n3. 高級數逆流（3–5 級）多先以預防性抗生素處理，等待自發緩解。\n4. 早期辨識並處理 BBD 是成功內科治療 VUR 的關鍵。\n5. 內視鏡注射填充劑對 3 級逆流有用；手術矯正可減少復發性腎盂腎炎與住院。\n\n> [!note] 考點：關於膀胱輸尿管逆流（VUR），何者「錯誤」？\n> **「不需評估腸道與膀胱功能障礙（BBD）」為錯誤**。評估 BBD 為 VUR 管理必要環節；BBD 存在會降低自發緩解率。\n\n**參考來源**\n: 據 PubMed，Babu R, Chowdhary S. Controversies Regarding Management of Vesico-ureteric Reflux. Indian J Pediatr. 2017;84(7):540-544. [10.1007/s12098-017-2359-4](https://doi.org/10.1007/s12098-017-2359-4)。\n: 據 PubMed，Cooper CS, et al. The impact of the distal ureteral diameter ratio, bladder volume at onset of vesicoureteral reflux, and/or grade in predictive models. J Pediatr Urol. 2024;20(4):750.e1-750.e7. [10.1016/j.jpurol.2024.05.027](https://doi.org/10.1016/j.jpurol.2024.05.027)。\n\n> [!question]- Regarding vesicoureteral reflux (VUR), which statement is INCORRECT? (2019-318)\n> **C. It is NOT necessary to evaluate bowel and bladder dysfunction**（錯誤）。評估 BBD 為必要；A（VCUG 為診斷/分級標準）、B（分級 I–V）、D（BBD 影響自發緩解率）皆正確。",
   "name": "Pediatric Vesicoureteral Reflux",
   "nameZh": "膀胱輸尿管逆流",
   "slug": "vur-pediatric",

@@ -10,7 +10,7 @@
     "**攝護腺膿瘍（prostatic abscess）**：**周邊強化、T2 高訊號積液 + 內部均質限制擴散（低 ADC）**，與一般化膿性膿瘍表現一致。",
     "**背景知識**：攝護腺癌 **95% acinar、5% ductal**；ductal 於 mpMR 多與典型腺癌相似（DWI/ADC 受限、+DCE）；**約 70% 起源周邊區（後外側）**。"
   ],
-  "management": "1. **黏液型**：T1/T2 皆高（黏液），與典型腺癌相反。\n2. **續發侵犯**：罕見，最常為膀胱 TCC 直接蔓延。\n3. **膿瘍**：周邊強化 + 均質低 ADC。\n4. **組織型**：95% acinar / 5% ductal；~70% 周邊區。\n5. **判讀**：結合鄰近器官連續性與病史辨原發 vs 侵犯。\n\n> [!note] 考點：關於攝護腺病灶何者「錯誤」?\n> **答案為 D「以上皆非（None of the above）」**——A（黏液性腺癌 T1/T2 皆高訊號）、B（攝護腺續發侵犯罕見、膀胱 TCC 為最常見直接侵犯來源）、C（攝護腺膿瘍周邊強化 + 均質限制擴散）三項皆為文獻支持之正確描述，無錯誤者。",
+  "management": "1. **黏液型**：T1/T2 皆高（黏液），與典型腺癌相反。\n2. **續發侵犯**：罕見，最常為膀胱 TCC 直接蔓延。\n3. **膿瘍**：周邊強化 + 均質低 ADC。\n4. **組織型**：95% acinar / 5% ductal；~70% 周邊區。\n5. **判讀**：結合鄰近器官連續性與病史辨原發 vs 侵犯。\n\n> [!note] 考點：關於攝護腺病灶何者「錯誤」?\n> **答案為 D「以上皆非（None of the above）」**——A（黏液性腺癌 T1/T2 皆高訊號）、B（攝護腺續發侵犯罕見、膀胱 TCC 為最常見直接侵犯來源）、C（攝護腺膿瘍周邊強化 + 均質限制擴散）三項皆為文獻支持之正確描述，無錯誤者。\n\n**參考來源**\n: *Rare and Atypical Prostate Masses* (Dx). STATdx, updated 09/04/25. Elsevier——**mucinous adenocarcinoma 因黏液 T1WI/T2WI 皆高訊號**（充滿黏液之囊性腫塊）；ductal adenocarcinoma 於 mpMR 似典型腺癌；**其他骨盆腫瘤（膀胱/直腸癌）直接侵犯攝護腺、有膀胱癌病史有助判讀**；多數癌起源周邊區。\n: 官方 2017 詳解；Ref: RadioGraphics 2016;36(4):1055-1075（題目所引）——黏液性腺癌 T1/T2 皆高訊號（與典型腺癌相反）；攝護腺續發侵犯罕見、膀胱移行上皮癌為最常見直接侵犯來源；攝護腺膿瘍周邊強化 + 均質限制擴散；95% acinar/5% ductal、~70% 周邊區（結論已由上述 STATdx 一手來源查核佐證）。",
   "name": "Prostate Lesions — Imaging Spectrum (Non-Cancer & Mimics)",
   "nameZh": "攝護腺病灶影像",
   "slug": "prostate-lesions-imaging",

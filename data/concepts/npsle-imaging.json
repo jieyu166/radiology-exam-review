@@ -13,7 +13,7 @@
     "**NPSLE 相關影像表現**：new infarcts（新發梗塞）、focal areas of hyperintensity（局部高訊號病灶）、extensive reversible white matter change（廣泛可逆性白質變化）。",
     "**非NPSLE表現**：**brain abscess（腦膿瘍）並非NPSLE的影像表現**——若免疫抑制之SLE病人出現腦膿瘍，應優先考慮伺機性感染等其他病因，而非直接歸因於NPSLE本身。"
   ],
-  "management": "- 系統性紅斑狼瘡為慢性、發炎性、免疫媒介疾病，影響約0.1%的一般人口。\n- 神經精神表現於疾病病程中發生率可達75%，近年更受重視與辨識。\n- 神經精神表現涵蓋認知功能障礙、癲癇、腦血管事件、精神症狀等多樣臨床表型。\n- 傳統MRI正常無法排除NPSLE，臨床診斷需結合症狀、血清學與影像綜合判斷。\n- 合併抗磷脂症候群（APS）之SLE病人腦血管事件與缺血病灶風險更高。",
+  "management": "- 系統性紅斑狼瘡為慢性、發炎性、免疫媒介疾病，影響約0.1%的一般人口。\n- 神經精神表現於疾病病程中發生率可達75%，近年更受重視與辨識。\n- 神經精神表現涵蓋認知功能障礙、癲癇、腦血管事件、精神症狀等多樣臨床表型。\n- 傳統MRI正常無法排除NPSLE，臨床診斷需結合症狀、血清學與影像綜合判斷。\n- 合併抗磷脂症候群（APS）之SLE病人腦血管事件與缺血病灶風險更高。\n\n**參考來源**\n: 2019 交換考詳解；Diagnostic Imaging, Brain, I-4-64。\n: **Tier 1** Postal M, Lapa AT, Reis F, Rittner L, Appenzeller S. *Magnetic resonance imaging in neuropsychiatric systemic lupus erythematosus: current state of the art and novel approaches*. Lupus 2017;26(5):517-521（據 PubMed，DOI [10.1177/0961203317691373](https://doi.org/10.1177/0961203317691373)；實際查證 accessed 2026-07-04）——回顧文獻整理NPSLE之MRI角色，指出傳統MRI僅能於約半數病人顯示病灶、DTI等進階序列可偵測微結構異常，並強調MRI為偵測結構性腦異常之首選工具。原「官方詳解／Diagnostic Imaging」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Neuropsychiatric Systemic Lupus Erythematosus (NPSLE) — Imaging",
   "nameZh": "神經精神性紅斑性狼瘡",
   "slug": "npsle-imaging",

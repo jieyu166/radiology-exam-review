@@ -16,7 +16,7 @@
     "**本題陷阱**：「白質於T1呈訊號減低，因髓鞘化減少」為**錯誤**——實際為**加速髓鞘化致T1訊號增高**（另白質亦可增高訊號、異位神經元造成T1縮短）。",
     "其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。"
   ],
-  "management": "- HME屬先天性腦畸形，臨床三主徵為難治性癲癇、發展遲緩與偏癱（對側肢體）。\n- 癲癇多在出生後早期出現且藥物難以控制，常需考慮手術。\n- 產前診斷困難，第二／三孕期例行超音波多僅見不對稱腦室擴大等非特異表現，須高解析神經超音波與胎兒MRI確診。\n- 整體預後不佳，主因為頑固性癲癇、偏癱與進行性神經發展退化。\n- 對藥物頑固之癲癇，功能性或解剖性半球切除（hemispherectomy）為主要治療選項。",
+  "management": "- HME屬先天性腦畸形，臨床三主徵為難治性癲癇、發展遲緩與偏癱（對側肢體）。\n- 癲癇多在出生後早期出現且藥物難以控制，常需考慮手術。\n- 產前診斷困難，第二／三孕期例行超音波多僅見不對稱腦室擴大等非特異表現，須高解析神經超音波與胎兒MRI確診。\n- 整體預後不佳，主因為頑固性癲癇、偏癱與進行性神經發展退化。\n- 對藥物頑固之癲癇，功能性或解剖性半球切除（hemispherectomy）為主要治療選項。\n\n**參考來源**\n: *Diagnostic Imaging: Pediatric Neuroradiology* (2007) by A. James Barkovich, Kevin R. Moore, Blaise V. Jones, et al., p.20-23（2018 交換考題詳解 p.314 引用；Tier 2 教科書）。hemimegalencephaly為先天畸形，因細胞組織結構與神經元移行缺陷致一側半球錯構瘤樣過度生長；MRI見皮質增厚、相對年齡加速髓鞘化(白質T1增高訊號、CT值增高)、異位神經元致T1縮短。\n: **Tier 1** Sepulveda W, Sepulveda F, Schonstedt V, Stern J, Diaz-Serani R. *Neuroimaging Findings in Fetal Hemimegalencephaly: Case Study and Review*. Fetal Diagn Ther 2023;51(2):133-144（據 PubMed，DOI [10.1159/000535406](https://doi.org/10.1159/000535406)；實際查證 accessed 2026-07-04）——系統性回顧36例HME，歸納單側大腦半球擴大＋同側腦室擴大＋皮質移行異常之影像特徵、產前超音波與胎兒MRI診斷路徑，及難治性癲癇、偏癱、進行性發展遲緩之不良預後。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Hemimegalencephaly",
   "nameZh": "半側巨腦症",
   "slug": "hemimegalencephaly",

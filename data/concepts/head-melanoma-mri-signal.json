@@ -16,7 +16,7 @@
     "**出血因素**：melanoma 為典型**出血性轉移**；血產物亦致 T1 高/T2 低，故訊號可源自黑色素**或**出血（黑色素對 T1/T2 有平行效應）。",
     "**比例**：腦轉移中僅約 **25%** 為 melanotic 型。"
   ],
-  "management": "1. **melanotic**：T1 高、T2 低（順磁、唯一可靠）。\n2. **amelanotic**：T1 低-等、T2 高-等（非特異）。\n3. **出血**：melanoma 典型出血性轉移，血產物亦 T1 高/T2 低。\n4. **比例**：腦轉移僅 ~25% melanotic。\n5. **陷阱**：amelanotic T2 為高-等，非低。\n\n> [!note] 考點：關於頭部惡性黑色素瘤，何者敘述「為偽」?\n> ⚠️ 官方原答案 B、後更正為 **C 為偽**——Amelanotic pattern 於 T2WI 應呈**高-等訊號**，而非「低訊號（low signal intensity）」。含 melanotic 與 amelanotic 兩型態（A，真）、melanotic pattern 於 T1WI 呈高訊號（B，真，黑色素順磁效應）皆為正確敘述。",
+  "management": "1. **melanotic**：T1 高、T2 低（順磁、唯一可靠）。\n2. **amelanotic**：T1 低-等、T2 高-等（非特異）。\n3. **出血**：melanoma 典型出血性轉移，血產物亦 T1 高/T2 低。\n4. **比例**：腦轉移僅 ~25% melanotic。\n5. **陷阱**：amelanotic T2 為高-等，非低。\n\n> [!note] 考點：關於頭部惡性黑色素瘤，何者敘述「為偽」?\n> ⚠️ 官方原答案 B、後更正為 **C 為偽**——Amelanotic pattern 於 T2WI 應呈**高-等訊號**，而非「低訊號（low signal intensity）」。含 melanotic 與 amelanotic 兩型態（A，真）、melanotic pattern 於 T1WI 呈高訊號（B，真，黑色素順磁效應）皆為正確敘述。\n\n**參考來源**\n: 官方 2017 詳解；Ref: RadioGraphics 2001;21(3):625-639（題目所引）——melanotic pattern T1 高/T2 低（黑色素順磁效應）；amelanotic pattern T1 低-等/T2 高-等。\n: Gaillard F, et al. *Intracranial metastatic melanoma*. Radiopaedia, rID-4935, DOI 10.53347/rID-4935（引 Isiklar AJR 1995）——melanoma 轉移分 melanotic（>10% 黑色素細胞）與 amelanotic（<10%）；**僅 melanotic 提供一致可靠 MR 表現（T1 高、T2 低）**、amelanotic 非特異；黑色素/血產物皆致 T1 高/T2 低；腦轉移中僅約 25% 為 melanotic。",
   "name": "Malignant Melanoma (Head) — MRI Signal Patterns",
   "nameZh": "惡性黑色素瘤MRI訊號",
   "slug": "head-melanoma-mri-signal",

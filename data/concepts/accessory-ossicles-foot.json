@@ -15,7 +15,7 @@
     "**Os peroneum**：cuboid 外側、peroneus longus 腱內，骨折可導致 peroneus longus 功能失調。",
     "**Os intermetatarseum**：第一、二蹠骨基部背側，通常為偶然發現、無症狀。"
   ],
-  "management": "- 足踝副骨與種子骨多為正常解剖變異，大多無症狀屬偶然發現。\n- 副骨在過度使用或創傷後可產生疼痛症候群或退化性變化，是門診足踝痛的鑑別之一。\n- accessory navicular 是最常見的足部副骨之一，其次為 os peroneum、os trigonum。\n- 症狀性副骨的治療多先採保守處置(休息、制動、消炎)，難治者才考慮手術切除。\n- 臨床診斷需將影像所見的副骨與病人實際壓痛/誘發部位對應，避免把偶然副骨歸因為症狀來源。",
+  "management": "- 足踝副骨與種子骨多為正常解剖變異，大多無症狀屬偶然發現。\n- 副骨在過度使用或創傷後可產生疼痛症候群或退化性變化，是門診足踝痛的鑑別之一。\n- accessory navicular 是最常見的足部副骨之一，其次為 os peroneum、os trigonum。\n- 症狀性副骨的治療多先採保守處置(休息、制動、消炎)，難治者才考慮手術切除。\n- 臨床診斷需將影像所見的副骨與病人實際壓痛/誘發部位對應，避免把偶然副骨歸因為症狀來源。\n\n**參考來源**\n: Pope, T. et al., 2015. Musculoskeletal Imaging, Elsevier Health Sciences.\n: **Tier 1** Guo S, Yan YY, Lee SSY, Tan TJ. *Accessory ossicles of the foot—an imaging conundrum.* Emerg Radiol 2019;26(4):465-478（據 PubMed，DOI [10.1007/s10140-019-01688-x](https://doi.org/10.1007/s10140-019-01688-x)；實際查證 accessed 2026-07-04）——系統回顧足踝常見副骨(os trigonum、accessory navicular、os peroneum、os intermetatarseum 等)之影像；副骨多為偶然無症狀發現，過度使用或創傷可致疼痛症候群，US/CT/MRI/骨掃描用於定位症狀性副骨並區分骨折與其擬態。原「Musculoskeletal Imaging 教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Accessory Ossicles of the Foot",
   "nameZh": "足部副骨",
   "slug": "accessory-ossicles-foot",

@@ -15,7 +15,7 @@
     "**T2低訊號≠癌**：周邊帶T2低訊號**不一定代表癌**——慢性攝護腺炎、萎縮、疤痕、放療/荷爾蒙治療後、切片後出血皆可mimic。",
     "**DCE（動態對比增強）**：使用**快速T1序列強調『時間解析度（temporal resolution）』**（捕捉快速wash-in/washout），而非空間解析度。"
   ],
-  "management": "- 多參數MRI(mpMRI)已納入攝護腺癌診斷路徑，用於切片前風險分層與導引標靶切片。\n- PI-RADS評估類別1–5對應臨床顯著攝護腺癌之機率遞增，PI-RADS≥3常作為建議切片門檻。\n- 建議在切片後至少6–8週再行MRI，以減少切片後出血對判讀的干擾。\n- 臨床顯著攝護腺癌通常定義為Gleason score ≥7(Grade Group ≥2)。\n- 血清PSA升高非攝護腺癌專屬，攝護腺炎、BPH與器械操作亦可升高，需結合影像與切片判讀。",
+  "management": "- 多參數MRI(mpMRI)已納入攝護腺癌診斷路徑，用於切片前風險分層與導引標靶切片。\n- PI-RADS評估類別1–5對應臨床顯著攝護腺癌之機率遞增，PI-RADS≥3常作為建議切片門檻。\n- 建議在切片後至少6–8週再行MRI，以減少切片後出血對判讀的干擾。\n- 臨床顯著攝護腺癌通常定義為Gleason score ≥7(Grade Group ≥2)。\n- 血清PSA升高非攝護腺癌專屬，攝護腺炎、BPH與器械操作亦可升高，需結合影像與切片判讀。\n\n**參考來源**\n: *Radiology* Volume 261, Number 1—October 2011（2018 交換考題詳解 p.298 引用；Tier 1 期刊）。T2WI高空間解析度區分周邊帶與中央/移行帶；周邊帶T2低訊號不一定為癌(慢性攝護腺炎/萎縮/疤痕/切片後出血可mimic)；DCE快速T1序列強調時間解析度；攝護腺癌於ADC map呈較周邊帶健康組織更低之ADC。\n: **Tier 1** Turkbey B, Rosenkrantz AB, Haider MA, Padhani AR, Villeirs G, Macura KJ, Tempany CM, Choyke PL, Cornud F, Margolis DJ, Thoeny HC, Verma S, Barentsz J, Weinreb JC. *Prostate Imaging Reporting and Data System Version 2.1: 2019 Update of Prostate Imaging Reporting and Data System Version 2*. Eur Urol 2019;76(3):340-351（據 PubMed，DOI [10.1016/j.eururo.2019.02.033](https://doi.org/10.1016/j.eururo.2019.02.033)；實際查證 accessed 2026-07-04）——PI-RADS指導委員會共識更新之官方文件，明定PZ以DWI為主導序列、TZ以T2WI為主導序列、DCE僅對PZ DWI=3作二分升級，佐證本卡分區主序列與ADC/T2判讀重點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Prostate MRI (T2, DWI/ADC, DCE)",
   "nameZh": "攝護腺MRI",
   "slug": "prostate-mri",

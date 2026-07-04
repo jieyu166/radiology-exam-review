@@ -9,7 +9,14 @@
     "**下 1/3 陰道**：→ **IIIA**;**骨盆壁 or hydronephrosis/無功能腎**：→ **IIIB**。",
     "**淋巴結（骨盆±主動脈旁）**：**FIGO 2018 起 → IIIC（IIIC1 骨盆、IIIC2 主動脈旁）**;**2009 舊版僅屬 N 期、不改 FIGO 期**——此為時效雙層差異。",
     "**膀胱/直腸黏膜侵犯 or 遠處轉移**：→ **IVA / IVB**。IVA 需侵犯**膀胱或直腸「黏膜」（非僅漿膜）**、膀胱較常受累;**MRI 對膀胱/直腸黏膜侵犯陰性時 NPV 100%，可免除多數病人的膀胱鏡／內視鏡分期**（陽性可疑者才做膀胱鏡確認）。",
-    "**子宮體（corpus）延伸**：**不改變 FIGO 分期**（「should be disregarded」）→ 2016-195／2017-134 正解。"
+    "**子宮體（corpus）延伸**：**不改變 FIGO 分期**（「should be disregarded」）→ 2016-195／2017-134 正解。",
+    "**序列與切面**：軸位與矢狀 T2WI（沿子宮頸長軸取像）為評估主力;另取**斜軸 T2（垂直子宮頸長軸）**評估 parametrium 與 stromal ring。腫瘤大小於矢狀/斜軸 T2 測量最大徑。",
+    "**腫瘤大小（FIGO 2018 納入影像測量）**：IB 次分為 **IB1 ≤2 cm／IB2 >2 且 ≤4 cm／IB3 >4 cm**;>2 cm 復發率較高、5 年存活較低，故精準量徑具治療意義。",
+    "**Stromal ring 判讀（parametrial invasion 關鍵）**：低訊號基質環**完整 → 無 parametrial invasion**;**基質環完整對「無 parametrial invasion」有高陰性預測值（NPV 94–100%）**，保留 >3 mm 基質環厚度排除侵犯（特異度 96–99%）。**環被破壞、且有結節狀/毛刺狀軟組織延伸入 parametrium → 侵犯（IIB／T2b）**。單純環不連續但無腫瘤性軟組織延伸，不一定代表侵犯。",
+    "**陰道下 1/3（IIIA）**：腫瘤延伸至下 1/3 陰道升期 IIIA;臨床觸診頗準，MRI 為輔助。**子宮體（corpus）延伸不改分期**，但影響保留生育力 trachelectomy 之適應症。",
+    "**骨盆壁／hydronephrosis（IIIB）**：腫瘤距側骨盆壁 <3 mm，或侵犯 piriformis／levator ani／obturator 肌或內髂血管 → 骨盆壁侵犯;**hydronephrosis 或無功能腎亦屬 IIIB**（提示輸尿管受阻）。",
+    "**淋巴結（IIIC）**：影像判讀短軸 **>10 mm 或內部壞死**視為可疑。**骨盆淋巴結 → IIIC1、主動脈旁 → IIIC2**;FIGO 2018 要求標註偵測方式 **r（影像 radiologic）／p（病理 pathologic）**，任一處轉移皆升期 IIIC（不論腫瘤大小）。**DWI 與 18F-FDG PET/CT 評估淋巴結與遠端轉移**;PET/CT 對 >10 mm 淋巴結與小遠端轉移敏感度／特異度最高，但對早期局部分期角色有限。",
+    "**治療分層（影像的臨床意義）**：早期（≤IB2）多可手術／保留生育力;**IB3 與 IIA2（局部晚期大腫瘤）首選化學放射治療（CRT），CRT 後再加子宮切除無存活益處**——故精準量徑（>4 cm 與否）與 stromal ring/parametrium 判讀直接決定「開刀 vs CRT」。"
   ],
   "management": "",
   "name": "Cervical Cancer — MRI & FIGO 2018 Staging",

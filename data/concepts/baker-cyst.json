@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.2214/AJR.10.7264（2018"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "**診斷性影像特徵與模態**\n- **定位徵（US／MR 通用）**：囊液具**通過 semimembranosus 與 medial gastrocnemius 肌腱間之頸部**與關節腔相通，此「頸部徵」為診斷關鍵；位置偏內側、非 gracilis/sartorius 旁。\n- **超音波表現**：多為後內側界清無回音囊袋，**內部回音（出血、碎屑、滑膜增生、感染）不能排除診斷**；勿因非全無回音就否定 Baker cyst。\n- **MR 表現**：T2 高訊號、界清、經上述頸部與關節相通；可同時評估併發之膝關節內病變（半月板撕裂、關節積液來源）。\n- **併發與 DDx**：**破裂**時囊液沿腓腸肌筋膜下滲、臨床似 DVT（pseudothrombophlebitis），須以影像與深部靜脈血栓鑑別；其他 DDx 含黏液瘤、神經鞘瘤、動脈瘤、滑膜增生病變——非「頸部與關節相通」者應存疑。",
   "keyPoints": [
     "**本質/位置**：膝後內側 **semimembranosus–medial gastrocnemius bursa** 積液擴張;經兩肌腱間頸部與關節腔相通。",
     "**盛行率**：**常見**（膝 MRI 約 10–41%），非罕見。",
@@ -17,7 +17,7 @@
     "**併發**：破裂、下傳至小腿（pseudothrombophlebitis、似 DVT）。",
     "**形成危險因子（significant contributions）**：**年齡增加(increasing age)、全膝關節置換(total knee replacement)、後角半月板撕裂(posterior meniscal tear)**等關節內病變致積液增多者皆促成 Baker cyst;**腫瘤存在(presence of tumor)並非重要成因**。"
   ],
-  "management": "",
+  "management": "1. **流病**：**常見**（膝 MRI 盛行率約 10–41%），並非罕見病灶。\n2. **病因**：關節內病變（骨關節炎、半月板撕裂、發炎性關節炎）致關節液增多、經單向閥流入滑囊而形成。\n3. **表現**：多無症狀偶然發現；有症狀時為膝後脹感或腫塊，增大或破裂時可疼痛。\n4. **自然史/併發**：可自行消長；破裂致小腿疼痛腫脹、易被誤診為 DVT。\n5. **治療**：以處理潛在關節內病變為主，症狀性者可抽吸／類固醇注射，多數不需手術。\n\n> [!note] 考點：關於 Baker cyst,何者「為真」?\n> **US 上液體位於 semimembranosus 與 medial gastrocnemius 之間＝診斷性**。Baker cyst 很常見(非 <1%,A 誤)、經 SM-GN 間(非 gracilis-sartorius,B 誤)、有內部回音不能排除(D 誤)。\n\n**參考來源**\n: *Baker cyst*. Radiopaedia.org（題目所引／實際查證 accessed 2026-06-18）：semimembranosus–medial gastrocnemius bursa 積液、經兩肌腱間與關節腔相通;常見（膝 MRI 約 10–41%）;內部回音不排除（出血/碎屑/感染）。\n: *Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System*. AJR 2010;195:S62-S65. doi:10.2214/AJR.10.7264（2018 交換考題詳解 p.342 引用；Tier 1 期刊）。Baker cyst 形成重要成因含 increasing age、total knee replacement、posterior meniscal tear;腫瘤存在非重要成因。",
   "name": "Baker (Popliteal) Cyst",
   "nameZh": "貝克氏囊腫",
   "slug": "baker-cyst",

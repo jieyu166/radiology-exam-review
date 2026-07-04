@@ -16,6 +16,40 @@ dateRev: 2026-06-29
 - **本質**:為**修復性細胞過程、非真腫瘤**;hemosiderin 沉積致棕色（描述名、非 eponym）。[^1]
 - 伴隨 HPT 徵象:subperiosteal resorption(橈側指骨)、salt-and-pepper skull、棕色瘤。[^1]
 
+## 放射科醫師影像判讀重點
+
+### X 光（型態＋好發部位為考點）
+- 典型為**界線清楚的純溶骨病灶**，可單/多發、膨脹（expansile）、多房/多葉囊狀；部分見**硬化緣**或病灶內鈣化/骨化。[^2][^3][^4]
+- 好發 **mandible/顎、clavicle、ribs、pelvis、長骨（femur）與 spine**；**「肩部（glenohumeral）」非典型好發位（考題陷阱）**，惟 clavicle/scapula 屬肩帶且為已報告部位。[^1][^2]
+
+### CT／MRI
+- **CT**：溶骨或多房囊狀，可見**超出骨界的異質性軟組織腫塊**、含鈣化/骨化，強化程度不一。[^2][^4]
+- **MRI**：因 hemosiderin 與出血而**訊號不均**，T1/T2 可見**低訊號區**夾雜，可有囊變/液-液平面，增強後可強化（富血管纖維組織）。[^4]
+
+### 功能影像（重要陷阱）
+- **bone scintigraphy、Tc-sestamibi、FDG-PET 皆可高攝取**，**無法藉此與轉移鑑別**。[^2]
+
+### 判讀觸發點（見一個就想 HPT）
+- 同時出現 **subperiosteal resorption（橈側中節指骨最敏感）、distal clavicle 溶骨、salt-and-pepper skull、bone cyst、廣泛 osteopenia** 任一即高度提示 HPT 背景。[^3]
+- 溶骨病灶＋高血鈣時，**先查 PTH**（HPT 血鈣與 PTH 同步升高；惡性高血鈣 PTH 通常不升）。[^3]
+
+### DDx
+- **Giant cell tumor（GCT）**：含破骨型巨細胞、影像/病理高度重疊，最難鑑別，靠血鈣/PTH 區分。[^5][^6]
+- **轉移／multiple myeloma**：多發溶骨且好發部位重疊、功能影像皆可陽性。[^2][^7]
+- **Osteosarcoma**：moth-eaten、皮質破壞＋軟組織腫塊時可被誤判（曾有誤診幾近截肢者）。[^3]
+- 其他含巨細胞病灶：ABC、giant cell (reparative) granuloma、central giant cell lesion。[^5]
+
+### 判讀陷阱
+- 多發溶骨＋高血鈣**先查 PTH 再下惡性診斷**，避免誤判轉移/骨肉瘤/GCT 而做不必要甚至毀損性手術。[^3][^2]
+- 形態與功能影像皆**無法可靠區分 brown tumor 與轉移**；高度懷疑時切片常為唯一確診，但 PHPT 證據明確時應審慎避免不必要切片。[^2]
+
+## 臨床重點（5 句）
+1. 棕色瘤是 **HPT 骨病變（osteitis fibrosa cystica）的局部終末期病灶**，因 hemosiderin 沉積呈棕色，**非真腫瘤**。[^1][^2]
+2. **不需專屬治療**，多隨原發 HPT 手術（切除腺瘤）而消退/再骨化。[^2][^3]
+3. 病因含 **primary HPT**（腺瘤/增生，parathyroid carcinoma <1%）與 **secondary HPT**（慢性腎病/透析所致 renal osteodystrophy）。[^2][^4]
+4. **secondary HPT** 者常多部位侵犯、較常累及脊椎，並可見骨質硬化背景。[^4]
+5. 臨床可致疼痛、腫脹或**病理性骨折**；確診依血鈣與 PTH 同步升高，約見於 3% primary HPT。[^3][^7]
+
 ### 定義與病因
 - 棕色瘤是 HPT 骨病變（osteitis fibrosa cystica, OFC）的**局部終末期病灶**：局部骨流失快速處出現出血、修復性肉芽組織與富血管增生纖維組織取代正常骨髓，hemosiderin 沉積致棕色外觀；**非真腫瘤、不需專屬治療，多隨原發 HPT 手術而消退/再骨化**。[^2][^3]
 - 病因涵蓋 primary HPT（副甲狀腺腺瘤/增生，少數 parathyroid carcinoma <1%）與 secondary HPT（慢性腎病/長期透析所致 renal osteodystrophy）；secondary 者常**多部位侵犯且較常累及脊椎**。[^2][^4]

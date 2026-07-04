@@ -14,7 +14,7 @@
     "整體縱膈腔生殖細胞瘤：mature teratoma 最常見（良性），seminoma 次之。",
     "其他惡性類型：embryonal carcinoma、endodermal sinus (yolk sac) tumor、malignant teratoma。"
   ],
-  "management": "- 縱膈腔生殖細胞瘤組織學上與睪丸、卵巢之生殖細胞瘤相同。\n- 早期診斷與治療可改善存活率。\n- Seminoma對放射與化學治療反應良好，預後相對較佳。\n- 惡性非精原細胞瘤（如yolk sac tumor、絨毛膜癌）常合併血清腫瘤標記（AFP、β-hCG）升高，有助診斷與追蹤。\n- 惡性非精原細胞瘤因侵犯鄰近縱膈結構，預後較seminoma差。",
+  "management": "- 縱膈腔生殖細胞瘤組織學上與睪丸、卵巢之生殖細胞瘤相同。\n- 早期診斷與治療可改善存活率。\n- Seminoma對放射與化學治療反應良好，預後相對較佳。\n- 惡性非精原細胞瘤（如yolk sac tumor、絨毛膜癌）常合併血清腫瘤標記（AFP、β-hCG）升高，有助診斷與追蹤。\n- 惡性非精原細胞瘤因侵犯鄰近縱膈結構，預後較seminoma差。\n\n**參考來源**\n: 2019 交換考詳解；Webb WR, Higgins CB. Thoracic Imaging, 2005 ed., P. 225。\n: **Tier 1** Drevelegas A, Palladas P, Scordalaki A. *Mediastinal germ cell tumors: a radiologic-pathologic review*. Eur Radiol 2001;11(10):1925-1932（據 PubMed，DOI [10.1007/s003300000725](https://doi.org/10.1007/s003300000725)；實際查證 accessed 2026-07-04）——放射病理回顧文獻整理縱膈腔生殖細胞瘤各亞型之影像特徵（teratoma之脂肪+鈣化、seminoma之均質軟組織、NSGCT之異質侵犯），並指出CT為診斷首選、MRI為輔助。原「官方詳解／Thoracic Imaging」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Mediastinal Germ Cell Tumors",
   "nameZh": "縱膈腔生殖細胞瘤",
   "slug": "mediastinal-germ-cell-tumors",

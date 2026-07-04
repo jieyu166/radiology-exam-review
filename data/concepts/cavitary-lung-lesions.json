@@ -17,7 +17,7 @@
     "**腫瘤**：鱗狀細胞癌、空洞性轉移。",
     "**不造成空洞（本題重點）**：**Lipoid pneumonia(脂質性肺炎)**——多呈實質化/腫塊樣、含脂肪低衰減(CT可見負HU脂肪)，**通常不形成空洞**。"
   ],
-  "management": "- 空洞性肺病灶的鑑別高度依賴臨床脈絡：發燒/敗血症傾向感染或敗血性栓子，慢性咳嗽/體重減輕與抽菸史傾向惡性。\n- 系統性血管炎（尤其GPA）常合併上呼吸道症狀、腎絲球腎炎與c-ANCA陽性，應納入多發空洞病灶之鑑別。\n- 敗血性栓子常源自右心心內膜炎或感染性靜脈導管，須追查感染源與血液培養。\n- 空洞病灶若疑活動性肺結核應採呼吸道隔離並送痰抗酸菌檢查。\n- 含脂肪之lipoid pneumonia多與吸入礦物油/長期臥床誤吸有關，屬非感染性病因。",
+  "management": "- 空洞性肺病灶的鑑別高度依賴臨床脈絡：發燒/敗血症傾向感染或敗血性栓子，慢性咳嗽/體重減輕與抽菸史傾向惡性。\n- 系統性血管炎（尤其GPA）常合併上呼吸道症狀、腎絲球腎炎與c-ANCA陽性，應納入多發空洞病灶之鑑別。\n- 敗血性栓子常源自右心心內膜炎或感染性靜脈導管，須追查感染源與血液培養。\n- 空洞病灶若疑活動性肺結核應採呼吸道隔離並送痰抗酸菌檢查。\n- 含脂肪之lipoid pneumonia多與吸入礦物油/長期臥床誤吸有關，屬非感染性病因。\n\n**參考來源**\n: Radiology Review Manual, p.428（2018 交換考題詳解 p.331 引用；Tier 2 教科書）。空洞性肺結節成因含感染(TB/膿瘍/黴菌)、septic emboli、Wegener granulomatosis、鱗癌/空洞性轉移；lipoid pneumonia多呈實質化含脂肪腫塊，通常不形成空洞。\n: **Tier 1** Feragalli B, Mantini C, Sperandeo M, et al. *The lung in systemic vasculitis: radiological patterns and differential diagnosis*. Br J Radiol 2016;89(1061):20150992（據 PubMed，DOI [10.1259/bjr.20150992](https://doi.org/10.1259/bjr.20150992)；實際查證 accessed 2026-07-04）——同儕審查影像回顧，系統整理肺部空洞結節之HRCT形態與鑑別（含GPA/Wegener等ANCA相關血管炎之多發空洞結節、壞死性病灶與感染/腫瘤鑑別），佐證本卡空洞成因與壁厚判讀重點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Cavitary Lung Nodules/Lesions — Causes",
   "nameZh": "空洞性肺病灶",
   "slug": "cavitary-lung-lesions",

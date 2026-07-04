@@ -18,7 +18,7 @@
     "**子宮外孕直接徵象**：CT/MR上見**異位妊娠囊(ectopic gestational sac)**（子宮腔外含胚囊之結構）為直接徵象。",
     "**子宮外孕間接徵象**：CT/MR上見**附件血腫(adnexal hematoma)、輸卵管積血(hemosalpinx)、腹腔積血(hemoperitoneum)**。"
   ],
-  "management": "- 子宮外孕最常見危險因子為既往骨盆腔發炎、輸卵管手術/病變、既往子宮外孕與輔助生殖技術。\n- 正常子宮內妊娠β-HCG約每48-72小時倍增，倍增不良提示異常妊娠但不能定位。\n- 對血流動力學穩定的PUL病人，不應僅憑單次β-HCG超過判別區即決定手術或藥物介入，應結合系列數值與超音波追蹤。\n- 破裂性子宮外孕以急性腹痛、低血壓與腹腔積血表現，屬婦科急症。\n- Methotrexate藥物治療適用於未破裂、β-HCG不過高且無明顯胎心的選定病例。",
+  "management": "- 子宮外孕最常見危險因子為既往骨盆腔發炎、輸卵管手術/病變、既往子宮外孕與輔助生殖技術。\n- 正常子宮內妊娠β-HCG約每48-72小時倍增，倍增不良提示異常妊娠但不能定位。\n- 對血流動力學穩定的PUL病人，不應僅憑單次β-HCG超過判別區即決定手術或藥物介入，應結合系列數值與超音波追蹤。\n- 破裂性子宮外孕以急性腹痛、低血壓與腹腔積血表現，屬婦科急症。\n- Methotrexate藥物治療適用於未破裂、β-HCG不過高且無明顯胎心的選定病例。\n\n**參考來源**\n: *Ectopic pregnancy*, UpToDate, eMedicine（2018 交換考題詳解 p.312 引用；Tier 2 臨床資料庫）。正常子宮內妊娠β-HCG每48-72hr倍增至10,000-20,000；判別區transvaginal 1500-1800(多胞胎至2300)、abdominal 6000-6500 mIU/mL；子宮外孕直接徵象為異位妊娠囊、間接徵象為附件血腫/hemosalpinx/hemoperitoneum。\n: **Tier 1** Ko JKY, Cheung VYT. *Time to revisit the human chorionic gonadotropin discriminatory level in the management of pregnancy of unknown location*. J Ultrasound Med 2014;33(3):465-471（據 PubMed，DOI [10.7863/ultra.33.3.465](https://doi.org/10.7863/ultra.33.3.465)；實際查證 accessed 2026-07-04）——回顧性研究指出β-HCG高於一般判別區者仍可能為存活子宮內妊娠（最高達9083 mIU/mL之三胞胎），支持對血流動力學穩定的PUL病人不應僅憑單一β-HCG值決定介入，佐證本題「不能僅以腹部US未見妊娠囊排除正常懷孕」之核心考點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Ectopic Pregnancy & β-HCG Discriminatory Zone",
   "nameZh": "子宮外孕",
   "slug": "ectopic-pregnancy",

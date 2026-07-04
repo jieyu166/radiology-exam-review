@@ -34,7 +34,20 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**影像定義**：薄層 CT 上多發 **centrilobular（小葉中心）soft-tissue micronodules**,連接到多條口徑相近、**源自單一柄（single stalk）的分支線狀結構**,外觀像春天萌芽的樹枝。",
+    "**解剖對應**：小葉中心位置反映**末端細支氣管（terminal/respiratory bronchiole）與其伴行的小肺動脈**;線狀分支＝被填充而擴張的細支氣管或小血管沿軸向走行。",
+    "**病理基礎（氣道型）**：細支氣管管腔被**黏液、膿、發炎滲出物或肉芽**充填擴張,管壁可增厚;組織學最初描述於**結核的 endobronchial spread**(乾酪性物質充填),故又稱「endobronchial spread」徵象。",
+    "**與氣道病變高度相關**：原始薄層 CT 系列中,**27 例 tree-in-bud 有 26 例(96%)合併支氣管擴張或近端氣道管壁增厚**,僅 1 例(急性吸入)氣道正常 → 看到 tree-in-bud 應同時找近端氣道異常佐證氣道型病因。",
+    "**典型分布**：氣道型多為**斑塊狀、不對稱、以重力依賴/下肺與支氣管周圍**為主;隨小氣道走行成簇。",
+    "**常見伴隨**：支氣管擴張、氣道壁增厚、小葉中心結節、consolidation;TB/NTM 另可見空洞、淋巴結鈣化。",
+    "**TB vs NTM 取向(同屬分枝桿菌但側重不同)**:tree-in-bud 與小結節兩者皆常見、重疊大;**MDR-TB 偏多發空洞、較年輕**;**NTM(尤其 MAC/M. abscessus)偏 nodular bronchiectatic form、廣泛支氣管擴張、年長女性**。",
+    "**核心觀念**：因肺小動脈與細支氣管平行走行,**小動脈被瘤栓填充或內膜增生擴張時也會呈 tree-in-bud**,故此徵象**不再被視為小氣道病變專屬**。",
+    "**PTTM(pulmonary tumour thrombotic microangiopathy)**:瘤細胞栓塞肺小動脈,誘發內皮損傷→纖維細胞性內膜增生＋血栓;HRCT 見 **vascular tree-in-bud＋ground-glass centrilobular 結節＋小葉間隔增厚**,常合併縱隔/肺門淋巴結病變與右心衰竭徵象。",
+    "**最大陷阱(易漏看)**:**癌症病史病人急性惡化呼吸衰竭、但增強 CT 在大肺動脈找不到栓子**時,要把 PTTM／血管型 tree-in-bud 列入,而非僅當作感染或單純 PE;PTTM 進展極快(發病後常 1–2 週內死亡),早期診斷影響預後。",
+    "**好發原發癌**:腺癌最多,**胃癌最常見(約 26%)**,其次乳癌(21%)、攝護腺(13%)、肺(10%)。",
+    "**其他血管型**:IV 藥物賦形劑肉芽腫(靜脈 talcosis、口服藥磨碎注射之 microcrystalline cellulose）→ 隨機分布、注射毒癮史。"
+  ],
   "management": "",
   "name": "Tree-in-Bud Pattern — DDx",
   "nameZh": "樹芽徵",

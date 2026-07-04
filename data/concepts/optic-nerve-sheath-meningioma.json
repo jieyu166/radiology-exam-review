@@ -16,7 +16,7 @@
     "Hypointense pseudocapsule **不是** ONSM 的特徵",
     "好發於中年女性，通常為單側，緩慢進行性視力喪失"
   ],
-  "management": "- ONSM好發於中年女性，典型為單側、緩慢進行性、無痛性視力喪失。\n- 可合併視神經萎縮與視盤旁的視-脈絡膜側支血管（optociliary shunt vessels）。\n- 為良性、生長緩慢的腫瘤，主要威脅在於壓迫視神經致漸進性失明。\n- 治療上對進行性視力惡化者多採分次立體定位放射治療以保留視力，手術多保留於視力已喪失或有顱內延伸者。\n- 雙側ONSM應提高對神經纖維瘤病第二型（NF2）的警覺。",
+  "management": "- ONSM好發於中年女性，典型為單側、緩慢進行性、無痛性視力喪失。\n- 可合併視神經萎縮與視盤旁的視-脈絡膜側支血管（optociliary shunt vessels）。\n- 為良性、生長緩慢的腫瘤，主要威脅在於壓迫視神經致漸進性失明。\n- 治療上對進行性視力惡化者多採分次立體定位放射治療以保留視力，手術多保留於視力已喪失或有顱內延伸者。\n- 雙側ONSM應提高對神經纖維瘤病第二型（NF2）的警覺。\n\n**參考來源**\n: 2019 交換考詳解。\n: **Tier 1** Tailor TD, Gupta D, Dalley RW, Keene CD, Anzai Y. *Orbital neoplasms in adults: clinical, radiologic, and pathologic review*. RadioGraphics 2013;33(6):1739-1758（據 PubMed，DOI [10.1148/rg.336135502](https://doi.org/10.1148/rg.336135502)；實際查證 accessed 2026-07-04）——RadioGraphics成人眼眶腫瘤影像綜論，明列ONSM之tram-track強化、腫瘤內鈣化、與視神經膠質瘤（梭形膨大、無法分辨神經）之關鍵鑑別，以及MRI對管內段與顱內延伸之評估價值。原「官方詳解/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Optic Nerve Sheath Meningioma (ONSM)",
   "nameZh": "視神經鞘腦膜瘤",
   "slug": "optic-nerve-sheath-meningioma",

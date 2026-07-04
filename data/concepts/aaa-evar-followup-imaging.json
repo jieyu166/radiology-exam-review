@@ -20,7 +20,7 @@
     "**超音波（含 duplex/CEUS）**：評估囊袋大小 + 血流/內漏，無腎毒性；**CEUS 對內漏敏感**。",
     "**非最佳**：**半劑量含碘顯影劑 + 水化**仍具腎毒性；**CO2 血管攝影**屬侵入性，僅疑內漏需介入時考量。"
   ],
-  "management": "1. **標準**：多期 CTA 評估內漏 + 囊袋大小。\n2. **腎功能差**：不顯影 MRI/CT + 超音波（CEUS）。\n3. **囊袋大小**：關鍵替代指標，增大疑隱匿內漏。\n4. **非最佳**：半劑量碘（仍腎毒）、CO2 血管攝影（侵入）。\n5. **CEUS**：無腎毒且對內漏敏感。\n\n> [!note] 考點：AAA術後病患腎功能異常時，何種影像評估組合最適合？\n> **不顯影 MRI、不顯影 CT、超音波（2,3,5，E）**——避免含碘顯影劑（半劑量+水化仍有風險），亦不需侵入性 CO2 血管攝影。",
+  "management": "1. **標準**：多期 CTA 評估內漏 + 囊袋大小。\n2. **腎功能差**：不顯影 MRI/CT + 超音波（CEUS）。\n3. **囊袋大小**：關鍵替代指標，增大疑隱匿內漏。\n4. **非最佳**：半劑量碘（仍腎毒）、CO2 血管攝影（侵入）。\n5. **CEUS**：無腎毒且對內漏敏感。\n\n> [!note] 考點：AAA術後病患腎功能異常時，何種影像評估組合最適合？\n> **不顯影 MRI、不顯影 CT、超音波（2,3,5，E）**——避免含碘顯影劑（半劑量+水化仍有風險），亦不需侵入性 CO2 血管攝影。\n\n**參考來源**\n: 官方 2020 詳解（題目所引）——EVAR 術後標準追蹤為顯影 CT 評估內漏與囊袋大小；腎功能異常時改用不顯影 MRI、不顯影 CT、或超音波評估囊袋大小；半劑量顯影劑仍有腎毒性；CO2 血管攝影屬侵入性非必要。\n: *Endoleak*. Radiopaedia.org, rID-4099, DOI 10.53347/rID-4099（輔助來源）——內漏＝EVAR 後囊袋內持續血流（未治可致擴大破裂）；需終生影像追蹤、通常以 CT 血管攝影（多期：非顯影 + 動脈 + 延遲）；內漏亦可於 MRA/DSA/超音波偵測（sac flow）。\n: **Tier 1** Lyshchik A. *Aortic Stent Endoleak*（Ultrasound, Dx）. STATdx, Elsevier, updated 05/13/24（7 refs；實際查證 accessed 2026-07-03）——內漏＝graft 外囊袋內持續血流；**EVAR 佔美國 AAA 修復 >56%、20-50% 發生內漏**；**分類 type I（IA 近端/IB 遠端/IC iliac）、II（IIA 單支/IIB 多支，腰/IMA 逆行）、III（IIIA 接合分離/IIIB 破裂）、IV（graft 孔隙）、V（endotension，多為未偵測慢流 II/III）**；標準追蹤 CTA＋3D 術後 1 月、其後每年、初次異常 6 月複查；**多期 CT（非顯影基準、動脈期 antegrade I/III/IV、延遲期 retrograde II）**；**CEUS 敏 98%/特 88%、同步強化=antegrade/延遲=retrograde/持續 ≥10 分鐘、對慢流可能優於 CTA**；color Doppler 漏 31%；MRA nitinol 最佳；依型治療（I 調封合區、II 觀察/栓塞、III relining、IV 自限、V 未明）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。",
   "name": "AAA Post-EVAR Follow-up — Imaging with Renal Impairment",
   "nameZh": "腹主動脈瘤術後追蹤影像",
   "slug": "aaa-evar-followup-imaging",

@@ -15,7 +15,7 @@
     "**DWI 角色**：DWI 敏感度佳（ADC 切點 0.92×10⁻³ mm²/s 提供 91.5% 敏感、86.5% 特異），**但尚不足以取代 DCE-MRI**（DCE-MRI 單獨敏感度可達 97.9%），為核心工具之輔助。",
     "**高風險篩檢**：ACS/ACR 將**終生風險 >20%** 之女性列為高風險，建議**每年 MRI 合併乳房攝影**。"
   ],
-  "management": "1. **DWI 不取代 DCE-MRI**：DWI 輔助、DCE 核心。\n2. **高危族群**：終生風險 >20% 年度 MRI+攝影。\n3. **AB-MRI**：準確度等同完整方案，利普及。\n4. **偵測 ≠ 預後**：更多病灶未必更好結果。\n5. **判讀權衡**：高敏感但特異有限，注意 BPE 與過度診斷。\n\n> [!note] 考點：關於乳房MRI，何者敘述錯誤？\n> **DWI 已足以取代顯影劑加強乳房 MRI（C）為錯誤**——DWI 敏感度佳但尚不足以取代 DCE-MRI。偵測更多病灶未必轉化為更好預後、abbreviated MRI 準確度與完整方案相當、終生風險 >20% 建議每年 MRI 合併乳房攝影，皆為正確。",
+  "management": "1. **DWI 不取代 DCE-MRI**：DWI 輔助、DCE 核心。\n2. **高危族群**：終生風險 >20% 年度 MRI+攝影。\n3. **AB-MRI**：準確度等同完整方案，利普及。\n4. **偵測 ≠ 預後**：更多病灶未必更好結果。\n5. **判讀權衡**：高敏感但特異有限，注意 BPE 與過度診斷。\n\n> [!note] 考點：關於乳房MRI，何者敘述錯誤？\n> **DWI 已足以取代顯影劑加強乳房 MRI（C）為錯誤**——DWI 敏感度佳但尚不足以取代 DCE-MRI。偵測更多病灶未必轉化為更好預後、abbreviated MRI 準確度與完整方案相當、終生風險 >20% 建議每年 MRI 合併乳房攝影，皆為正確。\n\n**參考來源**\n: Mann RM, Kuhl CK, Moy L. *Breast MRI: State of the Art*. Radiology 2019;292(3):520-536, DOI 10.1148/radiol.2019182947（accessed 2026-07-03）——乳房 MRI 偵測更多病灶未必轉化為更好預後；abbreviated MRI 準確度與完整方案相當；ACS/ACR 終生風險 >20% 為高風險、建議每年 MRI 合併乳房攝影；DCE-MRI 為核心、DWI 為輔助。原「官方 2020 詳解」弱來源已由此一手來源查核佐證。\n: 官方 2020 詳解（題目所引補充文獻）——ADC 切點 0.92×10⁻³ mm²/s 提供 91.5% 敏感/86.5% 特異；DCE-MRI 單獨敏感度 97.9%、特異度 75.7%；**DWI 尚不足以取代 DCE-MRI**（結論與上述 Radiology 2019 一手來源一致）。",
   "name": "Breast MRI — Screening Role & Limitations",
   "nameZh": "乳房MRI篩檢角色",
   "slug": "breast-mri-screening-role",

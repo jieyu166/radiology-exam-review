@@ -12,7 +12,7 @@
   "keyPoints": [
     "**好發部位頻率排序**：**薦骨（sacrococcygeal, ~30–50%）> 蝶枕區/顱底斜坡（spheno-occipital, ~30–35%）> 脊椎體（vertebral body, 含頸椎與胸腰椎, ~15–30%）**；頸椎又較胸腰椎常見。"
   ],
-  "management": "- 脊索瘤是相對少見、生長緩慢的脊索源性腫瘤，最常沿斜坡發生。\n- 治療以手術切除合併放射治療為主。\n- 顱底脊索瘤 10 年局部復發率接近 50%，需長期影像追蹤。\n- 外科與放腫醫師仰賴放射科進行術前腫瘤界定、術後變化與復發判別。\n- 好發部位以薦尾部最常見，其次為蝶枕/顱底斜坡，再次為脊椎體。",
+  "management": "- 脊索瘤是相對少見、生長緩慢的脊索源性腫瘤，最常沿斜坡發生。\n- 治療以手術切除合併放射治療為主。\n- 顱底脊索瘤 10 年局部復發率接近 50%，需長期影像追蹤。\n- 外科與放腫醫師仰賴放射科進行術前腫瘤界定、術後變化與復發判別。\n- 好發部位以薦尾部最常見，其次為蝶枕/顱底斜坡，再次為脊椎體。\n\n**參考來源**\n: 2019 交換考詳解；Mirra J, Nelson S, Della Rocca C. *Chordoma*. In: Fletcher CD, Unni K, Mertens F, editors. Pathology and genetics of tumours of soft tissue and bone. IARC Press; 2002, p.316-7；Chugh R et al. *Chordoma: the nonsarcoma primary bone tumor*. Oncologist 2007;12(11):1344-50；Resnick, Bone and Joint Imaging, 3rd ed, Ch.70, p.1180。\n: **Tier 1** Soule E, Baig S, Fiester P, Holtzman A, Rutenberg M, Tavanaiepour D, Rao D. *Current Management and Image Review of Skull Base Chordoma: What the Radiologist Needs to Know*. J Clin Imaging Sci 2021;11:46（據 PubMed，DOI [10.25259/JCIS_139_2021](https://doi.org/10.25259/JCIS_139_2021)；實際查證 accessed 2026-07-04）——脊索瘤源自脊索殘餘、最常沿斜坡發生之緩慢生長中線腫瘤；治療以手術合併放療為主，10 年局部復發率近 50%；放射科負責術前腫瘤界定、術後變化與復發判別。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Chordoma",
   "nameZh": "脊索瘤",
   "slug": "chordoma",

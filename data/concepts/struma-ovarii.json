@@ -16,7 +16,7 @@
     "**臨床表現**：**多數病人無症狀（asymptomatic）**。",
     "**影像表現**：典型呈**邊緣平滑之多囊性腫塊**，於未打顯影劑CT上呈**高密度病灶**，囊壁無或中度顯影增強。"
   ],
-  "management": "- Struma ovarii 為卵巢成熟畸胎瘤之一種，需**甲狀腺組織占腫瘤 >50%** 或為唯一/主要成分。\n- **絕大多數為良性**，約 **5–10%** 為惡性（最常見 papillary thyroid carcinoma），故「all are benign」錯誤。\n- 多數病人**無症狀**；少數可合併甲狀腺機能亢進或類癌症候群。\n- 惡性 struma ovarii 之診療缺乏標準化，混合式核醫影像（FDG PET/CT 與 I-131 SPECT/CT）有助初步診斷與追蹤。\n- 好發於 45 歲以下女性（畸胎瘤族群），多為其他檢查偶然發現。",
+  "management": "- Struma ovarii 為卵巢成熟畸胎瘤之一種，需**甲狀腺組織占腫瘤 >50%** 或為唯一/主要成分。\n- **絕大多數為良性**，約 **5–10%** 為惡性（最常見 papillary thyroid carcinoma），故「all are benign」錯誤。\n- 多數病人**無症狀**；少數可合併甲狀腺機能亢進或類癌症候群。\n- 惡性 struma ovarii 之診療缺乏標準化，混合式核醫影像（FDG PET/CT 與 I-131 SPECT/CT）有助初步診斷與追蹤。\n- 好發於 45 歲以下女性（畸胎瘤族群），多為其他檢查偶然發現。\n\n**參考來源**\n: *Abdominal Imaging* (2008) 33:740–743（2018 交換考題詳解 p.240 引用；Tier 2 期刊）。Struma ovarii為畸胎瘤之一種，可合併甲亢/類癌症候群，絕大多數為良性但小比例惡性(最常見papillary thyroid carcinoma)，多數無症狀；典型CT呈邊緣平滑多囊性高密度腫塊，囊壁無或中度顯影增強。\n: **Tier 1** Ikeuchi T, Koyama T, Tamai K, et al. *CT and MR features of struma ovarii*. Abdom Imaging 2012;37(5):904-910（據 PubMed，DOI [10.1007/s00261-011-9817-7](https://doi.org/10.1007/s00261-011-9817-7)；實際查證 accessed 2026-07-04）——Abdominal Imaging（26 例 MR/13 例 CT）影像研究：struma ovarii 典型為分葉狀多房囊實性腫塊；T2 常見顯著低訊號囊腔、T1 實質旁點狀高訊號；CT 於實質成分見高衰減區與曲線狀鈣化，且 T2 低訊號區與 CT 高衰減區相對應。原「Abdominal Imaging 2008 逐頁引用」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Struma Ovarii",
   "nameZh": "卵巢甲狀腺腫",
   "slug": "struma-ovarii",

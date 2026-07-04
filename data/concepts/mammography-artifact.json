@@ -14,7 +14,7 @@
     "Tattoos、gunshot shrapnel、gold deposition 皆可產生 high density artifact",
     "檢查前應清潔腋窩區域以避免 deodorant artifact"
   ],
-  "management": "- 乳房攝影是族群性乳癌篩檢的主力工具，影像品質直接影響早期偵測率。\n- 外源性假影(如除臭劑)為可預防因素，檢查前衛教清潔腋窩、去除止汗劑可降低假影發生。\n- 假影若被誤判可造成不必要的召回、額外檢查與病人焦慮，故品保(QA)與品管(QC)為乳攝作業核心。\n- 類風濕關節炎金製劑治療雖已少用，但既往接受者仍可見組織內金沉積，屬病史相關線索。\n- 技術端(擺位、壓迫、機器維護)與病人端(異物、體表沉積物)皆為假影來源，需團隊協作降低。",
+  "management": "- 乳房攝影是族群性乳癌篩檢的主力工具，影像品質直接影響早期偵測率。\n- 外源性假影(如除臭劑)為可預防因素，檢查前衛教清潔腋窩、去除止汗劑可降低假影發生。\n- 假影若被誤判可造成不必要的召回、額外檢查與病人焦慮，故品保(QA)與品管(QC)為乳攝作業核心。\n- 類風濕關節炎金製劑治療雖已少用，但既往接受者仍可見組織內金沉積，屬病史相關線索。\n- 技術端(擺位、壓迫、機器維護)與病人端(異物、體表沉積物)皆為假影來源，需團隊協作降低。\n\n**參考來源**\n: Clinical Breast Imaging: The Essentials, P166.\n: **Tier 1** Geiser WR, Haygood TM, Santiago L, et al. *Challenges in mammography: part 1, artifacts in digital mammography*. AJR Am J Roentgenol 2011;197(6):W1023-30（據 PubMed，DOI [10.2214/AJR.10.7246](https://doi.org/10.2214/AJR.10.7246)；Journal Article, Review；實際查證 accessed 2026-07-04）——系統回顧數位乳攝各類假影之外觀、成因與消除方法，佐證高密度外源性假影可模擬病灶、須辨識與排除之考點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Mammography Artifact",
   "nameZh": "乳房攝影假影",
   "slug": "mammography-artifact",

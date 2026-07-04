@@ -54,6 +54,29 @@ dateRev: 2026-06-29
 - **obscured margin 不可當良性**：屬技術性無法判讀，**務必加照**把邊緣攤開，切勿因「看不到 spiculation」就低估。[^3]
 - **density 是最弱一軸**：勿因「低密度」就放心;判讀仍以 margin 為主。[^1][^3]
 
+## 放射科醫師影像判讀重點
+
+### 三軸權重與升級規則
+- **margin >> shape > density**：margin 是良惡分水嶺最關鍵的一軸；density 最弱。[^1][^3]
+- **任一可疑特徵即升級**：出現一個可疑描述詞（如 spiculated）整體即往 ≥4 走；乳攝＋超音波同做時，整體 assessment 反映**最可疑**的那個發現。[^3]
+
+### Mammography 判讀要點（考點）
+- **Shape**：oval 允許 **2–3 個 undulations**——**三個 undulations 仍是 oval，非 irregular**；round/oval 偏良性，irregular 通常可疑。[^1]
+- **Margin 五詞**：只有 **circumscribed（≥75% 清楚）偏良性**；**microlobulated＝short-cycle undulations（可疑）**、indistinct（可疑）、**spiculated 最可疑**；**obscured 屬技術限制非良惡判斷，須加照（spot compression）攤開再分類**。[^1][^3]
+- **Density**：high density 最令人擔心；**乳癌極少呈低密度**；fat-containing 幾乎一定良性。[^1][^3]
+- **術語**：用 **mass**，「nodule」非 BI-RADS lexicon 用語。[^1][^2]
+
+### Ultrasound 對應軸
+- **Orientation（US 獨有且關鍵）**：**parallel（wider-than-tall）偏良性；not parallel（taller-than-wide）可疑**。[^3][^4]
+- **Posterior features**：enhancement 偏良性（含囊腫）；**shadowing 較可疑**（特異度有限）。[^3][^4]
+- **Margin**：**「obscured」為乳攝專用、非超音波 margin 用語**（2019 交換考點）。[^3][^4]
+- **Echo pattern** 良惡鑑別力弱，不可單獨定良惡。[^3][^4]
+
+### 判讀陷阱
+- **circumscribed ≠ 一定良性**：黏液癌（mucinous）、髓質癌（medullary）、部分高惡性度 IDC/triple-negative 可呈邊界清楚腫塊，須結合年齡/生長/其他特徵。[^3][^4]
+- **obscured 不可當良性**，務必加照。[^3]
+- **鈣化與腫塊分開評估**（各用各的 lexicon），勿併入 margin/shape。[^1][^3]
+
 > [!note] 考點
 > **三個 undulations 的腫塊＝oval（非 irregular）**;short-cycle undulations 邊緣＝microlobulated（可疑）;indistinct margin＝可疑;描述用語為 **mass 非 nodule**。[^1]
 

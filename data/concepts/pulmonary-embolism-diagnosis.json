@@ -22,7 +22,7 @@
     "**Fleischner sign**：肺動脈擴張",
     "**危險因子**：長期臥床不動（immobilization）、手術、外傷、惡性腫瘤、口服避孕藥、深部靜脈血栓等。"
   ],
-  "management": "- 疑似 PE 應先以驗前機率（Wells／revised Geneva 等臨床評分）分層，再決定檢查路徑。\n- 非高機率者先驗 D-dimer；陰性可安全排除 PE，避免不必要影像與輻射。\n- 血流動力學不穩定（休克／低血壓）之高風險 PE 屬急症，須立即評估並考慮再灌流（溶栓）治療。\n- 確診後主要治療為抗凝血，療程與復發風險依誘發因子（暫時性 vs. 持續性/惡性）調整。\n- 危險分層整合臨床（如 sPESI）、右心功能（影像/心臟超音波）與心肌生物標記，用以決定住院強度與治療積極度。",
+  "management": "- 疑似 PE 應先以驗前機率（Wells／revised Geneva 等臨床評分）分層，再決定檢查路徑。\n- 非高機率者先驗 D-dimer；陰性可安全排除 PE，避免不必要影像與輻射。\n- 血流動力學不穩定（休克／低血壓）之高風險 PE 屬急症，須立即評估並考慮再灌流（溶栓）治療。\n- 確診後主要治療為抗凝血，療程與復發風險依誘發因子（暫時性 vs. 持續性/惡性）調整。\n- 危險分層整合臨床（如 sPESI）、右心功能（影像/心臟超音波）與心肌生物標記，用以決定住院強度與治療積極度。\n\n**參考來源**\n: Adam: Grainger & Allison's Diagnostic Radiology, 5th ed. Chapter 20.\n: **Tier 1** Konstantinides SV, Meyer G, Becattini C, et al. *2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS).* Eur Heart J 2020;41(4):543-603（據 PubMed，DOI [10.1093/eurheartj/ehz405](https://doi.org/10.1093/eurheartj/ehz405)；實際查證 accessed 2026-07-04）——ESC/ERS 急性肺栓塞診療指引，涵蓋驗前機率評分、D-dimer、CTPA/V-Q 診斷路徑、RV/LV 比等右心負荷評估與危險分層、抗凝與再灌流治療。原「教科書章節」單一弱來源已由本次 DOI Tier 1 指引查核升級。",
   "name": "Pulmonary Embolism Diagnosis",
   "nameZh": "肺栓塞診斷",
   "slug": "pulmonary-embolism-diagnosis",

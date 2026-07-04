@@ -17,7 +17,7 @@
     "**脂肪瘤**：不會引起貧血或全身症狀。",
     "**髓外造血(extramedullary hematopoiesis)**：亦好發後縱膈（單側或雙側、邊緣平滑分葉），但**鈣化極不典型（atypical）**——與神經母細胞瘤鈣化常見恰成對比，為兩者鑑別關鍵。"
   ],
-  "management": "- 神經母細胞瘤是兒童最常見的顱外實體腫瘤，可佔小兒癌症死亡的 15%。\n- 臨床表現差異極大，從自發消退到廣泛轉移、對治療無反應皆有。\n- 預後受年齡、分期、組織病理與多項生物因子（含基因）共同決定，用於治療前風險分層。\n- 可分泌兒茶酚胺並伴副腫瘤症候群，臨床上可見相關全身症狀。\n- 低風險者僅需極少介入，高風險者採多模態治療，新興免疫及核醫標靶治療反應可期。\n\n> [!note] 考點：小兒後縱膈腫塊＋鈣化，最可能診斷？\n> **Neuroblastoma**——好發後縱膈、常見鈣化。淋巴瘤治療前罕見鈣化、脂肪瘤不致貧血、髓外造血鈣化極不典型（此為與neuroblastoma之關鍵鑑別點）。",
+  "management": "- 神經母細胞瘤是兒童最常見的顱外實體腫瘤，可佔小兒癌症死亡的 15%。\n- 臨床表現差異極大，從自發消退到廣泛轉移、對治療無反應皆有。\n- 預後受年齡、分期、組織病理與多項生物因子（含基因）共同決定，用於治療前風險分層。\n- 可分泌兒茶酚胺並伴副腫瘤症候群，臨床上可見相關全身症狀。\n- 低風險者僅需極少介入，高風險者採多模態治療，新興免疫及核醫標靶治療反應可期。\n\n> [!note] 考點：小兒後縱膈腫塊＋鈣化，最可能診斷？\n> **Neuroblastoma**——好發後縱膈、常見鈣化。淋巴瘤治療前罕見鈣化、脂肪瘤不致貧血、髓外造血鈣化極不典型（此為與neuroblastoma之關鍵鑑別點）。\n\n**參考來源**\n: *Grainger & Allison's Diagnostic Radiology*, Chapter 81, 1961-1977.e1（2018 交換考題詳解 p.124 引用；Tier 1 教科書）。神經母細胞瘤好發後縱膈、常見鈣化；淋巴瘤治療前鈣化罕見；脂肪瘤不致貧血。\n: 髓外造血(extramedullary hematopoiesis)影像特徵：最常見胸腔內表現為後縱膈腫塊，可單側或雙側，邊緣平滑分葉，若為慢性病程可見脂肪成分，惟**鈣化極不典型**（2018 交換考題詳解 p.124 補充紅字註記）。\n: **Tier 1** Swift CC, Eklund MJ, Kraveka JM, Alazraki AL. *Updates in Diagnosis, Management, and Treatment of Neuroblastoma*. RadioGraphics 2018;38(2):566-580（據 PubMed，DOI [10.1148/rg.2018170132](https://doi.org/10.1148/rg.2018170132)；實際查證 accessed 2026-07-04）——RSNA RadioGraphics 綜論，闡述神經母細胞瘤為兒童最常見顱外實體腫瘤、鈣化與影像特徵、多模態解剖影像與 MIBG 功能影像於分期與風險分層之角色。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Neuroblastoma — Posterior Mediastinal Mass",
   "nameZh": "兒童後縱膈神經母細胞瘤",
   "slug": "neuroblastoma-mediastinal",

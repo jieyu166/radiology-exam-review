@@ -18,7 +18,7 @@
     "後方聲影、微鈣化、導管延伸、分支型態。",
     "**良性特徵（本題陷阱）**：**Purely echogenic / hyperechoic nodule（純高回音結節）**——高回音多為脂肪、纖維化等良性成分，**最不可能為惡性**。其他良性徵象含橢圓形、平行(wider-than-tall)、薄完整假包膜、≤3個柔和分葉。"
   ],
-  "management": "- 乳癌為女性最常見惡性腫瘤之一，危險因子含年齡、家族史、BRCA1/2 突變、初經早停經晚、未生育與荷爾蒙暴露。\n- 超音波在**緻密乳房**及年輕女性為重要輔助工具，可補足乳房攝影敏感度不足之處。\n- 觸診可疑腫塊即使影像判為良性，若臨床高度懷疑仍應考慮組織取樣（triple assessment 原則）。\n- 乳癌治療依分期與受體狀態（ER/PR/HER2）決定，含手術、化療、荷爾蒙治療與標靶治療。\n- 早期偵測與規律篩檢可顯著改善預後與存活率。",
+  "management": "- 乳癌為女性最常見惡性腫瘤之一，危險因子含年齡、家族史、BRCA1/2 突變、初經早停經晚、未生育與荷爾蒙暴露。\n- 超音波在**緻密乳房**及年輕女性為重要輔助工具，可補足乳房攝影敏感度不足之處。\n- 觸診可疑腫塊即使影像判為良性，若臨床高度懷疑仍應考慮組織取樣（triple assessment 原則）。\n- 乳癌治療依分期與受體狀態（ER/PR/HER2）決定，含手術、化療、荷爾蒙治療與標靶治療。\n- 早期偵測與規律篩檢可顯著改善預後與存活率。\n\n**參考來源**\n: Radiology review manual, 8th edition, p.1769-1770（2018 交換考題詳解 p.286 引用；Tier 2 教科書；依Stavros分類）。惡性乳房超音波特徵含microlobulation、angular margins、spiculation、not-parallel(taller-than-wide)、marked hypoechoic、後方聲影、微鈣化；純高回音結節為良性特徵(脂肪/纖維化)。\n: **Tier 1** Stavros AT, Thickman D, Rapp CL, Dennis MA, Parker SH, Sisney GA. *Solid breast nodules: use of sonography to distinguish between benign and malignant lesions.* Radiology 1995;196(1):123-134（據 PubMed，DOI [10.1148/radiology.196.1.7784555](https://doi.org/10.1148/radiology.196.1.7784555)；實際查證 accessed 2026-07-04；並對照 ACR BI-RADS Atlas 5th ed, 2013 作為參考標準）——750 例實質乳房結節前瞻分類研究，確立「無任何惡性徵象＋強均質高回音／薄假包膜／≤3 柔和分葉」之嚴格良性判準，惡性徵象含 spiculation、angular margins、marked hypoechogenicity、taller-than-wide、microlobulation；良性分類 NPV 99.5%、敏感度 98.4%。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Breast Ultrasound — Benign vs Malignant Features",
   "nameZh": "乳房超音波良惡性特徵",
   "slug": "breast-ultrasound-features",

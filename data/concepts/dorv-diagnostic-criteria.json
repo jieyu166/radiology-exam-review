@@ -15,7 +15,7 @@
     "**Doubly committed**：與兩瓣皆相關、通常大。",
     "**Non-committed（remote）**：遠離兩瓣，可為 AV canal 型或肌肉型 VSD。"
   ],
-  "management": "1. **兩定義並存**：Anderson 面積法、Van Praagh 肌肉連續性法。\n2. **VSD 位置決定一切**：subaortic/subpulmonary/doubly/non-committed 影響生理與術式。\n3. **Taussig-Bing**：subpulmonary supracristal VSD，TGA 樣生理。\n4. **大動脈**：多 side-by-side/parallel，主動脈常偏右。\n5. **影像任務**：定位 VSD、大動脈起源、冠狀動脈以規劃 baffle/switch。\n\n> [!note] 考點：DORV診斷要點何者錯誤？\n> **以上四項描述都沒有錯誤（E）**——Anderson 面積百分比法、Van Praagh 肌肉連續性法（無 fibrous continuity/雙側 conus）、VSD 位置決定術式、典型 parallel/side-by-side 大動脈排列，皆為正確。",
+  "management": "1. **兩定義並存**：Anderson 面積法、Van Praagh 肌肉連續性法。\n2. **VSD 位置決定一切**：subaortic/subpulmonary/doubly/non-committed 影響生理與術式。\n3. **Taussig-Bing**：subpulmonary supracristal VSD，TGA 樣生理。\n4. **大動脈**：多 side-by-side/parallel，主動脈常偏右。\n5. **影像任務**：定位 VSD、大動脈起源、冠狀動脈以規劃 baffle/switch。\n\n> [!note] 考點：DORV診斷要點何者錯誤？\n> **以上四項描述都沒有錯誤（E）**——Anderson 面積百分比法、Van Praagh 肌肉連續性法（無 fibrous continuity/雙側 conus）、VSD 位置決定術式、典型 parallel/side-by-side 大動脈排列，皆為正確。\n\n**參考來源**\n: *Double-Outlet Right Ventricle* (Dx). STATdx, updated 11/04/21. Elsevier——兩大動脈完全/主要出自 RV、16 變異；**fibrous discontinuity/雙側 conus**；大動脈 side-by-side、主動脈偏右 50-64%；VSD 型（**subaortic 最常見、subpulmonary supracristal＝Taussig-Bing、doubly committed、non-committed**）與生理/術式（VSD 關閉 + tunnel/conduit、Taussig-Bing 需 arterial switch）。\n: 官方 2020 詳解；Ref: *How should we diagnose and differentiate hearts with double-outlet right ventricle?* Cardiol Young 2017;27(1):1-15（題目所引）——Anderson 定義（一條 100% + 另一條 >50% 出自 RV）；Van Praagh 定義（大動脈瓣與二尖瓣間有肌肉層、無 fibrous continuity）；VSD 相對大動脈位置決定術式；典型 parallel 大動脈排列（結論已由上述 STATdx 一手來源查核佐證）。",
   "name": "Double Outlet Right Ventricle (DORV) — Diagnostic Criteria",
   "nameZh": "右心室雙出口",
   "slug": "dorv-diagnostic-criteria",

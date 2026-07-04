@@ -13,7 +13,16 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**邊界**：後＝**T1 椎體＋肋椎關節**;外側＝**第一肋＋肋軟骨**;前＝**manubrium 上緣**。腎形、斜面（前下→後上傾斜）,橫徑 ~10 cm、前後 ~5 cm。",
+    "**重要內容物**：氣管、食道、tracheo-esophageal sulcus（含 recurrent laryngeal nerve）、胸管（偏左）;鎖骨下/頸總動脈與 brachiocephalic 血管、迷走/膈/交感神經、肺尖（Sibson's fascia 覆蓋）。",
+    "**軸狀 CT 最可靠定位標誌＝first ribs（第一肋）**：見完整第一肋環即入口平面;**T1（會傾斜）、甲狀腺（大小/位置變異）、scalene muscles（附著變異）較不可靠**。",
+    "**是什麼**：源自 **C7** 的額外肋（supernumerary rib）;一般族群盛行率約 **1.1%**、**TOS 病人達 ~29.5%**（Henry 2017 meta-analysis）、女性較多;**逾半為單側**（meta-analysis;Radiopaedia 稱「常雙側」,文獻分歧並列）;多無症狀,但**是臨床最重要的肋骨變異**。",
+    "**怎麼判斷（最可靠→輔助;與發育不全的第一胸肋區別）**：",
+    "**影像譜**：elongated C7 transverse process → 不完全頸肋 → 完整頸肋（融合到第一胸肋上緣 tubercle;CT MIP 可見與第一肋的關節/假關節）。",
+    "**傳統胸廓入口／頸椎 X 光的角色**：疑似 TOS 病人**即使已安排 MRI，仍應加做傳統攝影**——**頸肋等骨性異常在 MRI 上可能被漏掉**；X 光同時可篩檢其他致上肢症狀之病因（如腫瘤）。與 TOS 相關之主要骨性異常：頸肋、elongated C7 橫突、第一肋異常、鎖骨異常。",
+    "**臨床**：可壓迫造成 **thoracic outlet syndrome（TOS）**;神經型壓迫**臂神經叢下幹（C8、T1）**→手與前臂無力、可有第 3–5 指 clawing;亦可壓迫鎖骨下動/靜脈（但影像上鎖骨下血管狹窄 ≠ 一定是 TOS,須避免過度診斷）。"
+  ],
   "management": "",
   "name": "Thoracic Inlet Anatomy & Cervical Rib",
   "nameZh": "胸廓入口",

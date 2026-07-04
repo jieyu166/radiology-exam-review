@@ -18,7 +18,7 @@
     "早期（發病一週內）以 US 尋找膽結石為主要角色；胰臟形態與併發症評估仍以 CT/MRI 為主，故 US 的局部發現偵測率有限",
     "修訂版 Atlanta 分類將病程分早期與晚期，影像的角色隨期別不同"
   ],
-  "management": "1. 急性胰臟炎最常見病因為膽石與酒精。\n2. 修訂版 Atlanta 分兩型：間質水腫型與壞死型。\n3. 早期（≤1 週）以臨床與器官衰竭判斷嚴重度，影像角色有限。\n4. 晚期（>48–72 小時）CT/MRI 用於評估病因、併發症與範圍。\n5. US 於早期主要用於偵測膽結石以釐清病因。\n\n> [!note] 考點：急性胰臟炎超音波發現由高到低的正確頻率排序？\n> **Peripancreatic inflammation ＞ Indistinct ventral margin ＞ Focal mass ＞ Venous thrombosis**（選項 A）。靜脈血栓為最少見的 US 發現。",
+  "management": "1. 急性胰臟炎最常見病因為膽石與酒精。\n2. 修訂版 Atlanta 分兩型：間質水腫型與壞死型。\n3. 早期（≤1 週）以臨床與器官衰竭判斷嚴重度，影像角色有限。\n4. 晚期（>48–72 小時）CT/MRI 用於評估病因、併發症與範圍。\n5. US 於早期主要用於偵測膽結石以釐清病因。\n\n> [!note] 考點：急性胰臟炎超音波發現由高到低的正確頻率排序？\n> **Peripancreatic inflammation ＞ Indistinct ventral margin ＞ Focal mass ＞ Venous thrombosis**（選項 A）。靜脈血栓為最少見的 US 發現。\n\n**參考來源**\n: Problem Solving in Abdominal Imaging, 1st ed., chap 14 table 14-2（US 發現頻率表）。\n: 據 PubMed，Porter KK, et al. ACR Appropriateness Criteria® Acute Pancreatitis. J Am Coll Radiol 2019;16(11S):S316-S330. [DOI](https://doi.org/10.1016/j.jacr.2019.05.017)\n: 據 PubMed，Ortiz Morales CM, et al. Radiology of acute pancreatitis today: the Atlanta classification and the current role of imaging. Radiologia (Engl Ed) 2019;61(6):453-466. [DOI](https://doi.org/10.1016/j.rx.2019.04.001)\n\n> [!question]- About the incidence of US findings in patient with acute pancreatitis, which of the following order is correct (from highest to lowest)? (2019-295)\n> **A. Peripancreatic inflammation > Indistinct ventral margin > Focal mass > Venous thrombosis**",
   "name": "Acute Pancreatitis — Ultrasound Findings",
   "nameZh": "急性胰臟炎超音波",
   "slug": "acute-pancreatitis-ultrasound",

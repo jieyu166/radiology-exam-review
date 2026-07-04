@@ -11,7 +11,7 @@
     "**已知肺外惡性之 SPN（重要考點）**：原發肺癌 vs 轉移**取決於肺外原發腫瘤組織學 + 吸菸史**，非一概而論——**頭頸鱗癌/淋巴瘤/泌尿道/乳房/子宮頸等 → 多為原發肺癌**；**黑色素瘤/肉瘤/睪丸癌 → 多為轉移（~60%）**。",
     "**Rigler notch（邊緣切跡）**：實質腫塊邊緣之凹陷，代表**滋養血管**、提示支氣管癌；但**肉芽腫性感染等亦可見，鑑別力有限**（非單純良性徵象）。"
   ],
-  "management": "1. **CT 首選**：綜合大小/型態/密度/生長/代謝定性。\n2. **良性線索**：良性鈣化、脂肪、2 年穩定、doubling <30d 或 >465d。\n3. **惡性線索**：spiculation、上肺、doubling 1-18 月。\n4. **肺外惡性 SPN**：原發 vs 轉移取決於原發組織學 + 吸菸史。\n5. **Rigler notch**：提示支氣管癌但鑑別力有限。\n\n> [!note] 考點：關於孤立性肺結節(SPN)，何者「不正確」?\n> 「**已知肺外惡性腫瘤病人的 SPN，更常為原發肺癌而非轉移（C）**」不正確——**取決於該肺外腫瘤組織學與病人吸菸史**（黑色素瘤/肉瘤/睪丸癌組反而多為轉移 ~60%），非一概而論。上肺葉肺癌較多、穩定 2 年結節幾乎必為良性、Rigler notch 提示支氣管癌但鑑別力有限，皆為正確補充。",
+  "management": "1. **CT 首選**：綜合大小/型態/密度/生長/代謝定性。\n2. **良性線索**：良性鈣化、脂肪、2 年穩定、doubling <30d 或 >465d。\n3. **惡性線索**：spiculation、上肺、doubling 1-18 月。\n4. **肺外惡性 SPN**：原發 vs 轉移取決於原發組織學 + 吸菸史。\n5. **Rigler notch**：提示支氣管癌但鑑別力有限。\n\n> [!note] 考點：關於孤立性肺結節(SPN)，何者「不正確」?\n> 「**已知肺外惡性腫瘤病人的 SPN，更常為原發肺癌而非轉移（C）**」不正確——**取決於該肺外腫瘤組織學與病人吸菸史**（黑色素瘤/肉瘤/睪丸癌組反而多為轉移 ~60%），非一概而論。上肺葉肺癌較多、穩定 2 年結節幾乎必為良性、Rigler notch 提示支氣管癌但鑑別力有限，皆為正確補充。\n\n**參考來源**\n: *Solitary Pulmonary Nodule* (Dx). STATdx, updated 09/28/21. Elsevier——CT 為定性首選；**90% <2 cm 良性**、2 年穩定偏良性、doubling <30d/>465d 偏良性、惡性 1-18 月（平均 ~100 天）；良性鈣化（中央/瀰漫/laminated/popcorn）、hamartoma 含脂肪；**spiculation highly suggestive of malignancy**、上肺較多；eccentric/stippled 鈣化偏惡。\n: 官方 2017 詳解；Ref: Radiology（SPN etiology in patients with extrapulmonary malignancy, Table 1；題目所引）——已知肺外惡性者 SPN 原發 vs 轉移取決於原發組織學 + 吸菸史（頭頸鱗癌/淋巴瘤多原發肺癌、黑色素瘤/肉瘤/睪丸癌多轉移）；Rigler notch 提示滋養血管/支氣管癌但亦見於肉芽腫性感染、鑑別力有限（結論已由上述 STATdx 一手來源查核佐證）。",
   "name": "Solitary Pulmonary Nodule (SPN) — Key Concepts",
   "nameZh": "孤立性肺結節",
   "slug": "solitary-pulmonary-nodule",

@@ -9,8 +9,16 @@
     }
   ],
   "imagingFindings": "- **TZ 癌 vs BPH 結節**：**TZ 癌＝erased charcoal（均質低 T2）＋邊界不清＋無包膜＋lenticular 形＋低 ADC＋早期強化**；**BPH stromal hyperplasia 則較邊界清楚且有包膜**——這是 TZ 判讀的關鍵二分。\n- **主動監測選片靠 Gleason**：Epstein 標準中 **Gleason score 是壓過腫瘤體積與 PSA 的關鍵因子**；MR 在主動監測之「選擇與追蹤」皆有關鍵角色。\n- **復發部位隨治療而異**：**放療後→原腫瘤位置（prior tumor site）復發**；**根治切除後→膀胱尿道吻合處（vesicourethral anastomosis）**——判讀時依治療史鎖定不同區域。\n- **偵測復發的序列**：**復發在 T2 上常難見 → 須加 DCE 與 DWI**；術後復發呈 T1 等肌肉、T2 略高於肌肉之強化軟組織結節（環繞膀胱/膜部尿道）。\n- **搜尋範圍**：術後除吻合處外，也要看**前外側手術邊緣、精囊窩、膀胱與直腸間**之復發。",
-  "keyPoints": [],
-  "management": "1. **生化復發（PSA 上升）**是術後/放療後懷疑復發之觸發點，mpMRI 用於定位以啟動 salvage 治療。\n2. **主動監測（active surveillance）**適合低風險（Epstein 標準）病人，避免過度治療，MR 於選片與追蹤中角色日增。\n3. TZ 前癌因位於前區、易被 BPH 掩蓋而**易漏診**，掌握 erased charcoal 徵象可提高偵測。\n4. 術後復發早期偵測可及時 salvage 放療，改善預後；判讀須熟悉正常術後變化以免偽陽性。\n5. 放療後腺體萎縮/瀰漫低 T2 使判讀困難，**DCE/DWI 對原位復發之偵測特別重要**。\n\n> [!note] 考點一：移行區前列腺癌之典型MRI特徵？\n> **邊界不清、低T2訊號、早期顯影、低ADC（C）**——非well-defined、非high ADC。\n\n> [!note] 考點二：Epstein主動監測納入標準？\n> **Gleason ≤6、≤2 positive cores、cancer involvement ≤50%（D）**。\n\n> [!note] 考點三：根治性前列腺切除術後最常見復發部位？\n> **Vesicourethral anastomosis（C）**——DCE與T2WI為最佳偵測序列。",
+  "keyPoints": [
+    "**T2WI表現**：**均質低訊號（\"erased charcoal\" sign）**、**邊界不清（ill-defined margins）**、缺乏包膜（lack of capsule）、呈**lenticular形狀**，可合併或不合併anterior fibromuscular stroma侵犯。",
+    "**ADC**：**低ADC值**。",
+    "**顯影時相**：**早期顯影（early enhancement）**。",
+    "**Epstein inclusion criteria核心**：**Gleason score ≤6、two or fewer positive cores、PSA density ≤0.15 ng/mL、cancer involvement ≤50% of any core**。",
+    "**最常見復發部位**：**Vesicourethral anastomosis（膀胱尿道吻合處）**——非lymph nodes、incision/port site、prostatic bed。",
+    "**典型影像**：環繞膀胱及/或membranous urethra之**顯影軟組織結節**，T1WI與肌肉等訊號、T2WI較肌肉**略高訊號**。",
+    "**最有幫助之序列**：**DCE（動態對比增強）與T2WI**，對偵測吻合處、anterolateral手術邊緣、精囊內、膀胱與直腸間之復發病灶最有幫助。"
+  ],
+  "management": "1. **生化復發（PSA 上升）**是術後/放療後懷疑復發之觸發點，mpMRI 用於定位以啟動 salvage 治療。\n2. **主動監測（active surveillance）**適合低風險（Epstein 標準）病人，避免過度治療，MR 於選片與追蹤中角色日增。\n3. TZ 前癌因位於前區、易被 BPH 掩蓋而**易漏診**，掌握 erased charcoal 徵象可提高偵測。\n4. 術後復發早期偵測可及時 salvage 放療，改善預後；判讀須熟悉正常術後變化以免偽陽性。\n5. 放療後腺體萎縮/瀰漫低 T2 使判讀困難，**DCE/DWI 對原位復發之偵測特別重要**。\n\n> [!note] 考點一：移行區前列腺癌之典型MRI特徵？\n> **邊界不清、低T2訊號、早期顯影、低ADC（C）**——非well-defined、非high ADC。\n\n> [!note] 考點二：Epstein主動監測納入標準？\n> **Gleason ≤6、≤2 positive cores、cancer involvement ≤50%（D）**。\n\n> [!note] 考點三：根治性前列腺切除術後最常見復發部位？\n> **Vesicourethral anastomosis（C）**——DCE與T2WI為最佳偵測序列。\n\n**參考來源**\n: **Tier 1（全文已讀）** Patel P, Mathew MS, Trilisky I, Oto A. *Multiparametric MR Imaging of the Prostate after Treatment of Prostate Cancer*. RadioGraphics 2018;38(2):437-449（doi:10.1148/rg.2018170147，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）：**TZ 癌＝erased charcoal（均質低 T2）＋邊界不清＋無包膜＋lenticular＋低 ADC＋早期強化**（BPH stromal hyperplasia 較 well-defined/encapsulated）；**Epstein 標準 Gleason ≤6、≤2 陽性 cores、PSA density ≤0.15、任一 core 癌 ≤50%，Gleason 為壓過體積與 PSA 之關鍵**；**放療後復發於原腫瘤位置、根治切除後復發於膀胱尿道吻合處**、T2 常難見須加 DCE 與 DWI；MR 於主動監測選擇與追蹤有關鍵角色。原「官方 2020 詳解（題目所引）」已由本次全文查核升級。",
   "name": "Prostate Cancer — MRI After Treatment & Active Surveillance Criteria",
   "nameZh": "前列腺癌治療後MRI",
   "slug": "prostate-cancer-mri-treatment",

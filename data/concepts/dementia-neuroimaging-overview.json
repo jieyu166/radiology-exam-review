@@ -16,7 +16,17 @@
   "keyPoints": [
     "**Alzheimer disease（AD）**：**tau與β-amyloid**堆積。",
     "**Dementia with Lewy bodies（DLB）**：**α-synuclein**堆積。",
-    "**Frontotemporal dementia（FTD）**：**tau、TDP-43或FUS**堆積（依亞型而異）。"
+    "**Frontotemporal dementia（FTD）**：**tau、TDP-43或FUS**堆積（依亞型而異）。",
+    "**有Lewy bodies**：Parkinson disease、Dementia with Lewy bodies（DLB）。",
+    "**無Lewy bodies**：Multiple systemic atrophy（MSA）。",
+    "Progressive supranuclear palsy（PSP）、frontotemporal lobar degeneration（FTLD-tau）、corticobasal degeneration（CBD）、Alzheimer disease（次發性tau，secondary tau）。",
+    "**Behavioral variant FTD**：雙側額葉（bilateral frontal lobes）。",
+    "**Semantic variant PPA**：左側顳葉（left temporal lobe）。",
+    "**Non-fluent variant PPA**：左側腦島與額葉蓋（left insula and frontal operculum, Broca area）。",
+    "**FTLD-tau（MAPT基因突變）**：雙側顳葉。",
+    "**FTLD-FUS**：雙側尾狀核（bilateral caudate nuclei）。",
+    "**FTLD-TDP（GRN基因突變）**：右側半球為主（markedly asymmetric）。",
+    "**FTLD-TDP（C9orf72基因突變）**：雙側半球（generalized）。"
   ],
   "management": "- 失智之診斷須整合臨床病史、神經心理評估、影像與生物標記，影像單獨不足以定論，屬多科整合判斷。\n- 影像的關鍵臨床價值在於排除可治療病因（如常壓性水腦、腫瘤、慢性硬腦膜下出血）並支持特定退化性診斷。\n- AD為最常見之退化性失智，DLB與FTD各有臨床表型（波動性認知/視幻覺、行為/語言障礙）對應不同蛋白病理。\n- 血管危險因子（高血壓、糖尿病）之控制與血管性失智之進展相關，具可介入性。\n- 標準化、疾病導向之影像報告可提升跨科溝通效率與診斷準確度，為臨床照護品質之一環。",
   "name": "Dementia — Proteinopathy Classification & Vascular Dementia Imaging Markers",

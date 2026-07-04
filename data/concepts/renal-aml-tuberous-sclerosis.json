@@ -15,7 +15,7 @@
     "**乏脂肪型 AML（fat-poor AML）**：以平滑肌為主，呈平掃 CT 高密度、T2 低訊號、明顯強化，影像上與 RCC 重疊、難以鑑別。",
     "**TSC 為體染色體顯性遺傳**，男女機率相當，無明顯性別差異。"
   ],
-  "management": "1. TSC 為體染色體顯性遺傳（TSC1/TSC2），腎表現包括多發雙側 AML 與腎囊腫。\n2. TSC 相關 AML 常較大、易出血，且可合併肺淋巴管肌瘤病（LAM）。\n3. 小型典型 AML 多可觀察追蹤；大型或高風險病灶考慮栓塞、消融或切除。\n4. TSC 或 LAM 相關 AML 可用 mTOR 抑制劑（如 everolimus）縮小腫瘤。\n5. AML 首選相關疾病為 TSC，而非 VHL（RCC/血管母細胞瘤）或 NF1。\n\n> [!note] 考點：腎血管肌脂肪瘤（AML）最常與下列何者相關？\n> **結節性硬化症（Tuberous sclerosis）**。AML 與 TSC 關聯最強；VHL 對應 RCC、NF1 與 Sturge-Weber 非首選。",
+  "management": "1. TSC 為體染色體顯性遺傳（TSC1/TSC2），腎表現包括多發雙側 AML 與腎囊腫。\n2. TSC 相關 AML 常較大、易出血，且可合併肺淋巴管肌瘤病（LAM）。\n3. 小型典型 AML 多可觀察追蹤；大型或高風險病灶考慮栓塞、消融或切除。\n4. TSC 或 LAM 相關 AML 可用 mTOR 抑制劑（如 everolimus）縮小腫瘤。\n5. AML 首選相關疾病為 TSC，而非 VHL（RCC/血管母細胞瘤）或 NF1。\n\n> [!note] 考點：腎血管肌脂肪瘤（AML）最常與下列何者相關？\n> **結節性硬化症（Tuberous sclerosis）**。AML 與 TSC 關聯最強；VHL 對應 RCC、NF1 與 Sturge-Weber 非首選。\n\n**參考來源**\n: 據 PubMed，Lubner MG, et al. Spectrum of Renal Angiomyolipoma with Radiologic-Pathologic Correlation. RadioGraphics. 2025;45(7):e240159. [10.1148/rg.240159](https://doi.org/10.1148/rg.240159)。\n\n> [!question]- Renal angiomyolipoma (AML) is most commonly associated with which condition? (2019-326)\n> **B. Tuberous sclerosis**。AML 與 TSC 關聯最強，TSC 病人 AML 常多發雙側。\n\n> [!question]- 下列關於 tuberous sclerosis complex 的敘述，何者為誤？（2019-442）\n> **「好發於女性」為誤**。TSC 為體染色體顯性遺傳，男女機率相當，無明顯性別差異；常伴腎囊腫、雙側腎 AML。",
   "name": "Renal Angiomyolipoma & Tuberous Sclerosis",
   "nameZh": "腎血管肌脂肪瘤",
   "slug": "renal-aml-tuberous-sclerosis",

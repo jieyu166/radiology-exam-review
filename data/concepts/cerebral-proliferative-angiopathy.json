@@ -16,7 +16,7 @@
     "**臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療**",
     "**常見表現**：頭痛、癲癇；較少以出血為初始表現"
   ],
-  "management": "- CPA 好發於年輕（平均約 22 歲）女性（約 67%）。\n- 臨床以癲癇、致失能頭痛、類中風症狀表現，出血性表現罕見。\n- 自然史顯示出血風險低，此點與典型腦 AVM 不同。\n- CPA 應視為與典型腦 AVM 不同的獨立臨床實體（血管構築、自然史、表現與治療皆異）。\n- 因正常腦組織夾雜其中，積極治療風險高、且不符合其良性自然史，故一般不予切除或立體定位放射治療。",
+  "management": "- CPA 好發於年輕（平均約 22 歲）女性（約 67%）。\n- 臨床以癲癇、致失能頭痛、類中風症狀表現，出血性表現罕見。\n- 自然史顯示出血風險低，此點與典型腦 AVM 不同。\n- CPA 應視為與典型腦 AVM 不同的獨立臨床實體（血管構築、自然史、表現與治療皆異）。\n- 因正常腦組織夾雜其中，積極治療風險高、且不符合其良性自然史，故一般不予切除或立體定位放射治療。\n\n**參考來源**\n: Osborn's Brain 2e P163-164；Lasjaunias P et al. Cerebral proliferative angiopathy. Stroke 2008;39(3):878-885.\n: **Tier 1** Lasjaunias PL, Landrieu P, Rodesch G, et al. *Cerebral proliferative angiopathy: clinical and angiographic description of an entity different from cerebral AVMs*. Stroke 2008;39(3):878-85（據 PubMed，DOI [10.1161/STROKEAHA.107.493080](https://doi.org/10.1161/STROKEAHA.107.493080)；實際查證 accessed 2026-07-04）——CPA 原始描述文獻（49 例）：斷層影像呈瀰漫強化血管網夾雜正常腦實質；血管攝影見大 nidus/小分流、無 flow-related aneurysm、多支細小供血與瀰漫血管新生；好發年輕女性、出血罕見、自然史良性故不建議積極切除。原文獻先前無 DOI 連結，已由本次 DOI Tier 1 查核升級。",
   "name": "Cerebral Proliferative Angiopathy",
   "nameZh": "腦增殖性血管病變",
   "slug": "cerebral-proliferative-angiopathy",

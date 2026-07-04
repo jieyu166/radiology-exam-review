@@ -12,7 +12,7 @@
     "**相關症候群**：**BASM（biliary atresia splenic malformation）**——合併 **polysplenia**、內臟位置異常等。",
     "**治療時效（核心）**：**Kasai portoenterostomy（肝門腸吻合）於 <2 個月執行暫時有效約 90%，>3 個月降至 <50%**；延誤者仍多需肝移植。"
   ],
-  "management": "1. **最常見手術性膽汁鬱積**：亞洲好發（中國/日本），須早診。\n2. **三徵**：triangular cord sign + ghost/異常膽囊 + HIDA 不排入腸道。\n3. **Kasai 時效**：<2 個月約 90% 暫效、>3 個月 <50%，越早越好。\n4. **鑑別**：與新生兒肝炎（HIDA 最終排出）、膽總管囊腫、Alagille、TPN 鬱積鑑別。\n5. **預後**：延誤 → 3 年內末期肝病/死亡；多數最終需肝移植。\n\n> [!note] 考點：關於膽道閉鎖之敘述何者正確？\n> **以上皆正確（D）**——膽道閉鎖為新生兒膽汁鬱積最常見原因且好發亞洲（中國/日本）嬰兒、通常出生後第一個月內表現且未治療約 3 年內進展至末期肝病死亡、2 個月大以前接受 Kasai 手術者長期預後較佳（暫效約 90%），皆為正確。",
+  "management": "1. **最常見手術性膽汁鬱積**：亞洲好發（中國/日本），須早診。\n2. **三徵**：triangular cord sign + ghost/異常膽囊 + HIDA 不排入腸道。\n3. **Kasai 時效**：<2 個月約 90% 暫效、>3 個月 <50%，越早越好。\n4. **鑑別**：與新生兒肝炎（HIDA 最終排出）、膽總管囊腫、Alagille、TPN 鬱積鑑別。\n5. **預後**：延誤 → 3 年內末期肝病/死亡；多數最終需肝移植。\n\n> [!note] 考點：關於膽道閉鎖之敘述何者正確？\n> **以上皆正確（D）**——膽道閉鎖為新生兒膽汁鬱積最常見原因且好發亞洲（中國/日本）嬰兒、通常出生後第一個月內表現且未治療約 3 年內進展至末期肝病死亡、2 個月大以前接受 Kasai 手術者長期預後較佳（暫效約 90%），皆為正確。\n\n**參考來源**\n: *Biliary Atresia* (Dx). STATdx, updated 08/25/25. Elsevier——extrahepatic biliary tree 缺如/嚴重不足；**triangular cord sign**（門靜脈分叉前方增厚高回音三角索）；**膽囊常缺如/異常（\"ghost GB\"、小/不規則）**；**HIDA 肝攝取好但不排入腸道**；**Kasai <2 月暫效 90%、>3 月 <50%**；合併 **polysplenia（BASM）**。\n: 官方 2020 詳解；Ref: Caffey's Pediatric Diagnostic Imaging 13th ed. Ch.87, pp.810-815（題目所引）——膽道閉鎖為新生兒膽汁鬱積最常見原因、亞洲（中國/日本）較常見；出生第一個月內表現、未治療 3 年內進展至末期肝病死亡；2 個月大前接受 Kasai 預後較佳（結論已由上述 STATdx 一手來源查核佐證）。",
   "name": "Biliary Atresia",
   "nameZh": "膽道閉鎖",
   "slug": "biliary-atresia",

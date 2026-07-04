@@ -21,7 +21,7 @@
     "**影像處理技術**：以 **bandwidth receive filtering、pulse inversion、side-by-side phase cancellation、pulse-coded harmonics** 消除基頻回音、僅取諧波成像。",
     "**Differential THI**：結合 THI 之組織清晰/減少 speckle 與「低頻穿透」→ 於更深處仍能高品質諧波成像。"
   ],
-  "management": "1. **第二諧波**：頻率 2×、波長減半。\n2. **機轉**：非線性傳播致波形扭曲產生諧波。\n3. **優勢**：對比解析度佳、旁瓣/混響少。\n4. **適用**：肥胖/困難掃描病人。\n5. **反比**：頻率 n 倍 → 波長 1/n。\n\n> [!note] 考點：使用超音波諧波(harmonics)，波長會如何變化?\n> **減半（It is halved，B）**——第二諧波頻率為基頻兩倍，波長依反比關係變為基頻的一半（非四倍、非四分之一、非兩倍）。",
+  "management": "1. **第二諧波**：頻率 2×、波長減半。\n2. **機轉**：非線性傳播致波形扭曲產生諧波。\n3. **優勢**：對比解析度佳、旁瓣/混響少。\n4. **適用**：肥胖/困難掃描病人。\n5. **反比**：頻率 n 倍 → 波長 1/n。\n\n> [!note] 考點：使用超音波諧波(harmonics)，波長會如何變化?\n> **減半（It is halved，B）**——第二諧波頻率為基頻兩倍，波長依反比關係變為基頻的一半（非四倍、非四分之一、非兩倍）。\n\n**參考來源**\n: 官方 2017 詳解；Ref: 超音波物理標準教材（Abdomen 100 question exam；題目所引）——諧波序列頻率與波長成反比，第二諧波頻率 2 倍對應波長減半（1/2）。\n: *Harmonic imaging*. Radiopaedia.org, rID-25238, DOI 10.53347/rID-25238（輔助來源）——THI 利用**非線性傳播**（高壓部分傳播較快致波形扭曲）產生**諧波（基頻倍數）**；**第二諧波＝基頻兩倍**（振幅最大之可用諧波）；影像品質優於傳統（對比解析度佳、偽影少）；諧波隨深度先增後減。\n: **Tier 1** Anvari A, Forsberg F, Samir AE. *A Primer on the Physical Principles of Tissue Harmonic Imaging*. RadioGraphics 2015;35(7):1955-1964（據 PubMed，DOI [10.1148/rg.2015140338](https://doi.org/10.1148/rg.2015140338)，實際查證 accessed 2026-07-03）——THI 以非線性基頻傳播產生之高頻諧波成像、偽影較傳統少；**諧波頻率為基頻之整數倍**、目前系統多用**第二諧波**；以 bandwidth receive filtering/pulse inversion/side-by-side phase cancellation/pulse-coded harmonics 消除基頻回音；優勢＝**SNR 改善、減少 side lobes/grating lobes/reverberation**；**differential THI** 結合 THI 優勢與低頻穿透、可於更深處高品質成像。原「官方 2017 詳解／Radiopaedia only」弱來源已由本次 Tier 1 RadioGraphics 查核升級。",
   "name": "Ultrasound Tissue Harmonic Imaging",
   "nameZh": "組織諧波影像",
   "slug": "ultrasound-harmonics",

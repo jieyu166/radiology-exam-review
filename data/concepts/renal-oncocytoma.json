@@ -43,7 +43,15 @@
     "**CT 強化**:富血管,皮髓質期可見明顯強化;但因細胞性(高細胞 vs 低細胞富間質)與囊變/出血不同,強化型態變異大,延遲期常呈不均質。",
     "**中央星狀疤痕**:對應中央纖維化與壓迫血管;T1/T2 皆呈低訊號的星狀區,強化掃描中央不強化。**判讀陷阱**:此疤痕亦見於 chromophobe RCC 與部分 clear cell RCC,**並非 oncocytoma 專屬**;且小腫瘤(<3 cm)常無疤痕(需腫瘤長大超過供血才形成),故對小腫瘤不可靠。",
     "**MRI**:典型 T1 低訊號、T2 高訊號(部分系列 T2 偏低,與 papillary RCC 重疊),中央疤痕 T1/T2 低訊號、注射 gadolinium 後均質強化但疤痕不強化。",
-    "**血管攝影 spoke-wheel**:輻輪狀供血 ＋ 均質 nephrogram ＋ 銳利平滑外緣;但**非 pathognomonic**,亦見於 RCC,故「bizarre neoplastic vessels＋AV shunting」屬 **RCC** 特徵(2016-095 正解 D),oncocytoma 沒有。"
+    "**血管攝影 spoke-wheel**:輻輪狀供血 ＋ 均質 nephrogram ＋ 銳利平滑外緣;但**非 pathognomonic**,亦見於 RCC,故「bizarre neoplastic vessels＋AV shunting」屬 **RCC** 特徵(2016-095 正解 D),oncocytoma 沒有。",
+    "**定義**:腫瘤內兩個區域在皮髓質期呈不同強化程度,到 nephrographic/早期排泄期強化高低**互換反轉**(原本高強化區變低、原本低強化區變高);推測反映瘤內透明變性間質含量不同。",
+    "**小腫瘤(1.5–2.9 cm)較常見**,文獻盛行率約 63–80%,但亦有低至 6.3% 的報告,偵測率變異大;隨腫瘤增大盛行率下降。",
+    "**證據限度**:特異度報告 87–100%,但**chromophobe RCC 亦可出現 SEI**;AJR 研究結論認為 SEI **不足以作為 oncocytoma 的可靠非侵入性診斷依據**,仍需病理確認。",
+    "影像所見大幅與 clear cell RCC、非透明細胞 RCC(尤 **chromophobe RCC**)重疊;MRI 系列研究顯示 oncocytoma 與 chromophobe RCC 在大小及多項定性影像特徵上**無顯著差異**。",
+    "故**不可單憑影像確診良性**;典型徵象(疤痕、spoke-wheel、SEI)皆非專屬,臨床多走切除或經皮切片確診;且 oncocytoma 可多發並與 RCC 共存,更增不確定性。",
+    "**chromophobe RCC**:最難分;同樣邊界清楚、強化低於腎皮質,亦可有中央疤痕與 SEI;影像幾乎無法區分,組織學/免疫染色才能定論。",
+    "**clear cell RCC**:典型富血管、強化更不均、常見壞死/出血;可有 chemical-shift 訊號掉落(胞內脂質),與 oncocytoma 的富血管均質強化部分重疊。",
+    "**fat-poor(minimal-fat)AML**:無肉眼脂肪者最難與惡性區分;chemical-shift MRI 可偵測 CT 看不到的微量脂肪,但 clear cell RCC 也可因胞內脂質出現反相位訊號掉落 → 重疊。鑑別線索:AML 多 **T2 低訊號且反相位無訊號掉落**,RCC 反之;但無脂肪 AML 與非透明細胞 RCC 在 CT/MRI 上常難區分。"
   ],
   "management": "",
   "name": "Renal Oncocytoma",

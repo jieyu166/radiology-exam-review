@@ -15,7 +15,7 @@
     "**MRI 優勢**：可做各腔室/血管之**血行動力學（血流量、分流、瓣膜逆流）量測**，且**心肌組織特性（tissue characterization、延遲強化）優於 CT**、無輻射；缺點為費時、幼兒常需鎮靜。",
     "**劑量進展**：心臟 CT 以**管電壓/電流調控、prospective ECG-gating、高 pitch** 可將劑量降至 **<1 mSv**。"
   ],
-  "management": "1. **兒童對輻射較敏感**，故模態選擇須權衡資訊價值與劑量（ALARA），能用 echo/MRI 解決者優先。\n2. **需要重複追蹤**之 CHD（如術後長期監測）傾向 **MRI（無輻射）**；急性或需高解析解剖則 CT。\n3. **CT 劑量調控技術**（<1 mSv）使其在幼兒冠狀動脈/血管評估之角色提升。\n4. **MRI 需鎮靜/麻醉**於幼兒，須考量風險與掃描時間；CT 快、常免鎮靜。\n5. 判讀 CHD 影像應先釐清「臨床要回答什麼」，再選最能回答且劑量最低之模態，並善用多模態互補。\n\n> [!note] 考點：小兒先天性心臟病心血管影像描述何者錯誤？\n> **以上四項描述都沒有錯誤（E）**——CT 空間解析度最高、適合找細小構造（冠狀動脈異常）；MRI 於心肌組織特性與血行動力學測量優於 CT；現代心臟 CT 劑量調控可降至 <1 mSv，皆為正確敘述。",
+  "management": "1. **兒童對輻射較敏感**，故模態選擇須權衡資訊價值與劑量（ALARA），能用 echo/MRI 解決者優先。\n2. **需要重複追蹤**之 CHD（如術後長期監測）傾向 **MRI（無輻射）**；急性或需高解析解剖則 CT。\n3. **CT 劑量調控技術**（<1 mSv）使其在幼兒冠狀動脈/血管評估之角色提升。\n4. **MRI 需鎮靜/麻醉**於幼兒，須考量風險與掃描時間；CT 快、常免鎮靜。\n5. 判讀 CHD 影像應先釐清「臨床要回答什麼」，再選最能回答且劑量最低之模態，並善用多模態互補。\n\n> [!note] 考點：小兒先天性心臟病心血管影像描述何者錯誤？\n> **以上四項描述都沒有錯誤（E）**——CT 空間解析度最高、適合找細小構造（冠狀動脈異常）；MRI 於心肌組織特性與血行動力學測量優於 CT；現代心臟 CT 劑量調控可降至 <1 mSv，皆為正確敘述。\n\n**參考來源**\n: Yang DH, et al. *2017 Multimodality Appropriate Use Criteria for Noninvasive Cardiac Imaging: Expert Consensus of the Asian Society of Cardiovascular Imaging*. Korean J Radiol 2017;18(6):871-880, DOI 10.3348/kjr.2017.18.6.871（PMID 29089819, PMC5639152；accessed 2026-07-03）——四大非侵襲工具（echo/CT/MRI/核醫）；**CT 空間解析度最高、適合冠狀動脈異常等細小構造；MRI 於心肌組織特性與血行動力學量測優於 CT；現代心臟 CT 劑量調控可 <1 mSv**；模態選擇採問題導向、ALARA、多模態互補之 appropriate use 共識。原「官方 2020 詳解」弱標記已由此一手來源查核佐證。",
   "name": "Pediatric Cardiac Imaging — Modality Selection (CHD)",
   "nameZh": "小兒先天性心臟病影像模式選擇",
   "slug": "pediatric-cardiac-imaging-modality-selection",

@@ -14,7 +14,7 @@
     "**CT表現**：約**2/3**於非顯影CT呈**高密度(hyperdense)**。",
     "**MRI表現**：約**2/3**於T1WI呈**高訊號(hyperintense)**。"
   ],
-  "management": "- 膠樣囊腫多為偶然發現，但因位於Monro氏孔可致急性阻塞性水腦。\n- 典型症狀為姿勢相關之陣發性頭痛，源自間歇性腦脊髓液阻塞。\n- 少數病例可因急性阻塞導致意識驟變甚至猝死。\n- 較大體積與年輕病人為阻塞性腦室擴大之危險因子，需納入處置考量。\n- 有症狀或高阻塞風險者可考慮手術切除或腦室引流。",
+  "management": "- 膠樣囊腫多為偶然發現，但因位於Monro氏孔可致急性阻塞性水腦。\n- 典型症狀為姿勢相關之陣發性頭痛，源自間歇性腦脊髓液阻塞。\n- 少數病例可因急性阻塞導致意識驟變甚至猝死。\n- 較大體積與年輕病人為阻塞性腦室擴大之危險因子，需納入處置考量。\n- 有症狀或高阻塞風險者可考慮手術切除或腦室引流。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.612-613（2018 交換考題詳解 p.199 引用；Tier 2 教科書）。膠樣囊腫大多位於Monro氏孔；約2/3非顯影CT呈高密度；約2/3 T1WI呈高訊號。\n: **Tier 1** Khanpara SD, Day AL, Bhattacharjee MB, Riascos RF, Fernelius JP, Westmark KD. *The Variable Appearance of Third Ventricular Colloid Cysts: Correlation with Histopathology and the Risk of Obstructive Ventriculomegaly*. AJNR Am J Neuroradiol 2020;41(10):1833-1840（據 PubMed，DOI [10.3174/ajnr.A6722](https://doi.org/10.3174/ajnr.A6722)；實際查證 accessed 2026-07-04）——同儕審查影像病理對照研究，指出T2-FLAIR高訊號之膠樣囊腫與較大體積、較年輕病人及較高阻塞性腦室擴大風險相關，且高訊號緣不代表囊壁增厚，佐證本卡阻塞風險判讀與MRI訊號多變之重點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。",
   "name": "Colloid Cyst",
   "nameZh": "膠樣囊腫",
   "slug": "colloid-cyst",

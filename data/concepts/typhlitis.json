@@ -15,7 +15,7 @@
     "**CT 特徵**：盲腸壁增厚（常 >3 mm）、腸壁水腫呈低密度、周圍脂肪浸潤（fat stranding）、腹水；嚴重者見**腸壁積氣（pneumatosis）**。",
     "**併發症與治療**：可穿孔、出血、敗血症；治療以保守為主（廣效抗生素＋腸道休息、支持），穿孔/壞死/大出血才手術。"
   ],
-  "management": "1. 典型於化療後 ANC 低下期出現右下腹痛、發燒、腹瀉（可血便）。\n2. 屬臨床急症，延誤可致穿孔、敗血症、死亡。\n3. 診斷結合 neutropenia 病史＋影像，通常避免侵入性大腸鏡（穿孔風險）。\n4. 治療以廣效抗生素、腸道休息、G-CSF 支持為主。\n5. 白血球回升後多可緩解；反覆化療者可能復發。\n\n> [!note] 考點：化療後嗜中性白血球減少病人「最常見」的是下列何疾病？\n> **Typhlitis（B）**——neutropenic enterocolitis 為此族群最常見且重要的腸道併發症；ischemic colitis 好發年長者、radiation colitis 需放療史、GVHD 需骨髓移植史。",
+  "management": "1. 典型於化療後 ANC 低下期出現右下腹痛、發燒、腹瀉（可血便）。\n2. 屬臨床急症，延誤可致穿孔、敗血症、死亡。\n3. 診斷結合 neutropenia 病史＋影像，通常避免侵入性大腸鏡（穿孔風險）。\n4. 治療以廣效抗生素、腸道休息、G-CSF 支持為主。\n5. 白血球回升後多可緩解；反覆化療者可能復發。\n\n> [!note] 考點：化療後嗜中性白血球減少病人「最常見」的是下列何疾病？\n> **Typhlitis（B）**——neutropenic enterocolitis 為此族群最常見且重要的腸道併發症；ischemic colitis 好發年長者、radiation colitis 需放療史、GVHD 需骨髓移植史。\n\n**參考來源**\n: 據 PubMed，Purysko AS、Remer EM、Leão Filho HM、Bittencourt LK、Lima RV、Racy DJ，*Beyond appendicitis: common and uncommon gastrointestinal causes of right lower quadrant abdominal pain at multidetector CT*，RadioGraphics 2011;31(4):927-47，[DOI](https://doi.org/10.1148/rg.314105065)——typhlitis（neutropenic enterocolitis）為免疫抑制/化療 neutropenia 病人右下腹痛之重要病因，以盲腸為主之壁增厚、脂肪浸潤，可有 pneumatosis；MDCT 為右下腹痛評估首選並助與其他迴盲部疾病鑑別。\n\n> [!question]- Which of the following diseases is MOST frequently seen in patients with neutropenia who are undergoing chemotherapy? (2019-523)\n> **Typhlitis（B）**——化療後 neutropenia 病人最常見的腸道併發症；ischemic colitis、radiation colitis、GVHD 各需相應病史，非首位。",
   "name": "Typhlitis (Neutropenic Enterocolitis)",
   "nameZh": "嗜中性白血球減少性腸炎",
   "slug": "typhlitis",

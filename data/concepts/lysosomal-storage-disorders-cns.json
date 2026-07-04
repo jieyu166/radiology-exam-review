@@ -17,7 +17,7 @@
     "**溶酶體儲積症**：黏多醣症(mucopolysaccharidoses)、異染性腦白質失養症(metachromatic leukodystrophy)、Krabbe氏病、Gaucher disease、Niemann-Pick disease、Fabry disease等，皆屬溶酶體儲積症。",
     "**Kearns-Sayre症候群為粒線體疾病**：非溶酶體儲積症；粒線體疾病影響範圍較侷限，僅在特定組織(多為肌肉、中樞神經系統)發現粒線體基因缺失，臨床最常見表現為外眼肌麻痺(ophthalmoplegia)及眼底色素性視網膜病變。"
   ],
-  "management": "- 溶酶體儲積症為酵素缺陷導致受質堆積的一群體染色體隱性遺傳代謝疾病（MPS II 為 X 染色體性聯）。\n- 神經退化、發展遲緩與智能退化為多數具 CNS 侵犯型別的共同臨床特徵。\n- MPS 典型全身表現包含臟器腫大、多發性骨發育不良（dysostosis multiplex）與短軀幹侏儒。\n- 顱頸交界狹窄與脊髓壓迫是 MPS 需及早偵測與介入的重要併發症。\n- 影像對疾病嚴重度的相關性仍具爭議，目前尚無公認的影像生物標記。",
+  "management": "- 溶酶體儲積症為酵素缺陷導致受質堆積的一群體染色體隱性遺傳代謝疾病（MPS II 為 X 染色體性聯）。\n- 神經退化、發展遲緩與智能退化為多數具 CNS 侵犯型別的共同臨床特徵。\n- MPS 典型全身表現包含臟器腫大、多發性骨發育不良（dysostosis multiplex）與短軀幹侏儒。\n- 顱頸交界狹窄與脊髓壓迫是 MPS 需及早偵測與介入的重要併發症。\n- 影像對疾病嚴重度的相關性仍具爭議，目前尚無公認的影像生物標記。\n\n**參考來源**\n: *Diagnostic Imaging, Brain*, 3rd edition, p.773（2018 交換考題詳解 p.191 引用；Tier 2 教科書）。Kearns-Sayre症候群為粒線體疾病(外眼肌麻痺+眼底色素沉積)，非溶酶體儲積症；黏多醣症/異染性腦白質失養症/Krabbe/Gaucher/Niemann-Pick/Fabry皆為溶酶體儲積症。\n: **Tier 1** Rieger D, Auerbach S, Robinson P, Gropman A. *Neuroimaging of lipid storage disorders*. Dev Disabil Res Rev 2013;17(3):269-282（據 PubMed，DOI [10.1002/ddrr.1120](https://doi.org/10.1002/ddrr.1120)；實際查證 accessed 2026-07-04）——回顧脂質/溶酶體儲積症之神經影像：MRI、MRS、DTI 應用，MLD 之 tigroid 型態、Krabbe 之白質與齒狀核侵犯等，佐證此群疾病之 CNS 影像判讀重點。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。\n: **Tier 1** Nicolas-Jilwan M, AlSayed M. *Mucopolysaccharidoses: overview of neuroimaging manifestations*. Pediatr Radiol 2018;48(10):1503-1520（據 PubMed，DOI [10.1007/s00247-018-4139-3](https://doi.org/10.1007/s00247-018-4139-3)；實際查證 accessed 2026-07-04）——黏多醣症神經影像回顧：擴大血管周圍腔、白質病變、腦萎縮、腦積水、顱頸交界狹窄與脊髓壓迫，並說明影像於監測進展與及時介入之角色。",
   "name": "Lysosomal Storage Disorders — CNS",
   "nameZh": "溶酶體儲積症",
   "slug": "lysosomal-storage-disorders-cns",

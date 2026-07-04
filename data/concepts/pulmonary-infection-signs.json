@@ -9,7 +9,20 @@
     }
   ],
   "imagingFindings": "",
-  "keyPoints": [],
+  "keyPoints": [
+    "**Air crescent sign**：空洞壁與腔內團塊之間的**空氣新月**;典型為 **angioinvasive aspergillosis 的『復原期』**（免疫恢復→壞死組織回縮）→ **好預後徵象、約 50% 病人可見**;亦見於 hydatid、TB（Rasmussen aneurysm）、abscess。",
+    "**Monod sign**：既存肺空洞內**可動的真菌球（mycetoma/aspergilloma）**周圍的空氣;典型**免疫正常**病人。",
+    "**Halo sign（CT）**：結節/腫塊/實變周圍一圈**毛玻璃**（出血/水腫）;典型 **angioinvasive aspergillosis（早期）**,亦見其他感染、GPA、出血性轉移。",
+    "⚠ **時效（2024 Fleischner glossary）**：**air crescent 已定為涵蓋『可動腔內真菌球』與『復原期回縮梗塞肺』的傘狀首選術語**——故 air crescent 與 Monod 在新版術語下趨於統一。",
+    "**Water-lily（camalote）sign**：**包蟲囊（hydatid）**破裂後剝離的內膜漂浮於殘餘囊液上。",
+    "**Signet ring（paragonimiasis）**：肺吸蟲晚期囊洞±周圍出血偶似戒指,但少用;**CT 上 signet ring sign 主要指『支氣管擴張』**（見下）。",
+    "**Tree-in-bud sign（CT）**：多發**小葉中心微結節呈線狀分枝**（如萌芽樹）;**初描述於支氣管內結核**,現見多種感染（TB/NTM、氣道散播）——**非特異**,須找近端有無病灶。詳見 [[tree-in-bud]]。",
+    "**Finger-in-glove sign**：中央支氣管**黏液栓塞**呈指套狀（自肺門向外的管狀分枝陰影）;典型 **ABPA（過敏性支氣管肺麴菌病）**,亦見 endobronchial 阻塞/atresia;X 光與 CT 皆可見。",
+    "**Signet ring sign（CT＝支氣管擴張）**：擴張支氣管（環）＋較小的伴行肺動脈（戒面）,bronchoarterial ratio >1;**非 paragonimiasis 早期表現**（考題陷阱）。",
+    "**Bulging fissure sign**：**滲出性肺葉實變快速脹大、推擠相鄰葉裂外凸**;發炎劇烈、常進展為 necrotizing pneumonia;典型 **Klebsiella RUL pneumonia**（現及時治療已少見;其他病原亦可）。",
+    "**Steeple sign**：上段（subglottic）氣管變窄如教堂尖塔;典型 **croup（哮吼）**。",
+    "**Feeding vessel sign**：血管直接連到結節/腫塊 → **血行來源**;**septic pulmonary emboli**（常見、非罕見）、angioinvasive aspergillosis、AVM、vasculitis。詳見 [[septic-pulmonary-emboli]]。"
+  ],
   "management": "",
   "name": "Signs in Pulmonary Infection (CXR/CT)",
   "nameZh": "肺感染徵象",

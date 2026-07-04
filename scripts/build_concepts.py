@@ -111,17 +111,18 @@ def parse_frontmatter(raw: str):
 
 def split_sections(body: str):
     """把 body 依 ## / ### 標題切段。回傳 (lead, sections)。
-    lead = 第一個標題前的內容（含導讀粗體）；sections = [(header_text, content_str)]。
+    lead = 第一個標題前的內容（含導讀粗體）；sections = [(header_text, level, content_str)]。
     """
     lines = body.splitlines()
     lead_lines, sections = [], []
-    cur_header, cur_buf = None, []
+    cur_header, cur_level, cur_buf = None, 0, []
     for line in lines:
         hm = re.match(r"^(#{2,3})\s+(.*)$", line)
         if hm:
             if cur_header is not None:
-                sections.append((cur_header, "\n".join(cur_buf).strip()))
+                sections.append((cur_header, cur_level, "\n".join(cur_buf).strip()))
             cur_header = hm.group(2).strip()
+            cur_level = len(hm.group(1))
             cur_buf = []
         else:
             if cur_header is None:
@@ -129,15 +130,26 @@ def split_sections(body: str):
             else:
                 cur_buf.append(line)
     if cur_header is not None:
-        sections.append((cur_header, "\n".join(cur_buf).strip()))
+        sections.append((cur_header, cur_level, "\n".join(cur_buf).strip()))
     return "\n".join(lead_lines).strip(), sections
 
 
 def find_section(sections, *keywords):
-    """回傳第一個 header 含任一 keyword 的段落內容；找不到回空字串。"""
-    for header, content in sections:
+    """回傳第一個 header 含任一 keyword 的段落內容，並『包含其巢狀較深標題的子段落』
+    （直到遇到同層或更高層標題為止），以免內容放在 ### 子標題下被漏抓。找不到回空字串。"""
+    for i, (header, level, content) in enumerate(sections):
         if any(k in header for k in keywords):
-            return content
+            parts = [content] if content.strip() else []
+            j = i + 1
+            while j < len(sections) and sections[j][1] > level:
+                chdr, _clvl, ccontent = sections[j]
+                block = ("**%s**" % chdr) if chdr else ""
+                if ccontent.strip():
+                    block = (block + "\n" + ccontent) if block else ccontent
+                if block.strip():
+                    parts.append(block)
+                j += 1
+            return "\n\n".join(parts)
     return ""
 
 
