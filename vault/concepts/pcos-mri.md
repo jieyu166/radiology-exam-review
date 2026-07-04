@@ -21,11 +21,26 @@ dateRev: 2026-06-15
 - **多為雙側**。[^1]（選項 C 典型）
 - MRI 非常規（多以超音波＋臨床/內分泌診斷），但可見上述特徵。[^1]
 
+## 放射科醫師影像判讀重點
+- **US 為影像主力（Lee & Rausch）**：**經陰道 US 為評估疑似 PCOS 卵巢之關鍵**；報告應**明列雙側卵巢體積與 antral follicle count（AFC）**，並註明有無 dominant follicle/corpus luteum（會影響判讀）。[^3]
+- **形態徵（考點）**：**濾泡呈周邊環狀排列（string of pearls/necklace sign）、大小相近 2–9 mm＋中央 stroma 增多**；「濾泡位於中央」非典型（陷阱）。[^1]
+- **診斷閾**：**單卵巢 ≥12 個 2–9 mm 濾泡或卵巢體積 >10 mL**（Rotterdam 影像標準之一）——但須注意閾值隨指引更新。[^1][^3]
+- **關鍵警語（Lee & Rausch）**：**「polycystic ovaries」影像所見常見於正常婦女、且常與 PCOS 無關**——PCOS 為臨床＋內分泌＋影像之綜合診斷，不可單憑卵巢形態逕判。[^3]
+- **偶發處理**：因常於其他婦科 US 偶見多囊卵巢，放射科應知現行診斷準則、於高風險（排卵障礙/高雄性素）者才提示可能 PCOS。[^3]
+
+## 臨床重點（5 句）
+1. **流行病學（Lee & Rausch）**：**PCOS 為育齡婦女最常見之內分泌異常**。[^3]
+2. **診斷準則**：Rotterdam 準則三取二——**排卵稀少/無排卵、高雄性素（臨床或生化）、多囊卵巢形態**；影像僅為其一。[^1][^3]
+3. **健康風險（Lee & Rausch）**：**不孕、子宮內膜增生（乃至內膜癌）、第二型糖尿病、心血管疾病**——PCOS 非僅生殖問題。[^3]
+4. **臨床表現**：月經不規則、多毛、痤瘡、肥胖/胰島素阻抗；青春期後漸顯。[^1][^3]
+5. **處置**：生活型態調整、口服避孕藥調經抗雄性素、metformin 改善胰島素阻抗、排卵誘導助孕；並監測代謝與內膜風險。[^3]
+
 > [!note] 考點：何者「非」典型？
 > 「**濾泡位於卵巢中央**」非典型——PCOS 濾泡呈**周邊**排列（string of pearls）。卵巢增大、雙側為典型。[^1]
 
 ### 參考來源
 [^1]: *Polycystic ovarian syndrome*. Radiopaedia.org。濾泡周邊排列（string of pearls）、大小相近 2–9 mm、中央 stroma 高回音、卵巢增大、多雙側（實際查證 accessed 2026-06-15）。題目另引 Hricak《Diagnostic Imaging: Gynecology》。
+[^3]: **Tier 1** Lee TT, Rausch ME. *Polycystic ovarian syndrome: role of imaging in diagnosis*. RadioGraphics 2012;32(6):1643-57（據 PubMed，DOI [10.1148/rg.326125503](https://doi.org/10.1148/rg.326125503)；Review；實際查證 accessed 2026-07-04）——**PCOS 為育齡婦女最常見內分泌異常，帶來不孕、內膜增生、糖尿病、心血管疾病風險**；**卵巢影像（尤經陰道 US）為評估關鍵，報告應含卵巢體積與 antral follicle count 及 dominant follicle/corpus luteum**；強調**多囊卵巢形態常見於正常婦女且常與 PCOS 無關**，放射科須知現行診斷準則、於排卵障礙/高雄性素者才提示。佐證 US 主力、報告參數與「形態≠診斷」之判讀。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

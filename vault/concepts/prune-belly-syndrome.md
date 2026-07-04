@@ -52,6 +52,13 @@ dateRev: 2026-06-29
 > - **後尿道瓣膜（PUV）**：同有下泌尿道阻塞/巨膀胱,但 **PUV 膀胱多小樑化/壁增厚＋憩室**、VCUG 見 **keyhole sign（後尿道擴張＋膀胱頸）為真阻塞**;prune belly 膀胱**大而壁相對光滑、不小樑化**,且具腹壁肌缺損＋雙側隱睪三聯,前尿道常為 megalourethra（非瓣膜性阻塞）。[^2][^3][^4]
 > - **megacystis-microcolon-intestinal hypoperistalsis syndrome（MMIHS）**：亦巨膀胱,但**多為女嬰、合併羊水過多（polyhydramnios）＋微結腸/腸蠕動低下**,與 prune belly（男嬰、羊水過少）相反。[^4]
 
+## 臨床重點（5 句）
+1. **本質與命名**：又名 **Eagle-Barrett / triad syndrome**，罕見先天畸形，幾乎僅見男嬰（~95%）。[^1][^3]
+2. **周產期預後（羊水過少鏈）**：泌尿道嚴重擴張＋腎發育不良→**羊水過少→肺發育不良（Potter 序列）為周產期主要死因**。[^3]
+3. **影像檢查路徑（Berrocal）**：**疑下泌尿道結構異常先以篩檢 US；證實擴張→VCUG 查 VUR 與下段阻塞；排除 VUR 後以利尿腎圖區分阻塞性/非阻塞性 megaureter**；CT/MR 非篩檢但提供解剖細節、MR 為評估脊椎相關異常必需。[^5]
+4. **合併異常**：肺發育不良（~58%）、骨骼（~22%）、腸胃道（中腸旋轉不良等 ~24%）、心臟（~25%）——需系統性評估。[^2][^3]
+5. **處置與長期**：依腎功能與阻塞程度處置（引流、腹壁重建、睪丸固定術）；長期須監測腎功能、VUR、感染與生育。[^3][^4]
+
 > [!note] 考點：何者「不」屬 prune belly 三聯?
 > **Spina bifida（脊柱裂）**。三聯＝腹壁肌發育不良、hydroureteronephrosis、隱睪。[^1]
 
@@ -59,6 +66,7 @@ dateRev: 2026-06-29
 [^1]: *Prune belly syndrome*. Radiopaedia.org（實際查證 accessed 2026-06-17）：三聯＝**腎盂輸尿管擴張+腎發育不良、前腹壁發育不良（prune belly）、雙側隱睪**;又名 Eagle-Barrett / triad syndrome;幾乎只見男嬰。免費公開層級。
 [^2]: *Prune Belly Syndrome*. StatPearls, NCBI Bookshelf（NBK544248,accessed 2026-06-28）：三聯＝腹壁肌缺損、隱睪、泌尿道異常;影像見 hydronephrosis、distended bladder、renal dysplasia;patent urachus 約 20–50%;鑑別含後尿道瓣膜。免費公開層級。
 [^3]: *Prune Belly Syndrome*. Pediatricimaging.org（accessed 2026-06-28）：US 見 megacystis、megaureter（遠端>近端）、hydroureteronephrosis、renal dysplasia（約 50%）;VCUG 見 dilated prostatic urethra、寬膀胱頸、VUR（約 75%,多雙側）;男性約 95%;合併肺發育不良（58%,羊水過少）、骨骼（22%）、腸胃道（24%,含中腸旋轉不良）、心臟（25%）異常;鑑別後尿道瓣膜。免費公開層級。
+[^5]: **Tier 1** Berrocal T, López-Pereira P, Arjonilla A, Gutiérrez J. *Anomalies of the distal ureter, bladder, and urethra in children: embryologic, radiologic, and pathologic features*. RadioGraphics 2002;22(5):1139-64（據 PubMed，DOI [10.1148/radiographics.22.5.g02se101139](https://doi.org/10.1148/radiographics.22.5.g02se101139)；Review；實際查證 accessed 2026-07-04）——兒童下泌尿道先天異常之影像途徑：**篩檢 US→證實擴張則 VCUG 查 VUR 及上尿路擴張成因→VUR 陽性以核醫膀胱攝影追蹤、陰性則以利尿腎圖區分阻塞/非阻塞 megaureter→IVU 定位阻塞/重複腎盂/輸尿管膨出→CT/MR 非篩檢但提供解剖細節、MR 為評估脊椎異常必需、MR urography 顯示異位輸尿管插入**。佐證 prune belly 等下泌尿道異常之系統化影像評估路徑。原「Radiopaedia/StatPearls/教科書」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 [^4]: *Prune Belly Syndrome*, Pediatric Urology Book（pediatricurologybook.com, ch. 04-27, accessed 2026-06-29）：前尿道約 70% 異常,以 scaphoid megalourethra（spongiosum 缺損）較常見、fusiform（cavernosum＋spongiosum 皆缺）少見而較重,約 20% 合併阻塞性病灶;輸尿管 dilated/tortuous/redundant,遠端>近端（遠端缺平滑肌、膠原比例增）;膀胱 massively enlarged、輪廓光滑、trigone splayed、輸尿管口向上外移;patent urachus 約 25–30%;renal dysplasia 約半數（Potter II/IV）,且**擴張程度與腎發育不良不相關**;雙側腹腔內隱睪位於髂血管上方、鄰擴張輸尿管;產前 US 見 oligohydramnios＋megacystis＋雙側 hydroureteronephrosis＋腹壁肌缺如（11–12 週可疑診）,診斷準確率約 30–85%;DDx 含 PUV（keyhole、真阻塞、無隱睪）與 MMIHS（女嬰、polyhydramnios、microcolon）。免費公開層級。
 
 ## 考題
