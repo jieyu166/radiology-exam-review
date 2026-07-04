@@ -20,6 +20,20 @@ dateRev: 2026-06-17
 - 其他：trigeminal / facial nerve schwannoma、ependymoma、metastasis、aneurysm。[^1]
 - **分類法（依影像）**：強化腫塊／T1 高訊號／CSF 密度／其他。[^1]
 
+## 放射科醫師影像判讀重點
+- **診斷演算法（Bonneville）**：**依『病灶起源部位＋形狀邊界＋密度／訊號強度＋對比劑攝取』系統歸類 CPA 病灶**，並輔以 DWI/PWI/MRS——CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵。[^3]
+- **三主角一刀切（考點）**：**vestibular schwannoma＝以 IAC 為中心、ice-cream-cone、強烈強化、無鈣化；meningioma＝硬膜基底、與骨鈍角、dural tail、可鈣化、不進 IAC；epidermoid＝似 CSF 但 DWI 受限、FLAIR 不完全抑制、沿腦池鑽縫包繞血管神經**。[^1]
+- **非強化 extra-axial DDx（Bonneville）**：**囊性（epidermoid、arachnoid、neurenteric cyst）或含脂（dermoid、lipoma）**——DWI 與脂肪辨識為區分關鍵（epidermoid DWI 亮、arachnoid cyst DWI 隨 CSF、lipoma 脂抑壓低）。[^3]
+- **顱底延伸（Bonneville）**：**paraganglioma、chondromatous tumor、chordoma、cholesterol granuloma、endolymphatic sac tumor 可由顱底侵入 CPA**——注意骨質變化與 T1 高訊號（cholesterol granuloma）。[^3]
+- **腦幹/腦室外突陷阱（Bonneville）**：**腦幹或第四腦室腫瘤可外突至 CPA、難與 extra-axial 病灶區分**（lymphoma、hemangioblastoma、choroid plexus papilloma、ependymoma、glioma、medulloblastoma）——找與腦幹之接合面。[^3]
+
+## 臨床重點（5 句）
+1. **頻率順序（考點）**：**CPA 腫塊 ~80% 為 vestibular schwannoma、~10% meningioma、其次 epidermoid**——「第二常見＝meningioma」為經典題。[^1]
+2. **臨床表現**：CPA 症候群（感音性聽損、耳鳴、眩暈；較大者三叉/顏面神經與腦幹/小腦壓迫症）。[^1]
+3. **schwannoma 關聯**：雙側 vestibular schwannoma＝**NF2**；聽損進展與 IAC/CPA 腫瘤大小相關。[^1]
+4. **處置分流（Bonneville）**：正確影像分類直接影響處置（觀察、放射手術 vs 顯微手術），故系統化演算法具臨床價值。[^3]
+5. **少見但重要**：epidermoid 全切困難易復發；顱底病灶（paraganglioma/ELST）與 von Hippel-Lindau（ELST、hemangioblastoma）關聯須留意。[^3]
+
 > [!note] 考點
 > CPA 最常見＝**vestibular schwannoma（~80%）**；**第二常見＝meningioma（~10%，硬膜基底＋dural tail）**；epidermoid＝DWI 受限。[^1]
 
@@ -28,6 +42,7 @@ dateRev: 2026-06-17
 
 ### 參考來源
 [^1]: *Cerebellopontine angle mass*. Radiopaedia.org（實際查證 accessed 2026-06-17）：最常見**vestibular schwannoma（~80%）**、第二**meningioma（~10%）**、epidermoid（DWI 受限）；記憶法 AMEN/SAME。
+[^3]: **Tier 1** Bonneville F, Savatovsky J, Chiras J. *Imaging of cerebellopontine angle lesions: an update. Part 2: intra-axial lesions, skull base lesions that may invade the CPA region, and non-enhancing extra-axial lesions*. Eur Radiol 2007;17(11):2908-20（據 PubMed，DOI [10.1007/s00330-007-0680-4](https://doi.org/10.1007/s00330-007-0680-4)；Review；實際查證 accessed 2026-07-04）——**CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵**；提出**依病灶起源部位、形狀邊界、密度、訊號強度與對比劑攝取之診斷演算法**（輔以 DWI/PWI/MRS）；系統涵蓋**非強化 extra-axial（epidermoid/arachnoid/neurenteric cyst、dermoid/lipoma）、顱底延伸（paraganglioma/chondromatous/chordoma/cholesterol granuloma/ELST）、腦幹或腦室腫瘤外突（lymphoma/hemangioblastoma/CPP/ependymoma/glioma/medulloblastoma）**之鑑別。佐證 CPA DDx 之系統化影像判讀框架。原「Radiopaedia」弱來源已由本次 Eur Radiol DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

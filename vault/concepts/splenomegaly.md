@@ -36,13 +36,20 @@ dateRev: 2026-06-28
 - **脾破裂（rupture）**：腫大脾即使輕微外傷亦可破裂，為最危險併發症。[^2]
 - **脾功能亢進（hypersplenism）**：白血球/紅血球/血小板減少。[^2]
 
+## 臨床重點（5 句）
+1. **最常見病因鏈**：**充血性（門脈高壓/肝硬化）為成人最常見類別**，臨床走「肝硬化→門脈高壓→充血性脾腫大」因果鏈；地區流行區感染性（瘧疾/EBV）亦常見。[^1][^3]
+2. **massive 鑑別窄**：**脾長徑 >20 cm 或重量 >1000 g 之 massive splenomegaly**最指向骨髓增生性腫瘤（myelofibrosis、CML）、淋巴瘤/白血病、Gaucher；myelofibrosis 常合併骨硬化。[^2][^3]
+3. **最危險併發症**：腫大脾即使輕微外傷亦可**破裂**，為急症；另有脾梗塞（鐮形血球）、脾功能亢進（全血球下降）。[^2]
+4. **臨床評估**：脾腫大多為全身疾病之表徵，須結合肝病/血液/感染/自體免疫病史與周邊血象、其他器官受累判讀。[^2][^3]
+5. **量測意義（追蹤）**：單一一維量測敏感/特異難兼顧，**治療反應與病程追蹤建議用體積/splenic index**，並個別化（依身高體重）判定閾值。[^1][^3]
+
 > [!note] 考點：脾腫大最常見的病因類別?
 > **充血性（congestive，如門脈高壓、心衰）**（Radiopaedia 將 portal hypertension 標註 common；地區依賴,流行區感染性也常見）。[^1]
 
 ### 參考來源
 [^1]: *Splenomegaly*. Radiopaedia.org（實際查證 accessed 2026-06-17，免費開放）：病因分 hematological / hemodynamic / infectious / storage / neoplastic / traumatic / connective tissue;hemodynamic 之 **cirrhosis: portal hypertension 標註「(common)」**、congestive splenomegaly（Banti）;ellipsoid 公式量體積。
 [^2]: Curovic Rotbain E, et al. *Splenomegaly*. StatPearls, NCBI Bookshelf（NBK430907，accessed 2026-06-28，免費開放全文）：正常脾長 ≤12 cm;**12–20 cm 為 splenomegaly、>20 cm 為 massive splenomegaly**;重量 正常 70–200 g、腫大 400–500 g、massive >1000 g;四大病理機轉（congestive / infiltrative / immune / neoplastic）;myelofibrosis 為成人 massive splenomegaly 首因、合併 osteosclerosis 鑑別窄;併發症 rupture / infarction（鐮形血球）/ hypersplenism。
-[^3]: *Radiological Approach to Splenomegaly: Etiologies, Pathophysiologies, and Diagnostic Strategies*. Korean J Radiol（kjr.2025.0848，accessed 2026-06-28，免費開放全文）：12 cm 上限約 26% 男/6% 女超過，建議個別化/體積追蹤;各類影像線索——congestive 的 **Gamna-Gandy bodies（MRI）**、感染（膿瘍 CT ~96%、mononucleosis 瀰漫無灶、malaria massive）、infiltrative（amyloid T1高/T2低、Gaucher massive、sarcoid ~1 cm 小結節）、淋巴瘤（均質/粟粒/結節、門脈期低強化＋限制擴散、spleen-to-liver 衰減比）。
+[^3]: **Tier 1** *Radiological Approach to Splenomegaly: Etiologies, Pathophysiologies, and Diagnostic Strategies*. Korean J Radiol 2025（DOI [10.3348/kjr.2025.0848](https://doi.org/10.3348/kjr.2025.0848)；Review；免費開放全文，實際查證 accessed 2026-06-28）：12 cm 上限約 26% 男/6% 女超過，建議個別化/體積追蹤;各類影像線索——congestive 的 **Gamna-Gandy bodies（MRI）**、感染（膿瘍 CT ~96%、mononucleosis 瀰漫無灶、malaria massive）、infiltrative（amyloid T1高/T2低、Gaucher massive、sarcoid ~1 cm 小結節）、淋巴瘤（均質/粟粒/結節、門脈期低強化＋限制擴散、spleen-to-liver 衰減比）。原 Radiopaedia/StatPearls 弱來源已由本 Korean J Radiol DOI Tier 1 補強。
 
 ## 考題
 ```dataview
