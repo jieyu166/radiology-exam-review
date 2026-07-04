@@ -20,11 +20,25 @@ dateRev: 2026-07-02
 - **PAVM → HHT方向**：約**60%以上**肺動靜脈畸形（PAVM）病人患有HHT。[^1]
 - **HHT → PAVM方向（本題重點）**：HHT病人**約至少一半（≥50%）有肺部侵犯/肺動靜脈畸形**——故「少於10%的HHT病人有PAVM」為**錯誤**。[^1]
 
+## 放射科醫師影像判讀重點
+- **PAVM 之 CT 型態**：肺動靜脈畸形典型呈供養動脈(feeding artery)—瘤囊(nidus/aneurysmal sac)—引流靜脈(draining vein)三結構相連之腫塊，胸部 CT（含對比劑與 MIP 重組）為特徵化 PAVM 及術前規劃之關鍵影像，可清楚顯示供養血管與分型（simple vs complex）。[^2]
+- **篩檢與診斷流程**：HHT 病人應系統性篩檢 PAVM，因其自發性併發症率高（可達近 50%）；偵測肺內右到左分流最敏感之檢查為經胸對比性心臟超音波(TTCE, agitated saline)，陽性者再以胸部 CT 定位與特徵化。[^2]
+- **判讀重點與併發症風險**：右到左分流可致低血氧與反常栓塞(paradoxical embolism)，進而造成腦中風與腦膿瘍；瀰漫型(diffuse)肺部侵犯者神經併發症率明顯更高，判讀時須註明 PAVM 為單發/多發、單側/雙側、simple/complex 及有無瀰漫型。[^2]
+- **治療後追蹤之影像**：治療首選為經導管栓塞(coil/plug，anchor technique)；栓塞後可能再灌流(recanalization/收縮血管再通)，須以對比增強 CT 長期追蹤，觀察瘤囊縮小與再通機轉——追蹤影像判讀是本病照護不可或缺之一環。[^2]
+
+## 臨床重點（5 句）
+- HHT（Rendu-Osler-Weber 病）為體染色體顯性遺傳，主要基因為 ENG(HHT1) 與 ACVRL1/ALK1(HHT2)。[^2]
+- 診斷採 Curaçao 標準：自發反覆鼻出血、皮膚黏膜微血管擴張、內臟動靜脈畸形、一等親家族史，滿足多項即可臨床診斷。[^2]
+- PAVM 可致命性咳血/血胸，或經右到左分流造成反常栓塞而導致腦中風、腦膿瘍。[^2]
+- 因此凡確診或疑似 HHT 者皆建議系統性篩檢 PAVM，且無論是否治療，所有 PAVM 病人於易致菌血症之處置（如牙科）前應預防性使用抗生素以降低腦膿瘍風險。[^2]
+- 經導管栓塞為 PAVM 之首選治療，已大幅取代手術，且需終身影像追蹤以偵測再通與再灌流。[^2]
+
 > [!note] 考點：關於HHT敘述何者「為非」？
 > **Less than 10% of patients with HHT have pulmonary AVMs（D）**——實際上至少一半HHT病人有肺部侵犯/PAVM。別名Osler-Weber-Rendu(A對)、可侵犯黏膜/皮膚/肺/腦/腸胃道(B對)、60%以上PAVM病人有HHT(C對)皆為正確描述。[^1]
 
 ### 參考來源
 [^1]: Dähnert W. *Radiology Review Manual*, 6th edn. Lippincott Williams & Wilkins, 2007；UpToDate *Clinical manifestations and diagnosis of hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu syndrome)*（2018 交換考題詳解 p.280 引用；Tier 1/2）。HHT=Osler-Weber-Rendu，可侵犯黏膜/皮膚/肺/腦/腸胃道；60%以上PAVM病人患HHT；至少一半HHT病人有肺部侵犯/PAVM。
+[^2]: **Tier 1** Lacombe P, Lacout A, Marcy PY, et al. *Diagnosis and treatment of pulmonary arteriovenous malformations in hereditary hemorrhagic telangiectasia: An overview*. Diagn Interv Imaging 2013;94(9):835-848（據 PubMed，DOI [10.1016/j.diii.2013.03.014](https://doi.org/10.1016/j.diii.2013.03.014)；實際查證 accessed 2026-07-04）——HHT/PAVM 影像與介入回顧：HHT 為體染色體顯性(ENG/ACVRL1)，PAVM 自發併發症率高達近 50% 故須系統性篩檢；PAVM 可致咳血/血胸或右到左分流引發反常栓塞(腦中風/腦膿瘍)，瀰漫型神經併發症率更高；診斷主靠經胸對比性心臟超音波與胸部 CT，治療首選經導管栓塞並需對比 CT 追蹤再通。原「Dähnert 手冊/UpToDate」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於Hereditary haemorrhagic telangiectasia的描述，下列何者為非? (2018-372)

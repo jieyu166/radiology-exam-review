@@ -2,12 +2,17 @@
   "checked": false,
   "definition": "**神經貝西氏症最常侵犯腦幹（brainstem），其次基底核（約1/3雙側）、視丘——本題官方答案(中腦)與頁緣手寫更正(橋腦)在腦幹細分上存在爭議，因原始文獻僅列出廣義「腦幹」為最常見，並未進一步細分中腦/橋腦的相對頻率。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.msard.2019.101906",
+      "url": "https://doi.org/10.1016/j.msard.2019.101906"
+    }
+  ],
+  "imagingFindings": "- **實質型病灶好發部位**：腦實質受侵以腦幹最常見，典型於中腦-間腦交界(mesodiencephalic junction)，並可沿視丘向中腦延伸形成「cascade sign(瀑布徵)」；此與本題「腦幹為最常見」考點一致。\n- **訊號特徵**：急性期病灶 T1 呈等/低訊號、T2/FLAIR 呈高訊號，好發於腦幹、大腦腳/小腦腳與間腦；SWI 有助偵測併發的靜脈竇栓塞。\n- **與多發性硬化的鑑別**：MS 病灶多在腦室旁、胼胝體，NBD 則以腦幹/間腦大而融合的病灶為主且較少累及腦室周圍——是常見的鑑別陷阱。\n- **慢性期表現**：慢性 NBD 常見腦或腦幹萎縮與 T1「黑洞(black holes)」，勿誤判為單純退化。\n- **非實質型(血管型)**：包含腦靜脈竇栓塞(CVST)與動脈受侵，須以 MRV/CTV 評估；非實質型與實質型的處置與預後不同，判讀時應一併排查。",
   "keyPoints": [
     "**病灶好發部位排序**：**腦幹(brainstem)最常見** ＞ 基底核(basal ganglia，約1/3為雙側) ＞ 視丘(thalamus) ＞ 皮質下白質(subcortical white matter，較少見；深部白質相對常見) ＞ 脊髓(spinal cord，較少見)。"
   ],
-  "management": "",
+  "management": "- 神經貝西氏症(NBD)指貝西氏症病人出現神經症狀/徵象，發生率約 5–30%，男性較常見且預後較差。\n- 中樞神經受侵分為實質型(腦幹、大腦半球、脊髓、腦膜腦炎表現)與非實質型(靜脈竇栓塞、動脈病變)，實質型較常見。\n- 實質型 NBD 腦脊髓液常見輕度淋巴球增多與蛋白升高、葡萄糖正常；CVST 則腦壓升高而 CSF 內容多正常。\n- 脊髓受侵在急性/亞急性期常呈頸胸段非連續多發病灶，慢性可見脊髓萎縮。\n- 治療上實質型以皮質類固醇合併免疫抑制劑(azathioprine 等，難治者升級 mycophenolate/cyclophosphamide 或標靶治療)，CVST 則以免疫抑制併抗凝為主。",
   "name": "Neuro-Behçet Disease — CNS Distribution",
   "nameZh": "神經貝西氏症",
   "slug": "behcet-disease-neuro",

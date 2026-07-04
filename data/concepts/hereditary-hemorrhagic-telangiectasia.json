@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**HHT（Osler-Weber-Rendu症候群）與肺動靜脈畸形（PAVM）的雙向關聯要分清楚：約60%以上PAVM病人患有HHT；而HHT病人約有「至少一半（不是少於10%）」有肺動靜脈畸形/肺部侵犯。所以「少於10% HHT病人有PAVM」是錯誤敘述。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.diii.2013.03.014",
+      "url": "https://doi.org/10.1016/j.diii.2013.03.014"
+    }
+  ],
+  "imagingFindings": "- **PAVM 之 CT 型態**：肺動靜脈畸形典型呈供養動脈(feeding artery)—瘤囊(nidus/aneurysmal sac)—引流靜脈(draining vein)三結構相連之腫塊，胸部 CT（含對比劑與 MIP 重組）為特徵化 PAVM 及術前規劃之關鍵影像，可清楚顯示供養血管與分型（simple vs complex）。\n- **篩檢與診斷流程**：HHT 病人應系統性篩檢 PAVM，因其自發性併發症率高（可達近 50%）；偵測肺內右到左分流最敏感之檢查為經胸對比性心臟超音波(TTCE, agitated saline)，陽性者再以胸部 CT 定位與特徵化。\n- **判讀重點與併發症風險**：右到左分流可致低血氧與反常栓塞(paradoxical embolism)，進而造成腦中風與腦膿瘍；瀰漫型(diffuse)肺部侵犯者神經併發症率明顯更高，判讀時須註明 PAVM 為單發/多發、單側/雙側、simple/complex 及有無瀰漫型。\n- **治療後追蹤之影像**：治療首選為經導管栓塞(coil/plug，anchor technique)；栓塞後可能再灌流(recanalization/收縮血管再通)，須以對比增強 CT 長期追蹤，觀察瘤囊縮小與再通機轉——追蹤影像判讀是本病照護不可或缺之一環。",
   "keyPoints": [
     "**別名**：Osler-Weber-Rendu syndrome；體染色體顯性遺傳之血管發育異常。",
     "**侵犯範圍**：可侵犯**黏膜、皮膚、肺、腦、腸胃道**（微血管擴張與動靜脈畸形）。",
     "**PAVM → HHT方向**：約**60%以上**肺動靜脈畸形（PAVM）病人患有HHT。",
     "**HHT → PAVM方向（本題重點）**：HHT病人**約至少一半（≥50%）有肺部侵犯/肺動靜脈畸形**——故「少於10%的HHT病人有PAVM」為**錯誤**。"
   ],
-  "management": "",
+  "management": "- HHT（Rendu-Osler-Weber 病）為體染色體顯性遺傳，主要基因為 ENG(HHT1) 與 ACVRL1/ALK1(HHT2)。\n- 診斷採 Curaçao 標準：自發反覆鼻出血、皮膚黏膜微血管擴張、內臟動靜脈畸形、一等親家族史，滿足多項即可臨床診斷。\n- PAVM 可致命性咳血/血胸，或經右到左分流造成反常栓塞而導致腦中風、腦膿瘍。\n- 因此凡確診或疑似 HHT 者皆建議系統性篩檢 PAVM，且無論是否治療，所有 PAVM 病人於易致菌血症之處置（如牙科）前應預防性使用抗生素以降低腦膿瘍風險。\n- 經導管栓塞為 PAVM 之首選治療，已大幅取代手術，且需終身影像追蹤以偵測再通與再灌流。\n\n> [!note] 考點：關於HHT敘述何者「為非」？\n> **Less than 10% of patients with HHT have pulmonary AVMs（D）**——實際上至少一半HHT病人有肺部侵犯/PAVM。別名Osler-Weber-Rendu(A對)、可侵犯黏膜/皮膚/肺/腦/腸胃道(B對)、60%以上PAVM病人有HHT(C對)皆為正確描述。",
   "name": "Hereditary Hemorrhagic Telangiectasia (Osler-Weber-Rendu)",
   "nameZh": "遺傳性出血性微血管擴張症",
   "slug": "hereditary-hemorrhagic-telangiectasia",

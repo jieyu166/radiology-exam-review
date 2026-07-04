@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**先天性梅毒骨骼病變以骨幹端為主：lucent bands、Wimberger sign（近端脛骨內側骨幹端破壞）、鋸齒狀骨幹端（sawtooth metaphyses）。可導致病理性骨折，模擬受虐兒表現。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1186/s12887-022-03789-y",
+      "url": "https://doi.org/10.1186/s12887-022-03789-y"
+    }
+  ],
+  "imagingFindings": "- **對稱性是關鍵判讀點**：先天性梅毒骨病變典型為**雙側對稱**、以骨幹端／骨幹為主的多發性變化（metaphysitis、periostitis）；此對稱、多發、伴血液學／肝脾異常的組型，是與**非意外性創傷（受虐兒）** 區分的重要線索——受虐兒之骨折多不對稱、時序不一。\n- **Wimberger sign 的定位**：指**近端脛骨內側（medial）骨幹端**局部溶骨性破壞，較具特異性；勿與骨質疏鬆性 Wimberger ring（視網膜母細胞瘤／壞血病無關之另一同名徵象）混淆。\n- **骨膜反應與骨幹端變化**：可見對稱性骨膜炎（periostitis／periosteal reaction）、metaphyseal lucent bands（非特異）、鋸齒狀骨幹端；廣泛時可導致多發性長骨骨折。\n- **DDx／pitfalls**：(1) 最重要的鑑別為**受虐兒**與**成骨不全（OI）**；先天性梅毒之對稱分布＋血清學陽性＋肝脾腫大／貧血可導向正解；(2) 骨變化常在無症狀新生兒即可見，但長骨 X 光**無法區分活動性感染與既往感染**，治療決策仍以血清學與母親治療史為主；(3) 約 60–80% 病例有骨異常，可為唯一表現，勿因外觀健康而排除。",
   "keyPoints": [
     "骨病變以**骨幹端（metaphyses）**為主。",
     "**Metaphyseal lucent bands**：非特異性，可見於多種全身性疾病。",
@@ -12,7 +17,7 @@
     "骨幹端受累可伴**骨膜反應（periosteal reaction）**。",
     "骨破壞**可導致病理性骨折**，影像可模擬 battered child syndrome。"
   ],
-  "management": "",
+  "management": "- 先天性梅毒因梅毒螺旋體經胎盤垂直傳播所致，孕期篩檢與治療可有效預防。\n- 約三分之二受感染新生兒出生時無症狀，故需依母親血清學與治療史主動評估。\n- 全身表現可含肝脾腫大、貧血、皮疹、鼻炎（snuffles）與神經侵犯。\n- 診斷依非螺旋體與螺旋體血清學檢測，必要時做腦脊髓液檢查評估神經梅毒。\n- 治療以青黴素（penicillin G）為主，及早治療預後良好。",
   "name": "Congenital Syphilis — Skeletal Manifestations",
   "nameZh": "先天性梅毒骨骼表現",
   "slug": "congenital-syphilis-skeletal",

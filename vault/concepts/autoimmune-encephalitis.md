@@ -19,11 +19,25 @@ dateRev: 2026-07-02
 - **影像角色**：辨識邊緣系統（limbic structures）內提示自體免疫腦炎之特徵性表現，是提醒臨床醫師啟動適當診斷評估之關鍵步驟。[^1]
 - **副腫瘤症候群常見腫瘤**：最常見於**small-cell lung cancer**，亦可見於**neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma**等多種腫瘤。[^1]
 
+## 放射科醫師影像判讀重點
+- **邊緣系統為判讀核心**：典型 limbic encephalitis 在 MRI 呈雙側（可不對稱）內側顳葉—海馬—杏仁核 T2/FLAIR 高訊號，常無或僅輕度強化、無明顯占位效應；辨識此邊緣系統型態是提醒臨床啟動自體免疫腦炎評估的關鍵線索。[^2]
+- **limbic vs extralimbic 型態**：抗體媒介腦炎影像可分為侷限性(focal)邊緣型與邊緣外(extralimbic)型，亦可表現為腦膜腦炎(meningoencephalitis)；判讀時應描述侵犯是否侷限邊緣系統、有無邊緣外/皮質下受累，因型態與抗體種類及預後相關。[^2]
+- **MRI 異常與預後（分歧點）**：相當比例之抗體陽性腦炎其 MRI 可為正常，故影像正常「不能」排除診斷；但當 MRI 出現異常（尤其合併抗神經元自體抗體、侷限性症候群）時，文獻顯示與較差預後相關——影像陰性反而常見於預後較佳者。[^2]
+- **DDx 與抗體導向**：判讀須與單純皰疹病毒腦炎(HSE，好侵內側顳葉但常出血/更具占位與明顯強化)、癲癇後改變、膠質瘤浸潤、代謝性腦病等鑑別；抗體型態影響影像—onconeuronal(細胞內抗原)抗體多屬副腫瘤性、預後較差，細胞表面抗原抗體型預後較佳。[^2]
+
 > [!note] 考點：自體免疫腦炎敘述何者正確？
 > **以上皆對（E）**——臨床光譜廣泛、抗體媒介CNS疾病依有無惡性腫瘤分paraneoplastic/nonparaneoplastic、邊緣系統影像表現為關鍵診斷線索、副腫瘤症候群好發於small-cell lung cancer但亦見於多種其他腫瘤，皆為正確描述。[^1]
 
+## 臨床重點（5 句）
+- 抗體媒介 CNS 疾病依有無潛在惡性腫瘤分為 paraneoplastic 與 nonparaneoplastic 兩大類，抗體型態影響腫瘤關聯與預後。[^2]
+- 自體抗體可分細胞內(onconeuronal，如抗 Hu、抗 GAD)與細胞表面/突觸抗原兩型；前者多屬副腫瘤性且對免疫治療反應差、預後較差。[^2]
+- 免疫檢查點抑制劑(ICI)可誘發腦炎，甚至揭露原本潛伏之副腫瘤性腦炎，此類預後在各型 ICI 相關腦炎中最差。[^2]
+- 臨床可表現為侷限性(邊緣/邊緣外)症候群或腦膜腦炎；發燒與腦脊髓液發炎性變化較明顯者，反而與較佳預後相關。[^2]
+- 早期辨識、系統性檢測自體抗體並搜尋潛在腫瘤，是決定免疫治療策略與預後諮詢的關鍵。[^2]
+
 ### 參考來源
 [^1]: *American Journal of Neuroradiology* 2017;38(6):1070-1078（2018 交換考題詳解 p.243 引用；Tier 1 期刊）。自體免疫腦炎臨床光譜廣泛（輕微認知障礙至頑固性癲癇腦病變）；抗體媒介CNS疾病依有無潛在惡性腫瘤分paraneoplastic/nonparaneoplastic；邊緣系統特徵性影像表現為關鍵診斷線索；副腫瘤症候群最常見於small-cell lung cancer，亦見於neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma。
+[^2]: **Tier 1** Velasco R, Villagrán M, Jové M, et al. *Encephalitis Induced by Immune Checkpoint Inhibitors: A Systematic Review*. JAMA Neurol 2021;78(7):864-873（據 PubMed，DOI [10.1001/jamaneurol.2021.0249](https://doi.org/10.1001/jamaneurol.2021.0249)；實際查證 accessed 2026-07-04）——82 例系統性回顧：ICI 誘發之腦炎主要為侷限性(邊緣/邊緣外)症候群或腦膜腦炎，可揭露潛伏之副腫瘤性腦炎(預後最差)；抗神經元自體抗體、侷限性症候群與 MRI 異常皆與較差預後相關，而發燒與腦脊髓液發炎性變化與較佳預後相關；自體抗體多為 onconeuronal(細胞內抗原)。原「AJNR 詳解引用」來源已由本次 DOI Tier 1 查核補強升級。
 
 ## 題目
 > [!question]- About autoimmune encephalitis, which statement is correct? (2018-333)

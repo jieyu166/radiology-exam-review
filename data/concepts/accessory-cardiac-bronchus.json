@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**副心臟支氣管（accessory cardiac bronchus）最常見起源自中間支氣管內側壁（medial wall of bronchus intermedius）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/radiology.189.2.8210391",
+      "url": "https://doi.org/10.1148/radiology.189.2.8210391"
+    }
+  ],
+  "imagingFindings": "- **定位是關鍵**：CT（尤其冠狀/矢狀重組與最小密度投影 minIP）可辨識自 bronchus intermedius **內側壁**發出的獨立含氣支氣管，起源固定於此點是與其他氣道變異區分的核心影像特徵。\n- **型態**：多為盲端短支（blind-ending diverticulum），末端可伴退化性/迷走肺實質（vestigial parenchyma），呈軟組織結節或含小葉肺組織，勿誤判為腫塊。\n- **DDx 與陷阱**：須與 tracheal/tracheobronchial bronchus（起源自氣管或右上葉近端，位置在上而非 bronchus intermedius 內側壁）、憩室、支氣管閉鎖區分；管腔內若積聚分泌物/debris 可致反覆感染，勿誤判為結節或黏液栓的腫瘤性病灶。\n- **臨床相關影像徵象**：多數無症狀為偶然發現，少數併發反覆感染、咳血（hemoptysis），CT 見管腔積液/周邊實變或支氣管擴張時應提示此變異之併發症。",
   "keyPoints": [
     "最常見起源：**bronchus intermedius 內側壁**。",
     "通常為盲端（blind-ending），偶含肺泡組織。",
     "多為偶然發現，臨床意義不大，但須與支氣管病變鑑別。"
   ],
-  "management": "",
+  "management": "- 副心臟支氣管為氣管支氣管樹罕見的先天變異，多在影像檢查中偶然發現。\n- 絕大多數個案終生無症狀，臨床意義有限。\n- 少數病人可出現反覆呼吸道感染或咳血等併發症。\n- 認出此變異的意義在於避免誤診並預期可能的感染/出血併發症。\n- 有反覆症狀者可考慮手術切除，無症狀者一般僅需觀察。",
   "name": "Accessory Cardiac Bronchus",
   "nameZh": "副心臟支氣管",
   "slug": "accessory-cardiac-bronchus",

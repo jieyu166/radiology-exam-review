@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**腎上腺偶然腫 CT washout protocol 僅需兩個時間點：unenhanced + 15-min delayed（或 enhanced + 15-min delayed 算 relative washout）。5 分鐘延遲不是標準 protocol 的一部分。** Adenoma 特徵：unenhanced ≤10 HU（富脂質）、absolute washout ≥60%、relative washout ≥40%。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.clinimag.2016.02.006",
+      "url": "https://doi.org/10.1016/j.clinimag.2016.02.006"
+    }
+  ],
+  "imagingFindings": "- **Unenhanced CT 首關**：ROI 取病灶實質（避開壞死/出血/鈣化）測平均 HU；≤10 HU 即可診斷 lipid-rich adenoma，特異度接近 100%，無須再打顯影劑。\n- **Washout 用於 lipid-poor 病灶**：unenhanced >10 HU 且屬 indeterminate（10–43 HU 區間）時才進 washout protocol；absolute washout ≥60% / relative washout ≥40% 判為 adenoma，特異度高。\n- **時間點務必標準化**：portal venous phase 取 60–70 秒、delayed 取 15 分鐘；若延遲相取錯時間（如 5 分鐘或 10 分鐘）會系統性低估 washout、造成 adenoma 誤判為非 adenoma。\n- **Washout 的盲點與 DDx**：hypervascular metastasis、pheochromocytoma、adrenocortical carcinoma 偶可呈現高 washout 假陽性，故 washout 高不等於絕對良性；病灶 >4 cm、邊緣不規則、內部異質或間隔追蹤增大者仍須警覺惡性。\n- **CT 相對 chemical-shift MRI 的定位**：據 PubMed 一項 45 顆腎上腺腫塊之比較研究，washout CT 對 adenoma 的敏感度（95%）高於 chemical-shift MRI（81%），兩者特異度皆達 100%——CT washout 仍是特徵化 indeterminate adrenal mass 的主力工具。",
   "keyPoints": [
     "**Unenhanced CT**：≤10 HU 高度提示 adenoma（富脂質 lipid-rich adenoma）。",
     "**Washout CT protocol**：**unenhanced → enhanced（60–70 秒）→ 15-min delayed**。",
@@ -11,7 +16,7 @@
     "**Relative washout**（無 unenhanced 時）：(enhanced − delayed) / enhanced × 100% ≥ **40%** → adenoma。",
     "**5 分鐘延遲 CT 不是標準 washout protocol 的一部分**——標準為 15 分鐘。"
   ],
-  "management": "",
+  "management": "- 腎上腺偶然腫在腹部 CT 的盛行率約 3–7%，隨年齡上升，多數為無功能良性 adenoma。\n- 初步評估須排除功能性（庫欣、原發性醛固酮增多、pheochromocytoma）與惡性（原發或轉移）兩大方向，故偶然腫發現後應搭配內分泌生化篩檢。\n- 影像上 <4 cm、脂質豐富、低 HU 者絕大多數為良性；>4 cm 或影像特徵不定者惡性風險上升，須進一步評估或切除。\n- 無功能且影像良性之小 adenoma 自然史穩定，通常僅需影像與生化追蹤而非手術。\n- 有荷爾蒙過度分泌或影像疑惡性者才考慮腎上腺切除，處置取決於功能狀態與惡性風險而非單看大小。",
   "name": "Adrenal Incidentaloma — CT Washout Protocol",
   "nameZh": "腎上腺偶然腫",
   "slug": "adrenal-incidentaloma-washout",

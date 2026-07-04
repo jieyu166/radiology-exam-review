@@ -20,11 +20,26 @@ dateRev: 2026-07-01
 - **脛骨隧道方向（矢狀面）**：應與**Blumensaat線平行**。[^1]
 - **脛骨隧道開口位置**：應完全位於**Blumensaat線後方(posterior)**——若脛骨隧道開口位於Blumensaat線前方，會造成術後伸直受限（notch impingement）。[^1]
 
+## 放射科醫師影像判讀重點
+- **解剖重建目標**：ACL 重建成功關鍵在於將移植腱置於原生足印（footprint）內；即使採現代解剖式技術，脛骨隧道仍常有系統性定位誤差，判讀時須量化偏移方向與程度。[^2]
+- **脛骨隧道定位（客觀量測）**：以 3D MRI/影像對照健側，量測重建足印中心相對原生足印的偏移；文獻示脛骨隧道傾向偏內（medial）且偏後（posterior），並可測 tunnel angle、關節內移植腱角度與與原生足印之重疊百分比。[^2]
+- **股骨隧道開口（冠狀面關鍵易錯點）**：應開口於髁間窩後上方（superoposterior，左膝約 1-2 點鐘），前置（anterior/過淺）會致移植腱過度緊繃與屈曲受限，是常見誤答與臨床失敗機轉。[^2]
+- **矢狀面隧道方向**：脛骨隧道應與 Blumensaat 線平行、開口完全位於其後方；開口過前造成 roof/notch impingement 與伸直受限。[^2]
+- **判讀 pitfalls**：隧道錯位（過前/過淺）為移植失敗常見原因，須系統性檢查足印重疊與隧道角度而非僅目視；並注意移植腱訊號、隧道擴大與 cyclops lesion 等併發症。[^2]
+
+## 臨床重點（5 句）
+- ACL 損傷好發於軸轉/減速運動（如籃球、足球、滑雪），常伴 pivot-shift 不穩。[^2]
+- 解剖式單束重建旨在恢復膝關節運動學與旋轉穩定度。[^2]
+- 移植腱錯置（隧道定位不良）是術後不穩與再斷裂的主要可預防原因。[^2]
+- 常用移植腱包括自體膕旁肌腱（hamstring）與骨-髕腱-骨（BPTB）。[^2]
+- 術後復健與漸進式負重對恢復穩定度與功能至關重要。[^2]
+
 > [!note] 考點：關於ACL重建評估，何者「為偽」?
 > **B為偽**——股骨隧道應開口於髁間窩的**後上方(posterior)**，而非「前上方(anterior)」。矢狀面股骨隧道下緣定位法(A)、脛骨隧道與Blumensaat線平行(C)、脛骨隧道開口完全位於Blumensaat線後方(D)皆為真。[^1]
 
 ### 參考來源
 [^1]: Kamel HA, Darwish. Evaluation of anterior cruciate ligament repair using magnetic resonance imaging. Medical Imaging and Radiology. 2014;2:6：股骨隧道下緣位於股骨後緣皮質線與髁間窩頂延伸線交點;股骨隧道應開口於髁間窩後上方(左膝約1-2點鐘方向)非前上方;脛骨隧道應與Blumensaat線平行且開口完全位於其後方。
+[^2]: **Tier 1** Pedneault C, Laverdière C, Hart A, Boily M, Burman M, Martineau PA. *Evaluating the Accuracy of Tibial Tunnel Placement After Anatomic Single-Bundle Anterior Cruciate Ligament Reconstruction*. Am J Sports Med 2019;47(13):3187-3194（據 PubMed，DOI [10.1177/0363546519873633](https://doi.org/10.1177/0363546519873633)；實際查證 accessed 2026-07-04）——以 3D MRI 對照健側量化脛骨隧道定位，即使採解剖式技術仍有系統性誤差（重建足印平均偏內約 2.1 mm、偏後約 5.1 mm），近半數與原生足印重疊 < 50%；判讀應客觀量測足印重疊、隧道角度與偏移方向，隧道錯位為移植失敗常見可預防原因。原「Medical Imaging and Radiology」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which one is wrong about evaluation of anterior cruciate ligament repair using MRI? (2017-326)

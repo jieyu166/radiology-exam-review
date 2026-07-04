@@ -2,15 +2,24 @@
   "checked": false,
   "definition": "**心臟鐵沉積以 T2* mapping 評估：T2* <20 ms 異常，<10 ms 嚴重。Thalassemia major 病人 T2* 下降提示預後不佳。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.hoc.2017.11.012",
+      "url": "https://doi.org/10.1016/j.hoc.2017.11.012"
+    },
+    {
+      "label": "10.1007/s00277-019-03618-w",
+      "url": "https://doi.org/10.1007/s00277-019-03618-w"
+    }
+  ],
+  "imagingFindings": "- **量測方法**：於左心室**中段 interventricular septum**單一 mid-ventricular short-axis 切面取 ROI 做多迴波 gradient-echo T2* mapping，避開心臟-肺-肝界面磁化率假影；室間隔取值可代表全心鐵負荷且與心律干擾較少。\n- **分級一致對照**：T2* >20 ms 正常、10–20 ms 輕中度、<10 ms 嚴重（心衰竭與心律不整風險顯著上升）；T2* **下降**方向代表鐵沉積增加 → 預後差，切勿與 T2 上升方向混淆。\n- **心臟與肝臟鐵可同次評估但需分開判讀**：肝鐵（liver iron concentration）與心肌鐵不必然平行，心肌 T2* 可在肝鐵已高時仍正常、或反之；故 thalassemia 追蹤須同時測心與肝，不可以肝鐵推估心鐵。\n- **技術陷阱**：不同磁場強度（1.5T vs 3T）與序列參數會影響 T2* 絕對值，須用同機同 protocol 追蹤；R2*（=1000/T2*）與 T2* 為倒數關係，報告時勿混用單位。",
   "keyPoints": [
     "**T2* <20 ms**：異常（cardiac iron overload）。",
     "**T2* <10 ms**：嚴重，heart failure 風險顯著增加。",
     "T2* **下降**（decrease）代表鐵沉積增加 → **poor outcome**。",
     "T1 上升（increased T1）可見於 iron overload，但 T2* 為標準評估工具。"
   ],
-  "management": "",
+  "management": "- 據 PubMed 一項系統性回顧與統合分析，輸血依賴型 β-thalassemia major 病人中，心肌鐵沉積（T2* <20 ms）的整體盛行率約 25%，心血管併發症約 42%。\n- 心臟疾病仍是 thalassemia major 病人主要的罹病與死亡原因，鐵沉積為核心可逆病因。\n- 反覆輸血造成的鐵過載會沉積於心肌、肝臟與內分泌器官，須以鐵螯合治療處理。\n- 早期心肌鐵過載常無症狀，故需以 MRI T2* 與血清 ferritin 定期監測，而非等症狀出現。\n- 及時的鐵螯合與監測可預防心肌鐵沉積並改善預後。",
   "name": "Cardiac MRI — Iron Overload (T2*)",
   "nameZh": "心臟鐵沉積",
   "slug": "cardiac-mri-iron-overload",

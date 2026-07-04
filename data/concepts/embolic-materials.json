@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**栓塞材料依作用時間分為暫時性（如Gelfoam，數週內被吸收）與永久性（如polyvinyl alcohol/PVA、isobutyl-2-cyanoacrylate/IBC、絕對酒精）；十二指腸出血栓塞治療常用材料為Gelfoam、PVA顆粒與微線圈，Lipiodol並非栓塞材料，而是化療栓塞用之油性顯影劑/藥物載體。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.diii.2021.03.004",
+      "url": "https://doi.org/10.1016/j.diii.2021.03.004"
+    }
+  ],
+  "imagingFindings": "- **依機轉選材**：栓塞材料分暫時性（Gelfoam，數週吸收，適合可自限之急性出血）與永久性（PVA 顆粒、microcoils、絕對酒精、cyanoacrylate 膠）；材料選擇取決於目標血管口徑、暫時/永久需求與是否需 distal vs proximal 阻斷。\n- **顆粒 vs 線圈 vs 液態膠的定位**：顆粒（PVA、微球）達末梢阻斷、線圈適合定點近端阻斷、液態 NBCA 膠可快速滲入並在凝血功能不良病人達持久止血，各有適應症與非目標栓塞風險。\n- **消化道出血栓塞**：Gelfoam、PVA 顆粒、microcoils 皆為適用材料；N-butyl cyanoacrylate（NBCA）液態膠在非靜脈曲張性上/下消化道出血之技術成功率極高（約 98–99%），為凝血異常時的重要選項。\n- **判讀與陷阱**：Lipiodol（碘化油）為 TACE 之油性藥物載體/顯影劑而非止血栓塞劑，出血栓塞題勿選；栓塞後影像須評估非目標栓塞、缺血與再出血，NBCA 於 30 天再出血率約 12–16%。",
   "keyPoints": [
     "**暫時性（temporary/short-acting）栓塞材料**：**Gelfoam**——會於數週內被人體吸收，並非長效永久性材料。",
     "**永久性（long-acting/permanent）栓塞材料**：Polyvinyl alcohol（PVA, Ivalon）、isobutyl-2-cyanoacrylate（IBC, Bucrylate）、絕對酒精（absolute ethanol）、微線圈（microcoils）。",
     "**十二指腸出血栓塞適用材料**：Gelfoam、PVA顆粒、微線圈皆為適用之栓塞材料。",
     "**Lipiodol（碘化油）並非栓塞材料**——為經動脈化療栓塞（TACE）中用於載送化療藥物並暫時性阻塞腫瘤血管之油性顯影劑/藥物載體，並非治療出血之標準栓塞材料。"
   ],
-  "management": "",
+  "management": "- 經導管動脈栓塞是非靜脈曲張性消化道出血在內視鏡失敗或不適用時的一線微創止血方式。\n- 材料選擇依出血性質而定：可自限者用暫時性 Gelfoam，需持久阻斷者用永久性材料。\n- NBCA 液態膠對凝血功能不良病人特別有利，可不依賴自體凝血達成止血。\n- 據 PubMed 統合分析，NBCA 栓塞治療非靜脈曲張性消化道出血技術成功率約 98–99%、臨床成功率約 78–88%，主要併發症率低。\n- 栓塞後須監測再出血與腸道缺血，30 天再出血率約 12–16%，必要時重複介入或轉手術。",
   "name": "Embolic Materials — Properties and Selection",
   "nameZh": "栓塞材料",
   "slug": "embolic-materials",

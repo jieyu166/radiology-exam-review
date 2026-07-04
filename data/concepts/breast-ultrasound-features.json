@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**乳房超音波的惡性特徵口訣「不規則、比高還高、毛刺角狀邊、低回音、後方聲影、微鈣化、垂直生長」。反過來「純高回音結節（purely echogenic/hyperechoic nodule）」是良性特徵（脂肪、纖維化），最不像惡性——這是本題陷阱。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/radiology.196.1.7784555",
+      "url": "https://doi.org/10.1148/radiology.196.1.7784555"
+    }
+  ],
+  "imagingFindings": "- **判讀邏輯（先排惡性、再判良性）**：Stavros 分類要求一個結節必須**完全不具任何惡性徵象**，才能進一步以良性徵象歸類為良性；只要出現一項惡性徵象即不可判為良性——此「一票否決」邏輯是本題陷阱的骨架，也是為何「純高回音」只能在無惡性徵象時才代表良性。\n- **惡性徵象分層**：Stavros 將惡性徵象分為 spiculation、angular margins、marked hypoechogenicity、taller-than-wide（垂直生長）、microlobulation、後方聲影、鈣化、導管延伸、分支型態；其中 spiculation 與 taller-than-wide 特異度最高，判讀時逐項掃描邊緣、方向與回音強度。\n- **純高回音（purely hyperechoic）之判讀**：均質、強高回音的實質結節（脂肪小葉、纖維化、纖維腺瘤部分成分）幾乎不會是浸潤癌，為分類體系中最強的良性提示之一，故在選擇題中「最不可能為惡性」。\n- **DDx／pitfalls**：(1) 高回音亦可見於少數含脂肪或黏液成分之病灶，仍需搭配其他徵象與臨床；(2) taller-than-wide 應在探頭**未過度加壓**下判定，過度加壓可造成假性 wider-than-tall；(3) 後方聲影可源自良性纖維化或 Cooper 韌帶邊緣折射，需與真正腫瘤性聲影區分。\n- **陰性預測價值**：Stavros 原始 750 例研究中，嚴格判為良性者惡性率極低（NPV 99.5%、敏感度 98.4%），支持「符合嚴格良性條件者可影像追蹤而非切片」——前提是嚴格套用「無任何惡性徵象」。",
   "keyPoints": [
     "**惡性超音波特徵（Stavros/BI-RADS）**：",
     "**Microlobulation（微小分葉）**：邊緣多個小分葉。",
@@ -13,7 +18,7 @@
     "後方聲影、微鈣化、導管延伸、分支型態。",
     "**良性特徵（本題陷阱）**：**Purely echogenic / hyperechoic nodule（純高回音結節）**——高回音多為脂肪、纖維化等良性成分，**最不可能為惡性**。其他良性徵象含橢圓形、平行(wider-than-tall)、薄完整假包膜、≤3個柔和分葉。"
   ],
-  "management": "",
+  "management": "- 乳癌為女性最常見惡性腫瘤之一，危險因子含年齡、家族史、BRCA1/2 突變、初經早停經晚、未生育與荷爾蒙暴露。\n- 超音波在**緻密乳房**及年輕女性為重要輔助工具，可補足乳房攝影敏感度不足之處。\n- 觸診可疑腫塊即使影像判為良性，若臨床高度懷疑仍應考慮組織取樣（triple assessment 原則）。\n- 乳癌治療依分期與受體狀態（ER/PR/HER2）決定，含手術、化療、荷爾蒙治療與標靶治療。\n- 早期偵測與規律篩檢可顯著改善預後與存活率。",
   "name": "Breast Ultrasound — Benign vs Malignant Features",
   "nameZh": "乳房超音波良惡性特徵",
   "slug": "breast-ultrasound-features",

@@ -2,13 +2,18 @@
   "checked": false,
   "definition": "**月狀骨脫位破壞的是Arc II（近排腕骨遠端凸面弧線）——這條弧線描繪舟狀骨、月狀骨、三角骨的遠端凸面輪廓，月狀骨脫位時此弧線的連續性首當其衝被打斷。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.5152/j.aott.2021.19246",
+      "url": "https://doi.org/10.5152/j.aott.2021.19246"
+    }
+  ],
+  "imagingFindings": "- **Gilula 三弧線的判讀基準**：正常腕部後前位(PA)片上，三條 Gilula 弧線應平滑連續；任一弧線出現階梯狀中斷或不對稱，即提示腕骨排列異常或關節脫位，是評估腕骨穩定度的第一步。\n- **月狀骨脫位破壞 Arc II**：月狀骨掌側脫位時，近排腕骨遠端凸面(Arc II)連續性首當其衝被打斷；側位片可見月狀骨呈「傾杯徵(spilled teacup sign)」、頭狀骨陷入橈骨與月狀骨之間。\n- **與月狀骨周圍脫位鑑別**：月狀骨周圍脫位(perilunate)在側位片月狀骨仍與橈骨對位、但頭狀骨向背側移位，屬 Mayfield 進程之一環；PA 片同樣以 Gilula 弧線中斷提示異常，需兩個投照面互相對照。\n- **其他判讀要點**：評估舟月角(SL angle)、舟月間距(SL interval)、腕骨高度(carpal height)可補充 Gilula 弧線，共同判斷腕骨不穩定與骨折-脫位。",
   "keyPoints": [
     "**腕骨弧線(Gilula's arcs)分類**：Arc I（近排腕骨近端凸面）、Arc II（近排腕骨遠端凸面）、Arc III（頭狀骨與鉤狀骨近端凸面）。",
     "**月狀骨脫位(lunate dislocation)之弧線破壞**：破壞**Arc II**（近排腕骨遠端凸面弧線）之連續性。"
   ],
-  "management": "",
+  "management": "- 月狀骨脫位與月狀骨周圍脫位多由高能量創傷(如手掌撐地跌倒、車禍)造成，屬需及時處理的腕部急症。\n- 此類損傷常合併舟狀骨骨折(經舟狀骨月狀骨周圍骨折-脫位)，臨床易被漏診。\n- 延遲診斷或復位不良可導致慢性腕部不穩定、正中神經壓迫及創傷後關節炎。\n- 治療多需切開復位內固定(ORIF)修復韌帶與骨折，恢復腕骨排列。\n- 即使妥善治療，長期握力與活動度常無法完全恢復至健側水準。\n\n> [!note] 考點\n> 月狀骨脫位破壞**Arc II**。",
   "name": "Carpal Arcs (Gilula Lines) & Lunate Dislocation",
   "nameZh": "腕骨弧線",
   "slug": "carpal-arcs-lunate-dislocation",

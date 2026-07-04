@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**卵巢成熟囊性畸胎瘤（Ovarian mature cystic teratoma / dermoid cyst）**——含脂肪腫塊，T1WI 高訊號（脂肪）、CT 可見壁鈣化與脂肪-液面（fat-fluid level）；T2WI \"shading\" 為**子宮內膜異位瘤（endometrioma）**特徵而非畸胎瘤。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/s0221-0363(10)70003-2",
+      "url": "https://doi.org/10.1016/s0221-0363(10"
+    }
+  ],
+  "imagingFindings": "- **脂肪是診斷核心**：CT 見負值密度（脂肪）或 MRI T1WI 高訊號且 fat-sat 抑制，即高度提示 dermoid；但**含脂肪並非畸胎瘤獨有**，未成熟畸胎瘤（immature teratoma）亦可含脂肪，兩者預後與治療不同，須加辨。\n- **良惡性/成熟度辨別**：成熟囊性畸胎瘤多為境界清楚、內含脂肪與 Rokitansky protuberance（含牙齒/骨/毛髮）之囊性腫塊；出現顯著實質強化、大量軟組織成分、快速增大或大範圍不規則實質時，應警覺未成熟畸胎瘤或惡性轉化（多為鱗狀細胞癌）。\n- **特徵徵象整合**：fat-fluid level、壁鈣化、皮脂/毛髮球（dermoid plug）、US 之 tip-of-the-iceberg 與 dermoid mesh（點線狀高回音）互相佐證；掌握這些徵象於多數個案可自信診斷。\n- **關鍵鑑別陷阱**：T2 shading（訊號漸暗）為**子宮內膜異位瘤（endometrioma）**含鐵血黃素之特徵，非畸胎瘤；勿把 endometrioma 的 T2 shading 誤記為畸胎瘤徵象。",
   "keyPoints": [
     "**T1WI**：**高訊號**（脂肪成分），fat-sat 序列可抑制。",
     "**CT**：含脂肪密度成分、**壁鈣化**、牙齒/骨骼成分。",
     "**Fat-fluid level**：脂肪浮於液面上方，為特徵性表現。",
     "US：**\"Tip of the iceberg\" sign**（Rokitansky nodule 後方強烈衰減）。"
   ],
-  "management": "",
+  "management": "- 成熟囊性畸胎瘤（dermoid cyst）是年輕女性最常見的卵巢生殖細胞腫瘤之一。\n- 由三個胚層之成熟組織構成，屬良性，多為單側且生長緩慢。\n- 臨床多無症狀而偶然發現，較大者可因扭轉（torsion）、破裂或壓迫而出現急性症狀。\n- 惡性轉化少見（約 1–2%，多為鱗狀細胞癌），好發於年長者與較大腫瘤。\n- 治療以手術切除（多可行卵巢囊腫摘除保留卵巢）為主，預後良好。",
   "name": "ovarian-mature-cystic-teratoma",
   "nameZh": "",
   "slug": "ovarian-mature-cystic-teratoma",

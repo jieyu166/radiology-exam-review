@@ -2,7 +2,12 @@
   "checked": false,
   "definition": "**CT 掃描關鍵參數：Pitch = 每轉一圈床台移動距離 / beam collimation，僅適用於 helical 模式，axial 模式下不需調整。減少 motion artifact 靠加快掃描速度（縮短 rotation time、增加 pitch）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.346140084",
+      "url": "https://doi.org/10.1148/rg.346140084"
+    }
+  ],
   "imagingFindings": "",
   "keyPoints": [
     "**Pitch**：僅適用於 helical 模式，axial 模式下不適用。",

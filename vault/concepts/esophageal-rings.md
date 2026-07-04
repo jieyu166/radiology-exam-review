@@ -19,11 +19,25 @@ dateRev: 2026-07-02
 - **B ring（Schatzki ring / mucosal ring）**：位於 **squamocolumnar junction**（即 GE junction），由**黏膜及黏膜下層**構成，**不可收縮（fixed）**。[^1]
 - Schatzki ring 內徑 <13 mm 時常引起嚺體食物吞嚥困難（dysphagia）。[^1]
 
+## 放射科醫師影像判讀重點
+- **最佳顯影法**：食道環（尤其 B ring/Schatzki ring）在食道鋇劑攝影(barium esophagram)之「充分擴張相」最易顯示——須以俯臥右前斜位、大口吞鋇並輔以固體團塊(如鋇錠/棉花糖)激發，若食道未充分擴張則環可被漏看。[^2]
+- **A ring vs B ring 影像定位**：A ring（肌肉環）位於 GE junction 近端，為較寬、平滑、可隨蠕動變化之對稱性壓跡（收縮性）；B ring（Schatzki）位於 squamocolumnar junction（多在滑動型裂孔疝上緣），為薄、固定、對稱之環狀狹窄（黏膜性），此定位差異為鑑別關鍵。[^2]
+- **與裂孔疝/逆流之關聯**：Schatzki ring 幾乎恆與滑動型裂孔疝(sliding hiatal hernia)並存（文獻報告可達 97%），並常合併逆流性食道炎、食道蹼(web)等其他食道病變，支持多因子成因，判讀時應同時評估這些伴隨異常。[^2]
+- **陷阱與 DDx**：內徑 <13 mm 常引起間歇性固體食物吞嚥困難與食物嵌塞(food impaction)；判讀時須與嗜酸性食道炎(EoE，可見多發環/縱溝)、消化性狹窄、食道蹼相鑑別，並注意 Schatzki ring 常因食道擴張不足而被忽略。[^2]
+
+## 臨床重點（5 句）
+- Schatzki ring 病人幾乎皆以間歇性固體食物吞嚥困難來診，且相當比例(近 8 成)有食物嵌塞病史。[^2]
+- 症狀常在確診前已持續數年，且先前檢查常漏診，反映臨床上易被忽略。[^2]
+- Schatzki ring 幾乎恆合併滑動型裂孔疝，並常伴逆流性食道炎，支持其多因子(逆流相關)成因假說。[^2]
+- 部分病人並存食道蹼、嗜酸性食道炎或食道憩室，故確診 Schatzki ring 後仍應評估其他食道病變。[^2]
+- 治療以內視鏡擴張(bougie/球囊)為主，合併之胃食道逆流常需併用制酸治療以降低復發。[^2]
+
 > [!warning] 答案存疑（Q223）
 > 官方詳解原答案標示為 **D**，惟題目問「位於 GE junction 近端的食道環」，應為 **A ring（muscular ring）**，即答案 **A**。A ring 位於 GE junction proximal，B ring（Schatzki）位於 GE junction 處。本概念採用 **A** 為正確答案。[^1]
 
 ### 參考來源
 [^1]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.：esophageal A ring（muscular，proximal to GE junction）vs B ring（Schatzki，at squamocolumnar junction）。
+[^2]: **Tier 1** Müller M, Gockel I, Hedwig P, et al. *Is the Schatzki ring a unique esophageal entity?*. World J Gastroenterol 2011;17(23):2838-2843（據 PubMed，DOI [10.3748/wjg.v17.i23.2838](https://doi.org/10.3748/wjg.v17.i23.2838)；實際查證 accessed 2026-07-04）——167 例前瞻登錄之症狀性 Schatzki ring：平均環徑約 13.9 mm，79.6% 有食物嵌塞史，97% 併滑動型裂孔疝、28.1% 併侵蝕性逆流性食道炎、15.6% 併食道蹼，支持多因子成因且該環常被漏診。原「官方詳解/Dahnert 手冊」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

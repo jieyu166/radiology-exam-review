@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**前十字韌帶(ACL)重建手術成功的關鍵在於股骨隧道與脛骨隧道的正確定位——股骨隧道應開口於髁間窩的「後上方(superoposterior)」（冠狀面影像），而非前上方；脛骨隧道則應與Blumensaat線平行，且開口位置應在Blumensaat線與脛骨交會點的「後方」。** 判讀分水嶺：**股骨隧道下緣位置：矢狀面上位於股骨後緣皮質線與髁間窩頂部延伸線的交點;股骨隧道冠狀面開口：應在髁間窩的後上方（左膝時鐘位置約1-2點鐘方向），非前上方——這是最常見的誤答陷阱;脛骨隧道方向：應與Blumensaat線平行;脛骨隧道開口：應完全位於Blumensaat線後方。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1177/0363546519873633",
+      "url": "https://doi.org/10.1177/0363546519873633"
+    }
+  ],
+  "imagingFindings": "- **解剖重建目標**：ACL 重建成功關鍵在於將移植腱置於原生足印（footprint）內；即使採現代解剖式技術，脛骨隧道仍常有系統性定位誤差，判讀時須量化偏移方向與程度。\n- **脛骨隧道定位（客觀量測）**：以 3D MRI/影像對照健側，量測重建足印中心相對原生足印的偏移；文獻示脛骨隧道傾向偏內（medial）且偏後（posterior），並可測 tunnel angle、關節內移植腱角度與與原生足印之重疊百分比。\n- **股骨隧道開口（冠狀面關鍵易錯點）**：應開口於髁間窩後上方（superoposterior，左膝約 1-2 點鐘），前置（anterior/過淺）會致移植腱過度緊繃與屈曲受限，是常見誤答與臨床失敗機轉。\n- **矢狀面隧道方向**：脛骨隧道應與 Blumensaat 線平行、開口完全位於其後方；開口過前造成 roof/notch impingement 與伸直受限。\n- **判讀 pitfalls**：隧道錯位（過前/過淺）為移植失敗常見原因，須系統性檢查足印重疊與隧道角度而非僅目視；並注意移植腱訊號、隧道擴大與 cyclops lesion 等併發症。",
   "keyPoints": [
     "**股骨隧道下緣（矢狀面）**：應位於**股骨後緣皮質延伸線**與**髁間窩頂部延伸線**的交點處。",
     "**股骨隧道開口（冠狀面，關鍵易錯點）**：應開口於髁間窩的**「後上方」(superoposterior)**（左膝約1-2點鐘方向），而非「前上方(anterior)」——原題誤植「anterior」，正確應為「posterior」。",
     "**脛骨隧道方向（矢狀面）**：應與**Blumensaat線平行**。",
     "**脛骨隧道開口位置**：應完全位於**Blumensaat線後方(posterior)**——若脛骨隧道開口位於Blumensaat線前方，會造成術後伸直受限（notch impingement）。"
   ],
-  "management": "",
+  "management": "- ACL 損傷好發於軸轉/減速運動（如籃球、足球、滑雪），常伴 pivot-shift 不穩。\n- 解剖式單束重建旨在恢復膝關節運動學與旋轉穩定度。\n- 移植腱錯置（隧道定位不良）是術後不穩與再斷裂的主要可預防原因。\n- 常用移植腱包括自體膕旁肌腱（hamstring）與骨-髕腱-骨（BPTB）。\n- 術後復健與漸進式負重對恢復穩定度與功能至關重要。\n\n> [!note] 考點：關於ACL重建評估，何者「為偽」?\n> **B為偽**——股骨隧道應開口於髁間窩的**後上方(posterior)**，而非「前上方(anterior)」。矢狀面股骨隧道下緣定位法(A)、脛骨隧道與Blumensaat線平行(C)、脛骨隧道開口完全位於Blumensaat線後方(D)皆為真。",
   "name": "ACL Reconstruction — Tunnel Position Evaluation on MRI",
   "nameZh": "前十字韌帶重建骨隧道",
   "slug": "acl-reconstruction-tunnel-mri",

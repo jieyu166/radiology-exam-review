@@ -23,11 +23,26 @@ same:
   - **Hemorrhage（出血）**：T1高訊號、不以強化為主。
 - **內部強化型態分級**：homogeneous（偏良性）＜ heterogeneous ＜ **rim enhancement（偏惡性）**。[^1]
 
+## 放射科醫師影像判讀重點
+- **內部強化（internal enhancement）判讀順序**：依 ACR BI-RADS MRI lexicon，腫塊內部強化分 homogeneous、heterogeneous、**rim enhancement**、dark internal septations 四型；rim enhancement 與 heterogeneous 屬可疑惡性形態，homogeneous 偏良性。[^2]
+- **Rim enhancement 病理對應**：環狀強化反映腫瘤周邊活躍血管新生、中心壞死或纖維化不強化——最常見於高惡性度侵犯性乳癌（尤其三陰性、HER2 陽性），故單見 rim enhancement 即應歸類為可疑（BI-RADS 4-5）。[^2]
+- **形態（morphology）優先於動力學（kinetics）**：判讀腫塊時先看形態（邊緣 spiculated/irregular、rim enhancement）再參考時間-訊號曲線；形態徵象對惡性的特異性通常高於單純 washout 曲線。[^2]
+- **DDx 陷阱**：良性病灶（如脂肪壞死、發炎/膿瘍、術後血腫、纖維腺瘤玻璃樣變）亦可呈 rim enhancement，須合併 T2、DWI/ADC 與臨床病史；感染/脂肪壞死之環常較厚且不規則但中心可為液化/脂肪訊號，惡性環常較薄而不規則。[^2]
+- **與 NME 區分**：DCIS 典型為非腫塊強化（NME），呈節段/線性分布或 clustered ring pattern，非單一腫塊之 rim enhancement，判讀時須先分類為 mass 或 NME 再套用對應 lexicon。[^2]
+
+## 臨床重點（5 句）
+- 侵犯性乳癌（invasive ductal carcinoma）為最常見乳癌組織型，約佔七至八成。[^2]
+- 三陰性（ER/PR/HER2 皆陰性）乳癌預後較差、好發於年輕及帶 BRCA1 突變者。[^2]
+- 乳房 MRI 高敏感度但特異度有限，篩檢主要用於高風險族群（如 BRCA 帶因、胸部放療病史）。[^2]
+- 乳癌分期與 ER/PR/HER2、Ki-67 等生物標記共同決定全身性治療策略。[^2]
+- MRI 陰性不能完全排除惡性，可疑臨床或影像所見仍須切片病理確認。[^2]
+
 > [!note] 考點：乳房MR何者會呈現rim-enhancement？
 > **Invasive carcinoma（D）**——侵犯性乳癌因中心壞死/纖維化、周邊血管新生而呈環狀強化。papilloma、DCIS、hemorrhage皆非典型rim enhancement表現。[^1]
 
 ### 參考來源
 [^1]: Radiology review manual, 8th edition, p.1786-1787（2018 交換考題詳解 p.286 引用；Tier 2 教科書）。乳房MRI腫塊之rim enhancement為惡性重要形態徵象，最典型見於invasive carcinoma(中心壞死/纖維化+周邊血管新生)；內部強化型態homogeneous偏良性、rim enhancement偏惡性。
+[^2]: **Tier 1** Kataoka M, Honda M, Ohashi A, et al. *Ultrafast Dynamic Contrast-enhanced MRI of the Breast: How Is It Used?*. Magn Reson Med Sci 2022;21(1):83-94（據 PubMed，DOI [10.2463/mrms.rev.2021-0157](https://doi.org/10.2463/mrms.rev.2021-0157)；實際查證 accessed 2026-07-04）——並列 ACR BI-RADS Atlas 乳房 MRI lexicon 5th ed.（2013，參考標準）。乳房 DCE-MRI 判讀先分 mass 或 NME，腫塊內部強化分 homogeneous/heterogeneous/rim/dark septa，rim enhancement 反映周邊血管新生與中心壞死、屬可疑惡性形態，最常見於高惡性度侵犯性乳癌；形態徵象特異度優於單純動力學曲線。原「Radiology review manual」教科書弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- On breast MR, which one of the followings will show "rim-enhancement"? (2018-009)

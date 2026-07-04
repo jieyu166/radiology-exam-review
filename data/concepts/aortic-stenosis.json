@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**主動脈瓣狹窄用CT評估瓣口面積時，要在「收縮中期（midsystole）」取像——此時瓣膜開啟、相對靜止，能量測最大開口。用ECG-gated cardiac CTA的『舒張期』取像量瓣口是錯誤的（舒張期瓣膜關閉）。這是本題陷阱。其餘：AS好發70歲以上老人、severe AS瓣口<1cm²(<100mm²)常伴嚴重鈣化、最新治療為經導管置換人工瓣膜(TAVI/TAVR)。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1161/CIRCULATIONAHA.119.041080",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.119.041080"
+    }
+  ],
+  "imagingFindings": "- **CT 平面法量瓣口（planimetry）取像時相**：以 ECG-gated cardiac CT 直接描繪主動脈瓣開口面積時，須在**收縮中期**重建（瓣葉最大張開、相對靜止）；於**舒張期重建量瓣口為錯誤**（此時瓣葉閉合，量得的是閉合線而非開口）——此即本題陷阱。\n- **CT 鈣化評分（Agatston）之角色**：CT 常用於量化主動脈瓣鈣化負荷，於超音波流速／梯度與瓣口不一致（如 low-flow low-gradient AS）時，作為判定 severe AS 的補充依據；鈣化評分應於**非增強**掃描量測。\n- **CT 在 TAVI 術前的核心用途**：測量瓣環大小與形狀、竇部與冠狀動脈開口高度、瓣膜鈣化分布，以及評估股動脈／髂動脈入路，是 TAVI 規劃不可或缺的影像；現行 Heart Team 決策幾乎皆納入術前 cardiac CT。\n- **DDx／pitfalls**：(1) 退化性鈣化性 AS（老年）需與二葉式主動脈瓣（年輕、瓣葉數目異常、常合併主動脈病變）及風濕性 AS（常合併二尖瓣受累）區分；(2) 超音波為評估血流動力學（梯度、瓣口）首選，CT／MR 為補充；(3) 影像量得的解剖瓣口（GOA）常略大於超音波連續方程式算得的有效瓣口（EOA），解讀 severe 閾值時需注意方法差異。",
   "keyPoints": [
     "**流行病學**：**好發於70歲以上老人**（退化性鈣化性AS）。",
     "**Severe AS定義**：瓣口面積**<1 cm²（<100 mm²）**、常伴嚴重瓣膜鈣化；壓力梯度>40 mmHg。（Critical：梯度>80 mmHg、瓣口<0.5 cm²）。",
     "**CT評估時相（本題重點）**：以ECG-gated cardiac CTA評估瓣口/狹窄程度時，應於**收縮中期（midsystole）**取像——此時瓣膜開啟、相對靜止（valve cusps open and relatively quiescent），可準確量測最大瓣口；**「舒張期取像」錯誤**（舒張期瓣膜關閉）。",
     "**治療**：最新技術為**經皮穿刺以導管技術置換人工瓣膜（TAVI/TAVR）**。"
   ],
-  "management": "",
+  "management": "- 退化性鈣化性 AS 為老年最常見瓣膜病，與年齡、高血壓、脂質及慢性發炎相關，病程進行性。\n- 典型症狀三聯為心絞痛、暈厥與心衰竭，症狀出現後若不治療預後顯著惡化。\n- Severe symptomatic AS 為介入指標；治療選項為外科換瓣（SAVR）與經導管置換（TAVI/TAVR）。\n- 現行歐洲與美國指引中，TAVI 於高齡與較高手術風險者已成主流，且逐步擴及低風險族群。\n- 治療決策由多專科 Heart Team 依年齡、手術風險、解剖與共病共同決定。",
   "name": "Aortic Stenosis (AS) — Imaging & CT",
   "nameZh": "主動脈瓣狹窄",
   "slug": "aortic-stenosis",
