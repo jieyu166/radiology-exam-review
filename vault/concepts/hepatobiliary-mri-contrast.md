@@ -35,6 +35,13 @@ same:
 > [!note] 常見考點
 > Primovist 50/50 肝腎、肝膽期 20 分;MultiHance ~3–5% 經膽;肝膽期**攝取者＝FNH/含 OATP 之 HCC/再生結節**,**轉移/囊腫不攝取**;經 OATP1 攝取、MRP2 排膽。[^1]
 
+## 放射科醫師影像判讀重點
+- **肝膽期時機依製劑而定**：Gd-EOB-DTPA（Primovist，~50% 經膽）約 **20 分**取肝膽期；Gd-BOPTA（MultiHance，僅 ~3–5% 經膽）需等 **60–120 分**——排程與掃描時間點要對，過早取相會誤判攝取。[^1][^3]
+- **肝膽期訊號解讀**：機轉為肝細胞 OATP1B1/B3 攝取 → MRP2 排入膽道；**攝取（等/高訊號）＝含功能性肝細胞＋膽管的病灶**（FNH、部分保留 OATP 的高分化 HCC、再生結節），**不攝取（低訊號）＝轉移、囊腫、血管瘤、多數腺瘤、低分化 HCC**。[^1]
+- **gadoxetate 的技術取捨**：動脈期/靜脈期強化較弱、動脈期易因短暫呼吸困難/移動產生假影、肝功能不良/纖維化時肝實質攝取下降；但**小病灶在肝膽期偵測率反而提高**（為優點非缺點）。[^1]
+- **HCC 肝膽期矛盾攝取（paradoxical uptake）判讀陷阱**：部分 HCC 於肝膽期反常呈等/高訊號，機轉為 **OATP8（OATP1B3）表現量升高（非降低）＋MRP2 表現量降低**造成細胞質內滯留，並與腫瘤壓迫致膽汁分泌障礙有關——勿因肝膽期攝取即排除 HCC。[^2]
+- **與血管瘤的交互陷阱**：肝膽期肝實質增亮會使高流量血管瘤相對變暗呈 **pseudo-washout**，判讀勿單看肝膽期相對訊號，須併看 T2 與動態血池型態。[^1]
+
 ### 參考來源
 [^2]: 官方 2017 詳解；European Society of Radiology, ECR 2014, C-0963（doi:10.1594/ecr2014/C-0963）：HCC肝膽期矛盾攝取機轉為OATP8(OATP1B3)表現量升高（非降低）搭配MRP2表現量降低，造成對比劑細胞質滯留呈現高訊號；腫瘤壓迫致膽汁分泌障礙亦可促成訊號滯留。
 [^1]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「progressively into the **hepatocytes and bile ducts during the hepatobiliary phase** ... contrast MRI cholangiogram」;「linear, ionic molecule; **50% hepatic excretion, 50% renal excretion**」。肝膽期病灶攝取（FNH/OATP+ HCC vs 轉移不攝取）、OATP1B1/B3-MRP2 機轉、Gd-BOPTA ~3–5% 膽排為肝膽 MRI 共識（mriquestions.com / 肝臟 MRI 文獻）。

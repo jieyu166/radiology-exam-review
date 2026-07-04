@@ -42,6 +42,20 @@ dateRev: 2026-07-01
 > [!note] 考點：關於巨大胃皺襞病因,何者「為非」?
 > 「**MDCT 是鑑別這些病因的好工具**。成因含 scirrhous ca/lymphoma/Ménétrier(A)、胃淋巴瘤源自黏膜下(C)、壁分層消失＝惡性最佳預測(D)皆正確。[^1]
 
+## 放射科醫師影像判讀重點
+- **第一分水嶺＝壁分層在不在**：MDCT 上正常三層（強化黏膜／低衰減黏膜下／高衰減肌漿膜）保留 → 良性（AGML、Ménétrier）；**分層消失＝惡性最佳預測因子**（scirrhous ca 全數、lymphoma 14/15 消失）。[^1]
+- **次要惡性線索**：perigastric 脂肪浸潤或淋巴結病變（abnormal perigastric condition，OR 210.1）；見此即使壁不極厚也偏惡性。[^1]
+- **以壁厚分**：large B-cell lymphoma 最厚（26.6±9.0 mm）且仍柔軟可塑、可跨幽門、常伴遠處（aortocaval/hepatoduodenal）淋巴結；scirrhous ca 中等厚（僵硬固定、蠕動消失、必有 perigastric 浸潤）；AGML 最薄（4.4±1.0 mm）。[^1]
+- **鋇劑 UGI／US 佐證**：UGI 看皺襞是否柔軟可塑、蠕動波是否通過（僵硬固定偏 linitis plastica）；經腹/內視鏡 US 第 4 層（muscularis propria）增厚僅見於惡性，Ménétrier 僅第 2 層增厚。[^3][^2]
+- **判讀陷阱**：MDCT 是鑑別此組病因的「好」工具（診斷準確率達 100%），非差選擇；胃淋巴瘤源自黏膜下瀰漫浸潤故「大而軟」，勿因腫塊 bulky 就直接判 scirrhous ca。[^1]
+
+## 臨床重點（5 句）
+- Ménétrier disease 為蛋白流失性胃病＋低胃酸（hypochlorhydria），可致低白蛋白血症與胸/腹水，屬罕見病（盛行率 <1/200,000）。[^2]
+- Zollinger-Ellison（gastrinoma）與 Ménétrier 相反為高胃酸，臨床以多發、難治、遠端十二指腸/空腸潰瘍為特徵，皺襞肥厚時應加驗血清 gastrin。[^2]
+- Anisakiasis 為日本因食用未煮熟海魚感染 Anisakis 幼蟲所致，多有急性上腹痛病史，切片見顯著嗜酸性球浸潤。[^3]
+- 影像無法確診，鑑別 Ménétrier／ZES／淋巴瘤／scirrhous 癌須靠內視鏡深層黏膜切片（含黏膜下）＋細胞學。[^2]
+- Scirrhous carcinoma（linitis plastica，皮革胃）屬 Borrmann type 4 進行癌，預後差，臨床常已晚期。[^1]
+
 ### 參考來源
 [^1]: Chen CY, Jaw TS, Wu DC, Kuo YT, Lee CH, Huang WT, Liu GC. MDCT of Giant Gastric Folds: Differential Diagnosis. *AJR Am J Roentgenol.* 2010;195(5):1124–1130. DOI: 10.2214/AJR.09.3129. **全文已讀（[[2010 AJR MDCT of Giant Gastric Folds- Differential Diagnosis.pdf]]，accessed 2026-06-28）**。64 例 16-MDCT（30 scirrhous ca／15 large B-cell lymphoma／14 AGML／5 Ménétrier），四病因整體診斷準確率 100%；壁分層消失為惡性最佳 MDCT 預測因子（perfect prediction），abnormal perigastric condition 為次佳（OR 210.1）；lymphoma 壁最厚（26.6±9.0 mm）。
 [^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Friedman J, Platnick J, Farruggia S, Khilko N, Mody K, Tyshkov M. Ménétrier Disease. *RadioGraphics.* 2009;29(1):297–301. DOI: 10.1148/rg.291075216。Ménétrier 為蛋白流失＋低胃酸、UGI cerebriform 巨大皺襞且相對保留 antrum；屬罕見疾病（<1/200,000）；病理為黏膜增生＋foveolae 加深＋囊性擴張；**內視鏡超音波五層中僅第 2 層（黏膜）增厚且回音增強，第 3/4 層正常**；ZES 為高胃酸＋難治潰瘍；皆需深層黏膜切片鑑別。

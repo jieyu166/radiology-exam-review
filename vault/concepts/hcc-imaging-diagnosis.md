@@ -78,6 +78,21 @@ dateRev: 2026-06-29
 > [!note] 考點
 > **「無 capsule/pseudocapsule」不利 HCC**（有利者：動脈期高強化、washout、瘤栓）。移植：3 顆 HCC(1.5/3.0/2.0 cm) 符合 Milan/UCSF（≤3 顆、各 ≤3 cm、總和 <8 cm）。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **四大有利徵象一起看**：APHE（non-rim 動脈期高強化）＋washout（non-rim 門脈/延遲期洗出）＋enhancing capsule（漸進強化、平滑薄環）＋tumor in vein 是 HCC 判讀支柱；**「無包膜」是不利 HCC 的最常考陷阱**——包膜偏 HCC，缺包膜偏其他。[^1][^3]
+- **washout 有嚴格定義**：須是相對周邊肝實質「由早到晚強化下降」，**單一靜脈期低密度（無先前 APHE）不算 washout**；且須在「同一位置」對位確認 APHE 與低強化同處，避免灌流異常（APS/THAD）造成假象。[^3]
+- **量測避開動脈期與 DWI**：APS、corona enhancement 使動脈期邊界模糊而高估病灶徑；size 取最大外緣對外緣，於門脈/延遲期量。[^3]
+- **模態選擇**：CT 相較 gadoxetate MRI 對 APHE 假陰性可達 ~57%、washout ~21%、capsule ~43%，並低估 LR 分級；不確定病灶宜以含 **HBP（肝膽期）** 的 MRI 再評，HBP 低訊號屬偏 HCC 的 ancillary 且能改善定性。[^4][^5]
+- **rim 型態導向 LR-M**：rim-APHE＋周邊 washout＋中央延遲漸進強化＝target 形態，偏 **膽管癌（ICC）／combined HCC-ICC** 或轉移；tumor in vein 亦可見於 ICC/轉移，故獨立為 LR-TIV。[^3]
+- **US 暈環方向是陷阱**：HCC 周邊暈環典型為**低迴聲暈（hypoechoic halo，對應局部脂肪缺失／纖維包膜）**，非高迴聲暈；小 HCC 多低迴聲、較大者因纖維化/脂肪變性/壞死/鈣化呈異質性，鈣化罕見，可侵犯門脈。[^6]
+
+## 臨床重點（5 句）
+- **LI-RADS 僅適用於高危族群**（肝硬化、慢性 B 肝、現有或曾有 HCC 者），不可用於 <18 歲或先天性肝纖維化／血管性病因所致肝硬化。[^3]
+- 高危族群的典型肝結節可「影像即診斷」HCC，**不需切片**，此為 HCC 有別於其他實體腫瘤之處。[^3]
+- **移植資格**：Milan＝單顆 ≤5 cm 或 ≤3 顆各 ≤3 cm、無大血管/肝外侵犯；UCSF＝單顆 <6.5 cm 或 ≤3 顆各 <4.5 cm 且總和 <8 cm；**須為 HCC，膽管癌（ICC）不符**。[^2]
+- **AJCC 第 8 版**：腫瘤任何大小若侵犯門脈或肝靜脈主要分支即為 **T4**（與大小無關）。[^7]
+- LR-3 追蹤約 80% 穩定、僅約 6% 進展為 HCC，臨床可據此安排間隔追蹤而非立即介入。[^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；RadioGraphics 2012;32:1977-1995：有利 HCC＝動脈期高強化、washout、capsule/pseudocapsule、tumor in vein。
 [^2]: 官方 2017 詳解；Milan criteria（單一 ≤5 cm/≤3 顆各 ≤3 cm）;UCSF criteria（單一 <6.5 cm/≤3 顆各 <4.5 cm 且總和 <8 cm）。

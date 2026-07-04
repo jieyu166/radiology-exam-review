@@ -29,6 +29,13 @@ dateRev: 2026-07-03
 > [!note] 考點：關於肺部 HRCT,何者「不正確」?
 > 「**用 ultra-smooth kernel 來降噪**」不正確——HRCT 用 **sharp（hard）kernel** 凸顯細微結構（噪訊較高但解析度佳）。吸／吐氣相、0.625–1.25 mm 薄切、主用於瀰漫性肺病皆正確。[^1]
 
+## 放射科醫師影像判讀重點
+- **重組演算法是 HRCT 的靈魂**：用 **high-spatial-frequency（sharp/hard/bone）kernel** 凸顯細網狀、結節、支氣管壁、小葉間隔等高對比細微結構；**代價是影像雜訊高**——不可為降噪改用 smooth kernel（會犧牲次級肺小葉層級的顯示）。[^1][^3]
+- **三支柱缺一不可**：薄切（≤1–1.5 mm，現代掃描器 0.5–0.625 mm）＋sharp 重組演算法＋足夠 kVp/mAs，三者共同決定空間解析度。[^3][^2]
+- **補充相位對應病灶**：常規全吸氣相；**吐氣相**偵測 air trapping（小氣道病）；**俯臥相**用於區分下肺墜積性變化（dependent atelectasis/opacity）與早期纖維化。[^3][^1]
+- **主要臨床角色**：評估瀰漫性肺病（ILD、emphysema、bronchiectasis、small airways disease）。[^1][^3]
+- **判讀陷阱**：sharp kernel 高雜訊、呼吸/運動假影、以及 dependent opacity 為常見誤判來源；見下肺墜積性緻密影先加俯臥相再判是否為纖維化。[^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Elicker BM, Webb WR. *Fundamentals of High-Resolution Lung CT*, p.10：HRCT 用 sharp/hard 重組 kernel 凸顯肺與骨等小而離散特徵(代價噪訊高),軟組織用 soft kernel 降噪;薄切、吸／吐氣相、主評估瀰漫性肺病。
 [^2]: Weerakkody Y, et al. *HRCT chest (protocol)*. Radiopaedia, rID-68126, DOI 10.53347/rID-68126（輔助來源）——**現代掃描器以 0.5–0.625 mm 薄切 + sharp reconstruction algorithm 取得 HRCT**；ILD 時另加**吐氣相、俯臥相**輔助——佐證 HRCT 用 sharp（非 smooth）kernel、薄切、吐氣相。

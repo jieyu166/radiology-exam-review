@@ -25,7 +25,7 @@
       "url": "https://doi.org/10.1016/j.acra.2015.11.002"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **四大有利徵象一起看**：APHE（non-rim 動脈期高強化）＋washout（non-rim 門脈/延遲期洗出）＋enhancing capsule（漸進強化、平滑薄環）＋tumor in vein 是 HCC 判讀支柱；**「無包膜」是不利 HCC 的最常考陷阱**——包膜偏 HCC，缺包膜偏其他。\n- **washout 有嚴格定義**：須是相對周邊肝實質「由早到晚強化下降」，**單一靜脈期低密度（無先前 APHE）不算 washout**；且須在「同一位置」對位確認 APHE 與低強化同處，避免灌流異常（APS/THAD）造成假象。\n- **量測避開動脈期與 DWI**：APS、corona enhancement 使動脈期邊界模糊而高估病灶徑；size 取最大外緣對外緣，於門脈/延遲期量。\n- **模態選擇**：CT 相較 gadoxetate MRI 對 APHE 假陰性可達 ~57%、washout ~21%、capsule ~43%，並低估 LR 分級；不確定病灶宜以含 **HBP（肝膽期）** 的 MRI 再評，HBP 低訊號屬偏 HCC 的 ancillary 且能改善定性。\n- **rim 型態導向 LR-M**：rim-APHE＋周邊 washout＋中央延遲漸進強化＝target 形態，偏 **膽管癌（ICC）／combined HCC-ICC** 或轉移；tumor in vein 亦可見於 ICC/轉移，故獨立為 LR-TIV。\n- **US 暈環方向是陷阱**：HCC 周邊暈環典型為**低迴聲暈（hypoechoic halo，對應局部脂肪缺失／纖維包膜）**，非高迴聲暈；小 HCC 多低迴聲、較大者因纖維化/脂肪變性/壞死/鈣化呈異質性，鈣化罕見，可侵犯門脈。",
   "keyPoints": [
     "**LI-RADS 只用於高危族群**：肝硬化、慢性 B 肝、或現有／曾有 HCC 者。**不可用於** <18 歲、或先天性肝纖維化／血管性病因（Budd-Chiari、心因性鬱血、瀰漫性結節性增生）所致之肝硬化。",
     "高危族群的肝結節走「影像即可診斷」路線——典型者**不需切片**即可定性為 HCC，這是 HCC 診斷有別於其他實體腫瘤的關鍵。",
@@ -62,7 +62,7 @@
     "**UCSF criteria**：單一 <6.5 cm,或 ≤3 顆各 <4.5 cm 且累積 <8 cm。UCSF 較 Milan 寬一號（5→6.5、3→4.5、加總和 <8 限制）。",
     "**須為 HCC**：膽管癌（ICC）不符移植條件。"
   ],
-  "management": "",
+  "management": "- **LI-RADS 僅適用於高危族群**（肝硬化、慢性 B 肝、現有或曾有 HCC 者），不可用於 <18 歲或先天性肝纖維化／血管性病因所致肝硬化。\n- 高危族群的典型肝結節可「影像即診斷」HCC，**不需切片**，此為 HCC 有別於其他實體腫瘤之處。\n- **移植資格**：Milan＝單顆 ≤5 cm 或 ≤3 顆各 ≤3 cm、無大血管/肝外侵犯；UCSF＝單顆 <6.5 cm 或 ≤3 顆各 <4.5 cm 且總和 <8 cm；**須為 HCC，膽管癌（ICC）不符**。\n- **AJCC 第 8 版**：腫瘤任何大小若侵犯門脈或肝靜脈主要分支即為 **T4**（與大小無關）。\n- LR-3 追蹤約 80% 穩定、僅約 6% 進展為 HCC，臨床可據此安排間隔追蹤而非立即介入。\n\n**參考來源**\n: 官方 2017 詳解；RadioGraphics 2012;32:1977-1995：有利 HCC＝動脈期高強化、washout、capsule/pseudocapsule、tumor in vein。\n: 官方 2017 詳解；Milan criteria（單一 ≤5 cm/≤3 顆各 ≤3 cm）;UCSF criteria（單一 <6.5 cm/≤3 顆各 <4.5 cm 且總和 <8 cm）。\n: 期刊全文（PMC 開放取用）。Schima W, Heiken J. *LI-RADS v2017 for liver nodules: how we read and report.* Cancer Imaging 2018;18:14. PMC5978995. DOI: https://doi.org/10.1186/s40644-018-0149-5 ——主要特徵定義（APHE non-rim、washout 之時間性、enhancing capsule 漸進強化、threshold growth、size 量測避動脈期/DWI）、適用族群、CT/MRI 期相、HBP、ancillary features 升降規則、LR-M／LR-TIV／DDx、APS/THAD 偽病灶與 LR-3。對應 ACR LI-RADS v2017。\n: 期刊（指南綜述）。Elsayes KM, et al. *2017 Version of LI-RADS for CT and MR Imaging: An Update.* RadioGraphics 2017;37:1994-2017. DOI: https://doi.org/10.1148/rg.2017170098 ——major/ancillary 定義、HBP 與 gadoxetate 之輔助角色、動態期相定義。另 Hope TA, et al. J Comput Assist Tomogr 2017;41:376-381（PMC5411341，DOI: https://doi.org/10.1097/RCT.0000000000000536）：gadoxetate HBP 改善不確定病灶定性，71% 病灶 LI-RADS 分類改變。\n: 期刊（比較研究）。Zhang YD, et al. *LI-RADS: Substantial Discordance Between CT and MR for Imaging Classification of Hepatic Nodules.* Acad Radiol 2016;23:344-352. DOI: https://doi.org/10.1016/j.acra.2015.11.002 ——CT 對 APHE 假陰性 57.1%、washout 21.2%、pseudocapsule 42.9%，CT 敏感度/準確度低於 MRI。\n: 官方2020詳解；Ref: Ahuja, A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 1-72~1-73.（題目所引）——小型HCC典型低迴聲，較大者因纖維化/脂肪變性/壞死/鈣化呈異質性；周邊暈環典型為低迴聲(對應局部脂肪缺失)而非高迴聲；鈣化罕見；可侵犯門脈。\n: 官方2020詳解；Ref: AJCC cancer stage Version 8（題目所引）——AJCC第8版HCC T分期：T1a單一≤2cm；T1b單一>2cm無血管侵犯；T2單一>2cm併血管侵犯或多發皆≤5cm；T3多發至少一顆>5cm；T4任何大小併門脈/肝靜脈主要分支侵犯，或侵犯膽囊以外鄰近器官，或穿破臟層腹膜。",
   "name": "HCC Imaging Diagnosis & Transplant Criteria",
   "nameZh": "肝癌影像診斷",
   "slug": "hcc-imaging-diagnosis",

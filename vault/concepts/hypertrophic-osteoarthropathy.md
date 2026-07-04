@@ -20,9 +20,22 @@ dateRev: 2026-07-01
 - **Synovial effusions and synovial villous proliferation（關節積液與滑膜絨毛增生）**：常侵犯大關節（膝、踝、腕），可合併疼痛與腫脹，臨床可與發炎性關節炎混淆。[^1]
 - 三者為 HOA 公認的臨床特徵組合，皆可同時出現。
 
+## 放射科醫師影像判讀重點
+- **骨膜反應的分布是判讀關鍵**：HOA 的骨膜新骨形成呈**對稱、雙側**，好發**四肢遠端長管骨骨幹**（尤其脛骨、腓骨、橈骨、尺骨），沿骨幹呈平行或分層狀骨膜反應——對稱且遠端分布有助與腫瘤性、感染性單側骨膜反應區分。[^1]
+- **早／進展期光片型態**：早期沿骨幹一層薄骨膜新骨，進展期可增厚呈波浪／分層狀，通常**不侵犯骨骺、關節面完整**，可與關節炎的邊緣糜爛區分。[^1]
+- **關節表現**：常見大關節（膝、踝、腕）**積液合併滑膜絨毛增生**，影像上為關節積液與滑膜增厚，臨床/影像易與發炎性關節炎混淆，須合併骨膜增生與杵狀指整體判讀。[^1]
+- **骨掃描（problem-solving）**：續發性 HOA 的長管骨骨膜反應在骨掃描呈沿骨幹雙側對稱的皮質增攝（「tram-track/parallel track」型態），偵測早期骨膜炎敏感，見此型態應回頭排除胸腔內惡性腫瘤。[^1]
+
 ## 鑑別診斷（Primary vs Secondary HOA）
 - **原發性（primary HOA / pachydermoperiostosis）**：體質性，常合併皮膚增厚（pachyderma）。
 - **續發性 HOA 常見病因**：慢性靜脈功能不全（chronic venous insufficiency）、甲狀腺肢端病變（thyroid acropachy）、維生素 A 過量（hypervitaminosis A）；亦與肺癌等胸腔內惡性腫瘤（paraneoplastic HOA）相關，須排除潛在惡性腫瘤。
+
+## 臨床重點（5 句）
+- **杵狀指（digital clubbing）是 HOA 最常見且最早出現的臨床徵象之一**，指端軟組織增厚、甲床角度改變。[^1]
+- 續發性 HOA 常為**副腫瘤症候群**，最常與肺癌等胸腔內惡性腫瘤相關，新診斷者須排除潛在惡性腫瘤。[^1]
+- 續發性其他病因包含慢性靜脈功能不全、甲狀腺肢端病變（thyroid acropachy）、維生素 A 過量。[^1]
+- 原發性 HOA（pachydermoperiostosis）為體質性，常合併皮膚增厚（pachyderma）。[^1]
+- HOA 的關節症狀（大關節疼痛、腫脹）臨床可與發炎性關節炎混淆，須整體評估杵狀指與骨膜增生以正確歸因。[^1]
 
 ### 參考來源
 [^1]: *Hypertrophic Osteoarthropathy: Clinical and Imaging Features.* RadioGraphics 2017;37:page 158（2018 交換考題詳解 p.88 引用；Tier 1）。HOA 臨床特徵含杵狀指、長管骨骨膜增生、關節積液合併滑膜絨毛增生；鑑別診斷含原發性(pachydermoperiostosis)與續發性(慢性靜脈功能不全、甲狀腺肢端病、維生素A過量、副腫瘤症候群)。

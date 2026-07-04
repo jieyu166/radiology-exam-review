@@ -32,6 +32,20 @@ dateRev: 2026-07-03
 - **Pseudo-SLAP lesion**：上盂唇表面纖維化或磨損模擬 SLAP 外觀，非真正撕裂。[^2]
 - **「Subglenoid recess」非公認正常變異**——不在標準正常變異清單中。[^2]
 
+## 放射科醫師影像判讀重點
+- **前下盂唇（3–6 點鐘）是前脫位後的必查區**：見前下盂唇撕脫先分「有無骨折」——合併前下盂緣骨折即 **bony Bankart**，需量測骨缺損以評估手術方式（骨缺損大者影響 arthroscopic 修補成效）。[^1]
+- **Perthes 最易漏，需 ABER 姿勢**：Perthes 的盂唇雖撕脫但**骨膜完整、盂唇仍貼附未移位**，中立位 MRI 可近乎正常；**ABER（外展外旋）姿勢**使前下關節囊-韌帶複合體張力增加，讓撕脫顯現，是提升敏感度的關鍵技巧。[^1]
+- **ALPSA 看「內側化癒合」**：盂唇-骨膜袖套向內下移位並在內側化位置癒合，盂緣旁可見移位、內側化的盂唇組織團塊，與 Bankart 的原位撕脫不同。[^1]
+- **正常變異別誤判為撕裂**：**Buford complex**（前上 1–3 點鐘盂唇缺如＋索狀中盂肱韌帶）與 **sublabral foramen**、**superior sublabral recess** 都位於前上／上盂唇——判讀要點是「位置在前上／上方、邊緣光滑、走行平行盂緣」偏正常變異；**下盂唇（前下）出現的裂隙才高度疑撕裂**。[^1][^2][^3]
+- **判讀陷阱**：Buford complex 的索狀中盂肱韌帶橫斷面貌似撕脫的盂唇碎片，須連續影像追蹤其為韌帶；superior sublabral sulcus 須與 SLAP 撕裂區分（正常 recess 邊緣光滑、平行盂緣，SLAP 常延伸至後方且邊緣不規則）。[^2][^3]
+
+## 臨床重點（5 句）
+- Bankart、Perthes、ALPSA 皆為**肩前脫位（anterior instability）**的後遺損傷，臨床多有復發性前脫位或 apprehension 病史。[^1]
+- **Buford complex 與肩不穩定無關，但會增加 SLAP 撕裂的發生頻率**，判讀時應一併留意上盂唇。[^3]
+- Buford complex 為先天盂唇變異，盛行率約 3%（文獻範圍 1.5–5%）。[^3]
+- 誤將 Buford complex 或 sublabral foramen 當撕裂而手術修補，可能造成醫源性活動受限，故術前辨識正常變異有臨床意義。[^3]
+- 棒球投手等過頭運動員的盂唇損傷評估，需同時考量前下不穩定損傷與上盂唇（SLAP）病變。[^1][^3]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Tuite MJ et al. / Radiology 2016;278(2):316-332（盂唇損傷與變異綜述）：Bankart/bony Bankart、Perthes（骨膜完整、需 ABER）、ALPSA（內側化癒合）為前下盂唇損傷;Buford complex（前上盂唇缺如＋索狀中盂肱韌帶）為正常變異。
 [^2]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 32-33。

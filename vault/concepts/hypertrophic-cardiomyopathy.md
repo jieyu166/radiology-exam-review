@@ -23,6 +23,13 @@ dateRev: 2026-06-28
   - **concentric（瀰漫對稱型）＝第二常見（可達 ~42%）**;midventricular（沙漏/啞鈴狀、SAM 與 LVOT gradient 多缺、易生心尖動脈瘤）、mass-like、burned-out（末期變薄擴張、EF↓）等。
 - **LGE 型態**：**典型 midwall patchy/punctate hyperenhancement,好發肥厚處與右室插入點;非冠狀動脈分布、非心內膜下**（後者提示缺血）。[^1]
 
+## 放射科醫師影像判讀重點
+- **先量厚度＋比值**：室壁厚度於**舒張末期**量測；不對稱中隔肥厚定義＝中隔/下側壁 ≥1.5；成人 HCM 診斷門檻為任一節段 ≥15 mm（有家族史降至 ≥13 mm），此為常見考題陷阱（非 ≥12 mm）。[^1][^2]
+- **記型態分布**：asymmetric septal 最常見（60–70%）、concentric 次之、apical 少見（~2%，日本人 ~15%，ace-of-spades 形＋心尖動脈瘤）；勿把 apical 當常見型。[^1][^2]
+- **LGE 判讀分水嶺**：典型為 **midwall patchy/punctate**、好發肥厚處與右室插入點；若呈 **subendocardial 且符合冠狀動脈分布** 則提示缺血/梗塞而非 HCM 本身；心臟類澱粉沉積則為全面/心內膜下 LGE＋釓 kinetics 異常。[^1][^2]
+- **SAM 與 LVOT**：收縮期二尖瓣前葉前移（SAM）貼近中隔 → LVOT 阻塞＋二尖瓣逆流；壓力差 ≈4×(峰值流速)²，>30 mmHg 為阻塞性、≥50 mmHg 為介入門檻，量化**首選 Doppler 超音波**（phase-contrast CMR 亦可、非首選）。[^2]
+- **早期徵象與併發**：舒張功能不良為早期 hallmark（可先於肥厚出現）；LGE 代表纖維化、為負向預後指標但非傳統 established SCD 風險因子；心尖動脈瘤（burned-out apex）可生血栓。[^2]
+
 > [!note] 考點
 > **最常見形態＝asymmetric septal（60–70%）**（非 apical）;**LGE 典型＝midwall patchy/punctate**（非 subendocardial 冠狀分布）;asymmetric septal 定義＝中隔/下側壁 ≥1.5。[^1]
 
@@ -42,6 +49,13 @@ dateRev: 2026-06-28
 
 > [!question]- 年輕運動員猝死最常見的原因? (2017-163)
 > **Hypertrophic cardiomyopathy (HCM)**——年輕運動員猝死最常見原因。冠狀動脈異常起源（如左冠走主動脈與肺動脈間）為次要原因。[^1]
+
+## 臨床重點（5 句）
+- HCM 是肌節蛋白基因突變的異質性疾病，定義為左心室肥厚而無其他可解釋的負荷（如高血壓、瓣膜病）。[^1]
+- HCM 是年輕運動員猝死最常見的原因（約占 1/3）。[^2]
+- SCD 年發生率約 1%；Class I 最高風險為曾心臟驟停＋自發持續性 VT，Class II 含 SCD 一等親家族史、不明原因昏厥、nonsustained VT、運動時血壓異常、極度肥厚（>30 mm）。[^2]
+- LVOT 阻塞見於約 70% 患者（半數僅在 Valsalva 等激發後出現），減少前負荷（站立、Valsalva）會加重阻塞與雜音。[^2]
+- 中隔縮減治療（酒精消融/myectomy）適應症為症狀性且藥物難治（NYHA III–IV）＋ LVOT 壓力差 ≥50 mmHg。[^2]
 
 ## 考題
 ```dataview

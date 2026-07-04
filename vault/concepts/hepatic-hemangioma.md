@@ -48,6 +48,20 @@ same:
 > [!note] 考點二：何者「非」典型US表現？
 > 「**Color Doppler flow in center of lesion（病灶中央可見血流訊號）**」非典型——血管瘤典型為**中央乏血流（慢流），周邊可見feeding vessels**。高回音腫塊、脂肪肝背景下呈低回音、鈣化罕見皆為典型表現。[^1]
 
+## 放射科醫師影像判讀重點
+- **跨模態核心徵象一次記**：動態強化三部曲（動脈期周邊結節狀不連續強化、與血池等量 → 門脈/延遲期向心填充 → 延遲滯留）特異度近 100%，是 CT/MRI/CEUS 共通的診斷基石（見上「判讀核心徵象」）。[^2][^3]
+- **T2 look 是關鍵**：重 T2／長 TE 上呈 **light bulb sign**（明亮如燈泡、隨 TE 延長維持高訊號），訊號通常略低於單純囊腫/CSF，可與囊腫區分；T1 低訊號（見上「MRI T2」）。[^2][^4]
+- **US 兩大陷阱要背反向**：典型為**後方穿透增強（posterior acoustic enhancement）**而非 shadowing（石頭才 shadowing）；中央 color Doppler **乏血流（慢流）**、周邊可見 feeding vessels，中央出現明顯血流反而非典型（見上「超音波」與兩則考點）。[^1][^3]
+- **不典型型態別誤為惡性**：flash-filling（~16%，<1–2 cm，動脈期快速均質強化）靠「延遲期仍與血池等密度、無 washout」與富血管轉移/HCC 區分；gadoxetate 肝膽期的 **pseudo-washout** 勿單看肝膽期相對訊號；giant（>10–12 cm）中央纖維化/裂隙不填充、sclerosed/hyalinized 強化稀少最易擬惡性（見上「不典型型態」）。[^3][^5][^6][^7]
+- **problem-solving 工具**：不典型病灶可用 **Tc-99m 標記 RBC 閃爍攝影／SPECT** 的 perfusion–blood pool mismatch（早期低、延遲強烈攝取）確診，對 ≥1.5–2 cm 病灶特異性高（見上「核醫」）。[^8]
+
+## 臨床重點（5 句）
+- 肝血管瘤是**最常見的肝臟良性腫瘤**，多為偶然發現、無症狀，長期大小穩定。[^1][^3]
+- 典型影像特徵者**不需切片**即可確診；切片一般避免（出血風險且非必要）。[^3]
+- 多數為小型（<3 cm）且不需處置，僅巨大（giant）或有症狀者才考慮介入。[^3]
+- **Sclerosed/hyalinized hemangioma** 因典型血池徵象消失、最易誤為轉移或膽管癌，臨床上常須切片或多模態追蹤確認。[^5][^7]
+- 對不確定病灶，臨床決策傾向以無創的 MRI（T2 light bulb、動態血池型態）或 Tc-99m RBC SPECT 定性，而非侵入性檢查。[^4][^8]
+
 ### 參考來源
 [^1]: *Hepatic hemangioma*. Radiopaedia.org（輔助來源）。US：界清高回音（脂肪肝背景下部分低回音）、color Doppler 中央乏血流/周邊 feeding、CEUS 周邊結節狀不連續強化→向心填充。後方穿透增強為典型。
 [^2]: Vilgrain V, et al. *Imaging of Atypical Hemangiomas of the Liver with Pathologic Correlation*. RadioGraphics（article 級）。典型血管瘤動態強化（周邊結節狀不連續→向心填充→延遲滯留）、T2 light bulb 高訊號、與 HCC（washout＋包膜）、FNH（中央疤痕延遲強化、肝膽期攝取）、血管源惡性之鑑別。

@@ -54,6 +54,20 @@ dateRev: 2026-06-29
 > [!note] 考點：關於胃 bull's-eye/target 病灶,何者「正確」?
 > **Gastric Kaposi sarcoma 也可呈 bull's-eye 外觀**。多發多為惡性（非良性）、最常見 bull's-eye 轉移原發為 **melanoma**（非 lymphoma）。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **判讀第一步先數病灶**：見到牛眼型病灶，先確認單發或多發——**多發幾乎等同惡性血行轉移／淋巴瘤**（melanoma 為最常見原發），勿因「黏膜下、光滑」外觀而誤判良性。[^2][^3]
+- **量測潰瘍與腫塊比例**：牛眼的定義是「相對腫塊大小，中央潰瘍特別大」；頂端因腫瘤 outgrow 血供而缺血壞死潰瘍，故中央鋇劑灘／CT 潰瘍相對深大，是與單純糜爛（varioliform erosion，多 <1 cm）的鑑別點。[^2][^4]
+- **模態選擇與敏感度**：CT 對小的血行性 GI 轉移敏感度僅約 60–70%，淺表牛眼易漏；雙對比鋇劑對淺表黏膜面型態（spoke-wheel、central fleck）有時更敏感——不確定時互補判讀。[^3][^1]
+- **單發時用 MRI 訊號解套**：單發牛眼須鑑別良性間葉瘤與單發惡性；**ectopic pancreas**（好發胃竇、中央 umbilication 為導管口）具「平掃 T1WI 高訊號＋動脈期似胰強化＋DWI 不受限」特徵組合；**melanoma 轉移** T1WI 因黑色素可高訊號、DWI 多受限；**lipoma** 為脂肪訊號、抑脂後變暗可確診。[^6][^5]
+- **判讀陷阱**：勿把多發牛眼當良性；**Kaposi sarcoma 也能呈牛眼**（考試常見「正確」陷阱選項）；ectopic pancreas 的中央 dimple 與惡性潰瘍外觀相似，單發時不可僅憑牛眼外觀判惡性，須靠 MRI 訊號特徵區分。[^1][^2][^6]
+
+## 臨床重點（5 句）
+- 胃腸道血行轉移中，**melanoma（黑色素瘤）為最常見原發**，且黑色素瘤 GI 血行轉移比率在各原發中最高。[^2][^3]
+- 多發牛眼病灶提示轉移或淋巴瘤，臨床應回溯原發腫瘤病史（皮膚黑色素瘤、乳癌、肺癌）並評估分期。[^2][^3]
+- **Ectopic pancreas（異位胰）** 好發於胃竇（約 85–95%），為良性先天病灶，中央 umbilication 對應導管開口。[^6]
+- **GIST** 於 >2 cm 時約半數因黏膜潰瘍呈牛眼外觀，屬須追蹤／處置的間葉腫瘤，非單純良性糜爛。[^2][^6]
+- 免疫低下（如 AIDS）族群見胃牛眼病灶時，**Kaposi sarcoma** 應列入鑑別。[^1][^2]
+
 ### 參考來源
 [^1]: Rubesin SE, Levine MS, Laufer I. *Double-Contrast Upper Gastrointestinal Radiography: A Pattern Approach for Diseases of the Stomach.* Radiology. 2008;246(1):33–48. doi:10.1148/radiol.2461061245（RG/RSNA 同儕審查；protruded lesions — 牛眼/靶狀型態：中央潰瘍黏膜下腫塊、spoke-wheel；轉移、淋巴瘤、Kaposi）。
 [^2]: Gore RM, Levine MS, et al.（章節節錄於 Radiology Key）*Other Malignant Tumors of the Stomach and Duodenum.* 教科書章節（Textbook of Gastrointestinal Radiology 衍生）。https://radiologykey.com/other-malignant-tumors-of-the-stomach-and-duodenum/ ——bull's-eye 定義（中央潰瘍相對腫塊大）、多發傾向惡性、melanoma 為 prototypical 牛眼轉移且 GI 血行轉移比率最高、DDx（melanoma/breast/lung/Kaposi/carcinoid/lymphoma）、單發 vs 多發。

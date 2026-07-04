@@ -12,7 +12,7 @@
       "url": "https://doi.org/10.53347/rID-68126（輔助來源"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **重組演算法是 HRCT 的靈魂**：用 **high-spatial-frequency（sharp/hard/bone）kernel** 凸顯細網狀、結節、支氣管壁、小葉間隔等高對比細微結構；**代價是影像雜訊高**——不可為降噪改用 smooth kernel（會犧牲次級肺小葉層級的顯示）。\n- **三支柱缺一不可**：薄切（≤1–1.5 mm，現代掃描器 0.5–0.625 mm）＋sharp 重組演算法＋足夠 kVp/mAs，三者共同決定空間解析度。\n- **補充相位對應病灶**：常規全吸氣相；**吐氣相**偵測 air trapping（小氣道病）；**俯臥相**用於區分下肺墜積性變化（dependent atelectasis/opacity）與早期纖維化。\n- **主要臨床角色**：評估瀰漫性肺病（ILD、emphysema、bronchiectasis、small airways disease）。\n- **判讀陷阱**：sharp kernel 高雜訊、呼吸/運動假影、以及 dependent opacity 為常見誤判來源；見下肺墜積性緻密影先加俯臥相再判是否為纖維化。\n\n**參考來源**\n: 官方 2017 詳解；Elicker BM, Webb WR. *Fundamentals of High-Resolution Lung CT*, p.10：HRCT 用 sharp/hard 重組 kernel 凸顯肺與骨等小而離散特徵(代價噪訊高),軟組織用 soft kernel 降噪;薄切、吸／吐氣相、主評估瀰漫性肺病。\n: Weerakkody Y, et al. *HRCT chest (protocol)*. Radiopaedia, rID-68126, DOI 10.53347/rID-68126（輔助來源）——**現代掃描器以 0.5–0.625 mm 薄切 + sharp reconstruction algorithm 取得 HRCT**；ILD 時另加**吐氣相、俯臥相**輔助——佐證 HRCT 用 sharp（非 smooth）kernel、薄切、吐氣相。\n: **Tier 1** Kazerooni EA. *High-resolution CT of the lungs*. AJR Am J Roentgenol 2001;177(3):501-19（據 PubMed，DOI [10.2214/ajr.177.3.1770501](https://doi.org/10.2214/ajr.177.3.1770501)；Review；實際查證 accessed 2026-07-04）——肺 HRCT 技術與判讀之經典綜述：**薄切（≤1–1.5 mm）＋high-spatial-frequency（sharp/bone）重組演算法**以顯示次級肺小葉層級結構，**吐氣相偵測 air trapping、俯臥相區分墜積性變化與早期纖維化**；並討論 sharp kernel 之高雜訊代價與呼吸/dependent opacity 等假影陷阱。佐證 HRCT 用 sharp（非 smooth）kernel、薄切、吐/俯臥相之技術要點。原「官方/Radiopaedia」弱來源已由本次 AJR DOI Tier 1 查核升級。",
   "keyPoints": [
     "**重組 kernel**：HRCT 用 **sharp（hard）kernel** 凸顯肺實質細微結構（細網狀、結節、支氣管壁、小葉間隔）;**非** ultra-smooth kernel。",
     "Sharp kernel：空間解析度高、邊緣銳利,**代價是影像雜訊高**;適合肺、骨等高對比解剖。",

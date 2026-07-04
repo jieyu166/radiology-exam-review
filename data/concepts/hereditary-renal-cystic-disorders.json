@@ -3,14 +3,14 @@
   "definition": "**遺傳性腎囊性疾病要點：ADPKD兒童期多無症狀(可有多發/雙側巨觀囊腫)；ARPKD囊腫較ADPKD『較少』併出血/感染(非較多)；TSC為侵犯外胚層(ectodermal)來源組織(CNS/眼/皮膚)之異質性神經皮膚多系統疾病；VHL相關RCC常多發、可雙側、複雜囊性外觀。本題正解C(TSC)。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **ADPKD 判讀**：雙側腎多發、大小不一之單純囊腫，腎逐漸增大；併發症判讀重點為囊腫**出血（T1高訊號、CT高衰減）與感染**，並須掃描肝臟（多囊肝）與顱內動脈瘤篩檢。\n- **ARPKD 判讀分水嶺**：嬰幼兒雙側腎對稱性增大、皮髓質分界不清，超音波呈瀰漫回音增強（集合管微囊致無數界面）；囊腫**較ADPKD『較少』併出血或感染**，並常合併先天性肝纖維化／膽管擴張。\n- **TSC 腎表現**：以**含脂肪之血管肌脂肪瘤（AML）**為特徵（CT/MRI測到巨觀脂肪即可診斷），常多發雙側；亦可見腎囊腫，且AML易破裂出血（>4cm風險高），為多系統神經皮膚疾病（侵犯外胚層來源之CNS/眼/皮膚）之一環。\n- **VHL 腎表現（判讀警訊）**：多發、雙側**複雜囊性或囊實性病灶**，其中實性結節或複雜囊（Bosniak III/IV）須高度懷疑透明細胞RCC；VHL之RCC常年輕發病、多中心、易復發。\n- **鑑別策略**：依「囊腫是否含脂肪（AML→TSC）、是否對稱性瀰漫增大（ARPKD）、有無肝/胰/CNS伴隨病灶（VHL、ADPKD）」分流；發現複雜囊或強化結節時，遺傳性背景會抬高RCC的預判機率。",
   "keyPoints": [
     "**ADPKD**：兒童期**多無症狀**，常於篩檢或偶見多發腎囊/高血壓時發現；「兒童期絕不出現多發/雙側巨觀囊腫」為偽(可出現)。",
     "**ARPKD**：囊腫**較ADPKD『較少』併發出血或感染**（非較多）。",
     "**Tuberous Sclerosis Complex（本題正解C）**：代表**異質性遺傳性神經皮膚多系統疾病，常侵犯外胚層(ectodermal)來源組織(CNS、眼、皮膚)**；腎表現含AML、囊腫。見 [[tuberous-sclerosis]]。",
     "**von Hippel-Lindau (VHL) 相關RCC**：常**多發、可雙側、複雜囊性外觀**(亦可純實質)。見 [[von-hippel-lindau-disease]]。"
   ],
-  "management": "",
+  "management": "- ADPKD為體染色體顯性遺傳（PKD1/PKD2），成年常以高血壓、血尿、腎功能漸退表現。\n- ARPKD為體染色體隱性遺傳（PKHD1），常於新生兒／嬰兒期表現，並合併先天性肝纖維化與門脈高壓。\n- TSC為神經皮膚症候群，臨床有癲癇、智能障礙、皮膚病灶（顏面血管纖維瘤等），並易發腎AML與腎囊腫。\n- VHL為體染色體顯性腫瘤易感症候群，須終生監測腎RCC、嗜鉻細胞瘤、CNS/視網膜血管母細胞瘤與胰臟病灶。\n- 這些遺傳性疾病之RCC風險（尤VHL、TSC）較一般族群高，影像追蹤與家族篩檢是臨床處置重點。\n\n> [!note] 考點：關於遺傳性腎囊性疾病，何者正確？\n> **Tuberous Sclerosis Complex represents a heterogeneous group of hereditary neurocutaneous multisystem disorders that commonly affect tissues of ectodermal origin (CNS, eyes, skin)（C）**。A(ADPKD兒童期可出現多發/雙側囊腫)、B(ARPKD囊腫較ADPKD較少併出血/感染)皆為偽；D(VHL相關RCC多發/可雙側/複雜囊性)亦為真但答案取C。\n\n**參考來源**\n: Dillman JR, et al. *Hereditary Renal Cystic Disorders: Imaging of the Kidneys and Beyond*. RadioGraphics 2017 May-Jun;37(3)（2018 交換考題詳解 p.335 引用；Tier 1 期刊）。ADPKD兒童期多無症狀(篩檢/偶見發現)；ARPKD囊腫較ADPKD較少併出血/感染；TSC為侵犯外胚層來源組織(CNS/眼/皮膚)之神經皮膚多系統疾病；VHL相關RCC常多發、可雙側、複雜囊性外觀。",
   "name": "Hereditary Renal Cystic Disorders (ADPKD, ARPKD, TSC, VHL)",
   "nameZh": "遺傳性腎囊性疾病",
   "slug": "hereditary-renal-cystic-disorders",
