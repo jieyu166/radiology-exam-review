@@ -22,6 +22,20 @@ dateRev: 2026-06-18
 - **心肌炎（myocarditis）LGE分布**：**典型位於subepicardial myocardium**（心外膜下）；分布可變，mid-interventricular與focal transmural型態亦可見；並非典型分布於interventricular septum本身。[^2]
 - **各病因LGE分布速記**：subendocardial/transmural（心內膜下/透壁）＝梗塞相關；mid-wall（中層）＝HCM、右室壓力負荷、idiopathic DCM；epicardial/subepicardial（心外膜下）＝sarcoidosis、myocarditis、Anderson-Fabry、Chagas病。[^2]
 
+## 放射科醫師影像判讀重點
+- **LGE pattern 途徑（Cummings，核心）**：**梗塞＝subendocardial 或 transmural、循血管分布；非缺血性心肌病＝不循血管分布**——依 **location（subendocardial/transmural/subepicardial/mesocardial）+ pattern（patchy/diffuse）** 分辨缺血 vs 非缺血並縮小 DDx。[^3]
+- **各病因 LGE 分布（Cummings）**：**subendocardial/transmural＝梗塞；mid-wall（mesocardial）＝idiopathic DCM/HCM/右室壓力負荷；subepicardial/epicardial＝myocarditis/sarcoidosis/Anderson-Fabry/Chagas；global subendocardial（不循血管）＝amyloidosis**。[^2][^3]
+- **形態（MR cine）**：DCM＝心室擴大 + 室壁瀰漫變薄（非局部增厚）；HCM＝室壁局部肥厚、心室不擴大 ± LVOT 阻塞/SAM。[^1]
+- **restrictive vs constrictive（MR 獨特貢獻）**：**constrictive pericarditis＝心包增厚 >4 mm ± 鈣化 + 室間隔抖動（呼吸相依）；restrictive CM＝心包正常 + 雙心房擴大**——MR 為兩者鑑別關鍵。[^1]
+- **鐵/浸潤**：**GRE/T2* blooming 低訊號＝鐵沉積（iron overload/含鐵血黃素）**、T2* 縮短；parametric T1 mapping 評 amyloid（ECV↑）/Fabry（native T1↓）。[^1]
+
+## 臨床重點（5 句）
+1. **應用轉變（Cummings）**：**延遲增強 CMR 由評估缺血/存活擴展至非缺血性心肌病之鑑別**。[^3]
+2. **DCM**：心室擴大 + 全面室壁變薄、常 idiopathic（心肌纖維化 mid-wall LGE）。[^1][^3]
+3. **HCM**：遺傳性室壁肥厚、LGE 於肥厚/交界區、猝死風險評估。[^1][^3]
+4. **restrictive（amyloid 等）vs constrictive**：臨床皆呈舒張功能障礙，**MRI 藉心包厚度/鈣化區分**（治療迥異：constrictive 手術剝離）。[^1]
+5. **結構化判讀價值（Cummings）**：**以 LGE location+pattern 之結構化途徑有助非缺血性心肌病之早期偵測與適當治療**。[^3]
+
 > [!note] 考點：myocarditis典型LGE分布位置?
 > **Subepicardial myocardium（心外膜下）**——並非interventricular septum。分布可變，亦可見mid-interventricular與focal transmural型態。[^2]
 
@@ -30,7 +44,8 @@ dateRev: 2026-06-18
 
 ### 參考來源
 [^1]: 心肌病 MRI（Radiopaedia *cardiomyopathy*／心臟 MR 教科書）：DCM 心室擴大室壁薄、HCM 室壁肥厚心室不擴大;**constrictive pericarditis 心包增厚 >4 mm,MRI 可與 restrictive CM 區分**;GRE T2* blooming＝鐵沉積。
-[^2]: 官方2016詳解；Clinical Cardiac MRI, Springer-Verlag Berlin Heidelberg 2012, p.279-333（題目所引）——myocarditis典型LGE分布於subepicardial myocardium（分布可變，mid-interventricular與focal transmural亦可見）；LGE分布依病因分層：subendocardial/transmural＝梗塞、mid-wall＝HCM/右室壓力負荷/idiopathic DCM、epicardial/subepicardial＝sarcoidosis/myocarditis/Anderson-Fabry/Chagas。
+[^2]: 官方2016詳解；Clinical Cardiac MRI, Springer-Verlag Berlin Heidelberg 2012, p.279-333（題目所引；輔助來源）——myocarditis典型LGE分布於subepicardial myocardium（分布可變，mid-interventricular與focal transmural亦可見）；LGE分布依病因分層：subendocardial/transmural＝梗塞、mid-wall＝HCM/右室壓力負荷/idiopathic DCM、epicardial/subepicardial＝sarcoidosis/myocarditis/Anderson-Fabry/Chagas。
+[^3]: **Tier 1** Cummings KW, Bhalla S, Javidan-Nejad C, et al. *A pattern-based approach to assessment of delayed enhancement in nonischemic cardiomyopathy at MR imaging*. RadioGraphics 2009;29(1):89-103（據 PubMed，DOI [10.1148/rg.291085052](https://doi.org/10.1148/rg.291085052)；實際查證 accessed 2026-07-04）——**延遲增強 CMR 由缺血/存活擴展至非缺血性心肌病**；**梗塞＝subendocardial/transmural 循血管；非缺血＝不循血管**；**依 location（subendocardial/transmural/subepicardial/mesocardial）+ pattern（patchy/diffuse）分辨缺血 vs 非缺血並縮小 DDx**（mid-wall＝idiopathic DCM/HCM/RV 壓力、subepicardial＝myocarditis/sarcoid/Fabry/Chagas、global subendocardial＝amyloid）；結構化途徑有助早期偵測與治療。原「官方/教科書」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於心肌病變的描述，何者錯誤？ (2016-286)
