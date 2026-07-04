@@ -23,6 +23,14 @@ dateRev: 2026-06-17
 > [!note] 考點：評估心肌疤痕最適合的序列？
 > **Late gadolinium enhancement（LGE）**。cine＝功能、perfusion＝灌流、phase contrast＝流速，皆非疤痕。[^1]
 
+## 放射科醫師影像判讀重點
+
+- **技術原理與取像時機**：注射釓對比劑後約 10–20 分鐘取像；用 inversion recovery（IR/PSIR）GRE 序列，把 inversion time（TI）調到讓正常心肌訊號歸零（nulling），疤痕因細胞間隙擴大、對比劑滯留而呈相對高訊號——正常心肌黑、疤痕白為判讀基準。[^1]
+- **缺血性 vs 非缺血性分布（核心鑑別）**：缺血性 LGE 一定**從心內膜下開始**、依冠脈分布向外擴展至透壁；非缺血性 LGE 則**避開心內膜下**，呈**中層（mid-wall）或心外膜下（subepicardial）**型態——分布層次是區分兩大類病因的第一步。[^1][^2]
+- **透壁程度預測 viability**：LGE 強化厚度 **>50% 心肌壁厚**視為 transmural，該節段血運重建後功能恢復機會低；<50% 者存活心肌較多、較可能恢復——這是 LGE 用於 viability 判讀的量化依據。[^2]
+- **非缺血型態辨識**：心肌炎/結節病常呈斑塊狀（patchy）中層或心外膜下強化；澱粉樣變性呈瀰漫性心內膜下強化合併難以 null 正常心肌（TI 選擇困難）；肥厚性心肌病常於肥厚節段與右室接合處（RV insertion point）中層強化。[^2]
+- **常見判讀陷阱**：TI 設定不當使正常心肌未歸零，可造成偽陽性或掩蓋真疤痕；心內膜下線狀高訊號需與慢速血流/部分容積假影區分；務必對照 cine 之室壁變薄與運動異常佐證梗塞。[^1][^2]
+
 ### 參考來源
 [^1]: *Myocardial viability protocol (MRI)*. Radiopaedia.org（實際查證 accessed 2026-06-17）：viability 評估（myocardial necrosis 與 **myocardial scar tissue**）採 **late gadolinium enhancement**，技術為 2D/3D **IR GRE、PSIR**；缺血性 LGE 依冠脈分布心內膜下→透壁。
 [^2]: *A Pattern-based Approach to Assessment of Delayed Enhancement in Nonischemic Cardiomyopathy at MR Imaging*. RadioGraphics 2009;29:89–103（2018 交換考題詳解 p.229 引用；Tier 1 期刊）。心肌梗塞為subendocardial→transmural分布（非subepicardial）；amyloidosis/myocarditis/sarcoidosis可呈patchy delayed enhancement；梗塞區於delayed enhancement MR呈高訊號；enhancement>50%心肌厚度視為transmural，術後功能恢復可能性低。

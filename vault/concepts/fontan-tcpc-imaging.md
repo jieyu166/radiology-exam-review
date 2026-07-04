@@ -62,6 +62,22 @@ dateRev: 2026-06-29
 > [!note] 考點：何者才算判讀完整？
 > **以上皆是**——路徑狹窄、fenestration、conduit 血栓/內膜增生、房室瓣脫垂/逆流四者並查。[^1][^2]
 
+## 放射科醫師影像判讀重點
+
+- **先認術式再判讀**：報告前確認為 APC（巨大右房、易停滯血栓）、lateral tunnel、extracardiac conduit（現行主流）或 Kawashima（IVC 中斷、奇靜脈引流、易 PAVM），因併發症取向與正常影像表現隨術式不同。[^3][^4]
+- **真血栓 vs streaming 假影（最大陷阱）**：SVC/IVC 顯影到達不同步在 conduit/PA 產生 swirling/streaming 假充盈缺損;以**雙側上下肢 dual-injection**同步顯影、**bolus tracking**觸發、**延遲相（約 3 分鐘最均勻）**確認——假影延遲相消散、真血栓持續存在。[^3][^4]
+- **路徑巡管線判讀順序**：SVC/IVC-PA 吻合處狹窄（最常見於吻合處,因摺曲/鈣化/pseudointimal peel）→ fenestration 有無與通暢 → conduit 血栓/內膜增生（血栓率約 3–19%）→ 側枝（veno-venous 右→左去飽和、aortopulmonary 增容積負荷）。[^3]
+- **功能與流量量測**：**cine SSFP** 為單心室容積/EF 與房室瓣脫垂逆流之參考標準;**phase-contrast** 算 Qp/Qs 與 APC 流量;**LGE** 偵測心肌纖維化（與較低 EF、較高 EDV 相關）。[^3]
+- **腹部與肝臟監測**：留意 FALD（門脈期 nutmeg/mosaic 不均勻強化、尾葉肥大、FNH-like 再生結節約 20–30%，其中約 10% 延遲洗出擬似惡性）、PLE（腹水、腸壁增厚、腸繫膜根部水腫）;可疑肝結節（>10 mm、輪廓不規則、包膜、快速生長）以多期相 CT 或肝細胞特異性對比劑 MRI 進一步鑑別 HCC。[^2][^5]
+
+## 臨床重點（5 句）
+
+- Fontan/TCPC 用於單心室生理（tricuspid atresia、HLHS、double-inlet LV 等），繞過右心讓體靜脈血被動流入肺動脈,無 subpulmonary pump。[^1][^3]
+- 被動肺循環對阻力零容忍,路徑狹窄、conduit 血栓與側枝竊血會直接降低心輸出,故長期系統性影像監測至關重要。[^3]
+- 主要晚期併發症包括心律不整、蛋白流失性腸病（PLE，發生率約 3–18%、預後差）、plastic bronchitis、血栓栓塞與 Fontan-associated liver disease。[^2][^4]
+- Fenestration 為刻意保留的右→左減壓孔,以輕度去飽和換取較低 Fontan 壓力與較穩定的心輸出。[^1][^3]
+- FALD 隨術後時間進展,肝硬化累積發生率術後 5/10/20/30 年約 1.3%/9.2%/56.6%/97.9%，一般建議術後約 10 年起（Fontan failure 徵象則提早）以超音波＋AFP 系統性監測。[^5]
+
 ### 參考來源
 [^1]: *Fontan procedure*. Radiopaedia.org。繞過右心、體靜脈血導入肺動脈；baffle 開 4–5 mm fenestration 容許右→左分流；extracardiac conduit；併發症含路徑狹窄/血栓（實際查證 accessed 2026-06-15）。
 [^2]: TCPC 之 CT/MRI 監測四要點（吻合狹窄、fenestration、conduit 血栓/內膜增生、房室瓣脫垂）為標準 Fontan 影像監測項目（依題目陳述；以 [^1] Fontan 構造與併發症錨定）。FALD 影像型態（門脈期 nutmeg/mosaic 不均勻強化、尾葉肥大、FNH-like 再生結節約 20–30%、約 10% 結節延遲洗出擬似惡性、HCC 警訊）、PLE 影像（腹水、腸壁增厚、腸繫膜根部水腫，發生率約 3–18%）—依 *Abdominal imaging findings in adult patients with Fontan circulation*. PMC5991003（開放全文已讀，PMC accessed 2026-06-29）。

@@ -28,7 +28,7 @@
       "url": "https://doi.org/10.1016/j.jcmg.2016.05.005：CAD-RADS"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **判讀基調＝rule-out mindset**：CCTA 的判讀價值在「陰性可信」（NPV ~99%），故重點在系統性排除各節段的阻塞性狹窄；陽性（尤其重度鈣化背景下）因 PPV 偏低（≥70% 狹窄僅 48%）不宜逕自定調，須以「可能需 ICA 確認」的措辭報告。\n- **鈣化 blooming 的判讀陷阱與對策**：重度鈣化斑塊在 CTA 上 blooming 造成管腔高估／偽陽性；calcium score >400 顯著降低 specificity。判讀時對重度鈣化節段改用 calcium-specific（wider）window width/level 與 dedicated（sharp）kernel 可縮小 blooming、改善管腔顯示，避免把 blooming 誤讀為 significant stenosis。\n- **運動／階梯假影 vs 真病灶的鑑別**：心率過快/不規律或屏氣不佳造成 motion 使血管模糊，可偽裝狹窄甚至偽裝異常起源；prospective step-and-shoot 各 slab 心週期/呼吸不一致時，接縫處出現 step artifact 可截斷或假性中斷血管。見「僅單一節段、位於分段界面、鄰段正常」的中斷應先懷疑假影而非閉塞，回頭核對心率與重建期相。\n- **易損（高風險）斑塊徵象——比狹窄度更重要的判讀點**：HRP 需 ≥2 項：positive remodeling（管壁外擴、管腔保留）、low-attenuation plaque（<30 HU 富脂核）、napkin-ring sign（中央低密度＋周邊環狀高密度）、spotty calcification（<3 mm）。這類斑塊常因正性重塑管腔無明顯狹窄，傳統 X 光血管攝影僅顯示管腔輪廓故常無法顯示，而 CCTA 能看血管壁本身——判讀勿因「管腔不窄」就低估風險。\n- **支架／繞道判讀限度**：支架直徑 <3 mm 對 in-stent restenosis 準確度顯著下降（≤3 mm ~54% vs >3 mm ~86%），小支架不建議以 CT 評估；即使支架通暢，金屬 struts 之 blooming/beam-hardening 使支架管腔內量測 HU 較近端節段假性偏高，不可單憑腔內 HU 較高即判狹窄。繞道 graft 口徑大、運動少，準確度高，但報告須涵蓋 graft 本體、吻合口與被繞道原生血管遠端流出道。\n- **異常起源的惡性徵象判讀**：CT 為定義冠狀動脈起源與全程走行的首選。interarterial（昔稱 malignant）走行（行經主動脈根與肺動脈間）為猝死高風險；惡性解剖徵象含高位起源（high take-off）、急性銳角 take-off、壁內（intramural）走行/近端管腔受壓呈橢圓；左冠脈起自右竇之 interarterial 走行風險最高。判讀時務必與 motion 偽裝之假性異常起源區分。",
   "keyPoints": [
     "**定位**：對中等前測機率、無已知 CAD 的胸痛病人，CCTA 是 rule-out 阻塞性冠狀動脈狹窄的有效非侵入替代（守門員角色）。",
     "**診斷效能（ACCURACY trial，64-MDCT，patient-based）**：≥50% 狹窄 Sens 95% / Spec 83% / PPV 64% / NPV 99%；**≥70% 狹窄 Sens 94% / Spec 83% / PPV 48% / NPV 99%**。",

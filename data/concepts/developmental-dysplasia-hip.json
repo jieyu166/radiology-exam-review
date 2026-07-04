@@ -12,7 +12,7 @@
       "url": "https://doi.org/10.4081/or.2010.e19：股骨頭骨化前"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **依年齡選模態是判讀第一步**：股骨頭骨化前（約 <4–6 個月）以**超音波（Graf 法，含動態評估）**為首選；骨化後改 X 光；CT／MRI 保留給術前或復位後評估。\n- **US（Graf）量測門檻**：α 角（骨性髖臼頂角）正常 **≥60°**（<60° 異常）、β 角（軟骨頂角）正常 **<77°**、骨性覆蓋率 **>50%** 為正常。\n- **X 光判讀項目**：acetabular index（髖臼指數）、**Shenton line** 連續性、股骨頭相對於 Hilgenreiner／Perkin 線的位置，以及 **center-edge angle** 與髖臼外側緣斜率。\n- **測量法辨識陷阱**：Hilgenreiner line、center-edge angle、髖臼外側緣斜率皆為 DDH 標準評估項目；**Meary's angle 是評估足部（第一蹠骨與距骨軸線）的方法，不用於 DDH**（2018-337 考點）。\n- **好發側**：**左髖較常見**，判讀時勿因單側正常即忽略對側追蹤。",
   "keyPoints": [
     "**危險因子**：**女性（M:F≈1:8）、家族史、臀位產（breech）、羊水過少（oligohydramnios）、第一胎、左側、包巾不當**。**男性『不是』危險因子**（女性才是）。",
     "**首選影像（依年齡）**：",
@@ -24,7 +24,7 @@
     "**β 角（軟骨頂角）正常 <77°**。",
     "**骨性覆蓋率（bony coverage）>50% 為正常**。"
   ],
-  "management": "",
+  "management": "- 危險因子為「6F」：female、family history、frank breech、first-born、left、包巾不當；**男性不是危險因子**（M:F≈1:8）。\n- 女性罹病率顯著高於男性，「male predominance」為錯誤敘述。\n- 好發左髖，臨床可見 positive Trendelenburg test。\n- 屬可篩檢、可早期介入的疾病；早期發現與治療能改善預後、減少後續需手術的機會。\n- 新生兒理學檢查（Ortolani／Barlow）配合高危族群超音波篩檢，是及早診斷的關鍵。\n\n**參考來源**\n: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 67-68。\n: 官方 2017 詳解；US Preventive Services Task Force. Screening for Developmental Dysplasia of the Hip: Recommendation Statement. Pediatrics 2006;117(3):898-902. doi:10.1542/peds.2005-1995：DDH 危險因子含女性（M:F≈1:8）、家族史、臀位產、羊水過少;男性非危險因子。\n: 官方 2017 詳解；Noordin S et al. Developmental dysplasia of the hip. Orthop Rev 2010;2(2):e19. doi:10.4081/or.2010.e19：股骨頭骨化前 US 為首選影像;Graf α 角 ≥60°、β 角 <77°、骨性覆蓋率 >50% 為正常。\n: *Bone and Joint Imaging*. Resnick. Elsevier Saunders. 3rd Edition. p.1268（2018 交換考題詳解 p.248 引用；Tier 2 教科書）。DDH評估測量含Hilgenreiner's line、center-edge角、acetabulum外側緣斜率；Meary's angle為足部(1st metatarsal-talus軸線)測量法，非DDH評估項目。",
   "name": "Developmental Dysplasia of the Hip (DDH)",
   "nameZh": "髖關節發育不良",
   "slug": "developmental-dysplasia-hip",

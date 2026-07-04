@@ -32,10 +32,24 @@ dateRev: 2026-07-02
 > [!note] 考點二：股骨頭骨化前 DDH 的首選影像?
 > **超音波（Ultrasound）**——骨化前 US（Graf 法）為首選;骨化後改 X 光。[^2]
 
+## 放射科醫師影像判讀重點
+- **依年齡選模態是判讀第一步**：股骨頭骨化前（約 <4–6 個月）以**超音波（Graf 法，含動態評估）**為首選；骨化後改 X 光；CT／MRI 保留給術前或復位後評估。[^2]
+- **US（Graf）量測門檻**：α 角（骨性髖臼頂角）正常 **≥60°**（<60° 異常）、β 角（軟骨頂角）正常 **<77°**、骨性覆蓋率 **>50%** 為正常。[^2]
+- **X 光判讀項目**：acetabular index（髖臼指數）、**Shenton line** 連續性、股骨頭相對於 Hilgenreiner／Perkin 線的位置，以及 **center-edge angle** 與髖臼外側緣斜率。[^2][^3]
+- **測量法辨識陷阱**：Hilgenreiner line、center-edge angle、髖臼外側緣斜率皆為 DDH 標準評估項目；**Meary's angle 是評估足部（第一蹠骨與距骨軸線）的方法，不用於 DDH**（2018-337 考點）。[^3]
+- **好發側**：**左髖較常見**，判讀時勿因單側正常即忽略對側追蹤。[^3]
+
 ## Summary — 臨床特徵
 - **好發側**：**左髖較常見**。[^3]
 - **性別**：**女性顯著多於男性**（M:F≈1:8）——「male predominance」為錯誤敘述。[^3]
 - **臨床徵象**：Positive **Trendelenburg test**。[^3]
+
+## 臨床重點（5 句）
+- 危險因子為「6F」：female、family history、frank breech、first-born、left、包巾不當；**男性不是危險因子**（M:F≈1:8）。[^1]
+- 女性罹病率顯著高於男性，「male predominance」為錯誤敘述。[^1][^3]
+- 好發左髖，臨床可見 positive Trendelenburg test。[^3]
+- 屬可篩檢、可早期介入的疾病；早期發現與治療能改善預後、減少後續需手術的機會。[^1]
+- 新生兒理學檢查（Ortolani／Barlow）配合高危族群超音波篩檢，是及早診斷的關鍵。[^1]
 
 ### 參考來源
 [^3]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., pp. 67-68。

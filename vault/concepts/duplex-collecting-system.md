@@ -45,6 +45,14 @@ dateRev: 2026-06-29
 > [!note] 考點：泌尿道最常見的先天異常?
 > **Ureteral duplication（重複集尿系統）**。其次為 UPJ 阻塞、原發性巨輸尿管、VUR。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **各模態首選與角色**：US 為首選篩檢（找橫向皮質帶、上極水腎、膀胱內 ureterocele）；VCUG 評估下極 VUR 與 ureterocele；IVP/CTU/MRU 顯示完整解剖與異位輸尿管走行；MRU/核醫（MAG-3）評估上下極分腎功能與是否阻塞。[^3]
+- **Weigert-Meyer 定位判讀**：上極輸尿管異位插入偏「內下方」易阻塞（ureterocele）；下極正位插入但黏膜下隧道短易 VUR——「上極往下走→塞、下極短路→逆流」；此法則**僅適用完全重複**，部分重複/bifid 不適用。[^1][^3]
+- **關鍵徵象辨識**：VCUG 的 **drooping lily sign**（不顯影上極壓迫使下極腎盞下外移位）；IVP/CT/MRU 的 **cobra head / spring onion sign**（遠端輸尿管擴張團外圍薄透亮環＝壁＋膀胱黏膜）代表單純性 ureterocele。[^3][^4]
+- **判讀陷阱（易漏診/誤判）**：①上極無功能不顯影→IVP 上「看不到」而漏診，須靠 drooping lily 間接徵象與 US 皮質帶補位；②cobra head 的 hood 增厚/不規則→應疑 **pseudoureterocele**（膀胱腫瘤/水腫）；③Weigert-Meyer 為通則非鐵律，有下極異位阻塞等例外，不可硬套。[^2][^3][^4]
+- **鑑別診斷**：單純 UPJ 阻塞、單一系統水腎、上極水腎誤判為腎囊腫、pseudoureterocele。[^4]
+- **臨床影像連結（女性持續滴尿）**：異位輸尿管開口若在外括約肌**遠端**（女性可開口於尿道/陰道/前庭），影像找到重複系統合併異位輸尿管時，可解釋「toilet-train 後仍持續滴尿」的臨床表現。[^1][^3]
+
 ### 參考來源
 [^1]: *Duplex collecting system*. Radiopaedia.org（accessed 2026-06-18）：「one of the **most common congenital renal tract abnormalities** ... ~0.8% of the population and up to 8% of patients investigated for urinary tract symptoms」;Weigert-Meyer rule（上極異位內下方易阻塞/ureterocele、下極短隧道易逆流）。
 [^2]: Massively Dilated Lower Pole Ectopic Megaureter with Involuted Lower Pole Renal Moiety and Collecting System: An Exception to the Meyer-Weigert Rule. PMC7205359（開放全文，accessed 2026-06-29）——Meyer-Weigert rule 描述完全重複的引流型態（上極內下方易阻塞、下極上外方易逆流）;報告下極異位阻塞的**例外**;US/逆行性腎盂攝影/MRU 角色。

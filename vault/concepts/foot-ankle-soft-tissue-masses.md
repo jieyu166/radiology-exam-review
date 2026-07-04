@@ -22,6 +22,12 @@ dateRev: 2026-07-02
 - **Hemangioma**:因含血管、脂肪、纖維組織→ T1/T2呈**混雜(mixed)訊號**;血管部分均勻強化。[^1]
 - 附註:緻密鈣化腫塊可T1/T2皆低訊號,但通常不強化。[^1]
 
+## 放射科醫師影像判讀重點
+- **判讀主軸（本題核心）**：足踝軟組織腫塊靠 MRI 訊號「指紋」分類——**T1 與 T2 皆均勻低訊號且會強化**最典型為**纖維性腫塊（plantar fibromatosis／fibroma of tendon sheath）**，因含**成熟膠原（mature collagen）**；含未成熟纖維／纖維母細胞成分者訊號可呈中等，是判讀時的變異。[^1]
+- **各腫塊訊號鑑別**：Morton's neuroma T1 與肌肉等訊號、T2 低訊號、強化不一；Lipoma T1/T2 皆高訊號、脂肪抑制序列變低；Ganglion cyst T1 低／T2 高、通常僅薄邊環狀強化；Hemangioma 因含血管／脂肪／纖維呈 T1/T2 混雜訊號、血管部分均勻強化——訊號組合是分野關鍵。[^1]
+- **部位定位輔助**：plantar fibromatosis 沿足底腱膜（plantar aponeurosis）呈結節狀，Morton's neuroma 位於蹠骨間隙（好發第 3–4 蹠骨間），部位＋訊號合看比單看訊號更可靠。[^1]
+- **判讀陷阱**：**Ganglion cyst 若見中央強化須排除惡性**（正常僅薄邊環狀強化）；緻密鈣化腫塊雖 T1/T2 皆低但**通常不強化**，與會強化的纖維性腫塊區別；勿把纖維性腫塊的低 T2 誤讀為單純鈣化或含鐵血黃素沉積。[^1]
+
 > [!note] 考點:homogeneous low T1與low T2訊號且強化,最典型為何種足踝腫塊?
 > **Plantar fibromatosis(C)**——纖維性腫塊含成熟膠原,T1/T2皆低訊號且強化。Lipoma(T1/T2高)、Ganglion(T1低T2高)、Hemangioma(混雜訊號)、Morton neuroma(T1等肌肉T2低)訊號皆不符。[^1]
 

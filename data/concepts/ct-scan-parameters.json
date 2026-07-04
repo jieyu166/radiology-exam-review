@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1148/rg.346140084"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **Pitch 只屬 helical、axial 不適用**：pitch = 每轉床台移動距離 / beam collimation，僅 helical（螺旋）模式需設定；axial（步進）模式床台不移動故無 pitch 概念——此為常見選擇題陷阱（axial 模式下不需調 pitch/speed）。\n- **判讀運動假影的來源與對策**：心臟、呼吸、腸蠕動造成的模糊/重影 → 縮短 rotation time、提高 pitch（加快掃描），代價是每圈光子量下降、雜訊上升；迭代重建可在低劑量下抑制雜訊部分補回品質。\n- **高 pitch 的取捨**：提高 pitch 縮短掃描時間、降劑量並減少運動假影，但過高會使 z 軸取樣不足，產生**插值假影與雜訊增加**（速度-品質取捨），判讀薄層/血管檢查時須留意。\n- **雜訊-劑量-對比的參數判讀**：降 mAs 減劑量但增雜訊（tube current modulation 依衰減自動調變最實用）；降 kVp 大幅降劑量並提高碘對比雜訊比（適合血管/對比劑檢查），但胖病人穿透不足、雜訊上升。\n- **劑量指標判讀陷阱**：CTDIvol 與 DLP 是**機器輻射輸出量、非病人實際器官劑量**；SSDE（size-specific dose estimate）依病人體徑校正，較能反映實際劑量，最佳化與報告時應以 SSDE 對照。",
   "keyPoints": [
     "**Pitch**：僅適用於 helical 模式，axial 模式下不適用。",
     "**Detector Coverage**：axial 與 helical 皆需設定。",

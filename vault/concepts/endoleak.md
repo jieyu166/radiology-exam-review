@@ -21,6 +21,15 @@ dateRev: 2026-06-29
 - **Type V**:endotension(瘤囊增大但無可見漏)。[^1]
 - 本題(何者正確):A(最常見 type I)、B(type II 與破裂)、C(type III 與 porosity)皆錯;**D(type I 因封合/裝置失敗)正確**(2016-096 正解 D)。[^1]
 
+## 放射科醫師影像判讀重點
+- **CTA 為分型主流（gold standard）**：理想三期＝**平掃 → 動脈期 → 延遲期**；平掃用來把鈣化、金屬與術中殘留對比從真正的漏區分開，避免假陽性。[^2]
+- **延遲期不可省**：低流量 **type II** 對比進入瘤囊慢、動脈期可能全陰，**只在延遲期現形**；省略延遲期會漏診慢速漏。[^2][^4]
+- **依「血從哪進來」定型**：Type I＝附著處（landing zone）封合失敗（Ia 近端/Ib 遠端/Ic iliac occluder）；Type II＝經腰動脈/IMA 逆流回填（**最常見**）；Type III＝移植物結構缺損（IIIa 接合脫離/IIIb 織料破孔）；Type IV＝織料 porosity；Type V＝endotension。[^1][^2]
+- **顯影時序輔助分型**：dynamic CTA 中高壓型（I/III）瘤囊對比達峰與主動脈幾乎同步（時間差約 2 秒），type II 明顯延後（約 5 秒），可用時間差輔助判別。[^4]
+- **超音波（DUS/CEUS）追蹤**：無輻射、可近、即時顯示血流進入瘤囊方向以利分型，偵測/分型至少不亞於 CT，適合常規追蹤（高度依賴操作者）。[^6][^7]
+- **判讀陷阱一**：面對「疑似 type II 且瘤囊增大」務必先排除偽裝成 type II 的**隱匿 type Ib 或 III**——此時被覆蓋的側枝其實是出口而非入口血管；不確定時用導管攝影（±cone-beam CT）確認源頭。[^2]
+- **判讀陷阱二**：壓力分層別記錯——高壓危險、需立即處理者是 **type I 與 III**；type II 雖最常見但低壓，多觀察。[^2][^3]
+
 > [!note] 考點:何者「正確」?
 > **type I＝附著處封合(device)失敗**(正解)。錯者:最常見其實是 type II;與破裂相關是 type I/III(非 II);porosity 是 type IV(非 III)。[^1]
 
@@ -65,6 +74,13 @@ CTA 是 endoleak 偵測與分型的主流(gold standard)影像工具。[^2][^4]
 - **delayed phase 不可省**:低流量 type II 動脈期可陰性,須延遲期才現形;只做動脈期會漏診慢速漏。[^2][^4]
 - **鈣化 / 金屬與術中對比假影**:沒有平掃對照時,瘤囊壁鈣化、移植物金屬高密度或術中殘留對比易被誤判為漏;先看 non-contrast 區分。[^2]
 - **壓力分層別記錯**:高壓危險、需立即處理的是 **type I 與 III**;type II 雖最常見但低壓,多觀察。考題常以「最常見=type I」「type II 與破裂相關」「porosity=type III」設陷阱,皆為錯敘。[^2][^3]
+
+## 臨床重點（5 句）
+- Endoleak 指 EVAR 後血流持續進入被隔絕的動脈瘤囊，是 EVAR 後最重要的併發症與再介入主因。[^2]
+- Type II 為最常見型，多為低壓、常自行栓塞消退，**先觀察為原則**，僅在瘤囊持續增大（常用閾值 6 個月內 ≥5 mm）時才介入。[^2]
+- Type I 與 III 為高壓型、破裂風險高，須**立即處理**：Type I 以 endograft 延伸±cuff/EndoAnchor（必要時 FEVAR/BEVAR）、Type III 以原移植物內 relining。[^2]
+- Type IV（porosity）多為術中自限、停抗凝後緩解，通常無需特別介入；Type V（endotension）處置標準尚不明確，多觀察。[^2][^3]
+- EVAR 後需長期影像追蹤監測瘤囊大小變化，瘤囊持續增大即使找不到明顯漏也應積極排查隱匿 I/III 型。[^2]
 
 ### 參考來源
 [^1]: *Endoleak*. Radiopaedia.org(實際查證 accessed 2026-06-17):**type I** 附著處(Ia 近端/Ib 遠端/Ic iliac occluder)、**type II** 分枝血管回填(最常見;IIa 單支/IIb 多支)、**type III** 移植物缺陷(**IIIa junctional separation of modular components**、IIIb fabric fracture/hole)、**type IV** graft fabric porosity(術中、多自行緩解)、type V endotension;I/III 為高壓破裂風險須處理。

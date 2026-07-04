@@ -41,6 +41,22 @@ dateRev: 2026-07-01
 > [!note] 考點：胸壁最常見的原發惡性骨腫瘤?
 > **Chondrosarcoma**——好發肋軟骨交界,含軟骨基質鈣化（ring-and-arc）。osteosarcoma、Ewing sarcoma、myeloma 較少。骨性整體最常見惡性為**轉移與骨髓瘤**。[^1][^2]
 
+## 放射科醫師影像判讀重點
+
+- **模態分工（判讀第一步）**：CT 定礦化型態（軟骨 ring-and-arc、纖維異常增生 ground-glass、骨化）與骨皮質破壞;MRI 定軟組織成分（脂肪、黏液、壞死、出血）與局部分期範圍——先以 CT 縮小基質鑑別,再用 MRI 界定手術邊界。[^1][^2]
+- **軟骨基質鈣化辨識**：**ring-and-arc/chondroid 鈣化**（亦可 flocculent/stippled）指向軟骨來源,搭配肋軟骨交界/肋骨前段位置與骨破壞、軟組織腫塊,高度提示 chondrosarcoma。[^1][^2]
+- **特徵部位定病灶**：肩胛下角深部（serratus 與 latissimus/rhomboid 之間）肌肉密度夾脂肪條紋、常雙側 → elastofibroma dorsi,影像近乎特異可免切片;沿肋間神經走行且延伸入椎間孔呈 dumbbell + split-fat/target sign → 神經鞘瘤。[^3][^4][^5]
+- **良惡性形態線索**：邊界清楚、均質、無骨破壞多偏良性;**permeative/穿透性骨破壞 + 軟組織腫塊**（兒童青少年）提示 Ewing/Askin;溶骨破壞 + 軟組織腫塊（年長者）先想轉移與骨髓瘤。[^1][^2]
+- **重要陷阱**：aneurysmal bone cyst 有軟組織延伸時易誤為肉瘤（看周邊硬化與液液平面佐證良性）;osteochondroma 成人軟骨帽 **≥2 cm** 或骨成熟後續長須警惕續發性 chondrosarcoma,對比後 MRI 量測軟骨帽為首選;phleboliths（約 30%）指向 hemangioma。[^1][^5][^6]
+
+## 臨床重點（5 句）
+
+- 胸壁腫瘤約 **50–80% 為惡性**,續發（轉移/骨髓瘤）較原發常見,轉移常源自乳癌、肺癌、淋巴瘤。[^1][^2]
+- **Chondrosarcoma 為胸壁最常見原發惡性骨腫瘤**,雙峰年齡（<20 與 >50 歲）、男性為女性 2 倍、約 10% 續發於既存良性軟骨病灶（如 osteochondroma）。[^1][^2]
+- Ewing sarcoma/PNET（Askin tumor）好發兒童與青少年/青年,屬胸壁小圓細胞惡性腫瘤。[^2]
+- Elastofibroma dorsi 為良性、常雙側,無症狀或輕微不適,典型影像即可診斷,通常不需積極手術。[^3][^4]
+- Dermatofibrosarcoma protuberans（DFSP）以**局部侵襲與復發（多在治療後 3 年內）**為主、轉移罕見,fibrosarcomatous 變異型（≥5% 高分化纖維肉瘤變化）侵襲性較高。[^1]
+
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** RadioGraphics 2024 雙篇綜述 *Chest Wall Tumors: Radiologic Findings and Pathologic Correlation*（良性 doi:10.1148/rg.236015526／惡性 doi:10.1148/rg.236015527）及 AJR *Radiology of Chest Wall Masses*（AJR.10.7259）。重點：CT 顯示礦化與骨破壞、MRI 軟組織特性；良性新增 **glomus tumor（疼痛性腫塊）、GCT（21–40歲、軟骨下）、aneurysmal bone cyst（<30歲、脊椎後側元件好發、軟組織延伸易誤為肉瘤）**；惡性新增 **DFSP（局部復發為主、fibrosarcomatous變異型≥5%高分化肉瘤變化定義）**；chondrosarcoma 精確數據：肋骨佔19%、10%續發於良性腫瘤、雙峰年齡<20/>50歲、男女2:1、上五根肋骨好發。
 [^2]: StatPearls, *Chest Wall Tumors*（NCBI Bookshelf NBK539908）：約 50–80% 胸壁腫瘤為惡性，續發（轉移）較原發常見（乳癌／肺癌／淋巴瘤）;chondrosarcoma 為最常見原發惡性骨腫瘤;Ewing/Askin 好發兒童與青年，呈 permeative 破壞＋軟組織腫塊。免費全文。

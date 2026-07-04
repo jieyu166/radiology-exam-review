@@ -26,6 +26,14 @@ same:
   - **Vein of Galen（great cerebral vein）**（C 深部）：左右 ICV 於 splenium 下匯成，注入 **straight sinus**。[^1]
 - **淺表（cortical）吻合靜脈**：**vein of Trolard（superior anastomotic）**連淺中大腦靜脈↔上矢狀竇；**vein of Labbé（inferior anastomotic）**連↔橫竇；故 **Trolard『不』屬深部靜脈系統**＝2016-177 正解 D。[^4]
 
+## 放射科醫師影像判讀重點
+- **兩軸分流先分清**：淺部（皮質靜脈→SSS／橫竇）vs 深部（ICV＋Rosenthal 基底靜脈→vein of Galen→直竇）；判讀靜脈血栓或梗塞前，先確認受累的是哪一軸，才能對應正確的引流區域。[^1][^4]
+- **ISS 走向與匯流是常考解剖**：下矢狀竇沿大腦鐮下緣走，與 vein of Galen 匯合形成 straight sinus；勿把 Trolard／Labbé 這兩條「淺部吻合靜脈」誤歸深部系統。[^3][^4]
+- **引流區域對應阻塞定位**：SSS 阻塞→額頂葉（常雙側旁矢狀）；lateral（橫／乙狀竇、Labbé）→顳／枕葉；deep（直竇／ICV／Galen）→**雙側視丘／基底核**——見到雙側視丘變化須警覺深部靜脈系統血栓。[^5]
+- **CTV／MRV 技術取捨**：contrast-enhanced MRV 對細小竇與皮質靜脈顯示較佳且不受慢流影響；2D-TOF 易受平面內慢流與方向因素干擾。[^5]
+- **正常變異模擬血栓（最重要陷阱）**：橫竇 hypoplasia／不對稱（**左側最常見**，約 21%）、arachnoid granulation（竇內 CSF 密度充盈缺損）、flow gap／flow-related signal loss 皆可假性像血栓；對照原始影像、看骨溝與頸靜脈孔大小、必要時改 CE-MRV 或 phase-contrast 區分。[^2][^5]
+- **吻合靜脈的側枝代償意義**：Trolard／Labbé 等吻合在竇阻塞或占位時可反向血流以平衡壓力，判讀時勿誤將代償性反流當成異常。[^1]
+
 ## 硬腦膜竇解剖（dural venous sinuses）[^1][^2]
 - **Superior sagittal sinus（SSS）**：沿大腦鐮上緣由前向後走，收皮質 bridging veins，匯入 confluence；後段為 **empty delta sign** 好發處。
 - **Inferior sagittal sinus（ISS）**：沿大腦鐮**下緣**走，與 vein of Galen 匯成 straight sinus。[^3]

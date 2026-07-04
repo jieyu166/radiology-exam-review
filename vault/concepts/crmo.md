@@ -20,11 +20,27 @@ dateRev: 2026-06-30
 - **特徵性部位**：**鎖骨內側端（medial clavicle）受累**具特徵性——因該處是血源性骨髓炎的**罕見**部位，若在此處出現病灶應優先考慮 CRMO。[^1]
 - **與感染性骨髓炎的鑑別警訊**：出現以下任一者應提高懷疑血源性骨髓炎（而非 CRMO）——**大量液體積聚（large fluid collection）、膿瘍（abscess）、瘻管（fistulous tract）、骨性死骨（bony sequestrum）**。[^1]
 
+## 放射科醫師影像判讀重點
+- **MRI 為診斷金標準**：以 STIR/T2 脂肪抑制序列偵測骨髓水腫；病灶好發於**長骨幹骺端（metaphysis）**，尤其股骨與脛骨遠近端幹骺，鄰近生長板（juxta-physeal）。[^2]
+- **好發部位（判讀分布線索）**：長骨幹骺端最常見，其次為骨盆、脊椎、鎖骨與下顎骨；**鎖骨內側端受累具特徵性**（因血源性骨髓炎罕見侵犯此處），在此見病灶應優先想到 CRMO。[^1][^2]
+- **X 光/CT 型態**：長骨病灶可呈典型骨質、混合溶骨與硬化、純硬化或純溶骨；常見**骨質增生（hyperostosis）或骨膜增厚**；慢性期以硬化為主。[^2]
+- **多灶與對稱性**：病灶常多發、可雙側對稱分布；脊椎受累常為多灶，晚期可致椎體塌陷需長期追蹤。[^2]
+- **全身 MRI（WB-MRI）的價值**：可偵測**臨床無症狀（subclinical）**的骨髓水腫病灶，界定病灶總數與分布、協助與單發感染或惡性鑑別，並用於治療追蹤。[^2]
+- **與化膿性骨髓炎的鑑別警訊（判讀陷阱）**：出現**大量液體積聚、膿瘍、瘻管、骨性死骨（sequestrum）** 任一者應改懷疑真正的血源性感染，而非 CRMO。[^1]
+
 > [!note] 考點：CRMO 典型臨床病程的最佳描述?
 > **CRMO has a prolonged course with periodic exacerbations（C）**——長期病程合併週期性惡化。並非多數病人有嚴重長期後遺症（A過度絕對）、非猛爆全身症狀（B錯）、主症狀為多灶性骨痛而非「彌漫性」骨痛加腫脹（D措辭不精確）。[^1]
 
+## 臨床重點（5 句）
+- CRMO 是兒童/青少年的無菌性（非感染性）自體發炎性骨病，診斷平均年齡約 11 歲（範圍約 3–17 歲）。[^2]
+- 主要症狀為多灶性骨痛，發燒、體重減輕、倦怠等全身症狀少見但可發生；症狀常先被誤認為生長痛、感染或惡性。[^1][^2]
+- 多數為自限性，但可呈長期病程合併週期性惡化緩解交替，可延續數年並造成相當程度病態。[^1]
+- 未治療者可致骨骼變形、關節炎與慢性疼痛，故早期辨識與治療重要。[^2]
+- 治療以抗發炎藥物為主，若累及脆弱骨骼部位（如脊椎）可加用雙磷酸鹽（bisphosphonate）。[^2]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Imaging of Chronic Recurrent Multifocal Osteomyelitis. AJR 2011;196:WS62-WS65. doi:10.2214/AJR.10.7301：CRMO 典型長期病程合併週期性惡化;主症狀多灶性骨痛,全身症狀少見;好發兒童/年輕成人;鎖骨內側端受累具特徵性;大量液體積聚/膿瘍/瘻管/死骨提示血源性骨髓炎而非CRMO。
+[^2]: 據 PubMed（open-access 全文，PMC9441751）Sergi CM, Miller E, El Demellawy D, et al. *Chronic recurrent multifocal osteomyelitis. A narrative and pictorial review*. Front Immunol. 2022;13:959575. [DOI](https://doi.org/10.3389/fimmu.2022.959575)：MRI 為診斷金標準；好發長骨幹骺端（尤其股骨/脛骨），亦見骨盆、脊椎、鎖骨、下顎；長骨可呈骨質/混合溶骨硬化/硬化/溶骨，常見 hyperostosis 或骨膜增厚；脊椎多灶、可致椎體塌陷；WB-MRI 可顯示 subclinical 病灶；診斷平均年齡約 11 歲（3–17）；治療含抗發炎藥物、脆弱部位加 bisphosphonate。
 
 ## 題目
 > [!question]- The typical clinical course of CRMO is best characterized by which of the following? (2017-253)

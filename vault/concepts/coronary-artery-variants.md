@@ -60,6 +60,23 @@ dateRev: 2026-06-29
 - **薄層需求**：ILS 與 intramural 判讀需 0.5 mm 薄層；層厚過大時空間解析度不足，易漏判 intramural 段。[^ils]
 - **AORL 高 vs 低 interarterial**：勿一概而論——須辨明異常 RCA 走行是否進入 aorta–PA 之間（high，高危）或僅至 RVOT 水平（low，風險較低）。[^aorl]
 
+## 放射科醫師影像判讀重點
+- **CCTA 為辨識與特徵描述的參考標準**：依 origin／course／termination 三軸系統性判讀；報告須明確分類走行，因走行決定臨床風險。[^rg]
+- **走行判讀是風險分層的核心**：在軸切面追蹤異常段是否**真的夾在 aorta 與 PA 之間（interarterial／malignant，SCD 風險升高）**，抑或為 retroaortic／prepulmonic／septal（benign）；錯認會誇大或低估猝死風險。[^ils][^rg]
+- **近端 ACAOS 高危徵象逐項掃描**：slit-like ostium（APTD ratio <50%）、acute angle take-off（<45°）、high take-off（sinotubular junction 以上）、proximal narrowing、intramural segment；intramural 段越長風險越高。[^ils]
+- **intramural 段量化需薄層（0.5 mm）**：ILS <0.95 mm 判定 intramural（Se 100%／Sp 84%，AUC 0.978）；peri-coronary fat sign（壁內段周邊缺脂）與 oval 管腔形態亦為指標，準確度達 92–98%；層厚過大易漏判。[^ils][^aaoca]
+- **myocardial bridging 判為動態壓迫，勿誤為固定狹窄**：bridging 好發 **LAD 中段**，收縮期 milking 壓迫、舒張期回復；反而 tunneled 段近端易長固定斑塊，才是常見併發病灶。[^mb]
+- **給藥的遮蔽效應**：CCTA 前 β-blocker／nitroglycerin 延長舒張期並擴張冠脈，可能**低估** bridging 顯著性；須以收縮期相判讀動態壓迫。[^mb]
+- **AORL 高／低 interarterial 須分辨**：high（aorta–PA 間）症狀與 MACE 顯著高於 low（aorta–RVOT 間），勿一概而論。[^aorl]
+- **dual LAD 的空間鏈**：Type I＝short LAD 走近端 AIVS、long LAD 繞 LV 側走 epicardial 再入遠端 AIVS（近端─繞彎─遠端歸位），屬 benign 重複變異；LAD 與 PDA 互為代償（一長一短）。[^rg]
+
+## 臨床重點（5 句）
+- ACAOS 盛行率 <1%，但在美國年輕運動員與軍人新兵的猝死病因中，約 14–33% 歸因於冠狀動脈異常。[^ils]
+- interarterial（malignant）走行與**運動中／運動後**缺血致猝死相關，缺血機轉為運動時大血管擴張夾壓異常段。[^ils]
+- 很深（≥5 mm）或很長（≥25 mm）的 myocardial bridging 症狀較明顯，部分病人需手術（unroofing／CABG）。[^mb]
+- AORL 之 high interarterial 型 typical angina（43% vs 6%）與 MACE（28% vs 6%）皆顯著高於 low 型，臨床意義大不相同。[^aorl]
+- dual LAD、single coronary artery 等重複／benign 變異多為偶然發現，但若異常段走 interarterial 仍具臨床意義。[^rg][^single]
+
 > [!note] 考點
 > Myocardial bridging 最常見於 **LAD 中段**;dual LAD「short 走近端 AIVS、long epicardial 再入遠端 AIVS」＝**Type I**;**LAD 與 PDA 互為代償**。[^rg][^mb][^q]
 

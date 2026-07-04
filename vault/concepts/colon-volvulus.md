@@ -28,8 +28,23 @@ dateRev: 2026-06-28
 - **處置原則**：**Sigmoid** 無缺血者首選**內視鏡 detorsion + 置放減壓管**（復發率高，後續多需擇期乙狀結腸切除）；**Cecal** 內視鏡復位成功率低，治療以**手術為主**（無缺血可 detorsion + cecopexy；已缺血/壞死/穿孔則 right hemicolectomy）。[^3][^4]
 - **兒童罕見**：結腸扭轉好發成人，兒童少見。[^1]
 
+## 放射科醫師影像判讀重點
+- **Sigmoid 平片**：巨大充氣 coffee-bean／inverted-U 迴圈、ahaustral（喪失結腸袋）、頂端投射過橫結腸並跨越橫膈＝**northern exposure sign**；Frimann-Dahl 三線聚合、直腸無氣；coffee-bean 見於 57–90%。[^1][^2]
+- **Sigmoid CT**：扭轉點的 **whirl sign**（繫膜血管漩渦，冠狀/矢狀重組最清楚，近乎 pathognomonic）＋ bird-beak／鳥嘴狀 transition point。[^2]
+- **Cecal 平片**：擴張盲腸（含結腸袋）移位至 **LUQ/中上腹**、呈 kidney/coffee-bean、apex 指向 LUQ，常伴小腸擴張與遠端結腸塌陷。[^3][^4]
+- **Cecal CT**：whirl sign（敏感度約 73%）、bird-beak transition point（敏感度約 82%）；盲腸 >10 cm、coffee-bean、LUQ apex 特異度高（100%/92%/100%）但敏感度較低。[^5]
+- **缺血/絞扼徵象（兩型共通，判斷急迫性）**：腸壁增厚、黏膜/腸壁不強化、腸壁積氣（pneumatosis）、繫膜水腫/血管充血、腹水、（晚期）門靜脈積氣與穿孔游離氣——見到即提示絞扼、傾向手術。[^4]
+- **判讀陷阱**：考試最常把「最常見型」逆轉設陷——**sigmoid（~60%）才最常見**，cecal 次之；勿因盲腸移位至 LUQ 而誤稱為 sigmoid。[^1][^5]
+
 > [!note] 考點：何者「錯」?
 > 「**cecal volvulus 為最常見型**」錯——**sigmoid 才最常見（~60%）**。Cecal 呈 kidney/coffee-bean、移位至 LUQ、sigmoid 投射過橫結腸（northern exposure）、兒童罕見皆對。[^1][^5]
+
+## 臨床重點（5 句）
+- 結腸扭轉約占大腸阻塞 5%，成人為主、兒童罕見；乙狀結腸型（~60%）最常見，盲腸型次之。[^1]
+- Sigmoid volvulus 好發老年、長期便秘、臥床或神經/精神科住民（腸繫膜冗長）。[^1]
+- Cecal volvulus 好發較年輕族群（約 30–60 歲），與盲腸繫膜固定不良有關。[^4]
+- 無缺血之 sigmoid volvulus 首選內視鏡 detorsion + 減壓管，因復發率高後續多需擇期乙狀結腸切除。[^3]
+- Cecal volvulus 內視鏡復位成功率低、以手術為主：無缺血可 detorsion + cecopexy，已壞死/穿孔則行 right hemicolectomy。[^3][^4]
 
 ### 參考來源
 [^1]: *Sigmoid volvulus*. Radiopaedia.org（accessed 2026-06-17）：結腸扭轉約佔大腸阻塞 5%，「**~60% 腸扭轉發生於 sigmoid colon**」，好發老年；coffee bean sign、Frimann-Dahl sign。〔開放／免登入〕

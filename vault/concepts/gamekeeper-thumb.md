@@ -44,6 +44,15 @@ dateRev: 2026-06-29
 - **完全斷裂的回縮 UCL 可能不在原位**：MRI／US 若只看止點處會誤判，須往近端 metacarpal head 旁找回縮球狀斷端與腱膜關係。[^1][^2]
 - **應力位前先評估有無撕脫骨折／移位**：避免施力造成醫源性移位（見上）。[^3][^4]
 
+## 放射科醫師影像判讀重點
+- **受傷結構定錨**：傷的永遠是第一 **MCP 尺側副韌帶（UCL）**，橈側副韌帶（RCL）完好；多數撕裂在**遠端止點**（近端指骨基部尺側）。[^1][^2]
+- **X 光**：拇指 PA＋側位（±斜位）找**近端指骨基部尺側撕脫骨折**；單純韌帶撕裂平片可正常，平片對 Stener **無診斷力**。[^2][^4]
+- **應力位**：MCP 屈曲 30° 下 valgus laxity >35°、或較健側多 >15° 支持完全斷裂（角度門檻文獻分歧約 20–45°並列）；**陷阱**：施力本身可能把未移位撕脫片/UCL 推成 Stener，疑完全斷裂者宜改先影像。[^3][^4]
+- **US（首選動態）**：正常 UCL 為連續纖維狀；**Stener lesion** ＝完全斷裂後 UCL 近端斷端回縮、移位至**內收肌腱膜（adductor aponeurosis）淺層**，呈「yo-yo on a string／tadpole」徵，見於約 64–88% 完全斷裂；被動屈曲下不隨關節回位可與未移位撕裂區分。[^1][^2]
+- **MRI**：對 UCL 完整度、accessory UCL、關節囊與隱匿撕脫骨折判讀佳；MR arthrography 與應力位皆曾用於鑑別 nondisplaced 與 displaced（Stener）。[^2][^5]
+- **DDx**：RCL 損傷（受力方向相反、位 MCP 橈側）；近端指骨基部撕脫骨折可與 Stener 並存；慢性 gamekeeper 反覆傷致 MCP 不穩與續發 OA。[^1][^3]
+- **判讀陷阱**：Stener 決定保守 vs 手術，漏判致慢性不穩/OA；完全斷裂的回縮 UCL 常不在原止點，須往近端 metacarpal head 旁找球狀斷端與腱膜關係。[^1][^2]
+
 > [!note] 考點：Gamekeeper's thumb 何者「未」受傷?
 > **橈側副韌帶（radial collateral ligament）**——受傷的是**尺側副韌帶（UCL）**於第一 MCP 關節;可伴近端指骨基部撕脫骨折、Stener lesion。[^1]
 
@@ -53,6 +62,13 @@ dateRev: 2026-06-29
 
 > [!question]- 下列關於Gamekeeper's Thumb敘述何者錯誤? (2018-407)
 > **Stener lesion means ulnar collateral ligament is retracted proximally and displaced superficial to the abductor aponeurosis（C）**——應為**adductor aponeurosis（內收肌腱膜）**，非abductor(外展肌腱膜)。第一MCP外展損傷(A對)、可傷及UCL(B對)、Stener lesion阻礙癒合致慢性鬆弛/握力喪失/退化性關節病(D對)皆為正確描述。[^2]
+
+## 臨床重點（5 句）
+- Gamekeeper's/Skier's thumb 為第一 MCP 尺側副韌帶損傷：Gamekeeper's 為慢性反覆外展應力累積，Skier's 為急性（滑雪杖把外展力傳至拇指）。[^1][^2]
+- 機轉為拇指被強力外展（橈偏）使 UCL 過度拉伸而斷裂，臨床表現為 MCP 尺側疼痛、腫脹與捏握無力。[^1]
+- Stener lesion 因斷端被內收肌腱膜阻隔而無法自行癒合，是決定手術的關鍵臨床分水嶺。[^1][^2]
+- 無 Stener 之部分或未移位撕裂可保守治療（固定），有 Stener 或完全斷裂則需手術修補。[^2][^3]
+- 漏診或未妥善處理可致慢性 MCP 不穩、握力喪失與續發性退化性關節病。[^2][^3]
 
 ### 參考來源
 [^1]: *Gamekeeper's thumb / Stener lesion*. Radiopaedia.org（輔助來源，accessed 2026-06-29）：「avulsion or rupture of the **ulnar collateral ligament** of the first metacarpophalangeal joint」;Gamekeeper's＝慢性、Skier's＝急性;Stener lesion＝回縮 UCL 移位至 adductor aponeurosis 淺層、「yo-yo on a string」、需手術。

@@ -20,6 +20,14 @@ dateRev: 2026-06-29
 - **垂體仍可正常強化**：被壓的垂體組織仍正常強化(option B 對)。[^1]
 - 多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。[^1]
 
+## 放射科醫師影像判讀重點
+- **機轉先認對「天花板」**：CSF 經缺損／不全的 **diaphragma sellae（鞍膈）**疝入蝶鞍壓扁垂體，而非 **dorsum sellae（鞍背）**缺損——此為常見考題陷阱。[^1][^3]
+- **量化分級**：partial（<50% 鞍內為 CSF）vs complete（>50% 為 CSF、殘餘垂體厚度 <2 mm）；閱片務必量垂體垂直高度與 CSF 占比。[^2]
+- **Infundibulum sign 是最關鍵判讀點**：真正空蝶鞍的 pituitary stalk 保持**居中**、垂直穿越 CSF 下達鞍底而不偏移；囊性鞍內腫瘤則把漏斗推開（偏移）。[^2][^3]
+- **與囊性病灶區別**：空蝶鞍鞍內 CSF **與上方蛛網膜下腔相連、無上緣囊壁、訊號全程同 CSF**；arachnoid cyst／Rathke cleft cyst／cystic adenoma 則有上緣囊壁、不相通、訊號可異於 CSF（如 Rathke 於 T1 可高訊號）。[^3][^5]
+- **強化型態分原發／續發**：增強後 PES 殘餘垂體與漏斗正常強化；SES 因疤痕／結構扭曲而強化異常。[^2]
+- **看到空蝶鞍要順手掃 IIH 徵象**：視神經鞘擴張（球後 5 mm 處上限約 5 mm）、後鞏膜扁平（孤立時最具特異性）、視神經迂曲、橫竇狹窄、Meckel cave ectasia、腦室偏小；多數徵象高特異性、低敏感性。[^4]
+
 #### 判讀骨架（一般放射科醫師閱片所需）
 - **定義與機轉**：蛛網膜下腔經缺損/不全的 **diaphragma sellae（鞍膈）**疝入蝶鞍，CSF 搏動把垂體壓扁、貼向鞍底（sellar floor），鞍內充滿與蛛網膜下腔相通的 CSF 訊號。[^2][^3]
 - **分級（量化）**：partial（<50% 鞍內為 CSF）vs complete（>50% 為 CSF、殘餘垂體厚度 <2 mm）;閱片務必量「垂體垂直高度」與 CSF 占比。[^2]
@@ -44,6 +52,13 @@ dateRev: 2026-06-29
 
 > [!note] 考點：空蝶鞍何者「錯誤」?
 > 「因 **dorsum sellae 缺損**所致」錯——是 **diaphragma sellae（鞍膈）缺損**致 CSF 疝入。骨性蝶鞍可擴大、訊號同 CSF、垂體仍正常強化皆對。[^1]
+
+## 臨床重點（5 句）
+- 多數空蝶鞍為偶然發現、無臨床意義；影像上見到不必然代表內分泌異常。[^1]
+- Primary empty sella 好發**肥胖中年女性**（女:男約 5:1），常合併多產、睡眠呼吸中止與高血壓。[^2]
+- PES 與 **idiopathic intracranial hypertension（IIH／pseudotumor cerebri）**強相關，IIH 病人空蝶鞍盛行率約 70–94%。[^2]
+- Secondary empty sella 反映垂體本身萎縮／破壞後 CSF 填補，病因含術後、放療後、Sheehan syndrome、pituitary apoplexy、hypophysitis、外傷、腫瘤治療後退縮。[^2]
+- 有症狀或內分泌異常者才需進一步評估垂體功能；影像分級（partial／complete）可輔助判斷臨床顯著性。[^2]
 
 ### 參考來源
 [^1]: *Empty sella*. Radiopaedia.org（實際查證 accessed 2026-06-17）：CSF 經「**deficient diaphragma sellae**」疝入蝶鞍（~20% 人口）;垂體被壓、CSF 填充;骨性蝶鞍可至少略擴大;多為偶見無臨床意義。

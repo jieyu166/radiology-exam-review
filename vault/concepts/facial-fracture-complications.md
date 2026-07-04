@@ -31,6 +31,20 @@ dateRev: 2026-07-03
   - 下頜骨折通過 mandibular canal
   - 同側下巴與下唇麻木
 
+## 放射科醫師影像判讀重點
+- **判讀主軸（本題核心）**：顏面骨折 CT 的重點不只在骨折線，而在**追蹤骨折是否延伸至神經血管通道**——上眶裂（SOF）、視神經管、眶底、眶下管、下頜管；累及範圍決定臨床症候群（SOFS vs orbital apex syndrome vs V2／V3 損傷）。[^1]
+- **SOFS 判讀**：骨折線延伸至 **superior orbital fissure**，累及通過該裂的 CN III、IV、V1、VI；影像須評估裂內骨碎片、血腫壓迫；臨床對應眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失。[^1]
+- **Orbital apex syndrome 判讀（考試常見陷阱）**：骨折同時累及 **SOF＋optic canal（即 orbital apex）**，在 SOFS 的所有神經之外**再加 optic nerve（CN II）** → 併視力喪失；判讀時須專門確認視神經管有無骨折／碎片，**不可誤認為僅視神經受傷**。[^1]
+- **眶底爆裂骨折（V2）**：眶底／顴上頜複合骨折常經眶下管傷及 **infraorbital nerve（V2）**，致同側臉頰、上唇、鼻翼感覺減退；須一併評估眼外肌嵌頓與眶內容物下疝。[^1]
+- **下頜管骨折（V3）判讀陷阱**：下頜骨折線通過 **mandibular canal** 時可傷及 **inferior alveolar nerve（V3）**，致同側下巴與下唇麻木；報告須明確描述骨折與下頜管的關係，避免漏報神經受累風險。[^1]
+
+## 臨床重點（5 句）
+- Superior orbital fissure syndrome 臨床表現為眼肌麻痺、上眼瞼下垂、瞳孔散大與前額（V1 分布）感覺喪失。[^1]
+- Orbital apex syndrome 在 SOFS 症狀之上再加視力喪失，因同時累及視神經（CN II），是比 SOFS 更嚴重的急症。[^1]
+- 眶下神經（V2）損傷導致同側臉頰、上唇與鼻翼感覺減退，是眶底爆裂骨折的常見後遺症。[^1]
+- 下齒槽神經（V3）損傷導致同側下巴與下唇麻木，常見於通過下頜管的下頜骨折。[^1]
+- 視力受威脅的 orbital apex syndrome 屬需緊急處置的情況，及早辨識神經受累有助臨床決策。[^1]
+
 ## 陷阱
 - Orbital apex syndrome 不是只有 optic nerve 受傷！它是 SOFS **加上** optic nerve 損傷。
 

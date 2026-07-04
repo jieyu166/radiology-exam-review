@@ -31,7 +31,7 @@
       "url": "https://doi.org/10.3390/jcm14103457（PMC12112529"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **檢查目標二元化**：FAST 只回答「有沒有游離液體（腹腔/心包積血）」，**不評估**器官撕裂分級、不測主動脈、不做 Doppler 看肝/門靜脈——這些是易混選項與 CT 的範疇。\n- **四視窗掃描順序與低位點**：subxiphoid（心包）→ RUQ Morrison pouch（仰臥最低位、**最敏感**）→ LUQ（液體常先積膈下/脾上極而非脾腎間，探頭需更後上）→ suprapubic（Douglas pouch，站立/半坐位全身最低）。\n- **游離液外觀**：呈無回音（黑色）至低回音、積於 dependent 腔隙；心包積液真陽性應繞行至降主動脈前方，且填塞時見舒張期右心塌陷。\n- **E-FAST 胸部加做**：氣胸看 lung sliding 與 comet-tail（任一存在即排除該點）；M-mode 正常 seashore、氣胸為 barcode/stratosphere；lung point 特異性近 100%；血胸見橫膈上無回音帶＋spine sign。US 偵測氣胸優於仰臥 CXR。\n- **偵測門檻量（技術限度）**：肝腎隱窩平均需 >500 mL 才陽性、骨盆視窗較敏感（~157 mL）；小量積血可偽陰，穩定病人連續追蹤可提高敏感度。\n- **偽陽性 mimic（判讀陷阱）**：腎周脂肪的「double-line」易誤為肝腎/脾腎間游離液；心包脂肪墊有內部回音、僅見於前方且不隨心動變形，勿誤為心包積液；育齡女性 Douglas pouch ≤50 mL 為生理性。\n- **陰性不能排除損傷**：孤立實質器官損傷但無游離液、後腹腔與中空臟器/腸繫膜損傷是 FAST 盲區；與 CT 直接比較之研究顯示實質損傷敏感度僅約 63%，穩定病人仍須 CT。",
   "keyPoints": [
     "**AIUM/ACEP 定義**：FAST 在腹部的評估目標是**自由液體**（free fluid），即偵測 hemoperitoneum；非評估肝實質、主動脈或肝/門靜脈。",
     "**臨床定位**：床邊即時 POCUS，用於創傷病人快速分流（尤其血液動力學不穩者）；陽性自由液體＋不穩 → 直接送開刀。",

@@ -3,7 +3,7 @@
   "definition": "**Closed-loop obstruction** 是小腸在兩個點被阻塞，形成封閉迴路，靜脈回流受阻可導致缺血壞死。",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **CT 是首選判讀工具，重點在找兩個轉折點**：closed-loop 為同一腸段在兩處被阻塞，CT 上呈 **C 形或 U 形（放射狀）擴張腸段**，兩端轉折點常相鄰。\n- **腸繫膜血管的放射狀匯聚與 whirl sign**：繫膜血管向轉折點呈放射狀匯聚（radial mesenteric vessels），伴隨腸管與繫膜繞窄點扭轉時出現 **whirl sign（漩渦徵）**，是 volvulus 的關鍵線索。\n- **務必評估缺血徵象**：closed-loop 因靜脈回流受阻易致絞窄性缺血，須主動掃描腸壁增厚、壁強化減弱／壁內積氣、繫膜水腫與腹水等缺血警訊——這是 closed-loop 相對於單純機械性阻塞更須即時外科介入的原因。\n- **辨明轉折點與病因**：最常見病因為 **adhesion（沾黏）**，而非繫膜或大網膜缺損；判讀時追蹤兩轉折點以定位與推斷病因。",
   "keyPoints": [
     "腸段在兩個點被阻塞形成封閉迴路",
     "靜脈回流受阻導致缺血",
@@ -11,7 +11,7 @@
     "最常見原因：**adhesion（沾黏）**",
     "CT 表現：C 形或 U 形擴張腸段、radial mesenteric vessels（converging toward transition point）、whirl sign"
   ],
-  "management": "",
+  "management": "- Closed-loop obstruction 屬外科急症，因封閉迴路靜脈回流受阻易快速進展為絞窄性缺血與腸壞死。\n- 最常見的機械性小腸阻塞（含 closed-loop）病因為腹腔沾黏，多與既往腹部手術有關。\n- 及早辨識缺血對預後至關重要——延遲診斷會提高腸切除與死亡風險。\n- 蠕動使繞窄之腸段扭轉（volvulus），是封閉迴路特有的機轉，臨床上疼痛常較單純阻塞劇烈且進展快。\n- 影像一旦顯示缺血徵象，處置傾向緊急手術而非保守觀察。",
   "name": "Closed-Loop Small Bowel Obstruction",
   "nameZh": "閉合迴路阻塞",
   "slug": "closed-loop-obstruction",

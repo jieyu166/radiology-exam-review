@@ -66,6 +66,22 @@ dateRev: 2026-07-03
 > [!note] 考點：鈣化肺轉移「除了」何者?
 > **Hepatocellular carcinoma（HCC）**——不屬常見鈣化肺轉移。osteosarcoma、mucinous（colon）、thyroid 皆會鈣化。[^1]
 
+## 放射科醫師影像判讀重點
+- **CT attenuation 是第一線判準**：結節內衰減值 ≥200 HU 一般即視為含鈣化證據；骨化性轉移（osteosarcoma、chondrosarcoma）可高達接近骨密度，是「已知肉瘤病史＋高密度肺結節」的關鍵組合。[^1][^2]
+- **鈣化「型態」比「有無鈣化」更具鑑別力**：central／laminated／diffuse／popcorn 四型視為良性肉芽腫或 hamartoma；eccentric／stippled／amorphous 不可視為良性，須警覺惡性（含 ≤約10% bronchogenic carcinoma 之營養不良性鈣化）。[^1][^4]
+- **HRCT 偵測細小鈣化遠優於胸部 X 光**：疑似鈣化結節應以薄層 CT 確認鈣化與型態，勿以胸片陰性排除。[^1]
+- **「已知原發惡性」情境的判讀反射**：osteosarcoma 病人新出現的鈣化結節不可逕判為肉芽腫，須追蹤穩定性與生長；治療後（化療／放療）退化之轉移可於原處新生鈣化，勿誤為病灶消失。[^1][^3]
+- **偏心鈣化陷阱**：惡性病灶可吞噬（engulf）原已鈣化之良性肉芽腫而呈假性偏心鈣化，細小結節尤難判定，勿單憑鈣化即歸良性。[^1][^4]
+- **關鍵 DDx：鈣化肺轉移 ≠ metastatic pulmonary calcification（MPC）**：MPC 為高鈣／高磷血症下鈣鹽沉積於「正常」肺實質（中央小葉毛玻璃結節、高密度實變、多雙側上肺優勢），非腫瘤結節；DPC（含多數鈣化轉移）血清鈣磷正常，MPC 反映全身代謝異常、血清鈣磷可升高——影像可重疊，須結合檢驗數值判讀。[^5][^4]
+- **瀰漫性多發小鈣化結節**須納入 pulmonary alveolar microlithiasis、感染、慢性肺出血、塵肺、沉積病於 DDx，並比對臨床病史。[^1]
+
+## 臨床重點（5 句）
+- 鈣化的肺轉移整體少見；一旦出現，強烈指向特定原發腫瘤（成骨、含軟骨、產黏液、似甲狀腺、治療後退化五類）。[^2][^3]
+- 具轉移潛能的原發包含 osteosarcoma、chondrosarcoma、synovial sarcoma、mucinous adenocarcinoma（大腸／卵巢／乳房）、papillary／medullary thyroid carcinoma 與治療後 choriocarcinoma。[^3][^4]
+- 部分肉瘤轉移生長極快（中位倍增時間可低至 25–35 天），快速生長不必然代表感染或發炎。[^3]
+- 「良性轉移」（組織學良性但會轉移、緩慢生長）如 benign metastasizing leiomyoma、meningioma、骨 GCT，影像無法單獨鑑別，緩慢生長為典型臨床特徵。[^3]
+- MPC 常見於慢性腎病合併次發性副甲狀腺亢進、原發性副甲狀腺亢進、惡性骨破壞／多發性骨髓瘤，臨床可見血清鈣、磷升高。[^5]
+
 ### 參考來源
 [^1]: Khan AN, et al. *The calcified lung nodule: What does it mean?* **Annals of Thoracic Medicine** 2010;5(2):67-79（PMC2883201，開放全文，accessed 2026-06-29）。鈣化轉移原發含 osteogenic/chondrosarcoma/synovial sarcoma/giant cell tumor/malignant mesenchymoma、papillary 與 mucinous adenocarcinoma、偶見 medullary thyroid；治療後亦可鈣化；良性 4 型態（central/laminated/diffuse/popcorn）；其他型態不可視為良性；bronchogenic ca ~10% 可鈣化；≥200 HU 視為鈣化；瀰漫性小鈣化結節 DDx 含 alveolar microlithiasis。
 [^2]: Tomography 2025. *Calcified Lung Nodules: A Diagnostic Challenge in Clinical Daily Practice*（PMC11946818，開放全文，accessed 2026-06-29）。鈣化轉移三大機轉：bone formation/ossification（osteosarcoma、chondrosarcoma）、壞死後 dystrophic calcification（synovial sarcoma、papillary thyroid、GCT）、mucinous adenocarcinoma 之 mucoid calcification；治療後退化亦可鈣化；惡性常為 amorphous/punctate，吞噬既有鈣化結節可成偏心鈣化。

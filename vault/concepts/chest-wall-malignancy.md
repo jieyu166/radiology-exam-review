@@ -16,6 +16,18 @@ dateRev: 2026-07-02
 - 好發部位：anterior costochondral junction [^1]
 - 影像：軟骨基質鈣化（rings and arcs）、骨破壞、軟組織腫塊 [^1]
 
+## 放射科醫師影像判讀重點
+- **Chondrosarcoma 判讀核心徵象**：前胸壁肋軟骨交界處的分葉狀腫塊，內見軟骨基質鈣化（chondroid matrix，「rings and arcs」／爆米花狀）、伴皮質骨破壞與軟組織腫塊——見前肋軟骨交界緩慢生長之含軟骨鈣化腫塊，首要考量 chondrosarcoma。[^1]
+- **CT vs MRI 分工**：CT 對軟骨基質鈣化（rings and arcs）與骨皮質破壞的顯示最佳，是定性軟骨性病灶的關鍵；MRI 顯示分葉狀 T2 高訊號（透明軟骨）與間隔強化，並優於 CT 界定髓內與胸內延伸範圍及對鄰近結構的侵犯，利於術前分期。[^1]
+- **良惡性軟骨腫瘤的判讀分水嶺**：胸壁軟骨性病灶偏向 chondrosarcoma（非良性 enchondroma）的徵象包括腫瘤較大（>5 cm）、皮質破壞／髓外軟組織腫塊、深部疼痛與較快生長——胸壁的軟骨性腫瘤應偏向惡性看待。[^1]
+- **胸壁惡性腫瘤 DDx（判讀分類框架）**：原發骨性以 chondrosarcoma 最常見，其次 osteosarcoma、Ewing 肉瘤家族（Askin tumor，小圓細胞、好發兒童/青年、鈣化少）；軟組織原發如 desmoid、undifferentiated pleomorphic sarcoma；轉移與骨髓瘤/漿細胞瘤為肋骨最常見的溶骨性惡性病灶——見多發溶骨病灶應先想轉移/骨髓瘤，見單發含軟骨鈣化腫塊則想 chondrosarcoma。[^1]
+
+## 臨床重點（5 句）
+- Chondrosarcoma 為胸壁最常見原發性骨惡性腫瘤，好發於成人（中老年，較 Ewing/osteosarcoma 年長）。[^1]
+- 治療以廣泛切除（wide local excision）為主，切除邊緣是否足夠與局部復發密切相關。[^1]
+- Chondrosarcoma 對化療與放療反應差，故完整外科切除是達成長期控制的關鍵。[^1]
+- 組織學分級（grade）為主要預後因子，低惡度者預後佳、去分化型（dedifferentiated）預後差。[^1]
+
 ### 參考來源
 [^1]: RadioGraphics 2016;36:1287；Imaging Evaluation of Malignant Chest Wall Neoplasms.
 

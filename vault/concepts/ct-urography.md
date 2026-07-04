@@ -27,6 +27,13 @@ dateRev: 2026-06-29
   - **Single-phase dual-energy**：單次 bolus + 單一 excretory 期（常 80/140 kVp）→ 後處理產生 virtual nonenhanced 影像;但對小結石敏感度較低、virtual nonenhanced 衰減值不準，尚未廣泛採用。
 - **影像判讀要點**：excretory 期 axial source images 是橫斷評估輸尿管的最佳影像;務必用**寬窗**（如 width 1200/level 350 起手，再手動微調）避免小病灶被高密度排泄對比劑遮蔽。[^2]
 
+## 放射科醫師影像判讀重點
+- **各期判讀分工（先定序再看片）**：未顯影期看結石、基準衰減值（判斷後續是否真強化）、腫瘤內鈣化與 suburothelial 出血高密度壁；nephrographic 期看腎實質腫瘤與 UTUC 的「focal 壁增厚＋早期 hyperenhancement」；excretory 期看集尿系統/輸尿管全程充盈與腔內充盈缺損。判讀順序錯亂（如未對照未顯影期就判強化）是最常見誤讀來源。[^2][^3]
+- **強化是 UTUC vs 血塊的分水嶺**：UTUC 具早期真實強化（相對未顯影期有 enhancement），血塊不強化且可隨體位/時相移動——見腔內充盈缺損務必對照未顯影期確認非結石、並比較是否真強化，是區分腫瘤與血塊/結石的關鍵。[^3]
+- **UTUC 三型態的辨識**：papillary（腔內充盈缺損，可見 oncocalyx／phantom calyx）、flat（同心或偏心壁增厚，管腔不一定變窄，excretory 期難辨、靠 nephrographic 期 hyperenhancement）、infiltrative（腎竇/輸尿管周脂肪條紋化但保留 reniform shape，可與 RCC 膨脹性腫塊區分）。上尿路癌易多中心，見同側多處 focal 壁增厚＋hyperenhancement 應想多發，且務必掃描輸尿管全程與膀胱（field cancerization）。[^2][^3]
+- **充盈缺損／壁增厚 DDx 與假病灶陷阱**：充盈缺損 DDx 含結石、血塊、fungus ball、脫落乳突（papillary necrosis 之 teardrop／signet ring）、fibroepithelial polyp（長條、平滑、有蒂、被對比劑包繞）；壁增厚 DDx 含發炎（對稱環狀、可消退）、suburothelial 出血、pyeloureteritis cystica。技術性假病灶：充盈不全/蠕動造成假性壁增厚或缺損、tortuous 輸尿管部分容積偽影、血管/淋巴結外壓——同段須在不同影像/時相重複確認，並以 furosemide/水化/俯臥/咳嗽改善全程均勻充盈。[^2][^3][^6]
+- **信心分級**：CTU 對 UTUC 整體 PPV 約 53%，但歸類為「大腫塊（large mass）」者 PPV 可達約 83%——病灶越大、形態越明確，惡性可能越高，報告的確定度應隨之調整。[^5]
+
 ### 適應症與各期分工
 - **主要適應症**：成人血尿（尤其無痛肉眼血尿、高危族群）評估上尿路 urothelial 病灶;結石定位與成分線索;腎腫瘤/腎盂腫瘤分期;腎盂輸尿管解剖（術前、移植）。[^1][^3]
 - **各期看什麼**（影像判讀分工）：[^2][^3]

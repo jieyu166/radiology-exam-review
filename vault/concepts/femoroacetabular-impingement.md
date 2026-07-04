@@ -61,6 +61,14 @@ dateRev: 2026-07-01
 > [!note] 考點：AP 髖片上的 crossover sign 與何者相關?
 > **Femoroacetabular impingement（pincer 型、髖臼後傾）**。Perthes、DDH、SCFE 不以 crossover sign 為特徵。[^2]
 
+## 放射科醫師影像判讀重點
+- **先分型再量測**：cam＝股骨側（α 角增大、pistol-grip/loss of offset）；pincer＝髖臼側（過度覆蓋/後傾）；臨床上混合型最常見，判讀時股骨頭頸交界與髖臼緣兩處都要看。[^1][^2]
+- **α 角量測 view 的選擇是判讀分水嶺**：單張 AP 片陰性**不能排除 cam**（AP 與 MRI 相關性差 r≈0.35）；Dunn view 準確度最高（約 90%，敏感度 91%、特異度 88%），須加照 Dunn / cross-table lateral。[^4]
+- **Crossover sign 判讀**：AP 骨盆片上**髖臼前緣線在上段越過（交叉）後緣線**（figure-of-eight）→ 髖臼後傾（acetabular retroversion）→ focal pincer；常伴 posterior wall sign、ischial spine sign，三者俱全代表後傾較重（PWS 陽性者常需 reorientation osteotomy 而非單純 labral repair）。[^2][^6]
+- **覆蓋量測與 dysplasia 鑑別（治療方向相反）**：LCEA 過度覆蓋常用 >40°（或 >30° 合併 acetabular index <0°）；**LCEA <25° 屬 developmental dysplasia（覆蓋不足）而非 pincer**，勿混淆——誤判會導致手術方向錯誤。[^1][^5]
+- **MRA 軟骨/labral 損傷分佈**：cam→前方/前上方 α 角增大、前上方軟骨損傷＋約半數有 bump；pincer→髖臼較深、後下方（contrecoup 對沖）軟骨損傷＋後方/後下方 labral 損傷更明顯（約 1/3 有 bump）。[^9]
+- **投照與症狀相關的判讀陷阱**：crossover/posterior wall/ischial spine sign 對**骨盆傾斜與旋轉**敏感，投照不正或 AIIS 形態變異會偽陽/偽陰；且 FAI 形態與 labral 損傷在無症狀者盛行率高（cam 約 37%、無對比 MRI labral injury 約 68%），**影像陽性 ≠ 症狀來源**，須臨床＋影像合判。[^1][^7]
+
 ### 參考來源
 [^1]: Frank JM, Harris JD, Erickson BJ, et al. *Prevalence of Femoroacetabular Impingement Imaging Findings in Asymptomatic Volunteers: A Systematic Review.* Arthroscopy. 2015;31(6):1199-204.（依摘要未讀全文）DOI: [10.1016/j.arthro.2014.11.042](https://doi.org/10.1016/j.arthro.2014.11.042)。無症狀者平均 α 角 54.1°±5.1°；cam 形態盛行率 37%、pincer 徵象達 67%；無對比 MRI labral injury 68.1%；pincer 定義含 acetabular retroversion、coxa profunda、protrusio、COS、PWS、PRISS。（資料來自 PubMed）
 [^2]: Yamasaki T, Yasunaga Y, Shoji T, et al. *Inclusion and Exclusion Criteria in the Diagnosis of Femoroacetabular Impingement.* Arthroscopy. 2015;31(7):1403-10.（依摘要未讀全文）DOI: [10.1016/j.arthro.2014.12.022](https://doi.org/10.1016/j.arthro.2014.12.022)。系統回顧：crossover sign 用於 69% 研究、acetabular index 28%、PWS 22%、ischial spine 7%；α 角 50° 或 55° 為 cam 陽性；LCEA >40°（或 >30°＋acetabular index <0°）為 pincer 納入；LCEA <25° 應排除。（資料來自 PubMed）

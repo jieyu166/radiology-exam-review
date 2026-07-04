@@ -48,8 +48,24 @@ dateRev: 2026-06-29
 - **底部型腺肌瘤症（fundal adenomyomatosis）擬腫瘤**：局部壁增厚易誤判為腫瘤;若見壁內 RAS 小囊／comet-tail 即支持良性，**無症狀者無需切除**。[^5]
 - pearl necklace sign 陰性不能排除（僅約 70% 可見），需結合 HRUS comet-tail 綜合判讀。[^4]
 
+## 放射科醫師影像判讀重點
+- **RAS 是所有徵象的病理根源**：黏膜陷入增厚肌層形成 Rokitansky-Aschoff sinuses，判讀時鎖定「壁內小囊」即可推出各模態徵象。[^1][^2]
+- **超音波（首選、最具特異性）**：壁內無回音小囊（RAS）＋ **comet-tail／ring-down artifact**（RAS 內膽固醇結晶產生的 V 形 reverberation），彩色都卜勒可見 **twinkling artifact**；HRUS 對小囊敏感度約 73%（Az≈0.96），與 MRI 相當且優於 MDCT。[^1][^2]
+- **MDCT**：**rosary sign（念珠徵）**＝強化黏膜上皮形成壁內憩室被相對不強化肥厚肌層環繞；對小 RAS 敏感度較低（約 50%）但特異度高（約 98%）。[^2][^3]
+- **MRI／MRCP**：**pearl necklace sign（珍珠項鍊徵）**＝T2／MRCP 壁內與膽汁同訊號小圓囊串列；特異度約 92–98%、但僅約 70% 可見，RAS <3 mm 或含蛋白液／小結石時不易顯示；MRI＋MRCP 綜合敏感度約 81%。[^4][^2]
+- **三種分型辨識**：diffuse（瀰漫壁增厚）、segmental（環狀狹窄致 **hourglass** 沙漏狀分隔）、focal／fundal（膽囊底局部腫塊樣增厚）。[^1][^5]
+- **與膽囊癌的鑑別是判讀核心**：支持良性＝壁分層保留、可見 RAS 壁內小囊（rosary／pearl necklace）、comet-tail、黏膜連續；支持癌＝強烈均質強化之局部／瀰漫增厚伴黏膜病灶（polypoid／lumen-replacing）且**無** RAS；疑難病例以 MRI／MRCP 鑑別準確度最佳（約 93%）。[^2][^3][^4]
+- **陷阱**：fundal 型局部增厚易擬腫瘤，見壁內 RAS 小囊／comet-tail 即支持良性、無症狀者無需切除；pearl necklace 陰性不能排除，須結合 HRUS comet-tail 綜合判讀。[^4][^5]
+
 > [!note] 考點：何者「非」膽囊腺肌症的典型超音波所見?
 > A/B/C（瀰漫壁增厚、局部壁增厚、comet-tail）**皆典型** → 答案 **D（以上皆典型）**。[^1]
+
+## 臨床重點（5 句）
+- 膽囊腺肌症為良性壁增生，約見於 9% 膽囊切除標本。[^1]
+- 多為偶然發現、無症狀者無需切除；部分病人可因合併膽結石或膽絞痛而有右上腹痛。[^1][^5]
+- 節段型（尤其高齡者）膽囊癌發生率被部分文獻報告較高、視為潛在前驅病變，但此關聯仍有爭議。[^5]
+- 有症狀、或影像無法確切排除惡性時，處置傾向膽囊切除。[^5]
+- 臨床決策核心在良性 vs 惡性的鑑別，影像（尤其 MRI／MRCP）在此扮演關鍵角色。[^2][^5]
 
 ### 參考來源
 [^1]: *Adenomyomatosis of the gallbladder*. Radiopaedia.org（輔助來源，accessed 2026-06-17）：良性、~9% 膽囊切除、**diffuse 或 focal 壁增厚**;**comet-tail artifact＝RAS 內 echogenic foci 產生 V 形 reverberation**;與膽囊癌鑑別。

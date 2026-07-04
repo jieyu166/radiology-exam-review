@@ -24,6 +24,13 @@ dateRev: 2026-06-19
 > [!note] 考點
 > 降 beam-hardening＝**增 tube potential**;降 noise＝**iterative reconstruction**;slab/banding 成因＝**掃描期間對比變化**。[^1]
 
+## 放射科醫師影像判讀重點
+- **假影辨識分水嶺（判讀第一步：先分類再對策）**：影像上見「高衰減結構（鈣化斑塊、金屬支架、對比劑充盈之心腔）旁的暗紋／亮紋」→ 屬 beam-hardening/streak；見「整體顆粒感、低訊噪」→ 屬 quantum mottle（noise）；見「軸向分段接縫處的橫向條帶」→ 屬 slab/banding。三者對策完全不同，誤分類即誤處置。[^1][^2]
+- **Beam-hardening 對策的判讀選擇**：可用「增 tube potential(高 kVp)、X 光 beam filtration、雙能量之虛擬單能量高能(high-keV)影像、iterative reconstruction」壓抑；虛擬單能量高能影像因減少低能光子貢獻，特別適合鈣化/支架旁 blooming 與暗紋的判讀。[^1][^2]
+- **Noise vs 對比劑：勿把降噪與硬化對策混用**：quantum mottle 首選 iterative reconstruction（亦可增 mAs/kVp/厚度、降 kernel 銳利度）；filtered back-projection、adaptive filtration、partial scanning 皆非降噪主力，判讀時不可期待以這些手段改善顆粒感。[^1]
+- **Slab/banding 的關鍵鑑別（勿誤判為狹窄或病灶）**：接縫處條帶源自掃描期間對比劑強化程度隨時間變化（多見於多 slab 拼接），與光子能量/劑量無關；對策為增加每心週期 z 軸覆蓋、減少所需成像心週期數、維持均勻對比強化——調 tube potential 無效。判讀時見規律出現於分段界面的條帶應直接歸因於此，勿誤讀為真實管腔或心肌異常。[^2]
+- **後顱窩類比（跨部位辨識同一物理）**：兩側緻密岩骨(petrous bone)間的黑色帶狀假影亦為 beam-hardening（高密度骨質優先吸收低能光子、能譜偏移），可用 calibration correction + iterative beam hardening correction 降低——同一物理機轉在不同部位的表現，有助於把「高密度結構間暗帶」統一歸類為硬化假影。[^3]
+
 ## 增加 tube potential 可改善哪些偽影（2018-178）
 - **可被增加 tube potential 改善**：beam hardening（高衰減結構旁暗亮條紋）、metal/streak artifact（金屬旁條紋/風車偽影）、quantum mottle（低光子計數之顆粒感雜訊）——三者皆列於文獻中「增加 tube potential」為改善對策之一。[^2]
 - **不會被增加 tube potential 改善：slab/banding artifact**——此偽影成因為**掃描期間對比劑強化程度隨時間變化**（多見於分段拼接處），與光子能量/劑量無關，須靠**增加每心週期 z 軸覆蓋範圍、減少所需成像心週期數、維持均勻對比強化程度**等技術對策，而非調整 tube potential。[^2]

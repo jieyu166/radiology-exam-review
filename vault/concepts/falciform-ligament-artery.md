@@ -13,6 +13,15 @@ dateRev: 2026-06-29
 
 **HFLA（hepatic falciform ligament artery，又稱 hepatic falciform artery, HFA）是一條沿鐮狀韌帶走向臍部、溝通肝動脈與腹壁（內胸動脈系統）的細小側支；TACE 時若沒認出它，化療栓塞劑會沿吻合跑到臍上腹壁皮膚造成缺血、紅疹、疼痛甚至脂肪壞死。** 起源多為肝中動脈（A4）或肝左動脈（A3），沿 falciform ligament 前下走行至臍周，與 internal thoracic（superior epigastric）系統吻合。記憶鉤：HFLA 是「肝到肚臍的暗道」，血流慢、顯影延遲是辨識關鍵；TACE 前若見到，須超選或預防性栓塞保護腹壁。
 
+## 放射科醫師影像判讀重點
+- **辨識關鍵是「血流慢＋延遲持續顯影」**：HFA 血流較周邊肝內分支慢，於肝動脈攝影呈延遲且持續顯影的細長、常迂曲前下走向分支——只看早期動脈相易漏看。[^2][^3]
+- **起源勿先入為主**：最常源自 middle hepatic artery（A4），其次 left hepatic artery（A3）或 A3／A4 匯合；超選前須確認實際起源以免遺漏或誤栓。[^1]
+- **遠端吻合是併發症解剖基礎**：HFA 遠端與 internal thoracic（superior epigastric／ensiform）分支及皮下動脈吻合，此即化療栓塞劑外溢至前腹壁皮膚的通路。[^1]
+- **伴隨徵象**：部分病例可見臍旁靜脈（paraumbilical vein）與 HFA 一同顯影，可作辨識佐證。[^3]
+- **CT 上通常不自發顯影**：偶見於 GI 動脈變異（median arcuate ligament 壓迫、celiomesenteric trunk）致側支肥大代償時於增強 CT 顯影。[^4]
+- **DDx**：須與其他供應鐮狀韌帶區／前腹壁的側支（internal thoracic／superior epigastric 本身、副／替代肝動脈）區分——HFA 辨識點在「起自肝動脈、沿鐮狀韌帶前下走向臍部、血流延遲」。[^1][^3]
+- **TACE 前的動作**：術前留意延遲顯影之前下細支、必要時延長攝影相位；見到 HFA 供血時以近端 coil／gelatin sponge 預防性栓塞保護腹壁再行栓塞。[^1][^7]
+
 ## 解剖與起源
 - **走行**：起自肝動脈系統，於 **falciform ligament（鐮狀韌帶）內**沿前緣向前下走向臍部，供應鐮狀韌帶及其鄰近前腹壁。[^1][^2]
 - **起源變異**：最常見源自 **middle hepatic artery（A4）**；其次為 **left hepatic artery（A3，含 A3/A4 匯合處）**；Ibukuro 系列 26 例中 A4 起源 16 例、A3 起源 3 例、A3+A4 匯合 3 例。[^1]
