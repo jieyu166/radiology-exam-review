@@ -16,6 +16,7 @@ const CardMode = (function () {
     next:         document.getElementById('card-next'),
     toggleAnswer: document.getElementById('card-toggle-answer'),
     markChecked:  document.getElementById('card-mark-checked'),
+    toggleStar:   document.getElementById('card-toggle-star'),
     editPanel:    document.getElementById('card-edit-panel'),
     editForm:     document.getElementById('card-edit-form'),
   });
@@ -29,6 +30,7 @@ const CardMode = (function () {
     e.next.addEventListener('click', () => navigate(1));
     e.toggleAnswer.addEventListener('click', toggleAnswer);
     e.markChecked.addEventListener('click', markCurrentChecked);
+    if (e.toggleStar) e.toggleStar.addEventListener('click', toggleCurrentStar);
 
     // 鍵盤
     document.addEventListener('keydown', _handleKey);
@@ -77,6 +79,15 @@ const CardMode = (function () {
     showToast(newVal ? '已標記為已確認' : '已取消確認', 'success');
   }
 
+  function toggleCurrentStar() {
+    if (!_questions.length) return;
+    const q = _questions[_index];
+    const starred = DataLoader.toggleStar(q.id);
+    _updateStarButton(starred);
+    _render();
+    showToast(starred ? '已加入收藏' : '已取消收藏', 'success');
+  }
+
   /* ── 渲染當前卡片 ── */
   function _render() {
     const e = _els();
@@ -89,6 +100,7 @@ const CardMode = (function () {
     }
 
     const q = _questions[_index];
+    DataLoader.markSeen(q.id);
     e.counter.textContent = `${_index + 1} / ${_questions.length}`;
 
     // 前後按鈕 disabled
@@ -108,6 +120,7 @@ const CardMode = (function () {
     // 顯示/隱藏答案按鈕
     const toggleBtn = e.toggleAnswer;
     if (toggleBtn) toggleBtn.textContent = _flipped ? '隱藏答案' : '顯示答案';
+    _updateStarButton(DataLoader.isStarred(q.id));
 
     e.container.innerHTML = _buildCard(q, _flipped);
 
@@ -137,12 +150,21 @@ const CardMode = (function () {
     if (e.editPanel && !Editor.isEditMode()) e.editPanel.hidden = true;
   }
 
+  function _updateStarButton(starred) {
+    const btn = _els().toggleStar;
+    if (!btn) return;
+    btn.textContent = starred ? '已收藏' : '收藏';
+    btn.classList.toggle('btn-primary', starred);
+    btn.classList.toggle('btn-outline', !starred);
+  }
+
   /* ── 建構卡片 HTML ── */
   function _buildCard(q, flipped) {
     const subBadge  = `<span class="badge badge-sub" data-sub="${_esc(q.subspecialty)}">${_esc(q.subspecialty)}</span>`;
     const yearBadge = `<span class="badge badge-year">${QuestionStore.getQuestionYears(q).join(' / ')}</span>`;
     const numBadge  = `<span class="badge badge-num">#${q.number}</span>`;
     const unchecked = q.checked ? '' : `<span class="badge-unchecked">未確認</span>`;
+    const progressBadges = _progressBadges(q);
     const editBtn = Editor.isEditMode()
       ? `<button class="btn btn-sm btn-outline card-edit-btn" style="margin-left:auto;font-size:.75rem;padding:4px 10px;" onclick="event.stopPropagation()">✏️ 編輯</button>`
       : '';
@@ -184,7 +206,7 @@ const CardMode = (function () {
         <!-- 正面 -->
         <div class="card-face card-front">
           <div class="card-face-header">
-            ${numBadge}${yearBadge}${subBadge}${unchecked}
+            ${numBadge}${yearBadge}${subBadge}${unchecked}${progressBadges}
             ${editBtn || '<span style="margin-left:auto;font-size:.75rem;color:var(--text-muted);">點擊翻轉</span>'}
           </div>
           <p class="card-question-text">${Format.render(q.questionText)}</p>
@@ -196,6 +218,7 @@ const CardMode = (function () {
           <div class="card-face-header">
             ${numBadge}${yearBadge}${subBadge}
             <span class="badge badge-checked">答案：${_esc(q.correctAnswer || '?')}</span>
+            ${progressBadges}
             ${editBtn}
           </div>
           <p class="card-question-text">${Format.render(q.questionText)}</p>
@@ -205,6 +228,17 @@ const CardMode = (function () {
         </div>
       </div>
     `;
+  }
+
+  function _progressBadges(q) {
+    const progress = DataLoader.getProgress();
+    const badges = [];
+    if (progress.seen[q.id]) badges.push('<span class="badge badge-progress-seen">已讀</span>');
+    if (progress.starred[q.id] === true) badges.push('<span class="badge badge-progress-starred">收藏</span>');
+    if (progress.answers[q.id] && progress.answers[q.id].correct === false) {
+      badges.push('<span class="badge badge-progress-wrong">答錯過</span>');
+    }
+    return badges.join('');
   }
 
   /* ── 鍵盤導覽 ── */

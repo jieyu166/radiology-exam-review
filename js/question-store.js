@@ -37,8 +37,10 @@ const QuestionStore = (function () {
    * @param {string[]|null} opts.years - 年份字串陣列，null 代表全部
    * @param {string[]|null} opts.subspecialties - 次專科陣列，null 或 [] 代表全部
    * @param {boolean} opts.checkedOnly - 只顯示已確認
+   * @param {boolean} opts.starredOnly - 只顯示收藏
+   * @param {boolean} opts.wrongOnly - 只顯示答錯過
    */
-  function getQuestions({ years = null, subspecialties = null, checkedOnly = false } = {}) {
+  function getQuestions({ years = null, subspecialties = null, checkedOnly = false, starredOnly = false, wrongOnly = false } = {}) {
     let questions = DataLoader.getLoadedQuestions();
 
     // 年份篩選
@@ -56,6 +58,16 @@ const QuestionStore = (function () {
     // 只顯示已確認
     if (checkedOnly) {
       questions = questions.filter(q => q.checked === true);
+    }
+
+    if (starredOnly || wrongOnly) {
+      const progress = DataLoader.getProgress();
+      if (starredOnly) {
+        questions = questions.filter(q => progress.starred[q.id] === true);
+      }
+      if (wrongOnly) {
+        questions = questions.filter(q => progress.answers[q.id] && progress.answers[q.id].correct === false);
+      }
     }
 
     return _dedupeById(questions);

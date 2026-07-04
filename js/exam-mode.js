@@ -11,6 +11,7 @@ const ExamMode = (function () {
     answers:   {},   // id -> 選的字母
     current:   0,
     submitted: false,
+    resultRecorded: false,
   };
 
   /* ── 送分題判定 ──
@@ -42,6 +43,8 @@ const ExamMode = (function () {
     const listBtn  = document.getElementById('result-list-btn');
     if (retryBtn) retryBtn.addEventListener('click', () => App.navigate('#/exam'));
     if (listBtn)  listBtn.addEventListener('click',  () => App.navigate('#/list'));
+
+    renderRecentScores();
   }
 
   /* ── 初始化年份 checkbox ── */
@@ -92,7 +95,7 @@ const ExamMode = (function () {
       return;
     }
 
-    _state = { questions: pool, answers: {}, current: 0, submitted: false };
+    _state = { questions: pool, answers: {}, current: 0, submitted: false, resultRecorded: false };
     App.navigate('#/exam/active');
     _renderQuestion();
   }
@@ -282,14 +285,30 @@ const ExamMode = (function () {
 
     questions.forEach(q => {
       const ans = answers[q.id];
+      const isCorrect = _isBonus(q) || ans === q.correctAnswer;
+      if (!_state.resultRecorded) {
+        DataLoader.recordAnswer(q.id, { chosen: ans || null, correct: isCorrect });
+      }
       if (_isBonus(q)) { correct++; }                       // 送分一律算對（含未作答），不列入錯題
       else if (!ans) { skipped++; wrongItems.push({ q, ans: null }); }
-      else if (ans === q.correctAnswer) { correct++; }
+      else if (isCorrect) { correct++; }
       else { wrong++; wrongItems.push({ q, ans }); }
     });
 
     const total  = questions.length;
     const pct    = total > 0 ? Math.round(correct / total * 100) : 0;
+    if (!_state.resultRecorded) {
+      DataLoader.addExamRecord({
+        total,
+        correct,
+        wrong,
+        skipped,
+        pct,
+        wrongIds: wrongItems.map(item => item.q.id),
+      });
+      _state.resultRecorded = true;
+      renderRecentScores();
+    }
 
     const scoreEl = document.getElementById('result-score');
     if (scoreEl) scoreEl.textContent = pct + '%';
@@ -348,6 +367,47 @@ const ExamMode = (function () {
     }
   }
 
+  function renderRecentScores() {
+    const container = document.getElementById('recent-scores');
+    if (!container) return;
+    const history = (DataLoader.getProgress().examHistory || []).slice()
+      .sort((a, b) => (b.ts || 0) - (a.ts || 0))
+      .slice(0, 8);
+
+    if (history.length === 0) {
+      container.innerHTML = `
+        <h3 class="recent-scores-title">近期成績</h3>
+        <div class="recent-scores-empty">尚無模擬考紀錄</div>
+      `;
+      return;
+    }
+
+    container.innerHTML = `
+      <h3 class="recent-scores-title">近期成績</h3>
+      <div class="recent-score-list">
+        ${history.map(item => `
+          <div class="recent-score-item">
+            <div class="recent-score-main">${_esc(_formatDate(item.ts))}</div>
+            <div class="recent-score-pct">${_esc(item.pct)}%</div>
+            <div class="recent-score-detail">答對 ${_esc(item.correct)}／答錯 ${_esc(item.wrong)}／未作答 ${_esc(item.skipped)}</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  }
+
+  function _formatDate(ts) {
+    const d = new Date(ts || Date.now());
+    if (Number.isNaN(d.getTime())) return '';
+    return d.toLocaleString('zh-TW', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
+  }
+
   /* ── 燈箱 ── */
   function _lightbox(src) {
     const box = document.createElement('div');
@@ -366,5 +426,5 @@ const ExamMode = (function () {
       .replace(/"/g, '&quot;');
   }
 
-  return { init, initYearCheckboxes };
+  return { init, initYearCheckboxes, renderRecentScores };
 })();

@@ -9,6 +9,11 @@
 const ConceptCards = (function () {
   'use strict';
 
+  const CANONICAL_SUBSPECIALTIES = ['ABD','CV','CH','NR','MSK','H&N','PED','IR','Physics','Breast','US'];
+  const CONCEPT_ONLY_SUBSPECIALTIES = ['GU','GI','PE','Neuro','HN','RP','MRI','GYN'];
+  const UNCATEGORIZED_SUBSPECIALTY = '未分類';
+  let _conceptSubFilter = '';
+
   /* ── 渲染概念列表頁 ── */
   async function renderAll() {
     const container = document.getElementById('concept-container');
@@ -16,9 +21,11 @@ const ConceptCards = (function () {
 
     const concepts = await DataLoader.loadConceptsIndex();
     const keys = Object.keys(concepts).sort();
+    const filterItems = _buildSubspecialtyFilters(concepts, keys);
 
     // 也收集題目中引用但索引中不存在的概念 ID
     const allQuestions = DataLoader.getLoadedQuestions();
+    const relCounts = _buildRelatedCounts(allQuestions);
     const referenced = new Set();
     for (const q of allQuestions) {
       for (const c of (q.concepts || [])) referenced.add(c);
@@ -30,6 +37,7 @@ const ConceptCards = (function () {
         <h2 style="margin:0;font-size:1.2rem;">概念列表（${keys.length} 個）</h2>
         ${Editor.isEditMode() ? '<button class="btn btn-primary btn-sm" id="concept-add-btn">＋ 新增概念</button>' : ''}
       </div>
+      ${_renderFilterPills(filterItems, keys.length)}
     `;
 
     if (missing.length > 0) {
@@ -45,30 +53,10 @@ const ConceptCards = (function () {
       html += '<div style="text-align:center;padding:60px;color:var(--text-muted);">目前無概念卡片。在題目編輯中新增概念連結後，可在此管理。</div>';
     }
 
-    html += '<div class="concept-grid">';
-    for (const id of keys) {
-      const c = concepts[id];
-      const name = c.name || id;
-      const nameZh = c.nameZh || '';
-      const sub = c.subspecialty || '';
-      const checked = c.checked ? '<span class="badge badge-checked">已確認</span>' : '<span class="badge-unchecked">未確認</span>';
-      const relCount = allQuestions.filter(q => (q.concepts || []).includes(id)).length;
-
-      html += `
-        <a href="#/concept/${_esc(id)}" class="concept-grid-item">
-          <div class="concept-grid-title">${_esc(name)}</div>
-          ${nameZh ? `<div style="font-size:.8rem;color:var(--text-muted);">${_esc(nameZh)}</div>` : ''}
-          <div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap;">
-            ${sub ? `<span class="badge badge-sub" data-sub="${_esc(sub)}">${_esc(sub)}</span>` : ''}
-            ${checked}
-            <span class="badge badge-year">相關 ${relCount} 題</span>
-          </div>
-        </a>
-      `;
-    }
-    html += '</div>';
+    html += _renderConceptGrid(concepts, keys, relCounts);
 
     container.innerHTML = html;
+    _bindFilterPills(container, concepts, keys, relCounts);
 
     // 新增概念按鈕
     const addBtn = container.querySelector('#concept-add-btn');
@@ -80,6 +68,104 @@ const ConceptCards = (function () {
         window.location.hash = '#/concept/' + normalized;
       });
     }
+  }
+
+  function _buildSubspecialtyFilters(concepts, keys) {
+    const counts = new Map();
+    for (const id of keys) {
+      const sub = (concepts[id].subspecialty || '').trim() || UNCATEGORIZED_SUBSPECIALTY;
+      counts.set(sub, (counts.get(sub) || 0) + 1);
+    }
+
+    const canonical = CANONICAL_SUBSPECIALTIES
+      .filter(sub => counts.has(sub))
+      .map(sub => ({ value: sub, label: sub, count: counts.get(sub) }));
+    const extraSubs = Array.from(counts.keys())
+      .filter(sub => sub !== UNCATEGORIZED_SUBSPECIALTY && !CANONICAL_SUBSPECIALTIES.includes(sub));
+    const knownExtras = CONCEPT_ONLY_SUBSPECIALTIES.filter(sub => counts.has(sub));
+    const otherExtras = extraSubs.filter(sub => !CONCEPT_ONLY_SUBSPECIALTIES.includes(sub));
+    const extras = knownExtras.concat(otherExtras)
+      .map(sub => ({ value: sub, label: sub, count: counts.get(sub) }));
+    const uncategorized = counts.has(UNCATEGORIZED_SUBSPECIALTY)
+      ? [{ value: UNCATEGORIZED_SUBSPECIALTY, label: UNCATEGORIZED_SUBSPECIALTY, count: counts.get(UNCATEGORIZED_SUBSPECIALTY) }]
+      : [];
+
+    return canonical.concat(extras, uncategorized);
+  }
+
+  function _renderFilterPills(filterItems, totalCount) {
+    const allActive = _conceptSubFilter === '' ? ' active' : '';
+    const items = [
+      `<button type="button" class="pill${allActive}" data-sub="">全部 <span>${totalCount}</span></button>`,
+      ...filterItems.map(item => {
+        const active = _conceptSubFilter === item.value ? ' active' : '';
+        return `<button type="button" class="pill${active}" data-sub="${_esc(item.value)}">${_esc(item.label)} <span>${item.count}</span></button>`;
+      })
+    ];
+    return `<div class="pills-row" id="concept-sub-pills" style="margin:-4px 0 16px;">${items.join('')}</div>`;
+  }
+
+  function _bindFilterPills(container, concepts, keys, relCounts) {
+    container.querySelectorAll('#concept-sub-pills .pill').forEach(btn => {
+      btn.addEventListener('click', function () {
+        _conceptSubFilter = this.dataset.sub || '';
+        _syncFilterPills(container);
+        const grid = container.querySelector('.concept-grid');
+        if (grid) grid.outerHTML = _renderConceptGrid(concepts, keys, relCounts);
+      });
+    });
+  }
+
+  function _syncFilterPills(container) {
+    container.querySelectorAll('#concept-sub-pills .pill').forEach(btn => {
+      btn.classList.toggle('active', (btn.dataset.sub || '') === _conceptSubFilter);
+    });
+  }
+
+  function _renderConceptGrid(concepts, keys, relCounts) {
+    const visibleKeys = keys.filter(id => _matchesSubspecialtyFilter(concepts[id]));
+    let html = '<div class="concept-grid">';
+    for (const id of visibleKeys) {
+      html += _renderConceptGridItem(id, concepts[id], relCounts.get(id) || 0);
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function _matchesSubspecialtyFilter(concept) {
+    if (!_conceptSubFilter) return true;
+    const sub = (concept.subspecialty || '').trim();
+    if (_conceptSubFilter === UNCATEGORIZED_SUBSPECIALTY) return !sub;
+    return sub === _conceptSubFilter;
+  }
+
+  function _renderConceptGridItem(id, concept, relCount) {
+    const name = concept.name || id;
+    const nameZh = concept.nameZh || '';
+    const sub = concept.subspecialty || '';
+    const checked = concept.checked ? '<span class="badge badge-checked">已確認</span>' : '<span class="badge-unchecked">未確認</span>';
+
+    return `
+      <a href="#/concept/${_esc(id)}" class="concept-grid-item">
+        <div class="concept-grid-title">${_esc(name)}</div>
+        ${nameZh ? `<div style="font-size:.8rem;color:var(--text-muted);">${_esc(nameZh)}</div>` : ''}
+        <div style="margin-top:6px;display:flex;gap:6px;flex-wrap:wrap;">
+          ${sub ? `<span class="badge badge-sub" data-sub="${_esc(sub)}">${_esc(sub)}</span>` : ''}
+          ${checked}
+          <span class="badge badge-year">相關 ${relCount} 題</span>
+        </div>
+      </a>
+    `;
+  }
+
+  function _buildRelatedCounts(allQuestions) {
+    const counts = new Map();
+    for (const q of allQuestions) {
+      for (const id of (q.concepts || [])) {
+        counts.set(id, (counts.get(id) || 0) + 1);
+      }
+    }
+    return counts;
   }
 
   /* ── 渲染單一概念頁 ── */

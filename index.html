@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>放射科交換考題複習</title>
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/main.css?v=user-study-records" />
 </head>
 <body>
 
@@ -75,6 +75,20 @@
         只顯示已確認
       </label>
     </div>
+    <div class="filter-group toggle-group">
+      <label class="toggle-label" for="starred-toggle">
+        <input type="checkbox" id="starred-toggle" />
+        <span class="toggle-track"></span>
+        只顯示收藏
+      </label>
+    </div>
+    <div class="filter-group toggle-group">
+      <label class="toggle-label" for="wrong-toggle">
+        <input type="checkbox" id="wrong-toggle" />
+        <span class="toggle-track"></span>
+        只顯示答錯過
+      </label>
+    </div>
   </div>
 </div>
 
@@ -93,12 +107,21 @@
     <div class="settings-row settings-actions">
       <button class="btn btn-primary" id="export-btn">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-        匯出 JSON
+        匯出題目編輯（詳解）
       </button>
       <button class="btn btn-danger" id="discard-btn">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/></svg>
         放棄所有編輯
       </button>
+    </div>
+    <div class="settings-section">
+      <h3 class="settings-subtitle">學習記錄</h3>
+      <div class="settings-row settings-actions">
+        <button class="btn btn-outline" id="progress-export-btn">匯出學習記錄</button>
+        <button class="btn btn-outline" id="progress-import-btn">匯入學習記錄</button>
+        <button class="btn btn-danger" id="progress-clear-btn">清除學習記錄</button>
+        <input type="file" id="progress-import-file" accept="application/json" hidden />
+      </div>
     </div>
   </div>
 </div>
@@ -126,6 +149,7 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
         標記已確認
       </button>
+      <button class="btn btn-outline" id="card-toggle-star">收藏</button>
     </div>
     <!-- 編輯區（edit mode） -->
     <div class="edit-panel" id="card-edit-panel" hidden>
@@ -199,6 +223,9 @@
         </label>
       </div>
       <button class="btn btn-primary btn-block" id="exam-start-btn">開始模擬考</button>
+      <div class="recent-scores" id="recent-scores">
+        <!-- exam-mode.js 填入 -->
+      </div>
     </div>
   </section>
 
@@ -276,13 +303,13 @@
 
 <!-- ===== 載入 JS ===== -->
 <script src="js/format.js"></script>
-<script src="js/data-loader.js"></script>
-<script src="js/question-store.js"></script>
-<script src="js/editor.js"></script>
-<script src="js/card-mode.js"></script>
+<script src="js/data-loader.js?v=user-study-records"></script>
+<script src="js/question-store.js?v=user-study-records"></script>
+<script src="js/editor.js?v=user-study-records"></script>
+<script src="js/card-mode.js?v=user-study-records"></script>
 <script src="js/list-mode.js"></script>
-<script src="js/exam-mode.js"></script>
+<script src="js/exam-mode.js?v=user-study-records"></script>
 <script src="js/concept-cards.js"></script>
-<script src="js/app.js"></script>
+<script src="js/app.js?v=user-study-records"></script>
 </body>
 </html>

@@ -21,6 +21,8 @@ const App = (function () {
     year:    '',   // '' = 全部
     sub:     '',   // '' = 全部
     checked: false,
+    starred: false,
+    wrong:   false,
     q:       0,    // 卡片 index
     qid:     '',   // 由 id 導覽卡片（一次性，消費後清空）
   };
@@ -57,6 +59,8 @@ const App = (function () {
       if (p.has('year'))    _params.year    = p.get('year');
       if (p.has('sub'))     _params.sub     = p.get('sub');
       if (p.has('checked')) _params.checked = p.get('checked') === '1';
+      if (p.has('starred')) _params.starred = p.get('starred') === '1';
+      if (p.has('wrong'))   _params.wrong   = p.get('wrong') === '1';
       if (p.has('q'))       _params.q       = parseInt(p.get('q'), 10) || 0;
       if (p.has('qid'))     _params.qid     = p.get('qid');
     }
@@ -109,6 +113,7 @@ const App = (function () {
 
     const sectionId = ROUTES[route];
     _showSection(sectionId);
+    _syncFilterControls();
 
     // 篩選列：只在 card/list 顯示
     const filterBar = document.getElementById('filter-bar');
@@ -122,7 +127,7 @@ const App = (function () {
     } else if (route === 'list') {
       _renderListView();
     } else if (route === 'exam') {
-      // exam setup：不做特別操作，保持 HTML 原樣
+      ExamMode.renderRecentScores();
     } else if (route === 'exam/active') {
       // exam-mode 自己管理
     } else if (route === 'exam/result') {
@@ -142,6 +147,8 @@ const App = (function () {
       _params.year    = '';
       _params.sub     = '';
       _params.checked = false;
+      _params.starred = false;
+      _params.wrong   = false;
       _syncFilterControls();
 
       const qs  = QuestionStore.getQuestions({});
@@ -165,6 +172,8 @@ const App = (function () {
       years,
       subspecialties: subs,
       checkedOnly: _params.checked,
+      starredOnly: _params.starred,
+      wrongOnly: _params.wrong,
     });
     CardMode.load(qs, _params.q || 0);
   }
@@ -178,6 +187,10 @@ const App = (function () {
     });
     const checkedTog = document.getElementById('checked-toggle');
     if (checkedTog) checkedTog.checked = _params.checked;
+    const starredTog = document.getElementById('starred-toggle');
+    if (starredTog) starredTog.checked = _params.starred;
+    const wrongTog = document.getElementById('wrong-toggle');
+    if (wrongTog) wrongTog.checked = _params.wrong;
   }
 
   /* ─── 列表模式渲染 ─── */
@@ -188,6 +201,8 @@ const App = (function () {
       years,
       subspecialties: subs,
       checkedOnly: _params.checked,
+      starredOnly: _params.starred,
+      wrongOnly: _params.wrong,
     });
     ListMode.load(qs);
   }
@@ -221,6 +236,24 @@ const App = (function () {
       checkedTog.addEventListener('change', function () {
         _params.checked = this.checked;
         _params.q       = 0;
+        _rerenderCurrentView();
+      });
+    }
+
+    const starredTog = document.getElementById('starred-toggle');
+    if (starredTog) {
+      starredTog.addEventListener('change', function () {
+        _params.starred = this.checked;
+        _params.q       = 0;
+        _rerenderCurrentView();
+      });
+    }
+
+    const wrongTog = document.getElementById('wrong-toggle');
+    if (wrongTog) {
+      wrongTog.addEventListener('change', function () {
+        _params.wrong = this.checked;
+        _params.q     = 0;
         _rerenderCurrentView();
       });
     }
@@ -371,6 +404,7 @@ const App = (function () {
     navigate,
     getParams,
     updateParams,
+    refreshCurrentView: _rerenderCurrentView,
     onEditModeChange,
   };
 })();

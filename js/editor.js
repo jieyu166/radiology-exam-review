@@ -40,6 +40,27 @@ const Editor = (function () {
     if (exportBtn) {
       exportBtn.addEventListener('click', _exportJSON);
     }
+
+    const progressExportBtn = document.getElementById('progress-export-btn');
+    if (progressExportBtn) progressExportBtn.addEventListener('click', _exportProgressJSON);
+
+    const progressImportBtn = document.getElementById('progress-import-btn');
+    const progressImportFile = document.getElementById('progress-import-file');
+    if (progressImportBtn && progressImportFile) {
+      progressImportBtn.addEventListener('click', () => progressImportFile.click());
+      progressImportFile.addEventListener('change', _handleProgressImport);
+    }
+
+    const progressClearBtn = document.getElementById('progress-clear-btn');
+    if (progressClearBtn) {
+      progressClearBtn.addEventListener('click', function () {
+        if (!confirm('確定要清除所有學習記錄嗎？題目編輯不會受影響。')) return;
+        DataLoader.clearProgress();
+        if (typeof App !== 'undefined') App.refreshCurrentView();
+        if (typeof ExamMode !== 'undefined') ExamMode.renderRecentScores();
+        showToast('已清除學習記錄', 'success');
+      });
+    }
   }
 
   /* ── 是否為編輯模式 ── */
@@ -416,15 +437,52 @@ const Editor = (function () {
   /* ── 匯出 JSON ── */
   function _exportJSON() {
     const data = DataLoader.exportAllEdits();
+    _downloadJSON(data, 'rex-edits-' + new Date().toISOString().slice(0,10) + '.json');
+    showToast('已匯出題目編輯', 'success');
+  }
+
+  function _exportProgressJSON() {
+    const data = DataLoader.exportProgress();
+    _downloadJSON(data, 'rex-progress-' + new Date().toISOString().slice(0,10) + '.json');
+    showToast('已匯出學習記錄', 'success');
+  }
+
+  function _handleProgressImport(e) {
+    const input = e.target;
+    const file = input && input.files && input.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function () {
+      try {
+        const obj = JSON.parse(String(reader.result || ''));
+        const stats = DataLoader.importProgress(obj);
+        if (typeof App !== 'undefined') App.refreshCurrentView();
+        if (typeof ExamMode !== 'undefined') ExamMode.renderRecentScores();
+        showToast(`已匯入學習記錄：已讀 ${stats.seen}、收藏 ${stats.starred}、作答 ${stats.answers}、成績 ${stats.examHistory}`, 'success', 4200);
+      } catch (err) {
+        console.warn('[Editor] progress import failed', err);
+        showToast('匯入失敗：檔案不是有效的 JSON', 'danger');
+      } finally {
+        input.value = '';
+      }
+    };
+    reader.onerror = function () {
+      input.value = '';
+      showToast('匯入失敗：無法讀取檔案', 'danger');
+    };
+    reader.readAsText(file);
+  }
+
+  function _downloadJSON(data, filename) {
     const json = JSON.stringify(data, null, 2);
     const blob = new Blob([json], { type: 'application/json' });
     const url  = URL.createObjectURL(blob);
     const a    = document.createElement('a');
     a.href     = url;
-    a.download = 'rex-edits-' + new Date().toISOString().slice(0,10) + '.json';
+    a.download = filename;
     a.click();
     URL.revokeObjectURL(url);
-    showToast('已匯出 JSON', 'success');
   }
 
   /* ── 跳脫 HTML ── */

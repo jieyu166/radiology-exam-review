@@ -201,6 +201,17 @@ a { color: var(--primary); text-decoration: none; }
 .settings-title { font-size: 1rem; font-weight: 700; margin-bottom: 16px; color: var(--text); }
 .settings-row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
 .settings-actions { gap: 10px; }
+.settings-section {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+.settings-subtitle {
+  font-size: .9rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text);
+}
 .badge-pending {
   display: inline-flex;
   align-items: center;
@@ -456,6 +467,9 @@ a { color: var(--primary); text-decoration: none; }
 
 .badge-checked { background: #dcfce7; color: var(--success); }
 .badge-num { background: #f1f5f9; color: var(--text); font-weight: 700; }
+.badge-progress-seen { background: #e0f2fe; color: #0369a1; }
+.badge-progress-starred { background: #fef3c7; color: var(--warning); }
+.badge-progress-wrong { background: #fee2e2; color: var(--danger); }
 
 /* =====================================================
    列表模式 / Accordion
@@ -584,6 +598,50 @@ a { color: var(--primary); text-decoration: none; }
 }
 .checkbox-item:has(input:checked) { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
 .checkbox-item input { margin: 0; }
+
+.recent-scores {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.recent-scores-title {
+  font-size: .95rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.recent-scores-empty {
+  color: var(--text-muted);
+  font-size: .85rem;
+}
+.recent-score-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.recent-score-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+}
+.recent-score-main {
+  font-size: .82rem;
+  color: var(--text);
+  font-weight: 600;
+}
+.recent-score-pct {
+  font-size: .95rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+.recent-score-detail {
+  grid-column: 1 / -1;
+  font-size: .78rem;
+  color: var(--text-muted);
+}
 
 /* 進度條 */
 .exam-progress-bar-wrap {
