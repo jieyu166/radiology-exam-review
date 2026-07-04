@@ -22,12 +22,27 @@ dateRev: 2026-07-03
 - **變異**：**prefixed（C4 參與）／postfixed（T2 參與）**。[^1]
 - **影像**：MR neurography（冠狀 STIR/T2）顯示自椎間孔出根、經斜角肌間隙、鎖骨下至腋部;外傷看根撕脫（pseudomeningocele）。[^1]
 
+## 放射科醫師影像判讀重點
+- **MRI 為首選（van Es）**：**MRI 為顯示臂神經叢解剖與病理之首選模態**——神經與周圍脂肪之天然對比使 **roots/trunks/divisions/cords** 清楚可辨；冠狀斜面薄層 T1（解剖）＋脂抑 T2/STIR（病灶）為核心序列。[^3]
+- **五層定位（考點）**：**Roots（C5-T1，椎間孔出）→ Trunks（upper C5-6/middle C7/lower C8-T1，斜角肌間隙）→ Divisions（鎖骨後各分前後股）→ Cords（lateral/posterior/medial，圍腋動脈第二段）→ Branches**。[^1][^3]
+- **病理分類（van Es）**：**神經源性腫瘤（schwannoma/neurofibroma）、上溝瘤（Pancoast）、放射 vs 轉移性 plexopathy 之區分、外傷（根撕脫）、神經源性 TOS、免疫介導神經病變**——為臂神經叢 MRI 的主要判讀範疇。[^3]
+- **放射 vs 轉移鑑別（van Es，臨床關鍵）**：**放射性 plexopathy＝瀰漫 T2 高訊號但無腫塊、可能 T2 低（纖維化）；轉移性＝局部腫塊/結節狀強化**——影響治療方向。[^3]
+- **外傷徵**：**根撕脫→pseudomeningocele、脊髓移位、神經根缺如**；節前（撕脫，預後差）vs 節後損傷之區分影響手術。[^1][^3]
+
+## 臨床重點（5 句）
+1. **功能**：臂神經叢由 **C5-T1 腹支**構成，支配上肢與肩帶之運動與感覺。[^1][^2]
+2. **變異**：**prefixed（C4 參與）／postfixed（T2 參與）**——術前辨識避免定位誤差。[^1]
+3. **常見病變（van Es）**：外傷（機車/生產損傷）、腫瘤（schwannoma、Pancoast）、放射後、轉移、TOS、免疫性神經炎。[^3]
+4. **臨床定位**：上幹損傷→Erb（肩外展/屈肘弱、waiter's tip）；下幹→Klumpke（手內在肌、爪形手）——影像對應根/幹層次。[^1]
+5. **處置意義（van Es）**：MRI 區分節前/節後、放射/轉移、腫瘤性質，直接影響手術神經移植或腫瘤/放腫治療決策。[^3]
+
 > [!note] 考點：何者「非」臂神經叢的常見起源?
 > **C4**——常見起源為 **C5–T1**;C4 屬變異（prefixed plexus）。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Surgical Anatomy of the Hand and Upper Extremity, p.297：臂神經叢常見起源 C5–T1;roots→trunks→divisions→cords→branches;prefixed(C4)/postfixed(T2) 變異。
-[^2]: Jones J, et al. *Brachial plexus*. Radiopaedia, rID-24704, DOI 10.53347/rID-24704——**由 C5–T1 腹支（ventral rami）構成、供上肢與肩帶運動感覺**；於前中斜角肌間出、經頸後三角、鎖骨後，於腋部圍繞腋動脈第二段成 cords，終為 median/ulnar/radial/musculocutaneous/axillary 五大分支——佐證 C5–T1 起源與層次。
+[^2]: Jones J, et al. *Brachial plexus*. Radiopaedia, rID-24704, DOI 10.53347/rID-24704（輔助來源）——**由 C5–T1 腹支（ventral rami）構成、供上肢與肩帶運動感覺**；於前中斜角肌間出、經頸後三角、鎖骨後，於腋部圍繞腋動脈第二段成 cords，終為 median/ulnar/radial/musculocutaneous/axillary 五大分支——佐證 C5–T1 起源與層次。
+[^3]: **Tier 1** van Es HW, Bollen TL, van Heesewijk HPM. *MRI of the brachial plexus: a pictorial review*. Eur J Radiol 2010;74(2):391-402（據 PubMed，DOI [10.1016/j.ejrad.2009.05.067](https://doi.org/10.1016/j.ejrad.2009.05.067)；Review；實際查證 accessed 2026-07-04）——**MRI 為顯示臂神經叢解剖與病理之首選模態**：神經與周圍脂肪之對比使 **roots/trunks/divisions/cords** 清楚可辨；回顧技術、解剖與病理（神經源性腫瘤、上溝瘤、放射 vs 轉移性 plexopathy、外傷、神經源性 TOS、免疫介導神經病變）。佐證 C5-T1 五層解剖、MRI 首選與放射/轉移/外傷之判讀。原「官方/Radiopaedia」弱來源已由本次 Eur J Radiol DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 何者「非」臂神經叢的常見起源? (2017-143)
