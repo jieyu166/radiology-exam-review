@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**四邊孔（quadrilateral space）是肩後方的解剖通道，內含腋神經＋後旋肱動脈，兩者皆可被肱骨外科頸骨折或占位壓迫。** 判讀分水嶺一：**邊界四面＝上 teres minor、下 teres major、內三頭肌長頭、外肱骨頸**，考「哪條神經通過」答 axillary nerve。判讀分水嶺二：**suprascapular nerve 走 suprascapular notch**，不過四邊孔——考題正解就在此陷阱。記憶鉤：四邊孔「上小下大夾三頭，腋神經後旋動脈過，肩胛上神經走另路（notch）」。",
+  "differentialDiagnosis": [
+    "**特發性 teres minor 萎縮(idiopathic teres minor atrophy)**：較 QSS 常見，影像**找不到壓迫源**，好發 50–70 歲（QSS 偏 25–35 歲）。",
+    "**Parsonage-Turner 症候群**：急性特發性臂神經炎，最常侵 suprascapular nerve（supra/infraspinatus），可多條神經、多肌群同時去神經高訊號——**範圍超出單一腋神經分布**時優先考慮。",
+    "**Rotator cuff tear 相關萎縮**：應見肌腱撕裂/退化、肌腹回縮；QSS 的 teres minor 肌腱完整。",
+    "**Suprascapular / spinoglenoid notch 症候群**：不同 notch、不同神經、不同肌群（不會造成 teres minor 去神經）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.radcr.2021.06.002"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiology.188.3.8351331"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2214/ajr.184.3.01840989"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00256-004-0809-3"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Quadrilateral Space (Syndrome)",
+  "nameZh": "四邊孔",
+  "slug": "quadrilateral-space",
+  "subspecialty": "MSK"
+}

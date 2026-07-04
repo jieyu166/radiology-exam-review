@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**腦微血管擴張是一簇擴張的微血管，血管之間「夾有正常腦實質」——這正是與 cavernoma 最核心的區別（cavernoma 血管之間無腦實質）。** 好發橋腦（約 80%），多無症狀，對比後呈點狀/花邊狀淡強化，SWI 上有 blooming 低訊號。記憶鉤：「毛細血管海綿夾著正常腦、cavernoma 是純血管沒有腦」——有沒有夾腦組織，決定診斷。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.5334/jbr-btr.90",
+      "url": "https://doi.org/10.5334/jbr-btr.90"
+    },
+    {
+      "label": "10.1007/s00117-022-01037-z",
+      "url": "https://doi.org/10.1007/s00117-022-01037-z"
+    }
+  ],
+  "imagingFindings": "- **兩大典型徵（Gelal）**：**post-contrast T1 之淡強化＋GRE/SWI 之訊號流失（signal loss）**為診斷雙徵——常規 T1/T2 多不顯，須靠增強＋磁敏感序列。\n- **SWI 優於 GRE（Gelal，考點）**：**SWI 顯示磁敏感致訊號減低優於 GRE T2**——懷疑腦橋病灶時 SWI 最敏感。\n- **DWI/DTI 無助（Gelal）**：**擴散加權/張量影像對診斷無幫助**——與腦膿瘍/腫瘤（DWI 有異）不同，可作陰性佐證。\n- **vs cavernoma（核心鑑別）**：**capillary telangiectasia＝擴張微血管間夾正常腦實質；cavernoma＝血管間無腦實質（爆米花狀＋完整含鐵血黃素環）**——「無間質腦組織」是 cavernoma 而非本病。\n- **好發與合併**：**約 80% 位於腦橋**；可與 developmental venous anomaly（DVA）及 cavernoma 並存（同屬低流量血管病變譜）。",
+  "keyPoints": [
+    "**好發橋腦（~80%）**(option A 對);亦見中腦、基底節、皮質。",
+    "**病理**：擴張微血管,**間夾正常腦實質（interspersed with normal brain parenchyma）**;故「dilated capillaries **without** intervening brain parenchyma」**錯誤**＝題目正解（2016-186 正解 B）——「無間質腦組織」才是 cavernoma 的特徵。",
+    "**多無症狀、偶見**(option C 對)。",
+    "**影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。"
+  ],
+  "management": "1. **本質（Gelal）**：**偶然發現之低流量血管畸形、多無臨床意義**，通常無需治療或追蹤。\n2. **好發**：**腦橋最常見（~80%）**，亦見中腦、基底節、皮質。\n3. **臨床**：絕大多數無症狀，罕有出血（低流量、低壓），與 AVM/cavernoma 之出血風險不同。\n4. **血管攝影（Gelal）**：**血管攝影多為陰性（angiographically silent）**——屬 angiographically occult vascular malformation。\n5. **鑑別需求（Garner/Gelal）**：多數靠特徵影像即可可靠診斷，偶需與腫瘤或發炎過程區分（尤其大型病灶）。\n\n> [!note] 考點：capillary telangiectasia 何者「錯」?\n> 「dilated capillaries **without** intervening brain parenchyma」錯——其**間夾正常腦實質**（無間質腦組織者是 cavernoma）。好發橋腦、無症狀、點狀淡強化皆對。",
+  "name": "CNS Capillary Telangiectasia",
+  "nameZh": "微血管擴張",
+  "slug": "capillary-telangiectasia",
+  "subspecialty": "NR"
+}

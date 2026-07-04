@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**膽結石超音波典型三聯徵：echogenic foci + posterior acoustic shadow + gravity-dependent movement。Comet-tail artifact 非膽結石典型表現，而是 adenomyomatosis 的特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "典型表現：**echogenic foci + posterior acoustic shadow + gravity-dependent movement**。",
+    "**Comet-tail artifact → adenomyomatosis**，非膽結石。"
+  ],
+  "management": "",
+  "name": "Cholelithiasis — Ultrasound Findings",
+  "nameZh": "膽結石超音波",
+  "slug": "cholelithiasis-ultrasound",
+  "subspecialty": "US"
+}

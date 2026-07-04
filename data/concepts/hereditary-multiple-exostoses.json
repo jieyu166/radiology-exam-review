@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**HME＝體染色體顯性（autosomal dominant）之多發性骨軟骨瘤（EXT1/EXT2），因女性不完全外顯 → 男性略多；別名 diaphyseal aclasis / osteochondromatosis / multiple osteochondromas；osteochondroma 以 sessile（廣基）型較 pedunculated（帶蒂）常見。** 判讀分水嶺：**多發 osteochondroma（干骺端、朝關節反向、皮質髓腔連續）+ 骨塑形不良（前臂尺骨短縮、橈骨彎曲、Madelung 樣）；惡性轉變 chondrosarcoma 風險高於孤立型（3-5%，可達 25%）；軟骨帽增厚（成人 >1.5-2cm）、骨成熟後再長大、疼痛＝惡變警訊。相關：[[osteochondroma]]。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1445——**autosomal",
+      "url": "https://doi.org/10.53347/rID-1445——**autosomal"
+    }
+  ],
+  "imagingFindings": "- **osteochondroma 徵象**：干骺端、朝關節反向生長、**皮質與髓腔連續**（與 parosteal 病灶區分）。\n- **前臂變形**：尺骨短縮 + 橈骨彎曲/橈骨頭脫位、Madelung 樣畸形為特徵併發。\n- **惡變警訊**：**成人軟骨帽 >1.5-2 cm**、骨成熟後再長大、疼痛、不規則鈣化/軟組織腫塊 → 疑 chondrosarcoma，MRI 測軟骨帽。\n- **壓迫評估**：鄰近神經/血管/脊髓（脊椎 osteochondroma）壓迫。\n- **陷阱**：勿記成女性好發；男性略多（女性不完全外顯）。",
+  "keyPoints": [
+    "**遺傳**：**體染色體顯性**；**EXT1/EXT2** 基因；盛行率 ~1/50,000。",
+    "**性別**：**男性略多（~1.5 倍）**——女性**不完全外顯（incomplete penetrance）**而較少表現（故「女性較常見」為錯）。",
+    "**別名**：**diaphyseal aclasis / osteochondromatosis / multiple osteochondromas / familial osteochondromatosis**。",
+    "**診斷**：**≥2 個 juxtaepiphyseal/干骺端 osteochondroma + 家族史和/或 EXT 突變**；多於 5-12 歲確診。",
+    "**型態/併發**：osteochondroma 以 **sessile 型較 pedunculated 常見**；骨塑形不良（尺骨短縮/橈骨彎/Madelung 樣、下肢不等長）、神經血管壓迫；**惡性轉變 chondrosarcoma 風險高於孤立型（3-5%，可達 25%）**。"
+  ],
+  "management": "1. **遺傳**：AD、EXT1/EXT2，男略多（女不完全外顯）。\n2. **別名**：diaphyseal aclasis/osteochondromatosis。\n3. **型態**：sessile > pedunculated；皮質髓腔連續。\n4. **併發**：前臂變形、壓迫。\n5. **惡變**：chondrosarcoma 風險高於孤立型（軟骨帽增厚/再長大/痛）。\n\n> [!note] 考點：關於 HME，何者「為誤」?\n> 「**女性較常見**」為誤——**男性略多（~1.5 倍）**，女性因不完全外顯較少。顯性遺傳、又稱 familial osteochondromatosis、osteochondroma 以 sessile 型較常見皆正確。",
+  "name": "Hereditary Multiple Exostoses (HME)",
+  "nameZh": "遺傳性多發外生骨疣",
+  "slug": "hereditary-multiple-exostoses",
+  "subspecialty": "MSK"
+}

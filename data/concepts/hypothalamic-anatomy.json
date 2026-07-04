@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**下視丘解剖判讀分水嶺：Tuber cinereum（灰隆起）位於 optic chiasm 與 mammillary body 之間，在乳突體「前方」（anterior），infundibulum 自此下行——凡敘述 tuber cinereum 位於 mammillary body 後方（posterior）即為錯誤。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.nec.2012.06.002"
+    }
+  ],
+  "imagingFindings": "- **矢狀面 T1 定位**：optic chiasm、tuber cinereum、infundibulum、mammillary body 於正中矢狀面由前往後排列，是判斷鞍上腫塊起源（垂體 vs 下視丘 vs 漏斗）的關鍵切面。\n- **陷阱**：考題常以「tuber cinereum posterior to mammillary bodies」設陷阱——實際 tuber cinereum 在 mammillary body **前方**，位於 chiasm 與 mammillary body 之間。\n- **鞍上/下視丘病變 DDx**：需依界標定位起源，區分 craniopharyngioma、下視丘/視路 glioma、germinoma、Rathke cleft cyst 與 Langerhans 細胞組織球增生（漏斗增厚）。\n- infundibulum 正常上緣厚度上限約 2–3 mm，漏斗異常增厚提示浸潤/腫瘤性病變，應結合下視丘界標判讀。\n\n> [!note] 考點：關於 tuber cinereum 位置，下列何者為「錯誤」？\n> **D. Posterior to mammillary bodies（錯誤）。** Tuber cinereum 位於 mammillary body **前方**，介於 optic chiasm 與 mammillary body 之間，並位於 hypothalamic sulcus 下方、infundibulum 上方；故「後於乳突體」的敘述為錯。",
+  "keyPoints": [
+    "下視丘位於第三腦室下外側壁，MRI 為評估鞍上/下視丘病變的核心工具，正確定位需熟悉此區解剖界標。",
+    "下視丘邊界：前為 lamina terminalis、後為 mammillary body、上為 hypothalamic sulcus、下界含 tuber cinereum 與 infundibulum。",
+    "**Tuber cinereum**：灰隆起，位於 optic chiasm **後方**、mammillary body **前方**，介於兩者之間；漏斗（infundibulum）自此向下延伸至垂體柄。",
+    "鞍上池內界標由前向後依序為 optic chiasm → tuber cinereum/infundibulum → mammillary body，此順序是判讀病變起源的基礎。"
+  ],
+  "management": "",
+  "name": "Hypothalamic Anatomy",
+  "nameZh": "下視丘解剖",
+  "slug": "hypothalamic-anatomy",
+  "subspecialty": "NR"
+}

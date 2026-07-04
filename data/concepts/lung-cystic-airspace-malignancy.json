@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**肺囊腔（cystic airspace）進展性壁增厚或出現新結節，應懷疑可疑肺癌並警覺進一步追蹤或檢查以排除早期肺癌，而非一律當作發炎、結締組織病或分枝桿菌感染處理。Maschlchi分類（依Maki分類為基礎）依囊腔與結節/壁增厚的空間關係分四型，用於描述肺囊腔相關肺癌的型態。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**臨床判讀**：肺囊腔出現**進行性壁增厚或新生結節**時，**應懷疑可疑肺癌**並安排進一步監測或檢查以排除早期肺癌——而非直接視為發炎、結締組織病相關變化或分枝桿菌感染。",
+    "**Maschlchi 分類**（基於 Maki et al 分類）：",
+    "**Type I**：結節位於囊腔外、貼附囊壁外側（nodule outside the cystic airspace, abutting the wall）。",
+    "**Type II**：結節自囊壁向內突出、進入囊腔（nodule projecting into the cystic airspace from the wall）。",
+    "**Type III**：囊壁增厚（cyst wall thickening），未必是全周性，且無局部結節。",
+    "**Type IV**：多囊性病灶（multicystic lesion），含軟組織密度區域（soft-tissue attenuation areas）。"
+  ],
+  "management": "",
+  "name": "Lung Cancer Associated with Cystic Airspaces",
+  "nameZh": "囊性肺癌",
+  "slug": "lung-cystic-airspace-malignancy",
+  "subspecialty": "CH"
+}

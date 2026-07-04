@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**乳癌前導化療（neoadjuvant chemotherapy）後，淋巴結由陽性轉為臨床陰性者，愈來愈多證據支持「可省略」完整腋窩淋巴結廓清（非「不應省略」）——這是本題唯一的錯誤敘述。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腫瘤降期（downstaging）**：若腫瘤對化療有反應、體積縮小，可將原本無法手術之乳癌轉為可切除。",
+    "**腋窩淋巴結廓清**：**愈來愈多證據支持**——切片證實淋巴結陽性、前導化療後轉為臨床陰性者，**可省略**完整腋窩淋巴結廓清（並非「不應省略」）。",
+    "**直接觀察療效**：前導治療情境下可直接觀察腫瘤對治療之反應，為其優勢之一。",
+    "**病理完全反應（pCR）**：達成pCR並隨後接受手術切除，與**較佳無病存活（disease-free survival）**相關。"
+  ],
+  "management": "",
+  "name": "Neoadjuvant Chemotherapy in Breast Cancer",
+  "nameZh": "乳癌前導化療",
+  "slug": "neoadjuvant-chemo-breast-cancer",
+  "subspecialty": "Breast"
+}

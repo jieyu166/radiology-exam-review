@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**彎刀症候群(Scimitar syndrome)於胸部X光正面呈罕見先天異常，表現為心臟右側、朝橫膈延伸之彎曲管狀陰影（彎刀徵象），主要發生於右肺，本質為全部或部分肺「靜脈」異常回流（非動脈）——「Chinese ring sword sign」則是完全不同的實體，指主動脈壁內血腫之血池徵象，考題常將兩者混淆設陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義與影像表現**：罕見先天異常，胸部X光正面呈**心臟右側、朝橫膈延伸之彎曲管狀陰影(curved tubular opacity)**（形似彎刀）。",
+    "**好發側**：主要發生於**右肺**（並非左肺）。",
+    "**病理本質**：肺**靜脈(venous)**（並非動脈）之**全部或部分異常回流(anomalous venous return)**——典型為右肺靜脈異常引流至下腔靜脈等體循環靜脈。",
+    "**易混淆陷阱——「Chinese Ring Sword Sign」**：此徵象與彎刀症候群**無關**，實為**主動脈壁內血腫(aortic intramural hematoma)之血池(blood pools)**徵象——冠狀或矢狀重組影像上顯影劑聚積呈串珠狀，稱為Chinese ring-sword sign。",
+    "**本質(PAPVR亞型)**：部分肺靜脈異位回流(partial anomalous pulmonary venous return, PAPVR)之一種亞型。",
+    "**彎刀靜脈(scimitar vein)走行**：位於**右側內側肋膈角(right medial costophrenic sulcus)**，並非左側；靜脈匯入**下腔靜脈(inferior vena cava)**。",
+    "**心臟表現**：因左向右分流可見**右心房突出(prominent right atrium)**。"
+  ],
+  "management": "",
+  "name": "Scimitar Syndrome",
+  "nameZh": "彎刀症候群",
+  "slug": "scimitar-syndrome",
+  "subspecialty": "CV"
+}

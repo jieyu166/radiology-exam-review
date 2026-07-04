@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Wrisberg rip 撕裂發生在外側半月板後角、起源於 Wrisberg 韌帶（後 meniscofemoral 韌帶）附著處，常與前十字韌帶(ACL)撕裂合併發生——因急性 ACL 損傷時外側半月板後角承受異常剪力。** 判讀分水嶺：**看似矛盾但要並記——「整體」半月板撕裂內側:外側≈2:1（退化性以內側為主）；但「急性 ACL 損傷」時反而外側半月板撕裂較多（42–80% 合併半月板撕裂、lateral>medial）——Wrisberg rip 屬於後者情境，故與 ACL 撕裂關聯。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **兩種比例要分情境（考點核心）**：**整體/退化性＝內側>外側(2:1)**；**急性 ACL 損傷＝外側>內側**——判讀 ACL 斷裂膝要主動找外側半月板後角撕裂。\n- **ACL 損傷之半月板連帶**：合併半月板撕裂 42–80%，**周邊垂直縱向最常見**；另 MCL 損傷約 30%、Segond 骨折（近 100% 合併 ACL）、posterolateral corner 損傷。\n- **半月板撕裂 MR 判讀**：**短 TE 序列(T1, PD±FS)最利辨識/定性**；異常訊號需延伸至關節面才算撕裂（不接觸關節面＝退化）。\n- **複雜型撕裂**：≥2 種型態併存（最常水平＋放射狀）、可 macerated；**與骨關節炎相關、較不易自癒**，報告須註明 OA（可能改變術式為關節成形）。\n- **ACL 撕裂之次發徵象**：**uncovered lateral meniscus**（外側半月板後角後移超過脛骨後緣，特異性 100%）、pivot-shift 挫傷（後外側脛骨平台＋外側股骨髁 terminal sulcus）、Segond 骨折、deep sulcus sign。",
+  "keyPoints": [
+    "**Wrisberg rip 定義**：外側半月板後角(posterior horn of lateral meniscus)之撕裂，起源於 **Wrisberg 韌帶附著處**。",
+    "**常見合併韌帶損傷**：Wrisberg rip 型態撕裂**常與前十字韌帶(ACL)撕裂合併發生**——**ACL 損傷 42–80% 合併半月板撕裂，且急性期以「外側」較「內側」多、周邊垂直縱向(peripheral vertical-longitudinal)最常見**，故外側後角承受異常剪力而致此型撕裂。",
+    "**內外側半月板撕裂整體比例**：整體（含退化性）半月板撕裂以**內側半月板較外側常見，約 2:1**（複雜型撕裂亦內側>外側，好發後角與體部）。"
+  ],
+  "management": "1. 半月板撕裂為膝痛/關節線壓痛常見病因，**MR 為最佳影像工具**；型態（水平/放射狀/垂直縱向/複雜/桶柄狀）影響手術決策。\n2. **ACL 為最常斷裂之膝韌帶**（美國每年 >10 萬例，女:男 2.4–9.7:1），機轉多為固定足旋轉扭傷（籃球/足球/滑雪），常「pop」聲＋不穩/腫脹。\n3. **所有 ACL 撕裂皆增加半月板撕裂與年輕型骨關節炎風險**、再斷裂常見；重建成功率 75–95%。\n4. Wrisberg rip 等外側後角撕裂於 ACL 損傷情境須留意，因影響半月板修補與膝穩定策略。\n5. 判讀時把「整體內側 2:1、急性 ACL 情境外側為主、Wrisberg rip＝外側後角＋ACL、撕裂須接觸關節面」記牢，避免比例情境誤判。\n\n> [!note] 考點：Wrisberg rip撕裂常合併哪種韌帶損傷？\n> **前十字韌帶(ACL)撕裂（A）**——急性 ACL 損傷合併半月板撕裂達 42–80% 且以外側較多，外側半月板後角承受異常應力，增加 Wrisberg rip 型撕裂之風險。\n\n> [!note] 考點：半月板撕裂哪一側較常見？\n> **內側（Medial）約 2:1（A）**——「整體」半月板撕裂內側較外側常見（複雜型亦內側>外側）。惟須注意「急性 ACL 損傷」情境反而外側較多。",
+  "name": "Meniscal Tear Patterns — Wrisberg Rip & Ligament Association",
+  "nameZh": "半月板撕裂型態",
+  "slug": "meniscal-tear-patterns",
+  "subspecialty": "MSK"
+}

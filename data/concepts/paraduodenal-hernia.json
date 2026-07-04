@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**左右型paraduodenal hernia的地標血管口訣：左型「IMV + ascending left colic artery」在包裹腸圈的前內側緣；右型「SMA + right colic vein」在前內側緣。左型經Landzert窩、右型經Waldeyer窩，兩者皆是先天腹膜融合失敗造成的內疝氣好發位置。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**流行病學**：PDH約佔所有內疝氣**53%**，其中約**3/4發生於左側**，**男性多於女性**。",
+    "**左側PDH（經fossa of Landzert）**：向**降結腸繫膜（descending mesocolon）與橫結腸繫膜左側**發展，源於**下腸繫膜（inferior mesentery）與壁層腹膜融合失敗**。",
+    "**左側PDH之CT地標**：**IMV（下腸繫膜靜脈）與ascending left colic artery**位於包裹小腸圈之**前內側緣（anteromedial border）**——並非SMV/left colic artery。",
+    "**右側PDH之CT地標**：**SMA（上腸繫膜動脈）與right colic vein**位於包裹小腸圈之**前內側緣**，為右側PDH地標（經fossa of Waldeyer）。"
+  ],
+  "management": "",
+  "name": "Paraduodenal Hernia (PDH) — Left vs Right",
+  "nameZh": "腸繫膜旁疝氣",
+  "slug": "paraduodenal-hernia",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**成人的氣管腫瘤多半是惡性的；良性最常見是 squamous cell papilloma（孤立性），惡性最常見是 squamous cell carcinoma 與 adenoid cystic carcinoma。** 記憶鉤：良性→多發/平滑/廣泛；惡性→單一/不規則/穿壁。Adenoid cystic 特點是「沿黏膜下潛行」，影像上範圍常比外觀更廣。判讀分水嶺一：**成人單一不規則氣管腔內腫塊 + 管壁外侵犯 → 惡性**；判讀分水嶺二：**多發 polypoid 結節（尤其兒童） → 先想 papillomatosis（HPV）**。",
+  "differentialDiagnosis": [
+    "類別",
+    "良性（最常見）",
+    "良性（多發）",
+    "良性（含脂/軟骨）",
+    "惡性（最常見）"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.291085126。",
+      "url": "https://doi.org/10.1148/rg.291085126。"
+    },
+    {
+      "label": "10.1148/rg.291085126",
+      "url": "https://doi.org/10.1148/rg.291085126"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見良性氣管腫瘤 = squamous cell papilloma**（孤立性、成人）。",
+    "**Papillomatosis**：多發 papilloma，與 HPV（recurrent respiratory papillomatosis）相關、好發兒童；CT 多發 polypoid 結節，可向下播散至肺。",
+    "**Hamartoma**：含脂肪/軟骨之良性腫瘤。",
+    "**最常見原發惡性 = squamous cell carcinoma + adenoid cystic carcinoma**；SCC 與抽菸相關、好發 >50 歲。",
+    "**良性 vs 惡性線索**：廣泛平滑/結節增厚或多發結節→良性；單一不規則、管壁外侵犯、淋巴結→惡性。"
+  ],
+  "management": "",
+  "name": "Tracheal Tumors (Benign vs Malignant)",
+  "nameZh": "氣管腫瘤",
+  "slug": "tracheal-tumors",
+  "subspecialty": "CH"
+}

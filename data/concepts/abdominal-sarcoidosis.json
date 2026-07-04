@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**腹部肉樣瘤病侵犯脾臟時，CT上最常見的異常是「脾腫大（splenomegaly）」——比起多發低衰減結節，脾腫大才是最常見的表現。多發低衰減結節雖具特徵性但較不常見。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**脾臟受累最常見表現**：**脾腫大（splenomegaly）**為對比增強CT上肉樣瘤病脾臟最常見之異常。",
+    "**較不常見表現**：多發低衰減結節（multiple low-attenuation nodules）雖具特徵性但較不常見；囊性病灶、鈣化、脾破裂皆罕見。",
+    "**肝臟受累**：肝腫大及多發低衰減結節；肝脾同時受累常見。",
+    "**淋巴結**：腹腔/後腹膜淋巴腫大（尤其肝門、腹腔幹周圍）常見。"
+  ],
+  "management": "",
+  "name": "Abdominal Sarcoidosis — Spleen & Liver",
+  "nameZh": "腹部肉樣瘤病",
+  "slug": "abdominal-sarcoidosis",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**TAVI 術前 CT 三要：①收縮期量 annulus（此時最大）②評估 annulus 至冠狀動脈口距離（<10 mm 有阻塞風險）③不需 β-blocker（需涵蓋整個心動週期，與冠狀動脈 CTA 相反）。** 記憶鉤：「TAVI 要看整個心臟跑一圈，壓慢了反而漏資訊」——β-blocker 是冠狀動脈 CTA 的事；TAVI 量瓣環在收縮末期最大，壓慢心率會縮小量測值。判讀分水嶺一：**annulus＝主動脈瓣葉最低附著點所連的虛擬環（位於 LVOT 頂），收縮期量測（瓣環此時最大）**；判讀分水嶺二：**annulus 至冠狀動脈口距離 <10 mm（合併低冠狀竇）→ 冠狀動脈阻塞風險；TAVI CT 不需（且應避免）β-blocker**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00330-019-06357-8",
+      "url": "https://doi.org/10.1007/s00330-019-06357-8"
+    },
+    {
+      "label": "10.1016/j.jcin.2019.04.052",
+      "url": "https://doi.org/10.1016/j.jcin.2019.04.052"
+    },
+    {
+      "label": "10.1002/ccd.30918",
+      "url": "https://doi.org/10.1002/ccd.30918"
+    },
+    {
+      "label": "10.1016/j.jcin.2020.10.033",
+      "url": "https://doi.org/10.1016/j.jcin.2020.10.033"
+    },
+    {
+      "label": "10.1161/CIRCULATIONAHA.113.002947",
+      "url": "https://doi.org/10.1161/CIRCULATIONAHA.113.002947"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "TAVI/TAVR — Pre-procedural CT",
+  "nameZh": "經導管主動脈瓣置換",
+  "slug": "tavi",
+  "subspecialty": "CV"
+}

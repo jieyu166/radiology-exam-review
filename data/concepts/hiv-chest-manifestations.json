@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**HIV 胸腔病變以「CD4 數」為判讀主軸（AIDS＝CD4 <200）；肺門/縱膈淋巴結腫大的鑑別可依強化型態分類——瀰漫強化（Kaposi sarcoma、Castleman）、周邊強化伴中央壞死（結核、非結核分枝桿菌、黴菌）、軟組織密度（淋巴瘤、肺癌、全身性 HIV 淋巴腺病、類肉瘤）。而「肺諾卡氏菌病（pulmonary nocardiosis）」呈 consolidation/結節/空洞/膿瘍，『不造成肺門淋巴結腫大』——這是考題判讀關鍵。** 判讀分水嶺：**會造成肺門 LAD 者＝結核/分枝桿菌、Kaposi、淋巴瘤、Castleman、黴菌、肺癌、類肉瘤；不造成者＝Nocardia。判讀先問 CD4：PCP/KS/lymphoma 各有 CD4 門檻，型態＋免疫狀態＋病程＋ART/預防性抗生素史一起看。記憶鉤：Nocardia 有實質/空洞、沒淋巴。**",
+  "differentialDiagnosis": [
+    "**瀰漫強化**：Kaposi sarcoma、Castleman disease。",
+    "**周邊強化＋中央壞死**：結核、非結核分枝桿菌、黴菌感染。",
+    "**軟組織密度**：淋巴瘤、肺癌、全身性 HIV 淋巴腺病、類肉瘤。",
+    "**Nocardia 不在此列**：肺諾卡氏菌病呈 consolidation/結節/空洞（~30%）/膿瘍、網狀結節浸潤，**不造成肺門淋巴結腫大**。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**考點**：**Nocardia（肺諾卡氏菌病）不造成肺門/縱膈淋巴結腫大**（呈肺葉/多葉 consolidation、結節、約 30% 空洞、膿瘍）；**結核/分枝桿菌、Kaposi sarcoma、淋巴瘤**皆可致肺門 LAD。",
+    "**CD4 主軸**：AIDS＝CD4 <200；CD4 數為 HIV 免疫抑制之通用指標，驅動病譜與鑑別。",
+    "**肺門/縱膈 LAD 鑑別**：瀰漫強化（KS/Castleman）、周邊強化中央壞死（TB/NTM/黴菌）、軟組織密度（淋巴瘤/肺癌/全身性 HIV LAD/類肉瘤）。",
+    "**ART 改變病譜**：機會性感染（PCP）↓、非感染性併發症（肺癌、肺高壓、COPD）↑。"
+  ],
+  "management": "1. **定義**：HIV 為反轉錄病毒，感染 helper T 細胞/巨噬細胞/樹突細胞 → **細胞媒介免疫下降**；**AIDS＝CD4 <200**；CD4 數為免疫抑制程度指標、驅動鑑別。\n2. **傳播**：不安全性行為、污染針具/靜脈藥癮、周產期母嬰垂直傳染（開發國家輸血已罕見）。\n3. **病程線索**：**突發（<1 週）＝細菌性肺炎；漸進（>1 週）＝PCP/分枝桿菌/腫瘤**；症狀含咳嗽/發燒/體重減輕/淋巴腺病。\n4. **治療/預防**：ART 為核心；依 **CD4 給預防性抗生素**（PCP、弓形蟲、TB、NTM）。\n5. **預後**：**ART 大幅降低死亡率**（診斷後餘命 20–50 年）；無 ART 或不遵從者預後差，發展成 AIDS 後存活僅 6–19 個月。",
+  "name": "HIV — Chest Manifestations & Hilar Lymphadenopathy",
+  "nameZh": "愛滋病胸腔表現",
+  "slug": "hiv-chest-manifestations",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**膽囊腺肌症是良性壁增生，黏膜陷入肌層形成 Rokitansky-Aschoff sinuses（RAS），超音波上三項「都是」典型：瀰漫壁增厚、局部（fundal/annular）壁增厚、comet-tail 偽影——三者皆典型，考「何者非典型」答案是「以上皆典型」。** 判讀分水嶺一：**comet-tail（V 形 reverberation）源自 RAS 內膽固醇結晶，是最具特異性的辨識鑰匙。** 判讀分水嶺二：**diffuse 與 focal 壁增厚兩型皆屬典型，見到任一型加 comet-tail 即可診斷。**",
+  "differentialDiagnosis": [
+    "**支持腺肌瘤症（良性）**：壁分層保留、可見 RAS 壁內小囊（rosary／pearl necklace）、comet-tail 偽影、黏膜層連續。",
+    "**支持膽囊癌**：壁強烈且均質強化的局部或瀰漫增厚、伴黏膜病灶（polypoid／lumen-replacing），**無** RAS 特徵性壁內囊。",
+    "**模態取捨**：MDCT 特異度高但敏感度低;疑難病例以 MRI／MRCP 鑑別準確度最佳（文獻達約 93%）。",
+    "**節段型的癌風險爭議**：部分文獻指節段型（尤其高齡者）膽囊癌發生率較高、視為潛在前驅病變;此關聯仍有爭議。當影像無法確切排除惡性時，傾向手術。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3348/kjr.2014.15.2.226",
+      "url": "https://doi.org/10.3348/kjr.2014.15.2.226"
+    },
+    {
+      "label": "10.2214/AJR.06.0866：CT",
+      "url": "https://doi.org/10.2214/AJR.06.0866：CT"
+    },
+    {
+      "label": "10.1148/radiol.2271011378：pearl",
+      "url": "https://doi.org/10.1148/radiol.2271011378：pearl"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Gallbladder Adenomyomatosis",
+  "nameZh": "膽囊腺肌症",
+  "slug": "gallbladder-adenomyomatosis",
+  "subspecialty": "ABD"
+}

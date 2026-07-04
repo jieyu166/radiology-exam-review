@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**腹膜包涵囊腫不是真性腫瘤，而是停經前有腹膜沾黏史（手術/PID/子宮內膜異位）的婦女，卵巢分泌的液體被沾黏困住形成 spider web 分隔囊腫——「停經後最常見」是陷阱。** 記憶鉤：沾黏當「網」，卵巢液當「水」，形成蜘蛛網狀囊腫，卵巢本身正常只是被包圍。判讀分水嶺：**停經前、有沾黏因子、卵巢正常被包繞、spider web 分隔、無強化實質、無惡性潛能**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4131098/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4131098/"
+    },
+    {
+      "label": "10.2214/ajr.174.6.1741559",
+      "url": "https://doi.org/10.2214/ajr.174.6.1741559"
+    }
+  ],
+  "imagingFindings": "**背景與成因**\n- 育齡（停經前）女性為主；發病需「有功能卵巢（持續分泌液體）＋腹膜沾黏」兩要件並存——故青春期後才出現。常見沾黏因子：先前骨盆手術、PID、子宮內膜異位、外傷；從病因到表現可間隔 6 個月至 20 年。\n- 機轉：卵巢排出的生理性液體無法被正常吸收，被沾黏的腹膜層包覆積聚，本質是**反應性間皮增生包覆液體**，非真性腫瘤、無上皮性囊壁。\n\n**影像判讀核心徵象（US／CT／MRI）**\n- **沿腹膜腔形狀、無張力圓形**：囊液被周邊器官與腹膜輪廓塑形（conforms to peritoneum），形狀常不規則、隨鄰近器官壓迫而變，**缺乏真正囊壁**，不像真性囊腫那種飽滿圓形張力外觀——此為與卵巢上皮腫瘤的關鍵分水嶺。\n- **spider-in-web／ovary trapped sign**：正常卵巢被無回聲囊液包繞、或懸吊在薄分隔上，外觀如「蜘蛛在網中」；卵巢易被誤判為腫瘤的實質結節，須認出其為「被困住的正常卵巢」而非真結節。\n- **US**：正常卵巢周圍環繞無回聲液體，內含多條**薄分隔（thin septa）**；分隔不規則延伸至卵巢。\n- **CT**：邊界規則或不規則的囊性病灶，內容物多為液體密度（出血時可呈較高密度）。\n- **MRI**：囊液 T1 低、T2 高（漿液性）；出血成分可呈 T1 高訊號。**注射對比劑後幾乎無強化（little or no enhancement）**；MRI 對解剖範圍界定最佳。\n- **良性傾向判讀重點**：找到**正常卵巢**、分隔與囊壁**無強化、無實質結節**即傾向良性反應性病灶；反之若見強化結節或壁強化須提高惡性疑慮。\n\n**鑑別診斷分水嶺**\n- **卵巢囊腺瘤 / cystadenoma（及上皮性惡性）**：有張力的圓形囊、有真正囊壁；MRI 注射後**分隔／壁／結節會強化**——PIC 不強化。\n- **Hydrosalpinx（輸卵管積水）**：管狀／彎曲折疊外觀、可見不完全皺襞（incomplete septa）、輸卵管壁皺褶；PIC 則是卵巢被囊液包覆、分隔自卵巢放射狀延伸。\n- **Lymphangioma／淋巴管畸形（lymphatic malformation）**：分隔會強化（PIC 不強化）。\n- **Paraovarian cyst（卵巢旁囊腫）**：可辨識出與囊腫分開的**同側正常卵巢**，且通常為單純無分隔、壁薄。\n- **Cystic mesothelioma（囊性間皮瘤）**：罕見，形態可重疊，須結合臨床與隨訪。\n- **Endometrioma**：常有出血成分（PIC 一般無）。\n\n> [!note] 考點：關於 peritoneal inclusion cyst,何者「錯誤」?\n> 「**最常見於停經後(postmenopausal)婦女**」錯誤——好發**停經前(premenopausal)**有骨盆手術/PID/內膜異位史者。spider web 外觀(B)、無惡性潛能(C)、無強化實質(D)皆正確。",
+  "keyPoints": [
+    "**本質**：**非腫瘤性反應性間皮增生**;由腹膜沾黏陷住卵巢分泌的液體。",
+    "**族群**：**停經前(premenopausal)婦女**,有骨盆手術、外傷、PID 或子宮內膜異位史。",
+    "**影像**：圍繞 GYN 器官的清澈液體、卵巢正常;**spider web appearance**（分隔）;**無強化實質、無惡性潛能**。"
+  ],
+  "management": "",
+  "name": "Peritoneal Inclusion Cyst",
+  "nameZh": "腹膜包涵囊腫",
+  "slug": "peritoneal-inclusion-cyst",
+  "subspecialty": "ABD"
+}

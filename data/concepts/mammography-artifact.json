@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**乳房攝影可產生 high density 假影的來源：deodorant（含鋁）、tattoos、shrapnel（彈片）、gold deposition（類風濕治療）等。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Deodorant（含 aluminum）：最常見外源性假影",
+    "Tattoos、gunshot shrapnel、gold deposition 皆可產生 high density artifact",
+    "檢查前應清潔腋窩區域以避免 deodorant artifact"
+  ],
+  "management": "",
+  "name": "Mammography Artifact",
+  "nameZh": "乳房攝影假影",
+  "slug": "mammography-artifact",
+  "subspecialty": "Breast"
+}

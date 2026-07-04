@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**Chiari I 的核心概念：後顱窩「裝不下」小腦→扁桃體被擠過枕骨大孔（>5 mm）。** 凡是讓後顱窩變小的因素（如顱縫早閉 craniosynostosis）都支持 Chiari I。記憶鉤：把後顱窩想成「過小的鞋盒」，小腦扁桃體是鞋跟，被擠出來就是 Chiari I；合併症按嚴重程度串連：「脊髓空洞→脊柱側彎→腦積水」。關鍵分水嶺：myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II 而非 I——這三樣出現就排除純 Chiari I。",
+  "differentialDiagnosis": [
+    "**後天性／繼發性扁桃體下疝（pseudo-Chiari）**：自發性顱內低壓（SIH）或顱內壓增高、後顱窩腫瘤、tethered cord 等都可把扁桃體壓下去。",
+    "**SIH「brain sag」陷阱**：扁桃體下疝＋**中腦／腦幹下移**、**瀰漫性硬腦膜（pachymeningeal）增厚強化**、**靜脈竇充血擴張**、腦下垂體增大、硬腦膜下積液——這些是 SIH 的標誌，congenital Chiari I 不會有；只盯著扁桃體位置易誤診。治療原發病因後下疝可逆轉。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.230227",
+      "url": "https://doi.org/10.1148/rg.230227"
+    },
+    {
+      "label": "10.1007/s00381-020-04980-1",
+      "url": "https://doi.org/10.1007/s00381-020-04980-1"
+    },
+    {
+      "label": "10.1016/j.wneu.2019.08.230",
+      "url": "https://doi.org/10.1016/j.wneu.2019.08.230"
+    },
+    {
+      "label": "10.1016/j.nec.2022.09.006",
+      "url": "https://doi.org/10.1016/j.nec.2022.09.006"
+    },
+    {
+      "label": "10.1097/SCS.0000000000011281",
+      "url": "https://doi.org/10.1097/SCS.0000000000011281"
+    }
+  ],
+  "imagingFindings": "- **量測法**：矢狀正中切面，沿 **McRae line**（basion→opisthion 連線，即枕骨大孔平面）量至扁桃體最下緣的垂直距離。\n- **閾值**：成人 **≥5 mm** 為異常；**3–5 mm** 為 borderline ectopia，若伴 syrinx 等支持徵象仍可診斷。\n- **年齡差異（Mikulis 標準）**：<10 歲容許至 6 mm、10–30 歲 5 mm、>30 歲 4 mm；正常扁桃體位置隨年齡上升而略升高。\n- **扁桃體形態**：受擠壓變成尖／**peg-like（楔形）**而非圓鈍，>5 mm 下疝者楔形比例顯著較高。\n- **枕骨大孔擁擠**：FM 處 CSF 間隙被填塞／消失（crowded foramen magnum），可進一步阻礙 CSF 流動。\n- **後顱窩小**：clivus 短、後顱窩體積偏小（size-content mismatch）。\n- **骨性標記與 clival hypoplasia 線索**：**McRae line**（basion→opisthion＝FM 平面）＋**Chamberlain line**（硬顎→basion）;**齒突尖高於 Chamberlain line >4.5 mm ＝ basilar invagination**;Chamberlain line 正常與 McRae line 平行，**兩線 dissociation（分離）＝ clival hypoplasia（斜坡發育不良）的重要線索**。\n- **生理性評估（phase-contrast MRI）**：以心動週期閘控 cine phase-contrast MRI 評估**小腦扁桃體與脊髓的異常運動**及**CSF 流動受阻部位**;產生 rephased（背景可見、評估扁桃體/脊髓運動）、magnitude（判斷流動強度）、phase 三組影像;**定量 PC-MRI 目前幾乎僅用於研究**，非臨床常規。cine balanced SSFP 亦可輔助觀察 CSF 動力學。\n- **報告要件（RG 2024 建議）**：扁桃體下疝程度＋形態、骨性後顱窩是否 hypoplasia、Chamberlain/McRae 線是否 dissociation（clival hypoplasia）、顱底與顱頸交界（CCJ）異常、腦室是否 hydrocephalus、syrinx 大小/位置、以及（若有 PC-MRI/cine bSSFP）CSF 流動受阻部位與扁桃體/脊髓異常運動。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Chiari I Malformation",
+  "nameZh": "小腦扁桃體下疝",
+  "slug": "chiari-malformation",
+  "subspecialty": "NR"
+}

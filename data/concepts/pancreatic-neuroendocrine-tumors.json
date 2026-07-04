@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**胰臟 NET 的核心分流是「功能性 vs 非功能性」：insulinoma 最常見（Whipple triad）、gastrinoma 次之（ZES、60–80% 惡性）；非功能性腫瘤晚發現、體積大。** 記憶鉤：syndromic（MEN1）＝小而多、早；nonsyndromic＝大而少、晚且易囊變壞死——兩者「誰較易壞死」是逆向陷阱。判讀分水嶺一：**功能性首位為 insulinoma，非 gastrinoma**；判讀分水嶺二：**nonsyndromic（非 syndromic）較易囊變/壞死**。",
+  "differentialDiagnosis": [
+    "**Acinar cell carcinoma**：亦可富血管、囊變/壞死，但通常更大、外生性，常見血清 lipase 上升、皮下脂肪壞死症候群。",
+    "**Solid pseudopapillary neoplasm（SPN）**：年輕女性、有出血／囊實混合、包膜、緩慢漸增強化（非動脈期高峰），與富血管小 PNET 不同。",
+    "**Intrapancreatic accessory spleen（IPAS）**：胰尾、與脾臟同步等訊號／等強化、DWI 行為同脾;DWI 與 heat-damaged RBC／SPIO 顯影可與小 islet cell tumor 區分。",
+    "**Hypervascular metastasis**（RCC、甲狀腺等）：影像可雷同 PNET，需病史與多發性佐證。",
+    "**Serous cystadenoma（near-solid/微囊型）**：可似 PNET，但中央瘢痕／蜂窩狀微囊與 DWI 有助區分。",
+    "**PDAC**：乏血管、促結締組織增生、上游胰管／膽管阻塞、罕見瘤栓——與富血管 PNET 對比鮮明。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.soc.2015.11.007"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**功能性 NET**：",
+    "**Insulinoma**：**最常見的功能性/亢進性 NET**;Whipple triad;多小、富血管、良性居多。",
+    "**Gastrinoma**：第二常見;**Zollinger-Ellison 症候群**;**60–80% 惡性**;十二指腸/胰頭 gastrinoma triangle。",
+    "Glucagonoma（4D）、VIPoma（WDHA：watery diarrhea、hypokalemia、achlorhydria）。",
+    "**Non-functioning**：**常較大、晚發現**,易壞死/囊變/鈣化。",
+    "**Syndromic vs nonsyndromic**：syndromic（MEN1）多**小而多發**;**nonsyndromic 較大、較易囊變/壞死**（故「syndromic 較易囊變/壞死」為誤）。",
+    "**症候群關聯**：PNET 在 **MEN1、von Hippel-Lindau（VHL）、NF1、tuberous sclerosis** 發生率升高;MEN1 內最常見的功能性 PNET 為 **gastrinoma**（常多發、十二指腸壁、易遺漏）;非功能性 PNET 是 MEN1 與 VHL 最常見的胰臟內分泌腫瘤。"
+  ],
+  "management": "",
+  "name": "Pancreatic Neuroendocrine (Islet Cell) Tumors",
+  "nameZh": "胰臟神經內分泌腫瘤",
+  "slug": "pancreatic-neuroendocrine-tumors",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**會造成空洞性肺結節的口訣「CAVITY」：Cancer(鱗癌/轉移)、Autoimmune(Wegener/GPA、RA結節)、Vascular(septic emboli敗血性栓子)、Infection(TB、膿瘍、黴菌)、Trauma、Young(先天)。Lipoid pneumonia(脂質性肺炎)通常呈實質化/腫塊而『不』形成空洞——本題陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**常見空洞成因**：",
+    "**感染**：肺結核(TB)、肺膿瘍、黴菌(aspergillosis)、壞死性肺炎。",
+    "**血管性**：**septic emboli(敗血性栓子)**（多發、周邊、可空洞）。",
+    "**自體免疫**：**Wegener granulomatosis(GPA)**、類風濕結節。",
+    "**腫瘤**：鱗狀細胞癌、空洞性轉移。",
+    "**不造成空洞（本題重點）**：**Lipoid pneumonia(脂質性肺炎)**——多呈實質化/腫塊樣、含脂肪低衰減(CT可見負HU脂肪)，**通常不形成空洞**。"
+  ],
+  "management": "",
+  "name": "Cavitary Lung Nodules/Lesions — Causes",
+  "nameZh": "空洞性肺病灶",
+  "slug": "cavitary-lung-lesions",
+  "subspecialty": "CH"
+}

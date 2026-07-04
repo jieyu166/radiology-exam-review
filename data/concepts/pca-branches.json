@@ -1,0 +1,40 @@
+{
+  "checked": false,
+  "definition": "**PCA 分支包含 thalamogeniculate、posterior choroidal（medial/lateral）、splenial、calcarine 等；考試陷阱是 marginal tentorial artery（Bernasconi-Cassinari）——它來自 ICA meningohypophyseal trunk，不屬 PCA。** 記憶鉤：Bernasconi 走小腦幕，血供來自 ICA 腦膜支，與 PCA 的枕葉走廊方向不同。判讀分水嶺一：**splenial / thalamogeniculate / lateral posterior choroidal ＝ PCA 分支**；判讀分水嶺二：**Bernasconi-Cassinari（tentorial）＝ ICA meningohypophyseal trunk，非 PCA**。",
+  "differentialDiagnosis": [
+    "**單側 PCA 領域**：須與 top-of-basilar embolism（可同時雙側枕葉／丘腦）、MCA 後分支梗塞（territory 不同）、PRES（後部、常雙側、可逆、皮質下白質）區別。",
+    "**雙側 thalamic 病灶（AOP 梗塞之鑑別）**：deep cerebral venous thrombosis（內大腦靜脈／Galen）、basilar artery thrombosis、CO 中毒、缺氧缺血性腦病、osmotic demyelination、Wernicke 腦病、感染性腦炎（如 Japanese／flavivirus encephalitis）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1155/2022/8385841"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.wneu.2020.01.237"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3390/medicina59020231"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK538474/",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538474/"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK532296/",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532296/"
+    }
+  ],
+  "imagingFindings": "- **典型 PCA 領域梗塞**：枕葉內側 ± 顳葉後／下內側 DWI 高訊號。視覺皮質受損 → **對側 homonymous hemianopia（常 macular sparing）**。\n- **優勢側（左）枕葉梗塞延伸至 splenium**：經典 **alexia without agraphia（純失讀症）**——可寫不能讀，常伴右側 homonymous hemianopia，屬 disconnection syndrome。\n- **AOP 梗塞**：**雙側 paramedian thalamus（±中腦）對稱性 DWI 高訊號**，可見「V sign」（中腦旁正中與腳間窩）。**MRI（DWI／ADC）敏感度近 100%，CT 早期常陰性（約 50% 敏感度）**；AOP 管徑細，CTA／MRA／導管血管攝影常無法顯示閉塞，**血管影像陰性不能排除診斷**。臨床常以意識／覺醒改變、記憶或語言障礙、垂直凝視麻痺表現，缺乏定位徵象易延誤。",
+  "keyPoints": [
+    "**PCA 分支**：thalamogeniculate(A)、posterior choroidal（medial 與 **lateral posterior choroidal**,D）、**splenial / perisplenial**(C)、peduncular perforator、calcarine、lateral occipital。",
+    "**非 PCA 分支**：**marginal tentorial artery（artery of Bernasconi-Cassinari）** 來自 **ICA 之 meningohypophyseal trunk**,屬腦膜支;故為「不屬 PCA 分支」之正解（2016-175 正解 B）。"
+  ],
+  "management": "",
+  "name": "Posterior Cerebral Artery — Branches",
+  "nameZh": "後大腦動脈分支",
+  "slug": "pca-branches",
+  "subspecialty": "NR"
+}

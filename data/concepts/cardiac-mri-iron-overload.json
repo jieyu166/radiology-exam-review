@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**心臟鐵沉積以 T2* mapping 評估：T2* <20 ms 異常，<10 ms 嚴重。Thalassemia major 病人 T2* 下降提示預後不佳。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**T2* <20 ms**：異常（cardiac iron overload）。",
+    "**T2* <10 ms**：嚴重，heart failure 風險顯著增加。",
+    "T2* **下降**（decrease）代表鐵沉積增加 → **poor outcome**。",
+    "T1 上升（increased T1）可見於 iron overload，但 T2* 為標準評估工具。"
+  ],
+  "management": "",
+  "name": "Cardiac MRI — Iron Overload (T2*)",
+  "nameZh": "心臟鐵沉積",
+  "slug": "cardiac-mri-iron-overload",
+  "subspecialty": "CV"
+}

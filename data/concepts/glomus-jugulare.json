@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**頸靜脈孔有個「鹽與胡椒」腫瘤：flow void 黑點（胡椒）＋出血/慢流高訊號（鹽）= T2 salt-and-pepper，配上搏動性耳鳴、聽損，這就是 glomus jugulare。** 判讀分水嶺一：**富血管＋頸靜脈孔溶骨擴大＋salt-and-pepper T2 三件套，是 glomus jugulare 的影像識別鏈。** 判讀分水嶺二：**「絕不惡性」是陷阱——惡性轉化約 2–13%，「可惡性轉化」才是正確說法。**",
+  "differentialDiagnosis": [
+    "**Jugular foramen schwannoma**：T1 低、T2 高訊號、明顯均勻強化；**平滑扇貝狀骨擴大且邊緣具皮質**，**內部一般無 flow void**（周邊偶見）；對頸靜脈球多為壓迫而非侵入。最易與 glomus 混淆，骨窗型態為關鍵。",
+    "**Meningioma**：CT 密度偏高、T2 訊號偏低；**hyperostosis／鈣化／板障浸潤**與**硬膜尾徵（dural tail）**；可呈離心性或 en plaque 生長。",
+    "**Metastasis**：頸靜脈孔輪廓不規則破壞、鄰近岩尖去礦化；除非極富血管，否則**通常無 T2 高訊號或 flow void**。",
+    "**高位／裂開性頸靜脈球（high/dehiscent jugular bulb）假病灶**：T2 影像上正常頸靜脈孔呈「黑色」無訊號；以**骨窗 HR-CT 多平面重組見頸靜脈棘正常保留**確認為正常變異，非腫瘤。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：頸靜脈孔副神經節瘤，**富血管**；侵蝕性溶骨破壞頸靜脈孔（\"moth-eaten\"）。",
+    "**MRI**：T2 **salt-and-pepper**（flow void 黑點＋出血/慢流高訊號）；強烈強化。",
+    "**血供**：由 **ICA 與 ECA 分枝**（如 ascending pharyngeal）供應；術前可栓塞。",
+    "**臨床**：**pulsatile tinnitus、聽損**、後組顱神經病變。",
+    "**惡性轉化**：**可發生，約 2–13%**；故「**不會** malignant transformation」**錯誤**（2016-089 正解 C）。"
+  ],
+  "management": "",
+  "name": "Glomus Jugulare (Jugular Paraganglioma)",
+  "nameZh": "頸靜脈球瘤",
+  "slug": "glomus-jugulare",
+  "subspecialty": "NR"
+}

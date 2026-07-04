@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Pinch-off syndrome 是中心靜脈導管被鎖骨與第一肋骨夾擠，可致導管斷裂與碎片栓塞。Medial（內側）穿刺比 lateral（外側）更容易發生，因路徑穿過 costoclavicular space。可在 CXR 上辨識。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "機轉：central venous catheter 在 clavicle 與 first rib 之間受壓迫（costoclavicular space）",
+    "**Medial insertion**（靠近 costoclavicular ligament 處）比 lateral 更容易被夾擠",
+    "後果：catheter lumen 受壓、catheter 斷裂、碎片 embolize 至心臟或肺動脈",
+    "CXR 可辨識 pinch-off sign（catheter 在 clavicle-first rib 間出現壓痕或扭曲）"
+  ],
+  "management": "",
+  "name": "Pinch-Off Syndrome",
+  "nameZh": "導管夾擠症候群",
+  "slug": "pinch-off-syndrome",
+  "subspecialty": "IR"
+}

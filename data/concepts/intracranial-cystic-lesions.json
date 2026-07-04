@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**顱內囊性病灶用 DWI 鑑別：epidermoid cyst『會』限制擴散（DWI 高訊號、ADC 低）是與 arachnoid cyst 區分的關鍵;pineal cyst 訊號近 CSF、『不會』限制擴散。** 判讀分水嶺：**epidermoid＝DWI 高訊號（限制擴散,角質碎屑黏稠）→ 與 arachnoid cyst（隨 CSF、無限制）區分;choroid plexus cyst 與 neurenteric cyst 因內含蛋白/黏液可呈 DWI 高訊號;pineal cyst 隨 CSF、ADC 無限制擴散。**",
+  "differentialDiagnosis": [
+    "與腦室相通",
+    "位置",
+    "成因",
+    "囊壁"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Epidermoid cyst**：**限制擴散（DWI 高訊號、ADC 低）**;含角質碎屑,沿腦池蔓延、包繞血管/神經;為與 arachnoid cyst 鑑別關鍵。",
+    "**Choroid plexus cyst**：常含蛋白質,**可呈 DWI 高訊號**。",
+    "**Neurenteric cyst**：含黏液/蛋白,**可呈 DWI 高訊號**。",
+    "**Pineal cyst**：松果體內囊,訊號**多與 CSF 相近**;**ADC 不顯示限制擴散（不會 DWI 限制）**;可有薄壁強化。"
+  ],
+  "management": "",
+  "name": "Intracranial Cystic Lesions — DWI",
+  "nameZh": "顱內囊性病灶",
+  "slug": "intracranial-cystic-lesions",
+  "subspecialty": "NR"
+}

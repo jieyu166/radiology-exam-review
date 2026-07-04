@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**TB spondylitis 與 pyogenic spondylitis 比較：TB 特徵為 subligamentous spread of large paraspinal abscesses、skip lesions、panvertebral involvement，但椎間盤破壞相對較晚且較輕（early and severe disc destruction 是 pyogenic 的特徵）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "TB vs pyogenic 鑑別重點 ：",
+    "**TB 特徵**：subligamentous spread（大範圍椎旁膿瘍）、skip lesions、panvertebral involvement、relative disc preservation（椎間盤相對保留）",
+    "**Pyogenic 特徵**：early and severe disc destruction、局限性椎旁膿瘍",
+    "TB 好發 thoracolumbar junction（T10-L2）",
+    "Gibbus deformity 為 TB spondylitis 晚期典型表現"
+  ],
+  "management": "",
+  "name": "Tuberculous Spondylitis (Pott's Disease)",
+  "nameZh": "脊椎結核",
+  "slug": "tb-spondylitis",
+  "subspecialty": "MSK"
+}

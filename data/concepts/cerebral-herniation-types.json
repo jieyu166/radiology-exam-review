@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**四型顱內疝各壓迫不同血管：大腦鐮下疝（subfalcine）壓迫「前」大腦動脈（ACA，前循環，四者中唯一非後循環）；下行經天幕疝壓迫 PCA + 脈絡叢動脈；上行經天幕疝壓迫 PCA + 小腦上動脈（SCA）；小腦扁桃體疝壓迫小腦後下動脈（PICA）——後三者皆屬後循環壓迫，唯獨 subfalcine 較少侵犯後循環。** 判讀分水嶺：**記「subfalcine＝ACA（前）；descending/ascending transtentorial＝PCA(±SCA/脈絡叢)；tonsillar＝PICA」；受壓血管梗塞 + 腦幹 Duret 出血 + Kernohan notch + 阻塞性水腦是致命併發症。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2019190018（accessed",
+      "url": "https://doi.org/10.1148/rg.2019190018（accessed"
+    }
+  ],
+  "imagingFindings": "- **血管-疝對應（核心）**：subfalcine→ACA；descending→PCA(+脈絡叢)；ascending→PCA+SCA；tonsillar→PICA。\n- **subfalcine 影像**：中線移位、扣帶迴越過中線、同側腦室受壓、對側腦室擴大（阻塞 Monro 孔）；找 ACA 領域梗塞。\n- **descending 併發症**：CN III 麻痺、Kernohan notch（假性定位）、Duret 出血（中腦/橋腦正中旁）——預後極差。\n- **ascending/tonsillar**：後顱窩腫塊/出血向上或向下，注意第四腦室受壓、阻塞性水腦與腦幹受壓。\n- **通用**：疝可壓迫血管致梗塞/出血、壓迫顱神經、阻塞 CSF 致水腦——判讀要主動找這些次發後果。",
+  "keyPoints": [
+    "**Subfalcine（大腦鐮下疝）**：扣帶迴被推至大腦鐮下 → 壓迫**前大腦動脈（ACA）**（頂住大腦鐮）→ ACA 領域梗塞；屬**前循環**，是四型中唯一較少侵犯後循環者。",
+    "**Transtentorial descending（下行經天幕疝，uncal/central）**：壓迫**後大腦動脈（PCA）與脈絡叢動脈** → 枕葉與內側顳葉梗塞；並壓 CN III（瞳孔散大）、可致 **Kernohan notch**（對側大腦腳受壓，假性定位之同側偏癱）與 **Duret 出血**（腦幹）。",
+    "**Transtentorial ascending（上行經天幕疝）**：後顱窩腫塊向上頂 → 壓迫 **PCA 與小腦上動脈（SCA）** → 枕葉皮質與小腦上部梗塞；可致**阻塞性水腦**。",
+    "**Tonsillar（小腦扁桃體疝）**：小腦扁桃體經枕骨大孔下疝 → 壓迫**小腦後下動脈（PICA）與延髓** → 小腦後下部/延髓外側受損，可致呼吸驟停。"
+  ],
+  "management": "1. **對應要背**：subfalcine=ACA（前循環）；其餘三型=後循環（PCA/SCA/PICA）。\n2. **descending 最兇**：PCA 梗塞 + CN III + Kernohan + Duret 出血。\n3. **ascending/tonsillar**：後顱窩病灶所致，注意水腦與腦幹受壓。\n4. **subfalcine**：中線移位之最常見型，可致 ACA 梗塞與對側水腦。\n5. **判讀任務**：找受壓血管梗塞、Duret 出血、水腦等致命次發變化。\n\n> [!note] 考點：何種顱內疝較少侵犯後循環？\n> **Subfalcine（大腦鐮下疝，A）**——壓迫前大腦動脈（ACA），屬前循環。其餘三型（下行/上行經天幕疝、小腦扁桃體疝）皆壓迫後循環血管（PCA/SCA/PICA）。",
+  "name": "Cerebral Herniation Types — Vascular Compression Patterns",
+  "nameZh": "腦疝血管壓迫類型",
+  "slug": "cerebral-herniation-types",
+  "subspecialty": "NR"
+}

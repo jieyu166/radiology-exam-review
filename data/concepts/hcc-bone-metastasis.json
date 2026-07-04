@@ -1,0 +1,53 @@
+{
+  "checked": false,
+  "definition": "**HCC 骨轉移是少數「blow-out」膨脹性轉移之一，跟 RCC、甲狀腺癌齊名——溶骨、膨脹、富血管不均勻強化＋大塊軟組織腫塊；骨掃描常偽陰性，要靠 CT/MRI/PET-CT。** 判讀分水嶺一：**溶骨＋膨脹性（blow-out）→ HCC / RCC / thyroid / pheo / melanoma / gastric 六種 blow-out 轉移**；判讀分水嶺二：**骨掃描偽陰性（低 osteoblastic 反應）→ 勿單靠骨掃；肋骨與脊椎為最常見部位（各 13/22 Kuhlman 系列）**。記憶鉤：HCC 轉移到骨「溶骨膨脹像氣球、血多掃描看不到」——富血管卻骨掃陰性，這個矛盾就是 HCC 的特色。",
+  "differentialDiagnosis": [
+    "重點",
+    "型態",
+    "強化",
+    "膨脹性轉移 DDx",
+    "偵測陷阱"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1007/s10555-013-9454-4",
+      "url": "https://doi.org/10.1007/s10555-013-9454-4"
+    },
+    {
+      "label": "https://doi.org/10.1148/radiol.10100672",
+      "url": "https://doi.org/10.1148/radiol.10100672"
+    },
+    {
+      "label": "https://doi.org/10.1097/MNM.0000000000000246",
+      "url": "https://doi.org/10.1097/MNM.0000000000000246"
+    },
+    {
+      "label": "https://doi.org/10.4143/crt.2007.39.3.104",
+      "url": "https://doi.org/10.4143/crt.2007.39.3.104"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.313105509",
+      "url": "https://doi.org/10.1148/rg.313105509"
+    },
+    {
+      "label": "https://doi.org/10.1148/radiology.160.1.3012630",
+      "url": "https://doi.org/10.1148/radiology.160.1.3012630"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**流行病學**：HCC 常見肝外轉移為肺、淋巴結、腎上腺、骨；骨轉移約占 HCC 肝外轉移的 **~19%**；文獻整體骨轉移率約 3–20%。",
+    "**型態**：**溶骨為主**、常**膨脹性（blow-out）**、**富血管**、伴**軟組織腫塊**（soft-tissue expansion ＋豐富血管成分）。",
+    "**膨脹性（blow-out）轉移鑑別**：**RCC、thyroid、HCC、pheochromocytoma、melanoma、gastric carcinoma**——HCC 為其一。",
+    "**分布（機轉＝血行播散，與原發肝臟左右無關）**：好發**中軸骨/紅骨髓區**——骨轉移**分布與紅骨髓成比例（腰＞胸＞頸）**、脊椎為整體最常見部位；Kuhlman 系列 22 例之分布（病人數）：**肋骨 13、脊椎 13（並列最常見）、股骨 11、骨盆 7、肱骨 5、顱骨 4**，scapula/sternum/mandible/clavicle 各 1；20/22 多發、2 例孤立；另一 PET/CT 系列 **骨盆 20%、腰椎 14%、長骨 13%**。**肋骨是 HCC 骨轉移最常見部位之一，左右側皆可（血行散布，取決於紅骨髓血流，不受肝臟在右側影響）。**",
+    "**肋骨轉移之型態**：常呈**大的 extrapleural（胸壁）軟組織腫塊＋病理性骨折＋嚴重骨破壞**；近端股骨為大病灶與病理性骨折好發處（自發或輕傷後骨折可為首發）。",
+    "**偵測（文獻分歧）**：較新文獻認為 HCC 骨轉移多**溶骨、骨掃描可偽陰性/低估**，**PET/CT 較敏感**（region-based 96.7% vs 52.7%）；STATdx 亦載溶骨轉移**骨掃描可偽陰性**、平片需 50–70% 骨破壞才顯；惟早期 Kuhlman 系列觀察到病灶**於骨掃描呈增加攝取且 gallium avid**。實務：勿單恃骨掃描，以 CT/MRI（±PET-CT）界定。",
+    "**MRI 訊號**：T1 相對肌肉 iso-/hypointense、T2 hyperintense、**明顯（不均勻）強化**；細胞性轉移灶可呈 **restricted diffusion（DWI↑/ADC↓）**。",
+    "**臨床**：多有 HCC/肝硬化病史、**高 AFP**；預後差（自骨轉移確診中位存活數月）。"
+  ],
+  "management": "",
+  "name": "HCC Bone Metastasis — Imaging",
+  "nameZh": "肝癌骨轉移",
+  "slug": "hcc-bone-metastasis",
+  "subspecialty": "MSK"
+}

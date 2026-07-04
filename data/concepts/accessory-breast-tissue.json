@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**副乳（accessory breast tissue）盛行率「up to 6%」（非 36%）；為胚胎乳腺退化不全的正常變異，沿 milk line 分佈，最常見於腋窩，且與正常乳腺一樣可發生良/惡性病灶。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2214/AJR.13.10930"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.7863/ultra.16.06056"
+    }
+  ],
+  "imagingFindings": "- 腋窩超音波：正常副乳呈與同側乳腺實質等回聲的纖維腺體組織，隨月經週期/哺乳而變化；不應誤判為腫塊或病理性淋巴結。\n- 副乳位於乳房攝影常規視野**之外**，易漏檢；腋窩新發、隨哺乳脹大且會泌乳的軟組織應想到副乳而非腫瘤。\n- 副乳內若出現不規則實質腫塊、可疑鈣化或惡性型態，處置同正常乳腺（切片、依 BI-RADS 分級）。",
+  "keyPoints": [
+    "Accessory breast tissue 為胚胎期 milk line 上乳腺原基退化不全所殘留的**正常乳腺組織**（非發育異常），盛行率**約 up to 6%**，最常見於腋窩。",
+    "分佈沿 milk line（milk line/mammary ridge）：由**前腋窩皺褶（anterior axillary fold）→ 雙側胸腹 → 腹股溝（inguinal region）→ 大腿內側（medial thigh）**。",
+    "**Supernumerary breast**：沿 milk line 出現的多乳，可含乳頭/乳暈；**aberrant breast tissue**：位於正常乳腺附近、無導管系統相連的孤立乳腺組織島。",
+    "與正常乳腺相同的良性與惡性病程（fibroadenoma、纖維囊腫變化、乃至癌）皆可發生於副乳，故不可一律視為正常而忽略。"
+  ],
+  "management": "1. 盛行率**約 up to 6%**，考題把「36%」列為錯誤敘述須辨識。\n2. 為正常胚胎發育殘留組織，非病理性異常發育。\n3. 最常見部位為腋窩，其次胸腹壁；罕見於腹股溝、外陰、大腿。\n4. Supernumerary（沿 milk line 多乳）與 aberrant（鄰近正常乳腺的孤立乳腺島）為不同概念。\n5. 副乳可發生與正常乳腺相同的良/惡性疾病，需納入影像評估。\n\n> [!note] 考點：關於 accessory breast tissue，哪一項敘述錯誤？\n> 錯誤者為「可見於高達 **36%** 的人口」。正確盛行率為 **up to 6%**；其餘（正常胚胎殘留、日本人最高/白種人最低、supernumerary 沿 milk line 由腋窩至腹股溝與大腿內側、aberrant 為鄰近正常乳腺的孤立乳腺島）皆正確。",
+  "name": "Accessory Breast Tissue",
+  "nameZh": "副乳",
+  "slug": "accessory-breast-tissue",
+  "subspecialty": "Breast"
+}

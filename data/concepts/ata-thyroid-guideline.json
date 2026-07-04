@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**2015 ATA 甲狀腺結節分水嶺：依超音波特徵分 high / intermediate / low / very low / benign 五類，FNA 閾值隨惡性風險上升而下降——High 與 Intermediate ≥1cm、Low ≥1.5cm、Very low ≥2cm、純海綿狀（spongiform）benign 不需 FNA。惡性度愈高、切片門檻愈低。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1089/thy.2015.0020"
+    }
+  ],
+  "imagingFindings": "- **High suspicion 影像特徵（考點）**：實質低回音（hypoechoic）+ 不規則邊緣、低回音 + taller-than-wide（縱徑>橫徑）、微鈣化、被膜外侵犯、interrupted rim calcification 伴軟組織外突。\n- **非 high suspicion 的辨識**：isoechoic + regular margin 屬 intermediate 而非 high；**spongiform（純海綿狀）屬 very low suspicion / benign**，常為良性膠質結節。\n- **FNA 閾值判讀（考點）**：報告須結合 pattern 與最大徑決定是否建議 FNA——intermediate/high 於 ≥1cm 建議、low 於 ≥1.5cm、very low 於 ≥2cm。\n- **陷阱**：high suspicion FNA 閾值為 **≥1cm（非 0.5cm）**；spongiform 結節不因偶見微囊而升級為需 FNA。",
+  "keyPoints": [
+    "據 2015 ATA 指引，甲狀腺結節依超音波型態分為五個惡性風險層級，各層級對應不同 FNA 尺寸閾值。",
+    "**High suspicion（惡性風險 >70–90%）**型態包含：hypoechoic + irregular margin、hypoechoic + taller-than-wide、interrupted rim calcification with soft tissue extrusion 等。",
+    "**FNA 閾值（考點）**：High ≥1cm、**Intermediate ≥1cm**、**Low ≥1.5cm**、**Very low ≥2cm**（或觀察）、benign（純 spongiform / 純囊性）**不建議 FNA**。",
+    "ATA 屬「型態模式（pattern-based）」系統，與 ACR TI-RADS 之「計點（point-based）」系統邏輯不同，兩者閾值與分類不可直接互換。"
+  ],
+  "management": "1. FNA 結果以 Bethesda 系統分類，決定後續追蹤或手術。\n2. 影像特徵相同時，尺寸愈大惡性機率不必然等比上升，故指引以 pattern 為主、size 為輔設閾值。\n3. 未達 FNA 閾值之可疑結節建議超音波追蹤而非立即切片。\n4. 頸部異常淋巴結若存在，可下修原發結節之 FNA 決策門檻。\n5. 考題所依為 2015 ATA 版本；若臨床改用 ACR TI-RADS，分類與閾值須另行對照。\n\n> [!note] 考點一：2015 ATA guideline 中，何者為 high suspicious sonographic patterns？\n> hypoechoic + irregular margin、hypoechoic + taller-than-wide、interrupted rim calcification with soft tissue extrusion（isoechoic + regular margin 非 high；spongiform 為 very low）。\n\n> [!note] 考點二：依 2015 ATA，哪些 thyroid nodules 建議接受 FNA？\n> intermediate ≥1cm、low ≥1.5cm、very low ≥2cm 者建議 FNA；high suspicion 閾值為 ≥1cm（非 0.5cm），benign（spongiform）不需 FNA。",
+  "name": "2015 ATA Thyroid Nodule Guideline",
+  "nameZh": "甲狀腺結節指引",
+  "slug": "ata-thyroid-guideline",
+  "subspecialty": "HN"
+}

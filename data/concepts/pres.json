@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**PRES 的因果鏈：血壓失調 → 高灌流破壞血腦屏障 → vasogenic edema 在後頂枕葉堆積 → T2/FLAIR 亮、DWI 不受限（可逆）。** 常見誘因「高血壓、子癇、免疫抑制藥物（tacrolimus/cyclosporine 等）、腎病」；糖尿病不在此列（考試陷阱）。判讀分水嶺一：**DWI 不受限 ＋ ADC 升高 → vasogenic edema → PRES（區別急性梗塞的 DWI 受限）**；判讀分水嶺二：**移除誘因多可逆；DM 不是典型危險因子**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "**核心：雙側、相對對稱的 vasogenic edema，好發 parieto-occipital 皮質下白質；DWI 多『不受限』、ADC 升高（與急性梗塞區分）。**",
+  "keyPoints": [
+    "**機轉**：急性血壓變化超出腦循環自我調節 → 高灌流 → **血腦屏障破壞 → vasogenic edema**（典型 parieto-occipital 對稱，T2/FLAIR 高訊號、DWI 多不受限）。",
+    "**常見危險因子**：",
+    "**嚴重高血壓**。",
+    "**子癇前症/子癇（pre-eclampsia/eclampsia）**、產後。",
+    "**免疫抑制/藥物毒性**：tacrolimus、cyclosporine、bevacizumab、methotrexate、vincristine、cisplatin、cyclophosphamide、corticosteroids、rituximab 等。",
+    "**腎病**：急性腎絲球腎炎、慢性腎功能不全。",
+    "**非典型危險因子＝糖尿病（DM）**（題目正解）。",
+    "多為**可逆**（移除誘因/控制血壓後）。"
+  ],
+  "management": "",
+  "name": "PRES (Posterior Reversible Encephalopathy Syndrome)",
+  "nameZh": "後部可逆性腦病變",
+  "slug": "pres",
+  "subspecialty": "NR"
+}

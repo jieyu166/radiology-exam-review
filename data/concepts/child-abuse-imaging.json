@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**受虐兒童的判讀口訣：嬰兒的「非特異性症狀」（嘔吐、呼吸暫停）要聯想受虐；臉部/口腔損傷「一定要」提高懷疑；評估要做「全身」骨骼調查而非只拍症狀肢體；視網膜出血在受虐性頭部創傷高達85%出現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**非特異性表現**：受虐兒童(尤其嬰兒)可能僅以**嘔吐、呼吸暫停(apnea)**等非特異性症狀/徵象表現，臨床上須提高警覺。",
+    "**臉部/口腔損傷之警訊意義**：嬰兒臉部、頸部、軀幹瘀傷，或口腔內損傷(如**舌繫帶撕裂torn frenula**)，應**高度懷疑**非意外傷害，而非視為不需理會之表現。",
+    "**疑似受虐兒童評估範疇**：應包含**腦部影像**、**全身骨骼調查(skeletal survey，非僅症狀肢體局部攝影)**、眼底檢查(視網膜出血)、肝胰酵素檢測等完整評估。",
+    "**嬰兒搖晃症候群成因**：**不僅歸因於搖晃本身**，常合併撞擊(impact)等其他機轉共同造成損傷。"
+  ],
+  "management": "",
+  "name": "Child Abuse (Non-Accidental Trauma) — Clinical & Imaging Clues",
+  "nameZh": "兒童受虐影像判讀",
+  "slug": "child-abuse-imaging",
+  "subspecialty": "PED"
+}

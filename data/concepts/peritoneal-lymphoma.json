@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**原發性腹膜淋巴瘤（如原發性積液淋巴瘤）於CT上最主要的表現是不合併淋巴結病變的惡性腹水（malignant ascites without associated lymphadenopathy），而非結節狀腹膜增厚；原發性腹膜淋巴瘤與人類皰疹病毒第8型及EB病毒相關；既存淋巴結淋巴瘤轉移至腹膜時可擬態腹膜癌病。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**原發性腹膜淋巴瘤（primary peritoneal lymphoma / primary effusion lymphoma）**：CT上**最主要表現為不合併淋巴結病變之惡性腹水（malignant ascites without associated lymphadenopathy）**，並非結節狀腹膜增厚。",
+    "**病毒關聯**：與**人類皰疹病毒第8型（HHV-8）及EB病毒（Epstein-Barr virus）**相關。",
+    "**既存結節性淋巴瘤轉移至腹膜**：CT上可**擬態腹膜癌病（peritoneal carcinomatosis）**。",
+    "**腹膜淋巴瘤病（peritoneal lymphomatosis）**：罕見表現，常與高惡性度原發胃腸道非何杰金氏淋巴瘤相關，影像上與腹膜癌病難以區分；侵犯型態包含離散結節、瀰漫浸潤性腫塊與腹水。"
+  ],
+  "management": "",
+  "name": "Lymphoma of the Peritoneum",
+  "nameZh": "腹膜淋巴瘤",
+  "slug": "peritoneal-lymphoma",
+  "subspecialty": "ABD"
+}

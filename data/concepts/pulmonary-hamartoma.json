@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**肺錯構瘤＝良性間葉腫瘤（含軟骨/脂肪/骨/結締組織/平滑肌），為最常見良性肺腫瘤之一（~8% 肺腫瘤、6% SPN）；特徵『爆米花（popcorn）鈣化』（非層狀 lamellated）＋『脂肪密度（-40~-120 HU，約 60% 含脂肪）』；鈣化僅約 20-40%、無空洞化。** 判讀分水嶺：**邊界清楚孤立結節（>90% 周邊）、smooth/lobulated；popcorn 鈣化為特徵但僅 ~20-40% 可見（非 75%）；CT 見脂肪密度助診斷；偶位支氣管內致阻塞/咳血。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-4602（輔助來源",
+      "url": "https://doi.org/10.53347/rID-4602（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **診斷線索**：孤立周邊結節 + 內見脂肪密度（-40~-120 HU）±popcorn 鈣化 → 幾可確定良性 hamartoma。\n- **popcorn 鈣化**：軟骨鈣化之爆米花/爆玉米花狀，非層狀（層狀見於肉芽腫）。\n- **無空洞化**：見空洞應想其他（惡性/感染）。\n- **組織學（STATdx）**：多種間葉組織——**軟骨最豐富、脂肪、骨**；表面可鱗狀化生 mimics SCC、**支氣管鏡切片常誤導**。\n- **endobronchial/airway 型（STATdx）**：**占肺錯構瘤 1.4-13%、中央支氣管 > 氣管、多 <2 cm**；**內含脂肪 ± 鈣化提示診斷（endoluminal 結節含脂肪僅見於 airway hamartoma 或 lipoma）、endobronchial 型較 parenchymal 含更多巨觀脂肪**；表現＝**阻塞後效應（肺葉萎陷/阻塞性肺炎/遠端支氣管擴張）**、asthma-like 症狀/咳嗽/呼吸困難/stridor；CT 為首選、**FDG 攝取極低**。\n- **DDx（STATdx，endoluminal）**：**SCC（吸菸、腔外生長+環周、淋巴結）、metastasis（多發、乳/腸/腎/甲狀腺/黑色素瘤）、lipoma（純脂肪無軟組織）、chondroma（鈣化）、bronchial carcinoid（鈣化 25-30%、強化、內外支氣管成分）**。\n- **穩定/緩慢**：良性、生長緩慢；不確定時可 CT 追蹤或非手術；**與 Cowden 症候群相關（多發 hamartoma + 乳/甲狀腺癌傾向）**。",
+  "keyPoints": [
+    "**本質**：良性間葉腫瘤，含**軟骨、脂肪、骨、結締組織、平滑肌**（成熟但排列紊亂）；**最常見良性肺腫瘤之一（~8% 肺腫瘤、6% SPN）**。",
+    "**型態/位置**：**邊界清楚、smooth 或 lobulated、通常小**；**>90% 周邊**；多無症狀偶然發現；**偶支氣管內（endobronchial）致阻塞/咳血/咳嗽**。",
+    "**特徵鈣化**：**爆米花（popcorn）鈣化**（非 lamellated）；**約 20-40% 可見**（Radiopaedia 20-30%、詳解 30-40%，並列，**非 75%**）；**無空洞化**。",
+    "**脂肪**：**約 60% 含脂肪**；**CT 脂肪密度（-40~-120 HU）有助診斷**、與惡性區分。"
+  ],
+  "management": "1. **良性間葉瘤**：軟骨/脂肪/骨，最常見良性肺瘤之一。\n2. **鈣化**：popcorn（非 lamellated），僅 ~20-40%。\n3. **脂肪**：~60% 含脂肪、CT -40~-120 HU 助診斷。\n4. **位置**：>90% 周邊；偶 endobronchial 阻塞。\n5. **無空洞化**。\n\n> [!note] 考點\n> 肺錯構瘤特徵鈣化為 **popcorn**（非 lamellated）；**鈣化僅約 20-40%**（非 75%）；CT 脂肪密度助診斷；可含骨/血管/平滑肌、偶支氣管內。",
+  "name": "Pulmonary Hamartoma",
+  "nameZh": "肺錯構瘤",
+  "slug": "pulmonary-hamartoma",
+  "subspecialty": "CH"
+}

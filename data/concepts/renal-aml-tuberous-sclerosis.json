@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**AML 最相關的疾病是結節性硬化症（TSC），不是 VHL 或 NF；影像上 CT 見肉眼可辨脂肪（<-10 至 -20 HU）即可確診典型 AML，但「乏脂肪型 AML」與 RCC 難分。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.240159",
+      "url": "https://doi.org/10.1148/rg.240159"
+    }
+  ],
+  "imagingFindings": "- **確診關鍵**：於腫塊內找到肉眼脂肪（CT <-10 HU、或 MRI 化學位移/脂肪抑制掉訊號）即可診斷典型 AML。\n- **乏脂肪 AML vs RCC**：兩者在 CT/MRI 皆可高密度、明顯強化；乏脂肪 AML 傾向均質 T2 低訊號，但常需切片確認。\n- **出血風險**：最重要併發症為腫瘤出血→腹膜後出血/休克（Wunderlich syndrome），風險與腫瘤大小及動脈瘤（≥5 mm）相關，常作為介入（栓塞）門檻。\n- **靜脈侵犯**：良性 AML 亦可侵犯腎靜脈與 IVC；上皮樣 AML（EAML）具惡性潛能，可局部復發與轉移。",
+  "keyPoints": [
+    "**AML 與 TSC 高度相關**：散發性 AML 約佔多數、多單發、好發中年女性；TSC 相關 AML 常多發、雙側、發病較年輕。",
+    "**含脂肪為特徵**：絕大多數 AML 可測得脂肪，CT 上呈肉眼可辨脂肪密度即可診斷典型 AML。",
+    "**乏脂肪型 AML（fat-poor AML）**：以平滑肌為主，呈平掃 CT 高密度、T2 低訊號、明顯強化，影像上與 RCC 重疊、難以鑑別。",
+    "**TSC 為體染色體顯性遺傳**，男女機率相當，無明顯性別差異。"
+  ],
+  "management": "1. TSC 為體染色體顯性遺傳（TSC1/TSC2），腎表現包括多發雙側 AML 與腎囊腫。\n2. TSC 相關 AML 常較大、易出血，且可合併肺淋巴管肌瘤病（LAM）。\n3. 小型典型 AML 多可觀察追蹤；大型或高風險病灶考慮栓塞、消融或切除。\n4. TSC 或 LAM 相關 AML 可用 mTOR 抑制劑（如 everolimus）縮小腫瘤。\n5. AML 首選相關疾病為 TSC，而非 VHL（RCC/血管母細胞瘤）或 NF1。\n\n> [!note] 考點：腎血管肌脂肪瘤（AML）最常與下列何者相關？\n> **結節性硬化症（Tuberous sclerosis）**。AML 與 TSC 關聯最強；VHL 對應 RCC、NF1 與 Sturge-Weber 非首選。",
+  "name": "Renal Angiomyolipoma & Tuberous Sclerosis",
+  "nameZh": "腎血管肌脂肪瘤",
+  "slug": "renal-aml-tuberous-sclerosis",
+  "subspecialty": "GU"
+}

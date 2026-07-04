@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**WHO 肺高壓分五大組：Group 1＝肺動脈高壓(PAH，含結締組織病/scleroderma)、Group 2＝左心病變、Group 3＝肺病/缺氧、Group 4＝慢性血栓栓塞(CTEPH)、Group 5＝多因子(如 sarcoidosis);PVOD 屬 Group 1'。** 判讀分水嶺：**問『PAH(Group 1)病因』時——scleroderma(CTD-associated, group 1.4.1)屬之;sarcoidosis＝Group 5、cor triatriatum/左心病變＝Group 2、PVOD＝Group 1'(PAH 的特殊亞群,非典型 PAH)。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://radiopaedia.org/articles/pulmonary-hypertension-differential-1：肺動脈高壓影像鑑別診斷含vasculitis、chronic",
+      "url": "https://radiopaedia.org/articles/pulmonary-hypertension-differential-1：肺動脈高壓影像鑑別診斷含vasculitis、chronic"
+    }
+  ],
+  "imagingFindings": "- **Idiopathic PAH 本質是排除診斷**：**若找不到任何提示特定 PH 亞型/特定疾病的肺部或縱膈伴隨影像徵象，才考慮 idiopathic PAH**。\n- **各徵象對應特定病因（故非 idiopathic 的線索）**：\n  - **肺葉間隔增厚（interlobular septal thickening）**→ 左心病變（Group 2）。\n  - **雙側肺動脈不對稱擴大**→ 肝肺症候群（hepatopulmonary syndrome）。\n  - **肺節段動脈 target sign**→ 急性肺栓塞。\n- **D-shape of left ventricle（右心室壓力負荷致室間隔平直化/左移）**：反映**嚴重右心室功能障礙/壓力負荷**，此為 PH 嚴重度的**非特異性**共同表現（各類型晚期 PH 皆可見），**不指向任何特定 PH 亞型**——故當其他徵象都缺席時，D-shape（非特異）反而透過排除法指向 idiopathic PAH。\n- **輔助鑑別**：mosaic attenuation 可見但**在 idiopathic PAH 較 CTEPH 少見**;**支氣管動脈肥大/擴大是 CTEPH 的特徵，idiopathic PAH 通常缺席**——此為兩者鑑別的另一線索。\n\n> [!note] 考點：何種影像徵象提示 idiopathic pulmonary artery hypertension?\n> **D-shape of left ventricle（C）**——僅反映嚴重右心室功能障礙，非特異性，故當無其他指向特定病因的伴隨徵象時，以排除法考慮 idiopathic PAH。interlobular septal thickening（左心病變/Group 2）、雙側肺動脈不對稱擴大（肝肺症候群）、節段肺動脈 target sign（急性 PE）皆指向特定病因，非 idiopathic。",
+  "keyPoints": [
+    "**Group 1 — 肺動脈高壓（PAH）**：idiopathic、heritable（BMPR2 等）、藥物/毒素、**結締組織病（scleroderma 等，group 1.4.1）**、HIV、門脈高壓、先天心病、血吸蟲病。",
+    "**Group 1' — PVOD/PCH**：肺靜脈閉鎖性疾病/肺微血管瘤;屬 Group 1 的特殊亞群。",
+    "**Group 2 — 左心病變**：左心衰、瓣膜病、**cor triatriatum**、左心房阻塞。",
+    "**Group 3 — 肺病/缺氧**：COPD、ILD、CPFE、睡眠呼吸障礙、高海拔。",
+    "**Group 4 — CTEPH**：慢性血栓栓塞性肺高壓。",
+    "**Group 5 — 多因子/不明**：血液病、**sarcoidosis**、代謝病、機械壓迫等。",
+    "**影像鑑別診斷清單（2019交換，Radiopaedia差異列表）**：常見「肺動脈高壓」影像鑑別診斷包含**血管炎（vasculitis）、慢性肺栓塞（chronic pulmonary emboli）、肺氣腫（emphysema）**；**sarcoidosis並非此差異列表中常見病因**（sarcoidosis屬WHO Group 5，非典型肺動脈本身病變）。"
+  ],
+  "management": "",
+  "name": "Pulmonary Hypertension — WHO Classification",
+  "nameZh": "肺高壓分類",
+  "slug": "pulmonary-hypertension-classification",
+  "subspecialty": "CV"
+}

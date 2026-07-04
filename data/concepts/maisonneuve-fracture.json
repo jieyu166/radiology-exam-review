@@ -1,0 +1,43 @@
+{
+  "checked": false,
+  "definition": "**Maisonneuve fracture 的精神:扭傷的力量從腳踝『一路往上傳』,在『近端腓骨（靠膝蓋那端）』折斷。想像踝關節被外旋扭開,力量沿著脛腓骨之間的韌帶（syndesmosis）往上撕,最後在高位腓骨斷掉——三處連成一線。** 判讀分水嶺（也是最大陷阱）:**病人只喊腳踝痛、踝 X 光看似單純（只見內踝骨折或 syndesmosis 增寬）,真正的骨折卻在沒照到的近端腓骨**——所以懷疑時一定要加照全腓骨。",
+  "differentialDiagnosis": [
+    "**單純 Weber C 腓骨幹骨折**:骨折位置較低、未到近端腓骨;Maisonneuve 屬 Weber C/PER 的「高位極端」。",
+    "**單純三角韌帶撕裂或孤立內踝骨折**:若內側間隙增寬卻找不到外踝相稱骨折,要警覺是 Maisonneuve 的近端腓骨折被漏掉,而非孤立內側傷。",
+    "**單純高位踝扭傷(high ankle sprain)/syndesmosis 韌帶傷**:有 syndesmosis 增寬但無腓骨骨折;Maisonneuve 必有近端腓骨折。",
+    "**Bosworth 骨折-脫位**:腓骨後脫位卡在脛骨後方,可與 Maisonneuve 並存但屬另一型,須辨識。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.33699/PIS.2020.99.2.77-85"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1111/j.1469-7580.2010.01302.x"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2147/OAJSM.S41564"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.otsr.2020.102778"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00068-021-01786-x"
+    }
+  ],
+  "imagingFindings": "- **單純 Weber C 腓骨幹骨折**:骨折位置較低、未到近端腓骨;Maisonneuve 屬 Weber C/PER 的「高位極端」。\n- **單純三角韌帶撕裂或孤立內踝骨折**:若內側間隙增寬卻找不到外踝相稱骨折,要警覺是 Maisonneuve 的近端腓骨折被漏掉,而非孤立內側傷。\n- **單純高位踝扭傷(high ankle sprain)/syndesmosis 韌帶傷**:有 syndesmosis 增寬但無腓骨骨折;Maisonneuve 必有近端腓骨折。\n- **Bosworth 骨折-脫位**:腓骨後脫位卡在脛骨後方,可與 Maisonneuve 並存但屬另一型,須辨識。",
+  "keyPoints": [
+    "**定義**:近端腓骨(近端四分之一、常為 subcapital)螺旋骨折,合併**遠端脛腓骨聯合(distal tibiofibular syndesmosis)撕裂**,再加上內側結構受損(內踝骨折或三角韌帶 deltoid ligament 撕裂)——高位腓骨→syndesmosis→內側,三處連成一條外旋力線。",
+    "**機轉**:旋前-外旋(pronation-external rotation, PER)。足部固定、距骨被外旋,先撕開前下脛腓韌帶(AITFL),力量沿骨間膜/骨間韌帶往近端傳,最後在高位腓骨折斷;內側 deltoid 撕裂或內踝撕脫骨折。因 syndesmosis 被撕開 → **關節不穩定**,近端腓骨折本身不固定,但 syndesmosis 與內側結構幾乎都需手術復位固定。",
+    "**判讀核心陷阱**:病人常只喊腳踝痛,踝 X 光可能只見內踝骨折或內側透亮間隙增寬,**真正的腓骨骨折在沒照到的近端腓骨**;懷疑時務必加照**全長脛腓骨(含膝)正側位**。一系列研究中約 24% 病例的腓骨骨折只在小腿側位片上才看得到。"
+  ],
+  "management": "",
+  "name": "Maisonneuve Fracture",
+  "nameZh": "梅松納夫骨折",
+  "slug": "maisonneuve-fracture",
+  "subspecialty": "MSK"
+}

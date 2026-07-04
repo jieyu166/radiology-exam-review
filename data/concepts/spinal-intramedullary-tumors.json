@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**先天性脊髓內腫瘤四類（teratoma / dermoid / epidermoid / hamartoma）靠「成分」分流；高頻考點是 epidermoid——T1/T2 似 CSF，但 DWI 為 restricted（高訊號），這是與 arachnoid cyst 的唯一可靠區分。** 判讀分水嶺一：**epidermoid＝DWI restricted（高），非 CSF 的 DWI 低訊號**——誤寫「DWI 低」即答錯。判讀分水嶺二：teratoma 含脂肪/鈣化/骨軟骨（三種外胚層成分）；dermoid 含皮膚附屬器（T2 高）；hamartoma 與脊髓等訊號，罕有功能性脈絡叢致 syringohydromyelia。",
+  "differentialDiagnosis": [
+    "**Ependymoma**：細胞型多見於頸髓；**central location** 加上兩端 **cap sign**（T2/GRE/SWI 低訊號含鐵血黃素帽，反映陳舊出血）為高度提示徵象；強化通常實質、均勻、邊界清。",
+    "**Myxopapillary ependymoma**：好發於**圓錐／終絲（conus / filum terminale）**，佔圓錐區腫瘤約 90%；常呈邊界清楚、卵圓形之 IDEM 腫塊，**T2 高訊號、T1 可因黏液/出血呈等到高訊號、強化強且均勻**，可跨多節；判讀時其實已偏向 IDEM 腔室。",
+    "**Astrocytoma**：偏心、邊界不清、範圍長且呈浸潤性膨大；強化不均勻而不規則、無含鐵血黃素帽——較 ependymoma 更「侵犯性」的外觀。",
+    "**Hemangioblastoma**：軟膜下強化結節＋鄰近**蛇行 flow void**（供血血管）＋不成比例的大囊與瀰漫脊髓水腫為典型組合；多發病灶或合併視網膜/小腦病灶須查 **von Hippel-Lindau**。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Mature teratoma**：含**脂肪與鈣化**，可有**骨與軟骨**成分。",
+    "**Hamartoma**：T1/T2 多與脊髓**等訊號**；罕見含**功能性脈絡叢**而以 **syringohydromyelia** 表現。",
+    "**Dermoid**：含**皮膚附屬器**；T1 訊號可變、**T2 高訊號**。",
+    "**Epidermoid**：**多與 CSF 等訊號**，但**DWI 為 restricted diffusion（高訊號）**——故「DWI 低訊號」**錯誤**＝題目正解。"
+  ],
+  "management": "",
+  "name": "Congenital Spinal Intramedullary Tumors",
+  "nameZh": "脊髓內先天腫瘤",
+  "slug": "spinal-intramedullary-tumors",
+  "subspecialty": "NR"
+}

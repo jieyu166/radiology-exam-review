@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**心肌病 MRI 看三件事：形態（擴大 vs 肥厚）、LGE（疤痕分布）、心包（正常 vs 增厚）。** DCM 是心室擴大＋室壁全面變薄，HCM 是室壁局部肥厚但心室不擴大；最關鍵的是 MRI 可藉心包厚度（>4 mm）區分 restrictive CM（心包正常）與 constrictive pericarditis（心包增厚）——這是 MRI 對心臟的獨特貢獻。GRE blooming 低訊號代表鐵沉積，不是正常表現。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.291085052",
+      "url": "https://doi.org/10.1148/rg.291085052"
+    }
+  ],
+  "imagingFindings": "- **LGE pattern 途徑（Cummings，核心）**：**梗塞＝subendocardial 或 transmural、循血管分布；非缺血性心肌病＝不循血管分布**——依 **location（subendocardial/transmural/subepicardial/mesocardial）+ pattern（patchy/diffuse）** 分辨缺血 vs 非缺血並縮小 DDx。\n- **各病因 LGE 分布（Cummings）**：**subendocardial/transmural＝梗塞；mid-wall（mesocardial）＝idiopathic DCM/HCM/右室壓力負荷；subepicardial/epicardial＝myocarditis/sarcoidosis/Anderson-Fabry/Chagas；global subendocardial（不循血管）＝amyloidosis**。\n- **形態（MR cine）**：DCM＝心室擴大 + 室壁瀰漫變薄（非局部增厚）；HCM＝室壁局部肥厚、心室不擴大 ± LVOT 阻塞/SAM。\n- **restrictive vs constrictive（MR 獨特貢獻）**：**constrictive pericarditis＝心包增厚 >4 mm ± 鈣化 + 室間隔抖動（呼吸相依）；restrictive CM＝心包正常 + 雙心房擴大**——MR 為兩者鑑別關鍵。\n- **鐵/浸潤**：**GRE/T2* blooming 低訊號＝鐵沉積（iron overload/含鐵血黃素）**、T2* 縮短；parametric T1 mapping 評 amyloid（ECV↑）/Fabry（native T1↓）。",
+  "keyPoints": [
+    "**DCM**：心室**擴大**、室壁**相對變薄**（非局部增厚）;A 敘述「regional wall thinning」不準確（為全心室稀薄而非局部）。",
+    "**HCM**：室壁**肥厚**、心室**不擴大**(非 grossly dilated)。",
+    "**Restrictive CM vs Constrictive pericarditis**：**MRI 可區分**——constrictive 有**心包增厚(>4 mm)/鈣化、室間隔抖動**;restrictive 心包正常、雙心房擴大。",
+    "**GRE blooming 低訊號**：心肌**鐵沉積（iron overload／含鐵血黃素）**致 T2* 縮短,非正常表現。",
+    "**心肌炎（myocarditis）LGE分布**：**典型位於subepicardial myocardium**（心外膜下）；分布可變，mid-interventricular與focal transmural型態亦可見；並非典型分布於interventricular septum本身。",
+    "**各病因LGE分布速記**：subendocardial/transmural（心內膜下/透壁）＝梗塞相關；mid-wall（中層）＝HCM、右室壓力負荷、idiopathic DCM；epicardial/subepicardial（心外膜下）＝sarcoidosis、myocarditis、Anderson-Fabry、Chagas病。"
+  ],
+  "management": "1. **應用轉變（Cummings）**：**延遲增強 CMR 由評估缺血/存活擴展至非缺血性心肌病之鑑別**。\n2. **DCM**：心室擴大 + 全面室壁變薄、常 idiopathic（心肌纖維化 mid-wall LGE）。\n3. **HCM**：遺傳性室壁肥厚、LGE 於肥厚/交界區、猝死風險評估。\n4. **restrictive（amyloid 等）vs constrictive**：臨床皆呈舒張功能障礙，**MRI 藉心包厚度/鈣化區分**（治療迥異：constrictive 手術剝離）。\n5. **結構化判讀價值（Cummings）**：**以 LGE location+pattern 之結構化途徑有助非缺血性心肌病之早期偵測與適當治療**。\n\n> [!note] 考點：myocarditis典型LGE分布位置?\n> **Subepicardial myocardium（心外膜下）**——並非interventricular septum。分布可變，亦可見mid-interventricular與focal transmural型態。\n\n> [!note] 考點：關於心肌病 MRI,何者「為真」?\n> **Restrictive cardiomyopathy 可藉 MRI 與 constrictive pericarditis 區分**（看心包厚度/鈣化）。DCM 室壁稀薄非局部增厚、HCM 心室不擴大、GRE blooming＝鐵沉積（非正常）。",
+  "name": "Cardiomyopathy MRI (DCM / HCM / Restrictive)",
+  "nameZh": "心肌病MRI",
+  "slug": "cardiomyopathy-mri",
+  "subspecialty": "CV"
+}

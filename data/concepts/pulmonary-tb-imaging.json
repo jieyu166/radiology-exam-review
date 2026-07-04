@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Primary TB 最常見影像為 mediastinal/hilar lymphadenopathy；post-primary（reactivation）TB 特徵為上肺區 consolidation 與 cavitation；Primary TB 的 cavitation 並「不」以上肺為主（空洞在 primary TB 少見，上肺優勢為 post-primary 特徵）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Primary TB：**mediastinal/hilar LAD** 為最常見表現；兒童較少肋膜積液",
+    "Post-primary TB：apical/posterior segments of upper lobes & superior segments of lower lobes 偏好；cavitation 常見",
+    "Cavitation 上肺分佈為 **post-primary** 特徵，非 primary TB"
+  ],
+  "management": "",
+  "name": "Pulmonary Tuberculosis Imaging",
+  "nameZh": "肺結核影像",
+  "slug": "pulmonary-tb-imaging",
+  "subspecialty": "CH"
+}

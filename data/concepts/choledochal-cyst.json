@@ -1,0 +1,53 @@
+{
+  "checked": false,
+  "definition": "**先天膽道囊腫,白話就是膽道某一段「鼓起來」變成囊腫;Todani 把它分成五型。記憶主線一句話:從膽總管本身鼓大（type I,最常見）→ 側壁凸個憩室（II）→ 末端鑽進十二指腸壁（III）→ 多處都有（IV）→ 一路長進肝內（V）。** 判讀分水嶺一:**Type I 膽總管囊狀/梭狀擴張最常見(~77–80%),看到膽總管整段腫先想它**;判讀分水嶺二(考試最愛的陷阱):**choledochocele 是 type III（十二指腸內遠端膽總管囊腫）,不是 IV;Type II＝膽總管憩室、Type IVa/b＝多發肝內外或多發肝外、Type V＝Caroli disease（肝內膽管囊狀擴張）**。 ![Todani classification](https://img-hosting.jieyu166.workers.dev/i/MGf6prC.png) from Radiopaedia",
+  "differentialDiagnosis": [
+    "**central dot sign（中央點徵象）**：Caroli disease 特徵，擴張的肝內膽管包繞門靜脈分支，在對比後 CT／MRI 橫切面呈「囊腔中央一個強化小點」；瀰漫型 Caroli 約 43% 可見，並伴周邊「漏斗狀（funnel-shaped）」徵象。產前 MRI 對偵測 central dot sign 有優勢。",
+    "**與其他膽管擴張原因鑑別**：阻塞性近端膽管狹窄、原發性肝內結石所致的局限性肝內膽管擴張，可與局限型 Caroli 混淆——後者幾乎都伴肝內結石、左葉萎縮，且缺少瀰漫型的囊狀＋梭狀混合與漏斗徵象。",
+    "**與肝囊腫鑑別**：肝囊腫不與膽管樹相通；choledochal cyst／Caroli 的囊腔與膽管連通（MRCP、HIDA 或造影可證），是關鍵分水嶺。",
+    "**與膽道閉鎖鑑別**（嬰兒）：膽道閉鎖膽管樹不通、HIDA 無腸道排泄；type I 囊腫則可見與膽管相連的囊腔，臨床上需在新生兒黃疸鑑別中區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiographics.15.1.7899614",
+      "url": "https://doi.org/10.1148/radiographics.15.1.7899614"
+    },
+    {
+      "label": "10.1016/j.gassur.2023.11.007",
+      "url": "https://doi.org/10.1016/j.gassur.2023.11.007"
+    },
+    {
+      "label": "10.3748/wjg.v26.i31.4718",
+      "url": "https://doi.org/10.3748/wjg.v26.i31.4718"
+    },
+    {
+      "label": "10.1002/pd.6750",
+      "url": "https://doi.org/10.1002/pd.6750"
+    },
+    {
+      "label": "10.2214/AJR.17.18402",
+      "url": "https://doi.org/10.2214/AJR.17.18402"
+    },
+    {
+      "label": "PMC11558630",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11558630/"
+    },
+    {
+      "label": "10.2214/AJR.20.23522",
+      "url": "https://doi.org/10.2214/AJR.20.23522"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Type I（最常見,~77–80%）**：膽總管囊狀/梭狀擴張——「主幹整段腫起來」,最常見所以最先想到。",
+    "**Type II**：膽總管**憩室(diverticulum)**——側壁凸一個包。",
+    "**Type III＝Choledochocele**：遠端膽總管於**十二指腸壁內**囊狀擴張——位置最特別（鑽進腸壁）,所以自成一型,也最常被誤記成 IV。",
+    "**Type IV**：**多發**(IVa 肝內＋肝外;IVb 多發肝外)——關鍵字是「不只一顆」。",
+    "**Type V＝Caroli disease**：囊狀擴張長在**肝內膽管**——記「最深、長進肝裡」。"
+  ],
+  "management": "",
+  "name": "Choledochal Cysts (Todani Classification)",
+  "nameZh": "膽總管囊腫",
+  "slug": "choledochal-cyst",
+  "subspecialty": "ABD"
+}

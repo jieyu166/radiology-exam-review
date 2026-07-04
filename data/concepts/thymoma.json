@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**胸腺瘤好發於「50-60歲成人（5th-6th decades）」不是青少年——這是本題陷阱。其餘：與myasthenia gravis（重症肌無力）密切相關、無性別偏好、可能無臨床症狀（偶發於前縱膈）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發年齡（本題重點）**：**50-60歲（5th-6th decades）**，**不好發於青少年**；無性別偏好（no gender predilection）。",
+    "**與myasthenia gravis關聯**：胸腺瘤與**重症肌無力（myasthenia gravis）**密切相關（約30-50%胸腺瘤病人有MG；約10-15% MG病人有胸腺瘤）。",
+    "**臨床表現**：**可能無臨床症狀**（前縱膈偶發腫塊），或因局部壓迫/副腫瘤症候群（MG、純紅血球再生不良、低丙球蛋白血症）表現。",
+    "**影像**：前縱膈邊界清楚之軟組織腫塊，可有鈣化；侵犯性胸腺瘤可穿破包膜、沿胸膜種植。"
+  ],
+  "management": "",
+  "name": "Thymoma",
+  "nameZh": "胸腺瘤",
+  "slug": "thymoma",
+  "subspecialty": "CH"
+}

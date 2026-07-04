@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**攝護腺腺癌最常見發生於周邊區（peripheral zone），並非移行區（transition zone，該區主要與良性攝護腺增生BPH相關）；MRI（尤其T2WI）為最佳偵測序列；淋巴引流主要至骨盆淋巴結；CT對攝護腺癌本身之偵測準確度不佳。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發部位**：**周邊區（peripheral zone）**——靠近直腸處，並非移行區（transition zone，該區主要與BPH相關）。",
+    "**MRI**：**T2WI為偵測攝護腺癌最佳序列**；多參數MRI（結合DWI/ADC與T2WI）依PI-RADS評分系統分級。",
+    "**淋巴引流**：主要引流至**骨盆淋巴結**。",
+    "**CT**：對攝護腺癌本身之偵測**準確度不佳**，主要用於評估遠處轉移與淋巴結。"
+  ],
+  "management": "",
+  "name": "Prostate Adenocarcinoma — Imaging",
+  "nameZh": "攝護腺腺癌影像",
+  "slug": "prostate-adenocarcinoma-imaging",
+  "subspecialty": "GU"
+}

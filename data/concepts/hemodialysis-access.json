@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**透析通路「fistula first」：自體 AVF 感染率、steal 率、中央靜脈狹窄率都低於 graft；說「graft 比 fistula 少合併症」即錯，順序是 AVF > graft > 導管。** 判讀分水嶺一：**AVF 預後最佳、併發症最少；graft 次之；中央靜脈導管血栓＋感染率最高**；判讀分水嶺二：**Radiocephalic AVF（Brescia-Cimino）最常見狹窄位置＝juxta-anastomotic（swing）段**。記憶鉤：越「自然」越好——自體血管（AVF）> 人工血管（graft）> 管子（catheter）；併發症反過來排。",
+  "differentialDiagnosis": [
+    "通路旁腫塊：假性動脈瘤 vs 真性動脈瘤 vs 血腫 vs seroma vs 膿瘍——以**有無都卜勒血流與往返訊號**區分。",
+    "流量低不必然＝狹窄：須結合波形與局部 PSV，且**單次流量下降 > 25%（前值 < 1000 mL/min 時）**才較具意義，避免單一絕對值誤判。",
+    "rule of 6 之**單項陷阱**（尤其深度、直徑單看）如上述，務必三項合看。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.14366/usg.23028",
+      "url": "https://doi.org/10.14366/usg.23028"
+    },
+    {
+      "label": "10.1016/j.jvs.2022.02.030",
+      "url": "https://doi.org/10.1016/j.jvs.2022.02.030"
+    },
+    {
+      "label": "10.1148/radiographics.13.5.8210602",
+      "url": "https://doi.org/10.1148/radiographics.13.5.8210602"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**優先序**：**native AVF（首選、預後較佳）＞ PTFE graft ＞ tunneled catheter**。（選項 B 正確）",
+    "**中央靜脈導管**：**血栓與感染率最高**，應盡量避免（暫時用、7–10 天即移除）。（選項 A 正確）",
+    "**AVF vs graft**：**fistula 的感染率、steal syndrome、症狀性中央靜脈狹窄率『低於』graft**（AVF 併發症較少）；故「graft 低於 fistula」**錯誤**＝題目正解。",
+    "**Radiocephalic AVF 最常見狹窄部位＝juxta-anastomotic（swing）段**。（選項 D 正確）"
+  ],
+  "management": "",
+  "name": "Hemodialysis Vascular Access",
+  "nameZh": "血液透析通路",
+  "slug": "hemodialysis-access",
+  "subspecialty": "IR"
+}

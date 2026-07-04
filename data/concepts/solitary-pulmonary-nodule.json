@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**孤立性肺結節（SPN）在已知肺外惡性病人身上，是原發肺癌還是轉移，取決於『該肺外腫瘤的組織學特性與病人吸菸史』，非一律「原發肺癌較常見」——不同原發癌別轉移比例差異極大。** 判讀分水嶺：**頭頸鱗癌/淋巴瘤/泌尿道/乳房等 → SPN 多為原發肺癌；黑色素瘤/肉瘤/睪丸癌 → 多為轉移（~60%）。良性線索：良性鈣化型態（中央/瀰漫/laminated/popcorn）、含脂肪（hamartoma）、2 年穩定、doubling time <30 天或 >465 天；惡性線索：spiculation（highly suggestive）、上肺、doubling time 1-18 月（平均 ~100 天）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **鈣化型態辨良惡**：中央/瀰漫/laminated/popcorn＝良性；eccentric/stippled＝不確定/惡性。\n- **含脂肪＝hamartoma**：CT 內見 -40~-120 HU 脂肪 + popcorn 鈣化 → 幾可確定良性。\n- **穩定性/生長**：2 年穩定偏良性（惟惰性肺癌存在）；doubling time 太快/太慢偏良性、1-18 月偏惡性。\n- **形態**：spiculation/lobulation/毛刺偏惡性；平滑球形偏良性。\n- **情境化**：已知肺外惡性者，依原發組織學 + 吸菸史判原發 vs 轉移；Fleischner 準則指引偶發結節追蹤。",
+  "keyPoints": [
+    "**首選檢查**：**CT** 為 SPN 定性首選——評估大小、型態、密度（鈣化/脂肪/氣）、attenuation（solid/subsolid）、生長、強化、代謝（PET）。",
+    "**良性線索**：**90% <2 cm 為良性**；球形/邊緣平滑；**良性鈣化（complete/diffuse、central >10%、laminated=granuloma、popcorn=hamartoma）**；**含脂肪（-40~-120 HU）=hamartoma**；**2 年穩定**；doubling time **<30 天（感染）或 >465 天（良性）**。",
+    "**惡性線索**：**spiculation（highly suggestive）**、irregular/lobulated；eccentric/stippled 鈣化；**上肺較多**；doubling time **1-18 月（平均 ~100 天）**、有生長。",
+    "**已知肺外惡性之 SPN（重要考點）**：原發肺癌 vs 轉移**取決於肺外原發腫瘤組織學 + 吸菸史**，非一概而論——**頭頸鱗癌/淋巴瘤/泌尿道/乳房/子宮頸等 → 多為原發肺癌**；**黑色素瘤/肉瘤/睪丸癌 → 多為轉移（~60%）**。",
+    "**Rigler notch（邊緣切跡）**：實質腫塊邊緣之凹陷，代表**滋養血管**、提示支氣管癌；但**肉芽腫性感染等亦可見，鑑別力有限**（非單純良性徵象）。"
+  ],
+  "management": "1. **CT 首選**：綜合大小/型態/密度/生長/代謝定性。\n2. **良性線索**：良性鈣化、脂肪、2 年穩定、doubling <30d 或 >465d。\n3. **惡性線索**：spiculation、上肺、doubling 1-18 月。\n4. **肺外惡性 SPN**：原發 vs 轉移取決於原發組織學 + 吸菸史。\n5. **Rigler notch**：提示支氣管癌但鑑別力有限。\n\n> [!note] 考點：關於孤立性肺結節(SPN)，何者「不正確」?\n> 「**已知肺外惡性腫瘤病人的 SPN，更常為原發肺癌而非轉移（C）**」不正確——**取決於該肺外腫瘤組織學與病人吸菸史**（黑色素瘤/肉瘤/睪丸癌組反而多為轉移 ~60%），非一概而論。上肺葉肺癌較多、穩定 2 年結節幾乎必為良性、Rigler notch 提示支氣管癌但鑑別力有限，皆為正確補充。",
+  "name": "Solitary Pulmonary Nodule (SPN) — Key Concepts",
+  "nameZh": "孤立性肺結節",
+  "slug": "solitary-pulmonary-nodule",
+  "subspecialty": "CH"
+}

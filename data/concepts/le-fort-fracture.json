@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Le Fort骨折三型口訣「I浮動上顎（palate）、II浮動上頜（maxilla, pyramidal）、III浮動臉（face, transverse）」，三型的共同點是都會斷翼突板（pterygoid plate）。Le Fort I水平骨折，骨折線通過齒槽脊、鼻腔外側壁（鼻腔前外側緣/梨狀孔）、上頜竇下壁——所以「鼻腔前外側緣骨折」是Le Fort I的正確描述。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Le Fort I（floating palate，水平型）**：水平上頜骨折，將牙齒與上臉分離；骨折線通過**齒槽脊（alveolar ridge）、鼻腔外側壁/鼻腔前外側緣（anterolateral margin of nasal cavity, 梨狀孔）、上頜竇下壁**。",
+    "**Le Fort II（floating maxilla，錐狀pyramidal）**：骨折線通過**鼻樑、下眶緣（inferior orbital rim）、眶底、上頜竇前壁**。",
+    "**Le Fort III（floating face，橫向transverse/craniofacial disjunction）**：骨折線通過**鼻額縫（nasofrontal suture）、眶內側壁、眶底、顴額縫、顴弓**，使顏面與顱骨分離。",
+    "**三型共同**：皆累及**翼突板（pterygoid plate）**——為診斷Le Fort系列骨折之必要條件。",
+    "**非Le Fort**：單純顴弓骨折（zygomatic arch）屬ZMC/顴骨複合骨折，非Le Fort。"
+  ],
+  "management": "",
+  "name": "Le Fort Fractures (Facial)",
+  "nameZh": "勒福氏骨折",
+  "slug": "le-fort-fracture",
+  "subspecialty": "H&N"
+}

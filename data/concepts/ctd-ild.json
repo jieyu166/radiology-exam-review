@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**結締組織病打肺，最常打出的是 NSIP 型（subpleural sparing、GGO），不是 UIP。** 分水嶺：年輕（<55 歲）或女性出現 UIP 樣纖維化，要先懷疑是 CTD 而非 IPF——CTD-UIP 常帶 straight-edge、exuberant honeycombing、anterior upper lobe 等反常徵象。IPAF 是中間過渡態：有自體免疫線索但尚未達確診標準，需追蹤。記憶鉤：**「年輕纖維化先查免疫、NSIP＞UIP」**。",
+  "differentialDiagnosis": [
+    "**vs IPF**：IPF 為確定型 UIP 且需排除 CTD;見上述三徵象、subpleural sparing、食道擴張、肋膜心包異常、NSIP/OP 並存時，傾向 CTD 而非 IPF。三徵象**敏感度中等**，陰性不能排除 CTD。",
+    "**陷阱一**：RA-UIP 影像可與 IPF 難分;年齡、性別、血清學是關鍵，影像不能單獨定 IPF。",
+    "**陷阱二**：Sjögren 的 cysts 別誤判為 LAM／LCH／emphysema;LIP cysts 多 peribronchovascular，且須警覺淋巴瘤轉化。",
+    "**陷阱三**：antisynthetase 的 OP 成分可游走、可被誤為感染或惡性，臨床配合 myositis 抗體。",
+    "**陷阱四**：subpleural sparing 是 NSIP 線索而非絕對，約僅 40% 出現，缺乏不排除 NSIP。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3390/jcm14176164",
+      "url": "https://doi.org/10.3390/jcm14176164"
+    },
+    {
+      "label": "10.2214/AJR.17.18384",
+      "url": "https://doi.org/10.2214/AJR.17.18384"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**HRCT 型態譜（整體）**：CTD-ILD 最常見 **NSIP（尤 fibrotic NSIP）**，其次 **UIP**、**OP**（含 [[organizing-pneumonia|fibrosing OP]]）、**LIP**;統合分析中 NSIP 約 36.5%、UIP 約 24.8%、OP 約 9.8%、LIP 約 1.25%（各研究比例不一，依族群與分類）。",
+    "**各 CTD 對應型態**：systemic sclerosis（SSc）→ 以 **NSIP** 為主;rheumatoid arthritis（RA）→ **UIP** 較常見（CTD 中最像 IPF 者）;idiopathic inflammatory myopathy／**antisynthetase syndrome** → **NSIP、OP 或 NSIP-OP overlap（fibrosing OP）**;Sjögren → **LIP/cysts**（但近代多數仍為 NSIP）;SLE 與 MCTD → 多為 **NSIP**。",
+    "**提示 CTD 的附加徵象**：**食道擴張（air-filled，多見於 SSc，cut-off 約 18.5 mm 對 SSc 有判別力）**、**心包/肋膜增厚或積液**、**NSIP 與 OP 並存**、**straight-edge sign**、**anterior upper lobe sign**、**exuberant honeycombing**;subpleural sparing 的 NSIP 樣分布也是線索。",
+    "**CTD-UIP vs IPF**：三徵象（straight-edge、anterior upper lobe、exuberant honeycombing）在 CTD-ILD 較 IPF 常見（CTD 約 22–25%、IPF 約 6–13%），**特異度高但敏感度中等**，須與血清學/臨床合判;**<55 歲、女性、年輕男性**出現 UIP 樣纖維化要先想 CTD（三徵象以 SSc 最常見）。",
+    "**IPAF（interstitial pneumonia with autoimmune features）**：**有自體免疫臨床/血清/型態特徵但未達任一 CTD 確診標準**;屬研究分類，需追蹤是否演變為明確 CTD。"
+  ],
+  "management": "",
+  "name": "Connective Tissue Disease-related ILD (CTD-ILD) & IPAF",
+  "nameZh": "結締組織疾病間質肺病",
+  "slug": "ctd-ild",
+  "subspecialty": "CH"
+}

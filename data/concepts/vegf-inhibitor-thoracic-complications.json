@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**VEGF抑制劑（Bevacizumab、sorafenib、sunitinib）同時具備兩種看似矛盾的血管併發症——出血（血管內皮更新能力下降）與血栓（內皮下膠原暴露致組織因子活化）——兩者並存，不是互斥的單選。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**出血/出血傾向**：機轉為**血管內皮細胞更新能力下降(decreased renewal capacity of endothelial cells)**，使血管完整性受損而易出血。",
+    "**血栓形成**：機轉為血管內皮受損後**暴露內皮下膠原(subendothelial collagen)**，致**組織因子(tissue factor)活化**，促進血栓形成。",
+    "**兩者並存**：VEGF抑制劑治療病人**同時具有出血與血栓兩種主要併發症風險**，並非互斥。",
+    "**其他常見胸腔併發症**：肺出血(pulmonary hemorrhage)、肺栓塞(pulmonary embolism)、氣胸(pneumothorax，antiangiogenic治療之已知但罕見併發症)。",
+    "**其他精準治療藥物之胸腔併發症對照**：免疫檢查點抑制劑治療可致類肉瘤病樣肉芽腫及淋巴結病；BCR-ABL kinase抑制劑可致肺水腫、肋膜積液。"
+  ],
+  "management": "",
+  "name": "VEGF Inhibitor — Thoracic Complications",
+  "nameZh": "抗血管新生藥物胸腔併發症",
+  "slug": "vegf-inhibitor-thoracic-complications",
+  "subspecialty": "CH"
+}

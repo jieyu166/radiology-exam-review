@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**頸神經根皮節定位分水嶺：拇指痛/感覺異常 → C6；中指 → C7；小指 → C8。頸椎多為 C6–7 椎間盤突出壓迫 C7、C5–6 突出壓迫 C6（出口神經根規則），是對照 MRI 壓迫節段與臨床皮節的判讀基礎。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27175952/"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1155/2020/9719813"
+    }
+  ],
+  "imagingFindings": "- **MRI 判讀對照**：頸椎斜矢狀/軸位評估神經孔與 disc-osteophyte 壓迫，須將壓迫節段回推至臨床皮節（拇指症狀 → 查 C5–6 層次壓 C6 之神經孔）。\n- **臨床-影像不符時**：MRI 陰性但臨床明確之神經根病可加做電生理（NCS/EMG）；物理檢查異常對 MRI 神經根壓迫有統計相關，惟與 NCS 不必然一致。\n- **陷阱**：thumb＝C6，**非** C5 或 C7；勿將上臂外側（C5）或中指（C7）混為拇指皮節。",
+  "keyPoints": [
+    "頸神經根皮節對應是連結臨床症狀與 MRI 壓迫節段的橋樑；影像所見的壓迫節段須與皮節/肌節分布相符。",
+    "皮節對應：C5＝上臂外側（deltoid area）、**C6＝拇指＋前臂橈側**、C7＝中指、C8＝小指＋前臂尺側、T1＝前臂內側。",
+    "頸椎因存在 C8 神經根，出口神經根規則為「該節椎間盤突出壓迫下位編號神經根」：C5–6 disc 壓 C6、C6–7 disc 壓 C7。",
+    "反射：C6＝brachioradialis、C7＝triceps；肌力：C6＝腕伸肌/二頭肌、C7＝三頭肌/腕屈肌。"
+  ],
+  "management": "1. 頸神經根病最常見於 50–54 歲，多源於頸椎退化性病變。\n2. 最常見理學徵象為頸部活動誘發疼痛與肌肉痙攣；三頭肌深部肌腱反射減弱為常見神經學表現。\n3. Spurling test、shoulder abduction test、upper limb tension test 可協助確診。\n4. 若無外傷、紅旗徵象或症狀持續，影像非必需；多數病例會自行緩解。\n5. 症狀持續 4–6 週或有紅旗徵象者，MRI 可找出可施打硬膜外類固醇或手術之病灶。\n\n> [!note] 考點：病患因神經受壓出現拇指疼痛，最可能為哪一條神經根？\n> **C6。** 拇指與前臂橈側對應 C6 皮節（C5＝上臂外側、C7＝中指、C8＝小指）。臨床上拇指症狀常反映 C5–6 節段壓迫 C6 神經根。",
+  "name": "Cervical Nerve Root Dermatome",
+  "nameZh": "頸神經根皮節",
+  "slug": "cervical-nerve-root-dermatome",
+  "subspecialty": "NR"
+}

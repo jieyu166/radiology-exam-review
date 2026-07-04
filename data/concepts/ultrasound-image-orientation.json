@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**超音波影像方向：探頭 marker 永遠對應螢幕左側；縱切時 marker 朝頭 → 螢幕左＝cranial；螢幕頂＝靠探頭（淺）、底＝深。** 記憶鉤：「marker 在哪，螢幕左邊就跟著去」；縱切 marker 朝頭，所以螢幕左邊是頭那側（cranial）。判讀分水嶺：**縱切 marker 朝頭 → 螢幕左＝cranial、右＝caudal；橫切 marker 朝病人右側 → 螢幕左＝病人右側（同 CT/X 光慣例）；深度軸：頂淺底深**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**指標—螢幕對應**：探頭上的 orientation marker 對應顯示於**螢幕左側**。",
+    "**縱切（longitudinal）**：marker 朝**病人頭側（cephalad）** → **螢幕左側＝cranial（頭側）、右側＝caudal（足側）**。",
+    "**橫切（transverse）**：marker 朝病人右側 → 螢幕左側＝病人右側（如同看 CT/X 光的慣例）。",
+    "**深度**：螢幕**頂端靠近探頭（淺層）**、底端為深層。"
+  ],
+  "management": "",
+  "name": "Ultrasound Image Orientation Convention",
+  "nameZh": "超音波影像方向",
+  "slug": "ultrasound-image-orientation",
+  "subspecialty": "US"
+}

@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**DISH 的骨化像融化的蠟燭油沿前縱韌帶流注（≥4 連續椎節），但椎間盤高度維持、小面關節與薦髂關節全身而退。** 關鍵鑑別 AS：AS 是細的 syndesmophyte（竹節脊椎）＋薦髂關節早期受累；DISH 是粗的流注狀骨贅＋薦髂正常＋無 facet ankylosis。記憶鉤：**「DISH 不進關節，AS 不離關節」**。",
+  "differentialDiagnosis": [
+    "**vs 僵直性脊椎炎（AS）**：AS 為**細的垂直 syndesmophyte（bamboo spine）＋早期侵蝕性 sacroiliitis ＋骨質疏鬆**；DISH 為**粗的流注狀骨贅＋SIJ 正常＋無 facet ankylosis**。記憶鉤：「**DISH 不進關節，AS 不離關節**」。",
+    "**vs 退化性脊椎病（spondylosis）**：spondylosis 有**椎間盤高度狹窄＋水平方向的牽引性骨刺（horizontal osteophyte）**；DISH 椎間盤高度保留、骨化呈垂直流注狀。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3390/diagnostics13030563",
+      "url": "https://doi.org/10.3390/diagnostics13030563"
+    },
+    {
+      "label": "10.3389/fsurg.2022.963399",
+      "url": "https://doi.org/10.3389/fsurg.2022.963399"
+    }
+  ],
+  "imagingFindings": "- DISH 為脊椎前縱韌帶（ALL）非邊緣性骨化堆積，影像呈**流注狀（flowing）／「蠟燭油滴落（dripping candle wax）」**的塊狀橋接骨贅，沿椎體前面層層增生。\n- **三項診斷準則須同時滿足**：\n  1. **≥4 個連續胸椎節**的流注狀前外側骨化。\n  2. **椎間盤高度相對保留**，無顯著椎間盤退化變化（用以排除 spondylosis）。\n  3. **無 apophyseal（facet）／costovertebral 關節 ankylosis，且薦髂關節（SIJ）無 erosion／sclerosis／bony fusion**（用以排除 AS 等脊椎關節病）。\n- **好發部位**：胸椎最明顯，且典型**集中於右側**——左側因**降主動脈的搏動抑制新骨形成**而相對倖免（此左側倖免在主動脈右位等變異者會反向至對側，可佐證機轉）；腰椎則左右較對稱。\n- 補充：Utsinger 修訂版放寬為連續 3 椎節並納入骨盆 enthesophytes，利於早期診斷。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Diffuse Idiopathic Skeletal Hyperostosis (DISH)",
+  "nameZh": "瀰漫性特發性骨骼增生",
+  "slug": "dish",
+  "subspecialty": "MSK"
+}

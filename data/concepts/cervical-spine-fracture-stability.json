@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**四個頸椎骨折中，只有Clay-shoveler骨折是穩定的——它只是下頸椎棘突的孤立骨折，不涉及韌帶複合體或椎體結構破壞；淚滴骨折、Hangman骨折、Jefferson骨折皆為不穩定骨折。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Clay-shoveler骨折（穩定）**：下頸椎(常C6-C7)棘突之孤立骨折(避震性骨折，因突然過度屈曲致棘突韌帶附著處撕裂骨折)，不涉及脊椎穩定結構，屬**穩定骨折**。",
+    "**屈曲型淚滴骨折(flexion teardrop fracture，不穩定)**：反映廣泛韌帶損傷，提示脊椎不穩定；常合併脊髓損傷，尤其前脊髓症候群(anterior cervical cord syndrome)與四肢癱瘓。須與伸展型淚滴骨折(extension teardrop fracture)區分——後者好發於頸椎較高節段，屬較輕微之損傷。",
+    "**Hangman骨折（不穩定）**：即創傷性樞椎脫位(traumatic spondylolisthesis of the axis)，為雙側C2椎弓根(pars interarticularis)骨折，因過度伸展合併牽張力所致。",
+    "**Jefferson骨折（不穩定）**：C1爆裂性骨折(burst fracture)，原始描述為前後弓雙處骨折之四部分骨折，亦可見三部分或二部分變異型。"
+  ],
+  "management": "",
+  "name": "Cervical Spine Fracture Stability",
+  "nameZh": "頸椎骨折穩定性",
+  "slug": "cervical-spine-fracture-stability",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**多數纖維化型間質性肺病（UIP、NSIP、DIP）典型呈「下肺葉 + 周邊（basilar peripheral）」優勢分布；慢性/纖維化型過敏性肺炎（chronic/fibrotic HP）是重要例外，呈「上-中肺（upper-mid）」優勢、甚至可 spare lower lobes——此為區辨慢性 HP 與其他纖維化 ILD 的關鍵線索。** 判讀分水嶺：**下肺基底+周邊＝UIP/NSIP/DIP；上-中肺 + mosaic/air-trapping/headcheese＝慢性 HP。再用「subpleural」細分：UIP 侵犯緊鄰胸膜下、NSIP 則 spare immediate subpleural。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **上 vs 下**：下肺基底周邊 → UIP/NSIP/DIP；上-中肺 → 慢性 HP（另 sarcoidosis、silicosis 亦上肺纖維化）。\n- **subpleural 線索**：**UIP 侵犯緊鄰胸膜下**（+ 蜂窩）；**NSIP spare immediate subpleural**——是兩者關鍵區分。\n- **慢性 HP 附屬徵象**：**mosaic attenuation、expiratory air-trapping、3-density（headcheese）sign**、ill-defined 中央小葉結節——配合上-中肺分布高度提示 HP。\n- **craniocaudal gradient**：NSIP/UIP 為 apicobasal（下肺重）；HP 可無此梯度或反而 spare 下肺。\n- **陷阱**：慢性 HP 可呈 UIP-like 蜂窩而誤為 IPF——此時「上-中肺分布 + air-trapping/headcheese」是翻案線索。",
+  "keyPoints": [
+    "**下肺基底 + 周邊優勢（basilar peripheral）**：**UIP、NSIP、DIP** 皆典型此分布。",
+    "**UIP**：**胸膜下 + 基底**，蜂窩 + 網狀 ± 牽引性支氣管擴張；**侵犯緊鄰胸膜下**。",
+    "**NSIP**：**下肺為主、apicobasal gradient**，GGO + 網狀 + 牽引性支氣管擴張，**典型 subpleural sparing（保留緊鄰胸膜下）**。",
+    "**DIP**：下肺/周邊為主之 GGO（吸菸相關）。",
+    "**例外——上-中肺優勢**：**慢性/纖維化型 HP** 典型呈 **upper 與 midlung** peribronchovascular/周邊粗網狀，纖維化可 **random（軸向與頭尾向）、midlung predominant 或 spare lower lobes**。",
+    "**鑑別價值**：分布（上/下）＋ subpleural（侵犯 vs spare）＋ 附屬徵象（mosaic/air-trapping/headcheese）共同鎖定病因。"
+  ],
+  "management": "1. **大原則**：纖維化 ILD 多下肺基底周邊；慢性 HP 上-中肺為例外。\n2. **UIP vs NSIP**：subpleural 侵犯（UIP）vs subpleural sparing（NSIP）是床邊快速區分。\n3. **HP 三徵**：mosaic/air-trapping/headcheese + 上中肺分布 → 慢性 HP。\n4. **抽絲剝繭**：分布 + subpleural + 附屬徵象三軸並用，避免只看單一特徵。\n5. **臨床整合**：影像型態需配合暴露史（HP）、吸菸（DIP）、CTD 血清學等定因。\n\n> [!note] 考點：何種疾病之肺部侵犯「非」下肺葉周邊優勢分布？\n> **慢性過敏性肺炎（Chronic hypersensitivity pneumonitis，D）**——典型呈上-中肺優勢（可 spare lower lobes）。NSIP、DIP、UIP 皆典型下肺葉周邊優勢分布。",
+  "name": "Interstitial Lung Disease — Distribution Patterns",
+  "nameZh": "間質性肺病分布型態",
+  "slug": "ild-distribution-patterns",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**陰囊急症的解剖與影像要點：附睪尾（epididymal tail）位於附睪頭（head）尾側/下方，附睪炎多從尾部開始向頭部蔓延；Fournier壞疽並非男性專屬（女性/會陰亦可）；陰囊外傷首選是超音波（非MRI）；bell-clapper deformity（鐘擺畸形）反而是睪丸扭轉的危險因子（睪丸活動度增加），不是保護因子。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**附睪解剖與附睪炎（本題正解）**：**附睪尾（tail）位於附睪頭（head）之尾側（caudal）**；附睪炎常**由附睪尾開始、較頭部早受累**（感染多經輸精管上行至尾部）。",
+    "**Fournier gangrene**：會陰/生殖器壞死性筋膜炎，**非男性專屬**——女性、會陰、肛周亦可發生；「only in male」為錯誤。",
+    "**陰囊外傷首選影像**：**超音波（含彩色都卜勒）為初步評估首選**（非MRI）；MRI為超音波不確定時之次線。",
+    "**Bell-clapper deformity**：睪丸與精索之異常高位包覆使睪丸活動度增加，為**睪丸扭轉之危險因子**（非「不會發生扭轉」）；見 [[testicular-torsion]]。"
+  ],
+  "management": "",
+  "name": "Scrotal Emergencies (Torsion, Epididymitis, Fournier)",
+  "nameZh": "陰囊急症",
+  "slug": "scrotal-emergencies",
+  "subspecialty": "GU"
+}

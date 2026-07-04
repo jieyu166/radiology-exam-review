@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**兒童運動員的上肢傷害好發與尚未閉合的軟骨性骨骺（physes）及骨突（apophyses）有關。體操選手手腕（gymnast's wrist）是因手腕反覆處於「伸直（extension）」姿勢下、遠端橈骨骨骺板受到反覆壓迫性創傷所致——「屈曲（flexion）」為錯誤敘述，這是本題最常考的陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2016160036（2018",
+      "url": "https://doi.org/10.1148/rg.2016160036（2018"
+    }
+  ],
+  "imagingFindings": "- **相關兒童上肢過度使用性損傷譜系**（供鑑別參考）：little leaguer's elbow（內側上髁撕脫/骨突炎）、屈肌-旋前肌群損傷、鷹嘴應力性骨折、肱骨小頭骨軟骨炎（OCD of capitellum）、鷹嘴後方撞擊、尺側副韌帶損傷、尺神經炎、外翻伸直過負荷症候群（valgus extension overload syndrome）——皆與投擲/過頭運動之反覆應力相關。",
+  "keyPoints": [
+    "**兒童運動員傷害共通基礎**：與尚未骨化的軟骨性骨骺（physes）與骨突（apophyses）有關，這些構造是骨骼生長所必需，也是兒童特有的損傷弱點（成人已骨化，故無此類傷害型態）。",
+    "**Little league's shoulder（少棒肩）**：為過度使用性損傷（近端肱骨骨骺板受反覆旋轉扭力），常見於**11–16 歲**的棒球投手。",
+    "**Gymnast's wrist（體操選手手腕）**：因反覆創傷發生於手腕處於「**伸直（extension）**」姿勢時，壓迫遠端橈骨骨骺板所致——非「屈曲（flexion）」，此為本題錯誤選項所在。"
+  ],
+  "management": "",
+  "name": "Pediatric Athlete Upper Extremity Overuse Injuries",
+  "nameZh": "兒童運動員上肢傷害",
+  "slug": "pediatric-athlete-upper-extremity-injury",
+  "subspecialty": "MSK"
+}

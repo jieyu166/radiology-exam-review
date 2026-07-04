@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**快速進展性失智（RPD）病因廣泛，包括 prion disease（CJD）、感染（HIV dementia）、自體免疫/發炎（Hashimoto encephalopathy）、代謝、腫瘤旁等。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Prion disease**：CJD 最典型 RPD，cortical ribboning on DWI",
+    "**Infectious**：HIV-associated dementia、PML",
+    "**Autoimmune/inflammatory**：Hashimoto encephalopathy、autoimmune encephalitis (anti-NMDAR)、neurosarcoidosis",
+    "**其他**：paraneoplastic、toxic-metabolic、vascular"
+  ],
+  "management": "",
+  "name": "Rapidly Progressive Dementia",
+  "nameZh": "快速進展性失智",
+  "slug": "rapidly-progressive-dementia",
+  "subspecialty": "NR"
+}

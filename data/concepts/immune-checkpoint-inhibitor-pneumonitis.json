@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**免疫檢查點抑制劑肺炎治療成功後，約三分之一病人「可以」重新使用免疫檢查點抑制劑——但其中25-28%會於再治療期間復發肺炎，這是本題判讀關鍵（並非「絕對不能」重新使用）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2017170015（2018",
+      "url": "https://doi.org/10.1148/rg.2017170015（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**irAE本質**：為免疫檢查點抑制劑治療特有的一組獨特併發症(unique set of complications)。",
+    "**ICI相關肺炎(pneumonitis)**：呈現廣泛之臨床與影像表現光譜(wide spectrum)，其影像型態反映疾病嚴重度。",
+    "**類肉瘤病樣肉芽腫及淋巴結病(sarcoid-like granulomatosis and lymphadenopathy)**：為另一項重要之胸腔irAE。",
+    "**治療**：暫停免疫檢查點抑制劑並給予類固醇治療(corticosteroid therapy)。",
+    "**重新使用ICI之可行性**：現有數據顯示**約三分之一(one-third)病人**於肺炎成功治療後**可以重新使用**免疫檢查點抑制劑（並非絕對禁止，此為常見誤判方向）；惟其中**25-28%**於再治療期間會經歷**復發性肺炎(recurrent pneumonitis)**。"
+  ],
+  "management": "",
+  "name": "Immune Checkpoint Inhibitor–Related Pneumonitis & irAEs",
+  "nameZh": "免疫相關不良事件",
+  "slug": "immune-checkpoint-inhibitor-pneumonitis",
+  "subspecialty": "CH"
+}

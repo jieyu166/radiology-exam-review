@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**月狀骨脫位破壞的是Arc II（近排腕骨遠端凸面弧線）——這條弧線描繪舟狀骨、月狀骨、三角骨的遠端凸面輪廓，月狀骨脫位時此弧線的連續性首當其衝被打斷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腕骨弧線(Gilula's arcs)分類**：Arc I（近排腕骨近端凸面）、Arc II（近排腕骨遠端凸面）、Arc III（頭狀骨與鉤狀骨近端凸面）。",
+    "**月狀骨脫位(lunate dislocation)之弧線破壞**：破壞**Arc II**（近排腕骨遠端凸面弧線）之連續性。"
+  ],
+  "management": "",
+  "name": "Carpal Arcs (Gilula Lines) & Lunate Dislocation",
+  "nameZh": "腕骨弧線",
+  "slug": "carpal-arcs-lunate-dislocation",
+  "subspecialty": "MSK"
+}

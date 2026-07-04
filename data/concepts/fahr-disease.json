@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Fahr disease = 雙側對稱基底核鈣化。鈣化在 T1WI 上通常為高訊號。臨床症狀多在 30-60 歲發病。有報告指出存在 infantile form（雖罕見）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**雙側對稱基底核鈣化（bilateral symmetric basal ganglia calcifications）**。",
+    "鈣化在 **T1WI 上通常為高訊號（hyperintense）**。",
+    "臨床症狀發病年齡通常 **30-60 歲**。",
+    "**存在 infantile form**（有 case reports），\"no infantile form\" 為錯誤敘述。"
+  ],
+  "management": "",
+  "name": "Fahr Disease",
+  "nameZh": "法爾氏病",
+  "slug": "fahr-disease",
+  "subspecialty": "NR"
+}

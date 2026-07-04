@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**AJCC 第八版頭頸癌兩大分水嶺：(1) p16/HPV 陽性口咽癌（OPC）獨立出全新 TNM 分期（且其 cN 以「單側 vs 雙側、≤6cm、環狀軟骨下緣為界」分級，不看 ENE）；(2) 非 HPV 相關頭頸癌的淋巴結 extranodal extension（ENE）納入並上調 N 分期。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.anl.2017.07.010"
+    }
+  ],
+  "imagingFindings": "- **p16+ OPC 臨床 cN 判讀（AJCC 8th，考點）**：cN1＝**同側**淋巴結 ≤6cm 且位於環狀軟骨下緣以上；**cN2＝雙側（bilateral）**淋巴結 ≤6cm 且於環狀軟骨下緣以上；cN3＝>6cm 或延伸至環狀軟骨下緣以下。\n- **影像須明確報告**：受侵淋巴結之側性（單/雙側）、最大徑（6cm 閾值）、以及是否延伸至環狀軟骨下緣以下——三者決定 p16+ OPC 的 N 分級。\n- **HPV+ OPC 影像特徵**：常見囊性化淋巴結（cystic nodal metastasis），原發灶可小而隱匿（扁桃體/舌根隱窩），勿因原發灶不明顯而低估分期。\n- **ENE 陷阱**：影像上淋巴結被膜外侵犯（模糊邊緣、脂肪浸潤、周邊結構侵犯）在**非 HPV 相關**頭頸癌會上調 N 分期；但 **p16+ OPC 的臨床分期不看 ENE**，兩系統勿混用。",
+  "keyPoints": [
+    "據第八版，**p16 陽性 OPC 具獨立的 TNM 分期系統**，與非 HPV 相關頭頸癌分開，反映其較佳預後。",
+    "p16+ OPC 的**臨床 N 分期（cN）**依側性與大小分級（環狀軟骨下緣為關鍵界標），且**不納入 ENE**。",
+    "非 HPV 相關頭頸鱗癌（如口腔癌）之淋巴結 **extranodal extension（ENE）納入 N 分期並上調分級**。",
+    "p16+ OPC 之病理 N（pN）另有不同準則（依陽性淋巴結數目），與 cN 不同，須區分臨床/病理分期。"
+  ],
+  "management": "1. HPV 相關 OPC 病人相對年輕、社經地位較高、吸菸較少，且多為非角化型鱗狀細胞癌。\n2. HPV+ OPC 初診時常已有區域淋巴結轉移，但整體預後仍優於 HPV 陰性者，故需獨立分期。\n3. p16 免疫組化為臨床判定 HPV 狀態之代用標記，決定病人走 p16+ 或 p16− 分期系統。\n4. 考題所依版本為 AJCC 第八版；若題幹或臨床沿用第七版，分期界值不同須註明版本。\n5. p16+ OPC 之 T 分期取消原位癌/Tis 並整併，須以第八版準則判讀。\n\n> [!note] 考點一：AJCC 第八版頭頸癌分期有哪些重大改變？\n> 主要為 **(2) p16 陽性 OPC 有獨立 TNM 分期** 與 **(3) extranodal extension（ENE）影響 N 分期**（正解 2,3）。\n\n> [!note] 考點二：p16+ OPC 之 cN2 為何種狀態？\n> **雙側（bilateral）**頸部淋巴結 ≤6cm 且位於環狀軟骨下緣以上 → cN2。（同側 ≤6cm 為 cN1；>6cm 或延伸至環狀軟骨下緣以下為 cN3。）",
+  "name": "AJCC 8th Edition Head & Neck Staging",
+  "nameZh": "頭頸癌分期第八版",
+  "slug": "ajcc-head-neck-8th",
+  "subspecialty": "HN"
+}

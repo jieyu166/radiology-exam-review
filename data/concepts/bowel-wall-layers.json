@@ -1,0 +1,48 @@
+{
+  "checked": false,
+  "definition": "**腸壁超音波五層是「高-低-高-低-高」交替，記憶鉤：「亮-暗-亮-暗-亮」，高回音的三層是黏膜表面、黏膜下層（最厚）、漿膜。** 最常考的錯誤：第二個「高回音」層是 **submucosa（黏膜下層）**，不是 muscularis mucosa——muscularis mucosa 是低回音。由內而外順序：superficial mucosa（高）→ muscularis mucosa（低）→ submucosa（高，最厚）→ muscularis propria（低）→ serosa（高）。臨床判讀：gut signature 五層保留傾向良性發炎，層次破壞傾向惡性浸潤。",
+  "differentialDiagnosis": [
+    "**Water halo / target / double halo sign（分層強化、stratified）**：增厚壁呈 2–3 層對稱同心圓，內層（mucosa）＋外層（serosa/muscularis）強化、中間 submucosa 因**水腫呈低衰減環**。多見於**良性／發炎、缺血再灌流、感染、放射性腸炎**；對稱、長節段者更偏良性。",
+    "**White pattern（高強化、whole-wall）**：整層腸壁**均勻強烈強化**。見於**特發性 IBD（活動期）與血管／充血性病變**；提示急性發炎活動。",
+    "**Gray / homogeneous pattern（均質、強化有限）**：增厚壁強化平淡、衰減與強化後肌肉相當。**最不具特異性**，需區分良惡性；**均質且強化平淡可見於腫瘤（尤其小而界清者）與某些缺血**。",
+    "**Fat halo sign（脂肪暈）**：三層 target，**中層 submucosa 呈脂肪衰減（負 HU）**。代表**慢性腸道病變的 submucosal 脂肪沉積**，UC 較 Crohn 常見（一系列 UC 61% vs Crohn 8%）；但**亦可見於無腸道疾病者**（尤其迴盲部、肥胖／類固醇），單獨出現非病理特異。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.351140003",
+      "url": "https://doi.org/10.1148/rg.351140003"
+    },
+    {
+      "label": "10.1148/radiographics.22.5.g02se201093",
+      "url": "https://doi.org/10.1148/radiographics.22.5.g02se201093"
+    },
+    {
+      "label": "10.2214/ajr.176.5.1761105",
+      "url": "https://doi.org/10.2214/ajr.176.5.1761105"
+    },
+    {
+      "label": "10.2214/ajr.181.3.1810781——脂肪暈亦見於無腸道疾病者（迴盲部、肥胖、類固醇",
+      "url": "https://doi.org/10.2214/ajr.181.3.1810781——脂肪暈亦見於無腸道疾病者（迴盲部、肥胖、類固醇"
+    },
+    {
+      "label": "10.2214/AJR.06.0712",
+      "url": "https://doi.org/10.2214/AJR.06.0712"
+    },
+    {
+      "label": "10.2214/ajr.177.6.1771319",
+      "url": "https://doi.org/10.2214/ajr.177.6.1771319"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**五層（內→外）**：",
+    "**題目對錯**：A「內層高回音＝superficial mucosa」對；**B「第二高回音層是 muscularis mucosa」錯——應為 submucosa**（muscularis mucosa 是低回音）＝題目正解（2016-104 正解 B）；C「muscularis propria 低回音」對；D「最外高回音層是 serosa」對。",
+    "**組織學對應**：高回音層＝脂肪／膠原（submucosa、serosa）與**管腔–黏膜介面**；低回音層＝平滑肌（muscularis mucosa、muscularis propria）。最內高回音層**嚴格說是 gut 管腔與黏膜之介面回音**，muscularis mucosa 通常很薄、不一定可見。",
+    "**臨床用**：gut signature **保留**＋長節段受累→偏良性（如發炎）；**破壞**＋短節段→偏惡性浸潤。"
+  ],
+  "management": "",
+  "name": "Bowel Wall Layers on US (Gut Signature)",
+  "nameZh": "腸壁分層",
+  "slug": "bowel-wall-layers",
+  "subspecialty": "US"
+}

@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**第二鰓裂囊腫(2nd branchial cleft cyst)好發於兒童/年輕成人的下頷角(angle of mandible)無痛性頸部腫塊，典型影像特徵是「beak sign」——囊腫的一個組織尖端(beak)指向內外頸動脈分岔之間(between internal and external carotid arteries)，此為高度特異性的解剖定位徵象。** 判讀分水嶺：**第二鰓裂囊腫佔所有鰓裂異常的90%以上，最常見於胸鎖乳突肌前緣、下頷角附近;beak sign之尖端指向頸動脈間隙為關鍵鑑別點，與carotid body tumor（使頸動脈分岔外擴、富血管實質腫塊）或cystic hygroma（多房、常跨頸部多區域）不同。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發族群與位置**：好發於兒童/年輕成人**下頷角**附近的**無痛性(painless)**頸部腫塊。",
+    "**超音波表現**：**囊性病灶伴內部debris**（因反覆感染或內容物混濁）。",
+    "**CT關鍵徵象（beak sign）**：囊腫組織尖端(beak of tissue)**指向內外頸動脈分岔之間**——此為第二鰓裂囊腫高度特異的解剖定位徵象。",
+    "**鑑別診斷**：",
+    "**Carotid body tumor**：富血管實質性腫塊，使頸動脈分岔**外擴（splaying）**，非單純囊性伴beak sign。",
+    "**Cystic hygroma（lymphatic malformation）**：多房性、常跨越頸部多個間隙，非侷限單一beak sign定位。",
+    "**Abscess/lymphadenopathy**：臨床常伴疼痛、發炎徵象，與無痛性長期腫塊不同。"
+  ],
+  "management": "",
+  "name": "Second Branchial Cleft Cyst",
+  "nameZh": "鰓裂囊腫",
+  "slug": "branchial-cleft-cyst",
+  "subspecialty": "H&N"
+}

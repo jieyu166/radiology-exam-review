@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**記憶口訣「Primary＝Pancreas、Secondary＝Spleen」：原發性血鐵沉積症早期鐵沉積於肝臟（胰臟亦可受累），脾臟通常不受影響；續發性（輸血相關）血鐵沉積症則肝臟與脾臟皆受網狀內皮系統鐵沉積影響，兩者於T2皆呈低訊號。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**早期原發性血鐵沉積症(primary hemochromatosis)**：**肝臟呈T2低訊號**（鐵沉積於肝細胞），**脾臟通常不受影響**（不因原發性血鐵沉積症本身而低訊號）。",
+    "**續發性血鐵沉積症(secondary hemochromatosis，如反覆輸血相關)**：鐵沉積於網狀內皮系統(reticuloendothelial system)，**肝臟與脾臟皆呈T2低訊號**。",
+    "**記憶口訣**：「Primary＝Pancreas（胰臟可受累）、Secondary＝Spleen（脾臟受累）」。"
+  ],
+  "management": "",
+  "name": "Hemochromatosis — Primary vs Secondary (MRI T2)",
+  "nameZh": "血鐵沉積症",
+  "slug": "hemochromatosis-mri",
+  "subspecialty": "ABD"
+}

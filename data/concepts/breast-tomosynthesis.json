@@ -1,0 +1,13 @@
+{
+  "checked": false,
+  "definition": "**DBT 用薄切片打散組織疊影，讓結構扭曲與腫塊更清晰——但這把「鈣化分散到每一層」，反而更難評估其形態與分布，微鈣化判讀仍靠 2D/放大攝影。** 強項：architectural distortion、asymmetry 辨識定位、篩檢 recall 降低約 40%；限制：微鈣化 morphology/distribution 不優於 2D。記憶鉤：**「DBT 切薄吃掉重疊，卻也把鈣化切散——切薄是雙面刃」**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Digital Breast Tomosynthesis (DBT)",
+  "nameZh": "數位乳房斷層",
+  "slug": "breast-tomosynthesis",
+  "subspecialty": "Breast"
+}

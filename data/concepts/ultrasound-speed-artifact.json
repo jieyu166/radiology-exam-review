@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**機器永遠假設聲速 1540 m/s，若組織實際較慢（如脂肪），回波晚到→誤判更深；若較快則誤判較淺。** 記憶鉤：「慢→晚回→被認為更深」；脂肪聲速約 1450 m/s，比假設慢，所以脂肪後方的結構在影像上會被向深方錯位。判讀分水嶺一：**深度 = 1540 × 飛行時間 ÷ 2（固定公式）；實際快慢決定回波早晚，進而決定位移方向**；判讀分水嶺二：**較慢 → 置於較深（deeper）、較快 → 置於較淺（shallower）；屬軸向（深度軸）位移，非側向**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.294085199",
+      "url": "https://doi.org/10.1148/rg.294085199"
+    },
+    {
+      "label": "10.1148/rg.2017160175",
+      "url": "https://doi.org/10.1148/rg.2017160175"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "機器以**固定 1540 m/s**（軟組織平均聲速）× 來回時間 ÷ 2 計算深度，不論實際組織。",
+    "**實際聲速 < 1540（較慢，如脂肪）**：回波延遲返回 → 機器判為**更深** → 回波置於**真實位置的深部**。",
+    "實際聲速 > 1540（較快）則相反，置於較淺處。",
+    "表現：影像中結構出現**局部不連續/錯位**（focal discontinuity & displacement）。",
+    "此為**軸向（深度方向）位移**，非側向；故不會把回波擺到「外側」。"
+  ],
+  "management": "",
+  "name": "Speed Displacement (Propagation Velocity) Artifact",
+  "nameZh": "傳播速度假影",
+  "slug": "ultrasound-speed-artifact",
+  "subspecialty": "US"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**乳房血管鈣化呈 dense, linear, parallel（tram track）型態；部分動脈壁鈣化或累及小血管時「可能」模擬 DCIS 鈣化，為判讀分水嶺。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "型態：dense, linear, parallel \"tram track-like\" calcification",
+    "好發：停經後女性；年輕女性見到應考慮 DM、CKD",
+    "部分可逆",
+    "**陷阱**：部分壁鈣化或小血管可模擬 DCIS 鈣化"
+  ],
+  "management": "",
+  "name": "Vascular Calcification (Breast)",
+  "nameZh": "乳房血管鈣化",
+  "slug": "vascular-calcification-breast",
+  "subspecialty": "Breast"
+}

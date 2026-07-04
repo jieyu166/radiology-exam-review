@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**Kearns-Sayre症候群是粒線體疾病，不是溶酶體儲積症——這是本主題最常見的分類混淆陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**溶酶體儲積症**：黏多醣症(mucopolysaccharidoses)、異染性腦白質失養症(metachromatic leukodystrophy)、Krabbe氏病、Gaucher disease、Niemann-Pick disease、Fabry disease等，皆屬溶酶體儲積症。",
+    "**Kearns-Sayre症候群為粒線體疾病**：非溶酶體儲積症；粒線體疾病影響範圍較侷限，僅在特定組織(多為肌肉、中樞神經系統)發現粒線體基因缺失，臨床最常見表現為外眼肌麻痺(ophthalmoplegia)及眼底色素性視網膜病變。"
+  ],
+  "management": "",
+  "name": "Lysosomal Storage Disorders — CNS",
+  "nameZh": "溶酶體儲積症",
+  "slug": "lysosomal-storage-disorders-cns",
+  "subspecialty": "NR"
+}

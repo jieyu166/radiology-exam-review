@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**心臟類澱粉沉積典型MRI表現是延遲強化型態（心內膜下或透壁性）與心室壁增厚，「心室壁運動不能」不是其典型特徵描述。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**延遲強化（LGE）型態**：可呈**透壁性（transmural）**或**心內膜下（subendocardial）**延遲強化，兩者皆為文獻記載之典型表現。",
+    "**室壁增厚（ventricular wall thickening）**：類澱粉蛋白沉積於心肌間質，造成心室壁**增厚**，為典型表現之一。",
+    "**室壁運動不能（ventricular wall akinesia）**：**非**典型描述特徵——心臟類澱粉沉積早期心肌收縮力多仍保留（僅舒張功能受損為主），室壁運動不能並非用於描述本病之典型影像表現。"
+  ],
+  "management": "",
+  "name": "Cardiac Amyloidosis — MRI Manifestations",
+  "nameZh": "心臟類澱粉沉積",
+  "slug": "cardiac-amyloidosis",
+  "subspecialty": "CV"
+}

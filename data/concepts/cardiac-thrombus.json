@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**心臟血栓的形態不是「全都圓形或卵圓形」——鄰近梗塞或異常心肌壁節段的附壁血栓常呈『新月形(crescent-shape)』。這是本題陷阱。心臟血栓是最常見的心臟內腫塊，約佔15%缺血性中風的來源，人工裝置(如節律器導線)為重要危險因子。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見心臟內腫塊**：cardiac thrombus為**最常見之心臟內腫塊(most common intracardiac mass)**。",
+    "**缺血性中風來源**：約**15%**缺血性中風源自心臟血栓(心源性栓塞)。",
+    "**危險因子**：**人工裝置（如pacemaker導線、人工瓣膜、導管）為重要危險因子**；另有心房顫動、左心室功能低下/室壁瘤、梗塞後室壁運動異常。",
+    "**形態（本題重點）**：**鄰近梗塞或異常心肌壁節段之附壁血栓常呈『新月形(crescent-shape)』**，並非所有心臟血栓皆為圓形/卵圓形——故「all cardiac thrombi are round or oval」為**錯誤**。",
+    "**影像表現**：新形成血栓呈均質回音、邊緣不規則、可獨立移動；慢性血栓多不動、可鈣化。左心耳(LAA)、左心房、左心室(室壁瘤/梗塞區)為好發位置。"
+  ],
+  "management": "",
+  "name": "Cardiac Thrombus (Imaging)",
+  "nameZh": "心臟血栓",
+  "slug": "cardiac-thrombus",
+  "subspecialty": "CV"
+}

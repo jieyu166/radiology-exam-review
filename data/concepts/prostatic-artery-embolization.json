@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**PAE 治療 BPH 的預後良好因子包括：術後24小時 CRP 升高、PSA 升高（代表缺血壞死程度大）、較大攝護腺體積、雙側栓塞。Unilateral embolization 效果不如 bilateral。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Bilateral embolization** 效果優於 unilateral",
+    "術後 24h CRP 升高 = 良好 ischemic response",
+    "術後 24h PSA 升高 = 攝護腺壞死充分",
+    "較大攝護腺（中央腺體/腺瘤體積大）= 症狀改善更明顯"
+  ],
+  "management": "",
+  "name": "Prostatic Artery Embolization (PAE)",
+  "nameZh": "攝護腺動脈栓塞",
+  "slug": "prostatic-artery-embolization",
+  "subspecialty": "IR"
+}

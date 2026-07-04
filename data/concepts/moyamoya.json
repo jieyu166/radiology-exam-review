@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**Moyamoya 的「煙霧」是進行性 ICA 狹窄逼出來的代償側支血管，Suzuki 六期描述的是這朵煙霧先起後滅的全過程——高峰在 Stage III，之後反而消退、由 ECA 側支接手。** 判讀分水嶺一：**Stage III＝煙霧側支最盛（maximal basal collaterals）＋ ACA/MCA 顯影缺損**，這是最常考的分期；判讀分水嶺二：**Stage IV–VI 煙霧反而減少**，切勿以為病越嚴重煙霧越多。",
+  "differentialDiagnosis": [
+    "**Moyamoya disease（原發、特發）**：無已知危險因子之健康個體出現上述血管變化。",
+    "**Moyamoya syndrome（次發、有相關病因）**：影像表現相同，但合併已知狀況——**NF1、鐮型血球病（sickle cell）、放射治療後（如視交叉腫瘤放療）、Down 症候群**（亦可見靜脈竇栓塞等其他血管異常）、自體免疫等。判讀時須結合臨床病史，影像本身無法區分原發或次發。",
+    "**相關疾病清單擴充（考題常見）**：除上述外，尚包含**Marfan syndrome、主動脈弓縮窄(coarctation of the aorta)**——惟兩者與moyamoya病的關聯性文獻報告**較不常見(infrequently reported)**，屬於相對少見但仍存在的關聯，考題常以此類選項測試「全部皆有關聯」的排除法。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3174/ajnr.A6983",
+      "url": "https://doi.org/10.3174/ajnr.A6983"
+    },
+    {
+      "label": "10.5152/eurasianjmed.2015.14142",
+      "url": "https://doi.org/10.5152/eurasianjmed.2015.14142"
+    }
+  ],
+  "imagingFindings": "- **診斷標準（DSA 為 gold standard）**：雙側（moyamoya disease 須雙側；單側為 *probable*）**ICA 末端（terminal ICA）／ACA、MCA 近端進行性狹窄至閉塞**，加上腦基底部增生的細小側支血管網，呈典型 **「puff of smoke（煙霧／菸霧）」**——以基底節、視丘區最明顯。\n- **Suzuki 六期是 DSA 分期系統**：描述病程從 terminal ICA 狹窄 → moyamoya 側支增生（高峰 Stage III）→ 側支消退、ECA（leptomeningeal、硬腦膜、transdural）側支接手（Stage IV–VI）。\n- **MRI/MRA 徵象**：\n  - **基底節 flow voids**：T1／T2 上基底節與視丘區多發、迂曲的 **abnormal flow voids**＝擴張的 moyamoya 側支血管；於 MRA 上對應 terminal ICA 訊號缺失＋基底節異常血管網。基底節 ≥2 個 flow void 被提議作為 MRI 取代 DSA 的輔助診斷依據，惟 7T 偵測率高於 3T，**flow void 缺如不能排除診斷**。\n  - **Ivy sign（FLAIR）**：沿腦溝、腦回的軟腦膜高訊號，代表 **leptomeningeal 側支內的緩慢逆行血流**（engorged pial vessels），反映慢性低灌注；常見於 Suzuki III–IV，單側 ivy sign 與該側腦血管儲備（CVR）下降高度相關。對照增強 T1（CEMR）的 ivy 評分與 DSA 一致性優於單純 FLAIR vascular hyperintensity。血管重建（bypass）術後 ivy sign 多會在術側消退，可作療效追蹤。\n  - **T2 dilated collaterals**：T2 上基底節／視丘的點狀、線狀 flow void＝擴張側支，與 DSA 的 basal moyamoya 對應。\n- **缺血評估（perfusion）**：SPECT／PET／ASL／DSC 評估 **CBF 下降、CBV 與 OEF 代償性上升**；以 acetazolamide 或 CO₂ 激發測 **cerebrovascular reserve（CVR）**，CVR 耗竭代表「misery perfusion」、為高缺血風險與 bypass 適應症評估依據；兒童 CBF 下降、CVR 耗竭較成人顯著。\n- **合併症兩型**：兒童以**缺血型**為主（TIA、邊界帶／lacunar 梗塞，FLAIR/T2 見分水嶺白質與基底節缺血）；成人較多**出血型**（脆弱 moyamoya 側支或側支動脈瘤破裂 → 腦室內出血、基底節／視丘出血、SAH）。\n- **SWI 微出血（2019交換）**：SWI（susceptibility-weighted imaging）可偵測 moyamoya 病人之微出血（microbleeding），發生率約 **15–44%**，反映脆弱側支血管之亞臨床出血負擔。",
+  "keyPoints": [
+    "**Suzuki 六期**：",
+    "**I**：頸內動脈分叉(carotid fork)狹窄。",
+    "**II**：煙霧血管開始、主要腦動脈擴張。",
+    "**III**：**煙霧血管最盛(+++)、ACA/MCA 顯影缺損**（**maximal basal collaterals**）。",
+    "**IV**：煙霧開始減少、ECA 側支出現。",
+    "**V**：煙霧進一步減少、主要腦動脈消失。",
+    "**VI**：煙霧消失、僅靠 ECA/leptomeningeal 側支。",
+    "故「**maximal basal collaterals ＋ small ACA/MCA**」＝**Stage III**。"
+  ],
+  "management": "",
+  "name": "Moyamoya Disease (Suzuki Staging)",
+  "nameZh": "煙霧病",
+  "slug": "moyamoya",
+  "subspecialty": "NR"
+}

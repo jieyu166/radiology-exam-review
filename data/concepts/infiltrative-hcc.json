@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**Infiltrative HCC 沒有邊界清楚的腫塊——整個肝布滿微小結節，偽裝成肝硬化（cirrhotomimetic）；破案的線索通常是「門脈瘤栓讓血管膨大且像腫瘤一樣強化」。** 判讀分水嶺一：**型態＝瀰漫微小結節、無主導腫塊，邊界不清，易誤為肝硬化**；判讀分水嶺二：**惡性門脈瘤栓＝管腔擴張（expand）＋腫瘤樣 arterialization（強化型態同鄰近腫瘤）＋T2 高訊號/DWI 受限**——這組合高度提示惡性瘤栓，常為唯一診斷線索。",
+  "differentialDiagnosis": [
+    "管腔",
+    "強化",
+    "T2/DWI"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.352140114。占",
+      "url": "https://doi.org/10.1148/rg.352140114。占"
+    },
+    {
+      "label": "10.1148/rg.352140114",
+      "url": "https://doi.org/10.1148/rg.352140114"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**病理/型態**：HCC 三大生長型（nodular、massive、infiltrative）之一；占 HCC **約 7–20%**（≤約 15%）；**微小腫瘤結節散布整葉或整肝、無主導結節**、邊界不清。",
+    "**常合併門脈瘤栓（PVT）**：infiltrative HCC **常見/特徵性**地合併門脈『腫瘤』瘤栓，可為主要甚至唯一影像線索。（題目依其 RG 來源量化為「近三分之二病人」；此處直接核實者為「常見/frequent」。）",
+    "**惡性（腫瘤）瘤栓 vs 良性血栓**：惡性者**擴張（expand）門脈管腔**、**強化型態與鄰近腫瘤相同**（neovascular／arterialization）、T2 高訊號、DWI 受限。",
+    "**影像首選 MRI**（病灶細微、與肝硬化難分）；US 多為邊界不清、動脈期強化微弱且不一致、washout 不均。",
+    "**預後**：較 nodular 型差。",
+    "鑑別：瀰漫肝轉移、pseudocirrhosis、瀰漫微膿瘍、confluent fibrosis。"
+  ],
+  "management": "",
+  "name": "Infiltrative (Diffuse) Hepatocellular Carcinoma",
+  "nameZh": "浸潤型肝細胞癌",
+  "slug": "infiltrative-hcc",
+  "subspecialty": "ABD"
+}

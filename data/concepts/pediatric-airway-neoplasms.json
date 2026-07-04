@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**兒童原發氣管/支氣管腫瘤三大常見：hemangioma（聲門下）、papillomatosis（喉>>氣管支氣管）、carcinoid tumor（最常見，中央支氣管）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Hemangioma**：好發**聲門下（subglottic）**。",
+    "**Papillomatosis**：好發**喉（laryngeal）**，可延伸至氣管支氣管。",
+    "**Carcinoid tumor**：兒童最常見原發支氣管腫瘤，好發**中央支氣管（central bronchi）**。",
+    "**Mucoepidermoid tumor**：另一種兒童原發氣管支氣管腫瘤。"
+  ],
+  "management": "",
+  "name": "Pediatric Tracheal & Bronchial Neoplasms",
+  "nameZh": "兒童氣管支氣管腫瘤",
+  "slug": "pediatric-airway-neoplasms",
+  "subspecialty": "PED"
+}

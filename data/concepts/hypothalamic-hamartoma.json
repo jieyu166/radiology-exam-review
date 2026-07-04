@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**下視丘錯構瘤（HH）是非腫瘤性、先天性灰質異位（gray matter heterotopia），影像關鍵是「不強化」——注射 Gd 後 T1 無明顯強化，這是與其他會強化的下視丘/漏斗腫塊（生殖細胞瘤、顱咽管瘤、星細胞瘤、LCH）最重要的鑑別點。** 判讀分水嶺：**形態預測症狀——「大、無柄（sessile）」多致癲癇（gelastic seizure）；「小、有柄（pedunculated，collar-button）」多致中樞性性早熟。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1485——MRI",
+      "url": "https://doi.org/10.53347/rID-1485——MRI"
+    }
+  ],
+  "imagingFindings": "- **首選檢查**：MRI（癲癇 protocol）為此區病灶評估之首選；含冠狀/矢狀薄層最能顯示病灶與 tuber cinereum 的連續性。\n- **T1 訊號（來源分歧，並列）**：STATdx 稱**與灰質等訊號**；Radiopaedia 稱**約 74% 對大腦皮質呈低訊號**（「所有序列皆與皮質等訊號」的舊說法多數不成立）。\n- **T2/FLAIR**：對皮質呈**輕度高訊號**；大病灶可異質、含囊。\n- **T1 C+**：**無強化**（關鍵）。\n- **CT**：與腦實質等密度之軟組織結節，**無鈣化、無強化**；偶見鞍上鈣化、dorsum sellae 侵蝕或垂體窩擴大；軸位薄層易漏，需 volumetric + 重組。\n- **陷阱**：下視丘/鞍上腫塊若「無強化」＋位於 tuber cinereum，且臨床有癲癇或性早熟 → 直接想到 HH，勿誤判為會強化的腫瘤。",
+  "keyPoints": [
+    "**本質**：**非腫瘤性、先天性灰質異位**（tuber cinereum / diencephalic hamartoma），病理為**成熟但發育異常的神經節細胞組織**——非真性腫瘤，不會生長惡變。",
+    "**位置**：與 **tuber cinereum 相連**、位於**乳頭體（mammillary bodies）與漏斗（infundibulum）之間**的下視丘腫塊。",
+    "**形態**：可為**無柄（sessile）或有柄（pedunculated，\"collar button\"）**，大小數 mm 至數 cm；大病灶可異質、含囊。",
+    "**臨床表現**：可造成 **gelastic seizures（大笑性癲癇）**與**中樞性性早熟（precocious puberty）**；常合併認知/神經精神共病。",
+    "**形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。",
+    "**顯影特徵（關鍵鑑別點）**：**注射對比劑後無強化（no enhancement）**——為與其他強化性下視丘腫塊（生殖細胞瘤、顱咽管瘤等）鑑別之核心。"
+  ],
+  "management": "1. **兩大症候**：gelastic seizure（大笑性癲癇，難治性混合型癲癇）與中樞性性早熟，可單獨或並存。\n2. **影像即診斷**：於癲癇或性早熟影像中發現 tuber cinereum 無強化腫塊即可診斷 HH，通常不需切片。\n3. **形態決定表現**：sessile 大病灶偏癲癇、pedunculated 小病灶偏 CPP，影像形態可預測臨床。\n4. **共病**：常合併認知障礙與神經精神共病，非單純內分泌問題。\n5. **鑑別**：craniopharyngioma、chiasmatic/hypothalamic astrocytoma、ectopic posterior pituitary、germinoma、LCH、lipoma——多數會強化，HH 的「不強化」是關鍵區辨。\n\n> [!note] 考點：關於下視丘錯構瘤何者錯誤？\n> **病灶通常呈強烈強化（B）**為錯誤——實際上下視丘錯構瘤**通常不強化**，此為與其他強化性下視丘腫塊鑑別之關鍵。可致 gelastic seizures、性早熟為可能症狀、T2 呈等至高訊號，皆為正確敘述。",
+  "name": "Hypothalamic Hamartoma",
+  "nameZh": "下視丘錯構瘤",
+  "slug": "hypothalamic-hamartoma",
+  "subspecialty": "NR"
+}

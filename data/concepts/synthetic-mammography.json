@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**Synthetic Mammography（SM）由 DBT 資料重建為 2D 影像，取代額外的 FFDM 取像故「不需額外輻射劑量」；優點含降低總劑量、縮短檢查時間、提升鈣化/星芒緣/結構扭曲之顯著度；缺點為 pseudocalcification 偽陽性與動作偽影評估困難。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1093/jbi/wbac008"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.breast.2014.12.002"
+    }
+  ],
+  "imagingFindings": "- 判讀 SM 時須辨識 **pseudocalcification**：合成過程可能產生類鈣化亮點，勿誤判為真鈣化而造成偽陽性召回。\n- MLO 上腋窩區與異物（foreign body）周邊解析度較 FFDM 差，皮下組織可能模糊——評估這些區域須謹慎。\n- 動作偽影於 SM 上不易評估，品質存疑時對照 DBT 切面或重照。\n\n> [!note] 考點：關於由 DBT 重建之 Synthetic Mammography（SM），下列敘述何者正確？\n> A–D 皆正確（故選 E「All of the above」/或在另一版本選「以上皆非為錯誤」對應之 D）：SM 不需額外輻射曝露；偽影含 blurring subcutaneous tissue、MLO axilla 解析度下降、pseudocalcifications、foreign body 附近解析度下降；優點含降低劑量、縮短時間、提升鈣化/星芒緣/結構扭曲顯著度；缺點含 pseudocalcification 偽陽性與 motion artifact 評估困難。",
+  "keyPoints": [
+    "SM 為由 DBT 切面重建的 2D 影像，**取代 FFDM，不需額外 radiation exposure**；SM+DBT 組合較 FFDM+DBT 組合可降低約一半劑量。",
+    "**優點**：reduced radiation dose、較 FFDM/DBT 併用**縮短取像時間**、提升 calcifications/spiculated margins/architectural distortion 之 conspicuity（顯著度）。",
+    "**缺點/偽影**：blurring subcutaneous tissue、MLO 上 axilla 解析度下降、**pseudocalcifications（偽鈣化，可致偽陽性）**、foreign body 附近解析度下降、以及 motion artifact 評估困難。",
+    "臨床效能：SM 取代 2D DM 併用 DBT 時，仍維持 DBT 之降低召回率、提升癌症偵測率與相近之陽性預測值（PPV）。"
+  ],
+  "management": "",
+  "name": "Synthetic Mammography (SM)",
+  "nameZh": "合成乳房攝影",
+  "slug": "synthetic-mammography",
+  "subspecialty": "Breast"
+}

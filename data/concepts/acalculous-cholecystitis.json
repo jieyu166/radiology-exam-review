@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**急性膽囊炎中約『5-10%』並無膽結石（acute acalculous cholecystitis）——好發於重症/受傷病人（創傷、燒傷、敗血症、禁食/TPN、機械通氣、ICU），機轉為膽汁淤積 + 膽囊缺血，而非結石阻塞。** 判讀分水嶺：**多數急性膽囊炎（~90-95%）為結石性；無結石性好發 ICU 重症、預後較差、壞疽/穿孔率較高、診斷較難（鎮靜病人 Murphy 徵可缺）；影像＝膽囊壁增厚、膨大、腔內淤泥、周圍積液，但『無結石』。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-18611（輔助來源",
+      "url": "https://doi.org/10.53347/rID-18611（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **US 首選徵象（STATdx）**：**膽囊壁增厚 >3-4 mm（低回音層狀/striated）、膨大（短軸 >4 cm）、腔內淤泥、周圍積液、sonographic Murphy 徵（鎮靜/昏迷者可缺）——無嵌頓結石**；**hepatic artery 流速 >100 cm/s 提高準確度**；color Doppler 壁充血（壞疽時消失）、CEUS 早期動脈黏膜強化。\n- **CT（STATdx）**：膽囊膨大 + pericholecystic 發炎 ± 高密度淤泥/出血；CECT **mural hyperemia + hot rim sign（反應性肝充血）**；**強化中斷/不良示缺血/壞疽**；**排除膽囊炎 NPV 89%、評估併發最佳**。\n- **MR（STATdx）**：T1 高訊號淤泥、T2 壁水腫 + 周圍游離液、C+ hot rim sign、**動態早期動脈強化偏急性（慢性為漸進強化）、強化中斷示壞死**；emphysematous 於 in/out-of-phase 訊號流失。\n- **HIDA（STATdx）**：**敏感 30-100%/特異 89-100%**；4 小時或 morphine augmentation 後 90 分膽囊不顯影支持；**偽陰性＝感染但未阻塞膽囊、偽陽性＝肝功能差/禁食/TPN**；較結石性敏感度低，為 US 不確定之輔助。\n- **併發搜尋（STATdx）**：**gangrenous（壁不規則/不連續、腔內剝落膜、Doppler 血流消失）、perforation（多在 fundus、塌陷膽囊 + 壁缺損 + 鄰近積液）、emphysematous（壁/腔內氣）**——高風險族群積極找。\n- **DDx（STATdx）**：**acute calculous cholecystitis（有嵌頓結石）、sympathetic 壁增厚（平滑、Murphy 陰性、非敗血；低白蛋白/肝硬化/心衰/肝炎胰臟炎）、hyperplastic cholecystosis（comet-tail/壁內囊）、GB mucocele/hydrops（慢性阻塞膨大、壁不厚、痛少）**。\n- **陷阱**：低白蛋白/腹水/心衰亦致膽囊壁增厚，勿單以壁厚診斷。",
+  "keyPoints": [
+    "**比例**：急性膽囊炎中約 **5-10% 無膽結石**（或結石非致病因子）。",
+    "**機轉**：**膽汁淤積（biliary stasis）＋膽囊缺血（ischemia）**，非結石阻塞。",
+    "**好發族群**：**重症/受傷病人**——**創傷、燒傷、敗血症、禁食/TPN、機械通氣、術後、ICU**。",
+    "**臨床意義**：**預後較結石性差**、**壞疽/穿孔/膿胸風險較高**、死亡率較高；診斷較難（症狀非特異、鎮靜病人）。"
+  ],
+  "management": "1. **比例/流病（STATdx）**：**占急性膽囊炎 5-10%、發生於 0.2-0.4% 重症病人；M:F=3:1、中老年較多**。\n2. **機轉（STATdx）**：**多因子——膽汁黏稠度增加 + 壁缺血再灌流傷害**；膽汁淤積（禁食/阻塞/手術）刺激上皮、缺血（低血壓/休克/創傷/敗血/燒傷/血管炎）；亦可感染（細菌/病毒/黴菌/寄生蟲，AIDS 伺機感染）或外在壓迫（腫瘤/淋巴結）。\n3. **族群/危險因子（STATdx）**：**大手術後、嚴重創傷、敗血、糖尿病、動脈硬化、TPN、長期禁食、燒傷**。\n4. **預後（STATdx）**：**較結石性差、40% 併發（壞疽/穿孔/膿胸）、死亡率高達 30%**；重症多共病診斷困難；膽汁培養陽性達 78%（G(−) 桿菌最常）。\n5. **治療（STATdx）**：**手術候選者立即膽囊切除為標準；高風險者經皮膽囊造廔 + 抗生素（可診斷兼治療、留管 ≥3 週、移除前需膽道攝影排除結石）；壞疽膽囊不宜造廔**。\n\n> [!note] 考點：急性膽囊炎病人中，多少比例並無膽結石?\n> **約 10%（A）**（文獻範圍 5-10%）。急性非結石性膽囊炎好發重症加護病人，機轉與膽汁淤積/缺血相關（非結石阻塞）。",
+  "name": "Acute Acalculous Cholecystitis",
+  "nameZh": "無結石性膽囊炎",
+  "slug": "acalculous-cholecystitis",
+  "subspecialty": "ABD"
+}

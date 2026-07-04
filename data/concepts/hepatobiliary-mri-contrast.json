@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**肝膽特異對比劑靠 OATP 進肝細胞、MRP2 排膽道，只有「含功能性肝細胞的病灶」才亮；Primovist（EOB）50% 走膽、20 分見肝膽期，MultiHance（BOPTA）僅 3–5% 走膽、需等 60–120 分。** 判讀分水嶺：**肝膽期亮（等/高訊號）＝FNH、高分化 HCC、再生結節**；**不亮（低訊號）＝轉移、囊腫、多數腺瘤、低分化 HCC**。記憶鉤：Primovist「五五分」（50/50 肝腎）、MultiHance「3–5% 走膽所以要等」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1594/ecr2014/C-0963",
+      "url": "https://doi.org/10.1594/ecr2014/C-0963"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**製劑與排泄**：",
+    "**Gd-EOB-DTPA（gadoxetate, Primovist/Eovist）**：linear ionic;**~50% 肝膽、50% 腎**排泄;肝膽期約 **20 分**;肝實質強化較強但血中濃度低 → 動脈期較弱、易動作假影。",
+    "**Gd-BOPTA（gadobenate, MultiHance）**：linear ionic;**~3–5% 肝膽、95–97% 腎**;肝膽期較久（~60–120 分）。",
+    "**Mn-DPDP（mangafodipir）**：錳基（非釓）肝細胞特異劑（歷史性）。",
+    "**攝取機轉**：肝細胞**OATP1B1/B3** 攝取 → **MRP2** 排入膽道;故肝膽期可作 MR 膽道攝影。",
+    "**肝膽期病灶判讀**：",
+    "**攝取（等/高訊號）**：**FNH（功能性肝細胞＋膽管）、部分保留 OATP 的高分化 HCC、再生結節**。",
+    "**不攝取（低訊號）**：**轉移、囊腫、血管瘤、多數肝腺瘤、低分化 HCC**。",
+    "**缺點（gadoxetate）**：動脈期/靜脈期強化較弱、動脈期易因短暫呼吸困難/移動產生假影、肝功能不良/纖維化時肝實質攝取下降;**小病灶在肝膽期偵測率反而『高』**（非缺點）。",
+    "**HCC 肝膽期矛盾攝取（paradoxical uptake）機轉**：部分HCC於肝膽期反常呈現攝取增高（等/高訊號），機轉為腫瘤細胞**OATP8（OATP1B3）表現量『升高』**（非降低）搭配**MRP2表現量『降低』**——攝取增加但排出減少，造成對比劑於細胞質內滯留呈現攝取增高;此與腫瘤壓迫造成膽汁分泌障礙（impairment of bile secretion by tumor compression）亦可促成訊號滯留有關。"
+  ],
+  "management": "",
+  "name": "Hepatobiliary MRI Contrast Agents (Gd-EOB-DTPA / Gd-BOPTA)",
+  "nameZh": "肝膽特異對比劑",
+  "slug": "hepatobiliary-mri-contrast",
+  "subspecialty": "ABD"
+}

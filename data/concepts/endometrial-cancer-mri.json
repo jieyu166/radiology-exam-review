@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**子宮內膜癌在 MRI 上：T1 與肌層「同灰」、T2 比肌層「亮」，但打顯影劑後反而比肌層「暗」（hypoenhancement）——這個對比差正是判斷肌層侵犯深度的依據。** 記憶鉤：T2 亮→顯影後暗，「先亮後暗」；凡題目說「對比後 hyperenhancement」即非典型、選「錯」。",
+  "differentialDiagnosis": [
+    "**腺肌症（adenomyosis）**：JZ 瀰漫增厚但邊界規則、無局部 DWI 限制擴散腫塊，無內膜-肌層介面破壞。",
+    "**黏膜下/肌層肌瘤（leiomyoma）**：T2 低訊號界線清楚之腫塊，無內膜浸潤型生長。",
+    "**子宮內膜息肉（polyp）**：T2 可見纖維核、線狀供血血管，DCE 強化型態與惡性不同。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.240084",
+      "url": "https://doi.org/10.1148/rg.240084"
+    },
+    {
+      "label": "10.1177/11795549231207833：單相增強影像品質較佳、診斷深部肌層侵犯與動態相當，SEE",
+      "url": "https://doi.org/10.1177/11795549231207833：單相增強影像品質較佳、診斷深部肌層侵犯與動態相當，SEE"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**T1WI**：與 myometrium **等訊號（isointense）**。",
+    "**T2WI**：較 myometrium **高訊號（hyperintense）**。",
+    "**Post-contrast**：腫瘤**強化低於肌層（hypoenhancement）**——故「hyperenhancement」非典型;此對比差用於評估肌層侵犯深度（>50% 為深層侵犯）。"
+  ],
+  "management": "",
+  "name": "Endometrial Cancer MRI",
+  "nameZh": "子宮內膜癌MRI",
+  "slug": "endometrial-cancer-mri",
+  "subspecialty": "ABD"
+}

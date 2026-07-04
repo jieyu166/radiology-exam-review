@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**Scheuermann disease（juvenile kyphosis / vertebral epiphysitis）＝青少年結構性後凸的最常見原因，結果是「胸椎後凸（thoracic kyphosis）」——不是脊椎側彎、也不是腰椎前凸或頸椎後凸。診斷靠 Sorensen 標準：連續 ≥ 3 個椎體、每個前緣楔形變 ≥ 5°，伴終板不規則（波浪狀）、前方椎間隙變窄與界清 Schmorl nodes。** 判讀分水嶺：**「有 Schmorl nodes 但沒有前緣楔形變」不算 Scheuermann——楔形變（anterior wedging）才是關鍵；影像上也可能只見波浪狀終板而非離散 Schmorl node。記憶鉤：3 節、5 度、胸椎、前楔＋Schmorl。**",
+  "differentialDiagnosis": [
+    "**姿勢性後凸（postural kyphosis）**：**終板正常、過度後伸可矯正**（除非長期）——與 Scheuermann 最需鑑別。",
+    "**楔形壓迫骨折**：可多節；前皮質成角、MR 見骨折線與骨髓水腫。",
+    "**先天性後凸**：有椎體發育異常。",
+    "**結核（TB）**：後凸常嚴重、終板破壞 ± 椎體融合。",
+    "**成骨不全（OI）**：platyspondyly、嚴重骨質疏鬆；**僵直性脊椎炎**（椎體融合、薦髂關節異常）、**SED tarda**（全脊椎 platyspondyly）。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：多發 Schmorl nodes → 椎體楔形變所致之後凸（椎體終板骨軟骨病）。",
+    "**診斷標準（Sorensen）**：**連續 ≥ 3 個椎體、各 ≥ 5° 楔形變**＋終板波浪狀不規則＋前方椎間隙最窄＋界清 Schmorl nodes。",
+    "**定位**：**75% 胸椎**、20–25% 胸腰段、< 5% 純腰椎、極少頸椎。",
+    "**後凸角度**：胸椎後凸 **> 40° 為異常**（正常隨年齡增加）。",
+    "**考點**：Scheuermann 造成 **thoracic kyphosis**（2019-506 答案 D），非 scoliosis/lordosis/cervical kyphosis。"
+  ],
+  "management": "1. **流行病學**：盛行率 **0.4–8%**、**尖峰 13–17 歲**、輕微男性偏多；為**青少年結構性後凸/下背痛最常見原因**。\n2. **病因**：不明——終板生長缺陷＋機械應力使椎間盤穿過弱化終板、前柱生長遲滯致楔形；具**家族遺傳性**（丹麥雙胞胎登錄顯著遺傳貢獻、體染色體顯性 OMIM #181440）；**舉重、體操等脊椎負重運動**可能促成。\n3. **臨床表現**：**胸椎疼痛與壓痛、活動後加重**、疲勞；後凸於青春期發展、可能較晚才就診；嚴重者可有神經症狀。\n4. **自然史**：青春期生長爆發期間惡化、生長完成後輕微進展；**> 70° 後凸功能結果差**；並發早發性椎間盤退化與突出。\n5. **治療**：**觀察**（後凸 < 50°、仍在生長）→ **背架**（至少剩 1 年生長、< 70°、後伸可部分矯正）→ **手術**（骨骼未成熟 > 75°、成熟 > 60°、劇痛或神經缺損；後路 ± 前路融合）。\n\n> [!note] 考點：Scheuermann disease（vertebral epiphysitis）造成何種畸形?\n> **thoracic kyphosis（D，胸椎後凸）**——非 thoracic scoliosis/lumbar lordosis/cervical kyphosis。主要影響胸椎（75%），後凸 > 40° 為異常。",
+  "name": "Scheuermann Disease",
+  "nameZh": "許爾曼氏病",
+  "slug": "scheuermann-disease",
+  "subspecialty": "PE"
+}

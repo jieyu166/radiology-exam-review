@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**卵巢成熟囊性畸胎瘤（Ovarian mature cystic teratoma / dermoid cyst）**——含脂肪腫塊，T1WI 高訊號（脂肪）、CT 可見壁鈣化與脂肪-液面（fat-fluid level）；T2WI \"shading\" 為**子宮內膜異位瘤（endometrioma）**特徵而非畸胎瘤。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**T1WI**：**高訊號**（脂肪成分），fat-sat 序列可抑制。",
+    "**CT**：含脂肪密度成分、**壁鈣化**、牙齒/骨骼成分。",
+    "**Fat-fluid level**：脂肪浮於液面上方，為特徵性表現。",
+    "US：**\"Tip of the iceberg\" sign**（Rokitansky nodule 後方強烈衰減）。"
+  ],
+  "management": "",
+  "name": "ovarian-mature-cystic-teratoma",
+  "nameZh": "",
+  "slug": "ovarian-mature-cystic-teratoma",
+  "subspecialty": ""
+}

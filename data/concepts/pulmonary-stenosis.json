@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**肺動脈瓣狹窄的三個影像要素（狹窄瓣、RV 肥厚、近端肺動脈狹窄後擴張）形成因果鏈：瓣口窄→噴流→RV 後負荷↑→RV 肥厚，同時噴流優先衝入左肺動脈→左側狹窄後擴張。** 判讀分水嶺一：**三要素皆是 MRI 特徵，考「以上皆是」**；判讀分水嶺二：**狹窄後擴張偏左（噴流方向），X 光上 Chen sign＝左肺底血管充盈＞右**。記憶鉤：因果鏈「窄瓣→噴流偏左→左動脈大，RV 撐著後負荷→越來越厚」。",
+  "differentialDiagnosis": [
+    "**狹窄後擴張（主＋左 PA 擴張、右 PA 正常）＋ 肺血正常或減少 → 指向 valvar PS**；若見圓頂瓣更確立。",
+    "主肺動脈擴張之鑑別：**idiopathic（特發性）PA dilatation**（無瓣膜狹窄、無壓差）、**肺動脈高壓**（中央 PA 擴張但常雙側對稱、伴 RV 應變）、**ASD 等高流量分流**（肺血增多、雙側肺動脈與右心房室皆大）。dysplastic valve 因常無狹窄後擴張，勿因此排除瓣膜狹窄。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1259/bjr.20180185（PMC6435093",
+      "url": "https://doi.org/10.1259/bjr.20180185（PMC6435093"
+    },
+    {
+      "label": "10.1148/rg.341135026（PMID",
+      "url": "https://doi.org/10.1148/rg.341135026（PMID"
+    },
+    {
+      "label": "10.3390/diagnostics14161762（PMC11353319",
+      "url": "https://doi.org/10.3390/diagnostics14161762（PMC11353319"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Pulmonary (Valve) Stenosis — Imaging",
+  "nameZh": "肺動脈瓣狹窄",
+  "slug": "pulmonary-stenosis",
+  "subspecialty": "CV"
+}

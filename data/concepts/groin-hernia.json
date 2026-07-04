@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**股疝（femoral hernia）靠四個字記：「窄頸、小囊、外側、壓靜脈」——頸窄所以囊小局限（不像腹股溝疝有延伸大疝囊）、位置在恥骨結節外側、幾乎必定壓迫股靜脈。** 判讀分水嶺一：**「延伸的大疝囊（extended sac）」是股疝少見的特徵，反而是腹股溝疝的表現。** 判讀分水嶺二：**位置記憶：恥骨結節「外下」= 股疝；「內上」= 腹股溝疝；壓股靜脈幾乎是股疝專屬。**",
+  "differentialDiagnosis": [
+    "位置（vs 腹股溝韌帶）",
+    "vs 恥骨結節",
+    "股靜脈",
+    "疝囊"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.07.2085",
+      "url": "https://doi.org/10.2214/AJR.07.2085"
+    },
+    {
+      "label": "10.1148/rg.312105129",
+      "url": "https://doi.org/10.1148/rg.312105129"
+    }
+  ],
+  "imagingFindings": "- **第一步定位下腹壁血管**：在骨盆上方、rectus abdominis 深面找到 inferior epigastric artery/vein，向下追到其源自 external iliac vessels 處，即可作為三型疝的分界標誌。\n- **Indirect 間接疝**：經 **deep inguinal ring**，疝頸位於 inferior epigastric vessels **外側 lateral**（superolateral），沿 inguinal canal 走行，可延伸至陰囊／大陰唇。\n- **Direct 直接疝**：經 Hesselbach 三角（transversalis fascia 缺損），疝頸位於 inferior epigastric vessels **內側 medial**（anteromedial），**寬頸**、obstruction 少見。\n- **Femoral 股疝**：經 femoral canal，位於 **inguinal ligament 下方 below**、inferior epigastric vessels 外側、**femoral vein 內側 medial**；窄頸。\n- **vs pubic tubercle 軸向定位**：inguinal hernia（尤其 indirect）疝囊位於恥骨結節 **內上**、可越過恥骨結節內側往陰囊；femoral hernia 疝囊位於恥骨結節 **外下（lateral/posteroinferior）**。AJR 系列以「localized sac（侷限於恥骨結節外側）vs extended sac（延伸至恥骨結節內側）」作量化分型依據。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Femoral vs Inguinal Hernia (Imaging)",
+  "nameZh": "股疝 腹股溝疝",
+  "slug": "groin-hernia",
+  "subspecialty": "ABD"
+}

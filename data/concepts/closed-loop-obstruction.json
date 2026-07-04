@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Closed-loop obstruction** 是小腸在兩個點被阻塞，形成封閉迴路，靜脈回流受阻可導致缺血壞死。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "腸段在兩個點被阻塞形成封閉迴路",
+    "靜脈回流受阻導致缺血",
+    "蠕動造成腸管繞窄點扭轉（volvulus）",
+    "最常見原因：**adhesion（沾黏）**",
+    "CT 表現：C 形或 U 形擴張腸段、radial mesenteric vessels（converging toward transition point）、whirl sign"
+  ],
+  "management": "",
+  "name": "Closed-Loop Small Bowel Obstruction",
+  "nameZh": "閉合迴路阻塞",
+  "slug": "closed-loop-obstruction",
+  "subspecialty": "GI"
+}

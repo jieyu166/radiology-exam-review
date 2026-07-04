@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Skene gland cyst** 來自 Skene（periurethral）導管的囊腫，為管泡狀（tubuloalveolar）結構，位於尿道遠端 2/3 的後外側。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Skene gland cyst**：尿道遠端 2/3 後外側，tubuloalveolar",
+    "**Bartholin gland cyst**：陰道口後外側，greater vestibular gland 水平",
+    "**Gardner duct cyst**：陰道近端，恥骨聯合上方",
+    "**Urethral diverticulum**：中段尿道"
+  ],
+  "management": "",
+  "name": "Skene Gland Cyst",
+  "nameZh": "Skene 腺囊腫",
+  "slug": "skene-gland-cyst",
+  "subspecialty": "GU"
+}

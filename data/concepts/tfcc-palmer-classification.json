@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**TFCC Palmer 分類分兩大類：Class 1 創傷性（1A 中央穿孔、1B 尺側撕脫±尺骨莖突基部骨折、1C 遠端撕脫、1D 橈側撕脫）、Class 2 退化性（尺腕衝擊症候群 ulnar impaction，依嚴重度 2A→2E 遞進）。** 判讀分水嶺：**創傷型多見 <40 歲、可修補；退化型多見 >50 歲、與尺骨正變異（ulnar-positive variance）相關 → 尺骨縮短手術**；MR arthrography 為最佳工具，須把正常 ligamentum subcruentum 與真撕裂分清。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **最佳工具＝MR arthrography**；部分／完全撕裂在 MR 可見卻可能於透視下注射（fluoroscopic injection）呈 occult，必要時需**追加 DRUJ 腔注射對比**方能顯示。\n- **撕裂位置與外觀**：**partial tear 多在尺側附著、最常為 proximal（DRUJ 側）、呈不規則毛糙（frayed）**；**complete tear 多沿 TFC 橈側緣**或尺側 detachment。\n- **關鍵陷阱**：正常之 **ligamentum subcruentum（介於 ulnar styloid 與 fovea 附著間之纖維血管組織，呈高訊號）不可誤判為撕裂**。\n- **退化型（Class 2）之影像連續變化**：尺骨頭／近端 lunate／近端 triquetrum 軟骨變薄流失、退化性軟骨下反應性骨髓水腫±囊腫、lunotriquetral 韌帶完全斷裂、DRUJ 不穩——常合併**尺骨正變異**（ulnar-positive variance，尺腕衝擊之根本）。\n- **分類侷限**：Palmer 分類**暗示病灶單獨發生，實際上可合併出現**；報告須逐項描述而非只給一個字母代號。",
+  "keyPoints": [
+    "**Class 1（創傷性）**：",
+    "**1A**：TFC 盤**中央穿孔**（central perforation）。",
+    "**1B**：**尺側撕脫（ulnar avulsion），可合併 ulnar styloid 基部骨折**；因涉及 foveal 附著，**常伴 distal radioulnar joint（DRUJ）不穩**。",
+    "**1C**：**遠端撕脫（自 carpus）**，ulnolunate 或 ulnotriquetral 韌帶撕脫；可伴 carpal translocation。",
+    "**1D**：**橈側撕脫（radial avulsion）**，可合併 sigmoid notch 骨折、lunotriquetral 韌帶穿孔。",
+    "**Class 2（退化性，尺腕衝擊 ulnar impaction）**：**2A** TFC 磨損／纖維化未穿孔 → **2B** ＋lunate 或尺骨頭軟骨流失 → **2C** ＋TFC 穿孔 → **2D** ＋lunotriquetral 韌帶撕裂 → **2E** ＋尺腕關節炎。"
+  ],
+  "management": "1. 典型表現為**尺側腕痛**、局部腫脹或變形，前臂旋轉或握力時加重。\n2. **創傷型（Class 1）好發 <40 歲**、多可外科修補／再附著；**退化型（Class 2）好發 >50 歲**、屬尺腕衝擊之一環。\n3. 保守治療＝副木固定、制動、NSAID；手術＝修補、再附著、debridement，退化型常需**尺骨縮短截骨**以卸除尺腕衝擊。\n4. **1B（foveal／尺側撕脫）之臨床重點在其常伴 DRUJ 不穩**，影響治療決策（是否需穩定 DRUJ）。\n5. 影像報告應涵蓋撕裂位置（橈側 vs 尺側／近端 vs 遠端）、DRUJ 穩定度、尺骨變異與軟骨狀態，才足以區分創傷 vs 退化並指導處置。\n\n> [!note] 考點：TFCC Palmer type 1B 損傷為何？\n> **Ulnar avulsion with or without distal ulnar (styloid) fracture（A）**——尺側撕脫，可合併或不合併尺骨莖突基部骨折，常伴 DRUJ 不穩。1C 為遠端撕脫（ulnotriquetral/ulnolunate 韌帶）、1D 為橈側撕脫（±sigmoid notch 骨折）。",
+  "name": "TFCC — Palmer Classification",
+  "nameZh": "三角纖維軟骨複合體分類",
+  "slug": "tfcc-palmer-classification",
+  "subspecialty": "MSK"
+}

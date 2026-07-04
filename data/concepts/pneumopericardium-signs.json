@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**胸片空氣徵象考驗「空氣在哪個腔」的空間定位：橫膈上方透亮連成一線 → 心包或縱膈有氣；橫膈下方透亮 → 氣腹。** 記憶鉤：continuous diaphragm sign 因心包氣把心臟與橫膈分開，中央段橫膈才「連得起來」。判讀分水嶺一：**continuous diaphragm sign → pneumomediastinum 或 pneumopericardium**；判讀分水嶺二：**deep sulcus＝仰臥氣胸、bulging fissure＝Klebsiella 肺炎、Luftsichel＝LUL 塌陷**。",
+  "differentialDiagnosis": [
+    "**不超過大血管反折（最關鍵解剖界線）**：心包氣的頂緣止於**肺動脈幹與升主動脈水平**,反映心包反折的解剖上限;**氣體不會延伸到主動脈弓以上**。若透亮線勾勒到**主動脈弓、奇靜脈以上的上腔靜脈、或遠端左肺動脈**,該氣體必在心包之外（→ 提示 pneumomediastinum）。",
+    "**可隨體位移動（決定性鑑別）**：心包腔內氣體在**側臥位（decubitus）會移向非靠下側（non-dependent）**,並隨體位快速變化;縱膈內的氣體被軟組織困住、**不會越過中線到對側**。此「氣體可流動」特性是鑑別 pneumomediastinum 的決定性依據。",
+    "**注意例外歸屬**：**continuous diaphragm sign 並非 pneumopericardium 專屬**——它同樣（且更常）見於 pneumomediastinum;單憑此徵象無法區分兩者,須再看頂緣界線與體位變化。",
+    "**下縱膈處影像可相似**：在下縱膈,兩者放射表現可能難以區分,平片有時無法明確分辨,必要時以 CT 或體位片佐證。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiographics.20.4.g00jl131043",
+      "url": "https://doi.org/10.1148/radiographics.20.4.g00jl131043"
+    },
+    {
+      "label": "10.1148/radiology.158.3.3945735——張力性心包積氣壓迫致心影縮小（small",
+      "url": "https://doi.org/10.1148/radiology.158.3.3945735——張力性心包積氣壓迫致心影縮小（small"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Air-related Chest Radiograph Signs",
+  "nameZh": "連續橫膈徵",
+  "slug": "pneumopericardium-signs",
+  "subspecialty": "CH"
+}

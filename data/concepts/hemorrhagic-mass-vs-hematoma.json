@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**軟組織出血性腫瘤(hemorrhagic neoplasm)與單純血腫(simple hematoma)在MRI上難以區分——唯一能可靠指向腫瘤的顯影特徵是『結節狀強化(nodular contrast enhancement)』;fluid-fluid level、周邊肌肉水腫/強化、延遲強化、無強化皆非可靠鑑別點,因兩者皆可出現。** 判讀分水嶺:**看到enhancing nodule就要優先考慮腫瘤**;打顯影劑後應「立即」成像,以免gadolinium緩慢擴散進血腫/膿瘍之fluid space造成pseudoenhancement假象。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.10.7300（2018",
+      "url": "https://doi.org/10.2214/AJR.10.7300（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**兩者皆可出現、不能鑑別**:fluid-fluid level(D)、周邊肌肉水腫與強化,單純血腫與出血性腫瘤皆可見。",
+    "**結節狀強化(nodular contrast enhancement,A)＝指向腫瘤**:病灶內出現enhancing nodule時,優先考慮neoplasm而非hematoma。",
+    "**三大顯影判讀陷阱(pitfalls)**:",
+    "**Evolving hematoma**的fibrovascular tissue可強化,難與腫瘤區分。",
+    "**Gadolinium緩慢擴散**進fluid-filled space(血腫/膿瘍)→ 故應給藥後「立即」成像避免pseudoenhancement(延遲強化B不可靠)。",
+    "**Myxoid lesion**強化不明顯,易被誤認為囊性成分(無強化C不可靠)。"
+  ],
+  "management": "",
+  "name": "Hemorrhagic Neoplasm vs Simple Hematoma (MRI)",
+  "nameZh": "出血性腫瘤與血腫鑑別",
+  "slug": "hemorrhagic-mass-vs-hematoma",
+  "subspecialty": "MSK"
+}

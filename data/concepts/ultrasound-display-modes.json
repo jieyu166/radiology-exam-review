@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**超音波脈衝回音顯示模式：A-mode 一維振幅圖（振幅在縱軸、深度/時間在橫軸）、B-mode 以亮度對應回音振幅（現代二維灰階基礎）、M-mode 單一掃描線隨時間展開（橫軸時間、縱軸深度，呈現運動，常用於心臟）、real-time 每秒多幀動態呈現——A-mode 的軸向配置（振幅縱軸 vs 時間橫軸）常被對調作為考題陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.234035034",
+      "url": "https://doi.org/10.1148/rg.234035034"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**A-mode（amplitude mode）**：一維影像，**振幅（amplitude）沿縱軸、深度/時間沿橫軸**；為最早的顯示模式，現多用於眼科生物測量。考題常將橫縱軸對調設陷阱。",
+    "**B-mode（brightness mode）**：以**回音振幅對應亮點（brightness of a dot）**呈現，為現代**二維灰階影像**之基礎顯示模式。",
+    "**M-mode（motion mode）**：**單一掃描線**，**橫軸＝時間、縱軸＝深度（離探頭距離）**，用以呈現結構運動；具**優異的軸向與時間解析度**，尤常用於心臟。",
+    "**Real-time imaging（即時成像）**：每秒多張影像幀之動態呈現，於選定區域即時更新。"
+  ],
+  "management": "1. **B-mode／real-time** 是今日臨床絕大多數超音波檢查的預設模式（腹部、婦產、血管、肌骨等灰階即時掃描）。\n2. **M-mode 於心臟超音波**評估瓣膜與室壁運動時序——如二尖瓣前葉最大早期擺動與室間隔之垂直距離（**E-point septal separation, EPSS**）可估算射血分數，並藉時間解析度分辨 E、A 波。\n3. **M-mode 於肺部超音波**用於判斷氣胸（正常「海岸徵象 seashore」消失、氣胸呈「條碼/平流層徵象」）。\n4. **A-mode 現存主要用途在眼科生物測量**（如眼軸長量測），因其一維振幅資訊對單軸距離量測精確。\n5. 選擇模式取決於臨床問題：需**空間全貌**用 B-mode／real-time、需**運動時序**用 M-mode、需**單軸精密測距**用 A-mode。\n\n> [!note] 考點：關於 pulse-echo display modes 之敘述，何者錯誤？\n> **A-mode 振幅/時間軸敘述相反（A）為錯誤**——A-mode 應為振幅沿縱軸、深度/時間沿橫軸，非題目所述之橫縱軸對調配置。B-mode 亮度對應回音振幅、M-mode 橫軸時間縱軸深度（呈現心臟運動）、real-time 每秒多幀動態呈現，皆為正確敘述。",
+  "name": "Ultrasound Pulse-Echo Display Modes (A/B/M-mode)",
+  "nameZh": "超音波顯示模式",
+  "slug": "ultrasound-display-modes",
+  "subspecialty": "US"
+}

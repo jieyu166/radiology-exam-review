@@ -1,0 +1,48 @@
+{
+  "checked": false,
+  "definition": "**冠狀動脈變異考三個獨立考點，各自有一個「最容易記錯」的地方。** Myocardial bridging（心肌橋）最常見於 LAD「中段」而非近/遠端，收縮期受壓產生 milking 效應。Dual LAD Type I 的空間鏈：short LAD 走近端 AIVS → long LAD 繞 LV 側走 epicardial → 再進入遠端 AIVS（記成「近端─繞彎─遠端歸位」）。LAD 與 PDA 互為代償：LAD 繞心尖長則 PDA 短，反之亦然——一長一短、此消彼長。",
+  "differentialDiagnosis": [
+    "**interarterial（malignant） vs septal/subpulmonic course**：兩者起源相近，須在 CCTA 軸切面追蹤異常段是否**真的夾在 aorta 與 PA 之間**（malignant），抑或潛入肌部室間隔下方（septal，benign）；錯認會誇大或低估 SCD 風險。",
+    "**myocardial bridging vs 真正斑塊狹窄**：bridging 為**動態**收縮期壓迫、舒張期回復，勿誤判為固定性狹窄；反之 tunneled 段近端的固定斑塊才是常見併發病灶。",
+    "**β-blocker／nitroglycerin 的遮蔽效應**：CCTA 前給藥延長舒張期並使冠脈擴張，可能**低估** bridging 的臨床顯著性；需以收縮期相判讀動態壓迫。",
+    "**薄層需求**：ILS 與 intramural 判讀需 0.5 mm 薄層；層厚過大時空間解析度不足，易漏判 intramural 段。",
+    "**AORL 高 vs 低 interarterial**：勿一概而論——須辨明異常 RCA 走行是否進入 aorta–PA 之間（high，高危）或僅至 RVOT 水平（low，風險較低）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.322115097（PubMed",
+      "url": "https://doi.org/10.1148/rg.322115097（PubMed"
+    },
+    {
+      "label": "10.3390/jcm12185949（PMC10532361，開放全文",
+      "url": "https://doi.org/10.3390/jcm12185949（PMC10532361，開放全文"
+    },
+    {
+      "label": "10.1016/j.jacc.2021.09.859",
+      "url": "https://doi.org/10.1016/j.jacc.2021.09.859"
+    },
+    {
+      "label": "10.1093/ehjopen/oeac031（PMC9277063，開放全文",
+      "url": "https://doi.org/10.1093/ehjopen/oeac031（PMC9277063，開放全文"
+    },
+    {
+      "label": "10.1007/s00247-021-05011-0（PMID",
+      "url": "https://doi.org/10.1007/s00247-021-05011-0（PMID"
+    },
+    {
+      "label": "10.1148/radiol.11110823（PMID",
+      "url": "https://doi.org/10.1148/radiol.11110823（PMID"
+    },
+    {
+      "label": "10.1016/j.jcct.2013.11.009（PMID",
+      "url": "https://doi.org/10.1016/j.jcct.2013.11.009（PMID"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Coronary Artery Variants (Bridging, Dual LAD, Compensation)",
+  "nameZh": "冠狀動脈變異",
+  "slug": "coronary-artery-variants",
+  "subspecialty": "CV"
+}

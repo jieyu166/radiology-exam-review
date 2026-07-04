@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**毒物/藥物性中樞神經病變的關鍵記法：「chasing the dragon」是海洛因吸入，不是古柯鹼；苯妥英的骨骼副作用是顱骨「增厚」，不是變薄；全靜脈營養的主要併發症是「錳」沉積。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**古柯鹼(cocaine)**：為同時可致「缺血性中風」與「腦內出血」之代表藥物。",
+    "**「Chasing the dragon」**：指「海洛因(heroin)」吸入之施用方式（加熱海洛因後吸入其煙氣），並非古柯鹼；海洛因為白質病變(leukoencephalopathy)之代表藥物。",
+    "**海洛因白質病變鑑別關鍵**：與其他病因（如缺氧缺血性腦病變）鑑別的關鍵在於——**臨床上非高血壓病人**（nonhypertensive）合併**小腦侵犯(cerebellum involvement)**。",
+    "**酒精(alcohol)**：可造成腦部灰質與白質「皆」流失（萎縮）。",
+    "**苯妥英(phenytoin)副作用**：顱骨「增厚(hyperostosis)」（而非變薄）合併小腦萎縮(cerebellar atrophy)——此為常見誤判方向。",
+    "**笑氣(nitrous oxide)**：牙科手術使用可致脊髓亞急性合併退化(subacute combined degeneration of spinal cord)，機轉與影響維生素B12代謝相關。",
+    "**長期全靜脈營養(TPN)併發症**：主要因**錳(manganese)沉積**於基底核所致，MRI呈T1高訊號。"
+  ],
+  "management": "",
+  "name": "Toxic-Metabolic Leukoencephalopathy — Drug & Nutritional Causes",
+  "nameZh": "毒性代謝性腦白質病變",
+  "slug": "toxic-metabolic-leukoencephalopathy",
+  "subspecialty": "NR"
+}

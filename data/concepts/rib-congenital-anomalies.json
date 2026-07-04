@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**Bifid rib（分叉肋）的典型影像特徵：肋骨前段重複分叉，最常發生於第四肋——依發育過程可再細分 fork type（叉狀）、hole type（孔洞狀）等亞型，與 supernumerary rib（額外肋，如頸肋）、developmental rib fusion（肋骨融合）、bone bridging（骨橋）等其他肋骨畸形需區分。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **影像判讀重點**：胸部 X 光/CT 見肋骨前段呈「Y」形分叉或末端重複，好發第四肋，屬常見無症狀先天變異，勿誤判為肋骨骨折癒合或病理性骨增生。",
+  "keyPoints": [
+    "**Bifid rib（分叉肋）**：肋骨**前段重複分叉**，**最常見於第四肋**；依發育過程分型：cleavage（肋骨裂開）、outgrowth（增生分岔）、fork type（叉狀，末端分兩支）、widened fork-derivative（增寬叉型）、hole type（孔洞型，兩支間有骨橋孔洞）、incomplete hole type（不完全孔洞型）。",
+    "**與其他肋骨畸形區分**：**Supernumerary rib**（額外肋，如頸肋 cervical rib、腰肋）為多出一根獨立肋骨，非同一肋骨分叉；**Developmental rib fusion**（肋骨融合）為相鄰兩肋骨先天癒合；**Bone bridging**（骨橋）泛指肋骨間異常骨性連接，非特指前段分叉重複。"
+  ],
+  "management": "",
+  "name": "Rib Congenital Malformations",
+  "nameZh": "肋骨先天畸形",
+  "slug": "rib-congenital-anomalies",
+  "subspecialty": "MSK"
+}

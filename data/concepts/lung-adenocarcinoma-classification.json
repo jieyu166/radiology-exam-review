@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**2011 IASLC/ATS/ERS 肺腺癌光譜（preinvasive→invasive）：AAH → AIS → MIA → invasive adenocarcinoma;『focal interstitial fibrosis』不屬此分類。** 判讀分水嶺：**AAH（≤5 mm 非典型增生）→ AIS（≤3 cm 純 lepidic、無侵犯，CT 多 GGN）→ MIA（≤3 cm、lepidic 為主、侵犯 ≤5 mm，CT 多非實質但可有 ≤5 mm 中央實質成分）→ invasive（侵犯 >5 mm）;AIS/MIA 切除後近乎 100% 無病存活。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-5920——**肺腺癌組織學光譜、始於惰性增生（AAH",
+      "url": "https://doi.org/10.53347/rID-5920——**肺腺癌組織學光譜、始於惰性增生（AAH"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**光譜（preinvasive → invasive）**：",
+    "**AAH（atypical adenomatous hyperplasia）**：preinvasive、**≤5 mm** 的非典型腺瘤樣增生。",
+    "**AIS（adenocarcinoma in situ）**：**≤3 cm 純 lepidic 生長、無侵犯**;CT 多為 GGN;切除後 100% 無病存活。",
+    "**MIA（minimally invasive adenocarcinoma）**：**≤3 cm、以 lepidic 為主、侵犯 ≤5 mm**;CT 多為非實質但可有**約 ≤5 mm 中央實質成分**;切除後近 100% 無病存活。",
+    "**Invasive adenocarcinoma**：侵犯 >5 mm（lepidic/acinar/papillary/micropapillary/solid 等亞型）;invasive mucinous adenocarcinoma 為一型。",
+    "**不屬此分類**：**focal interstitial fibrosis（局部間質纖維化）非肺腺癌光譜成員**。",
+    "**術語更新**：2011 IASLC 分類已**廢除 mucinous/non-mucinous bronchoalveolar carcinoma（BAC）舊稱**；AIS 以 non-mucinous 最常見。"
+  ],
+  "management": "",
+  "name": "Lung Adenocarcinoma — 2011 IASLC/ATS/ERS Classification",
+  "nameZh": "肺腺癌分類",
+  "slug": "lung-adenocarcinoma-classification",
+  "subspecialty": "CH"
+}

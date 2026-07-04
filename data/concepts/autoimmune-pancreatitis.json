@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**AIP 的胰臟像一根腫脹的香腸——瀰漫腫大、外緣有一圈低訊號包膜邊（capsule-like rim），主胰管被壓窄但上游不太擴張。** 瀰漫型（香腸型）是最常見表現；局部型較少，但外觀可酷似胰臟癌，此時「找有無 IgG4 升高＋試用類固醇」是重要鑑別思路。記憶鉤：AIP 的主胰管是「狹窄但不上游擴張」，而胰癌常造成上游明顯擴張的「雙管征」，兩者方向相反。合併 PSC 或後腹腔纖維化更支持 IgG4-RD 診斷。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.2332031436",
+      "url": "https://doi.org/10.1148/radiol.2332031436"
+    }
+  ],
+  "imagingFindings": "- **與胰癌區分之陰性徵（Sahani，核心）**：**AIP＝胰臟瀰漫/局部腫大＋僅輕微胰周浸潤，且『無血管包覆、無鈣化、無胰周積液』**；胰癌則常見血管包覆、上游胰管擴張與萎縮——這些陰性徵是關鍵鑑別。\n- **capsule-like rim（Sahani）**：**T2 低訊號、delayed rimlike enhancement 之包膜樣邊**為 AIP 特徵；MR 見瀰漫/局部腫大伴 rim 強化。\n- **胰管徵（Sahani，ERCP/MRCP）**：**主胰管瀰漫不規則長段狹窄（非上游明顯擴張）＋多發膽管狹窄（遠端 CBD、肝內膽管）**——與胰癌之局部阻塞＋雙管擴張方向相反。\n- **胰周淋巴結**：**AIP 常見胰周淋巴結腫大**（Sahani 29 例中 9 例），勿逕判惡性。\n- **類固醇反應（Sahani，診斷佐證）**：**CT 異常與 CBD 狹窄於類固醇治療後可消退**——治療反應本身具鑑別/確診價值。",
+  "keyPoints": [
+    "**型態**：**瀰漫型（diffuse，sausage-shaped）最常見**;局部型(focal)較少（可似胰癌）。",
+    "**影像**：香腸狀胰臟、capsule-like rim（包膜樣低訊號邊）、主胰管**不規則/長段狹窄**(無明顯上游擴張)、delayed 均勻強化。",
+    "**合併**：primary sclerosing cholangitis／IgG4 膽管炎、後腹腔纖維化（屬 [[igg4-related-disease]] 譜系）;類固醇反應佳。"
+  ],
+  "management": "1. **本質**：AIP 為 **IgG4 相關硬化性疾病之胰臟表現**（type 1 lymphoplasmacytic sclerosing pancreatitis），屬 [[igg4-related-disease]] 譜系。\n2. **族群（Sahani）**：**中老年男性為主**（29 例平均 56 歲、男性 25/29），可表現無痛性黃疸／體重減輕，臨床易誤為胰癌。\n3. **血清學（Sahani）**：**血清 IgG／ANA 升高**（12 例中 7 例）支持診斷；血清 IgG4 尤具價值。\n4. **胰外表現**：常合併硬化性膽管炎、後腹腔纖維化、唾液腺／腎受累（IgG4-RD 多器官）。\n5. **治療與意義**：**類固醇反應佳**；正確診斷可避免不必要之 Whipple 手術——影像鑑別具重大臨床影響。\n\n> [!note] 考點：關於 autoimmune pancreatitis,何者「為非」?\n> 「**focal type 比 diffuse type 常見**」為非——**diffuse（sausage）型最常見**。合併 PSC(A)、香腸狀胰臟(B)、主胰管狹窄(C)皆正確。",
+  "name": "Autoimmune Pancreatitis (AIP)",
+  "nameZh": "自體免疫胰臟炎",
+  "slug": "autoimmune-pancreatitis",
+  "subspecialty": "ABD"
+}

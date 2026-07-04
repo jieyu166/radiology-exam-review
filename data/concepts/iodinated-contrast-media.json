@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**含碘對比劑記兩件事就通:一是『碘』負責擋 X 光（原子序高 Z=53）;二是『一個分子帶幾顆有效顆粒』決定滲透壓——顆粒越多越高滲。所以同樣碘量下,離子性（會解離成兩顆）最高滲、非離子單體次之、非離子雙體（一顆裝兩個碘環、顆粒最少）最接近血漿。** 判讀分水嶺一：**滲透壓 ionic monomer（HOCM）≫ non-ionic monomer（LOCM）＞ non-ionic dimer（IOCM, iso-osmolar≈血漿)**;判讀分水嶺二：**靜脈注射後為細胞外對比劑、分布於血管＋間質（不入細胞、腎絲球過濾排泄）;腦血管攝影因 BBB 完整僅留血管內;鞘內(intrathecal)只准特定低濃度非離子製劑**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**分類與代表藥**：",
+    "**滲透壓排序（高→低）**：iothalamate meglumine 60 (~1400) ＞ iohexol 350 (~844) ＞ iodixanol 320 (~290 ≈ 血漿)。",
+    "**非離子 dimer（iodixanol）**：滲透壓最低,但**較黏(viscous)**;『不』因等滲而免除腎功能注意——**仍須注意腎功能**（Visipaque 未證實更保護腎臟）。",
+    "**等滲 vs 低滲對 CIN/PC-AKI 的保護力（2019交換）**：**研究未能證實靜脈注射等滲 iodixanol 對比劑，在預防 CIN 或 PC-AKI 方面，比低滲對比劑（LOCM）有明顯優勢**——「等張性含碘對比劑會比低張性對比劑有明顯更好的腎功能保護作用」為錯誤敘述。",
+    "**CIN 定義**：對比劑注射後 **48 小時內**，血清肌酸酐（serum creatinine）較注射前上升 **≥50%**。**CIN 最重要之危險因子為既存腎功能障礙**。目前低滲對比劑注射，除非極大劑量或用於心功能障礙患者，即使洗腎病患也通常不需因 IV 對比劑注射而在檢查後急性洗腎。",
+    "**延遲性皮膚不良反應（delayed cutaneous adverse events）**：iodixanol（iso-osmolar dimer）發生率略高於其他 LOCM；非離子雙體（dimeric）整體發生率高於非離子單體（monomeric）對比劑。"
+  ],
+  "management": "",
+  "name": "Iodinated Contrast Media (Classification, Osmolality, Distribution)",
+  "nameZh": "含碘對比劑",
+  "slug": "iodinated-contrast-media",
+  "subspecialty": "Physics"
+}

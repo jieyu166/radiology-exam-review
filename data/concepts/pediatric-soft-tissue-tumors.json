@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**年輕病人（兒童/青少年/年輕成人）好發的肉瘤：Ewing、alveolar soft part sarcoma、rhabdomyosarcoma;Kaposi sarcoma 屬年長/免疫低下。** 判讀分水嶺：**RMS＝兒童最常見軟組織肉瘤（頭頸/泌尿生殖）;Ewing/PNET＝兒童青少年;ASPS＝年輕成人（15–35 歲，富血管、流空）;Kaposi sarcoma＝中老年/HIV/移植（與 HHV-8 相關），非年輕族群典型**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.293085168",
+      "url": "https://doi.org/10.1148/rg.293085168"
+    },
+    {
+      "label": "10.53347/rID-59433（輔助來源",
+      "url": "https://doi.org/10.53347/rID-59433（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **首選模態（Navarro）**：**MR 為兒童深部/大型軟組織腫塊之首選**（優異軟組織對比、多平面、無游離輻射）；然多數情況仍須結合臨床病史/年齡/部位才能定性，單靠 MR 訊號常不足以定良惡。\n- **年齡×部位定位（考點）**：**RMS＝兒童最常見軟組織肉瘤（頭頸/眼眶/泌尿生殖/四肢）；Ewing/PNET＝兒童青少年（可骨外軟組織）；ASPS＝年輕成人下肢深部（大腿/臀），嬰幼兒則多頭頸**——年齡與部位為縮小 DDx 之首要軸。\n- **ASPS 富血管徵（Radiopaedia/考點）**：**MR 見腫瘤內外多發血管流空（flow voids）、高血流、明顯強化**——年輕成人深部下肢腫塊見流空應想到 ASPS；富血管亦見於部分血管性病變（須鑑別）。\n- **Kaposi 對比（陷阱）**：**Kaposi sarcoma 屬年長/免疫低下（HIV/移植、HHV-8）**，皮膚/黏膜/淋巴結多發，非年輕族群典型軟組織肉瘤——考題「不常見於年輕病人」即指此。\n- **假性腫瘤警覺（Navarro）**：兒童軟組織腫塊含大量**pseudotumor（外傷後/發炎性、periarticular cyst、血管畸形）**，病史與部位常較訊號更關鍵，避免逕行惡性判讀。",
+  "keyPoints": [
+    "**年輕族群好發**：",
+    "**Rhabdomyosarcoma**：兒童最常見軟組織肉瘤;頭頸、泌尿生殖、四肢。",
+    "**Ewing sarcoma / PNET**：兒童青少年。",
+    "**Alveolar soft part sarcoma（ASPS）**：年輕成人（<30 歲略偏女）;**富血管、深部（下肢/臀部大腿）**、MR 見血管流空、慢性病程;佔軟組織肉瘤 <1%、確診時常已肺/骨/腦轉移。",
+    "**年長/免疫低下**：**Kaposi sarcoma**——與 **HHV-8** 相關，見於 HIV/移植/老年，非年輕族群典型。"
+  ],
+  "management": "1. **流行病學（Navarro）**：兒童軟組織腫塊多為良性（血管畸形/脂肪性/假性腫瘤），惡性肉瘤相對少；RMS 為兒童最常見軟組織肉瘤。\n2. **RMS 好發**：胚胎型（embryonal）多見於幼兒頭頸/眼眶/泌尿生殖道，腺泡型（alveolar）多見於較大兒童/青少年四肢、預後較差。\n3. **ASPS 自然史**：生長緩慢但**確診時常已血行轉移（肺/骨/腦）**，即使原發小亦可轉移；預後與轉移相關、對化放療反應差。\n4. **Kaposi sarcoma**：與 HHV-8 相關，見於 HIV/移植/老年（地中海型），恢復免疫（HAART）後可退縮——與年輕肉瘤族群互斥。\n5. **處置原則**：兒童不明軟組織腫塊須結合年齡/部位/臨床與 MR，必要時切片；避免把假性腫瘤/血管畸形誤為肉瘤或反之。\n\n> [!note] 考點：何者「不」常見於年輕病人?\n> **Kaposi sarcoma**——好發年長/免疫低下(HIV/移植)。Ewing sarcoma、alveolar soft part sarcoma、rhabdomyosarcoma 皆好發年輕族群。",
+  "name": "Soft Tissue Tumors by Age (Young vs Older)",
+  "nameZh": "兒童軟組織腫瘤",
+  "slug": "pediatric-soft-tissue-tumors",
+  "subspecialty": "MSK"
+}

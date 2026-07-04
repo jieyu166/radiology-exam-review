@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**脾腫大原因分大類（充血性、感染/發炎、血液腫瘤性、浸潤/儲積性、外傷等），影像實務中最常見類別為充血性（門脈高壓/肝硬化）。** 判讀分水嶺：**充血性（congestive）首位**，代表門脈高壓（肝硬化）、心衰、脾靜脈阻塞（Banti syndrome）；地區差異大——流行區感染性（瘧疾、EBV）同樣常見。**massive splenomegaly（脾長徑 >20 cm 或重量 >1000 g）** 鑑別窄，最指向骨髓增生性腫瘤（尤其 myelofibrosis、CML）、淋巴瘤/白血病及 Gaucher 病。記憶鉤：「肝硬化→門脈高壓→充血性脾腫大」是臨床最常走的因果鏈；「massive＋骨硬化（osteosclerosis）→ myelofibrosis」。",
+  "differentialDiagnosis": [
+    "**充血性（congestive/hemodynamic）**：門脈高壓/肝硬化（最常見，Radiopaedia 標 common）、心衰、脾/門靜脈血栓。影像：隨肝纖維化漸進腫大；**MRI 見 Gamna-Gandy bodies（含鐵血黃素出血灶，T2*/GRE 小低訊號點）** 高度提示門脈高壓性充血脾。",
+    "**感染/發炎（infectious）**：膿瘍（CT 偵測 ~96%）；mononucleosis（EBV）呈瀰漫腫大、無局部病灶；瘧疾可致 massive splenomegaly；結核可見肉芽腫小結節。",
+    "**血液腫瘤性（neoplastic/hematological）**：淋巴瘤——均質腫大、miliary 粟粒狀或結節型、正常強化被掩蓋（obliterated）、門脈期相對低強化＋限制性擴散提示惡性，spleen-to-liver 衰減比有助辨識浸潤；**骨髓增生性腫瘤（CML、myelofibrosis）與白血病為 massive splenomegaly 主因**，**myelofibrosis 合併骨硬化（osteosclerosis）＋massive 脾腫大鑑別極窄**。",
+    "**浸潤/儲積性（infiltrative/storage）**：Gaucher——massive 腫大（平均增大幅度極大）；amyloidosis——強化下降、T1 高/T2 低；sarcoidosis——多發約 1 cm 小結節、T2 低訊號。",
+    "**自體免疫/結締組織（immune/rheumatic）**：RA/Felty、SLE（與疾病活性相關）、endocarditis；影像多見伴隨器官受累。",
+    "**血球清除性（haemolytic）**：遺傳性球形紅血球症、自體免疫溶血、鐮形血球病；影像多以併發症呈現。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3348/kjr.2025.0848",
+      "url": "https://doi.org/10.3348/kjr.2025.0848"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**充血性（congestive）最常見**：**門脈高壓（portal hypertension）/肝硬化、心衰、脾靜脈阻塞（Banti syndrome）**——影像/成人臨床最常見的脾腫大原因類別（2016-145 正解 C）。",
+    "**其他類別**：感染/發炎（mononucleosis、瘧疾、膿瘍）、血液腫瘤性（白血病/淋巴瘤、骨髓增生性腫瘤）、浸潤/儲積性（Gaucher）、非血液腫瘤、外傷、結締組織病。",
+    "**量測（一般放射科）**：脾長徑（craniocaudal）**>12 cm 即脾腫大**；**12–20 cm 為脾腫大、>20 cm 為 massive splenomegaly**；體積以 ellipsoid（prolate ellipse）公式 0.52 × 長 × 前後徑 × 寬 估算，splenic index >500 cm³ 視為腫大。注意：12 cm 上限約 26% 男性、6% 女性會超過，理想應依身高體重個別化。"
+  ],
+  "management": "1. **最常見病因鏈**：**充血性（門脈高壓/肝硬化）為成人最常見類別**，臨床走「肝硬化→門脈高壓→充血性脾腫大」因果鏈；地區流行區感染性（瘧疾/EBV）亦常見。\n2. **massive 鑑別窄**：**脾長徑 >20 cm 或重量 >1000 g 之 massive splenomegaly**最指向骨髓增生性腫瘤（myelofibrosis、CML）、淋巴瘤/白血病、Gaucher；myelofibrosis 常合併骨硬化。\n3. **最危險併發症**：腫大脾即使輕微外傷亦可**破裂**，為急症；另有脾梗塞（鐮形血球）、脾功能亢進（全血球下降）。\n4. **臨床評估**：脾腫大多為全身疾病之表徵，須結合肝病/血液/感染/自體免疫病史與周邊血象、其他器官受累判讀。\n5. **量測意義（追蹤）**：單一一維量測敏感/特異難兼顧，**治療反應與病程追蹤建議用體積/splenic index**，並個別化（依身高體重）判定閾值。\n\n> [!note] 考點：脾腫大最常見的病因類別?\n> **充血性（congestive，如門脈高壓、心衰）**（Radiopaedia 將 portal hypertension 標註 common；地區依賴,流行區感染性也常見）。",
+  "name": "Splenomegaly — Causes",
+  "nameZh": "脾腫大",
+  "slug": "splenomegaly",
+  "subspecialty": "ABD"
+}

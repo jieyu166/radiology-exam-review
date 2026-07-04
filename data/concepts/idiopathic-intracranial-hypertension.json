@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**IIH的靜脈竇變化方向要記清楚：顱內壓「升高」造成橫竇「狹窄/血栓/web」（不是擴大），顱內壓「降低」時反而是靜脈竇「擴張」——兩者方向相反，是本題最容易搞混的陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**靜脈竇表現**：IIH常見**橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web**（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。**橫竇擴張(distention)反而是「低顱內壓」的表現**，兩者方向相反。",
+    "**蝶鞍表現**：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。",
+    "**眼球/視神經表現**：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。"
+  ],
+  "management": "",
+  "name": "Idiopathic Intracranial Hypertension (IIH)",
+  "nameZh": "原發性顱內壓升高",
+  "slug": "idiopathic-intracranial-hypertension",
+  "subspecialty": "NR"
+}

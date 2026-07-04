@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**冠狀動脈瘤（CAA）定義為血管節段直徑至少為鄰近正常動脈節段的1.5倍；成人「giant」CAA定義為直徑超過5 cm，兒童則以>8 mm為界。動脈粥樣硬化為CAA最常見病因（占成人至少50%），且動脈粥樣硬化性CAA通常呈囊狀或紡錘狀，發炎後（postinflammatory，如川崎病）CAA則以紡錘狀為主。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：CAA 為血管節段直徑**至少為鄰近正常動脈節段 1.5 倍**之擴張。",
+    "**Giant CAA**：成人以**直徑 >5 cm** 為界；**兒童以 >8 mm** 為界（兩者門檻不同，考題常混淆）。",
+    "**病因與型態**：**動脈粥樣硬化（atherosclerotic）為最常見病因，占成人 CAA 至少 50%**；動脈粥樣硬化性 CAA 通常呈**囊狀（saccular）或紡錘狀（fusiform）**，而**發炎後（postinflammatory，如川崎病）CAA 通常呈紡錘狀**。",
+    "**基礎定義補充（2018交換）**：**真性動脈瘤(true aneurysm)血管壁由外膜/中膜/內膜三層構成**；**囊狀動脈瘤(saccular)橫徑大於縱徑**；**成人巨大型冠狀動脈瘤定義為直徑>20mm(2公分)**（與上述另一來源>5cm並列，考題來源不同定義門檻可能有出入，需留意題目引用）。"
+  ],
+  "management": "",
+  "name": "Coronary Artery Aneurysm (CAA)",
+  "nameZh": "冠狀動脈瘤",
+  "slug": "coronary-artery-aneurysm",
+  "subspecialty": "CV"
+}

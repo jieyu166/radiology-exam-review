@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**青少年鼻咽血管纖維瘤（JNA）＝青春期男性、起源於蝶顎孔（sphenopalatine foramen）之良性、富血管、無包膜、局部侵犯性腫塊，反覆鼻出血 + 翼齶窩（PPF）增寬 + 上頜竇後壁前弓（Holman-Miller/antral sign）。主要供血為同側『內頷動脈（IMA，ECA 分支）』遠端分支。** 判讀分水嶺：**主要供血＝同側 IMA 遠端（sphenopalatine/descending palatine/posterior superior alveolar）；次要＝ascending pharyngeal；範圍大侵犯顱底/顱內或對側供血時，須考慮 ICA 分支（vidian 等）參與——術前血管攝影評估供血 + 栓塞是關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **定位徵象**：SPF 中心 + PPF 增寬 + 上頜竇後壁前弓（Holman-Miller）＝JNA 典型三聯。\n- **T2 flow voids**：反映高血流，強化明顯；與其他鼻咽腫塊鑑別。\n- **供血評估**：DSA 找 IMA 遠端 blush；侵犯顱底/顱內查 ICA 供血（栓塞前必要，避免誤栓致腦缺血）。\n- **雙側/對側**：大腫瘤可跨中線由對側 ECA/ICA 供血，術前需全面評估。\n- **陷阱**：女性 JNA 罕見→重新考慮診斷/基因；勿把 ICA 供血漏掉致栓塞不全或併發。",
+  "keyPoints": [
+    "**族群/臨床**：**幾乎僅見青春期男性**（女性須考慮其他診斷/基因檢測）；**單側鼻塞（90%）、反覆鼻出血（60%）**。",
+    "**起源/擴展**：起於**蝶顎孔（SPF）**，延伸至鼻咽、**翼齶窩（PPF，增寬）**、蝶竇、masticator space、眼眶、顱底。",
+    "**影像**：**強烈強化**軟組織腫塊；**上頜竇後壁向前弓起（Holman-Miller/antral sign）**、PPF 增寬；**T2 異質、中-高訊號含 flow voids**（高血流）；CT 骨重塑。",
+    "**主要供血**：**同側內頷動脈（IMA，ECA 分支）為最常見供血**，尤其遠端 **sphenopalatine、descending palatine、posterior superior alveolar** 分支。",
+    "**次要/進階供血**：**ascending pharyngeal artery** 可提供部分血供；範圍大侵犯顱底/顱內或對側時，可有**ICA 分支（如 vidian）**參與、甚至雙側供血。",
+    "**處置**：**術前栓塞（↓ 手術出血）+ 完整手術切除**；血管攝影評估供血為術前計畫關鍵。"
+  ],
+  "management": "1. **族群**：青春期男性、鼻塞 + 反覆鼻出血。\n2. **定位**：SPF 起源、PPF 增寬、上頜竇後壁前弓。\n3. **主供血**：同側 IMA 遠端分支。\n4. **進階供血**：ascending pharyngeal、ICA（顱底/顱內）。\n5. **處置**：術前栓塞 + 手術切除。\n\n> [!note] 考點：JNA的主要供血動脈來自何處?\n> **Internal maxillary artery（D）**——尤其遠端 sphenopalatine、descending palatine、posterior superior alveolar 分支；ascending pharyngeal artery（A）可提供次要/輔助供血，但非主要來源（範圍大時另有 ICA 分支參與）。",
+  "name": "Juvenile Nasopharyngeal Angiofibroma (JNA)",
+  "nameZh": "青少年鼻咽血管纖維瘤",
+  "slug": "juvenile-nasopharyngeal-angiofibroma",
+  "subspecialty": "H&N"
+}

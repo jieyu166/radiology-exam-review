@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**升主動脈瘤的判讀核心是兩件事：把直徑量「對」，以及看出「快破了沒」。** 量測必須在垂直血流軸的雙斜面（double-oblique）上做，並用 ECG-gated CTA/MRA 減少搏動假影，否則會高估尺寸；報告要報固定 landmark（sinus of Valsalva、sinotubular junction、mid-ascending）。手術門檻不是單一數字，而是「風險高低決定急不急」：一般退化性傳統閾值 **5.5 cm**，Marfan / 遺傳性胸主動脈病（HTAD）/ 二葉式主動脈瓣（BAV）等高風險族群降至約 **5.0 cm**，快速增大本身就是指徵。即將破裂的影像紅旗（crescent sign、鈣化不連續、draped aorta、快速增大）要能一眼認出。",
+  "differentialDiagnosis": [
+    "**主動脈剝離 / 壁內血腫（IMH）**：找 intimal flap、雙腔、或新月狀無強化壁增厚；gated 影像有助於區分根部搏動假影造成的假 flap。",
+    "**穿通性主動脈潰瘍（PAU）**：局部龕影狀對比劑外突穿過鈣化內膜，常合併 IMH。",
+    "**偽動脈瘤（pseudoaneurysm）**：壁不完整、頸窄囊袋狀，須警覺感染/外傷/術後吻合處。",
+    "**主動脈根部正常變異/擴張**：以 landmark 量測與 z-score 校正，避免把生理性擴張誤判為瘤。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1161/CIR.0b013e3181d4739e",
+      "url": "https://doi.org/10.1161/CIR.0b013e3181d4739e"
+    },
+    {
+      "label": "https://doi.org/10.1161/CIR.0000000000001106",
+      "url": "https://doi.org/10.1161/CIR.0000000000001106"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**升主動脈定義為瘤**：軸徑 >5.0 cm（>4.0 cm 已可作診斷門檻/dilatation）。",
+    "**手術介入閾值（特發性/sporadic/退化性）＝5.5 cm**——2010 ACCF/AHA/AATS 與 2022 ACC/AHA 指引一致之傳統門檻（Class 1）。（題目正解）",
+    "**2022 更新**：於有經驗的**多專科 aortic team 中心**，sporadic 升主動脈/根部瘤門檻可**下修至 5.0 cm**（選擇性病人）。",
+    "**降低門檻者**：**Marfan / 其他遺傳性胸主動脈病（HTAD）/ 二葉式主動脈瓣（BAV）**約 **5.0 cm**（合併風險因子/家族剝離史更低）；**接受其他心臟手術**時 ≥4.5 cm。",
+    "**快速增大為介入指徵**：sporadic **≥0.5 cm/年**（或連續 2 年 ≥0.3 cm/年）；HTAD/BAV **≥0.3 cm/年**。"
+  ],
+  "management": "",
+  "name": "Ascending Aortic Aneurysm — Surgical Threshold",
+  "nameZh": "升主動脈瘤手術閾值",
+  "slug": "ascending-aortic-aneurysm",
+  "subspecialty": "CV"
+}

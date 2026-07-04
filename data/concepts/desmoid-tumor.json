@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Desmoid 長得像惡性腫瘤（局部侵犯、術後復發）、但本質是良性纖維增生，且永遠不轉移。** 緻密膠原讓它 T2 呈現低訊號帶、質地石硬，穿刺切片常針頭彈開。與 FAP/Gardner（APC 基因，5q）強相關——腸息肉病人腹部硬塊要想它。記憶鉤：**「像疤痕的腫瘤：硬、不走遠、但局部纏人」**。",
+  "differentialDiagnosis": [
+    "**Neurofibroma / 神經鞘瘤**：可有 target sign;desmoid 以筋膜尾、低訊號膠原帶、沿筋膜浸潤為線索（頸部 desmoid 曾偽裝成神經鞘瘤）。",
+    "**軟組織肉瘤（如 myxofibrosarcoma、fibrosarcoma）**：fascial tail 非專屬;肉瘤多無均勻膠原低訊號帶,壞死／出血較明顯。",
+    "**疤痕（scar）**：疤痕通常無腫塊效應、無明顯富細胞強化;desmoid 為有強化的浸潤性腫塊。",
+    "**腸繫膜 GIST**：GIST 常見中央壞死;desmoid 多為實質、輻射狀條索狀浸潤。淋巴瘤可見 sandwich sign、類癌可見輪輻狀鈣化,皆可資區別。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：**良性、非發炎性纖維母細胞腫瘤**,纖維增生似疤痕組織(選項 A 真)。",
+    "**生物行為**：**局部侵犯、術後易復發,但不轉移**;被視為**介於修復過程與惡性之間**(軟組織肉瘤家族內的 locally aggressive)(選項 B 真)。",
+    "**遺傳**：**APC 基因(adenomatous polyposis coli,5q)**體細胞突變;與 FAP/Gardner 相關(選項 C 真)。",
+    "**質地/切片**：緻密膠原基質→**質硬(rock-hard)、T2 低訊號膠原帶**,對經皮穿刺切片**有抵抗**;故「**不會 rock-hard、對切片無抵抗**」**錯誤**＝題目正解(2016-125 正解 D)。"
+  ],
+  "management": "",
+  "name": "Desmoid Tumor (Aggressive Fibromatosis)",
+  "nameZh": "硬纖維瘤",
+  "slug": "desmoid-tumor",
+  "subspecialty": "MSK"
+}

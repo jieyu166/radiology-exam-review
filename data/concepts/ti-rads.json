@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**ACR TI-RADS 的五個評估項目為：composition、echogenicity、shape、margin、echogenic foci。Vascularity（血流）不包含在 TI-RADS 評估項目中。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "ACR TI-RADS 五大評估項目 ：",
+    "**Vascularity 不是 TI-RADS 評估項目**（舊版 Kwak TI-RADS 曾納入，ACR TI-RADS 已移除）"
+  ],
+  "management": "",
+  "name": "ACR TI-RADS",
+  "nameZh": "甲狀腺影像報告與數據系統",
+  "slug": "ti-rads",
+  "subspecialty": "H&N"
+}

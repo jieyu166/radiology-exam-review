@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**造成左心室心肌肥厚（LVH）的病因口訣：肥厚型心肌病(HCM)、系統性高血壓、Fabry disease等浸潤性/儲積性疾病皆可致心肌增厚。唯獨「鐵過載心肌病(iron overload cardiomyopathy)」表現為『擴張型心肌病(dilated cardiomyopathy)』——心室擴大、LVEF下降，而非肥厚，故最不可能表現LVH。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**可造成LVH之病因**：",
+    "**Hypertrophic cardiomyopathy（HCM）**：典型不對稱性間隔肥厚。",
+    "**Systemic arterial hypertension**：向心性LV肥厚。",
+    "**Fabry disease**：溶酶體儲積病，鞘糖脂沉積致心肌肥厚（典型下側壁LGE、T1 mapping降低）。",
+    "**最不可能表現LVH（本題重點）**：**Iron overload cardiomyopathy（鐵過載心肌病）**——多描述為**擴張型心肌病（dilated cardiomyopathy）**，特徵為**左心室重塑併腔室擴大、LVEF下降**，而非心肌肥厚；心臟MRI T2\\* mapping可定量鐵沉積。"
+  ],
+  "management": "",
+  "name": "Left Ventricular Hypertrophy — Differential Diagnosis",
+  "nameZh": "左心室肥厚鑑別",
+  "slug": "lv-hypertrophy-ddx",
+  "subspecialty": "CV"
+}

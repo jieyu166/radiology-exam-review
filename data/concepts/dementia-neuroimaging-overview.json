@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**失智腦內異常蛋白/胜肽堆積依疾病可分三大類：AD為tau與β-amyloid、DLB為α-synuclein、FTD為tau/TDP/FUS；此分類為病理生理學共識（\"all of the above\"型考題）。血管性失智之影像指標則包含白質高訊號（WMH）、腔隙性梗塞（lacunar infarcts）與微出血分布（腦葉/CAA vs 深部-幕下/血管危險因子相關）。**",
+  "differentialDiagnosis": [
+    "**DLB（dementia with Lewy bodies）**：萎縮主要見於**紋狀體（striatum）、中腦（midbrain）、下視丘（hypothalamus）**，**海馬迴（hippocampus）相對保留**——此為與AD鑑別之關鍵（AD則海馬迴明顯萎縮）。",
+    "**AD（Alzheimer disease）**：**顯著海馬迴萎縮（prominent hippocampal atrophy）**。",
+    "**PSP（progressive supranuclear palsy）**：中腦萎縮致矢狀面**\"hummingbird\" sign（蜂鳥徵）**、軸切面**\"Mickey Mouse\" sign（米老鼠徵）**，另可合併**\"morning glory\" sign**。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Alzheimer disease（AD）**：**tau與β-amyloid**堆積。",
+    "**Dementia with Lewy bodies（DLB）**：**α-synuclein**堆積。",
+    "**Frontotemporal dementia（FTD）**：**tau、TDP-43或FUS**堆積（依亞型而異）。"
+  ],
+  "management": "",
+  "name": "Dementia — Proteinopathy Classification & Vascular Dementia Imaging Markers",
+  "nameZh": "失智症影像",
+  "slug": "dementia-neuroimaging-overview",
+  "subspecialty": "NR"
+}

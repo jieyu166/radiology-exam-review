@@ -1,0 +1,36 @@
+{
+  "checked": false,
+  "definition": "**Sarcoidosis 的 HRCT 指紋是「上中肺野、沿淋巴管走的微結節」加上「雙側對稱肺門＋右 paratracheal 淋巴結腫」，病理是 noncaseating（非乾酪性）肉芽腫，這點與 TB 的乾酪性直接鑑別。** 判讀分水嶺一：分布 perilymphatic（沿支氣管血管束、肋膜下、葉間裂）且上中肺為主——隨機分布或下肺為主則想其他診斷。判讀分水嶺二：**nodules/GGO＝active 可逆；traction bronchiectasis/結構扭曲（Stage IV）＝不可逆纖維化**；分期依 chest radiograph 而非 CT。記憶鉤：Sarcoidosis「跟著淋巴管走，雙肺門對稱腫，noncaseating 不乾酪」。",
+  "differentialDiagnosis": [
+    "granuloma 型態",
+    "分布",
+    "淋巴結",
+    "分期依據",
+    "可逆性",
+    "鑑別"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.306105512。",
+      "url": "https://doi.org/10.1148/rg.306105512。"
+    },
+    {
+      "label": "10.1148/rg.306105512",
+      "url": "https://doi.org/10.1148/rg.306105512"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**病理**：**noncaseating epithelioid granuloma**（非乾酪性）——與 TB 的乾酪性肉芽腫關鍵區別。",
+    "**分布**：肺實質病灶以**上肺與中肺野為主**（非下肺）。",
+    "**影像指紋（HRCT）**：最典型為 **perilymphatic 微結節**（沿 peribronchovascular、subpleural、葉間裂），加 bilateral perihilar opacities 與纖維化變化。",
+    "**淋巴結**：**雙側肺門 + 右側 paratracheal、對稱**腫大（典型）。",
+    "**分期（Siltzbach / Scadding）基於 chest radiograph（X 光），非 CT**：0 正常／I 僅淋巴結／II 淋巴結+實質／III 僅實質／IV 纖維化。",
+    "**可逆性**：nodules、GGO、consolidation = **active**（可隨治療消退）；fibrosis（traction bronchiectasis、distortion、cysts、stage IV）= **不可逆**。約 90% 病人有胸部異常、約 20% 進展為纖維化。"
+  ],
+  "management": "",
+  "name": "Pulmonary Sarcoidosis",
+  "nameZh": "肺類肉瘤病",
+  "slug": "pulmonary-sarcoidosis",
+  "subspecialty": "CH"
+}

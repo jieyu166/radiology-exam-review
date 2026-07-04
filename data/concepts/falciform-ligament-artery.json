@@ -1,0 +1,38 @@
+{
+  "checked": false,
+  "definition": "**HFLA（hepatic falciform ligament artery，又稱 hepatic falciform artery, HFA）是一條沿鐮狀韌帶走向臍部、溝通肝動脈與腹壁（內胸動脈系統）的細小側支；TACE 時若沒認出它，化療栓塞劑會沿吻合跑到臍上腹壁皮膚造成缺血、紅疹、疼痛甚至脂肪壞死。** 起源多為肝中動脈（A4）或肝左動脈（A3），沿 falciform ligament 前下走行至臍周，與 internal thoracic（superior epigastric）系統吻合。記憶鉤：HFLA 是「肝到肚臍的暗道」，血流慢、顯影延遲是辨識關鍵；TACE 前若見到，須超選或預防性栓塞保護腹壁。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/BF01630623"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.radcr.2026.01.054"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s002610000207"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00276-015-1461-4"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/S1607-551X(09"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00270-011-0236-5"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Hepatic Falciform Ligament Artery",
+  "nameZh": "鐮狀韌帶動脈",
+  "slug": "falciform-ligament-artery",
+  "subspecialty": "IR"
+}

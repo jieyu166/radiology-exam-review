@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**栓塞材料依作用時間分為暫時性（如Gelfoam，數週內被吸收）與永久性（如polyvinyl alcohol/PVA、isobutyl-2-cyanoacrylate/IBC、絕對酒精）；十二指腸出血栓塞治療常用材料為Gelfoam、PVA顆粒與微線圈，Lipiodol並非栓塞材料，而是化療栓塞用之油性顯影劑/藥物載體。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**暫時性（temporary/short-acting）栓塞材料**：**Gelfoam**——會於數週內被人體吸收，並非長效永久性材料。",
+    "**永久性（long-acting/permanent）栓塞材料**：Polyvinyl alcohol（PVA, Ivalon）、isobutyl-2-cyanoacrylate（IBC, Bucrylate）、絕對酒精（absolute ethanol）、微線圈（microcoils）。",
+    "**十二指腸出血栓塞適用材料**：Gelfoam、PVA顆粒、微線圈皆為適用之栓塞材料。",
+    "**Lipiodol（碘化油）並非栓塞材料**——為經動脈化療栓塞（TACE）中用於載送化療藥物並暫時性阻塞腫瘤血管之油性顯影劑/藥物載體，並非治療出血之標準栓塞材料。"
+  ],
+  "management": "",
+  "name": "Embolic Materials — Properties and Selection",
+  "nameZh": "栓塞材料",
+  "slug": "embolic-materials",
+  "subspecialty": "IR"
+}

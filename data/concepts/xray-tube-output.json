@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**X光強度（intensity/exposure）與管電壓平方（kVp²）成正比、與mAs成線性正比。所以電壓從110→125 kVp時，強度變為原本的(125/110)²倍。記憶鉤：電壓「平方」、電流時間「一次方」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**X光強度 ∝ kVp²**：X光管輸出強度（exposure/intensity）與管電壓的**平方**成正比。",
+    "**X光強度 ∝ mAs**：與管電流×時間（mAs）成**線性**正比。",
+    "**本題計算**：110 kVp/10 mAs產生32 mR，改為125 kVp（mAs不變）→ 強度 = 32 × (125/110)² = 32 × 1.291 ≈ **41 mR**。"
+  ],
+  "management": "",
+  "name": "X-ray Tube Output — kVp & mAs Relationships",
+  "nameZh": "X光強度電壓關係",
+  "slug": "xray-tube-output",
+  "subspecialty": "Physics"
+}

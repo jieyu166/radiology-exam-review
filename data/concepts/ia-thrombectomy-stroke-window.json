@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**急性大血管阻塞中風取栓治療窗記憶口訣「6-24小時靠影像延窗」——2018 AHA/ASA指引以CT/MR灌流影像篩選具可挽救腦組織之病人，可將前循環治療窗延長至最後正常時間後6-24小時；台灣健保給付則另訂前循環8小時、後循環24小時、NIHSS 8-30分、特定大血管阻塞部位四項同時符合之具體標準。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1161/STR.0000000000000211（accessed",
+      "url": "https://doi.org/10.1161/STR.0000000000000211（accessed"
+    },
+    {
+      "label": "10.1161/STR.0000000000000158",
+      "url": "https://doi.org/10.1161/STR.0000000000000158"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Intra-arterial Thrombectomy — Treatment Window & Taiwan NHI Criteria",
+  "nameZh": "機械取栓治療窗",
+  "slug": "ia-thrombectomy-stroke-window",
+  "subspecialty": "NR"
+}

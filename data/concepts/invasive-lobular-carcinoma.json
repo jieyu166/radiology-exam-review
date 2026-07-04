@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**ILC 的危險是「容易躲過」：細胞排單列鑽過正常組織（Indian file），不成團不引發纖維反應，mammography 可以完全正常；最重要的陷阱是「鈣化不是 ILC 的特徵（<10%）」，別因無鈣化就排除。** 判讀分水嶺一：**影像以 spiculated mass 最常見，其次架構扭曲/不對稱密度；16% mammographically occult 或看似良性**；判讀分水嶺二：**微鈣化 <10%、非 ILC 特徵**——考題若說「鈣化是其特徵」即為錯誤答案。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.210058",
+      "url": "https://doi.org/10.1148/rg.210058"
+    },
+    {
+      "label": "10.1148/rg.291085100（accessed",
+      "url": "https://doi.org/10.1148/rg.291085100（accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**流行病學**：占所有乳癌 **5–10%**。",
+    "**組織學/生長型態**：**單列(single-file／Indian file)線狀浸潤**、E-cadherin 缺失 → 浸潤不成團、**少腫塊效應、少破壞正常結構** → 各模態皆易低估範圍、易偽陰性。",
+    "**典型病理牛眼徵（bull's-eye pattern，2019交換）**：組織學上特徵性的牛眼樣型態，是由**腫瘤細胞環繞癌變或外觀正常的腺泡/乳管（tumor cells surrounding cancerous or normal appearing acini or ducts）**所形成，並非正常細胞環繞癌變腺泡/乳管（方向相反）。",
+    "**乳攝(mammography)**：敏感度僅 **57–81%**(緻密乳房可低至 ~30%)、**偽陰性率高於其他浸潤癌**。最常見為 **spiculated mass**，其次 **架構扭曲(architectural distortion)／不對稱密度**;**微鈣化少見(0–24%)、非 ILC 特徵**;常**僅單一投影可見**;少數以 **shrinking breast(乳房體積較舊片縮小)**表現 → 須左右對稱比對與舊片比對。",
+    "**超音波(US)**：**不規則低回音腫塊、邊界不清、後方聲影(posterior acoustic shadowing)**;範圍常被低估(18–53% 低估腫瘤大小)。",
+    "**MRI**：**敏感度最高(>95%，約 83–100%)**，最準確評估**範圍、多發(multifocal/multicentric)與雙側(bilateral)**;以 **non-mass enhancement(線狀／節段分布)**為特徵性表現;對範圍低估較少,約 1/3 病人因 MRI 偵測到額外病灶。",
+    "**判讀陷阱**：mammography 敏感度低、易遲診且大小低估(可達 70%);**勿因無鈣化即排除 ILC**;新診斷 ILC 建議**術前 MRI** 評估真實範圍/對側,可降低再切除率。",
+    "**轉移型態（ILC 特色）**：肝、骨、肋膜轉移率與 IDC 相當;但**不尋常部位轉移在 ILC 不少見**——**腸胃道、泌尿生殖道、腹膜/漿膜表面、腦膜（leptomeningeal）、心肌**（可呈 linitis-plastica 樣胃壁或腹膜癌病樣播散）;追蹤時對這些非典型部位症狀要提高警覺。臨床上 ILC **較 IDC 常需乳房全切、對化療反應較差**。",
+    "**鑑別診斷(DDx)**：IDC(腫塊較成團、較常含鈣化)、radial scar(中央透亮、長毛刺)、術後疤痕(對照病史與位置)、fibromatosis(desmoid-type，少見)。"
+  ],
+  "management": "",
+  "name": "Invasive Lobular Carcinoma (ILC)",
+  "nameZh": "浸潤性小葉癌",
+  "slug": "invasive-lobular-carcinoma",
+  "subspecialty": "Breast"
+}

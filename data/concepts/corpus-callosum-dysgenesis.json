@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**胼胝體發育不良（agenesis/dysgenesis of corpus callosum）的典型伴隨徵象：colpocephaly（枕角不成比例擴大）、interhemispheric lipoma（大腦間裂脂肪瘤）、Probst bundle（本應跨中線的白質改與半球間裂平行走向，使側腦室分得很開 → racing car sign）——但『扁桃體下降（descended tonsil）』與其無關（屬 Chiari malformation）。** 判讀分水嶺：**Probst bundle → racing car sign 為特徵；colpocephaly 反映壓部/後方白質缺失；interhemispheric lipoma 常併存（原始腦膜異常分化）；descended cerebellar tonsil＝Chiari，非胼胝體發育不良徵象。詳細徵象機轉見 [[corpus-callosum-agenesis-signs]]。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-864（輔助來源",
+      "url": "https://doi.org/10.53347/rID-864（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **三面最佳線索（STATdx）**：**軸位＝側腦室平行 + colpocephaly；矢狀＝cingulate sulcus 消失、腦溝放射狀達第三腦室緣；冠狀＝high-riding 第三腦室 + 額角上翹呈 trident/Viking helmet/Texas Longhorn**。\n- **軸位 racing car**：側腦室平行分開 + colpocephaly（後角擴大）+ 尖額角——Probst bundle 的直接表現。\n- **Probst bundle 機轉（STATdx）**：**縱走異位白質束、位於 cingulate gyrus 與側腦室間、壓迫側腦室內側壁**；T2 略低訊號（似內囊/前連合）；DTI 沿側腦室內側壁走行。\n- **脂肪瘤搜尋**：半球間裂 T1 高訊號（脂肪抑制掉訊號）+ 可鈣化（tubulonodular 型常伴 CC 異常）；**interhemispheric cyst 可分 type I（與腦室相通）/type II（不相通）**。\n- **矢狀確認**：胼胝體部分/完全缺如、cingulate sulcus 消失、腦溝放射狀達第三腦室；**septum pellucidum 缺如**。\n- **前連合評估（STATdx checklist）**：**完全 ACC 分型依三前腦連合（CC/前連合/海馬連合）——僅前連合存在為最常見、tricommissural agenesis（三者皆無）最少見**；CC 缺如時務必描述其他連合。\n- **血管/靜脈（STATdx）**：**ACA 及 pericallosal/callosomarginal 動脈不符正常 CC 形狀、± azygous ACA**；MRV 常見 **persistent falcine sinus**。\n- **合併畸形（STATdx）**：**皮質畸形（polymicrogyria/heterotopia/schizencephaly/lissencephaly）、interhemispheric cyst/lipoma、小腦/腦幹/眼/顏面/脊椎異常**；症狀多取決於合併異常。\n- **產前（STATdx）**：**cavum septi pellucidi 缺如為最常見產前徵象**、重要間接徵象常 24 週後才顯現；color Doppler 見 ACA 不循 CC 走行。\n- **鑑別要點**：見 descended tonsil 想 Chiari（另一疾病），勿歸入 CC 發育不良。\n- **DDx（STATdx）**：**破壞型（callosotomy/外傷/早產 PVL/梗塞/代謝）、拉伸衰減型（hydrocephalus）、未成熟（新生兒 CC 本薄未髓鞘化）、前腦裂化失敗（holoprosencephaly 譜）**。",
+  "keyPoints": [
+    "**Colpocephaly**：側腦室**枕角不成比例擴大**（缺壓部/後方白質正常發育）。",
+    "**Interhemispheric lipoma**：與胼胝體發育不良**常併存**，源自胚胎期原始腦膜（meninx primitiva）異常分化成脂肪。",
+    "**Probst bundle**：本應跨胼胝體之白質無法跨中線，改**與半球間裂平行縱走**，使兩側側腦室平行分開 → **racing car sign**（軸位側腦室前角似賽車車身）。",
+    "**Descended tonsil（不相關）**：小腦扁桃體疝出至枕骨大孔以下＝**Chiari malformation**，**非**胼胝體發育不良之伴隨徵象。"
+  ],
+  "management": "1. **分類（STATdx）**：**agenesis（完全缺如）/ hypogenesis（部分，五部分不全、AP 縮短）/ hypoplasia（瀰漫變薄但五部分皆在、AP 正常）**；胚胎 6 週始形成、15 週各部完成（舊「前→後發育」說已大致被取代）。\n2. **臨床表現**：**癲癇、發展遲緩、下視丘-垂體軸異常**為典型；孤立性 ACC 可無症狀；嚴重度視 CC 異常型別與合併畸形/症候群而定。\n3. **流行病學**：**最常見腦部畸形、0.5-1.8/萬活產**、多於幼兒期發現。\n4. **症候群關聯（STATdx）**：**Aicardi（女性 ACC + polymicrogyria + 半球間裂囊 + 灰質異位）、Rubinstein-Taybi/Apert/Smith-Lemli-Opitz、纖毛病（Joubert/acrocallosal/Meckel）**；關聯數百種基因/非基因症候群，孤立性僅少數。\n5. **治療/互參**：處理合併之內分泌缺損與癲癇；與 [[corpus-callosum-agenesis-signs]] 互參（機轉/三面徵象）。\n\n> [!note] 考點：何種發現「非」與胼胝體發育不良相關?\n> **Descended tonsil（A）**——扁桃體下降屬 Chiari 畸形之表現，與胼胝體發育不良無關。Colpocephaly、interhemispheric lipoma、Probst bundle（致 racing car sign）皆為胼胝體發育不良之相關/伴隨徵象。",
+  "name": "Dysgenesis of Corpus Callosum — Associated Findings",
+  "nameZh": "胼胝體發育不良",
+  "slug": "corpus-callosum-dysgenesis",
+  "subspecialty": "NR"
+}

@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**前縱膈腔腫瘤口訣「4 T's」：Thymoma（胸腺瘤）、Teratoma/生殖細胞瘤、Thyroid（胸骨後甲狀腺腫goiter）、Terrible lymphoma（淋巴瘤）。神經源性腫瘤（neurogenic tumor）好發於「後縱膈」（脊椎旁），不是前縱膈——這是本題陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**前縱膈腔常見腫瘤（4 T's）**：",
+    "**Thymoma / thymic tumors**（胸腺瘤）：前縱膈最常見原發腫瘤。",
+    "**Teratoma / germ cell tumors**（畸胎瘤/生殖細胞瘤）。",
+    "**Thyroid**（胸骨後甲狀腺腫 goiter）。",
+    "**Terrible lymphoma**（淋巴瘤）。",
+    "**非前縱膈（本題陷阱）**：**Neurogenic tumor（神經源性腫瘤）好發於後縱膈**（脊椎旁溝，源自交感神經節/神經鞘），非前縱膈。"
+  ],
+  "management": "",
+  "name": "Anterior Mediastinal Masses (4 T's)",
+  "nameZh": "前縱膈腔腫瘤",
+  "slug": "anterior-mediastinal-masses",
+  "subspecialty": "CH"
+}

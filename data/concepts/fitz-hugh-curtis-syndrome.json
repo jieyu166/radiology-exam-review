@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Fitz-Hugh-Curtis（FHC）症候群＝肝包膜與其上腹膜之發炎（perihepatitis）+ 黏連形成，『不』侵犯肝實質；典型續發於骨盆腔發炎（PID，Chlamydia/Gonorrhea 上行感染直接腹腔內蔓延至肝周）。** 判讀分水嶺：**典型病因＝PID（~4% 輕中度 PID；育齡女性，罕見男性；生殖器結核更高）；急性 CT 見『肝包膜動脈期強化』，慢性見肝周 + 骨盆『violin-string』黏連；少見/非典型病因含 SLE、IUD、子宮內膜異位、術後（如卵巢皮樣囊腫破裂致化學性腹膜炎/黏連）。本題為非典型病因案例＝卵巢皮樣囊腫破裂。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-8227（輔助來源",
+      "url": "https://doi.org/10.53347/rID-8227（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **FHC 機轉（STATdx）**：**PID 之併發——感染經『右側 paracolic gutter』腹膜擴散至右上腹腹膜表面 → perihepatitis（Glisson 包膜發炎）**。\n- **CT 徵象（STATdx）**：**肝前包膜增厚與強化（尤 late arterial phase 最敏感）、subcapsular/periportal 地圖狀肝灌流變異、膽囊壁增厚+周圍積液、右 paracolic gutter 積液/stranding、腹膜隔/loculated 肝周積液**。\n- **MR 徵象（STATdx）**：**subcapsular/periportal 地圖狀 late-arterial 高血管性、延遲期等訊號、precontrast 無對應訊號異常**（CT 混淆時有助）。\n- **找婦科 PID 徵象（STATdx）**：pelvic fat infiltration（~65% 敏感）、uterosacral 韌帶增厚、salpingitis/pyosalpinx（cogwheel sign）、TOA、oophoritis → 支持典型 FHC。\n- **非典型情境**：術後/囊腫破裂致化學性腹膜炎亦可造成肝周 + 骨盆黏連（本題案例，ruptured dermoid 為 PID/FHC 之 DDx）。\n- **臨床**：RUQ 痛 + 肝功能異常 + 骨盆感染背景；影像 late arterial phase 最敏感。",
+  "keyPoints": [
+    "**本質**：**肝包膜 + 其上腹膜發炎（perihepatitis）+ 黏連（violin-string）**，**不侵犯肝實質**。",
+    "**典型病因**：**PID**（上行感染 Chlamydia trachomatis、Neisseria gonorrhoeae）；**由骨盆感染直接腹腔內蔓延至肝周**；輕中度 PID ~4%、育齡女性、生殖器結核更高、罕見男性。",
+    "**少見/非典型病因**：SLE、IUD 置入、子宮內膜異位、raltegravir、腎移植後 mycoplasma、**術後（腹腔鏡輸卵管結紮、卵巢皮樣囊腫破裂）**。",
+    "**影像**：CT **動脈期肝包膜強化**（急性）；慢性見肝周 + 骨盆黏連。"
+  ],
+  "management": "1. **本質/病因（STATdx）**：**PID＝上行感染（陰道→子宮頸→內膜→輸卵管→卵巢），最常 Neisseria gonorrhoeae/Chlamydia trachomatis、30-40% 多菌**；FHC 為其肝周併發。\n2. **危險因子（STATdx）**：**多性伴侶、IUD（PID 風險 3 倍、置入頭數月、actinomycosis 較多）、子宮處置、年輕、低社經**；<25 歲發生率最高（子宮頸未成熟）。\n3. **流行病學（STATdx）**：**美國最常見婦科急診原因（~35 萬次/年、影響 ~100 萬女性/年、~27.5 萬住院/年）**；達 35% PID 無症狀。\n4. **臨床（STATdx）**：陰道分泌物、骨盆痛、發燒、白血球增多、cervical motion tenderness；**FHC 呈 RUQ 痛 + 肝功能異常**；無白血球增多/正常 CRP 不能排除 PID。\n5. **後遺症（STATdx）**：**10-15% 不孕（1 次 8%、2 次 20%、3 次 40%）、異位妊娠風險 6 倍、慢性骨盆痛達 20%、TOA（15-34%）破裂致致命腹膜炎**。\n\n> [!question]- （典型病因）Fitz-Hugh-Curtis syndrome 最常見之基礎病因?\n> **Pelvic inflammatory disease（PID）**——感染經右 paracolic gutter 擴散至右上腹致 perihepatitis；最常 Gonorrhea/Chlamydia。\n\n> [!note] 考點：腹部 CT 顯示肝兩葉周圍與骨盆黏連（FHC adhesions），最可能病因?\n> 本題為**非典型病因案例＝卵巢皮樣囊腫破裂（ruptured ovarian dermoid）**（破裂致化學性腹膜炎與黏連）。雖 FHC 典型源自 PID，本案例答案為 B。",
+  "name": "Fitz-Hugh-Curtis Syndrome",
+  "nameZh": "肝周圍炎",
+  "slug": "fitz-hugh-curtis-syndrome",
+  "subspecialty": "ABD"
+}

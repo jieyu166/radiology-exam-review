@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**肝硬化超音波典型表現：nodular contour、increased parenchymal echogenicity、caudate lobe HYPERTROPHY（非 atrophy）、splenomegaly。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Nodular contour**（表面不規則）。",
+    "**Increased parenchymal echogenicity**（因纖維化）。",
+    "**Caudate lobe hypertrophy**（非 atrophy！caudate 因獨立靜脈回流而代償性增大）。",
+    "**Splenomegaly**（門脈高壓）。",
+    "其他：ascites, portal vein enlargement。"
+  ],
+  "management": "",
+  "name": "Cirrhosis — Ultrasound Findings",
+  "nameZh": "肝硬化超音波",
+  "slug": "cirrhosis-ultrasound",
+  "subspecialty": "US"
+}

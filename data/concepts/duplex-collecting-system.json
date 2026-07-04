@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**泌尿道先天異常中「最常見」的答案就是重複集尿系統。** Weigert-Meyer 法則決定哪一極出哪種麻煩：上極輸尿管插入點偏內下方且異位，容易阻塞和形成 ureterocele；下極輸尿管插入正常但斜行短，容易逆流（VUR）。記憶鉤：**「上極往下走→塞；下極短路→逆流」**。",
+  "differentialDiagnosis": [
+    "**DDx**：單純 UPJ 阻塞、單一系統水腎、腎囊腫（上極水腎可被誤判）、pseudoureterocele（膀胱腫瘤／水腫造成的假性影）。",
+    "**陷阱**：①上極因不顯影／無功能而在 IVP「看不到」，易漏掉重複系統——以 drooping lily 間接徵象與 US 皮質帶補位;②**Weigert-Meyer 為通則非鐵律**，有下極異位阻塞等例外，不可僅憑法則反推解剖;③cobra head 的 hood 增厚要想到 pseudoureterocele;④部分重複不適用 Weigert-Meyer。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Duplex Collecting System (Ureteral Duplication)",
+  "nameZh": "重複腎盂輸尿管",
+  "slug": "duplex-collecting-system",
+  "subspecialty": "ABD"
+}

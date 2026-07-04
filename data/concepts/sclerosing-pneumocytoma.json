@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**Sclerosing pneumocytoma 的關鍵：「圓、清楚、強烈強化」的良性肺結節，好發中年亞洲女性；「不規則」是惡性腫瘤的特徵，不屬於 sclerosing pneumocytoma，此點是常考陷阱。** 判讀分水嶺一：**圓/卵圓＋邊界清楚＋均質（非不規則）→ 良性傾向**；判讀分水嶺二：**顯著強化（hemangiomatous 成分）＋air-meniscus sign**；生長緩慢，手術根治。",
+  "differentialDiagnosis": [
+    "形態",
+    "強化",
+    "生長",
+    "預後",
+    "族群",
+    "鑑別"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.05.0460",
+      "url": "https://doi.org/10.2214/AJR.05.0460"
+    },
+    {
+      "label": "https://doi.org/10.53347/rID-11119",
+      "url": "https://doi.org/10.53347/rID-11119"
+    }
+  ],
+  "imagingFindings": "- **形態**：圓/卵圓、邊界清楚、均質——**不是不規則腫瘤**（此為常考陷阱）。\n- **鈣化**：部分可見。\n- **特徵徵象**：air-meniscus sign（病灶周邊新月狀透亮）、周邊 radiolucent zone。\n- **強化**：顯著但可不均勻（血管/hemangiomatous 成分）。",
+  "keyPoints": [
+    "**本質**：罕見**良性**肺腫瘤；組織學四成分（solid、papillary、sclerotic、hemangiomatous），有薄纖維假包膜。",
+    "**族群**：中年（30–50 歲）、**女性居多**（亞洲女性經典）；多無症狀，偶咳血/咳嗽/胸痛。",
+    "**影像（CT）**：**孤立、邊界清楚的圓/卵圓結節**（常 juxtapleural）；**非不規則**；可鈣化；周邊可見 radiolucent zone / **air-meniscus sign**。",
+    "**強化**：**顯著（significant）強化**（雖可不均），反映血管成分。",
+    "**生長/預後**：**生長緩慢**；**良性、手術切除可根治**。"
+  ],
+  "management": "1. **本質**：罕見**良性**肺腫瘤（源自原始呼吸道上皮/type II pneumocyte），組織學四成分（solid、papillary、sclerotic、hemangiomatous）＋薄纖維假包膜。\n2. **族群（考點）**：**中年（30–50 歲）亞洲女性經典**，女性遠多於男性。\n3. **臨床表現**：**多為無症狀之偶發孤立肺結節**，偶咳血/咳嗽/胸痛。\n4. **自然史（Chung）**：**生長緩慢**，惡性/轉移極罕見；預後佳。\n5. **處置**：因影像難與惡性完全區分，多以**手術切除確診兼根治**；完整切除後預後極佳、罕復發。",
+  "name": "Pulmonary Sclerosing Pneumocytoma",
+  "nameZh": "肺硬化性肺細胞瘤",
+  "slug": "sclerosing-pneumocytoma",
+  "subspecialty": "CH"
+}

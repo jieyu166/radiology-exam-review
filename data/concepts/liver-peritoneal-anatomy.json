@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**肝臟大部分表面被臟層腹膜覆蓋，但三處『不』被覆蓋：裸區（bare area，冠狀韌帶兩葉間、直接貼橫膈）、肝門（porta hepatis，血管膽管進出）、膽囊窩（gallbladder bed）。** 判讀分水嶺：**bare area 位於後上方、由冠狀韌帶上下葉圍成之三角區、直接貼橫膈無腹膜（內含 IVC 與右腎上腺上部）；感染/腫瘤可經此直接侵犯橫膈/後腹膜而不經腹膜腔；porta hepatis 與 gallbladder bed 亦缺腹膜覆蓋。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.322115032",
+      "url": "https://doi.org/10.1148/rg.322115032"
+    },
+    {
+      "label": "10.53347/rID-82245（輔助來源",
+      "url": "https://doi.org/10.53347/rID-82245（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **bare area 定位**：後上方緊貼橫膈、無腹膜；此區積液屬**後腹膜/裸區**而非腹膜腔（與 subphrenic 積液區分）。\n- **擴散路徑**：肝後上方膿瘍/腫瘤可經 bare area 直接波及橫膈/胸膜；判讀勿誤為單純腹膜腔病灶。\n- **韌帶界標**：冠狀韌帶/三角韌帶/鐮狀韌帶界定 bare area 邊界，CT 上為腹膜反折線。\n- **porta/GB bed**：肝門與膽囊窩無腹膜，為病灶蔓延與外科分離之界面。\n- **陷阱**：caudal right lobe、hepatic dome、lateral segment 為一般腹膜化表面，仍有腹膜覆蓋。",
+  "keyPoints": [
+    "**未被臟層腹膜覆蓋的三處**：",
+    "**冠狀韌帶**：由橫膈反折至右葉之腹膜構成上下兩葉，圍成 bare area；前接鐮狀韌帶、後下匯為右三角韌帶、左上匯為左三角韌帶。",
+    "**臨床意義**：bare area 直接貼橫膈、無腹膜阻隔 → 感染/腫瘤可**直接侵犯橫膈/胸腔/後腹膜**而不需先突破腹膜腔。"
+  ],
+  "management": "1. **三裸處**：bare area、porta hepatis、gallbladder bed。\n2. **bare area**：冠狀韌帶兩葉間、貼橫膈、含 IVC/右腎上腺。\n3. **擴散**：可經 bare area 直接侵橫膈/後腹膜。\n4. **積液定位**：bare area 屬後腹膜而非腹膜腔。\n5. **界標**：冠狀/三角/鐮狀韌帶界定裸區。\n\n> [!note] 考點：肝臟哪些部位「不」被臟層腹膜覆蓋?\n> **Bare area、porta hepatis、gallbladder bed（B）**。Caudal right hepatic lobe、hepatic dome、lateral segment 皆為肝臟一般表面，仍被腹膜覆蓋。",
+  "name": "Liver — Visceral Peritoneum Coverage",
+  "nameZh": "肝臟腹膜覆蓋",
+  "slug": "liver-peritoneal-anatomy",
+  "subspecialty": "ABD"
+}

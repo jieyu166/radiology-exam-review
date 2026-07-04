@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**腹部器官頭尾側排列記憶：T12（右腎上腺、celiac trunk）→ L1（幽門、SMA）→ L2（左腎靜脈）→ L3（十二指腸水平部、IMA）→ L4（腹主動脈/髂總動脈分叉）——由上而下依脊椎節數排列是此類排序題的解法。** 判讀分水嶺：**celiac T12、SMA L1、IMA L3、aortic bifurcation L4（Radiopaedia 確認）；left renal vein L2（走 SMA 下方、aorta 前方 → nutcracker）；D3 於 L3 走 SMA 與 aorta 之間（SMA syndrome）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-5157（輔助來源",
+      "url": "https://doi.org/10.53347/rID-5157（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **transpyloric plane（L1）**：幽門、SMA、胰頸、膽囊底、腎門、DJ flexure、脾尖之定位平面。\n- **nutcracker（L2）**：左腎靜脈於 SMA 與 aorta 間受壓 → 左腎靜脈高壓/血尿/性腺靜脈曲張。\n- **SMA syndrome（L3）**：D3 於 SMA-aorta 夾角受壓致近端十二指腸擴張。\n- **排序題解法**：以脊椎節數 T12→L4 由上而下排；血管起源（celiac T12/SMA L1/IMA L3/分叉 L4）為錨點。\n- **臨床**：分叉 L4 為主動脈介入/穿刺定位參考。\n- **血管起源錨點（STATdx）**：**celiac 於膈裂孔下、由主動脈「前方」發出→三大分支（left gastric/splenic/common hepatic）；SMA 於 celiac 正下方前方發出、供血 2nd duodenum 至 splenic flexure；gonadal 動脈起於 renal 動脈下、IMA 上；middle adrenal 動脈由主動脈近 celiac 起源直接發出**。\n- **左腎靜脈之意義（L2）**：**左腎靜脈收納左 gonadal、左 adrenal、左 inferior phrenic 靜脈**（右側則直入 IVC）——故左側性腺/腎上腺靜脈曲張與 nutcracker（左腎靜脈於 SMA-aorta 夾角受壓）相關。\n- **側支弓與變異**：arc of Bühler（celiac-SMA）、marginal artery of Drummond、arc of Riolan（腸繫膜內連 left/middle colic）；**replaced right hepatic artery（由 SMA 發出，9-15%）**為最常見肝動脈變異，介入前須辨識。",
+  "keyPoints": [
+    "**T12**：**right adrenal gland、celiac trunk 起源**；腹主動脈經 aortic hiatus 進腹（T12）。",
+    "**L1**：**pylorus（transpyloric plane ~L1）、SMA 起源**；renal arteries（L1-2）、胰頸、腎門。",
+    "**L2**：**left renal vein**（走 SMA 下方、跨 aorta 前方 → nutcracker 夾角）。",
+    "**L3**：**IMA 起源、十二指腸水平部（3rd portion）**（跨 L3、走 SMA 與 aorta 之間 → SMA syndrome）。",
+    "**L4**：**腹主動脈分叉為左右髂總動脈**（約臍平面）。"
+  ],
+  "management": "1. **T12**：右腎上腺、celiac。\n2. **L1**：幽門、SMA（transpyloric plane）。\n3. **L2**：左腎靜脈（nutcracker）。\n4. **L3**：D3、IMA（SMA syndrome）。\n5. **L4**：主動脈分叉。\n\n> [!note] 考點：器官由頭側至尾側排列\n> **T12（right adrenal gland）→ L2（left renal vein）→ L3（3rd portion of duodenum）→ L4（bifurcation of common iliac artery）**——依脊椎節數由上而下。",
+  "name": "Abdominal Organ Vertebral Level Landmarks",
+  "nameZh": "腹部器官脊椎節數對應",
+  "slug": "abdominal-organ-vertebral-levels",
+  "subspecialty": "ABD"
+}

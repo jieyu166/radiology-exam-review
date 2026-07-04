@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**子宮內己烯雌酚(DES, diethylstilbestrol)暴露的特徵子宮畸形是『T形子宮腔(T-shaped endometrial cavity)』——子宮腔發育不良、變小呈T形，並可伴子宮下段收縮環。記憶：DES＝T-shaped。其他選項：didelphys/bicornuate為融合缺陷、MRKH為發育不全(agenesis)，皆非DES相關。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**DES暴露子宮畸形（本題正解）**：子宮內DES暴露之特徵為**T形子宮腔(T-shaped endometrial cavity)**——子宮腔發育不良變小、呈T形，可伴子宮下段收縮環、子宮發育不全；DES女兒亦增加陰道透明細胞腺癌風險。",
+    "**對照（非DES相關）**：",
+    "**Uterus didelphys**：融合(fusion)缺陷致完全重複之兩個子宮/子宮頸。",
+    "**Bicornuate uterus**：融合缺陷致兩角、外部底部凹陷。",
+    "**MRKH (Mayer-Rokitansky-Küster-Hauser) syndrome**：Müllerian發育不全(agenesis)，子宮/上段陰道缺如。"
+  ],
+  "management": "",
+  "name": "Uterine (Müllerian) Anomalies & DES Exposure",
+  "nameZh": "子宮畸形",
+  "slug": "uterine-mullerian-anomalies",
+  "subspecialty": "ABD"
+}

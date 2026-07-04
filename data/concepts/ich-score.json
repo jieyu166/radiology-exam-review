@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**ICH score的五個因子口訣是「意識、大小、腦室、位置、年齡」：GCS score、ICH volume（≥30cm³）、IVH是否存在、infratentorial origin（非泛指的「location」）、年齡≥80歲——總分0-6分，分數越高30天死亡率越高。考點陷阱是「location of ICH」這個泛稱不是正式因子，正式因子是更具體的「infratentorial origin」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**ICH Score五因子**（各項給分後加總，總分0–6）：",
+    "**GCS score**：3–4分給2分、5–12分給1分、13–15分給0分。",
+    "**ICH volume**：≥30 cm³給1分、<30 cm³給0分（以ABC/2法計算）。",
+    "**IVH（腦室內出血）**：有給1分、無給0分。",
+    "**Infratentorial origin of ICH**：是給1分、否給0分。",
+    "**Age**：≥80歲給1分、<80歲給0分。",
+    "**臨床意義**：此5類別為30天死亡率之獨立預測因子，分數越高死亡率越高;可用於治療標準化與臨床研究分層。",
+    "**非正式因子**：**「Location of ICH」**（泛稱之出血位置）並非正式因子，正式使用的是更具體之**「infratentorial origin」**。"
+  ],
+  "management": "",
+  "name": "ICH Score — Intracranial Hemorrhage Risk Stratification",
+  "nameZh": "腦出血評分",
+  "slug": "ich-score",
+  "subspecialty": "NR"
+}

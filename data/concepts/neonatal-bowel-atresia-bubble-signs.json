@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**氣泡數目直接對應阻塞位置往遠端多推一段：double bubble（胃＋十二指腸）＝十二指腸閉鎖；triple bubble（胃＋十二指腸＋近端空腸）＝空腸閉鎖——多一顆氣泡，阻塞點就往下移一段腸道。** 判讀分水嶺：**關鍵不只看幾顆氣泡，還要看「有無遠端腸氣」——double bubble 且「無遠端氣」＝十二指腸閉鎖（緊急但非急症）；若 double bubble「有遠端氣」，必須做上消化道攝影排除中腸扭轉(midgut volvulus)——那是外科急症。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **「有無遠端腸氣」是分流關鍵**：double bubble **無遠端氣**→十二指腸閉鎖（手術緊急但非急症）；double bubble **有遠端氣**→**須立即上消化道攝影排除中腸扭轉**（無法排除即需緊急剖腹），另鑑別十二指腸蹼(windsock)、環狀胰臟。\n- **中腸扭轉 vs 十二指腸閉鎖**：急性中腸扭轉之十二指腸擴張通常**較不明顯**、D2-D3 突然 beak/taper、corkscrew、DJJ 位置異常；十二指腸閉鎖則明顯球狀擴張且遠端無氣。\n- **NGT 或嘔吐可使氣泡消失**：胃被減壓時初始片可能看不到 double bubble，可經 NGT 打入少量空氣重現。\n- **空腸閉鎖之續發徵象**：sausage-shaped/honeycomb loops、hyperperistalsis、**microcolon（遠端無胎便）**；迴腸閉鎖較易穿孔→胎便性腹膜炎（腹水/腹膜鈣化/pseudocyst）。\n- **模態**：**腹部平片為 double/triple bubble 首選**；有遠端氣時加上消化道攝影；產前超音波/胎兒 MR 可產前診斷（fluid double bubble、polyhydramnios）。",
+  "keyPoints": [
+    "**Double bubble sign**：**新生兒最常見上消化道阻塞（佔 40–50%）**；胃＋近端十二指腸擴張、**無遠端腸氣時本質上即可診斷十二指腸閉鎖(duodenal atresia)**（阻塞多在第二段近壺腹）。",
+    "**Triple bubble sign**：double bubble 之延伸，因**近端空腸擴張**多出第三顆氣泡，為**空腸閉鎖(jejunal atresia)**之典型 X 光表現（sausage-shaped loops、遠端無氣）。",
+    "**記憶要點**：氣泡數與阻塞部位對應——2 顆（胃+十二指腸）＝十二指腸閉鎖；3 顆（胃+十二指腸+近端空腸）＝空腸閉鎖（阻塞在上部空腸）。",
+    "**成因不同**：**十二指腸閉鎖＝胚胎第 12 週腸腔再管化(recanalization)失敗**；**空腸/迴腸閉鎖＝血管性意外(vascular injury，如中腸扭轉/腸套疊/腹裂)**——兩者機轉本質不同。"
+  ],
+  "management": "1. **十二指腸閉鎖 30–46% 合併唐氏症(trisomy 21)**，並常伴心臟缺損、環狀胰臟、腸旋轉不良、VACTERL——診斷後要積極找相關異常。\n2. 臨床表現多為**膽汁性嘔吐（80%，取決於閉鎖與壺腹相對位置）**，或產前超音波已診斷；手術後存活率 >90%，死亡率多與合併異常有關。\n3. **空腸/迴腸閉鎖之遠端阻塞須測囊性纖維化(CF)**——胎便性腸阻塞(meconium ileus)影像可與閉鎖完全相同。\n4. 空腸閉鎖較易多發(type IV)、apple-peel(type IIIb)為罕見家族型；預後取決於切除腸段長度（短腸症候群）與合併畸形。\n5. 判讀時把「double 無遠端氣＝DA、double 有遠端氣＝先排除 volvulus、triple＝空腸閉鎖、遠端閉鎖驗 CF」四點記牢，避免漏掉外科急症。\n\n> [!note] 考點：Plain abdomen上出現Three bubbles air density,最可能阻塞處?\n> **Upper jejunum（上部空腸，C）**——triple bubble sign 代表空腸閉鎖，胃、十二指腸與近端空腸三者擴張、遠端無氣。（對照 double bubble＝十二指腸閉鎖）",
+  "name": "Neonatal Bowel Atresia — Bubble Signs (Double/Triple Bubble)",
+  "nameZh": "雙氣泡徵",
+  "slug": "neonatal-bowel-atresia-bubble-signs",
+  "subspecialty": "PED"
+}

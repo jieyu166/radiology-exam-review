@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Moyamoya disease＝顱內內頸動脈末端進行性阻塞，代償性形成迂曲擴張的側枝血管網(基底核/視丘的signal void＝moyamoya vessels)。Ivy sign(常春藤徵)＝軟腦膜側枝於『FLAIR』及T1增強後呈溝狀高訊號(sulcal hyperintensity)，並非典型T2WI——本題把ivy sign歸於T2WI故為錯誤。SWI可見15-44%微出血。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：**顱內內頸動脈(ICA)末端節段進行性阻塞，代償性形成迂曲、擴張之側枝血管網**。",
+    "**Moyamoya vessels**：於基底核與視丘呈**signal void(流空)**——即擴張側枝血管。",
+    "**Ivy sign（本題重點）**：瀰漫軟腦膜側枝血管(pial collaterals，尤PCA來源)，於**FLAIR呈溝狀高訊號(serpentine sulcal hyperintensity，慢流)、並於T1增強後呈高訊號**；故「on T2WI...ivy sign」為**錯誤**（ivy sign在FLAIR/post-contrast T1，非典型T2WI）。",
+    "**SWI**：可見**微出血(microbleeding) 15-44%**。"
+  ],
+  "management": "",
+  "name": "Moyamoya Disease",
+  "nameZh": "煙霧病",
+  "slug": "moyamoya-disease",
+  "subspecialty": "NR"
+}

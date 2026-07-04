@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**輸尿管結石首選非顯影螺旋 CT（CT KUB）——敏感度最高、已取代 IVU 成為 gold standard；超音波敏感度僅約 24%，KUB 平片漏掉透 X 光結石，兩者皆非首選。** 判讀分水嶺一：**NCCT＝gold standard**；判讀分水嶺二：**超音波只見音影＋twinkle，75% <3 mm 結石被漏掉**。記憶鏈：敏感度 CT >> IVU >> KUB >> US，US 雖「首先執行」卻非「最敏感」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/S0022-5347(01)62754-X",
+      "url": "https://doi.org/10.1016/S0022-5347(01"
+    }
+  ],
+  "imagingFindings": "- **NCCT 為金標準（Vieweg，數據）**：**非顯影螺旋 CT 診斷輸尿管結石之敏感度 98%、特異度 98%、準確度 96%**——已成急性脅腹痛評估標準，多數病人無需進一步影像即可決定是否泌尿科介入。\n- **CT 直接與間接徵**：**結石本體高衰減（直接）＋腎盂輸尿管積水、腎周/輸尿管周脂肪條紋、rim/tissue-rim sign（間接）**；間接徵有助辨識已排出或微小結石。\n- **模態敏感度序（考點）**：**CT >> IVU >> KUB >> US**；US 對結石敏感度僅 ~24%（漏掉近 75% <3 mm），但無輻射、為孕婦/兒童/初篩首選。\n- **US 徵象**：回音灶＋acoustic shadowing＋**twinkle artifact**（彩色督卜勒），可協助定位 UVJ/腎盂結石。\n- **陷阱（Vieweg）**：**NCCT 對腎功能與非阻塞性輸尿管結石評估有限**；靜脈石易與遠端輸尿管結石混淆，須看 tissue-rim sign 與 comet-tail sign 區分。",
+  "keyPoints": [
+    "**非顯影螺旋 CT（unenhanced helical CT / CT KUB）**：**敏感度最高、為參考標準**;CT 對組織衰減的高敏感使平片上透 X 光的結石亦可顯示;已大幅取代 IVU（2016-119 正解 C）。",
+    "**超音波**：常為泌尿道首檢,但對結石**敏感度低**（一研究以 CT KUB 為參考,US 敏感度僅 ~24%,漏掉者近 75% <3mm);徵象＝回音灶、acoustic shadowing、twinkle artifact。",
+    "**IVU（靜脈尿路攝影）**：已**主要被非顯影 CT 取代**。",
+    "**KUB 平片**：許多結石透 X 光、與骨/糞便重疊,敏感度低。"
+  ],
+  "management": "1. **自發排出取決於大小**：**0–3 mm 98%、4 mm 81%、5 mm 65%、6 mm 33%、>6.5 mm 9%**——結石越小越易排出（20 週內）。\n2. **臨床路徑（Vieweg）**：**NCCT 使急診脅腹痛快速分流**，可同時排除其他腹內急症（57% CT 陰性者由其他所見得診斷）。\n3. **輻射考量**：CT 輻射為缺點，孕婦/兒童/反覆追蹤者優先 US 或低劑量 CT。\n4. **處置分流**：小且遠端結石多保守排石（±α-blocker）；大、近端、阻塞併感染/腎功能惡化者需輸尿管鏡/ESWL/引流。\n5. **成分線索**：CT 衰減值可提示結石成分（尿酸低、草酸鈣/磷酸鈣高、cystine 中等），影響治療選擇。\n\n> [!note] 考點：偵測輸尿管結石敏感度最高的檢查?\n> **非顯影螺旋 CT（unenhanced helical CT）**。US 敏感度低(~24%)、KUB 漏透 X 光結石、IVU 已被 CT 取代。\n\n> [!note] 自發排出率主要取決於『結石大小』\n> 自發排出率（20 週內、軸向徑）：**0–3 mm：98%；4 mm：81%；5 mm：65%；6 mm：33%；>6.5 mm：9%**。**結石越小排出率越高**;故 **UVJ 的 3 mm 結石（98%）排出率最高**,大於近端 9 mm／中段 7 mm／遠端 5 mm。位置（遠端較易過 UVJ）為次要因子。",
+  "name": "Ureteral Calculi — Imaging Sensitivity",
+  "nameZh": "輸尿管結石影像",
+  "slug": "ureteral-calculi-imaging",
+  "subspecialty": "ABD"
+}

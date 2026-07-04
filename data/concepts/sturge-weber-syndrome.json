@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Sturge-Weber症候群是神經皮膚症候群，本質為軟腦膜靜脈血管異常(leptomeningeal venous angiomatosis)。血流動力學關鍵：淺層皮質靜脈『缺如/發育不良』，血流改經『深部』側枝引流(deep venous drainage擴大)——不是「經深部側枝引流到淺層」，本題陷阱把方向弄反。其他：顱骨板障增厚(thickened diploe)、皮質下T2低訊號區(鈣化/缺血)、tram-track鈣化、患側腦萎縮。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：神經皮膚症候群，**軟腦膜靜脈血管瘤病(leptomeningeal venous angiomatosis)**（屬靜脈血管異常）。",
+    "**靜脈引流（本題重點）**：**淺層皮質靜脈缺如/發育不良，血流改由擴大之『深部』髓質及室管膜下靜脈引流**——故「血流經深部側枝引流『至淺層』靜脈系統」為**錯誤**（正確為淺層皮質靜脈缺如、深部靜脈引流擴大）。",
+    "**顱骨**：患側**板障增厚(thickened diploe)**、鈣化。",
+    "**T2**：皮質下**低訊號區(鈣化/慢性缺血)**；tram-track迴旋狀鈣化(CT)；患側腦萎縮、脈絡叢增大、軟腦膜強化。"
+  ],
+  "management": "",
+  "name": "Sturge-Weber Syndrome",
+  "nameZh": "史特吉-韋伯症候群",
+  "slug": "sturge-weber-syndrome",
+  "subspecialty": "NR"
+}

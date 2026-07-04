@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**Joubert 症候群（體染色體隱性 ciliopathy）的『molar tooth sign（磨牙齒徵）』由三構造形成：延長、增厚、水平走向的上小腦腳 + 深腳間窩（interpeduncular fossa）+ 蚓部發育不全；第四腦室因蚓部缺失呈『bat wing（蝙蝠翅膀）』外觀，而非『囊狀擴大』。** 判讀分水嶺：**molar tooth 三要素（軸位中腦似臼齒）＝上小腦腳延長增厚水平化 + 深腳間窩 + 蚓部發育不全；DTI 見上小腦腳與錐體束無交叉（decussation 缺失）；第四腦室 bat wing（非 cystic dilation）；為 JSRD 一環（腎消耗症/視網膜失養/多指/肝纖維化）。與 [[corpus-callosum-agenesis-signs]] 之 molar tooth 陷阱互參。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-7418——體染色體隱性、蚓部發育不全（正中裂",
+      "url": "https://doi.org/10.53347/rID-7418——體染色體隱性、蚓部發育不全（正中裂"
+    }
+  ],
+  "imagingFindings": "- **軸位辨識**：中腦-腦橋交界看「臼齒」——粗長水平 SCP + 深腳間窩 + 蚓裂。\n- **bat wing 第四腦室**：正中/軸位見第四腦室呈蝙蝠翅/三角/傘狀，非單純囊狀擴大——精確用詞很重要。\n- **DTI 佐證**：SCP/錐體束無交叉，可與其他蚓部發育不全鑑別。\n- **系統評估**：JSRD 需查腎（nephronophthisis）、眼（視網膜）、肝（纖維化）、指（多指）。\n- **鑑別**：molar tooth 屬 Joubert/JSRD，與胼胝體發育不全之徵象無關（考題常混）。",
+  "keyPoints": [
+    "**本質**：體染色體隱性之 midbrain-hindbrain 畸形（ciliopathy）；**變異程度之小腦蚓部發育不全/缺失（特徵性正中裂）**。",
+    "**Molar tooth sign 三要素**（軸位似臼齒）：",
+    "**第四腦室外觀**：因蚓部缺失、兩側小腦半球對貼，呈**「蝙蝠展翅（bat wing）」徵象**——**而非「囊狀擴大（cystic-appearing dilated）」**。",
+    "**DTI**：**上小腦腳與錐體束之纖維交叉（decussation）缺失**——反映分子病理。",
+    "**常合併**：小腦核異位/發育不良、下橄欖核異常、輕度側腦室擴大（6-20%）、胼胝體發育不良（6-10%）；屬 JSRD（腎消耗症、視網膜失養、多指、肝纖維化）。"
+  ],
+  "management": "1. **molar tooth**：粗長水平 SCP + 深腳間窩 + 蚓部發育不全。\n2. **bat wing**：第四腦室蝙蝠翅，非囊狀擴大。\n3. **DTI**：SCP/錐體束無交叉。\n4. **JSRD**：合併腎/眼/肝/指多系統異常。\n5. **臨床**：張力低下、共濟失調、異常眼動、發作性呼吸異常、發展遲緩。\n\n> [!note] 考點：關於 Joubert Syndrome 的 molar tooth sign，何者「不正確」?\n> 「**第四腦室呈囊狀擴大（dilatation of the cystic-appearing fourth ventricle）**」不正確——正確描述應為**第四腦室呈蝙蝠展翅（bat wing）徵象**（因蚓部缺失致兩側小腦半球對貼）。延長增厚水平化之上小腦腳、深腳間窩、蚓部發育不全皆為 molar tooth sign 之正確組成。",
+  "name": "Joubert Syndrome — Molar Tooth Sign",
+  "nameZh": "裘伯特症候群",
+  "slug": "joubert-syndrome",
+  "subspecialty": "NR"
+}

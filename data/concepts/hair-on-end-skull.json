@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**頭骨 \"hair-on-end\" 外觀代表 diploic space 擴張合併垂直骨小梁增生，常見於慢性溶血性貧血（thalassemia major、sickle cell disease、hereditary spherocytosis）及骨髓浸潤性疾病。Osteosarcoma 不是典型的 hair-on-end skull 診斷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "經典記憶口訣 **HINEST** ：",
+    "**H**ereditary spherocytosis",
+    "**I**ron deficiency anemia",
+    "**N**euroblastoma (metastatic)",
+    "**E**nzyme deficiency (G-6-PD)",
+    "**S**ickle cell disease",
+    "**T**halassemia major",
+    "其他原因：leukemia、polycythemia vera、cyanotic CHD",
+    "**Osteosarcoma** 的 hair-on-end（sunburst）periosteal reaction 見於長骨，不是 skull 的經典診斷"
+  ],
+  "management": "",
+  "name": "Hair-on-End Skull Appearance",
+  "nameZh": "頭骨毛刷樣外觀",
+  "slug": "hair-on-end-skull",
+  "subspecialty": "NR"
+}

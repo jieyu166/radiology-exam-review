@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**60 歲以上男性睪丸腫塊，首先想淋巴瘤——它是此年齡層最常見的睪丸腫瘤，也是最常見的雙側睪丸內腫瘤，US 表現為瀰漫均質低回聲幾乎取代整個實質。** 記憶鉤：「老人全腫、穿出腺外」——年輕人的睪丸腫瘤多是生殖細胞瘤、侷限在睪丸內；老人的淋巴瘤則瀰漫低回聲取代睪丸、同時侵犯附睪/精索，且約 40% 雙側。判讀分水嶺一：**>60 歲 + 無痛腫大 + 瀰漫低回聲取代實質**；判讀分水嶺二：**附睪腫大低回聲 + 精索受累 + 可雙側（~40%）→ 鑑別於侷限睪丸內的生殖細胞瘤**。",
+  "differentialDiagnosis": [
+    "**vs Seminoma**：seminoma 好發**較年輕（多 30–40 歲）、單側單發**、可有分隔（intratumoral septa）、ADC 略高於淋巴瘤；淋巴瘤好發**老年、易多灶／雙側、ADC 最低、易侵附睪/精索**。",
+    "**vs Leukemia／plasmacytoma 浸潤、慢性發炎**：可呈相似的瀰漫低回聲與 straight vessel 表現，straight vessel sign 並非淋巴瘤獨有，需結合年齡與臨床。",
+    "**vs 轉移**：罕見，但淋巴瘤本身即為**最常見的繼發睪丸腫瘤**，老年雙側病灶優先想淋巴瘤而非實體癌轉移。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1186/s12894-022-00957-1"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.7863/ultra.34.6.1139"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1097/MD.0000000000027799"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1186/s12894-025-01825-4"
+    }
+  ],
+  "imagingFindings": "- 灰階：**低回聲病灶，可為單灶、多灶或瀰漫浸潤幾乎取代整個睪丸實質**；多為均質、邊界欠清，少有鈣化或囊變。在一組 5 例 PTL 中，2 例單灶、2 例多灶、1 例整顆睪丸瀰漫受累。\n- **彩色 Doppler 顯示血流增加（hypervascular）**；特徵性「**straight vessel sign（直行血管徵）**」——腫瘤沿曲細精管間質浸潤、不破壞正常睪丸血管構築，故可見**正常睪丸血管「穿越」病灶**；一組 43 例中有 31 例（72%）於病灶內仍見正常睪丸血管走行，是有用的輔助判讀依據。\n- CEUS：**快速高度強化（hyperenhancement）且強化範圍較灰階所見更大、邊界更不清**，搭配「linear nonbranching（線狀不分支）」血管型，反映其浸潤性生長。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Testicular Lymphoma",
+  "nameZh": "睪丸淋巴瘤",
+  "slug": "testicular-lymphoma",
+  "subspecialty": "US"
+}

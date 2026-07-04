@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**Discoid meniscus 為先天性半月板變異，以外側半月板為主（遠多於內側），發生率約 1-5%（MRI 偶然發現率 3-5%）；MRI 診斷標準為冠狀面正中切面半月板體寬度 ≥15 mm，或矢狀面連續 4 mm 薄切出現 ≥3 個 bow-tie 型態。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：半月板異常增寬呈盤狀，覆蓋脛骨平台面積增大。",
+    "**好發位置**：外側半月板遠多於內側半月板。",
+    "**發生率**：約 1-5% 的膝關節，MRI 偶然發現率約 3-5%。",
+    "**先天性**：常為雙側（高達 50%），雙胞胎亦有報告。",
+    "**MRI 診斷標準**：",
+    "**冠狀面**正中切面（midline coronal image）：半月板體寬度 **≥15 mm**（非 5 mm）",
+    "**矢狀面**連續 4 mm 薄切：出現 **≥3 個 bow-tie** 型態",
+    "**Watanabe 分類**：complete、incomplete、Wrisberg variant（僅 Wrisberg 韌帶附著，無後角附著）。"
+  ],
+  "management": "",
+  "name": "Discoid Meniscus",
+  "nameZh": "盤狀半月板",
+  "slug": "discoid-meniscus",
+  "subspecialty": "MSK"
+}

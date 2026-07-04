@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**分水嶺記憶：Subsolid nodule 是「pure GGN + part-solid」兩者的總稱，不是只指 part-solid。結節 <3 cm、腫塊 ≥3 cm。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiol.2017161659"
+    }
+  ],
+  "imagingFindings": "- **Subsolid 的正確定義**：涵蓋 pure GGN 與 part-solid nodule；若選項稱 subsolid「僅指部分 solid、部分 ground glass，不含 pure GGN」即為錯誤 \n- **Part-solid nodule** 內同時具 solid 與 ground-glass 成分；其 solid component 大小是惡性風險與處置的關鍵，需在肺窗量測 \n- **Pure GGN** 純毛玻璃、無 solid 成分，可為 AAH / AIS / lepidic 腺癌譜系；持續存在的 GGN 較有意義 \n- **Perifissural nodule**：鄰近葉間裂、多呈扁平/三角、密度均質，多為肺內淋巴結，屬良性型態 \n- 量測與判讀差異會直接改變 Fleischner 追蹤建議，故 solid vs subsolid、solid component 大小須一致量測",
+  "keyPoints": [
+    "Nodule（結節）：直徑 <3 cm 的圓形/不規則陰影；≥3 cm 稱 mass（腫塊）",
+    "**Subsolid nodule 為總稱，包含 pure ground-glass nodule（純毛玻璃）與 part-solid nodule（部分實質）兩類**",
+    "Ground-glass nodule（GGN）：密度高於正常肺、但不遮蔽下方支氣管血管結構、低於軟組織密度",
+    "Fleischner 2017 指引整合 solid 與 subsolid 結節追蹤，並提高常規追蹤的最小門檻尺寸"
+  ],
+  "management": "1. Fleischner 2017 指引適用於 ≥35 歲、無已知惡性/免疫不全的偶見結節 \n2. 追蹤間隔以「範圍」表示，讓臨床依風險因子與病人偏好調整 \n3. Subsolid 結節（尤其 part-solid）較 solid 結節有更高的惡性可能，追蹤較嚴 \n4. 常規追蹤最小門檻尺寸較舊版提高，以降低過度追蹤 \n5. 多發結節依風險最高者決定處置 \n\n> [!note] 考點：關於肺結節分類，下列哪一敘述為「錯誤」？\n> 「Subsolid nodule 專指部分 solid、部分 ground glass，不包含 pure GGN」為錯誤 —— subsolid 是 pure GGN 與 part-solid 兩者的總稱。",
+  "name": "Pulmonary Nodule Classification",
+  "nameZh": "肺結節分類",
+  "slug": "pulmonary-nodule-classification",
+  "subspecialty": "CH"
+}

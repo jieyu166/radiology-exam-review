@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**GCT 的三個空間關鍵字：骨骺閉合後、長骨末端（直抵軟骨下）、偏心溶骨——且邊緣「不硬化」（non-sclerotic）；記住「偏心頂關節面、無硬化緣」就抓住核心。** 判讀分水嶺一：**邊緣非硬化、窄移行帶是 GCT 的定義特徵；出現明顯硬化緣應懷疑其他診斷。** 判讀分水嶺二：**次發動脈瘤樣骨囊腫（ABC）→ 出現 fluid-fluid levels；侵襲性徵象（皮質破壞、軟組織腫塊）不代表惡性，GCT 本身即可有。**",
+  "differentialDiagnosis": [
+    "**動脈瘤樣骨囊腫 (ABC)**：fluid-fluid levels 為 ABC 特徵性表現;原發 ABC 偏年輕、幹骺端為主，GCT 則骨成熟後、軟骨下偏心。",
+    "**棕色瘤 (brown tumor of hyperparathyroidism)**：影像可極相似;需結合高血鈣／PTH 與其他骨吸收徵象。",
+    "**軟骨母細胞瘤 (chondroblastoma)**：骨骺、骨骺未閉合的年輕病人、常見基質鈣化、MRI 明顯**鄰近骨髓水腫**為鑑別點。",
+    "**亮細胞軟骨肉瘤 (clear cell chondrosarcoma)**：好發長骨骨骺（如近端股骨頭），影像與 GCT 重疊，可有基質鈣化;為惡性需警覺。",
+    "**巨細胞富集型骨肉瘤 (giant cell-rich osteosarcoma)** 與 telangiectatic osteosarcoma：常膨脹性，**通常不產生傳統骨肉瘤的大量骨樣基質**，影像可酷似 GCT;需病理與惡性徵象鑑別。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2106/00004623-198769010-00018",
+      "url": "https://doi.org/10.2106/00004623-198769010-00018"
+    },
+    {
+      "label": "10.1148/rg.331125089",
+      "url": "https://doi.org/10.1148/rg.331125089"
+    },
+    {
+      "label": "10.1051/sicotj/2017041",
+      "url": "https://doi.org/10.1051/sicotj/2017041"
+    }
+  ],
+  "imagingFindings": "- **位置三要素**：**長骨末端 meta-epiphyseal、偏心 (eccentric)、延伸至軟骨下/關節面**。約 84–99% 的病灶延伸至距關節面 1 cm 以內，是強支持徵象。\n- **骨成熟後（closed physis）**：好發第三、四十年（約 80% 在 20–55 歲），骨骺已閉合;此點與骨骺未閉合的 chondroblastoma 對比。\n- **溶骨型態**：**地圖狀 (geographic) 溶骨**、**窄移行帶 (narrow zone of transition) 但無硬化邊 (non-sclerotic margin)**——「偏心頂關節面、邊緣不硬化」即抓住核心。\n- **無基質鈣化、無周邊骨膜反應**：GCT 不產生礦化腫瘤基質;除非合併病理性骨折，否則無骨膜反應。\n- **皮質**：可變薄、膨脹、甚至破壞;CT 評估皮質殼 (cortical shell) 與其完整性最佳。\n- **好發部位**：膝關節周圍最多（遠端股骨 23–30%／近端脛骨 20–25%），其次**遠端橈骨 10–12%、薦骨 4–9%**、近端肱骨 4–8%。\n- **多發少見**：multicentric <1%，傾向非典型部位（脊椎體、手足小骨），且病人較年輕。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Giant Cell Tumor of Bone (GCT)",
+  "nameZh": "巨細胞瘤",
+  "slug": "giant-cell-tumor",
+  "subspecialty": "MSK"
+}

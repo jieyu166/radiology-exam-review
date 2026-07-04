@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**Empyema necessitans＝膿胸『穿出胸膜腔、穿過胸壁』進入鄰近軟組織，最常見致病菌為結核菌。** 判讀分水嶺：**胸膜感染延伸出胸膜腔、經胸壁進入周圍軟組織（非侵犯支氣管）；最常見致病菌 Mycobacterium tuberculosis（~70%），次為 Actinomyces；臨床見胸壁皮膚紅腫熱痛腫塊，皮下膿瘍終可破皮而出。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-9992——**膿胸延伸出胸膜腔進入鄰近胸壁與周圍軟組織**",
+      "url": "https://doi.org/10.53347/rID-9992——**膿胸延伸出胸膜腔進入鄰近胸壁與周圍軟組織**"
+    }
+  ],
+  "imagingFindings": "- **追蹤竇道**：CT 見胸膜積液/膿胸經肋間、穿破壁層胸膜與胸壁肌肉，連至胸壁皮下積液/膿瘍為特徵。\n- **病史線索**：既往胸腔手術/外傷可為穿出誘因。\n- **病菌傾向**：慢性、TB 流行背景 → 高度懷疑結核；放線菌可跨解剖界呈竇道 + 硫磺顆粒。\n- **蔓延多樣**：勿只看胸壁——食道/後腹膜/心包/椎旁亦可受累。\n- **陷阱**：necessitans 是穿『胸壁』非侵犯『支氣管』（後者為 bronchopleural fistula）。",
+  "keyPoints": [
+    "**定義**：膿胸**穿出胸膜腔、經胸壁進入鄰近軟組織**（extension out of pleural space into chest wall/soft tissues）——非侵犯支氣管。",
+    "**機轉/危險因子**：可因病菌毒力，或**先前胸腔手術（thoracotomy）/外傷**使感染循管道穿出。",
+    "**蔓延部位**：最常至胸壁皮下組織，亦可及食道、乳房、後腹膜、腹膜、心包、椎旁；皮下膿瘍終可破皮。",
+    "**致病菌**：**M. tuberculosis 最常見（~70%）**；次為 **Actinomyces**、Blastomyces、Aspergillus、Nocardia、Mucor、Fusobacterium。",
+    "**臨床**：胸壁皮膚**紅腫熱痛腫塊**。"
+  ],
+  "management": "1. **穿胸壁入軟組織**（非侵支氣管）。\n2. **TB ~70% 最常見**、Actinomyces 次之。\n3. **誘因**：胸腔手術/外傷。\n4. **蔓延**：胸壁皮下為主，亦及食道/後腹膜/心包/椎旁。\n5. **臨床**：胸壁紅腫熱痛腫塊、可破皮。\n\n> [!note] 考點：關於 empyema necessitans，何者「為非」?\n> 「**指 empyema 侵犯支氣管**」為非——是膿胸**穿過胸壁進入軟組織**（侵支氣管者為 bronchopleural fistula）。M. tuberculosis 最常見、胸壁皮膚紅腫熱痛皆正確。",
+  "name": "Empyema Necessitans",
+  "nameZh": "膿胸穿壁",
+  "slug": "empyema-necessitans",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**RA 頸椎（C1–C2 為主）有四個經典表現，考題陷阱是「cranial settling＝C2 向頭側移位（basilar invagination）」，而非向尾側。** 判讀分水嶺一：**RA 四特徵＝齒突侵蝕、寰樞前脫位（ADI >3 mm 屈曲位）、apophyseal 融合、cranial settling**，這四個全部正確。判讀分水嶺二：**cranial settling＝C2『頭側』移位（cephalad migration）**，答「C2 向尾側（caudal）移位」為非——方向反了即是錯誤選項。記憶鉤：RA 使 C2「往上沉」（cranial settling，如同地基被侵蝕後向上崩入顱底），不是往下掉。",
+  "differentialDiagnosis": [
+    "**Ankylosing spondylitis（AS）/ DISH**：以**強直、骨贅、韌帶骨化**為主（AS 竹節椎、squaring;DISH 右側流注狀骨化），通常**造成僵硬而非寰樞不穩定**——與 RA 的侵蝕性、可動性不穩定相反。",
+    "**退化性（spondylosis）**：椎間盤狹窄、骨贅、facet 退化，無齒突侵蝕/pannus。",
+    "**感染（脊椎炎/齒突周圍）**：終板破壞、軟組織膿瘍，臨床有發炎/發燒。",
+    "**CPPD（crowned dens syndrome）**：齒突周圍橫韌帶鈣化，可致頸痛、模擬 pannus，但為鈣化而非侵蝕。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00296-022-05239-5",
+      "url": "https://doi.org/10.1007/s00296-022-05239-5"
+    }
+  ],
+  "imagingFindings": "> [!abstract] 判讀總綱\n> RA 頸椎不穩定分三型，**好發頻率：寰樞前脫位（AAS）約 65% ＞ 垂直脫位/cranial settling 約 20% ＞ subaxial 約 15%**。X 光側位**屈伸動態片**是評估不穩定的核心；**MRI** 評估 pannus、脊髓壓迫與訊號變化，並量 cervicomedullary angle。判讀流程：先看 C1–C2（ADI/PADI、齒突上移），再看 subaxial 階梯狀脫位。",
+  "keyPoints": [
+    "**齒突侵蝕（erosion of the dens）**(option D 對)。",
+    "**寰樞椎前脫位（atlantoaxial subluxation）**：屈曲位 **ADI >3 mm**(option C 對)。",
+    "**Apophyseal/facet 關節融合**（含 uncovertebral）(option B 對)。",
+    "**Cranial settling（atlantoaxial impaction）**：**C2/齒突向『頭側（cephalad/cranial）』移位、basilar invagination**;故「**C2 向尾側（caudal）移位**」**非 RA 表現**＝題目正解（2016-168 正解 A）。",
+    "併發：脊髓壓迫、骨質疏鬆/骨折。動態屈伸評估;MRI 看脊髓與 pannus。"
+  ],
+  "management": "",
+  "name": "Rheumatoid Arthritis — Cervical Spine",
+  "nameZh": "類風濕頸椎",
+  "slug": "ra-cervical-spine",
+  "subspecialty": "MSK"
+}

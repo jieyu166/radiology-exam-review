@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Miliary TB 是「血行散播（hematogenous）」呈 random 分布，不是支氣管內散播；endobronchial spread 才產生 centrilobular nodules / tree-in-bud。原發、續發、NTM 各有典型型態。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.2017160032"
+    }
+  ],
+  "imagingFindings": "- **Miliary（血行）vs endobronchial（支氣管內）分水嶺**：miliary nodules 為 **random distribution**（沿血行隨機分布，非以支氣管中心）；endobronchial spread 才呈 **centrilobular nodules / tree-in-bud** \n- **TB lymphadenopathy** 在增強 CT 典型為 **低密度中心 + 周邊環狀強化（peripheral rim enhancement）**（中央乾酪樣壞死） \n- **Postprimary TB** 的 cavitation 影響治療決策（如療程長度）；活性判讀常需比對 6 個月穩定度以區分陳舊纖維結節性病灶 \n- **播散途徑觀念**：初/原發感染早期血行散播扮演重要角色；續發（postprimary）TB 因後天免疫增強，淋巴播散發生率低（考題把淋巴播散說成「重要途徑」為錯誤） \n- 中樞神經 TB 最常見型態為 **tuberculous meningitis**，好發顱底基底池（basal cisterns），可伴 dystrophic calcification（與 tuberculoma、TB abscess、腦 miliary TB 鑑別）",
+  "keyPoints": [
+    "Primary TB：lymphadenopathy、consolidation、pleural effusion，可見 miliary nodules，好發兒童與免疫不全者",
+    "Postprimary TB（reactivation）：肺尖/上葉 consolidation、nodules、**cavitation**，並可經支氣管播散",
+    "**Miliary TB 為血行散播（hematogenous dissemination）**，全肺 random 分布之粟粒結節，常多器官侵犯",
+    "Classic（cavitary）NTM 影像與臨床可與 postprimary TB 難以區分，須實驗室確診"
+  ],
+  "management": "1. 活動性 TB 主要以痰液檢查（抹片、培養、核酸擴增）診斷，影像輔助分級與治療 \n2. 影像上 cavitation 之有無會影響療程長度等治療決策 \n3. Latent TB 無症狀，未來可進展為 postprimary TB；以 TST 或 IGRA 篩檢 \n4. 陳舊 TB 常見肺尖/上葉纖維結節狀病灶，穩定 6 個月可與活動性病灶區分 \n5. NTM 與活動性 TB 影像可相似，須以實驗室確認菌種 \n\n> [!note] 考點：Miliary TB 的散播途徑與影像分布為何？\n> Miliary TB 為**血行散播（hematogenous dissemination）**，呈 **random distribution** 粟粒結節；並非支氣管內散播（endobronchial spread，後者才形成 centrilobular / tree-in-bud）。",
+  "name": "Mycobacterial Infection Imaging",
+  "nameZh": "分枝桿菌感染影像",
+  "slug": "mycobacterial-infection-imaging",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**懷疑急性外傷性主動脈損傷時，安排胸部CT的主要依據是受傷機轉（mechanism of trauma），而非單純依賴胸部X光是否異常、病人主訴胸痛或病人要求。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**主要適應症依據**：**受傷機轉（mechanism of trauma）**——高能量減速傷（如高速車禍、高處墜落）本身即為安排胸部CT評估主動脈損傷的主要理由，不需等待異常胸部X光或胸痛等症狀。",
+    "異常胸部X光、病人主訴胸痛僅為輔助線索，敏感度與特異度皆不足以單獨作為決策依據；病人自行要求並非臨床適應症。"
+  ],
+  "management": "",
+  "name": "Acute Traumatic Aortic Injury — Imaging Workup",
+  "nameZh": "外傷性主動脈損傷",
+  "slug": "traumatic-aortic-injury",
+  "subspecialty": "CV"
+}

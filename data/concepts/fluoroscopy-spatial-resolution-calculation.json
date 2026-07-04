@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**數位影像極限空間解析度（lp/mm）計算兩步：①pixel size = FOV ÷ matrix；②極限解析度 = 1 ÷ (2 × pixel size)——依 Nyquist 抽樣定理，分辨一組 line pair（一亮一暗）至少需 2 個 pixel 寬度，故要「除以 2」。** 判讀分水嶺：**別忘了「÷2」（Nyquist）——只取 1/pixel size 會高估一倍；且這是「取樣/顯示」上限，實際解析度還受焦點大小、幾何放大等限制。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.273065075",
+      "url": "https://doi.org/10.1148/rg.273065075"
+    }
+  ],
+  "imagingFindings": "- **兩步驟固定**：先 FOV/matrix 得 pixel、再 1/(2×pixel) 得 lp/mm。\n- **單位一致**：FOV 換成 mm 再除，避免 cm/mm 混用。\n- **Nyquist 概念**：取樣頻率須 ≥ 2 倍最高空間頻率，才不失真（aliasing）；影像上即「2 pixel/line pair」。\n- **上限非實測**：此為「取樣/顯示」理論上限，實際受焦點大小、幾何放大、散射、偵測器 MTF 等進一步限制而更低。\n- **縮小 FOV/增矩陣**：pixel 變小 → 極限解析度上升（但雜訊/劑量/計算負擔隨之變化）。\n- **數位系統脈絡（Körner）**：數位偵測器（DR/CR/flat-panel）之空間解析度由**偵測器元素（del/pixel）間距**決定；數位系統之優點含更大 dynamic range、劑量效率、PACS 整合，但**取樣像素間距設定了 Nyquist 極限解析度上限**（實際尚受偵測器 MTF/DQE 限制）。",
+  "keyPoints": [
+    "**Pixel size 公式**：**pixel size = FOV ÷ matrix**（例：FOV 30 cm、matrix 1024×1024 → 300 mm/1024 ≈ 0.293 mm）。",
+    "**極限空間解析度公式（Nyquist）**：**極限解析度(lp/mm) = 1 ÷ (2 × pixel size)**——分辨一組 line pair（一亮線一暗線）至少需 **2 個 pixel** 寬度。",
+    "**範例計算**：0.293 mm → 1 ÷ (2 × 0.293 mm) ≈ **1.71 lp/mm**。",
+    "**常見誤區**：勿誤用「1/pixel size」（漏除以 2 → 高估一倍）或其他倍數；先確認每組 line pair 所需 pixel 數（=2）。"
+  ],
+  "management": "1. **公式**：pixel = FOV/matrix；極限 = 1/(2×pixel)。\n2. **除以 2**：Nyquist——1 line pair 需 2 pixel。\n3. **範例**：30 cm/1024 → 0.293 mm → ~1.71 lp/mm。\n4. **上限**：理論值，實際受焦點/幾何/MTF 限制更低。\n5. **調整**：縮 FOV 或增 matrix 可提高極限解析度。\n\n> [!note] 考點：FOV 30cm、matrix 1024x1024，系統理論上解析度不超過多少lp/mm？\n> **約 1.72 lp/mm（D）**——pixel size = 300 mm/1024 ≈ 0.293 mm；極限解析度 = 1/(2×0.293 mm) ≈ 1.71 lp/mm（Nyquist：1 line pair 需 2 pixel）。",
+  "name": "Digital Imaging Spatial Resolution Calculation (FOV/Matrix)",
+  "nameZh": "照野矩陣解析度計算",
+  "slug": "fluoroscopy-spatial-resolution-calculation",
+  "subspecialty": "Physics"
+}

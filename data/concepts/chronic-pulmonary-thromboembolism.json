@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**慢性肺栓塞 CT 徵象包括：鈣化血栓、transpleural systemic collateral vessels（如 intercostal arteries）、bilateral lower lobe peripheral linear opacities（= organized infarcts/fibrosis）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Calcified thrombus** in pulmonary arteries",
+    "**Transpleural systemic collateral vessels**（intercostal / internal mammary arteries）代償",
+    "**Multiple peripheral linear opacities** in lower lobes（organized pulmonary infarcts）",
+    "其他：mosaic perfusion、web/band in PA、PA enlargement、RV hypertrophy"
+  ],
+  "management": "",
+  "name": "Chronic Pulmonary Thromboembolism CT Signs",
+  "nameZh": "慢性肺栓塞",
+  "slug": "chronic-pulmonary-thromboembolism",
+  "subspecialty": "CH"
+}

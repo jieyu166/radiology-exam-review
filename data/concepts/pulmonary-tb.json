@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**肺結核的兩型靠「分布＋病灶」快速分流：淋巴結腫＋胸水想 primary；上肺空洞＋tree-in-bud 想 postprimary。** 判讀分水嶺一：**Primary TB＝任何肺葉 consolidation（無上肺偏好）＋右側淋巴結低密度壞死（可為唯一所見）＋單側胸水**，多見兒童/免疫低下。判讀分水嶺二：**Postprimary TB＝上肺 apical/posterior＋下肺 superior segment，空洞（厚壁不規則）＋centrilobular nodules（tree-in-bud）近乎診斷性**，淋巴結與胸水反而少見。記憶鉤：Primary「下肺＋淋巴腫＋積水」；Postprimary「上肺＋空洞＋枝芽」。",
+  "differentialDiagnosis": [
+    "族群",
+    "Consolidation 分布",
+    "Cavitation",
+    "Lymphadenopathy",
+    "Pleural effusion",
+    "Tree-in-bud"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2017160032。重點：postprimary",
+      "url": "https://doi.org/10.1148/rg.2017160032。重點：postprimary"
+    },
+    {
+      "label": "10.1148/rg.2017160032",
+      "url": "https://doi.org/10.1148/rg.2017160032"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Primary TB**：好發兒童與免疫低下；三聯——**consolidation（任何肺葉、無上肺偏好）、lymphadenopathy（右側 hilar/paratracheal、低密度壞死）、pleural effusion（常單側）**。",
+    "**Postprimary（reactivation）TB**：成人居多；**上肺 apical/posterior segment + 下肺 superior segment**；**cavitation（厚/不規則壁）**、consolidation、nodules/masses。",
+    "**Centrilobular nodules / tree-in-bud**（經氣道播散）**近乎診斷性**，見於 postprimary。",
+    "**Primary 的淋巴結**可為**唯一**所見（尤其兒童）：低密度（壞死）中心、環狀強化。",
+    "**報告/防疫提醒**：上肺**空洞性肺炎**應積極排除 TB、隔離病人直到排除。"
+  ],
+  "management": "",
+  "name": "Pulmonary Tuberculosis (Primary vs Postprimary)",
+  "nameZh": "肺結核",
+  "slug": "pulmonary-tb",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**前臂骨折脫位口訣「近端 Monteggia、遠端 Galeazzi、頭端 Essex-Lopresti」：Monteggia＝尺骨（近端）骨折 + 橈骨頭（radiocapitellar）脫位；Galeazzi＝橈骨（遠端）骨折 + 遠端橈尺關節（DRUJ）脫位；Essex-Lopresti＝橈骨頭（粉碎）骨折 + DRUJ 脫位 +『骨間膜（interosseous membrane）破裂』（縱向前臂不穩定）。橈尺骨由強韌骨間韌帶緊連，故「一骨移位骨折 → 另一骨骨折或脫位」。** 判讀分水嶺：**看到「單一前臂骨移位骨折」務必找另一端關節（PRUJ/DRUJ）——Essex-Lopresti 與 Galeazzi 都有 DRUJ 脫位，差別在骨折部位（橈骨頭 vs 橈骨遠端）＋ Essex-Lopresti 多骨間膜斷裂之縱向不穩定；DRUJ 傷最易漏診。記憶：MUGR（Monteggia-Ulna、Galeazzi-Radius）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1300（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1300（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **一骨骨折 → 找另一骨/關節（判讀鐵則）**：橈尺骨由強韌骨間韌帶緊連，**單一移位骨折常伴另一骨骨折或脫位**；見單一骨折務必搜尋 associated injury。\n- **影像建議**：**X 光正交位為主力，前臂骨折時應加照專屬腕與肘關節 view**；**CT 確認細微 DRUJ 脫位**（技術：雙腕舉過頭、full supination 再 full pronation 之軸位）與關節內延伸；**MR 評估骨間韌帶完整性**。\n- **Essex-Lopresti 陷阱**：橈骨頭骨折時易只顧肘部，**DRUJ 脫位/骨間膜斷裂常漏診** → 長期腕痛、僵硬、不穩、radiocapitellar 撞擊致外側肘痛。\n- **Monteggia vs Galeazzi**：MUGR——**M**onteggia＝**U**lna；**G**aleazzi＝**R**adius。\n- **Colles vs Smith**：Colles＝背側移位（餐叉）；Smith＝掌側移位（花園鏟）。\n- **機轉**：多為 FOOSH（跌倒手撐地）之軸向負荷；Essex-Lopresti 力沿 PRUJ→骨間膜→DRUJ 傳導、肘伸直高能量。",
+  "keyPoints": [
+    "**Monteggia injury**：**尺骨骨折 + 橈骨頭（radiocapitellar 關節）脫位**。",
+    "**Galeazzi injury**：**橈骨骨折 + DRUJ 脫位**。",
+    "**Essex-Lopresti injury**：**橈骨頭粉碎骨折（或單純骨折伴嚴重韌帶斷裂）+ DRUJ 脫位 + 骨間膜破裂**（軸向負荷沿整條前臂傳導之縱向不穩定）。",
+    "**Colles fracture**：橈骨遠端約一吋處橫向關節外骨折、遠端骨片連腕與手**向背側移位**（餐叉/dinner-fork 畸形）；反 Colles＝Smith（掌側移位）。",
+    "**其他前臂型態**：**Both-bone fracture**（橈尺骨中段雙骨折）、**Nightstick fracture**（孤立尺骨幹無移位骨折，舉臂護臉遭直接打擊）、**Bowing/plastic deformity**（彎曲骨折，幾乎只見於兒童）。"
+  ],
+  "management": "1. **三症候群定位**：近端 Monteggia（尺骨+橈骨頭脫位）、遠端 Galeazzi（橈骨+DRUJ 脫位）、橈骨頭 Essex-Lopresti（+骨間膜破裂縱向不穩定）。\n2. **流行病學**：前臂骨折**佔兒童所有骨折 23%**、且**較腕骨傷常見 10 倍**（成人與兒童皆然）；成因多為 FOOSH 或直接打擊（尺骨較常）。\n3. **勿漏對側關節**：單骨骨折要查另一端橈尺關節；**可合併腔室症候群（compartment syndrome）**須警覺。\n4. **治療**：**成人 both-bone 骨折多需 ORIF 加壓鋼板**並復位穩定鄰近關節；**兒童不穩定者以彈性髓內釘**、穩定者保守；plastic（彎曲）骨折不會 remodel。\n5. **併發症/後果**：nonunion 2–10%、malunion、橈尺骨 synostosis、移除內固定後再骨折；Essex-Lopresti DRUJ 漏診致慢性腕痛/不穩。\n\n> [!note] 考點：橈骨頭骨折合併遠端橈尺關節脫位稱為？\n> **Essex-Lopresti fracture**——橈骨頭（粉碎）骨折 + DRUJ 脫位（+ 骨間膜破裂）。Monteggia＝尺骨骨折 + 橈骨頭脫位；Galeazzi＝橈骨遠端骨折 + DRUJ 脫位。",
+  "name": "Forearm Fracture-Dislocation Eponyms",
+  "nameZh": "前臂骨折脫位症候群",
+  "slug": "forearm-fracture-dislocation-eponyms",
+  "subspecialty": "MSK"
+}

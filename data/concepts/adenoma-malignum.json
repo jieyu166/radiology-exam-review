@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**子宮頸冒出一串葡萄、卻流出大量水——這是 adenoma malignum 的經典場景。** 本質是高度分化的黏液腺癌亞型（gastric-type、HPV 無關），初症為大量**水樣/黏液性**分泌（非陰道出血）。判讀分水嶺：影像見子宮頸**多囊性病灶＋深部間質的實性強化成分**，且病灶**延伸超出正常 endocervical glands 範圍**（>正常腺體深度）——這正是它與良性多囊病灶（nabothian cyst、tunnel cluster）的關鍵分野。外觀雖「良性」，實則早期腹腔播散、對放化療反應差，預後不良；與 Peutz-Jeghers 相關。",
+  "differentialDiagnosis": [
+    "病灶",
+    "**Nabothian cyst**",
+    "**Tunnel cluster**",
+    "**LEGH（lobular endocervical glandular hyperplasia）**",
+    "**一般子宮頸腺癌（HPV-related adenocarcinoma）**"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1055/s-0041-1734377（PMC8448214，accessed",
+      "url": "https://doi.org/10.1055/s-0041-1734377（PMC8448214，accessed"
+    },
+    {
+      "label": "10.1016/j.radcr.2016.08.008（PMC5128363，accessed",
+      "url": "https://doi.org/10.1016/j.radcr.2016.08.008（PMC5128363，accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：子宮頸**高分化黏液性腺癌亞型**（minimal deviation adenocarcinoma），屬 **gastric-type** 黏液腺癌、與 **HPV 無關**，約佔子宮頸癌 1–3%。",
+    "**影像核心**：子宮頸**多囊性病灶＋實性成分**、產生大量**黏液**；實性成分多位於**深部子宮頸間質**。",
+    "**MRI**：T2 多囊**高訊號**，加上**深部間質的實性成分**並在打對比劑後**明顯強化**；病灶**延伸超出正常 endocervical glands 範圍**（正常腺體一般不超過約 8 mm 深）。",
+    "**特殊徵象**：中央小囊被周邊多顆大囊環繞 → **cosmos（大波斯菊/「宇宙」花）樣態**；solid 成分常 DWI 高訊號但 **ADC 不受限**（atypia/mitosis 低）。",
+    "**臨床**：初症常為**大量水樣/黏液性陰道分泌**（非以陰道出血為主）；與 **Peutz-Jeghers 症候群**相關。",
+    "**預後**：**不良**——早期即腹腔播散、對放化療反應差。"
+  ],
+  "management": "",
+  "name": "Adenoma Malignum (Minimal Deviation Adenocarcinoma)",
+  "nameZh": "惡性腺瘤",
+  "slug": "adenoma-malignum",
+  "subspecialty": "ABD"
+}

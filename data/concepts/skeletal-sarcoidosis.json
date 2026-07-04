@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**骨骼類肉瘤病好發手足小骨，X 光呈 lace-like（花邊蜂窩）溶骨＋骨侵蝕＋皮下軟組織結節，但『關節間隙保留』，這是與感染性/侵蝕性關節炎的分水嶺。** 判讀分水嶺一：**lace-like 溶骨＋骨侵蝕，好發手部小骨**；判讀分水嶺二：**關節/椎間隙通常保留**——「關節間隙狹窄」非典型，考題常以此為誘餌選項。記憶鉤：類肉瘤病侵骨像「蕾絲網」（lace），但不「擠壓」關節縫。",
+  "differentialDiagnosis": [
+    "**骨轉移／多發性骨髓瘤**：多發溶骨／T2 高訊號強化灶最像;有已知胸內類肉瘤病、病灶集中手足短骨、關節間隙保留時偏向類肉瘤病，但確診仍需切片。",
+    "**棕色瘤（brown tumor）／副甲狀腺亢進**：類肉瘤病可有**高鈣血症（約 18%）與高尿鈣（約一半）**（calcitriol 過量），易與代謝性骨病混淆;須對照鈣磷代謝。",
+    "**感染（含結核）／其他肉芽腫病**：診斷以**非乾酪性肉芽腫**並排除感染（尤其結核）與淋巴瘤為準。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1177/11795441211072475"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3390/diagnostics14242842"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1093/rheumatology/kex317"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**花邊狀骨破壞**：囊狀透亮區、**lacelike honeycomb（花邊蜂窩）外觀（典型於手部）**;故 option D 正確。",
+    "**骨侵蝕**：可有廣泛 **bone erosion**;故 option B 正確。",
+    "**皮下結節**：**皮下軟組織腫塊/結節或腱鞘炎**;故 option C 正確。",
+    "**關節間隙**：**關節/椎間隙通常保留**;故「**關節間隙狹窄（joint space narrowing）**」**非典型**＝題目正解（2016-139 正解 A）。"
+  ],
+  "management": "",
+  "name": "Skeletal Sarcoidosis",
+  "nameZh": "骨骼類肉瘤病",
+  "slug": "skeletal-sarcoidosis",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,43 @@
+{
+  "checked": false,
+  "definition": "**支氣管擴張的鑑別核心是「哪一層級的氣道受累」——中央、中段（第 4–6 級）、周邊各有對應病因與症候群。** 記憶三個具名症候群：**Williams-Campbell＝中段（mid-order）軟骨缺損，選擇性中段擴張**；**Mounier-Kuhn＝中央氣道（氣管/主支氣管）擴大，非中段**；**Swyer-James＝感染後 bronchiolitis obliterans，單側透亮肺**。記憶鉤：**「W（中段）、M（中央）、S（單側）」——W/M/S 層級由內到外顛倒」**。",
+  "differentialDiagnosis": [
+    "分布",
+    "**上肺／中上肺**",
+    "**中葉／舌葉**",
+    "**下肺**",
+    "**中央**"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2015140214",
+      "url": "https://doi.org/10.1148/rg.2015140214"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6717619/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6717619/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11134485/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11134485/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669592/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8669592/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Williams-Campbell syndrome**：先天**第 4–6 級（mid-order/subsegmental）支氣管軟骨缺損** → **選擇性中段支氣管擴張**；吸氣時氣囊狀膨大、呼氣時塌陷。",
+    "**Mounier-Kuhn syndrome（tracheobronchomegaly）**：**中央氣道（氣管、主支氣管）異常擴大**——是中央、非中段。",
+    "**Swyer-James syndrome**：感染後 **bronchiolitis obliterans** → 單側透亮肺 + 不對稱支氣管擴張（整側肺）。",
+    "**Bronchiolitis obliterans**：**小氣道**病變，非選擇性中段支氣管擴張之因。",
+    "分布線索：中央 → ABPA（中央性）、Mounier-Kuhn；上肺 → CF、ABPA、TB、sarcoid、silicosis；下肺 → 吸入、免疫缺乏、primary ciliary dyskinesia；**前段（RML/舌葉）→ MAC（Lady Windermere）**。",
+    "**機轉（Cole vicious cycle）**：氣道損傷 → 感染 → 發炎 → 更多氣道損傷的惡性循環;**管壁增厚＋黏液栓＝慢性氣道發炎的徵象**;判讀策略＝以「分布＋型態＋伴隨氣道/實質所見」收斂病因。"
+  ],
+  "management": "",
+  "name": "Bronchiectasis — Distribution & Imaging Clues",
+  "nameZh": "支氣管擴張",
+  "slug": "bronchiectasis",
+  "subspecialty": "CH"
+}

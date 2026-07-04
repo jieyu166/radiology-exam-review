@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**ACR LI-RADS v2018 的 ancillary features 分「favoring benignity（可降級）」與「favoring malignancy（可升級，最多升到 LR-4）」；腫塊含鐵量高於肝實質（iron in mass, more than liver）屬 favoring benignity，而 nodule-in-nodule、corona enhancement、non-enhancing capsule 屬 favoring malignancy。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiol.2017170554"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1055/a-1990-5924"
+    }
+  ],
+  "imagingFindings": "- **Iron in mass more than liver ＝ favoring benignity**：常見於 siderotic（含鐵）再生結節；含鐵結節較不會是 HCC，故為降級指標\n- **易混的 favoring malignancy 特徵**：nodule-in-nodule 與 mosaic architecture 反映結節內去分化；corona enhancement 為病灶周邊引流靜脈早顯；non-enhancing capsule 與 enhancing capsule 均偏惡性方向——皆非 benignity\n- **應用原則**：ancillary features 為選用（optional），僅在能改變處置時使用，且不可把 LR-4 升為 LR-5",
+  "keyPoints": [
+    "ACR LI-RADS v2018 允許用 ancillary features 調整由 major features 得到的分類：favoring benignity 可降一級、favoring malignancy 可升一級（升級上限為 LR-4，不可單憑輔助特徵升到 LR-5）",
+    "**Favoring benignity（部分）**：size stability ≥2 年、size reduction、parallels blood pool、undistorted vessels、**iron in mass more than liver**、marked T2 hyperintensity、hepatobiliary phase isointensity",
+    "**Favoring malignancy（部分）**：nodule-in-nodule、mosaic architecture、corona enhancement、non-enhancing capsule、fat/blood products in mass、subthreshold growth 等"
+  ],
+  "management": "1. LI-RADS 用於慢性肝病／HCC 高風險族群的肝臟觀察分類。\n2. 高風險族群含肝硬化、慢性 B 型肝炎、目前或曾有 HCC 者。\n3. 分類（LR-1 至 LR-5、LR-M、LR-TIV）反映惡性機率。\n4. Major features 具高特異度與陽性預測值以診斷 HCC。\n5. 標準化詞彙可降低判讀者間變異、改善跨科溝通。\n\n> [!note] 考點：下列何者為肝腫瘤中 favoring benignity 的 ancillary feature？\n> **A：Iron in mass, more than liver**。Nodule-in-nodule（B）、corona enhancement（C）、non-enhancing capsule（D）皆為 favoring malignancy/HCC。",
+  "name": "LI-RADS Ancillary Features Favoring Benignity",
+  "nameZh": "LI-RADS 良性輔助特徵",
+  "slug": "li-rads-ancillary-benignity",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**腦靜脈竇血栓(CVST)的影像分「直接看到血栓」與「間接的實質變化」兩條線。直接徵象陷阱多：急性血栓在 NCCT 高密度、在 T2 反而低訊號→像正常 flow void 易漏診,要靠顯影的 empty delta 或 T2*/SWI blooming 揭露。** 判讀分水嶺一：**靜脈梗塞「不依動脈分布」且常出血**——這是與動脈中風的關鍵差異;分水嶺二：**橫竇發育不全(常左側)與 arachnoid granulation 會模擬血栓**;分水嶺三：**DWI 並非萬用,血栓不一定擴散受限**（「DWI 全看得到」是錯誤敘述）。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.26si055174（pre-2022",
+      "url": "https://doi.org/10.1148/rg.26si055174（pre-2022"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**背景/危險因子**：好發年輕女性;**懷孕/產褥、口服避孕藥、血栓體質、感染（乳突炎/鼻竇炎→sigmoid/海綿竇）、脫水、惡性腫瘤、自體免疫**;約 1/4–1/3 idiopathic。",
+    "**影像策略**：**MRI＋MRV（或 CTV）為診斷主力**;同時看「**直接徵象（竇內血栓）＋間接徵象（靜脈梗塞/出血/水腫）**」。"
+  ],
+  "management": "",
+  "name": "Dural Venous Sinus Thrombosis",
+  "nameZh": "硬腦膜靜脈竇血栓",
+  "slug": "dural-venous-sinus-thrombosis",
+  "subspecialty": "NR"
+}

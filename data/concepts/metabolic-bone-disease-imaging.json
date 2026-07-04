@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**骨質疏鬆症是最常見的代謝性骨病；副甲狀腺機能亢進的骨骼變化在 95% 病人中最容易在「手部」（尤其橈側中節指骨之骨膜下骨吸收）辨識，而非脊椎——這是本題最常見的誤判陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **佝僂病(rickets)典型表現**：rachitic rosary(肋軟骨交界處膨大)、長骨幹骺端周邊透亮環(peripheral rim along metaphysis)、與生長板平行之橫向硬化線(healing rickets)。**遠端指骨骨吸收(acro-osteolysis)非典型表現**（其鑑別診斷為乾癬/外傷/神經病變/膠原血管病/副甲狀腺機能亢進/家族性等，與rickets機轉不同）。\n- **低磷酸酶症(hypophosphatasia)典型表現**：顱骨敲擊銅樣外觀(beaten-copper appearance，因功能性顱縫早閉)、身材矮小、長骨假性骨折(pseudo-fracture)。**典型骨骼變化為「瀰漫性骨質疏鬆」，非「瀰漫性硬化性變化」**——此為常見誤判方向。\n- **腎性骨營養不良(renal osteodystrophy)典型表現**：顱骨鹽和胡椒樣外觀(salt and pepper skull)、長骨骨吸收合併皮質隧道化(cortical tunneling)、棕色瘤(brown tumor)形成(常合併續發性副甲狀腺機能亢進)。**與生長板平行之橫向硬化線為rickets之典型表現，非腎性骨營養不良**——此為常見模態混淆處。\n- **副甲狀腺機能亢進(hyperparathyroidism)典型表現**：指骨骨膜下骨吸收(subperiosteal resorption)、長骨皮質內骨吸收(intracortical resorption)、骨內囊狀透亮病灶(棕色瘤)。**鈕扣狀死骨(button sequestrum)非典型表現**——此徵象典型見於骨髓炎與嗜酸性肉芽腫，偶見於纖維肉瘤與淋巴瘤，非副甲狀腺機能亢進。\n\n> [!note] 考點總覽：各代謝性骨病之「非典型」誤判陷阱\n> Rickets非典型＝遠端指骨骨吸收；Hypophosphatasia非典型＝瀰漫性「硬化」（實為疏鬆）；腎性骨營養不良非典型＝與生長板平行橫向硬化線（那是rickets）；副甲狀腺機能亢進非典型＝鈕扣狀死骨（那是骨髓炎/嗜酸性肉芽腫）。",
+  "keyPoints": [
+    "**Osteoporosis（骨質疏鬆症）**：**最常見的代謝性骨病**，骨量減少但骨基質/礦化比例正常。",
+    "**Osteomalacia（軟骨症）**：皮質骨與海綿骨中類骨質（osteoid）的礦化不足或異常礦化。",
+    "**Hyperparathyroidism（副甲狀腺機能亢進）骨骼變化辨識部位：95% 病人最容易在「手部」辨識**——典型徵象為**橈側中節指骨（index/long finger）之骨膜下骨吸收（subperiosteal resorption）**，而非脊椎；「最容易在脊椎辨識」為錯誤敘述。",
+    "**Renal osteodystrophy（腎性骨營養不良）**：慢性腎功能不全背景下所見骨骼變化的複合表現（可合併骨軟化、高轉換性骨病、續發性副甲狀腺機能亢進等混合病理）。"
+  ],
+  "management": "",
+  "name": "Metabolic Bone Disease — Imaging Overview",
+  "nameZh": "代謝性骨病",
+  "slug": "metabolic-bone-disease-imaging",
+  "subspecialty": "MSK"
+}

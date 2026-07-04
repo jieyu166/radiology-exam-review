@@ -1,0 +1,64 @@
+{
+  "checked": false,
+  "definition": "**EGPA 的三聯是氣喘＋嗜酸性球增多＋壞死性血管炎，ANCA 陽性時記得是 pANCA（MPO），不是 cANCA。** cANCA（PR3）屬於 GPA/Wegener，兩者在考題常互換作陷阱。記憶鉤：**「EGPA 有氣喘和好多嗜酸球（p 型），GPA 靠 c 型抗體」**——p vs c 對應 EGPA vs GPA，背起來就不混淆。",
+  "differentialDiagnosis": [
+    "**vs 慢性嗜酸性球肺炎(CEP)**:CEP 典型為**上中肺野、周邊/胸膜下對稱 consolidation**(「肺水腫的照相負片 photographic negative of pulmonary edema」);EGPA 病灶更偏**游走性、合併氣道病變與小葉中心結節**,且具系統性(氣喘＋鼻竇＋神經/心臟)背景。前驅/嗜酸性球期 EGPA 影像可與 CEP 重疊,須靠臨床。",
+    "**vs GPA(Wegener)**:GPA 以**多發結節/腫塊伴空洞**、肉芽腫、上呼吸道(鼻中膈穿孔、聲門下狹窄)、肺出血為特徵,血清為 **cANCA(PR3)**;EGPA 罕見空洞、以游走性周邊浸潤為主、血清為 **pANCA(MPO)**。考題常以 ANCA 型別互換設陷阱。",
+    "**判讀陷阱**:① EGPA 肺影像**非特異**且**會移行**,單張影像不足以定性,須回看舊片與臨床;② 胸部 X 光可正常而 HRCT 已有異常,**X 光陰性不能排除**;③ 小葉中心 GGO 結節不要誤判為感染性 tree-in-bud;④ 心臟侵犯常無症狀,**有心臟事件風險者宜考慮 CMR**。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s10067-010-1530-3"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1378/chest.07-0482"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.autrev.2015.04.013"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.ejim.2016.09.014"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1093/rheumatology/keab514"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s10554-016-0843-y"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK537099/",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537099/"
+    },
+    {
+      "label": "https://jbsr.be/articles/10.5334/jbsr.4103",
+      "url": "https://jbsr.be/articles/10.5334/jbsr.4103"
+    },
+    {
+      "label": "10.5334/jbsr.4103，開放全文已讀",
+      "url": "https://doi.org/10.5334/jbsr.4103，開放全文已讀"
+    },
+    {
+      "label": "10.5334/jbsr.4103",
+      "url": "https://doi.org/10.5334/jbsr.4103"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**三聯**：**氣喘、周邊/組織嗜酸性球增多、壞死性血管炎**(常伴肉芽腫)。",
+    "**ANCA**：約 30–40% 陽性,典型為 **pANCA(MPO-ANCA)**;**cANCA(PR3) 屬 GPA/Wegener**,非 EGPA。",
+    "**三臨床期**:① 前驅期(氣喘＋慢性鼻竇炎/鼻息肉)→ ② 嗜酸性球組織浸潤期 → ③ 血管炎期。",
+    "**肺影像核心**:**周邊/胸膜下為主、游走性(transient/migratory)的 GGO 與 consolidation**,合併小葉中心結節、支氣管壁增厚與支氣管擴張。",
+    "**心臟**是最重要的死亡預測因子;CMR 上 **non-ischemic pattern 的 late gadolinium enhancement(LGE)** 為最常見異常。"
+  ],
+  "management": "",
+  "name": "Eosinophilic Granulomatosis with Polyangiitis (Churg-Strauss)",
+  "nameZh": "嗜酸性肉芽腫性多血管炎",
+  "slug": "egpa-churg-strauss",
+  "subspecialty": "CH"
+}

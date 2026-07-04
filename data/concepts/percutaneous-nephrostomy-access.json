@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**經皮腎造廔（PCN）單純引流之理想進針口訣「肋骨下、下極、後側腎盞、走 Brödel 無血管面」——四要素同時滿足最安全：subcostal 避肋間神經血管與胸膜、lower pole 降低鄰近器官/胸膜風險、posterior calyx 朝向背側、Brödel plane（離矢狀面 20–30°、腎動脈前後分支間之相對無血管區）降低出血。** 判讀分水嶺：**進針點要「經腎盞乳頭尖/穹窿（papillary tip/fornix）」，避開 infundibulum 與腎盂（血管損傷風險）；且避免 supracostal（肋骨上）以免氣胸/血胸——Treves 無血管線是腸繫膜結構，非腎穿刺定位，屬混淆選項。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **進針目標＝腎盞乳頭尖/穹窿**：**避開 infundibulum 與腎盂**（此處進針血管損傷/血尿風險高）。\n- **後側 vs 前側腎盞辨識**：**後側腎盞於影像上呈端視「圓形」、前側腎盞呈側視「杯狀」**；prone 病人可注入空氣/CO₂ 使後側腎盞（antidependent）更明顯。\n- **腎臟方位**：腎臟與冠狀面約 30–50°、上極較內側、平均約 14 個腎盞；定位 Brödel plane 需將 C-arm 旋轉離矢狀面 20–30°（或於同側墊楔形墊）。\n- **US 導引初始 access（積水時）**、fluoroscopy（非積水或有可視結石/支架時）；CT 少用（馬蹄腎/嚴重脊柱側彎/避開間置臟器）。\n- **安全提醒**：避 supracostal（胸膜併發症）、避 infundibular/腎盂進針（血管傷）；抽尿量須 > 預計注入對比量以免過度擴張加重菌血症。",
+  "keyPoints": [
+    "**理想組合（考點）**：**subcostal（肋骨下）＋ lower pole（下極）＋ posterior calyx（後側腎盞）＋ Brödel bloodless plane**。",
+    "**Subcostal 優於 intercostal/supracostal**：避肋間神經血管束與**胸膜（supracostal 有氣胸/血胸/膿胸風險）**。",
+    "**下極後側腎盞優先**：**inferior pole posterior calyx 為外引流之常用進針**（中/上極便於通往 UPJ 但常需 intercostal、穿胸膜風險）。",
+    "**Brödel plane**：腎動脈**前後分支間之相對無血管面、離矢狀面約 20–30°**，沿此進針降低出血；**Treves 無血管線為腸繫膜結構**，非腎穿刺標的。"
+  ],
+  "management": "1. 適應症含**阻塞性腎積水/膿腎減壓、antegrade 支架、經皮取石（腎盂結石 >2 cm/鹿角/下極 >1–2 cm）、尿路改道、Whitaker test**。\n2. **技術成功率：積水 95–98%、非積水 80–85%**；置管後**暫時性血尿常見、多 24–48 小時緩解**。\n3. 術前 platelet >50,000、INR ≤1.5；uroseptic 者需抗生素與血流動力學支持（術中敗血/敗血休克風險）。\n4. **最可怕併發症為醫源性血管損傷/大量血尿**（假性動脈瘤、AV fistula、動脈撕裂），持續則血管攝影＋栓塞；另有臟器貫穿（retrorenal colon/脾/肝/胸膜）。\n5. Whitaker test 評估腎盂-膀胱阻塞：壓力梯度 <15 cmH₂O 正常、>22 阻塞、15–22 不定（可提高灌注率再測）。\n\n> [!note] 考點：單純引流型經皮腎造廔理想穿刺路徑?\n> **Subcostal（肋骨下）＋ Lower pole calyx（下極腎盞）＋ Posterior calyx（後側腎盞）＋ Brödel bloodless line（Brödel 無血管面，離矢狀面 20–30°、腎動脈前後分支間）**。**Treves bloodless line 為腸繫膜結構、非腎穿刺相關**，為混淆選項。",
+  "name": "Percutaneous Nephrostomy — Ideal Access Route",
+  "nameZh": "經皮腎造廔",
+  "slug": "percutaneous-nephrostomy-access",
+  "subspecialty": "GU"
+}

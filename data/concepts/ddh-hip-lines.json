@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**DDH 三條參考線口訣「H 水平、P 垂直、S 弧線」——Hilgenreiner 連雙側 triradiate/髂骨最低點的水平基準線、Perkins 垂直通過髖臼外側緣、Shenton 是股骨頸內緣到閉孔上緣的弧線；正常股骨頭在 H 線下方、P 線內側（下內象限），Shenton 連續。** 判讀分水嶺：**兩個「角」別混淆——X 光的 acetabular index（Hilgenreiner 與髖臼頂連線，正常 <30°）與超音波 Graf 的 alpha 角（正常 >60°）是不同測量；骨骺骨化前用超音波，約 4-6 個月骨化後 X 光才可靠。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-2724——alpha",
+      "url": "https://doi.org/10.53347/rID-2724——alpha"
+    }
+  ],
+  "imagingFindings": "- **象限法快速判位**：畫 H+P 線，看股骨頭骨化核（或 metaphyseal beak）落在哪個象限——正常在**下內**，外/上移即異常。\n- **Shenton 中斷**：最直觀的脫位/半脫位徵象，但需正確擺位（對稱骨盆）才可靠。\n- **兩角勿混**：X 光 acetabular index <30°（正常）vs 超音波 Graf alpha >60°（正常）——名稱都叫「角」但定義、模態、閾值皆不同。\n- **年齡決定模態**：<4-6 個月骨化前選 US（可動態評估穩定度）；骨化後 X 光。\n- **陷阱**：新生兒骨盆多為軟骨，X 光早期不可靠，過早照 X 光易漏診——考點常考模態時機。",
+  "keyPoints": [
+    "**Hilgenreiner line（H 線）**：連接**雙側髖臼 Y 軟骨/髂骨最低點**之水平切線，為 DDH 之**基準水平線**。",
+    "**Perkins line（P 線）**：通過**髖臼外側緣、垂直於 H 線**；正常股骨頭（及 metaphyseal beak）應位於兩線構成之**下內象限**（P 線內側、H 線下方）。",
+    "**Shenton line（S 線）**：沿**股骨頸內緣**與**閉孔上緣（恥骨上支下緣）**之弧線；正常**連續平滑**，dysplastic hip 呈**中斷（broken）**。",
+    "**Acetabular index/angle（髖臼頂角，X 光）**：由 **Hilgenreiner 線與髖臼頂軸線**構成，正常 **<30°**，增大代表 dysplasia。",
+    "**異常總結**：dysplastic hip 中股骨頭**外移（P 線外側）、上移（H 線上方）**、Shenton 中斷、acetabular index 增大。"
+  ],
+  "management": "1. **模態時機**：股骨頭骨化前用超音波、約 4-6 個月後用 X 光，是 DDH 影像的第一原則。\n2. **三線一角**：Hilgenreiner/Perkins/Shenton + acetabular index，構成 X 光定位脫位的基本工具組。\n3. **Graf 數字**：Type I >60°、Type II 43-59°、Type III/IV 脫位（alpha 不測）；Type II 不是 >60°。\n4. **危險因子時序**：DDH 多在孕 36-40 週形成，臨界期與胎位/羊水/包裹方式相關。\n5. **早期偵測意義**：早診早以 Pavlik harness 等處置，可避免後續髖臼發育不良與早發性關節炎。\n\n> [!note] 考點：DDH評估中，連接雙側髂骨翼最低點之切線稱為？\n> **Hilgenreiner line（A）**——非 X line、Perkins line、Shenton line。\n\n> [!note] 考點：關於DDH之敘述，何者為非？\n> **Type II DDH 之 alpha 角 >60 度（B）為錯誤**——alpha >60° 屬 Type I（成熟正常），Type II 系列為 43-59°。超音波為骨骺骨化前首選、X 光評估建議 4-6 個月大後、DDH 好發懷孕 36-40 週，皆為正確。",
+  "name": "DDH — Reference Lines (Hilgenreiner, Perkins, Shenton) & Graf",
+  "nameZh": "髖關節發育不良參考線",
+  "slug": "ddh-hip-lines",
+  "subspecialty": "MSK"
+}

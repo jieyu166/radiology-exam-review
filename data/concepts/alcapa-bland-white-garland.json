@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Bland-White-Garland syndrome即ALCAPA（左冠狀動脈異常起源自肺動脈），非ARCAPA（右冠狀動脈異常起源）；嬰兒型因側支循環發育不足（deficient collaterals）而非豐富，導致冠狀動脈竊血現象為左向右分流（非右向左），可造成乳頭肌與鄰近心肌缺血性功能障礙引起二尖瓣閉鎖不全。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**命名**：Bland-White-Garland syndrome = **ALCAPA**（anomalous origin of **left** main coronary artery from pulmonary artery），非ARCAPA（右冠脈異常起源）。",
+    "**嬰兒型 vs 成人型**：**嬰兒型側支循環發育不足（deficient interarterial collaterals）**，故症狀出現較早、較嚴重；成人型則已發展出豐富側支循環，症狀較晚出現或無症狀。",
+    "**冠狀動脈竊血（coronary steal）機轉**：血流方向為**左向右分流（left-to-right shunt）**——血液經側支由右冠狀動脈流向左冠狀動脈再流入低壓的肺動脈，導致左心室灌流異常（竊血現象），並非右向左分流。",
+    "**臨床表現**：可因**乳頭肌與鄰近心肌之缺血性功能障礙**而出現**二尖瓣閉鎖不全（mitral insufficiency）**。"
+  ],
+  "management": "",
+  "name": "ALCAPA (Bland-White-Garland Syndrome)",
+  "nameZh": "白蘭德懷特加蘭症候群",
+  "slug": "alcapa-bland-white-garland",
+  "subspecialty": "CV"
+}

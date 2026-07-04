@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**Mounier-Kuhn syndrome（tracheobronchomegaly）為氣管與主支氣管的彈性纖維及平滑肌萎縮導致異常擴張；氣管直徑>3cm（男性）；可合併結締組織疾病如 Ehlers-Danlos syndrome；動態呼吸時氣管在呼氣期塌陷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：氣管與主支氣管（至第四級分支）的彈性纖維與平滑肌明顯萎縮，導致管腔異常擴大。",
+    "**診斷標準**：氣管橫徑 >3 cm（男性）、>2.4 cm（女性）；右主支氣管 >2.4 cm、左主支氣管 >2.3 cm。",
+    "**好發族群**：主要為成人（30-40 歲以上），男性為主；非僅兒童。",
+    "**動態變化**：呼氣時氣管塌陷（expiratory collapse），吸氣時擴張（inspiratory dilatation）——注意不要搞反。",
+    "**病因**：被認為是先天性，但無一致共識；亦有缺乏支氣管樹 myenteric plexus 的報告。",
+    "**相關疾病**：可合併結締組織疾病如 **Ehlers-Danlos syndrome**。",
+    "**非**單一基因點突變所致（非 exon 19 突變）。"
+  ],
+  "management": "",
+  "name": "Mounier-Kuhn Syndrome",
+  "nameZh": "氣管支氣管巨大症",
+  "slug": "mounier-kuhn-syndrome",
+  "subspecialty": "CH"
+}

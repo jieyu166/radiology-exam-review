@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**Thoracic inlet（＝superior thoracic aperture,上胸廓口）是頸根與胸腔的通道,由『後 T1 椎體 ＋ 外側第一肋（及肋軟骨）＋ 前 manubrium 上緣』圍成的腎形斜面。** 判讀分水嶺一：**軸狀 CT 定位——看到『完整第一肋環』即入口平面;first ribs 是固定骨性邊框,比會傾斜的 T1、大小多變的甲狀腺、附著變異的斜角肌可靠（2017-108 官方答案）**;判讀分水嶺二：**此處的臨床重點是 cervical rib 與 thoracic outlet syndrome（壓迫臂神經叢下幹 C8/T1 與鎖骨下動靜脈）;判斷 cervical rib **最可靠是有 C-spine 影像、從 C1/C2 由上往下逐節數到 C7**;輔助看橫突朝向（C7 朝下、T1 朝上）與肋骨型態,但沒 C-spine 影像時有時看不出來**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2016150221",
+      "url": "https://doi.org/10.1148/rg.2016150221"
+    },
+    {
+      "label": "10.1016/j.wneu.2017.11.148（141",
+      "url": "https://doi.org/10.1016/j.wneu.2017.11.148（141"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Thoracic Inlet Anatomy & Cervical Rib",
+  "nameZh": "胸廓入口",
+  "slug": "thoracic-inlet-anatomy",
+  "subspecialty": "CH"
+}

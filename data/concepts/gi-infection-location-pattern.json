@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**腸胃道感染依病原體有特徵性解剖分布：結核、typhlitis、阿米巴以『迴結腸（ileocolonic，遠端迴腸+盲腸）』為主；但 Giardia（梨形鞭毛蟲）主要侵犯『近端小腸』，非迴結腸。** 判讀分水嶺：**近端小腸寄生蟲（Giardia、Strongyloides）vs 遠端小腸細菌（Salmonella、Shigella、Yersinia）；迴結腸為主（TB、typhlitis、amebiasis）；右結腸（Salmonella/Shigella/Campylobacter/Yersinia，Yersinia/Salmonella 好發升結腸、Shigella 降結腸）；全結腸炎（C. difficile/CMV/E. coli）——C. difficile 之 CT 特徵為 accordion sign。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-7305（輔助來源",
+      "url": "https://doi.org/10.53347/rID-7305（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **首選/一般徵象（STATdx）**：**CECT + 多平面重組為首選**；**黏膜過度強化、明顯黏膜下水腫、腹水、多發氣液平、pericolonic fat 浸潤**；US 對稱壁增厚 + 黏膜下高回音 + color Doppler 壁血流增加。\n- **部位對應病原（STATdx，關鍵表）**：**C. difficile 節段或全結腸（遠端小腸少）、Campylobacter/E. coli(O157:H7) 全結腸、CMV 遠端迴腸+右結腸或全結腸、Yersinia 右結腸+終末迴腸（RLQ 淋巴結群）、Salmonella(typhoid) 盲腸/右結腸+迴腸、Shigella 左結腸為主、TB 右+近端橫結腸+迴腸、amebiasis 右結腸±終末迴腸、Schistosoma 左/乙狀結腸、Actinomyces/Gonorrhea/Chlamydia/HSV/梅毒 直乙狀結腸、Histoplasma/mucor 迴盲/右結腸**。\n- **accordion sign（C. diff，STATdx）**：**強化黏膜與黏膜下水腫交替條帶 + 管腔受壓**；常 pancolitis，見於 C. difficile/Campylobacter/E. coli/CMV；可進展至出血壞死/穿孔/toxic megacolon。\n- **TB ileocecal（STATdx）**：**Fleischner sign（迴腸-盲腸直角相交 + 顯著 ileocecal valve 肥大）、環周橫向潰瘍、壁增厚 > Crohn、apple-core 狹窄難與癌區分、低密度腸繫膜淋巴結腫（乾酪化）**。\n- **amebiasis（STATdx）**：右結腸為主、skip lesion 似 Crohn、ameboma（右結腸短段肉芽腫）、可續發肝/肺膿瘍。\n- **DDx（STATdx）**：UC（壁增厚較不明顯、lead pipe）、Crohn（cobblestone/瘻管/skip）、缺血性結腸炎（watershed、少 pancolitis、直腸罕受累、pneumatosis/門脈氣）、stercoral colitis（糞石壓迫壞死、乙狀/直腸）。\n- **陷阱**：Giardia 屬近端小腸、非迴結腸——常考鑑別。",
+  "keyPoints": [
+    "**迴結腸為主（ileocolonic）**：**tuberculosis、typhlitis（嗜中性球低下盲腸炎）、amebiasis** 最常侵犯**遠端迴腸與盲腸**（Yersinia、Crohn 亦好發此區）。",
+    "**近端小腸**：**寄生蟲（Giardia、Strongyloides）**——Giardia 主侵**近端小腸（十二指腸/近端空腸）**，**非迴結腸**。",
+    "**遠端小腸**：**細菌（Salmonella、Shigella、Yersinia）**。",
+    "**右結腸**：Salmonella、Shigella、Campylobacter、Yersinia；**Yersinia/Salmonella 好發升結腸、Shigella 好發降結腸**。",
+    "**左結腸/直乙狀結腸**：Schistosomiasis（左結腸）；HSV、Gonorrhea（直乙狀結腸）。",
+    "**全結腸炎（pancolitis）**：**Clostridioides difficile、CMV、E. coli**；**C. difficile 之 CT 相對特異徵象＝accordion sign（手風琴徵）**。"
+  ],
+  "management": "1. **美國最常見細菌病原（STATdx）**：**C. difficile、Salmonella、Campylobacter、E. coli**；病毒以 norovirus/rotavirus、原蟲以 Cryptosporidium/Giardia/Cyclospora 最常見。\n2. **C. difficile 危險因子（STATdx）**：**前用抗生素（尤 clindamycin）、住院/安養機構、化療黏膜損傷**；住院病人達 1% 發生。\n3. **臨床/實驗室（STATdx）**：水樣或血樣腹瀉、發燒、腹絞痛壓痛；**細菌↑嗜中性球、病毒↑淋巴球、黴菌/寄生蟲→嗜酸性球增多**；急性起病（TB 例外為慢性）；診斷靠糞便/血液培養、內視鏡切片、血清學。\n4. **併發（STATdx）**：出血/穿孔/阻塞/toxic megacolon/敗血；**Yersinia→肝膿瘍、amebiasis→肝肺膿瘍、Schistosoma→肝脾腫大/門脈高壓、E. coli O157:H7→溶血性尿毒症候群**。\n5. **治療（STATdx）**：多數細菌自限 1-2 週；**C. difficile 用 metronidazole/糞菌移植；TB 用抗結核藥（不用類固醇）；CMV 治療 AIDS；黴菌/寄生蟲用抗黴/驅蟲藥**。\n\n> [!note] 考點：何者「非」以迴結腸(ileocolonic)為主要侵犯部位的疾病?\n> **Giardia（D）**——梨形鞭毛蟲主要侵犯**近端小腸**，非迴結腸。Tuberculosis、Crohn disease、typhlitis 皆好發迴結腸區域（Campylobacter 好發右側結腸）。",
+  "name": "GI Infections — Anatomic Location Pattern",
+  "nameZh": "腸胃道感染部位型態",
+  "slug": "gi-infection-location-pattern",
+  "subspecialty": "ABD"
+}

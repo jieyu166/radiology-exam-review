@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**肺癌低劑量 CT 篩檢的實證里程碑是 NLST——第一個證實低劑量 CT 篩檢可顯著降低肺癌特異性死亡率的隨機對照試驗（三輪年度篩檢後相對降低 20%，全因死亡降 6.7%），催生 USPSTF 建議與 ACR 之 Lung-RADS 報告系統。** 判讀分水嶺：**指引會演進——NLST 收案為 55–74 歲/≥30 包-年；但 USPSTF 已於 2021 擴大為「50–80 歲、≥20 包-年、現行吸菸或戒菸未滿 15 年」；Lung-RADS 亦由 v1.0(2014)→v1.1(2019)→v2022(2022)。作答歷屆題依當年版本，臨床以現行為準。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **Lung-RADS 2022 分類與處置**：**1 陰性/2 良性→12 月 LDCT；3 可能良性→6 月；4A 可疑→3 月(±PET 若實質>8 mm)；4B 極可疑→臨床評估/診斷 CT/切片；4X＝3/4 結節加惡性徵象（spiculation/淋巴結/GGN 一年倍增）**；**0＝不完整需補檢**。陰性＝1、2；陽性＝3、4。\n- **結節測量與生長**：報告**長短軸平均徑（1 位小數）**；**生長＝12 月內平均徑增 >1.5 mm**；緩長 solid/part-solid 未達門檻仍歸 4B。\n- **perifissural/juxtapleural 更正重點**：**<10 mm、solid、平滑、oval/lentiform/triangular 之肋膜旁結節歸 Lung-RADS 2（良性）**——非「與 perifissural 無關」，此類結節有特別（較寬）處置。\n- **S modifier**：與肺癌無關但（潛在）重要之偶見發現（依 ACR Incidental Findings 處理）；4X 為獨立類別，X 不作修飾詞。\n- **AI 定位**：目前為輔助放射科醫師之角色（協助偵測/特徵化），非取代判讀。",
+  "keyPoints": [
+    "**NLST（National Lung Screening Trial）**：**第一個**報告低劑量 CT 篩檢顯著降低肺癌死亡率之 RCT（2011 公布）；53,454 名高風險者、33 個美國中心；**年齡 55–74、≥30 包-年、現行或戒菸未滿 15 年**；三輪年度 LDCT vs 胸部 X 光。",
+    "**NLST 核心結果**：**肺癌死亡率相對降低 20%**、**全因死亡降 6.7%**（LDCT 組）。",
+    "**其他試驗**：NELSON（荷比）、DLCST（丹麥）、UKLS（英國）皆為篩檢 RCT，但 **NLST 為首個報告顯著死亡率下降者**。",
+    "**Lung-RADS（ACR 設計）**：**結構化、決策導向之品保工具，標準化 LDCT 報告與處置、降低偽陽性率**；相對 NLST「任何 >4 mm 結節即陽性」造成的高偽陽性，Lung-RADS 改採依型態而異之較大平均徑閾值。",
+    "**版本演進**：v1.0（2014，陽性結節閾值 4→6 mm 平均徑）→ v1.1（2019/05，perifissural 6→10 mm、GGN 20→30 mm）→ **v2022（2022/11）**。"
+  ],
+  "management": "1. **肺癌為美國癌症死亡首位**；**吸菸佔約 90%、吸菸者風險約 20 倍**，其他因子含石綿/砷/鉻/鎳職業暴露、胸部放射、家族史、HIV。\n2. **現行 USPSTF（2021）合格條件：50–80 歲、≥20 包-年、現行吸菸或戒菸未滿 15 年**（較 2013 之 55–80/30 包-年放寬）；CMS 為 50–77 歲。\n3. **篩檢前須 counseling 與共享決策(shared decision-making)並記錄**，並衛教戒菸；戒菸滿 15 年或餘命/手術受限即可停篩。\n4. **私人保險依 ACA 須給付符合 USPSTF 者**（2022/3/31 後之保單年度）。\n5. 判讀時把「NLST 首個/降 20%、Lung-RADS 降偽陽性、USPSTF 2021 放寬、陰性=1&2/陽性=3&4、4X 惡性徵象」記牢，避免版本與分類誤判。\n\n> [!note] 考點一：第一個報告肺癌篩檢顯著降低肺癌特異性死亡率之RCT?\n> **NLST（C）**——2011 公布、降 20%，非 NELSON、DLCST、UKLS。\n\n> [!note] 考點二：NLST三輪低劑量CT篩檢後肺癌死亡率相對降低多少?\n> **20%（B）**——另全因死亡降 6.7%。\n\n> [!note] 考點三：ACR設計用以降低肺癌篩檢偽陽性率之報告系統?\n> **Lung-RADS（C）**——結構化決策導向品保工具、依型態而異之較大平均徑閾值以降偽陽性，非 NCCN、Fleischner Society 或 BTS guidelines。",
+  "name": "Lung Cancer Screening — Landmark RCTs & Lung-RADS",
+  "nameZh": "肺癌篩檢試驗",
+  "slug": "lung-cancer-screening-trials",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**超音波對比劑（UCA）微泡由「低溶解度氣體（low-solubility gas，如sulfur hexafluoride六氟化硫）」外包生物相容性磷脂質殼組成——低溶解度使微泡在血中穩定持久。所以「高溶解度氣體」是錯誤敘述。微泡不具腎毒性、可注入生理/病理腔隙、增強可持續數分鐘。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**微泡組成（本題重點）**：UCA微泡由**低溶解度填充氣體（low-solubility filling gas，如sulfur hexafluoride六氟化硫、perfluorocarbon）**外包生物相容性殼（典型為磷脂質phospholipid）組成——低溶解度使微泡穩定持久；故「high-solubility gas」為**錯誤**。",
+    "**非腎毒性**：UCA不經腎排泄、**不具腎毒性**（氣體經肺呼出、殼經肝代謝），可用於腎功能不全病人。",
+    "**持續時間**：IV注射後增強可**持續約數分鐘（~5分鐘）**。",
+    "**腔內使用**：可注入生理或病理腔隙（如腎盂、膽道、甚至膿瘍腔）作腔內CEUS。"
+  ],
+  "management": "",
+  "name": "CEUS Microbubble Contrast Agents",
+  "nameZh": "對比增強超音波微泡",
+  "slug": "ceus-microbubble-agents",
+  "subspecialty": "US"
+}

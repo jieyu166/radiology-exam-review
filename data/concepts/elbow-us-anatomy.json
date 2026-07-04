@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**Lacertus fibrosus 從 biceps 肌腱肌膜交界處延伸至前臂內側深筋膜，覆蓋 median nerve 與 brachial artery（非 ulnar nerve）。Bicipitoradial bursa 正常時在超音波下不可見，僅在有積液時才可辨識。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Lacertus fibrosus（bicipital aponeurosis）** ：",
+    "起源：biceps 肌腱的 myotendinous junction",
+    "止點：前臂 medial deep fascia",
+    "覆蓋：**median nerve** 和 brachial artery",
+    "功能：維持 biceps tendon 位置",
+    "**Biceps tendon 遠端**：由 extrasynovial paratenon 和 bicipitoradial bursa 包覆",
+    "**Bicipitoradial bursa**：正常不可見，只有積液時才會在 US 上看到"
+  ],
+  "management": "",
+  "name": "Elbow Ultrasound Anatomy",
+  "nameZh": "肘關節超音波解剖",
+  "slug": "elbow-us-anatomy",
+  "subspecialty": "MSK"
+}

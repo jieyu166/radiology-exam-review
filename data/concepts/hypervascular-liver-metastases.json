@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**多數肝臟轉移瘤（如肺癌）為乏血管性(hypovascular)，但少數原發癌好發富血管性(hypervascular)肝轉移——記住「腎絕胰甲乳癌黑色素瘤」（腎細胞癌、絨毛膜癌、胰島細胞瘤、甲狀腺癌、乳癌、黑色素瘤）及嗜鉻細胞瘤等神經內分泌/富血管腫瘤家族。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**富血管性(hypervascular)肝轉移常見原發癌**：絨毛膜癌(choriocarcinoma)、嗜鉻細胞瘤(pheochromocytoma)、腎細胞癌(renal cell carcinoma)、神經內分泌腫瘤、甲狀腺癌、乳癌、黑色素瘤等。",
+    "**乏血管性(hypovascular)肝轉移**：**肺癌(lung carcinoma)** 通常合併乏血管性肝轉移，非富血管性——此為本題判讀關鍵。"
+  ],
+  "management": "",
+  "name": "Hypervascular vs Hypovascular Liver Metastases",
+  "nameZh": "肝臟富血管性轉移",
+  "slug": "hypervascular-liver-metastases",
+  "subspecialty": "ABD"
+}

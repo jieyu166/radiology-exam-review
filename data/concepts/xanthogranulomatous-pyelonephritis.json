@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**XGP 是慢性破壞性腎感染，腎實質被充脂質巨噬細胞取代；影像三聯：staghorn 結石＋腎不顯影（non-functioning）＋bear paw sign，pseudoaneurysm 不在其中。** 判讀分水嶺一：**staghorn＋non-functioning＋bear paw＝XGP，pseudoaneurysm 非特徵**；判讀分水嶺二：**致病菌是 Proteus mirabilis（產 urease → struvite 結石），與多數泌尿感染以 E. coli 為主不同**——XGP 是「非 E. coli 泌尿感染」考題的標準答案。",
+  "differentialDiagnosis": [
+    "**RCC（含 clear cell、sarcomatoid）**：局灶型最重要鑑別;RCC 多呈實質強化腫塊、可有腎靜脈瘤栓,而 XGP 低密度灶不強化、合併 staghorn 與腎功能喪失,且常見跨被膜炎性延伸。",
+    "**膿腎（pyonephrosis）**：阻塞腎盂腎盞充膿但腎實質相對保留、無瀰漫黃色瘤取代;XGP 為腎實質破壞性取代。",
+    "**腎結核（TB）**：可有鈣化與腎盞變形,但 TB 傾向不規則狹窄／空洞與漏斗部狹窄,結石較少呈大型 staghorn。",
+    "**腎膿瘍（renal abscess）**：單一或多發局限積膿,缺乏中央 staghorn 與整體腎功能喪失之 XGP 全貌。",
+    "**malakoplakia（軟斑症）**：同屬慢性肉芽腫性感染（多 E. coli）,可呈多發腎腫塊,但較少瀰漫破壞與 bear paw 形態。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.5334/jbsr.1807（accessed",
+      "url": "https://doi.org/10.5334/jbsr.1807（accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**staghorn（struvite）結石**：常見、與感染性結石相關(option A 典型)。",
+    "**排泄減少/不顯影**：腎功能受損、non-functioning kidney(option B 典型)。",
+    "**腎周/鄰近器官延伸**：發炎延伸至 perinephric space 及鄰近組織(option D 典型);bear paw sign（擴大腎盞/膿腔）。",
+    "**pseudoaneurysm『不』是 XGP 特徵** → 故「何者『不』屬 XGP」答 **C（pseudoaneurysms）**（2016-160 正解 C）。",
+    "**致病菌**：經典 **Proteus mirabilis**（產 urease→struvite 結石）與 **E. coli**;故在「皆 E. coli 除外」題中,**XGP 是例外（Proteus）**＝2016-161 正解 A（emphysematous pyelonephritis、pyeloureteritis cystica、malakoplakia 多為 E. coli）。"
+  ],
+  "management": "",
+  "name": "Xanthogranulomatous Pyelonephritis (XGP)",
+  "nameZh": "黃色肉芽腫性腎盂腎炎",
+  "slug": "xanthogranulomatous-pyelonephritis",
+  "subspecialty": "ABD"
+}

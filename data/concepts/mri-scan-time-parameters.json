@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**MRI掃描時間公式口訣「TR × Ny × NSA ÷ ETL」：TR（重複時間）、Ny（相位編碼步數）、NSA/NEX（激發次數）都會影響掃描時間，唯獨頻率編碼步數（Nx, frequency-encoding）不影響——因為頻率編碼是在單一次讀出（readout）中一次採樣完成，不需重複。這是本題最容易誤判的陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**掃描時間公式**：**Scan time = TR · Ny · NSA / ETL**（TR＝repetition time；Ny＝number of phase-encoding steps；NSA＝number of signal averages／NEX；ETL＝echo train length＝number of echoes）。",
+    "**影響掃描時間之參數**：",
+    "**TR（repetition time）**：每次重複之時間間隔，直接乘入。",
+    "**Phase-encoding step (Ny)**：相位編碼步數，每一步需一次TR，直接乘入。",
+    "**NEX/NSA (number of excitations)**：訊號平均次數，直接乘入。",
+    "**不影響掃描時間之參數**：**Frequency-encoding step (Nx)**——頻率編碼於單一次讀出（readout）內一次採樣完成，不需額外重複，故與掃描時間無關。"
+  ],
+  "management": "",
+  "name": "MRI Scan Time — Governing Parameters",
+  "nameZh": "MRI掃描時間參數",
+  "slug": "mri-scan-time-parameters",
+  "subspecialty": "Physics"
+}

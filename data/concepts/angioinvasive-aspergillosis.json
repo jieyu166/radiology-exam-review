@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**免疫低下的麴菌腦膿瘍強化很弱——這是它和普通化膿性膿瘍最大的差異。** 因宿主免疫反應不足，病灶強化微弱或不規則（非強烈均勻環狀強化）。MRI 特徵：周邊 T2 低訊號（出血/真菌菌絲成分，GRE/SWI 最明顯）＋異質性、周邊 ring-like 擴散受限（非普通膿瘍的均勻高 DWI）。血管侵犯可致梗塞與黴菌性動脈瘤。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00062-014-0305-7",
+      "url": "https://doi.org/10.1007/s00062-014-0305-7"
+    }
+  ],
+  "imagingFindings": "- **CNS 真菌共通徵（Starkey）**：**CNS 真菌感染共有『異質或環狀擴散受限＋弱環狀強化（weak ring enhancement）』**——免疫低下宿主強化弱，故「強烈均勻環狀強化」反而不像真菌、較像化膿性膿瘍（考點）。\n- **angioinvasive aspergillosis 特徵（Starkey）**：**多灶性出血性病灶＋擴散受限**——親血管致出血與梗塞為其標誌；周邊 T2 低訊號（出血/菌絲），SWI/GRE blooming 最明顯。\n- **DWI 型態對比**：麴菌擴散受限常**異質/周邊環狀（ring-like）**，異於化膿性膿瘍之均勻中央高 DWI。\n- **CNS 真菌鑑別（Starkey）**：**mucor＝額葉、擴散顯著受限；cryptococcus＝基底節膠狀假囊；candida＝皮髓交界/基底節/小腦 <3 mm 微膿瘍；coccidioides＝基底池腦膜強化**——依部位/型態縮小 DDx。\n- **血管併發**：侵血管→腦梗塞、黴菌性動脈瘤（可破裂出血）、靜脈竇栓塞；MRA/血管追蹤有助。",
+  "keyPoints": [
+    "**宿主**：免疫低下（AIDS、長期高劑量類固醇、嗜中性球低下、移植）。",
+    "**強化**：因免疫反應弱,病灶**強化微弱或不規則**;故「multiple nodules with **strong ring enhancement**」**為假**＝題目正解（2016-162 正解 A）——強烈均勻環狀強化較像化膿性膿瘍。",
+    "**周邊 T2 低訊號**：膿瘍周邊低 T2（出血/真菌元素,**GRE/SWI 更明顯**）(option D 對)。",
+    "**擴散**：與化膿性膿瘍「均勻高 DWI」不同,麴菌**擴散受限常『異質』、可呈周邊/環狀（ring-like、peripheral）**(option B、C 對)。",
+    "**血管侵犯**：可致**腦梗塞、黴菌性動脈瘤、出血**。"
+  ],
+  "management": "1. **宿主（Starkey）**：**任何原因之免疫低下（嗜中性球低下、移植、長期高劑量類固醇、AIDS）與居住流行區**為風險因子。\n2. **感染途徑（Starkey）**：**血行播散、腦脊髓液散播或由鼻竇/眼眶直接蔓延**（鼻腦型麴菌）。\n3. **臨床急症（Starkey）**：CNS 真菌感染若未及時積極治療多**快速致命**；影像早期辨識攸關存活。\n4. **原發灶**：多由肺部 angioinvasive aspergillosis（halo/air-crescent sign）血行播散至腦，須同步評估胸部。\n5. **治療**：全身抗黴菌（voriconazole 為 CNS 麴菌首選）＋恢復免疫±手術清除；黴菌性動脈瘤破裂風險需監測。\n\n> [!note] 考點：免疫低下患者腦部 angioinvasive aspergillosis,何者「為假」?\n> 「multiple nodules with **strong ring enhancement**」為假——免疫低下宿主**強化微弱/不規則**。周邊 T2 低訊號、異質/周邊 ring-like DWI 受限皆對。",
+  "name": "Angioinvasive / CNS Aspergillosis",
+  "nameZh": "侵血管性麴菌症",
+  "slug": "angioinvasive-aspergillosis",
+  "subspecialty": "NR"
+}

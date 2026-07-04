@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**CAC 分數用非顯影、心電圖閘控 CT 量化冠狀動脈鈣化，是無症狀者心血管風險的非侵入性指標。** 兩個判讀錨點：**CAC = 0 是強力的「負向風險因子」（power of zero）**，事件率低；**CAC ≥ 400 為高風險**，且重度鈣化的 blooming 偽影會顯著降低後續 CCTA 的 specificity。計分採 Agatston 法：鈣化定義為 ≥ 130 HU 且面積 ≥ 1 mm²，面積乘以 HU 加權係數後加總。記憶鉤：**「0 分 = 放心 5 年；400 分 = 高危險且 CCTA 難判讀」**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.210122。重點：標準協定＝前瞻性",
+      "url": "https://doi.org/10.1148/rg.210122。重點：標準協定＝前瞻性"
+    },
+    {
+      "label": "10.1148/rg.210122",
+      "url": "https://doi.org/10.1148/rg.210122"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**方法**：Agatston 法最常用——鈣化定義為**≥130 HU**、面積 **≥1 mm²**；分數 = 斑塊面積 × 依峰值 HU 之加權係數，加總各病灶。",
+    "**用途**：建議用於**無症狀**個體預測心血管疾病與疾病別死亡率風險、重新分層（reclassification）、並輔助一級預防決策。",
+    "**CAC = 0**：可靠的**負向風險因子**（power of zero）。",
+    "**CAC ≥ 400**：高風險族群。",
+    "**MESA 計算器**：以 MESA 族群資料，依 CAC 分數與事件給出年齡/性別/種族百分位與風險。",
+    "**與 CCTA 連結**：高 CAC（>400）之重度鈣化 blooming 會**顯著降低 CCTA 的 specificity / PPV**（見 [[ccta]]，ACCURACY trial）。",
+    "**臨床價值定位**：CAC score 的意義在於對傳統風險因子（如 Framingham risk score）提供**額外（incremental）的預後資訊**、協助重新分層，非用於個別病人精準預測事件，也不能取代整體風險評估或排除 CAD。"
+  ],
+  "management": "",
+  "name": "Coronary Artery Calcium (CAC) Score",
+  "nameZh": "冠狀動脈鈣化分數",
+  "slug": "calcium-score",
+  "subspecialty": "CV"
+}

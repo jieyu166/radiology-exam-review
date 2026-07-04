@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**化膿性肝膿瘍超音波：variable echogenicity、irregular border、thick wall with vascularity on color Doppler。Posterior acoustic shadow 非典型表現（那是 solid lesion/calcification 特徵）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Variable echogenicity**（因內容物不同）。",
+    "**Well-defined to irregular border**。",
+    "**Thick wall with vascularity** on color Doppler。",
+    "**Posterior acoustic shadow → NOT typical**（為 solid lesion 特徵）。"
+  ],
+  "management": "",
+  "name": "Pyogenic Liver Abscess — Ultrasound",
+  "nameZh": "化膿性肝膿瘍超音波",
+  "slug": "pyogenic-liver-abscess-ultrasound",
+  "subspecialty": "US"
+}

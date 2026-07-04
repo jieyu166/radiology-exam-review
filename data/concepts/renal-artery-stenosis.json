@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**腎動脈狹窄 Doppler 的因果鏈：狹窄→局部 PSV ↑（>180 cm/s）→下游水流緩慢（tardus-parvus，AT >0.07 s）；但萎縮小腎（<8 cm）＋高實質 RI（>0.8）代表末期腎硬化，修通血管也無效，即使看到狹窄也不介入。** 判讀分水嶺一：**PSV >180–200 cm/s、RAR >3.5、AT >0.07 s → 血流動力學顯著狹窄**；判讀分水嶺二：**小萎縮腎＋高 RI → 腎實質已纖維化，血管重建無效 → 不介入**。",
+  "differentialDiagnosis": [
+    "**副腎動脈漏看（accessory renal artery）**：約 20–30% 病人有副腎動脈，其顯著狹窄是隱性腎血管性高血壓來源；主腎動脈直徑 ≤4.15 mm 提示可能存在副腎動脈，應主動往下找。",
+    "**tardus-parvus 偽陰／偽陽**：tardus-parvus 出現有助診斷，但**其不出現不能排除 RAS**；粥狀硬化致血管順應性下降時，parvus-tardus 波形可能變得不明顯（偽陰）；近端主動脈病變或心臟瓣膜疾病亦可造成全腎波形低平（偽陽，非單側狹窄）。",
+    "**技術因素**：腸氣、肥胖、深位血管、呼吸動作致主腎動脈直接顯像率僅約 84–90%；完全阻塞時血流消失易誤判為無法顯像。",
+    "**gadolinium MRA 的 NSF 顧慮**：腎功能不良者使用 gadolinium 有腎源性全身性纖維化（NSF）風險，**GFR ≤30 mL/min/1.73 m² 不建議施打 gadolinium MRA**。",
+    "**stent 後（in-stent restenosis）評估**：支架使血管硬度改變，需提高速度閾值——in-stent **PSV >180 cm/s** 敏感度高但特異度低（約 74%），**PSV >226 cm/s** 特異度較佳（約 90%）；可併用 RAR >2.7。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiology.189.3.8234704",
+      "url": "https://doi.org/10.1148/radiology.189.3.8234704"
+    },
+    {
+      "label": "10.2214/ajr.177.5.1771123",
+      "url": "https://doi.org/10.2214/ajr.177.5.1771123"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Renal Artery Stenosis (Doppler & Revascularization)",
+  "nameZh": "腎動脈狹窄",
+  "slug": "renal-artery-stenosis",
+  "subspecialty": "US"
+}

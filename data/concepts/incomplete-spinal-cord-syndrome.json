@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Central cord syndrome (CCS) 為最常見不完全脊髓損傷，外傷為最常因。Conus medullaris syndrome 產生混合 UMN+LMN 缺損，cauda equina syndrome 為純 LMN 缺損。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**CCS**：最常見 ISCS，外傷（cervical hyperextension）為最常見原因",
+    "Ventral horn / peripheral nerve injury → LMN deficits",
+    "**Conus medullaris syndrome**：mixed UMN + LMN deficits",
+    "**Cauda equina syndrome**：purely LMN deficits",
+    "鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss）"
+  ],
+  "management": "",
+  "name": "Incomplete Spinal Cord Syndromes",
+  "nameZh": "不完全脊髓損傷症候群",
+  "slug": "incomplete-spinal-cord-syndrome",
+  "subspecialty": "NR"
+}

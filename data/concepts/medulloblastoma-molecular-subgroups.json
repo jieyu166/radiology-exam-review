@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**髓母細胞瘤四分子亞型預後記憶「WNT 最好、Group 3 最差」——WNT group 頻率最低但存活率最佳（CTNNB1 突變、好發 CP angle）；non-WNT/non-SHH（Group 3、Group 4）最常見，其中 Group 3（MYC 擴增）存活最差、轉移常見；SHH 依 TP53 狀態再分（wildtype 較 mutant 佳）。** 判讀分水嶺：**「位置＝分子亞型的影像生物標記」——小腦半球→SHH、CP angle→WNT、中線/第四腦室→Group 3 與 Group 4（此兩型幾乎只在中線）。CT 高密度(90%)＋DWI 限制擴散＋95% 阻塞性水腦是共通影像特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **位置＝分子亞型生物標記（考點核心）**：**小腦半球→SHH（~10%）、CP angle→WNT（<5%）、中線/第四腦室頂→Group 3 與 Group 4（此兩型「只」在中線）**。\n- **共通影像**：**CT 高密度(90%，高細胞度)、Ca⁺⁺ 達 20%、出血少見、阻塞性水腦達 95%**；MR **DWI 限制擴散（高細胞度，ADC 低）**、T2 iso-高、變異性強化。\n- **與鑑別診斷分辨**：**pilocytic astrocytoma 之 ADC 高（擴散不受限）**、ependymoma 常經第四腦室孔「塑形」外突且鈣化/出血較多、AT/RT 好發 <3 歲且較異質——DWI 與位置為關鍵。\n- **全神經軸攝影必做**：**33% 診斷時已有蛛網膜下腔轉移**；C+ 全腦脊髓偵測 CSF 播散，bSSFP(FIESTA/CISS) 利偵測脊髓軟膜小轉移；**骨轉移 ~5% 多為硬化性**。\n- **經典定位教學**：源自第四腦室**頂→髓母細胞瘤**、**底→室管膜瘤**（大腫瘤時難分）；Group 4 常「無/極輕微或中央星狀強化」。",
+  "keyPoints": [
+    "**WNT group（最少見，~10%）**：**CTNNB1 突變**；好發**較大兒童/青少年至成人**；常位於 **CP angle（cerebellopontine angle cistern）**；**存活最佳、風險最低**、轉移少見。",
+    "**SHH activated（~30%，依 TP53 分兩型）**：好發**嬰兒(0–3)與較大兒童**；常位**小腦半球**；**TP53-wildtype（PTCH1/SUFU 突變、常 nodular/desmoplastic）預後較佳**；**TP53-mutant（GLI2 等）預後較差**。",
+    "**Group 3（non-WNT/non-SHH，~20%）**：好發**幼童**；**MYC 擴增**；**幾乎只在中線/第四腦室**；**存活最差、轉移常見**。",
+    "**Group 4（non-WNT/non-SHH，最常見，~40%）**：各年齡（至成人）；**i17q**；中線/第四腦室；**強化常極輕微或中央星狀**；存活中等、轉移可見。"
+  ],
+  "management": "1. **髓母細胞瘤為 0–4 歲最常見後顱窩腫瘤**、佔兒童腦瘤 15–20%，WHO grade 4；表現為運動失調＋顱內壓升高，病程短（數週）。\n2. **預後取決於三因子：轉移、分子亞型、其他分子標記（尤 MYC 擴增）**；一般風險長期存活 >80%、高風險 >60%。\n3. 治療＝**手術切除＋輔助化療，>3 歲加顱脊髓放療**；影像重點為找轉移與定義術後殘餘。\n4. 與家族癌症症候群相關（Li-Fraumeni、Gorlin、Turcot、Gardner、Cowden）；M:F=2–4:1、75% <10 歲。\n5. 判讀時把「WNT 最好/CP angle、Group 3 最差/MYC、位置定亞型、限制擴散、33% 已 CSF 轉移」記牢，避免亞型與預後誤判。\n\n> [!note] 考點：Medulloblastoma分子亞型中風險最低、預後最佳者?\n> **WNT group（A）**——CTNNB1 突變、好發 CP angle、存活最佳且風險最低、轉移少見。相對地 **Group 3（MYC 擴增、中線/第四腦室）預後最差、轉移常見**。",
+  "name": "Medulloblastoma — Molecular Subgroups (WHO 2021)",
+  "nameZh": "髓母細胞瘤分子亞型",
+  "slug": "medulloblastoma-molecular-subgroups",
+  "subspecialty": "NR"
+}

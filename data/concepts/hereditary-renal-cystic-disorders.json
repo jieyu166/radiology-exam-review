@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**遺傳性腎囊性疾病要點：ADPKD兒童期多無症狀(可有多發/雙側巨觀囊腫)；ARPKD囊腫較ADPKD『較少』併出血/感染(非較多)；TSC為侵犯外胚層(ectodermal)來源組織(CNS/眼/皮膚)之異質性神經皮膚多系統疾病；VHL相關RCC常多發、可雙側、複雜囊性外觀。本題正解C(TSC)。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**ADPKD**：兒童期**多無症狀**，常於篩檢或偶見多發腎囊/高血壓時發現；「兒童期絕不出現多發/雙側巨觀囊腫」為偽(可出現)。",
+    "**ARPKD**：囊腫**較ADPKD『較少』併發出血或感染**（非較多）。",
+    "**Tuberous Sclerosis Complex（本題正解C）**：代表**異質性遺傳性神經皮膚多系統疾病，常侵犯外胚層(ectodermal)來源組織(CNS、眼、皮膚)**；腎表現含AML、囊腫。見 [[tuberous-sclerosis]]。",
+    "**von Hippel-Lindau (VHL) 相關RCC**：常**多發、可雙側、複雜囊性外觀**(亦可純實質)。見 [[von-hippel-lindau-disease]]。"
+  ],
+  "management": "",
+  "name": "Hereditary Renal Cystic Disorders (ADPKD, ARPKD, TSC, VHL)",
+  "nameZh": "遺傳性腎囊性疾病",
+  "slug": "hereditary-renal-cystic-disorders",
+  "subspecialty": "GU"
+}

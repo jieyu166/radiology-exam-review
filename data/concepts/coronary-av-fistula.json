@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**冠狀動脈瘻管（coronary AVF）的分流比例（shunt ratio）與症狀『有關』——經由『冠狀動脈竊血（coronary artery steal）』機轉：血流優先走低阻力瘻管，瘻管起源處遠端心肌供血減少，分流越大越易心肌缺血症狀（心絞痛、呼吸困難，尤運動時）。** 判讀分水嶺：**引流最常為右心室（41%）> 右心房（26%）> 肺動脈（17%）；起源最常 RCA（50%）> LAD（42%）；多為單一交通、左向右分流（>90%）；成人多無症狀（兒童無症狀比例反而較低）；左向右分流經冠狀竊血致缺血——故分流與症狀有關，非無關。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-55515（輔助來源",
+      "url": "https://doi.org/10.53347/rID-55515（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **CTA/血管攝影**：見擴張迂曲之供血冠狀動脈連至右側腔室；定位起源（RCA/LAD）與引流口（RV/RA/PA）與分流大小。\n- **竊血徵象**：瘻管遠端心肌灌流缺損（負荷影像/MPI）反映 steal。\n- **併發搜尋**：供血冠狀動脈瘤樣擴張/血栓、心衰、心內膜炎、罕見破裂。\n- **CAF vs CAVF（STATdx）**：**coronary cameral fistula（CAF）＝直接與心腔相通；coronary arteriovenous fistula（CAVF）＝與肺/體循環相通、無中介微血管網**；佔先天性心臟病 0.3%、**90% 先天（persistent embryonic sinusoids）**。\n- **CTA 判讀（首選）**：**心電門控 CTA 最佳、須自主動脈弓頂掃起（否則肺動脈瘻管顯示不全）**；徵象＝擴張迂曲心外膜血管＋**contrast shunt sign（對比劑噴入受血腔）**＋**引流口近端 aneurysmal dilatation（遠端冠脈正常）**；feeders 起源 **RCA 系統 55%、左冠 35%、兩者/其他 10%**（與官方 RCA 50%/LAD 42% 略異）。\n- **DDx（STATdx）**：**Bland-White-Garland/ALCAPA/ARCAPA（冠脈起自肺動脈、無主動脈 ostium、嬰兒期 MI/餵食呼吸困難）**、冠脈瘤（無異常引流/feeders）、anomalous coronary origin、Kawasaki/Takayasu（多冠脈瘤、正常起源引流）。\n- **分類**：**Sakakibara（Type A 近端瘻遠端正常、Type B 端動脈瘻整條擴張）**；cameral（arteriosinusoidal/arterioluminal）vs CAVF；**引流部位比起源更具臨床意義**。\n- **處置指標**：**僅較大/有症狀者需治療**（心律不整/呼吸困難/CHF/心絞痛/MI/endocarditis 3-12%）；**手術結紮 vs 導管栓塞（殘漏/再通 10%）**；**牙科/GI/GU 術前抗生素預防心內膜炎**；自發性血栓閉合 1-2%。\n- **陷阱**：勿把「分流與症狀無關」當正確——竊血機轉使兩者相關。",
+  "keyPoints": [
+    "**本質/起源**：罕見冠狀動脈異常，冠狀動脈與**心臟右側循環**（最常）之間形成瘻管；起源最常 **RCA（50%）> LAD（42%）**；多為**單一交通**。",
+    "**引流部位**：**右心室（41%，最常）> 右心房（26%）> 肺動脈（17%）**；較少引流至冠狀竇、SVC 或左側腔室。",
+    "**分流/竊血（核心）**：**左向右分流（>90%）** → **冠狀動脈竊血（coronary artery steal）**：血流走低阻力瘻管、瘻管起源處遠端心肌灌流↓ → 缺血症狀；**分流越大症狀越明顯——與症狀『有關』**。惟多數分流比例偏小、常偵測不到。",
+    "**成人 vs 兒童**：**成人多無症狀**；**兒童無症狀比例反而較低**。",
+    "**雜音**：典型**連續性收縮-舒張期雜音**（吸氣時減弱）。"
+  ],
+  "management": "1. **引流**：最常右心室（41%）。\n2. **起源**：最常 RCA（50%）。\n3. **竊血**：左向右分流致遠端心肌缺血，分流與症狀有關。\n4. **年齡**：成人多無症狀、兒童無症狀比例較低。\n5. **處置**：症狀/顯著分流者導管封堵或手術。\n\n> [!note] 考點：關於 coronary arteriovenous fistula (AVF)，何者「有誤」?\n> 「**Left-to-right shunt ratio 與症狀無關**」有誤——經由**冠狀動脈竊血（coronary artery steal）**，分流與症狀發展有關（分流越大致心肌缺血症狀越明顯）。引流最常為右心室、多為單一交通、成人多無症狀（兒童無症狀比例較低）皆正確。",
+  "name": "Coronary Arteriovenous Fistula (AVF)",
+  "nameZh": "冠狀動脈瘻管",
+  "slug": "coronary-av-fistula",
+  "subspecialty": "CV"
+}

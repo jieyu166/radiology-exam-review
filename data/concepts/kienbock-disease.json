@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Kienböck disease＝『月狀骨(lunate)』缺血性壞死——記憶關鍵在部位（lunate，不是scaphoid）與訊號（AVN進展期於T1與T2皆呈低訊號）。對比：Preiser disease＝舟狀骨(scaphoid) AVN。負性尺骨變異(ulnar negative variance)為危險因子。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質/部位**：**月狀骨(lunate)之缺血性壞死(avascular necrosis)**，非scaphoid。",
+    "**MRI訊號（本題重點）**：進展期AVN於**T1與T2皆呈低訊號(low signal on both T1 and T2)**（早期可T1低/T2高之水腫期，壞死硬化後T1/T2皆低）。",
+    "**危險因子**：**負性尺骨變異(ulnar negative/minus variance)**、創傷、月狀骨血供變異。",
+    "**對比**：**Preiser disease＝舟狀骨(scaphoid) AVN**（本題distractor）。",
+    "進展：Lichtman分期I-IV(訊號異常→硬化→塌陷→腕關節退化)；晚期月狀骨塌陷、腕高度下降、續發性OA。"
+  ],
+  "management": "",
+  "name": "Kienböck Disease (Lunate AVN)",
+  "nameZh": "月狀骨壞死",
+  "slug": "kienbock-disease",
+  "subspecialty": "MSK"
+}

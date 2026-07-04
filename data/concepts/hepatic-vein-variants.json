@@ -1,0 +1,36 @@
+{
+  "checked": false,
+  "definition": "**RIHV（副右下肝靜脈）是最常見的肝靜脈變異，繞過 RHV 直接把 seg 6 引流入 IVC；RIHV 愈大，RHV 就愈小甚至缺如。** 記憶鉤：「代償程度決定缺如門檻」——只有 **large RIHV（＋ predominant MHV）** 才能讓 RHV 缺如；**small RIHV 時 RHV 仍在**，這是考題常設的陷阱反選項。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1259/bjr.20190487",
+      "url": "https://doi.org/10.1259/bjr.20190487"
+    },
+    {
+      "label": "10.1148/rg.2021210012",
+      "url": "https://doi.org/10.1148/rg.2021210012"
+    },
+    {
+      "label": "10.2214/AJR.18.21064",
+      "url": "https://doi.org/10.2214/AJR.18.21064"
+    },
+    {
+      "label": "10.2214/AJR.05.0168",
+      "url": "https://doi.org/10.2214/AJR.05.0168"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**RIHV 是最常見肝靜脈變異**，可多條；引流**右葉後下段（含 seg 6）直入 IVC**。",
+    "**盛行率**：任意大小之 accessory RIHV 可達**約 48%**；**大的 RIHV（引流 seg 6）約見於 15–20% 正常人**。",
+    "**與 RHV 的關係**：有 RIHV 時 **RHV 通常較小**（因 seg 6 改由 RIHV 引流）。",
+    "**RHV 缺如的條件**：需**大的 RIHV ＋ predominant MHV** 接管右葉引流時 RHV 才可能缺如；**若 RIHV 小，RHV 應仍存在**（題目選項 C 把「small」誤作可致 RHV 缺如 → 錯誤）。",
+    "**臨床意義**：肝切除/移植/介入前須辨識（影響出血與移植肝引流）；**MPR CT 有助顯示 RIHV**。"
+  ],
+  "management": "",
+  "name": "Right Inferior (Accessory) Hepatic Vein",
+  "nameZh": "副右下肝靜脈",
+  "slug": "hepatic-vein-variants",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**DAVF最好發的位置不是cavernous sinus，而是transverse/sigmoid sinus——這是常見誤植的陷阱。其餘特徵記憶：血栓化靜脈竇壁上一堆細小血管網是最佳診斷線索；侵犯性DAVF的關鍵影像徵象是皮質引流靜脈擴大（代表逆流入蜘蛛膜下腔）；本質是後天性硬腦膜動脈與靜脈竇/皮質靜脈間的直接分流。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見部位**：**transverse/sigmoid sinus**（非cavernous sinus，此為常見誤植陷阱）。",
+    "**最佳診斷線索**：血栓化硬腦膜靜脈竇壁上見**網狀細小血管（network of tiny vessels in wall of thrombosed dural venous sinus）**。",
+    "**侵犯性（aggressive）DAVF徵象**：**皮質引流靜脈擴大（enlarged cortical draining veins）**代表逆流入皮質靜脈系統，出血風險上升。",
+    "**本質**：**後天性（acquired）**硬腦膜動脈與硬腦膜靜脈竇或皮質靜脈間之直接分流。"
+  ],
+  "management": "",
+  "name": "Dural Arteriovenous Fistula (DAVF)",
+  "nameZh": "硬腦膜動靜脈廔管",
+  "slug": "dural-av-fistula",
+  "subspecialty": "NR"
+}

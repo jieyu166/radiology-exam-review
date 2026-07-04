@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**FNH 就靠 Doppler 上中央動脈向外放射的「輪輻」（spoke-wheel）認出來；好發年輕女性（20–50 歲），不是 5th–6th decade。** 判讀分水嶺一：**spoke-wheel ＝ 中央大動脈離心放射狀分支 → FNH 的代名詞**；判讀分水嶺二：**central scar（僅 <50% 可見）＋ 無包膜＋肝膽期等/高訊號（含膽管，與 adenoma 鑑別）**。記憶鉤：FNH 像腳踏車輪，中央一根動脈往外輻射——看到輪輻就喊 FNH。",
+  "differentialDiagnosis": [
+    "病灶",
+    "**FNH**",
+    "HCC",
+    "Hemangioma",
+    "Adenoma"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "- **典型FNH特徵**：fibrous central scar、動脈期均質高強化(hyperenhancement)、門脈期與延遲期與肝實質等密度/訊號(isodense/isointense)。\n- **非典型FNH特徵(本題重點)**：pseudocapsule、病灶不均質(heterogeneity，較常見於adenoma)、缺乏中央疤痕/中央動脈(常見於<3cm)、中央疤痕不強化、病灶內脂肪、**周邊環狀/不連續強化(discontinuous peripheral enhancement)**等。故「discontinuous peripheral enhancement」為**非典型**特徵(典型為均質動脈期強化，不連續周邊強化偏向hemangioma)。",
+  "keyPoints": [
+    "**本質**：第二常見良性肝腫瘤（次於 hemangioma）；好發**年輕至中年女性（約 3rd–5th decade、20–50 歲）**、無症狀、非腫瘤性的增生反應（含正常肝細胞＋Kupffer 細胞＋膽管，但結構異常）。故「年齡高峰在 5th–6th decade」**錯誤**（2016-101 正解 C）。",
+    "**Spoke-wheel（輪輻）血流**：**中央大動脈向外離心放射**——color Doppler 上 FNH 的特徵徵象（題目答案）。",
+    "**Central scar**：中央疤痕＋放射狀纖維隔，但**僅見於 <50%**；scar 內含中央動脈。",
+    "**超音波**：病灶與 scar 回音多變、常與肝近乎等回音而不易偵測；可見中央 scar 與周邊血管被推移；典型 Doppler 所見**僅約 20% 病例可見**。",
+    "**無門脈、無包膜**；hepatobiliary 對比（如 gadoxetate）延遲期**等/高訊號**（含膽管，與 adenoma 區別）。"
+  ],
+  "management": "",
+  "name": "Focal Nodular Hyperplasia (FNH)",
+  "nameZh": "局灶性結節增生",
+  "slug": "fnh",
+  "subspecialty": "ABD"
+}

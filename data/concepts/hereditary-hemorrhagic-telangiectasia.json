@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**HHT（Osler-Weber-Rendu症候群）與肺動靜脈畸形（PAVM）的雙向關聯要分清楚：約60%以上PAVM病人患有HHT；而HHT病人約有「至少一半（不是少於10%）」有肺動靜脈畸形/肺部侵犯。所以「少於10% HHT病人有PAVM」是錯誤敘述。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**別名**：Osler-Weber-Rendu syndrome；體染色體顯性遺傳之血管發育異常。",
+    "**侵犯範圍**：可侵犯**黏膜、皮膚、肺、腦、腸胃道**（微血管擴張與動靜脈畸形）。",
+    "**PAVM → HHT方向**：約**60%以上**肺動靜脈畸形（PAVM）病人患有HHT。",
+    "**HHT → PAVM方向（本題重點）**：HHT病人**約至少一半（≥50%）有肺部侵犯/肺動靜脈畸形**——故「少於10%的HHT病人有PAVM」為**錯誤**。"
+  ],
+  "management": "",
+  "name": "Hereditary Hemorrhagic Telangiectasia (Osler-Weber-Rendu)",
+  "nameZh": "遺傳性出血性微血管擴張症",
+  "slug": "hereditary-hemorrhagic-telangiectasia",
+  "subspecialty": "IR"
+}

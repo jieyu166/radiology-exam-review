@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**急性類肉瘤關節炎（Lofgren syndrome）的踝關節腫脹為 periarticular soft tissue swelling 及 tenosynovitis，真正的 synovitis 或 joint effusion 少見。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Lofgren syndrome triad：bilateral hilar LAD + erythema nodosum + joint pain",
+    "急性關節炎的關節腫脹 = **periarticular soft tissue swelling + tenosynovitis**，非 true synovitis/effusion",
+    "MRI 可見 tenosynovitis / tendinitis / bursitis / synovitis，但表現非特異性",
+    "Sarcoid muscle nodule：fusiform、longitudinal、central low signal on T2WI/T1W C+ FS",
+    "指骨：lacy trabecular pattern，無明顯骨膜反應"
+  ],
+  "management": "",
+  "name": "Musculoskeletal Sarcoidosis",
+  "nameZh": "肌骨類肉瘤病",
+  "slug": "sarcoidosis-msk",
+  "subspecialty": "MSK"
+}

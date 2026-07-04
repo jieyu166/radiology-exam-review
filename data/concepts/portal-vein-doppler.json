@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**主門靜脈正常血流為順行（antegrade/hepatopetal，流向肝臟），於頻譜都卜勒基線上方呈現；正常波形為呈現輕微隨呼吸變化的相位性（phasic）波形，而非搏動性（pulsatile）、逆行（hepatofugal）或連續性（continuous）波形。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**方向**：正常門脈血流為**順行（antegrade/hepatopetal）**，流向肝臟，於都卜勒頻譜基線**上方**顯示。",
+    "**波形型態**：正常為**相位性（phasic）**——會隨呼吸稍微變化、呈現溫和起伏但恆位於基線上方；正常相位性範圍可從低到高，異常過低呈非相位（nonphasic）波形，異常過高則呈搏動性（pulsatile）波形。",
+    "**搏動指數（PI）**：用以量化搏動性，正常相位性對應 **PI > 0.5**。",
+    "**峰值/谷值速度**：峰值門脈速度對應收縮期，谷值速度對應舒張末期。"
+  ],
+  "management": "",
+  "name": "Normal Portal Vein Doppler Flow Pattern",
+  "nameZh": "門脈都卜勒血流",
+  "slug": "portal-vein-doppler",
+  "subspecialty": "US"
+}

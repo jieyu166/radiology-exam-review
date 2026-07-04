@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**憩室炎與大腸癌在CT上常有重疊表現（腸壁增厚、周圍發炎變化皆可見於兩者），但「區域淋巴結病變」較常見於癌症——這是判讀分水嶺，而腹水並非有效鑑別點。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**傾向大腸癌**：**區域淋巴結病變(regional lymphadenopathy)** 較常見於癌症，非憩室炎。",
+    "**傾向憩室炎**：**Halo sign** 提示憩室炎（腸壁分層水腫）。",
+    "**兩者皆可見**：**腸壁增厚(mural thickening)**、**周圍發炎變化(pericolonic inflammatory change)** 於癌症與憩室炎皆可出現，非有效鑑別點。",
+    "**非鑑別點**：**腹水(ascites)** 並非有效區分兩者之依據。"
+  ],
+  "management": "",
+  "name": "Diverticulitis vs Colon Cancer — CT Differentiation",
+  "nameZh": "憩室炎與大腸癌鑑別",
+  "slug": "diverticulitis-vs-colon-cancer",
+  "subspecialty": "ABD"
+}

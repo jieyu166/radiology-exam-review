@@ -1,0 +1,13 @@
+{
+  "checked": false,
+  "definition": "**Lisfranc 韌帶連接第 1 楔狀骨（medial cuneiform）與第 2 蹠骨基部，是穩定跗蹠關節內側柱的關鍵斜行骨間韌帶——記憶鉤「1 楔到 2 蹠」，是唯一橫跨第 1、2 列的骨間韌帶。** 判讀分水嶺：**Lisfranc 韌帶三束（背側、骨間、蹠側；骨間束最厚最強）；fleck sign（第 2 蹠骨基/楔狀骨撕脫）為 pathognomonic；第 2 蹠骨基相對中楔狀骨外/背側移位、1-2 蹠骨基間隙加寬（>2 mm）為不穩定徵象。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **對位線**：正位第 2 蹠骨內緣應對齊中楔狀骨內緣；斜位第 3 蹠骨內緣對齊外楔狀骨——不對齊即損傷。\n- **fleck sign**：第 1-2 蹠骨基間隙之小撕脫骨片＝Lisfranc 韌帶撕脫，pathognomonic。\n- **隱匿損傷**：平片可正常，負重位/CT/MRI 提高偵測；MRI 看三束完整性與 BME。\n- **不穩定判定**：1-2 蹠骨基間隙 >2 mm 或負重加大 → 手術固定。\n- **陷阱**：漏診致慢性不穩/創傷性關節炎；勿把 athletic/Charcot 好發年齡對調。",
+  "keyPoints": [],
+  "management": "1. **解剖**：medial cuneiform ↔ 2nd MT base，三束（骨間最強）。\n2. **fleck sign**：pathognomonic 撕脫徵象。\n3. **對位**：第 2 蹠骨內緣對齊中楔狀骨內緣。\n4. **機轉**：軸向負荷 + 前足蹠屈。\n5. **族群**：運動傷害年輕、Charcot 長期糖尿病。\n\n> [!note] 考點：Lisfranc ligament連接哪一對骨頭?\n> **第 1 楔狀骨與第 2 蹠骨基部（D）**——為跨越第 1、2 列的斜行骨間韌帶，斷裂即造成 Lisfranc 關節複合體不穩定。\n\n> [!note] 考點：有關Lisfranc fracture-dislocation下列何者有誤? (2020-229)\n> **C**——選項 C 將 athletic injury 與 Charcot arthropathy 之好發年齡對調（athletic 好發較年輕、Charcot 好發較年長糖尿病）。Lisfranc ligament 連接 medial cuneiform 與 2nd MT base 為診斷關鍵。\n\n> [!warning] 官方答案存疑（2020-229 選項B）\n> 官方 2020 詳解加註「C（B 的描述也不很正確?）」，對選項 B「forced plantar flexion of forefoot on heel」用詞是否精確存疑（機轉應為軸向負荷合併 forefoot 過度蹠屈——與  STATdx 描述一致）。暫依官方標示 C 為預設，建議醫師覆核。",
+  "name": "Lisfranc Ligament & Tarsometatarsal Joint Injury",
+  "nameZh": "蹠跗關節損傷",
+  "slug": "lisfranc-injury",
+  "subspecialty": "MSK"
+}

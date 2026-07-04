@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**CT低對比度偵測靠「降低雜訊」——增加切片厚度是唯一能同時提高SNR、改善低對比度的選項；反直覺的是它會犧牲空間解析度。降mAs、用銳利骨核心、縮小FOV都會增加雜訊或只改善空間解析度，反而傷害低對比度。記憶鉤：低對比＝比雜訊，厚切片壓雜訊、薄切片看細節。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**CT signal-to-noise ratio（SNR）影響因子**：mAs（增加mAs提升SNR）、切片厚度（較厚切片提升SNR）、病人體型（體型越大SNR越低）。",
+    "**提高低對比度（low contrast detectability）之方式**：**增加重組切片厚度（slice thickness）**——較厚切片減少雜訊、提升SNR，從而改善低對比度偵測（代價為空間解析度變差、partial volume artifact）。",
+    "**降低低對比度（傷害）之方式**：",
+    "**降低mAs**：減少光子數→增加雜訊→低對比度變差。",
+    "**使用bone algorithm（銳利核心）取代soft tissue algorithm**：高解析度銳利核心不平滑高頻訊號→增加雜訊→低對比度變差（但空間解析度較佳）。",
+    "**縮小掃描照野（scan FOV）**：主要改善**橫軸空間解析度（transaxial resolution）**，非改善低對比度。"
+  ],
+  "management": "",
+  "name": "CT Image Quality — Low Contrast, Noise & Spatial Resolution",
+  "nameZh": "電腦斷層影像品質",
+  "slug": "ct-image-quality-parameters",
+  "subspecialty": "Physics"
+}

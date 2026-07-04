@@ -1,0 +1,62 @@
+{
+  "checked": false,
+  "definition": "**腎上腺三題核心：增生「隨齡雙側」、pseudocyst「T1 亮因出血」、pheo「10% 鈣化」。** 結節性增生隨年齡盛行率上升、多雙側瀰漫（非局灶單側）；pseudocyst T1 高訊號來自出血（非脂肪/鈣化/單純液）；pheochromocytoma 的「10% rule」中含鈣化約 10%。這三點直接對應三道獨立考題。",
+  "differentialDiagnosis": [
+    "**Adenoma**：小、邊界清、均質;非顯影 ≤10 HU 或 CSI 訊號掉落即診斷;lipid-poor 者靠 washout。",
+    "**Pheochromocytoma**：**T2 顯著高訊號（\"light bulb sign\"，惟僅約一部分典型，約 35% 反呈低/中等訊號）**、富血管明顯強化、可囊變/出血/壞死;washout 可與腺瘤重疊（見陷阱）。",
+    "**Myelolipoma**：**含巨觀脂肪**（CT 負值區、MRI T1/T2 高訊號且脂肪抑制掉訊號）為診斷依據。",
+    "**Metastasis**：常雙側、邊界較不規則、無胞內脂肪（CSI 不掉訊號）、washout 偏低;T2 多中等偏高。",
+    "**ACC（腎上腺皮質癌）**：通常**大（多 >4–6 cm）且不均質**，含壞死/出血/鈣化，強化不均、可侵犯血管;少數含巨觀脂肪。",
+    "**出血（hemorrhage）**：可雙側、無強化、隨時間訊號演變（T1 隨亞急性期高訊號）;對應假性囊腫前驅。",
+    "**囊腫（cyst）**：單純液體衰減/訊號、薄壁、無強化;假性囊腫多為出血後，T1 高訊號源自出血而非脂肪。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.343130127。腎上腺結節性增生隨年齡增加/雙側；假性囊腫",
+      "url": "https://doi.org/10.1148/rg.343130127。腎上腺結節性增生隨年齡增加/雙側；假性囊腫"
+    },
+    {
+      "label": "https://doi.org/10.1016/j.jacr.2017.05.001",
+      "url": "https://doi.org/10.1016/j.jacr.2017.05.001"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.15.15475",
+      "url": "https://doi.org/10.2214/AJR.15.15475"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.295095027",
+      "url": "https://doi.org/10.1148/rg.295095027"
+    },
+    {
+      "label": "https://doi.org/10.1002/jmri.26542",
+      "url": "https://doi.org/10.1002/jmri.26542"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8679842/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8679842/"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.14.12941",
+      "url": "https://doi.org/10.2214/AJR.14.12941"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6755942/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6755942/"
+    },
+    {
+      "label": "10.1148/rg.343130127",
+      "url": "https://doi.org/10.1148/rg.343130127"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Adrenal cortical nodular hyperplasia**：**隨年齡盛行率增加**;多**雙側/瀰漫**（非局灶、非單側）;可與腎上腺皮質腺瘤並存。",
+    "**Adrenal pseudocyst**：T1WI 內**高訊號最可能源自出血(hemorrhage)**（假性囊腫常為出血後);非脂肪/鈣化/單純液。",
+    "**Pheochromocytoma 鈣化**：約 **10%** 含鈣化。"
+  ],
+  "management": "",
+  "name": "Adrenal Lesions (Hyperplasia, Pseudocyst, Pheochromocytoma)",
+  "nameZh": "腎上腺病灶",
+  "slug": "adrenal-lesions",
+  "subspecialty": "ABD"
+}

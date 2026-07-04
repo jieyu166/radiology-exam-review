@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**頭頸癌治療後影像**需區分正常術後變化與腫瘤復發，皮瓣與周圍組織的邊界特徵是關鍵。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "良性術後變化：皮瓣與鄰近正常組織之間邊界**清晰（sharp）**",
+    "腫瘤復發：邊界**模糊（blurred）**，漸進性軟組織增厚",
+    "Myocutaneous flaps 逐漸出現去神經萎縮（volume loss + fatty replacement）",
+    "Radical neck dissection 切除範圍：ipsilateral levels I-V 淋巴結、SCM、IJV、submandibular gland、spinal accessory nerve"
+  ],
+  "management": "",
+  "name": "Posttreatment Head and Neck Cancer Imaging",
+  "nameZh": "頭頸癌治療後影像",
+  "slug": "posttreatment-head-neck-cancer",
+  "subspecialty": "Neuro"
+}

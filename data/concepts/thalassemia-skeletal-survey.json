@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**重型海洋性貧血因骨髓代償性增生，顱骨呈「hair-on-end」放射狀骨針樣外觀合併板障間隙增寬——這是慢性溶血性貧血的共通骨骼表現，助記口訣「HINEST」涵蓋六種會造成hair-on-end的疾病。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**機轉**：慢性溶血性貧血（如重型海洋性貧血）導致骨髓造血代償性增生，顱骨板障（diploic space）增寬、外板變薄，骨小樑呈垂直放射狀排列，形成「**hair-on-end**」外觀。",
+    "**Hair-on-end 鑑別診斷口訣「HINEST」**：",
+    "**H**：hereditary spherocytosis（遺傳性球形紅細胞增多症）",
+    "**I**：iron deficiency anemia（缺鐵性貧血）",
+    "**N**：neuroblastoma",
+    "**E**：G6PD deficiency causing hemolytic anemia",
+    "**S**：sickle cell disease（鐮狀細胞疾病）",
+    "**T**：thalassemia major（重型海洋性貧血）",
+    "**非典型表現（此題其他選項）**：額竇擴大、乾骺端透亮帶、眼眶向內側移位皆**非**海洋性貧血典型骨骼特徵。"
+  ],
+  "management": "",
+  "name": "Thalassemia Major — Skeletal Survey (Hair-on-End)",
+  "nameZh": "海洋性貧血骨骼表現",
+  "slug": "thalassemia-skeletal-survey",
+  "subspecialty": "PED"
+}

@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**雄性素不敏感症候群病人是46,XY基因型男性，表現卻是女性表現型——子宮缺如或殘跡，性腺是隱睪不是卵巢，這是「男性假兩性畸形」的典型代表。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：因末端器官對雄性素(尤其睪固酮)產生抵抗所致，又稱睪丸女性化症候群；可分完全型與不完全型，影像表現多變。",
+    "**核型與表現型**：**46,XY基因型**（非46,XX）合併**女性表現型**（男性假兩性畸形）。",
+    "**子宮**：**缺如或呈殘跡狀態(absent or rudimentary uterus)**。",
+    "**性腺**：雙側**隱睪(bilateral cryptorchidism)**，可合併睪丸旁苗勒管囊腫；並非正常卵巢。",
+    "**其他影像特徵**：陰道縮短(shortened vagina)。"
+  ],
+  "management": "",
+  "name": "Androgen Insensitivity Syndrome (AIS)",
+  "nameZh": "雄性素不敏感症候群",
+  "slug": "androgen-insensitivity-syndrome",
+  "subspecialty": "ABD"
+}

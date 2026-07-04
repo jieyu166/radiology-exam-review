@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**MRS的四個常考代謝物口訣：NAA(2.02 ppm)是神經元的身分證，減少代表神經元受損；Choline(3.2 ppm)是細胞膜週轉/增生的指標，是acetylcholine的前驅物；Lactate(1.3 ppm)在長TE呈doublet，代表無氧代謝；Canavan disease是唯一NAA不減反增的疾病。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Lactate**：**1.3 ppm**，於**long TE**（非short TE）呈**double peak（doublet）**；與lipid band重疊，可用**intermediate TE（如144 ms）使lactate反轉**以資鑑別。",
+    "**NAA (N-acetylaspartate)**：共振於**2.02 ppm**（非3.0 ppm）；為神經元/軸突完整性指標，減少代表神經元受損或喪失。",
+    "**Canavan disease**：**NAA增加**（非減少）——是少數NAA不降反升的疾病，具鑑別意義。",
+    "**Choline**：為**acetylcholine（乙醯膽鹼）之前驅物**，acetylcholine是細胞膜成分之一；choline峰反映細胞膜合成/週轉（增生性病灶常見choline上升）。"
+  ],
+  "management": "",
+  "name": "MR Spectroscopy (MRS) — Brain Metabolite Peaks",
+  "nameZh": "磁振頻譜",
+  "slug": "mr-spectroscopy-brain",
+  "subspecialty": "NR"
+}

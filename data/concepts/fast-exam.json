@@ -1,0 +1,47 @@
+{
+  "checked": false,
+  "definition": "**FAST 只問一個問題：「有沒有游離液體？」——腹腔積血或心包積血，不評估器官撕裂程度（那是 CT 的事）。** 標準四視窗空間順序：subxiphoid（心包）→ RUQ Morrison pouch（最敏感）→ LUQ 脾腎間 → suprapubic Douglas pouch；E-FAST 再加雙側胸廓查氣胸/血胸。記憶鉤：四窗由上往下掃——「心、右肝、左脾、骨盆」；陽性液體＋血流動力學不穩＝直送開刀，不等 CT。",
+  "differentialDiagnosis": [
+    "陽性：dependent 區無回音/低回音液體（Morrison pouch、脾腎間／膈下、Douglas pouch）。",
+    "易混選項辨異：主動脈評估＝AAA 篩檢（另一協定）；肝實質損傷分級＝CT；肝/門靜脈血流＝Doppler 肝臟超音波——皆非 FAST 範疇。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/radiol.2017160107。重點：早期敏感度數據多以臨床結果而非",
+      "url": "https://doi.org/10.1148/radiol.2017160107。重點：早期敏感度數據多以臨床結果而非"
+    },
+    {
+      "label": "https://doi.org/10.3390/jcm14103457（PMC12112529；偵測門檻量、視窗低位點、氣胸/血胸徵象、生理性盆腔液與偽陽性",
+      "url": "https://doi.org/10.3390/jcm14103457（PMC12112529；偵測門檻量、視窗低位點、氣胸/血胸徵象、生理性盆腔液與偽陽性"
+    },
+    {
+      "label": "https://www.acep.org/sonoguide/basic/fast",
+      "url": "https://www.acep.org/sonoguide/basic/fast"
+    },
+    {
+      "label": "https://www.east.org/education-resources/practice-management-guidelines/archived/blunt-abdominal-trauma-evaluation-of",
+      "url": "https://www.east.org/education-resources/practice-management-guidelines/archived/blunt-abdominal-trauma-evaluation-of"
+    },
+    {
+      "label": "10.1148/radiol.2017160107",
+      "url": "https://doi.org/10.1148/radiol.2017160107"
+    },
+    {
+      "label": "10.3390/jcm14103457（PMC12112529",
+      "url": "https://doi.org/10.3390/jcm14103457（PMC12112529"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**AIUM/ACEP 定義**：FAST 在腹部的評估目標是**自由液體**（free fluid），即偵測 hemoperitoneum；非評估肝實質、主動脈或肝/門靜脈。",
+    "**臨床定位**：床邊即時 POCUS，用於創傷病人快速分流（尤其血液動力學不穩者）；陽性自由液體＋不穩 → 直接送開刀。",
+    "**四視窗**：subxiphoid（心包）、RUQ（Morrison hepatorenal recess，仰臥最低位、最敏感）、LUQ（splenorenal/perisplenic）、suprapubic（pouch of Douglas）。",
+    "**E-FAST（extended）**：加雙側前胸（氣胸：lung sliding 消失、barcode sign）與肋膈角（血胸）。",
+    "**限制**：對少量積血、後腹膜與中空臟器/實質損傷敏感度有限；陰性 FAST 不能排除損傷 → 穩定病人仍須 CT。"
+  ],
+  "management": "",
+  "name": "FAST / E-FAST Ultrasound (Free Fluid in Trauma)",
+  "nameZh": "創傷超音波",
+  "slug": "fast-exam",
+  "subspecialty": "US"
+}

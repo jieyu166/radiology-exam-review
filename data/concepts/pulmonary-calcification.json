@@ -1,0 +1,48 @@
+{
+  "checked": false,
+  "definition": "**肺結節的鈣化型態直接告訴你良惡性：中央、層狀（laminated）、爆米花屬良性，偏心或不定形才可疑。** 判讀分水嶺一：**層狀／同心圓＝良性**——「層狀與惡性相關」是考題陷阱，答案為非。判讀分水嶺二：瀰漫鈣化成因需記三組——**IPF→樹枝狀骨化（支氣管血管束分布）；慢性腎衰→轉移性鈣化好發上肺（V/Q 高→偏鹼）；末期二尖瓣狹窄→含鐵血黃素＋骨化結節**。記憶鉤：良性鈣化「中滿層爆米花」；瀰漫鈣化「腎上肺、心瓣血、肺纖維枝」。",
+  "differentialDiagnosis": [
+    "**轉移性肺鈣化（metastatic pulmonary calcification, MPC）**:",
+    "機轉:鈣磷沉積於正常肺組織,最常見**慢性腎衰／末期腎病**,亦見次發性副甲狀腺亢進、肝/腎移植、惡性高鈣血症。",
+    "分布:**好發上肺／肺尖（apical/subapical）**——肺尖 V/Q 比高 → 局部偏鹼性 pH,利鈣鹽析出沉積。",
+    "CT:中央小葉（centrilobular）毛玻璃微結節(3–10 mm,fluffy、邊界不清),可帶周邊鈣化;亦可見血管周（perivascular）／血管壁鈣化。鈣化在 CT 上**僅約 60% 病例可見**(可呈毛玻璃而無明顯高密度,易漏)。骨掃描可見肺部攝取增加。",
+    "**失養性鈣化（dystrophic calcification）**:組織受損後鈣沉積。",
+    "感染後:**TB、varicella（水痘肺炎癒合後散在小鈣化點）、histoplasmosis**;通常多發 >5 mm 鈣化結節、伴鈣化淋巴結。",
+    "塵肺:**矽肺（silicosis）、煤工塵肺**——肺實質結節鈣化＋**蛋殼狀（eggshell）淋巴結鈣化**。",
+    "**瀰漫性肺骨化（disseminated pulmonary ossification, DPO）**:含真骨小梁(可含骨髓),非單純鈣化。",
+    "**樹枝狀（dendriform）**:沿間質／支氣管血管束之**分支狀**緻密影,見於肺纖維化（IPF 等）、amyloidosis。",
+    "**結節狀（nodular pulmonary ossification, NPO）**:肺泡內、下肺為主之圓形小結節(1–5 mm),典型見於**慢性肺靜脈高壓（末期二尖瓣狹窄／二尖瓣修補後）**——常合併含鐵血黃素沉積。**與陳舊肉芽腫鑑別：NPO「無」鈣化縱膈/肺門淋巴結＋有心臟病史;陳舊肉芽腫常「伴」鈣化淋巴結。**",
+    "**肺泡微石症（pulmonary alveolar microlithiasis, PAM）**:",
+    "機轉:*SLC34A2* 基因突變致肺泡內磷酸鈣微石沉積。",
+    "影像:**砂暴外觀（sandstorm appearance）**——瀰漫極細微結節,下肺為重;**黑胸膜線（black pleura sign）**(肋骨下與含鈣肺實質間之低密度脂肪/小囊帶);可見鈣化葉間隔。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.3390/tomography11030028",
+      "url": "https://doi.org/10.3390/tomography11030028"
+    },
+    {
+      "label": "10.1148/rg.240110",
+      "url": "https://doi.org/10.1148/rg.240110"
+    },
+    {
+      "label": "10.1002/rcr2.839",
+      "url": "https://doi.org/10.1002/rcr2.839"
+    },
+    {
+      "label": "10.2214/ajr.135.6.1265",
+      "url": "https://doi.org/10.2214/ajr.135.6.1265"
+    },
+    {
+      "label": "10.2214/ajr.157.2.1853800",
+      "url": "https://doi.org/10.2214/ajr.157.2.1853800"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Pulmonary Calcification & Ossification",
+  "nameZh": "肺鈣化",
+  "slug": "pulmonary-calcification",
+  "subspecialty": "CH"
+}

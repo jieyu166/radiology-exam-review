@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**對比劑腎病變的核心：診斷要看「3 天內、無他因、肌酐升高」，風險因子的核心是既存腎功能不全——腎好的人幾乎不必擔心。** CI-AKI 定義為施打含碘對比劑 3 天內、排除其他原因，serum creatinine 上升 ≥0.3 mg/dL 或 ≥1.5×基礎值。最重要風險因子是既存嚴重腎功能不全；正常腎功能在常規診斷劑量下「無劑量-毒性關係」（此敘述常被反轉為陷阱）。心導管研究因動脈注射等因素，高估了靜脈注射含碘對比劑的 CI-AKI 風險。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.2019192094——明確區分",
+      "url": "https://doi.org/10.1148/radiol.2019192094——明確區分"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義（CIAKI）**：施打含碘對比劑 **3 天內、無其他原因**,serum creatinine **上升 ≥0.3 mg/dL 或 ≥1.5×基礎值**。",
+    "**CA-AKI vs CI-AKI**：",
+    "**CA-AKI（contrast-associated）**：與血管內對比劑投予『時間相關』的任何腎毒性事件（含 CI-AKI;有時難與其他同時因子區分）。",
+    "**CI-AKI（contrast-induced）**：可歸因於對比劑『因果』造成。",
+    "**最重要風險因子**：**既存嚴重腎功能不全（pre-existing severe renal insufficiency）**;其他＝糖尿病、脫水、心血管疾病、短時間(<24h)多次劑量。",
+    "**劑量-毒性**：**正常腎功能、常規診斷劑量（含碘對比劑 <300 mL 或含碘量 <90 g）下,劑量與毒性『無相關』**（故「有 dose-toxicity relationship」為錯）。",
+    "**eGFR 與處置**：",
+    "**eGFR ≥30**：IV 含碘對比劑為 AKI 獨立風險因子的證據極少。",
+    "**eGFR <30 或 AKI（未透析）**：無絕對禁忌,但屬高風險 → 可預防（如**擴容**,但需衡量心衰/高血容風險）。",
+    "**心導管攝影研究高估** IV 對比劑增強檢查的 CI-AKI 風險（動脈內 vs 靜脈內不同）。",
+    "**等張 vs 低張含碘對比劑（考題陷阱）**：以現行低張性（low-osmolar）對比劑注射，**等張性（iso-osmolar）對比劑並無明顯更佳之腎功能保護作用**——故「iso-osmolar 比 low-osmolar 有明顯更好腎保護」為錯誤敘述。此外低張性對比劑除非用於極大劑量或已有心功能障礙者，否則**洗腎病人接受 IV 對比劑亦不需因此於檢查後緊急洗腎**。"
+  ],
+  "management": "",
+  "name": "Contrast-induced / Contrast-associated AKI (CI-AKI / CA-AKI)",
+  "nameZh": "對比劑腎病變",
+  "slug": "contrast-induced-aki",
+  "subspecialty": "Physics"
+}

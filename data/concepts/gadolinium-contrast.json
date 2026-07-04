@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**釓劑縮短 T1、讓組織在 T1WI 變亮；安全性關鍵在結構：macrocyclic（環狀）把釓鎖住，不易去螯合，NSF 與腦沉積風險低；linear（線狀）鎖不緊，風險高。** 判讀分水嶺一：**macrocyclic 穩定 → NSF/沉積風險低；linear（尤其非離子，如 Omniscan/Magnevist/OptiMARK）不穩定 → 高風險**；判讀分水嶺二：**主要腎排泄；肝膽製劑（Gd-EOB-DTPA 約 50%、Gd-BOPTA 約 3–5% 走膽道）供肝膽期影像**。記憶鉤：macrocyclic 像環形鎖，線狀像鬆緊帶——鎖越緊越安全；沉積好發齒狀核 > 蒼白球。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**作用機轉**：釓為**順磁性**,**縮短 T1（與 T2）** → 增強組織在 **T1WI 的訊號**（非直接被看見,而是改變鄰近質子弛緩）。",
+    "**分類**：",
+    "**結構**：**linear（線狀）vs macrocyclic（環狀）**;",
+    "**電荷**：ionic vs non-ionic。",
+    "**穩定度**：**macrocyclic ＞ linear**（環狀去螯合少）→ **macrocyclic NSF 與釓沉積風險較低**;惟 macrocyclic 過敏反應風險相對略高。",
+    "**配位基與釓離子結合強度（考題易錯點）**：**Macrocyclic, ionic 結構之結合最強、最穩定**（如gadoterate/Dotarem）；結合強度排序約為macrocyclic ionic > macrocyclic non-ionic > linear ionic > linear non-ionic，結合越強則越不易去螯合、越安全。",
+    "**NSF 風險（ACR 分組，見 [[nephrogenic-systemic-fibrosis]]）**：",
+    "**Group I（高風險，避免用於 eGFR<30）**：**gadodiamide（Omniscan）、gadopentetate（Magnevist）、gadoversetamide（OptiMARK）**——皆 **linear**。",
+    "**Group II（低風險）**：macrocyclic——gadoterate（Dotarem）、gadobutrol（Gadavist）、gadoteridol（ProHance）。",
+    "**分布/滲透壓**：多數 GBCA 為**細胞外(extracellular)對比劑**（Primovist 屬肝細胞特異，會進入 hepatocyte）;**標準劑量 0.1 mmol/kg 體積極小**,雖 gadopentetate 原液為**高滲透壓（~1960 mOsm/kg，遠高於血漿 290）**,臨床劑量下滲透壓非主要顧慮。",
+    "**釓腦沉積（gadolinium deposition）**：多次注射後沉積於**齒狀核(dentate nucleus) ＞ 蒼白球(globus pallidus) ＞ thalamus ＞ pons**,T1WI 高訊號（Kanda 2014）;**linear ＞ macrocyclic**、**劑量依賴**、**腎功能正常者亦可發生**;**會穿過完整 BBB**（推測經 glymphatics，~18–42% 進入間質）;**目前無證據造成失智/小腦症候群等神經副作用、臨床意義未明**。",
+    "**GDD（gadolinium deposition disease，與無症狀沉積不同）**：少數於注射後**2 個月內**出現症狀群（≥3 項）——周邊神經痛(glove-and-stocking)、關節僵硬/肌痙攣、頭痛、思緒混沌、肢端皮膚增厚/變色/疼痛。",
+    "**代謝/排泄與重複注射**：",
+    "多數 GBCA **主要經腎絲球過濾排泄**（正常腎功能 ~98% 於 24 h 排出；半衰期 ~1.5–2 h）;**血液透析可移除**含釓對比劑。",
+    "**重複注射間隔**：eGFR **<30 建議至少間隔 7 天**;eGFR ≥30 兩次間隔 **~4 小時**（~75% 已排出）。",
+    "**Hepatobiliary 製劑**（詳見 [[hepatobiliary-mri-contrast]]）：**Gd-EOB-DTPA（Primovist）~50% 經膽**、**Gd-BOPTA（MultiHance）~3–5% 經膽**。",
+    "**EMA（2017）**：因腦沉積,**暫停/限制多數 linear 製劑**（gadodiamide、gadopentetate IV、gadoversetamide）;保留肝膽特異 linear（gadoxetate、gadobenate）與關節腔內 gadopentetate。",
+    "**NSF實際發生率遠低於1%**：含釓對比劑臨床安全性極高，於**eGFR<30 mL/min族群發生NSF之風險<1/10,000**——並非約1%這麼高，此為常考陷阱（誤把極低風險誇大為1%）。",
+    "**CMR顯影並非僅限含釓對比劑**：心臟核磁共振造影(CMR)臨床上並非「只有」使用含釓顯影劑，仍有其他造影技術（如non-contrast/native T1 mapping等）可用於評估心肌組織特性，惟含釓對比劑仍是評估延遲強化(LGE)之主要工具。"
+  ],
+  "management": "",
+  "name": "Gadolinium-based Contrast Agents (GBCA)",
+  "nameZh": "含釓對比劑",
+  "slug": "gadolinium-contrast",
+  "subspecialty": "Physics"
+}

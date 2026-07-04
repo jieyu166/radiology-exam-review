@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**乳房 MRI 篩檢的關鍵陷阱是「DWI 尚不足以取代顯影劑加強 MRI（DCE-MRI）」——DWI 敏感度雖佳仍為輔助角色，DCE-MRI（敏感度可達 ~97.9%）仍是核心。終生風險 >20% 為高風險族群，建議每年 MRI 合併乳房攝影；乳房 MRI 偵測更多病灶未必轉化為更好之臨床預後。** 判讀分水嶺：**MRI 是乳癌敏感度最高的工具，但「偵測更多 ≠ 預後更好」（過度診斷疑慮）；abbreviated MRI 準確度與完整方案相當（利篩檢普及）；DWI 提高特異度/減少對比劑，但不能單獨取代 DCE-MRI。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.2019182947（accessed",
+      "url": "https://doi.org/10.1148/radiol.2019182947（accessed"
+    }
+  ],
+  "imagingFindings": "- **DCE-MRI 核心**：動態強化型態（wash-in/wash-out、BPE 背景實質強化）是判讀主體，DWI/ADC 為輔助鑑別。\n- **DWI 定位**：可提高特異度、減少不必要切片，並探索無對比劑篩檢，但目前非取代 DCE-MRI。\n- **AB-MRI**：縮短掃描（first post-contrast + 少數序列）維持準確度，利高危/緻密乳房補充篩檢。\n- **適應族群**：高危（BRCA、胸部放射史、終生風險 >20%）年度 MRI+攝影；緻密乳房為補充篩檢考量。\n- **判讀心態**：MRI 敏感高但特異有限、BPE 影響，偵測增加不等於預後改善，須權衡切片與追蹤。",
+  "keyPoints": [
+    "**偵測更多病灶 ≠ 更好預後**：乳房 MRI 偵測更多病灶，**尚未證實可轉化為改善之臨床預後**（過度診斷/治療疑慮）。",
+    "**Abbreviated MRI（AB-MRI）**：文獻報告其診斷準確度與**完整方案相當**，較快、較省，具篩檢潛力。",
+    "**DWI 角色**：DWI 敏感度佳（ADC 切點 0.92×10⁻³ mm²/s 提供 91.5% 敏感、86.5% 特異），**但尚不足以取代 DCE-MRI**（DCE-MRI 單獨敏感度可達 97.9%），為核心工具之輔助。",
+    "**高風險篩檢**：ACS/ACR 將**終生風險 >20%** 之女性列為高風險，建議**每年 MRI 合併乳房攝影**。"
+  ],
+  "management": "1. **DWI 不取代 DCE-MRI**：DWI 輔助、DCE 核心。\n2. **高危族群**：終生風險 >20% 年度 MRI+攝影。\n3. **AB-MRI**：準確度等同完整方案，利普及。\n4. **偵測 ≠ 預後**：更多病灶未必更好結果。\n5. **判讀權衡**：高敏感但特異有限，注意 BPE 與過度診斷。\n\n> [!note] 考點：關於乳房MRI，何者敘述錯誤？\n> **DWI 已足以取代顯影劑加強乳房 MRI（C）為錯誤**——DWI 敏感度佳但尚不足以取代 DCE-MRI。偵測更多病灶未必轉化為更好預後、abbreviated MRI 準確度與完整方案相當、終生風險 >20% 建議每年 MRI 合併乳房攝影，皆為正確。",
+  "name": "Breast MRI — Screening Role & Limitations",
+  "nameZh": "乳房MRI篩檢角色",
+  "slug": "breast-mri-screening-role",
+  "subspecialty": "Breast"
+}

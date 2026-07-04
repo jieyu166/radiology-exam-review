@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**感染性肌炎**分為化膿性（pyomyositis）與病毒性（viral myositis），兩者預後與影像表現不同。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Pyomyositis**：最常見致病菌為 Gram-positive S. aureus，可進展為肌肉內膿瘍（hallmark）",
+    "**Viral myositis**：**不會**進展為肌肉內膿瘍",
+    "危險因子：糖尿病、藥物濫用、營養不良、HIV、免疫缺陷、惡性腫瘤、外傷",
+    "CT：受侵犯肌肉增大、密度降低，脂肪平面消失"
+  ],
+  "management": "",
+  "name": "Infectious Myositis",
+  "nameZh": "感染性肌炎",
+  "slug": "infectious-myositis",
+  "subspecialty": "MSK"
+}

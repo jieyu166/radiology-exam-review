@@ -1,0 +1,13 @@
+{
+  "checked": false,
+  "definition": "**Barrow 分類：Type A＝「直接型/高流量」——頸內動脈（ICA）海綿竇段單孔撕裂/斷裂，動靜脈分流直接注入海綿竇（CS），最常見、主因外傷；Type B/C/D＝「間接型/低流量」硬腦膜 AVF，繼發於海綿竇血栓再血管化。CN VI 因游離走行於海綿竇內、緊鄰 ICA，最常受累。** 判讀分水嶺：**影像招牌＝眼球突出＋上眼靜脈（SOV）擴張＋海綿竇擴大＋眼外肌腫大；CT/CTA/MRA 具提示、DSA 為確診與治療。動脈化血流外流路徑含 SOV/angular-facial（前）、inferior/superior petrosal sinus（後）、pterygoid plexus（下）、superficial sylvian 皮質靜脈（上），但『thalamostriate vein（深部腦靜脈）不是常見外流路徑』（考題陷阱）。皮質靜脈逆流→SAH、眼靜脈高壓→失明、ICA 遠端血流下降→半球缺血，是急症警訊。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **影像招牌（best diagnostic clue）**：**海綿竇分支擴張伴逆流＋眼球突出、SOV 擴張、CS 擴大、眼外肌腫大**、眶脂「dirty」水腫。\n- **CT/CTA**：**顱底/蝶骨/頸動脈管骨折提高 ICA 損傷可能**；CECT 見 SOV/CS 擴張、眼外肌強化增加。\n- **MR/MRA**：CS 與 SOV flow-related signal 增加、ICA 因湍流訊號流失；**動態 TRICKS/TWIST MRA** 高時間解析度可在早期動脈期顯示瘻口。\n- **DSA（確診與治療標準）**：**早期 CS 充填＋外流路徑（SOV/angular-facial 逆流、petrosal sinus、pterygoid plexus 等）＋瘻口遠端 ICA 順向血流減少/消失**；CT/MR 只作提示，應進一步 DSA。\n- **超音波**：Doppler 見**擴張 SOV 內顱內往顱外之逆流**。\n- **併發症警訊（急症）**：**皮質靜脈逆流→SAH 風險；眼靜脈高壓→proptosis/chemosis/眼壓升高→視網膜灌注下降→失明；ICA 遠端血流下降→半球缺血**。",
+  "keyPoints": [],
+  "management": "1. **本質**：直接型 CCF＝ICA 海綿竇段單孔撕裂→動靜脈分流注入 CS（高流量）；**Type A 最常見、外傷為最常見病因**。\n2. **病因/機轉**：顱底骨折骨片刺傷 ICA，或血管於 foramen lacerum 與前床突間固定點之**牽扯傷**；多同側於顱顏骨折（罕見對側）。\n3. **臨床表現**：**雜音（bruit）、搏動性眼球突出、眶周水腫/發紅、視力下降、青光眼、頭痛、CN III–VI 缺損**；外傷後數天至數月出現（罕見延遲至 7 個月）。\n4. **急症警訊**：**嚴重/快速視力喪失、SAH** 屬急症；ICA 遠端血流下降可致半球缺血。\n5. **治療**：**血管內治療為主**（經動脈/靜脈 balloon/coil 栓塞、covered/flow-diverter stent 跨 ICA 撕裂），罕需 ICA 犧牲；保守僅限視力正常/症狀輕微者；自發性血栓消退不可預測，宜治療而非等待。\n\n> [!note] 考點三則\n> 1. 哪種 CCF 類型最常見？——**Type A（直接型）**。\n> 2. CCF 最常見病因？——**外傷**（Type A 最常見病因）。\n> 3. CCF 最常受累顱神經？——**CN VI**（緊鄰 ICA）。\n\n> [!note] 考點：何者「非」CCF 動脈化血流之常見外流路徑？\n> **Thalamostriate vein**——屬深部腦靜脈系統，非 CCF 常見外流路徑。inferior petrosal sinus、superficial sylvian cortical veins、pterygoid venous plexus 皆為常見 CCF 外流路徑。",
+  "name": "Carotid-Cavernous Fistula (CCF) — Classification & Venous Outflow",
+  "nameZh": "頸動脈海綿竇廔管",
+  "slug": "carotid-cavernous-fistula",
+  "subspecialty": "NR"
+}

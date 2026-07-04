@@ -1,0 +1,60 @@
+{
+  "checked": false,
+  "definition": "**IgG4-RD 是一個人體多站都可停的慢性纖維發炎病，考試關鍵是認出它旗下的病名，尤其 Mikulicz（淚腺＋唾液腺）；Kikuchi、Castleman、Kimura 長相相似但屬不同病，勿混淆。** 判讀分水嶺一：**Mikulicz disease（對稱性淚腺/唾液腺腫大）＝IgG4-RD 的代表；同屬者含 type 1 autoimmune pancreatitis、IgG4 膽管炎、後腹腔纖維化**；判讀分水嶺二：**Kikuchi-Fujimoto（壞死性淋巴結炎）、Castleman（血管濾泡增生）、Kimura（嗜酸性頭頸腫塊）皆非 IgG4-RD**。",
+  "differentialDiagnosis": [
+    "**指向 IgG4-RD**：多器官受累、腺體對稱腫大、T2 低訊號、對類固醇反應佳。",
+    "**胰腺癌（pancreatic adenocarcinoma）**：主胰管突然截斷＋上游顯著擴張、遠端腺體萎縮、血管被侵蝕阻斷;AIP 反為瀰漫不規則細窄、duct-penetrating、包膜樣環與延遲均質強化。",
+    "**原發性硬化性膽管炎（PSC）**：多段短狹窄與串珠樣外觀;IgG4 膽管炎偏長段連續狹窄且對類固醇有反應。",
+    "**淋巴瘤（lymphoma）**：後腹腔淋巴瘤多把主動脈往前抬起、可呈大塊腫;IgG4-RPF 無此佔位抬高效應。",
+    "**Sjögren 症候群**：亦致唾液/淚腺病變，須與 IgG4 相關腺體病鑑別。",
+    "**ANCA 相關血管炎**：肺與腎可有重疊表現，須臨床血清與組織鑑別。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.357150066",
+      "url": "https://doi.org/10.1148/rg.357150066"
+    },
+    {
+      "label": "10.1590/0100-3984.2013.1911（Tier",
+      "url": "https://doi.org/10.1590/0100-3984.2013.1911（Tier"
+    },
+    {
+      "label": "10.1007/s10396-021-01145-8（Tier",
+      "url": "https://doi.org/10.1007/s10396-021-01145-8（Tier"
+    },
+    {
+      "label": "10.1148/rg.327125032",
+      "url": "https://doi.org/10.1148/rg.327125032"
+    },
+    {
+      "label": "10.3174/ajnr.A3147（依摘要",
+      "url": "https://doi.org/10.3174/ajnr.A3147（依摘要"
+    },
+    {
+      "label": "10.1186/s13075-020-02197-w（Tier",
+      "url": "https://doi.org/10.1186/s13075-020-02197-w（Tier"
+    },
+    {
+      "label": "10.4102/sajr.v28i1.2830（Tier",
+      "url": "https://doi.org/10.4102/sajr.v28i1.2830（Tier"
+    },
+    {
+      "label": "10.1183/16000617.0078-2021",
+      "url": "https://doi.org/10.1183/16000617.0078-2021"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Mikulicz disease**：對稱性淚腺＋唾液腺腫大,現歸為 **IgG4-RD**。",
+    "**其他 IgG4-RD 表現**：type 1 autoimmune pancreatitis、IgG4 硬化性膽管炎、後腹腔纖維化、IgG4 腎病、肺門/縱膈、主動脈周圍炎。",
+    "**非 IgG4-RD（鑑別）**：",
+    "**Kikuchi-Fujimoto**：組織細胞壞死性淋巴結炎（年輕女性、頸部）。",
+    "**Castleman disease**：血管濾泡性淋巴組織增生（IL-6 相關;雖偶與 IgG4 混淆但屬不同病）。",
+    "**Kimura disease**：嗜酸性球性、頭頸軟組織腫塊（亞洲男性）。"
+  ],
+  "management": "",
+  "name": "IgG4-Related Disease",
+  "nameZh": "免疫球蛋白G4相關疾病",
+  "slug": "igg4-related-disease",
+  "subspecialty": "CH"
+}

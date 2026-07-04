@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**超音波探頭依『壓電效應(piezoelectric effect)』運作——電能與機械能互換。** 判讀分水嶺：**逆壓電效應＝施加電壓使晶體變形產生聲波（發射）;正壓電效應＝聲波壓迫晶體產生電壓（接收）;材料如 PZT 等介電質**。非光電/光聲效應。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.234035034",
+      "url": "https://doi.org/10.1148/rg.234035034"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**壓電效應**：介電質晶體（如 PZT）中**機械能與電能互換**;有**正壓電（壓力→電壓，接收回波）與逆壓電（電壓→形變，發射聲波）**兩種。",
+    "故 US 探頭發射與接收皆靠壓電效應。",
+    "**探頭於成像鏈之角色（Hangiandreou）**：**壓電陣列產生/偵測超音波脈衝、電子相位延遲掃描與聚焦波束**；現代 B-mode 成像含超音波脈衝形成、波束掃描、回音偵測與訊號處理；新技術（tissue harmonic、spatial compound、電子聚焦、3D/4D）多藉陣列與波束成形達成。",
+    "**天然壓電材料**：**石英(quartz)** 為經典天然壓電晶體;其他天然者含 berlinite(塊磷鋁礦,結構同石英)、cane sugar、Rochelle salt、topaz、tourmaline、乾燥骨(因 apatite 晶體)。鉛/銀/銅/鋇等金屬本身非天然壓電體;臨床探頭多用人造 **PZT(鋯鈦酸鉛)** 陶瓷。"
+  ],
+  "management": "",
+  "name": "Ultrasound Transducer Physics (Piezoelectric Effect)",
+  "nameZh": "壓電效應",
+  "slug": "ultrasound-transducer-physics",
+  "subspecialty": "US"
+}

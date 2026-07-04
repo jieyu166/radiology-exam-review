@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**兒童良性肝腫塊排名：最常見為infantile hemangioendothelioma(嬰兒型血管內皮瘤)，mesenchymal hamartoma(間葉性錯構瘤)為『第二』常見(非第一)。診斷：infantile hemangioendothelioma多以影像診斷、不需FNA。hepatocellular adenoma通常無症狀或以腹部腫塊表現。血清AFP並非所有兒童肝腫瘤都升高(hepatoblastoma升高，良性者多不升)。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見良性兒童肝腫塊**：**infantile hemangioendothelioma(嬰兒型血管內皮瘤)**；**mesenchymal hamartoma為第二常見**（故「mesenchymal hamartoma為最常見」錯誤）。",
+    "**Infantile hemangioendothelioma診斷**：多可依**影像特徵診斷**（富血管、漸進填充），**不需FNA/切片**（切片有出血風險）。",
+    "**Hepatocellular adenoma（本題正解）**：**通常無症狀或以腹部腫塊表現**。",
+    "**血清AFP**：**並非所有兒童肝腫瘤皆升高**——hepatoblastoma常升高，但良性腫瘤(hemangioendothelioma/mesenchymal hamartoma/adenoma)多不升高。"
+  ],
+  "management": "",
+  "name": "Pediatric Liver Tumors (Benign)",
+  "nameZh": "兒童肝腫瘤",
+  "slug": "pediatric-liver-tumors",
+  "subspecialty": "PED"
+}

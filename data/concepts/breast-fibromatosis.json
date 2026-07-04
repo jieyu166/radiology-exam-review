@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**乳房纖維瘤病(fibromatosis，即乳房的 desmoid tumor)是一種罕見的良性乳房腫瘤，組織學上僅由『分化良好的纖維母細胞(well-differentiated fibroblasts)』構成，但生物學行為卻是『局部侵犯、具侵襲性、增生活躍』——雖無轉移能力（良性），卻可局部侵犯胸壁肌肉筋膜且術後易局部復發。** 判讀分水嶺：**Fibromatosis 為此類「不尋常良性乳房腫瘤」中，唯一以局部侵犯性生長為特徵者;areolar leiomyoma(乳暈平滑肌瘤)、granular cell tumor(顆粒細胞瘤)、neurofibroma(神經纖維瘤)雖也是不尋常良性腫瘤，但皆非以局部侵犯性增生為典型特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-15144（輔助來源",
+      "url": "https://doi.org/10.53347/rID-15144（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **最佳診斷線索（STATdx）**：**乳房極後方之不規則腫塊、酷似浸潤性乳癌、常近/源自胸大肌筋膜**；大小 1-12 cm（多 2.5-3 cm）。\n- **乳攝（STATdx）**：**不規則高密度毛刺狀腫塊、鈣化少見**；可伴皮膚增厚/凹陷/乳頭回縮、乳房縮小；無腋淋巴結腫。\n- **超音波（STATdx）**：**低回音、不規則、角狀或界不清腫塊 ± echogenic rind**；後方多無特徵（可 shadowing 或增強）；可有內部血流；須評估與胸大肌/胸壁關係。\n- **MR（STATdx）**：T1 等/低訊號、STIR 訊號不一（纖維低/黏液高）、**毛刺狀 ± 胸大肌/胸壁侵犯、緩慢持續強化（亦可 rapid+plateau/washout）**；**疑胸壁侵犯用專屬 MSK/胸壁 protocol（非乳房線圈）**；**追蹤療效之退縮徵象＝強化↓、腫瘤↓、T2 訊號↓**。\n- **切片（STATdx）**：**core biopsy 通常準確**，但有限取樣難分良惡性梭形細胞病灶、可能誤為 bland stromal fibrosis，必要時延至切除確診。\n- **DDx（STATdx）**：影像上與乳癌難分（IDC/ILC）、術後疤痕、fat necrosis、diabetic mastopathy；**病理 mimics（spindle cell carcinoma 上皮標記+、sarcoma 多細胞/mitoses、phyllodes CD34+/上皮裂隙、nodular fasciitis β-catenin−/紅血球外滲、myofibroblastoma CD34+/不繞正常導管、PASH CD34+β-catenin−）**。",
+  "keyPoints": [
+    "**Fibromatosis（纖維瘤病）**：**罕見良性**乳房腫瘤（僅占乳房腫瘤 ~0.2%），組織學為**纖維母細胞/肌纖維母細胞源**;生物學行為呈**局部侵犯性（locally infiltrating）、無轉移（non-metastasizing）**——可附著皮膚/胸大肌筋膜、影像/臨床可酷似乳癌（毛刺狀），**局部復發率高**;關聯 Gardner 症候群、矽膠/鹽水植入物、術後創傷。",
+    "**鑑別其他不尋常良性乳房腫瘤**：",
+    "**Areolar leiomyoma**：源自乳暈平滑肌的平滑肌瘤，非侵犯性生長。",
+    "**Granular cell tumor**：多源自神經鞘（Schwann細胞），影像可酷似惡性（毛刺狀邊緣）但組織學為良性，非以局部侵犯增生為特徵。",
+    "**Neurofibroma**：周邊神經鞘腫瘤，非局部侵犯性生長。"
+  ],
+  "management": "- **本質/命名（STATdx）**：**desmoid-type/mammary/aggressive fibromatosis、extra-abdominal desmoid**——**纖維母/肌纖維母細胞局部侵犯性增生、無轉移潛能**；多源自胸大肌筋膜延伸入乳房、與身體他處 desmoid 同瘤。\n- **流行病學（STATdx）**：**極罕見（0.2% 乳房腫瘤）、好發生育年齡女性（範圍 13-80、平均 37）**；多單側單發、up to 4% 雙側同步；亦見於男性。\n- **遺傳/分子（STATdx）**：**90% 為 sporadic**；**CTNNB1（β-catenin）活化突變 83-95%、APC 突變 20%**；**80% 核 β-catenin 陽性、CD34 陰性最有用**；**可與 FAP/Gardner 症候群相關（germline APC ~10%）**。\n- **自然史（STATdx）**：**局部復發 20-30%（多 3 年內）、胸壁源者復發風險更高（正緣仍 57-89%）、無轉移**；**28-50% extra-abdominal desmoid 可自發退縮（需達 3 年）、up to 50% 進展**。\n- **治療演進（STATdx，重要）**：**廣泛局部切除已非第一線**（即使陰性緣仍常復發）；**現多主動監測、cryotherapy/HIFU/TACE、TKI/γ-secretase 抑制劑/NSAID**；抗雌激素（tamoxifen）與放療皆有爭議；觀察 vs 手術之 2 年無事件存活相當。\n\n> [!note] 考點：何種不尋常良性乳房腫瘤最可能局部侵犯、侵襲性增生，且僅由分化良好纖維母細胞構成?\n> **Fibromatosis（C）**——即乳房的 desmoid tumor。Areolar leiomyoma、granular cell tumor、neurofibroma 皆為不尋常良性腫瘤但非以局部侵犯性增生為典型特徵。",
+  "name": "Breast Fibromatosis (Desmoid Tumor of the Breast)",
+  "nameZh": "乳房纖維瘤病",
+  "slug": "breast-fibromatosis",
+  "subspecialty": "Breast"
+}

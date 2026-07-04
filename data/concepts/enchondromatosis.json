@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**平片上多發幹骺端軟骨病灶，「有沒有靜脈石」是 Ollier 與 Maffucci 的分水嶺。** Ollier＝非遺傳、多發內生軟骨瘤＋手足變形/肢長不等、**無**軟組織血管瘤；Maffucci＝Ollier 全部特徵**加**軟組織血管瘤（phleboliths 是靜脈石，平片可見）。記憶鉤：Maffucci 多一個「M」＝多一個 More（血管瘤更多），兩者皆可惡性變為軟骨肉瘤，Maffucci 風險更高。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1158/1078-0432.CCR-24-2171"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00256-021-03718-7"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00117-016-0112-z"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Ollier disease（enchondromatosis）**：**非遺傳、散發**性骨骼疾患;多發性內生軟骨瘤,主要在**幹骺端**;常有**手足變形、肢長不等、彎曲/短縮**;偏側分布常見。",
+    "**Maffucci syndrome**：內生軟骨瘤 **＋ 軟組織血管瘤**（平片以**靜脈石 phleboliths** 提示）。",
+    "**本質為體細胞鑲嵌（somatic mosaicism）**：約 80% 病灶帶 **IDH1（p.Arg132）或 IDH2** 體細胞突變,非生殖細胞遺傳;故為散發、分布常偏側。",
+    "**惡性變**：兩型皆可轉**軟骨肉瘤**,Maffucci 風險更高;新發疼痛/快速增大/軟骨帽增厚須警覺。"
+  ],
+  "management": "",
+  "name": "Enchondromatosis (Ollier Disease & Maffucci Syndrome)",
+  "nameZh": "多發性內生軟骨瘤",
+  "slug": "enchondromatosis",
+  "subspecialty": "MSK"
+}

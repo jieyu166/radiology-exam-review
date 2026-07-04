@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**乳房植入物破裂判讀核心陷阱：「keyhole/stepladder/linguine ＝腔內（intracapsular）破裂」、「snowstorm ＝腔外（extracapsular）破裂」，兩者絕不可對調。MRI 是評估植入物完整性最準確的工具（尤其腔內破裂，佔破裂約 80%）；乳房攝影基本上偵測不到腔內破裂（敏感度低於超音波）。** 判讀分水嶺：**外殼在完整纖維囊「內」塌陷＝intracapsular（US stepladder、MRI linguine/subcapsular line/keyhole）；矽膠「越過」纖維囊進入乳腺/腋下＝extracapsular（US snowstorm、siliconoma、MRI 矽膠特異序列顯示囊外矽膠）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **linguine sign（MRI 腔內招牌）**：塌陷外殼漂在矽膠中呈多條波浪線，是腔內破裂最特異徵象。\n- **US 對應**：stepladder（腔內外殼分層）、keyhole/noose（矽膠進入外殼皺褶）、snowstorm（腔外散射）。\n- **矽膠特異序列**：fat/water 抑制之 silicone-specific sequence 使矽膠變亮，最能顯示囊外矽膠。\n- **腋下評估**：extracapsular 破裂可見腋下矽膠 granuloma/淋巴結矽膠沉積。\n- **陷阱**：radial fold（正常外殼皺褶）勿誤為 linguine；未塌陷之 subcapsular line 需與破裂區分。",
+  "keyPoints": [
+    "**腔內破裂（intracapsular，約 80% 破裂）**：外殼塌陷但矽膠**仍被纖維囊包住**；US **stepladder sign（塌陷外殼分層）、keyhole/noose/subcapsular line sign**；MRI **linguine sign（矽膠中波浪狀塌陷外殼）**、subcapsular line、keyhole/teardrop。",
+    "**腔外破裂（extracapsular）**：矽膠**越過纖維囊**進入乳腺 ± 腋下；US **snowstorm appearance（強回音噪訊、聲束散射）**；形成 **siliconoma/silicone granuloma（緻密卵圓/圓形腫塊）**；MRI 矽膠特異序列顯示囊外矽膠。",
+    "**陷阱**：**snowstorm＝腔外**，非腔內（考題常對調）。",
+    "**最準確工具**：**乳房 MRI**（矽膠特異序列）為評估破裂最準確，尤其腔內破裂。",
+    "**乳房攝影 vs 超音波**：乳房攝影**偵測不到腔內破裂**（敏感度低於超音波），僅能顯示囊外矽膠/緻密腫塊。",
+    "**各模態共通**：可見 **\"salad oil\"/\"droplet\" sign**、矽膠內 water locules（水滴）。"
+  ],
+  "management": "1. **對應要記牢**：keyhole/stepladder/linguine＝腔內；snowstorm＝腔外。\n2. **MRI 最準**：矽膠特異序列，尤其抓腔內破裂（佔約 80%）。\n3. **乳攝弱點**：偵測不到腔內破裂，敏感度低於超音波。\n4. **腔外標誌**：snowstorm + siliconoma + 腋下矽膠。\n5. **共通徵象**：salad oil/droplet、water locules 於各模態可見。\n\n> [!note] 考點：關於乳房植入物影像，何者敘述錯誤？\n> **Intracapsular silicone 於超音波呈 snowstorm appearance（D）為錯誤**——snowstorm 對應**腔外（extracapsular）**破裂，非腔內。腔內破裂呈 keyhole/stepladder（MRI linguine）、乳房 MRI 為評估破裂最準確工具、乳房攝影判讀腔內破裂敏感度低於超音波，皆為正確。",
+  "name": "Breast Implant Rupture — Imaging Signs",
+  "nameZh": "乳房植入物破裂影像",
+  "slug": "breast-implant-rupture-imaging",
+  "subspecialty": "Breast"
+}

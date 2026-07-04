@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**記住兩步驟 vs 三步驟：直接（direct）只需 X 光→電荷（靠 a-Se 光導體），間接（indirect）多一步 X 光→可見光（靠 CsI 閃爍體）→電荷。** 考試問「直接偵測器的正確描述」，答案就是「X 光直接轉成電荷」。記憶鉤：**「direct＝直達電荷，中間沒有光；indirect＝多一道光」**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.273065075",
+      "url": "https://doi.org/10.1148/rg.273065075"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**直接偵測器（direct conversion）**：**非晶硒（amorphous selenium, a-Se）光導體層** + TFT 讀出陣列;**X 光光子『直接』轉換成電荷**後讀出（2016-146 正解 D）。",
+    "**間接偵測器（indirect conversion）**：**閃爍體（如 CsI）先把 X 光轉成可見光**,再由光二極體陣列轉成電荷。",
+    "選項對錯:A（CCD 直接被 X 光照 → 錯,CCD 屬間接需閃爍體）、B（X 光直接轉成可見光 → 那是『間接』）、C（X 光直接被讀取 → 不精確）、**D（X 光直接轉成電荷 → 正確,即 direct/a-Se）**。",
+    "**系統概觀（Körner）**：**indirect＝閃爍體（CsI/Gd₂O₂S）先轉可見光再由 a-Si photodiode+TFT 讀出；direct＝a-Se 光導體將 X 光直接轉電荷、由 TFT 讀出**；CsI 針狀結構減少光散射以維持空間解析度，DR 相較 CR 具較高 DQE 與工作流程效率。"
+  ],
+  "management": "",
+  "name": "Digital Radiography Detectors (Direct vs Indirect)",
+  "nameZh": "數位偵測器",
+  "slug": "digital-radiography-detectors",
+  "subspecialty": "Physics"
+}

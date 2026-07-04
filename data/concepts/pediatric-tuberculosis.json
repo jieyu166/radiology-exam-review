@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**兒童結核病最大的判讀陷阱是「細菌學確診困難」——正因如此，放射科醫師在兒童結核病的早期診斷上角色特別重要；另一個常見混淆是「tree-in-bud」結節其實是小葉中心性(centrilobular)分布，不是subpleural分布。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**兒童為高風險族群**：兒童實為全球結核病發展之**高風險**族群之一，並非低風險族群。",
+    "**診斷治療流程與成人不同**：兒童結核病之診斷與治療演算法與成人「**不完全相同**」，需考量兒童特有之臨床表現與檢體取得限制。",
+    "**放射科醫師角色**：因兒童**細菌學確診（如痰液檢體採集困難）常較成人困難**，放射科醫師於**早期診斷**上扮演重要角色。",
+    "**CT「tree-in-bud」表現**：此徵象實為**小葉中心性(centrilobular)結節**分布，**非subpleural（肋膜下）**結節分布——為考題常見混淆處；tree-in-bud仍提示活動性結核病。"
+  ],
+  "management": "",
+  "name": "Pediatric Tuberculosis — Diagnostic Challenges",
+  "nameZh": "兒童結核病",
+  "slug": "pediatric-tuberculosis",
+  "subspecialty": "PED"
+}

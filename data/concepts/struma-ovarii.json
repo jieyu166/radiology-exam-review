@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Struma ovarii不是「全部良性」——絕大多數是良性沒錯，但仍有小比例（約5-10%）為惡性，最常見的惡性型態是papillary thyroid carcinoma，這正是本題「all are benign」為錯誤敘述的關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：畸胎瘤（teratoma）的一種，腫瘤內以**甲狀腺組織為主要或唯一成分**。",
+    "**臨床關聯**：可合併**甲狀腺機能亢進（hyperthyroidism）或類癌症候群（carcinoid syndrome）**。",
+    "**良惡性**：**絕大多數為良性**，但**小比例病例可見惡性**，最常見為**papillary thyroid carcinoma**——故「all are benign」為**錯誤**敘述。",
+    "**臨床表現**：**多數病人無症狀（asymptomatic）**。",
+    "**影像表現**：典型呈**邊緣平滑之多囊性腫塊**，於未打顯影劑CT上呈**高密度病灶**，囊壁無或中度顯影增強。"
+  ],
+  "management": "",
+  "name": "Struma Ovarii",
+  "nameZh": "卵巢甲狀腺腫",
+  "slug": "struma-ovarii",
+  "subspecialty": "ABD"
+}

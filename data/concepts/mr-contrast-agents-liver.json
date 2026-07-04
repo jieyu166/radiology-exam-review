@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**肝臟影像對比劑依「被誰吃掉」分四類：SPIO與Sonazoid都被Kupffer cell吞噬（前者MRI T2/T2*低訊號、後者超音波高回音）；Gadoxetate（Primovist）被肝細胞經OATP1轉運蛋白攝取（非Kupffer cell）；一般細胞外釓對比劑則分布於肝竇（sinusoid），不被任何特定細胞攝取。記憶鉤：「Kupffer吃SPIO和泡泡（Sonazoid），肝細胞專情OATP1（Primovist）」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**SPIO（superparamagnetic iron oxide）**：被**Kupffer cell**攝取，MRI上呈**T2/T2\\*低訊號（hypointense）**；病灶因缺乏Kupffer cell而相對不攝取、呈高訊號對比。",
+    "**Sonazoid（微泡對比劑）**：亦被**Kupffer cell**攝取，於超音波Kupffer期呈**高回音（hyperechoic）**；與SPIO同為Kupffer cell系統標記劑，但影像模態不同（US vs MRI）。",
+    "**Gadoxetate disodium（Primovist/Eovist）**：被**肝細胞（hepatocytes）**經**OATP1（organic anion transporting polypeptide）**轉運蛋白攝取（非Kupffer cell），為肝膽特異性對比劑，詳見 [[hepatobiliary-mri-contrast]]。",
+    "**細胞外釓對比劑（extracellular gadolinium-based contrast）**：分布於**肝竇（liver sinusoid）**，MRI呈高訊號，不被特定細胞攝取，屬非特異性血池/細胞外間隙對比劑。"
+  ],
+  "management": "",
+  "name": "Liver Imaging Contrast Agents — Uptake Mechanisms",
+  "nameZh": "肝臟對比劑攝取機轉比較",
+  "slug": "mr-contrast-agents-liver",
+  "subspecialty": "ABD"
+}

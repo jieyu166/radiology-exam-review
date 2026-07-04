@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**胎便性腸阻塞的灌腸攝影招牌：顯影劑逆流進入狹窄的迴腸末端，勾勒出一顆顆胎便糰塊的輪廓，同時因遠端阻塞而見「未使用之微結腸(microcolon)」——這是與其他新生兒腸阻塞病因（如迴腸閉鎖、赫氏症）鑑別的關鍵影像特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**臨床表現**：新生兒嘔吐＋24小時內未解胎便（failure to pass meconium）。多與囊性纖維化(cystic fibrosis)相關。",
+    "**灌腸攝影(contrast enema)典型特徵**：顯影劑**逆流進入狹窄的迴腸末端**，可見**胎便糰塊(pellets of meconium)輪廓**被顯影劑勾勒出來；因遠端阻塞、結腸未曾使用，呈現**微結腸(microcolon)**，而非瀰漫性結腸擴張。",
+    "**易混淆之其他選項**：",
+    "**超音波target sign**：為腸套疊(intussusception)之特徵，非本病。",
+    "**瀰漫性結腸擴張**：非本病特徵（本病結腸反而因未使用而狹小）。",
+    "**KUB coffee bean sign**：為乙狀結腸扭轉(sigmoid volvulus)之特徵。"
+  ],
+  "management": "",
+  "name": "Meconium Ileus",
+  "nameZh": "胎便性腸阻塞",
+  "slug": "meconium-ileus",
+  "subspecialty": "PED"
+}

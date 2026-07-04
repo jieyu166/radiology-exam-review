@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**敗血性肺栓塞的因果記憶：菌血症→細菌隨血流到下肺周邊→多發結節→壞死空洞；「血管直通結節」就是 feeding vessel sign，是此症的特徵，不罕見；不同批次栓子造成大小不一、多階段並存（migratory）。** 判讀分水嶺一：**多發、周邊、下肺基底為主（血行播散）**；判讀分水嶺二：**空洞化＋feeding vessel sign（特徵，非 uncommon）**＋臨床菌血症（IVDU、心內膜炎、導管感染）。",
+  "differentialDiagnosis": [
+    "**血行性轉移**：亦周邊、下肺為主，但通常**同一時點、大小較一致**、缺乏發燒/菌血症臨床；空洞性轉移可重疊。**多階段並存＋臨床敗血**偏向 septic emboli。",
+    "**肉芽腫多血管炎（GPA）**：多發結節常空洞、可帶暈徵；以臨床（ANCA、上呼吸道/腎侵犯、亞急性/慢性病程 ≥12 週）區分。",
+    "**機化性肺炎（OP/COP）**：可呈周邊結節/實質化、反暈徵、游走性病灶，但無菌血症、病程偏亞急性至慢性。",
+    "**其他**：壞死性肺炎/黴菌（nocardia、angioinvasive aspergillosis）、類風濕結節、淋巴瘤樣肉芽腫——以病程長短（<12 週傾向感染/栓塞）與臨床整合判讀。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiology.174.1.2294550（原始",
+      "url": "https://doi.org/10.1148/radiology.174.1.2294550（原始"
+    },
+    {
+      "label": "10.2214/AJR.05.0681（article",
+      "url": "https://doi.org/10.2214/AJR.05.0681（article"
+    }
+  ],
+  "imagingFindings": "- **核心型態**：**多發、雙側、周邊（subpleural）、下肺基底為主**的結節（血行播散，重力＋血流偏向下肺）；結節大小常 0.5–3.5 cm，多發周邊結節見於約 83% 案例。\n- **大小不一／多階段並存（migratory）**：反覆「栓子陣雨」分批到達 → 結節**大小不一、處於不同演化階段**，序列影像上可見舊病灶吸收、新病灶出現（看似 migratory）。此為與單一時點轉移最有用的鑑別線索之一。\n- **空洞化（cavitation）**：常見（約 50%），壁厚薄不一；壞死性、產氣力強的 gram-positive（如 *S. aureus*）尤甚，最終可成薄壁空腔。\n- **Feeding vessel sign（解讀演進）**：傳統定義為「一條血管直行進入結節」，見於約 67% 案例，曾被視為血行播散／敗血性栓塞之特徵。**但高解析 MDCT＋多平面重組（MPR）後重新檢視，發現該血管多半繞過（pass around）病灶而非真正供血，且常為毗鄰之肺靜脈而非供血肺動脈**——故現多視為「鄰近肺血管」假象、特異度被下修，惟臨床上仍常描述。\n- **周邊楔形 subpleural 病灶**：底朝胸膜的楔形實質化／結節（septic infarct，可壞死），見於約 50–73%；可伴 air bronchogram（約 28%）。\n- **暈徵（halo sign）**：結節周圍環狀 GGO，反映周邊出血或壞死；非特異，亦見於 GPA、血管侵犯性黴菌（如 angioinvasive aspergillosis）、出血性轉移。\n- **伴隨所見**：延伸入胸膜腔／膿胸（約 39%）、單側小量胸水。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Septic Pulmonary Emboli",
+  "nameZh": "敗血性肺栓塞",
+  "slug": "septic-pulmonary-emboli",
+  "subspecialty": "CH"
+}

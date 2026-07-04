@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**CCAM/CPAM 是肺的錯構瘤樣畸形，終末呼吸單位腺瘤樣過度增生，多單側、僅侵犯單一肺葉。** Stocker 分型以囊的大小決定：Type I（最常見，70%）是大囊（2–10 cm），預後最好；Type II 囊 <2 cm、常伴其他畸形；Type III 是微囊（<5 mm），超音波看起來像實質腫塊。記憶鉤：「I 號大、II 號小、III 號小到看不到囊」——囊的尺寸由大到微，對應 I→III。",
+  "differentialDiagnosis": [
+    "**先天性肺葉過度充氣(congenital lobar overinflation／CLE)**：過度充氣肺葉、血管被拉細移位、縱隔移位、肋間增寬、橫膈下壓;無黏液栓可與支氣管閉鎖區分。",
+    "**支氣管源囊腫(bronchogenic cyst)**：邊界清、平滑圓形、均質液體密度、強化極微;多位於縱隔或中央肺,通常無含氣成分。",
+    "**先天性橫膈疝(CDH)**：肝疝入可在 US 仿實質肺腫塊;彩色都卜勒辨肝血管、MRI 偵測佳。",
+    "**肺隔離症(sequestration)**：CPAM 與 BPS 皆可見含氣囊／軟組織塊,**唯體循環異常供血只見於 BPS**——CTA 排除體循環供血以區分;支氣管閉鎖在 BPS 100%、CPAM 70%、CLE 50%。",
+    "**type III(實質樣)vs 肺實質病變**：微囊塊在產前呈 echogenic solid,須與其他實質病灶區辨。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "| 型 | 來源 | 囊大小 | 頻率 | 影像／臨床要點 |\n|---|---|---|---|---|\n| 0 | 氣管支氣管 | 腺泡發育不全 | ~2% | 致死、實質樣  |\n| I | 支氣管 | **2–10 cm 大囊** | 60–70%(最常見) | CXR/CT 多發大含氣囊、可見 air-fluid level、縱隔移位;惡性風險(黏液性、BAC/腺癌)  |\n| II | 細支氣管 | **0.5–2 cm 小囊** | 10–40% | 多發小囊或局限實變;**常合併他畸形**(肺隔離症、CDH、腎發育不全、先心)  |\n| III | 肺泡管 | **微囊 <5 mm** | 5–10% | **產前 US/CT 呈實質(solid)樣腫塊**、體積大→可致胎兒水腫;microcystic  |\n| IV | 遠端腺泡 | 周邊大囊(可 >10 cm) | 10–15% | 薄壁周邊囊;**與囊型 PPB 難分**  |",
+  "keyPoints": [
+    "**本質**：肺的**錯構瘤樣畸形(hamartomatous)**,終末呼吸單位腺瘤樣過度增生(選項 A 真)。",
+    "**位置**：**多單側、侵犯單一肺葉**(選項 B 真);無明確肺葉偏好。",
+    "**Stocker 分型(依囊大小)**：",
+    "**Type I（最常見,70%）**：**大囊,優勢囊 2–10 cm**,預後佳。",
+    "**Type II（15–20%）**：囊 **<2 cm**,常合併其他異常(腎發育不全、肺隔離症、先心)。",
+    "**Type III（~10%）**：**微囊 <5 mm**,**超音波呈實質(solid)樣**(microcystic)(選項 C 真)。",
+    "**Type 0（~2%,罕、致死)**：氣管支氣管源、acinar dysgenesis,與生命不相容。",
+    "**Type IV（10–15%）**：遠端腺泡(distal acinar)源、周邊大囊(可 >10 cm),薄壁、常無症狀偶見,**影像難與囊型 pleuropulmonary blastoma(PPB)區分**。"
+  ],
+  "management": "",
+  "name": "CCAM / CPAM (Congenital Pulmonary Airway Malformation)",
+  "nameZh": "先天性囊性腺瘤樣畸形",
+  "slug": "ccam",
+  "subspecialty": "PED"
+}

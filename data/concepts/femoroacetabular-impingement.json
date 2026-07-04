@@ -1,0 +1,45 @@
+{
+  "checked": false,
+  "definition": "**FAI 分兩型：cam 是股骨頭頸交界凸出（pistol-grip），pincer 是髖臼蓋過頭；AP 片上出現 crossover sign（前緣越過後緣），代表髖臼後傾，就是 pincer 型。** 判讀分水嶺一：**Cam＝α 角增大、pistol-grip；Pincer＝髖臼過度覆蓋/後傾**；判讀分水嶺二：**Crossover sign（figure-of-eight）＝前緣線在上段越過後緣線＝acetabular retroversion＝pincer**。記憶鉤：cam 像相機鏡頭凸出（股骨側凸）；pincer 像螃蟹夾子夾太緊（髖臼側蓋過頭）。",
+  "differentialDiagnosis": [
+    "**Developmental dysplasia of the hip（DDH）**：覆蓋**不足**（LCEA <25°、acetabular index 增大），與 pincer 的過度覆蓋相反；混淆會導致手術方向錯誤。",
+    "**Legg-Calvé-Perthes、SCFE（股骨頭骨骺滑脫）**：可造成 cam 樣頭頸交界畸形，但有各自的骨骺/股骨頭病史與徵象，非以 crossover sign 為特徵。",
+    "**單純 labral tear**（無 cam 形態，α 角正常）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.arthro.2014.11.042",
+      "url": "https://doi.org/10.1016/j.arthro.2014.11.042"
+    },
+    {
+      "label": "10.1016/j.arthro.2014.12.022",
+      "url": "https://doi.org/10.1016/j.arthro.2014.12.022"
+    },
+    {
+      "label": "10.1007/s11999-010-1624-x",
+      "url": "https://doi.org/10.1007/s11999-010-1624-x"
+    },
+    {
+      "label": "10.1016/j.artd.2019.12.007",
+      "url": "https://doi.org/10.1016/j.artd.2019.12.007"
+    },
+    {
+      "label": "10.1148/radiol.2403050767",
+      "url": "https://doi.org/10.1148/radiol.2403050767"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**FAI 兩型**：cam（股骨側，α 角增大、pistol-grip）、pincer（髖臼側，過度覆蓋/後傾）；**臨床上混合型最常見**。",
+    "**α 角閾值文獻分歧**：>50° 或 >55°；**Dunn view 量測最準**（準確度約 90%），AP 易漏 cam。",
+    "**覆蓋量測**：LCEA 過度覆蓋常用 >40°（或 >30° 合併 acetabular index <0°）；<25° 屬 dysplasia 而非 pincer。",
+    "**Crossover sign（figure-of-eight）**：AP 骨盆片上**髖臼前緣線在上段越過（交叉）後緣線** → **髖臼後傾（acetabular retroversion）**，為 focal pincer 徵象；常伴 posterior wall sign、ischial spine sign，三者俱全代表後傾較重。",
+    "**MRA 軟骨分佈**：cam→前上方軟骨損傷＋bump；pincer→後下方（contrecoup）軟骨損傷＋深髖臼。",
+    "**陷阱**：徵象受投照旋轉/傾斜影響大；影像陽性不等於症狀；勿與 dysplasia 混淆。"
+  ],
+  "management": "",
+  "name": "Femoroacetabular Impingement (FAI) & Crossover Sign",
+  "nameZh": "髖臼股骨夾擊",
+  "slug": "femoroacetabular-impingement",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**Lemierre 症候群＝喉嚨發炎後菌（Fusobacterium，厭氧 Gram 陰性桿菌）跑進內頸靜脈造成化膿性血栓，再飄到肺（~90%）；影像要找的是 IJV 血栓＋肺敗血栓，不是咽炎本身。** 判讀分水嶺一：**影像 hallmark＝IJV 化膿性血栓性靜脈炎＋肺敗血栓**（非咽炎或淋巴炎）；判讀分水嶺二：**Fusobacterium necrophorum＝anaerobic Gram-陰性 bacillus（非陽性 cocci）**——這個 Gram 染色方向是常考陷阱。",
+  "differentialDiagnosis": [
+    "**右心感染性心內膜炎**（亦造成敗血性肺栓塞,但栓子來源在三尖瓣／右心,非頸靜脈）。",
+    "**頸部淋巴結炎**（cervical lymphadenitis）—— 腫大為淋巴結而非 IJV 內血栓。",
+    "**惡性腫瘤**（轉移或淋巴瘤造成的頸部腫塊／肺結節）、**機化性肺炎**（organizing pneumonia）。",
+    "肺部空洞結節的鑑別另含結核、黴菌感染、肉芽腫性多血管炎等(需臨床與菌學佐證)。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.5334/jbsr.2792（免費全文",
+      "url": "https://doi.org/10.5334/jbsr.2792（免費全文"
+    }
+  ],
+  "imagingFindings": "> [!tip] 一句話判讀\n> 影像要兩段一起看：**頸部 CECT 找 IJV 化膿性血栓**（充盈缺損＋管壁強化＋周圍軟組織發炎），**胸部 CECT 找敗血性肺栓塞**（周邊多發結節、空洞化、feeding vessel sign）。兩者並存幾乎就是 Lemierre。影像常**早於臨床懷疑與血液培養**陽性，放射科扮演早期辨識的關鍵角色。",
+  "keyPoints": [
+    "**本質**：postanginal sepsis / necrobacillosis;**IJV 化膿性血栓性靜脈炎**＋遠處厭氧菌敗血症。",
+    "**致病菌**：**Fusobacterium necrophorum（~80%）,anaerobic Gram-negative bacillus**;為正常口咽菌叢成員。",
+    "**擴散途徑**：初始口咽感染（**咽炎/扁桃腺炎**）→ **側咽（lateral pharyngeal）/頸動脈間隙** → IJV。",
+    "**敗血性栓塞**：**肺 ~90%（pulmonary septic emboli 最常見）**、肺膿瘍/膿胸、CNS、關節。",
+    "**morbidity/mortality 高於其他頭頸感染**。"
+  ],
+  "management": "",
+  "name": "Lemierre Syndrome",
+  "nameZh": "萊米爾症候群",
+  "slug": "lemierre-syndrome",
+  "subspecialty": "NR"
+}

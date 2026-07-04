@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**ABPA的特徵性支氣管擴張是『中央性(central bronchiectasis)』——上肺為主、近端支氣管囊狀/靜脈曲張樣擴張，周邊支氣管相對正常。所以「peripheral bronchiectasis」是錯誤描述(本題陷阱)。其他特徵：移行性肺炎、gloved finger sign(黏液栓)、可致肺葉塌陷/實質化。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**支氣管擴張（本題重點）**：**中央性支氣管擴張(central bronchiectasis)**——上肺為主、近端支氣管囊狀/靜脈曲張樣擴張，周邊支氣管相對保留；故「peripheral bronchiectasis」為**錯誤**。",
+    "**Migratory pneumonitis（移行性肺炎）**：一過性、遊走性肺浸潤（過敏反應）。",
+    "**Gloved finger sign / finger-in-glove（手套指徵）**：擴張支氣管內充滿黏液栓(mucoid impaction)呈手指狀分支狀密度；黏液栓可呈高衰減(鈣/金屬)。",
+    "**Lobar consolidation（肺葉實質化）**：黏液栓致肺葉塌陷/實質化可發生。"
+  ],
+  "management": "",
+  "name": "Allergic Bronchopulmonary Aspergillosis (ABPA)",
+  "nameZh": "過敏性支氣管肺麴菌病",
+  "slug": "allergic-bronchopulmonary-aspergillosis",
+  "subspecialty": "CH"
+}

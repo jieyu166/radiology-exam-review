@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**肺動靜脈畸形（PAVM）＝肺動脈與肺靜脈間「無微血管」之異常直接吻合，生理上呈右到左分流；約 90% 與遺傳性出血性微血管擴張症（HHT／Osler-Weber-Rendu）相關。首選治療是「栓塞（embolotherapy：coil/balloon/Amplatzer plug）」而非手術切除——手術僅用於栓塞失敗或不適合栓塞者。** 判讀分水嶺：**CTA 見「平滑、強化明顯之結節＋供血肺動脈＋引流肺靜脈」即診斷（98% 敏），下肺葉為主；供血動脈 ≥3 mm 是傳統栓塞門檻；未治療之 R→L 分流會招致矛盾性栓塞（腦中風、腦膿瘍）——這是「即使無症狀也要治療」的理由。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **CTA 為診斷首選（98% 敏）**：找**供血肺動脈＋引流肺靜脈**，多平面/MIP/3D 供栓塞規劃；比傳統血管攝影更敏感、解剖細節更佳。\n- **分型（影響治療）**：**Simple 80%（單一供血 segmental 動脈→單一引流靜脈）**、**Complex 20%（≥2 供血/引流，好發 lingula 與右中葉）**、Diffuse（罕見、整葉 subsegmental）、Telangiectatic（兒童/HHT，周邊毛玻璃）。\n- **確認 R→L 分流**：**agitated saline 對比心臟超音波**區分心內 vs 肺內分流（肺內者對比劑延遲 2–5 秒才入左心）；**Tc-99m MAA 肺灌流掃描**（分流時顆粒穿過肺被腦/腎捕獲，可算 shunt fraction）。\n- **鑑別**：granuloma（無伴隨血管、多鈣化少強化）、**pulmonary varix（只有擴張肺靜脈、無供血動脈或 nidus）**、systemic artery to pulmonary vein shunt、肺轉移（多發、無大血管、有原發癌）。\n- **其他病因**：先天（最常見）、**hepatopulmonary syndrome（50% 末期肝病）**、cyanotic CHD 之 Glenn/Fontan 術後、感染（結核/放線菌/血吸蟲）。",
+  "keyPoints": [
+    "**解剖與生理**：**肺動脈與肺靜脈間無微血管之直接吻合 → 右到左分流（R→L shunt）**。",
+    "**相關疾病**：**HHT（Osler-Weber-Rendu，體染色體顯性）佔 PAVM 達 90%**；50% HHT 有 PAVM；三聯徵＝鼻血、皮膚黏膜微血管擴張、家族史；PAVM 於 HHT1 較 HHT2 多 10 倍。",
+    "**首選治療＝栓塞**：coil/balloon/**Amplatzer plug**，傳統以供血動脈 **≥3 mm** 為門檻，**永久閉塞 >98%**、可一次栓多個、併發症低；**非手術切除**（手術僅用於栓塞失敗/不適合栓塞者）。",
+    "**影像**：CTA 見平滑、強化明顯結節＋**供血動脈與引流靜脈**；**50–70% 位於下肺葉**、70% 單發、30% 多發。"
+  ],
+  "management": "1. 典型為**無症狀之孤立肺結節偶然發現**；HHT 病人多於 **20 歲前**出現症狀，鼻血最常見、呼吸困難為最常見肺部症狀。\n2. **R→L 分流之神經併發症（矛盾性栓塞致腦中風、腦膿瘍）**是治療 PAVM 的主要理由，另有咳血（第三常見、懷孕時可大量）、發紺、杵狀指、platypnea。\n3. 盛行率低（約 1:5000）、女多於男（M:F 1:2）；**diffuse PAVM 幾乎皆有症狀**。\n4. **應篩檢 HHT 病人之家屬（PAVM 發生率 35%）**，並轉介 HHT 卓越中心行血管內治療。\n5. 栓塞後可能有 **postembolization syndrome（肋膜性胸痛、短暫發燒）**；系統性栓塞（氣泡/線圈跑位）罕見。\n\n> [!note] 考點：關於肺動靜脈畸形，何者敘述錯誤？\n> **手術切除為首選治療（D）為錯誤**——**栓塞（embolotherapy）才是首選**（供血動脈 ≥3 mm、永久閉塞 >98%），手術僅用於栓塞失敗或不適合栓塞之情況。肺動脈與肺靜脈直接吻合、右到左分流、與 HHT 相關，皆為正確敘述。",
+  "name": "Pulmonary Arteriovenous Malformation (AVM)",
+  "nameZh": "肺動靜脈畸形",
+  "slug": "pulmonary-avm",
+  "subspecialty": "CV"
+}

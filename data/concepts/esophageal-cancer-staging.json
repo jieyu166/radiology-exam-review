@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**食道癌位置由「腫瘤中心（epicenter）」決定，不是「最大體積處」；T4 的分水嶺是「能不能切」。** T4a＝還能切（侵 pleura/pericardium/azygos/diaphragm/peritoneum）；T4b＝不能切（侵 aorta/vertebral body/trachea）。記憶鉤：T4b 三大死亡鄰居 AVT（Aorta、Vertebra、Trachea）＝手術禁區；EGJ 腫瘤 epicenter 在胃近端 5 cm 內且延伸入食道者，以食道癌分期。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **EUS 分層對應**：T1=侷限黏膜/黏膜下、T2=侵固有肌層、T3=穿外膜、T4=侵鄰近構造。EUS 對 T1 敏感度 81.6%／特異度 99.4%、T3 敏感度 91.4%／特異度 94.4%、T4 敏感度 92.4%／特異度 97.4%。\n- **早期分期變異大**：EUS 對 T1 約 67%、T2 約 33%、T3 近 100% 準確;**cT2N0 的 PPV 僅約 60%**——T2 易誤判，臨床決策需警覺。\n- **CT 無法分辨 T1/T2/T3**：CT 看不出食道壁分層，唯一可靠判讀是**脂肪平面消失提示 T4 外侵**;故早期 T 分期必須靠 EUS，CT 不能取代。",
+  "keyPoints": [
+    "**腫瘤位置**：由 **epicenter（腫瘤中心）** 決定（AJCC 8th）——非「佔最大體積處」、非上緣。",
+    "**T4 分類**：**T4a（可切除）＝侵 pleura/pericardium/azygos vein/diaphragm/peritoneum;T4b（不可切除）＝侵 aorta/vertebral body/trachea**。",
+    "**Regional nodes**：涵蓋自頸部至腹腔(celiac) 的 paraesophageal 淋巴結。",
+    "**EGJ 腫瘤**：epicenter 在胃近端 5 cm 內且延伸入食道 → 以食道癌分期。"
+  ],
+  "management": "",
+  "name": "Esophageal Cancer TNM Staging (AJCC)",
+  "nameZh": "食道癌分期",
+  "slug": "esophageal-cancer-staging",
+  "subspecialty": "ABD"
+}

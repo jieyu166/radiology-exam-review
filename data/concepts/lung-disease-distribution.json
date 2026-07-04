@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**肺病的上/下肺分布是縮短鑑別的關鍵：肉芽腫/塵肺多上肺,asbestosis/IPF 多下肺。** 判讀分水嶺一：**上肺為主＝sarcoidosis、silicosis、coal worker's pneumoconiosis（CWP）、PLCH、TB、ankylosing spondylitis、cystic fibrosis**;判讀分水嶺二：**下肺/周邊為主＝asbestosis、IPF/UIP、aspiration、DIP**。助記上肺＝「CASSET-P」（CF/AS/Sarcoid/Silicosis/EG(PLCH)/TB/Pneumoconiosis）。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1053/j.sult.2005.07.004",
+      "url": "https://doi.org/10.1053/j.sult.2005.07.004"
+    },
+    {
+      "label": "10.53347/rID-5017（輔助來源",
+      "url": "https://doi.org/10.53347/rID-5017（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **三軸判讀（Zompatori）**：**HRCT 診斷瀰漫性浸潤肺病應綜合『pattern（型態）+ distribution（分布）+ 臨床』三軸**——上/下肺與中央/周邊分布為縮小 DDx 之關鍵。\n- **上肺為主（記憶 CASSET-P）**：**sarcoidosis、silicosis、CWP、PLCH（EG）、TB、AS、CF**——多循淋巴管/上肺區。\n- **下肺/周邊為主**：**asbestosis（周邊下肺）、IPF/UIP（基底胸膜下蜂窩）、DIP、吸入性、慢性 HP 部分**。\n- **中央 vs 周邊軸**：**中央/肺門周圍＝sarcoid/肺水腫/KS；周邊胸膜下＝UIP/asbestosis/COP**——與上下軸交叉定位。\n- **陷阱**：asbestosis 屬下肺周邊（易誤為上肺）；石綿相關但纖維化在下肺。",
+  "keyPoints": [
+    "**上肺為主**：sarcoidosis、**silicosis、CWP（塵肺）**、PLCH、TB、AS、CF。",
+    "**下肺/周邊為主**：**asbestosis（周邊下肺）**、IPF/UIP、DIP、吸入性。",
+    "故 **asbestosis 為下肺周邊**（非上肺）;sarcoidosis/silicosis/CWP 為上肺。"
+  ],
+  "management": "1. **判讀框架（Zompatori）**：**胸片為第一線，HRCT 為評估肺間質與診斷 DILD 之最佳工具**（MDCT 提供功能資訊）。\n2. **上肺塵肺/肉芽腫**：silicosis/CWP/sarcoid 循淋巴管分布、上肺 + 中央；職業/暴露史關鍵。\n3. **下肺纖維化**：IPF/UIP 與 asbestosis 皆下肺基底胸膜下（asbestosis 需石綿暴露史 + 胸膜斑）。\n4. **臨床整合**：分布須結合臨床（暴露/吸菸/自體免疫）與 pattern（GGO/網狀/結節/囊）綜合判讀。\n5. **asbestosis 要點**：下肺周邊纖維化、可進展、肺癌/間皮瘤風險增、胸膜斑為暴露標記。\n\n> [!note] 考點：關於肺病分布,何者「錯誤」?\n> 「**Asbestosis 上肺為主**」錯誤——asbestosis 為**下肺周邊**。sarcoidosis、silicosis、CWP 上肺為主皆正確。",
+  "name": "Lung Disease Zonal Distribution",
+  "nameZh": "肺病分布",
+  "slug": "lung-disease-distribution",
+  "subspecialty": "CH"
+}

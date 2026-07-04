@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**川崎病(Kawasaki disease)是好發於5歲以下兒童的中血管血管炎(medium-vessel vasculitis)，最重要的併發症是「冠狀動脈擴張伴動脈瘤形成(coronary dilatation with aneurysm)」——不同於巨細胞動脈炎(giant cell arteritis)好發顳淺動脈，川崎病並不特別侵犯顳淺動脈。** 判讀分水嶺：**川崎病屬中血管血管炎（非大血管）;好發冠狀動脈病變（擴張/動脈瘤）為最重要的長期併發症與死亡原因;中樞神經系統侵犯相對少見（並非高達30%這麼高的比例，此為常見誤答陷阱）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**血管口徑分類**：川崎病屬**中血管血管炎(medium-vessel vasculitis)**，與結節性多動脈炎(polyarteritis nodosa)同類。",
+    "**顳淺動脈**：川崎病**並非**以侵犯顳淺動脈(superficial temporal artery)為主要特徵——此為巨細胞動脈炎(giant cell arteritis，大血管炎)的典型侵犯部位，兩者不應混淆。",
+    "**心臟併發症**：可造成**冠狀動脈擴張伴動脈瘤形成(coronary dilatation with aneurysm)**，為川崎病最重要且可能致命的長期併發症，需長期心臟超音波追蹤。",
+    "**中樞神經系統侵犯**：相對**少見**，並非高比例（如30%）常規侵犯——此為常見誤答選項，需注意數字誇大陷阱。",
+    "**疾病本質補充**：川崎病為**急性(acute)**、自限性多系統性全血管炎（並非「慢性chronic」）；**最常侵犯左主冠狀動脈(left main coronary artery)**；1967年於日本首次描述。"
+  ],
+  "management": "",
+  "name": "Kawasaki Disease — Vascular & Cardiac Imaging",
+  "nameZh": "川崎病",
+  "slug": "kawasaki-disease-imaging",
+  "subspecialty": "PED"
+}

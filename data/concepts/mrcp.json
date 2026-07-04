@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**MRCP＝非侵入性膽胰管成像,術前用於排除膽總管結石、評估膽石相關疾病及顯示膽道解剖變異（降低 ERCP 醫源性傷害）;『需介入機率低』者優先用 MRCP，『需介入機率高』者才選侵入性 ERCP。** 判讀分水嶺：**低介入機率→先 MRCP（非侵入、可診斷）;高介入機率（如已知結石需取石）→ ERCP（兼診斷與治療）;MRCP 準確顯示膽道解剖變異→減少手術時醫源性膽管損傷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**用途**：術前膽管探查以**排除膽總管結石（choledocholithiasis）與膽石相關疾病**;非侵入性。",
+    "**MRCP vs ERCP 取捨**：**需治療性介入機率『低』者→優先 MRCP（非侵入）;機率『高』者→才用較侵入的 ERCP（兼治療）**。故「ERCP 用於低介入機率者」為錯。",
+    "**解剖變異**：MRCP 可**準確顯示膽道解剖變異**,為術中醫源性損傷的潛在風險因子,術前辨識有助避免傷害。"
+  ],
+  "management": "",
+  "name": "MR Cholangiopancreatography (MRCP)",
+  "nameZh": "磁振膽胰管攝影",
+  "slug": "mrcp",
+  "subspecialty": "ABD"
+}

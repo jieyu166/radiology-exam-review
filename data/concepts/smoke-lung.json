@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**吸菸相關肺病橫跨「氣道—氣腫—間質」連續譜，分流靠分布：上肺想 centrilobular 氣腫/RB-ILD/PLCH，下肺想 AMP（原 DIP）/IPF，subpleural 想 paraseptal 氣腫/SRIF。** 判讀分水嶺一：**SR-ILD 第一組（直接吸菸相關）**：AEP、RB/RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈關聯、非純吸菸）**：IPF、CPFE；LAM 不屬此譜。判讀分水嶺二：術語更新——**DIP 現稱 AMP（alveolar macrophage pneumonia）**，與 RB-ILD 同屬巨噬細胞堆積譜系。本筆記整理自 Dulcich RG 2026 綜述。",
+  "differentialDiagnosis": [
+    "病",
+    "Centrilobular 氣腫",
+    "Paraseptal 氣腫",
+    "RB-ILD",
+    "AMP（DIP）",
+    "**PLCH**",
+    "SRIF",
+    "IPF/UIP",
+    "EVALI"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.250167",
+      "url": "https://doi.org/10.1148/rg.250167"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**分類框架**：SR-ILD 分兩組——**第一組（直接吸菸相關）**：AEP、RB、RB-ILD、AMP（原 DIP）、PLCH、SRIF；**第二組（強烈吸菸關聯、非純吸菸）**：IPF、CPFE。",
+    "**氣腫**：centrilobular（最常見、上肺、尊重小葉界線）／paraseptal PSE（distal acinus、近胸膜）／panlobular（整個小葉、下肺）；極端為 **VLS（giant bullous emphysema）** 上肺大 bullae。",
+    "**術語更新**：**DIP 現改稱 AMP（alveolar macrophage pneumonia）**；與 RB-ILD 同屬巨噬細胞堆積譜系。",
+    "**PLCH**：上中肺結節→bizarre 囊、保留肋膈角、吸菸 >95%（見 [[plch]]）。",
+    "**SRIF**：新近認可的吸菸相關纖維化；hyalinized 間質纖維化 + 氣腫 + 色素巨噬細胞；**subpleural predominant**，須與 honeycombing 區分。",
+    "**新型吸入傷害**：EVALI（vaping，organizing pneumonia 樣、常 subpleural sparing）、marijuana（barotrauma → bullae/氣胸/縱膈氣腫）。"
+  ],
+  "management": "",
+  "name": "Smoking-related Pulmonary Parenchymal Disease",
+  "nameZh": "吸菸相關肺實質疾病",
+  "slug": "smoke-lung",
+  "subspecialty": "CH"
+}

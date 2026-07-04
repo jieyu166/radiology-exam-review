@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**診斷X光能量範圍（~30-150 keV）內、與軟組織作用，主要機轉是康普頓散射（Compton scattering）——這是因為軟組織為低原子序，光電效應在此能量範圍已不主導；成對發生需>1.022 MeV遠超診斷範圍；瑞利散射僅佔少數。記憶鉤：診斷範圍軟組織＝康普頓當家。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**康普頓散射（Compton scattering）**：**診斷X光能量範圍內、與軟組織作用之『主要』機轉**——光子與外層電子作用，散射並轉移部分能量；為診斷影像散射線與病人劑量之主要來源。",
+    "**光電效應（Photoelectric effect）**：於**低能量、高原子序**物質（如骨、含碘對比劑）較顯著，提供影像對比；在診斷能量範圍之軟組織中非主導。",
+    "**瑞利散射（Rayleigh scattering）**：低能量之同調散射，光子改變方向但不失能量；在診斷範圍僅佔少數。",
+    "**成對發生（Pair production）**：需光子能量 **>1.022 MeV**，遠超診斷X光範圍，診斷影像中不發生。"
+  ],
+  "management": "",
+  "name": "X-ray Photon Interactions with Tissue",
+  "nameZh": "X光與組織作用",
+  "slug": "xray-tissue-interactions",
+  "subspecialty": "Physics"
+}

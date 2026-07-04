@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**神經下垂體的「亮點」是T1現象，不是T2；下視丘錯構瘤是不強化病灶，不是強化病灶——這兩個方向誤判是本主題最常見的考題陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腦下垂體正常解剖**：由**腹側腺垂體(adenohypophysis)**與**背側神經垂體(neurohypophysis)**組成。",
+    "**生理性腦垂體增大**：可見於**青春期**或**懷孕/產後**狀態，屬正常生理變化。",
+    "**神經垂體「亮點」訊號**：典型於**T1加權影像**呈高訊號（非T2）——反映後葉神經分泌顆粒(含vasopressin)之儲存，此為「posterior pituitary bright spot」現象，是**T1**現象而非T2，常見誤判方向。",
+    "**正常前葉T1訊號**：矢狀切面上與橋腦(pons)呈等訊號。",
+    "**顱咽管瘤(craniopharyngioma)**：為兒童最常見之非神經膠質腫瘤，具實質與囊性成分、鈣化、強化。",
+    "**下視丘錯構瘤(hypothalamic hamartoma)**：為**不強化(nonenhancing)**病灶（非強化病灶），合併性早熟與gelastic seizures，此為常見誤判方向。",
+    "**Rathke cleft cyst**：典型呈不強化、邊界清楚之鞍內圓形病灶，位於正中線。",
+    "**腦垂體中風(pituitary apoplexy)**：為臨床症候群，對應腫瘤內或正常腺垂體之急性出血性或缺血性轉變。"
+  ],
+  "management": "",
+  "name": "Sellar & Parasellar Lesions — Differential Diagnosis",
+  "nameZh": "鞍區與鞍旁病灶",
+  "slug": "sellar-parasellar-lesions",
+  "subspecialty": "NR"
+}

@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**脊椎骨與脊髓軟腦膜轉移的四條擴散途徑中，『淋巴擴散（lymphatic）』最少見——脊椎/脊髓周圍缺乏典型淋巴引流系統。血行擴散（hematogenous，最常見，經動脈或無瓣膜低壓的 Batson 椎靜脈叢逆流）為主力；CSF 擴散是原發顱內腫瘤 drop metastasis 與軟腦膜轉移之主要途徑；直接侵犯多由椎體經後縱韌帶進硬膜外腔。** 判讀分水嶺：**①血行最常、Batson 無瓣膜可逆流（乳/肺/攝護腺好發椎體、跳躍分佈）；②直接侵犯之腫瘤「以椎體為中心、相對保留椎間盤」——與感染（以椎間盤為中心）之關鍵鑑別（因前縱韌帶/椎間盤較耐腫瘤侵犯）；③淋巴最少（脊柱缺典型淋巴引流）。記憶鉤：血行 Batson、CSF drop met、直接 spares disc、淋巴最少。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-13677（輔助來源",
+      "url": "https://doi.org/10.53347/rID-13677（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **Batson plexus 解剖**：**無瓣膜、位胸腹腔外、與 vena cava/spinal/portal/azygos/intercostal/pulmonary/renal 靜脈相通**、血流方向隨胸腹壓變化——解釋攝護腺（經 Batson）、乳癌（經 azygos→Batson）之椎體種植且不必經 vena cava/肺；**僅 5–10% 門脈血流分流至 Batson → GI/GU 原發之脊椎轉移相對少**。\n- **腫瘤 vs 感染（關鍵鑑別）**：**前縱韌帶與椎間盤較耐腫瘤侵犯** → **腫瘤以「椎體為中心、相對保留椎間盤」**；**椎間盤炎/骨髓炎則以椎間盤為中心**。\n- **CSF 途徑之原發**：medulloblastoma、ependymoma、pineal、astrocytoma、lymphoma/leukemia、choroid plexus carcinoma、retinoblastoma → 蜘蛛膜下播散；增強 MRI 見神經根/脊髓表面線狀結節強化（sugar-coating）。\n- **硬膜外延伸**：椎體轉移經後縱韌帶進硬膜外可壓迫脊髓，須評估 cord compression。\n- **陷阱**：勿把淋巴當常見途徑；骨盆腫瘤在腰椎轉移而無肺轉移，提示靜脈/淋巴途徑。",
+  "keyPoints": [
+    "**血行擴散（hematogenous，最常見）**：axial skeleton 轉移主要途徑；經動脈或 **Batson 椎靜脈叢（無瓣膜、與脊柱平行之縱向靜脈網）**。",
+    "**CSF 擴散**：**原發顱內腫瘤之 drop metastasis／軟腦膜轉移**主要途徑；亦可繼發於血行播散後（肺/乳癌之脊髓軟腦膜轉移）。",
+    "**直接侵犯**：肺（胸壁→椎旁）、攝護腺/膀胱/腸（presacral）、鼻咽（clivus/顱底沿顱神經）等直接蔓延；**多由椎體經後縱韌帶進硬膜外**。",
+    "**淋巴擴散（lymphatic，最少見）**：脊柱周圍**缺乏典型淋巴引流**、相對次要（Radiopaedia 述其沿神經根鞘 root sleeves）。",
+    "**分佈**：脊柱為**最常見骨轉移部位**；**胸椎 70% > 腰椎 20% > 頸椎 10%**；攝護腺/肺/乳癌佔絕大多數；M:F 3:2。"
+  ],
+  "management": "1. **流行病學**：**40% 癌症病人會發生轉移、脊柱為最常見骨轉移部位**；攝護腺/肺/乳癌佔絕大多數、M:F 3:2；胸椎最常受累（70%）。\n2. **血行主力**：Batson 椎靜脈叢逆流為最常見途徑。\n3. **CSF**：原發顱內腫瘤 drop met 與繼發軟腦膜轉移之途徑。\n4. **淋巴最少**：脊柱缺典型淋巴引流。\n5. **臨床表現**：**持續性背痛**（客觀徵象少或晚出現）；**背痛/無力提示硬膜外延伸**；因脊髓丘腦徑交叉，**感覺平面可低於壓迫處 1–2 節段**。\n\n> [!note] 考點：脊椎骨與脊髓軟腦膜轉移性腫瘤，何種擴散途徑「最少見」?\n> **淋巴擴散（lymphatic spread）**——脊柱周圍缺乏典型淋巴引流系統。血行擴散（最常見，Batson 靜脈叢）、CSF 擴散（軟腦膜轉移/drop met 主要途徑）、鄰近軟組織直接侵犯皆較常見。",
+  "name": "Spinal Column & Leptomeningeal Metastasis — Spread Pathways",
+  "nameZh": "脊椎轉移擴散途徑",
+  "slug": "spinal-metastasis-pathways",
+  "subspecialty": "NR"
+}

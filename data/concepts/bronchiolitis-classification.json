@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**細支氣管炎典型CT三徵象是支氣管壁增厚、細支氣管擴張、馬賽克灌注不良——「周淋巴管性微小結節(perilymphatic micronodules)」屬於淋巴路徑病變(如類肉瘤病)，不是細支氣管炎的典型表現。濾泡性細支氣管炎(follicular bronchiolitis)的病因是膠原血管病/免疫缺乏，不是黴菌感染。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**典型特徵**：支氣管壁增厚(bronchial wall thickening)、細支氣管擴張(bronchiolar dilatation)、馬賽克灌注不良(mosaic attenuation，反映氣體滯留)。",
+    "**非典型特徵**：**周淋巴管性微小結節(perilymphatic micronodules)並非**細支氣管炎之典型CT特徵——此徵象典型見於類肉瘤病(sarcoidosis)、淋巴管播散性癌轉移等經淋巴路徑分布之疾病，屬於不同的分布型態（細支氣管炎之結節為centrilobular分布，非perilymphatic）。"
+  ],
+  "management": "",
+  "name": "Bronchiolitis — CT Features & Clinical/Pathological Causes",
+  "nameZh": "細支氣管炎",
+  "slug": "bronchiolitis-classification",
+  "subspecialty": "CH"
+}

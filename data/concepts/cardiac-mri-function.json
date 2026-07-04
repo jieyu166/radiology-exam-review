@@ -1,0 +1,43 @@
+{
+  "checked": false,
+  "definition": "**Cardiac MRI（cine SSFP）是量測心室容積與射出分率的 gold standard，尤其右心室形狀不規則，最需要「逐切面堆疊計算（Simpson 法）」而非幾何假設。** Echo 依賴形狀假設、聲窗受限；CT 有輻射；導管攝影侵入且同樣仰賴幾何假設——只有 CMR 不做幾何假設、直接加總，因此 RV 功能量化首選 CMR。記憶鉤：「RV 長得奇怪、估不準——只有一層一層疊才是真相」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.3390/diagnostics13081437",
+      "url": "https://doi.org/10.3390/diagnostics13081437"
+    },
+    {
+      "label": "10.1016/j.jocmr.2025.101868",
+      "url": "https://doi.org/10.1016/j.jocmr.2025.101868"
+    },
+    {
+      "label": "10.1161/CIRCIMAGING.123.016090",
+      "url": "https://doi.org/10.1161/CIRCIMAGING.123.016090"
+    },
+    {
+      "label": "10.3389/fcvm.2022.881141;JACC:",
+      "url": "https://doi.org/10.3389/fcvm.2022.881141;JACC:"
+    },
+    {
+      "label": "10.1016/j.jcmg.2020.09.029",
+      "url": "https://doi.org/10.1016/j.jcmg.2020.09.029"
+    },
+    {
+      "label": "10.1148/rg.230200",
+      "url": "https://doi.org/10.1148/rg.230200"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Cardiac MR（cine）**：**量測 RV/LV 容積與 EF 最準確的方法**（gold standard）;短軸堆疊、Simpson 法、無幾何假設,特別適合形狀不規則的 **右心室**。",
+    "**Echo**：方便但受聲窗與幾何假設限制,RV 量化較不準。",
+    "**Cardiac CT**：可評容積但有輻射、時間解析較差。",
+    "**導管 RV 攝影**：侵入性、依賴幾何假設。"
+  ],
+  "management": "",
+  "name": "Cardiac MRI — Ventricular Volumes & Function",
+  "nameZh": "心臟MRI功能",
+  "slug": "cardiac-mri-function",
+  "subspecialty": "CV"
+}

@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**Fontan/TCPC 繞過右心、讓靜脈血被動流進肺動脈，因此路徑上任何一點堵住（狹窄/血栓）都是危機；CT/MRI 要全程查：管道狹窄→fenestration→血栓→房室瓣。** 判讀分水嶺一：**被動肺血流循環 → 對阻力零容忍，吻合處狹窄＋conduit 血栓最要緊**；判讀分水嶺二：**fenestration（人為小洞降壓）＋房室瓣功能影響單心室負荷，缺一不可**。記憶鉤：從靜脈端順著走——SVC/IVC 吻合→conduit（有無洞/有無栓）→房室瓣，像巡管線一樣頭到尾看完。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.22468/cvia.2016.00157（開放全文已讀，accessed",
+      "url": "https://doi.org/10.22468/cvia.2016.00157（開放全文已讀，accessed"
+    },
+    {
+      "label": "10.1148/rg.312105027（依摘要與",
+      "url": "https://doi.org/10.1148/rg.312105027（依摘要與"
+    },
+    {
+      "label": "10.1007/s00247-021-05173-x（付費全文未讀，依",
+      "url": "https://doi.org/10.1007/s00247-021-05173-x（付費全文未讀，依"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Fontan / TCPC — CT/MRI Surveillance",
+  "nameZh": "全腔靜脈肺動脈循環",
+  "slug": "fontan-tcpc-imaging",
+  "subspecialty": "CV"
+}

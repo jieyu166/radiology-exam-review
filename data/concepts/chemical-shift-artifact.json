@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**化學位移假影來自脂肪與水的共振頻率不同：Type 1 是空間位移（沿頻率編碼方向，各序列皆有）；Type 2 是訊號抵消（只在反相位、且像素內脂肪與水並存才抵消，產生器官邊緣的 India ink 黑線）。** 考試陷阱：「純脂肪區在 out-of-phase 完全失訊號」是錯的——抵消需要脂＋水同時存在，純脂肪沒有水可以抵消。記憶鉤：「抵消要兩個人，純脂肪是獨居，沒人抵消它」。",
+  "differentialDiagnosis": [
+    "**GRE T1 化學位移in-phase/out-of-phase成像**：對於**腎上腺皮質腺瘤(adrenocortical adenoma)的鑑別診斷有幫助**——腺瘤因含微觀脂肪(intracytoplasmic lipid)，反相位訊號會下降。",
+    "**易混淆錯誤選項**：Pheochromocytoma因**不含脂肪成分**，於GRE反相位**不會有訊號掉落(no loss of signal)**，僅呈現對比後顯著強化;adrenal cysts**罕見**（非「常見」，屍檢盛行率僅約0.064-0.018%，非3-5%這麼高）。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。"
+  ],
+  "management": "",
+  "name": "MRI Chemical Shift Artifact",
+  "nameZh": "化學位移假影",
+  "slug": "chemical-shift-artifact",
+  "subspecialty": "NR"
+}

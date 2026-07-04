@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**多發骨盆骨折 + 生命徵象不穩（疑動脈性出血），在 CVP/輸液復甦/輸血之外，下一步應『先做 CT（含動脈期）評估動脈出血（contrast blush），有活動性外滲即迅速送血管攝影室栓塞』，而非直接開刀 packing 或僅骨盆固定。** 判讀分水嶺：**骨盆骨折出血多數來自靜脈叢/骨折面（骨盆束帶/外固定 + packing 可處理）；僅約 10-20% 為動脈性，需血管栓塞；CT contrast blush（活動性外滲對比劑池）是動脈出血關鍵徵象、導引 angio；若極不穩無法等 CT，才考慮直接手術 packing 或 REBOA。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.246045028（accessed",
+      "url": "https://doi.org/10.1148/rg.246045028（accessed"
+    }
+  ],
+  "imagingFindings": "- **找 blush**：動脈期看對比劑外滲/假性動脈瘤/AV 廔，定位責任血管（多為髂內分支：superior gluteal、internal pudendal、obturator）。\n- **動/靜脈區分**：blush 增大於延遲期偏動脈；無 blush 但大血腫多偏靜脈/骨面出血。\n- **束帶已上仍出血**：束帶減靜脈出血但不止動脈；持續不穩 + blush → angioembolization。\n- **流程整合**：復甦 + 束帶/固定 → CT 找 blush → angio 栓塞；in extremis → packing/REBOA。\n- **陷阱**：把「骨盆固定/結紮髂內動脈」當動脈出血首選——選擇性栓塞才是精準止血。",
+  "keyPoints": [
+    "**處置流程（血流動力不穩之骨盆骨折）**：",
+    "先 **輸液復甦/輸血 + 骨盆束帶/外固定**（穩定骨折、減少靜脈性出血、縮小骨盆容積）。",
+    "**接著 CT（含動脈期）評估 contrast blush（活動性動脈外滲）**；若有 → **迅速送血管攝影室做 angioembolization（栓塞）**。",
+    "出血**多數為靜脈性**（束帶/外固定 + 骨盆 packing 可處理）；**動脈性約 10-20%**，需血管栓塞控制。",
+    "**contrast blush（核心徵象）**：CT 上活動性對比劑外滲/積聚 = 動脈出血 → 導引是否送 angio。",
+    "**與其他選項比較**：",
+    "直接手術骨盆 packing／REBOA：**極不穩、無法等待影像/栓塞**時之急救手段，非常規優先。",
+    "骨盆固定：穩定骨折、降低靜脈出血，但**對動脈性出血無直接止血效果**。",
+    "手術結紮髂內動脈：創傷大、精準度不如選擇性栓塞，非首選。"
+  ],
+  "management": "1. **多靜脈**：多數骨盆出血靜脈性，束帶/固定/packing 處理。\n2. **動脈 10-20%**：需血管栓塞控制。\n3. **CT blush**：活動性動脈外滲，導引 angio。\n4. **流程**：復甦 + 束帶 → CT → 栓塞；in extremis → packing/REBOA。\n5. **固定 ≠ 止動脈**：外固定對動脈出血無直接效果。\n\n> [!note] 考點：骨盆骨折合併生命徵象不穩，CVP/輸液/輸血後下一步?\n> **先做 CT（評估動脈出血 contrast blush），迅速送血管攝影室做栓塞治療**。骨盆 packing、單純骨盆固定、結紮髂內動脈皆非此情境下的優先步驟。",
+  "name": "Pelvic Fracture with Hemorrhagic Shock — Management",
+  "nameZh": "骨盆骨折出血處置",
+  "slug": "pelvic-fracture-hemorrhage-management",
+  "subspecialty": "IR"
+}

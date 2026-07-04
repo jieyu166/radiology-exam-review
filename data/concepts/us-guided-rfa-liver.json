@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**肝臟穹窿（hepatic dome）病灶進行超音波導引射頻電燒時，常使用人工復水（artificial ascites）技術：注入生理食鹽水至腹腔，製造液體窗口以改善超音波視窗並保護橫膈膜。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Hepatic dome 病灶**：超音波視窗差（受肺臟遮蔽），常需輔助技術。",
+    "**人工復水（artificial ascites）**：注入 normal saline 至肝臟表面與橫膈間，改善視窗並作為隔熱層。",
+    "其他選擇：融合影像（fusion imaging）可輔助定位，但不解決視窗問題。"
+  ],
+  "management": "",
+  "name": "US-Guided RFA — Liver (Hepatic Dome)",
+  "nameZh": "肝臟射頻電燒",
+  "slug": "us-guided-rfa-liver",
+  "subspecialty": "US"
+}

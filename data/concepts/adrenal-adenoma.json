@@ -1,0 +1,54 @@
+{
+  "checked": false,
+  "definition": "**腎上腺腺瘤是腎上腺最常見病灶，鑑別的核心思路是「找細胞內脂質」——有脂就是腺瘤。** NECT ≤10 HU 即可確診 lipid-rich adenoma，無需進一步；lipid-poor（>10 HU）則需 15 分鐘 washout CT（RPW>40% 或 APW>60%）或 chemical-shift MRI（opposed-phase 訊號下降）。陷阱：pheochromocytoma 與 RCC/HCC 轉移都可模擬快速 washout 或訊號下降，臨床情境不可省略。",
+  "differentialDiagnosis": [
+    "大小門檻",
+    "確診捷徑",
+    "lipid-poor 對策",
+    "首要鑑別",
+    "穩定性",
+    "處置"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-862（實際查證，accessed",
+      "url": "https://doi.org/10.53347/rID-862（實際查證，accessed"
+    },
+    {
+      "label": "10.1148/rg.220191",
+      "url": "https://doi.org/10.1148/rg.220191"
+    },
+    {
+      "label": "10.2214/AJR.22.27901（實際查證",
+      "url": "https://doi.org/10.2214/AJR.22.27901（實際查證"
+    },
+    {
+      "label": "10.2214/ajr.166.3.8623622",
+      "url": "https://doi.org/10.2214/ajr.166.3.8623622"
+    },
+    {
+      "label": "10.1148/radiology.217.3.r00dc29798",
+      "url": "https://doi.org/10.1148/radiology.217.3.r00dc29798"
+    },
+    {
+      "label": "10.1186/s13244-025-02015-4",
+      "url": "https://doi.org/10.1186/s13244-025-02015-4"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義 / 流行病學**：腎上腺皮質良性腫瘤，最常見的腎上腺病灶，佔**所有腎上腺腫塊的 60–80%**、>90% incidentaloma；屍解見於約 3–9% 人口、約 5% CT 檢查發現；好發 60–69 歲，糖尿病/高血壓者增加。**即使在已知惡性的病人，偶發腎上腺病灶仍較可能是腺瘤而非轉移。**",
+    "**功能性**：約 95% 非功能性、無症狀；功能性以 Conn（原發性醛固酮增多，80% 由腺瘤、常 <2 cm）與 Cushing（15–25% 由腺瘤、常 >2 cm；80–85% 為增生）為主。",
+    "**脂質含量**：lipid-rich 與 lipid-poor 兩型——比例各源不一（Radiopaedia 約 70% lipid-rich；STATdx 60–90% lipid-rich / 10–40% lipid-poor）。",
+    "**CT 指紋**：non-contrast **<10 HU → 71% 敏感、98% 特異**（直方圖負像素分析可升至約 90%）。",
+    "**washout（lipid-poor）**：15 分延遲，**RPW >40%**（96% 敏感、100% 特異）或 **APW >60%**（舊數據 86–88% 敏感、92–96% 特異；較新數據降至 77.5% 敏感、70% 特異）。",
+    "**MRI**：chemical shift 為主，opposed-phase 訊號下降＝細胞內脂質；adrenal signal index **>16.5%（1.5T）/ >1.7%（3T）**、adrenal:spleen CSI 比值 **<0.71** 支持腺瘤。",
+    "**易混淆**：pheochromocytoma、RCC/HCC 與 hypervascular metastasis 可呈現雷同 washout；含脂惡性病灶可致 opposed-phase 假陽性；collision tumor、India ink artifact 為陷阱。",
+    "**陷阱（2019交換）**：「MRI延遲相washout <50%」並非腺瘤的正確判斷依據——**washout（絕對/相對洗出百分比）為CT技術之判斷法（RPW>40%或APW>60%），MRI診斷腺瘤依賴的是chemical shift（opposed-phase訊號下降），並非以延遲相washout百分比為準**，兩種技術與判讀方法不應混用。"
+  ],
+  "management": "",
+  "name": "Adrenal Adenoma",
+  "nameZh": "腎上腺腺瘤",
+  "slug": "adrenal-adenoma",
+  "subspecialty": "ABD"
+}

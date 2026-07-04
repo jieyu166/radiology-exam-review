@@ -1,0 +1,45 @@
+{
+  "checked": false,
+  "definition": "**選對位置＋對上年齡，腦腫瘤分型就成功一半。** Pilocytic astrocytoma 住小腦（兒童囊＋壁結節）；PXA 幾乎只鎖定年輕成人的顳葉皮質；Ganglioglioma 是「皮質腫瘤」而非深部——最常顳葉（~70%），考試最愛把它說成深部半球；瀰漫浸潤型則天生具惡性進展傾向。記憶鉤：**「小腦小孩（PA）、顳葉年輕（PXA）、顳葉癲癇（GG）、瀰漫轉惡」**。",
+  "differentialDiagnosis": [
+    "核心擴散",
+    "Tumor core rCBV",
+    "瘤周非強化區",
+    "強化型態",
+    "鑑別關鍵"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0159047"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0191341"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3389/fonc.2024.1362990"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiol.2017160150"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1002/jmri.22862"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Pilocytic astrocytoma**：好發**小腦**（兒童），囊＋強化壁結節。",
+    "**Pleomorphic xanthoastrocytoma (PXA)**：幾乎只見**年輕成人**，顳葉皮質、常鄰腦膜（dural tail）。",
+    "**Ganglioglioma**：**皮質腫瘤，最常見於顳葉（~70%）**，非深部半球；兒童/年輕成人癲癇。",
+    "**瀰漫浸潤型星細胞瘤**：具**惡性進展的內在傾向**。"
+  ],
+  "management": "",
+  "name": "Brain Tumor Imaging Pearls",
+  "nameZh": "腦腫瘤",
+  "slug": "brain-tumor-imaging",
+  "subspecialty": "NR"
+}

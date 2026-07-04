@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**von Meyenburg complex 是肝臟到處散布小膽管囊腫的發育畸形，超音波看到「滿肝小高/低回音結節＋彗星尾偽影」就想到它。** 彗星尾偽影來自管腔內的膽固醇結晶或濃稠物——這是「常見」現象，考試常把它設成「罕見」陷阱，要記反。MRCP 可見多發小囊腫不與主膽管相通，是與 Caroli 病（相通）的鑑別點。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s10396-005-0051-1",
+      "url": "https://doi.org/10.1007/s10396-005-0051-1"
+    }
+  ],
+  "imagingFindings": "- **分布訊號**：典型為**全肝瀰漫、無數、大小相對一致**的小囊狀病灶，多位於被膜下；「多而小而均一」是良性偏向的第一印象。\n- **超音波**：多發小**高回音與低回音結節**、點狀 echogenic foci 伴 **comet-tail（彗星尾）偽影**（約 5/6 病例可見，被視為 VMC 相對特異徵象）。\n- **CT**：多發 **<10 mm 低密度小點**，打顯影劑**不強化**（中央與周邊皆不強化）；增強後反而更易看清病灶數目。部分病例延遲期可見**薄環狀（rim）強化**。\n- **MRI**：T1 **低訊號**、T2 **顯著高訊號**（重 T2 接近、略低於腦脊髓液）；Gd 後多不強化或僅周邊薄環。**mural nodule（管腔內小結節）**是高特異性徵象。\n- **MRCP（鑑別關鍵）**：見多發小囊但**不與膽管樹相通**，肝內外膽管外觀正常——此為與 **Caroli 病（與膽管樹相通、central dot sign）** 的分水嶺。",
+  "keyPoints": [
+    "**別名**：von Meyenburg complexes（VMC）；又稱 multiple bile duct hamartomas。",
+    "**本質**：發育畸形，由**囊狀擴張的小膽管＋膠原基質**構成；多發、瀰漫散布、大小一致 **<1.5 cm（多 <10 mm）**。良性、無症狀、偶見（incidentaloma），勿過度檢查。"
+  ],
+  "management": "",
+  "name": "Biliary Hamartoma (von Meyenburg Complex)",
+  "nameZh": "膽管錯構瘤",
+  "slug": "biliary-hamartoma",
+  "subspecialty": "ABD"
+}

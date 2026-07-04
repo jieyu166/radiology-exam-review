@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**先天性腎上腺增生症（CAH）是體染色體隱性之腎上腺類固醇合成酵素缺乏（約 90% 為 21-hydroxylase deficiency），酵素阻斷使 cortisol↓→ACTH↑→腎上腺增生 + 雄性素過度生成 → 女嬰外生殖器男性化。疑診 CAH（外生殖器模糊 + 17-OHP 上升）時，首選影像為『腎上腺超音波』。** 判讀分水嶺：**US 診斷依雙側腎上腺增大——肢長 ≥20mm、肢寬 ≥4mm、皮髓質分化正常；肢寬 >4mm + 分葉表面 + 斑點回音三者合併敏感度 92%/特異度 100%；特徵為 cerebriform（腦回狀）外觀；部分可正常；男性可見睪丸腎上腺殘餘組織腫塊。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-31066——**一組",
+      "url": "https://doi.org/10.53347/rID-31066——**一組"
+    }
+  ],
+  "imagingFindings": "- **首選 US**：新生兒疑 CAH 用腎上腺 US 量肢長/肢寬 + 看表面輪廓/回音。\n- **cerebriform**：腦回狀增大腎上腺為特徵；肢寬 >4mm + 分葉 + 斑點回音特異度極高。\n- **可正常陷阱**：部分 CAH US 正常，不能單以正常排除，需結合生化。\n- **男性 TART**：追蹤睪丸腎上腺殘餘腫瘤（多數男性 CAH），影響生育。\n- **性別評估**：女嬰外生殖器模糊 + 子宮/卵巢正常 + 17-OHP↑ → CAH → 查腎上腺。",
+  "keyPoints": [
+    "**生化機轉**：AR 之皮質醇合成酵素缺乏（**21-hydroxylase ~90%**、11-β 次之）→ 17-OHP 堆積、**ACTH 代償↑ → 腎上腺增生 + 雄性素過度** → **女嬰外生殖器男性化（female pseudohermaphroditism/ambiguous genitalia）**。",
+    "**首選影像**：疑似 CAH（外生殖器模糊 + 17-OHP↑）→ **腎上腺超音波為首選**。",
+    "**US 徵象**：",
+    "雙側腎上腺增大：**肢長 ≥20mm、肢寬 ≥4mm**、皮髓質分化正常。",
+    "**肢寬 >4mm + 分葉表面 + 斑點回音**三者合併：敏感度 **92%**、特異度 **100%**。",
+    "**Cerebriform pattern（腦回狀）**為特徵；部分病人可正常。",
+    "男性可見**睪丸腎上腺殘餘組織（testicular adrenal rest tumor）**腫塊。",
+    "**腎上腺腫瘤**：20-30% CAH 病人有腎上腺腫瘤。"
+  ],
+  "management": "1. **機轉**：21-hydroxylase 缺乏（~90%）→ 雄性素過度、女嬰男性化。\n2. **首選影像**：腎上腺超音波。\n3. **US 徵象**：肢長 ≥20mm/肢寬 ≥4mm、cerebriform。\n4. **高特異**：肢寬 >4mm + 分葉 + 斑點回音（92%/100%）。\n5. **男性**：睪丸腎上腺殘餘腫瘤。\n\n> [!note] 考點：嬰兒外生殖器性別模糊合併17-hydroxy-progesterone上升，懷疑CAH，下一步檢查?\n> **Ultrasound of adrenal gland（A）**——CAH 疑診時腎上腺超音波為首選影像工具，評估雙側腎上腺大小（肢長 ≥20mm、肢寬 ≥4mm）、表面輪廓（分葉/腦回狀）與回音特徵。",
+  "name": "Congenital Adrenal Hyperplasia (CAH) — Ultrasound",
+  "nameZh": "先天性腎上腺增生症",
+  "slug": "congenital-adrenal-hyperplasia",
+  "subspecialty": "PED"
+}

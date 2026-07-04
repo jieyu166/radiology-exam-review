@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**急性胰臟炎的超音波發現由高到低頻率為：胰周發炎（peripancreatic inflammation）＞ 腹側輪廓模糊（indistinct ventral margin）＞ 局灶腫塊（focal mass）＞ 靜脈血栓（venous thrombosis），靜脈血栓最少見。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.jacr.2019.05.017"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.rx.2019.04.001"
+    }
+  ],
+  "imagingFindings": "- **US 上胰周發炎最常見，靜脈血栓最少見**；靜脈（脾/門/腸繫膜靜脈）血栓在 US 上不易早期偵測，CT 常更早顯示\n- **US 主要限制**：腸氣遮擋、後腹膜位置深，胰尾與胰周積液評估常不完整；故 US 陰性不能排除急性胰臟炎\n- **DDx／情境**：典型臨床表現時 US 首選任務是找膽結石病因；形態分型（間質水腫型 vs 壞死型）與局部併發症判讀屬 CT/MRI 領域",
+  "keyPoints": [
+    "US 發現出現頻率排序：**Peripancreatic inflammation ＞ Indistinct ventral margin ＞ Focal mass ＞ Venous thrombosis**（口訣 P-I-F-V）",
+    "早期（發病一週內）以 US 尋找膽結石為主要角色；胰臟形態與併發症評估仍以 CT/MRI 為主，故 US 的局部發現偵測率有限",
+    "修訂版 Atlanta 分類將病程分早期與晚期，影像的角色隨期別不同"
+  ],
+  "management": "1. 急性胰臟炎最常見病因為膽石與酒精。\n2. 修訂版 Atlanta 分兩型：間質水腫型與壞死型。\n3. 早期（≤1 週）以臨床與器官衰竭判斷嚴重度，影像角色有限。\n4. 晚期（>48–72 小時）CT/MRI 用於評估病因、併發症與範圍。\n5. US 於早期主要用於偵測膽結石以釐清病因。\n\n> [!note] 考點：急性胰臟炎超音波發現由高到低的正確頻率排序？\n> **Peripancreatic inflammation ＞ Indistinct ventral margin ＞ Focal mass ＞ Venous thrombosis**（選項 A）。靜脈血栓為最少見的 US 發現。",
+  "name": "Acute Pancreatitis — Ultrasound Findings",
+  "nameZh": "急性胰臟炎超音波",
+  "slug": "acute-pancreatitis-ultrasound",
+  "subspecialty": "ABD"
+}

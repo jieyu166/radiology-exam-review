@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**胸大肌撕裂最常發生於胸骨頭（sternal head），因其占肌肉體積約 80%、承受較大負荷——非鎖骨頭（clavicular head）常被誤認為好發部位。二頭肌溝（bicipital groove）是超音波評估胸大肌的關鍵定位結構；三角胸溝（deltopectoral groove）內或喙肱肌前方的水腫/積液應高度懷疑胸大肌損傷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發撕裂部位：胸骨頭（sternal head）**——占胸大肌體積約 80%，非鎖骨頭；「鎖骨頭較常撕裂」為錯誤敘述。",
+    "**二頭肌溝（bicipital groove）**：是超音波評估胸大肌的關鍵定位結構，胸大肌肌腱止於肱骨近端二頭肌溝外側緣附近。",
+    "**三角胸溝（deltopectoral groove）與喙肱肌（coracobrachialis）前方水腫/積液**：應提高懷疑胸大肌損傷。",
+    "**US 表現**：肌腱/肌肉纖維斷裂、缺如、回縮，並可見血腫。"
+  ],
+  "management": "",
+  "name": "Pectoralis Major Injury (US/MR)",
+  "nameZh": "胸大肌損傷",
+  "slug": "pectoralis-major-injury",
+  "subspecialty": "MSK"
+}

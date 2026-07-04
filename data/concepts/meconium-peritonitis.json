@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**Meconium peritonitis 因胎兒時期腸穿孔導致 chemical peritonitis。Fibroadhesive type 最常見。Water-soluble contrast enema 可用於鑑別診斷。嚴重者（calcification + ascites + pseudocyst）需要手術。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "病因：utero 時期腸道穿孔，meconium 外漏引起化學性腹膜炎",
+    "分型 ：",
+    "**Fibroadhesive**（最常見）：纖維沾黏型",
+    "**Cystic（pseudocyst）**：meconium 被包裹形成假性囊腫",
+    "**Generalized**：廣泛鈣化",
+    "影像特徵：**腹腔鈣化**（peritoneal calcification）、ascites、pseudocyst",
+    "Water-soluble contrast enema 可鑑別 meconium ileus vs other causes",
+    "**需要手術的情況**：有 calcification + ascites + pseudocyst 等嚴重表現"
+  ],
+  "management": "",
+  "name": "Meconium Peritonitis",
+  "nameZh": "胎便性腹膜炎",
+  "slug": "meconium-peritonitis",
+  "subspecialty": "PE"
+}

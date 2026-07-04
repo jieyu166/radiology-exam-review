@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**AJCC 第 8 版（2018-01-01 起）首次把「腺外擴散（extranodal extension, ENE）」正式納入頭頸癌 N 分期——臨床明顯之 ENE 陽性不論淋巴結大小或側別，一律歸 cN3b，為第 8 版最重要變革。ENE 是「非 HPV 相關（p16−）」SCC 之 N 分期決定因子；HPV(+) 口咽、鼻咽、甲狀腺癌另有獨立 N 分期。** 判讀分水嶺：**cN3b＝臨床/影像明顯 ENE（任何大小）；但『病理』門檻較高——≤3 cm 節合併 ENE：臨床 cN3b、病理僅 pN2a。惡性淋巴結判讀要「多判準併用」（大小＋圓形＋成簇＋壞死＋ENE），單靠大小誤差 10–20%。影像 ENE（iENE）分三級。記憶鉤：ENE 任何大小＝cN3b、≤3cm 病理＝pN2a、HPV+ 另計。**",
+  "differentialDiagnosis": [
+    "**CECT 或 MR**（CT 對 nodal 偵測與 iENE 略優、MR 對 RPN 較佳）；**US（hilar echogenicity/血流消失＋周邊血流增加）＋FNA**；**PET FDG 約 75% 準（cystic 節易偽陰）**；**DWI 勿用於良惡性鑑別**。",
+    "**DDx**：反應性（卵圓形）、第二鰓裂囊腫（擬 cystic level II）、化膿性、甲狀腺癌節（鈣化/囊/高密度，level VI/III/IV）、非何杰金淋巴瘤（多發非壞死）、非頭頸惡性（鎖骨上/Virchow/Troisier）。",
+    "**Unknown primary 四大部位**：鼻咽 fossa of Rosenmüller（EBV+）、口咽 palatine tonsil（p16+）、lingual tonsil（p16+）、下咽 pyriform apex。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-6621（輔助來源",
+      "url": "https://doi.org/10.53347/rID-6621（輔助來源"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**第 8 版變革**：**首次將 ENE 納入 N 分期**（第 7 版無）；**ENE 為 non-HPV（p16−）SCC 之 N 分期決定因子**；nodal 分期綜合位置/數目/大小/側別/ENE。",
+    "**cN3b**：**任何淋巴結轉移合併臨床明顯 ENE**（不論大小/側別）。",
+    "**臨床 vs 病理（nuance）**：**≤3 cm 節 + ENE：臨床 cN3b、病理 pN2a**。",
+    "**HPV/部位差異**：**HPV(+) 口咽、鼻咽、甲狀腺癌另有獨立 N 分期系統**（不同樣用 ENE）。"
+  ],
+  "management": "1. **預後**：**淋巴結轉移為頭頸 SCC 最重要預後因子**；報告須含大小/數目/側別/ENE。\n2. **ENE 角色**：**ENE 為 non-HPV SCC 之 N 分期決定因子**；臨床明顯 ENE＝cN3b。\n3. **流行病學**：**level IIA 最常受累**；淋巴結轉移比例最高＝鼻咽癌（~85%）、最低＝聲門型喉癌（<10%）。\n4. **臨床情境**：轉移節無原發＝「unknown primary」；**成人新頸部腫塊惡性至證明為止**；cystic level II 節易誤為鰓裂囊腫。\n5. **治療**：切除 ± 放療/化放療；頸部廓清分**根治性（level I–V＋SCM/IJV/CN XI）、改良根治性、選擇性**。\n\n> [!note] 考點：3cm 同側轉移淋巴結合併腺外擴散於下咽癌之 N 分期？\n> **N3b**——依 AJCC 第 8 版，任何淋巴結轉移合併臨床明顯 ENE 即歸為（c）N3b，不論大小/側別。（註：若為病理分期，≤3 cm + ENE 為 pN2a。）",
+  "name": "AJCC 8th Edition — Head/Neck Cancer N Staging (ENE)",
+  "nameZh": "頭頸癌AJCC第8版N分期",
+  "slug": "ajcc-8th-head-neck-n-staging",
+  "subspecialty": "NR"
+}

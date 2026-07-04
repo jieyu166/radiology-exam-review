@@ -1,0 +1,13 @@
+{
+  "checked": false,
+  "definition": "**空洞(cavity)＝壞死組織液化經支氣管排出後留下的厚壁含氣腔（壁＞4 mm；薄壁＜4 mm 多為 cyst/bulla/pneumatocele）。DDx 用 CAVITY 口訣：Cancer／Autoimmune／Vascular／Infection／Trauma／Youth(congenital)。** 判讀分水嶺一：**壁厚（Woodring）——壁＜7 mm 對良性高度特異、＞24 mm 幾乎惡性、內壁不規則＋外緣局部凹陷偏惡性**;分水嶺二：**數目（單發＝癌/膿瘍 vs 多發＝轉移/septic emboli/GPA/類風濕）＋位置（上葉＝癌/再活化 TB;下肺周邊＝septic emboli/轉移）**;分水嶺三：**特異徵象——air crescent(aspergilloma)、feeding vessel(septic emboli)、air-fluid level(膿瘍)、satellite/tree-in-bud(TB)**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Cavitary Lung Nodule — DDx",
+  "nameZh": "空洞性肺結節",
+  "slug": "cavitary-lung-nodule",
+  "subspecialty": "CH"
+}

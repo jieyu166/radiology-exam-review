@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**HCC TACE 最常見的 extrahepatic collateral artery 為 right inferior phrenic artery（右下橫膈動脈），其次為 omental/gastroepiploic、left inferior phrenic、right internal mammary 等。** 判讀分水嶺：**bare area（肝裸區）附近的 HCC 最易由 right inferior phrenic artery 供血。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "最常見 extrahepatic collateral：**right inferior phrenic artery**",
+    "Bare area / dome 位置 HCC 最常由橫膈動脈供血",
+    "其他 collateral：omental/gastroepiploic、left IPA、adrenal、intercostal、renal capsular"
+  ],
+  "management": "",
+  "name": "HCC TACE Extrahepatic Collateral Arteries",
+  "nameZh": "肝外側支動脈",
+  "slug": "hcc-tace-collateral",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**先天性橫膈疝氣（CDH）兩大型：Bochdalek（後外側 posterolateral 缺損，左側為主、最常見）與 Morgagni（前方 anterior/胸骨旁缺損，右側為主、少見）——關鍵是 Morgagni 為『前方』缺損（非後方），且好發『右側』（非左側）。** 判讀分水嶺：**Bochdalek：後外側、左側 75-90%、最常見；Morgagni：前方、右側為主（~90%）、小、少見（~2%）、疝出風險低，內容物最常大網膜脂肪（橫結腸 60%/胃 12% 亦可）；CDH 約 10% 非症候群病例合併 CNS 異常（最常神經管缺損 + 水腦）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1161（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1161（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **Bochdalek**：新生兒左後外側缺損 + 胸內腸/胃泡、縱膈右移、患側肺發育不全——預後與肺發育/肺高壓相關。\n- **Morgagni**：前方心膈角腫塊/含氣結構（右側多），常為年長兒/成人偶然發現；內含脂肪/橫結腸。\n- **前 vs 後定位**：側位/CT 分辨前（Morgagni）vs 後（Bochdalek）缺損。\n- **胎兒判讀（STATdx）**：**intrathoracic peristalsis（胸內腸蠕動）為 pathognomonic**；左 CDH 胃入胸＋心臟右移（dextroposition）、**up to 85% liver up（左葉疝至心旁、胃後移，Doppler 找 portal/hepatic vein）**；右 CDH（含肝±膽囊±腸、心左移）易誤為實質胸內腫塊；bilateral 見胸內胃但縱膈少移位。\n- **預後指標（核心）**：**LHR（<1.0 高死亡、1.0-1.4 常需 ECMO、>1.4 較佳）、O:E LHR（<25% 存活 12-30%、>35% 65-88%）、MR O:E TFLV（<25% ↑死亡/ECMO/CLD）、liver herniation（liver up 為獨立不良因子、>20% LH 更差）、胃位置越後外越差**。\n- **合併評估（40-50%）**：**心臟異常 35%（必做胎兒心臟超音波）、CNS 10%、染色體異常 16-37%（trisomy 18/13/21）**；hernia sac（10-15%）預後較佳；所有 CDH 應提供基因檢測。\n- **鑑別（DDx）**：**CPAM（macrocystic 可擬胃/腸、無胸內蠕動、Doppler 見肺動脈供血、橫膈完整胃在下）**、bronchogenic/duplication/neurenteric cyst、teratoma（鈣化）。\n- **陷阱**：勿把 Morgagni 記成後方/左側（實為前方、右側為主）；斜軸位 US 可造成 pseudo-CDH 偽陽性。",
+  "keyPoints": [
+    "**流行病學**：CDH 約 1/2000-4000 活產；**84% 左側、13% 右側、2% 雙側**；最常見非心臟性胎兒胸內異常之一。",
+    "**Bochdalek hernia**：**後外側（posterolateral）**缺損、**左側 75-90%**、**CDH 最常見型**；疝出腹腔臟器 → 肺發育不全、縱膈移位。",
+    "**Morgagni hernia**：**前方（anterior）/胸骨旁**缺損（非後方）、**右側為主（~90%）**、體積小、**少見（~2%）**、疝出風險低；內容物**最常大網膜脂肪**，**橫結腸(60%)或胃(12%)**亦可。",
+    "**合併 CNS 異常**：非症候群性 CDH 約 **10%** 合併，最常見**神經管缺損與水腦症**。"
+  ],
+  "management": "1. **Bochdalek**：後外側、左、最常見。\n2. **Morgagni**：前方、右為主、少見。\n3. **左側 84%**（CDH 整體）。\n4. **內容物**：Morgagni 多大網膜脂肪（橫結腸/胃亦可）。\n5. **合併與治療**：合併異常 40-50%（心 35%/CNS 10%/染色體 16-37%）；**肺發育不全＋肺高壓/持續胎兒循環為主要死因**；治療需**三級中心分娩、產前類固醇、iNO/HFOV/surfactant、必要時 ECMO/EXIT-to-ECMO**；中重度（O:E LHR <45%）可考慮 **FETO（胎兒鏡氣管內球囊阻塞）**促肺成熟、34 週前需移除。\n\n> [!note] 考點：關於先天性橫膈疝氣(CDH)，何者「為偽」?\n> **C 為偽**——Morgagni hernia 為**前方**（非後方）橫膈缺損，好發**右側**（約 90%）。Bochdalek 為左後外側且最常見型態、CDH 可合併 CNS 異常（神經管缺損/水腦症）皆為真。",
+  "name": "Congenital Diaphragmatic Hernia (Bochdalek vs Morgagni)",
+  "nameZh": "先天性橫膈疝氣",
+  "slug": "congenital-diaphragmatic-hernia",
+  "subspecialty": "PED"
+}

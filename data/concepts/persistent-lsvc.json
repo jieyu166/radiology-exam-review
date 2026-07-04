@@ -1,0 +1,36 @@
+{
+  "checked": false,
+  "definition": "**PLSVC 是最常見的胸腔先天靜脈異常，核心記憶：「左側縱膈血管影 → 追到 dilated coronary sinus → 問它流去哪」。** 約 90% 經 coronary sinus 引流入右心房（無症狀偶然發現）；少數直接入左心房（多伴 unroofed coronary sinus）才產生右→左分流。判讀分水嶺一：**引流路徑決定臨床意義**——coronary sinus → 右心房（最常見、無分流）vs 直接入左心房（少數、可致反常栓塞）；判讀分水嶺二：**dilated coronary sinus 是影像線索，見之需排除 PLSVC**。",
+  "differentialDiagnosis": [
+    "**left superior intercostal vein（aortic nipple）**：走行**位於主動脈弓後方**、口徑小（正常 <約 4.5 mm），不下行至 coronary sinus。",
+    "**PAPVR 的 vertical vein**：血流方向為**向上（cephalad）**、源自肺靜脈，**左主支氣管前方無血管**；PLSVC 則血流向下且匯入 coronary sinus。",
+    "**levoatriocardinal vein**：**幾乎都伴左心阻塞性病變**，位置偏後（左肺動脈後方）。",
+    "**pericardiophrenic vein**：下行至橫膈、走行於心臟外側，口徑細小。",
+    "**aberrant left brachiocephalic vein**：**穿行於主動脈弓下方／後方**，與 TOF 相關。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1186/s13244-020-00906-2",
+      "url": "https://doi.org/10.1186/s13244-020-00906-2"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5290679/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5290679/"
+    },
+    {
+      "label": "https://doi.org/10.3348/jksr.2021.0192",
+      "url": "https://doi.org/10.3348/jksr.2021.0192"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3558062/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3558062/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Persistent Left Superior Vena Cava (PLSVC)",
+  "nameZh": "永存左上腔靜脈",
+  "slug": "persistent-lsvc",
+  "subspecialty": "CV"
+}

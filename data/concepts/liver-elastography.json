@@ -1,0 +1,54 @@
+{
+  "checked": false,
+  "definition": "**肝臟彈性影像是用「硬度」替代組織切片評纖維化，只有 strain 與 shear wave 兩類技術真正量硬度；tissue harmonics 和 fusion 是影像品質工具，與硬度無關。** 判讀分水嶺一：**測硬度＝strain＋shear wave**（harmonics、fusion 不算）；判讀分水嶺二：**量測標準化——禁食、右葉 seg 5/8、深度約 4 cm；肝硬化閾值 ≈ 2 m/s（>13 kPa）**。",
+  "differentialDiagnosis": [
+    "技術",
+    "Tissue harmonics",
+    "**Strain imaging**",
+    "Navigation/Fusion",
+    "**Shear wave imaging**"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/radiol.2015150619。重點：**MRE",
+      "url": "https://doi.org/10.1148/radiol.2015150619。重點：**MRE"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.2016160042",
+      "url": "https://doi.org/10.1148/rg.2016160042"
+    },
+    {
+      "label": "https://doi.org/10.1097/MD.0000000000011816",
+      "url": "https://doi.org/10.1097/MD.0000000000011816"
+    },
+    {
+      "label": "https://doi.org/10.1007/s00330-020-07223-8",
+      "url": "https://doi.org/10.1007/s00330-020-07223-8"
+    },
+    {
+      "label": "10.1148/radiol.2015150619",
+      "url": "https://doi.org/10.1148/radiol.2015150619"
+    },
+    {
+      "label": "10.7150/thno.18650（2018",
+      "url": "https://doi.org/10.7150/thno.18650（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**測硬度的技術**：**strain elastography**（壓縮波比較 ROI）＋**shear wave elastography（SWE/ARFI）**（橫向剪力波速）。Tissue harmonics（提升影像品質）、navigation/fusion（影像融合）**與硬度無關**。",
+    "**量測協定（SWE/ARFI）**：**禁食約 4 小時**、仰臥/左側臥、右臂外展、平靜呼吸下閉氣；**右葉（肋間，seg 5/8）**、ROI 取肝包膜下 1.5–2.0 cm、**深度約 4–4.5 cm 為最佳**、不深於 6–7 cm；至少 5 次取中位數。",
+    "**閾值（ARFI，病毒性/NAFLD；SRU 共識）**：",
+    "<5 kPa / **<1.3 m/s**：likely normal。",
+    "<9 kPa / <1.7 m/s：排除 advanced CLD（若無臨床徵象）。",
+    "9–13 kPa / 1.7–2.1 m/s：likely CLD（需獨立確認）。",
+    "**>13 kPa / >2.1 m/s：提示 advanced CLD（肝硬化）** → 故四選項中以 **≈2 m/s** 為硬化閾值。",
+    ">17 kPa / >2.4 m/s：提示顯著門脈高壓。",
+    "**偽高（false positive）**：急性肝炎、AST/ALT >5×、阻塞性膽汁鬱積、肝充血——量測前須留意。"
+  ],
+  "management": "",
+  "name": "Liver Elastography (Shear Wave / Strain)",
+  "nameZh": "肝臟彈性影像",
+  "slug": "liver-elastography",
+  "subspecialty": "US"
+}

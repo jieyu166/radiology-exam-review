@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**肝腫瘤（無論 HCC 或血管性轉移瘤）的血流供應主要來自肝動脈，但腫瘤周邊存在多種『動脈-門脈交通（arterioportal communication）』使動脈血可先流入門脈小靜脈再供應腫瘤——這代表『只做肝動脈栓塞而忽略門脈路徑』的傳統治療策略並不完整，門脈其實扮演比過去認知更重要的角色。** 判讀分水嶺：**動脈-門脈交通四型：peribiliary plexus、terminal arterioportal anastomosis、門脈壁上的 vasa vasora、direct arterioportal connections;動脈血可經此路徑先進入門脈小靜脈再抵達腫瘤（而非單純直接供血）;此發現挑戰「TAE 必須避開門脈栓塞」的絕對化說法——門脈路徑其實是腫瘤血供的一部分，不應被治療策略忽略。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腫瘤血供主力＝肝動脈**：無論 HCC 或高血管/低血管轉移瘤，餵養血管**主要來自肝動脈**。",
+    "**動脈-門脈交通（arterioportal communication）四型**：**peribiliary plexus（膽管周圍叢）、terminal arterioportal anastomosis（末端動脈門脈吻合）、門脈壁上的 vasa vasora（滋養血管）、direct arterioportal connections（直接動脈門脈連接）**。",
+    "**關鍵機轉**：動脈血可透過上述交通路徑**先進入門脈小靜脈，再供應腫瘤**——顯示門脈系統並非單純被動的血流通道，而是腫瘤血供的重要參與者。",
+    "**對治療策略的意義**：**傳統只處理肝動脈、忽略門脈的經肝動脈治療（transhepatic arterial treatment）並不足夠**——研究顯示門脈在肝腫瘤血供扮演的角色比先前認為的更重要;因此「TAE 必須絕對避開腫瘤周邊門脈栓塞」的說法**過於絕對化**，與現有理解（門脈路徑也是腫瘤血供的一部分、需一併納入考量）相悖。"
+  ],
+  "management": "",
+  "name": "Hepatic Tumor Blood Supply — Arterioportal Communications & TAE",
+  "nameZh": "肝腫瘤血液供應",
+  "slug": "hepatic-tumor-blood-supply-embolization",
+  "subspecialty": "IR"
+}

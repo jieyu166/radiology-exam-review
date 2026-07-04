@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**ABI = 踝動脈收縮壓 / 兩側肱動脈收縮壓中較高者（非兩側之和）。ABI < 0.9 為異常（PAD）；ABI > 1.3 提示動脈鈣化（不可壓縮）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "公式：ABI = ankle SBP / **higher** of the two brachial SBPs",
+    "正常：1.0 – 1.3",
+    "**< 0.9**：peripheral arterial disease",
+    "**> 1.3**：動脈嚴重鈣化（不可壓縮），多見於糖尿病/CKD"
+  ],
+  "management": "",
+  "name": "Ankle-Brachial Index (ABI)",
+  "nameZh": "踝肱指數",
+  "slug": "ankle-brachial-index",
+  "subspecialty": "IR"
+}

@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**石骨症的機轉是破骨細胞（osteoclast）缺陷，骨無法被吸收重塑，結果「看似石頭卻易碎」——骨雖硬化但結構異常、脆弱易骨折；X 光見 bone-in-bone、sandwich vertebra（rugger jersey）、交替硬化帶（反映疾病活性起伏）。** 判讀分水嶺一：**機轉是「破骨細胞缺陷」（非成骨過度）**——骨質雖多卻無法重塑；判讀分水嶺二：**骨脆弱易骨折（非更耐折）**。記憶鉤：「破不了、卻易碎」——破骨不工作 → 脆骨一堆。",
+  "differentialDiagnosis": [
+    "**Pyknodysostosis(緻密性骨發育不全)**:亦瀰漫硬化但伴**末節指骨溶解(acro-osteolysis)**、下頜角鈍化、顱縫增寬——cathepsin K 缺陷,可資區分。",
+    "**骨硬化性(osteoblastic)轉移**:硬化**多灶、不對稱**,分布隨原發癌(如攝護腺、乳房),非全身對稱。",
+    "**Myelofibrosis(骨髓纖維化)**:可致瀰漫硬化伴髓外造血/脾腫,常見於年長者。",
+    "**氟中毒(fluorosis)**:瀰漫硬化伴韌帶骨化/骨贅,有暴露史。",
+    "**腎性骨營養不良**:rugger-jersey spine(邊界模糊)+其他副甲狀腺亢進徵象,如前述須與 sandwich vertebra 區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.7860/JCDR/2015/13334.6348(PMC4576613",
+      "url": "https://doi.org/10.7860/JCDR/2015/13334.6348(PMC4576613"
+    },
+    {
+      "label": "10.1016/j.jbspin.2024.105692",
+      "url": "https://doi.org/10.1016/j.jbspin.2024.105692"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**機轉**:**破骨細胞缺陷**致骨吸收不足、瀰漫硬化;故「成骨活性過度產骨」**錯**(A 錯)。",
+    "**骨質**:雖硬化但結構異常、**脆弱易骨折**;故「成人骨更耐折」**錯**(D 錯)。",
+    "**交替硬化帶**:反映疾病**活性起伏(fluctuating course)**——正解 C。",
+    "亞型:嬰兒型 AR(嚴重)、成人型 AD(ADO II 易骨折);影像 bone-in-bone、sandwich vertebra。"
+  ],
+  "management": "",
+  "name": "Osteopetrosis",
+  "nameZh": "石骨症",
+  "slug": "osteopetrosis",
+  "subspecialty": "MSK"
+}

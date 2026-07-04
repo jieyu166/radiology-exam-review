@@ -1,0 +1,46 @@
+{
+  "checked": false,
+  "definition": "**Corona mortis（「死亡冠」）是 obturator 與 external iliac/deep inferior epigastric 之間、跨越恥骨上枝後方的變異吻合——骨盆骨折時割破它可引發難以控制的大出血，名字由此而來。** 位置記憶鉤：吻合血管像「皇冠」弧形跨過恥骨上枝後方（Retzius 腔），距恥骨聯合約 35–72 mm。盛行率並非極高（動脈 ~17%、靜脈 ~42%），因此「高盛行率→必須常規檢查 external iliac」的說法措辭過度，為考題陷阱答案。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.injury.2017.12.007"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.5644/ama2006-124.480"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.injury.2016.04.032"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.30476/BEAT.2020.84118"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1055/s-0045-1804909"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3928/01477447-20111122-25"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00464-003-8800-y"
+    }
+  ],
+  "imagingFindings": "- **追蹤路徑**：在 **CT angiography／對比後骨盆 CT（薄層 0.625–1 mm、必要時 MIP/MPR 矢狀及冠狀重組）** 沿 **superior pubic ramus 後方（Retzius 腔）** 追蹤一條弧形血管，於 external iliac/inferior epigastric 系統與 obturator/閉孔系統之間架橋——呈「皇冠」狀跨過恥骨上枝。\n- **距恥骨聯合距離（手術安全帶）**：corona mortis 距恥骨聯合約 **40–90 mm（文獻分歧：meta-analysis 約 5 cm；CTA 系列亦有 35–72 mm 並列）**，故恥骨聯合外側「約一指幅」內被視為相對危險區，判讀報告可標註其與恥骨聯合的距離供術前規劃。\n- **多期顯影／出血判讀**：骨盆骨折病人若見恥骨上枝旁血腫合併 **active contrast extravasation**，需追溯來源是否為 obturator/corona mortis 分枝；可預測後續血管攝影/栓塞的目標血管並提醒其源自 external iliac 系統。",
+  "keyPoints": [
+    "**定義/別名**：「crown of death」;跨 **superior pubic ramus** 後方 retropubic space（space of Retzius / Bogros 腔）的變異血管吻合。",
+    "**動脈型吻合**：**obturator artery 與 external iliac artery 或 deep inferior epigastric artery 之間**——此時 obturator artery 可源自此交通枝（aberrant/accessory obturator artery）；應與「正常 obturator artery 由 internal iliac/anterior division 發出」區別。",
+    "**靜脈型較常見**：venous corona mortis（abnormal obturator vein 引流入 external iliac vein 或 inferior epigastric vein）盛行率高於動脈型，臨床意義不亞於動脈型，亦會大出血。"
+  ],
+  "management": "",
+  "name": "Corona Mortis (\"Crown of Death\")",
+  "nameZh": "死亡冠",
+  "slug": "corona-mortis",
+  "subspecialty": "IR"
+}

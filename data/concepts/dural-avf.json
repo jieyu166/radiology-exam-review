@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**顱內硬腦膜動靜脈瘻管（dAVF）多為『後天』（常伴靜脈竇栓塞、外傷、開顱後之新生血管），非先天；好發 transverse-sigmoid sinus，最常見症狀搏動性耳鳴；有無皮質靜脈逆流（CVR）決定危險度。** 判讀分水嶺：**後天性、最常見 transverse-sigmoid sinus、最常見症狀 pulsatile tinnitus；Cognard/Borden 依 CVR 分級，有 CVR（Borden II-III、Cognard ≥IIb）→ 出血/神經惡化風險高；治療以血管內栓塞為主、常優於放射手術；ethmoidal（篩竇）dAVF 因引流缺竇保護、直入皮質靜脈，SAH 風險最高（雖僅約 6%）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-4233——dAVF",
+      "url": "https://doi.org/10.53347/rID-4233——dAVF"
+    }
+  ],
+  "imagingFindings": "- **DSA 為金標（STATdx）**：**超選擇性導管定位硬腦膜供血與靜脈引流**；**最常 transverse-sigmoid（35-40%）、次為 cavernous sinus**；shunt nidus 多 <2 cm。\n- **CVR 為關鍵（STATdx Cognard，考點核心）**：**Type I（竇壁、順行、良性）、IIa（竇內逆流未入皮質）、IIb（皮質靜脈逆流、出血 10-20%）、III（直接皮質引流無 ectasia、出血 40%）、IV（直接皮質引流+靜脈 ectasia、出血 65%）、V（脊髓 perimedullary 引流、進行性 myelopathy）**。\n- **CECT/MR（STATdx）**：CECT 迂曲硬腦膜 feeder + 竇擴大 ± flow-related aneurysm、擴張皮質引流靜脈（aggressive）；**MR 靜脈擴張、鄰接白質 T2 高訊號（靜脈鬱血）、T2* 有皮質引流時可出血、慢性栓塞竇強烈強化**；**dynamic CE-MRA/ASL 提高偵測**。\n- **CCF（Barrow 分型，STATdx）**：**Type A 直接 ICA-CS（非真 dAVF）、B 硬腦膜 ICA 分支、C 硬腦膜 ECA 分支、D ECA/ICA 硬腦膜分支**。\n- **位置風險**：ethmoidal/tentorial 之直接皮質靜脈引流 → SAH 風險高；transverse-sigmoid 多以耳鳴表現。\n- **DDx（STATdx）**：**TS-SS hypoplasia、jugular bulb pseudolesion、dural sinus thrombosis（側枝可擬 dAVF）、pial AVM（先天、intraaxial nidus）**。\n- **陷阱（STATdx）**：**單一 pedicle/小 dAVF 於 MR/MRA 可看不到；客觀搏動性耳鳴且橫斷影像無其他血管病灶 → 須 DSA 完全排除 dAVF**；勿記成先天。",
+  "keyPoints": [
+    "**本質**：**後天性**（多 idiopathic；常源自**已栓塞之硬腦膜靜脈竇（典型 transverse sinus）之新生血管**、外傷、開顱後；prothrombotic 體質相關），**非先天**。",
+    "**位置**：最常見 **transverse-sigmoid sinus（~60%）**。",
+    "**症狀**：最常見 **pulsatile tinnitus（搏動性耳鳴）**；亦可出血/靜脈高壓。",
+    "**分類/危險**：**Borden（I-III）、Cognard（I-V）依皮質靜脈逆流（CVR）**；**有 CVR → 出血/神經功能惡化風險升高**。",
+    "**治療**：以**血管內栓塞**為主（常較放射手術有效）。",
+    "**SAH 風險最高位置**：**Ethmoidal（篩竇區，約 6%）**——引流靜脈缺竇保護、直接引流入軟腦膜/皮質靜脈，故出血風險高於其他（SSS 8%、middle fossa 4%、petrosal 9%、CCF 12%、transverse/sigmoid 60%）。"
+  ],
+  "management": "1. **本質（STATdx）**：**後天性硬腦膜動脈與硬腦膜竇/皮質靜脈之直接分流**（有別於先天 AVM，例外＝vein of Galen 畸形）；病因（idiopathic/外傷/開顱/靜脈阻塞/靜脈高壓致病理性新生血管、高 FGF2/VEGFA）。\n2. **流行病學（STATdx）**：**占幕上血管畸形 6%、幕下 35%、全部 AV 分流畸形 10-15%**；好發中老年。\n3. **兩大表現（STATdx）**：**出血（實質/多腔、急性 stroke-like）與靜脈高壓/鬱血（搏動性耳鳴、失智、癲癇、腦病）**；TS-SS→耳鳴、CS→搏動性突眼/chemosis/眼後痛、SSS→進行性失智。\n4. **預後（STATdx，關鍵）**：**無逆行靜脈引流者 98% 良性；有皮質靜脈逆流者 aggressive；整體出血風險 2%/年、venous varix 為未來出血強預測子；自發閉合罕見、LP 後曾報急性惡化**。\n5. **治療（STATdx）**：**選定病例觀察；有出血風險者血管內栓塞（主）、手術 skeletonization、立體定位放射手術（復發常見）**。\n\n> [!note] 考點：關於顱內 dAVF，何者「錯誤」?\n> 「**屬先天性疾病**」錯誤——**dAVF 多為後天**（常伴靜脈竇栓塞）。最常見於 transverse-sigmoid sinus、最常見症狀 pulsatile tinnitus、血管內治療常優於放射手術皆正確。\n\n> [!note] 考點：哪個位置的dAVF蜘蛛網膜下腔出血風險最高？\n> **Ethmoid（篩竇區）**——雖非最常見位置（最常見為 transverse-sigmoid sinus），但因引流靜脈缺乏靜脈竇保護、直接引流入軟腦膜/皮質靜脈，出血風險最高。",
+  "name": "Dural Arteriovenous Fistula (dAVF)",
+  "nameZh": "硬腦膜動靜脈瘻管",
+  "slug": "dural-avf",
+  "subspecialty": "NR"
+}

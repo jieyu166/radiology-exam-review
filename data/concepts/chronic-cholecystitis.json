@@ -1,0 +1,70 @@
+{
+  "checked": false,
+  "definition": "**慢性膽囊炎讓膽汁「濃縮變亮」，亮了之後肝與膽汁的訊號比值反而下降。** 膽汁 T1 訊號與膽鹽/蛋白濃度正相關：禁食、滯留、sludge 形成→濃度升高→T1 變亮（高訊號）。因此 liver/GB-bile SI ratio＝肝訊號（相對穩定）÷膽汁訊號（升高），比值「顯著下降」。記憶鉤：「膽汁越濃越亮（T1↑），比值越小」——分子固定、分母變大，商必然縮小。",
+  "differentialDiagnosis": [
+    "**慢性膽囊炎典型超音波表現**：膽囊壁增厚(纖維化，多平滑均勻)、**膽囊縮小(contracted)**、幾乎必有膽結石。",
+    "**充血性壁變化(hyperemic changes)非慢性典型表現**：都卜勒上膽囊壁充血血流增加，較典型見於**急性**膽囊炎(反映急性發炎反應)，非慢性膽囊炎之典型超音波表現——此為考題常見模態誤判方向。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.281065183。濃縮膽汁",
+      "url": "https://doi.org/10.1148/rg.281065183。濃縮膽汁"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.10.4340",
+      "url": "https://doi.org/10.2214/AJR.10.4340"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112975/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112975/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5135451/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5135451/"
+    },
+    {
+      "label": "https://www.sciencedirect.com/science/article/abs/pii/S1091255X23070701",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1091255X23070701"
+    },
+    {
+      "label": "https://doi.org/10.1148/radiology.203.1.9122422",
+      "url": "https://doi.org/10.1148/radiology.203.1.9122422"
+    },
+    {
+      "label": "https://pubmed.ncbi.nlm.nih.gov/22488612/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22488612/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3021609/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3021609/"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.263055180。adenomyomatosis＝adenomyomatous",
+      "url": "https://doi.org/10.1148/rg.263055180。adenomyomatosis＝adenomyomatous"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.05.1712",
+      "url": "https://doi.org/10.2214/AJR.05.1712"
+    },
+    {
+      "label": "10.1148/rg.281065183",
+      "url": "https://doi.org/10.1148/rg.281065183"
+    },
+    {
+      "label": "10.1148/rg.263055180",
+      "url": "https://doi.org/10.1148/rg.263055180"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**膽汁 T1 訊號 ∝ 濃度**：禁食/濃縮狀態下膽鹽與蛋白濃度升高 → 膽汁 **T1 訊號增高（變亮）**。",
+    "**慢性膽囊炎/膽石症**：膽汁**滯留、濃縮、sludge**↑ → 膽囊膽汁 **T1 高訊號**更常見（與 cholecystolithiasis 相關）。",
+    "**肝/膽囊膽汁訊號比值（liver/GB-bile SI ratio）**：膽汁變亮(分母↑) → **比值顯著『下降（decreased）』**（2016-123 正解 B）。",
+    "慢性膽囊炎其他：膽囊壁增厚分層、可膽結石、收縮膽囊、瓷化膽囊(慢性鈣化)。"
+  ],
+  "management": "",
+  "name": "Chronic Cholecystitis & Bile T1 Signal",
+  "nameZh": "慢性膽囊炎",
+  "slug": "chronic-cholecystitis",
+  "subspecialty": "ABD"
+}

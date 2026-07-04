@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**脾臟腫瘤的兩個首位：最常見良性＝hemangioma，最常見惡性＝lymphoma（非轉移）——「脾最常見惡性是轉移」是高頻錯誤選項。** 判讀分水嶺一：**lymphoma 多為續發性侵犯（非原發），但仍是脾最常見惡性**；轉移相對少見（晚期廣泛轉移癌如黑色素瘤才常見）。判讀分水嶺二：脾囊腫需區分——**epidermoid（true）cyst 有上皮襯裡**，false/pseudocyst 源自外傷/感染/梗塞（無襯裡）；splenic hamartoma 可伴貧血/血小板減少。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "| 病灶 | 數目 | CT/MRI 影像特徵 | 鑑別關鍵 |\n|---|---|---|---|\n| **Hemangioma**（最常見良性） | 多單發 | T1 等/低、**T2 高**；CT 可見**周邊結節狀不連續早期強化 + 漸進向心填充（centripetal fill-in）**，延遲漸均質 | 向心填充型態；無 FDG 攝取 |\n| **Hamartoma** | 單發 | CT 平掃**等密度**（與脾近似，故易漏）；動脈期早期強化、延遲與背景脾**達平衡**；Doppler 血流增加 | 富血管＋延遲與正常脾「等化」；MRI 即時後對比劑明顯強化，是與 hemangioma 區分要點 |\n| **Littoral cell angioma (LCA)** | **多發小結節（瀰漫）** | CT 多發低衰減，動/門脈期低強化、**延遲期轉為與背景脾等強化**；MRI T1 低、漸進強化（「快進慢出」） | 多發＋延遲等化；可伴脾腫大/hypersplenism |\n| **Lymphangioma** | 多發/多房 | **多房、薄壁、被膜下**囊性；T1 低、**T2 高**；僅薄分隔強化，分隔可鈣化 | 多房結構＋纖維分隔；先天性 |\n| **Epidermoid（true）cyst** | 單發 | 邊界清、單房、**無強化**薄壁；T1 低、**T2 極高**；壁鈣化少見 | **有上皮襯裡**；好發年輕女性；壁鈣化不明顯 |\n| **Pseudocyst（假性囊腫）** | 單發 | 無強化；**約 50% 有壁鈣化**、壁較厚、可含內部碎屑/分隔 | **無上皮襯裡**；外傷/感染/梗塞史；周邊鈣化＋厚壁是線索 |\n| **Echinococcal（hydatid）cyst**（*E. granulosus* 絛蟲） | 單發（少數多房） | 單房囊腫內含多發周邊**daughter cyst**（子囊，「一串葡萄」外觀）；囊內**hydatid sand（水囊砂／濃縮母體液）呈相對高衰減碎屑、不強化** | 脾侵犯占 hydatid disease 之 0.9–8%（多續發於肝囊腫破裂全身/腹腔散播）；WHO 分型 1–4 型（含鈣化型、破裂/續發感染型），破裂率高達 50–90%；不強化之囊內碎屑可與多房性淋巴管瘤區分 |\n\n> [!tip] Epidermoid cyst vs Pseudocyst\n> 兩者 CT 皆為邊界清的低密度、無強化。**真性（epidermoid）cyst**：壁薄平滑、年輕、鈣化少；**假性囊腫**：壁厚常含周邊鈣化、有外傷/梗塞史、內部碎屑。",
+  "keyPoints": [
+    "**最常見良性脾腫瘤＝hemangioma**。",
+    "**最常見脾臟惡性＝lymphoma**（lymphomatous involvement，多為**續發**，原發罕見）——**非轉移**。（題目正解：選項 B「最常見惡性是轉移」錯誤）",
+    "**脾囊腫**：**epidermoid（true）cyst 有上皮襯裡**；**false/pseudocyst** 源自**外傷、感染、梗塞**（無上皮襯裡）。",
+    "**脾 hamartoma**：可伴**貧血、血小板減少**（hypersplenism/血液學異常）。",
+    "脾轉移相對少見（晚期、廣泛轉移癌如黑色素瘤、乳癌、肺、卵巢）。"
+  ],
+  "management": "",
+  "name": "Splenic Tumors (Overview)",
+  "nameZh": "脾臟腫瘤",
+  "slug": "splenic-tumors",
+  "subspecialty": "ABD"
+}

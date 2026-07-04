@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**睪丸表皮樣囊腫是唯一「良性可保留睪丸」的睪丸內實質腫塊，US 特徵是無血管的洋蔥皮（onion-skin）層狀同心圓結構，而非純囊性。** 記憶鉤：把它想成「切開洋蔥的橫切面」——一圈圈層狀角質板，無血流信號，邊界清楚；~86% 有壁鈣化。判讀分水嶺：**onion-skin / whorled 層狀 + 無血管 + 邊界清楚 + 壁鈣化（~86%）＝表皮樣囊腫；出現血流則非此診斷；「純囊性」更非其表現**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/ajr.173.5.10541108（Tier",
+      "url": "https://doi.org/10.2214/ajr.173.5.10541108（Tier"
+    },
+    {
+      "label": "10.1148/rg.2021210024（Tier",
+      "url": "https://doi.org/10.1148/rg.2021210024（Tier"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：良性、**無血管（avascular）**的睪丸內實質腫塊（屬畸胎樣／角質化病灶，非真正囊腫）。",
+    "**核心徵象（US）**：同心圓、層狀交替高低回音的 **onion-ring／onion-skin sign**，外圍高回音環——病理對應為一層層角質碎屑堆疊。",
+    "**US 其他型態**：",
+    "**target／bull's-eye（靶心）外觀**：高回音包膜 + 低回音內容（脂肪／水）+ 中央高回音角質焦點。",
+    "**邊界清楚（well-defined）**、多為圓形。",
+    "**壁鈣化常見（~86%）**，自散在灶至緻密周邊鈣化。",
+    "**Doppler：病灶內無血流（avascular）為良性關鍵**——這是與絕大多數惡性睪丸腫瘤（有血流）最重要的鑑別點。",
+    "**MRI**：典型呈 **同心環狀（black ring／target／onion-skin）T2 訊號高低交替**、薄的 T2 低訊號包膜；**病灶本體注射 Gd 後不強化（no enhancement）**，有助與有血供的生殖細胞瘤鑑別。",
+    "**判讀三聯（high yield）**：onion-ring US 外觀 + Doppler 無血流 + 腫瘤標記陰性 → 高度提示表皮樣囊腫；惟仍須病理／冷凍切片確認。",
+    "**管理**：影像高度懷疑時屬良性，可行 **保留睪丸手術（testis-sparing surgery／enucleation）** 並送冷凍切片確認，避免不必要的全睪丸切除。",
+    "**DDx 判讀分水嶺**：",
+    "**惡性生殖細胞瘤（GCT；seminoma／NSGCT）**：常**有血流**、異質、邊界不清——出現病灶內血流即不支持表皮樣囊腫。",
+    "其他：成熟畸胎瘤（teratoma，可含脂肪／鈣化但血流型態不同）、機化血腫、膿瘍、睪丸梗塞（infarct）。",
+    "**故『purely cystic nodule（純囊性結節）』非其常見表現**（為實質層狀腫塊）。"
+  ],
+  "management": "",
+  "name": "Testicular Epidermoid Cyst",
+  "nameZh": "睪丸表皮樣囊腫",
+  "slug": "testicular-epidermoid-cyst",
+  "subspecialty": "US"
+}

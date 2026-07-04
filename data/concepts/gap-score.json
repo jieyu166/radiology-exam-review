@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**GAP score 用三個字母記住 IPF 預後工具：G = Gender（男性較差）、A = Age（越老越差）、P = Physiology，即 FVC% 與 DLCO% 兩項肺功能；分三個 stage 預測 1/2/3 年死亡率。** 判讀分水嶺一：**P 涵蓋兩項生理值（FVC + DLCO），缺一不完整。** 判讀分水嶺二：**CT-GAP 以 CT 纖維化程度評分補強，於 DLCO 無法取得或進展期時預測稍佳。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**GAP score 變數**：",
+    "**G**ender（性別,男性風險高）;",
+    "**A**ge（年齡）;",
+    "**P**hysiology：**FVC%** 與 **DLCO%**（兩項肺功能）。",
+    "總分對應 **stage I/II/III** 與遞增的 1/2/3 年死亡率。",
+    "**CT-GAP**：以 **CT 纖維化程度評分**納入,於部分情境（如 DLCO 不可得、stage 3 後）預測表現稍佳。",
+    "**用途**：半定量、簡便的預後分層工具;ILD 評估常與影像進展 marker（[[pulmonary-fibrosis-signs|traction bronchiectasis]]）併用。"
+  ],
+  "management": "",
+  "name": "GAP Score (IPF/ILD Prognosis)",
+  "nameZh": "肺纖維化預後評分",
+  "slug": "gap-score",
+  "subspecialty": "CH"
+}

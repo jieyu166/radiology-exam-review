@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**翼腭窩是顱底最重要的神經擴散十字路口，腫瘤（如 adenoid cystic carcinoma）或感染可沿六條通道向鄰近間隙蔓延——記住通什麼、往哪裡走是重點。** 判讀分水嶺一：**PPF 連通眼眶（IOF）→ 顱底中顱窩（rotundum/V2、vidian canal）→ 鼻腔（sphenopalatine）→ 顳下窩→口腔**，六方向皆通。判讀分水嶺二：**foramen ovale 傳 V3 直通咀嚼肌間隙，不過 PPF**＝考題正解。空間記憶鏈：PPF 站中央，上眼眶、後顱底（圓孔＋翼管）、內鼻腔、外顳下窩、下口腔，唯 ovale（V3）另走旁道。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s13244-016-0498-1",
+      "url": "https://doi.org/10.1007/s13244-016-0498-1"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**PPF 連通**：",
+    "**inferior orbital fissure** → 眼眶(B)",
+    "**foramen rotundum** → 中顱窩（V2）(D)",
+    "**vidian（pterygoid）canal** → 破裂孔/中顱窩(C)",
+    "**sphenopalatine foramen** → 鼻腔",
+    "pterygomaxillary fissure → 顳下窩;greater/lesser palatine canals → 口腔",
+    "**不與 PPF 相連**：**foramen ovale**（傳 V3,連中顱窩↔咀嚼肌間隙/顳下窩）**不直接與 PPF 相連**＝題目正解（2016-183 正解 A）。",
+    "臨床：周神經腫瘤擴散（如 adenoid cystic carcinoma 沿 V2/vidian）、juvenile angiofibroma 侵犯。"
+  ],
+  "management": "",
+  "name": "Pterygopalatine Fossa — Connections",
+  "nameZh": "翼腭窩",
+  "slug": "pterygopalatine-fossa",
+  "subspecialty": "NR"
+}

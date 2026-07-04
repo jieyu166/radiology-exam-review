@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**血友病關節病變來自反覆積血→含鐵血黃素滑膜增生→軟骨/骨破壞，膝部典型是髁間窩變寬＋方形髕骨；肩部最少受累，且不長骨刺（osteophytes）——「肱骨頭增大＋骨刺」是陷阱。** 判讀分水嶺一：**膝典型＝widened intercondylar notch＋squared patella＋股骨髁球狀增大**；判讀分水嶺二：**肩部最少受累且無 osteophyte（非骨關節炎型）；踝→距骨塌陷似 Charcot**。記憶鉤：好發順序「膝肘踝髖肩」（下肢→上肢→最少）；肩部不長骨刺這一點反直覺，要特別記。",
+  "differentialDiagnosis": [
+    "**幼年型特發性關節炎（JIA）**：同樣有骨骺過度生長、骨質疏鬆、髁間窩變寬與軟骨破壞；缺乏含鐵血黃素 blooming，且為對稱／多關節、臨床史不同。",
+    "**結核性關節炎（tuberculous arthritis）**：單關節侵蝕、關節旁骨質疏鬆、軟骨晚期才破壞（Phemister 三徵）；無含鐵血黃素瀰漫沉積。",
+    "**色素絨毛結節性滑膜炎（PVNS）**：**同樣有含鐵血黃素 → GRE/SWI blooming 低訊號**，是最易混淆者；但 PVNS 多為單關節、無凝血病史、結節狀滑膜增生較侷限，臨床背景可資鑑別。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2214/ajr.184.5.01841619",
+      "url": "https://doi.org/10.2214/ajr.184.5.01841619"
+    },
+    {
+      "label": "10.1038/s41598-025-99085-7",
+      "url": "https://doi.org/10.1038/s41598-025-99085-7"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**膝**：**髁間窩變寬（widened intercondylar notch）、股骨髁增大/球狀、髕骨下緣方形化（squared patella）**(option A、C 對)。",
+    "**踝**：**距骨塌陷,似 Charcot joint**(option D 對)。",
+    "**共同**：滑膜增生（含鐵血黃素,GRE blooming/MRI 低訊號）、軟骨下囊腫/侵蝕、骨質疏鬆、**骨骺充血性過度生長**;**好發膝>肘>踝>髖>肩**。",
+    "**手部關節最少受累**：血友病關節病變典型侵犯大關節（膝/肘/踝/髖），**手部小關節並非典型好發部位**，若考題以「最少受累」選項比較手/肘/踝/髖，正解常為**手（hand）**。",
+    "**肩（option B 為非）**：**肩部最少受累,且血友病關節病變『不』形成 osteophytes（骨刺）**——故「humeral head 增大＋osteophytes」**非表現**＝題目正解（2016-167 正解 B）。"
+  ],
+  "management": "",
+  "name": "Hemophilic Arthropathy",
+  "nameZh": "血友病關節病變",
+  "slug": "hemophilic-arthropathy",
+  "subspecialty": "MSK"
+}

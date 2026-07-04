@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**Cavernoma 的外觀像一顆爆米花（popcorn）或桑椹：內部反覆小出血形成混雜訊號，外包一圈含鐵血黃素低訊號環，GRE/SWI 上 blooming 明顯。** 通常少有周邊水腫（除非近期出血），常合併發展性靜脈異常（DVA）。強化程度是「微弱或無（minimal or no）」——並非「絕對不強化」，這個細節是考試陷阱。記憶鉤：「爆米花有鹽邊（含鐵血黃素環），偶爾還沾一點醬（minimal enhancement）」。",
+  "differentialDiagnosis": [
+    "**多發病灶分布是鑑別主軸**:cavernoma 多發時呈隨機分布且各有完整含鐵環;**澱粉樣血管病變（CAA）微出血**呈**嚴格皮質/皮質下葉狀（lobar）分布**,**高血壓性微出血**則偏**深部（基底核、視丘、腦幹、小腦）**——SWI 分布型態為鑑別關鍵。",
+    "**出血性轉移**：常有周邊水腫、不完整含鐵環、實質強化結節,且病灶隨追蹤變化;cavernoma 含鐵環完整、少水腫（除非近期出血）。",
+    "**鈣化性肉芽腫（calcified granuloma）**：CT 上鈣化、GRE/SWI 亦可 blooming,但缺乏 popcorn 混雜訊號核心與含鐵環分層。",
+    "**瀰漫性軸突損傷（diffuse axonal injury, DAI）**：外傷史 + 灰白質交界、胼胝體、腦幹的微出血,GRE/SWI blooming,但無 popcorn 核心、無含鐵環病灶;臨床情境鑑別。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1111/jon.13072.**",
+      "url": "https://doi.org/10.1111/jon.13072.**"
+    },
+    {
+      "label": "10.1038/s41598-024-54243-1.**",
+      "url": "https://doi.org/10.1038/s41598-024-54243-1.**"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Cerebral Cavernous Malformation (Cavernoma)",
+  "nameZh": "海綿狀血管畸形",
+  "slug": "cerebral-cavernous-malformation",
+  "subspecialty": "NR"
+}

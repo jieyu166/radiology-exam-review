@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**踝關節Mortise view是將足部「內轉(internally rotate/inward)」約15-20度，讓內外髁(malleoli)等高，可同時顯示「內側與外側」關節間隙——與標準AP view不同，AP view上距骨(talus)會遮蔽外髁一部分而看不清外側關節間隙。** 判讀分水嶺：**AP view（0度）僅能顯示內側關節間隙、外側被距骨部分遮蔽;Mortise view（15-20度內轉oblique）同時顯示內外側關節間隙，為評估踝關節骨折/脫位的關鍵視角;45度oblique則進一步顯示外髁及遠端腓骨。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.322115017",
+      "url": "https://doi.org/10.1148/rg.322115017"
+    },
+    {
+      "label": "10.53347/rID-40730（輔助來源",
+      "url": "https://doi.org/10.53347/rID-40730（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **三視角互補（Okanobo）**：**AP、mortise、lateral 三張踝 X 光為以 Lauge-Hansen 分類骨折之必要組合**——mortise 專責評估踝榫（mortise）之對稱性。\n- **mortise 量測（考點核心）**：**內轉 15-20° 使兩髁等高後，均勻的 medial/superior/lateral clear space（約 ≤4 mm、彼此對稱）代表 talus 於榫內正常對位**；medial clear space 增寬（>4 mm 或 > superior space）提示 deltoid 斷裂/外側移位。\n- **AP 之限制**：標準 AP（0°）距骨部分遮蔽外髁與 tibiofibular overlap，外側/後側關節間隙不易評估——故 mortise 才能同時看內外側間隙。\n- **tibiofibular 關係**：mortise 上 **tibiofibular clear space 與 overlap** 用於判斷 syndesmosis（下脛腓聯合）損傷。\n- **機轉導向（Okanobo）**：**踝損傷依受傷時足位＋變形力方向呈可預測序列**（SER 最常見）；影像徵象應回推機轉以免漏骨折/韌帶損傷。",
+  "keyPoints": [
+    "**技術定義**：Mortise view為**下肢內轉 15-20 度(internal rotation)**的攝影，使**intermalleolar line（兩髁連線）平行於偵測器**、內外髁達相同高度。",
+    "**關鍵優勢**：**同時顯示內側與外側關節間隙**——此為與標準AP view的核心差異。",
+    "**標準AP view的限制**：距骨(talus)會**遮蔽部分外髁**，導致外側關節間隙不易評估。",
+    "**45度oblique view**：進一步旋轉可更清楚顯示外髁及遠端腓骨形態。"
+  ],
+  "management": "1. **用途**：mortise view 為評估踝**骨折/脫位、osteochondral injury、關節炎關節間隙**之關鍵視角。\n2. **機轉分類（Okanobo）**：**Lauge-Hansen 依足位（旋前/旋後）＋力方向分型（SER/SAD/PER/PAB）指導治療**。\n3. **穩定度判讀**：mortise 對稱＝穩定；medial clear space 增寬或雙踝/三踝骨折＝不穩定、常需手術。\n4. **臨床決策（Ottawa）**：Ottawa ankle rules 決定是否照 X 光；懷疑 Maisonneuve 時須加照全長腓骨。\n5. **後續影像**：複雜關節內/後踝骨折、syndesmosis 損傷評估常需 CT；韌帶/軟骨損傷評估用 MRI。\n\n> [!note] 考點：關於踝關節Mortise view，何者「為真」?\n> **C（同時顯示內外側關節間隙）為真**。Mortise view是15-20度**內轉**（非90度）之oblique攝影，非單純AP view；標準AP view因距骨遮蔽外髁而看不清外側間隙（非「遮蔽外側關節」，為原選項D之細節錯誤處，D敘述屬AP view而非Mortise view的特性）。",
+  "name": "Ankle Radiograph — Mortise View Technique",
+  "nameZh": "踝關節Mortise攝影",
+  "slug": "ankle-mortise-view",
+  "subspecialty": "MSK"
+}

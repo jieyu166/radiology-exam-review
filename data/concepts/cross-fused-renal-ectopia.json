@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**交叉融合腎異位（cross-fused renal ectopia）＝兩腎融合且位於身體『同一側』，發育中未正常跨中線上升就位（輸尿管跨中線引流至對側正常膀胱三角）。與馬蹄腎（horseshoe kidney）是不同實體——馬蹄腎為最常見整體腎融合異常，但兩腎仍分居兩側、僅下極經峽部相連。** 判讀分水嶺：**cross-fused ectopia＝同側融合、輸尿管跨中線；>90% crossed ectopia 會融合（其餘為 crossed-unfused）；最常見型為 inferior crossed fusion，disc/pancake 為少見型；影像（urography/CT）『可』區分各融合型態。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s11604-015-0514-2",
+      "url": "https://doi.org/10.1007/s11604-015-0514-2"
+    },
+    {
+      "label": "10.53347/rID-12145——**兩腎融合並位於同側**",
+      "url": "https://doi.org/10.53347/rID-12145——**兩腎融合並位於同側**"
+    }
+  ],
+  "imagingFindings": "- **辨識**：一側腎窩空虛 + 對側下方見融合腎團塊 + 輸尿管跨中線 → cross-fused ectopia。\n- **vs 馬蹄腎**：馬蹄腎峽部跨中線於腸繫膜下動脈下方、兩腎各在其側；cross-fused 為同側融合。\n- **與內疝鑑別**：鋇劑檢查時空虛腎窩之腸管移位勿誤為內疝。\n- **併發**：異位/融合腎易 VUR、UPJ 阻塞、結石、感染；評估集尿系統與輸尿管走行。\n- **胚胎**：ureteric bud 跨至對側誘導對側 metanephric blastema → 交叉異位。",
+  "keyPoints": [
+    "**定義**：兩腎**融合於同一側**、發育中未正常上升；通常一輸尿管**跨過中線**引流至對側膀胱入口。發生率約 **1/1000**、**男:女 2:1**；**>90% crossed ectopia 會融合**（其餘為 crossed-unfused，同側兩獨立腎）。",
+    "**vs horseshoe kidney**：**馬蹄腎為最常見腎融合異常，但屬獨立實體**——兩腎仍分居兩側、僅下極（偶上極）經峽部相連，**非 cross-fused ectopia 的一種**。",
+    "**六型（依頻率遞減，Radiopaedia）**：**a inferior crossed fusion（最常見）**、b sigmoid、c lump、d L-shaped、e disc（pancake）、f superiorly crossed fused——**disc/pancake 為少見型，非最常見**。",
+    "**影像鑑別**：urography/CT **可**區分 inferior 與 superior 融合型（依融合腎相對位置與輸尿管路徑），並非無法區分。"
+  ],
+  "management": "1. **定義**：同側融合、輸尿管跨中線。\n2. **vs 馬蹄腎**：馬蹄腎兩側分居、獨立實體。\n3. **最常見型**：inferior crossed fusion；disc/pancake 少見。\n4. **影像可分型**：urography/CT 可區分各型。\n5. **併發**：VUR/UPJO/結石/感染需評估。\n\n> [!note] 考點：關於 Cross-fused renal ectopia，何者「正確」?\n> 「**定義為兩腎融合於同一側、發育中未能正常上升（A）**」正確。最常見型為 inferior crossed fusion（非 horseshoe kidney，後者是獨立實體）、pancake/disc kidney 為少見型（非最常見）、影像可區分不同融合型態（非無法區分）。",
+  "name": "Cross-Fused Renal Ectopia",
+  "nameZh": "交叉融合腎異位",
+  "slug": "cross-fused-renal-ectopia",
+  "subspecialty": "ABD"
+}

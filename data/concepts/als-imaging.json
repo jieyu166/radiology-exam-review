@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**ALS 有兩個 MRI 標記，一高一低：舌頭 T1 變「亮」（bright tongue）、運動皮質 T2 變「暗」（motor band）。** Bright tongue sign：舌肌因慢性去神經萎縮，脂肪取代致 T1 高訊號，是 ALS 的診斷性標記。Motor band sign：precentral gyrus 沿皮質 T2/SWI 低訊號，反映小膠質細胞鐵沉積；另有皮質脊髓束 T2 高訊號。鑑別：ALD、MLD、PML 均非 bright tongue sign 的病因。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1186/s12883-016-0672-6",
+      "url": "https://doi.org/10.1186/s12883-016-0672-6"
+    }
+  ],
+  "imagingFindings": "- **兩標記一高一低**：舌 T1「亮」（bright tongue，去神經脂肪取代）+ 運動皮質 T2/SWI「暗」（motor band，鐵沉積）——助記。\n- **CST 徵象**：**T2/FLAIR 沿皮質脊髓束（corona radiata→internal capsule 後肢→腦幹）對稱高訊號**；DTI 見 FA 下降。\n- **影像角色（Grolez 系統性回顧）**：**ALS 臨床診斷為主（常規 MRI 主要用於排除 mimics）**；**傳統 MRI 徵象敏感度有限、最疾病敏感區在運動區但腦部受累更廣**；DTI/MRS/形態學/脊髓 MRI 為研究性 biomarker（尚需標準化與大型長期世代）。\n- **DDx（白質/CST 高訊號）**：ALD/MLD/PML 等白質病變、Wallerian degeneration、腎上腺白質失養等——bright tongue 為 ALS 較特異。\n- **判讀定位**：MRI 非 ALS 之確診工具（診斷靠臨床 + EMG/El Escorial/Awaji），影像價值在**排除結構性 mimics（頸椎病變/腫瘤）與支持上運動神經元受累**。",
+  "keyPoints": [
+    "**Bright tongue sign**：**舌肌 T1 高訊號**——慢性去神經致脂肪取代;為 **ALS**（bulbar 侵犯）的標記。",
+    "**Motor band sign**：運動皮質（precentral gyrus）沿皮質的 **T2/SWI 低訊號**（小膠質鐵沉積）。",
+    "**皮質脊髓束（CST）T2/FLAIR 高訊號**（internal capsule 後肢最早），為上運動神經元變性之影像。"
+  ],
+  "management": "1. **本質（Grolez）**：**ALS 為致命、快速進展之神經退化病，主犯運動系統**（上、下運動神經元）。\n2. **臨床評估**：目前療效評估以 **ALSFRS-R、運動測試與存活**為主——為晚期、變異大之指標，故需更敏感之影像 biomarker。\n3. **影像 biomarker 現況（Grolez，116 研究回顧）**：**最疾病敏感之 MRI 型態在運動區，但腦部受累更廣**；現有 biomarker 仍不足、需大型長期 MRI + 臨床追蹤與多中心標準化 protocol。\n4. **診斷**：ALS 為臨床 + 電生理診斷；MRI 主要排除 mimics（bright tongue/motor band 支持但非必要）。\n5. **序列**：SWI/T2*（motor band 鐵）、T2/FLAIR（CST）、T1（bright tongue）、DTI（CST FA）為評估重點。\n\n> [!note] 考點：MRI「bright tongue sign」是何病的診斷標記?\n> **ALS（amyotrophic lateral sclerosis）**——舌肌 T1 高訊號（慢性去神經/脂肪取代）。ALD、MLD、PML 為其他白質病變。",
+  "name": "Amyotrophic Lateral Sclerosis (ALS) Imaging Signs",
+  "nameZh": "肌萎縮性側索硬化症",
+  "slug": "als-imaging",
+  "subspecialty": "NR"
+}

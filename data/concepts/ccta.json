@@ -1,0 +1,46 @@
+{
+  "checked": false,
+  "definition": "**CCTA 的核心價值是「排除」而非「確診」：NPV 約 99%，陰性幾乎可放心排除阻塞性冠狀動脈狹窄，避免侵入性心導管。** 但 PPV 偏低（≥70% 狹窄時僅 48%），因為鈣化 blooming 產生偽陽性——calcium score >400 會顯著拉低 specificity，陽性結果常需侵入性攝影確認。記憶鉤：「陰性信，陽性疑——CCTA 是守門員，不是裁判」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1016/j.jacc.2008.07.031",
+      "url": "https://doi.org/10.1016/j.jacc.2008.07.031"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.2020190164",
+      "url": "https://doi.org/10.1148/rg.2020190164"
+    },
+    {
+      "label": "https://doi.org/10.1148/ryct.220183",
+      "url": "https://doi.org/10.1148/ryct.220183"
+    },
+    {
+      "label": "10.3348/kjr.2020.1277",
+      "url": "https://doi.org/10.3348/kjr.2020.1277"
+    },
+    {
+      "label": "10.1148/rg.210097",
+      "url": "https://doi.org/10.1148/rg.210097"
+    },
+    {
+      "label": "10.1016/j.jcmg.2016.05.005：CAD-RADS",
+      "url": "https://doi.org/10.1016/j.jcmg.2016.05.005：CAD-RADS"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定位**：對中等前測機率、無已知 CAD 的胸痛病人，CCTA 是 rule-out 阻塞性冠狀動脈狹窄的有效非侵入替代（守門員角色）。",
+    "**診斷效能（ACCURACY trial，64-MDCT，patient-based）**：≥50% 狹窄 Sens 95% / Spec 83% / PPV 64% / NPV 99%；**≥70% 狹窄 Sens 94% / Spec 83% / PPV 48% / NPV 99%**。",
+    "**rule-out > rule-in**：99% NPV 使 CCTA 能可靠排除狹窄；但 PPV 偏低 → 陽性需侵入性攝影確認。",
+    "**鈣化陷阱**：calcium score >400 顯著降低 specificity；重度鈣化的 **blooming artifact** 造成管腔高估／偽陽性。",
+    "**報告框架**：CAD-RADS 2.0（2022）以「狹窄度（0–5）＋斑塊負荷（P1–P4）＋modifiers（N/HRP/I/S/G/E）」標準化分級與處置建議。",
+    "**技術骨架**：心率控制（β-blocker，目標 ≤60 bpm）＋舌下 nitroglycerin（掃描前 5 分鐘）；心率規律且 <65 bpm 用 prospective gating（低劑量，預設），需心室功能或心率無法控制時才用 retrospective gating。",
+    "**進階判讀**：calcium score（Agatston）量化鈣化負荷與風險分層；FFR-CT 以 ≤0.80 判定病灶特異性缺血（lesion-specific ischemia）；冠狀動脈異常起源之 interarterial（惡性）走行為猝死高風險，CT 為定義起源與走行的首選。"
+  ],
+  "management": "",
+  "name": "Coronary CT Angiography",
+  "nameZh": "冠狀動脈 CT 血管攝影",
+  "slug": "ccta",
+  "subspecialty": "CV"
+}

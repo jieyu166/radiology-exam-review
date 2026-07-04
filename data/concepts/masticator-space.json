@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**咀嚼肌間隙的內容「肌肉、骨、神經」三類都在裡面——四條咀嚼肌、下頷骨枝、V3；翼板（pterygoid plate）是間隙的骨性內側壁，是邊界而非內容，恰好是考題的陷阱選項。** 判讀分水嶺一：**內容＝咀嚼肌（temporalis、masseter、medial+lateral pterygoid）＋下頷骨枝＋V3**；判讀分水嶺二：**pterygoid plate 是蝶骨骨性邊界，不算間隙內容物**。",
+  "differentialDiagnosis": [
+    "**感染／膿瘍（最常見）**：**牙源性感染（odontogenic）** 經 mandible 蔓延至 MS 最常見;CT 見蜂窩組織炎、環狀強化膿瘍、鄰近骨髓炎或氣體。臨床 trismus（牙關緊閉）為典型表現。",
+    "**腫瘤**：原發以 **肉瘤（sarcoma；含 osteosarcoma/chondrosarcoma、橫紋肌肉瘤）** 為 MS 最具代表性原發惡性;另有 nerve sheath tumor（V3 來源 schwannoma/neurofibroma,沿神經走向梭形強化）、pseudotumor（如 benign masticator muscle hypertrophy 良性肌肥大,須與腫瘤鑑別）。",
+    "**周神經擴散（perineural spread, PNS）沿 V3**：頭頸惡性腫瘤（尤其腺樣囊狀癌 adenoid cystic carcinoma、鱗狀細胞癌）沿 V3 逆行至 foramen ovale → Meckel cave;影像線索＝沿下頷骨內側面或 V3 的異常強化、MS 不對稱活性、foramen ovale 擴大或脂肪墊消失。PNS 與存活率下降、局部復發及轉移風險升高相關。",
+    "**去神經（denervation）肌肉變化**：V3 受損→其支配的咀嚼肌出現去神經改變（見下節）。為「假性病灶」最常見來源之一。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.336135501"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3174/ajnr.A3290"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.jobcr.2025.02.008"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Masticator Space",
+  "nameZh": "咀嚼肌間隙",
+  "slug": "masticator-space",
+  "subspecialty": "NR"
+}

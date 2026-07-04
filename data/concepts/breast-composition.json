@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**BI-RADS 2013 的最大改版：把緻密度的「百分比估計」換成 a–d 四級主觀描述，重點改成強調「遮蔽效應」而非比例數字。** a（幾乎全脂肪）→ b（散在纖維腺體）→ c（異質性緻密，可遮蔽小腫塊）→ d（極度緻密，降低乳攝敏感度）；記憶鉤：**a/b/c/d 像燈光漸暗——越後面越不容易找到癌**。考題陷阱：「需報告纖維腺體佔 0–25%」是第 4 版做法，第 5 版已廢除。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.19.21994：dense",
+      "url": "https://doi.org/10.2214/AJR.19.21994：dense"
+    },
+    {
+      "label": "10.1016/j.jacr.2025.xxxxx（S1546-1440(25",
+      "url": "https://doi.org/10.1016/j.jacr.2025.xxxxx（S1546-1440(25"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**四級（a–d）**：",
+    "**a**：almost entirely fatty（幾乎全脂肪）。",
+    "**b**：scattered areas of fibroglandular density。",
+    "**c**：heterogeneously dense（可遮蔽小腫塊）。",
+    "**d**：**extremely dense（降低 mammography 敏感度）**。",
+    "**2013 的關鍵改變**：**移除前版的百分比估計（quartile 0–25% 等），改用主觀描述**;強調緻密組織的**遮蔽效應**而非比例。"
+  ],
+  "management": "",
+  "name": "Breast Composition / Density (BI-RADS 2013)",
+  "nameZh": "乳房緻密度",
+  "slug": "breast-composition",
+  "subspecialty": "Breast"
+}

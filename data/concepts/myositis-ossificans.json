@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**創傷後骨化性肌炎好發四肢近端前側肌群（股四頭肌、肱肌），成熟後呈「外熟內嫩」的 zonal phenomenon，與骨旁骨肉瘤的「外嫩內熟」正好相反。** 判讀分水嶺：**好發部位＝proximal/anterior 肢體肌群（股四頭肌、肱肌）**；成熟期**周邊骨化成熟、中央未成熟**（zonal pattern）；與骨皮質間有透亮帶（cleavage plane），為良性線索。記憶鉤：MO「由外往內熟」＝由外往內讀；骨旁骨肉瘤相反（由中心往外熟）。",
+  "differentialDiagnosis": [
+    "**Parosteal osteosarcoma（骨旁骨肉瘤,最重要 DDx）**：源於骨表面,**寬基底黏附骨頭、與骨膜連續**,病灶與骨皮質間可有透亮裂隙（string sign）但本質黏骨;**中央緻密、反向 zonal**;鈣化**在早期 X 光即明顯**（MO 鈣化則延遲出現)。",
+    "**Extraskeletal osteosarcoma（骨外骨肉瘤）**：**離心式鈣化(中央往周邊)**、周邊鈣化紊亂反映浸潤性生長;追蹤時**病灶周邊水腫持續或增加**(MO 則漸減)。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "骨化性肌炎是**創傷後異位骨化（heterotopic ossification）**,影像判讀的核心是辨識**zonal phenomenon（分帶現象）**並掌握**隨時間演變**的特性——這兩點是和惡性腫瘤（尤其骨肉瘤）鑑別的關鍵。",
+  "keyPoints": [
+    "**好發部位**：兒童與成人創傷後皆好發**四肢（extremities）,尤其近端與前側肌群**;**股四頭肌（quadriceps femoris）與肱肌（brachialis）最常受累**。",
+    "**Zonal phenomenon**：成熟期**周邊骨化成熟、中央未成熟**（與骨肉瘤相反）。",
+    "與骨皮質間常有透亮帶（cleavage plane）。"
+  ],
+  "management": "",
+  "name": "Myositis Ossificans",
+  "nameZh": "骨化性肌炎",
+  "slug": "myositis-ossificans",
+  "subspecialty": "MSK"
+}

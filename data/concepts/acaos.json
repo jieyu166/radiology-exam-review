@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**ACAOS的猝死風險核心是「走行路徑」而非哪一側起源——interarterial course（尤其合併intramural segment）是與猝死最一致相關的異常，且反直覺地：右側ACAOS雖然發生率是左側的3倍，但左側ACAOS與猝死的關聯性反而更強。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2017160124（accessed",
+      "url": "https://doi.org/10.1148/rg.2017160124（accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**四種走行路徑**：ACAOS可經以下路徑到達其供應之心肌區域：**interarterial（動脈間）、transseptal（或稱subpulmonic，經隔膜/肺動脈瓣下）、retroaortic（主動脈後）、prepulmonic（肺動脈前）**。",
+    "**與猝死最一致相關之異常**：**interarterial course**（尤其合併**intramural segment，管壁內走行段**）是與猝死(SCD)最一致相關之解剖異常。",
+    "**左右側發生率與猝死關聯性之反直覺對比**：**右側ACAOS發生率約為左側的3倍**（右側較常見），但**左側ACAOS與猝死之關聯性較強**（右側關聯性較弱）——即「右側ACAOS較常見於SCD比左側更相關」為錯誤敘述，實際相反。",
+    "**高風險解剖特徵**：**裂縫狀開口(slitlike orifice)、起源處銳角(acute angle of origin)、管壁內走行段(intramural segment)**皆為賦予較高猝死風險之解剖特徵。",
+    "**retroaortic與prepulmonic路徑之風險**：此二路徑之猝死風險**極低至趨近於零**。",
+    "**臨床表現**：合併interarterial course之ACAOS病患**可完全無症狀**。",
+    "**「惡性(malignant)冠狀動脈異常」之定義範疇**：常指LM或RCA異常起源於對側竇並經**interarterial course**（主動脈與肺動脈幹間）走行者；**單一左冠狀動脈(single left coronary artery)本身並非此惡性異常之定義範疇**——其風險取決於其分支之實際走行路徑（是否合併interarterial/intramural），而非「single coronary artery」此診斷本身。"
+  ],
+  "management": "",
+  "name": "Anomalous Coronary Artery from Opposite Sinus (ACAOS)",
+  "nameZh": "冠狀動脈對側竇起源異常",
+  "slug": "acaos",
+  "subspecialty": "CV"
+}

@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**預防顯影劑誘發腎病變(CIN)目前最廣被接受的方法是「靜脈輸液水化(hydration)」——現行實證醫學已不支持常規使用furosemide（可能因利尿造成有效血容積下降而增加腎損傷風險）或類固醇作為預防手段；血液透析(hemodialysis)僅用於已發生腎衰竭之後的處理，非預防性介入。** ⚠️ 官方詳解原標示答案C（Furosemide），但頁緣以紅筆加註「A??」表達對此答案的疑慮（現行文獻與臨床指引皆以hydration為CIN預防的主流共識，furosemide非公認的預防方法甚至可能有害），此更正本身標示為不確定（雙問號），建議醫師對照原文全段或最新指引確認正確答案。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**現行共識（第一線）**：**靜脈水化(hydration)**——通常以生理食鹽水或碳酸氫鈉溶液於術前術後給予，為預防CIN**最廣被接受**的方法。",
+    "**不建議常規使用**：**Furosemide（利尿劑）**——舊有文獻曾探討其角色，但現行實證認為利尿可能造成有效血容積下降、反而**增加**腎損傷風險，非推薦的預防方法。",
+    "**Steroid（類固醇）**：無充分實證支持用於CIN預防。",
+    "**Hemodialysis（血液透析）**：屬**治療性**介入（已發生腎衰竭後之處理方式），非**預防性**手段。",
+    "**口服 vs 靜脈水化（oral vs IV，Nat Rev Nephrol 2017）**：CIAKI 預防指引建議以生理食鹽水靜脈輸液擴容（術前 6–12 h 開始、術後維持 4 h）；門診病人無法完成此類靜脈輸液流程時可改用**口服水化（oral hydration）**，且**口服水化在預防 CIAKI 上至少與靜脈生理食鹽水同等有效（at least equally effective）**——以低滲透壓液體口服水化可快速稀釋血管內及腎小管腔對比劑濃度。故上述四項敘述皆為正確（該題答案為「none／以上皆非錯誤」）。"
+  ],
+  "management": "",
+  "name": "Contrast-Induced Nephropathy (CIN) Prevention",
+  "nameZh": "顯影劑誘發腎病變預防",
+  "slug": "contrast-induced-nephropathy-prevention",
+  "subspecialty": "IR"
+}

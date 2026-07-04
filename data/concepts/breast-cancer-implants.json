@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**植入物遮住腺體、降低乳攝敏感度，所以隆乳婦女被找到的癌反而多是「摸得到」的可觸及腫塊——而不是更多不可觸及癌。** 整體分期分布與一般篩檢族群相近，影像多呈不規則、邊界不清的強化腫塊；subglandular 位置的植入物，腫瘤較易沿其輪廓擴散。記憶鉤：**「植入物遮蔽 → 越晚發現 → 摸得到才報告 → 不是更多 nonpalpable」**；植入物本身未被證實增加乳癌風險。",
+  "differentialDiagnosis": [
+    "**radial folds（放射狀皺褶）勿誤為破裂**：正常的外殼內摺呈與包膜相連的低訊號線，**不應誤判為 subcapsular line／linguine**。鑑別關鍵：**破裂時外殼兩側都見得到矽膠訊號**，而 radial fold 僅單側；善用軸位＋矢狀位多平面對照確認。",
+    "**water droplet／\"salad oil\" sign**：包膜內正常少量水分或矽膠—鹽水混合，屬正常，勿過度判讀。",
+    "**BIA-ALCL（植入物相關退行性大細胞淋巴瘤）**：與**織紋面（textured）植入物**相關；典型表現為植入術後**晚發性 peri-implant 積液（late seroma）**，少數為包膜旁腫塊或腋下淋巴結腫大。超音波為首選評估工具；對 textured 植入物之晚發積液／腫塊務必納入鑑別，影像導引抽吸送細胞學＋流式細胞免疫分型確診（細胞學敏感度有限、可能偽陰）。",
+    "**篩檢限制總結**：植入物遮蔽腺體 → 乳攝敏感度下降 → 偵測到的癌偏向可觸及；矽膠破裂在乳攝上常無法判讀，須以 MRI／超音波補強。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.11.7216",
+      "url": "https://doi.org/10.2214/AJR.11.7216"
+    },
+    {
+      "label": "10.1148/rg.210096",
+      "url": "https://doi.org/10.1148/rg.210096"
+    },
+    {
+      "label": "10.1148/rg.2017160086",
+      "url": "https://doi.org/10.1148/rg.2017160086"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**分期分布**：與一般篩檢族群**相近**（implants 未顯著惡化分期）。",
+    "**臨床表現**：植入物降低乳攝敏感度,故偵測到的癌**多為可觸及(palpable)**;**並非有更高比例的『不可觸及(nonpalpable)』浸潤癌**。",
+    "**影像**：多數為**不規則、非邊界清楚的強化腫塊**。",
+    "**植入物位置**：**subglandular(腺體下)** 植入物較 subpectoral 易見**腫瘤沿植入物輪廓擴散**。",
+    "**風險**：meta-analysis 未證實植入物增加乳癌發生率。"
+  ],
+  "management": "",
+  "name": "Breast Cancer in Women with Implants",
+  "nameZh": "隆乳乳癌",
+  "slug": "breast-cancer-implants",
+  "subspecialty": "Breast"
+}

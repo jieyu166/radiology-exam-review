@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**「Double PCL sign（雙重後十字韌帶徵象）」高度特異性指向「桶柄狀撕裂（bucket-handle tear）」——撕裂的半月板碎片（內側半月板占 80%）翻轉移位至髁間窩、於矢狀面位於 PCL 之『前下方（anteroinferior）』，形似「兩條 PCL」。** 判讀分水嶺：**Double PCL sign 幾乎只見於 ACL 完整（intact）者（完整 ACL 限制碎片翻轉）；內側半月板碎片移前上、外側碎片移後下；Double ACL sign（flipped meniscus）＝碎片平行/前於 ACL，內外側皆可。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1234（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1234（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **辨識雙 PCL**：矢狀面 PCL 前下方見另一條低訊號帶（翻轉之桶柄碎片）＝bucket-handle + 完整 ACL。\n- **輔助徵象**：absent bow-tie sign（正常應 ≥2 個 bow-tie 節段，桶柄時 <2）、fragment-in-notch、disproportionate posterior horn。\n- **內外側方向**：內側→前上、外側→後下，有助定位撕裂來源。\n- **合併 ACL 評估**：double PCL 提示 ACL 完整；若 ACL 撕裂則碎片翻轉型態改變。\n- **陷阱**：勿把翻轉碎片誤為正常 PCL/ACL 或游離體；追蹤來源半月板缺損。\n- **鑑別（DDx）**：**flipped tear**（碎片非前後皆附著、多後端完全斷裂並翻至前角前方）、**關節內游離體**（無半月板缺損）、**Humphry 韌帶**（LM 後角→髁間窩上內壁）、**慢性 ACL 撕裂殘端**（水平躺於髁間窩）。\n- **診斷 pearl 與治療**：**確認碎片前後兩端皆附著於周邊殘餘後才診斷 BHT**；截斷/變小之半月板要主動找移位碎片；**紅區（周邊 <3–5 mm 血管區）可修復、中央無血管區則切除**；**medial BHT 常合併 ACL 損傷、需及時手術**（延遲降低修復成功率）。",
+  "keyPoints": [
+    "**Double PCL sign**：**桶柄狀撕裂（bucket-handle，內側半月板 80%）**碎片翻轉至髁間窩、矢狀面位於 **PCL 前下方**，形成類似「兩條 PCL」之高度特異徵象。",
+    "**前提**：**幾乎只見於 ACL 完整者**——需完整 ACL 限制碎片、避免過度翻轉。",
+    "**Double ACL sign（flipped meniscus）**：內/外側半月板桶柄碎片移位至髁間窩、平行/前於 ACL，內外側皆可造成。",
+    "**移位方向規律**：**外側**半月板桶柄碎片移**後下方**；**內側**桶柄碎片移**前上方**。",
+    "**Jack and Jill lesion**：內外側半月板**同時**桶柄撕裂，冠狀面呈 **quadruple sign**。",
+    "**本質**：BHT＝廣泛之**垂直縱向撕裂**、游離緣碎片向髁間窩移位、**碎片保留前後兩端附著**；若一端（多為前端）斷裂＝**broken BHT**。",
+    "**Double PCL 之敏感度**：對 BHT **具特異性但「不特別敏感」**；**LM BHT 若出現 double PCL，反而提示 ACL 可能已撕裂**（完整 ACL 正常會阻擋外側碎片入髁間窩）。",
+    "**最佳序列**：**冠狀面最準確**（見 body 截斷/變小、碎片入髁間窩、可追至前後附著）。"
+  ],
+  "management": "1. **Double PCL**：bucket-handle（內側 80%）碎片於 PCL 前下方。\n2. **需完整 ACL**：幾乎只見於 ACL intact 者。\n3. **方向**：內側前上、外側後下。\n4. **Double ACL**：flipped meniscus 平行 ACL，內外側皆可。\n5. **Jack and Jill**：雙側桶柄 → quadruple sign。\n\n> [!note] 考點：Double PCL sign高度特異性指向哪種半月板撕裂?\n> **Bucket-handle tear（A）**——半月板（內側 80%）桶柄狀撕裂碎片移位至髁間窩、位於 PCL 前下方。此徵象幾乎只見於 ACL 完整的病人（完整 ACL 限制碎片翻轉）。",
+  "name": "Meniscal Tear — Double PCL/ACL Sign & Bucket-Handle Tear",
+  "nameZh": "半月板桶柄狀撕裂",
+  "slug": "meniscal-tear-mri-signs",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,42 @@
+{
+  "checked": false,
+  "definition": "**齒突骨折 Anderson-D'Alonzo 分型從上往下記：I 尖（撕脫、穩定、罕見）→ II 基部（最常見、不穩定、血供差易 nonunion）→ III 延入 C2 椎體（較易癒合）。** 判讀分水嶺一：**Type II 骨折線位於齒突「基部」橫切，是最常見且臨床最重要的型態**；判讀分水嶺二：**Type II 血供差（基部為分水嶺區）→ nonunion 風險高，常需手術固定**。記憶鉤：骨折線越低越穩定——II 在腰（基部）最危險，III 進椎體反而癒合較好。",
+  "differentialDiagnosis": [
+    "**Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。",
+    "**Mach 效應（假骨折）**：張口位上枕骨後緣、後弓或牙齒與齒突重疊，因視覺邊緣增強形成貫穿齒突基部的透亮線、模擬 type II 骨折；其特徵是延伸超出骨緣、無皮質中斷對應，必要時以 CT 釐清。",
+    "兒童 **subdental synchondrosis**（軟骨結合，約 5–7 歲前可見）位於齒突基部，邊緣規則、有硬化緣，勿誤判為骨折。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.23750/abm.v92iS5.11877"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3171/2023.6.SPINE22920"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1093/neuros/nyx546"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.neuchi.2020.11.014"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3174/ajnr.A3962"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s001040050774"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Odontoid (Dens) Fracture",
+  "nameZh": "齒突骨折",
+  "slug": "odontoid-fracture",
+  "subspecialty": "MSK"
+}

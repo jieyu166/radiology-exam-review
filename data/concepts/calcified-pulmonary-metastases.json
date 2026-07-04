@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**肺轉移會鈣化，通常是因為原發腫瘤「會造骨、含軟骨、產黏液、或像甲狀腺鈣化」——記住這四個機轉就能推出清單。** 成骨：osteosarcoma；軟骨：chondrosarcoma、synovial sarcoma；黏液：大腸/卵巢/乳房 mucinous adenocarcinoma；甲狀腺：papillary/medullary carcinoma。**HCC 不在清單**——雖然 HCC 本身肝內有鈣化，但肺轉移通常不鈣化，是考題的「除外」選項。",
+  "differentialDiagnosis": [
+    "類別",
+    "良性肉芽腫",
+    "良性腫瘤",
+    "類癌",
+    "原發肺癌",
+    "鈣化轉移",
+    "沉積／代謝",
+    "塵肺／纖維化"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.240202",
+      "url": "https://doi.org/10.1148/rg.240202"
+    },
+    {
+      "label": "10.1148/rg.240110",
+      "url": "https://doi.org/10.1148/rg.240110"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Calcifying Pulmonary Metastases",
+  "nameZh": "鈣化肺轉移",
+  "slug": "calcified-pulmonary-metastases",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**肌肉內黏液瘤＝良性黏液性軟組織腫瘤，intramuscular（肌肉內）型較 intermuscular（肌間）型常見；T2 明顯高訊號（黏液成分），『會』輕至中度強化（瀰漫或厚周邊/間隔型），可見 bright cap sign；多發者連結 Mazabraud 症候群。** 判讀分水嶺：**T2 很亮、T1 低訊號；增強後多呈輕度（~76%）至中度（~24%）強化——瀰漫型 57%／厚周邊及間隔型 43%（故『完全不強化』為錯）；周邊脂肪帽（bright cap/rim sign）與周圍水腫為特徵；多發＋纖維異常增生＝Mazabraud，並注意 McCune-Albright 連結。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-30532——**罕見良性間葉源軟組織黏液瘤、女多（~57%",
+      "url": "https://doi.org/10.53347/rID-30532——**罕見良性間葉源軟組織黏液瘤、女多（~57%"
+    }
+  ],
+  "imagingFindings": "- **T2 極亮 + 輕度強化**：勿因 T2 很亮就當純囊；有實質強化與間隔即非單純囊腫。\n- **bright cap/rim**：病灶上下極脂肪帽、周圍水腫為線索。\n- **多發找骨病**：多發黏液瘤 → 掃描找纖維異常增生（Mazabraud）。\n- **良性但需切**：影像典型仍常切除確診、排除黏液樣肉瘤。\n- **陷阱**：「注射對比劑後通常無強化」為錯——會輕至中度強化。",
+  "keyPoints": [
+    "**本質/流病**：**良性間葉源黏液性軟組織腫瘤**，罕見（~1/100 萬），**女多（~57%）、40–70 歲**、深部位於骨骼肌內、無惡性潛能。",
+    "**型態分布**：**intramuscular（肌肉內）型較 intermuscular（肌間）型常見**；大小 1–17 cm。",
+    "**訊號**：T1 低、**T2 明顯高訊號**（黏液基質、含水多）。",
+    "**強化**：**並非無強化**——增強 MRI 多呈**輕度（76%）至中度（24%）強化**，型態為**瀰漫（57%）或厚周邊及間隔（43%）**。",
+    "**特徵徵象**：周邊**脂肪帽（bright cap sign）**、周圍水腫；超音波約 85% 可見病灶周邊高回音環。",
+    "**關聯**：多發者注意 **Mazabraud 症候群**（多發黏液瘤＋纖維異常增生）、**McCune-Albright**。"
+  ],
+  "management": "1. **良性黏液瘤**、女多、40–70 歲。\n2. **intramuscular > intermuscular**。\n3. **T2 明顯高訊號、T1 低**。\n4. **會輕至中度強化**（瀰漫/厚周邊間隔）。\n5. **多發＝Mazabraud**（＋纖維異常增生）。\n\n> [!note] 考點：關於 musculoskeletal myxoma，何者「為非」?\n> 「**注射對比劑後通常無強化**」為非——myxoma **會輕至中度強化**（瀰漫或厚周邊/間隔型）。intramuscular 較 intermuscular 多、T2 明顯高訊號、bright cap sign 可見皆正確。",
+  "name": "Intramuscular (Musculoskeletal) Myxoma",
+  "nameZh": "肌肉內黏液瘤",
+  "slug": "intramuscular-myxoma",
+  "subspecialty": "MSK"
+}

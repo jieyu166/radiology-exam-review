@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**胸腔淋巴瘤兩型皆好發於前上縱膈（血管前與氣管旁淋巴結），治療前鈣化皆罕見；Hodgkin disease（HD）胸腔侵犯比例更高、CT 為初始分期與追蹤首選；Non-Hodgkin lymphoma（NHL）胸腔內侵犯約半數新診斷病人可見。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **HD vs NHL 分布重疊**：兩者皆好發前上縱膈、皆治療前罕見鈣化，主要鑑別仍依賴病理（Reed-Sternberg 細胞見於 HD）而非影像型態本身；影像角色在於分期範圍評估與治療反應監測。\n- **現代治療反應評估補充**：使用免疫調節劑（如 checkpoint inhibitors）治療期間，影像上疑似疾病惡化（PD）但臨床未惡化時，可能為 flare 或假性惡化（pseudo-progression），屬「不確定反應（indeterminate response, IR）」，建議於 12 週內切片或複查影像確認。",
+  "keyPoints": [
+    "**好發部位**：上縱膈淋巴結（血管前與氣管旁）於約 **75%** 病人為主要侵犯部位。",
+    "**胸腔內侵犯比例**：約 **50%** 新診斷病人有胸腔內侵犯。",
+    "**鈣化**：治療前罕見（rarely seen prior to treatment）。"
+  ],
+  "management": "",
+  "name": "Thoracic Lymphoma — Hodgkin vs Non-Hodgkin Disease",
+  "nameZh": "胸腔內何杰金氏與非何杰金氏淋巴瘤",
+  "slug": "thoracic-lymphoma-hd-nhl",
+  "subspecialty": "CH"
+}

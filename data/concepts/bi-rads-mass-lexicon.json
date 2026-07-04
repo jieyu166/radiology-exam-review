@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**BI-RADS 描述乳房腫塊用三軸：shape（形狀）、margin（邊緣）、density（密度）——邊緣是良惡性判讀最關鍵的一軸。** Shape 的考試陷阱：oval 允許有 2–3 個 undulations，有三個 undulations 仍叫 oval，不叫 irregular。Margin 記憶鉤：只有 circumscribed（清楚銳利）是良性傾向；microlobulated（短周期波浪、short-cycle undulations）、indistinct、spiculated 皆屬可疑。描述術語用「mass」，「nodule」不是 BI-RADS 認可的詞彙。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://radiologyassistant.nl/breast/bi-rads/bi-rads-for-mammography-and-ultrasound-2013",
+      "url": "https://radiologyassistant.nl/breast/bi-rads/bi-rads-for-mammography-and-ultrasound-2013"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040135/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5040135/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "BI-RADS Mass Lexicon (Shape, Margin, Density)",
+  "nameZh": "乳房腫塊術語",
+  "slug": "bi-rads-mass-lexicon",
+  "subspecialty": "Breast"
+}

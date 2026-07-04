@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**泌尿生殖道結核抓兩件事:(1) 診斷『陷阱』——胸片正常不能排除（僅 30–50% 胸片異常、<5% 同時有活動性肺 TB）、尿培養特異度 100% 但敏感度僅約 65%（偽陰性 ~35%,絕非「<3%」）;(2) 影像是『由上而下的破壞鏈』——腎乳頭壞死→不規則 caliectasis→鈣化（~35%）→末期 putty kidney/autonephrectomy,輸尿管 beaded/pipestem 狹窄,膀胱纖維收縮成 thimble bladder。** 判讀分水嶺一：**胸片正常≠無 urogenital TB;尿培養偽陰性 ~35%（非 <3%）為高頻考點**;判讀分水嶺二：**經典影像是『降行性』腎→輸尿管→膀胱破壞;末期＝autonephrectomy（鈣化無功能腎）與 thimble bladder**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiographics.20.2.g00mc12449",
+      "url": "https://doi.org/10.1148/radiographics.20.2.g00mc12449"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**與肺結核關係**：**<5% 有同時活動性肺 TB;僅 30–50% 胸片有肺異常**（陰性胸片/結核菌素不能排除）。",
+    "**尿培養**：最確定的特異診斷,**敏感度約 65%（偽陰性 ~35%,非 <3%）、特異度 100%**;取多次晨尿。",
+    "**病灶範圍**：腎為主（占肺外結核 ~15–20%）,可累及 collecting system（calyces/腎盂/輸尿管/膀胱/尿道）、攝護腺、陰囊（睪丸/附睪/精囊/輸精管）、女性輸卵管（tuberculous PID）。",
+    "**腎影像**：",
+    "最早＝**乳頭壞死（papillary necrosis）→ 不規則/不均 caliectasis**;cavity 可與集尿系統相通。**IVU 最早徵象為「moth-eaten calix」（蟲蝕狀腎盞，因侵蝕所致）**；infundibular stenosis 可致該腎盞顯影不完全，呈**「phantom calix」（幻影腎盞）**。",
+    "**鈣化 ~35%（25–45%）**，型態可為 amorphous／granular／curvilinear／**lobar（即 putty kidney 之葉狀鈣化型態）**;末期＝**putty kidney／autonephrectomy（鈣化、無功能腎）**。",
+    "**狹窄**：infundibular、pelviureteric、多發輸尿管狹窄 → 進行性 hydronephrosis、實質變薄。",
+    "**IVP/IVU 約 90% 異常**（僅 ~10% 正常）。",
+    "**輸尿管**：慢性 fibrotic 狹窄與擴張交替 → **beaded（串珠）／corkscrew（螺旋狀）外觀**;縮短 → **pipestem ureter**；輸尿管壁鈣化少見，須與輸尿管結石、schistosomiasis 鈣化鑑別。",
+    "**膀胱**：CT 見膀胱壁增厚/變形、強化，最常見為**膀胱容量縮小**；可見多發肉芽腫造成之 filling defect;末期纖維化收縮 → **thimble bladder（小膀胱）**、可伴膀胱輸尿管逆流（VUR）。**膀胱壁鈣化罕見**，鑑別含 schistosomiasis、cytoxan 性膀胱炎、放療後鈣化、鈣化性膀胱癌、異物包殼。",
+    "**生殖器結核**：**女性**——子宮內膜沾黏合併子宮腔變形／閉塞（可擬似 **Asherman 症候群**）、輸卵管多處狹窄阻塞、附件區鈣化淋巴結為診斷準則；**男性**——攝護腺或精囊侵犯可致壞死、鈣化、乾酪化與空洞化。",
+    "**影像角色**：評估侵犯範圍/嚴重度、追蹤治療反應、發現併發症;**CT 對 GI/GU TB 特別有用**。"
+  ],
+  "management": "",
+  "name": "Urogenital Tuberculosis",
+  "nameZh": "泌尿生殖道結核",
+  "slug": "urogenital-tuberculosis",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**PIE＝氣體由破裂肺泡進入肺間質與淋巴管，好發『新生兒』（早產、機械通氣/CPAP 的 air-block 現象，barotrauma）。** 判讀分水嶺：**新生兒/早產接受正壓通氣者；氣體沿支氣管血管周圍間質積聚（線狀/囊狀透亮）；NICU 發生率 2–3%、早產兒升至 20–30%、低體重最高；可進展為 pseudocyst、氣胸、縱膈氣腫；偶見於成人。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1939（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1939（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **最佳線索（STATdx）**：**插管早產兒肺內新出現「bubbly」囊狀或線狀透亮**、大小常均一、常自肺門放射狀、背景多為 noncompliant 肺（尤 SDD）；範圍單葉至雙側廣泛。\n- **與 air bronchogram 區分（STATdx，關鍵）**：**PIE 透亮不循正常支氣管走行、可向周邊變寬**（air bronchogram 循支氣管、向周邊變窄）。\n- **CT dot-dash sign（STATdx）**：**persistent PIE 於氣體積聚內見肺血管呈線狀（dash）或圓點（dot）軟組織密度、82% 呈 dot-dash pattern**——先天囊性肺病灶不會有此徵，助鑑別。\n- **persistent PIE（STATdx）**：**最常犯左上葉、可成 mass-like 囊/多囊病灶壓迫致惡化**；病理為纖維化囊壁襯多核巨細胞（對長期氣體滯留反應）。\n- **DDx（STATdx）**：**surfactant deficiency（可底層並似 PIE）、air bronchogram（循支氣管）、BPD（>1 月、漸進、CT 血管不被間質氣包繞）、congenital lobar overinflation（肺葉結構保留無離散囊）、CPAM、pleuropulmonary blastoma、meconium aspiration（繩索狀+air-trapping 可併 PIE）**。\n- **陷阱**：air-block 好發新生兒而非老年；PIE 起病突然、BPD 漸進（年齡+速度助鑑別）。",
+  "keyPoints": [
+    "**機轉**：肺泡過度膨脹破裂 → 氣體進入**肺間質與淋巴管**沿支氣管血管鞘；**air-block／barotrauma，好發新生兒（早產、機械通氣/CPAP）**，非老年。",
+    "**流行病學**：NICU 新生兒 **2–3%**、**早產兒升至 20–30%**、**低出生體重最高**。",
+    "**危險因子**：機械通氣/CPAP、肺順應性下降、早產、低體重、胎便吸入、肺炎。",
+    "**臨床**：通氣中病人**突然惡化**（亦可為偶見發現）。",
+    "**併發**：可形成 **pseudocyst、氣胸、縱膈氣腫**；典型**雙側對稱**。"
+  ],
+  "management": "1. **機轉（STATdx）**：**肺泡壓升高過度膨脹（barotrauma+volutrauma）→ 肺泡基底膜破裂 → 氣入間質**；早產兒間質血管周圍結締組織豐富限制進一步擴散、氣困於此致線狀/bubbly；ball-valve 使囊增大。\n2. **好發族群（STATdx）**：**早產兒、多於出生頭 10 天、正壓機械通氣者風險最高（未通氣者罕發）**；亦罕見於他肺病新生兒、成人（底層肺病/Valsalva）；無性別/種族偏好。\n3. **流行病學（STATdx）**：**NICU 2-3%、SDD 早產兒 20-30%**；隨適當族群使用表面張力素而下降。\n4. **臨床（STATdx）**：**常無症狀於 NICU 例行胸片偶見**；氣胸致通氣困難、氣體交換受損；併發（氣胸/縱膈氣/心包氣/順應性下降/氣栓、腦室內出血率增）。\n5. **治療（STATdx）**：**多數以支持性 + 通氣調整（降平均氣道壓、改高頻通氣）暫時性緩解**；additional（選擇性插管健側、患側 down decubitus、患側主支氣管暫時球囊阻塞）；大囊致無法控制之窘迫才手術切除。\n\n> [!note] 考點：關於 PIE，何者「錯誤」?\n> 「**air-block 現象好發老年**」錯誤——好發**新生兒（早產/機械通氣）**。通氣中突然惡化、可併 pseudocyst/氣胸、雙側對稱皆正確。",
+  "name": "Pulmonary Interstitial Emphysema (PIE)",
+  "nameZh": "肺間質氣腫",
+  "slug": "pulmonary-interstitial-emphysema",
+  "subspecialty": "CH"
+}

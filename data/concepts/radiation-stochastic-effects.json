@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**機率效應（致癌、遺傳）無劑量閾值——劑量越高「發生機率」越高，但一旦發生，嚴重度不隨劑量而變，這正是與確定效應（有閾值、嚴重度隨劑量增）的根本差異。** 常用風險係數：急性曝露或年有效劑量達 100 mSv 時，每萬人約 55 人可能因此得到癌症、2 人可能出現遺傳效應。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：機率效應包含**致癌效應**與**遺傳效應**，**沒有劑量低限值（no threshold）**，劑量越大則「發生的機率」越高，但一旦發生，其嚴重度與劑量無關（不同於確定效應）。",
+    "**風險係數（100 mSv 急性曝露或年有效劑量）**：每 10000 人中約有 **55 人**可能因此得到癌症；每 10000 人中約有 **2 人**可能出現遺傳效應。",
+    "**與確定效應對比**：確定效應（如 ARS、白內障、不孕）**有劑量閾值**，超過閾值才發生、嚴重度隨劑量上升；機率效應**無閾值**。詳見 [[radiation-deterministic-effects]]。"
+  ],
+  "management": "",
+  "name": "Radiation Stochastic Effects (機率效應)",
+  "nameZh": "機率效應",
+  "slug": "radiation-stochastic-effects",
+  "subspecialty": "Physics"
+}

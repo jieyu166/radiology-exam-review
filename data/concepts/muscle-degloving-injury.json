@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**肌肉內脫套傷（intramuscular degloving injury）特別好發於雙羽狀肌（bipennate muscle）——內側肌腱複合體被外層肌肉「脫套」分離、被液體填充分開，最經典的例子就是rectus femoris（股四頭肌之一，具中央腱膜的雙羽狀構造）。記憶鉤：這類損傷需要肌肉本身有「內外兩層＋中央腱膜」的雙羽狀構造才會發生，非雙羽狀肌（如半腱肌、內收大肌、腓腸肌內側頭）不會呈現此特定型態。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2018170072（2018",
+      "url": "https://doi.org/10.1148/rg.2018170072（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發肌肉**：**Rectus femoris（股直肌）**——具雙羽狀（bipennate）構造，中央腱膜（central aponeurosis）位於內側肌腱複合體（inner myotendinous complex）中央，故可呈現肌肉內脫套傷型態。",
+    "**非好發肌肉**：Semitendinosus、Adductor Magnus、Medial Gastrocnemius——皆非典型雙羽狀肌構造，不呈現此特定脫套傷型態。",
+    "**影像表現（MRI）**：脂肪抑制T2壓脂序列見**內側雙羽狀肌腱複合體與外層單羽狀部分之間被液體分離**（可達雙羽狀部分周徑100%）；內側雙羽狀部位可見**肌肉內水腫**（訊號增高）；中央腱膜（肌肉內隔膜）位於內側肌肉中央；可見**回縮之內側雙羽狀肌肉**。"
+  ],
+  "management": "",
+  "name": "Intramuscular Degloving Injury (Bipennate Muscle)",
+  "nameZh": "肌肉內脫套傷",
+  "slug": "muscle-degloving-injury",
+  "subspecialty": "MSK"
+}

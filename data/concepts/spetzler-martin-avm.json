@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Spetzler-Martin AVM 分級系統依據三項特徵：(1) nidus 大小、(2) 鄰近腦組織 eloquence、(3) venous drainage 型態（superficial vs deep）。Venous ectasia 非評分項目。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Size of nidus：<3cm=1, 3-6cm=2, >6cm=3",
+    "Eloquence of adjacent brain：non-eloquent=0, eloquent=1",
+    "Venous drainage：superficial only=0, deep=1",
+    "總分 1-5，分數越低手術預後越好",
+    "**Venous ectasia 非 SM 評分要素**（常見陷阱）"
+  ],
+  "management": "",
+  "name": "Spetzler-Martin AVM Grading",
+  "nameZh": "AVM分級",
+  "slug": "spetzler-martin-avm",
+  "subspecialty": "NR"
+}

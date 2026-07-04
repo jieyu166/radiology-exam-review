@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Thyroid RFA 使用 transisthmic approach（經峽部進針），electrode 由最深處向淺處退回（moving-shot technique）。「Danger triangle」（氣管與甲狀腺之間）方向移動是危險的，不安全。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Transisthmic approach：RF electrode 經 isthmus 進入",
+    "Electrode 起始於結節最深、最遠端，逐步 retract 到淺層",
+    "**Danger triangle**（trachea 與 thyroid 之間）：electrode 不可朝此方向前進",
+    "安全距離：electrode tip 距結節邊緣 1-2 mm 內較安全"
+  ],
+  "management": "",
+  "name": "Thyroid Radiofrequency Ablation (RFA)",
+  "nameZh": "甲狀腺射頻消融",
+  "slug": "thyroid-rfa",
+  "subspecialty": "NR"
+}

@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**顱內脂肪瘤的成因是「腦膜原基(meninx primitiva)持續存在與分化不良」——這是「間質」組織來源(主要中胚層)，不是「來自所有3個胚層」的組織，這是本題判讀關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**成因主流理論**：**meninx primitiva（腦膜原基，即蛛網膜下腔前驅之間質性覆蓋組織）**之持續存在與分化不良(persistence and maldifferentiation)。此組織於哺乳類與鳥類分化形成蛛網膜、軟膜、硬腦膜；硬腦膜(pachymeninges)與蛛網膜/軟膜(leptomeninges)**主要屬中胚層來源**，僅軟膜最內層可能屬神經外胚層——**並非「來自所有3個胚層」之組織**，此為本題錯誤敘述所在。",
+    "**好發部位分布**：約**20%位於天幕下(infratentorial)**；約**40-50%位於大腦半球間裂(interhemispheric fissure)**。",
+    "**鈣化**：**可有廣泛鈣化(extensive calcifications)**。"
+  ],
+  "management": "",
+  "name": "Intracranial Lipoma",
+  "nameZh": "顱內脂肪瘤",
+  "slug": "intracranial-lipoma",
+  "subspecialty": "NR"
+}

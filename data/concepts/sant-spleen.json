@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**SANT 是脾臟的良性血管病灶，由多個 angiomatoid nodules 被 dense fibrous tissue 包圍形成中央瘢痕。CT/MRI 典型表現為 spoke-wheel pattern + central hypoenhancing stellate scar（非 hyperenhancing）。延遲期呈 progressive enhancement。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**病理**：良性血管病灶，多個 angiomatoid nodules + central fibrous scar",
+    "**MRI 訊號**：T1 isointense、T2 hypointense",
+    "**Enhancement pattern** ：",
+    "動脈期/門脈期：heterogeneous hypo-enhancement + peripheral enhancing radiating lines（spoke-wheel）",
+    "延遲期：progressive enhancement，isoenhancing 或 hyperenhancing",
+    "**Central scar**：**hypoenhancing**（非 hyperenhancing）",
+    "需與 FNH（liver）的 hyperenhancing scar 區分"
+  ],
+  "management": "",
+  "name": "Sclerosing Angiomatoid Nodular Transformation (SANT)",
+  "nameZh": "脾臟硬化性血管瘤樣結節轉化",
+  "slug": "sant-spleen",
+  "subspecialty": "ABD"
+}

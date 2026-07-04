@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**AS 是「由下向上、由後向前」融合的脊椎病——對稱薦腸關節炎先，細直 syndesmophytes 後，最終 bamboo spine。** 男性為主、HLA-B27 相關；椎體方形化（squaring）與 shiny corner（Romanus 病灶）是早期特徵；enthesitis 為全身表現。考試分水嶺：**arthritis mutilans（pencil-in-cup）屬乾癬性關節炎，不是 AS**——這幾乎是每次必考的「非 AS 特徵」。",
+  "differentialDiagnosis": [
+    "**vs 乾癬性關節炎（PsA）**：PsA 的薦腸關節炎常**不對稱**；脊椎為**粗大、不對稱、非邊緣性（跳躍式 chunky）的 paravertebral ossification**，而非 AS 的細直 syndesmophyte。**Arthritis mutilans（pencil-in-cup）屬 PsA／類風濕的破壞性表現，非 AS**。",
+    "**vs DISH（Forestier 病）**：DISH 為**非發炎性**骨贅生，沿前縱韌帶呈**粗大、流瀉狀（flowing）**骨化跨越 ≥4 個相鄰椎體，**薦腸關節與椎間盤間隙保留、無侵蝕、無椎體方形化**；好發年長者。AS 則為細直 syndesmophyte＋薦腸關節侵蝕融合。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1136/annrheumdis-2015-208642"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.semarthrit.2023.152225"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.berh.2016.09.011"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Ankylosing Spondylitis — Imaging",
+  "nameZh": "僵直性脊椎炎",
+  "slug": "ankylosing-spondylitis",
+  "subspecialty": "MSK"
+}

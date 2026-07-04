@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**TIPS 最強實證適應症是『次級預防（secondary prophylaxis）』食道靜脈曲張出血——已出血過、內視鏡/藥物治療失敗者；TIPS『不』用於初級預防（尚未出血過的曲張靜脈）。** 判讀分水嶺：**TIPS 適用肝性/肝後性門脈高壓（肝前性如門靜脈血栓/海綿樣變為經典限制）；適應症＝難治性靜脈曲張出血、次級預防、頑固性腹水/肝性肋膜積液、Budd-Chiari、肝腎症候群；嚴重肝衰竭（Child-Pugh C、MELD>18-22、bilirubin>3）與心衰竭/難控肝性腦病變為禁忌，非適應症。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **術前評估**：確認門脈系統通暢（肝性/肝後性適用）、肝動脈解剖、有無巨大囊腫/腫瘤阻路；PVT/海綿樣變會增難度。\n- **適應症分流思考**：出血難治→rescue；反覆出血且治療失敗→次級預防；頑固腹水/肝性肋膜積液→分流；Budd-Chiari→減壓。\n- **禁忌辨識**：MELD/膽紅素高、Child C、右心衰/肺高壓、難控 HE→避免 TIPS（改其他方式）。\n- **併發追蹤**：術後追 HE、肝功能、支架通暢（Doppler/CT）；HE 25-30% 需監測與處理。\n- **非初級預防**：尚未出血之曲張靜脈不做 TIPS，是常考陷阱。",
+  "keyPoints": [
+    "**解剖適用**：適用**肝性（hepatic）與肝後性（posthepatic）門脈高壓**；**肝前性（prehepatic，如慢性 PVT/海綿樣變）為經典限制**（現代對「選定之急性 PVT」可技術性施作或作為門脈系統 access）。",
+    "**適應症清單**：**急性靜脈曲張出血對內視鏡/藥物難治（emergent rescue）**、**次級預防復發性靜脈曲張出血**、**難治性腹水或肝性肋膜積液**、Budd-Chiari、肝腎症候群、肝肺症候群、急性胃病變。",
+    "**最強實證＝次級預防**：已出血且治療反應不佳者；**TIPS 不用於初級預防（尚未出血）**。",
+    "**禁忌/不建議**：**嚴重肝衰竭（Child-Pugh C、MELD>18-22、bilirubin>3）**、心衰竭/右心衰/肺高壓、難控肝性腦病變、嚴重多囊肝、敗血症——分流後 HE 與死亡率大增。",
+    "**成效/併發**：靜脈曲張出血控制 **~90%**；**post-TIPS 肝性腦病變 25-30%**、肝功能失代償、↑ 肝腎症候群風險、支架狹窄；**MELD 可預測 post-TIPS 死亡率**。"
+  ],
+  "management": "1. **次級預防為主**：已出血、治療失敗者，非初級預防。\n2. **解剖**：肝性/肝後性適用，肝前性為經典限制。\n3. **禁忌**：Child C/MELD>18-22/bili>3、心衰、難控 HE。\n4. **併發**：HE 25-30%、失代償、HRS、支架狹窄。\n5. **成效**：出血控制 ~90%，MELD 預測死亡率。\n\n> [!note] 考點：關於 TIPS 應用於門脈高壓治療，何者「不正確」?\n> 「**TIPS 適用於靜脈曲張出血的初級預防（primary prophylaxis）**」不正確——**TIPS 最強實證為次級預防**（已出血、治療失敗者）。肝性/肝後性適用（肝前性為限制）、嚴重肝衰竭（Child-Pugh C/MELD 高/bilirubin>3）不建議 TIPS，皆正確。",
+  "name": "TIPS — Indications in Portal Hypertension",
+  "nameZh": "經頸靜脈肝內門體分流術",
+  "slug": "tips-portal-hypertension",
+  "subspecialty": "IR"
+}

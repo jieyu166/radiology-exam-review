@@ -1,0 +1,48 @@
+{
+  "checked": false,
+  "definition": "**脾血管肉瘤（angiosarcoma）是最常見的非淋巴造血性原發脾惡性腫瘤——考題必須先排除 lymphoma（造血性），再選 angiosarcoma。** 判讀分水嶺一：**淋巴瘤是脾最常見惡性腫瘤，但題目若限定「非造血性（non-hematolymphoid）」，答案即為 angiosarcoma**。判讀分水嶺二：**易自發破裂（hemoperitoneum）、早期肝/骨轉移、預後極差**——影像呈出血/壞死異質腫塊，破裂前可無明顯徵象。",
+  "differentialDiagnosis": [
+    "**lymphoma**：脾最**常見**惡性腫瘤,但屬**造血性（hematolymphoid）**——題目若限定「非造血性」即排除;影像多為脾腫大或低密度、乏強化結節,少出血。",
+    "**海綿狀/微血管 hemangioma**：最常見良性脾腫瘤,多 <2 cm、邊界清,典型周邊結節狀強化伴漸進填充;雖大者亦可破裂,但通常**缺乏瘤內出血/壞死之異質與轉移證據**。",
+    "**littoral cell angioma（LCA）**：良性、源自紅髓竇 littoral cells;典型為**腫大脾內多發大小相近之結節**,延遲輕度強化;與 angiosarcoma 重疊,但 LCA 缺乏侵襲性轉移與大量出血。",
+    "**hamartoma**：源自紅髓,邊界清、T2 略高訊號、不均勻中度強化,可含鈣化／含鐵血黃素;無轉移、生長惰性。",
+    "**metastasis**：較罕見（melanoma、肺、乳房、卵巢為主）,多發低密度、不均強化,可壞死/出血——須結合原發病史鑑別。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s002610000034",
+      "url": "https://doi.org/10.1007/s002610000034"
+    },
+    {
+      "label": "10.1007/s00261-014-0080-6",
+      "url": "https://doi.org/10.1007/s00261-014-0080-6"
+    },
+    {
+      "label": "10.2214/AJR.13.11777",
+      "url": "https://doi.org/10.2214/AJR.13.11777"
+    },
+    {
+      "label": "10.1148/radiol.2351040308",
+      "url": "https://doi.org/10.1148/radiol.2351040308"
+    },
+    {
+      "label": "10.1102/1470-7330.2005.0002",
+      "url": "https://doi.org/10.1102/1470-7330.2005.0002"
+    },
+    {
+      "label": "10.1053/j.sult.2011.04.003",
+      "url": "https://doi.org/10.1053/j.sult.2011.04.003"
+    }
+  ],
+  "imagingFindings": "- **最常見影像表現＝腫大脾臟內單一或多發的複雜異質腫塊（complex mass[es] in an enlarged spleen）**;AFIP 系列 12 例中 9 例脾臟腫大（>12 cm）、7 例（58%）呈此型。\n- CT：脾腫大伴邊界不清、密度混雜（mixed attenuation）之腫塊,**強化不均、常較弱（poor/heterogeneous enhancement）**,反映實質＋壞死混合;可見鈣化（AFIP 1 例病灶周邊小鈣化）。\n- **出血徵象為特徵**：腫瘤內壞死、瘤內出血、被膜下或被膜外血腫常見,因易出血;急性表現可為自發破裂之腹腔積血,甚至 CT 上「無明顯腫塊、只見脾周/腹腔出血」。\n- MRI：訊號取決於不同時期出血成分而呈高度異質;**含鐵血黃素（hemosiderin）沉積區於 T1/T2 皆呈低訊號**,動態增強顯示瘤內異質強化,對應實質伴壞死之病理。\n- 強化型態：可呈早期 hypervascular 結節型,亦可呈漸進性異質強化;AFIP 系列另見 2 例孤立 hypervascular 腫瘤合併肝轉移。",
+  "keyPoints": [
+    "**angiosarcoma**：**最常見的原發非淋巴造血性（non-hematolymphoid）脾惡性腫瘤**,源自血管內皮;整體罕見,佔所有軟組織肉瘤約 1–2%,侵襲性高、預後極差。",
+    "流行病學/病理：好發 50–60 歲（AFIP 系列 12 例平均 55 歲,範圍 36–86）,無明顯性別差;大體呈出血性結節/腫塊,組織學以吻合狀血管腔（anastomosing vascular channels）構成,常見壞死。",
+    "流行病學/病理：脾血管肉瘤與肝血管肉瘤不同,**多無 Thorotrast、砷、vinyl chloride 等致癌物暴露史**。"
+  ],
+  "management": "",
+  "name": "Splenic Angiosarcoma",
+  "nameZh": "脾血管肉瘤",
+  "slug": "splenic-angiosarcoma",
+  "subspecialty": "ABD"
+}

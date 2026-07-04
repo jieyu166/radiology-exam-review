@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**兒童神經母細胞腫瘤譜系（neuroblastic tumors）＝neuroblastoma、ganglioneuroblastoma、ganglioneuroma，皆源自交感神經系統的原始交感神經母細胞。三個「最」：neuroblastoma是『最常見的兒童顱外實質腫瘤』、也是『最常見的兒童偶見腎上腺腫塊』；但整體排第三常見兒童癌症（次於白血病、腦瘤）。畸胎瘤(teratoma)是生殖細胞來源，不屬神經母細胞（髓質）腫瘤。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**神經母細胞腫瘤譜系**：**neuroblastoma、ganglioneuroblastoma、ganglioneuroma**皆源自**交感神經系統之原始交感神經母細胞(primitive sympathogonia)**，統稱neuroblastic tumors（分化程度由低到高）。",
+    "**Teratoma（本題陷阱）**：為**生殖細胞腫瘤**，**非**腎上腺髓質/神經母細胞腫瘤。",
+    "**最常見兒童顱外實質腫瘤**：**neuroblastoma**為最常見之兒童顱外實質腫瘤(most common extracranial solid neoplasm in children)。",
+    "**兒童癌症排名**：neuroblastoma為**第三常見兒童癌症**（次於白血病與腦瘤），但為最常見之顱外實質腫瘤。",
+    "**最常見兒童偶見腎上腺腫塊**：**neuroblastoma**。"
+  ],
+  "management": "",
+  "name": "Pediatric Neuroblastic Tumors & Adrenal Masses",
+  "nameZh": "兒童神經母細胞瘤",
+  "slug": "pediatric-neuroblastic-tumors",
+  "subspecialty": "PED"
+}

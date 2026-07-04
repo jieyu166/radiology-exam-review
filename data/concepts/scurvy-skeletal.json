@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**壞血病（Vitamin C 缺乏）的骨骼表現包括 Frankel line（白色線）、Trummerfeld zone（lucent zone）、periosteal elevation（subperiosteal hemorrhage）、corner sign / Pelkan spur。但 epiphyseal hypoplasia 不是 scurvy 的典型表現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Frankel line（白色線）**：metaphysis 處密度增加的白線，為鈣化軟骨無法被吸收所致",
+    "**Trummerfeld zone**：Frankel line 下方的 lucent zone",
+    "**Periosteal elevation**：因 subperiosteal hemorrhage 所致",
+    "**Corner sign / Pelkan spur**：metaphysis 邊緣骨折突出",
+    "**Wimberger ring**：epiphysis 周圍環狀密度增加（但 Wimberger sign 指 proximal tibial metaphysis erosion，是 congenital syphilis 的特徵）",
+    "Epiphyseal **hypoplasia** 不是 scurvy 的特徵"
+  ],
+  "management": "",
+  "name": "Scurvy Skeletal Findings",
+  "nameZh": "壞血病骨骼表現",
+  "slug": "scurvy-skeletal",
+  "subspecialty": "PE"
+}

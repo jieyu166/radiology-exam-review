@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**腎上腺偶然腫 CT washout protocol 僅需兩個時間點：unenhanced + 15-min delayed（或 enhanced + 15-min delayed 算 relative washout）。5 分鐘延遲不是標準 protocol 的一部分。** Adenoma 特徵：unenhanced ≤10 HU（富脂質）、absolute washout ≥60%、relative washout ≥40%。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Unenhanced CT**：≤10 HU 高度提示 adenoma（富脂質 lipid-rich adenoma）。",
+    "**Washout CT protocol**：**unenhanced → enhanced（60–70 秒）→ 15-min delayed**。",
+    "**Absolute washout**：(enhanced − delayed) / (enhanced − unenhanced) × 100% ≥ **60%** → adenoma。",
+    "**Relative washout**（無 unenhanced 時）：(enhanced − delayed) / enhanced × 100% ≥ **40%** → adenoma。",
+    "**5 分鐘延遲 CT 不是標準 washout protocol 的一部分**——標準為 15 分鐘。"
+  ],
+  "management": "",
+  "name": "Adrenal Incidentaloma — CT Washout Protocol",
+  "nameZh": "腎上腺偶然腫",
+  "slug": "adrenal-incidentaloma-washout",
+  "subspecialty": "ABD"
+}

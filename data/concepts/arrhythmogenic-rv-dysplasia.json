@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**ARVD 的核心是右心室心肌被脂肪與纖維慢慢取代，使 RV 變成容易致命性心律不整的「爛橡皮袋」。** MRI 三聯徵：① RV 心肌 T1 高訊號（脂肪浸潤）、② RV/RVOT 局部 akinetic/dyskinetic 膨出（局部動脈瘤）、③ RV/RVOT 整體擴張與功能下降。記憶鉤：病變好發於 \"triangle of dysplasia\"——RVOT、RV 心尖、RV 下壁，三角形的三個角，MRI 重點看這三區。",
+  "differentialDiagnosis": [
+    "**RV 本身難評估**：薄壁、複雜幾何、moderator band 與小樑使局部運動判讀不可靠；應多平面、結合 cine 動態判讀，勿過度診斷。",
+    "**moderator band 插入點假性膨出**：健康志願者最常見的「疑似異常」位於 moderator band 插入處之 apicolateral wall（高達約 79%），孤立出現時為正常變異。",
+    "**心律不整致影像模糊**：頻發早搏／心律不整造成 cine 運動模糊、量測失真，需注意門控品質再判讀。",
+    "其他正常變異易誤判：心包 tether（靜止不收縮但鄰近心肌收縮正常）、pectus excavatum 之「banana-shaped RV」、butterfly／雙心尖變異——皆有正常收縮增厚可資區分。",
+    "**與 Uhl anomaly 鑑別**：Uhl 為先天 RV 心肌幾近全無（壁極薄、「羊皮紙心」parchment heart），是 ARVC 的關鍵鑑別。",
+    "**勿過度診斷脂肪**：見到 RV 脂肪訊號不等於 ARVC，務必回到「局部運動異常＋量化下降」骨架。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.jcmg.2011.01.005（PMC3106722",
+      "url": "https://doi.org/10.1016/j.jcmg.2011.01.005（PMC3106722"
+    },
+    {
+      "label": "10.1148/rg.346140194（PMC5550031",
+      "url": "https://doi.org/10.1148/rg.346140194（PMC5550031"
+    }
+  ],
+  "imagingFindings": "- **判讀核心邏輯**：影像診斷一定要「局部室壁運動異常」**加上**「RV 整體功能下降或容積擴大之量化值」兩者並列，單看脂肪或單看擴張都不成立。\n- **局部室壁運動異常**：cine 上 RV akinesia、dyskinesia、或 dyssynchronous bulging（局部動瘤樣膨出），常見於 subtricuspid／RV free wall／RVOT。\n- **量化主標準（major，需合併上述局部異常）**：\n  - RVEDV index（RVEDVI/BSA）≥110 mL/m²（男）或 ≥100 mL/m²（女）；**或**\n  - RVEF ≤40%。\n- **量化次標準（minor，需合併上述局部異常）**：\n  - RVEDVI 100–<110 mL/m²（男）或 90–<100 mL/m²（女）；**或**\n  - RVEF >40% 至 ≤45%。\n- 2010 版相較 1994 版大幅提高特異度（同隊列符合任一 MRI 標準者由約 22.7% 降到 2.6%），正因為強制「局部運動異常＋量化下降」並列。",
+  "keyPoints": [
+    "**MRI 典型表現（可全部出現）**：",
+    "**RV 心肌脂肪浸潤**（T1 高訊號）。",
+    "**RV 與 RVOT 局部動脈瘤**（akinetic/dyskinetic 膨出）。",
+    "**RV 與 RVOT 擴張**、整體/局部收縮功能下降。",
+    "好發 triangle of dysplasia（RVOT、RV 心尖、下壁）;臨床致心律不整/猝死。"
+  ],
+  "management": "",
+  "name": "Arrhythmogenic Right Ventricular Dysplasia (ARVD/ARVC)",
+  "nameZh": "心律不整右心室發育不良",
+  "slug": "arrhythmogenic-rv-dysplasia",
+  "subspecialty": "CV"
+}

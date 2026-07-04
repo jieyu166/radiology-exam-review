@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**2016 WHO中樞神經系統腫瘤分類中，Grade I的血管中心性膠質瘤(angiocentric glioma)常與少突膠質細胞瘤(grade 2-3)、中央神經細胞瘤(grade 2)、室管膜瘤(grade 2-3)混淆——記住Grade I家族口訣：「毛狀星狀細胞瘤、室管膜下巨細胞星狀細胞瘤、室管膜下瘤、黏液乳突狀室管膜瘤、血管中心性膠質瘤、脈絡叢乳突瘤」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00401-016-1545-1（2018",
+      "url": "https://doi.org/10.1007/s00401-016-1545-1（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**WHO Grade I腫瘤清單**：pilocytic astrocytoma、subependymal giant cell astrocytoma、subependymoma、myxopapillary ependymoma、**angiocentric glioma**、choroid plexus papilloma。",
+    "**本題選項對照**：",
+    "**Oligodendroglioma（少突膠質細胞瘤）＝Grade 2-3**（非Grade I）。",
+    "**Central neurocytoma（中央神經細胞瘤）＝Grade 2**（非Grade I）。",
+    "**Angiocentric glioma（血管中心性膠質瘤）＝Grade I**（正解）。",
+    "**Ependymoma（室管膜瘤）＝Grade 2-3**（非Grade I，注意與Grade I之myxopapillary ependymoma／subependymoma區分）。"
+  ],
+  "management": "",
+  "name": "WHO 2016 CNS Tumor Classification — Grade I Tumors",
+  "nameZh": "2016 WHO中樞神經腫瘤分級",
+  "slug": "who-cns-tumor-grading",
+  "subspecialty": "NR"
+}

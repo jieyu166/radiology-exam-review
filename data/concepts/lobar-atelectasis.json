@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**各肺葉塌陷如倒塌的空間——向哪裡倒、塌成什麼形狀是固定的，靠幾個標誌性徵象快速辨認。** 判讀分水嶺一：**側位片——RUL 呈三角形；LUL 呈自肺尖延至橫膈的前移緻密影**；判讀分水嶺二：**Luftsichel＝LUL 塌陷時 LLL 上節段疝入主動脈旁形成 PA 片新月透亮；右中葉症候群經典為非阻塞性（窄 ostium＋差的側枝通氣），非源自內支氣管腫瘤**。",
+  "differentialDiagnosis": [
+    "**Round atelectasis CT 診斷四要件**：①**胸膜異常/鄰近胸膜增厚**；②腫塊**緊貼胸膜並與胸膜成銳角**（never 完全被肺實質包圍）；③**comet tail sign**＝血管支氣管束被牽入腫塊呈彗星尾／旋渦狀；④**容積減少**（葉間裂回縮）。好發**下葉**、男性、與**石綿暴露／胸膜積液**相關。",
+    "**與肺癌鑑別**：肺癌邊緣不清、呈分葉/結節、有 corona radiata 棘狀放射帶、常伴肺門/縱隔淋巴結腫大；round atelectasis 容積減少且無淋巴結腫大。",
+    "**與 consolidation／積液鑑別**：consolidation 無容積減少（甚至膨脹）、無葉間裂位移、含 air bronchogram；積液隨體位變化、無支氣管血管聚集。塌陷的本質為**容積減少＋葉間裂移位**。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s44326-024-00024-z——直接徵象（fissure",
+      "url": "https://doi.org/10.1007/s44326-024-00024-z——直接徵象（fissure"
+    },
+    {
+      "label": "10.1148/radiol.2333021407——反",
+      "url": "https://doi.org/10.1148/radiol.2333021407——反"
+    },
+    {
+      "label": "10.1148/radiology.213.2.r99nv08553——comet",
+      "url": "https://doi.org/10.1148/radiology.213.2.r99nv08553——comet"
+    }
+  ],
+  "imagingFindings": "- **直接徵象（容積減少的本體）**：**葉間裂位移**（最可靠、依塌陷肺葉而呈特定型態）、塌陷肺葉**密度增加（不透光）**、**血管與支氣管聚集（crowding）**。\n- **間接徵象（鄰近結構代償移位）**：同側**橫膈抬高**、**縱隔/心臟移向患側**（下葉塌陷下縱隔位移最大）、**肺門移位**（上葉塌陷肺門上移、下葉塌陷肺門下移而呈「small hilum」）、未塌陷肺**代償性過度充氣**（透亮度增加、血管稀疏，可越過中線）、同側**肋骨間距變窄**、silhouette sign（與密度相近結構並列致緣消失）。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Lobar Atelectasis (Patterns & Signs)",
+  "nameZh": "肺葉塌陷",
+  "slug": "lobar-atelectasis",
+  "subspecialty": "CH"
+}

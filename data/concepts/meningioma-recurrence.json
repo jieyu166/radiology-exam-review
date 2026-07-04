@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Meningioma 復發風險因子包括 bone invasion、low ADC value、proximity to major sinuses、mushroom shape。年齡（age）不是復發風險因子。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Bone invasion**：復發風險增加",
+    "**Low ADC value**：提示高 cellularity/high grade",
+    "**Proximity to major sinuses**：手術難以完全切除",
+    "**Mushroom shape**：higher grade 表現（narrow dural base + lobulated irregular outline）",
+    "**Age 非風險因子**"
+  ],
+  "management": "",
+  "name": "Meningioma Recurrence Risk Factors",
+  "nameZh": "腦膜瘤復發因子",
+  "slug": "meningioma-recurrence",
+  "subspecialty": "NR"
+}

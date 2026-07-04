@@ -1,0 +1,48 @@
+{
+  "checked": false,
+  "definition": "**棕色瘤是副甲狀腺機能亢進（HPT）破壞骨骼時出現的局部溶骨病灶，因含鐵血黃素沉積而呈棕色，非真腫瘤。** 好發部位：下頷/顎、骨盆、肋骨、長骨（股骨）；「肩部」不是常見部位，考題陷阱在此。記憶鉤：**「HPT 攻的是顎/盆/肋/腿——不愛肩膀」**；背景脈絡：同步出現 subperiosteal resorption（橈側指骨）與 salt-and-pepper skull，即高度懷疑 HPT。",
+  "differentialDiagnosis": [
+    "**Giant cell tumor (GCT)**：組織學同含破骨型巨細胞，影像/病理高度重疊，是最難鑑別者；靠血鈣/PTH 區分。",
+    "**轉移（metastases）／multiple myeloma**：多發溶骨且好發部位（肋骨、脊椎、骨盆、肩胛）重疊；功能影像皆可陽性，難以影像區分。",
+    "**Osteosarcoma**：當病灶呈 moth-eaten、皮質破壞合併軟組織腫塊時可被誤判（文獻有誤診為 osteosarcoma 而幾近截肢者）。",
+    "其他含巨細胞病灶：aneurysmal bone cyst (ABC)、giant cell (reparative) granuloma、central giant cell lesion。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3389/fendo.2024.1414896"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s12020-017-1414-2"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3760/cma.j.issn.0376-2491.2015.45.011"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s12105-011-0297-4"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00256-013-1770-9"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1186/s13256-018-1723-y"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**:副甲狀腺機能亢進(osteitis fibrosa cystica)的局部溶骨病灶;非真腫瘤。",
+    "**好發部位**:**下頷(mandible)、鎖骨(clavicle)、肋骨、骨盆、長骨(股骨)**（Radiopaedia 列 mandible/clavicle/ribs/pelvis）;故「肩部(glenohumeral)」**非**常見部位(2016 漏題正解 B;惟鎖骨屬肩帶、為已知部位)。",
+    "**本質**:為**修復性細胞過程、非真腫瘤**;hemosiderin 沉積致棕色（描述名、非 eponym）。",
+    "伴隨 HPT 徵象:subperiosteal resorption(橈側指骨)、salt-and-pepper skull、棕色瘤。"
+  ],
+  "management": "",
+  "name": "Brown Tumor (Hyperparathyroidism)",
+  "nameZh": "棕色瘤",
+  "slug": "brown-tumor",
+  "subspecialty": "MSK"
+}

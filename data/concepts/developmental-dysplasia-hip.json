@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**DDH 危險因子＝女性、家族史、臀位產、羊水過少（『6F』：female、family history、frank breech、first-born、left；男性『不是』危險因子，M:F≈1:8）;股骨頭骨化（約 4-6 個月）前『超音波』為首選影像。** 判讀分水嶺：**新生兒至 ~6 月股骨頭尚未骨化→US（Graf 法）為首選;骨化後改 X 光;Graf α 角（髖臼骨頂角）正常 ≥60°、β 角（軟骨頂）<77°、骨性覆蓋率 >50% 為正常。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1542/peds.2005-1995：DDH",
+      "url": "https://doi.org/10.1542/peds.2005-1995：DDH"
+    },
+    {
+      "label": "10.4081/or.2010.e19：股骨頭骨化前",
+      "url": "https://doi.org/10.4081/or.2010.e19：股骨頭骨化前"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**危險因子**：**女性（M:F≈1:8）、家族史、臀位產（breech）、羊水過少（oligohydramnios）、第一胎、左側、包巾不當**。**男性『不是』危險因子**（女性才是）。",
+    "**首選影像（依年齡）**：",
+    "**股骨頭骨化前（約 <4-6 個月）→ 超音波（US）為首選**（Graf 法,動態評估）。",
+    "股骨頭骨化後 → **X 光**（測 acetabular index、Shenton line、股骨頭位置）。",
+    "CT/MRI 一般非第一線（用於術前/復位後評估）。",
+    "**US 量測（Graf）**：",
+    "**α 角（骨性髖臼頂角）正常 ≥60°**（<60° 異常）。",
+    "**β 角（軟骨頂角）正常 <77°**。",
+    "**骨性覆蓋率（bony coverage）>50% 為正常**。"
+  ],
+  "management": "",
+  "name": "Developmental Dysplasia of the Hip (DDH)",
+  "nameZh": "髖關節發育不良",
+  "slug": "developmental-dysplasia-hip",
+  "subspecialty": "PED"
+}

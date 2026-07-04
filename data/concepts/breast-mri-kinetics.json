@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**乳房 MRI 動態曲線的判讀關鍵在「延遲期」——三型中 washout 最可疑，但定義門檻是 >10%，不是 >20%。** 早期峰值約在注射後 2–3 分鐘；延遲期：persistent（續升，偏良性）→ plateau（平台，良惡皆可）→ washout（峰後降 >10%，惡性常見）。記憶鉤：**「wash『out』→洗掉→惡性洗光光」**；另外 1H-MRS choline 峰升高代表細胞增生，也是惡性指標。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.05.0572",
+      "url": "https://doi.org/10.2214/AJR.05.0572"
+    },
+    {
+      "label": "10.1148/radiol.221822",
+      "url": "https://doi.org/10.1148/radiol.221822"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Breast MRI Kinetic Curves & MRS",
+  "nameZh": "動態曲線",
+  "slug": "breast-mri-kinetics",
+  "subspecialty": "Breast"
+}

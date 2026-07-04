@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**PCOS 的 string of pearls 是「珍珠串掛在卵巢外圈」——濾泡貼著周邊排，中央是增生的間質，雙側對稱。** 考試陷阱正是「濾泡位於中央」——那不是 PCOS 典型，典型是周邊（peripheral）排列。判讀分水嶺：**卵巢腫大 ＋ 多發小濾泡周邊排列（string of pearls）＋ 中央間質回音增多 ＋ 雙側**。",
+  "differentialDiagnosis": [
+    "**正常多卵泡卵巢（multifollicular ovary）**：濾泡較大、分布較均勻、間質量正常、卵巢體積不增大——非周邊珍珠串排列。",
+    "**青春期生理性多卵泡**：青少女正常卵巢即可見較多濾泡，易與 PCOM 混淆。",
+    "下視丘性／恢復期卵巢等亦可呈多卵泡像，須結合臨床與內分泌判讀。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1002/ajum.12096",
+      "url": "https://doi.org/10.1002/ajum.12096"
+    },
+    {
+      "label": "10.1007/s00261-018-1830-7",
+      "url": "https://doi.org/10.1007/s00261-018-1830-7"
+    },
+    {
+      "label": "10.1210/clinem/dgad463",
+      "url": "https://doi.org/10.1210/clinem/dgad463"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Polycystic Ovary Syndrome (PCOS) Imaging",
+  "nameZh": "多囊性卵巢",
+  "slug": "polycystic-ovary-syndrome",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Buerger disease（thromboangiitis obliterans）**是慢性、非動脈粥狀硬化性、發炎性血栓性動脈炎，好發於年輕男性吸菸者。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.crad.2012.04.005",
+      "url": "https://doi.org/10.1016/j.crad.2012.04.005"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Buerger Disease",
+  "nameZh": "柏格氏病",
+  "slug": "buerger-disease",
+  "subspecialty": "CV"
+}

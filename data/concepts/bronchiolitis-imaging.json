@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Bronchiolitis 為累及細支氣管（bronchioles）和/或肺泡管的發炎或纖維化；CT 幾乎總能顯示異常，包括 centrilobular micronodules、bronchial wall thickening、bronchiolar dilatation、mosaic attenuation；infectious bronchiolitis 為最常見類型。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "定義：累及 bronchioles 和/或 alveolar ducts 的 inflammation/fibrosis",
+    "CT：centrilobular micronodules、tree-in-bud、bronchial wall thickening、mosaic attenuation",
+    "最常見類型：**infectious bronchiolitis**"
+  ],
+  "management": "",
+  "name": "Bronchiolitis Imaging",
+  "nameZh": "細支氣管炎影像",
+  "slug": "bronchiolitis-imaging",
+  "subspecialty": "CH"
+}

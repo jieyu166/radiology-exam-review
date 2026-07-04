@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**膀胱先天異常四要點：patent urachus（開放性臍尿管）連接肚臍與『膀胱頂(dome)』；ureterocele的「cobra head/眼鏡蛇頭」是輸尿管末端在膀胱內的球狀擴張；prune-belly syndrome的膀胱是『大而擴張(非小)』；Hutch diverticulum（輸尿管膀胱交界處憩室）與VUR相關——但「bladder ear」是嬰兒膀胱兩側疝入腹股溝環的暫時性外突，非Hutch diverticulum。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Patent urachus（本題正解）**：臍尿管未閉合，**連接肚臍（umbilicus）與膀胱頂（bladder dome）**，可自臍部漏尿。",
+    "**\"Cobra head\"/眼鏡蛇頭外觀**：為**ureterocele（輸尿管膨出）**——輸尿管末端於膀胱內球狀擴張＋周圍暈環，非vesicocele。",
+    "**Prune-belly syndrome**：膀胱常**大而擴張、缺乏小樑（trabeculation）**（非小膀胱）；併輸尿管明顯擴張、前腹壁肌發育不良、雙側隱睪。",
+    "**Bladder ear vs Hutch diverticulum**：**bladder ear**為嬰兒膀胱兩側暫時性疝入腹股溝環前方之外突（隨年齡消失）；**Hutch diverticulum**為輸尿管膀胱交界處（UVJ）之憩室、與VUR相關（正常斜行插入被破壞）——兩者不同，故「UVJ憩室伴VUR又稱bladder ear」為錯誤配對。"
+  ],
+  "management": "",
+  "name": "Congenital Bladder Anomalies",
+  "nameZh": "膀胱先天異常",
+  "slug": "bladder-anomalies",
+  "subspecialty": "GU"
+}

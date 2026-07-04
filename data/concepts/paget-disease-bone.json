@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**骨柏哲德氏病(Paget disease of bone)的經典徵象包括：長骨的blade-of-grass徵象、顱骨的cotton-wool徵象與osteoporosis circumscripta、脊椎的ivory vertebra——但『hole-within-hole徵象』屬於嗜伊紅性肉芽腫(Eosinophilic Granuloma, EG)在顱骨的特徵，並非Paget disease的徵象。** 判讀分水嶺：**Paget disease分三期——溶骨期(osteoporosis circumscripta,顱骨局部透亮)→混合期→硬化期(cotton-wool skull、blade-of-grass長骨);ivory vertebra除Paget外也見於淋巴瘤、轉移性攝護腺癌等;hole-within-hole是EG顱骨病灶因內外板不對稱受侵犯呈雙重輪廓，與Paget無關。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.10.7264：Paget",
+      "url": "https://doi.org/10.2214/AJR.10.7264：Paget"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Blade-of-grass appearance（長骨）**：Paget disease 溶骨期在長骨呈**尖端似草葉狀（V字形/火焰狀）**的溶骨前緣，代表病灶侵犯前緣。",
+    "**Cotton-wool appearance（顱骨）**：Paget disease 硬化期顱骨呈**棉絮狀**混合硬化與溶骨區域。",
+    "**Osteoporosis circumscripta（顱骨）**：Paget disease **溶骨早期**顱骨局部邊界清楚的**透亮（溶骨）區**。",
+    "**Ivory vertebra（脊椎）**：**瀰漫均勻硬化**的椎體,可見於 Paget disease,但**非特異**（亦見於淋巴瘤、轉移性攝護腺癌等硬化性病灶）。",
+    "**Hole-within-hole appearance（顱骨）——『非』Paget disease 徵象**：此為**嗜伊紅性肉芽腫（Eosinophilic Granuloma, EG）**在顱骨的特徵性表現——因病灶對顱骨內外板侵犯程度不同，造成**雙重輪廓（double contour）或斜邊（bevelled edge）外觀**（內板受累範圍常大於外板）。",
+    "**續發性骨肉瘤（secondary osteosarcoma）與 Paget disease 之關聯**：續發性骨肉瘤與**潛在 Paget disease（Paget 肉瘤變）相關**，並非僅發生於放射治療後；好發於**中老年人**（非兒童為主，兒童骨肉瘤多為原發性）；**預後較原發性骨肉瘤差**。",
+    "**病理標誌（hallmark）**：Paget disease 的病理特徵為**異常的骨吸收與骨再形成（abnormal bone resorption and apposition）**——破骨與成骨活性皆增加但失序，形成結構紊亂、脆弱的織狀骨(woven bone)。故非單純「骨吸收增加」或「大量新骨/代償形成優質骨」，而是**兩者並存且異常**。",
+    "**好發部位（most common locations）**：Paget disease 好發於**中軸骨與骨盆——腰薦椎(lumbosacral spine)、骨盆、股骨、顱骨**為最常受累部位;**手部小骨、肩部、肋骨相對少見**。故「腰薦椎(lumbosacral spine)」為好發部位。"
+  ],
+  "management": "",
+  "name": "Paget Disease of Bone — Imaging Signs",
+  "nameZh": "骨佩吉特氏病",
+  "slug": "paget-disease-bone",
+  "subspecialty": "MSK"
+}

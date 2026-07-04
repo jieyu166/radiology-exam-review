@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**Salter-Harris 生長板骨折五型（SALTR 記憶）。把生長板想成夾心餅乾的『夾心層』,骨折線跟它的相對位置就是分型關鍵:I Slipped（只經夾心/生長板）、II Above（夾心＋上面的幹骺端,『最常見 ~75%』）、III Lower（夾心＋下面的骨骺）、IV Through（上下貫穿骨骺-生長板-幹骺端）、V Rammed（整層被壓砸,預後最差）。最常見＝Type II。** 判讀分水嶺一：**type II ~75% 最常見**;判讀分水嶺二：**型號越高（III–V 累及骨骺/關節面）預後越差**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1007/s11999-016-4891-3",
+      "url": "https://doi.org/10.1007/s11999-016-4891-3"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.342135073",
+      "url": "https://doi.org/10.1148/rg.342135073"
+    },
+    {
+      "label": "https://doi.org/10.1097/BPO.0000000000001626",
+      "url": "https://doi.org/10.1097/BPO.0000000000001626"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Salter-Harris Classification",
+  "nameZh": "生長板骨折分類",
+  "slug": "salter-harris",
+  "subspecialty": "MSK"
+}

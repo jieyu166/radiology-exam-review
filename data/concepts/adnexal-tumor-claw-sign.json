@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**鑑別附屬器腫塊來源的三個徵象：喙徵(beak sign)指向卵巢來源、爪徵(claw sign)指向子宮來源(肌瘤)、橋接血管徵(bridging-vessel sign)也指向子宮來源(廣基性肌瘤)——爪徵「有助於」判斷，不是「無助於」判斷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**尋找卵巢之技巧**：沿**圓韌帶(round ligament)**自子宮角錐狀區向外追蹤，常可指向卵巢位置。",
+    "**爪徵(claw sign)**：**有助於**判斷腫塊是否源自子宮(而非卵巢)——腫塊與正常子宮肌層間呈爪狀交界，提示子宮來源(通常為肌瘤)。",
+    "**喙徵(beak sign)**：卵巢組織(含濾泡)呈喙狀包覆病灶邊緣，提示**卵巢來源**(如良性畸胎瘤)。",
+    "**帶蒂子宮病灶之血管蒂**：帶蒂子宮病灶(通常為肌瘤)應可見血管蒂自子宮延伸至腫塊，通常可於影像上找到。",
+    "**卵巢靜脈追蹤法**：若卵巢濾泡不可見，或異常過大扭曲正常解剖，可沿卵巢靜脈(右側自下腔靜脈、左側自左腎靜脈)向下追蹤至骨盆，常能有效定位。"
+  ],
+  "management": "",
+  "name": "Adnexal Tumor — Ovarian vs Uterine Origin",
+  "nameZh": "附屬器腫瘤起源鑑別",
+  "slug": "adnexal-tumor-claw-sign",
+  "subspecialty": "ABD"
+}

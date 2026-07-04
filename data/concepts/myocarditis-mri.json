@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**心肌炎 MRI 三大徵象（Lake Louise）：T2 水腫、早期釓增強（充血）、晚期釓增強（壞死/纖維化）;LGE 典型為『壁內（mid-wall）／心外膜下（subepicardial）』分布,非心內膜下（後者偏缺血）。** 判讀分水嶺：**壁內增高 T2＋局部區域強化＝心肌炎;右心室壁變薄＋脂肪浸潤＝ARVC（非心肌炎）;多發壁內結節、全心房室壁瀰漫增厚為其他病因。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Lake Louise 三徵**：",
+    "**T2 水腫**：壁內 T2 訊號增高（局部或瀰漫）。",
+    "**早期釓增強（hyperemia）**：充血致早期強化增加（~T1 早期）。",
+    "**晚期釓增強（LGE）**：壞死/纖維化,典型**心外膜下／壁內**,**非心內膜下**（心內膜下偏缺血性）。",
+    "**典型分布**：下側壁（inferolateral）心外膜下/壁內常見。",
+    "**鑑別**：右心室局部變薄＋脂肪浸潤＝ARVC;全心房室壁瀰漫增厚另有病因（如澱粉樣）;多發壁內結節非典型心肌炎。"
+  ],
+  "management": "",
+  "name": "Myocarditis — Cardiac MRI (Lake Louise)",
+  "nameZh": "心肌炎MRI",
+  "slug": "myocarditis-mri",
+  "subspecialty": "CV"
+}

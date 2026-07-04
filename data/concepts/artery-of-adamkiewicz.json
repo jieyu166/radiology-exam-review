@@ -1,0 +1,41 @@
+{
+  "checked": false,
+  "definition": "**Adamkiewicz 動脈是供應胸腰段脊髓的「主力動脈」，一旦術中誤傷就可能造成下肢截癱。** 記憶鉤：它與前脊髓動脈吻合處形成一個「髮夾（hairpin）轉折」——先向下行再急轉向上，形如髮夾；考試常把「coathook（衣鉤）」設為錯誤描述，兩者形狀不同，記「髮夾」即可。起源以**左側（~77%）、T9–T12**為主，手術前 CTA 定位標準。",
+  "differentialDiagnosis": [
+    "**與前根髓質「靜脈」混淆**（最常見陷阱）：anterior radiculomedullary vein 形態相似，鑑別靠 **(1) 缺乏與主動脈的連續性、(2) 增強時相／強化程度不同**；務必確認主動脈→ASA 的動脈連續性。",
+    "**脊髓 AV shunt／AVM 病例**：擴張的引流靜脈幾乎總與 hairpin 並存，常規找髮夾彎的方法在此情境**偵測困難**，易誤判。",
+    "**較小的根動脈 vs 真 AKA**：缺乏典型 hairpin 時，難以分辨是真正的 AKA 還是次要根性供血動脈——以「是否與 ASA 連續＋管徑較粗」輔助判斷。",
+    "**慢性主動脈剝離**：大入口撕裂與擴大的假腔可使常規 CTA／MRA **無法顯示** AKA，必要時須更高解析或進階技術。",
+    "**偽陰性風險**：影像系列的 AKA 偵測率（~88%）低於屍體研究（~98%），「找不到」不代表不存在——術中仍須假設其可能存在以免醫源性損傷。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.26si065506",
+      "url": "https://doi.org/10.1148/rg.26si065506"
+    },
+    {
+      "label": "NBK532971",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532971/"
+    },
+    {
+      "label": "10.1007/s00234-019-02207-y",
+      "url": "https://doi.org/10.1007/s00234-019-02207-y"
+    },
+    {
+      "label": "10.2214/AJR.05.0562",
+      "url": "https://doi.org/10.2214/AJR.05.0562"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**角色**：胸腰段**主要前段髓質動脈**,加強前脊髓動脈供應下段脊髓(option A 對)。",
+    "**特徵形態**：與前脊髓動脈吻合處呈**『hairpin（髮夾）轉折』**;故「**coathook configuration**」**錯誤**＝題目正解（2016-169 正解 B）。",
+    "**分支**：hairpin 含一小**升支**與主要**降支**至前脊髓動脈(option C 對)。",
+    "**起源**：**左側佔多（~77%）、T9–T12 最常見**（整體 T8–L1;範圍 T3–L4）(option D 對)。"
+  ],
+  "management": "",
+  "name": "Artery of Adamkiewicz",
+  "nameZh": "亞當凱維茲動脈",
+  "slug": "artery-of-adamkiewicz",
+  "subspecialty": "NR"
+}

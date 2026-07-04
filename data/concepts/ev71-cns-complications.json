@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**嬰幼兒腸病毒第71型感染合併脊髓病變導致之急性弛緩性麻痺，MRI典型表現為病灶同側（ipsilateral）前角細胞（anterior horn cells）之T2高訊號合併強化，並非雙側後柱（posterior columns）或雙側前角區受累；合併脊髓神經根炎時，馬尾腹側神經根可見增厚與強化。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**典型受累部位**：**同側（ipsilateral）前角細胞（anterior horn cells）**，MRI呈T2高訊號合併強化。",
+    "**合併脊髓神經根炎（radiculomyelitis）**：可見馬尾腹側神經根（ventral nerve roots of cauda equina）增厚與強化。"
+  ],
+  "management": "",
+  "name": "Enterovirus 71 (EV71) — CNS Complications",
+  "nameZh": "腸病毒71型中樞神經併發症",
+  "slug": "ev71-cns-complications",
+  "subspecialty": "NR"
+}

@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**MR Elastography（MRE）為「非侵入性（non-invasive）」MRI 技術：以外部驅動器產生 shear wave、經相位對比編碼波速換算組織硬度（stiffness）；NPH 患者腦部硬度「增加」（尤以 occipital lobe 顯著）——「invasive」為錯誤敘述。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3174/ajnr.A4560"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.2020190039"
+    }
+  ],
+  "imagingFindings": "- NPH 之 MRE 判讀重點：腦硬度**增加**且以枕葉最明顯，可作為與其他失智鑑別及分流（shunt）療效研究的潛在指標。\n- 量化硬度時須留意 **edge effect / partial volume / CSF contamination** 造成的誤差，採用抗雜訊與邊緣偽影的後處理。\n- MRE 為非侵入性，不涉穿刺或對比劑注射之侵入性風險。\n\n> [!note] 考點：關於 MR Elastography，何者為錯誤？\n> **An invasive MRI exam** 為錯誤——MRE 為**非侵入性**，以外部振動源產生 shear wave 於 MRI 內量測硬度。其餘正確：可偵測 brain stiffness；須將 edge effects/partial volume/CSF contamination 降至最低；NPH 中 MRE 顯示 cerebrum 硬度增加、尤以 occipital lobe。",
+  "keyPoints": [
+    "MRE 為**非侵入性**技術：外部被動驅動器（passive driver）將機械振動傳入腦部產生 **shear wave**，以 phase-contrast（相位對比）序列編碼波速；波速正比於組織剪切模數（shear modulus）／硬度。",
+    "可**量化腦組織硬度（stiffness）**，用於評估腫瘤硬度、退化性疾病等。",
+    "**NPH（normal pressure hydrocephalus）**：MRE 顯示腦部（cerebrum）硬度**顯著增加**，於 **occipital lobe（P<.001）**、parietal、temporal lobe 顯著；frontal lobe、深部灰白質、cerebellum 則無顯著差異。",
+    "判讀須將 **edge effects、partial volume、CSF contamination** 之影響降至最低（後處理需抗雜訊與邊緣偽影）。"
+  ],
+  "management": "",
+  "name": "MR Elastography of the Brain",
+  "nameZh": "磁振彈性成像",
+  "slug": "mr-elastography-brain",
+  "subspecialty": "NR"
+}

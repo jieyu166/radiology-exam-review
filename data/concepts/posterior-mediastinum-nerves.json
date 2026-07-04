@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**後縱膈腫瘤最少侵犯的神經是phrenic nerve——因為phrenic nerve走行於前縱膈（沿心包外側），根本不在後縱膈的路徑上；vagus nerve、recurrent laryngeal nerve、intercostal nerve則皆走行於後縱膈範圍內，容易受後縱膈腫瘤侵犯。記憶鉤：「膈神經走前面，後縱膈腫瘤攻不到它」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Phrenic nerve（膈神經）**：走行於**前縱膈**（沿心包外側下行至橫膈），**不在後縱膈路徑內**，故後縱膈腫瘤**相對罕見侵犯**膈神經。",
+    "**Vagus nerve（迷走神經）**：走行於後縱膈，沿食道周圍下行，後縱膈腫瘤可侵犯。",
+    "**Recurrent laryngeal nerve（喉返神經）**：右側繞右鎖骨下動脈、左側繞主動脈弓後上行於氣管食道溝（後縱膈範圍），可受後縱膈腫瘤侵犯。",
+    "**Intercostal nerve（肋間神經）**：走行於後縱膈/脊椎旁區域，後縱膈腫瘤（尤其神經源性腫瘤）可侵犯。"
+  ],
+  "management": "",
+  "name": "Thoracic Nerves — Posterior Mediastinum Involvement",
+  "nameZh": "後縱膈神經",
+  "slug": "posterior-mediastinum-nerves",
+  "subspecialty": "CH"
+}

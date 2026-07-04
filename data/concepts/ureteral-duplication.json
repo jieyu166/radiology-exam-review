@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**輸尿管/集尿系統重複『女性較常見』（非男性）；依 Weigert-Meyer 法則：上極（upper pole）輸尿管開口偏『內下（medial/inferior）』、ectopic、易合併 ureterocele → 阻塞；下極（lower pole）輸尿管開口偏『外上（lateral/superior）』、正位、易 VUR。** 判讀分水嶺：**女性好發；upper pole→內下/ureterocele/阻塞、lower pole→外上/VUR（短壁內段）；胚胎為單一 Wolffian duct 生兩個 ureteric bud；雙側完全重複時四管可正位開於膀胱三角。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-12768（輔助來源",
+      "url": "https://doi.org/10.53347/rID-12768（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **最佳診斷線索（STATdx）**：**上極集尿系統擴張 + 膀胱內 ureterocele 即可診斷**；**重複腎較對側大（多 >95 百分位長度）、上下極間有腎實質帶**；雙側重複 10-20%。\n- **US 判讀（STATdx）**：**勿把擴張腎盞誤為囊腫**——用矢狀/冠狀面把「囊腫」連回腎盂；上極擴張較下極重；嚴重阻塞致 dysplastic（皮質變薄回音增 ± 囊）；**單側腎增大有時是唯一線索**（無集尿系統擴張時）。\n- **判讀陷阱（STATdx）**：**橫斷面單獨易誤診為 UPJ obstruction；ureterocele 於膀胱空時可誤為膀胱、膀胱脹時可被壓扁**——須多時間點、實時追蹤腎盂→輸尿管→ureterocele。\n- **drooping lily**：上極阻塞/積水使下極腎盂被下推，IVU/VCUG 呈「下垂百合」。\n- **ectopic ureter 插入處（STATdx）**：**最常插入膀胱；膀胱外——男性射精管/輸精管/副睪/精囊，女性子宮/陰道，尿道最少見**（女孩致持續滴尿失禁、男孩 epididymitis）。\n- **DDx（STATdx）**：**UPJ obstruction（腎盂擴張、輸尿管不擴、無 ureterocele）、reflux（全集尿系統擴張、無 ureterocele、掃描間變異）、simple ureterocele（正位插入、非重複）、congenital megaureter（梭形輸尿管擴張、男性左側為主）**。\n- **陷阱**：勿記成男性好發；Weigert-Meyer 上內下/下外上要背熟。",
+  "keyPoints": [
+    "**性別**：**女性較常見**（非男性）。",
+    "**Weigert-Meyer 法則**：",
+    "**上極輸尿管**：**ectopic 開口偏內下（medial/inferior）**於下極輸尿管 → **常 end 於 ureterocele、致阻塞**。",
+    "**下極輸尿管**：**正位（orthotopic）開口偏外上（lateral/superior）** → 短壁內段易 **VUR**。",
+    "**胚胎**：單一 Wolffian（mesonephric）duct 生**兩個 ureteric bud**；較早分離者成下極（向上外遷移），較晚者成上極（維持內下開口）。",
+    "**雙側完全重複**：四條輸尿管可**正位開於膀胱三角**。"
+  ],
+  "management": "1. **流行病學（STATdx）**：**尿路最常見先天畸形**；**部分/不完全重複（輸尿管於膀胱前匯合）1:150、重複併異位 ureterocele 1:9,000 活產**；**單側 83-90%、ureterocele 見於達 50% 重複、女性較常見**。\n2. **胚胎（STATdx）**：**ureteric bud 過早分裂/重複，副 ureteric bud 亦插入 metanephric blastema**；左側較常；完全 vs 部分（部分較常）。\n3. **合併異常（STATdx）**：**女性 50% 合併婦科（müllerian）異常**——產後須以骨盆 US/MR 搜尋；亦見於 VACTERL 等多重異常症候群；chromosomal microarray 無顯著額外助益。\n4. **自然史（STATdx）**：**阻塞上極因尿滯留易感染**；**產前診斷 + 預防性抗生素 → 降 urosepsis/腎損、較年輕矯正、reflux 較高緩解率、術後復發感染少**；未產前診斷者多於嬰兒期以反覆 UTI/hydronephrosis/女孩如廁訓練失敗/男孩 epididymitis 表現。\n5. **處置（STATdx）**：**產前一般不介入**（除 ureterocele 致膀胱出口阻塞+羊水過少可考慮切開）；產後完整評估（US/VCUG/核醫腎功能/複雜者 MR）；手術（ureterocele 內視鏡切開/unroofing、輸尿管重植、heminephroureterectomy 若上極功能差）、reflux 依級數保守或手術。\n\n> [!note] 考點：關於 ureteral duplication 何者「非真」?\n> 「**輸尿管重複男性較常見**」非真——**女性較常見**。Weigert-Meyer（上極內下開口/下極外上開口）、雙側完全重複四管可正位開於三角、完全重複可合併他異常皆正確。",
+  "name": "Ureteral Duplication & Weigert-Meyer Rule",
+  "nameZh": "輸尿管重複",
+  "slug": "ureteral-duplication",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Osteochondroses 為骨化中心發生缺血性壞死（avascular necrosis）之一群疾病；常見包括 Panner disease（capitellum）、Kienbock disease（月狀骨）、Legg-Calve-Perthes（股骨頭）、Freiberg disease（蹠骨頭）、Kohler disease（足舟骨）。注意：Blount disease（脛骨內翻）並非 AVN，而是源於機械壓力異常導致之生長板障礙。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Panner disease**：capitellum（肱骨小頭）之 osteochondrosis，好發於 5-10 歲兒童。",
+    "**Kienbock disease**：lunate（月狀骨）之 AVN，好發於年輕成人，與反覆微創傷及 ulnar variance 相關。",
+    "**Legg-Calve-Perthes disease**：femoral head（股骨頭）之 AVN，好發於 4-8 歲男童。詳見 [[developmental-dysplasia-hip]]。",
+    "**Freiberg disease**：metatarsal head（蹠骨頭，通常為第二蹠骨）之 osteochondrosis。",
+    "**Kohler disease**：tarsal navicular（足舟骨）之 osteochondrosis，好發於 3-7 歲。"
+  ],
+  "management": "",
+  "name": "Osteochondroses — AVN-Related Bone Diseases",
+  "nameZh": "骨軟骨症",
+  "slug": "osteochondroses",
+  "subspecialty": "MSK"
+}

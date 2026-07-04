@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**硬化緣（sclerotic border）代表病灶「生長慢、宿主骨來得及反應」；地圖狀溶骨病灶（geographic lytic lesion）的鑑別以「年齡＋位置（骨骺/幹骺/骨幹、中央/偏心）＋硬化緣有無」三者切入。巨細胞瘤（GCT）的關鍵是『窄移行帶但「缺」硬化緣（約 80–90% 無硬化）＋無內部鈣化』，反映其局部侵襲性；ABC/NOF/軟骨母細胞瘤/單純骨囊腫則有（薄）硬化緣。** 判讀分水嶺：**缺硬化緣組＝GCT、（短管骨）內生軟骨瘤、棕色瘤、漿細胞瘤、軟骨肉瘤、LCH、Paget（V 形非硬化緣）、急性骨髓炎；有硬化緣組＝NOF/纖維皮質缺損、ABC、軟骨母細胞瘤、單純骨囊腫、纖維性發育不良、Brodie 膿瘍、CMF、amyloid。GCT 是最常考的「缺硬化緣」代表。記憶鉤：GCT 偏心、達 subchondral、無硬化、無鈣化。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1385（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1385（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **硬化緣＝生長慢**：清楚硬化緣反映慢速惰性生長；**GCT 雖屬良性/局部侵襲，卻常「無」硬化緣（僅窄移行帶）**，是其活躍性線索。\n- **GCT 判讀組合**：**溶骨、偏心、metaepiphyseal 延伸至 subchondral（多距關節面 1 cm 內）、生長板已閉合、缺硬化緣（80–90%）、無內部鈣化、皮質變薄/膨脹/穿破**。\n- **DDx 快篩（依位置＋年齡）**：偏心幹骺年輕＝NOF/ABC；骨骺＝軟骨母細胞瘤（有硬化）vs GCT（無硬化、達 subchondral）；中央幹骺＝內生軟骨瘤/單純骨囊腫/纖維性發育不良；>50 歲中央缺硬化含鈣化基質＝軟骨肉瘤。\n- **鑑別對照**：同為溶骨，**ABC/NOF/軟骨母細胞瘤/單純骨囊腫有（薄）硬化緣、GCT 無**——是床邊快速區分。\n- **陷阱**：GCT 少數（<10%）可有些許硬化，勿因少量硬化即排除；棕色瘤/漿細胞瘤/軟骨肉瘤亦缺硬化緣需一併鑑別。",
+  "keyPoints": [
+    "**鑑別三要素**：**年齡、位置（骨骺/幹骺/骨幹、中央/偏心）、硬化 vs 非硬化緣**。",
+    "**通常「缺」硬化緣**：",
+    "**巨細胞瘤（GCT）**——**缺硬化緣為關鍵特徵（~80–90% 無硬化）、無內部鈣化**；metaepiphyseal 偏心、延伸至 subchondral。",
+    "中央/短管骨之內生軟骨瘤、**副甲亢棕色瘤（osteoclastoma）**、**漿細胞瘤（plasmacytoma）**、**軟骨肉瘤**、**LCH**、**Paget（V 形非硬化緣）**、急性骨髓炎、**hemophilia pseudotumor**、conventional osteosarcoma。",
+    "**通常「有」硬化緣**：**NOF/fibroxanthoma、纖維皮質缺損、ABC（薄硬化）、軟骨母細胞瘤、單純骨囊腫（薄硬化）、纖維性發育不良、Brodie 膿瘍、chondromyxoid fibroma、osteochondral lesion、amyloid（薄硬化）、adamantinoma（部分硬化）**。"
+  ],
+  "management": "1. **原則**：硬化緣＝慢速良性；**窄移行帶但缺硬化緣＝較活躍（如 GCT）**。\n2. **GCT 關鍵**：缺硬化緣（~80–90%）＋無內部鈣化＋metaepiphyseal 偏心達 subchondral、生長板閉合。\n3. **缺硬化緣組**：GCT、（短管骨）內生軟骨瘤、棕色瘤、漿細胞瘤、軟骨肉瘤、LCH、Paget、急性骨髓炎。\n4. **有硬化緣組**：NOF/纖維皮質缺損、ABC、軟骨母細胞瘤、單純骨囊腫、纖維性發育不良、Brodie 膿瘍、CMF、amyloid。\n5. **鑑別策略**：以「年齡＋位置＋硬化緣有無」三軸快速縮小地圖狀溶骨病灶鑑別。\n\n> [!note] 考點：何種骨病灶通常缺乏硬化緣？\n> **巨細胞瘤（Giant cell tumor）**——GCT 通常窄移行帶但**無硬化緣（~80–90%）、無內部鈣化**。動脈瘤性骨囊腫、表皮樣包涵囊腫、非骨化性纖維瘤皆通常「具」硬化緣，與 GCT 相反。",
+  "name": "Bone Lesions — Sclerotic Border Presence/Absence",
+  "nameZh": "骨病灶硬化緣",
+  "slug": "bone-lesion-sclerotic-border",
+  "subspecialty": "MSK"
+}

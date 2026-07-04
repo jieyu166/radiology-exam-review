@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**心臟 CT 影像品質：beam-hardening 用『高 kVp/濾片/虛擬單能量』降低、noise 用『迭代重建』降低、slab/banding 因『掃描期間對比變化』。** 判讀分水嶺一：**beam-hardening（鈣化/對比劑旁暗紋）→ 增 tube potential(kVp)、X 光濾片、虛擬單能量高能影像、iterative recon**;判讀分水嶺二：**quantum mottle(noise)→ 增 mAs/kVp/厚度、降 kernel 銳利度、『iterative reconstruction』;slab/banding artifact → 掃描期間 contrast enhancement 變化（多 slab 接合處）**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Beam-hardening artifact**：鈣化/高對比旁的暗紋;**降低法＝增 tube potential(高 kVp)、X 光 beam filtration、虛擬單能量高能影像、iterative reconstruction**。",
+    "**非心臟部位範例（後顱窩岩骨間暗帶）**：兩側緻密岩骨(petrous bone)間之黑色帶狀假影(dark band artifact)亦為典型beam hardening artifact——X光束通過高密度骨質後低能光子被優先吸收、能譜偏移，可用**calibration correction + iterative beam hardening correction**降低。",
+    "**Noise（quantum mottle）**：低光子量;**降低法＝iterative reconstruction**（亦可增 mAs/kVp/厚度、降 kernel 銳利度）。",
+    "**Slab/banding artifact**：軸狀分段(slab)接合處的條帶;**成因＝掃描期間對比劑強化隨時間變化**（非 beam hardening、非 helical 模式）。"
+  ],
+  "management": "",
+  "name": "Cardiac CT Artifacts & Image Quality",
+  "nameZh": "心臟CT假影",
+  "slug": "cardiac-ct-artifacts",
+  "subspecialty": "CV"
+}

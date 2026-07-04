@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**乳房不對稱四型的核心差異在於：投影數、範圍、及是否「新出現或變大」。** 記憶梯度：(one-view) asymmetry 只在一個投影可見 → focal asymmetry 兩投影皆見但邊界向內凹（concave-outward，非 mass 的外凸） → global asymmetry 超過一象限但多為正常變異 → **developing asymmetry 是新出現/變大者，約 15% 惡性，US 陰性也不能免切片**。可疑度排序：**focal > global**（別被範圍大的 global 嚇到，它反而最常是正常）。",
+  "differentialDiagnosis": [
+    "**vs 真腫塊（mass）**：mass 為**三維佔位、邊界外凸（convex-outward）、各投影皆可見且具中央緻密**;asymmetry **無外凸邊界、無中央緻密、其內夾雜脂肪**。",
+    "**vs summation artifact（重疊偽影）**：偽影僅在**單一投影**出現,點壓迫或加照後**散開消失**;真實 focal asymmetry **跨投影持續存在且形狀一致**。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.06.0413",
+      "url": "https://doi.org/10.2214/AJR.06.0413"
+    },
+    {
+      "label": "10.1148/rg.2016150123",
+      "url": "https://doi.org/10.1148/rg.2016150123"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Breast Asymmetries (BI-RADS Mammography)",
+  "nameZh": "乳房不對稱",
+  "slug": "breast-asymmetry",
+  "subspecialty": "Breast"
+}

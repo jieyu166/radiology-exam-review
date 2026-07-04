@@ -1,0 +1,38 @@
+{
+  "checked": false,
+  "definition": "**感染性（mycotic）動脈瘤是病原體感染破壞管壁形成的偽動脈瘤（pseudoaneurysm），影像關鍵不在「形狀」而在「演變」：囊狀/分葉、偏心、好發非典型部位、且短期內快速增大或新生。** 主動脈段判讀分水嶺：**囊狀/偏心瘤＋鈣化環中斷＋主動脈旁發炎/軟組織/積氣＋快速增大**；顱內段判讀分水嶺：**遠端分支（distal MCA/PCA）的不規則/梭狀瘤、常多發、可在數天到數週內新生或快速擴大**。記憶鉤：退化性真性動脈瘤＝鈣化環完整、緩慢、好發腎下主動脈近端大血管；mycotic＝管壁「被吃掉」、快速、好發非典型遠端位置。",
+  "differentialDiagnosis": [
+    "**退化性（atherosclerotic）真性動脈瘤**：fusiform、管壁**環狀鈣化完整**、緩慢增大、好發腎下主動脈/近端大血管；感染瘤反之為囊狀偏心、鈣化中斷、快速變化、好發非典型遠端部位。",
+    "**發炎性動脈瘤（inflammatory aneurysm）**：瘤周亦可發炎/FDG 攝取，是 PET 偽陽性主因，須靠臨床與微生物學區分。",
+    "**顱內：典型囊狀（berry）動脈瘤**：好發 Willis 環近端分叉處、單發、不會數天內新生；感染性則遠端、多發、快速變化。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00261-010-9602-z"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s10140-018-1643-6"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1371/journal.pone.0258702"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2176/nmc.oa.2019-0051"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.neurad.2022.12.003"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Mycotic (Infected) Aortic Aneurysm",
+  "nameZh": "感染性動脈瘤",
+  "slug": "mycotic-aneurysm",
+  "subspecialty": "CV"
+}

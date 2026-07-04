@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Fabry 與 Danon disease 皆可造成左心室肥厚（HCM 的重要 mimicker），Gaucher disease 則主要侵犯骨髓/脾/肝，不造成心室肥厚——這是本題判讀分水嶺。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Fabry disease**：X 染色體隱性遺傳之**溶酶體儲積症（lysosomal storage disease）**，因 α-galactosidase 缺乏所致；於不明原因左心室肥厚男性病人中盛行率約 **3–6%**。肥厚型態多為**同心圓（concentric）**，但晚期可呈不對稱；晚期病人 late gadolinium-enhanced MRI 可見**中壁（midwall）強化**，常見於心臟**基底部下側壁（inferolateral wall at the base）**併局部室壁變薄。",
+    "**Danon disease**：X 染色體顯性遺傳，因 **LAMP2（lysosomal-associated membrane protein 2）基因突變**所致之**肝醣儲積症（glycogen storage disease）**；臨床三主徵為**心肌病、骨骼肌病、智能障礙（mental retardation）**。",
+    "**Gaucher disease**：**人類最常見之溶酶體儲積症**，因 glucocerebroside 於巨噬細胞溶酶體堆積（尤好發骨髓、脾臟〔脾腫大〕、肝臟〔肝腫大〕）；**不造成心室肥厚**。骨骼表現：骨質減少、骨壞死、H 型脊椎、骨內膜扇形變（endosteal scalloping）、Erlenmeyer flask 畸形、副鼻竇填塞。"
+  ],
+  "management": "",
+  "name": "Cardiac Storage Diseases (Fabry / Danon / Gaucher)",
+  "nameZh": "心臟儲積症",
+  "slug": "cardiac-storage-disease",
+  "subspecialty": "CV"
+}

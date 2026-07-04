@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**Clear cell RCC 是最常見亞型（~70%）且『高血流（hypervascular）』,動脈期明顯強化＋洗出;papillary RCC 則『乏血管（hypovascular）』、均質、強化弱。** 判讀分水嶺：**clear cell＝富血管、不均、可含脂肪/壞死/出血,CT/MR/血管攝影皆呈高強化;papillary＝乏血管、均質、低度漸進強化,T2 常低訊號、易出血含鐵血黃素;chromophobe＝中等強化、輻輪狀（spoke-wheel）。**",
+  "differentialDiagnosis": [
+    "**60%清晰細胞RCC**：MR上可見**病灶內微觀脂肪(intralesional microscopic fat)**，於反相位化學位移影像上相對正相位訊號下降（>25%訊號丟失具預測性）。",
+    "**乳突狀RCC(Papillary RCC)**：典型呈**低T2訊號**、**乏血管(hypovascular)**合併**漸進性強化(progressive enhancement)**。",
+    "**缺脂性AML(Lipid-poor AML)**：因富含平滑肌，MR呈**均質**、**T2低訊號**合併**T1高訊號**。",
+    "**中央星狀疤痕與輻輪狀強化非oncocytoma專屬**：Oncocytoma於MR可見**中央星狀疤痕(central stellate scar)**與**輻輪狀強化(spoke-wheel enhancement)**，但**此二徵象並非病理特異性(pathognomonic)**——**嫌色細胞癌(chromophobe RCC)**因與oncocytoma可能源自共同前驅細胞，組織學與影像上有重疊，**亦可呈現相同徵象**，故不可僅憑此二徵象確診oncocytoma。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Clear cell RCC**：**最常見亞型,約占所有 RCC 70%**;**hypervascular**——CT/MR/導管血管攝影皆呈明顯強化（動脈期高強化＋洗出）;常不均（壞死、出血、囊變、可含脂肪）。",
+    "**Papillary RCC**：第二常見;**hypovascular、均質、低度漸進強化**;T2 常低訊號,易出血/含鐵血黃素;預後相對較好。",
+    "**Chromophobe RCC**：中等強化,可呈 spoke-wheel 強化;預後佳。",
+    "**判讀價值**：強化程度有助亞型推測——明顯不均高強化偏 clear cell;乏血管均質偏 papillary。",
+    "**鈣化**：RCC鈣化於**papillary與chromophobe亞型較常見**（相對clear cell較少見）。",
+    "**預後比較**：**Clear cell RCC之預後較papillary與chromophobe亞型差**——clear cell較易有症狀、較常於晚期發現、轉移傾向較高；並非clear cell預後較佳、轉移風險較低。"
+  ],
+  "management": "",
+  "name": "Renal Cell Carcinoma — Subtypes & Imaging",
+  "nameZh": "腎細胞癌",
+  "slug": "renal-cell-carcinoma",
+  "subspecialty": "ABD"
+}

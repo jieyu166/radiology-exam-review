@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**VHL 三大腹部器官表現的判讀口訣：胰臟看「囊腫最多、NET 較年輕」、腎臟看「RCC 較年輕、CT 比 US 準」、腎上腺看「嗜鉻細胞瘤惡性比例極低」——三者皆與偶發性(sporadic)病灶相反或不同，是本病考題的核心分水嶺。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**胰臟囊腫（pancreatic cysts）**：VHL 胰臟最常見表現，通常**多發且無症狀**。",
+    "**漿液性囊腺瘤（serous cystadenomas）**：**不與胰管相通**。",
+    "**VHL 相關胰臟神經內分泌腫瘤（NET）**：**可為多發**；發病年齡**較偶發性(sporadic)NET年輕**（非較年長）——此為本題最易誤判處。"
+  ],
+  "management": "",
+  "name": "Von Hippel-Lindau Disease (VHL) — Abdominal Manifestations",
+  "nameZh": "馮希伯-林道症候群",
+  "slug": "von-hippel-lindau-disease",
+  "subspecialty": "ABD"
+}

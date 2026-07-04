@@ -1,0 +1,38 @@
+{
+  "checked": false,
+  "definition": "**乾癬性關節炎的影像特點是「破壞與增生同時存在」：DIP 為主的 mouse-ear 侵蝕、pencil-in-cup 搭配蓬鬆骨膜炎與香腸指，這種「邊侵蝕邊長骨」的雙重面貌是血清陰性脊椎關節病的特徵。** 判讀分水嶺一：**新骨形成（fluffy periostitis/附著點炎）與侵蝕並存**，純侵蝕沒新骨→想 RA。判讀分水嶺二：**gull-wing 侵蝕是 EOA（中央侵蝕），非乾癬**——考題最愛的陷阱。記憶鉤：乾癬「邊長新骨邊咬掉舊骨」；鷗翼（gull-wing）只在 EOA 展翅。",
+  "differentialDiagnosis": [
+    "**vs RA**：PsA 不對稱／DIP 為主／RF 陰性／**增生（新骨、periostitis、enthesophyte）**＋無骨疏鬆；RA 對稱／近端（MCP-PIP）／RF 陽性／純侵蝕＋近關節骨疏鬆。靜態 MRI 之滑膜炎／侵蝕本身**無法**鑑別 PsA 與 RA，須靠 dactylitis／enthesitis／sacroiliitis 等其他特徵。",
+    "**vs AS**：PsA 骶髂炎不對稱、syndesmophyte 粗厚蓬鬆不對稱；AS 對稱、thin marginal syndesmophyte、bamboo spine。",
+    "**vs 侵蝕性 OA（陷阱題）**：**gull-wing 中央侵蝕屬 erosive OA**，非乾癬；entheseal 異常／BME 亦見於 OA，US／MRI 上機械性、退化性與發炎性附著點病變高度重疊，難絕對區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.15557/JoU.2016.0007"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.15557/JoU.2016.0018"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1002/jcu.23170"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.clinthera.2023.07.017"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1177/24755303211066089"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Psoriatic Arthritis — Imaging",
+  "nameZh": "乾癬性關節炎",
+  "slug": "psoriatic-arthritis",
+  "subspecialty": "MSK"
+}

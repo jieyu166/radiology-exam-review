@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Mosaic attenuation + air trapping 的典型病因是 small airway disease；呼氣相見 air trapping 是把小氣道病因和血管性病因分開的關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.rcl.2022.06.009"
+    }
+  ],
+  "imagingFindings": "- **鑑別分水嶺—呼氣相 air trapping**：小氣道疾病在**呼氣相**呈低密度區「留不掉」（air trapping），密度差加大；血管性 mosaic 在呼氣相密度差不隨之加大 \n- **輔助特徵定位**：低密度區內血管變細＋合併 tree-in-bud/centrilobular nodules/bronchiectasis → 傾向小氣道；主肺動脈擴大、右心負荷、blunted vessels → 傾向血管性（如 CTEPH） \n- **與 GGO 型 mosaic 區分**：任何造成 GGO 的急/慢性病變也可呈 mosaic，但屬肺泡/間質成分，非 air trapping 型 \n- **易混淆選項**：chronic eosinophilic pneumonia 為周邊實質化、cryptogenic organizing pneumonia 為遊走性實質化，兩者非 air-trapping mosaic 型 \n- 少數個案需切片確診，多數可由影像＋臨床縮小鑑別",
+  "keyPoints": [
+    "Mosaic attenuation（馬賽克密度）可由小氣道、血管、肺泡/間質病變造成，需以輔助特徵縮小鑑別",
+    "**Small airway disease 是 mosaic + air trapping 的典型病因**：constrictive/cellular bronchiolitis 造成局部通氣與灌注下降",
+    "血管性病因（如 chronic thromboembolic pulmonary hypertension）也可造成 mosaic，但機轉為灌注不均、通常無真正 air trapping",
+    "呼氣相 HRCT 是確認 air trapping、指向小氣道病因的關鍵"
+  ],
+  "management": "1. Mosaic attenuation 病因橫跨氣道、血管、肺泡/間質，臨床病史很重要 \n2. Constrictive bronchiolitis 導致小氣道纖維化，是慢性 air trapping 常見機轉 \n3. CTEPH 是血管性 mosaic 的重要可治療病因，勿誤判為單純小氣道病 \n4. 呼氣相 HRCT 應納入疑似小氣道病的檢查流程 \n5. 切片在明確診斷中少見需要 \n\n> [!note] 考點：Air trapping 合併 mosaic lung attenuation 最典型的病因為何？\n> Small airway disease —— 呼氣相可確認 air trapping。血管性病因也可致 mosaic，但機轉為灌注不均、無真正 air trapping。",
+  "name": "Small Airway Disease Imaging",
+  "nameZh": "小氣道疾病影像",
+  "slug": "small-airway-disease-imaging",
+  "subspecialty": "CH"
+}

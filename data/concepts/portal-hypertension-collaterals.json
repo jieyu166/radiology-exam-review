@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**門脈高壓側枝的供血血管要記牢：食道／胃靜脈曲張由 left gastric（coronary）vein 供應、臍旁靜脈曲張（caput medusae）由 paraumbilical veins（Sappey 下靜脈）供應而「非 mesenteric veins」，脾腎分流由胃／脾靜脈引流入左腎靜脈。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00261-011-9811-0"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.331125037"
+    }
+  ],
+  "imagingFindings": "- **MDCT（含 MIP／VR 重組）為評估側枝的最佳工具**：可依引流方向（上腔 vs 下腔靜脈）系統化描繪各路徑\n- **關鍵判讀分水嶺**：paraumbilical varices 供血來自 paraumbilical veins，非 mesenteric veins（此為考題錯誤敘述的來源）\n- **臨床關聯**：食道／胃靜脈曲張最常導致消化道出血；脾腎分流常與肝性腦病相關；臍旁靜脈為門脈系統的自然減壓路徑\n- **胃靜脈曲張引流系統**：分胃食道（奇靜脈）系與胃膈系（經左下膈靜脈入左腎靜脈或下腔靜脈），影響 TIPS 與 BRTO 治療選擇",
+  "keyPoints": [
+    "門體側枝為門脈高壓的後果，依引流至上腔或下腔靜脈分類",
+    "**食道／食道旁靜脈曲張**：由 **left gastric（coronary）vein** 供應，引流入奇靜脈系統",
+    "**臍旁靜脈曲張（caput medusae）**：由 **paraumbilical veins（Inf. vein of Sappey）** 供應，引流入上／下腹壁靜脈——**非 mesenteric veins**",
+    "**脾腎／胃腎分流**：由胃靜脈與脾靜脈引流入左腎靜脈"
+  ],
+  "management": "1. 側枝循環反映門脈高壓，多見於肝硬化。\n2. 主要臨床風險為消化道出血與肝性腦病。\n3. 食道／胃靜脈曲張最常見出血。\n4. 脾腎分流較常導致肝性腦病。\n5. 精確側枝地圖有助介入治療（TIPS／BRTO）決策。\n\n> [!note] 考點：關於門脈高壓常見側枝，下列何者敘述「錯誤」？\n> **C：Paraumbilical varices are typically supplied by mesenteric veins（錯）**。臍旁靜脈曲張由 paraumbilical veins（Sappey 下靜脈）供應，非 mesenteric veins。",
+  "name": "Portal Hypertension — Portosystemic Collaterals",
+  "nameZh": "門脈高壓側枝循環",
+  "slug": "portal-hypertension-collaterals",
+  "subspecialty": "ABD"
+}

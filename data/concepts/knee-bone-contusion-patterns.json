@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**膝關節骨挫傷的分佈型態是受傷機轉的「足印(footprint)」——外側股骨髁的骨挫傷見於pivot shift injury、clip injury、transient lateral patellar dislocation三種機轉，但「合併外翻力的過度伸直傷(hyperextension injury with valgus force)」的骨挫傷位於脛骨與股骨的『內側』前緣，而非外側股骨髁。** 判讀分水嶺：**Pivot shift injury（減速-旋轉-外翻應力）：外側脛骨平台後側+外側股骨髁髁間窩溝附近;Clip injury（純外翻直接撞擊）：外側股骨髁（直接撞擊處）、內側股骨髁/內側脛骨平台可有較小範圍水腫（MCL撕脫應力）;Hyperextension injury：脛骨平台前側撞擊股骨髁前側形成「kissing」挫傷，若合併外翻力則挫傷偏向內側，非外側股骨髁;Transient lateral patellar dislocation：外側股骨髁+內側髕骨。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Pivot shift injury（減速-旋轉-外翻應力）**：足著地時外翻應力+股骨內轉致ACL斷裂，脛骨相對股骨前向半脫位——骨挫傷見於**外側脛骨平台後側**與**外側股骨髁**（髁間窩溝附近）。",
+    "**Clip injury（純外翻直接撞擊）**：外側直接撞擊致**外側股骨髁**大範圍骨挫傷（直接暴力處）；**內側股骨髁或內側脛骨平台**可見較小範圍水腫，反映MCL撕脫應力傷。",
+    "**Hyperextension injury（過度伸直傷）**：脛骨平台前緣撞擊股骨髁前緣，形成對稱的「kissing」骨挫傷型態；**若合併外翻力，kissing挫傷位置會偏向『內側』**（脛骨與股骨前側的內側面），非外側股骨髁。",
+    "**Transient lateral patellar dislocation（髕骨暫時性外側脫位）**：骨挫傷見於**外側股骨髁**與**內側髕骨**。"
+  ],
+  "management": "",
+  "name": "Knee Bone Contusion Patterns — Mechanism of Injury",
+  "nameZh": "膝關節骨挫傷型態",
+  "slug": "knee-bone-contusion-patterns",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**前縱膈腔（ITMIG 分類的 prevascular compartment）腫塊記「4T」；neurogenic tumor 屬後縱膈（paravertebral），不是前縱膈；cardiophrenic angle 病灶另成一組。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.rcl.2020.11.007"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.rmr.2011.11.015"
+    }
+  ],
+  "imagingFindings": "- **Cardiophrenic angle（心膈角）好發病灶自成一組**：pericardial cyst（最常見，水樣密度、不強化）、Morgagni hernia（含脂肪/腸繫膜/腸管，可與腹腔相通）、腫大 lymph node、以及 pericardial fat pad（脂肪密度） \n- **Neurogenic tumor 落在 paravertebral（後）腔**，常沿脊椎旁、可有 neural foramen 擴大或 dumbbell 形；不會出現在心膈角/前縱膈 \n- 前縱膈腫塊判讀先看密度：純脂肪→teratoma/脂肪瘤；含鈣化/脂肪/液體混合→teratoma；均質軟組織+局部胸腺→thymoma；瀰漫浸潤跨越血管、包繞大血管→lymphoma \n- 小型、無症狀、純囊性（單純水樣、薄壁、無強化）前縱膈病灶多屬良性（如 thymic/pericardial cyst），通常僅需追蹤",
+  "keyPoints": [
+    "前縱膈（prevascular）是縱膈腫塊最常見部位，成人逾半數縱膈腫塊在此，約 60% 為惡性",
+    "常見四大類「4T」：Thyroid（甲狀腺）、Thymoma（胸腺瘤，最常見原發前縱膈腫瘤）、Teratoma/germ cell tumor、Terrible lymphoma",
+    "ITMIG 以橫斷影像將縱膈分為 prevascular、visceral、paravertebral 三腔，取代舊有 anterior/middle/posterior 投影式分法",
+    "**Neurogenic tumor 好發於 paravertebral（後縱膈），非前縱膈**"
+  ],
+  "management": "1. 前縱膈腫塊成人約 60% 為惡性，發現後常需組織診斷以定治療策略 \n2. 影像＋臨床常無法確診，切片方式（經胸穿刺 vs 手術）依病灶位置與可近性選擇 \n3. Thymoma 好發於中老年，可合併 myasthenia gravis \n4. Lymphoma、germ cell tumor 好發於年輕族群 \n5. ITMIG 三腔分類的主要價值在標準化跨科溝通與鑑別診斷框架 \n\n> [!note] 考點：下列何者「不」是前縱膈（心膈角）好發病灶？\n> Neurogenic tumor —— 它好發於後縱膈（paravertebral compartment）。Pericardial cyst、Morgagni hernia、lymph node masses 皆為心膈角/前縱膈區病灶。",
+  "name": "Anterior Mediastinum Masses",
+  "nameZh": "前縱膈腔腫塊",
+  "slug": "anterior-mediastinum-masses",
+  "subspecialty": "CH"
+}

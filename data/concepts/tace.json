@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**TACE 是 BCLC 中期 HCC 的標準治療，禁忌/風險核心在「門脈血流與肝功能儲備」：任何削減肝灌流或肝功能的因素皆為禁忌，TIPS 是典型陷阱——TIPS 分走門脈血，使 TACE 後肝衰竭風險升高（非降低）。** 判讀分水嶺一：**TIPS 存在→肝衰竭風險高**；主門脈血栓（相對禁忌）、膽紅素 >3.0 mg/dL（肝功能不足）同理——「門脈血流越差，TACE 越危險」。判讀分水嶺二：**膽道擴張/內視鏡乳頭切開史/膽腸吻合→肝膿瘍風險升高**（細菌上行，需預防性抗生素）。**影像判讀分水嶺三（術後追蹤核心）：反應評估看「動脈期是否殘存強化（viable tumor）」，不是看碘油密度或整體大小**——cTACE 的 lipiodol 在 CT 呈高密度會遮蔽強化判讀，殘餘/復發應改靠 MRI（減影、DWI 避開碘油干擾）。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**門脈血栓/阻塞（portal vein thrombosis）**：Radiopaedia 列為**相對禁忌**——栓塞肝動脈時失去雙重血供致肝梗塞/衰竭風險。",
+    "**其他 Radiopaedia 禁忌**：絕對＝廣泛腫瘤瀰漫整肝、大量肝外轉移、肝腦病變（肝失代償）、顯影劑過敏；相對＝肝/腎衰竭、無法矯正凝血病、腫瘤大量動靜脈分流。",
+    "**血清膽紅素 >3.0 mg/dL**：肝功能不足，屬禁忌（肝衰竭風險）——題目來源與標準 IR 教學（Radiopaedia 未逐項列數值閾值）。",
+    "**TIPS 存在 → 肝衰竭風險『高』**（門脈血流經分流分走，栓塞肝動脈後肝灌流更不足）；故「TIPS 與低風險相關」**錯誤**＝題目正解。題目來源與標準 IR 生理（Radiopaedia 未明列 TIPS）。",
+    "**膽道擴張 / 內視鏡乳頭切開史 / 膽腸吻合**：Radiopaedia 列 TACE 併發症含**感染（含敗血症）、肝膿瘍、biloma**；膽道與腸道相通使細菌上行風險↑（建議預防性抗生素）。"
+  ],
+  "management": "",
+  "name": "TACE — Contraindications & Risks (HCC)",
+  "nameZh": "經動脈化療栓塞",
+  "slug": "tace",
+  "subspecialty": "IR"
+}

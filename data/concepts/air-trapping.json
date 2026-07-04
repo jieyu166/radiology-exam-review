@@ -1,0 +1,41 @@
+{
+  "checked": false,
+  "definition": "**少量 air trapping 是正常人的常客，不等於疾病——約 50% 的胸部 CT 都能看到。** 呼氣時正常肺密度上升、滯留區維持低密度，才顯現為小葉界線清楚的馬賽克低密度；呼氣相 HRCT 才看得到。輕度（<25% 肺實質）多無臨床意義；廣泛/地圖狀才提示小氣道病。記憶方向：隨年齡增加、吸菸者更多——凡說「air trapping 少見/隨年齡減少/吸菸者較少」皆為錯選項。",
+  "differentialDiagnosis": [
+    "**小氣道病（small airways disease，air trapping）**：**低密度區為異常**（滯留氣體），**呼氣相加重**（低密度區對比更明顯、體積不縮）；低密度區內血管口徑偏細。最具鑑別力的線索是支氣管異常與呼氣相 air trapping。",
+    "**浸潤性／GGO（infiltrative）**：**高密度區（毛玻璃）才是異常**，反映肺泡或間質病變（感染、肺水腫、機化性肺炎、纖維化等）；呼氣相低密度區會隨正常肺一同縮小。",
+    "**慢性肺栓塞／血管性（chronic PE / CTEPH）**：血流再分布——**低密度（少血流 oligemic）區血管口徑明顯變細**，高密度（高灌流）區血管較粗；**呼氣相不加重、無 air trapping**（全肺體積均勻縮小）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2015140308（查證至摘要／文獻通論層級",
+      "url": "https://doi.org/10.1148/rg.2015140308（查證至摘要／文獻通論層級"
+    },
+    {
+      "label": "10.1016/j.rcl.2022.06.009（摘要層級",
+      "url": "https://doi.org/10.1016/j.rcl.2022.06.009（摘要層級"
+    },
+    {
+      "label": "10.2214/ajr.175.6.1751537（摘要層級",
+      "url": "https://doi.org/10.2214/ajr.175.6.1751537（摘要層級"
+    },
+    {
+      "label": "10.1016/j.rcl.2016.05.013",
+      "url": "https://doi.org/10.1016/j.rcl.2016.05.013"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**健康人常見**：**limited extent air trapping 在正常人常見,約 50% 胸部 CT 可見**;故「小葉狀 air trapping 是健康人常見所見」**正確**（2016-202 正解 A）。",
+    "**臨床意義**：**輕度（<25% 肺實質）可無症狀/無臨床意義**;故「任何程度 air trapping 即代表臨床顯著疾病」**錯誤**（B 錯）。",
+    "**吸菸**：air trapping/小氣道病在**吸菸者更常見**（非更少）→ C 錯。",
+    "**年齡**：air trapping **隨年齡增加**（非減少）→ D 錯。",
+    "**顯影**：**呼氣相 HRCT** 才顯現（呼氣時正常肺密度上升、滯留區維持低密度,以小葉界線清楚分界）。",
+    "病態病因：obliterative/constrictive bronchiolitis、氣喘、COPD、過敏性肺炎、支氣管擴張等小氣道病。"
+  ],
+  "management": "",
+  "name": "Air Trapping",
+  "nameZh": "空氣滯留",
+  "slug": "air-trapping",
+  "subspecialty": "CH"
+}

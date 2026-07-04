@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**胸壁腫瘤的判讀核心是「部位＋組織特徵」：CT 看礦化（鈣化型態）與骨皮質破壞、MRI 看軟組織內成分（脂肪、T2 信號、壞死、強化）。** 良惡性影像常重疊，但若認得特徵部位與基質型態，常能縮小鑑別：肩胛下角的 elastofibroma dorsi、軟骨腫瘤的 ring-and-arc 鈣化、神經源腫瘤的 dumbbell／target sign 等。整體上胸壁腫瘤約半數以上為惡性;骨性以**轉移與骨髓瘤最常見**，原發惡性骨腫瘤第一名是 **chondrosarcoma**（非 osteosarcoma），好發肋軟骨交界與肋骨前段。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.236015526／惡性",
+      "url": "https://doi.org/10.1148/rg.236015526／惡性"
+    },
+    {
+      "label": "10.1148/rg.236015527",
+      "url": "https://doi.org/10.1148/rg.236015527"
+    },
+    {
+      "label": "10.1148/rg.313105509",
+      "url": "https://doi.org/10.1148/rg.313105509"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Chest Wall Tumors",
+  "nameZh": "胸壁腫瘤",
+  "slug": "chest-wall-tumors",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**無名動脈壓迫症候群（＝brachiocephalic artery compression syndrome）：無名動脈由氣管「左側」發出、走向右上時「橫過氣管前方」，在胸廓入口（thoracic inlet）由前方壓迫氣管；嬰兒氣管相對軟弱（flaccid），故此橫越更易造成前後徑狹窄與症狀（喘鳴、呼吸暫停、呼吸困難）。「anomalous innominate artery」其實是誤稱——動脈走行本屬正常。** 判讀分水嶺：**許多無症狀孩童在側位片/斷層上都有「輕度前方壓迫」屬正常變異；有意義＝症狀＋動態影像顯示 >50–75% 氣管壓迫（本題採症狀性 >70% 建議手術）。判讀時務必用動態 CT/MR 找 tracheomalacia，並排除其他外在壓迫（縱膈腫塊、血管環）。記憶鉤：左發、跨前、嬰兒軟氣管、動態看塌陷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **側位 X 光**：胸廓入口處**氣管前方壓跡**；正面投影無空氣滯留。\n- **CT/MR（首選定量與排除他因）**：**壓迫侷限於無名動脈橫越層面**；**CTA 3D 後處理／虛擬支氣管鏡**顯示血管與氣管關係；**動態影像偵測 tracheomalacia（>50–75% 動態壓迫具意義）**。\n- **內視鏡**：氣管前壁「固定、搏動性」壓迫。\n- **判讀陷阱**：**氣管內管或正壓呼吸支持可撐開氣管、遮蔽阻塞**——評估時須留意；且**許多無症狀孩童有輕度前方壓迫屬正常變異**，勿過度診斷。\n- **鑑別（外在氣道壓迫）**：縱膈腫塊（bronchogenic/duplication cyst、neurofibroma、lymphoma、thymic cyst、teratoma）、異位甲狀腺/胸腺、血管異常（右位主動脈弓＋迷走左鎖骨下、雙主動脈弓、主動脈/無名動脈瘤）、淋巴管畸形。",
+  "keyPoints": [
+    "**別名/機轉**：brachiocephalic（innominate）artery compression syndrome；無名動脈**由氣管左側發出、橫過氣管前方於胸廓入口壓迫**，嬰兒氣管軟弱使狹窄加重。",
+    "**族群/表現**：**年輕嬰兒、男性較多**；喘鳴、呼吸暫停、呼吸困難、反覆支氣管肺部感染、生長遲滯。",
+    "**影像**：**壓迫侷限於無名動脈橫越之層面**、氣管前壁受壓；動態 CT/MR 顯示 tracheomalacia、**症狀性者動態 >50–75% 氣管壓迫**（本題採 >70% 建議手術修補）。",
+    "**本題**：A（別名 brachiocephalic artery compression syndrome）、B（嬰幼兒可致氣管狹窄）、C（症狀性 >70% 建議手術）皆正確，故答案為 **D（none of above，無錯誤選項）**。"
+  ],
+  "management": "1. **定義/機轉**：無名動脈橫過氣管前方於胸廓入口造成**症狀性氣管壓迫**；嬰兒氣管軟弱加重；**「anomalous innominate artery」為誤稱**（走行本屬正常）。\n2. **流行病學**：好發**年輕嬰兒、男性較多**。\n3. **臨床表現**：喘鳴、呼吸暫停、呼吸困難、**反覆支氣管肺部感染、生長遲滯**；嚴重胃食道逆流者可伴 tracheomalacia。\n4. **自然史**：**多數隨孩童成長而症狀減輕**、以保守治療為主。\n5. **治療**：保守失敗或反覆住院之症狀性病人採手術——**aortopexy 或無名動脈起源再植入（reimplantation）**；本題以症狀性氣管狹窄 >70% 為手術門檻。\n\n> [!note] 考點：無名動脈壓迫症候群何者「錯誤」？\n> **None of above**——A（別名 brachiocephalic artery compression syndrome）、B（嬰幼兒可致氣管狹窄）、C（症狀性氣管狹窄 >70% 建議手術修補）皆為正確描述，無錯誤選項。",
+  "name": "Innominate Artery Compression Syndrome",
+  "nameZh": "無名動脈壓迫症候群",
+  "slug": "innominate-artery-compression",
+  "subspecialty": "CH"
+}

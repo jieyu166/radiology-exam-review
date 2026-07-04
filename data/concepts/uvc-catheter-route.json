@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**UVC 從臍靜脈進入後，正常路徑依序經過 portal sinus → ductus venosus → IVC → right atrium。UVC 不應經過 portal vein（左右門脈分支），若導管進入 portal vein 則為 malposition。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "正常 UVC 路徑 ：",
+    "**Portal vein**（右門脈分支等）不在正常 UVC 路徑上",
+    "UVC tip 理想位置：IVC-RA junction（T8-T10 level on XR）"
+  ],
+  "management": "",
+  "name": "Umbilical Venous Catheter Route",
+  "nameZh": "臍靜脈導管路徑",
+  "slug": "uvc-catheter-route",
+  "subspecialty": "PE"
+}

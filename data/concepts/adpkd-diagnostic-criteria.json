@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**ADPKD超音波診斷標準的年齡分層口訣：15-39歲要「總共≥3顆囊腫」（不是≥1顆）、40-59歲要「每側腎臟≥2顆」、≥60歲要「每側腎臟≥4顆」——這套統一標準(Pei 2009)僅適用於「有陽性家族史」的病人。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1681/ASN.2008050507（2018",
+      "url": "https://doi.org/10.1681/ASN.2008050507（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**統一診斷標準(Unified criteria)前提**：僅適用於**有陽性家族史(positive family history)**之病人；**無家族史者尚無確立之影像診斷標準**。",
+    "**15-29歲**：總共**≥3顆**腎囊腫(total of ≥3 cysts)。",
+    "**30-39歲**：總共**≥3顆**腎囊腫(total of ≥3 cysts)——與15-29歲合併視為「15-39歲：總共≥3顆」一個區間。",
+    "**40-59歲**：**每側腎臟≥2顆**囊腫(≥2 cysts in each kidney)。",
+    "**≥60歲**：**每側腎臟≥4顆**囊腫(≥4 cysts in each kidney)。",
+    "**診斷流程**：首步為詳細採集家族史；診斷主要依賴影像確認；基因檢測通常保留給非典型病例或用以排除年輕潛在腎臟捐贈者之ADPKD。"
+  ],
+  "management": "",
+  "name": "ADPKD — Ultrasound Diagnostic Criteria (Pei/Ravine Unified Criteria)",
+  "nameZh": "多囊腎超音波診斷標準",
+  "slug": "adpkd-diagnostic-criteria",
+  "subspecialty": "ABD"
+}

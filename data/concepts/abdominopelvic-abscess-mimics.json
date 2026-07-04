@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**腹骨盆膿瘍模擬病灶**涵蓋多種非感染性病變，在影像上可酷似膿瘍而需影像引導引流前仔細鑑別。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**壞死性腫瘤**：含壞死區或瘻管化至鄰近腸管的腫瘤可模擬可引流膿瘍",
+    "**術後吻合處變化**：吻合釘線處的術後改變/感染與復發腫瘤難以區分，尤其壞死性復發腫瘤外觀似膿瘍",
+    "**淋巴瘤**：因均質細胞群，超音波下可呈囊性外觀",
+    "**腸繫膜纖維瘤病（mesenteric fibromatosis）**：侵蝕鄰近小腸時，腫塊內可出現氣體或類膿瘍液體集聚"
+  ],
+  "management": "",
+  "name": "Abdominopelvic Abscess Mimics",
+  "nameZh": "腹骨盆膿瘍模擬病灶",
+  "slug": "abdominopelvic-abscess-mimics",
+  "subspecialty": "GI"
+}

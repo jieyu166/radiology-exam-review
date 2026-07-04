@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**β-HCG判別區（discriminatory zone）的口訣：陰道超音波(transvaginal)約1500-1800 mIU/mL、腹部超音波(abdominal)約6000-6500 mIU/mL——這是「該濃度以上應能可靠看到子宮內妊娠囊」的門檻。本題陷阱：β-HCG 1600且腹部超音波未見妊娠囊時『不能』排除正常懷孕（因腹部US判別區高達6000-6500，1600遠低於此門檻）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**正常懷孕β-HCG動態**：正常子宮內妊娠β-HCG約**每48-72小時倍增**，直至約10,000-20,000 mIU/mL達高原。",
+    "**判別區（discriminatory zone，本題重點）**：",
+    "**經陰道超音波(transvaginal)：約1500-1800 mIU/mL**（多胞胎可至2300）——高於此值應能可靠見子宮內妊娠囊。",
+    "**腹部超音波(abdominal)：約6000-6500 mIU/mL**。",
+    "故「β-HCG 1600且腹部US未見妊娠囊即可排除正常懷孕」為**錯誤**——1600遠低於腹部US判別區6000-6500，無法排除。",
+    "**子宮外孕直接徵象**：CT/MR上見**異位妊娠囊(ectopic gestational sac)**（子宮腔外含胚囊之結構）為直接徵象。",
+    "**子宮外孕間接徵象**：CT/MR上見**附件血腫(adnexal hematoma)、輸卵管積血(hemosalpinx)、腹腔積血(hemoperitoneum)**。"
+  ],
+  "management": "",
+  "name": "Ectopic Pregnancy & β-HCG Discriminatory Zone",
+  "nameZh": "子宮外孕",
+  "slug": "ectopic-pregnancy",
+  "subspecialty": "ABD"
+}

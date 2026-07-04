@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**透析相關 amyloid 關節病變：amyloid（β2-microglobulin）沉積呈 T1/T2 皆低訊號（類比：纖維性緻密物「黑到底」）、滑膜增厚＋骨侵蝕、關節間隙保留至晚期，肩部對稱堆積成「shoulder pad sign」。** 判讀分水嶺一：**T1/T2 皆低訊號（纖維性 amyloid）**；判讀分水嶺二：**不以鈣化為特徵**（痛風 tophi/CPPD 才鈣化，amyloid 不是）——此為最常考的「為非」選項。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.04.1309",
+      "url": "https://doi.org/10.2214/AJR.04.1309"
+    }
+  ],
+  "imagingFindings": "- **MRI 最具價值（Kiss，核心）**：**評估類澱粉關節病變 MRI 提供之資訊遠多於 X 光/CT/US**；amyloid 沉積於 **T1 與 T2 皆偏低訊號**（纖維性/緻密沉積），可強化程度不一。\n- **骨關節三型（Kiss）**：**侵蝕破壞性骨關節病（erosive/destructive osteoarthropathy）、破壞性脊椎關節病（destructive spondyloarthropathy）、腕隧道症候群（carpal tunnel，屈肌腱鞘沉積）**為透析相關類澱粉最典型骨骼肌肉表現。\n- **骨侵蝕徵**：**滑膜增厚＋界清、含硬化緣之骨侵蝕（subchondral cysts/geodes）**，關節間隙**通常保留至晚期**——與類風濕（早期即狹窄）不同。\n- **shoulder pad sign**：雙肩對稱 amyloid 沉積使肩部膨大如墊肩，為透析相關類澱粉典型徵。\n- **鑑別（考點）**：**amyloid 不以鈣化為特徵**——對照痛風 tophi（可鈣化/雙能量 CT 尿酸）、CPPD（軟骨鈣化）；T1/T2 皆低有助與感染/多數腫瘤（T2 高）區分。",
+  "keyPoints": [
+    "**訊號**：amyloid 沉積 **T1WI 低訊號、T2WI 多為低至中等訊號**（皆偏低）；故 option A（T1&T2 皆低）正確。",
+    "**滑膜/骨**：**滑膜增厚＋骨侵蝕（well-defined sclerotic margin）**；關節間隙**通常保留至病程晚期**。故 option C（synovial thickening and bony erosion）正確。",
+    "**Shoulder pad sign**：雙肩 amyloid 沉積使肩部膨大如墊肩（透析相關 amyloid 典型）；故 option D 正確。",
+    "**鈣化**：amyloid 沉積**不以鈣化為特徵**（為非鈣化軟組織沉積）；故「經常合併鈣化」**錯誤**＝題目正解（2016-131 正解 B）。"
+  ],
+  "management": "1. **病因（Kiss）**：**透析相關類澱粉沉積源自 β₂-microglobulin**（長期血液透析無法清除而堆積），多見於透析多年病人。\n2. **好發部位**：肩、髖、腕、膝等大關節與脊椎；腕隧道症候群常為早期表現。\n3. **臨床表現**：慢性關節痛/僵硬、腕隧道症狀、病理性骨折（沉積致骨破壞）、脊椎病變致神經症狀。\n4. **自然史**：與透析年數正相關、進行性；近年高通量透析膜與腎移植使發生率下降。\n5. **處置**：症狀治療、腕隧道減壓、必要時手術；根本改善靠腎移植或改善透析清除。\n\n> [!note] 考點：何者「為非」？\n> 「**經常合併鈣化**」為非——amyloid 沉積不以鈣化為特徵。T1/T2 皆低訊號、滑膜增厚+骨侵蝕、shoulder pad sign 皆正確。",
+  "name": "Musculoskeletal Amyloidosis (Amyloid Arthropathy)",
+  "nameZh": "類澱粉關節病變",
+  "slug": "musculoskeletal-amyloidosis",
+  "subspecialty": "MSK"
+}

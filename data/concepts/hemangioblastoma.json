@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**成人後顱窩囊加強化壁結節，首先想 hemangioblastoma（兒童同樣型態則想 pilocytic astrocytoma）；結節富血管、貼軟膜、可見 flow void，多發時要排 VHL。** 判讀分水嶺一：**成人＋小腦囊＋強化壁結節（貼軟膜）＝hemangioblastoma**；判讀分水嶺二：**結節有 flow void（富血管）；多發或年輕成人 → 排 von Hippel-Lindau（VHL）**。記憶鉤：年齡配型態——成人（hemangioblastoma）vs 兒童（pilocytic astrocytoma）各守一方；兩者長相一樣，年齡是關鍵。",
+  "differentialDiagnosis": [
+    "**vs pilocytic astrocytoma（最大陷阱）**：兩者皆「囊＋強化壁結節」，**長相幾乎相同，年齡是關鍵**——pilocytic 好發**兒童／青少年**、hemangioblastoma 為**成人**；hemangioblastoma **有 flow voids、結節貼軟膜面**，pilocytic **無 flow void**。",
+    "**vs 小腦轉移（cyst with mural nodule 型）**：偏向**轉移**的線索為**年齡較大（中位 59.5 vs 37 歲）**、**多發壁結節（72.7% vs 8.7%）**、**無 flow void（100% vs ~65% 缺乏）**、結節在 **FLAIR 呈等／低訊號**、**結節 DWI 受限**、**結節僅輕度強化**、**囊壁呈 ring enhancement**。反之 hemangioblastoma 結節強烈強化、有 flow void、囊壁不強化。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1177/20584601221077074",
+      "url": "https://doi.org/10.1177/20584601221077074"
+    },
+    {
+      "label": "10.1016/j.acra.2023.03.026",
+      "url": "https://doi.org/10.1016/j.acra.2023.03.026"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**族群定位**：**成人後顱窩最常見的原發軸內（intra-axial）腫瘤**；好發小腦半球，發病年齡多在第 3–5 個十年（中位 ~37 歲），WHO grade 1。",
+    "**影像招牌（cyst with mural nodule）**：典型為**囊腫＋強化壁結節**型；壁結節**強烈、均勻強化**，**緊貼軟膜（pial）面**（這是定位線索），囊壁本身**不強化**。",
+    "**型態分布**：文獻彙整以**實質型（solid）最常見約 47.7%**，純囊型約 26.3%，cyst with mural nodule 型約 21.3%——故「囊＋結節」雖最經典，但實際上實質型反而較多。",
+    "**訊號／徵象**：壁結節在 **T2 呈高訊號**；**結節內或周邊可見 flow voids（約 60–69%）**，反映豐富的滋養／引流血管，是與轉移、astrocytoma 鑑別的重點。",
+    "**進階 MR**：實質強化部分 **rCBV 明顯升高（DSC-PWI）**、**ADC 升高（DWI 不受限）**，MRS 可見 lipid/lactate peak——有助與轉移（常 DWI 受限）區分。",
+    "**VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤**。",
+    "**脊髓型**：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；脊髓型多發時尤其要想 VHL。",
+    "臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。",
+    "與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → **hemangioblastoma**（2016-090 正解 B）。"
+  ],
+  "management": "",
+  "name": "Hemangioblastoma (Posterior Fossa)",
+  "nameZh": "血管母細胞瘤",
+  "slug": "hemangioblastoma",
+  "subspecialty": "NR"
+}

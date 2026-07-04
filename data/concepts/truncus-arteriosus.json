@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**Truncus arteriosus（common arterial trunk）＝單一動脈幹同時供應體循環/肺循環/冠狀動脈（conotruncal anomaly），『幾乎都合併 VSD』（單一 truncal valve 跨騎 VSD），出生即發紺 + 早期心衰；常合併 22q11 缺失。** 判讀分水嶺：**Collett-Edwards：Type I 主肺動脈自共同幹發出（最常見）；Type II 兩肺動脈各自從幹『後方』發出（相鄰）；Type III 從幹『兩側』發出（最少）；Type IV（pseudotruncus）＝肺動脈不從幹發出（現視為肺動脈閉鎖+VSD）；右位主動脈弓約 30%。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-7376——單一動脈幹供應體/肺/冠狀循環（conotruncal",
+      "url": "https://doi.org/10.53347/rID-7376——單一動脈幹供應體/肺/冠狀循環（conotruncal"
+    }
+  ],
+  "imagingFindings": "- **單幹 + 跨騎 VSD**：影像見單一大血管跨騎 VSD、truncal valve（可狹窄/逆流）。\n- **肺動脈起源分型**：追肺動脈自幹何處發出 → Collett-Edwards I-III；不發出＝IV（pulmonary atresia+VSD）。\n- **右位弓/22q11**：右位主動脈弓 ~30%、找胸腺缺如（DiGeorge）等 22q11 特徵。\n- **肺過度灌流**：X 光心臟擴大 + 肺血增多；早期心衰。\n- **術前評估**：truncal valve 功能、肺動脈解剖、冠狀動脈起源為手術（Rastelli 類）關鍵。",
+  "keyPoints": [
+    "**本質**：胚胎期 truncus 未正常分隔為主動脈與肺動脈幹 → **單一動脈幹供應體/肺/冠狀循環**；conotruncal anomaly；約 **1-2% CHD**；常合併 **22q11.2 缺失（DiGeorge）**。",
+    "**VSD**：**幾乎都合併 VSD**（單一 **truncal valve**，2-4 cusps，跨騎 VSD）以完成循環。",
+    "**Collett-Edwards 分型**：",
+    "**Type I（最常見）**：主肺動脈短幹自共同幹發出。",
+    "**Type II**：兩肺動脈各自從幹**後方**發出、相鄰（MPA 段可忽略）。",
+    "**Type III（最少）**：兩肺動脈各自從幹**兩側**發出。",
+    "**Type IV（pseudotruncus）**：肺動脈不從幹發出 → 現視為**肺動脈閉鎖 + VSD**。",
+    "**臨床**：**出生即發紺 + 數週內心衰**（肺血管阻力下降 → 肺過度灌流）；**右位主動脈弓約 30%**。"
+  ],
+  "management": "1. **單幹供三循環 + 幾乎都 VSD**。\n2. **Collett-Edwards I-IV**（I 最常、III 最少、IV pseudotruncus）。\n3. **臨床**：出生發紺 + 早期心衰。\n4. **合併**：22q11/DiGeorge、右位弓 ~30%。\n5. **術前**：評估 truncal valve/肺動脈/冠狀動脈。\n\n> [!note] 考點：關於 truncus arteriosus，何者「為真」?\n> 「**Type II 兩肺動脈各自從幹後方發出**」為真。Type I 為主肺動脈自共同幹（非降主動脈，B 錯）、幾乎都合併 VSD 且常合併其他異常（C 錯）、出生即發紺非 2 月後（D 錯）。",
+  "name": "Truncus Arteriosus",
+  "nameZh": "動脈幹",
+  "slug": "truncus-arteriosus",
+  "subspecialty": "CV"
+}

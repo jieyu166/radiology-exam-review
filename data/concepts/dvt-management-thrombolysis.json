@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**小腿靜脈血栓（calf vein DVT）屬遠端（distal，\"below-knee\"）DVT，臨床意義相對有限，並不需要緊急以導管導引溶栓（catheter-directed thrombolysis, CDT）降低肺栓塞風險——CDT 保留給嚴重病例（phlegmasia cerulea dolens、大範圍髂股靜脈 DVT、或治療性抗凝失敗者）。** 判讀分水嶺：**distal＝calf 靜脈（peroneal/posterior tibial/soleal）、proximal＝膕靜脈以上；CDT 適應：phlegmasia、massive iliofemoral、抗凝失敗；候選條件：症狀<14 天（新鮮血栓）、功能佳、出血風險低；CDT 可降溶栓劑量、溶栓前置 IVC filter 降 PE 風險。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1204（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1204（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **解剖分類（STATdx，SVS 建議用詞）**：**iliofemoral（髂/總股靜脈）、femoropopliteal（膕/股/深股）、calf（腓/前後脛，不含膕靜脈）**——**SVS 建議用精確解剖詞取代「proximal/distal」**；報告須註明是否延伸入 IVC。\n- **時程分類（STATdx）**：**acute <14 天、subacute 15-28 天、chronic >28 天**；灰階 US 急性血栓較慢性更低回音。\n- **US 為診斷首選（STATdx）**：**近端 DVT US 敏感 94%/特異 98%，但 calf DVT 僅敏感 57%/特異 48%**；CFV spectral Doppler 失去 pulsatility/phasicity 提示髂或 IVC 阻塞。\n- **CTV/MRV/DSA（STATdx）**：CTV 對 IVC/骨盆/femoropopliteal 高敏、看外在壓迫；MRV 92-94% 敏感、免輻射評估骨盆；**DSA 為金標但侵入性、多作溶栓前置**；IVUS 可辨 May-Thurner venous「spur」。\n- **左腿好發（STATdx）**：**DVT 左腿為右腿 3-5 倍（May-Thurner：右髂動脈壓迫左髂靜脈於匯入 IVC 處）**；May-Thurner anatomy 偶見（女 41%>男 27%）多無症狀，有 DVT 才稱 syndrome。\n- **CDT 前評估**：確認 iliofemoral 範圍、症狀時程<14 天、出血禁忌；**注意當代指引（ACCP/ASH/SVS）建議接受抗凝者不常規置 IVC filter**（本題 2017 答案按當時教材，臨床已演進）。\n- **calf DVT**：多不需 CDT；**ACCP 2021：孤立遠端 DVT 無嚴重症狀者不抗凝、2 週序列影像追蹤，延伸才抗凝**。\n- **陷阱**：勿把 calf DVT 當緊急溶栓適應症；CDT 保留給嚴重/近端大範圍病例（phlegmasia cerulea dolens 為肢體威脅之明確適應）。",
+  "keyPoints": [
+    "**分類**：**distal（\"below-knee\"）DVT＝小腿靜脈**（peroneal、posterior tibial、soleal/gastrocnemius）；**proximal（\"above-knee\"）＝膕靜脈或更近端**。",
+    "**calf vein DVT 臨床意義**：屬**遠端 DVT、臨床意義相對有限**（PE 風險較近端低）——**不需緊急 CDT**，多以抗凝或超音波追蹤處理。",
+    "**CDT 適應對象**：**phlegmasia cerulea dolens、大範圍髂股（iliofemoral）DVT、治療性抗凝失敗**；候選條件：**症狀<14 天（organized clot 難溶）、功能狀態佳、出血風險低**。",
+    "**CDT 優勢/風險**：可較快完全溶栓、降低 PTS、保留瓣膜功能，但**復發/出血風險較高**，故**非常規**。",
+    "**技術要點**：CDT **可降低所需溶栓劑量**（vs 全身性）；**CDT 前置 IVC filter 可降低術中 PE 風險**。",
+    "**性別**：DVT 發生率**男性略高於女性（約高 18%）**。"
+  ],
+  "management": "1. **VTE 負擔（STATdx）**：VTE（DVT+PE）年發生率約 1/1000、美國 >25 萬住院/年；風險因子（惡性、遺傳性血栓體質、手術、外傷、久坐/長途、肥胖、口服避孕/HRT、癱瘓、懷孕、既往 VTE）。\n2. **PTS（後血栓症候群）**：**首次急性 iliofemoral DVT 者 2 年內 20-40% 發生 PTS、5-10% 嚴重**；為瓣膜逆流 + 靜脈阻塞致慢性靜脈高壓；Villalta scale 分級（<5 無、5-14 輕中、≥15 重）。\n3. **抗凝為主流（STATdx/ACCP 2021）**：**急性 VTE 首選 DOAC（apixaban/dabigatran/edoxaban/rivaroxaban）優於 VKA、初始 3 個月後評估延長；癌相關用口服 Xa；壓力襪不再常規建議（SOX trial）**。\n4. **CDT 證據（ATTRACT/CaVenT）**：**ATTRACT（2017）PMT 對 PTS 無顯著差異但增出血與住院；CaVenT（2012）24 個月 PTS 絕對風險降 14%（NNT 7）、生活品質無差異**；CDT 成功率 80-90%、US 加速 CDT 91%（完全 70%）。\n5. **phlegmasia（STATdx）**：**phlegmasia alba dolens＝大量血栓致腫脹無發紺；phlegmasia cerulea dolens＝伴肢體威脅發紺，為血管內取栓/溶栓之明確適應（保肢）**。\n\n> [!note] 考點：關於下肢DVT，何者「錯誤」?\n> 「**術後病人發生 calf vein DVT 時，需緊急以 catheter-directed thrombolysis 治療以降低 PE 風險（D）**」錯誤——calf vein DVT 屬**遠端 DVT、臨床意義有限**，非緊急溶栓適應症（CDT 保留給 phlegmasia/大範圍髂股 DVT/抗凝失敗者）。男性略多於女性、CDT 可降溶栓劑量、溶栓前置 IVC filter 可降 PE 風險皆正確。",
+  "name": "Deep Vein Thrombosis — Catheter-Directed Thrombolysis Management",
+  "nameZh": "深部靜脈血栓溶栓治療",
+  "slug": "dvt-management-thrombolysis",
+  "subspecialty": "IR"
+}

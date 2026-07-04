@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**乳房 MRI 良惡性分水嶺：circumscribed mass 內出現「non-enhancing dark internal septation（不強化暗色內隔）」提示良性（典型 fibroadenoma）；rim enhancement、強化的 internal septation、clumped 或 linear non-mass enhancement 則提示惡性。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.ejrad.2010.11.030"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.ejrad.2012.01.038"
+    }
+  ],
+  "imagingFindings": "- **關鍵鑑別**：septation 是否「強化」決定良惡走向——不強化暗隔＝良性（fibroadenoma）；強化隔＝惡性警訊。\n- NME 依 ACR BI-RADS MRI lexicon 描述其**分佈（distribution：focal/linear/segmental/regional…）與內部型態（internal pattern：homogeneous/heterogeneous/clumped/clustered ring）**；linear 與 clumped/clustered ring 惡性率較高。\n- Rim enhancement 於實質腫塊為可疑惡性特徵（須與感染/脂肪壞死等良性成因對照）。",
+  "keyPoints": [
+    "**良性提示**：邊界清楚（circumscribed）腫塊，內見**不強化、暗色的內隔（non-enhancing dark internal septation）**——為 fibroadenoma 的典型影像特徵。",
+    "**惡性提示（mass）**：實質腫塊之 **rim enhancement（周邊環狀強化）**、以及**強化的（enhancing）internal septation**。",
+    "**惡性提示（non-mass enhancement, NME）**：**clumped（成簇）** 內部強化型態、以及 **linear（線狀）分佈**（常見於 high-grade DCIS/導管型病變）。",
+    "Kinetic 分析：初期快速強化併 washout（delayed 沖刷）較偏惡性，persistent 漸增偏良性；但型態（morphology）與動力學（kinetics）資訊有部分重疊，判讀須合併形態學。"
+  ],
+  "management": "1. Circumscribed mass + **non-enhancing dark internal septation** ＝良性（fibroadenoma）分水嶺。\n2. Rim enhancement of a solid mass 屬可疑惡性型態。\n3. Enhancing internal septation 通常為惡性特徵，與不強化暗隔相反。\n4. NME 的 clumped 內部型態與 linear 分佈皆偏向惡性（如 high-grade DCIS）。\n5. 判讀須合併形態學與動力學，因兩者資訊部分重疊。\n\n> [!note] 考點：乳房 MRI 異常強化中，哪一項提示良性病灶？\n> **Circumscribed mass with non-enhancing, dark, internal septation** 提示良性（典型 fibroadenoma）。相對地，rim enhancement of a solid mass、clumped 內部強化的 NME、linear 分佈的 NME 皆提示惡性。",
+  "name": "Breast MRI Enhancement Patterns",
+  "nameZh": "乳房MRI強化模式",
+  "slug": "breast-mri-enhancement-patterns",
+  "subspecialty": "Breast"
+}

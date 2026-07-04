@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**膀胱創傷影像檢查（static cystography vs CT cystography）之選擇主要依臨床情境與操作者偏好而定；若已考慮腹部CT評估潛在腹內損傷，應一併加做CT cystography評估膀胱；若須於創傷單位以可攜式設備檢查，傳統static cystography仍為可靠之膀胱損傷診斷方法。合併膀胱與尿道損傷方面，10-20%男性尿道損傷合併骨盆骨折病患亦合併膀胱損傷；兩者可為各自獨立損傷；膀胱損傷可為腹膜內、腹膜外、或少見之合併型。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**選擇依據**：兩種檢查之選擇主要依**臨床情境與醫師偏好**而定。",
+    "**合併腹部CT時**：若已考慮做腹部CT評估潛在腹內損傷，**應一併考慮CT cystography評估膀胱**。",
+    "**創傷單位可攜式檢查**：若須於創傷單位以可攜式設備檢查，**傳統static cystography仍為可靠之膀胱損傷診斷方法**。"
+  ],
+  "management": "",
+  "name": "Bladder & Urethral Trauma — Imaging",
+  "nameZh": "膀胱尿道創傷影像",
+  "slug": "bladder-urethral-trauma-imaging",
+  "subspecialty": "GU"
+}

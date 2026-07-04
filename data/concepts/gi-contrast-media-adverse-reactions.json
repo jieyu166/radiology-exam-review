@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**腸胃道水溶性碘顯影劑（如 Gastrografin）雖經腸腔給藥、全身吸收有限，仍可能造成過敏樣反應、甲狀腺功能改變、與灌腸操作相關之暫時性菌血症——三者皆為文獻記載之可能不良反應。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**過敏樣反應（allergic-like reactions）**：即使經腸腔給藥、全身吸收量少，仍有文獻報告可能出現過敏樣反應。",
+    "**甲狀腺功能改變（alterations in thyroid function）**：碘顯影劑吸收後可能影響甲狀腺功能，與靜脈碘顯影劑類似之潛在風險。",
+    "**菌血症（bacteremia）**：鋇劑灌腸研究曾報告暫時性菌血症發生率約 11.4–23%（單一對比鋇劑灌腸），惟另有研究未能證實此現象；雙重對比鋇劑灌腸研究亦未發現菌血症。"
+  ],
+  "management": "",
+  "name": "GI Tract Water-Soluble Contrast Media — Adverse Reactions",
+  "nameZh": "腸胃道水溶性顯影劑不良反應",
+  "slug": "gi-contrast-media-adverse-reactions",
+  "subspecialty": "Physics"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**小腸疾病依好發節段記憶：淋巴瘤好發迴腸(ileum)、Yersinia腸炎好發末端迴腸(terminal ileum)、Giardiasis好發十二指腸-空腸(duodenum-jejunum，近端)、Sprue(celiac)亦好發近端小腸。本題問「好發近端小腸」，Giardiasis(十二指腸-空腸)為典型答案。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Lymphoma**：好發**迴腸(ileum)**（迴腸淋巴組織豐富）。",
+    "**Yersinia enterocolitis**：好發**末端迴腸(terminal ileum)**（可mimic Crohn/闌尾炎）。",
+    "**Giardiasis（本題答案）**：由鞭毛蟲Giardia lamblia引起，**好發十二指腸與空腸(duodenum-jejunum，近端小腸)**，伴痙攣、易激、分泌增加；小腸攝影見腸道擴張、環狀皺襞增厚。",
+    "**Sprue（celiac disease）**：亦好發**近端小腸**（十二指腸/空腸絨毛萎縮）。"
+  ],
+  "management": "",
+  "name": "Small Bowel Disease — Segmental Distribution",
+  "nameZh": "小腸疾病分布",
+  "slug": "small-bowel-disease-distribution",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**四個乳房癌前病變的判讀口訣：ADH影像表現是「鈣化群」不是腫塊；LCIS本身「無症狀」；不具異型性的放射狀疤痕只需「保守追蹤」不必廣泛切除；乳突瘤的異型性在「周邊型」比中央型更常見。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**與DCIS關係**：ADH與DCIS為組織病理學上**相近之兩個實體**，鑑別常僅依範圍大小而非本質差異。",
+    "**影像表現**：ADH乳房攝影典型呈**微鈣化群(cluster of calcifications)**，並非以腫塊表現（常見誤判方向）。",
+    "**低估(underestimation)主因**：任何切片技術**取樣不完整(limited/partial sampling)**是US導引粗針切片低估ADH診斷之主要因素。",
+    "**降低upgrade率之策略**：以**真空輔助切片(vacuum-assisted biopsy, VAB)**於超音波導引下重新切片，可能降低最終手術ADH upgrade為惡性之比例。",
+    "**預測能力限制**：目前**無法有效**單憑乳房攝影(MG)與超音波(US)影像特徵預測ADH是否會upgrade為惡性。"
+  ],
+  "management": "",
+  "name": "Breast Premalignant Lesions — ADH, LCIS/ALH, Radial Scar, Papilloma",
+  "nameZh": "乳房癌前病變",
+  "slug": "breast-premalignant-lesions",
+  "subspecialty": "Breast"
+}

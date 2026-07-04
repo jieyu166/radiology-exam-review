@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**弓形動脈(arcuate arteries)在錐體基底部各自獨立成弓，彼此「不」吻合——這是腎臟節段性血管供應「終末動脈(end-artery)」特性的關鍵，也是本題最易誤判處。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腎動脈分支順序**：腎動脈前/後division於腎門處分出節段動脈(segmental arteries) → **葉間動脈(interlobar arteries，走行於錐體之間)** → 弓形動脈(arcuate arteries，走行於錐體基底部皮髓質交界) → 小葉間動脈(interlobular arteries)。",
+    "**弓形動脈不吻合**：**弓形動脈於錐體基底部各自形成獨立的弓狀構造(individual arcs)，彼此「不」互相吻合**——腎臟血管供應具終末動脈特性，此為常見誤判處（易誤認為廣泛吻合）。",
+    "**前division供應範圍**：腎動脈前division供應腎臟之上下兩極部分（非僅單一極）。",
+    "**腎靜脈位置關係**：腎靜脈位於腎盂前方(anterior to the renal pelvis)；左腎靜脈位於主動脈前方(anterior to the aorta)（「主動脈夾住左腎靜脈nutcracker現象」的解剖基礎）。"
+  ],
+  "management": "",
+  "name": "Renal Arterial & Venous Segmental Anatomy",
+  "nameZh": "腎臟血管解剖",
+  "slug": "renal-vascular-anatomy",
+  "subspecialty": "ABD"
+}

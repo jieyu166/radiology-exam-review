@@ -1,0 +1,42 @@
+{
+  "checked": false,
+  "definition": "**豆紋動脈是基底節的末端灌溉系統，記憶鉤：L/M 字首對 L/M 動脈——Lateral 群來自 M1（MCA），Medial 群來自 A1（ACA）。** 判讀分水嶺一：**lateral=MCA、medial=ACA**；判讀分水嶺二：**Lateral（MCA 來源）經前穿質『外側』進入——「medial 2/3」為錯誤敘述**，此為高頻考點。",
+  "differentialDiagnosis": [
+    "心因性／近端栓子造成的 striatocapsular 梗塞 vs 高血壓小血管病腔隙梗塞 vs MCA 粥狀斑塞住 LSA 開口。",
+    "非缺血鑑別：高血壓性出血、CAA（多偏皮質-皮質下、LSA 領域較少）、感染／代謝（雙側對稱性病灶傾向代謝或中毒）、腫瘤；外傷史下需考慮外傷性 LSA 損傷。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2176/nmc.cr.2018-0316"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.31083/j.jin2301005"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.18632/oncotarget.13280"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.wneu.2021.11.076"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.neuroimage.2019.05.065"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**起源**：自 Willis 環前部發出的小穿通枝，供應基底節；分 **medial（自 A1/ACA）** 與 **lateral（自 M1/近端 MCA）** 兩群。",
+    "**前穿質進入點**：lateral lenticulostriate（MCA 來源）經前穿質之**外側**部進入；medial striate（ACA 來源）經內側進入——故「經 medial 2/3 進入」為**錯誤**。（標準神經解剖；題目正解）",
+    "**數目/管徑（解剖顯微研究值，依題目來源）**：lateral 群平均約 **9–10.4 條（range 1–21）**、起始管徑約 **100–2200 μm**。",
+    "臨床：是 lacunar infarct 與高血壓性出血的好發部位（**功能性終末動脈、無側枝吻合**，一旦阻塞即缺血）。"
+  ],
+  "management": "",
+  "name": "Lenticulostriate Arteries (Anatomy)",
+  "nameZh": "豆紋動脈",
+  "slug": "lenticulostriate-arteries",
+  "subspecialty": "NR"
+}

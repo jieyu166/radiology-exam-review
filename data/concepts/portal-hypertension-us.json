@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**門脈高壓的超音波記憶鉤：「壓力高 → 門脈撐大、血流變慢甚至倒流、側枝繞路」。** 門脈擴張（>13 mm）、流速下降（<16 cm/s）、hepatofugal 逆流；臍靜脈再通等側枝出現幾乎有診斷意義。考試陷阱：「門脈直徑變小」是錯的——門脈高壓使門脈擴張、不是變細。判讀分水嶺一：**門脈擴張 >13 mm ＋ 流速 <16 cm/s**；判讀分水嶺二：**臍靜脈（paraumbilical）再通＝近乎診斷性**。",
+  "differentialDiagnosis": [
+    "**門脈血栓 vs 腫瘤栓**：腔內若偵測到**動脈型血流訊號（neovascularity）**提示腫瘤栓（如肝細胞癌），單純血栓無動脈訊號。",
+    "**Budd-Chiari**：阻塞在**肝靜脈／下腔靜脈**，表現為肝靜脈無血流、波形喪失或反向、肝內側枝（蜘蛛網狀）、尾葉肥大；與門脈高壓（阻塞層次在門脈／竇前竇後）之鑑別重點在**異常血管的解剖層次**。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.230118",
+      "url": "https://doi.org/10.1148/rg.230118"
+    },
+    {
+      "label": "10.1148/rg.230058",
+      "url": "https://doi.org/10.1148/rg.230058"
+    },
+    {
+      "label": "10.1016/j.jhep.2021.12.022",
+      "url": "https://doi.org/10.1016/j.jhep.2021.12.022"
+    },
+    {
+      "label": "10.2214/AJR.04.0918",
+      "url": "https://doi.org/10.2214/AJR.04.0918"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Portal Hypertension — Ultrasound",
+  "nameZh": "門脈高壓超音波",
+  "slug": "portal-hypertension-us",
+  "subspecialty": "ABD"
+}

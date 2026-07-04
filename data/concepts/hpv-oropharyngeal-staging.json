@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**HPV相關口咽癌AJCC 8th分期是獨立於傳統頭頸癌TNM的一套系統，T分期不只看大小、也看「侵犯結構」——腫瘤侵犯會厭舌面（lingual surface of epiglottis）直接跳到T3，不論大小是否小於4cm；N分期則簡化許多，只看淋巴結是否>6cm，不再細分側別/數量。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**T分期（大小＋侵犯結構雙軌）**：",
+    "T1：腫瘤≤2 cm。",
+    "T2：腫瘤>2但≤4 cm。",
+    "T3：腫瘤>4 cm，**或侵犯會厭舌面（lingual surface of epiglottis）**——即使腫瘤≤4cm，只要有此侵犯即歸T3。",
+    "T4：中度進展局部疾病，侵犯喉部、舌外肌、翼內肌、硬顎、下頜骨或更深。",
+    "**N分期（clinical N，大幅簡化）**：",
+    "N0：無區域淋巴結轉移。",
+    "N1：一個或多個**同側**淋巴結，皆不超過6 cm。",
+    "N2：對側或雙側淋巴結，皆不超過6 cm。",
+    "N3：任一淋巴結>6 cm。",
+    "**判讀骨架（本題推導）**：3.6 cm腫瘤合併**侵犯會厭舌面** → 依侵犯結構條款升至**T3**（非單純依大小之T2）;4.5 cm同側頸部第III區淋巴結、單一、未超過6cm → **N1**。→ **T3N1**。"
+  ],
+  "management": "",
+  "name": "HPV-Associated Oropharyngeal Cancer — AJCC 8th Clinical Staging",
+  "nameZh": "HPV相關口咽癌分期",
+  "slug": "hpv-oropharyngeal-staging",
+  "subspecialty": "CH"
+}

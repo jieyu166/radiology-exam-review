@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**EHC動脈題的關鍵方位詞是「ventral（腹側）」不是「dorsal（背側）」——鄰近橫膈背側的巨大HCC，該做選擇性血管攝影確認的其實是供應橫膈腹側的動脈（如right inferior phrenic artery），而非誤植的dorsal，這是本題官方標記的唯一錯誤選項。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Parasitic supply與TACE次數正相關**：接受TACE次數越多，HCC發展寄生動脈供應（parasitic arterial supply）的機率越高。",
+    "**Right inferior phrenic artery**：直接接觸肝臟裸區（bare area），為肝臟寄生動脈供應**最常見**來源，可貢獻高達**70%**之HCC寄生供應。",
+    "**貼近橫膈腹側的大型HCC**：應執行**right internal mammary artery**（非其他方位）之選擇性血管攝影，因其供應橫膈**腹側（ventral）**——「dorsal aspect of the diaphragm」為錯誤方位描述，正確應為「ventral aspect」。",
+    "**Intercostal artery TACE之禁忌**：若microcatheter無法遠端推進，因脊髓梗塞與皮膚壞死高風險而**禁忌**執行TACE。"
+  ],
+  "management": "",
+  "name": "TACE — Extrahepatic Collateral (EHC) Arteries to HCC",
+  "nameZh": "肝外側枝動脈TACE",
+  "slug": "tace-extrahepatic-collateral",
+  "subspecialty": "IR"
+}

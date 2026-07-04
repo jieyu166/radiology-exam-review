@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**Blueberry muffin rash 合併小頭畸形、腦室擴大、腦室周圍鈣化，是 TORCH 先天感染的經典組合——不同病原「鈣化位置與破壞型態」是鑑別關鍵：CMV（最常見）＝腦室周圍/室管膜下鈣化＋神經移行異常＋顳極囊變；Toxo＝鈣化較 CMV 廣泛度低；Zika＝皮質-皮質下白質交界鈣化＋腦破壞畸形＋較重小頭畸形。** 判讀分水嶺：**微頭畸形非 Zika 獨有；鈣化「分布圖」＋是否合併移行異常/腦葉破壞/出血，才是把 CMV、Toxo、HSV、Zika 對號入座的鑰匙。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **模態選擇**：**顱部超音波為新生兒篩檢首選**、MR 完整刻畫；**SWI/T2\\*GRE 對鈣化與出血灶最敏感**、CT 用於確認鈣化。\n- **CMV 判讀 pearls**：MR 見**小頭＋小腦發育不全＋皮質腦回異常/schizencephaly 伴鈣化＋白質膠質增生＋顳極皮質下囊變**時要想 CMV；室管膜下鈣化於 T1 呈短 T1（高訊號）。\n- **Mineralizing vasculopathy**：US 見**基底核/視丘分支狀強回聲（穿通 lenticulostriate 動脈壁增厚）**，associated with CMV/syphilis/rubella，但也見於**正常嬰兒、trisomy、胎兒酒精症候群**——非特異。\n- **鈣化 DDx（依年齡/分布）**：**tuberous sclerosis（室管膜下鈣化、皮質 tubers 似移行異常）**、**neurocysticercosis（<30 歲腦鈣化最常見原因）**、Fahr（家族性基底核鈣化）、pseudo-TORCH（Aicardi-Goutières，CSF α-interferon↑）。\n- **出血傾向**：**HSV 與 rubella 之出血灶於 T2\\*/SWI 呈 blooming 低訊號**，HSV 病灶大且常出血，有助與非出血性 CMV/Toxo 區分。",
+  "keyPoints": [
+    "**Blueberry muffin syndrome**：多發隆起藍紫色皮膚病灶，因真皮**髓外造血（extramedullary hematopoiesis）**所致；病因含先天感染（**CMV、rubella**）、血液疾病、惡性腫瘤（**neuroblastoma、AML**）、先天血管疾病。",
+    "**TORCH 共同腦部影像**：**腦室周圍鈣化＋腦室擴大**為多數子宮內確診 TORCH 之共同表現，Toxo/CMV/HIV/Zika/rubella **皆可致實質鈣化**；容積喪失（除非併水腦）多致**小頭畸形（非 Zika 獨有）**。",
+    "**各病原鑑別（核心考點）**：",
+    "**CMV（最常見 TORCH，佔子宮內感染之首、~1% 新生兒）**：**腦室周圍/室管膜下鈣化（~50%）**＋**神經移行異常（schizencephaly、pachygyria）**＋白質膠質增生/髓鞘不足＋**顳極囊變**＋小腦發育不全＋海馬垂直排列。",
+    "**Toxoplasmosis**：實質＋腦室周圍鈣化，**廣泛度通常低於 CMV**。",
+    "**Herpes（HSV-2）**：**腦葉/多腦葉破壞（不像成人局限）、常出血性**。",
+    "**Rubella**：腦葉破壞/腦軟化、mineralizing vasculopathy。",
+    "**Zika**：**皮質-皮質下白質交界鈣化＋腦破壞畸形、較重小頭畸形、可伴黃斑萎縮**。",
+    "**HIV**：**基底核＋額葉皮質下對稱鈣化**。",
+    "**Syphilis**：基底腦膜炎（basilar meningitis）、腦膜強化。"
+  ],
+  "management": "1. **CMV 是美國最常見之子宮內感染**（~1% 新生兒）；10% 出生時即有小頭、肝脾腫大、瘀點疹，**有全身病者 55% 累及中樞、神經症狀者高達 95% 留下重大神經發展後遺症**。\n2. **先天弓形蟲病出生時常無症狀、2–3 個月才顯現**（leukokoria/脈絡視網膜炎）；孕期活動性感染 20–50% 傳給胎兒。\n3. **HSV 多於生產時經產道感染（佔先天疱疹 75–90%）**、3–15 天以抽搐/嗜睡表現；子宮內感染（5%）出生即現。\n4. **Zika 出生時即因小頭畸形而明顯**，除鈣化外有腦破壞與畸形、黃斑萎縮；母體感染多輕微但可續發 Guillain-Barré。\n5. 治療視病原：**CMV—ganciclovir、Toxo—pyrimethamine＋sulfadiazine、HSV—acyclovir、Syphilis—penicillin、HIV—抗反轉錄病毒（孕中晚期＋產程可阻斷傳播）**、Rubella 無專一治療。\n\n> [!note] 考點：新生兒小頭畸形合併 blueberry muffin rash、腦室周圍鈣化、腦室擴大、異常腦溝形成、小腦發育不全，最可能診斷?\n> **TORCH infection（C）**——periventricular calcification＋ventriculomegaly＋小頭＋小腦發育不全＋移行異常為 TORCH（尤 CMV）之典型組合。Dandy-Walker malformation、Tuberous sclerosis（室管膜下/皮質 tubers）、Alobar holoprosencephaly 皆非此臨床組合之典型診斷。",
+  "name": "TORCH Congenital Infection — Neuroimaging",
+  "nameZh": "先天性感染神經影像",
+  "slug": "torch-infection-neuroimaging",
+  "subspecialty": "PED"
+}

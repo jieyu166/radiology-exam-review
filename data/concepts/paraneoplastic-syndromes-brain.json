@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**副腫瘤症候群發生率是「15%」，不是常被誤記的「10%」——邊緣系統腦炎是最常見的臨床表現，小細胞肺癌是最常見的相關腫瘤。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**機轉**：免疫媒介，透過**自體抗體(autoantibodies)**或**細胞毒性T細胞相關(cytotoxic T cell-related)**機轉致病。",
+    "**最常見臨床表現**：**邊緣系統腦炎(limbic encephalitis)**為最常見之臨床副腫瘤症候群。",
+    "**發生率**：癌症病人中約**高達15%**（非10%）發展副腫瘤症候群。",
+    "**最常見相關腫瘤**：**小細胞肺癌(small cell lung carcinoma)**。"
+  ],
+  "management": "",
+  "name": "Paraneoplastic Syndromes of the Brain",
+  "nameZh": "副腫瘤神經症候群",
+  "slug": "paraneoplastic-syndromes-brain",
+  "subspecialty": "NR"
+}

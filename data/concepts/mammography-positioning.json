@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**乳攝投照品質的核心在「後方組織有沒有納進去」，MLO 的胸大肌是這個問題的可見代理指標：肌肉夠放鬆（convex）且延伸至 PNL 以下，才表示後乳已納入。** 判讀分水嶺一：**MLO 足夠＝胸大肌 convex 且延伸『至或低於』PNL、IMF 打開**；「convex 但未達 PNL」仍屬不足；判讀分水嶺二：**CC 足夠＝PNL 長度在 MLO PNL 的 1 cm 內，確保後方組織對應**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiology.190.2.8284372",
+      "url": "https://doi.org/10.1148/radiology.190.2.8284372"
+    },
+    {
+      "label": "10.53347/rID-15044——**PNL＝自乳頭向後垂直畫至胸大肌（CC",
+      "url": "https://doi.org/10.53347/rID-15044——**PNL＝自乳頭向後垂直畫至胸大肌（CC"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**MLO 充足性**：",
+    "胸大肌**convex（放鬆）**、**下緣延伸至或低於 PNL**（從乳頭垂直畫至胸肌的線）。→ 故「convex 但**未**延伸至 PNL 下方」屬**定位不足**。",
+    "**IMF（乳下皺褶）打開**,可見下乳與部分上腹壁。",
+    "nipple 在 profile、無皮膚皺褶。",
+    "**CC 充足性**：",
+    "**PNL 長度應在 MLO PNL 的 1 cm 之內**（確保後方組織納入）;PNL＝自乳頭向後垂直至胸大肌（CC 則至影像後緣）之連線，為三角定位病灶第一關鍵。",
+    "nipple 置中、後方可見脂肪。",
+    "**正常解剖**：脂肪位於纖維腺體組織**後方**（後方含脂肪反映納入足夠後段組織）。",
+    "**品管原則（Eklund）**：擺位僅為影像品質之一環——**須連同曝光/對比/解析度/壓迫一併逐張以嚴格技術標準評估、並在最佳條件下閱片**，方不致抵銷技術理想影像之效益。"
+  ],
+  "management": "",
+  "name": "Mammography Positioning Quality (MLO / CC)",
+  "nameZh": "乳房攝影定位",
+  "slug": "mammography-positioning",
+  "subspecialty": "Breast"
+}

@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**耳硬化症（otosclerosis）：fenestral type 最常見（oval window 周圍），retrofenestral type 幾乎不單獨出現，常伴隨 fenestral 病變。Fenestral 型表現為 oval window 周圍 \"halo\"。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Fenestral type**：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 **oval window 周圍 \"halo\"**。",
+    "**Retrofenestral type**：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但**幾乎不單獨出現（rarely in isolation）**，通常伴隨 fenestral 病變。",
+    "好發 4-5 十歲，懷孕可加重聽力損失。",
+    "CT 上 bony modiolus 多數不可見（up to 90%）。"
+  ],
+  "management": "",
+  "name": "Otosclerosis",
+  "nameZh": "耳硬化症",
+  "slug": "otosclerosis",
+  "subspecialty": "NR"
+}

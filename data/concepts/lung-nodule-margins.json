@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**肺結節邊緣銳利度（sharpness of nodular margins）**是鑑別多發肺結節病因的重要影像特徵。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Well-defined**：轉移（metastases）、類肉瘤病（sarcoidosis）",
+    "**Well-defined 或 ill-defined**：矽肺/塵肺（pneumoconiosis）",
+    "**Ill-defined**：吸入性感染（aspiration）、**血管炎（vasculitis）**"
+  ],
+  "management": "",
+  "name": "Lung Nodule Margin Sharpness",
+  "nameZh": "肺結節邊緣銳利度",
+  "slug": "lung-nodule-margins",
+  "subspecialty": "CH"
+}

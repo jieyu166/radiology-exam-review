@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**葡萄胎染色體口訣「完全胎46、部分胎69」：complete hydatidiform mole (CHM)為46 XX/XY（雙父源、無胎兒）；partial hydatidiform mole (PHM)為69三倍體（常有胎兒/胎兒部分）。影像上mole被子宮肌層包繞、於T2WI肌層相對mole呈低訊號；超音波CHM呈「葡萄串（cluster of grapes）」；CECT呈低衰減腫塊併薄強化分隔。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**染色體**：**CHM為46（XX或XY，雙父源，無胎兒/胎兒部分）**；**PHM為69三倍體（XXX或XXY，常有胎兒或胎兒部分）**——故「PHM 46、CHM 69」為顛倒錯誤。",
+    "**與肌層關係（本題正解）**：**PHM與CHM皆被子宮肌層包繞，且於T2WI肌層相對mole呈低訊號**（mole含水樣絨毛呈T2高訊號）。",
+    "**超音波**：**CHM呈葡萄串（cluster of grapes）樣多囊；胎兒部分缺如（除罕見CHM合併雙胞胎二倍體外）**——故「CHM超音波呈葡萄串且可見胎兒部分」錯誤(胎兒部分應缺如)。",
+    "**CECT**：mole呈**低衰減（low attenuation）腫塊，相對強化的肌層，伴薄強化分隔**——故「moles較肌層強強化（hyperintensity）」錯誤。"
+  ],
+  "management": "",
+  "name": "Gestational Trophoblastic Disease (Hydatidiform Mole)",
+  "nameZh": "妊娠滋養細胞疾病",
+  "slug": "gestational-trophoblastic-disease",
+  "subspecialty": "ABD"
+}

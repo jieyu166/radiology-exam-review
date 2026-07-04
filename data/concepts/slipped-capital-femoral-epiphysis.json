@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**SCFE好發於「男孩」不是女孩——這是本題陷阱。其餘記憶：肥胖是重要危險因子、本質是Salter-Harris第一型生長板損傷（骨骺相對幹骺端向後內下滑脫）、Klein線（沿股骨頸上緣畫線正常應切過骨骺外側部分，SCFE時未切過）有助診斷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**性別/族群**：**男孩多於女孩**（本題A敘述「more common in girls」為錯誤）；黑人/加勒比裔多於白人；男孩發病年齡較晚（10-17歲）、女孩較早（8-15歲）。",
+    "**危險因子**：**肥胖為重要危險因子**；亦見於內分泌異常（甲狀腺低下、生長激素治療等）。",
+    "**病理本質**：**Salter-Harris第一型生長板損傷**——股骨頭骨骺相對於幹骺端經生長板向後、內、下方滑脫。",
+    "**影像診斷**：**Klein線（line of Klein）**——沿股骨頸上緣畫直線，正常應切過股骨頭骨骺外側部分；SCFE時該線未切過骨骺（或切過變少），有助診斷；亦可見骨骺高度變矮、生長板增寬模糊。"
+  ],
+  "management": "",
+  "name": "Slipped Capital Femoral Epiphysis (SCFE)",
+  "nameZh": "股骨頭骨骺滑脫",
+  "slug": "slipped-capital-femoral-epiphysis",
+  "subspecialty": "MSK"
+}

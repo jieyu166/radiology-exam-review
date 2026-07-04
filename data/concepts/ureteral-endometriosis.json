@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**輸尿管子宮內膜異位症（ureteral endometriosis, UE）盛行率介於0.01–1.7%，好發30–35歲、左側較常見，評估的第一線影像檢查是超音波而非MRI。** 判讀分水嶺：**經陰道超音波可偵測卵巢子宮內膜異位瘤與直腸陰道中隔結節，腹部超音波可辨識泌尿道阻塞——依此step-by-step流程安排檢查順序，MRI僅作為後續進一步評估工具，並非第一線。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**盛行率**：於子宮內膜異位症患者中變異極大，約 **0.01%–1.7%**。",
+    "**好發族群**：尖峰發生年齡 **30–35 歲**；**通常單側，左側較常見**（left predisposition）。",
+    "**第一線影像**：**超音波（ultrasonography）**，非 MRI；提出 step-by-step 演算法——經陰道超音波偵測卵巢子宮內膜異位瘤/直腸陰道中隔結節，腹部超音波辨識泌尿道阻塞，必要時再行 MRI 進一步評估。"
+  ],
+  "management": "",
+  "name": "Ureteral Endometriosis",
+  "nameZh": "輸尿管子宮內膜異位症",
+  "slug": "ureteral-endometriosis",
+  "subspecialty": "ABD"
+}

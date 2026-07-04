@@ -1,0 +1,35 @@
+{
+  "checked": false,
+  "definition": "**HCC 的影像特徵就是「動脈期亮、門脈期洗掉、有包膜、有瘤栓」；沒有包膜不利 HCC；移植靠 Milan 或 UCSF 決定資格。** 判讀分水嶺一：**有包膜（capsule/pseudocapsule）有利 HCC；無包膜不利 → 這是最常考的陷阱**；判讀分水嶺二：**Milan＝單顆 ≤5 cm 或 ≤3 顆各 ≤3 cm；UCSF＝單顆 <6.5 cm 或 ≤3 顆各 <4.5 cm 且總和 <8 cm，且須為 HCC（膽管癌不算）**。記憶鉤：HCC 四徵「動亮→洗去→有膜→侵血管」；UCSF 比 Milan 寬一號：5→6.5、3→4.5、總和限 8。",
+  "differentialDiagnosis": [
+    "**LR-M（非 HCC 惡性）**：target-like 形態——周邊 rim 強化（高細胞）＋中央纖維化漸進延遲強化，典型為 **膽管癌（ICC）／combined HCC-ICC**，亦見於轉移；rim-APHE＋周邊 washout＋延遲中央漸進強化。非靶狀但偏惡性者（浸潤性、明顯 diffusion restriction、壞死、肝表面回縮、與大小不成比例的膽道阻塞）也歸 LR-M。",
+    "**Dysplastic nodule／再生結節**：多無 APHE＋washout 組合；nodule-in-nodule、未達閾值生長等屬 ancillary，常落 LR-3。最常見的 LR-3 其實是 **hypervascular pseudolesion（灌流性偽病灶）**；LR-3 追蹤約 80% 穩定、僅約 6% 進展為 HCC。",
+    "**Hemangioma／flash-filling 血管瘤**：屬可定性良性（LR-1/2）；周邊結節狀漸進填充、follow blood pool，勿誤判為 APHE 病灶。",
+    "**LR-TIV（tumor in vein）**：管腔內明確強化軟組織、管腔擴張、管壁不清、DWI restriction、與惡性實質腫瘤相連。**ICC、combined、轉移亦可有 PV tumor**，故獨立成 LR-TIV（非單指 HCC）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1186/s40644-018-0149-5",
+      "url": "https://doi.org/10.1186/s40644-018-0149-5"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.2017170098",
+      "url": "https://doi.org/10.1148/rg.2017170098"
+    },
+    {
+      "label": "https://doi.org/10.1097/RCT.0000000000000536",
+      "url": "https://doi.org/10.1097/RCT.0000000000000536"
+    },
+    {
+      "label": "https://doi.org/10.1016/j.acra.2015.11.002",
+      "url": "https://doi.org/10.1016/j.acra.2015.11.002"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "HCC Imaging Diagnosis & Transplant Criteria",
+  "nameZh": "肝癌影像診斷",
+  "slug": "hcc-imaging-diagnosis",
+  "subspecialty": "ABD"
+}

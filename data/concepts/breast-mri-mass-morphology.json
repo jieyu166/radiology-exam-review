@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**乳房MRI腫塊的「環狀強化（rim enhancement）」是惡性的重要形態徵象——最典型見於侵犯性乳癌（invasive carcinoma），因腫瘤中心壞死/纖維化、周邊血管新生強化。相對地papilloma、DCIS、出血則不以rim enhancement為典型表現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Rim enhancement（環狀/邊緣強化）**：腫塊周邊強化較中心明顯，為**惡性重要形態徵象**；最典型見於**invasive carcinoma（侵犯性乳癌）**——中心壞死/纖維化不強化、周邊腫瘤血管新生強化。",
+    "**對照**：",
+    "**Papilloma**：多為均質強化之腫塊或導管內強化。",
+    "**DCIS**：多呈非腫塊強化（NME），節段/線性分布、clustered ring internal pattern；非典型單一腫塊rim enhancement。",
+    "**Hemorrhage（出血）**：T1高訊號、不以強化為主。",
+    "**內部強化型態分級**：homogeneous（偏良性）＜ heterogeneous ＜ **rim enhancement（偏惡性）**。"
+  ],
+  "management": "",
+  "name": "Breast MRI — Mass Internal Enhancement (Rim Enhancement)",
+  "nameZh": "乳房MRI環狀強化",
+  "slug": "breast-mri-mass-morphology",
+  "subspecialty": "Breast"
+}

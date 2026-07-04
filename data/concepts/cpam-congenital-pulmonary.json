@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**CPAM（先天性肺腺瘤樣畸形）最常見類型為 Type I，含大囊（>2 cm）。Type II 含中等大小囊（0.5-2 cm），Type III 為微囊/實質型。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Type I**（**最常見，~65%**）：大囊（>2 cm），預後最佳。",
+    "**Type II**（~20%）：中等囊（0.5-2 cm），常合併其他先天異常。",
+    "**Type III**（~10%）：微囊/實質型，預後較差。"
+  ],
+  "management": "",
+  "name": "Congenital Pulmonary Adenomatoid Malformation (CPAM)",
+  "nameZh": "先天性肺腺瘤樣畸形",
+  "slug": "cpam-congenital-pulmonary",
+  "subspecialty": "CH"
+}

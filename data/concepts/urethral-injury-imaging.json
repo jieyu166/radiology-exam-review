@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**懷疑尿道損傷時，透視引導逆行性尿道攝影（RUG）是診斷的 gold standard；不要先做導尿或 CT 靜脈相——後兩者評估膀胱/腎，非尿道。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.rcl.2012.08.010",
+      "url": "https://doi.org/10.1016/j.rcl.2012.08.010"
+    },
+    {
+      "label": "10.1007/s00120-022-01833-4",
+      "url": "https://doi.org/10.1007/s00120-022-01833-4"
+    }
+  ],
+  "imagingFindings": "- **RUG 判讀重點**：造影劑外滲＝斷裂；外滲同時膀胱仍顯影＝部分斷裂；完全斷裂則造影劑不進入近端尿道/膀胱。\n- **前後段定位**：後尿道損傷（膜部）多與骨盆骨折併發，常見造影劑滲入會陰/骨盆腔；前尿道損傷（球部）多見於騎跨傷。\n- **檢查順序原則**：血自尿道口滲出、骨盆骨折、無法置入導尿管時，先做 RUG 再考慮導尿，避免盲目導尿加重撕裂。\n- **判讀陷阱**：把 CT 靜脈相延遲相當作尿道損傷首選檢查是錯的——那是評估腎/膀胱的方式。",
+  "keyPoints": [
+    "**Fluoroscopic retrograde urethrography（RUG）**：評估尿道損傷的首選與 gold standard，可顯示損傷位置、完全/部分斷裂與造影劑外滲。",
+    "**CT with IV contrast（delayed phase）**：用於腎/膀胱等實質及集尿系統損傷，非尿道。",
+    "**CT / fluoroscopic cystography**：用於膀胱破裂（腹膜內/外）評估，非尿道。",
+    "**尿道損傷男性遠多於女性**，因男性尿道長且相對固定於恥骨聯合。"
+  ],
+  "management": "1. 後尿道損傷比前尿道損傷常見，且多為多重外傷合併骨盆骨折。\n2. 骨盆骨折是後尿道損傷最常見的成因。\n3. 尿道口滲血是尿道損傷的主要警訊，應在導尿前先影像評估。\n4. 未妥善處理的後尿道損傷可致尿道狹窄、失禁與勃起功能障礙。\n5. 完全斷裂常先以恥骨上膀胱造瘻引流，後續再行尿道重建。\n\n> [!note] 考點：評估尿道損傷最佳的影像檢查為何？\n> **Fluoroscopic retrograde urethrography（RUG）**。RUG 為尿道損傷診斷 gold standard；CT 靜脈相/膀胱攝影分別評估腎與膀胱，非尿道。",
+  "name": "Urethral Injury Imaging",
+  "nameZh": "尿道損傷影像",
+  "slug": "urethral-injury-imaging",
+  "subspecialty": "GU"
+}

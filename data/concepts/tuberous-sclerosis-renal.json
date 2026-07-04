@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**結節性硬化症中，腎血管平滑肌脂肪瘤(AML)比腎囊腫更常見(53–75% vs 18–53%)——AML 才是本病最常見的良性腫瘤，也是最常見的腎臟表現，這是本題判讀關鍵。**",
+  "differentialDiagnosis": [
+    "**常見/常須鑑別之超音波發現**：**腎囊腫(renal cyst)**、**腎血管平滑肌脂肪瘤(renal angiomyolipoma)**、**腎細胞癌(renal cell carcinoma)**皆為結節性硬化症病人腎臟超音波常見或需鑑別診斷之發現——TSC病人RCC風險亦較一般族群高。",
+    "**非典型關聯**：**泌尿上皮癌(urothelial carcinoma)並非**結節性硬化症常見或常需鑑別診斷之超音波發現——此為與腎實質腫瘤(AML/RCC/囊腫)的重要區分點，泌尿上皮癌非TSC譜系病灶。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.pediatrneurol.2013.08.001（2018",
+      "url": "https://doi.org/10.1016/j.pediatrneurol.2013.08.001（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**AML 為結節性硬化症最常見之良性腫瘤**：發生率約 **53–75%**。",
+    "**AML 較腎囊腫更常見**：結節性硬化症之腎臟表現中，AML(53–75%) **多於**腎囊腫(18–53%)（非「較少見」）。",
+    "**發病年齡**：結節性硬化症之 AML 發病年齡**較一般族群年輕**。",
+    "**型態特徵**：傾向**多發且體積較大**，相較於一般族群偶發性 AML。"
+  ],
+  "management": "",
+  "name": "Renal Angiomyolipoma (AML) in Tuberous Sclerosis",
+  "nameZh": "結節性硬化症腎臟表現",
+  "slug": "tuberous-sclerosis-renal",
+  "subspecialty": "ABD"
+}

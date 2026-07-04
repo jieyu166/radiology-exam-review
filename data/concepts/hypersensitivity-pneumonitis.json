@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**HP＝吸入抗原引起的免疫媒介肺炎;影像核心是『小葉中心結節＋mosaic/氣體滯留』,headcheese（three-density）sign 為特徵。Headcheese 直譯是『豬頭肉凍』——切面深淺斑駁,正好對應肺裡三種密度混在一起的樣子。** 判讀分水嶺一：**非纖維化 HP＝瀰漫毛玻璃、上中肺為主小葉中心結節、mosaic＋吐氣 air-trapping**;判讀分水嶺二：**纖維化 HP（chronic HP）＝網狀/纖維化＋上中肺或瀰漫、可有 honeycombing,但仍常見 mosaic/air-trapping、頭乳酪徵** → 易與 UIP/NSIP 混淆。**Headcheese sign＝GGO＋mosaic（air-trapping）＋正常肺三種密度並存**＝three-density sign。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1164/rccm.202005-2032ST",
+      "url": "https://doi.org/10.1164/rccm.202005-2032ST"
+    }
+  ],
+  "imagingFindings": "- **兩表型（ATS/JRS/ALAT 2020）**：**HP 分 nonfibrotic 與 fibrotic 兩表型**（取代舊 acute/subacute/chronic 三分）；影像+臨床+暴露史+BAL 淋巴球整合診斷。\n- **nonfibrotic HP HRCT**：**瀰漫毛玻璃 + 全肺區小葉中心結節 + mosaic + 吐氣 air-trapping（three-density/headcheese sign）**。\n- **fibrotic HP HRCT**：**網狀/牽引性支氣管擴張 ± honeycombing，上中肺或瀰漫分布（上肺為主較 IPF 常見）、常伴 mosaic/air-trapping 與小葉中心結節**——為與 UIP/IPF 鑑別之線索。\n- **吐氣 CT 必要**：可疑 HP 應加做**吐氣相 CT 證實 air-trapping**（見 [[air-trapping]]、[[mosaic-attenuation]]）。\n- **three-density sign 機轉**：**GGO（浸潤）+ mosaic/air-trapping（小氣道阻塞低衰減）+ 正常肺三密度並存**＝headcheese sign，反映 infiltrative 與 air-trapping/hyperperfusion 混合。\n- **DDx**：UIP/IPF（無 mosaic/結節、下肺胸膜下蜂窩）、NSIP（subpleural sparing）、sarcoid、RB-ILD。",
+  "keyPoints": [
+    "**非纖維化 HP**：",
+    "瀰漫**毛玻璃**、**小葉中心(centrilobular)結節（all lung zones）**;",
+    "**mosaic attenuation ＋ 吐氣 air-trapping**;",
+    "**three-density sign（＝headcheese sign）**：GGO＋mosaic/air-trapping＋正常肺三密度。",
+    "**纖維化 HP（chronic HP）**：網狀、牽引性支氣管擴張±honeycombing;**上中肺或瀰漫分布**（上肺為主比 IPF 常見）;仍常見 mosaic/air-trapping、結節 → 為與 UIP 的鑑別線索。",
+    "**診斷輔助**：可疑 HP 應加做**吐氣 CT** 證實 air-trapping（見 [[air-trapping]]）。"
+  ],
+  "management": "1. **本質（Raghu 2020）**：**HP＝吸入抗原引起之免疫媒介間質性肺病**；ATS/JRS/ALAT 共識以 GRADE 建立診斷途徑。\n2. **暴露評估（Raghu）**：**須詳盡病史 + validated questionnaire 找潛在抗原暴露**；建議做**血清 IgG（against 潛在抗原）**以辨識暴露。\n3. **BAL（Raghu）**：**nonfibrotic 與 fibrotic HP 皆建議 BAL 淋巴球細胞分析**（HP 常 BAL 淋巴球增多）。\n4. **切片（Raghu）**：nonfibrotic 可考慮 transbronchial/surgical lung biopsy；**fibrotic HP 建議 transbronchial lung cryobiopsy 或 surgical lung biopsy**。\n5. **診斷/預後**：以專家共識之診斷準則與演算法整合暴露/影像/BAL/病理；**fibrotic HP 預後較差**（似進行性纖維化 ILD）。\n\n> [!note] 考點：Headcheese sign\n> **三種密度並存（GGO ＋ mosaic/air-trapping ＋ 正常肺）＝headcheese / three-density sign,為 HP 特徵**;反映 infiltrative GGO 與 air-trapping/hyperperfusion 混合。",
+  "name": "Hypersensitivity Pneumonitis (HP) & Headcheese Sign",
+  "nameZh": "過敏性肺炎",
+  "slug": "hypersensitivity-pneumonitis",
+  "subspecialty": "CH"
+}

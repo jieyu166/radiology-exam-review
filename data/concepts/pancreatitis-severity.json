@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**急性胰臟炎的積液命名由「有無壞死」×「4週」決定：無壞死→APFC→pseudocyst；有壞死→ANC→WON；記憶鉤：壞死型的包覆版本才叫 WON，pseudocyst 是無壞死型的。** 原始 CTSI＝Balthazar 分級（A–E）＋壞死%，pleural effusion 不在其中（屬 modified CTSI 的 extrapancreatic）。判讀分水嶺一：**壞死＋>4週包覆＝WON**；判讀分水嶺二：**原始 CTSI 不含 pleural effusion**。",
+  "differentialDiagnosis": [
+    "**早期 CT 低估壞死**：<72h 影像正常或低估，勿據此排除壞死型;必要時 5–7 天重做。",
+    "**WON 誤判為 pseudocyst**：見「有壁圓形低密度 collection」勿直接叫 pseudocyst，須看內容物有無非液性碎屑（WON），MRI/EUS 較 CT 易辨碎屑。",
+    "**collection 內氣體≠一定感染**：需排除近期穿刺/手術、與腸道相通之瘻管。",
+    "**DDx**：WON 與囊性胰腫瘤（如 mucinous cystic neoplasm、IPMN）——後者通常無急性胰臟炎病史、有分隔/壁結節，臨床病程與影像演變可區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1093/gastro/gov036（PMC4760067",
+      "url": "https://doi.org/10.1093/gastro/gov036（PMC4760067"
+    },
+    {
+      "label": "10.1148/rg.2016150097（章節級，accessed",
+      "url": "https://doi.org/10.1148/rg.2016150097（章節級，accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Acute Pancreatitis — Revised Atlanta & CTSI",
+  "nameZh": "急性胰臟炎分類",
+  "slug": "pancreatitis-severity",
+  "subspecialty": "ABD"
+}

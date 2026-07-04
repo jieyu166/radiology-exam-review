@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Cerebral proliferative angiopathy (CPA) 與典型 AVM 的關鍵差異：CPA 血管叢間含有正常腦實質（interposed normal brain parenchyma），典型 AVM 則無；CPA 常為大面積、涉及多血管領域、無明確 nidus；出血風險較 AVM 低。** 判讀分水嶺：**CPA 含正常腦組織是最重要鑑別點——與 AVM 不同，因此不宜手術切除。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：CPA 為一種罕見的腦血管畸形，血管叢廣泛分布、**病灶間夾雜正常腦實質**",
+    "**與 AVM 鑑別**：典型 AVM 有 compact nidus、無正常腦組織夾雜；CPA 為 diffuse、**含 interposed normal brain tissue**",
+    "**影像特徵**：大範圍、跨多個血管分布區域、無明確 nidus；常見 transdural supply",
+    "**臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療**",
+    "**常見表現**：頭痛、癲癇；較少以出血為初始表現"
+  ],
+  "management": "",
+  "name": "Cerebral Proliferative Angiopathy",
+  "nameZh": "腦增殖性血管病變",
+  "slug": "cerebral-proliferative-angiopathy",
+  "subspecialty": "NR"
+}

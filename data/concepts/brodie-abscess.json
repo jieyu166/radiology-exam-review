@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Brodie abscess＝亞急性骨髓炎,典型位於長骨『metaphysis（幹骺端）』,界線清楚、硬化緣,可跨生長板。** 判讀分水嶺：**好發 metaphysis（非 epiphysis）;邊界清楚、周圍反應性硬化緣;X 光透亮病灶;可延伸跨越生長板至骨骺;MRI 見 penumbra sign（T1 中央膿腔周圍肉芽組織環略高訊號）**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.10.7264（引",
+      "url": "https://doi.org/10.2214/AJR.10.7264（引"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：**亞急性骨髓炎**的局部化膿腔（常 Staph aureus）;兒童/青少年。",
+    "**位置**：典型**長骨 metaphysis（幹骺端）**;非位於 epiphysis。",
+    "**X 光**：**界線清楚（well-demarcated）的透亮病灶＋周圍硬化緣（sclerotic margin）**;可**延伸跨越生長板**。",
+    "**MRI**：T2 高訊號膿腔＋周圍水腫;**penumbra sign**（T1 膿腔周圍肉芽環略高訊號）。"
+  ],
+  "management": "",
+  "name": "Brodie Abscess (Subacute Osteomyelitis)",
+  "nameZh": "布羅迪膿瘍",
+  "slug": "brodie-abscess",
+  "subspecialty": "MSK"
+}

@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**喉部三分區（supraglottis/glottis/subglottis）與下咽三分區（piriform sinus/postcricoid region/posterior pharyngeal wall）是兩套並列但常被混淆的分區系統——postcricoid region 屬於下咽，不屬於喉部任何一區，是最常見的陷阱。** 判讀分水嶺：**分界靠「aryepiglottic(AE) fold」——AE fold 是 supraglottis 的上外側緣，把它與下咽的 piriform sinus 分開；piriform sinus 的前內側壁即 AE fold 後外側壁（marginal supraglottis）。postcricoid region 是下咽「前壁下段」、位於下咽與喉的交界。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **AE fold＝分界標記（考點核心）**：**AE fold 為 supraglottis 上外側緣，分隔 supraglottis 與 piriform sinus（下咽）**；判腫瘤起源與跨區時以此為界。\n- **兩個關鍵脂肪間隙（腫瘤擴散途徑）**：**preepiglottic space（hyoid 與 epiglottis 間之脂肪）**與**paraglottic space（FVC/TVC 深面之成對脂肪，向上併入 preepiglottic space）**——supraglottic 癌易沿此深部擴散、影響分期，MR/CT 判讀必看。\n- **postcricoid 邊界更正**：**上界 cricoarytenoid joints、下界 cricoid 下緣**（非 hyoid bone）；此為下咽與喉交界之前壁，含黏膜與豐富靜脈叢。\n- **軟骨標記**：thyroid cartilage 最大（「盾」）、cricoid 為 endolarynx 唯一完整環（cricoid 下緣＝喉與氣管交界）、arytenoid 之 vocal process 位 TVC 高度。\n- **模態**：**MDCT/MR 為喉癌分期主力，US 角色有限**（軟骨鈣化限制內部評估）；US 可即時評估小兒聲帶活動度、導引聲帶注射。",
+  "keyPoints": [
+    "**喉部三分區（分期用）**：",
+    "**Supraglottis**：自 epiglottis 尖端至 laryngeal ventricle；含 vestibule、epiglottis、**preepiglottic fat**、**AE folds**、**false vocal cord(FVC)**、**paraglottic space**、**arytenoid cartilage**。",
+    "**Glottis**：**true vocal cord(TVC)＋anterior/posterior commissure**（thyroarytenoid 肌，內側纖維為 vocalis）。",
+    "**Subglottis**：TVC 下緣至 cricoid 軟骨下緣。",
+    "**下咽三分區**：",
+    "**Piriform sinus（梨狀窩）**：下咽前外側隱窩；**apex（下端）位 TVC 高度**；前內側壁＝AE fold 後外側壁。",
+    "**Postcricoid region**：**下咽前壁下段、下咽與喉之交界**；**上界 cricoarytenoid joints、下界 cricoid 軟骨下緣**。",
+    "**Posterior hypopharyngeal wall**：後口咽壁之下延續。",
+    "**常見陷阱**：postcricoid region 常被誤認為 supraglottis 之一部分，實則屬 **hypopharynx**，與 supraglottis 之 epiglottis/FVC/arytenoid 為不同分區系統。"
+  ],
+  "management": "1. 喉/下咽分區系統直接對應 **TNM 分期與手術範圍**，正確歸區影響治療決策。\n2. **supraglottic 癌因 preepiglottic/paraglottic space 與豐富淋巴，易深部擴散與頸部轉移**；glottic 癌淋巴少、預後相對佳。\n3. **postcricoid 與 piriform sinus 之下咽癌預後差、常晚期表現**（吞嚥困難、頸腫塊）。\n4. 影像報告須明確描述腫瘤跨越 supraglottis/glottis/subglottis 或侵入 preepiglottic/paraglottic space、軟骨與跨中線，供分期與術式判斷。\n5. 判讀時把「AE fold 分喉/下咽、preepiglottic＋paraglottic 深部擴散、postcricoid 屬下咽（cricoarytenoid joints→cricoid 下緣）」記牢，避免分區誤判。\n\n> [!note] 考點：下列那個構造不屬於supraglottis？\n> **Postcricoid area（D）**——屬於下咽（hypopharynx）三分區之一（下咽前壁下段），非 supraglottis。FVC、arytenoid、epiglottis（及 AE fold、preepiglottic fat）皆為 supraglottis 組成。",
+  "name": "Larynx & Hypopharynx Subsite Anatomy",
+  "nameZh": "喉部分區",
+  "slug": "larynx-hypopharynx-subsite-anatomy",
+  "subspecialty": "NR"
+}

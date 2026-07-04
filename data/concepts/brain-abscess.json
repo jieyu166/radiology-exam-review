@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**腦膿瘍的影像邏輯：中央是黏稠的膿液（DWI 明顯受限）、外包一層薄而平滑的強化環——這兩點加在一起就能與壞死腫瘤（GBM/轉移）做出有力區別。** 進階特徵是 SWI/T2-FLAIR 上的 dual rim sign：兩個同心環，外環低訊號、內環相對高訊號，約見於 75% 腦膿瘍。記憶鉤：膿瘍環「薄而光滑」（包裝整齊的膿包），GBM 環「厚而不規則」（腫瘤邊緣凹凸）；DWI 受限是最快的鑑別點，壞死腫瘤中央通常不受限。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/ajr.171.6.9843275",
+      "url": "https://doi.org/10.2214/ajr.171.6.9843275"
+    }
+  ],
+  "imagingFindings": "- **DWI 為最快鑑別點（Kim AJR，核心）**：**化膿性膿瘍腔於 DWI 呈明顯高訊號（ADC 低）、壞死/囊性腫瘤呈低訊號（ADC 高）**——此差異源於膿液之高黏稠度與發炎細胞，為區分膿瘍與壞死腫瘤最實用之單一序列。\n- **dual rim sign（考點）**：**SWI/T2/FLAIR 上兩同心環——外環低訊號、內環相對高訊號，約見於 75% 膿瘍**，助與 GBM 區別；外環低訊號對應 T1 強化內緣。\n- **環形強化型態**：膿瘍環**薄、平滑、完整，常內緣（朝腦室面）較薄**；GBM/轉移環**厚而不規則**——結合 DWI 受限提高特異度。\n- **cerebritis 陷阱（考點）**：**cerebritis（早/晚期）於 DWI/ADC 亦可擴散受限（可 patchy），非僅成熟膿瘍才受限**；早期 cerebritis 邊界不清、強化輕微，晚期漸進性周邊強化。\n- **DDx**：GBM/轉移（厚不規則環、中央 DWI 不受限）、tumefactive demyelination（開環強化）、PCNSL（均質強化、免疫低下可壞死）；MRS 可輔助（膿瘍見 lactate/胺基酸/acetate/succinate）。",
+  "keyPoints": [
+    "**Dual rim sign（雙環徵象）**：SWI/T2/FLAIR 上**兩同心環——外環低訊號、內環相對高訊號**;約見於 **75%** 腦膿瘍,**有助與 GBM 區別**（2016-126 正解 B）。",
+    "**DWI**：膿瘍中央膿液**明顯擴散受限（DWI 高、ADC 低）**,異於壞死腫瘤的中央。",
+    "**強化**：薄、平滑、完整的環狀強化（常內緣較薄朝向腦室面）。",
+    "**鑑別**：GBM/轉移（厚不規則環、中央壞死 DWI 不受限）、tumefactive demyelination（開環強化）、PCNSL（均質強化、免疫低下可壞死）。",
+    "**Cerebritis（前驅期，尚未形成膿瘍）之DWI陷阱**：**cerebritis（早期或晚期）於DWI/ADC亦可見擴散受限**（可呈patchy分布），並**非僅abscess才有擴散受限**——這是常見誤區（誤以為只有已形成膿瘍才擴散受限）。",
+    "**Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。",
+    "**Late cerebritis**：漸進性、尤其周邊之強化（邊界不清，與已形成之abscess不易區分）；漸進性擴散受限加劇。"
+  ],
+  "management": "1. **病程**：由 early cerebritis → late cerebritis → early capsule → late capsule 四期演進；影像表現隨期別而變（強化與擴散受限漸增）。\n2. **臨床線索（Kim/文獻）**：症狀多非特異，**僅約半數腦膿瘍有發燒**（尤其類固醇治療下可被掩蓋），與腫瘤臨床難分——故影像鑑別關鍵。\n3. **致病途徑**：血行播散（心內膜炎/肺膿瘍/發紺型心臟病）、鄰近擴散（中耳炎/鼻竇炎/牙源）、外傷/術後；免疫低下者病原譜擴大。\n4. **處置意義（Kim）**：**膿瘍與腫瘤處置迥異、囊性病灶手術前正確診斷尤為關鍵**——DWI/MRS 於術前鑑別具實質臨床價值。\n5. **治療**：抗生素±立體定位抽吸/手術引流；追蹤 DWI 與環形強化評估治療反應（膿腔縮小、擴散受限消退）。\n\n> [!note] 考點：SWI 上 \"dual rim sign\" 最可能見於?\n> **腦膿瘍（brain abscess）**——兩同心環(外低/內高訊號),約 75% 病例,助與 GBM 區別。\n\n> [!note] 考點：CNS pyogenic infection相關敘述何者錯誤?\n> 「**DWI上僅abscess有訊號增高、cerebritis無**」為錯——cerebritis（早期或晚期）於DWI亦可見擴散受限，可呈patchy分布。",
+  "name": "Brain Abscess (Dual Rim Sign)",
+  "nameZh": "腦膿瘍",
+  "slug": "brain-abscess",
+  "subspecialty": "NR"
+}

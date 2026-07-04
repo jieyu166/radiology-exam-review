@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**ONSM 的典型影像特徵包括：intratumor calcification、tram-tracking enhancement（軌道樣強化）、perioptic cyst。Hypointense pseudocapsule 不是 ONSM 的特徵（而是其他腫瘤如 schwannoma 的特徵）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Tram-tracking sign**：contrast-enhanced MRI 上沿視神經鞘的雙軌強化，為 ONSM 最典型表現",
+    "**Intratumor calcification**：CT 可見腫瘤內鈣化",
+    "**Perioptic cyst**：視神經周圍囊性變化",
+    "Hypointense pseudocapsule **不是** ONSM 的特徵",
+    "好發於中年女性，通常為單側，緩慢進行性視力喪失"
+  ],
+  "management": "",
+  "name": "Optic Nerve Sheath Meningioma (ONSM)",
+  "nameZh": "視神經鞘腦膜瘤",
+  "slug": "optic-nerve-sheath-meningioma",
+  "subspecialty": "NR"
+}

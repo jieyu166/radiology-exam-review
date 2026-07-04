@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**TIPS的主要目的是「降低門脈壓力以控制門脈高壓相關併發症」——不是直接以延長末期肝硬化病人存活期為目標，這是本題最容易混淆的方向。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**主要目的**：**降低與門脈高壓相關併發症之門脈壓力**（如控制靜脈瘤出血、頑固性腹水），並非以「延長末期肝硬化病人存活」為主要目的。",
+    "**禁忌症**：重度肝性腦病變(severe hepatic encephalopathy)、失代償肝衰竭(decompensated hepatic failure)、嚴重心衰竭(severe heart failure)，皆為TIPS之禁忌症。",
+    "**術後血流動力學**：術後**門體壓力梯度(porto-systemic pressure gradient)下降**——目標術後梯度<12 mmHg；CPS>10或MELD>14之病人術後梯度不應降至≤5 mmHg（過度降低有其風險）。",
+    "**最常見分流路徑**：**右肝靜脈至右門脈**。"
+  ],
+  "management": "",
+  "name": "TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
+  "nameZh": "經頸靜脈肝內門體分流術",
+  "slug": "tips-portosystemic-shunt",
+  "subspecialty": "IR"
+}

@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**Central neurocytoma 是好發於側腦室（常在 Monro 孔附近、附著於透明隔）的 WHO grade 2 神經上皮腫瘤，好發年輕成人、預後佳（完整切除）；MR spectroscopy 關鍵鑑別是『glycine peak（3.55 ppm，長 TE）』而非 glutamine。** 判讀分水嶺：**「Central neurocytoma」專指腦室內（腦室外者稱 extraventricular neurocytoma）；影像＝異質、高衰減、>50% 鈣化（punctate）、多囊（bubbly/swiss cheese/soap bubble）、輕-中度強化 + 腦室擴大；MRS glycine(3.55ppm)+顯著 choline；合併腦室外延伸預後較差。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1076——**WHO",
+      "url": "https://doi.org/10.53347/rID-1076——**WHO"
+    }
+  ],
+  "imagingFindings": "- **定位**：Monro 孔附近側腦室內、附透明隔之 bubbly 腫塊＝central neurocytoma 首要考量。\n- **鈣化 + 囊變**：CT punctate 鈣化 + MR 多囊（swiss cheese）為特徵；輕-中度強化。\n- **MRS**：glycine(3.55ppm)+choline；勿把 Glx(2.2-2.4ppm)當鑑別標記。\n- **水腦**：Monro 孔阻塞致側腦室擴大，症狀多為顱內壓升高。\n- **鑑別**：subependymoma（年長、少強化、Monro/四腦室）、SEGA（TSC、Monro）、ependymoma、腦室內腦膜瘤、oligodendroglioma。",
+  "keyPoints": [
+    "**本質/族群**：**WHO grade 2 神經上皮腦室內腫瘤**；好發**年輕成人**，完整切除預後佳。",
+    "**位置**：**側腦室、Monro 孔附近（最常，約 50%）、附著於透明隔（septum pellucidum）**；「central」＝腦室內限定。",
+    "**影像形態**：**異質、對白質高衰減**、**鈣化 >50%（punctate）**、**多囊（bubbly/swiss cheese/soap bubble，FLAIR 部分衰減）**、輕-中度（多變）強化、常伴**腦室擴大/水腦**。",
+    "**MRS（關鍵易錯）**：**glycine peak（3.55 ppm，長 TE）**+ 顯著 **choline** 峰——**非 glutamine**（Glx 位 2.2-2.4 ppm、與 GABA 重疊，非鑑別標記）。",
+    "**鈣化/預後**：鈣化常見（非罕見）；合併**腦室外延伸者預後較差**。"
+  ],
+  "management": "1. **WHO 2、年輕成人、預後佳**。\n2. **位置**：側腦室 Monro 孔、附透明隔。\n3. **影像**：高衰減、鈣化 >50%、多囊、輕-中度強化。\n4. **MRS**：glycine 3.55ppm + choline（非 glutamine）。\n5. **預後**：腦室外延伸較差。\n\n> [!note] 考點：關於central neurocytoma，何者「為偽」?\n> **D 為偽**——MRS 鑑別特徵峰為 **glycine（3.55 ppm）**，並非 glutamine。邊界清楚分葉狀伴囊狀變(A)、命名專指腦室內病灶(B)、強化多變但典型中重度強化(C)皆為真。⚠️ Glutamate-glutamine(Glx)峰位於 2.2-2.4 ppm、與 GABA 重疊，非鑑別性標記。",
+  "name": "Central Neurocytoma",
+  "nameZh": "中樞神經細胞瘤",
+  "slug": "central-neurocytoma",
+  "subspecialty": "NR"
+}

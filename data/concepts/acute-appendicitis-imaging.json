@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**急性闌尾炎超音波診斷：擴張的盲端管狀構造、無蠕動且無法壓縮，管壁增厚（單壁 >3 mm）——管徑門檻有來源分歧：傳統/考題用「外徑 >6 mm」，STATdx 則用「外徑 ≥7 mm」（6-7 mm 為灰色地帶、以次要徵象輔助）。CT/MR 以起自盲腸之擴張盲端管狀構造、盲腸壁增厚（cecal bar sign）及闌尾結石為特徵。** 判讀分水嶺：**外徑 >6-7 mm + 無法壓縮 + 管壁增厚/強化 + 周邊脂肪炎（echogenic fat / fat stranding）＝闌尾炎；power Doppler 管壁充血支持；穿孔看「黏膜下高回音層不連續 + 周邊積液 + loose appendicolith」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **可壓縮性優先**：正常闌尾/腸道可壓縮；**無法壓縮**是關鍵；分級加壓（graded compression）為 US 核心技術。\n- **門檻灰區處理**：外徑 6-7 mm 時勿只看數字，須合併「不可壓縮 + 壁厚 + 周邊脂肪炎 + Doppler 充血 + 結石」。\n- **CT 次發徵象**：cecal bar、周邊脂肪 stranding、周邊積液、arrowhead sign（顯影劑於盲腸尖成箭頭）支持診斷。\n- **穿孔線索**：黏膜下高回音層「不連續」、周邊膿瘍/游離氣、loose appendicolith。\n- **US 偽陰性**：**位置異常、已穿孔、tip appendicitis（僅尖端發炎）**易漏——臨床高度懷疑時進一步 CT/MR。",
+  "keyPoints": [
+    "**CT/MR**：**起自盲腸之擴張盲端管狀構造**；擴張 ±**單壁厚 >3 mm**、**管壁 hyperenhancement**、**周邊脂肪 stranding、周邊積液**、**闌尾結石**；**盲腸壁增厚（\"cecal bar\" sign）**為將闌尾與顯影盲腸分隔之次發徵象。",
+    "**US**：**擴張、無法壓縮、無蠕動**之管狀構造；**單壁厚 >3 mm**、周邊 **echogenic fat**、**power Doppler 管壁充血**；**無法壓縮之聲影闌尾結石**；橫切呈 target 樣、加壓呈圓形（不可壓縮）。",
+    "**管徑門檻（來源分歧，並列）**：**外徑 >6 mm（傳統/考題答案，敏感度高）** vs **≥7 mm（STATdx，較特異；6-7 mm 灰色地帶用次要徵象）**——**非 >5 mm、非 >8 mm**。",
+    "**經陰道 US 之骨盆位闌尾**：無蠕動、無法壓縮、觸痛之多層盲端管狀結構，外徑 **>6 mm**。",
+    "**穿孔徵象**：**管壁增厚 + 黏膜下高回音層不連續**、周邊積液/膿瘍、**loose appendicolith**；穿孔時闌尾反而較難辨識（wall disruption）。",
+    "**闌尾黏液囊腫（mucocele）**：邊界清楚薄壁囊性腫塊；「**洋蔥皮徵象（onion skin sign）**」對其相對特異。"
+  ],
+  "management": "1. **US 三要件**：擴張（>6-7 mm）+ 無法壓縮 + 管壁增厚（>3 mm）。\n2. **門檻分歧**：傳統/考題 >6 mm、STATdx ≥7 mm（6-7 mm 用次要徵象）。\n3. **CT 特徵**：盲端管狀 + cecal bar + 周邊脂肪炎 + 結石。\n4. **穿孔**：黏膜下層不連續 + 周邊積液/膿瘍 + loose appendicolith。\n5. **偽陰性**：位置異常/穿孔/tip appendicitis，臨床可疑時加做 CT/MR。\n\n> [!note] 考點：關於典型急性闌尾炎影像特徵，何者為非？\n> **超音波擴張門檻為「>5 mm」（C）為錯誤**——正確為外徑 **>6 mm（傳統）／≥7 mm（STATdx）**。CT/MR 呈盲腸擴張盲端管狀構造、cecal bar sign、US 無法壓縮聲影闌尾結石，皆為正確。\n\n> [!note] 考點：關於典型急性闌尾炎超音波表現（經陰道），何者為非？\n> **經陰道超音波闌尾外徑門檻為「>8 mm」（A）為錯誤**——正確為外徑 **>6 mm**。管壁增厚合併黏膜下層不連續提示穿孔、黏液囊腫呈邊界清楚薄壁囊性腫塊、洋蔥皮徵象對黏液囊腫具特異性，皆為正確。",
+  "name": "Acute Appendicitis — CT/MR/US Diagnostic Criteria",
+  "nameZh": "急性闌尾炎影像診斷",
+  "slug": "acute-appendicitis-imaging",
+  "subspecialty": "ABD"
+}

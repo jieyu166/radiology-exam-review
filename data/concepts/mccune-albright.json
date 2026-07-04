@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**McCune-Albright 三聯靠一個鉤記牢：「骨（多骨性 FD）、皮（coast-of-Maine 咖啡牛奶斑）、荷爾蒙（性早熟）」，其中性早熟以女孩為主——「男性為主」恰好是考題的假選項。** 判讀分水嶺一：**café-au-lait 邊界不規則（coast of Maine）**，與神經纖維瘤病（光滑邊界）不同；判讀分水嶺二：**性早熟＝最典型內分泌異常、女性偏多**（GNAS 鑲嵌突變）。",
+  "differentialDiagnosis": [
+    "病變",
+    "**Paget disease**",
+    "**Non-ossifying fibroma（NOF）**",
+    "**Ossifying fibroma**",
+    "**Low-grade osteosarcoma**",
+    "**Adamantinoma**"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s13244-018-0666-6",
+      "url": "https://doi.org/10.1007/s13244-018-0666-6"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "McCune-Albright Syndrome",
+  "nameZh": "麥庫恩-奧布萊特症候群",
+  "slug": "mccune-albright",
+  "subspecialty": "MSK"
+}

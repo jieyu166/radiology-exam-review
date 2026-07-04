@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**支氣管閉鎖＝近端節段/次節段支氣管局部中斷，遠端氣道仍通——造成兩個標誌：①中央「黏液嵌塞（bronchocele/mucocele）」呈卵圓/管狀分支之 finger-in-glove 影，②其周圍「過度充氣、血管稀少（oligemia）」之肺。最常發生於「左上肺葉尖後段（apicoposterior segment）」，其次右上肺葉——與『右側較常見』的直覺相反，是常考陷阱。** 判讀分水嶺：**肺門旁 finger-in-glove 分支狀腫塊 + 周圍過度透亮/血管稀少肺 + 呼氣相 air-trapping ＝支氣管閉鎖；多無症狀偶然發現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **finger-in-glove**：肺門旁管狀分支狀高密度＝黏液嵌塞之擴張支氣管，是最具辨識度的徵象。\n- **周圍透亮肺**：過度充氣 + 血管稀少（oligemia），呼氣相更明顯（air-trapping）。\n- **CECT**：mucocele 本身**不強化**（純黏液），可與腫瘤/血管病灶區分。\n- **部位記憶**：LUL 尖後段最常見（非右側），常考陷阱。\n- **鑑別**：與其他透亮肺病灶（congenital lobar overinflation、CPAM、Swyer-James）鑑別；找中央 finger-in-glove 是關鍵。",
+  "keyPoints": [
+    "**病理**：主/葉/**節段或次節段支氣管局部中斷（閉鎖）**，遠端氣道與肺泡仍發育，黏液無法排出而積於遠端。",
+    "**兩大標誌**：",
+    "**中央黏液嵌塞（bronchocele/mucocele）**：卵圓/圓形或**管狀分支之腫塊（finger-in-glove sign）**，位近肺門。",
+    "**周圍肺過度充氣 + 血管稀少（oligemia）**：空氣經**collateral air drift（旁側通氣）**進入卻不易排出 → **air-trapping**（呼氣相 CT 可確認）。",
+    "**好發部位（核心）**：**最常見左上肺葉尖後段（apicoposterior segment）**，其次右上肺葉。",
+    "**層級**：多發生於**節段/次節段**層級。",
+    "**新生兒/嬰兒**：受累肺段初期可**塌陷或充滿液體 → 逐漸充氣**（尚未建立旁側通氣時）。"
+  ],
+  "management": "1. **多無症狀**：常為偶然發現之先天異常，少數反覆感染才就醫。\n2. **兩標誌**：中央 finger-in-glove 黏液嵌塞 + 周圍過度充氣血管稀少肺。\n3. **部位**：LUL 尖後段最常見，其次 RUL。\n4. **機轉**：閉鎖遠端經旁側通氣進氣卻難排出 → air-trapping。\n5. **處置**：無症狀多觀察；反覆感染或診斷不確定時可手術切除。\n\n> [!note] 考點：支氣管閉鎖最常見發生部位？\n> **左上肺葉（LUL）（D）**——尤其**尖後段（apicoposterior segment）**最常見，其次為右上肺葉。",
+  "name": "Bronchial Atresia",
+  "nameZh": "支氣管閉鎖",
+  "slug": "bronchial-atresia",
+  "subspecialty": "CH"
+}

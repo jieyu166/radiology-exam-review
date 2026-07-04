@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Krukenberg腫瘤的影像表現大多「不是」單純囊性——多數病灶影像表現非特異性，以實質為主或囊實混合，這是本題最容易誤判的方向。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：**印戒細胞腺癌(signet ring cell adenocarcinoma)**轉移至卵巢之腫瘤。",
+    "**最常見原發部位**：**胃(stomach)**。",
+    "**側性**：常侵犯**雙側卵巢(bilateral ovaries)**。",
+    "**影像表現**：多數影像特徵非特異性，**以實質成分為主(predominantly solid)或呈囊實混合(mixture of cystic and solid areas)**——並非「以囊性為主」。"
+  ],
+  "management": "",
+  "name": "Krukenberg Tumor",
+  "nameZh": "庫肯柏格腫瘤",
+  "slug": "krukenberg-tumor",
+  "subspecialty": "ABD"
+}

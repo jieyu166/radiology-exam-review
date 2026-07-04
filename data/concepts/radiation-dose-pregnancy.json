@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**懷孕輻射劑量閾值**是放射防護的重要概念。依 ACR Practice Guideline for Imaging Pregnant Women (2008)，胚胎劑量低於 50 mGy 時，於器官生成期間不會增加胚胎死亡或重大畸形的風險。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**< 50 mGy**：無明顯死亡、畸形或智力遲緩風險（low risk）",
+    "**50–100 mGy**：視暴露時間而定，可能有輕微風險",
+    "**> 100 mGy**：器官生成期暴露可增加畸形風險",
+    "**> 500 mGy**：顯著增加智力遲緩風險"
+  ],
+  "management": "",
+  "name": "Radiation Dose Thresholds in Pregnancy",
+  "nameZh": "懷孕輻射劑量",
+  "slug": "radiation-dose-pregnancy",
+  "subspecialty": "RP"
+}

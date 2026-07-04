@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**Steeple sign（教堂尖塔徵；亦稱 wine bottle sign / inverted V sign）是 croup（急性喉氣管支氣管炎，laryngotracheobronchitis）的招牌——正面 X 光呈對稱性『聲門下（subglottic）』狹窄、失去正常聲門下肩部輪廓，形似尖塔。** 判讀分水嶺：**croup＝聲門下病變（非 supraglottic，後者為 epiglottitis）；病毒性（parainfluenza 最常見、亦 RSV）；好發 6 個月-3 歲（峰值 18 個月）；barking cough + 吸氣性喘鳴；影像非診斷所必需，steeple/inverted V sign 支持。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1185（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1185（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **steeple sign**：AP 頸/胸見聲門下對稱漸細如尖塔；正常肩部消失。\n- **側位**：下咽（hypopharynx）氣球樣擴張 + 聲門下模糊；有助與其他上呼吸道病鑑別。\n- **vs epiglottitis**：epiglottitis＝supraglottic、thumbprint sign、年齡稍大、H. influenzae（疫苗後罕見）、流涎/toxic。\n- **其他鑑別**：異物（不對稱阻塞）、咽後膿瘍（椎前軟組織增厚）、細菌性氣管炎（膜狀物/不規則氣管壁）。\n- **臨床優先**：**診斷為臨床；X 光主要用於「排除更嚴重之 stridor 病因」而非診斷 croup**（frontal 看典型 steeple、lateral 排除他病）。\n- **正常 subglottic shoulders**：正常聲門下上緣為對稱局部凸緣（約水平 30-45°）；croup 因水腫使其消失、狹窄延伸至 pyriform sinus 下方、約上 1/3 頸段氣管。\n- **病生理**：**cricoid 為唯一完整環無法擴張＋黏膜冗餘/conus elasticus 鬆附著** → 聲門下最易水腫狹窄；同樣感染於年長兒/成人不致阻塞。\n- **atypical/spasmodic croup 警訊**：**20-64% 有大氣道病灶（subglottic hemangioma/stenosis/laryngeal cleft/tracheomalacia/papillomatosis 等）**；>3 歲或 <6 個月、反覆發作要找其他病因。\n- **DDx 補充**：**細菌性氣管炎（6-10 歲、toxic、pseudomembrane 假膜、不對稱）**、**infantile hemangioma（<6 月、beard distribution 50% 合併皮膚血管瘤）**、異物、血管環、epiglottitis、thermal/angioedema、iatrogenic subglottic stenosis。",
+  "keyPoints": [
+    "**定義/病因**：**急性 laryngotracheobronchitis**，**病毒感染（parainfluenza 最常見，亦 RSV）**致聲門下黏膜水腫。",
+    "**病變部位（關鍵鑑別）**：**聲門下（subglottic）**——**非 supraglottic**（supraglottic 為 epiglottitis）；兩者部位相反，考題常互換。",
+    "**好發年齡**：**6 個月-3 歲（峰值 18 個月）**（可 6 月-15 歲）；**幼童上呼吸道阻塞/窘迫最常見原因**；好發晚秋-初冬。",
+    "**臨床**：**barking（犬吠樣）cough + 吸氣性喘鳴（stridor）**，因黏膜水腫致氣管狹窄。",
+    "**影像**：**steeple sign（＝wine bottle sign / inverted V sign）**於 AP 呈對稱聲門下狹窄、失 subglottic shoulders；側位可見**下咽（hypopharynx）擴張**。影像非診斷所必需。"
+  ],
+  "management": "1. **聲門下病變**：croup＝subglottic（非 supraglottic）。\n2. **病因**：parainfluenza 最常見（亦 RSV）。\n3. **年齡**：6 月-3 歲，峰 18 月。\n4. **臨床**：barking cough + 吸氣喘鳴。\n5. **流行病學/嚴重度/治療**：**幼童急性上呼吸道阻塞最常見原因**（2 歲前 5% 罹患）、M:F 3:2；**Westley Croup Severity Score**（mild/moderate/severe/impending failure）；**輕度支持性＋口服類固醇、中重度類固醇＋nebulized epinephrine**，<5% 住院、插管罕見（85% 屬 mild、75% 3 天內緩解）。\n\n> [!note] 考點：Steeple sign典型見於何種疾病?\n> **Croup（B）**——病毒性聲門下水腫致對稱性聲門下狹窄、失去正常肩部輪廓，形似教堂尖塔。\n\n> [!note] 考點：關於CROUP的敘述,何者有誤?\n> **「Supraglottic laryngotracheobronchitis」有誤（A）**——croup 為聲門下（subglottic）病變，非 supraglottic（supraglottic 為 epiglottitis）。最常見致病病毒 parainfluenza、好發 6 個月-3 歲（較 epiglottitis 年輕）、影像可見 inverted V/steeple sign 皆正確。\n\n> [!note] 考點：在孩童時期氣管內病灶最常見的原因是？ (2020-195)\n> **Croup（D）**——為幼童上呼吸道阻塞最常見原因；adenoma、adenocarcinoma、subglottic mucocele 皆罕見。",
+  "name": "Croup — Steeple Sign",
+  "nameZh": "教堂尖塔徵",
+  "slug": "croup-steeple-sign",
+  "subspecialty": "PED"
+}

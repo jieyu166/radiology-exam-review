@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**骨母細胞瘤（osteoblastoma）與骨樣骨瘤（osteoid osteoma）組織學相似，主要靠「大小」區分——osteoblastoma通常>1.5-2cm且可持續長大，osteoid osteoma則<1.5-2cm且具自限性；兩者皆好發於脊椎後柱結構（含椎弓根、椎板、棘突、橫突）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**大小分野（關鍵鑑別點）**：**Osteoblastoma通常直徑>1.5-2cm**，可持續增大；**Osteoid osteoma則<1.5-2cm**，具自限性（self-limiting）不會持續長大。",
+    "**好發部位**：兩者皆好發**脊椎後柱結構**——約30%骨母細胞瘤發生於脊椎後柱，主要侵犯**椎弓根(pedicle)、椎板(lamina)、棘突與橫突**。",
+    "**影像表現**：呈**溶骨性(lucent)、圓形至卵圓形、邊界清楚**病灶，**伴周圍反應性硬化(reactive sclerosis)**；病灶常使骨**膨脹(expansile)**並使皮質變薄；**周圍硬化程度通常較osteoid osteoma輕**。"
+  ],
+  "management": "",
+  "name": "Spinal Osteoblastoma",
+  "nameZh": "脊椎骨母細胞瘤",
+  "slug": "spinal-osteoblastoma",
+  "subspecialty": "MSK"
+}

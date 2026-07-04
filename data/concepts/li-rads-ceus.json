@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**CEUS用於肝臟局部病灶的適應症核心是「確認單一異常表現」——不管是超音波監測發現的、還是CT/MRI找到但灰階超音波可見結節的，或是HCC高風險病人的可疑結節——CEUS都是拿來「確認/定性」一顆病灶，不是拿來「區分不同轉移病灶之間」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**常見適應症**：",
+    "確認**監測超音波(surveillance US)**所偵測到之異常表現。",
+    "確認**先前CT/MRI**偵測到、且於**灰階超音波上呈明顯結節**之異常表現。",
+    "於**HCC高風險病人**中，確認**一般>10mm**且於灰階超音波呈明顯結節之異常表現，以**建立HCC診斷**。",
+    "**非典型適應症**：**區分「不同種類轉移病灶彼此之間」**並非CEUS於局部肝病灶(FLL)之常見適應症——CEUS核心功能在於定性單一病灶良惡性/是否為HCC，而非鑑別多發轉移病灶間的異同。"
+  ],
+  "management": "",
+  "name": "LI-RADS CEUS — Indications for Contrast-Enhanced Ultrasound on FLL",
+  "nameZh": "對比增強超音波肝臟病灶適應症",
+  "slug": "li-rads-ceus",
+  "subspecialty": "ABD"
+}

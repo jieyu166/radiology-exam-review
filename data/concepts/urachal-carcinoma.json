@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**臍尿管（urachus）為胚胎 allantois 與 cloaca 之遺跡，自膀胱前上緣/頂部延伸至臍、位於 Retzius 腹膜外間隙；urachal carcinoma 典型為中線、臍下（infraumbilical）之軟組織腫塊含『周邊（peripheral）鈣化』（鈣化約 70%），多為黏液性腺癌。** 判讀分水嶺：**中線臍下軟組織腫塊 + 周邊鈣化＝urachal adenocarcinoma until proven otherwise；鈣化為『周邊』非中央；位置沿膀胱頂→臍之 urachus 走行（space of Retzius）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-9846——膀胱腺癌",
+      "url": "https://doi.org/10.53347/rID-9846——膀胱腺癌"
+    }
+  ],
+  "imagingFindings": "- **定位**：中線、膀胱頂/前上緣至臍之走行；Retzius 間隙腹膜外。\n- **鈣化**：周邊 stippled/curvilinear 鈣化（70%）；見中線臍下腫塊 + 周邊鈣化即高度提示。\n- **黏液成分**：T2 高訊號黏液池；可經腹膜播散致 pseudomyxoma peritonei。\n- **侵犯評估**：向下侵膀胱頂、向上沿 urachus、局部淋巴結；分期用 CT/MRI。\n- **鑑別**：urachal 良性殘留（patent urachus/cyst/sinus/diverticulum）——無實質腫塊/鈣化。",
+  "keyPoints": [
+    "**胚胎/解剖**：urachus 為 **allantois 與 cloaca** 遺跡，自**膀胱前上緣/頂部（dome）延伸至臍**，位於 **Retzius 腹膜外間隙**（恥骨後/膀胱前）。",
+    "**分類**：膀胱腺癌中約 **1/3 為 urachal**（2/3 non-urachal）；urachal adenocarcinoma 多為**黏液性**。",
+    "**典型影像**：**中線、位膀胱頂或沿 urachus（膀胱→臍）之臍下軟組織腫塊 + 周邊（peripheral）鈣化**；**鈣化約 70%**——**中線臍下腫塊 + 周邊鈣化＝urachal adenocarcinoma until proven otherwise**。",
+    "**鈣化位置**：多位**周邊（peripheral）**（非中央）——考題陷阱。"
+  ],
+  "management": "1. **胚胎**：allantois/cloaca 遺跡、膀胱頂至臍、Retzius 間隙。\n2. **影像**：中線臍下腫塊 + 周邊鈣化（70%）。\n3. **鈣化周邊**：非中央（考點）。\n4. **組織**：多黏液性腺癌，可 pseudomyxoma peritonei。\n5. **鑑別**：與良性 urachal 殘留區分。\n\n> [!note] 考點：關於 urachal tumor 何者「非真」?\n> 「**鈣化見於 70% 且多位於腫塊『中央』**」非真——鈣化多位於**周邊（peripheral）**。胚胎源自 allantois/cloaca、自膀胱前上緣延伸至臍位於 Retzius 間隙皆正確。",
+  "name": "Urachal Tumor / Carcinoma",
+  "nameZh": "臍尿管腫瘤",
+  "slug": "urachal-carcinoma",
+  "subspecialty": "ABD"
+}

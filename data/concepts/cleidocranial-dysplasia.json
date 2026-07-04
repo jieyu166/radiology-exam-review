@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**Cleidocranial dysplasia 的名字藏著兩個線索：cleido（鎖骨）＋cranial（顱骨），兩端同時出問題。** 影像三招牌：①多發 wormian bones＋顱縫延遲閉合；②鎖骨發育不良或缺如（肩可異常靠攏）；③超多牙齒（supernumerary teeth）。雖名稱著重「膜性骨」，但長骨的軟骨內骨化也受累——所以「膜性＋軟骨內缺陷」並存，不要只記一個。判讀核心是**廣泛性骨化延遲/不全**：哪裡的骨化最晚（顱縫、囟門、恥骨聯合），那裡就最常見到「假性變寬」的影像。",
+  "differentialDiagnosis": [
+    "**判讀策略**：wormian bones 在各病多半長得一樣、難以單憑顱骨區分,故須靠**顱外特徵**定案——骨密度、鎖骨、牙齒、指骨末端、身高。記憶法 **PORKCHOPS** 涵蓋 wormian bones 主要病因（Pyknodysostosis、Osteogenesis imperfecta、Rickets、Kinky-hair/Menkes、Cleidocranial dysplasia、Hypothyroidism/Hypophosphatasia、Otopalatodigital、Primary acro-osteolysis/Pachydermoperiostosis/Progeria、Down syndrome）。",
+    "**Pyknodysostosis（最重要 MSK mimic）**:同樣有 wormian bones、未閉前囟、過多牙、下頜異常,但**骨密度增高（osteosclerosis）＋遠端指骨 acro-osteolysis＋下頜角變鈍（obtuse）**——CCD 則**骨密度正常**、無 acro-osteolysis。兩者皆可矮小,鑑別最終靠基因。CCD 另特徵性出現**異常前屈、向顱內凸的 clivus**（約 82%）。",
+    "**Osteogenesis imperfecta**:wormian bones 最常見之病因,但伴**多發骨折、骨質疏鬆、藍鞏膜**;鎖骨不缺如——是嬰兒 wormian bones 與虐待鑑別的關鍵考量。",
+    "**先天性甲狀腺低下／rickets**:wormian bones／骨化延遲可重疊,但前者見骨齡延遲、骨骺斑點化(epiphyseal dysgenesis),後者見乾骺端杯口狀／毛刷狀、骨密度低——皆無鎖骨缺如。",
+    "**Mandibuloacral dysplasia**:進行性,伴頭皮稀疏、關節僵硬、肢端骨溶解(acro-osteodysplasia),為體染色體隱性,與 CCD 之顯性遺傳不同。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.4102/sajr.v22i1.1326（PMC6837811",
+      "url": "https://doi.org/10.4102/sajr.v22i1.1326（PMC6837811"
+    },
+    {
+      "label": "10.1067/j.cpradiol.2009.11.001（PubMed",
+      "url": "https://doi.org/10.1067/j.cpradiol.2009.11.001（PubMed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**遺傳/本質**：罕見骨骼發育不良，**體染色體顯性（RUNX2／CBFA1，位於 6p21）**，高外顯率但表現多變;約 35–40% 為新生突變（散發）。以**膜性骨**受累為主，但**長骨（軟骨內/enchondral）亦有缺陷**——故「膜性＋軟骨內骨化缺陷」成立。",
+    "**Wormian bones**：顱縫間多發小骨;伴囟門/顱縫延遲（或不）閉合、額/頂骨隆突、副鼻竇氣化不良。",
+    "**鎖骨變形**：發育不良或缺如（約 10% 完全缺如，多為雙側但常不對稱）→ 肩過度活動、雙肩可內收靠攏。",
+    "其他：寬下頜、過多牙（supernumerary teeth）/阻生牙/乳牙滯留、高拱顎、鐘形窄胸、恥骨聯合與脊柱發育不良。"
+  ],
+  "management": "",
+  "name": "Cleidocranial Dysplasia (Dysostosis)",
+  "nameZh": "鎖骨顱骨發育不全",
+  "slug": "cleidocranial-dysplasia",
+  "subspecialty": "MSK"
+}

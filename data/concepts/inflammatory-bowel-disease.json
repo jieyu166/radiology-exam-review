@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**UC＝侷限大腸、僅黏膜層、由直腸連續向近端、可有『backwash ileitis』;Crohn＝全消化道任一段（跳躍性）、全層（transmural）、好發末端迴腸。** 判讀分水嶺：**backwash ileitis 是 UC（全結腸炎逆流入末端迴腸）的特徵,不是 Crohn;Crohn 全層病變致瘻管/狹窄/脂肪爬行;泌尿系草酸鈣結石為 Crohn（末端迴腸受累致脂肪吸收不良、草酸過量吸收）常見的腸外表現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.3748/wjg.v22.i3.917",
+      "url": "https://doi.org/10.3748/wjg.v22.i3.917"
+    }
+  ],
+  "imagingFindings": "- **影像角色（Kilcoyne）**：**CT/MR enterography 評估內視鏡不可及之小腸、可同時評估腔壁與腔外表現**（傳統 barium fluoroscopy 已漸被取代）；用於偵測腔外併發、腸外表現、疾病活性與治療反應、並**區分發炎性 vs 纖維性狹窄**。\n- **CD 活性徵象（Kilcoyne）**：**壁增厚、mural hyperenhancement（分層 target/stratified）、DWI 受限、comb sign（直小血管充血）、脂肪爬行 creeping fat、潰瘍/鵝卵石、mesenteric 淋巴結**。\n- **CD 併發**：**瘻管（腸-腸/腸-膀胱/腸-皮）、膿瘍、狹窄（發炎性強化 vs 纖維性延遲/T2 低）、sinus tract**——跳躍分布、末端迴腸為主。\n- **UC 徵象**：**直腸起連續向近端、僅黏膜/黏膜下、對稱、無跳躍**；急性壁增厚 + 黏膜強化，慢性 lead-pipe（見下）；可 backwash ileitis。\n- **腸外表現（Kilcoyne）**：**PSC（尤 UC）、sacroiliitis/脊椎關節炎、膽石、腎草酸鈣結石（CD 末端迴腸受累）、血栓栓塞、脂肪肝**。",
+  "keyPoints": [
+    "**Ulcerative colitis（UC）**：",
+    "**侷限大腸**、**僅黏膜／黏膜下層**、自**直腸連續向近端**。",
+    "嚴重全結腸炎可有 **backwash ileitis**（炎症逆流入末端迴腸）。",
+    "**Crohn disease（CD）**：",
+    "**全消化道任一段皆可（跳躍性 skip lesions）**、**全層（transmural）**;好發**末端迴腸**。",
+    "全層 → 瘻管、廔管、膿瘍、狹窄、脂肪爬行（creeping fat）、鵝卵石樣黏膜。",
+    "**腸外表現**：**腎草酸鈣結石（nephrolithiasis）為常見腸外表現,尤其末端迴腸受累的 CD**（脂肪吸收不良 → 腸道草酸吸收增加）。"
+  ],
+  "management": "1. **本質（Kilcoyne）**：IBD＝慢性特發性腸道疾病，含 **Crohn disease 與 ulcerative colitis 兩相關但不同之疾病**。\n2. **UC**：侷限大腸、僅黏膜/黏膜下、直腸連續向近端、可 backwash ileitis；癌變風險隨病程/範圍增加需監測。\n3. **CD**：全消化道跳躍性、全層（transmural）、好發末端迴腸；全層病變致瘻管/膿瘍/狹窄。\n4. **腸外/併發**：**CD 末端迴腸受累 → 脂肪吸收不良 → 腸道草酸吸收增加 → 草酸鈣腎結石**；IBD 神經學併發（藥物或疾病本身）相對常見。\n5. **影像取捨（Kilcoyne）**：MR enterography 免輻射、對活性/纖維化分辨與年輕/需反覆追蹤者佳；CT enterography 急症/廣泛評估快速；US 可作為輔助。",
+  "name": "Inflammatory Bowel Disease (UC vs Crohn) — Imaging",
+  "nameZh": "發炎性腸道疾病",
+  "slug": "inflammatory-bowel-disease",
+  "subspecialty": "ABD"
+}

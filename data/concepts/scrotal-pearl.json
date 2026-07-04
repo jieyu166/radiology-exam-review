@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**Scrotal pearl 的定位記憶：兩層「vaginalis」之間的睪丸外游離鈣化體——考題常把 tunica albuginea 與 tunica vaginalis 對調，記住「珍珠在陰道膜（vaginalis）裡游泳、不在白膜（albuginea）」。** 判讀分水嶺：**extratesticular、位於 tunica vaginalis 腔、可游離移動**；「tunica albuginea 兩層之間」為錯誤選項。",
+  "differentialDiagnosis": [
+    "**關鍵分水嶺**：scrotal pearl 為 **extratesticular**，落於 tunica **vaginalis** 兩層間；非 tunica **albuginea**（albuginea 為睪丸表層白膜、緊貼睪丸實質）。考題常將兩者對調設陷阱。",
+    "判讀時先確認鈣化是否在睪丸輪廓**之外**、且**可游離**，即可定位為鞘膜腔遊離體而非睪丸內病變。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.220113",
+      "url": "https://doi.org/10.1148/rg.220113"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Scrotal Calculus (Scrotal Pearl)",
+  "nameZh": "陰囊珍珠",
+  "slug": "scrotal-pearl",
+  "subspecialty": "ABD"
+}

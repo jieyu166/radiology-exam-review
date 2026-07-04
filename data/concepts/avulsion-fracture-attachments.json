@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**Segond fracture 是外側關節囊韌帶（lateral capsular ligaments／anterolateral ligament複合體）在脛骨外側平台的撕脫，不是前十字韌帶（ACL）——雖然Segond fracture高度伴隨ACL斷裂，但骨折本身的附著結構是外側關節囊韌帶，別把「伴隨」與「附著」搞混。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.arthro.2014.05.039",
+      "url": "https://doi.org/10.1016/j.arthro.2014.05.039"
+    },
+    {
+      "label": "10.53347/rID-8874（輔助來源",
+      "url": "https://doi.org/10.53347/rID-8874（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **Segond＝ALL 撕脫（實證，Claes 2014）**：**屍體 + 影像研究證實 anterolateral ligament（ALL）於近端脛骨之附著點與 Segond 骨折床一致（距 Gerdy 結節中心 ~22 mm，差異僅 0.4 mm 無統計/臨床意義）**——故 Segond 應視為 ALL 之骨性撕脫，而非 ACL 附著。\n- **lateral capsular sign**：正面膝 X 光見脛骨外側平台邊緣**小片縱向撕脫骨片**；為 ACL 損傷之間接影像線索（~75% 伴 ACL 斷裂）、應進一步 MRI。\n- **機轉**：**internal rotation + varus stress**；見 Segond 須主動搜尋 ACL、外側半月板、後外側角損傷。\n- **reverse Segond**：脛骨**內側**平台撕脫（deep MCL/後斜韌帶），伴 PCL + 內側半月板損傷——與 Segond 對稱概念勿混。\n- **附著點記憶（配對）**：**Gerdy 結節＝腸脛束（ITB）、AIIS＝rectus femoris、坐骨結節＝hamstring、ASIS＝sartorius/TFL、lesser trochanter＝iliopsoas、tibial tubercle＝patellar tendon**；青少年運動員好發 apophyseal 撕脫。\n- **陷阱**：勿把「伴隨損傷（ACL）」誤當「附著結構」；Segond 附著為 ALL/外側關節囊韌帶。",
+  "keyPoints": [
+    "**Segond fracture**：**外側關節囊韌帶（lateral capsular ligaments）**於脛骨外側平台邊緣之撕脫骨折（正面 X 光稱 lateral capsular sign）；**~75% 伴隨ACL斷裂**、機轉為 internal rotation + varus stress，但骨折附著結構本身為外側關節囊韌帶／anterolateral ligament（ALL）複合體，非ACL本身。",
+    "**Gerdy's tubercle fracture**：**iliotibial band（腸脛束）**於脛骨外側Gerdy氏結節之撕脫。",
+    "**Anteroinferior iliac spine (AIIS) fracture**：**rectus femoris**起端之撕脫骨折，好發青少年運動員。",
+    "**Ischial tuberosity fracture**：**hamstring muscle群**起端之撕脫骨折。"
+  ],
+  "management": "1. **Segond 意義（Claes 2014）**：**Segond 骨折仍為 ACL 損傷之有用影像線索，但其本身即 ALL 之骨性撕脫**——重新定義了此經典徵象。\n2. **伴隨損傷**：**~75-100% 伴 ACL 斷裂**，常併外側半月板、後外側角損傷；見 Segond 應轉 MRI 全面評估。\n3. **好發族群**：膝 Segond 多見於運動扭傷（內轉+內翻）；骨盆/髖 apophyseal 撕脫好發**青少年運動員**（骨骺未閉、肌腱較骨強）。\n4. **臨床處置**：多數撕脫小片保守（休息/漸進復健）；大移位或功能受限之 apophyseal 撕脫（尤坐骨結節）可需手術固定。\n5. **配對考點**：ITB-Gerdy、rectus femoris-AIIS、hamstring-坐骨結節皆正確；ACL-Segond 為錯（應為 ALL/外側關節囊韌帶-Segond）。\n\n> [!note] 考點：tendon/ligament attach site avulsion fracture配對何者為錯?\n> 「Anterior cruciate ligament – Segond fracture」為錯——**Segond fracture附著結構為lateral capsular ligaments（外側關節囊韌帶），非ACL**（ACL斷裂為常見伴隨損傷，非附著結構本身）。Iliotibial band-Gerdy's tubercle、rectus femoris-AIIS、hamstring-ischial tuberosity皆正確配對。",
+  "name": "Tendon/Ligament Avulsion Fracture Attachment Sites",
+  "nameZh": "撕脫性骨折附著點",
+  "slug": "avulsion-fracture-attachments",
+  "subspecialty": "MSK"
+}

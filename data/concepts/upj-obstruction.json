@@ -1,0 +1,65 @@
+{
+  "checked": false,
+  "definition": "**UPJ obstruction 的判讀核心是「解剖擴張 ≠ 功能性阻塞」——影像（超音波/CT）的腎盂擴張只負責提出懷疑，diuretic renogram 才是確認功能性阻塞的黃金標準。** 記憶鉤：「腎大尿管小＝UPJ 的指紋」——腎盂腎盞氣球狀擴張但近端輸尿管正常口徑，是 UPJ level 的空間特徵；若輸尿管也擴張，阻塞點在更下游。判讀分水嶺一：**hydronephrosis + 輸尿管不擴張 → 阻塞在 UPJ 層級；腎功能正常不代表無阻塞**；判讀分水嶺二：**成人需評估 crossing vessel，但血管「鄰近」UPJ ≠ 真正壓迫——因果關係須保守陳述**。",
+  "differentialDiagnosis": [
+    "擴張 vs. 阻塞",
+    "看輸尿管口徑",
+    "成人查 crossing vessel",
+    "相關解剖異常",
+    "Duplex system",
+    "鑑別:congenital megacalyces",
+    "鑑別:extrarenal pelvis / parapelvic cyst"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.53347/rID-9714",
+      "url": "https://doi.org/10.53347/rID-9714"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.251045510",
+      "url": "https://doi.org/10.1148/rg.251045510"
+    },
+    {
+      "label": "https://doi.org/10.1148/radiographics.20.5.g00se061383",
+      "url": "https://doi.org/10.1148/radiographics.20.5.g00se061383"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.2021200078",
+      "url": "https://doi.org/10.1148/rg.2021200078"
+    },
+    {
+      "label": "https://doi.org/10.1148/rg.2015140223",
+      "url": "https://doi.org/10.1148/rg.2015140223"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.13.11321",
+      "url": "https://doi.org/10.2214/AJR.13.11321"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.19.21224",
+      "url": "https://doi.org/10.2214/AJR.19.21224"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.17.17891",
+      "url": "https://doi.org/10.2214/AJR.17.17891"
+    },
+    {
+      "label": "https://doi.org/10.1016/s0090-4295(03",
+      "url": "https://doi.org/10.1016/s0090-4295(03"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**:尿流在 renal pelvis → proximal ureter 交界處受阻;先天性 / 胎兒腎盂腎盞擴張最常見的原因。",
+    "**病因**:先天性內在性(輸尿管肌肉層異常、再管腔化不全、蠕動波傳遞失敗)最常見;成人與較大兒童常見 crossing vessel 參與(各來源比例差異大,見內文);少數為後天(術後、發炎、結石、腫瘤)。",
+    "**影像指紋**:UPJ 層級以上明顯 hydronephrosis,輸尿管不擴張(腎盂呈氣球狀 / 倒淚滴狀擴張、近端輸尿管塌陷)。",
+    "**功能確診**:diuretic renogram(MAG-3 首選 / DTPA 次之)為功能性阻塞黃金標準。",
+    "**成人術前**:CTA / CT urography(2D/3D 後處理)或 MR renography 評估 crossing vessel 與輸尿管—血管空間關係。",
+    "**易混淆觀念**:①擴張 ≠ 阻塞;②腎功能正常 ≠ 沒有阻塞;③血管鄰近 UPJ ≠ 真正壓迫。"
+  ],
+  "management": "",
+  "name": "upj-obstruction",
+  "nameZh": "",
+  "slug": "upj-obstruction",
+  "subspecialty": "ABD"
+}

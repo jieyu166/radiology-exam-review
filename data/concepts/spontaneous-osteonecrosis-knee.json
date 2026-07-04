@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**自發性膝關節骨壞死(SONK/Ahlbäck disease)之傳統危險因子包含肥胖、皮質類固醇使用、半月板撕裂——教科書列骨質疏鬆非其危險因子，但SONK現多被重新命名為「subchondral insufficiency fracture」，本質與骨質疏鬆之骨小樑弱化相關，故部分文獻將骨質疏鬆亦列為危險因子，此為考題之爭議點。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2018180044——SONK正名為subchondral",
+      "url": "https://doi.org/10.1148/rg.2018180044——SONK正名為subchondral"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**傳統危險因子**：**肥胖(obesity)**、**皮質類固醇使用(corticosteroid administration)**、**半月板撕裂(meniscal tear)**。",
+    "**教科書列為非危險因子**：**骨質疏鬆(osteoporosis)**——依Musculoskeletal Imaging: The Requisites教科書未列為SONK之關聯危險因子。",
+    "**概念更新（重要背景）**：Society of Skeletal Radiology Subchondral Bone Nomenclature Committee建議將SONK正名為「**subchondral insufficiency fracture（軟骨下不足性骨折）**」，因其本質並非單純骨壞死，而是軟骨下不足性骨折進展為軟骨下塌陷合併次發性骨壞死；其病因學上與**骨質疏鬆(osteoporosis)及不足性骨折(insufficiency fractures)**有關（骨小樑弱化合併微創傷力），非傳統認為之骨死亡。"
+  ],
+  "management": "",
+  "name": "Spontaneous Osteonecrosis of the Knee (SONK/Ahlbäck Disease)",
+  "nameZh": "膝關節自發性骨壞死",
+  "slug": "spontaneous-osteonecrosis-knee",
+  "subspecialty": "MSK"
+}

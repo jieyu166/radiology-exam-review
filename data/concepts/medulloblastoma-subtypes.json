@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**Medulloblastoma 分子亞型**依 WHO 2016 分為 WNT-activated、SHH-activated、Group 3、Group 4 四大類，各亞型之影像位置、好發年齡與預後截然不同。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "Group 3 常呈邊界不清、顯著增強，且高比例有 leptomeningeal dissemination",
+    "Group 4 為最常見亞型（~35%）"
+  ],
+  "management": "",
+  "name": "medulloblastoma-subtypes",
+  "nameZh": "",
+  "slug": "medulloblastoma-subtypes",
+  "subspecialty": ""
+}

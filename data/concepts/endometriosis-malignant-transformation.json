@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**子宮內膜異位症惡性轉化最常見的組織型是「Endometrioid adenocarcinoma」（約 2/3，66.7%），其次「Clear cell adenocarcinoma」（約 1/7，14.8%）——兩者皆好發於 MRI 上 T1/T2 皆呈中等訊號的實質腫塊。** 判讀分水嶺：**serous/mucinous 與內膜異位關聯遠低於 endometrioid/clear cell；懷疑惡性轉化看『囊內強化壁結節（T1WI 高度懷疑）』、T2 shading 消失、病灶增大、對側卵巢病灶、子宮內膜增厚；發生率約 1-2%、發病早 10-20 年；HE4+CA125 升高有助鑑別（並非不會升高）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.clinimag.2018.07.017",
+      "url": "https://doi.org/10.1016/j.clinimag.2018.07.017"
+    },
+    {
+      "label": "10.53347/rID-6699（輔助來源",
+      "url": "https://doi.org/10.53347/rID-6699（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **強化壁結節（STATdx，最敏感）**：**endometrioma 內出現強化壁結節為惡變最敏感 MR 徵象——97% 敏感、56% 特異**；須動態增強 + **subtraction 影像（後減前）**於高 T1 訊號囊內辨識強化結節。\n- **T2 shading 消失（STATdx）**：腫瘤分泌液稀釋出血性囊內容 → **T2 shading 減弱/消失**，配合實質成分出現警覺惡變。\n- **其他警訊（STATdx）**：**壁結節直徑 >3 cm、囊逐漸增大、restricted diffusion（增疑但非特異）**；腹水/腹膜植入反而少見。\n- **年齡線索/發生（STATdx）**：EAOC 發病較年輕、發生於 1% 內膜異位女性、**75% 發生於卵巢 endometrioma、25% 卵巢外病灶**；期別較早、預後較佳。\n- **標記整合**：HE4+CA125 升高提高準確度；與 decidualization（孕期、ADC 高、似胎盤、產後消退）鑑別避免誤診。\n- **範圍評估**：對側卵巢、子宮內膜、腹膜植入一併評估分期。\n- **polypoid endometriosis 陷阱（STATdx）**：**息肉狀腫塊突入 endometrioma 腔、強化明顯、可與外源性雌激素（tamoxifen）相關**——組織學似子宮內膜息肉、屬良性但易誤為惡性。",
+  "keyPoints": [
+    "**組織型（EAOC）**：**endometrioid adenocarcinoma（~66.7%，最常見）> clear cell adenocarcinoma（~14.8%）**；serous/mucinous 與內膜異位關聯低。",
+    "**風險/發病**：EAOC 發生率約 **1-2%**；發病較無內膜異位之卵巢癌**早 10-20 年**。",
+    "**MRI**：實質腫塊 **T1/T2 皆中等訊號**；**囊內強化壁結節（enhancing mural nodule）於 T1WI 高度懷疑惡性轉化**；T2 shading 消失、病灶增大、對側卵巢病灶、子宮內膜增厚為輔助警訊。",
+    "**腫瘤標記**：**HE4 與 CA125 升高**可提高卵巢癌診斷準確度、有助鑑別卵巢癌 vs endometrioma（並非不會升高）。",
+    "**鑑別**：孕期 **decidualized endometrioma** 可有壁結節而模擬惡性——靠 **ADC 定量**（蛻膜化較高）與產後消退區分（見 [[decidualized-endometriotic-cyst]]）。"
+  ],
+  "management": "1. **組織型**：endometrioid（~66.7%，最常見）> clear cell（~14.8%）；serous/mucinous 關聯低。\n2. **風險（STATdx）**：**內膜異位女性約 1% 發生惡變、罹卵巢癌風險為一般 4.5 倍**；發病較早、期別較早、預後較佳。\n3. **transitional lesion（STATdx）**：**惡變常見「內膜異位 + 腫瘤 + 中間過渡病灶（異型內膜）」三者並存，嚴格準則 40% 病例符合**。\n4. **警訊/標記**：強化壁結節（最敏感）、T2 shading 消失、>3 cm、囊增大；HE4+CA125 升高有助鑑別。\n5. **鑑別**：孕期 decidualization（ADC 高、似胎盤、產後消退）、polypoid endometriosis（良性、tamoxifen 相關）勿誤為惡變（見 [[decidualized-endometriotic-cyst]]）。\n\n> [!note] 考點：子宮內膜異位症最常轉化為哪種卵巢癌?\n> **Endometrioid adenocarcinoma（B）**，約占 2/3；其次為 clear cell adenocarcinoma（約 1/7）。⚠️ 原始答案 A（clear cell）經官方紅字更正為 B。",
+  "name": "Endometriosis-Associated Ovarian Carcinoma",
+  "nameZh": "子宮內膜異位症相關卵巢癌",
+  "slug": "endometriosis-malignant-transformation",
+  "subspecialty": "ABD"
+}

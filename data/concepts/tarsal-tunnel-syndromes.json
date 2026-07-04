@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**方向詞對應神經：「前」跗骨隧道症候群壓迫「深腓神經（deep peroneal nerve）」（足背/踝前、下伸肌支持帶下）；「（後）」跗骨隧道症候群壓迫「（後）脛神經（posterior tibial nerve）」（內踝後、屈肌支持帶下之纖維骨隧道）。別把神經名與方向配錯。** 判讀分水嶺：**後跗骨隧道＝脛神經於屈肌支持帶下受壓 → 分支 medial/lateral plantar nerve（Baxter nerve 為 lateral plantar 第一分支、支配 abductor digiti minimi）；影像找「足底內在肌去神經（肌內水腫為最可靠徵象、脂肪置換為晚期且可為老化偶見）」＋「隧道內腫塊（ganglion/神經鞘瘤/靜脈曲張/副肌/疤痕）或骨性壓迫（骨刺/subtalar coalition）」。前跗骨隧道＝深腓神經於踝前/足背、第一二趾蹼感覺異常。記憶鉤：前=深腓=足背、後=脛=足底。**",
+  "differentialDiagnosis": [
+    "**足底筋膜炎**（筋膜水腫增厚）、**L5/S1 神經根病變**（臨床擬似）、**糖尿病神經病變**（瀰漫累及所有足底內在肌）、**跟骨壓力性骨折**、**孤立性足底肌脂肪置換**（無症狀、隨年齡增加）。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Anterior tarsal tunnel syndrome**：**深腓神經（deep peroneal nerve）**於下伸肌支持帶下、踝前/足背受壓；第一、二趾間蹼感覺異常/足部疼痛，通常無明顯無力。",
+    "**(Posterior) tarsal tunnel syndrome**：**（後）脛神經（posterior tibial nerve）**於內踝後下方纖維骨隧道（屈肌支持帶下）受壓；足底與內在肌症狀。",
+    "**配對（考點）**：deep peroneal nerve ↔ anterior TTS；posterior tibial nerve ↔ (posterior) TTS；方向詞對應神經解剖位置。",
+    "**病因可查率高**：**多達 80% 可找到特定原因**（腫塊/骨性/疤痕/生物力學/系統性）；約 50% 為特發性。"
+  ],
+  "management": "1. **後跗骨隧道**＝脛神經卡壓；**足底灼熱/刺麻/麻木**、**Tinel 徵象陽性**（叩擊隧道處脛神經誘發症狀）。\n2. **病因**：**多達 80% 可找到原因**——骨性壓迫（骨刺/外傷/subtalar coalition）、佔位病灶（ganglion/神經鞘瘤/靜脈曲張/副肌/脂肪瘤/滑膜炎）、疤痕（外傷/術後）、生物力學（後足外翻/內翻、緊窄鞋具）、系統性（下肢水腫/發炎性關節病/糖尿病）。\n3. **前跗骨隧道**＝深腓神經於踝前/足背，第一、二趾蹼感覺症狀、通常無明顯無力。\n4. **治療**：保守（NSAIDs、矯具、物理治療）→ **影像導引局部麻醉/類固醇注射（診斷兼治療）** → 手術（減壓、疤痕鬆解、切除佔位病灶）；**佔位病灶多需切除、特發型易復發**。\n5. **判讀提醒**：**肌內水腫為最可靠去神經徵象**；足底肌脂肪置換於年長者可為偶見，勿一律判為病理。\n\n> [!note] 考點：entrapment neuropathy 與 fibro-osseous channel syndrome 配對何者為是?\n> 「Tibial nerve - anterior tarsal tunnel syndrome」與「Deep peroneal nerve - tarsal tunnel syndrome」**皆為錯誤配對**——正確應為 **deep peroneal nerve ↔ anterior TTS** 及 **posterior tibial nerve ↔ (posterior) TTS**，故答案為 **none of above**。",
+  "name": "Tarsal Tunnel Syndromes (Anterior vs Posterior)",
+  "nameZh": "跗骨隧道症候群",
+  "slug": "tarsal-tunnel-syndromes",
+  "subspecialty": "MSK"
+}

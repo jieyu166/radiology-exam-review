@@ -14,10 +14,10 @@ const ConceptCards = (function () {
     const container = document.getElementById('concept-container');
     if (!container) return;
 
-    const concepts = await DataLoader.loadConcepts();
+    const concepts = await DataLoader.loadConceptsIndex();
     const keys = Object.keys(concepts).sort();
 
-    // 也收集題目中引用但 concepts.json 中不存在的概念 ID
+    // 也收集題目中引用但索引中不存在的概念 ID
     const allQuestions = DataLoader.getLoadedQuestions();
     const referenced = new Set();
     for (const q of allQuestions) {
@@ -87,8 +87,7 @@ const ConceptCards = (function () {
     const container = document.getElementById('concept-container');
     if (!container) return;
 
-    const concepts = await DataLoader.loadConcepts();
-    const concept = concepts[id];
+    const concept = await DataLoader.loadConcept(id);
 
     // 反向連結：找所有引用此概念的題目
     const allQuestions = DataLoader.getLoadedQuestions();
@@ -126,8 +125,7 @@ const ConceptCards = (function () {
             checked: false,
           };
           DataLoader.saveConceptEdit(id, newConcept);
-          concepts[id] = newConcept;
-          renderConcept(id); // 重新渲染
+          renderConcept(id); // 重新渲染（loadConcept 會合併此 localStorage 編輯）
           showToast('概念已建立', 'success');
         });
       }

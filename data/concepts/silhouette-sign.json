@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Silhouette sign 原理一句話:X 光看得到邊界,是因為兩個『不同密度』的東西相鄰（如心臟 vs 含氣肺）;若病灶跟某結構『同密度又貼在一起』,中間的邊界就糊掉消失——邊界消失在哪,病灶就落在那個結構的同一前後平面。incomplete border sign 則反過來,用『邊界不全』辨別肺外病灶。** 判讀分水嶺一：**邊界消失＝病灶與該軟組織邊界相鄰（同密度、同平面）→ 定位**;判讀分水嶺二：**incomplete border sign＝肺外（pleural/extrapleural/胸壁）病灶部分邊緣清楚、部分糊;但肺內病灶若向胸膜/肺外延伸亦可有**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.4103/2156-7514.161977",
+      "url": "https://doi.org/10.4103/2156-7514.161977"
+    }
+  ],
+  "imagingFindings": "- **物理原理**：X 光上能看見一條邊界,是因為「兩個不同密度的相鄰結構」在介面形成對比（如含氣肺 vs 心臟軟組織）。當病灶與某結構「密度相同且解剖上直接相鄰（同一前後平面/同一切面）」,介面對比消失→邊界糊掉→**silhouette sign 陽性**;反之,病灶若與該結構不在同一平面、中間仍隔著含氣肺,邊界仍清楚→定位在前方或後方。\n- **判讀邏輯**：邊界「消失在哪」就把病灶定位到「貼著該結構的那一葉/那一段」;這就是只看一張正面 X 光也能粗略定位肺葉的依據。Felson 於 1950 年提出此 sign,又稱 loss of outline sign / loss of silhouette sign。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Silhouette Sign & Incomplete Border Sign",
+  "nameZh": "輪廓徵",
+  "slug": "silhouette-sign",
+  "subspecialty": "CH"
+}

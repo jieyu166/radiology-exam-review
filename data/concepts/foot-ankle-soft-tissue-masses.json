@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**足踝軟組織腫塊靠MRI訊號『指紋』分類——homogeneous low T1 AND low T2 且會強化，最典型的是『纖維性腫塊(plantar fibromatosis / fibroma of tendon sheath)』，因含成熟膠原(mature collagen)。** 判讀口訣:T1、T2皆低訊號＝想fibrous tissue;含未成熟纖維/纖維母細胞者訊號可呈中等。其他腫塊的訊號各有指紋,是鑑別關鍵。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.07.7023（2018",
+      "url": "https://doi.org/10.2214/AJR.07.7023（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Plantar fibromatosis / 纖維性腫塊(本題答案)**:含**成熟膠原(mature collagen)**→ **T1與T2皆均勻低訊號且強化**;含未成熟纖維組織者訊號可呈中等。",
+    "**Morton's neuroma**:T1**與肌肉等訊號(isointense)**、T2**低訊號**,強化程度不一。",
+    "**Lipoma**:脂肪訊號→ **T1與T2皆高訊號**,脂肪抑制序列上呈低訊號。",
+    "**Ganglion cyst**:**T1低、T2高**訊號;通常無中央強化(僅薄邊環狀強化);若見中央強化須排除惡性。",
+    "**Hemangioma**:因含血管、脂肪、纖維組織→ T1/T2呈**混雜(mixed)訊號**;血管部分均勻強化。",
+    "附註:緻密鈣化腫塊可T1/T2皆低訊號,但通常不強化。"
+  ],
+  "management": "",
+  "name": "Foot & Ankle Soft-Tissue Masses — MRI Signal",
+  "nameZh": "足踝軟組織腫塊",
+  "slug": "foot-ankle-soft-tissue-masses",
+  "subspecialty": "MSK"
+}

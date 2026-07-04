@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**月骨周損傷的 Mayfield 四階段「SL→CL→LT→RL」由橈向尺再向掌側推進，最後月骨本身掌側脫位（lunate dislocation）、橈月關節失常。** 記憶鉤：「舟月→頭月→三角月→橈月」，像拉鍊從橈側拉到掌側。判讀分水嶺一：**lesser arc＝純韌帶環繞月骨；greater arc＝經骨（scaphoid、capitate 等骨折）**；判讀分水嶺二：**第 4 階段累及 radius-lunate 關節（月骨掌側脫位）**。",
+  "differentialDiagnosis": [
+    "**Perilunate vs lunate dislocation**：關鍵在月骨與橈骨的對位——perilunate 月骨仍對橈骨、capitate 背側移位；lunate dislocation 月骨同時脫離 capitate 與橈骨、掌側傾倒。",
+    "**Greater vs lesser arc**：有無經骨骨折（最常 trans-scaphoid／de Quervain）。",
+    "**單純 scapholunate dissociation**（無腕骨脫位）vs Mayfield Ⅰ：前者無 capitate/月骨脫位。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2021210044",
+      "url": "https://doi.org/10.1148/rg.2021210044"
+    },
+    {
+      "label": "10.2214/AJR.13.11680",
+      "url": "https://doi.org/10.2214/AJR.13.11680"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Greater arc injury**：經**骨**路徑——radial styloid、scaphoid、capitate、triquetrum、ulnar styloid（伴骨折，如 trans-scaphoid perilunate）。",
+    "**Lesser arc injury**：純**韌帶**、繞月骨的 perilunate 損傷（無骨折）。",
+    "**Mayfield 四階段**（漸進性月骨周不穩，橈→尺→掌）：",
+    "**最後階段（第 4）累及 radius-lunate 關節**（題目正解）。",
+    "區辨：perilunate dislocation＝腕骨相對月骨脫位（月骨仍對橈骨）；lunate dislocation＝月骨自身掌側脫位（橈月關節失常）。"
+  ],
+  "management": "",
+  "name": "Perilunate Injury (Greater vs Lesser Arc / Mayfield)",
+  "nameZh": "月骨周損傷",
+  "slug": "perilunate-injury",
+  "subspecialty": "MSK"
+}

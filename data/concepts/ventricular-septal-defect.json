@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**VSD 依右心室視角的位置分為四型，最常見是 perimembranous；最大陷阱是 subarterial 型——名稱含「artery」卻是在肺動脈瓣下（subpulmonary），不在主動脈瓣下。** 判讀分水嶺一：**perimembranous＝最常見；muscular＝可多發成 Swiss-cheese；inlet＝延伸至房室瓣插入處（見於 ECD）**；判讀分水嶺二：**subarterial（supracristal）＝subpulmonary 位置＋易合併主動脈瓣脫垂**，勿把「artery」誤讀為主動脈瓣下。",
+  "differentialDiagnosis": [
+    "**後天性（非先天）室間隔破裂**：心肌梗塞後室間隔破裂（postinfarction VSD）—臨床背景與位置（梗塞區）有別於先天型。",
+    "**其他左向右分流**（ASD、PDA）：CXR 同樣 shunt vascularity，但 ASD 多為右心房/右心室與肺動脈擴大、左心房通常不大（可資鑑別）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2016160010",
+      "url": "https://doi.org/10.1148/rg.2016160010"
+    },
+    {
+      "label": "10.2214/AJR.10.7257",
+      "url": "https://doi.org/10.2214/AJR.10.7257"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Perimembranous（膜周型）**：涉及膜周中隔,**最常見**。",
+    "**Muscular（肌部型）**：肌部中隔,可多發呈 **Swiss-cheese**。",
+    "**Inlet（流入道型）**：延伸至房室瓣插入處（見於 ECD）。",
+    "**Subarterial（subpulmonary／supracristal）**：位於**肺動脈瓣下（subpulmonary）**,易合併主動脈右冠瓣脫垂、AR。",
+    "各型命名以**右心室面觀點**。"
+  ],
+  "management": "",
+  "name": "Ventricular Septal Defect (Types)",
+  "nameZh": "心室中隔缺損",
+  "slug": "ventricular-septal-defect",
+  "subspecialty": "CV"
+}

@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**三種肺水腫的影像分布型態各異：心因性(cardiogenic)呈『均勻分布(even, ~90%)』、腎因性(renal-based)呈『中央分布(central, ~70%)』、ARDS 則以『周邊(peripheral, ~45%)』為主（僅約35%均勻）——ARDS的鑑別診斷涵蓋心因性肺水腫、間質性肺炎、腎因性肺水腫。** 判讀分水嶺：**分布型態是三者鑑別的關鍵：心因性均勻>>腎因性中央>ARDS周邊;Kerley B lines/支氣管周圍套袖：心因性與腎因性皆約30%可見，ARDS則幾乎『無』;胸腔積液：心因性(40%)>腎因性(30%)>ARDS(10%);air bronchograms：ARDS(70%)遠高於心因性與腎因性(各20%)。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **ARDS 時序演變（STATdx，關鍵）**：**小時（傷後 12-24 h 可正常）→ 天（24 h 內雙側空氣腔陰影/實質化 + dependent atelectasis）→ 週（實質化減少、reticular/GGO 持續）→ 月（subpleural reticular + honeycombing、可前側為主）**。\n- **肺內 vs 肺外損傷（STATdx）**：**肺內損傷（肺炎/吸入/創傷）＝實質化與 GGO 等量、不對稱；肺外損傷（敗血/胸外創傷）＝GGO 多於實質化、對稱**。\n- **與心因性鑑別徵象（STATdx）**：ARDS **interlobular septal thickening 與 pleural effusion 較心因性少見**、心臟大小正常；心因性＝中央 > 周邊（bat-wing）+ Kerley B + peribronchial cuffing + 心臟肥大。\n- **三表現型（STATdx phenotypes）**：**瀰漫均勻分布（肺順應性低、死亡率高、PEEP 顯著肺泡再擴張）、下肺葉為主（PEEP 過度擴張無再擴張）、patchy 不均（PEEP 過度擴張無再擴張）**。\n- **分布量化（官方詳解）**：心因性 90% 均勻、腎因性 70% 中央、ARDS 45% 周邊/35% 均勻；air bronchogram ARDS 70% >> 心因/腎因各 20%。\n- **監測工具**：**胸部 X 光足以監測病程演變、CT 為 problem-solving**；ARDS 併肺炎＝non-dependent 位置緻密實質化。",
+  "keyPoints": [
+    "**ARDS 的鑑別診斷（differential diagnosis）**：包含**心因性肺水腫（cardiogenic pulmonary edema）、間質性肺炎（interstitial pneumonia）、腎因性肺水腫（renal-based pulmonary edema）**;ARDS 病理為**瀰漫肺泡損傷（DAD）、微血管通透性增加**（非靜水壓性），與 AIP 同一病理光譜。",
+    "**肺水腫分布型態（Distribution of Pulmonary edema）**：",
+    "**心因性（Cardiogenic）**：**約90%呈均勻分布（even）**。",
+    "**腎因性（Renal）**：**約70%呈中央分布（central）**。",
+    "**ARDS**：**約45%呈周邊分布（peripheral）、僅約35%均勻分布**。",
+    "**Kerley B lines／支氣管周圍套袖（peribronchial cuffing）**：**心因性與腎因性皆約30%可見**；**ARDS 則幾乎不見（none）**——因ARDS的水腫機轉是微血管通透性增加（非靜水壓性），較不形成典型間質性肺水腫徵象。",
+    "**肋膜積液（pleural effusions）**：**心因性（40%）> 腎因性（30%）> ARDS（10%）**。",
+    "**支氣管充氣徵（air bronchograms）**：**ARDS（70%）遠高於心因性與腎因性（各約20%）**——反映 ARDS 肺泡實質性病變（alveolar filling）的特徵。"
+  ],
+  "management": "1. **定義（Berlin criteria）**：**臨床損傷後 1 週內發作、胸片雙側陰影（非積液/塌陷/結節可解釋）、PF ratio（PaO₂:FiO₂）<300 mmHg（PEEP/CPAP ≥5 cmH₂O）、非全由心衰/體液過載解釋**。\n2. **病理（DAD 四階段）**：**早期滲出（數小時，內皮水腫/微血管充血）→ 晚期滲出（1 天-1 週，第 I 型肺泡細胞壞死/水腫/出血）→ 增生修復（1 週-1 月，第 II 型肺泡細胞/纖維母細胞增生/膠原沉積）→ 纖維化（數月）**。\n3. **病因**：**肺內（肺炎、吸入、吸入性傷害、創傷）；肺外（敗血症、胸外創傷）**。\n4. **臨床/預後**：呼吸急促、缺氧；**可併發肺炎、存活者可留纖維化與 honeycombing**。\n5. **治療**：**機械通氣併高 PEEP**（高吐氣末正壓）。",
+  "name": "ARDS vs Cardiogenic vs Renal Pulmonary Edema — Imaging Differential",
+  "nameZh": "肺水腫鑑別",
+  "slug": "ards-pulmonary-edema-differential",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**矽膠植入物破裂分為囊內（intracapsular）與囊外（extracapsular）；MRI 上 intracapsular rupture 見linguine sign（塌陷的植入物外殼漂浮於矽膠內，多條曲線）與keyhole/noose sign（少量矽膠聚集於外殼皺褶處）；extracapsular rupture 則是游離矽膠逸出纖維囊外，於腋下淋巴結呈「snowstorm」超音波徵象——此為判斷extracapsular rupture最可靠的徵象，且與tattoo pigment造成的粗鈣化外觀不同。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2017160086（題目所引",
+      "url": "https://doi.org/10.1148/rg.2017160086（題目所引"
+    },
+    {
+      "label": "10.53347/rID-13106——破裂分",
+      "url": "https://doi.org/10.53347/rID-13106——破裂分"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Intracapsular rupture（MRI／超音波）**：**linguine sign**（塌陷的植入物外殼呈多條曲線漂浮於矽膠內，最具特徵性）；**keyhole/noose sign**（少量矽膠積聚於外殼皺褶處呈鑰匙孔/繩結狀）；**stepladder sign**（超音波上呈階梯狀不連續回音線，代表塌陷外殼），三者皆為intracapsular rupture徵象，非extracapsular。",
+    "**Extracapsular rupture**：游離矽膠（free silicone）逸出纖維囊外進入周圍乳房組織，甚至可遊走至**腋下淋巴結**；**extracapsular（~15%）必然合併 intracapsular（~85%）**。",
+    "**Snowstorm sign（超音波）**：腋下淋巴結內見瀰漫回音增強伴後方聲影模糊（free silicone droplets 與組織混合），為判斷 **extracapsular rupture** 最可靠的徵象。",
+    "**鑑別**：**Tattoo pigment 沉積於淋巴結**通常表現為**粗鈣化（coarse calcification）**，與 snowstorm 的瀰漫聲影表現不同，不應混淆。",
+    "**Saline implant rupture**：因鹽水被人體吸收，超音波/MRI 上呈植入物塌陷、體積縮小，並非以 linguine/keyhole/snowstorm 表現為特徵（該三徵象皆為矽膠植入物破裂專屬）。"
+  ],
+  "management": "",
+  "name": "Breast Implant Rupture (MRI / Ultrasound)",
+  "nameZh": "矽膠植入物破裂",
+  "slug": "breast-implant-rupture",
+  "subspecialty": "Breast"
+}

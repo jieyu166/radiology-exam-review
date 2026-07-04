@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**蝶頂竇沿蝶骨小翼後下緣走行，收 superficial middle cerebral vein（Sylvian vein）後有三條出路；考題常問「哪個不是引流型」，陷阱是把屬支（MCV 流入竇）誤當出路（竇流向 SSS）。** 判讀分水嶺一：**superficial MCV 是流『入』蝶頂竇的屬支，不是竇流出的出路**——方向相反。判讀分水嶺二：三型出路＝①海綿竇（最常見、前內側）→②翼叢（sphenobasal，basal emissary）→③沿中顱窩底越岩錐入岩下/橫竇（sphenopetrosal）；空間記憶：前→海綿、下→翼叢、後→岩錐。",
+  "differentialDiagnosis": [
+    "**正常 SPS vs sphenobasal/sphenopetrosal 變異引流**：以**最終出口**區分（海綿竇 vs 翼叢 vs 岩錐橫竇），而非單看 SMCV。",
+    "**正常變異（細小／缺如 SPS）vs 病理性擴張**：盛行率僅約 70–85%、管徑多小；若 SPS／SMCV 異常擴張、迂曲、合併早顯影，需警覺 **DAVF**（尤其大翼型伴 varix）。",
+    "**多條平行淺 Sylvian 靜脈** vs 單一真竇：DSA 上常見數條沿蝶脊平行靜脈，僅其一為真正的竇，勿一概視為單一結構。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.7759/cureus.33419",
+      "url": "https://doi.org/10.7759/cureus.33419"
+    },
+    {
+      "label": "10.3174/ajnr.A3193",
+      "url": "https://doi.org/10.3174/ajnr.A3193"
+    },
+    {
+      "label": "10.1227/ons.0000000000000269",
+      "url": "https://doi.org/10.1227/ons.0000000000000269"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Sphenoparietal Sinus — Drainage Patterns",
+  "nameZh": "蝶頂竇",
+  "slug": "sphenoparietal-sinus",
+  "subspecialty": "NR"
+}

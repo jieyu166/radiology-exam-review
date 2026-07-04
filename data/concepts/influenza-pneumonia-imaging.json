@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**流感肺炎胸部影像典型呈「雙側（或單側）、下肺葉」為主之網狀結節狀混濁 + 斑片狀 GGO/實變（bronchopneumonia 型態），邊界不清之斑片可迅速融合、進展為 ARDS/瀰漫性肺泡損傷（DAD）；多於約 3 週內消退。** 判讀分水嶺：**下肺為主的斑片 GGO/實變 + centrilobular nodule/tree-in-bud ＝流感；若出現「空洞」要想 Staph 二次感染、出現「肋膜積液」多代表細菌重疊感染。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **分布指紋**：下肺為主的雙側斑片 GGO/實變 + reticulonodular，符合病毒性 bronchopneumonia。\n- **tree-in-bud/centrilobular nodule**：小氣道受累線索，有助與純肺泡填塞型鑑別。\n- **惡化警訊**：短時間內斑片迅速融合成瀰漫實變 → 疑進展 ARDS/DAD，臨床需加護。\n- **空洞 = 想 Staph**：流感本身不造空洞，出現空洞高度提示 Staph aureus 二次感染。\n- **肋膜積液**：流感罕見；若明顯積液應想細菌重疊感染。",
+  "keyPoints": [
+    "**典型分布**：**單側或雙側、以下肺葉為主**之網狀結節狀混濁（reticulonodular），合併**斑片狀 GGO/實變（bronchopneumonia 型態）**；**lobar consolidation 少見**。",
+    "**細部徵象**：**centrilobular nodules 1-10 mm、tree-in-bud**、patchy consolidation（1-2 cm）。",
+    "**快速融合/重症化**：邊界不清實變可**迅速融合**，可進展為 **ARDS/瀰漫性肺泡損傷（DAD）±肺泡出血**。",
+    "**二次細菌感染**：常見 **Strep pneumoniae、H. influenzae、Staph aureus**；**空洞形成提示 Staph 二次感染**；肋膜積液（少見）多代表重疊細菌感染。",
+    "**病程**：典型於**約 3 週內消退**。"
+  ],
+  "management": "1. **典型部位**：雙側下肺葉為主之網狀結節 + 斑片實變。\n2. **可重症化**：迅速融合、進展 ARDS/DAD 是流感肺炎重症影像特徵。\n3. **二次感染**：Strep/H. influenzae/Staph；空洞→Staph、積液→細菌重疊。\n4. **病程**：多 3 週內消退，未消退者想重疊感染或其他病因。\n5. **鑑別**：與其他病毒肺炎、mycoplasma、細菌性肺炎鑑別，靠分布 + tree-in-bud + 臨床。\n\n> [!note] 考點：流感肺炎典型侵犯部位？\n> **雙側下肺葉（lower lobes, bilateral，D）**——網狀結節狀混濁合併局部實變、bronchopneumonia 型態，典型雙側下肺葉分布，可迅速融合並約 3 週內消退。",
+  "name": "Influenza Pneumonia — Imaging Pattern",
+  "nameZh": "流感肺炎影像",
+  "slug": "influenza-pneumonia-imaging",
+  "subspecialty": "CH"
+}

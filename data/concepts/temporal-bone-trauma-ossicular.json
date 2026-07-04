@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**顳骨外傷聽小骨脫位最常見於 incudostapedial joint（砧鐙關節），第二常見為 incudomalleolar joint（砧槌關節）脫位、常合併縱向顳骨骨折；正常砧槌關節於軸位 CT 呈特徵性「ice-cream cone」徵象（槌骨頭＝冰淇淋球、砧骨體＝蛋捲筒），脫位時此徵象失準/變形。** 判讀分水嶺：**incudostapedial 關節因構造微小＋常被 hemotympanum 遮蔽，CT 判讀困難、易漏；聽小骨傷多伴縱向骨折且為傳導性聽損（CHL），與橫向骨折經迷路致感音性聽損（SNHL）＋顏面神經麻痺要分開。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2020190023，via",
+      "url": "https://doi.org/10.1148/rg.2020190023，via"
+    }
+  ],
+  "imagingFindings": "- **ice-cream cone 的用法**：於軸位薄層 CT 逐一確認冰淇淋（槌骨頭）與蛋捲筒（砧骨體）是否對齊；失準＝incudomalleolar 脫位；再往下追 incudostapedial 連續性（此處最常脫位卻最難看）。\n- **骨折型態（傳統）**：**縱向（temporoparietal 撞擊、沿岩骨長軸）** → EAC/鼓室壁、鼓膜破裂、聽小骨傷、hemotympanum、**傳導性聽損（CHL）**，因岩骨為緻密骨少累及 otic capsule；**橫向（枕部撞擊、垂直長軸、經 IAC/迷路）** → **感音性聽損（SNHL）、眩暈、顏面神經麻痺**。\n- **現代分類「otic capsule sparing vs violating」較能預後**：**violating 型**常經 jugular foramen、IAC、foramen lacerum、累及迷路與顏面神經管；相較 sparing 型，**顏面神經麻痺風險 >2 倍、（SNHL/CSF 漏等）約 4 倍**，故報告應優先描述 otic capsule 是否受累。\n- **一定要找的併發症**：顏面神經管（膝狀神經節段最常傷）、鼓室蓋/CSF 漏、迷路積氣（pneumolabyrinth，提示外淋巴瘻）、頸靜脈孔/頸動脈管受累。",
+  "keyPoints": [
+    "**脫位頻率排序**：**incudostapedial joint（砧鐙）最常見** → **incudomalleolar junction（砧槌）第二常見**（常合併**縱向顳骨骨折**）。脫位/半脫位遠比聽小骨骨折常見；聽小骨傷與縱向骨折相關性高於橫向骨折。",
+    "**正常徵象**：正常砧槌關節於軸位 CT 形成 **「ice-cream cone」徵象**（malleus head 如冰淇淋球、incus body 如蛋捲筒），失準/變形提示 incudomalleolar 脫位。",
+    "**判讀難點**：incudostapedial 關節構造微小、常被中耳出血（hemotympanum）遮蔽，CT 評估困難。"
+  ],
+  "management": "1. 聽小骨脫位與縱向骨折者臨床多為**持續性傳導性聽損（CHL）**，急性期常先被 hemotympanum 掩蓋，血塊吸收後聽損若不改善才顯現，是延遲診斷主因。\n2. 橫向或 otic-capsule-violating 骨折傷及 IAC/迷路者出現**感音性聽損、眩暈**，顏面神經受累則有周邊性顏面麻痺。\n3. **otic capsule violating 骨折**之顏面麻痺、SNHL 與 CSF 漏風險顯著高於 sparing 型，需神經外科/耳科積極介入。\n4. 顏面神經麻痺之**發作時機（立即 vs 遲發）**影響處置——立即完全麻痺常需手術減壓，遲發/不完全者多可保守觀察。\n5. 傳導性聽損若源於聽小骨脫位、保守無改善，可行**聽小骨鏈重建（ossiculoplasty）**恢復聽力。\n\n> [!note] 考點：關於顳骨外傷，何者正確？\n> **以上皆正確（D）**——incudostapedial joint 為聽小骨脫位最常見部位、incudomalleolar junction 脫位第二常見且常合併縱向顳骨骨折、正常 incudomalleolar joint 於軸位 CT 呈 ice-cream cone 徵象，皆為正確敘述。",
+  "name": "Temporal Bone Trauma — Ossicular Dislocation",
+  "nameZh": "顳骨外傷聽小骨脫位",
+  "slug": "temporal-bone-trauma-ossicular",
+  "subspecialty": "NR"
+}

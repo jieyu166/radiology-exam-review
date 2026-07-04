@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**脊髓血管畸形 Anson-Spetzler 四型中，整體最常見是 type I（dural AVF，老年男性後天），但兒童最常見是 type II（glomus，髓內）——「最常見」的答案取決於問的是哪個族群。** 判讀分水嶺一：**type I（dural AVF，~70%）＝後天、第 5–6 旬、老年男性**，問兒童時勿選。判讀分水嶺二：**兒童＝type II（glomus，髓內 compact nidus）最常見**；type III（juvenile/metameric）最廣泛但最罕見；type IV（perimedullary AVF）髓外軟膜。記憶鉤：年齡階梯——「老/後天→I，年輕/髓內→II，小兒廣泛→III，軟膜→IV」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.3174/ajnr.A1485",
+      "url": "https://doi.org/10.3174/ajnr.A1485"
+    },
+    {
+      "label": "10.3389/fneur.2023.1157902",
+      "url": "https://doi.org/10.3389/fneur.2023.1157902"
+    }
+  ],
+  "imagingFindings": "**Type I（SDAVF）的病生理 → 影像對應**：瘻管位於神經根袖硬膜處，動脈化的血流逆流入冠狀靜脈叢造成**慢性靜脈高壓性脊髓病變**（congestive myelopathy；嚴重者即 Foix-Alajouanine 症候群，中央灰白質壞死）。臨床對應為**年長男性、亞急性/慢性進行性下肢無力＋感覺異常＋括約肌功能障礙**（系列中 60.5% 男、中位年齡 66 歲、症狀至診斷約 5 個月）。\n\n**Type I 的 MRI 三聯徵**（閱片時三項合看，缺一仍不能排除）：\n- **長節段中央 T2 高訊號水腫**：以**下胸段及圓錐**為主、可跨多節段（系列平均約 6.5 個椎體節段、圓錐受累約 92%）；常伴脊髓腫脹。\n- **周邊 serpentine flow voids**：脊髓背側蛛網膜下腔、圓錐表面**迂曲擴張的引流靜脈 flow void**——這是最有指向性的徵象；惟**flow void 缺如不能排除 SDAVF**。\n- **強化**：脊髓內常見斑片狀 gad 強化（約 86%）；其中**「missing-piece sign」**＝長段強化中出現一段**界限分明的不強化區**，對 SDAVF 相對特異，文獻盛行率分歧（Ochsner 報告約 43%、腰薦系列報告約 76%）。\n\n**DSA 為診斷與定位的標準（criterion standard）**：MRI/MRA 提示後，**選擇性脊髓 DSA** 用以確認瘻管、找供血動脈（radiculomedullary/radicular artery）、定位**瘻管點 shunt point**與引流靜脈（shunt point 偵測敏感度近 100%）；治療規劃前必做，且初次 DSA 陰性/不確定仍不能完全排除小型病灶。\n\n**鑑別診斷 / 陷阱**：長節段中央 T2 高訊號＋強化的 DDx 包含**脊髓炎（橫貫性/去髓鞘）、脊髓缺血/梗塞、髓內腫瘤（astrocytoma/ependymoma）、靜脈高壓性脊髓病變**；SDAVF 最易被**誤判為脊髓炎或腫瘤**而延誤。閱片關鍵：**年長男性下肢進行性脊髓病變＋長節段中央 T2 高訊號＋周邊 flow void → 先想 dural AVF，並建議脊髓 DSA**；missing-piece sign 有助與去髓鞘（不完全環狀強化）、腫瘤、梗塞區分。\n\n> [!note] 考點：兒童最常見脊髓 AVM 型？\n> **Type II（glomus，髓內）**。Type I dural AVF 雖整體最常見，但為**老年後天**病灶、非兒童。",
+  "keyPoints": [
+    "**Type I — dural AVF（SDAVF）**：**所有脊髓血管畸形中最常見（~70%）**、發生高峰在**第 5–6 旬、男>女、後天**；慢性脊髓靜脈高壓/myelopathy。",
+    "**Type II — glomus（intramedullary AVM，真 nidus）**：髓內 compact nidus，**年輕患者**；真 nidus 型脊髓 AVM 約佔脊髓血管畸形 ~25%；**兒童族群最常見的脊髓 AVM**（2016-087 正解 B）。",
+    "**Type III — juvenile/metameric**：mixed extradural-intradural、大型、跨多組織（Cobb 症候群相關），**罕見**、年輕。",
+    "**Type IV — perimedullary AVF**：硬膜內髓外、軟膜表面（高流速、迂曲血管壓迫脊髓）。"
+  ],
+  "management": "",
+  "name": "Spinal Cord AVM (Classification)",
+  "nameZh": "脊髓動靜脈畸形",
+  "slug": "spinal-avm",
+  "subspecialty": "NR"
+}

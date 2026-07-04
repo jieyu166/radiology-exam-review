@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**Fibrous dysplasia 就是「骨頭裡長纖維骨、磨玻璃模樣、膨脹但沒有骨膜反應」的良性病變，肋骨是單骨型最常見部位。** 判讀分水嶺一：**ground-glass 基質＋無 periosteal reaction＋rind sign**＝良性纖維骨病變；判讀分水嶺二：**多骨型（polyostotic）→ 想 McCune-Albright（皮膚咖啡牛奶斑＋性早熟）或 Mazabraud（＋肌內黏液瘤）**。記憶鉤：「毛玻璃骨、膨脹無骨膜、多骨配咖啡斑」。",
+  "differentialDiagnosis": [
+    "基質",
+    "骨膜",
+    "邊緣",
+    "肋骨",
+    "polyostotic"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiographics.10.3.2188311",
+      "url": "https://doi.org/10.1148/radiographics.10.3.2188311"
+    }
+  ],
+  "imagingFindings": "- **本質（Kransdorf，AFIP 501 例）**：**正常骨髓被纖維骨組織（fibroosseous tissue）取代之發育異常**，可局限單骨（monostotic，AFIP 427/501）或瀰漫多骨（polyostotic，74/501）。\n- **X 光核心徵**：**髓內、膨脹、ground-glass（霧玻璃）基質、無 periosteal reaction、rind sign（厚硬化緣）**——霧玻璃＋無骨膜反應為與侵襲性病灶區分之關鍵。\n- **多模態表現（Kransdorf）**：**骨掃描通常明顯攝取增加；CT 顯示霧玻璃基質與膨脹重塑；MR 訊號多變（T1 低-中、T2 依纖維/囊/出血成分而異、可強化）——MR 訊號非特異，勿誤為侵襲性/惡性**。\n- **邊緣鑑別（考點）**：**FD＝rind sign（厚硬化緣）為唯一以硬化緣為特徵者**，對照 brown tumor/GCT/原發骨淋巴瘤常呈邊緣不清、寬移行帶之溶骨破壞。\n- **變形線索**：**股骨頸受累→shepherd's crook（牧羊杖）畸形**；顱面骨受累可致 leontiasis ossea/骨性膨大。",
+  "keyPoints": [
+    "**本質**：髓內纖維骨組織取代正常骨（GNAS 活化突變）；非遺傳性。",
+    "**型態**：**膨脹性、髓內、ground-glass（霧玻璃）基質、無 periosteal reaction、rind sign（厚硬化緣）**。",
+    "**位置**：monostotic（~85%）最常見於**肋骨（28%）**、近端股骨（23%）、顱面骨、脛骨、肱骨；**肋骨為 monostotic 最常見部位**、也是最常見良性肋骨病灶。",
+    "**MRI**：T1 多低～中等、T2 變動（依纖維/囊性/出血成分）、可強化——**訊號非特異、勿誤為侵襲性**。",
+    "**併發/關聯**：病理性骨折、肢體變形（**股骨頸受侵犯可致 shepherd's crook 畸形**）；**polyostotic** → McCune-Albright（＋皮膚咖啡牛奶斑、性早熟）、Mazabraud（＋肌內黏液瘤）；**惡性轉化罕見（約 <1%）**。",
+    "**陷阱：Jaffe-Campanacci syndrome 並非 FD 相關症候群**——其定義為多發 non-ossifying fibroma（NOF）＋café-au-lait spots＋智能障礙／脊椎側彎／性腺功能低下或隱睪／眼部畸形／心血管畸形／下顎巨細胞肉芽腫，與 FD 無關；FD 相關症候群僅 **McCune-Albright** 與 **Mazabraud**。"
+  ],
+  "management": "1. **病因**：**GNAS 活化突變之發育異常、非遺傳性**；依突變發生時期決定單骨或多骨侵犯範圍。\n2. **好發部位**：monostotic（~85%）最常見於**肋骨（28%）、近端股骨（23%）、顱面骨、脛骨**；肋骨為最常見良性肋骨病灶。\n3. **症候群關聯**：**polyostotic → McCune-Albright（咖啡牛奶斑＋性早熟／內分泌病）、Mazabraud（＋肌內黏液瘤）**；Jaffe-Campanacci 屬多發 NOF、與 FD 無關（陷阱）。\n4. **併發症**：病理性骨折、進行性變形（shepherd's crook）、疼痛；**惡性轉化罕見（<1%）**，多見於曾放療或 polyostotic。\n5. **處置**：無症狀多觀察；症狀性/骨折風險者以雙磷酸鹽止痛或手術（刮除植骨/內固定）；追蹤變形與罕見惡變。\n\n> [!note] 與 [[rib-tumor]] 的連結\n> 在肋骨病灶鑑別中，**fibrous dysplasia 是最常見良性肋骨病灶**（膨脹＋ground-glass＋無骨膜反應）；屬兒童/年輕成人肋骨 DDx。",
+  "name": "Fibrous Dysplasia",
+  "nameZh": "纖維性發育不良",
+  "slug": "fibrous-dysplasia",
+  "subspecialty": "MSK"
+}

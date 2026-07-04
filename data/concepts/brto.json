@@ -1,0 +1,62 @@
+{
+  "checked": false,
+  "definition": "**BRTO 走「逆行」路徑經胃腎/胃腔靜脈分流打入硬化劑，用球囊阻塞讓藥物滯留治療胃靜脈曲張；最重要的取捨：關閉分流後肝性腦病（HE）改善，但門脈壓上升使食道靜脈曲張與腹水可能惡化。** 記憶鉤：**「BRTO 關分流 → 毒素不繞過肝 → HE 改善；但分流一關壓力回衝食道 → 食道靜脈曲張惡化」**——與 TIPS（開分流改門壓但惡化 HE）正好相反。硬化劑首選 ethanolamine oleate。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1055/s-0032-1312573"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1097/HEP.0000000000001255"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.cgh.2013.07.015"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s10620-016-4399-4"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1055/s-0031-1284455"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2214/AJR.12.9052"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiology.211.2.r99ma25349"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.234025135"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.jvir.2010.11.022"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1097/MD.0000000000033961"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00270-025-04137-0"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s10620-014-3485-8"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "BRTO (Balloon-occluded Retrograde Transvenous Obliteration)",
+  "nameZh": "氣球阻塞逆行性經靜脈閉塞術",
+  "slug": "brto",
+  "subspecialty": "IR"
+}

@@ -1,0 +1,42 @@
+{
+  "checked": false,
+  "definition": "**兒童眼球內鈣化腫塊＝retinoblastoma until proven otherwise；白瞳（leukocoria）是最常見臨床表現，但白瞳鑑別廣（Coats、PHPV、ROP、Toxocara）。hemangioblastoma 是 VHL 相關的成人視網膜腫瘤，不是兒童最常見，此點為考試陷阱。** 判讀分水嶺一：**兒童眼球鈣化腫塊 → retinoblastoma 首選（CT 顯示鈣化最佳，非 DWI）**；判讀分水嶺二：**hemangioblastoma（VHL）≠ 兒童最常見視網膜腫瘤**。",
+  "differentialDiagnosis": [
+    "**判讀分水嶺（鈣化）**：幼兒**眼內腫塊內鈣化＝retinoblastoma until proven otherwise**；Coats 的鈣化罕見且呈沿 RPE 線狀，PHPV／ROP 一般不鈣化——鈣化「有無＋型態＋是否在腫塊內」是與 RB 分流的關鍵。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.230125",
+      "url": "https://doi.org/10.1148/rg.230125"
+    },
+    {
+      "label": "10.1007/s00247-011-2201-5",
+      "url": "https://doi.org/10.1007/s00247-011-2201-5"
+    },
+    {
+      "label": "10.1007/s11060-012-0922-4",
+      "url": "https://doi.org/10.1007/s11060-012-0922-4"
+    },
+    {
+      "label": "10.1148/radiographics.14.5.7991814",
+      "url": "https://doi.org/10.1148/radiographics.14.5.7991814"
+    },
+    {
+      "label": "10.2214/AJR.07.7022",
+      "url": "https://doi.org/10.2214/AJR.07.7022"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見**：retinoblastoma 是**兒童最常見的眼內腫瘤**;故「**hemangioblastoma 是兒童最常見視網膜腫瘤**」**錯誤**＝題目正解（2016-166 正解 A）。視網膜 hemangioblastoma 為 VHL 相關,非最常見。",
+    "**鈣化**：異質視網膜腫塊**常鈣化**;**兒童眼球內鈣化→retinoblastoma until proven otherwise**(option C 對)。",
+    "**leukocoria（白瞳）**：最常見臨床表現(option D 對);其他 strabismus、視力下降。",
+    "**白瞳鑑別多**（option B 對）：Coats disease、PHPV、ROP、Toxocara 等良惡性實體共享影像/臨床表現。",
+    "遺傳：RB1 基因;雙側/三側（pineoblastoma）見於遺傳型。"
+  ],
+  "management": "",
+  "name": "Retinoblastoma & Pediatric Ocular Tumors",
+  "nameZh": "視網膜母細胞瘤",
+  "slug": "retinoblastoma",
+  "subspecialty": "H&N"
+}

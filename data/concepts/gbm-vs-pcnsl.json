@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**PCNSL 比 GBM 有更低的 ADC value（cellularity 更高）。GBM 特徵為更多壞死、更大腫瘤、不規則邊緣、發生率更高。當題目問「非 GBM 特徵」時，lower ADC 是 PCNSL 的特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**ADC value**：PCNSL < GBM（PCNSL cellularity 更高）",
+    "GBM 特有：更多 necrosis、更大 tumor size、irregular margin",
+    "GBM 發生率高於 PCNSL"
+  ],
+  "management": "",
+  "name": "GBM vs Primary CNS Lymphoma MRI Differentiation",
+  "nameZh": "GBM PCNSL鑑別",
+  "slug": "gbm-vs-pcnsl",
+  "subspecialty": "NR"
+}

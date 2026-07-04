@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**可用於 intrathecal injection（脊髓造影/myelography）之含碘對比劑僅限特定「非離子型、低滲透壓」劑型——iohexol（Omnipaque）180/240/300 與 iopamidol（Isovue-M）200/300；並非所有 non-ionic 對比劑皆可，ioversol（Optiray）與 iopromide（Ultravist）之仿單明確標示「不可 intrathecal」。** 判讀分水嶺：**記「Omnipaque 或 Isovue-M」＝可 intrathecal；且濃度有上限——Omnipaque 只到 300（350 不可）、Isovue-M >300 mgI/mL 不可用於成人脊髓腔內；離子型/高滲透壓劑一律禁用（神經毒性/癲癇）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **濃度上限**：Omnipaque 之 intrathecal 濃度僅 **180/240/300**；**350 過高/滲透壓過大，不可 intrathecal**（考題陷阱）。\n- **兒童**：Omnipaque 兒童 intrathecal 僅 **180**；Isovue-M 亦有兒童（≥2 歲）myelography 適應症。\n- **部位選濃度**：腰段用較低濃度（Isovue-M 200、Omnipaque 180-240），頸/胸/全脊柱依需要提高但不超上限。\n- **禁忌辨識**：見 Optiray/Ultravist 之瓶身/仿單即知不可 intrathecal；誤用高滲透壓/離子劑於鞘內可致嚴重神經併發症。\n- **實務**：確認藥名 + 濃度 + intrathecal 標示三者，是抽藥前的安全查核。",
+  "keyPoints": [
+    "**核准可 intrathecal（myelography）**：",
+    "**iohexol（Omnipaque）180 / 240 / 300**（nonionic）；**兒童僅 180**。",
+    "**iopamidol（Isovue-M）200 / 300**（nonionic）；**Isovue-M 200 用於腰段**，**>300 mgI/mL 不可用於成人脊髓腔內**。",
+    "**未核准/禁用 intrathecal**：**ioversol（Optiray）仿單標示「not for intrathecal use」**、**iopromide（Ultravist）未核准 intrathecal**——雖亦為 nonionic，但不可用於此途徑。",
+    "**原理**：脊髓腔內只能用**非離子型、低滲透壓**劑；離子型與高滲透壓劑具**神經毒性（癲癇、腦病變）**，禁止 intrathecal。",
+    "**記憶要點**：intrathecal 用藥限「**Omnipaque（≤300）或 Isovue-M（≤300）**」，其餘常見血管內對比劑（Optiray、Ultravist）不可。"
+  ],
+  "management": "1. **兩類可用**：iohexol（Omnipaque ≤300）與 iopamidol（Isovue-M ≤300），皆 nonionic 低滲透壓。\n2. **兩類不可**：ioversol（Optiray）、iopromide（Ultravist）仿單禁 intrathecal。\n3. **濃度陷阱**：Omnipaque 350 不可 intrathecal（只到 300）。\n4. **安全機轉**：離子/高滲透壓劑鞘內具神經毒性，一律禁用。\n5. **抽藥查核**：藥名＋濃度＋intrathecal 標示三重確認。\n\n> [!note] 考點：台灣目前哪兩種contrast medium可以用來intra-thecal injection？\n> **Omnipaque（iohexol）300 / Isovue-M（iopamidol）300**——僅此二類非離子型低滲透壓對比劑核准用於脊髓腔內注射；Optiray（ioversol）、Ultravist（iopromide）之仿單明確不可 intrathecal。",
+  "name": "Intrathecal Contrast Media (Iodinated)",
+  "nameZh": "脊髓造影對比劑",
+  "slug": "intrathecal-contrast-media",
+  "subspecialty": "Physics"
+}

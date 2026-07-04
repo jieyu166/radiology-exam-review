@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**乳房超音波的惡性特徵口訣「不規則、比高還高、毛刺角狀邊、低回音、後方聲影、微鈣化、垂直生長」。反過來「純高回音結節（purely echogenic/hyperechoic nodule）」是良性特徵（脂肪、纖維化），最不像惡性——這是本題陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**惡性超音波特徵（Stavros/BI-RADS）**：",
+    "**Microlobulation（微小分葉）**：邊緣多個小分葉。",
+    "**Angular margins（角狀邊緣）**。",
+    "**Spiculation（毛刺）**、not-parallel（taller-than-wide，垂直生長）。",
+    "**Marked hypoechoic texture（明顯低回音）**。",
+    "後方聲影、微鈣化、導管延伸、分支型態。",
+    "**良性特徵（本題陷阱）**：**Purely echogenic / hyperechoic nodule（純高回音結節）**——高回音多為脂肪、纖維化等良性成分，**最不可能為惡性**。其他良性徵象含橢圓形、平行(wider-than-tall)、薄完整假包膜、≤3個柔和分葉。"
+  ],
+  "management": "",
+  "name": "Breast Ultrasound — Benign vs Malignant Features",
+  "nameZh": "乳房超音波良惡性特徵",
+  "slug": "breast-ultrasound-features",
+  "subspecialty": "Breast"
+}

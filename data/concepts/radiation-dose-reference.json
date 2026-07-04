@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**有效劑量從平片 mSv 以下、CT 個位數，到介入（TIPS ~70 mSv）遞升；記憶鉤：「平片＜乳攝＜腰椎平片＜頭CT＜IVU＜鋇劑灌腸≈腹骨盆CT＜Gallium/PCI＜CTCA＜Tl-201＜TIPS」。** 判讀分水嶺一：**X光（<2 mSv）≪ CT（6–16 mSv）；鋇劑灌腸（~8）竟與腹骨盆CT相當，是陷阱**；判讀分水嶺二：**核醫中 Tl-201（~22–41 mSv）、Gallium（~15 mSv）劑量遠超 Tc-99m 系列；介入中 TIPS 最高（~70 mSv）**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/radiol.2481071451。含",
+      "url": "https://doi.org/10.1148/radiol.2481071451。含"
+    },
+    {
+      "label": "10.1148/radiol.2481071451",
+      "url": "https://doi.org/10.1148/radiol.2481071451"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Effective Dose Reference Values (Mettler 2008 Catalog)",
+  "nameZh": "有效劑量參考值",
+  "slug": "radiation-dose-reference",
+  "subspecialty": "Physics"
+}

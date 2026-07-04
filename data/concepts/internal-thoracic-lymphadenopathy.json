@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**內乳淋巴結（internal thoracic/internal mammary node, ITN）轉移的風險因子：內側位置腫瘤、無法觸診之腫瘤、年齡 <35 歲、合併腋下淋巴結轉移、較高腫瘤分級、三陰性受體狀態、淋巴血管侵犯。影像上淋巴結增大 >5 mm 是偵測轉移最佳線索；US 導引細針抽吸（FNAB）可安全有效取樣供病理確認。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**正常大小**：內乳淋巴結正常長軸多 <5 mm，惟偶有大至 9 mm 仍為非病理性。",
+    "**偵測轉移最佳線索：淋巴結增大 >5 mm**——不論 US、CT 或 MRI，皆以此作為疑似轉移的主要影像線索。",
+    "**增加 ITN 轉移風險的因子**：腫瘤位於**內側位置**、**無法觸診**之腫瘤、**年齡 <35 歲**、合併**腋下淋巴結轉移**、**較高腫瘤分級**、**三陰性荷爾蒙受體狀態**、**淋巴血管侵犯（lymphovascular invasion）**。",
+    "**US 導引 FNAB 為安全有效的取樣方法**：臨床上疑似 ITN 轉移需要組織確認時，超音波導引細針抽吸為安全且有效的取樣方式。",
+    "**流行病學**：**4–18%** 接受內乳前哨淋巴結引流的病人有 ITN 侵犯而無合併腋下淋巴結轉移；**29–52%** 有腋下淋巴結轉移的病人同時合併 ITN 轉移。"
+  ],
+  "management": "",
+  "name": "Internal Thoracic (Internal Mammary) Lymphadenopathy in Breast Cancer",
+  "nameZh": "內乳淋巴結",
+  "slug": "internal-thoracic-lymphadenopathy",
+  "subspecialty": "Breast"
+}

@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**DVT 的超音波診斷核心只有一個：正常靜脈可以壓扁，血栓靜脈壓不扁（non-compressible）。** 加壓法是首選技術，不是禁忌。急性血栓讓靜脈擴張、管腔呈低回音；慢性後血栓變化則相反——靜脈縮小、管壁增厚、回音增強。記憶鉤：**「能壓扁＝正常，壓不扁＝血栓，這是 DVT 超音波的唯一金準則」**。",
+  "differentialDiagnosis": [
+    "**急性血栓**：靜脈**擴張（管徑增大）**、血栓呈低／無回音、加壓僅**部分可壓或完全壓不扁**、無側枝；color Doppler 內幾乎無血流訊號。",
+    "**慢性／後血栓變化（post-thrombotic change）**：靜脈**管腔縮小、管壁不規則增厚**、血栓回音增強且偏心附著於管壁、出現**側枝循環**與不同程度**再通（recanalization）**；可見「dual-rail」管壁徵象，慢性鈣化可呈強回音伴後方聲影。",
+    "鑑別意義：兩者處置不同——把慢性後血栓變化誤判為新發急性 DVT 會造成不必要的抗凝；停藥前留一張基準影像，有助於日後分辨舊血栓與真正復發。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.240113",
+      "url": "https://doi.org/10.1148/rg.240113"
+    },
+    {
+      "label": "10.1148/radiology.206.2.9457192",
+      "url": "https://doi.org/10.1148/radiology.206.2.9457192"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**無法閉合管腔（inability to obliterate the vein lumen with compression）＝診斷 DVT 的標準/最可靠徵象**（2016-103 正解 D）。",
+    "**加壓超音波（compression US）是首選技術**——對疑似 DVT 的肢體『要』做壓迫，正常靜脈可完全壓扁；故「DVT 不可加壓」之類敘述錯誤。",
+    "**喪失相位性血流（loss of phasic flow on Valsalva）**、**完全阻塞時 color flow 消失**為輔助徵象。",
+    "**急性 DVT**：受累靜脈**擴張（管徑增大）**、血栓回音低；**慢性後血栓變化**：靜脈縮小、管壁增厚、回音增強（故稱 post-thrombotic change 而非 chronic DVT，避免過度抗凝）。",
+    "近端（above-knee，膕靜脈以上）DVT 栓塞風險較高。"
+  ],
+  "management": "",
+  "name": "DVT — Ultrasound Diagnosis",
+  "nameZh": "深部靜脈血栓超音波",
+  "slug": "dvt-ultrasound",
+  "subspecialty": "US"
+}

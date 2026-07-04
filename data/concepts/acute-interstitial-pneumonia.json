@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**急性間質性肺炎（AIP）**為快速進展的特發性間質性肺炎，CT 表現依病程分三期。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**急性滲出期（exudative phase）**：ground-glass opacities、氣腔實變，雙側對稱分布。實變通常較 GGO 範圍小且局限於依賴側肺區",
+    "**組織化期（organizing phase）**：支氣管擴張、建築扭曲（architectural distortion），下肺為主對稱分布",
+    "**最終纖維化期（fibrotic phase）**：牽引性支氣管擴張、蜂窩肺"
+  ],
+  "management": "",
+  "name": "Acute Interstitial Pneumonia (AIP)",
+  "nameZh": "急性間質性肺炎",
+  "slug": "acute-interstitial-pneumonia",
+  "subspecialty": "CH"
+}

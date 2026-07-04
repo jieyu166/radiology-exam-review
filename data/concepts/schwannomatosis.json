@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**神經鞘瘤病的診斷準則明確要求「不合併」前庭神經侵犯——一旦出現前庭神經腫瘤，診斷就要改為NF2，這是與NF2鑑別的核心分水嶺。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**發生率**：與NF2相近。",
+    "**基因**：可有**SMARCB1**基因生殖細胞突變(germline mutation)。",
+    "**周邊神經侵犯**：**多發性神經鞘瘤**侵犯周邊神經系統，但**不合併前庭神經(vestibular nerve)侵犯**——此為診斷準則核心要求，若合併前庭神經腫瘤應診斷為NF2，而非schwannomatosis。診斷準則另包含：≥2個非皮內(non-intradermal)神經鞘瘤(至少1個經病理確認)、無任何前庭腫瘤證據(需高品質前庭神經影像)、通常於診斷時>30歲、無已知NF2基因突變。",
+    "**好發年齡**：高峰發生年齡通常在**30-60歲**之間，較NF2發病年齡(18-24歲)為晚。"
+  ],
+  "management": "",
+  "name": "Schwannomatosis (vs NF2)",
+  "nameZh": "神經鞘瘤病",
+  "slug": "schwannomatosis",
+  "subspecialty": "NR"
+}

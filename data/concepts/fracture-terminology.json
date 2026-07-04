@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**骨折術語最常考的陷阱是「疲勞性 vs 不足性骨折」定義對調——疲勞性/stress（fatigue）＝『正常骨』受『異常反覆應力』；不足性（insufficiency）＝『瀰漫弱化骨』受『正常應力』；病理性（pathologic）＝『局部弱化骨（腫瘤/感染/放射）』受正常應力，三者剛好對比。蝴蝶狀骨片＝骨折線間三角楔形骨片（粉碎），非撕脫。開放性骨折＝骨折處與外界相通。** 判讀分水嶺：**stress＝運動員/新兵的正常骨過用；insufficiency＝骨鬆/腎骨病/長期雙磷酸鹽的弱骨；pathologic＝局部病灶處。butterfly＝彎折的楔形中段片（≠ avulsion）；open＝皮膚破損/與空氣相通（感染、外科急症）。X 光會漏很多骨折（rib 85%、scaphoid 15%、chondral 100%），MR 為偵測金標準。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-7542（輔助來源",
+      "url": "https://doi.org/10.53347/rID-7542（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **三定義對比（核心）**：正常骨異常力＝stress/fatigue；瀰漫弱骨正常力＝insufficiency；**局部弱骨正常力＝pathologic**。\n- **好發族群線索**：新兵/跑者的蹠骨/脛骨＝stress；老年骨鬆的薦骨/恥骨支/股骨頸＝insufficiency；低能量骨折＋局部溶骨破壞＝pathologic（找底下病灶）。\n- **X 光漏診率（重要）**：標準 X 光看不到 **85% 肋骨、50% 鼻骨、15% 舟狀骨、25% 兒童肘、100% 軟骨骨折**、骨鬆者 <5% 近端股骨/遠端橈骨骨折——臨床高度懷疑而 X 光陰性時勿排除。\n- **MR 為偵測金標準**：對皮質＋小樑骨折及 stress reaction 敏感度/特異度/陰性預測值高；US 對淺表骨（肋/胸骨/鼻骨/顱骨）及 stress fx（早於 X 光可見骨膜增厚充血）有角色，但對小樑/深部骨折不敏感。\n- **butterfly vs avulsion**：butterfly＝骨折線間楔形片（粉碎、彎折）；avulsion＝關節/附著點被韌帶肌腱拉下之小片。\n- **描述要素**：位置、移位、成角、粉碎程度、對位、鄰近皮質完整性、軟組織（水腫/血腫/骨痂成熟度）。",
+  "keyPoints": [
+    "**開放性骨折（open/compound）**：骨折處與**外界（空氣/皮膚破損）相通**——感染風險高、外科急症。",
+    "**Stress fx（疲勞性/fatigue）**：**正常骨**受**過度反覆 submaximal 負荷**（運動員、跑者、新兵）。",
+    "**Insufficiency fx（不足性）**：**瀰漫弱化骨**受**正常負荷**（骨質疏鬆；亦見腎性骨病、長期雙磷酸鹽）。",
+    "**Pathologic fx（病理性）**：**局部弱化骨**受正常負荷（多為轉移/原發骨腫瘤；感染、放射亦是）。",
+    "**Stress reaction / trabecular micro-fx**：正常骨反覆負荷之小樑微骨折，**MR 見瀰漫骨髓水腫但無明確骨折線**。",
+    "**蝴蝶狀骨片（butterfly fragment）**：近/遠端骨折片「之間」之大型三角/楔形骨片（彎折致粉碎）；**非** avulsion（附著點撕脫）。"
+  ],
+  "management": "1. **定義對調陷阱**：stress/fatigue＝正常骨異常反覆力；insufficiency＝瀰漫弱骨正常力；pathologic＝局部弱骨（腫瘤/感染/放射）正常力。\n2. **族群**：stress＝運動員/新兵；insufficiency＝骨鬆/老人/腎骨病/雙磷酸鹽；stress fx 臨床特徵為**運動誘發、休息緩解之疼痛**。\n3. **butterfly ≠ avulsion**：前者骨折線間楔形片、後者附著點撕脫。\n4. **open**：與外界相通、感染風險、外科急症。\n5. **癒合級聯與病理性警覺**：血腫（發炎 24h 峰值/7 天完成）→ 軟骨痂（endochondral）＋硬骨痂（骨膜下 intramembranous）→ 重塑；低能量骨折＋局部病灶要疑病理性、找底下腫瘤/轉移。\n\n> [!note] 考點：關於骨折術語，何者敘述正確？\n> **開放性骨折 = 與外界環境相通**——正確。疲勞性/不足性之「正常/異常骨」與「異常/正常應力」常被對調（正確：fatigue/stress＝正常骨異常力、insufficiency＝弱骨正常力）；蝴蝶狀骨片為骨折線間三角形骨片（粉碎），非撕脫性骨折。",
+  "name": "Fracture Terminology — Definitions",
+  "nameZh": "骨折術語定義",
+  "slug": "fracture-terminology",
+  "subspecialty": "MSK"
+}

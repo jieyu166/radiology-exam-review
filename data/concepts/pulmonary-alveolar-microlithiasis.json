@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**肺泡微石症(PAM)的分布是『雙側、中下肺野為主(middle-lower zone predominance)』——不是apical(上肺)predominance；apical predominance是轉移性肺鈣化(metastatic pulmonary calcification)的特徵。PAM其他特徵：好發20-50歲、X光呈瀰漫細砂樣緻密肺(sandstorm)、沿肋膜有黑胸膜線(black pleural line)。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**年齡**：好發**20-50歲**（家族性、SLC34A2基因）。",
+    "**X光**：瀰漫細小鈣化微石致**緻密沙暴樣肺(sandstorm/dense lung)**。",
+    "**分布（本題重點）**：**雙側、中下肺野為主(middle to lower zone predilection)**——非**apical(上肺)predominance**（apical為metastatic pulmonary calcification特徵）。",
+    "**Black pleural line（黑胸膜線）**：微石與胸膜間之低密度線，為特徵性徵象。"
+  ],
+  "management": "",
+  "name": "Pulmonary Alveolar Microlithiasis (PAM)",
+  "nameZh": "肺泡微石症",
+  "slug": "pulmonary-alveolar-microlithiasis",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**關節-滑囊相通多為病理，但有幾個關節周圍的滑囊/滑膜陷凹「正常」即與關節腔相通：膝-suprapatellar recess（恆常）、膝-gastrocnemio-semimembranosus（Baker）囊（常見、單向閥）、髖-iliopsoas bursa（約 15%）。** 判讀分水嶺：**盂肱-肩峰下-三角肌下（SASD）相通＝旋轉肌袖全層撕裂**（正常不通，相通即病理）。記憶鉤：膝關節的「上方陷凹」與「後方腓腸-半膜囊」是合法住戶，髖關節容許「腰大肌的房客（iliopsoas bursa）」約 15% 入住；而肩膀的 SASD 一旦串門＝cuff 破洞。",
+  "differentialDiagnosis": [
+    "**Baker cyst vs 其他膕窩囊腫/腫塊**：Baker 囊有半膜-腓腸間特定頸部與關節相通；血管瘤、動脈瘤、神經鞘瘤、滑膜肉瘤無此頸部，必要時加做都卜勒/增強。",
+    "**iliopsoas 囊擴大 vs 髖周其他囊性病灶**：相通的 iliopsoas 囊呈髂腰肌肌腱深面、股血管外側的長形液體影，須與腹股溝疝、淋巴囊腫、動脈瘤、軟組織腫瘤鑑別。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Joint–Bursa Normal Communication",
+  "nameZh": "關節滑囊相通",
+  "slug": "synovial-bursa-communication",
+  "subspecialty": "MSK"
+}

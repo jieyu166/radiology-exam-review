@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**胸膜孤立性纖維瘤（SFT）在 CT/MR 上依大小呈不同強化型態，小腫瘤（<6 cm）與胸膜呈鈍角、均質強化；MRI 上因富含膠原纖維基質，於 T1WI 與 T2WI 皆常呈低訊號。約 5% 病例會併發 Doege-Potter 症候群（副腫瘤性低血糖）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**CT 表現（依大小分層）**：**腫瘤 <6 cm 時**，與胸膜呈**鈍角（obtuse angle）**、**均質強化（homogeneous enhancement）**；較大腫瘤因出血/壞死/黏液樣變性而呈不均質強化。",
+    "**MRI 表現**：因腫瘤富含緻密膠原纖維基質，**T1WI 與 T2WI 皆常呈低訊號**——與多數軟組織腫瘤 T2 高訊號的一般規律相反，是此病的判讀特徵。",
+    "**Doege-Potter 症候群**：SFT 可併發的副腫瘤症候群，因腫瘤分泌 IGF-2 類似物導致**低血糖（hypoglycemia）**，約見於少數病例。"
+  ],
+  "management": "",
+  "name": "Solitary Fibrous Tumor of the Pleura",
+  "nameZh": "胸膜孤立性纖維瘤",
+  "slug": "solitary-fibrous-tumor-pleura",
+  "subspecialty": "CH"
+}

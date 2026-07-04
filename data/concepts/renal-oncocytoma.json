@@ -1,0 +1,53 @@
+{
+  "checked": false,
+  "definition": "**腎 oncocytoma 的記憶鉤：外觀像車輪（spoke-wheel 血管攝影）、中心有疤（星狀疤痕）、本身良性；「bizarre neoplastic vessels＋AV shunting」是 RCC 的特徵，oncocytoma 沒有。** 判讀分水嶺一：**中央星狀疤痕＋spoke-wheel 血管 → oncocytoma 典型**；判讀分水嶺二：**bizarre vessels / AV shunting → 屬 RCC，非 oncocytoma**；影像仍難與 RCC 可靠區分，多需手術確診。",
+  "differentialDiagnosis": [
+    "**chromophobe RCC**:最難分;同樣邊界清楚、強化低於腎皮質,亦可有中央疤痕與 SEI;影像幾乎無法區分,組織學/免疫染色才能定論。",
+    "**clear cell RCC**:典型富血管、強化更不均、常見壞死/出血;可有 chemical-shift 訊號掉落(胞內脂質),與 oncocytoma 的富血管均質強化部分重疊。",
+    "**fat-poor(minimal-fat)AML**:無肉眼脂肪者最難與惡性區分;chemical-shift MRI 可偵測 CT 看不到的微量脂肪,但 clear cell RCC 也可因胞內脂質出現反相位訊號掉落 → 重疊。鑑別線索:AML 多 **T2 低訊號且反相位無訊號掉落**,RCC 反之;但無脂肪 AML 與非透明細胞 RCC 在 CT/MRI 上常難區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s13244-014-0373-x（PMC4330236",
+      "url": "https://doi.org/10.1007/s13244-014-0373-x（PMC4330236"
+    },
+    {
+      "label": "10.1007/s00261-019-01899-3",
+      "url": "https://doi.org/10.1007/s00261-019-01899-3"
+    },
+    {
+      "label": "10.2214/AJR.10.4718",
+      "url": "https://doi.org/10.2214/AJR.10.4718"
+    },
+    {
+      "label": "10.1148/129.3.615",
+      "url": "https://doi.org/10.1148/129.3.615"
+    },
+    {
+      "label": "10.2214/AJR.11.6463",
+      "url": "https://doi.org/10.2214/AJR.11.6463"
+    },
+    {
+      "label": "10.1148/radiol.2522081180",
+      "url": "https://doi.org/10.1148/radiol.2522081180"
+    },
+    {
+      "label": "10.3348/kjr.2015.16.1.99",
+      "url": "https://doi.org/10.3348/kjr.2015.16.1.99"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**:良性,由**集尿管嗜酸性(eosinophilic)上皮細胞**組成;邊界清楚、有完整包膜。",
+    "**典型影像三聯**:富血管均質強化 ＋ **中央星狀疤痕(central stellate scar)** ＋ 血管攝影 **spoke-wheel(輪輻狀)**供血。三者皆**非特異**,不能單獨診斷。",
+    "**CT 強化**:富血管,皮髓質期可見明顯強化;但因細胞性(高細胞 vs 低細胞富間質)與囊變/出血不同,強化型態變異大,延遲期常呈不均質。",
+    "**中央星狀疤痕**:對應中央纖維化與壓迫血管;T1/T2 皆呈低訊號的星狀區,強化掃描中央不強化。**判讀陷阱**:此疤痕亦見於 chromophobe RCC 與部分 clear cell RCC,**並非 oncocytoma 專屬**;且小腫瘤(<3 cm)常無疤痕(需腫瘤長大超過供血才形成),故對小腫瘤不可靠。",
+    "**MRI**:典型 T1 低訊號、T2 高訊號(部分系列 T2 偏低,與 papillary RCC 重疊),中央疤痕 T1/T2 低訊號、注射 gadolinium 後均質強化但疤痕不強化。",
+    "**血管攝影 spoke-wheel**:輻輪狀供血 ＋ 均質 nephrogram ＋ 銳利平滑外緣;但**非 pathognomonic**,亦見於 RCC,故「bizarre neoplastic vessels＋AV shunting」屬 **RCC** 特徵(2016-095 正解 D),oncocytoma 沒有。"
+  ],
+  "management": "",
+  "name": "Renal Oncocytoma",
+  "nameZh": "腎嗜酸細胞瘤",
+  "slug": "renal-oncocytoma",
+  "subspecialty": "ABD"
+}

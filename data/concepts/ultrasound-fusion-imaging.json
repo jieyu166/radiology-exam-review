@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**超音波融合影像：超音波與 CT/MRI 對位時，移動的是 CT/MRI 影像（非超音波，因 US 為 real-time），通常 MRI 對位較 CT 準。左肝以左門靜脈臍部為標定，右肝以右門靜脈分叉為標定。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "對位時移動的是 **CT/MRI 影像**，超音波為即時影像不動。",
+    "**MRI 對位通常較 CT 準**。",
+    "**左肝標定**：左門靜脈臍部（umbilical portion of left portal vein）。",
+    "**右肝標定**：右門靜脈分叉（right portal vein bifurcation）。"
+  ],
+  "management": "",
+  "name": "Ultrasound Fusion Imaging",
+  "nameZh": "超音波融合影像",
+  "slug": "ultrasound-fusion-imaging",
+  "subspecialty": "US"
+}

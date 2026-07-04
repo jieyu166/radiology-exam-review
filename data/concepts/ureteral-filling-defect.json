@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**輸尿管充盈缺損最常見原因是結石，TCC（urothelial carcinoma）只是最常見的「腫瘤性」充盈缺損，整體頻率遠低於結石——考題最常考此層次差異。** 判讀分水嶺一：**最常見＝石頭**，CT 平掃直接確認；判讀分水嶺二：排除結石後展開 CUPS MET（Clot、stone、Polyp、Sloughed papilla、Metastasis、Endometriosis、TB、urothelial Carcinoma）。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2015140209",
+      "url": "https://doi.org/10.1148/rg.2015140209"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見原因＝結石（calculi）**（標準 uroradiology 教學；題目正解）；最常見三大成因為結石、腫瘤（UCC）、血塊。",
+    "**判讀鐵則**：任何呈**軟組織衰減（soft-tissue attenuation）**的輸尿管充盈缺損，在排除前應視為惡性，通常需 ureteroscopy＋切片＋細胞學。",
+    "**結石於 CT**：所有泌尿道結石皆為高衰減、**>200 HU**（唯 indinavir 結石例外、呈軟組織衰減）→ 故 **NECT 才是診斷結石首選**;CTU 排泄期高密度對比劑常遮蔽結石。結石好發於輸尿管自然狹窄處（UPJ、pelvic brim、UVJ）。",
+    "**腫瘤**：urothelial carcinoma（原 TCC）是最常見的**腫瘤性**充盈缺損與最常見尿路上皮腫瘤，但整體頻率低於結石;常為多灶（synchronous lesions），故發現單一病灶須搜尋整段尿路。**Goblet sign**（病灶遠端杯狀對比劑積聚）高度提示 UCC 但非完全特異。papilloma 罕見。",
+    "**血塊（clot）**：續發於出血（腫瘤/外傷/結石/抗凝），NECT 上呈高衰減（**>50 HU**）、不顯影，可為圓形或蟲狀（vermiform），會隨時間變化、可移動;小血塊與 UCC 不易區分，常需短期追蹤或 ureteroscopy。",
+    "**單發充盈缺損鑑別（CUPS MET）**：Clot、Ureteric stone、Polyp、Sloughed papilla、Metastasis、Endometriosis、TB、urothelial carcinoma。",
+    "**多發充盈缺損**：多發結石（steinstrasse）、ureteritis cystica、多灶 urothelial carcinoma、血塊、血管壓跡等。"
+  ],
+  "management": "",
+  "name": "Ureteral Filling Defect (Differential)",
+  "nameZh": "輸尿管充盈缺損",
+  "slug": "ureteral-filling-defect",
+  "subspecialty": "ABD"
+}

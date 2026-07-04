@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**薦腸關節炎的軟骨解剖陷阱：前方關節的透明軟骨在「薦骨側（sacral side）較厚」、髂骨側較薄——正因髂骨側軟骨薄，結構性變化（骨侵蝕/硬化）從髂骨側開始且較嚴重（more profuse on the iliac facet）。題目若說「髂骨側軟骨較厚、薦骨翼較嚴重」則方向顛倒為錯。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**spondyloarthropathy定義**：涵蓋一大群慢性發炎風濕免疫疾病，包括**ankylosing spondylitis、reactive arthritis、IBD相關關節炎/脊椎炎、psoriatic arthritis、undifferentiated spondyloarthritis**。",
+    "**薦腸關節受累**：多數axial spondyloarthropathy中，**薦腸關節（sacroiliac joints）最常被攻擊，sacroiliitis為最初表現**。",
+    "**診斷演變**：現有anti-TNF藥物可治療；疾病發作時X光常無異常，**診斷主流已轉由MRI**（偵測早期骨髓水腫）。",
+    "**軟骨解剖與結構變化（本題重點）**：前方關節透明軟骨**薦骨側較厚、髂骨側較薄**；正因髂骨側軟骨較薄，**結構性變化從髂骨側開始且較嚴重（more profuse on the iliac facet）**——故「髂骨側軟骨較厚、薦骨翼較嚴重」為**錯誤**（方向顛倒）。"
+  ],
+  "management": "",
+  "name": "Sacroiliitis & Axial Spondyloarthropathy",
+  "nameZh": "薦腸關節炎",
+  "slug": "sacroiliitis-spondyloarthropathy",
+  "subspecialty": "MSK"
+}

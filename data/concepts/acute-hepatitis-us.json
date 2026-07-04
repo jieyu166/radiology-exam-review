@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**急性肝炎讓肝變暗——回音減低，不是增加；超音波看到「暗肝配亮門脈」才是 starry sky。** 影像非特異，正常超音波不能排除急性肝炎。判讀關鍵：整體回音**減低**＋periportal edema 是方向；「瀰漫回音增加」反而提示脂肪肝/慢性肝病——考題最愛反著考。",
+  "differentialDiagnosis": [
+    "典型急性肝炎 US",
+    "肝腫大、肝實質回音**減低**、starry sky",
+    "GB 壁增厚＋膽囊周圍水腫、periportal cuffing",
+    "Doppler 正常、可有肝門淋巴結/腹水"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1186/s13104-021-05510-1",
+      "url": "https://doi.org/10.1186/s13104-021-05510-1"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "影像**非特異**，正常超音波**不能排除**急性肝炎；診斷靠臨床＋血清學，影像為輔助/排除他因。",
+    "**核心徵象 starry sky（starry-night appearance）**：肝實質瀰漫回音**減低**（肝細胞水腫使背景變暗），相對突顯門脈三合體（portal triad）周邊**強回音壁／管壁變亮**，形成「暗背景＋亮星點」。機轉＝肝細胞小葉內水腫，肝小葉與門脈管壁聲學對比反轉。",
+    "**肝腫大**：常見且為相對敏感徵象，肝實質瀰漫回音減低。",
+    "**膽囊壁增厚（非膽囊炎）＋膽囊周圍水腫 pericholecystic edema**：反應性、變動性，常見（與肝炎本身相關，非原發膽囊病變）。",
+    "**門脈周圍變化（periportal cuffing／periportal edema）**：門脈分支周邊出現亮環（hyperechoic cuffing）或低回音帶；與 starry sky 同屬門脈周邊回音改變光譜。",
+    "**肝門／肝周淋巴結腫大**可見；嚴重者合併**腹水**。",
+    "Color/spectral Doppler 多正常（不同於門脈高壓/血栓）。"
+  ],
+  "management": "",
+  "name": "Acute (Viral) Hepatitis — Ultrasound",
+  "nameZh": "急性肝炎超音波",
+  "slug": "acute-hepatitis-us",
+  "subspecialty": "ABD"
+}

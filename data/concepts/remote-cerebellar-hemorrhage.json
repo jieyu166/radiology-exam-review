@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**遠端小腦出血不是只發生在蚓部——它可以是手術部位的同側、對側，甚至雙側，斑馬徵(zebra sign)才是它的招牌影像特徵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發情境**：典型發生於**天幕上開顱術(supratentorial craniotomy)**或脊椎手術後，屬相對良性但極罕見之併發症。",
+    "**機轉**：術後CSF低容積(hypovolemia)致小腦下垂(sagging)，壓迫上方穿通靜脈，引發出血性梗塞。",
+    "**斑馬徵(zebra sign)**：血液沿小腦葉層(folia)呈條紋狀分布，形似斑馬紋，此為診斷特徵性徵象。",
+    "**分布範圍**：出血可為手術部位之**同側或對側，甚至雙側**，亦可**侷限於小腦蚓部**——分布多樣，**並非「僅限於蚓部」**。",
+    "**潛在病灶**：**無潛在病理病灶(no underlying pathologic lesion)**，屬繼發於低顱內壓/CSF流失之良性出血性併發症。"
+  ],
+  "management": "",
+  "name": "Remote Cerebellar Hemorrhage (Zebra Sign)",
+  "nameZh": "遠端小腦出血",
+  "slug": "remote-cerebellar-hemorrhage",
+  "subspecialty": "NR"
+}

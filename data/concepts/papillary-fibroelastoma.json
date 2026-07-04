@@ -1,0 +1,43 @@
+{
+  "checked": false,
+  "definition": "**Papillary fibroelastoma 是最常見的瓣膜腫瘤（myxoma 後第二常見良性心臟瘤），多無症狀偶然發現，但瓣膜上小蒂活動性腫塊可脫落造成栓塞（中風/TIA）——「與栓塞無關」是考試陷阱。** 記憶鉤：良性卻危險在於「小蒂震顫→碎屑飛走→腦梗」。判讀分水嶺一：**瓣膜上小（<1.5 cm）、有蒂、可活動的腫塊，主動脈瓣最常見**；判讀分水嶺二：**雖良性仍可栓塞致中風/TIA**。",
+  "differentialDiagnosis": [
+    "病灶",
+    "**Papillary fibroelastoma**",
+    "**Myxoma**",
+    "**Vegetation（贅生物）**",
+    "**Lambl's excrescence**",
+    "**附壁血栓**"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.4103/jcecho.jcecho_18_22"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/S0735-1097(97"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1186/s13104-016-2323-9"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1186/s13019-017-0592-6"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：罕見良性原發心臟腫瘤；**最常見的瓣膜腫瘤**（約占瓣膜腫瘤 75%），好發主動脈瓣/二尖瓣。",
+    "**第二常見良性心臟瘤**（次於 myxoma）。（題目選項 D 真）",
+    "**多無症狀**、常偶然發現。（選項 A 真）",
+    "**栓塞風險**：可使腫瘤本身或附著之血栓碎屑**全身性栓塞** → 中風/TIA/冠脈栓塞；故「**與栓塞無關**」**錯誤**＝題目正解。",
+    "影像：瓣膜上小、有蒂、可活動的圓形腫塊（echo「shimmer」邊緣）；鑑別 Lambl excrescence、myxoma、贅生物、血栓。"
+  ],
+  "management": "",
+  "name": "Papillary Fibroelastoma",
+  "nameZh": "乳突狀纖維彈性瘤",
+  "slug": "papillary-fibroelastoma",
+  "subspecialty": "CV"
+}

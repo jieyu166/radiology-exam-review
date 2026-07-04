@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**組織諧波成像對「大體型或回音雜訊多」的病人特別有幫助（如脂肪肝、肥胖病人），而非瘦(thin)病人——這是本主題最常見的方向誤判陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**適用族群**：組織諧波成像有助於**大體型(large body habitus)** 或**回音雜訊多的組織(noisy tissues，如echogenic liver)**之病人，可改善影像品質、降低偽影與旁瓣雜訊。",
+    "**常見誤判**：「有助於瘦(thin)病人」為**錯誤**方向——實際上是大體型/肥胖/脂肪肝病人受益較多。"
+  ],
+  "management": "",
+  "name": "Tissue Harmonic Imaging (THI)",
+  "nameZh": "組織諧波成像",
+  "slug": "tissue-harmonic-imaging",
+  "subspecialty": "US"
+}

@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Buford complex 為肩關節先天正常解剖變異＝「前上方盂唇缺失（1–3 點鐘）」＋「索狀增厚之中盂肱韌帶（cord-like MGHL）」；盛行率約 3%。它與 sublabral foramen（SLF, 13.5%）、sublabral recess（57%）同屬「11–3 點鐘」之前上/上盂唇正常變異譜，最易被誤判為病理性撕裂；且 Buford 是 SLAP 撕裂的『易感因子』，看到它反而要仔細評估上盂唇。** 判讀分水嶺：**①「11–3 點鐘」出現的盂唇『異常』先想正常變異；②前上方＝SLF（盂唇未附著但完整）/Buford（盂唇缺失＋索狀 MGHL），上方 11–1 點＝sublabral recess；③與 SLAP 鑑別：sublabral recess 高訊號『向內側彎（medial）』且不跨越整個附著、SLAP『向外側彎（lateral）』且 >2mm（MRA >3mm）、延伸至 biceps anchor 後方（Double-Oreo sign 可見兩條高訊號線）。次要徵象＝索狀 MGHL、無 Hill-Sachs 支持正常變異。記憶鉤：缺盂唇＋索狀韌帶＝Buford，勿當撕裂、勿修（會限制 ROM）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1024（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1024（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **定位分類**：**前上方 1–3 點＝SLF 與 Buford**；**上方 11–1 點＝sublabral recess**；變異可延伸至前下盂肱韌帶起點。\n- **SLF vs Buford**：SLF＝盂唇「未附著但完整」（盂唇與盂緣間高訊號、邊緣平滑、無出血/毛邊）；**Buford＝前上盂唇「完全缺失」＋MGHL 直徑增大呈索狀**。\n- **與 SLAP 鑑別（核心）**：**sublabral recess 高訊號「向內側彎」、僅限 recess 內、不跨越整個盂唇附著**；**SLAP 高訊號「向外側彎」、>2mm（傳統 MR）/>3mm（直接 MR 關節攝影）、延伸至 biceps anchor 後方**；**Double-Oreo sign**＝兩條高訊號線（一為 superior recess、一為 SLAP）。\n- **兩個誤判要避免**：①索狀 MGHL 勿誤為「移位/撕裂之盂唇碎片」；②前上方「無盂唇」勿誤為撕裂（先天缺失）。\n- **次要徵象支持正常變異**：**索狀（厚）MGHL、無 Hill-Sachs lesion**；孤立性前上盂唇撕裂其實少見。\n- **最佳檢查/處置提醒**：**MR arthrography**；**勿「修復」SLF/sublabral recess**（會造成活動度受限）。",
+  "keyPoints": [
+    "**Buford complex（正常變異）**：**前上方盂唇缺失（1–3 點）＋索狀增厚 MGHL**；MGHL 直接起自上盂唇（鄰 bicipitolabral）、止於肩胛下肌腱關節面。",
+    "**盛行率譜**：**Buford 3%、SLF 13.5%、sublabral recess 57%、discoid 13.4%**。",
+    "**臨床意義**：屬正常變異、非撕裂；**Buford 為 SLAP 撕裂之易感因子**，須細看上盂唇。",
+    "**判讀原則**：**11–3 點鐘出現的盂唇「異常」先想正常變異**。"
+  ],
+  "management": "1. **正常變異**：前上盂唇缺失＋cord-like MGHL，非撕裂；**無症狀、各年齡皆可見、M＝F**。\n2. **盛行率**：Buford 約 3%（SLF 13.5%、sublabral recess 57%、discoid 13.4%）。\n3. **雙陷阱**：索狀 MGHL 與缺失盂唇皆易誤判為病理；「11–3 點鐘」變異優先。\n4. **SLAP 關聯**：**Buford 為 SLAP 撕裂易感因子**，判讀時對上盂唇/bicipitolabral 要更謹慎。\n5. **鑑別/處置**：與 sublabral foramen/recess 同屬前上方變異譜；**正常變異不需治療、勿修復（會限制 ROM）**。\n\n> [!note] 考點：Buford Complex 的組成為何？\n> **先天性前上方盂唇缺失 ＋ 索狀中盂肱韌帶**——正常解剖變異（非病理撕裂），惟與 SLAP 撕裂頻率增加相關；盛行率約 3%。",
+  "name": "Buford Complex (Normal Glenohumeral Variant)",
+  "nameZh": "巴福德複合體",
+  "slug": "buford-complex",
+  "subspecialty": "MSK"
+}

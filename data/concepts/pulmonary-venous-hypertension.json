@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**肺靜脈高壓四期是胸片上壓力爬升的時間軸：從血管重分布（Stage I）→ 間質水腫（II）→ 肺泡水腫（III）→ 慢性變化（IV），每期對應不同影像。** 判讀分水嶺一：**Stage I 特徵是「cephalization＋loss of hilar angle」**，此時尚無水腫；考題最愛考 Stage I 的「hilar angle 消失」。判讀分水嶺二：**Stage IV（慢性二尖瓣狹窄）＝含鐵血黃素沉積＋骨化結節**，是長期慢性肺靜脈高壓才有的終末表現。記憶鉤：「一重分布角消失，二間質 Kerley，三肺泡蝙蝠翼，四慢性鐵骨化」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.ejro.2020.100274（cephalization",
+      "url": "https://doi.org/10.1016/j.ejro.2020.100274（cephalization"
+    },
+    {
+      "label": "10.1177/0284185119857433（CXR",
+      "url": "https://doi.org/10.1177/0284185119857433（CXR"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Pulmonary Venous Hypertension Stages (Mitral Stenosis)",
+  "nameZh": "肺靜脈高壓分期",
+  "slug": "pulmonary-venous-hypertension",
+  "subspecialty": "CV"
+}

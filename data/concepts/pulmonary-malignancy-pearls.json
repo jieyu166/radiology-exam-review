@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**肺惡性腫瘤判讀要點：肺癌病人腎上腺腫塊多為良性、carcinoid 鈣化少、NHL 胸水源自淋巴阻塞、Hodgkin 沿支氣管血管束。** 判讀分水嶺：**肺癌病人 CT 偶見腎上腺腫塊約 2/3 為良性（腺瘤）;typical carcinoid 鈣化少（約 20-30%、central 40%）;NHL 胸水多因中央淋巴管阻塞;Hodgkin 肺侵犯多為沿支氣管血管束的 ill-defined 結節**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.261055057",
+      "url": "https://doi.org/10.1148/rg.261055057"
+    },
+    {
+      "label": "10.53347/rID-22431（輔助來源",
+      "url": "https://doi.org/10.53347/rID-22431（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **神經內分泌腫瘤譜（Chong）**：**源自支氣管黏膜 Kulchitzky cells——typical carcinoid < atypical carcinoid < LCNEC < SCLC**（mitosis/壞死漸增）；typical carcinoid 較不侵襲但與 atypical 影像相似。\n- **carcinoid CT（Chong，考點）**：**球/卵圓形界清微分葉之結節/腫塊；非球形時長軸與鄰接支氣管平行；鈣化/骨化見於達 30%**（故「多數顯鈣化」為錯）。\n- **SCLC 最具特異徵（Chong）**：**縱膈/肺門淋巴結腫大**為 SCLC 最特異影像；LCNEC 影像非特異似其他 NSCLC。\n- **肺癌病人腎上腺腫塊**：約 **2/3 為良性（腺瘤）**——不可逕判轉移，需 washout CT/化學位移 MR 或追蹤。\n- **淋巴瘤肺侵犯**：**NHL 胸水多因中央淋巴管阻塞；Hodgkin 肺侵犯多沿支氣管血管束 ill-defined 結節**。",
+  "keyPoints": [
+    "**肺癌病人的腎上腺腫塊**：約 **2/3 為良性**（腺瘤），不可逕判轉移。",
+    "**Typical carcinoid 鈣化**：**少見**（約 20-30%，central pattern 約 40%）——故「大多顯鈣化」錯誤;肺類癌多為**中央支氣管型（~75%、最常見）、typical 佔 ~90%**。",
+    "**NHL 胸水**：多因**中央淋巴管阻塞**。",
+    "**Hodgkin 肺侵犯**：多為**沿支氣管血管束的 ill-defined 結節**。"
+  ],
+  "management": "1. **carcinoid（Chong）**：**中央支氣管型最常（~75%）、typical ~90%（低度）**；typical 預後佳、atypical/LCNEC 較差、SCLC 最侵襲。\n2. **鈣化要點**：**carcinoid 鈣化/骨化達 30%（非多數）**——常考陷阱。\n3. **SCLC**：最侵襲之肺神經內分泌腫瘤、常大量縱膈/肺門淋巴結。\n4. **腎上腺腫塊**：肺癌病人偶見，2/3 良性腺瘤——需 characterization 勿逕判 M1。\n5. **判讀整合（Chong）**：整合臨床 + 影像有助區分各肺神經內分泌腫瘤。\n\n> [!note] 考點：關於肺惡性腫瘤,何者「不」正確?\n> 「**多數 typical carcinoid 在 CT 顯示鈣化**」不正確——carcinoid 鈣化**少見（約 20-30%）**。肺癌病人腎上腺腫塊 2/3 良性、NHL 胸水源自淋巴阻塞、Hodgkin 沿支氣管血管束皆正確。",
+  "name": "Pulmonary Malignancy Imaging Pearls",
+  "nameZh": "肺惡性腫瘤要點",
+  "slug": "pulmonary-malignancy-pearls",
+  "subspecialty": "CH"
+}

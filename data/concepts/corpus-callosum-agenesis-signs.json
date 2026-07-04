@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**胼胝體發育不全（ACC）的所有經典徵象都源自同一個解剖機轉：本應跨中線的白質束無法交叉，改沿中線縱走形成 Probst bundles，把兩側側腦室「平行」推開。冠狀切面的「麋鹿頭徵象」與軸切面的「賽車徵象」都在描述這個平行擴大變形；molar tooth sign 則屬 Joubert 症候群的中腦徵象，與 ACC 無關。** 判讀分水嶺：**看到「側腦室平行、額角上翹、第三腦室高位、枕角不成比例擴大（colpocephaly）」＝ ACC；別把 Joubert 的 molar tooth（上小腦腳拉長）算進來。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **矢狀切面（最佳確認面）**：**cingulate sulcus 消失**、半球間腦溝呈**放射狀直達第三腦室邊緣**（因缺乏胼胝體與扣帶迴翻轉）；正中矢狀可直接看胼胝體是否存在/部分缺如。\n- **軸切面**：側腦室平行（racing car）＋ colpocephaly（後角擴大）＋額角尖。\n- **冠狀切面**：**高位第三腦室 + 上翹側腦室（trident/moose head）**；Probst bundles 呈壓迫額角內側之縱向白質。\n- **Probst bundles**：緊密堆積之異位白質束，平行半球間裂——是 ACC 的病理標記，DTI 可見縱向纖維。\n- **完全 vs 部分**：完全 agenesis 上述徵象俱全；部分 dysgenesis（後段常缺）徵象較輕，症狀多取決於合併異常。\n- **必查合併異常**：interhemispheric cyst、Dandy-Walker、灰質異位、Chiari II、holoprosencephaly 等——ACC 常非孤立存在。",
+  "keyPoints": [
+    "**共同機轉（Probst bundles）**：孕期約 **8-12 週**的損傷使胼胝體無法形成，原本橫跨中線的白質束改**縱向平行走行**於半球間裂旁（**Probst bundles**），將兩側側腦室**大幅平行推開**——這是所有徵象的解剖基礎。",
+    "**Racing car sign（賽車徵象）**：軸切面上，側腦室額角/體部因 Probst bundles 而**平行外移**、加上高位擴張居中的第三腦室，整體形似賽車。",
+    "**Moose head sign（麋鹿頭徵象）**：冠狀切面上，**上翹分離之側腦室額角**似鹿角、**高位（high-riding）第三腦室**居中似頭部（亦稱 trident/Viking helmet 形態）。",
+    "**Colpocephaly（枕角擴大症）**：側腦室**枕角/三角區（posterior/occipital horn）不成比例擴大**，因缺乏壓部（splenium）與後方白質束正常發育；額角則呈**尖角（pointed）**。",
+    "**Molar tooth sign（磨牙齒徵象）**：**與 ACC 無關**——為軸切面中腦因**上小腦腳拉長**似臼齒之徵象，屬 **Joubert 症候群及相關疾病（JSRD）**，亦見於腎消耗症、肝纖維化等。"
+  ],
+  "management": "1. **表現多元**：孤立部分 dysgenesis 常無症狀；症狀多由**合併之解剖異常**決定（癲癇、發展遲緩）。\n2. **流行病學**：屍檢盛行率可低至約 **1:20,000**，但兒童神經影像轉診中可達 ~1%（選樣偏差，因多有症狀性合併異常）。\n3. **胚胎時序**：損傷約在孕 8-12 週，胼胝體由前往後發育，故部分缺如常缺後段（splenium）。\n4. **診斷面向**：正中矢狀 + 冠狀 MRI 最能確認並評估合併畸形。\n5. **鑑別觀念**：ACC 的徵象群與 Joubert 的 molar tooth sign 分屬不同疾病，考題常混用作陷阱。\n\n> [!note] 考點：何者與胼胝體發育不全影像表現無關？\n> **Molar tooth sign（D）**與 ACC 無關——此徵象屬 **Joubert 症候群及相關疾病**之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly（皆源自 Probst bundles 造成之側腦室平行擴大）為 ACC 之典型表現。",
+  "name": "Agenesis of Corpus Callosum — Imaging Signs",
+  "nameZh": "胼胝體發育不全",
+  "slug": "corpus-callosum-agenesis-signs",
+  "subspecialty": "NR"
+}

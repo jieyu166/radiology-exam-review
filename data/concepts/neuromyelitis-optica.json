@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**NMOSD（抗 AQP4 水通道抗體之 astrocytopathy）主打視神經炎＋長節段脊髓炎（LETM ≥3 椎節）,但腦病灶絕非罕見（亞洲 60–80%）,分布跟著 AQP-4 高表現區走（室周、periaqueductal grey、下視丘/視丘、dorsal pons/medulla、胼胝體）;診斷靠 2015 IPND 準則、依 AQP4 抗體分層。** 判讀分水嶺一：**脊髓 LETM ≥3 椎節（vs MS 多 <1–2 節、偏一側）;視神經炎偏後段、可跨 chiasm**;判讀分水嶺二：**「NMO 無腦白質病灶」為錯誤敘述（亞洲 60–80% 有）;MS 偏 supratentorial 白質斑、Dawson finger、open-ring 強化,NMO 病灶鏡像 AQP-4**。記憶鉤：NMO 跟著「水通道」走。",
+  "differentialDiagnosis": [
+    "**機轉**：MS＝cell-mediated（microglia）;NMO＝抗體（AQP4）介導之 **astrocytopathy**（影響 BBB 星狀細胞）。",
+    "**脊髓炎**：MS **<1–2 節、偏一側**;NMO **LETM ≥3 節、中央灰質**、發作後可萎縮。",
+    "**視神經炎**：MS 多單側、預後較好;NMO 嚴重、可雙側、偏後段/跨 chiasm。",
+    "**CSF OCB**：MS **~85%(+)**;NMO **<30%(+)**。",
+    "**流病**：MS 白人/~30 歲;NMO 亞洲較多/~40 歲、女性遠多於男性。",
+    "**⚠ 治療**：MS 用的免疫調節藥（如干擾素）**可能惡化 NMO** → 這是兩者鑑別的臨床關鍵。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1212/WNL.0000000000001729（PMC4515040",
+      "url": "https://doi.org/10.1212/WNL.0000000000001729（PMC4515040"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Neuromyelitis Optica (NMOSD) & MS vs NMO",
+  "nameZh": "視神經脊髓炎",
+  "slug": "neuromyelitis-optica",
+  "subspecialty": "NR"
+}

@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**CT上判斷高風險（high risk）急性肺栓塞最準確的徵象是右心室/左心室比值（RV/LV ratio）大於1.0，反映右心室壓力負荷與功能障礙；此為預測早期死亡率最可靠之CT徵象，優於單純肺動脈徑擴大或右室游離壁增厚等其他表現。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最準確之高風險指標**：**RV/LV ratio > 1.0**（CT軸位量測右心室與左心室最大橫徑之比值），反映右心室功能障礙，為預測不良預後（早期死亡率）最準確之CT徵象。",
+    "**其他徵象較不特異**：主肺動脈徑 >3.0 cm、右室游離壁增厚（>4 mm，正常應 <5 mm）、下腔靜脈對比劑逆流等徵象雖與右心負荷相關，但預測準確度不及 RV/LV ratio。"
+  ],
+  "management": "",
+  "name": "Acute Pulmonary Embolism — CT Severity Signs",
+  "nameZh": "急性肺栓塞CT嚴重度徵象",
+  "slug": "acute-pe-ct-severity",
+  "subspecialty": "CH"
+}

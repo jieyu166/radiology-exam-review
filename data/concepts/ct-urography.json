@@ -1,0 +1,63 @@
+{
+  "checked": false,
+  "definition": "**CTU 比「CECT 加一個排泄延遲期」多的那一件事，就是最前面的未顯影期（KUB）。** 三期順序：未顯影（查結石）→ nephrogram（腎實質）→ excretory（集尿系統）；「能不能看輸尿管」兩者都可以，不是鑑別點。記憶鉤：**「KUB 先到才是 CTU」**——少了這一期，就只是「CECT 加延遲」。",
+  "differentialDiagnosis": [
+    "**腔內充盈缺損 DDx**（對照未顯影期是分水嶺）：",
+    "**結石**：未顯影期高衰減;但 UTUC 本身會鈣化，任何尿路鈣化都要先排除其旁是否有腫塊或 focal 壁增厚再判為單純結石。",
+    "**血塊**：稍高密度、**不強化**、可隨體位/不同時相移動。",
+    "**黴菌球（fungus ball）／脫落乳突（sloughed papilla，papillary necrosis）**：可模擬腫瘤;papillary necrosis 有 teardrop/ball-on-tee、末期「signet ring」徵象。",
+    "**fibroepithelial polyp**：長條、平滑、有蒂之良性病灶，常被對比劑完整包繞（除蒂部）;有時隨不同擷取而位置移動，但不一定能與惡性區分。",
+    "**壁增厚 DDx**：發炎（pyeloureteritis、結核）多為對稱環狀增厚、平滑緣、追蹤可消退;**suburothelial 出血**呈瀰漫腎盂壁增厚＋管腔變窄，靠未顯影期壁高密度與 UTUC 區分;pyeloureteritis cystica 為多發毫米級充盈缺損，較均質、數目相對少於多發 UTUC。",
+    "**假性缺損／技術陷阱**：",
+    "**充盈不全／輸尿管蠕動**：未充盈段或塌陷段可造成假性壁增厚或假性缺損;同段需在不同影像／時相重複確認後再判讀。",
+    "**彎曲輸尿管的部分容積**：tortuous 輸尿管斜切可產生假性充盈缺損。",
+    "**外壓**：血管（如 retrocaval ureter、髂血管）、淋巴結、後腹腔病灶造成外在壓迫須與內生病灶區分。",
+    "**輔助充盈手法**：低劑量利尿劑（furosemide）、水化、俯臥、咳嗽可改善集尿系統與輸尿管全程均勻充盈，降低偽病灶。",
+    "**輻射劑量考量**：多期掃描劑量高;以 split-bolus 合併期數、dual-energy 產生 virtual nonenhanced 取代真實未顯影期，皆為降劑量策略（後者對小結石敏感度與衰減值準確度較差）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.2015140209",
+      "url": "https://doi.org/10.1148/rg.2015140209"
+    },
+    {
+      "label": "https://doi.org/10.3390/medicina56120705",
+      "url": "https://doi.org/10.3390/medicina56120705"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7766367/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7766367/"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.14.14075",
+      "url": "https://doi.org/10.2214/AJR.14.14075"
+    },
+    {
+      "label": "https://doi.org/10.2214/AJR.09.4147",
+      "url": "https://doi.org/10.2214/AJR.09.4147"
+    },
+    {
+      "label": "https://appliedradiology.com/articles/pitfalls-in-mdct-urography",
+      "url": "https://appliedradiology.com/articles/pitfalls-in-mdct-urography"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**CTU 協定（典型 3 期）**：",
+    "**未顯影 KUB**：評估腎結石。",
+    "**Nephrogram（腎實質）期**：約注射後 100 秒;可給 IV furosemide 改善排泄期。",
+    "**Excretory（排泄）期**：評估集尿系統/輸尿管（furosemide 後約 10 分鐘;可俯臥/咳嗽幫助充盈）。",
+    "變化型：split-bolus（合併期數降劑量）。",
+    "**與『CECT＋排泄延遲期』的差別**：**CTU 含專屬未顯影期**;後者一般無未顯影期。兩者皆可評估輸尿管 → 差別不在輸尿管評估。",
+    "**三種掃描技術**（無單一公認協定）：",
+    "**Triple-phase（傳統單能）**：未顯影 → 單次 bolus → nephrographic（bolus 後 100 秒）→ excretory（bolus 後 5–15 分）。",
+    "**Dual-phase split-bolus**：未顯影 → 打第一 bolus → 延遲 5–15 分後打第二 bolus → 合併 nephrographic＋excretory 單次擷取（第二 bolus 後 100 秒），減一期降劑量。",
+    "**Single-phase dual-energy**：單次 bolus + 單一 excretory 期（常 80/140 kVp）→ 後處理產生 virtual nonenhanced 影像;但對小結石敏感度較低、virtual nonenhanced 衰減值不準，尚未廣泛採用。",
+    "**影像判讀要點**：excretory 期 axial source images 是橫斷評估輸尿管的最佳影像;務必用**寬窗**（如 width 1200/level 350 起手，再手動微調）避免小病灶被高密度排泄對比劑遮蔽。"
+  ],
+  "management": "",
+  "name": "CT Urography (CTU)",
+  "nameZh": "電腦斷層尿路攝影",
+  "slug": "ct-urography",
+  "subspecialty": "ABD"
+}

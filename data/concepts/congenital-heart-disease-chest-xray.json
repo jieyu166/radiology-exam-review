@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**先天性心臟病胸部 X 光判讀採系統性五步驟——肺血管紋路、主動脈弓、肺動脈、心臟大小/型態、骨骼。發紺型（cyanotic，R→L shunt）以「肺血管紋路增加 vs 減少」二分；『5 Ts』（TOF、Tricuspid 異常、TGA、Truncus arteriosus、TAPVR）為最常見發紺型。經典心影：boot-shaped（TOF）、egg-on-string（TGA）、box-shaped/wall-to-wall（Ebstein）、snowman（supracardiac TAPVR）。** 判讀分水嶺：**發紺＋肺血管「減少」→ 看心臟大小：正常＝TOF；心臟擴大＝Ebstein、PA/IVS。發紺型中真正以肺血流減少為特徵者僅 classic TOF 與 PA/IVS（有 PS/PA）；其餘（TGA/tricuspid atresia）只有在合併 PS/PA 時才減少、否則正常/增加。主動脈弓增大＝PDA/truncus/嚴重 TOF/主動脈瓣逆流/高血壓；縮小＝ASD/VSD/HLHS。記憶鉤：五步驟＋5 Ts＋四大心影徵象。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**判讀五步驟**：①肺血管紋路（增加=L→R shunt／減少=R→L shunt／正常）②主動脈弓大小 ③肺動脈大小 ④心臟大小/型態 ⑤骨骼（脊椎/肋骨/胸骨）。",
+    "**發紺型（cyanotic）5 Ts**：**TOF、Tricuspid 異常（tricuspid atresia/Ebstein）、TGA、Truncus arteriosus、TAPVR**；分「肺血管減少 vs 正常/增加」二型。",
+    "**主動脈弓增大**：post-stenotic dilatation（AS）、血流增加（PDA、truncus、valvular insufficiency、嚴重 TOF）、全身高血壓。",
+    "**主動脈弓縮小**：血流減少（ASD、VSD）、HLHS。",
+    "**肺動脈正常之 CHD**：aortic stenosis、coarctation（左心系統，不影響肺動脈結構）。"
+  ],
+  "management": "1. **系統判讀**：肺血管紋路→主動脈弓→肺動脈→心臟大小/型態→骨骼五步驟。\n2. **發紺 5 Ts**：TOF/Tricuspid/TGA/Truncus/TAPVR；以肺血管增減二分。\n3. **減少型流程**：發紺＋肺血管減少→心臟正常=TOF、心臟大=Ebstein/PA-IVS。\n4. **四大心影**：boot-shaped（TOF）、egg-on-string（TGA）、box-shaped（Ebstein）、snowman（supracardiac TAPVR）。\n5. **確診**：CXR 分類、echocardiography 為診斷主力。\n\n> [!note] 判讀要點：發紺型 CHD 依肺血管與心影快速定位\n> **肺血管減少＋正常心臟＝TOF（boot-shaped）；肺血管減少＋巨大心臟＝Ebstein（box-shaped）/PA-IVS；egg-on-string＝TGA。** 主動脈弓增大見於 PDA/truncus/嚴重 TOF/瓣膜逆流/高血壓。",
+  "name": "Congenital Heart Disease Chest X-ray Approach",
+  "nameZh": "先天性心臟病胸部X光判讀",
+  "slug": "congenital-heart-disease-chest-xray",
+  "subspecialty": "CV"
+}

@@ -1,0 +1,50 @@
+{
+  "checked": false,
+  "definition": "**空蝶鞍是 CSF 從「鞍膈（diaphragma sellae）」的破洞鑽進蝶鞍，壓扁垂體；不是鞍背（dorsum sellae）壞掉。** MRI 上鞍內訊號跟 CSF 一樣、蝶鞍骨性輪廓可擴大重塑，但垂體殘留組織仍能正常強化，多為偶發、無臨床意義。記憶鉤：**「鞍膈是蝶鞍的『天花板』，天花板破洞，CSF 漏進來把垂體壓扁」**；考題陷阱在「dorsum sellae 缺損」——那是鞍背，不是天花板。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532084/",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK532084/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9620841/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9620841/"
+    },
+    {
+      "label": "10.2214/AJR.12.9013（accessed",
+      "url": "https://doi.org/10.2214/AJR.12.9013（accessed"
+    },
+    {
+      "label": "10.1016/j.eprac.2024.02.012（accessed",
+      "url": "https://doi.org/10.1016/j.eprac.2024.02.012（accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**機轉**：CSF 經**缺損/不全的 diaphragma sellae（鞍膈）**疝入蝶鞍（見於約 20% 人口）;故「因 **dorsum sellae（鞍背）**缺損所致」**錯誤**＝題目正解（2016-172 正解 D）。",
+    "**MRI 訊號同 CSF**：垂體被壓扁、CSF 填充鞍內(option C 對)。",
+    "**骨性蝶鞍可擴大/重塑**(option A 對)。",
+    "**垂體仍可正常強化**：被壓的垂體組織仍正常強化(option B 對)。",
+    "多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。",
+    "**定義與機轉**：蛛網膜下腔經缺損/不全的 **diaphragma sellae（鞍膈）**疝入蝶鞍，CSF 搏動把垂體壓扁、貼向鞍底（sellar floor），鞍內充滿與蛛網膜下腔相通的 CSF 訊號。",
+    "**分級（量化）**：partial（<50% 鞍內為 CSF）vs complete（>50% 為 CSF、殘餘垂體厚度 <2 mm）;閱片務必量「垂體垂直高度」與 CSF 占比。",
+    "**Infundibulum sign（漏斗居中徵象）—最關鍵的判讀點**：真正空蝶鞍的**漏斗（pituitary stalk）保持居中（midline）**、垂直穿越 CSF 下達鞍底而**不偏移**;反之鞍內囊性腫瘤會把漏斗推開（偏移），這是區別 empty sella 與 cystic sellar mass 的核心。",
+    "**與囊性病灶的區別**：空蝶鞍的鞍內 CSF **與上方蛛網膜下腔相連、無上緣界線**;cystic 病灶（arachnoid cyst、Rathke cleft cyst、cystic adenoma）則**有上緣囊壁、與蛛網膜下腔不相通**，且訊號可不等於 CSF（如 Rathke cleft cyst/黏液內容物在 T1 可呈高訊號、T2 不一定同 CSF）。",
+    "**強化型態**：增強後殘餘垂體與漏斗**正常強化**（PES）;SES 則因疤痕/結構扭曲而強化異常，亦可藉此分原發/續發。",
+    "**Primary empty sella（PES）**：鞍膈缺損＋CSF 搏動，無既往垂體病史;好發**肥胖中年女性**（女:男約 5:1，常合併多產、睡眠呼吸中止、高血壓），與 **idiopathic intracranial hypertension（IIH／pseudotumor cerebri）**強相關（IIH 病人空蝶鞍盛行率約 70–94%）。",
+    "**Secondary empty sella（SES）**：垂體本身萎縮/破壞後 CSF 填補空間——**術後、放療後、Sheehan syndrome（產後垂體壞死）、pituitary apoplexy、hypophysitis、外傷、腫瘤治療後退縮**。",
+    "**視神經鞘擴張（optic nerve sheath distension）**：球後 5 mm 處鞘內 CSF 寬度上限約 5 mm。",
+    "**後鞏膜扁平（posterior globe/scleral flattening）**：孤立出現時為 IIH **最具特異性**的徵象。",
+    "**視神經迂曲（optic nerve tortuosity）**、**橫竇狹窄（transverse sinus stenosis，雙側或優勢竇）**、**Meckel cave 擴張/空 Meckel cave（ectasia）**、腦室偏小。多數 IIH 影像徵象**高特異性、低敏感性**。",
+    "**Intrasellar arachnoid cyst（arachnoidocele）**：囊壁界線、漏斗受推移、與蛛網膜下腔可不相連——與空蝶鞍最易混淆。",
+    "**Rathke cleft cyst**：常為界線清楚囊性，訊號多變（T1 可高訊號），可推移漏斗。",
+    "**Cystic pituitary adenoma／craniopharyngioma**：常含實質成分;craniopharyngioma 常見鈣化，藉此與單純 CSF 充填區別。",
+    "**判讀口訣**：漏斗居中＋與蛛網膜下腔相通＋訊號全程同 CSF＋無上緣囊壁＝空蝶鞍;任一條件不符就要想 cystic mass。"
+  ],
+  "management": "",
+  "name": "Empty Sella",
+  "nameZh": "空蝶鞍",
+  "slug": "empty-sella",
+  "subspecialty": "NR"
+}

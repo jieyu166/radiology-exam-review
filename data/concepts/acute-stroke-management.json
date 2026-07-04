@@ -1,0 +1,45 @@
+{
+  "checked": false,
+  "definition": "**2015 AHA/ASA 兩個「不可以」：不可跳過 tPA，不可等 tPA 反應再取栓。** tPA 與血管內治療並行、互不阻擋；NECT 多數即可決策，CTA/MRA 若考慮取栓則強烈建議但不得延遲 tPA。考試陷阱：2015 指引對 perfusion 選病人效益「未確立（Class IIb）」，但 2018/2019 起延長窗（6–24h）已翻轉為 Class I——作答前先確認題目問的是哪版指引。",
+  "differentialDiagnosis": [
+    "敘述",
+    "符合條件者照給 tPA，即使考慮取栓",
+    "為搶時間跳過 tPA",
+    "不必等 tPA 反應即可取栓",
+    "Thrombectomy 優於 IA fibrinolysis",
+    "目標 mTICI 2b/3、6 小時內",
+    "NECT 多數可決策",
+    "CTA/MRA 若考慮取栓強烈建議、勿延遲 tPA",
+    "perfusion 已「證實」優於 CTA/MRA 選病人"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1161/STR.0000000000000074",
+      "url": "https://doi.org/10.1161/STR.0000000000000074"
+    },
+    {
+      "label": "https://doi.org/10.1161/STR.0000000000000211",
+      "url": "https://doi.org/10.1161/STR.0000000000000211"
+    },
+    {
+      "label": "https://doi.org/10.6705/j.jacme.202103_11(1",
+      "url": "https://doi.org/10.6705/j.jacme.202103_11(1"
+    },
+    {
+      "label": "http://www.stroke.org.tw/guideline/",
+      "url": "http://www.stroke.org.tw/guideline/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**符合條件者應給 IV r-tPA，即使同時考慮血管內治療**（Class I, LOE A）→ **不可為避免延遲而跳過 tPA**。",
+    "**不需先觀察 tPA 反應**再進行血管內治療（觀察反應「非必要、不建議」，Class III, LOE B-R）。",
+    "**Stent retriever 取栓優先於 intra-arterial fibrinolysis**（IA fibrinolysis 屬次線）。",
+    "**技術目標：reperfusion 達 mTICI 2b/3**（Class I, LOE A），且應**儘早、發病 6 小時內**（6 小時後臨床效益顯著下降）。"
+  ],
+  "management": "",
+  "name": "Acute Ischemic Stroke — 2015 AHA/ASA Endovascular Update",
+  "nameZh": "急性缺血中風血管內治療",
+  "slug": "acute-stroke-management",
+  "subspecialty": "NR"
+}

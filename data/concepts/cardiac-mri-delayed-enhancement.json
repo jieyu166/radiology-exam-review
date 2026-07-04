@@ -1,0 +1,21 @@
+{
+  "checked": false,
+  "definition": "**心臟 MRI 延遲強化（LGE）模式是鑑別心肌病變的關鍵：subendocardial/transmural = ischemic（梗塞）；mid-wall/subepicardial = non-ischemic（myocarditis, sarcoid）；global subendocardial with abnormal kinetics = amyloidosis。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Ischemic pattern**（梗塞）：**subendocardial → transmural**，對應冠狀動脈分布。",
+    "**Myocarditis**：**subepicardial（最常見）或 patchy**，常見 mid-wall。",
+    "**Cardiac amyloidosis**：**global/diffuse subendocardial** LGE + 異常 gadolinium kinetics（心肌 T1 與血池相近，null point 難以設定）。",
+    "**HCM**：mid-wall LGE at hypertrophied segments。",
+    "**Sarcoidosis**：patchy, subepicardial, or transmural。",
+    "**Dilated cardiomyopathy**：mid-wall（mesocardial）。",
+    "**Gadolinium dose for LGE viability**：**0.1-0.2 mmol/kg**（perfusion 為 0.05-0.1 mmol/kg）。等待至少 10 分鐘後擷取影像。"
+  ],
+  "management": "",
+  "name": "Cardiac MRI — Delayed Enhancement Patterns",
+  "nameZh": "心臟MRI延遲強化",
+  "slug": "cardiac-mri-delayed-enhancement",
+  "subspecialty": "CV"
+}

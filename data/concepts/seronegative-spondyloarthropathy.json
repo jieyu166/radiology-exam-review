@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**血清陰性脊椎關節病變（現稱 axial spondyloarthritis）＝類風濕因子陰性之發炎性關節炎＋附著點病變（enthesopathy），侵犯脊椎與薦髂關節；共同特徵是 HLA-B27 相關與「薦髂關節（SIJ）常受侵犯」（絕非罕見）。** 判讀分水嶺：**syndesmophyte 型態＋SIJ 對稱性分型——僵直性脊椎炎（AS）＝薄、邊緣性、對稱性（bamboo spine），乾癬性/反應性關節炎＝粗、非邊緣性、不對稱性；SIJ 若完全正常則「無法」下血清陰性脊椎關節病變之影像診斷。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **SIJ 影像**：**侵蝕先見於關節下 1/3、髂側先受累**，最早徵象為**軟骨下骨板界線模糊**，侵蝕呈小而多之「鋸齒牛排刀（serrated steak knife）」樣、進展為關節間隙變寬、**融合為晚期現象**；**PA/Ferguson view 優於 AP**。\n- **SIJ 對稱性分型**：**雙側對稱＝AS 與發炎性腸病關節炎**；**雙側不對稱＝反應性與乾癬性關節炎**；**單側→想感染性 sacroiliitis**。\n- **syndesmophyte vs osteophyte**：syndesmophyte **起自椎體中段、垂直細長**（osteophyte 起自終板、水平）；椎體角侵蝕→**squaring→shiny corner sign（Romanus lesion）**；粗大椎旁韌帶骨化更常見於乾癬性/反應性。\n- **MR/CT 角色**：**MR 為早期 sacroiliitis 診斷首選**（角落/SIJ 骨髓水腫、STIR/T2 高訊號、active 期強化、Andersson lesion）；**CT 對早期 SIJ 侵蝕與骨折最敏感**（含 costotransverse/costovertebral 關節）。\n- **骨折高風險**：多節僵直（bamboo spine）者輕微外傷即可致**貫穿 syndesmophyte/椎體之不穩定三柱骨折**，好發**頸胸/胸腰交界**，因骨質疏鬆與變形而難判讀——高度警覺。\n- **DDx**：**DISH**（流動狀椎旁骨化但**SIJ 正常**）、retinoid therapy（同 DISH、SIJ 正常）、RA（少侵 SIJ、主要頸椎、不強直）、感染性 sacroiliitis（單側）。",
+  "keyPoints": [
+    "**家族與 HLA-B27**：含 **AS、反應性（reactive，舊稱 Reiter）、乾癬性、發炎性腸病相關（enteropathic）、未分化（uSpA）**；皆 RF(-)，**強烈與 HLA-B27 相關（AS 95%、Reiter 80%、乾癬性 50% 陽性）**；正常人口 6–8% 帶 HLA-B27，其中僅 1–2% 發病。",
+    "**syndesmophyte 型態（核心鑑別）**：AS 典型呈**薄、邊緣性（marginal）、對稱性**（多節形成 bamboo spine）；**乾癬性與反應性關節炎呈粗、非邊緣性（nonmarginal）、不對稱性**（起自椎體中段，故非邊緣）。",
+    "**薦髂關節侵犯常見（考點）**：**SIJ 是最先、最常受侵犯處**——「SIJ 侵犯不常見」為錯誤；SIJ 對稱 vs 不對稱可再分型。"
+  ],
+  "management": "1. **薦髂關節炎為最初表現**，臨床以**晨間最重之下背痛**、疲勞、低度發燒起病；好發早至中成年、**男多於女**、盛行率約 0.1–1%。\n2. **周邊關節分布有別**：AS/反應性偏好下肢（髖、膝、足底腱膜），**乾癬性偏好手部**；反應性關節炎常隨性病或痢疾感染後發生。\n3. **關節外表現**：所有型皆可有**葡萄膜炎/虹膜炎/結膜炎**；AS 另有 IBD、主動脈炎、**上肺葉纖維化**；反應性有尿道炎/龜頭炎/足跟痛。\n4. **僵直脊椎骨折是急重症**——常因輕傷、不穩定、老年病人高併發率，可續發不穩定/假關節（Andersson lesion）甚至神經損害。\n5. 治療以 **TNF-α 抑制劑（起效快、有效）** 與 NSAIDs 為主；多數病程輕微且局限於 SIJ，部分數年內進展為廣泛脊椎強直。\n\n> [!note] 考點：關於血清陰性脊椎關節病變何者錯誤？\n> **薦髂關節侵犯不常見（D）為錯誤**——SIJ 是**最先、最常**受侵犯處。皆與 HLA-B27 相關、AS 呈邊緣性對稱性 syndesmophytes、乾癬性與反應性關節炎呈非邊緣性不對稱性 syndesmophytes，皆為正確敘述。",
+  "name": "Seronegative Spondyloarthropathies",
+  "nameZh": "血清陰性脊椎關節病變",
+  "slug": "seronegative-spondyloarthropathy",
+  "subspecialty": "MSK"
+}

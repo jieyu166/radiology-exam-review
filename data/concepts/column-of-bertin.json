@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**柏氏柱肥大是「腎皮質夾在兩個腎錐體之間、突入腎竇」的正常變異，本質上就是一塊多出來的正常皮質，不是腫瘤。** 超音波三個「和皮質一樣」的特徵可確認：回音相同、紋理相同、和皮質連續；關鍵排除點是腎外緣輪廓保持完整——沒有外凸或凹陷，腎表面凹陷反而不是其特徵。記憶鉤：「形狀跟皮質同、輪廓正常無凸出」→放心是正常變異，不必追蹤。",
+  "differentialDiagnosis": [
+    "**Dromedary hump（駝峰）**：左腎上外側緣的**局部凸起**，因脾臟壓跡（splenic impression）所致;回音、血流與腎實質相同，US 即可診斷。",
+    "**Persistent fetal lobulation（持續性胎兒分葉）**：腎外緣呈**錐體之間的凹陷／分葉**（凹陷位於錐體間，而非對著錐體的真疤痕）。",
+    "**Junctional parenchymal defect（接合部實質缺損）**：胚胎腎節段融合不全所致，呈**三角形、高回音**的缺損，位於**前上（anterosuperior）**部、右側較多;易誤為皮質疤痕，無臨床意義。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1155/2017/1854027（PMC5470004",
+      "url": "https://doi.org/10.1155/2017/1854027（PMC5470004"
+    },
+    {
+      "label": "10.1186/s12882-023-03113-5",
+      "url": "https://doi.org/10.1186/s12882-023-03113-5"
+    },
+    {
+      "label": "10.1007/s00247-025-06320-4",
+      "url": "https://doi.org/10.1007/s00247-025-06320-4"
+    }
+  ],
+  "imagingFindings": "- **超音波（US）**：與正常腎皮質**等回音、回音紋理相同、與皮質連續（continuity）**;腎外緣輪廓平滑、無後方聲影增強(lack of posterior acoustic enhancement)。彩色都卜勒可見**與腎實質一致的動靜脈血流型態**（非腫瘤的異常雜亂血管）。\n- **CT／MRI**：各期皆與正常腎實質**同步**——平掃 CT 等密度（isodense）、MRI 等訊號（isointense）;打顯影後在**所有對比期相（皮髓質期、腎實質期、排泄期）皆與周邊腎實質呈相同強化**。此「全期同步強化」即與實質腫瘤（強化型態相異）鑑別的判讀分水嶺。MRI 對比 CT 更敏感。\n- **體積與輪廓**：通常**體積小**、無外突的輪廓變形（contour deformity），腎外緣（outline）維持正常——此為與真腫瘤外推輪廓的關鍵差異。\n- **IVU**：可推移／變形腎盞、模擬腫塊，但腎輪廓正常。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Hypertrophied Column of Bertin",
+  "nameZh": "柏氏柱肥大",
+  "slug": "column-of-bertin",
+  "subspecialty": "ABD"
+}

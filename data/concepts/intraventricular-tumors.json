@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 成人最常見於側腦室 atrium（~50%），非第三腦室——位置是考點。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.331125192",
+      "url": "https://doi.org/10.1148/rg.331125192"
+    },
+    {
+      "label": "10.1148/rg.331125192：腔室內腫瘤依來源分類(室管膜→ependymoma、室管膜下→subependymoma、脈絡叢→choroid",
+      "url": "https://doi.org/10.1148/rg.331125192：腔室內腫瘤依來源分類(室管膜→ependymoma、室管膜下→subependymoma、脈絡叢→choroid"
+    }
+  ],
+  "imagingFindings": "判讀腦室內腫塊的第一步永遠是「**它在哪個腔室**＋**病人幾歲**」，這兩個座標就能把鑑別清單砍掉大半;再用強化、鈣化、出血、限制擴散當第二層篩選。",
+  "keyPoints": [
+    "**Subependymoma**：經典為**中年男性偶發、無症狀**的腦室內腫瘤;佔顱內腫瘤 **0.2–0.7%**（因常無症狀偶發而低估）;好發**第四腦室（50–60%）＞側腦室（30–40%）**;多 <2 cm（症狀性者常 ≥4 cm）;**男性居多（2.3:1）、82% 見於 >15 歲**、60% 無症狀（有症狀者多為水腦）。",
+    "**Ependymoma**：任何年齡,但**較常見於年輕族群**（非老年）。",
+    "**Central neurocytoma**：**約 50% 含鈣化（punctate）、可出血**（非「從不」）;側腦室、年輕成人。",
+    "**Choroid plexus tumor**：成人最常見於**側腦室房部(atrium)（~50%）**,40% 第四腦室、10% 第三腦室。"
+  ],
+  "management": "",
+  "name": "Intraventricular Tumors",
+  "nameZh": "腦室內腫瘤",
+  "slug": "intraventricular-tumors",
+  "subspecialty": "NR"
+}

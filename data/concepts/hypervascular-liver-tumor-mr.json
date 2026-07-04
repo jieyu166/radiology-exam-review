@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**高血管肝腫瘤的鑑別靠「延遲期行為」：血管瘤滯留（fill-in → 持續亮），轉移 washout（由亮轉暗）。** 判讀分水嶺一：**血管瘤＝延遲期對比滯留、持續高訊號；hypervascular metastasis＝washout**；判讀分水嶺二：**血管瘤 T2 較轉移更高（非更低）**；regenerative/dysplastic nodule 不呈 washout——washout 是 HCC 的標誌，非良性結節。判讀第一步：**先分「正常肝」還是「慢性肝病」**，兩組鑑別診斷不同。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.292085123",
+      "url": "https://doi.org/10.1148/rg.292085123"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "MR Imaging of Hypervascular Liver Masses",
+  "nameZh": "高血管性肝腫瘤MRI",
+  "slug": "hypervascular-liver-tumor-mr",
+  "subspecialty": "ABD"
+}

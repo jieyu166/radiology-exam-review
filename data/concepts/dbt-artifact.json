@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**DBT 四大偽影中，motion artifact 因固有的 out-of-plane blurring 具「遮蔽效應（masking effect）」而最不易被察覺；blurring-ripple、truncation、loss of skin and superficial tissue resolution 則相對可辨識。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.2019180046"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.clinimag.2018.07.013"
+    }
+  ],
+  "imagingFindings": "- 認識偽影來源可避免把 blurring-ripple 誤判為病灶、或把 truncation 邊緣誤讀為異常，藉此**降低召回率與偽陽性**。\n- Motion artifact 因被 out-of-plane blurring 遮蔽而不易察覺，判讀時對可疑動作模糊的個案應留意品質，必要時重照。\n- 定期品管（QC）與 ALARA 劑量管理為維持 DBT 影像品質之基礎。\n\n> [!note] 考點：DBT 的下列偽影中，哪一項因 out-of-plane blurring 的遮蔽效應而「很少被察覺」？\n> **Motion artifacts**。RadioGraphics 明載「Motion artifacts are difficult to recognize because of inherent out-of-plane blurring」；其餘 blurring-ripple、truncation、loss of skin and superficial tissue resolution 相對可辨識。",
+  "keyPoints": [
+    "**Blurring-ripple artifact**：高對比物體（如金屬、緻密鈣化）沿 z 軸方向於相鄰重建切面殘留漣漪狀影，源自有限角度取樣與重建。",
+    "**Truncation artifact**：因有限掃描角度／偵測器邊界，視野邊緣組織資訊被截斷。",
+    "**Loss of skin and superficial tissue resolution**：淺層（皮膚/皮下）組織在斷層重建中解析度下降。",
+    "**Motion artifact**：因 DBT 固有的 out-of-plane blurring 之遮蔽效應，動作模糊**難以辨識（rarely appreciated）**——即考點所在。"
+  ],
+  "management": "",
+  "name": "Digital Breast Tomosynthesis (DBT) Artifacts",
+  "nameZh": "DBT 偽影",
+  "slug": "dbt-artifact",
+  "subspecialty": "Breast"
+}

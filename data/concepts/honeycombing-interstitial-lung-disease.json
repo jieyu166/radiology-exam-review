@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**蜂窩狀（honeycombing）代表「成熟、末期、不可逆的肺纖維化」——影像上是成叢、共享清楚囊壁的小囊（3-10 mm），典型分布於胸膜下與下肺。它是慢性間質性肺病（末期纖維化）的定義性表現，最常見病因為 UIP（usual interstitial pneumonia）。** 判讀分水嶺：**「胸膜下 + 下肺為主（apicobasilar gradient）」的蜂窩＝UIP pattern，可不需切片診斷；牽引性支氣管擴張（尤其 scleroderma+NSIP）可在軸位模擬蜂窩，需分辨。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "- **真蜂窩 vs 模擬**：真 honeycombing 為**共享壁之成叢囊**；**牽引性支氣管擴張**（尤 scleroderma+NSIP，擴張程度與肺侵犯不成比例）可在軸位模擬蜂窩——追蹤連續切面辨管狀 vs 囊狀。\n- **UIP pattern 要件**：胸膜下、基底為主之網狀 + 蜂窩，±牽引性支氣管擴張，無不符 UIP 之特徵 → 可臨床診斷 IPF（配合去除已知病因）。\n- **分布辨因**：下肺胸膜下 → UIP/IPF、asbestosis、CTD；上肺為主的纖維化 → 慢性過敏性肺炎、sarcoidosis、塵肺（矽/CWP）。\n- **淋巴管癌病（對照）**：X 光可正常或呈 **reticulonodular + interlobular septa 增厚（似 Kerley B）**，但**肺結構仍維持**，與蜂窩之破壞性纖維化不同。\n- **CWP（對照）**：與矽肺/石綿肺等同屬纖維化塵肺、**好發上肺**，複雜型可見 progressive massive fibrosis 大陰影。",
+  "keyPoints": [
+    "**意義**：honeycombing ＝ **成熟、末期、不可逆之肺纖維化**，是慢性間質性肺病之終末表現；確切病因需結合分布、病史判斷。",
+    "**定義型態**：**成叢、共享清楚囊壁之囊狀空腔**，直徑平均 **3-10 mm**（可達 2.5 cm），常成層堆疊於**胸膜下**。",
+    "**分布與 UIP**：典型**胸膜下 + 下肺為主（apicobasilar gradient）**；**UIP 為 honeycombing 最常見病因**，下肺胸膜下蜂窩即可**診斷 UIP、不需切片**。",
+    "**其他病因**：IPF/家族性肺纖維化、asbestosis（塵肺）、慢性過敏性肺炎、藥物毒性、末期 NSIP、scleroderma/結締組織病、sarcoidosis。",
+    "**鑑別（考題選項）**：塵肺症/肺結核 **favor upper lung**、非以 honeycombing 為典型；肺癌以 **mass/nodule** 為主，皆非 honeycombing 之典型關聯。"
+  ],
+  "management": "1. **不可逆訊號**：honeycombing 代表已成熟纖維化，治療目標轉為延緩進展而非逆轉。\n2. **UIP 為首因**：下肺胸膜下蜂窩＝UIP pattern，最常對應 IPF。\n3. **診斷可免切片**：典型 UIP pattern（胸膜下、基底、蜂窩）可不需外科切片即臨床診斷。\n4. **病因需情境化**：同為蜂窩，需以分布（上/下肺）與病史（暴露、CTD、藥物）鎖定病因。\n5. **模擬陷阱**：牽引性支氣管擴張可模擬蜂窩，過度判讀會高估纖維化程度。\n\n> [!note] 考點：胸部X-ray診斷蜂窩狀(honeycombing)病灶，下列何者為真?\n> **慢性間質性肺病（C）**——honeycombing 為慢性間質性肺病（末期纖維化）之典型表現，最常見病因 UIP，病因仍需視個案。塵肺症/肺結核 favor upper lung；肺癌以 mass/nodule 為主，皆非 honeycombing 之典型關聯。",
+  "name": "Honeycombing — Pattern Recognition & UIP",
+  "nameZh": "蜂窩狀肺",
+  "slug": "honeycombing-interstitial-lung-disease",
+  "subspecialty": "CH"
+}

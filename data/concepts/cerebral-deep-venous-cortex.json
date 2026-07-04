@@ -1,0 +1,50 @@
+{
+  "checked": false,
+  "definition": "**深部腦靜脈（內大腦靜脈、Rosenthal 基底靜脈、Galen 靜脈）阻塞波及皮質時，受累範圍是邊緣葉、視覺皮質（內側枕葉）、下額葉——這三個區域都在大腦「深底部」。** 上額葉由淺部大腦靜脈（→上矢狀竇）引流，不屬深部系統，因此是 EXCEPT 題的答案。記憶鉤：「深部靜脈管大腦底部周圍，上額葉走高速公路（上矢狀竇）不走深路」。",
+  "differentialDiagnosis": [
+    "**動脈性**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群——分佈循動脈領域、無深部靜脈高衰減/充盈缺損。",
+    "**代謝/中毒/感染**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
+    "**其他**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。鑑別關鍵為**找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損**。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.26si055174"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.11622/smedj.2021235"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1016/j.wneu.2020.03.008"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed"
+    },
+    {
+      "label": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed"
+    },
+    {
+      "label": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed"
+    },
+    {
+      "label": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed",
+      "url": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Deep Cerebral Venous Drainage — Cortical Territory",
+  "nameZh": "深部腦靜脈皮質範圍",
+  "slug": "cerebral-deep-venous-cortex",
+  "subspecialty": "NR"
+}

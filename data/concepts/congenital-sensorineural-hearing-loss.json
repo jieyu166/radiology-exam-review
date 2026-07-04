@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**先天感音性聽損的內耳畸形：MRI 為首選（看膜性迷路/內淋巴囊/耳蝸神經）;前庭導水管正常上限約 1.5 mm（>1.5 mm＝大前庭導水管 LVAS,最常見可見畸形）,不是 4 mm。** 判讀分水嶺：**Mondini defect（不完全分隔 IP-II）合併多種症候群;cochlear hypoplasia＝小耳蝸（高度 <4 mm、不足 2.5 圈）;大前庭導水管＝軸位中段 >1.5 mm（或總腳處 >2 mm）;CT 看骨迷路/鈣化,MRI 看膜迷路/神經。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-8567——**最常見、與",
+      "url": "https://doi.org/10.53347/rID-8567——**最常見、與"
+    }
+  ],
+  "imagingFindings": "- **模態選擇（STATdx）**：**薄層 T-bone CT 看先天骨迷路畸形與 labyrinthine ossificans；高解析 T2 MR 看 large endolymphatic sac、cochlear malformation、耳蝸神經 aplasia/hypoplasia；C+ MR 看 schwannoma/急性 labyrinthitis**。\n- **LVA（STATdx，最常見 + 閾值）**：**影像最常見之先天內耳畸形**；**軸位 CT VA ≥2 mm 於 operculum 或 ≥1 mm 於 midpoint**（另 Valvassori 中點 >1.5 mm）；**伴 IP-II、modiolar deficiency、前庭/SCC 畸形**；**達 40% LVA+IP-II 有 pendrin（SLC26A4）突變→Pendred**；建議基因檢測、避免接觸性運動/頭部外傷。\n- **cochlear 畸形分型（STATdx）**：**common cavity（無特徵共腔）、cochlear aplasia（無耳蝸 + 平坦 promontory 有別 ossificans）、labyrinthine aplasia（Michel，全缺）、cochlear hypoplasia type I-IV（小耳蝸/圈數少）、IP-I（cystic 無 modiolus + 前庭擴張 bilobed）、IP-II（Mondini）、rudimentary otocyst**。\n- **cochlear nerve/CNC（STATdx）**：**單側 SNHL 找 cochlear nerve canal 與 cochlear nerve hypoplasia/aplasia**（CT 小 IAC/CNC、MR CNC 骨取代、耳蝸神經細小/缺如）——影響 cochlear implant 適應。\n- **症候群線索（STATdx）**：**CHARGE（雙側 SCC 缺如/isolated cochlea/oval window atresia/CDH7）、Pendred（LVA+甲狀腺 organification defect）、Waardenburg/BOR/Alagille（SCC 畸形）**。\n- **後天/DDx（STATdx）**：**labyrinthine ossificans（腦膜炎後 CT 高密度取代迷路、T2 低訊號、cochlear implant 前務必辨識）、labyrinthitis、vestibular/intralabyrinthine schwannoma、CPA-IAC lipoma（C+ 無脂抑可誤為 schwannoma）**。",
+  "keyPoints": [
+    "**Mondini defect**：常與 **DiGeorge、Waardenburg、Alagille、Klippel-Feil、Wildervanck、Pendred 症候群及染色體 trisomy** 相關。",
+    "**影像首選＝MRI**：較佳評估**膜性迷路、內淋巴囊**並**直接顯示耳蝸神經**（CT 看骨迷路/鈣化）。",
+    "**Cochlear hypoplasia**：小耳蝸——**高度 <4 mm、圈數不足 2.5 圈**。",
+    "**前庭導水管（vestibular aqueduct）**：**Valvassori 準則為軸位中點（crus 與 aperture 之半途）AP 徑 >1.5 mm＝大前庭導水管（LVAS）**（題述上限 4 mm 為錯）;**LVAS 為最常見、與 SNHL 相關之內耳畸形**，~85% 合併其他異常（Pendred、cochlear hypoplasia、Mondini 等）;出生聽力可正常、兒童期波動/漸進性聽損、可於輕微頭部外傷後突發。"
+  ],
+  "management": "1. **評估路徑（STATdx）**：**新生兒聽篩失敗 → CT/MR 找內耳畸形；兒童波動/cascading SNHL（無腦膜炎史）→ 找 LVA ± cochlear malformation/modiolar deficiency**。\n2. **LVA/Pendred（STATdx）**：**LVA+IP-II 達 40% 有 SLC26A4/pendrin 突變**；Pendred 併甲狀腺 organification defect ± goiter；建議基因檢測。\n3. **臨床病程（LVA）**：出生聽力可正常、兒童期波動/漸進性、**可於輕微頭部外傷後突發** → 應避免接觸性運動。\n4. **cochlear implant 規劃（STATdx）**：**辨識 labyrinthine ossificans（阻礙植入）、cochlear nerve aplasia（無神經則植入無效）、modiolus 缺如（gusher/腦脊髓液噴出風險）**。\n5. **後天原因**：腦膜炎（labyrinthine ossificans 雙側）、中耳炎（tympanogenic 單側）、外傷（fracture ± pneumolabyrinth）。\n\n> [!note] 考點：關於先天感音性聽損,何者「為非」?\n> 「**軸位 CT 上前庭導水管正常上限為 4 mm**」為非——正常上限約 **1.5 mm**（>1.5 mm 即大前庭導水管）。Mondini 與多症候群相關、MRI 為首選、cochlear hypoplasia 高度<4 mm 且<2.5 圈皆正確。",
+  "name": "Congenital Sensorineural Hearing Loss — Inner Ear Malformations",
+  "nameZh": "先天性感音性聽損",
+  "slug": "congenital-sensorineural-hearing-loss",
+  "subspecialty": "H&N"
+}

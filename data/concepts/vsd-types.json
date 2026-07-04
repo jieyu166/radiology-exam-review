@@ -1,0 +1,32 @@
+{
+  "checked": false,
+  "definition": "**VSD 四型以右心室視角命名，記憶訣：由前向後依次是 subarterial（肺動脈瓣下）→ perimembranous（最常見）→ inlet（達房室瓣）→ muscular（肌部/Swiss cheese）；subarterial 名字含「artery」卻位於肺動脈瓣下，考題最愛在此設陷阱。** 判讀分水嶺一：**subarterial＝subpulmonary**，非主動脈瓣下；判讀分水嶺二：**perimembranous＝最常見，muscular 多發呈 Swiss cheese，inlet 延伸至房室瓣插入處**。",
+  "differentialDiagnosis": [
+    "**房室中隔缺損（AVSD／endocardial cushion defect）**：inlet VSD 屬其譜系一端，須與完全型 AVSD 之共同房室瓣鑑別。",
+    "**Gerbode 缺損（左室—右房分流）**：膜周型延伸至房室部之變異，彩色都卜勒高速噴流位置偏房室交界。",
+    "**主動脈竇瘤破裂入右心**：可與 outlet 型分流混淆，需辨噴流起源於主動脈竇而非中隔。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.31083/j.rcm2511411（PMC11607469",
+      "url": "https://doi.org/10.31083/j.rcm2511411（PMC11607469"
+    },
+    {
+      "label": "10.2214/AJR.10.7257",
+      "url": "https://doi.org/10.2214/AJR.10.7257"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**分型依右心室視角之位置/邊界**（題目選項 E 正確）。",
+    "**Subarterial（juxta-arterial / doubly-committed / supracristal / outlet）**：位於**肺動脈瓣下（subpulmonary）**、緊鄰主動脈與肺動脈瓣（雙動脈瓣共界）；常伴主動脈瓣脫垂。故「在主動脈瓣下、稱 subarterial」**錯誤**＝題目正解。",
+    "**Perimembranous**：累及膜部間隔（最常見型）。",
+    "**Muscular（trabecular）**：肌部，多發者呈 **\"Swiss cheese\"**。",
+    "**Inlet**：延伸至房室瓣插入處（與 AVSD 相關）。"
+  ],
+  "management": "",
+  "name": "VSD Types (Classification)",
+  "nameZh": "心室中隔缺損分型",
+  "slug": "vsd-types",
+  "subspecialty": "CV"
+}

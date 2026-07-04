@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**腹股溝區疝氣嵌頓（incarceration/strangulation）風險由高到低：Femoral hernia ＞ Indirect inguinal hernia ＞ Direct inguinal hernia。判讀分水嶺——股疝的股環由堅硬的 lacunar ligament 圍成、頸窄，內容物難自行復位、嵌頓/絞扼率最高；直接疝經寬大的 Hesselbach triangle 突出、頸寬，風險最低。CT 上以下腹壁血管（inferior epigastric vessels）與股靜脈為定位關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.312105129"
+    }
+  ],
+  "imagingFindings": "- **CT 定位以 inferior epigastric vessels 為軸**：**Direct** 疝在其**前內下方（anteromedial/inferior）**；**Indirect** 疝在其**後外上方（posterolateral/superior）**；**Femoral** 疝在其**下方且股靜脈內側**。\n- **Lateral crescent sign**：早期 direct inguinal hernia 於軸位 CT 之有用徵象——疝囊將腹股溝管內脂肪/內容物向外側壓迫拉伸成新月狀。\n- **Femoral 判讀陷阱**：頸窄漏斗狀、可壓迫股靜脈致遠端側支靜脈怒張；因股環堅硬，最易絞扼壞死，需優先警覺。\n- **絞扼影像徵象（各型共通）**：腸壁增厚/積氣、腸壁不強化、疝囊周圍積液、近端腸擴張——提示血流受阻，屬急症。",
+  "keyPoints": [
+    "**嵌頓風險排序**：**Femoral ＞ Indirect inguinal ＞ Direct inguinal**。",
+    "**Femoral hernia（最高風險）**：疝囊行於下腹壁血管下方、股靜脈內側，**頸窄呈漏斗狀、由堅硬 lacunar ligament 圍成**，可壓迫股靜脈致遠端側支充血；狹硬頸部使內容物難復位，嵌頓率最高。",
+    "**Indirect inguinal（中等）**：經內環（深環）、下腹壁血管**後外上方**突出，沿腹股溝管走行，頸較股疝寬但仍可嵌頓。",
+    "**Direct inguinal（最低）**：經 Hesselbach triangle、下腹壁血管**前內下方**突出，缺損寬大、頸寬，內容物易自行復位，風險最低。"
+  ],
+  "management": "1. 股疝雖較少見，但嵌頓/絞扼比例最高，臨床門檻低即建議修補。\n2. 股疝好發於女性；腹股溝疝（尤 indirect）男性居多。\n3. 臨床觸診常難區分股疝與腹股溝疝，CT 有助鑑別。\n4. 嵌頓＝內容物無法復位；絞扼＝合併血流受阻、需緊急手術。\n5. 無症狀直接疝因風險低，部分可保守觀察。\n\n> [!note] 考點：疝氣腸道嵌頓風險由高到低的排序？\n> **Femoral ＞ Inguinal (indirect) ＞ Inguinal (direct)（D）**——股疝股環堅硬狹窄、嵌頓率最高；直接疝經寬大 Hesselbach triangle、頸寬、風險最低。",
+  "name": "Hernia Incarceration Risk — Groin Hernia Ranking",
+  "nameZh": "疝氣嵌頓風險排序",
+  "slug": "hernia-incarceration-risk",
+  "subspecialty": "ABD"
+}

@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**心臟 CT（冠狀動脈 CTA）對比劑注射典型流速約『4-7 cc/秒』（高流速以求冠脈高對比），常配合 saline chaser 與 bolus tracking/test bolus 計時。** 判讀分水嶺：**冠脈 CTA 需高碘流入率 → 流速 4-7 mL/s（多用 5-6）;搭配生理食鹽水追注（saline chaser）推進團注、減少上腔靜脈條紋偽影;以 bolus tracking（升主動脈 ROI 觸發）或 test bolus 計時。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.10090908",
+      "url": "https://doi.org/10.1148/radiol.10090908"
+    },
+    {
+      "label": "10.53347/rID-88070（輔助來源",
+      "url": "https://doi.org/10.53347/rID-88070（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **強化與注射率（Bae，核心）**：**血管與實質峰值強化主要由『碘輸入率（iodine flux＝流速×碘濃度）』與病人心輸出量決定**——冠脈 CTA 需高流速（4-7 mL/s）以達足夠冠脈內碘濃度。\n- **計時法（Bae）**：**bolus tracking（升主動脈 ROI 達閾值觸發）或 test bolus**——因對比到達時間隨心輸出量個別差異大，須即時/測試計時而非固定延遲。\n- **saline chaser（Bae）**：**生理食鹽水追注推進團注尾端、提升碘利用效率、減少 SVC/右心高濃度條紋偽影**（beam-hardening）。\n- **低 kVp 增強策略（Bae）**：**降低管電壓（80-100 kVp）使碘衰減趨近 k-edge、提升對比，可減少對比劑用量**；體型大者需增量。\n- **陷阱**：流速不足（1-3 mL/s）冠脈對比不足；注射與掃描不同步致強化不佳；右心高濃度條紋掩蓋 RCA/評估。",
+  "keyPoints": [
+    "**典型流速**：心臟 CT 對比劑注射建議流速約 **4-7 cc/秒**（臨床常用 5-6 mL/s；三相注射常 50-70 mL @ 5-7 mL/s）——高流速以提升冠狀動脈內碘濃度與對比;用高碘濃度對比劑（270-400 mg I/mL）。",
+    "**技術配套**：",
+    "**Saline chaser（生理食鹽水追注）**：推進對比劑團注、減少 SVC/右心條紋偽影、節省對比劑。",
+    "**計時**：bolus tracking（升主動脈 ROI 達閾值觸發）或 test bolus。",
+    "對比劑用量與流速依管電壓、體型、掃描時間調整。"
+  ],
+  "management": "1. **安全**：高流速注射需良好靜脈通路（18-20G 前臂）與耐壓導管，避免外滲；含碘對比劑須評估腎功能與過敏史。\n2. **心率控制**：冠脈 CTA 常併用 β-blocker 降心率、NTG 擴張冠脈以提升影像品質（與注射協定並行）。\n3. **個別化（Bae）**：**對比劑用量/流速應依體重、心輸出量、管電壓與掃描時間個別調整**，非一體適用。\n4. **劑量與腎臟**：在達診斷對比前提下用最低對比劑量（低 kVp 輔助），降低對比劑腎病風險。\n5. **臨床用途**：冠脈狹窄/斑塊評估、繞道/支架、結構性心臟病與 TAVI 術前評估皆賴最佳化注射協定。\n\n> [!note] 考點：心臟 CT 對比劑注射的典型建議流速?\n> **4-7 cc/秒（C）**。低於此（1-3 mL/s）冠脈對比不足;>7 mL/s 非常規。常配合 saline chaser 與 bolus tracking。",
+  "name": "Cardiac CT — Contrast Injection Protocol",
+  "nameZh": "心臟CT對比劑注射",
+  "slug": "cardiac-ct-contrast-injection",
+  "subspecialty": "CV"
+}

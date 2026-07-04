@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**乳頭 Paget disease 的本質是乳頭-乳暈表皮內腺癌細胞浸潤，臨床呈持續性濕疹樣鱗屑，>85–95% 合併下方 DCIS 或浸潤癌——「合併癌罕見」是考試陷阱。** 記憶鉤：外觀像濕疹、治不好→想到 Paget→必找下方乳癌（wedge biopsy 見 Paget cells 確診）。判讀分水嶺一：**臨床似濕疹卻治療無效的乳頭病變**；判讀分水嶺二：**絕大多數合併下方乳癌，需乳攝/MRI 尋找潛在病灶**。",
+  "differentialDiagnosis": [
+    "**乳頭／乳暈濕疹樣皮膚病**：過敏性／刺激性接觸性皮膚炎、慢性單純苔癬、乾癬——臨床似 Paget 但治療有效、無下方惡性。",
+    "**乳頭腺瘤（nipple adenoma）**：臨床外觀可相似，但為**良性**；多模態影像（尤其 DCE-MRI）可較佳界定乳暈病灶與下方範圍以助區分，Paget 則高比例合併下方惡性。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s13244-015-0415-z（PMC4519816，開放全文",
+      "url": "https://doi.org/10.1007/s13244-015-0415-z（PMC4519816，開放全文"
+    },
+    {
+      "label": "10.4274/ejbh.galenos.2021.6091（PMC8246046，開放全文",
+      "url": "https://doi.org/10.4274/ejbh.galenos.2021.6091（PMC8246046，開放全文"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**臨床**：乳頭-乳暈**濕疹樣、鱗屑、發炎、糜爛**外觀。",
+    "**診斷**：乳頭 wedge biopsy 見表皮內 **Paget cells** 可確診。",
+    "**合併乳癌**：**絕大多數合併下方乳癌（DCIS 或浸潤癌）** → 「associated carcinoma is rare」**錯誤**。文獻多引 80–90% 或 >90%。 須以乳攝/US/MRI 找潛在病灶。"
+  ],
+  "management": "",
+  "name": "Paget Disease of the Nipple",
+  "nameZh": "乳頭佩吉特氏病",
+  "slug": "paget-disease-nipple",
+  "subspecialty": "Breast"
+}

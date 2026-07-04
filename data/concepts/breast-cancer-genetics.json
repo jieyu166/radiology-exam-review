@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**乳癌最重要之高風險胚系突變基因為BRCA1與BRCA2；TP53(p53)胚系突變(Li-Fraumeni syndrome)亦增加乳癌風險，但屬罕見成因；其餘中度風險基因尚有ATM、CHEK2、PALB2等。「p54」並非任何已知之乳癌風險基因。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2020190181;",
+      "url": "https://doi.org/10.1148/rg.2020190181;"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**高風險基因**：**BRCA1**、**BRCA2**為乳癌最重要且最常見之高風險胚系突變基因；另有**TP53(p53)**（Li-Fraumeni syndrome，胚系突變增加乳癌、白血病、腦瘤、肉瘤等風險，為乳癌之罕見成因）、**PTEN**、**CDH1**、**STK11**。",
+    "**中度風險基因**：**ATM**、**CHEK2**、**PALB2**。",
+    "**陷阱**：「p54」為不存在之虛構基因，非乳癌風險基因。"
+  ],
+  "management": "",
+  "name": "Breast Cancer — High-Risk Genetic Mutations",
+  "nameZh": "乳癌高風險基因",
+  "slug": "breast-cancer-genetics",
+  "subspecialty": "Breast"
+}

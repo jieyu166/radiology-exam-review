@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**放射線壞死(radiation necrosis)與腦腫瘤復發在傳統MRI上常難以區分，但「lesion quotient（病灶商數）」是一個量化輔助指標——病灶商數=T2WI上低訊號結節面積÷對比後T1WI上同病灶面積；腫瘤復發病灶商數較「高」（>0.6），放射線壞死則較「低」（<0.3）。** 判讀分水嶺：**放射線壞死可依原發腫瘤位置與放射照野(radiation port)推測好發部位;腦室旁白質因長髓質動脈供血差、缺乏側枝循環，對放射線引起的血管病變特別脆弱，故照野內腦室旁強化灶多屬放射線引起，可考慮追蹤觀察其消退/穩定；\"cut green pepper\"或\"soap bubble\"樣強化外觀雖可提示放射線壞死，但研究(Dequesada等)顯示此外觀並不能可靠區分放射線壞死與腫瘤（兩者皆可出現，也常見於混合病灶）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**好發部位推測**：放射線壞死可依**原發腫瘤位置與放射照野(radiation port)**範圍加以推測好發位置。",
+    "**Lesion quotient（病灶商數）——量化鑑別工具**：定義為**T2WI上低訊號結節面積 ÷ 對比後T1WI上同病灶面積**。研究顯示（32病灶）：**腫瘤復發病灶商數 >0.6**，**放射線壞死病灶商數 <0.3**——即**腫瘤復發的病灶商數較放射線壞死「高」**（非「放射線壞死較高」）。",
+    "**腦室旁強化灶**：**腦室旁白質**因**長髓質動脈(long medullary arteries)供血相對不良、缺乏側枝血管**，對放射線後血管病變(postirradiation vasculopathy)特別脆弱——故照野內腦室旁強化灶**典型提示放射線引起之強化**，可建議連續追蹤確認其消退或穩定。",
+    "**\"Cut green pepper\"或\"soap bubble\"外觀**：此類強化外觀**可能提示放射線壞死**，但亦可能為（更常見的）**混合病灶（放射線壞死+腫瘤並存）**；Dequesada等研究顯示此外觀**並不能可靠地區分放射線壞死與腫瘤**。"
+  ],
+  "management": "",
+  "name": "Radiation Necrosis vs Brain Tumor Recurrence",
+  "nameZh": "放射線壞死",
+  "slug": "radiation-necrosis-vs-tumor-recurrence",
+  "subspecialty": "NR"
+}

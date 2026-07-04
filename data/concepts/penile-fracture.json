@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**陰莖骨折的定義是「corpus cavernosum（陰莖海綿體）及其外圍tunica albuginea（白膜）的破裂」——不是corpus spongiosum（尿道海綿體）。這是本題陷阱。機轉為勃起狀態下高海綿體內壓+外力使白膜破裂；MRI特徵為低訊號tunica albuginea的不連續；尿道受累時併發症率較高。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義（本題重點）**：陰莖骨折為勃起陰莖之**corpus cavernosum（陰莖海綿體）及其外圍纖維彈性鞘tunica albuginea（白膜）之破裂**——**非corpus spongiosum（尿道海綿體）**。",
+    "**機轉**：勃起狀態下海綿體內高壓，受外力（如性交撞擊）使變薄之白膜破裂。",
+    "**MRI特徵**：**低訊號之tunica albuginea出現不連續（discontinuity）**為診斷特徵；可見血腫。",
+    "**尿道受累**：**併發尿道損傷者併發症率較高**（排尿困難、狹窄、瘻管），需評估尿道完整性。"
+  ],
+  "management": "",
+  "name": "Penile Fracture",
+  "nameZh": "陰莖骨折",
+  "slug": "penile-fracture",
+  "subspecialty": "GU"
+}

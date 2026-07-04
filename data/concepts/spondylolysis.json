@@ -1,0 +1,50 @@
+{
+  "checked": false,
+  "definition": "**Spondylolysis 是 pars interarticularis 的疲勞骨折（慢性重複微創傷，非急性），好發 L5，伴隨滑脫最常見於 L5-S1；影像選擇：既成缺損看 CT，早期 stress response 看 MRI/SPECT。** 判讀分水嶺一：**機轉為慢性重複微創傷，非急性高能外傷**——「急性損傷」是常考的錯誤敘述。判讀分水嶺二：**既成缺損範圍以 CT 最佳（皮質缺損形態），MRI 則對早期骨髓水腫 / stress response 敏感**——「既成缺損看 MRI 最佳」是陷阱。常無症狀；約 55% 會進展為滑脫。",
+  "differentialDiagnosis": [
+    "**Facet（小面關節）退化/arthrosis**：軸位走向斜、骨緣平滑、無硬化，與 pars lysis 區分如上。",
+    "**Pedicle stress fracture（椎弓根疲勞骨折）**：少見，常見於對側已有 spondylolysis、骨質疏鬆或脊椎手術後；位置在 pedicle 而非 pars。",
+    "**Limbus vertebra（緣狀椎）**：椎體前上/前下角的獨立骨化片（軟骨結節疝入致終板分離），位於椎體角而非後方 pars，邊緣皮質完整光滑。",
+    "**正常 vacuum phenomenon / facet 內氣體**：退化關節之氣體影，勿誤為缺損透亮線。",
+    "**Osteoid osteoma / osteoblastoma（骨樣骨瘤／骨母細胞瘤）**：好發脊椎後方結構（椎板、關節突、pedicle），nidus 周圍反應性硬化／水腫可酷似活動性 pars stress injury；osteoid osteoma 典型有夜間痛、對 NSAID 反應，CT 見 nidus；對側 pedicle 肥厚須與 spondylolysis 之代償性肥厚區分。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://emedicine.medscape.com/article/395916-overview",
+      "url": "https://emedicine.medscape.com/article/395916-overview"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6690120/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6690120/"
+    },
+    {
+      "label": "https://qims.amegroups.org/article/view/130359/html",
+      "url": "https://qims.amegroups.org/article/view/130359/html"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4337179/",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4337179/"
+    },
+    {
+      "label": "https://pubmed.ncbi.nlm.nih.gov/11805665/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11805665/"
+    },
+    {
+      "label": "https://upload.orthobullets.com/journalclub/pubmed_central/32282463.pdf",
+      "url": "https://upload.orthobullets.com/journalclub/pubmed_central/32282463.pdf"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**位置**：~90% 在 **L5**、~10% L4；男>女、青少年運動員較高。",
+    "**伴隨 spondylolisthesis**：約 55%（25–80%）會進展為滑脫；因好發 L5，**伴隨滑脫最常見於 L5-S1**（正解）。",
+    "**症狀**：**常無症狀**；有症狀者多為伸展時疼痛——故「必有症狀性滑脫」為假。",
+    "**機轉**：後天型為**重複微創傷 → stress injury/疲勞骨折**（慢性），非急性損傷（高能外傷致 pars 骨折較少見）。",
+    "**影像角色**：**X 光與 CT 只顯示『既成』缺損**（CT 對皮質缺損範圍最佳）；**SPECT-CT/MRI 可更早顯示 stress response**（攝取增加/骨髓水腫）——故「MRI 對既成缺損範圍最佳」為假。"
+  ],
+  "management": "",
+  "name": "Spondylolysis (Pars Interarticularis Defect)",
+  "nameZh": "椎弓解離",
+  "slug": "spondylolysis",
+  "subspecialty": "MSK"
+}

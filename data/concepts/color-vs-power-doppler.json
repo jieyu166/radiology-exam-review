@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Power Doppler 以訊號振幅（power/amplitude）而非頻移編碼，優勢為對慢血流敏感度高、且『不依賴』都卜勒角度（無 aliasing）；Color Doppler 依平均頻移（mean frequency shift）編碼（與流速相關、依賴角度），優勢為可判斷流向且較不受組織/探頭移動干擾。** 判讀分水嶺：**Power Doppler＝振幅編碼、角度無關、對慢/小流敏感、但無法判流向且易 flash artifact；Color Doppler＝平均頻移、有方向與流速資訊、高速時 aliasing。任何 color/power Doppler 假影可用「不典型頻譜波形」查證；aliasing 與 twinkle artifact 反而有診斷用途。記憶鉤：power 看「有沒有血流（慢流敏感、無方向）」、color 看「方向與速度」。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/j.rcl.2006.10.014",
+      "url": "https://doi.org/10.1016/j.rcl.2006.10.014"
+    }
+  ],
+  "imagingFindings": "- **選模式**：**疑「慢/低量血流」（器官灌注、睪丸扭轉早期殘餘血流、小血管、腫瘤新生血管）→ Power Doppler**（敏感、無方向）；**需「方向/流速」（狹窄、分流方向、動靜脈）→ Color Doppler**。\n- **假影查證**：**color/power Doppler 假影可由「不典型頻譜波形」辨識**（真血流有典型頻譜）。\n- **有用之假影（診斷用途）**：**aliasing** 可快速標示狹窄/動靜脈瘻之高速噴流；**twinkle artifact**（強反射粗糙介面後之混色）有助辨識**腎結石/其他結石晶體**。\n- **慢流優化（技術參數）**：**頻率（frequency）、增益（gain）、濾波（filter/wall filter）、刻度（scale/PRF）**須調校，才能正確判斷慢流血管之通暢或血栓（尤其慢流血管）。\n- **flash artifact 權衡**：Power Doppler 對運動極敏感，呼吸/搏動/探頭移動易造成 flash，須固定並適當設定。",
+  "keyPoints": [
+    "**Power Doppler 編碼**：以**訊號 power（振幅）**而非頻移編碼。",
+    "**Power Doppler 優勢/缺點**：**對慢血流敏感度高、不依賴角度（無 aliasing、可偵測小流速）**；缺點＝**無法判斷血流方向、易受 flash artifact（運動）干擾**。",
+    "**Color Doppler 編碼**：依**平均頻移（與流速相關、依賴角度）**。",
+    "**Color Doppler 優勢**：**可判斷血流方向與流速**、對組織/探頭移動之敏感度相對較低；高速時可 **aliasing**。"
+  ],
+  "management": "1. **模式選擇**：慢/低量流用 Power Doppler（敏感、無方向）；方向/流速用 Color Doppler。\n2. **Power Doppler 特性**：振幅編碼、角度無關、無 aliasing、無方向、易 flash。\n3. **Color Doppler 特性**：平均頻移、有方向與流速、較不受移動干擾、高速 aliasing。\n4. **假影的兩面**：aliasing（標示狹窄/AVF）、twinkle（辨識結石）為有用診斷徵象；其餘假影以頻譜波形查證。\n5. **慢流判讀**：調校 frequency/gain/filter/scale 以正確區分血管通暢 vs 血栓。\n\n> [!note] 考點：關於 color Doppler 與 power Doppler 之比較，何者錯誤？\n> **「Power Doppler 對都卜勒角度依賴性增加」為錯誤**——Power Doppler 實際上『不依賴』角度（independent of angle），此為其優勢之一，使其對慢血流更敏感。其餘敘述（power Doppler 以振幅編碼、color Doppler 可判斷流向且較不受移動干擾、color Doppler 依平均頻移編碼）皆正確。",
+  "name": "Color Doppler vs Power Doppler",
+  "nameZh": "彩色都卜勒",
+  "slug": "color-vs-power-doppler",
+  "subspecialty": "US"
+}

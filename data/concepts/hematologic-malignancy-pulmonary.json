@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**分水嶺：Leukostasis 與 pulmonary hemorrhage 在影像上「可以」區分（leukostasis 偏 interstitial、hemorrhage 偏 alveolar consolidation）。白血病肺部併發症以感染、出血、水腫及白血病浸潤為主。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/ryct.230151"
+    }
+  ],
+  "imagingFindings": "- **Leukemic pulmonary infiltration**：多沿 lymphatic 路徑，呈 peribronchovascular/interlobular septal 增厚與 interstitial pattern，可伴 GGO \n- **Pulmonary hemorrhage**：以 alveolar 充填為主，呈 consolidation/GGO，與 leukostasis 的 interstitial 為主型態可資鑑別 \n- **CMV 肺炎**：常見雙側 parenchymal opacities 併眾多小結節，好發於造血幹細胞移植後免疫重建期 \n- **胸膜/淋巴/軟組織侵犯**：淋巴腫大為最常見直接表現；白血病細胞可致胸膜浸潤與 pleural effusion \n- **判讀陷阱**：勿把 leukostasis 與 pulmonary hemorrhage 當作「影像無法區分」；兩者以 interstitial vs alveolar 主型態不同",
+  "keyPoints": [
+    "白血病最常見的直接胸內表現為 lymphadenopathy；白血病細胞亦可浸潤肺、胸膜、心臟、骨與軟組織",
+    "肺部併發症以肺炎、出血（hemorrhage）、肺水腫及治療後遺症最常見，另有直接的 leukemic pulmonary infiltration",
+    "**Leukostasis 與 pulmonary hemorrhage 影像可區分**：leukostasis 以 interstitial（間質）浸潤為主，hemorrhage 以 alveolar consolidation 為主",
+    "移植/免疫不全期 CMV 等病毒肺炎可呈雙側實質陰影與眾多小結節"
+  ],
+  "management": "1. 白血病臨床表現源自骨髓抑制或器官白血病浸潤 \n2. 免疫不全者肺部陰影須同時考量感染、出血、水腫與白血病直接侵犯 \n3. 病毒（CMV/RSV）肺炎為移植後免疫重建期的重要併發症 \n4. 影像—病理對照有助鑑別治療相關 vs 白血病直接效應 \n5. 胸內以淋巴腫大最常見，但肺、胸膜、心、骨、軟組織皆可受累 \n\n> [!note] 考點：Leukostasis 與 pulmonary hemorrhage 在影像上能否區分？\n> 「可以區分」—— leukostasis 以 interstitial 浸潤為主、pulmonary hemorrhage 以 alveolar consolidation 為主。因此「leukostasis 難以與 pulmonary hemorrhage 區分」的敘述為錯誤。",
+  "name": "Pulmonary Complications of Hematologic Malignancy",
+  "nameZh": "血液惡性腫瘤肺部併發症",
+  "slug": "hematologic-malignancy-pulmonary",
+  "subspecialty": "CH"
+}

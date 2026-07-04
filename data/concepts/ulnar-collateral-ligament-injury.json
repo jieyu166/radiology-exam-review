@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**棒球投手肘內側的 UCL（尤其 anterior bundle，抗外翻主力）承受外翻應力易拉傷/撕裂；MRI『T sign』＝關節液介於 UCL 尺側附著（sublime tubercle）之間，代表 anterior bundle 遠端 partial（undersurface）撕裂。** 判讀分水嶺：**輕度＝韌帶旁水腫、纖維大致完整；遠端部分撕裂＝T sign；但『Tommy John 重建術後』出現的 T sign 常反映『正常移植肌腱附著』，不應誤判為再撕裂/移植失敗。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-78704——**T",
+      "url": "https://doi.org/10.53347/rID-78704——**T"
+    }
+  ],
+  "imagingFindings": "- **T sign 判讀**：冠狀 T2 FS 見遠端附著下表面線狀液體 → 部分撕裂；完全撕裂則韌帶不連續/波浪狀。\n- **anterior bundle 重點**：抗外翻主力，投手傷此束為主；評估遠端 sublime tubercle 附著。\n- **術後 vs 再撕裂**：重建後遠端 T sign 多為正常移植插入，結合病史/移植腱走行判讀，勿逕診斷失敗。\n- **輔助徵象**：外翻不穩、posteromedial impingement、屈肌旋前肌損傷、骨贅/游離體。\n- **影像技術**：MR arthrography 或高解析 T2 FS 提高遠端部分撕裂偵測。",
+  "keyPoints": [
+    "**解剖/機轉**：UCL 分 **anterior bundle（最強、抗外翻主力，內上髁 → sublime tubercle）**、posterior bundle、transverse；投擲外翻應力使 anterior bundle 最易傷。",
+    "**輕度損傷**：韌帶周圍水腫、纖維大致完整。",
+    "**T sign**：冠狀 T2/脂肪抑制上，**關節液介於 UCL 尺側附著與 sublime tubercle 之間** → **anterior bundle 遠端 partial（undersurface）撕裂**；反覆外傷 → 微撕裂 → 退化/斷裂。",
+    "**術後陷阱**：**Tommy John 重建後遠端骨隧道位關節面遠端數 mm**，此處 T sign **常為正常移植附著、非再撕裂**，勿誤判移植失敗。"
+  ],
+  "management": "1. **anterior bundle**：抗外翻主力，投手最易傷。\n2. **T sign**：遠端下表面部分撕裂。\n3. **術後 T sign**：常為正常移植附著、非再撕裂。\n4. **輕度**：韌帶旁水腫纖維完整。\n5. **處置**：高需求投手行 Tommy John 重建。\n\n> [!warning] 答案鍵/選項標號存疑（待醫師確認）\n> 官方標答 **D**，但選項標號（甲/G、A、B、C…）與紅字反駁不一致：紅字明確反駁「術後 T-sign＝再撕裂」（因遠端 T-sign 多為正常移植附著）。請醫師對照原卷確認哪一選項為「為非」。\n\n> [!note] 考點：關於投手 UCL 損傷，何者「為非」?\n> 重建術後遠端出現的 T-sign **常反映正常移植肌腱附著（非再撕裂/移植失敗）**——把它當成再撕裂為錯誤。輕度損傷韌帶旁水腫纖維完整、遠端部分撕裂可見 T sign 皆正確。",
+  "name": "Ulnar Collateral Ligament (UCL) Injury — Throwing Elbow",
+  "nameZh": "尺側副韌帶損傷",
+  "slug": "ulnar-collateral-ligament-injury",
+  "subspecialty": "MSK"
+}

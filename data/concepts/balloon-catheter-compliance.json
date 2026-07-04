@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**血管介入使用氣球導管時，「低順應性氣球(low compliance balloon)用於大血管(large vessel)」造成血管破裂的風險最高——低順應性氣球擴張時直徑變化小、但充氣壓力上升快且高，於大血管中若氣球尺寸略有誤判或血管壁薄弱，容易因局部高壓造成血管壁破裂。** 判讀分水嶺：**低順應性氣球(low compliance)特性是充氣壓力增加時直徑變化很小（幾乎維持設定尺寸），故可耐受高壓精確擴張，但也代表若尺寸選擇錯誤時無法「自我讓步」而直接以高壓力傳遞至血管壁;用於大血管時因血管壁本身張力及氣球所需充氣量較大，破裂風險較低順應性氣球用於小血管更高（小血管操作者通常更謹慎控制壓力，且血管彈性回縮空間相對存在）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00330-006-0181-x",
+      "url": "https://doi.org/10.1007/s00330-006-0181-x"
+    },
+    {
+      "label": "10.53347/rID-85305（輔助來源",
+      "url": "https://doi.org/10.53347/rID-85305（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **順應性分型**：**non-compliant（低順應）＝加壓時直徑幾乎不變、可耐高壓精確擴張（支架後擴張/鈣化病灶/難治狹窄）；compliant（高順應）＝加壓直徑變化大、耐壓低（初步擴張/順應彎曲）**。\n- **oversizing 為破裂關鍵（Tsetis）**：**避免 oversizing**——氣球對血管過大時，低順應氣球「不讓步」使高壓直接傳至管壁 → 破裂；**pre-dilation 用標準/高壓氣球亦可能誘發血管破裂**。\n- **破裂徵象判讀**：術中對比劑外滲/血管輪廓中斷、快速擴大血腫、假性動脈瘤；備妥 covered stent/球囊填塞/栓塞救援。\n- **cutting balloon（Tsetis）**：**非順應氣球 + 3-4 片 microtome atherotome**，於難治/抗高壓之周邊 bypass 吻合口與洗腎瘻管狹窄有效；適當使用（避免 oversizing）安全、成功率高、併發少；理論上局部切痕致較小管壁損傷但未證實降再狹窄。\n- **壓力概念**：nominal pressure（達標稱直徑）與 rated burst pressure（RBP，安全上限）；擴張不宜超過 RBP。",
+  "keyPoints": [
+    "**背景（PTA）**：balloon angioplasty／percutaneous transluminal angioplasty＝經皮以充氣氣球導管撐開狹窄血管段，可併或不併支架;適應症含動脈粥狀硬化、冠脈/腎動脈狹窄、FMD、洗腎通路靜脈狹窄。",
+    "**低順應性氣球(low compliance balloon)特性**：充氣壓力增加時，氣球**直徑變化極小**（幾乎維持設定尺寸不變），可耐受**高壓力**精確擴張，常用於支架後擴張或鈣化病灶擴張。",
+    "**高順應性氣球(high compliance balloon)特性**：充氣壓力增加時直徑變化較**大**、耐壓能力較**低**，常用於初步擴張或順應血管彎曲處。",
+    "**破裂風險最高組合**：**低順應性氣球用於大血管**——大血管操作常需要較大充氣量與較高壓力才能達到治療效果，若氣球尺寸與血管管徑不匹配（過大），低順應性氣球「不讓步」的特性會將全部高壓力直接傳遞至血管壁，造成破裂風險最高。"
+  ],
+  "management": "1. **PTA 適應（Radiopaedia）**：balloon angioplasty/PTA 用於動脈粥狀硬化、冠脈/腎動脈狹窄、FMD、洗腎通路靜脈狹窄，可併或不併支架。\n2. **選球原則**：依血管管徑選相符尺寸；**低順應用於需高壓精確之情境、高順應用於順應性初擴**；務必避免 oversizing。\n3. **破裂風險**：**低順應氣球用於大血管且尺寸誤判時破裂風險最高**（不讓步 + 高壓直達管壁）。\n4. **cutting balloon 定位（Tsetis）**：對抗傳統高壓擴張無效之複雜/難治狹窄有益；de novo 周邊病灶與非冠脈 in-stent restenosis 之角色仍在討論。\n5. **安全操作**：控壓、不超 RBP、避免 oversizing、備救援器材（covered stent/栓塞）以降破裂後果。\n\n> [!note] 考點：使用氣球導管進行血管介入，何者血管破裂風險最高?\n> **Low compliance balloon in large vessel（B）**——低順應性氣球充氣壓力增加時直徑變化小、可耐高壓，若用於大血管且尺寸誤判，全部高壓力會直接傳遞至血管壁，破裂風險最高。",
+  "name": "Balloon Catheter Compliance & Vessel Rupture Risk",
+  "nameZh": "氣球導管順應性",
+  "slug": "balloon-catheter-compliance",
+  "subspecialty": "IR"
+}

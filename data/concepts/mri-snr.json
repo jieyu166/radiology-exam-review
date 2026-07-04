@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**Bandwidth 與 SNR 的關係是「反平方根」——頻寬窄，雜訊取樣少，SNR 上升，但代價是最短 TE 延長與化學位移偽影加重。** 判讀分水嶺一：**SNR ∝ 1/√BW——頻寬減半，SNR 升為 √2 倍（≈1.41×），非 2 倍**；判讀分水嶺二：**SNR 同時受 voxel volume、√(NEX)、√(相位步數) 影響**，頻寬只是其中一個旋鈕。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1002/jmri.23642",
+      "url": "https://doi.org/10.1002/jmri.23642"
+    },
+    {
+      "label": "10.53347/rID-14045（輔助來源",
+      "url": "https://doi.org/10.53347/rID-14045（輔助來源"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Bandwidth 與 SNR**：**SNR 與接收頻寬的平方根成反比（SNR ∝ 1/√BW）**。",
+    "**頻寬減半 → SNR 變為原來 √2 倍**（≈1.41×）。",
+    "**代價**：較窄頻寬雖增 SNR,但**延長最短 TE、加重化學位移偽影**。",
+    "其他影響 SNR：**SNR ∝ voxel volume、√(NEX/averages)、√(phase-encoding steps)**、線圈、場強;3D volume 取像較 2D 增 SNR。",
+    "**成像鏈與 SNR（Plewes）**：MRI 訊號源自淨磁化被 RF 激發、以接收線圈偵測橫向磁化之進動；**SNR 取決於體素內自旋數（voxel 大小/質子密度）、B₀、線圈與取樣（頻寬/平均次數）**；影像對比與 SNR 之取捨受 TR/TE/翻轉角與序列設計影響。",
+    "**場強(field strength)與SNR**：理論上訊號強度與靜磁場強度(B0)**平方**成正比，雜訊則與場強成**線性**正比——完美系統下**SNR與B0成正比**，故**3T系統之SNR理論上為1.5T之2倍**。"
+  ],
+  "management": "",
+  "name": "MRI Signal-to-Noise Ratio (Bandwidth & Parameters)",
+  "nameZh": "磁振訊雜比",
+  "slug": "mri-snr",
+  "subspecialty": "Physics"
+}

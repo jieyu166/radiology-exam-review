@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Ameloblastoma 是最常見的 odontogenic tumor，組織學上為良性但具有 locally aggressive 特性。最常發生於 mandible（下顎骨，約80%），而非 maxilla。典型影像為 multilocular radiolucent lesion（soap bubble appearance）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見位置**：mandible 後段（posterior body / ramus），約 80%",
+    "**非 maxilla**（上顎骨最常見的 odontogenic tumor 是 odontoma）",
+    "組織學良性但 locally aggressive，復發率高",
+    "影像：multilocular radiolucent lesion = **soap bubble** / honeycomb pattern on panoramic radiograph",
+    "臨床：口腔/顏面腫脹、牙齒鬆動"
+  ],
+  "management": "",
+  "name": "Ameloblastoma",
+  "nameZh": "造釉細胞瘤",
+  "slug": "ameloblastoma",
+  "subspecialty": "H&N"
+}

@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**台灣1-4歲兒童死亡率在OECD國家「健康與安全」調查中排名倒數前三名——死亡率明顯高於24國平均值，屬表現較差之族群。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "http://www.who.int/healthinfo/statistics/mortality_rawdata/en/（2018",
+      "url": "http://www.who.int/healthinfo/statistics/mortality_rawdata/en/（2018"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**台灣數據**：每十萬人口(1-4歲)死亡人數(2006-2010五年平均)約**30.6**。",
+    "**對照數據**：24國平均值約**21.9**（標準差4.3）；表現最佳的芬蘭約**15.30**。",
+    "**排名結論**：台灣死亡率明顯高於平均值超過2個標準差，於OECD國家2012年「健康與安全」調查中，1-4歲兒童死亡率排名（由低到高，即死亡率越低排名越前）屬**倒數前三名**。"
+  ],
+  "management": "",
+  "name": "Taiwan 1-4y Child Mortality — OECD Comparison",
+  "nameZh": "台灣兒童死亡率OECD排名",
+  "slug": "taiwan-child-mortality-oecd",
+  "subspecialty": "Physics"
+}

@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**腸繫膜淋巴瘤的典型徵象為『sandwich sign（三明治徵象；亦稱 hamburger sign）』——融合的腸繫膜淋巴結團塊自兩側包夾腸繫膜血管與周圍脂肪，形似三明治；彩色都卜勒/CT 可見血管貫穿融合淋巴結團塊中心。此徵象對腸繫膜淋巴瘤（多為 non-Hodgkin）具特異性。** 判讀分水嶺：**sandwich sign＝血管兩側之融合淋巴結包夾血管；特異於腸繫膜淋巴瘤（NHL），惟移植後須想 PTLD。與 target（腸套疊/腸壁）、keyboard（小腸阻塞皺襞）、doughnut（腸套疊橫切）不同。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1425（輔助來源",
+      "url": "https://doi.org/10.53347/rID-1425（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **辨識**：融合低回音淋巴結團塊 + 血管居中貫穿（都卜勒見血流）＝sandwich，勿誤為單一腫塊。\n- **CT 對照**：血管兩側 confluent 淋巴結、包夾腸繫膜脂肪；淋巴瘤軟、包繞血管而不阻塞（vs 腺癌之促結締組織/阻塞）。\n- **病史連結**：移植病人見此徵象 → 想 PTLD；否則以 NHL 為主。\n- **範圍評估**：常伴後腹腔/其他部位淋巴結腫大，分期需全面掃描。\n- **鑑別其他徵象**：target/keyboard/doughnut 屬腸相關徵象，非淋巴瘤特徵。\n- **NHL vs HD（STATdx）**：**mesenteric adenopathy 於 NHL >50%、HD <5%**（故 sandwich sign 偏向 NHL）；NHL 淋巴結較大、分佈非連續；HD 早期以上位 paraaortic 連續分佈。\n- **淋巴瘤影像特性**：CT **輕度均質強化（~肌肉密度）、治療前罕鈣化（<1%）**；**融合軟組織 mantle 包繞腸繫膜血管與主動脈/IVC、推移主動脈離開脊椎、推移靜脈但「不壓迫」**（軟、包繞不阻塞）；MR T1 低/T2 iso-高（低 T2 疑治療後纖維化）、DWI 受限；US 低回音、fatty hilum 消失。\n- **PET/分期/切片**：**PET 敏感度 90-95%（CECT 80-85%）**，但 MALT/marginal zone/CLL-SLL 敏感度低；Lugano 分類＋Deauville 評分評療效；**需 core biopsy＋flow cytometry（FNA 不足）**。\n- **DDx（後腹腔/腸繫膜腫大）**：轉移（離散非融合）、睪丸轉移（沿 gonadal vein）、肉瘤、神經源腫瘤、**結核（低密度淋巴結）**、**retroperitoneal fibrosis（包繞不推移、輸尿管內移）**、Castleman/Kaposi（富血管）。",
+  "keyPoints": [
+    "**Sandwich sign（三明治/hamburger 徵象）**：**融合之腸繫膜淋巴結於腸繫膜血管兩側**，血管與周圍脂肪被夾在中間 → 三明治外觀；US 彩色都卜勒/CT 見**血管貫穿融合淋巴結團塊中心**。",
+    "**特異性**：**特異於腸繫膜淋巴瘤（typically non-Hodgkin）**；若病人曾器官移植，須考慮 **PTLD（post-transplant lymphoproliferative disorder）**。",
+    "**與其他徵象鑑別**：",
+    "**Target sign**：腸套疊/腸壁病灶之同心圓層狀。",
+    "**Keyboard sign**：小腸阻塞之皺襞（valvulae conniventes）鍵盤狀。",
+    "**Doughnut sign**：腸套疊橫切之環狀。"
+  ],
+  "management": "1. **sandwich sign**：血管兩側融合淋巴結包夾血管。\n2. **特異**：腸繫膜淋巴瘤（NHL）；移植後想 PTLD。\n3. **血管關係**：淋巴瘤包繞不阻塞血管。\n4. **鑑別**：與 target/keyboard/doughnut 等腸徵象不同。\n5. **分期**：常伴他處淋巴結，需全面評估。\n\n> [!note] 考點：何者最可能用來描述腸繫膜淋巴瘤的超音波表現?\n> **Sandwich sign（B）**——融合淋巴結於腸繫膜血管兩側包夾、血管貫穿團塊中心。Target sign（腸套疊/腸壁）、keyboard sign（小腸阻塞皺襞）、doughnut sign（腸套疊橫切）為其他病灶徵象，非腸繫膜淋巴瘤特徵。",
+  "name": "Mesenteric Lymphoma — Sandwich Sign",
+  "nameZh": "腸繫膜淋巴瘤三明治徵象",
+  "slug": "mesenteric-lymphoma-ultrasound",
+  "subspecialty": "US"
+}

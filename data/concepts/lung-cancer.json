@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**2011 IASLC 肺腺癌分類是一條侵犯深度的連續譜：無侵犯（AIS）→ 侵犯 ≤5 mm（MIA）→ 侵犯 >5 mm（invasive），影像對應 純 GGN → 主要 GGN 含小 solid → part-solid/solid。** 判讀分水嶺一：**AIS＝純 lepidic、無侵犯、≤3 cm**（CT 純 nonsolid）；判讀分水嶺二：**MIA＝侵犯 ≤5 mm，CT 僅 solid 部分代表侵犯**；兩者 ≤3 cm 是共同上限，差別只在有無侵犯。",
+  "differentialDiagnosis": [
+    "實體",
+    "AAH",
+    "AIS",
+    "MIA",
+    "Invasive"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/radiol.12120240",
+      "url": "https://doi.org/10.1148/radiol.12120240"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**AAH**（atypical adenomatous hyperplasia，非典型腺瘤性增生）：preinvasive；通常 <5 mm 的純毛玻璃結節（nonsolid、無 solid 成分、支氣管血管邊界保留）。",
+    "**AIS**（adenocarcinoma in situ，原位腺癌）：**純 lepidic、非侵犯、≤3 cm**；切除後 disease-free survival 約 100%；CT 多為純毛玻璃（nonsolid）。",
+    "**MIA**（minimally invasive adenocarcinoma，微浸潤腺癌）：**≤3 cm、以 lepidic 為主、侵犯 ≤5 mm**；CT 主要 nonsolid，可含 <5 mm 中央 solid（僅 solid 為侵犯成分）；切除後預後趨近 100%。",
+    "**Invasive adenocarcinoma**：侵犯 >5 mm；依**優勢型態**分（lepidic / acinar / papillary / **micropapillary（2011 新增）** / solid with mucin），以 5% 增量半定量取單一優勢型。",
+    "**Variants**：invasive mucinous adenocarcinoma（IMA，原 mucinous BAC）、colloid、fetal、enteric。"
+  ],
+  "management": "",
+  "name": "Lung Adenocarcinoma — 2011 Classification",
+  "nameZh": "",
+  "slug": "lung-cancer",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,36 @@
+{
+  "checked": false,
+  "definition": "**Guillain-Mollaret 三角＝紅核（中腦）→ 下橄欖核（延髓）→ 對側齒狀核（小腦）；路徑破壞後，下橄欖核不萎縮反而肥大（HOD），T2 高訊號。** 判讀分水嶺：**三角確認考點＝red nucleus＋inferior olivary nucleus＋contralateral dentate nucleus；putamen / caudate / substantia nigra 不在三角內**；HOD 是少數「退化卻肥大」的特例。記憶鉤：空間順序沿腦幹由上而下——中腦（紅）→延髓（橄欖）→對側小腦（齒狀），就像紅燈、橄欖、齒輪三站。",
+  "differentialDiagnosis": [
+    "**核心鑑別點**：下橄欖核 **T2 高訊號 ＋ 局部肥大 ＋ 不強化、無瀰散受限**，且病變**侷限於橄欖核輪廓內**，配合**後顱窩遠端原發病灶史** → HOD 幾乎是唯一能同時解釋全部所見的診斷。",
+    "vs **腫瘤／感染**：兩者多會**強化**；HOD 不強化。",
+    "vs **急性梗塞**：梗塞有**瀰散受限**；HOD 無。",
+    "vs **慢性梗塞／脫髓鞘（MS）**：此類晚期常**萎縮或不膨大**；HOD 反而**肥大**為關鍵分辨點。",
+    "**陷阱**：第二期的橄欖膨大易被誤判為腫瘤；勿因「膨大」直接判腫瘤——確認**不強化＋無 mass effect＋定位侷限＋有原發病灶**即可避免。橄欖位置固定（延髓前外側），位置不對要重新考慮其他延髓病變。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.5334/jbr-btr.1065",
+      "url": "https://doi.org/10.5334/jbr-btr.1065"
+    },
+    {
+      "label": "10.1038/s41598-025-14912-1，腦幹／小腦出血後",
+      "url": "https://doi.org/10.1038/s41598-025-14912-1，腦幹／小腦出血後"
+    }
+  ],
+  "imagingFindings": "- **三臂走向**（順時針，記憶「齒狀傳出 → 紅核 → 橄欖 → 回齒狀」）：\n  - **齒狀核 → 對側紅核**：傳出纖維走**上小腦腳（superior cerebellar peduncle / brachium conjunctivum）**，於中腦**交叉（decussation）**後接到**對側**紅核。此臂「會跨中線」。\n  - **紅核 → 同側下橄欖核**：經**中央被蓋束（central tegmental tract, CTT）**下行；此臂**不交叉**。\n  - **下橄欖核 → 對側小腦**：經**下小腦腳（olivocerebellar tract）**回到原齒狀核，閉合迴路。\n- 臨床上致 HOD 的關鍵在**齒狀→紅核（含 SCP）** 與**紅核→橄欖（CTT）** 兩臂（即 dentato-rubro-olivary 通路）；單純破壞橄欖齒狀回返纖維一般不致 HOD。",
+  "keyPoints": [
+    "**三角組成**：",
+    "**Red nucleus（紅核，中腦）**。",
+    "**Inferior olivary nucleus（下橄欖核，延髓）**。",
+    "**Contralateral dentate nucleus（對側齒狀核，小腦）**。",
+    "連接（迴路方向）：齒狀核傳出經**上小腦腳（brachium conjunctivum）**上行、於紅核下方交叉 → 經**中央被蓋束**下行至下橄欖核 → 橄欖傳出跨中線經**下小腦腳**回到原齒狀核。",
+    "**損傷 → 肥大性橄欖核退化（HOD）**：下橄欖核『肥大』＋T2 高訊號；機轉為**經突觸退化（transsynaptic degeneration）**。症狀性顎肌震顫／HOD 與三角**前兩臂（齒狀→紅核、紅核→橄欖）**病灶相關，而非橄欖齒狀纖維。",
+    "**側別**：HOD 多為**單側**；腦幹病灶 → **同側**橄欖、小腦病灶 → **對側**橄欖。"
+  ],
+  "management": "",
+  "name": "Guillain-Mollaret Triangle & Hypertrophic Olivary Degeneration",
+  "nameZh": "齒狀核紅核橄欖三角",
+  "slug": "guillain-mollaret-triangle",
+  "subspecialty": "NR"
+}

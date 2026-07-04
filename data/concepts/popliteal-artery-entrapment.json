@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**PAES 的核心概念：「站靜止時沒事，踮腳時腓腸肌夾住膕動脈」——靜息 Doppler 正常不能排除診斷，一定要做誘發姿勢。** 多因腓腸肌內側頭（medial head of gastrocnemius）位置異常壓迫膕動脈，蹠屈（plantar flexion）時壓迫最明顯，傳統金標準是 DSA 加誘發姿勢。判讀分水嶺一：**誘發姿勢（蹠屈/背屈）才壓迫，中立位可正常**；判讀分水嶺二：**正常靜息 Doppler 不排除 PAES**。",
+  "differentialDiagnosis": [
+    "**Adventitial cystic disease（外膜囊腫病）**：常為**40 多歲男性、無動脈硬化危險因子**,囊腫位於膕動脈外膜,T2 呈水樣高訊號;偏心囊腫造成**scimitar sign（彎刀徵）**、向心囊腫呈 hourglass;與 PAES 同屬年輕/無危險因子族群,但屬囊性病灶而非肌肉壓迫。",
+    "**動脈硬化（atherosclerosis）**：年長、有危險因子、鈣化斑塊、多處受累;PAES 反之為年輕、無危險因子、單一節段。",
+    "**慢性運動性腔室症候群（chronic exertional compartment syndrome）**：運動性小腿痛但屬肌肉腔室壓力升高、非動脈受壓,血流影像正常。",
+    "**外傷性膕動脈損傷**：有外傷史,可資鑑別。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**機轉**：**腓腸肌內側頭**（或 popliteus/纖維帶）壓迫膕動脈;蹠屈時壓迫最明顯。",
+    "**誘發為關鍵**：壓迫須以**蹠屈/背屈誘發**;故「中立位即壓迫」**錯**（option A 錯）。",
+    "**靜息檢查不排除**：靜息 Doppler 可正常 → **正常 Doppler『不能』排除 PAES**（option B 錯）;需誘發姿勢重做。",
+    "**金標準**：**導管血管攝影（DSA）配合誘發姿勢**顯示膕動脈 medial deviation/compression（2016-138 正解 D）;CTA/MRA 可顯示異常肌腱/結構與壓迫。"
+  ],
+  "management": "",
+  "name": "Popliteal Artery Entrapment Syndrome (PAES)",
+  "nameZh": "膕動脈陷套症候群",
+  "slug": "popliteal-artery-entrapment",
+  "subspecialty": "CV"
+}

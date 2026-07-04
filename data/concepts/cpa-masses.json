@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**CPA 腫瘤的「頻率答案」幾乎都是 vestibular schwannoma（~80%），第二永遠是 meningioma（~10%）。** 三者用影像特徵一刀切：vestibular schwannoma 以 IAC 為中心（ice-cream-cone）、meningioma 有硬膜基底＋dural tail＋可鈣化但不進 IAC、epidermoid 外觀像 CSF 但 DWI 受限（鑽縫走）。記憶鉤：**「80-10-其他」順序＋S（schwannoma 進孔）vs M（meningioma 貼膜）vs E（epidermoid DWI 亮）**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1007/s00330-007-0680-4",
+      "url": "https://doi.org/10.1007/s00330-007-0680-4"
+    }
+  ],
+  "imagingFindings": "- **診斷演算法（Bonneville）**：**依『病灶起源部位＋形狀邊界＋密度／訊號強度＋對比劑攝取』系統歸類 CPA 病灶**，並輔以 DWI/PWI/MRS——CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵。\n- **三主角一刀切（考點）**：**vestibular schwannoma＝以 IAC 為中心、ice-cream-cone、強烈強化、無鈣化；meningioma＝硬膜基底、與骨鈍角、dural tail、可鈣化、不進 IAC；epidermoid＝似 CSF 但 DWI 受限、FLAIR 不完全抑制、沿腦池鑽縫包繞血管神經**。\n- **非強化 extra-axial DDx（Bonneville）**：**囊性（epidermoid、arachnoid、neurenteric cyst）或含脂（dermoid、lipoma）**——DWI 與脂肪辨識為區分關鍵（epidermoid DWI 亮、arachnoid cyst DWI 隨 CSF、lipoma 脂抑壓低）。\n- **顱底延伸（Bonneville）**：**paraganglioma、chondromatous tumor、chordoma、cholesterol granuloma、endolymphatic sac tumor 可由顱底侵入 CPA**——注意骨質變化與 T1 高訊號（cholesterol granuloma）。\n- **腦幹/腦室外突陷阱（Bonneville）**：**腦幹或第四腦室腫瘤可外突至 CPA、難與 extra-axial 病灶區分**（lymphoma、hemangioblastoma、choroid plexus papilloma、ependymoma、glioma、medulloblastoma）——找與腦幹之接合面。",
+  "keyPoints": [
+    "**Vestibular schwannoma（acoustic neuroma）**：**遠最常見（~80%）**；以**內聽道（IAC）**為中心、ice-cream-cone、強烈強化、無鈣化。",
+    "**Meningioma**：**第二常見（~10%）**；**硬膜基底、與骨呈鈍角、dural tail、可鈣化**、不以 IAC 為中心。",
+    "**Epidermoid cyst**：第三常見族群（CSF 密度/訊號但**DWI 受限**、FLAIR 不完全抑制、沿腦池**鑽縫包繞**血管神經）。",
+    "其他：trigeminal / facial nerve schwannoma、ependymoma、metastasis、aneurysm。",
+    "**分類法（依影像）**：強化腫塊／T1 高訊號／CSF 密度／其他。"
+  ],
+  "management": "1. **頻率順序（考點）**：**CPA 腫塊 ~80% 為 vestibular schwannoma、~10% meningioma、其次 epidermoid**——「第二常見＝meningioma」為經典題。\n2. **臨床表現**：CPA 症候群（感音性聽損、耳鳴、眩暈；較大者三叉/顏面神經與腦幹/小腦壓迫症）。\n3. **schwannoma 關聯**：雙側 vestibular schwannoma＝**NF2**；聽損進展與 IAC/CPA 腫瘤大小相關。\n4. **處置分流（Bonneville）**：正確影像分類直接影響處置（觀察、放射手術 vs 顯微手術），故系統化演算法具臨床價值。\n5. **少見但重要**：epidermoid 全切困難易復發；顱底病灶（paraganglioma/ELST）與 von Hippel-Lindau（ELST、hemangioblastoma）關聯須留意。\n\n> [!note] 考點\n> CPA 最常見＝**vestibular schwannoma（~80%）**；**第二常見＝meningioma（~10%，硬膜基底＋dural tail）**；epidermoid＝DWI 受限。\n\n> [!note] 2016-108 題幹\n> 「**The 2nd most common cerebellopontine angle tumor in adult?**」→ 答 **A Meningioma**（CPA 第二常見，~10%；最常見為 vestibular schwannoma ~80%）。",
+  "name": "Cerebellopontine Angle (CPA) Masses — DDx",
+  "nameZh": "橋小腦角腫瘤",
+  "slug": "cpa-masses",
+  "subspecialty": "NR"
+}

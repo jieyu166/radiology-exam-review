@@ -1,0 +1,41 @@
+{
+  "checked": false,
+  "definition": "**毛刺狀腫塊（spiculated mass）的鑑別以惡性、術後疤痕、放射狀疤痕為主——反直覺的是黏液癌不在其中，因為它偏向圓形、邊界清楚。** 毛刺來自腫瘤牽拉周圍纖維組織，黏液腺癌因膠狀基質反而推開邊界形成光滑圓形。記憶鉤：**「毛刺拉≠黏液推——黏液癌邊界清楚」**；radial scar（複雜硬化病灶）和 tubular carcinoma 都是典型毛刺，也是重要鑑別。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://www.sciencedirect.com/topics/medicine-and-dentistry/spiculated-mass",
+      "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/spiculated-mass"
+    },
+    {
+      "label": "https://emedicine.medscape.com/article/347184-overview",
+      "url": "https://emedicine.medscape.com/article/347184-overview"
+    },
+    {
+      "label": "10.1148/rg.2020200054：spiculation",
+      "url": "https://doi.org/10.1148/rg.2020200054：spiculation"
+    },
+    {
+      "label": "10.1148/rg.230022：DBT",
+      "url": "https://doi.org/10.1148/rg.230022：DBT"
+    },
+    {
+      "label": "10.1148/rg.230022：RSL",
+      "url": "https://doi.org/10.1148/rg.230022：RSL"
+    }
+  ],
+  "imagingFindings": "**定義與分類**\n- **Spiculated margin（毛刺狀邊緣）**：自腫塊放射狀向外延伸的纖維線（radiating lines），是 ACR BI-RADS mass margin 的描述語之一,使用此語通常即代表可疑惡性。\n- 毛刺狀腫塊在 BI-RADS 屬**高度可疑惡性（4C 至 5）**;單純 spiculated margin 加 irregular high-density mass 多可直接列 category 5。\n\n**惡性代表**\n- **Invasive ductal carcinoma（IDC）**：最常見的毛刺狀惡性腫塊。\n- **Invasive lobular carcinoma（ILC）**：常呈毛刺狀／結構扭曲,且在乳攝上密度可與腺體等密（isodense）而易被低估。\n- **Tubular carcinoma**：典型為**小而毛刺**的腫塊,惡性度低但影像高度模擬其他侵犯癌。\n\n**各模態影像特徵**\n- **乳房攝影（mammography）**：放射狀緻密影（spiculated, high-density mass）＋結構扭曲;可合併 microcalcification（IDC 常見）。\n- **Tomosynthesis（DBT）**：分層影像減少組織重疊,**毛刺與中央透亮較傳統 2D 乳攝清楚**,提升結構扭曲與 radial scar 之偵測。\n- **超音波（US）**：典型惡性呈**不規則、低回音、邊緣毛刺／成角,常伴後方聲影（posterior acoustic shadowing）**;IDC 約近半數見毛刺＋後方聲影。\n- **MRI**：spiculated mass 多呈**不規則邊緣、rim／heterogeneous enhancement**,動力學常為 plateau 或 **washout（type 3）**曲線。\n\n**判讀分水嶺：真腫瘤 vs 良性／類惡性病灶**\n- **Radial scar／complex sclerosing lesion（放射狀疤痕／複雜硬化病灶）**：典型為**中央透亮（central lucency）＋細長毛刺、無中央可觸腫塊（no central mass）**;毛刺長度／外觀**隨投照角度改變**——此「換角度即變樣」與「中央透亮」是傾向良性結構扭曲的線索。 惟乳攝無法可靠地與侵犯癌區分。\n  - 病理上 radial scar < 1 cm、complex sclerosing lesion > 1 cm;US 多為不規則、低回音、邊緣模糊;MRI 可見不規則 mass 伴 type 3 曲線,與惡性重疊。\n- **術後疤痕（postsurgical scar）**：依**手術病史＋位置吻合**判斷;傾向良性的特徵為**中央透亮、隨不同投照角度外觀改變,且隨時間穩定或淡化（漸消退）**,務必比對舊片。\n- **Fat necrosis（脂肪壞死）**：可呈毛刺／不規則腫塊,但亦常見**油囊（oil cyst,radiolucent、薄壁、可蛋殼狀鈣化）**與粗鈣化;隨時間鈣化演變,比對舊片有助診斷。\n\n**切片原則**\n- 毛刺狀腫塊**即使影像看似良性,通常仍須切片**確認,因乳攝特徵不足以排除惡性。\n- **Radial scar 易與 ADH／其他高風險病灶或惡性共存**;粗針切片診斷為 RSL 後,常建議手術切除或嚴密追蹤——惟近年資料顯示無非典型之 RSL 升級率低（一系列僅約 3.1% 升級為 DCIS、無升級為侵犯癌）,管理趨於個別化。\n\n> [!note] 考點：何者「不屬」毛刺狀腫塊的 DDx?\n> **Mucinous (colloid) carcinoma**——呈圓形/邊界清楚腫塊。postbiopsy scar、tubular cancer、radial scar 皆為 spiculated DDx。\n\n> [!note] 考點：60歲女性、毛刺狀腫塊＋pleomorphic microcalcification，粗針切片證實惡性，最可能的組織學型態?\n> **Invasive ductal carcinoma（A）**——最常見的乳癌組織學型態，典型呈 irregular/spiculated high-density mass ± pleomorphic microcalcification。Mucinous tumor 呈圓形邊界清楚（非毛刺）、intracystic carcinoma 與 papillary carcinoma 相對少見，非此典型表現的最可能型態。",
+  "keyPoints": [
+    "**Spiculated mass DDx**：",
+    "**Postbiopsy/postsurgical scar**（術後疤痕）。",
+    "**Tubular carcinoma**（典型小而毛刺）。",
+    "**Radial scar**（complex sclerosing lesion）。",
+    "invasive ductal carcinoma、fat necrosis。",
+    "**Mucinous（colloid）carcinoma**：呈**圓形/邊界清楚腫塊**,**非毛刺狀** → 不屬 spiculated DDx。"
+  ],
+  "management": "",
+  "name": "Spiculated Breast Mass (Differential Diagnosis)",
+  "nameZh": "毛刺狀腫塊",
+  "slug": "breast-spiculated-mass",
+  "subspecialty": "Breast"
+}

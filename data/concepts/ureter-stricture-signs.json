@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**\"Balloon on a string\" 是 UPJ（腎盂輸尿管交界）阻塞的典型徵象，不是 UVJ；泌尿道結核則產生 sawtooth、pipe-stem、corkscrew/beaded 等一系列狹窄徵象。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.240056",
+      "url": "https://doi.org/10.1148/rg.240056"
+    },
+    {
+      "label": "10.1007/s00261-017-1129-0",
+      "url": "https://doi.org/10.1007/s00261-017-1129-0"
+    }
+  ],
+  "imagingFindings": "- **UPJ vs UVJ 定位**：擴張止於腎盂–近端輸尿管交界＝UPJ 阻塞（balloon on a string）；擴張延伸至遠端近膀胱＝UVJ 病變，兩者位置不可混淆。\n- **結核徵象成套判讀**：sawtooth（活動期潰瘍）→ pipe-stem/短縮（纖維化）→ corkscrew/beaded（癒合），常合併腎鈣化、腎乳頭壞死、膀胱容積縮小（thimble bladder）。\n- **CTU 技巧**：多平面重組（MPR）與最大強度投影（MIP）有助顯示輸尿管全程狹窄與變形，已取代傳統 IVU。\n- **判讀陷阱**：把 balloon on a string 說成「主要見於 UVJ 阻塞 >> UPJ」是錯的——經典見於 UPJ。",
+  "keyPoints": [
+    "**Balloon on a string sign**：腎集尿系統與近端輸尿管擴張，典型見於 **UPJ 阻塞**——IVU/CTU 上腎盂如氣球、狹窄輸尿管如細繩。",
+    "**Sawtooth appearance**：結核侵犯輸尿管，管腔不規則、狹窄與擴張交替呈鋸齒狀。",
+    "**Pipe-stem（管狀）ureter**：結核晚期輸尿管纖維化、僵直變短，管腔平直如管。",
+    "**Corkscrew / beaded ureter**：結核癒合、纖維化後所致的螺旋狀或串珠狀變形。"
+  ],
+  "management": "1. 泌尿生殖道結核是肺外結核最常見型式之一，可破壞腎實質與集尿系統。\n2. 症狀多不特異（反覆下泌尿道症狀、對抗生素無反應之尿路感染），易延誤診斷。\n3. 影像可提示診斷，但確診仍須細菌學或組織學證據。\n4. 先天性 UPJ 阻塞是兒童腎盂積水常見原因，成人亦可見。\n5. 慢性狹窄可致腎功能喪失，須及早診斷與引流。\n\n> [!note] 考點：關於輸尿管狹窄的經典影像徵象，何者「錯誤」？\n> **「Balloon on a string 主要見於 UVJ 阻塞 >> UPJ」為錯誤**——此徵象經典見於 UPJ 阻塞。Sawtooth、pipe-stem、corkscrew/beaded 皆為結核相關的正確敘述。",
+  "name": "Ureteral Stricture Radiologic Signs",
+  "nameZh": "輸尿管狹窄影像徵象",
+  "slug": "ureter-stricture-signs",
+  "subspecialty": "GU"
+}

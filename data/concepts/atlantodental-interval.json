@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**ADI 是 C1 前弓後緣到齒突前緣的距離，測的是橫韌帶還撐不撐得住——距離越大代表韌帶越鬆或已斷。** 正常上限：X 光成人 <3 mm、兒童 <5 mm（兒童韌帶本來就較鬆，考試愛考）；CT 判讀標準更嚴（成人 <2 mm）。記憶鉤：兒童上限「翻倍」（成人 3，兒童 5）。超過閾值就想：類風濕、Down 症、創傷（橫韌帶斷裂）、感染後 Grisel 症候群。",
+  "differentialDiagnosis": [
+    "**動態屈伸側位 X 光**為評估不穩主軸：中立位 AADI 正常不能排除不穩，須在**屈曲位**量最大 AADI／最小 PADI；os odontoideum 與韌帶鬆弛常僅在屈曲位顯現。",
+    "**MRI** 評估脊髓受壓、pannus、SAC 及髓內訊號變化（決定手術與否）。",
+    "**DDx/陷阱**：兒童正常 pseudosubluxation 與生理性韌帶鬆弛勿誤判；測量誤差來自非真側位、頸部姿勢；os odontoideum 須與齒突骨折急性相鑑別（皮質緣光滑、圓鈍且有獨立小骨提示先天）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.230137",
+      "url": "https://doi.org/10.1148/rg.230137"
+    },
+    {
+      "label": "https://doi.org/10.2106/00004623-199309000-00004",
+      "url": "https://doi.org/10.2106/00004623-199309000-00004"
+    },
+    {
+      "label": "https://doi.org/10.1177/21925682221081211",
+      "url": "https://doi.org/10.1177/21925682221081211"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Atlantodental Interval (ADI)",
+  "nameZh": "寰齒間距",
+  "slug": "atlantodental-interval",
+  "subspecialty": "MSK"
+}

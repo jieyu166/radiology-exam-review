@@ -1,0 +1,26 @@
+{
+  "checked": false,
+  "definition": "**CNS germinoma 的三個關鍵詞：年輕、中線、男性為主。** 最常見的顱內生殖細胞瘤；好發兒童/青年（peak 10–12 歲、90% <20 歲），沿**中線**分布——松果體（最多，男童為主）、鞍上/神經垂體（可與松果體形成 bifocal）、基底節/視丘。影像招牌：CT 相對**高密度**、MRI T1/T2 大致**等訊號**、**DWI 受限**、注射後**顯著且均勻強化**；松果體者把既有鈣化「包進」腫瘤裡（engulf，對比 pineoblastoma 把鈣化往周邊「炸開」exploded）。記憶鉤：「松果體找男生、鞍上偏女生」，但整體以男性為主；germinoma「engulf」鈣化、pineoblastoma「explode」鈣化。",
+  "differentialDiagnosis": [
+    "**松果體區**：pineoblastoma（鈣化「exploded」周邊、DWI 受限、預後差）、pineocytoma（成人、邊界清、強化均勻）、teratoma（含脂肪/鈣化/囊變、訊號雜亂）、tectal glioma。",
+    "**鞍上**：Langerhans cell histiocytosis（亦造成柄增厚＋DI，兒童）、顱咽瘤、視路/下視丘 glioma、lymphocytic hypophysitis、轉移。",
+    "**基底節**：低度 glioma、缺血/血管病變、感染——但同側半球萎縮較偏向 germinoma。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "- **松果體型**：邊界清楚的結節/分葉狀腫塊、均勻強化；「engulfed」鈣化；可伴 bithalamic 延伸與瘤周水腫；可壓迫導水管造成阻塞性水腦、Parinaud 症候群。\n- **鞍上/神經垂體型**：臨床以**尿崩（DI）**起病；MRI 見**神經垂體 T1 高訊號亮點（bright spot）消失**、**垂體柄增厚**。\n- **基底節/視丘型**：起病較隱匿（進行性偏癱、認知/精神症狀）；早期可僅見 **SWI/T2\\* 低訊號**；具特徵的**同側大腦/腦幹萎縮（Wallerian degeneration，約 1/3 病例）**——兒童基底節病灶＋進行性偏癱＋同側半球萎縮應高度懷疑此型。",
+  "keyPoints": [
+    "**流行病學**：**最常見顱內生殖細胞瘤**；好發兒童/青年，**peak 10–12 歲、90% <20 歲**。",
+    "**性別**：整體**男性為主**；松果體區 **M:F 約 5–22:1**（男童多）；鞍上者反而**女童略多**；基底節者亦男性為主。故「女性約男性 10 倍」**錯誤**＝題目正解（2016-173 正解 B，性別方向相反）。",
+    "**位置（中線）**：**松果體 ~50%（最多）**、**鞍上/神經垂體 ~20–30%**、**基底節/視丘 ~5–10%**；松果體＋鞍上同時出現＝**bifocal**（具高度提示性）。",
+    "**CT**：實質部分相對**高密度/等密度**；松果體者「**engulfed**（包覆型）」鈣化＝把腺體既有鈣化吞入腫瘤——對比 pineoblastoma 的「**exploded**（周邊炸開型）」鈣化（鑑別 specificity 高）。",
+    "**MRI**：T1 等/略低、T2 等/略高（細胞密集）；實質部分 **DWI 受限／ADC 偏低**；注射後**顯著、相對均勻強化**（vs 非生殖細胞瘤 NGGCT 之不均勻強化）。",
+    "**播散傾向**：易沿 CSF/室管膜播散 → bifocal 或診斷時應做**全神經軸（whole-neuraxis）MRI** 分期。",
+    "**腫瘤標記**：純 germinoma **AFP 應陰性**；β-hCG 可**輕度**升高（合併 syncytiotrophoblastic 成分時）；**AFP 升高或 β-hCG 顯著升高 → 提示非生殖細胞瘤性（NGGCT）**，影響治療與預後。",
+    "**治療**：對**放療/化療高度敏感**，預後相對佳。"
+  ],
+  "management": "",
+  "name": "CNS Germinoma",
+  "nameZh": "中樞神經生殖細胞瘤",
+  "slug": "cns-germinoma",
+  "subspecialty": "NR"
+}

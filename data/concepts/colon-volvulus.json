@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**結腸扭轉（colonic volvulus）最常見的是乙狀結腸（sigmoid，~60%），其次是盲腸（cecal，~25–40%）——這個順序考試最常逆轉設陷。** 扭轉造成閉鎖環阻塞（closed-loop obstruction），平片與 CT 各有特徵徵象，而判斷有無**缺血／絞扼**是影響處置（內視鏡 detorsion vs 手術）的關鍵。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.10092112，abstract",
+      "url": "https://doi.org/10.1148/radiol.10092112，abstract"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見型＝sigmoid（~60% 結腸扭轉）**，cecal 次之；故「**cecal 為最常見**」**錯誤**＝題目正解（2016-124 正解 A）。",
+    "**Sigmoid 平片**：巨大充氣 **coffee-bean／inverted-U** 迴圈、ahaustral（喪失結腸袋）；頂端投射至**橫結腸以上、跨越橫膈**＝**northern exposure sign**；Frimann-Dahl 三線聚合、直腸無氣。coffee-bean 可見於 57–90% 病例。",
+    "**Sigmoid CT**：**whirl sign**（繫膜血管與腸繫膜環繞扭轉點呈漩渦，冠狀/矢狀重組最清楚）、扭轉處**bird-beak／鳥嘴狀 transition point**、mesenteric swirl；whirl 對 volvulus 近乎 pathognomonic。",
+    "**Cecal 平片**：擴張盲腸（含結腸袋）移位至 **LUQ/中上腹**，呈 **kidney/coffee-bean**，頂端指向 LUQ；常見小腸擴張、遠端結腸塌陷。",
+    "**Cecal CT**：**whirl sign**（盲腸與繫膜扭轉，敏感度約 73%）、**bird-beak** 漸窄 transition point（敏感度約 82%）、coffee-bean。盲腸 >10 cm 擴張、coffee-bean、LUQ apex 特異度高（100%/92%/100%）但敏感度較低（45%/27%/45%）。",
+    "**缺血／絞扼徵象（兩型共通，判斷急迫性）**：腸壁增厚、黏膜不強化或**壁不強化**、**腸壁積氣（pneumatosis）**、繫膜水腫/血管充血、腹水、（晚期）門靜脈積氣、穿孔游離氣。",
+    "**處置原則**：**Sigmoid** 無缺血者首選**內視鏡 detorsion + 置放減壓管**（復發率高，後續多需擇期乙狀結腸切除）；**Cecal** 內視鏡復位成功率低，治療以**手術為主**（無缺血可 detorsion + cecopexy；已缺血/壞死/穿孔則 right hemicolectomy）。",
+    "**兒童罕見**：結腸扭轉好發成人，兒童少見。"
+  ],
+  "management": "",
+  "name": "Colon Volvulus (Sigmoid vs Cecal)",
+  "nameZh": "結腸扭轉",
+  "slug": "colon-volvulus",
+  "subspecialty": "ABD"
+}

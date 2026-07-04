@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**ILA 是「沒在找 ILD 卻撿到」的間質異常（常見於 LDCT 篩檢）；三型裡 subpleural fibrotic（有 honeycombing 或牽引性支氣管擴張）風險最高、死亡率最高，要轉介。** 判讀分水嶺一：**定義＝偶然、雙側、non-dependent、≥5% 某一肺區、病人未疑 ILD**——缺任一條件即不算標準 ILA；判讀分水嶺二：**三型中 subpleural fibrotic 預後最差（依 UIP 標準分類）**；見到 honeycombing/traction bronchiectasis 務必報告並建議轉胸腔科 + HRCT/PFT 評估。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1016/S2213-2600(20)30168-5",
+      "url": "https://doi.org/10.1016/S2213-2600(20"
+    }
+  ],
+  "imagingFindings": "- **定義三要件（Fleischner 2020）**：**偶然、雙側、non-dependent 之 CT 間質異常、影響 ≥5% 某一肺區、病人非疑 ILD**——缺任一即非標準 ILA。\n- **三型（Fleischner 2020）**：**① non-subpleural、② subpleural non-fibrotic、③ subpleural fibrotic（含 traction bronchiectasis/honeycombing）**；**subpleural fibrotic 最易進展、死亡率最高，依 UIP 診斷標準分類**。\n- **不納入（Fleischner 2020）**：**centrilobular GGO、dependent atelectasis、smoking-related centrilobular nodularity（RB）不屬 ILA**。\n- **報告/處置**：見 honeycombing/traction bronchiectasis（subpleural fibrotic）→ 報告並建議轉胸腔科 + HRCT/PFT；亦註明併發（化療/手術風險增）。\n- **量化評估**：可用定量 CT 追蹤進展（Fleischner 提及為未來研究方向）。",
+  "keyPoints": [
+    "**定義（Fleischner Society 2020）**：**偶然(incidental)、雙側、non-dependent 的 CT 間質異常,影響至少『5% 某一肺區』,且病人非因疑 ILD 受檢/無 ILD 症狀**;常於 LDCT 肺癌篩檢偶見。",
+    "**三型分類**：",
+    "**Non-subpleural**。",
+    "**Subpleural non-fibrotic**。",
+    "**Subpleural fibrotic**：含**牽引性支氣管擴張/honeycombing** → **死亡率與進展風險最高,依 UIP 診斷標準分類**;至少看到 subpleural fibrotic 應報告。",
+    "**處置**：看到 honeycombing/traction bronchiectasis → 轉胸腔科評估、做 HRCT/PFT;**centrilobular GGO 已不納入 ILA 範疇**。"
+  ],
+  "management": "1. **本質/盛行（Fleischner 2020）**：**ILA＝與 ILD 相容但無臨床疑診之偶見 CT 發現**；**吸菸者 4-9%、非吸菸者 2-7%、老年較多**；隨肺癌 LDCT 篩檢普及而增多。\n2. **臨床意義（Fleischner）**：**與影像進展、死亡率增加、及醫療介入（化療/手術）併發風險相關**。\n3. **管理核心（Fleischner）**：**區分臨床顯著 ILD 與 subclinical ILA**——尤其辨識 subpleural fibrotic 亞型（最易進展/相關死亡）。\n4. **危險因子**：吸菸、老年、遺傳（MUC5B）等。\n5. **追蹤**：多科整合評估初始檢查、監測與管理；subpleural fibrotic 需較密切追蹤。\n\n> [!note] 考點\n> ILA＝偶見、雙側、non-dependent、**≥5% 肺區**、未疑 ILD;**subpleural fibrotic 型預後/進展風險最高**;見 honeycombing/traction bronchiectasis 要報告並轉介。",
+  "name": "Interstitial Lung Abnormalities (ILA)",
+  "nameZh": "間質性肺異常",
+  "slug": "interstitial-lung-abnormalities",
+  "subspecialty": "CH"
+}

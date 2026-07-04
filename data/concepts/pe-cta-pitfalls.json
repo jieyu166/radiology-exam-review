@@ -1,0 +1,43 @@
+{
+  "checked": false,
+  "definition": "**CTPA 判讀的根基是 bronchoarterial pairing：有支氣管相伴的血管是肺動脈（填充缺損才算 PE），肺靜脈不伴支氣管、走向左心房，未顯影時可模擬完全阻塞性 PE。** Pitfalls 分技術（部分容積、血流假影、transverse 走向血管）、解剖（肺門淋巴結、肺靜脈、黏液支氣管）、病理（pulmonary artery sarcoma，罕見）三類。判讀分水嶺一：**追支氣管 → 確認是肺動脈再讀填充缺損**；判讀分水嶺二：**transverse 走向血管最易有假影，肺靜脈最易被誤判為 PE**。",
+  "differentialDiagnosis": [
+    "pitfall 類別",
+    "解剖",
+    "技術",
+    "病理"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.245045008",
+      "url": "https://doi.org/10.1148/rg.245045008"
+    },
+    {
+      "label": "https://radiologykey.com/imaging-of-acute-pulmonary-embolism/",
+      "url": "https://radiologykey.com/imaging-of-acute-pulmonary-embolism/"
+    },
+    {
+      "label": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8921171/",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8921171/"
+    },
+    {
+      "label": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5265191/",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5265191/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Bronchoarterial pairing**：**肺動脈與支氣管並行（bronchovascular bundle）；肺靜脈不伴支氣管**。故「**伴隨支氣管的血管是肺動脈**」——其內填充缺損可診斷 PE；肺靜脈（不伴支氣管、走向 LA）若未顯影可**模擬**完全阻塞性 PE。",
+    "**真栓子徵象**：**管腔內填充缺損、與對比劑交界銳利**；急性者血管常**膨脹**、中央漂浮缺損或偏心缺損與管壁夾**銳角（acute angle）**；部分阻塞時環繞對比劑呈 **polo-mint（垂直切面甜甜圈狀）/ railway-track（平行切面軌道狀）**。",
+    "**急性 vs 慢性**：急性—血管膨脹、缺損居中或銳角、邊緣銳利凸面；慢性—血管**萎縮變細/retraction**、缺損**貼壁偏心、與管壁夾鈍角（obtuse angle）**、可見 **webs/bands、鈣化栓子、突兀截斷、馬賽克灌注、支氣管動脈側枝**及肺動脈高壓/RV 變化。",
+    "**技術 pitfalls**：部分容積、血流/混合假影、運動/呼吸假影、雜訊、beam hardening/streak；**走向與掃描面平行（transverse/oblique）之血管最難評估**。",
+    "**transient interruption of contrast（TIC）**：深吸氣→胸內壓降、腹內壓升、靜脈回流增→**IVC 未顯影血流**優先入右心稀釋肺動脈對比劑；表現為**同一層面多條雙側肺動脈同時低顯影且管腔不膨脹**（與真栓子在不同層面、會撐大管腔相反）。",
+    "**解剖 pitfalls**：**肺門淋巴結**鄰近 interlobar arteries 可模擬；黏液填充支氣管；未顯影肺靜脈、in-plane 走向血管。",
+    "**病理 pitfalls**：**pulmonary artery sarcoma**（罕見、最少見之 pitfall）、腫瘤侵犯/瘤栓。"
+  ],
+  "management": "",
+  "name": "CT Pulmonary Angiography — PE Pitfalls",
+  "nameZh": "肺栓塞 CTA 陷阱",
+  "slug": "pe-cta-pitfalls",
+  "subspecialty": "CH"
+}

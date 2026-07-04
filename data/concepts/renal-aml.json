@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**腎 AML 的兩大記憶點：「有脂肪→良性、有鈣化→想 RCC」；名稱即組成：angio（血管）＋myo（平滑肌）＋lipoma（脂肪），三者缺一考慮 fat-poor 亞型。** 判讀分水嶺一：**CT 見肉眼脂肪（macroscopic fat）→ 良性 AML 首選**；判讀分水嶺二：**鈣化罕見——出現鈣化偏向 RCC**；>4 cm 出血（Wunderlich）風險高→多建議介入。",
+  "differentialDiagnosis": [
+    "**鈣化方向相反**:典型 AML **罕見鈣化**,RCC 則相對常見鈣化;故**見鈣化偏向 RCC**。",
+    "**陷阱並列**:文獻提醒存在**「有鈣化的 AML」與「含脂肪而無鈣化的 RCC」**(RCC 偶因鈣化/骨化包埋或壞死而出現少量脂肪),因此鈣化與脂肪都非絕對——關鍵仍是**巨觀脂肪 < −10 HU 幾乎只見於 AML**。",
+    "**腫瘤內動脈瘤(intratumoral aneurysm)** 較偏向 AML,RCC 一般無此特徵,可作輔助線索。",
+    "**腎內動脈瘤(intrarenal aneurysm)常見於AML**：DSA可見動脈期「sunburst」表現、靜脈期「onion peel」周邊血管表現，並可伴micro-或macro-aneurysm；此為腎內動脈瘤病因中的常見一項（其餘病因含結核病、神經纖維瘤病、結節性多動脈炎）。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.5334/jbsr.1536(accessed",
+      "url": "https://doi.org/10.5334/jbsr.1536(accessed"
+    },
+    {
+      "label": "10.2214/ajr.184.6.01841868",
+      "url": "https://doi.org/10.2214/ajr.184.6.01841868"
+    },
+    {
+      "label": "10.1186/s13244-025-01957-z",
+      "url": "https://doi.org/10.1186/s13244-025-01957-z"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**:良性,由**異常血管＋平滑肌＋脂肪**組成(angio-myo-lipoma);CT/MR 找**肉眼脂肪**為診斷關鍵。",
+    "**鈣化罕見**:故「AML 常見鈣化」**錯誤**(2016-093 正解 B);**有鈣化要想 RCC**。",
+    "**多發 AML → tuberous sclerosis**(常雙側多發,亦見 lymphangioleiomyomatosis)。",
+    "**大小與處置**:**>4 cm** 自發出血(Wunderlich)風險高 → 常建議**栓塞或部分腎切除**。",
+    "少數 fat-poor AML 與 RCC 難分,需進一步影像/切片。"
+  ],
+  "management": "",
+  "name": "Renal Angiomyolipoma (AML)",
+  "nameZh": "腎血管肌脂瘤",
+  "slug": "renal-aml",
+  "subspecialty": "ABD"
+}

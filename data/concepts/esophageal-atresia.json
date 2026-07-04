@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**食道閉鎖（EA）常合併氣管食道瘻管（TEF）。判讀分水嶺三合一（本考點正解為「以上皆是」）：① 與 VACTERL 及 CHARGE association 相關；② 產前超音波線索為羊水過多（polyhydramnios）＋胃泡縮小或消失；③ 出生後腹部有無腸氣可判讀 distal fistula 狀態——腹部有氣＝有 distal TEF（Type C/D），腹部無氣＝無 distal fistula（Type A/B）。經口鼻胃管於上段食道盲端捲曲（coiling）是典型放射線徵象。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/radiographics.19.4.g99jl05855"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1111/aogs.13536"
+    }
+  ],
+  "imagingFindings": "- **鼻胃管捲曲（coiling）**：管子插入後於 T2-T4 上段食道盲端反折捲曲，是 EA 的典型平片徵象；勿盲目灌鋇（吸入風險），必要時少量水溶性對比。\n- **腹部腸氣＝fistula 地圖**：無腸氣者胃腸道無空氣進入路徑（純 EA 或近端 TEF）；有腸氣者遠端瘻管與氣管相通（Type C 最常見、Type D 為近＋遠端雙瘻管）。\n- **合併畸形搜尋**：判讀時一併檢視椎體（半椎體/融合）、肋骨、心影、腎與肢體，對應 VACTERL；並留意 H-type（無閉鎖之單純 TEF），常延遲診斷、須側位食道攝影顯示。\n- **產前判讀陷阱**：polyhydramnios＋small/absent stomach 提示但非確診，US 敏感度低；懷疑時以胎兒 MRI（敏感度~95%）或羊水分析輔助。",
+  "keyPoints": [
+    "**合併症候群**：與 **VACTERL**（Vertebral、Anorectal、Cardiac、TracheoEsophageal、Renal、Limb）與 **CHARGE**（Coloboma、Heart、Atresia choanae、Retardation、Genital、Ear）association 相關，須系統性篩檢其他畸形。",
+    "**產前線索**：**polyhydramnios ＋ 胃泡縮小或消失**為典型超音波表現，但**單靠超音波敏感度低（約 32%）、偽陽性高**；胎兒 MRI 準確度較佳。",
+    "**腸氣判讀 fistula**：出生後腹部平片**有腸氣→有 distal TEF（Type C/D）**；**無腸氣→無 distal fistula（Type A pure EA 或 Type B）**。",
+    "**最常見型**：**Type C（EA ＋ distal TEF）約占 ~85%**；經口鼻胃管止於上段盲端並捲曲為關鍵徵象。"
+  ],
+  "management": "1. 新生兒出生後口水多、餵食嗆咳發紺、鼻胃管無法通過即高度懷疑。\n2. 確診後須術前評估心臟（右位主動脈弓影響手術入路）與其他 VACTERL 畸形。\n3. Type C 最常見，手術行瘻管結紮＋食道端端吻合。\n4. 長段閉鎖（long-gap）處理困難，可能需延遲吻合或食道替代。\n5. 術後併發吻合口狹窄、漏、胃食道逆流、氣管軟化。\n\n> [!note] 考點：關於食道閉鎖，下列敘述何者正確？\n> **以上皆是（D）**——EA 與 VACTERL/CHARGE 相關（A）、產前 polyhydramnios ＋胃泡縮小/消失（B）、腹部有無腸氣可判讀 distal fistula 狀態（C）三者皆正確。",
+  "name": "Esophageal Atresia (± Tracheoesophageal Fistula)",
+  "nameZh": "食道閉鎖",
+  "slug": "esophageal-atresia",
+  "subspecialty": "PED"
+}

@@ -1,0 +1,46 @@
+{
+  "checked": false,
+  "definition": "**後腹膜纖維化（Ormond / IgG4 相關）的記憶鉤：斑塊「包住往裡拉」輸尿管——IVP 三聯為腎積水＋輸尿管中段「內側」偏移（medial deviation）＋漸進變細；手術正因此要把輸尿管往外側（lateral transposition）移回來，「外側偏移」是考試陷阱。** 判讀分水嶺一：**輸尿管中 1/3 內側偏移（medial deviation），非外側**；判讀分水嶺二：**斑塊包繞腎下主動脈周圍、強化依纖維化活性而異（活動期↑）**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.332125085",
+      "url": "https://doi.org/10.1148/rg.332125085"
+    },
+    {
+      "label": "10.2214/ajr.157.2.1853814",
+      "url": "https://doi.org/10.2214/ajr.157.2.1853814"
+    },
+    {
+      "label": "連結",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482409/"
+    },
+    {
+      "label": "10.1186/s40792-020-00964-0",
+      "url": "https://doi.org/10.1186/s40792-020-00964-0"
+    },
+    {
+      "label": "連結",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5358419/"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**:包覆**腎下主動脈、IVC、輸尿管**的纖維發炎斑塊(慢性 periaortitis);典型自腎下主動脈周圍延伸,常致**單/雙側輸尿管 entrapment**與不同程度 hydronephrosis/hydroureter。",
+    "**治療**:外科 **ureterolysis 並把輸尿管『外側(lateral)轉位』(lateral transposition)** + 網膜包覆——正因斑塊把輸尿管往**內側**拉,手術需外移之。",
+    "**IVP/IVU 三聯**:①上段輸尿管腎積水 ②輸尿管**中 1/3 內側偏移(medial deviation)** ③輸尿管漸進變細(extrinsic);故「**外側(lateral)偏移**」**錯誤**(2016-094 正解 B;應為 medial)。",
+    "**CT 典型**:腎下主動脈（infrarenal aorta）周圍**confluent soft-tissue plaque**,沿髂動脈向下延伸,好發 **L4–L5** 高度;平掃密度近腰大肌(約 1–25 HU);斑塊**包繞主動脈前/側面但不把主動脈往前抬離脊椎**,亦不向後楔入主動脈與脊椎間——此為良性 RPF 影像核心特徵。",
+    "**CT 強化隨纖維化活性**:活動(發炎)期斑塊較強化;成熟纖維化期密度趨穩、強化較弱。",
+    "**MRI 訊號隨活性**:活動期 T2 加權**高訊號**且 gadolinium **明顯強化**(反映水腫/血管化發炎);慢性成熟纖維化 T2 趨**低訊號**、強化輕微;T1 多為均勻低訊號。MRI 對追蹤活性與治療反應較 CT 敏感。",
+    "**FDG-PET/CT**:評估**發炎活性**而非僅形態,可標定最活躍部位作切片導引、追蹤類固醇/免疫治療反應;惟活動性 RPF 與惡性皆可高攝取,單看 SUV 無法可靠鑑別良惡。",
+    "**IgG4 相關**:特發性 RPF 中相當比例屬 IgG4-RD(文獻約 35–60%);多見於年長男性,常合併自體免疫胰臟炎等其他 IgG4 器官侵犯,對類固醇反應佳。",
+    "**DDx 判讀分水嶺(良性 RPF vs 惡性/淋巴瘤)**:淋巴瘤/惡性常**把主動脈向前抬離脊椎**(anterior displacement,「floating aorta sign」)、**bulky 分葉狀(lobulated)**、可向後包繞並把輸尿管推向**外側(lateral)**;良性 RPF 則貼脊椎不抬主動脈、邊緣平滑、把輸尿管牽向**內側(medial)**。一系列 MDCT 研究中主動脈前移見於淋巴瘤約 43.5% vs RPF 約 5.3%。另需與後腹腔轉移、類肉瘤(sarcoma)、Erdheim-Chester、多發性骨髓瘤鑑別。",
+    "病因:特發性(多)、IgG4 相關、藥物、惡性。",
+    "**與自體免疫胰臟炎(autoimmune pancreatitis)之關聯**：自體免疫胰臟炎患者於**診斷時約20%**併有後腹膜纖維化（非50%，此為常見誤判之高估數字）。"
+  ],
+  "management": "",
+  "name": "Retroperitoneal Fibrosis",
+  "nameZh": "後腹膜纖維化",
+  "slug": "retroperitoneal-fibrosis",
+  "subspecialty": "ABD"
+}

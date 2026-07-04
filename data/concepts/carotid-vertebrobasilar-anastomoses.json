@@ -1,0 +1,31 @@
+{
+  "checked": false,
+  "definition": "**胚胎期頸動脈與椎基底動脈之間存在幾條臨時吻合，出生後通常消失；若殘留，由常見到罕見依序為：trigeminal > hypoglossal > proatlantal > otic。** 其中 persistent otic artery 不僅最罕見，其「是否真正存在」在文獻上仍有相當爭議。記憶鉤：頭文字字母順序 T-H-P-O 恰好對應由常見到爭議，末位 O（otic）最罕。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.7759/cureus.61060（accessed",
+      "url": "https://doi.org/10.7759/cureus.61060（accessed"
+    },
+    {
+      "label": "10.5334/jbsr.1481（accessed",
+      "url": "https://doi.org/10.5334/jbsr.1481（accessed"
+    },
+    {
+      "label": "10.1148/83.1.41",
+      "url": "https://doi.org/10.1148/83.1.41"
+    }
+  ],
+  "imagingFindings": "> [!tip] 判讀總策略：循「起源節段＋穿行骨孔」定位\n> 四條殘存吻合的鑑別關鍵是**起源於 ICA／ECA 的哪一節段**與**穿行哪個顱底骨孔**。由頭側到尾側：trigeminal（cavernous ICA，不經骨孔）→ otic（petrous ICA，內聽道，存在有爭議）→ hypoglossal（cervical ICA，舌下神經管 hypoglossal canal）→ proatlantal（ICA 或 ECA，枕骨大孔 foramen magnum，不經橫突孔）。共通伴隨徵象：吻合近端的椎基底動脈節段（尤其雙側椎動脈或近端基底動脈）常見發育不全（hypoplasia）或缺如，可作輔助診斷線索。",
+  "keyPoints": [
+    "**Persistent trigeminal artery**：**最常見**的殘存吻合（連 cavernous ICA 與 basilar）。",
+    "**Persistent hypoglossal artery**：第二常見（經 hypoglossal canal）。",
+    "**Proatlantal artery（type 1/2）**：較少見。",
+    "**Persistent otic artery**：**最少被報導/記載,其存在仍具相當爭議**（自 petrous ICA 起）;故為「最少被記載」之正解（2016-182 正解 C）。"
+  ],
+  "management": "",
+  "name": "Persistent Carotid-Vertebrobasilar Anastomoses",
+  "nameZh": "頸動脈-基底動脈吻合",
+  "slug": "carotid-vertebrobasilar-anastomoses",
+  "subspecialty": "NR"
+}

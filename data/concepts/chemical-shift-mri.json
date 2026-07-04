@@ -1,0 +1,28 @@
+{
+  "checked": false,
+  "definition": "**In-/opposed-phase 是同 TR、兩個不同 TE 的成對 GRE 序列，利用脂與水進動頻率不同而週期性同/反相位。Opposed-phase（反相位）在「同一體素內同時有微觀脂 + 水」時訊號抵消 → 掉訊號＝偵測微觀/細胞內脂（脂肪肝、腎上腺腺瘤）；並在脂-水界面產生 India ink artifact。In-phase 在 1.5T 之 TE 較長、T2\\* 效應較強 → 鐵/出血/金屬/黑色素在 in-phase 掉訊號更明顯（與脂相反）。** 判讀分水嶺：**「反相位掉訊號＝微觀脂」（≠ 巨觀塊狀脂，塊狀脂內無水不會整體掉，只在邊緣有 India ink）；「in-phase 掉訊號＝鐵/磁化率」——兩者方向相反，是分辨脂 vs 鐵的關鍵。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/radiographics.18.6.9821195",
+      "url": "https://doi.org/10.1148/radiographics.18.6.9821195"
+    },
+    {
+      "label": "10.53347/rID-42534（輔助來源",
+      "url": "https://doi.org/10.53347/rID-42534（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **脂 vs 鐵方向相反**：微觀脂在 **OOP** 掉；鐵/磁化率在 **IP** 掉——看是哪個 TE 掉訊號即可分辨。\n- **腎上腺腺瘤**：OOP 相對 IP 掉訊號 ≥ 某比例（chemical shift ratio / adrenal SI index）→ 富脂腺瘤，與癌/轉移鑑別。\n- **脂肪肝/hemochromatosis**：脂肪肝 OOP 掉、鐵過載 IP 掉；兩者並存時看 TE 判斷主導。\n- **India ink**：正常脂-水界面之黑線，勿誤為病灶；也可用來確認 OOP 影像。\n- **巨觀脂陷阱**：myelolipoma 等塊狀脂於 OOP 不整體掉訊號，靠 India ink 邊緣或**頻率選擇性脂抑制（fat-sat，用於辨識以脂肪為主之腫塊如 AML）**確認。\n- **臟器對應**：**肝內脂質幾乎僅見於原發肝細胞性腫瘤（HCC/腺瘤）與脂肪肝**；腎/腎上腺可為局部脂（AML/myelolipoma）或瀰漫脂（clear cell RCC/腺瘤）。",
+  "keyPoints": [
+    "**序列本質**：IP/OOP＝**同 TR、兩個不同 TE 之成對 GRE**（1.5T：OOP≈2.2 ms、IP≈4.4 ms）；脂與水頻率差使其週期性同相/反相。",
+    "**Opposed-phase（反相位）**：同一體素內**微觀脂 + 水**向量相反 → **訊號抵消（signal drop）＝微觀/細胞內脂**（脂肪肝、focal fatty sparing/infiltration、腎上腺腺瘤 vs 癌/轉移、lipid-poor AML、RCC、胸腺增生、骨髓）；**須與 in-phase 以相同參數比對（控制 T1 與 T2\\* 效應）才能確認脂質**。",
+    "**India ink artifact（2nd-kind 化學位移）**：反相位在**脂-水界面**產生黑色勾邊（如器官/脂肪交界）。",
+    "**In-phase（同相位）susceptibility**：1.5T 之 IP **TE 較長、T2\\* 效應較強** → **鐵沉積、出血、金屬、黑色素在 in-phase 掉訊號更明顯**（與脂相反）——見 [[hepatic-iron-overload-mri]]、[[gre-hemorrhage-detection]]。",
+    "**巨觀（塊狀）脂不表現反相位整體掉訊號**：因體素內無水可抵消，僅在其**邊緣**呈 India ink（干擾選項）。"
+  ],
+  "management": "1. **兩序列**：同 TR、兩 TE 之成對 GRE。\n2. **OOP 掉＝微觀脂**：脂肪肝、腎上腺腺瘤等。\n3. **IP 掉＝鐵/磁化率**：與脂相反，可分辨。\n4. **India ink**：脂-水界面黑勾邊（2nd-kind chemical shift）。\n5. **巨觀脂**：OOP 不整體掉訊號，僅邊緣 India ink。\n\n> [!note] 考點：關於 chemical shift（in-/opposed-phase）成像\n> **反相位掉訊號代表「微觀/細胞內脂」**（脂肪肝、腎上腺腺瘤）；**巨觀塊狀脂不會整體掉訊號**（僅邊緣 India ink）；**in-phase 掉訊號代表鐵/出血/金屬/黑色素（磁化率）**——脂與鐵掉訊號的 TE 方向相反，是核心鑑別。",
+  "name": "Chemical Shift MRI (In-phase / Opposed-phase)",
+  "nameZh": "化學位移 MRI",
+  "slug": "chemical-shift-mri",
+  "subspecialty": "ABD"
+}

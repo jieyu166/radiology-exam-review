@@ -1,0 +1,23 @@
+{
+  "checked": false,
+  "definition": "**Meigs syndrome 三聯症＝腹水（ascites）＋肋膜積水（pleural effusion）＋「良性」實質性卵巢腫瘤（絕大多數為卵巢纖維瘤 fibroma）；關鍵在「良性」——腫瘤切除後兩處積液會一併消退。若合併的是「惡性」腫瘤或有腹膜結節，則屬 pseudo-Meigs 或應懷疑惡性，非典型 Meigs。** 判讀分水嶺：**①腫瘤成分必須良性（惡性 → pseudo-Meigs）；②不合併腹膜結節（有結節 → 疑腹膜轉移/惡性）；③纖維瘤因膠原含量高 T2WI 典型低訊號、乏血流延遲強化。記憶鉤：良性纖維瘤＋上下積液、切掉就好、無腹膜結節。**",
+  "differentialDiagnosis": [
+    "**帶蒂子宮肌瘤（pedunculated leiomyoma）**：源自子宮、有 **bridging vessel sign**、可見另側正常卵巢、強化較纖維瘤明顯。",
+    "**Brenner tumor**：亦 T2 低但**較小（均徑 2.5cm vs 纖維瘤 6.4cm）、較常鈣化**。",
+    "**成熟囊性畸胎瘤**：含巨觀脂肪具診斷性（與實質纖維瘤不同）。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**三聯症**：**腹水＋肋膜積水＋良性實質性卵巢腫瘤**（切除腫瘤後積液消退）。",
+    "**最常見原發腫瘤＝卵巢纖維瘤（fibroma，80–90%）**；亦見 fibrothecoma、thecoma、granulosa cell tumor、Brenner（鈣化）。",
+    "**纖維瘤側之數據（STATdx）**：**約 1% 纖維瘤併發 Meigs；纖維瘤本身 ascites 10–15%**（多見於較大腫瘤）、pleural effusion，**兩者於腫瘤切除後消失**。",
+    "**陷阱**：**惡性腫瘤＋積液 ＝ pseudo-Meigs**（非典型 Meigs）；**不合併腹膜結節**（有結節疑惡性/腹膜轉移）。",
+    "**腫瘤 MRI**：fibroma 富膠原纖維 → **T2WI 低訊號**、乏血流、延遲強化。"
+  ],
+  "management": "1. **定義與可逆性**：良性實質性卵巢腫瘤（多為纖維瘤）＋腹水＋肋膜積水；**三者於腫瘤切除後緩解**——與惡性（pseudo-Meigs）之預後判然不同。\n2. **纖維瘤流行病學**：**最常見之性索間質腫瘤、約占卵巢腫瘤 4%、恆為良性**、中位年齡約 48 歲；多為偶見之無症狀附件腫塊（可扭轉）。\n3. **Gorlin-Goltz 症候群（痣樣基底細胞癌症候群）**：**約 75% 女性有卵巢纖維瘤、常雙側/鈣化/多發**（patched 抑癌基因，第 9 號染色體）——年輕女性雙側鈣化纖維瘤要想此症。\n4. **荷爾蒙表現**：**thecoma 可分泌雌激素（子宮內膜增厚/增生/出血）或雄激素（多毛/停經）**；純 fibroma 多為內分泌惰性。\n5. **治療**：較大病灶以腹腔鏡切除患側卵巢；診斷時須辨明良性 Meigs vs 惡性 pseudo-Meigs（影響處置與預後）。",
+  "name": "Meigs Syndrome",
+  "nameZh": "Meigs三聯症",
+  "slug": "meigs-syndrome",
+  "subspecialty": "GU"
+}

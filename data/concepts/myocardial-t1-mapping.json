@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**顯影劑造成T1「縮短」——postcontrast T1值比native T1「低」，不是「高」；心肌水腫則同時使T1與T2「都上升」，不是一升一降。這兩個方向是本主題最常見的誤判陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**原生(native)T1值**：同時受**細胞內與細胞外**因素影響（為心肌細胞與細胞外基質之複合訊號）。",
+    "**Native T1上升**：見於**水腫(edema)**（急性梗塞、發炎）與**間質空間擴大(increased interstitial space)**（纖維化、疤痕、心肌病）。",
+    "**Native T1下降**：見於**脂肪過載(lipid overload)**（如Anderson-Fabry disease、慢性心肌梗塞之脂肪化生）與**鐵過載(iron overload)**。",
+    "**正常值參考**：3T下、0.15 mmol/kg釓劑，平均native T1值約1159-1286 ms。"
+  ],
+  "management": "",
+  "name": "Myocardial T1 Mapping & ECV",
+  "nameZh": "心肌T1定量",
+  "slug": "myocardial-t1-mapping",
+  "subspecialty": "CV"
+}

@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**血管環/吊帶是主動脈弓或肺動脈異常走行包繞（或壓迫）氣管食道的結構；double aortic arch 是最常見的症狀性血管環，aortic coarctation 不在此類中。** 判讀分水嶺一：**最常見症狀性＝double arch；最常見變異但多無症狀＝aberrant right subclavian artery**；判讀分水嶺二：**pulmonary sling＝左肺動脈起自右肺動脈繞氣管後，coarctation 不是血管環成因**——考點就在排除 coarctation。",
+  "differentialDiagnosis": [
+    "**雙弓含閉鎖段 vs right arch + ligamentum**：閉鎖弓會牽引、扭曲頸/鎖骨下動脈起源，並有局部氣道狹窄與 ductus dimple 走向可資鑑別。",
+    "**Circumflex right arch vs 一般 right arch + 左降主動脈**：circumflex 在 supracarinal 高度於食道後突然橫越；一般右弓近橫膈處才漸進橫越。",
+    "**Right arch + retroesophageal left brachiocephalic artery**：罕見，僅三面壓迫、**非環**；為「第一個含頸動脈分支位於弓對側」規則的例外。",
+    "**Arteria lusoria 為孤立發現**：多無症狀、食道後方壓痕輕微、非完全環。",
+    "**Pulmonary sling vs 右肺動脈缺如**：sling 為左肺動脈起自右肺動脈；agenesis 為右肺動脈整段缺如。",
+    "**食道固定壓痕的非血管 DDx**：縱膈前腸重複囊腫（foregut duplication cyst）。",
+    "血管環合併心內/conotruncal 畸形（tetralogy、transposition、truncus）及 22q11 缺失約 12–30%（部分系列 12.4%）；echocardiography 適合查心內病灶但不適合確立或排除血管環。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1007/s13244-014-0343-3",
+      "url": "https://doi.org/10.1007/s13244-014-0343-3"
+    },
+    {
+      "label": "10.5830/CVJA-2015-076",
+      "url": "https://doi.org/10.5830/CVJA-2015-076"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**常見成因**：",
+    "**Double aortic arch**：最常見**症狀性**血管環。",
+    "**Right aortic arch + aberrant left subclavian artery + 左 ligamentum arteriosum**。",
+    "**Aberrant right subclavian artery**：最常見變異,多無症狀。",
+    "**Pulmonary sling**：左肺動脈異常起自右肺動脈、繞氣管後（壓迫氣管）。",
+    "**Aortic coarctation 不是血管環/吊帶的成因**。"
+  ],
+  "management": "",
+  "name": "Vascular Rings and Pulmonary Sling",
+  "nameZh": "血管環",
+  "slug": "vascular-rings-slings",
+  "subspecialty": "CV"
+}

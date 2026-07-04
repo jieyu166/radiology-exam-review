@@ -1,0 +1,33 @@
+{
+  "checked": false,
+  "definition": "**MEN 1 靠「3P」記：Parathyroid、Pancreas、Pituitary，三個 P 全部可能長腫瘤；臨床上副甲狀腺最常受累（~95%，多腺體增生），不是稀罕併發症——「副甲狀腺增生罕見」是考題設計的反轉陷阱。** 判讀分水嶺一：**副甲狀腺增生是最常見表現，非罕見**；判讀分水嶺二：**胰島腫瘤以 gastrinoma（Zollinger-Ellison 症候群）最常見，其次才是 insulinoma**。判讀分水嶺三：**與 MEN2 區分——MEN2 才有 medullary thyroid carcinoma + pheochromocytoma（RET 基因）；MEN1 是 MEN1 基因、無 MTC。**",
+  "differentialDiagnosis": [
+    "考點",
+    "最常見、最早受累器官",
+    "最常見功能性 pNET",
+    "第二常見 pNET",
+    "pNET 強化型態",
+    "副甲狀腺定位影像",
+    "功能性 NET/carcinoid 全身評估",
+    "與 MEN2 區別"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2020200025",
+      "url": "https://doi.org/10.1148/rg.2020200025"
+    }
+  ],
+  "imagingFindings": "> 以下為一般放射科判讀骨架，依器官分模態整理；功能性 pNET、carcinoid 與部分腎上腺病灶可用 somatostatin receptor imaging（68Ga-DOTATATE PET/CT）偵測。",
+  "keyPoints": [
+    "**同義/遺傳**：又名 **Wermer 症候群**、**體染色體顯性**；侵犯腦下垂體、胰臟、副甲狀腺等內分泌腺（3P）。**滲透率（penetrance）大致：副甲狀腺機能亢進 ~94%、胃腸胰神經內分泌瘤 ~59%、垂體腺瘤 ~50%**，反映受累頻率順序。",
+    "**原發性副甲狀腺機能亢進**：**最常見表現（~95%，多腺體增生 hyperplasia）**；故「副甲狀腺增生在 MEN1 罕見」**錯誤**＝題目正解（2016-102 正解 C）。",
+    "**胰臟神經內分泌瘤（pancreatic NET）**：**MEN1 為 panNET 最常見之遺傳症候群，佔所有 panNET 約 10%**;MEN1 中最常見者為**多發性 gastrinoma（20–60%）與非功能性腫瘤（達 80%）**，皆呈邊界清楚、強烈強化腫塊;**gastrinoma 最常見之功能性者**（Zollinger-Ellison，多發、體積小、位十二指腸黏膜下/gastrinoma triangle、多惡性易肝轉移，CT/MRI 見胃皺襞顯著增厚）;**insulinoma 為第二常見**功能性 pNET（~10–30%、發病年輕 <35 歲）;**囊性 panNET 佔 MEN1 之 panNET 達 15%**（多大、likely benign、非功能性）。**panNET 為 MEN1 疾病相關死亡之首因**。",
+    "**腦下垂體腺瘤**：常見 prolactinoma。",
+    "可合併其他內分泌腫瘤（如腎上腺、類癌 carcinoid 等）。"
+  ],
+  "management": "",
+  "name": "MEN 1 (Wermer Syndrome)",
+  "nameZh": "多發性內分泌腫瘤第一型",
+  "slug": "men1",
+  "subspecialty": "ABD"
+}

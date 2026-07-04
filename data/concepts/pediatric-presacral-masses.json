@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**兒童薦前腫塊要點：sacrococcygeal germ cell tumor最常見為teratoma(多良性、非皆惡性)；anterior sacral meningocele是最常見的先天脊椎脊膜膨出，可為ASP/Currarino triad(anorectal malformation + sacrococcygeal osseous defect + presacral mass)之一部分；tailgut cyst可任何年齡(常30-60歲)非僅兒童；cystic lymphatic malformation呈均質高T2訊號(fluid-fluid level僅見於出血時)。本題正解B。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Sacrococcygeal germ cell tumor (SC-GCT)**：**最常見為teratoma(畸胎瘤，多behave as benign，少數惡性)**；最少見的SC-GCT為endodermal sinus tumor(EST，典型惡性)。故「SC-GCT are malignant germ cell tumors」為偽。",
+    "**Anterior sacral meningocele（本題正解）**：**最常見的先天脊椎脊膜膨出**；可為**ASP/Currarino triad(anorectal malformation、sacrococcygeal osseous defect、presacral mass)**之一部分。",
+    "**Tailgut cyst(retrorectal cystic hamartoma)**：**可於任何年齡發生(presentation常30-60歲)**，非僅兒童；多囊薄壁含黏液。",
+    "**Cystic lymphatic malformation**：呈**均質高T2訊號、T1呈液體訊號**；**fluid-fluid level僅見於急性出血**（非常規表現，且訊號為均質非heterogeneous）。"
+  ],
+  "management": "",
+  "name": "Pediatric Presacral Masses",
+  "nameZh": "兒童薦前腫塊",
+  "slug": "pediatric-presacral-masses",
+  "subspecialty": "PED"
+}

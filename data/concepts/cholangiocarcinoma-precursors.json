@@ -1,0 +1,24 @@
+{
+  "checked": false,
+  "definition": "**膽管癌最常見的癌前病灶為『膽管內乳頭狀腫瘤（intraductal papillary neoplasm of bile duct, IPNB）』——被覆膽道上皮 + 中央纖維血管核之乳頭狀增生、侵襲前病灶，為胰臟 IPMN 之膽道對應；另有 BilIN（膽管上皮內瘤變）。** 判讀分水嶺：**IPNB＝膽管內乳頭狀腫瘤（可產黏液致膽管擴張），依異型分低/中與高度兩組（BilIN 分三級）；亞洲較多（肝內結石、肝吸蟲流行區）；choledochal cyst/PSC/肝吸蟲/肝內結石增癌風險但非『最常見前驅病灶』。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-67730（輔助來源",
+      "url": "https://doi.org/10.53347/rID-67730（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **最佳線索（STATdx）**：**膽管『動脈瘤樣（aneurysmal）』瀰漫/節段擴張 + 息肉/結節狀腔內腫塊**；好發左肝葉膽管與肝門；擴張可位於結節上/下游（黏液過度分泌或阻塞）。\n- **ERCP（STATdx，特徵）**：**因腫瘤黏液過度分泌，內視鏡見清亮黏液自 patulous ampulla 溢出**；黏液充填膽管致對比劑難以充填而不顯影；黏液栓/腫瘤呈填充缺損。\n- **CT/MR（STATdx）**：**黏液密度/訊號與正常膽汁相同無法區分**；**壁結節/軟組織成分 → 疑侵襲性惡性**（延遲強化似膽管癌）；DWI 有助辨識細微壁結節；**ERCP/MRCP mismatch（黏液充填段 ERCP 不顯但 MRCP 可見）**；肝膽對比劑（Eovist）示患段不充填。\n- **與 IPMN 類比（STATdx）**：**如胰 IPMN 分 main/side/mixed → 膽道分 ductectatic/cystic/intermediate 型；影像分 5 型**；多發常見（達 50%）、biliary papillomatosis 為 diffuse IPNB。\n- **免疫組化 4 亞型（STATdx）**：**pancreatobiliary（西方最常、多高度異型/侵襲）、intestinal（亞洲最常、多黏液過度分泌）、oncocytic、gastric（最少）**。\n- **DDx（STATdx）**：**biliary cystadenoma/carcinoma（不與膽管相通）、conventional cholangiocarcinoma（無黏液）、recurrent pyogenic cholangitis（cast 結石非黏液/腫瘤）、pyogenic abscess、choledochal cyst**。",
+  "keyPoints": [
+    "**最常見癌前病灶＝IPNB**：膽管內**乳頭狀增生（被覆膽道上皮 + 中央纖維血管核）**、**侵襲前**膽管腫瘤；為**胰臟 IPMN 之膽道對應**。",
+    "**分級**：IPNB 依異型分**低/中度與高度 dysplasia 兩組**（與 BilIN 分三級不同）。",
+    "**BilIN（biliary intraepithelial neoplasia）**：亦為前驅，但轉變頻率未明。",
+    "**流行病學**：**亞洲較多**（肝內結石 hepatolithiasis、肝吸蟲 clonorchiasis 流行區），東亞占膽管腫瘤 10-30%（西方 ~9%）。",
+    "**其他危險（非最常見前驅）**：congenital choledochal cyst、PSC、肝吸蟲、肝內結石增加風險。"
+  ],
+  "management": "1. **IPNB/biliary IPMN（STATdx）**：**產黏液之乳頭狀膽道黏膜腫瘤、2010 才入 WHO 分類、與 biliary papillomatosis 重疊**；為侵襲前病灶（intraductal papillary cholangiocarcinoma 前驅）；病理譜 adenoma→dysplasia→侵襲癌（3 級）。\n2. **病因/流病（STATdx）**：病因未明但**強烈關聯 hepatolithiasis 與 Clonorchis（慢性膽道發炎）**；**好發東亞、5-7 十年、輕微男性優勢**。\n3. **臨床表現（STATdx）**：**最常反覆急性膽管炎（腹痛/發燒/寒顫/黃疸）**（腫瘤/黏液/脫落腫瘤片阻塞）；30% 無症狀；**CEA 常升高（惡性/大量黏液者更明顯）**。\n4. **預後（STATdx）**：**侵襲性乳頭狀膽管癌預後優於一般 mass-forming/periductal（切除後 5 年存活 81% vs 51.6%）**；但**復發率高（良性 5 年 20%、惡性 60%，多因遠處未偵測病灶）**、膽道 IPMN 術後預後可能較胰臟 IPMN 差。\n5. **治療（STATdx）**：**不同於胰 IPMN 可保守，膽道 IPMN 因膽管炎/黃疸風險多主動治療**——局限肝內者部分肝切除、肝外/主膽管者 Roux-en-Y、不宜手術者引流/支架姑息。\n\n> [!note] 考點：膽管癌癌前病灶中何者「最常見」?\n> **Intraductal papillary neoplasm（IPNB，A）**為最常見前驅。congenital choledochal cyst（增風險非最常見前驅）、biliary serous cystic neoplasm、solid papillary epithelial neoplasm 皆非。",
+  "name": "Cholangiocarcinoma — Premalignant Precursors",
+  "nameZh": "膽管癌癌前病灶",
+  "slug": "cholangiocarcinoma-precursors",
+  "subspecialty": "ABD"
+}

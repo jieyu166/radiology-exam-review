@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**Lipomyelomeningocele為最常見之spinal lipoma型態，因原發性神經管閉合缺損使間葉組織進入neural placode形成脂肪瘤組織；影像上lipoma附著於neural placode背面，placode-lipoma交界面位於脊椎管外（因蛛網膜下腔擴大所致），與lipomyelocele（交界面位於脊椎管內）為關鍵鑑別點。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**最常見spinal lipoma型態**：lipomyelomeningocele為最常見的spinal lipoma。",
+    "**好發族群/理學檢查**：較常見於女性；理學檢查可見下背腫塊（lipoma），位置**稍偏離中線**。",
+    "**合併病灶**：**較不常見（less commonly）**合併脊椎內inclusion tumors（epidermoid/dermoid cyst）、dermal sinus、hamartoma等——並非「常合併」。",
+    "**影像特徵**：lipoma附著於**neural placode背面**；lipomyelomeningocele之placode-lipoma交界面位於**脊椎管外**（因蛛網膜下腔擴大），對比lipomyelocele之交界面位於**脊椎管內**。"
+  ],
+  "management": "",
+  "name": "Lipomyelomeningocele",
+  "nameZh": "脊髓脂肪脊膜膨出",
+  "slug": "lipomyelomeningocele",
+  "subspecialty": "NR"
+}

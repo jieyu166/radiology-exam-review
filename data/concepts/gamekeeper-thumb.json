@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**拇指被往外（尺）掰傷的是「尺側副韌帶（UCL）」，橈側副韌帶完好無損——Gamekeeper's/Skier's thumb 傷的永遠是 UCL，這是核心口訣：UCL = U Can't Lie（不能說「橈側」）。** 判讀分水嶺一：**受傷結構必是第一 MCP 尺側副韌帶，可伴近端指骨基部撕脫骨折。** 判讀分水嶺二：**Stener lesion = UCL 斷端被內收肌腱膜夾住無法癒合 → 必須手術；無 Stener 可保守治療。**",
+  "differentialDiagnosis": [
+    "**橈側副韌帶（RCL）損傷**：受力方向相反（拇指被內收／尺偏），位於 MCP 橈側;Gamekeeper/Skier 不傷 RCL（題目正解依據）。",
+    "**近端指骨基部撕脫骨折 vs Stener**：兩者可並存;撕脫骨折在平片即可見，Stener 需 US/MRI 判定斷端是否移位至腱膜淺層。",
+    "**第一 MCP 退化／OA、籽骨（sesamoid）相關病變**：慢性 gamekeeper 反覆損傷可致 MCP 不穩、疼痛與續發性 OA。"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.264055117",
+      "url": "https://doi.org/10.1148/rg.264055117"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Gamekeeper's / Skier's Thumb",
+  "nameZh": "獵人拇指",
+  "slug": "gamekeeper-thumb",
+  "subspecialty": "MSK"
+}

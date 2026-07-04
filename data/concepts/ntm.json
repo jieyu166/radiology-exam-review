@@ -1,0 +1,25 @@
+{
+  "checked": false,
+  "definition": "**NTM 肺病以 MAC（~60%）為主，兩大型態對應兩類宿主：上肺空洞型像 TB（老年男/COPD/吸菸），結節支氣管擴張型像 Lady Windermere（老年瘦高女、抑制咳嗽、RML/舌葉受累＋tree-in-bud）；單純培養陽性不能確診。** 判讀分水嶺一：**RML/lingula 支氣管擴張＋centrilobular nodule/tree-in-bud＝Lady Windermere 型**；判讀分水嶺二：**培養陽性僅代表定植，須臨床＋影像＋微生物三者吻合（ATS/IDSA）才算致病**；熱水浴缸肺（hot tub lung）為 MAC 過敏性肉芽腫肺炎。記憶鉤：Lady Windermere「不咳→菌積右中葉＋舌葉」，fibrocavitary「菸酒男→上肺空洞像 TB」。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.07.2074",
+      "url": "https://doi.org/10.2214/AJR.07.2074"
+    }
+  ],
+  "imagingFindings": "- **兩大公認型態（Martinez）**：**空洞型（cavitary，上肺、似 TB）與結節支氣管擴張型（nodular bronchiectatic，RML/lingula＋tree-in-bud）為最常見且公認之表現**；AIDS 病人另有其型態。\n- **少見但關鍵型態（Martinez，考點）**：**NTM 可表現為 mimicking malignancy 的結節/腫塊、或酷似 hypersensitivity pneumonitis（hot tub lung，GGO＋小葉中心結節）等非典型型態**——影像譜廣、型態常重疊。\n- **Lady Windermere 型徵**：**右中葉與舌葉支氣管擴張＋centrilobular nodules/tree-in-bud（endobronchial spread）**，老年瘦高女性、刻意抑制咳嗽。\n- **vs TB（考點）**：NTM 結節支氣管擴張型好發 **RML/lingula、病程慢**；TB 偏上肺尖後段/下葉上段、空洞——影像重疊大，確診靠培養/分子。\n- **診斷須三吻合（Martinez）**：**確診困難、型態常重疊，須高度懷疑並整合臨床＋影像＋微生物（ATS/IDSA）**；單純培養陽性可為定植。",
+  "keyPoints": [
+    "**菌種**：>150 種,**MAC（MAI）最常見（~60%）**;其他 M. abscessus、kansasii、chelonae、chimaera。",
+    "**宿主**：**老年瘦高白人女性**、既有支氣管擴張/COPD/囊性纖維化（CF,~13%）/α1-antitrypsin 缺乏/塵肺、GERD、免疫缺損（IFNγ-IL12 路徑、AIDS、抗 IFNγ 抗體）。",
+    "**型態一：上肺纖維空洞型（fibrocavitary）**：中老年**男性吸菸者/COPD/酗酒**;上肺空洞,**酷似結核**。",
+    "**型態二：結節支氣管擴張型（nodular bronchiectatic）＝Lady Windermere syndrome**：**老年女性、刻意抑制咳嗽**;**右中葉與舌葉**特別受累,支氣管擴張＋**centrilobular nodules / tree-in-bud（endobronchial spread）**。",
+    "**變異：hot tub lung**：吸入污染熱水浴缸氣霧化 MAC 引起的**肉芽腫性肺炎（過敏性）**;CT 為 GGO＋centrilobular nodules。",
+    "**診斷陷阱**：**MAC 定植常見,單純培養陽性『非』診斷**;須與臨床、影像、微生物（ATS/IDSA 標準）相互佐證。"
+  ],
+  "management": "1. **菌種**：**MAC（MAI）最常見（~60%）**；其他 M. abscessus、kansasii、chimaera（與心臟手術水加熱器相關）。\n2. **宿主（雙型對應）**：**空洞型＝中老年吸菸男性/COPD/酗酒；結節支氣管擴張型＝老年瘦高白人女性**（Lady Windermere）；另 CF、α1-AT 缺乏、GERD、IFNγ-IL12 路徑缺損/抗 IFNγ 抗體。\n3. **臨床病程**：慢性咳嗽、疲倦、體重減輕，病程遷延數月至數年，較 TB 隱匿。\n4. **診斷標準（Martinez/ATS-IDSA）**：**須臨床症狀＋影像＋≥2 次痰或 1 次支氣管沖洗培養陽性（或切片）三者吻合**方能診斷，避免將定植當致病。\n5. **治療與傳染性**：MAC 需長期多重抗生素（macrolide 為主）數月至逾一年；NTM **不具人傳人傳染性**（異於 TB）。\n\n> [!note] 與 TB 區別\n> NTM 結節支氣管擴張型好發 **RML/lingula、老年女性、病程慢**;TB 偏**上肺尖後段/下葉上段、空洞**。兩者皆可 tree-in-bud;影像重疊大,確診靠培養/分子。見 [[pulmonary-tb]]。",
+  "name": "Nontuberculous Mycobacterial (NTM/MAC) Pulmonary Infection",
+  "nameZh": "非結核分枝桿菌",
+  "slug": "ntm",
+  "subspecialty": "CH"
+}

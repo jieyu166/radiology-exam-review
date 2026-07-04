@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**前十字韌帶(ACL)重建手術成功的關鍵在於股骨隧道與脛骨隧道的正確定位——股骨隧道應開口於髁間窩的「後上方(superoposterior)」（冠狀面影像），而非前上方；脛骨隧道則應與Blumensaat線平行，且開口位置應在Blumensaat線與脛骨交會點的「後方」。** 判讀分水嶺：**股骨隧道下緣位置：矢狀面上位於股骨後緣皮質線與髁間窩頂部延伸線的交點;股骨隧道冠狀面開口：應在髁間窩的後上方（左膝時鐘位置約1-2點鐘方向），非前上方——這是最常見的誤答陷阱;脛骨隧道方向：應與Blumensaat線平行;脛骨隧道開口：應完全位於Blumensaat線後方。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**股骨隧道下緣（矢狀面）**：應位於**股骨後緣皮質延伸線**與**髁間窩頂部延伸線**的交點處。",
+    "**股骨隧道開口（冠狀面，關鍵易錯點）**：應開口於髁間窩的**「後上方」(superoposterior)**（左膝約1-2點鐘方向），而非「前上方(anterior)」——原題誤植「anterior」，正確應為「posterior」。",
+    "**脛骨隧道方向（矢狀面）**：應與**Blumensaat線平行**。",
+    "**脛骨隧道開口位置**：應完全位於**Blumensaat線後方(posterior)**——若脛骨隧道開口位於Blumensaat線前方，會造成術後伸直受限（notch impingement）。"
+  ],
+  "management": "",
+  "name": "ACL Reconstruction — Tunnel Position Evaluation on MRI",
+  "nameZh": "前十字韌帶重建骨隧道",
+  "slug": "acl-reconstruction-tunnel-mri",
+  "subspecialty": "MSK"
+}

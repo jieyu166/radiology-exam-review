@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**食道環分兩種：A ring（肌肉環，muscular ring）位於 GE junction 近端，由平滑肌構成，可收縮；B ring（Schatzki ring，mucosal ring）位於 squamocolumnar junction（GE junction 處），由黏膜及黏膜下層構成。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**A ring（muscular ring）**：位於 **GE junction 近端**（proximal to GE junction），由**平滑肌**構成，**可收縮（contractile）**。",
+    "**B ring（Schatzki ring / mucosal ring）**：位於 **squamocolumnar junction**（即 GE junction），由**黏膜及黏膜下層**構成，**不可收縮（fixed）**。",
+    "Schatzki ring 內徑 <13 mm 時常引起嚺體食物吞嚥困難（dysphagia）。"
+  ],
+  "management": "",
+  "name": "Esophageal Rings (A ring & B ring)",
+  "nameZh": "食道環",
+  "slug": "esophageal-rings",
+  "subspecialty": "GI"
+}

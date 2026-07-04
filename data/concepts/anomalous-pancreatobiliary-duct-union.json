@@ -1,0 +1,30 @@
+{
+  "checked": false,
+  "definition": "**APBDU（胰膽管匯合異常）＝胰管與膽管在十二指腸壁外匯合、形成過長共同通道，使胰液反流入膽道；它與先天性膽道囊腫（choledochal cyst）高度相關，並提高膽道癌風險。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00383-023-05483-1"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00261-014-0344-1"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.337125014"
+    }
+  ],
+  "imagingFindings": "- **MRCP（可加 secretin 增強）為首選**：非侵襲性顯示胰膽管交界、共同通道長度，並區分 APBDU、pancreas divisum 等導管變異\n- **判讀重點**：共同通道異常延長、匯合點位於壁外、常合併膽總管囊狀擴張（Todani 分型）\n- **DDx**：需與 pancreas divisum（背腹側胰管未融合，屬不同實體）區分；APBDU 是「膽管—胰管」交界異常，非胰管本身分離",
+  "keyPoints": [
+    "胰管與膽管於十二指腸壁**外**匯合，形成異常過長的共同通道，Oddi 括約肌無法控制交界處，導致胰液反流入膽道系統",
+    "**與 choledochal cyst 高度相關**：反流的胰液（含胰酶）損傷膽道上皮，是膽道囊腫形成的兩大主流病因學說之一",
+    "慢性胰液反流與膽汁鬱積 → 顯著提高**膽道惡性腫瘤**（膽囊癌／膽管癌）風險，是預防性手術的依據"
+  ],
+  "management": "1. 成人約 20% 的膽道囊腫於成年才表現，且併發症與惡性風險高。\n2. 東亞女性發生率偏高。\n3. 兩大病因學說：胰液反流（APBDU）與胎兒期膽道阻塞。\n4. 併發症含反覆膽管炎、胰臟炎、結石與膽道癌。\n5. 治療以完整切除囊腫加 Roux-en-Y 肝腸吻合為主。\n\n> [!note] 考點：APBDU 最相關聯的疾病是？\n> **Choledochal cyst（先天性膽道囊腫）**。50–80% 膽道囊腫可見 APBDU；胰液反流損傷膽道上皮導致囊狀擴張，並增加膽道癌風險。",
+  "name": "Anomalous Pancreatobiliary Duct Union (APBDU)",
+  "nameZh": "異常胰膽管匯合",
+  "slug": "anomalous-pancreatobiliary-duct-union",
+  "subspecialty": "ABD"
+}

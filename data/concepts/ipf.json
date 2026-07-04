@@ -1,0 +1,29 @@
+{
+  "checked": false,
+  "definition": "**IPF/UIP 住在肺的「底層邊邊」——基底＋subpleural predominant（向周邊偏、非向中間偏），出現 honeycombing 和牽引性支氣管擴張；如果看到 subpleural sparing（邊緣留白）反而要改想 NSIP。** 判讀分水嶺一：**分布＝基底（basal）＋subpleural predominant**；低肺容積；GGO 少於網狀影；判讀分水嶺二：**Probable UIP 無 honeycombing（僅網狀＋牽引性支氣管擴張）；Typical UIP 有 honeycombing**——2022 起 Probable UIP 於臨床相符時可免切片診斷 IPF。",
+  "differentialDiagnosis": [
+    "病",
+    "**IPF/UIP**",
+    "**PLCH**",
+    "**LAM**"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1148/rg.250167",
+      "url": "https://doi.org/10.1148/rg.250167"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義**：IPF 為 idiopathic UIP——具 UIP 組織型態的纖維化型 idiopathic interstitial pneumonia；約佔所有 IIP 的 40%。",
+    "**CT/HRCT（UIP）**：**基底（basilar）為主的網狀影、牽引性支氣管/細支氣管擴張、honeycombing**；GGO 範圍少於網狀影。",
+    "**分布軸**：基底 + **subpleural / 周邊為主（predominant）**——注意是「以 subpleural 為主」，而非「保留 subpleural」。",
+    "**影像學**：低肺容積、可併肺動脈高壓。",
+    "**與吸菸**：IPF 雖非「純吸菸相關」，但**與菸草強烈關聯**（屬吸菸相關肺病的第二組，菸為重要促成因子，致病為多因子）。"
+  ],
+  "management": "",
+  "name": "Idiopathic Pulmonary Fibrosis (IPF / UIP)",
+  "nameZh": "特發性肺纖維化",
+  "slug": "ipf",
+  "subspecialty": "CH"
+}

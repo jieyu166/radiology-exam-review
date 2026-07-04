@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Varicocele（精索靜脈曲張）好發於「左側」不是右側——約85%發生於左側，因左睪丸靜脈行程較長、以直角匯入左腎靜脈，回流阻力較大。所以「原發性varicocele最常見於右側」是錯誤敘述。孤立右側varicocele罕見，須警覺次發性原因（腹膜後腫瘤壓迫）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**臨床意義**：varicocele為**男性不孕原因之一**。",
+    "**好發側（本題重點）**：**約85%發生於左側**（非右側）——因左睪丸靜脈行程較長、以直角/垂直匯入左腎靜脈，回流阻力較大、瓣膜功能不全較常見；故「primary varicocele最常見於右側」為**錯誤**。",
+    "**症狀**：可造成**陰囊疼痛與腫脹**。",
+    "**成因**：**靜脈瓣膜功能不全（venous valve incompetence）**為varicocele成因之一。",
+    "**臨床警訊**：雙側varicocele不少見（約15%）；**孤立右側varicocele罕見**，應評估次發性原因（如腹膜後腫瘤壓迫右睪丸靜脈）。"
+  ],
+  "management": "",
+  "name": "Varicocele",
+  "nameZh": "精索靜脈曲張",
+  "slug": "varicocele",
+  "subspecialty": "GU"
+}

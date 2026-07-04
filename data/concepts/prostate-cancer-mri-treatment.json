@@ -1,0 +1,18 @@
+{
+  "checked": false,
+  "definition": "**前列腺癌三大重點記憶：移行區癌MRI呈「erased charcoal」（均質低T2、邊界不清、低ADC）；Epstein主動監測納入標準為Gleason ≤6、≤2 cores、cancer involvement ≤50%；根治性切除術後最常見復發部位是膀胱尿道吻合處（vesicourethral anastomosis），非淋巴結或前列腺床。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2018170147，via",
+      "url": "https://doi.org/10.1148/rg.2018170147，via"
+    }
+  ],
+  "imagingFindings": "- **TZ 癌 vs BPH 結節**：**TZ 癌＝erased charcoal（均質低 T2）＋邊界不清＋無包膜＋lenticular 形＋低 ADC＋早期強化**；**BPH stromal hyperplasia 則較邊界清楚且有包膜**——這是 TZ 判讀的關鍵二分。\n- **主動監測選片靠 Gleason**：Epstein 標準中 **Gleason score 是壓過腫瘤體積與 PSA 的關鍵因子**；MR 在主動監測之「選擇與追蹤」皆有關鍵角色。\n- **復發部位隨治療而異**：**放療後→原腫瘤位置（prior tumor site）復發**；**根治切除後→膀胱尿道吻合處（vesicourethral anastomosis）**——判讀時依治療史鎖定不同區域。\n- **偵測復發的序列**：**復發在 T2 上常難見 → 須加 DCE 與 DWI**；術後復發呈 T1 等肌肉、T2 略高於肌肉之強化軟組織結節（環繞膀胱/膜部尿道）。\n- **搜尋範圍**：術後除吻合處外，也要看**前外側手術邊緣、精囊窩、膀胱與直腸間**之復發。",
+  "keyPoints": [],
+  "management": "1. **生化復發（PSA 上升）**是術後/放療後懷疑復發之觸發點，mpMRI 用於定位以啟動 salvage 治療。\n2. **主動監測（active surveillance）**適合低風險（Epstein 標準）病人，避免過度治療，MR 於選片與追蹤中角色日增。\n3. TZ 前癌因位於前區、易被 BPH 掩蓋而**易漏診**，掌握 erased charcoal 徵象可提高偵測。\n4. 術後復發早期偵測可及時 salvage 放療，改善預後；判讀須熟悉正常術後變化以免偽陽性。\n5. 放療後腺體萎縮/瀰漫低 T2 使判讀困難，**DCE/DWI 對原位復發之偵測特別重要**。\n\n> [!note] 考點一：移行區前列腺癌之典型MRI特徵？\n> **邊界不清、低T2訊號、早期顯影、低ADC（C）**——非well-defined、非high ADC。\n\n> [!note] 考點二：Epstein主動監測納入標準？\n> **Gleason ≤6、≤2 positive cores、cancer involvement ≤50%（D）**。\n\n> [!note] 考點三：根治性前列腺切除術後最常見復發部位？\n> **Vesicourethral anastomosis（C）**——DCE與T2WI為最佳偵測序列。",
+  "name": "Prostate Cancer — MRI After Treatment & Active Surveillance Criteria",
+  "nameZh": "前列腺癌治療後MRI",
+  "slug": "prostate-cancer-mri-treatment",
+  "subspecialty": "GU"
+}

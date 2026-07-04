@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**Osgood-Schlatter disease是重複性微創傷引起的慢性疲勞性損傷，發生在「髕韌帶(patellar tendon)」在脛骨粗隆的附著處增厚——不是股四頭肌肌腱(quadriceps tendon)，這是常見的解剖部位混淆陷阱。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**本質**：慢性疲勞性損傷(chronic fatigue injury)，因重複性微創傷發生於**髕韌帶(patellar tendon)**在脛骨粗隆(tibial tuberosity)附著處，通常**遠端髕韌帶增厚**（非股四頭肌肌腱增厚，此為常見部位混淆）。",
+    "**好發族群**：**男性多於女性**，好發**男性10-15歲、女性8-12歲**（女性發病年齡較早，對應生長板較早發育）。",
+    "**影像特徵**：脛骨粗隆發育中的骨化中心可見**小骨化片分離(separation of small ossicles)**。",
+    "**成因**：**多為外傷/重複性拉力所致(trauma induced)**，反覆股四頭肌收縮牽拉髕韌帶所致之慢性牽拉傷。",
+    "**處置**：可考慮**類固醇注射(steroid injection)**作為症狀治療選項之一。"
+  ],
+  "management": "",
+  "name": "Osgood-Schlatter Disease (OSD)",
+  "nameZh": "脛骨粗隆骨骺炎",
+  "slug": "osgood-schlatter-disease",
+  "subspecialty": "MSK"
+}

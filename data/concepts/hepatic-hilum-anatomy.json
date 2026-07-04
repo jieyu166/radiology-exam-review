@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**肝門處由前到後排列口訣「膽在前、動脈居中、門脈最後」——總膽管最前方、肝動脈居中、主門脈最深(最後方)，這是膽道超音波掃查辨識肝門三大結構的基本定位。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**由前至後排列順序**：**總膽管(common bile duct)** → **肝動脈(hepatic artery)** → **主門脈(main portal vein)**。",
+    "**臨床意義**：超音波掃查肝門部時，三管狀構造由淺(前)至深(後)依序為膽管、動脈、靜脈，此排列有助於快速定位辨識個別結構(尤其在都卜勒難以立即分辨血流方向時)。"
+  ],
+  "management": "",
+  "name": "Hepatic Hilum — Anterior to Posterior Anatomy",
+  "nameZh": "肝門解剖",
+  "slug": "hepatic-hilum-anatomy",
+  "subspecialty": "ABD"
+}

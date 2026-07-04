@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Galactocele 的靈魂在「脂液平面」，但脂液必須靠重力分層，只有射束水平的側位（ML/MLO）才拍得到，CC view 射束垂直看不見分層。** 這是最常考的誤導選項。附帶記憶：非增生性纖維囊性變化與單純囊腫不增加乳癌風險；表皮包涵囊腫源自毛囊漏斗部阻塞；乳管擴張為乳暈下主乳管的良性非特異性擴張。記憶鉤：**「脂液要浮起來需要水平射束，CC 是垂直射——浮不到」**。",
+  "differentialDiagnosis": [
+    "**良性**：複雜性囊腫、群聚微囊、乳管內乳突瘤（intraductal papilloma，常見壁上結節型）、galactocele（哺乳相關含脂囊腫，乳攝可見 fat-fluid level，須水平射束 ML/MLO 取像才顯現；CC 垂直射束看不到）、表皮包涵囊腫（毛囊漏斗部阻塞）、乳管擴張、纖維囊性變化、fat necrosis（油囊）、膿瘍/血腫。",
+    "**惡性**：**囊內/包膜性乳突癌（intracystic / encapsulated papillary carcinoma）**——常見於停經後女性、可伴乳頭出血、預後相對佳，US 呈囊內具血流之實質成分；**壞死性侵襲癌（necrotic invasive carcinoma）**、高級別 DCIS、罕見囊性轉移。影像無法可靠區分乳突瘤良惡（瘤內可併非典型增生/DCIS/乳突癌），故含實質成分者一律切片。",
+    "**惡性傾向 US 徵象**：邊界非 circumscribed、周邊結構扭曲、hyperechoic halo、微鈣化、color Doppler 實質成分血流增加；Type 2/3/4（含實質結節）惡性率高於純厚壁/厚分隔型。"
+  ],
+  "externalLinks": [],
+  "imagingFindings": "- **好發位置**：乳攝上最常見於**雙側乳暈下區域（subareolar regions）**。\n- **鈣化**：管內或管周可見鈣化（常呈粗桿狀 large rod-like，見 [[breast-calcifications]]）。\n- **MRI 表現**：擴張之乳暈後管狀構造，內含蛋白性或血性液體時，於 **T1WI 可呈高訊號**（非典型的液體低訊號）。\n- 上述三項皆為 ductal ectasia 的正確描述。",
+  "keyPoints": [],
+  "management": "",
+  "name": "Benign Cystic Breast Lesions",
+  "nameZh": "乳房良性囊性病灶",
+  "slug": "breast-cystic-lesions",
+  "subspecialty": "Breast"
+}

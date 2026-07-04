@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**NSIP 的靈魂特徵是「subpleural sparing（保留周邊薄帶）＋下肺 GGO 為主＋均質」，正好與 UIP 的「subpleural predominant＋honeycombing＋heterogeneous」互為鏡像。** 判讀分水嶺一：**subpleural sparing＋下肺/基底＋GGO＋牽引性支氣管擴張** → 與 UIP/IPF 區分；判讀分水嶺二：**cellular NSIP（GGO 為主、可逆）vs fibrotic NSIP（網狀＋牽引性支氣管擴張、介於 cellular NSIP 與 UIP 之間、honeycombing 少）**——常見於 CTD-ILD（見 [[ctd-ild]]）。記憶鉤：NSIP「讓開周邊」（subpleural sparing），UIP「偏愛周邊」（subpleural predominant）。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "https://doi.org/10.1016/j.chest.2023.11.037（According",
+      "url": "https://doi.org/10.1016/j.chest.2023.11.037（According"
+    },
+    {
+      "label": "https://doi.org/10.1053/j.sult.2013.10.004（According",
+      "url": "https://doi.org/10.1053/j.sult.2013.10.004（According"
+    },
+    {
+      "label": "https://doi.org/10.1016/j.ejro.2022.100419（According",
+      "url": "https://doi.org/10.1016/j.ejro.2022.100419（According"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**定義/型態**：時序與形態上**均質（homogeneous）**的間質性發炎與纖維化型態（與 UIP 的時空異質性對比）;為一種影像／病理「型態（pattern）」，可特發或續發於多種病因。",
+    "**HRCT 分布**：**雙側、對稱、下肺/基底為主、周邊（subpleural）分布**;常見**相對 subpleural sparing（保留緊鄰胸膜的薄帶）**——此徵象高度偏向 NSIP、為與 UIP 區分的有用線索;亦常見**peribronchovascular（沿支氣管血管）分布**。",
+    "**HRCT 構成**：**GGO 為主**＋細網狀影＋**牽引性支氣管擴張/細支氣管擴張**;下葉容積縮小;**honeycombing 罕見或極少**（在 fibrotic NSIP 系列僅約 5%）。",
+    "**Cellular NSIP**：以**純 GGO 為主**、發炎成分為主、網狀與牽引性擴張少;**對免疫治療反應較好、可逆**、預後佳。",
+    "**Fibrotic NSIP**：均質緻密/疏鬆纖維化、**GGO＋網狀＋牽引性支氣管擴張**、honeycombing 少;為 **cellular NSIP↔UIP 光譜的中間（過渡）型**;預後較 cellular NSIP 差、但仍優於 UIP。",
+    "**判讀重點**：纖維化是否進展、cellular→fibrotic 轉變，看**牽引性支氣管擴張是否增加/加重**（而非單看 GGO 多寡——GGO 可代表發炎或細纖維化）。",
+    "**病因關聯**：可特發,但**強烈提示 CTD-ILD**——NSIP（尤其 fibrotic NSIP）是 systemic sclerosis、dermatomyositis/polymyositis、MCTD 最常見的 ILD 型態;年輕、女性、合併自體免疫特徵者更須往 CTD 想（見 [[ctd-ild]]）;亦見於慢性過敏性肺炎（chronic HP）、藥物毒性、IPAF。"
+  ],
+  "management": "",
+  "name": "Nonspecific Interstitial Pneumonia (NSIP)",
+  "nameZh": "非特異性間質性肺炎",
+  "slug": "nonspecific-interstitial-pneumonia",
+  "subspecialty": "CH"
+}

@@ -1,0 +1,34 @@
+{
+  "checked": false,
+  "definition": "**肩脫位的壓迫骨折邏輯：脫位方向決定「哪面撞哪面」——前脫位時肱骨頭後外側撞前下盂緣（Hill-Sachs＋Bankart）；後脫位時肱骨頭前內側撞後盂緣（reverse Hill-Sachs = trough sign＋reverse Bankart＋light bulb sign）。「trough-like impaction」是後脫位專屬特徵，不屬前脫位。** 判讀分水嶺一：**前脫位（~95%）→ Hill-Sachs（後外側）＋Bankart（前下盂唇）＋subcoracoid 位**；判讀分水嶺二：**後脫位 → trough sign（前內側縱向緻密線）＋light bulb sign＋half-moon overlap 消失**。",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.3390/jcm13247708"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2214/ajr.130.5.951"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1177/23259671251343325"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**前脫位（anterior，~95%）**：",
+    "**Hill-Sachs lesion**：肱骨頭**後外側**壓迫骨折（撞擊前下盂緣）。",
+    "**Bankart lesion**：前下**盂唇（±骨性盂緣）**損傷。",
+    "肱骨頭移位至 **subcoracoid** 位。",
+    "**後脫位（posterior，少見）**：",
+    "**Reverse Hill-Sachs（trough sign）**：肱骨頭**前內側**壓迫 →『**trough-like impaction fracture**』＝肱骨頭內側縱向緻密線。",
+    "**Reverse Bankart**、light bulb（燈泡）徵、rim sign、空盂（half-moon overlap 消失）。"
+  ],
+  "management": "",
+  "name": "Glenohumeral Dislocation (Anterior vs Posterior)",
+  "nameZh": "肩關節脫位",
+  "slug": "shoulder-dislocation",
+  "subspecialty": "MSK"
+}

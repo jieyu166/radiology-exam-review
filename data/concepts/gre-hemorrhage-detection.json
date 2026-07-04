@@ -1,0 +1,27 @@
+{
+  "checked": false,
+  "definition": "**梯度回波（Gradient Echo, GRE）以「梯度反轉」而非「180° 重聚脈衝」形成回波，故不補償靜態磁場不均勻——出血產物之順磁性代謝物造成的磁化率效應（susceptibility）被完整表現為訊號丟失/blooming，因此偵測顱內出血優於 Spin Echo（SE）/Turbo Spin Echo（TSE）。SWI 更以 GRE 為基礎、加用相位資訊，對微出血最敏感。** 判讀分水嶺：**GRE/SWI 上的低訊號 blooming ＝順磁性血產物（deoxyHb/methemoglobin/hemosiderin/ferritin）；SE/TSE 的 180° 重聚會把靜態不均勻「補回去」，故對出血較不敏感。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.295095034",
+      "url": "https://doi.org/10.1148/rg.295095034"
+    },
+    {
+      "label": "10.53347/rID-13858（輔助來源",
+      "url": "https://doi.org/10.53347/rID-13858（輔助來源"
+    }
+  ],
+  "imagingFindings": "- **blooming 徵象**：小出血在 GRE/SWI 上因 dephasing 而看起來比實際大 → 提高偵測率，但**會高估病灶大小**。\n- **序列選擇**：懷疑微出血（CAA、高血壓、DAI）、海綿狀血管瘤、出血性轉移 → 加做 GRE 或 SWI。\n- **SE/TSE 為何較不敏感**：180° 重聚脈衝把靜態磁場不均勻重新相位化，抑制了磁化率效應，故對慢性血產物（hemosiderin）較不顯。\n- **鈣 vs 血**：兩者於 GRE 皆可低訊號 blooming；**SWI 相位圖**可分辨（鈣化反磁性、血產物順磁性，相位方向相反，惟依製造商相位慣例）。\n- **陷阱**：GRE/SWI 對磁化率極敏，顱底/氣骨界面之偽影亦明顯，勿誤判為出血。",
+  "keyPoints": [
+    "**GRE 無 180° 重聚**：GRE 僅用梯度反轉形成回波（SE/TSE 用 180° RF 重聚），**無法補償局部靜態磁場不均勻**，影像權重帶 **T2\\*** 特性。",
+    "**對出血敏感之機轉**：血產物（**deoxyhemoglobin、ferritin、hemosiderin**、細胞內 methemoglobin）具**順磁性**，造成局部磁化率（susceptibility）不均 → GRE 無重聚，dephasing 不被補償 → 呈明顯低訊號並 **blooming（放大）**，故偵測微出血/出血較 SE/TSE 敏感。",
+    "**SWI 延伸**：SWI ＝**以 GRE 為基礎之 3D 高解析、速度校正序列**，同時利用**相位 + 強度**並經 high-pass filter 後處理放大磁化率效應，對**微出血最敏感**；相位資訊亦可**區分鈣化（反磁性）與血產物（順磁性）**。",
+    "**T2\\* 加權參數與其他應用**：**GRE 以「低翻轉角、長 TE、長 TR」使影像偏 T2\\* 加權**；T2\\*-based 對比為多種應用之基礎——**SWI、灌注 MR（gadolinium 通過微血管致訊號下降）、功能性 MR（BOLD 效應）、鐵過載影像**。"
+  ],
+  "management": "1. **一句話**：要找出血/微出血，選 GRE 或 SWI（T2\\* 加權），別只靠 SE/TSE。\n2. **機轉核心**：GRE 無 180° 重聚 → 磁化率效應不被補償 → 順磁性血產物 blooming。\n3. **SWI 最敏感**：GRE 基礎 + 相位資訊，偵測微出血優於一般 GRE。\n4. **臨床用途**：CAA/高血壓微出血、DAI、海綿狀血管瘤、出血性轉移之偵測與分佈評估。\n5. **判讀提醒**：blooming 會放大病灶、且鈣血需靠相位分辨，界面偽影勿誤判。\n\n> [!note] 考點：何種MR波序對顱內出血性病灶偵測效率較佳？\n> **Gradient echo（GRE，C）**——GRE 無 180° 重聚脈衝，對磁化率效應（出血代謝物之順磁性）較敏感，偵測出血病灶效率優於 SE/TSE（SWI 以 GRE 為基礎更敏感）。",
+  "name": "Gradient Echo — Superior Hemorrhage Detection",
+  "nameZh": "顱內出血MRI波序偵測",
+  "slug": "gre-hemorrhage-detection",
+  "subspecialty": "NR"
+}

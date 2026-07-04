@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**胃 bull's-eye（牛眼）病灶 = 中央潰瘍的黏膜下隆起，多發時幾乎必是惡性血行轉移，不要誤判為良性。** 判讀分水嶺一：**多發 bull's-eye → 惡性（轉移），最常見原發為 melanoma（黑色素瘤），非淋巴瘤。** 判讀分水嶺二：**Kaposi sarcoma 也可呈牛眼外觀，這是考試陷阱選項；記住「黑（melanoma）+ 卡（Kaposi）= 牛眼雙王」。**",
+  "differentialDiagnosis": [
+    "**轉移瘤**：melanoma（黑色素瘤，GI 道血行轉移比率最高、典型呈小牛眼/靶狀）、乳癌、肺癌、Kaposi sarcoma。",
+    "**淋巴瘤**：胃淋巴瘤可多發、亦可中央潰瘍呈牛眼。",
+    "故考試常見「multiple bull's-eye lesions are almost always benign」為**錯誤**——多發者反而傾向惡性。",
+    "良性間葉瘤（多為**單發**）：GIST（>2 cm 約 50% 因黏膜潰瘍呈牛眼）、ectopic pancreas（異位胰；中央 umbilication 為導管開口）、leiomyoma、neurofibroma、lipoma。",
+    "carcinoid、Kaposi、單發淋巴瘤、單發轉移亦可呈單發牛眼。",
+    "與 varioliform erosions（疹樣糜爛）鑑別：後者通常 <1 cm、較小。"
+  ],
+  "externalLinks": [
+    {
+      "label": "https://radiologykey.com/other-malignant-tumors-of-the-stomach-and-duodenum/",
+      "url": "https://radiologykey.com/other-malignant-tumors-of-the-stomach-and-duodenum/"
+    },
+    {
+      "label": "https://epos.myesr.org/poster/esr/ecr2020/C-13566/findings%20and%20procedure%20details（會議教學資源，輔助佐證鋇劑外觀",
+      "url": "https://epos.myesr.org/poster/esr/ecr2020/C-13566/findings%20and%20procedure%20details（會議教學資源，輔助佐證鋇劑外觀"
+    },
+    {
+      "label": "10.1148/radiol.2461061245（RG/RSNA",
+      "url": "https://doi.org/10.1148/radiol.2461061245（RG/RSNA"
+    },
+    {
+      "label": "10.2214/AJR.05.0095（AJR",
+      "url": "https://doi.org/10.2214/AJR.05.0095（AJR"
+    }
+  ],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Gastric Target (\"Bull's-eye\") Lesions",
+  "nameZh": "牛眼病灶",
+  "slug": "gastric-target-lesions",
+  "subspecialty": "ABD"
+}

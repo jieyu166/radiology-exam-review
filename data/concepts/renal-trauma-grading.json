@@ -1,0 +1,20 @@
+{
+  "checked": false,
+  "definition": "**AAST腎損傷分級口訣「一挫二淺三深四通五碎/撕」：Grade 1挫傷/被膜下血腫無撕裂；Grade 2皮質撕裂<1cm；Grade 3皮質撕裂>1cm；Grade 4撕裂延伸入集尿系統（laceration involving collecting system）或節段血管損傷；Grade 5腎臟碎裂或腎蒂/主腎動脈撕脫。所以「撕裂延伸入集尿系統」＝Grade 4，「主腎動脈撕脫」＝Grade 5。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**Grade 1**：挫傷（contusion）或非擴張性被膜下血腫；無撕裂。",
+    "**Grade 2**：非擴張性腎周血腫；皮質撕裂**<1cm深**（無尿液外滲）。",
+    "**Grade 3**：皮質撕裂**>1cm深**（無尿液外滲）。",
+    "**Grade 4**：**撕裂延伸經皮髓質交界進入集尿系統（laceration involving collecting system）**；或血管性——節段腎動脈/靜脈損傷併局限性血腫、部分血管撕裂或血栓。",
+    "**Grade 5**：撕裂＝腎臟碎裂（shattered kidney）；或血管性＝腎蒂/主腎動脈撕脫（renal pedicle avulsion）。",
+    "**雙側損傷**：分級提升一級（最高至grade 3）。"
+  ],
+  "management": "",
+  "name": "Renal Trauma — AAST Grading",
+  "nameZh": "腎損傷分級",
+  "slug": "renal-trauma-grading",
+  "subspecialty": "GU"
+}

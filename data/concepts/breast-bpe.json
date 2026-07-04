@@ -1,0 +1,17 @@
+{
+  "checked": false,
+  "definition": "**Background parenchymal enhancement (BPE) 受月經週期影響，在 Day 7-20（增殖期至排卵前後）時 BPE 最低，為乳房 MRI 最佳檢查時機。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "BPE 最低時期：**Day 7-20**（第二週），建議此時進行乳房 MRI",
+    "BPE 分級：minimal / mild / moderate / marked",
+    "停經前女性 BPE 隨週期波動；停經後通常較低"
+  ],
+  "management": "",
+  "name": "Background Parenchymal Enhancement",
+  "nameZh": "背景實質強化",
+  "slug": "breast-bpe",
+  "subspecialty": "Breast"
+}

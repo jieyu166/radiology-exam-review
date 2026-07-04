@@ -1,0 +1,13 @@
+{
+  "checked": false,
+  "definition": "**乳房鈣化判讀的關鍵：認出「典型良性」，剩下的就往可疑靠。** 良性鈣化有個好記的形象：爆米花（coarse/popcorn）、茶杯底（milk of calcium 側位呈彎月形）、大桿子（large rod-like 沿乳管指向乳頭）；**amorphous 雖看似無害的粉狀雲霧，卻屬於「可疑型態」，需歸入 BI-RADS 4 建議切片**，這是最常考的陷阱。判讀時兩個軸線一起看：**型態（morphology）決定「長相多可疑」、分布（distribution）決定「排列多可疑」**，惡性可能性兩者相乘。可疑四型口訣：**「霧（amorphous）、粗不均（coarse heterogeneous）、多形細（fine pleomorphic）、線分支（fine linear branching）」**，由左到右惡性風險遞增。",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [],
+  "management": "",
+  "name": "Breast Calcifications (BI-RADS Morphology)",
+  "nameZh": "乳房鈣化",
+  "slug": "breast-calcifications",
+  "subspecialty": "Breast"
+}

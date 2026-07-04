@@ -1,0 +1,19 @@
+{
+  "checked": false,
+  "definition": "**成人腸套疊沒有固定好發部位——不像兒童好發迴結腸型，成人絕大多數存在導引點病灶(lead point lesion)，套疊發生位置完全取決於該病灶所在，這是與兒童腸套疊最根本的差異。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**常為良性偶然發現**：常為短暫性良性偶然發現，CT廣泛應用前多未被察覺。",
+    "**無固定好發部位**：與兒童不同，成人**無固定分布模式**——絕大多數病例存在導引點病灶，套疊位置取決於該病灶位置，並非固定好發於迴腸末端至盲腸段。",
+    "**臨床顯著性**：**近端阻塞**常合併臨床顯著之套疊。",
+    "**臨床意義門檻**：若套疊長度**<3-5公分**且**無近端擴張**，則不太可能具臨床意義。",
+    "**補充**：腸源性套疊(enteric intussusception)為成人腸套疊最常見型態；慢性症狀>14天與結腸型套疊為惡性之獨立預測因子。"
+  ],
+  "management": "",
+  "name": "Adult Intussusception",
+  "nameZh": "成人腸套疊",
+  "slug": "adult-intussusception",
+  "subspecialty": "ABD"
+}

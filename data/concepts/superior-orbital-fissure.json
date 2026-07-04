@@ -1,0 +1,16 @@
+{
+  "checked": false,
+  "definition": "**Superior orbital fissure (SOF) 通過的神經血管結構包括 CN III、CN IV、CN V1（三叉神經眼支）、CN VI、superior ophthalmic vein。Vidian nerve 不經過 SOF（經由 vidian canal 通 pterygopalatine fossa）。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "SOF 內容物：oculomotor (III)、trochlear (IV)、V1 (lacrimal/frontal/nasociliary)、abducens (VI)、superior ophthalmic vein",
+    "**不經過 SOF**：vidian nerve（走 vidian canal）、V2（走 foramen rotundum）、V3（走 foramen ovale）"
+  ],
+  "management": "",
+  "name": "Superior Orbital Fissure Contents",
+  "nameZh": "上眶裂",
+  "slug": "superior-orbital-fissure",
+  "subspecialty": "NR"
+}

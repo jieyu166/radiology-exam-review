@@ -1,0 +1,22 @@
+{
+  "checked": false,
+  "definition": "**卵巢黏液性囊腺瘤＝良性、常體積大的單側多房囊性腫瘤，各房黏液濃度不同造成 T1/T2 訊號不一的「stained glass（彩繪玻璃）」外觀；「spider web（蜘蛛網）」外觀是腹膜包裹性囊腫的特徵，不是黏液性囊腺瘤。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00261-014-0257-z"
+    }
+  ],
+  "imagingFindings": "- **Stained glass 外觀**：多房間訊號差異（黏液蛋白濃度不同）是黏液性囊腺瘤的判讀線索\n- **良性徵象**：薄且規則的隔間、無明顯實質結節與強化；出現厚隔、實質乳頭狀結節或壞死時需懷疑交界性／惡性\n- **DDx 陷阱**：**\"spider web\" appearance 屬 peritoneal inclusion cyst（腹膜包裹性囊腫）**，其分隔纖細呈蜘蛛網狀、常「包住」卵巢且無真正囊壁，勿與黏液性囊腺瘤混淆",
+  "keyPoints": [
+    "良性含黏液上皮腫瘤，通常**比漿液性囊腺瘤更大**、**單側**居多",
+    "**多房囊性（multilocular）**，薄壁、多隔間，缺乏顯著實質成分",
+    "各房黏液濃度不一 → T1WI/T2WI 訊號各異，呈 **\"stained glass\" appearance**"
+  ],
+  "management": "1. 屬上皮性卵巢腫瘤，多為良性。\n2. 可長至很大體積後才出現腹脹等壓迫症狀。\n3. 破裂可致腹膜假性黏液瘤（少見但需注意）。\n4. 增強 MRI 有助於偵測實質成分以評估良惡性。\n5. 出現實質乳頭狀結節與強化時，惡性可能性上升。\n\n> [!note] 考點：下列何者「非」卵巢黏液性囊腺瘤的典型影像表現？\n> **C：\"Spider web\" appearance**。此為腹膜包裹性囊腫特徵；黏液性囊腺瘤為體積大、多房囊性、\"stained glass\" 外觀。",
+  "name": "Ovarian Mucinous Cystadenoma",
+  "nameZh": "卵巢黏液性囊腺瘤",
+  "slug": "ovarian-mucinous-cystadenoma",
+  "subspecialty": "GYN"
+}

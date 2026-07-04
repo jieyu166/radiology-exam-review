@@ -1,0 +1,37 @@
+{
+  "checked": false,
+  "definition": "**肥厚性幽門狹窄以超音波診斷，四個數值中肌壁厚度（>3 mm）最準，長度（>15–17 mm）正常上限約 15 mm 是常考數字。** 判讀分水嶺一：**最可靠單一指標＝肌壁厚 >3 mm**，其次橫徑 >14 mm。判讀分水嶺二：**正常幽門肌長度＜15 mm**——考「正常上限多少」答 15 mm。臨床背景：2–8 週男嬰、非膽汁性噴射性嘔吐，動態看胃內容物無法通過幽門管。記憶鉤：「3–14–15」厚-橫-長三數字，3 mm 肌壁最關鍵。",
+  "differentialDiagnosis": [
+    "**pylorospasm（幽門痙攣）偽陽性最常見**：痙攣會暫時性增厚、模擬 HPS，但會自行放鬆、可見蠕動通過；HPS 則外形固定不變、全程無蠕動穿越。故須**動態即時觀察足夠時間**，疑似時安排追蹤掃描。",
+    "**餵食後右側臥**：胃過度充盈時肥厚幽門可被推往胃竇後方而看不到，造成偽陰性；改右側臥讓液體流向胃底側、幽門前移即可顯影。掃描前可先給口服電解質液或奶以充盈胃。",
+    "**早產／月齡較小新生兒切點略低**：對早產或較小嬰兒，較小的量測值仍可能具診斷意義，不可一律套用足月兒切點。",
+    "**DDx**：(1) pylorospasm——可逆、有蠕動；(2) prostaglandin 引起的黏膜（foveolar）增生——前列腺素治療之先天心嬰兒，幽門因黏膜增生而變長變寬，此時**只量低回音的肌壁**，勿把增厚黏膜誤判為肌肥厚；(3) antral web／prepyloric membrane（胃竇蹼／幽門前膜）——位置較近端、為膜狀阻塞，非環形肌肥厚。另須避免將胃食道接合處逆流誤認為正常蠕動的幽門。"
+  ],
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1002/ajum.12305"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.7759/cureus.98606"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1007/s00261-016-0809-5"
+    }
+  ],
+  "imagingFindings": "- **target / doughnut sign（橫切）**：橫切幽門呈同心圓——周邊低回音的肥厚肌層 + 中央高回音黏膜，狀如標靶／甜甜圈。\n- **cervix sign（子宮頸徵象）**：長軸上肥厚幽門突入充液的胃竇，外形類似子宮頸突入陰道穹窿。\n- **antral nipple sign（胃竇乳頭徵象）**：充液胃竇內，幽門過長的黏膜被擠出呈乳頭狀突起；屬輔助徵象，現有證據對其診斷效力評估仍不足。\n- **shoulder sign / shouldering**：肥厚肌層在胃竇—幽門交界處形成「肩部」凸起壓跡。\n- **caterpillar sign（毛毛蟲徵象，腹部 X 光）**：擴張胃因過度蠕動在 AP 片上呈分節狀波浪輪廓；非特異、不一定出現，僅供旁證。\n- **UGI（上消化道攝影）徵象**：可見 string sign（細線狀對比劑勉強穿過狹長幽門管）、double-track sign（黏膜皺襞間平行雙軌）、beak sign（胃竇端鳥嘴狀）與 mushroom sign（肥厚幽門壓迫胃竇基底呈蕈狀）；UGI 因耗時、輻射、操作者依賴，已非首選，超音波取而代之。",
+  "keyPoints": [
+    "**肌壁厚度（muscle wall thickness）>3 mm**：**最準確**指標。",
+    "**幽門橫徑（transverse diameter）>14 mm**。",
+    "**長度/縱軸（length）>15–17 mm**為異常 → 故**正常長度 < 15 mm**（2016-105 正解 C）。",
+    "**幽門容積 >1.5 cm³**。",
+    "動態：胃內容物無法通過、可見 \"channel\"、target/doughnut 徵象；好發 2–8 週男嬰、非膽汁性嘔吐。"
+  ],
+  "management": "",
+  "name": "Hypertrophic Pyloric Stenosis — US Criteria",
+  "nameZh": "肥厚性幽門狹窄",
+  "slug": "pyloric-stenosis",
+  "subspecialty": "PED"
+}

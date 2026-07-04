@@ -1,0 +1,15 @@
+{
+  "checked": false,
+  "definition": "**乳房超音波上，腺體組織（glandular tissue）相對於脂肪小葉（fatty lobule）呈現中度回音增強（moderately hyperechoic），此為判讀乳房超音波組織背景時的基本參考點。**",
+  "differentialDiagnosis": [],
+  "externalLinks": [],
+  "imagingFindings": "",
+  "keyPoints": [
+    "**腺體組織 vs 脂肪小葉**：腺體組織之回音性相對於脂肪小葉為**中度增強（moderately hyperechoic）**，並非等回音、明顯高回音或中度減弱。"
+  ],
+  "management": "",
+  "name": "Normal Breast Tissue Echogenicity (Ultrasound)",
+  "nameZh": "乳房組織回音性",
+  "slug": "breast-tissue-echogenicity",
+  "subspecialty": "US"
+}
