@@ -23,8 +23,23 @@ dateRev: 2026-07-02
 > [!note] 考點：關於hemimegalencephaly何者「不正確」？
 > **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]
 
+## 放射科醫師影像判讀重點
+- **核心影像徵象**：單側大腦半球（部分或全部）擴大，伴同側腦室擴大（尤其額角向前上方拉長）；此不對稱性腦室擴大常為產前超音波與胎兒MRI最先偵測到的非特異表現。[^2]
+- **皮質發育異常**：受累半球見皮質增厚、腦迴增寬（pachygyria）、多小腦迴（polymicrogyria）或無腦迴（agyria）等皮質移行與分化異常，為與單純巨腦或腫瘤鑑別的關鍵。[^2]
+- **白質訊號（本題核心）**：受累白質因加速／異常髓鞘化，於T1WI呈相對『增高』訊號、CT值增高，並非因髓鞘化減少而T1低訊號；此為考題主要陷阱。[^1]
+- **DDx（單側大腦半球腫大）**：需與大範圍半球性腫瘤（如膠質瘤）、Sturge-Weber症候群、半球性缺血後改變鑑別；HME的關鍵在腫大半球同時具皮質發育不良＋同側腦室擴大而非佔位效應性壓迫。[^2]
+- **判讀陷阱**：勿將腫大半球誤判為對側半球萎縮所致的假性不對稱；應以腦室與中線位移方向（向健側位移）確認為患側過度生長。[^2]
+
+## 臨床重點（5 句）
+- HME屬先天性腦畸形，臨床三主徵為難治性癲癇、發展遲緩與偏癱（對側肢體）。[^2]
+- 癲癇多在出生後早期出現且藥物難以控制，常需考慮手術。[^2]
+- 產前診斷困難，第二／三孕期例行超音波多僅見不對稱腦室擴大等非特異表現，須高解析神經超音波與胎兒MRI確診。[^2]
+- 整體預後不佳，主因為頑固性癲癇、偏癱與進行性神經發展退化。[^2]
+- 對藥物頑固之癲癇，功能性或解剖性半球切除（hemispherectomy）為主要治療選項。[^2]
+
 ### 參考來源
 [^1]: *Diagnostic Imaging: Pediatric Neuroradiology* (2007) by A. James Barkovich, Kevin R. Moore, Blaise V. Jones, et al., p.20-23（2018 交換考題詳解 p.314 引用；Tier 2 教科書）。hemimegalencephaly為先天畸形，因細胞組織結構與神經元移行缺陷致一側半球錯構瘤樣過度生長；MRI見皮質增厚、相對年齡加速髓鞘化(白質T1增高訊號、CT值增高)、異位神經元致T1縮短。
+[^2]: **Tier 1** Sepulveda W, Sepulveda F, Schonstedt V, Stern J, Diaz-Serani R. *Neuroimaging Findings in Fetal Hemimegalencephaly: Case Study and Review*. Fetal Diagn Ther 2023;51(2):133-144（據 PubMed，DOI [10.1159/000535406](https://doi.org/10.1159/000535406)；實際查證 accessed 2026-07-04）——系統性回顧36例HME，歸納單側大腦半球擴大＋同側腦室擴大＋皮質移行異常之影像特徵、產前超音波與胎兒MRI診斷路徑，及難治性癲癇、偏癱、進行性發展遲緩之不良預後。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Concerning hemimegalencephaly, which of the followings is INCORRECT? (2018-401)

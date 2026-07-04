@@ -2,13 +2,18 @@
   "checked": false,
   "definition": "**嬰幼兒腸病毒第71型感染合併脊髓病變導致之急性弛緩性麻痺，MRI典型表現為病灶同側（ipsilateral）前角細胞（anterior horn cells）之T2高訊號合併強化，並非雙側後柱（posterior columns）或雙側前角區受累；合併脊髓神經根炎時，馬尾腹側神經根可見增厚與強化。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.3345/kjp.2016.59.10.395",
+      "url": "https://doi.org/10.3345/kjp.2016.59.10.395"
+    }
+  ],
+  "imagingFindings": "- **腦幹腦炎（brainstem encephalitis）為EV71最常見且最致命之神經併發症**：MRI好發於背側橋腦（dorsal pons）與延腦（medulla oblongata），其次為小腦齒狀核（dentate nucleus）、中腦、視丘。\n- **各模態訊號**：T1WI呈等或低訊號、T2WI呈等或高訊號；增強掃描可見輕至中度強化，且早期平掃陰性者於增強掃描可補捉到平掃遺漏之病灶。\n- **脊髓型（急性弛緩性麻痺）**：病灶位於**同側前角細胞**，T2高訊號合併強化；合併脊髓神經根炎時馬尾腹側神經根增厚強化。\n- **預後判讀點**：背側延腦（dorsal medulla oblongata）受累與多區受累者預後最差，可導致神經源性肺水腫／出血而死亡。\n- **鑑別診斷**：需與其他病毒性菱腦炎（rhombencephalitis，如listeria、單純疱疹）、急性瀰漫性腦脊髓炎（ADEM）鑑別；EV71之背側橋腦／延腦選擇性受累合併手足口病臨床背景為關鍵線索。",
   "keyPoints": [
     "**典型受累部位**：**同側（ipsilateral）前角細胞（anterior horn cells）**，MRI呈T2高訊號合併強化。",
     "**合併脊髓神經根炎（radiculomyelitis）**：可見馬尾腹側神經根（ventral nerve roots of cauda equina）增厚與強化。"
   ],
-  "management": "",
+  "management": "- EV71感染多以手足口病（HFMD）表現，多數自限，但偶爾侵犯中樞神經系統。\n- 特徵性臨床症狀為肌陣攣（myoclonus）與運動失調（ataxia），合併腦脊髓液白血球增多。\n- 診斷需結合HFMD皮疹與自糞便／咽拭子／CSF分離出EV71病毒。\n- 嚴重神經併發症（如腦幹腦炎）建議以靜脈免疫球蛋白（IVIG）與milrinone治療。\n- 自1997年馬來西亞疫情後，EV71於亞太地區流行，已成重要公共衛生問題，中國已完成三款EV71疫苗第三期試驗。",
   "name": "Enterovirus 71 (EV71) — CNS Complications",
   "nameZh": "腸病毒71型中樞神經併發症",
   "slug": "ev71-cns-complications",

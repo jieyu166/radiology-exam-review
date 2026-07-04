@@ -19,8 +19,23 @@ dateRev: 2026-07-02
 - **Cauda equina syndrome**：purely LMN deficits [^1]
 - 鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss） [^1]
 
+## 放射科醫師影像判讀重點
+- **CCS 的典型受傷機轉與族群**：外傷性 CCS 為**最常見的不完全脊髓損傷**，典型見於**50歲以上、頸椎椎管狹窄（spondylosis）病人於頸椎過度後仰（hyperextension）外傷後**；影像判讀時應同時評估先天／退化性椎管狹窄與急性脊髓變化。[^2]
+- **MRI 訊號重點**：急性期 T2WI／STIR 於頸髓中央可見高訊號水腫（好發 C4–C7），對應中央灰質與內側皮質脊髓束受累（上肢重於下肢之臨床型態）；出血性挫傷（T2 低訊號、GRE/SWI 訊號缺失）預後較差。[^2]
+- **SCIWORA 陷阱**：CCS 常無骨折脫位（X光／CT 可正常），此即 SCIWORA（無影像學異常之脊髓損傷）——**不可因 CT 陰性而排除脊髓損傷，MRI 為偵測脊髓與韌帶軟組織損傷之關鍵**；兒童尤須警覺。[^2]
+- **韌帶與延遲惡化**：判讀時應評估前／後縱韌帶、椎間盤有無破裂與續發不穩定，此為保守治療後神經功能延遲惡化的機轉，MRI 追蹤可見壓迫加重。[^2]
+- **DDx 定位**：以橫斷面訊號分布定位症候群——中央（CCS）、前索（anterior cord，腹側）、半側（Brown-Séquard）、圓錐（conus medullaris，混合 UMN+LMN）與馬尾（cauda equina，純 LMN）。[^1]
+
+## 臨床重點（5 句）
+- 外傷性 CCS 臨床表現為**上肢無力重於下肢**、遠端重於近端，合併不同程度感覺與膀胱功能障礙。[^2]
+- 入院與出院之 ASIA motor score 及頸椎椎管直徑為重要預後預測因子；motor score ≥60 者出院可行走機率約80%。[^2]
+- 多數 CCS 可先行保守治療並常見良好恢復，但出現延遲性神經惡化或持續壓迫時需手術減壓。[^2]
+- Conus medullaris 症候群產生混合 UMN+LMN 缺損並早期出現膀胱／直腸功能障礙；cauda equina 症候群為純 LMN、常伴鞍區感覺喪失與神經根痛。[^1]
+- 急性脊髓損傷屬急症，及時影像評估與神經學分級（ISNCSCI/ASIA）決定處置與復健時機。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解。
+[^2]: **Tier 1** Thompson C, Gonsalves JF, Welsh D. *Hyperextension injury of the cervical spine with central cord syndrome*. Eur Spine J 2015;24(1):195-202（據 PubMed，DOI [10.1007/s00586-014-3432-6](https://doi.org/10.1007/s00586-014-3432-6)；實際查證 accessed 2026-07-04）——外傷性中央脊髓症候群（TCCS）為最常見的不完全脊髓損傷，典型見於50歲以上、椎管狹窄病人之頸椎過度後仰外傷；ASIA motor score 與頸椎椎管直徑為預後預測因子。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 > [!question]- 相關考題

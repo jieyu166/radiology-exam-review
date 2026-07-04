@@ -2,13 +2,22 @@
   "checked": false,
   "definition": "**Kearns-Sayre症候群是粒線體疾病，不是溶酶體儲積症——這是本主題最常見的分類混淆陷阱。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1002/ddrr.1120",
+      "url": "https://doi.org/10.1002/ddrr.1120"
+    },
+    {
+      "label": "10.1007/s00247-018-4139-3",
+      "url": "https://doi.org/10.1007/s00247-018-4139-3"
+    }
+  ],
+  "imagingFindings": "- **MRI 為核心影像**：溶酶體儲積症之 CNS 侵犯以瀰漫性白質異常（T2/FLAIR 高訊號）與腦萎縮為主，MRI 敏感度高於 CT，並可搭配 MRS、DTI 評估代謝與微結構。\n- **異染性腦白質失養症（MLD）**：對稱性腦室周圍白質 T2 高訊號，典型呈「虎斑紋（tigroid）」型態——受保留的血管周圍髓鞘於高訊號背景中呈條紋狀低訊號。\n- **Krabbe 病**：早發型可見錐體束、小腦白質與齒狀核侵犯，部分病例 CT 可見丘腦/基底核高密度，並有視放射侵犯。\n- **黏多醣症（MPS）**：擴大的血管周圍腔（perivascular/Virchow-Robin spaces）呈篩狀 T2 高訊號、腦萎縮、腦積水，並常合併顱頸交界狹窄與脊髓壓迫。\n- **判讀策略**：影像型態多重疊、缺乏單一特異性生物標記，須結合臨床、酵素/基因檢測綜合判斷；影像主要用於監測疾病進展（如 MPS 之顱頸交界狹窄、脊髓壓迫、腦積水）以利及時介入。\n- **分類陷阱（本題核心）**：Kearns-Sayre 為粒線體疾病（外眼肌麻痺＋色素性視網膜病變），非溶酶體儲積症，勿混入本類鑑別。",
   "keyPoints": [
     "**溶酶體儲積症**：黏多醣症(mucopolysaccharidoses)、異染性腦白質失養症(metachromatic leukodystrophy)、Krabbe氏病、Gaucher disease、Niemann-Pick disease、Fabry disease等，皆屬溶酶體儲積症。",
     "**Kearns-Sayre症候群為粒線體疾病**：非溶酶體儲積症；粒線體疾病影響範圍較侷限，僅在特定組織(多為肌肉、中樞神經系統)發現粒線體基因缺失，臨床最常見表現為外眼肌麻痺(ophthalmoplegia)及眼底色素性視網膜病變。"
   ],
-  "management": "",
+  "management": "- 溶酶體儲積症為酵素缺陷導致受質堆積的一群體染色體隱性遺傳代謝疾病（MPS II 為 X 染色體性聯）。\n- 神經退化、發展遲緩與智能退化為多數具 CNS 侵犯型別的共同臨床特徵。\n- MPS 典型全身表現包含臟器腫大、多發性骨發育不良（dysostosis multiplex）與短軀幹侏儒。\n- 顱頸交界狹窄與脊髓壓迫是 MPS 需及早偵測與介入的重要併發症。\n- 影像對疾病嚴重度的相關性仍具爭議，目前尚無公認的影像生物標記。",
   "name": "Lysosomal Storage Disorders — CNS",
   "nameZh": "溶酶體儲積症",
   "slug": "lysosomal-storage-disorders-cns",

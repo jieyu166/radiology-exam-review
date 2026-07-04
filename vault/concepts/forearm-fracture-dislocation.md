@@ -21,11 +21,27 @@ dateRev: 2026-07-02
 - **Essex-Lopresti**：橈骨頭骨折 + 骨間膜撕裂 + DRUJ 脫臼。[^1]
 - **TFCC 撕裂**：與 DRUJ 不穩定高度相關。[^1]
 
+## 放射科醫師影像判讀重點
+- **X 光（首選、必拍全長）**：前臂骨折務必含肘與腕兩關節於同一評估，避免遺漏合併脫臼；單看骨折段易漏診近端橈骨頭脫臼（Monteggia）或遠端 DRUJ 脫臼（Galeazzi）。[^2]
+- **橈骨頭對位線（radiocapitellar line）**：任何投照方向，沿橈骨頸長軸畫線應通過肱骨小頭中心；不通過即代表橈骨頭脫臼，為判讀 Monteggia 的關鍵徵象。[^2]
+- **Monteggia vs terrible triad 鑑別**：兩者皆為肘部骨折脫臼但機轉不同——Monteggia 為尺骨（近端）骨折 + 橈骨頭脫臼；terrible triad 為肘關節脫臼 + 橈骨頭骨折 + 冠狀突骨折。Monteggia 併發尺骨骨不癒合風險較高，terrible triad 則以肘關節攣縮為主。[^2]
+- **Galeazzi—DRUJ 評估**：橈骨遠端 1/3 骨折時須於側位與正位評估 DRUJ 增寬、尺骨頭背側/掌側移位；DRUJ 不穩定常伴 TFCC 撕裂。[^1]
+- **Essex-Lopresti—縱向不穩定陷阱**：橈骨頭骨折若合併腕部疼痛，須警覺骨間膜撕裂造成的縱向前臂不穩定，橈骨近端移位（positive ulnar variance 於腕部）為線索；單看肘部易漏診。[^1]
+- **判讀陷阱**：Monteggia 屬「近端橈尺關節」問題，與 DRUJ 無關；勿將其歸為 DRUJ 不穩定型態。[^1]
+
+## 臨床重點（5 句）
+- Monteggia 損傷成人以尺骨骨不癒合為主要併發症，需手術固定並復位橈骨頭。[^2]
+- 兒童 Monteggia 常為塑性彎曲（plastic bowing）或青枝骨折，橈骨頭脫臼易被忽略而延誤處置。[^2]
+- Galeazzi 骨折被稱為「fracture of necessity」，成人幾乎均需手術固定橈骨並穩定 DRUJ。[^1]
+- Essex-Lopresti 為縱向前臂不穩定，延誤診斷會導致慢性腕痛與橈骨近端移位。[^1]
+- 前臂骨折脫臼多為高能量創傷，需評估是否合併神經血管損傷（如後骨間神經）。[^2]
+
 ## 陷阱
 - Monteggia 影響近端橈尺關節，NOT associated with DRUJ instability。[^1]
 
 ### 參考來源
 [^1]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed., p. 90。
+[^2]: **Tier 1** Gonzalez LJ, Shields CN, Leucht P, Konda SR, Egol KA. *Fracture-Dislocations of the Elbow: A Comparison of Monteggia and Terrible Triad Fracture Patterns*. Orthopedics 2023;46(3):158-163（據 PubMed，DOI [10.3928/01477447-20221129-07](https://doi.org/10.3928/01477447-20221129-07)；實際查證 accessed 2026-07-04）——比較 Monteggia 與 terrible triad 兩型肘部骨折脫臼之機轉與併發症：Monteggia 為尺骨骨折併橈骨頭脫臼、以尺骨骨不癒合為主要併發症，terrible triad 則以肘關節攣縮為主，佐證 Monteggia 屬近端問題並強調 radiocapitellar line 判讀。原「官方詳解/教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

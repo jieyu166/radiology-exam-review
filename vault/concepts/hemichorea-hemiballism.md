@@ -23,11 +23,26 @@ same:
 - **MR異常之成因（組織學）**：gemistocytes（肥胖性星形膠細胞）、microbleeds（微出血）、calcium（鈣質）、demyelination（脫髓鞘）、macrophages（巨噬細胞）等。[^1]
 - 相關：基底核T1縮短（T1高訊號）病因見 [[basal-ganglia-t1-shortening]]（NHH/hyperglycemia相關chorea-ballism為其一）。
 
+## 放射科醫師影像判讀重點
+- **CT（判讀關鍵）**：對側基底核（**被殼 putamen、蒼白球 globus pallidus、尾核 caudate**）呈**高密度（hyperdense）**，非低密度；此高密度非鈣化性、且會隨臨床改善而消退，是與鈣化及出血鑑別的要點。[^1][^2]
+- **MRI**：對應區域 **T1WI 呈高訊號**、T2WI 訊號多變（可等/低訊號）；病灶通常**不佔位、無明顯周邊水腫**，強化不明顯，可與腫瘤/膿瘍區分。[^1][^2]
+- **分布與側性**：多為**單側**、對側於臨床舞蹈側；雙側受累少見（本組16例中僅2例雙側）。[^2]
+- **DDx**：需與**急性缺血性中風**（低密度、有血管分布）、**基底核鈣化**（SWI blooming、CT 對稱且不消退）、**出血**（會有含鐵血黃素演變）區分；結合高血糖病史與可逆性是關鍵。[^2]
+- **判讀 pitfall**：切勿把 CT 高密度誤讀為出血或鈣化而延誤診斷；影像變化多在血糖控制後數日至數週逐漸緩解。[^2]
+
+## 臨床重點（5 句）
+- HC-NH 為**糖尿病之罕見併發症**，好發於**血糖控制不良的年長者**（本組平均67.6歲、HbA1c約11.9%）。[^2]
+- 可為**已知糖尿病或新診斷糖尿病**之表現；本組5/16為新診斷。[^2]
+- 屬**非酮性高血糖**相關，但部分病例仍可測得酮尿，不能僅以有無酮尿排除。[^2]
+- 舞蹈症狀在**血糖控制與治療後多於數日內改善**（本組平均5天）。[^2]
+- 推測機轉與**基底核慢性缺血合併高血糖**相關，預後大致良好。[^2]
+
 > [!note] 考點：關於hemichorea-hemiballism syndrome敘述何者有誤？
 > **Hypodensity on non-contrast CT, hyperintensity on T1WI（C）**——實際上非顯影CT呈**高密度（hyperdense）**，非低密度（T1WI高訊號正確）。源自DM非酮性高血糖(A對)、通常單側侵犯尾核與被殼(B對)、MR異常成因含gemistocytes/microbleeds/calcium/demyelination/macrophages(D對)皆為正確描述。[^1]
 
 ### 參考來源
 [^1]: Shan DE, Ho DM, Chang C, Pan HC, Teng MM. *Hemichorea-hemiballism: an explanation for MR signal changes*. American Journal of Neuroradiology May 1998;19(5):863-870（2018 交換考題詳解 p.263 引用；Tier 1 期刊）。NHH通常源自DM非酮性高血糖，單側侵犯尾核與被殼；非顯影CT呈高密度、T1WI呈高訊號；MR異常組織學成因含gemistocytes/microbleeds/calcium/demyelination/macrophages。
+[^2]: **Tier 1** Chen X, Ma C, Zhi L, Wei X, Luo J, Liang C, Tan J, Zhou H, Wu J. *Hemichorea Associated With Nonketotic Hyperglycemia*. J Clin Endocrinol Metab 2023;108(8):e550-e556（據 PubMed，DOI [10.1210/clinem/dgad077](https://doi.org/10.1210/clinem/dgad077)；實際查證 accessed 2026-07-04）——16例HC-NH單中心系列合併文獻回顧：平均年齡67.6歲、HbA1c約11.9%，多為單側，對側基底核（被殼/蒼白球/尾核）於CT呈典型高密度、MRI呈T1高訊號；症狀多於治療後約5天內改善；推測與基底核慢性缺血合併高血糖相關。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於hemichorea hemiballism syndrome，下列敘述何者有誤? (2018-354)

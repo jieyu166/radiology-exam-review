@@ -2,10 +2,15 @@
   "checked": false,
   "definition": "**周邊動脈疾病（PAD）**是以動脈粥狀硬化導致肢體缺血為主的血管疾病，吸菸是最重要的可改變危險因子。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.7759/cureus.40267",
+      "url": "https://doi.org/10.7759/cureus.40267"
+    }
+  ],
+  "imagingFindings": "- **影像模態階梯**：**Duplex 超音波（DUS）為便宜非侵入性的第一線篩檢**，可偵測動脈粥狀斑塊並分級狹窄；MRA 可減少鈣化偽影；**DSA 仍是狹窄分級的 gold standard，但因顯影劑腎毒性多作二線**。\n- **CTA 的定位**：CTA 能克服 DUS／MRA 的解剖限制，於腎功能不全或有 MRA 禁忌者可作為 DSA 的合適替代；判讀時注意重度鈣化會高估狹窄（blooming artifact）。\n- **好發節段與判讀分區**：本病常侵犯 aortoiliac、common femoral 與 femoropopliteal 節段，判讀 runoff 影像時應逐段評估狹窄程度與側枝形成、辨識閉塞段長度以利治療規劃。\n- **無症狀之陷阱**：相當比例病人可無典型跛行、靜息痛或脈搏減弱等症狀，**不可因症狀不明顯而低估病灶**；影像對及時診斷、療效追蹤與預防復發至關重要。\n- **危險因子影像關聯**：吸菸、糖尿病、高血壓、高血脂為主要危險因子，判讀時常見瀰漫性、雙側、遠端小血管受累（尤其糖尿病之膝下 runoff）。",
   "keyPoints": [],
-  "management": "",
+  "management": "- PAD 為下肢動脈粥狀硬化性阻塞導致血流下降，全球約影響2.36億人，吸菸為最重要的可改變危險因子。\n- 併發症涵蓋跛行、靜息痛、傷口、壞疽、截肢，並與心血管病態及死亡率增加相關。\n- 預防措施包含控制血壓、血脂與戒菸，並積極管理糖尿病等共病。\n- 第一線治療多採血管內介入（球囊擴張、藥物塗層球囊／支架），複雜長段病灶則以外科繞道為 gold standard。\n- 血管內治療併發症風險較低、再介入率與外科相當，故一般較外科優先考量。",
   "name": "Peripheral Arterial Disease (PAD)",
   "nameZh": "周邊動脈疾病",
   "slug": "pad-peripheral-arterial",

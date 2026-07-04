@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**顱內脂肪瘤的成因是「腦膜原基(meninx primitiva)持續存在與分化不良」——這是「間質」組織來源(主要中胚層)，不是「來自所有3個胚層」的組織，這是本題判讀關鍵。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00234-005-0001-z",
+      "url": "https://doi.org/10.1007/s00234-005-0001-z"
+    }
+  ],
+  "imagingFindings": "- **CT**：呈**極低衰減值（脂肪密度，約 −50 至 −100 HU）**，為診斷的關鍵特徵；**tubulonodular 型**（較大、位於前段胼胝體周圍）常伴鈣化，**curvilinear 型**（較薄、後段）較少鈣化。\n- **MRI**：因脂肪之**短 T1、短 T2**，於 T1WI 呈高訊號、可用**脂肪抑制序列（fat suppression）確認為脂肪**並排除亞急性出血；此為與晚期亞急性血腫（同樣 T1 高訊號）鑑別的核心步驟。\n- **好發部位**：兩大偏好位置為**胼胝體周圍（pericallosal，中線）**與**背側中腦/四疊體池（dorsal mesencephalic/quadrigeminal cistern）**；sylvian fissure 型常與癲癇相關。\n- **判讀 pitfall / DDx**：MRI 上易被誤判為**晚期亞急性出血**——務必加做脂肪抑制或對照 CT 低密度確認；並須留意常**合併中線畸形與血管異常（如動脈瘤）**，應主動掃視鄰近血管。",
   "keyPoints": [
     "**成因主流理論**：**meninx primitiva（腦膜原基，即蛛網膜下腔前驅之間質性覆蓋組織）**之持續存在與分化不良(persistence and maldifferentiation)。此組織於哺乳類與鳥類分化形成蛛網膜、軟膜、硬腦膜；硬腦膜(pachymeninges)與蛛網膜/軟膜(leptomeninges)**主要屬中胚層來源**，僅軟膜最內層可能屬神經外胚層——**並非「來自所有3個胚層」之組織**，此為本題錯誤敘述所在。",
     "**好發部位分布**：約**20%位於天幕下(infratentorial)**；約**40-50%位於大腦半球間裂(interhemispheric fissure)**。",
     "**鈣化**：**可有廣泛鈣化(extensive calcifications)**。"
   ],
-  "management": "",
+  "management": "- 顱內脂肪瘤為**罕見先天性畸形**，多為**中線、無症狀之偶然發現**。\n- 常**合併其他腦部畸形**（如胼胝體發育不全）與血管異常（含動脈瘤）。\n- 因脂肪瘤與周邊神經血管結構緊密沾黏，**手術完全切除困難且不保證改善症狀**，多採保守處理。\n- **Sylvian fissure 型**較常以癲癇表現，需納入癲癇病人鑑別診斷。\n- 影像（CT+MRI）通常即可確診，**一般不需組織切片**。\n\n> [!note] 考點：顱內脂肪瘤何者「錯誤」？\n> **組織來源包含所有3個胚層（A）**——實際上主要為中胚層來源之間質組織(meninx primitiva)，非來自所有3胚層，此敘述錯誤。20%天幕下(B)、可廣泛鈣化(C)、40-50%位於半球間裂(D)皆為正確描述。",
   "name": "Intracranial Lipoma",
   "nameZh": "顱內脂肪瘤",
   "slug": "intracranial-lipoma",

@@ -20,11 +20,26 @@ dateRev: 2026-07-01
 - **鹿角狀結石(staghorn calculus)**：典型伴隨**黃色肉芽腫性腎盂腎炎(xanthogranulomatous pyelonephritis)**。[^1]
 - **妊娠水腎症**：常見於**妊娠第三孕期(3rd trimester)**，且**右側較左側明顯**。[^1]
 
+## 放射科醫師影像判讀重點
+- **腎竇囊腫（parapelvic/peripelvic cyst）鑑別關鍵**：於灰階超音波上腎竇多發無回音構造難以與擴張的集尿系統區分；決定性鑑別在於**排泄性影像（CT urography / 排泄性尿路攝影）——真水腎的腎盞、腎盂會被顯影劑充填且相連通，囊腫則不含顯影劑、且將腎盞腎盂「壓迫變窄、拉長、移位」但不相通**。都卜勒可協助排除血管性病灶。[^2]
+- **腎血管性病灶（AVM／腎動脈瘤／動靜脈瘻）**：在排泄性尿路攝影上可模擬 parapelvic／peripelvic 病灶，但**彩色都卜勒、對比增強CT或MR即可顯示其血管本質（血流訊號、與血管相連、動脈期強化）**，避免誤認為囊腫或水腎。[^2]
+- **腎竇脂肪增生（renal sinus lipomatosis）**：常見且臨床意義不大，但可拉伸腎盞造成類似阻塞外觀，CT 上呈脂肪密度可確認、與水腎（水樣密度）易區分。[^2]
+- **多平面重組的價值**：複雜腎竇病變（含腫瘤向腎竇生長者，如 TCC、腎細胞癌、multilocular cystic nephroma）以 CT／MR 多平面影像評估侵犯範圍與分期；觀察腎竇脂肪有助偵測小腫瘤。[^2]
+- **DDx pitfall**：判讀腎竇無回音構造時，切勿僅憑灰階 US 就診斷水腎；務必以是否「與集尿系統相通、是否被顯影劑充填」作為區分真擴張與囊腫的核心依據。[^1][^2]
+
+## 臨床重點（5 句）
+- 非阻塞性腎竇囊腫（parapelvic/peripelvic cyst）與腎竇脂肪增生通常為偶然發現、臨床意義不大，關鍵在避免誤診為需處置的阻塞性水腎。[^2]
+- 鹿角狀結石（staghorn calculus）常與慢性感染及黃色肉芽腫性腎盂腎炎（XGP）相關，臨床上表現反覆泌尿道感染與腎功能受損。[^1]
+- 妊娠生理性水腎多見於第三孕期、右側較明顯，多為子宮壓迫與黃體素影響所致，產後通常自行緩解，一般不需介入。[^1]
+- 腎竇血管性病灶（AVM／動脈瘤）可能以血尿或高血壓表現，確認其血管本質對是否需血管栓塞治療至關重要。[^2]
+- 腎竇亦可被腎實質或腹膜後腫瘤次發侵犯，發現腎竇異常時須警覺潛在惡性可能並完整評估。[^2]
+
 > [!note] 考點：水腎症之非阻塞性擬似病灶何者「錯誤」？
 > **腎竇囊腫以延遲期CEUS鑑別水腎症（B）**——實際上主要以CT IVP評估集尿系統是否真擴張來鑑別，此敘述錯誤。腎AVM可以都卜勒鑑別(A)、鹿角狀結石伴隨黃色肉芽腫性腎盂腎炎(C)、妊娠第三孕期常見水腎症(D)皆為正確描述。[^1]
 
 ### 參考來源
 [^1]: *Problem Solving in Abdominal Imaging*, Chapter 18, p.485-529（2018 交換考題詳解 p.213 引用；Tier 2 教科書）。腎竇囊腫可模擬水腎症，CT IVP顯示集尿系統正常/受壓但未擴張(非CEUS鑑別)；腎AVM可以都卜勒鑑別；鹿角狀結石伴隨黃色肉芽腫性腎盂腎炎；妊娠第三孕期常見水腎症(右側較明顯)。
+[^2]: **Tier 1** Rha SE, Byun JY, Jung SE, Oh SN, Choi YJ, Lee A, Lee JM. *The renal sinus: pathologic spectrum and multimodality imaging approach*. RadioGraphics 2004;24(Suppl 1):S117-31（據 PubMed，DOI [10.1148/rg.24si045503](https://doi.org/10.1148/rg.24si045503)；實際查證 accessed 2026-07-04）——系統回顧腎竇病理譜與多模態影像：腎竇囊腫與脂肪增生常見且臨床意義小但須與他病鑑別；腎血管病灶（動脈瘤／AV瘻）於排泄性尿路攝影可模擬 parapelvic/peripelvic 病灶，惟彩色都卜勒、增強CT／MR可顯示其血管本質；腎實質腫瘤可向腎竇生長。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following statement regarding to nonobstructive mimics of obstructive hydronephrosis is false? (2018-307)

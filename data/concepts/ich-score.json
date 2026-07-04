@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**ICH score的五個因子口訣是「意識、大小、腦室、位置、年齡」：GCS score、ICH volume（≥30cm³）、IVH是否存在、infratentorial origin（非泛指的「location」）、年齡≥80歲——總分0-6分，分數越高30天死亡率越高。考點陷阱是「location of ICH」這個泛稱不是正式因子，正式因子是更具體的「infratentorial origin」。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1161/01.str.32.4.891",
+      "url": "https://doi.org/10.1161/01.str.32.4.891"
+    }
+  ],
+  "imagingFindings": "- **ICH volume量測（ABC/2法）**：於非顯影CT上，A＝出血最大層面之最長徑、B＝與A垂直之最長徑、C＝出血層數乘以層厚（cm）；ICH volume = A×B×C／2（cm³），≥30 cm³給1分。此為ICH score中放射科最直接負責提供的參數。\n- **IVH判讀**：於軸位CT辨識腦室內出血（側腦室、第三／第四腦室），有無IVH直接影響評分並與續發性腦室擴大／水腦相關。\n- **Infratentorial origin判讀**：需辨明出血原發部位是否位於幕下（腦幹、小腦）；此為正式因子，且與泛稱之「location（幕上各部位）」不同——考題陷阱即在此。\n- **ABC/2的判讀陷阱**：形狀不規則、多分葉或已凝血溶解的血腫會使ABC/2高估或低估體積，接近30 cm³閾值時應謹慎；跨層面分葉出血需逐層估算實際出血面積比例。\n- **DDx思路**：測得ICH volume與位置後，仍須依影像型態（如皮質下葉狀出血疑類澱粉血管病、基底核／視丘出血疑高血壓性）反推病因，score本身不辨病因。",
   "keyPoints": [
     "**ICH Score五因子**（各項給分後加總，總分0–6）：",
     "**GCS score**：3–4分給2分、5–12分給1分、13–15分給0分。",
@@ -14,7 +19,7 @@
     "**臨床意義**：此5類別為30天死亡率之獨立預測因子，分數越高死亡率越高;可用於治療標準化與臨床研究分層。",
     "**非正式因子**：**「Location of ICH」**（泛稱之出血位置）並非正式因子，正式使用的是更具體之**「infratentorial origin」**。"
   ],
-  "management": "",
+  "management": "- ICH score為出血當下（presentation）之30天死亡率風險分層工具，總分0–6，分數越高死亡率越高（0分幾乎全存活、5–6分死亡率極高）。\n- 五項獨立預測因子為GCS score、age≥80歲、infratentorial origin、ICH volume≥30 cm³、IVH。\n- 主要臨床用途在標準化治療protocol與臨床研究分層，而非決定是否放棄治療。\n- 自發性腦內出血約占所有中風的10–15%，且至今無明確有效的專一性治療。\n- ICH score以GCS而非其他意識評估工具為權重最高之因子（3–4分給2分），凸顯初始意識狀態對預後的主導性。",
   "name": "ICH Score — Intracranial Hemorrhage Risk Stratification",
   "nameZh": "腦出血評分",
   "slug": "ich-score",

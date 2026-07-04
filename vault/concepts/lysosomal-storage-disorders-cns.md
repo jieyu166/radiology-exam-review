@@ -22,8 +22,25 @@ dateRev: 2026-07-01
 > [!note] 考點：何者「非」溶酶體儲積症？
 > **Kearns-Sayre syndrome（A）**——為粒線體疾病，非溶酶體儲積症。黏多醣症(B)、異染性腦白質失養症(C)、Krabbe(D)皆為溶酶體儲積症。[^1]
 
+## 放射科醫師影像判讀重點
+- **MRI 為核心影像**：溶酶體儲積症之 CNS 侵犯以瀰漫性白質異常（T2/FLAIR 高訊號）與腦萎縮為主，MRI 敏感度高於 CT，並可搭配 MRS、DTI 評估代謝與微結構。[^2]
+- **異染性腦白質失養症（MLD）**：對稱性腦室周圍白質 T2 高訊號，典型呈「虎斑紋（tigroid）」型態——受保留的血管周圍髓鞘於高訊號背景中呈條紋狀低訊號。[^2]
+- **Krabbe 病**：早發型可見錐體束、小腦白質與齒狀核侵犯，部分病例 CT 可見丘腦/基底核高密度，並有視放射侵犯。[^2]
+- **黏多醣症（MPS）**：擴大的血管周圍腔（perivascular/Virchow-Robin spaces）呈篩狀 T2 高訊號、腦萎縮、腦積水，並常合併顱頸交界狹窄與脊髓壓迫。[^3]
+- **判讀策略**：影像型態多重疊、缺乏單一特異性生物標記，須結合臨床、酵素/基因檢測綜合判斷；影像主要用於監測疾病進展（如 MPS 之顱頸交界狹窄、脊髓壓迫、腦積水）以利及時介入。[^2][^3]
+- **分類陷阱（本題核心）**：Kearns-Sayre 為粒線體疾病（外眼肌麻痺＋色素性視網膜病變），非溶酶體儲積症，勿混入本類鑑別。[^1]
+
+## 臨床重點（5 句）
+- 溶酶體儲積症為酵素缺陷導致受質堆積的一群體染色體隱性遺傳代謝疾病（MPS II 為 X 染色體性聯）。[^3]
+- 神經退化、發展遲緩與智能退化為多數具 CNS 侵犯型別的共同臨床特徵。[^2]
+- MPS 典型全身表現包含臟器腫大、多發性骨發育不良（dysostosis multiplex）與短軀幹侏儒。[^3]
+- 顱頸交界狹窄與脊髓壓迫是 MPS 需及早偵測與介入的重要併發症。[^3]
+- 影像對疾病嚴重度的相關性仍具爭議，目前尚無公認的影像生物標記。[^3]
+
 ### 參考來源
 [^1]: *Diagnostic Imaging, Brain*, 3rd edition, p.773（2018 交換考題詳解 p.191 引用；Tier 2 教科書）。Kearns-Sayre症候群為粒線體疾病(外眼肌麻痺+眼底色素沉積)，非溶酶體儲積症；黏多醣症/異染性腦白質失養症/Krabbe/Gaucher/Niemann-Pick/Fabry皆為溶酶體儲積症。
+[^2]: **Tier 1** Rieger D, Auerbach S, Robinson P, Gropman A. *Neuroimaging of lipid storage disorders*. Dev Disabil Res Rev 2013;17(3):269-282（據 PubMed，DOI [10.1002/ddrr.1120](https://doi.org/10.1002/ddrr.1120)；實際查證 accessed 2026-07-04）——回顧脂質/溶酶體儲積症之神經影像：MRI、MRS、DTI 應用，MLD 之 tigroid 型態、Krabbe 之白質與齒狀核侵犯等，佐證此群疾病之 CNS 影像判讀重點。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Tier 1** Nicolas-Jilwan M, AlSayed M. *Mucopolysaccharidoses: overview of neuroimaging manifestations*. Pediatr Radiol 2018;48(10):1503-1520（據 PubMed，DOI [10.1007/s00247-018-4139-3](https://doi.org/10.1007/s00247-018-4139-3)；實際查證 accessed 2026-07-04）——黏多醣症神經影像回顧：擴大血管周圍腔、白質病變、腦萎縮、腦積水、顱頸交界狹窄與脊髓壓迫，並說明影像於監測進展與及時介入之角色。
 
 ## 題目
 > [!question]- Which one is not lysosomal disorder? (2018-284)

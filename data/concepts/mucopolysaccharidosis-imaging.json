@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**黏多醣症（MPS）的神經影像特徵包括 MACROcephaly（大頭）而非 microcephaly；白質病變（perivascular spaces 擴大呈「篩孔狀」）；厚硬腦膜（pachymeningeal thickening）；脊椎椎體前喙突（anterior vertebral body beaking）。** 判讀分水嶺：**MPS 是大頭而非小頭——選項將 macrocephaly 寫成 microcephaly 為陷阱。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00247-018-4139-3",
+      "url": "https://doi.org/10.1007/s00247-018-4139-3"
+    }
+  ],
+  "imagingFindings": "- **腦部（MRI）**：血管周間隙（Virchow-Robin spaces）因 GAG 堆積而擴大呈「篩孔狀（cribriform）」白質變化；可合併白質損傷、腦萎縮與蜘蛛膜下腔擴大。\n- **頭圍與腦室**：呈 **macrocephaly（大頭）** 而非 microcephaly，常伴腦室擴大／水腦，需與單純腦室擴大鑑別。\n- **顱頸交界與脊椎**：常見顱頸交界狹窄、齒突發育不良與軟組織增厚致脊髓壓迫；脊椎呈 dysostosis multiplex，椎體前喙突（anterior beaking）——Morquio（IV）多為中央喙突、Hurler（I）多為下緣喙突。\n- **硬腦膜／硬脊膜**：GAG 堆積致硬膜增厚（pachymeningeal thickening），為脊髓壓迫來源之一。\n- **影像於監測之角色**：MRI/CT 對顱頸交界狹窄、脊髓壓迫與水腦之監測至關重要，可在不可逆損傷前及時介入；目前尚無公認之影像嚴重度生物標記。",
   "keyPoints": [
     "**頭圍**：MPS 患者表現 **macrocephaly（大頭症）**，因 GAG 堆積致腦室擴大與腦容積增加",
     "**白質病變**：perivascular spaces（Virchow-Robin spaces）擴大，呈 cribriform pattern",
@@ -11,7 +16,7 @@
     "**脊椎**：anterior vertebral body beaking（特別是 Morquio syndrome = MPS IV）",
     "**常見亞型影像差異**：Hunter (II) / Hurler (I) 較嚴重白質病變；Morquio (IV) 以骨骼畸形為主"
   ],
-  "management": "",
+  "management": "- MPS 為一群溶酶體儲積病，因 GAG 降解酵素缺陷致 GAG 堆積於多器官，造成組織損傷。\n- 除 MPS II（Hunter，X 染色體性聯遺傳）外，其餘多為體染色體隱性遺傳。\n- 典型臨床表現含器官腫大、dysostosis multiplex 併短軀幹侏儒、發育遲緩與智能障礙，嚴重度依突變而異。\n- 顱頸交界狹窄與脊髓壓迫、水腦為可介入之重要併發症，須主動影像監測。\n- 早期診斷有助於酵素替代治療等處置之時機把握，影像在追蹤疾病進展上角色關鍵。",
   "name": "Mucopolysaccharidosis Imaging",
   "nameZh": "黏多醣症影像",
   "slug": "mucopolysaccharidosis-imaging",

@@ -2,15 +2,24 @@
   "checked": false,
   "definition": "**動脈內取栓術（EVT）適應症評估：ASPECTS ≥6、NIHSS ≥6、pre-stroke mRS 0-1（美國建議）、GCS 無特定門檻。mRS = 6 = 死亡，為絕對禁忌症。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1161/STR.0000000000000211",
+      "url": "https://doi.org/10.1161/STR.0000000000000211"
+    },
+    {
+      "label": "10.1016/S0140-6736(16)00163-X",
+      "url": "https://doi.org/10.1016/S0140-6736(16"
+    }
+  ],
+  "imagingFindings": "- **影像篩選（6 小時內前循環LVO）**：CTA/MRA確認頸內動脈或大腦中動脈M1近端閉塞，非增強CT以ASPECTS ≥6評估早期缺血變化範圍（AHA/ASA 2019）。\n- **ASPECTS意義**：10分制，每一區早期缺血低密度扣1分；分數低（缺血範圍大）者預後較差、出血風險高，故指引要求ASPECTS ≥6。\n- **延伸時間窗（6–24小時）**：須以進階影像（CT perfusion或DWI-MRI）依DAWN／DEFUSE-3準則評估核心梗塞與可挽救半影區（core-penumbra mismatch），符合者仍可取栓。\n- **HERMES統合分析支持**：五大隨機試驗個別病人資料顯示，前循環近端閉塞取栓相較標準治療顯著降低90天失能（adjusted cOR 2.49），NNT僅2.6，且高齡、發病>300分鐘、不適合IV alteplase者仍獲益。\n- **判讀陷阱**：mRS = 6為死亡（絕對禁忌）；勿將ASPECTS的「分數低」誤讀為缺血輕微——分數越低代表缺血範圍越大、越不利取栓。",
   "keyPoints": [
     "**ASPECTS** ≤6 預測 3 個月功能預後較差且出血風險高（美國建議 ASPECTS ≥6）。",
     "**NIHSS** 6-30：符合治療範圍（需 ≥8 且 ≤30 依國衛院標準）。",
     "**pre-stroke mRS**：美國建議 <2（即 0 或 1）；台灣無此限制。",
     "**mRS = 6 = 死亡**，為絕對禁忌症。"
   ],
-  "management": "",
+  "management": "- AHA/ASA 2019指引建議前循環大血管閉塞、發病6小時內、pre-stroke mRS 0–1、NIHSS ≥6、ASPECTS ≥6者應接受機械取栓。\n- 符合條件者取栓不應因等待觀察靜脈溶栓（IV alteplase）反應而延遲。\n- 選定之發病6–24小時病人若進階影像符合DAWN／DEFUSE-3準則，取栓仍具實證獲益。\n- HERMES統合分析證實取栓降低90天失能，效益跨越各年齡與臨床次族群且不增加死亡或症狀性顱內出血。\n- 取栓之目標為盡快達成再灌流（door-to-puncture時間越短，功能預後越佳）。",
   "name": "Intra-Arterial Thrombectomy — Indications & Contraindications",
   "nameZh": "動脈取栓術",
   "slug": "intra-arterial-thrombectomy",

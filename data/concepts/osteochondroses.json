@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Osteochondroses 為骨化中心發生缺血性壞死（avascular necrosis）之一群疾病；常見包括 Panner disease（capitellum）、Kienbock disease（月狀骨）、Legg-Calve-Perthes（股骨頭）、Freiberg disease（蹠骨頭）、Kohler disease（足舟骨）。注意：Blount disease（脛骨內翻）並非 AVN，而是源於機械壓力異常導致之生長板障礙。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.210088",
+      "url": "https://doi.org/10.1148/rg.210088"
+    }
+  ],
+  "imagingFindings": "- **正常變異 vs osteochondrosis 之鑑別**：生長中骨骼之次級骨化中心（SOC）本可呈不規則、碎裂外觀，正常變異者多為**對稱、邊緣平滑、圓潤且硬化**，藉此可與骨折、剝離性骨軟骨炎（OCD）及真正的 osteochondrosis 區分——此為判讀陷阱之核心。\n- **好發部位－疾病對應**：capitellum→Panner、lunate→Kienbock、femoral head→Legg-Calvé-Perthes、metatarsal head（多為第 2）→Freiberg、tarsal navicular→Kohler；判讀時須結合部位與年齡。\n- **影像特徵**：X 光可見骨化中心硬化、扁平化、碎裂；MRI 對早期骨髓訊號變化（水腫）與軟骨/關節面評估更敏感，有助早期偵測與判定是否累及關節面。\n- **生長板相關**：生長板（physis）為未成熟骨骼最脆弱結構，其損傷可致生長障礙；判讀骨骺／幹骺端變化時須留意骨髓正常訊號（殘存紅髓、physeal closure 期水腫）勿誤判為病理。",
   "keyPoints": [
     "**Panner disease**：capitellum（肱骨小頭）之 osteochondrosis，好發於 5-10 歲兒童。",
     "**Kienbock disease**：lunate（月狀骨）之 AVN，好發於年輕成人，與反覆微創傷及 ulnar variance 相關。",
@@ -11,7 +16,7 @@
     "**Freiberg disease**：metatarsal head（蹠骨頭，通常為第二蹠骨）之 osteochondrosis。",
     "**Kohler disease**：tarsal navicular（足舟骨）之 osteochondrosis，好發於 3-7 歲。"
   ],
-  "management": "",
+  "management": "- Osteochondroses 為骨化中心之缺血性壞死（AVN）相關疾病群，好發於兒童與青少年之生長期骨骼。\n- 臨床多以局部疼痛、腫脹或活動受限表現，部分（如 Kohler）可自限性緩解。\n- 不同疾病之預後與處置各異，Legg-Calvé-Perthes 需注意股骨頭塑形與後續退化性關節炎風險。\n- Blount disease（脛骨內翻）並非 AVN，而是機械壓力致脛骨近端內側生長板障礙，須與 osteochondroses 明確區分。\n- 正確辨識正常骨骼成熟變異可避免過度檢查與不必要之介入。",
   "name": "Osteochondroses — AVN-Related Bone Diseases",
   "nameZh": "骨軟骨症",
   "slug": "osteochondroses",

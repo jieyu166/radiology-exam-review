@@ -2,8 +2,21 @@
   "checked": false,
   "definition": "**Mounier-Kuhn syndrome（tracheobronchomegaly）為氣管與主支氣管的彈性纖維及平滑肌萎縮導致異常擴張；氣管直徑>3cm（男性）；可合併結締組織疾病如 Ehlers-Danlos syndrome；動態呼吸時氣管在呼氣期塌陷。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.2019191791",
+      "url": "https://doi.org/10.1148/radiol.2019191791"
+    },
+    {
+      "label": "10.1186/s13023-025-03745-w",
+      "url": "https://doi.org/10.1186/s13023-025-03745-w"
+    },
+    {
+      "label": "10.1016/j.chest.2017.10.024",
+      "url": "https://doi.org/10.1016/j.chest.2017.10.024"
+    }
+  ],
+  "imagingFindings": "- **CT 為診斷主力**：胸部 CT（含 3D 重組）可清楚顯示氣管與主支氣管異常擴大，並量測橫徑；因臨床警覺低，MKS 常在 CT 上被忽略而延誤診斷，判讀時應主動測量氣管徑。\n- **氣管憩室（tracheal diverticulosis）**：氣管後外側壁多發外突憩室為特徵性伴隨徵象，於系統性回顧約 67% 病例可見。\n- **合併支氣管擴張**：約 72% 病例合併支氣管擴張，反覆感染下肺實質可見肺氣腫樣破壞。\n- **動態呼吸相 CT**：呼氣相可顯示氣管塌陷（tracheomalacia），吸氣相擴張，動態掃描有助評估功能性塌陷。\n- **量測基準**：平均氣管橫徑約 34 mm；氣管橫徑 >3 cm（男）/>2.4 cm（女）、右主支氣管 >2.4 cm、左主支氣管 >2.3 cm 為診斷閾值。\n- **鑑別陷阱**：男性以囊狀肺病表現時易被誤為淋巴管平滑肌增生症（LAM）等，須以氣管支氣管明顯擴大為辨識關鍵。",
   "keyPoints": [
     "**定義**：氣管與主支氣管（至第四級分支）的彈性纖維與平滑肌明顯萎縮，導致管腔異常擴大。",
     "**診斷標準**：氣管橫徑 >3 cm（男性）、>2.4 cm（女性）；右主支氣管 >2.4 cm、左主支氣管 >2.3 cm。",
@@ -13,7 +26,7 @@
     "**相關疾病**：可合併結締組織疾病如 **Ehlers-Danlos syndrome**。",
     "**非**單一基因點突變所致（非 exon 19 突變）。"
   ],
-  "management": "",
+  "management": "- MKS 好發於成年男性，系統性回顧男女比約 5.5:1。\n- 因臨床警覺低，診斷延遲中位數約 3 年。\n- 最常見症狀為咳嗽、呼吸困難與反覆呼吸道感染。\n- 氣管與主支氣管彈性纖維與平滑肌萎縮/變薄為其病理基礎。\n- 因解剖無效腔增大，單次呼吸法測得的肺瀰散量偏低，需校正無效腔。",
   "name": "Mounier-Kuhn Syndrome",
   "nameZh": "氣管支氣管巨大症",
   "slug": "mounier-kuhn-syndrome",

@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**縱膈腔惡性生殖細胞瘤中最常見為 seminoma（約占 40%）。Seminoma 整體為縱膈腔第二常見生殖細胞瘤（次於 mature teratoma），但為單一組織型態惡性生殖細胞瘤之首。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s003300000725",
+      "url": "https://doi.org/10.1007/s003300000725"
+    }
+  ],
+  "imagingFindings": "- **好發位置**：縱膈腔生殖細胞瘤幾乎皆位於前縱膈；CT為診斷首選模態。\n- **Mature teratoma**：圓形、常呈分葉狀之異質性腫塊，含軟組織、液體與脂肪成分；20–43%可見鈣化——脂肪與鈣化並存為特徵。\n- **Seminoma**：大型、均質軟組織密度腫塊，對比劑僅輕微強化，內部通常均勻（無明顯脂肪、鈣化或壞死）。\n- **惡性非精原細胞瘤（NSGCT）**：異質性腫塊、邊緣不規則，因侵犯鄰近結構而界線模糊，內部常見明顯壞死出血變化。\n- **MRI角色**：呈異質訊號，對偵測脂肪平面消失、鄰近結構侵犯較敏感，作為CT之輔助檢查。",
   "keyPoints": [
     "**Seminoma**：最常見之縱膈腔**惡性**生殖細胞瘤（~40%）。",
     "整體縱膈腔生殖細胞瘤：mature teratoma 最常見（良性），seminoma 次之。",
     "其他惡性類型：embryonal carcinoma、endodermal sinus (yolk sac) tumor、malignant teratoma。"
   ],
-  "management": "",
+  "management": "- 縱膈腔生殖細胞瘤組織學上與睪丸、卵巢之生殖細胞瘤相同。\n- 早期診斷與治療可改善存活率。\n- Seminoma對放射與化學治療反應良好，預後相對較佳。\n- 惡性非精原細胞瘤（如yolk sac tumor、絨毛膜癌）常合併血清腫瘤標記（AFP、β-hCG）升高，有助診斷與追蹤。\n- 惡性非精原細胞瘤因侵犯鄰近縱膈結構，預後較seminoma差。",
   "name": "Mediastinal Germ Cell Tumors",
   "nameZh": "縱膈腔生殖細胞瘤",
   "slug": "mediastinal-germ-cell-tumors",

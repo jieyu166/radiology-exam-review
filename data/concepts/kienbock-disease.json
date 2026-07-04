@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Kienböck disease＝『月狀骨(lunate)』缺血性壞死——記憶關鍵在部位（lunate，不是scaphoid）與訊號（AVN進展期於T1與T2皆呈低訊號）。對比：Preiser disease＝舟狀骨(scaphoid) AVN。負性尺骨變異(ulnar negative variance)為危險因子。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.2214/AJR.13.11606",
+      "url": "https://doi.org/10.2214/AJR.13.11606"
+    }
+  ],
+  "imagingFindings": "- **X 光（首選、分期基礎）**：早期常正常；進展依序為月狀骨硬化（sclerosis）→塌陷→近端頭狀骨移位、舟狀骨屈曲→全腕退化性關節炎，為 Lichtman 分期骨架。\n- **MRI（早期偵測與分期）**：X 光正常時 MRI 可偵測最早期病變；訊號隨病程演變——早期水腫期 T1 低、T2 高（可強化）；壞死硬化期進展為 T1 與 T2 皆低訊號（本題重點）。\n- **尺骨變異評估**：負性尺骨變異（ulnar negative variance）為公認相關因子，正位 X 光量測橈骨與尺骨遠端關節面高度差。\n- **鑑別—Preiser disease**：舟狀骨（scaphoid）AVN，與 Kienböck 的月狀骨部位不同，為常見 distractor。\n- **鑑別—ulnar impaction / 假性 Kienböck**：月狀骨尺側面局部訊號異常伴囊變，位置偏尺側且合併正性尺骨變異，與瀰漫全月狀骨壞死不同。\n- **判讀陷阱**：進展期「T1/T2 皆低」代表硬化壞死，勿與早期水腫期「T1 低/T2 高」混為同一階段。",
   "keyPoints": [
     "**本質/部位**：**月狀骨(lunate)之缺血性壞死(avascular necrosis)**，非scaphoid。",
     "**MRI訊號（本題重點）**：進展期AVN於**T1與T2皆呈低訊號(low signal on both T1 and T2)**（早期可T1低/T2高之水腫期，壞死硬化後T1/T2皆低）。",
@@ -11,7 +16,7 @@
     "**對比**：**Preiser disease＝舟狀骨(scaphoid) AVN**（本題distractor）。",
     "進展：Lichtman分期I-IV(訊號異常→硬化→塌陷→腕關節退化)；晚期月狀骨塌陷、腕高度下降、續發性OA。"
   ],
-  "management": "",
+  "management": "- 病因仍未完全明確，目前視為月狀骨缺血性壞死，多因素（血供、機械負荷）共同作用。\n- 好發於 20–40 歲、慣用手，常以腕背側疼痛與活動受限表現。\n- 成人保守治療效果有限，進展性病例常需手術。\n- 手術以降低月狀骨負荷為原則（如橈骨縮短截骨術），保護月狀骨免於塌陷。\n- 末期腕關節退化則採挽救性術式（如近端腕骨切除或腕融合）。",
   "name": "Kienböck Disease (Lunate AVN)",
   "nameZh": "月狀骨壞死",
   "slug": "kienbock-disease",

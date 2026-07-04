@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**IIH的靜脈竇變化方向要記清楚：顱內壓「升高」造成橫竇「狹窄/血栓/web」（不是擴大），顱內壓「降低」時反而是靜脈竇「擴張」——兩者方向相反，是本題最容易搞混的陷阱。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.ejrad.2019.04.023",
+      "url": "https://doi.org/10.1016/j.ejrad.2019.04.023"
+    }
+  ],
+  "imagingFindings": "- **橫竇狹窄（transverse sinus stenosis）**：整合分析中最有用的單一徵象，敏感度約 84%、特異度約 95%（統合 8 篇研究）；MRV/CTV 評估雙側橫竇（尤其優勢竇）狹窄，是 IIH 影像診斷主力。\n- **空蝶鞍（empty sella）**：CSF 壓力升高致垂體受壓變扁，特異度高（84–99%）但敏感度低，單獨陰性不能排除 IIH。\n- **後眼球扁平化與視神經頭突出**：皆為特異度高、敏感度低之慢性高壓徵象；後眼球扁平化及視神經鞘擴張反映壓力經蛛網膜下腔傳導至視神經鞘。\n- **視神經鞘擴張與迂曲（tortuosity）**：軸位/冠狀位可見視神經周圍 CSF 增多、神經迂曲，屬支持性徵象。\n- **方向陷阱（本題核心）**：高顱內壓造成橫竇「狹窄」，低顱內壓（腦脊髓液低容量）才見靜脈竇「擴張/充血」——兩者方向相反，勿混淆。\n- **判讀定位**：IIH 為排除性診斷，影像首要任務是排除佔位、腦室擴大或靜脈竇血栓等次發性顱內壓升高原因；上述徵象為支持而非必要條件，陰性不排除診斷。",
   "keyPoints": [
     "**靜脈竇表現**：IIH常見**橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web**（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。**橫竇擴張(distention)反而是「低顱內壓」的表現**，兩者方向相反。",
     "**蝶鞍表現**：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。",
     "**眼球/視神經表現**：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。"
   ],
-  "management": "",
+  "management": "- IIH 好發於育齡肥胖女性，典型症狀為頭痛與視力障礙。\n- 診斷須符合腰椎穿刺測得腦壓升高且腦脊髓液成分正常。\n- 視乳突水腫（papilledema）是主要臨床徵象，須眼底檢查評估。\n- 治療目標為保護視力，包含減重、acetazolamide 及必要時外科分流或視神經鞘開窗。\n- 影像徵象即使陰性也不能排除 IIH，臨床與腦壓測量仍為確診依據。",
   "name": "Idiopathic Intracranial Hypertension (IIH)",
   "nameZh": "原發性顱內壓升高",
   "slug": "idiopathic-intracranial-hypertension",

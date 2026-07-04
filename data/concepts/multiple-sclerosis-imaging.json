@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**多發性硬化症（MS）斑塊絕大多數位於幕上（supratentorial），並非後顱窩為主；幕上腦室周圍斑塊（periventricular plaques，Dawson fingers）才是最典型分布。危險因子包含EBV病毒、化學物質、抽菸、飲食與地理變異性。影像特徵包含ependymal dot-dash sign與活動性去髓鞘期間可有短暫強化（transient enhancement）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/S1474-4422(17)30470-2",
+      "url": "https://doi.org/10.1016/S1474-4422(17"
+    }
+  ],
+  "imagingFindings": "- **空間多發（DIS）的四個典型部位**：2017 McDonald 準則以 T2 高訊號病灶分布於 **periventricular、cortical/juxtacortical、infratentorial、spinal cord** 四區中 ≥2 區證明 DIS；判讀 MRI 時應系統性檢視此四區，periventricular（Dawson fingers）而非後顱窩為主要好發部位。\n- **時間多發（DIT）的影像判準**：同時出現**強化與非強化病灶**，或追蹤新出現之 T2／強化病灶，即滿足 DIT——判讀時同一次掃描中並存 enhancing 與 non-enhancing 斑塊即具意義。\n- **症狀性病灶與皮質病灶納入**：2017 修訂後**症狀性病灶亦可用於證明 DIS/DIT**，且**皮質病灶（cortical lesions）可與皮質下病灶同等用於證明 DIS**——判讀不再排除症狀相關病灶。\n- **Dawson fingers 與 dot-dash sign**：腦室周圍斑塊沿深髓靜脈垂直於側腦室排列（Dawson fingers），矢狀 FLAIR 最清楚；室管膜線 dot-dash 徵象反映室管膜下受累。\n- **DDx pitfall**：CSF 特異性 oligoclonal bands 於具 DIS 之典型 CIS 病人可替代 DIT 建立診斷；判讀時須排除更佳解釋（血管、NMOSD、ADEM 等 MS mimics），MRI 型態與臨床、CSF 綜合判斷。",
   "keyPoints": [
     "**好發分布**：MS 斑塊**絕大多數位於幕上（supratentorial）**，並非「超過50%位於後顱窩」——此為常見誤導敘述。",
     "**危險因子**：EBV 病毒感染、化學物質暴露、抽菸、飲食因素、地理變異性皆與 MS 風險相關。",
     "**影像徵象**：**Ependymal dot-dash sign**（腦室周圍垂直於腦室壁的斑塊，沿髓靜脈分布）；活動性去髓鞘病灶可見**短暫強化（transient enhancement during active demyelination）**。"
   ],
-  "management": "",
+  "management": "- 2017 McDonald 準則主要適用於呈典型 clinically isolated syndrome（CIS）之病人，核心仍需「病灶時間與空間多發、且無更佳解釋」。\n- 具 DIS 之典型 CIS 病人若腦脊髓液出現 CSF 特異性 oligoclonal bands，即可據以診斷 MS，加速確診。\n- MS 危險因子包含 EBV 感染、抽菸、低維生素D／日照、高緯度地理與遺傳背景。\n- MS 好發於中年女性，臨床以復發-緩解型最常見，表現視神經炎、感覺異常、無力與協調障礙等。\n- 早期確診有助及早啟動疾病調節治療（DMT），影響長期失能累積。",
   "name": "Multiple Sclerosis — Imaging Features",
   "nameZh": "多發性硬化症影像",
   "slug": "multiple-sclerosis-imaging",

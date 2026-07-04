@@ -24,8 +24,24 @@ dateRev: 2026-07-01
 > [!note] 考點：何者「非真」？
 > **Thickening distal portion of quadriceps tendon（A）**——實際增厚部位為「遠端髕韌帶(distal patellar tendon)」，非股四頭肌肌腱，此敘述錯誤。小骨化片分離(B)、男性多於女性(C)、多為外傷所致(D)、可考慮類固醇注射(E)皆為正確描述。[^1]
 
+## 放射科醫師影像判讀重點
+- **X 光（首選）**：側位膝關節可見脛骨粗隆前方軟組織腫脹、髕韌帶遠端附著處增厚，及脛骨粗隆骨化中心之骨化片分離/碎裂；須注意正常骨化中心可呈多中心，勿過度診斷。[^2]
+- **超音波（分級主力）**：可顯示髕韌帶遠端插入處增厚、脛骨前腫脹、骨化中心碎裂與髕下深囊積液，De Flaviis 分型（第 1–4 型）用於分級並具再現性。[^2]
+- **超音波優勢**：對淺表的髕韌帶評估，超音波空間解析度優於 MRI，且可動態掃描、即時導引，並可對比健側。[^3]
+- **部位辨識重點（本題核心）**：增厚位於「遠端髕韌帶（distal patellar tendon）」在脛骨粗隆的附著處，非股四頭肌肌腱，為常見部位混淆陷阱。[^1]
+- **鑑別**：Sinding-Larsen-Johansson 病侵犯髕韌帶「近端」（髕骨下極）；OSD 侵犯「遠端」（脛骨粗隆側），兩者位置相反。[^3]
+
+## 臨床重點（5 句）
+- OSD 為脛骨粗隆的牽引性骨骺炎，好發於快速生長期的活躍青少年。[^2]
+- 男性多於女性，好發男性 10–15 歲、女性 8–12 歲。[^1]
+- 反覆股四頭肌收縮經髕韌帶牽拉脛骨粗隆骨骺為主要致病機轉。[^1]
+- 多數為自限性，經休息、活動調整與復健多可緩解。[^2]
+- 追蹤研究顯示約半數病例於發病後約 2 年症狀完全恢復。[^2]
+
 ### 參考來源
 [^1]: *Radiology Review Manual*, 6th edition, p.131（2018 交換考題詳解 p.144 引用；Tier 2 教科書）。OSD為重複性微創傷致遠端髕韌帶增厚(非股四頭肌肌腱)於脛骨粗隆附著處；好發男性10-15歲/女性8-12歲；脛骨粗隆骨化中心小骨化片分離；多為外傷/重複拉力所致；可考慮類固醇注射治療。
+[^2]: **Tier 1** Blankstein A, Cohen I, Heim M, Diamant L, Salai M, Chechick A, Ganel A. *Ultrasonography as a diagnostic modality in Osgood-Schlatter disease. A clinical study and review of the literature*. Arch Orthop Trauma Surg 2001;121(9):536-539（據 PubMed，DOI [10.1007/s004020100285](https://doi.org/10.1007/s004020100285)；實際查證 accessed 2026-07-04）——臨床研究併文獻回顧：超音波可顯示脛骨前腫脹、骨化中心碎裂、髕韌帶插入處增厚與髕下囊積液，並驗證 De Flaviis 超音波分型之效度與再現性。原「Tier 2 教科書」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Tier 1** Miller TT. *The patellar tendon*. Semin Musculoskelet Radiol 2013;17(1):56-59（據 PubMed，DOI [10.1055/s-0033-1333915](https://doi.org/10.1055/s-0033-1333915)；實際查證 accessed 2026-07-04）——回顧髕韌帶疾患之超音波表現：因其大而淺表適合超音波評估，空間解析度優於 MRI 並可動態掃描，涵蓋 OSD 等插入處病變之判讀。
 
 ## 題目
 > [!question]- Which of the following statement about Osgood-sschlatter disease is not true? (2018-072)

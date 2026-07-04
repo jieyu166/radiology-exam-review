@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**上肢常見神經壓迫症候群依部位/神經對應：quadrilateral space syndrome→axillary nerve、pronator syndrome→median nerve（非radial nerve）、cubital tunnel syndrome→ulnar nerve、Kiloh-Nevin syndrome→anterior interosseous nerve（AIN，為median nerve分支）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2016150088",
+      "url": "https://doi.org/10.1148/rg.2016150088"
+    }
+  ],
+  "imagingFindings": "- **US 為上肢周邊神經首選**：軟組織解析度高、可即時動態掃查、能與**對側對照**；文獻指出對周邊神經評估之**敏感度優於 MRI、特異度相當**，且不受金屬植入偽影影響。\n- **地標式掃查（landmark approach）**：以正中、尺、橈神經沿路的固定解剖地標定位（如腕隧道之正中神經、肘隧道之尺神經），是準確判讀壓迫點的關鍵技巧。\n- **壓迫的 US 徵象**：受壓處神經**變扁/變細**、其近端呈**紡錘狀腫脹（fusiform enlargement）**與截面積增大、束狀結構模糊；遠離受壓處神經恢復正常大小與 fascicular form。\n- **MRI 互補角色**：MRI 對深部神經、去神經肌肉水腫/脂肪浸潤（denervation change）與腫塊性病灶評估有價值，可與 US 互補。\n- **判讀 pitfall**：US **無法可靠區分神經水腫與纖維化**（兩者皆呈訊號改變）；且需熟知解剖地標避免將正常變異誤判為病灶。",
   "keyPoints": [
     "**Quadrilateral space syndrome**：壓迫**axillary nerve**（及posterior circumflex humeral artery），好發於過度外展/外旋動作（如投擲運動員）。",
     "**Pronator syndrome**：壓迫**median nerve**（並非radial nerve）——最常見成因為median nerve在pronator teres肌兩頭之間受壓迫；其他壓迫點包括ligament of Struthers、lacertus fibrosus、FDS腱弓。",
     "**Cubital tunnel syndrome**：壓迫**ulnar nerve**，好發於肘部尺神經溝（cubital tunnel）處。",
     "**Kiloh-Nevin syndrome（anterior interosseous nerve syndrome, AINS）**：壓迫**anterior interosseous nerve**（AIN，為median nerve在前臂的純運動分支）；可由pronator teres兩頭之間或FDS腱弓近端邊緣壓迫所致，臨床表現為FPL、FDP（示指/中指）、pronator quadratus無力（無感覺缺損，因AIN為純運動神經）。"
   ],
-  "management": "",
+  "management": "- 上肢周邊神經 US 常見適應症為**穿刺傷、疤痕組織壓迫與腫瘤**評估。\n- 最常以 US 評估的是**腕隧道症候群與肘隧道症候群**。\n- US 可**引導診斷與治療決策，並輔助確認電生理檢查結果**。\n- **不適合 MRI 者（如金屬植入、幽閉恐懼）可改用 US** 評估周邊神經。\n- 準確判讀需**熟悉各神經解剖走行與地標**，屬操作者依賴之檢查。",
   "name": "Peripheral Nerve Entrapment Syndromes — Upper Extremity",
   "nameZh": "神經壓迫症候群",
   "slug": "nerve-entrapment-syndromes",

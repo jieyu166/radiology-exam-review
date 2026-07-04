@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**正常髓鞘化遵循由尾側到頭側（caudal to cranial）、由背側到腹側、由中心到周邊的順序；胼胝體壓部（splenium）較膝部（genu）更早於T2WI變暗（訊號隨髓鞘化下降），內囊前肢（anterior limb of internal capsule）約8個月大時T1已呈低訊號但T2仍為低訊號需等到更晚。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.nic.2005.11.004",
+      "url": "https://doi.org/10.1016/j.nic.2005.11.004"
+    }
+  ],
+  "imagingFindings": "- **依年齡選擇序列**：**約出生～6～8個月以 T1WI 判讀髓鞘化最佳（髓鞘化區呈高訊號）；約6個月之後改以 T2WI 判讀（髓鞘化區呈低訊號）**——判讀嬰兒腦 MRI 應依月齡選對加權序列，避免以單一序列誤判成熟度。\n- **成熟方向與里程碑**：髓鞘化循**由尾側到頭側、背側到腹側、中央到周邊**進行；下傳導路（如內囊後肢、皮質脊髓束、視放射）早於上行與聯絡纖維，判讀時對照標準里程碑可及早偵測延遲。\n- **常規 MRI 的侷限與進階工具**：常規 T1／T2 對「未髓鞘化前」的白質微結構不敏感；**擴散張量影像（DTI）之 fractional anisotropy／mean diffusivity 能在髓鞘化前即反映白質微結構成熟，量化評估異常成熟**，可作為里程碑補充。\n- **DDx pitfall（延遲 vs 正常）**：判讀「髓鞘化延遲」須以月齡校正之標準比對，勿將尚未成熟之正常腦誤判為髓鞘化不良；如 splenium 較 genu 早成熟、內囊前肢 T2 低訊號約6個月（非8個月）等時序為常見考點。\n- **代謝／發育病變的線索**：偏離正常時序或型態的髓鞘化異常，是先天、代謝與神經發育疾病的重要影像線索，須結合臨床與其他序列判讀。",
   "keyPoints": [
     "**順序**：Myelination process **由尾側到頭側（caudally to cranially）**進行。",
     "**胼胝體（corpus callosum）**：**Genu**（膝部）T1 6個月呈高訊號、T2 12個月呈低訊號；**Splenium**（壓部）較早成熟，T1 3個月、T2 6個月即呈成熟訊號——**splenium 較 genu 更早於 T2WI 轉暗**。",

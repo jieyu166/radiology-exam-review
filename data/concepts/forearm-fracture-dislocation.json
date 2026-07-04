@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**前臂骨折合併關節脫臼三大型態：Monteggia（尺骨幹骨折 + 橈骨頭脫臼，近端橈尺關節）、Galeazzi（橈骨遠端骨折 + DRUJ 脫臼）、Essex-Lopresti（橈骨頭骨折 + 骨間膜撕裂 + DRUJ 脫臼）。Monteggia 為近端問題，與 DRUJ 無關。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.3928/01477447-20221129-07",
+      "url": "https://doi.org/10.3928/01477447-20221129-07"
+    }
+  ],
+  "imagingFindings": "- **X 光（首選、必拍全長）**：前臂骨折務必含肘與腕兩關節於同一評估，避免遺漏合併脫臼；單看骨折段易漏診近端橈骨頭脫臼（Monteggia）或遠端 DRUJ 脫臼（Galeazzi）。\n- **橈骨頭對位線（radiocapitellar line）**：任何投照方向，沿橈骨頸長軸畫線應通過肱骨小頭中心；不通過即代表橈骨頭脫臼，為判讀 Monteggia 的關鍵徵象。\n- **Monteggia vs terrible triad 鑑別**：兩者皆為肘部骨折脫臼但機轉不同——Monteggia 為尺骨（近端）骨折 + 橈骨頭脫臼；terrible triad 為肘關節脫臼 + 橈骨頭骨折 + 冠狀突骨折。Monteggia 併發尺骨骨不癒合風險較高，terrible triad 則以肘關節攣縮為主。\n- **Galeazzi—DRUJ 評估**：橈骨遠端 1/3 骨折時須於側位與正位評估 DRUJ 增寬、尺骨頭背側/掌側移位；DRUJ 不穩定常伴 TFCC 撕裂。\n- **Essex-Lopresti—縱向不穩定陷阱**：橈骨頭骨折若合併腕部疼痛，須警覺骨間膜撕裂造成的縱向前臂不穩定，橈骨近端移位（positive ulnar variance 於腕部）為線索；單看肘部易漏診。\n- **判讀陷阱**：Monteggia 屬「近端橈尺關節」問題，與 DRUJ 無關；勿將其歸為 DRUJ 不穩定型態。",
   "keyPoints": [
     "**Monteggia**：尺骨近端骨折 + 橈骨頭脫臼。影響近端橈尺關節，與 DRUJ 無關。",
     "**Galeazzi**：橈骨遠端 1/3 骨折 + DRUJ 脫臼。",
     "**Essex-Lopresti**：橈骨頭骨折 + 骨間膜撕裂 + DRUJ 脫臼。",
     "**TFCC 撕裂**：與 DRUJ 不穩定高度相關。"
   ],
-  "management": "",
+  "management": "- Monteggia 損傷成人以尺骨骨不癒合為主要併發症，需手術固定並復位橈骨頭。\n- 兒童 Monteggia 常為塑性彎曲（plastic bowing）或青枝骨折，橈骨頭脫臼易被忽略而延誤處置。\n- Galeazzi 骨折被稱為「fracture of necessity」，成人幾乎均需手術固定橈骨並穩定 DRUJ。\n- Essex-Lopresti 為縱向前臂不穩定，延誤診斷會導致慢性腕痛與橈骨近端移位。\n- 前臂骨折脫臼多為高能量創傷，需評估是否合併神經血管損傷（如後骨間神經）。",
   "name": "Forearm Fracture-Dislocations — Monteggia / Galeazzi / Essex-Lopresti",
   "nameZh": "前臂骨折脫臼",
   "slug": "forearm-fracture-dislocation",

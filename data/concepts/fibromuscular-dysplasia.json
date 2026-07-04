@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**FMD最常侵犯的血管是「腎動脈」（不是頸動脈），依序為腎動脈＞肋外頸動脈與椎動脈＞腸繫膜動脈＞顱內頸動脈——考題常用「頸動脈>頸內動脈>椎動脈」的錯誤排序來誤導。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1177/1358863X18821816",
+      "url": "https://doi.org/10.1177/1358863X18821816"
+    }
+  ],
+  "imagingFindings": "- **首選診斷影像**：懷疑腎動脈或顱外頸／椎動脈FMD時，CTA或MRA為第一線非侵入性影像；導管血管攝影（DSA）仍是診斷金標準，並可同時測量壓力梯度以評估血流動力學意義。\n- **多灶型（multifocal，串珠狀）**：血管中段至遠段呈交替狹窄與擴張的「string of beads（串珠狀）」，串珠直徑通常大於正常血管管徑，對應medial fibroplasia，為最常見型態。\n- **局灶型（focal / unifocal）**：單一環狀或管狀狹窄，可位於血管任何位置，好發於較年輕族群；此型型態上易與動脈粥狀硬化或血管炎混淆，需以年齡、無粥狀硬化危險因子與病灶分佈鑑別。\n- **跨血管系統性評估**：FMD為系統性動脈病，判讀時應主動搜尋合併之動脈瘤（尤其顱內動脈瘤）與動脈剝離（頸動脈、椎動脈、冠狀動脈SCAD）；建議至少一次頭至骨盆全血管影像篩檢。\n- **判讀陷阱**：串珠狀外觀並非FMD專有，需與standing wave偽影、血管炎、第4型Ehlers-Danlos等鑑別；顱外頸動脈FMD雖影像上受累頻率高，但整體最常侵犯血管仍為腎動脈（考題排序陷阱）。",
   "keyPoints": [
     "**腎動脈(renal arteries)**：約79.7%，**最常侵犯**。",
     "**肋外頸動脈(extracranial carotid)**：約74.4%。",
@@ -11,7 +16,7 @@
     "**腸繫膜動脈(mesenteric arteries)**：約26%。",
     "**顱內頸動脈(intracranial carotid arteries)**：約17%。"
   ],
-  "management": "",
+  "management": "- FMD好發於年輕至中年女性，最常見臨床表現為腎動脈受累所致之續發性高血壓（尤其年輕女性新發高血壓）。\n- 顱外頸動脈／椎動脈FMD可表現為頭痛、搏動性耳鳴、暫時性腦缺血或缺血性腦中風。\n- 診斷確立後應進行一次性的頭至骨盆全血管影像，以偵測合併之動脈瘤與剝離。\n- 治療以抗血小板（多為aspirin）與控制血壓為主；有血流動力學意義之腎動脈狹窄可考慮經皮血管成形術（PTA），一般不放置支架。\n- FMD與自發性冠狀動脈剝離（SCAD）高度相關，凡診斷SCAD者應評估是否合併FMD。",
   "name": "Fibromuscular Dysplasia (FMD)",
   "nameZh": "纖維肌肉發育不良",
   "slug": "fibromuscular-dysplasia",
