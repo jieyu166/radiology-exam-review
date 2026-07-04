@@ -22,6 +22,14 @@ dateRev: 2026-06-29
 - **Subarterial（subpulmonary／supracristal）**：位於**肺動脈瓣下（subpulmonary）**,易合併主動脈右冠瓣脫垂、AR。[^1]
 - 各型命名以**右心室面觀點**。[^1]
 
+## 放射科醫師影像判讀重點
+- **Echocardiography（首選）**：定位缺損、判斷分流方向與壓差;四腔切面顯示 perimembranous/inlet/muscular 型，**outlet（subarterial）型須用流出道切面**才能顯示肺動脈瓣下缺損。[^3][^4]
+- **CXR**：小型 VSD 心臟與肺血管多正常;明顯左向右分流見**左心房與左心室擴大＋中央肺動脈幹突出＋shunt vascularity**;可資與 ASD 鑑別（ASD 左心房多不大）。[^4][^5]
+- **Cardiac CT／CMR**：顯示複雜流出道解剖、傳導軸鄰近結構與合併畸形;**CMR phase-contrast 於升主動脈與主肺動脈量 Qs/Qp 計算 Qp:Qs**，低分流或合併瓣膜逆流時準確度下降。[^2][^4]
+- **分型判讀地標**：perimembranous 位主動脈瓣環下（subaortic），**房室傳導軸沿其後下緣走行**（術前保護傳導束的關鍵）;muscular 可多發呈 Swiss-cheese;inlet 見房室瓣 offset 消失（ECD 譜系）。[^2][^3]
+- **判讀陷阱（最常考）**：**subarterial/supracristal 名稱含「artery」但位於肺動脈瓣下（subpulmonary），不在主動脈瓣下**;outlet 型即使分流不大也須警覺**主動脈右冠瓣脫垂與 AR**;perimembranous 旁可形成膜性中隔瘤影響分流評估。[^3][^4][^6]
+- **DDx**：後天性梗塞後室間隔破裂（臨床背景/位置有別）;其他左向右分流（ASD、PDA）之 shunt vascularity。[^5]
+
 > [!note] 考點：關於 VSD 分型描述,何者「錯」?
 > 「**位於主動脈瓣下稱 subarterial type**」錯——**subarterial（supracristal）VSD 位於『肺動脈瓣下(subpulmonary)』**。perimembranous、Swiss-cheese muscular、inlet 命名皆正確;以右心室面觀點命名亦正確。[^1]
 

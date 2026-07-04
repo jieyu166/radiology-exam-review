@@ -38,6 +38,15 @@ same:
 - **CIN 定義**：對比劑注射後 **48 小時內**，血清肌酸酐（serum creatinine）較注射前上升 **≥50%**。**CIN 最重要之危險因子為既存腎功能障礙**。目前低滲對比劑注射，除非極大劑量或用於心功能障礙患者，即使洗腎病患也通常不需因 IV 對比劑注射而在檢查後急性洗腎。[^4]
 - **延遲性皮膚不良反應（delayed cutaneous adverse events）**：iodixanol（iso-osmolar dimer）發生率略高於其他 LOCM；非離子雙體（dimeric）整體發生率高於非離子單體（monomeric）對比劑。[^4]
 
+## 技術要點
+- **衰減物理**：碘原子序高（**Z=53**）＋成本低 → 良好 X 光對比材料；提高碘濃度增加 SNR 同時改善 CNR（背景 SI 不變）。[^1]
+- **滲透壓階梯（同碘量下）**：**ionic monomer（HOCM，~1400–2000）≫ non-ionic monomer（LOCM，~600–850）＞ non-ionic dimer（IOCM，~290≈血漿）**；「低滲」LOCM 仍高於血漿，僅 iso-osmolar iodixanol 約等血漿。[^1]
+- **iodixanol 陷阱**：等滲但**較黏（viscous）**，且**未證實較保護腎臟**——研究未能證實 iso-osmolar 對 CIN/PC-AKI 優於 LOCM；其延遲性皮膚反應反略高於其他 LOCM。[^1][^4]
+- **CIN 定義與危險因子**：對比劑注射後 **48 小時內** serum creatinine 較注射前上升 **≥50%**；**最重要危險因子為既存腎功能障礙**；低滲劑注射除非極大劑量或心功能障礙，洗腎病患通常不需檢查後急性洗腎。[^4]
+- **分布間隙**：IV 正常腎功能為**細胞外對比劑**（two-compartment：血管內 plasma＋間質），不顯著入細胞，**腎絲球過濾**排泄（iodixanol ~97%/24h）；**腦血管攝影因 BBB 完整僅留血管內**。[^2]
+- **鞘內給藥限制**：**只准特定低濃度非離子單體**（Omnipaque 240/300、Iopamiro 300）；**高濃度（Omnipaque 350/370、Visipaque）禁用於鞘內**（神經毒性，Visipaque 標示 NOT FOR INTRATHECAL USE）。[^1][^2]
+- **保存與小兒**：37°C 保溫箱可降黏性（溫度越高黏性越低）、庫存室溫 15–30°C、開瓶儘快用完；小兒約 **1.5–2 cc/kg**，CVC 多不適合注射。[^3]
+
 ## CIAKI（contrast-induced acute kidney injury）之預防：口服 vs 靜脈水化
 - 預防 CIAKI 之傳統指引建議以**長時間、大量生理食鹽水靜脈輸液**擴容;**靜脈輸液應於介入處置前 6–12 小時開始，並維持至處置後 4 小時**。[^5]
 - **門診病人**通常無法配合此類靜脈水化流程，可改採**口服水化（oral hydration）**;現有證據顯示口服水化**至少與靜脈生理食鹽水同樣有效**於預防 CIAKI。[^5]

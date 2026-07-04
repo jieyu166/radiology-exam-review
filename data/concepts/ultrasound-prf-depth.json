@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1148/rg.234035034"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **PRF 之物理限制**：機器必須等最深回波返回才能發下一脈衝，故 **PRF = c / (2R)**；深度 R 越大、來回時間越長、每秒能發脈衝數（PRF）越少。\n- **深度—PRF 反比**：反解得 R = 0.5 × (c / PRF)，深度與 PRF 成反比；此為考題計算與觀念判斷之核心關係式。\n- **與深度無關之三個干擾選項**：spatial pulse length（SPL＝波長×每脈衝週期數）、pulse duration（PD＝週期數×週期，典型 <1 μs）、wavelength（λ＝c/頻率）皆由探頭頻率與介質決定，不隨成像深度改變。\n- **連帶 frame rate 效應**：深度↑ → PRF↓ →每條掃描線取樣更久 → **frame rate 下降**，即時性變差；欲維持高 frame rate 須縮小深度或掃描寬度。\n- **臨床調控（knobology）**：增加成像深度時，機器自動降低 PRF；操作者若需同時兼顧深部與時間解析度，應權衡深度、寬度與 frame rate。\n\n> [!note] 一句話記憶\n> **深度變，只有 PRF 跟著變（成反比）**；SPL／PD／波長都由探頭頻率與介質決定，不隨深度改變。\n\n**參考來源**\n: *Pulse repetition frequency*. Radiopaedia.org（ultrasound physics）。PRF = c/(2R)、R = 0.5×(c/PRF)（實際查證 accessed 2026-06-15）。\n: **Tier 1** Hangiandreou NJ. *AAPM/RSNA physics tutorial for residents. Topics in US: B-mode US: basic concepts and new technology*. RadioGraphics 2003;23(4):1019-33（據 PubMed，DOI [10.1148/rg.234035034](https://doi.org/10.1148/rg.234035034)；Review；實際查證 accessed 2026-07-04）——超音波 B-mode 基本物理權威教學：**脈衝-回波原理、脈衝重複頻率（PRF）受最大成像深度限制（深度越大、等待回波越久、PRF 越低）、進而影響 frame rate**，以及軸/側向解析度、聲束成形等概念。佐證本卡 PRF＝c/(2R)、深度-PRF 反比與連帶 frame rate 下降之物理基礎。原「Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。",
   "keyPoints": [
     "**PRF = c / (2R)**（c＝介質聲速、R＝最大取樣深度）；故 **R↑ → PRF↓**。",
     "反之 depth of view **R = 0.5 × (c / PRF)**——深度與 PRF 成反比。",

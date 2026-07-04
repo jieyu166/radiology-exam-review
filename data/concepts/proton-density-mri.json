@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**PD 加權的參數記憶：「長 TR 抑制 T1、短 TE 抑制 T2，剩下的就是質子密度本身」。** 兩個參數都「一長一短」，把 T1 和 T2 對比都壓下去才讓質子密度主導；長 TR 同時帶來高 SNR。考試陷阱是「短 TR ＋ 長 TE」——那個組合根本不存在有意義的權重，是 PD 的完全相反。判讀分水嶺一：**PD ＝ 長 TR ＋ 短 TE**；判讀分水嶺二：**長 TR → 高 SNR；後顱窩 MS 斑塊在 PD 較 T2 明顯（CSF 不過亮）**。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.254055027（RSNA，accessed",
+      "url": "https://doi.org/10.1148/rg.254055027（RSNA，accessed"
+    }
+  ],
+  "imagingFindings": "- **PD 權重的參數組合**：**長 TR（減少 T1 對比）＋ 短 TE（減少 T2 對比）**，剩下的訊號差異即由質子密度主導。\n- **常考陷阱**：「**短 TR ＋ 長 TE 產生 PD**」為錯誤敘述——該組合是 PD 的完全相反（短 TR 強調 T1、長 TE 強調 T2）。\n- **SNR 特性**：長 TR 使縱向磁化恢復較完全，故 PD 之 SNR 高於相對應之 T1W 或 T2W。\n- **MSK 主力應用**：對軟骨、半月板等組織之質子密度差異敏感，PD（常搭配 fat-sat）為關節成像主力序列。\n- **後顱窩 MS 判讀優勢**：PD 上 CSF 不致過亮，後顱窩 MS 斑塊在 PD 可較 T2 更明顯、較不被高訊號 CSF 掩蓋。\n- **記憶鉤**：兩參數皆「一長一短」——長 TR、短 TE，才能同時把 T1 與 T2 對比壓下、讓質子密度呈現。\n\n> [!note] 考點：PD 影像何者「為非」?\n> 「**短 TR ＋ 長 TE 產生 PD**」非——PD 為 **長 TR ＋ 短 TE**。PD SNR 高、MSK 敏感、後顱窩 MS 較 T2 明顯皆對。\n\n**參考來源**\n: 質子密度加權 MRI 標準物理：**長 TR（抑 T1）＋ 短 TE（抑 T2）→ PD 權重**;長 TR 致高 SNR;MSK（軟骨/半月板）主力;後顱窩 MS 斑塊可較 T2 明顯。**權威一手來源**：Pooley RA. *Fundamental Physics of MR Imaging*. RadioGraphics. 2005;25(4):1087-1099. DOI 10.1148/rg.254055027（RSNA，accessed 2026-07-05）——短 TE（最小化 T2 對比）＋ 長 TR（最小化 T1 對比）產生質子密度加權影像。",
   "keyPoints": [
     "**參數**：**長 TR（減 T1 權重）＋ 短 TE（減 T2 權重）→ 質子密度權重**;故「**短 TR ＋ 長 TE 產生 PD**」**錯誤**＝題目正解（2016-197 正解 C,參數相反）。",
     "**SNR 高**：因長 TR,PD 的 SNR 高於相對應的 T1W 或 T2W(option A 對)。",

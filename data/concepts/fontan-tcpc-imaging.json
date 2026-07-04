@@ -16,7 +16,7 @@
       "url": "https://doi.org/10.1007/s00247-021-05173-x（付費全文未讀，依"
     }
   ],
-  "imagingFindings": "- **先認術式再判讀**：報告前確認為 APC（巨大右房、易停滯血栓）、lateral tunnel、extracardiac conduit（現行主流）或 Kawashima（IVC 中斷、奇靜脈引流、易 PAVM），因併發症取向與正常影像表現隨術式不同。\n- **真血栓 vs streaming 假影（最大陷阱）**：SVC/IVC 顯影到達不同步在 conduit/PA 產生 swirling/streaming 假充盈缺損;以**雙側上下肢 dual-injection**同步顯影、**bolus tracking**觸發、**延遲相（約 3 分鐘最均勻）**確認——假影延遲相消散、真血栓持續存在。\n- **路徑巡管線判讀順序**：SVC/IVC-PA 吻合處狹窄（最常見於吻合處,因摺曲/鈣化/pseudointimal peel）→ fenestration 有無與通暢 → conduit 血栓/內膜增生（血栓率約 3–19%）→ 側枝（veno-venous 右→左去飽和、aortopulmonary 增容積負荷）。\n- **功能與流量量測**：**cine SSFP** 為單心室容積/EF 與房室瓣脫垂逆流之參考標準;**phase-contrast** 算 Qp/Qs 與 APC 流量;**LGE** 偵測心肌纖維化（與較低 EF、較高 EDV 相關）。\n- **腹部與肝臟監測**：留意 FALD（門脈期 nutmeg/mosaic 不均勻強化、尾葉肥大、FNH-like 再生結節約 20–30%，其中約 10% 延遲洗出擬似惡性）、PLE（腹水、腸壁增厚、腸繫膜根部水腫）;可疑肝結節（>10 mm、輪廓不規則、包膜、快速生長）以多期相 CT 或肝細胞特異性對比劑 MRI 進一步鑑別 HCC。",
+  "imagingFindings": "- **混合不全造成的 streaming/假性充盈缺損是最大陷阱**：SVC 與 IVC 顯影劑到達時間不同，在 conduit 與肺動脈內混合不全，產生 swirling/streaming 假影，可被誤判為血栓或栓塞。\n- **雙側上肢＋下肢同時打顯影劑（dual-injection）**：同時經上肢與下肢靜脈（理想為兩台高壓注射器）注入，讓 SVC、IVC 顯影同步、混合均勻，是消除 streaming 假影的首選技術。\n- **延遲掃描**：以延遲（靜脈期）影像確認可疑充盈缺損——延遲約 1 分鐘已可大致顯影（但仍可見輕度不均）、延遲約 3 分鐘最均勻（代價為整體對比濃度下降）；APC 舊式或心室功能差者需更長延遲。真血栓在延遲相仍持續存在，假影則消散。\n- **Bolus tracking** 觸發掃描優於固定延遲，因 Fontan 流速個體差異大、難預測。",
   "keyPoints": [
     "**Fontan/TCPC 原理**：單心室生理（tricuspid atresia、HLHS、double-inlet LV 等），無 subpulmonary pump；繞過右心，把體靜脈血（SVC＋IVC）直接被動導入肺動脈。被動、低速、近層流的肺血流對任何阻力（吻合狹窄、血栓、側枝竊血）零容忍——這是全篇判讀主軸。",
     "**術式演進**（判讀前先認術式，影像表現與併發症取向不同）：",

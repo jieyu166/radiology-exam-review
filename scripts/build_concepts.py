@@ -264,7 +264,7 @@ def build_concept(path):
         pass
 
     lead, sections = split_sections(body)
-    imaging = find_section(sections, "放射科醫師", "影像判讀", "判讀骨架", "影像診斷", "影像表現", "影像特徵")
+    imaging = find_section(sections, "放射科醫師", "影像判讀", "判讀骨架", "影像診斷", "影像表現", "影像特徵", "技術要點")
     summary = find_section(sections, "Summary")
     clinical = find_section(sections, "臨床重點", "應用重點", "實務重點", "臨床/考試")
 

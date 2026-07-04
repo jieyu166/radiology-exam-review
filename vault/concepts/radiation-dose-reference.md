@@ -86,6 +86,16 @@ nonImagingReason: "各檢查有效劑量參考值表，輻射安全/物理非影
 > [!note] 有效劑量數值的方法學限制（常忽略但常考）
 > **有效劑量本身有約 ±40% 不確定性**（年齡/性別平均之計算值，非個別病人實測值）；本文獻刻意**僅取一位有效數字**呈現，避免假精確；跨文獻來源之數值差異通常在 **±50%** 內，介入性或高變異性檢查差異更大。**年平均背景輻射約 3 mSv**，常作為劑量換算的教學比較基準（如「一次腹部CT≈數年背景輻射」）；截至 2007 年，**醫療影像已是美國人口最大宗游離輻射暴露來源**。[^1]
 
+## 技術要點
+- **模態層級**：平片（<2 mSv）≪ CT（多為 6–16 mSv）；核醫與介入依藥物/術式差異大，Tl-201 與 TIPS 為高劑量代表。[^1]
+- **平片內部排序**：四肢/DXA ~0.001 < 胸部 X 光 ~0.1 < 骨盆 ~0.6 < 腹部 KUB ~0.7 < 腰椎 ~1.5 mSv；乳房攝影 ~0.4。[^1]
+- **CT 常考值**：頭部 ~2、胸部 ~7、腹部+骨盆 ~10、CTCA ~16 mSv。[^1]
+- **陷阱：鋇劑灌腸 ~8 mSv** 竟與腹骨盆 CT 相當，遠高於一般 X 光平片——為常見排序題陷阱。[^1]
+- **核醫重點**：骨掃描（Tc-99m MDP）~6.3、FDG PET ~7（PET/CT ~14）、Gallium ~15、**Tl-201 ~22–41 mSv（核醫中偏高）**。[^1]
+- **介入最高**：**TIPS ~70 mSv** 為 catalog 中最高之一；PCI/RF ablation ~15。[^1]
+- **方法學限制**：有效劑量為年齡/性別平均之計算值，本身約 **±40% 不確定性**，跨文獻差異通常 ±50%；文獻刻意僅取一位有效數字避免假精確。[^1]
+- **教學基準**：年平均背景輻射約 **3 mSv**；截至 2007 年醫療影像已為美國人口最大宗游離輻射暴露來源。[^1]
+
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Mettler FA Jr, Huda W, Yoshizumi TT, Mahesh M. *Effective Doses in Radiology and Diagnostic Nuclear Medicine: A Catalog*. Radiology. 2008;248(1):254-263. https://doi.org/10.1148/radiol.2481071451。含 radiography／fluoroscopy／CT／interventional／nuclear medicine 各檢查之代表性有效劑量（上表為其 rounded representative values，僅取一位有效數字）；有效劑量本身約 ±40% 不確定性、跨文獻差異通常 ±50%；年平均背景輻射約 3 mSv；2007 年時醫療影像已為美國最大宗游離輻射暴露來源。
 [^2]: *Typical Radiation Doses*（MSD Manual Professional Edition，本於 Mettler 等；實際查證 accessed 2026-06-17）：數位乳攝 0.21、CT 頭 2、鋇劑灌腸 6、腰椎X光(側位)1.5、CT 腹骨盆 7.7 mSv（與 [^1] 大致一致）。

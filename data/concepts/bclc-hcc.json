@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1055/s-0030-1247133"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **分期起點是影像**：BCLC 的腫瘤負荷（單發／多發、大小、顆數）由多期顯影 CT/MRI 判定，故報告須明確列出**病灶數目、最大徑、是否多葉分布**，直接決定落在 0/A 還是 B。\n- **B 與 C 的分水嶺＝血管侵犯與肝外轉移**：影像上**門脈/肝靜脈瘤栓（tumor thrombus）**或肝外病灶一旦出現即歸 C、跳過 TACE 改系統治療；判讀時務必掃描門脈主幹與分支、辨別瘤栓（動脈期強化、擴張血管）與良性血栓。\n- **瘤栓辨識陷阱**：癌栓（malignant/tumor thrombus）具**動脈期強化與擴張管徑**，良性血栓無強化；誤判會使分期在 B/C 間跳動、治療全然不同。\n- **可切除性與消融適應**：0/A 的「單發或 ≤3 顆 ≤3 cm」需影像精算顆數與位置（鄰近大血管/膽管影響消融安全邊界），報告應提示鄰接構造。\n- **TACE 前後追蹤用 mRECIST**：中期（B）行 TACE 者以**存活腫瘤（動脈期強化殘存部分）**評估反應，而非單看整體大小；報告須描述 lipiodol 沉積與殘餘強化。\n- **肝外轉移的偵測影響升期**：晚期（C）含肝外轉移，胸腹影像若見肺/骨/腎上腺病灶即支持系統治療，骨轉移屬此，見 [[hcc-bone-metastasis]]。\n\n> [!note] 考點：中期 HCC 最佳治療？\n> **TACE**（BCLC B）。早期→切除/消融/移植；晚期→系統治療；末期→支持。\n\n> [!note] 連結\n> 晚期（C）含**肝外轉移**——HCC 骨轉移即屬此，見 [[hcc-bone-metastasis]]。\n\n**參考來源**\n: *Liver cancer (BCLC staging)*. Radiopaedia.org。BCLC B（中期）第一線 **TACE**，不可行則系統治療；早期根治（切除/消融/移植）、晚期系統治療、末期支持（實際查證 accessed 2026-06-16）。題目另引 Forner A, Reig ME, de Lope CR, Bruix J. *BCLC update*. Semin Liver Dis. 2010;30(1):61-74. https://doi.org/10.1055/s-0030-1247133 。",
   "keyPoints": [
     "**0/A（極早/早期）**：單發或 ≤3 顆 ≤3 cm、PS 0、肝功能保留 → **resection / ablation / 肝移植**（根治）。",
     "**B（中期 intermediate）**：**無症狀多發**、PS 0、無血管侵犯/肝外轉移 → **第一線 TACE（transcatheter arterial chemoembolisation）**；不適 TACE（分布/肝功能）→ 系統治療。（題目正解）",

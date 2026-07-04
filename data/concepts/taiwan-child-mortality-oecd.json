@@ -6,9 +6,13 @@
     {
       "label": "http://www.who.int/healthinfo/statistics/mortality_rawdata/en/（2018",
       "url": "http://www.who.int/healthinfo/statistics/mortality_rawdata/en/（2018"
+    },
+    {
+      "label": "10.6288/TJPH201635104087（accessed",
+      "url": "https://doi.org/10.6288/TJPH201635104087（accessed"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **台灣數據**：1-4 歲兒童每十萬人口死亡數（2006–2010 五年平均）約 **30.6**。\n- **對照平均**：24 國平均值約 **21.9**（標準差 4.3）。\n- **最佳表現國**：芬蘭約 **15.30**（死亡率最低）。\n- **統計位置**：台灣死亡率高於 24 國平均值超過 **2 個標準差**，屬明顯偏高之族群。\n- **排名結論**：於 OECD 2012 年「健康與安全」調查中，台灣 1-4 歲兒童死亡率（由低到高排名）屬 **倒數前三名**。\n- **資料來源**：WHO Mortality Database；本題為公共衛生統計題，非影像判讀內容。\n\n> [!note] 考點\n> 台灣1-4歲兒童死亡率於OECD比較中排名**倒數前三名**（死亡率明顯高於平均值）。\n\n**參考來源**\n: WHO Mortality Database, http://www.who.int/healthinfo/statistics/mortality_rawdata/en/（2018 交換考題詳解 p.182 引用；Tier 1 官方統計資料）。台灣1-4歲兒童每十萬人口死亡數(2006-2010五年平均)約30.6，24國平均值21.9(標準差4.3)，最低為芬蘭15.30；台灣排名屬OECD國家中倒數前三名。**權威一手來源**：Liang FW, Huang YL, Wu MH, Lue HC, Chiang TL, Lu TH. 兒童死亡率：臺灣與 OECD 國家之比較（Child mortality: Taiwan compared with OECD countries）. 台灣衛誌（Taiwan J Public Health）. 2016;35(2):221-233. DOI 10.6288/TJPH201635104087（accessed 2026-07-05）——資料源自 WHO Mortality Database，1-4 歲組台灣死亡率高於多數 OECD 國家、排名接近末段。",
   "keyPoints": [
     "**台灣數據**：每十萬人口(1-4歲)死亡人數(2006-2010五年平均)約**30.6**。",
     "**對照數據**：24國平均值約**21.9**（標準差4.3）；表現最佳的芬蘭約**15.30**。",

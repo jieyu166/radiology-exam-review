@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1148/rg.234035034"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **軸配置速記（考題核心陷阱）**：A-mode＝**振幅(y)／深度或時間(x)**、M-mode＝**深度(y)／時間(x)**；兩者縱軸皆為深度，A-mode 與 M-mode 之區別在橫軸（A-mode 為單次深度掃描、M-mode 為時間展開）。題目最常把 A-mode 的振幅/時間軸對調設陷阱。\n- **由點到面之演進**：B-mode 以亮度編碼單一回音成「點」，多點沿掃描線成「線」、多線並排成二維灰階影像，為現代 real-time 灰階成像之基礎。\n- **亮度=回音振幅**：B/M-mode 之亮點亮度正比於反射波振幅，反映介面聲阻抗差異，此為灰階影像之物理根基。\n- **M-mode 高時間解析度之來源**：以單一掃描線高幀率取樣，犧牲空間全貌換取極高時間解析度，最能刻畫高速運動結構（如瓣膜）之路徑與時序。\n- **模式選擇原則**：需空間全貌選 B-mode／real-time、需運動時序選 M-mode、需單軸精密測距（如眼軸長）選 A-mode。\n- **現代 B-mode 掃描儀組成要素**：超音波物理、與組織交互作用、脈衝形成、波束掃描、回音偵測與訊號處理；新技術含 tissue harmonic imaging、spatial compound imaging、extended FOV、coded pulse excitation、電子聚焦與 3D/4D。",
   "keyPoints": [
     "**A-mode（amplitude mode）**：一維影像，**振幅（amplitude）沿縱軸、深度/時間沿橫軸**；為最早的顯示模式，現多用於眼科生物測量。考題常將橫縱軸對調設陷阱。",
     "**B-mode（brightness mode）**：以**回音振幅對應亮點（brightness of a dot）**呈現，為現代**二維灰階影像**之基礎顯示模式。",

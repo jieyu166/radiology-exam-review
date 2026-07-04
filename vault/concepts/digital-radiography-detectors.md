@@ -23,6 +23,14 @@ nonImagingReason: "純數位 X 光偵測器物理/工程主題（direct/indirect
 - 選項對錯:A（CCD 直接被 X 光照 → 錯,CCD 屬間接需閃爍體）、B（X 光直接轉成可見光 → 那是『間接』）、C（X 光直接被讀取 → 不精確）、**D（X 光直接轉成電荷 → 正確,即 direct/a-Se）**。[^1][^2]
 - **系統概觀（Körner）**：**indirect＝閃爍體（CsI/Gd₂O₂S）先轉可見光再由 a-Si photodiode+TFT 讀出；direct＝a-Se 光導體將 X 光直接轉電荷、由 TFT 讀出**；CsI 針狀結構減少光散射以維持空間解析度，DR 相較 CR 具較高 DQE 與工作流程效率。[^2]
 
+## 技術要點
+- **兩步 vs 三步是核心考點**：direct＝X 光→電荷（兩步）;indirect＝X 光→可見光→電荷（三步,多一道光）;考題問 direct 正確描述即「X 光直接轉電荷」。[^1][^2]
+- **direct 材料＝a-Se 光導體**：非晶硒層將 X 光光子直接轉為電荷,再經 TFT 陣列讀出,無閃爍體中介。[^1][^2]
+- **indirect 材料＝閃爍體（CsI/Gd₂O₂S）**：先把 X 光轉可見光,再由 a-Si photodiode 陣列轉電荷;CCD/photodiode 型皆屬 indirect（需閃爍體）。[^1][^2]
+- **CsI 針狀（needle-like）結構**：限制可見光橫向散射,維持較佳空間解析度,是 indirect 型仍能高解析的關鍵。[^2]
+- **選項辨錯**：CCD 被 X 光直照（錯,屬 indirect 需閃爍體）、X 光直接轉可見光（那是 indirect）、X 光直接被讀取（不精確）;唯「X 光直接轉電荷」為 direct 正解。[^1]
+- **DR 相較 CR**：DR（direct/indirect 平板）具較高 DQE 與工作流程效率,較 CR（影像板讀取）優。[^2]
+
 > [!note] 考點：直接數位偵測器的正確描述?
 > **X 光光子直接轉換成電荷**（非晶硒 a-Se 光導體）後讀出。間接型才需閃爍體先轉成可見光。[^1]
 

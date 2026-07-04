@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1148/rg.273065075"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **兩步 vs 三步是核心考點**：direct＝X 光→電荷（兩步）;indirect＝X 光→可見光→電荷（三步,多一道光）;考題問 direct 正確描述即「X 光直接轉電荷」。\n- **direct 材料＝a-Se 光導體**：非晶硒層將 X 光光子直接轉為電荷,再經 TFT 陣列讀出,無閃爍體中介。\n- **indirect 材料＝閃爍體（CsI/Gd₂O₂S）**：先把 X 光轉可見光,再由 a-Si photodiode 陣列轉電荷;CCD/photodiode 型皆屬 indirect（需閃爍體）。\n- **CsI 針狀（needle-like）結構**：限制可見光橫向散射,維持較佳空間解析度,是 indirect 型仍能高解析的關鍵。\n- **選項辨錯**：CCD 被 X 光直照（錯,屬 indirect 需閃爍體）、X 光直接轉可見光（那是 indirect）、X 光直接被讀取（不精確）;唯「X 光直接轉電荷」為 direct 正解。\n- **DR 相較 CR**：DR（direct/indirect 平板）具較高 DQE 與工作流程效率,較 CR（影像板讀取）優。\n\n> [!note] 考點：直接數位偵測器的正確描述?\n> **X 光光子直接轉換成電荷**（非晶硒 a-Se 光導體）後讀出。間接型才需閃爍體先轉成可見光。\n\n**參考來源**\n: *Flat panel detector*. Radiopaedia.org（實際查證 accessed 2026-06-17）：**direct** flat panel detector＝**photoconductor layer of amorphous selenium (a-Se)** + TFT;**indirect**＝scintillator（X 光先轉可見光）+ photodiode;「X-rays converted into electrical charges, either directly or indirectly」。\n: **Tier 1** Körner M, Weber CH, Wirth S, et al. *Advances in digital radiography: physical principles and system overview*. RadioGraphics 2007;27(3):675-86（據 PubMed，DOI [10.1148/rg.273065075](https://doi.org/10.1148/rg.273065075)；Review；實際查證 accessed 2026-07-04）——數位放射之物理原理與系統概觀：**間接轉換平板＝閃爍體（CsI/Gd₂O₂S）先將 X 光轉可見光、再由 a-Si photodiode+TFT 陣列讀出；直接轉換平板＝a-Se 光導體將 X 光直接轉為電荷、由 TFT 讀出**；並比較 CR 與 DR 之 DQE、空間解析度與工作流程。佐證 direct（a-Se 直接轉電荷）vs indirect（閃爍體先轉光）之核心區別。原「Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。",
   "keyPoints": [
     "**直接偵測器（direct conversion）**：**非晶硒（amorphous selenium, a-Se）光導體層** + TFT 讀出陣列;**X 光光子『直接』轉換成電荷**後讀出（2016-146 正解 D）。",
     "**間接偵測器（indirect conversion）**：**閃爍體（如 CsI）先把 X 光轉成可見光**,再由光二極體陣列轉成電荷。",

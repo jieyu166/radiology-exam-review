@@ -3,7 +3,7 @@
   "definition": "**含碘對比劑記兩件事就通:一是『碘』負責擋 X 光（原子序高 Z=53）;二是『一個分子帶幾顆有效顆粒』決定滲透壓——顆粒越多越高滲。所以同樣碘量下,離子性（會解離成兩顆）最高滲、非離子單體次之、非離子雙體（一顆裝兩個碘環、顆粒最少）最接近血漿。** 判讀分水嶺一：**滲透壓 ionic monomer（HOCM）≫ non-ionic monomer（LOCM）＞ non-ionic dimer（IOCM, iso-osmolar≈血漿)**;判讀分水嶺二：**靜脈注射後為細胞外對比劑、分布於血管＋間質（不入細胞、腎絲球過濾排泄）;腦血管攝影因 BBB 完整僅留血管內;鞘內(intrathecal)只准特定低濃度非離子製劑**。",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **衰減物理**：碘原子序高（**Z=53**）＋成本低 → 良好 X 光對比材料；提高碘濃度增加 SNR 同時改善 CNR（背景 SI 不變）。\n- **滲透壓階梯（同碘量下）**：**ionic monomer（HOCM，~1400–2000）≫ non-ionic monomer（LOCM，~600–850）＞ non-ionic dimer（IOCM，~290≈血漿）**；「低滲」LOCM 仍高於血漿，僅 iso-osmolar iodixanol 約等血漿。\n- **iodixanol 陷阱**：等滲但**較黏（viscous）**，且**未證實較保護腎臟**——研究未能證實 iso-osmolar 對 CIN/PC-AKI 優於 LOCM；其延遲性皮膚反應反略高於其他 LOCM。\n- **CIN 定義與危險因子**：對比劑注射後 **48 小時內** serum creatinine 較注射前上升 **≥50%**；**最重要危險因子為既存腎功能障礙**；低滲劑注射除非極大劑量或心功能障礙，洗腎病患通常不需檢查後急性洗腎。\n- **分布間隙**：IV 正常腎功能為**細胞外對比劑**（two-compartment：血管內 plasma＋間質），不顯著入細胞，**腎絲球過濾**排泄（iodixanol ~97%/24h）；**腦血管攝影因 BBB 完整僅留血管內**。\n- **鞘內給藥限制**：**只准特定低濃度非離子單體**（Omnipaque 240/300、Iopamiro 300）；**高濃度（Omnipaque 350/370、Visipaque）禁用於鞘內**（神經毒性，Visipaque 標示 NOT FOR INTRATHECAL USE）。\n- **保存與小兒**：37°C 保溫箱可降黏性（溫度越高黏性越低）、庫存室溫 15–30°C、開瓶儘快用完；小兒約 **1.5–2 cc/kg**，CVC 多不適合注射。",
   "keyPoints": [
     "**分類與代表藥**：",
     "**滲透壓排序（高→低）**：iothalamate meglumine 60 (~1400) ＞ iohexol 350 (~844) ＞ iodixanol 320 (~290 ≈ 血漿)。",

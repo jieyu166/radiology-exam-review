@@ -23,11 +23,20 @@ nonImagingReason: "MRI掃描時間之物理參數公式，非影像判讀"
   - **NEX/NSA (number of excitations)**：訊號平均次數，直接乘入。
 - **不影響掃描時間之參數**：**Frequency-encoding step (Nx)**——頻率編碼於單一次讀出（readout）內一次採樣完成，不需額外重複，故與掃描時間無關。[^1]
 
+## 技術要點
+- **口訣公式**：Scan time = **TR · Ny · NSA / ETL**；記憶「相位方向決定重複次數、頻率方向不算」——凡是需要「一次 TR 才能填一列 k-space」的參數都乘進時間。[^1]
+- **為何 Nx 不影響時間**：頻率編碼（讀出方向）在單一 readout 內同步採滿一整列 k-space 的所有點，增加 Nx 只是加密取樣點、不需額外 TR，故與掃描時間無關；這是「相位 vs 頻率」對稱性最關鍵的差異。[^1][^2]
+- **ETL（echo train length）縮時**：快速自旋回波（TSE/FSE）每個 TR 內以多個回波各填一列相位，ETL 愈長、所需 TR 次數愈少，故公式中 ETL 在分母——這是臨床縮短掃描時間最常用的旋鈕。[^1][^2]
+- **NSA/NEX 的取捨**：增加 NSA 使時間線性增加、SNR 僅以 √NSA 成長，屬「時間換 SNR」低效率手段，臨床多優先調整其他參數。[^1]
+- **相位編碼步數與時間/解析度取捨**：提高 Ny（相位方向矩陣）改善相位方向解析度但時間線性拉長；部分傅立葉（partial Fourier）、平行成像（parallel imaging）即藉減少實採 Ny 來縮時。[^1][^2]
+- **與 TE 區辨**：TE（回波時間）決定對比與訊號，並不出現在掃描時間公式中——勿把 TE 誤當縮時參數，這是常見概念混淆。[^2]
+
 > [!note] 考點：何者MRI掃描參數與掃描時間「無關」？
 > **Frequency-encoding step (Nx)（B）**——頻率編碼在單一讀出內完成採樣，不影響掃描時間。TR、phase-encoding step (Ny)、NEX皆直接乘入掃描時間公式。[^1]
 
 ### 參考來源
 [^1]: R. H. Hashemi, et al. *MRI the basics*, 3rd Ed., Lippincott Williams & Wilkins, 2010, p.165（2018 交換考題詳解 p.254 引用；Tier 2 教科書）。Scan time = TR·Ny·NSA/ETL；TR、phase-encoding步數Ny、NSA(NEX)皆影響掃描時間；frequency-encoding步數Nx於單一讀出內採樣完成，不影響掃描時間。
+[^2]: **Tier 1** Bitar R, Leung G, Perng R, et al. *MR pulse sequences: what every radiologist wants to know but is afraid to ask*. RadioGraphics 2006;26(2):513-37（據 PubMed，DOI [10.1148/rg.262055063](https://doi.org/10.1148/rg.262055063)；Review；實際查證 accessed 2026-07-05）——闡述臨床 MR 脈衝序列與物理基礎（T1 回復、T2/T2\* 衰減、repetition time、echo time、chemical shift、對比權重）；相位編碼決定每次 TR 填一列 k-space、頻率編碼於單次讀出內採樣、echo train 與快速序列縮短取像時間——佐證掃描時間之參數依存（Ny/NSA/TR 影響、Nx 於讀出內完成而不影響、ETL 縮時）。補足原僅 Tier 2 教科書之強來源缺口。
 
 ## 題目
 > [!question]- 下列哪個MRI掃描參數與掃描時間無關? (2018-343)

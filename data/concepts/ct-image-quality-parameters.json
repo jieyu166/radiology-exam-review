@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**CT低對比度偵測靠「降低雜訊」——增加切片厚度是唯一能同時提高SNR、改善低對比度的選項；反直覺的是它會犧牲空間解析度。降mAs、用銳利骨核心、縮小FOV都會增加雜訊或只改善空間解析度，反而傷害低對比度。記憶鉤：低對比＝比雜訊，厚切片壓雜訊、薄切片看細節。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1002/acm2.12005",
+      "url": "https://doi.org/10.1002/acm2.12005"
+    }
+  ],
+  "imagingFindings": "- **低對比度＝比雜訊**：低對比度偵測（low contrast detectability）受雜訊主導,凡能壓低雜訊/提升 SNR 者即改善低對比度。\n- **增厚重組切片是唯一同時提 SNR 又改善低對比度的選項**：較厚切片納入更多光子、降雜訊,代價為**空間解析度變差與 partial volume artifact**;切片厚度介於軸向解析度與雜訊之間存在最佳取捨（次切片物件時最佳切厚約為物件寬度的 3/4）。\n- **降 mAs 傷低對比度**：光子數減少→雜訊上升→低對比度變差;降劑量與低對比度偵測直接衝突。\n- **銳利（bone/骨）核心改善空間解析度但增雜訊**：高頻不平滑使雜訊上升、低對比度變差;軟組織（soft tissue）平滑核心才利低對比度。\n- **縮小 FOV 只改善橫軸空間解析度**：提高像素取樣密度、利細節,但不改善低對比度,勿混為一談。\n- **SNR 三因子**：mAs（增則提升）、切片厚度（增則提升）、病人體型（越大 SNR 越低）——記憶「厚切片壓雜訊、薄切片看細節」。\n\n> [!note] 考點：何種方式調整掃描參數可能「提高」CT影像之低對比度？\n> **增加重組切片厚度（slice thickness）（C）**——較厚切片減少雜訊、提升SNR，改善低對比度偵測。降低mAs(A)增加雜訊、使用bone algorithm(B)增加雜訊、縮小FOV(D)僅改善橫軸空間解析度，皆不改善低對比度。\n\n**參考來源**\n: Bushberg JT et al. *The Essential Physics of Medical Imaging*, Lippincott Williams & Wilkins, 2011, p.366（2018 交換考題詳解 p.254 引用；Tier 2 教科書）。CT SNR受mAs（增加提升SNR）、切片厚度（增厚提升SNR）、病人體型（增大降SNR）影響；增加切片厚度提升SNR、改善低對比度（代價空間解析度）；高解析度銳利核心增加雜訊；縮小FOV改善橫軸空間解析度而非低對比度。\n: **Tier 1** Monnin P, Sfameni N, Gianoli A, Ding S. *Optimal slice thickness for object detection with longitudinal partial volume effects in computed tomography*. J Appl Clin Med Phys 2016;18(1):251-259（據 PubMed，DOI [10.1002/acm2.12005](https://doi.org/10.1002/acm2.12005)；PMC5689876；實際查證 accessed 2026-07-05）——以 Catphan 500 phantom 與人眼觀察者評分,量化**切片厚度於軸向解析度與雜訊/劑量間之取捨**對低對比度次切片物件可見度（CNR）之影響：z 軸 partial volume effect 使次切片物件對比度依其佔切片比例下降,減薄切片可改善但增雜訊/劑量;非重疊切片下最佳切厚約為物件寬度之 3/4。佐證「增厚切片降雜訊/提 SNR 以改善低對比度、代價為空間解析度與 partial volume」之核心取捨。原僅 Bushberg 教科書弱來源已由本次 J Appl Clin Med Phys DOI Tier 1 查核升級。",
   "keyPoints": [
     "**CT signal-to-noise ratio（SNR）影響因子**：mAs（增加mAs提升SNR）、切片厚度（較厚切片提升SNR）、病人體型（體型越大SNR越低）。",
     "**提高低對比度（low contrast detectability）之方式**：**增加重組切片厚度（slice thickness）**——較厚切片減少雜訊、提升SNR，從而改善低對比度偵測（代價為空間解析度變差、partial volume artifact）。",

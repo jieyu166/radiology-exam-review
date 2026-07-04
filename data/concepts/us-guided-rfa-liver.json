@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**肝臟穹窿（hepatic dome）病灶進行超音波導引射頻電燒時，常使用人工復水（artificial ascites）技術：注入生理食鹽水至腹腔，製造液體窗口以改善超音波視窗並保護橫膈膜。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.2214/AJR.07.2384"
+    }
+  ],
+  "imagingFindings": "- **視窗問題本質**：hepatic dome（S7／S8 頂部近橫膈）病灶常因肺臟含氣遮蔽，於超音波規劃影像上「僅部分可見」或「電極路徑不佳」，是穹窿病灶電燒的主要技術障礙。\n- **人工復水（artificial ascites）技術**：電燒前經皮於肝表面與橫膈間注入液體（Rhim 等原始技術使用 **5% 葡萄糖水 D/W**，平均約 348 mL），製造液體窗口以改善腫瘤可視性/電極路徑，並將電燒區與橫膈隔開。\n- **判讀／成效重點**：原始系列中人工復水成功率約 88%，可改善約 93% 部分可見腫瘤之可視性、約 78% 不良路徑之電極路徑;1 個月 CT 之技術有效率約 96%，幾乎無橫膈熱傷害。\n- **輔助定位工具**：**融合影像（US–CT/MR fusion）** 可輔助對位定位隱匿病灶，但**不改善聲窗遮蔽**，與人工復水解決的問題不同，兩者可互補。\n- **判讀陷阱**：注意灌注導電介質選擇——導電性生理食鹽水可能沿電燒區傳導熱/電流，原始技術採非導電之 D/W 以隔熱保護橫膈;卡片內「normal saline」與原文之 D/W 有出入，判讀時以隔熱/隔離為目的理解。\n\n**參考來源**\n: 2019 交換考詳解；**Rhim H, Lim HK, Kim YS, Choi D. *Percutaneous radiofrequency ablation with artificial ascites for hepatocellular carcinoma in the hepatic dome: initial experience.* AJR Am J Roentgenol. 2008 Jan;190(1):91-98.**（據 PubMed，PMID 18094298，[DOI](https://doi.org/10.2214/AJR.07.2384)；經 get_article_metadata 覆核，accessed 2026-07-05；Tier 1 影像期刊）。超音波導引經皮 RFA 治療 hepatic dome HCC，電燒前以 5% 葡萄糖水（D/W，平均 348 mL）誘導人工復水改善可視性/電極路徑並將電燒區與橫膈隔開；人工復水成功率 88%、部分可見腫瘤可視性改善 93%、技術有效率 96%、幾無橫膈熱傷害。",
   "keyPoints": [
     "**Hepatic dome 病灶**：超音波視窗差（受肺臟遮蔽），常需輔助技術。",
     "**人工復水（artificial ascites）**：注入 normal saline 至肝臟表面與橫膈間，改善視窗並作為隔熱層。",

@@ -25,6 +25,14 @@ same:
 - **降低 Doppler scale(PRF)**：偵測慢速血流（過低易 aliasing）。[^3][^4]
 - **操作者相依參數（Kruskal）**：**baseline、frame rate、wall filter、gain、velocity range（PRF/scale）、angle correction、gate size/position 各自獨立影響 color 與 spectral 成分，須逐一逐病人最佳化**；未妥善調整會產生假象或誤判、進而影響治療。[^4]
 
+## 技術要點
+- **提升敏感度四操作**：增 gain（放大接收訊號）、增 power output（發射功率↑）、降 PRF/scale（偵測慢速血流）、**縮小 Doppler 角度趨近 0°**（cosθ↑、頻移↑）；「增大角度」為唯一反向、也是最常見陷阱選項。[^1][^2][^3]
+- **角度準確度分界**：頻移正比於 cosθ，**<60° 才準確**，**>60° 計算速度誤差達 20–30%**，0° 時速度最大且最真。[^1][^2]
+- **PRF/scale 取捨**：降 scale 可顯示慢速血流，但**過低則 aliasing**（頻譜捲繞、color 混疊）；快速血流反需提高 scale。[^3][^4]
+- **gain 取捨**：增 gain 提升敏感度，**過高則充滿雜訊**（color noise、spectral broadening 假象），需逐病人最佳化。[^3][^4]
+- **wall filter 陷阱**：wall filter 過高會**濾掉低速血流訊號**，造成慢速/低阻血流被誤判為無血流（如評估睪丸/卵巢缺血、靜脈血流時尤須留意）。[^4]
+- **gate/sample volume 與 baseline**：gate size/position、baseline、frame rate、velocity range、angle correction 各自獨立影響 color 與 spectral 成分，須逐一逐病人調整，未妥善設定將產生假象、進而誤導治療。[^4]
+
 > [!note] 考點：何者「不」能提升都卜勒敏感度？
 > 「**增大 Doppler 角度**」——角度應**減小**（趨 0°，cosθ↑）才增強訊號，>60° 不可靠。其餘（增 gain、增 power、降 scale）皆可提升。[^1][^2]
 

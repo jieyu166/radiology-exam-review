@@ -23,11 +23,20 @@ nonImagingReason: "X光光子與組織作用機轉之物理，非影像判讀"
 - **瑞利散射（Rayleigh scattering）**：低能量之同調散射，光子改變方向但不失能量；在診斷範圍僅佔少數。[^1]
 - **成對發生（Pair production）**：需光子能量 **>1.022 MeV**，遠超診斷X光範圍，診斷影像中不發生。[^1]
 
+## 技術要點
+- **診斷能量範圍**：一般約 30–150 keV；於軟組織（低原子序）此範圍內主要作用機轉為**康普頓散射**，為考題核心答案。[^1]
+- **康普頓散射機轉**：光子與外層（弱束縛）電子作用，散射並轉移部分能量；為診斷影像散射線與病人劑量之主要來源。[^1]
+- **光電效應之對比貢獻**：於**低能量、高原子序**物質（骨、含碘對比劑）較顯著，因吸收差異大而提供影像對比；在診斷能量之軟組織中非主導。[^1]
+- **瑞利散射（同調散射）**：低能量之彈性散射，光子改變方向但不失能量、不游離；於診斷範圍僅佔少數，不轉移能量給組織。[^1]
+- **成對發生排除**：需光子能量 >1.022 MeV，遠超診斷 X 光範圍，故診斷影像中不發生，為干擾選項。[^1]
+- **臨床意涵**：康普頓散射主導使診斷影像對比主要來自光子數衰減差異；散射線降低對比、增加輻射劑量，故需濾線柵（grid）抑制散射。[^2]
+
 > [!note] 考點：診斷X光能量範圍內、X光光子與軟組織之主要作用方式？
 > **康普頓散射（Compton scattering）（B）**——診斷能量範圍軟組織之主要作用機轉。光電效應於低能/高原子序顯著、瑞利散射佔少數、成對發生需>1.022 MeV遠超診斷範圍。[^1]
 
 ### 參考來源
 [^1]: Bushberg JT et al. *The Essential Physics of Medical Imaging*, 3rd Ed., Lippincott Williams & Wilkins, 2011, p.38-39（2018 交換考題詳解 p.256 引用；Tier 2 教科書）。診斷X光能量範圍與軟組織作用主要為康普頓散射；光電效應於低能/高原子序顯著；瑞利散射佔少數；成對發生需>1.022 MeV。
+[^2]: **Tier 1** Bushberg JT. *The AAPM/RSNA physics tutorial for residents. X-ray interactions*. RadioGraphics 1998;18(2):457-68（據 PubMed，DOI [10.1148/radiographics.18.2.9536489](https://doi.org/10.1148/radiographics.18.2.9536489)；實際查證 accessed 2026-07-05）——四大 X 光交互作用（Rayleigh coherent scattering、Compton scattering、photoelectric absorption、pair production）；**於診斷能量範圍，photoelectric absorption 與 Compton scattering 為主要衰減機轉**，Rayleigh scattering 與 pair production 於診斷放射不具顯著程度；影像對比取決於控制 X 光衰減、同時降低病人劑量與散射。佐證本卡康普頓散射於軟組織主導、光電效應提供對比、瑞利/成對發生為干擾選項之物理基礎；原 Tier-2 教科書引用已由本 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 在放射診斷的X光能量範圍內，下列哪個效應是X光光子與軟組織間之主要作用(interaction)方式? (2018-345)

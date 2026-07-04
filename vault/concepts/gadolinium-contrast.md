@@ -43,6 +43,21 @@ same:
 - **NSF實際發生率遠低於1%**：含釓對比劑臨床安全性極高，於**eGFR<30 mL/min族群發生NSF之風險<1/10,000**——並非約1%這麼高，此為常考陷阱（誤把極低風險誇大為1%）。[^4]
 - **CMR顯影並非僅限含釓對比劑**：心臟核磁共振造影(CMR)臨床上並非「只有」使用含釓顯影劑，仍有其他造影技術（如non-contrast/native T1 mapping等）可用於評估心肌組織特性，惟含釓對比劑仍是評估延遲強化(LGE)之主要工具。[^4]
 
+## 技術要點
+- **作用機轉**：釓為順磁性金屬，**縮短鄰近質子 T1（亦縮短 T2）** → 組織於 **T1WI 訊號增強**；釓本身不被直接看見，而是改變周圍質子弛緩。[^1]
+- **結構穩定度階梯**：結合強度 **macrocyclic ionic ＞ macrocyclic non-ionic ＞ linear ionic ＞ linear non-ionic**；結合越強越不易去螯合、越安全，故 macrocyclic 之 NSF 與腦沉積風險最低。[^1][^4]
+- **腦沉積特徵**：多次注射後 T1WI 高訊號，依序 **齒狀核 ＞ 蒼白球 ＞ thalamus ＞ pons**；**linear ＞ macrocyclic**、**劑量依賴**、正常腎功能者亦可發生，**可穿過完整 BBB**（推測經 glymphatics，約 18–42% 進入間質）；目前臨床意義未明。[^1][^3]
+- **NSF 風險分層**：ACR **Group I（高風險，linear）**＝gadodiamide/gadopentetate/gadoversetamide，避免用於 eGFR<30；**Group II（低風險，macrocyclic）**＝gadoterate/gadobutrol/gadoteridol；NSF 實際發生率**遠低於 1%**（eGFR<30 者 <1/10,000），勿誤記為約 1%。[^2][^4]
+- **排泄與重複注射間隔**：多數 GBCA 經**腎絲球過濾**排泄（正常腎功能 ~98%/24h、半衰期 ~1.5–2h），**血液透析可移除**；eGFR<30 建議間隔至少 7 天，eGFR≥30 約 4 小時。[^1][^3]
+- **肝膽特異製劑**：**Gd-EOB-DTPA（Primovist）約 50% 經膽**、**Gd-BOPTA（MultiHance）約 3–5% 經膽**，提供肝膽期影像；EMA 2017 因腦沉積限制多數 linear IV 製劑，惟保留此類肝膽特異 linear 與關節腔內用 gadopentetate。[^2]
+
+## 臨床重點（5 句）
+- **NSF 是全身間質纖維化**：釓自不穩定製劑去螯合後於嚴重腎損（eGFR<30、急性腎衰竭、透析）病人沉積，引發皮膚硬結、肢體攣縮、多重器官纖維化，故 Group I linear 製劑於此族群應避免。[^2][^4]
+- **GDD 有別於無症狀沉積**：少數病人於注射後**2 個月內**出現症狀群（≥3 項）——glove-and-stocking 周邊神經痛、關節僵硬/肌痙攣、頭痛、思緒混沌、肢端皮膚增厚變色疼痛。[^3]
+- **急性過敏樣反應仍可能發生**：GBCA 亦可引起過敏樣反應（macrocyclic 過敏風險相對略高），須比照碘劑備妥急救；施打前評估過敏史。[^1]
+- **腎功能篩檢與間隔管理**：注射前依 eGFR 分層決定用藥與間隔，嚴重腎損慎選 Group II 並最小化劑量、必要時安排透析。[^3]
+- **孕婦與哺乳**：釓可穿過胎盤，孕期僅在明確效益大於風險時使用；哺乳一般不需中斷（進入乳汁與嬰兒吸收量極微）。[^2]
+
 > [!note] 常見考點
 > 釓劑目的＝**縮短 T1 增訊號**;**macrocyclic 較穩定、NSF/沉積風險低**;高風險＝linear（Omniscan/Magnevist/OptiMARK）;沉積於齒狀核/蒼白球（linear>macrocyclic）;肝膽製劑＝**Gd-EOB-DTPA(Primovist)、Gd-BOPTA(MultiHance)**。[^1][^2]
 
