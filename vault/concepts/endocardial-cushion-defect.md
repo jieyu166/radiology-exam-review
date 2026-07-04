@@ -49,6 +49,13 @@ dateRev: 2026-06-29
 - 確診不靠「缺損大小」或「ASD/VSD 位置高低」，而靠**房室瓣同高度、offset 消失**這個結構特徵 — 此為最穩定的影像 hallmark。[^2][^3]
 - goose-neck 是 LVOT **拉長**（非縮短）；考題若寫 short LVOT 為錯。[^3][^4]
 
+### STATdx 補充（各模態與臨床）
+- **CXR 最佳線索（STATdx）**：**大心臟 + 大主肺動脈 + 肺動脈血流增加**；serial 片評估肺高壓；嚴重二尖瓣逆流時左房大可致左下葉塌陷；肺高壓者肺過度充氣、橫膈外翻。[^5]
+- **unbalanced AVSD（STATdx）**：**共同瓣偏向一心室 → 一心室發育不全（右或左優勢，單心室生理）**；inlet/outlet septum 發育不全 + 室中隔錯位。[^5]
+- **最佳模態（STATdx）**：**嬰幼兒 echo 定病灶（primum 下段中隔 echo dropout + 二尖瓣裂）**；**MR 最準確算共同瓣複雜逆流、Qp:Qs（velocity-encoded cine）與心室發育不全**；3D CT/MR 用於術前複雜解剖。[^5]
+- **流行病學/關聯（STATdx）**：**先天心臟病 4-8/1000 活產、其中 5-8% 為 AVSD；唐氏症 44-48% 有 AVC defect**；唐氏症胸片可 11 肋 + 雙 manubrial 骨化中心(80%)；亦關聯 heterotaxy、TOF。[^5]
+- **治療（STATdx）**：**部分型經右房 pericardial patch 修補（不用經皮封堵器以免傷 AV 瓣）；完全型 2-5 歲擇期修補（死亡率 3%，有 MR 則提早）；unbalanced 單心室 → Glenn→Fontan 分期**；併發二尖瓣逆流/心律不整/heart block。[^5]
+
 > [!note] 考點：如何在 CT/MRI 確診 ECD?
 > **雙側房室瓣平行排列、位於同一水平（parallel arranged bilateral AV valves）**。large VSD、anterior ASD、short LVOT（實為拉長）、long RVOT 皆非診斷關鍵。[^2][^3]
 
@@ -57,6 +64,7 @@ dateRev: 2026-06-29
 [^2]: Radiopaedia（輔助）＋ StatPearls 交叉比對：ECD 本質為 common AV junction;diagnostic hallmark＝房室瓣 offset 消失、同一水平;DDx 與單純 primum ASD／inlet VSD 之區分;與 heterotaxy 關聯。
 [^3]: Radiology Key《Atrioventricular Septal Defects》（教科書章節摘錄, Tier 2）：CXR 心臟擴大＋肺血增多、右房與肺動脈擴大;echo pathognomonic signs（goose-neck、unwedged aorta、房室瓣 offset loss 同一水平、共同瓣、scooped inlet septum）;唐氏症關聯。https://radiologykey.com/atrioventricular-septal-defects/
 [^4]: 多排 CT 血管攝影 AVSD 影像（ESR/ECR 教學海報, Tier 2）＋ Thoracic Key/Radiology Key：Rastelli A/B/C 依前上橋葉騎跨分型可於短軸 CTA 判讀;LVOT 拉長前移、主動脈不再 wedged 於房室瓣環之間→ goose-neck deformity。https://thoracickey.com/atrioventricular-canal-defects-2/
+[^5]: **Tier 1** Richardson RR. *Atrioventricular Septal Defect*（Pediatrics, Cardiac, Congenital Heart Disease, Dx）. STATdx, Elsevier, updated 10/20/21（20 refs；實際查證 accessed 2026-07-04）——**AVSD/AVC/endocardial cushion defect＝房中隔+室中隔+單/雙 AV 瓣受累之譜系**；complete（房室中隔缺損 + 共同 AV 瓣）、partial（primum ASD + 分開瓣口 + 二尖瓣裂）、unbalanced（一心室發育不全）；**CXR 大心臟+大主肺動脈+肺血增加、肺高壓者肺過度充氣橫膈外翻**；**anterior/superior aorta + LVOT 拉長變窄 + dysplastic 5 葉共同瓣 → gooseneck deformity**；**echo 定病灶（primum echo dropout + 二尖瓣裂）、MR 算共同瓣逆流/Qp:Qs/心室發育不全最佳**；**唐氏症 44-48% 有 AVC、佔先心 5-8%（先心 4-8/1000）、關聯 heterotaxy/TOF**；治療（部分型 pericardial patch 經右房、完全型 2-5 歲修補死亡率 3%、unbalanced Glenn→Fontan、併發 MR/心律不整/heart block）；DDx（VSD、ASD、PDA）。原「StatPearls/Radiopaedia/教學海報」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 考題
 ```dataview
