@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Superior orbital fissure (SOF) 通過的神經血管結構包括 CN III、CN IV、CN V1（三叉神經眼支）、CN VI、superior ophthalmic vein。Vidian nerve 不經過 SOF（經由 vidian canal 通 pterygopalatine fossa）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.rcl.2026.03.007",
+      "url": "https://doi.org/10.1016/j.rcl.2026.03.007"
+    }
+  ],
+  "imagingFindings": "- **定位與毗鄰（CT/MRI）**：SOF 位於眶尖，介於蝶骨大翼與小翼之間，是眶與**海綿竇／顱中窩**的主要交通孔道；判讀眶尖病灶須同時追蹤其向後延伸至海綿竇的可能。\n- **annulus of Zinn 分區（讀片關鍵）**：外眼肌起源於 Zinn 總腱環，SOF 被此環分為**環內（intraconal，經 oculomotor foramen）**通過 CN III、CN VI、CN V1 之 nasociliary 支；**環外**通過 CN IV（trochlear）、V1 之 frontal/lacrimal 支與 superior ophthalmic vein——此分區決定眶尖症候群的受累型態。\n- **與 optic canal 區分（pitfall）**：optic canal（含 CN II 與眼動脈）位於 SOF 內上、由小翼二根界定，與 SOF 為**不同孔道**；眶尖病灶影響視力（CN II）或眼球運動（III/IV/VI）取決於侵犯 optic canal 或 SOF，讀片須分別評估。\n- **不經 SOF 的鑑別（DDx／pitfall）**：V2 走 foramen rotundum、V3 走 foramen ovale、vidian nerve 走 vidian canal 通往 pterygopalatine fossa——追蹤顱底神經周擴散（perineural spread）時須循正確孔道，勿把 V2/V3 病灶誤歸 SOF。\n- **臨床-影像關聯**：SOF 與眶尖之腫瘤（如海綿狀血管瘤/CSH）、發炎（Tolosa-Hunt）、外傷（SOF 症候群）皆可致多條顱神經同時受累，MRI 增強有助界定病灶範圍與是否經 SOF 侵入海綿竇。",
   "keyPoints": [
     "SOF 內容物：oculomotor (III)、trochlear (IV)、V1 (lacrimal/frontal/nasociliary)、abducens (VI)、superior ophthalmic vein",
     "**不經過 SOF**：vidian nerve（走 vidian canal）、V2（走 foramen rotundum）、V3（走 foramen ovale）"

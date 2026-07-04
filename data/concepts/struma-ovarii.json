@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Struma ovarii不是「全部良性」——絕大多數是良性沒錯，但仍有小比例（約5-10%）為惡性，最常見的惡性型態是papillary thyroid carcinoma，這正是本題「all are benign」為錯誤敘述的關鍵。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00261-011-9817-7",
+      "url": "https://doi.org/10.1007/s00261-011-9817-7"
+    }
+  ],
+  "imagingFindings": "- **典型型態（超音波/CT/MRI）**：**多房囊實性（multilobulated multicystic）** 卵巢腫塊伴實質成分（多為增厚間隔/囊壁，少數呈腫塊），邊緣可平滑或分葉。\n- **CT 特徵**：實質成分內見**高衰減區**（對應濃稠甲狀腺膠質）與**曲線狀鈣化（curvilinear calcification）**；實質成分與囊壁常有中度顯影增強。\n- **MRI 特徵（判讀要點）**：部分囊腔於 **T2 呈顯著低訊號**（濃稠膠質/含鐵），T1 於實質旁見**點狀高訊號**；此 T2 低訊號囊腔與 CT 高衰減區相對應，為特徵性影像關聯。\n- **DDx**：黏液性囊腺瘤/癌、其他單皮層畸胎瘤（類癌）、囊腺纖維瘤——struma ovarii 之 T2 極低訊號囊腔與 CT 高密度為鑑別線索；I-131/FDG 混合影像可協助辨識惡性 struma ovarii。\n- **Pitfall**：實質成分與高密度囊腔勿誤判為出血或惡性；成熟畸胎瘤內若見上述甲狀腺樣高密度/鈣化實質，應考慮 struma ovarii。",
   "keyPoints": [
     "**本質**：畸胎瘤（teratoma）的一種，腫瘤內以**甲狀腺組織為主要或唯一成分**。",
     "**臨床關聯**：可合併**甲狀腺機能亢進（hyperthyroidism）或類癌症候群（carcinoid syndrome）**。",
@@ -11,7 +16,7 @@
     "**臨床表現**：**多數病人無症狀（asymptomatic）**。",
     "**影像表現**：典型呈**邊緣平滑之多囊性腫塊**，於未打顯影劑CT上呈**高密度病灶**，囊壁無或中度顯影增強。"
   ],
-  "management": "",
+  "management": "- Struma ovarii 為卵巢成熟畸胎瘤之一種，需**甲狀腺組織占腫瘤 >50%** 或為唯一/主要成分。\n- **絕大多數為良性**，約 **5–10%** 為惡性（最常見 papillary thyroid carcinoma），故「all are benign」錯誤。\n- 多數病人**無症狀**；少數可合併甲狀腺機能亢進或類癌症候群。\n- 惡性 struma ovarii 之診療缺乏標準化，混合式核醫影像（FDG PET/CT 與 I-131 SPECT/CT）有助初步診斷與追蹤。\n- 好發於 45 歲以下女性（畸胎瘤族群），多為其他檢查偶然發現。",
   "name": "Struma Ovarii",
   "nameZh": "卵巢甲狀腺腫",
   "slug": "struma-ovarii",

@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**快速進展性失智（RPD）病因廣泛，包括 prion disease（CJD）、感染（HIV dementia）、自體免疫/發炎（Hashimoto encephalopathy）、代謝、腫瘤旁等。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1111/neup.12355",
+      "url": "https://doi.org/10.1111/neup.12355"
+    }
+  ],
+  "imagingFindings": "- **CJD 首選序列＝DWI**：散射權重影像（DWI）對 CJD 敏感度與特異度最高，典型表現為皮質帶狀高訊號（cortical ribboning）及/或基底核（尾核、殼核）對稱高訊號；DWI 異常常早於 FLAIR 出現且較明顯。\n- **DWI 訊號強度反映病理**：含大融合空泡（type 2 PrP）之皮質病灶在 DWI 上比含細小空泡（type 1 PrP）者更亮、更連續，可解釋不同 CJD 亞型的影像差異。\n- **DDx 判讀對照**：自體免疫腦炎（anti-NMDAR、邊緣系統腦炎）多見顳葉內側 FLAIR 高訊號；PML 見不強化、不佔位的白質病灶；HIV 相關失智見對稱白質瀰漫性病變；Hashimoto 腦病 MRI 常正常或非特異。以分布（皮質帶 vs 邊緣系統 vs 白質）與 DWI 受累與否鑑別。\n- **判讀陷阱**：CJD 之 DWI 高訊號可不合併對應 ADC 明顯下降，且早期可僅局部受累、易被誤判為缺血；需結合臨床（快速進展、肌陣攣、akinetic mutism）、EEG 週期性尖波與 CSF（14-3-3、RT-QuIC）綜合判斷，勿單憑一張 DWI 定論。",
   "keyPoints": [
     "**Prion disease**：CJD 最典型 RPD，cortical ribboning on DWI",
     "**Infectious**：HIV-associated dementia、PML",
     "**Autoimmune/inflammatory**：Hashimoto encephalopathy、autoimmune encephalitis (anti-NMDAR)、neurosarcoidosis",
     "**其他**：paraneoplastic、toxic-metabolic、vascular"
   ],
-  "management": "",
+  "management": "- RPD 通常指數週至數月（一般 <1–2 年）內快速進展的認知功能退化，病因涵蓋 prion、感染、自體免疫/發炎、代謝、腫瘤旁與血管等，其中不少為可治療病因，須積極鑑別。\n- CJD 臨床以快速進展認知障礙合併肌陣攣、錐體/錐體外症狀及末期無動性緘默（akinetic mutism）為特徵。\n- 典型 CJD（如 MM1 型）臨床診斷相對容易，非典型病例仍可藉臨床與神經影像特徵準確診斷。\n- 對疑似 RPD 病患應同步排查自體免疫與腫瘤旁抗體、感染（含 HIV）與代謝因素，因這些屬潛在可逆病因。\n- 影像、EEG、CSF 生物標記（14-3-3、RT-QuIC）與臨床病程需整合判讀，任一單項均不足以確診 CJD。",
   "name": "Rapidly Progressive Dementia",
   "nameZh": "快速進展性失智",
   "slug": "rapidly-progressive-dementia",

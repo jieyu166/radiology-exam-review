@@ -30,14 +30,14 @@
       "url": "http://www.stroke.org.tw/guideline/"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **急診第一線 = NECT**：主要目的為**排除出血**並辨識早期缺血徵象（灰白質界線消失、島帶徵、緻密血管徵、早期低密度）;多數情況 NECT 即足以決定緊急處置（Class I）。\n- **ASPECTS 為決策關鍵評分**：於 NECT 依 10 分制評估中大腦動脈供血區早期缺血範圍，是取栓病人選擇與大梗塞核心（large core）判定的核心工具（見 [[aspects-score]]）;報告應主動給分。\n- **血管評估（CTA/MRA）**：若考慮取栓，**強烈建議非侵入性顱內血管攝影定位大血管阻塞（LVO）**，但**不得為此延遲 IV 溶栓**;CTA 亦可評估側枝循環（collateral score）。\n- **延長窗（6–24h）用 perfusion／mismatch 選病人**：2018 起 DAWN（臨床–梗塞 mismatch）、DEFUSE-3（perfusion–core mismatch）翻轉 perfusion 地位;現行對 6–24h／醒睡型以 **CTP/MRP 或 CTA collateral／DWI infarct core** 選病人（Class I）——作答前務必確認題目所依指引版本（2015 vs 2018/2019）。\n- **技術終點**：取栓成功以 **reperfusion 達 mTICI 2b/3** 為目標（Class I）;此終點跨版本不變。",
   "keyPoints": [
     "**符合條件者應給 IV r-tPA，即使同時考慮血管內治療**（Class I, LOE A）→ **不可為避免延遲而跳過 tPA**。",
     "**不需先觀察 tPA 反應**再進行血管內治療（觀察反應「非必要、不建議」，Class III, LOE B-R）。",
     "**Stent retriever 取栓優先於 intra-arterial fibrinolysis**（IA fibrinolysis 屬次線）。",
     "**技術目標：reperfusion 達 mTICI 2b/3**（Class I, LOE A），且應**儘早、發病 6 小時內**（6 小時後臨床效益顯著下降）。"
   ],
-  "management": "",
+  "management": "- 符合條件者應給 IV 溶栓，**即使同時計畫取栓也不可為搶時間跳過**（Class I）。\n- **不需先觀察 tPA 反應**再進行血管內治療（觀察等待 Class III 不建議）。\n- 取栓時間窗自 2015 的「6 小時內」延長至 **24 小時**（DAWN/DEFUSE-3 等，影像選擇）。\n- Stent retriever 取栓**優先於**動脈內纖溶（IA fibrinolysis）。\n- 現行 IV 溶栓藥物中，**tenecteplase 已成 alteplase 的替代選項**。\n\n> [!note] 兩題的「錯誤」選項\n> 治療題：**「考慮血管內治療就跳過 IV r-tPA」錯**（應照給）。影像題：**「perfusion 已證實優於 CTA/MRA 選病人」錯**（效益未確立、Class IIb）。",
   "name": "Acute Ischemic Stroke — 2015 AHA/ASA Endovascular Update",
   "nameZh": "急性缺血中風血管內治療",
   "slug": "acute-stroke-management",

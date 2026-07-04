@@ -28,12 +28,27 @@ same:
 - **影像進展 marker**：**牽引性支氣管擴張增加**（早期、與預後相關）優於 honeycombing（太晚）;新 GGO 快速變化要想 AE/感染/水腫/藥物。[^2]
 - **與舊定義（INBUILD 試驗）對照**：早期文獻用「2 年內 FVC 下降 ≥10%」等較嚴;2022 PPF 放寬為 1 年、≥2/3 項。[^1]
 
+## 放射科醫師影像判讀重點
+- **判讀主軸 = 序列 HRCT 對比**：PPF 的「影像進展」需以**同一病人不同時間點的 HRCT 比對**認定，非單張判讀;報告應明列與前次的可比較切面與變化方向。[^3]
+- **纖維化擴大的可靠 marker（依序）**：**牽引性支氣管／細支氣管擴張的範圍或管徑增加**最早且與預後相關;其次為新增或擴大的**網狀陰影（reticulation）**與**蜂窩化（honeycombing）**;honeycombing 出現太晚，不宜當早期進展指標。[^3]
+- **鑑別「慢性進展」vs「急性惡化」**：新出現、快速變化的**磨玻璃陰影（GGO）／實變**要先想**急性惡化（AE）、感染、心衰竭肺水腫、藥物性肺毒性**，不可逕自歸為 PPF 慢性纖維化進展——處置方向完全不同。[^3]
+- **型態辨識影響治療**：先辨識底層型態（UIP-like 牽引擴張＋蜂窩 vs 非 UIP 的 GGO 為主），再判定是否符合 PPF;抗纖維化藥（nintedanib）用於「初始治療後仍進展」者。[^3]
+- **AI/定量 HRCT 尚待驗證**：自動化 HRCT 定量為未來工具，目前尚未取代放射科醫師逐次目視比對。[^3]
+
+## 臨床重點（5 句）
+- PPF 是「跨原診斷」的功能性表型標籤:不更改原 ILD 診斷，只增加治療與監測決策。[^1]
+- 生理判定門檻:過去一年內 **FVC 絕對下降 ≥5% predicted** 或 **DLCO（校正後）絕對下降 ≥10% predicted**。[^1]
+- 三項（症狀惡化／生理惡化／影像惡化）中符合 **≥2 項且無其他解釋**即成立 PPF。[^1]
+- 一旦初始治療仍無法阻止進展，**應早期加上抗纖維化治療（nintedanib）**。[^3]
+- PPF 須與藥物性肺毒性、急性惡化等**急性惡化事件區分**，兩者處置與預後不同。[^3]
+
 > [!note] 考點
 > **約 1/3 非 IPF ILD 會進展（PF-ILD）**;**2022 PPF＝1 年內 ≥2/3（症狀／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）**;進展看牽引性支氣管擴張優於 honeycombing。[^1][^2]
 
 ### 參考來源
 [^1]: Raghu G et al. *Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis (PPF) — ATS/ERS/JRS/ALAT Clinical Practice Guideline*. Am J Respir Crit Care Med 2022;205(9):e18-e47：PPF＝非 IPF 纖維化 ILD,過去一年 ≥2/3（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）;非 IPF ILD 約 1/3 進展。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: 纖維化進展影像 marker（牽引性支氣管擴張變化早於 honeycombing、與 mortality 相關）：ILD 進展評估文獻（與 [[ipf]] UIP criteria 配合判讀）。
+[^3]: **Tier 1** Rajan SK, Cottin V, Dhar R, ... Kolb M, Wells AU. *Progressive pulmonary fibrosis: an expert group consensus statement*. Eur Respir J 2023;61(3):2103187（據 PubMed，DOI [10.1183/13993003.03187-2021](https://doi.org/10.1183/13993003.03187-2021)；實際查證 accessed 2026-07-04）——ERJ 專家共識:標準化 F-ILD／PPF 定義;PPF 影像進展需序列 HRCT 比對，牽引性支氣管擴張增加為可靠 marker;PPF 須與藥物性肺毒性、急性惡化區分;初始治療失敗後早期用抗纖維化藥（nintedanib）。原「演講筆記」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

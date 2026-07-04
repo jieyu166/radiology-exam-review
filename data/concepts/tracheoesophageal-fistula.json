@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**氣管食道瘔管（TEF）依 Gross 分類，最常見為 Type C（食道閉鎖＋遠端瘔管），約占 85-86%。** 記憶口訣：Type C = most Common。X 光可見上端食道閉鎖（proximal pouch），遠端腸氣存在（因遠端瘔管通氣）。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.jpedsurg.2013.06.010",
+      "url": "https://doi.org/10.1016/j.jpedsurg.2013.06.010"
+    }
+  ],
+  "imagingFindings": "- **鼻胃管盤捲徵（coiled NG tube）**：食道閉鎖時嘗試置入的鼻胃/口胃管在上段盲袋（proximal pouch，約 T2–T4 高度）盤捲折返，胸腹 X光即可確診閉鎖，是第一線關鍵徵象。\n- **腹部腸氣判讀分流**：有遠端腸氣代表存在遠端氣管食道瘔管（Type C/D）；完全無腸氣（gasless abdomen）提示純食道閉鎖（Type A）或近端瘔管型（Type B），此腹部氣體有無是分型的核心影像依據。\n- **H 型（Type E）較晚診斷**：無食道閉鎖、僅有瘔管者無盲袋徵象，常因反覆吸入性肺炎/嗆咳才被發現，需俯臥牽引食道攝影（pull-back tube esophagogram）或支氣管鏡確認瘔管。\n- **合併畸形與 pouch gap 評估**：判讀時須搜尋 VACTERL 相關異常（椎體、心臟、腎、肢體）；術前 CT 可評估上下段間距（inter-pouch gap）與瘔管起源，但有輻射與偵測率限制，非常規標準檢查。\n- **判讀陷阱**：術前 CT 對瘔管的偵測並非百分之百（部分病例 CT 無法辨識瘔管），且間距量測與術中可能有落差，判讀不可過度依賴單一 CT 結論。",
   "keyPoints": [
     "**Type A**（~8%）：純食道閉鎖（EA），無瘔管。X 光無遠端腸氣。",
     "**Type B**（~1%）：食道閉鎖＋近端瘔管。罕見。",
@@ -12,7 +17,7 @@
     "**Type E/H-type**（~4%）：無食道閉鎖，僅瘔管（H 型）。較晚診斷。",
     "**VACTERL association**：vertebral, anorectal, cardiac, tracheoesophageal, renal, limb。"
   ],
-  "management": "",
+  "management": "- 食道閉鎖合併/不合併瘔管是新生兒常見且具挑戰的先天畸形，伴隨顯著併發症與死亡率。\n- 上下段間距（inter-pouch gap）與瘔管起源等解剖因子影響手術難度，但多數傳統 Gross 預後分類並未納入。\n- 術前 CT 雖可描繪上述解剖因子，但因輻射風險與偵測限制，安全性疑慮大於效益，不建議作為常規標準處置。\n- 多數術前 CT 所見可於手術中經細緻操作處理，其對改變手術計畫的實益有限。\n- 臨床上應同步評估 VACTERL 相關異常，因其影響整體處置與預後。",
   "name": "Tracheoesophageal Fistula (TEF) — Gross Classification",
   "nameZh": "氣管食道瘔管",
   "slug": "tracheoesophageal-fistula",

@@ -16,8 +16,16 @@ dateRev: 2026-07-02
 - SOF 內容物：oculomotor (III)、trochlear (IV)、V1 (lacrimal/frontal/nasociliary)、abducens (VI)、superior ophthalmic vein [^1]
 - **不經過 SOF**：vidian nerve（走 vidian canal）、V2（走 foramen rotundum）、V3（走 foramen ovale） [^1]
 
+## 放射科醫師影像判讀重點
+- **定位與毗鄰（CT/MRI）**：SOF 位於眶尖，介於蝶骨大翼與小翼之間，是眶與**海綿竇／顱中窩**的主要交通孔道；判讀眶尖病灶須同時追蹤其向後延伸至海綿竇的可能。[^2]
+- **annulus of Zinn 分區（讀片關鍵）**：外眼肌起源於 Zinn 總腱環，SOF 被此環分為**環內（intraconal，經 oculomotor foramen）**通過 CN III、CN VI、CN V1 之 nasociliary 支；**環外**通過 CN IV（trochlear）、V1 之 frontal/lacrimal 支與 superior ophthalmic vein——此分區決定眶尖症候群的受累型態。[^2]
+- **與 optic canal 區分（pitfall）**：optic canal（含 CN II 與眼動脈）位於 SOF 內上、由小翼二根界定，與 SOF 為**不同孔道**；眶尖病灶影響視力（CN II）或眼球運動（III/IV/VI）取決於侵犯 optic canal 或 SOF，讀片須分別評估。[^2]
+- **不經 SOF 的鑑別（DDx／pitfall）**：V2 走 foramen rotundum、V3 走 foramen ovale、vidian nerve 走 vidian canal 通往 pterygopalatine fossa——追蹤顱底神經周擴散（perineural spread）時須循正確孔道，勿把 V2/V3 病灶誤歸 SOF。[^1]
+- **臨床-影像關聯**：SOF 與眶尖之腫瘤（如海綿狀血管瘤/CSH）、發炎（Tolosa-Hunt）、外傷（SOF 症候群）皆可致多條顱神經同時受累，MRI 增強有助界定病灶範圍與是否經 SOF 侵入海綿竇。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解。
+[^2]: **Tier 1** Cunnane ME. *Orbital Anatomy*. Radiol Clin North Am 2026;64(4):641-648（據 PubMed，DOI [10.1016/j.rcl.2026.03.007](https://doi.org/10.1016/j.rcl.2026.03.007)；實際查證 accessed 2026-07-04）——骨性眶經 SOF、inferior orbital fissure 與 optic canal 與海綿竇及顱內交通；外眼肌起源於 Zinn 總腱環，SOF 由此環分為環內／環外區，決定通過之神經血管結構；optic canal 為獨立孔道含視神經與眼動脈。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 > [!question]- 相關考題

@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**肺泡微石症(PAM)的分布是『雙側、中下肺野為主(middle-lower zone predominance)』——不是apical(上肺)predominance；apical predominance是轉移性肺鈣化(metastatic pulmonary calcification)的特徵。PAM其他特徵：好發20-50歲、X光呈瀰漫細砂樣緻密肺(sandstorm)、沿肋膜有黑胸膜線(black pleural line)。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1183/16000617.0024-2020",
+      "url": "https://doi.org/10.1183/16000617.0024-2020"
+    }
+  ],
+  "imagingFindings": "- **胸部X光（sandstorm lung）**：雙側瀰漫、極細（<1 mm）鈣化微石，以**中下肺野及心緣旁**最密集，重疊可致「沙暴樣」緻密影，甚至遮蔽心影與橫膈輪廓。\n- **Black pleural line**：胸片上肋骨與緻密肺實質間之透亮線，係胸膜下脂肪或含氣小葉，為特徵性（但非病理特異）徵象。\n- **HRCT（判讀首選）**：瀰漫微結節鈣化沿**小葉間隔、支氣管血管束及胸膜下**分布；**胸膜下囊腫/黑胸膜線** 對應之胸膜下含氣間隙；晚期見纖維化與蜂窩化。\n- **分布對比（DDx 關鍵）**：PAM＝**雙側中下肺野為主**；**轉移性肺鈣化（metastatic pulmonary calcification）＝上肺為主（apical predominance）**，且多見於慢性腎病/高鈣血症——此為本題陷阱點。\n- **Pitfall**：X光「緻密到看不清細節」時，HRCT 可顯示個別鈣化微石與胸膜下囊腫，避免誤判為肺水腫、塵肺或粟粒性結核。",
   "keyPoints": [
     "**年齡**：好發**20-50歲**（家族性、SLC34A2基因）。",
     "**X光**：瀰漫細小鈣化微石致**緻密沙暴樣肺(sandstorm/dense lung)**。",
     "**分布（本題重點）**：**雙側、中下肺野為主(middle to lower zone predilection)**——非**apical(上肺)predominance**（apical為metastatic pulmonary calcification特徵）。",
     "**Black pleural line（黑胸膜線）**：微石與胸膜間之低密度線，為特徵性徵象。"
   ],
-  "management": "",
+  "management": "- PAM 為體染色體隱性遺傳，肇因於 **SLC34A2 基因**缺陷致鈉-磷共轉運蛋白 **NPT2b** 功能喪失，磷酸鈣（hydroxyapatite）沉積於肺泡腔。\n- 多數病人為**無症狀時偶然發現**，病程以數十年緩慢進展之呼吸功能不全為特徵。\n- 典型影像表現與臨床症狀常呈**顯著不對稱**（影像重、症狀輕）。\n- 目前**無已證實有效之藥物治療**，處置以支持性（氧氣治療）為主，末期可考慮肺移植。\n- 動物模型與基因研究正推動潛在治療策略之臨床試驗發展。",
   "name": "Pulmonary Alveolar Microlithiasis (PAM)",
   "nameZh": "肺泡微石症",
   "slug": "pulmonary-alveolar-microlithiasis",

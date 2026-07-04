@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**硬化性骨發育不良三兄弟（osteopoikilosis斑點、osteopathia striata條紋、melorheostosis蠟燭油流）都是良性、可混合出現。鑑別重點：osteopathia striata＝『線狀髓質硬化，但不侵犯鄰近軟組織』；只有melorheostosis才沿皮質及『鄰近軟組織』形成骨。本題陷阱是把軟組織侵犯錯掛在osteopathia striata上。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.317115093",
+      "url": "https://doi.org/10.1148/rg.317115093"
+    }
+  ],
+  "imagingFindings": "- **Osteopoikilosis（X光/CT）**：**兩側對稱、髓質內多發（數毫米）圓/卵形硬化灶**，聚集於骨骺、干骺端與骨盆、腕/踝骨；**放射性核素骨掃描通常不濃聚**（有別於成骨性轉移），為關鍵鑑別點。\n- **Osteopathia striata**：**縱行、線狀髓質硬化條紋（celery-stalk）**，沿長骨長軸自干骺端延伸；侷限於骨內、**不累及鄰近軟組織**；可合併顱骨硬化（osteopathia striata with cranial sclerosis）。\n- **Melorheostosis**：沿單一肢體、皮質分布之**「流蠟樣（flowing candle wax）」緻密骨**，常沿硬節分布（sclerotomal），**可延伸至鄰近軟組織（軟組織骨化/纖維化/血管異常）**——此為與 osteopathia striata 之分水嶺。\n- **DDx（勿誤為惡性/其他）**：成骨性轉移與 Paget 病（核醫掃描濃聚、可有骨膨大/皮質增厚）、Erdheim-Chester（下肢長骨對稱皮質硬化）、骨髓纖維化——與良性硬化性發育不良之分布與核醫表現不同。\n- **Pitfall**：三型可**混合出現**（mixed sclerosing bone dystrophy）；osteopoikilosis 之多發硬化灶勿誤判為瀰漫性成骨性轉移——核醫不濃聚、病灶穩定、對稱分布可資鑑別。",
   "keyPoints": [
     "**Osteopoikilosis（斑點狀骨病）**：**髓質腔內多發小圓形硬化灶（numerous small foci of sclerotic bone）**，好發骨骺/干骺端、對稱分布。",
     "**Osteopathia striata（條紋狀骨病，本題重點）**：**線狀（縱行）髓質硬化條紋（celery stalk外觀，好發長骨干骺端/骨骺）**；**『不』侵犯鄰近軟組織**——故「osteopathia striata呈線狀髓質硬化『及鄰近軟組織』」為**錯誤**（軟組織受累是melorheostosis特徵）。",
     "**Melorheostosis（蠟油骨病）**：沿骨皮質流蠟樣（flowing candle wax）緻密骨形成，**可延伸至鄰近軟組織（骨化、纖維化、血管異常）**。",
     "**可混合出現**：上述三型硬化性骨發育不良可**併存呈混合型態（mixed patterns，如osteopathia striata with cranial sclerosis / mixed sclerosing bone dystrophy）**。"
   ],
-  "management": "",
+  "management": "- 遺傳性硬化性骨發育不良源於**成骨/破骨細胞調控路徑異常**致骨質異常堆積，多為體染色體顯性。\n- Osteopoikilosis 與 osteopathia striata **多數無症狀**，常為偶然發現，一般不需治療。\n- Osteopoikilosis 可合併皮膚結締組織痣（**Buschke-Ollendorff 症候群**，LEMD3 基因）。\n- Melorheostosis 常伴**疼痛、關節攣縮與肢體功能障礙**，臨床病程較其他兩型明顯。\n- 認識其遺傳、臨床與影像特徵有助與後天性骨硬化（轉移、Paget）鑑別，避免不必要之切片與追蹤。",
   "name": "Sclerosing Bone Dysplasias (Osteopoikilosis, Osteopathia Striata, Melorheostosis)",
   "nameZh": "硬化性骨發育不良",
   "slug": "sclerosing-bone-dysplasias",

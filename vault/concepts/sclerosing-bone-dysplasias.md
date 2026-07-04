@@ -24,8 +24,23 @@ dateRev: 2026-07-02
 > [!note] 考點：關於sclerosing bone dysplasias何者「錯誤」？
 > **Osteopathia striata shows linear pattern of medullary sclerosis and adjacent soft tissues（B）**——osteopathia striata僅呈線狀髓質硬化條紋，**不侵犯鄰近軟組織**（軟組織受累為melorheostosis特徵）。osteopoikilosis髓質多發小硬化灶(A對)、melorheostosis沿皮質及鄰近軟組織骨形成(C對)、三型可混合出現(D對)皆為正確描述。[^1]
 
+## 放射科醫師影像判讀重點
+- **Osteopoikilosis（X光/CT）**：**兩側對稱、髓質內多發（數毫米）圓/卵形硬化灶**，聚集於骨骺、干骺端與骨盆、腕/踝骨；**放射性核素骨掃描通常不濃聚**（有別於成骨性轉移），為關鍵鑑別點。[^2]
+- **Osteopathia striata**：**縱行、線狀髓質硬化條紋（celery-stalk）**，沿長骨長軸自干骺端延伸；侷限於骨內、**不累及鄰近軟組織**；可合併顱骨硬化（osteopathia striata with cranial sclerosis）。[^2]
+- **Melorheostosis**：沿單一肢體、皮質分布之**「流蠟樣（flowing candle wax）」緻密骨**，常沿硬節分布（sclerotomal），**可延伸至鄰近軟組織（軟組織骨化/纖維化/血管異常）**——此為與 osteopathia striata 之分水嶺。[^2]
+- **DDx（勿誤為惡性/其他）**：成骨性轉移與 Paget 病（核醫掃描濃聚、可有骨膨大/皮質增厚）、Erdheim-Chester（下肢長骨對稱皮質硬化）、骨髓纖維化——與良性硬化性發育不良之分布與核醫表現不同。[^2]
+- **Pitfall**：三型可**混合出現**（mixed sclerosing bone dystrophy）；osteopoikilosis 之多發硬化灶勿誤判為瀰漫性成骨性轉移——核醫不濃聚、病灶穩定、對稱分布可資鑑別。[^2]
+
+## 臨床重點（5 句）
+- 遺傳性硬化性骨發育不良源於**成骨/破骨細胞調控路徑異常**致骨質異常堆積，多為體染色體顯性。[^2]
+- Osteopoikilosis 與 osteopathia striata **多數無症狀**，常為偶然發現，一般不需治療。[^2]
+- Osteopoikilosis 可合併皮膚結締組織痣（**Buschke-Ollendorff 症候群**，LEMD3 基因）。[^2]
+- Melorheostosis 常伴**疼痛、關節攣縮與肢體功能障礙**，臨床病程較其他兩型明顯。[^2]
+- 認識其遺傳、臨床與影像特徵有助與後天性骨硬化（轉移、Paget）鑑別，避免不必要之切片與追蹤。[^2]
+
 ### 參考來源
 [^1]: *Problem Solving in Musculoskeletal Imaging*, CH6, p.267-268（2018 交換考題詳解 p.320 引用；Tier 2 教科書）。osteopoikilosis＝髓質腔多發小圓形硬化灶；osteopathia striata＝線狀髓質硬化條紋(celery stalk，不侵犯軟組織)；melorheostosis＝沿皮質流蠟樣骨形成可延伸至鄰近軟組織；三型可混合出現。
+[^2]: **Tier 1** Ihde LL, Forrester DM, Gottsegen CJ, et al. *Sclerosing bone dysplasias: review and differentiation from other causes of osteosclerosis*. RadioGraphics 2011;31(7):1865-1882（據 PubMed，DOI [10.1148/rg.317115093](https://doi.org/10.1148/rg.317115093)；實際查證 accessed 2026-07-04）——RadioGraphics 教育回顧：osteopoikilosis＝對稱髓質多發小硬化灶（核醫不濃聚）；osteopathia striata＝縱行線狀硬化條紋（不累及軟組織）；melorheostosis＝流蠟樣皮質緻密骨、可延伸至鄰近軟組織；三型可混合並須與成骨性轉移、Paget 病、Erdheim-Chester 等後天性骨硬化鑑別。原「Problem Solving in MSK Imaging 教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 下列關於Sclerosing Bone Dysplasias何者錯誤? (2018-408)

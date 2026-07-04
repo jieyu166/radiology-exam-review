@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**急性間質性肺炎（AIP）**為快速進展的特發性間質性肺炎，CT 表現依病程分三期。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.273065130",
+      "url": "https://doi.org/10.1148/rg.273065130"
+    }
+  ],
+  "imagingFindings": "- **HRCT（首選）**：AIP 為 IIP 中對應 diffuse alveolar damage（DAD）之影像對應，急性期見雙側瀰漫性毛玻璃樣（GGO）與氣腔實變，實變多局限於依賴側肺區、範圍常小於 GGO。\n- **分期判讀**：滲出期以 GGO／實變為主；組織化期出現牽引性支氣管擴張與建築扭曲（architectural distortion），下肺對稱分布；纖維化期見牽引性支氣管擴張與蜂窩肺。\n- **鑑別（DDx）**：AIP 與 ARDS 影像高度重疊，須排除感染、藥物、休克等已知病因後方稱 AIP（＝特發性）；亦需與 acute exacerbation of UIP、瀰漫性肺泡出血鑑別。\n- **判讀陷阱（pitfall）**：architectural distortion 屬組織化期而非滲出期；若滲出期即見顯著結構扭曲，應重新審視病程與病因。",
   "keyPoints": [
     "**急性滲出期（exudative phase）**：ground-glass opacities、氣腔實變，雙側對稱分布。實變通常較 GGO 範圍小且局限於依賴側肺區",
     "**組織化期（organizing phase）**：支氣管擴張、建築扭曲（architectural distortion），下肺為主對稱分布",
     "**最終纖維化期（fibrotic phase）**：牽引性支氣管擴張、蜂窩肺"
   ],
-  "management": "",
+  "management": "- AIP（Hamman‑Rich 症候群）為快速進展之特發性間質性肺炎，臨床呈急性呼吸衰竭。\n- 診斷為排除性——須排除感染、藥物、結締組織病與 ARDS 之已知誘因後方成立。\n- 病理對應為瀰漫性肺泡損傷（DAD），與 ARDS 相同但屬特發性。\n- 死亡率高，存活者常進入纖維化期並可能遺留肺功能損害。\n- 治療以支持性照護為主，類固醇療效證據有限。",
   "name": "Acute Interstitial Pneumonia (AIP)",
   "nameZh": "急性間質性肺炎",
   "slug": "acute-interstitial-pneumonia",

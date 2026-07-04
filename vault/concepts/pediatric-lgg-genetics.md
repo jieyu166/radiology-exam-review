@@ -18,8 +18,23 @@ dateRev: 2026-07-02
 - 最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等） [^1]
 - 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]
 
+## 放射科醫師影像判讀重點
+- **形態學分層思維**：兒童低度神經上皮腫瘤（PLGNT）應以「腫瘤形態＋部位＋組織學＋基因型」整合判讀；同一基因改變在不同部位／形態下影像表現不同，判讀先看邊界清楚、囊實混合的實質腫塊型 vs. 瀰漫浸潤型。[^2]
+- **pilocytic astrocytoma（KIAA1549-BRAF fusion 為主）**：好發於後顱窩／小腦與視路下視丘，典型「大囊＋強化壁結節（cyst with enhancing mural nodule）」，實性成分 T2 高訊號、明顯強化，可有囊壁不強化。[^2]
+- **BRAF V600E 相關腫瘤（如 PXA、ganglioglioma）**：常為幕上皮質／顳葉為主，可見囊變與軟腦膜接觸；PXA 典型近腦膜之強化結節＋dural tail 樣表現，鈣化可見。[^2]
+- **判讀陷阱**：LGG 影像多樣、DWI 一般不受限（低度惡性、細胞密度低），若見明顯瀰漫浸潤、擴散受限或壞死，應提高警覺偏向高度別（如 H3K27M diffuse midline glioma，好發腦幹／視丘中線）。[^2]
+- **與影像基因型連結**：後顱窩邊界清楚囊實腫瘤高度提示 fusion 型（lowest risk）；幕上皮質接觸軟腦膜之結節型偏 V600E（intermediate）——影像有助於術前風險與治療（如 BRAF/MEK 標靶）決策參考。[^2]
+
+## 臨床重點（5 句）
+- PLGNT 已進入「分子分型指導治療」時代，基因／分子特徵越來越用於治療決策而非僅組織學。[^2]
+- 多數 pediatric LGG 走 MAPK/MAPK 單一路徑活化，故 BRAF/MEK 抑制劑等標靶治療對特定基因型有效。[^2]
+- KIAA1549-BRAF fusion 與 NF-1 相關者預後最佳（lowest risk 層）。[^2]
+- BRAF V600E 為中度風險，臨床上可作為標靶藥（BRAF 抑制劑）之選擇依據。[^2]
+- H3 K27M 突變（diffuse midline glioma）雖組織學低度，臨床行為屬高度惡性、預後差。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解。
+[^2]: **Tier 1** Bag AK, Chiang J, Patay Z. *Radiohistogenomics of pediatric low-grade neuroepithelial tumors.* Neuroradiology 2021;63(8):1185-1213（據 PubMed，DOI [10.1007/s00234-021-02691-1](https://doi.org/10.1007/s00234-021-02691-1)；PMC8295117；實際查證 accessed 2026-07-04）——PLGNT 之影像—組織—基因整合綜述，提出以形態／部位／組織學／基因分層之影像判讀架構，涵蓋 KIAA1549-BRAF fusion（pilocytic）、BRAF p.V600E、MAPK 路徑與風險分層。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 > [!question]- 相關考題

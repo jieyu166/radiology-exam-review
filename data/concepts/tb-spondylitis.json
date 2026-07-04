@@ -2,8 +2,17 @@
   "checked": false,
   "definition": "**TB spondylitis 與 pyogenic spondylitis 比較：TB 特徵為 subligamentous spread of large paraspinal abscesses、skip lesions、panvertebral involvement，但椎間盤破壞相對較晚且較輕（early and severe disc destruction 是 pyogenic 的特徵）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.wneu.2019.04.260",
+      "url": "https://doi.org/10.1016/j.wneu.2019.04.260"
+    },
+    {
+      "label": "10.3340/jkns.2016.1212.005",
+      "url": "https://doi.org/10.3340/jkns.2016.1212.005"
+    }
+  ],
+  "imagingFindings": "- **MRI（首選）**：TB spondylitis 典型見椎體破壞併相對椎間盤保留（relative disc preservation）、韌帶下擴散（subligamentous spread）之大範圍椎旁膿瘍、薄而光滑之膿瘍壁緣強化；相對地 pyogenic 常早期即嚴重椎間盤破壞、椎間盤 T2 高訊號並增強。\n- **分布型態**：TB 好發胸腰交界（T10–L2），可見跳躍性病灶（skip lesions）與 panvertebral（全椎體）受累；韌帶下擴散可跨多節，此為與 pyogenic 之重要區辨點。\n- **膿瘍特徵**：TB 之椎旁／腰大肌膿瘍常較大、可鈣化、壁薄光滑；pyogenic 膿瘍多較局限、壁厚不規則。\n- **X 光／CT**：晚期見椎體楔形塌陷併後凸（Gibbus deformity）、椎旁鈣化膿瘍；CT 對骨破壞細節與鈣化膿瘍評估佳。\n- **判讀陷阱（pitfall）**：早期 TB 椎間盤尚保留時易被誤判為腫瘤或壓迫性骨折；掌握「椎間盤相對保留＋大範圍韌帶下膿瘍＋跳躍病灶」三特徵有助定向。",
   "keyPoints": [
     "TB vs pyogenic 鑑別重點 ：",
     "**TB 特徵**：subligamentous spread（大範圍椎旁膿瘍）、skip lesions、panvertebral involvement、relative disc preservation（椎間盤相對保留）",
@@ -11,7 +20,7 @@
     "TB 好發 thoracolumbar junction（T10-L2）",
     "Gibbus deformity 為 TB spondylitis 晚期典型表現"
   ],
-  "management": "",
+  "management": "- 脊椎結核（Pott's disease）多為肺外結核之血行播散結果，病程進展較化膿性感染緩慢。\n- 臨床上背痛與全身症狀較隱匿，發炎指標（CRP）升幅通常低於化膿性脊椎炎。\n- 化膿性脊椎炎病程較急、CRP 較高、臨床病程較重，最常見致病菌為金黃色葡萄球菌。\n- 延誤治療可致椎體塌陷、後凸畸形與神經壓迫，故正確區辨病因攸關治療與預後。\n- 確診與致病菌鑑定常需影像導引切片或培養，以指引抗結核或抗生素療程。",
   "name": "Tuberculous Spondylitis (Pott's Disease)",
   "nameZh": "脊椎結核",
   "slug": "tb-spondylitis",

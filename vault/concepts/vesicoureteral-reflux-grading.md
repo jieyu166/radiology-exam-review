@@ -19,8 +19,22 @@ dateRev: 2026-07-02
 - **Grade IV**：**中度擴張（moderate dilatation）**，腎盞鈍化（blunting of fornices），乳頭壓痕（papillary impressions）尚存。[^1]
 - **Grade V**：**嚴重擴張 + 輸尿管迂曲（tortuous ureter）+ 乳頭壓痕消失**。[^1]
 
+## 放射科醫師影像判讀重點
+- **VCUG 是分級金標**：VUR 之國際 5 級分級以**排尿性膀胱尿道攝影（VCUG）**判定;影像判讀依序看**逆流是否達腎盂、腎盂腎盞是否擴張、腎盞穹窿（fornices）是否鈍化、乳頭壓痕是否消失、輸尿管是否迂曲**。[^2]
+- **必須含排尿期影像**：許多 VUR（尤其低壓型）僅在**排尿（voiding）階段**出現，故 VCUG 一定要涵蓋排尿期影像，否則會低估或漏診。[^2]
+- **各法取捨**：VCUG 提供解剖細節與尿道評估（男嬰後尿道瓣膜）但有輻射;**放射核素膀胱攝影**輻射低、適合追蹤但解剖解析低;**造影劑增強排尿性尿路超音波（ceVUS）** 無輻射、日益受兒科放射科支持，為新興首選之一。[^2]
+- **報告重點與避免過度診斷**：報告須註明分級、單／雙側、是否合併腎瘢痕或集尿系統重複畸形;辨識適當篩檢族群，避免對不需要者過度檢查。[^2]
+
+## 臨床重點（5 句）
+- VUR 是常見的先天泌尿道異常，可自發緩解、也可致腎瘢痕與腎功能損害而需手術。[^2]
+- 正確分級可指導處置:低級別多保守觀察、高級別（IV–V）較可能需介入。[^2]
+- 及早正確診斷 VUR 有助預防腎盂腎炎與腎瘢痕形成。[^2]
+- 檢查前的病人準備與適應症選擇（篩檢／確診／追蹤）影響檢查價值與成本效益。[^2]
+- ceVUS 因無游離輻射，在兒科族群的追蹤與診斷角色逐漸擴大。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 146。
+[^2]: **Tier 1** Cajigas-Loyola SC, Chow JS, Hayatghaibi S, Iyer RS, Kwon J, Rubesova E, Sánchez-Jacob R, Wyers M, Otero HJ. *Imaging of Vesicoureteral Reflux: Expert Panel Narrative Review*. AJR Am J Roentgenol 2024;222(6):e2329741（據 PubMed，DOI [10.2214/AJR.23.29741](https://doi.org/10.2214/AJR.23.29741)；實際查證 accessed 2026-07-04）——AJR 專家小組回顧:VCUG、放射核素膀胱攝影、造影劑增強排尿性尿路超音波（ceVUS）三法之分級、優缺點與適應症;強調排尿期影像、避免過度診斷、ceVUS 之無輻射優勢。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

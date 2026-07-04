@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Spetzler-Martin AVM 分級系統依據三項特徵：(1) nidus 大小、(2) 鄰近腦組織 eloquence、(3) venous drainage 型態（superficial vs deep）。Venous ectasia 非評分項目。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1093/neuros/nyab020",
+      "url": "https://doi.org/10.1093/neuros/nyab020"
+    }
+  ],
+  "imagingFindings": "- **三要素逐項判讀（DSA 為金標，MRI/CTA 輔助）**：(1) 於最大徑量測 **nidus size**（<3cm／3–6cm／>6cm）;(2) 判定 nidus 是否貼鄰 **eloquent 區**（感覺運動、語言、視覺皮質，內囊、視丘、下視丘、腦幹、小腦腳、深部小腦核）;(3) 判定引流靜脈屬 **superficial（全經皮質靜脈）** 或 **deep（任一經深部靜脈，如內大腦靜脈、基底靜脈、小腦中央前靜脈）**。\n- **報告要主動加註「補充分級」變數**：SM 三要素之外，**病人年齡、是否曾破裂出血、nidus 是否 compact/diffuse** 為 Supplemented（Lawton-Young）分級要素，能更準確預測手術風險，影像報告宜一併描述 nidus 邊界是否清晰致密。\n- **Grade III 需再細分**：SM Grade III 涵蓋風險差異大的次型（小而位於 eloquent vs 中等大小等），單看 SM 分數不足，補充分級（尤其 Supp-SM grade 6 為可接受手術風險上限）更能區分。\n- **勿把 venous ectasia／血流相關動脈瘤當評分項**：靜脈瘤樣擴張（venous ectasia）與供血動脈瘤雖影響破裂風險與治療，但**非 SM 或補充分級的評分要素**，報告可描述但不計分。",
   "keyPoints": [
     "Size of nidus：<3cm=1, 3-6cm=2, >6cm=3",
     "Eloquence of adjacent brain：non-eloquent=0, eloquent=1",
@@ -11,7 +16,7 @@
     "總分 1-5，分數越低手術預後越好",
     "**Venous ectasia 非 SM 評分要素**（常見陷阱）"
   ],
-  "management": "",
+  "management": "- SM 總分 1–5，分數越低手術可切除性與神經學預後越好。\n- 補充（Supplemented / Lawton-Young）分級把年齡、破裂史、nidus compactness 併入，預測手術結果優於單用 SM 分級。\n- 對 SM Grade III AVM，補充分級可辨識可接受手術風險的界線（Supp-SM grade 6 為上限）。\n- 高齡（>60 歲）與較高補充分級與術後神經學惡化相關，屬決策警訊。\n- 分級是決策輔助工具，最終仍須結合臨床表現、破裂與否及術者經驗綜合判斷。",
   "name": "Spetzler-Martin AVM Grading",
   "nameZh": "AVM分級",
   "slug": "spetzler-martin-avm",

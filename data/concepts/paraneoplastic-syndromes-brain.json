@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**副腫瘤症候群發生率是「15%」，不是常被誤記的「10%」——邊緣系統腦炎是最常見的臨床表現，小細胞肺癌是最常見的相關腫瘤。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.3174/ajnr.A6815",
+      "url": "https://doi.org/10.3174/ajnr.A6815"
+    }
+  ],
+  "imagingFindings": "- **邊緣系統腦炎（最重要影像表現）**：MRI **FLAIR/T2 於單側或雙側內側顳葉（mesial temporal lobe）—海馬迴、杏仁核** 呈高訊號腫脹，急性期可輕度強化；為最具代表性的副腫瘤影像徵象。\n- **多部位受累**：影像可延伸至下視丘、腦幹、小腦與腦皮質；**副腫瘤性小腦退化（paraneoplastic cerebellar degeneration）** 早期 MRI 可正常，晚期呈瀰漫性小腦萎縮，為重要補充型態。\n- **各模態互補**：**FDG-PET** 於受累邊緣系統/皮質可見代謝異常（可為高或低代謝），常早於 MRI 結構變化出現，並有助搜尋潛在原發腫瘤。\n- **DDx（易混淆）**：單純疱疹病毒腦炎（HSV，常見出血、佔位效應較明顯且不對稱）、癲癇後改變、低級別膠質瘤、神經膠質瘤病、缺氧缺血性損傷——邊緣系統腦炎影像常「模擬」上述常見病灶，為判讀陷阱。\n- **Pitfall**：MRI 結構變化可極輕微，**FLAIR 為最佳偵測序列**；影像陰性不能排除診斷，需結合抗體與臨床。",
   "keyPoints": [
     "**機轉**：免疫媒介，透過**自體抗體(autoantibodies)**或**細胞毒性T細胞相關(cytotoxic T cell-related)**機轉致病。",
     "**最常見臨床表現**：**邊緣系統腦炎(limbic encephalitis)**為最常見之臨床副腫瘤症候群。",
     "**發生率**：癌症病人中約**高達15%**（非10%）發展副腫瘤症候群。",
     "**最常見相關腫瘤**：**小細胞肺癌(small cell lung carcinoma)**。"
   ],
-  "management": "",
+  "management": "- 副腫瘤神經症候群為免疫媒介，經**自體抗體或細胞毒性 T 細胞**機轉致病。\n- 抗**細胞表面抗原**抗體者對免疫治療反應與預後優於抗**細胞內抗原**者。\n- 神經症狀常**早於**已知惡性腫瘤出現，故確診後應積極搜尋潛在原發腫瘤（以小細胞肺癌最常見）。\n- 診斷挑戰在於避免漏診/治療不足，同時避免過度診斷與過度治療。\n- 腦脊髓液與神經抗體檢測為臨床診斷之關鍵佐證，影像僅為支持性。",
   "name": "Paraneoplastic Syndromes of the Brain",
   "nameZh": "副腫瘤神經症候群",
   "slug": "paraneoplastic-syndromes-brain",

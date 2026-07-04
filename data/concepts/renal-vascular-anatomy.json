@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**弓形動脈(arcuate arteries)在錐體基底部各自獨立成弓，彼此「不」吻合——這是腎臟節段性血管供應「終末動脈(end-artery)」特性的關鍵，也是本題最易誤判處。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00276-008-0428-0",
+      "url": "https://doi.org/10.1007/s00276-008-0428-0"
+    }
+  ],
+  "imagingFindings": "- **CTA 判讀首選（雙期）**：動脈期＋腎實質（nephrographic）期之多層 CT 血管攝影可同時顯示腎動脈與腎靜脈解剖及變異，為術前腎臟血管地圖之標準；判讀時逐一辨識主幹、副（supernumerary/accessory）動脈與早期分叉。\n- **副腎動脈（accessory renal artery）**：發生率約 9–18%（常入下極），為終末動脈——影像若遺漏，可致腎段梗塞；判讀時須從主動脈側壁到腎門完整追蹤。\n- **早期分叉（early branching）**：腎動脈於距主動脈 <2 cm 或未達腎門即分叉，發生率約 7–13%，影響供腎手術夾閉——須明確於報告中描述。\n- **腎靜脈變異（DDx/判讀陷阱）**：**環主動脈（circumaortic）** 與 **主動脈後（retroaortic）左腎靜脈**、副右腎靜脈、晚期匯合（late confluence）皆常見；右側腎靜脈/下腔靜脈匯合處為最易誤判處。\n- **Pitfall**：小口徑靜脈變異因對比劑充盈不足易遺漏（16 層 MDCT 對小靜脈變異敏感度約 79%）；判讀應留意左腎靜脈受主動脈與腸繫膜上動脈夾擠（nutcracker）之解剖基礎——左腎靜脈行於主動脈前方。",
   "keyPoints": [
     "**腎動脈分支順序**：腎動脈前/後division於腎門處分出節段動脈(segmental arteries) → **葉間動脈(interlobar arteries，走行於錐體之間)** → 弓形動脈(arcuate arteries，走行於錐體基底部皮髓質交界) → 小葉間動脈(interlobular arteries)。",
     "**弓形動脈不吻合**：**弓形動脈於錐體基底部各自形成獨立的弓狀構造(individual arcs)，彼此「不」互相吻合**——腎臟血管供應具終末動脈特性，此為常見誤判處（易誤認為廣泛吻合）。",

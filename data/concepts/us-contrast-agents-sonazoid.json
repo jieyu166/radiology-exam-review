@@ -2,7 +2,12 @@
   "checked": false,
   "definition": "**Sonazoid 為第二代超音波對比劑，具有獨特的 Kupffer phase（post-vascular phase）：約注射 10-15 分鐘後，微氣泡被肝臟庫佛氏細胞（Kupffer cell）吞噬而滯留，惡性病灶因缺乏 Kupffer cell 而呈現 defect。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
+  "externalLinks": [
+    {
+      "label": "10.2174/138161212800099892",
+      "url": "https://doi.org/10.2174/138161212800099892"
+    }
+  ],
   "imagingFindings": "",
   "keyPoints": [
     "被吞噬的細胞：**庫佛氏細胞（Kupffer cell）**，非肝細胞、內皮細胞或星狀細胞。",

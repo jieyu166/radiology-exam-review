@@ -18,8 +18,16 @@ dateRev: 2026-07-02
 - Kupffer phase 約注射後 **10-15 分鐘**開始。[^1]
 - 惡性病灶（HCC、轉移瘤）缺乏正常 Kupffer cell → **呈現 hypoechoic defect**。[^1]
 
+## 技術要點
+- **兩階段影像（technique）**：Sonazoid 兼具早期**血管相（vascular phase）**與獨特的晚期**後血管相／Kupffer 相（post-vascular phase）**；後者微氣泡被肝臟 Kupffer 細胞吞噬而滯留於正常肝實質，缺乏 Kupffer 細胞的腫瘤呈**對比缺損（contrast defect）**，同時支援病灶**特徵化與偵測（staging）**。[^2]
+- **Kupffer 相時機（讀片關鍵）**：約注射後 **10–15 分鐘**進入穩定的 Kupffer 相，此時掃全肝可提高小病灶偵測率；由於氣泡滯留穩定，可反覆掃描、必要時做即時導引。[^1][^2]
+- **defect 判讀（pitfall）**：HCC、轉移等惡性病灶因缺乏正常 Kupffer 細胞於後血管相呈 hypoechoic defect；但**部分良性病灶**（如血管瘤）於 Kupffer 相亦可呈等-低回音，不能單以「defect」判定惡性，須併看血管相動態。[^1]
+- **臨床應用場景（technique）**：CEUS 對局部肝病灶特徵化、轉移偵測、局部治療反應評估、以及不可見目標之穿刺導引皆有價值；亦可用於術中 US 提升病灶偵測、影響手術決策。[^2]
+- **微氣泡特性**：Sonazoid 為含全氟丁烷（perflubutane）之第二代微氣泡對比劑，穩定性高、可承受較高機械指數，適合後血管相之延遲掃描。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Curr Pharm Des. 2012;18(15):2236-52。
+[^2]: **Tier 1** Salvatore V, Borghi A, Piscaglia F. *Contrast-enhanced ultrasound for liver imaging: recent advances*. Curr Pharm Des 2012;18(15):2236-2252（據 PubMed，DOI [10.2174/138161212800099892](https://doi.org/10.2174/138161212800099892)；實際查證 accessed 2026-07-04）——被 Kupffer 細胞吞噬的微氣泡具「後血管相（post-vascular phase）」，於日本註冊為 Sonazoid；後血管相腫瘤組織因缺乏 Kupffer 細胞而呈對比缺損，強化了病灶特徵化與腫瘤分期；CEUS 亦用於轉移偵測、治療反應評估與穿刺導引。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

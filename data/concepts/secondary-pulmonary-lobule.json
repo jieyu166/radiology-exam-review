@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Secondary pulmonary lobule（次級肺小葉）為薄切面（thin-section）CT下正常健康肺臟可辨識之最小離散單位（smallest discrete portion），由結締組織間隔包繞，內含數個肺腺泡（pulmonary acinus）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.crad.2020.12.025",
+      "url": "https://doi.org/10.1016/j.crad.2020.12.025"
+    }
+  ],
+  "imagingFindings": "- **中心與間隔的定位**：次級肺小葉中央為細支氣管與伴行肺動脈（centrilobular core），周邊為含肺靜脈與淋巴管的小葉間隔（interlobular septa）；HRCT 上以此中央結構與間隔位置作為所有微結節與間隔病變的定位參考。\n- **微結節三型判讀演算法**：依結節相對於小葉的位置分為 centrilobular（中心型，避開胸膜與間隔）、perilymphatic（沿間隔、胸膜下、支氣管血管束分布）、random（隨機、跨越小葉界線含胸膜）三型，是縮小鑑別診斷的第一步。\n- **各型對應鑑別**：centrilobular 結節見於發炎、感染（如細支氣管感染的 tree-in-bud）、血管性病因；perilymphatic 結節典型見於類肉瘤病與淋巴管癌病；random 結節見於血行性轉移或粟粒性感染。\n- **判讀輔助線索**：確立主型後再結合分布（上/下肺、中央/周邊）、伴隨影像所見與臨床病史，可提升診斷準確度——單看結節形態不足以定論。\n- **判讀陷阱**：小葉間隔在正常肺不易全程顯示，若間隔普遍增厚（光滑 vs 結節狀）本身即為病理線索（水腫 vs 淋巴管癌病/類肉瘤病），須與正常小葉結構區分。",
   "keyPoints": [
     "**薄切面CT下最小可辨識肺單位**：**secondary pulmonary lobule**——並非primary pulmonary lobule、pulmonary acinus、pulmonary alveolus或terminal bronchiole。",
     "**組成**：由結締組織間隔（interlobular septa）包圍，內含3-5個肺腺泡（acinus，終末細支氣管以下之呼吸單位）；acinus由多個alveolus組成。",

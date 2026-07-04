@@ -18,13 +18,24 @@ dateRev: 2026-07-02
 - **Autoimmune/inflammatory**：Hashimoto encephalopathy、autoimmune encephalitis (anti-NMDAR)、neurosarcoidosis [^1]
 - **其他**：paraneoplastic、toxic-metabolic、vascular [^1]
 
+## 放射科醫師影像判讀重點
+- **CJD 首選序列＝DWI**：散射權重影像（DWI）對 CJD 敏感度與特異度最高，典型表現為皮質帶狀高訊號（cortical ribboning）及/或基底核（尾核、殼核）對稱高訊號；DWI 異常常早於 FLAIR 出現且較明顯。[^2]
+- **DWI 訊號強度反映病理**：含大融合空泡（type 2 PrP）之皮質病灶在 DWI 上比含細小空泡（type 1 PrP）者更亮、更連續，可解釋不同 CJD 亞型的影像差異。[^2]
+- **DDx 判讀對照**：自體免疫腦炎（anti-NMDAR、邊緣系統腦炎）多見顳葉內側 FLAIR 高訊號；PML 見不強化、不佔位的白質病灶；HIV 相關失智見對稱白質瀰漫性病變；Hashimoto 腦病 MRI 常正常或非特異。以分布（皮質帶 vs 邊緣系統 vs 白質）與 DWI 受累與否鑑別。[^2]
+- **判讀陷阱**：CJD 之 DWI 高訊號可不合併對應 ADC 明顯下降，且早期可僅局部受累、易被誤判為缺血；需結合臨床（快速進展、肌陣攣、akinetic mutism）、EEG 週期性尖波與 CSF（14-3-3、RT-QuIC）綜合判斷，勿單憑一張 DWI 定論。[^2]
+
+## 臨床重點（5 句）
+- RPD 通常指數週至數月（一般 <1–2 年）內快速進展的認知功能退化，病因涵蓋 prion、感染、自體免疫/發炎、代謝、腫瘤旁與血管等，其中不少為可治療病因，須積極鑑別。[^2]
+- CJD 臨床以快速進展認知障礙合併肌陣攣、錐體/錐體外症狀及末期無動性緘默（akinetic mutism）為特徵。[^2]
+- 典型 CJD（如 MM1 型）臨床診斷相對容易，非典型病例仍可藉臨床與神經影像特徵準確診斷。[^2]
+- 對疑似 RPD 病患應同步排查自體免疫與腫瘤旁抗體、感染（含 HIV）與代謝因素，因這些屬潛在可逆病因。[^2]
+- 影像、EEG、CSF 生物標記（14-3-3、RT-QuIC）與臨床病程需整合判讀，任一單項均不足以確診 CJD。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解。
+[^2]: **Tier 1** Iwasaki Y. *Creutzfeldt-Jakob disease*. Neuropathology 2017;37(2):174-188（據 PubMed，DOI [10.1111/neup.12355](https://doi.org/10.1111/neup.12355)；實際查證 accessed 2026-07-04）——CJD 臨床以快速進展認知障礙、DWI 高訊號、肌陣攣、EEG 週期性尖波與無動性緘默為特徵；DWI 灰質高訊號對應海綿狀變性病理，含大融合空泡（type 2 PrP）病灶較細小空泡（type 1 PrP）更亮更連續；臨床、神經影像與病理三者高度吻合。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
-> [!question]- 相關考題
-> ```dataview
-> TABLE WITHOUT ID file.link AS "概念卡", concepts AS "概念"
-> FROM "vault/cards"
-> WHERE contains(concepts, this.file.name)
-> ```
+```dataview
+list from #交換 where contains(concepts, "rapidly-progressive-dementia")
+```

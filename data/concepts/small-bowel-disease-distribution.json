@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**小腸疾病依好發節段記憶：淋巴瘤好發迴腸(ileum)、Yersinia腸炎好發末端迴腸(terminal ileum)、Giardiasis好發十二指腸-空腸(duodenum-jejunum，近端)、Sprue(celiac)亦好發近端小腸。本題問「好發近端小腸」，Giardiasis(十二指腸-空腸)為典型答案。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.331125097",
+      "url": "https://doi.org/10.1148/rg.331125097"
+    }
+  ],
+  "imagingFindings": "- **好發節段記憶法（讀片框架）**：以節段定位縮小鑑別——**近端**（十二指腸-空腸）：giardiasis、celiac/sprue；**遠端/迴腸**：淋巴瘤、Yersinia（末端迴腸）、Crohn（末端迴腸為主但可跳躍）。\n- **Giardiasis（近端，modality）**：小腸攝影／CT 腸攝影見**十二指腸-空腸痙攣、易激、分泌增加致腸道擴張、環狀皺襞（valvulae）增厚**；分布偏近端而非迴腸。\n- **Celiac／sprue（近端，pitfall）**：典型為**十二指腸炎、皺襞型態逆轉（jejunal-ileal fold pattern reversal，空腸皺襞減少、迴腸皺襞增多「jejunization of ileum」）、腸道轉運變慢、一過性小腸腸套疊**；侵犯以近端為主，與 giardiasis 同屬「近端」候選，讀片須以皺襞逆轉與十二指腸炎特徵區分。\n- **淋巴瘤／Yersinia（遠端，DDx）**：淋巴瘤好發**迴腸**（淋巴組織豐富），可呈動脈瘤樣擴張或腫塊；Yersinia 好發**末端迴腸**，影像可 mimic Crohn 或闌尾炎——落在遠端，非本題「近端」答案。\n- **pitfall（同屬近端者並存）**：本題 giardiasis 與 sprue 皆為近端小腸病；官方以 giardiasis 之 duodenum-jejunum 為標準答案，作答時須警覺 sprue 亦屬近端而非誤判為遠端。",
   "keyPoints": [
     "**Lymphoma**：好發**迴腸(ileum)**（迴腸淋巴組織豐富）。",
     "**Yersinia enterocolitis**：好發**末端迴腸(terminal ileum)**（可mimic Crohn/闌尾炎）。",
     "**Giardiasis（本題答案）**：由鞭毛蟲Giardia lamblia引起，**好發十二指腸與空腸(duodenum-jejunum，近端小腸)**，伴痙攣、易激、分泌增加；小腸攝影見腸道擴張、環狀皺襞增厚。",
     "**Sprue（celiac disease）**：亦好發**近端小腸**（十二指腸/空腸絨毛萎縮）。"
   ],
-  "management": "",
+  "management": "- Giardiasis 由鞭毛蟲 *Giardia lamblia* 引起，經糞口／污染水傳播，好發近端小腸。\n- Giardiasis 臨床以慢性腹瀉、腹脹、脂肪瀉與吸收不良為主。\n- Celiac disease 為對麩質（gluten）之免疫媒介小腸黏膜損傷，常以吸收不良表現，腹部徵象常先於神經學表現出現。\n- Celiac 患者其腹部影像表現（十二指腸炎、皺襞逆轉、轉運變慢、一過性腸套疊）常較顱內表現更常見。\n- 依臨床（感染 vs 自體免疫 vs 腫瘤）結合好發節段，可有效收斂小腸疾病之鑑別診斷。",
   "name": "Small Bowel Disease — Segmental Distribution",
   "nameZh": "小腸疾病分布",
   "slug": "small-bowel-disease-distribution",

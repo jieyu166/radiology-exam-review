@@ -16,8 +16,23 @@ dateRev: 2026-07-02
 - **排名**：Liposarcoma > Leiomyosarcoma > MFH/UPS。[^1]
 - **Myelolipoma**：良性（成熟脂肪 + 造血組織），不是 malignant tumour。[^1]
 
+## 放射科醫師影像判讀重點
+- **先定位「原發後腹腔」vs.「臟器起源」**：以 beak sign、embedded organ sign、phantom（invisible）organ sign、prominent feeding artery sign 判斷腫塊是源自後腹腔軟組織（原發）或由臟器長出，此步驟決定鑑別方向。[^2]
+- **脂肪是關鍵鑑別線索**：含脂肪之後腹腔腫塊中，lipoma 與 liposarcoma 最常見；CT 脂肪為 −10～−100 HU、US 高回音，MRI 以化學位移（微觀脂肪）與脂肪抑制（巨觀脂肪）最敏感。[^2]
+- **Liposarcoma 影像**：well-differentiated 型以巨觀脂肪為主但常見厚不規則間隔／結節狀強化軟組織；dedifferentiated 型出現與脂肪成分相鄰之非脂肪實性強化腫塊——後者提示去分化、惡性度高。[^2]
+- **Myelolipoma vs. liposarcoma 分野**：myelolipoma 為腎上腺最常見之含巨觀脂肪良性腫塊（脂肪＋造血組織、可有鈣化/出血），需與腎上腺區 liposarcoma、含脂 RCC/AML 外延病灶鑑別；良性者邊界清楚、無侵犯性強化實質。[^2]
+- **Leiomyosarcoma／少脂之肉瘤**：常為體積大、異質、含壞死之實質腫塊，影像難以單憑型態確定組織學亞型，重點在描述大小、範圍、血管與臟器侵犯以供分期與手術規劃。[^2]
+
+## 臨床重點（5 句）
+- 原發後腹腔惡性腫瘤以軟組織肉瘤為主，其中 liposarcoma 最常見。[^2]
+- 影像通常無法可靠判定肉瘤的確切組織學亞型，最終診斷仍需病理。[^2]
+- MRI 對脂肪與軟組織對比較 CT 佳，有助於評估脂肪成分與局部侵犯範圍。[^2]
+- Myelolipoma 為良性、通常不需手術，正確辨識可避免不必要的積極處置。[^2]
+- 影像報告重點在於病灶起源、範圍與可切除性評估，以支援外科與腫瘤團隊決策。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Radiology Review Manual 7e, p. 898。
+[^2]: **Tier 1** Shaaban AM, Rezvani M, Tubay M, Elsayes KM, Woodward PJ, Menias CO. *Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis.* RadioGraphics 2016;36(3):710-734（據 PubMed，DOI [10.1148/rg.2016150149](https://doi.org/10.1148/rg.2016150149)；實際查證 accessed 2026-07-04）——後腹腔含脂病灶影像判讀綜述，說明原發 vs. 臟器起源之定位徵象（beak/embedded organ/phantom organ/feeding artery），脂肪偵測技術，並比較 lipoma、liposarcoma、myelolipoma、AML 等鑑別。原「交換考詳解／Review Manual」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

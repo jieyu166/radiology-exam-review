@@ -22,11 +22,26 @@ dateRev: 2026-07-02
   - **Bicornuate uterus**：融合缺陷致兩角、外部底部凹陷。
   - **MRKH (Mayer-Rokitansky-Küster-Hauser) syndrome**：Müllerian發育不全(agenesis)，子宮/上段陰道缺如。
 
+## 放射科醫師影像判讀重點
+- **MRI（金標準）**：評估 Müllerian 畸形之首選，可同時顯示子宮外部輪廓（底部凹陷深度）與內腔形態，用以區分融合缺陷（didelphys／bicorporeal）、吸收缺陷（septate）與發育不全（aplastic）。[^2]
+- **DES 暴露特徵**：子宮腔發育不良、縮小呈 T 形（T‑shaped endometrial cavity），可伴子宮下段收縮環與子宮腔不規則，判讀時以內腔形態為關鍵線索。[^1]
+- **ESHRE/ESGE 分類（判讀框架）**：以解剖為基礎——U0 正常、U1 dysmorphic（含 T 形）、U2 septate、U3 bicorporeal、U4 hemi‑uterus、U5 aplastic、U6 未分類；子宮頸與陰道異常另獨立分級。[^2]
+- **鑑別關鍵——septate vs bicorporeal**：兩者內腔均可見中隔樣分隔，區辨靠子宮外底輪廓——septate 外底平整或凹陷淺（<10 mm），bicorporeal 外底凹陷深；此為影像判讀之核心陷阱。[^2]
+- **超音波輔助**：3D 經陰道超音波可重建冠狀切面顯示子宮外底與內腔，與 MRI 一致性高，為篩檢與追蹤之利器。[^1]
+
+## 臨床重點（5 句）
+- Müllerian（苗勒氏管）畸形源自胚胎期融合或吸收缺陷，或子宮發育不全，臨床可致不孕、反覆流產或早產。[^2]
+- 子宮內 DES 暴露之女兒除 T 形子宮外，罹患陰道透明細胞腺癌與生殖道異常之風險增加。[^1]
+- ESHRE/ESGE 分類以解剖為基礎、與臨床處置連結，取代舊有分類之侷限。[^2]
+- MRKH 症候群為 Müllerian 發育不全，子宮與上段陰道缺如，臨床以原發性無月經表現。[^1]
+- 正確分類影響手術與生殖治療決策（如 septate 可子宮鏡切除、bicorporeal 則否），故區辨至關重要。[^2]
+
 > [!note] 考點：何種子宮畸形與子宮內DES暴露相關？
 > **T-shaped endometrial cavity（B）**——DES暴露特徵為T形子宮腔。didelphys/bicornuate為融合缺陷、MRKH為Müllerian發育不全，皆非DES相關。[^1]
 
 ### 參考來源
 [^1]: *Genitourinary Imaging: The Requisites*, CH7, p.260（2018 交換考題詳解 p.321 引用；Tier 2 教科書）。子宮內DES暴露特徵為T形子宮腔(子宮腔發育不良變小、可伴下段收縮環)；uterus didelphys/bicornuate為融合缺陷；MRKH為Müllerian發育不全。
+[^2]: **Tier 1** Grimbizis GF, Gordts S, Di Spiezio Sardo A, Brucker S, De Angelis C, Gergolet M, Li TC, Tanos V, Brölmann H, Gianaroli L, Campo R. *The ESHRE/ESGE consensus on the classification of female genital tract congenital anomalies.* Hum Reprod 2013;28(8):2032-2044（據 PubMed，DOI [10.1093/humrep/det098](https://doi.org/10.1093/humrep/det098)；實際查證 accessed 2026-07-04）——ESHRE/ESGE CONUTA 工作組以解剖為基礎之女性生殖道先天畸形分類共識（U0–U6 主類＋子宮頸／陰道獨立分級），為區辨 septate（吸收缺陷）與 bicorporeal（融合缺陷）等畸形之判讀框架。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which uterus anomaly is associated with in utero diethylstilbestrol (DES) exposure? (2018-410)

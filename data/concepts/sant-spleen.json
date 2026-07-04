@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**SANT 是脾臟的良性血管病灶，由多個 angiomatoid nodules 被 dense fibrous tissue 包圍形成中央瘢痕。CT/MRI 典型表現為 spoke-wheel pattern + central hypoenhancing stellate scar（非 hyperenhancing）。延遲期呈 progressive enhancement。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1186/s12880-023-01008-3",
+      "url": "https://doi.org/10.1186/s12880-023-01008-3"
+    }
+  ],
+  "imagingFindings": "- **CT（modality）**：平掃多為單一、邊界清楚之**低衰減**脾臟病灶，可見鈣化；顯影後呈**輻輪狀（spoke-wheel）**強化，並隨時間**漸進性充填（progressive enhancement）**——為 SANT 相對特異的動態型態。\n- **MRI（modality）**：多數病灶 **T1 等訊號、T2 低訊號**（纖維成分為主），DWI 亦多呈低訊號；顯影後同樣呈漸進性強化。少數 T2 可為高訊號伴中央低訊號。\n- **中央瘢痕（讀片關鍵／pitfall）**：SANT 的中央星狀纖維瘢痕為 **hypoenhancing**；勿與肝臟 FNH 的 **hyperenhancing** 中央瘢痕混淆——這是本題最常考的反差點。\n- **DWI/ADC 的加分價值**：多數 SANT 於 DWI 呈低訊號、ADC 對應變化，可在輻輪狀漸進強化之外提升診斷信心，協助與惡性血管病灶區分。\n- **DDx／pitfall（FDG 假陽性）**：PET-CT 上 SANT 可出現 **FDG 攝取（SUVmax 約 3.8–5.1）**，易誤判為惡性或轉移；SANT 為良性，須結合形態學（輻輪狀、漸進強化、中央纖維瘢痕）避免過度治療。",
   "keyPoints": [
     "**病理**：良性血管病灶，多個 angiomatoid nodules + central fibrous scar",
     "**MRI 訊號**：T1 isointense、T2 hypointense",
@@ -13,7 +18,7 @@
     "**Central scar**：**hypoenhancing**（非 hyperenhancing）",
     "需與 FNH（liver）的 hyperenhancing scar 區分"
   ],
-  "management": "",
+  "management": "- SANT 為脾臟少見的**良性**血管性病變，非腫瘤性惡性病灶。\n- 多見於中年成人（系列研究平均年齡約 43–46 歲），無明顯性別偏好。\n- 臨床多**無特異症狀**，常為影像偶然發現之單一病灶。\n- 確診仰賴**病理**（多個 angiomatoid nodules 對 CD8/CD31/CD34 呈不同血管標記反應）。\n- 預後良好，脾切除後可治癒、少復發。",
   "name": "Sclerosing Angiomatoid Nodular Transformation (SANT)",
   "nameZh": "脾臟硬化性血管瘤樣結節轉化",
   "slug": "sant-spleen",
