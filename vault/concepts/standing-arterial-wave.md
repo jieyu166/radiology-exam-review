@@ -17,7 +17,7 @@ dateRev: 2026-07-03
 - **外觀**：**多發、對稱、等間隔之鋸齒狀/波浪狀凹痕（corrugated/serrated，近正弦波型）**沿動脈分布。[^1][^2]
 - **好發部位**：**多描述於周邊動脈整體**——**非侷限下肢血管**。[^1]
 - **與檢查方式關係**：**較常見於傳統血管攝影（conventional angiography，導管相關）**；亦可見於 CTA/MRA（較少）。[^1][^2]
-- **成因**：不明；提出機轉包括**導管誘發動脈痙攣**與**對比劑分層流動之血流性偽影**。[^1][^2]
+- **成因**：不明；提出機轉包括**導管誘發動脈痙攣**與**對比劑分層流動之血流性偽影**。[^1][^2][^3]
 - **臨床意義**：**無病理重要性、良性現象**。[^1][^2]
 - **鑑別陷阱**：**可被誤認為 FMD**——需與真正 FMD 之 string-of-beads（較不規則/不對稱）鑑別。[^1]
 
@@ -40,7 +40,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解（血管攝影標準教材）——standing/stationary wave 為多發規則對稱鋸齒狀凹痕、多描述於周邊動脈（非侷限下肢）；較常見於 conventional angiography；成因含導管誘發動脈痙攣與對比劑分層血流偽影；無病理意義；有時被誤認為 FMD（已由下述 Radiopaedia 一手來源查核佐證）。
-[^2]: *Standing wave artifact*. Radiopaedia, rID-211966, DOI 10.53347/rID-211966——即 stationary wave artifact，**良性、典型見於傳統血管攝影**（亦可見 CTA/MRA）之 corrugated/serrated 外觀；**多發等間隔對稱凹痕（正弦波型）**；成因不明（提出對比劑分層流動偽影、導管誘發痙攣）；MRI 呈高低訊號帶。
+[^2]: *Standing wave artifact*. Radiopaedia, rID-211966, DOI 10.53347/rID-211966（輔助來源）——即 stationary wave artifact，**良性、典型見於傳統血管攝影**（亦可見 CTA/MRA）之 corrugated/serrated 外觀；**多發等間隔對稱凹痕（正弦波型）**；成因不明（提出對比劑分層流動偽影、導管誘發痙攣）；MRI 呈高低訊號帶。
+[^3]: **Tier 1** New PF. *Arterial stationary waves*. Am J Roentgenol Radium Ther Nucl Med（AJR 前身）1966;97(2):488-99（據 PubMed，DOI [10.2214/ajr.97.2.488](https://doi.org/10.2214/ajr.97.2.488)；實際查證 accessed 2026-07-04）——本現象之**原始經典描述**：動脈攝影中沿血管出現之**規則、對稱、等間隔鋸齒/波浪狀凹痕（stationary/standing waves）**，見於多處周邊動脈（含頸動脈），與血管痙攣/血流有關、屬良性；為與器質性狹窄/FMD 區分之重要影像認識。佐證 standing wave 為良性偽影、非侷限下肢、易與 FMD 混淆。原「官方/Radiopaedia」弱來源已由本次 AJR（前身）DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於 Standing (or Stationary) arterial wave，下列何者錯誤? (2017-281)

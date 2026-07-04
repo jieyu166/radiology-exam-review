@@ -18,7 +18,7 @@ dateRev: 2026-07-03
 ## Summary
 - **Ligamentum teres（圓韌帶）**：胎兒**臍靜脈（umbilical vein）**殘留，位於**鐮狀韌帶游離緣內**；於「fissure for ligamentum teres」分隔左葉內側段與外側段。[^1]
 - **Falciform ligament（鐮狀韌帶）**：胚胎**腹側腸繫膜（ventral mesentery）**殘留（**非血管**），連接肝與前腹壁之腹膜皺褶，游離緣含圓韌帶。[^1]
-- **Ligamentum venosum（靜脈韌帶）**：胎兒**靜脈導管（ductus venosus）**殘留，呈**線狀自左門靜脈至 IVC**，**分隔左葉與尾狀葉（caudate lobe）**（Radiopaedia：尾狀葉前界為 ligamentum venosum）。[^1][^2]
+- **Ligamentum venosum（靜脈韌帶）**：胎兒**靜脈導管（ductus venosus）**殘留，呈**線狀自左門靜脈至 IVC**，**分隔左葉與尾狀葉（caudate lobe）**（Radiopaedia：尾狀葉前界為 ligamentum venosum）。[^1][^2][^3]
 - **Couinaud ligament**：非標準解剖命名（干擾選項）。[^1]
 
 ## 放射科醫師影像判讀重點
@@ -40,7 +40,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Abdomen 100 question exam（腹部解剖標準教材）——ligamentum teres 為臍靜脈殘留（鐮狀韌帶游離緣內）；falciform ligament 為腹側腸繫膜殘留（非血管）；ligamentum venosum 為靜脈導管殘留（左門靜脈至 IVC 線狀構造、分隔左葉與尾狀葉）。
-[^2]: Gaillard F, et al. *Couinaud classification of hepatic segments*. Radiopaedia, rID-4474, DOI 10.53347/rID-4474——尾狀葉（segment I）**前界為 ligamentum venosum、後外側界為 IVC 窩**；佐證靜脈韌帶分隔左葉與尾狀葉之解剖關係。
+[^2]: Gaillard F, et al. *Couinaud classification of hepatic segments*. Radiopaedia, rID-4474, DOI 10.53347/rID-4474（輔助來源）——尾狀葉（segment I）**前界為 ligamentum venosum、後外側界為 IVC 窩**；佐證靜脈韌帶分隔左葉與尾狀葉之解剖關係。
+[^3]: **Tier 1** Lafortune M, Madore F, Patriquin H, Breton G. *Segmental anatomy of the liver: a sonographic approach to the Couinaud nomenclature*. Radiology 1991;181(2):443-8（據 PubMed，DOI [10.1148/radiology.181.2.1924786](https://doi.org/10.1148/radiology.181.2.1924786)；實際查證 accessed 2026-07-04）——以 Couinaud 命名建立肝段之簡化超音波描述：**以門靜脈分支指向各段中心為關鍵界標，並以肝靜脈、韌帶、裂隙與膽囊作為肝段之外部邊界**。佐證 ligamentum venosum（裂隙）分隔左葉與尾狀葉、ligamentum teres 裂隙分左葉內/外側段之影像界標角色。原「官方/Radiopaedia」弱來源已由本次 Radiology DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- "This structure is a remnant of the ductus venosus from fetal origins. It is located, as a line, from the left portal vein to the IVC. It separates the left and caudate lobes from each other." (2017-266)

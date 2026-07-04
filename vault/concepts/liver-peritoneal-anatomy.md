@@ -41,7 +41,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Radiology: Specialty Board Review, Ch.51 Biliary System, p.387（題目所引）——肝臟未被臟層腹膜覆蓋處為 bare area（後上方貼橫膈）、porta hepatis（血管膽管進出）、gallbladder bed（膽囊貼肝床面）。
-[^2]: Bell D, et al. *Coronary ligament (liver)*. Radiopaedia, rID-82245, DOI 10.53347/rID-82245——冠狀韌帶（橫膈反折之上下兩葉）**圍成肝臟 bare area**（三角形、**內含 IVC 與右腎上腺上部**）；前接鐮狀韌帶、後下右三角韌帶、左上左三角韌帶——佐證 bare area 無腹膜覆蓋之解剖。
+[^2]: Bell D, et al. *Coronary ligament (liver)*. Radiopaedia, rID-82245, DOI 10.53347/rID-82245（輔助來源）——冠狀韌帶（橫膈反折之上下兩葉）**圍成肝臟 bare area**（三角形、**內含 IVC 與右腎上腺上部**）；前接鐮狀韌帶、後下右三角韌帶、左上左三角韌帶——佐證 bare area 無腹膜覆蓋之解剖。
+[^3]: **Tier 1** Tirkes T, Sandrasegaran K, Patel AA, et al. *Peritoneal and retroperitoneal anatomy and its relevance for cross-sectional imaging*. RadioGraphics 2012;32(2):437-51（據 PubMed，DOI [10.1148/rg.322115032](https://doi.org/10.1148/rg.322115032)；Review；實際查證 accessed 2026-07-04）——**腹膜皺褶/韌帶/繫膜/網膜與潛在腹膜腔隙之影像解剖**：正常腹膜結構不易辨識，但感染/發炎/腫瘤/外傷常波及腹膜腔與其反折，故辨識受累之韌帶與腔隙對報告與外科溝通至關重要；**腹膜韌帶/繫膜/網膜與腹膜液自然流向決定腹內疾病之蔓延路徑，並作為疾病之邊界與蔓延管道**。佐證肝冠狀/三角/鐮狀韌帶圍成 bare area、bare area 屬後腹膜、以及經此之疾病蔓延路徑。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- What portion of the liver is not covered by visceral peritoneum? (2017-287)

@@ -16,7 +16,7 @@ dateRev: 2026-07-03
 **超音波上連接膽囊窩與下腔靜脈（IVC）的假想線＝肝臟『主葉裂（main lobar fissure；Cantlie line）』，內含中肝靜脈（MHV），是區分肝右葉與左葉的關鍵標誌；某些切面膽囊呈位於肝臟後方、IVC 前方的無回音構造。** 判讀分水嶺：**main lobar fissure 連接膽囊窩與 IVC/中肝靜脈、分肝左右葉；US 上為膽囊頸/窩至右門靜脈之高回音線；膽囊-IVC-主葉裂之空間關係需與 main portal vein、right hepatic vein、SMV 區分。**
 
 ## Summary
-- **主葉裂（main lobar fissure / Cantlie line）**：連接**膽囊窩**與**IVC**之假想解剖線，**內含中肝靜脈（MHV）**，將肝分為**右葉與左葉（right/left hemiliver）**。[^1][^2]
+- **主葉裂（main lobar fissure / Cantlie line）**：連接**膽囊窩**與**IVC**之假想解剖線，**內含中肝靜脈（MHV）**，將肝分為**右葉與左葉（right/left hemiliver）**。[^1][^2][^3]
 - **膽囊與 IVC 空間關係**：特定切面（右肋緣下斜切）可見**膽囊呈於肝臟後方、IVC 前方**之無回音（anechoic）構造。[^1]
 - **US 標誌**：膽囊頸/窩至右門靜脈之**高回音線（main lobar fissure）**為肝左右葉分界之超音波標誌。[^1]
 - **鑑別**：main portal vein、right hepatic vein、SMV 為此區可能混淆之血管，但位置關係不同。[^1]
@@ -40,7 +40,8 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: Sonography Exam Review: Physics, Abdomen, OB/GYN, 2nd ed., p.208（題目所引）——主葉裂連接膽囊窩與 IVC/中肝靜脈、為肝左右葉分界標誌；特定切面膽囊呈於肝後 IVC 前之空間關係。
-[^2]: Gaillard F, et al. *Couinaud classification of hepatic segments*. Radiopaedia, rID-4474, DOI 10.53347/rID-4474——**middle hepatic vein 走 main lobar fissure、將肝分為右葉與左葉**；佐證主葉裂（Cantlie line，膽囊窩至 IVC）為肝左右分界之標誌。
+[^2]: Gaillard F, et al. *Couinaud classification of hepatic segments*. Radiopaedia, rID-4474, DOI 10.53347/rID-4474（輔助來源）——**middle hepatic vein 走 main lobar fissure、將肝分為右葉與左葉**；佐證主葉裂（Cantlie line，膽囊窩至 IVC）為肝左右分界之標誌。
+[^3]: **Tier 1** Lafortune M, Madore F, Patriquin H, Breton G. *Segmental anatomy of the liver: a sonographic approach to the Couinaud nomenclature*. Radiology 1991;181(2):443-8（據 PubMed，DOI [10.1148/radiology.181.2.1924786](https://doi.org/10.1148/radiology.181.2.1924786)；實際查證 accessed 2026-07-04）——以 Couinaud 命名建立肝段之超音波描述：**以門靜脈分支為肝段中心界標，並以肝靜脈、韌帶、裂隙與膽囊為肝段外部邊界**——即**中肝靜脈/主葉裂（膽囊窩至 IVC 之 Cantlie line）為肝左右葉之分界**。佐證主葉裂連接膽囊窩與 IVC、內含 MHV、為肝左右分界之超音波標誌。原「官方/Radiopaedia」弱來源已由本次 Radiology DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- The anechoic structure lying anterior to the inferior vena cava and posterior to the liver most likely represents the: (2017-268)
