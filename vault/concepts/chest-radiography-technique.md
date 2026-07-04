@@ -35,7 +35,7 @@ nonImagingReason: "胸部X光技術/品質參數（高kVp穿透、SID放大率�
 ### 參考來源
 [^1]: *Chest radiograph*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「low kV (60-70 kV) is **less effective in demonstrating the lungs behind the heart, diaphragm, and ribs** than high kV (120-140 kV)」;高 kV 並降有效劑量。
 [^2]: Thoracic Radiology: The Requisites, 2nd ed., p.1（題目所引）——呼氣片偵測 air trapping/小氣胸、前凸位改善 RML 塌陷、6 呎 SID 降放大率、胸片用 grid 降散射。
-[^3]: *Chest Radiographic and CT Findings in Emergency Diagnosis of Acute Dyspnea*. J Thorac Dis 2012;4(4):398-407（2018 交換考題詳解 p.28 引用；Tier 2）。心因性/非心因性肺水腫以心臟大小/血管分布/肋膜積液區分；CXR 對 PE 診斷既非敏感亦非特異；lateral view 較 AP/PA 更敏感偵測肋膜積液；氣胸於強迫呼氣片較明顯。
+[^3]: **Tier 1** Cardinale L, Volpicelli G, Lamorte A, Martino J, et al. *Revisiting signs, strengths and weaknesses of Standard Chest Radiography in patients of Acute Dyspnea in the Emergency Department*. J Thorac Dis 2012;4(4):398-407（據 PubMed，DOI [10.3978/j.issn.2072-1439.2012.05.05](https://doi.org/10.3978/j.issn.2072-1439.2012.05.05)；PMC3426742；Review；實際查證 accessed 2026-07-04）——回顧急診急性呼吸困難之標準 CXR 角色、徵象與限制：**CXR 快速、便宜、於 COPD 急性惡化/急性肺水腫/肺栓塞/氣胸/肋膜積液之診斷流程關鍵**；然**床邊攜帶式 CXR 敏感度明顯下降（尤 PE/氣胸/肺水腫），觀察者間變異大**。佐證心因性/非心因性肺水腫以心臟大小/血管分布/肋膜積液區分、CXR 對 PE 非敏感亦非特異、lateral view 較 AP/PA 敏感、氣胸呼氣片較明顯。原「官方/Radiopaedia/教科書」弱來源已由本次 J Thorac Dis DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview
