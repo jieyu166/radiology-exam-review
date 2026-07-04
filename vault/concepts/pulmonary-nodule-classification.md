@@ -1,41 +1,48 @@
 ---
-tags: [concept, radiology, CH, nodule]
-aliases: [肺結節分類, subsolid nodule definition]
-created: 2026-07-02
-dateRev: 2026-07-02
-sr-due: 2026-07-09
-sr-interval: 7
-sr-ease: 270
+concepts: [pulmonary-nodule-classification]
+name: Pulmonary Nodule Classification
+subspecialty: [CH]
+aliases:
+  - 肺結節分類
+  - subsolid nodule definition
+  - Fleischner nodule terms
+dateRev: 2026-07-04
 ---
 
-**肺結節分類（Pulmonary Nodule Classification）**的標準定義是 Fleischner Society 與 radiology 基礎考題。
+# pulmonary-nodule-classification
+
+**分水嶺記憶：Subsolid nodule 是「pure GGN + part-solid」兩者的總稱，不是只指 part-solid。結節 <3 cm、腫塊 ≥3 cm。**
 
 ## Summary
+- Nodule（結節）：直徑 <3 cm 的圓形/不規則陰影；≥3 cm 稱 mass（腫塊） [^1]
+- **Subsolid nodule 為總稱，包含 pure ground-glass nodule（純毛玻璃）與 part-solid nodule（部分實質）兩類** [^1]
+- Ground-glass nodule（GGN）：密度高於正常肺、但不遮蔽下方支氣管血管結構、低於軟組織密度 [^1]
+- Fleischner 2017 指引整合 solid 與 subsolid 結節追蹤，並提高常規追蹤的最小門檻尺寸 [^1]
 
-肺結節定義：[^1]
+## 放射科醫師影像判讀重點
+- **Subsolid 的正確定義**：涵蓋 pure GGN 與 part-solid nodule；若選項稱 subsolid「僅指部分 solid、部分 ground glass，不含 pure GGN」即為錯誤 [^1]
+- **Part-solid nodule** 內同時具 solid 與 ground-glass 成分；其 solid component 大小是惡性風險與處置的關鍵，需在肺窗量測 [^1]
+- **Pure GGN** 純毛玻璃、無 solid 成分，可為 AAH / AIS / lepidic 腺癌譜系；持續存在的 GGN 較有意義 [^1]
+- **Perifissural nodule**：鄰近葉間裂、多呈扁平/三角、密度均質，多為肺內淋巴結，屬良性型態 [^1]
+- 量測與判讀差異會直接改變 Fleischner 追蹤建議，故 solid vs subsolid、solid component 大小須一致量測 [^1]
 
-| 類型 | 定義 |
-|------|------|
-| **Solid nodule** | Size < 3 cm 的實質化結節 |
-| **Subsolid nodule** | 涵蓋 part-solid **和** pure ground-glass nodule |
-| **Ground-glass nodule** | Density 高於正常肺但低於 soft tissue density |
-| **Perifissural nodule** | 鄰近 lung fissure 的結節 |
+## 臨床重點（5 句）
+1. Fleischner 2017 指引適用於 ≥35 歲、無已知惡性/免疫不全的偶見結節 [^1]
+2. 追蹤間隔以「範圍」表示，讓臨床依風險因子與病人偏好調整 [^1]
+3. Subsolid 結節（尤其 part-solid）較 solid 結節有更高的惡性可能，追蹤較嚴 [^1]
+4. 常規追蹤最小門檻尺寸較舊版提高，以降低過度追蹤 [^1]
+5. 多發結節依風險最高者決定處置 [^1]
 
-## 陷阱
-
-- **Subsolid nodule** 定義包含 **pure ground-glass nodule 和 part-solid nodule** 兩者，不是僅指 part-solid。
-- 選項說 subsolid「專指部分 solid、部分 ground glass，不包含 pure GGN」是**錯誤**敘述。
+> [!note] 考點：關於肺結節分類，下列哪一敘述為「錯誤」？
+> 「Subsolid nodule 專指部分 solid、部分 ground glass，不包含 pure GGN」為錯誤 —— subsolid 是 pure GGN 與 part-solid 兩者的總稱。 [^1]
 
 ### 參考來源
+[^1]: MacMahon H, et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. Radiology. 2017;284(1):228-243（據 PubMed；[DOI](https://doi.org/10.1148/radiol.2017161659)）。結節/腫塊定義、subsolid（pure GGN + part-solid）分類、solid component 量測、追蹤門檻。
 
-[^1]: Radiographics. 2014 Oct;34(6):1658-1679; Radiology. 2017 Jul;284(1):228-243。
+> [!question]- 關於肺結節分類定義，下列哪一敘述為錯誤（非正確描述）？ (2019-310)
+> 答案：B.「Subsolid nodule 僅指部分 solid、部分 ground glass，不含 pure GGN」為錯誤 —— subsolid 包含 pure GGN 與 part-solid 兩者。 [^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID
-  file.link AS "概念",
-  sr-due AS "下次複習"
-FROM "vault/concepts"
-WHERE contains(file.name, "pulmonary-nodule-classification")
+list from #交換 where contains(concepts, "pulmonary-nodule-classification")
 ```

@@ -1,15 +1,50 @@
 ---
-aliases: [空洞性肺結節, cavitary lung lesion]
+concepts: [cavitating-lung-nodule]
+name: Cavitating Lung Nodule
+subspecialty: [CH]
+aliases:
+  - 空洞性肺結節
+  - cavitary lung lesion
+  - 肺空洞病灶
+dateRev: 2026-07-04
 ---
-# Cavitating Lung Nodule
 
-- 空洞定義：肺結節/腫塊內含氣空間，壁厚 >4mm 傾向惡性
-- **會造成空洞的疾病：**
-  - 感染：TB（最常見）、fungal、septic emboli、lung abscess
-  - 惡性：Squamous cell carcinoma（最常空洞化的肺癌）、metastasis
-  - 血管炎：Granulomatosis with polyangiitis (Wegener's)
-  - 其他：Rheumatoid nodule、pulmonary infarct
-- **不會造成空洞的疾病：**
-  - **Lipoid pneumonia**（油脂性肺炎）：呈脂肪密度實質化，不形成空洞
-  - Small cell lung cancer（少見空洞）
-  - Lymphoma（罕見空洞）
+# cavitating-lung-nodule
+
+**空洞＝實質化/腫塊/結節內的含氣空間；感染（TB、黴菌、septic emboli）與惡性（squamous cell carcinoma）是主因；Lipoid pneumonia 呈脂肪密度實質化、「不」形成空洞。**
+
+## Summary
+- 空洞（cavity）定義：位於實質化區、腫塊或結節內的含氣空間；影像可由 X 光與 CT 辨識 [^1]
+- 感染性病因：TB（尤其 postprimary/reactivation）、黴菌、septic emboli、necrotizing/cavitary pneumonia（肺膿瘍） [^1][^2]
+- 惡性病因：squamous cell carcinoma（最常空洞化的原發肺癌）、轉移 [^2]
+- **Lipoid pneumonia 呈脂肪密度實質化，不形成空洞**，是「不會空洞」的代表 [^2]
+
+## 放射科醫師影像判讀重點
+- **壁厚是良惡分水嶺的粗略指標**：壁越厚越傾向惡性（傳統以最厚壁 >4mm 需提高警覺，>15mm 高度懷疑惡性）；但薄壁空洞仍可能為惡性，不可單以壁厚排除 [^2]
+- **感染性空洞**：postprimary TB 好發肺尖/上葉，合併 centrilobular nodules、tree-in-bud；septic emboli 為多發、周邊、含 feeding vessel 的空洞結節 [^1]
+- **黴菌**：cryptococcosis 等在免疫不全者可呈 cavitary nodule ± halo sign、air bronchogram、伴縱膈淋巴腫大 [^3]
+- **陷阱—不空洞的病灶**：Lipoid pneumonia（脂肪密度實質化，CT 測到脂肪即為線索）；small cell lung cancer 與 lymphoma 空洞罕見 [^2]
+- 空洞病灶常合併存在（如癌+慢性感染），對空洞病灶應積極取檢以免延誤惡性診斷 [^2]
+
+## 臨床重點（5 句）
+1. 空洞性病灶鑑別橫跨感染、惡性、血管炎（GPA）、梗塞等，需結合病史與病程 [^2]
+2. Postprimary TB 空洞影響治療決策（如療程長度） [^1]
+3. 免疫不全者的空洞結節須高度警覺伺機性感染（黴菌、NTM） [^3]
+4. 慢性感染與肺癌可並存，空洞病灶追蹤數月不代表良性，應積極診斷 [^2]
+5. CT 測到脂肪密度是 lipoid pneumonia 的關鍵鑑別線索，可避免誤判為空洞性惡性 [^2]
+
+> [!note] 考點：下列何者「不會」造成肺空洞？
+> Lipoid pneumonia（油脂性肺炎）—— 呈脂肪密度實質化/GGO，不形成空洞。TB、septic emboli、Wegener/GPA 皆為典型會造成空洞的病因。 [^2]
+
+### 參考來源
+[^1]: Nachiappan AC, et al. Pulmonary Tuberculosis: Role of Radiology in Diagnosis and Management. RadioGraphics. 2017;37(1):52-72（據 PubMed；[DOI](https://doi.org/10.1148/rg.2017160032)）。Postprimary TB 空洞、cavitation 影響療程。
+[^2]: Fujita K, et al. Two cases of cavitary lung cancer with concomitant chronic infectious disease. Respir Med Case Rep. 2018;24:122-124（據 PubMed；[DOI](https://doi.org/10.1016/j.rmcr.2018.05.010)）。空洞良惡鑑別、癌與感染並存、積極取檢。
+[^3]: Tran DH, et al. Disseminated Cryptococcosis in an Immunocompromised Patient with a Lung Nodule. J Community Hosp Intern Med Perspect. 2023;13(2):34-36（據 PubMed；[DOI](https://doi.org/10.55729/2000-9666.1157)）。免疫不全者黴菌 cavitary nodule ± halo sign。
+
+> [!question]- 下列何者不會造成肺空洞（cavitation）？ (2019-520)
+> 答案：A. Lipoid pneumonia（呈脂肪密度實質化，不形成空洞）。 [^2]
+
+## 考題
+```dataview
+list from #交換 where contains(concepts, "cavitating-lung-nodule")
+```
