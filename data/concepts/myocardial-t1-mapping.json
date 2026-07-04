@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**顯影劑造成T1「縮短」——postcontrast T1值比native T1「低」，不是「高」；心肌水腫則同時使T1與T2「都上升」，不是一升一降。這兩個方向是本主題最常見的誤判陷阱。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1186/s12968-017-0389-8",
+      "url": "https://doi.org/10.1186/s12968-017-0389-8"
+    }
+  ],
+  "imagingFindings": "- **參數對應的病理軸**：native T1 反映細胞內＋細胞外整體變化；ECV 為釓劑基礎、直接量化細胞外空間；T2/T2* 分別對應水腫與鐵沉積，判讀時應把每個 map 對應到其病理軸。\n- **主要以「細胞內」為主的病變使 native T1 下降**：鐵過載與 Anderson-Fabry 病（醣鞘脂堆積）使 native T1「降低」；而水腫、纖維化、類澱粉（間質擴張）使 native T1 與 ECV「上升」——方向相反是常見判讀陷阱。\n- **顯影後 T1 縮短**：釓劑使 T1 縮短，故 postcontrast T1 值低於 native T1；ECV 須於注射後穩態量測且需同時取得血液 T1 與 hematocrit。\n- **判讀須成套**：mapping 值受場強、廠商序列、擷取時機影響，須對照各中心/廠商正常參考值，並結合 LGE、T2 等序列與臨床情境綜合判讀，不宜以單一 postcontrast T1 作生物標記。\n- **鑑別價值**：native T1 極高提示類澱粉/急性水腫，native T1 極低提示 Fabry 或鐵過載，為心肌病鑑別提供無顯影劑的線索。",
   "keyPoints": [
     "**原生(native)T1值**：同時受**細胞內與細胞外**因素影響（為心肌細胞與細胞外基質之複合訊號）。",
     "**Native T1上升**：見於**水腫(edema)**（急性梗塞、發炎）與**間質空間擴大(increased interstitial space)**（纖維化、疤痕、心肌病）。",
     "**Native T1下降**：見於**脂肪過載(lipid overload)**（如Anderson-Fabry disease、慢性心肌梗塞之脂肪化生）與**鐵過載(iron overload)**。",
     "**正常值參考**：3T下、0.15 mmol/kg釓劑，平均native T1值約1159-1286 ms。"
   ],
-  "management": "",
+  "management": "- 參數式 mapping（T1、T2、T2*、ECV）讓心肌組織成分變化可非侵入性量化，改善診斷、病人間比較與治療評估。\n- native T1 mapping 不需釓劑即可偵測心肌與間質病變，適用於腎功能不全等不宜顯影劑者。\n- ECV 與組織學膠原體積分率相關性優於 native T1，是評估瀰漫性心肌纖維化較穩健的指標。\n- 特定疾病途徑：鐵過載、Fabry（細胞內）、纖維化/類澱粉（細胞外）、水腫（細胞內外皆增水）各有其 mapping 特徵。\n- SCMR/EACVI 共識建議在不同臨床情境下標準化 mapping 的實務應用，供臨床與研究採用。\n\n> [!note] 考點：Postcontrast T1何者為偽？\n> **Postcontrast T1值較native T1值高（B）**——實際上顯影劑造成T1縮短，postcontrast T1值「較低」，此敘述錯誤。\n\n> [!note] 考點：心肌水腫對T1/T2何者為偽？\n> **水腫使T2上升同時T1下降（B）**——實際上水腫使T1與T2「皆上升」，此敘述錯誤。",
   "name": "Myocardial T1 Mapping & ECV",
   "nameZh": "心肌T1定量",
   "slug": "myocardial-t1-mapping",

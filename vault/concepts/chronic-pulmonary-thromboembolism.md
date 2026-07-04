@@ -18,13 +18,24 @@ dateRev: 2026-07-02
 - **Multiple peripheral linear opacities** in lower lobes（organized pulmonary infarcts） [^1]
 - 其他：mosaic perfusion、web/band in PA、PA enlargement、RV hypertrophy [^1]
 
+## 放射科醫師影像判讀重點
+- **CTPA 直接徵象**：慢性血栓貼附於管壁呈偏心性/新月形充盈缺損、與管壁鈍角(obtuse angle)相接(有別於急性栓塞的中央充盈缺損與銳角)，可見管腔內 web/band、環狀狹窄(ring-like stenosis)與血栓後鈣化，遠端血管突然變細或截斷(abrupt tapering / pouch defect)。[^2]
+- **間接與續發徵象**：肺動脈幹擴張(PA 徑常 > 主動脈徑)、右心室肥厚/擴大與室間隔平直，反映慢性肺動脈高壓；支氣管動脈與經胸膜之全身性側枝血管(transpleural systemic collaterals，如肋間、內乳動脈)增生代償。[^2]
+- **肺實質/灌注**：mosaic attenuation(馬賽克灌注)為特徵——低衰減區代表低灌注、高衰減區為再分配之高灌注；下肺葉周邊線狀陰影代表機化梗塞/纖維化。雙能量 CT(DECT)碘分布圖與 V/Q 掃描可顯示區段型灌注缺損，有助與特發性肺動脈高壓區分。[^2]
+- **判讀價值**：CTEPH 常被延遲診斷；辨識上述慢性徵象並與急性肺栓塞、原發性肺動脈高壓鑑別，是判定病人是否適合肺動脈內膜切除術(PEA)或球囊肺血管成形術(BPA)之關鍵。[^2]
+
+## 臨床重點（5 句）
+- CTEPH 是急性肺栓塞後的併發症，為肺動脈高壓的重要且可能可治癒的病因，惟臨床上常被低估、診斷延遲。[^2]
+- 表現多為漸進性運動性呼吸困難、運動耐受下降等非特異症狀，易被誤認為其他心肺疾病。[^2]
+- 確診須整合影像、血流動力學(右心導管)與通氣灌注評估，V/Q 掃描對排除 CTEPH 具高敏感度。[^2]
+- 肺動脈內膜切除術(pulmonary endarterectomy)為近端病灶可手術者的首選治癒性治療。[^2]
+- 不可手術或術後殘餘病灶者可考慮球囊肺血管成形術與標靶藥物治療。[^2]
+
 ### 參考來源
 [^1]: 2019 交換考詳解。
+[^2]: **Tier 1** Moore J, Altschul E, Remy-Jardin M, Raoof S. *Chronic Thromboembolic Pulmonary Hypertension: Clinical and Imaging Evaluation*. Clin Chest Med 2024;45(2):405-418（據 PubMed，DOI [10.1016/j.ccm.2024.02.012](https://doi.org/10.1016/j.ccm.2024.02.012)；實際查證 accessed 2026-07-04）——回顧 CTEPH 之臨床與影像徵象，含 CTPA 偏心性壁貼血栓、web/band、mosaic 灌注、PA 擴大與 RV 變化，及各影像模態(CTPA、DECT、V/Q)之優缺，強調其常被低估且診斷延遲。原「官方 2019 詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
-> [!question]- 相關考題
-> ```dataview
-> TABLE WITHOUT ID file.link AS "概念卡", concepts AS "概念"
-> FROM "vault/cards"
-> WHERE contains(concepts, this.file.name)
-> ```
+```dataview
+list from #交換 where contains(concepts, "chronic-pulmonary-thromboembolism")
+```

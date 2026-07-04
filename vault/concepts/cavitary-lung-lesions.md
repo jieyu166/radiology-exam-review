@@ -24,8 +24,23 @@ dateRev: 2026-07-02
 > [!note] 考點：何者「不會」造成cavitating lung nodule？
 > **Lipoid pneumonia（A）**——脂質性肺炎多呈實質化/含脂肪腫塊，通常不形成空洞。TB(B)、septic emboli(C)、Wegener granulomatosis(D)皆為典型空洞成因。[^1]
 
+## 放射科醫師影像判讀重點
+- **空洞的定義與量測**：空洞(cavity)＝腫塊/實質化內因壞死排出而形成之含氣腔，判讀應描述壁厚——壁厚>15 mm偏惡性、<4 mm偏良性（惡性空洞壁多厚且不規則、內緣結節狀）。[^2]
+- **血管性空洞形態**：敗血性栓子(septic emboli)呈**多發、周邊、下肺為主之結節，常見feeding vessel徵象並可空洞化**；GPA(Wegener)則為多發結節/腫塊，約半數空洞、壁厚不規則，可合併肺出血之毛玻璃影。[^2]
+- **感染性空洞判讀**：活動性肺結核好發上葉尖後段/下葉背段，伴tree-in-bud與衛星病灶；肺膿瘍多為單發厚壁含氣液平；血管侵襲性麴菌病可見halo sign與後期air-crescent sign。[^2]
+- **腫瘤性空洞**：原發鱗狀細胞癌最易空洞化（壁厚不規則、偏心腔）；空洞性轉移常見於鱗癌與肉瘤。[^2]
+- **判讀陷阱**：lipoid pneumonia於CT可測得**負HU脂肪密度之實質化/腫塊**（可呈「crazy-paving」），通常不形成空洞，與上述壞死性病灶鑑別；勿將含氣支氣管(air bronchogram)或囊腫誤判為空洞。[^1]
+
+## 臨床重點（5 句）
+- 空洞性肺病灶的鑑別高度依賴臨床脈絡：發燒/敗血症傾向感染或敗血性栓子，慢性咳嗽/體重減輕與抽菸史傾向惡性。[^2]
+- 系統性血管炎（尤其GPA）常合併上呼吸道症狀、腎絲球腎炎與c-ANCA陽性，應納入多發空洞病灶之鑑別。[^2]
+- 敗血性栓子常源自右心心內膜炎或感染性靜脈導管，須追查感染源與血液培養。[^2]
+- 空洞病灶若疑活動性肺結核應採呼吸道隔離並送痰抗酸菌檢查。[^2]
+- 含脂肪之lipoid pneumonia多與吸入礦物油/長期臥床誤吸有關，屬非感染性病因。[^2]
+
 ### 參考來源
 [^1]: Radiology Review Manual, p.428（2018 交換考題詳解 p.331 引用；Tier 2 教科書）。空洞性肺結節成因含感染(TB/膿瘍/黴菌)、septic emboli、Wegener granulomatosis、鱗癌/空洞性轉移；lipoid pneumonia多呈實質化含脂肪腫塊，通常不形成空洞。
+[^2]: **Tier 1** Feragalli B, Mantini C, Sperandeo M, et al. *The lung in systemic vasculitis: radiological patterns and differential diagnosis*. Br J Radiol 2016;89(1061):20150992（據 PubMed，DOI [10.1259/bjr.20150992](https://doi.org/10.1259/bjr.20150992)；實際查證 accessed 2026-07-04）——同儕審查影像回顧，系統整理肺部空洞結節之HRCT形態與鑑別（含GPA/Wegener等ANCA相關血管炎之多發空洞結節、壞死性病灶與感染/腫瘤鑑別），佐證本卡空洞成因與壁厚判讀重點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 下列何者不會造成cavitating lung nodule? (2018-418)

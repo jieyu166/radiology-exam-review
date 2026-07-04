@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**超音波融合影像：超音波與 CT/MRI 對位時，移動的是 CT/MRI 影像（非超音波，因 US 為 real-time），通常 MRI 對位較 CT 準。左肝以左門靜脈臍部為標定，右肝以右門靜脈分叉為標定。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s10396-020-01006-w",
+      "url": "https://doi.org/10.1007/s10396-020-01006-w"
+    }
+  ],
+  "imagingFindings": "- **臨床用途**：CT/MR–US 融合影像可即時把先前 CT/MRI 與即時超音波並列/疊合，**改善對超音波不顯眼(inconspicuous)肝細胞癌之可視化**，並理解病灶與肝血管之三維關係，提升消融導引之技術成功率。\n- **US–US 融合/疊合**：可比對消融前後之超音波影像評估**安全消融邊界(ablative margin)**；US–US overlay 將腫瘤影像投影至消融後高回音區，有助達成足夠邊界、降低局部腫瘤進展。\n- **判讀對位品質**：對位以血管分叉等內部標定點為準，判讀時須確認呼吸相與探頭角度一致，避免因對位漂移造成病灶定位誤差。\n- **模態對位差異**：一般而言 **MRI 對位較 CT 準**（軟組織對比佳、血管標定清楚）。",
   "keyPoints": [
     "對位時移動的是 **CT/MRI 影像**，超音波為即時影像不動。",
     "**MRI 對位通常較 CT 準**。",

@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**肝門處由前到後排列口訣「膽在前、動脈居中、門脈最後」——總膽管最前方、肝動脈居中、主門脈最深(最後方)，這是膽道超音波掃查辨識肝門三大結構的基本定位。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.341125190",
+      "url": "https://doi.org/10.1148/rg.341125190"
+    }
+  ],
+  "imagingFindings": "- **肝門(porta hepatis)組成**：涵蓋 portal triad（main portal vein、common hepatic artery、common bile duct）以及淋巴、神經與結締組織；此三構造集束走行於肝十二指腸韌帶(hepatoduodenal ligament)內，是肝門部影像定位的核心解剖。\n- **超音波為首選(定位膽道/血管三管)**：US 為肝門部血管與膽道病灶偵測的初始首選(initial modality of choice)，並能準確顯示解剖變異；辨識三管時可用「膽管在前、肝動脈居中、門脈在後」的前後排列，配合彩色都卜勒以血流有無區分動靜脈與無血流的膽管。\n- **CT/MRI 角色**：多排 CT 與 MRI 用於腫塊(如膽道系統之膽總管囊腫、良惡性膽道腫瘤、淋巴結病變、神經或結締組織來源腫瘤)的特徵化與鑑別，補足 US 對深部與腫塊定性之不足。\n- **判讀陷阱**：肝門三管在橫切面呈「Mickey Mouse sign」——大耳為肝動脈、小耳為膽管、臉為門脈；若膽管顯著大於伴行肝動脈需警覺膽道阻塞；肝十二指腸韌帶為胰臟與腸胃道癌沿韌帶蔓延(perineural/直接侵犯)的重要途徑，判讀肝門腫塊時應一併評估此擴散路徑。",
   "keyPoints": [
     "**由前至後排列順序**：**總膽管(common bile duct)** → **肝動脈(hepatic artery)** → **主門脈(main portal vein)**。",
     "**臨床意義**：超音波掃查肝門部時，三管狀構造由淺(前)至深(後)依序為膽管、動脈、靜脈，此排列有助於快速定位辨識個別結構(尤其在都卜勒難以立即分辨血流方向時)。"

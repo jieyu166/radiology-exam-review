@@ -25,8 +25,23 @@ dateRev: 2026-07-02
 > [!note] 考點：關於正常懷孕與子宮外孕描述，何者錯誤？
 > **β-HCG 1600 mIU/mL且腹部超音波未見子宮內妊娠囊即可排除正常懷孕（B）**——1600遠低於腹部US判別區(6000-6500)，無法排除正常懷孕。β-HCG每48-72hr倍增至10,000-20,000(A對)、CT/MR直接徵象為異位妊娠囊(C對)、間接徵象為附件血腫/hemosalpinx/hemoperitoneum(D對)皆為正確描述。[^1]
 
+## 放射科醫師影像判讀重點
+- **經陰道超音波(TVUS)為首選模態**：對「位置不明妊娠(pregnancy of unknown location, PUL)」判讀應先系統性掃視子宮腔、雙側附件與Douglas窩；判別區的意義是「β-HCG高於閾值卻仍見不到子宮內妊娠囊」時提高子宮外孕警覺，而非單一數值即可排除正常妊娠。[^2]
+- **判別區並非硬性門檻**：實務上β-HCG高於一般認定的判別區仍可能存在存活子宮內妊娠；判讀報告不應僅憑單一β-HCG值建議介入，血流動力學穩定者應追蹤系列β-HCG與複查超音波。[^2]
+- **子宮外孕直接徵象**：附件區見含卵黃囊/胚極的異位妊娠囊、或「tubal ring / bagel sign」（附件環狀高回音病灶）為高特異度直接徵象。[^1]
+- **間接徵象與量化**：附件血腫、輸卵管積血(hemosalpinx)、Douglas窩游離液體或腹腔積血；大量複雜性積液提示破裂，需緊急處置。[^1]
+- **判讀陷阱**：子宮內見「假妊娠囊(pseudogestational sac)」（中央位、無雙蛻膜徵）易被誤判為子宮內妊娠；子宮角/間質部妊娠、剖腹產瘢痕妊娠位置隱蔽，須特別留意肌層包繞是否完整。[^1]
+
+## 臨床重點（5 句）
+- 子宮外孕最常見危險因子為既往骨盆腔發炎、輸卵管手術/病變、既往子宮外孕與輔助生殖技術。[^2]
+- 正常子宮內妊娠β-HCG約每48-72小時倍增，倍增不良提示異常妊娠但不能定位。[^1]
+- 對血流動力學穩定的PUL病人，不應僅憑單次β-HCG超過判別區即決定手術或藥物介入，應結合系列數值與超音波追蹤。[^2]
+- 破裂性子宮外孕以急性腹痛、低血壓與腹腔積血表現，屬婦科急症。[^2]
+- Methotrexate藥物治療適用於未破裂、β-HCG不過高且無明顯胎心的選定病例。[^2]
+
 ### 參考來源
 [^1]: *Ectopic pregnancy*, UpToDate, eMedicine（2018 交換考題詳解 p.312 引用；Tier 2 臨床資料庫）。正常子宮內妊娠β-HCG每48-72hr倍增至10,000-20,000；判別區transvaginal 1500-1800(多胞胎至2300)、abdominal 6000-6500 mIU/mL；子宮外孕直接徵象為異位妊娠囊、間接徵象為附件血腫/hemosalpinx/hemoperitoneum。
+[^2]: **Tier 1** Ko JKY, Cheung VYT. *Time to revisit the human chorionic gonadotropin discriminatory level in the management of pregnancy of unknown location*. J Ultrasound Med 2014;33(3):465-471（據 PubMed，DOI [10.7863/ultra.33.3.465](https://doi.org/10.7863/ultra.33.3.465)；實際查證 accessed 2026-07-04）——回顧性研究指出β-HCG高於一般判別區者仍可能為存活子宮內妊娠（最高達9083 mIU/mL之三胞胎），支持對血流動力學穩定的PUL病人不應僅憑單一β-HCG值決定介入，佐證本題「不能僅以腹部US未見妊娠囊排除正常懷孕」之核心考點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於Normal pregnancy與ectopic pregnancy的描述，下列何者錯誤? (2018-399)

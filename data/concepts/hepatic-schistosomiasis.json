@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**非洲/中東/亞洲流行地區病史合併肝硬化伴隨顯著回音性間隔(hyperechoic septa)分隔相對正常肝實質，形成特徵性「龜背徵(turtle back appearance)」，最可能診斷為肝血吸蟲病(schistosomiasis)——蟲卵沉積於門脈周圍造成「pipestem fibrosis（管狀纖維化）」，門脈周圍纖維化增厚形成超音波上的高回音間隔網。** 判讀分水嶺：**血吸蟲病肝纖維化主要侵犯門脈周圍(periportal)，形成pipestem fibrosis，超音波呈turtle back/網狀高回音間隔;此與病毒性肝炎肝硬化的瀰漫結節狀再生(regenerative nodules)分佈型態不同;好發於血吸蟲病流行地區（非洲、中東、東南亞部分地區、南美）有疫水接觸史之族群。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00261-007-9329-7",
+      "url": "https://doi.org/10.1007/s00261-007-9329-7"
+    }
+  ],
+  "imagingFindings": "- **超音波（*S. japonicum* 主導）**：肝內高回音間隔沿多角形肝小葉輪廓交織成「魚鱗網狀（fish-scale network）」，即題目所述 turtle back，反映沿門脈徑纖維化。\n- **超音波（*S. mansoni* 主導）**：門脈徑周圍高回音增厚或纖維帶（periportal echogenic thickening / fibrotic band）為主，肝腫大、脾腫大、門脈高壓與胃食道靜脈曲張常伴隨。\n- **CT**：*S. japonicum* 在肝實質周邊呈間隔狀鈣化沿門脈徑分布形成「turtle-back（龜背）」外觀，代表門脈徑上鈣化蟲卵；*S. mansoni* 則於中央大門脈分支周圍呈低衰減環/帶且顯著強化；肝之大小與形狀相對保留。\n- **MRI**：纖維間隔於 T1WI 呈低訊號、T2WI 呈高訊號並有強化，可補充超音波/CT 對纖維化範圍之評估。\n- **鑑別與陷阱**：turtle back/魚鱗網狀為門脈周圍纖維化型態，與病毒性肝炎肝硬化之瀰漫再生結節分布不同；勿與肝包蟲囊（子囊）、amoebic 膿瘍、淋巴瘤結節混淆——後三者無門脈徑纖維間隔網。",
   "keyPoints": [
     "**病因與機轉**：血吸蟲(Schistosoma，尤其*S. mansoni*、*S. japonicum*)蟲卵經門脈系統沉積於肝臟**門脈周圍(periportal)**組織，誘發肉芽腫反應與纖維化。",
     "**特徵性超音波徵象——Turtle back appearance（龜背徵）**：肝臟粗糙的高回音間隔(hyperechoic septa)分隔相對正常的肝實質島狀區域，形成類似龜殼紋路的網狀外觀，反映**pipestem fibrosis（管狀/管周纖維化）**沿門脈分支分佈。",
     "**Pipestem fibrosis（管狀纖維化）**：門脈周圍顯著增厚之纖維化組織環繞門脈分支，為血吸蟲病肝纖維化的病理學特徵，與病毒性肝炎肝硬化的瀰漫結節性再生型態不同。",
     "**流行病學**：好發於**血吸蟲病流行地區**（非洲、中東、部分東南亞、南美）有**疫水接觸史**之族群。"
   ],
-  "management": "",
+  "management": "- 血吸蟲病是全球第二重要的寄生蟲病，肝纖維化源自蟲卵（非成蟲）在門脈小靜脈沉積誘發的肉芽腫反應。\n- *S. mansoni*（非洲、中東、南美）與 *S. japonicum*（東亞）為肝脾型血吸蟲病主要蟲種，臨床以肝脾腫大、門脈高壓與靜脈曲張出血表現。\n- 診斷依賴疫區疫水接觸史、糞便/尿液蟲卵檢查或血清學，影像用於評估纖維化分期與併發症。\n- 治療以 praziquantel 為主，早期纖維化在治療後部分可逆。\n- 併發症除門脈高壓外，尚可見肺部（結節伴毛玻璃暈）與結腸（發炎性息肉、纖維化狹窄）受累。\n\n> [!note] 考點：非洲疫區病史合併肝硬化伴「龜背徵(turtle back)」，最可能診斷?\n> **Schistosomiasis（D）**——高回音間隔分隔正常肝實質形成龜背徵，反映門脈周圍pipestem fibrosis，為血吸蟲病特徵性影像表現。Amoebiasis(A)典型呈肝膿瘍非纖維化間隔;Hydatid(B)呈囊性病灶伴子囊;Lymphoma(C)呈局部/瀰漫低回音病灶;Tuberculosis(E)可呈粟粒狀病灶或膿瘍非turtle back紋路。",
   "name": "Hepatic Schistosomiasis — \"Turtle Back\" Sign",
   "nameZh": "肝血吸蟲病",
   "slug": "hepatic-schistosomiasis",

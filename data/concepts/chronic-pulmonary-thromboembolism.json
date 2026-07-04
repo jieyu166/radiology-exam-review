@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**慢性肺栓塞 CT 徵象包括：鈣化血栓、transpleural systemic collateral vessels（如 intercostal arteries）、bilateral lower lobe peripheral linear opacities（= organized infarcts/fibrosis）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.ccm.2024.02.012",
+      "url": "https://doi.org/10.1016/j.ccm.2024.02.012"
+    }
+  ],
+  "imagingFindings": "- **CTPA 直接徵象**：慢性血栓貼附於管壁呈偏心性/新月形充盈缺損、與管壁鈍角(obtuse angle)相接(有別於急性栓塞的中央充盈缺損與銳角)，可見管腔內 web/band、環狀狹窄(ring-like stenosis)與血栓後鈣化，遠端血管突然變細或截斷(abrupt tapering / pouch defect)。\n- **間接與續發徵象**：肺動脈幹擴張(PA 徑常 > 主動脈徑)、右心室肥厚/擴大與室間隔平直，反映慢性肺動脈高壓；支氣管動脈與經胸膜之全身性側枝血管(transpleural systemic collaterals，如肋間、內乳動脈)增生代償。\n- **肺實質/灌注**：mosaic attenuation(馬賽克灌注)為特徵——低衰減區代表低灌注、高衰減區為再分配之高灌注；下肺葉周邊線狀陰影代表機化梗塞/纖維化。雙能量 CT(DECT)碘分布圖與 V/Q 掃描可顯示區段型灌注缺損，有助與特發性肺動脈高壓區分。\n- **判讀價值**：CTEPH 常被延遲診斷；辨識上述慢性徵象並與急性肺栓塞、原發性肺動脈高壓鑑別，是判定病人是否適合肺動脈內膜切除術(PEA)或球囊肺血管成形術(BPA)之關鍵。",
   "keyPoints": [
     "**Calcified thrombus** in pulmonary arteries",
     "**Transpleural systemic collateral vessels**（intercostal / internal mammary arteries）代償",
     "**Multiple peripheral linear opacities** in lower lobes（organized pulmonary infarcts）",
     "其他：mosaic perfusion、web/band in PA、PA enlargement、RV hypertrophy"
   ],
-  "management": "",
+  "management": "- CTEPH 是急性肺栓塞後的併發症，為肺動脈高壓的重要且可能可治癒的病因，惟臨床上常被低估、診斷延遲。\n- 表現多為漸進性運動性呼吸困難、運動耐受下降等非特異症狀，易被誤認為其他心肺疾病。\n- 確診須整合影像、血流動力學(右心導管)與通氣灌注評估，V/Q 掃描對排除 CTEPH 具高敏感度。\n- 肺動脈內膜切除術(pulmonary endarterectomy)為近端病灶可手術者的首選治癒性治療。\n- 不可手術或術後殘餘病灶者可考慮球囊肺血管成形術與標靶藥物治療。",
   "name": "Chronic Pulmonary Thromboembolism CT Signs",
   "nameZh": "慢性肺栓塞",
   "slug": "chronic-pulmonary-thromboembolism",

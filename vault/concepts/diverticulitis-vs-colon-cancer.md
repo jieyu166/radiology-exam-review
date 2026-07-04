@@ -18,11 +18,27 @@ dateRev: 2026-07-01
 - **兩者皆可見**：**腸壁增厚(mural thickening)**、**周圍發炎變化(pericolonic inflammatory change)** 於癌症與憩室炎皆可出現，非有效鑑別點。[^1]
 - **非鑑別點**：**腹水(ascites)** 並非有效區分兩者之依據。[^1]
 
+## 放射科醫師影像判讀重點
+- **首選檢查**：靜脈顯影 CT（CE-CT）為急性大腸憩室炎診斷首選，具高敏感度、特異度與觀察者間一致性，可同時定位發炎憩室、排除替代診斷並偵測併發症（膿瘍、穿孔、瘻管）。[^2]
+- **傾向惡性的長度與邊緣**：腫瘤段腸壁增厚常為**短節段（<10 cm）、肩狀突起(shouldering)邊緣、腔內偏心不對稱**；相對地憩室炎多為**較長節段(≥10 cm)、逐漸過渡(tapered margins)的對稱性壁增厚**。[^2]
+- **憩室存在為關鍵旁證**：受累節段內見到**憩室**是傾向憩室炎（尤其慢性憩室炎）而非大腸癌的最強單一形態學徵象；周圍脂肪浸潤、筋膜增厚、comb sign 血管充血支持發炎。[^3]
+- **淋巴結為判讀分水嶺**：**區域淋巴結腫大(regional lymphadenopathy)** 較支持癌症；但兩者皆可有周圍反應性小淋巴結，需結合腸壁形態綜合判斷。[^2]
+- **陷阱與追蹤**：發炎可掩蓋潛在腫瘤，且穿孔型大腸癌可完全模擬憩室炎；急性發作緩解後應以大腸鏡或 CT colonography 追蹤排除惡性。[^3]
+
+## 臨床重點（5 句）
+- 急性大腸憩室炎是憩室疾病最常見的併發症，屬腹部急症，嚴重度可從局部憩室發炎到糞性腹膜炎。[^2]
+- 臨床分級常用改良 Hinchey 分類與 WSES 分類以指引保守或手術治療。[^2]
+- 鑑別診斷除大腸癌外，尚包括腸脂垂炎、缺血性大腸炎、闌尾炎、感染性腸炎與發炎性腸病。[^2]
+- 慢性/復發性憩室炎其影像與急性期相近，臨床上與大腸癌之區分格外困難。[^3]
+- 因憩室炎與大腸癌臨床與影像重疊，發作緩解後建議內視鏡追蹤以確保未遺漏惡性病灶。[^3]
+
 > [!note] 考點：何種發現較支持大腸癌而非憩室炎？
 > **區域淋巴結病變**——較常見於癌症。Halo sign提示憩室炎；腸壁增厚與周圍發炎變化兩者皆可見；腹水非鑑別點。[^1]
 
 ### 參考來源
 [^1]: *McGraw-Hill Specialty Board Review: RADIOLOGY*（2018 交換考題詳解 p.130 引用；Tier 2 board review教材）。區域淋巴結病變較常見於癌症；halo sign提示憩室炎；腸壁增厚與周圍發炎變化兩者皆可見；腹水非鑑別依據。
+[^2]: **Tier 1** Tiralongo F, Di Pietro S, Milazzo D, et al. *Acute Colonic Diverticulitis: CT Findings, Classifications, and a Proposal of a Structured Reporting Template*. Diagnostics (Basel) 2023;13(24):3628（據 PubMed，DOI [10.3390/diagnostics13243628](https://doi.org/10.3390/diagnostics13243628)；實際查證 accessed 2026-07-04）——CE-CT 為急性大腸憩室炎首選，具高敏感度/特異度；影像須分腸壁與腸外徵象判讀，並以改良 Hinchey 與 WSES 分級；鑑別診斷含大腸癌、腸脂垂炎、缺血性大腸炎、闌尾炎、感染性腸炎與 IBD；區域淋巴結腫大較支持癌症。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Tier 1** Gryspeerdt S, Lefere P. *Chronic diverticulitis vs. colorectal cancer: findings on CT colonography*. Abdom Imaging 2012;37(6):1101-9（據 PubMed，DOI [10.1007/s00261-012-9858-6](https://doi.org/10.1007/s00261-012-9858-6)；實際查證 accessed 2026-07-04）——區分憩室炎與大腸癌最強單一形態學徵象為「受累節段內存在憩室」；憩室炎傾向長節段(≥10 cm)、薄壁、逐漸過渡邊緣、黏膜皺襞扭曲但保留；發炎可掩蓋潛在腫瘤，緩解後應追蹤排除惡性。
 
 ## 題目
 > [!question]- Which of the following findings suggests colon cancer rather than diverticulitis? (2018-131)

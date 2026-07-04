@@ -2,14 +2,19 @@
   "checked": false,
   "definition": "**女性骨盆常見囊性病灶由上到下的位置口訣：子宮頸表面的Nabothian囊腫最高、陰道側壁上段的Gartner氏管囊腫居中、陰道口/會陰的Bartholin氏腺囊腫最低——三者依生殖泌尿道發育解剖位置由上而下排列。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1097/01.ju.0000062543.99821.a2",
+      "url": "https://doi.org/10.1097/01.ju.0000062543.99821.a2"
+    }
+  ],
+  "imagingFindings": "- **定位優先於組織學**：陰道囊性病灶的鑑別高度依賴「解剖層次」——上段側壁（Gartner）、下段外陰（Bartholin）——影像的首要任務是精確定位而非組織診斷，因多數為良性且處置由症狀決定。\n- **MRI 訊號特徵**：Gartner／Bartholin 囊腫多呈 T2 高訊號、T1 低訊號之單純囊液；若 T1 呈高訊號應考慮出血或含蛋白／黏液成分（如子宮內膜異位或感染），需與單純囊腫區分。\n- **Gartner 氏管囊腫的伴隨異常（判讀陷阱）**：源自中腎管殘跡，可合併同側泌尿生殖系統發育異常（如異位輸尿管、單側腎發育不全），見 Gartner 囊腫時應檢視上泌尿道。\n- **與尿道憩室之鑑別**：位於陰道前壁近尿道的囊性病灶須與尿道憩室鑑別——後者常環繞尿道、排尿時可見與尿道相通，VCUG／MRI 有助釐清。\n- **模態選擇**：超音波為初步評估工具；MRI（含 T1/T2 及脂肪抑制）為定性與定位之最佳工具，VCUG 對疑似與尿道相通者有價值。",
   "keyPoints": [
     "**Nabothian囊腫**：位於**子宮頸表面**，為最上位之囊性病灶，因子宮頸腺體開口阻塞、黏液滯留所致，極常見且多良性偶然發現。",
     "**Gartner氏管囊腫**：位於**陰道側壁上段**，源自中腎管(Wolffian duct)殘跡。",
     "**Bartholin氏腺囊腫**：位於**陰道口/會陰最下段**，因巴氏腺導管阻塞所致。"
   ],
-  "management": "",
+  "management": "- 多數陰道囊性病灶為良性，常為無症狀之偶然發現。\n- 病灶可從無症狀小囊到大至造成排尿阻塞之範圍。\n- 診斷依病史、理學檢查與影像；處置由症狀嚴重度決定。\n- 無症狀者可觀察；有症狀者才需引流或切除。\n- 病因涵蓋胚胎殘留（中腎管）、異位組織與泌尿系統異常。\n\n> [!note] 考點：女性骨盆囊性病灶由上至下排列？\n> **Nabothian囊腫(3)→Gartner氏管囊腫(1)→Bartholin氏腺囊腫(2)（C：312）**。",
   "name": "Female Pelvis Cystic Lesions — Superior to Inferior Location",
   "nameZh": "女性骨盆囊性病灶位置",
   "slug": "female-pelvis-cystic-lesions-location",

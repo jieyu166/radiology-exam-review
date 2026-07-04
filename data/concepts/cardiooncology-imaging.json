@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**化療心毒性分兩型：Type I(anthracyclines蒽環類)＝氧化壓力致心肌破壞、劑量依賴、『不可逆』；Type II(trastuzumab抑制ErbB2/HER2路徑)＝『可逆』。多模態影像各有角色：3D-STE測GLS/torsion、CMR組織特徵化(纖維化/水腫)可偵測早晚期心毒性、心肌切片為最準確特異之診斷。本題四項皆正確故答案E。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s12350-016-0535-y",
+      "url": "https://doi.org/10.1007/s12350-016-0535-y"
+    }
+  ],
+  "imagingFindings": "- **左心室功能監測基準**：LVEF為心毒性監測核心指標，但變異度高；判讀應注意化療相關心功能不全(CTRCD)常定義為LVEF較基準下降≥10個百分點且低於正常下限，故需與基準對照而非單一數值。\n- **應變影像早於LVEF**：斑點追蹤之global longitudinal strain(GLS)較基準相對下降>15%為臨床顯著早期指標，常在LVEF尚正常時即偵測到亞臨床心肌功能受損。\n- **CMR為組織特徵化與容積金標準**：T1/T2 mapping與ECV可辨識心肌水腫、發炎與瀰漫性纖維化；晚期釓增強(LGE)可顯示局部纖維化，對容積與LVEF量測再現性優於超音波。\n- **多模態各司其職**：核醫平衡式放射性核種血管造影(ERNA/MUGA)提供高再現性LVEF；超音波為第一線追蹤；CMR用於超音波影像不佳或需組織特徵化時。\n- **判讀陷阱**：影像上的心功能下降須排除負荷狀態、心律不整與影像品質造成之測量誤差；心肌切片雖最特異，因侵襲性與取樣誤差通常不作常規監測工具。",
   "keyPoints": [
     "**Type I vs Type II心毒性**：",
     "**Type I（anthracyclines）**：氧化壓力致心肌細胞破壞、劑量依賴、**不可逆(irreversible)**。",
@@ -13,7 +18,7 @@
     "**心肌切片(myocardial biopsy)**：仍為辨識化療所致心肌損傷之**最準確且特異**方法。",
     "**風險因子**：trastuzumab心毒性風險含年齡>50歲(肥胖/過重)、先前或併用anthracycline。"
   ],
-  "management": "",
+  "management": "- 蒽環類(anthracycline)心毒性多為劑量依賴且相對不可逆，累積劑量越高風險越大。\n- Trastuzumab心毒性多為可逆，停藥後心功能常可回復，且不必然劑量依賴。\n- 蒽環類與trastuzumab併用會顯著增加心毒性風險，臨床常錯開使用時序。\n- 心毒性危險因子包含高齡、既有心血管疾病、胸部放療與既往蒽環類暴露。\n- 化療前建立心功能基準並定期監測，是早期發現與介入CTRCD的關鍵策略。",
   "name": "Cardio-oncology Imaging (Chemotherapy Cardiotoxicity)",
   "nameZh": "心臟腫瘤學影像",
   "slug": "cardiooncology-imaging",

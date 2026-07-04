@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**Ureteritis cystica是『良性』黏膜下多發小囊病變（非惡性、無惡性潛能）——這是本題陷阱。源自慢性感染/發炎使Brunn上皮巢囊性轉化；好發於慢性UTI的成年女性、近端輸尿管（proximal 1/3）為主；影像呈多發小圓形充盈缺損，一般不造成阻塞。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1016/j.urology.2020.01.017",
+      "url": "https://doi.org/10.1016/j.urology.2020.01.017"
+    }
+  ],
+  "imagingFindings": "- **典型影像表現**：IVU／逆行性腎盂攝影（retrograde pyelogram）呈多發、小、圓形、邊緣銳利、平滑的充盈缺損，沿輸尿管黏膜排列——邊緣光滑與平滑輪廓是與惡性病灶區別的關鍵。\n- **好發位置與側性**：好發近端至中段輸尿管，可為單側且範圍廣泛（extensive unilateral）；常於因結石或感染做影像／輸尿管鏡時偶然發現。\n- **鑑別診斷（判讀陷阱）**：須與尿路上皮癌（多發移行細胞癌）、氣腫（如壞疽性感染的氣泡）、血塊鑑別——囊性炎的病灶大小均一、邊緣平滑、無侵犯性輪廓，有助排除惡性。\n- **輸尿管鏡對照**：內視鏡下可見多發黏膜下透明小囊，直接佐證影像上的充盈缺損為良性囊性結構而非實質腫塊。",
   "keyPoints": [
     "**本質（本題重點）**：**良性(benign)**病變——輸尿管/腎盂黏膜下多發小囊腫；**非惡性、無高度惡性轉化潛能**（故「malignant condition with high potential for degeneration」為錯誤）。",
     "**好發位置**：**近端1/3輸尿管（proximal 1/3）為主**（亦可腎盂＝pyeloureteritis cystica）。",
@@ -11,7 +16,7 @@
     "**族群**：好發**成年女性**、慢性泌尿道感染史。",
     "**阻塞**：一般**不造成輸尿管阻塞**；影像（IVU/逆行）呈多發小圓形（1-3mm）平滑充盈缺損。"
   ],
-  "management": "",
+  "management": "- Ureteritis cystica 為罕見、良性、增生性病變。\n- 與慢性泌尿上皮刺激（反覆泌尿道感染、結石）相關。\n- 常在無症狀個體因例行影像或輸尿管鏡而偶然診斷。\n- 屬良性，無需針對病灶本身的積極治療。\n- 處置著重於控制潛在誘因（感染／結石）。\n\n> [!note] 考點：關於ureteritis cystica何者「不正確」？\n> **The lesion is a malignant condition has high potential for degeneration（選項2）**——ureteritis cystica為**良性**病變，無高度惡性轉化潛能。好發近端1/3輸尿管、與Brunn上皮巢轉化相關、一般不造成阻塞、好發成年女性皆為正確描述。",
   "name": "Ureteritis Cystica",
   "nameZh": "輸尿管囊性炎",
   "slug": "ureteritis-cystica",

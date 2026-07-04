@@ -2,10 +2,15 @@
   "checked": false,
   "definition": "**慢性靜脈功能不全（CVI）**是靜脈功能異常導致水腫、皮膚變化或潰瘍的疾病，以 CEAP 分類評估。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s11886-019-1201-1",
+      "url": "https://doi.org/10.1007/s11886-019-1201-1"
+    }
+  ],
+  "imagingFindings": "- **雙功能超音波為首選（gold standard）**：評估反流（reflux）與阻塞的第一線影像即為 duplex ultrasound——用於定位不全的靜脈節段，是後續介入治療規劃的依據。\n- **反流的判讀標準**：以誘發手法（Valsalva／擠壓釋放）測得的逆向血流時間（reflux duration）判定靜脈瓣膜不全，並逐一標記大／小隱靜脈與穿通支的不全節段。\n- **CEAP 對應影像決策**：臨床分級（C2–C6）驅動影像深度——有反流或阻塞者，依病因（etiology）、解剖（anatomy）、病理生理（reflux/obstruction）分層以選擇治療。\n- **進階影像時機**：當懷疑近端（髂靜脈／下腔靜脈）阻塞或 May-Thurner 等中央病灶時，超音波不足以評估，須加做進階影像（CT/MR 靜脈攝影或靜脈攝影）。\n- **判讀陷阱—方向性**：May-Thurner 為右髂總「動脈」壓迫左髂總「靜脈」；判讀髂靜脈受壓時須釐清壓迫來源與方向，勿與其他中央阻塞混淆。",
   "keyPoints": [],
-  "management": "",
+  "management": "- 靜脈疾病常見，部分族群盛行率可高達 80%。\n- 顯著慢性靜脈疾病伴潰瘍或營養性皮膚變化者約占人口 1–10%。\n- 系統性評估臨床表現有助引導適當影像檢查。\n- CEAP 分類是評估與處置慢性靜脈疾病的共通架構。\n- 依反流或阻塞的病因與解剖，可規劃內科、血管內或手術治療。",
   "name": "Chronic Venous Insufficiency (CVI)",
   "nameZh": "慢性靜脈功能不全",
   "slug": "chronic-venous-insufficiency",

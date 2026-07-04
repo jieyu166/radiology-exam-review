@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**胸部X光經典徵象與其對應病因的配對重點：hilum convergence sign 用來區分『擴大的肺動脈』與『縱膈腫塊』——肺動脈分支若朝中央腫塊會聚＝擴大的肺動脈，若越過腫塊朝心臟會聚＝縱膈腫塊；故它對應的是『肺動脈擴大』而非 sarcoidosis（本題陷阱）。** 其餘配對：Luftsichel sign＝左上葉塌陷、cervicothoracic sign＝胸廓入口/前後縱膈定位、comet tail sign＝圓形肺不張（round atelectasis）。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1111/1754-9485.12031",
+      "url": "https://doi.org/10.1111/1754-9485.12031"
+    }
+  ],
+  "imagingFindings": "- **Hilum convergence 判讀法**：追蹤肺動脈分支的走向是關鍵——分支「向」中央腫塊會聚代表腫塊即為擴大的肺動脈；分支「越過」腫塊繼續向心臟會聚，則腫塊為肺門旁縱膈病灶，二者可於同一張正面胸片判別。\n- **Luftsichel sign（左上葉塌陷）**：正面片主動脈弓旁的新月狀透亮源自過度充氣的下葉上段（superior segment）；此徵象幾乎專屬左上葉塌陷，配合左肺門上移可確認。\n- **Cervicothoracic sign（頸胸交界定位）**：以病灶上緣是否於鎖骨水平仍清晰為據——上緣在鎖骨以上仍銳利者位於後縱膈（被含氣肺勾勒），上緣於鎖骨水平以下即模糊者位於前縱膈（與軟組織相鄰），常用於甲狀腺腫定位。\n- **Comet tail sign（圓形肺不張）**：CT 上見胸膜下腫塊、鄰接胸膜增厚、血管支氣管束呈漩渦狀向腫塊捲入——彗星尾為與胸膜相連之關鍵，可避免誤判為腫瘤。\n- **善用 CT 對照**：多數經典胸片徵象的解剖基礎可由 CT 驗證；遇不典型或懷疑腫瘤時，CT 有助釐清徵象成因並避免過度診斷。",
   "keyPoints": [
     "**Hilum convergence sign（本題錯誤配對）**：用於區分**明顯肺門 vs 擴大肺動脈**——若肺動脈分支**朝中央腫塊會聚**＝**擴大的肺動脈（enlarged pulmonary artery）**；若分支**越過腫塊朝心臟會聚**＝縱膈腫塊。故其對應病因為**肺動脈擴大／肺動脈高壓**，**並非 sarcoidosis**。",
     "**Luftsichel sign（新月狀空氣影）**：**左上葉塌陷（LUL collapse）**——塌陷上葉與主動脈弓間之過度充氣下葉尖段形成新月狀透亮。",
     "**Cervicothoracic sign**：用於**胸廓入口（thoracic inlet）病灶定位**——鎖骨上緣仍清晰可見之病灶位於後縱膈/胸腔內；上緣於鎖骨水平以下模糊者位於前縱膈。",
     "**Comet tail sign**：**圓形肺不張（round atelectasis）**——塌陷肺鄰接肋膜增厚、血管/支氣管扭曲聚攏呈彗星尾。"
   ],
-  "management": "",
+  "management": "- 經典胸片徵象多由 Felson 等前輩放射科醫師系統性描述並命名。\n- 熟記徵象可加速鑑別診斷並縮小可能病因範圍。\n- 單一徵象常對應特定的解剖或病理狀況，具高度鑑別價值。\n- 徵象須結合臨床情境判讀，避免脫離脈絡的過度解讀。\n- 影像徵象是溝通語言，正確使用有助跨科臨床討論。\n\n> [!note] 考點：「放射學徵象–可能病因」配對何者「不正確」?\n> **Hilum convergence sign – Sarcoidosis（A）不正確**——hilum convergence sign 對應**肺動脈擴大**（區分擴大肺動脈 vs 縱膈腫塊），非 sarcoidosis。Luftsichel–LUL collapse、cervicothoracic sign–胸腔內甲狀腺腫、comet tail–round atelectasis 皆為正確配對。",
   "name": "Chest Radiographic Signs — Sign/Etiology Pairs",
   "nameZh": "胸部X光徵象",
   "slug": "chest-radiographic-signs",

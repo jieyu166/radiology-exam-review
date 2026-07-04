@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**兒童腸套疊最常見的型態是「迴結腸型(ileocolic intussusception)」——即迴腸套入結腸——典型好發於嬰幼兒（多6個月至3歲），表現為陣發性哭鬧、血便，超音波右上腹可見「假腎徵(pseudokidney sign)」（縱切面呈腎臟樣分層構造）或「靶徵(target sign)」（橫切面）。** 判讀分水嶺：**迴結腸型(ileocolic)為最常見型態（約80-90%）;迴迴結腸型(ileoileocolic)次之，涉及迴腸先套入迴腸再套入結腸的複合型套疊;單純迴迴腸型(ileo-ileal)較少見且較常自發性復位;中腸扭轉(mid-gut volvulus)則好發更早（新生兒/嬰兒早期），常伴腸旋轉不良病史，與典型血便哭鬧的迴結腸套疊臨床情境不同。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1542/peds.2013-3102",
+      "url": "https://doi.org/10.1542/peds.2013-3102"
+    }
+  ],
+  "imagingFindings": "- **超音波為診斷首選**：右上腹橫切面「靶徵/甜甜圈徵(target/doughnut sign)」、縱切面「假腎徵(pseudokidney sign)」為特徵；判讀應同時評估套入段是否含淋巴結或病理性引子點(lead point)。\n- **可復位性徵象**：套疊塊內見**陷入之腸繫膜脂肪與淋巴結、套入段壁血流(彩色都卜勒)** 提示腸段存活、較利於灌腸復位；壁血流消失、大量陷入液體或游離氣體提示缺血/穿孔風險升高。\n- **復位方式與影像導引**：可採**超音波導引生理食鹽水灌腸**或**透視導引空氣灌腸**復位；判讀須先排除穿孔（游離氣體）等禁忌，復位後確認迴腸末端氣/液體逆流入以判定成功。\n- **模態徵象區分（考試常混淆）**：**「彈簧狀外觀(coil spring appearance)」為鋇劑/對比劑灌腸之典型描述，非超音波表現**。\n- **判讀陷阱**：較大兒童或不典型部位之腸套疊須警覺病理性引子點（如Meckel憩室、息肉、淋巴瘤）；復位後仍須留意早期復發。",
   "keyPoints": [
     "**最常見型態**：**迴結腸型(ileocolic intussusception)**——迴腸套入結腸，佔兒童腸套疊絕大多數（約80-90%）。",
     "**典型臨床表現**：嬰幼兒（好發6個月至3歲）陣發性劇烈哭鬧、**血便(bloodstained stools)**、右上腹可觸及腫塊(sausage-shaped mass)。",
@@ -15,7 +20,7 @@
     "**迴迴腸型(ileo-ileal)**：單純迴腸內套疊，較常自發性復位、較少需要影像介入復位。",
     "**中腸扭轉(mid-gut volvulus)**：好發更早（新生兒/嬰兒早期），常合併腸旋轉不良(malrotation)病史，與典型血便哭鬧臨床情境不同。"
   ],
-  "management": "",
+  "management": "- 兒童腸套疊好發6個月至3歲，典型三徵為陣發性腹痛/哭鬧、血便(currant jelly stool)與可觸腫塊。\n- 絕大多數為特發性迴結腸型，常與病毒感染後腸繫膜淋巴結腫大有關。\n- 首選非手術復位（空氣或生理食鹽水灌腸），成功率高且併發症低。\n- 灌腸復位後早期復發風險存在但整體不高，穩定病人可考慮門診觀察。\n- 出現腹膜炎、休克或穿孔徵象時屬灌腸禁忌，須外科手術處置。",
   "name": "Pediatric Intussusception — Types & \"Pseudokidney\" Sign",
   "nameZh": "兒童腸套疊",
   "slug": "pediatric-intussusception-types",

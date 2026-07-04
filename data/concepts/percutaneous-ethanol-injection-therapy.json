@@ -2,13 +2,18 @@
   "checked": false,
   "definition": "**經皮酒精注射治療（PEIT）適應症包含病灶侷限於肝臟、腫瘤小於2公分（並非3公分）、局部結節型病灶；肝功能不良並非PEIT的適應症，反而是限制治療的因素之一。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1111/jgh.12162",
+      "url": "https://doi.org/10.1111/jgh.12162"
+    }
+  ],
+  "imagingFindings": "- **影像導引為執行核心**：PEIT 於超音波（或 CT）即時導引下經皮將無水酒精注入病灶，適用於超音波清楚顯示、可安全穿刺路徑的局部結節型小肝癌。\n- **療效判讀看壞死而非縮小**：治療反應以「完全腫瘤壞死（complete tumor necrosis）」為準——動態增強 CT/MRI 上原強化病灶轉為無動脈期強化的無血流區，而非單看體積是否縮小。\n- **與 RFA 的選擇分界**：對 ≤3 cm 小肝癌，RFA 在局部控制與 3 年存活優於 PEI，尤其腫瘤 >2 cm；故 PEIT 多保留給 RFA 不適合的情境（如緊鄰腸道／膽囊／大血管、熱沉效應區）。\n- **判讀追蹤陷阱**：治療後周邊可有一過性充血性強化（reactive hyperemia），勿誤判為殘餘腫瘤；殘餘活性應以結節狀動脈強化併廓清判定。\n- **多次療程特性**：酒精在腫瘤內分布不均，常需多次注射；影像追蹤須逐次比對壞死範圍是否涵蓋全瘤。",
   "keyPoints": [
     "**適應症**：病灶侷限於肝臟（lesions confined to the liver）、**腫瘤小於2公分**（<2 cm，並非<3cm）、局部結節型病灶（focal, nodular-type lesion）。",
     "**非適應症**：**肝功能不良（poor liver function）並非PEIT的適應症**，反而是限制治療進行的不利因素。"
   ],
-  "management": "",
+  "management": "- PEIT 適應症為病灶侷限於肝臟、腫瘤 <2 cm 的局部結節型小肝癌。\n- 肝功能不良並非適應症，而是限制治療的不利因素。\n- 對 ≤3 cm 小肝癌，RFA 相較 PEI 有較佳的 3 年整體存活與較低局部復發率。\n- RFA 較 PEI 有較高的完全腫瘤壞死率，但主要併發症較多且花費較高。\n- PEI 在肝功能較好（Child-Pugh A）且腫瘤 >2 cm 者相對更可行，仍為 RFA 的替代選項。",
   "name": "Percutaneous Ethanol Injection Therapy (PEIT) for Hepatic Tumors",
   "nameZh": "經皮酒精注射治療",
   "slug": "percutaneous-ethanol-injection-therapy",

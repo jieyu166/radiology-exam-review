@@ -21,11 +21,25 @@ dateRev: 2026-07-02
 - **形態（本題重點）**：**鄰近梗塞或異常心肌壁節段之附壁血栓常呈『新月形(crescent-shape)』**，並非所有心臟血栓皆為圓形/卵圓形——故「all cardiac thrombi are round or oval」為**錯誤**。[^1]
 - **影像表現**：新形成血栓呈均質回音、邊緣不規則、可獨立移動；慢性血栓多不動、可鈣化。左心耳(LAA)、左心房、左心室(室壁瘤/梗塞區)為好發位置。[^1]
 
+## 放射科醫師影像判讀重點
+- **形態非恆為圓/卵圓**：附著於梗塞或運動異常心肌壁節段之附壁血栓常呈**新月形(crescent-shape)** 貼附壁面；游離或帶蒂血栓才較常呈圓/卵圓，故不可以「圓形」作為血栓之必要條件。[^1]
+- **好發位置與定位邏輯**：判讀時應對照心肌節段——血栓幾乎總位於**運動低下/無運動或動脈瘤化之心肌旁**（如前壁心尖梗塞後、LV 動脈瘤、LAA）；出現於正常收縮節段旁的腔內腫塊應優先懷疑腫瘤而非血栓。[^2]
+- **與腫瘤/正常構造之鑑別**：心尖區為 TTE 之判讀死角，血栓、心尖動脈瘤、非缺血性心肌病常在此互相混淆；心臟 CT/MR 為釐清心尖病灶的解題工具，MR 延遲強化下血栓不強化、腫瘤多強化。[^2]
+- **正常變異 mass mimics**：crista terminalis、eustachian valve、RV moderator band、房室溝脂肪、二尖瓣環乾酪樣鈣化、房間隔脂肪瘤樣增生等易被誤判為腔內腫塊/血栓，須熟悉其固定位置與訊號特徵以免過度診斷。[^2]
+
+## 臨床重點（5 句）
+- 心臟血栓是最常見的心臟內腫塊，約佔缺血性中風來源之 15%（心源性栓塞）。[^1]
+- 重要危險因子包括人工裝置（節律器導線、人工瓣膜、導管）、心房顫動、左心室功能低下/室壁瘤及梗塞後心肌運動異常。[^1]
+- 新形成之血栓活動度高、栓塞風險大；慢性血栓多固定且可鈣化。[^1]
+- 經胸心臟超音波(TTE)為心臟疾病第一線影像，但心尖病灶與 mass mimics 常受限，需以心臟 CT/MR 作為解題模態。[^2]
+- 抗凝治療與栓塞風險評估仰賴正確辨識血栓位置與活動度，故形態與心肌節段的對應判讀具臨床意義。[^2]
+
 > [!note] 考點：關於心臟血栓，何者不正確？
 > **All of the cardiac thrombi are round or oval in appearance（D）**——鄰近梗塞/異常心肌壁之血栓常呈新月形，非全為圓/卵圓形。約佔15%缺血性中風(A對)、人工裝置為重要危險因子(B對)、新月形血栓位於梗塞/異常心肌壁旁(C對)、最常見心臟內腫塊(E對)皆為正確描述。[^1]
 
 ### 參考來源
 [^1]: *Multi-slice and Dual-source CT in Cardiac Imaging* (Bernd M. Ohnesorge) p.291, 7.12.3.2；*Direct Diagnosis in Radiology - Cardiac Imaging* (C.D. Claussen) p.140（2018 交換考題詳解 p.311 引用；Tier 2 教科書）。cardiac thrombus為最常見心臟內腫塊、約佔15%缺血性中風；人工裝置為重要危險因子；鄰近梗塞/異常心肌壁之血栓常呈新月形(非全為圓/卵圓)；新形成血栓均質回音/邊緣不規則/可移動，慢性血栓不動可鈣化。
+[^2]: **Tier 1** Malik SB, Chen N, Parker RA, Hsu JY. *Transthoracic Echocardiography: Pitfalls and Limitations as Delineated at Cardiac CT and MR Imaging*. RadioGraphics 2017;37(2):383-406（據 PubMed，DOI [10.1148/rg.2017160105](https://doi.org/10.1148/rg.2017160105)；實際查證 accessed 2026-07-04）——心尖區（含血栓、動脈瘤、梗塞）為 TTE 判讀死角，需以心臟 CT/MR 解題；並詳列 crista terminalis、eustachian valve、moderator band、房室溝脂肪、二尖瓣環乾酪樣鈣化、房間隔脂肪瘤樣增生等 mass mimics，佐證血栓判讀須對應心肌節段與正常變異鑑別。原「教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Disregard of different pathologies, cardiac thrombi may occur in any cardiac chamber, which description about cardiac thrombi is not true? (2018-397)

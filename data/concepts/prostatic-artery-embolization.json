@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**PAE 治療 BPH 的預後良好因子包括：術後24小時 CRP 升高、PSA 升高（代表缺血壞死程度大）、較大攝護腺體積、雙側栓塞。Unilateral embolization 效果不如 bilateral。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1097/MOU.0000000000000495",
+      "url": "https://doi.org/10.1097/MOU.0000000000000495"
+    }
+  ],
+  "imagingFindings": "- **術前影像規劃**：PAE 為微創介入，術前須以斷層血管影像（CTA/MRA）評估攝護腺動脈起源與骨盆血管解剖變異，以規劃導管路徑並辨識潛在非目標栓塞風險。\n- **療效影像指標**：術後以攝護腺體積縮小（prostate volume reduction）作為客觀療效指標，與 IPSS、生活品質分數、最大尿流率及殘尿量共同評估反應。\n- **大攝護腺的優勢**：對於大體積攝護腺，PAE 相較部分其他微創技術仍可提供良好結果，是判讀與適應症評估時的重要考量。\n- **併發症影像監測**：整體併發症率低；判讀術後影像時仍須留意非目標栓塞相關的缺血性變化（如膀胱、直腸、陰莖分支）。",
   "keyPoints": [
     "**Bilateral embolization** 效果優於 unilateral",
     "術後 24h CRP 升高 = 良好 ischemic response",
     "術後 24h PSA 升高 = 攝護腺壞死充分",
     "較大攝護腺（中央腺體/腺瘤體積大）= 症狀改善更明顯"
   ],
-  "management": "",
+  "management": "- PAE 是治療 BPH 相關下泌尿道症狀（LUTS）的微創技術。\n- 可改善 IPSS、生活品質分數、最大尿流率與殘尿量。\n- 併發症發生率低，安全性佳。\n- 對大體積攝護腺亦能提供良好臨床結果。\n- 現有多為回顧性研究，長期療效與耐久性仍需更高品質證據。",
   "name": "Prostatic Artery Embolization (PAE)",
   "nameZh": "攝護腺動脈栓塞",
   "slug": "prostatic-artery-embolization",

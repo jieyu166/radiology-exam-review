@@ -21,11 +21,26 @@ dateRev: 2026-07-02
 - **Cervicothoracic sign**：用於**胸廓入口（thoracic inlet）病灶定位**——鎖骨上緣仍清晰可見之病灶位於後縱膈/胸腔內；上緣於鎖骨水平以下模糊者位於前縱膈。[^1]
 - **Comet tail sign**：**圓形肺不張（round atelectasis）**——塌陷肺鄰接肋膜增厚、血管/支氣管扭曲聚攏呈彗星尾。[^1]
 
+## 放射科醫師影像判讀重點
+- **Hilum convergence 判讀法**：追蹤肺動脈分支的走向是關鍵——分支「向」中央腫塊會聚代表腫塊即為擴大的肺動脈；分支「越過」腫塊繼續向心臟會聚，則腫塊為肺門旁縱膈病灶，二者可於同一張正面胸片判別。[^2]
+- **Luftsichel sign（左上葉塌陷）**：正面片主動脈弓旁的新月狀透亮源自過度充氣的下葉上段（superior segment）；此徵象幾乎專屬左上葉塌陷，配合左肺門上移可確認。[^2]
+- **Cervicothoracic sign（頸胸交界定位）**：以病灶上緣是否於鎖骨水平仍清晰為據——上緣在鎖骨以上仍銳利者位於後縱膈（被含氣肺勾勒），上緣於鎖骨水平以下即模糊者位於前縱膈（與軟組織相鄰），常用於甲狀腺腫定位。[^2]
+- **Comet tail sign（圓形肺不張）**：CT 上見胸膜下腫塊、鄰接胸膜增厚、血管支氣管束呈漩渦狀向腫塊捲入——彗星尾為與胸膜相連之關鍵，可避免誤判為腫瘤。[^2]
+- **善用 CT 對照**：多數經典胸片徵象的解剖基礎可由 CT 驗證；遇不典型或懷疑腫瘤時，CT 有助釐清徵象成因並避免過度診斷。[^2]
+
+## 臨床重點（5 句）
+- 經典胸片徵象多由 Felson 等前輩放射科醫師系統性描述並命名。[^2]
+- 熟記徵象可加速鑑別診斷並縮小可能病因範圍。[^2]
+- 單一徵象常對應特定的解剖或病理狀況，具高度鑑別價值。[^2]
+- 徵象須結合臨床情境判讀，避免脫離脈絡的過度解讀。[^2]
+- 影像徵象是溝通語言，正確使用有助跨科臨床討論。[^2]
+
 > [!note] 考點：「放射學徵象–可能病因」配對何者「不正確」?
 > **Hilum convergence sign – Sarcoidosis（A）不正確**——hilum convergence sign 對應**肺動脈擴大**（區分擴大肺動脈 vs 縱膈腫塊），非 sarcoidosis。Luftsichel–LUL collapse、cervicothoracic sign–胸腔內甲狀腺腫、comet tail–round atelectasis 皆為正確配對。[^1]
 
 ### 參考來源
 [^1]: Rosado-de-Christenson ML. *Diagnostic Imaging: Chest*, 2nd ed. Philadelphia PA: Lippincott Williams & Wilkins, 2012, p.71-83（2018 交換考題詳解 p.365 引用；Tier 2 教科書）。hilum convergence sign 區分擴大肺動脈 vs 縱膈腫塊（對應肺動脈擴大，非 sarcoidosis）；Luftsichel sign＝LUL collapse；cervicothoracic sign＝胸廓入口定位（intrathoracic goiter）；comet tail sign＝round atelectasis。
+[^2]: **Tier 1** George PP, Irodi A, Nidugala Keshava S, Lamont AC. *'Felson Signs' revisited*. J Med Imaging Radiat Oncol 2013;58(1):64-74（據 PubMed，DOI [10.1111/1754-9485.12031](https://doi.org/10.1111/1754-9485.12031)；實際查證 accessed 2026-07-04）——以影像回顧 Felson《Chest Roentgenology》所載經典胸片徵象，逐一說明其成因、用途與鑑別診斷，並以 CT 對照佐證徵象之解剖基礎（涵蓋 Luftsichel、cervicothoracic sign、hilum convergence 等）。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following combination of "Radiological sign – Possible etiology" is incorrect? (2018-446)

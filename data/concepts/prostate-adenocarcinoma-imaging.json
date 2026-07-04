@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**攝護腺腺癌最常見發生於周邊區（peripheral zone），並非移行區（transition zone，該區主要與良性攝護腺增生BPH相關）；MRI（尤其T2WI）為最佳偵測序列；淋巴引流主要至骨盆淋巴結；CT對攝護腺癌本身之偵測準確度不佳。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00261-016-0871-z",
+      "url": "https://doi.org/10.1007/s00261-016-0871-z"
+    }
+  ],
+  "imagingFindings": "- **依區帶選主導序列（PI-RADS v2）**：**周邊區(PZ)以 DWI/ADC 為主導序列**，T2WI 上表現為局部低訊號；**移行區(TZ)以 T2WI 為主導序列**，典型癌灶呈邊界不清、鏡片/擦拭狀低訊號(erased charcoal)，需與界線清楚的 BPH 結節區分。\n- **DCE 之角色**：動態顯影(DCE)僅具次要/輔助角色，用於 PZ 的模稜兩可病灶(score 3)——DCE 陽性局部強化可將 PZ score 3 上調為 4。\n- **臨床顯著癌之定義**：PI-RADS v2 以 Gleason ≥7、體積 >0.5 cc 或有前列腺外侵犯(EPE)定義臨床顯著癌，判讀須同時評估包膜、神經血管束與精囊侵犯。\n- **報告規範**：每次 mpMRI 應含 T1WI、T2WI、DWI 與 DCE；於區帶圖(sector map)標註最多 4 個 score 3–5 病灶並指明 index lesion，以標準化溝通。\n- **CT 定位**：CT 對原發灶偵測差，臨床角色限於進展期之淋巴結與遠處(骨)轉移評估。",
   "keyPoints": [
     "**好發部位**：**周邊區（peripheral zone）**——靠近直腸處，並非移行區（transition zone，該區主要與BPH相關）。",
     "**MRI**：**T2WI為偵測攝護腺癌最佳序列**；多參數MRI（結合DWI/ADC與T2WI）依PI-RADS評分系統分級。",
     "**淋巴引流**：主要引流至**骨盆淋巴結**。",
     "**CT**：對攝護腺癌本身之偵測**準確度不佳**，主要用於評估遠處轉移與淋巴結。"
   ],
-  "management": "",
+  "management": "- 攝護腺腺癌最常見於周邊區，靠近直腸；移行區病灶多為 BPH 相關而非癌。\n- PI-RADS 以 5 分制表達病灶為臨床顯著癌之可能性，5 分最高。\n- PI-RADS v2 採「依區帶決定主導序列」概念取代 v1 的各序列加總。\n- mpMRI 標準化可改善放射科醫師與泌尿科醫師之溝通，提升偵測、定位與風險分層。\n- 攝護腺癌淋巴引流主要至骨盆淋巴結，為分期評估重點。",
   "name": "Prostate Adenocarcinoma — Imaging",
   "nameZh": "攝護腺腺癌影像",
   "slug": "prostate-adenocarcinoma-imaging",

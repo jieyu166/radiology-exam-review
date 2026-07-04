@@ -2,13 +2,18 @@
   "checked": false,
   "definition": "**四種顱內血管畸形中，只有「靜脈竇周圍炎（sinus pericranii）」沒有動靜脈分流——它是顱內外靜脈系統之間的異常連通，本質是靜脈對靜脈的溝通，不涉及動脈血直接進入靜脈。硬腦膜動靜脈瘻最常侵犯橫竇與乙狀竇；軟膜動靜脈瘻沒有nidus（這是與AVM的關鍵鑑別）、出血風險比AVM還高。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s10143-014-0596-9",
+      "url": "https://doi.org/10.1007/s10143-014-0596-9"
+    }
+  ],
+  "imagingFindings": "- **DAVF 判讀核心＝軟腦膜(皮質)靜脈引流**：DAVF 的臨床行為與破裂風險主要取決於**是否有軟腦膜/皮質靜脈引流(leptomeningeal/cortical venous drainage)** 及是否逆流，而非瘻管本身大小；Borden 與 Cognard 分類即以此為軸。\n- **靜脈張力(venous strain)為侵襲性徵象**：皮質靜脈之**擴張(ectasia)** 與**充血(congestion)** 代表腦靜脈系統因分流逆流而失代償，是預示侵襲性臨床病程的影像警訊。\n- **判讀順序**：於 DSA/MRA 上先定位分流點（bridging vein vs. sinus wall），再判斷軟腦膜引流之**直接性(directness)** 與**排他性(exclusivity)**——bridging vein 型皆為直接引流，孤立(isolated)竇型皆為排他性引流，兩者風險較高。\n- **PAVF 與 AVM 鑑別**：軟膜動靜脈瘻為單一動脈直接接靜脈、**無 nidus**（與 AVM 之關鍵鑑別）；sinus pericranii 於影像上為經穿骨導靜脈之顱內外靜脈連通，無動脈期早顯。",
   "keyPoints": [
     "**無AV分流**：**竇周靜脈瘤(sinus pericranii)**——顱內硬腦膜竇與顱外靜脈結構間之異常連通，通常經由**穿骨性導靜脈(emissary transosseous vein)**相通，屬單純靜脈-靜脈連通，無動靜脈分流。",
     "**有AV分流**：硬腦膜動靜脈瘻(dural AV fistula)、動靜脈畸形(arteriovenous malformation)、Galen靜脈瘤樣畸形(vein of Galen aneurysmal malformation)，三者皆具動靜脈直接分流。"
   ],
-  "management": "",
+  "management": "- Borden 與 Cognard 分類共同以「軟腦膜靜脈引流之有無」與「逆流方向」預測 DAVF 之臨床行為。\n- 具皮質靜脈逆流之 DAVF 屬高風險，出血與神經功能惡化風險顯著增加。\n- 治療目標常為藉栓塞（或合併手術）消除皮質靜脈逆流、降低 Borden/Cognard 級別，即使無法完全閉塞瘻管亦屬合理。\n- 軟膜動靜脈瘻罕見（約佔顱內血管畸形 1.6%），出血風險較 AVM 高，小病灶低流速仍可能自發阻塞。\n- Sinus pericranii 為單純顱內外靜脈連通、無 AV 分流，屬四類病灶中唯一無分流者。\n\n> [!note] 考點：何者「無」AV分流？\n> **Sinus pericranii（B）**——單純顱內外靜脈系統異常連通，無動靜脈分流。硬腦膜動靜脈瘻(A)、AVM(C)、Galen靜脈瘤樣畸形(D)皆具AV分流。\n\n> [!note] 考點：硬腦膜動靜脈瘻最常侵犯部位？\n> **橫竇與乙狀竇（C）**。\n\n> [!note] 考點：軟膜動靜脈瘻何者「正確」？\n> **出血風險較AVM高（B）**——正確。僅佔顱內血管畸形1.6%(非10%，A錯)、無nidus(非有nidus，C錯，此為與AVM鑑別關鍵)、小病灶仍可能自發阻塞(非無法自發阻塞，D錯)。",
   "name": "Cerebrovascular Malformations — AV Shunting & Fistula Classification",
   "nameZh": "腦血管畸形分類",
   "slug": "cerebrovascular-malformations",

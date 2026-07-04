@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**CRPS（複雜性局部疼痛症候群，舊稱reflex sympathetic dystrophy）為交感神經系統之慢性疼痛疾患，通常繼發於外傷、手術或石膏固定等併發症；依是否有明確單一神經病灶分為type 1（無明確神經病灶，約佔90%）與type 2（有明確神經病灶，舊稱causalgia）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s11916-018-0659-7",
+      "url": "https://doi.org/10.1007/s11916-018-0659-7"
+    }
+  ],
+  "imagingFindings": "- **三相骨掃描(TPBS)為最佳輔助影像**：CRPS以臨床Budapest準則診斷，但影像輔助中以**三相骨掃描敏感度與特異度最高**；典型為**延遲相患肢關節周圍(periarticular)放射性攝取增加**，可用於排除或支持診斷。\n- **各相變化隨病程**：早期血流相/血池相攝取可增加，反映充血；隨慢性化，血流相攝取可減弱，而延遲相之關節周圍攝取增加最具鑑別價值。\n- **X光角色有限**：平片可見**斑駁狀骨質疏鬆(patchy/periarticular osteoporosis, Sudeck atrophy)**，但屬非特異且晚期表現，敏感度低，非最佳診斷工具。\n- **MRI/超音波輔助**：MRI可見軟組織水腫、皮膚增厚與關節積液，但變化非特異；主要用於排除其他病因（感染、隱匿性骨折）。\n- **判讀陷阱**：TPBS陽性支持診斷但陰性不能完全排除；以現行Budapest準則診斷之族群，TPBS與CRPS之相關性較舊準則時代更為異質，須結合臨床判讀。",
   "keyPoints": [
     "**本質**：**交感神經系統之慢性疼痛疾患**，通常為外傷、手術、感染或石膏固定之併發症所導致。",
     "**分型**：",
@@ -13,7 +18,7 @@
     "**性別/好發部位**：非男性優勢，非侷限於上肢——實為不分性別、可發生於上下肢。",
     "**流行病學**：**並非30%的所有外傷後發生**——type 1 CRPS之發生率約每10萬人年5.46例，盛行率約每10萬人20.57例，好發年齡中位數約46歲。"
   ],
-  "management": "",
+  "management": "- CRPS常繼發於外傷、手術、骨折、中風或心肌梗塞後，甚至輕微創傷亦可誘發。\n- 臨床診斷採Budapest準則，涵蓋感覺、血管運動、發汗/水腫與運動/營養四類徵候。\n- Type 1（無明確神經病灶，舊稱RSD）約佔多數，Type 2（有明確神經病灶，舊稱causalgia）較少。\n- 疼痛特徵包含痛覺過敏(hyperalgesia)與觸誘發痛(allodynia)，與受傷程度不成比例。\n- 治療採多模式鎮痛與復健，早期活動與物理治療有助改善預後。",
   "name": "Complex Regional Pain Syndrome (CRPS) / Reflex Sympathetic Dystrophy",
   "nameZh": "複雜性局部疼痛症候群",
   "slug": "crps",

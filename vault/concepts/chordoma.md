@@ -14,8 +14,23 @@ dateRev: 2026-07-01
 ## Summary
 - **好發部位頻率排序**：**薦骨（sacrococcygeal, ~30–50%）> 蝶枕區/顱底斜坡（spheno-occipital, ~30–35%）> 脊椎體（vertebral body, 含頸椎與胸腰椎, ~15–30%）**；頸椎又較胸腰椎常見。[^1]
 
+## 放射科醫師影像判讀重點
+- **源自脊索、沿中線分佈**：脊索瘤源自胚胎脊索殘餘，好發於顱底斜坡(clivus)與薦骨，典型為**中線**病灶。[^2]
+- **CT**：呈**溶骨性骨質破壞**，常見瘤內殘存骨片(sequestra)/鈣化；顱底病灶可見沿斜坡前緣之溶骨變化。[^2]
+- **MR（判讀關鍵）**：T2WI 呈**明顯高訊號**（反映高含水的空泡狀 physaliphorous 細胞與黏液基質），T1WI 多為等/低訊號，可見分隔，注射對比後呈不均勻(蜂窩狀)強化。[^2]
+- **鑑別診斷**：斜坡處需與軟骨肉瘤（偏中線旁、環弧狀鈣化）、轉移、漿細胞瘤鑑別；薦骨處需與轉移、脊索細胞瘤(benign notochordal)、巨細胞瘤鑑別。[^2]
+- **局部侵犯與追蹤**：病灶局部侵襲性強、貼近重要神經血管，放射科於術前腫瘤與鄰近解剖之界定、術後變化與復發辨識扮演關鍵角色（顱底脊索瘤 10 年局部復發率近 50%）。[^2]
+
+## 臨床重點（5 句）
+- 脊索瘤是相對少見、生長緩慢的脊索源性腫瘤，最常沿斜坡發生。[^2]
+- 治療以手術切除合併放射治療為主。[^2]
+- 顱底脊索瘤 10 年局部復發率接近 50%，需長期影像追蹤。[^2]
+- 外科與放腫醫師仰賴放射科進行術前腫瘤界定、術後變化與復發判別。[^2]
+- 好發部位以薦尾部最常見，其次為蝶枕/顱底斜坡，再次為脊椎體。[^1]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Mirra J, Nelson S, Della Rocca C. *Chordoma*. In: Fletcher CD, Unni K, Mertens F, editors. Pathology and genetics of tumours of soft tissue and bone. IARC Press; 2002, p.316-7；Chugh R et al. *Chordoma: the nonsarcoma primary bone tumor*. Oncologist 2007;12(11):1344-50；Resnick, Bone and Joint Imaging, 3rd ed, Ch.70, p.1180。
+[^2]: **Tier 1** Soule E, Baig S, Fiester P, Holtzman A, Rutenberg M, Tavanaiepour D, Rao D. *Current Management and Image Review of Skull Base Chordoma: What the Radiologist Needs to Know*. J Clin Imaging Sci 2021;11:46（據 PubMed，DOI [10.25259/JCIS_139_2021](https://doi.org/10.25259/JCIS_139_2021)；實際查證 accessed 2026-07-04）——脊索瘤源自脊索殘餘、最常沿斜坡發生之緩慢生長中線腫瘤；治療以手術合併放療為主，10 年局部復發率近 50%；放射科負責術前腫瘤界定、術後變化與復發判別。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

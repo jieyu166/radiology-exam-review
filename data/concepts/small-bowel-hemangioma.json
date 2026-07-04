@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**小腸血管瘤（hemangioma）最常見於空腸（jejunum）。** 小腸血管瘤是小腸良性血管腫瘤中最常見的類型，可以 GI bleeding 表現，影像可見強化的腸壁腸腔內腫瘤，偶合併 phlebolith。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.17235/reed.2023.9778/2023",
+      "url": "https://doi.org/10.17235/reed.2023.9778/2023"
+    }
+  ],
+  "imagingFindings": "- **CT 增強是主力**：小腸血管瘤（多為海綿狀 cavernous 型）在對比劑增強 CT 上呈明顯強化的腸壁／腔內結節，好發於空腸，是評估不明原因消化道出血時的重要鑑別。\n- **Phlebolith 為特徵線索**：腔內或壁內鈣化的靜脈石（phlebolith）在腹部平片／CT 上若出現於腸繫膜區，是提示血管瘤的相對特異徵象。\n- **膠囊內視鏡的角色**：對於平片、內視鏡皆陰性的隱匿性出血，膠囊內視鏡可直接顯示黏膜面的血管性病灶而確立診斷（本例即以膠囊內視鏡診斷空腸海綿狀血管瘤）。\n- **判讀陷阱—與血管畸形難分**：小腸血管瘤須與血管畸形（AVM、phlebectasia/venous ectasia）、GIST、類癌等富血流病灶鑑別；單靠影像常無法定性，最終仍多需病理確診。\n- **注意合併症**：可合併腸阻塞、腸套疊或（罕見）穿孔；判讀時應一併評估近端腸道擴張與腸壁完整性。",
   "keyPoints": [
     "**最常見位置**：**空腸（jejunum）**。",
     "小腸良性血管腫瘤中最常見的類型。",
     "可以 GI bleeding（陰性或顯性）為臨床表現。",
     "影像特徵：強化的腸壁/腸腔內腫瘤，偶合併 phlebolith。"
   ],
-  "management": "",
+  "management": "- 小腸血管瘤為良性先天性血管病灶，可終生無症狀，或以慢性缺鐵性貧血、消化道出血表現。\n- 因病灶多位於傳統胃鏡／大腸鏡無法到達的空腸，常延誤診斷，需靠膠囊內視鏡或 CT 血管攝影。\n- 臨床上是「不明原因（obscure）消化道出血」與長期缺鐵性貧血須考量的少見病因之一。\n- 確定診斷與根治多依賴手術切除並經病理證實。\n- 手術切除後預後良好，復發少見。",
   "name": "Small Bowel Hemangioma",
   "nameZh": "小腸血管瘤",
   "slug": "small-bowel-hemangioma",

@@ -20,11 +20,26 @@ dateRev: 2026-07-01
 - **Pipestem fibrosis（管狀纖維化）**：門脈周圍顯著增厚之纖維化組織環繞門脈分支，為血吸蟲病肝纖維化的病理學特徵，與病毒性肝炎肝硬化的瀰漫結節性再生型態不同。[^1]
 - **流行病學**：好發於**血吸蟲病流行地區**（非洲、中東、部分東南亞、南美）有**疫水接觸史**之族群。[^1]
 
+## 放射科醫師影像判讀重點
+- **超音波（*S. japonicum* 主導）**：肝內高回音間隔沿多角形肝小葉輪廓交織成「魚鱗網狀（fish-scale network）」，即題目所述 turtle back，反映沿門脈徑纖維化。[^2]
+- **超音波（*S. mansoni* 主導）**：門脈徑周圍高回音增厚或纖維帶（periportal echogenic thickening / fibrotic band）為主，肝腫大、脾腫大、門脈高壓與胃食道靜脈曲張常伴隨。[^2]
+- **CT**：*S. japonicum* 在肝實質周邊呈間隔狀鈣化沿門脈徑分布形成「turtle-back（龜背）」外觀，代表門脈徑上鈣化蟲卵；*S. mansoni* 則於中央大門脈分支周圍呈低衰減環/帶且顯著強化；肝之大小與形狀相對保留。[^2]
+- **MRI**：纖維間隔於 T1WI 呈低訊號、T2WI 呈高訊號並有強化，可補充超音波/CT 對纖維化範圍之評估。[^2]
+- **鑑別與陷阱**：turtle back/魚鱗網狀為門脈周圍纖維化型態，與病毒性肝炎肝硬化之瀰漫再生結節分布不同；勿與肝包蟲囊（子囊）、amoebic 膿瘍、淋巴瘤結節混淆——後三者無門脈徑纖維間隔網。[^2]
+
+## 臨床重點（5 句）
+- 血吸蟲病是全球第二重要的寄生蟲病，肝纖維化源自蟲卵（非成蟲）在門脈小靜脈沉積誘發的肉芽腫反應。[^2]
+- *S. mansoni*（非洲、中東、南美）與 *S. japonicum*（東亞）為肝脾型血吸蟲病主要蟲種，臨床以肝脾腫大、門脈高壓與靜脈曲張出血表現。[^2]
+- 診斷依賴疫區疫水接觸史、糞便/尿液蟲卵檢查或血清學，影像用於評估纖維化分期與併發症。[^2]
+- 治療以 praziquantel 為主，早期纖維化在治療後部分可逆。[^2]
+- 併發症除門脈高壓外，尚可見肺部（結節伴毛玻璃暈）與結腸（發炎性息肉、纖維化狹窄）受累。[^2]
+
 > [!note] 考點：非洲疫區病史合併肝硬化伴「龜背徵(turtle back)」，最可能診斷?
 > **Schistosomiasis（D）**——高回音間隔分隔正常肝實質形成龜背徵，反映門脈周圍pipestem fibrosis，為血吸蟲病特徵性影像表現。Amoebiasis(A)典型呈肝膿瘍非纖維化間隔;Hydatid(B)呈囊性病灶伴子囊;Lymphoma(C)呈局部/瀰漫低回音病灶;Tuberculosis(E)可呈粟粒狀病灶或膿瘍非turtle back紋路。[^1]
 
 ### 參考來源
 [^1]: Final FRCR Part A Modules 1-3 Single Best Answer MCQs, Robin Proctor, p.127：血吸蟲病肝纖維化主要侵犯門脈周圍(periportal)造成pipestem fibrosis，超音波呈turtle back appearance(高回音間隔分隔正常肝實質)，好發疫區疫水接觸史族群。
+[^2]: **Tier 1** Manzella A, Ohtomo K, Monzawa S, Lim JH. *Schistosomiasis of the liver*. Abdom Imaging 2008;33(2):144-50（據 PubMed，DOI [10.1007/s00261-007-9329-7](https://doi.org/10.1007/s00261-007-9329-7)；實際查證 accessed 2026-07-04）——回顧性影像綜述：*S. japonicum* 超音波呈魚鱗網狀高回音間隔、CT 呈門脈徑鈣化之 turtle-back 外觀；*S. mansoni* 以門脈周圍高回音帶/CT 低衰減環為主；MRI 纖維間隔 T1 低、T2 高並強化，肝之大小形狀相對保留。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- A 58-year-old African woman with cirrhotic liver and markedly hyperechoic septa separating areas of relatively normal liver, recognized as 'turtle back' appearance. What is the most likely underlying diagnosis? (2017-309)

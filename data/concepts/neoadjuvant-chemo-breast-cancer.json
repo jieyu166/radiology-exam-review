@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**乳癌前導化療（neoadjuvant chemotherapy）後，淋巴結由陽性轉為臨床陰性者，愈來愈多證據支持「可省略」完整腋窩淋巴結廓清（非「不應省略」）——這是本題唯一的錯誤敘述。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/radiol.2019182947",
+      "url": "https://doi.org/10.1148/radiol.2019182947"
+    }
+  ],
+  "imagingFindings": "- **MRI 為療效評估首選**：對比劑增強 MRI（DCE-MRI）是前導化療（NAT）療效監測敏感度最高的影像方法，用於記錄腫瘤對治療之反應。\n- **oncologic response ≠ surgical response**：判讀時須認清「腫瘤學反應」與「手術可切除性反應」為不同問題，評估策略應依臨床欲回答的問題（殘餘腫瘤範圍 vs 是否達 pCR）調整。\n- **殘餘型態影響手術規劃**：NAT 後腫瘤退縮可呈「向心性（concentric）縮小」或「碎裂／散在（fragmented/scattered）」型；碎裂型易低估殘餘病灶範圍，是影響保乳手術決策的關鍵判讀陷阱。\n- **pCR 判讀限制**：MRI 上無殘餘強化不等於病理 pCR，可有偽陰性（殘餘微小病灶）與偽陽性（治療後肉芽／發炎性強化），須與病理對照。\n- **多參數輔助鑑別**：於 T1 動態強化基礎上加入 T2WI、擴散加權（DWI）與 ultrafast 影像，有助區分良惡與殘餘活性腫瘤。",
   "keyPoints": [
     "**腫瘤降期（downstaging）**：若腫瘤對化療有反應、體積縮小，可將原本無法手術之乳癌轉為可切除。",
     "**腋窩淋巴結廓清**：**愈來愈多證據支持**——切片證實淋巴結陽性、前導化療後轉為臨床陰性者，**可省略**完整腋窩淋巴結廓清（並非「不應省略」）。",
     "**直接觀察療效**：前導治療情境下可直接觀察腫瘤對治療之反應，為其優勢之一。",
     "**病理完全反應（pCR）**：達成pCR並隨後接受手術切除，與**較佳無病存活（disease-free survival）**相關。"
   ],
-  "management": "",
+  "management": "- 前導化療可使原本無法手術之乳癌降期（downstaging）轉為可切除，並直接觀察腫瘤對治療的反應。\n- 切片證實淋巴結陽性、NAT 後轉為臨床陰性者，愈來愈多證據支持可省略完整腋窩淋巴結廓清。\n- 達成病理完全反應（pCR）者與較佳的無病存活相關，pCR 是重要的替代預後指標。\n- MRI 在術前分期對腫瘤大小估計及同側／對側額外病灶偵測優於其他影像方法。\n- 目前尚無證據顯示以 MRI 指引手術能改善長期存活。\n\n> [!note] 考點：乳癌前導化療敘述何者「錯誤」？\n> **淋巴結陽性轉臨床陰性後不應省略完整腋窩廓清（B）**——實際上愈來愈多證據支持**可省略**完整腋窩廓清。腫瘤降期可轉可切除(A對)、可直接觀察療效(C對)、pCR與較佳無病存活相關(D對)皆為正確描述。",
   "name": "Neoadjuvant Chemotherapy in Breast Cancer",
   "nameZh": "乳癌前導化療",
   "slug": "neoadjuvant-chemo-breast-cancer",

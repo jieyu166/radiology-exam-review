@@ -2,8 +2,13 @@
   "checked": false,
   "definition": "**肘部六個骨化中心出現順序以 CRITOE 口訣記憶：Capitellum (1Y) → Radial head (3Y) → Internal (medial) epicondyle (5Y) → Trochlea (7Y) → Olecranon (9Y) → External (lateral) epicondyle (11Y)，約每隔 2 年依序出現（1-3-5-7-9-11）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1177/0036933018812000",
+      "url": "https://doi.org/10.1177/0036933018812000"
+    }
+  ],
+  "imagingFindings": "- **順序優先於絕對年齡**：判讀重點在骨化中心「出現的先後順序」（CRITOE／CRITOL），而非死記各中心確切歲數——因實際出現年齡個體差異大，順序的一致性才是可靠依據。\n- **內上髁陷阱（trochlea 出現時）**：若已見 trochlea 骨化卻不見 internal（medial）epicondyle，須高度懷疑內上髁撕脫並嵌入關節（entrapped medial epicondyle），此為易漏診的重要陷阱。\n- **正常變異需知（尤其女童）**：CRITOE 順序存在正常變異，最常見為 C 之後先出現 R 或 I 的次序互換；此類變異在女童明顯較常見（統計上顯著），判讀時勿逕自誤判為病理。\n- **對側對照法**：不確定某骨化中心是否正常出現或為撕脫碎片時，拍攝並比對健側肘可有效釐清。",
   "keyPoints": [
     "**CRITOE 口訣**：六個骨化中心依出現年齡排列：",
     "**C**apitellum：**1** 歲",
@@ -14,7 +19,7 @@
     "**E**xternal (lateral) epicondyle：**11** 歲",
     "**臨床意義**：小兒肘部骨折評估時，若某骨化中心已出現而其前序中心未見，需懷疑該前序中心已撕脫/移位。"
   ],
-  "management": "",
+  "management": "- 骨化中心可預測的出現順序對判讀兒童肘部（尤其外傷）X 光至關重要。\n- 常用記憶口訣為 CRITOE（同義 CRITOL，L 指 lateral epicondyle）。\n- 多數兒童遵循此順序，但正常變異確實存在且被視為常態。\n- 順序變異在女童較男童常見（統計上顯著）。\n- 認識這些正常變異有助避免將變異誤判為病理或誤診骨折。",
   "name": "Elbow Ossification Centers — CRITOE",
   "nameZh": "肘部骨化中心",
   "slug": "elbow-ossification-centers",

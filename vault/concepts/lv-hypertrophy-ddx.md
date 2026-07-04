@@ -23,11 +23,25 @@ same:
   - **Fabry disease**：溶酶體儲積病，鞘糖脂沉積致心肌肥厚（典型下側壁LGE、T1 mapping降低）。
 - **最不可能表現LVH（本題重點）**：**Iron overload cardiomyopathy（鐵過載心肌病）**——多描述為**擴張型心肌病（dilated cardiomyopathy）**，特徵為**左心室重塑併腔室擴大、LVEF下降**，而非心肌肥厚；心臟MRI T2\* mapping可定量鐵沉積。[^1]
 
+## 放射科醫師影像判讀重點
+- **心臟 MRI 為 LVH 鑑別核心工具**：多參數 mapping(native T1、T2、細胞外容積 ECV)結合晚期釓增強(LGE)，可將「肥厚形態」連結到組織學層次，鑑別不同致病機轉；並非所有 LV 壁增厚都是真性肥厚(需排除運動員心臟、假性肥厚)。[^2]
+- **依分布/LGE/T1 型態辨病因**：HCM 呈不對稱間隔肥厚、常見 RV 插入點與間隔中層 LGE、native T1 常升高；Fabry disease 因鞘糖脂沉積典型 native T1「降低」、下側壁 LGE，為少數 T1 降低的浸潤性病；心臟類澱粉沉積(amyloid)則 native T1 與 ECV 顯著升高、瀰漫性心內膜下/透壁 LGE、gadolinium 動力學異常(nulling 困難)。[^2]
+- **鐵過載的影像特徵相反**：iron overload 以 T2* mapping 定量心肌鐵(T2* < 20 ms 提示鐵超載)，其表型為腔室擴大、收縮功能下降之擴張型心肌病，而非壁增厚，故在「表現 LVH」的鑑別中最不相符。[^2]
+- **判讀陷阱**：高血壓性心臟病為對稱向心性肥厚且常無 LGE，勿一律歸因於心肌病；ECV/T1 mapping 有助於在肉眼壁厚相近時區分澱粉沉積(ECV 極高)與其他病因，避免僅憑壁厚下診斷。[^2]
+
+## 臨床重點（5 句）
+- LVH 的鑑別涉及後負荷增加(高血壓、主動脈狹窄)、基因性肥厚(HCM)與浸潤/儲積性疾病(Fabry、amyloid、鐵過載)等多元病因。[^2]
+- Fabry disease 為 X 染色體性 α-galactosidase A 缺乏之溶酶體儲積病，早期辨識可用酵素替代治療。[^2]
+- 心臟類澱粉沉積為可治療且日益重要的心衰竭病因，正確鑑別影響預後與標靶治療選擇。[^2]
+- 鐵過載心肌病常見於輸血依賴型地中海貧血等，及早以 T2* 監測並螯合治療可逆轉心功能惡化。[^2]
+- 病因鑑別直接改變治療與預後，故對 LV 壁增厚者不應僅停留於「肥厚」描述，須進一步組織特徵化。[^2]
+
 > [!note] 考點：何者最「不可能」在影像中表現左心室心肌肥厚？
 > **Iron overload cardiomyopathy（B）**——鐵過載心肌病表現為擴張型心肌病(腔室擴大/LVEF下降)，非肥厚。HCM、systemic hypertension、Fabry disease皆可致LVH。[^1]
 
 ### 參考來源
 [^1]: *Diagnostic Imaging: Cardiovascular*, 2nd Edition（2018 交換考題詳解 p.279 引用；Tier 2 教科書）。iron overload cardiomyopathy多描述為擴張型心肌病(左心室重塑併腔室擴大、LVEF下降)；HCM、系統性高血壓、Fabry disease皆可造成左心室肥厚。
+[^2]: **Tier 1** Nordin S, Dancy L, Moon JC, Sado DM. *Clinical applications of multiparametric CMR in left ventricular hypertrophy*. Int J Cardiovasc Imaging 2018;34(4):577-585（據 PubMed，DOI [10.1007/s10554-018-1320-6](https://doi.org/10.1007/s10554-018-1320-6)；實際查證 accessed 2026-07-04）——回顧多種可增加 LV 壁厚之疾病及其機轉，強調心臟 MRI 多參數 mapping(native T1、T2、ECV)結合 LGE 可將肥厚形態連結到組織學層次以鑑別 HCM、Fabry、amyloid 等；鐵過載則以 T2* mapping 定量心肌鐵。原「Amirsys 教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 請問下列何者最不可能在影像中表現出左心室心肌肥厚的現象? (2018-371)

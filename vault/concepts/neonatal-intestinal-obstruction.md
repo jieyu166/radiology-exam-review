@@ -16,8 +16,23 @@ dateRev: 2026-07-02
 - 常見原因：**midgut volvulus、duodenal atresia、annular pancreas、meconium ileus、Hirschsprung disease**。[^1]
 - **Acute appendicitis**：極罕見於新生兒，為最不常見的新生兒腸阻塞原因。[^1]
 
+## 放射科醫師影像判讀重點
+- **平片先分高位 vs 低位阻塞**：腹部平片是評估起點，依擴張腸環數量與分布判斷高位（少數擴張環，如 duodenal atresia 的 double bubble）或低位（多數擴張環）阻塞。[^2]
+- **雙泡徵（double bubble）**：十二指腸閉鎖/環狀胰臟呈胃與近端十二指腸雙泡、遠端無氣；此為典型高位阻塞影像。[^2]
+- **上消化道攝影排除中腸旋轉不良/扭轉**：對膽汁性嘔吐須以上消化道攝影評估十二指腸空腸交界（DJ junction）位置與有無 corkscrew/扭轉，屬外科急症。[^2]
+- **對比灌腸鑑別低位阻塞**：低位阻塞以對比灌腸區分胎便性腸阻塞（microcolon＋末端迴腸胎便顆粒）、Hirschsprung（移行區）、遠端小結腸/小左結腸與腸閉鎖。[^2]
+- **判讀陷阱與流程**：應遵循「平片→按高/低位選上消化道攝影或對比灌腸」的實證影像演算法；膽汁性嘔吐即須警覺中腸扭轉，勿延誤。[^2]
+
+## 臨床重點（5 句）
+- 腸阻塞是新生兒期最常見且最重要的腸胃道急症。[^2]
+- 影像在新生兒/小兒腸阻塞的評估與診斷中扮演關鍵角色，是最常見的小兒外科急症之一。[^2]
+- 膽汁性嘔吐在新生兒視為中腸扭轉之警訊，須緊急影像與外科評估。[^2]
+- 常見原因涵蓋 midgut volvulus、duodenal atresia、annular pancreas、meconium ileus、Hirschsprung disease。[^1]
+- 急性闌尾炎幾乎不發生於新生兒，為最不常見的新生兒腸阻塞原因。[^1]
+
 ### 參考來源
 [^1]: 2019 交換考詳解；Fundamentals of Pediatric Radiology, p. 99。
+[^2]: **Tier 1** Hull NC, Kim HHR, Phillips GS, Lee EY. *Neonatal and Pediatric Bowel Obstruction: Imaging Guidelines and Recommendations*. Radiol Clin North Am 2022;60(1):131-148（據 PubMed，DOI [10.1016/j.rcl.2021.08.006](https://doi.org/10.1016/j.rcl.2021.08.006)；實際查證 accessed 2026-07-04）——實證影像演算法綜述：腹部平片先分高/低位阻塞，高位以上消化道攝影排除中腸旋轉不良/扭轉（膽汁性嘔吐為警訊），低位以對比灌腸鑑別胎便性腸阻塞、Hirschsprung、腸閉鎖等。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

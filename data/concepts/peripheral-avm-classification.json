@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**Cho-Do classification 依據 nidus 分 4 型，Type II（多條 arteriole 匯入單一 outflow vein）最佳栓塞方式為 transvenous approach 或 direct puncture（非 transarterial）。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.2016150177",
+      "url": "https://doi.org/10.1148/rg.2016150177"
+    }
+  ],
+  "imagingFindings": "- **核心是找到 nidus**：周邊 AVM 判讀關鍵在偵測 nidus（供養動脈與引流靜脈間的異常血管網）及其高流速分流；治療與分類皆以 nidus 之構造為依據。\n- **首選與分階模態**：**MR 血管攝影(MRA)為偏好的影像模態**，任何有症狀病灶或超音波結果模稜兩可時皆應施行；超音波(含都卜勒)為方便的初始工具、適用四肢或表淺病灶，但對軟組織/骨受累與深部複雜 AVM 評估不足。\n- **CTA 之定位**：CT 血管攝影保留給無法接受 MRA 者，或用於評估急性症狀（出血、氣道壓迫）。\n- **導管血管攝影**：傳統導管血管攝影提供即時動態評估，尤其用於規劃與執行血管內治療、及非侵入性影像對高流速成分判讀不明時之確認；栓塞為主要治療。\n- **治療後追蹤**：AVM 本質會進展、治療後復發率高，治療後追蹤與診斷工作同樣以 MRA 為偏好模態。",
   "keyPoints": [
     "Type I：≤3 feeders + 1 outflow vein → transarterial",
     "Type II：多條 arterioles + single outflow vein → **transvenous 或 direct puncture**",
     "Type IIIa：多支 feeder + multiple non-dilated shunts → direct puncture + transarterial",
     "Type IIIb：多支 feeder + multiple dilated shunts → direct puncture + transarterial"
   ],
-  "management": "",
+  "management": "- AVM 屬血管異常中最具症狀且最難處理者，具內在進展性與治療後高復發率。\n- 影像對於準確且早期診斷至關重要，可據以導向適當處置。\n- 栓塞已演變為 AVM 的主要治療方式，放射科於偵測、評估與處置扮演關鍵角色。\n- Cho-Do 分類依 nidus 結構分型，並據此決定經動脈、經靜脈或直接穿刺的最佳栓塞路徑。\n- Type II（多條 arteriole 匯入單一 outflow vein）之最佳栓塞為 transvenous 或 direct puncture，而非 transarterial。",
   "name": "Peripheral AVM Cho-Do Classification",
   "nameZh": "周邊動靜脈畸形分類",
   "slug": "peripheral-avm-classification",
