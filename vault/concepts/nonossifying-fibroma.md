@@ -27,8 +27,24 @@ dateRev: 2026-06-29
 - **DDx**：fibrous dysplasia（毛玻璃基質、髓內中心、非薄硬化緣）、aneurysmal bone cyst（膨脹、fluid–fluid levels）、chondromyxoid fibroma（幹骺端偏心、可有分葉硬化緣，較罕見）、giant cell tumor（骨閉合後、骨骺/幹骺、鄰關節面、無硬化緣）、enchondroma（手足、軟骨基質鈣化）。[^1][^2]
 - **判讀陷阱（勿過度檢查）**：典型 X 光＋無痛偶見即足以確診，**不需切片**；過度做 MRI/CT 是常見且可避免的浪費（兒童輻射、焦慮）；有痛/腫脹/觸痛才需警覺其他病變；大病灶（橫徑 > 50%、或下頜/負重骨）才須評估骨折風險與追蹤。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **X 光診斷（判讀主力）**：**偏心、地圖狀透亮、髓內/皮質為基底、薄而緻密硬化緣、清楚（窄）移行帶、多分葉（polycyclic）、長軸平行骨長軸**——典型組合即可確診，屬「leave-me-alone」病變，不需切片。[^1][^2]
+- **位置線索**：好發**長骨幹骺端鄰近生長板**，最常見**股骨遠端、脛骨近端/遠端**；隨骨骼成熟由生長板向骨幹遷移並漸進硬化消退。[^1][^2]
+- **無侵襲性徵象**：覆蓋皮質可輕度膨脹變薄但**無皮質破壞、無 periosteal reaction、無軟組織腫塊**；若出現這些，須警覺其他病變而非 NOF。[^1][^2]
+- **Ritschl 分期判讀**：A＝透亮邊界清、B＝透亮＋薄硬化緣、C＝由邊緣向內漸進硬化、D＝完全硬化（healed）；**stage B 病理性骨折風險較高**，建議追蹤至 stage C。[^1][^3]
+- **CT/MRI 節制使用 pitfall**：兒童典型病灶**不應為診斷而做 CT（額外輻射）**；MRI（中央 T1 低/T2 高、周邊 T1/T2 皆低的硬化緣）僅用於**非典型、過大或位於高風險位置**者，過度影像檢查是常見且可避免的浪費。[^1][^2]
+- **DDx 核對**：fibrous dysplasia（毛玻璃基質、髓內中心、非薄硬化緣）、giant cell tumor（骨閉合後、骨骺/幹骺鄰關節面、無硬化緣）、enchondroma（手足、軟骨基質鈣化）、aneurysmal bone cyst（膨脹、fluid–fluid levels）、chondromyxoid fibroma（幹骺端偏心、可有分葉硬化緣）。[^1][^2]
+- **骨折風險評估**：橫徑 > 50%、位於負重骨或下頜的大病灶才須評估病理性骨折風險並追蹤；有痛/腫脹/觸痛才需警覺其他病因。[^1][^2]
+
 > [!note] 考點：14 歲、脛骨遠端幹骺端偏心地圖狀透亮＋緻密硬化緣＋endosteal scalloping＋清楚移行帶
 > ＝**Nonossifying fibroma（NOF）**。Giant cell tumor 多在**骨閉合後、骨骺/幹骺、鄰關節面**；enchondroma 多在手足、含軟骨基質鈣化；fibrous dysplasia 呈毛玻璃基質、非薄硬化緣。[^1]
+
+## 臨床重點（5 句）
+- NOF 與 fibrous cortical defect 屬同一組織學光譜的良性纖維病變，多視為發育性骨化缺陷而非真性腫瘤，以大小/自然史區分（FCD 多 <3 cm、NOF >3–5 cm）。[^2][^4]
+- 在 4–10 歲兒童與青少年極常見，盛行率約 20–30%，多為無症狀、偶然發現。[^2][^5]
+- 具自限性自然史，隨骨骼成熟由活躍期轉為靜止並逐漸硬化消退，多數不需治療；女性因骨齡成熟較快而較早消退。[^1][^3]
+- 多發 NOF＋café-au-lait（±下頜 giant cell lesion）＝ **Jaffe–Campanacci syndrome**，多數帶 NF1 生殖系突變並符合 NF1 診斷準則。[^6]
+- 大或多發病灶會顯著提高病理性骨折風險（JCS 病人逾半數曾骨折），為主要臨床併發症。[^6]
 
 ### 參考來源
 [^1]: *Non-ossifying fibroma*. Radiopaedia.org（輔助來源；實際查證 accessed 2026-06-18）：「lucent lesion **eccentrically located in the metaphysis** near the physis, long axis parallel to the axis of the bone, **thin sclerotic rim**」；隨年齡遠離生長板；屬 FEGNOMASHIC 的 N。另 Diagnostic Imaging: Orthopedics（題目所引）。

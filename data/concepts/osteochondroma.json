@@ -20,7 +20,7 @@
       "url": "https://doi.org/10.1148/radiol.10082120"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **診斷關鍵（pathognomonic）＝皮質與髓腔雙重連續**：X 光/CT 見病灶皮質與母骨皮質互相延續、髓腔互通，好發長骨**幹骺端(metaphysis)** 並背向關節生長（**非骨骺，此為考點陷阱**）；缺乏連續性者應改朝表面型惡性（parosteal OS）思考。\n- **惡變警訊（→續發性軟骨肉瘤）**：**MRI 為評估惡變首選**，測量軟骨帽厚度（T2/液敏序列高訊號）——**成人 ≥2 cm(部分教學採 >1.5 cm 保守閾值)、兒童 >3 cm** 提示惡變；另見軟骨帽內**不規則/散在鈣化、骨骼成熟後持續或快速增大、新發疼痛、邊緣分葉、內部溶骨、鄰骨破壞**，增強上軟骨肉瘤呈**分隔狀(septal)強化**而良性僅**周邊強化**。\n- **判讀陷阱：滑囊 ≠ 軟骨帽**：軟骨帽上因摩擦形成的**滑囊(bursa)為良性反應，非惡變徵象**；CT 上滑囊與軟骨帽均呈低密度易混淆，須以 MRI 區分（軟骨帽為透明軟骨訊號），避免高估帽厚而誤判惡性。\n- **鑑別要點**：與 parosteal osteosarcoma、subungual exostosis、BPOP(Nora lesion) 鑑別的共同核心＝**後三者皆無髓腔連續**。",
   "keyPoints": [
     "**本質**:最常見的良性骨腫瘤;為被覆軟骨帽的骨性突起(骨贅／exostosis),好發於長骨**幹骺端(metaphysis)**,典型背向關節/骨骺生長,並**非**好發於骨骺(epiphysis)——此為常見誤判處。",
     "**診斷關鍵(pathognomonic)**:病灶的**皮質與髓腔均與母骨連續**——皮質互相延續、髓腔互通。此連續性是與其他表面型骨腫瘤鑑別的核心依據。",
@@ -41,7 +41,7 @@
     "軟骨帽厚度須以 **MRI／CT 橫斷面**量測,不可僅憑 X 光(鈣化外的軟骨帽 X 光不顯影,易低估)。",
     "**滑囊≠軟骨帽**:CT 上兩者均為低密度,易混淆;滑囊形成屬良性,勿誤判為惡變。"
   ],
-  "management": "",
+  "management": "- 骨軟骨瘤是最常見的良性骨腫瘤，多於骨骼成熟後停止生長。\n- 單發骨軟骨瘤惡性變（轉為軟骨肉瘤）機率 <1%，屬低風險但仍可能發生。\n- 遺傳性多發性外生骨疣(HME)為體染色體顯性遺傳，惡變風險高於單發（約 3–5%，舊報告曾高估）。\n- 常見併發症包括骨變形、骨柄骨折、神經血管壓迫（如膕動脈、腓總神經）與血管併發症，HME 更常見。\n- 骨骼成熟後出現新發疼痛或病灶快速增大應提高警覺，安排 MRI 評估惡變。\n\n**參考來源**\n: RadioGraphics／同儕綜述層級(open-access review, In Vivo 2021；Osteochondromas: An Updated Review of Epidemiology, Pathogenesis, Clinical Presentation, Radiological Features and Treatment Options, In Vivo 35(2):681, PMC8045119, doi:10.21873/invivo.12308):皮質髓腔連續為診斷關鍵、sessile/pedunculated 定義、X光/CT/MRI 特徵、軟骨帽成人 ≥2 cm／兒童 >3 cm、標準化量測 MRI 100%/98%、CT 100%/95%、HME 惡變率、併發症與滑囊為良性反應。\n: 教科書／權威來源層級(StatPearls, NCBI Bookshelf NBK544296, Osteochondroma):惡變警訊(增大、形態改變、骨膜反應、皮質邊緣模糊、軟骨帽 >2 cm 尤其骨骼成熟者)、單發惡變率 <1%、HME 約 3–5%(舊報告至 25%)。\n: RadioGraphics 經典文獻層級(Murphey MD et al., Imaging of Osteochondroma: Variants and Complications with Radiologic-Pathologic Correlation, RadioGraphics 2000;20(5):1407–1434, doi:10.1148/radiographics.20.5.g00se171407):皮質髓腔連續、形態分類、軟骨帽 MRI 評估與併發症之放射病理對照。\n: 同儕期刊原著層級(Bernard SA et al., Improved Differentiation of Benign Osteochondromas from Secondary Chondrosarcomas with Standardized Measurement of Cartilage Cap at CT and MR Imaging, Radiology 2010;255(3):857–865, doi:10.1148/radiol.10082120):標準化軟骨帽量測以 2 cm 為界區分良惡性。\n: 教科書層級(StatPearls, NCBI Bookshelf NBK544296, Osteochondroma — Differential Diagnosis):parosteal osteosarcoma、subungual exostosis、BPOP(Nora lesion)皆**無髓腔連續**,以此與骨軟骨瘤鑑別。\n: *Orthopedic Imaging: A Practical Approach*, 6th edition, P1535（2018 交換考題詳解 p.118 引用；Tier 2 教科書）。骨軟骨瘤最常好發部位為幹骺端(metaphyseal region)，非骨骺(epiphysis)；具軟骨帽、惡性變機率低但可能發生、骨骼成熟後通常停止生長。",
   "name": "Osteochondroma & Malignant Transformation",
   "nameZh": "骨軟骨瘤",
   "slug": "osteochondroma",

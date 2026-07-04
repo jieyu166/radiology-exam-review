@@ -1,14 +1,17 @@
 {
   "checked": false,
   "definition": "**新生兒大量胸水，第一個想 chylothorax——它是新生兒期最常見的大量胸腔積液原因，源自胸管中斷致乳糜外漏，新生兒以特發性/隱源性最多見。** 判讀分水嶺一：**新生兒大量胸水 → 先想 chylothorax**；判讀分水嶺二：**診斷靠胸水分析——餵奶後三酸甘油酯升高＋乳糜微粒＋淋巴球為主（未開始餵奶時生化可不典型）**。記憶鉤：胸管從頸流向胸、中斷即漏白色乳糜（左胸管、右淋巴管），新生兒最「任性」不明原因最常見。",
-  "differentialDiagnosis": [],
+  "differentialDiagnosis": [
+    "**禁食/未餵奶期胸液生化可不典型**：TG 可偏低、外觀不乳白（乳白僅約 44%）,勿因此排除乳糜胸;餵奶後 TG 與乳白程度上升。",
+    "**DDx（其他新生兒胸水）**：感染性/肺炎旁積液、心衰/靜脈高壓（先天心病）、低白蛋白血症、中央靜脈導管外滲、肺部畸形（肺隔離症）;**CDH 可因疝出壓迫致淋巴阻塞而續發乳糜胸**——乳糜 vs 非乳糜以胸液分析區分。"
+  ],
   "externalLinks": [
     {
       "label": "10.1148/rg.2017170014",
       "url": "https://doi.org/10.1148/rg.2017170014"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "**產前影像（胎兒 US 首檢）**\n- **胎兒 US 為首選**：胸腔積液**可單側或雙側**（可隨孕程由單側進展為雙側）,伴**同側肺受壓塌陷、縱隔向對側移位**;大量積液須警覺進展為 **hydrops fetalis** 與 **羊水過多（polyhydramnios）**——後兩者為胎兒介入（胸腔-羊膜腔引流）的指標。\n- **胎兒 MRI** 輔助量化肺體積、評估肺發育不全風險與合併畸形(如 CDH、CPAM)。\n\n**產後影像與滲漏定位**\n- **CXR** 見單/雙側胸腔積液,大量者致縱隔移位;**US** 可定量、區分包裹性積液並**導引引流**。\n- **淋巴影像（找滲漏點/治療導引）**：**動態增強 MR lymphangiography（DCE-MRL）** ＝US 導引經腹股溝**淋巴結內（intranodal）注射釓**併 **T2 序列**（對比劑受阻/外漏未達胸管時,T2 助辨淋巴腫塊與胸管）,為評估中央傳導淋巴管解剖與胸管中斷/滲漏的最佳組合,適用嬰幼兒並可規劃異常淋巴管栓塞;**lymphoscintigraphy** 查胸管損傷或淋巴管發育不全。\n\n**判讀陷阱與 DDx**\n- **禁食/未餵奶期胸液生化可不典型**：TG 可偏低、外觀不乳白（乳白僅約 44%）,勿因此排除乳糜胸;餵奶後 TG 與乳白程度上升。\n- **DDx（其他新生兒胸水）**：感染性/肺炎旁積液、心衰/靜脈高壓（先天心病）、低白蛋白血症、中央靜脈導管外滲、肺部畸形（肺隔離症）;**CDH 可因疝出壓迫致淋巴阻塞而續發乳糜胸**——乳糜 vs 非乳糜以胸液分析區分。\n\n> [!note] 考點：新生兒期最常見的大量胸腔積液原因?\n> **Chylothorax（乳糜胸）**——胸管淋巴外漏,新生兒以特發性/隱源性最常見。\n\n> [!tip] 判讀重點\n> 1. **新生兒大量胸水 → 先想 chylothorax**，但須以胸液分析確診（TG／chylomicrons／淋巴球為主）。\n> 2. **產前** US 看「積液laterality＋縱隔移位＋肺受壓」，警覺進展至 **hydrops／polyhydramnios** 為胎兒介入指標。\n> 3. **禁食期生化可不典型**：未餵奶時 TG 可偏低、外觀不乳白，勿因此排除。\n> 4. 找不到原因或需治療導引時，**淋巴影像（MR lymphangiography／lymphoscintigraphy／intranodal lymphangiography）** 定位滲漏點。\n> 5. 鑑別非乳糜性胸水（感染、心衰、低蛋白、導管外滲、CDH 續發），靠臨床＋胸液分析。",
   "keyPoints": [
     "**新生兒最常見大量胸水原因＝chylothorax（乳糜胸）**（2016-129 正解 D）；新生兒胸水整體罕見（盛行率約 0.06%）。",
     "**病因**：胸管中斷／淋巴外漏。**先天（congenital）以特發性／隱源性最常見**，亦見先天胸管擴張（thoracic duct ectasia）、淋巴管擴張（lymphangiectasia）、縱隔淋巴管瘤等淋巴管異常，可合併染色體／症候群（trisomy 21、Turner、Noonan）；**後天則多為心胸手術後或外傷致胸管損傷**。",
@@ -19,7 +22,7 @@
     "**淋巴影像（找滲漏點／治療導引）**：**動態增強 MR lymphangiography（DCE-MRL）＝US 導引經腹股溝淋巴結內注射釓（intranodal），並搭配 T2 序列**（對比劑因遠端阻塞/外漏未傳至胸管時，T2 有助顯示淋巴腫塊與胸管）——顯示中央傳導淋巴管解剖/流動、胸管局部中斷與滲漏，可規劃異常淋巴管栓塞，適用嬰幼兒;**lymphoscintigraphy** 查胸管損傷或淋巴管發育不全。",
     "**DDx（其他新生兒胸水）**：感染性／肺炎旁積液、心衰／靜脈高壓（先天心病）、低白蛋白血症、中央靜脈導管外滲、肺部畸形（如肺隔離症）；**CDH 可因疝出壓迫致淋巴阻塞而續發乳糜胸／胸水**。乳糜 vs 非乳糜以胸液分析區分。"
   ],
-  "management": "",
+  "management": "- Chylothorax 為**新生兒期最常見的大量胸腔積液原因**,但新生兒胸水整體罕見（盛行率約 0.06%）。\n- **先天性以特發性/隱源性最多見**,亦見淋巴管異常（thoracic duct ectasia、lymphangiectasia、縱隔淋巴管瘤）,可合併染色體/症候群（trisomy 21、Turner、Noonan）;**後天多為心胸手術後或外傷致胸管損傷**。\n- **診斷靠胸液分析**：TG >110 mg/dL 強烈支持、<50 mg/dL 大致排除,**chylomicrons（脂蛋白電泳）為金標準**,淋巴球為主之滲出液。\n- 大量積液壓迫可致**肺發育不全、肺高壓**,並可進展為**胎兒水腫**,是產前重要併發症。\n- 處置採階梯式：**禁食/改中鏈脂肪酸（MCT）飲食或全靜脈營養、引流**,無效可用 **octreotide／somatostatin**,再難治者行胸管結紮或淋巴管栓塞。\n\n**參考來源**\n: *Chylothorax*. Radiopaedia.org（依摘要／條目，accessed 2026-06-17 已查證）：源自胸管中斷,可先天或後天;病因清單含「idiopathic/cryptogenic: **most common in neonatal period**」、congenital thoracic duct ectasia、lymphangiectasia;多單側、可致胎兒水腫。Tier 輔助來源。\n: Maldonado F, et al. *Pleural Fluid Characteristics of Chylothorax*. Mayo Clin Proc / PMC2664583（開放全文已讀，accessed 2026-06-29）：chylomicrons（脂蛋白電泳）為金標準；TG >110 mg/dL 支持、<50 mg/dL 排除，惟禁食／術後約 14% TG <110；乳白外觀僅約 44%，乳白者 TG 中位 822 vs 非乳白 241 mg/dL；淋巴球為主非絕對。Tier 2。\n: Antepartum Thoracocentesis: *Congenital Chylothorax* case report. PMC12439228（開放全文已讀，accessed 2026-06-29）：胎兒 US 示胸腔積液可單／雙側、可進展（單側→雙側）、伴縱隔移位、肺受壓、可合併 polyhydramnios 與 hydrops；病因含淋巴系統異常（縱隔淋巴管瘤）、症候群／TORCH；胸液 99% 淋巴球、高 TG。Tier 2。\n: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Chavhan GB, et al. *MR Lymphangiography in Children: Technique and Potential Applications*. RadioGraphics. 2017;37(6):1775-1790. doi:10.1148/rg.2017170014。**Dynamic intranodal MRL＝US 導引經腹股溝淋巴結內注射釓;合併 T2 序列（對比劑受阻/外漏未達胸管時 T2 助辨淋巴腫塊與胸管）為評估中央傳導淋巴管最佳組合**;應用含 plastic bronchitis（肺淋巴灌注症候群）、新生兒淋巴流異常、非外傷性乳糜胸、乳糜腹來源定位、異常淋巴管栓塞規劃。\n: *Common etiologies / lymphatic imaging in neonatal chylothorax*（PubMed 22036219 等彙整，依摘要未讀全文，accessed 2026-06-29）：MR lymphangiography（非增強＋動態增強）可顯示胸管局部中斷；lymphoscintigraphy 查胸管損傷／淋巴管發育不全；intranodal lymphangiography 定位滲漏並導引介入。Tier 2。\n: Tutor JD. *Common Etiologies of Neonatal Pleural Effusion*. Pediatr Neonatol / PubMed 22036219（依摘要，accessed 2026-06-29）：新生兒胸水 DDx 含 chylothorax、心衰、肺炎旁、低白蛋白、中央靜脈導管外滲、肺部畸形；CDH 因壓迫致淋巴阻塞可續發胸水／乳糜胸。Tier 2。",
   "name": "Neonatal Chylothorax",
   "nameZh": "新生兒乳糜胸",
   "slug": "neonatal-chylothorax",

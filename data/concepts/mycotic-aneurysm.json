@@ -28,7 +28,7 @@
       "url": "https://doi.org/10.1016/j.neurad.2022.12.003"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **主動脈段首選 CTA**：找**囊狀/分葉/偏心瘤體＋主動脈壁鈣化環中斷（管壁被侵蝕）＋主動脈旁軟組織增厚/積液/積氣**及鄰近膿瘍；本質為 contained rupture 的**偽動脈瘤**，非退化性真性瘤。\n- **動態變化＝最重要判讀陷阱**：感染瘤**短期快速增大、易破裂**；比對前次影像若見瘤體短時間擴大或新生，強烈支持感染性而非退化性。\n- **好發部位線索**：胸主動脈與**腎上（suprarenal）**等非典型位置＋鈣化環中斷，與退化性瘤好發腎下主動脈、環狀鈣化完整相反。\n- **FDG-PET/CT 為功能性輔助**：瘤體攝取高於肝臟背景對感染瘤敏感度高（可達 100%）但**特異度低**，發炎性動脈瘤等可偽陽性，須結合臨床/微生物學。\n- **顱內段**：好發**遠端分支（distal MCA/PCA）**、**不規則/梭狀、常多發**；可在 CTA/MRA/DSA **首次陰性後數天內新生或快速長大**，IE 病人須**連續神經影像追蹤**；**DSA 為金標準**，MRI 之 T2*/GRE susceptibility vessel sign（~88%）＋FLAIR 有助偵測未破裂瘤。\n- **DDx 判讀**：退化性真性瘤（fusiform、環狀鈣化完整、緩慢）、發炎性動脈瘤（PET 偽陽性主因）、典型 berry aneurysm（Willis 環近端、單發、不新生）——感染瘤反之為囊狀偏心、快速、遠端/多發。",
   "keyPoints": [
     "**本質為偽動脈瘤**：感染破壞動脈壁全層，由周邊組織包裹而成的 contained rupture，而非真性動脈瘤的管壁三層擴張。",
     "**病因**：細菌（Salmonella、*Staphylococcus aureus*、Clostridium 等）經菌血症血行播散種植於內皮；亦可鄰近感染蔓延、心內膜炎敗血性栓子；少數黴菌/分枝桿菌。**梅毒性主動脈炎亦屬感染性主動脈病變之一**（故「全部都是非梅毒感染所致」為錯誤敘述）。",
@@ -46,7 +46,7 @@
     "**發炎性動脈瘤（inflammatory aneurysm）**：瘤周亦可發炎/FDG 攝取，是 PET 偽陽性主因，須靠臨床與微生物學區分。",
     "**顱內：典型囊狀（berry）動脈瘤**：好發 Willis 環近端分叉處、單發、不會數天內新生；感染性則遠端、多發、快速變化。"
   ],
-  "management": "",
+  "management": "- 病因為細菌（**Salmonella、S. aureus、Clostridium** 等）經菌血症血行播散種植內皮，或鄰近感染蔓延、心內膜炎敗血性栓子。\n- **梅毒性主動脈炎亦屬感染性主動脈病變**，故「全部都是非梅毒感染所致」為錯誤敘述。\n- 顱內感染性動脈瘤占所有顱內瘤約 **0.7–5.4%**，見於約 **2–10% 感染性心內膜炎（IE）**病人。\n- IE 發病後約 **2–5 週為破裂高峰**，須及早偵測與追蹤。\n- 感染性主動脈瘤具快速增大與破裂傾向，可進展為 frank rupture、thrombosis、遠端栓塞甚至死亡。\n\n> [!note] 考點:何者「錯」?\n> 「**全部都是非梅毒感染所致**」錯——梅毒性主動脈瘤亦屬感染性。好發胸/腎上主動脈、鈣化環中斷、主動脈旁發炎/積氣皆正確。\n\n**參考來源**\n: Kwon OY, et al. *Infected abdominal aortic aneurysm due to Morganella morganii: CT findings.* Abdom Imaging. 2011;36(1):83-5（依摘要查證，未讀全文；According to PubMed，[DOI](https://doi.org/10.1007/s00261-010-9602-z)）：感染性主動脈瘤＝感染破壞管壁所致之動脈擴張；常見病原 Salmonella、Clostridium、*S. aureus*；具快速增大與破裂傾向。\n: Rowe SP, Chu LC, Zimmerman SL, Fishman EK. *3D CT cinematic rendering of mycotic aneurysms.* Emerg Radiol. 2018;25(6):723-728（依摘要查證，未讀全文；According to PubMed，[DOI](https://doi.org/10.1007/s10140-018-1643-6)）：血管感染導致 contained rupture，可進展為 frank rupture、thrombosis、distal embolization、死亡；CT 為評估首選模態。\n: 梅毒性主動脈炎屬感染性主動脈病變之一（與考題敘述對照之臨床共識；本點僅作鑑別敘述，未引單篇全文）。\n: Husmann L, et al. *Impact of PET/CT among patients with suspected mycotic aortic aneurysms.* PLoS One. 2021;16(10):e0258702（PMC 開放全文已讀，PMC8525767；According to PubMed，[DOI](https://doi.org/10.1371/journal.pone.0258702)）：FDG-PET/CT 對感染性主動脈瘤診斷準確度高；以「瘤體攝取高於肝臟」為閾值敏感度達 100% 但特異度低，發炎性動脈瘤等可偽陽性。\n: Ando K, et al. *Treatment Strategies for Infectious Intracranial Aneurysms: Report of Three Cases and Review of the Literature.* Neurol Med Chir (Tokyo). 2019;59(9):344-350（PMC 開放全文已讀，PMC6753255；According to PubMed，[DOI](https://doi.org/10.2176/nmc.oa.2019-0051)）：IIA 占顱內瘤 0.7–5.4%、見於約 2–10% IE 病人；好發 distal 分支（distal PCA、MCA）、不規則/梭狀、常多發、多小但可快速擴大；破裂高峰約 IE 後 2–5 週；DSA 為金標準，CTA/MRA 陰性仍建議 DSA 並連續追蹤。\n: Boukobza M, Ilic-Habensus E, Duval X, Laissy JP. *MRI of unruptured infectious intracranial aneurysms in infective endocarditis. A case-control study.* J Neuroradiol. 2023;50(6):539-547（依摘要查證，未讀全文；According to PubMed，[DOI](https://doi.org/10.1016/j.neurad.2022.12.003)）：T2*/GRE susceptibility vessel sign 出現於約 88.2% 未破裂感染性顱內瘤；T2* 合併 FLAIR 偵測敏感度與特異度可達 100%。",
   "name": "Mycotic (Infected) Aortic Aneurysm",
   "nameZh": "感染性動脈瘤",
   "slug": "mycotic-aneurysm",

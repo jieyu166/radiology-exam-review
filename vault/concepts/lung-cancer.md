@@ -24,6 +24,22 @@ concepts: [lung-cancer]
 - **Invasive adenocarcinoma**：侵犯 >5 mm；依**優勢型態**分（lepidic / acinar / papillary / **micropapillary（2011 新增）** / solid with mucin），以 5% 增量半定量取單一優勢型。[^1]
 - **Variants**：invasive mucinous adenocarcinoma（IMA，原 mucinous BAC）、colloid、fetal、enteric。[^1]
 
+## 放射科醫師影像判讀重點
+
+- **判讀主軸＝量測 solid 成分，而非結節總徑**：純毛玻璃（nonsolid）代表 lepidic／非侵犯；**solid 部分才對應間質侵犯**。AIS 為純 nonsolid；MIA 為 nonsolid 為主＋**<5 mm 中央 solid**；solid >5 mm 即 invasive——solid 徑量錯會直接跨越分類分水嶺。[^1]
+- **≤3 cm 是 AIS/MIA 的共同上限**：兩者皆 lepidic 為主、≤3 cm，唯一差別是有無 ≤5 mm 侵犯（即有無 solid 成分）；報告 GGN 時務必同時記錄總徑與 solid 徑。[^1]
+- **part-solid / solid 型的 DDx 與陷阱**：lepidic-predominant invasive 常呈 part-solid；**IMA（原 mucinous BAC）表現多樣，可從結節到肺實質化（consolidation）**，易誤為肺炎——持續不吸收的局灶 consolidation 須想到 IMA。[^1]
+- **量測陷阱**：GGN 的 solid 成分在**肺窗**易被高估、須以一致窗位量測；感染／出血可造成暫時性 solid-appearing 區，**短期追蹤**有助區分真侵犯與可逆變化。[^1]
+- **micropapillary 亞型**：2011 新增、預後較差；即使為次要成分（依 5% 增量半定量）於報告中提及具臨床意義。[^1]
+
+## 臨床重點（5 句）
+
+- 2011 IASLC/ATS/ERS 分類廢除 BAC 一詞，改以 AIS／MIA／lepidic-predominant 等取代。[^1]
+- **AIS 與 MIA 完全切除後 disease-free / 存活率趨近 100%**，故正確歸類直接影響預後告知。[^1]
+- invasive adenocarcinoma 依**單一優勢型態**分型（lepidic/acinar/papillary/micropapillary/solid），以 5% 增量半定量評估。[^1]
+- **micropapillary 與 solid 亞型預後較差**，lepidic-predominant 預後較佳。[^1]
+- 本筆記僅涵蓋 2011 肺腺癌分類；鱗癌、小細胞、TNM 分期為另題範圍。[^1]
+
 ## 2011 分類詞語與 CT 對應
 
 ### Preinvasive

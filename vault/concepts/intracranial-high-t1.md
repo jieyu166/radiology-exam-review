@@ -20,6 +20,14 @@ aliases:
 **不是** T1 高訊號的病灶：
 - **Epidermoid cyst**：T1 低訊號（follow CSF），T2 高訊號，DWI 受限
 
+## 放射科醫師影像判讀重點
+
+- **T1 高訊號五大機轉要先歸類**：判讀時先問「是脂肪、黑色素、出血產物、高蛋白/鈣化，還是順磁性金屬沉積」，五者影像脈絡不同，是縮小鑑別的第一步。[^1]
+- **脂肪 vs 亞急性出血的區辨靠脂肪抑制序列**：dermoid、lipoma、teratoma 之 T1 高訊號在 fat-sat 序列會被壓下去（訊號變低）；methemoglobin（亞急性出血）之 T1 高訊號不受脂肪抑制影響，可據此分流。[^1]
+- **黑色素性病灶偏好位置與強化**：meningeal melanomatosis 與 melanoma 轉移之 T1 高訊號源自 melanin 本身的順磁性，常沿腦膜/軟腦膜分布並強化，於黑色素瘤病史者需優先考慮。[^1]
+- **代謝性對稱性 T1 高訊號**：hepatic encephalopathy 的錳（manganese）沉積典型呈**兩側對稱**基底核（globus pallidus）T1 高訊號，對稱性與慢性肝病史是關鍵判讀線索。[^1]
+- **Epidermoid 是最大陷阱**：epidermoid cyst 因無脂肪成分而 T1 呈**低**訊號（follow CSF）、T2 高訊號、DWI 受限，勿因與 dermoid 名稱相近而誤判為 T1 高訊號病灶。[^1]
+
 ## 陷阱
 
 - Epidermoid 與 dermoid 不同：epidermoid 沒有脂肪成分，T1 呈低訊號

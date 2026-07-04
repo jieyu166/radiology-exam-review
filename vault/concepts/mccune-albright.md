@@ -48,8 +48,25 @@ same:
 | **Low-grade osteosarcoma** | 皮質破壞、軟組織腫塊；**MDM2/CDK4 陽性**（FD 陰性）[^1] |
 | **Adamantinoma** | 脛骨前側骨幹、多房「soap-bubble」型[^1] |
 
+## 放射科醫師影像判讀重點
+- **骨（X 光判讀主力）**：多骨性纖維異常增生呈**髓內膨脹性病變＋ground-glass（霧玻璃）基質＋皮質變薄但外緣平滑＋無 periosteal reaction**；見此組合＋多發分布即支持 MAS 的骨表現。[^1]
+- **典型併發徵象**：**rind sign**（病灶外圍厚硬化緣，近端股骨最常見）與 **shepherd's crook deformity**（近端股骨反覆病理性骨折後內翻變形）為 FD 的招牌影像。[^1]
+- **分布差異 pitfall**：**顱面骨病灶偏緻密硬化、四肢/中軸骨偏透亮**；顱面老化/囊變病灶在 CT 出現透亮囊狀區易被誤為 ABC 或惡性，須以「邊界清楚（sharply demarcated）」佐證良性。[^1]
+- **CT 角色**：基質衰減約 **60–140 HU**，較 X 光更能界定膨脹、皮質與顱面病灶範圍，為評估骨變形／範圍首選；**打對比會強化**，勿以強化本身判惡性。[^1]
+- **MRI 訊號陷阱**：T1 多中低訊號、T2 變動（中高，T2 越高代表骨小樑越少）；訊號與強化型態**無法可靠區分良惡性**，活性病灶可顯著強化，易誤判為侵襲性。[^1]
+- **PET 陷阱**：FD 病灶 18F-FDG／18F-NaF 攝取多變，可能模擬惡性或轉移，判讀 PET 時須結合形態學。[^1]
+- **café-au-lait（皮）判讀對比**：邊界**不規則的「coast of Maine」鋸齒緣**（對比神經纖維瘤病光滑的「coast of California」）、**通常不越中線、與骨病灶同側**。[^2]
+- **內分泌（荷爾蒙）考點**：性早熟為最常見內分泌異常、**以女孩多見且發病較早**（陰道出血、乳房發育），多為周邊型；故「**男性為主（male predominance）**」為 MAS 的假特徵、常設為錯誤選項。[^2]
+
 > [!note] 考點：何者「非」McCune-Albright 的特徵？
 > 「**男性為主（male predominance）**」非其特徵——本症**女性為主**。三聯（性早熟、café-au-lait、polyostotic fibrous dysplasia）皆為特徵。[^2]
+
+## 臨床重點（5 句）
+- MAS 的機轉為 **GNAS 體細胞活化突變（鑲嵌型）**，於胚胎期合子後發生（常見 Arg201），使 Gsα 持續活化、cAMP 上升。[^1][^2]
+- 診斷以臨床為主：三聯**具備其二**即可診斷；因鑲嵌性導致偽陰性，基因檢測臨床效用有限。[^2]
+- 性早熟為最常見內分泌病變，女孩較早、較常見，臨床可表現為陰道出血與乳房提早發育。[^2]
+- 其他內分泌過度功能包括甲狀腺機能亢進、生長激素過多／肢端肥大、高泌乳素血症、腎性磷酸鹽流失與 Cushing 症候群。[^2]
+- 因屬鑲嵌性疾病、非生殖系遺傳，一般不會由親代垂直遺傳給後代。[^2]
 
 ### 參考來源
 [^1]: Kushchayeva YS, et al. *Fibrous dysplasia for radiologists: beyond ground glass bone matrix*. **Insights Imaging** 2018;9(6):1035–1056（PMC 開放全文 PMC6269335，期刊回顧級）。doi:10.1007/s13244-018-0666-6。膨脹＋ground-glass＋無 periosteal reaction＋rind sign；shepherd's crook；顱面緻密／四肢透亮；CT 60–140 HU、可強化；MRI T1 中低、T2 中高且變動、訊號非特異易誤侵襲；DDx Paget／NOF／ossifying fibroma／low-grade osteosarcoma(MDM2/CDK4+)／adamantinoma；PET 攝取多變陷阱。骨病灶細節見 [[fibrous-dysplasia]]。

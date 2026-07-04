@@ -19,6 +19,19 @@ dateRev: 2026-07-02
 - **肝臟**：HCC 可含 intracellular fat，呈 opposed-phase signal drop [^1]
 - **與 macroscopic fat 區別**：Macroscopic fat（如 AML、脂肪瘤）用 fat saturation 可見 signal drop；microscopic fat 用 chemical shift [^1]
 
+## 放射科醫師影像判讀重點
+- **偵測技術要選對（考點核心）**：**細胞內/微量脂肪(microscopic fat)以 chemical shift（同相 in-phase vs 反相 opposed-phase）偵測**——反相影像上訊號下降(signal drop)代表同一 voxel 內水與脂肪並存；**巨觀脂肪(macroscopic fat)則以 fat saturation（脂肪抑制）偵測**，兩者機轉不同不可混用。[^1]
+- **腎上腺腺瘤判讀與量化**：**約 70% 腎上腺腺瘤富含細胞內脂質**，反相影像明顯 signal drop（可算 adrenal signal intensity index / chemical-shift ratio）高度提示良性腺瘤；但**腎上腺皮質癌(ACC)與嗜鉻細胞瘤(pheochromocytoma)亦可含少量細胞內脂質而出現 signal drop**，故 signal drop 不能單獨排除惡性，須併看大小、邊界、增強與生長速度。[^1]
+- **肝臟判讀**：**肝細胞癌(HCC)可含細胞內脂肪**，反相影像局部訊號下降；良性之局部脂肪浸潤/脂肪肝亦有相同表現，須依形態、增強動態與臨床鑑別。[^1]
+- **判讀陷阱**：反相 signal drop 為「含微量脂肪」的表徵而非特定診斷；巨觀脂肪病灶（如 AML、脂肪瘤）在反相不一定掉訊號，需靠脂肪抑制序列確認，避免技術選錯而誤判。[^1]
+
+## 臨床重點（5 句）
+- 化學位移 MRI 是無創鑑別腎上腺意外瘤良惡性的重要工具，反相明顯掉訊號多支持良性腺瘤。[^1]
+- 富脂性腎上腺腺瘤在 CT 上多呈低衰減(≤10 HU)，與 MRI 化學位移所見一致。[^1]
+- 訊號下降不能單獨排除惡性，皮質癌與嗜鉻細胞瘤仍可含少量細胞內脂質，須結合其他影像特徵。[^1]
+- 肝細胞癌可因含細胞內脂肪而在反相掉訊號，屬需與良性脂肪浸潤鑑別的情境。[^1]
+- 病灶含巨觀脂肪（如血管肌脂瘤、脂肪瘤）時臨床意義與微量脂肪不同，處置方向亦異。[^1]
+
 ### 參考來源
 [^1]: RadioGraphics 2016;36:718；Schieda N et al. Update on CT and MRI of Adrenal Nodules. AJR 2017;208:1206-1217.
 

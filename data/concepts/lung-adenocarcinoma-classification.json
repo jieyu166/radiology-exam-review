@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.53347/rID-5920——**肺腺癌組織學光譜、始於惰性增生（AAH"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **以 CT 上實質成分(solid component)判讀侵犯，對應病理光譜（考點核心）**：**AAH＝≤5 mm 純磨玻璃結節(pGGN)、淡而均勻**；**AIS＝≤3 cm 純磨玻璃、無實質成分**；**MIA＝≤3 cm、以磨玻璃為主但可有 ≤5 mm 中央實質成分（part-solid）**；**invasive＝實質成分 >5 mm**。實質成分大小是區分 MIA 與 invasive 的關鍵影像指標。\n- **形態與追蹤判讀**：純磨玻璃結節多為惰性、可長期追蹤；出現新的實質成分、實質比例增加或病灶增大，提示由 preinvasive 往 invasive 進展，須提高處置積極度。\n- **判讀陷阱：非分類成員與 mimic**：**focal interstitial fibrosis（局部間質纖維化）非此腺癌光譜成員**，勿列入分類選項；且局部纖維化、發炎或出血亦可呈磨玻璃而 mimic AIS/MIA，須以隨訪穩定性或不同時序影像鑑別。\n- **測量規範**：實質成分與病灶總徑應以**薄層(thin-section)、肺窗**量測；part-solid 結節同時記錄總徑與實質徑，方能正確落在 MIA 或 invasive 類別。",
   "keyPoints": [
     "**光譜（preinvasive → invasive）**：",
     "**AAH（atypical adenomatous hyperplasia）**：preinvasive、**≤5 mm** 的非典型腺瘤樣增生。",
@@ -18,7 +18,7 @@
     "**不屬此分類**：**focal interstitial fibrosis（局部間質纖維化）非肺腺癌光譜成員**。",
     "**術語更新**：2011 IASLC 分類已**廢除 mucinous/non-mucinous bronchoalveolar carcinoma（BAC）舊稱**；AIS 以 non-mucinous 最常見。"
   ],
-  "management": "",
+  "management": "- 2011 IASLC/ATS/ERS 分類將肺腺癌整理為 preinvasive（AAH、AIS）→ MIA →invasive 的連續光譜。\n- AIS 與 MIA 完全切除後近乎 100% 無病存活，屬預後極佳族群。\n- 該分類廢除了舊有的細支氣管肺泡癌(BAC)術語，改以 lepidic 生長與侵犯程度定義。\n- MIA 的定義要求腫瘤 ≤3 cm、以 lepidic 為主且任一病灶侵犯 ≤5 mm。\n- invasive mucinous adenocarcinoma 為侵襲性腺癌的一個特定型別，行為與非黏液型不同。\n\n> [!note] 考點一：依 2011 分類，「≤3 cm、lepidic 為主、侵犯 ≤5 mm、CT 多非實質但可有 ≤5 mm 中央實質」描述何者?\n> **Minimally invasive adenocarcinoma（MIA）**。\n\n> [!note] 考點二：關於 2011 肺腺癌分類，下列何者「非」其成員（true except for）?\n> **Focal interstitial fibrosis** 非此分類成員。AIS、MIA、AAH 皆屬肺腺癌光譜。\n\n**參考來源**\n: 官方 2017 詳解；Radiology 2013;266(1):62-71（2011 IASLC/ATS/ERS 肺腺癌分類影像）：光譜為 AAH→AIS→MIA→invasive;AIS ≤3 cm 純 lepidic、MIA ≤3 cm lepidic 為主＋侵犯 ≤5 mm（CT 可有 ≤5 mm 中央實質）;focal interstitial fibrosis 非此分類。\n: Gaillard F, et al. *Adenocarcinoma in situ, minimally invasive adenocarcinoma and invasive adenocarcinoma of lung*. Radiopaedia, rID-5920, DOI 10.53347/rID-5920——**肺腺癌組織學光譜、始於惰性增生（AAH）、可數年進展為侵襲**；**2011 IASLC 修訂分類含 AAH、AIS（≤3 cm、lepidic、無壞死/侵犯）、MIA（≤3 cm）、invasive；廢除 mucinous/non-mucinous BAC 舊稱**——佐證分類成員與 focal interstitial fibrosis 不屬其中。",
   "name": "Lung Adenocarcinoma — 2011 IASLC/ATS/ERS Classification",
   "nameZh": "肺腺癌分類",
   "slug": "lung-adenocarcinoma-classification",

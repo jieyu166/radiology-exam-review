@@ -3,7 +3,7 @@
   "definition": "**放射學上腦膜依「血管供應與功能」分兩大層，而非傳統解剖三層各自獨立：pachymeninges（厚膜）＝硬腦膜＋蜘蛛膜（dura + arachnoid，兩者共同構成無血管的外層屏障）；leptomeninges（軟膜）＝軟腦膜（pia mater，緊貼腦表面之血管化薄膜）。此分類與傳統「dura／arachnoid／pia 各自獨立」的解剖三層描述不同，是放射影像文獻（如 RadioGraphics）常用之功能性二分法。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **強化型態二分是判讀核心**：pachymeningeal(dura+arachnoid) 強化呈**厚而連續、不深入腦溝(sulci)**的線狀強化，沿顱骨內板走行；leptomeningeal(pia+subarachnoid) 強化則**沿腦回表面深入腦溝與腦池**，呈細緻蜿蜒狀，兩者分布不同是首要辨識點。\n- **硬腦膜(pachymeningeal)強化的鑑別**：常見於低顱內壓(SIH)、硬腦膜轉移、肥厚性硬腦膜炎、術後或腦膜瘤旁；強化增厚多平滑對稱者偏良性(如 SIH)，結節狀不規則者需警惕轉移。\n- **軟腦膜(leptomeningeal)強化的鑑別**：見於癌性腦膜炎(leptomeningeal carcinomatosis)、感染性/結核性腦膜炎與神經結節病；沿腦溝、腦幹表面與顱神經之強化為典型，須搭配腦脊髓液細胞學。\n- **序列選擇**：對細微軟腦膜病灶，**增強後 FLAIR** 較增強 T1 更敏感；判讀顱神經與脊髓軟腦膜播散時應加做薄層增強序列。\n- **分類法歧異的作答提醒**：放射文獻(RadioGraphics)採「dura+arachnoid＝pachymeninges vs pia＝leptomeninges」的功能性二分，部分基礎解剖教材則將 leptomeninges 定義為 arachnoid+pia；作答時須依題目所引來源判斷，避免分類混淆。\n\n**參考來源**\n: *RadioGraphics*, Vol. 27, No. 2（2018 交換考題詳解 p.54 引用；Tier 1）。Pachymeninges 為 dura mater；leptomeninges 為 arachnoid 加 pia mater。",
   "keyPoints": [
     "**Pachymeninges（厚腦膜）＝ Dura mater + Arachnoid**——蜘蛛膜在胚胎發生與血管供應上與硬腦膜關係較密切（皆為無血管、屏障性結構），放射文獻常將兩者合併歸為 pachymeninges。",
     "**Leptomeninges（軟腦膜）＝ Pia mater（單獨）**——軟腦膜緊貼腦/脊髓表面、含血管，與蜘蛛膜下腔（subarachnoid space，介於 arachnoid 與 pia 之間）的腦脊髓液環境關係密切。",

@@ -28,6 +28,20 @@ same:
 - **判讀重點**：纖維化是否進展、cellular→fibrotic 轉變，看**牽引性支氣管擴張是否增加/加重**（而非單看 GGO 多寡——GGO 可代表發炎或細纖維化）。[^1]
 - **病因關聯**：可特發,但**強烈提示 CTD-ILD**——NSIP（尤其 fibrotic NSIP）是 systemic sclerosis、dermatomyositis/polymyositis、MCTD 最常見的 ILD 型態;年輕、女性、合併自體免疫特徵者更須往 CTD 想（見 [[ctd-ild]]）;亦見於慢性過敏性肺炎（chronic HP）、藥物毒性、IPAF。[^2][^4]
 
+## 放射科醫師影像判讀重點
+- **招牌三徵**：判讀 HRCT 見**下肺/基底為主的 GGO＋相對 subpleural sparing＋peribronchovascular 分布**三者並存時，強烈偏向 NSIP，是與 UIP 區分最有用的組合。[^3][^1]
+- **與 UIP 的鏡像對比**：NSIP **均質、對稱、honeycombing 罕見（fibrotic 系列約 5%）**；UIP 則 **subpleural predominant＋明顯 honeycombing＋時空異質＋上下肺梯度**——判讀時先問「均質還是異質、有沒有蜂窩」。[^1][^3]
+- **cellular vs fibrotic 判讀**：cellular NSIP 以**純 GGO 為主、網狀與牽引性擴張少、可逆**；fibrotic NSIP 為 **GGO＋網狀＋牽引性支氣管擴張**、屬 cellular↔UIP 中間型；**追纖維化進展看牽引性支氣管擴張是否加重**，而非單看 GGO 多寡。[^1][^2]
+- **判讀陷阱**：**subpleural sparing 非 NSIP 專屬、也非每例都有**（CTD-fNSIP 系列僅約 21%），沒有它不能排除 NSIP；fibrotic NSIP 可隨時間演變至**與 UIP 難以區分**，調閱舊片比對可提高正確率。[^4][^3][^2]
+- **報告觸發臨床評估**：NSIP 是**型態而非最終診斷**，見此型態（尤其年輕女性、fibrotic NSIP）應於報告主動提示尋找 **CTD**、藥物毒性、chronic HP、IPAF 等病因，必要時多專科討論。[^2][^4]
+
+## 臨床重點（5 句）
+- NSIP 是一種影像/病理型態而非獨立疾病，發現後臨床須系統性尋找潛在病因。[^2]
+- NSIP（尤其 fibrotic NSIP）是 systemic sclerosis、皮肌炎/多發性肌炎、MCTD 等結締組織疾病最常見的 ILD 型態。[^4]
+- 年輕、女性、合併自體免疫特徵者出現 NSIP 型態時，臨床應積極安排血清學檢查與風濕科評估。[^4]
+- cellular NSIP 對免疫抑制治療反應較好、預後佳；fibrotic NSIP 預後較差但仍優於 UIP/IPF。[^2]
+- NSIP 若合併顯著 consolidation 應想到合併 organizing pneumonia 成分，也進一步提示 CTD 背景。[^5]
+
 > [!note] 與 UIP/IPF 的關鍵區分（判讀分水嶺）
 > **偏 NSIP**：subpleural sparing、GGO 為主、**對稱均質**、peribronchovascular、honeycombing 少。**偏 UIP/IPF**：**subpleural／基底 predominant、明顯 honeycombing、時空異質（heterogeneous）、上下肺梯度明顯**（見 [[ipf]]）。在無明確 honeycombing 的病例，**廣泛 GGO＋subpleural sparing＋peribronchovascular** 三者偏向 NSIP。[^3]
 

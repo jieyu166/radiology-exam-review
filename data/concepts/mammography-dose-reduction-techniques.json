@@ -3,7 +3,7 @@
   "definition": "**降低傳統底片式乳房攝影劑量的方法包括：脂肪型乳房免用散射柵格（grid）、使用快速增感屏/底片組合、以及延長顯影處理（extended processing）；Bucky factor 反映因使用散射柵格所增加的劑量倍數，隨 kVp 與柵格比改變。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **散射柵格的取捨影響劑量與對比**：柵格可吸收散射線、提升影像對比，但代價是需增加曝光量(即 Bucky factor)；對散射本就少的脂肪型乳房可免用柵格以降低劑量，對緻密乳房則多保留柵格以維持對比。\n- **Bucky factor 隨技術參數變動**：Bucky factor＝有柵格 vs 無柵格所需入射劑量之比，隨柵格比(grid ratio)升高與 kVp 變化而改變，是評估柵格劑量代價的量化指標。\n- **增感屏/底片組合換取劑量**：改用高感度快速增感屏/底片組合可降低所需曝光量，但通常犧牲空間解析度或增加影像雜訊(顆粒感)，判讀時須權衡微鈣化偵測能力。\n- **延長顯影(extended processing)的代價**：拉長顯影時間可提高底片感度而降低曝光量，但會壓縮對比動態範圍，須確認不影響微小病灶與微鈣化的可視性。\n- **數位化的劑量與判讀優勢**：相較傳統底片式，數位乳房攝影(FFDM)動態範圍寬、可後處理調窗，於**緻密乳房**族群偵測率較佳，且便於劑量最佳化與重照率下降。\n\n**參考來源**\n: Comparison of Digital Mammography and Screen-Film Mammography in Breast Cancer Screening. *AJR* 2009.",
   "keyPoints": [
     "**免用散射柵格（no grid）**：脂肪含量高的乳房散射較少，可省略 grid 以降低劑量。",
     "**快速增感屏/底片組合（fast screen-film）**：感度較高的組合可降低所需曝光量。",

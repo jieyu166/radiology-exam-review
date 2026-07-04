@@ -8,13 +8,13 @@
       "url": "https://doi.org/10.1148/rg.2018170072（2018"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **序列與判讀重點**：以**脂肪抑制 T2／PD（或 STIR）軸位** 為主，尋找**內側雙羽狀肌腱複合體與外層肌肉之間的液體分離平面**——液體「套住」內層肌腱複合體是脫套傷的判讀關鍵徵象，分離範圍可達雙羽狀部分周徑 100%。\n- **好發解剖基礎（考點核心）**：此型態幾乎專見於**具中央腱膜的雙羽狀肌(bipennate)**，最典型為 **rectus femoris（股直肌）**；非雙羽狀肌（semitendinosus、adductor magnus、medial gastrocnemius）缺乏此內外兩層＋中央腱膜構造，**不會**呈現此特定型態，是選項辨識的分水嶺。\n- **附帶徵象**：內側雙羽狀部位常見**肌肉內水腫（T2 高訊號）**、可見**回縮之內側雙羽狀肌肉**及中央腱膜（肌肉內隔膜）位於內側肌肉中央；判讀時定位液體分離平面與中央腱膜關係以確認診斷。\n- **判讀陷阱**：勿將單純肌腱膜旁積液或一般肌肉拉傷等同脫套傷——須看到內外兩層之間沿中央腱膜的環狀分離才符合 degloving 型態。",
   "keyPoints": [
     "**好發肌肉**：**Rectus femoris（股直肌）**——具雙羽狀（bipennate）構造，中央腱膜（central aponeurosis）位於內側肌腱複合體（inner myotendinous complex）中央，故可呈現肌肉內脫套傷型態。",
     "**非好發肌肉**：Semitendinosus、Adductor Magnus、Medial Gastrocnemius——皆非典型雙羽狀肌構造，不呈現此特定脫套傷型態。",
     "**影像表現（MRI）**：脂肪抑制T2壓脂序列見**內側雙羽狀肌腱複合體與外層單羽狀部分之間被液體分離**（可達雙羽狀部分周徑100%）；內側雙羽狀部位可見**肌肉內水腫**（訊號增高）；中央腱膜（肌肉內隔膜）位於內側肌肉中央；可見**回縮之內側雙羽狀肌肉**。"
   ],
-  "management": "",
+  "management": "- 肌肉內脫套傷屬肌腱膜交界處的剪切性損傷，好發於爆發性伸膝或衝刺等離心收縮情境。\n- 股直肌因具雙羽狀構造與中央腱膜，是此型損傷最經典的發生部位。\n- 損傷程度取決於液體分離範圍與內層肌肉回縮程度，影響復健時程與預後。\n- 正確辨識脫套型態有助於區分單純肌肉拉傷，指引運動員的負荷調整與復健計畫。\n- 非雙羽狀肌的拉傷不會呈現此型態，臨床鑑別時應回歸受累肌肉的解剖構造。\n\n> [!note] 考點：何者可呈現肌肉內脫套傷（muscle degloving pattern of injury）？\n> **Rectus femoris（D）**——具雙羽狀構造（中央腱膜＋內外兩層），為此特定脫套傷型態之好發肌肉。Semitendinosus、Adductor Magnus、Medial Gastrocnemius皆非典型雙羽狀肌，不呈現此型態。\n\n**參考來源**\n: *RadioGraphics* 2018;38:0000-0000. https://doi.org/10.1148/rg.2018170072（2018 交換考題詳解 p.247 引用；Tier 1 期刊）。Rectus femoris為雙羽狀肌，可呈現內側肌腱複合體與外層單羽狀部分間之肌肉內脫套傷；MRI見液體分離雙羽狀與單羽狀部分、內側雙羽狀部位肌肉內水腫、中央腱膜（肌肉內隔膜）、回縮之內側雙羽狀肌肉。",
   "name": "Intramuscular Degloving Injury (Bipennate Muscle)",
   "nameZh": "肌肉內脫套傷",
   "slug": "muscle-degloving-injury",

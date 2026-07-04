@@ -23,6 +23,19 @@ dateRev: 2026-07-03
 - **不屬此分類**：**focal interstitial fibrosis（局部間質纖維化）非肺腺癌光譜成員**。[^1]
 - **術語更新**：2011 IASLC 分類已**廢除 mucinous/non-mucinous bronchoalveolar carcinoma（BAC）舊稱**；AIS 以 non-mucinous 最常見。[^2]
 
+## 放射科醫師影像判讀重點
+- **以 CT 上實質成分(solid component)判讀侵犯，對應病理光譜（考點核心）**：**AAH＝≤5 mm 純磨玻璃結節(pGGN)、淡而均勻**；**AIS＝≤3 cm 純磨玻璃、無實質成分**；**MIA＝≤3 cm、以磨玻璃為主但可有 ≤5 mm 中央實質成分（part-solid）**；**invasive＝實質成分 >5 mm**。實質成分大小是區分 MIA 與 invasive 的關鍵影像指標。[^1]
+- **形態與追蹤判讀**：純磨玻璃結節多為惰性、可長期追蹤；出現新的實質成分、實質比例增加或病灶增大，提示由 preinvasive 往 invasive 進展，須提高處置積極度。[^1][^2]
+- **判讀陷阱：非分類成員與 mimic**：**focal interstitial fibrosis（局部間質纖維化）非此腺癌光譜成員**，勿列入分類選項；且局部纖維化、發炎或出血亦可呈磨玻璃而 mimic AIS/MIA，須以隨訪穩定性或不同時序影像鑑別。[^1]
+- **測量規範**：實質成分與病灶總徑應以**薄層(thin-section)、肺窗**量測；part-solid 結節同時記錄總徑與實質徑，方能正確落在 MIA 或 invasive 類別。[^1]
+
+## 臨床重點（5 句）
+- 2011 IASLC/ATS/ERS 分類將肺腺癌整理為 preinvasive（AAH、AIS）→ MIA →invasive 的連續光譜。[^1]
+- AIS 與 MIA 完全切除後近乎 100% 無病存活，屬預後極佳族群。[^1]
+- 該分類廢除了舊有的細支氣管肺泡癌(BAC)術語，改以 lepidic 生長與侵犯程度定義。[^2]
+- MIA 的定義要求腫瘤 ≤3 cm、以 lepidic 為主且任一病灶侵犯 ≤5 mm。[^1]
+- invasive mucinous adenocarcinoma 為侵襲性腺癌的一個特定型別，行為與非黏液型不同。[^1]
+
 > [!note] 考點一：依 2011 分類，「≤3 cm、lepidic 為主、侵犯 ≤5 mm、CT 多非實質但可有 ≤5 mm 中央實質」描述何者?
 > **Minimally invasive adenocarcinoma（MIA）**。[^1]
 

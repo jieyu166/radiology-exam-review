@@ -8,7 +8,7 @@
       "url": "https://doi.org/10.1136/jmg.2009.072785：Revised"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **主動脈（判讀首要）**：核心表現為**環主動脈擴張(annuloaortic ectasia)＝主動脈環＋Valsalva 竇擴大呈燒瓶狀(flask-like)**，其定義本身即含 Valsalva 竇擴大（勿誤判為竇大小正常）；量測主動脈根部直徑並計算 **Z-score(≥2 為 Ghent 心血管門檻)**，並主動搜尋**升主動脈剝離(Stanford type A)**——Marfan 為 type A 剝離重要危險因子，不可謂「不會出現」。\n- **神經（脊椎）**：**腰薦硬脊膜擴張(lumbosacral dural ectasia)** 於 MRI/CT 見硬脊膜囊擴大、椎體後緣扇貝狀壓跡、神經孔擴大或前薦脊膜膨出，屬 systemic score 高分項(2 分)，判讀腰椎時應主動評估。\n- **胸腔（考點陷阱）**：肺部系統**無獨立主要(major)標準**，只有次要標準——**自發性氣胸(spontaneous pneumothorax)** 與**肺尖大泡(apical blebs)**；胸片/CT 見肺尖大泡或反覆氣胸時應連結全身評估。\n- **骨骼與其他**：CT/X 光可見**pectus carinatum/excavatum、脊柱側彎、protrusio acetabuli(髖臼內陷)、臂展>身高**；眼科之**水晶體異位(ectopia lentis)** 為主要診斷要素之一。判讀時把各系統影像所見對回 Ghent systemic score 累計。",
   "keyPoints": [
     "**Revised Ghent criteria（2010，現行版）核心組合（無家族史）**：",
     "Ao(Z≥2) + EL = MFS",
@@ -20,7 +20,7 @@
     "**原始 Ghent 心血管 Major**：升主動脈擴大（含 Valsalva 竇）±主動脈瓣逆流、升主動脈剝離。**Minor**：二尖瓣脫垂、主肺動脈擴大（<40歲、無瓣膜/周邊狹窄）、**二尖瓣環鈣化（<40歲）**、降主動脈/腹主動脈擴大或剝離（<50歲）。",
     "**Systemic score（Revised Ghent）重要配分**：wrist+thumb sign 3分、pectus carinatum 2分、hindfoot deformity 2分、**pneumothorax 2分**、**dural ectasia 2分**、protrusio acetabuli 2分、US/LS+臂展身高比異常 1分、脊柱側彎/後凸 1分、肘伸展受限 1分、顏面特徵(3/5) 1分、皮膚紋 1分、近視>3D 1分、二尖瓣脫垂 1分;**總分≥7分＝有全身系統性受累**。"
   ],
-  "management": "",
+  "management": "- Marfan 症候群為 FBN1 基因突變所致之體染色體顯性遺傳結締組織疾病，具家族史。\n- 現行診斷採 2010 修訂版 Ghent 準則，核心為升主動脈受累、水晶體異位與 FBN1 致病突變的組合。\n- 主要致命併發症為主動脈根部擴張進展至主動脈剝離，需長期心血管監測與 β-blocker/ARB 治療。\n- 擇期主動脈手術時機為根部直徑 ≥5.0 cm，或 <5 cm 但每年增長 ≥0.5–1 cm，合併主動脈瓣逆流或家族剝離史時門檻更低。\n- 懷孕會顯著增加主動脈剝離風險，孕前與孕期須密切影像追蹤主動脈徑。\n\n> [!note] 考點：下列何組為 Marfan syndrome 的『主要』診斷要素?\n> **1（臂展身高比>1.05）+ 3（ectopia lentis）+ 4（lumbosacral dural ectasia）＝B**。第 2 項（<40歲二尖瓣環鈣化）屬**次要（minor）**標準，非主要。",
   "name": "Marfan Syndrome — Diagnostic Criteria (Ghent)",
   "nameZh": "馬凡氏症候群",
   "slug": "marfan-syndrome",

@@ -3,7 +3,7 @@
   "definition": "**Le Fort骨折三型口訣「I浮動上顎（palate）、II浮動上頜（maxilla, pyramidal）、III浮動臉（face, transverse）」，三型的共同點是都會斷翼突板（pterygoid plate）。Le Fort I水平骨折，骨折線通過齒槽脊、鼻腔外側壁（鼻腔前外側緣/梨狀孔）、上頜竇下壁——所以「鼻腔前外側緣骨折」是Le Fort I的正確描述。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **必看翼突板（pterygoid plate）**：三型 Le Fort 共同必累及**翼突板骨折**；判讀顏面創傷 CT 時，見翼突板骨折即應系統性往上追骨折線判定分型，是診斷 Le Fort 系列的錨點。\n- **Le Fort I 判讀線索**：骨折線水平通過**齒槽脊、鼻腔前外側緣（梨狀孔/鼻腔外側壁）、上頜竇下壁**，使含牙的上顎與上臉分離（floating palate）；「鼻腔前外側緣骨折」即 Le Fort I 特徵。\n- **Le Fort II 判讀線索**：骨折線呈**錐狀（pyramidal）**，經**鼻樑、下眶緣、眶底、上頜竇前壁**；見**下眶緣**受累偏向 II 型（floating maxilla）。\n- **Le Fort III 判讀線索**：**橫向 craniofacial disjunction**，經**鼻額縫、眶內側壁、眶底、顴額縫、顴弓**使整個顏面與顱底分離（floating face）；見**鼻額縫分離**偏向 III 型。\n- **判讀陷阱**：實際創傷常為**多型混合／左右不對稱**，須分側逐條追骨折線；單純**顴弓骨折**屬 ZMC 複合骨折而**非 Le Fort**，勿誤歸類。冠狀重組（coronal reformat）與 3D VR 有助釐清骨折平面走向。",
   "keyPoints": [
     "**Le Fort I（floating palate，水平型）**：水平上頜骨折，將牙齒與上臉分離；骨折線通過**齒槽脊（alveolar ridge）、鼻腔外側壁/鼻腔前外側緣（anterolateral margin of nasal cavity, 梨狀孔）、上頜竇下壁**。",
     "**Le Fort II（floating maxilla，錐狀pyramidal）**：骨折線通過**鼻樑、下眶緣（inferior orbital rim）、眶底、上頜竇前壁**。",
@@ -11,7 +11,7 @@
     "**三型共同**：皆累及**翼突板（pterygoid plate）**——為診斷Le Fort系列骨折之必要條件。",
     "**非Le Fort**：單純顴弓骨折（zygomatic arch）屬ZMC/顴骨複合骨折，非Le Fort。"
   ],
-  "management": "",
+  "management": "- Le Fort 骨折多由高能量正面撞擊（車禍、跌落）造成，常合併顱腦、頸椎與眼球損傷，須整體評估。\n- 骨折可致咬合不正與中臉不穩定，臨床上以手指抓住上顎前牙搖動測「floating」程度來初步分型。\n- 上頜竇與鼻腔骨折線常伴出血與腦脊髓液鼻漏（尤其 II/III 型累及顱底時），須警覺感染風險。\n- 眼眶受累（II/III 型）可導致複視、眶下神經麻木或眼球位置異常，需併眼科評估。\n- 治療多需開放復位內固定重建中臉支柱，術前精確分型與骨折線描述直接影響手術計畫。\n\n> [!note] 考點：何者為Le Fort I fracture之正確描述？\n> **Fracture of anterolateral margin of the nasal cavity（D）**——Le Fort I骨折線通過鼻腔前外側緣（梨狀孔）。鼻額縫分離(A)＝Le Fort III、下眶緣骨折(B)＝Le Fort II、顴弓骨折(C)＝ZMC非Le Fort。\n\n**參考來源**\n: *How to simplify the CT diagnosis of Le Fort fracture*. AJR 2005;184:1700-1705（2018 交換考題詳解 p.260 引用；Tier 1 期刊）。Le Fort I水平型(floating palate)骨折線通過齒槽脊/鼻腔外側壁/上頜竇下壁；II錐狀(floating maxilla)通過下眶緣；III橫向(floating face)通過鼻額縫；三型皆累及翼突板。",
   "name": "Le Fort Fractures (Facial)",
   "nameZh": "勒福氏骨折",
   "slug": "le-fort-fracture",

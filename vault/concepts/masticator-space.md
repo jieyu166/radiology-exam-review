@@ -44,6 +44,15 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「不」屬咀嚼肌間隙?
 > **Pterygoid plate（翼板,骨性）**。內容物＝temporalis、masseter、pterygoid 肌、mandible ramus、V3。[^1]
 
+## 放射科醫師影像判讀重點
+
+- **內容物 checklist（肌／骨／神經三類）**：temporalis、masseter、medial+lateral pterygoid 四條咀嚼肌＋下頷骨枝／體後部＋**V3（含下齒槽神經血管束）**；**pterygoid plate 為蝶骨骨性內側界、非內容物**（考題陷阱）。[^1]
+- **判讀基準＝左右對稱比對**：正常兩側咀嚼肌訊號/密度相等、V3 經 foramen ovale 入 MS 頂；**不對稱（增大、萎縮、異常強化）才是病理起點**。[^1]
+- **病灶 DDx（依機轉四類）**：牙源性感染／膿瘍（最常見，環狀強化＋鄰近骨髓炎/積氣，臨床 trismus）、原發腫瘤（以**肉瘤**為代表，另 nerve sheath tumor、良性肌肥大 pseudotumor）、**沿 V3 之周神經擴散（PNS）**、去神經肌肉變化。[^1][^4]
+- **V3 周神經擴散（PNS）**：頭頸惡性（腺樣囊狀癌、鱗癌）沿 V3 逆行至 foramen ovale→Meckel cave；線索＝下頷內側面/V3 異常強化、foramen ovale 擴大或脂肪墊消失、FDG 局灶或線狀攝取；漏判致 staging 不足。[^2]
+- **CN V3 去神經時序（假腫瘤來源）**：急性/亞急性期肌肉 T2/STIR 高訊號＋強化、體積正常或略增（**易誤為腫瘤/肌炎**）；慢性期 T1 高訊號脂肪萎縮、體積縮小，**循 V3 支配全咀嚼肌群同步分布**，可伴同側腮腺萎縮。[^2][^3]
+- **判讀陷阱**：急性去神經水腫誤讀為腫瘤，慢性期須確認哪側才是病態（勿把萎縮對側正常肌當「腫大」）；MS 不對稱或下頷內側面異常強化時，務必上溯 foramen ovale／Meckel cave。[^2][^3]
+
 ### 參考來源
 [^1]: *Masticator space*. Radiopaedia.org（輔助來源,實際查證 accessed 2026-06-17）：MS 由深頸筋膜淺層包覆,含 **muscles of mastication（temporalis、masseter、pterygoids）、ramus/body of mandible、mandibular division of trigeminal nerve（V3）**;翼板為骨界非內容物;DDx 含牙源性感染／膿瘍、肉瘤、nerve sheath tumor、PNS、去神經肌變化。
 [^2]: Paes FM, Singer AD, Checkver AN, et al. *Perineural spread in head and neck malignancies: clinical significance and evaluation with 18F-FDG PET/CT.* RadioGraphics. 2013;33(6):1717-36（review 級,期刊文章）. [DOI](https://doi.org/10.1148/rg.336135501)（PubMed PMID 24108559）：V3／V2 為頭頸 PNS 最常受累之三叉支;沿 V3 之 MS 不對稱、foramen ovale／Meckel cave、下頷內側面之異常 FDG 攝取或 MRI 強化為 PNS 線索;PNS 與存活下降、復發及轉移風險上升相關。

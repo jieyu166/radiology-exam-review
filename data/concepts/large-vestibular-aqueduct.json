@@ -3,14 +3,14 @@
   "definition": "**大前庭導水管（Large vestibular aqueduct, LVA）是兒童感音性聽力損失 CT 上最常見的發現。判定標準：midpoint >0.6 mm 或 operculum >1.5 mm。常合併其他內耳異常。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **CT 判讀為診斷主力**：顳骨高解析 CT（軸位）上，**前庭導水管 midpoint 直徑 >0.6 mm 或 operculum（開口處）>1.5 mm** 即判定為大前庭導水管；這是兒童感音性聽力損失最常見的 CT 影像發現。\n- **正確測量位置 pitfall**：midpoint 與 operculum 兩處門檻不同，量錯位置會誤判；operculum 為外開口處，一般大於 midpoint，作答時須把 0.6 mm／1.5 mm 對應到正確測量點。\n- **對照鄰近半規管法**：軸位上可用「前庭導水管管徑是否大於同層後半規管管徑」快速目視篩檢，超過者高度懷疑 LVA。\n- **MRI 對應徵象**：高解析 T2（如 3D CISS/FIESTA）上可見擴大的內淋巴囊／管（enlarged endolymphatic sac and duct），為 CT 之補充，尤利於評估膜性迷路。\n- **主動搜尋合併異常**：LVA 常合併其他內耳（膜性迷路）異常，如耳蝸發育不全（cochlear hypoplasia／incomplete partition type II），判讀時不可只報 LVA 而漏掉伴隨畸形。",
   "keyPoints": [
     "**LVA 為兒童 SNHL 在 CT 上最常見的發現**。",
     "判定標準：**midpoint >0.6 mm** 或 **operculum >1.5 mm**。",
     "常伴隨其他內耳異常（membranous labyrinth abnormalities）。",
     "部分有遺傳因素（SLC26A4 基因突變，約 27%）。"
   ],
-  "management": "",
+  "management": "- LVA 為兒童感音性聽力損失（SNHL）最常見、可辨識的影像相關病因之一。\n- 聽力損失可為進行性或波動性，常於兒童期出現，且可在頭部輕微外傷後急性惡化。\n- 與 SLC26A4（pendrin）基因突變相關，約 27% 病人帶此突變，並與 Pendred 症候群（LVA＋甲狀腺腫＋SNHL）重疊。\n- 可為單側或雙側；雙側者臨床上更常與遺傳／症候群相關。\n- 確診後應避免頭部撞擊等可能誘發聽力急遽惡化的活動，並安排聽力學長期追蹤。\n\n**參考來源**\n: 2019 交換考詳解；Radiology 2015; 276:655-672。",
   "name": "Large Vestibular Aqueduct Syndrome",
   "nameZh": "大前庭導水管症候群",
   "slug": "large-vestibular-aqueduct",

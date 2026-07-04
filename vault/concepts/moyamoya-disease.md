@@ -19,8 +19,22 @@ dateRev: 2026-07-02
 - **Ivy sign（本題重點）**：瀰漫軟腦膜側枝血管(pial collaterals，尤PCA來源)，於**FLAIR呈溝狀高訊號(serpentine sulcal hyperintensity，慢流)、並於T1增強後呈高訊號**；故「on T2WI...ivy sign」為**錯誤**（ivy sign在FLAIR/post-contrast T1，非典型T2WI）。[^1]
 - **SWI**：可見**微出血(microbleeding) 15-44%**。[^1]
 
+## 放射科醫師影像判讀重點
+- **血管判讀核心**：MRA／DSA 見**顱內內頸動脈（ICA）末端節段進行性狹窄至閉塞**，並在基底核／視丘代償形成迂曲擴張的側枝血管網（moyamoya vessels，DSA 上呈「一縷煙」外觀）。[^1]
+- **Moyamoya vessels 訊號**：於基底核與視丘常規影像上呈**signal void（流空）**，代表擴張的深穿枝側枝血管，不可誤判為鈣化或含鐵沉積。[^1]
+- **Ivy sign（最高頻考點）**：瀰漫軟腦膜側枝（pial collaterals，尤 PCA 來源、慢流）於 **FLAIR 呈溝狀高訊號（serpentine sulcal hyperintensity）並於 T1 增強後呈溝狀高訊號**；**其非典型 T2WI 徵象**——考題把 ivy sign 歸於 T2WI 即為錯誤敘述。[^1]
+- **SWI 判讀**：約 **15–44%** 病人可見微出血（microbleeds），為慢性側枝循環壓力／脆弱血管的表現，應在 SWI／GRE 上主動搜尋。[^1]
+- **缺血與灌注評估**：判讀時應同時評估分水嶺區梗塞、腦萎縮，並可搭配灌注或血流儲備檢查（如 acetazolamide challenge）評估血流動力學受損程度，作為血管重建手術參考。[^1]
+
 > [!note] 考點：關於Moyamoya disease，何者不正確？
 > **On T2WI, diffuse leptomeningeal collateral vessels may appear as sulcal hyperintensity ("ivy sign")（C）**——ivy sign見於**FLAIR及T1增強後**(非典型T2WI)。ICA末端進行性阻塞+側枝(A對)、基底核/視丘moyamoya vessels signal void(B對)、SWI微出血15-44%(D對)皆為正確描述。[^1]
+
+## 臨床重點（5 句）
+- Moyamoya disease 好發於東亞族群，發病年齡呈**雙峰分布**（兒童期與成人約 40 歲前後）。[^1]
+- **兒童**多以缺血性事件（TIA／梗塞）表現，**成人**則較常以顱內出血表現。[^1]
+- 「Moyamoya disease」指原發、雙側特發性者；若合併其他基礎疾病（如鐮刀型貧血、Down 症、NF1、放射治療後）則稱「moyamoya syndrome／phenomenon」。[^1]
+- 治療以外科血管重建（直接或間接繞道手術）改善腦血流、降低後續中風風險為主。[^1]
+- 進行性血管閉塞為本病特性，需影像長期追蹤以評估病程與側枝變化。[^1]
 
 ### 參考來源
 [^1]: *RadioGraphics* 2014;34:873-894（2018 交換考題詳解 p.336 引用；Tier 1 期刊）。moyamoya disease為顱內ICA末端進行性阻塞+代償側枝；基底核/視丘moyamoya vessels呈signal void；ivy sign為pial collateral於FLAIR(高溝狀訊號)及T1增強後呈高訊號(非典型T2WI)；SWI微出血15-44%。

@@ -3,7 +3,7 @@
   "definition": "**MRS的四個常考代謝物口訣：NAA(2.02 ppm)是神經元的身分證，減少代表神經元受損；Choline(3.2 ppm)是細胞膜週轉/增生的指標，是acetylcholine的前驅物；Lactate(1.3 ppm)在長TE呈doublet，代表無氧代謝；Canavan disease是唯一NAA不減反增的疾病。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "**代謝物峰值與化學位移（判讀基礎）**\n- **由右至左（低→高 ppm）記譜**：Lipid/Lactate（0.9–1.3）→ NAA（2.02）→ Glx（2.1–2.5）→ Creatine（3.02，常作內參）→ Choline（3.2）→ myo-Inositol（3.5，需 short TE）;**Cho/NAA 比值上升**為腫瘤/侵襲性病灶的通用判讀指標。\n- **TE 的選擇改變譜形（技術判讀關鍵）**：**short TE** 保留 myo-inositol、glutamate、lipid 等短 T2 代謝物;**long TE** 譜線乾淨、易辨 Lactate;**intermediate TE（135–144 ms）** 使 **Lactate doublet 反轉（倒峰）**,可與同區的 lipid band 區分——是鑑別壞死/缺氧的關鍵技巧。\n- **Lactate** 於 1.3 ppm 呈 **doublet（J-coupling）**,代表無氧代謝（缺血、壞死、高惡性度）;因與 lipid 重疊,單看 short/long TE 可能誤判,故用 TE 反轉法確認。\n\n**疾病判讀陷阱**\n- **NAA 為神經元/軸突完整性標記**,共振於 **2.02 ppm（非 3.0）**;**Canavan disease 為少數 NAA「增加」的疾病**（aspartoacylase 缺乏致 NAA 堆積）,勿套用「NAA 一律下降代表神經受損」的通則。\n- **Choline（3.2 ppm）** 反映細胞膜週轉/合成,為 acetylcholine 前驅物;增生性/腫瘤病灶 Cho 上升,但**感染、脫髓鞘活動期亦可上升**,需結合形態與臨床,勿單以 Cho 高判定惡性。\n\n**參考來源**\n: *Radiographics*. 2006;26 Suppl 1:S173-89（2018 交換考題詳解 p.228 引用；Tier 1 期刊）。Lactate 1.3 ppm long TE doublet(可用intermediate TE 144ms反轉區分lipid)；NAA 2.02 ppm；Canavan disease NAA增加；Choline為acetylcholine前驅物。",
   "keyPoints": [
     "**Lactate**：**1.3 ppm**，於**long TE**（非short TE）呈**double peak（doublet）**；與lipid band重疊，可用**intermediate TE（如144 ms）使lactate反轉**以資鑑別。",
     "**NAA (N-acetylaspartate)**：共振於**2.02 ppm**（非3.0 ppm）；為神經元/軸突完整性指標，減少代表神經元受損或喪失。",

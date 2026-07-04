@@ -2,15 +2,20 @@
   "checked": false,
   "definition": "**耳硬化症（otosclerosis）：fenestral type 最常見（oval window 周圍），retrofenestral type 幾乎不單獨出現，常伴隨 fenestral 病變。Fenestral 型表現為 oval window 周圍 \"halo\"。**",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1556/650.2020.31701"
+    }
+  ],
+  "imagingFindings": "- **首選模態＝高解析度顳骨 CT（HRCT，薄層 <1 mm）**：judge 的第一站是 **fissula ante fenestram（oval window 前緣）** 有無脫鈣性透亮灶——fenestral 型最早、最常見於此，表現為 oval window 邊緣 lucent 灶／\"halo\"，敏感度優於 MRI。\n- **fenestral vs retrofenestral（cochlear）分型**：fenestral 侷限 oval window 周圍；retrofenestral（cochlear otospongiosis）呈 **cochlea 周圍環狀低密度 \"double ring / halo\"**，且**幾乎不單獨出現**，見到 cochlear halo 須回頭確認 oval window 是否也受累。\n- **活動期（otospongiosis）vs 成熟期**：脫鈣的**低密度透亮灶＝活動期**（otospongiotic），可對應感音神經性聽損與較差手術/藥物反應；成熟期則轉為**硬化緻密**，密度回升。\n- **判讀陷阱與 checklist**：病灶可極細微，須薄層＋雙側對稱比對；**bony modiolus 消失（達 90%）**是 cochlear 受累的線索；勿把正常 fissula ante fenestram 低密度誤判，也勿因僅見 cochlear halo 就漏看更常見的 fenestral 灶。",
   "keyPoints": [
     "**Fenestral type**：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 **oval window 周圍 \"halo\"**。",
     "**Retrofenestral type**：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但**幾乎不單獨出現（rarely in isolation）**，通常伴隨 fenestral 病變。",
     "好發 4-5 十歲，懷孕可加重聽力損失。",
     "CT 上 bony modiolus 多數不可見（up to 90%）。"
   ],
-  "management": "",
+  "management": "- 據 PubMed，耳硬化症是人類特有、以骨迷路（bony labyrinth）異常骨重塑為特徵的疾病，多因子病因。\n- 病灶使 **stapes 固定於 oval window 緣**，中耳阻抗匹配/放大功能下降，導致**傳導性聽損（conductive hearing loss）**。\n- 病程**進行性**；一旦波及內耳結構，會併發感音神經性成分。\n- 及時施行聽力重建手術可預防或延緩病程；**stapedotomy 為首選治療**，可顯著改善氣導閾值、縮小或消除 air-bone gap。\n- 好發 40–50 歲，**懷孕可加重聽力損失**。\n\n**參考來源**\n: 2019 交換考詳解；Radiology 2015; 276:655-672。\n: 據 PubMed，Kriston F, Rovó L, Kiss JG, Jarabin JA. *Clinical aspects of otosclerotic ossicular chain fixations.* Orv Hetil. 2020;161(19):780-788（PMID 32365050，[DOI](https://doi.org/10.1556/650.2020.31701)）：耳硬化症為人類特有骨迷路異常骨重塑、多因子病因；stapes 固定於 oval window 緣→中耳阻抗匹配下降→傳導性聽損；病程進行性、波及內耳則併感音神經成分；stapedotomy 為首選治療，可改善氣導閾值與 air-bone gap。",
   "name": "Otosclerosis",
   "nameZh": "耳硬化症",
   "slug": "otosclerosis",

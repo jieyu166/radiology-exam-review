@@ -34,6 +34,20 @@ same:
 - **脊髓梗塞（cord infarction）**：前脊髓動脈（ASA）區缺血→軸位 **owl-eye sign（貓頭鷹眼／前角灰質 H 型對稱 T2 高訊號、DWI 受限／ADC 下降）**,病程超急性、可正常 early MRI 而 mimic ATM。[^7]
 - **神經結節病（neurosarcoidosis）**：軸位 **trident sign（背側軟膜下＋中央管線狀強化的三叉戟樣）**,提示軟膜／軟膜下侵犯,為脊髓結節病重要線索（非絕對特異，淋巴瘤亦可見）。[^6]
 
+## 放射科醫師影像判讀重點
+- **MRI 為髓內腫瘤首選（含全脊髓＋腦部）**：矢狀＋軸位 T1／T2／T2*(GRE/SWI)＋釓增強，評估腫瘤中心位置（central vs eccentric）、邊界、節段長度、囊變/syrinx、出血(cap sign)、與軟膜血管流空；懷疑轉移或多發時加做腦部與全脊髓以查播散與 VHL。[^2][^3]
+- **成人先想 Ependymoma（考點）**：**中央位＋邊界清＋兩極 cap sign(T2/GRE 低訊號)＋syrinx＋較均質明顯強化**、好發頸髓——占成人髓內膠質瘤約 60%，為成人最常見髓內腫瘤；**syrinx 與 cap sign 是與 astrocytoma 區分的主軸**。[^1][^3]
+- **兒童先想 Astrocytoma**：**偏心位＋邊界不清(浸潤)＋長節段＋斑片狀不均強化、cap sign 罕見**；年齡（兒童）＋偏心＋界不清即往此偏。[^1][^3]
+- **Hemangioblastoma 三要件**：**軟膜下強烈強化小壁結節＋大囊/大範圍 syrinx＋T2 蛇形血管流空**；多發（脊髓和/或小腦）務必查 VHL。[^5]
+- **判讀陷阱**：定位錯 compartment 是第一大陷阱（intramedullary＝脊髓對稱膨大、CSF 對稱變窄、無 cap，與 IDEM 之 CSF cap 區分）；非腫瘤 mimic 需排除——**owl-eye 前角對稱高訊號＋DWI 受限＝脊髓梗塞**、**trident sign＝神經結節病**、LETM＋腦脫髓鞘病灶／NMO-IgG＝脫髓鞘。[^2][^6][^7]
+
+## 臨床重點（5 句）
+- 髓內腫瘤以年齡分層：成人最常見為 ependymoma，兒童最常見為 astrocytoma。[^1][^3]
+- 髓內 ependymoma 邊界清、與脊髓有可辨識界面，多可全切除且預後較佳；astrocytoma 呈浸潤性、全切除困難、預後相對較差。[^3]
+- Hemangioblastoma 多發時應評估 von Hippel-Lindau 症候群（約佔 30%），並篩查腎細胞癌、嗜鉻細胞瘤與視網膜血管母細胞瘤。[^5]
+- 已知原發癌者出現髓內強化病灶且水腫不成比例大時，應優先考量髓內轉移或軟膜播散。[^1]
+- 臨床病程有助鑑別：急/亞急性起病、CSF 寡株帶或 NMO-IgG 陽性提示脫髓鞘而非腫瘤，避免不必要之手術切片。[^6]
+
 > [!note] 判讀重點
 > 流程：**先定位（intramedullary：cord 膨大、CSF 對稱變窄、無 cap）→ 看年齡（成人 ependymoma／兒童 astrocytoma）→ 找特徵（中央位＋cap sign＋syrinx＝ependymoma；偏心＋邊界不清＋長節段＝astrocytoma；軟膜結節＋flow void＋大囊＋VHL＝hemangioblastoma）→ 排除非腫瘤（owl-eye 梗塞、trident 結節病、脫髓鞘）**。
 

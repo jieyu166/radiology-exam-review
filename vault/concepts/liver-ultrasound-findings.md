@@ -24,6 +24,26 @@ dateRev: 2026-07-03
 > [!note] 考點：關於肝臟超音波,何者「錯誤」?
 > 「**FNH 常可看到 central hypoechoic fibrous scar**」錯誤——中央疤痕僅約 **20%** 可見且多非低回音。Morrison pouch 為上腹最低處、hydatid 囊中囊、regenerative nodule 低回音＋薄高回音邊皆正確。[^1]
 
+## 放射科醫師影像判讀重點
+
+### 掃查解剖與積液窗（FAST）
+- **Morrison's pouch（肝腎隱窩）** 為仰臥時上腹**最 dependent** 處,是 FAST 偵測腹腔積血/積液的關鍵窗;少量游離液會先在此聚成薄的無回音帶,勿與正常脂肪或腎周脂肪混淆。[^1]
+
+### 灶性病灶的回音判讀陷阱
+- **FNH**：**回音多變、常與周邊肝實質等回音而難以察覺**（灰階上可能僅見輪廓輕微變形或血管移位）;**中央疤痕＋color Doppler「輪輻狀（spoke-wheel）」中央供血動脈僅約 20% 病例可見**——故「常見中央 hypoechoic 疤痕」為典型誤述,且疤痕多非低回音。[^1][^3]
+- **Regenerative nodule（肝硬化）**：多為**低回音＋薄高回音邊**,常難在灰階 US 顯示;回音可隨脂肪含量而變,判讀須結合肝硬化背景。[^1]
+- **Hydatid cyst**：**囊中囊（daughter cysts）**、囊壁鈣化、water-lily sign（內膜剝離漂浮）為特徵。[^1]
+
+### 肝膿瘍 US 的侷限（勿過度自信）
+- **肝膿瘍在 US 上表現多樣**：可為複雜實囊性病灶、可呈**實性（solid）**、甚至產生**target appearance（靶樣,通常見於轉移瘤但膿瘍亦可）**;**未打對比劑之灰階 US 鑑別膿瘍與腫瘤的能力不如 CT/MR**——勿誤以為「US 對膿瘍較 CT 更具特徵性」,疑診時應以 CT/MR 或增強超音波佐證。[^2]
+
+## 臨床重點（5 句）
+- **FNH** 為第二常見的良性肝腫瘤,好發於育齡女性,多無症狀、少見出血或惡性轉化,常為偶然發現,一般僅追蹤而不需切除。[^3]
+- **Hydatid disease（棘球蚴病）** 由 *Echinococcus* 引起,為流行區重要人畜共通寄生蟲病,穿刺有過敏性休克/播散風險,處置需併用驅蟲藥（albendazole）與 PAIR/手術。[^1]
+- **肝硬化再生結節**臨床意義在於其可進展為分化不良結節乃至肝細胞癌,故需定期監測。[^1]
+- **肝膿瘍**多為細菌性（膽道來源）或阿米巴性,臨床以發燒、右上腹痛、白血球上升表現,治療靠抗生素併引流。[^2]
+- **FAST 檢查**用於創傷病人快速評估腹腔積血,Morrison's pouch 陽性提示需進一步處置,是急診決策的臨床關鍵。[^1]
+
 ### 參考來源
 [^1]: 官方 2017 詳解；Rumack CM et al. Diagnostic Ultrasound, pp.35-41：Morrison pouch 為仰臥上腹最低處;FNH 中央疤痕＋周邊血管位移僅約 20% 可見;hydatid 囊中囊;regenerative nodule 低回音＋薄高回音邊。
 [^2]: 官方2020詳解；Ref: General and Vascular Ultrasound Case Review Series, 2nd ed., William D. Middleton, Fair Game p.126（題目所引）；Multimodality Imaging of Liver Infections. RadioGraphics 2016;36:1001-1023, DOI 10.1148/rg.2016150196——肝膿瘍可表現複雜實性合併囊性病灶、可產生target appearance、亦可呈實性；非顯影超音波鑑別膿瘍與腫瘤之能力相較CT/MR有限。
