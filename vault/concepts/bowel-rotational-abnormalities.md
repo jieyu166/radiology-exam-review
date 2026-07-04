@@ -1,38 +1,49 @@
 ---
-tags: [concept, radiology, GI, anatomy]
-aliases: [腸道旋轉異常, malrotation clue]
-created: 2026-07-02
-dateRev: 2026-07-02
-sr-due: 2026-07-09
-sr-interval: 7
-sr-ease: 270
+concepts: [bowel-rotational-abnormalities]
+name: Bowel Rotational Abnormalities — Imaging Clues
+subspecialty: [ABD]
+aliases:
+  - malrotation clue
+  - midgut malrotation imaging
+  - whirlpool sign
+  - 腸道旋轉異常
+dateRev: 2026-07-04
 ---
 
-**腸道旋轉異常（Rotational Abnormalities）**的影像線索是交換考常見考點，需掌握關鍵指標。
+# bowel-rotational-abnormalities
+
+**辨識腸道旋轉異常（malrotation）的最關鍵影像線索是「腸道位置反常」——小腸位於右側腹、大腸位於左側腹；SMV-SMA 位置反轉、SMA 走向、十二指腸走行皆為輔助線索，但單一血管徵象敏感度/特異度不足以確診，腸道整體分布才是分水嶺。合併中腸扭轉（midgut volvulus）時可見 whirlpool sign（SMV 與腸繫膜繞 SMA 旋轉）。**
 
 ## Summary
+- **最關鍵線索＝腸道位置反常**：正常大腸框住小腸；旋轉異常時**小腸集中右側腹、大腸集中左側腹**，並常見迴盲部位置異常（右下腹缺如或移位）。[^1]
+- **SMV-SMA 關係**：正常 SMV 位於 SMA 右前方；**SMV 位於 SMA 左側或前方（反轉）提示旋轉異常**——為有用輔助徵象，但單獨判讀敏感/特異度不足，不可作唯一依據。[^1][^2]
+- **十二指腸走行**：正常十二指腸第三部（水平段）橫越中線、行於主動脈與 SMA 之間並抵 Treitz 韌帶（位於左側、幽門水平）；旋轉異常時 DJ junction 右移、下移。[^1]
+- **中腸扭轉徵象**：合併 volvulus 時 CT/US 可見 **whirlpool sign**——SMV 與腸繫膜血管、腸圈順時針包繞 SMA 形成漩渦；為急症、絞扼壞死風險高。[^2]
 
-辨識旋轉異常的影像線索：[^1]
+## 放射科醫師影像判讀重點
+- **上消化道攝影為兒科診斷金標**：正常 DJ junction 應在脊椎左緣、十二指腸球部水平；**DJ junction 位置右移/下移＝旋轉異常**；扭轉時遠端十二指腸呈 corkscrew（螺旋狀）或 beak 樣。[^1]
+- **CT/US 線索排序**：腸道整體分布（小腸右、大腸左）＞迴盲部位置異常＞SMV-SMA 反轉＞十二指腸走行。**血管反轉可存在於無症狀者、亦可在真旋轉異常中缺如**，故不可單憑此下診斷。[^1][^2]
+- **Whirlpool sign（陷阱與價值）**：SMV 繞 SMA 旋轉的漩渦徵象在 US（含 color Doppler）與 CT 皆可見，提示中腸扭轉；旋轉圈數越多越支持扭轉。需與正常腸繫膜血管走行區別。[^2]
+- **鑑別陷阱**：SMV 在 SMA 右側（選項 A）為**正常**、SMA 先向左走（選項 B）與十二指腸橫越主動脈-SMA 之間（選項 C）皆為**正常解剖**，非旋轉異常線索。[^1]
 
-| 線索 | 說明 |
-|------|------|
-| SMV-SMA 位置反轉 | SMV 在 SMA 右側為正常；反轉提示旋轉異常 |
-| SMA 初始走向 | 正常 SMA 先向左走再向右 |
-| 十二指腸位置 | 正常十二指腸橫過主動脈與 SMA 之間 |
-| **小腸在右、大腸在左** | **最重要線索** |
+## 臨床重點（5 句）
+1. 典型於新生兒/嬰兒以膽汁性嘔吐表現，中腸扭轉為外科急症。[^1]
+2. 成人可長期無症狀，偶因間歇性腹痛或急性扭轉才被發現。[^2]
+3. 旋轉異常本質為胚胎中腸未完成 270° 逆時針旋轉與固定不良，腸繫膜根部窄化易扭轉。[^1]
+4. Ladd bands（腹膜索帶）可跨越十二指腸造成外壓性阻塞。[^1]
+5. 手術為 Ladd procedure；疑扭轉需緊急處置以免腸壞死。[^1]
 
-- 答案：**小腸位於右側腹部、大腸位於左側腹部**是旋轉異常最關鍵的影像特徵。
+> [!note] 考點：何者是腸道旋轉異常的影像線索？
+> **小腸位於右側腹、大腸位於左側腹（D）**——腸道整體位置反常是最關鍵線索。A（SMV 在 SMA 右側）、C（十二指腸行於主動脈與 SMA 間）皆為正常解剖；B（SMA 先向左）亦非旋轉異常特徵。[^1]
 
 ### 參考來源
+[^1]: 據 PubMed，Berrocal T 等，*Congenital anomalies of the small intestine, colon, and rectum*，RadioGraphics 1999;19(5):1219-36，[DOI](https://doi.org/10.1148/radiographics.19.5.g99se041219)——旋轉與固定異常之影像評估；小腸/大腸位置反常、迴盲部異位、DJ junction 右移為 malrotation 線索；上消化道攝影評估 DJ junction 位置、扭轉時 corkscrew/beak；CT/MR 提供解剖細節。
+[^2]: 據 PubMed，Yeh WC 等，*Preoperative sonographic diagnosis of midgut malrotation with volvulus in adults: the "whirlpool" sign*，J Clin Ultrasound 1999;27(5):279-83，[DOI](https://doi.org/10.1002/(sici)1097-0096(199906)27:5%3C279::aid-jcu8%3E3.0.co;2-g)——SMV 與腸圈包繞 SMA 形成 whirlpool sign，US 與 CT 皆可見，為中腸扭轉/腸繫膜旋轉異常之術前診斷徵象。
 
-[^1]: Problem Solving in Abdominal Imaging, First Edition, chap 16 BOX 16-1。
+> [!question]- Which finding is the clue to rotational abnormalities of the bowel? (2019-292)
+> **Small bowel located in the right abdomen, large bowel on the left（D）**——腸道整體位置反常為最關鍵線索；SMV 在 SMA 右側、十二指腸橫越主動脈-SMA 之間皆為正常解剖。[^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID
-  file.link AS "概念",
-  sr-due AS "下次複習"
-FROM "vault/concepts"
-WHERE contains(file.name, "bowel-rotational-abnormalities")
+list from #交換 where contains(concepts, "bowel-rotational-abnormalities")
 ```

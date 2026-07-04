@@ -1,35 +1,47 @@
 ---
-tags: [concept, PED, ABD]
-aliases: [pediatric hepatic tumor, 小兒肝腫瘤]
+concepts: [hepatic-neoplasm-pediatric]
+name: Pediatric Hepatic Neoplasms
+subspecialty: [PED, ABD]
+aliases:
+  - pediatric hepatic tumor
+  - hepatoblastoma
+  - 小兒肝腫瘤
+dateRev: 2026-07-04
 ---
 
-**小兒肝臟腫瘤**並非兒童最常見腹腔內腫瘤；**神經母細胞瘤 (neuroblastoma)** 才是兒童最常見腹腔內腫瘤。
+# hepatic-neoplasm-pediatric
+
+**小兒肝臟腫瘤並非兒童最常見的腹腔內腫瘤——neuroblastoma 才是；肝臟居第三（次於 neuroblastoma 與 Wilms tumor）。故本考點的錯誤敘述為「肝腫瘤是兒童最常見腹腔內腫瘤」。判讀分水嶺以年齡分流：< 5 歲以 hepatoblastoma（最常見小兒肝惡性腫瘤，AFP 升高）為主；較大兒童/青少年、常合併潛在肝病者則為 HCC。惡性肝腫瘤僅占所有兒童惡性腫瘤 1-2%。**
 
 ## Summary
+- **兒童腹腔內腫瘤發生序**：**Neuroblastoma ＞ Wilms tumor（nephroblastoma）＞ 肝臟腫瘤**——肝腫瘤非首位（此為考點的錯誤敘述）。[^1]
+- **年齡分流（惡性）**：**< 5 歲＝Hepatoblastoma**（最常見小兒肝惡性腫瘤，**AFP 常顯著升高**）；**較大兒童/青少年＝HCC**（常合併潛在肝病如肝硬化、B/C 肝、代謝性肝病）。[^1]
+- **整體低發生率**：原發小兒肝腫瘤不算罕見但少見，**惡性肝腫瘤僅占所有兒童惡性腫瘤約 1-2%**，臨床行為由自限至致命不等。[^1]
+- **良性/其他**：infantile hepatic hemangioma、mesenchymal hamartoma、FNH、hepatocellular adenoma；另有 undifferentiated embryonal sarcoma、fibrolamellar carcinoma。年齡是縮小鑑別的首要線索。[^1]
 
-兒童腹腔內腫瘤發生率排序 [^1]：
-1. **Neuroblastoma** — 最常見腹腔內腫瘤
-2. Wilms tumor (nephroblastoma)
-3. Hepatic tumors (hepatoblastoma > HCC in children)
+## 放射科醫師影像判讀重點
+- **年齡＋AFP＋影像三合一**：嬰幼兒實質性肝腫塊＋AFP 高→hepatoblastoma；較大兒童＋潛在肝病→HCC；嬰兒多發/瀰漫血管性病灶＋可合併高輸出心衰→infantile hemangioma。[^1]
+- **MRI 與對比劑選擇**：**肝膽特異性對比劑（hepatobiliary agent）延遲期滯留有助診斷 FNH**（功能性肝細胞攝取），但部分 adenoma、分化良好惡性腫瘤、甚至 hemangioma 亦可有不同程度滯留，須留意重疊。[^1]
+- **CEUS 之價值與限制**：對比增強超音波依時相強化型態鑑別肝腫瘤有幫助，但仍有重疊與例外，須綜合判讀。[^1]
+- **陷阱**：① 肝腫瘤≠兒童最常見腹腔內腫瘤（neuroblastoma 才是）；② hepatoblastoma（嬰幼兒）與 HCC（較大兒童/青少年、有肝病背景）勿混淆。[^1]
 
-小兒肝腫瘤依年齡分佈：
-- **< 5 歲**：Hepatoblastoma（最常見小兒肝惡性腫瘤），AFP 升高
-- **> 5 歲**：HCC（較少見，常合併 underlying liver disease）
-- 良性：Infantile hepatic hemangioma、mesenchymal hamartoma、FNH
+## 臨床重點（5 句）
+1. Hepatoblastoma 常以無痛性腹部腫塊、AFP 顯著升高表現，好發 3 歲前。[^1]
+2. AFP 亦為 hepatoblastoma 治療反應與復發的追蹤指標。[^1]
+3. HCC 於兒童常合併潛在肝病（膽道閉鎖術後、代謝性肝病、慢性肝炎）。[^1]
+4. Hepatoblastoma 與早產、Beckwith-Wiedemann、FAP 等相關。[^1]
+5. 治療以手術切除（±化療）為主，可切除性決定預後。[^1]
 
-## 陷阱
-
-- 肝臟腫瘤≠兒童最常見腹腔內腫瘤 — neuroblastoma 才是
-- Hepatoblastoma 與 HCC 常混淆：前者好發嬰幼兒，後者好發較大兒童/青少年
+> [!note] 考點：關於小兒肝腫瘤，下列敘述何者「錯誤」？
+> **「肝腫瘤是兒童最常見的腹腔內腫瘤」（A）為錯誤**——兒童最常見腹腔內腫瘤是 neuroblastoma，肝腫瘤居第三。其餘（hepatoblastoma 為 < 5 歲最常見肝惡性腫瘤、AFP 升高、HCC 好發較大兒童合併肝病）皆正確。[^1]
 
 ### 參考來源
+[^1]: 據 PubMed，Rees MA、Acord MR、Berklite LE 等（Pediatric LI-RADS Working Group），*Benign and malignant pediatric liver masses: radiologic-pathologic update from the Pediatric LI-RADS Working Group*，RadioGraphics 2025;45(11):e240246，[DOI](https://doi.org/10.1148/rg.240246)——原發小兒肝腫瘤少見但非罕見，惡性肝腫瘤僅占所有兒童惡性腫瘤 1-2%；病人年齡有助縮小鑑別；hemangioma、mesenchymal hamartoma、hepatoblastoma、undifferentiated embryonal sarcoma 為兒童特有；FNH、adenoma、HCC、fibrolamellar carcinoma 於兒童表現/治療可不同；肝膽對比劑滯留助診 FNH 但有重疊，CEUS 依時相型態鑑別亦有例外。
 
-[^1]: Caffey's Pediatric Diagnostic Imaging, e3, Ch91 P.838-850
+> [!question]- Which statement about pediatric hepatic neoplasms is INCORRECT? (2019-316)
+> **「Hepatic neoplasms are the most common intraabdominal tumor in children」（A）為錯誤**——最常見者為 neuroblastoma，肝腫瘤居第三；hepatoblastoma 為 < 5 歲最常見肝惡性腫瘤、AFP 升高、HCC 好發較大兒童合併肝病皆正確。[^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID file.link AS 卡片, questionText AS 題目
-FROM "vault/cards"
-WHERE contains(concepts, "hepatic-neoplasm-pediatric")
+list from #交換 where contains(concepts, "hepatic-neoplasm-pediatric")
 ```
