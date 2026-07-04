@@ -20,11 +20,26 @@ dateRev: 2026-07-02
 - **Level III**：位於胸小肌**上緣內側／上方(above/medial to pectoralis minor)**。[^1]
 - **臨床意義**：乳癌腋窩淋巴結轉移多依序自Level I → II → III擴散（依循解剖層次），此分級對手術腋窩廓清範圍與分期判讀具重要意義。
 
+## 放射科醫師影像判讀重點
+- **解剖界標（Ecanow，核心）**：**以 pectoralis minor 定 level（I 外下、II 深面、III 上內）；Rotter node 位於胸大/小肌間**——精確報告可疑結節位置對外科規劃至關重要。[^3]
+- **US 為主力（Ecanow）**：**超音波為評估腋窩淋巴結之首選；型態準則（皮質增厚、hilar effacement、non-hilar 皮質血流）比大小更重要**——正常淋巴結薄皮質＋脂肪門，轉移則皮質偏心增厚/門消失。[^3]
+- **取樣（Ecanow）**：**US 導引 core biopsy 安全性等同細針抽吸但偽陰性率顯著較低**——術前確認高陽性預測結節可讓外科直接 ALND、免不必要 SLNB。[^3]
+- **各模態角色（Ecanow）**：**MRI 提供雙側腋窩全景；CT/核醫角色次要；US 一線**——內乳淋巴結（IMN）轉移影響預後亦須留意。[^3]
+- **分期意義（考點）**：轉移多循 I→II→III；level III 或 IMN 侵犯屬較晚期，影響分期與治療。[^3]
+
+## 臨床重點（5 句）
+1. **預後與治療（Ecanow）**：**腋窩與內乳淋巴結轉移之有無對浸潤性乳癌之預後與治療決策至關重要**。[^3]
+2. **SLNB 為金標準（Ecanow）**：**前哨淋巴結切片為排除腋窩轉移之確定方法**；陽性者一般接受 ALND。[^3]
+3. **術前影像價值（Ecanow）**：**術前影像確認轉移可讓外科直接 ALND、避免不必要之二次手術**。[^3]
+4. **型態優於大小**：可疑徵＝皮質增厚（>3 mm）、偏心皮質、門脂消失、non-hilar 血流；單看大小易漏診。[^3]
+5. **分期關聯**：淋巴結 level 與數目納入 AJCC N 分期，指導後續化放療與腋窩處置範圍。[^3]
+
 > [!note] 考點：關於腋窩淋巴結level之敘述，何者為真？
 > **Level 2位於胸小肌深面(beneath pectoralis minor)（B）為真**——Level I實際位於胸小肌下緣外側/下方（非「上緣以上」）、Level III實際位於胸小肌上緣內側/上方（非「下緣外下方」），A、C選項之level與方位對應有誤。[^1]
 
 ### 參考來源
 [^1]: 官方2020詳解；Ref: Grainger & Allison's Diagnostic Radiology Essentials, 2nd ed., p.676-689; radiopaedia.org/articles/axillary-lymph-nodes-1（題目所引）——Level I位於胸小肌下緣以下、Level II位於胸小肌深面、Level III位於胸小肌上緣以上/內側。
+[^3]: **Tier 1** Ecanow JS, Abe H, Newstead GM, Ecanow DB, Jeske JM. *Axillary staging of breast cancer: what the radiologist should know*. RadioGraphics 2013;33(6):1589-612（據 PubMed，DOI [10.1148/rg.336125060](https://doi.org/10.1148/rg.336125060)；Review；實際查證 accessed 2026-07-04）——腋窩分期綜述：**以 pectoralis minor 定 level（I/II/III）等腋窩解剖界標；US 為評估腋窩淋巴結之主力，型態準則（皮質增厚、hilar effacement、non-hilar 皮質血流）比大小更重要；US 導引 core biopsy 偽陰性率低於 FNA；MRI 提供雙側全景、CT/核醫角色次要**；SLNB 為排除轉移金標準、術前影像確認轉移可讓外科直接 ALND。佐證 level 分級之解剖界標、影像判讀準則與分期/處置意義。原「官方/教科書/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which statement about Axillary node levels is true? (2020-349)
