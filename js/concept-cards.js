@@ -171,8 +171,7 @@ const ConceptCards = (function () {
     if (related.length > 0) {
       html += `<div class="concept-section"><h3>相關題目（${related.length}）</h3><ul>`;
       for (const q of related) {
-        const idx = allQuestions.indexOf(q);
-        html += `<li><a href="#/card?q=${idx}" class="concept-link">${_esc(q.id)}</a> — ${_esc((q.questionText || '').substring(0, 60))}…</li>`;
+        html += `<li><a href="#/card?qid=${encodeURIComponent(q.id)}" class="concept-link">${_esc(q.id)}</a> — ${_esc((q.questionText || '').substring(0, 60))}…</li>`;
       }
       html += '</ul></div>';
     }

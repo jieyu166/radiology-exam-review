@@ -22,6 +22,7 @@ const App = (function () {
     sub:     '',   // '' = 全部
     checked: false,
     q:       0,    // 卡片 index
+    qid:     '',   // 由 id 導覽卡片（一次性，消費後清空）
   };
 
   let _currentRoute = '';
@@ -50,12 +51,14 @@ const App = (function () {
     const route = path.replace(/^\//, '');
 
     // query params
+    _params.qid = '';   // qid 為一次性導覽參數，預設清空
     if (query) {
       const p = new URLSearchParams(query);
       if (p.has('year'))    _params.year    = p.get('year');
       if (p.has('sub'))     _params.sub     = p.get('sub');
       if (p.has('checked')) _params.checked = p.get('checked') === '1';
       if (p.has('q'))       _params.q       = parseInt(p.get('q'), 10) || 0;
+      if (p.has('qid'))     _params.qid     = p.get('qid');
     }
 
     return route;
@@ -132,6 +135,30 @@ const App = (function () {
 
   /* ─── 卡片模式渲染 ─── */
   function _renderCardView() {
+    // 由 id 導覽（如概念頁「相關題目」連結）：清除篩選以確保目標題在集合內，再以 id 定位
+    if (_params.qid) {
+      const targetId = _params.qid;
+      _params.qid     = '';   // 消費後清空，避免影響後續上一題/下一題
+      _params.year    = '';
+      _params.sub     = '';
+      _params.checked = false;
+      _syncFilterControls();
+
+      const qs  = QuestionStore.getQuestions({});
+      const idx = qs.findIndex(q => q.id === targetId);
+      _params.q = idx >= 0 ? idx : 0;
+
+      // 將網址上的 qid 改寫成實際位置（replaceState 不觸發 hashchange，避免重複路由）
+      if (idx >= 0 && window.history && window.history.replaceState) {
+        window.history.replaceState(null, '', '#/card?q=' + idx);
+      } else if (idx < 0) {
+        console.warn('[App] 找不到題目 id：', targetId);
+      }
+
+      CardMode.load(qs, _params.q);
+      return;
+    }
+
     const years = _params.year ? [_params.year] : null;
     const subs  = _params.sub  ? [_params.sub]  : null;
     const qs    = QuestionStore.getQuestions({
@@ -140,6 +167,17 @@ const App = (function () {
       checkedOnly: _params.checked,
     });
     CardMode.load(qs, _params.q || 0);
+  }
+
+  /* ─── 依 _params 同步篩選控制項外觀 ─── */
+  function _syncFilterControls() {
+    const yearSel = document.getElementById('year-select');
+    if (yearSel) yearSel.value = _params.year;
+    document.querySelectorAll('#subspecialty-pills .pill').forEach(b => {
+      b.classList.toggle('active', (b.dataset.sub || '') === _params.sub);
+    });
+    const checkedTog = document.getElementById('checked-toggle');
+    if (checkedTog) checkedTog.checked = _params.checked;
   }
 
   /* ─── 列表模式渲染 ─── */
