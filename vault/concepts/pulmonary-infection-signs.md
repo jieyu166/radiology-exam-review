@@ -41,9 +41,9 @@ dateRev: 2026-06-20
 - **Signet ring（paragonimiasis）**：肺吸蟲晚期囊洞±周圍出血偶似戒指,但少用;**CT 上 signet ring sign 主要指『支氣管擴張』**（見下）。[^1]
 
 ### 氣道/其他
-- **Tree-in-bud sign（CT）**：多發**小葉中心微結節呈線狀分枝**（如萌芽樹）;**初描述於支氣管內結核**,現見多種感染（TB/NTM、氣道散播）——**非特異**,須找近端有無病灶。詳見 [[tree-in-bud]]。[^1]
+- **Tree-in-bud sign（CT）**：多發**小葉中心微結節呈線狀分枝**（如萌芽樹）;**初描述於支氣管內結核**,現見多種感染（TB/NTM、氣道散播）——**非特異**,須找近端有無病灶。詳見 [[tree-in-bud]]。[^1][^4]
 - **Finger-in-glove sign**：中央支氣管**黏液栓塞**呈指套狀（自肺門向外的管狀分枝陰影）;典型 **ABPA（過敏性支氣管肺麴菌病）**,亦見 endobronchial 阻塞/atresia;X 光與 CT 皆可見。[^1]
-- **Signet ring sign（CT＝支氣管擴張）**：擴張支氣管（環）＋較小的伴行肺動脈（戒面）,bronchoarterial ratio >1;**非 paragonimiasis 早期表現**（考題陷阱）。[^1]
+- **Signet ring sign（CT＝支氣管擴張）**：擴張支氣管（環）＋較小的伴行肺動脈（戒面）,bronchoarterial ratio >1;**非 paragonimiasis 早期表現**（考題陷阱）。[^1][^4]
 - **Bulging fissure sign**：**滲出性肺葉實變快速脹大、推擠相鄰葉裂外凸**;發炎劇烈、常進展為 necrotizing pneumonia;典型 **Klebsiella RUL pneumonia**（現及時治療已少見;其他病原亦可）。[^1]
 - **Steeple sign**：上段（subglottic）氣管變窄如教堂尖塔;典型 **croup（哮吼）**。[^1]
 - **Feeding vessel sign**：血管直接連到結節/腫塊 → **血行來源**;**septic pulmonary emboli**（常見、非罕見）、angioinvasive aspergillosis、AVM、vasculitis。詳見 [[septic-pulmonary-emboli]]。
@@ -57,6 +57,8 @@ dateRev: 2026-06-20
 ### 參考來源
 [^1]: Radiopaedia 各徵象條目（皆實際查證 accessed 2026-06-20）：*Air crescent sign*（腔內團塊與壁間空氣新月、angioinvasive aspergillosis 復原期之好預後徵、~50%）、*Monod sign*（既存空洞內可動真菌球 aspergilloma）、*CT halo sign*（GGO 環、angioinvasive aspergillosis）、*Tree-in-bud sign*（小葉中心微結節線狀分枝、初描述於 endobronchial TB）、*Finger in glove sign*（ABPA 黏液栓）、*Water lily sign*（hydatid 漂浮內膜）、*Signet ring sign*（CT＝支氣管擴張、擴張支氣管＋較小伴行動脈）、*Bulging fissure sign*（滲出性肺葉實變脹大推擠葉裂、典型 Klebsiella RUL、常壞死）、*Steeple sign*（上段氣管尖塔狀變窄、croup）。
 [^2]: 2024 Fleischner Society glossary：air crescent 為涵蓋『可動腔內真菌球』與『復原期回縮梗塞肺』之首選術語（經 Radiopaedia *Monod sign* 條目轉述、accessed 2026-06-20）。
+[^4]: **Tier 1** Hansell DM, Bankier AA, MacMahon H, et al. *Fleischner Society: glossary of terms for thoracic imaging*. Radiology 2008;246(3):697-722（據 PubMed，DOI [10.1148/radiol.2462070712](https://doi.org/10.1148/radiol.2462070712)；實際查證 accessed 2026-07-04）——胸腔影像標準化術語定義之權威來源：**air crescent（空洞內團塊與壁間之氣體新月）、halo sign（結節周圍 GGO）、tree-in-bud（小葉中心微結節線狀分枝）、signet ring sign（擴張支氣管環+較小伴行動脈＝支氣管擴張）、mycetoma、bulging fissure**等徵象之標準定義——佐證本卡各感染相關徵象之定義（尤 signet ring＝支氣管擴張、air crescent 定義）。原「Radiopaedia/演講筆記」弱來源已由本次 Fleischner glossary（Radiology）Tier 1 查核升級。
+
 [^3]: **provenance**：本概念之徵象清單與考題整合自演講筆記《CXR signs》(整理自 ECR 2014/2017 poster、2015 RG "Back to Basics: Classic Signs in Thoracic Radiology"、江自得《實用胸腔X光診斷學》等);上述事實已逐項以 [^1] Radiopaedia 一手條目查核。原筆記另含 pneumothorax/縱膈、定位、ILD、血管等徵象,分屬 [[silhouette-sign]]、[[pneumopericardium-signs]]、[[ctd-ild]]、[[crazy-paving]] 等概念。
 
 ## 考題
