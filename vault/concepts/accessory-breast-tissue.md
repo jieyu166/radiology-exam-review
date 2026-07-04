@@ -1,31 +1,48 @@
 ---
-tags: [concept, BR]
-aliases: [accessory breast, ectopic breast, supernumerary breast, 副乳]
+concepts: [accessory-breast-tissue]
+name: Accessory Breast Tissue
+subspecialty: [Breast]
+aliases:
+  - accessory breast
+  - ectopic breast
+  - supernumerary breast
+  - 副乳
+dateRev: 2026-07-04
 ---
 
-**副乳組織 (Accessory breast tissue)** 盛行率約 2-6%（非 36%），沿 milk line 分佈。
+# accessory-breast-tissue
+
+**副乳（accessory breast tissue）盛行率「up to 6%」（非 36%）；為胚胎乳腺退化不全的正常變異，沿 milk line 分佈，最常見於腋窩，且與正常乳腺一樣可發生良/惡性病灶。**
 
 ## Summary
+- Accessory breast tissue 為胚胎期 milk line 上乳腺原基退化不全所殘留的**正常乳腺組織**（非發育異常），盛行率**約 up to 6%**，最常見於腋窩。[^1]
+- 分佈沿 milk line（milk line/mammary ridge）：由**前腋窩皺褶（anterior axillary fold）→ 雙側胸腹 → 腹股溝（inguinal region）→ 大腿內側（medial thigh）**。[^1]
+- **Supernumerary breast**：沿 milk line 出現的多乳，可含乳頭/乳暈；**aberrant breast tissue**：位於正常乳腺附近、無導管系統相連的孤立乳腺組織島。[^1]
+- 與正常乳腺相同的良性與惡性病程（fibroadenoma、纖維囊腫變化、乃至癌）皆可發生於副乳，故不可一律視為正常而忽略。[^1][^2]
 
-- Accessory breast tissue：殘留的正常胚胎乳腺組織（非異常發育）
-- 盛行率：**2-6%**（非 36%）
-- 最高發生率在**日本人**，白種人最低
-- **Supernumerary breast**：沿 milk line 分佈（前腋窩皺褶→腹股溝/大腿內側）
-- **Aberrant breast tissue**：位於正常乳腺附近的孤立乳腺組織
-- Milk line 走向：anterior axillary fold → bilateral → inguinal region → medial thigh [^1]
+## 放射科醫師影像判讀重點
+- 腋窩超音波：正常副乳呈與同側乳腺實質等回聲的纖維腺體組織，隨月經週期/哺乳而變化；不應誤判為腫塊或病理性淋巴結。[^2]
+- 副乳位於乳房攝影常規視野**之外**，易漏檢；腋窩新發、隨哺乳脹大且會泌乳的軟組織應想到副乳而非腫瘤。[^2]
+- 副乳內若出現不規則實質腫塊、可疑鈣化或惡性型態，處置同正常乳腺（切片、依 BI-RADS 分級）。[^2]
 
-## 陷阱
+## 臨床重點（5 句）
+1. 盛行率**約 up to 6%**，考題把「36%」列為錯誤敘述須辨識。[^1]
+2. 為正常胚胎發育殘留組織，非病理性異常發育。[^1]
+3. 最常見部位為腋窩，其次胸腹壁；罕見於腹股溝、外陰、大腿。[^1]
+4. Supernumerary（沿 milk line 多乳）與 aberrant（鄰近正常乳腺的孤立乳腺島）為不同概念。[^1]
+5. 副乳可發生與正常乳腺相同的良/惡性疾病，需納入影像評估。[^1][^2]
 
-- 盛行率約 2-6%，**非** 36% — 36% 為明顯錯誤數據
+> [!note] 考點：關於 accessory breast tissue，哪一項敘述錯誤？
+> 錯誤者為「可見於高達 **36%** 的人口」。正確盛行率為 **up to 6%**；其餘（正常胚胎殘留、日本人最高/白種人最低、supernumerary 沿 milk line 由腋窩至腹股溝與大腿內側、aberrant 為鄰近正常乳腺的孤立乳腺島）皆正確。[^1]
 
 ### 參考來源
+[^1]: DeFilippis EM, Arleo EK. The ABCs of accessory breast tissue: basic information every radiologist should know. AJR Am J Roentgenol. 2014;202(5):1157-62. 據 PubMed，[DOI](https://doi.org/10.2214/AJR.13.10930)（明載 accessory breast tissue「found in up to 6% of the population, most commonly in the axilla along the milk line」）。
+[^2]: Lim HS, et al. Sonographic Findings of Accessory Breast Tissue in Axilla and Related Diseases. J Ultrasound Med. 2017;36(7):1469-1478. 據 PubMed，[DOI](https://doi.org/10.7863/ultra.16.06056)（副乳及其良/惡性病灶之超音波表現）。
 
-[^1]: AJR; DOI: 10.2214/AJR.13.10930
+> [!question]- 關於 accessory breast tissue 下列何者為錯誤？ (2019-345)
+> 正確答案 **2**（「可見於高達 36% 的人口」為錯誤敘述；正確為 up to 6%）。[^1]
 
 ## 考題
-
 ```dataview
-TABLE WITHOUT ID file.link AS 卡片, questionText AS 題目
-FROM "vault/cards"
-WHERE contains(concepts, "accessory-breast-tissue")
+list from #交換 where contains(concepts, "accessory-breast-tissue")
 ```
