@@ -23,7 +23,7 @@
       "url": "https://doi.org/10.1007/s00167-017-4464-3"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **MRI 對吻挫傷的『成對位置』是確診指紋**：髕骨內側面（medial facet）＋前外側股骨髁（lateral femoral condyle）各有骨髓水腫,此組合見於 70–96% 病例,是 2016-137 正解 C 的判讀核心。\n- **必查 MPFL**：MPFL 撕裂/拉長近 90–100%,常見於股骨側附著處或多部位;沒看到 MPFL 傷須回頭確認脫位診斷。\n- **勿漏骨軟骨骨折/游離體**：約 28% 併骨軟骨傷,平片漏判率 30–40%（脂肪—液體平面提示骨折）,因多需手術故臨床懷疑時應做 MRI。\n- **平片同時評估易脫位骨性危險因子以規劃治療**：trochlear dysplasia（crossing sign、supratrochlear spur/trochlear bump）、patella alta、TT-TG;軸位 MRI/CT 量化 TT-TG（≥20mm 病理、15–20mm 邊緣）、Insall-Salvati（>1.2 病理）、femoral sulcus angle（>150° 病理）。\n- **判讀陷阱**：① TT-TG 於 CT 比 MRI 系統性偏大約 2mm,跨模態比較與術前規劃須注意切點來源;② 兒童/開放骨骺者成人切點不適用;③ 下內側髕骨撕脫可能為 MPTL 撕脫而非單純 MPFL,影響定位;④ 脫位多已自行復位,平片可完全正常,無挫傷不代表未脫過位。",
   "keyPoints": [
     "**定義／機轉**：膝屈曲、固定足上股骨內旋並帶外翻力（非接觸性扭傷）→ 髕骨**向外側脫位後多自行復位**（transient/暫時性），此為最常見亞型；超過 90% 為此非接觸屈曲外翻機轉。 MPFL 是抵抗髕骨外移的主要靜態約束，脫位後幾乎必然受傷。",
     "**骨挫傷（kissing/對吻 contusion）**：**髕骨內側面（medial patella facet）挫傷 ＋ 對應外側股骨髁（lateral femoral condyle）前外側挫傷**，為脫位回彈撞擊所致，是 MRI 的特徵性指紋；此組合性病灶在文獻中見於 70–96% 病例。 故 2016-137 正解 **C**（medial facet of patella + lateral femoral condyle）。",
@@ -34,7 +34,7 @@
     "**Patella alta（髕骨過高）**：Insall-Salvati ratio 不穩定組 pooled **1.31** vs 對照 **1.14**，**>1.2 視為病理性**且再現性佳；Caton-Deschamps index **>1.2** 為高，但組間差異與觀察者再現性較弱。",
     "**Trochlear dysplasia（滑車發育不良）**：是復發性脫位最強的解剖危險因子（復發性不穩定中約 85%）。Dejour A–D 分級（A 淺溝、B 平坦、C 凸出、D 凸出＋內髁發育不全）。平片徵象：**crossing sign**（滑車溝線與前髁皮質線交會＝近端滑車變淺無溝）、**supratrochlear spur／trochlear bump**（前股骨皮質線前方多出的骨）。軸位 MRI 量化：**femoral sulcus angle**（不穩定組 pooled **158.5°** vs 對照 **142.1°**；正常約 130–145°，**>150° 視為病理性**）、lateral trochlear inclination、trochlear depth。"
   ],
-  "management": "",
+  "management": "- 屬非接觸性膝屈曲＋外翻扭傷,超過 90% 為此機轉,好發青少年與年輕運動族群。\n- 首次脫位多能自行復位,治療以復健與支持為主;trochlear dysplasia 是復發性不穩定最強的解剖危險因子。\n- 骨軟骨骨折/游離體與復發性不穩定常是手術（MPFL 重建、截骨等）適應症。\n- 兒童青少年族群的骨性危險因子數值隨年齡/骨齡變動,評估與成人不同。\n- MPFL 為抵抗髕骨外移的主要靜態約束,脫位後幾乎必然受傷,是臨床與影像評估重點。",
   "name": "Transient Lateral Patellar Dislocation",
   "nameZh": "髕骨脫位",
   "slug": "patellar-dislocation",

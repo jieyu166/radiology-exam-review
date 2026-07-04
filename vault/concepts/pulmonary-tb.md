@@ -30,6 +30,22 @@ same:
 > [!note] 活動性（active）vs 陳舊（healed）徵象
 > **偏活動性**：**tree-in-bud / centrilobular nodules（endobronchial spread）、空洞、consolidation、低密度淋巴結、miliary** → 提示傳染性、需痰 AFB/培養與隔離。**偏陳舊/不活動**：鈣化結節或淋巴結、纖維化條索、容積減少、牽引性支氣管擴張（無 tree-in-bud）。**單次影像不能確定活性**,須臨床＋痰菌＋追蹤;tree-in-bud 的廣泛 DDx 見 [[tree-in-bud]]、慢性 RML/lingula 支氣管擴張+結節想 [[ntm]]。[^1]
 
+## 放射科醫師影像判讀重點
+- **分型快速分流（判讀主軸）**：**淋巴結腫＋單側胸水＋任何肺葉 consolidation（無上肺偏好）→ primary**；**上肺 apical/posterior＋下肺 superior＋厚不規則壁空洞＋tree-in-bud → postprimary**。[^1][^2]
+- **CXR vs CT 角色**：胸部 X 光為初步評估工具；**CT 即使 X 光陰性仍可偵測 active 病灶**，且對辨識空洞、tree-in-bud、低密度壞死淋巴結、miliary 更敏感，但 CT 非常規標準做法。[^2]
+- **近乎診斷性的所見（勿漏報）**：**centrilobular nodules / tree-in-bud（經氣道播散）**、上肺**厚壁不規則空洞**、**低密度壞死中心＋環狀強化淋巴結**（primary，可為唯一所見，尤其兒童）。[^1][^2]
+- **免疫低下的判讀陷阱**：重度免疫抑制者**再活化 TB 影像常呈 primary 型態（consolidation＋lymphadenopathy）而非上肺空洞**；且**X 光正常比例可達 10–40%**、miliary 更常見——陰性胸片不能排除。[^2]
+- **空洞併發症 DDx**：最常見為 **endobronchial/bronchogenic spread（tree-in-bud）**；慢性期空洞內真菌球（**aspergilloma，air-crescent sign**）、少見的 **Rasmussen 假性動脈瘤**（大咯血）須另外辨識；miliary 屬血行播散而非空洞經氣道併發症。[^1][^2]
+- **抗藥性不靠影像**：**MDR/XDR-TB 影像與一般 TB 無特異區別**，須靠培養／分子檢測——勿以影像判定抗藥性。[^1]
+- **報告/防疫提醒**：上肺**空洞性肺炎**應積極排除 TB 並隔離病人直到排除；單次影像不能定活性，須結合痰菌與追蹤。[^1]
+
+## 臨床重點（5 句）
+- 結核活性與傳染性最終須靠**痰塗片 AFB 與培養／分子檢測**確認，非單次影像可定。[^1]
+- **Primary TB 好發兒童與免疫低下者；postprimary（再活化）以成人為主**。[^1][^2]
+- **HIV 陽性合併潛伏結核者，發展為活動性結核的風險為 HIV 陰性者的 20–30 倍**。[^2]
+- **MDR-TB**（抗 isoniazid＋rifampin）與 **XDR-TB**（再加 fluoroquinolone＋二線注射劑）以藥物抗藥性定義，靠培養/分子檢測診斷。[^1]
+- 上肺空洞性肺炎懷疑 TB 時應**隔離病人直到排除**，以阻斷院內傳播。[^1]
+
 ## Primary TB
 - 族群：兒童、免疫低下（低盛行區也見於成人）。[^1][^2]
 - **Consolidation**：均質、**任何肺葉皆可（常下/中葉）、無上肺偏好**。[^1]

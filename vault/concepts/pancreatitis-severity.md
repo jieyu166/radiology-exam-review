@@ -60,6 +60,25 @@ dateRev: 2026-06-29
 - **collection 內氣體≠一定感染**：需排除近期穿刺/手術、與腸道相通之瘻管。[^3]
 - **DDx**：WON 與囊性胰腫瘤（如 mucinous cystic neoplasm、IPMN）——後者通常無急性胰臟炎病史、有分隔/壁結節，臨床病程與影像演變可區分。[^4]
 
+## 放射科醫師影像判讀重點
+
+- **CECT（判讀主力）**：先判有無壞死——胰實質正常均質強化＝間質水腫型；出現**強化減低/缺失區**＝壞死型;壞死型再看胰周有無異質非液性成分。壞死判讀影響後續 collection 命名（ANC/WON vs APFC/pseudocyst）。[^3]
+- **時機陷阱（考點核心）**：微循環壞死需數天演變，**症狀 <72h 的 CECT 會低估壞死範圍**，最佳評估在 72h 或 5–7 天;勿據早期正常 CT 排除壞死型。[^3][^5]
+- **四型 collection 逐項對照（Revised Atlanta）**：APFC（<4週、均質、無壁）→pseudocyst（>4週、均質、成熟壁、無實質）;ANC（<4週、異質、含非液性、壁不清）→**WON（>4週、異質液性＋非液性、成熟壁）**。判 collection 一律先問「有無壞死×是否>4週」。[^3][^4]
+- **MRI/EUS 補強**：見「有壁圓形低密度 collection」時，MRI（尤其 T2/DWI）與 EUS 較 CT 易辨內含非液性壞死碎屑，避免把 WON 誤讀為 pseudocyst 而影響引流策略。[^3][^4]
+- **CTSI vs modified CTSI（計分陷阱）**：原始 CTSI＝**Balthazar 分級(A–E)＋壞死%**（總分/10），**pleural effusion 不在其中**;胸水、腹水、血管/實質併發症、GI 侵犯屬 **modified CTSI 的 extrapancreatic complications(2 分)**。[^2][^5]
+- **感染性壞死徵象**：collection 內**氣泡(gas bubbles)**為高特異徵象（須排除近期穿刺/手術/瘻管相通）;另見壁增厚強化、DWI 周邊高訊號;確診靠 needle aspiration 培養。[^3]
+- **血管併發症判讀**：CECT/CTA 見**與動脈相連、隨主動脈同步強化的囊狀結構**＝假性動脈瘤（最常脾動脈）;脾靜脈栓塞可致 left-sided portal hypertension;active extravasation＝出血。CTA 偵測動脈併發症敏感度/特異度約 94%/90%，DSA 為金標準兼治療。[^6]
+- **DDx**：WON 與囊性胰腫瘤（mucinous cystic neoplasm、IPMN）——後者無急性胰臟炎病史、有分隔/壁結節，臨床病程與影像演變可區分。[^4]
+
+## 臨床重點（5 句）
+
+- 臨床嚴重度依器官衰竭分三級：輕度（無器官衰竭、無併發症）／中重度（暫時性器官衰竭 <48h 或局部併發症）／重度（持續性器官衰竭 >48h）。[^4]
+- 病程分早期（約第 1 週、由 SIRS/器官衰竭主導嚴重度）與晚期（>1 週、由持續症狀與局部/全身併發症主導）。[^3][^4]
+- 常見成因為膽結石、酗酒、代謝異常與特發性;輕症不需常規早期 CT，持續腹痛、酵素居高、器官衰竭或敗血徵象才是補影像的觸發。[^3]
+- 感染性壞死之確診須 needle aspiration 培養，並非單憑影像;影像上的氣泡僅為高度懷疑線索。[^3]
+- 血管併發症以脾動脈假性動脈瘤與脾靜脈栓塞為代表，前者可破裂致命，DSA 兼具診斷與栓塞治療角色。[^6]
+
 > [!note] 考點
 > 壞死性 collection >4 週包覆＝**WON**（非 pseudocyst）。**原始 CTSI＝Balthazar＋壞死%**,**pleural effusion 不在其中**（屬 modified CTSI 的 extrapancreatic complications）。[^3][^2][^5]
 

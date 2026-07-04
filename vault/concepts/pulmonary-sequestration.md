@@ -58,6 +58,20 @@ dateRev: 2026-06-29
 > [!note] 考點（2018-045）：pulmonary sequestration 敘述何者「錯」?
 > **Intralobar sequestration通常在新生兒期以呼吸窘迫/發紺/感染表現，extralobar則在兒童期以反覆感染表現（B）**——**相反**。ILS多在青少年/成人因反覆感染被發現；ELS多在新生兒/嬰兒期表現（可因分流致high output heart failure）或產前發現。分型25%/75%(A對)、ELS靜脈引流入體循環靜脈至右心房、ILS引流入肺靜脈(C對)、ELS好發左下葉可位於膈下(D對)皆為正確描述。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **CTA 追蹤到源自主動脈的體循環供血動脈是影像確診核心**：兩型皆由體循環動脈供血,最常自胸主動脈下段或腹主動脈發出;找到這條異常動脈即可與單純肺炎/膿瘍/腫瘤區分,也是術前避免大出血的關鍵。[^1][^4]
+- **靜脈引流決定分型（考點分水嶺）**：ILS→肺靜脈（肺循環）;ELS→體循環靜脈（azygos/hemiazygos/IVC,偶入 portal）;答「extralobar 引流入肺靜脈」為錯。[^1][^2]
+- **部位與合併畸形**：好發左下葉後基底段為兩型共同傾向;ELS 約 90% 位左側、可位於膈下、男性居多（~4:1）,常合併先天性膈疝等;ELS 有獨立臟層胸膜,ILS 與正常肺共用胸膜。[^1][^3]
+- **模態分工**：CXR 僅供初步懷疑（無法顯示血管）;CTA 為最佳非侵入性檢查,MRA/增強 MR 為無輻射替代（產前/小兒尤佳）;胎兒可用產前超音波＋胎兒 MRI（都卜勒顯示主動脈供血動脈以與 CPAM 鑑別）。[^1][^4]
+- **判讀陷阱**：① 未找到體循環供血動脈易誤判為肺炎/膿瘍/腫瘤,須用薄層 CTA＋MIP/容積重組;② 分型靠靜脈引流,但「體循環動脈供血＋無正常氣道相通」才是定性診斷核心;③ 見體循環供血＋多囊成分應想 hybrid lesion（與 CPAM 共存）。[^1][^2][^4]
+
+## 臨床重點（5 句）
+- ILS 較常見（約占 BPS 之 75–85%）,多在青少年/成人因反覆同部位感染被發現。[^1][^3]
+- ELS 較少見（約 15–25%）,多在新生兒/嬰兒期或產前因合併其他畸形被發現。[^1][^3]
+- ELS 常合併先天性膈疝等畸形,是新生兒族群的辨識重點。[^1][^2]
+- 治療多為手術切除（尤其反覆感染的 ILS）,術前須完整標示供血動脈起源與數目以防術中大出血。[^2][^4]
+- 隔離症可與 CPAM 共存為 hybrid lesion,病理常見,影響手術規劃。[^1]
+
 ### 參考來源
 [^1]: Abbey P, Das CJ, Pangtey GS, et al. *Imaging in bronchopulmonary sequestration*. J Med Imaging Radiat Oncol. 2009;53(1):22–31（期刊綜述，據 PubMed 摘要查證 2026-06-29）。BPS 為接受體循環動脈供血、與氣管支氣管樹無相通之異常肺組織；ILS 位於肺葉臟層胸膜內，ELS 有自己的臟層胸膜；ELS 靜脈引流多入體循環靜脈，ILS 引流入肺靜脈；影像（CT/MR/血管攝影）在確診與提供術前血管路線圖上扮演關鍵角色。According to PubMed，[DOI](https://doi.org/10.1111/j.1754-9485.2009.02033.x)。
 [^2]: Zylak CJ, Eyler WR, Spizarny DL, Stone CH. *Developmental lung anomalies in the adult: radiologic-pathologic correlation*. RadioGraphics. 2002;22 Spec No:S25–S43（RadioGraphics 綜述，據 PubMed 摘要與 MeSH 查證 2026-06-29）：BPS（含 ILS 與 ELS）歸於「合併肺與血管畸形」，以體循環供血與分型/合併畸形為要點。According to PubMed，[DOI](https://doi.org/10.1148/radiographics.22.suppl_1.g02oc26s25)。

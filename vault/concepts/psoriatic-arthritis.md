@@ -52,6 +52,21 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「非」乾癬性關節炎特徵？
 > **Gull-wing erosion**（屬侵蝕性 OA 之中央侵蝕）。乾癬：sausage digit、fluffy periostitis、mouse-ear／marginal 侵蝕、pencil-in-cup、juxta-articular 新骨。[^1]
 
+## 放射科醫師影像判讀重點
+- **X 光判讀主軸＝「破壞與增生並存」**：DIP 為主的不對稱寡關節侵蝕，同時伴 **juxta-articular 新骨／fluffy periostitis／enthesophyte**，且**通常無 RA 的近關節骨質疏鬆**；純侵蝕無新骨→改想 RA。[^1]
+- **具辨識力的手足徵象**：**pencil-in-cup**（DIP）、**mouse-ear/marginal 侵蝕**、**sausage digit（dactylitis）**、arthritis mutilans 之 telescoping/opera-glass 指、罕見但高度特異的 **ivory phalanx**。[^1]
+- **中軸判讀（vs AS 陷阱）**：PsA 為**粗厚、蓬鬆、不對稱/跳躍式的 para-syndesmophyte**與**不對稱骶髂炎**，故少見典型 bamboo spine；AS 則為細長對稱邊緣性 syndesmophyte。[^1]
+- **MRI/US 角色**：MRI 顯示附著點炎、**延伸至骨幹的廣泛骨髓水腫**、屈肌 tenosynovitis 與囊外發炎偏向 PsA；**US 為附著點（enthesitis）評估最佳工具**，可偵測亞臨床病灶（臨床 22% vs US 56%）與甲床血流。[^2][^3][^4]
+- **判讀陷阱（DDx）**：（1）**gull-wing 中央侵蝕屬 erosive OA，非乾癬**——最常見考點；（2）靜態 MRI 的滑膜炎/侵蝕**無法**單獨鑑別 PsA 與 RA，須靠 dactylitis/enthesitis/sacroiliitis 等其他特徵；（3）機械性與退化性附著點病變與發炎性高度重疊，難絕對區分。[^1][^2]
+- **POPP 變異**：onycholysis＋軟組織增厚＋遠節（典型大趾）periostitis 三聯，臨床呈 drumstick 指，常被誤為甲癬。[^5]
+
+## 臨床重點（5 句）
+- PsA 屬**血清陰性脊椎關節病**，RF 多為陰性，可同時侵犯周邊與中軸關節。[^1][^2]
+- 標誌性臨床表現為 **enthesitis（附著點炎）與 dactylitis（香腸指）**。[^1]
+- **甲病變（onychopathy）**與 DIP 受累關係密切，是重要臨床線索。[^2]
+- 周邊型常呈**不對稱、寡關節、DIP 為主**，與 RA 的對稱多關節、近端為主相反。[^1]
+- **juxta-articular new bone formation** 是唯一獨立關聯 PsA 的徵象並納入 CASPAR 分類標準。[^1]
+
 ### 參考來源
 [^1]: Sudoł-Szopińska I, et al. *Diagnostic imaging of psoriatic arthritis. Part I: etiopathogenesis, classifications and radiographic features.* J Ultrason. 2016;16(64):65–77.（PubMed 開放全文 PMC4834372，accessed 2026-06-29）[DOI](https://doi.org/10.15557/JoU.2016.0007)。涵蓋 X 光徵象：marginal→不規則／毛刺侵蝕、pencil-in-cup、arthritis mutilans／telescoping、fluffy periostitis、juxta-articular new bone（CASPAR）、ivory phalanx、para-syndesmophyte vs AS、不對稱骶髂炎、附著點骨贅、micro-CT 小而深無橈側偏好。
 [^2]: Sudoł-Szopińska I, et al. *Diagnostic imaging of psoriatic arthritis. Part II: magnetic resonance imaging and ultrasonography.* J Ultrason. 2016;16(65):163–174.（PubMed 開放全文 PMC4954862，accessed 2026-06-29）[DOI](https://doi.org/10.15557/JoU.2016.0018)。涵蓋 MRI：BME 延伸至骨幹、屈肌 tenosynovitis、extracapsular inflammation、DIP–甲 enthesis、靜態 MRI 無法鑑別 PsA/RA；US enthesitis 與甲床血流。

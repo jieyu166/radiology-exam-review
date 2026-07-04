@@ -21,6 +21,13 @@ dateRev: 2026-06-29
 - **通過內容**：**腋神經(axillary nerve)（或其分支）＋後旋肱動脈(posterior circumflex humeral artery, PCHA)**；腋神經出四邊孔後沿肱骨頸繞行，分為前支（支配 deltoid）與後支（支配 **teres minor**、後 deltoid，及肩後外側皮膚感覺）。[^1][^2]
 - **考點陷阱**：**suprascapular nerve 不通過四邊孔**，它走 **suprascapular notch** 支配 supraspinatus/infraspinatus；spinoglenoid notch 走的是 infraspinatus 分支——三者為不同神經壓迫部位，勿混淆。[^1]（2016-084 正解 B）
 
+## 放射科醫師影像判讀重點
+- **孤立 teres minor 去神經為關鍵線索**：肩部 MRI 見**孤立(isolated) teres minor ± deltoid 受累**而其餘 rotator cuff 正常時，須提出 QSS 之可能——此為影像診斷核心（詳見下方 MRI 與病因段）。[^1][^2]
+- **依病程分期判讀**：急性/亞急性去神經呈 **T2/PD 脂肪抑制瀰漫高訊號（去神經水腫）**、肌肉尚未縮小；慢性則見**脂肪浸潤＋肌肉萎縮(T1 高訊號、體積縮小)**、通常不伴明顯水腫。[^1][^3]
+- **四邊孔常正常、須主動找占位**：纖維帶（最常見病因）多不可見、四邊孔外觀常正常，故看到去神經即須徹底追查**paralabral cyst（次常見）、骨贅、骨折/骨痂**等可手術病因，勿只下「去神經」結案。[^1]
+- **血管型(vQSS)以誘發姿勢評估**：懷疑 PCHA 受壓時，以**外展＋外旋(abduction + external rotation)** 誘發姿勢行 MRA/DSA/都卜勒，偵測 PCHA 受壓、血栓或（假）動脈瘤。[^1]
+- **判讀陷阱**：routine 肩 MRI 約 **3% 出現孤立 teres minor 去神經**，多無 QSS 臨床病史與結構病灶，可與 rotator cuff 損傷或腋神經牽拉相關——須結合臨床，勿一律診為 QSS。[^4]
+
 ### MRI：去神經與肌肉萎縮特徵
 - **急性/亞急性去神經**：teres minor（± deltoid）**T2/PD 脂肪抑制呈瀰漫高訊號（去神經水腫）**，肌肉體積尚未縮小；此期增加敏感度。[^1][^3]
 - **慢性去神經**：teres minor **脂肪浸潤＋肌肉萎縮（T1 高訊號、體積縮小）**，**通常不伴明顯水腫**；判讀關鍵是「**孤立(isolated)** 的 teres minor ± deltoid 受累」而其餘 rotator cuff 正常。[^2][^4]

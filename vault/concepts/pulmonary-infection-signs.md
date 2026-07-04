@@ -48,6 +48,14 @@ dateRev: 2026-06-20
 - **Steeple sign**：上段（subglottic）氣管變窄如教堂尖塔;典型 **croup（哮吼）**。[^1]
 - **Feeding vessel sign**：血管直接連到結節/腫塊 → **血行來源**;**septic pulmonary emboli**（常見、非罕見）、angioinvasive aspergillosis、AVM、vasculitis。詳見 [[septic-pulmonary-emboli]]。
 
+## 放射科醫師影像判讀重點
+- **真菌譜系分期判讀**：見到空洞內團塊＋空氣新月時，須先分**air crescent（angioinvasive aspergillosis 復原期、壞死肺回縮、免疫低下、~50%、好預後）vs Monod（既存空洞內可動真菌球 aspergilloma、免疫正常）**——臨床背景（免疫狀態、病程）是判讀分水嶺。[^1][^4]
+- **halo sign 時序**：CT 上結節周圍毛玻璃環典型見於 **angioinvasive aspergillosis 早期**（出血/水腫），air crescent 則為其後期復原表現；判讀時將 halo→air crescent 視為同一病程之時序演變。[^1]
+- **signet ring 考題陷阱**：CT 之 signet ring sign 主指**支氣管擴張**（擴張支氣管環＋較小伴行肺動脈，bronchoarterial ratio >1），**非 paragonimiasis 早期薄壁囊**——勿混淆。[^1][^4]
+- **tree-in-bud 非特異**：多發小葉中心微結節線狀分枝反映**經氣道散播**，初描述於支氣管內結核，現見多種感染（TB/NTM）——判讀時須回溯近端氣道有無病灶。[^1][^4]
+- **黏液栓 vs 血行來源**：finger-in-glove（中央支氣管黏液栓、典型 ABPA，自肺門向外分枝管狀陰影）與 feeding vessel sign（血管直連結節、提示血行播散如 septic emboli）為兩種不同機轉，須依分佈與是否連血管區分。[^1]
+- **bulging fissure 之意涵**：滲出性肺葉實變快速脹大推擠相鄰葉裂外凸，提示**發炎劇烈、易進展為 necrotizing pneumonia**，典型 Klebsiella RUL pneumonia——見此徵象須警覺壞死與併發症。[^1][^4]
+
 > [!note] 考點：air crescent vs Monod
 > **Air crescent＝復原期 angioinvasive aspergillosis（免疫低下、好預後）**;**Monod＝既存空洞內可動真菌球 aspergilloma（免疫正常）**——兩者最常被混用;2024 Fleischner 已把 air crescent 當傘狀術語。[^1][^2]
 

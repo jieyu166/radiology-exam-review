@@ -20,11 +20,27 @@ dateRev: 2026-07-01
 - **腦室旁強化灶**：**腦室旁白質**因**長髓質動脈(long medullary arteries)供血相對不良、缺乏側枝血管**，對放射線後血管病變(postirradiation vasculopathy)特別脆弱——故照野內腦室旁強化灶**典型提示放射線引起之強化**，可建議連續追蹤確認其消退或穩定。[^1]
 - **"Cut green pepper"或"soap bubble"外觀**：此類強化外觀**可能提示放射線壞死**，但亦可能為（更常見的）**混合病灶（放射線壞死+腫瘤並存）**；Dequesada等研究顯示此外觀**並不能可靠地區分放射線壞死與腫瘤**。[^1]
 
+## 放射科醫師影像判讀重點
+- **傳統對比 T1WI 常難區分**：兩者皆可呈強化伴周圍水腫；lesion quotient（T2 低訊號結節面積÷對比後 T1 面積）為量化輔助——復發 >0.6、放射線壞死 <0.3。[^1]
+- **灌注（perfusion）為核心鑑別（考題重點）**：DSC 灌注上**腫瘤復發 rCBV 升高**（新生血管、血流增加），**放射線壞死 rCBV 低**（血管閉塞、灌注下降）；DCE 之 Ktrans/Vp 於復發亦偏高，是區分兩者最實用的進階序列之一。[^2]
+- **MR 光譜（MRS）**：**腫瘤復發呈 Cho 升高、Cho/NAA 與 Cho/Cr 比值升高**（細胞增生）；**放射線壞死呈整體代謝低下**，常見寬廣 lipid-lactate 峰而 Cho 不高，Cho/Cr 通常較低。[^2]
+- **PET 代謝影像**：**復發呈高攝取**、放射線壞死呈低攝取；FDG PET 受正常皮質高本底限制，**胺基酸 PET（如 ¹¹C-MET、¹⁸F-FET、¹⁸F-FDOPA）對復發偵測敏感度與特異度更佳**，腫瘤攝取高於壞死。[^2]
+- **好發部位與追蹤線索**：可依原發腫瘤位置與放射照野推測；照野內腦室旁白質（長髓質動脈供血差、缺乏側枝）易生放射性血管病變，該處強化灶典型提示放射線引起，可連續追蹤確認消退/穩定。[^1]
+- **判讀陷阱**："cut green pepper／soap bubble"外觀與單一擴散/ADC 均無法可靠鑑別（DWI 診斷效能僅中等，不宜單用）；實務多採**多模態整合**（灌注＋MRS＋PET＋時序追蹤）以降低誤判與混合病灶漏判。[^1][^2]
+
+## 臨床重點（5 句）
+- 據 PubMed，放射線壞死、假性進展（pseudoprogression）與真性復發臨床處置迥異，鑑別直接影響是否手術、再放療或系統治療。[^2]
+- 放射線壞死多在放療後數月至數年出現，假性進展則多在放化療後數週至 3 個月內。[^2]
+- 立體定位放射手術（如轉移瘤 SRS）後放射線壞死風險上升，為此鑑別的常見臨床情境。[^2]
+- 誤將放射線壞死判為復發可致不必要手術/再放療，反之則延誤救援治療，故鑑別攸關預後。[^2]
+- 影像不確定時，臨床常需連續追蹤、必要時以組織病理確診（可含混合病灶）。[^2]
+
 > [!note] 考點：鑑別放射線壞死與腦腫瘤復發，何者「不是」放射線壞死的特徵?
 > **B為偽**——**腫瘤復發**的lesion quotient（病灶商數）**較放射線壞死「高」**（復發>0.6、放射線壞死<0.3），非放射線壞死較高。可依原發腫瘤位置與照野推測(A)、腦室旁強化灶典型提示放射線引起(C)皆為放射線壞死特徵；"cut green pepper/soap bubble"外觀(D)雖可提示放射線壞死，但研究顯示無法可靠鑑別（此為附加說明，非本題錯誤選項所在）。[^1]
 
 ### 參考來源
 [^1]: RadioGraphics 2012;32:1343-1359：放射線壞死可依原發腫瘤位置與照野推測好發部位；lesion quotient(T2低訊號結節面積/對比後T1面積)腫瘤復發>0.6、放射線壞死<0.3；腦室旁白質因長髓質動脈供血差、缺乏側枝血管對放射性血管病變脆弱，照野內腦室旁強化灶典型提示放射線引起；cut green pepper/soap bubble外觀可提示放射線壞死但Dequesada等研究顯示不能可靠鑑別放射線壞死與腫瘤。
+[^2]: 據 PubMed，Li C, Gan Y, Chen H, et al. *Advanced multimodal imaging in differentiating glioma recurrence from post-radiotherapy changes.* Int Rev Neurobiol 2020;151:281-297. DOI: [10.1016/bs.irn.2020.03.009](https://doi.org/10.1016/bs.irn.2020.03.009)（accessed 2026-07-05）。灌注 MRI（復發 rCBV 升高、壞死降低）、MRS（復發 Cho 及 Cho/NAA、Cho/Cr 升高；壞死代謝低下、lipid-lactate 峰）、胺基酸 PET（¹¹C-MET/¹⁸F-FET/¹⁸F-FDOPA 對復發偵測優於 FDG）與擴散/APT 等多模態整合鑑別復發、假性進展與放射線壞死；三者臨床處置不同、鑑別攸關預後。
 
 ## 題目
 > [!question]- To differentiate radiation necrosis and brain tumor recurrence, which is not the characteristics for radiation necrosis? (2017-316)

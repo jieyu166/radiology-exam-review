@@ -17,6 +17,14 @@ dateRev: 2026-07-02
 - Post-primary TB：apical/posterior segments of upper lobes & superior segments of lower lobes 偏好；cavitation 常見 [^1]
 - Cavitation 上肺分佈為 **post-primary** 特徵，非 primary TB [^1]
 
+## 放射科醫師影像判讀重點
+
+- **Primary TB（判讀主力）**：以**縱膈/肺門淋巴結腫大（mediastinal/hilar lymphadenopathy）**為最常見表現，腫大淋巴結中央可呈低衰減（乾酪壞死）;另可見局部氣腔實變與肋膜積液（兒童較少見肋膜積液）。[^1]
+- **Post-primary（reactivation）TB 特徵**：偏好**上肺葉尖後段與下肺葉上段**，表現為**consolidation 與 cavitation**（空洞常見）;可伴 tree-in-bud 之支氣管播散病灶，反映活動性與傳染性。[^1]
+- **空洞分布判讀（考點核心）**：**上肺為主的 cavitation 屬 post-primary 特徵，並非 primary TB**;primary TB 空洞少見，勿因空洞在上肺即誤判為 primary。[^1]
+- **粟粒性（miliary）TB**：因血行散布呈**隨機分布（random）**之瀰漫大小均一小結節，兩肺均勻，與淋巴周圍分布不同（見 perilymphatic-nodules-lung）。[^1]
+- **判讀陷阱**：影像難以絕對區分活動與陳舊病灶;tree-in-bud、空洞、實變偏向活動性，纖維化牽引、鈣化、體積縮小偏向陳舊，須結合臨床與微生物學。[^1]
+
 ### 參考來源
 [^1]: RadioGraphics 2017;37:633；Pulmonary TB: Role of Radiology.
 

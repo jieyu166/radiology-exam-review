@@ -18,7 +18,7 @@
       "url": "https://doi.org/10.2214/ajr.177.5.1771123"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **都卜勒判讀主軸（直接＋間接）**：狹窄處**直接徵象** PSV >180–200 cm/s、RAR ≥3.5、狹窄後 turbulence/aliasing；下游葉間動脈**間接徵象** tardus-parvus、AT >0.07 s（>70 ms）、acceleration index 低——兩者合看提升可靠度。\n- **定位決定病因**：**近端/開口**狹窄＋鈣化斑塊＋年長者→動脈粥狀硬化（約 90%）；**中遠段、少犯開口**＋年輕女性＋**string of beads**→FMD（medial fibroplasia 型，約占 FMD 90%）。\n- **CTA/MRA 角色**：CTA 直接顯示管腔狹窄、開口鈣化與 post-stenotic dilation；MRA 對 string of beads 敏感（約 97%）但對「>50% 狹窄」量化敏感度較低（約 68%），可加做腎灌流功能評估。\n- **介入取捨（最關鍵判讀陷阱）**：**小萎縮腎（<8 cm）＋高實質 RI（>0.8）→ 末期腎硬化，血管重建無益→不介入**，即使看到狹窄亦然；PSV 未達 >180 閾值者非血流動力學顯著狹窄。\n- **DDx/pitfalls（勿漏勿誤）**：（1）**副腎動脈漏看**（20–30% 病人，主腎動脈 ≤4.15 mm 提示應往下找）；（2）**tardus-parvus 不出現不能排除 RAS**（順應性下降致偽陰）、近端主動脈/瓣膜病可致雙側偽陽；（3）in-stent 需提高閾值（PSV >226 cm/s 特異度較佳）。\n- **安全提醒**：**GFR ≤30 mL/min/1.73 m² 不建議 gadolinium MRA**（NSF 風險）。\n\n> [!note] 考點：關於 fibromuscular dysplasia (FMD)，何者「有誤」?\n> 「**FMD 少以 vascular ectasia 表現**」有誤——**血管迂曲、紡錘狀血管擴張與string-of-beads為典型表現**（非少見）。好發年輕女性、最常影響腎動脈、intracranial FMD可以SAH表現（但屬較不典型）皆正確。\n- **Takayasu aortitis**：**女性為主（F:M ≈ 9:1）、好發 <50 歲（常 <40）**;為大血管炎,可累及主動脈及其分支致腎動脈開口狹窄（非男性、非 >35 歲為主）。\n- **Middle aortic syndrome（中主動脈症候群）**：為**獨立罕見病種**,好發兒童／青少年,特徵為**腹主動脈嚴重狹窄合併腎及內臟分支進行性受累**;**並非 Takayasu 的亞型**。\n\n> [!note] 考點：雙側小腎（5–6 cm）、RI 0.9、PSV 130／160 cm/s,該如何處置?\n> **不介入（No intervention）**。PSV 未達狹窄閾值（>180）、且雙側萎縮腎＋高 RI（腎硬化）→ 血管重建無益。\n\n> [!note] 考點：關於 RAS／FMD／Takayasu,何者正確?\n> 「**Medial dysplasia 為最常見 FMD 型（~90%）**」正確。最常見 RAS 病因為粥狀硬化（非 FMD）、Takayasu 為女性為主＜50 歲（非男性＞35）、midaortic syndrome 為獨立病種（非 Takayasu 亞型）。",
   "keyPoints": [
     "**動脈粥狀硬化（atherosclerotic，約占 RAS 90%）**：好發**近端／開口（ostial/proximal）**，常為主動脈斑塊延伸至腎動脈開口；典型為年長、有心血管危險因子病人，常見鈣化斑塊。",
     "**纖維肌肉發育不良（FMD, fibromuscular dysplasia，約占 10–20%）**：好發**中遠段（mid-to-distal）**，**很少侵犯開口／近端**（與粥狀硬化的鑑別重點）；典型為**年輕女性**；medial fibroplasia 型在血管攝影／CTA／MRA 呈經典 **string of beads（串珠狀）** ——交替的狹窄與小動脈瘤樣擴張。",
@@ -41,11 +41,9 @@
     "**受累動脈依頻率**：主要為**腎動脈（~80%）**、**顱外頸內動脈（~74%）**與**椎動脈（~37%）**，其次腸繫膜動脈（~26%）、顱內頸動脈（~17%）;約65%的腎FMD病人合併頸腦血管病灶。",
     "**典型影像表現＝血管迂曲（vascular loops）、紡錘狀血管擴張（fusiform vascular ectasia）與「string-of-beads」外觀**——這些是**典型（typical）**表現,並非少見。",
     "**顱內FMD**：**可以蛛網膜下腔出血（SAH）表現**——但動脈剝離、動脈瘤與SAH相對而言屬**較不典型（less typical）**的影像表現（多數仍以血管迂曲/紡錘狀擴張/串珠狀為主）。",
-    "**腎動脈壓力測量**：可測量**腎內動脈壓力**與主動脈內壓力比較以評估狹窄嚴重度;顯著壓力差（>20 mmHg）時,高血壓可歸因於FMD病灶,可考慮腎血管成形術。",
-    "**Takayasu aortitis**：**女性為主（F:M ≈ 9:1）、好發 <50 歲（常 <40）**;為大血管炎,可累及主動脈及其分支致腎動脈開口狹窄（非男性、非 >35 歲為主）。",
-    "**Middle aortic syndrome（中主動脈症候群）**：為**獨立罕見病種**,好發兒童／青少年,特徵為**腹主動脈嚴重狹窄合併腎及內臟分支進行性受累**;**並非 Takayasu 的亞型**。"
+    "**腎動脈壓力測量**：可測量**腎內動脈壓力**與主動脈內壓力比較以評估狹窄嚴重度;顯著壓力差（>20 mmHg）時,高血壓可歸因於FMD病灶,可考慮腎血管成形術。"
   ],
-  "management": "",
+  "management": "- 腎動脈狹窄是**續發性（腎血管性）高血壓**的重要可矯正病因。\n- **最常見病因為動脈粥狀硬化（約 75–90%）**，好發年長、有心血管危險因子者。\n- **FMD 約占 10–20%，典型為年輕女性**，以 medial fibroplasia 型最常見。\n- **captopril renography** 可評估狹窄之功能意義並預測血管重建是否有效。\n- 對**雙側小萎縮腎、腎功能已末期化**者，血管重建難以改善，不建議介入。",
   "name": "Renal Artery Stenosis (Doppler & Revascularization)",
   "nameZh": "腎動脈狹窄",
   "slug": "renal-artery-stenosis",

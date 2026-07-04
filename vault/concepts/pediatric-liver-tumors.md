@@ -20,6 +20,14 @@ dateRev: 2026-07-02
 - **Hepatocellular adenoma（本題正解）**：**通常無症狀或以腹部腫塊表現**。[^1]
 - **血清AFP**：**並非所有兒童肝腫瘤皆升高**——hepatoblastoma常升高，但良性腫瘤(hemangioendothelioma/mesenchymal hamartoma/adenoma)多不升高。[^1]
 
+## 放射科醫師影像判讀重點
+
+- **Infantile hemangioendothelioma（最常見良性、判讀主力）**：多發或單發富血管腫塊，動態顯影呈**周邊結節狀強化、漸進向心填充**（類似成人海綿狀血管瘤），可含中央鈣化與纖維化;多在嬰兒期以影像即可診斷，**不需 FNA/切片**（切片有出血風險）。[^1]
+- **Mesenchymal hamartoma（第二常見）**：以**多房囊性腫塊**為主，內含大小不一囊腔與分隔，實質成分較少;好發於 2 歲前，MRI 上囊液 T2 高訊號、分隔強化，為與實質性腫瘤鑑別的關鍵影像特徵。[^1]
+- **Hepatocellular adenoma**：邊界清楚之含脂/出血傾向腫塊，兒童多**無症狀或以腹部腫塊表現**;需注意出血與（少數）惡性轉化風險。[^1]
+- **DDx 與惡性鑑別（考點核心）**：良性者（hemangioendothelioma／mesenchymal hamartoma／adenoma）血清 **AFP 多不升高**;若 AFP 明顯升高應優先考慮 **hepatoblastoma（惡性）**，其典型為單發大實質腫塊、可含粗鈣化，AFP 常顯著上升。**AFP 並非所有兒童肝腫瘤皆升高**是關鍵鑑別點。[^1]
+- **判讀陷阱**：勿把 mesenchymal hamartoma 誤稱「最常見」（它是第二常見）;勿對典型 infantile hemangioendothelioma 例行安排切片。[^1]
+
 > [!note] 考點：關於兒童肝腫瘤，何者正確？
 > **Hepatocellular adenomas are usually asymptomatic or present with an abdominal mass（C）**。A(mesenchymal hamartoma為第二常見非最常見)、B(infantile hemangioendothelioma不需FNA)、D(血清AFP非皆升高)皆為偽。[^1]
 

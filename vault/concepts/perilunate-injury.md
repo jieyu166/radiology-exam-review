@@ -29,6 +29,20 @@ dateRev: 2026-06-29
 > [!note] 考點：lesser-arc 最後階段累及哪個關節？
 > **Radius-lunate（橈月）**——Mayfield 第 4 階段月骨掌側脫位。順序：SL→CL→LT→RL。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **X 光（首選，至少 4-view）判讀 Mayfield 進程**：正位看 Gilula 三弧線是否中斷、月骨「piece-of-pie」三角化與腕骨皮質重疊/間距異常（正常 ≤2 mm）；側位看 radius-lunate-capitate 是否共線。[^3][^6]
+- **側位區辨 perilunate vs lunate dislocation（核心考點延伸）**：lunate dislocation 月骨掌側傾倒呈「spilled teacup sign」、脫離橈骨；perilunate dislocation 為 capitate 相對月骨/橈骨向**背側**移位、月骨仍對橈骨。[^1][^6]
+- **greater vs lesser arc 靠有無經骨骨折**：lesser arc 為純韌帶環繞月骨、無骨折；greater arc 經骨路徑（最常 trans-scaphoid／de Quervain fracture-dislocation）——CT 2 mm 薄切＋3D 對隱匿骨折與移位方向最有助。[^4][^5]
+- **MRI 評估內在骨間韌帶**：SL／LT 韌帶正常呈低訊號連續，部分/完全撕裂呈異常訊號＋不連續；SL 韌帶斷裂＋背側腕中間韌帶受損 → DISI（SL 角 >60°）。[^4]
+- **判讀陷阱**：lunate dislocation 最易在正位被月骨重疊掩蓋而漏判，務必看側位共線與 teacup 徵象、Gilula 弧線中斷；並排查伴隨傷（CMC 脫位、DRUJ、橈骨頭骨折）。[^3][^6]
+
+## 臨床重點（5 句）
+- 月骨周脫位為最常見的腕骨脫位型態，典型機轉為腕極度背伸＋尺偏＋腕中旋後的高能量傷害。[^3]
+- 屬骨科急症，需儘速閉鎖復位以減壓正中神經、降低腕隧道症候群風險。[^3]
+- 正中神經（偶尺神經）可因撞擊或腕隧道受壓受傷，臨床須評估神經血管狀態。[^3]
+- 復位後常殘留 scapholunate dissociation，長期恐致 SLAC wrist 退化，多需韌帶修復或固定。[^3][^4]
+- greater-arc 損傷伴舟骨骨折者（trans-scaphoid perilunate）需一併處理骨折以免不癒合。[^4][^5]
+
 # 影像判讀
 
 ## 定義與 Mayfield 分期

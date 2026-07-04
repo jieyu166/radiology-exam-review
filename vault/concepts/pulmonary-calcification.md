@@ -54,6 +54,15 @@ dateRev: 2026-07-01
 > [!note] 考點：關於肺鈣化,何者「不」正確?
 > 「**結節的層狀（laminated）鈣化與惡性相關**」**錯誤**——層狀/同心圓屬**良性**型態。IPF 沿支氣管血管束分支狀骨化(對)、腎衰轉移性鈣化好發上肺(對)、末期二尖瓣狹窄致瀰漫肺鈣化(對)。[^1][^2][^3]
 
+## 放射科醫師影像判讀重點
+- **孤立結節第一步**：薄層 CT 確認鈣化確屬結節（良性鈣化通常需占結節 >10% 體積才有意義），再依型態分良惡。[^4]
+- **良性型態**：**中央／瀰漫實心**＝癒合性肉芽腫（最常見）、**層狀／同心圓**＝肉芽腫病（TB／histoplasmosis）、**爆米花**＝hamartoma（占 ~15–20%，找病灶內脂肪確診）——**「層狀與惡性相關」為陷阱**。[^1][^4]
+- **可疑／惡性型態**：**偏心（腫瘤 engulf 既有鈣化灶）、點狀／不定形**（肺癌最常見鈣化型態，鈣化僅見於約 6% 肺癌）；鈣化「存在」不等於良性。[^1][^4]
+- **瀰漫鈣化四分法（依分布＋臨床史收斂）**：**轉移性鈣化（MPC）**好發上肺／肺尖（V/Q 高→偏鹼），最常見**慢性腎衰**，CT 僅約 60% 可見鈣化；**失養性**（TB／varicella／histo、矽肺伴 eggshell 淋巴結）；**瀰漫肺骨化 DPO**（dendriform 沿支氣管血管束＝IPF／amyloid；nodular NPO 下肺為主＝慢性肺靜脈高壓／末期二尖瓣狹窄）；**PAM**（sandstorm＋black pleura，SLC34A2）。[^2][^3][^5]
+- **關鍵鑑別**：**NPO vs 陳舊肉芽腫**——NPO「無」鈣化縱膈／肺門淋巴結＋有心臟病史；陳舊肉芽腫常「伴」鈣化淋巴結。[^5]
+- **骨化 vs 鈣化**：骨化含骨小梁、可有骨髓脂肪密度與更高 HU、常呈**分支狀（dendriform）**；見分支狀緻密影應想 DPO 而非單純鈣化。[^2][^5]
+- **判讀陷阱**：勿因「鈣化」就排除惡性——**骨肉瘤／軟骨肉瘤轉移本身成骨、黏液性／乳突狀腺癌與甲狀腺乳突癌轉移可鈣化、化療後壞死亦可使原不鈣化之轉移出現鈣化**；broncholithiasis 需薄層（<3 mm）定位支氣管內／旁鈣化＋阻塞性變化。[^4][^7]
+
 ### 參考來源
 [^1]: *Calcified pulmonary nodules*. Radiopaedia.org（輔助層級,實際查證 accessed 2026-06-18）：「The most common cause of nodule calcification is **granuloma formation** ... in response to healed infection」;良性型態含中央/瀰漫/層狀/爆米花,可疑型態為偏心/點狀。
 [^2]: Thoracic Radiology: The Requisites, 2nd ed., pp.41, 284（Tier 1,題目所引,ClinicalKey 可查）——dendriform interstitial ossification、末期二尖瓣狹窄瀰漫肺骨化/鈣化結節。

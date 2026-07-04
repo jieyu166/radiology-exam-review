@@ -24,8 +24,23 @@ dateRev: 2026-06-29
 - **DDx**：cellular/giant fibroadenoma、metaplastic（梭形細胞）癌、原發或轉移性乳房肉瘤、periductal stromal tumour。[^1][^2]
 - **復發/轉移**：局部復發率約 benign 11%、borderline 16%、malignant 25%（含 giant、margin 陽性更高）;遠端轉移近乎僅見於 malignant（約 16%）,以**血行轉移至肺與骨骼**為主,腋下淋巴轉移罕見故不需腋窩分期。治療為**廣泛局部切除取得陰性邊界**。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **乳房攝影（判讀主軸與陷阱）**：典型為**大、圓/卵圓或分葉、邊界清晰、等或高密度、不含微鈣化**的腫塊；此外觀與 fibroadenoma 高度重疊，單靠乳攝**無法可靠鑑別**——不要因為「像 fibroadenoma」就低估。[^1][^2][^3]
+- **超音波（最有辨識力的一步）**：不均質低回音實質腫塊，**內部囊狀裂隙（cystic clefts/slits）**、分葉外形、後方回音增強最具提示性；體積大、生長快、無微鈣化傾向 phyllodes 而非 fibroadenoma。[^1][^2][^3]
+- **MRI（分期與惡性線索）**：T2 常高訊號、可見囊狀裂隙、對比後快速早期強化；惡性者**較大、形狀不規則、邊界較不清**，但影像仍無法單獨定良惡，用途在術前範圍與多發性評估。[^2][^3]
+- **DDx（判讀時同時想到）**：cellular/giant fibroadenoma、metaplastic（梭形細胞）癌、原發或轉移性乳房肉瘤、periductal stromal tumour——當「大而快速生長、似 FA」時尤其要把 phyllodes 納入。[^1][^2]
+- **處置導向的判讀陷阱**：影像與細胞學高度重疊，**FNA 無法可靠區分、CNB 對 benign PT 與 cellular fibroadenoma 亦有限**；記錄為「生長中 FA」者切除後約半數重分類為 benign PT，故對**大、快速生長、≥40 歲**者應建議切除並在報告中提示 phyllodes 可能。[^2][^4]
+- **不需腋窩分期**：惡性 phyllodes 以**血行轉移至肺與骨骼**為主、腋下淋巴轉移罕見，故報告轉移評估重點在肺／骨而非腋窩。[^1][^2]
+
 > [!note] 考點：何者「為非」?
 > 「**局部復發很罕見**」為非——phyllodes **未廣泛切除易局部復發**（benign 約 11%、borderline 約 16%、malignant 約 25%）。大而快速生長、well-circumscribed、似 fibroadenoma 皆正確。[^1][^2]
+
+## 臨床重點（5 句）
+- Phyllodes tumor 為源自小葉間質的**雙相纖維上皮腫瘤**，佔原發乳房腫瘤約 0.3–1%。[^1]
+- 典型表現為**快速增大的可觸及腫塊**，中位年齡約 45 歲（較 fibroadenoma 大約 10–15 歲）。[^1][^2]
+- WHO 依組織學分為 **benign / borderline / malignant（約 60/20/20%）**。[^1]
+- 治療為**廣泛局部切除取得陰性邊界**，切除不足是局部復發的主因。[^1][^2]
+- 局部復發率隨分級上升（benign 約 11%、borderline 約 16%、malignant 約 25%），遠端轉移近乎僅見於惡性型。[^1]
 
 ### 參考來源
 [^1]: Lissidini G, et al. *Malignant phyllodes tumor of the breast: a systematic review*. Pathologica. 2022;114(2):111-120（系統性回顧,PMC 開放全文 PMC9248247,實際查證）。佔原發乳房腫瘤 0.3–1%;benign/borderline/malignant 約 60/20/20%;中位年齡約 45 歲（較 FA 大 ~15 歲）、平均 4–5 cm、>10 cm 為 giant、好發外上象限;乳攝為 well-circumscribed、hyper-/isodense、round/oval mass;US 之分葉外形、不均回音、無微鈣化傾向支持 PT;局部復發 benign 11.2% / borderline 15.9% / malignant 24.5%,遠端轉移 0% / <2% / 16%,主要至肺與骨骼;wide local excision 取陰性邊界。據 PubMed,[DOI](https://doi.org/10.32074/1591-951X-754)。

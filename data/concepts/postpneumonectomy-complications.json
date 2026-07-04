@@ -3,13 +3,13 @@
   "definition": "**肺切除術後症候群（postpneumonectomy syndrome）是延遲性併發症，因嚴重縱膈移位與心臟大血管逆時針旋轉造成氣管與左主支氣管遠端受壓變窄，最常見症狀為呼吸困難與喘鳴；若肺切除術後原本已完全變混濁的胸腔空間於連續胸部X光追蹤中重新出現氣體，應高度懷疑支氣管肋膜瘻管（bronchopleural fistula）；懷疑食道肋膜瘻管時，胸部電腦斷層是最有用的影像確認方式。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **連續 CXR 追蹤肺切除後胸腔的液平/氣體變化是判讀核心**：術後空腔應逐漸被液體填滿而變混濁;若已變混濁之空腔於連續片中「氣體重新出現」或液平異常下降,應高度懷疑支氣管肋膜瘻管（bronchopleural fistula）。\n- **postpneumonectomy syndrome 是延遲性徵象**：CXR/CT 見嚴重縱膈移位與心臟大血管逆時針旋轉,造成氣管與（多為）左主支氣管遠端受壓變窄;較常見於右側肺切除後,極罕見左側肺切除合併右主動脈弓時右主支氣管受壓。\n- **瘻管的影像確認**：懷疑食道肋膜瘻管時胸部 CT 最有用（可加口服對比劑）;支氣管肋膜瘻管以連續 CXR 的氣體再現＋CT 定位瘻口。\n- **判讀陷阱**：勿把肺切除後正常的縱膈移位與空腔緩慢填充當成併發症;真正警訊是「已混濁空腔的氣體再現」與「進行性氣道受壓症狀」,須與正常術後演變區分。",
   "keyPoints": [
     "**Postpneumonectomy syndrome（肺切除術後症候群）**：延遲性併發症，因嚴重縱膈移位與心臟大血管逆時針旋轉造成呼吸道受壓。**最常見症狀為呼吸困難（dyspnea）與吸氣性喘鳴（inspiratory stridor）**，也可反覆肺炎；**較常見右側肺切除術後左主支氣管受累**，極罕見左側肺切除術後（合併右主動脈弓時）右主支氣管受累。",
     "**氣體重新出現於已變混濁之胸腔空間**：肺切除術後胸腔空間本應逐漸被液體填滿而變混濁（opaque）；若連續胸部X光追蹤中**氣體重新出現**，應高度懷疑**支氣管肋膜瘻管（bronchopleural fistula）**併發。",
     "**食道肋膜瘻管（esophagopleural fistula）確認**：**胸部電腦斷層（chest CT）**是偵測或確認肺切除術後食道肋膜瘻管存在最有用的影像方式。"
   ],
-  "management": "",
+  "management": "- postpneumonectomy syndrome 最常見症狀為呼吸困難（dyspnea）與吸氣性喘鳴（inspiratory stridor）,亦可反覆肺炎。\n- 支氣管肋膜瘻管臨床可表現發燒、咳出大量膿痰,為肺切除後嚴重併發症。\n- postpneumonectomy syndrome 屬延遲性併發症,可於術後數月至數年才出現。\n- 較常見於右側肺切除術後（縱膈移位程度較大）。\n- 治療上 postpneumonectomy syndrome 可能需手術復位縱膈（如置入填充物）解除氣道受壓。\n\n**參考來源**\n: 2019 交換考詳解；RadioGraphics, September 2006, 26, P1449-1468。",
   "name": "Postpneumonectomy Complications",
   "nameZh": "肺切除術後併發症",
   "slug": "postpneumonectomy-complications",

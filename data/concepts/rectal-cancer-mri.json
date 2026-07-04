@@ -2,17 +2,21 @@
   "checked": false,
   "definition": "**直腸 MR 的核心技能是辨認 muscularis propria 黑線是否完整——完整＝≤T2（侷限腸壁）、中斷／外延高訊號＝T3；但 desmoplastic reaction 訊號與腫瘤外延相仿，造成 T2 被「過度分期（overstage）」為 T3，而非低估。** 判讀分水嶺一：**完整 muscularis propria 黑線→≤T2；黑線中斷/外延→T3**；判讀分水嶺二：**MRI 不擅長 adenoma vs T1（須 EUS/切片）；desmoplastic reaction 致 overstaging，非 understaging**。",
   "differentialDiagnosis": [],
-  "externalLinks": [],
-  "imagingFindings": "",
+  "externalLinks": [
+    {
+      "label": "10.1007/s00330-017-5026-2（PubMed",
+      "url": "https://doi.org/10.1007/s00330-017-5026-2（PubMed"
+    }
+  ],
+  "imagingFindings": "- **序列與判讀主力**：以**高解析度 T2WI**（垂直於腫瘤長軸的斜軸位薄層）為 T 分期核心，清楚顯示腸壁分層與 **muscularis propria 黑線**;ESGAR 2016 共識另建議納入 DWI 輔助（尤其 restaging 判斷殘餘腫瘤），並採結構化報告模板。（據 PubMed，Beets-Tan 等 Eur Radiol 2018，DOI:10.1007/s00330-017-5026-2，accessed 2026-07-05）\n- **T 分期黑線判讀（考點核心）**：**完整 muscularis propria 黑線 → 侷限腸壁（≤T2）;黑線中斷或高訊號外延至周圍脂肪 → T3**。MRI 能可靠判斷是否侷限腸壁。\n- **Overstaging 陷阱**：**desmoplastic reaction 之訊號與真正腫瘤外延相近，使 T2 易被『高估（overstage）』為 T3**（並非低估）;短毛刺狀（spiculated）多為纖維化，寬帶狀結節外延較可能為腫瘤。\n- **MRI 判讀弱項**：**不擅長 adenoma 與 T1 腺癌之鑑別**（黏膜下侵犯難以顯示），須 endorectal US 或切片。\n- **關鍵預後影像因子（超越 T 期）**：**mesorectal fascia（MRF）受累/CRM 距離**、**extramural venous invasion（EMVI）**、腫瘤沉積與 N 期，均應在報告中量化;MRF 距離 ≤1 mm 視為 CRM 受威脅。\n- **DDx/情境**：直腸癌與結腸癌**組織病理相同（皆 adenocarcinoma）**，差別在擴散途徑（直腸無漿膜、鄰 MRF）、術前影像評估範圍與局部復發率;直腸癌局部復發率較高。",
   "keyPoints": [
     "**角色**：局部分期(locoregional)、評估 mesorectal fascia 受累、extramural spread(T3)、EMVI、腫瘤沉積、N 期。",
     "**腸壁侷限判讀**：**完整 muscularis propria 黑線 → 侷限腸壁(≤T2);中斷則 T3**。MRI 可準確判斷是否侷限腸壁(此即本題正解 B)。",
     "**限制**：",
     "**不擅長 adenoma 與 T1 腺癌之鑑別**（A 誤）——需 endorectal US/切片。",
-    "**desmoplastic reaction 與真正腫瘤外延訊號相近 → T2 易被『高估(overstage)』為 T3**（故 D「understaging」說法反了）。",
-    "**直腸癌 vs 結腸癌之差異**：擴散途徑（pathways of spread，因直腸無漿膜層、鄰近mesorectal fascia）、術前影像評估範圍（直腸癌需MRI評估mesorectal fascia與T分期）、局部復發率（直腸癌因骨盆腔空間有限、鄰近構造多，局部復發率較結腸癌高）皆不同；**組織病理學（histopathology）則相同，兩者皆為adenocarcinoma**。"
+    "**desmoplastic reaction 與真正腫瘤外延訊號相近 → T2 易被『高估(overstage)』為 T3**（故 D「understaging」說法反了）。"
   ],
-  "management": "",
+  "management": "- 直腸 MRI 的臨床任務是局部（locoregional）分期，指引 neoadjuvant 治療決策與手術範圍（是否需術前放化療、TME 平面）。\n- 局部復發主要危險因子包含 CRM 陽性、EMVI、腫瘤靠近肛緣、吻合口滲漏、缺乏術前放療、手術穿孔、較高 TNM 分期與**較差分化（lower differentiation，非 higher）**。\n- 約 30% 局部復發病人可無症狀，多數會出現症狀並伴隨癌胚抗原（CEA）上升，影像追蹤須結合腫瘤標記。\n- 直腸癌因骨盆空間有限、鄰近構造多，局部復發率較結腸癌高，故術前 MRI 對 MRF/CRM 的評估格外關鍵。\n- ESGAR 共識建議以結構化報告溝通 T/N 期、MRF 距離與 EMVI，提升多專科團隊決策一致性。\n\n> [!note] 考點：關於直腸 MR T 分期,何者「正確」?\n> **MRI 能準確判斷腫瘤是否侷限於腸壁（完整 muscularis propria 黑線）** = 正解 B。MRI 不擅長 adenoma vs T1(A 誤)、desmoplastic reaction 致 T2→T3 『過度』分期非『不足』分期(D 誤)。\n\n- **直腸癌 vs 結腸癌之差異**：擴散途徑（pathways of spread，因直腸無漿膜層、鄰近mesorectal fascia）、術前影像評估範圍（直腸癌需MRI評估mesorectal fascia與T分期）、局部復發率（直腸癌因骨盆腔空間有限、鄰近構造多，局部復發率較結腸癌高）皆不同；**組織病理學（histopathology）則相同，兩者皆為adenocarcinoma**。",
   "name": "Rectal Cancer MRI T-Staging",
   "nameZh": "直腸癌MRI分期",
   "slug": "rectal-cancer-mri",

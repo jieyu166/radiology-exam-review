@@ -20,7 +20,7 @@
       "url": "https://doi.org/10.1210/clinem/dgad463"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **經陰道超音波（首選判讀工具）**：8 MHz 高解析經陰道探頭優於經腹，能可靠計數 2–9 mm 小濾泡;因文化/個人因素改經腹時，計數受限則**改以卵巢體積 ≥10 mL 為準**。\n- **PCOM 準則辨識（考點核心）**：現行 2018/2023 國際指引以**每卵巢濾泡數 ≥20 或卵巢體積 ≥10 mL，任一達標即可**（不需兩者、不需雙側）;體積用橢球公式 0.5×長×寬×厚估算;計數不可靠時可用每橫切面濾泡數 ≥10 替代。\n- **string of pearls 徵象**：多發 <5 mm 小濾泡沿**卵巢周邊（peripheral）**排列成珍珠串，中央為體積增加的間質;敏感（PCOS 約 91%）但**不專一**（約 30% 無 PCOS 女性亦可見）。\n- **典型形態組合**：卵巢腫大＋雙側對稱＋周邊小濾泡＋中央間質「體積增加」（非真回音增強）;「濾泡位於中央」為非典型，是常見考試陷阱。\n- **DDx**：正常多卵泡卵巢（濾泡較大、分布均勻、間質量正常、卵巢不增大、無周邊珍珠串）;青春期生理性多卵泡、下視丘性/恢復期卵巢亦可擬態，須結合臨床與內分泌。\n- **判讀陷阱**：影像非 PCOS 診斷必要條件（Rotterdam 三選二）;婦科年齡 <8 年/青少年不套形態準則;>20 顆閾值針對 ~8 MHz 探頭，解析度不足改用體積;應於週期第 2–7 天掃查;**COC/OCP 會壓低卵巢體積、竇濾泡數與 AMH，服藥期間超音波可能假性正常化而低估 PCOM**，須對照用藥史。",
   "keyPoints": [
     "**多囊卵巢形態（PCOM）的影像準則為濾泡數（FNPO）或卵巢體積擇一達標，並非兩者都要**；現行 2018 ESHRE/國際指引以**每卵巢濾泡數 >20** 為閾值（須用**經陰道高解析探頭，頻寬約 8 MHz**），任一卵巢達標即可。",
     "**舊版 2003 Rotterdam 準則**為**每卵巢 ≥12 顆 2–9 mm 濾泡**（或卵巢體積增大）；隨探頭解析度提升，濾泡數閾值由 12 上調至 20，以避免過度診斷。",
@@ -47,7 +47,7 @@
     "**掃查時機**：應在週期早期（第 2–7 天），優勢濾泡或黃體期會干擾計數與體積。",
     "**口服避孕藥（COC/OCP）會壓低形態指標**：使用一年後卵巢體積、竇濾泡數與 AMH 顯著下降，**服用避孕藥期間之超音波可能假性「正常化」而低估 PCOM**，判讀須對照用藥史。"
   ],
-  "management": "",
+  "management": "- PCOS 依 Rotterdam 準則為三選二：寡/無排卵、臨床或生化高雄性素、PCOM;寡排卵＋高雄性素即可診斷，不必有 PCOM。\n- 2023 國際指引新增血清 AMH 為成人之超音波替代，但青少年與初經 8 年內者不適用此替代。\n- 診斷 PCOS 前須排除其他高雄性素與排卵障礙病因（如甲狀腺、泌乳素、先天性腎上腺增生等），Rotterdam 為排除性診斷。\n- 卵巢體積與濾泡數閾值具年齡差異，有研究主張 30 歲起調降，單一固定閾值在不同年齡敏感度不同。\n- 使用複方口服避孕藥治療會顯著改變卵巢形態指標，追蹤與評估時須納入用藥史以免誤判。\n\n> [!note] 考點：何者「不是」PCOS 的 MRI 典型表現?\n> 「**濾泡位於卵巢中央(central part)**」不是——PCOS 濾泡呈**周邊排列(string of pearls)**。卵巢腫大、雙側皆為典型。\n\n**參考來源**\n: 官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.7-186~187：PCOS 卵巢腫大、周邊多發小濾泡(string of pearls)、雙側。\n: 指引（International evidence-based PCOS guideline / 2018 ESHRE 採用之 PCOM 閾值）：經陰道高解析（~8 MHz）探頭下每卵巢濾泡數 >20 或卵巢體積 ≥10 mL，任一達標即符合 PCOM；三選二中影像非必要條件。摘要見 Smet & McLennan, Australas J Ultrasound Med 2018;21(2):59–60, DOI:10.1002/ajum.12096。\n: 共識準則（2003 Rotterdam ESHRE/ASRM consensus）：每卵巢 ≥12 顆 2–9 mm 濾泡或卵巢體積增大；後續因解析度提升上調至 >20。引自 Smet & McLennan 2018, DOI:10.1002/ajum.12096 之歷史回顧。\n: 綜述文章（EMJ Radiol：Ultrasound in Polycystic Ovarian Syndrome — What? When? How? Why? Who?）：經陰道優於經腹、體積公式 0.5×長×寬×厚、計數勿納 <2 mm、第 2–7 天掃查、間質「體積增加」而非真回音增強、婦科年齡 <8 年不納形態準則。emjreviews.com/radiology。\n: 原始研究（Lerchbaumer et al., \"The ovarian string-of-pearls sign\", Abdom Radiol 2018;43(11):3084–3091, DOI:10.1007/s00261-018-1830-7）：周邊 <5 mm 小濾泡之珍珠串徵，PCOS 約 91% 可見、約 30% 無 PCOS 者亦可見；正常多卵泡卵巢之鑑別。\n: 原始研究（Christ et al., \"Polycystic Ovary Morphology: Age-Based Ultrasound Criteria\", PMC5657450）：卵巢體積與濾泡數閾值具年齡差異，建議 30 歲起調降（例 ≤24 歲 12 mL/13 顆、30–34 歲 9 mL/10 顆）。\n: 指引（Tier 2；2023 International Evidence-based Guideline for the Assessment and Management of PCOS；Teede et al., J Clin Endocrinol Metab 2023;108(10):2447–2469, DOI:10.1210/clinem/dgad463；ASRM/Monash 摘要）：PCOM 閾值為經陰道探頭（頻寬含 8 MHz）下任一側卵巢濾泡數 ≥20 且/或卵巢體積 ≥10 mL；計數不可靠時可用每橫切面濾泡數 ≥10 或卵巢體積 ≥10 mL；新增血清 AMH 為成人之超音波替代；初經 8 年內／青少年不採形態或 AMH 準則。\n: 原始研究（Tier 2；Yoo et al., \"Influence of combined oral contraceptives on polycystic ovarian morphology-related parameters in Korean women with PCOS\", PMC6962579）：COC 治療一年後卵巢體積、竇濾泡數與血清 AMH 顯著下降，COC 期間超音波形態評估受影響、可能低估 PCOM。",
   "name": "Polycystic Ovary Syndrome (PCOS) Imaging",
   "nameZh": "多囊性卵巢",
   "slug": "polycystic-ovary-syndrome",

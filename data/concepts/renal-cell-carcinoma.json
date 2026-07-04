@@ -8,7 +8,7 @@
     "**中央星狀疤痕與輻輪狀強化非oncocytoma專屬**：Oncocytoma於MR可見**中央星狀疤痕(central stellate scar)**與**輻輪狀強化(spoke-wheel enhancement)**，但**此二徵象並非病理特異性(pathognomonic)**——**嫌色細胞癌(chromophobe RCC)**因與oncocytoma可能源自共同前驅細胞，組織學與影像上有重疊，**亦可呈現相同徵象**，故不可僅憑此二徵象確診oncocytoma。"
   ],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **亞型分流（強化程度為核心）**：**clear cell（~70%）＝hypervascular**，動脈期明顯強化＋洗出、常不均（壞死／出血／囊變／可含微觀脂肪）；**papillary＝hypovascular、均質、低度漸進強化**、T2 常低訊號、易出血含鐵；**chromophobe＝中等強化、可呈 spoke-wheel**。\n- **多期 CT／MR 判讀**：明顯不均高強化偏 clear cell，乏血管均質偏 papillary；MR 反相位化學位移影像上**60% clear cell 見病灶內微觀脂肪**（相對正相位訊號下降 >25% 具預測性）。\n- **鈣化線索**：RCC 鈣化於 **papillary 與 chromophobe 亞型較常見**（clear cell 相對較少）。\n- **靜脈侵犯與 T 分期判讀（高頻考點）**：須追蹤腫瘤栓向**腎靜脈→下腔靜脈**延伸範圍——**T3a**（腎靜脈／節段分支、腎盂腎盞或腎周／腎竇脂肪未超 Gerota）、**T3b**（橫膈以下 IVC）、**T3c**（橫膈以上 IVC 或侵犯 IVC 管壁）、**T4**（超過 Gerota 筋膜，含同側腎上腺）。\n- **良惡性鑑別陷阱**：**oncocytoma 之中央星狀疤痕與 spoke-wheel 強化並非病理特異**——**chromophobe RCC 可呈相同徵象**（可能源自共同前驅細胞），不可僅憑此二徵象確診 oncocytoma；**lipid-poor AML** 呈均質 T2 低訊號＋T1 高訊號、需與 RCC 區辨。\n- **兒童／青少年 DDx**：**translocation RCC（Xp11.2）**為此族群最常見 RCC 亞型，異質性外觀（實質＋囊性＋出血＋壞死＋鈣化）、非顯影 CT 常高衰減、有清楚包膜；**即使腫瘤小仍常見腹膜後淋巴結侵犯**，與成人依大小分期的直覺不同。\n- **轉移判讀**：RCC 可轉移至**任何部位**（含頭皮、口腔、甲狀腺、睪丸等不常見處），追蹤影像須警覺不典型位置病灶。",
   "keyPoints": [
     "**Clear cell RCC**：**最常見亞型,約占所有 RCC 70%**;**hypervascular**——CT/MR/導管血管攝影皆呈明顯強化（動脈期高強化＋洗出）;常不均（壞死、出血、囊變、可含脂肪）。",
     "**Papillary RCC**：第二常見;**hypovascular、均質、低度漸進強化**;T2 常低訊號,易出血/含鐵血黃素;預後相對較好。",
@@ -17,7 +17,7 @@
     "**鈣化**：RCC鈣化於**papillary與chromophobe亞型較常見**（相對clear cell較少見）。",
     "**預後比較**：**Clear cell RCC之預後較papillary與chromophobe亞型差**——clear cell較易有症狀、較常於晚期發現、轉移傾向較高；並非clear cell預後較佳、轉移風險較低。"
   ],
-  "management": "",
+  "management": "- 成人最常見原發腎臟惡性腫瘤，好發**中老年、男性居多**，危險因子含吸菸、肥胖、高血壓與獲得性囊性腎病。\n- 典型三聯症（血尿、腰痛、可觸腫塊）今日少見，多為影像**偶然發現**；可伴副腫瘤症候群（高血鈣、紅血球增多、高血壓）。\n- **clear cell 亞型預後較 papillary／chromophobe 差**，較易有症狀、較晚期發現、轉移傾向較高。\n- 具**高度腫瘤異質性**——不同基因變異細胞株可共存於原發及轉移病灶，影響治療反應與取樣代表性。\n- **復發風險最高於治療後早期**，中位復發時間約術後 1–2 年內，故術後早期影像追蹤最為關鍵。",
   "name": "Renal Cell Carcinoma — Subtypes & Imaging",
   "nameZh": "腎細胞癌",
   "slug": "renal-cell-carcinoma",

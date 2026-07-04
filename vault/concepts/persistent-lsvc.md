@@ -48,6 +48,20 @@ dateRev: 2026-06-29
 > [!note] 考點：何者「錯」？
 > 「**通常匯入左心房**」錯——PLSVC **通常經 coronary sinus → 右心房**（約 90%）；入左心房屬少數（約 10%，多伴 unroofed coronary sinus → 右→左分流）。其餘（最常見胸腔先天靜脈異常、dilated coronary sinus、源自 left anterior cardinal vein）皆正確。[^1]
 
+## 放射科醫師影像判讀重點
+- **辨識路徑（核心考點）**：對比劑 CT/MR venography 上，一條管狀血管位於主動脈弓左前外側、起自左 subclavian–jugular 匯合、經左肺門前方下行，最終匯入後縱膈的 **dilated coronary sinus → 右心房**（約 90%）；連續軸切一路追到 coronary sinus 是定論關鍵。[^4][^5]
+- **dilated coronary sinus 是最敏感間接線索**：位於左心房後下方呈擴大圓形結構，初看易誤為心旁腫塊（paracardiac mass）或心包積液——見之務必先追左縱膈血管排除 PLSVC。[^5]
+- **引流終點決定臨床意義（判讀分水嶺）**：入右心房者無血流動力學影響；直接入左心房（多經 unroofed coronary sinus）才造成右→左分流、反常栓塞風險，故報告須明確描述引流終點。[^1][^6]
+- **DDx（左上縱膈血管影）**：left superior intercostal vein（aortic nipple，主動脈弓後方、口徑小）／PAPVR vertical vein（血流向上、左主支氣管前無血管）／levoatriocardinal vein（伴左心阻塞、偏後）／pericardiophrenic vein（下行至橫膈、細小）／aberrant left brachiocephalic vein（穿行主動脈弓下方或後方、伴 TOF）。[^5]
+- **判讀陷阱與反向線索**：見左側中心導管、PICC、Swan-Ganz 或節律器/去顫器導線走行偏左下異常路徑，反向提示可能存在 PLSVC；心臟手術前須辨識以免 retrograde cardioplegia 經 coronary sinus 分流保護不全。[^4]
+
+## 臨床重點（5 句）
+- PLSVC 為最常見胸腔先天靜脈異常，一般族群約 0.3–0.5%、CHD 族群可達約 10%。[^1][^2]
+- 多數無症狀、屬偶然發現，引流入右心房者無血流動力學影響。[^1]
+- 直接入左心房（常伴 unroofed coronary sinus）會造成右→左分流，風險為反常栓塞（腦膿瘍/腦栓塞）、發紺與低血氧。[^6]
+- 左側中心靜脈導管、節律器/去顫器導線置放時會循 PLSVC → coronary sinus → 右心房，走行異常並增加置放與心律不整風險。[^1][^4]
+- PLSVC 與 ASD、endocardial cushion defect、TOF 及竇房結/傳導異常（如 sick sinus syndrome）相關，尤其 isolated PLSVC。[^3]
+
 ### 參考來源
 [^1]: Azizova A, Onder O, Arslan S, et al. *Persistent left superior vena cava: clinical importance and differential diagnoses*. **Insights into Imaging** 2020;11:110（educational review，open access）。最常見胸腔先天靜脈異常；一般族群約 0.3–0.5%、CHD 達約 10%；left anterior cardinal vein 未退化所致；約 90% 經 coronary sinus 入右心房、約 10% 入左心房；臨床對中心導管／節律器／心臟手術之意義。https://doi.org/10.1186/s13244-020-00906-2 （accessed 2026-06-29）。
 [^2]: Pretorius PM, et al.（review，PMC 開放全文）。PLSVC 影響一般族群約 0.3–0.5%、CHD 族群可達約 10%；isolated PLSVC（visceroatrial situs solitus 的 CHD）約 0.09–0.13%；left cardinal vein 正常退化留 CS 與 ligament of Marshall，未閉合即成 PLSVC；約 90% 入 coronary sinus、約 10% 入左心房可致右→左分流。https://pmc.ncbi.nlm.nih.gov/articles/PMC5290679/ （accessed 2026-06-29）。

@@ -50,6 +50,14 @@ dateRev: 2026-06-29
 > [!note] 考點：pneumopericardium 可見何徵象?
 > **Continuous diaphragm sign**、halo sign。與 pneumomediastinum 鑑別：心包氣**頂緣不超過大血管反折**且**可隨體位移動**;張力性者見 small heart sign。deep sulcus＝氣胸、bulging fissure＝Klebsiella、Luftsichel＝LUL 塌陷。[^1][^2]
 
+## 放射科醫師影像判讀重點
+- **正面胸片判讀心包氣**：氣體被心包反折侷限，呈包繞心緣的透亮線（halo sign）；氣墊在心臟與橫膈間使中央段橫膈連續可見即 continuous diaphragm sign（透亮在橫膈「上方」）。[^1][^2]
+- **與 pneumomediastinum 鑑別關鍵一（解剖界線）**：心包氣頂緣止於肺動脈幹與升主動脈水平、不超過大血管反折；若透亮線勾勒主動脈弓、奇靜脈以上上腔靜脈或遠端左肺動脈，該氣體必在心包外（提示 pneumomediastinum）。[^1][^3]
+- **鑑別關鍵二（決定性）—體位可動性**：心包腔氣體在側臥位移向 non-dependent 側並快速變化；縱膈氣被軟組織困住、不越中線。continuous diaphragm sign 非 pneumopericardium 專屬（更常見於 pneumomediastinum），須加界線＋體位判讀。[^1][^3]
+- **張力性心包積氣—影像急症**：small heart sign（心影異常瘦小）提示 tension pneumopericardium 與瀕臨心包填塞，須緊急心包穿刺。[^2][^4]
+- **判讀陷阱**：勿僅憑 continuous diaphragm sign 就判 pneumopericardium；勿把 Mach band 假影或內側氣胸（頂緣可越過大血管、不受心包反折侷限）誤當心包氣；下縱膈處兩者表現可相似，必要時以 CT 或體位片佐證。[^1][^3]
+- **速記對照**：deep sulcus sign＝仰臥氣胸；bulging fissure sign＝Klebsiella 肺炎；Luftsichel sign＝LUL 塌陷。[^5]
+
 ### 參考來源
 [^1]: 文獻（RadioGraphics 發表之 case review／literature review，PMC 開放全文，accessed 2026-06-29）：*Continuous left hemidiaphragm sign revisited: a case of spontaneous pneumopericardium and literature review*. PMC1767382。原文：「its apical limit lies at the level of the pulmonary artery and ascending aorta, reflecting the anatomical limits of the pericardium」「Air outlining the aortic arch, the superior vena cava above the azygos vein, or the distal left pulmonary artery must be outside the pericardium」「In lateral decubitus radiographs, gas in the pericardial (and pleural) space shifts to the non-dependent side, whereas intramediastinal air is trapped within the soft tissue and does not cross to the contralateral side」「continuous left hemidiaphragm sign」。
 [^2]: 教科書／回顧層級：pneumopericardium 影像表現——氣體完整環繞心臟形成放射透亮 halo;新生兒多為正壓通氣併發症（肺泡壁破裂→沿支氣管周圍剝離至心包反折)。Radiopaedia *Pneumopericardium*（輔助佐證，accessed 2026-06-29）。

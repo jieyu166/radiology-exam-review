@@ -25,6 +25,20 @@ dateRev: 2026-06-30
 - **病理標誌（hallmark）**：Paget disease 的病理特徵為**異常的骨吸收與骨再形成（abnormal bone resorption and apposition）**——破骨與成骨活性皆增加但失序，形成結構紊亂、脆弱的織狀骨(woven bone)。故非單純「骨吸收增加」或「大量新骨/代償形成優質骨」，而是**兩者並存且異常**。[^5]
 - **好發部位（most common locations）**：Paget disease 好發於**中軸骨與骨盆——腰薦椎(lumbosacral spine)、骨盆、股骨、顱骨**為最常受累部位;**手部小骨、肩部、肋骨相對少見**。故「腰薦椎(lumbosacral spine)」為好發部位。[^5]
 
+## 放射科醫師影像判讀重點
+- **X 光分期判讀**：先定位病灶處於**溶骨期(osteoporosis circumscripta,顱骨局部透亮／長骨 blade-of-grass 火焰狀溶骨前緣)、混合期，抑或硬化期(cotton-wool 顱骨)**——分期決定續發性肉瘤變之風險評估與追蹤重點。[^1]
+- **顱骨判讀分水嶺**：cotton-wool（棉絮狀混合硬化溶骨）與 osteoporosis circumscripta（早期界清透亮）皆屬 Paget；勿與 hole-within-hole（雙重輪廓／bevelled edge，內板受累大於外板）混淆——後者為顱骨嗜伊紅性肉芽腫(EG)特徵，非 Paget。[^1][^2]
+- **脊椎判讀陷阱**：ivory vertebra（瀰漫均勻硬化椎體）見於 Paget，但**非特異**，須併列鑑別淋巴瘤、轉移性攝護腺癌等硬化性病灶。[^1]
+- **CT／MR 侵犯評估（petrous apex）**：Paget 侵犯顳骨岩部時好發**顱蓋、顱底、顳骨**（非顏面骨），可多骨性或單骨性，MR 上 T1/T2 訊號不均伴不均勻強化——判讀時勿誤為腫瘤。[^3]
+- **惡性變 red flag**：中老年 Paget 病灶出現**新發溶骨破壞、軟組織腫塊或骨皮質破壞**時，須警覺續發性骨肉瘤（Paget 肉瘤變），預後較原發性骨肉瘤差。[^4]
+
+## 臨床重點（5 句）
+- Paget disease 之病理標誌為**異常的骨吸收與骨再形成並存且失序**，形成結構紊亂脆弱的織狀骨(woven bone)。[^5]
+- 好發於**中老年人**，以中軸骨（腰薦椎、骨盆、股骨、顱骨）為主。[^5]
+- 續發性骨肉瘤（肉瘤變）為最嚴重併發症，好發中老年、預後差，並非僅見於放療後。[^4]
+- 血清鹼性磷酸酶(ALP)常升高，反映骨轉換活性增加（生化監測依據）。[^5]
+- 多數病灶無症狀，症狀者可見骨痛、骨變形或病理性骨折。[^5]
+
 > [!note] 考點：下列何種徵象「不」與 Paget disease 相關?
 > **Hole-within-hole appearance in long bones（B）**——此為顱骨嗜伊紅性肉芽腫（EG）的特徵，非 Paget disease。Blade-of-grass（長骨）、cotton-wool（顱骨）、osteoporosis circumscripta（顱骨）、ivory vertebra（脊椎）皆為 Paget disease 相關徵象。[^1][^2]
 

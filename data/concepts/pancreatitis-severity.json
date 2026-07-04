@@ -17,7 +17,7 @@
       "url": "https://doi.org/10.1148/rg.2016150097（章節級，accessed"
     }
   ],
-  "imagingFindings": "",
+  "imagingFindings": "- **CECT（判讀主力）**：先判有無壞死——胰實質正常均質強化＝間質水腫型；出現**強化減低/缺失區**＝壞死型;壞死型再看胰周有無異質非液性成分。壞死判讀影響後續 collection 命名（ANC/WON vs APFC/pseudocyst）。\n- **時機陷阱（考點核心）**：微循環壞死需數天演變，**症狀 <72h 的 CECT 會低估壞死範圍**，最佳評估在 72h 或 5–7 天;勿據早期正常 CT 排除壞死型。\n- **四型 collection 逐項對照（Revised Atlanta）**：APFC（<4週、均質、無壁）→pseudocyst（>4週、均質、成熟壁、無實質）;ANC（<4週、異質、含非液性、壁不清）→**WON（>4週、異質液性＋非液性、成熟壁）**。判 collection 一律先問「有無壞死×是否>4週」。\n- **MRI/EUS 補強**：見「有壁圓形低密度 collection」時，MRI（尤其 T2/DWI）與 EUS 較 CT 易辨內含非液性壞死碎屑，避免把 WON 誤讀為 pseudocyst 而影響引流策略。\n- **CTSI vs modified CTSI（計分陷阱）**：原始 CTSI＝**Balthazar 分級(A–E)＋壞死%**（總分/10），**pleural effusion 不在其中**;胸水、腹水、血管/實質併發症、GI 侵犯屬 **modified CTSI 的 extrapancreatic complications(2 分)**。\n- **感染性壞死徵象**：collection 內**氣泡(gas bubbles)**為高特異徵象（須排除近期穿刺/手術/瘻管相通）;另見壁增厚強化、DWI 周邊高訊號;確診靠 needle aspiration 培養。\n- **血管併發症判讀**：CECT/CTA 見**與動脈相連、隨主動脈同步強化的囊狀結構**＝假性動脈瘤（最常脾動脈）;脾靜脈栓塞可致 left-sided portal hypertension;active extravasation＝出血。CTA 偵測動脈併發症敏感度/特異度約 94%/90%，DSA 為金標準兼治療。\n- **DDx**：WON 與囊性胰腫瘤（mucinous cystic neoplasm、IPMN）——後者無急性胰臟炎病史、有分隔/壁結節，臨床病程與影像演變可區分。",
   "keyPoints": [
     "**兩種型態（依有無壞死分）**：",
     "**間質水腫型（interstitial oedematous）**：佔 80–90%，CECT 上胰臟**均質強化**、瀰漫或局部腫大，無壞死。",
@@ -51,7 +51,7 @@
     "**collection 內氣體≠一定感染**：需排除近期穿刺/手術、與腸道相通之瘻管。",
     "**DDx**：WON 與囊性胰腫瘤（如 mucinous cystic neoplasm、IPMN）——後者通常無急性胰臟炎病史、有分隔/壁結節，臨床病程與影像演變可區分。"
   ],
-  "management": "",
+  "management": "- 臨床嚴重度依器官衰竭分三級：輕度（無器官衰竭、無併發症）／中重度（暫時性器官衰竭 <48h 或局部併發症）／重度（持續性器官衰竭 >48h）。\n- 病程分早期（約第 1 週、由 SIRS/器官衰竭主導嚴重度）與晚期（>1 週、由持續症狀與局部/全身併發症主導）。\n- 常見成因為膽結石、酗酒、代謝異常與特發性;輕症不需常規早期 CT，持續腹痛、酵素居高、器官衰竭或敗血徵象才是補影像的觸發。\n- 感染性壞死之確診須 needle aspiration 培養，並非單憑影像;影像上的氣泡僅為高度懷疑線索。\n- 血管併發症以脾動脈假性動脈瘤與脾靜脈栓塞為代表，前者可破裂致命，DSA 兼具診斷與栓塞治療角色。\n\n> [!note] 考點\n> 壞死性 collection >4 週包覆＝**WON**（非 pseudocyst）。**原始 CTSI＝Balthazar＋壞死%**,**pleural effusion 不在其中**（屬 modified CTSI 的 extrapancreatic complications）。\n\n**參考來源**\n: *Acute pancreatitis*. Radiopaedia.org（輔助，accessed 2026-06-17）：Revised Atlanta——APFC（<4週）→pseudocyst（>4週，無壞死）;**ANC（<4週）→WON（>4週，含壞死）**。\n: *CT severity index in acute pancreatitis*. Radiopaedia.org（輔助，accessed 2026-06-17）：CTSI＝**Balthazar 分級(A–E) ＋ 壞死%**（總分 /10）;modified CTSI（2004）才加 extrapancreatic complications（含 pleural effusion）。\n: Thoeni RF 等 / Shyu JY 等．*2012 Atlanta Classification of Acute Pancreatitis: imaging definitions*．**Gastroenterology Report (Oxf)** 2015，DOI:10.1093/gastro/gov036（PMC4760067 開放全文，accessed 2026-06-29）：間質水腫型 80–90% 均質強化、壞死型 5–10%（聯合壞死最常見）;APFC/pseudocyst（均質、無壞死）vs ANC/WON（異質、含非液性密度）之 CT 準則與壁/時機;早期 CT 低估壞死、最佳 72h 或 5–7 天;氣泡為感染高特異徵象。\n: *Revised Atlanta Classification for Acute Pancreatitis: A Pictorial Essay*．**RadioGraphics** 2016;36(3):675–687，DOI:10.1148/rg.2016150097（章節級，accessed 2026-06-29）：早/晚期分期、臨床嚴重度三級、四型 collection 與 pseudocyst vs WON 內容物鑑別、靜脈栓塞與 DDx。\n: Mortelé KJ 等（modified CTSI）;經 Mathai 等．**Cureus** 2024 復現之 mCTSI 計分表（PMC11015064 開放全文，accessed 2026-06-29）：胰發炎 0/2/4＋壞死 0/2/4＋**extrapancreatic complications 2（胸水、腹水、血管、實質、GI 任一）**＝/10;輕 0–2／中 4–6／重 7–10。\n: 急性胰臟炎血管併發症（**脾動脈/GDA 假性動脈瘤、脾/門靜脈栓塞、出血**）影像特徵與 CTA 敏感度/特異度 ~94%/90%、DSA 為金標準兼治療——綜整自 KJR 2012;13(S1):S45（*Vascular Complications of Pancreatitis: Role of Interventional Therapy*，開放全文）與 PMC 個案系列（accessed 2026-06-29）。",
   "name": "Acute Pancreatitis — Revised Atlanta & CTSI",
   "nameZh": "急性胰臟炎分類",
   "slug": "pancreatitis-severity",

@@ -3,7 +3,7 @@
   "definition": "**胰臟最常見囊性病灶是 pseudocyst（無血管化軟組織成分）;serous cystadenoma 為『良性』（微囊／中央星狀疤痕±鈣化）多觀察不需切除;mucinous cystic neoplasm 與 IPMN 才具惡性潛能;MRI/MRCP 描述 IPMN 與主胰管關係優於 CT。** 判讀分水嶺：**pseudocyst＝有胰臟炎史、無強化壁結節;serous＝良性微囊蜂巢、中央疤痕,觀察;mucinous（MCN，中年女性胰尾）＋IPMN（與胰管相通）＝癌前/惡性,需評估手術;有強化壁結節/主胰管擴張＝高危。**",
   "differentialDiagnosis": [],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "- **CT/MRI 分辨囊型的第一步是數囊室大小與看中央疤痕**：serous cystadenoma 為多發<2cm 小囊組成的微囊（microcystic）蜂巢，約 30% 有中央星狀纖維疤痕±日照狀鈣化，此組合幾乎可診斷良性;mucinous 則為單/寡房、囊室較大（>2cm）、周邊鈣化（eggshell）。\n- **強化壁結節與實質成分是判讀分水嶺**：囊內若見「vascularized soft tissue component（強化壁結節/實質）」即偏惡性,pseudocyst 依定義無此成分;此為 2017-194 與 2016-274 的辨識核心。\n- **與主胰管的關係決定 IPMN 診斷與惡性風險**：IPMN 與胰管相通,MRCP/MRI 顯示囊—胰管交通及主胰管擴張優於 CT;主胰管型（main-duct）或混合型伴主胰管>5–10mm、壁結節者惡性風險高,分支型（BD-IPMN）多位於胰頭/鉤突且風險較低。\n- **部位＋性別＋年齡輔助定位**：mucinous cystic neoplasm 好發中年女性胰體尾;IPMN 好發胰頭與鉤突;serous cystadenoma 老年女性、可全胰;此為 2018-435 的鑑別依據。\n- **判讀陷阱**：① oligocystic/macrocystic serous cystadenoma 可擬態 mucinous,須找中央疤痕/鈣化與壁結節鑑別;② 神經內分泌腫瘤或胰管腺癌可表現中央囊變,勿一律歸為良性囊瘤;③ 有胰臟炎史者優先考慮 pseudocyst,但無史之囊性病灶不可貿然當 pseudocyst 追蹤。",
   "keyPoints": [
     "**最常見胰臟囊性病灶＝pseudocyst**;**內無 vascularized soft tissue component（無強化壁結節/實質）**。",
     "**Serous cystadenoma（漿液性）**：**良性**,微囊（microcystic）蜂巢狀±中央星狀疤痕/鈣化;**多觀察、不需馬上切除**（切除後不復發）。",
@@ -13,7 +13,7 @@
     "**IPMN**：與**胰管相通**;主胰管型惡性風險高;**MRI/MRCP 描述 IPMN 與胰管關係優於 CT**。",
     "**高危徵象**：強化壁結節、主胰管擴張（>5-10 mm）、實質成分 → 偏惡性。"
   ],
-  "management": "",
+  "management": "- serous cystadenoma 為良性、極少惡性化,無症狀者多以影像追蹤觀察、不需馬上手術。\n- mucinous cystic neoplasm 與主胰管型 IPMN 具惡性潛能,常需評估手術切除。\n- IPMN 好發於年長者,主胰管型與混合型的高惡性風險使其成為手術評估重點。\n- 「高危徵象」（強化壁結節、主胰管明顯擴張、實質成分）出現時應轉外科/多科評估,而非單純追蹤。\n- pseudocyst 與胰臟炎病史相關,臨床須結合病史與澱粉酶/脂肪酶等資料判讀,避免與腫瘤性囊瘤混淆。\n\n**參考來源**\n: 官方 2017 詳解；Sahani DV et al. MR Imaging of Cystic Lesions of the Pancreas. RadioGraphics 2009;29(6):1749-1765：最常見囊性病灶為 pseudocyst（無血管化軟組織）;serous cystadenoma 良性多觀察;MRI/MRCP 評估 IPMN 與胰管關係優於 CT;mucinous/IPMN 具惡性潛能。\n: 2019 交換考詳解；AJR 2013;200:343-54：IPMN好發胰頭與鉤突；mucinous cystadenoma好發胰尾、女性優勢（非男性）；serous cystadenoma典型為微囊病灶合併中央纖維疤痕與鈣化；神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變。\n: 官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.691-692（題目所引）；交叉查證：*Serous Cystadenoma: A Review on Diagnosis and Management*, J Clin Med 2023;12(23):7306（PMC10707442，實際查證2026-07-01）——serous cystadenoma 佔所有胰臟囊性病灶約16%，為最常見良性胰臟囊性腫瘤；pseudocyst 佔約30%為最常見胰臟囊性病灶整體（非腫瘤）。",
   "name": "Pancreatic Cystic Lesions",
   "nameZh": "胰臟囊性病灶",
   "slug": "pancreatic-cystic-lesions",

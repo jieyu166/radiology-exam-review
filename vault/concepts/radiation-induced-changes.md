@@ -31,6 +31,20 @@ dateRev: 2026-06-20
 > [!note] 考點：放射性壞死 vs 腫瘤復發
 > **壞死/pseudoprogression：rCBV『低』、choline『不升』、ADC 偏高、強化呈 soap-bubble/Swiss cheese**;**腫瘤復發：rCBV『高』、choline『升』**。常輔以 amino-acid/FDG PET 與時序追蹤。[^3][^5][^6]
 
+## 放射科醫師影像判讀重點
+- **判讀三支柱：治療後經過多久＋標的病灶位置＋放療野含入多少正常結構**——以此區分「預期的 post-RT 變化」與「腫瘤復發」;acute/early-delayed 多可逆,late（>90 天）多不可逆。[^1][^6]
+- **放射性壞死 vs 腫瘤復發（考點分水嶺）**：壞死 rCBV『低』、choline『不升』、ADC 偏高、強化呈 soap-bubble/cut green pepper/Swiss cheese;復發 rCBV『高』、choline『升』;MRS 純壞死 choline/creatine/NAA 皆低＋lipid/lactate 升。[^3][^5]
+- **late 白質變化的定位線索**：treatment-induced leukoencephalopathy 呈腦室周圍/深部白質對稱融合之 T2/FLAIR 高訊號,而 subcortical U-fibers 與 corpus callosum 通常不受累,可與其他白質病變鑑別。[^1]
+- **pseudoprogression 的時間窗**：多見於 GBM 同步放化療（Stupp protocol）後數週–3 個月,呈暫時性強化/水腫且會自行消退,勿誤判為真進展而過早改治療。[^1][^2]
+- **判讀陷阱**：① 常規對比影像單一時間點難以區分壞死與復發,須加 perfusion/MRS/胺基酸或 FDG PET 並做時序追蹤;② SWI 可見壞死區多發點狀出血,勿誤為腫瘤出血;③ 留意 late 血管病變（mineralizing microangiopathy、海綿狀血管畸形、SMART syndrome）與放療誘發次發腫瘤（meningioma/glioma）。[^3][^5][^6]
+
+## 臨床重點（5 句）
+- acute 期（數天–數週）症狀如疲倦、噁心嘔吐、腦水腫,多為自限。[^1]
+- 風險因子包含照射體積大、單次劑量高、總劑量高、同步化療（尤其 methotrexate）。[^1]
+- 放射性壞死多在放療後數月–數年出現,發生率約 3–26%,依劑量、同步治療、再照射與累積暴露而異。[^3][^4]
+- 認知功能障礙常見於 whole-brain RT,hippocampal-sparing 技術可減輕。[^1]
+- pseudoprogression 為暫時性且會自行改善,臨床須避免因此過早判定治療失敗或更換方案。[^1][^2]
+
 ### 參考來源
 [^1]: *Cranial radiation therapy (complications)*. Radiopaedia.org（實際查證 accessed 2026-06-20）：acute/early-delayed/late 三期分類與症狀;late leukoencephalopathy（U-fibers 與 corpus callosum 多不受累）、認知障礙、hippocampal-sparing。
 [^2]: Brandes AA, Tosoni A, Spagnolli F, et al. *Disease Progression or Pseudoprogression After Concomitant Radiochemotherapy Treatment: Pitfalls in Neuro-oncology*. Neuro Oncol. 2008;10(3):361-367. doi:10.1215/15228517-2008-008（pseudoprogression）。

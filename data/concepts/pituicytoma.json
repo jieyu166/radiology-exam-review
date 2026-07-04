@@ -11,14 +11,14 @@
     "**Spindle cell oncocytoma**（TTF-1＋ 後垂體腫瘤）"
   ],
   "externalLinks": [],
-  "imagingFindings": "",
+  "imagingFindings": "**MRI 訊號與強化**\n- **T1**：等訊號至略低訊號（相對灰質）。\n- **T2**：等訊號至高訊號（約 79% 案例呈此型）。\n- **強化**：**強烈且均勻強化**（約 74% 均勻強化），反映發育良好的微血管網。\n- **動態增強（DCE-MRI）**：**早期快速強化**——因血供來自 inferior hypophyseal artery（動脈供血），達峰時間早於腺垂體；此「比腺垂體更早強化」是術前與 pituitary adenoma 鑑別的有用線索。\n- **後葉亮點**：正常後垂體 T1 高訊號「bright spot」常消失（與後垂體被腫瘤取代相符）。\n- **形態**：圓/卵圓、邊界清楚的實性腫塊；囊變罕見（約 2%）。\n\n**臨床-影像連動（術前判讀的重點）**\n- **富血管／術中易出血**：組織學雖良性，但**血管極豐富**，經蝶竇手術切除時易大量出血、難全切；影像上若見強烈均勻強化的實性鞍區腫塊應於報告提醒此風險。",
   "keyPoints": [
     "**起源**：**神經垂體（neurohypophysis）與漏斗部的 pituicytes**;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」**錯誤**＝題目正解（2016-187 正解 A,起源錯）。",
     "**WHO grade 1**、生長緩慢、indolent(option B 對)。",
     "**位置**：鞍內或鞍上(option C 對);典型為**邊界清楚的實性腫塊**，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。",
     "**免疫**：**S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定**(option D 對);TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。"
   ],
-  "management": "",
+  "management": "- 罕見腫瘤，好發**成年人**（多見於中年），無明顯性別偏好。\n- 起源於**神經垂體／漏斗部的 pituicytes**，屬 **WHO grade 1**、生長緩慢、indolent。\n- 臨床多以**腫塊壓迫症狀**表現：視力／視野缺損、頭痛與垂體功能低下（hypopituitarism）；亦可致高泌乳素血症（漏斗柄效應）。\n- 組織學雖良性，但**血管極豐富**，經蝶竇手術切除時易大量出血、難以全切，是術前須向臨床提醒的重點。\n- 治療以**手術切除**為主，完整切除後預後良好；因免疫特徵（TTF-1／S-100／vimentin 陽性）與影像非特異，最終仍多賴**病理**確診。\n\n**參考來源**\n: *Pituicytoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「only found in the **neurohypophysis and infundibulum**」;**WHO grade 1**、indolent;鞍/鞍上;免疫 **S100/vimentin/TTF1 陽性、EMA 不定**。〔開放存取〕\n: Gibbs WN, et al. *Neuroimaging Features of Pituicytomas*. PMC4976578（accessed 2026-06-28）：T1/T2 等訊號於灰質、DCE「rapid and initial strong enhancement」達峰於第 2–3 期（早於腺垂體第 4 期）、後葉 bright spot 消失、卵圓邊界清楚均勻強化。〔PMC 開放全文〕\n: *Histopathological Types, Clinical Presentation, Imaging Studies, Treatment Strategies, and Prognosis of Posterior Pituitary Tumors: An Updated Review*. J Clin Med 2025;14:4553 / PMC12250221（accessed 2026-06-28）：pituicytoma T1 等、T2 等-略高（~79%）、均勻強化（~74%）；GCT 強化不均、star-like crack；SCO 多發毫米級 T2 低訊號＋線狀 T1 流空；四亞型皆 TTF-1＋、2025 WHO 低惡性度。〔PMC 開放全文〕\n: *Pituicytoma with Significant Tumor Vascularity Mimicking Pituitary Macroadenoma*. PMC5700023（accessed 2026-06-28）：組織學良性但術中富血管、切除困難、易出血。〔PMC 開放全文〕\n: *Neoplasms and tumor-like lesions of the sellar region: imaging findings with correlation to pathology and 2021 WHO classification*. PMC10033642（accessed 2026-06-28）：pituicytoma 為 WHO grade 1、T1 等-低／T2 等-高、avid homogeneous enhancement、DCE 早期快速強化、TTF-1＋（與 schwannoma 區別）；macroadenoma 與腺體分界不清、強化不均；craniopharyngioma 囊實混合＋鈣化；meningioma dural tail、T2 偏低。〔PMC 開放全文〕",
   "name": "Pituicytoma",
   "nameZh": "垂體細胞瘤",
   "slug": "pituicytoma",

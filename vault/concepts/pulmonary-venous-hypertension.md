@@ -24,6 +24,16 @@ dateRev: 2026-06-29
 
 > [!note] 各期 PCWP 為近似值，文獻略有出入（如 stage 2 起點有人用 18、有人用 20 mmHg），數字僅供臨床對應參考。[^2][^3]
 
+## 放射科醫師影像判讀重點
+- **分期主軸（壓力爬升時間軸）**：Stage I 血流重分布 → II 間質水腫 → III 肺泡水腫 → IV 慢性變化，逐級對應 PCWP 上升，判讀先定位病人落在哪一期。[^1][^2]
+- **Stage I（核心考點）**：**cephalization（上肺葉靜脈管徑≥下肺葉）＋loss of hilar angle**，此時尚無水腫——考題最愛考「hilar angle 消失」屬第一期。[^1][^2]
+- **Stage II（間質）判讀**：**Kerley A／B lines、peribronchial cuffing、肺門／血管模糊、葉間裂／肋膜下增厚**；Kerley B ＝<2 mm、周邊、與肋膜面垂直短線。[^2][^3]
+- **Stage III（肺泡）判讀**：**蝙蝠翼／蝴蝶狀中央分布 consolidation／GGO**。[^2][^3]
+- **Stage IV（慢性）判讀**：**含鐵血黃素沉積＋肺骨化結節**，屬慢性二尖瓣狹窄終末變化，非急性水腫時間軸。[^1]
+- **CT 徵象**：**平滑的小葉間隔增厚**＋支氣管血管束增厚、中央／肺門周圍 GGO（可進展為 consolidation）、重力依賴梯度分布＋（雙側）肋膜積液。[^1][^2][^3]
+- **心因性 vs 非心因性（ARDS）鑑別**：心因性＝心臟擴大、中央對稱分布、Kerley 平滑增厚、常見雙側積液（右側偏多）、air bronchogram 較少；ARDS＝心臟多正常、重力梯度周邊 consolidation、積液常缺如、air bronchogram 較常見。**peribronchial cuffing 兩者皆可見、不具鑑別力**。[^1][^2][^3]
+- **客觀量化線索**：CT ratio >0.5 為心臟擴大；**VPW >70 mm 合併 CT ratio >0.55 → PCWP >18 mmHg 機率 >3 倍**，是區辨容積過載最有用的客觀組合。[^2][^4]
+
 ### CXR 判讀重點徵象
 - **Cephalization 定義**：上肺葉靜脈管徑 **等於或大於**下肺葉靜脈（正常立位時下肺血管較粗），即血流重分布。[^2]
 - **Peribronchial cuffing**：中央較大支氣管的管壁增厚最易見，為間質水腫表現。[^2]
