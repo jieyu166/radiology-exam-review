@@ -22,4 +22,4 @@
 ## 5. 本機驗證與上線
 
 - [x] 5.1 以 preview server 啟動網站，實測概念清單載入、隨機點開 5 個不同次專科概念的完整渲染、懶載入與快取行為。驗證：Network 面板與畫面確認 design 驗收準則①②③（清單來自索引、詳情單次懶載入、重開無重抓）。
-- [ ] 5.2 逐檔 git add（scripts/build_concepts.py、js/data-loader.js、js/concept-cards.js、data/concepts-index.json、data/concepts/）→ commit → push，待 GitHub Pages 部署後於正式站確認概念完整上站。驗證：正式站概念頁顯示判讀重點/DDx/來源/臨床、部署 run 綠燈。
+- [x] 5.2 逐檔 git add（scripts/build_concepts.py、js/data-loader.js、js/concept-cards.js、data/concepts-index.json、data/concepts/）→ commit → push，待 GitHub Pages 部署後於正式站確認概念完整上站。驗證：正式站概念頁顯示判讀重點/DDx/來源/臨床、部署 run 綠燈。
