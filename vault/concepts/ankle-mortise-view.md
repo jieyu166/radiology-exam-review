@@ -19,12 +19,27 @@ dateRev: 2026-07-03
 - **標準AP view的限制**：距骨(talus)會**遮蔽部分外髁**，導致外側關節間隙不易評估。[^1]
 - **45度oblique view**：進一步旋轉可更清楚顯示外髁及遠端腓骨形態。[^1]
 
+## 放射科醫師影像判讀重點
+- **三視角互補（Okanobo）**：**AP、mortise、lateral 三張踝 X 光為以 Lauge-Hansen 分類骨折之必要組合**——mortise 專責評估踝榫（mortise）之對稱性。[^3]
+- **mortise 量測（考點核心）**：**內轉 15-20° 使兩髁等高後，均勻的 medial/superior/lateral clear space（約 ≤4 mm、彼此對稱）代表 talus 於榫內正常對位**；medial clear space 增寬（>4 mm 或 > superior space）提示 deltoid 斷裂/外側移位。[^1][^3]
+- **AP 之限制**：標準 AP（0°）距骨部分遮蔽外髁與 tibiofibular overlap，外側/後側關節間隙不易評估——故 mortise 才能同時看內外側間隙。[^1]
+- **tibiofibular 關係**：mortise 上 **tibiofibular clear space 與 overlap** 用於判斷 syndesmosis（下脛腓聯合）損傷。[^3]
+- **機轉導向（Okanobo）**：**踝損傷依受傷時足位＋變形力方向呈可預測序列**（SER 最常見）；影像徵象應回推機轉以免漏骨折/韌帶損傷。[^3]
+
+## 臨床重點（5 句）
+1. **用途**：mortise view 為評估踝**骨折/脫位、osteochondral injury、關節炎關節間隙**之關鍵視角。[^2]
+2. **機轉分類（Okanobo）**：**Lauge-Hansen 依足位（旋前/旋後）＋力方向分型（SER/SAD/PER/PAB）指導治療**。[^3]
+3. **穩定度判讀**：mortise 對稱＝穩定；medial clear space 增寬或雙踝/三踝骨折＝不穩定、常需手術。[^3]
+4. **臨床決策（Ottawa）**：Ottawa ankle rules 決定是否照 X 光；懷疑 Maisonneuve 時須加照全長腓骨。[^3]
+5. **後續影像**：複雜關節內/後踝骨折、syndesmosis 損傷評估常需 CT；韌帶/軟骨損傷評估用 MRI。[^3]
+
 > [!note] 考點：關於踝關節Mortise view，何者「為真」?
 > **C（同時顯示內外側關節間隙）為真**。Mortise view是15-20度**內轉**（非90度）之oblique攝影，非單純AP view；標準AP view因距骨遮蔽外髁而看不清外側間隙（非「遮蔽外側關節」，為原選項D之細節錯誤處，D敘述屬AP view而非Mortise view的特性）。[^1]
 
 ### 參考來源
 [^1]: 官方 2017 詳解附圖：AP/15-20度oblique(Mortise)/45度oblique三種踝關節攝影角度比較圖，Mortise view為足部內轉15-20度使內外髁等高、可同時顯示內外側關節間隙;標準AP view距骨遮蔽部分外髁。
-[^2]: Bell D, et al. *Ankle (mortise view)*. Radiopaedia, rID-40730, DOI 10.53347/rID-40730——**踝三視角系列之一，最適評估 tibial plafond 與兩髁對 talar dome 之 mortise 關節**；技術為**下肢內轉 15°–20°，使 intermalleolar line 平行偵測器**；適應症含疑似骨折/脫位、osteochondral injury、骨關節炎——佐證角度與用途。
+[^2]: Bell D, et al. *Ankle (mortise view)*. Radiopaedia, rID-40730, DOI 10.53347/rID-40730（輔助來源）——**踝三視角系列之一，最適評估 tibial plafond 與兩髁對 talar dome 之 mortise 關節**；技術為**下肢內轉 15°–20°，使 intermalleolar line 平行偵測器**；適應症含疑似骨折/脫位、osteochondral injury、骨關節炎——佐證角度與用途。
+[^3]: **Tier 1** Okanobo H, Khurana B, Sheehan S, et al. *Simplified diagnostic algorithm for Lauge-Hansen classification of ankle injuries*. RadioGraphics 2012;32(2):E71-84（據 PubMed，DOI [10.1148/rg.322115017](https://doi.org/10.1148/rg.322115017)；Review；實際查證 accessed 2026-07-04）——**以 AP、mortise、lateral 三張踝 X 光及『受傷時足位＋變形力方向』兩準則，依 Lauge-Hansen 系統將踝損傷分型並指導治療**；踝損傷依機轉呈可預測之韌帶斷裂/骨折序列。佐證 mortise view 為三視角必要組合、榫關節對稱性判讀與機轉導向分類。原「官方/Radiopaedia」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- Which of the following is TRUE about ankle Mortise-view radiograph? (2017-296)

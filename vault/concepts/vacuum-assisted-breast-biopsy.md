@@ -35,7 +35,7 @@ nonImagingReason: "本質為真空輔助乳房切片的手術/介入技術主題
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Diagnostic Imaging: Breast (Berg et al. 2006) V-2-27~95：Liberman et al. 報告 VABB 完全移除微鈣化後,手術時仍約 **80%** 有殘餘癌。
-[^2]: 2019 交換考詳解；First international consensus conference on lesions of uncertain malignant potential in the breast (B3 lesions). Rageth CJ, et al. Breast Cancer Research and Treatment. 2016;159:203-213。
+[^2]: **Tier 1** Rageth CJ, O'Flynn EA, Comstock C, et al. *First International Consensus Conference on lesions of uncertain malignant potential in the breast (B3 lesions)*. Breast Cancer Res Treat 2016;159(2):203-13（據 PubMed，DOI [10.1007/s10549-016-3935-4](https://doi.org/10.1007/s10549-016-3935-4)；PMC5012144；Consensus；實際查證 accessed 2026-07-04）——B3 病灶（ADH、FEA、classical LN、papillary lesion、benign phyllodes、radial scar）處置共識：**FEA/LN/PL/RS 於 core/VAB 診斷後建議以治療性 VAB 切除影像可見病灶（不再逕行開刀）＋5 年追蹤影像；ADH 與 phyllodes 原則上仍首選開刀切除**；精選 B3 以治療性 VAB 取代第一線手術為可接受替代。佐證本卡 ADH 殘餘須開刀、classic LN 可追蹤、DCIS 須手術之 B3 處置邏輯。原「官方詳解」引用已由本次 Breast Cancer Res Treat DOI Tier 1 補全。
 [^3]: 2019 交換考詳解；Liberman L, Berg WA. In: Breast MRI. 2005. Chapter 15, p.238-255；Berg WA, Birdwell RL, et al. Diagnostic Imaging: Breast. Part V, section 2, V2-2~2-45. 2006。
 [^4]: Weerakkody Y, et al. *Stereotactic breast biopsy*. Radiopaedia, rID-15231, DOI 10.53347/rID-15231——**以乳攝導引經皮取樣，為病灶最佳見於乳攝時之首選切片法（微鈣化最常見、亦含 architectural distortion／無超音波對應之 asymmetry/mass）、用於 BI-RADS 4/5**；設備含 vacuum-assisted core needle、俯臥或坐姿——佐證 VAB 針對乳攝鈣化之立體定位切片。
 
