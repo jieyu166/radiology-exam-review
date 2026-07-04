@@ -21,11 +21,26 @@ dateRev: 2026-06-17
 - **擴散**：與化膿性膿瘍「均勻高 DWI」不同,麴菌**擴散受限常『異質』、可呈周邊/環狀（ring-like、peripheral）**(option B、C 對)。[^1]
 - **血管侵犯**：可致**腦梗塞、黴菌性動脈瘤、出血**。[^1]
 
+## 放射科醫師影像判讀重點
+- **CNS 真菌共通徵（Starkey）**：**CNS 真菌感染共有『異質或環狀擴散受限＋弱環狀強化（weak ring enhancement）』**——免疫低下宿主強化弱，故「強烈均勻環狀強化」反而不像真菌、較像化膿性膿瘍（考點）。[^1][^3]
+- **angioinvasive aspergillosis 特徵（Starkey）**：**多灶性出血性病灶＋擴散受限**——親血管致出血與梗塞為其標誌；周邊 T2 低訊號（出血/菌絲），SWI/GRE blooming 最明顯。[^1][^3]
+- **DWI 型態對比**：麴菌擴散受限常**異質/周邊環狀（ring-like）**，異於化膿性膿瘍之均勻中央高 DWI。[^1]
+- **CNS 真菌鑑別（Starkey）**：**mucor＝額葉、擴散顯著受限；cryptococcus＝基底節膠狀假囊；candida＝皮髓交界/基底節/小腦 <3 mm 微膿瘍；coccidioides＝基底池腦膜強化**——依部位/型態縮小 DDx。[^3]
+- **血管併發**：侵血管→腦梗塞、黴菌性動脈瘤（可破裂出血）、靜脈竇栓塞；MRA/血管追蹤有助。[^1][^3]
+
+## 臨床重點（5 句）
+1. **宿主（Starkey）**：**任何原因之免疫低下（嗜中性球低下、移植、長期高劑量類固醇、AIDS）與居住流行區**為風險因子。[^1][^3]
+2. **感染途徑（Starkey）**：**血行播散、腦脊髓液散播或由鼻竇/眼眶直接蔓延**（鼻腦型麴菌）。[^3]
+3. **臨床急症（Starkey）**：CNS 真菌感染若未及時積極治療多**快速致命**；影像早期辨識攸關存活。[^3]
+4. **原發灶**：多由肺部 angioinvasive aspergillosis（halo/air-crescent sign）血行播散至腦，須同步評估胸部。[^1]
+5. **治療**：全身抗黴菌（voriconazole 為 CNS 麴菌首選）＋恢復免疫±手術清除；黴菌性動脈瘤破裂風險需監測。[^3]
+
 > [!note] 考點：免疫低下患者腦部 angioinvasive aspergillosis,何者「為假」?
 > 「multiple nodules with **strong ring enhancement**」為假——免疫低下宿主**強化微弱/不規則**。周邊 T2 低訊號、異質/周邊 ring-like DWI 受限皆對。[^1]
 
 ### 參考來源
 [^1]: *CNS aspergillosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發免疫低下;**aspergillus 膿瘍周邊 T2 低訊號（出血,GRE/SWI 佳）**;與「classic ring-enhancing、均勻高 DWI」的化膿性膿瘍不同（麴菌強化弱、DWI 異質/周邊）;血管侵犯致梗塞/黴菌性動脈瘤。
+[^3]: **Tier 1** Starkey J, Moritani T, Kirby P. *MRI of CNS fungal infections: review of aspergillosis to histoplasmosis and everything in between*. Clin Neuroradiol 2014;24(3):217-30（據 PubMed，DOI [10.1007/s00062-014-0305-7](https://doi.org/10.1007/s00062-014-0305-7)；Review；實際查證 accessed 2026-07-04）——CNS 真菌感染譜之 MRI 共通徵＝**異質或環狀擴散受限＋弱環狀強化**；**angioinvasive aspergillosis＝多灶性出血性病灶伴擴散受限**；mucor＝額葉顯著擴散受限、cryptococcus＝基底節膠狀假囊、candida＝<3 mm 微膿瘍、coccidioides＝基底池腦膜強化；感染經血行/CSF/直接蔓延，及早辨識可爭取積極治療。佐證麴菌弱強化（非強環狀）、出血性擴散受限與 CNS 真菌鑑別。原「Radiopaedia」弱來源已由本次 Clin Neuroradiol DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview

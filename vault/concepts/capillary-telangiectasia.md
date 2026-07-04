@@ -21,11 +21,26 @@ same:
 - **多無症狀、偶見**(option C 對)。[^1]
 - **影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。[^1]
 
+## 放射科醫師影像判讀重點
+- **兩大典型徵（Gelal）**：**post-contrast T1 之淡強化＋GRE/SWI 之訊號流失（signal loss）**為診斷雙徵——常規 T1/T2 多不顯，須靠增強＋磁敏感序列。[^3]
+- **SWI 優於 GRE（Gelal，考點）**：**SWI 顯示磁敏感致訊號減低優於 GRE T2**——懷疑腦橋病灶時 SWI 最敏感。[^3]
+- **DWI/DTI 無助（Gelal）**：**擴散加權/張量影像對診斷無幫助**——與腦膿瘍/腫瘤（DWI 有異）不同，可作陰性佐證。[^3]
+- **vs cavernoma（核心鑑別）**：**capillary telangiectasia＝擴張微血管間夾正常腦實質；cavernoma＝血管間無腦實質（爆米花狀＋完整含鐵血黃素環）**——「無間質腦組織」是 cavernoma 而非本病。[^1]
+- **好發與合併**：**約 80% 位於腦橋**；可與 developmental venous anomaly（DVA）及 cavernoma 並存（同屬低流量血管病變譜）。[^1][^3]
+
+## 臨床重點（5 句）
+1. **本質（Gelal）**：**偶然發現之低流量血管畸形、多無臨床意義**，通常無需治療或追蹤。[^3]
+2. **好發**：**腦橋最常見（~80%）**，亦見中腦、基底節、皮質。[^1]
+3. **臨床**：絕大多數無症狀，罕有出血（低流量、低壓），與 AVM/cavernoma 之出血風險不同。[^1][^3]
+4. **血管攝影（Gelal）**：**血管攝影多為陰性（angiographically silent）**——屬 angiographically occult vascular malformation。[^3]
+5. **鑑別需求（Garner/Gelal）**：多數靠特徵影像即可可靠診斷，偶需與腫瘤或發炎過程區分（尤其大型病灶）。[^3]
+
 > [!note] 考點：capillary telangiectasia 何者「錯」?
 > 「dilated capillaries **without** intervening brain parenchyma」錯——其**間夾正常腦實質**（無間質腦組織者是 cavernoma）。好發橋腦、無症狀、點狀淡強化皆對。[^1]
 
 ### 參考來源
 [^1]: *CNS capillary telangiectasia*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發 **pons（80%）**;擴張微血管「**interspersed with normal brain parenchyma**」;多無症狀偶見;對比後 stippled enhancement、SWI 低訊號。
+[^3]: **Tier 1** Gelal F, Karakaş L, Sarsılmaz A, et al. *Capillary telangiectasia of the brain: imaging with various magnetic resonance techniques*. JBR-BTR 2014;97(4):233-8（據 PubMed，DOI [10.5334/jbr-btr.90](https://doi.org/10.5334/jbr-btr.90)；實際查證 accessed 2026-07-04）——10 例多序列評估：**腦微血管擴張為偶發血管畸形、多位於腦橋，典型 MRI＝post-contrast T1 淡強化＋GRE 訊號流失；SWI 顯示磁敏感訊號減低優於 GRE T2；DWI/DTI 對診斷無幫助**。佐證診斷雙徵、SWI 優勢與 DWI 無助之判讀。另參 Garner M. *[Capillary telangiectasia]*. Radiologie 2022;62(8):654-8（DOI [10.1007/s00117-022-01037-z](https://doi.org/10.1007/s00117-022-01037-z)；Review）——腦橋 brush-like T2*/SWI 訊號消失＋T1 強化、血管攝影 silent、可合併靜脈異常/cavernoma、偶需與腫瘤/發炎鑑別。原「Radiopaedia」弱來源已由本次期刊 DOI Tier 1 查核升級。
 
 ## 考題
 ```dataview
