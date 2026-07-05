@@ -11105,6 +11105,31 @@
       "checked": false
     },
     {
+      "id": "2022-365",
+      "year": 2022,
+      "number": 365,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement of Tetralogy of Fallot is wrong?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Including: Obstructed RV outflow tract, right ventricular hypertrophy(RVH), VSD and Aorta overriding the IVS. Clinical finding including cyanosis by 3–4 months; time of presentation depends on degree of right ventricular hypertrophy. Plain radiograph shows Boot-shaped heart. Anomalies of coronary arteries about 5% (LAD from RCA, single RCA)"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[tetralogy-of-fallot]]（Radiopaedia + STATdx Canan/Abbara, Cardiac Dx：紫紺與表現時機取決於 RVOT 阻塞程度，非 RVH）",
+      "explanation": "第二項『time of presentation depends on degree of right ventricular hypertrophy』為錯誤：TOF 的紫紺與臨床表現時機取決於 RVOT（肺動脈）阻塞的嚴重度，而非 RVH 程度；RVH 只是壓力過載的結果。其餘皆正確：四聯（RVOT 阻塞/RVH/VSD/主動脈跨騎）、CXR boot-shaped heart、冠狀動脈異常約 5%（LAD 自 RCA）。⚠️ 原始選項四項並排於單一字串，錯誤者為第二項，對應官方答案 B。 → [[tetralogy-of-fallot]]",
+      "images": [],
+      "concepts": [
+        "tetralogy-of-fallot"
+      ],
+      "checked": false
+    },
+    {
       "id": "2022-366",
       "year": 2022,
       "number": 366,
@@ -11138,6 +11163,80 @@
       "images": [],
       "concepts": [
         "enlarged-coronary-sinus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-367",
+      "year": 2022,
+      "number": 367,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the MOST common radiographic manifestation of acute papillary muscle rupture?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pulmonary edema"
+        },
+        {
+          "letter": "B",
+          "text": "Left atrial enlargement"
+        },
+        {
+          "letter": "C",
+          "text": "Left ventricular enlargement"
+        },
+        {
+          "letter": "D",
+          "text": "Pericardial effusion"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[acute-papillary-muscle-rupture]]（Radiopaedia Papillary muscle rupture + STATdx Papillary Muscle Rupture, Flynn/Dodd 2025）",
+      "explanation": "急性乳突肌斷裂（多發生於 MI 後 2–7 天）造成突發嚴重「急性」二尖瓣逆流，左心房壓力驟升傳至肺循環，因心房心室來不及代償性擴大，血流直衝回未擴張的左心房而立即產生肺水腫（胸片見肺靜脈鬱血，甚至不對稱右上肺葉水腫，因逆流噴射指向右上肺靜脈）。因是急性病程，左心房/左心室擴大屬慢性 MR 的表現，故本題最常見放射表現為肺水腫。→ [[acute-papillary-muscle-rupture]]",
+      "images": [],
+      "concepts": [
+        "acute-papillary-muscle-rupture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-368",
+      "year": 2022,
+      "number": 368,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the MOST common primary malignant pericardial neoplasm?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Angiosarcoma"
+        },
+        {
+          "letter": "B",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "C",
+          "text": "Mesothelioma"
+        },
+        {
+          "letter": "D",
+          "text": "Neuroectodermal tumor"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[primary-pericardial-malignancy]]（Radiopaedia Pericardial mesothelioma + STATdx Pericardial Mesothelioma；原題出處 RadioGraphics Restrepo 2013）",
+      "explanation": "心包間皮瘤（mesothelioma）是最常見的原發「心包」惡性腫瘤（STATdx 明列 most common primary malignancy of pericardium），雖極罕見；典型為瀰漫多發結節包覆心臟、大量心包積液與縮窄性心包炎生理。Angiosarcoma 是最常見的原發「心臟（心肌，好發右心房）」惡性腫瘤，部位不同勿混淆；lymphoma、neuroectodermal tumor 更少見。注意心包腫瘤整體以轉移最常見（非原發）。→ [[primary-pericardial-malignancy]]",
+      "images": [],
+      "concepts": [
+        "primary-pericardial-malignancy"
       ],
       "checked": false
     }
