@@ -13840,6 +13840,244 @@
         "necrotizing-fasciitis-imaging"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-443",
+      "year": 2022,
+      "number": 443,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is FALSE about the indication of endovascular thrombectomy in a patient with acute ischemic stroke?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Prestroke mRS score of 0 to 1"
+        },
+        {
+          "letter": "B",
+          "text": "NIHSS scores of ≧ 4"
+        },
+        {
+          "letter": "C",
+          "text": "Causative occlusion of internal carotid artery or MCA segment 1 (M1)"
+        },
+        {
+          "letter": "D",
+          "text": "ASPECTS of ≧6"
+        },
+        {
+          "letter": "E",
+          "text": "Treatment (groin puncture) can be initiated within 6 hours of symptom onset"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[acute-stroke-management]]（Radiopaedia ECR rID 57136 + 2015 AHA/ASA EVT 指引 Class I 六準則）",
+      "explanation": "2015 AHA/ASA 血管內取栓 Class I 病人選擇六準則為：prestroke mRS 0–1、致病阻塞位於 ICA 或 MCA M1、年齡 ≥18、NIHSS ≥6、ASPECTS ≥6、groin puncture 可於發病 6 小時內開始。選項 B「NIHSS ≥4」錯誤，正確門檻為 NIHSS ≥6，故 B 為 FALSE。其餘 A、C、D、E 皆為正確準則。→ [[acute-stroke-management]]",
+      "images": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-444",
+      "year": 2022,
+      "number": 444,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the followings is the LEAST reliable factor to predict the size of infarct core at acute stage of ischemic stroke?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Early infarct signs on brain CT"
+        },
+        {
+          "letter": "B",
+          "text": "NIH stroke scale (NIHSS)"
+        },
+        {
+          "letter": "C",
+          "text": "ASPECT score on Brain CT"
+        },
+        {
+          "letter": "D",
+          "text": "The presence of large artery occlusion"
+        },
+        {
+          "letter": "E",
+          "text": "Rapidly improving symptoms"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[ischemic-stroke-imaging-timeline]]（Radiopaedia ischaemic stroke + Merritt's Neurology 13e）",
+      "explanation": "急性期梗塞核心大小可由早期 CT 缺血徵象、ASPECTS、NIHSS 及症狀快速改善等因子估計。選項 D「大血管阻塞的存在」最不可靠：LVO 只表示有近端阻塞，不反映核心體積——同為 LVO 者核心可小可大，取決於側枝循環與時間窗（大 penumbra 者適合取栓）。故 D 為最不可靠的預測因子。→ [[ischemic-stroke-imaging-timeline]]",
+      "images": [],
+      "concepts": [
+        "ischemic-stroke-imaging-timeline"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-445",
+      "year": 2022,
+      "number": 445,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the followings contraindications of r-tPA injection in acute ischemic stroke is FALSE?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Patient has received heparin within 48 hours and has an elevated aPTT"
+        },
+        {
+          "letter": "B",
+          "text": "Platelet count < 100,000 /mm3"
+        },
+        {
+          "letter": "C",
+          "text": "Perform CTA study for further endovascular thrombectomy evaluation"
+        },
+        {
+          "letter": "D",
+          "text": "Abnormal blood glucose (400 mg/dL)"
+        },
+        {
+          "letter": "E",
+          "text": "Major surgery or serious non-head trauma in the previous 10 days"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[acute-stroke-management]]（Radiopaedia ECR rID 57136 + AHA/ASA r-tPA 禁忌）",
+      "explanation": "r-tPA 溶栓的真正禁忌包括：48 小時內用 heparin 且 aPTT 上升（A）、血小板 <100,000/mm³（B）、血糖異常如 400 mg/dL（D）、近 10–14 天內重大手術或嚴重非頭部外傷（E）。選項 C「進行 CTA 評估取栓」並非禁忌，而是評估大血管阻塞、規劃取栓的必要影像流程，故 C 為 FALSE（非禁忌）。→ [[acute-stroke-management]]",
+      "images": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-446",
+      "year": 2022,
+      "number": 446,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding lesions that may occur in the CPA region, perfusion-weighted MRI may potentially differentiate between each of the following EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vestibular schwannoma and meningioma."
+        },
+        {
+          "letter": "B",
+          "text": "Lymphoma and metastasis."
+        },
+        {
+          "letter": "C",
+          "text": "Abscess and metastasis."
+        },
+        {
+          "letter": "D",
+          "text": "Hemangioblastoma and lymphoma."
+        },
+        {
+          "letter": "E",
+          "text": "Meningioma and metastasis."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[cpa-masses]]（Radiopaedia CPA mass + AJR 2010;195:S15-S21 self-assessment, DOI 10.2214/AJR.09.7191）",
+      "explanation": "perfusion-weighted MRI（PWI）藉 rCBV 差異鑑別 CPA 病灶：schwannoma（低-中）vs meningioma（高）（A）、lymphoma（低）vs metastasis（高）（B）、abscess（環壁灌流、核心低）vs metastasis（C）、hemangioblastoma（極高）vs lymphoma（低）（D）皆可區分。選項 E 的 meningioma 與 metastasis 皆為高灌流（高 rCBV），PWI 無法可靠區分，故為 EXCEPT 答案。→ [[cpa-masses]]",
+      "images": [],
+      "concepts": [
+        "cpa-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-447",
+      "year": 2022,
+      "number": 447,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 32-year-old person presents with acute-onset blindness. MRI shows subarachnoid hemorrhage, T2 hyperintensity of the putamina, and T2* blooming of the putamina. What is the most likely cause?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cyanide poisoning."
+        },
+        {
+          "letter": "B",
+          "text": "Methanol poisoning."
+        },
+        {
+          "letter": "C",
+          "text": "MDMA abuse."
+        },
+        {
+          "letter": "D",
+          "text": "Hypoglycemia."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[methanol-toxicity]]（Radiopaedia rID 51680 + STATdx Methanol Poisoning Jhaveri 08/20/25；AJR 2010;195:S9-S11 DOI 10.2214/AJR.10.7261）",
+      "explanation": "急性失明 + 雙側殼核（putamen）T2 高訊號 + T2*（GRE/SWI）blooming（出血性壞死）+ 蜘蛛膜下腔出血，是甲醇中毒（formic acid 毒性）的招牌組合，故答案為 B。甲醇代謝為 formic acid 造成視網膜與殼核毒性壞死，臨床先中樞抑制、後視覺障礙可進展至失明。氰化物（A）較典型侵犯蒼白球且非以殼核出血為主；MDMA（C）與低血糖（D，偏皮質/海馬）影像型態不符。→ [[methanol-toxicity]]",
+      "images": [],
+      "concepts": [
+        "methanol-toxicity"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-448",
+      "year": 2022,
+      "number": 448,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about juvenile nasopharyngeal angiofibroma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A highly vascular benign neoplasm that exhibits local aggressive and invasive behavior"
+        },
+        {
+          "letter": "B",
+          "text": "Occurs in adolescent boys"
+        },
+        {
+          "letter": "C",
+          "text": "Angiography depicts a tumor blush, which is usually arising from branches of the external carotid artery"
+        },
+        {
+          "letter": "D",
+          "text": "Biopsy is needed for diagnosis"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[juvenile-nasopharyngeal-angiofibroma]]（Radiopaedia rID 1541 + STATdx Juvenile Angiofibroma 07/21/25）",
+      "explanation": "JNA 為富血管、良性但局部侵犯性腫瘤（A 正確），好發青春期男性（B 正確），血管攝影 tumor blush 多源自外頸動脈（ECA）分支尤其 internal maxillary artery（C 正確）。選項 D「需切片診斷」為錯誤：JNA 極度富血管，切片可致命性大出血（biopsy can be fatal），故不做切片，診斷依臨床＋特徵性影像（強烈強化、PPF 增寬、Holman-Miller、T2 flow voids）＋血管攝影。→ [[juvenile-nasopharyngeal-angiofibroma]]",
+      "images": [],
+      "concepts": [
+        "juvenile-nasopharyngeal-angiofibroma"
+      ],
+      "checked": false
     }
   ]
 }

@@ -35,8 +35,21 @@ dateRev: 2026-07-03
 ## 陷阱
 - FLAIR 陽性時間是 **6-12 小時**，不是 12-24 小時。考試常把 FLAIR 時間寫錯來考。
 
+## 預測梗塞核心大小（acute stage）
+- **可預測核心大小的因子**：**Brain CT 早期缺血徵象**、**ASPECT score**、**NIHSS**、以及**症狀快速改善**（提示核心小、多為可逆缺血），皆與核心體積相關。[^2][^3]
+- **最不可靠的因子＝大血管阻塞（LVO）之『存在與否』**：LVO 只說明有近端阻塞，**不反映核心體積**——同為 LVO 者，核心可從極小（大 penumbra、適合取栓）到極大（大核心）不等，取決於側枝循環與時間。故單憑「有無 LVO」預測核心大小最不可靠。[^2][^3]
+
+> [!note] 2022-444 考點
+> 預測急性期梗塞核心大小，**「大血管阻塞的存在」最不可靠（D）**；早期 CT 徵象、ASPECTS、NIHSS、症狀快速改善皆較能反映核心體積。[^2]
+
 ### 參考來源
 [^1]: RadioGraphics 2012; 32:1285-1297.
+[^2]: *Ischaemic stroke*. Radiopaedia.org（實際查證 accessed 2026-07-06）：核心（infarct core）為不可逆壞死組織、penumbra 為可救之低灌流組織；核心大小取決於缺血程度、時間與側枝循環，**大血管阻塞本身不等同大核心**（同為 LVO 核心可大可小，端視側枝與時間窗）；ASPECTS 與早期 CT 缺血徵象用於估計核心範圍，NIHSS 與臨床病程（含症狀快速改善）反映臨床受累程度。
+[^3]: **Tier 1** *Merritt's Neurology*, 13th ed.（本題原始出處）：於急性期，早期 CT 徵象、ASPECTS、NIHSS 及症狀是否快速改善均可協助估計梗塞核心；相對而言，僅知有無大血管阻塞最不足以判定核心體積。
+
+## 題目
+> [!question]- Which of the followings is the LEAST reliable factor to predict the size of infarct core at acute stage of ischemic stroke? (2022-444)
+> **The presence of large artery occlusion（D，關鍵）**——LVO 的「存在」只表示有近端阻塞，不反映核心體積（同為 LVO，核心可小可大，取決於側枝與時間），故最不可靠。早期 CT 徵象（A）、NIHSS（B）、ASPECTS（C）、症狀快速改善（E）皆較能反映核心大小。[^2][^3]
 
 ## 考題
 ```dataview

@@ -43,6 +43,18 @@ dateRev: 2026-06-17
 ### 參考來源
 [^1]: *Cerebellopontine angle mass*. Radiopaedia.org（實際查證 accessed 2026-06-17）：最常見**vestibular schwannoma（~80%）**、第二**meningioma（~10%）**、epidermoid（DWI 受限）；記憶法 AMEN/SAME。
 [^3]: **Tier 1** Bonneville F, Savatovsky J, Chiras J. *Imaging of cerebellopontine angle lesions: an update. Part 2: intra-axial lesions, skull base lesions that may invade the CPA region, and non-enhancing extra-axial lesions*. Eur Radiol 2007;17(11):2908-20（據 PubMed，DOI [10.1007/s00330-007-0680-4](https://doi.org/10.1007/s00330-007-0680-4)；Review；實際查證 accessed 2026-07-04）——**CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵**；提出**依病灶起源部位、形狀邊界、密度、訊號強度與對比劑攝取之診斷演算法**（輔以 DWI/PWI/MRS）；系統涵蓋**非強化 extra-axial（epidermoid/arachnoid/neurenteric cyst、dermoid/lipoma）、顱底延伸（paraganglioma/chondromatous/chordoma/cholesterol granuloma/ELST）、腦幹或腦室腫瘤外突（lymphoma/hemangioblastoma/CPP/ependymoma/glioma/medulloblastoma）**之鑑別。佐證 CPA DDx 之系統化影像判讀框架。原「Radiopaedia」弱來源已由本次 Eur Radiol DOI Tier 1 查核升級。
+[^4]: **Tier 1** Fink JR. *Imaging of cerebellopontine angle masses: self-assessment module*. AJR Am J Roentgenol. 2010;195(3 Suppl):S15-S21. DOI [10.2214/AJR.09.7191](https://doi.org/10.2214/AJR.09.7191)（PubMed PMID 20729406；書目經 PubMed 查證 accessed 2026-07-06）：**進階 MRI（含 perfusion‑weighted imaging, PWI）於 CPA 腫塊鑑別的角色**——PWI 藉 rCBV 差異區分血管性與非血管性病灶（如高 rCBV 的 meningioma vs 低 rCBV 的 schwannoma、hemangioblastoma 之極高 rCBV vs lymphoma 之低 rCBV、abscess vs metastasis 之壞死環灌流差異、lymphoma vs metastasis）；**但兩者皆為高灌流（高 rCBV）之 meningioma 與 metastasis，PWI 無法可靠區分**。
+
+## 放射科醫師影像判讀重點（perfusion 鑑別，Q446）
+- **PWI 差異可區分**：vestibular schwannoma（低‑中 rCBV）vs meningioma（高 rCBV）；lymphoma（低 rCBV）vs metastasis（高 rCBV）；abscess（環壁灌流、核心低）vs metastasis；hemangioblastoma（極高 rCBV）vs lymphoma（低 rCBV）——各對配灌流型態不同，可資鑑別。[^4]
+- **PWI 無法區分者（考點）**：**meningioma 與 metastasis 皆呈高 rCBV（高灌流）**，故 perfusion 難以可靠分辨此二者——為 2022-446 之答案。[^4]
+
+> [!note] 2022-446 考點
+> perfusion‑weighted MRI 可鑑別多數 CPA 病灶對配，**唯獨 meningioma 與 metastasis（皆高 rCBV／高灌流）無法可靠區分（E）**。[^4]
+
+## 題目
+> [!question]- Regarding lesions that may occur in the CPA region, perfusion-weighted MRI may potentially differentiate between each of the following EXCEPT: (2022-446)
+> **Meningioma and metastasis（E，關鍵）**——兩者皆為高灌流（高 rCBV），PWI 無法可靠區分。其餘對配灌流型態不同故可鑑別：schwannoma（低‑中）vs meningioma（高）（A）、lymphoma（低）vs metastasis（高）（B）、abscess vs metastasis（C）、hemangioblastoma（極高）vs lymphoma（低）（D）。[^4]
 
 ## 考題
 ```dataview
