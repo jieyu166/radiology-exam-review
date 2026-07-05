@@ -34,6 +34,11 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Moore J, Altschul E, Remy-Jardin M, Raoof S. *Chronic Thromboembolic Pulmonary Hypertension: Clinical and Imaging Evaluation*. Clin Chest Med 2024;45(2):405-418（據 PubMed，DOI [10.1016/j.ccm.2024.02.012](https://doi.org/10.1016/j.ccm.2024.02.012)；實際查證 accessed 2026-07-04）——回顧 CTEPH 之臨床與影像徵象，含 CTPA 偏心性壁貼血栓、web/band、mosaic 灌注、PA 擴大與 RV 變化，及各影像模態(CTPA、DECT、V/Q)之優缺，強調其常被低估且診斷延遲。原「官方 2019 詳解」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: *Chronic thromboembolic pulmonary hypertension*. Radiopaedia.org（實際查證 accessed 2026-07-06）：CT 徵象含偏心性機化血栓（貼附管壁，與急性 PE 中央「polo mint sign」對比）、完全阻塞之 pouch defect、部分阻塞、狹窄（管徑不一/管壁不規則）、管腔內纖維 web 與 band、中央/近端肺動脈擴張（男 ≥29 mm、女 ≥27 mm）。慢性阻塞造成的是狹窄後**擴張**（post-stenotic dilatation）而非狹窄後變窄。
+
+## 題目
+> [!question]- Which statement about CT feature of "chronic pulmonary thromboembolism" is not true? (2022-431)
+> **B（不正確）** 慢性肺栓塞在部分阻塞時，特徵是血流通過狹窄段後造成**狹窄後擴張（post-stenotic dilatation）**與管徑不一，而非選項所述的「post-stenotic vessel narrowing（狹窄後變窄）」——故 B 敘述錯誤。A（完全阻塞時遠端動脈突然變細/pouch defect）、C（慢性血栓偏心貼壁、與管壁呈鈍角 obtuse angle，有別於急性栓塞的銳角/中央充盈缺損）、D（可見血栓鈣化）皆為慢性肺栓塞的正確 CT 徵象。[^2][^3] → [[chronic-pulmonary-thromboembolism]]
 
 ## 考題
 ```dataview

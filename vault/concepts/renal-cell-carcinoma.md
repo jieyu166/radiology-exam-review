@@ -102,6 +102,9 @@ dateRev: 2026-06-30
 > [!question]- Which is the most common histologic subtype of all RCCs? (2022-284)
 > **Clear cell RCC（A）**——clear cell 為所有 RCC 中最常見亞型，約占 70–80%；papillary RCC 約 13–20%、chromophobe RCC 約 5%、multilocular cystic RCC 罕見。[^1][^7]
 
+> [!question]- The subtypes renal cell carcinoma include (2022-439)
+> **all of them（D）**——RCC 三大主要組織亞型為 clear cell(最常見，~70%)、papillary、chromophobe，三者皆為 RCC 亞型，故答案為以上皆是。[^1][^7]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-cell-carcinoma")

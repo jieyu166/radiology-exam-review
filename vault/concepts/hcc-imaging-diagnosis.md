@@ -71,9 +71,17 @@ dateRev: 2026-06-29
 > **T4**——單一或多發腫瘤任何大小併門脈或肝靜脈主要分支侵犯，即歸為T4（與腫瘤大小無關）。[^7]
 
 ### 移植條件
-- **Milan criteria**：單一腫瘤 ≤5 cm,或 ≤3 顆且各 ≤3 cm,無大血管/肝外侵犯。[^2]
+- **Milan criteria**：單一腫瘤 ≤5 cm,或 ≤3 顆且各 ≤3 cm,無大血管/肝外侵犯。[^2][^8]
 - **UCSF criteria**：單一 <6.5 cm,或 ≤3 顆各 <4.5 cm 且累積 <8 cm。UCSF 較 Milan 寬一號（5→6.5、3→4.5、加總和 <8 限制）。[^2]
 - **須為 HCC**：膽管癌（ICC）不符移植條件。[^2]
+
+### 移植的絕對禁忌（考點）
+- **肝外轉移(extrahepatic metastases)＝絕對禁忌**——Milan criteria 明訂須「no extra-hepatic metastases」；一旦有肝外播散，移植無法治癒，屬絕對禁忌。[^8][^9]
+- **主要血管侵犯(major vessel involvement / macrovascular invasion)＝絕對禁忌**——Milan 亦要求「no major vessel involvement」；腫瘤性大血管瘤栓為禁忌。[^8]
+- **相對/非絕對者**：**腫瘤 <5 cm** 本身符合 Milan(非禁忌)；**區域淋巴結腫大**多為反應性、非絕對禁忌(須組織學證實轉移方為禁忌)；**急性(bland)門靜脈血栓**屬良性血栓、非腫瘤瘤栓，並非移植的絕對禁忌(須與腫瘤性瘤栓 tumor-in-vein 區別)。[^8][^9]
+
+> [!note] 考點五：HCC 患者何者為肝移植的絕對禁忌？
+> **肝外轉移(extrahepatic metastases)**——為絕對禁忌。腫瘤 <5 cm 符合 Milan、區域淋巴結腫大多為反應性、急性(bland)門靜脈血栓非腫瘤瘤栓，皆非絕對禁忌。[^8][^9]
 
 > [!note] 考點
 > **「無 capsule/pseudocapsule」不利 HCC**（有利者：動脈期高強化、washout、瘤栓）。移植：3 顆 HCC(1.5/3.0/2.0 cm) 符合 Milan/UCSF（≤3 顆、各 ≤3 cm、總和 <8 cm）。[^1][^2]
@@ -101,6 +109,8 @@ dateRev: 2026-06-29
 [^5]: 期刊（比較研究）。Zhang YD, et al. *LI-RADS: Substantial Discordance Between CT and MR for Imaging Classification of Hepatic Nodules.* Acad Radiol 2016;23:344-352. DOI: https://doi.org/10.1016/j.acra.2015.11.002 ——CT 對 APHE 假陰性 57.1%、washout 21.2%、pseudocapsule 42.9%，CT 敏感度/準確度低於 MRI。
 [^6]: 官方2020詳解；Ref: Ahuja, A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 1-72~1-73.（題目所引）——小型HCC典型低迴聲，較大者因纖維化/脂肪變性/壞死/鈣化呈異質性；周邊暈環典型為低迴聲(對應局部脂肪缺失)而非高迴聲；鈣化罕見；可侵犯門脈。
 [^7]: 官方2020詳解；Ref: AJCC cancer stage Version 8（題目所引）——AJCC第8版HCC T分期：T1a單一≤2cm；T1b單一>2cm無血管侵犯；T2單一>2cm併血管侵犯或多發皆≤5cm；T3多發至少一顆>5cm；T4任何大小併門脈/肝靜脈主要分支侵犯，或侵犯膽囊以外鄰近器官，或穿破臟層腹膜。
+[^8]: *Milan criteria in liver transplantation* 與 *Hepatocellular carcinoma*. Radiopaedia.org（radiopaedia.org/articles/milan-criteria-in-liver-transplantation、/articles/hepatocellular-carcinoma，實際查證 accessed 2026-07-06）：肝移植資格採 Milan criteria——單一 ≤5 cm 或 ≤3 顆各 ≤3 cm、**「no extra-hepatic metastases」、「no major vessel involvement」**；肝外轉移與主要血管侵犯即不符資格(絕對禁忌)。HCC 轉移發生於末期(IVa)、預後差，好發肺、腎上腺、淋巴結、骨。
+[^9]: 題目原引；Yu JS et al. *Liver transplantation: preoperative CT evaluation.* RadioGraphics 2001;21 Spec No:S133-46（Tier 1，題目所引）——移植前 CT 評估須排除肝外轉移等絕對禁忌；肝外轉移為肝移植的絕對禁忌，反應性淋巴結腫大與良性(bland)血栓非絕對禁忌。
 
 ## 題目
 > [!question]- Which of the following is NOT a typical ultrasound finding of hepatocellular carcinoma? (2020-267)
@@ -108,6 +118,9 @@ dateRev: 2026-06-29
 
 > [!question]- According the 8th version of the American Joint Committee on Cancer (AJCC), which of the following T stage is accurate for hepatocellular carcinoma with tumor involvement of a major branch of the portal vein? (2020-275)
 > **T4（D）**——單一或多發腫瘤任何大小併門脈或肝靜脈主要分支侵犯，即歸為T4，與腫瘤大小無關。[^7]
+
+> [!question]- For a recipient with hepatocellular carcinoma (HCC), which of the following conditions is considered an absolute contraindication for liver transplantation? (2022-437)
+> **extrahepatic metastases（C）**——肝外轉移為肝移植的絕對禁忌(Milan criteria 明訂 no extra-hepatic metastases)。HCC <5 cm 符合 Milan、區域淋巴結腫大多為反應性、急性(bland)門靜脈血栓非腫瘤瘤栓，皆非絕對禁忌。[^8][^9]
 
 ## 考題
 ```dataview

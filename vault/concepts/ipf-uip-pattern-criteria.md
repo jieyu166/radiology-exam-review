@@ -38,12 +38,16 @@ dateRev: 2026-07-04
 
 ### 參考來源
 [^1]: Raghu G, et al. Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline. Am J Respir Crit Care Med. 2022;205(9):e18-e47（據 PubMed；[DOI](https://doi.org/10.1164/rccm.202202-0399ST)）。HRCT 四級 pattern、honeycombing 為 definite UIP、NSIP 非選項、PPF 定義。
+[^2]: *Usual interstitial pneumonia*. Radiopaedia.org（實際查證 accessed 2026-07-06）：UIP 分布具 apicobasal gradient，以 basal、subpleural（周邊）為主；honeycombing（尤其 >5% 肺容積）為近乎 100% specific 之特徵；**ground-glass opacities 通常較 reticular pattern 不廣泛且幾乎不會單獨出現**（多伴隨 reticulation 或 honeycombing）——故「以毛玻璃浸潤為主」並非 definite UIP 的特徵，而傾向 alternative diagnosis/NSIP。
 
 > [!question]- ATS/ERS/JRS/ALAT IPF 診斷標準的 HRCT pattern 分類「不包含」下列何者？ (2019-309)
 > 答案：B. NSIP pattern（為獨立 IIP 亞型，非 IPF 的 HRCT pattern 選項）。 [^1]
 
 > [!question]- 下列何者屬於 definite UIP pattern（而非 possible/probable UIP）的特徵？ (2019-492)
 > 答案：C. Honeycombing（含或不含 traction bronchiectasis）—— 為 definite UIP 的關鍵特徵；probable/possible UIP 無 honeycombing。 [^1]
+
+> [!question]- Which statement about "definite UIP pattern" is not true? (2022-432)
+> **B（不正確）** definite UIP pattern 的核心是 subpleural、basal 為主分布 + reticular + **honeycombing**（±traction bronchiectasis），且無不符合 UIP 的特徵。選項 B「ground glass infiltration with or without bronchiectasis（以毛玻璃浸潤為主）」並非 definite UIP 特徵——UIP 的毛玻璃通常較 reticular 不廣泛、幾乎不單獨出現，若以毛玻璃為主反而傾向 alternative diagnosis 或 NSIP，故 B 敘述錯誤。A（subpleural basal predominance）、C（honeycombing ± traction bronchiectasis）、D（無不符合 UIP 之特徵）皆為 definite UIP 的正確條件。[^1][^2] → [[ipf-uip-pattern-criteria]]
 
 ## 考題
 ```dataview

@@ -13322,6 +13322,524 @@
         "breast-mri-enhancement-patterns"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-429",
+      "year": 2022,
+      "number": 429,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the following about Medial Audit is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Regulation Mammography quality assurance program by Department of Health (DOH) in Taiwan"
+        },
+        {
+          "letter": "B",
+          "text": "PPV1 indicates positive cases at screening examination, includes recommendation of BI-RADS Category 0,4,5."
+        },
+        {
+          "letter": "C",
+          "text": "PPV2 indicates recommendation for tissue diagnosis in Category 4,5."
+        },
+        {
+          "letter": "D",
+          "text": "PPV3 indicates recommendation for biopsied tissue diagnosis (positive biopsy rate) in Category 4,5."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[mammography-medical-audit-ppv]]（Radiopaedia BI-RADS + ACR BI-RADS Atlas 5th ed. 2013 醫學稽核章）",
+      "explanation": "B 為不正確敘述。依 ACR BI-RADS 2013 醫學稽核定義，PPV1（abnormal findings at screening）的分母為所有篩檢陽性判讀，即 BI-RADS category 0、3、4、5——選項 B 只列「0、4、5」而漏掉 category 3（篩檢時給定的 category 3 亦屬陽性，其偽陽性計入 FP1），故敘述不完整而錯誤。A（台灣衛福部規範乳攝品保）、C（PPV2＝建議切片之 category 4、5）、D（PPV3＝實際做切片之 category 4、5，即陽性切片率/PBR）皆正確。→ [[mammography-medical-audit-ppv]]",
+      "images": [],
+      "concepts": [
+        "mammography-medical-audit-ppv"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-430",
+      "year": 2022,
+      "number": 430,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is correct about the thoracic sequele of tuberculosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Tuberculomas may be a manifestation of either primary or postprimary tuberculosis. After antituberculous chemotherapy, the tuberculous cavity may disappear and become solid lesion."
+        },
+        {
+          "letter": "B",
+          "text": "Cicatrization atelectasis is a common finding after primary tuberculosis."
+        },
+        {
+          "letter": "C",
+          "text": "Rasmussen aneurysm is a rare phenomenon caused by weakening of the pulmonary artery wall from adjacent cavitary tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "Fibrothorax with diffuse pleural thickening but without effusion on CT scans suggests activity"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pulmonary-tuberculosis-imaging]]（Radiopaedia Rasmussen aneurysm/TB + RadioGraphics 2001 Thoracic Sequelae of TB）",
+      "explanation": "C 為正確敘述：Rasmussen aneurysm 為結核空洞旁肺動脈壁受破壞、變弱所形成的（假性）動脈瘤，是罕見但可致命的咳血成因。B 錯：cicatrization atelectasis 是後原發性（reactivation）結核的後遺症，而非原發性結核的常見表現；D 錯：fibrothorax 合併瀰漫肋膜增厚但無積液提示不活動性/慢性病變，而非活動性；A 為干擾項（與標準教材陳述不符）。→ [[pulmonary-tuberculosis-imaging]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-tuberculosis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-431",
+      "year": 2022,
+      "number": 431,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about CT feature of ''chronic pulmonary thromboembolism '' is not true",
+      "options": [
+        {
+          "letter": "A",
+          "text": "abrupted narrowing of distal artery when complete obstruction"
+        },
+        {
+          "letter": "B",
+          "text": "post stenoic vessles narrowing was found when partial obstruction"
+        },
+        {
+          "letter": "C",
+          "text": "thrombus often present with obtused angle with related vessles"
+        },
+        {
+          "letter": "D",
+          "text": "sometimes may see thrombus calcification"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[chronic-pulmonary-thromboembolism]]（Radiopaedia CTEPH + Clin Chest Med 2024 Tier-1）",
+      "explanation": "B 為不正確敘述。慢性肺栓塞部分阻塞時，血流通過狹窄段後造成的是狹窄後擴張（post-stenotic dilatation）與管徑不一，而非選項所述的 post-stenotic vessel narrowing（狹窄後變窄）。A（完全阻塞時遠端動脈突然變細/pouch defect）、C（慢性血栓偏心貼壁、與管壁呈鈍角 obtuse angle，有別於急性栓塞的銳角/中央充盈缺損）、D（可見血栓鈣化）皆為慢性肺栓塞的正確 CT 徵象。→ [[chronic-pulmonary-thromboembolism]]",
+      "images": [],
+      "concepts": [
+        "chronic-pulmonary-thromboembolism"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-432",
+      "year": 2022,
+      "number": 432,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about ''definite UIP pattern ''is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "subpleural basal predominance"
+        },
+        {
+          "letter": "B",
+          "text": "ground glass infiltration with or without bronchiectasis"
+        },
+        {
+          "letter": "C",
+          "text": "honeycombing with or without traction bronchiectasis;"
+        },
+        {
+          "letter": "D",
+          "text": "absence of features listed as inconsistent with UIP pattern."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[ipf-uip-pattern-criteria]]（Radiopaedia UIP + ATS/ERS/JRS/ALAT 2022 IPF guideline Tier-1）",
+      "explanation": "B 為不正確敘述。definite UIP pattern 的核心是 subpleural、basal 為主分布 + reticular + honeycombing（±traction bronchiectasis），且無不符合 UIP 的特徵。以毛玻璃浸潤為主（ground glass infiltration）並非 definite UIP 特徵——UIP 的毛玻璃通常較 reticular 不廣泛、幾乎不單獨出現，若以毛玻璃為主反而傾向 alternative diagnosis 或 NSIP。A（subpleural basal predominance）、C（honeycombing ± traction bronchiectasis）、D（無不符合 UIP 之特徵）皆為 definite UIP 的正確條件。→ [[ipf-uip-pattern-criteria]]",
+      "images": [],
+      "concepts": [
+        "ipf-uip-pattern-criteria"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-433",
+      "year": 2022,
+      "number": 433,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following pathologies presented with hemoptysis has benefited least from bronchial artery embolization (BAE)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "idiopathic bronchiectasis"
+        },
+        {
+          "letter": "B",
+          "text": "pulmonary malignancy"
+        },
+        {
+          "letter": "C",
+          "text": "active tuberculosis"
+        },
+        {
+          "letter": "D",
+          "text": "post-TB sequelae"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[bronchial-artery-embolization-hemoptysis]]（Radiopaedia BAE + Panda 2017 Diagn Interv Radiol 系統性回顧 Tier-1）",
+      "explanation": "答案 B（pulmonary malignancy）。BAE 對良性、慢性發炎性咳血（特發性支氣管擴張、活動性肺結核、結核後遺症）效果最好，這些正是 BAE 的核心適應症與最常見病因；相對地肺部惡性腫瘤的新生血管脆弱、腫瘤持續進展，BAE 多屬姑息，再出血率高、長期獲益最差。→ [[bronchial-artery-embolization-hemoptysis]]",
+      "images": [],
+      "concepts": [
+        "bronchial-artery-embolization-hemoptysis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-434",
+      "year": 2022,
+      "number": 434,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is not a common culprit artery for hemoptysis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "internal mammary artery"
+        },
+        {
+          "letter": "B",
+          "text": "bronchial artery"
+        },
+        {
+          "letter": "C",
+          "text": "intercostal artery"
+        },
+        {
+          "letter": "D",
+          "text": "anterior spinal artery"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[bronchial-artery-embolization-hemoptysis]]（Radiopaedia BAE + Panda 2017 Diagn Interv Radiol 系統性回顧 Tier-1）",
+      "explanation": "答案 D（anterior spinal artery）。咳血責任血管以支氣管動脈及非支氣管全身性側枝為主——bronchial artery（B）、intercostal artery（C）、internal mammary artery（A）皆為常見責任血管。脊髓前動脈（anterior spinal artery）不是責任血管，而是 BAE 時必須辨識並避開的地雷血管（誤栓致脊髓缺血/截癱），為絕對禁忌。→ [[bronchial-artery-embolization-hemoptysis]]",
+      "images": [],
+      "concepts": [
+        "bronchial-artery-embolization-hemoptysis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-435",
+      "year": 2022,
+      "number": 435,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is incorrect regarding finding of bird beak configuration after TEVAR?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bird-beak configuration is defined as the lack of apposition of the proximal stent-graft to the aortic wall along the greater curvature."
+        },
+        {
+          "letter": "B",
+          "text": "Bird-beak configuration is correlated with higher risk of type Ia endoleak."
+        },
+        {
+          "letter": "C",
+          "text": "Bird-beak configuration is associated with higher percentage of type II endoleak from left subclavian artery."
+        },
+        {
+          "letter": "D",
+          "text": "Bird-beak configuration is a potential risk factor for proximal stent graft infolding."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[tevar-bird-beak-configuration]]（Radiopaedia Endoleak + Ueda 2010 Radiology bird-beak configuration Tier-1）",
+      "explanation": "A 為不正確敘述。bird-beak 定義為近端支架與主動脈弓「內側/小彎（inner/lesser curvature）」貼合不全、形成楔形間隙，並非沿「greater curvature（大彎/外彎）」——方向寫反。依 Ueda 2010（Radiology），bird-beak 出現在弓的內彎（underside），因支架難以服貼弓內彎銳角而翹起。B（與 type Ia endoleak 風險升高相關）、C（type II endoleak 較多來自左鎖骨下動脈）、D（為近端支架內折的潛在危險因子）皆正確。→ [[tevar-bird-beak-configuration]]",
+      "images": [],
+      "concepts": [
+        "tevar-bird-beak-configuration"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-436",
+      "year": 2022,
+      "number": 436,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "According to SCCT guidelines in coronary artery segmentation, segment 18 pertains to",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ramus intermedius"
+        },
+        {
+          "letter": "B",
+          "text": "Left posterolateral branch"
+        },
+        {
+          "letter": "C",
+          "text": "Right posterolateral branch"
+        },
+        {
+          "letter": "D",
+          "text": "Right posterior descending artery."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[scct-coronary-segmentation]]（Radiopaedia + STATdx Coronary Anatomy, Abbara/Kligerman，引 Raff GL et al. SCCT guidelines J Cardiovasc Comput Tomogr 2009）",
+      "explanation": "SCCT 18 節冠狀動脈模型是在原始 1975 AHA 15 節模型上加入三支：第 16 節＝右冠狀動脈的後外側支(RPL)、第 17 節＝ramus intermedius(中間支)、第 18 節＝迴旋支的左後外側支(left posterolateral branch, LPL)。故 segment 18＝Left posterolateral branch（B）。Ramus intermedius 為第 17 節、Right posterolateral branch 為第 16 節。→ [[scct-coronary-segmentation]]",
+      "images": [],
+      "concepts": [
+        "scct-coronary-segmentation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-437",
+      "year": 2022,
+      "number": 437,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "For a recipient with hepatocellular carcinoma (HCC), which of the following conditions is considered an absolute contraindication for liver transplantation?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "an HCC with size less than 5 cm"
+        },
+        {
+          "letter": "B",
+          "text": "enlarged regional lymph nodes"
+        },
+        {
+          "letter": "C",
+          "text": "extrahepatic metastases"
+        },
+        {
+          "letter": "D",
+          "text": "acute portovenous thrombosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[hcc-imaging-diagnosis]]（Radiopaedia Milan criteria + RadioGraphics 2001 preoperative CT evaluation）",
+      "explanation": "肝外轉移(extrahepatic metastases)是 HCC 患者肝移植的絕對禁忌——Milan criteria 明訂須「no extra-hepatic metastases」與「no major vessel involvement」，一旦肝外播散即無法藉移植治癒。其餘選項均非絕對禁忌：HCC <5 cm 本身符合 Milan、區域淋巴結腫大多為反應性(須組織學證實轉移方為禁忌)、急性(bland)門靜脈血栓為良性血栓而非腫瘤性瘤栓。→ [[hcc-imaging-diagnosis]]",
+      "images": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-438",
+      "year": 2022,
+      "number": 438,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Ovarian sex cord-stromal tumors account for less than 5% of all ovarian carcinoma, of which granulosa cell tumors account for",
+      "options": [
+        {
+          "letter": "A",
+          "text": "70%"
+        },
+        {
+          "letter": "B",
+          "text": "1%"
+        },
+        {
+          "letter": "C",
+          "text": "2%"
+        },
+        {
+          "letter": "D",
+          "text": "5%"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[ovarian-granulosa-cell-tumor]]（Radiopaedia + STATdx Granulosa Cell Tumor, Shaaban）",
+      "explanation": "顆粒細胞瘤(granulosa cell tumor)是最常見的『惡性』性索間質瘤，約佔 70%（STATdx: 'Most common malignant sex cord-stromal tumor (70%)'）。性索間質瘤整體佔卵巢惡性腫瘤 <5%；GCT 分泌雌激素→子宮內膜增厚/增生，影像典型為大型、多房、實質＋囊性、常合併出血的單側附件腫塊(Swiss cheese)。注意：GCT 佔『所有卵巢惡性腫瘤』僅約 3–5%，勿與『佔惡性性索間質瘤 70%』混淆——本題問後者。→ [[ovarian-granulosa-cell-tumor]]",
+      "images": [],
+      "concepts": [
+        "ovarian-granulosa-cell-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-439",
+      "year": 2022,
+      "number": 439,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "The subtypes renal cell carcinoma include",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A Clear cell"
+        },
+        {
+          "letter": "B",
+          "text": "B Papillary"
+        },
+        {
+          "letter": "C",
+          "text": "C Chromophobe"
+        },
+        {
+          "letter": "D",
+          "text": "D all of them"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[renal-cell-carcinoma]]（Radiopaedia + RadioGraphics 2006 Prasad et al. RCC subtypes）",
+      "explanation": "RCC 三大主要組織亞型為 clear cell(最常見，約 70–80%)、papillary(約 13–20%)、chromophobe(約 5%)，三者皆屬 RCC 亞型，故答案為以上皆是(D)。clear cell 富血管、papillary 乏血管均質、chromophobe 中等強化可呈輻輪狀。→ [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-440",
+      "year": 2022,
+      "number": 440,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following sacral tumors is most common?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Giant cell tumor (GCT)."
+        },
+        {
+          "letter": "B",
+          "text": "Ependymoma."
+        },
+        {
+          "letter": "C",
+          "text": "Chordoma."
+        },
+        {
+          "letter": "D",
+          "text": "Ewing sarcoma."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[sacral-chordoma]]（Radiopaedia + STATdx Chordoma, Amini/Manaster）",
+      "explanation": "脊索瘤(chordoma)是薦骨最常見的腫瘤——所有薦骨腫瘤(良惡性合計)中約 40% 為脊索瘤，也是薦骨最常見的原發惡性腫瘤(Radiopaedia: 'the most common primary malignant sacral tumor')。巨細胞瘤(GCT)為薦骨第二常見原發腫瘤。影像典型為中線、溶骨破壞性、軟組織腫塊常大到與骨破壞不成比例、T2 極高訊號、CT 90% 見鈣化(多為破壞骨碎屑)。Ependymoma 屬脊髓/終絲腫瘤；Ewing sarcoma 非薦骨最常見原發腫瘤。→ [[sacral-chordoma]]",
+      "images": [],
+      "concepts": [
+        "sacral-chordoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-441",
+      "year": 2022,
+      "number": 441,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "When necrotizing fasciitis is suspected, which of the following CT findings is important in making a definitive diagnosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gas tracking with fluid collection along fascial planes."
+        },
+        {
+          "letter": "B",
+          "text": "Asymmetric fascial thickening with stranding."
+        },
+        {
+          "letter": "C",
+          "text": "Thickening and enhancement of the superficial or deep fascial layers."
+        },
+        {
+          "letter": "D",
+          "text": "Reactive lymphadenopathy."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[necrotizing-fasciitis-imaging]]（Radiopaedia + STATdx Necrotizing Fasciitis, Ladd/Manaster）",
+      "explanation": "氣體沿筋膜層追蹤合併液體聚積(gas tracking with fluid collection along fascial planes)是壞死性筋膜炎 CT 上最具特異性的定性徵象(無穿刺傷/近期介入時近乎 pathognomonic)。不對稱筋膜增厚合併脂肪絮狀、淺/深筋膜層增厚與強化皆為非特異性(NF 與非 NF 皆可見)，反應性淋巴結亦非定性徵象。惟軟組織氣體僅見於 <50% 病例，無氣體不能排除 NF——NF 為臨床診斷，影像陰性不應延誤手術。→ [[necrotizing-fasciitis-imaging]]",
+      "images": [],
+      "concepts": [
+        "necrotizing-fasciitis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-442",
+      "year": 2022,
+      "number": 442,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Using ultrasound to diagnose necrotizing fasciitis, all of the following statements are true EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ultrasound is not useful in the pediatric age group."
+        },
+        {
+          "letter": "B",
+          "text": "Sonographic findings include turbid fluid collection in the fascial layers."
+        },
+        {
+          "letter": "C",
+          "text": "The examination may be limited by soft-tissue gas."
+        },
+        {
+          "letter": "D",
+          "text": "Ultrasound may be used to guide fluid aspiration."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[necrotizing-fasciitis-imaging]]（Radiopaedia Necrotizing fasciitis + STATdx）",
+      "explanation": "本題為 EXCEPT 題，找非真敘述。「Ultrasound is not useful in the pediatric age group」為錯誤——超音波在兒童族群反而更有用(Radiopaedia: 'Ultrasound may be more useful in children'，尤其原發性水痘感染後發生率上升)。其餘敘述皆正確：US 徵象含筋膜層混濁液體(turbid fluid)聚積(B)、軟組織氣體造成聲影而限制檢查(C)、US 可導引抽吸取樣(D)。→ [[necrotizing-fasciitis-imaging]]",
+      "images": [],
+      "concepts": [
+        "necrotizing-fasciitis-imaging"
+      ],
+      "checked": false
     }
   ]
 }
