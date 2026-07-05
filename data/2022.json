@@ -11239,6 +11239,158 @@
         "primary-pericardial-malignancy"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-369",
+      "year": 2022,
+      "number": 369,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not true about gadoxetic acid-enhanced MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Organic anion–transporting polypeptide 1B3 (OATP1B3) expressed at the sinusoidal membrane in human hepatocytes is considered to be a major uptake transporter of gadoxetic acid."
+        },
+        {
+          "letter": "B",
+          "text": "Multidrug resistance–associated protein (MRP) 1 and MRP3 expressed on the sinusoidal side and MRP2 expressed on the canalicular side are export transporters of gadoxetic acid."
+        },
+        {
+          "letter": "C",
+          "text": "Liver mass without functioning hepatocytes commonly exhibit low or no OATP1B3 expression."
+        },
+        {
+          "letter": "D",
+          "text": "HCC with hyperintensity during the hepatobiliary phase shows β-catenin and hepatocyte nuclear factor 4α activation."
+        },
+        {
+          "letter": "E",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[hepatobiliary-mri-contrast]]（Radiopaedia Gadoxetate disodium + Tier-1 EOB 轉運子藥理：Leonhardt/König/Kitao）",
+      "explanation": "本題問「哪一項不正確」。A：OATP1B3 位於肝細胞 sinusoidal 膜、為 Gd-EOB-DTPA 主要攝取轉運子（正確）。B：MRP1/MRP3（sinusoidal 側）與 MRP2（canalicular 側）皆為 export 轉運子（正確）。C：無功能性肝細胞之病灶 OATP1B3 表現低/無，故肝膽期不攝取（正確）。D：肝膽期呈高訊號之 HCC 常見 β-catenin 與 HNF4α 活化（Kitao，正確）。A–D 皆為真，故不正確的選項是 E「None of the above」。→ [[hepatobiliary-mri-contrast]]",
+      "images": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-370",
+      "year": 2022,
+      "number": 370,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not true about the disadvantages of gadoxetic acid-enhanced MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The arterial and venous phase enhancement seen with gadoxetic acid is as weak compared with that seen with conventional extracellular contrast agents."
+        },
+        {
+          "letter": "B",
+          "text": "Transient dyspnea and transient severe motion are more."
+        },
+        {
+          "letter": "C",
+          "text": "The uptake of gadoxetic acid in liver parenchyma decreases as liver function or fibrosis worsens."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[hepatobiliary-mri-contrast]]（Radiopaedia Gadoxetate disodium + Tier-1 EOB 缺點文獻：Tamada/Davenport/Motosugi/Nishie）",
+      "explanation": "本題問關於 gadoxetic acid 缺點「哪一項不正確」。A：相較傳統細胞外對比劑，Gd-EOB-DTPA 動脈期/靜脈期強化較弱（血中濃度低，真實缺點）。B：短暫呼吸困難與短暫嚴重移動較常見（Davenport 2013、Motosugi 2016，真實缺點）。C：肝功能不良/纖維化惡化時肝實質攝取下降（Motosugi 2009、Nishie 2012，真實缺點）。A–C 皆為真實缺點，故不正確的選項是 D「None of the above」。→ [[hepatobiliary-mri-contrast]]",
+      "images": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-371",
+      "year": 2022,
+      "number": 371,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about calcified tendinitis is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The etiology is unknown but thought to result from microtrauma and decreased oxygen tension, leading to secondary mineralization."
+        },
+        {
+          "letter": "B",
+          "text": "Calcific tendinitis can affect any tendon in the body but is typically seen in the rotator cuff, especially the supraspinatus tendon"
+        },
+        {
+          "letter": "C",
+          "text": "The calcifications typically appear as well-defined oval or lobular foci in the rotator cuff and are of low signal intensity on all pulse sequences of MRI"
+        },
+        {
+          "letter": "D",
+          "text": "The use of gradient echo sequences of MRI is not helpful in detecting tiny calcification"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[calcific-tendinitis]]（Radiopaedia Calcific tendinitis + STATdx Calcific Tendinopathy, Rotator Cuff；原題出處 Hegazi & Wu, Musculoskeletal MRI p.12–13）",
+      "explanation": "本題問「哪一項描述錯誤」。D 為錯：梯度回訊（GRE）序列因磁化率效應在低訊號鈣化周圍產生 blooming artifact，反而有助偵測微小鈣化（STATdx 明載 slight blooming artifact around low-signal calcific deposits），故「GRE 對偵測微小鈣化無幫助」不正確。A（病因不明，與微創傷及氧張力降低致續發礦化有關）、B（可侵犯任何肌腱、典型旋轉肌袖尤棘上肌約 80%）、C（邊界清楚卵圓/分葉狀、各序列皆低訊號）皆為正確描述。→ [[calcific-tendinitis]]",
+      "images": [],
+      "concepts": [
+        "calcific-tendinitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-372",
+      "year": 2022,
+      "number": 372,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about plantar fibroma is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Plantar fibromas (Ledderhose disease) are the most common solid soft tissue tumor in the foot and ankle."
+        },
+        {
+          "letter": "B",
+          "text": "Patients typically complain of a palpable mass along the plantar aspect of the foot and may experience mild pain after standing or walking for long periods."
+        },
+        {
+          "letter": "C",
+          "text": "Due to their high collagen content, plantar fibromas are uniformly high signal on T1- and T2-weighted images."
+        },
+        {
+          "letter": "D",
+          "text": "Plantar fibromas typically have internal enhancement and can have a fascial tail sign where linear foci of enhancement extend from the lesion along the aponeurosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[plantar-fibroma]]（Radiopaedia Plantar fibromatosis + STATdx Plantar Fasciitis and Fibromatosis, Tsoi/Griffith 2024；原題出處 Hegazi & Wu, Musculoskeletal MRI p.229–230）",
+      "explanation": "本題問「哪一項描述錯誤」。C 為錯：足底纖維瘤因膠原含量高，在 T1、T2 上其實均呈等-低（低-中等）訊號，而非「均勻高訊號」（Radiopaedia：T1 iso-to-low、T2 low-to-intermediate；STATdx：T1 isointense、T2 hypo-to-isointense）。A（Ledderhose disease，足踝最常見實性軟組織腫瘤）、B（足底可觸及腫塊、久站/久走後輕微疼痛）、D（內部強化＋fascial tail sign）皆為正確描述，其中 D 的內部強化與 fascial tail sign 為真實特徵。⚠️ 匯入原始答案標為 D，經 Radiopaedia＋STATdx 查證更正為 C。→ [[plantar-fibroma]]",
+      "images": [],
+      "concepts": [
+        "plantar-fibroma"
+      ],
+      "checked": false
     }
   ]
 }
