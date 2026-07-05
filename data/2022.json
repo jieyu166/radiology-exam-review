@@ -10658,6 +10658,488 @@
         "ct-attenuation-hounsfield-units"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-352",
+      "year": 2022,
+      "number": 352,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following chest radiographic appearance suggestive of diagnosis of acute aortic injury?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Widened mediastinum"
+        },
+        {
+          "letter": "B",
+          "text": "Left apical cap"
+        },
+        {
+          "letter": "C",
+          "text": "Abnormal aortic contour"
+        },
+        {
+          "letter": "D",
+          "text": "Widened left paraspinous line"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[traumatic-aortic-injury]]（Radiopaedia + RadioGraphics 2020 Minimal Aortic Injury）",
+      "explanation": "縱膈腔增寬、左心尖帽、主動脈輪廓異常、左脊椎旁線增寬皆為外傷性主動脈損傷的間接胸部X光徵象，源於主動脈周圍／縱膈血腫，故四者皆是，答案為 E。這些徵象敏感度特異度不足、正常胸片不能排除，須依受傷機轉安排 CTA 確診。→ [[traumatic-aortic-injury]]",
+      "images": [],
+      "concepts": [
+        "traumatic-aortic-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-353",
+      "year": 2022,
+      "number": 353,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is NOT characterized Kartagener syndrome?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SitusAmbiguus"
+        },
+        {
+          "letter": "B",
+          "text": "Sinusitis"
+        },
+        {
+          "letter": "C",
+          "text": "Bronchiectasis"
+        },
+        {
+          "letter": "D",
+          "text": "Situsinversus"
+        },
+        {
+          "letter": "E",
+          "text": "Dextrocardia"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[kartagener-syndrome]]（Radiopaedia + PCD 綜論 Presse Med 2023）",
+      "explanation": "Kartagener syndrome 的特徵是 situs inversus（內臟逆位，含 dextrocardia），而非 situs ambiguus（heterotaxy／內臟不定位）。三聯症為 situs inversus＋支氣管擴張＋鼻竇炎，並常見 dextrocardia。Situs ambiguus 屬 heterotaxy、分屬不同體軸異常，故 A 為不符合的敘述。→ [[kartagener-syndrome]]",
+      "images": [],
+      "concepts": [
+        "kartagener-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-354",
+      "year": 2022,
+      "number": 354,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is wrong about the following descriptions about Multinodular and vacuolating neuronal tumors (MVNT)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MVNTs are considered as one of the glioneuronal and neuronal tumors in the current (2021) WHO classification of CNS tumors"
+        },
+        {
+          "letter": "B",
+          "text": "Immunostaining is positive for synaptophysin, HuC/HuD neuronal antigens and p62 but negative for other markers (e.g. IDH1, nestin, NeuN, neurofilament, GFAP, and CD34)"
+        },
+        {
+          "letter": "C",
+          "text": "The tumors appear as a cluster of well-circumscribed high T2 signal 'bubbles' located predominantly in the subcortical white matter but can involve the overlying cortex; usually no enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "All are correct"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[multinodular-vacuolating-neuronal-tumor]]（Radiopaedia + STATdx Salzman/Osborn）",
+      "explanation": "選項 A（2021 WHO 歸為 glioneuronal and neuronal tumors）、B（synaptophysin/HuC-HuD/p62 陽性，IDH1/nestin/NeuN/neurofilament/GFAP/CD34 陰性）、C（皮質下白質一叢邊界清楚 T2 高訊號『泡泡』、可侵犯覆蓋皮質、通常不強化）逐條與 Radiopaedia、STATdx 相符，全部正確、無錯誤敘述，故答案為 D（All are correct）。→ [[multinodular-vacuolating-neuronal-tumor]]",
+      "images": [],
+      "concepts": [
+        "multinodular-vacuolating-neuronal-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-355",
+      "year": 2022,
+      "number": 355,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is wrong about the MRI vessel wall images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atherosclerotic plaque: usually concentric wall thickening and homogeneous enhancement"
+        },
+        {
+          "letter": "B",
+          "text": "Arterial dissection: intimal flap on T2-weighted images, intramural hematoma on T1-weighted images"
+        },
+        {
+          "letter": "C",
+          "text": "intracranial saccular aneurysms: lack of wall enhancement predicts aneurysm stability"
+        },
+        {
+          "letter": "D",
+          "text": "Extracranial carotid artery atherosclerotic plaque: detect features associated with high risk for ischemic events, such as thin/ruptured fibrous cap, large lipid-rich necrotic core, or intraplaque hemorrhage"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[mri-vessel-wall-imaging]]（Radiopaedia + STATdx Vessel Wall Abnormalities）",
+      "explanation": "A 為錯誤。動脈粥狀硬化斑塊在血管壁 MRI 上為偏心（eccentric）管壁增厚、不均勻（heterogeneous）強化；『同心圓＋均勻強化』是血管炎（vasculitis）的型態。選項 B（剝離：T2 內膜瓣、T1 壁內血腫）、C（囊狀動脈瘤：管壁無強化預測穩定）、D（顱外頸動脈斑塊高風險特徵）皆與 Radiopaedia、STATdx 相符、正確。→ [[mri-vessel-wall-imaging]]",
+      "images": [],
+      "concepts": [
+        "mri-vessel-wall-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-356",
+      "year": 2022,
+      "number": 356,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the MOST sensitive means of evaluating extent of residual disease in a patient status post neoadjuvant chemotherapy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Physical exam"
+        },
+        {
+          "letter": "B",
+          "text": "Mammography"
+        },
+        {
+          "letter": "C",
+          "text": "Ultrasound"
+        },
+        {
+          "letter": "D",
+          "text": "MRI"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[neoadjuvant-chemo-breast-cancer]]（Radiopaedia + Radiology 2019 Breast MRI State of the Art）",
+      "explanation": "對比劑增強 MRI（DCE-MRI）是評估前導化療後殘餘病灶範圍最敏感的方法，對腫瘤大小估計與額外病灶偵測皆優於理學檢查、乳房攝影與超音波。判讀須注意向心性 vs 碎裂型退縮型態影響殘餘範圍評估，且 MRI 無殘餘強化不等於病理 pCR。→ [[neoadjuvant-chemo-breast-cancer]]",
+      "images": [],
+      "concepts": [
+        "neoadjuvant-chemo-breast-cancer"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-357",
+      "year": 2022,
+      "number": 357,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列有關breast mass的敘述何者有誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "breast mass需詳述shape, margin及density"
+        },
+        {
+          "letter": "B",
+          "text": "用來形容breast mass margin的mammography lexicon包括circumscribed, indistinct, angular, spiculated等"
+        },
+        {
+          "letter": "C",
+          "text": "breast composition C or D可能造成breast mass判讀不易"
+        },
+        {
+          "letter": "D",
+          "text": "一般而言，high density mass比low density mass惡性度高"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[bi-rads-mass-lexicon]]（Radiopaedia + ACR BI-RADS Atlas 5th ed.）",
+      "explanation": "B 為錯誤。乳房攝影（mammography）的 mass margin 五詞是 circumscribed／obscured／microlobulated／indistinct／spiculated；『angular』是超音波（US）的 margin 用語、不是乳攝 lexicon。其餘正確：A（需詳述 shape/margin/density）、C（composition C/D 緻密乳房造成判讀不易）、D（一般而言 high density mass 比 low density mass 惡性度高，乳癌極少呈低密度）。→ [[bi-rads-mass-lexicon]]",
+      "images": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-358",
+      "year": 2022,
+      "number": 358,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列何者不是2001年所提出的acute aortic syndrome (AAS)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aortic dissection"
+        },
+        {
+          "letter": "B",
+          "text": "Intramural hematoma"
+        },
+        {
+          "letter": "C",
+          "text": "Intramural blood pool"
+        },
+        {
+          "letter": "D",
+          "text": "Penetrating atherosclerotic ulcer"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[acute-aortic-syndrome]]（Radiopaedia + STATdx Acute Aortic Syndromes）",
+      "explanation": "2001 年提出的 acute aortic syndrome 三大核心為 aortic dissection、intramural hematoma、penetrating atherosclerotic ulcer。Intramural blood pool（IBP）並非 AAS 獨立實體，而是壁內血腫（IMH）內的一種 focal aortic projection（分支假性動脈瘤），屬良性可觀察，故 C 不是 2001 年提出的 AAS。⚠️ 原始匯入之四個選項被 parser 併為單一字串（letter 空白），已依題意與答案還原為 A–D 四選項。→ [[acute-aortic-syndrome]]",
+      "images": [],
+      "concepts": [
+        "acute-aortic-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-359",
+      "year": 2022,
+      "number": 359,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "依照Stanford classification of aortic dissection，如果一位病患的dissection是由aortic arch開始到thoracic descending aorta，算是哪種type?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Type"
+        },
+        {
+          "letter": "B",
+          "text": "Type A with arch involvement Type B with arch involvement"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[aortic-dissection]]（Radiopaedia + STATdx Rajiah/Abbara, Cardiac Dx：Stanford A 侵犯升主動脈、B 不侵犯升主動脈）",
+      "explanation": "Stanford 分類只看是否侵犯 ascending aorta：Type A 侵犯升主動脈、Type B 不侵犯升主動脈。本例剝離自 aortic arch 起延伸至 descending thoracic aorta、未侵犯升主動脈，故為 Stanford Type B（DeBakey Type III）。⚠️ 原始選項因解析退化嚴重（僅 A/B、文字殘缺），正確概念答案為 Type B，建議醫師覆核原卷選項排列。 → [[aortic-dissection]]",
+      "images": [],
+      "concepts": [
+        "aortic-dissection"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-360",
+      "year": 2022,
+      "number": 360,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following radiographic features of the thoracolumbar spine is NOT usually seen in patients with ankylosing spondylitis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Syndesmophytes"
+        },
+        {
+          "letter": "B",
+          "text": "Squaring of the vertebrae"
+        },
+        {
+          "letter": "C",
+          "text": "Shiny corner appearance"
+        },
+        {
+          "letter": "D",
+          "text": "Picture frame appearance"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[ankylosing-spondylitis]]（Radiopaedia + STATdx Escobedo/Manaster, MSK Dx：AS 脊椎徵象為 syndesmophytes/squaring/shiny corners，picture frame 屬 Paget 病）",
+      "explanation": "「Picture frame appearance（畫框椎體）」是 Paget 病的椎體徵象（皮質與粗大骨小樑增厚勾勒出方框），非 AS 特徵。AS 胸腰椎典型 X 光徵象為細直垂直 syndesmophytes、椎體 squaring（方形化）、shiny corner／Romanus lesion（椎體角骨炎）。故「非 AS」者為 D。 → [[ankylosing-spondylitis]]",
+      "images": [],
+      "concepts": [
+        "ankylosing-spondylitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-361",
+      "year": 2022,
+      "number": 361,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "multicystic dysplastic kidneys (MCDK)常於產前超音波被診斷，請問以下敘述合者為是？ 可能合併對側腎臟的UPJ stenosis 患側的腎動脈可能消失 病灶由許多相連通的cysts組成，相當於水腎的表現 起因於GA 10 weeks 前嚴重的 UPJ stenosis 患側的腎功能完全喪失",
+      "options": [
+        {
+          "letter": "",
+          "text": "ABE ABDE BCDE ABCDE"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[multicystic-dysplastic-kidney]]（Radiopaedia + STATdx O'Hara, Pediatrics Dx：囊不相通、患腎無功能、對側 UPJ/VUR 常見）",
+      "explanation": "正確組合為 ABDE：①對側 UPJ 阻塞為 MCDK 最常見合併異常（對）、②患腎無功能腎動脈可萎縮消失（對）、④起因於 metanephric 期（約<10週）輸尿管/UPJ 閉鎖（對）、⑤患腎功能完全喪失（對）。③錯誤——MCDK 的囊彼此不相通、最大囊在周邊，與水腎（腎盞相通、最大為中央腎盂）相反。⚠️ 原始選項字串解析退化（ABE/ABDE/BCDE/ABCDE 併排），正確為 ABDE，對應官方標記選項 B。 → [[multicystic-dysplastic-kidney]]",
+      "images": [],
+      "concepts": [
+        "multicystic-dysplastic-kidney"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-362",
+      "year": 2022,
+      "number": 362,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列對於含碘對比劑腎病變，何者敘述錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[contrast-induced-aki]]（Radiopaedia + ACR Manual/台灣對比劑手冊 A6：CIN 為延遲非過敏性腎事件，epinephrine 用於急性過敏樣反應）",
+      "explanation": "D 為錯誤敘述：epinephrine（1:1000 IM）是急性過敏樣（anaphylactoid）對比劑反應的處置，不是對比劑腎病變（CIN/CA-AKI）的治療。CIN 為延遲性、非過敏性腎損傷，以水化與支持療法處理。⚠️ 本題選項將『急性對比劑反應之嚴重度分級處置』與『對比劑腎病變』混用，D 的錯誤點在於把過敏反應用藥套到腎病變上，建議醫師覆核原卷題幹。 → [[contrast-induced-aki]]",
+      "images": [],
+      "concepts": [
+        "contrast-induced-aki"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-363",
+      "year": 2022,
+      "number": 363,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement of Pancreatic Cysts about worrisome feature is wrong?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Cyst > 3cm Thickened/enhancing cyst wall Enhancing mural nodule Main pancreatic duct caliber > 7 mm"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pancreatic-cystic-lesions]]（Radiopaedia IPMN + STATdx Management of Pancreatic Cysts 引 2017 ACR White Paper）",
+      "explanation": "依 2017 ACR White Paper，worrisome imaging features 為 cyst ≥3 cm、thick/enhancing wall、NON-enhancing mural nodule、main pancreatic duct ≥7 mm。選項『Enhancing mural nodule』為錯——enhancing solid component/mural nodule 屬 high-risk stigmata（非 worrisome，worrisome 為 non-enhancing mural nodule）。⚠️ 原始選項四項並排於單一字串，錯誤者為第三項 Enhancing mural nodule，對應官方答案 C。 → [[pancreatic-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-364",
+      "year": 2022,
+      "number": 364,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement of Pancreatic Cysts about high-risk stigma is wrong?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Obstructive jaundice with cyst in head of pancreas Enhancing solid component within cyst Main pancreatic duct caliber > 10 mm in absence of obstruction Patient’s age over 80 years old"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pancreatic-cystic-lesions]]（Radiopaedia IPMN + STATdx Management of Pancreatic Cysts 引 2017 ACR White Paper）",
+      "explanation": "依 2017 ACR White Paper，high-risk imaging features 為 obstructive jaundice with pancreatic head cyst、enhancing solid component within cyst、main pancreatic duct ≥10 mm without obstruction。選項『Patient's age over 80 years old』為錯——年齡 >80 歲不是 high-risk 影像特徵（ACR 演算法反在 ≥80 歲另立追蹤路徑、追蹤通常止於 80 歲）。⚠️ 原始選項四項並排於單一字串，錯誤者為第四項年齡 >80 歲，對應官方答案 D。 → [[pancreatic-cystic-lesions]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-366",
+      "year": 2022,
+      "number": 366,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the MOST common cause of an enlarged coronary sinus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Unroofed coronary sinus"
+        },
+        {
+          "letter": "B",
+          "text": "Bridging vein"
+        },
+        {
+          "letter": "C",
+          "text": "Total anomalous pulmonary venous return"
+        },
+        {
+          "letter": "D",
+          "text": "Persistent left SVC"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[enlarged-coronary-sinus]]（Radiopaedia Coronary sinus + STATdx Persistent Left Superior Vena Cava, Silva 2021）",
+      "explanation": "冠狀竇擴大在本題選項中以 D「Persistent left SVC」為正解。永存左上腔靜脈（PLSVC）是最常見的先天胸腔靜脈異常（一般人群 0.3–0.5%），左內頸與左鎖骨下靜脈匯流後沿主動脈弓左側垂直下行，多數引流入冠狀竇而使其擴大；左臂注射對比劑時冠狀竇會比右心房先亮。⚠️ 若不限先天成因，冠狀竇擴大整體最常見成因其實是右心房壓力升高（右心衰竭/肺高壓），本題選項未列此項故答 PLSVC。→ [[enlarged-coronary-sinus]]",
+      "images": [],
+      "concepts": [
+        "enlarged-coronary-sinus"
+      ],
+      "checked": false
     }
   ]
 }

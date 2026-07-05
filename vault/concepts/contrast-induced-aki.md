@@ -61,6 +61,7 @@ same:
 [^1]: ACR-NKF 共識（一手、開放取用,實際查證 accessed 2026-06-20）：Davenport MS, Perazella MA, Yee J, et al. *Use of Intravenous Iodinated Contrast Media in Patients with Kidney Disease: Consensus Statements from the ACR and NKF*. Radiology. 2020;294(3):660-668. doi:10.1148/radiol.2019192094——明確區分 **CI-AKI（AKI caused by contrast）vs CA-AKI（AKI coincident to contrast）**;**eGFR <30 mL/min/1.73m²（未透析）屬高風險、可考慮預防**。另 ACR Manual on Contrast Media、中華民國放射線醫學會《對比劑手冊》2023（本機 gitignore）：診斷 3 天內 Cr ≥0.3 mg/dL 或 ≥1.5×;正常腎功能常規劑量無劑量-毒性;心導管研究高估 IV 風險。
 [^2]: 對比劑腎病變風險因子（台灣手冊/ACR）：**最重要為既存嚴重腎功能不全**;DM、脫水、心血管病、短時間多次劑量為次要。
 [^3]: *ACR Manual on Contrast Media*, page 36 / Version 10.2 (2016) pp.33-40（2018 交換考題詳解 p.101/360 引用；Tier 1 指引）。AKIN診斷標準：腎毒性事件後48小時內，肌酸酐絕對值上升≥0.3 mg/dL、或相對上升≥50%(≥1.5倍基礎值)、或尿量≤0.5 mL/kg/hr達6小時以上，符合任一項即成立。等張性(iso-osmolar)對比劑相較現行低張性(low-osmolar)並無明顯更佳腎保護；CIN 最重要因素為既存腎功能障礙；低張性對比劑除非極大劑量/心功能障礙，否則洗腎病人接受 IV 對比劑不需檢查後緊急洗腎。
+[^4]: *Contrast-induced (acute kidney injury) nephropathy*. Radiopaedia.org（實際查證 accessed 2026-07-05）：CI-AKI 指血管內注射含碘對比劑後假定相關的急性腎損傷；現代文獻多改稱 CA-AKI 以免過度歸因；屬**延遲性、非過敏性**腎事件，處置以**水化／支持療法**為主。**腎上腺素（epinephrine 1:1000 IM）是急性過敏樣（anaphylactoid）對比劑反應之處置，並非對比劑腎病變之治療**——故本題「嚴重腎病變症狀給予 epinephrine」為錯誤敘述。台灣《對比劑手冊》A6 與 ACR Manual 分別將「急性對比劑反應（依輕/中/重度分級處置，重度過敏用 epinephrine）」與「對比劑腎病變」列為不同章節。
 
 ## 題目
 > [!question]- Which one is the predisposing factor of contrast-induced nephropathy? (2018-393)
@@ -71,6 +72,9 @@ same:
 
 > [!question]- 有關 iodinated contrast medium，以下敘述何者有誤? (2018-443)
 > **等張性含碘對比劑會比低張性對比劑有明顯更好的腎功能保護作用（B）**——以現行低張性(low-osmolar)對比劑注射，等張性(iso-osmolar)並無明顯更佳腎保護。CIN 定義為注射後 48 小時內 serum creatinine 上升≥50%(A對)、CIN 最重要因素為既存腎功能障礙(C對)、低張性對比劑除非極大劑量/心功能障礙否則洗腎病人不需檢查後急洗腎(D對)皆正確。[^3]
+
+> [!question]- 下列對於含碘對比劑腎病變，何者敘述錯誤? (2022-362)
+> **「嚴重症狀可以給予 epinephrine (1:1000) 1 mL」（D）為錯誤敘述**——epinephrine（1:1000 IM）是**急性過敏樣（anaphylactoid）對比劑反應**（如喉頭水腫、支氣管痙攣、低血壓）之處置，**不是對比劑腎病變（CIN/CA-AKI）的治療**；CIN 為延遲性、非過敏性腎事件，以水化／支持療法處理。⚠️ 本題選項將「急性對比劑反應之嚴重度分級處置」與「對比劑腎病變」混用，D 之錯誤點在於把過敏反應用藥套到腎病變上。[^3][^4]
 
 ## 考題
 ```dataview

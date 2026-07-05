@@ -46,6 +46,9 @@ dateRev: 2026-07-02
 > [!question]- Which is wrong among the following statements of neoadjuvant chemotherapy in breast cancer? (2018-003)
 > **Full axillary nodal dissection shouldn't be omitted for node-positive disease that converts to clinically node-negative disease after neoadjuvant chemotherapy（B）**——實際上愈來愈多證據支持可省略完整腋窩廓清。[^1]
 
+> [!question]- What is the MOST sensitive means of evaluating extent of residual disease in a patient status post neoadjuvant chemotherapy? (2022-356)
+> **D（關鍵）MRI**——對比劑增強 MRI（DCE-MRI）是評估前導化療後**殘餘病灶範圍最敏感**的方法，對腫瘤大小估計與額外病灶偵測皆優於理學檢查(A)、乳房攝影(B)與超音波(C)。判讀須注意「向心性 vs 碎裂型」退縮型態影響殘餘範圍評估，且 MRI 無殘餘強化不等於病理 pCR（可有偽陰／偽陽）。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "neoadjuvant-chemo-breast-cancer")

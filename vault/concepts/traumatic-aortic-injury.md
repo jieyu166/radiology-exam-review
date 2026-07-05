@@ -40,6 +40,9 @@ dateRev: 2026-07-01
 > [!question]- What should be the main reason to obtain a chest CT in the setting of possible acute traumatic aortic injury? (2018-440)
 > **Mechanism of trauma（B）**——高能量減速傷之受傷機轉本身即為安排胸部CT評估主動脈損傷的主要理由。異常胸部X光(A)、胸痛(D)僅為輔助線索、敏感度特異度不足；病人要求(C)非臨床適應症。[^1]
 
+> [!question]- Which of the following chest radiographic appearance suggestive of diagnosis of acute aortic injury? (2022-352)
+> **E（關鍵）All of above**——**縱膈腔增寬（widened mediastinum）、左心尖帽（left apical cap）、主動脈輪廓異常（abnormal aortic contour）、左脊椎旁線增寬（widened left paraspinous line）皆為外傷性主動脈損傷的間接胸部X光徵象**，故四者皆是、答案為 E。這些徵象源於主動脈周圍／縱膈血腫，敏感度特異度不足、正常胸片不能排除，須依受傷機轉安排 CTA 確診。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "traumatic-aortic-injury")
