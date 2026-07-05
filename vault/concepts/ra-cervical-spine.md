@@ -54,6 +54,17 @@ same:
 - **Cervicomedullary angle（延髓—頸髓夾角）**：**正常 135°–175°**;**<135° 異常**，與脊髓病變/C2 神經根痛相關。[^2]
 - 齒突侵蝕盛行率約 43–47%，典型為**邊緣銳利、兩個平面皆可見**。[^2]
 
+### 4b. RA 一般發炎性關節炎 MRI 三大徵象（RAMRIS 框架，非僅頸椎）
+> [!info] 為何重要
+> 交換考題常直接考「發炎性關節炎在 MRI 上的三大表現」與各自訊號/強化特性。此為 RAMRIS（RA MRI Scoring）核心，任一關節（手腕/掌指最典型）皆適用。
+
+- **三大徵象＝滑膜炎（synovitis）、骨炎（osteitis／骨髓水腫）、侵蝕（erosions）**;常再加關節積液（effusion）與腱鞘炎（tenosynovitis）。[^6][^5]
+- **滑膜炎（synovitis／pannus）**：活動性滑膜增生**T2/fluid-sensitive 呈高訊號**，且**打對比劑後 T1 C+ FS 明顯強化（avidly enhancing），勾勒出低訊號的積液與侵蝕輪廓**——**「活動性滑膜炎會強化」是關鍵**;慢性/纖維化 pannus 則強化較弱、T2 較低。故「滑膜炎高 T2 但**不**強化」的敘述**是錯的**。[^6]
+- **骨炎（osteitis）＝軟骨下（subarticular）骨髓水腫**：fluid-sensitive 序列軟骨下高訊號;為**疾病早期即可出現**、且是**侵蝕進展的強力預測因子**。[^6]
+- **侵蝕（erosions）**：多始於關節囊內、**軟骨未覆蓋的「裸區（bare area）」**（掌骨頭邊緣、指骨基部、尺/橈骨莖突），之後才進展為直接軟骨下侵蝕;T1 上為軟骨下低訊號皮質線之中間訊號中斷。[^6][^5]
+- **腱鞘炎（tenosynovitis）**：常為 MR 最早發現，**屈肌腱鞘受累是 RA 的強力預測指標**（非特異但敏感）。[^6]
+- 影像工具：X 光為初始;若陰性則 US（含 Doppler）或 MR 偵測早期病變，**MR 最適合追蹤早期侵蝕**。[^6]
+
 ### 5. 鑑別診斷（DDx）
 - **Ankylosing spondylitis（AS）/ DISH**：以**強直、骨贅、韌帶骨化**為主（AS 竹節椎、squaring;DISH 右側流注狀骨化），通常**造成僵硬而非寰樞不穩定**——與 RA 的侵蝕性、可動性不穩定相反。[^4]
 - **退化性（spondylosis）**：椎間盤狹窄、骨贅、facet 退化，無齒突侵蝕/pannus。
@@ -68,6 +79,13 @@ same:
 [^2]: Tier 1（Rheumatology International / Springer）— *Radiological assessment and surgical management of cervical spine involvement in patients with rheumatoid arthritis*. Rheumatol Int. 2022 Nov 15;43(2):195–208. DOI: 10.1007/s00296-022-05239-5。三型頻率（AAS 65%/SOM 20%/SAS 15%）、ADI/PADI 閾值、Ranawat/Redlund-Johnell/Clark、cervicomedullary angle 135–175°（<135° 異常）、SAS ≥3.5 mm 與 SAC <14 mm、齒突侵蝕 43–47%。
 [^3]: Tier 2（PMC / Reumatologia）— *Cervical spine instability in the course of rheumatoid arthritis – imaging methods*. Reumatologia. 2017;55(4):201–207. PMCID: PMC5647537。AADI 正常<3 mm、>5 mm 顯著、>8 mm 手術區間;PADI 14 mm 閾值;Chamberlain >3 mm、McGregor >4.5 mm;Ranawat <13mm(女)/<15mm(男)、Redlund-Johnell <34mm(男)/<29mm(女);pannus 厚 >3 mm 及 T2 富血管強化。
 [^4]: Tier 2（PubMed / 影像綜述輔助）— craniocervical junction RA 影像與鑑別（AS/DISH 為強直性、CPPD crowned dens 為鈣化、感染為破壞性），及垂直脫位須 MRI（含屈曲位）評估腦幹/上頸髓壓迫之原則。對應 J Clin Med 2020;9(3):811 與 ECR 2023 craniocervical junction in RA 教學海報之共識陳述。
+[^5]: *Rheumatoid arthritis*. Radiopaedia.org（accessed 2026-07-05）：RA 為對稱性侵蝕性關節炎;marginal erosions 始於關節囊內「bare area（軟骨未覆蓋處）」;早期病變 MR 較 X 光敏感。
+[^6]: Tier 1（STATdx / Elsevier）— Escobedo EM, Manaster BJ. *Rheumatoid Arthritis of Wrist and Hand*. STATdx（last updated 2022-02-10, accessed 2026-07-05）。MR 徵象：bone edema（osteitis）、synovitis、erosions、effusion、pannus;**T1 C+ FS 滑膜「avidly enhancing」勾勒低訊號積液與侵蝕**（活動性滑膜炎會強化）;軟骨下 marrow edema-like signal 為侵蝕進展強力預測因子;marginal erosions 始於「bare area」;flexor tenosynovitis 為 RA 強力預測指標;MR 最適追蹤早期侵蝕。
+
+## 題目
+
+> [!question]- Which description about rheumatic arthritis is WRONG? (2022-373)
+> **B（關鍵）** 錯在「without enhancement」。發炎性關節炎 MRI 三大徵象為 synovitis、osteitis、erosions（選項 A 對）。活動性滑膜炎（synovial proliferation）在 T2/fluid-sensitive 呈高訊號，且**打對比劑後 T1 C+ FS 會明顯強化（avidly enhancing synovium）**，用以勾勒低訊號積液與侵蝕輪廓;故 B 敘述「T2 高訊號但**不**強化」與活動性疾病特徵相矛盾，為非。選項 C（osteitis＝軟骨下骨髓水腫、早期即現）正確;選項 D（侵蝕多始於關節囊周邊、軟骨未覆蓋之「bare area」）正確。→ [[ra-cervical-spine]]。[^6][^5]
 
 ## 考題
 ```dataview

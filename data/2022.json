@@ -11391,6 +11391,43 @@
         "plantar-fibroma"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-373",
+      "year": 2022,
+      "number": 373,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about rheumatic arthritis is WRONG?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A. The three main findings of an inflammatory arthritis on MRI are synovitis, osteitis, and erosions."
+        },
+        {
+          "letter": "B",
+          "text": "B. Synovitis, or synovial proliferation, is indicative of active disease and will appear as high signal on T2-weighted images without enhancement on post-contrast images."
+        },
+        {
+          "letter": "C",
+          "text": "C. Osteitis is the presence of bone marrow edema in a subarticular location and seen in the early stage of the disease process."
+        },
+        {
+          "letter": "D",
+          "text": "D. Most erosions in inflammatory arthritidies are at the periphery of the bone and joint capsule where there is absence of articular cartilage."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[ra-cervical-spine]]（Radiopaedia + STATdx 簡述）",
+      "explanation": "本題問「何者為非」。發炎性關節炎 MRI 三大徵象為 synovitis、osteitis、erosions（A 正確）。B 為錯：活動性滑膜炎（synovial proliferation）在 T2/fluid-sensitive 影像呈高訊號，且打對比劑後 T1 C+ FS 會「明顯強化（avidly enhancing）」以勾勒低訊號積液與侵蝕輪廓——B 稱「without enhancement」與活動性疾病特徵矛盾，故為非。C 正確（osteitis＝軟骨下骨髓水腫、疾病早期即現，且為侵蝕進展的強力預測因子）。D 正確（侵蝕多始於關節囊內、軟骨未覆蓋之『bare area』，如掌骨頭邊緣、指骨基部、尺/橈骨莖突）。⚠️ 原輸入標記答案為 D，經 STATdx（RA of Wrist and Hand）與 Radiopaedia 查證後更正為 B。→ [[ra-cervical-spine]]",
+      "images": [],
+      "concepts": [
+        "ra-cervical-spine"
+      ],
+      "checked": false
     }
   ]
 }
