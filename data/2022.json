@@ -12574,6 +12574,532 @@
         "contrast-reaction-severity-management"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-409",
+      "year": 2022,
+      "number": 409,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is not the cause of nodules in a cirrhotic liver?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hepatocellular carcinoma"
+        },
+        {
+          "letter": "B",
+          "text": "Myelolipoma"
+        },
+        {
+          "letter": "C",
+          "text": "Regenerative nodule"
+        },
+        {
+          "letter": "D",
+          "text": "Focal fat infiltration"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[cirrhotic-liver-nodules]]（Radiopaedia Cirrhosis + RadioGraphics 2008 Hanna 肝硬化肝細胞結節 MRI 綜述）",
+      "explanation": "肝硬化的結節皆為肝細胞來源的連續光譜：再生結節（regenerative nodule）→ 發育不良結節 → 肝細胞癌（HCC），另加局部脂肪浸潤／保留、融合性纖維化等亦可造成結節狀外觀。Myelolipoma 是含成熟脂肪與造血（骨髓）組織的良性腫瘤，典型位於腎上腺，與肝硬化結節生成機轉無關，故為「非」肝硬化結節成因。→ [[cirrhotic-liver-nodules]]",
+      "images": [],
+      "concepts": [
+        "cirrhotic-liver-nodules"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-410",
+      "year": 2022,
+      "number": 410,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Pancreas divisum, a variation in pancreatic ductal anatomy, in the majority of cases, by the __ directly entering the minor papilla with no communication with the ventral duct and thus, the major papilla.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Duct of Wirsung"
+        },
+        {
+          "letter": "B",
+          "text": "Duct of Santorini"
+        },
+        {
+          "letter": "C",
+          "text": "Accessory pancreatic duct"
+        },
+        {
+          "letter": "D",
+          "text": "Replaced pancreatic duct"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[pancreas-divisum]]（Radiopaedia Pancreas divisum + RadioGraphics 2013 Tirkes secretin-enhanced MRCP）",
+      "explanation": "Pancreas divisum 為最常見的胰管變異，胚胎期腹側與背側胰管未融合。多數病例中，背側胰管（即主胰管與 duct of Santorini）直接進入副乳頭（minor papilla），與腹側胰管（duct of Wirsung，連主乳頭/major papilla）無交通。故直接進入副乳頭者為 Duct of Santorini。→ [[pancreas-divisum]]",
+      "images": [],
+      "concepts": [
+        "pancreas-divisum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-411",
+      "year": 2022,
+      "number": 411,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Renal vascular assessment is crucial in renal transplant evaluation. Which arterial condition is NOT the contraindication to donor nephrectomy?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Fibromuscular disease involving renal artery."
+        },
+        {
+          "letter": "B",
+          "text": "Triplicated renal arteries."
+        },
+        {
+          "letter": "C",
+          "text": "Duplicated renal arteries with luminal diameter greater than 3 mm."
+        },
+        {
+          "letter": "D",
+          "text": "Atherosclerosis with severe stenosis of renal artery."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[renal-donor-vascular-evaluation]]（Radiopaedia 腎移植捐贈評估 + RadioGraphics 2004 Kawamoto MDCT 活體腎捐贈術前評估）",
+      "explanation": "活體腎捐贈術前 CTA 目的在找出傷害捐贈者或不利移植的血管病變。管徑足夠（>3 mm）的重複腎動脈可外科吻合重建，屬可接受、非絕對禁忌。相對地：腎動脈 FMD 提示捐贈者潛在血管病、進展與動脈瘤風險；嚴重動脈粥狀硬化狹窄使供腎灌流受損；三條（triplicated）腎動脈增加重建困難——皆屬不利／禁忌。故「不」是禁忌者為 C。→ [[renal-donor-vascular-evaluation]]",
+      "images": [],
+      "concepts": [
+        "renal-donor-vascular-evaluation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-412",
+      "year": 2022,
+      "number": 412,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "In urinary bladder staging system (AJCC 8th ed.), if an extravesical tumor invades directly into prostatic stroma, what is the T stage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T1"
+        },
+        {
+          "letter": "B",
+          "text": "T2"
+        },
+        {
+          "letter": "C",
+          "text": "T3"
+        },
+        {
+          "letter": "D",
+          "text": "T4a"
+        },
+        {
+          "letter": "E",
+          "text": "T4b"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[bladder-cancer-ajcc8-staging]]（Radiopaedia 膀胱癌分期 + RadioGraphics 2024 VI-RADS 實務指南）",
+      "explanation": "AJCC 8th 膀胱癌 T4a＝腫瘤侵犯攝護腺基質、儲精囊、子宮或陰道。當膀胱外腫瘤經直接蔓延（穿膀胱壁全層之膀胱外途徑）侵入攝護腺基質時＝T4a；須與經尿道內途徑之攝護腺侵犯（依尿道／攝護腺尿道規則分期）區分。T4b 則為侵犯骨盆壁或腹壁。故為 T4a。→ [[bladder-cancer-ajcc8-staging]]",
+      "images": [],
+      "concepts": [
+        "bladder-cancer-ajcc8-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-413",
+      "year": 2022,
+      "number": 413,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following diseases does NOT demonstrate bilateral multifocal subcortical DW hyperintensities?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Alexander disease"
+        },
+        {
+          "letter": "B",
+          "text": "Canavan disease"
+        },
+        {
+          "letter": "C",
+          "text": "Fragile X-associated tremor/ataxia syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Neuronal intranuclear inclusion disease"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[bilateral-subcortical-dwi-hyperintensity-ddx]]（Radiopaedia NIID + Brain Behav 2019 成人型 NIID 典型 MRI）",
+      "explanation": "神經元核內包涵體病（NIID）招牌徵象＝雙側皮質-髓質交界沿腦回呈帶狀 DWI 高訊號；Canavan 累及皮質下 U-fibers、FXTAS 亦可見皮質下白質／DWI 變化，皆可表現雙側皮質下 DWI 高訊號。Alexander disease 為額葉為主、累及深部白質與基底核、腦幹的白質失養症，非此皮質下多灶 DWI 型態，故為「不」符合者。→ [[bilateral-subcortical-dwi-hyperintensity-ddx]]",
+      "images": [],
+      "concepts": [
+        "bilateral-subcortical-dwi-hyperintensity-ddx"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-414",
+      "year": 2022,
+      "number": 414,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "對慢性兒童型腦硬化症 ( Pelizaeus-Merzbacher Disease )之敘述，何者錯誤 ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "是一中樞神經髓鞘發育不良（hypomyelination）的疾病"
+        },
+        {
+          "letter": "B",
+          "text": "X染色體（Xq22.2）上類脂質蛋白(proteolipid protein)基因(PLP1)發生突變所致"
+        },
+        {
+          "letter": "C",
+          "text": "PLP1基因的突變或重複／缺失皆可能導致PMD（其中以重複最常見）"
+        },
+        {
+          "letter": "D",
+          "text": "為體染色體隱性（autosomal recessive）遺傳疾病"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pelizaeus-merzbacher-disease]]（Radiopaedia PMD + Neurol Genet 2020 PMD 樣低髓鞘化白質病 mimics）",
+      "explanation": "⚠️ 原題四選項於資料匯入時退化合併為單一文字塊，已依來源重建為 A–D 並保留答案字母 D。A/B/C 均正確：PMD 為中樞神經髓鞘發育不良（hypomyelination）疾病、由 Xq22 之 PLP1（proteolipid protein）基因異常所致、突變與重複／缺失皆可致病（重複最常見）。D「體染色體隱性遺傳」為錯誤——PMD 屬 X 染色體性聯（X-linked）遺傳，主要影響男性。→ [[pelizaeus-merzbacher-disease]]",
+      "images": [],
+      "concepts": [
+        "pelizaeus-merzbacher-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-415",
+      "year": 2022,
+      "number": 415,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "對結節性硬化症 ( Tuberous Sclerosis )之敘述，何者錯誤 ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "會造成皮質發育不良（神經元移行／分化異常），產生皮質結節等病灶"
+        },
+        {
+          "letter": "B",
+          "text": "有些患者會出現腦皮質結節 (cortical tubers)、腦室管下結節 (subependymal nodule)"
+        },
+        {
+          "letter": "C",
+          "text": "有些患者會有心橫紋肌瘤 (Cardiac rhabdomyoma)"
+        },
+        {
+          "letter": "D",
+          "text": "腦部病灶主要為髓鞘脫失 (demyelination) 所致的白質病變"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[tuberous-sclerosis]]（Radiopaedia TSC + Pediatr Neurol 2021 國際 TSC 診斷準則）",
+      "explanation": "⚠️ 原題四選項於資料匯入時退化合併為單一文字塊，已依來源重建為 A–D 並保留答案字母 D。A/B/C 均正確：TSC 為 mTOR 路徑失調之錯構瘤性／皮質發育不良疾病，可見皮質結節（cortical tubers）、室管膜下結節（subependymal nodules）與 SEGA，部分患者有心臟橫紋肌瘤。D「腦部病灶主要為髓鞘脫失（demyelination）所致之白質病變」為錯誤——TSC 中樞病灶屬皮質發育不良／錯構瘤，而非脫髓鞘型白質病。→ [[tuberous-sclerosis]]",
+      "images": [],
+      "concepts": [
+        "tuberous-sclerosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-416",
+      "year": 2022,
+      "number": 416,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about the advantages of color and power Doppler is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Color Doppler determines the flow direction"
+        },
+        {
+          "letter": "B",
+          "text": "Color Doppler determines relative flow velocity"
+        },
+        {
+          "letter": "C",
+          "text": "Power Doppler is more affected by Doppler angle"
+        },
+        {
+          "letter": "D",
+          "text": "Power Doppler relates to blood-flow volume"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[color-vs-power-doppler]]（Radiopaedia + STATdx / RadioGraphics Doppler 原理綜述，Tier-1）",
+      "explanation": "答案 C。⚠️ 原輸入四項敘述全擠在單一選項 A，已依來源重建為 A–D 四選項。「Power Doppler is more affected by Doppler angle（能量都卜勒較受都卜勒角度影響）」為錯誤——能量都卜勒以訊號振幅（power/amplitude）編碼，不依賴都卜勒角度（angle-independent）、無 aliasing，這正是其對慢/低流敏感的優勢。其餘為真：彩色都卜勒可判斷血流方向、可反映相對流速（依平均頻移編碼）；能量都卜勒與血流量（血球密度）相關。→ [[color-vs-power-doppler]]",
+      "images": [],
+      "concepts": [
+        "color-vs-power-doppler"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-417",
+      "year": 2022,
+      "number": 417,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about the ultrasound appearance of gallbladder disease is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The wall-echo-shadow complex is a sign of a partially stone-filled gallbladder."
+        },
+        {
+          "letter": "B",
+          "text": "Common findings of acute cholecystitis include gallstones, wall thickening, pericholecystic fluid and sonographic Murphy's sign."
+        },
+        {
+          "letter": "C",
+          "text": "A characteristic finding of gallbladder adenomyomatosis is comet-tail artifact."
+        },
+        {
+          "letter": "D",
+          "text": "Cholesterolosis may produce cholesterol polyps, appearing as a nonmobile, nonshadowing ball on the wall."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[cholelithiasis-ultrasound]]（Radiopaedia + Diagnostic Imaging: Ultrasound / Nat Rev Dis Primers Gallstones，Tier-1）",
+      "explanation": "答案 A。⚠️ 原輸入四項敘述全擠在單一選項 A，已依來源重建為 A–D 四選項。「Wall-echo-shadow（WES）複合徵是膽囊『部分』充滿結石的表現」為錯誤——WES 實為膽囊『幾乎完全填滿/packed』結石時的表現（前壁弧狀高回音 wall＋結石表面 echo＋濃密後方 shadow，膽囊腔消失），非部分充滿。其餘皆正確：急性膽囊炎常見結石＋膽囊壁增厚＋周圍積液＋超音波墨菲氏徵；腺肌症特徵為 comet-tail artifact；膽固醇沉積症可形成不動、無聲影的膽固醇息肉。→ [[cholelithiasis-ultrasound]]",
+      "images": [],
+      "concepts": [
+        "cholelithiasis-ultrasound"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-418",
+      "year": 2022,
+      "number": 418,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "根據 BIRADS ,下列哪一種 乳房鈣化的Likelihood of malignancy 最高 ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Round circumscribed"
+        },
+        {
+          "letter": "B",
+          "text": "Oval circumscribed"
+        },
+        {
+          "letter": "C",
+          "text": "Oval microlobulated"
+        },
+        {
+          "letter": "D",
+          "text": "Irregular spiculated"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-calcifications]]（Radiopaedia BI-RADS + ACR BI-RADS Atlas 5th ed，Tier-1）",
+      "explanation": "答案 D。⚠️ 題幹寫「乳房鈣化」但四個選項實為 BI-RADS 腫塊（mass）之 shape/margin 描述詞（round/oval/irregular 之形＋circumscribed/microlobulated/spiculated 之緣），非鈣化型態。依 BI-RADS，腫塊惡性風險隨 shape（oval/round→irregular）與 margin（circumscribed→microlobulated→spiculated）遞增，故 Irregular spiculated 惡性可能性最高；round/oval circumscribed 為典型良性。→ [[breast-calcifications]]",
+      "images": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-419",
+      "year": 2022,
+      "number": 419,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列哪一種 Non-mass enhancement at breast MRI的Likelihood of malignancy 最高 ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffuse"
+        },
+        {
+          "letter": "B",
+          "text": "Focal"
+        },
+        {
+          "letter": "C",
+          "text": "Regional"
+        },
+        {
+          "letter": "D",
+          "text": "Segmental"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-mri-enhancement-patterns]]（Radiopaedia + ACR BI-RADS MRI lexicon，Tier-1）",
+      "explanation": "答案 D。依 ACR BI-RADS MRI lexicon，non-mass enhancement 之分佈越沿乳管/乳葉系統走向越可疑：segmental（三角形、沿一乳葉乳管分支、尖端指向乳頭）惡性率最高、常反映導管型病變（如 DCIS）；linear 次之。相對地 diffuse（瀰漫隨機）幾乎皆良性，regional 與 focal 惡性率較低。故惡性風險大致 segmental > linear > focal/regional > diffuse。→ [[breast-mri-enhancement-patterns]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-enhancement-patterns"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-420",
+      "year": 2022,
+      "number": 420,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement is true regarding testicular microlithiasis :",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Incidental finding during ultrasound of scrotum"
+        },
+        {
+          "letter": "B",
+          "text": "Link between testicular microlithiasis as well as male infertility"
+        },
+        {
+          "letter": "C",
+          "text": "Clinical consequence depend on co-occurrence of risk factors."
+        },
+        {
+          "letter": "D",
+          "text": "Testicular microlithiasis alone in the absence of risk factor is not indication for further investigation."
+        },
+        {
+          "letter": "E",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[testicular-microlithiasis]]（Radiopaedia + STATdx Testicular Microlithiasis，Tier-1）",
+      "explanation": "答案 E。四項敘述皆正確：(A) 睪丸微石症多為陰囊超音波偶然發現；(B) 文獻報告與男性不孕有相關；(C) 臨床意義取決於是否共存風險因子（GCT 個人/家族史、隱睪、orchidopexy、睪丸萎縮、不孕）；(D) 單純 TM 且無風險因子並非進一步檢查適應症。故 All of the above。→ [[testicular-microlithiasis]]",
+      "images": [],
+      "concepts": [
+        "testicular-microlithiasis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-421",
+      "year": 2022,
+      "number": 421,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding cause of portal vein thrombosis in liver cirrhosis:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Portal flow stasis(velocity less than 15 cm/sec)"
+        },
+        {
+          "letter": "B",
+          "text": "Complex acquired hypercoagulable disorders"
+        },
+        {
+          "letter": "C",
+          "text": "Exogenous factors leading to endothelial dysfunction"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[portal-vein-thrombosis-cirrhosis]]（Radiopaedia + STATdx Portal Vein Occlusion，Tier-1）",
+      "explanation": "答案 D。肝硬化門靜脈血栓成因符合 Virchow 三要素：(A) 門脈血流淤滯（流速 <15 cm/s）、(B) 複雜後天性高凝障礙、(C) 導致內皮功能異常之外源因子（局部發炎/感染），三者皆為成因，故 All of the above。判讀時須先分辨良性血栓與腫瘤血栓（後者擴張管腔 >23 mm、有強化、與 HCC 相連）。→ [[portal-vein-thrombosis-cirrhosis]]",
+      "images": [],
+      "concepts": [
+        "portal-vein-thrombosis-cirrhosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-422",
+      "year": 2022,
+      "number": 422,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "A 62-year-old man with diabetes and hypertension has scrotal swellings. Which of the following would be included in the differential diagnosis A: Inguinal hernia B: Liposacroma C: Spermatic cord lipoma D: Undescended testis",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A only"
+        },
+        {
+          "letter": "B",
+          "text": "A and C"
+        },
+        {
+          "letter": "C",
+          "text": "A,B,C"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[extratesticular-scrotal-mass-ddx]]（Radiopaedia Inguinal canal lipoma + STATdx Extratesticular Solid Mass，Tier-1）",
+      "explanation": "答案 C（A,B,C）。62 歲成人之陰囊/腹股溝腫脹（尤其含脂肪腫塊）鑑別包含 A 腹股溝疝氣、B 脂肪肉瘤（成人最常見惡性間葉腫瘤之一）、C 精索脂肪瘤（睪丸外最常見良性腫瘤）。D 未下降睪丸（隱睪）不列入——隱睪多於嬰幼兒/兒童診斷、睪丸不位於陰囊，非 62 歲以陰囊腫脹表現者之鑑別。故 A,B,C。→ [[extratesticular-scrotal-mass-ddx]]",
+      "images": [],
+      "concepts": [
+        "extratesticular-scrotal-mass-ddx"
+      ],
+      "checked": false
     }
   ]
 }

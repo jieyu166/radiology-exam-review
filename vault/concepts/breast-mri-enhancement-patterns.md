@@ -42,6 +42,9 @@ dateRev: 2026-07-04
 > [!question]- Regarding abnormal enhancement on breast MRI, which statement is suggestive of a benign lesion? (2019-232)
 > 正確答案 **B**：A circumscribed mass with non-enhancing, dark, internal septation（提示 fibroadenoma 等良性）。[^1][^2]
 
+> [!question]- 下列哪一種 Non-mass enhancement at breast MRI 的 Likelihood of malignancy 最高？ (2022-419)
+> **Segmental（D）惡性可能性最高**——依 ACR BI-RADS MRI lexicon，NME **分佈（distribution）** 越沿乳管/乳葉系統走向越可疑：**segmental（三角形、沿一乳葉乳管分支、尖端指向乳頭）** 惡性率最高，常反映導管型病變（如 DCIS）；**linear** 次之。相對地 **diffuse（瀰漫、隨機散在）** 幾乎皆良性，**regional（>大範圍、非乳管走向）** 與 **focal（<小範圍局灶）** 惡性率較低。故惡性風險大致 segmental > linear > focal/regional > diffuse。[^1][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-mri-enhancement-patterns")

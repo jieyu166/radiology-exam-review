@@ -107,6 +107,9 @@ dateRev: 2026-06-29
 > [!question]- Which of the following description about breast calcification is WRONG? (2020-302)
 > **可疑鈣化型態包括amorphous、coarse heterogeneous、dystrophic、fine pleomorphic、fine-linear/fine-linear branching（A）**為錯誤——**dystrophic實屬典型良性型態**，不應列入可疑型態清單（可疑型態僅四類，不含dystrophic）。Fine-linear/branching於可疑型態中PPV最高、rim鈣化為oil cyst典型表現、大而邊界銳利合併爆米花狀鈣化為involuting fibroadenoma典型表現，皆正確。[^1][^2]
 
+> [!question]- 根據 BIRADS，下列哪一種乳房鈣化的 Likelihood of malignancy 最高？ (2022-418)
+> **Irregular spiculated（D）惡性可能性最高**。⚠️ 本題選項（round/oval/irregular 之 shape＋circumscribed/microlobulated/spiculated 之 margin）實為 BI-RADS **腫塊（mass）** 之形態/邊緣描述詞，而非鈣化型態描述——依 BI-RADS，腫塊惡性風險隨 **shape：oval/round → irregular** 及 **margin：circumscribed → microlobulated → spiculated** 遞增；故 **irregular 形＋spiculated 緣**惡性可能性最高。相對地 round/oval circumscribed 為典型良性特徵。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-calcifications")
