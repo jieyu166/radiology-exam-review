@@ -96,6 +96,10 @@ up: "[[acute-stroke-management]]"
 [^7]: Nezu T, Koga M, Kimura K, et al. *Pretreatment ASPECTS on DWI Predicts 3-Month Outcome Following rt-PA: SAMURAI rt-PA Registry*. Neurology. 2010;75(6):555-561. doi:10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS 預後驗證；PubMed 實際查證 accessed 2026-06-20）。
 [^8]: e-ASPECTS（自動化軟體）驗證：Herweh C, Ringleb PA, Rauch G, et al. *Performance of e-ASPECTS Software in Comparison to That of Stroke Physicians on Assessing CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2016;11(4):438-445. doi:10.1177/1747493016632244；Nagel S, Sinha D, Day D, et al. *e-ASPECTS Software Is Non-Inferior to Neuroradiologists in Applying the ASPECT Score to CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2017;12(6):615-622. doi:10.1177/1747493016681020（PubMed 實際查證 accessed 2026-06-20）。
 
+## 題目
+> [!question]- Which is NOT included in the ASPECT score for the MCA territory? (2022-274)
+> E 視丘（thalamus）——屬後循環 pc-ASPECTS，不在 MCA 10 區內；caudate／putamen／internal capsule／insula 皆為 MCA ASPECTS 區域。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "aspects-score")

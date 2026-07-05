@@ -51,6 +51,9 @@ dateRev: 2026-07-03
 > [!question]- Which statement about chest trauma is not true? (2017-275)
 > 「**氣管與支氣管骨折由穿刺傷造成（D）**」不正確——**主要由鈍傷造成**（好發距隆凸2.5cm內的遠端氣管），穿刺傷反而以頸部氣管最常受傷。肋骨10-12骨折提示肝脾撕裂、肺挫傷為鈍創最常見表現、肺撕裂傷半實質半囊狀皆正確。[^1]
 
+> [!question]- Concerning tracheobronchial Injuries Imaging, which one of the following is not correct? (2022-255)
+> ⚠️ 損傷處並非「易、快、有把握」定位——CT 僅約 70% 可定位；鈍傷好發近隆凸遠端氣管、穿刺傷好發頸部氣管。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "chest-trauma-imaging")

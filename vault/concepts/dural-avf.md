@@ -58,6 +58,9 @@ dateRev: 2026-07-03
 > [!question]- Which location of the dural arteriovenous fistula (dAVF) have higher risk of subarachnoid hemorrhage? (2020-410)
 > **Ethmoid（C）**——引流靜脈缺乏靜脈竇保護、直接引流入軟腦膜/皮質靜脈，出血風險最高。[^3]
 
+> [!question]- Which is wrong while considering endovascular treatment of the dural arteriovenous fistula? (2022-245)
+> **C** 錯誤——經動脈途徑「把所有 feeder 近端栓塞」無法閉塞瘻管點、反促側枝再徵召；治癒取決於閉塞瘻管點與引流靜脈根部。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "dural-avf")

@@ -53,6 +53,10 @@ dateRev: 2026-06-29
 [^4]: Tier 2（PMC 免費全文，案例＋胚胎解剖對照）Kakkar C 等／相關文獻, "Hemodynamic vice of the ascending vertical vein in supracardiac TAPVC," PMC8817829 區段及 PMC5241838。垂直靜脈受夾於左肺動脈與左主支氣管之間（hemodynamic/vascular vise）→肺靜脈高壓惡性循環;type I 嚴重阻塞時 CXR 可酷似 type III。
 [^5]: Tier 2（教學綜述，交叉比對 UpToDate/Radiopaedia）AuntMinnie Scott Williams Thoracic Imaging — *PAPVR*（https://www.auntminnie.com/.../15560853 ）：右上肺靜脈入 SVC 為最常型,80–90% 兒童／約 47% 成人合併 sinus venosus ASD;scimitar syndrome 右肺靜脈入 IVC＋右肺發育不全＋心臟右移＋腹主動脈體循環供血;Qp/Qs>1.5 才血流上重要。
 
+## 題目
+> [!question]- 有關 pulmonary venous anatomy 下列何者為非? (2022-257)
+> 正常肺靜脈左2右2共四條入左房、RUL/RML 匯入 RSPV、RSPV 管徑最大皆正確；「RIPV 管徑最小」為錯（最小者一般為 LIPV）。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "anomalous-pulmonary-venous-return")

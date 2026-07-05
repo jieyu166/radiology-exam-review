@@ -66,6 +66,13 @@ concepts: [ipf]
 > [!question]- 有關Usual interstitial pneumonia (UIP)的HRCT判斷標準，下列何者正確? (2018-038)
 > **出現蜂窩現象(honeycombing)（B）**——honeycombing為typical UIP之特徵。UIP為基底+subpleural分布(非上/中肺A錯)、非大量微結節上肺葉(C錯)、非支氣管血管周圍分布(D錯，該分布指向替代診斷)。[^1][^3]
 
+## 題目
+> [!question]- 請問以下何者非usual interstitial pneumonia的影像特徵? (2022-253)
+> **C**——UIP＝基底＋周邊為主的網狀影、honeycombing；micronodules 非 UIP 特徵（指向 HP/結節病等）。[^1]
+
+> [!question]- UIP is most frequently found in patients with: (2022-261)
+> ⚠️ **C**——原卷選項未完整匯入；臨床上 CTD-ILD 中 UIP 型態最常見於類風濕性關節炎，答案依原卷保留待對照完整選項。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ipf")

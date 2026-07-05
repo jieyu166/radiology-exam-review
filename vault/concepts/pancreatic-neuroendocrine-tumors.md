@@ -84,6 +84,9 @@ dateRev: 2026-06-29
 > [!question]- All of the following may cause or simulate a hypervascular mass within the pancreas. Which is the MOST common etiology for such a lesion within the pancreatic body? (2020-243)
 > **Pancreatic neuroendocrine tumor（A）**——胰臟體部富血管腫塊最常見病因。Accessory spleen好發胰尾（非胰體）；serous cystadenoma多呈微囊蜂窩狀伴中央瘢痕；胰臟轉移癌相對少見。[^3]
 
+> [!question]- Which feature may help discriminate pancreatic neuroendocrine tumor from adenocarcinoma? (2022-270)
+> **A（較低程度主胰管阻塞）**——PNET 富血管、少阻塞胰管；異質弱強化、高纖維浸潤、遠端胰萎縮皆為 PDAC 特徵。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatic-neuroendocrine-tumors")

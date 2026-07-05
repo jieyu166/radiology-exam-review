@@ -45,6 +45,10 @@ dateRev: 2026-06-17
 [^2]: Dunnick NR, Sandler CM, Newhouse JH, Amis ES. *Textbook of Uroradiology*, 3rd ed., pp.299–302. Lippincott Williams & Wilkins, 2001（題目所引）：病因 NSAID 記憶法；**平片通常正常**（壞死時可不規則鈣化 2–6 mm 或滯留乳頭環狀鈣化）；**約 50% 鐮型球患者**發生；**medullary 型＝乳頭中央侵蝕**、papillary（total）型＝整顆乳頭脫落。
 [^3]: **Tier 1** Jung DC, Kim SH, Jung SI, Hwang SI, Kim SH. *Renal papillary necrosis: review and comparison of findings at multi-detector row CT and intravenous urography*. RadioGraphics 2006;26(6):1827-36（據 PubMed，DOI [10.1148/rg.266065039](https://doi.org/10.1148/rg.266065039)；Review；實際查證 accessed 2026-07-04）——**乳頭壞死為描述性名詞而非單一病理實體；腎髓質/乳頭因血供排列與高滲環境特別易缺血壞死**；病因含 diabetes/analgesic/sickle cell/pyelonephritis/RVT/TB/obstruction；**CECT 較 IVU 更完整顯示典型徵——髓質內對比劑填充裂隙、被排泄對比劑環圍繞之不強化病灶、髓質高衰減鈣化；乳頭脫落時見水腎與腎盂/輸尿管填充缺損（可含鈣化）；癒合期乳頭尖端變鈍、腎臟萎縮**；MDCT 薄層/多平面重組更清楚並可早期偵測（可逆期）。佐證兩型徵象、CT 優勢與早期可逆之臨床意義。原「官方/Uroradiology 教科書」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
 
+## 題目
+> [!question]- Most likely diagnosis with non-shadowing echogenic foci in the renal papilla? (2022-282)
+> D 髓質腎鈣質沉著——乳頭內多發非陰影高回音點對應細小鈣鹽沉積；結石通常較大且伴後方聲影，集尿系統氣體位置與後方混響不同。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "papillary-necrosis")

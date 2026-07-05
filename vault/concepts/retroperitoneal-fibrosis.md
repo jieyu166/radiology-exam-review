@@ -68,6 +68,9 @@ dateRev: 2026-06-29
 > [!question]- Concerning retroperitoneal fibrosis, which one of the following is not true? (2016-280)
 > **「斑塊最常直接延伸至受侵犯腎臟」為非（A）**——官方訂正為斑塊自主動脈分叉處向上延伸並可包覆腎門，非直接延伸至腎臟本身。常自腎門延伸至骨盆入口、斑塊可不對稱、通常包繞主動脈/IVC/輸尿管皆正確。[^1]
 
+> [!question]- Which is incorrect about the retroperitoneal fibrosis (RPF)? (2022-246)
+> 良性 RPF 把輸尿管牽向「內側」偏移，敘述作「外側偏移」即為錯誤；主動脈貼脊椎不前抬、T1WI 低訊號、可併自體免疫胰臟炎皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "retroperitoneal-fibrosis")

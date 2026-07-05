@@ -8559,6 +8559,1521 @@
       "images": [],
       "concepts": [],
       "checked": false
+    },
+    {
+      "id": "2022-240",
+      "year": 2022,
+      "number": 240,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is a characteristic of spinal cord hemangioblastoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Classified as a neuroepithelial tumor."
+        },
+        {
+          "letter": "B",
+          "text": "Appears at imaging with minimal contrast enhancement."
+        },
+        {
+          "letter": "C",
+          "text": "Originates at the pial surface of the spinal cord."
+        },
+        {
+          "letter": "D",
+          "text": "Familial cases with neurofibromatosis"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[intramedullary-spinal-tumors]]（Radiopaedia spinal hemangioblastoma；AJNR Baker 2001 全文佐證軟膜面小壁結節＋大囊＋蛇形血管流空）",
+      "explanation": "脊髓 hemangioblastoma 為富血管的間質性腫瘤，典型起源於脊髓背側「軟膜／軟膜下（pial/subpial surface）」，故 C 正確——影像上表現為軟膜面強烈強化的小壁結節＋大囊/大範圍 syrinx＋T2 蛇形血管流空。A 錯：它並非神經上皮性（neuroepithelial）腫瘤（ependymoma/astrocytoma 才是膠質性）。B 錯：血管母細胞瘤屬「強烈強化」而非 minimal enhancement。D 錯：多發時的家族性關聯是 von Hippel-Lindau（VHL，約 30%），並非 neurofibromatosis。→ [[intramedullary-spinal-tumors]]",
+      "images": [],
+      "concepts": [
+        "intramedullary-spinal-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-241",
+      "year": 2022,
+      "number": 241,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the “possible” 2020 revised comprehensive diagnostic (RCD) criteria for IgG4-RD?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "One or more organs show diffuse or localized swelling or a mass or nodule characteristic of IgG4-RD."
+        },
+        {
+          "letter": "B",
+          "text": "Serum IgG4 levels greater than 135 mg/dl"
+        },
+        {
+          "letter": "C",
+          "text": "Positivity for two of the following three criteria:"
+        },
+        {
+          "letter": "D",
+          "text": "Dense lymphocyte and plasma cell infiltration with fibrosis."
+        },
+        {
+          "letter": "E",
+          "text": "Ratio of IgG4-positive plasma cells /IgG-positive cells greater than 40% and the number of IgG4-positive plasma cells greater than 10 per high powered field."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[igg4-related-disease]]（Radiopaedia IgG4-related disease；RadioGraphics 2015 Head to Toe 佐證多器官纖維發炎與診斷背景）",
+      "explanation": "⚠️ 本題考 2020 修訂版綜合診斷（RCD）準則之三大分項——①臨床/影像（一或多器官特徵性瀰漫或局部腫大/腫塊）②血清學（serum IgG4 >135 mg/dl）③組織病理（緻密淋巴漿細胞浸潤＋纖維化，且 IgG4+/IgG+ >40% 且 IgG4+ >10/HPF）；「possible」層級對應僅滿足臨床/影像＋血清學而缺組織學者，故此題以血清 IgG4 >135 mg/dl（B）為對應之血清學條件答案。本概念僅涵蓋 IgG4-RD 的病名譜系與多器官影像（Mikulicz、type 1 AIP、膽管炎、後腹腔纖維化等），未逐條收錄 RCD「definite/probable/possible」分級細節，答案依原卷保留並標記待醫師對照原始 RCD 文獻。→ [[igg4-related-disease]]",
+      "images": [],
+      "concepts": [
+        "igg4-related-disease"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-242",
+      "year": 2022,
+      "number": 242,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "About adverse reactions of Gadolinium-based contrast agents (GBCA), which of the following are not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The stability of the complexation of gadolinium with linear GBCAs is significantly lower than that with macrocyclic GBCAs."
+        },
+        {
+          "letter": "B",
+          "text": "GBCA of low stability are likely to undergo transmetallation and release free Gd ions that may deposit in tissues and attract circulating fibrocytes to initiate the process of fibrosis."
+        },
+        {
+          "letter": "C",
+          "text": "Nonionic linear GBCAs showed the much higher rate of immediate allergic adverse events compared with ionic linear and nonionic macrocyclic GBCAs."
+        },
+        {
+          "letter": "D",
+          "text": "The ionic, protein-binding and macrocyclic GBCAs were linked to a higher rate of undesirable effects than linear GBCAs without protein binding."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[gadolinium-contrast]]（Radiopaedia Gadolinium-based contrast agents；ACR Manual on Contrast Media／EMA 2017 PRAC）",
+      "explanation": "⚠️（原題答案空白，依概念推定）此題問「何者不正確」。C 錯誤：文獻上 immediate 過敏樣反應率較高者為 ionic linear 與 nonionic macrocyclic，nonionic linear（如 Omniscan）反而過敏率最低，故「nonionic linear 過敏率遠高」敘述相反。A 正確：linear 螯合穩定度顯著低於 macrocyclic（環狀鎖得緊）。B 正確：低穩定度製劑易 transmetallation 釋出游離 Gd 沉積並誘發纖維化（NSF 機轉）。D 描述 macrocyclic／ionic／protein-binding 相對過敏風險略高，方向與概念「macrocyclic 過敏反應風險相對略高」一致，屬相對可接受敘述，故最不正確者取 C。詳見 → [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-243",
+      "year": 2022,
+      "number": 243,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "About gadolinium retention in the human tissue, which of the following are not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "GBCAs pass through the blood-brain barrier through periarterial and pial-glial pathways (glymphatic system)."
+        },
+        {
+          "letter": "B",
+          "text": "Significant less gadolinium retention was observed after macrocyclic chelate exposure, compared to linear chelate exposure."
+        },
+        {
+          "letter": "C",
+          "text": "With regard to elimination, complexed gadolinium in intact GBCA appears to leave the brain more easily in order to be excreted afterwards than what is released from the chelator."
+        },
+        {
+          "letter": "D",
+          "text": "Absolute concentrations of gadolinium were significantly higher in brain than in the skin and bone."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[gadolinium-contrast]]（Radiopaedia Gadolinium-based contrast agents；Kanda Radiology 2014／Radiology 2015 沉積序列）",
+      "explanation": "此題問「何者不正確」，答案 D。D 錯誤：皮膚與骨骼（尤其骨是主要儲庫）之絕對釓濃度遠高於腦部，並非腦部最高。A 正確：釓可穿過完整 BBB，推測經 periarterial／pial-glial 之 glymphatic 途徑進入間質（概念載約 18–42% 進入間質）。B 正確：macrocyclic 較 linear 去螯合少，滯留量顯著較低。C 正確：完整螯合的釓較易離腦排除，游離出螯合基的釓則較易滯留。故不正確者為 D。詳見 → [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-244",
+      "year": 2022,
+      "number": 244,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Anterior glenohumeral instability不包含下列何種變化?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reverse Bankart lesion"
+        },
+        {
+          "letter": "B",
+          "text": "Anteroinferior glenoid rim fracture (osseous Bankart)"
+        },
+        {
+          "letter": "C",
+          "text": "Bankart variation lesions"
+        },
+        {
+          "letter": "D",
+          "text": "Humeral avulsion of glenohumeral ligament (HAGL) lesion"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[shoulder-dislocation]]（Radiology Assistant — Shoulder instability；J Clin Med 2024 PMC11679992）",
+      "explanation": "答案 A。Reverse Bankart（後下盂唇 6–9 點剝離＋後骨膜撕裂）屬「後」脫位／後方不穩定，不屬前方不穩定。前方不穩定的病灶譜包括：osseous Bankart（前下盂緣骨折，B）、各式 Bankart 變異（Perthes／ALPSA／GLAD，C）、以及 HAGL（下盂肱韌帶於肱骨端撕脫，D）皆可見於前脫位。撞擊面邏輯：前脫位＝肱骨頭後外側撞前下盂緣，故病灶落在前下方；reverse Bankart 屬後方，方向相反。詳見 → [[shoulder-dislocation]]",
+      "images": [],
+      "concepts": [
+        "shoulder-dislocation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-245",
+      "year": 2022,
+      "number": 245,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is wrong while considering endovascular treatment of the dural arteriovenous fistula?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Benign vs aggressive: determine whether the AVF is angiographically benign or aggressive on the basis of the absence or presence of cortical venous reflux/drainage."
+        },
+        {
+          "letter": "B",
+          "text": "Arterial supply and venous drainage: determine all visible arterial supplies to the AVF, the location of the fistulous point, and the primary venous drainage points. Cure of the AVF via embolization will be dependent on successful occlusion of the fistulous point and the foot of the draining vein."
+        },
+        {
+          "letter": "C",
+          "text": "Risk from a transarterial (TA) embolization approach to embolize all the feeders proximally"
+        },
+        {
+          "letter": "D",
+          "text": "Risk from a transvenous (TV) embolization approach: Based on the venous drainage pattern, we determine the risk of intracranial hemorrhage, venous infarction, or long-term intracranial venous hypertension that would be associated with a TV embolization approach"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[dural-avf]]（Radiopaedia dAVF：後天性硬腦膜 AV 分流，Borden/Cognard 依皮質靜脈逆流分級；STATdx Tier 1：DSA 金標、治療以血管內栓塞為主，治癒需閉塞瘻管點與引流靜脈根部）",
+      "explanation": "dAVF 血管內治療評估要件：治癒取決於「成功閉塞瘻管點（fistulous point）與引流靜脈的根部（foot of draining vein）」，如 B 所述。選項 C「經動脈途徑把所有 feeder 近端栓塞」是錯誤觀念——近端 feeder 栓塞無法閉塞真正的瘻管點，只會促成側枝血管再徵召、造成日後更難治療，並非正確策略。A（依有無皮質靜脈逆流判良性/侵襲性）、B（辨明供血與引流、以閉塞瘻管點及引流靜脈根部為治癒關鍵）、D（依靜脈引流型態評估經靜脈途徑之出血/梗塞/靜脈高壓風險）皆為正確評估原則。故錯誤者為 C。→ [[dural-avf]]",
+      "images": [],
+      "concepts": [
+        "dural-avf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-246",
+      "year": 2022,
+      "number": 246,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about the retroperitoneal fibrosis (RPF)?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Aorta is not typically displaced from the spine in primary RPF. Soft tissue can surround IVC and laterally displaced ureters. It usually has low signal intensity on T1WI. It may be associated with autoimmune pancreatitis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[retroperitoneal-fibrosis]]（Radiopaedia Chronic periaortitis／Ormond disease；RadioGraphics 2013 retroperitoneal fibrosis imaging）",
+      "explanation": "⚠️ 原卷選項於匯入時併為單一段落、無法對應到題號答案字母（來源答 B），僅能就內容判讀。本題問「何者敘述錯誤」。良性／原發性 RPF 為浸潤性斑塊、貼脊椎而不把主動脈往前抬離脊椎（primary RPF 主動脈不被自脊椎前推），此敘述正確；斑塊確可包繞 IVC；T1WI 多為均勻低訊號（正確）；且與自體免疫胰臟炎（IgG4-RD 譜系）相關（正確）。真正的判讀陷阱在輸尿管偏移方向——良性 RPF 把輸尿管牽向「內側（medial deviation）」，故若敘述作「laterally displaced ureters（外側偏移）」即為錯誤，外側偏移反而提示惡性／淋巴瘤。→ [[retroperitoneal-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "retroperitoneal-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-247",
+      "year": 2022,
+      "number": 247,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "According to BI-RADS fifth edition, which of the following statement is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "a minimum of five calcifications within 1 cm of each other and"
+        },
+        {
+          "letter": "B",
+          "text": "a larger number of calcifications within 2 cm of each other."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-composition]]（Radiopaedia breast density：BI-RADS 2013 以 a–d 四級主觀描述取代百分比估計；The Radiology Assistant BI-RADS 2013 為 Tier 1 開放全文，強調遮蔽效應）",
+      "explanation": "⚠️ 本題選項文字為 OCR 擷取後嚴重不完整（僅存 A、B 兩段關於鈣化群聚範圍「至少 5 顆於彼此 1 cm 內／較多顆於 2 cm 內」的描述），無法自 [[breast-composition]] 概念完整逐項核對，暫依來源標記答案 D。就概念可確認者：BI-RADS 2013 最大改版為把緻密度「百分比估計」改為 a–d 四級主觀描述、強調緻密組織的遮蔽效應而非比例數字；「需報告纖維腺體約略比例（如 0–25%）」屬第 4 版做法、第 5 版已廢除，為此類題的高頻陷阱。建議醫師覆核原始完整題幹與選項。→ [[breast-composition]]",
+      "images": [],
+      "concepts": [
+        "breast-composition"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-248",
+      "year": 2022,
+      "number": 248,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列對於含碘對比劑發生外滲時之評估及處置，何者敘述錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[contrast-media-safety]]（Radiopaedia 對比劑外滲；台灣 2023 對比劑手冊 A11.3 佐證外滲以抬高＋冰/溫敷＋觀察為主）",
+      "explanation": "含碘對比劑外滲屬局部組織傷害（主與外滲液高滲透壓相關），並非全身性過敏反應，處置以抬高患肢、冰敷或溫敷、密切觀察、嚴重時（進行性腫痛/灌流改變/潰瘍水泡）照會外科為原則。D 錯：epinephrine（1:1000）是急性過敏/過敏性休克的用藥，對外滲局部傷害並無治療角色，故此敘述錯誤。A（輕微一般不需治療）、B（中度需監測、保留 IV）、C（嚴重需治療）皆符合依嚴重度分級處置的原則。→ [[contrast-media-safety]]",
+      "images": [],
+      "concepts": [
+        "contrast-media-safety"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-249",
+      "year": 2022,
+      "number": 249,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列對於含釓對比劑與腎因性全身纖維化，何者敘述錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[nephrogenic-systemic-fibrosis]]（Radiopaedia Nephrogenic systemic fibrosis；RadioGraphics 2015 Safe use of contrast media）",
+      "explanation": "⚠️ 本題實為含釓對比劑「反應處置分級」題，[[nephrogenic-systemic-fibrosis]] 概念聚焦 NSF 之風險因子與製劑分類，未直接涵蓋急性反應之 epinephrine 劑量細節，故此處依題幹字面判讀並保留來源答案。就臨床通則：輕微反應多不需治療（A 對）、中度需監測並保留 IV 管路（B 對）、嚴重反應需積極處置（C 對）。選項 D「epinephrine (1:1000) 1M」書寫錯誤——嚴重全身性／過敏性反應之腎上腺素應為 1:1000 濃度、劑量 0.3 mL 肌肉注射（IM），而非「1M」，故 D 為敘述錯誤者。→ [[nephrogenic-systemic-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-250",
+      "year": 2022,
+      "number": 250,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement about Moyamoya disease is wrong?",
+      "options": [
+        {
+          "letter": "",
+          "text": "“Puff of smoke” on angiography: numerous collaterals supplying ACA and MCA. Stenosis or occlusion of supraclinoid ICA. MRI: multiple tiny flow voids on T2W images, which are collaterals; engorged collaterals may produce FLAIR dark sulci(ivy sign). Occasionally, the posterior circulation is involved."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[moyamoya]]（Radiopaedia moyamoya disease；Tarasów Pol J Radiol 2011 PMC3389911）",
+      "explanation": "⚠️（原始匯入選項殘缺、僅單一敘述，答案沿用來源標記 C）此題問「何者敘述錯誤」。敘述中錯誤之處為「engorged collaterals may produce FLAIR dark sulci (ivy sign)」——ivy sign 為 FLAIR 上沿腦溝腦回的「高訊號（bright）」，代表軟腦膜側支內緩慢逆行血流，並非「dark sulci」。其餘敘述皆正確：血管攝影 puff of smoke、supraclinoid ICA 狹窄／閉塞、T2 多發細小 flow void 為擴張側支、偶爾侵犯後循環。詳見 → [[moyamoya]]",
+      "images": [],
+      "concepts": [
+        "moyamoya"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-251",
+      "year": 2022,
+      "number": 251,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding MR imaging in the evaluation of myocardial infarction, which of the following is the MOST important technique?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2-weighted"
+        },
+        {
+          "letter": "B",
+          "text": "First pass perfusion"
+        },
+        {
+          "letter": "C",
+          "text": "Velocity-encoded phase-contrast"
+        },
+        {
+          "letter": "D",
+          "text": "Delayed-enhancement"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[cardiac-mri-lge]]（Radiopaedia myocardial viability protocol：疤痕/viability 評估採 late gadolinium (delayed) enhancement；RadioGraphics 2009 non-ischemic delayed enhancement pattern 為 Tier 1）",
+      "explanation": "評估心肌梗塞（疤痕/存活心肌）最重要的技術為延遲增強（delayed-enhancement，即 late gadolinium enhancement, LGE）：注射釓對比劑後延遲取像，正常心肌洗掉對比劑、梗塞疤痕因細胞間隙擴大而滯留對比劑呈高訊號，並可依透壁程度（>50% 壁厚為 transmural）預測血運重建後恢復機會，故選 D。A（T2WI）看的是水腫；B（first pass perfusion）看首過灌流缺損；C（velocity-encoded phase-contrast）看流速/流量，皆非評估梗塞疤痕的首選。→ [[cardiac-mri-lge]]",
+      "images": [],
+      "concepts": [
+        "cardiac-mri-lge"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-252",
+      "year": 2022,
+      "number": 252,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about male breast cancer is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A mass can be challenging in those men with moderate-to-marked gynecomastia."
+        },
+        {
+          "letter": "B",
+          "text": "Tomosynthesis can better differentiate the fibroglandular tissue of gynecomastia from an underlying mass than 2D mammography can."
+        },
+        {
+          "letter": "C",
+          "text": "Tomosynthesis images depict the irregular shape and indistinct or speculated borders, better differentiating a mass from the surrounding tissue."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[male-breast-cancer]]（Radiopaedia Male breast cancer；STATdx Male Breast Cancer）",
+      "explanation": "A、B、C 皆為正確描述，故答 D「以上皆是」。男性乳癌典型為乳暈下略偏心之不規則腫塊，常被同時存在的男性女乳症（gynecomastia）纖維腺體遮蔽，故在中至重度 gynecomastia 中偵測腫塊確有困難（A 對）；斷層合成（tomosynthesis）藉逐層去除重疊組織，較 2D 乳攝更能把 gynecomastia 的纖維腺體與其下腫塊區分（B 對），並更清楚顯示癌之不規則形狀與界不清／毛刺緣（C 對）——與概念「癌偏離乳頭、界不清、可被 gynecomastia 遮蔽，US／進階攝影為必要」一致。→ [[male-breast-cancer]]",
+      "images": [],
+      "concepts": [
+        "male-breast-cancer"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-253",
+      "year": 2022,
+      "number": 253,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "請問以下何者非usual interstitial pneumonia的影像特徵?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Honeycombing"
+        },
+        {
+          "letter": "B",
+          "text": "Peripheral and lower lobe predominance"
+        },
+        {
+          "letter": "C",
+          "text": "Micronodules"
+        },
+        {
+          "letter": "D",
+          "text": "Reticular opacities"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[ipf]]（Radiopaedia UIP；STATdx IPF 佐證基底＋周邊為主之網狀影／honeycombing）",
+      "explanation": "UIP 的典型影像＝基底（lower lobe）＋周邊（subpleural/peripheral）為主的網狀影（reticular opacities）、牽引性支氣管擴張與 honeycombing，GGO 範圍少於網狀影。故 A、B、D 皆為 UIP 特徵。C（micronodules，微結節）非 UIP 特徵——瀰漫微結節反而指向過敏性肺炎、結節病、粟粒結核等替代診斷，因此「非 UIP」者為 C。→ [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-254",
+      "year": 2022,
+      "number": 254,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of following descriptions is WRONG regarding vertebral artery dissection (VAD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Spontaneous VAD occurs most commonly in middle-age females."
+        },
+        {
+          "letter": "B",
+          "text": "Pain is a prominent symptom in approximate 70% patients, most localized at neck and occiput areas."
+        },
+        {
+          "letter": "C",
+          "text": "Lateral medullary (Wallenberg) infarct is rarely seen in VAD."
+        },
+        {
+          "letter": "D",
+          "text": "The vertebral artery is most vulnerable to dissection after it leaves the foramen transversarium of C2."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[arterial-dissection-mri]]（Radiopaedia 動脈剝離；STATdx CAD 佐證剝離之壁內血腫與後循環缺血機轉）",
+      "explanation": "椎動脈剝離（VAD）常造成後循環梗塞，其中外側延髓（Wallenberg）症候群是 VAD 最典型的梗塞表現之一，並非罕見，故 C「lateral medullary (Wallenberg) infarct rarely seen」敘述錯誤。A（自發性 VAD 好發中年、女性略多）、B（約 70% 以頸部/枕部疼痛為顯著症狀）、D（椎動脈於 C2 離開橫突孔轉折後最易剝離，即 V3 活動段）皆為 VAD 之正確描述。本概念以剝離之壁內血腫影像與 ICAD 為主，VAD 後循環梗塞屬同源延伸判讀。→ [[arterial-dissection-mri]]",
+      "images": [],
+      "concepts": [
+        "arterial-dissection-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-255",
+      "year": 2022,
+      "number": 255,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Concerning tracheobronchial Injuries Imaging, which one of the following is not correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Bronchoscopic procedures most commonly affect the cervical and proximal intrathoracic trachea, especially the less protected posterior membrane. The precise site of injury is easy, quick and confident to identify at MPR, MIP, and virtual bronchoscopic views. High-impact blunt force injuries tend to involve the intrathoracic distal trachea near the carina, with a slight preponderance of right-sided involvement. Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[chest-trauma-imaging]]（Radiopaedia Tracheobronchial injury rID-45454；STATdx Chest Trauma, Bueno J）",
+      "explanation": "⚠️（原始匯入選項殘缺、僅顯示 A，答案沿用來源標記 B）就本題所示敘述而言，錯誤處在於「損傷處於 MPR／MIP／virtual bronchoscopy 上容易、快速且有把握地精確定位」——實際上 CT 僅能於約 70% 病例定位損傷處，並非「easy, quick and confident」。敘述中其他方向性正確：鈍性高衝擊力好發於近隆凸之遠端胸腔內氣管、右側略多；氣管內插管多為 cuff 相關傷而非直接撕裂。鈍傷主導遠端氣管、穿刺傷好發頸部氣管為本概念核心考點。詳見 → [[chest-trauma-imaging]]",
+      "images": [],
+      "concepts": [
+        "chest-trauma-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-256",
+      "year": 2022,
+      "number": 256,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "In the followings which one is not a characteristic feature of air-bronchogram?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hyaline membrane disease (SDD) ("
+        },
+        {
+          "letter": "B",
+          "text": "Pulmonary edema"
+        },
+        {
+          "letter": "C",
+          "text": "Bronchogenic cyst"
+        },
+        {
+          "letter": "D",
+          "text": "Lobar pneumonia"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[air-bronchogram]]（Radiopaedia air bronchogram：肺泡空氣被 fluid/發炎/血/腫瘤/間質增厚取代而近端氣道通暢；STATdx Tier 1 分層 DDx）",
+      "explanation": "Air bronchogram 的本質是「肺泡腔內空氣被非空氣物質（液體/發炎細胞/血/腫瘤/間質增厚）取代、而近端支氣管仍通暢」，屬肺實質內病變的徵象。A 玻璃膜病（HMD/RDS/SDD）、B 肺水腫、D 大葉性肺炎皆為肺泡填充過程且氣道通暢，可見 air bronchogram。C 支氣管源性囊腫（bronchogenic cyst）為充液的先天性囊腫、不含填充性肺泡實質化過程，內部不含通暢的含氣支氣管，故「不」具 air bronchogram 特徵，選 C。→ [[air-bronchogram]]",
+      "images": [],
+      "concepts": [
+        "air-bronchogram"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-257",
+      "year": 2022,
+      "number": 257,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "有關 pulmonary venous (PV) anatomy 下列何者為非? RSPV: right superior pulmonary vein LSPV: left superior pulmonary vein RIPV: right inferior pulmonary vein LIPV: left inferior pulmonary vein RUL: right upper lobe RML: right middle lobe",
+      "options": [
+        {
+          "letter": "",
+          "text": "大部分情況有 有四條 主要PV drained 至 LA. 大部分情況RUL 及 RML 的 PV drained 至 RSPV 大部分情況下 四條主要PV 中RSPV 管徑最大 大部分情況下四條主要PV中 RIPV管徑最小"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[anomalous-pulmonary-venous-return]]（Radiopaedia pulmonary veins；RadioGraphics 2012 congenital pulmonary vein abnormalities）",
+      "explanation": "⚠️ 原卷四個子敘述於匯入時併為單一段落、無法對應題號答案字母（來源答 D），僅能就內容判讀。正常肺靜脈為「左 2 右 2」共四條開口於左心房（正確）；RUL 與 RML 的靜脈大多匯入 RSPV（正確）；四條主要肺靜脈中 RSPV 通常管徑最大（正確）。判讀分水嶺在最後一句——四條主要肺靜脈中管徑最小者一般為「LIPV（左下肺靜脈）」而非 RIPV，故「RIPV 管徑最小」為錯誤敘述。→ [[anomalous-pulmonary-venous-return]]",
+      "images": [],
+      "concepts": [
+        "anomalous-pulmonary-venous-return"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-258",
+      "year": 2022,
+      "number": 258,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following pulse sequence is useful to document hemosiderine content in giant cell tumor of tendon sheath? T2WI with fat saturation. T1WI Inversion recovery T2＊gradient echo",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T2WI with fat saturation"
+        },
+        {
+          "letter": "B",
+          "text": "T1WI"
+        },
+        {
+          "letter": "C",
+          "text": "Inversion recovery"
+        },
+        {
+          "letter": "D",
+          "text": "T2＊gradient echo"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[gre-hemorrhage-detection]]（Radiopaedia SWI；RadioGraphics 2009 T2*-based imaging 佐證 GRE 對含鐵順磁性產物之磁化率敏感）",
+      "explanation": "腱鞘巨細胞瘤（GCT of tendon sheath，屬 PVNS 譜系）含 hemosiderin 沉積，hemosiderin 為順磁性、造成局部磁化率不均。T2* gradient echo（GRE）無 180° 重聚脈衝、無法補償靜態磁場不均勻，故磁化率效應被完整表現為 blooming 低訊號，最能凸顯並「記錄」hemosiderin，因此答案為 D。SE 系列（T2WI FS、T1WI、inversion recovery）之 180° 重聚會把磁場不均勻相位重新對齊、抑制磁化率效應，對含鐵敏感度較低。→ [[gre-hemorrhage-detection]]",
+      "images": [],
+      "concepts": [
+        "gre-hemorrhage-detection"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-259",
+      "year": 2022,
+      "number": 259,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding to Fabry disease, which one is wrong",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An X-linked lysosomal storage disorder of glycosphingolipid metabolism"
+        },
+        {
+          "letter": "B",
+          "text": "NECT: bilateral, often symmetric calcification in basal ganglia and thalami"
+        },
+        {
+          "letter": "C",
+          "text": "Never dolichoectasia"
+        },
+        {
+          "letter": "D",
+          "text": "Abnormal accumulation of glycosphingolipids in various tissues"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[fabry-disease-pulvinar]]（Radiopaedia Fabry disease；STATdx Fabry Disease, Jhaveri/Osborn）",
+      "explanation": "答案 C。C「Never dolichoectasia」錯誤：法布瑞氏症的血管病變典型即包含「基底動脈／椎基底動脈 dolichoectasia（擴張迂曲）」，並非從不發生。A 正確：為 X 性聯溶酶體儲積症、醣鞘脂代謝障礙（α-半乳糖苷酶 A 缺乏）。B 正確：NECT 可見雙側、常對稱之基底節與視丘鈣化。D 正確：醣鞘脂（globotriaosylceramide）異常堆積於多種組織。詳見 → [[fabry-disease-pulvinar]]",
+      "images": [],
+      "concepts": [
+        "fabry-disease-pulvinar"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-260",
+      "year": 2022,
+      "number": 260,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "According to BI-RADS 5th edition, which of the following descriptions about BI-RADS categories is true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Under MQSA, it is necessary to include a numeric assessment code (i.e., 0, 1, 2, 3, 4, 5, or 6) in addition to the assessment category in all mammography reports"
+        },
+        {
+          "letter": "B",
+          "text": "BI-RADS category 4 subdivisions (4A, 4B, 4C) are necessary to be included in mammography report"
+        },
+        {
+          "letter": "C",
+          "text": "It is necessary to include BI-RADS final assessment and/or numeric code for mammography examinations performed on men"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above are true"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[bi-rads-categories]]（Radiopaedia BI-RADS：最終評估分類 0–6 與各級處置；RadioGraphics 2024 Understanding BI-RADS Category 3 與 StatPearls 為 Tier 1）",
+      "explanation": "⚠️ 本題選項為 OCR 擷取後錯位、拼接（原始 B/C 選項文字有交錯），逐項判定困難，暫依來源標記答案 C。就 [[bi-rads-categories]] 可確認的原則：每份乳房影像報告都須給一個最終評估分類（0–6），MQSA 要求報告載明評估與其對應處置；分類適用於男性乳房攝影亦然。至於 category 4 是否「必須」細分 4A/4B/4C，指引為建議而非強制，是常見陷阱。因選項文字污損，建議醫師覆核原始題幹再定案。→ [[bi-rads-categories]]",
+      "images": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-261",
+      "year": 2022,
+      "number": 261,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "UIP is most frequently found in patients with:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SLE Dermato-myositis Rheumatoid arthritis Scleroderma"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[ipf]]（Radiopaedia UIP；STATdx IPF 佐證 UIP pattern 與其分布特徵）",
+      "explanation": "⚠️ 本題原卷選項僅擷取到 A（列出 SLE／皮肌炎／類風濕性關節炎／硬皮症四種結締組織病），完整選項未匯入，無法對映原答案「C」之文字。就臨床事實而言，於結締組織病相關間質性肺病（CTD-ILD）中，UIP 型態最常見於類風濕性關節炎（RA）；SLE、皮肌炎、硬皮症則以 NSIP 為主。本概念（[[ipf]]）聚焦 idiopathic UIP 之影像型態與分布，未逐項收錄各 CTD 之 ILD 型態分布，答案依原卷保留為 C 並標記待醫師比對完整選項與原始文獻。→ [[ipf]]",
+      "images": [],
+      "concepts": [
+        "ipf"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-262",
+      "year": 2022,
+      "number": 262,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the followings concerning lymphangioleiomyomatosis is wrong?",
+      "options": [
+        {
+          "letter": "",
+          "text": "A progressive cystic lung disease that occurs almost exclusively in women with Tuberous Sclerosis Complex Associated with multiple macronodular pneumocystic hyperplasia Characterized and defined by the presence of greater than 10 rounded, thin-walled air filled cysts Occurrence of spontaneous pneumothoraces."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[lam]]（Radiopaedia Lymphangioleiomyomatosis；STATdx Lymphangioleiomyomatosis）",
+      "explanation": "⚠️ 原卷四個子敘述於匯入時併為單一段落、無法對應題號答案字母（來源答 B），僅能就內容判讀。LAM 為進展性囊狀肺病、幾乎僅見於女性（正確），可反覆自發性氣胸（正確），影像上以多發（>10）圓形薄壁含氣囊腫為特徵（正確）。錯誤在「occurs almost exclusively in women with Tuberous Sclerosis Complex」——LAM 分為散發型（S-LAM）與 TSC 相關型（TSC-LAM），並非幾乎僅發生於 TSC 患者；且與其併存者為 multifocal micronodular pneumocyte hyperplasia（MMPH），題敘「macronodular pneumocystic hyperplasia」亦屬用詞失準。故 TSC 專屬性之敘述為錯。→ [[lam]]",
+      "images": [],
+      "concepts": [
+        "lam"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-263",
+      "year": 2022,
+      "number": 263,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is the LEAST typical of early arterial small bowel ischemia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Filling defects in the mesenteric arteries"
+        },
+        {
+          "letter": "B",
+          "text": "Mesenteric strands and ascites are rare"
+        },
+        {
+          "letter": "C",
+          "text": "Diminished bowel wall enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "Thickened bowel wall"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[acute-mesenteric-ischemia]]（Radiopaedia mesenteric ischemia；STATdx 佐證 CTA 影像徵象與腸壁強化評估）",
+      "explanation": "早期動脈性小腸缺血（栓塞/血栓致血流中斷）的典型 CTA 徵象＝腸繫膜動脈內充盈缺損（A）、腸壁強化減弱（C，因灌流下降），且此純缺血早期腸繫膜水腫條索與腹水相對少見（B）。腸壁通常呈「薄壁、擴張」而非增厚——腸壁增厚（D）多見於較晚期或再灌流、靜脈性/絞窄型（水腫、出血、黏膜下水腫）情境，故在早期動脈性缺血中「最不典型」者為 D。→ [[acute-mesenteric-ischemia]]",
+      "images": [],
+      "concepts": [
+        "acute-mesenteric-ischemia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-264",
+      "year": 2022,
+      "number": 264,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements about the ultrasound appearance of hepatic cavernous hemangioma is not true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Typical hemangioma is a well-defined, uniformly hyperechoic mass Internal vascularity is often undetectable with color Doppler May see posterior acoustic enhancement “Typical atypical” hemangioma shows hypoechoic rim with hyperechoic center"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[hepatic-hemangioma]]（Radiopaedia Hepatic hemangioma；Yang DM World J Gastroenterol PMC8727199）",
+      "explanation": "⚠️（原始匯入選項殘缺、僅顯示 A，答案沿用來源標記 D）就本題所示敘述而言，錯誤處在於「typical atypical hemangioma shows hypoechoic rim with hyperechoic center（低回音暈＋高回音中心）」——此描述與典型不符：脂肪肝背景下的不典型血管瘤反而呈「高回音暈／低回音中心」（相對背景反轉）。敘述中其他項正確：典型為界清、均質高回音腫塊；color Doppler 中央常測不到血流（慢流）；可見後方穿透增強（acoustic enhancement，非 shadowing）。詳見 → [[hepatic-hemangioma]]",
+      "images": [],
+      "concepts": [
+        "hepatic-hemangioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-265",
+      "year": 2022,
+      "number": 265,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "含釓對比劑依其產生腎因性全身纖維化 (Nephrogenic Systemic Fibrosis, NSF) 的風險分為高、中、低三類，下列何者是低風險含釓對比劑？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gadodiamide (Ominscan)"
+        },
+        {
+          "letter": "B",
+          "text": "Gadopentetate dimeglumine (Magnevist)"
+        },
+        {
+          "letter": "C",
+          "text": "Gadoversetamide (OptiMARK)"
+        },
+        {
+          "letter": "D",
+          "text": "Gadobutrol (Gadovist)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[nephrogenic-systemic-fibrosis]]（Radiopaedia Nephrogenic systemic fibrosis；RadioGraphics 2015 Safe use of contrast media）",
+      "explanation": "低風險製劑為 D「Gadobutrol（Gadovist）」。NSF 風險核心在釓自螯合劑游離的難易——巨環型（macrocyclic）製劑螯合最穩定、風險最低，Gadovist 即屬巨環型。A 的 Gadodiamide（Omniscan）、B 的 Gadopentetate（Magnevist）、C 的 Gadoversetamide（OptiMARK）皆為「線性（linear）」製劑，屬 ACR group 1／高風險族群（其中 Omniscan 通報病例數最多）。故唯一低風險者為 Gadovist。→ [[nephrogenic-systemic-fibrosis]]",
+      "images": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-266",
+      "year": 2022,
+      "number": 266,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following about Mammographic Breast Density is CORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Breast cancers most commonly arise in epithelial cells and fatty elements."
+        },
+        {
+          "letter": "B",
+          "text": "A large breast volume indicates a greater chance that cancer arise."
+        },
+        {
+          "letter": "C",
+          "text": "Mammographic sensitivity decreased with overlapping radiopaque dense breast known as masking effect."
+        },
+        {
+          "letter": "D",
+          "text": "An increased percentage of interval cancers might benefit from screening mammography combined with Ultrasound."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[breast-composition]]（Radiopaedia breast density：c/d＝dense breast、遮蔽效應降低乳攝敏感度；緻密度為獨立乳癌風險因子之 meta-analysis 與 ACR AC 2024 補充篩檢為 Tier 1）",
+      "explanation": "C 正確：緻密（radiopaque）纖維腺體重疊會遮蔽腫塊、降低乳房攝影敏感度，即「遮蔽效應（masking effect）」，是 c/d 級緻密乳房的核心意義之一。A 錯：乳癌主要源自上皮細胞（epithelial），而非脂肪成分。B 錯：乳房體積大並不代表罹癌機率較高；提高風險的是緻密度（緻密組織比例）而非單純體積。D 敘述不精確：緻密乳房因敏感度下降間隔癌較多，補充篩檢（超音波/MRI）可提升癌偵測，但正確表述應為「緻密乳房者」受益，而非把間隔癌比率當受益主體，故非最佳選項。綜合以最直接正確者為 C。→ [[breast-composition]]",
+      "images": [],
+      "concepts": [
+        "breast-composition"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-267",
+      "year": 2022,
+      "number": 267,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Incorrect statement about “ crazy paving ” pattern?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Crazy Paving is a combination of ground glass opacity with superimposed septal thickening. It was first thought to be specific for alveolar proteinosis."
+        },
+        {
+          "letter": "B",
+          "text": "In pathology, linear appearance is due to air space process, which is more severe in peripheral of lobule and not due to interstitial involvement itself."
+        },
+        {
+          "letter": "C",
+          "text": "In eosinophilic pneumonia, consolidation and ground glass is more common than crazy-paving pattern."
+        },
+        {
+          "letter": "D",
+          "text": "Cryptogenic pneumonia may have crazy paving pattern and upper lung predominant"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[crazy-paving]]（Radiopaedia crazy paving：GGO＋疊加 interlobular 與 intralobular 間隔增厚、非特異；RadioGraphics 2003 Rossi 放射-病理綜述為 Tier 1）",
+      "explanation": "Crazy-paving 定義為毛玻璃（GGO）疊加小葉間隔（interlobular）＋小葉內間隔（intralobular）增厚所成的網狀線影，其線狀成分本質上「包含間隔（間質）增厚」，並非單純肺泡腔（air space）過程。選項 B 稱線狀外觀「純因肺泡腔過程、於小葉周邊較嚴重、而非間質受累本身」——否認間質成分，與 crazy-paving 的定義相矛盾，故為錯誤敘述，選 B。A（合併 GGO 與間隔增厚、最初被認為對 PAP 具特異性）、C（嗜酸性肺炎以實質化與 GGO 較常見、crazy-paving 較少）、D（COP/隱源性可呈 crazy-paving、可上肺為主）皆屬正確。→ [[crazy-paving]]",
+      "images": [],
+      "concepts": [
+        "crazy-paving"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-268",
+      "year": 2022,
+      "number": 268,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which statement about septic emboli is not true:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Chest radiograph is usually normal"
+        },
+        {
+          "letter": "B",
+          "text": "Chest CT may have tree in bud appearance."
+        },
+        {
+          "letter": "C",
+          "text": "CTA may show filling defect at lobar , segmented pulmonary artery."
+        },
+        {
+          "letter": "D",
+          "text": "Angiography is gold standard"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[septic-pulmonary-emboli]]（Radiopaedia Septic pulmonary emboli；Kuhlman JE et al. Radiology 1990 CT diagnosis）",
+      "explanation": "答 D，「Angiography is gold standard」為錯誤敘述——敗血性肺栓塞的診斷主力是胸部 CT（結合多發周邊結節、空洞、feeding vessel 徵象與臨床菌血症），並非以（導管）血管攝影為黃金標準。其餘正確：胸部平片早期常可正常或僅見非特異結節（A 對）；CT 可因細支氣管內填充呈 tree-in-bud（B 對）；CTA 於栓子造成阻塞時可在肺葉／肺節動脈見充填缺損（C 對）。→ [[septic-pulmonary-emboli]]",
+      "images": [],
+      "concepts": [
+        "septic-pulmonary-emboli"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-269",
+      "year": 2022,
+      "number": 269,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Coronary computed tomographic angiography (CCTA) has been recommended as a frontline testing strategy in the evaluation of patients with stable and acute chest pain who have no known coronary artery disease (CAD). CCTA was given",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Class 1 recommendation with level of evidence of A for patients with stable and acute chest pain"
+        },
+        {
+          "letter": "B",
+          "text": "Class 2 recommendation with level of evidence of B for patients with stable and acute chest pain"
+        },
+        {
+          "letter": "C",
+          "text": "Class 2 recommendation with level of evidence of A for patients with stable and acute chest pain"
+        },
+        {
+          "letter": "D",
+          "text": "Class 1 recommendation with level of evidence of B for patients with stable and acute chest pain"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[ccta]]（Radiopaedia coronary CT angiography；ACCURACY trial 佐證 CCTA 高 NPV 之 rule-out 守門員角色）",
+      "explanation": "⚠️ 本題考 2021 AHA/ACC 胸痛評估指引對 CCTA 的建議層級——對無已知 CAD、中-高風險之急性或穩定胸痛病人，CCTA 獲最高之 Class 1（強）建議、佐以 Level of Evidence A，故對映選項為 A。本概念（[[ccta]]）以 CCTA 之診斷效能（ACCURACY 試驗高 NPV、rule-out 定位）與 CAD-RADS 報告框架為主，未逐字收錄該指引之 class/LOE 條文，答案依原卷保留為 A 並標記待醫師對照 2021 指引原文。此高 NPV「守門員」角色與指引將其列為前線 rule-out 策略的方向一致。→ [[ccta]]",
+      "images": [],
+      "concepts": [
+        "ccta"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-270",
+      "year": 2022,
+      "number": 270,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Of the features below, which may help discriminate pancreatic neuroendocrine tumor from adenocarcinoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "lower degree of main pancreatic duct obstruction"
+        },
+        {
+          "letter": "B",
+          "text": "heterogeneous and less enhancement of the tumor"
+        },
+        {
+          "letter": "C",
+          "text": "higher fibrotic component and infiltration into surrounding tissue"
+        },
+        {
+          "letter": "D",
+          "text": "marked distal pancreatic parenchymal atrophy"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[pancreatic-neuroendocrine-tumors]]（Radiopaedia Pancreatic neuroendocrine tumors；Lee NJ Surg Oncol Clin N Am PMC4808582）",
+      "explanation": "答案 A。可鑑別 PNET 與胰管腺癌（PDAC）者為「較低程度的主胰管阻塞」——PNET 多為富血管、界清、對胰管壓迫／阻塞較輕，而 PDAC 為乏血管、促結締組織增生，典型造成上游胰管阻塞與遠端胰實質萎縮。B（異質、較弱強化）、C（高纖維成分、浸潤周圍）、D（明顯遠端胰實質萎縮）皆為 PDAC 之特徵，非 PNET；PNET 反而是動脈期高強化。故僅 A 指向 PNET。詳見 → [[pancreatic-neuroendocrine-tumors]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-neuroendocrine-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-271",
+      "year": 2022,
+      "number": 271,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statement(s) is(are) true concerning MR imaging of endometriosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The presence of T1-weighted hyperintensity within a dilated fallopian tube is not suggestive of endometriosis."
+        },
+        {
+          "letter": "B",
+          "text": "Decidualized endometriosis has been described as a mimic of ovarian cancer at ultrasonography and MR imaging."
+        },
+        {
+          "letter": "C",
+          "text": "Most endometriomas are easily recognized on the basis of their T2 hyperintensity."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[endometrioma]]（Radiopaedia endometrioma：T1 高、T2 低 shading、無內部強化；孕期 decidualised endometrioma 可有 stromal vascularity 為模擬惡性之變異；RadioGraphics 2001 Woodward 放射-病理綜述為 Tier 1）",
+      "explanation": "B 正確：孕期蛻膜化（decidualized）子宮內膜異位可出現強化壁結節/血流，於超音波與 MRI 上模擬卵巢癌，為已知陷阱。A 錯：擴張輸卵管內出現 T1 高訊號（血性積液/hematosalpinx）反而「支持」子宮內膜異位，並非不支持。C 錯：endometrioma 的 MRI 指紋是 T1 高訊號＋T2 低訊號（shading），多數靠 T2 變暗（而非 T2 高訊號）辨識，此敘述與典型表現相反。故唯一正確為 B。→ [[endometrioma]]",
+      "images": [],
+      "concepts": [
+        "endometrioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-272",
+      "year": 2022,
+      "number": 272,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following MR imaging finding allows differentiation of endometriomas from other differential diagnoses of an adnexal lesion?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Endometriomas tend to have higher T1 and higher T2 signal intensities than hemorrhagic cysts."
+        },
+        {
+          "letter": "B",
+          "text": "The loss of signal intensity within a T1-hyperintense adnexal mass at fat-suppressed imaging facilitates characterization of the mass as a mature cystic teratoma."
+        },
+        {
+          "letter": "C",
+          "text": "High signal intensity on STIR MR images is specific for mature cystic teratoma and may exclude endometrioma."
+        },
+        {
+          "letter": "D",
+          "text": "None of the above."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[endometrioma]]（Radiopaedia endometrioma：T1 高、T2 shading、抑脂序列有助與畸胎瘤脂肪區分——endometrioma 抑脂後仍高、脂肪則被壓低；RadioGraphics 2001 Woodward 為 Tier 1）",
+      "explanation": "B 正確：T1 高訊號腫塊若在抑脂（fat-suppressed）序列上訊號「下降」，代表其成分為脂肪，可判為成熟囊性畸胎瘤（mature cystic teratoma）；相對地 endometrioma 為血性內容、抑脂後仍維持高訊號，故此表現可資鑑別。A 錯：endometrioma 典型 T2 因 shading 而「偏低」，並非比出血性囊腫更高的 T2。C 錯：STIR 高訊號並非畸胎瘤特異——脂肪在 STIR 反而被抑制，且此表現無法排除 endometrioma。故選 B。→ [[endometrioma]]",
+      "images": [],
+      "concepts": [
+        "endometrioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-273",
+      "year": 2022,
+      "number": 273,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following MR imaging feature(s) is(are) suggestive of malignant endometriomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Increase in size."
+        },
+        {
+          "letter": "B",
+          "text": "Increased T2-weighted signal intensity of an endometrioma."
+        },
+        {
+          "letter": "C",
+          "text": "Development of enhancing mural nodules."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[endometriosis-malignant-transformation]]（Clin Imaging 2018 與 STATdx endometrioma 為 Tier 1：囊內強化壁結節最敏感、T2 shading 消失/T2 訊號上升、病灶增大皆為惡變警訊）",
+      "explanation": "惡性轉化（EAOC，多為 endometrioid 或 clear cell adenocarcinoma）的 MRI 警訊包含：A 病灶逐漸增大、B T2 shading 減弱/消失致 endometrioma 的 T2 訊號上升（腫瘤分泌液稀釋出血性內容）、C 出現強化壁結節（最敏感的惡變徵象，約 97% 敏感）。三者皆屬惡性警訊，故選 D「All of the above」。其中強化壁結節最具鑑別價值，需以動態增強與 subtraction 影像於高 T1 訊號囊內辨識。→ [[endometriosis-malignant-transformation]]",
+      "images": [],
+      "concepts": [
+        "endometriosis-malignant-transformation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-274",
+      "year": 2022,
+      "number": 274,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is NOT included in the ASPECT score for segmental estimation of the middle cerebral artery (MCA) vascular territory?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Caudate nucleus"
+        },
+        {
+          "letter": "B",
+          "text": "Putamen"
+        },
+        {
+          "letter": "C",
+          "text": "Internal capsule"
+        },
+        {
+          "letter": "D",
+          "text": "Insular cortex"
+        },
+        {
+          "letter": "E",
+          "text": "Thalamus"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[aspects-score]]（Radiopaedia ASPECTS；Pexman JHW et al. AJNR 2001）",
+      "explanation": "答 E「Thalamus（視丘）」不屬 ASPECTS 的 MCA 10 區。ASPECTS 為 MCA 區域的 10 分倒扣制，10 區＝深部 3 分（caudate、lentiform/putamen、internal capsule）＋皮質 7 分（insular cortex 與 M1–M6）。視丘主要屬後循環供血，被納入的是後循環改良版 pc-ASPECTS，而非前循環 MCA 的 ASPECTS。故 A、B、C、D 皆為 MCA ASPECTS 區域，唯 E 視丘不在其中。→ [[aspects-score]]",
+      "images": [],
+      "concepts": [
+        "aspects-score"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-275",
+      "year": 2022,
+      "number": 275,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "1. Which one of the following techniques is LEAST appropriate to confirm a diagnosis of venous sinus thrombosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rapid contrast-enhanced gradient-echo MRI with contrast-enhanced multiplanar imaging."
+        },
+        {
+          "letter": "B",
+          "text": "MDCT angiography or venography."
+        },
+        {
+          "letter": "C",
+          "text": "Brain MRI and phase-contrast MR venography."
+        },
+        {
+          "letter": "D",
+          "text": "Cerebral angiography."
+        },
+        {
+          "letter": "E",
+          "text": "Brain MRI with time-of-flight MR venography"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[dural-venous-sinus-thrombosis]]（Radiopaedia Cerebral venous thrombosis；PMC9410175 Imaging of Cerebral Venous Thrombosis）",
+      "explanation": "答 D「Cerebral angiography（導管腦血管攝影）」最不恰當。腦靜脈竇血栓的診斷主力是非侵入性的 MRI＋MRV 或 CTV／CTA——包括對比增強 GRE MRI（A）、MDCT 血管／靜脈攝影（B）、相位對比 MRV（C）、time-of-flight MRV（E），皆能同時顯示竇內血栓（直接徵象）與靜脈梗塞／出血（間接徵象）。導管腦血管攝影具侵入性、輻射與併發症風險，僅在無法確診或擬介入時保留，故作為「確診」手段最不恰當。→ [[dural-venous-sinus-thrombosis]]",
+      "images": [],
+      "concepts": [
+        "dural-venous-sinus-thrombosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-276",
+      "year": 2022,
+      "number": 276,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following is NOT associated with venous sinus thrombosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Sickle cell disease."
+        },
+        {
+          "letter": "B",
+          "text": "Oral contraceptives."
+        },
+        {
+          "letter": "C",
+          "text": "Cancer."
+        },
+        {
+          "letter": "D",
+          "text": "Disseminated intravascular coagulation."
+        },
+        {
+          "letter": "E",
+          "text": "Dehydration."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[dural-venous-sinus-thrombosis]]（Radiopaedia Cerebral venous thrombosis；PMC9410175 Imaging of Cerebral Venous Thrombosis）",
+      "explanation": "答 D「Disseminated intravascular coagulation（DIC）」與靜脈竇血栓關聯最不成立。CVST 典型危險因子為高凝／血栓體質與血流鬱滯：鐮型血球病（A）、口服避孕藥（B）、惡性腫瘤（C）、脫水（E）皆屬概念所列之促血栓因子。DIC 為凝血因子與血小板廣泛「消耗」的病態，臨床以出血傾向為主，並非經典的靜脈竇血栓成因，故為非相關者。→ [[dural-venous-sinus-thrombosis]]",
+      "images": [],
+      "concepts": [
+        "dural-venous-sinus-thrombosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-277",
+      "year": 2022,
+      "number": 277,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "The most common cause of spontaneous pneumothroax is",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rupture of subpleural blebs."
+        },
+        {
+          "letter": "B",
+          "text": "Pulmonary tuberculosis"
+        },
+        {
+          "letter": "C",
+          "text": "Bronchial adenoma"
+        },
+        {
+          "letter": "D",
+          "text": "Bronchogenic carcinoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[pneumothorax-imaging]]（Radiopaedia pneumothorax；STATdx 佐證原發自發性氣胸源於 subpleural bulla/bleb 破裂）",
+      "explanation": "自發性氣胸最常見者為原發自發性氣胸，好發於年輕、高瘦、吸菸族群，機轉為肺尖部胸膜下小泡/水泡（subpleural bleb/bulla）破裂使氣體漏入胸膜腔，故答案為 A。B（肺結核）、D（支氣管肺癌）可造成續發性氣胸但非「最常見」原因；C（bronchial adenoma）更非典型氣胸病因。→ [[pneumothorax-imaging]]",
+      "images": [],
+      "concepts": [
+        "pneumothorax-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-278",
+      "year": 2022,
+      "number": 278,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one about GBCA (Gadolinium based contrast agents) is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The macrocyclic chelates are more stable than the linear type"
+        },
+        {
+          "letter": "B",
+          "text": "Evidence showing more deposition for macrocyclic chelates than linear type"
+        },
+        {
+          "letter": "C",
+          "text": "Gadolinium deposition in brain is harmful"
+        },
+        {
+          "letter": "D",
+          "text": "Linear chelates be banned in Taiwan by FDA (2017)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[gadolinium-contrast]]（Radiopaedia Gadolinium-based contrast agents；EMA 2017 PRAC／Gulani Lancet Neurol 2017）",
+      "explanation": "答案 A。macrocyclic（環狀）螯合較 linear（線狀）穩定，去螯合少、NSF 與腦沉積風險較低，為正確敘述。B 錯誤：沉積量 linear ＞ macrocyclic，非 macrocyclic 較多。C 錯誤：腦部釓沉積目前尚無證據造成失智／小腦症候群等臨床危害，臨床意義未明，不能斷言「有害」。D 錯誤：2017 為 EMA（歐洲）暫停／限制多數 linear 製劑，非台灣 FDA 全面禁用 linear。詳見 → [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-279",
+      "year": 2022,
+      "number": 279,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is a typical finding of constrictive pericarditis in CT images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pericardial calcification"
+        },
+        {
+          "letter": "B",
+          "text": "Tubular ventricular configuration"
+        },
+        {
+          "letter": "C",
+          "text": "Waist-like narrowing of atrioventricular groove"
+        },
+        {
+          "letter": "D",
+          "text": "Pleural effusion, ascites, hepatic venous congestion"
+        },
+        {
+          "letter": "E",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[cardiomyopathy-mri]]（Radiopaedia cardiomyopathy／constrictive pericarditis；Cummings RadioGraphics 2009）",
+      "explanation": "答案 E（以上皆是）。縮窄性心包炎於 CT 之典型表現包含：心包鈣化與增厚（A，>4 mm ± 鈣化為關鍵鑑別點）、心室因僵硬心包受限呈管狀（tubular，B）、房室溝呈腰狀縮窄（C），以及因體循環靜脈回流受阻造成之胸腔積液、腹水與肝靜脈鬱血（D）。四者皆為縮窄性心包炎影像特徵，故正確答案為 E。CT／MRI 藉心包增厚與鈣化可與心包正常之 restrictive cardiomyopathy 區分。詳見 → [[cardiomyopathy-mri]]",
+      "images": [],
+      "concepts": [
+        "cardiomyopathy-mri"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-280",
+      "year": 2022,
+      "number": 280,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the name of the radiology sign seen on frontal chest x-ray that is associated with pneumomediastinum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Naclerio V sign (the correct answer)"
+        },
+        {
+          "letter": "B",
+          "text": "Medial stripe sign"
+        },
+        {
+          "letter": "C",
+          "text": "Ginkgo leaf sign"
+        },
+        {
+          "letter": "D",
+          "text": "Ring-around-the-artery sign"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[pneumopericardium-signs]]（RadioGraphics/PMC 開放全文 pneumopericardium 與 pneumomediastinum 鑑別為 Tier 1：正面胸片空氣徵象之空間定位與鑑別）",
+      "explanation": "⚠️ 本題答案依來源標記為 A（Naclerio V sign）。Naclerio「V」sign 為正面胸片上縱膈積氣的經典徵象：空氣勾勒出左心緣旁與左半橫膈內側形成 V 形透亮線，與 pneumomediastinum 相關。[[pneumopericardium-signs]] 概念主要涵蓋 continuous diaphragm sign、halo sign 與 pneumopericardium/pneumomediastinum 之鑑別（頂緣是否超過大血管反折、體位可動性），並未逐字列出「Naclerio V sign」，故未能自概念直接核對此專名，暫依來源答案 A。選項 D（ring-around-the-artery sign）為側位片上肺動脈周圍積氣的 pneumomediastinum 徵象，非正面胸片。建議醫師覆核。→ [[pneumopericardium-signs]]",
+      "images": [],
+      "concepts": [
+        "pneumopericardium-signs"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-281",
+      "year": 2022,
+      "number": 281,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which following contrast agent is macrocyclic molecular structure?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Dotarem (Gd-DOTA)"
+        },
+        {
+          "letter": "B",
+          "text": "Primovist (Gd-EOB-DTPA)"
+        },
+        {
+          "letter": "C",
+          "text": "Magnevist (Gd-DTPA)"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[gadolinium-contrast]]（Radiopaedia Gadolinium-based contrast agents；ACR Manual on Contrast Media）",
+      "explanation": "答案 A。Dotarem（Gd-DOTA／gadoterate）為 macrocyclic ionic 結構，結合最強最穩定。B Primovist（Gd-EOB-DTPA／gadoxetate）與 C Magnevist（Gd-DTPA／gadopentetate）皆為 linear 結構（DTPA 骨架＝線狀），其中 Primovist 為肝膽特異性 linear 製劑、Magnevist 為 ACR Group I 高風險 linear。判別訣竅：名稱含 DOTA→環狀（macrocyclic），含 DTPA→線狀（linear）。詳見 → [[gadolinium-contrast]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-282",
+      "year": 2022,
+      "number": 282,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most likely diagnosis in patient with non-shadowing echogenic foci in the renal papilla?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pyelonephritis"
+        },
+        {
+          "letter": "B",
+          "text": "Gas in the collecting system"
+        },
+        {
+          "letter": "C",
+          "text": "Nonobstructive renal calculi"
+        },
+        {
+          "letter": "D",
+          "text": "Medullary nephrocalcinosis (correct!)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[papillary-necrosis]]（Radiopaedia Renal papillary necrosis；Jung DC et al. RadioGraphics 2006 renal papillary necrosis）",
+      "explanation": "答 D「Medullary nephrocalcinosis（髓質腎鈣質沉著）」。腎乳頭／髓質內多發、非陰影（non-shadowing）的高回音點，對應髓質內細小鈣鹽沉積，即髓質腎鈣質沉著之典型超音波表現。集尿系統氣體（B）多呈伴後方混響／髒陰影且位於集尿系統而非乳頭實質；即使非阻塞性結石（C）通常較大並伴後方聲影（shadowing）；急性腎盂腎炎（A）多為灌流／回音不均的實質變化而非乳頭內鈣化點。與概念中腎乳頭鈣化沉積之判讀一致。→ [[papillary-necrosis]]",
+      "images": [],
+      "concepts": [
+        "papillary-necrosis"
+      ],
+      "checked": false
     }
   ]
 }

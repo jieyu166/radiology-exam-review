@@ -54,6 +54,9 @@ dateRev: 2026-07-03
 > [!question]- 關於 pneumothorax，何者為真? (2017-240)
 > **1+3+4（B）**——①放胸管前須與 bulla/cyst 區分（避免醫源性瘻管）、③吸收約 1.5%/天、④純氧加速約 3-4 倍為真。⚠️ 官方標 B 但註「D???」,敘述②（吐氣相較吸氣相更敏感）存爭議,建議醫師確認。[^1]
 
+> [!question]- The most common cause of spontaneous pneumothorax is (2022-277)
+> **A**——最常見為原發自發性氣胸，源於肺尖 subpleural bleb/bulla 破裂（好發年輕高瘦吸菸者）。[^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pneumothorax-imaging")

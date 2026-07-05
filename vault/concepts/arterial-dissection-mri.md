@@ -51,6 +51,9 @@ dateRev: 2026-07-03
 > [!question]- Regarding dissecting/dissection artery, which is wrong? (2016-262)
 > **「急性血腫通常呈高訊號」錯誤（C）**——急性血腫（deoxyhemoglobin 為主）通常呈**低-等訊號**，需演變至 methemoglobin 期才轉為高訊號。其餘（訊號隨時間多樣變化、典型偏心/環周新月形高訊號、殘餘管腔隨時間縮窄）皆正確。[^1][^2]
 
+> [!question]- Which one of following descriptions is WRONG regarding vertebral artery dissection (VAD)? (2022-254)
+> **C**——Wallenberg（外側延髓）梗塞為 VAD 典型而非罕見表現，故此敘述錯誤；C2 橫突孔遠端最易剝離、頸/枕痛約 70% 皆為真。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "arterial-dissection-mri")

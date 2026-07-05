@@ -65,6 +65,10 @@ dateRev: 2026-06-29
 [^4]: 原始文獻（article 層級）：Gould L 等,*Posttraumatic tension pneumopericardium: the "small heart" sign*. **Radiology** 1986;158(3):663-664. DOI 10.1148/radiology.158.3.3945735——張力性心包積氣壓迫致心影縮小（small heart sign），提示瀕臨心包填塞。
 [^5]: 胸部 X 光徵象速記（Radiopaedia *deep sulcus sign*、*bulging fissure sign*、*Luftsichel sign*，accessed 2026-06-29）：分別對應仰臥氣胸、Klebsiella 肺炎、LUL 塌陷。
 
+## 題目
+> [!question]- What is the name of the radiology sign seen on frontal chest x-ray that is associated with pneumomediastinum? (2022-280)
+> ⚠️ 依來源答案 **A. Naclerio V sign**——正面胸片上空氣於左心緣旁及左半橫膈內側形成 V 形透亮線，為縱膈積氣經典徵象。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pneumopericardium-signs")

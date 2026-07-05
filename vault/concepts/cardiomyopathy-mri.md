@@ -51,6 +51,9 @@ dateRev: 2026-06-18
 > [!question]- 關於心肌病變的描述，何者錯誤？ (2016-286)
 > **「myocarditis典型LGE出現在interventricular septum」錯誤（D）**——典型應為subepicardial myocardium。HCM遺傳疾病+LGE於病變區域、amyloidosis屬restrictive CM、idiopathic DCM為心肌纖維化所致皆正確。[^2]
 
+> [!question]- Which of the following is a typical finding of constrictive pericarditis in CT images? (2022-279)
+> **E（以上皆是）**——心包鈣化、管狀心室、房室溝腰狀縮窄、胸水／腹水／肝靜脈鬱血皆為縮窄性心包炎特徵。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardiomyopathy-mri")

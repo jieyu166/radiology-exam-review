@@ -52,6 +52,9 @@ dateRev: 2026-07-03
 > [!question]- 75歲男性急性腹痛兩天、生命徵象不穩合併敗血性休克，CT 顯示 SMA thrombosis、bowel ileus、preserved bowel enhancement，接下來甚麼治療最為優先? (2017-246)
 > **Emergent PTA for SMA trunk with stenting and thrombolysis（D）**——preserved enhancement 代表腸道仍可挽救，優先血管內再灌流。插鼻胃/肛管非根本處置、外科取栓非此情境首選、消極觀察等惡化再手術不適合已敗血性休克病人。[^1][^2]
 
+> [!question]- Which is the LEAST typical of early arterial small bowel ischemia? (2022-263)
+> **D**——早期動脈性缺血腸壁多薄而非增厚；腸壁增厚屬較晚期/靜脈性/再灌流表現，故最不典型。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "acute-mesenteric-ischemia")

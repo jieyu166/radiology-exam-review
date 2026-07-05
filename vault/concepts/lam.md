@@ -49,6 +49,9 @@ same:
 > [!question]- 關於lymphangioleiomyomatosis，下列何者正確? (2018-042)
 > **官方答案B（Will not involve bone）**——⚠️注意：LAM『可』侵犯骨(massive osteolysis)，故B實為錯誤敘述；A(育齡婦女)/C(薄壁肺囊)/D(pneumothorax/chylothorax)/E(與TSC相關)皆為正確LAM描述。題幹作「何者正確」而答案為B，推測題幹應為「何者錯誤」，B(不侵犯骨)即為該錯誤敘述。flag待醫師對照原卷。[^3]
 
+> [!question]- Which of the followings concerning lymphangioleiomyomatosis is wrong? (2022-262)
+> 錯在「幾乎僅見於 TSC 女性」——LAM 分散發型與 TSC 相關型，非 TSC 專屬；女性好發、>10 薄壁囊、自發氣胸皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lam")

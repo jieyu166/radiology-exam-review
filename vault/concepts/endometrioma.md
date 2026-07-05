@@ -54,6 +54,12 @@ dateRev: 2026-06-17
 > [!question]- A 30-year-old female with pelvic pain, irregular periods; US shows a 4-cm diffuse homogeneous hypoechoic focal lesion with low-level internal echoes in the left ovary. What is the most likely diagnosis? (2017-311)
 > **Endometrioma（A）**——均勻分佈的低位準內部回音(毛玻璃樣外觀)為endometrioma超音波典型特徵性表現。[^3]
 
+> [!question]- Which of the following statement(s) is(are) true concerning MR imaging of endometriosis? (2022-271)
+> **B**——孕期蛻膜化子宮內膜異位可有強化壁結節、於 US/MRI 模擬卵巢癌；擴張輸卵管內 T1 高訊號反支持異位、endometrioma 典型為 T2 低訊號(shading)。[^1]
+
+> [!question]- Which of the following MR imaging finding allows differentiation of endometriomas from other differential diagnoses of an adnexal lesion? (2022-272)
+> **B**——T1 高訊號腫塊在抑脂序列訊號下降＝脂肪＝畸胎瘤，endometrioma 抑脂後仍高可資鑑別；A（T2 應偏低 shading）、C（STIR 非畸胎瘤特異）皆錯。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endometrioma")

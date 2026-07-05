@@ -84,6 +84,10 @@ dateRev: 2026-07-03
 [^8]: Ilyas M, Sharma S, Gupta V. *Immunoglobulin G4 disease-related retroperitoneal fibrosis: A series of five cases*. SA J Radiol. 2024;28(1):2830. doi:10.4102/sajr.v28i1.2830（Tier 2，PMC 開放全文已讀）：環周低衰減、輕度強化軟組織包繞腎下主動脈與下腔靜脈而不阻斷管腔;典型不把主動脈抬離脊椎,藉此與會造成血管前移的淋巴瘤/惡性病灶鑑別;輸尿管套狀包繞致水腎/水輸尿管。
 [^9]: Inoue D, et al. 與 ERS review（*Thoracic involvement and imaging patterns in IgG4-related disease*. Eur Respir Rev. 2021;30(162):210078. doi:10.1183/16000617.0078-2021）（Tier 2，依 PMC/ERS 摘要與開放文獻轉述、未讀全文）：肺部模式含支氣管血管束周圍增厚（最常見）、實性結節/腫塊、間質性病變、圓形毛玻璃影、淋巴結腫大、胸膜病變。
 
+## 題目
+> [!question]- What is the “possible” 2020 revised comprehensive diagnostic (RCD) criteria for IgG4-RD? (2022-241)
+> ⚠️ **B**——對應血清學條件 serum IgG4 >135 mg/dl；RCD 三分項為臨床/影像＋血清學＋組織學，答案依原卷保留待對照原文。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "igg4-related-disease")

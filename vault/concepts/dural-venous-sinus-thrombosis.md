@@ -78,6 +78,12 @@ same:
 > [!question]- Which of the following descriptions about cerebral venous thrombosis (CVT) is true? (2020-374)
 > **血管源性與細胞毒性水腫皆可能發生（C）**——側枝循環不良或延伸至皮質靜脈時可致細胞毒性水腫，靜脈鬱血本身則致血管源性水腫。[^3]
 
+> [!question]- Which technique is LEAST appropriate to confirm venous sinus thrombosis? (2022-275)
+> D 導管腦血管攝影——具侵入性，非確診首選；MRI/MRV、CTA/CTV、相位對比與 TOF MRV 等非侵入性方法才是診斷主力。[^2]
+
+> [!question]- Which one is NOT associated with venous sinus thrombosis? (2022-276)
+> D 瀰漫性血管內凝血（DIC）——以凝血因子消耗、出血傾向為主，非經典 CVST 成因；鐮型血球、口服避孕藥、惡性腫瘤、脫水皆為危險因子。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "dural-venous-sinus-thrombosis")

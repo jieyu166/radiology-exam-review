@@ -48,6 +48,10 @@ same:
 [^3]: Dodd JD, Souza CA, Müller NL. **High-resolution MDCT of pulmonary septic embolism: evaluation of the feeding vessel sign.** *AJR Am J Roentgenol.* 2006;187(3):623-629. doi:10.2214/AJR.05.0681（article 級）。以高解析 MDCT＋MPR 重新評估：所謂「供血血管」多繞過病灶、且常為肺靜脈而非供血肺動脈，故 feeding vessel sign 之特異性被下修為「鄰近肺血管」假象。
 [^4]: 多發肺結節／暈徵之鑑別整合（review 級）：halo sign 反映周邊出血或壞死，非特異，見於 GPA、angioinvasive aspergillosis、出血性轉移、機化性肺炎等；病程 <12 週傾向感染/敗血性栓塞，≥12 週傾向黴菌/結核/惡性/自體免疫（如 GPA、RA 結節）。綜整自肺部感染與非血栓性肺栓塞影像 review（含 *Japanese Journal of Radiology* 非血栓性肺栓塞影像綜述 2025；PMC 肺部感染 CT 影像綜述 PMC7120395）。
 
+## 題目
+> [!question]- Which statement about septic emboli is not true: (2022-268)
+> D 錯——診斷主力為胸部 CT，血管攝影非黃金標準；平片常正常、CT 可見 tree-in-bud、CTA 可見肺葉/肺節動脈充填缺損皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "septic-pulmonary-emboli")

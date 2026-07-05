@@ -133,6 +133,10 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^10]: 2019 交換考詳解；Cury RC, Abbara S, Achenbach S, et al. *CAD-RADS(TM): Coronary Artery Disease - Reporting and Data System*. JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005：CAD-RADS 1.0原始版發表於2016年（非2017）；狹窄分級0-5、modifiers含N/S/G/V/E；V modifier（vulnerable plaque）依positive remodeling(閾值1.1)、low-attenuation plaque(<30HU)、napkin-ring sign、spotty calcification(<3mm)判定。
 [^11]: 官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.361（題目所引）——易損斑塊易破裂、具薄纖維帽與大脂質核心、急性冠心症常起因於狹窄程度不高之斑塊破裂；因正性重塑管腔常無明顯狹窄，常規X光血管攝影常無法顯示此類斑塊。
 
+## 題目
+> [!question]- CCTA was given what recommendation/level of evidence for chest pain? (2022-269)
+> ⚠️ **A**——2021 AHA/ACC 胸痛指引對無已知 CAD 之胸痛給 CCTA Class 1、LOE A；答案依原卷保留待對照指引原文。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ccta")

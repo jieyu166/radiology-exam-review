@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 > [!question]- Which one of following entities has a key imaging feature of T1 hyperintensity in the pulvinar? (2020-334)
 > **Fabry disease**——pulvinar sign（T1 外側枕核高訊號）為法布瑞氏症 pathognomonic 神經影像徵象，與鈣化沉積相關。[^1][^2]
 
+> [!question]- Regarding to Fabry disease, which one is wrong (2022-259)
+> **C（Never dolichoectasia）**錯誤——Fabry 典型即有基底動脈 dolichoectasia；X 性聯溶酶體儲積症、雙側深灰質鈣化、醣鞘脂堆積皆正確。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fabry-disease-pulvinar")

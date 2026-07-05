@@ -44,6 +44,9 @@ dateRev: 2026-07-03
 > [!question]- 何者最不會有 crazy-paving? (2017-xxx)
 > **Respiratory bronchiolitis-ILD（RB-ILD）**——以氣道中心結節為主。NSIP、COP、PCP 皆可呈 crazy-paving。[^1][^2]
 
+> [!question]- Incorrect statement about “crazy paving” pattern? (2022-267)
+> **B** 錯誤——crazy-paving 的線影本含小葉間/內間隔（間質）增厚，並非「純肺泡腔過程、非間質受累」。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "crazy-paving")

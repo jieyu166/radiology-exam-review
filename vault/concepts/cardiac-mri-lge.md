@@ -39,6 +39,9 @@ dateRev: 2026-06-17
 > [!question]- Which is wrong about delayed enhancement in cardiac MRI? (2018-052)
 > **Delayed contrast enhancement of the subepicardial myocardium is highly suggestive of myocardial infarction（B）**——心肌梗塞之延遲強化型態為subendocardial（非subepicardial）。[^2]
 
+> [!question]- Regarding MR imaging in the evaluation of myocardial infarction, which of the following is the MOST important technique? (2022-251)
+> **D. Delayed-enhancement（LGE）**——延遲取像使梗塞疤痕滯留對比劑呈高訊號、評估 viability；T2＝水腫、perfusion＝灌流、phase-contrast＝流速皆非首選。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cardiac-mri-lge")
