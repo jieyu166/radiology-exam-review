@@ -35,6 +35,7 @@ dateRev: 2026-07-05
 ### 參考來源
 [^1]: *Contrast media adverse reactions*. Radiopaedia.org（rID：contrast-media-adverse-reactions，實際查證 accessed 2026-07-05）：mild「supportive measures are enough」；moderate「symptoms that are more prominent and demand medical attention with specific treatment」（marked urticaria、severe vomiting、bronchospasm、facial/laryngeal edema、vasovagal）；severe「life-threatening」約 0.04%；RANZCR 對嚴重反應建議「intramuscular (IM) epinephrine 1:1000 0.5 mL in thigh」；bronchospasm 給 O₂ 6–10 L/min＋β2 致效劑；幾乎所有致命反應於注射後 20 分鐘內。
 [^2]: **Tier 1** Berg WA, Houshmand G. *Contrast Reactions*（Breast/Imaging Safety, Dx）. STATdx，Elsevier（updated 05/13/26，實際查證 accessed 2026-07-05）：不良反應分「allergic-like」（由輕微 urticaria/pruritus 至 bronchospasm 乃至 cardiopulmonary arrest／死亡）與「physiologic」（噁心、嘔吐、迷走反應、高血壓、頭痛、焦慮）；首次 ICM 曝露反應率約 2%、再次約 0.4%；LOCM 致死率約每百萬 2 例。
+[^3]: **Tier 1** Wang CL, et al. *Management and Prevention of Hypersensitivity Reactions to Radiocontrast Media: A Consensus Statement from the American College of Radiology and the American Academy of Allergy, Asthma & Immunology.* Radiology. 2025;315(2)（DOI [10.1148/radiol.240100](https://doi.org/10.1148/radiol.240100)，RSNA 全文查證 accessed 2026-07-05）——moderate reactions「commonly require medical management with the potential to become severe if not treated」；anaphylaxis 首選 epinephrine、IM 0.01 mg/kg 之 1:1000（1 mg/mL）、>50 kg 上限 0.5 mg、打大腿前外側——支持中度反應「需治療」、B 敘述錯誤。
 
 ## 題目
 > [!question]- 有關輻射工作人員職業曝露之劑量限度，下列敘述何者錯誤？（2022-379）
@@ -43,6 +44,14 @@ dateRev: 2026-07-05
 > C. 嚴重症狀需要治療
 > D. 嚴正症狀可以給予epinephrine (1:1000)1M
 > ⚠️ **題幹與選項不符**：原始 PDF 題幹被誤植為輻射劑量限度，但四個選項實際在描述「對比劑急性反應的嚴重度分級與處置」。依選項內容判讀：**A（輕微多不需治療）正確、C（嚴重需治療）正確、D（嚴重可給 1:1000 IM epinephrine）正確**；**B（中度只需監測與保留 IV「但不需要治療」）為錯誤**——中度反應需特定治療。故若問「何者錯誤」，臨床上最可能為 **B**；原始標記答案為 D，因題幹嚴重降級無法完全確認，此題請以院方原始詳解覆核。[^1][^2]
+
+> [!question]- 以下說明，何者錯誤? (2022-408)
+> A. 輕微症狀就一般而言是不需要治療
+> B. 中度症狀需要生理監測和保留IV, 但不需要治療
+> C. 嚴重症狀需要治療
+> D. 嚴正症狀可以給予epinephrine (1:1000)1M
+>
+> **答案：B（關鍵；⚠️ 原始標記為 A，經 ACR/AAAAI 2025 共識與 Radiopaedia 查核後更正為 B）**。B「中度症狀需監測、保留 IV **但不需要治療**」為**錯誤**——中度對比劑反應症狀較明顯、commonly require medical management（抗組織胺、氧氣、β2 致效劑、必要時 IM epinephrine），且有惡化為重度之虞。A（輕微多不需特異治療）、C（嚴重需治療）、D（嚴重／過敏可給 1:1000 IM epinephrine）皆正確。[^1][^2][^3]
 
 ## 考題
 ```dataview

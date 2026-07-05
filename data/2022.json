@@ -12117,6 +12117,241 @@
         "lateral-ankle-ligaments"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-395",
+      "year": 2022,
+      "number": 395,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following components of the ulnar collateral ligament is often intact even when the radial head and coronoid process are both fractured ? Anterior bundles. Transverse bundles Posterior bundles None of above",
+      "options": [],
+      "correctAnswer": "A",
+      "reference": "詳見 [[ulnar-collateral-ligament-injury]]（Radiopaedia MCL complex of the elbow + Tier-1 MRI Clin N Am 2015 肘關節 UCL 解剖與骨折-脫位）",
+      "explanation": "Anterior bundle 是 UCL 抗外翻主力，附著於 coronoid 的 sublime tubercle。肘關節骨折-脫位中 coronoid 常為小的 tip 型骨折（位於 sublime tubercle 遠端），故即使 radial head 與 coronoid 同時骨折，anterior bundle 常仍完整。posterior bundle 附著於內側鷹嘴、transverse（Cooper's）bundle 幾無穩定作用。→ [[ulnar-collateral-ligament-injury]]",
+      "images": [],
+      "concepts": [
+        "ulnar-collateral-ligament-injury"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-396",
+      "year": 2022,
+      "number": 396,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選)",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Diffuse Astrocytoma, IDH-Mutant"
+        },
+        {
+          "letter": "B",
+          "text": "Anaplastic Astrocytoma, IDH-Mutant"
+        },
+        {
+          "letter": "C",
+          "text": "Diffuse Astrocytoma, IDH-Wild-Type"
+        },
+        {
+          "letter": "D",
+          "text": "Glioblastoma, IDH-Wild-Type"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[2-hydroxyglutarate-idh-mutant-glioma]]（Radiopaedia MR spectroscopy/2-HG + Tier-1 STATdx Astrocytoma IDH-mutant / WHO CNS 5th ed.）",
+      "explanation": "複選題，正解為 A 與 B。2-HG 僅在 IDH-mutant 神經膠質瘤堆積（突變型 IDH 把 α-ketoglutarate 還原成 D-2-HG），MRS 上共振於 2.25 ppm。A（Diffuse Astrocytoma, IDH-Mutant）與 B（Anaplastic Astrocytoma, IDH-Mutant）皆為 IDH-mutant，可見 2-HG 峰；C 與 D 為 IDH-wild-type，不產生 2-HG。→ [[2-hydroxyglutarate-idh-mutant-glioma]]",
+      "images": [],
+      "concepts": [
+        "2-hydroxyglutarate-idh-mutant-glioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-397",
+      "year": 2022,
+      "number": 397,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding to MS, which is wrong ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Peak = 20-40 years"
+        },
+        {
+          "letter": "B",
+          "text": "F:M ≈ 1:2"
+        },
+        {
+          "letter": "C",
+          "text": "Optic neuritis (50% eventually develop MS)"
+        },
+        {
+          "letter": "D",
+          "text": "T2 hyperintense Dawson fingers"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[multiple-sclerosis-imaging]]（Radiopaedia Multiple sclerosis + Tier-1 McDonald 2017 Lancet Neurol）",
+      "explanation": "「F:M ≈ 1:2」為錯——MS 女性多於男性（約 2–3:1），此選項把男女比顛倒。其餘皆正確：A 發病峰值 20–40 歲；C optic neuritis（約半數日後發展為 MS）；D T2 高訊號 Dawson fingers（腦室周圍沿深髓靜脈垂直排列之典型斑塊）。→ [[multiple-sclerosis-imaging]]",
+      "images": [],
+      "concepts": [
+        "multiple-sclerosis-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-398",
+      "year": 2022,
+      "number": 398,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following descriptions about annuloaortic ectasia is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It refers to a proximal dilatation of the aortic root at the level of the sinotubal junction and sinus of Valsalva It usually occurs with connective tissue diseases and is most commonly associated with Marfan syndrome As the aortic root expands, poor aortic cusp coaptation and distortion of the cusps may eventually result in aortic insufficiency It puts the patients at increased risk for aortic dissection, which in turn may lead to rupture"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[annuloaortic-ectasia]]（Radiopaedia Annuloaortic ectasia rID-35726 + Tier-1 STATdx Marfan Syndrome）",
+      "explanation": "⚠️ 選項於題庫匯入時合併為單一長字串（四個子敘述併入 A），請對照原卷。就內容判斷：把 annuloaortic ectasia 說成「主動脈根部在 sinotubular junction 與 sinus of Valsalva 層面擴張」為錯誤——擴張層面在 aortic annulus／sinus of Valsalva，且 sinotubular junction 是被抹平（effacement）而非擴張的部位（tulip bulb sign，見於 60–80% Marfan）。其餘敘述（常見於結締組織病、最常合併 Marfan；主動脈瓣 coaptation 不良致 aortic insufficiency；增加 dissection 與破裂風險）皆正確。→ [[annuloaortic-ectasia]]",
+      "images": [],
+      "concepts": [
+        "annuloaortic-ectasia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-399",
+      "year": 2022,
+      "number": 399,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於 Sinus venosus atrial septal defects 的描述, 何者為非?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "經常伴隨有 Partial anomalous pulmonary venous return (PAPVR) Enlargement RA and RV, increased right heart pressure ASD 靠近 coronary sinus 後方 如果沒有使用 ECG-gated cardiac CT 檢查, 可能無法正確診斷, 而誤判為 primary pulmonary hypertension."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[sinus-venosus-atrial-septal-defect]]（Radiopaedia Atrial septal defect + Tier-1 STATdx Atrial Septal Defects）",
+      "explanation": "⚠️ 選項於題庫匯入時合併為單一長字串，請對照原卷。就內容判斷：說 SV-ASD「靠近 coronary sinus 後方」為錯誤——sinus venosus 缺損位於 SVC（superior，較常見）或 IVC（inferior）交界附近、fossa ovalis 之上/下，並非 coronary sinus 後方（後者為 coronary sinus/unroofed coronary sinus 型）。其餘敘述（常伴 PAPVR；RA/RV 擴大、右心壓力上升；未用 ECG-gated cardiac CT 可能漏診而誤判為 primary pulmonary hypertension）皆正確。→ [[sinus-venosus-atrial-septal-defect]]",
+      "images": [],
+      "concepts": [
+        "sinus-venosus-atrial-septal-defect"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-400",
+      "year": 2022,
+      "number": 400,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one of the following situations is not indicated for immediate stenting?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Leriche syndrome May-Thurner syndrome and related venous thrombosis Acute femoral artery thrombosis due to arterial fibrillation Segmental chronic total occlusion of superficial femoral artery"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[peripheral-vascular-immediate-stenting]]（Radiopaedia May-Thurner syndrome + Tier-1 STATdx May-Thurner Syndrome）",
+      "explanation": "⚠️ 選項於題庫匯入時合併為單一長字串，請對照原卷。就內容判斷：Acute femoral artery thrombosis due to atrial fibrillation（心房顫動引起的急性股動脈栓塞）不適合即時支架——急性栓子阻塞第一線為 embolectomy／catheter-directed thrombolysis 清除血栓，而非直接放支架。其餘（Leriche syndrome 主動脈-髂動脈阻塞、May-Thurner 及相關靜脈血栓、SFA 節段性慢性完全閉塞）皆為結構性狹窄/閉塞病灶，適合血管成形±支架。→ [[peripheral-vascular-immediate-stenting]]",
+      "images": [],
+      "concepts": [
+        "peripheral-vascular-immediate-stenting"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-401",
+      "year": 2022,
+      "number": 401,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "The listed mechanisms for tuberculosis spondylitis infection are incorrected?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Hematogenous source Direct implantation by way of the venous system (Batson’s plexus) Direct extension from an adjacent infection Traumatic insult."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[tb-spondylitis]]（Radiopaedia Tuberculous spondylitis + Tier-1 World Neurosurg 2019 / J Korean Neurosurg Soc 2017）",
+      "explanation": "⚠️ 選項於題庫匯入時合併為單一長字串，請對照原卷。就內容判斷：TB 脊椎炎的感染機轉為 hematogenous source（血行播散）、direct implantation by way of the venous system（Batson's plexus 靜脈途徑）、direct extension from an adjacent infection（鄰近感染直接擴散）——這三項皆正確；Traumatic insult（外傷）並非 TB 脊椎炎的感染途徑，故為錯誤選項。→ [[tb-spondylitis]]",
+      "images": [],
+      "concepts": [
+        "tb-spondylitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-402",
+      "year": 2022,
+      "number": 402,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列有關 Musculoskeletal MRI 的技術, 下列敘述何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "抑制脂肪訊號的常用技術包含 frequency-selective, 短 TI 翻轉恢復 (short time inversion recovery), 反相位成像(opposed-phase)等, 此類技術可以抑制脂肪的訊號, 除 STIR 以外, 另兩項也可抑制水分子的訊號"
+        },
+        {
+          "letter": "B",
+          "text": "當肌腱或韌帶內的膠原蛋白排列方向, 與主磁場的方向成接近 55 度的夾角時, 使用 echo time ≦ 20 ms 的序列會造成 magic angle artifacts"
+        },
+        {
+          "letter": "C",
+          "text": "當我們在評估膝或踝關節的關節軟骨, 使用快速成像的 gradient echo sequences 時, 不必擔心 magic angle artifacts"
+        },
+        {
+          "letter": "D",
+          "text": "當我們使用 PD fat saturation 影像評估 biceps tendon 和 peroneal tendon 時, 要注意 magic angle artifacts"
+        },
+        {
+          "letter": "E",
+          "text": "當我們遇到病患體內有金屬植入物時, 使用 STIR 抑制脂肪訊號的效果會優於 frequency-selective 和 opposed phase fat suppression"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[msk-mri-fat-suppression-magic-angle]]（Radiopaedia + Skeletal Radiol 2018 magic angle 綜述）",
+      "explanation": "問「何者錯誤」。C「評估膝／踝關節軟骨、用 GRE 快速成像時不必擔心 magic angle artifacts」為錯誤——關節軟骨富含定向膠原、GRE 屬短 TE 序列，正是魔術角好發情境，仍須警覺。其餘正確：STIR/frequency-selective/opposed-phase 為抑脂三法（後兩者抑脂不抑水）；膠原走向≈55°、TE≤20 ms 產生魔術角；biceps／peroneal tendon 以 PD fat-sat（短 TE）評估要注意魔術角；金屬植入物時 STIR 抑脂優於 frequency-selective 與 opposed-phase。→ [[msk-mri-fat-suppression-magic-angle]]",
+      "images": [],
+      "concepts": [
+        "msk-mri-fat-suppression-magic-angle"
+      ],
+      "checked": false
     }
   ]
 }

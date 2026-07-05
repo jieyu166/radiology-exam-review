@@ -41,6 +41,11 @@ dateRev: 2026-07-02
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Zhang N, Zeng X, He L, Liu Z, Liu J, Zhang Z, Chen X, Shu Y. *The Value of MR Imaging in Comparative Analysis of Spinal Infection in Adults: Pyogenic Versus Tuberculous.* World Neurosurg 2019;128:e806-e813（據 PubMed，DOI [10.1016/j.wneu.2019.04.260](https://doi.org/10.1016/j.wneu.2019.04.260)；實際查證 accessed 2026-07-04）——回溯 70 例脊椎感染，建立 MRI 參數評分系統區辨化膿性與結核性脊椎炎（AUC 1.00），16 項參數具顯著差異，佐證 TB 之椎間盤保留與韌帶下擴散特徵。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 [^3]: **Tier 1** Lee Y, Kim BJ, Kim SH, Lee SH, Kim WH, Jin SW. *Comparative Analysis of Spontaneous Infectious Spondylitis: Pyogenic versus Tuberculous.* J Korean Neurosurg Soc 2017;61(1):81-88（據 PubMed，DOI [10.3340/jkns.2016.1212.005](https://doi.org/10.3340/jkns.2016.1212.005)；實際查證 accessed 2026-07-04）——比較 51 例化膿性與 18 例結核性脊椎炎，結核組椎間盤於增強 MRI 較常保留（50% vs 23.5%）、椎體塌陷較常見（66.6% vs 15.7%），化膿組 CRP 較高、病程較重。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
+[^4]: *Tuberculous spondylitis*. Radiopaedia.org（實際查證 accessed 2026-07-05）：脊椎受累係經 **hematogenous spread（可經動脈與靜脈，含 Batson's paravertebral venous plexus）**；感染典型呈 subligamentous spread（沿前縱韌帶下擴散）、相對椎間盤保留、後期可形成極大的椎旁膿瘍。支持本題「hematogenous、Batson's plexus 靜脈途徑、鄰近感染直接擴散」為正確途徑，而 **traumatic insult（外傷）並非 TB 脊椎炎的感染機轉**。
+
+## 題目
+> [!question]- The listed mechanisms for tuberculosis spondylitis infection are incorrect? (2022-401)
+> **D. Traumatic insult（關鍵）** TB 脊椎炎的感染機轉為 **hematogenous source（血行播散）**、**direct implantation by way of the venous system（Batson's plexus 靜脈途徑）**、**direct extension from an adjacent infection（鄰近感染直接擴散）**——這三項皆正確；**Traumatic insult（外傷）並非 TB 脊椎炎的感染途徑**，故為錯誤選項。[^3][^4]
 
 ## 考題
 > [!question]- 相關考題

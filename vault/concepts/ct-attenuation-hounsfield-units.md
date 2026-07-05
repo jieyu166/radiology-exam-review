@@ -67,6 +67,11 @@ dateRev: 2026-07-03
 >
 > **答案：A（X-ray attenuation）**。CT 影像重建呈現的是各體素之**X 光衰減（衰減係數）空間分布**，再以 HU 線性轉換顯示；並非 X 光穿透率、像素質量或體素密度本身。[^1][^2][^4]
 
+> [!question]- CT images depict patterns of:（2022-405）
+> A. X-ray attenuation（X-ray transmission / Pixel mass / Voxel density）
+>
+> **答案：A（X-ray attenuation，關鍵）**。CT 重建各體素之衰減係數（μ）空間分布並以 HU 線性轉換顯示；X 光穿透率（transmission）是偵測器原始量、非影像所呈現的量，pixel mass／voxel density 亦非直接呈現量。[^1][^2][^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ct-attenuation-hounsfield-units")
