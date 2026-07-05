@@ -11906,6 +11906,217 @@
         "bladder-urethral-trauma-imaging"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-388",
+      "year": 2022,
+      "number": 388,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the finding about the acute renal infarction can be seen in the computed tomography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cortical rim sign Edematous enlargement Wedged-shaped area of absent enhancement All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[renal-infarction]]（Radiopaedia + STATdx Genitourinary Dx）",
+      "explanation": "急性腎梗塞 CT 可見 cortical rim sign（皮質環徵，包膜下側支供血之薄環持續強化，約梗塞後 6–8 小時、見於約半數）、edematous enlargement（急性期腎臟可正常或水腫性腫大＋包膜下積液／腎周條紋）、wedge-shaped area of absent enhancement（周邊楔形無強化區，base 朝腎包膜、apex 朝腎門），三者皆為典型所見，故選『All of the above（D）』。⚠️ 原題四選項經解析退化併入 A。詳見 → [[renal-infarction]]",
+      "images": [],
+      "concepts": [
+        "renal-infarction"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-389",
+      "year": 2022,
+      "number": 389,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the description is not related to type I urethral valves?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is an urogenital membrane It may result in the vesicoureteral reflux It may cause urinary tract infection It is discovered most commonly in the neonatal period"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[urethral-anomalies-congenital]]（Radiopaedia + RadioGraphics 2002;22:1139-1164）",
+      "explanation": "Young type I 為最常見的 posterior urethral valve。(A) 為 urogenital／後尿道膜（黏膜皺褶融合）、(B) 約 50% 合併 VUR、(C) 為嬰兒期阻塞性尿路病變與 UTI 常見原因，皆與 type I 相關。(D)『discovered most commonly in the neonatal period』為與 type I 較不相關／不正確——PUV 嚴重者多於產前（antenatally）經超音波（羊水過少＋腎積水）診斷、較輕者於嬰兒／兒童期表現，並非特定最常於新生兒期被發現。⚠️ 原題四選項經解析退化併入 A。詳見 → [[urethral-anomalies-congenital]]",
+      "images": [],
+      "concepts": [
+        "urethral-anomalies-congenital"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-390",
+      "year": 2022,
+      "number": 390,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about features of coarctation is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "berry aneurysms are a recognized complication"
+        },
+        {
+          "letter": "B",
+          "text": "the isthmus of the aorta is the usual site"
+        },
+        {
+          "letter": "C",
+          "text": "a lateral chest X-ray may show dilated internal mammary arteries"
+        },
+        {
+          "letter": "D",
+          "text": "the post-ductal type presents in infancy"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[aortic-coarctation]]（Radiopaedia + STATdx Cardiac Dx）",
+      "explanation": "『the post-ductal type presents in infancy（D）』為錯誤——導管後（adult／postductal）型多為 simple coarctation、常晚期才被發現；於嬰兒期表現者為 preductal（infantile）／complex coarctation（遠端血流依賴 PDA）。其餘正確：(A) berry aneurysm 為公認合併症（cerebral aneurysm 2.5–10%、可致 SAH）、(B) isthmus（峽部，左鎖骨下遠端）為最常見部位、(C) 側面 CXR 可見擴張之內乳（internal mammary）動脈側支（併 inferior rib notching／Roesler 徵）。詳見 → [[aortic-coarctation]]",
+      "images": [],
+      "concepts": [
+        "aortic-coarctation"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-391",
+      "year": 2022,
+      "number": 391,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "The following characteristic features of Sturge-Weber syndrome is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "there is a “strawberry” nevus on the face"
+        },
+        {
+          "letter": "B",
+          "text": "the lesion is usually bilateral"
+        },
+        {
+          "letter": "C",
+          "text": "the intracerebral vascular lesion is usually well shown on arteriography"
+        },
+        {
+          "letter": "D",
+          "text": "calcification in the occipital cortex is visible on plain skull films"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[sturge-weber-syndrome]]（Radiopaedia + J Clin Med 2025;14:2182 綜述）",
+      "explanation": "『calcification in the occipital cortex is visible on plain skull films（D）』為正確——SWS gyriform／tram-track 皮質下鈣化多在頂枕（parieto-occipital）區，歷史上可於顱骨平片顯示。其餘為錯：(A) 臉部為 port-wine nevus（capillary malformation），非 strawberry nevus；(B) 約 85% 為單側／單半球，非雙側；(C) 軟腦膜血管瘤為低流量病灶，動脈攝影常無法清楚顯示（DSA 反見淺層皮質靜脈缺如與異常深部引流）。詳見 → [[sturge-weber-syndrome]]",
+      "images": [],
+      "concepts": [
+        "sturge-weber-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-392",
+      "year": 2022,
+      "number": 392,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "依據 2017 年版ESC/ ACC guideline for percutaneous treatment of aortic stenosis 的 indication是無法開刀且 預期 procedure 後可存活 大於多久?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "3 months 6 months. 12 months. 24 months"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[tavi]]（Radiopaedia + ESCR 共識 Eur Radiol 2020;30:2627-2650 / ESC-EACTS 2017 guideline）",
+      "explanation": "ESC/EACTS 2017（與 ACC/AHA）對不適合外科（inoperable）之嚴重症狀性主動脈瓣狹窄病人，TAVI 適應症要求預期能改善生活品質且預期存活 >1 年（>12 months），故選 12 months（C）。⚠️ 原題四選項（3／6／12／24 months）經解析退化併入 A。詳見 → [[tavi]]",
+      "images": [],
+      "concepts": [
+        "tavi"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-393",
+      "year": 2022,
+      "number": 393,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "The most frequent origin of right gastric artery is",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Common hepatic artery Proper hepatic artery Left hepatic artery Gastroduodenal artery"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[right-gastric-artery-origin]]（Radiopaedia + STATdx Abdominal Aorta and Visceral Vasculature Anatomy）",
+      "explanation": "胃右動脈（right gastric artery, RGA）最常源自 proper hepatic artery（固有肝動脈，約 43–53%），是固有肝動脈或其遠端分支最常見的非肝分支；其他起源 common hepatic（9–20%）、gastroduodenal（3–26%）、left hepatic 較少見。故選 Proper hepatic artery（B）。⚠️ 原題四選項經解析退化併入 A。詳見 → [[right-gastric-artery-origin]]",
+      "images": [],
+      "concepts": [
+        "right-gastric-artery-origin"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-394",
+      "year": 2022,
+      "number": 394,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following ligaments is the strongest ligament in the lateral ligaments of ankle? Anterior talofibular ligament Calcaneofibular ligament Posterior talofibular ligament Spring ligament",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterior talofibular ligament"
+        },
+        {
+          "letter": "B",
+          "text": "Calcaneofibular ligament"
+        },
+        {
+          "letter": "C",
+          "text": "Posterior talofibular ligament"
+        },
+        {
+          "letter": "D",
+          "text": "Spring ligament"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[lateral-ankle-ligaments]]（Radiopaedia + Magn Reson Imaging Clin N Am 2008;16:1-18）",
+      "explanation": "踝外側三條副韌帶中 Posterior talofibular ligament（PTFL，後距腓韌帶）最強、最厚、最少受傷；ATFL 最弱且最常在內翻扭傷中撕裂、CFL 居中。故選 Posterior talofibular ligament（C）。選項 D『Spring ligament（彈簧／跟舟足底韌帶）』屬內側／足底支撐結構，為干擾項。詳見 → [[lateral-ankle-ligaments]]",
+      "images": [],
+      "concepts": [
+        "lateral-ankle-ligaments"
+      ],
+      "checked": false
     }
   ]
 }

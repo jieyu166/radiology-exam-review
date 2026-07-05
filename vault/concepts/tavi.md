@@ -62,6 +62,10 @@ dateRev: 2026-06-29
 > [!note] 考點：關於 TAVI,何者「為非」?
 > 「**必須用 β-blocker 控制心率以取得好影像**」為非——TAVI CT **不需**(且應避免)β-blocker。收縮期量 annulus、annulus-冠狀動脈口 <10 mm 有阻塞風險、annulus＝瓣葉最低插入點皆正確。[^1]
 
+## 題目
+> [!question]- 依據 2017 年版 ESC/ACC guideline for percutaneous treatment of aortic stenosis 的 indication 是無法開刀且預期 procedure 後可存活大於多久? (2022-392)
+> **12 months（C，關鍵）**——ESC/EACTS 2017（與 ACC/AHA）對不適合外科之嚴重症狀性主動脈瓣狹窄病人，TAVI 適應症要求預期能改善生活品質且**預期存活 >1 年（>12 個月）**。⚠️ 原題四選項（3 months／6 months／12 months／24 months）經解析退化併入 A。[^8]
+
 ### 參考來源
 [^1]: ESCR 共識文件（學會層級指引）：Pontone G, et al. *CT and MR imaging prior to transcatheter aortic valve implantation: standardisation of scanning protocols, measurements and reporting—a consensus document by the European Society of Cardiovascular Radiology (ESCR).* Eur Radiol. 2019;30(5):2627–2650. doi:10.1007/s00330-019-06357-8. — annulus＝三瓣葉最低附著點虛擬環、double-oblique 重組、收縮期量測；三種導出徑（D_CS／D_A=2√(A/π)／D_C=C/π）；冠脈口高度低風險門檻 >10–14 mm；竇部／STJ、root angulation；access 最小管腔徑＋鈣化／扭曲定性分級；冠脈阻塞發生率 0.8%（VIV 3.5%）；不需且應避免 β-blocker（須涵蓋整個心動週期）。
 [^2]: 原始研究（device-sizing 證據）：Hamdan A, et al. *Dynamism of the aortic annulus: Effect of diastolic versus systolic CT annular measurements on device selection in transcatheter aortic valve replacement (TAVR).* J Cardiovasc Comput Tomogr. 2015. PMID:26239964. — 瓣環收縮期面積／周長最大，舒張期量測系統性偏小、有選小（undersizing）人工瓣之虞，建議收縮期量測。
@@ -70,6 +74,7 @@ dateRev: 2026-06-29
 [^5]: 綜述（cusp-overlap 投影與機轉，開放全文已讀）：Doldi PM, et al. *Cusp Overlap Technique: Should it become the Standard Implantation Technique for Self-Expanding Valves?* PMC8845572（Front Cardiovasc Med, 2022）。— 右、左冠狀竇 hinge point 重疊、NCC 孤立，RAO/caudal 投影；拉長 LVOT、消除導管跨瓣環 parallax；目標植入深度約 3–5 mm；新發 LBBB 與永久節律器植入率下降。投影象限資料另見 Tang GHL, et al. *Double S-Curve Versus Cusp-Overlap Technique.* JACC Cardiovasc Interv. 2020;13(24):2783–2795. doi:10.1016/j.jcin.2020.10.033.
 [^6]: 綜述／原始研究（bicuspid 判讀與選型，依摘要與開放全文）：Yoon SH, et al. 與相關 Sievers 分型／bicuspid sizing 文獻（含 PMC8549004 外科對照與 PMC9043529 鈣化 raphe 預後）。— Sievers type 0/1/2（依 raphe 數）；bicuspid 最窄處可能在瓣環平面之上（supra-annular sizing）；有 raphe 者周長導出徑較貼合外科瓣號；**鈣化 raphe >4 mm** 為長期不良結局獨立預測因子，與不對稱擴張、瓣周漏、環破裂及傳導阻滯風險升高相關。
 [^7]: 原始研究（環破裂之 LVOT 鈣量定量，依摘要未讀全文）：Hansson NC, et al. *The impact of calcium volume and distribution in aortic root injury related to balloon-expandable transcatheter aortic valve replacement.* J Cardiovasc Comput Tomogr. 2015. PMID:26164109；與 Barbanti M, et al. *Anatomical and procedural features associated with aortic root rupture during balloon-expandable TAVR.* Circulation. 2013;128(3):244–253. doi:10.1161/CIRCULATIONAHA.113.002947. — **上段 LVOT（NCC 下方）鈣量** 較整體 LVOT 鈣量更能預測根部受傷（AUC 約 0.78 vs 0.71）；面積 oversizing ≥20% 與中重度瓣下鈣化為高危。
+[^8]: **TAVI 適應症（>1 年存活門檻）**：ESC/EACTS 2017 valvular heart disease guideline 與 ACC/AHA 對**不適合外科（inoperable）**之嚴重症狀性主動脈瓣狹窄病人，建議 TAVI 條件為預期能改善生活品質且**預期存活 >1 年（>12 months）**；此為原題（Eur Radiol 2020;30:2627–2650 ESCR 共識引用之指引背景，見 [^1]）所本。輔以 *Transcatheter aortic valve implantation (TAVI)*. Radiopaedia.org（實際查證 accessed 2026-07-05）：TAVI 為對外科高風險之症狀性主動脈瓣狹窄病人的較低侵襲替代術式，術前 CT 評估瓣環、冠脈口高度與入路。
 
 ## 考題
 ```dataview
