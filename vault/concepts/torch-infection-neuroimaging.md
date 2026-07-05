@@ -9,7 +9,7 @@ aliases:
   - congenital Zika
   - mineralizing vasculopathy
   - 先天性感染神經影像
-dateRev: 2026-07-03
+dateRev: 2026-07-05
 ---
 
 # torch-infection-neuroimaging
@@ -20,7 +20,7 @@ dateRev: 2026-07-03
 - **Blueberry muffin syndrome**：多發隆起藍紫色皮膚病灶，因真皮**髓外造血（extramedullary hematopoiesis）**所致；病因含先天感染（**CMV、rubella**）、血液疾病、惡性腫瘤（**neuroblastoma、AML**）、先天血管疾病。[^3]
 - **TORCH 共同腦部影像**：**腦室周圍鈣化＋腦室擴大**為多數子宮內確診 TORCH 之共同表現，Toxo/CMV/HIV/Zika/rubella **皆可致實質鈣化**；容積喪失（除非併水腦）多致**小頭畸形（非 Zika 獨有）**。[^1]
 - **各病原鑑別（核心考點）**：[^1]
-  - **CMV（最常見 TORCH，佔子宮內感染之首、~1% 新生兒）**：**腦室周圍/室管膜下鈣化（~50%）**＋**神經移行異常（schizencephaly、pachygyria）**＋白質膠質增生/髓鞘不足＋**顳極囊變**＋小腦發育不全＋海馬垂直排列。
+  - **CMV（最常見 TORCH，佔子宮內感染之首、~1% 新生兒）**：**腦室周圍/室管膜下鈣化（~50%）**＋**神經移行異常（schizencephaly、pachygyria、polymicrogyria、lissencephaly，可見於多達 ~10% 個案）**＋白質膠質增生/髓鞘不足＋**顳極囊變**＋小腦發育不全＋海馬垂直排列。**關鍵考點：神經移行異常（migrational abnormalities）是 CMV（非 toxoplasmosis）的特徵**——感染時機愈早（<18–24 週）皮質發育破壞愈重，故 CMV 才是先天感染中最常合併皮質發育畸形者。[^1][^4]
   - **Toxoplasmosis**：實質＋腦室周圍鈣化，**廣泛度通常低於 CMV**。
   - **Herpes（HSV-2）**：**腦葉/多腦葉破壞（不像成人局限）、常出血性**。
   - **Rubella**：腦葉破壞/腦軟化、mineralizing vasculopathy。
@@ -48,10 +48,19 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: **Tier 1** Jones BV. *TORCH Infections*（Pediatrics, Brain, Dx）. STATdx，last updated 2021-10-25. Elsevier（實際查證 accessed 2026-07-03，16 references）：TORCH＝經胎盤傳播之先天感染（Toxo/Other-Zika/Rubella/CMV/Herpes/HIV/Syphilis）；**CMV 最常見**（~1% 新生兒）、~50% 腦室周圍/室管膜下鈣化＋移行異常＋白質膠質增生＋顳極囊變＋小腦發育不全；Toxo 鈣化較 CMV 少；HSV 腦葉破壞常出血；Rubella 腦軟化；**Zika 腦破壞畸形＋皮質下鈣化＋較重小頭＋黃斑萎縮**；HIV 基底核＋額葉皮質下鈣化；Syphilis 基底腦膜炎；US 篩檢、SWI/T2\*GRE 敏感於鈣化出血；mineralizing vasculopathy 非特異；DDx TS/神經囊蟲/Fahr/pseudo-TORCH。
 [^3]: 官方 2020 詳解（題目所引）；原引 *Clinical features and neuroimaging (CT and MRI) findings in presumed Zika virus related congenital infection and microcephaly*. BMJ 2016;353:i3182——Zika 皮質-皮質下白質交界鈣化與較重小頭畸形之依據；並含 blueberry muffin rash（髓外造血、先天感染 CMV/rubella、neuroblastoma/AML 等病因）之整理，已由 [^1] STATdx 一手來源查核並補強各病原鑑別與臨床。
+[^4]: **Radiopaedia** Radswiki T, Agazzi GM, Sandhyala A. *Congenital cytomegalovirus infection*. Reference article, Radiopaedia.org（rID-12647，DOI 10.53347/rID-12647，last revised 2026-06-04，accessed 2026-07-05）：先天 CMV 為最常見子宮內感染；神經影像含**腦室周圍/室管膜下鈣化、神經元移行異常（lissencephaly、pachygyria、polymicrogyria、schizencephaly）、顳極白質異常與囊變、小腦發育不全、腦室擴大、白質病變與小頭畸形**；US/CT 顯鈣化、MR（含 SWI）刻畫皮質與白質病變。與 [^1] STATdx 一致，確立 migrational abnormalities 屬 CMV 而非 toxoplasmosis 之特徵。原題 2022-296（Radiographics 2010;30(7):1779-96）亦述移行異常見於多達 10% 先天 CMV 個案。
 
 ## 題目
 > [!question]- A newborn with microcephaly has a "blueberry muffin" rash, US shows ventriculomegaly with periventricular calcifications, abnormal sulcation, cerebellar hypoplasia. Most likely diagnosis? (2020-235)
 > **TORCH infection（C）**——periventricular calcification＋ventriculomegaly＋小頭＋小腦發育不全為典型 TORCH（尤 CMV）表現。[^1][^3]
+
+> [!question]- In terms of congenital CMV (Cytomegalovirus) infection, which one is wrong? (2022-296)
+> A. Periventricular calcification is one of the typical imaging findings.
+> B. Migrational abnormalities are associated with toxoplasmosis instead of congenital CMV infection.
+> C. Microcephaly usually implies poorer outcome.
+> D. White matter diseases may be present.
+>
+> **答案：B（錯誤敘述）**——神經元移行異常（lissencephaly、pachygyria、polymicrogyria、schizencephaly）是**先天 CMV** 的特徵，可見於多達 ~10% 個案；toxoplasmosis 以鈣化為主而**非**移行異常。A（腦室周圍鈣化）、C（小頭畸形＝較差預後）、D（白質病變）皆為 CMV 正確特徵。[^1][^4]
 
 ## 考題
 ```dataview

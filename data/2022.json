@@ -10074,6 +10074,590 @@
         "papillary-necrosis"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-283",
+      "year": 2022,
+      "number": 283,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Pulmonary embolism is a known complication of COVID-19 and can be seen in 17% to 35% of patients, with the highest prevalence in patients who are critically ill. Regarding to PE in COVID-19 patients, which lobe is most commonly involved?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Right upper lobe"
+        },
+        {
+          "letter": "B",
+          "text": "Right lower lobe"
+        },
+        {
+          "letter": "C",
+          "text": "Left upper lobe"
+        },
+        {
+          "letter": "D",
+          "text": "Left lower lobe"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia COVID-19 (rID 74731) 列 PE/DVT 為 COVID acute thromboembolic disease 併發症；STATdx COVID-19 (Dx, 2025) 併發症含 acute pulmonary thromboembolic disease、雙能量 CTA 灌流缺損、內皮/血管損傷；Machnicki S et al. Chest 2021;160(2):652-670 (p.659) 指出 COVID PE 以右上葉最常受累。→ [[pulmonary-embolism-covid19]]",
+      "explanation": "答案 A（Right upper lobe）。肺栓塞是 COVID-19 已知的血栓栓塞併發症，見於約 17–35% 病人、重症/加護病房病人盛行率最高。依本題來源 Machnicki 等人 2021 Chest 回顧（p.659），COVID-19 相關 PE 以「右上葉（right upper lobe）」最常受累。其機轉偏向原位免疫血栓（immunothrombosis / in-situ thrombosis）——內皮傷害與過度發炎導致肺小-中血管原位血栓，常位於較周邊的次段肺動脈，且分布與肺實質病變相關，故不同於一般 PE 常見的右下葉分布（此為來源特定數據）。判讀上遇 COVID 病人臨床惡化 + D-dimer 顯著上升時應主動安排 CTPA，並於磨玻璃/實變區周邊次段血管仔細搜尋血栓與灌流缺損（雙能量 CT 有助）。→ [[pulmonary-embolism-covid19]]",
+      "images": [],
+      "concepts": [
+        "pulmonary-embolism-covid19"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-284",
+      "year": 2022,
+      "number": 284,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the most common histologic subtype of all RCCs?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Clear cell RCC."
+        },
+        {
+          "letter": "B",
+          "text": "Papillary RCC."
+        },
+        {
+          "letter": "C",
+          "text": "Chromophobe RCC"
+        },
+        {
+          "letter": "D",
+          "text": "Multilocular cystic RCC"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Clear cell RCC 為所有 RCC 中最常見亞型（約 70–80%）；papillary 約 13–20%、chromophobe 約 5%。Radiopaedia (Renal cell carcinoma, rID renal-cell-carcinoma-1) 與 RadioGraphics 2006;26(6):1795-1810 (Prasad SR et al., Common and Uncommon Histologic Subtypes of RCC) 交叉一致。→ [[renal-cell-carcinoma]]",
+      "explanation": "Clear cell RCC（透明細胞癌）為所有腎細胞癌中最常見的組織學亞型，約占 70–80%，影像上典型呈 hypervascular（動脈期明顯強化＋洗出）且常不均（壞死／出血／囊變／可含微觀脂肪）。其餘選項頻率依序為 papillary RCC 約 13–20%（乏血管、均質、低度漸進強化、T2 常低訊號）、chromophobe RCC 約 5%（中等強化、可呈 spoke-wheel）、multilocular cystic RCC 罕見。故正解為 (A) Clear cell RCC。→ [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-285",
+      "year": 2022,
+      "number": 285,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "In radiation-induced endocrinopathy, what hormone within the hypothalamopituitary axis is most vulnerable to radiation damage?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Adrenocorticotropic hormone."
+        },
+        {
+          "letter": "B",
+          "text": "Gonadotropin."
+        },
+        {
+          "letter": "C",
+          "text": "Growth hormone."
+        },
+        {
+          "letter": "D",
+          "text": "Thyroid-stimulating hormone."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2021;41(1):224-248 (Katsura et al., doi:10.1148/rg.2021200064) 明載下視丘-腦下垂體軸中 growth hormone 軸對輻射最脆弱，依序 gonadotropin > ACTH > TSH；Darzy & Shalet, Pituitary 2009;12(1):40-50 (doi:10.1007/s11102-008-0088-4) 亦述 GH axis being the most vulnerable。→ [[radiation-induced-hypopituitarism]]",
+      "explanation": "答案為 C（Growth hormone）。放療後下視丘-腦下垂體軸的各內分泌軸對輻射敏感度不同，順序為『GH（最脆弱）→ gonadotropin → ACTH → TSH（最耐受）』。故臨床上生長激素（GH）缺乏最早出現、最常見：低劑量（<30–40 Gy）多產生孤立性 GH 缺乏，30–50 Gy 時 GH 缺乏頻率可達 50–100% 並開始出現 TSH/ACTH 缺乏，≥60 Gy（鼻咽癌／顱底腫瘤）才逐步致 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。輻射傷害主要部位在下視丘，腦下垂體萎縮多為次發性；此類前葉激素缺乏不可逆且漸進，應於放療後 1 年內做基準內分泌評估並定期追蹤。→ [[radiation-induced-hypopituitarism]]",
+      "images": [],
+      "concepts": [
+        "radiation-induced-hypopituitarism"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-286",
+      "year": 2022,
+      "number": 286,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "2. About the MRI appearance of breast DCIS (ductal carcinoma in situ), which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The most common MRI features of breast DCIS is non-mass enhancement (NME)."
+        },
+        {
+          "letter": "B",
+          "text": "If the MRI finding is not identified on initial ultrasound, a second-look ultrasound can be performed."
+        },
+        {
+          "letter": "C",
+          "text": "(承上述), the MRI pattern of mass is more likely to be detected on second-look ultrasound than the non-mass enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "On the dynamic contrast-enhanced MRI, DCIS most likely shows washout kinetics on delayed phase."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-dcis]]（Radiopaedia：Ductal carcinoma in situ；Tier1：STATdx DCIS High Grade；RadioGraphics 2013 Greenwood, DOI 10.1148/rg.336125055）",
+      "explanation": "**D 為錯**——DCIS 於 MRI 最常見 non-mass enhancement（NME，clumped/linear/segmental），型態比 kinetics 可靠；延遲期動力學多變，**最常見為 plateau（非 washout）**，故「典型呈 washout」敘述有誤。A/B/C 皆為文獻支持之真敘述。\n\n→ [[breast-dcis]]",
+      "images": [],
+      "concepts": [
+        "breast-dcis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-287",
+      "year": 2022,
+      "number": 287,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "3. About the axillary adenopathy after COVID-19 vaccination identified on mammography and breast ultrasound, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The Moderna vaccine was more associated with axillary adenopathy than the other brands of COVID-19 vaccines."
+        },
+        {
+          "letter": "B",
+          "text": "The axillary adenopathy more often occurred at the vaccine inoculated side."
+        },
+        {
+          "letter": "C",
+          "text": "Mammography can detect more axillary adenopathy than ultrasound."
+        },
+        {
+          "letter": "D",
+          "text": "The axillary adenopathy was more likely to be seen <=14 days after vaccination."
+        },
+        {
+          "letter": "E",
+          "text": "Persistent axillary adenopathy can be seen up to 43 weeks after vaccination."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "Wolfson S, et al. Axillary Adenopathy after COVID-19 Vaccine: No Reason to Delay Screening Mammogram. Radiology 2022;303(2):297-299 (DOI 10.1148/radiol.213227)：Moderna 46% vs Pfizer 38%（P=.007）；同日檢查中 US 單獨偵測腋下淋巴腫大 61%、乳房攝影單獨僅 9%，US 遠比 MG 敏感；好發於接種後 2 週內，可持續達 43 週；不延遲篩檢乳房攝影。Radiopaedia《Unilateral axillary lymphadenopathy (differential)》rID 15690（DOI 10.53347/rID-15690）：post-vaccination 為良性、同側、自限性。Lane EG, et al. AJR 2022;219(4):559-568（DOI 10.2214/AJR.22.27687）：US 偵測淋巴腫大平均約 97 天消退，Pfizer 較 Moderna 快。[[covid-vaccine-axillary-adenopathy]]",
+      "explanation": "答案為 C（錯誤敘述）。COVID-19 疫苗接種後腋下淋巴腫大為良性、同側（接種側）、自限性反應。逐選項：A 正確——Moderna 較其他品牌更常見淋巴腫大（Moderna 46% vs Pfizer 38%，P=.007）。B 正確——多發生於接種側（同側）腋窩，符合淋巴引流。C 錯誤（本題答案）——超音波遠比乳房攝影敏感，同日檢查中 US 單獨偵測 61%、MG 單獨僅 9%，故「乳房攝影可比超音波偵測更多」為錯。D 正確——最常見於接種後 ≤2 週（14 天）內。E 正確——個案可持續至接種後 43 週。臨床處置：不因近期接種延遲篩檢乳房攝影，懷疑疫苗相關時採 ≥12 週追蹤間隔。詳見 [[covid-vaccine-axillary-adenopathy]]",
+      "images": [],
+      "concepts": [
+        "covid-vaccine-axillary-adenopathy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-288",
+      "year": 2022,
+      "number": 288,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is true about lymphatic systems?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "In the lungs, lymphatics are usually present in the centrilobular and perihilar region."
+        },
+        {
+          "letter": "B",
+          "text": "Both the peripheral and central lymphatics ducts cannot be imaged by using MRI."
+        },
+        {
+          "letter": "C",
+          "text": "The thoracic duct is the largest lymphatics channel in the body, collecting lymph from everywhere in the body except the right upper hemithorax, right upper extremity, and right side of the neck"
+        },
+        {
+          "letter": "D",
+          "text": "Percutaneous lymphatic ducts intervention is not feasible."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "RadioGraphics 2022;42(2):487–505 (Understanding Lymphatic Anatomy and Abnormalities at Imaging, DOI 10.1148/rg.210104) teaching point：胸管是全身最大淋巴通道，收集除右上胸、右上肢、右側頸部以外全身淋巴；肺淋巴管走 interlobular septa/subpleura/bronchovascular；中央淋巴管可用 MR lymphangiography 顯影；thoracic duct embolization 為 chyle leak 標準經皮治療。Radiopaedia〈Thoracic duct〉：右側頭頸/右上胸/右上肢改由 right lymphatic duct 引流。詳見 [[lymphatic-system-imaging]]",
+      "explanation": "正解 C。胸管（thoracic duct）為全身最大淋巴通道，起自 L1 附近的 cisterna chyli，收集全身淋巴，唯獨右上胸、右上肢、右側頭頸由 right lymphatic duct 引流，此為 RadioGraphics 2022 明列之 teaching point。A 錯：肺內淋巴管位於小葉間隔（interlobular septa）、胸膜下（subpleura）與支氣管血管束旁（bronchovascular），並非 centrilobular/perihilar，故淋巴病變表現為間隔與支氣管血管周圍間質增厚。B 錯：中央淋巴管可用 MR lymphangiography（肝內或結內注射）顯影，周邊淋巴管用 conventional lymphangiography，MRI 可影像化淋巴管。D 錯：thoracic duct embolization 等經皮淋巴管介入不僅可行，且為治療 chyle leak/chylothorax 的成熟術式。詳見 [[lymphatic-system-imaging]]",
+      "images": [],
+      "concepts": [
+        "lymphatic-system-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-289",
+      "year": 2022,
+      "number": 289,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is true about spontaneous coronary artery dissection (SCAD)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "SCAD can result in myocardial infarction"
+        },
+        {
+          "letter": "B",
+          "text": "Patient with SCAD do not benefit from MR angiography of abdomen and pelvis."
+        },
+        {
+          "letter": "C",
+          "text": "Most prevalent coronary segment involved in SCAD was proximal coronary arteries."
+        },
+        {
+          "letter": "D",
+          "text": "The disadvantage of coronary CT angiography (CCTA) over catheter coronary angiography in diagnosing SCAD is that CCTA cannot evaluate vascular wall and cannot detect intramural hematoma."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "SCAD 為非動脈粥樣硬化、非醫源性冠狀動脈剝離，好發年輕至中年女性，可造成 ACS/心肌梗塞至猝死（Radiopaedia: Coronary artery dissection）；RadioGraphics 2021;41(7):1897-1915 (Aslam et al., doi:10.1148/rg.2021210062) 指出 CCTA 可非侵入性評估血管壁與壁內血腫、對近段血管尤佳；AHA Circulation 2018;137:e523-557 (Hayes/Saw) 指出多數侵犯中遠段、近段<10%，並建議腦到骨盆血管篩檢。詳見 [[spontaneous-coronary-artery-dissection]]",
+      "explanation": "A 正確：SCAD 表現由急性冠心症/心肌梗塞至猝死皆可見，確實可造成心肌梗塞。B 錯：SCAD 與 fibromuscular dysplasia（可達 86%）、動脈瘤等血管病高度共病，指引建議所有病患做「腦到骨盆」血管影像篩檢，故 SCAD 病患確實受益於腹部/骨盆 MR 血管攝影。C 錯：SCAD 最常侵犯冠狀動脈的中段至遠段，僅 <10% 侵犯近段 LAD/迴旋支/右冠/左主幹（CCTA 較適用『近段』是模態解析度考量，勿與病灶好發部位混淆）。D 錯：CCTA 的優勢正是能顯示血管壁並直接偵測壁內血腫（新月狀/環狀管壁增厚、管腔外高衰減），此為加分而非缺點。詳解與影像判讀見 [[spontaneous-coronary-artery-dissection]]",
+      "images": [],
+      "concepts": [
+        "spontaneous-coronary-artery-dissection"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-290",
+      "year": 2022,
+      "number": 290,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is true about noninvasive imaging for evaluating ischemic heart disease?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A moderate stenosis of coronary artery (50-69% stenosis) are usually flow limiting."
+        },
+        {
+          "letter": "B",
+          "text": "The best noninvasive study to function all assess coronary stenosis is coronary CT angiography followed by PET myocardial perfusion imaging."
+        },
+        {
+          "letter": "C",
+          "text": "T1 mapping of cardiovascular MR is the best technique to detect left ventricular thrombus."
+        },
+        {
+          "letter": "D",
+          "text": "A left ventricular pseudoaneurysm differ from left ventricular aneurysm by having narrow neck in CT and MR images."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "左心室假性動脈瘤（游離壁破裂被心包／血栓包住，瘤壁不含心肌）具特徵性窄頸，破口/瘤體比<0.5；真性動脈瘤瘤壁保有三層、呈寬頸——CT/MR 以此鑑別（STATdx Postinfarction Left Ventricular Pseudoaneurysm；Radiopaedia LV pseudoaneurysm rID-11038）。[[left-ventricular-aneurysm-vs-pseudoaneurysm]]",
+      "explanation": "正解 D。假性動脈瘤與真性動脈瘤的判讀分水嶺在「頸部寬窄」：假性動脈瘤是心室游離壁破裂被沾黏心包／血栓侷限，瘤壁不含心肌與心內膜，具特徵性窄頸（頸/瘤體最大徑比 <0.5，多為 0.25–0.5），破裂風險高（約 30–45%）；真性動脈瘤瘤壁保有心內膜＋心肌＋心外膜三層（僅纖維化變薄），呈寬頸，破裂風險低。CT/MR 上以頸部寬窄與瘤壁是否含心肌鑑別二者，故 D 正確。其餘皆錯：(A) 中度狹窄（50–69%）不一定造成血流限制，常需 FFR/功能性檢查確認；(B) CCTA 屬解剖性評估而非功能性，且敘述語意不成立；(C) 偵測左心室血栓最佳為延遲增強（LGE）／早期增強或超音波，非 native T1 mapping。詳見 [[left-ventricular-aneurysm-vs-pseudoaneurysm]]",
+      "images": [],
+      "concepts": [
+        "left-ventricular-aneurysm-vs-pseudoaneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-291",
+      "year": 2022,
+      "number": 291,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is “double contrast” GI images?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Air"
+        },
+        {
+          "letter": "B",
+          "text": "Barium"
+        },
+        {
+          "letter": "C",
+          "text": "Water"
+        },
+        {
+          "letter": "D",
+          "text": "Air + Barium"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia「Double contrast barium enema technique」(rID 58932, https://doi.org/10.53347/rID-58932)：double contrast = 正性對比劑（硫酸鋇塗佈黏膜）＋負性對比劑（空氣/CO₂ 撐開管腔）並用。Tier-1: Rubesin SE, Levine MS, Laufer I, Herlinger H. Double-Contrast Barium Enema Examination Technique. Radiology 2000;215(3):661–671 (https://doi.org/10.1148/radiology.215.3.r00jn36642)：影像藉操作病人、鋇池與灌入氣量成像，判讀管腔輪廓、en face 黏膜面與鋇池三面向。[[double-contrast-barium-study]]",
+      "explanation": "雙重對比（double contrast）＝同時使用「正性對比劑」高密度硫酸鋇（薄層塗佈並 etch 黏膜表面）與「負性對比劑」氣體（空氣或 CO₂，撐開管腔），兩種對比並存故稱 double contrast，正解為 Air + Barium（D）。單用水（C）非對比技術；單獨的空氣（A）或單獨鋇劑（B）僅屬 single contrast。相較單一對比僅填鋇看輪廓，雙重對比額外灌氣使黏膜面 en face 顯像，對息肉、早期黏膜病灶與潰瘍偵測更佳。適用全消化道：雙重對比鋇劑灌腸（大腸）及雙重對比上消化道／鋇劑吞嚥（食道、胃：高密度鋇劑＋發泡劑產生 CO₂）。詳見 [[double-contrast-barium-study]]。",
+      "images": [],
+      "concepts": [
+        "double-contrast-barium-study"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-292",
+      "year": 2022,
+      "number": 292,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "The following descriptions about wrist, which one is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A. Ulnar impaction syndrome is almost always associated with a negative ulnar variance."
+        },
+        {
+          "letter": "B",
+          "text": "B. The radial attachment of the TFC may appear bifurcated, with two bands of low signal intensity separated by a region of higher signal intensity."
+        },
+        {
+          "letter": "C",
+          "text": "C. Osteonecrosis of the scaphoid bone is called Kienbock's disease."
+        },
+        {
+          "letter": "D",
+          "text": "D. Lunotriquetral dissociation can lead to volar intercalated segmental instability."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia（Ulnar impaction syndrome rID 9805；Kienböck disease；VISI）＋ Tier-1 STATdx《Carpal Impaction Syndromes》(Elsevier)：ulnar impaction 伴 positive ulnar variance、撞擊 lunate 尺側/triquetrum 橈側；Kienböck＝lunate 骨壞死（negative variance）、scaphoid 骨壞死為 Preiser；VISI 源自 lunotriquetral 韌帶損傷。[[wrist-ulnar-variance-carpal-instability]]",
+      "explanation": "本題問「何者正確」，正解為 D（原題庫答案 A 經查證判定為誤 ⚠️）。D 正確：VISI（volar intercalated segment instability，lunate 掌傾）主要源自 lunotriquetral 韌帶（及掌側 ulnar arcuate 韌帶尺側半）損傷，故 lunotriquetral dissociation 可導致 VISI。A 錯：ulnar impaction syndrome 大多伴隨 positive（正）ulnar variance，非 negative；尺骨相對過長撞擊 lunate 尺側與 triquetrum 橈側。B 錯：呈分叉/兩條低訊號帶夾一段高訊號的正常變異位於 TFC 的尺側附著（ligamentum subcruentum 區），而非題目所述之 radial（橈側）附著。C 錯：Kienböck disease 是 lunate 的骨壞死；scaphoid 骨壞死應稱 Preiser disease。詳見 [[wrist-ulnar-variance-carpal-instability]]。",
+      "images": [],
+      "concepts": [
+        "wrist-ulnar-variance-carpal-instability"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-293",
+      "year": 2022,
+      "number": 293,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "What are the most common types of primary osseous lymphoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A. Follicular lymphoma and marginal zone lymphoma."
+        },
+        {
+          "letter": "B",
+          "text": "B. Marginal zone lymphoma and mantle cell lymphoma."
+        },
+        {
+          "letter": "C",
+          "text": "C. Mantle cell lymphoma and DLBCL."
+        },
+        {
+          "letter": "D",
+          "text": "D. DLBCL and follicular lymphoma."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia（原發性骨骼淋巴瘤幾乎全為 NHL，DLBCL 為最常見亞型）＋ RadioGraphics 2017;37(3):881-900（Navarro et al., DOI 10.1148/rg.2017160133）明載「DLBCL and follicular lymphoma are the most common types」。詳見 [[primary-bone-lymphoma]]",
+      "explanation": "原始 answer 空白，經查證補正為 D。原發性骨骼淋巴瘤（primary osseous lymphoma）佔骨惡性腫瘤 <5%，絕大多數為非何杰金氏淋巴瘤；RadioGraphics 2017 直接載明其最常見的兩種組織型為 diffuse large B-cell lymphoma（DLBCL）與 follicular lymphoma，其中 DLBCL 為單一最常見亞型。故選 D。A（follicular＋marginal zone）、B（marginal zone＋mantle cell）、C（mantle cell＋DLBCL）皆非正確組合。影像上典型為長骨骨幹／骨幹端穿蝕性溶骨破壞併不成比例的軟組織腫塊，MRI T1 低訊號、T2 高訊號，化放療反應佳。詳見 [[primary-bone-lymphoma]]",
+      "images": [],
+      "concepts": [
+        "primary-bone-lymphoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-294",
+      "year": 2022,
+      "number": 294,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "What three muscles are attached by tendons to the coracoid process?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Pectoralis major, coracobrachialis, short head of biceps brachii."
+        },
+        {
+          "letter": "B",
+          "text": "Pectoralis minor, short head of biceps brachii, coracobrachialis."
+        },
+        {
+          "letter": "C",
+          "text": "Coracobrachialis, anterior deltoid, long head of biceps brachii."
+        },
+        {
+          "letter": "D",
+          "text": "Long head of biceps brachii, pectoralis minor, coracobrachialis."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia (Coracoid process) 與 Tier-1 RadioGraphics 2016;36(7):2084–2101《Coracoid Process: The Lighthouse of the Shoulder》(DOI 10.1148/rg.2016160039)：喙突經肌腱附著的三條肌肉為 pectoralis minor（附著喙突內側緣上表面）、coracobrachialis 與 short head of biceps brachii（此兩者共同起於喙突尖端）。[[coracoid-process]]",
+      "explanation": "喙突（coracoid process）尖端為 coracobrachialis 與 biceps brachii 短頭之共同起點，喙突內側緣上表面為 pectoralis minor 附著處，故三條經肌腱附著於喙突的肌肉為 pectoralis minor、coracobrachialis、short head of biceps brachii（選項 B）。選項 A、D 誤植 pectoralis major 或 long head of biceps（長頭起自 supraglenoid tubercle 而非喙突），選項 C 的 anterior deltoid 與 long head of biceps 亦非喙突附著肌肉。原始答案欄留空，經查證後補為 B。詳見 [[coracoid-process]]",
+      "images": [],
+      "concepts": [
+        "coracoid-process"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-295",
+      "year": 2022,
+      "number": 295,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "The most common primary bone tumor to arise in the coracoid process is which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteosarcoma."
+        },
+        {
+          "letter": "B",
+          "text": "Osteoid osteoma."
+        },
+        {
+          "letter": "C",
+          "text": "Chondrosarcoma."
+        },
+        {
+          "letter": "D",
+          "text": "Giant cell tumor."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "喙突為肩胛骨突起、屬軟骨性好發部位；RadioGraphics 2016;36:2084-2101「Coracoid Process: The Lighthouse of the Shoulder」指出喙突原發骨腫瘤罕見、以軟骨肉瘤（含去分化型）為病例系列中最常見型別。Radiopaedia Chondrosarcoma：軟骨肉瘤為第三常見惡性骨腫瘤，好發扁平骨（骨盆、肩胛骨 5%），rings-and-arcs 軟骨基質鈣化＋深度骨內膜扇貝壓痕。[[coracoid-process-bone-tumors]]",
+      "explanation": "喙突（coracoid process）是肩胛骨的突起，屬軟骨形成潛能較高的部位，故其最常見原發骨腫瘤為軟骨肉瘤（chondrosarcoma），而非骨肉瘤、類骨瘤或巨細胞瘤。在喙突骨腫瘤病例系列中，軟骨肉瘤（一般型＋去分化型）數量遠多於其他型別；類骨瘤雖為此處次要可見的良性瘤但非最常見。影像上軟骨肉瘤呈溶骨合併 rings-and-arcs／popcorn 軟骨基質鈣化、深度骨內膜扇貝壓痕（>皮質 2/3）等侵襲徵象；喙突病灶於平片易被重疊骨影遮蔽且不一定有明顯皮質破壞，須以 CT／MRI 補足。原題答案欄留空，經查證補為 C。詳見 [[coracoid-process-bone-tumors]]",
+      "images": [],
+      "concepts": [
+        "coracoid-process-bone-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-296",
+      "year": 2022,
+      "number": 296,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "In terms of congenital CMV (Cytomegalovirus) infection, which one is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Periventricular calcification is one of the typical imaging findings."
+        },
+        {
+          "letter": "B",
+          "text": "Migrational abnormalities are associated with toxoplasmosis instead of congenital CMV infection."
+        },
+        {
+          "letter": "C",
+          "text": "Microcephaly usually implies poorer outcome."
+        },
+        {
+          "letter": "D",
+          "text": "White matter diseases may be present."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "Radiopaedia《Congenital cytomegalovirus infection》(rID-12647, DOI 10.53347/rID-12647)：先天 CMV 為最常見子宮內感染，神經影像含腦室周圍/室管膜下鈣化、神經元移行異常(lissencephaly/pachygyria/polymicrogyria/schizencephaly)、顳極囊變、小腦發育不全、白質病變與小頭畸形。Tier-1：STATdx《TORCH Infections》(Jones BV)＋RadioGraphics 2010;30(7):1779-96——確立移行異常屬 CMV 而非 toxoplasmosis 之特徵。[[torch-infection-neuroimaging]]",
+      "explanation": "問哪一敘述『錯誤』。答案 B。神經元移行異常(migrational abnormalities：lissencephaly、pachygyria、polymicrogyria、schizencephaly)是先天 CMV 感染的特徵，可見於多達約 10% 個案，感染時機愈早皮質發育破壞愈重；toxoplasmosis 以實質及腦室周圍鈣化為主，並非以移行異常為特徵，故 B 敘述顛倒、為錯誤選項。A 腦室周圍/室管膜下鈣化(~50%)、C 小頭畸形代表較差神經預後、D 白質病變(膠質增生/髓鞘不足) 皆為 CMV 正確影像特徵。詳見 [[torch-infection-neuroimaging]]。",
+      "images": [],
+      "concepts": [
+        "torch-infection-neuroimaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-297",
+      "year": 2022,
+      "number": 297,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "有關 Hounsfield Units (HU) 的敘述，何者正確？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "HU的單位與衰減係數 (attenuation coefficient) 相同，皆為 cm-1"
+        },
+        {
+          "letter": "B",
+          "text": "一般來說，掃描參數 tube voltage (keV) 設定越高，骨骼的 HU 數值也越高"
+        },
+        {
+          "letter": "C",
+          "text": "水的 HU 數值為0，是反覆觀測的經驗數值"
+        },
+        {
+          "letter": "D",
+          "text": "空氣的 HU 數值為 -1000，是被定義的"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "Radiopaedia (Hounsfield unit, rID-38181)：HU 為無因次量、衰減係數之線性轉換，水=0、空氣=−1000 HU 皆為定義式指定之基準。RadioGraphics 2019;39(3):683-702 (Leng et al., DOI 10.1148/rg.2019180115)：診斷能量下衰減以光電效應(∝Z、與能量成反比)+康普頓散射為主，高 kVp 使光束變硬、高原子序物質衰減下降。[[ct-attenuation-hounsfield-units]]",
+      "explanation": "答案 D。HU=1000×(μ−μ_water)/(μ_water−μ_air)，空氣 −1000、水 0 皆為定義式所指定之基準，非經驗觀測值（C 誤、D 正確）。HU 是經線性轉換之無因次量，與衰減係數（cm⁻¹）單位不同（A 誤）。提高管電壓(kVp)使光束變硬、光電效應減弱，骨骼等高原子序物質之衰減與 HU 反而下降而非上升（B 誤）。詳見 [[ct-attenuation-hounsfield-units]]。",
+      "images": [],
+      "concepts": [
+        "ct-attenuation-hounsfield-units"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-351",
+      "year": 2022,
+      "number": 351,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "CT images depict patterns of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X-ray attenuation X-ray transmission Pixel mass Voxel density"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "Radiopaedia (Hounsfield unit, rID-38181)：CT 值為衰減係數之線性轉換。RadioGraphics 2019;39(3):683-702 (Leng et al., DOI 10.1148/rg.2019180115)：CT 影像形成基於各體素之 X 光衰減。[[ct-attenuation-hounsfield-units]]",
+      "explanation": "答案 A（X-ray attenuation）。CT 重建呈現的是各體素之 X 光衰減（衰減係數）空間分布，再經 HU 線性轉換顯示；並非 X 光穿透率、像素質量或體素密度。詳見 [[ct-attenuation-hounsfield-units]]。",
+      "images": [],
+      "concepts": [
+        "ct-attenuation-hounsfield-units"
+      ],
+      "checked": false
     }
   ]
 }

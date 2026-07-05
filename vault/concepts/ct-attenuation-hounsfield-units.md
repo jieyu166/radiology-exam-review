@@ -20,6 +20,8 @@ dateRev: 2026-07-03
 ## Summary
 - **本質（線性轉換）**：HU 由**測量之衰減係數經線性轉換**而得：**HU = 1000 ×（μ − μ_water）/（μ_water − μ_air）**；**水 = 0 HU、空氣 = −1000 HU**（任意指定基準）。[^1][^2]
 - **非直接密度**：HU **不等同物理密度**——衰減係數尚受**原子序、光子能量**影響（衰減 ≠ 密度）。[^1][^2]
+- **能量依存（kVp 效應）**：診斷能量範圍內衰減由**光電效應（∝ Z、與光子能量 E 成反比）與康普頓散射**共同決定；**提高管電壓（keV/kVp）使光束變硬、低能光子被優先衰減之效應減弱**，故**骨、碘等高原子序物質之衰減與 HU 隨 kVp 上升而「下降」**（非上升）——此為雙能量/光子計數 CT 物質分解之物理基礎。[^4]
+- **CT 影像本質**：CT 影像呈現的是**X 光衰減（X-ray attenuation）之空間分布**，並非 X 光穿透率、像素質量或體素密度本身。[^1][^4]
 - **命名**：以 **Sir Godfrey Hounsfield**（CT 發明者、1979 諾貝爾醫學獎）**單獨命名**；Allan Cormack 亦獨立發明並共獲諾貝爾獎，但 CT 值未冠其名（非「唯一發明者」）。[^1]
 - **刻度範圍**：空氣 −1000、多數軟組織 −100~+100、緻密骨（耳蝸）約 2000、金屬 >3000 HU。[^2]
 - **關鍵臨床值**：**正常肺實質 −700~−950 HU**；**冠狀動脈 CTA 最佳血管內強化約 250-300 HU**（非 800），以區分低密度粥狀斑塊（~40）、纖維斑塊（~90）、鈣化斑塊（>130）。[^1]
@@ -46,10 +48,24 @@ dateRev: 2026-07-03
 [^1]: 官方 2020 詳解；Ref: Weissleder R, et al. Primer of Diagnostic Radiology, 5th ed., p.4（題目所引）——HU 以 Hounsfield 命名（Cormack 共獲諾貝爾但 CT 值未冠其名）；HU 為衰減係數經線性轉換、非直接等同密度；冠狀 CTA 最佳血管內強化 250-300 HU；正常肺 −700~−950 HU；Agatston 分級（0/1-10/11-100/101-400/>400）、>160 分 MACE 風險增加。
 [^2]: *Hounsfield unit*. Radiopaedia.org, rID-38181, DOI 10.53347/rID-38181（輔助來源）——HU 為無因次量、**衰減係數之線性轉換**；**水 = 0、空氣 = −1000 HU**（任意指定）；刻度 −1000（空氣）、−100~+100（多數組織）、~2000（緻密骨）、>3000（金屬）；顯示由 window/level 決定。
 [^3]: **Tier 1** Zhu X, Zhu Y, Xu H, et al. *An individualized contrast material injection protocol with respect to patient-related factors for dual-source CT coronary angiography*. Clin Radiol 2013;69(2):e86-92（據 PubMed，DOI [10.1016/j.crad.2013.09.018](https://doi.org/10.1016/j.crad.2013.09.018)，實際查證 accessed 2026-07-03）——冠狀動脈 CTA 之對比劑注射協定依 **體重/BMI/心率個別化**可降低個體差異與**動脈過度強化（over-opacification，定義為衰減 >500 HU）之發生率**；佐證本檔「冠狀 CTA 目標強化 250-300 HU、過高遮蔽鈣化」之臨床要點。原「官方詳解／Radiopaedia only」弱來源已由本次期刊查核升級。
+[^4]: **Tier 1（RadioGraphics）** Leng S, Bruesewitz M, Tao S, Rajendran K, Halaweish AF, Campeau NG, Fletcher JG, McCollough CH. *Photon-counting Detector CT: System Design and Clinical Applications of an Emerging Technology*. RadioGraphics 2019;39(3):683-702（DOI [10.1148/rg.2019180115](https://doi.org/10.1148/rg.2019180115)，STATdx/RSNA 全文查證 accessed 2026-07-05）——CT 衰減物理：診斷能量範圍內以**光電效應（衰減 ∝ 有效原子序 Z、與光子能量 E 成反比）與康普頓散射**為主；因使用多能量（polyenergetic）光束，穿過物體時**低能光子被優先衰減、有效能量往高端位移（beam hardening）**，並影響鄰近軟組織之 **CT 值準確度**——支持本檔「HU 受光子能量/kVp 影響、高 Z 物質（骨/碘）HU 隨管電壓上升而下降」及「CT 影像呈現的是 X 光衰減分布」之要點。
 
 ## 題目
 > [!question]- About CT attenuation, which one is CORRECT (2020-307)
 > **Normal lung parenchyma is about −700 to −950 HU（D）**——正確。HU 以 Hounsfield 單獨命名（非唯一發明者）、HU 非直接與物理密度線性相關（為衰減係數之線性轉換）、冠狀 CTA 最佳血管內強化約 250-300 HU 非 800，其餘皆錯。[^1][^2]
+
+> [!question]- 有關 Hounsfield Units (HU) 的敘述，何者正確？（2022-297）
+> A. HU的單位與衰減係數 (attenuation coefficient) 相同，皆為 cm⁻¹
+> B. 一般來說，掃描參數 tube voltage (keV) 設定越高，骨骼的 HU 數值也越高
+> C. 水的 HU 數值為0，是反覆觀測的經驗數值
+> D. 空氣的 HU 數值為 -1000，是被定義的
+>
+> **答案：D**。空氣 −1000 HU 與水 0 HU 皆為 **HU 定義式所指定之基準**（HU = 1000×(μ−μ_water)/(μ_water−μ_air)），非經驗觀測值（C 誤、D 正確）。HU 為經線性轉換之**無因次量**，與衰減係數（單位 cm⁻¹）單位不同（A 誤）。提高管電壓（kVp）使光束變硬、光電效應（∝Z、與能量成反比）減弱，**骨骼等高原子序物質之衰減與 HU 反而下降**，非上升（B 誤）。[^1][^2][^4]
+
+> [!question]- CT images depict patterns of:（2022-351）
+> A. X-ray attenuation（X-ray transmission / Pixel mass / Voxel density）
+>
+> **答案：A（X-ray attenuation）**。CT 影像重建呈現的是各體素之**X 光衰減（衰減係數）空間分布**，再以 HU 線性轉換顯示；並非 X 光穿透率、像素質量或體素密度本身。[^1][^2][^4]
 
 ## 考題
 ```dataview
