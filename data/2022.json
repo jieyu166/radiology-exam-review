@@ -12352,6 +12352,228 @@
         "msk-mri-fat-suppression-magic-angle"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-403",
+      "year": 2022,
+      "number": 403,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "下列關於 Rheumatoid arthritis (RA)和 Psoriatic Arthritis (PsA)的比較何者為誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "RA distribution是row pattern，MCP and carpal bone involvement較常見"
+        },
+        {
+          "letter": "B",
+          "text": "PsA distribution是ray pattern，DIP joint involvement較常見"
+        },
+        {
+          "letter": "C",
+          "text": "periarticular bone proliferation RA 比 PsA常見"
+        },
+        {
+          "letter": "D",
+          "text": "periarticular osteoporosis RA 比 PsA 常見"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[psoriatic-arthritis]]（Radiopaedia + RadioGraphics 2020;40:1339-1354 RA vs PsA）",
+      "explanation": "問「何者為誤」。C「periarticular bone proliferation RA 比 PsA 常見」為錯誤——骨增生（periarticular new bone／periostitis／enthesophyte）是 PsA 的特徵而非 RA；RA 反以純侵蝕＋近關節骨質疏鬆為主。A（RA row pattern, MCP／腕骨）、B（PsA ray pattern, DIP）、D（periarticular osteoporosis RA>PsA，PsA 通常保留骨密度）皆正確。→ [[psoriatic-arthritis]]",
+      "images": [],
+      "concepts": [
+        "psoriatic-arthritis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-404",
+      "year": 2022,
+      "number": 404,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "Among currently approved radiopharmaceuticals, the only alpha particle-emitting radionuclide is ______________.",
+      "options": [
+        {
+          "letter": "A",
+          "text": "131I-sodium iodide"
+        },
+        {
+          "letter": "B",
+          "text": "99mTc-MDP"
+        },
+        {
+          "letter": "C",
+          "text": "223Ra-radium dichloride"
+        },
+        {
+          "letter": "D",
+          "text": "68Ga-DOTATATE"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[radium-223-alpha-emitter]]（Radiopaedia + EANM guideline Eur J Nucl Med Mol Imaging 2018）",
+      "explanation": "C（223Ra-radium dichloride, Xofigo）是現行唯一核准的 α 粒子放射藥物，用於去勢抗性攝護腺癌之症狀性骨轉移；作為鈣模擬物與羥基磷灰石結合、沉積於高骨轉換處、α 高 LET 造成雙股 DNA 斷裂、射程 <100 μm。131I-sodium iodide 為 β⁻、99mTc-MDP 為 γ（骨掃描顯影）、68Ga-DOTATATE 為 β⁺/PET，皆非 α。→ [[radium-223-alpha-emitter]]",
+      "images": [],
+      "concepts": [
+        "radium-223-alpha-emitter"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-405",
+      "year": 2022,
+      "number": 405,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "CT images depict patterns of:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "X-ray attenuation"
+        },
+        {
+          "letter": "B",
+          "text": "X-ray transmission"
+        },
+        {
+          "letter": "C",
+          "text": "Pixel mass"
+        },
+        {
+          "letter": "D",
+          "text": "Voxel density"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[ct-attenuation-hounsfield-units]]（Radiopaedia + RadioGraphics PCCT 2019 CT 衰減物理）",
+      "explanation": "A（X-ray attenuation）正確。CT 重建各體素之 X 光衰減係數（μ）空間分布，再以 HU 線性轉換顯示。X-ray transmission（穿透率）為偵測器原始量、非影像所呈現的量；pixel mass／voxel density 亦非 CT 直接呈現的量。→ [[ct-attenuation-hounsfield-units]]",
+      "images": [],
+      "concepts": [
+        "ct-attenuation-hounsfield-units"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-406",
+      "year": 2022,
+      "number": 406,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "The typical lead equivalent in lead aprons used in diagnostic radioology is about _____ .",
+      "options": [
+        {
+          "letter": "A",
+          "text": "0.1 mm"
+        },
+        {
+          "letter": "B",
+          "text": "0.5 mm"
+        },
+        {
+          "letter": "C",
+          "text": "1 mm"
+        },
+        {
+          "letter": "D",
+          "text": "0.05 mm"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[lead-apron-lead-equivalent]]（Radiopaedia + Radiology 臨床鉛衣衰減研究）",
+      "explanation": "B（0.5 mm）正確。診斷放射線鉛衣典型／標準鉛當量約 0.5 mm Pb（另有 0.25、0.35 mm 規格，重量與防護成正比），0.5 mm 於診斷能量衰減散射約 95–97%。0.1 mm、0.05 mm 過薄、1 mm 過重，皆非典型值。→ [[lead-apron-lead-equivalent]]",
+      "images": [],
+      "concepts": [
+        "lead-apron-lead-equivalent"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-407",
+      "year": 2022,
+      "number": 407,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "A premenopausal woman requires a breast MRI with contrast. Which week of the menstrual cycle is the best choice to perform the MRI?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Days 1 to 6"
+        },
+        {
+          "letter": "B",
+          "text": "Days 7 to 14"
+        },
+        {
+          "letter": "C",
+          "text": "Days 15 to 21"
+        },
+        {
+          "letter": "D",
+          "text": "Days 22 to 28"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[breast-mri-bpe]]（Radiopaedia + RadioGraphics 2018;38:983-996 荷爾蒙對 BPE 影響）",
+      "explanation": "B（Days 7 to 14）正確。停經前婦女對比乳房 MRI 最佳時機為週期第 2 週（days 7-14, 濾泡／增生期），此時荷爾蒙誘發之背景實質強化（BPE）最低，可減少背景強化掩蓋病灶與偽陽性；黃體期（第 3–4 週）BPE 最強應避開。→ [[breast-mri-bpe]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-bpe"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-408",
+      "year": 2022,
+      "number": 408,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "以下說明，何者錯誤?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[contrast-reaction-severity-management]]（Radiopaedia + ACR/AAAAI 共識 Radiology 2025 + STATdx）",
+      "explanation": "問「何者錯誤」。B「中度症狀需監測、保留 IV『但不需要治療』」為錯誤——中度對比劑反應症狀較明顯、commonly require medical management（抗組織胺、氧氣、β2 致效劑、必要時 IM epinephrine），且有惡化為重度之虞。A（輕微多不需特異治療，僅支持性）、C（嚴重需治療）、D（嚴重／過敏可給 1:1000 IM epinephrine）皆正確。⚠️ 原始標記答案為 A，經 ACR/AAAAI 2025 共識與 Radiopaedia 查核後更正為 B。→ [[contrast-reaction-severity-management]]",
+      "images": [],
+      "concepts": [
+        "contrast-reaction-severity-management"
+      ],
+      "checked": false
     }
   ]
 }
