@@ -38,12 +38,17 @@ dateRev: 2026-07-04
 [^1]: ACR BI-RADS Atlas, 5th ed（2013）Breast MRI section — 乳房 MRI 之 mass/non-mass enhancement lexicon（分佈、內部強化型態與良惡性關聯）之參考標準；併附下列 PubMed 驗證來源以強化出處。
 [^2]: Benndorf M, Baltzer PAT, Kaiser WA. Assessing the degree of collinearity among the lesion features of the MRI BI-RADS lexicon. Eur J Radiol. 2010;80(3):e322-4. 據 PubMed，[DOI](https://doi.org/10.1016/j.ejrad.2010.11.030)（以 BI-RADS MRI lexicon 特徵分析 mass/non-mass 病灶之良惡性關聯）。
 [^3]: Linda A, et al. Magnetic resonance imaging of radial sclerosing lesions (radial scars) of the breast. Eur J Radiol. 2012;81(11):3201-7. 據 PubMed，[DOI](https://doi.org/10.1016/j.ejrad.2012.01.038)（依 BI-RADS MRI lexicon 描述 mass/NME 之形態與動力學型態）。
+[^4]: *Breast MRI*. Radiopaedia.org（實際查證 accessed 2026-07-06）：乳房 MRI 為偵測乳癌**敏感度最高（>90%）** 之方法；DCE-MRI 提供病灶形態與功能資訊；ACR 適應症含**高風險篩檢**（BRCA1/2、mantle radiotherapy >4 Gy、Li-Fraumeni、終生風險高族群）、疾病範圍評估、術後殘餘與新輔助化療反應評估。
+[^5]: **Tier 1** Mann RM, Kuhl CK, Moy L. *Breast MRI: State of the Art*. Radiology 2019;292(3):520-536, DOI 10.1148/radiol.2019182947（實際查證 accessed 2026-07-06）：乳房 MRI 對高風險女性提高癌症偵測敏感度、但特異度較低、偽陽性率較高；MRI+乳房攝影之癌症偵測率高於（非低於）超音波+乳房攝影；MRI 為俯臥（prone）姿勢、需靜脈釓對比劑、成本較高。
 
 > [!question]- Regarding abnormal enhancement on breast MRI, which statement is suggestive of a benign lesion? (2019-232)
 > 正確答案 **B**：A circumscribed mass with non-enhancing, dark, internal septation（提示 fibroadenoma 等良性）。[^1][^2]
 
 > [!question]- 下列哪一種 Non-mass enhancement at breast MRI 的 Likelihood of malignancy 最高？ (2022-419)
 > **Segmental（D）惡性可能性最高**——依 ACR BI-RADS MRI lexicon，NME **分佈（distribution）** 越沿乳管/乳葉系統走向越可疑：**segmental（三角形、沿一乳葉乳管分支、尖端指向乳頭）** 惡性率最高，常反映導管型病變（如 DCIS）；**linear** 次之。相對地 **diffuse（瀰漫、隨機散在）** 幾乎皆良性，**regional（>大範圍、非乳管走向）** 與 **focal（<小範圍局灶）** 惡性率較低。故惡性風險大致 segmental > linear > focal/regional > diffuse。[^1][^3]
+
+> [!question]- Which of the following about Breast MR imaging is INCORRECT? (2022-428)
+> **D（關鍵）「Combination of mammography and MR imaging have a lower cancer yield and high false positive rate than whole breast US combined with mammography」為錯誤**——乳房攝影＋MRI 的癌症偵測率**高於**（並非低於）超音波＋乳房攝影。其餘正確：A. 對特定高風險女性提高癌症偵測敏感度、但特異度下降、偽陽性率高；B. 增額癌症偵測率 MR 約 8–36/1000、乳房攝影約 3–6/1000；C. MR 昂貴、需靜脈釓對比劑（原文「not tolerated by prone positioning」語意欠佳，指其成本/耐受限制）。[^4][^5]
 
 ## 考題
 ```dataview

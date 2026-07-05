@@ -13100,6 +13100,228 @@
         "extratesticular-scrotal-mass-ddx"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-423",
+      "year": 2022,
+      "number": 423,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the typical origin of uterine leiomyosarcoma? A: Drop metastasis from other organ B: Complication of molar pregnancy C: Arise from cesarean delivery scar D: May arise either de novo or in a preexisting leiomyoma",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A only"
+        },
+        {
+          "letter": "B",
+          "text": "A and C"
+        },
+        {
+          "letter": "C",
+          "text": "A,B,C"
+        },
+        {
+          "letter": "D",
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[uterine-position-and-sarcoma]]（Radiopaedia + AJR 2003 Rha CT/MRI of uterine sarcomas）",
+      "explanation": "子宮平滑肌肉瘤（leiomyosarcoma）多為 de novo 起源於子宮肌層或子宮血管結締組織，少數源自既有平滑肌瘤（leiomyoma）之惡性轉化（肉瘤化率僅 0.1–0.8%）；並非其他器官 drop metastasis、非葡萄胎併發、非剖腹產疤痕。故 A、B、C 皆非，唯 D 正確。→ [[uterine-position-and-sarcoma]]",
+      "images": [],
+      "concepts": [
+        "uterine-position-and-sarcoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-424",
+      "year": 2022,
+      "number": 424,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is represented by the time-signal intensity curve in dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI)? A:Tissue Oxygenation B:Tissue perfusion C:Tissue metabolic activity D:Tissue cellularity",
+      "options": [
+        {
+          "letter": "A",
+          "text": "A only"
+        },
+        {
+          "letter": "B",
+          "text": "B only"
+        },
+        {
+          "letter": "C",
+          "text": "C only"
+        },
+        {
+          "letter": "D",
+          "text": "All of above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[dce-mri-perfusion]]（Radiopaedia + Radiology 2019 Mann, Breast MRI State of the Art）",
+      "explanation": "DCE-MRI 利用釓對比劑之 T1 縮短效應連續取像，時間-訊號強度曲線描繪對比劑經血流進入並外滲至組織的動力學，代表組織灌流與血管通透性（可導出 K^trans）。氧合以 BOLD/fMRI 評估、代謝活性以 FDG-PET/MRS 評估、細胞密度以 DWI/ADC 評估，皆非此曲線所代表，故答案為 B（tissue perfusion）。→ [[dce-mri-perfusion]]",
+      "images": [],
+      "concepts": [
+        "dce-mri-perfusion"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-425",
+      "year": 2022,
+      "number": 425,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "評估含碘對比劑發生急性全身性不良反應之風險因子，下列何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia + ACR Manual on Contrast Media 2026 嚴重度分級）",
+      "explanation": "本題問「何者為非」。依 ACR 與 Radiopaedia，中度（moderate）對比劑反應需給予特定藥物治療（如廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非『不需治療』，故 B 為錯誤敘述（即答案）。A（輕度多自限、一般無需特殊治療）、C（重度需立即治療）、D（重度過敏可給 epinephrine 1:1000 IM）皆正確。⚠️ 原輸入答案標記 A 有誤——A 為正確敘述，真正『為非』者為 B。→ [[contrast-adverse-reactions]]",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-426",
+      "year": 2022,
+      "number": 426,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is NOT true about Pectus excavatum?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "It is about the deformity of chest wall characterized by sternal depression"
+        },
+        {
+          "letter": "B",
+          "text": "Haller index is the ration of transverse diameter divided by sagittal diameter of chest"
+        },
+        {
+          "letter": "C",
+          "text": "Measurement of Haller index is starting from outer aspect of chest wall."
+        },
+        {
+          "letter": "D",
+          "text": "Pectus excavatum is as known as funnel chest"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pectus-excavatum]]（Radiopaedia Haller index rID 57433 + RadioGraphics 1999 Jeung, Imaging of Chest Wall Disorders）",
+      "explanation": "本題問「何者為非」。Haller index 取自內側骨性標記（AP 徑為胸椎體前緣到胸骨後緣、橫徑為胸廓內側），並非自胸壁外側（outer aspect）測量，故 C 錯誤（即答案）。A（胸骨凹陷之胸壁畸形）、B（橫徑÷前後徑）、D（又稱 funnel chest 漏斗胸）皆正確。→ [[pectus-excavatum]]",
+      "images": [],
+      "concepts": [
+        "pectus-excavatum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-427",
+      "year": 2022,
+      "number": 427,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following statements is NOT true?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cor triatriatum sinister is congenital anomaly with fibromuscular diaphragm or membrane dividing left atrium into posterior and anterior chambers"
+        },
+        {
+          "letter": "B",
+          "text": "Cor triatriatum dexter is the analogous anomality involving right atrium"
+        },
+        {
+          "letter": "C",
+          "text": "Posterior (or proximal) chamber receives all or part of pulmonary veins"
+        },
+        {
+          "letter": "D",
+          "text": "Anterior (or distal ) chamber receives all or part of pulmonary veins"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[cor-triatriatum]]（Radiopaedia + AJR 2009 Dillman, Imaging of Pulmonary Venous Developmental Anomalies）",
+      "explanation": "本題問「何者為非」。依 AJR 2009（Dillman）全文與 Radiopaedia：cor triatriatum sinister 左心房被膜分為後（近端/proximal）與前（遠端/distal）兩腔，『後腔接受肺靜脈回流、前腔含二尖瓣供血至左心室』。故 D（前/遠端腔接受肺靜脈）錯誤（即答案）。A（左型定義）、B（dexter 為右心房類似畸形）、C（後/近端腔接受肺靜脈）皆正確。→ [[cor-triatriatum]]",
+      "images": [],
+      "concepts": [
+        "cor-triatriatum"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-428",
+      "year": 2022,
+      "number": 428,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following about Breast MR imaging is INCORRECT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "An increased sensitivity for cancer detection in certain high-risk women, but a decrease in specificity and high false positive rate."
+        },
+        {
+          "letter": "B",
+          "text": "Incremental cancer detection rate is 8-36 per 1000 for MR imaging and 3-6 per 1000 for mammography."
+        },
+        {
+          "letter": "C",
+          "text": "MR is costly, requires IV gadolinium, and not tolerated by prone positioning."
+        },
+        {
+          "letter": "D",
+          "text": "Combination of mammography and MR imaging have a lower cancer yield and high false positive rate than whole breast US combined with mammography."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-mri-enhancement-patterns]]（Radiopaedia Breast MRI + Radiology 2019 Mann, Breast MRI State of the Art）",
+      "explanation": "本題問「何者為 INCORRECT」。乳房攝影＋MRI 的癌症偵測率高於（並非低於）超音波＋乳房攝影，故 D 錯誤（即答案）。A（高風險女性敏感度提高、特異度下降、偽陽性高）、B（增額偵測率 MR 8–36/1000、乳房攝影 3–6/1000）、C（昂貴、需靜脈釓、成本/耐受限制）皆為正確或可接受敘述。→ [[breast-mri-enhancement-patterns]]",
+      "images": [],
+      "concepts": [
+        "breast-mri-enhancement-patterns"
+      ],
+      "checked": false
     }
   ]
 }
