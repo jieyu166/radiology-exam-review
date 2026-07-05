@@ -41,11 +41,19 @@ dateRev: 2026-07-03
 > **以上皆是（E）**——neural networks、decision trees、k-nearest neighbors(KNN)、support vector machine(SVM) 皆屬機器學習（監督式）技術範疇。[^1]
 
 ### 參考來源
-[^1]: **Tier 1（全文已讀，開放取用）** Koçak B, Durmaz EŞ, Ateş E, Kılıçkesmez Ö. *Radiomics with artificial intelligence: a practical guide for beginners*. Diagn Interv Radiol. 2019 Nov;25(6):485-495（據 PubMed，DOI [10.5152/dir.2019.19321](https://doi.org/10.5152/dir.2019.19321)，PMC6837295，實際查證 accessed 2026-07-03）——機器學習分監督式(KNN/naïve Bayes/logistic regression/SVM/decision tree/random forest/neural networks)與非監督式(k-means/PCA)；radiomics 五步驟(獲取→前處理→分割→特徵提取→AI 分析)；關鍵概念過度擬合、訓練/驗證/測試集、交叉驗證(K-fold/leave-one-out/nested/bootstrap)、特徵可重現性以 ICC 評估。原「官方 2020 詳解（題目所引）」弱來源已由本次原文全文查核升級。
+[^1]: **Tier 2（全文已讀，開放取用）** Koçak B, Durmaz EŞ, Ateş E, Kılıçkesmez Ö. *Radiomics with artificial intelligence: a practical guide for beginners*. Diagn Interv Radiol. 2019 Nov;25(6):485-495（據 PubMed，DOI [10.5152/dir.2019.19321](https://doi.org/10.5152/dir.2019.19321)，PMC6837295，實際查證 accessed 2026-07-03）——機器學習分監督式(KNN/naïve Bayes/logistic regression/SVM/decision tree/random forest/neural networks)與非監督式(k-means/PCA)；radiomics 五步驟(獲取→前處理→分割→特徵提取→AI 分析)；關鍵概念過度擬合、訓練/驗證/測試集、交叉驗證(K-fold/leave-one-out/nested/bootstrap)、特徵可重現性以 ICC 評估。
+[^2]: *Radiomics*. Radiopaedia.org（實際查證 accessed 2026-07-05）：radiomics 工作流程步驟為 initial image processing（重建演算法影響影像品質）→ image segmentation（手動／半自動／全自動 AI，2D ROI 或 3D VOI）→ features extraction and qualification（形狀、密度、強度、紋理等 semantic 與 agnostic 特徵）→後續建模；可套用於 X 光、超音波、CT、MRI、PET。**Backpropagation** 屬神經網路訓練演算法，非 radiomics 標準工作流程步驟（Q2022-381 之答案 E）。另 *Deep learning*. Radiopaedia.org（accessed 2026-07-05）：deep learning 為 machine learning 之子集，基於「多層」人工神經網路；convolutional neural network(CNN) 為其影像應用之主要架構——MLP／CNN／RNN／restricted Boltzmann machine 皆屬神經網路型深度學習架構，**support vector machine(SVM) 屬傳統機器學習、非深度學習**（Q2022-382 之答案 E）。
+[^3]: **Tier 1** Chartrand G, Cheng PM, Vorontsov E, et al. *Deep Learning: A Primer for Radiologists*. RadioGraphics 2017;37(7):2113-2131（DOI [10.1148/rg.2017170077](https://doi.org/10.1148/rg.2017170077)，PMID 29131760；據 PubMed／RSNA 摘要實際查證 accessed 2026-07-05）——為放射科醫師回顧深度學習核心概念、技術需求與臨床應用；deep learning 建立於多層人工神經網路，CNN 為醫學影像分類之主力架構，並與傳統機器學習方法（如 SVM）作區分。
 
 ## 題目
 > [!question]- Which is included in machine learning technique? (2020-284)
 > **以上皆是（E）**——neural networks、decision trees、k-nearest neighbors、support vector machine 皆屬機器學習技術。[^1]
+
+> [!question]- Which is not the typical process in radiomic analysis? (2022-381)
+> **Backpropagation（E，關鍵）**——radiomics 標準流程為 segmentation → feature extraction → feature selection → 建模與 cross-validation；backpropagation 是神經網路（深度學習）之訓練演算法，並非 radiomics 分析之典型步驟。[^1][^2]
+
+> [!question]- Which is not typically included in deep learning? (2022-382)
+> **Support vector machine（E，關鍵）**——multilayer perceptron、convolutional neural network、recurrent neural network、restricted Boltzmann machine 皆屬神經網路型深度學習架構；SVM 屬傳統（非深度）機器學習分類器。[^2][^3]
 
 ## 考題
 ```dataview

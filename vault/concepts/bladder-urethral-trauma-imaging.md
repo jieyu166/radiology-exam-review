@@ -42,6 +42,11 @@ dateRev: 2026-07-01
 [^1]: 2019 交換考詳解；Clinical urography 2nd Edition:1799。
 [^2]: 2019 交換考詳解；Clinical urography 2nd Edition:1831。
 [^3]: **Tier 1** Dane B, Baxter AB, Bernstein MP. *Imaging Genitourinary Trauma.* Radiologic Clinics of North America 2016;55(2):321-335（據 PubMed，DOI [10.1016/j.rcl.2016.10.007](https://doi.org/10.1016/j.rcl.2016.10.007)；實際查證 accessed 2026-07-04）——回顧多偵測器 CT 於泌尿道創傷之角色：辨識膀胱／輸尿管損傷須加做延遲排泄期以偵測尿液外滲，膀胱破裂以逆行充盈之 CT cystography 評估並區分腹膜內／腹膜外型，尿道與睪丸損傷分別以逆行尿道攝影與超音波評估。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。
+[^4]: *Urethral injury*. Radiopaedia.org（實際查證 accessed 2026-07-05）：**retrograde urethrography（逆行尿道攝影）為評估尿道損傷之首選檢查**（demonstrates extraluminal contrast 由損傷處外滲）；posterior urethral injury 由骨盆壓碎力造成、與骨盆骨折（約 10%）及膀胱損傷相關，anterior urethral injury 多為跨騎傷。疑似尿道損傷時（骨盆骨折＋膀胱周圍血腫／perivesical effusion）應**先做逆行尿道攝影再置入導尿管**，貿然插入 Foley 可能加重損傷。
+
+## 題目
+> [!question]- Given a patient with anterior pelvic arch fracture and soft tissue abnormalities indicative of a perivesical effusion demonstrated by the radiography. Which of the following procedure should be performed next? (2022-387)
+> **Retrograde urethrocystography（B，關鍵）**——前骨盆環骨折＋膀胱周圍積液高度懷疑尿道／膀胱損傷；此情境**首選逆行尿道（膀胱）攝影**評估尿道完整性，並必須在置入 Foley 導尿管之前進行——貿然插管可能將部分尿道斷裂變為完全斷裂。Cystoscopy、pelvic angiography 非此時的第一步。[^3][^4]
 
 ## 考題
 ```dataview

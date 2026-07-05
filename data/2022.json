@@ -11428,6 +11428,261 @@
         "ra-cervical-spine"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-381",
+      "year": 2022,
+      "number": 381,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is not the typical process in radiomic analysis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Feature extraction"
+        },
+        {
+          "letter": "B",
+          "text": "Feature selection"
+        },
+        {
+          "letter": "C",
+          "text": "Segmentation"
+        },
+        {
+          "letter": "D",
+          "text": "Cross validation"
+        },
+        {
+          "letter": "E",
+          "text": "Backpropagation (屬於machine learning)"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[machine-learning-radiomics-basics]]（Radiopaedia Radiomics + RadioGraphics 2017 深度學習 primer Tier-1）",
+      "explanation": "Radiomics 標準工作流程為 segmentation → feature extraction → feature selection → 建模與 cross-validation；backpropagation 是神經網路（深度學習）之訓練演算法，非 radiomics 分析之典型步驟，故選 E。→ [[machine-learning-radiomics-basics]]",
+      "images": [],
+      "concepts": [
+        "machine-learning-radiomics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-382",
+      "year": 2022,
+      "number": 382,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is not typically included in deep learning?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multilayer perceptron"
+        },
+        {
+          "letter": "B",
+          "text": "Convolutional neural network"
+        },
+        {
+          "letter": "C",
+          "text": "Recurrent neural network"
+        },
+        {
+          "letter": "D",
+          "text": "Restricted boltzmann machine"
+        },
+        {
+          "letter": "E",
+          "text": "Support vector machine"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[machine-learning-radiomics-basics]]（Radiopaedia Deep learning + RadioGraphics 2017 Chartrand 深度學習 primer Tier-1）",
+      "explanation": "Multilayer perceptron、convolutional neural network、recurrent neural network、restricted Boltzmann machine 皆屬神經網路型深度學習架構；support vector machine 屬傳統（非深度）機器學習分類器，故選 E。→ [[machine-learning-radiomics-basics]]",
+      "images": [],
+      "concepts": [
+        "machine-learning-radiomics-basics"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-383",
+      "year": 2022,
+      "number": 383,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following description about retrocaval ureter is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Retrocaval ureter is an anomalous segmental development of ureter rather than a vena cava anomaly."
+        },
+        {
+          "letter": "B",
+          "text": "Symptoms usually present in the 3rd to 4th decades of life as a result of progressive obstructive uropathy."
+        },
+        {
+          "letter": "C",
+          "text": "Intravenous urogram showing the pathognomonic “fish-hook” or the “S shaped” contrast illumination of the proximal ureter"
+        },
+        {
+          "letter": "D",
+          "text": "Obstruction is usually at the retrocaval segment of the ureter as it lies compressed between the IVC and the body of the third lumbar vertebra."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[retrocaval-ureter]]（Radiopaedia Circumcaval ureter + RadioGraphics 2008 Tier-1）",
+      "explanation": "選項 A 為錯誤敘述：retrocaval (circumcaval) ureter 是「下腔靜脈(IVC)的發育異常」（right posterior cardinal vein 殘留），而非輸尿管本身的節段發育異常。其餘 B（3–4 十歲漸進阻塞）、C（IVU 魚鉤／S 形近端輸尿管）、D（阻塞位於 IVC 與 L3 椎體間之 retrocaval 段）皆正確，故選 A。→ [[retrocaval-ureter]]",
+      "images": [],
+      "concepts": [
+        "retrocaval-ureter"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-384",
+      "year": 2022,
+      "number": 384,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "歐洲泌尿放射線醫學會指引建議，當病人 eGFR 小於30ml/sec 時，兩次環狀結構含釓對比劑注射應至少間隔多久時間?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "2 hours 4 hours 3 days 7 days"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[gadolinium-reinjection-interval-esur]]（Radiopaedia NSF/GBCA + ESUR Guidelines on Contrast Media 原文 Tier-1）",
+      "explanation": "ESUR 對比劑指引：eGFR ＜30 mL/min/1.73m²（或透析）者，兩次含釓對比劑(GBCA)注射應間隔至少 7 天（對照 eGFR ＞30 者僅需 4 小時），以降低腎源性系統性纖維化(NSF)風險，故選 D（7 days）。⚠️ 原始匯入選項退化為單一字串「2 hours 4 hours 3 days 7 days」，依 ESUR 原文正確答案為 7 days。→ [[gadolinium-reinjection-interval-esur]]",
+      "images": [],
+      "concepts": [
+        "gadolinium-reinjection-interval-esur"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-385",
+      "year": 2022,
+      "number": 385,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "The Fraunhofer zone is the",
+      "options": [
+        {
+          "letter": "A",
+          "text": "image plane"
+        },
+        {
+          "letter": "B",
+          "text": "image focus"
+        },
+        {
+          "letter": "C",
+          "text": "near field"
+        },
+        {
+          "letter": "D",
+          "text": "far field"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[ultrasound-fresnel-fraunhofer-zone]]（Radiopaedia Beam focusing + RadioGraphics AAPM/RSNA US physics tutorial Tier-1）",
+      "explanation": "超音波波束以焦點為界：焦點近端為 near field（Fresnel zone），焦點遠端為 far field（Fraunhofer zone），波束於此發散。故 Fraunhofer zone = far field，選 D。⚠️ 原始匯入選項退化為單一字串，已依超音波物理還原為 A/B/C/D。→ [[ultrasound-fresnel-fraunhofer-zone]]",
+      "images": [],
+      "concepts": [
+        "ultrasound-fresnel-fraunhofer-zone"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-386",
+      "year": 2022,
+      "number": 386,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding the different molecular subtype of breast cancer, which of the following statements is incorrect?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Luminal A tumors have the best prognosis of all subtypes."
+        },
+        {
+          "letter": "B",
+          "text": "Luminal B tumors have significantly shorter overall and disease-free survival to luminal A tumors, require more aggressive treatment."
+        },
+        {
+          "letter": "C",
+          "text": "HER2-enriched disease carries a poor prognosis, but greatly improved outcomes with the anti-HER2 therapies."
+        },
+        {
+          "letter": "D",
+          "text": "Basal-like cancers are frequently high grade, high recurrent rate, usually presented as spiculated mass with pleomorphic calcifications or calcifications alone."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[breast-cancer-molecular-subtypes]]（Radiopaedia TNBC + Journal of Breast Imaging 2021 Johnson 分子亞型 Review Tier-1）",
+      "explanation": "選項 D 為錯誤敘述：basal-like／三陰性乳癌雖為高惡性度、高復發率，但其典型影像實為邊界清楚(circumscribed)、圓／橢圓形、單發、且『不』伴鈣化，甚至可酷似良性病灶；而非毛刺狀腫塊＋多形性鈣化（那屬 luminal／HER2 型）。A/B/C 皆正確，故選 D。⚠️ 原始匯入選項退化為單一大段字串，已依 JBI 與 Radiopaedia 重建為 A–D 四選項。→ [[breast-cancer-molecular-subtypes]]",
+      "images": [],
+      "concepts": [
+        "breast-cancer-molecular-subtypes"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-387",
+      "year": 2022,
+      "number": 387,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Given a patient with anterior pelvic arch fracture and soft tissue abnormalities indicative of a perivesical effusion demonstrated by the radiography. Which of the following procedure should be performed next?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Insertion of the Foley catheter"
+        },
+        {
+          "letter": "B",
+          "text": "Retrograde urethrocystography"
+        },
+        {
+          "letter": "C",
+          "text": "Cystoscopy"
+        },
+        {
+          "letter": "D",
+          "text": "Pelvic angiography"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[bladder-urethral-trauma-imaging]]（Radiopaedia Urethral injury + Radiologic Clinics of North America 2016 GU trauma Tier-1）",
+      "explanation": "前骨盆環骨折＋膀胱周圍積液高度懷疑尿道／膀胱損傷；此情境首選逆行尿道（膀胱）攝影(retrograde urethrocystography)評估尿道完整性，且必須在置入 Foley 導尿管之前進行——貿然插管可能將部分尿道斷裂惡化為完全斷裂。故選 B。⚠️ 原始匯入選項退化為單一字串，已依標準流程重建為 A–D。→ [[bladder-urethral-trauma-imaging]]",
+      "images": [],
+      "concepts": [
+        "bladder-urethral-trauma-imaging"
+      ],
+      "checked": false
     }
   ]
 }

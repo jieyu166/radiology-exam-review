@@ -28,11 +28,15 @@ dateRev: 2026-07-01
 - **DDx／陷阱**：不可誤判為單純 UPJ 阻塞、輸尿管腫瘤或纖維化所致的內移；關鍵是**確認輸尿管走行於 IVC 之後**（軸狀影像最直接），而非僅看到近端擴張即歸因於管內病灶。[^1]
 
 ### 參考來源
-[^1]: *RadioGraphics* 2008;28:669-689（2018 交換考題詳解 p.116 引用；Tier 1 影像期刊）。下腔靜脈胚胎發育由posterior cardinal/subcardinal/supracardinal/vitelline靜脈系統分段組成；right posterior cardinal vein正常退化，若異常殘留參與IVC形成則造成retrocaval ureter。
+[^1]: **Tier 1** *RadioGraphics* 2008;28:669-689（2018 交換考題詳解 p.116 引用；Tier 1 影像期刊）。下腔靜脈胚胎發育由posterior cardinal/subcardinal/supracardinal/vitelline靜脈系統分段組成；right posterior cardinal vein正常退化，若異常殘留參與IVC形成則造成retrocaval ureter。
+[^2]: *Circumcaval ureter*（retrocaval ureter）. Radiopaedia.org（實際查證 accessed 2026-07-05）：本病「為下腔靜脈(IVC)之發育異常，而非輸尿管本身之異常」——由 right supracardinal system 未正常發育、right posterior cardinal vein 殘留並行走於輸尿管前方所致；幾乎僅見於右側。type 1（低位環，最常見，約半數合併中重度 hydronephrosis，近端輸尿管極度內移呈 S 形／魚鉤狀 fish-hook 變形）；type 2（環位與腎盂同高，內移較輕、hydronephrosis 輕微，IVU 呈 sickle 狀）。IVU 於 type 1 典型呈 fishhook／S 形變形。
 
 ## 題目
 > [!question]- The retrocaval ureter occurs when the IVC is formed by which of the followings? (2018-220)
 > **Right posterior cardinal vein（A）**——此靜脈正常應退化，異常殘留參與IVC形成時造成輸尿管走行於IVC後方。[^1]
+
+> [!question]- Which of the following description about retrocaval ureter is wrong? (2022-383)
+> **A（關鍵，此為錯誤敘述）**——「retrocaval ureter 是輸尿管的節段發育異常、而非下腔靜脈異常」是**錯的**：Radiopaedia 明確指出此為 IVC（下腔靜脈）之發育異常，成因是 right posterior cardinal vein 殘留而非輸尿管本身異常。其餘敘述正確：多於 3–4 十歲因漸進性阻塞性腎病變出現症狀（B）；IVU 呈病理性「魚鉤／S 形」近端輸尿管變形（C）；阻塞常位於輸尿管被夾在 IVC 與 L3 椎體間之 retrocaval 段（D）。[^1][^2]
 
 ## 考題
 ```dataview
