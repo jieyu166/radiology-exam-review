@@ -40,10 +40,15 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: 官方 2020 詳解（題目所引）；原引 Lu DS 等. *Two-phase helical CT for pancreatic tumors: pancreatic versus hepatic phase enhancement of tumor, pancreas, and vascular structures*. Radiology 1996;199(3):697-701——**胰臟期（~40–50 秒）為腫瘤偵測/分期最佳時相**（正常胰臟強化峰、腫瘤對比最大）；動脈期（~35–40 秒）動脈構造最佳；門脈期（~70–80 秒）肝實質強化偵測肝轉移；PDAC 典型低血流。此期相分工為胰腺 CT 通則。
 [^2]: **Tier 1** *Pancreatic Adenocarcinoma*（Gastrointestinal, Dx）. STATdx（實際查證 accessed 2026-07-03）：**Multiphase CECT 判可切除性與遠端轉移、EUS 為胰頭腫瘤診斷首選、MR/MRCP 對小肝轉移敏感、FDG PET/CT 排除遠端轉移**；PDAC 為乏血管腫瘤；可切除性依腫瘤與血管接觸角度判定（見 [[pancreatic-cancer-resectability-nccn]]）；CA19-9 預後追蹤——與 [^1] 期相分工相符並補強次發徵象與模態選擇。
+[^3]: *Pancreatic ductal adenocarcinoma*. Radiopaedia.org（rID：pancreatic-ductal-adenocarcinoma-4，實際查證 accessed 2026-07-05）：CT 為胰臟評估之主力（"workhorse"）；PDAC 為「poorly defined masses with extensive surrounding desmoplastic reaction」，**動脈期呈低衰減（hypoattenuating）達 75–90%**、延遲期可能等衰減故需多期掃描；**double duct sign 可見**、**擴大的胰管與腺體萎縮（ductal dilatation、parenchymal atrophy）**；US 呈 hypoechoic mass；可切除性關鍵為腫瘤與 SMA／腹腔幹之關係（>180° 包繞＝T4／不可切除）。此佐證焦點腫塊（低密度）、管道擴張等為胰臟惡性之 CT 徵象。
 
 ## 題目
 > [!question]- Which of the following statement about multi-phasic MDCT for assessment of pancreatic ductal adenocarcinoma is true (2020-396)
 > **胰臟期為腫瘤偵測最佳時相（A）**——非動脈期；門脈期實際延遲 70–80 秒；腫瘤典型呈低血流（非高血流）。[^1][^2]
+
+> [!question]- CT signs of pancreatic malignancy（2022-380）
+> 選項（因原始 PDF 選項合併）：Focal mass (low density)／Ductal dilatation／Diffuse enlargement／**All of the above**。
+> **D. All of the above（關鍵）**——胰臟惡性（PDAC）之 CT 徵象包含**焦點低密度腫塊（focal low-density mass，PDAC 為乏血管腫瘤故相對正常胰臟呈低衰減）、胰管／膽管擴張（ductal dilatation，含 double duct sign）**，以及**腺體局部或瀰漫性隆起／增大（diffuse enlargement）**；三者皆為胰臟惡性可見之 CT 徵象，故選以上皆是。[^1][^3]
 
 ## 考題
 ```dataview

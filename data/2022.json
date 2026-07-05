@@ -11430,6 +11430,229 @@
       "checked": false
     },
     {
+      "id": "2022-374",
+      "year": 2022,
+      "number": 374,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is the most common elbow fracture in children?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Lateral condylar fracture Medial condylar fracture Supracondylar fracture Radial head fracture"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pediatric-supracondylar-fracture]]（Radiopaedia + STATdx Merrow《Supracondylar Fracture》Tier-1）",
+      "explanation": "髁上骨折（supracondylar fracture）是兒童最常見的肘部骨折，約占兒童肘部骨折 55–80%（STATdx 約 60%），好發 5–7 歲；外髁骨折居第二。判讀關鍵在間接徵象（帆船徵、後脂肪墊、前肱骨線）。→ [[pediatric-supracondylar-fracture]]",
+      "images": [],
+      "concepts": [
+        "pediatric-supracondylar-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-375",
+      "year": 2022,
+      "number": 375,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Lateral condylar fracture of humerus is the second most common elbow fracture and typically affects children between 6 and 10 years of age. Which of the following is its commonest type of injury?",
+      "options": [
+        {
+          "letter": "",
+          "text": "Salter Harris I injury Salter Harris II injury Salter Harris III injury Salter Harris IV injury"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pediatric-lateral-condyle-fracture]]（Radiopaedia + STATdx Stevens《Lateral Condyle Fracture, Elbow》Tier-1）",
+      "explanation": "兒童肱骨外髁骨折典型為 Salter-Harris type IV 損傷——骨折線由外髁穿過遠端肱骨骨骺軟骨、生長板與幹骺端進入關節面，為關節內骨折；X 光常僅見肱骨小頭旁小骨片而大幅低估真實傷勢，內斜位最能顯示。→ [[pediatric-lateral-condyle-fracture]]",
+      "images": [],
+      "concepts": [
+        "pediatric-lateral-condyle-fracture"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-376",
+      "year": 2022,
+      "number": 376,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Breast",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which description about mammography in breast malignancy is correct?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Malignant spiculations may be secondary to tumor cells or fibrosis."
+        },
+        {
+          "letter": "B",
+          "text": "Including the full extent of the radiating fine spicules in the mammographic tumor measurement usually result in significant size overestimation of the tumor extent."
+        },
+        {
+          "letter": "C",
+          "text": "If there is an absence of architectural distortion and a lack of sufficient contrast to define the mass margins, a malignant lesion may be occult to tomosynthesis imaging."
+        },
+        {
+          "letter": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[mammographic-signs-malignancy]]（Radiopaedia + STATdx Chikarmane/Berg《Spiculated Margins》Tier-1）",
+      "explanation": "三敘述皆正確：毛刺可源於腫瘤細胞或纖維化（desmoplastic reaction，A）；把放射狀細毛刺完整範圍算入測量常顯著高估腫瘤範圍（B）；若缺乏結構扭曲且與周邊對比不足以界定邊緣，惡性病灶仍可能對斷層合成隱匿（C）。故選 All of the above。→ [[mammographic-signs-malignancy]]",
+      "images": [],
+      "concepts": [
+        "mammographic-signs-malignancy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-377",
+      "year": 2022,
+      "number": 377,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "請問以下何者非Non-specific interstitial pneumonia的影像特徵? Reference: What Every Radiologist Should Know about Idiopathic Interstitial Pneumonias Christina Mueller-Mang, Claudia Grosse, Katharina Schmid, Leopold Stiebellehner, Alexander A. Bankier, Radiographics, Pages: 595–615 May 1 2007",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Honeycombing"
+        },
+        {
+          "letter": "B",
+          "text": "Ground-glass opacities"
+        },
+        {
+          "letter": "C",
+          "text": "Reticular opacities"
+        },
+        {
+          "letter": "D",
+          "text": "Traction bronchiectasis"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[nonspecific-interstitial-pneumonia]]（Radiopaedia + RadioGraphics 2007 Mueller-Mang Tier-1）",
+      "explanation": "NSIP 典型 HRCT 為下肺為主的毛玻璃樣影（B）、網狀影（C）與牽引性支氣管擴張（D），常伴相對 subpleural sparing；而蜂窩狀變化（honeycombing，A）在 NSIP 特徵性地少見或缺如（fibrotic NSIP 系列僅約 5%），明顯 honeycombing 反而偏向 UIP/IPF。故 honeycombing 非 NSIP 影像特徵。→ [[nonspecific-interstitial-pneumonia]]",
+      "images": [],
+      "concepts": [
+        "nonspecific-interstitial-pneumonia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-378",
+      "year": 2022,
+      "number": 378,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CV",
+      "subspecialty_confidence": "auto",
+      "questionText": "Coronary artery ectasia的定義是管腔直徑為正常血管的幾倍以上？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "1.25倍"
+        },
+        {
+          "letter": "B",
+          "text": "1.5倍"
+        },
+        {
+          "letter": "C",
+          "text": "1.75倍"
+        },
+        {
+          "letter": "D",
+          "text": "2倍"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[coronary-artery-aneurysm]]（Radiopaedia《Coronary arterial ectasia》 + RadioGraphics Tier-1）",
+      "explanation": "Coronary artery ectasia（CAE）定義為冠狀動脈某節段直徑達鄰近正常節段之至少 1.5 倍（150%），且瀰漫涵蓋動脈長度 ≥50%。此 1.5 倍門檻與冠狀動脈瘤（CAA）相同，差別在 CAE 為瀰漫性擴張、CAA 為局限性擴張。→ [[coronary-artery-aneurysm]]",
+      "images": [],
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-379",
+      "year": 2022,
+      "number": 379,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "有關輻射工作人員職業曝露之劑量限度，下列敘述何者錯誤？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[contrast-reaction-severity-management]]（Radiopaedia《Contrast media adverse reactions》 + STATdx Berg《Contrast Reactions》Tier-1）",
+      "explanation": "⚠️ 題幹與選項不符：原始 PDF 題幹被誤植為「輻射工作人員職業曝露之劑量限度」，但四個選項實際描述對比劑急性反應的嚴重度分級與處置。依選項內容判讀：A（輕微多不需治療）正確、C（嚴重需治療）正確、D（嚴重可給 1:1000 IM epinephrine）依 ACR/RANZCR 亦為正確；而 B（中度只需監測與保留 IV「但不需要治療」）為錯誤——中度反應需特定治療。故若問「何者錯誤」臨床上最可能為 B；匯入資料標記答案為 D，因題幹嚴重降級無法確認，暫從原始標記並保留此旗標供院方原始詳解覆核。→ [[contrast-reaction-severity-management]]",
+      "images": [],
+      "concepts": [
+        "contrast-reaction-severity-management"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-380",
+      "year": 2022,
+      "number": 380,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "CT signs of pancreatic malignancy",
+      "options": [
+        {
+          "letter": "",
+          "text": "Focal mass (low density) Ductal dilatation Diffused enlargement All of the above"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pancreatic-adenocarcinoma-mdct-phases]]（Radiopaedia《Pancreatic ductal adenocarcinoma》 + STATdx《Pancreatic Adenocarcinoma》Tier-1）",
+      "explanation": "胰臟惡性（PDAC）之 CT 徵象包含焦點低密度腫塊（乏血管腫瘤故相對低衰減）、胰管／膽管擴張（含 double duct sign）與腺體局部或瀰漫性隆起／增大，三者皆為可見徵象，故選 All of the above。→ [[pancreatic-adenocarcinoma-mdct-phases]]",
+      "images": [],
+      "concepts": [
+        "pancreatic-adenocarcinoma-mdct-phases"
+      ],
+      "checked": false
+    },
+    {
       "id": "2022-381",
       "year": 2022,
       "number": 381,
