@@ -3510,41 +3510,6 @@
       "checked": false
     },
     {
-      "id": "2017-097",
-      "year": 2017,
-      "number": 97,
-      "years": [
-        2017
-      ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
-      "questionText": "Which of the following statements is **NOT** a characteristic of parasitic leiomyoma?",
-      "options": [
-        {
-          "letter": "A",
-          "text": "Pedunculated soft tissue mass arising from the uterus."
-        },
-        {
-          "letter": "B",
-          "text": "Arterial supply is best seen on MRA."
-        },
-        {
-          "letter": "C",
-          "text": "Usually have large draining veins."
-        },
-        {
-          "letter": "D",
-          "text": "Image characters on both CT and MRI are similar to that of uterine leiomyoma."
-        }
-      ],
-      "correctAnswer": "A",
-      "reference": "",
-      "explanation": "Parasitic leiomyoma: A type of **extra**-uterine leiomyoma and present as a peritoneal pelvic mass, **separate** from the uterus, with characteristics similar to uterine leiomyoma.\n參考  Diagnostic Imaging – Gynecology. Page 2-80 to 81.\nintravenous leiomyomatosis\nbenign metastasizing leiomyoma\ndisseminated peritoneal leiomyomatosis",
-      "images": [],
-      "concepts": [],
-      "checked": false
-    },
-    {
       "id": "2017-098",
       "year": 2017,
       "number": 98,
