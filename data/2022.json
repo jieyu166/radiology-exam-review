@@ -14485,6 +14485,117 @@
         "sarcoidosis-msk"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-460",
+      "year": 2022,
+      "number": 460,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which soft-tissue mass is MOST common in foot and ankle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Morton's neuroma."
+        },
+        {
+          "letter": "B",
+          "text": "Pigmented villonodular synovitis."
+        },
+        {
+          "letter": "C",
+          "text": "Ganglion cyst."
+        },
+        {
+          "letter": "D",
+          "text": "Plantar fibromatosis."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[foot-ankle-soft-tissue-masses]]（Radiopaedia: Ganglion cyst + AJR 2008《Imaging Evaluation of Foot and Ankle Pathology》）",
+      "explanation": "Ganglion cyst（腱鞘囊腫）為足踝最常見的軟組織腫塊，影像呈 T1 低／T2 高、無中央強化（僅薄邊環狀強化）。Morton's neuroma(A)、PVNS(B)、plantar fibromatosis(D) 皆較少見。→ [[foot-ankle-soft-tissue-masses]]",
+      "images": [],
+      "concepts": [
+        "foot-ankle-soft-tissue-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-461",
+      "year": 2022,
+      "number": 461,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the most specific examination for characterization of a soft-tissue neoplasm in the foot?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "MRI."
+        },
+        {
+          "letter": "B",
+          "text": "CT."
+        },
+        {
+          "letter": "C",
+          "text": "PET."
+        },
+        {
+          "letter": "D",
+          "text": "Sonography."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[foot-ankle-soft-tissue-masses]]（Radiopaedia + AJR 2008《Imaging Evaluation of Foot and Ankle Pathology》，MRI 特徵化最具特異性）",
+      "explanation": "MRI 高軟組織對比，可依 T1／T2／脂肪抑制／強化型態辨別脂肪、纖維、囊液、血管等成分，為足部軟組織腫瘤特徵化最具特異性之檢查。CT(B) 軟組織對比差、PET(C) 主用於代謝／分期、Sonography(D) 適合初步囊實性判別但特異度較低。→ [[foot-ankle-soft-tissue-masses]]",
+      "images": [],
+      "concepts": [
+        "foot-ankle-soft-tissue-masses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-462",
+      "year": 2022,
+      "number": 462,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following characteristically causes a short segment kyphoscoliosis of the thoracic spine?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Osteoid osteoma."
+        },
+        {
+          "letter": "B",
+          "text": "Neuromuscular scoliosis."
+        },
+        {
+          "letter": "C",
+          "text": "Neurofibromatosis."
+        },
+        {
+          "letter": "D",
+          "text": "Chiari malformation with syrinx."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[nf1-dystrophic-scoliosis]]（Radiopaedia: NF1 skeletal + STATdx: Moore《Neurofibromatosis Type 1, Spine》Spine Dx 2025，dystrophic scoliosis 短節段 <6 節）",
+      "explanation": "Neurofibromatosis（NF1）的營養不良型脊椎側彎典型為短節段、銳角、累及 < 6 個脊椎節的胸椎後側凸，常伴椎體扇形凹陷、椎弓根發育不良與肋骨帶狀變形。相對之下 Neuromuscular scoliosis(B) 為長節段平緩 C 形長弧、Chiari 合併脊髓空洞(D) 側彎多為長節段非銳角、Osteoid osteoma(A) 造成疼痛性、凹面朝向病灶的側彎而非短節段角狀後側凸。→ [[nf1-dystrophic-scoliosis]]",
+      "images": [],
+      "concepts": [
+        "nf1-dystrophic-scoliosis"
+      ],
+      "checked": false
     }
   ]
 }
