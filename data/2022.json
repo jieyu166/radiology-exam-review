@@ -15826,6 +15826,351 @@
         "parathyroid-adenoma"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-493",
+      "year": 2022,
+      "number": 493,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "According to the American Joint Committee on Cancer (AJCC) TNM classification, what stage is a tumor with extrathyroidal extension into the sternothyroid muscle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "T1"
+        },
+        {
+          "letter": "B",
+          "text": "T2"
+        },
+        {
+          "letter": "C",
+          "text": "T3"
+        },
+        {
+          "letter": "D",
+          "text": "T4"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[thyroid-cancer-tnm-staging]]（Radiopaedia Differentiated thyroid cancer staging rID 2181 + STATdx Papillary and Follicular Thyroid Cancer）",
+      "explanation": "sternothyroid（胸骨甲狀肌）為 strap 帶狀肌之一；AJCC 第 8 版中 gross extrathyroidal extension 只侵犯帶狀肌（sternohyoid/sternothyroid/thyrohyoid/omohyoid）＝T3b，仍歸 T3。超過帶狀肌侵入喉/氣管/食道/皮下/喉返神經才升為 T4a。→ [[thyroid-cancer-tnm-staging]]",
+      "images": [],
+      "concepts": [
+        "thyroid-cancer-tnm-staging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-494",
+      "year": 2022,
+      "number": 494,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "A patient's external auditory canal is atretic with a hypoplastic middle ear cavity and the ossicles are absent. What type of hearing loss does the patient have?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Conductive"
+        },
+        {
+          "letter": "B",
+          "text": "Mixed"
+        },
+        {
+          "letter": "C",
+          "text": "Sensorineural"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[congenital-aural-atresia]]（Radiopaedia External auditory canal atresia rID 1305 + STATdx Congenital External and Middle Ear Malformation）",
+      "explanation": "外耳道閉鎖＋中耳腔發育不良＋聽小骨缺如阻斷聲音的機械傳導路徑；先天性外中耳畸形（CEMEM）的內耳（耳蝸、CN VIII）因較早由 otocyst 形成通常正常，故為純傳導性聽力障礙。conductive hearing loss 為 CEMEM 最常見症狀。→ [[congenital-aural-atresia]]",
+      "images": [],
+      "concepts": [
+        "congenital-aural-atresia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-495",
+      "year": 2022,
+      "number": 495,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common location for Facial nerve schwannomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cerebellopontine angle-internal auditory canal segment"
+        },
+        {
+          "letter": "B",
+          "text": "Labyrinthine segment"
+        },
+        {
+          "letter": "C",
+          "text": "Geniculate ganglion"
+        },
+        {
+          "letter": "D",
+          "text": "Tympanic segment"
+        },
+        {
+          "letter": "E",
+          "text": "Mastoid segment"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[facial-nerve-schwannoma]]（Radiopaedia Facial nerve schwannoma rID 1323 + STATdx Temporal Bone Facial Nerve Schwannoma）",
+      "explanation": "顏面神經鞘瘤最好發於 geniculate ganglion（膝狀神經節），且 >90% 跨越 ≥3 個顳骨內顏面神經段，影像呈沿 CN VII 骨管的管狀平滑擴大。其餘各段皆可受累但非最常見起源。⚠️ 原選項 C 文字含「(the correct answer)」標註，已清除為 verbatim 選項文字。→ [[facial-nerve-schwannoma]]",
+      "images": [],
+      "concepts": [
+        "facial-nerve-schwannoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-496",
+      "year": 2022,
+      "number": 496,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following cannot have discrete multiple brain masses?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gliomatosis cerebri"
+        },
+        {
+          "letter": "B",
+          "text": "Metastases"
+        },
+        {
+          "letter": "C",
+          "text": "Lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Multifocal glioblastomas"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[multiple-hypodense-brain-lesions]]（Radiopaedia Gliomatosis cerebri rID 1389 + STATdx Corpus Callosum Mass DDx, Salzman）",
+      "explanation": "Gliomatosis cerebri 為瀰漫浸潤性生長型態（依定義累及 ≥3 腦葉、常雙側、可跨胼胝體、通常不強化且佔位效應輕），呈單一瀰漫浸潤而非離散多發腫塊。Metastases、lymphoma、multifocal glioblastoma 皆可呈離散多發腦內腫塊，故唯 gliomatosis cerebri 不會有 discrete multiple masses。→ [[multiple-hypodense-brain-lesions]]",
+      "images": [],
+      "concepts": [
+        "multiple-hypodense-brain-lesions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-497",
+      "year": 2022,
+      "number": 497,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Paragangliomas are often associated with all the following syndromes EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Multiple endocrine neoplasia"
+        },
+        {
+          "letter": "B",
+          "text": "Von Hippel-Lindau disease"
+        },
+        {
+          "letter": "C",
+          "text": "Carney syndrome"
+        },
+        {
+          "letter": "D",
+          "text": "Wiskott-Aldrich syndrome"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[extraadrenal-paraganglioma]]（Radiopaedia Paraganglioma rID 1843 + STATdx Paraganglioma genetics: SDHx/VHL/MEN2）",
+      "explanation": "副神經節瘤常見關聯之遺傳症候群為 MEN2、Von Hippel-Lindau、NF1、Carney（triad/Stratakis）與 SDHx 突變（約 1/4–1/3 家族性）。Wiskott-Aldrich syndrome 為 X-linked 免疫缺乏（濕疹＋血小板減少＋感染），與副神經節瘤無關，故為例外。⚠️ 原選項 D 文字含「(the correct answer)」標註，已清除為 verbatim 選項文字。→ [[extraadrenal-paraganglioma]]",
+      "images": [],
+      "concepts": [
+        "extraadrenal-paraganglioma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-498",
+      "year": 2022,
+      "number": 498,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Neonatal small left colon syndrome (meconium plug syndrome) has the strongest association with which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Down syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Cystic fibrosis"
+        },
+        {
+          "letter": "C",
+          "text": "Maternal diabetes mellitus"
+        },
+        {
+          "letter": "D",
+          "text": "Maternal alcohol use"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[neonatal-small-left-colon-syndrome]]（Radiopaedia Meconium plug syndrome rID 7656 + STATdx Neonatal Small Left Colon）",
+      "explanation": "新生兒小左結腸症（＝胎便栓塞症候群/結腸功能不成熟）最強關聯為母親糖尿病，占 MPS 約 40–50%（另有產前硫酸鎂、早產）。Cystic fibrosis 是 meconium ileus 的典型關聯，本病與 CF 的連結爭議且不確定；Down syndrome 較常關聯 Hirschsprung/十二指腸閉鎖。→ [[neonatal-small-left-colon-syndrome]]",
+      "images": [],
+      "concepts": [
+        "neonatal-small-left-colon-syndrome"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-499",
+      "year": 2022,
+      "number": 499,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which choice likely represents the cause of hindfoot valgus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amniotic band syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "Osteogenesis imperfecta"
+        },
+        {
+          "letter": "C",
+          "text": "Cerebral palsy"
+        },
+        {
+          "letter": "D",
+          "text": "Nonaccidental trauma"
+        },
+        {
+          "letter": "E",
+          "text": "Muscular dystrophy"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pediatric-hindfoot-alignment]]（Radiopaedia Pes planus rID 20888 + STATdx Pes Planus (Flatfoot)）",
+      "explanation": "痙攣型腦性麻痺（cerebral palsy）屬神經肌肉疾病，是兒童後足外翻／痙攣性平足外翻（pes planovalgus）的公認成因。Amniotic band syndrome 多致 equinovarus/束帶截肢、osteogenesis imperfecta 致骨脆弱與彎曲、nonaccidental trauma 致骨折、muscular dystrophy 多為 equinovarus/cavovarus 攣縮，皆非後足外翻的典型成因。→ [[pediatric-hindfoot-alignment]]",
+      "images": [],
+      "concepts": [
+        "pediatric-hindfoot-alignment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-500",
+      "year": 2022,
+      "number": 500,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "An umbilical venous catheter generally doses not passes through which vessels?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "umbilical vein"
+        },
+        {
+          "letter": "B",
+          "text": "internal iliac vein"
+        },
+        {
+          "letter": "C",
+          "text": "left portal vein"
+        },
+        {
+          "letter": "D",
+          "text": "middle or left hepatic vein"
+        },
+        {
+          "letter": "E",
+          "text": "inferior vena cava."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[uvc-catheter-route]]（Radiopaedia rID 12985 + STATdx「Umbilical Catheter Positions and Complications」Orscheln/Merrow, Pediatrics Dx）",
+      "explanation": "UVC 自臍靜脈直接上行，正常路徑 umbilical vein(A) → umbilical recess → left portal vein(C) → ductus venosus → middle/left hepatic vein(D) → IVC(E) → RA，tip 最佳在 IVC-RA junction。全程不經過 internal iliac vein——髂靜脈屬臍動脈導管(UAC)端的動脈側解剖，UAC 才向尾側下行入 internal iliac artery → common iliac artery → aorta。故「不會經過」者為 B。→ [[uvc-catheter-route]]",
+      "images": [],
+      "concepts": [
+        "uvc-catheter-route"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-501",
+      "year": 2022,
+      "number": 501,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which position is correct for umbilical arterial catheters?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Aorta"
+        },
+        {
+          "letter": "B",
+          "text": "Internal Iliac Artery"
+        },
+        {
+          "letter": "C",
+          "text": "Common Iliac Artery"
+        },
+        {
+          "letter": "D",
+          "text": "Middle Hepatic Vein"
+        },
+        {
+          "letter": "E",
+          "text": "Inferior Vena Cava"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[uac-catheter-route]]（Radiopaedia rID 12984 + STATdx「Umbilical Catheter Positions and Complications」Orscheln/Merrow, Pediatrics Dx）",
+      "explanation": "UAC 正常路徑 umbilical artery → internal iliac artery(B) → common iliac artery(C) → aorta(A)；正確最終 tip 位置在主動脈：理想高位線 T6-T10 降胸主動脈、可接受低位線 L3-L4 遠端腹主動脈。Internal iliac / common iliac artery 只是行進途中的過渡血管，停留其中屬 low malposition；middle hepatic vein(D)、IVC(E) 屬靜脈系統，是 UVC 相關結構而非 UAC。故正解為 A。→ [[uac-catheter-route]]",
+      "images": [],
+      "concepts": [
+        "uac-catheter-route"
+      ],
+      "checked": false
     }
   ]
 }
