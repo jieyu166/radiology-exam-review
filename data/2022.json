@@ -15660,6 +15660,80 @@
         "cpa-masses"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-491",
+      "year": 2022,
+      "number": 491,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which diagnosis is also known as “surfer's ear”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "External auditory canal exostoses"
+        },
+        {
+          "letter": "B",
+          "text": "External auditory canal osteomas"
+        },
+        {
+          "letter": "C",
+          "text": "Keratosis obturans"
+        },
+        {
+          "letter": "D",
+          "text": "Cholesteatoma"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[eac-exostoses]]（Radiopaedia rID 4054 + STATdx EAC Exostoses, Head & Neck Dx）",
+      "explanation": "外耳道 exostoses（外耳道骨疣）俗稱「surfer's ear／衝浪者耳」，肇因於冷水反覆暴露引起的反應性骨增生。顳骨 CT 上典型為兩側、寬基底、環繞骨性外耳道的骨性增生，可造成外耳道狹窄。B（osteoma）為單側、單發、有蒂的骨腫塊；C（keratosis obturans）與 D（cholesteatoma）為角化物/軟組織病灶，皆非「surfer's ear」。→ [[eac-exostoses]]",
+      "images": [],
+      "concepts": [
+        "eac-exostoses"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-492",
+      "year": 2022,
+      "number": 492,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is the best descriptor of the sonographic appearance of parathyroid adenomas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uniformly hypoechoic, central vascularity"
+        },
+        {
+          "letter": "B",
+          "text": "Uniformly hypoechoic, peripheral vascularity"
+        },
+        {
+          "letter": "C",
+          "text": "Heterogeneously hypoechoic, central vascularity"
+        },
+        {
+          "letter": "D",
+          "text": "Heterogeneously hypoechoic, peripheral vascularity"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[parathyroid-adenoma]]（Radiopaedia + STATdx Parathyroid Adenoma, Head & Neck Dx）",
+      "explanation": "副甲狀腺腺瘤超音波的最佳描述為均質（uniformly/homogeneously）低回音腫塊，Doppler 顯示由極性供血血管（polar vessel，多源自 inferior thyroid artery）造成的周邊／病灶周圍（perilesional/peripheral）血流。故選 B。「Heterogeneously（不均質）」較符合甲狀腺結節或退變/出血病灶；中央血流雖亦可見，但辨識性最高的判讀特徵是均質低回音＋周邊極性血流。→ [[parathyroid-adenoma]]",
+      "images": [],
+      "concepts": [
+        "parathyroid-adenoma"
+      ],
+      "checked": false
     }
   ]
 }
