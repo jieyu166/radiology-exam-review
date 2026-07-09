@@ -7,7 +7,7 @@ aliases:
   - clear cell RCC
   - papillary RCC
   - 腎細胞癌
-dateRev: 2026-06-30
+dateRev: 2026-07-06
 ---
 
 # renal-cell-carcinoma
@@ -82,6 +82,7 @@ dateRev: 2026-06-30
 [^5]: 官方2020詳解；Ref: Radiographics. 2019;39:998-1016（題目所引）——RCC可轉移至任何部位(頭皮/口腔/甲狀腺/睪丸等)；具高度腫瘤異質性，不同基因變異細胞株可共存於原發與轉移病灶；復發風險最高於治療後早期，中位復發時間術後1-2年內。
 [^6]: 官方2020詳解；Ref: Differentiation of Solid Renal Tumors with Multiparametric MR Imaging, RadioGraphics 2017; 37:2026-2042（題目所引）——60%清晰細胞RCC見病灶內微觀脂肪；乳突狀RCC低T2訊號乏血管漸進強化；缺脂性AML均質T2低訊號T1高訊號；oncocytoma中央星狀疤痕與輻輪狀強化非病理特異性，chromophobe RCC可有相同特徵。
 [^7]: Radiopaedia — *Renal cell carcinoma*（rID: renal-cell-carcinoma-1, radiopaedia.org/articles/renal-cell-carcinoma-1）：histological subtypes 盛行率——clear cell RCC 70–80%（最常見）、papillary RCC 13–20%、chromophobe RCC 約 5%。與 RadioGraphics 2006（[^1]）交叉一致。
+[^8]: **Tier 1** Heller MT. *Renal Cell Carcinoma.* STATdx（Genitourinary, Dx, updated 2025-09-05）Elsevier（經奇美 EZproxy 實際查證 accessed 2026-07-06）：組織亞型盛行率 clear cell 70%、papillary 10–15%、granular cell 7%、chromophobe 5%、sarcomatoid 1.5%、collecting duct <1%；**多數 RCC 為 hypervascular（papillary 除外）**，clear cell T2 高訊號、反相位可掉訊號（含胞內脂質）；**papillary RCC 為 hypovascular、T2 常低訊號、強化僅約 20–30 HU、易誤認為囊腫、常有 pseudocapsule**；oncocytoma 於影像與 RCC 難以區分、可有星狀低衰減疤痕（與 chromophobe 重疊）。
 
 ## 題目
 > [!question]- 以下關於 renal cell carcinoma (RCC),何者「正確」? (2017-199)
@@ -104,6 +105,15 @@ dateRev: 2026-06-30
 
 > [!question]- The subtypes renal cell carcinoma include (2022-439)
 > **all of them（D）**——RCC 三大主要組織亞型為 clear cell(最常見，~70%)、papillary、chromophobe，三者皆為 RCC 亞型，故答案為以上皆是。[^1][^7]
+
+> [!question]- Which subtype of RCC is the most common (~75%), hypervascular and heterogeneous, with intense corticomedullary-phase uptake and washout in the nephrographic phase? (2022-456)
+> **Clear cell RCC（A，關鍵）**——clear cell 為最常見亞型（約 70–75%），屬 hypervascular，動脈／皮質髓質期明顯強化並於腎實質期相對洗出，因壞死／出血／囊變常呈不均勻外觀。Papillary(B) 乏血管、chromophobe(C) 中等強化 spoke-wheel、medullary(D) 罕見且具侵襲性，皆不符。[^1][^7][^8]
+
+> [!question]- Which subtype of RCC is the second most common (~10%), more homogeneous and hypovascular, and hypointense on T2WI? (2022-457)
+> **Papillary RCC（B，關鍵）**——papillary 為第二常見（約 10–15%），呈 hypovascular、均質、低度漸進強化、強化僅約 20–30 HU 易誤認為囊腫，T2WI 常呈低訊號。Clear cell(A) 為 hypervascular T2 高訊號、chromophobe(C) 中等強化、medullary(D) 罕見，皆不符。[^1][^7][^8]
+
+> [!question]- Which subtype of RCC may have a central scar that is indistinguishable from benign oncocytoma of the kidney? (2022-458)
+> **Chromophobe RCC（C，關鍵）**——chromophobe RCC 可呈中央星狀疤痕與輻輪狀（spoke-wheel）強化，與良性 oncocytoma 影像重疊、不可僅憑此徵象區分（兩者可能源自共同前驅細胞）。故中央疤痕非 oncocytoma 專屬。[^1][^6][^8]
 
 ## 考題
 ```dataview

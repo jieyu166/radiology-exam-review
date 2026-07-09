@@ -14078,6 +14078,413 @@
         "juvenile-nasopharyngeal-angiofibroma"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-449",
+      "year": 2022,
+      "number": 449,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following describes a meningocele?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Herniation of a CSF-filled sac lined by dura and arachnoid mater."
+        },
+        {
+          "letter": "B",
+          "text": "Abnormal connection between the skin surface and bowel."
+        },
+        {
+          "letter": "C",
+          "text": "Exposure of neural placode through a midline skin defect on the back with neural placode protruding above the skin surface."
+        },
+        {
+          "letter": "D",
+          "text": "Dilated central canal herniating through a posterior spina bifida defect."
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[spinal-meningocele]]（Radiopaedia + STATdx Dorsal Spinal Meningocele, Moore）",
+      "explanation": "Meningocele 只由脊膜（dura＋arachnoid）與 CSF 經骨性缺損疝出、內部不含神經組織，故 A 正確。C 描述的是 myelocele/myelomeningocele（neural placode 突出皮膚表面）；D 偏向 myelocystocele/hydromyelia；B 與脊膜膨出無關。詳解與各模態影像判讀重點 → [[spinal-meningocele]]。",
+      "images": [],
+      "concepts": [
+        "spinal-meningocele"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-450",
+      "year": 2022,
+      "number": 450,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the main differentiating feature between type 1 and type 2 diastematomyelia?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Presence or absence of scoliotic spine curvature."
+        },
+        {
+          "letter": "B",
+          "text": "Presence or absence of tethered-cord syndrome."
+        },
+        {
+          "letter": "C",
+          "text": "Individual versus single dural tube."
+        },
+        {
+          "letter": "D",
+          "text": "Presence or absence of cutaneous findings."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[diastematomyelia]]（Radiopaedia + STATdx Diastematomyelia, Woodward）",
+      "explanation": "Split cord malformation 依「硬膜囊分隔」分型：Type I＝兩條 hemicord 各在獨立硬膜囊內、被中線堅硬骨性/軟骨性 spur 隔開；Type II＝兩條 hemicord 共用單一硬膜囊、僅有柔軟纖維中隔。故主要鑑別＝individual vs single dural tube（C）。脊柱側彎、tethered cord、皮膚徵象兩型皆可出現，非分型依據。→ [[diastematomyelia]]。",
+      "images": [],
+      "concepts": [
+        "diastematomyelia"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-451",
+      "year": 2022,
+      "number": 451,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "All of the following describe characteristic features of a dermal sinus EXCEPT:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "May be associated with a hairy nevus, hyperpigmented patch, or capillary hemangioma."
+        },
+        {
+          "letter": "B",
+          "text": "Most frequently occurs in the cervicothoracic region."
+        },
+        {
+          "letter": "C",
+          "text": "Often associated with a spinal dermoid or epidermoid."
+        },
+        {
+          "letter": "D",
+          "text": "Complications may include abscess formation or meningitis"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[dorsal-dermal-sinus]]（Radiopaedia + STATdx Dorsal Dermal Sinus, Nagaraj）",
+      "explanation": "EXCEPT 題求「錯誤」敘述。B 為錯誤：dorsal dermal sinus 最常見於腰薦部（lumbosacral，STATdx ~70%），其次枕部，而非頸胸段。其餘皆為特徵：A 常伴多毛/色素斑/毛細血管瘤等皮膚徵象；C 常合併脊髓 dermoid 或 epidermoid（尤 paramedian 型）；D 併發症含膿瘍與復發性腦膜炎。→ [[dorsal-dermal-sinus]]。",
+      "images": [],
+      "concepts": [
+        "dorsal-dermal-sinus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-452",
+      "year": 2022,
+      "number": 452,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Obliteration of left heart border in PA chest X-ray is suggestive of ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Lingular pathology"
+        },
+        {
+          "letter": "B",
+          "text": "Left upper lobe lesion"
+        },
+        {
+          "letter": "C",
+          "text": "Left hilar lymph nodes"
+        },
+        {
+          "letter": "D",
+          "text": "Left lower lobe lesion"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[silhouette-sign]]（Radiopaedia + 胸部經典徵象回顧 J Clin Imaging Sci）",
+      "explanation": "Silhouette sign：左心緣與左上葉舌葉(lingula)在同一前後平面相鄰，舌葉病灶（實變/塌陷）與心臟同衰減故使左心緣消失，故選 A（lingular pathology）。B（LUL 上段）通常糊 aortic knuckle；C（left hilar nodes）影響肺門血管輪廓；D（LLL）糊的是左橫膈或降主動脈緣。→ [[silhouette-sign]]。",
+      "images": [],
+      "concepts": [
+        "silhouette-sign"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-453",
+      "year": 2022,
+      "number": 453,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於對比劑可能發生的副作用，下列何者錯誤",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia + ACR Manual on Contrast Media / AJR 2014）",
+      "explanation": "求「錯誤」敘述。B 為錯誤：依 ACR 與 Radiopaedia，中度（moderate）反應需給予特定藥物治療（廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非「不需治療」。A（輕度多自限、一般無需特殊治療）、C（重度需治療）、D（重度過敏給 epinephrine 1:1000 IM）皆正確。⚠️ 原輸入答案標記 D 有誤——D 為正確處置，真正錯誤者為 B。→ [[contrast-adverse-reactions]]。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-454",
+      "year": 2022,
+      "number": 454,
+      "years": [
+        2022
+      ],
+      "subspecialty": "Physics",
+      "subspecialty_confidence": "auto",
+      "questionText": "關於下列對比劑產生不良反應(蕁麻疹)的敘述，何者為非？",
+      "options": [
+        {
+          "letter": "A",
+          "text": "輕微症狀就一般而言是不需要治療"
+        },
+        {
+          "letter": "B",
+          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+        },
+        {
+          "letter": "C",
+          "text": "嚴重症狀需要治療"
+        },
+        {
+          "letter": "D",
+          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia + ACR Manual on Contrast Media / AJR 2014）",
+      "explanation": "求「為非」敘述。B 為非：中度蕁麻疹（廣泛 urticaria）屬中度反應，需以抗組織胺（±IM epinephrine）治療，並非「不需治療」。A（輕度局部蕁麻疹多自限、一般不需特殊治療）、C（重度需立即治療）、D（嚴重過敏給 epinephrine 1:1000 IM）皆正確。→ [[contrast-adverse-reactions]]。",
+      "images": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-455",
+      "year": 2022,
+      "number": 455,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which one is CORRECT concerning the landmarks of the important ligaments?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastrohepatic ligament: left gastric vessels, right gastric vessels"
+        },
+        {
+          "letter": "B",
+          "text": "Hepatoduodenal ligament: short gastric vessels"
+        },
+        {
+          "letter": "C",
+          "text": "Falciform ligament: portal triad"
+        },
+        {
+          "letter": "D",
+          "text": "Greater omentum: meddle colic vessels"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[peritoneal-ligaments-and-spaces]]（Radiopaedia + RadioGraphics 2012 腹膜解剖）",
+      "explanation": "A 正確：肝胃韌帶（小網膜一部分）內含左、右胃血管（left/right gastric artery 與 left gastric/coronary vein、right gastric vein）。B 錯：hepatoduodenal ligament 含 portal triad，short gastric vessels 走 gastrosplenic ligament。C 錯：falciform ligament 含 ligamentum teres／paraumbilical vein，portal triad 在 hepatoduodenal ligament。D 錯：middle colic vessels 走 transverse mesocolon，非 greater omentum。→ [[peritoneal-ligaments-and-spaces]]。",
+      "images": [],
+      "concepts": [
+        "peritoneal-ligaments-and-spaces"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-456",
+      "year": 2022,
+      "number": 456,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which subtype of renal cell carcinoma (RCC) is the most common subtype of RCC (about 75%), showing hypervascularized and heterogeneous appearance, usually intense contrast uptake in the corticomedullary phase and typical washout in the nephrographic phase ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "clear cell RCC"
+        },
+        {
+          "letter": "B",
+          "text": "papillary RCC"
+        },
+        {
+          "letter": "C",
+          "text": "chromophobe RCC"
+        },
+        {
+          "letter": "D",
+          "text": "medullary RCC"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[renal-cell-carcinoma]]（Radiopaedia + STATdx: Heller《Renal Cell Carcinoma》GU Dx 2025，clear cell 70% hypervascular）",
+      "explanation": "Clear cell RCC 為最常見亞型（約 70–75%），屬 hypervascular，皮質髓質期明顯強化並於腎實質期相對洗出，因壞死／出血／囊變常呈不均勻外觀。Papillary(B) 乏血管、chromophobe(C) 中等強化 spoke-wheel、medullary(D) 罕見具侵襲性，皆不符。→ [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-457",
+      "year": 2022,
+      "number": 457,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which subtype of renal cell carcinoma (RCC) is the second most subtype of RCC (about 10%), showing more homogeneous hypovascular appearance, and hypointensity on T2WI ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "clear cell RCC"
+        },
+        {
+          "letter": "B",
+          "text": "papillary RCC"
+        },
+        {
+          "letter": "C",
+          "text": "chromophobe RCC"
+        },
+        {
+          "letter": "D",
+          "text": "medullary RCC"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[renal-cell-carcinoma]]（Radiopaedia + STATdx: Heller《Renal Cell Carcinoma》GU Dx 2025，papillary 10–15% hypovascular T2 低）",
+      "explanation": "Papillary RCC 為第二常見亞型（約 10–15%），呈 hypovascular、均質、低度漸進強化（僅約 20–30 HU 易誤認為囊腫），T2WI 常呈低訊號、常有 pseudocapsule。Clear cell(A) 為 hypervascular T2 高訊號、chromophobe(C) 中等強化、medullary(D) 罕見，皆不符。→ [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-458",
+      "year": 2022,
+      "number": 458,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which subtype of renal cell carcinoma (RCC) may have a central sacr, which is indistinghishable from benign oncocytoma of kidney?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "clear cell RCC"
+        },
+        {
+          "letter": "B",
+          "text": "papillary RCC"
+        },
+        {
+          "letter": "C",
+          "text": "chromophobe RCC"
+        },
+        {
+          "letter": "D",
+          "text": "medullary RCC"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[renal-cell-carcinoma]]（Radiopaedia + STATdx: Heller《Renal Cell Carcinoma》GU Dx 2025，oncocytoma 與 chromophobe 影像重疊）",
+      "explanation": "Chromophobe RCC 可呈中央星狀疤痕與輻輪狀（spoke-wheel）強化，與良性 oncocytoma 影像重疊、不可僅憑此徵象區分（可能源自共同前驅細胞）。故中央疤痕非 oncocytoma 專屬。→ [[renal-cell-carcinoma]]",
+      "images": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-459",
+      "year": 2022,
+      "number": 459,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Regarding MRI features of sarcoidosis involving the musculoskeletal system, all of the following are true EXCEPT?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ". MRI may reveal marrow and soft-tissue lesions that are radiographically occult."
+        },
+        {
+          "letter": "B",
+          "text": ". Axial bone lesions may be distinguished from metastases using standard MRI techniques."
+        },
+        {
+          "letter": "C",
+          "text": ". Soft-tissue features include muscle edema and nodular muscle lesions that enhance after gadolinium administration."
+        },
+        {
+          "letter": "D",
+          "text": ". Joint involvement includes synovitis, tenosynovitis, effusions, and subarticular bone marrow edema."
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[sarcoidosis-msk]]（Radiopaedia + STATdx: Blankenbaker & Moore《Sarcoidosis of Bone》MSK Dx，標準 MRI 無法區分中軸骨病灶與轉移）",
+      "explanation": "「除外」的錯誤敘述為 B：中軸骨類肉瘤病灶與骨轉移在標準 MRI 訊號／強化完全重疊（T1 低、fluid-sensitive 高、會強化），STATdx 明載無可靠區分依據、常需切片。其餘皆真——MRI 可顯示 X 光隱匿之骨髓／軟組織病灶(A)、軟組織可見肌肉水腫與結節狀強化病灶(C)、關節可見 synovitis／tenosynovitis／積液與軟骨下骨髓水腫(D)。→ [[sarcoidosis-msk]]",
+      "images": [],
+      "concepts": [
+        "sarcoidosis-msk"
+      ],
+      "checked": false
     }
   ]
 }

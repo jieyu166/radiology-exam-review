@@ -50,10 +50,14 @@ dateRev: 2026-06-29
 [^2]: Ely JW, et al. *Diagnosing left lower lobe pneumonia: usefulness of the 'spine sign' on lateral chest radiographs.* J Fam Pract 1996;43(3)（MDedge/JFP 存檔 PDF,開放全文已讀）：側位片椎體 lucency 正常向尾側遞增,下葉實變使下段椎體變白、打斷此遞增即 spine sign 陽性;陽性時有助診斷下葉肺炎,陰性可能誤導。
 [^3]: 漏斗胸與右心旁脂肪墊偽 silhouette sign（The Radiology Assistant – Chest X-Ray Basic Interpretation;Wikipedia *Silhouette sign*,依摘要未讀全文）：右心緣旁模糊若無 air bronchogram 須考慮心外膜脂肪墊或前胸壁組織重疊,非肺炎。
 [^4]: 漏斗胸偽 silhouette sign 徵象（Eurorad case 1678 *Pectus excavatum*,依摘要未讀全文）：右心緣模糊、右下肺內側密度增加、前肋陡斜、後肋水平、降主動脈緣消失,可酷似 RML 病變。
+[^5]: *Silhouette sign (x-ray)*. Radiopaedia.org（rID 29979，DOI 10.53347/rID-29979，實際查證 accessed 2026-07-06）：silhouette sign 又稱 loss of silhouette/loss of outline sign——相鄰或病灶與正常結構「同衰減」時解剖邊界消失，用以在正面胸片定位病灶。定位對應：**left heart border→lingular segments of the left upper lobe**；right heart border→RML 或右下葉內側；right/left hemidiaphragm→同側 lower lobe；aortic knuckle→LUL；right paratracheal stripe→RUL；descending aorta→LLL。
 
 ## 題目
 > [!question]- 關於Silhouette Sign在肺葉病灶的運用下列何者為誤? (2020-225)
 > **B**——RLL lesion應遮蓋right hemidiaphragm（右橫膈），而非right heart border（右心緣，由RML遮蓋）。RML/right heart border、lingula/left heart border、RLL/diaphragm之對應關係皆正確。[^1]
+
+> [!question]- Obliteration of left heart border in PA chest X-ray is suggestive of ? (2022-452)
+> **A（關鍵）Lingular pathology**——左心緣與左上葉舌葉(lingula)在同一前後平面相鄰，舌葉病灶（實變/塌陷）與心臟同衰減故使左心緣消失。選項 B（LUL 上段病灶）通常糊 aortic knuckle 而非左心緣（除非累及舌葉）；C（left hilar nodes）影響肺門血管輪廓而非心緣；D（LLL 病灶）糊的是左橫膈或降主動脈緣。[^1][^5]
 
 ## 考題
 ```dataview

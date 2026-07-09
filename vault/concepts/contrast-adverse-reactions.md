@@ -76,6 +76,12 @@ same:
 > [!question]- 評估含碘對比劑發生急性全身性不良反應之風險因子，下列何者為非？ (2022-425)
 > **B（關鍵）「中度症狀需要生理監測和保留IV, 但不需要治療」為錯誤（此即『何者為非』的答案）**——依 ACR 與 Radiopaedia，**中度（moderate）反應需給予特定藥物治療**（如廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非「不需治療」。其餘正確：A. **輕度（mild）症狀多為自限性、一般無需特殊治療**（支持性照護即可）；C. 重度症狀需立即治療；D. 重度過敏可給 epinephrine 1:1000 IM。⚠️ 原輸入答案標記為 A 有誤——A（輕度不需治療）為正確敘述，真正「為非」者為 B。[^1][^4]
 
+> [!question]- 關於對比劑可能發生的副作用，下列何者錯誤 (2022-453)
+> **B（關鍵）「中度症狀需要生理監測和保留IV, 但不需要治療」為錯誤**——依 ACR 與 Radiopaedia，**中度（moderate）反應需給予特定藥物治療**（廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非「不需治療」。其餘正確：A. 輕度多自限、一般無需特殊治療；C. 重度需立即治療；D. 嚴重過敏可給 epinephrine 1:1000 IM。⚠️ 原輸入答案標記為 D 有誤——D（重度給 1:1000 IM epinephrine）為正確處置，真正「錯誤」者為 B。[^1][^4]
+
+> [!question]- 關於下列對比劑產生不良反應(蕁麻疹)的敘述，何者為非？ (2022-454)
+> **B（關鍵）「中度症狀需要生理監測和保留IV, 但不需要治療」為非**——中度蕁麻疹（廣泛 urticaria）需以抗組織胺（±IM epinephrine）治療，並非不需治療。其餘正確：A. 輕度局部蕁麻疹多自限、一般不需特殊治療；C. 重度需立即治療；D. 嚴重過敏給 epinephrine 1:1000 IM 正確。[^1][^4]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "contrast-adverse-reactions")
