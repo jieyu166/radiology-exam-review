@@ -15389,6 +15389,277 @@
         "prostatic-artery-embolization"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-484",
+      "year": 2022,
+      "number": 484,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following renal calculi would not be seen on plain radiography?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Uric acid (the correct answer)"
+        },
+        {
+          "letter": "B",
+          "text": "Calcium oxalate"
+        },
+        {
+          "letter": "C",
+          "text": "Struvite"
+        },
+        {
+          "letter": "D",
+          "text": "Pure calcium phopshate"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[ureteral-calculi-imaging]]（Radiopaedia Urolithiasis + J Urol Vieweg NCCT Tier-1）",
+      "explanation": "純尿酸（uric acid）結石透 X 光（radiolucent），平片看不到，須靠 CT 或超音波偵測；含鈣結石（calcium oxalate、pure calcium phosphate）與 struvite 含高原子序成分、於平片不透 X 光（radiopaque）而可見。故答案為 A。→ [[ureteral-calculi-imaging]]",
+      "images": [],
+      "concepts": [
+        "ureteral-calculi-imaging"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-485",
+      "year": 2022,
+      "number": 485,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "About osteochondral injury of ankle, which is wrong?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Posteromedial or anterolateral talar dome can both due to inversion ankle injuries"
+        },
+        {
+          "letter": "B",
+          "text": "Medial talus impacts the medial tibial plafond caused by inversion ankle injuries"
+        },
+        {
+          "letter": "C",
+          "text": "Lateral collateral ligament injuries are associated with inversion injury"
+        },
+        {
+          "letter": "D",
+          "text": "3-tesla magnets are preferred for a more accurate evaluation of the thin cartilage layer"
+        },
+        {
+          "letter": "E",
+          "text": "Non"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[osteochondral-lesion-talus]]（Radiopaedia OLT + STATdx Osteochondral Injury Ankle Tier-1）",
+      "explanation": "此題問「哪個錯」，A~D 皆正確故答 E（以上皆無錯）：(A) 後內側與前外側距骨圓頂病灶皆由內翻損傷造成；(B) 內側距骨於內翻時撞擊內側脛骨關節面（plafond）形成深碗狀病灶；(C) 內翻機轉幾乎必伴外側副韌帶（含 ATFL）損傷；(D) 距骨軟骨薄，偏好 3 T 高場強以更準確評估。⚠️ 原題選項 E 文字受損為「Non」，依 source 應為「None（以上皆無錯）」。→ [[osteochondral-lesion-talus]]",
+      "images": [],
+      "concepts": [
+        "osteochondral-lesion-talus"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-486",
+      "year": 2022,
+      "number": 486,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which tendon sits medially to the os trigonum and in the sulcus between the medial tubercle and the larger lateral tubercle of talus?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "The flexor hallucis longus (FHL) tendon"
+        },
+        {
+          "letter": "B",
+          "text": "Peroneal Tendon"
+        },
+        {
+          "letter": "C",
+          "text": "Posterior tibial tendon"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[accessory-ossicles-foot]]（Radiopaedia Os trigonum + STATdx Posterior Impingement Ankle Tier-1）",
+      "explanation": "距骨後突有內、外側兩結節，屈拇長肌腱（FHL）走於兩結節之間的溝內、位於 os trigonum（未融合的外側結節）內側，此處 FHL 腱鞘炎/夾擠是後踝疼痛常見原因。腓骨肌腱走外踝後方、脛後肌腱走內踝後方，皆非此溝內結構。答案 A。→ [[accessory-ossicles-foot]]",
+      "images": [],
+      "concepts": [
+        "accessory-ossicles-foot"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-487",
+      "year": 2022,
+      "number": 487,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "A labral tear of hip is most commonly present in which of the following areas?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Anterosuperior"
+        },
+        {
+          "letter": "B",
+          "text": "Posterior"
+        },
+        {
+          "letter": "C",
+          "text": "Superolateral"
+        },
+        {
+          "letter": "D",
+          "text": "Inferior"
+        },
+        {
+          "letter": "E",
+          "text": "Inferiorlateral"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[hip-labral-tear]]（Radiopaedia Acetabular labral tear + STATdx Acetabular Labrum Tears Etiology Tier-1）",
+      "explanation": "多數有症狀的髖臼唇裂位於前上象限（anterosuperior quadrant），與 cam 型 FAI 在屈曲/內轉/內收時的撞擊帶一致。其餘 posterior／superolateral／inferior／inferolateral 皆非最好發位置。答案 A。→ [[hip-labral-tear]]",
+      "images": [],
+      "concepts": [
+        "hip-labral-tear"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-488",
+      "year": 2022,
+      "number": 488,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Isolated soft-tissue swelling around the proximal interphalangeal joints of all fingers, the differential diagnosis should include which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Juvenile idiopathic arthritis"
+        },
+        {
+          "letter": "B",
+          "text": "Pachydermodactyly"
+        },
+        {
+          "letter": "C",
+          "text": "Rheumatoid arthritis"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above (correct!)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pip-soft-tissue-swelling-ddx]]（Radiopaedia JIA + STATdx Juvenile Idiopathic Arthritis Tier-1）",
+      "explanation": "所有手指 PIP 周圍孤立性軟組織腫脹的鑑別須含三者：JIA 與 RA 早期以關節周軟組織腫脹起始（續有骨旁疏鬆、關節間隙變窄、侵蝕）；pachydermodactyly 則為良性、好發年輕男性、無骨侵蝕的軟組織纖維增生，是不可漏的非發炎性鑑別。故答案 D（以上皆是）。→ [[pip-soft-tissue-swelling-ddx]]",
+      "images": [],
+      "concepts": [
+        "pip-soft-tissue-swelling-ddx"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-489",
+      "year": 2022,
+      "number": 489,
+      "years": [
+        2022
+      ],
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following is NOT a common location for Chondroblastoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Proximal humerus"
+        },
+        {
+          "letter": "B",
+          "text": "Proximal femur"
+        },
+        {
+          "letter": "C",
+          "text": "Distal femur"
+        },
+        {
+          "letter": "D",
+          "text": "Proximal tibia"
+        },
+        {
+          "letter": "E",
+          "text": "Scapula (correct!)"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[chondroblastoma]]（Radiopaedia Chondroblastoma + STATdx Chondroblastoma Tier-1）",
+      "explanation": "Chondroblastoma 絕大多數起源於長骨骨骺/骨突（epiphysis 85%、apophysis 12%；長骨 75–80%），近端肱骨、近端與遠端股骨、近端脛骨為最常見部位。肩胛骨為扁平骨，起源罕見且多見於成人，故非常見部位，答案 E。→ [[chondroblastoma]]",
+      "images": [],
+      "concepts": [
+        "chondroblastoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-490",
+      "year": 2022,
+      "number": 490,
+      "years": [
+        2022
+      ],
+      "subspecialty": "NR",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which cranial nerve does not course through the cerebellopontine angle?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "V"
+        },
+        {
+          "letter": "B",
+          "text": "VI"
+        },
+        {
+          "letter": "C",
+          "text": "IX"
+        },
+        {
+          "letter": "D",
+          "text": "X"
+        },
+        {
+          "letter": "E",
+          "text": "XII"
+        }
+      ],
+      "correctAnswer": "E",
+      "reference": "詳見 [[cpa-masses]]（Radiopaedia Cerebellopontine angle cistern + Eur Radiol/AJR CPA Tier-1）",
+      "explanation": "舌下神經（CN XII）起自延髓前橄欖溝、經舌下神經管出顱，位於延髓/下方，不行經 CPA。CN V 位 CPA 上界、CN VI 沿相鄰橋前池上行、CN IX 與 X 屬 CPA 下界頸靜脈孔群，皆與 CPA/橋前區有解剖關係。答案 E。→ [[cpa-masses]]",
+      "images": [],
+      "concepts": [
+        "cpa-masses"
+      ],
+      "checked": false
     }
   ]
 }
