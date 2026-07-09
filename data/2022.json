@@ -14855,6 +14855,273 @@
         "acute-cholecystitis"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-470",
+      "year": 2022,
+      "number": 470,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Postvoid residual in a normal adult urinary bladder should not exceed:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5 mL"
+        },
+        {
+          "letter": "B",
+          "text": "20 mL"
+        },
+        {
+          "letter": "C",
+          "text": "50 mL"
+        },
+        {
+          "letter": "D",
+          "text": "100 mL"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[post-void-residual]]（Radiopaedia post-void residual rID 152111 + Tier-1 STATdx Benign Prostatic Hyperplasia：膀胱體積前列橢球體公式、餘尿升高＝出口阻塞）",
+      "explanation": "餘尿量（PVR）為排尿後膀胱內殘留尿量。超音波複習教材（Hagen-Ansert）以正常成人餘尿不超過約 20 mL 為界，代表膀胱近乎完全排空，故答案取 B。⚠️ 臨床/影像門檻不同：Radiopaedia 以 PVR >100–200 mL 為明確異常、常以 <50 mL 為正常，答案依採用標準而異。餘尿升高提示膀胱出口阻塞（BPH）或神經性膀胱。判讀方法與門檻對照 → [[post-void-residual]]。",
+      "images": [],
+      "concepts": [
+        "post-void-residual"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-471",
+      "year": 2022,
+      "number": 471,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Failure of the mesentery to fuse is a congenital anomaly associated with development of a(n):",
+      "options": [
+        {
+          "letter": "A",
+          "text": "omental cyst"
+        },
+        {
+          "letter": "B",
+          "text": "mesentery cyst"
+        },
+        {
+          "letter": "C",
+          "text": "umbilical hernia"
+        },
+        {
+          "letter": "D",
+          "text": "d. Meckel diverticulum"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[mesenteric-omental-cyst]]（Radiopaedia mesenteric cyst rID 24940：成因即『failure of the leaves of the mesentery to fuse』 + Tier-1 STATdx Lymphangioma/Mesenteric Cyst）",
+      "explanation": "依 Radiopaedia，『腸繫膜兩葉未能正常融合（failure of the leaves of the mesentery to fuse）』正是腸繫膜囊腫（mesenteric cyst）的公認胚胎成因之一，故最佳答案為 B。⚠️ 本題交換考輸入答案標為 A（omental cyst，網膜囊腫）；網膜囊腫機轉類似但位於網膜，題幹既明言『mesentery』，權威來源支持腸繫膜囊腫。臍疝為腹壁缺損、Meckel 憩室為卵黃管殘留，成因不同。胚胎成因與影像特徵 → [[mesenteric-omental-cyst]]。",
+      "images": [],
+      "concepts": [
+        "mesenteric-omental-cyst"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-472",
+      "year": 2022,
+      "number": 472,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Patient with anomalous right coronary artery arising from the left coronary cusp is at risk for which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Arrhythmia"
+        },
+        {
+          "letter": "B",
+          "text": "Myocardial infarction"
+        },
+        {
+          "letter": "C",
+          "text": "Sudden cardiac death"
+        },
+        {
+          "letter": "D",
+          "text": "All of the above (the correct answer)"
+        },
+        {
+          "letter": "E",
+          "text": "None of the above; this is a benign finding"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[acaos]]（Radiopaedia anomalous aortic origin of coronary artery rID 86107 + Tier-1 RadioGraphics 2017 rg.2017160124 / Nat Rev Cardiol 2011）",
+      "explanation": "右冠狀動脈起源於左冠狀竇（R-ACAOS）時，若近端走 interarterial course（於主動脈與肺動脈幹之間）且常合併 intramural segment，運動時受壓可致心肌缺血，進而引發心律不整、心肌梗塞與猝死——三者皆為其風險，故答案為 D（以上皆是）。此屬『惡性』冠狀動脈異常，非良性偶然發現，故 E 錯誤。走行路徑分類與高風險解剖特徵 → [[acaos]]。",
+      "images": [],
+      "concepts": [
+        "acaos"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-473",
+      "year": 2022,
+      "number": 473,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "Coronary artery aneurysms most commonly involves which coronary artery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Left anterior descending"
+        },
+        {
+          "letter": "B",
+          "text": "Left circumflex"
+        },
+        {
+          "letter": "C",
+          "text": "Left main"
+        },
+        {
+          "letter": "D",
+          "text": "Right coronary artery (the correct answer)"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[coronary-artery-aneurysm]]（Radiopaedia coronary artery aneurysm rID 37916 + Tier-1 STATdx Coronary Artery Aneurysm：RCA 最常受累）",
+      "explanation": "動脈粥樣硬化性冠狀動脈瘤（CAA）最常侵犯右冠狀動脈（RCA），其次為左前降支（LAD）、左迴旋支、左主幹，故答案為 D。注意：川崎病相關 CAA 則以左主幹最常受累，屬不同病因情境。定義、病因分類與影像判讀 → [[coronary-artery-aneurysm]]。",
+      "images": [],
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-474",
+      "year": 2022,
+      "number": 474,
+      "years": [
+        2022
+      ],
+      "subspecialty": "CH",
+      "subspecialty_confidence": "auto",
+      "questionText": "In western countries, the most common cause for coronary artery aneurysms ?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Atherosclerosis"
+        },
+        {
+          "letter": "B",
+          "text": "Cocaine"
+        },
+        {
+          "letter": "C",
+          "text": "Iatrogenic"
+        },
+        {
+          "letter": "D",
+          "text": "Infection"
+        },
+        {
+          "letter": "E",
+          "text": "Kawasaki disease"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[coronary-artery-aneurysm]]（Radiopaedia coronary artery aneurysm rID 37916：atherosclerotic 最常見 50% + Tier-1 STATdx：動脈粥樣硬化為美國/已開發國家最常見病因）",
+      "explanation": "於西方/已開發國家（含美國），動脈粥樣硬化為冠狀動脈瘤最常見病因（約占成人 50%），故答案為 A。川崎病則為全球最常見病因、也是兒童後天性 CAA 之最重要原因（本題問『西方國家』故非 E）。古柯鹼、醫源性、感染（黴菌性）為較少見病因。病因三大分類 → [[coronary-artery-aneurysm]]。",
+      "images": [],
+      "concepts": [
+        "coronary-artery-aneurysm"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-475",
+      "year": 2022,
+      "number": 475,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Multiple discrete plaque-like lesions in the midesophagus would be seen in?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Candida esophagitis"
+        },
+        {
+          "letter": "B",
+          "text": "Esophageal Varices"
+        },
+        {
+          "letter": "C",
+          "text": "Reflux Esophagitis"
+        },
+        {
+          "letter": "D",
+          "text": "Feline Esophagus"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[candida-esophagitis]]（Radiopaedia candida esophagitis rID 20727：雙對比呈 discrete longitudinally oriented plaques + Tier-1 STATdx Candida Esophagitis）",
+      "explanation": "雙對比食道攝影見多發、離散、縱向排列的斑塊狀病灶，好發中／上段食道，是念珠菌食道炎的典型表現，多見於免疫低下或食道停滯病人並伴 odynophagia，故答案 A。食道靜脈曲張為蜿蜒、可壓縮的充盈缺損且位於遠端；逆流性食道炎為遠端潰瘍/狹窄；貓食道（feline esophagus）為橫向細褶而非斑塊。各鑑別的分水嶺 → [[candida-esophagitis]]。",
+      "images": [],
+      "concepts": [
+        "candida-esophagitis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-476",
+      "year": 2022,
+      "number": 476,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common location for a gastrointestinal stromal tumor (GIST)?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Esophagus"
+        },
+        {
+          "letter": "B",
+          "text": "Small bowel"
+        },
+        {
+          "letter": "C",
+          "text": "Stomach (the correct answer)"
+        },
+        {
+          "letter": "D",
+          "text": "Colon"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[gist-imaging]]（Radiopaedia gastrointestinal stromal tumor rID 6758：胃 54–70% 最常見 + Tier-1 STATdx GIST：胃 60% 最常見）",
+      "explanation": "GIST 最常發生於胃（約 54–70%，為最常見的胃部肉瘤），其次為小腸（尤其十二指腸，約 30%），大腸直腸與食道少見，故答案為 C。部位頻率排序、分子特徵與影像判讀 → [[gist-imaging]]。",
+      "images": [],
+      "concepts": [
+        "gist-imaging"
+      ],
+      "checked": false
     }
   ]
 }

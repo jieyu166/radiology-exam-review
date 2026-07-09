@@ -51,6 +51,7 @@ dateRev: 2026-07-03
 [^2]: 官方 2020 詳解；Ref: *Hypervascular Subepithelial Gastrointestinal Masses: CT-Pathologic Correlation*. RadioGraphics 2010;30(7):1955-1970（題目所引）——>3 cm 富血管壁內黏膜下腫瘤 GIST 最常見；glomus tumor 動脈期即強烈周邊結節/均質強化並持續延遲；神經內分泌癌/血管瘤（靜脈石）/異位胰臟之鑑別。
 [^3]: 官方 2020 詳解（標準腸胃道影像教學）——小腸腫瘤 <5% 佔所有 GI 腫瘤；小腸淋巴瘤伴明顯腔擴張；類癌腸繫膜腫塊 + 促結締組織增生 + 鈣化；GIST 壁內傾向、夠大可腔內/漿膜外，少見造成阻塞直到相當大。
 [^4]: *Gastrointestinal Stromal Tumor (GIST)* (Dx). STATdx, updated 03/13/25. Elsevier——**腸胃道最常見間葉腫瘤**；**胃最常見（60%）、小腸（尤其十二指腸）第二（30%）**；hypo/hypervascular、well-circumscribed、**常 exophytic**、潰瘍/壞死/出血常見；**c-KIT 突變 → Imatinib 反應**；**PET 較 CT 早測反應**；**淋巴瘤型態相似但非富血管**。
+[^5]: *Gastrointestinal stromal tumor*. Radiopaedia.org（rID 6758，DOI [10.53347/rID-6758](https://doi.org/10.53347/rID-6758)；實際查證 accessed 2026-07-06）：部位分布**胃 54–70%（最常見，且為最常見之胃部肉瘤）**，其次小腸、大腸直腸、食道；補強「胃為 GIST 最常見部位」。
 
 ## 題目
 > [!question]- Which of the following descriptions about small bowel is wrong? (2020-277)
@@ -64,6 +65,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which one is NOT correct about GIST? (2018-436)
 > **stomach > colon > retroperitoneum > mesentery > small intestine（B）**——正確排序為**胃 > 小腸 > 大腸直腸 > 其他 > 食道**，小腸為第二（非大腸/後腹腔/腸繫膜）。大型胃 GIST + 中央壞死須與胃淋巴瘤鑑別、淋巴結轉移少見、Imatinib 反應後囊性/黏液樣退化皆正確。[^1][^4]
+
+> [!question]- What is the most common location for a gastrointestinal stromal tumor (GIST)? (2022-476)
+> **C. Stomach（胃，關鍵）**——GIST 最常發生於**胃（約 54–70%，為最常見的胃部肉瘤）**，其次為小腸（尤其十二指腸，約 30%），大腸直腸與食道少見。[^4][^5]
 
 ## 考題
 ```dataview

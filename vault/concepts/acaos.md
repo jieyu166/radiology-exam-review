@@ -49,6 +49,7 @@ dateRev: 2026-07-02
 [^3]: 官方2018詳解（題目所引，出處同上RadioGraphics 2017綜述）——interarterial course(尤其合併intramural segment)為與SCD最一致相關之異常；retroaortic與prepulmonic路徑SCD風險極低至趨近零；interarterial course病患可完全無症狀。
 [^4]: 官方2020詳解；Ref: Computed Tomography of the Coronary Arteries, p.111（題目所引）——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course走行；單一左冠狀動脈本身非此惡性異常定義範疇。
 [^5]: **Tier 1** Lim JCE, Beale A, Ramcharitar S. *Anomalous origination of a coronary artery from the opposite sinus*. Nat Rev Cardiol 2011;8(12):706-719（據 PubMed，DOI [10.1038/nrcardio.2011.147](https://doi.org/10.1038/nrcardio.2011.147)；實際查證 accessed 2026-07-04）——ACAOS 盛行率約 0.2–2.0%，多數無血流動力學意義，少數 interarterial course 者可致缺血與猝死；CTCA/MRA 可解剖描繪但無法量化 mural intussusception 等致缺血基本缺陷，須以 IVUS 與 FFR 補足；核心臨床挑戰為辨識猝死高風險者。此 DOI Tier 1 綜述補強原 [^2][^3] 之官方詳解/registry 轉引來源。
+[^6]: *Anomalous aortic origin of coronary artery*. Radiopaedia.org（rID 86107，DOI [10.53347/rID-86107](https://doi.org/10.53347/rID-86107)；實際查證 accessed 2026-07-06）：AAOCA 可表現為心絞痛、心悸、呼吸困難、頭暈；併發症包括**心肌缺血與猝死（sudden cardiac death）**；**interarterial（主動脈與肺動脈幹之間）走行為惡性/高風險型態**。補強「右冠狀動脈起源於左竇並走 interarterial 者，具心肌缺血/心律不整/心肌梗塞/猝死風險」。
 
 ## 題目
 > [!question]- About anomalous origin of the coronary artery from the opposite sinus (ACAOS), which one is not correct? (2020-312)
@@ -59,6 +60,9 @@ dateRev: 2026-07-02
 
 > [!question]- Malignant coronary anomaly (often associated with sudden death) excluded, (2020-329)
 > **Single left coronary artery（C）**被排除——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course（主動脈與肺動脈幹間）走行，選項A、B皆屬此類；單一左冠狀動脈本身並非此惡性異常之定義範疇。[^4]
+
+> [!question]- Patient with anomalous right coronary artery arising from the left coronary cusp is at risk for which of the following? (2022-472)
+> **D. All of the above（關鍵）**——右冠狀動脈起源於左冠狀竇（R-ACAOS）時，若近端走 **interarterial course（於主動脈與肺動脈幹之間）**並常合併 intramural segment，運動時受壓可致心肌缺血，進而引發**心律不整（arrhythmia）、心肌梗塞（MI）與猝死（SCD）**——三者皆為其風險，故答案為「以上皆是」。此屬「惡性」冠狀動脈異常，非良性偶然發現。[^1][^5][^6]
 
 ## 考題
 ```dataview
