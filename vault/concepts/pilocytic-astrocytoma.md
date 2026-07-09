@@ -42,10 +42,14 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: **Tier 1** Linscott LL. *Pilocytic Astrocytoma*（Pediatrics, Brain, Dx）. STATdx，last updated 2021-11-08. Elsevier（實際查證 accessed 2026-07-03，22 references）：WHO grade 1、兒童最常見原發腦瘤；無 NF1 小腦>下視丘/腦幹/大腦>視路、NF1 視路最常見（30% PA 屬 NF1）；經典囊＋強化壁結節、>95% 強化（50% 囊+結節/40% 異質/10% 實質）；鈣化 20%、出血少；**擴散度增加（ADC 亮，非受限）**、常阻塞性水腦；**矛盾性 MRS（高 Cho 低 NAA±lactate）與 PET 高代謝**；DDx medulloblastoma/ependymoma（中線、擴散受限）；Rosenthal fibers、Ki-67 1-4%、BRAF/NF1；10 年存活>90%、全切除可治癒、視路可觀察。
 [^2]: 官方 2020 詳解（題目所引）；原引 *Diagnostic Imaging: Pediatric Neuroradiology* I(4):6-9——PA 兒童最常見原發腦瘤、小腦最常見、囊壁通常無腫瘤浸潤、腫瘤在強化壁結節、~95% 強化、鈣化約 20%，已由 [^1] STATdx 一手來源查核並補強 DWI/MRS/DDx 與分子病理；官方答案 A/D 重疊之存疑見 warning。
+[^3]: *Pilocytic astrocytoma*. Radiopaedia.org（實際查證 accessed 2026-07-06）：**多數 sporadic pilocytic astrocytoma 發生於小腦（cerebellum）**；NF1 者常侵犯視交叉/視路；成人多為幕上；WHO grade 1 預後良好；典型為大囊＋強烈強化壁結節，約 1/5 有鈣化——支持 2022-464「最常見位置＝小腦」。
 
 ## 題目
 > [!question]- 下列有關pilocytic astroytoma的敘述何者為是？ (2020-220)
 > **官方答案 A（囊壁病理上通常無腫瘤浸潤，腫瘤在強化壁結節）**，惟選項 D（最常見於小腦）亦為正確敘述、官方本身存疑——詳見 warning。壁結節典型強化（>95%）、WHO grade 1。[^1][^2]
+
+> [!question]- Which location is most common for pilocytic astrocytoma? (2022-464)
+> **D（關鍵）cerebellum（小腦）**。無 NF1 時 pilocytic astrocytoma 最常見於小腦（sporadic 型多起於小腦）；NF1 者才以視路（optic nerve/chiasm，選項 C）最常見。腦幹（A）與第三腦室旁/下視丘（B）較少見。[^1][^3]
 
 ## 考題
 ```dataview

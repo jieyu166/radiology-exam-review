@@ -14596,6 +14596,265 @@
         "nf1-dystrophic-scoliosis"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-463",
+      "year": 2022,
+      "number": 463,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about atypical teratoid-rhabdoid tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Rare < 3 years"
+        },
+        {
+          "letter": "B",
+          "text": "No gender predominance"
+        },
+        {
+          "letter": "C",
+          "text": "Infratentorial most off-midline"
+        },
+        {
+          "letter": "D",
+          "text": "Leptomeningeal spread common"
+        }
+      ],
+      "correctAnswer": "A",
+      "reference": "詳見 [[atypical-teratoid-rhabdoid-tumor]]（Radiopaedia + STATdx: Atypical Teratoid/Rhabdoid Tumor）",
+      "explanation": "A 為錯誤敘述。AT/RT 正是 < 3 歲嬰幼兒的代表性高惡性度（WHO grade 4）胚胎性腦瘤，中位年齡 < 2–3 歲，占該年齡層原發性胚胎性 CNS 腫瘤高達約 20%，並非罕見。其餘正確：C 幕下者常偏中線外、好發小腦橋腦角（CPA）；D 軟腦膜/CSF 播散常見（約 15–20%）；B 一般無明顯性別優勢（部分文獻略偏男性，非本題考點）。→ [[atypical-teratoid-rhabdoid-tumor]]",
+      "images": [],
+      "concepts": [
+        "atypical-teratoid-rhabdoid-tumor"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-464",
+      "year": 2022,
+      "number": 464,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which location is most common for pilocytic astrocytoma?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "brainstem"
+        },
+        {
+          "letter": "B",
+          "text": "adjacent to 3rd ventricle"
+        },
+        {
+          "letter": "C",
+          "text": "optic nerve/chiasm"
+        },
+        {
+          "letter": "D",
+          "text": "cerebellum"
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pilocytic-astrocytoma]]（Radiopaedia + STATdx: Pilocytic Astrocytoma）",
+      "explanation": "D 小腦（cerebellum）。無 NF1 時 pilocytic astrocytoma 最常見於小腦（sporadic 型多起於小腦，為 5–19 歲最常見後顱窩腫瘤）；只有在 NF1 才以視路（optic nerve/chiasm，選項 C）最常見。腦幹（A）與第三腦室旁/下視丘（B）較少見。→ [[pilocytic-astrocytoma]]",
+      "images": [],
+      "concepts": [
+        "pilocytic-astrocytoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-465",
+      "year": 2022,
+      "number": 465,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which is incorrect about germ cell tumor?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Primary intracranial choriocarcinoma is most malignant"
+        },
+        {
+          "letter": "B",
+          "text": "Germinoma is most common"
+        },
+        {
+          "letter": "C",
+          "text": "Yolk sac tumor is leading perinatal tumor"
+        },
+        {
+          "letter": "D",
+          "text": "More common in Asians"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[intracranial-germ-cell-tumors]]（Radiopaedia + STATdx: Germinoma, Brain）",
+      "explanation": "C 為錯誤敘述。胎兒/圍產（perinatal）期最主要的先天性腦瘤是 teratoma（畸胎瘤，占胎兒腦瘤約 26–50%），並非 yolk sac tumor（卵黃囊瘤）。其餘正確：A 原發顱內 choriocarcinoma 最惡性；B germinoma 為最常見顱內生殖細胞瘤（占 60–80%）；D 亞洲（遠東/日本）發生率高數倍。→ [[intracranial-germ-cell-tumors]]",
+      "images": [],
+      "concepts": [
+        "intracranial-germ-cell-tumors"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-466",
+      "year": 2022,
+      "number": 466,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Hindfoot varus is a component of which congenital deformity?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vertical talus."
+        },
+        {
+          "letter": "B",
+          "text": "Oblique talus."
+        },
+        {
+          "letter": "C",
+          "text": "Clubfoot."
+        },
+        {
+          "letter": "D",
+          "text": "Pes planus."
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[pediatric-hindfoot-alignment]]（Radiopaedia: CTEV + STATdx: Clubfoot）",
+      "explanation": "C Clubfoot。後足內翻（hindfoot varus）是 clubfoot（congenital talipes equinovarus）的核心構成之一（助記 CAVE＝Cavus, forefoot Adductus, hindfoot Varus, Equinus）。A vertical talus 與 B oblique talus 屬後足外翻/中間型、D pes planus 為扁平（外翻）足，皆非內翻。→ [[pediatric-hindfoot-alignment]]",
+      "images": [],
+      "concepts": [
+        "pediatric-hindfoot-alignment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-467",
+      "year": 2022,
+      "number": 467,
+      "years": [
+        2022
+      ],
+      "subspecialty": "PED",
+      "subspecialty_confidence": "auto",
+      "questionText": "Hindfoot valgus can be present in all the following conditions EXCEPT which of the following?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Cerebral palsy."
+        },
+        {
+          "letter": "B",
+          "text": "Skewfoot."
+        },
+        {
+          "letter": "C",
+          "text": "Congenital vertical talus."
+        },
+        {
+          "letter": "D",
+          "text": "Congenital talipes equinovarus."
+        }
+      ],
+      "correctAnswer": "D",
+      "reference": "詳見 [[pediatric-hindfoot-alignment]]（Radiopaedia: CTEV/CVT + STATdx: Clubfoot）",
+      "explanation": "D Congenital talipes equinovarus（clubfoot）為例外。CTEV 是後足內翻（varus），不會有後足外翻。A cerebral palsy（痙攣性平足外翻）、B skewfoot（後足外翻＋前足內收）、C congenital vertical talus（equinovalgus、rocker-bottom）皆屬後足外翻（valgus）疾病譜。→ [[pediatric-hindfoot-alignment]]",
+      "images": [],
+      "concepts": [
+        "pediatric-hindfoot-alignment"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-468",
+      "year": 2022,
+      "number": 468,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following organs is associated with the “olive sign”?",
+      "options": [
+        {
+          "letter": "A",
+          "text": ".liver"
+        },
+        {
+          "letter": "B",
+          "text": "stomach"
+        },
+        {
+          "letter": "C",
+          "text": "appendix"
+        },
+        {
+          "letter": "D",
+          "text": "d. gallbladder"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[pyloric-stenosis]]（Radiopaedia: pyloric stenosis palpable olive）",
+      "explanation": "B stomach（胃）。「olive sign／palpable olive」指肥厚性幽門狹窄時，肥厚的幽門（pylorus，屬胃的遠端出口）於右上腹被觸診成橄欖狀腫塊——對應器官為胃。與肝(A)、闌尾(C)、膽囊(D)無關。→ [[pyloric-stenosis]]",
+      "images": [],
+      "concepts": [
+        "pyloric-stenosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-469",
+      "year": 2022,
+      "number": 469,
+      "years": [
+        2022
+      ],
+      "subspecialty": "US",
+      "subspecialty_confidence": "auto",
+      "questionText": "A patient presents with a history of right upper quadrant pain, nausea, and vomiting. A sonogram of the right upper quadrant demonstrates a calculus lodged in the cystic duct. This finding is a predisposing factor for developing:",
+      "options": [
+        {
+          "letter": "A",
+          "text": "cholangitis"
+        },
+        {
+          "letter": "B",
+          "text": "acute cholecystitis"
+        },
+        {
+          "letter": "C",
+          "text": "adenomyomatosis"
+        },
+        {
+          "letter": "D",
+          "text": "d. portal vein thrombosis"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[acute-cholecystitis]]（Radiopaedia + STATdx: Acute Calculous Cholecystitis）",
+      "explanation": "B acute cholecystitis（急性膽囊炎）。結石卡在膽囊管（cystic duct）阻塞膽汁流出，導致膽囊擴張、缺血與囊壁發炎，是急性膽囊炎的典型誘發因子。A cholangitis 屬膽道（總膽管）阻塞併感染、C adenomyomatosis 為慢性膽囊壁增生、D portal vein thrombosis 與此無關。→ [[acute-cholecystitis]]",
+      "images": [],
+      "concepts": [
+        "acute-cholecystitis"
+      ],
+      "checked": false
     }
   ]
 }

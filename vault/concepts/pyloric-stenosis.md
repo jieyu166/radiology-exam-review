@@ -57,10 +57,14 @@ dateRev: 2026-06-29
 [^3]: 影像個案/實務回顧（同儕審查）。Pokhrel B, Bhatta A, Basnet A, Pokhrel N, Regmi D. *Hypertrophic Pyloric Stenosis in a Four-Week-Old Infant: Radiological Diagnosis and Pitfalls.* Cureus. 2025;17(12):e98606（含 Le Bonheur Children's Hospital 小兒放射作者）。據 PubMed 全文（PMC12776224）：doughnut sign、antral nipple sign、shouldering、caterpillar sign（腹部 X 光）、UGI string sign；切點 canal length >16 mm／diameter >11 mm／circular muscle >2.5 mm，並註早產/較小新生兒切點可下修；DDx＝pylorospasm（可逆有蠕動）、prostaglandin 黏膜增生（只量肌壁）；陷阱＝胃過度充盈致幽門後移偽陰性需右側臥、GEJ 逆流誤判。string/double-track/beak/mushroom 等 UGI 與 antral web／prepyloric membrane 鑑別屬放射學標準教材通識。[DOI](https://doi.org/10.7759/cureus.98606)
 [^4]: 影像徵象短文（同儕審查，Abdominal Radiology）。Indiran V, Selvaraj V. *The cervix sign and other sonographic signs of hypertrophic pyloric stenosis.* Abdom Radiol (NY). 2016;41(10):2085-6（PubMed 索引，文獻型別 Review）：描述 cervix sign——肥厚幽門突入充液胃竇似子宮頸突入陰道穹窿。[DOI](https://doi.org/10.1007/s00261-016-0809-5)
 [^5]: 官方 2017 詳解：IHPS男性好發(4:1至6:1)，症狀典型於出生後3-5週開始(非出生後不久，極罕見12週後發病)，非膽汁性嘔吐，X光呈顯著胃擴張與小腸氣體量不成比例。
+[^6]: *Pyloric stenosis (hypertrophic pyloric stenosis)*. Radiopaedia.org（實際查證 accessed 2026-07-06）：臨床上**肥厚的幽門（pylorus，屬胃的遠端出口）可於右上腹觸診到「橄欖狀（olive-sized）腫塊」**——即 olive sign／palpable olive，對應器官為 stomach（胃的幽門）；典型 2–12 週非膽汁性噴射狀嘔吐、可聞 succussion splash。
 
 ## 題目
 > [!question]- Which one is not the correct description about "infantile hypertrophic pyloric stenosis(IHPS)? (2017-337)
 > **B為偽**——IHPS並非出生後不久發病，症狀典型於出生後**3-5週**開始，極罕見於12週後才發病。男性好發(4:1至6:1)、非膽汁性嘔吐、X光顯著胃擴張與小腸氣體量不成比例皆為真。[^5]
+
+> [!question]- Which of the following organs is associated with the "olive sign"? (2022-468)
+> **B（關鍵）stomach（胃）**。「olive sign／palpable olive」指肥厚性幽門狹窄時，肥厚的**幽門（pylorus，胃的遠端出口）**在右上腹被觸診成橄欖狀腫塊——對應器官為胃。與肝(A)、闌尾(C)、膽囊(D)無關。[^1][^6]
 
 ## 考題
 ```dataview
