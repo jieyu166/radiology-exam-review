@@ -8798,8 +8798,20 @@
       "questionText": "Which is incorrect about the retroperitoneal fibrosis (RPF)?",
       "options": [
         {
-          "letter": "",
-          "text": "Aorta is not typically displaced from the spine in primary RPF. Soft tissue can surround IVC and laterally displaced ureters. It usually has low signal intensity on T1WI. It may be associated with autoimmune pancreatitis."
+          "letter": "A",
+          "text": "Aorta is not typically displaced from the spine in primary RPF."
+        },
+        {
+          "letter": "B",
+          "text": "Soft tissue can surround IVC and laterally displaced ureters."
+        },
+        {
+          "letter": "C",
+          "text": "It usually has low signal intensity on T1WI."
+        },
+        {
+          "letter": "D",
+          "text": "It may be associated with autoimmune pancreatitis."
         }
       ],
       "correctAnswer": "B",
@@ -8824,11 +8836,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "a minimum of five calcifications within 1 cm of each other and"
+          "text": "In the “typically benign” category, eggshell and lucent-centered calcifications have been combined into a new term, rim, while round and punctate calcifications are combined into the term round"
         },
         {
           "letter": "B",
-          "text": "a larger number of calcifications within 2 cm of each other."
+          "text": "Amorphous, dystrophic, coarse heterogeneous, fine pleomorphic, and fine linear or fine linear branching calcifications are now placed in the “suspicious morphology” category."
+        },
+        {
+          "letter": "C",
+          "text": "The five remaining distributions of calcification are termed diffuse, segmental, regional, grouped, and linear."
+        },
+        {
+          "letter": "D",
+          "text": "The number of calcifications in the “grouped” distribution has been revised to include (a) a minimum of five calcifications within 1 cm of each other and (b) a larger number of calcifications within 2 cm of each other."
         }
       ],
       "correctAnswer": "D",
@@ -8926,8 +8946,20 @@
       "questionText": "Which of the following statement about Moyamoya disease is wrong?",
       "options": [
         {
-          "letter": "",
-          "text": "“Puff of smoke” on angiography: numerous collaterals supplying ACA and MCA. Stenosis or occlusion of supraclinoid ICA. MRI: multiple tiny flow voids on T2W images, which are collaterals; engorged collaterals may produce FLAIR dark sulci(ivy sign). Occasionally, the posterior circulation is involved."
+          "letter": "A",
+          "text": "“Puff of smoke” on angiography: numerous collaterals supplying ACA and MCA."
+        },
+        {
+          "letter": "B",
+          "text": "Stenosis or occlusion of supraclinoid ICA."
+        },
+        {
+          "letter": "C",
+          "text": "MRI: multiple tiny flow voids on T2W images, which are collaterals; engorged collaterals may produce FLAIR dark sulci(ivy sign)."
+        },
+        {
+          "letter": "D",
+          "text": "Occasionally, the posterior circulation is involved."
         }
       ],
       "correctAnswer": "C",
@@ -9100,7 +9132,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Bronchoscopic procedures most commonly affect the cervical and proximal intrathoracic trachea, especially the less protected posterior membrane. The precise site of injury is easy, quick and confident to identify at MPR, MIP, and virtual bronchoscopic views. High-impact blunt force injuries tend to involve the intrathoracic distal trachea near the carina, with a slight preponderance of right-sided involvement. Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations."
+          "text": "Bronchoscopic procedures most commonly affect the cervical and proximal intrathoracic trachea, especially the less protected posterior membrane."
+        },
+        {
+          "letter": "B",
+          "text": "The precise site of injury is easy, quick and confident to identify at MPR, MIP, and virtual bronchoscopic views."
+        },
+        {
+          "letter": "C",
+          "text": "High-impact blunt force injuries tend to involve the intrathoracic distal trachea near the carina, with a slight preponderance of right-sided involvement."
+        },
+        {
+          "letter": "D",
+          "text": "Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations."
         }
       ],
       "correctAnswer": "B",
@@ -9161,8 +9205,20 @@
       "questionText": "有關 pulmonary venous (PV) anatomy 下列何者為非? RSPV: right superior pulmonary vein LSPV: left superior pulmonary vein RIPV: right inferior pulmonary vein LIPV: left inferior pulmonary vein RUL: right upper lobe RML: right middle lobe",
       "options": [
         {
-          "letter": "",
-          "text": "大部分情況有 有四條 主要PV drained 至 LA. 大部分情況RUL 及 RML 的 PV drained 至 RSPV 大部分情況下 四條主要PV 中RSPV 管徑最大 大部分情況下四條主要PV中 RIPV管徑最小"
+          "letter": "A",
+          "text": "大部分情況有 有四條 主要PV drained 至 LA."
+        },
+        {
+          "letter": "B",
+          "text": "大部分情況RUL 及 RML 的 PV drained 至 RSPV"
+        },
+        {
+          "letter": "C",
+          "text": "大部分情況下 四條主要PV 中RSPV 管徑最大"
+        },
+        {
+          "letter": "D",
+          "text": "大部分情況下四條主要PV中 RIPV管徑最小"
         }
       ],
       "correctAnswer": "D",
@@ -9298,7 +9354,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "SLE Dermato-myositis Rheumatoid arthritis Scleroderma"
+          "text": "SLE"
+        },
+        {
+          "letter": "B",
+          "text": "Dermato-myositis"
+        },
+        {
+          "letter": "C",
+          "text": "Rheumatoid arthritis"
+        },
+        {
+          "letter": "D",
+          "text": "Scleroderma"
         }
       ],
       "correctAnswer": "C",
@@ -9322,8 +9390,20 @@
       "questionText": "Which of the followings concerning lymphangioleiomyomatosis is wrong?",
       "options": [
         {
-          "letter": "",
-          "text": "A progressive cystic lung disease that occurs almost exclusively in women with Tuberous Sclerosis Complex Associated with multiple macronodular pneumocystic hyperplasia Characterized and defined by the presence of greater than 10 rounded, thin-walled air filled cysts Occurrence of spontaneous pneumothoraces."
+          "letter": "A",
+          "text": "A progressive cystic lung disease that occurs almost exclusively in women with Tuberous Sclerosis Complex"
+        },
+        {
+          "letter": "B",
+          "text": "Associated with multiple macronodular pneumocystic hyperplasia"
+        },
+        {
+          "letter": "C",
+          "text": "Characterized and defined by the presence of greater than 10 rounded, thin-walled air filled cysts"
+        },
+        {
+          "letter": "D",
+          "text": "Occurrence of spontaneous pneumothoraces."
         }
       ],
       "correctAnswer": "B",
@@ -9385,7 +9465,19 @@
       "options": [
         {
           "letter": "A",
-          "text": "Typical hemangioma is a well-defined, uniformly hyperechoic mass Internal vascularity is often undetectable with color Doppler May see posterior acoustic enhancement “Typical atypical” hemangioma shows hypoechoic rim with hyperechoic center"
+          "text": "Typical hemangioma is a well-defined, uniformly hyperechoic mass"
+        },
+        {
+          "letter": "B",
+          "text": "Internal vascularity is often undetectable with color Doppler"
+        },
+        {
+          "letter": "C",
+          "text": "May see posterior acoustic enhancement"
+        },
+        {
+          "letter": "D",
+          "text": "“Typical atypical” hemangioma shows hypoechoic rim with hyperechoic center"
         }
       ],
       "correctAnswer": "D",
