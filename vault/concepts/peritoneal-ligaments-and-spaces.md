@@ -47,6 +47,7 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: Tirkes A, et al. *Peritoneal and Retroperitoneal Anatomy and Its Relevance for Cross-Sectional Imaging*. RadioGraphics 2012;32(2):437-451, DOI 10.1148/rg.322115032（accessed 2026-07-03）——小網膜由肝胃韌帶+肝十二指腸韌帶(含總膽管)組成，胃脾/胃結腸韌帶屬大網膜;膈結腸韌帶(Hensing's韌帶)連結腸脾彎曲至橫膈，為左膈下腔隙與左結腸旁溝界標兼脾臟下極支撐;腹膜韌帶/繫膜/網膜既為疾病邊界亦為擴散通道;骨盆腔隙經左右結腸旁溝直接向上延伸，與左右腸繫膜下腔隙非直接延伸關係。
 [^2]: 官方2016詳解；Dynamic Radiology of the Abdomen, 6th ed.（題目所引）——肝胃韌帶內含coronary vein(左胃靜脈)與左胃動脈；肝十二指腸韌帶內含portal triad(proper hepatic artery、portal vein、common bile duct)，gastroduodenal artery不在此韌帶內。
+[^3]: *Hepatogastric (gastrohepatic) ligament*. Radiopaedia.org（rID 26566，DOI 10.53347/rID-26566，實際查證 accessed 2026-07-06）：肝胃韌帶與肝十二指腸韌帶共同組成 lesser omentum；自 fissure of ligamentum venosum 與 porta hepatis 延伸至胃小彎；內容物＝**left gastric artery、right gastric artery、left gastric (coronary) vein、right gastric vein** 及部分 hepatic 淋巴結鏈；為胃腫瘤沿韌帶擴散至肝門的重要途徑。
 
 ## 題目
 > [!question]- Which of following structure is not part of lesser omentum? (2017-323)
@@ -63,6 +64,9 @@ dateRev: 2026-07-01
 
 > [!question]- Which structure is not through the hepatoduodenal ligament? (2016-284)
 > **Gastroduodenal artery（D）**——不通過肝十二指腸韌帶。Proper hepatic artery、portal vein、common bile duct為肝十二指腸韌帶內portal triad三大結構。[^2]
+
+> [!question]- Which one is CORRECT concerning the landmarks of the important ligaments? (2022-455)
+> **A（關鍵）Gastrohepatic ligament: left gastric vessels, right gastric vessels**——肝胃韌帶（小網膜的一部分）內含左、右胃血管（left/right gastric artery 與 left gastric/coronary vein、right gastric vein）。B 錯：hepatoduodenal ligament 內含 portal triad，short gastric vessels 走 gastrosplenic ligament；C 錯：falciform ligament 內含 ligamentum teres／paraumbilical vein，portal triad 在 hepatoduodenal ligament；D 錯：middle colic vessels 走 transverse mesocolon，非 greater omentum。[^2][^3]
 
 ## 考題
 ```dataview

@@ -5759,7 +5759,8 @@
       "number": 156,
       "years": [
         2016,
-        2017
+        2017,
+        2022
       ],
       "subspecialty": "ABD",
       "subspecialty_confidence": "manual",
@@ -8483,7 +8484,8 @@
       ],
       "checked": false,
       "years": [
-        2016
+        2016,
+        2022
       ]
     },
     {

@@ -63,6 +63,10 @@ same:
 [^6]: Tier 2（PMC 個案/綜述）。Marrodan M, et al.（spinal cord sarcoidosis with **trident sign**）. PMC11925211（accessed 2026-06-29）：「the presence of the **'trident sign' in axial sequences** is a clue for **sarcoidosis of the spinal cord**（dorsal subpial + central canal enhancement; not pathognomonic, also in B-cell lymphoma）」;並列 LETM/橫貫性脊髓炎 mimic 腫瘤之鑑別（急/亞急性病程、oligoclonal bands、NMO-IgG、腦部脫髓鞘病灶）— *Idiopathic Transverse Myelitis Mimicking an Intramedullary Spinal Cord Tumor*, PMC5031842。
 [^7]: Tier 2（綜述/PMC）。*Imaging highlights of anterior spinal cord infarction: Owl's eye sign*, PMC8743178（accessed 2026-06-29）及 Radsource *The Owl's Eyes Sign*：「**T2 hyperintensity and restricted diffusion affecting the anterior horns**, creating the characteristic **'owl's eye' sign**, in the **anterior spinal artery (ASA) territory**… DWI restriction with low ADC confirms acute infarction」。
 
+## 題目
+> [!question]- Which of the following is a characteristic of spinal cord hemangioblastoma? (2022-240)
+> **C**——脊髓 hemangioblastoma 起源於軟膜（pial）面、強烈強化、多發時關聯 VHL（非 NF、非神經上皮性）。[^5]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "intramedullary-spinal-tumors")

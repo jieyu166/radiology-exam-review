@@ -101,6 +101,10 @@ dateRev: 2026-06-29
 [^7]: 全文已讀（開放全文）。The Radiology Assistant — *Shoulder instability*（radiologyassistant.nl，accessed 2026-06-29）。Bankart（soft/bony）、ALPSA（骨膜撕裂、內移）、Perthes（骨膜完整剝向內側、需 ABER）、GLAD（部分撕裂＋軟骨缺損）、HAGL（肱骨端撕脫）、reverse Bankart（後下 6–9 點）；Hill-Sachs 後上外側、reverse Hill-Sachs 前內側之 MRA 特徵。
 [^8]: *Ann R Coll Surg Engl*. 2009 Jan;91(1):2-7（2018 交換考題詳解 p.47 引用；Tier 2）。前脫位為肩脫位最常見型別；Hill-Sachs 為肱骨頭撞擊前盂緣之後外側壓迫性骨折；前脫位常合併旋轉肌袖損傷；骨髓炎最常見病原菌為 S. aureus（獨立事實，與脫位機轉無關）。
 
+## 題目
+> [!question]- Anterior glenohumeral instability不包含下列何種變化? (2022-244)
+> **A（Reverse Bankart）**——屬後方不穩定；osseous Bankart、Bankart 變異、HAGL 皆屬前方不穩定病灶譜。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "shoulder-dislocation")

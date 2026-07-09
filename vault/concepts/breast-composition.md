@@ -69,6 +69,13 @@ dateRev: 2026-06-29
 [^9]: *Comparison of breast density assessments according to BI-RADS 4th and 5th editions and experience level*. PubMed 32733694;及 *Breast Density Evaluation ... AI Automated vs Human Visual Assessment*. PMC10146726（依摘要未讀全文 accessed 2026-06-29）：定性分級具觀察者間變異、受經驗影響，AI 自動化評估用以提升一致性。
 [^10]: ACR BI-RADS Atlas 5th ed.（MRI）, BPE 分級 minimal/mild/moderate/marked;*From Variability to Standardization: ... Breast Density on Background Parenchymal Enhancement*（依摘要未讀全文 accessed 2026-06-29，medRxiv 2025.04.15.25325851）：BPE 為 MRI／對比乳攝上正常實質強化程度，與乳攝緻密度為不同概念、可不平行。
 
+## 題目
+> [!question]- According to BI-RADS fifth edition, which of the following statement is wrong? (2022-247)
+> ⚠️ 選項文字 OCR 不完整，暫依來源答案 D；BI-RADS 2013 以 a–d 主觀描述取代百分比估計、強調遮蔽效應。[^2]
+
+> [!question]- Which of the following about Mammographic Breast Density is CORRECT? (2022-266)
+> **C**——緻密纖維腺體重疊遮蔽腫塊、降低乳攝敏感度即 masking effect；乳癌源自上皮而非脂肪、體積大非風險、間隔癌敘述不精確。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "breast-composition")

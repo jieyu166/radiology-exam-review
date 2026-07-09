@@ -61,6 +61,10 @@ dateRev: 2026-06-29
 [^3]: boot-shaped heart 影像徵象與發紺型 5T 鑑別（依摘要／教科書層級，未讀全文）：frontal CXR 心尖上抬、central hilar PA 減少、main PA 段凹陷;The Boot-shaped Heart Sign, *Radiology* 2008;246(2):650-1, [DOI](https://doi.org/10.1148/radiol.2461041673)。發紺型先心 5T 助憶（Truncus、TGA、Tricuspid atresia、TOF、TAPVR），TOF 屬肺血減少型。
 [^4]: 開放全文已讀。Sánchez Ramírez CJ, Pérez de Isla L. Tetralogy of Fallot: cardiac imaging evaluation. *Ann Transl Med* 2020;8(15):966（PMC7475417）。CMR 為 rTOF volumetry／flow gold standard；PVR 門檻 RVEDVi 160 mL/m²、RVESVi 80 mL/m²（不可逆點）；phase-contrast RF>40% 為 severe PR；LGE 標記纖維化／猝死風險；MDCT 冠脈異常 8–12%、LAD 自 RCA 跨 RVOT 禁 RVOT 手術、評估 stent/conduit 鈣化。據 PubMed，[DOI](https://doi.org/10.21037/atm.2020.02.18)。
 [^5]: *Grainger & Allison's Diagnostic Radiology*, Chapter 20, 423-446.e1（2018 交換考題詳解 p.125 引用；Tier 1 教科書）。TOF胸部X光呈boot-shaped heart；因肺血流減少肺紋理減少；rib notching為主動脈狹窄特徵。
+[^6]: **Tier 1** Canan A, Abbara S, Stowell J. *Tetralogy of Fallot*. STATdx（Cardiac, Dx, updated 12/27/24）Elsevier（實際查證 accessed 2026-07-05）：四要素＝subvalvular／valvular **RVOT stenosis**、subaortic VSD、overriding aorta、RVH；**紫紺程度取決於 RVOT 阻塞（＋VSD）之平衡——↓肺血流→右到左分流增加→紫紺（blue tet）；正常／↑肺血流→心衰（pink tet）**，RVH 是壓力過載的**結果**而非決定臨床表現時機的因素；classic boot-shaped heart（RVH＋concave PA 段）；**coronary anomalies（5%）：LAD 自 RCA 發出或 RCA 自 LAD 跨越 RVOT**（手術意義）；右弓 25%、LSVC 11%、ASD 5%。故本題「presentation 時機取決於 RVH 程度」為錯——應取決於 **RVOT 阻塞程度**。
+
+> [!warning] 考點更正
+> 交換考 2022-365 選項「time of presentation depends on degree of **right ventricular hypertrophy**」為**錯誤**：TOF 的紫紺／臨床表現時機取決於 **RVOT（肺動脈）阻塞的嚴重度**，RVH 只是壓力過載的結果。[^6]
 
 ## 題目
 > [!question]- Which one of the following radiographic feature is most likely to see in Tetralogy of the fallot? (2018-129)
@@ -69,6 +73,10 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- About Tetralogy of Fallot, which statement is wrong? (2020-330)
 > **Left-to-right shunt（D）為錯誤敘述**——法洛氏四重症因右心室流出道阻塞造成經VSD之**右到左分流**（非左到右分流）。發紺型先心病、四聯病灶(VSD/肺動脈狹窄/RVH/主動脈跨騎)、出生時心臟通常不大日後可呈靴狀心，皆為正確敘述。[^1][^2]
+
+## 題目
+> [!question]- Which statement of Tetralogy of Fallot is wrong? (2022-365)
+> **「Clinical finding including cyanosis by 3–4 months; time of presentation depends on degree of right ventricular hypertrophy」（B）為錯**——TOF 的紫紺與臨床表現「時機」取決於 **RVOT（肺動脈）阻塞之嚴重度**，不是 RVH 程度；RVH 是壓力過載的結果。其餘皆對：①四聯＝RVOT 阻塞、RVH、VSD、主動脈跨騎（對）；③CXR boot-shaped heart（對）；④冠狀動脈異常約 5%（LAD 自 RCA、single RCA）（對）。[^6]
 
 ## 考題
 ```dataview

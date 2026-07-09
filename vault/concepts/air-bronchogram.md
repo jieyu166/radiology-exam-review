@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 > [!question]- 下列何者不會造成 air bronchograms 現象？ (2020-226)
 > **縱隔腔腫瘤 mediastinal tumor**——病灶位於肺實質外，不取代肺泡腔內容物。[^1][^2]
 
+> [!question]- In the followings which one is not a characteristic feature of air-bronchogram? (2022-256)
+> **C. Bronchogenic cyst**——充液先天性囊腫、非肺泡填充過程，內部無通暢含氣支氣管；HMD、肺水腫、大葉性肺炎皆可見 air bronchogram。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "air-bronchogram")

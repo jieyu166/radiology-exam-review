@@ -58,6 +58,12 @@ nonImagingReason: "NSF 臨床/安全主題，診斷靠皮膚病理非影像"
 > [!question]- 關於MR使用的contrast medium，下列敘述何者正確? (2020-228)
 > **B**——NSF風險因子正確包含：透析治療、CKD stage 4/5(eGFR<30)尚未透析者、急性腎損傷(AKI)。A錯（線狀較環狀風險高，非相反）；C錯（釓沉積於腦部在腎功能正常者亦有發現）；D錯（標準劑量為0.1mmol/kg，非0.5mmol/kg）。[^1]
 
+> [!question]- 下列對於含釓對比劑與腎因性全身纖維化，何者敘述錯誤？ (2022-249)
+> D 錯——嚴重反應腎上腺素應為 1:1000、0.3 mL 肌注（IM），「1M」為書寫錯誤；輕度多不需治療、中度需監測保留 IV、嚴重需治療皆正確。[^1]
+
+> [!question]- 下列何者是低風險含釓對比劑？ (2022-265)
+> D Gadobutrol（Gadovist）為巨環型、低風險；Omniscan／Magnevist／OptiMARK 皆為線性、高風險製劑。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "nephrogenic-systemic-fibrosis")

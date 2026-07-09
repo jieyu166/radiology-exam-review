@@ -35,10 +35,14 @@ dateRev: 2026-07-04
 
 ### 參考來源
 [^1]: RadioGraphics 2006;26:715-731（胰臟先天變異綜述，pancreas divisum 為最常見）。
-[^2]: 據 PubMed，Tirkes T, et al. Secretin-enhanced MR cholangiopancreatography: spectrum of findings（含 pancreas divisum 之導管解剖與 MRCP 判讀）. RadioGraphics 2013;33(7):1889-906. [DOI](https://doi.org/10.1148/rg.337125014)
+[^2]: **Tier 1** 據 PubMed，Tirkes T, et al. Secretin-enhanced MR cholangiopancreatography: spectrum of findings（含 pancreas divisum 之導管解剖與 MRCP 判讀）. RadioGraphics 2013;33(7):1889-906. [DOI](https://doi.org/10.1148/rg.337125014)
+[^3]: *Pancreas divisum*. Radiopaedia.org（實際查證 accessed 2026-07-06）：pancreas divisum 於多數病例由**背側胰管（即主胰管與 Santorini 管）直接進入副乳頭（minor papilla）**、與**腹側胰管（duct of Wirsung）無交通**（後者連主乳頭/major papilla）；為最常見胰管變異（一般族群約 5%，MRCP 盛行率約 9%）。
 
 > [!question]- Which of the following is the most common anatomical variant of the pancreas? (2019-342)
 > **A. Pancreas divisum** [^1]
+
+> [!question]- Pancreas divisum, a variation in pancreatic ductal anatomy, in the majority of cases, by the __ directly entering the minor papilla with no communication with the ventral duct and thus, the major papilla. (2022-410)
+> **B. Duct of Santorini（關鍵）**——pancreas divisum 中，多數病例為**背側胰管（＝主胰管與 Santorini 管）直接進入副乳頭（minor papilla）**、與腹側胰管（duct of Wirsung，連主乳頭）不相通。[^3] → [[pancreas-divisum]]
 
 ## 考題
 ```dataview

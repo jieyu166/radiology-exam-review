@@ -48,6 +48,9 @@ dateRev: 2026-07-03
 > [!question]- Comparison of color Doppler with power Doppler, which of the following statement is wrong? (2020-419)
 > **「Power Doppler 對都卜勒角度依賴性增加」為錯誤**——Power Doppler 實為不依賴角度（independent of angle）。[^1][^2]
 
+> [!question]- Which of the following statements about the advantages of color and power Doppler is not true? (2022-416)
+> **「Power Doppler is more affected by Doppler angle（能量都卜勒較受角度影響）」為錯誤**——能量都卜勒以訊號振幅編碼，**不依賴都卜勒角度（angle-independent）**、無 aliasing，這正是其對慢/低流敏感的原因。正確敘述：彩色都卜勒可判斷血流方向、可反映相對流速（依平均頻移編碼）；能量都卜勒與血流量（血球密度）相關。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "color-vs-power-doppler")

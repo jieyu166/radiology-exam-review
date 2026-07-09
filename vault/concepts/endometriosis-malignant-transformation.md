@@ -51,6 +51,9 @@ same:
 > [!question]- What is the most common carcinoma the may develop from ovarian endometriosis? (2017-291)
 > ⚠️ 官方原答案 A（clear cell）經紅字更正為 B（**endometrioid adenocarcinoma**）——為惡性轉化最常見組織型（約 2/3），其次 clear cell adenocarcinoma（約 1/7）。[^1][^3]
 
+> [!question]- Which of the following MR imaging feature(s) is(are) suggestive of malignant endometriomas? (2022-273)
+> **D. All of the above**——病灶增大、T2 shading 消失致 T2 訊號上升、強化壁結節（最敏感）皆為惡變警訊。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "endometriosis-malignant-transformation")

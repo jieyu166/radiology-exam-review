@@ -44,10 +44,14 @@ same:
 ### 參考來源
 [^1]: *Pediatric Imaging: The Essentials* (2016) p.405-408（2018 交換考題詳解 p.257 引用；Tier 2 教科書；另引 Nature Reviews Disease Primers TSC多器官侵犯圖表）。TSC臨床三聯徵發展遲緩/癲癇/皮膚病灶；中樞神經典型為鈣化室管膜下結節、皮質結節、SEGA；多器官含腎AML(70%)、心臟橫紋肌瘤(嬰兒90%)、肺LAM、皮膚angiofibroma；leptomeningeal angioma=Sturge-Weber、multiple meningioma=NF2、pilocytic astrocytoma=NF1。
 [^2]: **Tier 1** Northrup H, Aronow ME, Bebin EM, et al. *Updated International Tuberous Sclerosis Complex Diagnostic Criteria and Surveillance and Management Recommendations*. Pediatr Neurol 2021;123:50-66（據 PubMed，DOI [10.1016/j.pediatrneurol.2021.07.011](https://doi.org/10.1016/j.pediatrneurol.2021.07.011)；實際查證 accessed 2026-07-04）——2021 更新之國際 TSC 診斷準則：臨床準則將「cortical dysplasias」改為「multiple cortical tubers 及／或 radial migration lines」、硬化性骨病灶重列為次要準則；重申基因準則（TSC1/TSC2，含鑲嵌）；強調早期 EEG 篩檢、TAND 監測與新藥核准；腦 MRI 監測 SEN/SEGA。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: *Tuberous sclerosis complex*. Radiopaedia.org（實際查證 accessed 2026-07-06）：TSC 最常見影像表現為皮質／室管膜下結節與白質異常、腎血管肌脂瘤、心臟橫紋肌瘤；中樞神經病灶包含 cortical/subcortical tubers（約 90%）、subependymal hamartomas/nodules（約 90%，多鈣化）與 subependymal giant cell astrocytoma（SEGA，10–15%）——屬皮質發育不良／錯構瘤性病灶，而非脫髓鞘型白質病。
 
 ## 題目
 > [!question]- A 2-year-old infant presents with developmental delay, seizures and subcutaneous lesions, suspect tuberous sclerosis. Which radiological finding is consistent? (2018-347)
 > **Calcified subependymal nodules（A）**——鈣化室管膜下結節為TSC典型中樞神經影像發現。[^1]
+
+> [!question]- 對結節性硬化症 ( Tuberous Sclerosis )之敘述，何者錯誤 ? (2022-415)
+> **D（關鍵，⚠️ 原題選項已退化重建）**——A/B/C 為正確：TSC 患者可出現皮質結節（cortical tubers）與室管膜下結節（subependymal nodules）、部分有心臟橫紋肌瘤（cardiac rhabdomyoma），且中樞病灶源自神經元移行／分化異常之皮質發育不良（含 tubers）；**D「腦部病灶主要為髓鞘脫失（demyelination）所致之白質病變」為錯誤**——TSC 屬 mTOR 路徑失調之錯構瘤性／皮質發育不良疾病，並非脫髓鞘型白質病。[^3] → [[tuberous-sclerosis]]
 
 ## 考題
 ```dataview

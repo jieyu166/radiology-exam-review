@@ -20,6 +20,7 @@ dateRev: 2026-06-29
   - **脫髓鞘病**（如 MS，腦室旁/白質）。
   - 多發膿瘍、多發原發 CNS 淋巴瘤等。
 - **不造成『多發離散』低密度灶**：**Low-grade diffuse astrocytoma** 為**單一浸潤性**腫瘤（沿白質瀰漫但為單一病變），非多發離散灶。[^1]
+- **不會呈「離散多發腫塊」的另一代表＝Gliomatosis cerebri（膠質瘤病）**：為瀰漫浸潤性生長型態（依定義累及 ≥3 個腦葉、常雙側、可跨胼胝體），影像呈受累結構腫大、灰白質分界喪失、瀰漫腦回增厚，**通常不強化、佔位效應輕**——是「單一瀰漫浸潤」而非多灶離散腫塊。對照之下 **metastases、lymphoma、multifocal glioblastoma 皆可呈離散多發腫塊**。[^9][^10]
 
 ### 判讀骨架：以「位置＋強化型態＋臨床」分流
 NECT 看到多發低密度灶時，先看**有無強化**與**病灶分布位置**，再結合**臨床（免疫狀態、心臟病史、感染來源、地區流行病）**收斂。CT 常不足以定論，門檻低就上 MRI（含 DWI、增強、必要時 MRS/灌注）。[^2][^3]
@@ -55,6 +56,12 @@ NECT 看到多發低密度灶時，先看**有無強化**與**病灶分布位置
 [^6]: PML 影像（CT/MRI）（Tier 2，PMC/Medscape）：雙側不對稱、累及皮質下 U-fibre、無強化無腫塊效應、好發頂枕葉/胼胝體/小腦;CT 為斑塊狀白質低密度貌似血管性水腫;免疫低下背景。PMC12647302 "Overview of MRI findings in PML"; Medscape "Imaging in Progressive Multifocal Leukoencephalopathy"。
 [^7]: 多發梗塞分布鑑別（灰白交界/血管分布、敗血性栓子、脂肪栓塞 starfield、血管炎、CADASIL）（Tier 2，PMC/AJNR 病例）：AJNR Case Collections "Acute Cerebral Fat Embolism"; PMC2783161 "Cerebral fat embolism and the starfield pattern"; RadiologyKey "Unusual Cerebral Emboli"。脂肪栓塞 DWI 滿天星;血管炎與心源性栓塞多領域、不同新舊期;CADASIL 前顳極/外囊白質、家族史。
 [^8]: 擴大 Virchow-Robin（血管周）腔陷阱（Tier 1，RadioGraphics）：Kwee & Kwee, "Virchow-Robin Spaces at MR Imaging", RadioGraphics 2007;27(4)（doi:10.1148/rg.274065722）;各序列與 CSF 等訊號、無擴散受限、無強化;鑑別含腔隙性梗塞、囊性腫瘤、cryptococcosis/NCC。
+[^9]: *Gliomatosis cerebri*. Radiopaedia.org（rID 1389, DOI 10.53347/rID-1389；經實際查證 accessed 2026-07-10）：為瀰漫型膠質瘤的生長型態，**依定義累及至少 3 個腦葉、常雙側、可延伸至幕下**;臨床與影像常不相稱（臨床可安靜、影像卻極廣泛）;CT 常近等密度、佔位效應與扭曲相對輕微;MRI 佔位與強化多輕微、灰白質分界喪失、瀰漫腦回增厚、T2 高訊號、T1 C+ 通常不或極少強化、DWI 多無受限;自 2016 WHO 起不再視為獨立腫瘤實體，僅為生長型態——屬單一瀰漫浸潤而非離散多發腫塊。
+[^10]: **Tier 1** Salzman KL. *Corpus Callosum Mass*（Brain, DDx, updated 02/02/23）STATdx, Elsevier（經奇美 EZproxy 實際查證 accessed 2026-07-10）：**Gliomatosis Cerebri Imaging Pattern＝T2-hyperintense infiltrating mass with enlargement of involved structures、may cross corpus callosum、typically nonenhancing at presentation、considered pattern of growth not primary diagnosis**——佐證其為瀰漫浸潤型態而非離散多發腫塊。
+
+## 題目
+> [!question]- Which of the following cannot have discrete multiple brain masses? (2022-496)
+> **A（關鍵）Gliomatosis cerebri（膠質瘤病）**。gliomatosis cerebri 是瀰漫浸潤性生長型態（累及 ≥3 腦葉、常雙側、通常不強化、佔位效應輕），呈「單一瀰漫浸潤」而非離散多發腫塊。B metastases、C lymphoma、D multifocal glioblastoma 皆可造成離散多發腦內腫塊。→ [[multiple-hypodense-brain-lesions]]。[^9][^10]
 
 ## 考題
 ```dataview

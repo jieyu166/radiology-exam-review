@@ -25,6 +25,7 @@ dateRev: 2026-06-17
 - **模態敏感度序（考點）**：**CT >> IVU >> KUB >> US**；US 對結石敏感度僅 ~24%（漏掉近 75% <3 mm），但無輻射、為孕婦/兒童/初篩首選。[^1]
 - **US 徵象**：回音灶＋acoustic shadowing＋**twinkle artifact**（彩色督卜勒），可協助定位 UVJ/腎盂結石。[^1]
 - **陷阱（Vieweg）**：**NCCT 對腎功能與非阻塞性輸尿管結石評估有限**；靜脈石易與遠端輸尿管結石混淆，須看 tissue-rim sign 與 comet-tail sign 區分。[^3]
+- **平片透 X 光（radiolucent）結石＝尿酸為代表（考點）**：**含鈣結石（草酸鈣±磷酸鈣）與 struvite（磷酸銨鎂）在平片上不透 X 光（radiopaque）**；**純尿酸（uric acid）結石透 X 光、平片看不到**（其他罕見透光結石：xanthine、matrix、蛋白酶抑制劑如 indinavir）。故「平片上看不到的結石」＝尿酸；純磷酸鈣仍不透光。CT 則不論成分皆可顯示。[^4]
 
 ## 臨床重點（5 句）
 1. **自發排出取決於大小**：**0–3 mm 98%、4 mm 81%、5 mm 65%、6 mm 33%、>6.5 mm 9%**——結石越小越易排出（20 週內）。[^2]
@@ -43,6 +44,11 @@ dateRev: 2026-06-17
 [^1]: *Urolithiasis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：IVU「已主要被**非顯影 CT** 取代」;CT 對衰減高敏使平片透光結石亦顯;以 **CT KUB 為 reference**,超音波敏感度僅 **~24%**(漏掉者近 75% <3mm)。
 [^2]: *Ureteric calculi*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「Spontaneous passage by 20 weeks ... (axial dimension): **0-3 mm: 98%; 4 mm: 81%; 5 mm: 65%; 6 mm: 33%; >6.5 mm: 9%**」。
 [^3]: **Tier 1** Vieweg J, Teh C, Freed K, et al. *Unenhanced helical computerized tomography for the evaluation of patients with acute flank pain*. J Urol 1998;160(3 Pt 1):679-84（據 PubMed，DOI [10.1016/S0022-5347(01)62754-X](https://doi.org/10.1016/S0022-5347(01)62754-X)；實際查證 accessed 2026-07-04）——105 例急性脅腹痛前瞻研究：**非顯影螺旋 CT 診斷輸尿管結石敏感度 98%、特異度 98%、整體準確度 96%**；57% CT 陰性者由其他腹內所見得診斷；多數病人無需進一步影像即可決定是否泌尿科介入——spiral CT 已成急性脅腹痛評估標準、取代排泄性尿路攝影。惟對腎功能與非阻塞性結石評估有限。佐證 NCCT 為金標準之敏感度數據與臨床分流價值。原「官方/Radiopaedia」弱來源已由本次 J Urol DOI Tier 1 查核升級。
+[^4]: *Urolithiasis*. Radiopaedia.org（實際查證 accessed 2026-07-06）：「Calcium-containing stones are radiopaque（calcium oxalate ± calcium phosphate）」；struvite「usually opaque but variable」；「Lucent stones include: ... uric acid」——含鈣結石與 struvite 於平片不透 X 光，純尿酸結石透 X 光（平片看不到），其他罕見透光者含 xanthine、matrix、蛋白酶抑制劑結石。
+
+## 題目
+> [!question]- Which of the following renal calculi would not be seen on plain radiography? (2022-484)
+> **A. Uric acid（關鍵）**——純尿酸結石透 X 光（radiolucent），平片看不到，須靠 CT 或超音波偵測。其餘 calcium oxalate（B）、struvite（C）、pure calcium phosphate（D）皆含高原子序成分、於平片不透 X 光（radiopaque）而可見。[^4]
 
 ## 考題
 ```dataview

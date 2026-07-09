@@ -39,10 +39,20 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: *ASNR Core Curriculum Course 1995*, p.23（2018 交換考題詳解 p.337 引用；Tier 2 教學資料）。Sturge-Weber為軟腦膜靜脈血管瘤病；淺層皮質靜脈缺如/發育不良，血流改由深部靜脈引流擴大；患側板障增厚、tram-track鈣化、皮質下T2低訊號、腦萎縮。
 [^2]: **Tier 1** Shah AD, Alexieff P, Tatachar P. *Sturge-Weber Syndrome: A Narrative Review of Clinical Presentation and Updates on Management.* J Clin Med 2025;14(7):2182（據 PubMed，DOI [10.3390/jcm14072182](https://doi.org/10.3390/jcm14072182)；PMC11989965；實際查證 accessed 2026-07-04）——SWS 臨床與處置綜述：GNAQ 體細胞鑲嵌突變、毛細血管—靜脈畸形，MRI 特徵性單側軟腦膜血管瘤病（多與臉部色斑同側），臨床含癲癇、類中風、青光眼，及抗癲癇/低劑量 aspirin/雷射/手術等處置。原「ASNR Core Curriculum（1995 教學資料）」Tier 2 弱來源已由本次 DOI Tier 1 期刊查核升級。
+[^3]: *Sturge-Weber syndrome*. Radiopaedia.org（實際查證 accessed 2026-07-05）：以臉部 **port-wine nevus（capillary malformation）** 與軟腦膜（pial）血管瘤為特徵；約 **85% 單半球／單側**（nevus 多與顱內病灶同側）；tram-track／gyriform 皮質下鈣化多在**頂枕區**，顱骨平片歷史上可顯示 gyriform calcification；DSA 多異常（82%），顯示淺層皮質靜脈缺如與異常深部引流。
+
+## 補充：SWS 特徵敘述何者「正確」（2022-389/391 correct-option）
+- **臉部斑（A 錯）**：為 **port-wine nevus（葡萄酒色斑／capillary malformation）**，並非「strawberry nevus（草莓狀血管瘤）」——故「strawberry nevus on the face」錯誤。[^3]
+- **側性（B 錯）**：約 **85% 為單側／單半球（unilateral, ipsilateral to nevus）**，並非「usually bilateral」——雙側僅少數。[^3]
+- **血管攝影（C 錯）**：軟腦膜血管瘤為**低流量**病灶，DSA 多顯示**淺層皮質靜脈缺如＋深部靜脈引流異常**，其軟腦膜血管畸形本身**常無法在動脈攝影上清楚顯示**——故「usually well shown on arteriography」不正確。[^3]
+- **鈣化（D 正確，本題答案）**：SWS 之**皮質／皮質下 gyriform／tram-track 鈣化**多位於**頂枕（parieto-occipital）區**，**歷史上可於 plain skull film 上顯示**——故「calcification in the occipital cortex is visible on plain skull films」為**正確**敘述。[^3]
 
 ## 題目
 > [!question]- Select the one wrong statement about Sturge-Weber syndrome (2018-426)
 > **Blood is shunted through deep collateral to the superficial venous system（B）**——實際為淺層皮質靜脈缺如、血流改由深部靜脈引流(abnormal enlarged deep venous drainage)，方向相反。[^1]
+
+> [!question]- The following characteristic features of Sturge-Weber syndrome is correct? (2022-391)
+> **calcification in the occipital cortex is visible on plain skull films（D，關鍵）為正確**——SWS gyriform／tram-track 皮質下鈣化多在頂枕區，歷史上可於顱骨平片顯示。其餘為錯：(A) 臉部為 port-wine nevus（非 strawberry nevus）、(B) 約 85% 為單側非雙側、(C) 軟腦膜血管瘤為低流量、動脈攝影常無法清楚顯示（DSA 反見淺層皮質靜脈缺如）。[^3]
 
 ## 考題
 ```dataview

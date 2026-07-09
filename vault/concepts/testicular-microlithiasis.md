@@ -43,6 +43,9 @@ dateRev: 2026-07-03
 > [!question]- Which regarding microlithiasis is not true? (2016-272)
 > **「低解析度超音波為檢查首選」不正確（D）**——應使用高頻/高解析度超音波。[^1]
 
+> [!question]- Which statement is true regarding testicular microlithiasis? (2022-420)
+> **All of the above（E）皆正確**——(A) 睪丸微石症多為陰囊超音波之**偶然發現**；(B) 文獻報告 TM 與**男性不孕**有相關；(C) 其**臨床意義取決於是否共存風險因子**（GCT 個人/家族史、隱睪/下降不全、orchidopexy、睪丸萎縮、不孕）；(D) **單純 TM 且無風險因子並非進一步檢查的適應症**（不需常規追蹤 US 或切片）。四項敘述均成立，故答案為 E。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "testicular-microlithiasis")

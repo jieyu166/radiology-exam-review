@@ -76,6 +76,12 @@ same:
 [^6]: Baraliakos X, Maksymowych WP. *Imaging in the diagnosis and management of axial spondyloarthritis.* Best Pract Res Clin Rheumatol. 2016;30(4):608-623. [DOI](https://doi.org/10.1016/j.berh.2016.09.011)（綜述）。軟骨下 BME 為早期 SpA 主要特徵；脂肪化生為由發炎走向強直之關鍵中間步驟；脊椎與對比後影像非常規診斷必需。據 PubMed 檢索（PMID 27931957，依摘要）。
 [^7]: Slobodin G, Eshed I. *Non-Radiographic Axial Spondyloarthritis.* Isr Med Assoc J. 2015;17(12):770-6（綜述）。nr-axSpA 女性比例較 AS 高；2 年內約 10–20% 進展至放射學期；診斷需綜合臨床、HLA-B27、SIJ MRI。據 PubMed 檢索（PMID 26897981，依摘要）。以上資料來自 PubMed。
 [^8]: Arthritis mutilans（含 pencil-in-cup）為**乾癬性關節炎**／類風濕的嚴重破壞表現，非 AS；PsA 薦腸關節炎多不對稱、脊椎呈粗大不對稱之 paravertebral ossification。詳見 [[psoriatic-arthritis]]。
+[^9]: *Ankylosing spondylitis*. Radiopaedia.org（實際查證 accessed 2026-07-05）：AS 脊椎典型 X 光徵象＝shiny corner（Romanus 病灶／椎體角骨炎）、椎體 squaring（方形化）、細直垂直 syndesmophytes、bamboo spine、dagger sign；薦腸關節炎雙側對稱；與 HLA-B27 相關、男性為主。「picture frame（畫框）vertebra」屬 **Paget 病**徵象（皮質與粗大骨小樑增厚勾勒出椎體邊框），非 AS 特徵。
+[^10]: **Tier 1** Escobedo EM, Manaster BJ. *Ankylosing Spondylitis*. STATdx（Musculoskeletal, Dx, updated 03/22/22）Elsevier（實際查證 accessed 2026-07-05）：脊椎徵象含**shiny corners（Romanus lesions）於椎體角骨炎、額外骨形成致椎體 squaring、外層纖維環細直垂直 syndesmophytes、bamboo spine 併 dagger sign**；薦腸關節炎雙側對稱（86%）為首發部位；HLA-B27 白人 >90% 陽性；bamboo spine＋骨質疏鬆易致輕傷「carrot-stick」三柱橫向骨折（好發 C-T/T-L 交界），須 CT 評估。**「picture frame appearance」未列於 AS，屬 Paget 病椎體徵象**，故為本題「非 AS」答案。
+
+## 題目
+> [!question]- Which one of the following radiographic features of the thoracolumbar spine is NOT usually seen in patients with ankylosing spondylitis? (2022-360)
+> **Picture frame appearance（D，關鍵）** 為錯——「picture frame（畫框）vertebra」是 **Paget 病**的椎體徵象（皮質與粗大骨小樑增厚勾勒出方框），非 AS。AS 胸腰椎典型 X 光徵象為 syndesmophytes（A，細直垂直）、squaring of vertebrae（B，椎體方形化）、shiny corner／Romanus lesion（C，椎體角骨炎），皆為 AS 常見特徵。[^9][^10]
 
 ## 考題
 ```dataview

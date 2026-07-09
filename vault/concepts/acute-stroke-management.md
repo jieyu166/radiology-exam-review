@@ -70,6 +70,20 @@ down:
 [^2]: Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines*. Stroke. 2019;50(12):e344-e418. https://doi.org/10.1161/STR.0000000000000211 （現行 AHA/ASA 綜合指引；取栓窗延長至 24h，DAWN/DEFUSE-3 以 mismatch 選病人 Class I。經 PubMed 取得書目 PMID 31662037）。
 [^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。PMID 33928011）。
 [^4]: 台灣腦中風學會治療指引（官網 http://www.stroke.org.tw/guideline/ ，實際查證 accessed 2026-06-17）。**2023 急性缺血中風動脈內血栓移除治療指引更新（全文已讀，官網公開 PDF）**：EVT 窗 6–24h；6–24h 以 CTP/MRP 或 CTA collateral score／DWI infarct core 選病人（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT）；納入 large-core EVT 證據。另列 2025 急性缺血性腦中風處置建議、2025 IVT 指引更新、2026 Tenecteplase IVT 共識、2019 EVT/IVT 指引。
+[^5]: *Endovascular clot retrieval (ECR)*. Radiopaedia.org（亦稱 mechanical thrombectomy／EVT；rID 57136；DOI [10.53347/rID-57136](https://doi.org/10.53347/rID-57136)；實際查證 accessed 2026-07-06）：適用**前循環大血管阻塞（LVO）**之急性缺血中風；**發病 6 小時內證據穩固**，並延伸至 24 小時及大梗塞核心病人（DAWN/DEFUSE-3 等）；禁忌含初始 NECT 上出血、無可救腦組織之大梗塞核心。佐證取栓病人選擇原則。
+
+## EVT 病人選擇（2015 AHA/ASA Class I 六準則）
+> [!info] 六準則（全部符合方為 Class I）：**prestroke mRS 0–1**、**致病阻塞位於 ICA 或 MCA M1**、**年齡 ≥18**、**NIHSS ≥6**、**ASPECTS ≥6**、**groin puncture 可於發病 6 小時內開始**。考試陷阱：NIHSS 門檻為 **≥6，非 ≥4**。[^1][^5]
+
+## r-tPA 主要禁忌（節選）
+> [!info] 近期顱內出血史／活動性出血；**48 小時內用 heparin 且 aPTT 上升**；**血小板 < 100,000/mm³**；**血糖 < 50 或 > 400 mg/dL** 等異常；**前 14 天內重大手術或嚴重非頭部外傷**（考題常寫「10 天內」）；INR 過高；BP > 185/110 未控制等。注意：**進行 CTA 評估取栓並非禁忌**，而是必要的血管評估流程。[^1]
+
+## 題目
+> [!question]- Which of the following is FALSE about the indication of endovascular thrombectomy in a patient with acute ischemic stroke? (2022-443)
+> **NIHSS scores of ≧ 4（B，關鍵——此為錯誤敘述）**——2015 AHA/ASA EVT Class I 準則之 NIHSS 門檻為 **≥6**，非 ≥4。其餘選項皆正確：prestroke mRS 0–1（A）、ICA 或 M1 阻塞（C）、ASPECTS ≥6（D）、發病 6 小時內 groin puncture（E）。[^1][^5]
+
+> [!question]- Which one of the followings contraindications of r-tPA injection in acute ischemic stroke is FALSE? (2022-445)
+> **Perform CTA study for further endovascular thrombectomy evaluation（C，關鍵——此非禁忌）**——CTA 是評估大血管阻塞、規劃取栓的必要影像流程，並非 r-tPA 禁忌。其餘皆為真正禁忌：48 小時內用 heparin 且 aPTT 上升（A）、血小板 <100,000/mm³（B）、血糖異常如 400 mg/dL（D）、近期重大手術或嚴重非頭部外傷（E）。[^1]
 
 ## 考題
 ```dataview

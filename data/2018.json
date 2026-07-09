@@ -3120,6 +3120,7 @@
       "number": 85,
       "years": [
         2018,
+        2022,
         2023
       ],
       "subspecialty": "NR",
@@ -14937,7 +14938,8 @@
       "year": 2018,
       "number": 401,
       "years": [
-        2018
+        2018,
+        2022
       ],
       "subspecialty": "NR",
       "subspecialty_confidence": "manual",
@@ -15566,7 +15568,8 @@
       "year": 2018,
       "number": 418,
       "years": [
-        2018
+        2018,
+        2022
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
@@ -15603,7 +15606,8 @@
       "year": 2018,
       "number": 419,
       "years": [
-        2018
+        2018,
+        2022
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
@@ -16262,7 +16266,8 @@
       ],
       "year": 2018,
       "years": [
-        2018
+        2018,
+        2022
       ],
       "subspecialty_confidence": "manual",
       "images": [],

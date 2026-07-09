@@ -47,6 +47,8 @@ dateRev: 2026-06-30
 [^1]: 官方 2017 詳解；Sahani DV et al. MR Imaging of Cystic Lesions of the Pancreas. RadioGraphics 2009;29(6):1749-1765：最常見囊性病灶為 pseudocyst（無血管化軟組織）;serous cystadenoma 良性多觀察;MRI/MRCP 評估 IPMN 與胰管關係優於 CT;mucinous/IPMN 具惡性潛能。
 [^2]: 2019 交換考詳解；AJR 2013;200:343-54：IPMN好發胰頭與鉤突；mucinous cystadenoma好發胰尾、女性優勢（非男性）；serous cystadenoma典型為微囊病灶合併中央纖維疤痕與鈣化；神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變。
 [^3]: 官方2016詳解；Radiology Review Manual (Dahnert), 7th ed., p.691-692（題目所引）；交叉查證：*Serous Cystadenoma: A Review on Diagnosis and Management*, J Clin Med 2023;12(23):7306（PMC10707442，實際查證2026-07-01）——serous cystadenoma 佔所有胰臟囊性病灶約16%，為最常見良性胰臟囊性腫瘤；pseudocyst 佔約30%為最常見胰臟囊性病灶整體（非腫瘤）。
+[^4]: *Pancreatic intraductal papillary mucinous neoplasm (IPMN)*. Radiopaedia.org（實際查證 accessed 2026-07-05）：IPMN 為源自主胰管或分支的黏液性腫瘤，分 main-duct／branch-duct／mixed 型；main-duct 型與 mixed 型惡性風險高；MRCP/MRI 顯示囊與胰管交通優於 CT。國際共識（Fukuoka/IAP）與 ACR white paper 均以 worrisome features 與 high-risk stigmata 分層處置。
+[^5]: **Tier 1** Raman SP. *Management of Pancreatic Cysts*. STATdx（Gastrointestinal, Dx, updated 06/11/25）Elsevier（實際查證 accessed 2026-07-05），逐字引用 **2017 ACR White Paper on Incidental Pancreatic Cysts**：**「Worrisome」imaging features＝cyst size ≥3 cm、thick/enhancing wall、NON-enhancing mural nodule、main pancreatic duct caliber ≥7 mm**；**「High-risk」imaging features＝obstructive jaundice with pancreatic head cyst、ENHANCING solid component within cyst、main pancreatic duct caliber ≥10 mm without obstruction**。故（worrisome 題）「enhancing mural nodule」屬**高危而非 worrisome**（worrisome 為 non-enhancing mural nodule）；（high-risk 題）「病人年齡 >80 歲」**非 high-risk 影像特徵**（ACR 演算法反而在 ≥80 歲另立追蹤路徑、追蹤多止於 80 歲）。原始題目來源即 *Management of Incidental Pancreatic Cysts: A White Paper of the ACR Incidental Findings Committee*, JACR 2017（DOI 10.1016/j.jacr.2017.03.010）。
 
 ## 題目
 > [!question]- 關於胰臟囊性病灶,何者敘述「為非」? (2017-194)
@@ -57,6 +59,12 @@ dateRev: 2026-06-30
 
 > [!question]- What's WRONG about the description of pancreatic cystic lesions? (2018-435)
 > **Mucinous cystadenoma has a predilection of location at the tail portion with male predominance（B）**——mucinous cystadenoma 雖好發胰體尾，但為**女性優勢（female predominance）**，非男性。IPMN 好發胰頭與鉤突（A對）、serous cystadenoma 為微囊病灶合併中央纖維疤痕與鈣化（C對）、神經內分泌腫瘤或胰管腺癌亦可表現中央囊性變（D對）皆正確。[^2]
+
+> [!question]- Which of the following statement of Pancreatic Cysts about worrisome feature is wrong? (2022-363)
+> **「Enhancing mural nodule」（C）為錯**——依 2017 ACR White Paper，worrisome features 為 **cyst >3 cm、thick/enhancing wall、NON-enhancing mural nodule、main pancreatic duct ≥7 mm**；「**enhancing** mural nodule／enhancing solid component」屬 **high-risk stigmata**（非 worrisome）。其餘 Cyst >3 cm、Thickened/enhancing cyst wall、MPD >7 mm 皆為 worrisome。[^4][^5]
+
+> [!question]- Which of the following statement of Pancreatic Cysts about high-risk stigma is wrong? (2022-364)
+> **「Patient's age over 80 years old」（D）為錯**——依 2017 ACR White Paper，high-risk imaging features 為 **obstructive jaundice with pancreatic head cyst、enhancing solid component within cyst、main pancreatic duct ≥10 mm without obstruction**；「病人年齡 >80 歲」**不是** high-risk 影像特徵（ACR 演算法反在 ≥80 歲另立追蹤路徑、追蹤通常止於 80 歲）。其餘 A/B/C 三項皆為 high-risk stigmata。[^4][^5]
 
 ## 考題
 ```dataview

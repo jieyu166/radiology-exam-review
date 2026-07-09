@@ -73,6 +73,11 @@ dateRev: 2026-06-29
 [^3]: Draghi F, et al. *Psoriatic arthritis: Ultrasound peculiarities with particular emphasis on enthesitis.* J Clin Ultrasound. 2022;50(4):556–560.（PubMed 摘要查證，accessed 2026-06-29）[DOI](https://doi.org/10.1002/jcu.23170)。enthesitis 為 hallmark；US 為評估 entheses 最佳工具，徵象含纖維結構喪失、hypoechoic 增厚、附著處血流增加、骨侵蝕。
 [^4]: Hum RM, Barton A, Ho P. *Utility of Musculoskeletal Ultrasound in Psoriatic Arthritis.* Clin Ther. 2023;45(9):816–821.（PubMed 摘要查證，accessed 2026-06-29）[DOI](https://doi.org/10.1016/j.clinthera.2023.07.017)。US 用於 enthesitis、甲病、亞臨床 PsA 篩檢與鑑別，US 發炎程度與 MRI 一致。
 [^5]: Hesni S, et al. *Psoriatic Onycho-Pachydermo-Periostitis (POPP).* J Psoriasis Psoriatic Arthritis. 2021;7(2):93–98.（PubMed 開放全文 PMC11361519，accessed 2026-06-29）[DOI](https://doi.org/10.1177/24755303211066089)。POPP 三聯：onycholysis＋軟組織增厚＋遠節 periostitis；典型大趾「drumstick」。
+[^6]: *Psoriatic arthritis*. Radiopaedia.org（實際查證 accessed 2026-07-05）——PsA 為與乾癬相關之發炎性關節炎、RF 多陰性、屬 seronegative spondyloarthritides；手足呈對稱多關節或**不對稱寡關節、DIP／遠端為主**；enthesitis 與 marginal erosion、**pencil-in-cup**；**bone proliferation** 致關節周圍「fuzzy」外觀、periostitis、sausage digit（dactylitis）、arthritis mutilans（telescoping fingers）——佐證「PsA 呈 ray pattern、DIP 為主、骨增生為 PsA 特徵」。
+[^7]: **Tier 1（RadioGraphics）** *Imaging of psoriatic arthritis / RA vs PsA comparison*. RadioGraphics 2020;40(5):1339–1354（DOI [10.1148/rg.2020200055](https://doi.org/10.1148/rg.2020200055)，題目所引來源，實際查證 accessed 2026-07-05）——RA 呈 row pattern（MCP／腕骨為主）＋近關節骨質疏鬆；PsA 呈 ray pattern（DIP 為主）＋**骨增生（periarticular bone proliferation／periostitis／enthesophyte）為 PsA 特徵而非 RA**，且 PsA 通常保留骨密度。故「periarticular bone proliferation RA 比 PsA 常見」為錯誤。
+
+> [!question]- 下列關於 Rheumatoid arthritis (RA)和 Psoriatic Arthritis (PsA)的比較何者為誤? (2022-403)
+> **答案：C（關鍵）**。「periarticular bone proliferation RA 比 PsA 常見」為**錯誤**——**骨增生（periarticular new bone／periostitis／enthesophyte）是 PsA 的特徵而非 RA**，RA 反而以純侵蝕＋近關節骨質疏鬆為主。其餘正確：RA 呈 row pattern（MCP／腕骨為主）、PsA 呈 ray pattern（DIP 為主）；periarticular osteoporosis RA 比 PsA 常見（PsA 通常保留骨密度）。[^1][^6][^7]
 
 ## 考題
 ```dataview

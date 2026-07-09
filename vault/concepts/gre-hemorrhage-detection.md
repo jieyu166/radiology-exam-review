@@ -47,6 +47,9 @@ dateRev: 2026-07-03
 > [!question]- 在磁振造影中，下列何種波序在針對顱內出血性病灶有較佳的偵測效率? (2020-336)
 > **Gradient echo（GRE，C）**——GRE 無重聚脈衝、對磁化率效應較敏感，偵測出血病灶效率優於 SE/TSE。[^1][^2]
 
+> [!question]- Which pulse sequence is useful to document hemosiderin content in giant cell tumor of tendon sheath? (2022-258)
+> **D**——T2* gradient echo 無 180° 重聚、對 hemosiderin 順磁性造成的磁化率 blooming 最敏感，最能顯示含鐵沉積。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gre-hemorrhage-detection")

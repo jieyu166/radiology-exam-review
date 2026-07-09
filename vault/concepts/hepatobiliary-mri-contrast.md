@@ -46,6 +46,8 @@ same:
 [^2]: 官方 2017 詳解；European Society of Radiology, ECR 2014, C-0963（doi:10.1594/ecr2014/C-0963）：HCC肝膽期矛盾攝取機轉為OATP8(OATP1B3)表現量升高（非降低）搭配MRP2表現量降低，造成對比劑細胞質滯留呈現高訊號；腫瘤壓迫致膽汁分泌障礙亦可促成訊號滯留。
 [^1]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「progressively into the **hepatocytes and bile ducts during the hepatobiliary phase** ... contrast MRI cholangiogram」;「linear, ionic molecule; **50% hepatic excretion, 50% renal excretion**」。肝膽期病灶攝取（FNH/OATP+ HCC vs 轉移不攝取）、OATP1B1/B3-MRP2 機轉、Gd-BOPTA ~3–5% 膽排為肝膽 MRI 共識（mriquestions.com / 肝臟 MRI 文獻）。
 [^3]: *Cancer Imaging* (2013) 13(4), 567-579（2018 交換考題詳解 p.239 引用；Tier 2 期刊）。Gd-EOB-DTPA為肝膽特異性對比劑，具顯著肝膽排泄比例（約50%）；Gd-DTPA、Gd-DOTA、Gd-DO3A為一般細胞外對比劑，主要經腎排泄，無顯著肝膽排泄。
+[^4]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-07-05）：「distributes into the vascular and extravascular spaces during the arterial, portal venous, and late dynamic phases, and then progressively into the **hepatocytes and bile ducts during the hepatobiliary phase**」；「**50% hepatic excretion, 50% renal excretion**」；「The next strongest hepatobiliary agent is gadobenate dimeglumine (MultiHance), with only **5%** of the injected dose taken up by the liver」；肝膽期於注射後 **20 分**取得；病灶攝取對比劑代表含肝細胞（FNH iso/hyperintense、adenoma hypointense），並可排除肝外轉移。
+[^5]: **Tier 1** 肝膽期攝取/排出轉運子與 EOB 藥理（交換考題原始出處：Leonhardt 2010 *Drug Metab Dispos* 38:1024；König 1999 *Hepatology* 29:1156；Kitao 2015 *Radiology* 275:708；Kitao 2018 *Hepatol Res* 48:205）（實際查證：Radiopaedia Gadoxetate disodium 交叉比對 accessed 2026-07-05）：肝細胞經 **OATP1B3（sinusoidal，主要攝取轉運子）** 攝取 Gd-EOB-DTPA，經 **MRP2（canalicular）** 排入膽道、**MRP1/MRP3（sinusoidal）** 為 sinusoidal 側 export；無功能性肝細胞之病灶 OATP1B3 表現低/無，肝膽期不攝取；肝膽期呈高訊號之 HCC 常見 **β-catenin 與 HNF4α（HNF4A）活化**（伴 OATP1B3 表現升高、MRP2 降低）。
 
 ## 題目
 > [!question]- Some hepatocellular carcinoma show paradoxical uptake in hepatobiliary phase in liver MRI, which statement for these lesions is wrong? (2017-314)
@@ -53,6 +55,12 @@ same:
 
 > [!question]- Which of the following MR contrast agents have significant amount excreted from hepatobiliary system? (2018-329)
 > **Gd-EOB-DTPA（C）**——即gadoxetate disodium（Primovist/Eovist），約50%經肝膽排泄。Gd-DTPA、Gd-DOTA、Gd-DO3A皆屬一般細胞外對比劑，主要經腎臟排泄，肝膽排泄比例極低。[^3]
+
+> [!question]- Which one is not true about gadoxetic acid-enhanced MRI? (2022-369)
+> **E — None of the above（以上皆非，即 A–D 全部正確）**。A：**OATP1B3** 位於肝細胞 sinusoidal 膜、為 Gd-EOB-DTPA 的主要攝取轉運子（正確）。B：**MRP1、MRP3** 於 sinusoidal 側、**MRP2** 於 canalicular 側，皆為 export 轉運子（正確）。C：無功能性肝細胞之病灶其 OATP1B3 表現低/無（正確，故肝膽期不攝取）。D：肝膽期呈高訊號的 HCC 常見 **β-catenin 與 HNF4α 活化**（Kitao，正確）。四者皆真，故「不正確」之選項為 E。[^4][^5]
+
+> [!question]- Which one is not true about the disadvantages of gadoxetic acid-enhanced MRI? (2022-370)
+> **D — None of the above（以上皆非，即 A–C 描述的缺點皆為真）**。A：相較傳統細胞外對比劑，Gd-EOB-DTPA 動脈期/靜脈期強化較弱（血中濃度較低，為真實缺點）。B：短暫呼吸困難（transient dyspnea）與短暫嚴重移動（transient severe motion）較常見（Davenport 2013、Motosugi 2016，為真實缺點）。C：肝功能不良/纖維化惡化時肝實質對 Gd-EOB-DTPA 的攝取下降（Motosugi 2009、Nishie 2012，為真實缺點）。三者皆為真實缺點，故「不正確」之選項為 D。[^4][^5]
 
 ## 考題
 ```dataview

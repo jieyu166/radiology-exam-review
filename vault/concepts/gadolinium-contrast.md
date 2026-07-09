@@ -92,6 +92,18 @@ same:
 > [!question]- Current gadolinium chelates (e.g., Gd-DTPA) that are commonly used as CMR contrast agents are: (2020-308)
 > **Extracellular agents（B）**——多數含釓對比劑(GBCA)為細胞外對比劑，分布於血管與組織間質，非細胞內攝取（Primovist等肝細胞特異性製劑為例外）。[^1]
 
+> [!question]- About adverse reactions of Gadolinium-based contrast agents (GBCA), which of the following are not correct? (2022-242)
+> ⚠️ **C** 錯誤——immediate 過敏樣反應率較高者為 ionic linear 與 nonionic macrocyclic，nonionic linear 反而最低；A（linear 較不穩定）、B（低穩定→transmetallation 致纖維化）皆正確。[^1]
+
+> [!question]- About gadolinium retention in the human tissue, which of the following are not correct? (2022-243)
+> **D** 錯誤——皮膚與骨骼（骨為主要儲庫）之釓絕對濃度高於腦部；A（穿 BBB 經 glymphatic）、B（macrocyclic 滯留少）、C（完整螯合較易離腦）皆正確。[^1]
+
+> [!question]- Which one about GBCA (Gadolinium based contrast agents) is correct? (2022-278)
+> **A**——macrocyclic 較 linear 穩定；B（macrocyclic 沉積較多）、C（腦沉積有害）、D（台灣 FDA 2017 禁 linear）皆錯。[^1]
+
+> [!question]- Which following contrast agent is macrocyclic molecular structure? (2022-281)
+> **A（Dotarem, Gd-DOTA）**——DOTA＝環狀 macrocyclic；Primovist/Magnevist 皆為 DTPA 骨架之 linear。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "gadolinium-contrast")

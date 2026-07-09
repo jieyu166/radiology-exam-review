@@ -60,6 +60,10 @@ dateRev: 2026-07-03
 [^4]: *BI-RADS*. Radiopaedia.org（accessed 2026-06-30）：「BI-RADS 3: probably benign **<2%**;BI-RADS 4: 2–95%（4A 2–9%、4B 10–49%、4C 50–94%）;BI-RADS 5: **>95%**」。輔助來源。
 [^5]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140：category 3 合格超音波表現含 oval、circumscribed、parallel 之實質腫塊、孤立複雜囊腫、群聚微囊腫；round shape 之實質腫塊不列入合格描述。
 
+## 題目
+> [!question]- According to BI-RADS 5th edition, which of the following descriptions about BI-RADS categories is true? (2022-260)
+> ⚠️ 選項 OCR 錯位、暫依來源答案 C；每份報告須給 0–6 最終評估分類並對應處置，分類亦適用於男性乳攝。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "bi-rads-categories")

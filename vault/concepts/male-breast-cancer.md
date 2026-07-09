@@ -45,6 +45,9 @@ dateRev: 2026-07-03
 > [!question]- 關於 male breast cancer,何者「為偽」? (2017-177)
 > 「**整體預後比女性好**」為偽——預後與**同齡同分期女性相近**,且男性常較晚期診斷。Klinefelter 增加風險、平均 60-64 歲晚於女性、乳暈下無鈣化腫塊皆正確。[^1]
 
+> [!question]- Which description about male breast cancer is correct? (2022-252)
+> D「以上皆是」——gynecomastia 會遮蔽腫塊致偵測困難，斷層合成較 2D 更能區分纖維腺體與腫塊並顯示不規則毛刺緣，三者皆正確。[^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "male-breast-cancer")

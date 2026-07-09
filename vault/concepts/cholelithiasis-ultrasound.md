@@ -33,6 +33,10 @@ dateRev: 2026-07-02
 [^1]: 2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. 2-6~2-9。
 [^2]: **Tier 1** Lammert F, Gurusamy K, Ko CW, et al. *Gallstones*. Nat Rev Dis Primers 2016;2:16024（據 PubMed，DOI [10.1038/nrdp.2016.24](https://doi.org/10.1038/nrdp.2016.24)；Journal Article, Review；實際查證 accessed 2026-07-04）——權威疾病綜述闡明膽結石以腹部超音波為主要診斷工具、流行病學與並發症，佐證本卡超音波診斷與鑑別考點。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
 
+## 題目
+> [!question]- Which of the following statements about the ultrasound appearance of gallbladder disease is not true? (2022-417)
+> **「Wall-echo-shadow（WES）複合徵是膽囊『部分』充滿結石的表現」為錯誤**——WES 徵象實為膽囊**幾乎完全填滿（packed/contracted GB full of stones）**結石時的表現：見膽囊前壁的弧狀高回音（wall）＋緊接的一條高回音（結石表面 echo）＋其後濃密聲影（shadow），因結石填滿使膽囊腔消失，故非「部分充滿」。其餘敘述皆正確：急性膽囊炎常見結石＋膽囊壁增厚＋膽囊周圍積液＋超音波墨菲氏徵；腺肌症（adenomyomatosis）特徵為彗尾偽影（comet-tail，源自羅-阿竇內膽固醇結晶）；膽固醇沉積症（cholesterolosis）可形成膽固醇息肉，呈附著於壁、不動、無聲影的小球。[^1][^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cholelithiasis-ultrasound")

@@ -79,6 +79,9 @@ same:
 > [!question]- Which of the following is NOT a typical ultrasound finding of hepatic hemangioma? (2020-266)
 > **Color Doppler flow in center of lesion（D）**為非典型——血管瘤中央典型為乏血流(慢流)，非中央可見血流訊號。高回音腫塊、脂肪肝背景下呈低回音、鈣化罕見皆為典型表現。[^1]
 
+> [!question]- Which statement about the ultrasound appearance of hepatic cavernous hemangioma is not true? (2022-264)
+> ⚠️ 「hypoechoic rim with hyperechoic center」不符——不典型血管瘤反呈高回音暈／低回音中心；界清均質高回音、中央乏血流、後方穿透增強皆典型。[^1]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hepatic-hemangioma")

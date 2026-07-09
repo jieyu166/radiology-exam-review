@@ -62,6 +62,12 @@ same:
 [^3]: Johkoh T. *Nonspecific interstitial pneumonia and usual interstitial pneumonia: is differentiation possible by high-resolution computed tomography?* Semin Ultrasound CT MR 2013;35(1):24–28（綜述層級，PubMed）。重點：**peribronchovascular 分布、廣泛 GGO、subpleural sparing** 偏向 NSIP;**廣泛 honeycombing＋subpleural 分布** 偏向 UIP;NSIP 與 UIP 的鑑別於治療與預後上至關重要。DOI：https://doi.org/10.1053/j.sult.2013.10.004（According to PubMed）。
 [^4]: Yoo H, Hino T, Hwang J, et al. *Connective tissue disease-related interstitial lung disease (CTD-ILD) and interstitial lung abnormality (ILA): Evolving concept of CT findings, pathology and management.* Eur J Radiol Open 2022;9:100419（綜述層級，PMC 開放全文 PMC9014394）。原文（實際查證）：fNSIP CT 為「bilateral, symmetric, lower lung zone-predominant reticular opacities with traction bronchiectasis」;subpleural sparing 見於約 **21%（13/61）**、honeycombing 僅 **5%（3/61）**;NSIP pattern 在 SSc、DM/PM、MCTD 佔大宗;NSIP 患者較常為女性、年齡較輕。DOI：https://doi.org/10.1016/j.ejro.2022.100419（According to PubMed）。
 [^5]: Park JS, et al.（Korean Academy of Tuberculosis and Respiratory Diseases）*Korean Guidelines for Diagnosis and Management of Interstitial Lung Diseases: Part 3. Idiopathic Nonspecific Interstitial Pneumonia.* Tuberc Respir Dis 2019（指引層級，PMC 開放全文 PMC6778744）。原文（實際查證）：NSIP HRCT 為雙側下肺為主之網狀影＋GGO、沿支氣管血管束或胸膜下之牽引性支氣管擴張、肺葉容積縮小;**約 20% 病例有 subpleural sparing，有助與 IPF 區分**;honeycombing 稀少或缺如（與 UIP 對比）;若出現 consolidation 提示合併 organizing pneumonia 成分。鑑別需排除 HP、藥物毒性、CTD。（DIP 吸菸相關、chronic HP 之小葉中心結節／馬賽克衰減／空氣滯積為通用 Fleischner 概念，輔以暴露／吸菸史鑑別。）
+[^6]: **Tier 1** Mueller-Mang C, Grosse C, Schmid K, Stiebellehner L, Bankier AA. *What Every Radiologist Should Know about Idiopathic Interstitial Pneumonias.* RadioGraphics 2007;27(3):595–615（2022-377 題目所引 Tier-1 影像期刊；DOI：https://doi.org/10.1148/rg.273065130）。核心教學：NSIP 之 HRCT 主要表現為**雙側對稱、下肺為主的毛玻璃樣影（GGO）、網狀影（reticular opacities）與牽引性支氣管擴張（traction bronchiectasis）**，常伴相對 subpleural sparing；**蜂窩狀變化（honeycombing）在 NSIP 特徵性地少見或缺如**（明顯 honeycombing 反而偏向 UIP/IPF）——故本題「非 NSIP 影像特徵」為 honeycombing。
+
+## 題目
+> [!question]- 請問以下何者非 Non-specific interstitial pneumonia 的影像特徵？（2022-377）
+> A. Honeycombing　B. Ground-glass opacities　C. Reticular opacities　D. Traction bronchiectasis
+> **A. Honeycombing（關鍵，「非」NSIP 特徵）**——NSIP 典型呈下肺為主的 GGO（B）、網狀影（C）與牽引性支氣管擴張（D）；而**蜂窩狀變化在 NSIP 特徵性地少見／缺如**（fibrotic NSIP 系列僅約 5%），明顯 honeycombing 應偏向 UIP/IPF。故 honeycombing 非 NSIP 典型影像特徵。[^1][^6]
 
 ## 考題
 ```dataview

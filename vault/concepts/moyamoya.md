@@ -68,6 +68,9 @@ dateRev: 2026-06-29
 > [!question]- Moyamoya disease is related to following disease except (2017-319)
 > **E（All above are related）**——Sickle cell anemia、Down syndrome、Marfan syndrome、主動脈弓縮窄皆與moyamoya病有關聯記載（縮窄關聯性文獻報告較少見但仍存在），故無「except」選項，答案為全部皆有關。[^8]
 
+> [!question]- Which of the following statement about Moyamoya disease is wrong? (2022-250)
+> ⚠️ 錯在「FLAIR dark sulci(ivy sign)」——ivy sign 實為 FLAIR 軟腦膜「高訊號」（緩慢逆行血流），非 dark；puff of smoke、supraclinoid ICA 狹窄、T2 flow void 皆正確。[^2]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "moyamoya")

@@ -21,6 +21,10 @@ dateRev: 2026-07-03
 - **功能性**：chief cells 含兒茶酚胺顆粒；分泌者有**高血壓、頭痛、心悸、blushing**。[^2]
 - **Carney triad**：**gastric GIST + pulmonary chondroma + extra-adrenal paraganglioma**，好發**年輕女性**；⚠️ 三合症之 GIST specifically 為**胃部（gastric）**（非泛指一般 GI 基質瘤）。[^1]
 - **性別**：大致相當，但 **glomus jugulotympanicum 與 vagal paraganglioma 對女性有顯著好發**。[^1]
+- **遺傳／症候群關聯（約 1/4–1/3 為家族性）**：**SDHx（succinate dehydrogenase）突變、von Hippel-Lindau（VHL）、MEN2A（RET）、NF1、MEN5（MAX）、Carney triad／Carney-Stratakis**；⚠️ **Wiskott-Aldrich syndrome（WAS，X-linked 免疫缺乏＋濕疹＋血小板低下）與副神經節瘤無關**。[^3][^4]
+
+> [!warning] 症候群關聯（考點 2022-497）
+> 副神經節瘤常見關聯＝**MEN2、VHL、NF1、Carney（triad/Stratakis）、SDHx**；**Wiskott-Aldrich syndrome 為例外（非關聯）**。
 
 ## 放射科醫師影像判讀重點
 - **定位**：腹主動脈分叉旁 T2 高訊號強化腫塊 → 想 Zuckerkandl 副神經節瘤；膀胱壁者可致排尿誘發高血壓。[^1][^2]
@@ -42,10 +46,15 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: 官方 2017 詳解；Ref: *Extraadrenal Paragangliomas of the Body: Imaging Features*. AJR 2006;187(2):492-504（題目所引）——腎上腺外副神經節瘤好發 Zuckerkandl 器官、多 40-50 歲診斷、T2 高訊號；**Carney triad＝gastric GIST + pulmonary chondroma + extra-adrenal paraganglioma（好發年輕女性）**；性別大致相當但 glomus jugulotympanicum 與 vagal paraganglioma 好發女性。
 [^2]: *Paraganglioma* (Dx). STATdx, updated 10/16/25. Elsevier——**T2 對肝高訊號（特徵）**、相對高 T1 + flow voids；chief cells 含兒茶酚胺顆粒（高血壓/blushing/頭痛）；**多於 4th-5th decade** 受影響——佐證 T2 高訊號與好發年齡。
+[^3]: *Paraganglioma*. Radiopaedia.org（rID 1843, DOI 10.53347/rID-1843；經實際查證 accessed 2026-07-10）：關聯之遺傳症候群列為 **SDH 突變、VHL（von Hippel-Lindau）、RET（MEN2A）、NF1（neurofibromatosis type 1）、MAX（MEN5）、Carney-Stratakis/Carney triad**；VHL 與 NF1 更常與 pheochromocytoma 關聯；SDHB 與交感型副神經節瘤及較高惡性風險相關——**未列 Wiskott-Aldrich**。
+[^4]: **Tier 1** Al-Kinani M, Abbara S, Young P. *Paraganglioma*（Cardiac, Dx, updated 12/27/24）STATdx, Elsevier（經奇美 EZproxy 實際查證 accessed 2026-07-10）：genetics＝**1/4–1/3 為家族性，SDHx 突變／von Hippel-Lindau disease／multiple endocrine neoplasia 2**；T2 light-bulb 高訊號、flow voids、明顯強化、Ga-68 DOTATATE 高攝取——佐證 MEN2、VHL、SDHx 關聯，Wiskott-Aldrich 非關聯。
 
 ## 題目
 > [!question]- Which statement of extraadrenal paraganglioma is wrong? (2017-312)
 > **B 為偽**——Carney triad 正確組成為 **gastric GIST**（非泛指一般消化道基質瘤）、pulmonary chondroma、extra-adrenal paraganglioma。多數於 40-50 歲診斷、T2 高訊號、好發 Zuckerkandl 器官皆為真。[^1][^2]
+
+> [!question]- Paragangliomas are often associated with all the following syndromes EXCEPT: (2022-497)
+> **D（關鍵）Wiskott-Aldrich syndrome 為例外**。副神經節瘤常見關聯症候群為 A Multiple endocrine neoplasia（MEN2）、B Von Hippel-Lindau、C Carney（triad/Stratakis），另含 NF1、SDHx。Wiskott-Aldrich（X-linked 免疫缺乏＋濕疹＋血小板減少）與副神經節瘤無關。→ [[extraadrenal-paraganglioma]]。[^3][^4]
 
 ## 考題
 ```dataview
