@@ -52,6 +52,7 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: **Tier 1** To'o K, Fan RE. *Prostate*（Ultrasound, Pelvis, Anatomy）. STATdx，last updated 2021-07-01. Elsevier（實際查證 accessed 2026-07-03，7 references）：McNeal 分區 PZ(~70% 腺體、後外側、癌 70–75%)/TZ(~25%、BPH 主源、癌 20–25%)/CZ(~5–10%、環射精管、癌<5%)/periurethral(<1%、BPH)/AFS(非腺體、可達 1/3 質量)；**capsule 為濃縮纖維肌肉帶非真被膜、基部缺如尖部界線不清**；**pseudocapsule/surgical capsule＝TZ-PZ 交界受壓組織、corpora amylacea 鈣化 highlight**；癌分布 75% PZ/20% TZ/5% CZ、BPH 壓迫 CZ/PZ；EPE 徵象 NVB 不對稱/rectoprostatic angle 消失/輪廓突出；PZ 較內腺回音高、80% PZ 癌低回音；體積 W×H×L×0.523、>40 g 腫大。
 [^2]: 官方 2020 詳解（題目所引）；原引 *MR Imaging of Prostate Zonal Anatomy*. Radiol Clin North Am 2018;56:197-209——「prostate capsule」為部分包覆之外層薄暗環（前方尖部不完整）、非真被膜；TZ-PZ 交界之帶稱假被膜（pseudocapsule/surgical capsule），組織學亦無真被膜，已由 [^1] STATdx 一手來源查核並補強分區腺體比例、癌分布與 EPE 判讀。
+[^3]: *Prostate*. Radiopaedia.org（rID-26055；經實際查證 accessed 2026-07-09）：Zonal anatomy 段載明「Benign prostatic hypertrophy occurs in the transition zone」「The majority (70%) of prostatic tumors occur in the peripheral zone」「About 20% of prostatic cancers come from transition zone」，佐證 BPH 好發移行區、前列腺癌好發周邊區之考點。
 
 ## 題目
 > [!question]- Benign prostatic hypertrophy involves which portion of the prostate gland? (2020-246)
@@ -59,6 +60,12 @@ dateRev: 2026-07-03
 
 > [!question]- About prostate zonal anatomy, which of the following is wrong? (2020-400)
 > **TZ-PZ 交界帶狀構造被稱為「prostate capsule」（B）為錯誤**——正確名稱為假被膜（pseudocapsule／surgical capsule）；「prostate capsule」實指外層濃縮纖維肌肉帶（非真被膜），為不同構造。[^2]
+
+> [!question]- Benign prostatic hyperplasia classically develops from which of the following regions of the prostate? (2022-481)
+> **B. Transition zone（關鍵）**——BPH 典型起源於移行區（transition zone）與尿道周圍腺體，並壓迫周邊區；與前列腺癌好發之周邊區（約 70–75%）不同。[^1][^3]
+
+> [!question]- Which zone do most prostate cancers occur? (2022-482)
+> **C. Peripheral zone（關鍵）**——約 70–75% 前列腺癌起源於周邊區（Radiopaedia：majority 70% 於 PZ；約 20% 於 TZ）；移行區為 BPH 而非多數癌之好發區。[^1][^3]
 
 ## 考題
 ```dataview

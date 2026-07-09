@@ -15122,6 +15122,273 @@
         "gist-imaging"
       ],
       "checked": false
+    },
+    {
+      "id": "2022-477",
+      "year": 2022,
+      "number": 477,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is the most common gastric cancer?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Gastrointestinal stromal tumor"
+        },
+        {
+          "letter": "B",
+          "text": "Adenocarcinoma"
+        },
+        {
+          "letter": "C",
+          "text": "Gastric lymphoma"
+        },
+        {
+          "letter": "D",
+          "text": "Carcinoid tumor"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[gastric-adenocarcinoma]]（Radiopaedia + STATdx《Gastric Carcinoma and GIST》Tier-1）",
+      "explanation": "胃惡性腫瘤中腺癌（adenocarcinoma）約佔 80–90%，遠多於 GIST、gastric lymphoma（約 5%）與 carcinoid；GIST 雖為最常見之間葉腫瘤，整體佔比仍遠低於腺癌，故最常見的胃癌為腺癌。→ [[gastric-adenocarcinoma]]",
+      "images": [],
+      "concepts": [
+        "gastric-adenocarcinoma"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-478",
+      "year": 2022,
+      "number": 478,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Approximately half of all cases of large bowel obstruction are related to colon cancer. Approximately what percentage of people with colon cancer will develop obstruction?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "5%"
+        },
+        {
+          "letter": "B",
+          "text": "20%"
+        },
+        {
+          "letter": "C",
+          "text": "45%"
+        },
+        {
+          "letter": "D",
+          "text": "60%"
+        },
+        {
+          "letter": "E",
+          "text": "80%"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[colorectal-cancer-obstruction]]（Radiopaedia《Large bowel obstruction》＋ STATdx《Colon Carcinoma》Tier-1）",
+      "explanation": "⚠️ 匯入題原始答案標記不一致（選項 A「5%」內文標 correct，但 answer 欄標 E「80%」）。大腸癌為大腸阻塞最常見病因（約佔 50–60%，即題幹「約半數」之來源）；但反過來只有少數大腸癌會發生阻塞，臨床外科文獻多引約 10–20%（範圍約 8–29%）。5% 偏低（接近穿孔比例）、80% 顯然過高（近似反向比例），依文獻校正為 20%（B）。→ [[colorectal-cancer-obstruction]]",
+      "images": [],
+      "concepts": [
+        "colorectal-cancer-obstruction"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-479",
+      "year": 2022,
+      "number": 479,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "What is a likely cause of medullary nephrocalcinosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Vesicoureteral reflux"
+        },
+        {
+          "letter": "B",
+          "text": "Diuretic use"
+        },
+        {
+          "letter": "C",
+          "text": "Dehydration"
+        },
+        {
+          "letter": "D",
+          "text": "Infarction"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[medullary-nephrocalcinosis]]（Radiopaedia rID-9913 ＋ STATdx《Nephrocalcinosis》Tier-1）",
+      "explanation": "利尿劑（furosemide 過度使用、acetazolamide、triamterene 等）為髓質腎鈣質沉著之公認藥物成因，與副甲狀腺功能亢進、遠端(第一型)腎小管酸化障礙、海綿腎並列典型成因；vesicoureteral reflux、單純脫水（僅致椎體暫時性高衰減之正常變異）與梗塞皆非典型成因。matched_concept 原指 medullary-sponge-kidney（僅為其中一個成因），本題主題為髓質腎鈣質沉著，故另建正確概念。→ [[medullary-nephrocalcinosis]]",
+      "images": [],
+      "concepts": [
+        "medullary-nephrocalcinosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-480",
+      "year": 2022,
+      "number": 480,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which choice best localizes the calcification of Medullary nephrocalcinosis?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Renal cortex"
+        },
+        {
+          "letter": "B",
+          "text": "Renal pyramids and medulla"
+        },
+        {
+          "letter": "C",
+          "text": "Renal calyces"
+        },
+        {
+          "letter": "D",
+          "text": "Renal pelvis"
+        },
+        {
+          "letter": "E",
+          "text": "Renal vasculature"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[medullary-nephrocalcinosis]]（Radiopaedia rID-9913 ＋ STATdx《Nephrocalcinosis》Tier-1）",
+      "explanation": "顧名思義，髓質腎鈣質沉著之鈣化位於腎髓質／腎椎體（renal pyramids and medulla）；髓質型佔腎鈣質沉著約 95%、皮質型僅約 5%。並非位於皮質、腎盞、腎盂或腎血管。→ [[medullary-nephrocalcinosis]]",
+      "images": [],
+      "concepts": [
+        "medullary-nephrocalcinosis"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-481",
+      "year": 2022,
+      "number": 481,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Benign prostatic hyperplasia classically develops from which of the following regions of the prostate?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central zone"
+        },
+        {
+          "letter": "B",
+          "text": "Transition zone"
+        },
+        {
+          "letter": "C",
+          "text": "Peripheral zone"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[prostate-zonal-anatomy]]（Radiopaedia rID-26055 ＋ STATdx《Prostate》Tier-1）",
+      "explanation": "良性攝護腺增生（BPH）典型起源於移行區（transition zone）與尿道周圍腺體，並壓迫周邊區與中央區；與前列腺癌好發之周邊區（約 70–75%）不同，故答案為移行區。→ [[prostate-zonal-anatomy]]",
+      "images": [],
+      "concepts": [
+        "prostate-zonal-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-482",
+      "year": 2022,
+      "number": 482,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which zone do most prostate cancers occur?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Central zone"
+        },
+        {
+          "letter": "B",
+          "text": "Transition zone"
+        },
+        {
+          "letter": "C",
+          "text": "Peripheral zone"
+        },
+        {
+          "letter": "D",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "C",
+      "reference": "詳見 [[prostate-zonal-anatomy]]（Radiopaedia rID-26055 ＋ STATdx《Prostate》Tier-1）",
+      "explanation": "約 70–75% 的前列腺癌起源於周邊區（peripheral zone）（Radiopaedia：多數 70% 於 PZ、約 20% 於 TZ、<5% 於 CZ）；移行區為 BPH 之好發區而非多數癌，故答案為周邊區。→ [[prostate-zonal-anatomy]]",
+      "images": [],
+      "concepts": [
+        "prostate-zonal-anatomy"
+      ],
+      "checked": false
+    },
+    {
+      "id": "2022-483",
+      "year": 2022,
+      "number": 483,
+      "years": [
+        2022
+      ],
+      "subspecialty": "ABD",
+      "subspecialty_confidence": "auto",
+      "questionText": "Which of the following arteries most commonly serves as an origin of the prostatic artery?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Iliolumbar"
+        },
+        {
+          "letter": "B",
+          "text": "Internal pudendal"
+        },
+        {
+          "letter": "C",
+          "text": "Lateral sacral"
+        },
+        {
+          "letter": "D",
+          "text": "Inferior vesical"
+        }
+      ],
+      "correctAnswer": "B",
+      "reference": "詳見 [[prostatic-artery-embolization]]（Radiopaedia rID-30831 ＋ de Assis 2015 CVIR 骨盆血管分類 Tier-1）",
+      "explanation": "依 PAE 血管攝影解剖分類（de Assis 2015, CVIR），攝護腺動脈最常見的起源為內陰部動脈（internal pudendal artery）；iliolumbar、lateral sacral、inferior vesical 皆較少見（inferior vesical 為古典解剖教科書答案，但血管攝影上以內陰部動脈起源最常見）。→ [[prostatic-artery-embolization]]",
+      "images": [],
+      "concepts": [
+        "prostatic-artery-embolization"
+      ],
+      "checked": false
     }
   ]
 }

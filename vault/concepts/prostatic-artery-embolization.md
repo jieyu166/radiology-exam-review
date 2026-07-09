@@ -13,6 +13,7 @@ dateRev: 2026-07-02
 **PAE 治療 BPH 的預後良好因子包括：術後24小時 CRP 升高、PSA 升高（代表缺血壞死程度大）、較大攝護腺體積、雙側栓塞。Unilateral embolization 效果不如 bilateral。**
 
 ## Summary
+- **攝護腺動脈起源（PAE 導管路徑重點）**：攝護腺動脈於骨盆兩側以單一或成對血管發出；血管攝影分類（de Assis 2015）中，**最常見的起源為 internal pudendal artery（內陰部動脈）**，其次為 common gluteal-pudendal trunk、superior vesical artery 等——故本題答案為 internal pudendal。[^3][^4]
 - **Bilateral embolization** 效果優於 unilateral [^1]
 - 術後 24h CRP 升高 = 良好 ischemic response [^1]
 - 術後 24h PSA 升高 = 攝護腺壞死充分 [^1]
@@ -34,6 +35,12 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Young S, Golzarian J. *Prostatic artery embolization for benign prostatic hyperplasia: a review*. Curr Opin Urol 2018;28(3):284-287（據 PubMed，DOI [10.1097/MOU.0000000000000495](https://doi.org/10.1097/MOU.0000000000000495)；實際查證 accessed 2026-07-04）——回顧 PAE 治療 BPH 之臨床結果（IPSS、生活品質、尿流率、殘尿、攝護腺體積縮小）與低併發症率，指出對大攝護腺亦有良好療效，惟現有證據多為回顧性、長期耐久性待驗證。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: *Prostatic artery embolization*. Radiopaedia.org（rID-30831；經實際查證 accessed 2026-07-09）：攝護腺由攝護腺動脈供血，於骨盆兩側以單一或成對血管發出；PAE 經單側股總動脈穿刺、超選擇栓塞攝護腺動脈致腺體缺血壞死與萎縮以改善 LUTS。
+[^4]: **Tier 1** de Assis AM, Moreira AM, de Paula Rodrigues VC, et al. *Pelvic arterial anatomy relevant to prostatic artery embolisation and proposal for angiographic classification*. Cardiovasc Intervent Radiol 2015;38(4):855-861（本題所引之 IR 血管解剖一手文獻）：以骨盆側別分析攝護腺動脈起源並提出血管攝影分類，**最常見的起源為 internal pudendal artery（內陰部動脈）**，佐證本題答案。
+
+## 題目
+> [!question]- Which of the following arteries most commonly serves as an origin of the prostatic artery? (2022-483)
+> **B. Internal pudendal（關鍵）**——依 PAE 血管攝影解剖（de Assis 2015 分類），攝護腺動脈最常見的起源為內陰部動脈（internal pudendal artery）；iliolumbar、lateral sacral、inferior vesical 皆較少見（inferior vesical 為古典解剖教科書之答案，但血管攝影上內陰部動脈起源最常見）。[^3][^4]
 
 ## 考題
 ```dataview
