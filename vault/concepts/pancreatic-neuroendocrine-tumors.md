@@ -17,7 +17,7 @@ dateRev: 2026-06-29
 
 ## Summary
 - **功能性 NET**：[^1]
-  - **Insulinoma**：**最常見的功能性/亢進性 NET**;Whipple triad;多小、富血管、良性居多。
+  - **Insulinoma**：**最常見的功能性/亢進性 NET**; Whipple triad; 多小、富血管、良性居多。
   - **Gastrinoma**：第二常見;**Zollinger-Ellison 症候群**;**60–80% 惡性**;十二指腸/胰頭 gastrinoma triangle。
   - Glucagonoma（4D）、VIPoma（WDHA：watery diarrhea、hypokalemia、achlorhydria）。
 - **Non-functioning**：**常較大、晚發現**,易壞死/囊變/鈣化。[^1]
