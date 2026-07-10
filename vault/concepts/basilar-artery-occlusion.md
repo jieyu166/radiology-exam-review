@@ -6,7 +6,7 @@ aliases:
   - BAO
   - basilar artery thrombosis
   - 基底動脈阻塞
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # basilar-artery-occlusion
@@ -18,6 +18,7 @@ dateRev: 2026-07-04
 - 阻塞好發於基底動脈**近端節（proximal segment）**，亞洲族群病因以**顱內動脈粥樣硬化狹窄（ICAS）**為主，非單純心源性栓塞。[^2]
 - 基底動脈之穿通枝（paramedian/thalamoperforators）供應中腦、橋腦與丘腦，故 BAO 可造成**雙側丘腦梗塞**與 top-of-the-basilar 症候群。[^1]
 - 治療核心為血管內取栓（endovascular thrombectomy），ATTENTION 試驗顯示取栓相較單純內科治療改善預後。[^1]
+- **取栓後預後依病因/機轉分層**：**栓塞且無椎動脈狹窄阻塞（embolism without VA steno-occlusion）取栓後再通率與臨床預後最佳**（Baik 2019：成功再通 ~85%、mRS 0–2 良好結局 ~53%），優於合併 **tandem 椎動脈狹窄阻塞之栓塞**、及**原位動脈粥樣硬化血栓（in situ atherosclerotic thrombosis）**（再通 ~55%、良好結局 ~20%，常需血管成形/支架）；良好結局定義 **mRS 0–2**、不良 3–6。[^3][^4]
 
 ## 放射科醫師影像判讀重點
 - **CT/CTA 為急性期首選**：非顯影 CT 可見 hyperdense basilar artery sign；CTA/MRA 直接顯示阻塞節段與側枝，並評估 ICAS。[^2]
@@ -38,9 +39,15 @@ dateRev: 2026-07-04
 ### 參考來源
 [^1]: 據 PubMed，Tao C, et al. Trial of Endovascular Treatment of Acute Basilar-Artery Occlusion (ATTENTION). N Engl J Med. 2022. [DOI](https://doi.org/10.1056/NEJMoa2206317)。
 [^2]: 據 PubMed，Nguyen TN, et al. Endovascular thrombectomy for basilar artery occlusion: translating research findings into clinical practice. Lancet Neurol. 2022. [DOI](https://doi.org/10.1016/S1474-4422(22)00483-5)。
+[^3]: **Tier 1** Baik SH, Park HJ, Kim JH, Jang CK, Kim BM, Kim DJ. *Mechanical Thrombectomy in Subtypes of Basilar Artery Occlusion: Relationship to Recanalization Rate and Clinical Outcome.* Radiology. 2019;291(3):730–737. DOI [10.1148/radiol.2019181924](https://doi.org/10.1148/radiol.2019181924)（PMID 30912720；實際查證 accessed 2026-07-10）。82 例急性 BAO 取栓，依機轉分三組：Group 1 embolism without VA steno-occlusion 成功再通 85%／good outcome(mRS 0–2) 53%；Group 3 in situ atherosclerotic thrombosis 再通 55%／good outcome 20%。結論：取栓預後隨中風機轉不同，**最佳預後與再通率為 embolism without VA steno-occlusion**。good outcome 定義 mRS 0–2、poor 3–6。
+[^4]: *Acute basilar artery occlusion*. Radiopaedia.org, rID-971, DOI [10.53347/rID-971](https://doi.org/10.53347/rID-971)（accessed 2026-07-10，輔助來源）——病因機轉含 thromboembolism（cardioembolic）、atherosclerosis with thrombosis、intracranial dissection 蔓延；distal/basilar tip 為最常見阻塞部位（thromboembolic），近端 vertebrobasilar junction 可為 cardioembolic 或 atherosclerotic with thrombosis。
 
 > [!question]- Regarding basilar artery occlusion, which of the following is correct? (2019-328)
 > **D. All of the above.** BAO 近端節阻塞最常見、可致雙側丘腦梗塞、與 ICAS 相關皆正確。[^1][^2]
+
+> [!question]- Which has better clinical outcome after mechanical thrombectomy of basilar artery occlusion? (2021-311)
+> **A（Embolism without vertebral artery steno-occlusion）**——栓塞且無椎動脈狹窄阻塞者取栓後再通率與臨床預後最佳（成功再通 ~85%、mRS 0–2 良好結局 ~53%）；優於 B（合併 tandem 椎動脈狹窄之栓塞）與 C（in situ 動脈粥樣硬化血栓，~55% 再通、~20% 良好結局，常需血管成形/支架），故非 D（以上皆是）。良好結局定義 mRS 0–2、不良 3–6。[^3][^4]
+> ⚠️ 本題官方詳解含影像（PDF 第 289 頁），影像尚未匯入，判讀請對照原檔。
 
 ## 考題
 ```dataview

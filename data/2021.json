@@ -119,7 +119,9 @@
       "reference": "Radiographics 2020; 40:326-335.；2021 交換考官方詳解 PDF p165",
       "explanation": "Mammographic lesions that most often appear as nonmass findings on US images include calcifications, a focal or developing asymmetry, and architectural distortion.\n[[2020 RG Nonmass Findings at Breast US - Definition, Classifications, and Differential Diagnosis.pdf]]\n\n\n## Adenopathy, lymph node\n\n【2021 官方詳解】\nMammographic lesions that most often appear as nonmass findings on US images include calcifications, a focal or developing asymmetry, and architectural distortion.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-asymmetry"
+      ],
       "checked": false,
       "sourcePage2021": 165
     },
@@ -191,7 +193,9 @@
       "reference": "Diagnostic Imaging: Breast E-Book P219；2021 交換考官方詳解 PDF p87",
       "explanation": "要biopsy就是4以上\n- B. Screening  Echo 做完可直接下 BIRADS 3 診斷，但 Screening  Mammo 不行。原因是如果Echo 有看到東西 ，通常在同一次就會做Mammo. (BIRADS 敘述的邏輯)\n- D. Screening mammography不可直接下BIRADS 3，需診斷mammo才行(小陳主任, after workup)\n\n【2021 官方詳解】\nC. An increase of 20% or more in the longest dimension of a probably benign solid mass within 6 months may prompt biopsy.\nScreening Echo 做完可以直接下 BiRADS 3 診斷, 但 Screening Mammo 不行. 原因是如果Echo有看到東西，通常在同一次就會做Mammo. (BiRADS 敘述的邏輯)\nACR BI-RADS Atlas Reporting System for Breast Ultrasound",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
       "checked": false,
       "sourcePage2021": 87
     },
@@ -1122,7 +1126,9 @@
       "reference": "",
       "explanation": "Cronin and coworkers:  RSPV: 17.6 mm; LSPV 16.6 mm, RIPV 17.1 mm, LIPV 14.8 mm\nRSPV: RUL+RML\nLSPV: LUL\n- Common trunk variant: left more common\n- Accessory vein: separate RMPV, LMPV for RML/lingula",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-vein-anatomy"
+      ],
       "checked": false
     },
     {
@@ -1273,7 +1279,9 @@
       "images": [
         "2021-033-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "acaos"
+      ],
       "checked": false,
       "sourcePage2021": 18
     },
@@ -4353,7 +4361,9 @@
       "reference": "Primer of Diagnostic Imaging, p. 870；2021 交換考官方詳解 PDF p49",
       "explanation": "【2021 官方詳解】\nA. It occurs more often on the right side.\nIncidence of adrenal hemorrhage most commonly (~70%) occurs on the right side because anatomically, the right adrenal gland is located between the liver and spine and thus, can result in its compression. Moreover, the right adrenal vein drains into the inferior vena cava and its compression can induce venous pressure changes.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-imaging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳宛蘋",
@@ -4506,7 +4516,9 @@
       "images": [
         "2021-116-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "bone-lesion-sclerotic-border"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林宇旌",
@@ -6132,7 +6144,9 @@
       "reference": "Semin Roentgenol . 2008 Apr;43(2):154-66. doi: 10.1053/j.ro.2008.01.010.；10.1053/j.ro.2008.01.010.；2021 交換考官方詳解 PDF p112",
       "explanation": "【2021 官方詳解】\nPulmonary Vein and Left Atrium Anatomy (Two superior two inferior)\nRight superior vein: RUL + RML\nLeft superior vein: LUL (+lingual)\nInferior vein: lower lobes\nLargest: right superior pulmonary vein\nCronin and coworkers: RSPV: ostia was 17.6 mm; the LSPV ostia was 16.6 mm, compared with 17.1 mm for the RIPV ostia, and 14.8 mm for theLIPV\nVariant:\nCommon trunk (left more common)\nAccessory vein (Right: separate RMPV, LMPV for lingula )",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-vein-anatomy"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳美翰",
@@ -7577,7 +7591,9 @@
       "reference": "Hypertension. 2014;63:151-160；2021 交換考官方詳解 PDF p151",
       "explanation": "【2021 官方詳解】\nD: Hypokalemia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-adenoma"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "鄭華銘",
@@ -10321,7 +10337,9 @@
       "reference": "Pitfalls in MRI of the Developing Pediatric Ankle. Radiographics. Nov 20 2020.；2021 交換考官方詳解 PDF p233",
       "explanation": "【2021 官方詳解】\n(A) Intrinsic moderate T2-weighted or short τ inversion-recovery (STIR) hyperintensity of the\ncartilaginous precursors should be recognized as normal. In the ankle, the medial malleolus and calcaneus are common locations for normal, sometimes intense, increased precursor signal.\n(B) Preossification centers about the ankle are seen most often within the medial malleolus, calcaneal apophysis, and navicular cartilaginous precursors.\n(C) ????",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-ankle-ossification-mri"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "黃新傑",
@@ -10357,7 +10375,9 @@
       "reference": "Pitfalls in MRI of the Developing Pediatric Ankle. Radiographics. Nov 20 2020.；2021 交換考官方詳解 PDF p234",
       "explanation": "【2021 官方詳解】\n(A) The tibial and fibular diaphyseal ossification centers are partially ossified in the prenatal period (by approximately 7–9 weeks in utero), as are the calcaneus (3 monthsin utero) and talus (6 months in utero). Therefore, these centers are visualized radiographically from birth.\n(B) On MR images, normal primary ossification centers are predominantly T1 hyperintense and\nare hypointense with STIR and fat-suppressed T2-weighted sequences, corresponding to yellow marrow signal intensity. . Early on, secondary ossification centers may demonstrate low T1-weighted and high T2-weighted or STIR signal intensity, distinct from the background of the cartilage precursor, and reflect red marrow composition.\n(C) In children, normal primary ossification centers can have inhomogeneous marrow signal intensity, with multiple foci of rounded T2-weighted or STIR hyperintensities, creating a starry sky appearance.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-ankle-ossification-mri"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "黃新傑",
@@ -12124,7 +12144,9 @@
       "images": [
         "2021-311-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "basilar-artery-occlusion"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "傅瑞勛",
@@ -14238,7 +14260,9 @@
       "reference": "Radiographics. 2020 Oct;40(6):1686-1714.；2021 交換考官方詳解 PDF p385",
       "explanation": "【2021 官方詳解】\nC.\nDiagnosis of root avulsion hinges on findings of spinal nerve discontinuity near the rootlet-cord interface or the presence of a pseudomeningocele, implying meningeal rupture.\nCT myelography performed 3–4 weeks after injury is recommended, as this allows any potential\nhemorrhagic material at the site of injury that might displace the contrast material to disappear.\nPseudomeningoceles, which are strongly associated with root avulsion, may take 3–4\nweeks to develop after injury as well.\nMRI should be performed 3–4 weeks after injury for similar reasons and to allow improvement in adjacent\nsoft-tissue edema.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "brachial-plexus-anatomy"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳嘉紘醫師",

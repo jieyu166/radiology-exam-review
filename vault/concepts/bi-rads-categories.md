@@ -27,6 +27,8 @@ dateRev: 2026-07-10
 - **category 0 是「流程未完成」不是機率**：篩檢片見疑點須加做 spot compression／magnification／超音波或調舊片比對；診斷性檢查完成後不可再給 0，須落地到 1–5。[^1][^3]
 - **哪些影像「合格」當 category 3（≤2%）是核心考點**：乳攝——無鈣化且邊緣清晰的實質腫塊、成簇圓形／點狀鈣化、無可疑特徵之局部不對稱；超音波——**oval（非 round）**、circumscribed、parallel 之實質腫塊、孤立 complicated cyst、群聚微囊腫；須先完成完整診斷性檢查才可下 category 3。[^2][^4][^5]
 - **切片門檻在 2% 與 95%**：跨過 2% 即由追蹤改為切片（進 4，細分 4a 2–9%／4b 10–49%／4c 50–94%）；達 95% 為 category 5（切片＋接續外科／治療規劃）。[^1][^2]
+- **追蹤中「成長」即改切片的閾值＝最長徑 6 個月內增加 ≥20%（非 ≥30%）**：probably benign 之邊界清晰實質腫塊，若短期追蹤 6 個月內**最長徑增加 ≥20%**（年化約 44%）或出現其他可疑特徵，即應由追蹤改為切片。此 20% 閾值是常見考點陷阱（勿誤記為 30%）。[^2]
+- **篩檢下能否直接給 category 3？超音波可、乳房攝影不可**：**超音波篩檢**見典型 probably benign 病灶可**直接下 BI-RADS 3**（若同次已加做乳攝定性）；但**篩檢乳房攝影不可直接下 category 3，須先完成診斷性 workup**（spot compression／放大／targeted US）再定性，特定病灶完成 workup 後才可於基線乳攝歸 category 3。[^2][^3]
 - **不該用 category 3 的情境**：純篩檢未完成診斷評估、可觸及病灶或臨床有疑慮、高風險族群（BRCA、懷孕哺乳）、或任何具可疑特徵者——後者應直接進 category 4。[^2]
 - **MRI 的 category 3 特別受限**：NME 目前證據不足支持 category 3（多數研究惡性率 >2%）；MRI 應與 mammography／US 對照，既有穩定對應病灶可免不必要之 6 個月追蹤 MRI。[^2]
 - **判讀陷阱**：category 3 的機率是 **≤2%**（非 ≤3%）；短期追蹤遵從度臨床偏低，且 category 3 之癌症多於 6 或 12 個月即被診出，故前兩次追蹤最關鍵。[^1][^2]
@@ -55,12 +57,15 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: ACR BI-RADS Atlas 5th ed.（2013）——最終評估分類 0–6 與惡性機率區間（4a >2–10%、4b >10–50%、4c >50–<95%、5 ≥95%）。依摘要／參考卡未讀全文章節。
-[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03；Free Access 文章）** Fazeli S, Stepenosky J, Guirguis MS, et al. *Understanding BI-RADS Category 3*. RadioGraphics. 2024;45(1). https://doi.org/10.1148/rg.240169。category 3 定義（≤2%）、合格影像表現、6/12/24 個月（部分 18 個月、可延 36 個月）追蹤排程、不適用情境；**短期追蹤遵從度偏低（DMIST 29%、Berg 6 個月 72.5%），癌症多於 6/12 個月即診出**；**MRI 之 NME 目前證據不足以支持 category 3（多數研究惡性率 >2%）**，僅 focal/regional 分布＋均質內部強化＋persistent kinetics 較不可疑者或可考慮；MRI 應與 mammography/US 對照，既有穩定對應病灶可免不必要之 6 個月追蹤 MRI。
+[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03；Free Access 文章）** Fazeli S, Stepenosky J, Guirguis MS, et al. *Understanding BI-RADS Category 3*. RadioGraphics. 2024;45(1). https://doi.org/10.1148/rg.240169。category 3 定義（≤2%）、合格影像表現、6/12/24 個月（部分 18 個月、可延 36 個月）追蹤排程、不適用情境；**短期追蹤遵從度偏低（DMIST 29%、Berg 6 個月 72.5%），癌症多於 6/12 個月即診出**；**追蹤中 probably benign 實質腫塊最長徑 6 個月內增加 >20%（年化約 44%）或出現可疑特徵即應切片（accessed 2026-07-10 再核）**；**MRI 之 NME 目前證據不足以支持 category 3（多數研究惡性率 >2%）**，僅 focal/regional 分布＋均質內部強化＋persistent kinetics 較不可疑者或可考慮；MRI 應與 mammography/US 對照，既有穩定對應病灶可免不必要之 6 個月追蹤 MRI。
 [^3]: *Breast Imaging Reporting and Data System (BI-RADS)*. StatPearls, NCBI Bookshelf. https://www.ncbi.nlm.nih.gov/books/NBK459169/ ——分類 0–6 定義與各級處置（常規篩檢／切片／治療規劃），category 0 須加做影像或調舊片。開放全文已讀。
 [^4]: *BI-RADS*. Radiopaedia.org（accessed 2026-06-30）：「BI-RADS 3: probably benign **<2%**;BI-RADS 4: 2–95%（4A 2–9%、4B 10–49%、4C 50–94%）;BI-RADS 5: **>95%**」。輔助來源。
 [^5]: 2019 交換考詳解；ACR BI-RADS Atlas 2013 Ultrasound p.140：category 3 合格超音波表現含 oval、circumscribed、parallel 之實質腫塊、孤立複雜囊腫、群聚微囊腫；round shape 之實質腫塊不列入合格描述。
 
 ## 題目
+> [!question]- Which one of the following managements about probably benign (BIRADS 3) lesions is **not true**? (2021-005)
+> **C 為非**——邊界清晰之 probably benign 實質腫塊，應在 6 個月內**最長徑增加 ≥20%**（非 C 所述之 ≥30%）或出現其他可疑特徵時才考慮切片；C 誤植為 ≥30%。A（BI-RADS 3 定義為 ≤2% 惡性之特定病灶類型）、B（超音波篩檢可直接下 BI-RADS 3）、D（特定病灶於基線乳攝完成 workup 後可歸 category 3）皆正確。[^2][^3]
+
 > [!question]- According to BI-RADS 5th edition, which of the following descriptions about BI-RADS categories is true? (2022-260)
 > ⚠️ 選項 OCR 錯位、暫依來源答案 C；每份報告須給 0–6 最終評估分類並對應處置，分類亦適用於男性乳攝。[^3]
 

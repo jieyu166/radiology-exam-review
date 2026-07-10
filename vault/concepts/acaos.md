@@ -6,8 +6,9 @@ aliases:
   - ACAOS
   - anomalous origin coronary artery
   - interarterial course sudden cardiac death
+  - hammock sign transseptal coronary
   - 冠狀動脈對側竇起源異常
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # acaos
@@ -16,6 +17,10 @@ dateRev: 2026-07-02
 
 ## Summary
 - **四種走行路徑**：ACAOS可經以下路徑到達其供應之心肌區域：**interarterial（動脈間）、transseptal（或稱subpulmonic，經隔膜/肺動脈瓣下）、retroaortic（主動脈後）、prepulmonic（肺動脈前）**。[^1]
+- **hammock sign 屬 transseptal（subpulmonic）而非 interarterial（2021-033 考點）**：異常冠狀動脈**向下走行、經室間隔並位於 crista supraventricularis（室上嵴）／肺動脈瓣下、RVOT 層面**之型態（俗稱 hammock/吊床樣下垂走行）屬 **transseptal（subpulmonic）variant**，非 interarterial course——故「hammock sign 位於 interarterial course」為錯誤敘述。transseptal 屬良性走行，需與惡性的 interarterial 區別；其線索為近端發出 septal perforator 分支。[^1][^7]
+- **transseptal 屬良性、無 slit-like/oblong 開口**：oblong／slit-like（裂縫狀）開口與 acute take-off、intramural segment 同屬**惡性 interarterial/intramural 走行**之高風險形態；transseptal 等良性走行**不具**此裂縫狀開口。[^7]
+- **prepulmonic 走行好發於法洛四聯症（TOF）**：橫越 RVOT 的 prepulmonic 冠狀動脈（最常見為 LAD 起自 RCA／右竇）是 TOF 最常見的冠狀動脈變異（約 5–6%），術前 CTA 須標明以免手術傷及橫跨 RVOT 之血管。[^8]
+- **ALCAPA 為新生兒巨大心臟之鑑別**：左冠狀動脈起自肺動脈（ALCAPA／Bland-White-Garland）因整個冠狀系統擴大扭曲，是新生兒期巨大心臟（massive cardiomegaly）之典型鑑別診斷之一（見 [[alcapa-bland-white-garland]]）。[^1][^7]
 - **與猝死最一致相關之異常**：**interarterial course**（尤其合併**intramural segment，管壁內走行段**）是與猝死(SCD)最一致相關之解剖異常。[^1][^2]
 - **左右側發生率與猝死關聯性之反直覺對比**：**右側ACAOS發生率約為左側的3倍**（右側較常見），但**左側ACAOS與猝死之關聯性較強**（右側關聯性較弱）——即「右側ACAOS較常見於SCD比左側更相關」為錯誤敘述，實際相反。[^2]
 - **高風險解剖特徵**：**裂縫狀開口(slitlike orifice)、起源處銳角(acute angle of origin)、管壁內走行段(intramural segment)**皆為賦予較高猝死風險之解剖特徵。[^1]
@@ -50,6 +55,8 @@ dateRev: 2026-07-02
 [^4]: 官方2020詳解；Ref: Computed Tomography of the Coronary Arteries, p.111（題目所引）——惡性冠狀動脈異常之典型定義為LM或RCA異常起源並經interarterial course走行；單一左冠狀動脈本身非此惡性異常定義範疇。
 [^5]: **Tier 1** Lim JCE, Beale A, Ramcharitar S. *Anomalous origination of a coronary artery from the opposite sinus*. Nat Rev Cardiol 2011;8(12):706-719（據 PubMed，DOI [10.1038/nrcardio.2011.147](https://doi.org/10.1038/nrcardio.2011.147)；實際查證 accessed 2026-07-04）——ACAOS 盛行率約 0.2–2.0%，多數無血流動力學意義，少數 interarterial course 者可致缺血與猝死；CTCA/MRA 可解剖描繪但無法量化 mural intussusception 等致缺血基本缺陷，須以 IVUS 與 FFR 補足；核心臨床挑戰為辨識猝死高風險者。此 DOI Tier 1 綜述補強原 [^2][^3] 之官方詳解/registry 轉引來源。
 [^6]: *Anomalous aortic origin of coronary artery*. Radiopaedia.org（rID 86107，DOI [10.53347/rID-86107](https://doi.org/10.53347/rID-86107)；實際查證 accessed 2026-07-06）：AAOCA 可表現為心絞痛、心悸、呼吸困難、頭暈；併發症包括**心肌缺血與猝死（sudden cardiac death）**；**interarterial（主動脈與肺動脈幹之間）走行為惡性/高風險型態**。補強「右冠狀動脈起源於左竇並走 interarterial 者，具心肌缺血/心律不整/心肌梗塞/猝死風險」。
+[^7]: **Tier 1** Canan A, Kligerman S, Abbara S. *Anomalous Coronary Origin From Opposite Sinus*（Cardiac, Dx）. STATdx, Elsevier（updated 2025-02-10；奇美 EZproxy 實際查證 accessed 2026-07-10）——五種走行：惡性 interarterial（主動脈與 PA 之間，可含 intramural）；良性 prepulmonary（PA 前）、transseptal/subpulmonic（經室間隔、肺動脈瓣下、RVOT 層面，最常見 LAD，需與 interarterial 區別，線索為發出 septal perforator）、retroaortic、retrocardiac。近端形態：oval（<50% 狹窄）、**slit-like（>50% 狹窄，高風險，常合併 intramural）**；acute take-off（<45°）為高風險。ALCAPA（Bland-White-Garland）通常兒童期發現、患側冠狀動脈擴大。
+[^8]: Loukas M 等相關文獻與 TOF 冠狀動脈 CT 系列（*J Clin Med* 2022;11(19):5500，PMC9570993；實際查證 accessed 2026-07-10）——TOF 病人中橫越 RVOT 之 prepulmonic 冠狀動脈走行約占 5.7%（為該族群最常見冠狀動脈變異之一），最常見為 **LAD 起自 RCA 或右竇並橫跨 RVOT**；術前 CTA 須標記以避免手術傷及跨越 RVOT 之血管。支持「prepulmonic 走行好發於 TOF」。
 
 ## 題目
 > [!question]- About anomalous origin of the coronary artery from the opposite sinus (ACAOS), which one is not correct? (2020-312)
@@ -63,6 +70,9 @@ dateRev: 2026-07-02
 
 > [!question]- Patient with anomalous right coronary artery arising from the left coronary cusp is at risk for which of the following? (2022-472)
 > **D. All of the above（關鍵）**——右冠狀動脈起源於左冠狀竇（R-ACAOS）時，若近端走 **interarterial course（於主動脈與肺動脈幹之間）**並常合併 intramural segment，運動時受壓可致心肌缺血，進而引發**心律不整（arrhythmia）、心肌梗塞（MI）與猝死（SCD）**——三者皆為其風險，故答案為「以上皆是」。此屬「惡性」冠狀動脈異常，非良性偶然發現。[^1][^5][^6]
+
+> [!question]- Which of the following statements is FALSE about anomalous origin of coronary artery? (2021-033)
+> **B（Artery courses downward, hammock sign, below the crista supraventricularis in interarterial course）——此為錯誤敘述**。向下走行、位於室上嵴（crista supraventricularis）下方／肺動脈瓣下之 hammock（吊床樣）型態屬 **transseptal（subpulmonic）variant**，非 interarterial course。其餘皆正確：(A) ALCAPA 為新生兒巨大心臟之鑑別診斷之一；(C) prepulmonic（橫越 RVOT）冠狀動脈好發於法洛四聯症（TOF）；(D) transseptal 走行「不具」oblong/slit-like 開口（裂縫狀開口屬惡性 interarterial/intramural 之高風險形態）。[^1][^7][^8]
 
 ## 考題
 ```dataview

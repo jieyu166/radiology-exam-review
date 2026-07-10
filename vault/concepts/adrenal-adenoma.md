@@ -4,7 +4,7 @@ subspecialty: [ABD, GU]
 aliases:
   - 腎上腺腺瘤
   - adrenal cortical adenoma
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 concepts: [adrenal-adenoma]
 up: "[[adrenal-imaging]]"
 ---
@@ -40,6 +40,17 @@ up: "[[adrenal-imaging]]"
 - 即使已知惡性的病人，偶發腎上腺病灶仍較可能是腺瘤而非轉移。[^1][^2]
 - 臨床或生化懷疑 pheochromocytoma 時**不應切片**，有誘發高血壓危象風險，應轉外科會診；必要時以 68Ga-DOTATATE 等分子影像確認。[^4]
 - 無症狀非功能腺瘤不需治療、預後極佳；功能性者以腹腔鏡腎上腺切除處置。[^2][^8]
+
+## 原發性高醛固酮症（Conn）診斷流程（2021-195）
+> [!info] 為何放射科要懂：CT 定性只是流程一環，AVS 才是分型與能否開刀的關鍵
+- **臨床線索**：原發性高醛固酮症典型為舒張性高血壓、代謝性鹼中毒、**低血鉀（hypokalemia）**——低血鉀常是最早線索（並非高血鉀）。[^11] 好發族群含年輕（<20 歲）高血壓、頑固性／難治性高血壓、高血壓合併自發性或利尿劑誘發之低血鉀者。
+- **篩檢**：血漿醛固酮濃度（PAC）與血漿腎素活性（PRA）之比值 **ARR（aldosterone-to-renin ratio）**；原發者醛固酮升高、**腎素低下（suppressed）**，故 ARR 升高。[^11] 本題採用之切點為 **ARR > 30 ng/dl per ng/ml/hr**（常搭配醛固酮絕對值升高；實際切點依實驗室／檢驗方法而異，見 Endocrine Society CPG）。
+- **分型（兩大亞型）**：醛固酮分泌腺瘤（APA，Conn 腺瘤）vs 雙側特發性腎上腺增生（bilateral idiopathic hyperplasia）。來源對比例並列：Radiopaedia 稱雙側增生約 60%；STATdx（Venous Sampling）稱腺瘤約 2/3、雙側增生約 1/3。[^11][^13]
+- **腎上腺靜脈取樣（AVS）＝分型金標準**：AVS 為區分 APA vs 雙側增生之 **gold standard**。[^13] 選擇性導管取樣兩側腎上腺靜脈之醛固酮與皮質醇；醛固酮/皮質醇比值**單側化（lateralization，一般 >4:1）**＝APA；雙側無 lateralization＝雙側增生。
+- **AVS 的臨床適應症（本題 B、C）**：AVS **用於已生化確診原發性高醛固酮症、且為手術候選（欲以單側腎上腺切除治療高血壓）之病患**——結果直接左右處置：**單側化（APA）→ 手術（腹腔鏡腎上腺切除）**；**無單側化（雙側增生）→ 內科治療（mineralocorticoid receptor antagonist）**。[^13] CT 可能漏掉小 aldosteronoma、或誤把非功能性 incidentaloma 當病灶，故 CT 不足以單獨定側。[^11][^12]
+
+> [!warning] 本題（2021-195）正解 D
+> D「典型症狀為高血壓合併**高血鉀**」為**錯誤**——原發性高醛固酮症典型為**低血鉀**（醛固酮促進 K⁺ 排出）。A（ARR>30 篩檢）、B（AVS 分辨 APA vs 雙側增生）、C（AVS 用於已確診且擬單側腎上腺切除者）皆正確。[^11][^13]
 
 ## 定義與術語
 腎上腺皮質之良性腫瘤，常於其他原因之影像偶然發現；佔所有腎上腺腫塊 60–80%，多 <3 cm（故超音波常不易顯示）。注意「incidental adrenal lesion / incidentaloma」涵蓋所有病理（含惡性），與「adrenal adenoma」非同義，混用易誤導。[^1][^2][^3]
@@ -110,6 +121,11 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 
 > [可選升級] Grainger & Allison's Diagnostic Radiology（Adrenal Imaging 章，Sahdev/Kavanagh 2021）、ACR Appropriateness Criteria Adrenal Mass 2021（JACR）亦可再補。
 
+> 以下為 2021-195（原發性高醛固酮症診斷流程）新增查證來源（皆於 2026-07-10 實際查證）：
+[^11]: Jha P, Jones J. *Primary hyperaldosteronism (Conn syndrome)*. Radiopaedia.org, rID-16430, DOI 10.53347/rID-16430（實際查證 accessed 2026-07-10）。原發者腎素低下、ARR 升高；低血鉀常為最早線索；表現為舒張性高血壓＋代謝性鹼中毒＋低血鉀；病因約 60% 為雙側結節性增生、其餘為腺瘤；CT 陰性時採 AVS 或地塞米松抑制試驗。
+[^12]: **Tier 1（STATdx，奇美 EZproxy 已登入 accessed 2026-07-10）** Fananapazir G, Chung R. *Adrenal Hyperplasia*（Genitourinary, Dx）. STATdx, Elsevier, last updated 2025-09-10（9 references）。ACTH-independent adrenal hyperplasia 之功能分布：~70% 非功能、~15% subclinical Cushing、**~10% primary aldosteronism**；雙側平滑增生保留 adreniform 外形，CT 為最佳影像工具。
+[^13]: **Tier 1（STATdx，奇美 EZproxy 已登入 accessed 2026-07-10）** Borhani AA, Walker TG, Jenner ZB. *Venous Sampling and Venography (Renal and Adrenal)*（Genitourinary, Procedure）. STATdx, Elsevier, last updated 2025-09-10（8 references）。**AVS 為區分 aldosterone-producing adenoma vs 雙側腎上腺增生之 gold standard**；lateralization（醛固酮/皮質醇比值 >4:1）＝APA；**雙側增生內科治療、APA 手術（腎上腺切除）**；原發性高醛固酮症約 2/3 為腺瘤、1/3 為雙側特發性增生。
+
 ## 題目
 > [!warning] 2018-360 官方詳解本身標示「C? 錯在哪?」（作者亦不確定）
 > 「About adrenal adenoma, which is wrong?」四選項：A非顯影CT <10 HU、B輕度均質強化、C 15分延遲absolute percentage washout >60%、D T1反相位訊號下降——**四者皆為腺瘤之正確特徵**。官方答案標示C但附註「錯在哪?」，顯示出題者本身存疑。暫依官方記C，惟此題可能為瑕疵題，建議醫師對照原始考卷確認。附註：APW>60%高度提示腺瘤（C敘述實為正確）。
@@ -119,6 +135,9 @@ PET/CT：腺瘤 FDG 攝取通常**低於肝臟**（轉移多高攝取）；NP-59
 
 > [!question]- Concerning adrenal adenomas, which one is TRUE? (2018-434)
 > **They are a more common cause of adrenal mass than is metastatic disease（A）**——腺瘤為最常見腎上腺病灶(佔人口2–8%),即使已知惡性者偶發腎上腺病灶仍較可能為腺瘤。B誤(非顯影密度多**<10 HU**,非>20 HU)、C誤(反相位opposed-phase訊號**下降**,非無下降)、D誤(10分延遲CT約**washout 50%**,非保留90%初始強化)。[^1][^2]
+
+> [!question]- 以下關於原發性高醛固酮症(primary aldosteronism)的診斷何者不正確? (2021-195)
+> **D（典型為高血壓合併高血鉀）為錯誤**——原發性高醛固酮症典型為**低血鉀（hypokalemia）**，非高血鉀；低血鉀常是最早線索。A（ARR>30 ng/dl per ng/ml/hr 篩檢）正確；B（AVS 分辨 aldosterone-producing adenoma vs 雙側腎上腺增生）正確——AVS 為分型金標準；C（AVS 適用於已確診且欲行單側腎上腺切除之病患）正確——結果左右手術 vs 內科處置。[^11][^13]
 
 ## 考題
 ```dataview

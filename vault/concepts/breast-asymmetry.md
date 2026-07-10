@@ -8,7 +8,7 @@ aliases:
   - global asymmetry
   - developing asymmetry
   - 乳房不對稱
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # breast-asymmetry
@@ -35,6 +35,10 @@ dateRev: 2026-06-29
 ### 與腫塊／假影鑑別
 - **vs 真腫塊（mass）**：mass 為**三維佔位、邊界外凸（convex-outward）、各投影皆可見且具中央緻密**;asymmetry **無外凸邊界、無中央緻密、其內夾雜脂肪**。[^1][^3]
 - **vs summation artifact（重疊偽影）**：偽影僅在**單一投影**出現,點壓迫或加照後**散開消失**;真實 focal asymmetry **跨投影持續存在且形狀一致**。[^1][^3]
+
+### 超音波 non-mass 病灶之乳攝相關性
+- **US non-mass（非腫塊）病灶最常對應之乳攝表現**：**鈣化（群集／節段性微鈣化）、focal 或 developing asymmetry、architectural distortion**——此三類乳攝病灶最常於超音波上呈 non-mass 表現。[^6]
+- **spiculated mass 屬「腫塊（mass）」而非 non-mass**，故是**最不可能**對應 US non-mass 病灶者（考點：least likely）；asymmetry 與 architectural distortion 因缺 mass 的 convex 邊界／三維佔位，反而較常對應 non-mass。[^6]
 
 ### 處置
 - **Asymmetry（單一投影）**：多為疊影,以加照投影釐清;若加照後消失即正常。[^3]
@@ -73,8 +77,12 @@ dateRev: 2026-06-29
 [^3]: 期刊回顧（RadioGraphics,一級）。Chesebro AL, Winkler NS, et al. *Developing Asymmetries at Mammography: A Multimodality Approach to Assessment and Management.* RadioGraphics 2016;36(2):322–334. DOI:10.1148/rg.2016150123。四型分類、評估流程（spot compression → lateral/rolled views → DBT → targeted US → MRI）、「lack of a US correlate should not preclude biopsy of a developing asymmetry」。
 [^4]: 期刊（一級,輔助佐證無 US 對應之惡性率）。*Suspicious Ultrasound-Occult Non-Calcified Mammographic Masses, Asymmetries, and Architectural Distortions Are Moderate Probability for Malignancy.* Cancers (Basel) 2024。無 US 對應之 asymmetry 惡性率 44/194（22.7%）,屬 BI-RADS 4b 中度機率,支持切片建議。
 [^5]: ACR BI-RADS Atlas 2013, Page 86（2018 交換考題詳解 p.285 引用；Tier 1 圖譜）。focal asymmetry範圍<一象限、global asymmetry範圍≥一象限(多為normal variant)；typically benign calcifications含round/rim/dystrophic/milk of calcium；architectural distortion可與asymmetry或鈣化並存。
+[^6]: **Tier 1** *Nonmass Findings at Breast US: Definition, Classifications, and Differential Diagnosis.* RadioGraphics. 2020;40(2)（DOI [10.1148/rg.2020190125](https://doi.org/10.1148/rg.2020190125)；vault PDF「2020 RG Nonmass Findings at Breast US」；查證 accessed 2026-07-10）——**最常於超音波上呈 non-mass 表現之乳攝病灶＝鈣化、focal／developing asymmetry、architectural distortion**；spiculated mass 屬 mass（腫塊）表現而非 non-mass。
 
 ## 題目
+> [!question]- To identify an ultrasound non-mass lesion for a mammographic correlation, which of the following mammographic finding is less likely? (2021-003)
+> **D（Spiculated mass）**——spiculated mass 為「腫塊（mass）」而非 non-mass，故最不可能對應 US non-mass 病灶。US non-mass 病灶最常對應之乳攝表現為 A（群集／節段性微鈣化）、B（focal asymmetry）、C（developing asymmetry）、E（architectural distortion）。[^6]
+
 > [!question]- 以下關於mammography Lexicon之敘述何者錯誤? (2018-007)
 > **Focal asymmetry定義是不對稱的乳房組織，所佔面積大於一個quadrant（C）**——focal asymmetry範圍**<一象限**；範圍**≥一象限**者為**global asymmetry**，此題將兩者定義顛倒。typically benign calcifications含round/rim/dystrophic/milk of calcium(A對)、global asymmetry大部分為normal variant(B對)、architectural distortion可與asymmetry或鈣化同時出現(D對)皆為正確描述。[^1][^5]
 
