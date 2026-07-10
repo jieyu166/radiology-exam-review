@@ -1517,8 +1517,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
       "questionText": "About Osteoarthritis (**OA**), which of the following is **not** appropriate?",
       "options": [
         {
@@ -1553,8 +1553,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
       "questionText": "About **gout**, which of the following is **not** appropriate?",
       "options": [
         {
@@ -1589,8 +1589,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "MSK",
+      "subspecialty_confidence": "high",
       "questionText": "About Calcium Pyrophosphate Deposition Disease (**CPPD**), which of the following is **not** appropriate?",
       "options": [
         {
@@ -2577,8 +2577,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
       "questionText": "Which of the following US artifacts is reduced by using **tissue harmonic imaging**?",
       "options": [
         {
@@ -2606,7 +2606,10 @@
         "2021-067-2.png",
         "2021-067-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "tissue-harmonic-imaging",
+        "ultrasound-harmonics"
+      ],
       "checked": false,
       "sourcePage2021": 399
     },
@@ -2617,8 +2620,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
       "questionText": "Which one of the following descriptions about artifacts of ultrasonography is **not** true?",
       "options": [
         {
@@ -2642,7 +2645,9 @@
       "reference": "Ultrasound: The Requisites E-Book P19-27；2021 交換考官方詳解 PDF p37",
       "explanation": "【2021 官方詳解】\nD. When a sound pulse intereacts with gas bubbles, it excites the fluid that is trapped between the bubbles and causes fluid to resonate (or ring)…. Metal is also capable of producing a ring-down artifact.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
       "checked": false,
       "sourcePage2021": 37
     },
@@ -2653,8 +2658,8 @@
       "years": [
         2021
       ],
-      "subspecialty": "Unknown",
-      "subspecialty_confidence": "auto",
+      "subspecialty": "US",
+      "subspecialty_confidence": "high",
       "questionText": "Which of the following US artifacts **CANNOT** be reduced by using **spatial compound imaging**?",
       "options": [
         {
@@ -3224,7 +3229,9 @@
       "images": [
         "2021-083-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "characteristic-xray-physics"
+      ],
       "checked": false,
       "sourcePage2021": 44
     },
@@ -3577,7 +3584,9 @@
       "images": [
         "2021-092-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃元俊",
@@ -4182,7 +4191,9 @@
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 139.；2021 交換考官方詳解 PDF p45",
       "explanation": "【2021 官方詳解】\nUnder the table x-ray tubes will result in lower operator doses…. For lateral projections, operators should stand on the receptor side and avoid the x-ray tube location where radiation intensities will be substantially increased.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fluoroscopy-radiation-safety"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "林妤穎",
@@ -5078,7 +5089,9 @@
       "reference": "2021 交換考官方詳解 PDF p77",
       "explanation": "【2021 官方詳解】\nHepatobiliary MRI contrast agents:\nGd based: GD-BOPTA (Multihance), Gd-EOB-DTPA (Primovist)\nMn based: MN-DPDP",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatobiliary-mri-contrast"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "朱崧毓",
@@ -7033,7 +7046,10 @@
       "reference": "ACR contrast Manual 2020；2021 交換考官方詳解 PDF p137",
       "explanation": "【2021 官方詳解】\n- In patients with acute thyroid storm, iodinated contrast medium exposure can potentiate thyrotoxicosis; in such patients, iodinated contrast medium should be avoided. Corticosteroid premedication in this setting is unlikely to be helpful.\n- Intradermal skin testing with contrast media to predict the likelihood of adverse reactions has not been shown to be useful in minimizing reaction risk.\n- Premedication does not prevent all contrast reactions. Allergic- like contrast reactions that occur despite premedication are called “breakthrough reactions”. Physiologic reactions are not mitigated by premedication and are not considered “breakthrough reactions,” even if they occur following premedication.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "contrast-adverse-reactions",
+        "iodinated-contrast-media"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "郭禹廷",
@@ -11421,7 +11437,9 @@
         "2021-295-1.png",
         "2021-295-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳鈺棟",
@@ -11463,7 +11481,9 @@
       "images": [
         "2021-296-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳鈺棟",

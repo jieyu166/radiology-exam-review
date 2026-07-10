@@ -11,7 +11,7 @@ aliases:
   - MultiHance
   - hepatobiliary phase
   - 肝膽特異對比劑
-dateRev: 2026-06-19
+dateRev: 2026-07-10
 same:
   - "[[gadolinium-contrast]]"
 ---
@@ -61,6 +61,9 @@ same:
 
 > [!question]- Which one is not true about the disadvantages of gadoxetic acid-enhanced MRI? (2022-370)
 > **D — None of the above（以上皆非，即 A–C 描述的缺點皆為真）**。A：相較傳統細胞外對比劑，Gd-EOB-DTPA 動脈期/靜脈期強化較弱（血中濃度較低，為真實缺點）。B：短暫呼吸困難（transient dyspnea）與短暫嚴重移動（transient severe motion）較常見（Davenport 2013、Motosugi 2016，為真實缺點）。C：肝功能不良/纖維化惡化時肝實質對 Gd-EOB-DTPA 的攝取下降（Motosugi 2009、Nishie 2012，為真實缺點）。三者皆為真實缺點，故「不正確」之選項為 D。[^4][^5]
+
+> [!question]- Which drug(s) would be the hepatobiliary-specific MR contrast agent? 1. Mangafodipir (Mn-DPDP) 2. Gd-BOPTA 3. Gd-EOB-DTPA (2021-131)
+> **C（1+2+3）**——三者皆為肝膽特異 MR 對比劑：Mn-DPDP（mangafodipir，錳基肝細胞特異劑）、Gd-BOPTA（gadobenate/MultiHance，~3–5% 經膽）、Gd-EOB-DTPA（gadoxetate/Primovist，~50% 經膽）。皆由肝細胞 OATP 攝取後部分經 MRP2 排入膽道，可作肝膽期影像。
 
 ## 考題
 ```dataview

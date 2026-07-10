@@ -8,7 +8,7 @@ aliases:
   - ring down artifact
   - mirror artifact
   - 超音波偽影
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[ultrasound-speed-artifact]]"
   - "[[ultrasound-attenuation]]"
@@ -70,6 +70,9 @@ same:
 
 > [!question]- About artifacts of ultrasound images, which following statement is not true? (2018-105)
 > **The shadowing that occurs behind stones, calcifications, and bones is primarily due to sound reflection by these structures（A）**——聲影為結構強烈**吸收或反射**超音波所致之signal void（非僅反射）。posterior enhancement鑑別囊實性(B)、mirror image偽影常見於color Doppler(C)、duplication偽影源自脾-脂肪界面折射(D)皆為正確描述。[^6]
+
+> [!question]- Which one of the following descriptions about artifacts of ultrasonography is not true? (2021-068)
+> **D（Ring-down artifacts cannot be produced by metal）**——依官方詳解，聲脈波與被困氣泡間液體共振產生 ring-down，而金屬同樣能產生 ring-down 樣偽影，故此敘述錯誤（=正解 D）。A 衰減差異造成 shadowing 與 posterior enhancement、B 大而平滑強反射面造成 mirror image、C reverberation 造成近場假回音皆為正確描述。
 
 ## 考題
 ```dataview

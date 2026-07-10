@@ -52,6 +52,9 @@ nonImagingReason: "透視輻射安全/劑量主題（frame rate、distance/time/
 > [!question]- 在執行小兒 Fluoroscopy 時，必須特別注意輻射劑量的控制。下列哪項措施無法減少暴露於病人的輻射劑量？ (2021-372)
 > **A（使用 anti-scatter grids）**——鉛柵置於病人與偵測器之間以攔阻散射、提升影像對比，代價是必須提高入射劑量以維持 SNR（Bucky factor），因此反而『增加』病人劑量，無法減劑量。降低 pulsed fluoroscopy frame rate（B，少照少劑量）、檢查台盡量遠離射源（C，拉長 source 距離降入射皮膚劑量）、不使用 electronic magnification（D，放大會增劑量）皆能降低病人劑量。
 
+> [!question]- While performing interventional radiology procedures, the x-ray tubes ___ the table have low operator doses, and it is recommended that operators stand at the ___ side for lateral projections. (2021-108)
+> **C（under; image receptor）**——散射線主要來自病人入射（X 光管）側，故將 X 光管置於檢查床下方可降低操作者劑量；側位投影時操作者應站在影像接收器側，避開 X 光管側（該側散射強度大增）。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "fluoroscopy-radiation-safety")

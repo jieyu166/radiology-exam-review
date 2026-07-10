@@ -9,7 +9,7 @@ aliases:
   - premedication
   - Lalli effect
   - 對比劑不良反應
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "對比劑不良反應臨床分類/處置，無影像徵象"
 same:
@@ -81,6 +81,12 @@ same:
 
 > [!question]- 關於下列對比劑產生不良反應(蕁麻疹)的敘述，何者為非？ (2022-454)
 > **B（關鍵）「中度症狀需要生理監測和保留IV, 但不需要治療」為非**——中度蕁麻疹（廣泛 urticaria）需以抗組織胺（±IM epinephrine）治療，並非不需治療。其餘正確：A. 輕度局部蕁麻疹多自限、一般不需特殊治療；C. 重度需立即治療；D. 嚴重過敏給 epinephrine 1:1000 IM 正確。[^1][^4]
+
+> [!question]- 含碘對比劑之急性全身性不良反應風險因子，何者為非? (2021-092)
+> **C（對海鮮/乳類過敏或對碘酒過敏）**——海鮮/乳類/碘酒過敏並非含碘對比劑急性類過敏反應之風險因子（常見迷思）。真正風險因子為：曾有含碘對比劑中至重度急性反應(A)、氣喘尤其不穩定性(B)、過度焦慮（Lalli effect，D）。故 C 為『何者為非』之答案。
+
+> [!question]- 有關含碘對比劑的安全事項，下列敘述何者正確? (2021-182)
+> **B（含碘對比劑會影響 radioactive iodine therapy/scan 之病人，應建議適當的 washout period）**——含碘對比劑與甲狀腺攝碘互相干擾，接受放射碘治療/掃描前後需間隔一段時間（正確）。A 錯：甲狀腺風暴/甲亢活動期應避免含碘對比劑，此情境 corticosteroid premedication 幫助不大；C 錯：皮內皮膚測試（intradermal skin testing）無法正確預測不良反應、不建議；D 錯：premedication 不能預防所有反應（仍可能 breakthrough）。
 
 ## 考題
 ```dataview
