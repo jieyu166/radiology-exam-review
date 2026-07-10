@@ -48,6 +48,16 @@ dateRev: 2026-07-10
 > [!note] 考點：RCC哪一分期為Stage T3c？
 > **腫瘤肉眼侵犯橫膈以上之下腔靜脈（C）**——T3c定義為侵犯橫膈以上下腔靜脈或下腔靜脈管壁。侵犯超過Gerota筋膜為T4；侵犯同側腎上腺亦屬T4；侵犯腎靜脈或其節段分支為T3a。[^4]
 
+## Tumor thrombus vs bland thrombus（腫瘤栓 vs 單純血栓）
+- **鑑別要點（本題核心）**：**tumor thrombus 較 bland thrombus 更「膨脹（expansive）」、會「強化（enhancement，最具特異性之徵象）」、DWI 可受限，且可與原發腫塊訊號相似並與之「相連（contiguity）」**；bland thrombus 反之——不膨脹、不強化。故「bland thrombus 較膨脹且會強化」之敘述為**錯誤**（方向顛倒）。[^1][^9]
+- **IVC 侵犯之常見腫瘤**：**renal cell carcinoma、hepatocellular carcinoma、adrenocortical carcinoma、原發性 IVC leiomyosarcoma**（Radiopaedia 另列 Wilms tumor、腹膜後腫瘤）。[^9]
+- **Urothelial carcinoma 腫瘤栓罕見**：urothelial（腎盂）癌相關腫瘤栓極少見，故若見腫瘤栓，有助與 urothelial carcinoma 鑑別（偏向 RCC 等）。[^9]
+- **靜脈侵犯傾向**：RCC 佔腎惡性 >90% 且好發靜脈侵犯／腫瘤栓，**腫瘤越大越易發生**。[^9]
+- **影像徵象整理**：CT/MR 上腫瘤栓＝**血管擴張＋栓內強化＋（可）擴散受限**；血管攝影呈 **streak-and-thread（絲條狀）**外觀；CEUS 對腫瘤栓偵測近 100% 敏感/特異，關鍵為栓內強化。[^9]
+
+> [!note] 考點：關於 tumor thrombus 何者「錯誤」？
+> **「Bland thrombus 較 tumor thrombus 膨脹且可強化」（A）為錯**——實為 **tumor thrombus 較膨脹、會強化、與原發腫塊相連**；bland thrombus 不強化。IVC 侵犯常見於 RCC/HCC/ACC/原發 IVC leiomyosarcoma（B 對）、urothelial 相關腫瘤栓罕見可助鑑別（C 對）、RCC 較大腫瘤更易靜脈侵犯（D 對）皆正確。[^1][^9]
+
 ## 局部晚期與轉移性RCC
 - **轉移部位廣泛**：RCC可轉移至人體**任何部位**，包括頭皮、口腔、甲狀腺、睪丸等不常見部位。[^5]
 - **腫瘤異質性(tumor heterogeneity)**：RCC具高度腫瘤異質性——不同基因體變異之細胞株可**共存於原發腫瘤內，甚至轉移病灶中亦可存在**。[^5]
@@ -82,6 +92,7 @@ dateRev: 2026-07-10
 [^5]: 官方2020詳解；Ref: Radiographics. 2019;39:998-1016（題目所引）——RCC可轉移至任何部位(頭皮/口腔/甲狀腺/睪丸等)；具高度腫瘤異質性，不同基因變異細胞株可共存於原發與轉移病灶；復發風險最高於治療後早期，中位復發時間術後1-2年內。
 [^6]: 官方2020詳解；Ref: Differentiation of Solid Renal Tumors with Multiparametric MR Imaging, RadioGraphics 2017; 37:2026-2042（題目所引）——60%清晰細胞RCC見病灶內微觀脂肪；乳突狀RCC低T2訊號乏血管漸進強化；缺脂性AML均質T2低訊號T1高訊號；oncocytoma中央星狀疤痕與輻輪狀強化非病理特異性，chromophobe RCC可有相同特徵。
 [^7]: Radiopaedia — *Renal cell carcinoma*（rID: renal-cell-carcinoma-1, radiopaedia.org/articles/renal-cell-carcinoma-1）：histological subtypes 盛行率——clear cell RCC 70–80%（最常見）、papillary RCC 13–20%、chromophobe RCC 約 5%。與 RadioGraphics 2006（[^1]）交叉一致。
+[^9]: **Radiopaedia** — D'Souza D, Kusel K, Elfeky M, et al. *Tumor thrombus*. Reference article, Radiopaedia.org（rID 2227，DOI 10.53347/rID-2227，實際查證 accessed 2026-07-11）：腫瘤栓＝腫瘤伸入血管（多為靜脈）；**CT/MR 上 tumor thrombus 之特徵＝栓內強化（最具特異）、血管擴張、擴散受限**（bland thrombus 不強化）；病因最常為 **RCC（侵犯腎靜脈與 IVC），另有 HCC、Wilms tumor、adrenocortical carcinoma、腹膜後腫瘤，罕見為 urothelial carcinoma of renal pelvis**；血管攝影呈 streak-and-thread；CEUS 近 100% 敏感/特異。與 STATdx RCC（[^8]，含靜脈侵犯/腫瘤栓）Tier-1 交叉一致。
 [^8]: **Tier 1** Heller MT. *Renal Cell Carcinoma.* STATdx（Genitourinary, Dx, updated 2025-09-05）Elsevier（經奇美 EZproxy 實際查證 accessed 2026-07-06）：組織亞型盛行率 clear cell 70%、papillary 10–15%、granular cell 7%、chromophobe 5%、sarcomatoid 1.5%、collecting duct <1%；**多數 RCC 為 hypervascular（papillary 除外）**，clear cell T2 高訊號、反相位可掉訊號（含胞內脂質）；**papillary RCC 為 hypovascular、T2 常低訊號、強化僅約 20–30 HU、易誤認為囊腫、常有 pseudocapsule**；oncocytoma 於影像與 RCC 難以區分、可有星狀低衰減疤痕（與 chromophobe 重疊）。
 
 ## 題目
@@ -123,6 +134,9 @@ dateRev: 2026-07-10
 
 > [!question]- Which of the following about renal tumor is WRONG? (2021-358)
 > **B（Papillary 為最常見 RCC 亞型）為錯**——最常見亞型為 clear cell（~70%），papillary 約 10–20% 居次。A RCC 佔腎惡性 >90% 且好發腫瘤栓、C T3a 定義為侷限於腎靜脈、D AML 為最常見良性實質腎腫瘤，皆正確。
+
+> [!question]- Which of the following about tumor thrombus is WRONG? (2021-357)
+> **A（Bland thrombus is more expansive than tumor thrombus and may demonstrate enhancement）為錯**——實為 **tumor thrombus 較膨脹、會強化（最具特異）、可與原發腫塊相連**；bland thrombus 不強化。B（IVC 侵犯常見於 RCC/HCC/adrenocortical carcinoma/原發 IVC leiomyosarcoma）、C（urothelial 相關腫瘤栓罕見，有助鑑別）、D（RCC 靜脈侵犯好發於較大腫瘤）皆為正確敘述。[^1][^9]
 
 ## 考題
 ```dataview

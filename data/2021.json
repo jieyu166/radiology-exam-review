@@ -1005,7 +1005,9 @@
       "correctAnswer": "D",
       "reference": "Grainger & Allison’s Diagnostic Radiology Essentials 1.4 (53~55)；10.2214/AJR.09.4146；2021 交換考官方詳解 PDF p12",
       "explanation": "【2021 官方詳解】\n10.2214/AJR.09.4146\n\n⚠️ 本題含影像（官方詳解 PDF 第 12 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "tracheal-tumors"
+      ],
       "checked": false,
       "sourcePage2021": 12,
       "imageOcr": [
@@ -1496,7 +1498,9 @@
       "reference": "Diagnostic Imaging-Chest Part 2（II-2-44~47）；2021 交換考官方詳解 PDF p17",
       "explanation": "common. 晚期表現。\nD. 正確。年輕亞洲女性。\n\n【2021 官方詳解】\nStenosis or coartation are common.\nTakayasu arteritis (TAK), also known as idiopathic medial aortopathy or pulseless disease, is a granulomatous large vessel vasculitis that predominantly affects the aorta and its major branches. It may also affect the pulmonary arteries. The exact cause is not well known but the pathology is thought to be similar to giant cell arteritis.\nThere is a strong female predominance (F: M ~ 9:1), an increased prevalence in Asian populations, and it tends to affect younger patients (<50 years of age). The typical age of onset is at around 15-30 years of age.\nThere is segmental and patchy granulomatous inflammation of the aorta which results in stenosis, thrombosis and aneurysm formation.\nhttps://radiopaedia.org/articles/takayasu-arteritis",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "takayasu-arteritis"
+      ],
       "checked": false,
       "sourcePage2021": 17
     },
@@ -2355,7 +2359,9 @@
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p174",
       "explanation": "全部都正確。\n\n【2021 官方詳解】\nIDHmt astrocytoma will be graded based on histology and the presence or absence of a novel genetic parameter, CDKN2A/B homozygous deletion (note the use of Arabic numerals, another proposed change):\n- astrocytoma, IDH-mutant, WHO grade 2\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that is well-differentiated and lacks histologic features of anaplasia. Mitotic activity is not detected or low. Microvascular proliferation, necrosis and CDKN2A/B homozygous deletions are absent\n- astrocytoma, IDH-mutant, WHO grade 3\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that exhibits focal or dispersed anaplasia and displays significant mitotic activity. Microvascular proliferation, necrosis and CDKN2A/B homozygous deletions are absent\n- astrocytoma, IDH-mutant, WHO grade 4\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that exhibits microvascular proliferation or necrosis or CDKN2A/B homozygous deletion or any combination of these features",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "who-cns-tumor-grading"
+      ],
       "checked": false,
       "sourcePage2021": 174
     },
@@ -4664,7 +4670,9 @@
       "images": [
         "2021-115-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "temporomandibular-joint-disorder-mri"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "葉智華",
@@ -10279,7 +10287,9 @@
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.8; doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p222",
       "explanation": "【2021 官方詳解】\nPrimary synovial osteochondromatosis is a benign synovial neoplastic process with slow formation of hyaline cartilage nodules, which calcify eventually. Tenosynovial osteochondromatosis is less frequent but can occur in the hands and feet. Calcified nodules may be visible on radiography or as dark signal on MRI. Cartilage content produces MR T2 hyperintensity. A vascularized, fibrous pseudocapsule can produce rim enhancement. If the lesion’s synovial origin is not relayed to the pathologist, the considerable cellular atypia can be misinterpreted by the pathologist as extraskeletal chondrosarcoma.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "synovial-osteochondromatosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "王彧宸",
@@ -10319,7 +10329,9 @@
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.7; doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p223",
       "explanation": "【2021 官方詳解】\nSynovial sarcoma generally presents at 15 to 40 years of age as a painless nodule. Although tumor growth may be slow, these lesions have high metastatic potential; 30% have calcifications, which may be visible on radiography. A circumscribed, nonspecifi c mass is typical on ultrasound. When the lesion is small, MRI shows a homogeneous, T1 intermediate and T2 hyperintense mass. T2 signal is not quite fluid bright, and special care should be taken not to mischaracterize a small synovial sarcoma as a benign ganglionic cyst. When lesions are larger, MRI signal is heterogeneous with septations, hemorrhage, and fluid (“bowl of grapes” appearance).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "synovial-sarcoma"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "王彧宸",
@@ -15081,7 +15093,9 @@
       "images": [
         "2021-371-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "wyburn-mason-syndrome"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳嘉紘醫師",

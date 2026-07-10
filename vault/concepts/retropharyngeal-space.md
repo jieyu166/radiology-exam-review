@@ -8,7 +8,7 @@ aliases:
   - nodes of Rouvière
   - retropharyngeal edema
   - 咽後間隙
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # retropharyngeal-space
@@ -42,6 +42,15 @@ dateRev: 2026-07-03
 
 > [!note] 考點二：何者與咽後間隙水腫相關？
 > **以上皆是（All of the above，D）**——**內頸靜脈栓塞、放射治療後（淋巴水腫）、鈣化性頸長肌肌腱炎**（另含 SVC 症候群、咽炎/鼻竇炎/牙源感染、血管性水腫）皆可造成 RPS 水腫。[^1][^2]
+
+## 深頸筋膜三層與 RPS 邊界（fascia 附著層次）
+- **深頸筋膜三層**：**superficial（淺）、middle（中，＝buccopharyngeal fascia／visceral fascia）、deep（深，＝prevertebral fascia）**層。RPS 之**前界＝深頸筋膜中層（buccopharyngeal fascia）**、**後界＝alar fascia**（將 true RPS 與其後 danger space 分隔）、**側界＝深頸筋膜深層**、**上界＝顱底（clivus）**。[^3]
+- **Buccopharyngeal fascia（中層）**：舌骨上段其後部續行至顱底並**覆蓋咽縮肌（pharyngeal constrictor muscles）**；於頸動脈分叉以上，中層對頸動脈鞘之貢獻不定（inconsistent）——支持題目選項 A。[^1][^3]
+- **RPS 下界／alar fascia 附著層次**：**alar fascia 向下於 C6–T4 之間某處與 buccopharyngeal（中層）fascia 融合**，此融合點即 RPS 之下界；因此 true RPS 由顱底延伸至約胸頸交界，而其後之 danger space 可續行至橫膈——支持題目選項 B。[^1][^2][^3]
+- **感染擴散提醒**：masticator space 受累時，感染可沿下頜神經（V3）經 **foramen ovale** 顱內擴散（選項 C，另見 masticator-space 概念）；RPS 化膿可經 danger space 下行縱膈。[^1]
+
+> [!note] 考點：深頸筋膜/咽後間隙敘述何者「錯誤」？（2021-102）
+> **答案 D＝以上皆正確（None of above 為錯者）**——A（buccopharyngeal 中層舌骨上覆蓋咽縮肌、頸動脈鞘貢獻不定）、B（RPS 由顱底延伸至胸頸交界，alar fascia 於 C6–T4 間附著於 buccopharyngeal fascia）、C（masticator space 感染可經 foramen ovale 沿 V3 顱內擴散）皆為正確描述。[^1][^2][^3] ⚠️ 官方詳解註記本題疑與 2021-008 為同一題（相似度 0.988）且含影像（PDF p.33），判讀請對照原檔。
 
 ### 參考來源
 [^1]: **Tier 1** Vattoth S, Harnsberger HR. *Retropharyngeal Space*（Head and Neck, Anatomy）. STATdx，last updated 2023-12-20. Elsevier（實際查證 accessed 2026-07-03）：RPS＝咽後中線腔（顱底→縱膈）、alar fascia 分 true RPS 與 danger space；內容物 SHN 脂肪＋RPSLN（nodes of Rouvière 外側顱底/C1-C2、內側 C2-C3、<6–8 mm 正常）、**IHN 僅脂肪無淋巴結、無唾液腺**；**RPS 水腫病因＝內頸靜脈栓塞、SVC 症候群、化/放療、咽炎/鼻竇炎/牙源感染、血管性水腫、longus colli 肌腱炎**；非膿瘍積液＝壁不強化＋佔位輕；RPS 病灶壓平椎前肌（perivertebral 抬高）；CECT 感染首選、MR 腫瘤敏感；RPSLN 引流鼻咽/後咽 SCC；retropharyngeal fat stripe 對椎前侵犯有 NPV。

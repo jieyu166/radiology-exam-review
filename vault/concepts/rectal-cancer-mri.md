@@ -7,7 +7,7 @@ aliases:
   - rectal MR staging
   - mesorectal fascia
   - 直腸癌MRI分期
-dateRev: 2026-06-19
+dateRev: 2026-07-10
 ---
 
 # rectal-cancer-mri
@@ -43,6 +43,15 @@ dateRev: 2026-06-19
 
 - **直腸癌 vs 結腸癌之差異**：擴散途徑（pathways of spread，因直腸無漿膜層、鄰近mesorectal fascia）、術前影像評估範圍（直腸癌需MRI評估mesorectal fascia與T分期）、局部復發率（直腸癌因骨盆腔空間有限、鄰近構造多，局部復發率較結腸癌高）皆不同；**組織病理學（histopathology）則相同，兩者皆為adenocarcinoma**。[^2]
 
+## Anterior peritoneal reflection（前腹膜反折）與序列/平面選擇
+- **臨床意義**：前腹膜反折（APR）是直腸「腹膜內（上段）vs 腹膜外（下段）」的分界，決定手術路徑與治療方向——**APR 以上之 stage II/III 上段直腸腫瘤趨向「單獨手術」，以下之低位腫瘤多需 neoadjuvant 治療**；腫瘤侵犯 APR 即為 **T4a**。[^6][^7]
+- **最佳序列/平面（本題核心）**：APR 於**高解析度 T2WI** 上以低訊號線顯示；**矢狀位（sagittal）T2WI 最能顯示腹膜自膀胱底（男性覆蓋精囊尖）／子宮頸角反折至前直腸壁之交會點**，用以判定腫瘤位於 APR 上或下（此判讀之 interreader agreement 佳），故最佳顯示序列為 **Sagittal T2-weighted（答案 B）**。[^6][^7]
+- **軸位補充徵象**：於**軸位（axial）T2WI**，APR 於腹膜反折至前直腸處呈 **V 形／「海鷗（seagull）」形**；精囊與子宮頸角為可靠定位標誌。APR 於 81.6–88.5% 的直腸 MRI 可辨識。[^7]
+- **陷阱**：矢狀位若切過腫瘤「捲起邊緣（rolled edge）」可造成侵犯腹膜之假象——腫瘤僅「緊鄰（abut）」腹膜不等於「侵犯」，須以軸位確認。[^7]
+
+> [!note] 考點：前腹膜反折以何 MRI 序列最能顯示？
+> **Sagittal T2-weighted（B）**——矢狀位高解析 T2WI 最能顯示腹膜自膀胱底／子宮頸角反折至前直腸壁之點，判定腫瘤在 APR 上/下；軸位 T2 則見 V 形/海鷗形。非 T1／DWI／增強脂抑 T1。[^6][^7]
+
 ## 直腸癌局部復發之主要危險因子
 - **主要危險因子**：**circumferential resection margin (CRM) positivity**、**extramural vascular invasion (EMVI)**、**腫瘤靠近肛緣(close proximity to anal verge)**、**吻合口滲漏(anastomotic leak)**、缺乏術前放射治療、手術時腫瘤穿孔、較高之病理TNM分期、以及**分化較差(lower tumor differentiation)**。[^3]
 - **常見混淆點**：是「**分化較差(lower differentiation)**」而非「分化較高(higher differentiation)」為局部復發危險因子——腫瘤分化程度越低（越惡性），局部復發風險越高。[^3]
@@ -60,6 +69,8 @@ dateRev: 2026-06-19
 [^3]: 官方2020詳解；Ref: RadioGraphics 2019;39:367-387（題目所引）——直腸癌局部復發主要危險因子含CRM陽性、EMVI、腫瘤靠近肛緣、吻合口滲漏、缺乏術前放療、手術穿孔、較高TNM分期、較差分化(lower differentiation非higher)；約30%病人可無症狀，多數伴CEA上升。
 [^4]: Hricak H, Husband J, Panicek DM, eds. *Oncologic Imaging: Essentials of reporting common cancers*. Philadelphia: Saunders, 2007; 30-1（2018 交換考題詳解 p.275 引用；Tier 2 教科書）。直腸癌MRI局部分期以高解析度序列評估腫瘤與腸壁/mesorectal fascia關係。
 [^5]: 據 PubMed — Beets-Tan RGH, Lambregts DMJ, Maas M, et al. *Magnetic resonance imaging for clinical management of rectal cancer: Updated recommendations from the 2016 ESGAR consensus meeting*. **European Radiology** 2018;28(4):1465–1475. DOI:10.1007/s00330-017-5026-2（PubMed 29043428，accessed 2026-07-05；Tier 1 共識指引）。以高解析度 T2WI 為分期核心、納入 DWI、採結構化報告;明訂 T 分期、淋巴結準則、mesorectal fascia/CRM 距離與 EMVI 之判讀與報告要點。
+[^6]: **Radiopaedia** — Gaillard F, Shah V, Niknejad M, et al. *Rectal cancer*. Reference article, Radiopaedia.org（rID 7172，DOI 10.53347/rID-7172，實際查證 accessed 2026-07-11）：MRI 報告須描述腫瘤「位於腹膜反折上或下並約略測量」、與 mesorectal fascia 距離、T/N 期、EMVI；直腸未全被 MRF 包繞，腹膜化部分無 CRM 概念。
+[^7]: **Tier 1** Kaur H, Gabriel H, Awiwi MO, et al. *Anatomic Basis of Rectal Cancer Staging: Clarifying Controversies and Misconceptions.* **RadioGraphics** 2024;44(7):e230203. DOI:10.1148/rg.230203（FREE ACCESS，RSNA 正文實際查證 accessed 2026-07-11）：APR 於 **軸位 T2WI 呈 V／「seagull」形**（腹膜反折至前直腸處），**矢狀位 T2 顯示腹膜自膀胱底覆蓋精囊尖／子宮頸角反折至前直腸壁**；精囊與子宮頸角為可靠標誌，APR 於 81.6–88.5% 可辨識、與腫瘤關係 interreader agreement 佳；APR 以上上段直腸腫瘤趨向單獨手術；矢狀位切過 rolled edge 可造成腹膜侵犯假象，abut≠involve，須軸位確認。另 Horvat N et al. *MRI of Rectal Cancer.* RadioGraphics 2019;39(2):367–387，DOI:10.1148/rg.2019180114（Tier 1）亦以 T2WI 定義 APR、侵犯 APR＝T4a。
 
 > [!warning] 2018-366 官方答案C(FLAIR)與放射科標準實務不符
 > 本題選項為A T1W／B contrast-enhanced T1W／C FLAIR／D proton density，官方標示答案C(FLAIR)。惟直腸癌局部分期之標準最佳序列為**高解析度T2WI**（清楚顯示腸壁分層與muscularis propria），FLAIR並非body/直腸MRI常規分期序列；四選項中亦無T2W。此題疑為選項轉錄不全或瑕疵題，暫依官方記C並flag待醫師對照原始考卷確認。
@@ -67,6 +78,9 @@ dateRev: 2026-06-19
 ## 題目
 > [!question]- In the staging of rectal cancer by MRI, which sequence provides optimum visualization of the tumour? (2018-366)
 > **官方標示FLAIR（C）**——⚠️惟標準實務為高解析度T2WI，FLAIR非直腸MRI常規分期序列，疑瑕疵題，見上方warning。[^4]
+
+> [!question]- The anterior peritoneal reflection is best visualized with what MRI sequence? (2021-237)
+> **Sagittal T2-weighted（B）**——矢狀位高解析 T2WI 最能顯示腹膜自膀胱底/子宮頸角反折至前直腸壁之交會點，用於判定腫瘤位於前腹膜反折上或下（決定手術路徑，侵犯 APR＝T4a）；軸位 T2 則見 V 形/海鷗（seagull）形。A 軸位 T1、C 軸位 DWI、D 矢狀增強脂抑 T1 皆非顯示 APR 之最佳序列。[^6][^7]
 
 ## 考題
 ```dataview

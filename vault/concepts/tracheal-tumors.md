@@ -8,7 +8,7 @@ aliases:
   - tracheobronchial tumors
   - squamous cell papilloma
   - 氣管腫瘤
-dateRev: 2026-06-14
+dateRev: 2026-07-10
 ---
 
 # tracheal-tumors
@@ -47,7 +47,20 @@ dateRev: 2026-06-14
 - **Adenoid cystic carcinoma**：另一最常見原發氣管惡性；沿黏膜下/神經周圍浸潤。[^2]
 
 > [!note] 後壁膜「累及 vs 保留」鑑別（瀰漫氣道病）
-> **保留氣管後壁膜**：tracheobronchopathia osteochondroplastica（TBO）、relapsing polychondritis。**累及後壁膜**：amyloidosis（見 [[pulmonary-amyloidosis]]）。[^2]
+> **保留氣管後壁膜**：tracheobronchopathia osteochondroplastica（TBO）、relapsing polychondritis。**累及後壁膜（環周侵犯）**：amyloidosis（見 [[pulmonary-amyloidosis]]）、granulomatosis with polyangiitis（Wegener，好發 subglottic）。[^2][^4]
+
+## 瀰漫氣管壁疾病：後壁膜 × 鈣化 × 管徑（TBO 決定性考點）
+氣管由前外側的 C 形軟骨環支撐，後壁（membranous wall）主要為 trachealis 肌、無軟骨——**「保留 vs 累及後壁膜」是瀰漫氣管壁疾病的第一分流軸**。[^4][^5]
+
+- **Tracheobronchopathia osteochondroplastica（TBO）**：黏膜下 **osseous／cartilaginous 結節（~1–8 mm，自軟骨環長出）突入管腔**，好發氣管下 2/3 與近端支氣管；CT 見**不規則、結節狀、部分鈣化／骨化的管壁增厚，保留後壁膜**。**焦點粗鈣化／骨化（focal coarse calcification/ossification）是 TBO 相對於 RPC 的決定性徵象**。[^4][^5]
+- **Relapsing polychondritis（RPC）**：前外側壁**平滑、高衰減增厚 + 軟骨破壞，同樣保留後壁膜**；與 TBO 差別在**平滑（RPC）vs 結節鈣化（TBO）**，且 RPC 常有耳鼻軟骨炎等全身線索。[^4][^5]
+- **Amyloidosis**：結節狀鈣化可與 TBO 相似，但**環周（circumferential）侵犯、累及後壁膜**，且可犯喉／咽／上段氣管。[^4]
+- **Mounier-Kuhn（tracheobronchomegaly）**：以**管腔瀰漫擴大**為特徵（氣管 >3 cm、主支氣管 >2.4 cm），軟骨環間憩室→corrugated 外觀——與前述「壁增厚」類疾病成因相反。[^4]
+
+**2021-025 決斷鏈**：題幹「氣管壁 nodularity + 保留後壁」→ 四選項中 RPC 亦保留後壁但為「平滑」增厚，唯 **TBO 以黏膜下鈣化／骨化結節突入管腔**呈 nodularity，故答案為 TBO（D）。[^4][^5]
+
+> [!note] 後壁膜鑑別快速記憶
+> 保留後壁 = **TBO（結節鈣化）+ RPC（平滑）**；累及後壁 = **amyloid（環周）+ GPA（subglottic）**；純管腔擴大 = **Mounier-Kuhn**。[^4]
 
 ## 鑑別與報告要點
 | 類別 | 代表 | 重點 |
@@ -70,6 +83,12 @@ dateRev: 2026-06-14
 [^1]: **Tier 1（全文已讀，本機 PDF，accessed 2026-06-14）** Park CM, Goo JM, Lee HJ, Kim MA, Lee CH, Kang M-J. *Tumors in the Tracheobronchial Tree: CT and FDG PET Features*. RadioGraphics. 2009;29(1). https://doi.org/10.1148/rg.291085126。
 [^2]: *Tracheal Lesion*. STATdx（Chest, DDx）（實際查證 accessed 2026-06-14；SCC + adenoid cystic 為最常見原發惡性；TBO/RP 保留後壁膜）。
 [^3]: 「最常見良性氣管腫瘤 = squamous cell papilloma」為標準教學；題目所引 Müller & Silva *Thoracic Imaging*（2nd ed, p.546）（**未逐字核實該書頁**，依標準教學與題目來源）。
+[^4]: **Tier 1（AJR 正文全文已讀，accessed 2026-07-10）** Chung JH, Kanne JP, Gilman MD. *CT of Diffuse Tracheal Diseases*. AJR Am J Roentgenol. 2011;196(3):W240-W246. https://doi.org/10.2214/AJR.09.4146。TBO＝黏膜下 osseous/cartilaginous 結節自軟骨環突入管腔、保留後壁膜，焦點粗鈣化/骨化為 TBO vs RPC 決定性徵象；RPC＝平滑高衰減增厚、保留後壁；amyloid＝環周、累及後壁；Mounier-Kuhn＝管腔擴大（本題官方詳解所引 AJR 來源）。
+[^5]: **Radiopaedia（公開，accessed 2026-07-10）** Weerakkody Y et al. *Tracheobronchopathia osteochondroplastica*. rID 9769. https://doi.org/10.53347/rID-9769。黏膜下 1–8 mm 骨/軟骨結節、僅犯前外側壁保留後膜壁；CT 見不規則結節狀增厚 + endophytic 鈣化結節；DDx 保留後壁者含 RPC（平滑高衰減），累及後壁者含 amyloidosis / GPA（環周）。
+
+## 題目
+> [!question]- Which of the following tracheal disorder is characterized by nodularity of tracheal wall with sparing of the posterior tracheal wall? (2021-025)
+> **D（Tracheobronchopathia osteochondroplastica, TBO）**——TBO 為黏膜下骨/軟骨鈣化結節自軟骨環突入管腔，形成「nodularity」且**保留後壁膜**，焦點粗鈣化/骨化是其相對 RPC 的決定性徵象。A relapsing polychondritis 雖也保留後壁，但為**平滑**高衰減增厚（非結節鈣化）；B tracheobronchial papillomatosis 為多發 polypoid 軟組織結節（HPV，無此鈣化+保留後壁型態）；C Mounier-Kuhn 為**管腔擴大**而非壁結節。[^4][^5]
 
 ## 考題
 ```dataview
