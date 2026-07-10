@@ -394,9 +394,9 @@
           "text": "Lesions<5mm is called a focus/ foci."
         }
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "D",
       "reference": "Primer 6th ed, p511；2021 交換考官方詳解 PDF p180",
-      "explanation": "A. malignant. plateau 64%, washout 87%.\nB. typically benign.\nC. Kinetics are usually not useful in DCIS, especially low-grade. Many DCISs show no wash out and usually slow initial enhancement.\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diﬀuse: typically benign\n\n【2021 官方詳解】\nEnhancing lesion in breast MRI\nFocus and foci: <5mm, non-specific\nMasses:\n- Shape: round, oval, lobulated, irregular (32% malignant)\n- Margin: smooth, irregular, speculated (80% malignant)\n- T1 high: lymph node, fat necrosis, hamartoma\n- T2FS high: cyst, lymph node, fibroadenoma, fat necrosis, colloid carcinoma\n- Enhancement\n  - Type I (persistent): benign (6%malignanct)\n  - Type II (platea): malignant\n  - Type III (washout): stroung malignancy\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diffuse: typically benign\n***DCIS:\nKinetics are usually not useful in DCIS, especially not in cases when low-grade.\nMany cases of DCIS show no wash out and usually ther is slow initial enhancement.\n\n⚠️ 答案以官方詳解 PDF 為準更正：原匯入 D → 官方 A。",
+      "explanation": "A. malignant. plateau 64%, washout 87%.\nB. typically benign.\nC. Kinetics are usually not useful in DCIS, especially low-grade. Many DCISs show no wash out and usually slow initial enhancement.\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diﬀuse: typically benign\n\n【2021 官方詳解】\nEnhancing lesion in breast MRI\nFocus and foci: <5mm, non-specific\nMasses:\n- Shape: round, oval, lobulated, irregular (32% malignant)\n- Margin: smooth, irregular, speculated (80% malignant)\n- T1 high: lymph node, fat necrosis, hamartoma\n- T2FS high: cyst, lymph node, fibroadenoma, fat necrosis, colloid carcinoma\n- Enhancement\n  - Type I (persistent): benign (6%malignanct)\n  - Type II (platea): malignant\n  - Type III (washout): stroung malignancy\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diffuse: typically benign\n***DCIS:\nKinetics are usually not useful in DCIS, especially not in cases when low-grade.\nMany cases of DCIS show no wash out and usually ther is slow initial enhancement.\n\n⚠️ 答案以官方詳解 PDF 為準更正：原匯入 D → 官方 A。\n\n【醫師裁決 2026-07-11】答案更正 A → D。A 敘述(rapid upslope+plateau/washout 偏良性)為錯，plateau/washout 屬惡性型態；D「<5mm=focus」符 BI-RADS lexicon。答案 A→D。",
       "images": [],
       "concepts": [
         "breast-mri-kinetics"
@@ -3340,9 +3340,9 @@
           "text": "400 mgI/kg"
         }
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "D",
       "reference": "Clinical Radiology Volume 75, Issue 10, October 2020, Pages 797.e9-797.e19；2021 交換考官方詳解 PDF p316",
-      "explanation": "答案應該是D\n- The conventional aortic CTA protocol :120 kVp and 400mg Iodine/kg (答案應該是D)\n- 為了減少 radiation dose ==> \"double low” CTA (DLCTA)\n\t- low-tube voltage acquisition (70~80 kVp)\n\t- high pitch mode\n\t- iterative reconstruction techniques\n\t- New imaging protocol called “of the aorta (low tube voltage and low iodine\n\t- **iodine load可降到200 mg iodine/kg**\n\t- Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. 考自己的paper??\n\n【2021 官方詳解】\nThe conventional aortic CTA protocol :120 kVp and 400 mg iodine/kg (答案應該是D)\nFor reduction the radiation dose=>\nlow-tube voltage acquisition (70~80 kVp)\nhigh pitch mode\niterative reconstruction techniques\nNew imaging protocol called “double low”CTA (DLCTA) of the aorta (low tube voltage and low iodine\nload) has been developed.\nConclusion:\nDouble-low computed tomography angiography (DLCTA): with 70 kVp and 200 mg iodine/kg is feasible for whole-aortic CT angiography\n\n⚠️ 本題含影像（官方詳解 PDF 第 316 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案應該是D\n- The conventional aortic CTA protocol :120 kVp and 400mg Iodine/kg (答案應該是D)\n- 為了減少 radiation dose ==> \"double low” CTA (DLCTA)\n\t- low-tube voltage acquisition (70~80 kVp)\n\t- high pitch mode\n\t- iterative reconstruction techniques\n\t- New imaging protocol called “of the aorta (low tube voltage and low iodine\n\t- **iodine load可降到200 mg iodine/kg**\n\t- Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. 考自己的paper??\n\n【2021 官方詳解】\nThe conventional aortic CTA protocol :120 kVp and 400 mg iodine/kg (答案應該是D)\nFor reduction the radiation dose=>\nlow-tube voltage acquisition (70~80 kVp)\nhigh pitch mode\niterative reconstruction techniques\nNew imaging protocol called “double low”CTA (DLCTA) of the aorta (low tube voltage and low iodine\nload) has been developed.\nConclusion:\nDouble-low computed tomography angiography (DLCTA): with 70 kVp and 200 mg iodine/kg is feasible for whole-aortic CT angiography\n\n⚠️ 本題含影像（官方詳解 PDF 第 316 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 C → D。conventional 120 kVp 主動脈 CTA 碘負荷為 400 mgI/kg（200 為 double-low CTA 協定）。答案 C→D。",
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -5855,9 +5855,9 @@
           "text": "Glioblastoma, IDH-Wild-Type"
         }
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "A,B",
       "reference": "Osborn’s Brain 2nd edition P.529；2021 交換考官方詳解 PDF p97",
-      "explanation": "【2021 官方詳解】\n2-HG 是IDH mutation 腫瘤專屬的代謝物．所以只要是 IDH-Mutant 都會peak.\n2-hydroxyglutarate is a metabolite that accumulates in the brains of patients with IDH-1 mutated (IDH-1 positive) brain tumors, particularly diffuse low-grade gliomas. Although not in widespread clinical use, it is likely that 2-hydroxyglutarate, which resonates at 2.25 ppm, will be able to be detected in vivo using MR spectroscopy (MRS), and thus IDH-1 status could be detected preoperatively.\nRadiopaedia",
+      "explanation": "【2021 官方詳解】\n2-HG 是IDH mutation 腫瘤專屬的代謝物．所以只要是 IDH-Mutant 都會peak.\n2-hydroxyglutarate is a metabolite that accumulates in the brains of patients with IDH-1 mutated (IDH-1 positive) brain tumors, particularly diffuse low-grade gliomas. Although not in widespread clinical use, it is likely that 2-hydroxyglutarate, which resonates at 2.25 ppm, will be able to be detected in vivo using MR spectroscopy (MRS), and thus IDH-1 status could be detected preoperatively.\nRadiopaedia\n\n【醫師裁決 2026-07-11】答案更正 A → A,B。題幹可複選；2-HG peak 見於所有 IDH-Mutant astrocytoma，故 diffuse(A)與 anaplastic(B)皆對。答案 A→A,B。",
       "images": [],
       "concepts": [
         "2-hydroxyglutarate-idh-mutant-glioma"
@@ -12010,9 +12010,9 @@
           "text": "9900 mOsm/kg"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "C",
       "reference": "Immediate allergic reactions to gadolinium-based contrast agents: a systemic review and meta-analysis. Radiology 2018; 286:471-482.；2021 交換考官方詳解 PDF p269",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 269 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 269 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 B → C。290 mOsm/kg 為題幹給的血漿參考值；gadopentetate 原液約 1960 mOsm/kg。答案 B→C。",
       "concepts": [
         "gadolinium-contrast"
       ],
@@ -12153,7 +12153,7 @@
       ],
       "correctAnswer": "B",
       "reference": "8th edition radiology review manual. P.772；2021 交換考官方詳解 PDF p273",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】維持答案 B。依 Dähnert《Radiology Review Manual》TIA 危險因子為：高血壓、心臟疾病(含 prior MI／angina／瓣膜病／心律不整／CHF)、糖尿病、抽菸(弱)。alcohol 與 PM2.5 均不在此清單，故 B(prior MI)為列出之危險因子、D(all)不成立。",
       "concepts": [
         "tia-stroke-risk-factors"
       ],
@@ -13102,7 +13102,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p241；2021 交換考官方詳解 PDF p307",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 307 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 307 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】維持答案 D。醫師說明：軟組織脂肪瘤回音多變（hypoechoic 到 hyperechoic 皆可），臨床上與旁邊 subcutaneous fat 相比相對呈 hypoechoic，故本題答 D。",
       "images": [
         "2021-322-1.png"
       ],
@@ -13676,9 +13676,9 @@
           "text": "MRI shows the cords were visible as low signal subcutaneous linear bands or dots"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "全對(A/B/C/D 皆正確)",
       "reference": "Breast J. 2021 Jan;27(1):44-47.；2021 交換考官方詳解 PDF p347",
-      "explanation": "【2021 官方詳解】\n(以上皆對) Ref: Review of axillary web syndrome: What the radiologist should know, European Journal of Radiology\nAxillary web syndrome\ncommon after axillary surgery, frequently affecting breast cancer patients.\none or more linear bands of firm tissue, also known as “cords”, in the axilla and arm, associated with pain and limited range of motion of the shoulder and arm\nEtiology:\nlymphovenous tissue damage with disruption of superficial lymphatics and veins during surgery, resulting in superficial venous and lymphatic stasis and local hypercoagulability and thrombosis.\nUS: deformation of the dermis with shoulder abduction, an anechoic cord with hyperechoic edge, likely the lumen of a vessel and vesselwall, and hyperechoic structures thought to represent fibrosis.\nno flow on Doppler images.\nMRI: the cords were visible as low signal subcutaneous linear bands or dots",
+      "explanation": "【2021 官方詳解】\n(以上皆對) Ref: Review of axillary web syndrome: What the radiologist should know, European Journal of Radiology\nAxillary web syndrome\ncommon after axillary surgery, frequently affecting breast cancer patients.\none or more linear bands of firm tissue, also known as “cords”, in the axilla and arm, associated with pain and limited range of motion of the shoulder and arm\nEtiology:\nlymphovenous tissue damage with disruption of superficial lymphatics and veins during surgery, resulting in superficial venous and lymphatic stasis and local hypercoagulability and thrombosis.\nUS: deformation of the dermis with shoulder abduction, an anechoic cord with hyperechoic edge, likely the lumen of a vessel and vesselwall, and hyperechoic structures thought to represent fibrosis.\nno flow on Doppler images.\nMRI: the cords were visible as low signal subcutaneous linear bands or dots\n\n【醫師裁決 2026-07-11】醫師裁決：四項敘述(A/B/C/D)皆為 axillary web syndrome 之正確描述，本題無「錯誤」選項（原答案 B 撤銷）。屬題目瑕疵，答案改為「以上皆是（全對）」。",
       "images": [],
       "concepts": [
         "axillary-web-syndrome"
