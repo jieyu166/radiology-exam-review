@@ -63,7 +63,13 @@ dateRev: 2026-07-10
 [^1]: *Progressive massive fibrosis*. Radiopaedia.org（tier 2 輔助）。矽肺/CWP 併發；上肺為主、雙側對稱大團塊伴放射狀條索、香腸狀、含鈣化、向肺門遷移、周圍 emphysema；MRI 可助與肺癌鑑別（accessed 2026-06-29）。「可在暴露停止後仍進展」為標準塵肺教學；題目另引 *Radiology Review Manual* 7th ed, p.530。
 [^2]: Tian X, et al. *Computed Tomography Findings in Progressive Massive Fibrosis: Analyses of 90 Cases.* La Medicina del Lavoro. 2022（tier 2，PMC 免費全文）。DOI: 10.23749/mdl.v113i1.12303。數據：95.6% 上葉、雙側 90%、不規則形 78.3%、鈣化 62.6%（點狀為主）、空洞 5.6%、淋巴結腫大 83.3%（蛋殼 24.4%）、band 86%、胸膜內陷 80%、paracicatricial emphysema。
 [^3]: *Progressive Massive Fibrosis Mimicking Lung Cancer: Two Case Reports with Potentially Useful CT Features for Differential Diagnosis.* Journal of the Korean Society of Radiology（J Korean Soc Radiol）. 2022（tier 2，PMC 免費全文）。DOI: 10.3348/jksr.2021.0185。FDG-PET SUVmax 5.4 與 2.0；PET 在塵肺偽陽性率高、角色有限；3D 重組評估團塊沿縱向與支氣管血管束增厚相連有助診斷 PMF。
-[^4]: Chong S, et al. *Pneumoconiosis: Comparison of Imaging and Pathologic Findings.* RadioGraphics. 2006;26(1):59-77（tier 1）。DOI: 10.1148/rg.261055070。PMF 由上肺小結節聚合形成大團塊之影像-病理對照。
+[^4]: Chong S, et al. *Pneumoconiosis: Comparison of Imaging and Pathologic Findings.* RadioGraphics. 2006;26(1):59-77（tier 1）。DOI: 10.1148/rg.261055070。PMF 由上肺小結節聚合形成大團塊之影像-病理對照；silicosis 之 simple/complicated/acute（silicoproteinosis）分型與影像-病理對照。
+[^5]: *Silicosis*. Radiopaedia.org（公開，rID 12513，DOI 10.53347/rID-12513，accessed 2026-07-10）。silicosis＝吸入結晶型二氧化矽細顆粒之纖維化塵肺；分 classic（simple＝小圓/不規則陰影、complicated＝大團塊＝PMF）、accelerated、acute（silicoproteinosis）；acute silicosis CT＝雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation（類 crazy-paving）；淋巴結周邊（蛋殼）鈣化高度提示 silicosis。
+
+## 題目
+
+> [!question]- Among the following descriptions about silicosis, which is right? (2021-344)
+> **D（All above）**——三敘述皆正確：A silicosis 由吸入**結晶型二氧化矽**細顆粒所致；B **simple silicosis**＝小而圓/不規則小陰影，**complicated silicosis（＝PMF）**＝大團塊；C **acute silicosis（silicoproteinosis）**CT 呈雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation、類 crazy-paving。故正解為 D。
 
 ## 考題
 ```dataview

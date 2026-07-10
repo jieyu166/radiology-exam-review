@@ -6,7 +6,7 @@ aliases:
   - prostate cancer imaging
   - peripheral zone prostate cancer
   - 攝護腺腺癌影像
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # prostate-adenocarcinoma-imaging
