@@ -157,7 +157,9 @@
       "reference": "ACR BI-RADS Atlas® 5th Edition, Frequently asked question section；2021 交換考官方詳解 PDF p85",
       "explanation": "【2021 官方詳解】\nC. Bilateral axillary adenopathy would be assessed as benign (BI-RADS® category 2) in some situations and as suspicious (BI-RADS® category 4) in others.\n- Bilateral axillary adenopathy is frequently reactive/infectious in origin, such as with inflammatory conditions (sarcoidosis, systemic lupus erythematosis, psoriasis, etc.) and HIV. => Bi-RADS 2\n- If there is no known explanation for bilateral adenopathy, and particularly if it is new, then it may be a sign of lymphoma/leukemia, and a suspicious (BI-RADS® category 4) assessment is warranted, with a recommendation for US-guided FNA or core biopsy.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "axillary-adenopathy-mammography"
+      ],
       "checked": false,
       "sourcePage2021": 85
     },
@@ -3277,7 +3279,9 @@
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 80, 85.；2021 交換考官方詳解 PDF p41",
       "explanation": "- A不夠全面。除了病人，我們人員的輻射劑量也要盡量減少。\n- 輻射防護要防止確定效應的發生，並使機率效應的發生降低至合理可接受的低水平。除了降低病人劑量，也要考慮輻射源本身的屏蔽，以降低一般大眾或工作人員的劑量。(醫學影像物理學Chp.31)\n- 目標ALARA: As Low As Reasonable Achievable合理抑低。\n- 考書中文字。The principle is that the residual risk shall be reduced as far as reasonably practicable. Unnecessary radiation is eliminated. (Review of radiologic physics 4th Ed.)\n\n【2021 官方詳解】\n嗯嗯\nThe principle is that the residual risk shall be reduced as far as reasonably practicable. Unnecessary radiation is eliminated",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "alara-principle"
+      ],
       "checked": false,
       "sourcePage2021": 41
     },
@@ -5263,7 +5267,9 @@
       "reference": "2021 交換考官方詳解 PDF p81",
       "explanation": "【2021 官方詳解】\nInterstitial Lung Disease symptoms:\n  - Shortness of breath at rest or aggravated by exertion\n  - Dry cough\nPulmonary Fibrosis symptoms:\n  - Shortness of breath (dyspnea)\n  - A dry cough\n  - Fatigue\n  - Unexplained weight loss\n  - Aching muscles and joints\n  - Widening and rounding of the tips of the fingers or toes (clubbing)\nMayo Clinic 寫的，不服氣的話，申請進去 然後嗆他們．",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-chest-pain-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉原彰",
@@ -10680,7 +10686,9 @@
       "reference": "2020台灣腦中風學會缺血性腦中風相關之血壓 控制指引；2021 交換考官方詳解 PDF p242",
       "explanation": "【2021 官方詳解】\n(A)未接受再灌流治療者，除了須緊急降壓的情況之外(例如嚴重的心衰竭、主動脈剝離、高血壓腦症等)，在發生缺血性腦中風24小時內，建議收縮壓超過220 mmHg或舒張壓超過120 mmH時再開始使用降壓藥物。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "李崇維醫師",
@@ -13137,7 +13145,9 @@
       "reference": "Breast J. 2021 Jan;27(1):44-47.；2021 交換考官方詳解 PDF p347",
       "explanation": "【2021 官方詳解】\n(以上皆對) Ref: Review of axillary web syndrome: What the radiologist should know, European Journal of Radiology\nAxillary web syndrome\ncommon after axillary surgery, frequently affecting breast cancer patients.\none or more linear bands of firm tissue, also known as “cords”, in the axilla and arm, associated with pain and limited range of motion of the shoulder and arm\nEtiology:\nlymphovenous tissue damage with disruption of superficial lymphatics and veins during surgery, resulting in superficial venous and lymphatic stasis and local hypercoagulability and thrombosis.\nUS: deformation of the dermis with shoulder abduction, an anechoic cord with hyperechoic edge, likely the lumen of a vessel and vesselwall, and hyperechoic structures thought to represent fibrosis.\nno flow on Doppler images.\nMRI: the cords were visible as low signal subcutaneous linear bands or dots",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "axillary-web-syndrome"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "周春平",

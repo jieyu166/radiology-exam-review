@@ -71,12 +71,20 @@ down:
 [^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。PMID 33928011）。
 [^4]: 台灣腦中風學會治療指引（官網 http://www.stroke.org.tw/guideline/ ，實際查證 accessed 2026-06-17）。**2023 急性缺血中風動脈內血栓移除治療指引更新（全文已讀，官網公開 PDF）**：EVT 窗 6–24h；6–24h 以 CTP/MRP 或 CTA collateral score／DWI infarct core 選病人（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT）；納入 large-core EVT 證據。另列 2025 急性缺血性腦中風處置建議、2025 IVT 指引更新、2026 Tenecteplase IVT 共識、2019 EVT/IVT 指引。
 [^5]: *Endovascular clot retrieval (ECR)*. Radiopaedia.org（亦稱 mechanical thrombectomy／EVT；rID 57136；DOI [10.53347/rID-57136](https://doi.org/10.53347/rID-57136)；實際查證 accessed 2026-07-06）：適用**前循環大血管阻塞（LVO）**之急性缺血中風；**發病 6 小時內證據穩固**，並延伸至 24 小時及大梗塞核心病人（DAWN/DEFUSE-3 等）；禁忌含初始 NECT 上出血、無可救腦組織之大梗塞核心。佐證取栓病人選擇原則。
+[^6]: **Tier 1** Powers WJ, Rabinstein AA, et al. *2019 AHA/ASA Guidelines*（同 [^2]，Stroke 2019;50(12):e344-e418，DOI [10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211)）＋台灣腦中風學會急性缺血中風血壓處置建議（見 [^4] 官網指引）；經 AHA 2019 條文實際查證 accessed 2026-07-10——**未接受再灌流者採 permissive hypertension，發病 24h 內須 SBP > 220 或 DBP > 120 才降壓**（門檻非 160/60）；**IVT 前 < 185/110、後 24h 維持 < 180/105**；**EVT 術前（未 IVT）< 185/110 合理、術後 24h < 180/105 合理**；台灣指引另建議**成功再灌流（mTICI 2b–3）後可考慮較低目標 < 140/90**。
 
 ## EVT 病人選擇（2015 AHA/ASA Class I 六準則）
 > [!info] 六準則（全部符合方為 Class I）：**prestroke mRS 0–1**、**致病阻塞位於 ICA 或 MCA M1**、**年齡 ≥18**、**NIHSS ≥6**、**ASPECTS ≥6**、**groin puncture 可於發病 6 小時內開始**。考試陷阱：NIHSS 門檻為 **≥6，非 ≥4**。[^1][^5]
 
 ## r-tPA 主要禁忌（節選）
 > [!info] 近期顱內出血史／活動性出血；**48 小時內用 heparin 且 aPTT 上升**；**血小板 < 100,000/mm³**；**血糖 < 50 或 > 400 mg/dL** 等異常；**前 14 天內重大手術或嚴重非頭部外傷**（考題常寫「10 天內」）；INR 過高；BP > 185/110 未控制等。注意：**進行 CTA 評估取栓並非禁忌**，而是必要的血管評估流程。[^1]
+
+## 急性期血壓管理（AHA/ASA 2019＋台灣指引）
+> [!info] 記憶錨點：**未再灌流 → 忍到 220/120 才降；要打 tPA → 先壓到 185/110；打完/取栓後 24h → 維持 180/105；成功再灌流(mTICI 2b-3) → 可考慮更低 140/90。**
+- **未接受再灌流治療者（permissive hypertension）**：除須緊急降壓之情況（嚴重心衰竭、主動脈剝離、高血壓腦症等）外，發病 **24 小時內須收縮壓 > 220 mmHg 或舒張壓 > 120 mmHg 才開始使用降壓藥物**——門檻並非 160/60（2021-274 選項 A 誤植為 >160/>60 之過低門檻，故 A 為非）。[^2][^6]
+- **符合靜脈血栓溶解（IVT）者**：注射 tPA **前**血壓須 < 185/110；注射時／後 **24 小時內維持 < 180/105**。[^2][^6]
+- **接受動脈內血栓移除（EVT）者，術前未接受 IVT**：術前把血壓控制在 **< 185/110** 是合理的。[^6]
+- **EVT 術後**：術後 24 小時內維持 **< 180/105** 是合理的；**若成功再灌流（mTICI 2b–3），術後 24 小時內可考慮維持較低範圍（如 < 140/90）**。[^6]
 
 ## 題目
 > [!question]- Which of the following is FALSE about the indication of endovascular thrombectomy in a patient with acute ischemic stroke? (2022-443)
@@ -90,6 +98,9 @@ down:
 
 > [!question]- 下列關於rt-PA及EVT相關敘述，何者為非? (2021-273)
 > **A（rt-PA效用不因血管大小而異、大血栓治療效果也很好——此為錯誤敘述）**——rt-PA對ICA/MCA近端、基底動脈等大血栓再通率僅約二至三成，效果欠佳，正是EVT發展的理由。B（EVT Class I六準則：≥18歲、mRS≤1、NIHSS≥6、ICA/M1阻塞、ASPECTS≥6、6h內groin puncture）、C（M2/M3仍可評估）、D皆為正確敘述。
+
+> [!question]- 以下關於缺血性腦中風急性期的血壓控制建議，何者為非? (2021-274)
+> **A（未接受再灌流者，發生缺血中風 24h 內，收縮壓 > 160 或舒張壓 > 60 mmHg 即開始降壓）——此為錯誤敘述**。正確門檻為**收縮壓 > 220 或舒張壓 > 120 mmHg**（permissive hypertension，除非有嚴重心衰、主動脈剝離、高血壓腦症等須緊急降壓情況）；選項 A 之 160/60 過低。其餘皆正確：B（符合 IVT 者注射時血壓控制 < 185/110）、C（EVT 術前未 IVT 者控制 < 185/110 合理）、D（EVT 術後 24h 維持 < 180/105；成功再灌流 mTICI 2b-3 可考慮 < 140/90）。[^2][^6]
 
 ## 考題
 ```dataview
