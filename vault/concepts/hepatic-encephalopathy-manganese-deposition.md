@@ -8,7 +8,7 @@ aliases:
   - hepatic encephalopathy MRI
   - globus pallidus T1 hyperintensity
   - 肝硬化錳沉積
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 same:
   - "[[gadolinium-contrast]]"
 ---
@@ -42,14 +42,29 @@ same:
 > [!note] 考點：肝硬化病人腦部T1WI雙側globus pallidus/substantia nigra高訊號，歸因於何物質沉積？
 > **錳 Manganese（B）**——肝功能不良使經膽道排泄之錳滯留並沉積於基底核（±黑質/中腦），T1WI 雙側對稱高訊號、無需顯影。非 ammonia（腦病變主要毒素但非沉積物）、非 gadolinium（需多次顯影史、典型齒狀核+GP）、非 magnesium。[^1][^2]
 
+## 延伸考點：退化性/代謝性疾病影像（複合「all of above」題）
+本錳沉積屬「嚴重肝功能不良 → globus pallidus T1 高訊號」一環（下列 Wilson 選項的後半）。同一複合題另涉三個影像徵象，並列如下：
+- **Parkinson disease — swallow tail sign 消失**：正常黑質（substantia nigra）在高解析 T2*/SWI 軸位呈燕尾狀（swallow tail）高訊號；此高訊號**消失（absent swallow tail sign）**對 Parkinson disease 與 dementia with Lewy bodies 之診斷準確度 >90%（原始報告 PD 的 NPV 達 100%）——為極具前景的診斷徵象。（註：swallow tail 與 nigrosome-1 曾被視為同義，後續研究認為兩者不應等同。）[^4]
+- **Dementia with Lewy bodies（DLB）— mesial temporal/海馬相對保留**：DLB 之 **mesial temporal lobe 與 hippocampi 大小相對正常**，藉此與 Alzheimer disease（典型內側顳葉/海馬萎縮）區分；另見中腦/下視丘/substantia innominata 局部萎縮與 absent swallow tail sign。[^5]
+- **Wilson disease — 神經型 T1 低訊號 vs 嚴重肝功能不良 GP T1 高訊號**：Wilson 最常見為**putamina T2 高訊號**（深部灰核為主），可見 **face of the giant panda sign（中腦被蓋）**、miniature panda（橋腦）；**神經型於 T1WI 呈低訊號**；而**嚴重肝功能不良者反於 T1WI（尤其 globi pallidi）呈高訊號，與 manganese 沉積之 acquired（非 Wilson）hepatocerebral degeneration 相似**；早期偶見擴散受限。[^6]
+
+> [!note] 考點：以下敘述何者正確？(PD swallow tail / DLB mesial temporal / Wilson T1 訊號)
+> **All of above（D）**——三段敘述皆正確：PD 之 swallow tail sign 消失為極具前景之診斷徵象；DLB 之 mesial temporal/海馬相對保留可與 AD 區分；Wilson 神經型 T1 低訊號、而嚴重肝功能不良者 GP T1 高訊號（似 manganese 沉積之肝腦退化）。[^4][^5][^6]
+
 ### 參考來源
 [^1]: Fischbein NJ. *Bilateral Basal Ganglia Lesions* (Dx). STATdx, updated 02/17/23. Elsevier——金屬離子沉積致雙側對稱 GP T1 高訊號：**Manganese（TPN/慢性肝病）** vs **Gadolinium（典型齒狀核 + GP、線性不穩定 Gd 劑、即使 BBB 完整/腎功能正常）**；生理性礦化（老化、GP、CT 鈣化/MR 鐵）；caudate±putamen 受累提示代謝性。
 [^2]: Gaillard F, et al. *Acquired hepatocerebral degeneration*. Radiopaedia, rID-45917, DOI 10.53347/rID-45917——錳過載造成 GP、subthalamic region、中腦（substantia nigra）T1 內在高訊號；肝移植後可逆轉。
 [^3]: 官方 2020 詳解（中山）；Ref: Hegde AN, et al. *Differential Diagnosis for Bilateral Abnormalities of the Basal Ganglia and Thalamus*. RadioGraphics 2011;31(1):5-30（題目所引，differential review）——已由上述一手來源查核取代其結論（錳沉積於 GP/substantia nigra、T1 高訊號、與氨/釓/鎂之鑑別）。
+[^4]: *Swallow tail sign (substantia nigra)*. Radiopaedia.org, rID-31109. DOI: https://doi.org/10.53347/rID-31109（實查 2026-07-10）——正常黑質於高解析 SWI 軸位呈燕尾狀高訊號；absent swallow tail sign 對 PD 與 DLB 診斷準確度 >90%（PD 原始 NPV 100%）；swallow tail 與 nigrosome-1 不宜等同。
+[^5]: *Dementia with Lewy bodies*. Radiopaedia.org, rID-7270. DOI: https://doi.org/10.53347/rID-7270（實查 2026-07-10）——「the mesial temporal lobe and hippocampi remain relatively normal in size, helping to distinguish DLB from Alzheimer disease」；另見中腦/下視丘/substantia innominata 局部萎縮、absent swallow tail sign。
+[^6]: *Wilson disease (CNS manifestations)*. Radiopaedia.org, rID-39667. DOI: https://doi.org/10.53347/rID-39667（實查 2026-07-10）——putamina T2 高訊號最常見；T1 訊號多變：神經型呈 reduced T1，嚴重肝功能不良者呈 increased T1（尤 globi pallidi，似 manganese 沉積之非 Wilson hepatocerebral degeneration）；face of giant panda（中腦被蓋）、miniature panda（橋腦）。
 
 ## 題目
 > [!question]- Brain MRI findings in hepatic cirrhosis include bilateral hyperintense areas in the globus pallidus and substantia nigra on T1WI. These findings have been attributed to the deposition of? (2020-210)
 > **Manganese（B）**——肝硬化致錳經膽道排泄受阻而沉積於 globus pallidus 與 substantia nigra，T1WI 呈雙側對稱高訊號，無需顯影劑。[^1][^2]
+
+> [!question]- Which statement is correct? (A) PD 之黑質 swallow tail sign 消失為最具前景診斷徵象 (B) DLB 之 mesial temporal/hippocampi 相對正常，可與 AD 區分 (C) Wilson 神經型 T1 低訊號、嚴重肝功能不良者 GP T1 高訊號（似 manganese 沉積） (2021-169)
+> **D（All of above）**——三段敘述皆正確。A：absent swallow tail sign 對 PD 診斷準確度 >90%；B：DLB 之內側顳葉/海馬相對保留有助與 AD 區分；C：Wilson 神經型 T1WI 低訊號，而嚴重肝功能不良者 globus pallidus T1WI 高訊號，與 manganese 沉積之 acquired（非 Wilson）hepatocerebral degeneration 相似。[^4][^5][^6]
 
 ## 考題
 ```dataview

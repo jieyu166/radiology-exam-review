@@ -5,7 +5,7 @@ subspecialty: [PE, ABD]
 aliases:
   - hepatoblastoma
   - 肝母細胞瘤
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # hepatoblastoma-imaging
@@ -37,13 +37,33 @@ dateRev: 2026-07-03
 > [!note] 考點：以下何者非肝母細胞瘤典型影像特徵？
 > **囊性（Cystic，B）**——肝母細胞瘤典型為邊界清楚異質性低密度腫塊，CT 約 40% 有緻密塊狀鈣化，並非典型囊性病灶（囊性為主應想 mesenchymal hamartoma）。[^1][^2]
 
+## PRETEXT 分期系統（PRE-Treatment EXTent of tumor）
+用於兒童任何肝腫瘤（2005 修訂後不限 hepatoblastoma），為 hepatoblastoma／HCC 之強力總存活預測因子；以「radiologically 未被腫瘤侵犯之相鄰肝 section 數」決定 group（I–IV），數字越高、預後越差。[^3]
+
+- **肝分四 section（依 Couinaud）**：left lateral（segments 2、3）、left medial（4a、4b）、right anterior（5、8）、right posterior（6、7）。**caudate lobe（segment 1）原始系統忽略、另以字母 C 標註。**[^3]
+- **PRETEXT I**：一個 section 受侵，三個相鄰 section 無腫瘤。[^3]
+- **PRETEXT II**：一或兩個 section 受侵，仍有兩個相鄰 section 無腫瘤。**（僅侵犯 caudate lobe 者依慣例歸為 PRETEXT II，非 I）**[^3][^4]
+- **PRETEXT III**：三個 section 受侵且一個 section 無腫瘤；或兩個 section 受侵但無腫瘤之兩個 section 不相鄰。[^3]
+- **PRETEXT IV**：四個 section 全受侵，無任何 section 無腫瘤。[^3]
+- **附加分類（annotation factors）**：**C**（caudate lobe 侵犯）、**E**（extrahepatic abdominal disease）、**F**（tumor focality／多發）、**H**（tumor rupture／腹腔內出血）、**M**（distant metastases）、**N**（lymph node metastases）、**P**（portal vein 侵犯）、**V**（IVC/肝靜脈侵犯）。[^3]
+- **風險分層**：high-risk＝PRETEXT IV、AFP <100 μg/L 或極高（>1,000,000 ng/mL）、或含 E/H/M/N/P/V 附加條件；其餘為 standard risk。[^3]
+- **遠端轉移**：**肺為 hepatoblastoma／HCC 最常見遠端轉移部位。**[^2]
+
+> [!note] 考點：關於 PRETEXT 系統何者為誤？
+> **「Tumor in caudate lobe only is classified as PRETEXT I（C）」為誤**——僅侵犯 caudate lobe 者依慣例歸為 **PRETEXT II**。其餘正確：A PRETEXT 為 hepatoblastoma/HCC 總存活之強力預測因子；B group（I–IV）以未受侵之相鄰肝 section 數決定；D 肺為最常見遠端轉移部位。[^3][^4]
+
 ### 參考來源
 [^1]: Woodward PJ. *Hepatoblastoma* (Dx, 胎兒/OB 觀點). STATdx, updated 06/08/25（10 refs）. Elsevier——最常見原發肝惡性；well-defined 實質腫塊、纖維隔膜 spoke-wheel、壞死/出血可較囊性；血流輕-中度雜亂、無大血管（別於 congenital hepatic hemangioma）；associated with Beckwith-Wiedemann（易罹 Wilms + hepatoblastoma）；DDx congenital hepatic hemangioma/mesenchymal hamartoma/metastatic neuroblastoma；AFP 可升高。
-[^2]: Gaillard F, et al. *Hepatoblastoma*. Radiopaedia, rID-8376——兒童 <4 歲最常見原發肝惡性、無痛腹部腫塊、AFP 升高 90%；CT well-defined hypoattenuating 異質腫塊 + 壞死/出血 + **chunky dense 鈣化 ~40%**（平片 10%）；MRI 優於 CT 於邊界/血管/淋巴結（T1 低、T2 高、異質強化）；associations（Beckwith-Wiedemann、hemihypertrophy 2%、FAP）。原「官方 2020 詳解／Caffey's 13th p.838-839」弱來源已由上述一手來源查核取代（40% 緻密鈣化為 CT 數字）。
+[^2]: Gaillard F, et al. *Hepatoblastoma*. Radiopaedia, rID-8376——兒童 <4 歲最常見原發肝惡性、無痛腹部腫塊、AFP 升高 90%；CT well-defined hypoattenuating 異質腫塊 + 壞死/出血 + **chunky dense 鈣化 ~40%**（平片 10%）；MRI 優於 CT 於邊界/血管/淋巴結（T1 低、T2 高、異質強化）；associations（Beckwith-Wiedemann、hemihypertrophy 2%、FAP）；**肺為最常見遠端轉移部位**。原「官方 2020 詳解／Caffey's 13th p.838-839」弱來源已由上述一手來源查核取代（40% 緻密鈣化為 CT 數字）。
+[^3]: *Pediatric liver tumor staging (PRETEXT grouping system)*. Radiopaedia.org, rID-23826. DOI: https://doi.org/10.53347/rID-23826（實查 2026-07-10）——肝分四 section（LL 2/3、LM 4a/4b、RA 5/8、RP 6/7）、caudate（seg 1）以字母 C 標註；PRETEXT I–IV 以未受侵之相鄰 section 數定義；附加分類 C/E/F/H/M/N/P/V；風險分層（high-risk＝IV、AFP<100 或 >1M、含 E/H/M/N/P/V）。
+[^4]: 官方 2021 詳解（題目 2021-369）＋ SIOPEL 2005 PRETEXT 修訂慣例——「僅侵犯 caudate lobe 者依慣例歸為 PRETEXT II（非 I）」。Radiopaedia（rID-23826）確認 caudate 於系統中以獨立字母 C 處理，與 PRETEXT II 慣例一致。
 
 ## 題目
 > [!question]- Which of the following imaging features is not typically seen in hepatoblastoma? (2020-411)
 > **囊性（Cystic，B）**——非典型特徵；典型為邊界清楚異質性低密度腫塊，CT 約 40% 緻密塊狀鈣化。[^1][^2]
+
+> [!question]- Which of the statements about the PRETEXT (PRE-Treatment EXTent of tumor) system is wrong? (2021-369)
+> **C（Tumor in caudate lobe only is classified as PRETEXT I）為誤**——僅侵犯 caudate lobe 者依慣例歸為 **PRETEXT II**。其餘正確：A PRETEXT 為 hepatoblastoma/HCC 總存活之強力預測因子；B group 以未受侵之相鄰肝 section 數決定；D 肺為兒童 hepatoblastoma/HCC 最常見遠端轉移部位。[^3][^4]
 
 ## 考題
 ```dataview

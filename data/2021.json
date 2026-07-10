@@ -6607,7 +6607,9 @@
       "reference": "UpToDate；2021 交換考官方詳解 PDF p124",
       "explanation": "【2021 官方詳解】\nParkinson disease: Loss of the normal swallow tail appearance of susceptibility signal pattern in the substantia nigra on axial imaging is perhaps the most promising diagnostic sign\nWilson disease:\n- Most common: Abnormal T2 hyperintensity in the putamina\n- T2 signal abnormality predominantly affect the deep gray nuclei.\n- Face of the giant panda sign (Involvement of midbrain tegmentum)\n- Miniature panda sign (Axial T2 MR at pons)\n- On T1-weighted hypointensity\n- *** Patients with severe hepatic dysfunction show areas of T1 hyperintensity, especially in the globus pallidus, similar to that seen in acquired (non-Wilsonian) hepatocerebral degeneration attributed to manganese deposition .\n- Diffusion restriction may be seen early in the course of the disease 7.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatic-encephalopathy-manganese-deposition"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳泰源",
@@ -10053,7 +10055,9 @@
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.5 (with modifications); doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p224",
       "explanation": "【2021 官方詳解】\nEpidermal inclusion cysts (EICs) are the third most common soft tissue mass of the hand and often result when penetrating trauma deposits keratin-producing epithelial cells into the subdermal tissues. Consequently, they are found most commonly on the tactile surfaces of the digits. T1 and T2 signal on MRI can be variable, depending on their proteinaceous content. Calcifications are uncommon and are more suggestive of pilomatricoma (ie, a benign solitary hair follicle mass).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hand-wrist-soft-tissue-masses"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "王彧宸",
@@ -11815,7 +11819,9 @@
       "images": [
         "2021-301-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "丁偉義",
@@ -13867,7 +13873,9 @@
         "2021-353-1.png",
         "2021-353-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hepatic-lymphatic-drainage"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總邱乃祈醫師",
@@ -14492,7 +14500,9 @@
       "reference": "Pediatric Radiology (2018) 48:536–554；2021 交換考官方詳解 PDF p391",
       "explanation": "【2021 官方詳解】\nC.\nIf tumor only involves the caudate lobe, it should be considered a PRETEXT II tumor by convention\nPediatric liver tumor staging (PRETEXT grouping system)\nUsed for any tumor lesion of the liver in children\nThe liver segments are grouped into sections:\nleft lateral section: segments 2 and 3\nleft medial section: segments 4a and 4b\nright anterior section: segments 5 and 8\nright posterior section: segments 6 and 7\n(Only caudate lobe involvement => PRETEXT II)\nPRETEXT I : one section is involved and three adjoining sections are free\nPRETEXT II : one or two sections are involved, but two adjoining sections are free\nPRETEXT III : tumor involves three liver sections and one liver section is free of tumor or tumor involves\ntwo liver sections and two non-adjoining liver sections are free of tumor\nPRETEXT IV: all four sections are involved, there is no liver section free of tumor\nPRETEXT system divides patients into two risk groups:\nhigh-risk group :\nPRETEXT number IV\nserum alpha fetoprotein <100 μg/L or very high AFP (>1 million ng/ml)\npresence of additional PRETEXT criteria from groups E, H, M, N, P, and V\nthe rest of patients belong to the standard risk group\nadditional categories\ncaudate lobe involvement ( C)\nextrahepatic abdominal disease (E)\ntumor focality (F)\ntumor rupture or intraperitoneal hemorrhage (H)\ndistant metastases (M)\nlymph node metastases (N)\nportal vein involvement (P)\ninvolvement of the IVC and/or hepatic veins (V)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatoblastoma-imaging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總余思賢醫師",
