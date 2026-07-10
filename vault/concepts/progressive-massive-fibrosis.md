@@ -7,7 +7,7 @@ aliases:
   - PMF
   - complicated pneumoconiosis
   - 進行性大量纖維化
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # progressive-massive-fibrosis

@@ -11120,9 +11120,6 @@
       "correctAnswer": "D",
       "reference": "Greenberg, S. M., & Charidimou, A. (2018). Diagnosis of cerebral amyloid angiopathy: evolution of the Boston criteria. Stroke, 49(2), 491-497. Pasi, M., Charidimou, A., Boulouis, G., Auriel, E., Ayres, A., Schwab, K. M., ... & Gurol, M. E. (2018). Mixed-location cerebral hemorrhage/microbleeds: underlying microangiopathy and recurrence risk. Neurology, 90(2), e119-e126.；2021 交換考官方詳解 PDF p244",
       "explanation": "【2021 官方詳解】\n(D) Probable CAA with supporting pathology, Probable CAA, and Possible CAA may show deep microbleeds\n\n⚠️ 本題含影像（官方詳解 PDF 第 244 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-276-2.png"
-      ],
       "concepts": [
         "cerebral-amyloid-angiopathy"
       ],
@@ -11136,6 +11133,11 @@
           "file": "2021-276-1.png",
           "type": "text",
           "markdown": "**Definite CAA**（Boston criteria）\n\nFull postmortem examination demonstrating:\n- Lobar, cortical, or cortical–subcortical hemorrhage\n- Severe CAA with vasculopathy\n- Absence of other diagnostic lesion"
+        },
+        {
+          "file": "2021-276-2.png",
+          "type": "table",
+          "markdown": "**Table 1. Modified Boston Criteria for CAA**\n\n**Definite CAA** — Full postmortem examination demonstrating:\n- Lobar, cortical, or cortical–subcortical hemorrhage\n- Severe CAA with vasculopathy\n- Absence of other diagnostic lesion\n\n**Probable CAA with supporting pathology** — Clinical data and pathological tissue (evacuated hematoma or cortical biopsy) demonstrating:\n- Lobar, cortical, or cortical–subcortical hemorrhage (including ICH, CMB, or cSS)\n- Some degree of CAA in specimen\n- Absence of other diagnostic lesion\n\n**Probable CAA** — Clinical data and MRI or CT demonstrating:\n- Multiple hemorrhages (ICH, CMB) restricted to lobar, cortical, or cortical–subcortical regions (cerebellar hemorrhage allowed), or single lobar, cortical, or cortical–subcortical hemorrhage and cSS (focal or disseminated)\n- Age ≥55 y\n- Absence of other cause of hemorrhage*\n\n**Possible CAA** — Clinical data and MRI or CT demonstrating:\n- Single lobar, cortical, or cortical–subcortical ICH, CMB, or cSS (focal or disseminated)\n- Age ≥55 y\n- Absence of other cause of hemorrhage*\n\nCAA indicates cerebral amyloid angiopathy; CMB, cerebral microbleed; cSS, cortical superficial siderosis; CT, computed tomography; ICH, intracerebral hemorrhage; and MRI, magnetic resonance imaging.\n\n*Other causes of hemorrhage (differential diagnosis of lobar hemorrhages): antecedent head trauma, hemorrhagic transformation of an ischemic stroke, arteriovenous malformation, hemorrhagic tumor, warfarin therapy with international normalization ratio >3, and vasculitis."
         }
       ]
     },
@@ -11319,9 +11321,6 @@
       "correctAnswer": "B",
       "reference": "Intracranial Vessel Wall MRI: Principles and Expert Consensus Recommendations of the American Society of Neuroradiology. AJNR Am J Neuroradiol; 2017;38:218–29；2021 交換考官方詳解 PDF p250",
       "explanation": "【2021 官方詳解】\n(A)(C)(D)如下圖 (B) Slow flow and Vasa Vasorum of major extracranial arteries may mimic vessel wall thickening, wall enhancement, and vasculitis. Most VW-MR imaging techniques rely on blood flow to achieve blood-signal suppression. Blood flow is often laminar, with lower velocity closer to the vessel wall. Incomplete signal suppression in the periphery of the lumen can mimic vessel wall thickening and/or wall enhancement. Factors predisposing to these artifacts include recirculating or slow flow within an aneurysm, low velocity flow in a dilated artery, and retrograde filling of a branch artery via leptomeningeal collaterals when there is proximal arterial occlusion.\nThe walls of major extracranial arteries receive blood supply through the vasa vasorum, a network of small vessels within the outer aspect of the vessel wall itself. Intracranial vessels in children lack a vasa vasorum. However, with increasing age and with atherosclerotic risk factors, extracranial vasa vasorum can extend into the proximal intracranial segments of the internal carotid and vertebral arteries. In patients with a variety of intracranial arterial diseases, a vasa vasorum can also develop distant from the extracranial vasa vasorum, with supply from nearby intracranial arteries. Vasa vasorum can cause concentric arterial wall thickening and enhancement, which mimic vasculitis.\n\n⚠️ 本題含影像（官方詳解 PDF 第 250 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-281-1.png"
-      ],
       "concepts": [
         "mri-vessel-wall-imaging"
       ],
@@ -11329,7 +11328,14 @@
       "difficulty": "中",
       "author": "林彥亨",
       "sourcePage2021": 250,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-281-1.png",
+          "type": "text",
+          "markdown": "**RECOMMENDATIONS FOR CLINICAL PRACTICE**\n\n**Intracranial VW-MR Imaging Is Likely a Useful Adjunct to Conventional Imaging**\n1) To differentiate among causes of intracranial arterial narrowing such as intracranial atherosclerotic plaque, vasculitis, reversible cerebral vasoconstriction syndrome, and arterial dissection.\n2) To identify symptomatic, nonstenotic disease of the intracranial arteries.\n\n**Intracranial VW-MR Imaging Is Possibly a Useful Adjunct to Conventional Imaging**\n1) To determine the location of atherosclerotic plaque relative to branch artery ostia.\n2) To assess atherosclerotic plaque activity.\n3) To assess vasculitis activity.\n4) To select an intracranial target for biopsy in suspected CNS vasculitis.\n5) To determine which aneurysm has ruptured in patients with acute subarachnoid hemorrhage and multiple aneurysms.\n\n**Intracranial VW-MR Imaging Is Currently in the Domain of Research**\n1) To predict future behavior of unruptured intracranial saccular aneurysms."
+        }
+      ]
     },
     {
       "id": "2021-282",
@@ -11399,9 +11405,6 @@
       "correctAnswer": "D",
       "reference": "Dahner Radiology Review Manual 7th ed., p. 58；2021 交換考官方詳解 PDF p253",
       "explanation": "⚠️ 疑似與 2021-048 為同一題（相似度 0.849），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 253 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-283-1.png"
-      ],
       "concepts": [
         "chondroblastoma"
       ],
@@ -11409,7 +11412,14 @@
       "difficulty": "普通",
       "author": "J-W Ku (SHH)",
       "sourcePage2021": 253,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-283-1.png",
+          "type": "text",
+          "markdown": "**CHONDROBLASTOMA**（= Codman tumor = benign chondroblastoma = cartilage-containing giant cell tumor）\n\n- **Incidence:** 1% of primary bone neoplasms (700 cases in world literature)\n- **Age:** peak in 2nd decade (range 8–59 years); 10–26 years (90%); M:F = 2:1; occurs before cessation of enchondral bone growth\n- **Path:** derived from primitive cartilage cells\n- **Histo:** polyhedral chondroblasts + multinucleated giant cells + nodules of pink amorphous material (= chondroid) = epiphyseal chondromatous giant cell tumor (resembles chondromyxoid fibroma); \"chicken wire\" calcification = pericellular deposition of calcification is virtually PATHOGNOMONIC\n- symptomatic for months to years prior to treatment\n- mild joint pain, tenderness, swelling (joint effusion)\n- limitation of motion\n- **Location:**\n  - (a) long bones (80%): proximal femur + greater trochanter (23%), distal femur (20%), proximal tibia (17%), proximal humerus (17%); 2/3 in lower extremity, 50% about knee; may occur in apophyses (minor + greater trochanter, patella, greater tuberosity of humerus)\n  - (b) flat bones: near triradiate cartilage of innominate bone, rib (3%)\n  - (c) short tubular bones of hand + feet\n- **Site:** eccentric medullary, subarticular location with open growth plate (98% begin within epiphysis); tumor growth may continue to involve metaphysis (50%) + rarely diaphysis"
+        }
+      ]
     },
     {
       "id": "2021-284",
@@ -11439,9 +11449,6 @@
       "correctAnswer": "C",
       "reference": "Dahnert Radiology Review Manual 7th ed., pp. 32-33  = =” p.137才對…….；2021 交換考官方詳解 PDF p255",
       "explanation": "【2021 官方詳解】\n(C) Older women\n\n⚠️ 本題含影像（官方詳解 PDF 第 255 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-284-1.png"
-      ],
       "concepts": [
         "milwaukee-shoulder"
       ],
@@ -11449,7 +11456,14 @@
       "difficulty": "普通",
       "author": "J-W Ku (SHH)",
       "sourcePage2021": 255,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-284-1.png",
+          "type": "text",
+          "markdown": "**Milwaukee Shoulder** = association of\n1. complete rotator cuff tear\n2. osteoarthritic changes\n3. noninflammatory joint effusion containing calcium hydroxyapatite and calcium pyrophosphate dihydrate (CPPD) crystals\n4. hyperplasia of synovium\n5. destruction of cartilage + subchondral bone\n6. multiple osteochondral loose bodies\n\n- **Age:** older woman\n- frequent history of trauma"
+        }
+      ]
     },
     {
       "id": "2021-285",
@@ -12261,9 +12275,6 @@
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 85；2021 交換考官方詳解 PDF p277",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 277 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-303-1.png"
-      ],
       "concepts": [
         "adrenal-lesions"
       ],
@@ -12271,7 +12282,14 @@
       "difficulty": "中",
       "author": "姜振華",
       "sourcePage2021": 277,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-303-1.png",
+          "type": "text",
+          "markdown": "**Pheochromocytoma（10% rule）**\n- 10% extraadrenal\n- 10% bilateral\n- 10% familial\n- 10% children\n- 10% malignant\n- 10% assoc with MEN\n- 10% present with a stroke"
+        }
+      ]
     },
     {
       "id": "2021-304",
@@ -12301,9 +12319,6 @@
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 164；10.1148/radiol.2019182646；2021 交換考官方詳解 PDF p278",
       "explanation": "【2021 官方詳解】\nRef: Bosniak classification 2019 Radiology 2019; 292:475–488; https://doi.org/10.1148/radiol.2019182646\n\n⚠️ 本題含影像（官方詳解 PDF 第 278 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-304-1.png"
-      ],
       "concepts": [
         "bosniak-classification"
       ],
@@ -12311,7 +12326,14 @@
       "difficulty": "中",
       "author": "姜振華",
       "sourcePage2021": 278,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-304-1.png",
+          "type": "table",
+          "markdown": "**Table 4: Suggested Terms and Phrases to Use When Reporting Cystic Renal Masses Using the Bosniak Classification, Version 2019**\n\n| Classification | Suggested Terms and Phrases |\n|---|---|\n| Bosniak I | \"Benign simple renal cyst requiring no follow-up.\" |\n| Bosniak II | (Option 1) \"Benign Bosniak II renal cyst requiring no follow-up.\"* (Option 2) \"Likely benign Bosniak II renal mass requiring no follow-up.\"† |\n| Bosniak IIF | \"Bosniak IIF cystic renal mass. The large majority of Bosniak IIF masses are benign. When malignant, nearly all are indolent. Generally, Bosniak IIF masses are followed by imaging at 6 months and 12 months, then annually for a total of 5 years to assess for morphologic change.\" |\n| Bosniak III | \"Bosniak III cystic renal mass. Bosniak III masses have an intermediate probability of being malignant. If not already obtained, consider urology consultation.\" |\n| Bosniak IV | \"Bosniak IV cystic renal mass. The large majority of Bosniak IV masses are malignant. If not already obtained, consider urology consultation.\" |\n\nNote.—This content is intended for patients in the general population and not those with a renal cell carcinoma syndrome.\n*This option is best used for Bosniak II masses that have been confirmed to be cysts (eg, cysts with few thin septa).\n†The Bosniak II category includes some masses that, although they are reliably considered benign, have not been definitively characterized as cysts (eg, low-attenuation lesions that are too small to characterize)."
+        }
+      ]
     },
     {
       "id": "2021-305",
@@ -12456,9 +12478,6 @@
       "correctAnswer": "B",
       "reference": "Radiology: Volume 292: Number 2—August 2019；2021 交換考官方詳解 PDF p284",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 284 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-308-1.png"
-      ],
       "concepts": [
         "bosniak-classification"
       ],
@@ -12466,7 +12485,14 @@
       "difficulty": "易",
       "author": "",
       "sourcePage2021": 284,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-308-1.png",
+          "type": "table",
+          "markdown": "**Table 2: Proposed Update to the Bosniak Classification of Cystic Renal Masses**\n\n| Class | CT: Proposed Bosniak Classification, Version 2019* | MRI: Proposed Bosniak Classification, Version 2019* |\n|---|---|---|\n| I | Well-defined, thin (≤2 mm) smooth wall; homogeneous simple fluid (−9 to 20 HU); no septa or calcifications; the wall may enhance | Well-defined, thin (≤2 mm) smooth wall; homogeneous simple fluid (signal intensity similar to CSF); no septa or calcifications; the wall may enhance |\n| II | Six types, all well-defined with thin (≤2 mm) smooth walls: 1. Cystic masses with thin (≤2 mm) and few (1–3) septa; septa and wall may enhance; may have calcification of any type†. 2. Homogeneous hyperattenuating (≥70 HU) masses at noncontrast CT. 3. Homogeneous nonenhancing masses >20 HU at renal mass protocol CT (73), may have calcification of any type†. 4. Homogeneous masses −9 to 20 HU at noncontrast CT. 5. Homogeneous masses 21 to 30 HU at portal venous phase CT. 6. Homogeneous low-attenuation masses that are too small to characterize | Three types, all well-defined with thin (≤2 mm) smooth walls: 1. Cystic masses with thin (≤2 mm) and few (1–3) enhancing septa; any nonenhancing septa; may have calcification of any type†. 2. Homogeneous masses markedly hyperintense at T2-weighted imaging (similar to CSF) at noncontrast MRI. 3. Homogeneous masses markedly hyperintense at T1-weighted imaging (approximately ×2.5 normal parenchymal signal intensity) at noncontrast MRI |\n| IIF | Cystic masses with a smooth minimally thickened (3 mm) enhancing wall, or smooth minimal thickening (3 mm) of one or more enhancing septa, or many (≥4) smooth thin (≤2 mm) enhancing septa | 1. Cystic masses with a smooth minimally thickened (3 mm) enhancing wall, or smooth minimal thickening (3 mm) of one or more enhancing septa, or many (≥4) smooth thin (≤2 mm) enhancing septa. 2. Cystic masses that are heterogeneously hyperintense at unenhanced fat-saturated T1-weighted imaging |\n| III | One or more enhancing thick (≥4 mm width) or enhancing irregular (displaying ≤3-mm obtusely margined convex protrusion[s]) walls or septa | One or more enhancing thick (≥4 mm width) or enhancing irregular (displaying ≤3-mm obtusely margined convex protrusion[s]) walls or septa |\n| IV | One or more enhancing nodule(s) (≥4-mm convex protrusion with obtuse margins, or a convex protrusion of any size that has acute margins) | One or more enhancing nodule(s) (≥4-mm convex protrusion with obtuse margins, or a convex protrusion of any size that has acute margins) |"
+        }
+      ]
     },
     {
       "id": "2021-309",
@@ -12898,7 +12924,6 @@
       "reference": "RadioGraphics 2014; 34:1047–1061  (1048-1049 頁)；2021 交換考官方詳解 PDF p299",
       "explanation": "【2021 官方詳解】\nHypoxic-Ischemic Injury in Term Neonates\nPeripheral pattern:\n- mild hypoxia or ischemia of prolonged duration\n- predominant in cerebral cortex and subcortical white matter along the inter-vascular boundary zones.\nBasal ganglia–thalamus pattern\n- secondary to more severe hypoxic or ischemic event of short duration\n- abnormal hyperintensity on T1WI and hypointensity on T2WI in posterolateral putamen and ventrolateral\nthalamus.\n- Associated loss of normal hyperintensity on T1WI and hypointensity on T2WI in the posterior\nlimb of the internal capsule\n\n⚠️ 本題含影像（官方詳解 PDF 第 299 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-319-1.png",
         "2021-319-2.png",
         "2021-319-3.png"
       ],
@@ -12909,7 +12934,14 @@
       "difficulty": "難",
       "author": "王柏欽",
       "sourcePage2021": 299,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-319-1.png",
+          "type": "table",
+          "markdown": "**Table 1: Normal Findings on T1- and T2-weighted Images in Term Neonates**\n\n| Imaging Finding | Anatomic Location |\n|---|---|\n| Relative T1 hyperintensity | Medial globus pallidus, posterior limb of the internal capsule, ventrolateral thalamus, perirolandic cortex |\n| Relative T2 hypointensity | Far lateral putamen, posterior limb of the internal capsule, ventrolateral thalamus, perirolandic cortex |"
+        }
+      ]
     },
     {
       "id": "2021-320",
