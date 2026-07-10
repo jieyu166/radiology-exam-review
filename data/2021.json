@@ -9255,9 +9255,6 @@
       "correctAnswer": "D",
       "reference": "Radiopaedia Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615.；2021 交換考官方詳解 PDF p198",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 198 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-230-1.png"
-      ],
       "concepts": [
         "nonspecific-interstitial-pneumonia"
       ],
@@ -9265,7 +9262,14 @@
       "difficulty": "普通",
       "author": "陳若瑀醫師",
       "sourcePage2021": 198,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-230-1.png",
+          "type": "table",
+          "markdown": "**Table 3. UIP and NSIP patterns on HRCT scan**\n\n| UIP | NSIP |\n|---|---|\n| Bilateral reticular opacities | Bilateral reticular opacities |\n| Ground-glass opacities *not* prominent | Bilateral ground-glass opacities |\n| Basal and subpleural predominance | Basal predominance, diffuse or subpleural |\n| Fibrosis and honeycombing | Honeycombing minimal or absent |\n| With or without traction bronchiectasis | With or without traction bronchiectasis |\n\nUIP = usual interstitial pneumonia；NSIP = nonspecific interstitial pneumonia；HRCT = high-resolution computerised tomography。"
+        }
+      ]
     },
     {
       "id": "2021-231",
@@ -9295,9 +9299,6 @@
       "correctAnswer": "A",
       "reference": "Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615. Kligerman, S. J., Franks, T. J., & Galvin, J. R. (2013). From the radiologic pathology archives: organization and fibrosis as a response to lung injury in diffuse alveolar damage, organizing pneumonia, and acute fibrinous and organizing pneumonia. Radiographics, 33(7), 1951-1975. (A)ThehistologicpatternofCOPisorganizingpneumonia,formerlyreferred to as bronchiolitis obliterans organizing pneumonia (BOOP).；2021 交換考官方詳解 PDF p199",
       "explanation": "【2021 官方詳解】\nReference 1 :\n\n⚠️ 本題含影像（官方詳解 PDF 第 199 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-231-1.png"
-      ],
       "concepts": [
         "organizing-pneumonia"
       ],
@@ -9305,7 +9306,14 @@
       "difficulty": "普通",
       "author": "陳若瑀醫師",
       "sourcePage2021": 199,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-231-1.png",
+          "type": "text",
+          "markdown": "**Cryptogenic Organizing Pneumonia**\n\nCOP is an IIP with characteristic clinical and radiologic features. The histologic pattern of COP is organizing pneumonia, formerly referred to as bronchiolitis obliterans organizing pneumonia (BOOP). The term *BOOP* has been omitted to avoid confusion with airway diseases such as constrictive bronchiolitis (3)."
+        }
+      ]
     },
     {
       "id": "2021-232",
@@ -9335,9 +9343,6 @@
       "correctAnswer": "C",
       "reference": "Vol. 38, No. 2 Lynch Syndrome: Genomics Update and Imaging Review；2021 交換考官方詳解 PDF p200",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 200 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-232-1.png"
-      ],
       "concepts": [
         "hereditary-gi-cancer-syndromes"
       ],
@@ -9345,7 +9350,14 @@
       "difficulty": "易",
       "author": "梁博欽醫師",
       "sourcePage2021": 200,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-232-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- Lynch syndrome is the most common hereditary cancer syndrome, reportedly affecting one in 400 people and accounting for approximately 3% of new CRC diagnoses.\n- Lynch syndrome is an autosomal dominant disorder of mismatch repair (MMR) proteins that results in poor repair of DNA replication errors. These errors preferentially accumulate in regions of the genome called microsatellites.\n- Nearly all colonic malignancies in patients with Lynch syndrome exhibit MSI. However, not all microsatellite-unstable colonic malignancies are seen in patients with this condition. Up to 15% of sporadic CRCs have high MSI owing to somatic hypermethylation of the *MLH1* promoter and associated silencing of *MLH1*.\n- There is an increased frequency of right-side (proximal to the splenic flexure) colon cancers, which occur in 60%–80% of individuals with Lynch syndrome compared with 30% of persons with sporadic cancers.\n- The risks of individual cancers vary according to the particular MMR germline mutation and the sex of the individual."
+        }
+      ]
     },
     {
       "id": "2021-233",
@@ -9413,9 +9425,6 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p202",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 202 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-234-1.png"
-      ],
       "concepts": [
         "pancreatic-cystic-lesions"
       ],
@@ -9423,7 +9432,14 @@
       "difficulty": "普通",
       "author": "梁博欽醫師",
       "sourcePage2021": 202,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-234-1.png",
+          "type": "text",
+          "markdown": "**Mucinous Cystadenomas.**—Mucinous cystadenomas account for approximately 10% of pancreatic cystic neoplasms (11). These cystic lesions often have thickened walls that are lined by mucin-producing columnar epithelium (17). The distinguishing pathologic feature of the cysts is the presence of a surrounding ovarian-type stroma similar to that seen in biliary cystadenomas. Unlike IPMNs, mucinous cystadenomas do not communicate with the pancreatic ductal system. The vast majority (>95%) of mucinous cystadenomas have been found in women (mean age, 47 years), typically in the body or tail of the pancreas (17,22,23). Mucinous cystadenomas have malignant potential, and adequate sampling of the cyst lining must be performed for pathologic analysis to determine whether foci of dysplasia or carcinoma in situ are present."
+        }
+      ]
     },
     {
       "id": "2021-235",
@@ -9453,9 +9469,6 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p203",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 203 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-235-1.png"
-      ],
       "concepts": [
         "pancreatic-ipmn"
       ],
@@ -9463,7 +9476,14 @@
       "difficulty": "普通",
       "author": "梁博欽醫師",
       "sourcePage2021": 203,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-235-1.png",
+          "type": "text",
+          "markdown": "The location of the tumor is an important factor for the prognosis (27). Main duct IPMNs are more likely to be malignant, with approximately 60%–70% of cases demonstrating invasive carcinoma (28,29), whereas only 22% of branch duct IPMNs demonstrate foci of carcinoma (30). IPMNs are frequently multifocal, and 5%–10% involve the entire pancreas (31)."
+        }
+      ]
     },
     {
       "id": "2021-236",
@@ -9493,10 +9513,6 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p204",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 204 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-236-1.png",
-        "2021-236-2.png"
-      ],
       "concepts": [
         "solid-pseudopapillary-neoplasm"
       ],
@@ -9504,7 +9520,19 @@
       "difficulty": "難",
       "author": "梁博欽醫師",
       "sourcePage2021": 204,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-236-1.png",
+          "type": "text",
+          "markdown": "**Solid Pseudopapillary Tumors.**—Previously known as solid and cystic papillary epithelial neoplasms of the pancreas or as papillary cystic neoplasms, these uncommon lesions were named solid pseudopapillary tumors of the pancreas by the World Health Organization in 1996 (37). The tumors occur predominantly in women (mean age, 28 years) and have low-grade malignant potential (17). The cellular lineage of the tumors remains uncertain, with both epithelial and neuroendocrine differentiation having been suggested by various authors. The tumors occur exclusively in the pancreas and have no corollary in other organ systems."
+        },
+        {
+          "file": "2021-236-2.png",
+          "type": "text",
+          "markdown": "**Teaching Point** — The classification of solid pseudopapillary tumors as cystic pancreatic lesions may lead to confusion at imaging because in many cases the tumors are completely solid. Cystic components are secondary to tumor degeneration, and they vary in both size and morphology. On T2-weighted MR images, pseudopapillary tumors are well circumscribed. Those that are predominantly solid have mildly increased T2 signal intensity, and those that are mostly cystic have T2 signal intensity closer to that of fluid (Figs 18–20). Enhancing soft-tissue components are uniformly present,"
+        }
+      ]
     },
     {
       "id": "2021-237",
@@ -9534,15 +9562,19 @@
       "correctAnswer": "B",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p205",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 205 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-237-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
       "author": "陳邦斌",
       "sourcePage2021": 205,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-237-1.png",
+          "type": "text",
+          "markdown": "In the female pelvis, the peritoneum reflects over the dome of the bladder, the uterine corpus, and the rectouterine pouch (of Douglas). Posteriorly, the part of the peritoneum that divides the rectum into its intra- and extraperitoneal portions is also known as the anterior peritoneal reflection (Fig 3). At MRI, the anterior peritoneal reflection is recognized on midsagittal T2-weighted images as a thin hypointense line just posterior to the uterocervical junction (Fig 3). The anterior peritoneal reflection is most readily apparent in the presence of ascites, but may be a challenge to locate in a case of retroverted uterus, in patients with minimal body fat, or after surgery (3)."
+        }
+      ]
     },
     {
       "id": "2021-238",
@@ -9573,7 +9605,6 @@
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p206",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 206 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-238-1.png",
         "2021-238-2.png",
         "2021-238-3.png"
       ],
@@ -9584,7 +9615,14 @@
       "difficulty": "難",
       "author": "陳邦斌",
       "sourcePage2021": 206,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-238-1.png",
+          "type": "text",
+          "markdown": "Clues for diagnosis are as follows:\n\n1. Peritoneal inclusion cyst appears as a uni- or multilocular cyst closely associated with the ovary and demonstrating low T1 SI and high T2 SI at MRI. Septa representing adhesions show mild enhancement. Solid enhancing nodules are absent (Fig 10).\n2. The ovary is entrapped by the peritoneal adhesions and suspended centrally or eccentrically within the cyst, producing a characteristic \"spider in a web\" appearance (38). The ovary may be distorted but is otherwise normal and should not be confused with a solid enhancing nodule (Figs 6, 10).\n3. Peritoneal inclusion cyst conforms to the contours of the pelvic cavity because the cyst lacks a true wall, with its margins formed by the adhesions and adjacent organs."
+        }
+      ]
     },
     {
       "id": "2021-239",
@@ -9922,9 +9960,6 @@
       "correctAnswer": "E",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.196 2 World J Hepatol. Jul 27, 2018; 10(7): 462-473 3 EASL extended criteria for SORAMIC clinical trial.；2021 交換考官方詳解 PDF p215",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 215 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-247-1.png"
-      ],
       "concepts": [
         "cirrhotic-liver-nodules"
       ],
@@ -9933,7 +9968,13 @@
       "author": "劉高郎",
       "sourcePage2021": 215,
       "hasImage": true,
-      "imagesOnFront": true
+      "imageOcr": [
+        {
+          "file": "2021-247-1.png",
+          "type": "table",
+          "markdown": "肝臟結節性病灶在各 MRI 序列的訊號表現（示意圖表）：\n\n| Lesion | Unenhanced T1 | Arterial | Portal venous | Delayed | Hepatobiliary | DWI | T2 |\n|---|---|---|---|---|---|---|---|\n| RN | iso | iso | iso | iso | hyper | iso | iso |\n| HGDN | iso | slightly hyper | iso | iso | hypo | iso | iso |\n| Early HCC | iso | slightly hyper | hypo | hypo | hypo | hyper | slightly hyper |\n| HCC classic | iso | hyper | hypo | hypo | hypo | hyper | hyper |\n| HCC green | iso | hyper | hypo | hypo | hyper | iso | hyper |\n| HCC hypovascular | iso | iso | iso | hypo | hypo | hyper | hyper |\n\n圖例：iso = isointense、hyper = hyperintense、hypo = hypointense、slightly hyper = slightly hyperintense lesion。"
+        }
+      ]
     },
     {
       "id": "2021-248",
@@ -9963,9 +10004,6 @@
       "correctAnswer": "B",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.223 2 2012 Revised Atlanta Classification of pancreatitis fluid collection 3 https://radiologyassistant.nl/abdomen/pancreas/acute-pancreatitis#peripa ncreatic-collections；2021 交換考官方詳解 PDF p216",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 216 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-248-1.png"
-      ],
       "concepts": [
         "pancreatitis-severity"
       ],
@@ -9973,7 +10011,14 @@
       "difficulty": "易",
       "author": "劉高郎",
       "sourcePage2021": 216,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-248-1.png",
+          "type": "text",
+          "markdown": "**Acute Pancreatitis - Fluid Collections（急性胰臟炎液體積聚，flowchart）**\n\n- **Interstitial Pancreatitis（間質性胰臟炎）**\n  - < 4 weeks → Acute Peripancreatic Collection（APFC）\n  - > 4 weeks → Pseudocyst\n- **Necrotizing Pancreatitis（壞死性胰臟炎）**\n  - < 4 weeks → Acute Necrotic Collection（ANC）\n  - > 4 weeks → Walled off Necrosis（WON）"
+        }
+      ]
     },
     {
       "id": "2021-249",
@@ -10051,9 +10096,6 @@
       "correctAnswer": "C",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.182；2021 交換考官方詳解 PDF p218",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 218 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-250-1.png"
-      ],
       "concepts": [
         "inflammatory-bowel-disease"
       ],
@@ -10061,7 +10103,14 @@
       "difficulty": "易",
       "author": "劉高郎",
       "sourcePage2021": 218,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-250-1.png",
+          "type": "table",
+          "markdown": "Crohn disease 與 Ulcerative colitis 的比較表：\n\n| | Crohn' disease | Ulcerative colitis |\n|---|---|---|\n| Common site | Terminal ileum | Rectum |\n| Distribution | Mouth to anus | Rectum |\n| Spread | **Discontinuous** | Continuous |\n| Gross feature | Focal aphthous ulcer with intervening normal mucosa, linear fissures, cobblestone appearance, thickened bowel wall, creeping fat | Extensive ulceration pseudopolyps |\n| Microscopy | Non-caseating granulomas | Crypt abscesses |\n| Inflammation | **Transmural** | Limited to mucosa and sub-mucosa |\n| Complications | **Strictures**, string sign on barium studies, abscesses, **sinus tract**, obstruction, **fistulas** | Toxic megacolon |\n| Extraintestinal manifestations | Uncommon | Arthritis, spondylitis, primary sclerosing cholangitis, erythema nodosum, pyoderma gangrenosum |\n| Cancer risk | 1-3% | 5-25% |\n\n（粗體為原圖黃色標示重點）"
+        }
+      ]
     },
     {
       "id": "2021-251",
@@ -10485,10 +10534,6 @@
       "correctAnswer": "D",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.736；2021 交換考官方詳解 PDF p229",
       "explanation": "【2021 官方詳解】\n???radiopaedia和radiology key寫得不一樣\nradiopaedia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 229 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-261-1.png",
-        "2021-261-2.png"
-      ],
       "concepts": [
         "enchondromatosis"
       ],
@@ -10497,7 +10542,18 @@
       "author": "游治維",
       "sourcePage2021": 229,
       "hasImage": true,
-      "imagesOnFront": true
+      "imageOcr": [
+        {
+          "file": "2021-261-1.png",
+          "type": "text",
+          "markdown": "**Radiographic features**（Radiopaedia，enchondromatosis / Ollier）\n\nRadiographs show multiple enchondromas. Larger lesions can show cartilage calcification in a typical rings and arcs pattern.\n\nVertical streaks of lucency also **present in the metaphysis of long bones, extending to the epiphysis**, which represents columns of cartilage.\n\nFor further discussion of appearances, please refer to the article on enchondromas."
+        },
+        {
+          "file": "2021-261-2.png",
+          "type": "text",
+          "markdown": "**Pathology/Histology**\n\nThe macroscopic features of Ollier syndrome include islands of **benign resting cartilage within metaphyses and diaphyses**, which subsequently proliferate. Microscopically, calcifications, ranging from punctate to \"popcorn\" in appearance may develop within the cartilaginous matrix."
+        }
+      ]
     },
     {
       "id": "2021-262",
@@ -10755,15 +10811,19 @@
       "correctAnswer": "B",
       "reference": "Radiation-induced brain tumours after central nervous system irradiation in childhood: a review. Child's Nervous System volume 24, pages793–805(2008)；2021 交換考官方詳解 PDF p236",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 236 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-268-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "陳雅芳",
       "sourcePage2021": 236,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-268-1.png",
+          "type": "table",
+          "markdown": "**Table 1** General features of radio-induced brain tumours in paediatric patients\n\n| Second neoplasm histology | Number of cases | Mean age at irradiation | Latency period (years) | RT dose (Gy) | CT (%) |\n|---|---|---|---|---|---|\n| High-grade glioma | 69 | 7.1 | 9 (range, 5 months–36 years) | 40.1 | 66.6 |\n| Meningioma I WHO | 33 | 5.4 | 13.7 (range, 6 months–28 years) | 39.1 | 78.0 |\n| Low-grade glioma | 13 | 7.8 | 9.5 (range, 4 months–34 years) | 43.5 | 100 |\n| Sarcoma | 8 | 12 | 7.5 (range, 1–15 years) | 33 | 26.3 |\n| PNET | 7 | 7.6 | 5.2 (range, 5–16 years) | 34 | 100 |\n| Atypical meningioma | 7 | 5.1 | 21.1 (range, 8–63 years) | 36.8 | 72.0 |\n| Desmoid | 1 | 15 | 1 year | 60 | 100 |\n| Oligodendroglioma | 1 | 6 | 16 years | 22 | n.r. |\n| Oligoastrocytoma | 1 | 3 | 11 years | 24 | 100 |\n| Ependymoma | 1 | 2 | 15 years | 53 | n.r. |\n| Medulloblastoma | 1 | 2 | n.r. | 55 | 100 |\n| Total | 142 | 6.6 | 9.6 | 33.8 | 67.5 |\n\n（n.r. = not reported；黃色標示者為 glioma / meningioma / sarcoma 等組織型）"
+        }
+      ]
     },
     {
       "id": "2021-269",
@@ -11061,7 +11121,6 @@
       "reference": "Greenberg, S. M., & Charidimou, A. (2018). Diagnosis of cerebral amyloid angiopathy: evolution of the Boston criteria. Stroke, 49(2), 491-497. Pasi, M., Charidimou, A., Boulouis, G., Auriel, E., Ayres, A., Schwab, K. M., ... & Gurol, M. E. (2018). Mixed-location cerebral hemorrhage/microbleeds: underlying microangiopathy and recurrence risk. Neurology, 90(2), e119-e126.；2021 交換考官方詳解 PDF p244",
       "explanation": "【2021 官方詳解】\n(D) Probable CAA with supporting pathology, Probable CAA, and Possible CAA may show deep microbleeds\n\n⚠️ 本題含影像（官方詳解 PDF 第 244 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-276-1.png",
         "2021-276-2.png"
       ],
       "concepts": [
@@ -11071,7 +11130,14 @@
       "difficulty": "普通",
       "author": "李崇維醫師",
       "sourcePage2021": 244,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-276-1.png",
+          "type": "text",
+          "markdown": "**Definite CAA**（Boston criteria）\n\nFull postmortem examination demonstrating:\n- Lobar, cortical, or cortical–subcortical hemorrhage\n- Severe CAA with vasculopathy\n- Absence of other diagnostic lesion"
+        }
+      ]
     },
     {
       "id": "2021-277",
@@ -11830,10 +11896,6 @@
       "correctAnswer": "A",
       "reference": "A systematic review of 639 patients with biopsy-confirmed nephrogenic system fibrosis. Radiology 2019; 292:376-386.；2021 交換考官方詳解 PDF p267",
       "explanation": "⚠️ 疑似與 2021-075 為同一題（相似度 0.883），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 267 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-295-1.png",
-        "2021-295-2.png"
-      ],
       "concepts": [
         "nephrogenic-systemic-fibrosis"
       ],
@@ -11841,7 +11903,19 @@
       "difficulty": "中",
       "author": "陳鈺棟",
       "sourcePage2021": 267,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-295-1.png",
+          "type": "table",
+          "markdown": "**Extracellular and hepatocyte-specific Gd-based MR Contrast Agents（由腎臟及肝臟代謝）**\n\n| 商品名 | 學名 | 化學結構 | 離子性 | 穩定常數 (log Ktherm)* | NSF 風險度 | NSF 風險度 ACR* | 濃度 (M, mmol/ml) |\n|---|---|---|---|---|---|---|---|\n| Multihance® Bracco | Gadobenate Dimeglumine Gd-BOPTA | linear | ionic | 22.6 | 中 | Group II | 0.5 |\n| Primovist® Bayer | Gadoxetate disodium Gd-EOB-DTPA | linear | ionic | 23.5 | 中 | Group III | 0.25 |\n\n備註：Log Ktherm = absolute thermodynamic stability constant (Journal of Magnetic Resonance Imaging 2009; 30: 1249-1258)。ACR 分成 Group I（高風險），Group II（低風險），Group III（風險未確認）"
+        },
+        {
+          "file": "2021-295-2.png",
+          "type": "table",
+          "markdown": "已上市含釓對比劑整理如下表：\n\n**Extracellular Non-specific Gd-based MR Contrast Agents（主要由腎臟代謝）**\n\n| 商品名/藥廠 | 學名 | 化學結構 | 離子性 | 穩定常數 (log Ktherm)# | NSF 風險度 ESUR | NSF 風險度 ACR* | 濃度 (M, mmol/ml) |\n|---|---|---|---|---|---|---|---|\n| Ominscan® GE | Gadodiamide Gd-DTPA-BMA | linear | non-ionic | 16.9 | 高 | Group I | 0.5 |\n| Magnevist® Bayer | Gadopentetate dimeglumine Gd-DTPA | linear | ionic | 22.1 | 高 | Group I | 0.5 |\n| Gadovist® Bayer | Gadobutrol Gd-DO3A-butrol | macrocyclic | non-ionic | 21.8 | 低 | Group II | 1.0 |\n| Dotarem® Guerbet | Gadoterate meglumine Gd-DOTA | macrocyclic | ionic | 25.6 | 低 | Group II | 0.5 |\n| ProHance® Bracco | Gadoteridol Gd-HP-DO3A | macrocyclic | Non-ionin | 23.8 | 低 | Group II | 0.5 |\n\n備註：#Log Ktherm = absolute thermodynamic stability constant (Journal of Magnetic Resonance Imaging 2009; 30: 1249-1258)。*ACR 分成 Group I（高風險），Group II（低風險），Group III（風險未確認）。Gadodiamide 及 Gadopentetate dimeglumine 另有國內藥廠製劑 Gadoscan®（嘉多視健，因華生劑製藥）及 Gadomni®（嘉多明，因華生劑製藥）"
+        }
+      ]
     },
     {
       "id": "2021-296",
@@ -11875,9 +11949,6 @@
       "correctAnswer": "B",
       "reference": "Immediate allergic reactions to gadolinium-based contrast agents: a systemic review and meta-analysis. Radiology 2018; 286:471-482.；2021 交換考官方詳解 PDF p269",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 269 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-296-1.png"
-      ],
       "concepts": [
         "gadolinium-contrast"
       ],
@@ -11885,7 +11956,14 @@
       "difficulty": "中",
       "author": "陳鈺棟",
       "sourcePage2021": 269,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-296-1.png",
+          "type": "table",
+          "markdown": "| Characteristic | Gadodiamide (Omniscan) | Gadopentetate (Magnevist) |\n|---|---|---|\n| Chemical structure | Linear, nonionic | Linear, ionic |\n| Distribution | Extracellular | Extracellular |\n| T1 relaxivity at 1.5 T (sec⁻¹·mol/L⁻¹) — Plasma (23) | 4.3 | 4.1 |\n| T1 relaxivity — Blood (24) | 4.5 | 4.3 |\n| Osmolality (25) (mOsm/Kg) | 650 | 1960 |\n| Viscosity (26,27) (mPas) | 1.4 | 2.9 |\n| No. of articles | 4 | 9 |\n| No. of injections | 77 802 | 342 428 |"
+        }
+      ]
     },
     {
       "id": "2021-297",
@@ -11919,10 +11997,6 @@
       "correctAnswer": "B",
       "reference": "Extracellular gadolinium-based contrast media: an overview. Eur J Radiol 2008; 66:160-167；2021 交換考官方詳解 PDF p270",
       "explanation": "⚠️ 疑似與 2021-072 為同一題（相似度 0.828），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 270 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-297-1.png",
-        "2021-297-2.png"
-      ],
       "concepts": [
         "gadolinium-contrast"
       ],
@@ -11930,7 +12004,19 @@
       "difficulty": "中",
       "author": "陳鈺棟",
       "sourcePage2021": 270,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-297-1.png",
+          "type": "table",
+          "markdown": "| Gadodiamide (Omniscan) | Gadopentetate (Magnevist) | Gadobutrol (Gadovist) | Gadoxetate (Eovist) |\n|---|---|---|---|\n| Linear, nonionic | Linear, ionic | Macrocyclic, nonionic | Linear, ionic |\n| Extracellular | Extracellular | Extracellular | Extracellular and hepatobiliary* |"
+        },
+        {
+          "file": "2021-297-2.png",
+          "type": "table",
+          "markdown": "| Gadoterate (Dotarem) | Gadobenate (MultiHance) | Gadoteridol (ProHance) | Gadofosveset (Ablavar) |\n|---|---|---|---|\n| Macrocyclic, ionic | Linear, ionic | Macrocyclic, nonionic | Linear, ionic |\n| Extracellular | Extracellular and hepatobiliary* | Extracellular | Blood pool* |"
+        }
+      ]
     },
     {
       "id": "2021-298",
@@ -11960,9 +12046,6 @@
       "correctAnswer": "D",
       "reference": "8th edition radiology review manual. P.274      74……；2021 交換考官方詳解 PDF p271",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 271 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-298-1.png"
-      ],
       "concepts": [
         "endocardial-cushion-defect"
       ],
@@ -11970,7 +12053,14 @@
       "difficulty": "中",
       "author": "林哲銘",
       "sourcePage2021": 271,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-298-1.png",
+          "type": "text",
+          "markdown": "@ **Chest**\n- √ congenital heart disease (40%)：endocardial cushion defect, VSD, tetralogy of Fallot\n- √ hypersegmentation of manubrium = 2–3 ossification centers (90%)\n- √ gracile ribs; 11 pairs of ribs (25%)"
+        }
+      ]
     },
     {
       "id": "2021-299",
@@ -12000,15 +12090,19 @@
       "correctAnswer": "B",
       "reference": "8th edition radiology review manual. P.772；2021 交換考官方詳解 PDF p273",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-299-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "林哲銘",
       "sourcePage2021": 273,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-299-1.png",
+          "type": "text",
+          "markdown": "**TRANSIENT ISCHEMIC ATTACK**\n= brief episode of transient focal neurological deficit owing to ischemia of <24 hr duration with return to pre-attack status\n\n*Incidence:* 31 per 100,000 population per year; increasing with age up to 300; 105,000 new cases per year in United States; M > F\n\n*Cause:*\n(1) embolic：usually from ulcerative plaque at carotid bifurcation\n(2) hemodynamic：fall in perfusion pressure distal to a high-grade stenosis / occlusion\n\n*Risk factors:*\n(1) Hypertension (linear increase in probability of stroke with increase in diastolic blood pressure)\n(2) Cardiac disorders (prior myocardial infarction, angina pectoris, valvular heart disease, dysrhythmia, congestive heart failure)\n(3) Diabetes mellitus\n(4) Cigarette smoking (weak)\n\n*Prognosis:* 5.3% stroke rate per year for 5 years after first TIA; per year 12% increase of stroke / myocardial infarction / death; complete stroke in 33% within 5 years; complete stroke in 5% in 1 month"
+        }
+      ]
     },
     {
       "id": "2021-300",
@@ -12081,9 +12175,6 @@
       "correctAnswer": "B",
       "reference": "CT/MRI LI-RADS® v2018 CORE p19；2021 交換考官方詳解 PDF p275",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 275 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-301-1.png"
-      ],
       "concepts": [
         "hcc-imaging-diagnosis"
       ],
@@ -12091,7 +12182,14 @@
       "difficulty": "中",
       "author": "丁偉義",
       "sourcePage2021": 275,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-301-1.png",
+          "type": "text",
+          "markdown": "**LI-RADS® CT/MRI 時相**\n\n**動脈期 (AP)**：在 LI-RADS 中，除非有特殊說明，動脈期指的是肝動脈期。動脈期是注射對比劑後的一段時間，有以下特點：\n- 肝動脈和分支完全強化\n- 肝靜脈還沒順應性的強化\n\n**兩種亞型**：\n- 動脈早期：動脈期的一種亞型，此型門靜脈還沒有強化\n- 動脈晚期：動脈期的一種亞型，此型門靜脈已經強化\n\n強烈推薦動脈晚期用於對 HCC 的診斷和分期，因為動脈晚期 HCC 強化的程度通常比動脈早期高。有一些 HCC 可表現為只在動脈晚期高頁強化。"
+        }
+      ]
     },
     {
       "id": "2021-302",
@@ -12474,9 +12572,6 @@
       "correctAnswer": "A",
       "reference": "Baik SH, Park HJ, Kim JH, Jang CK, Kim BM, Kim DJ. Mechanical Thrombectomy in Subtypes of Basilar Artery Occlusion: Relationship to Recanalization Rate and Clinical Outcome. Radiology. 2019;291(3):730‐737；2021 交換考官方詳解 PDF p289",
       "explanation": "【2021 官方詳解】\nmRS score = Modified Rankin scale classified as favorable (modified Rankin scale score, 0–2) or poor (modified Rankin scale score, 3–6).\n\n⚠️ 本題含影像（官方詳解 PDF 第 289 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-311-1.png"
-      ],
       "concepts": [
         "basilar-artery-occlusion"
       ],
@@ -12484,7 +12579,14 @@
       "difficulty": "易",
       "author": "傅瑞勛",
       "sourcePage2021": 289,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-311-1.png",
+          "type": "table",
+          "markdown": "| Characteristic | Patients (n = 82) | Embolism without VA Steno-occlusion (group 1, n = 34) | Embolism from Tandem VA Steno-occlusion (group 2, n = 28) | In Situ Atherosclerotic Thrombosis (group 3, n = 20) |\n|---|---|---|---|---|\n| Onset to puncture time (min)* | 218 (151–298) | 218 (138–281) | 225 (165–371) | 240 (150–264) |\n| Procedure time (min)* | 60 (35–101) | 49 (31–84) | 66 (55–121) | 63 (47–117) |\n| Onset to recanalization time (min)* | 286 (220–375) | 260 (201–367) | 296 (235–472) | 290 (240–341) |\n| First-line endovascular treatment | … | … | … | … |\n| &nbsp;&nbsp;Stent retriever | 53 (65) | 26 (76) | 15 (54) | 12 (60) |\n| &nbsp;&nbsp;Aspiration | 22 (27) | 6 (18) | 10 (36) | 6 (30) |\n| &nbsp;&nbsp;Angioplasty | 1 (1) | 0 (0) | 0 (0) | 1 (5)† |\n| Rescue treatment | 12 (15) | 5 (15) | 5 (18) | 2 (10) |\n| Adjuvant treatment angioplasty | 15 (18) | 0 (0) | 8 (29) | 7 (35) |\n| &nbsp;&nbsp;Intra-arterial tirofiban | 12 (15) | 2 (6) | 4 (14) | 6 (30) |\n| &nbsp;&nbsp;Intra-arterial urokinase | 22 (27) | 8 (24) | 7 (25) | 7 (35) |\n| mTICI grade 2b or 3 | 64 (78) | 29 (85) | 24 (86) | 11 (55) |\n| mRS score at 90 d* | 4 (1–5) | 3 (0–5) | 5 (2–5) | 5 (2–5) |\n| mRS score 0–2 at 90 d | 30 (37) | 18 (53) | 8 (29) | 4 (20) |\n| Mortality at 90 d | 17 (21) | 6 (18) | 7 (25) | 4 (20) |"
+        }
+      ]
     },
     {
       "id": "2021-312",
