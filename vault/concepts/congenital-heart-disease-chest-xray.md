@@ -59,6 +59,12 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: *Congenital heart disease chest x-ray (an approach)*. Radiopaedia.org（輔助來源）——五步驟判讀（肺血管紋路/主動脈弓/肺動脈/心臟大小型態/骨骼）；主動脈弓增大（AS post-stenotic、PDA/truncus/瓣膜逆流/嚴重 TOF、高血壓）、縮小（ASD/VSD/HLHS）；肺動脈正常之 CHD（AS、coarctation）。與 [^2] STATdx 一致。
 [^2]: **Tier 1** Richardson RR, Lam CZ. *Cyanotic Heart Disease with Decreased Vascularity*（Pediatrics, DDx）. STATdx, Elsevier, updated 02/25/25（9 refs；實際查證 accessed 2026-07-03）——發紺 CHD＝R→L shunt、**5 Ts（TOF/tricuspid 異常/TGA/truncus/TAPVR）**、分肺血管減少 vs 正常增加；**減少型：PS/PA 阻礙、ductal-dependent，真正以此為特徵者僅 classic TOF 與 PA/IVS，嚴重 Ebstein 亦是；判減少後看心臟大小（正常=TOF、擴大=Ebstein/PA-IVS）**；TOF boot-shaped（心尖上翹/MPA 小凹陷/25% 右弓/升主動脈突）、Ebstein box-shaped wall-to-wall（RA 巨大/WPW）、TGA egg-on-string（大血管平行+胸腺退縮窄縱膈、第一天發紺）、tricuspid atresia（ASD/PFO 必存、TGA 30%）；echo 為確診。原「官方詳解/Radiopaedia only」弱來源已由本次 STATdx Tier 1 查核升級。
+[^3]: *Ebstein anomaly*. Radiopaedia.org（rID 7365, [DOI](https://doi.org/10.53347/rID-7365)；實際查證 accessed 2026-07-10）——三尖瓣中隔／後葉向心尖下移、右心室「心房化」；胸片常見嚴重右側心臟肥大，因右心房伸長擴大而呈「box shape」；CT/MRI 見瓣葉頂點下移＋RV atrialization；cyanotic、right-to-left shunting、三尖瓣逆流；associations 含 ASD、WPW。
+[^4]: **Tier 1** 據 PubMed，Ferguson EC, Krishnamurthy R, Oldham SA. *Classic Imaging Signs of Congenital Cardiovascular Abnormalities*. RadioGraphics 2007;27(5):1323-34. [DOI](https://doi.org/10.1148/rg.275065148)（Radiopaedia 引用之一手文獻；實際查證 accessed 2026-07-10）——Ebstein 之 box-shaped/wall-to-wall heart 因右心房巨大擴張、右心室縮小；為先天性心血管異常經典影像徵象之一。
+
+## 題目
+> [!question]- Which description of features of Ebstein's disease is incorrect? (2021-157)
+> **A（enlargement of right ventricle）為錯**——Ebstein 為三尖瓣頂點下移致右心室「心房化」，右心室反而**縮小**、右心房**巨大擴張**（box-shaped/wall-to-wall heart）。B（right atrium 擴大）正確；C（azygos vein 擴張）正確——三尖瓣逆流致 IVC/azygos 擴張；D（cyanosis）正確——新生兒期發紺（R→L shunt）。故錯誤者為 A。[^2][^3][^4]
 
 ## 考題
 ```dataview

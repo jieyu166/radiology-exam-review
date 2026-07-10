@@ -28,6 +28,13 @@ dateRev: 2026-07-10
 - **非典型警訊**：縱膈淋巴結腫大、肋膜積液、空洞、tree-in-bud/微結節 → 想細菌/結核/其他病毒/其他病因。[^2]
 - **併發症搜尋**：臨床惡化 + D-dimer↑ → CTPA 找肺栓塞；突發胸痛 → 找氣胸/pneumomediastinum。[^1]
 
+### RSNA COVID-19 肺炎 CT 四分類（報告用語）
+RSNA/STR/ACR 共識將 CT 表現分四類——**注意「isolated lobar or segmental consolidation without GGO」屬 Atypical，而非 Indeterminate**：[^3]
+- **Typical（典型）**：周邊、雙側 GGO ± 實變或可見之小葉內線（crazy paving）；圓形多灶 GGO；reverse halo/機化性肺炎徵象。[^3]
+- **Indeterminate（不確定）**：缺乏典型徵象，且呈多灶、瀰漫、肺門周圍或單側 GGO ± 實變、無特定分布（非圓形、非周邊）；或少數非圓形非周邊之極小 GGO。[^3]
+- **Atypical（非典型）**：缺乏典型／不確定徵象，且見**孤立性大葉或節段性實變而無 GGO**、離散小結節（centrilobular、tree-in-bud）、肺空洞化、或平滑小葉間隔增厚合併肋膜積液。[^3]
+- **Negative（陰性）**：無提示肺炎之 CT 徵象。[^3]
+
 ## 臨床重點（5 句）
 1. **診斷靠 PCR**：CT 非第一線篩檢，RT-PCR 為診斷主軸，CT 用於併發症/鑑別。[^1][^2]
 2. **典型影像**：雙側周邊 subpleural GGO + crazy paving + OP 型態。[^1][^2]
@@ -41,6 +48,7 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: *COVID-19* (Dx). STATdx, updated 09/13/21. Elsevier——診斷以 **RT-PCR**；**CT 非診斷所必需、應保留評估併發症**；典型雙側周邊/胸膜下 + peribronchovascular GGO ± 實變、**crazy paving**、organizing pneumonia/AFOP、reverse halo、牽引性支氣管/血管擴張；併發症（細菌性肺炎、氣胸、pneumomediastinum、急性肺栓塞）。
 [^2]: 官方 2020 詳解；Ref: Simpson S, et al. *RSNA Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19*. Radiology: Cardiothoracic Imaging 2020;2(2):e200152（題目所引）——典型雙側周邊 GGO + crazy paving/實變；常規篩檢 CT 非第一線；高峰期 9-13 天呈非典型/機化性肺炎；縱膈淋巴結腫大/肋膜積液/多發微小結節/空洞化屬相對非典型徵象（結論已由上述 STATdx 一手來源查核佐證）。
+[^3]: **Tier 1** 據 PubMed，Simpson S, Kay FU, Abbara S, et al. *Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the STR, ACR, and RSNA*. J Thorac Imaging 2020;35(4):219-227（secondary publication；PMC7255403）. [DOI](https://doi.org/10.1097/RTI.0000000000000524)（原始版 Radiol Cardiothorac Imaging 2020 [DOI](https://doi.org/10.1148/ryct.2020200152)；實際查證 accessed 2026-07-10）——四分類 Typical/Indeterminate/Atypical/Negative 之定義；孤立性大葉或節段實變而無 GGO 歸於 **Atypical**。
 
 ## 題目
 > [!question]- Which one is WRONG for imaging features of COVID-19. (2020-289)
@@ -63,6 +71,9 @@ dateRev: 2026-07-10
 
 > [!question]- Which one is NOT a chest CT finding reported in >70% of RT-PCR–proven COVID-19 cases? (2021-225)
 > **D（pleural effusion 肋膜積液）**——>70% 高發現率者為磨玻璃影(GGO)、血管擴張(vascular enlargement)、雙側、下葉、後側優勢分布；肋膜積液屬相對非典型徵象，出現時反而要想其他病因，故非 >70% 常見表現者為 D。A（GGO）、B（vascular enlargement）、C（peripheral location）皆為典型高發現率徵象。
+
+> [!question]- According the RSNA "Imaging Classification and CT features of COVID-19 Pneumonia", which one is false? (2021-224)
+> **B（Intermediate appearance：isolated lobar or segmental consolidation without GGO）為錯**——此描述實屬 **Atypical** appearance；Indeterminate（不確定）應為缺乏典型徵象、呈多灶/瀰漫/肺門周圍/單側 GGO ± 實變且無特定分布（非圓形非周邊）。A（Typical：周邊、雙側 GGO ± 實變或小葉內線）、C（Atypical：離散小結節 centrilobular/tree-in-bud 或空洞化）、D（Negative：無肺炎徵象）皆正確。本題原含影像（官方詳解 PDF p.192）尚未匯入。[^3]
 
 ## 考題
 ```dataview

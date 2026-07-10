@@ -6126,7 +6126,9 @@
       "reference": "Caffy’s Pediatric Diagnostic Imaging 11th ed. p.1740；2021 交換考官方詳解 PDF p111",
       "explanation": "【2021 官方詳解】\nEbstein anomaly:\nAbnormal tricuspid valve displace apically into RV\n- Atrialization of part of RV 🡪 enlarged RA and small RV 🡪 Boxlike cardiomegaly\n- Congenital tricuspid regurgitation 🡪 IVC and azygos dilatation\n- Cynosis in neonatal period\n- CHF in utero/ in neonate (50%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "congenital-heart-disease-chest-xray"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "周定遠",
@@ -8754,7 +8756,9 @@
       "images": [
         "2021-176-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳玫圻",
@@ -9656,7 +9660,9 @@
       "images": [
         "2021-247-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cirrhotic-liver-nodules"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "劉高郎",
@@ -13597,7 +13603,9 @@
       "reference": "Radiographics 2019;39:1921-1922；10.1148/rg.2019190081；2021 交換考官方詳解 PDF p365",
       "explanation": "【2021 官方詳解】\nCardiac tamponade:\nDiagnosed by findings of chamber inversion during the relaxation phase\n(collapse of RV free wall in early diastole and RA free wall in late diastole and early systole)\nExaggerated flattening of ventricular septum toward LV during inspiration at real-time cine imaging\n=> highly specific feature of pericardial constriction.\nRef: MRI of the Pericardium\nhttps://doi.org/10.1148/rg.2019190081",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-tamponade"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總張瀛月醫師",
