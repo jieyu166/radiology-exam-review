@@ -77,6 +77,9 @@ same:
 > [!question]- Which sign is specific for usual interstitial pneumonia due to connective tissue disease? (2021-185)
 > **D（All of the above）**——straight-edge sign、anterior upper lobe sign、exuberant honeycombing sign 三徵象對 CTD 相關 UIP（相對 IPF）皆具高特異度，故三者皆是。
 
+> [!question]- What is the HRCT features of CTD-ILD? (2021-327)
+> **A（Straight-edge sign）**——straight-edge sign（纖維化侷限肺基底、冠狀面上下界銳利、不沿肺外側緣往上延伸）是 CTD-UIP 相對 IPF 較常見的三大反常徵象之一，屬 CTD-ILD 的 HRCT 特徵。B「multi-layers honeycombing」用詞錯誤——CTD 的特徵是 exuberant honeycombing（蜂窩 >70% 纖維化區），非「多層蜂窩」；C「posterior upper lobe sign」方向相反——正確為 anterior upper lobe sign（纖維化集中上葉前段）；故非 D。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "ctd-ild")

@@ -7,7 +7,7 @@ aliases:
   - Palmer classification TFCC
   - triangular fibrocartilage complex injury
   - 三角纖維軟骨複合體分類
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # tfcc-palmer-classification
@@ -47,6 +47,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which of the followings is Palmer type 1B injury of triangular fibrocartilage complex (TFCC)? (2020-295)
 > **Ulnar avulsion with or without distal ulnar (styloid) fracture（A）**——尺側撕脫，可合併或不合併尺骨莖突基部骨折，常伴 DRUJ 不穩。1C 為遠端撕脫（ulnotriquetral/ulnolunate 韌帶）、1D 為橈側撕脫（±sigmoid notch 骨折）。[^1][^3]
+
+> [!question]- Post-traumatic ulnar avulsion tear (foveal and/or styloid fibers) of TFCC is classified as Palmer classification (2021-199)
+> **B（Type 1B）**——Palmer Class 1（創傷性）中，1B＝尺側撕脫（ulnar avulsion，可合併尺骨莖突基部骨折，涉 foveal／styloid 附著、常伴 DRUJ 不穩）。1A 為中央穿孔、1C 為遠端撕脫（ulnolunate／ulnotriquetral 韌帶）、1D 為橈側撕脫（±sigmoid notch 骨折）。
 
 ## 考題
 ```dataview

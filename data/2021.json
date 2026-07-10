@@ -38,7 +38,9 @@
       "reference": "Digital Breast Tomosynthesis: Concepts and Clinical Practice. Radiology 2019; 292:1–14；2021 交換考官方詳解 PDF p84",
       "explanation": "【2021 官方詳解】\nLarger angle range = better resolution.\nDBT screening increases detection of invasive cancers rather than DCIS.\nDBT lower recall rate for asymmetries and focal symmetries.\nDBT higher recall rate for masses and distorsions.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-tomosynthesis"
+      ],
       "checked": false,
       "sourcePage2021": 84
     },
@@ -74,7 +76,10 @@
       "reference": "Diagnostic Imaging: Breast E-Book P4；2021 交換考官方詳解 PDF p86",
       "explanation": "Echo pattern跟fat做比對。Mammo是跟gland比對，要寫equal density\n\n【2021 官方詳解】\nB. Subcutaneous fat, the tissue relative to which echogenicity is compared, is medium gray and darker than fibroglandular tissue, which is light gray.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-tissue-echogenicity",
+        "breast-normal-anatomy"
+      ],
       "checked": false,
       "sourcePage2021": 86
     },
@@ -5404,7 +5409,9 @@
       "reference": "Magn Reson Imaging Clin N Am 16 (2008) 1–18, page 2；2021 交換考官方詳解 PDF p94",
       "explanation": "【2021 官方詳解】\nLateral ligaments of the ankle:\n  - ATFL (most likely to be injured)\n  - CFL\n  - PTFL (strongest)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lateral-ankle-ligaments"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "洪猷崇",
@@ -5478,7 +5485,9 @@
       "images": [
         "2021-143-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ulnar-collateral-ligament-injury"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "洪猷崇",
@@ -7636,7 +7645,9 @@
       "images": [
         "2021-199-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "tfcc-palmer-classification"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳坤煌",
@@ -7744,7 +7755,9 @@
       "reference": "Jaffe HL. Tumors and tumorous conditions of the bones and joints. Philadelphia: Lea & Febiger; 1958. pp. 117–141.；2021 交換考官方詳解 PDF p159",
       "explanation": "【2021 官方詳解】\nCharacteristic matrix mineralization patterns include:\n- fibrous – ground glass e.g. fibrous dysplasia\n- osteoblastic – cumulus cloud e.g. osteosarcoma, osteoid osteoma\n- chondroid – popcorn or arcs and rings e.g. chondrosarcoma, enchondroma",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "林建宏",
@@ -7780,7 +7793,9 @@
       "reference": "Meyers SP. MRI of bone and soft tissue tumors and tumorlike lesions, differential diagnosis and atlas. Thieme Publishing Group. (2008)；2021 交換考官方詳解 PDF p160",
       "explanation": "【2021 官方詳解】\nCharacteristic matrix mineralization patterns include:\n- fibrous – ground glass e.g. fibrous dysplasia\n- osteoblastic – cumulus cloud e.g. osteosarcoma, osteoid osteoma\n- chondroid – popcorn or arcs and rings e.g. chondrosarcoma, enchondroma",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "林建宏",
@@ -7862,7 +7877,9 @@
         "2021-205-1.jpg",
         "2021-205-2.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "talus-anatomy"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "周怡甄",
@@ -12564,7 +12581,9 @@
         "2021-327-2.png",
         "2021-327-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ctd-ild"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "吳銘庭",

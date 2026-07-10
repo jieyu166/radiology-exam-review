@@ -8,7 +8,7 @@ aliases:
   - talar blood supply
   - Hawkins classification
   - 距骨解剖
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # talus-anatomy
@@ -48,6 +48,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which tarsal bone has no muscular or tendinous attachments? (2020-320)
 > **Talus（距骨，C）**——距骨無肌肉或肌腱附著，血供僅賴韌帶與關節囊處血管，此特性使距骨（頸）骨折後易發生缺血性壞死。[^1][^3]
+
+> [!question]- Which one is correct about avascular necrosis of talus? (2021-205)
+> **D（以上皆對）**——距骨由三條骨外動脈供血：posterior tibial artery、dorsalis pedis（anterior tibial）與 perforating peroneal artery（A 正確）；Hawkins sign 為距骨頂軟骨下透亮帶，於 AP／mortise view 可見，屬傷後數週因血流灌注才會出現的 disuse osteopenia（B 正確）；距骨 AVN 典型影像序列為距骨頂 opacity 增加（硬化）→變形→嚴重時關節面塌陷與骨碎裂（C 正確），故三者皆對。
 
 ## 考題
 ```dataview

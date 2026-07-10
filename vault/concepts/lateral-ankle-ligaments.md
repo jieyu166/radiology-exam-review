@@ -35,6 +35,9 @@ aliases:
 > [!question]- Which of the following ligaments is the strongest ligament in the lateral ligaments of ankle? (2022-394)
 > **Calcaneofibular ligament？→ 正解為 Posterior talofibular ligament（C，關鍵）**——踝外側三條韌帶中 **PTFL（後距腓韌帶）最強、最厚、最少受傷**；ATFL 最弱且最常撕裂、CFL 居中。選項 D「Spring ligament（彈簧／跟舟足底韌帶）」屬內側／足底結構，為干擾項。[^1][^2]
 
+> [!question]- Which of the following ligaments is the strongest ligament in the lateral ligaments of ankle? (2021-141)
+> **C（Posterior talofibular ligament）**——踝外側三條韌帶由前而後為 ATFL→CFL→PTFL，其中 PTFL 最強、最厚、最少受傷；ATFL 最弱且最常在內翻扭傷中撕裂、CFL 居中。選項 D「Spring ligament（跟舟足底韌帶）」屬內側／足底結構，非外側踝韌帶，為干擾項。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lateral-ankle-ligaments")

@@ -7,7 +7,7 @@ aliases:
   - GCT
   - osteoclastoma
   - 巨細胞瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # giant-cell-tumor
@@ -56,6 +56,13 @@ dateRev: 2026-06-29
 [^1]: **Campanacci 影像分級（article 級）**。Campanacci M et al. *Giant-cell tumor of bone*. J Bone Joint Surg Am. 1987;69(1):106-114（doi:10.2106/00004623-198769010-00018）;分級內容並經 Sobti A et al. *Giant cell tumor of bone – an overview*. Arch Bone Jt Surg. 2016;4(1):2-9（PMC4733230）及下列 review 複核：Grade 1 latent／Grade 2 active／Grade 3 aggressive 與對應治療策略。
 [^2]: **review（article 級，PMC 開放全文）**。van der Heijden L 等綜論與 Chakarun CJ et al. *Giant cell tumor of bone: review, mimics, and new developments in treatment*. RadioGraphics. 2013;33(1):197-211（doi:10.1148/rg.331125089）;經 *Giant cell tumor of bone revisited*. SICOT-J. 2017;3:54（doi:10.1051/sicotj/2017041, PMC5598212）查證：meta-epiphyseal、軟骨下延伸（84–99% 距關節面 1 cm 內）、closed physis（約 80% 在 20–55 歲）、好發遠端股骨 23–30%／近端脛骨 20–25%／遠端橈骨 10–12%／薦骨 4–9%、multicentric <1%;MRI T1 低-中、T2 高、含鐵血黃素低訊號、次發 ABC fluid-fluid levels 10–14%;肺轉移 2–5%、惡性轉化 5–10%（次發惡性 ~87%，放療相關 ~76%）。
 [^3]: **review（article 級，PMC 開放全文）**。*Radiological Features of Giant Cell Tumours of Bone*（PMC7381871）與 *Imaging of giant cell tumor of bone*（PMC2989147）：地圖狀溶骨、**窄移行帶非硬化緣**、無基質礦化、無骨膜反應（除非病理性骨折）、CT 評估皮質殼;MRI 腫塊內低 T2 訊號、CT 對應 T2 hypointense rim 支持 GCT;DDx——fluid-fluid levels 為 ABC 特徵、棕色瘤需結合 PTH／高血鈣、chondroblastoma 骨骺且 MRI 明顯骨髓水腫、clear cell chondrosarcoma 骨骺惡性、giant cell-rich／telangiectatic osteosarcoma 膨脹但少大量骨樣基質。
+
+## 題目
+> [!question]- Which of the following lesions does not present matrix mineralization? (2021-202)
+> **B（Giant cell tumor）**——GCT 不產生礦化腫瘤基質（無 matrix mineralization），此為其定義特徵之一。Clear cell chondrosarcoma 與 enchondroma 屬軟骨源、呈 chondroid 基質（popcorn／arcs-and-rings）；osteoid osteoma 屬骨母細胞基質（osteoblastic），皆可見礦化。
+
+> [!question]- Which one of the following tumors does not have matrix mineralization? (2021-203)
+> **D（Giant cell tumor）**——GCT 無基質礦化。Chondroblastoma、enchondroma、clear cell chondrosarcoma 皆屬軟骨源腫瘤，可見軟骨基質鈣化（ring-and-arc／popcorn）。
 
 ## 考題
 ```dataview
