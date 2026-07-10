@@ -38,6 +38,9 @@ aliases:
 > [!question]- Which of the following ligaments is the strongest ligament in the lateral ligaments of ankle? (2021-141)
 > **C（Posterior talofibular ligament）**——踝外側三條韌帶由前而後為 ATFL→CFL→PTFL，其中 PTFL 最強、最厚、最少受傷；ATFL 最弱且最常在內翻扭傷中撕裂、CFL 居中。選項 D「Spring ligament（跟舟足底韌帶）」屬內側／足底結構，非外側踝韌帶，為干擾項。
 
+> [!question]- Which of the following statements about ankle imaging is FALSE? (2021-360)
+> **C（PTFL 的脂肪條紋狀 fatty striation 代表部分撕裂或慢性發炎）為錯**——後距腓韌帶（PTFL）因纖維束間夾雜脂肪，MRI 常呈條紋狀／不連續之正常外觀（normal appearance），不可誤判為撕裂或發炎。其餘皆正確：A 正常踝韌帶為薄、線狀、低訊號；B deltoid 韌帶（內側）損傷源於外翻（eversion）扭傷；D sinus tarsi 為距骨與跟骨間之外側間隙；E 前外側夾擠症候群典型於外側溝見 meniscoid mass。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "lateral-ankle-ligaments")

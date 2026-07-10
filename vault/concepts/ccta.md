@@ -5,7 +5,7 @@ aliases:
   - CCTA
   - coronary CT angiography
   - 冠狀動脈 CT 血管攝影
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 concepts: [ccta]
 same:
   - "[[calcium-score]]"
@@ -136,6 +136,12 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 ## 題目
 > [!question]- CCTA was given what recommendation/level of evidence for chest pain? (2022-269)
 > ⚠️ **A**——2021 AHA/ACC 胸痛指引對無已知 CAD 之胸痛給 CCTA Class 1、LOE A；答案依原卷保留待對照指引原文。[^1]
+
+> [!question]- Which of the following is not a characteristic of a vulnerable plaque on coronary CTA? (2021-032)
+> **D（High attenuation）**——易損（高風險）斑塊在 CCTA 上的徵象為 low-attenuation plaque（<30 HU，富脂核心），而非高密度；故『high attenuation』錯誤。A positive remodeling（正性重塑、管腔保留）、B spotty calcification（<3 mm）、C napkin-ring sign（中央低密度＋周邊環狀高密度）皆為 HRP 特徵。
+
+> [!question]- Which of the following concerning general technical requirements of cardiac CT is false? (2021-138)
+> **E（None of the above）**——A~D 皆為正確的心臟 CT 技術要求：64-row 在影像品質與診斷準確度上優於 16-row（A）；320-row volume CT 與第二代 dual-source CT 可於單一心跳內完成整心造影（B）；心臟 CT 需 ECG gating/triggering（C）；dual-head injector 做 saline flush 可推進團注、節省對比劑並減少上腔靜脈/右心條紋偽影（D）。四者皆真，故「false」者為 E。
 
 ## 考題
 ```dataview

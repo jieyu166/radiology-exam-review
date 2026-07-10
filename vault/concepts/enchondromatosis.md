@@ -7,7 +7,7 @@ aliases:
   - Ollier disease
   - Maffucci syndrome
   - 多發性內生軟骨瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # enchondromatosis
@@ -60,6 +60,10 @@ dateRev: 2026-06-29
 [^2]: Michaeli O, et al. *Update on Cancer Screening in Children with Syndromes of Bone Lesions...* Clin Cancer Res. 2025;31(3):457-465（PMC11790369；開放全文已讀）。據 PubMed，[DOI](https://doi.org/10.1158/1078-0432.CCR-24-2171)。提供：enchondroma 定義(髓腔來源、≤3 cm 不痛)、Ollier 散發/偏側分布/附肢骨/發病年齡、Maffucci ＋血管病灶(8.5% 惡變)、IDH1/IDH2 體細胞鑲嵌、惡變約 30%/中位 30–52 歲/好發部位/低惡性度預後、whole-body MRI＋MRA 監測、肢體變形與肢長不等等併發症。
 [^3]: Sharif B, Rajakulasingam R, Sharifi S, O'Donnell P, Saifuddin A. *MRI features of low-grade and high-grade chondrosarcoma in enchondromatosis.* Skeletal Radiol. 2021;50(8):1637-1646（依摘要與 MeSH，未讀全文）。據 PubMed，[DOI](https://doi.org/10.1007/s00256-021-03718-7)。提供：enchondromatosis 病人中,**骨髓水腫、骨膜反應、軟組織水腫**顯著者提示高惡性度轉化;大長骨另以皮質破壞、軟組織腫塊為高惡性度預測;**手足部位無顯著區辨徵象(判讀陷阱)**。
 [^4]: Uhl M, Herget G, Kurz P. *[Cartilage tumors: Pathology and radiomorphology].* Radiologe. 2016;56(6):476-488（德文;依英文摘要,未讀全文）。據 PubMed，[DOI](https://doi.org/10.1007/s00117-016-0112-z)。提供：軟骨腫瘤平片/CT/MRI 型態學;**deep cortical scalloping(>皮質厚度 2/3)、皮質破壞、軟組織腫塊**為 sarcoma 徵象;軟骨腫瘤多有部位與年齡偏好。〔rings-and-arcs／popcorn 鈣化型態為軟骨基質公認影像描述,亦見此類軟骨腫瘤影像學文獻〕
+
+## 題目
+> [!question]- Which ONE of the following image findings is NOT seen in Ollier disease on the radiograph? (2021-261)
+> **D（病灶由生長板延伸至骨骺）**——Ollier 的內生軟骨瘤源自髓腔、主要位於幹骺端，隨生長向骨幹遷移，但**不會跨越生長板侵入骨骺**（骨骺通常被保留）；故 D 為不會出現的表現。A（軟骨基質 rings-and-arcs/punctate 鈣化）、B（可呈皮質內/骨膜性軟骨瘤）、C（可自管狀骨骨幹膨出）皆屬 enchondromatosis 譜系可見。
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - Segond fracture
   - Gerdy's tubercle fracture
   - 撕脫性骨折附著點
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # avulsion-fracture-attachments
@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 下列tendon or ligament attach site avulsion fracture的配對,何者為錯？ (2016-279)
 > **「Anterior cruciate ligament – Segond fracture」為錯（A）**——Segond fracture附著結構為lateral capsular ligaments，非ACL。Iliotibial band-Gerdy's tubercle、rectus femoris-AIIS、hamstring-ischial tuberosity皆正確。[^1]
+
+> [!question]- Which of the following statement about avulsion fractures of the knee is **WRONG** ? (2021-039)
+> **C（Gerdy tubercle - Avulsion injury at tibial tuberosity）**——Gerdy 結節位於脛骨前外側，是腸脛束（iliotibial band）附著處，其撕脫非發生在脛骨粗隆；脛骨粗隆（tibial tuberosity）為髕韌帶附著、撕脫即 Osgood-Schlatter。A Stieda（內側股骨髁 MCL 撕脫，即 Pellegrini-Stieda）、B Segond（脛骨外側平台外側關節囊韌帶／ALL 撕脫，常伴 ACL 斷裂）、D Sinding-Larsen-Johansson（髕骨下極）皆為正確配對。
 
 ## 考題
 ```dataview

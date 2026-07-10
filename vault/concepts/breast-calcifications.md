@@ -7,7 +7,7 @@ aliases:
   - typically benign calcifications
   - amorphous calcification
   - 乳房鈣化
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # breast-calcifications
@@ -109,6 +109,12 @@ dateRev: 2026-06-29
 
 > [!question]- 根據 BIRADS，下列哪一種乳房鈣化的 Likelihood of malignancy 最高？ (2022-418)
 > **Irregular spiculated（D）惡性可能性最高**。⚠️ 本題選項（round/oval/irregular 之 shape＋circumscribed/microlobulated/spiculated 之 margin）實為 BI-RADS **腫塊（mass）** 之形態/邊緣描述詞，而非鈣化型態描述——依 BI-RADS，腫塊惡性風險隨 **shape：oval/round → irregular** 及 **margin：circumscribed → microlobulated → spiculated** 遞增；故 **irregular 形＋spiculated 緣**惡性可能性最高。相對地 round/oval circumscribed 為典型良性特徵。[^1]
+
+> [!question]- Which one is not common appearance of malignant calcification? (2021-288)
+> **C（Rod-like calcification）非惡性表現**——large rod-like（secretory／分泌型）為典型**良性**鈣化（實心、平滑、沿乳管走向並指向乳頭，好發 >60 歲）。Amorphous、Fine-linear、Pleomorphic 皆屬可疑（惡性）型態。
+
+> [!question]- Which one is not common distribution pattern of malignant calcification? (2021-289)
+> **B（Scattered）**——BI-RADS 鈣化分布僅 diffuse、regional、grouped、linear、segmental 五類；grouped、segmental、regional 皆為正式分布用語（segmental 最可疑、PPV 最高），惟「scattered」非 BI-RADS 分布詞彙（隨機散在對應 diffuse，屬良性而非惡性型分布），故非惡性鈣化之常見分布型態。
 
 ## 考題
 ```dataview

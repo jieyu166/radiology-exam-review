@@ -64,6 +64,9 @@ dateRev: 2026-07-10
 > [!question]- Which one of the following tumors does not have matrix mineralization? (2021-203)
 > **D（Giant cell tumor）**——GCT 無基質礦化。Chondroblastoma、enchondroma、clear cell chondrosarcoma 皆屬軟骨源腫瘤，可見軟骨基質鈣化（ring-and-arc／popcorn）。
 
+> [!question]- Which of the following statements about giant cell tumor (GCT) of bone is incorrect? (2021-359)
+> **D（次發 ABC 見於高達 50%）為誤**——GCT 之次發性動脈瘤樣骨囊腫（ABC，可見 fluid-fluid levels）文獻報告約僅 **10–14%**（非 50%），惟出現時仍應把 telangiectatic osteosarcoma 納入鑑別。A（中年為峰、老年較少、兒童罕見）、B（多發於長骨、多在膝周）、C（界清但非硬化緣、偏心、延伸至軟骨下）、E（denosumab 作用於 RANK 途徑抑制蝕骨細胞）皆正確。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "giant-cell-tumor")

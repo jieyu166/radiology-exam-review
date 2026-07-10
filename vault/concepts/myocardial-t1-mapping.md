@@ -9,7 +9,7 @@ aliases:
   - ECV fraction
   - T1 shortening
   - 心肌T1定量
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # myocardial-t1-mapping
@@ -72,6 +72,9 @@ dateRev: 2026-07-01
 
 > [!question]- Which of the following statements applies to T1 mapping in myocardial fibrosis? (2018-059)
 > **All of the above（D）**——瀰漫性纖維化致native T1與ECV皆上升(A)、ECV較穩健且與組織學相關性較佳(B)、ECV上升亦可反映其他細胞外基質擴張過程(C)，皆為正確描述。[^3]
+
+> [!question]- Which of the following is not correct about the native T1 value in T1 mapping of cardiovascular magnetic resonance? (2021-035)
+> **D（siderotic/iron-overload cardiomyopathy native T1 increased）**——鐵過載（siderotic cardiomyopathy）與脂肪過載會使 native T1『下降』而非上升，故此敘述為偽。A myocarditis（水腫使 T1 上升）、B cardiac amyloidosis（間質擴張使 T1 上升）為真；C Fabry disease（醣鞘脂堆積、細胞內脂質過載）使 native T1 下降亦為真。
 
 ## 考題
 ```dataview

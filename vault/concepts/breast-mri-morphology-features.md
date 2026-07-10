@@ -7,7 +7,7 @@ aliases:
   - Cooper's ligament traversing
   - center enhances first
   - 乳房MRI良惡性型態特徵
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # breast-mri-morphology-features
@@ -50,6 +50,9 @@ dateRev: 2026-07-02
 
 > [!question]- Which type of enhancement kinetics in breast MRI dose it indicate malignancy? (2020-347)
 > **Type III（廓清型washout，C）**——初期快速上升後訊號下降，最強烈提示惡性。[^3]
+
+> [!question]- Which one is the most reliable characteristic of breast cancer on MRI: (2021-291)
+> **A（Irregular shape）**——形態學（不規則/針狀邊緣、形狀）為乳癌 MRI 最可靠且獨立的惡性判準。B rapid enhance＋washout（Type III kinetics）雖提示惡性但須與形態並用、單靠強化率特異度低；C DWI 高訊號與 D heterogeneous enhancement 特異度較低、亦可見於良性病灶。
 
 ## 考題
 ```dataview

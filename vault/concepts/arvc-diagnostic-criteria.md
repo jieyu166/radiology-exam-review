@@ -7,7 +7,7 @@ aliases:
   - arrhythmogenic right ventricular cardiomyopathy
   - 2010 Revised Task Force criteria
   - ARVC心臟MR診斷準則
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # arvc-diagnostic-criteria
@@ -44,6 +44,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Which of the following abnormalities of right ventricle is not in the MR imaging criteria for ARVC according to 2010 Revised Task Force criteria? (2018-049)
 > **RVOT徑增加（D）**——RVOT徑為2D心臟超音波診斷準則之參數，非心臟MR診斷準則所採用。RV EDV增加(A)、局部RV運動不能(B)、RVEF下降(C)皆為MR診斷準則(major)之參數。[^1]
+
+> [!question]- What is NOT criteria of ARVC by cardiac MR or cardiac CT? (2021-031)
+> **C（RV wall fatty infiltration）**——脂肪浸潤已從 2010 修訂版 Task Force 診斷準則中移除（正常心肌亦可見心肌脂肪，纖維脂肪取代須靠切片證實），故非心臟 MR/CT 之診斷準則。A RV EDV/BSA ≥110（男）/≥100（女）mL/m²、B RVEF <40%、D RV dyskinesia／室壁 scalloping（區域性室壁運動異常）皆為現行 MR 準則所採用之參數。
 
 ## 考題
 ```dataview

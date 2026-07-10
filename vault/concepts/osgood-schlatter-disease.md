@@ -7,7 +7,7 @@ aliases:
   - OSD
   - tibial tuberosity apophysitis
   - 脛骨粗隆骨骺炎
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # osgood-schlatter-disease
@@ -46,6 +46,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Which of the following statement about Osgood-sschlatter disease is not true? (2018-072)
 > **Thickening distal portion of quadriceps tendon（A）**——實際增厚部位為遠端髕韌帶，非股四頭肌肌腱，此敘述錯誤。[^1]
+
+> [!question]- Which is **incorrect** concerning Osgood-Schlatter Disease? (2021-047)
+> **B（More commonly found in adult than adolescents）**——OSD 為活躍青少年之脛骨粗隆牽引性骨骺炎，好發男性 10-15 歲、女性 8-12 歲，非成人。A 脛骨粗隆 osteochondrosis、C 傷後約 3-4 週出現脛骨粗隆碎裂骨化、D 前膝疼痛/軟組織腫脹/壓痛皆為正確描述。
 
 ## 考題
 ```dataview

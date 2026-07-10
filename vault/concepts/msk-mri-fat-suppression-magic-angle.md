@@ -8,7 +8,7 @@ aliases:
   - STIR frequency-selective opposed-phase
   - 魔術角假影
   - 肌肉骨骼MRI脂肪抑制
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # msk-mri-fat-suppression-magic-angle
@@ -43,6 +43,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- 下列有關 Musculoskeletal MRI 的技術, 下列敘述何者錯誤? (2022-402)
 > **答案：C（關鍵）**。「評估膝或踝關節軟骨、使用 GRE 快速成像時不必擔心 magic angle artifacts」為**錯誤**——關節軟骨富含定向膠原、GRE 屬短 TE 序列，正是魔術角好發情境，仍須警覺。其餘正確：STIR/frequency-selective/opposed-phase 為抑脂三法（後兩者不抑水）；膠原走向≈55°、TE≤20 ms 會產生魔術角；biceps／peroneal tendon 以 PD fat-sat（短 TE）評估要注意魔術角；金屬植入物時 STIR 抑脂優於 frequency-selective 與 opposed-phase。[^1][^2][^3]
+
+> [!question]- Regarding the MRI protocol for evaluation of diabetic pedal disease, which of the following statements is **TRUE**? (2021-043)
+> **D（A STIR sequence can be useful to provide more homogeneous fat suppression）**——STIR 為非選擇性、依脂肪短 T1 反轉抑制訊號，對磁場不均（足部小關節、金屬）較不敏感，故抑脂較 frequency-selective 均勻。A 錯：兩足應分開成像（用 head coil 同時掃兩足影像品質差）；B 錯：FOV 不應一律放大（大 FOV 使足部小骨受 volume averaging 判讀受限，僅懷疑感染近端擴散才含小腿）；C 錯：T2 需脂肪抑制以免高訊號脂肪掩蓋水腫；E 錯：IV gadolinium 有助辨識膿瘍、竇道、壞死區並鑑別蜂窩組織炎與感染性關節炎/腱鞘炎。
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - washout curve
   - breast MR spectroscopy
   - 動態曲線
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # breast-mri-kinetics
@@ -93,6 +93,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 以下關於Breast MRI lexicon中"focus"的敘述，何者有誤？ (2016-287)
 > **「focus惡性feature為無fatty hilum、persistent/plateau dynamics、與前片比較增大」有誤（C）**——惡性動力學特徵應為rapid rise with washout(type 3)，非persistent/plateau。focus為<5mm enhancing dot、可能良性或惡性皆正確。[^8]
+
+> [!question]- According to the ACR BI-RADS Atlas® 5th Edition, which description of the Kinetic Curve Assessment is **not** true? (2021-011)
+> **C（persistent＝訊號在初始上升後不隨時間變化）**——persistent（type I）的定義是初始上升後訊號**持續緩慢增加（>10%）**，而非「不隨時間變化」（後者較接近 plateau）。其餘正確：初期 slow 為前 2 分鐘上升 <50%（A）、fast 為上升 >100%（B）、delayed 期 washout 為自最高訊號下降 >10% 且特別標為可疑（D）。
 
 ## 題目
 > [!question]- 請問關於breast MRI的kinetic enhancement curve assessment，下列何者為真? (2018-010)

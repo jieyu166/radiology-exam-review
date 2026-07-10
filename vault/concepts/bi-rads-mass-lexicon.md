@@ -8,7 +8,7 @@ aliases:
   - mass margin
   - oval mass undulations
   - 乳房腫塊術語
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # bi-rads-mass-lexicon
@@ -89,6 +89,12 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- 下列有關breast mass的敘述何者有誤? (2022-357)
 > **B（關鍵）**——「用來形容 breast mass margin 的 **mammography** lexicon 包括 circumscribed, indistinct, **angular**, spiculated」為**錯誤**。乳房攝影（mammography）的 margin 五詞是 **circumscribed／obscured／microlobulated／indistinct／spiculated**；**"angular" 是超音波（US）的 margin 用語、不是乳攝 lexicon**。其餘正確：A（breast mass 需詳述 shape、margin、density）、C（composition C/D 緻密乳房造成判讀不易）、D（一般而言 high density mass 比 low density mass 惡性度高，乳癌極少呈低密度）。[^1][^3]
+
+> [!question]- Which is not the description of the shape of a mass in the BI-RADS 5th Edition? (2021-088)
+> **C（lobular）非 BI-RADS 5th 版腫塊 shape 之描述詞**——shape 僅 oval、round、irregular 三類（oval 可含 2–3 個 undulations）；「lobular」不在 shape lexicon，分葉外形以邊緣 microlobulated 描述。oval、round、irregular 皆為正確 shape 用詞。
+
+> [!question]- Which one is the most malignant shape of a breast mass? (2021-287)
+> **A（Irregular）**——BI-RADS 腫塊 shape 惡性傾向由低到高為 round／oval → irregular，irregular（非 round 非 oval）最可疑。Round、Oval 偏良性；Lobulated 非 BI-RADS 5th 正式 shape 用詞。
 
 ## 考題
 ```dataview

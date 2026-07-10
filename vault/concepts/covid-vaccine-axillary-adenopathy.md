@@ -7,7 +7,7 @@ aliases:
   - COVID-19 vaccine lymphadenopathy
   - post-vaccination axillary lymphadenopathy
   - 新冠疫苗腋下淋巴腫大
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # covid-vaccine-axillary-adenopathy
@@ -49,6 +49,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- About the axillary adenopathy after COVID-19 vaccination identified on mammography and breast ultrasound, which is wrong? (2022-287)
 > **C. Mammography can detect more axillary adenopathy than ultrasound（錯）**——實際上超音波遠比乳房攝影敏感（同日檢查中 US 單獨偵測 61%、MG 單獨僅 9%）。A（Moderna 較其他品牌更相關，46% vs Pfizer 38%）、B（多在同側/接種側）、D（多見於接種後 ≤14 天）、E（可持續達接種後 43 週）皆為正確敘述。[^2]
+
+> [!question]- 以下何者為是？（vaccine-induced lymphadenopathy）(2021-184)
+> **D（以上皆是）為正確**——A（疫苗相關淋巴腫大對放射科醫師是診斷難題）、C（記錄接種狀態可減少不必要切片、緩解病人焦慮）皆成立；影像指引建議記錄接種日期/部位/疫苗別、依接種時序調整篩檢與 BI-RADS 分級處置。故答案為以上皆是。
 
 ## 考題
 ```dataview

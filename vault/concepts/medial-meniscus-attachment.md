@@ -7,7 +7,7 @@ aliases:
   - tibial collateral ligament meniscus
   - unhappy triad
   - 內側半月板
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # medial-meniscus-attachment
@@ -43,6 +43,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- In injuries of the knee, the medial meniscus is frequently torn because it is firmly attached to which structure? (2018-357)
 > **Tibial collateral ligament（C）**——內側半月板牢固附著於脛側副韌帶，活動度低故易撕裂。[^1]
+
+> [!question]- 請問下列那一條肌腱或韌帶最不容易因為鄰近半月軟骨在影像上誤判為半月軟骨斷裂 (meniscal tear)? (2021-363)
+> **C（Medial collateral ligament）**——A transverse meniscal ligament、B ligament of Wrisberg、D meniscofemoral ligament、E popliteus tendon 皆緊鄰半月板走行，其與半月板間之正常裂隙／脂肪常在 MRI 上被誤判為撕裂線（pseudotear pitfall）。內側副韌帶（MCL）為淺層內側關節囊韌帶，不與半月板實質形成關節內假性裂隙，故最不易被誤判為半月板撕裂。
 
 ## 考題
 ```dataview

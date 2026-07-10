@@ -6,7 +6,7 @@ aliases:
   - invasive lobular carcinoma
   - ILC
   - 浸潤性小葉癌
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # invasive-lobular-carcinoma
@@ -54,6 +54,10 @@ dateRev: 2026-07-01
 
 > [!question]- Which one is the "wrong" statement of the invasive lobular carcinoma? (2016-277)
 > **「ILC是最常見乳癌型態」為非（A）**——ILC僅佔所有乳癌約5-10%，最常見乳癌型態為invasive ductal carcinoma（IDC）。常呈spiculated/ill-defined mass、四種主要型態(classic/signet ring/alveolar/pleomorphic)、classic type呈linear與targetoid組織型態皆正確。[^1]
+
+## 題目
+> [!question]- Which of the following statement is **wrong**? (2021-008)
+> **C（Using MRI to assess tumor size for invasive lobular carcinomas is less accurate than ultrasonography）**——恰相反：MRI 是評估 ILC 範圍最準確的模態（敏感度 >95%，以線狀／節段 non-mass enhancement 呈現），較 mammography／US 更能顯示真實範圍、多發與雙側，可降低再切除率；US 反而常低估 ILC 範圍（18–53%）。故 C 錯。其餘正確：A 乳房 MRI 主要適應症為已知癌分期、高風險族群篩檢、新輔助化療反應評估；B 病灶偵測主要靠打顯影後影像（postcontrast）；D MRI 對侵犯癌旁 DCIS 成分之顯示優於 mammography。
 
 ## 考題
 ```dataview

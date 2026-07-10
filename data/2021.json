@@ -301,7 +301,10 @@
       "reference": "Breast MRI: State of the Art. Radiology 2019; 292:520–536；2021 交換考官方詳解 PDF p83",
       "explanation": "幾乎沒有遇過US 比 MRI 好的情況. Tissue contrast 差太多\n[[2019 R Breast MRI State of the Art.pdf]]\n- A. Indication 沒錯\n- B. 沒錯，主要打contrast看血管。現在還會再看T2WI, DWI\n- C. Lobular carcinoma: MRI 能看得比mammo/US清楚，評估tumor size也更準，減少re-excision rate。故眾多guideline indication都有lobular carcinoma (原文Table 2)\n- D. MRI 看tumor sensitivity是最高的。但以microcalcification呈現的DCIS要用mammo看，MRI沒有比較好。\n\t- 看invasive cancer旁邊的DCIS，MRI比其他工具好。\n\t- MRI看 large DCIS ，Sensitivity approaches 100%.\n\t- MRI看 DCIS，特別是 high-grade 效果也是很好 (原文Fig 4)，但以microcalcification呈現的DCIS可能會看不到，看microcalcification還是mammography比較強\n\n【2021 官方詳解】\nC. 幾乎沒有遇過US 比 MRI 好的情況. Tissue contrast 差太多\nThe benefit of using MRI to assess tumor size is particularly strong for invasive lobular carcinomas. Likewise, the depiction of DCIS components related to invasive cancers is much better than that with mammography, the latter missing more than half of all lesions, whereas the sensitivity for large DCIS components with MRI approaches 100%. Breast MRI is also more accurate in the depiction of pure DCIS lesions, particularly high-grade lesions; however, small DCIS lesions detected because of calcifications at mammography may be occult at MRI.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "invasive-lobular-carcinoma",
+        "breast-mri-screening-role"
+      ],
       "checked": false,
       "sourcePage2021": 83
     },
@@ -419,7 +422,9 @@
       "images": [
         "2021-011-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
       "checked": false,
       "sourcePage2021": 2
     },
@@ -527,7 +532,9 @@
       "reference": "Raj, S. D., Karimova, E. J., Fishman, M. D., Fein-Zachary, V., Phillips, J., Dialani, V., & Slanetz, P. J. (2017). Imaging of breast implant–associated complications and pathologic conditions: breast imaging. Radiographics, 37(5), 1603-1604. Yang, N., & Muradali, D. (2011). The augmented breast: a pictorial review of the abnormal and unusual. American Journal of Roentgenology, 196(4), W451-W460. (D)應為Intra-capsular rupture；2021 交換考官方詳解 PDF p181",
       "explanation": "這些sign是intracapsular。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-implant-rupture-imaging"
+      ],
       "checked": false,
       "sourcePage2021": 181
     },
@@ -601,7 +608,9 @@
       "reference": "Breast J. 2020 Oct;26(10):2038-2041.；2021 交換考官方詳解 PDF p343",
       "explanation": "hematogenous metastases。因很少lymphatic metastasis，所以不需清axillary LN。\n\n【2021 官方詳解】\nMalignant phyllodes tumor:\nA tumor diameter of 3 cm or greater => higher likelihood of malignancy\nFewer than 20% of the malignant tumors metastasize. When metastatic disease does occur, the metastases usually spread hematogenously to the lungs, pleura, or bone.\nlymphatic metastasis is rare, axillary nodal surgery is not indicated.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "phyllodes-tumor"
+      ],
       "checked": false,
       "sourcePage2021": 343
     },
@@ -1148,7 +1157,9 @@
       "reference": "Cardiac MR Findings and Potential Diagnostic Pitfalls in Patients Evaluated for Arrhythmogenic Right Ventricular Cardiomyopathy; RadioGraphics 2014; 34:1553–1570；2021 交換考官方詳解 PDF p20",
       "explanation": "常見於年輕人，但在兒童中較少見。男女發病比例相同\n\n【2021 官方詳解】\nArrhythmogenic right ventricular cardiomyopathy (ARVC) is a familial cardiomyopathy characterized by fibrofatty replacement of the myocardium, ventricular tachycardia, and ventricular dysfunction that affects primarily the right ventricle (RV). This disease is not common but can be seen more frequently in young adults, and clinical manifestations range from no symptoms to lethal arrhythmia and sudden death.\nThe major or minor imaging criteria of the original 1994 task force criteria included the presence of global or regional RV dilatation (evaluated subjectively), RV microaneurysm, or regional hypokinesia (3). Microaneurysms of the RV (dyskinesia in systole with persistent diastolic bulging) and segmental RV dilatation were removed from the imaging criteria.\n2010 Task Force Criteria:\nthe combination of (a) regional RV wall motion abnormality, such as akinesia, dyskinesia, or dyssynchrony, and (b) reduced global RV function or increased RV end-diastolic volume index (quantitative assessment) is necessary to meet major or minor criteria at cardiac MR imaging\nMicro aneurysm 可以有，但已經從新criteria 移除",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "arrhythmogenic-rv-dysplasia"
+      ],
       "checked": false,
       "sourcePage2021": 20
     },
@@ -1185,7 +1196,9 @@
       "reference": "(J Am Coll Cardiol Img 2015;8:597–611)；2021 交換考官方詳解 PDF p333",
       "explanation": "fatty infiltration 以前有，但在2010Task Force診斷criteria中拿掉，且正常心肌也可能會有。照criteria，fibrofatty replacement要看切片。2020 Padua criteria可用CE-MRI看fibrofatty change\n\n【2021 官方詳解】\nC: Fatty infiltration in the right ventricle => no longer part of the diagnostic criteria\nMajor cardiac MRI diagnostic criteria for ARVD:\n*Regional RV akinesia or dyskinesia or dyssynchronous RV contraction and 1 of the following:\n-ratio of RV end-diastolic volume to BSA ≥110 mL/m2 (male) or ≥100 mL/m2 (female)\n-RV ejection fraction ≤40%\nMinor cardiac MRI diagnostic criteria are:\n*regional RV akinesia or dyskinesia or dyssynchronous RV contraction and 1 of the following:\nratio of RV end-diastolic volume to BSA ≥100 to <110 mL/m2 (male) or ≥90 to <100 mL/m2 (female)\nRV ejection fraction >40% to ≤45%\nFatty infiltration in the right ventricle (and occasionally in the left ventricle) , but this can also be seen in normal myocardium and is no longer part of the diagnostic criteria",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "arvc-diagnostic-criteria"
+      ],
       "checked": false,
       "sourcePage2021": 333
     },
@@ -1224,7 +1237,9 @@
         "2021-032-1.png",
         "2021-032-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ccta"
+      ],
       "checked": false,
       "sourcePage2021": 364
     },
@@ -1297,7 +1312,9 @@
         "2021-034-1.png",
         "2021-034-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pad-peripheral-arterial"
+      ],
       "checked": false,
       "sourcePage2021": 88
     },
@@ -1335,7 +1352,9 @@
       "images": [
         "2021-035-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "myocardial-t1-mapping"
+      ],
       "checked": false,
       "sourcePage2021": 363
     },
@@ -1485,7 +1504,9 @@
       "reference": "明書名,頁次 https://radiopaedia.org/articles/avulsion-fractures-of-the-kn ee；2021 交換考官方詳解 PDF p30",
       "explanation": "【2021 官方詳解】\n- Osgood-Schlatter disease- Avulsion injury at tibial tuberosity\n- Gerdy tubercle is the eponymous name for the lateral condyle of the proximal tibia (where it is located anterolaterally). It is where the iliotibial band and anterior tibialis muscle inserts.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "avulsion-fracture-attachments"
+      ],
       "checked": false,
       "sourcePage2021": 30
     },
@@ -1634,7 +1655,9 @@
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p339",
       "explanation": "【2021 官方詳解】\nA. Imaging both feet with a head coil appears more efficient but results in suboptimal imaging of both\nsides. Each foot should be imaged separately.\nB.\nThe calf should be included if there is clinical concern for proximal spread of infection.\nHowever, this is relatively rare , and the large field of view renders interpretation of the small bones of the foot limited because they are subject to volume averaging effects\nC.\nOn T2-weighted spin-echo and especially fast spin-echo imaging, fat in marrow and subcutaneous tissues is hyperintense, which can obscure subtle areas of edema. Fat suppression should be used when available unless there is significant artifacts\nE.\nIV gadolinium contrast material facilitates identification of abscesses, sinus tracts, and devitalized regions; differentiation of cellulitis from diabetic soft-tissue edema; and differentiation of bland fluid from\nseptic arthritis and septic tenosynovitis",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "msk-mri-fat-suppression-magic-angle"
+      ],
       "checked": false,
       "sourcePage2021": 339
     },
@@ -1675,7 +1698,9 @@
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p340",
       "explanation": "【2021 官方詳解】\nA.\nPilon fractures usually are due to axial loading injuries, such as a fall from a height\nC\nThe risk of avascular necrosis of the talus is increased with subluxation or dislocation of the subtalar\nor ankle joint but is unrelated to involvement of the anterior process.\nD.\nFractures of the sustentaculum tali usually are due to vertical shear forces from axial loading injuries\nE.\nThe blood supply to the talar dome consists of branches of the anterior tibial artery that enter the bone at\nthe talar neck",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "talus-anatomy"
+      ],
       "checked": false,
       "sourcePage2021": 340
     },
@@ -1790,7 +1815,9 @@
       "reference": "p80 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p59",
       "explanation": "【2021 官方詳解】\nB. Osgood-Schlatter disease (tibial osteochondrosis) is seen in active adolescents, especially those who jump and kick, usually affecting boys between ages 10-15 years.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "osgood-schlatter-disease"
+      ],
       "checked": false,
       "sourcePage2021": 59
     },
@@ -3392,7 +3419,9 @@
       "images": [
         "2021-088-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "胡華堃",
@@ -3855,7 +3884,9 @@
       "reference": "次 Rasool MN, Govender S. The skeletal manifestations of congenital syphilis. A review of 197 cases. J Bone Joint Surg Br. 1989 Nov;71(5):752-5. doi: 10.1302/0301-620X.71B5.2584243. PMID: 2584243.；10.1302/0301-620X.71B5.2584243.；2021 交換考官方詳解 PDF p31",
       "explanation": "【2021 官方詳解】\n- A : Celery stalk metaphysis ( seen with congenital rubella, cytomegalovirus, toxoplasma, or syphilis infection) appearance of the metaphyses in a number of longitudinally aligned linear bands of sclerosis.\n- B: Metaphyseal lucent bands (LINGING) – Leukemia/Lymphoma, Infection (STORCH, including syphilis), Normal variation, Illness (rickets/scurvy), Neuroblastoma (mets), Growth arrest lines.\n- C : Symmetric localized demineralization and osseous destruction of the medial portion of the proximal tibial metaphysis (Wimberger sign / Wimberger corner sign). => Congenital syphilis.\n- Wimberger ring sign, often simply just called Wimberger ring, refers to a circular calcification surrounding the osteoporotic epiphyseal center of ossification in scurvy.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "scurvy-skeletal"
+      ],
       "checked": false,
       "difficulty": "難\n●\nA : Celery stalk metaphysis ( seen with congenital rubella,\ncytomegalovirus, toxoplasma, or syphilis infection) appearance of the\nmetaphyses in a number of longitudinally aligned linear bands of\nsclerosis.\n●\nC : Symmetric localized demineralization and osseous destruction of\nthe medial portion of the proximal tibial metaphysis (Wimberger sign\n/ Wimberger corner sign)\n●\nWimberger ring sign, often simply just called Wimberger ring, refers\nto a circular calcification surrounding the osteoporotic epiphyseal\ncenter of ossification in scurvy. It must not be confused with\nWimberger sign, pathognomonic for congenital syphilis.",
       "author": "",
@@ -4559,7 +4590,9 @@
       "reference": "American Journal of Roentgenology. 2015;204: 374-385；2021 交換考官方詳解 PDF p61",
       "explanation": "【2021 官方詳解】\nD. Heterogenous or avid enhancement due to the presence of abundant vascularity within the myxoid matrix\nOn CT, intramuscular myxomas appear as well-defined low-density lesions with minimal to mild contrast enhancement. On MRI, the lesions are well circumscribed with smooth or slightly lobulated margins, homogeneously hypointense on T1-weighted images, and extremely hyperintense on T2weighted images, similar to water . On contrast-enhanced images, lesions show variable heterogeneous, sometimes avid, contrast enhancement due to the presence of abundant vascularity within the myxoid matrix",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "intramuscular-myxoma"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "傅真如",
@@ -5299,7 +5332,10 @@
       "reference": "Cardiac CT. Marc Deway. Springer. ISBN 978-3-642-14021-1；10.1016/j.ejrad.2006.02.009；2021 交換考官方詳解 PDF p91",
       "explanation": "【2021 官方詳解】\n64>16>8>4.\n10.1016/j.ejrad.2006.02.009\n320-detector row dynamic volume CT (DVCT) can cover the whole heart within one heartbeat. Heart rate variation did not influence the image quality of coronary arteries.\n10.1007/s00330-012-2497-z\nDual-head contrast agent injector for saline flush saves contrast doses.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ccta",
+        "cardiac-ct-contrast-injection"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "阮昱翔",
@@ -5373,7 +5409,9 @@
       "reference": "Radiology Review Manual 8th Edition page 2057；2021 交換考官方詳解 PDF p93",
       "explanation": "【2021 官方詳解】\nB. 全世界的Prevalence 差太多，但是題目參考Radiology Review Manual (歐美數據), 所以應該是0.5-0.6%.\nTAO is observed worldwide but is more common in countries where tobacco is heavily used, especially among people who make homemade cigarettes from raw tobacco (sometimes mixed with cannabis) [6]. As such, TAO is most prevalent in the Mediterranean, Middle East, and Asia [7,8]. In other parts of the world, among patients with arterial occlusive disease, the prevalence varies widely, ranging from 0.5 to 5.6 percent in Western Europe, 15 to 66 percent in Korea and Japan, and as high as 45 to 63 percent in India\nUpToDate\nBuerger disease, also known as thromboangiitis obliterans, is a chronic, non-atherosclerotic, inflammatory, thrombotic arteritis found predominantly in young male smokers.\nRadiopaedia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "buerger-disease"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "謝任富",
@@ -6091,7 +6129,9 @@
       "images": [
         "2021-159-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "tavi"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳美翰",
@@ -7055,7 +7095,9 @@
       "reference": "Radiology:Imaging Cancer https://doi.org/10.1148/rycan.2021210038；10.1148/rycan.2021210038；2021 交換考官方詳解 PDF p139",
       "explanation": "【2021 官方詳解】\nCurrent imaging fuidelines related to vaccine-induced axillary lymphadenopathy.\n- Document vaccination dates, injection site/laterality, vaccine type\n- Scheduling exam: Screening exam prior to 1st dose or 4-6 weeks following 2nd dose\n- Incidentally detected unilateral lymphadenopathy on imaging:\n  - BIRADS-0 🡪 if COVID19 vaccine in 4 weeks 🡪 BIRADS-3 🡪 follow up in 4-12 weeks 🡪 if persisted 🡪 BIRADS-4\n  - Another suggestion: BIRADS-2 after recent COVID 19 vaccination in ipsilateral arm",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid-vaccine-axillary-adenopathy"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃品齊",
@@ -7919,7 +7961,9 @@
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch. 17, P302；2021 交換考官方詳解 PDF p166",
       "explanation": "【2021 官方詳解】\nThe overall incidence of NSF was 36.5 cases per 100 000 gadolinium-enhanced magnetic resonance (MR) examinations between 2003 and 2006\nfour cases per 100 000 gadolinium-enhanced MR examinations between 2007 and 2008 after screening for NSF risk was instituted (Fisher exact test, P = .001).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nephrogenic-systemic-fibrosis"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "惲純和醫師",
@@ -8262,7 +8306,9 @@
       "reference": "Radiopaedia (B) Breast hamartoma are benign breast lesion.；2021 交換考官方詳解 PDF p183",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-hamartoma"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳若瑀醫師",
@@ -10042,7 +10088,9 @@
         "2021-261-1.png",
         "2021-261-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "enchondromatosis"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "游治維",
@@ -10079,7 +10127,9 @@
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p230",
       "explanation": "【2021 官方詳解】\n(A) 30% RA may show negative result of rheumatoid factor\n(B) The synovium is thought to be the primary site of inflammation in RA and enthesis in PsA.\n(C) Erosions in RA typically occur in the bare areas of the joint.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "psoriatic-arthritis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃新傑",
@@ -10115,7 +10165,9 @@
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p231",
       "explanation": "【2021 官方詳解】\n(A) Effusion in the joint or tendon sheath, which occurs in both RA and PsA, is commonly associated with joint capsular synovitis or tenosynovitis\n(B) Boutonnière deformity (buttonhole deformity) and swan neck deformity are most frequent type of deformity in RA and may manifest at early stages. Other deformities such as mallet finger and hitchhiker deformity are more likely to be found in advanced stages of RA.\n(C) The combination of bone erosion and proliferation at enthesis gives a characteristic appearance of mouse ears on the distal surface of the interphalangeal joint, with frequent involvement of the DIP joints. The term bony corona was previously used to describe severe bone proliferation, which affects the entire circumference of the bone in PsA.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "psoriatic-arthritis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃新傑",
@@ -10151,7 +10203,9 @@
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p232",
       "explanation": "【2021 官方詳解】\n(A) low signal intensity\n(B) In contrast to radiographic erosions, which reflect irreversible bone damage, bone marrow edema is\nconsidered to be a potentially reversible phenomenon.\n(C)(D) Bone marrow edema in RA is usually located adjacent to bare areas. In PsA, bone marrow edema is thought to begin at the corner of the phalanx at the enthesis of the capsule and spread to involve the entire bone as the disease progresses.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "psoriatic-arthritis"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "黃新傑",
@@ -10869,7 +10923,9 @@
       "images": [
         "2021-283-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "chondroblastoma"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "J-W Ku (SHH)",
@@ -11022,7 +11078,9 @@
       "images": [
         "2021-287-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-mass-lexicon"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "YC TSENG",
@@ -11060,7 +11118,9 @@
       "images": [
         "2021-288-1.gif"
       ],
-      "concepts": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "YC TSENG",
@@ -11099,7 +11159,9 @@
         "2021-289-1.jpg",
         "2021-289-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "YC TSENG",
@@ -11137,7 +11199,9 @@
       "images": [
         "2021-290-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "breast-premalignant-lesions"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "YC TSENG",
@@ -11175,7 +11239,9 @@
       "images": [
         "2021-291-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-morphology-features"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "YC TSENG",
@@ -11418,7 +11484,9 @@
         "2021-297-1.png",
         "2021-297-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "gadolinium-contrast"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳鈺棟",
@@ -11456,7 +11524,9 @@
       "images": [
         "2021-298-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "endocardial-cushion-defect"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "林哲銘",
@@ -12697,7 +12767,10 @@
       "reference": "Peter G. Danias. Cardiovascular MRI: 150 multiple-Choice Questions and Answers © Humana Press 2008；2021 交換考官方詳解 PDF p331",
       "explanation": "【2021 官方詳解】\nB. CMR is generally inferior to cardiac CT for evaluation of the coronary arteries.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "coronary-mra-technique",
+        "cardiac-mri-function"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "吳輔榮",
@@ -12855,7 +12928,9 @@
       "images": [
         "2021-334-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "foot-ankle-soft-tissue-masses"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "蔡孟原",
@@ -13005,7 +13080,9 @@
       "reference": "1. ACR BI-RADS® atlas, MRI: page33-35,69. 2. Morris EA, Liberman L. Breast MRI (2005) page51-76.；2021 交換考官方詳解 PDF p350",
       "explanation": "【2021 官方詳解】\nA.\nBright T2WI lesion => cysts, lymph nodes and fat necrosis. These are all benign lesions.\nUnfortunately there is one malignant lesion that has a high signal intensity on T2WI => colloid carcinoma.\nB.\nDark internal septation on T2WI and dynamic contrast-enhanced MRI, oval-shape;\nClassical picture of fibroadenoma\nD.\nIrregular or spiculated margin, cancer diagnosis (PPV 84%– 91%)\nRim like enhancement , cancer diagnosis (PPV, 84%)\nClumped enhancement , (PPV, 60% PPV)\nlinear or branching ductal distribution of enhancement (PPV 24% to 85%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-enhancement-patterns"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總王甄醫師",
@@ -13809,7 +13886,9 @@
       "reference": "Chakarun CJ, Forrester DM, Gottsegen CJ, Patel DB, White EA, Matcuk GR Jr. Giant cell tumor of bone: review, mimics, and new developments in treatment. Radiographics. 2013 Jan-Feb;33(1):197-211.；2021 交換考官方詳解 PDF p379",
       "explanation": "【2021 官方詳解】\nD.\nGCT may also contain fluid-fluid levels due to secondary aneurysmal bone cyst (ABC) formation, which has been reported in up to 14% of cases\n\n⚠️ 疑似與 2021-016 為同一題（相似度 0.823），請醫師確認是否合併。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "臺北榮總吳宏達主任",
@@ -13849,7 +13928,9 @@
       "reference": "Rosenberg ZS, Beltran J, Bencardino JT. From the RSNA Refresher Courses. Radiological Society of North America. MR imaging of the ankle and foot. Radiographics. 2000;20 Spec No:S153-79.；2021 交換考官方詳解 PDF p380",
       "explanation": "【2021 官方詳解】\nC.\nPTFL often appear striated and discontinuous owing to fat interposed between the fascicles of the ligaments. => Normal appearance",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lateral-ankle-ligaments"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳宏達主任",
@@ -13969,7 +14050,9 @@
       "reference": "Reference: Saad SS et al. RadioGraphics 2015; 35:1138–1139；2021 交換考官方詳解 PDF p383",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "medial-meniscus-attachment"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳宏達主任",
@@ -14304,7 +14387,9 @@
       "reference": "The Essential Physics of Medical Imaging, 3rd edition. Page 310.；2021 交換考官方詳解 PDF p398",
       "explanation": "【2021 官方詳解】\nGrid (鉛柵)\nBetween the patient and the x-ray film to reduce the scattered radiation reaching the detector\n(produced mainly by the Compton effect) and thus improve image contrast.\n巴克因素(Bucky factor) =入射鉛柵時的輻射強度/穿透鉛柵時的輻射強度\nIt indicates the increase in patient dose due to the use of a grid, for maintain SNR",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fluoroscopy-radiation-safety"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總郭昱醫師",

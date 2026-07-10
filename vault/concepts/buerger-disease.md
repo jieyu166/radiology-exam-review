@@ -39,6 +39,10 @@ aliases:
 
 [^2]: 據 PubMed，Del Conde I, Peña C. *Buerger disease (thromboangiitis obliterans)*. Tech Vasc Interv Radiol. 2014;17(4):234-40. [DOI](https://doi.org/10.1053/j.tvir.2014.11.003)（Tier 1 影像期刊綜述）——非動脈粥狀硬化性血管炎、由大量菸草暴露觸發，好發年輕吸菸者上下肢中小型動脈；臨床表現、診斷準則、血管攝影典型所見（節段閉塞＋螺旋狀側支、保留近端 inflow）、以戒菸為核心之治療與外科/血管內重建成效有限。
 
+## 題目
+> [!question]- Which one of the following options about "Buerger's disease" is "incorrect"? (2021-140)
+> **B（Unknown etiology；約佔所有慢性血管疾病 20%）為錯**——Buerger disease 與吸菸高度相關（非全然 unknown），且「佔慢性血管疾病約 20%」數字過高；依 Radiology Review Manual 歐美數據盛行率僅約 0.5–0.6%（亞洲/中東較高）。A（thromboangiitis obliterans、吸菸強相關）、C（戒菸症狀緩解、復抽復發、instep claudication 伴遠端潰瘍）、D（下肢 80%、上肢 10-20%、跳躍病灶、無全身性動脈粥狀硬化）皆正確。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "buerger-disease")

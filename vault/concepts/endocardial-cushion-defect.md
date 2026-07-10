@@ -9,7 +9,7 @@ aliases:
   - AVSD
   - AV canal
   - 心內膜墊缺損
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # endocardial-cushion-defect
@@ -65,6 +65,10 @@ dateRev: 2026-06-29
 [^3]: Radiology Key《Atrioventricular Septal Defects》（教科書章節摘錄, Tier 2）：CXR 心臟擴大＋肺血增多、右房與肺動脈擴大;echo pathognomonic signs（goose-neck、unwedged aorta、房室瓣 offset loss 同一水平、共同瓣、scooped inlet septum）;唐氏症關聯。https://radiologykey.com/atrioventricular-septal-defects/
 [^4]: 多排 CT 血管攝影 AVSD 影像（ESR/ECR 教學海報, Tier 2）＋ Thoracic Key/Radiology Key：Rastelli A/B/C 依前上橋葉騎跨分型可於短軸 CTA 判讀;LVOT 拉長前移、主動脈不再 wedged 於房室瓣環之間→ goose-neck deformity。https://thoracickey.com/atrioventricular-canal-defects-2/
 [^5]: **Tier 1** Richardson RR. *Atrioventricular Septal Defect*（Pediatrics, Cardiac, Congenital Heart Disease, Dx）. STATdx, Elsevier, updated 10/20/21（20 refs；實際查證 accessed 2026-07-04）——**AVSD/AVC/endocardial cushion defect＝房中隔+室中隔+單/雙 AV 瓣受累之譜系**；complete（房室中隔缺損 + 共同 AV 瓣）、partial（primum ASD + 分開瓣口 + 二尖瓣裂）、unbalanced（一心室發育不全）；**CXR 大心臟+大主肺動脈+肺血增加、肺高壓者肺過度充氣橫膈外翻**；**anterior/superior aorta + LVOT 拉長變窄 + dysplastic 5 葉共同瓣 → gooseneck deformity**；**echo 定病灶（primum echo dropout + 二尖瓣裂）、MR 算共同瓣逆流/Qp:Qs/心室發育不全最佳**；**唐氏症 44-48% 有 AVC、佔先心 5-8%（先心 4-8/1000）、關聯 heterotaxy/TOF**；治療（部分型 pericardial patch 經右房、完全型 2-5 歲修補死亡率 3%、unbalanced Glenn→Fontan、併發 MR/心律不整/heart block）；DDx（VSD、ASD、PDA）。原「StatPearls/Radiopaedia/教學海報」弱來源已由本次 STATdx Tier 1 查核升級。
+
+## 題目
+> [!question]- 請問 Down syndrome 的先天性心臟病表現? (2021-298)
+> **D（all of the above）**——Down syndrome（trisomy 21）之先天性心臟病可見 endocardial cushion defect（AVSD，最常見，約占唐氏兒 40–50%）、VSD、以及 tetralogy of Fallot，故 A/B/C 三者皆為其表現。
 
 ## 考題
 ```dataview

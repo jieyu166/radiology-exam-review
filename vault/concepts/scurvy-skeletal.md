@@ -5,7 +5,7 @@ subspecialty: [PE, MSK]
 aliases:
   - 壞血病骨骼表現
   - vitamin C deficiency
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # scurvy-skeletal
@@ -37,6 +37,10 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Irvine I, Walshe T, Capra M, Hayes R. *Scurvy: an unusual complication of paediatric cancer treatment.* Skeletal Radiol 2018;48(6):995-998（據 PubMed，DOI [10.1007/s00256-018-3103-5](https://doi.org/10.1007/s00256-018-3103-5)；實際查證 accessed 2026-07-04）——壞血病為維生素 C 缺乏致膠原不良，工業化國家罕見但吸收不良(如癌症治療併發腸胃道疾病)可誘發；臨床見肢體疼痛壓痛，影像具特徵性放射學表現，補充維生素 C 後臨床與影像可完全恢復，須納入高風險病人之鑑別。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- Which of the following statement about the skeletal manifestations of congenital syphilis is WRONG? (2021-100)
+> **C（Wimberger ring sign）**——Wimberger ring sign 是壞血病（scurvy）之表現，指骨骺骨化中心周圍的環狀鈣化；先天梅毒的是 Wimberger sign／corner sign＝近端脛骨內側幹骺端對稱性去礦化與骨破壞，兩者名稱相近易混。A celery stalk metaphysis、B metaphyseal lucent bands、D sawtooth metaphyseal serration 皆為先天梅毒（STORCH 感染）之幹骺端表現。
 
 ## 考題
 > [!question]- 相關考題

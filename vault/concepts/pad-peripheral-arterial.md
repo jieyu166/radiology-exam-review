@@ -36,6 +36,10 @@ PAD 危險因子包含糖尿病、高血壓、慢性腎功能不全、男性、�
 [^1]: Cardiovascular Imaging 2011, p1573-1589
 [^2]: **Tier 1** Parwani D, Ahmed MA, Mahawar A, Gorantla VR. *Peripheral Arterial Disease: A Narrative Review*. Cureus 2023;15(6):e40267（據 PubMed，DOI [10.7759/cureus.40267](https://doi.org/10.7759/cureus.40267)；實際查證 accessed 2026-07-04）——PAD 影像模態階梯（DUS第一線、MRA減偽影、CTA克服解剖限制、DSA為 gold standard 但顯影劑腎毒性多作二線），好發 aortoiliac／common femoral／femoropopliteal 節段，相當比例病人可無典型症狀，治療首選血管內介入。原「Cardiovascular Imaging 2011（教科書）」弱來源已由本次 DOI Tier 1 查核升級。
 
+## 題目
+> [!question]- Which of the following descriptions about aortoiliac occlusive disease is wrong? (2021-034)
+> **B（severe atherosclerotic stenosis or occlusion from suprarenal aorta to iliac arteries）**——Leriche syndrome（主動脈髂動脈阻塞病，AIOD）侵犯的是『腎動脈以下（infrarenal）』的主動脈及/或髂動脈，非 suprarenal，故此敘述為偽。A 又稱 Leriche syndrome、C 因側枝循環豐富許多病人可無症狀、D 屬 TASC II type D 病灶多建議手術，皆為正確描述。
+
 ## 考題
 > [!question]- 相關考題
 > ```dataview
