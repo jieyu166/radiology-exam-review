@@ -7,7 +7,7 @@ aliases:
   - tracheobronchial injury
   - pulmonary laceration
   - 胸部創傷影像
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # chest-trauma-imaging
@@ -22,6 +22,9 @@ dateRev: 2026-07-03
   - **鈍性胸創**：好發於**遠端氣管（距隆凸 carina 2.5cm 以內）**。[^2]
   - **穿刺傷**：反而以**頸部氣管（cervical trachea）**最常受傷。[^2]
   - **影像線索**：皮下氣腫、氣胸、縱膈積氣；CT 可於 ~70% 定位損傷處。[^2]
+- **醫源性（iatrogenic）氣管支氣管損傷（新考點）**：氣管內插管、支氣管鏡等操作為第三大成因；好發**頸部與近端胸內氣管**，尤其防護較差的**後膜部（posterior membrane）**。[^2][^4]
+  - **氣管內插管（ETT）損傷機轉**：**主要為 cuff（氣囊）相關損傷，而非直接撕裂**——cuff 過度充氣可於 CT/胸片見氣囊直徑相對氣管異常增寬（overinflation, width >28 mm）。這是 2021-343 選項 C「usually direct lacerations rather than cuff-related injuries」之所以錯誤的關鍵。[^2][^4]
+- **手術指徵**：撕裂 **>2–4 cm、尤其累及軟骨**時通常需手術修補（小撕裂多可保守）。[^4]
 
 ## 放射科醫師影像判讀重點
 - **檢查流程（STATdx）**：**仰臥可攜式胸片為初始、CT 為首選（血管傷須 IV 對比）；胸片正常者仍達 20% 於 CT 見損傷**；損傷隨時間演變、常多構造並存、需結合機轉/部位判讀。[^3]
@@ -45,6 +48,7 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: 官方 2017 詳解；Dähnert W. Radiology Review Manual, 6th ed., p.469：肋骨10-12骨折提示肝脾撕裂;肺挫傷為鈍性胸創最常見表現;肺撕裂傷半實質(血腫)半囊狀(創傷性肺氣囊腫);氣管支氣管骨折主要由鈍傷造成(遠端氣管,距隆凸2.5cm內);穿刺傷則以頸部氣管最常受傷。
 [^2]: Weerakkody Y, et al. *Tracheobronchial injury*. Radiopaedia, rID-45454, DOI 10.53347/rID-45454（輔助來源）——胸創嚴重但少見、常致命；**穿刺傷以 cervical trachea 最常受傷，鈍性胸創則以距 carina 2.5 cm 內之遠端氣管最常見**；影像見皮下氣腫/氣胸/縱膈積氣，CT 可於 ~70% 定位——佐證鈍傷 vs 穿刺傷之部位差異。
+[^4]: 官方 2021 詳解（含影像，PDF 第 356 頁，影像尚未匯入、判讀請對照原檔）；Hacking C, et al. *Tracheobronchial injury*. Radiopaedia rID 45454（accessed 2026-07-10）交叉核實——**醫源性損傷（ETT 併發症、支氣管鏡）好發頸部與近端胸內氣管、尤其後膜部**；**ETT 主要造成 cuff-related 損傷（氣囊過度充氣 width >28 mm、形狀異常、疝入氣道缺損）而非直接撕裂**（故選項 C 反述為 usually direct laceration 為錯）；撕裂 **>2–4 cm、尤累及軟骨時通常需手術**。Radiopaedia 明列成因含 blunt / penetrating / **iatrogenic（endotracheal tube complications, bronchoscopy）**，並列 ETT 氣囊過度充氣為影像徵象，佐證 cuff-related 機轉。
 [^3]: **Tier 1** Bueno J. *Chest Trauma*（Chest, Approach to Clinical Presentation, DDx）. STATdx, Elsevier, updated 03/16/20（5 refs；實際查證 accessed 2026-07-04）——**胸創存活者 10% 死亡率、車禍為鈍性胸創最常見成因、鈍傷佔 90%**；**CT 為首選（血管傷須 IV 對比）、胸片正常者 20% 於 CT 見損傷**；**肋骨骨折最常見（1-3 肋+胸骨/肩胛＝高能、flail chest ≥3 段或 >5 連續）；氣胸仰臥 50% 隱匿 deep sulcus sign、張力性對側縱膈移位；血胸 hematocrit effect；肺挫傷周邊 ground-glass 地圖狀 6h 內可不顯 3-14 天退；肺撕裂空腔含氣/液/氣液平**；**氣管支氣管損傷（好發遠端氣管+近端主支氣管、支氣管撕裂較常、氣管撕裂垂直軟骨環/支氣管平行、fallen lung sign、置胸管後持續氣胸/縱膈氣）**；**創傷性主動脈損傷（isthmus>弓>根>遠端降主動脈、CT 主動脈攝影首選）；橫膈破裂（左>右、collar sign、dependent viscera sign）；心臟/食道傷穿刺傷較常**；Macklin effect（肺泡破裂沿支氣管血管束入縱膈）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目
@@ -53,6 +57,9 @@ dateRev: 2026-07-03
 
 > [!question]- Concerning tracheobronchial Injuries Imaging, which one of the following is not correct? (2022-255)
 > ⚠️ 損傷處並非「易、快、有把握」定位——CT 僅約 70% 可定位；鈍傷好發近隆凸遠端氣管、穿刺傷好發頸部氣管。[^2]
+
+> [!question]- Which one is wrong about tracheobronchial injuries? (2021-343)
+> **C（Endotracheal intubation usually causes direct lacerations rather than cuff-related injuries）**——錯誤。ETT **主要造成 cuff（氣囊）相關損傷**而非直接撕裂（cuff 過度充氣可見氣囊直徑相對氣管異常增寬）。其餘皆對：A 穿刺傷（如刺傷）好發前頸段氣管；B 醫源性/支氣管鏡損傷好發頸部與近端胸內氣管、尤其防護較差的後膜部；D 撕裂 >2–4 cm、尤累及軟骨時通常需手術。[^4]
 
 ## 考題
 ```dataview

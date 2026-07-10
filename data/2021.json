@@ -4147,7 +4147,9 @@
       "reference": "Diagnostic Ultrasound E-Book P93-95；2021 交換考官方詳解 PDF p40",
       "explanation": "【2021 官方詳解】\nC. Regenerating nodules have similar architecture to the normal liver…. Tend to be isoechoic or hypoechoic with a thin, echogenic border that corresponds to fibrofatty connective tissue.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cirrhosis-ultrasound"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃培青",
@@ -5351,7 +5353,9 @@
       "reference": "J Cardiovas Computed Tomogr 2017;11:105-110；2021 交換考官方詳解 PDF p90",
       "explanation": "【2021 官方詳解】\n????\n他給的Reference 只有解釋選項C 跟 D.\nQCT-diastole overestimated coronary diameter stenosis by 5.7%-8.5% while QCT-systole overestimated coronary diameter stenosis by 9.4%-11.9% (p < 0.05).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ccta"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "阮昱翔",
@@ -6468,7 +6472,9 @@
       "reference": "Stephane Kremer et al. Brain MRI Findings in Severe COVID-19: A Retrospective Observational Study. Radiology 2020; 297:E242–E251；2021 交換考官方詳解 PDF p121",
       "explanation": "【2021 官方詳解】\nThe most frequent MRI findings:\n- Signal abnormalities located in the medial temporal lobe in 16 of 37 patients (43%; 95% confidence interval [CI]: 27%, 59%),\n- nonconfluent multifocal white matter hyperintense lesions seen with FLAIR and DWI with variable enhancement, with associated hemorrhagic lesions in 11 of 37 patients (30%; 95% CI: 15%, 45%)\n- extensive and isolated white matter microhemorrhages in nine of 37 patients (24%; 95% CI: 10%, 38%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid-19-brain-mri"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "石運儒",
@@ -8083,7 +8089,9 @@
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch17, P308；2021 交換考官方詳解 PDF p167",
       "explanation": "【2021 官方詳解】\nCardiac MRI is safe with joint replacements, coronary stents, ASD/PFO closure devices, sternal wires and most prosthetic heart valves.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mri-safety"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "惲純和醫師",
@@ -8123,7 +8131,9 @@
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch 17, P311；2021 交換考官方詳解 PDF p168",
       "explanation": "【2021 官方詳解】\n“Attenuation artifact” observed in a nuclear stress test is due to the reduction in the intensity / strength of signal when it travels through various body tissues of different densities, such as breast tissues, chest wall, and organs under the diaphragm",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cmr-vs-spect-mpi"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "惲純和醫師",
@@ -10889,7 +10899,9 @@
       "reference": "Diagnostic Imaging: Head and neck, I-2 70；2021 交換考官方詳解 PDF p248",
       "explanation": "【2021 官方詳解】\nRef: Radiopaedia\nCholesterol granuloma (CG), also sometimes called a chocolate cyst of the ear or blue domed cyst, is a special type of middle ear granulation tissue which is particularly prone to bleeding and is a frequent cause of a hemotympanum. Cholesterol granulomas represent the most common cystic lesion of the petrous apex.\nRadiographic features\nCT\nTypically, there is an expansile well-marginated lesion with thinned overlying bone. This may be dehiscent when the lesion is large. Faint peripheral enhancement post contrast may be seen.\nAppearance is related to location. When a cholesterol granuloma is located in the petrous apex, it may be more aggressive in appearance, e.g. bony erosions and extension to the carotid canal or cerebellopontine angle. However, when they are located in the middle ear, associated erosion is rare.\nMRI\nT1: overall high signal due to cholesterol component and methemoglobin +/- low signal rim due to hemosiderin rim, and thinned adjacent bone\nT2:\n- central high signal +/- peripheral low signal due to hemosiderin rim\n- thinned adjacent bone\n- does not attenuate on FLAIR\n- fat suppression: remain high signal\nT1 C + (Gd): no central enhancement although faint peripheral enhancement may be difficult to see due to intrinsic high T1 signal of lesion which is not saturated (not an adipose tissue)\nDWI/ADC: no restricted diffusion",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cholesterol-granuloma-petrous-apex"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "王郁棻",
@@ -12555,7 +12567,9 @@
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p85；2021 交換考官方詳解 PDF p306",
       "explanation": "【2021 官方詳解】\nUS contrast agent\nAt a low MI (< 0.2), bubbles are in harmonic motion\nAt a higher MI (>0.3), bubbles are disrupted & emit a strong, highly nonlinear echo.\nMechanical index = peak negative pressure / √(center frequency of the US beam)\nMI => proportional to an ultrasound beam's peak negative pressure (or peak rarefaction pressure).\n=> inversely proportional to the frequency of the beam\npeak negative pressure: an attenuation factor to account for in-tissue acoustic attenuation",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ceus-microbubble-agents"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林益輝",
@@ -13431,7 +13445,9 @@
         "2021-343-1.png",
         "2021-343-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "chest-trauma-imaging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總李瑩琦醫師",

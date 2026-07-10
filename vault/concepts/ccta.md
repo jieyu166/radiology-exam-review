@@ -23,6 +23,7 @@ same:
 - **報告框架**：CAD-RADS 2.0（2022）以「狹窄度（0–5）＋斑塊負荷（P1–P4）＋modifiers（N/HRP/I/S/G/E）」標準化分級與處置建議。[^2][^5]
 - **技術骨架**：心率控制（β-blocker，目標 ≤60 bpm）＋舌下 nitroglycerin（掃描前 5 分鐘）；心率規律且 <65 bpm 用 prospective gating（低劑量，預設），需心室功能或心率無法控制時才用 retrospective gating。[^6]
 - **進階判讀**：calcium score（Agatston）量化鈣化負荷與風險分層；FFR-CT 以 ≤0.80 判定病灶特異性缺血（lesion-specific ischemia）；冠狀動脈異常起源之 interarterial（惡性）走行為猝死高風險，CT 為定義起源與走行的首選。[^5][^7][^8]
+- **多期相重建判讀策略**：CTA 相較 ICA 系統性**高估**狹窄度，且**收縮期高估幅度大於舒張期**（QCT-systole 高估 9.4–11.9% vs QCT-diastole 5.7–8.5%，p<0.05；鈣化病灶高估更甚：systole 16.6±4.3% vs diastole 13.2±4.3%）；故 CAD-RADS 3/4 病灶宜取**至少兩期相**綜合判讀，**不可一律偏好「較嚴重」期相**（那會系統性高估），CAD-RADS 1 之良質影像通常不需多期相。[^12]
 
 ## 放射科醫師影像判讀重點
 - **判讀基調＝rule-out mindset**：CCTA 的判讀價值在「陰性可信」（NPV ~99%），故重點在系統性排除各節段的阻塞性狹窄；陽性（尤其重度鈣化背景下）因 PPV 偏低（≥70% 狹窄僅 48%）不宜逕自定調，須以「可能需 ICA 確認」的措辭報告。[^1][^2]
@@ -132,6 +133,7 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 [^9]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.214/220）：通暢支架管腔內 HU 因 blooming 假性高於近端節段，不可誤判為狹窄；適當使用準則將「有症狀+CABG後評估graft patency」列為適當適應症，「無症狀+stent<2年」「無症狀+CABG<5年」「有症狀+支架<3mm」列為不適當。
 [^10]: 2019 交換考詳解；Cury RC, Abbara S, Achenbach S, et al. *CAD-RADS(TM): Coronary Artery Disease - Reporting and Data System*. JACC Cardiovasc Imaging. 2016 Sep;9(9):1099-1113. doi:10.1016/j.jcmg.2016.05.005：CAD-RADS 1.0原始版發表於2016年（非2017）；狹窄分級0-5、modifiers含N/S/G/V/E；V modifier（vulnerable plaque）依positive remodeling(閾值1.1)、low-attenuation plaque(<30HU)、napkin-ring sign、spotty calcification(<3mm)判定。
 [^11]: 官方2020詳解；Ref: MRI and CT of the Cardiovascular System, p.361（題目所引）——易損斑塊易破裂、具薄纖維帽與大脂質核心、急性冠心症常起因於狹窄程度不高之斑塊破裂；因正性重塑管腔常無明顯狹窄，常規X光血管攝影常無法顯示此類斑塊。
+[^12]: **Tier 1** Gu H, Gao Y, Wang H, Li Z, Xu L, Xu B, Wang X, Lu B. *Difference of coronary stenosis severity between systolic and diastolic phases in quantitative CT angiography*. J Cardiovasc Comput Tomogr. 2017;11(2):105-110. DOI [10.1016/j.jcct.2017.01.003](https://doi.org/10.1016/j.jcct.2017.01.003)（PubMed PMID 28126251；官方 2021 詳解所引；實際查證 accessed 2026-07-10）——以 ICA/QCA 為標準，QCT-diastole 高估冠脈直徑狹窄 5.7–8.5%、QCT-systole 高估 9.4–11.9%（p<0.05），收縮期高估更明顯；鈣化病灶高估更甚（diastole 13.2±4.3% vs systole 16.6±4.3%）。佐證：兩期相皆高估、收縮期>舒張期、鈣化更甚，故不應一律偏好較嚴重期相、CAD-RADS 3/4 宜多期相判讀。
 
 ## 題目
 > [!question]- CCTA was given what recommendation/level of evidence for chest pain? (2022-269)
@@ -142,6 +144,9 @@ ACCURACY 為前瞻、多中心（16 site）試驗，納入 230 名無已知 CAD 
 
 > [!question]- Which of the following concerning general technical requirements of cardiac CT is false? (2021-138)
 > **E（None of the above）**——A~D 皆為正確的心臟 CT 技術要求：64-row 在影像品質與診斷準確度上優於 16-row（A）；320-row volume CT 與第二代 dual-source CT 可於單一心跳內完成整心造影（B）；心臟 CT 需 ECG gating/triggering（C）；dual-head injector 做 saline flush 可推進團注、節省對比劑並減少上腔靜脈/右心條紋偽影（D）。四者皆真，故「false」者為 E。
+
+> [!question]- Regarding coronary CTA, which one is most likely to be wrong? (2021-137)
+> **A（兩期相皆良質卻顯示不同狹窄程度時，應偏好較嚴重者）**——錯誤。CTA 相較 ICA 系統性高估狹窄、且**收縮期高估幅度大於舒張期**，若一律取「較嚴重」期相會系統性高估；應綜合判讀並排除偽影。B 對：CAD-RADS 3/4 病灶宜至少兩期相。C 對：相較 ICA，收縮期狹窄較舒張期明顯（QCT-systole 高估 9.4–11.9% vs QCT-diastole 5.7–8.5%）。D 對：鈣化病灶高估更明顯、CAD-RADS 1 良質影像通常不需多期相。[^12]
 
 ## 考題
 ```dataview

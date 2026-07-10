@@ -10,7 +10,7 @@ aliases:
   - egg-on-string
   - pulmonary vascularity CHD
   - 先天性心臟病胸部X光判讀
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # congenital-heart-disease-chest-xray
@@ -35,6 +35,12 @@ dateRev: 2026-07-03
 - **TGA**：**egg-on-string／egg-on-side**——大血管前後平行重疊＋胸腺退縮致縱膈變窄之「string」；最常見出生第一天發紺。[^2]
 - **Ebstein anomaly**：**box-shaped/"wall-to-wall" heart**——嚴重三尖瓣逆流致 RA 巨大擴張、肺血管減少；常 WPW/心律不整。[^2]
 - **PA/IVS**：wall-to-wall heart、肺血管減少（與 Ebstein 同列鑑別）。[^2]
+
+### Ebstein anomaly（本題考點）
+- **核心病變**：三尖瓣（尤其中隔葉與後葉）向心尖方向頂點下移（apical displacement）→ 部分右心室被「心房化（atrialization of RV）」。[^3]
+- **腔室變化**：功能性**右心室變小**、**右心房巨大擴張**（elongated/enlarged RA）→ 嚴重右側心臟肥大、**box-shaped/"wall-to-wall" heart**。故「right ventricle 擴大」是**錯的**——真正擴大的是右心房，右心室反而縮小。[^3][^4]
+- **三尖瓣逆流（TR）→ 體靜脈回流受阻**：下腔靜脈（IVC）與 **azygos vein 擴張**。[^2]
+- **臨床**：新生兒期發紺（right-to-left shunt，常經 ASD/PFO）、易合併 WPW/心律不整、in utero 或新生兒期可 CHF。[^3]
 
 ### 其他
 - **Tricuspid atresia**：ASD/PFO 必存在、30% 合併 TGA；有肺流阻塞則心臟正常＋肺血管減少，無阻塞則輕度 cardiomegaly＋肺血管增加。[^2]
