@@ -352,7 +352,9 @@
       "correctAnswer": "D",
       "reference": "Radiographics 2021; 41(3):1-20.；2021 交換考官方詳解 PDF p164",
       "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities\n\n【2021 官方詳解】\nPerceptual errors are the most common type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\n\n⚠️ 本題含影像（官方詳解 PDF 第 164 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "radiology-diagnostic-error-types"
+      ],
       "checked": false,
       "sourcePage2021": 164,
       "imageOcr": [
@@ -5446,7 +5448,9 @@
       "reference": "RadioGraphics 2019; 39:344–366；2021 交換考官方詳解 PDF p80",
       "explanation": "【2021 官方詳解】\nA. It is customary to use the radiation therapy completion date as a reference point for determining the dates of tissue changes.\nRegardless of the radiation therapy delivery technique used, radiographically evident changes are uncommon when the total radiation dose delivered is less than 30 Gy, but they are almost always seen with doses higher than 40 Gy.\nRadiographic findings seen during the acute phase typically appear as heterogeneous opacities or consolidation in the treatment field approximately 3–4 weeks after the radiation therapy ends.\nCT can depict the radiation damage before it is evident at radiography. Although acute radiation pneumonitis may be detected at CT as early as 1 week after treatment, more frequently changes are detected with CT by 4 weeks.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-induced-lung-disease"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "曾淑琦",
@@ -10819,7 +10823,9 @@
       "correctAnswer": "B",
       "reference": "Radiation-induced brain tumours after central nervous system irradiation in childhood: a review. Child's Nervous System volume 24, pages793–805(2008)；2021 交換考官方詳解 PDF p236",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 236 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "radiation-induced-changes"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳雅芳",
@@ -13865,7 +13871,9 @@
       "correctAnswer": "E",
       "reference": "RadioGraphics 2019; 39:344–366 Recognizing Radiation Therapy– related Complications in the Chest；2021 交換考官方詳解 PDF p354",
       "explanation": "【2021 官方詳解】\nMesothelioma, esophageal cancer have been reported\n\n⚠️ 本題含影像（官方詳解 PDF 第 354 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "radiation-induced-thoracic-malignancy"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總李瑩琦醫師",

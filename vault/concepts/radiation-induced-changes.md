@@ -52,11 +52,15 @@ dateRev: 2026-07-10
 [^3]: *Cerebral radiation necrosis*. Radiopaedia.org（實際查證 accessed 2026-06-20）：發生率 3–26%;強化型態 soap-bubble/cut green pepper/Swiss cheese;ADC 偏高、SWI 點狀出血;MRS choline/creatine/NAA 低＋lipid/lactate 升;perfusion rCBV 壞死低、腫瘤高。
 [^4]: Vellayappan B, Tan CL, Yong C, et al. *Diagnosis and Management of Radiation Necrosis in Patients With Brain Metastases*. Front Oncol. 2018;8:395. doi:10.3389/fonc.2018.00395。
 [^5]: Kumar AJ, Leeds NE, Fuller GN, et al. *Malignant Gliomas: MR Imaging Spectrum of Radiation Therapy- and Chemotherapy-Induced Necrosis of the Brain After Treatment*. Radiology. 2000;217(2):377-384. doi:10.1148/radiology.217.2.r00nv36377;Mullins ME, Barest GD, Schaefer PW, et al. *Radiation Necrosis Versus Glioma Recurrence: Conventional MR Imaging Clues to Diagnosis*. AJNR Am J Neuroradiol. 2005;26(8):1967-1972。
-[^6]: Katsura M, Sato J, Akahane M, Furuta T, Mori H, Abe O. *Recognizing Radiation-induced Changes in the Central Nervous System: Where to Look and What to Look For*. RadioGraphics. 2021;41(1). doi:10.1148/rg.2021200064（教學綜述;時序分期、白質/血管/壞死變化、壞死 vs 復發）。
+[^6]: **Tier 1** Katsura M, Sato J, Akahane M, Furuta T, Mori H, Abe O. *Recognizing Radiation-induced Changes in the Central Nervous System: Where to Look and What to Look For*. RadioGraphics. 2021;41(1). doi:[10.1148/rg.2021200064](https://doi.org/10.1148/rg.2021200064)（實際查證 accessed 2026-07-10；教學綜述:時序分期、白質/血管/壞死變化、壞死 vs 復發、放療誘發次發腫瘤）。
+[^7]: *Radiation-induced meningiomas*. Radiopaedia.org，rID 1952，DOI [10.53347/rID-1952](https://doi.org/10.53347/rID-1952)（實際查證 accessed 2026-07-10）：放療誘發之腦膜瘤較放療誘發膠質瘤（radiation-induced glioma）顯著更常見、常多發且潛伏期很長，為放療誘發顱內腫瘤中最常見者。
 
 ## 題目
 > [!question]- Which of the following description is false regarding pseudoprogression of tumor after radiation therapy? (2021-267)
 > **A（It rarely occurs within 3 months）**——錯誤；pseudoprogression 屬 early-delayed/subacute 期，多在放療後數週至約 3 個月內出現（GBM 同步放化療後尤然），並非罕見於 3 個月內。B（強化病灶增大）、C（與局部組織發炎反應相關）、D（常規影像無法可靠區分假性進展與真進展）皆正確。
+
+> [!question]- Which of the following is the least likely radiation-induced CNS neoplasms? (2021-268)
+> **B（Lymphomas）**——放療誘發之經典 CNS 續發腫瘤為 meningioma（最常見）、sarcoma、glioma（及周邊神經鞘瘤 PNST）；**lymphoma 並非放療誘發之典型 CNS 腫瘤**，故為「最不可能」者。A meningioma、C glioma、D sarcoma 皆為公認之放療誘發 CNS 腫瘤。
 
 ## 考題
 ```dataview
