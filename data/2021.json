@@ -1408,7 +1408,9 @@
       "images": [
         "2021-036-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "d-tga"
+      ],
       "checked": false,
       "sourcePage2021": 7
     },
@@ -1630,7 +1632,9 @@
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p6",
       "explanation": "在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum黃韌帶, posterior longitudinal ligaments後縱韌帶, and atlanto-occipital ligaments寰枕韌帶，較少影響椎間盤\n\n## Trauma\n## Infection\n## Tumors\n### OO\n### Multiple myeloma\n### GCT\n### Osteochondroma\n\n【2021 官方詳解】\nC. occurs more frequently in large joints such as the knee and hip.\nCalcium pyrophosphate deposition disease (CPPD), also known as pseudogout, represents an inflammatory response to the deposition of calcium pyrophosphate crystals in hyaline cartilage, fibrocartilage, and periarticular structures.\nThe deposition of crystals leads to chondrocalcinosis, which can be identified at radiography and occurs more frequently in large joints such as the knee and hip and, rarely, in the spine, where it most commonly involves the cervical region\nIn the spine, crystals can be found most commonly in the ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital liga ments and less frequently can affect the intervertebral disks.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cppd-chondrocalcinosis"
+      ],
       "checked": false,
       "sourcePage2021": 6
     },
@@ -4185,7 +4189,9 @@
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 153, 158.；2021 交換考官方詳解 PDF p42",
       "explanation": "【2021 官方詳解】\nWindowing, also known as grey-level mapping, contrast stretching, histogram modification or contrast enhancement is the process in which the CT image greyscale component of an image is manipulated via the CT numbers\nWide window\nDefined as 400-2000 HU best used in areas of acute differing attenuation values, a good example is lungs or cortical tissue, where air and vessels will sit side by side\nTypical window width and levels:\n- brain W:80 L:40\n- mediastinum W:350 L:50\n- lungs W:1500 L:-600\n- liver W:150 L:30",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ct-attenuation-hounsfield-units"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "林妤穎",
@@ -4259,7 +4265,9 @@
       "reference": "Journal of Radiological Science；44卷 (2019 / 03 / 01)，P15 - 19 DOI： 10.6698/JRS.201905_44.0004；10.6698/JRS.201905_44.0004；2021 交換考官方詳解 PDF p46",
       "explanation": "【2021 官方詳解】\nD. Desmoplastic small round cell tumor (DSRCT) is a rare and highly aggressive mesenchymal tumor, mostly affecting young males and carrying a poor prognosis.\n  - DSRCT predominantly affects male patients between the ages of 15 and 25 years. The male to female ratio is 6:1\n  - The tumor typically develops in the peritoneal cavity without an apparent primary visceral site of origin, and usually occupies the retrovesical or retrouterine space.\n  - The liver is the most common site of distant metastasis",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "desmoplastic-small-round-cell-tumor"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "張志丞",
@@ -8174,7 +8182,9 @@
         "2021-209-1.jpg",
         "2021-209-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "craniosynostosis-suture-fusion"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃俊肇",
