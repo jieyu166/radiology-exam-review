@@ -6,7 +6,7 @@ aliases:
   - ectopic pregnancy
   - beta-HCG discriminatory zone
   - 子宮外孕
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # ectopic-pregnancy
@@ -21,6 +21,7 @@ dateRev: 2026-07-02
   - 故「β-HCG 1600且腹部US未見妊娠囊即可排除正常懷孕」為**錯誤**——1600遠低於腹部US判別區6000-6500，無法排除。
 - **子宮外孕直接徵象**：CT/MR上見**異位妊娠囊(ectopic gestational sac)**（子宮腔外含胚囊之結構）為直接徵象。[^1]
 - **子宮外孕間接徵象**：CT/MR上見**附件血腫(adnexal hematoma)、輸卵管積血(hemosalpinx)、腹腔積血(hemoperitoneum)**。[^1]
+- **發生部位分布（enrich 補充）**：絕大多數為**輸卵管(tubal)妊娠，約93–97%**，其中**壺腹部(ampulla)最常見**（約佔 tubal 的 70%、全部子宮外孕的 65%）；其次 isthmal（約 tubal 12%/全部 11%）、fimbrial（約 tubal 11%/全部 10%）。少見型：interstitial/cornual 3–4%、cervical <1%、caesarean scar 罕見、**ovarian 僅 0.5–1%**、abdominal 罕見。故「子宮外孕最常發生於卵巢」為**錯誤**——卵巢妊娠罕見(0.5–1%)，最常見為輸卵管壺腹部。[^3]
 
 > [!note] 考點：關於正常懷孕與子宮外孕描述，何者錯誤？
 > **β-HCG 1600 mIU/mL且腹部超音波未見子宮內妊娠囊即可排除正常懷孕（B）**——1600遠低於腹部US判別區(6000-6500)，無法排除正常懷孕。β-HCG每48-72hr倍增至10,000-20,000(A對)、CT/MR直接徵象為異位妊娠囊(C對)、間接徵象為附件血腫/hemosalpinx/hemoperitoneum(D對)皆為正確描述。[^1]
@@ -41,11 +42,15 @@ dateRev: 2026-07-02
 
 ### 參考來源
 [^1]: *Ectopic pregnancy*, UpToDate, eMedicine（2018 交換考題詳解 p.312 引用；Tier 2 臨床資料庫）。正常子宮內妊娠β-HCG每48-72hr倍增至10,000-20,000；判別區transvaginal 1500-1800(多胞胎至2300)、abdominal 6000-6500 mIU/mL；子宮外孕直接徵象為異位妊娠囊、間接徵象為附件血腫/hemosalpinx/hemoperitoneum。
+[^3]: **Radiopaedia**（公開）— Gaillard F, Knipe H, Al-Saig A, et al. *Ectopic pregnancy*. Radiopaedia.org（rID **1258**，DOI [10.53347/rID-1258](https://doi.org/10.53347/rID-1258)；accessed 2026-07-10）。發生部位：tubal 93–97%（ampullary 最常見，約 tubal 70%/全部 65%；isthmal 約 tubal 12%/全部 11%；fimbrial 約 tubal 11%/全部 10%）；interstitial/cornual 3–4%；ovarian 0.5–1%；cervical <1%；caesarean scar 罕見；abdominal 罕見。危險因子含 IVF、既往子宮外孕、輸卵管手術/損傷、PID、子宮內膜異位、IUD、抽菸、高齡等。
 [^2]: **Tier 1** Ko JKY, Cheung VYT. *Time to revisit the human chorionic gonadotropin discriminatory level in the management of pregnancy of unknown location*. J Ultrasound Med 2014;33(3):465-471（據 PubMed，DOI [10.7863/ultra.33.3.465](https://doi.org/10.7863/ultra.33.3.465)；實際查證 accessed 2026-07-04）——回顧性研究指出β-HCG高於一般判別區者仍可能為存活子宮內妊娠（最高達9083 mIU/mL之三胞胎），支持對血流動力學穩定的PUL病人不應僅憑單一β-HCG值決定介入，佐證本題「不能僅以腹部US未見妊娠囊排除正常懷孕」之核心考點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
 
 ## 題目
 > [!question]- 關於Normal pregnancy與ectopic pregnancy的描述，下列何者錯誤? (2018-399)
 > **If serum β-HCG level was 1600 mIU/mL and no gestational sac within the uterus seen under abdominal ultrasonography, normal pregnancy could be excluded（B）**——1600遠低於腹部US判別區(6000-6500)，無法排除正常懷孕。[^1]
+
+> [!question]- Which statement about the ectopic pregnancy is incorrect? (2021-312)
+> **B（An ectopic pregnancy most often occurs in an ovary）為錯誤**——子宮外孕約 93–97% 為輸卵管(tubal)妊娠，**最常見於壺腹部(ampulla)**；卵巢妊娠罕見（僅 0.5–1%）。A（危險因子含 PID、輸卵管/骨盆手術、既往子宮外孕）、C（CT 見附件囊性病灶伴周邊環狀強化）、D（β-hCG 偏低或上升緩慢）皆為正確描述。[^3]
 
 ## 考題
 ```dataview

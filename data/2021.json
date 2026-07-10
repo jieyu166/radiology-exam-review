@@ -508,7 +508,9 @@
       "reference": "Breast J. 2019 Nov;25(6):1251-1253.；2021 交換考官方詳解 PDF p345",
       "explanation": ": **hard** mass.\n- B也不太對 T2DM打insulin也有可能\n- D正確. 顯影表現多樣.\n\n【2021 官方詳解】\nC: hard mass\nDiabetic mastopathy\n- Benign tumor like breast masses in women\n- Long-standing type 1 or type 2 insulin-dependent DM.\n- Large, painless, hard breast mass ,clinically indistinguishable from breast cancer\n- Pathology, lymphocytic mastitis and stromal fibrosis\n- Multicentric or bilateral involvement is a relatively frequent phenomenon, often occurring in late stages of\nthe disease.\nUS:\nIrregular hypoechoic masses with marked posterior acoustic shadowing.\nMammography:\nill-defined masses or asymmetric densities.\nSuch lesions are often masked by dense glandular tissue, making mammographic evaluation difficult.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "diabetic-mastopathy"
+      ],
       "checked": false,
       "sourcePage2021": 345
     },
@@ -5053,7 +5055,9 @@
       "images": [
         "2021-129-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "enteric-nervous-system-plexuses"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "呂嘉偉",
@@ -10079,7 +10083,9 @@
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.528；2021 交換考官方詳解 PDF p225",
       "explanation": "【2021 官方詳解】\n(A) F:M = 12:1 typically presenting in the postmenopausal patient\n(B) no gender predilection\n(C) most commonly occurs in males between ages 15-35\n(D) F:M = 1:20 越年輕越偏向男性為主，越年老越偏向男女平均\nRef: Radiopaedia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "erosive-osteoarthritis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "游治維",
@@ -10115,7 +10121,9 @@
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.877；2021 交換考官方詳解 PDF p226",
       "explanation": "【2021 官方詳解】\n表示方式有兩種:\n- lower limb: 45% (femur most common)\n- pelvis: 20%\n- upper limb: 13%\n- spine and ribs: 13% (the sacrococcygeal region most common)\n- skull/face: 2%\n或者:\n- long bones: 50-60%\n  - femur: 25%\n  - tibia: 11%\n  - humerus: 10%\n- flat bones: 40%\n  - pelvis: 14%\n  - scapula\n  - ribs: 6%",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ewing-sarcoma-family"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "游治維",
@@ -12228,7 +12236,9 @@
       "reference": "RadioGraphics 2017; 37:1569–1586；2021 交換考官方詳解 PDF p290",
       "explanation": "【2021 官方詳解】\n(A) The risk factors for ectopic pregnancy include the following:\n- Previous ectopic pregnancy\n- Prior fallopian tube surgery\n- Previous pelvic or abdominal surgery\n- Certain sexually transmitted infections (STIs)\n- Pelvic inflammatory disease\n- Endometriosis\nOther factors that may increase a woman’s risk of ectopic pregnancy include:\n- Cigarette smoking\n- Age older than 35 years\n- History of infertility\n- Use of assisted reproductive technology, such as in vitro fertilization (IVF)\nRef: ACOG.org\n(B) 95% of ectopic pregnancies are tubal, and most commonly occur in the ampulla of the fallopian tube.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ectopic-pregnancy"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "鄧惠中",
