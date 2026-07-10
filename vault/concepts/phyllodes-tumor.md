@@ -7,7 +7,7 @@ aliases:
   - phyllodes tumour
   - cystosarcoma phyllodes
   - 葉狀腫瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # phyllodes-tumor
@@ -51,6 +51,9 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- Which statement about phyllodes tumor is wrong? (2018-014)
 > **None of above（D）**——A(又稱cystosarcoma phyllodes)、B(乳房罕見纖維上皮腫瘤)、C(典型呈無痛、快速生長之乳房腫塊)皆為正確描述，無錯誤選項。[^1][^2]
+
+> [!question]- Which of the following statement about malignant phyllodes tumor is incorrect? (2021-016)
+> **D（Metastatic spread is primarily lymphatic spread with nodal involvement）為錯**——惡性 phyllodes 遠端轉移少見（<20%），發生時主要以**血行轉移至肺、肋膜、骨骼**，腋下淋巴轉移罕見，故不需腋窩淋巴分期。A（罕見纖維上皮腫瘤）、B（確診需手術切除）、C（US 呈大而不均質低回音腫塊）皆正確。
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - typically benign calcifications
   - amorphous calcification
   - 乳房鈣化
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # breast-calcifications
@@ -37,6 +37,7 @@ dateRev: 2026-06-29
 分布同樣分層，越「沿乳管系統」越可疑：[^1][^3]
 - **較不可疑**：**Diffuse**（隨機散在，幾乎都良性）、**Regional**（>2 cm 大範圍、非乳管走向）、**Grouped/clustered**（<2 cm 內聚集）。[^1][^3]
 - **較可疑**：**Linear**（排成一直線，提示單一乳管內沉積）、**Segmental**（沿一個乳葉／乳管分支的三角分布，尖端指向乳頭）。**Segmental 為最可疑分布**，文獻 PPV 可達 **60–78%**。[^1][^3]
+- **版本沿革（BI-RADS 5th ed, 2013）**：第 5 版分布詞彙為 **diffuse／regional／grouped／linear／segmental** 五類；其中 **「grouped」為正式用語、「clustered（歷史用語 historically cluster）」已不再使用**——第 5 版以 grouped 取代 clustered。故 grouped／segmental／regional 皆仍在用，**clustered 才是現行版本中「不再使用」的分布詞**（本概念上文把 grouped/clustered 並列僅為對照舊詞，正式報告應寫 grouped）。[^1][^10]
 
 ### 特殊徵象
 - **Tea-cup / milk of calcium**：同一群鈣化在 **CC 位**呈淡圓形、在 **90° true lateral（或 MLO）** 沉降成彎月／茶杯底的水平上緣——此「隨體位改變」即良性囊腫內鈣乳沉積的標誌，是區分良性與可疑微鈣化的關鍵動作（必加照 true lateral）。[^1]
@@ -68,6 +69,9 @@ dateRev: 2026-06-29
 > [!note] 考點：可疑鈣化型態清單中，何者不屬於可疑型態？
 > **Dystrophic（營養不良性鈣化）不屬於可疑型態清單**——可疑型態僅四類：amorphous、coarse heterogeneous、fine pleomorphic、fine linear/fine-linear branching；dystrophic實屬**典型良性**型態（常見於放療後/術後創傷）。fine-linear/fine-linear branching於可疑型態中PPV最高、rim(蛋殼狀)鈣化為oil cyst（脂肪壞死）之典型表現、大而邊界銳利合併爆米花狀鈣化之腫塊為involuting fibroadenoma之典型表現，皆為正確敘述。[^1][^2]
 
+> [!note] 考點：BI-RADS 5th ed (2013) 已「不再使用」哪種分布詞？
+> **Clustered（C）**——第 5 版以 **grouped** 取代 clustered，clustered 淪為歷史用語（historically cluster）。**grouped、segmental、regional 皆仍在用**（故非答案）。[^1][^10]
+
 > [!note] 考點：篩檢乳攝發現鈣化，何種型態最可能為惡性?
 > 「**群聚10顆、每顆<0.5mm的細小鈣化顆粒（a cluster of 10 calcific particles, all less than 0.5mm）**」最符合 **fine pleomorphic** 型態描述（大小形狀不一的離散細小顆粒、多<0.5mm），PPV 約29-58%，屬可疑型態。Tortuous tramline（血管鈣化,良性）、eggshell/curvilinear（rim,良性,如脂肪壞死/囊壁）、thick rod-like with lucent centre（secretory,良性）皆為典型良性型態。[^1][^2]
 
@@ -90,6 +94,7 @@ dateRev: 2026-06-29
 [^3]: 分布 PPV 與 DCIS 關聯（文獻分歧並列）：regional ~9–32%、grouped ~14–31%、linear ~50–88%、segmental ~64–78%；fine linear branching + segmental 為 DCIS（含 comedo-type 壞死）典型表現。來源同 [^2] 之 PMC12788938 及 PubMed 25608770。同儕審查原著級。
 [^4]: 斷層攝影（DBT）對微鈣化的偵測非其優勢、鈣化評估仍以全視野數位攝影＋放大為主：StatPearls（*Breast Imaging Reporting and Data System*, NCBI Bookshelf NBK459169）相關章節說明（accessed 2026-06-29）。教科書／審閱章節級。
 [^9]: *Diagnostic Imaging: Breast*, page 104（2018 交換考題詳解 p.96 引用；Tier 3 教科書）。鈣化為DCIS最常見表現；30-67%病人最終發展侵襲性癌；細線狀/分支狀鈣化高度提示高級別DCIS。
+[^10]: *BI-RADS for Mammography and Ultrasound 2013*, Radiology Assistant（radiologyassistant.nl，實際查證 accessed 2026-07-10）：分布詞條逐字列 **「Grouped (historically cluster): few calcifications occupying a small portion of breast tissue」**，證實 BI-RADS 5th ed (2013) 以 grouped 取代 clustered、clustered 為歷史用語。Radiopaedia 現行 lexicon 亦將該分布合併為單一條目「clustered calcification / grouped calcification」（accessed 2026-07-10），以 grouped 為現行詞。指引／教學圖譜級。
 
 ## 題目
 > [!question]- Calcification is seen on a screening mammogram. Which of the following patterns is the most likely to be associated with a carcinoma? (2017-271)
@@ -109,6 +114,15 @@ dateRev: 2026-06-29
 
 > [!question]- 根據 BIRADS，下列哪一種乳房鈣化的 Likelihood of malignancy 最高？ (2022-418)
 > **Irregular spiculated（D）惡性可能性最高**。⚠️ 本題選項（round/oval/irregular 之 shape＋circumscribed/microlobulated/spiculated 之 margin）實為 BI-RADS **腫塊（mass）** 之形態/邊緣描述詞，而非鈣化型態描述——依 BI-RADS，腫塊惡性風險隨 **shape：oval/round → irregular** 及 **margin：circumscribed → microlobulated → spiculated** 遞增；故 **irregular 形＋spiculated 緣**惡性可能性最高。相對地 round/oval circumscribed 為典型良性特徵。[^1]
+
+> [!question]- Which one is not common appearance of malignant calcification? (2021-288)
+> **C（Rod-like calcification）非惡性表現**——large rod-like（secretory／分泌型）為典型**良性**鈣化（實心、平滑、沿乳管走向並指向乳頭，好發 >60 歲）。Amorphous、Fine-linear、Pleomorphic 皆屬可疑（惡性）型態。
+
+> [!question]- Which one is not common distribution pattern of malignant calcification? (2021-289)
+> **B（Scattered）**——BI-RADS 鈣化分布僅 diffuse、regional、grouped、linear、segmental 五類；grouped、segmental、regional 皆為正式分布用語（segmental 最可疑、PPV 最高），惟「scattered」非 BI-RADS 分布詞彙（隨機散在對應 diffuse，屬良性而非惡性型分布），故非惡性鈣化之常見分布型態。
+
+> [!question]- Which of the following distribution is no longer used in the BI-RADS 5th edition (2013)? (2021-339)
+> **C（Clustered）**——BI-RADS 5th ed (2013) 以 **grouped** 取代 clustered，clustered 成為歷史用語（historically cluster），現行版本不再使用。**Grouped（A）、Segmental（B）、Regional（D）皆仍為現行正式分布詞**，故非答案。[^1][^10]
 
 ## 考題
 ```dataview

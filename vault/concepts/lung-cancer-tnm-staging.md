@@ -6,7 +6,7 @@ aliases:
   - AJCC 8th lung cancer
   - TNM 8th lung
   - 肺癌分期
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 up: "[[lung-cancer]]"
 ---
 
@@ -30,6 +30,9 @@ up: "[[lung-cancer]]"
 [^1]: *AJCC Cancer Staging Manual*, 8th Edition — Lung Cancer chapter（2018 交換考題詳解 p.26 引用；Tier 1 分期權威文件）。T2b：>4–5cm；N3：對側縱膈或肺門、或斜角肌/鎖骨上淋巴結；M1a：對側肺結節/肋膜心包結節或惡性積液；M1b：單一胸腔外轉移；M1c：多發胸腔外轉移。
 [^2]: *RadioGraphics* 2018;38:374–391（2018 交換考題詳解 p.227 引用；Tier 1 期刊）。侵犯主支氣管、距隆突<2cm但未及隆突者歸類T2（非T3）；6cm腫瘤落於>5–7cm區間歸類T3；膈肌侵犯歸類T4；T1細分T1a/b/c。
 [^3]: *AJCC Cancer Staging* 7th/8th — Lung（2018 交換考題詳解 p.330 引用；Tier 1）。AJCC 7th：T2a >3-5cm、T2b >5-7cm；AJCC 8th：T2b >4-5cm、T3 >5-7cm。5.1cm於7th為T2b、於8th為T3；臟層肋膜侵犯為T2 descriptor；同側縱膈淋巴結為N2。
+[^4]: **Tier 1** Jensen L. *Lung Carcinoma*. STATdx（Elsevier；last updated 2019-10-02；實際查證 accessed 2026-07-10）：AJCC 8th 適用於肺癌；T1a(≤1cm)/T1b(>1–2cm)/T1c(>2–3cm)；**solid component corresponds to invasive behavior**（part-solid 之侵犯以實質成分為準）；列出 IASLC 淋巴結分站圖（1 supraclavicular；2R/2L upper paratracheal；4R/4L lower paratracheal；7 subcarinal；8 paraesophageal；9 pulmonary ligament；10 hilar…）。
+[^5]: 【2021 官方詳解】(2021-228／341)：part-solid 之 T 依 solid component（影像）／invasive component（病理）大小、不計 GGO——solid 9mm≤10mm→T1a；IASLC 淋巴結分站——supraclavicular zone 上界＝cricoid 下緣、2L 下界＝主動脈弓上緣、右/左 paratracheal 分界＝**left lateral tracheal wall（非 midline）**、4R 下界＝azygos vein 下緣；thoracic inlet 最可靠標誌＝軸位 CT 可見之第一肋。
+[^6]: **Radiopaedia**（公開）— Weerakkody Y, Bell DJ, Murphy A, et al. *Lung cancer (staging - IASLC 8th edition)*. Reference article, Radiopaedia.org（rID **50570**，DOI [10.53347/rID-50570](https://doi.org/10.53347/rID-50570)；accessed 2026-07-10）。IASLC/AJCC 8th：T1a(≤1cm)/T1b(>1–2cm)/T1c(>2–3cm)；T2a(>3–4cm)/T2b(>4–5cm)、含侵犯主支氣管未及隆突、臟層肋膜侵犯、阻塞性肺炎/肺不張達肺門；T3(>5–7cm 或侵犯胸壁/膈神經/心包/同肺葉衛星結節)；T4(>7cm 或侵犯縱膈/心臟/大血管/隆突/氣管/食道/脊椎/同側他葉結節)。N1 同側肺門/肺內、N2 同側縱膈/隆突下、**N3 對側縱膈或肺門、斜角肌/鎖骨上**。M1a 對側肺結節/肋膜或心包結節或惡性積液、M1b 單一胸腔外轉移、M1c 多發胸腔外轉移。
 
 ## 判讀骨架：本題（2018-417）之AJCC 7th vs 8th
 - **5.1cm NSCLC**：AJCC 7th→T2b(>5-7cm)→歸T2；AJCC 8th→T3(>5cm起為T3)。
@@ -39,6 +42,18 @@ up: "[[lung-cancer]]"
 
 > [!note] 考點：AAH/AIS/MIA是否列入8th edition TNM分期?
 > **不列入**——AAH（非典型腺瘤樣增生）、AIS（原位腺癌）、MIA（微侵犯腺癌）皆屬preinvasive或微侵犯病灶，非AJCC 8th TNM系統中正式分期的侵犯性肺癌。[^1]
+
+## Part-solid 結節之 T 分期（2021 補充：2021-228）
+- **AJCC／IASLC 8th 對 part-solid（半實性）結節：臨床（影像）T 依 solid component 最大徑判定、病理 T 依 invasive component 判定；GGO／lepidic 部分不計入 T 大小。**[^4][^5]
+- 本題 GGO 總徑 25 mm 但 **solid component 僅 9 mm（≤10 mm）→ cT1a**；若誤用整體 25 mm 會判成 T1b／T1c，此為核心陷阱。[^5]
+- 判讀提醒：solid component 增大或新生代表侵犯行為；純 GGO（AIS）為 Tis、微侵犯腺癌（MIA，invasive ≤5 mm）為 T1mi。[^4]
+
+## IASLC 淋巴結分站圖邊界（2021 補充：2021-341）
+- **Supraclavicular zone（站 1）上界＝環狀軟骨（cricoid cartilage）下緣。**[^5]
+- **左上氣管旁（2L）下界＝主動脈弓上緣（superior border of aortic arch）。**[^5]
+- **右／左上（及下）氣管旁淋巴結之分界＝氣管「左外側壁（left lateral tracheal wall）」，而非氣管中線（midline）**——此為 IASLC 2009 nodal map 的核心特徵（2R／4R 越過中線延伸至氣管左外緣），故 2021-341 選項 C（以 midline 為界）為錯誤。[^4][^5]
+- **右下氣管旁（4R）下界＝奇靜脈（azygos vein）下緣。**[^5]
+- 附帶教學點：胸廓入口（thoracic inlet）最可靠的標誌為軸位 CT 上可見的左右第一肋（first ribs）。[^5]
 
 ## 題目
 > [!question]- Regarding lung cancer staging, which is NOT correct? (2016-266)
@@ -52,6 +67,15 @@ up: "[[lung-cancer]]"
 
 > [!question]- A proved NSCLC 5.1cm with visceral pleural involvement and ipsilateral mediastinal lymphadenopathy, no distant metastasis. TNM staging? (2018-417)
 > **官方答案B(T2N2，依AJCC 7th)；AJCC 8th則為C(T3N2)**——5.1cm於7th為T2b、於8th為T3(>5cm)；同側縱膈LN為N2。見上方warning。[^3]
+
+> [!question]- 有關lung cancer的TNM staging，下列何者不屬於T4? (2021-149)
+> **C（Directly invades chest wall——胸壁侵犯屬 T3 而非 T4）**——AJCC 8th 中直接侵犯胸壁歸類 T3。A（>7 cm）、B（同側不同肺葉之衛星結節）、D（侵犯膈肌）三者皆為 T4，故不屬 T4 者為 C。
+
+> [!question]- Lung adenocarcinoma 以 part solid nodule 呈現，GGO 最大徑 25mm、solid component 最大徑 9mm，T staging 為何？ (2021-228)
+> **T1a（A）**——AJCC／IASLC 8th 對 part-solid 結節，臨床 T 依 **solid component** 大小判定、不計 GGO；solid 9mm ≤10mm → T1a。若誤用 GGO 總徑 25mm 會誤判為 T1b／T1c。[^4][^5]
+
+> [!question]- According to IASLC Lymph Node Classification for Lung Cancer Staging, which one is wrong? (2021-341)
+> **C 為錯**——右／左 upper（及 lower）paratracheal 之分界是氣管**左外側壁（left lateral tracheal wall）**，非氣管中線（midline）。A（supraclavicular zone 上界＝cricoid 下緣）、B（2L 下界＝主動脈弓上緣）、D（4R 下界＝azygos vein 下緣）皆正確。[^4][^5]
 
 ## 考題
 ```dataview

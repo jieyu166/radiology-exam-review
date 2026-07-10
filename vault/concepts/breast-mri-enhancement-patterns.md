@@ -6,7 +6,7 @@ aliases:
   - breast MRI enhancement
   - non-mass enhancement
   - 乳房MRI強化模式
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # breast-mri-enhancement-patterns
@@ -49,6 +49,10 @@ dateRev: 2026-07-04
 
 > [!question]- Which of the following about Breast MR imaging is INCORRECT? (2022-428)
 > **D（關鍵）「Combination of mammography and MR imaging have a lower cancer yield and high false positive rate than whole breast US combined with mammography」為錯誤**——乳房攝影＋MRI 的癌症偵測率**高於**（並非低於）超音波＋乳房攝影。其餘正確：A. 對特定高風險女性提高癌症偵測敏感度、但特異度下降、偽陽性率高；B. 增額癌症偵測率 MR 約 8–36/1000、乳房攝影約 3–6/1000；C. MR 昂貴、需靜脈釓對比劑（原文「not tolerated by prone positioning」語意欠佳，指其成本/耐受限制）。[^4][^5]
+
+## 題目
+> [!question]- 以下何者為乳癌在breast MRI最可能之表現？ (2021-338)
+> **D（dynamic 對比 MRI 有 clustered ring 之顯影）**——clustered/clumped ring enhancement 為 NME 惡性型態（常見於高惡性度 DCIS/浸潤癌）。A very high T2 多為囊腫/淋巴結/脂肪壞死等良性（僅 colloid carcinoma 例外）；B dark internal septation＋oval 為 fibroadenoma 典型良性；C 與舊片無變化＋persistent 曲線偏良性。
 
 ## 考題
 ```dataview

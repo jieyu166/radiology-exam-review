@@ -8,7 +8,7 @@ aliases:
   - rhombencephalosynapsis
   - mega cisterna magna
   - 後顱窩先天畸形
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # posterior-fossa-malformations
@@ -53,6 +53,9 @@ dateRev: 2026-07-02
 
 > [!question]- Which of the following is not correct about Dandy-Walker Malformation? (2018-424)
 > **Microcephaly is the most common manifestation, affecting 90%-100% of children（D）**——應為**Macrocephaly(巨頭)**影響90%-100%嬰兒，非microcephaly。最常見後顱窩畸形/偶發/復發率1-5%(A對)、多數1歲前以顱內壓升高表現(B對)、蚓部發育不全+囊狀第四腦室擴大(C對)皆為正確描述。[^1]
+
+> [!question]- Which of the following statement about the Dandy-Walker spectrum is WRONG? (2021-101)
+> **C**——Mega cisterna magna 為良性變異，與第四腦室『自由相通』且『不』造成水腦；選項稱其『不相通、導致水腦』為錯誤。A（典型 DWM：第四腦室囊狀擴大、竇匯上抬、小腦發育不全、後顱窩擴大）、B（旋轉發育不全之蚓部：後顱窩大小正常、第四腦室 keyhole 開口）、D（Blake pouch cyst：Blake pouch 開窗失敗致第四腦室與蛛網膜下腔不通、造成水腦）皆正確。
 
 ## 考題
 ```dataview

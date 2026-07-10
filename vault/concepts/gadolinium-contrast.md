@@ -10,7 +10,7 @@ aliases:
   - gadolinium deposition
   - hepatobiliary contrast
   - 含釓對比劑
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "釓對比劑藥理/安全；唯一影像項（腦沉積）已涵蓋"
 same:
@@ -103,6 +103,12 @@ same:
 
 > [!question]- Which following contrast agent is macrocyclic molecular structure? (2022-281)
 > **A（Dotarem, Gd-DOTA）**——DOTA＝環狀 macrocyclic；Primovist/Magnevist 皆為 DTPA 骨架之 linear。[^1]
+
+> [!question]- Gadovist (gadobutrol) Which one is nonionic macrocyclic contrast agent (2021-297)
+> **B（Gadovist／gadobutrol）**——gadobutrol 是唯一的 macrocyclic non-ionic（環狀非離子）製劑。其餘皆為 linear：Optimark（gadoversetamide，linear non-ionic）、Omniscan（gadodiamide，linear non-ionic）、MultiHance（gadobenate，linear ionic）、Magnevist（gadopentetate，linear ionic），結構均非 macrocyclic，故不符。
+
+> [!question]- Normal serum osmolality is approximately 290 mOsm/kg. What is the approximate osmolality of gadopentetate? (2021-296)
+> **C（1960 mOsm/kg）**——gadopentetate（Magnevist）原液為高滲透壓，約 1960 mOsm/kg，遠高於血漿 290 mOsm/kg（惟標準劑量 0.1 mmol/kg 體積極小，臨床上滲透壓非主要顧慮）。10 mOsm/kg(A)、290(B)、5900(D)、9900(E)皆不符。
 
 ## 考題
 ```dataview

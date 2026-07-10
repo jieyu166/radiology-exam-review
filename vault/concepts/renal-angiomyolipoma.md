@@ -7,7 +7,7 @@ aliases:
   - AML
   - retroperitoneal liposarcoma
   - 腎血管平滑肌脂肪瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # renal-angiomyolipoma
@@ -50,6 +50,9 @@ dateRev: 2026-06-29
 [^2]: RadioGraphics 2008;28:1325-1338（題目所引）——AML vs retroperitoneal liposarcoma 鑑別。
 [^3]: **Tier 2（免費 PMC 全文）**Thiravit S, Teerasamit W, Thiravit P. *The different faces of renal angiomyolipomas on radiologic imaging: a pictorial review.* Br J Radiol 2018;91(1084):20170533. DOI:10.1259/bjr.20170533（PMC5965995,accessed 2026-06-29）：UECT 脂肪 <−10 HU、薄層 1.5–3 mm;US 高回音≈腎竇脂肪＋後方聲影;FS 訊號掉落、巨觀脂肪—水交界 India ink artifact;RCC 罕含巨觀脂肪(包覆腎周脂肪/產脂壞死/骨化生),鈣化偏向 RCC、AML 罕鈣化;少脂 AML 約 60% UECT >45 HU、T2 低訊號、早期均質強化、FS/CS 多無掉訊號;epithelioid AML 具惡性潛能、大且異質強化合併出血壞死無脂;出血風險 ≥4 cm 或病灶內動脈瘤 >5 mm;TSC 腎 AML 高達約 90%、多發雙側。
 [^4]: **Tier 1（AJR；摘要／全文擷取層級）**Schieda N 等與 Jeong CW 等 *Renal Angiomyolipoma: Radiologic Classification and Imaging Features According to the Amount of Fat.* AJR 2016;207(2):W23-W33,DOI:10.2214/AJR.17.17973；及 *Renal Angiomyolipoma Based on New Classification: How to Differentiate It From Renal Cell Carcinoma.* AJR DOI:10.2214/AJR.18.20408（全文付費未取得,依公開摘要/分類表）：fat-rich(≤ −10 HU)、fat-poor(> −10 HU;tumor-to-spleen ratio < 0.71;signal intensity index > 16.5%)、fat-invisible(> −10 HU;ratio > 0.71;SI index < 16.5%);少脂 AML 反相位訊號掉落較局部,clear cell RCC 較瀰漫。
+
+> [!question]- 關於 angiomyolipoma (AML)，何者錯誤? (2021-098)
+> **C（腎腫塊有明顯強化成分＋鈣化時應考慮 AML）為誤**——AML **罕見鈣化**，「含脂肪＋鈣化」反應警覺 RCC（鈣化亦提示脂肪肉瘤）。A TSC 病人約 80% 有 AML、B <4 cm 較不易出血（出血風險與 ≥4 cm 相關）、D AML 於血管攝影可呈乏血管表現，皆屬可接受敘述。[^3]
 
 ## 考題
 ```dataview

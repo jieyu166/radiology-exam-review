@@ -8,7 +8,7 @@ aliases:
   - talar blood supply
   - Hawkins classification
   - 距骨解剖
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # talus-anatomy
@@ -48,6 +48,12 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which tarsal bone has no muscular or tendinous attachments? (2020-320)
 > **Talus（距骨，C）**——距骨無肌肉或肌腱附著，血供僅賴韌帶與關節囊處血管，此特性使距骨（頸）骨折後易發生缺血性壞死。[^1][^3]
+
+> [!question]- Which one is correct about avascular necrosis of talus? (2021-205)
+> **D（以上皆對）**——距骨由三條骨外動脈供血：posterior tibial artery、dorsalis pedis（anterior tibial）與 perforating peroneal artery（A 正確）；Hawkins sign 為距骨頂軟骨下透亮帶，於 AP／mortise view 可見，屬傷後數週因血流灌注才會出現的 disuse osteopenia（B 正確）；距骨 AVN 典型影像序列為距骨頂 opacity 增加（硬化）→變形→嚴重時關節面塌陷與骨碎裂（C 正確），故三者皆對。
+
+> [!question]- Which of the following statements about fractures around the ankle is TRUE? (2021-044)
+> **B（talar neck 骨折延伸穿過 talar dome 關節面 → 高創傷後關節炎率）**——關節面內骨折造成關節面不平整，易致創傷後關節炎，為正確敘述。A 錯：pilon 骨折為軸向負荷（如高處墜落）非外旋；C 錯：距骨 AVN 風險與距下/踝關節半脫位或脫位相關，與 anterior process 侵犯無關；D 錯：sustentaculum tali 骨折多為軸向負荷之垂直剪力，非三角韌帶撕脫；E 錯：距骨頂血供來自 anterior tibial artery 分支、於 talar neck 進入，非 anterior process。
 
 ## 考題
 ```dataview

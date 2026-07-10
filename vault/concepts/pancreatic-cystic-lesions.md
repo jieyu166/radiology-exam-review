@@ -7,7 +7,7 @@ aliases:
   - serous cystadenoma
   - IPMN
   - 胰臟囊性病灶
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # pancreatic-cystic-lesions
@@ -65,6 +65,12 @@ dateRev: 2026-06-30
 
 > [!question]- Which of the following statement of Pancreatic Cysts about high-risk stigma is wrong? (2022-364)
 > **「Patient's age over 80 years old」（D）為錯**——依 2017 ACR White Paper，high-risk imaging features 為 **obstructive jaundice with pancreatic head cyst、enhancing solid component within cyst、main pancreatic duct ≥10 mm without obstruction**；「病人年齡 >80 歲」**不是** high-risk 影像特徵（ACR 演算法反在 ≥80 歲另立追蹤路徑、追蹤通常止於 80 歲）。其餘 A/B/C 三項皆為 high-risk stigmata。[^4][^5]
+
+> [!question]- Which statement about pancrease cystic lesion is false? (2021-233)
+> **官方答案標 D（All above is correct）**——⚠️惟 A（原發囊性病灶較實性腫瘤囊變常見）、B（漿液性囊腺瘤為良性、好發老年女性）、C（MRI 上漿液性囊腺瘤呈叢集小囊/微囊）三項依標準文獻皆正確，官方詳解從缺，答案與『which is false』題幹自相矛盾，建議對照原卷確認。
+
+> [!question]- Which statement about pancrease mucin-containing cysts lesion is false? (2021-234)
+> **C（Mucinous cystadenoma 典型位於胰頭）為錯**——黏液性囊性腫瘤(MCN)好發於胰體尾部，非胰頭。MCN 約佔胰臟囊性腫瘤 10% (A對)、絕大多數見於女性 (B對)。
 
 ## 考題
 ```dataview

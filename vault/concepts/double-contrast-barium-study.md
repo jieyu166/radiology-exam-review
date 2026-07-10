@@ -9,7 +9,7 @@ aliases:
   - air contrast barium enema
   - 雙重對比鋇劑攝影
   - 空氣加鋇劑
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # double-contrast-barium-study
@@ -35,6 +35,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- What is "double contrast" GI images? (2022-291)
 > **Air + Barium（D）**——雙重對比＝正性對比劑（高密度鋇劑，塗佈／etch 黏膜）＋負性對比劑（空氣或 CO₂，撐開管腔）兩者並用；單以水或單一對比皆非。[^1][^2]
+
+> [!question]- What is “double contrast” GI images? (2021-352)
+> **D（Air + Barium）**——雙重對比（double contrast）＝正性對比劑（高密度鋇劑，塗佈／etch 黏膜）＋負性對比劑（空氣或 CO₂，撐開管腔）兩者並用；單用空氣、單用鋇劑或水皆非。
 
 ## 考題
 ```dataview

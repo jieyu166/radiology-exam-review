@@ -7,7 +7,7 @@ aliases:
   - ARVC
   - arrhythmogenic right ventricular cardiomyopathy
   - 心律不整右心室發育不良
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # arrhythmogenic-rv-dysplasia
@@ -62,6 +62,9 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- Which statement about arrhythmogenic right ventricular dysplasia (ARVD) is incorrect? (2018-050)
 > **ARVD does not occur in left ventricle（C）**——實際上left ventricular myocardial wall亦可受侵犯，此敘述錯誤。[^4]
+
+> [!question]- Which of the following statements is false about arrhythmogenic right ventricular cardiomyopathy? (2021-030)
+> **B（more frequent in elder patients）**——ARVC 為遺傳性心肌病，好發於年輕成人與運動員，並非年長者，故此敘述為偽。A fibrofatty replacement of the myocardium、C regional aneurysms（局部動脈瘤樣膨出）、D regional RV wall motion abnormality（akinesia/dyskinesia/dyssynchrony）皆為 ARVC 正確特徵。
 
 ## 題目
 > [!question]- The diagnosis of ARVC by MRI is presently based on (2020-328)

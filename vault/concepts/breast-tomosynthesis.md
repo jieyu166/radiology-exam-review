@@ -7,7 +7,7 @@ aliases:
   - DBT
   - tomosynthesis
   - 數位乳房斷層
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # breast-tomosynthesis
@@ -95,6 +95,9 @@ dateRev: 2026-06-29
 
 > [!question]- Tomosynthesis 最可減少何種陽性病灶的 recall rate? (2018-451)
 > **Focal asymmetry（C）**——DBT 薄層去除組織重疊，最能澄清單純因組織疊影造成的假性局部不對稱，故 focal asymmetry 之 recall rate 降幅最大。[^5]
+
+> [!question]- Which of the following statement about digital breast tomosynthesis (DBT) is **wrong**? (2021-001)
+> **E（None of the above——A–D 皆正確）**——A：X 光管弧形角度範圍越大，斷層資訊越多、切層分離／z 軸解析越好，正確；B：DBT 篩檢多增加的是侵犯癌（尤其侵犯性小葉癌）而非 DCIS，正確；C：DBT 降低 asymmetry／focal asymmetry 的 recall（薄層去除疊影），正確；D：微鈣化的個別解析會因鈣化的光學密度、DBT 擷取方式與較長擷取時間的移動而受損，正確。四項皆對，故選 E。
 
 ## 考題
 ```dataview

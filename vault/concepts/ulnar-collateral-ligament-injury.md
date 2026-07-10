@@ -8,7 +8,7 @@ aliases:
   - Tommy John
   - T sign elbow
   - 尺側副韌帶損傷
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # ulnar-collateral-ligament-injury
@@ -54,6 +54,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which of the following components of the ulnar collateral ligament is often intact even when the radial head and coronoid process are both fractured? (2022-395)
 > **A. Anterior bundle（關鍵）** anterior bundle 附著於 coronoid 的 **sublime tubercle**；肘關節骨折-脫位中 coronoid 常為小的 tip 型骨折（位於 sublime tubercle 遠端），故即使 radial head 與 coronoid 同時骨折，**anterior bundle 常仍完整**。posterior bundle 附著於內側鷹嘴、transverse（Cooper's）bundle 幾無穩定作用。[^3][^4]
+
+> [!question]- Which of the following components of the ulnar collateral ligament is often intact even when the radial head and coronoid process are both fractured? (2021-143)
+> **A（Anterior bundles）**——anterior bundle 附著於 coronoid 的 sublime tubercle；肘關節骨折-脫位中 coronoid 常為小的 tip 型骨折（位於 sublime tubercle 遠端），故即使 radial head 與 coronoid 同時骨折，anterior bundle 常仍保持完整。posterior bundle 附著於內側鷹嘴、transverse（Cooper's）bundle 幾無穩定作用。
 
 ## 考題
 ```dataview

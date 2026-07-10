@@ -6,7 +6,7 @@ aliases:
   - peritoneal inclusion cyst
   - benign multicystic mesothelioma
   - 腹膜包涵囊腫
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # peritoneal-inclusion-cyst
@@ -47,6 +47,10 @@ dateRev: 2026-06-29
 [^1]: 官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.9-2~9-4：腹膜包涵囊腫為非腫瘤反應性間皮增生、好發停經前婦女（手術/PID/內膜異位）、spider web 外觀、無惡性潛能。
 [^2]: Vallerie AM, Lerner JP, et al. / 多模態影像回顧：Peritoneal Inclusion Cysts in Female Children: Pathogenesis, Treatment, and Multimodality Imaging Review. PMC4131098（開放全文已讀）— 成因（有功能卵巢＋沾黏、術後/PID/內膜異位/外傷、6 個月至 20 年）、影像（US 正常卵巢被無回聲液包繞含多分隔、spider-in-web、缺乏真正囊壁故形狀不規則、CT 液體/出血密度、MRI T1 低 T2 高、對比劑幾乎無強化），及與 hydrosalpinx／paraovarian cyst／lymphatic malformation／ovarian malignancy／endometrioma 之鑑別點。https://pmc.ncbi.nlm.nih.gov/articles/PMC4131098/
 [^3]: Sohaey R 等，Imaging of Peritoneal Inclusion Cysts, AJR Am J Roentgenol 2000;174(6):1559（DOI 10.2214/ajr.174.6.1741559；付費全文未取得，依公開摘要與二手回顧）— 多分隔囊性病灶內見被困住的卵巢（spider-in-web sign），卵巢可被誤判為實質結節。
+
+## 題目
+> [!question]- What lesion that involves the peritoneal cavity has a characteristic “spider in a web” appearance? (2021-238)
+> **C（Peritoneal inclusion cyst 腹膜包涵囊腫）**——正常卵巢被沾黏所困之液體包繞、懸於薄分隔上，呈『spider in a web（蜘蛛在網中）』外觀。惡性間皮瘤 (A)、卵巢旁囊腫 (B)、腹膜假黏液瘤 (D) 皆無此特徵徵象。
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - pancreaticobiliary maljunction
   - 異常胰膽管匯合
   - 膵胆管合流異常
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # anomalous-pancreatobiliary-duct-union
@@ -40,6 +40,10 @@ dateRev: 2026-07-04
 
 > [!question]- Which of the following conditions is associated with anomalous pancreatobiliary duct union? (2019-525)
 > **C. Choledochal cyst** [^1]
+
+## 題目
+> [!question]- Which is wrong about long common channel of common bile duct and pancreatic duct? (2021-251)
+> **D**——APBDU 的胰膽管匯合發生在十二指腸壁「外」、位於 Oddi 括約肌「近端（之前）」，形成過長共同通道使括約肌無法調控交界；故「恰在括約肌處而非其近端匯合」的描述錯誤。A 屬先天解剖變異、B 胰臟炎風險增加、C 與第一型膽總管囊腫相關皆正確。
 
 ## 考題
 ```dataview

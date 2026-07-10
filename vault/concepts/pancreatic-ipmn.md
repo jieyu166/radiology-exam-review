@@ -8,7 +8,7 @@ aliases:
   - main duct IPMN
   - branch duct IPMN
   - 胰管內乳頭狀黏液瘤
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # pancreatic-ipmn
@@ -46,6 +46,15 @@ dateRev: 2026-06-30
 ## 題目
 > [!question]- 關於 Intraductal papillary mucinous neoplasm (IPMN) 的描述，何者「錯誤」? (2017-220)
 > 「**以上皆正確（D）**」——分 MD/BD/mixed、MD 多在胰頭/BD 多在鉤突、BD 惡性率遠低於 MD 三項皆正確,無錯誤敘述。[^1]
+
+> [!question]- 有關 IPMN，何者「不是」favor malignancy 的 sign? (2021-017)
+> **D（Normal caliber of the CBD）**——總膽管管徑正常代表無阻塞性黃疸，故非惡性徵象；反之 main pancreatic duct involvement(A)、主胰管顯著擴張 >15 mm(B)、大型壁結節(E)皆屬主胰管受累/擴張與壁結節等偏惡性之 worrisome/high-risk 徵象，鈣化管內內容物(C)亦被視為與惡性相關。[^2]
+
+> [!question]- 何者「不是」IPMN 的 worrisome features or high-risk stigmata? (2021-125)
+> **D（Hemorrhage）**——出血並非 Fukuoka 共識所列徵象；囊 ≥3 cm(A)、主胰管 ≥10 mm(B)、阻塞性黃疸(C)、增厚且強化的囊壁(E)皆為列名的 worrisome features 或 high-risk stigmata。[^2]
+
+> [!question]- Which statement about Pancreatic IPMN is false? (2021-235)
+> **C（Branch type IPMN is more likely to be malignant than main duct IPMN）**——恰相反：MD-IPMN 惡性率高(~60%)，BD-IPMN 遠低(~5%)，故此敘述錯誤。A(黏液性囊性腫瘤)、B(男性較多)、D(強化實質結節、>3.5 cm、厚壁提示合併腺癌)皆正確。[^1]
 
 ## 考題
 ```dataview

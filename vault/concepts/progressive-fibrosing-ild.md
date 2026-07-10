@@ -9,7 +9,7 @@ aliases:
   - PPF
   - progressive phenotype
   - 進行性纖維化間質肺病
-dateRev: 2026-06-19
+dateRev: 2026-07-10
 same:
   - "[[ipf]]"
   - "[[interstitial-lung-abnormalities]]"
@@ -49,6 +49,10 @@ same:
 [^1]: Raghu G et al. *Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis (PPF) — ATS/ERS/JRS/ALAT Clinical Practice Guideline*. Am J Respir Crit Care Med 2022;205(9):e18-e47：PPF＝非 IPF 纖維化 ILD,過去一年 ≥2/3（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）;非 IPF ILD 約 1/3 進展。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: 纖維化進展影像 marker（牽引性支氣管擴張變化早於 honeycombing、與 mortality 相關）：ILD 進展評估文獻（與 [[ipf]] UIP criteria 配合判讀）。
 [^3]: **Tier 1** Rajan SK, Cottin V, Dhar R, ... Kolb M, Wells AU. *Progressive pulmonary fibrosis: an expert group consensus statement*. Eur Respir J 2023;61(3):2103187（據 PubMed，DOI [10.1183/13993003.03187-2021](https://doi.org/10.1183/13993003.03187-2021)；實際查證 accessed 2026-07-04）——ERJ 專家共識:標準化 F-ILD／PPF 定義;PPF 影像進展需序列 HRCT 比對，牽引性支氣管擴張增加為可靠 marker;PPF 須與藥物性肺毒性、急性惡化區分;初始治療失敗後早期用抗纖維化藥（nintedanib）。原「演講筆記」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- 有關 progressive fibrosing interstitial lung disease (PF-ILD) 之敘述何者錯誤? (2021-226)
+> **D（臨床/HRCT 診斷為 IPF 者最常使用的治療是 pulse steroid therapy）為錯誤**——IPF 標準治療是抗纖維化藥（nintedanib／pirfenidone），單獨高劑量類固醇無益甚至有害（PANTHER-IPF），並非 pulse steroid。A（一段期間內 FVC 下降合併臨床惡化定義進展）、B（病因多元含 idiopathic NSIP、CTD-ILD、HP 等）、C（有 honeycombing 者存活較差）皆正確。
 
 ## 考題
 ```dataview

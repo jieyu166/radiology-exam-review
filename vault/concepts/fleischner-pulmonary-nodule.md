@@ -6,7 +6,7 @@ aliases:
   - Fleischner Society guidelines
   - pulmonary nodule follow-up
   - 偶見肺結節追蹤
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # fleischner-pulmonary-nodule
@@ -77,6 +77,9 @@ dateRev: 2026-06-30
 
 > [!question]- Fleischner 2017/ACCP：which characteristic is NOT associated with a low risk? (2018-445)
 > **Location in upper lobe（C）**——依 ACCP 分類，**上肺葉位置為惡性高風險因子**，非低風險。Young age（A）、Less smoking（B）皆為低風險因子；故「D. 以上皆為低風險」不成立。[^3]
+
+> [!question]- Which of the following does NOT indicate malignancy in incidental pulmonary nodules on chest CT? (2021-307)
+> **A（Multiplicity of 10 or more total nodule count 總結節數 ≥10）**——多發性僅在結節數 <5 時增加惡性風險（NELSON／PanCan：1→4 顆風險上升，≥5 顆風險反降，多源自既往肉芽腫感染），故 ≥10 顆不指向惡性。B（邊緣毛刺 spiculation，OR 2.2–2.5）、C（solid 與 subsolid 結節）、D（solid VDT 100–400 天／subsolid VDT 3–5 年）皆為惡性指標。
 
 ## 考題
 ```dataview

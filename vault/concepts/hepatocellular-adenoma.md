@@ -7,7 +7,7 @@ aliases:
   - hepatic adenoma
   - liver cell adenoma
   - 肝細胞腺瘤
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 same:
   - "[[fnh]]"
 ---
@@ -53,6 +53,9 @@ same:
 ## 題目
 > [!question]- Regarding the hepatocellular adenoma (HCA), which of the followings is accurate? (2020-274)
 > **HCA has link with use of steroids（C）**——HCA 與口服避孕藥/雄性素類固醇密切關聯（OCP 風險達 ~40 倍），尤其 β-catenin 突變亞型。HCA 為年輕女性第二常見肝腫瘤（一般人群比 FNH 少見約 10 倍）、具出血與惡性轉化風險、MRI 優於 CT 於亞型鑑別。[^1][^2][^3]
+
+> [!question]- 關於 hepatic adenoma 下列何者為非? (2021-162)
+> **D（as a benign lesion, only observation is needed）為非**——HCA 具出血／破裂與惡性轉化風險（>5 cm、男性、β-catenin exon3 型尤甚），一般建議切除並停用口服避孕藥、影像追蹤，非僅觀察即可。(A) 好發服避孕藥之年輕女性、(B) 可自發出血、(C) 可惡性轉化為 HCC，皆為正確。
 
 ## 考題
 ```dataview

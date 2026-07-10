@@ -7,7 +7,7 @@ aliases:
   - NSF
   - gadolinium safety
   - 腎源性全身性纖維化
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "NSF 臨床/安全主題，診斷靠皮膚病理非影像"
 ---
@@ -63,6 +63,12 @@ nonImagingReason: "NSF 臨床/安全主題，診斷靠皮膚病理非影像"
 
 > [!question]- 下列何者是低風險含釓對比劑？ (2022-265)
 > D Gadobutrol（Gadovist）為巨環型、低風險；Omniscan／Magnevist／OptiMARK 皆為線性、高風險製劑。[^2]
+
+> [!question]- 關於心臟核磁共振造影(CMR)所使用的顯影劑，下列何者錯誤？ (2021-206)
+> **B（含釓顯影劑發生 NSF 的機率約 1%）為錯**——NSF 實際發生率遠低於此：2003–2006 年約 36.5/10 萬次釓增強 MR，導入 NSF 風險篩檢後 2007–2008 降至約 4/10 萬。A（臨床 CMR 僅用含釓顯影劑）、C（NSF 為間質纖維化、皮膚硬結/四肢攣縮/多器官纖維化可致死）、D（風險因子含 eGFR<30、AKI、末期腎病透析）、E（尚無 eGFR≥30 發生 NSF 案例）皆正確。
+
+> [!question]- Which MR contrast agent carries the highest risk of nephrogenic systemic fibrosis? (2021-295)
+> **A（Omniscan, gadodiamide）**——gadodiamide 為 linear non-ionic 製劑、去螯合游離釓最多，屬 ACR Group I 高風險，NSF 通報病例數最多、風險最高。Magnevist（gadopentetate，B）雖亦 linear Group I，但風險以 gadodiamide 為最高；Optimark（gadoversetamide，C）亦 Group I；Gadovist（gadobutrol，D）與 MultiHance（gadobenate，E）風險較低。
 
 ## 考題
 ```dataview

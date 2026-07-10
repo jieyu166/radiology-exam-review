@@ -9,7 +9,7 @@ aliases:
   - meconium aspiration syndrome
   - transient tachypnea of newborn
   - 新生兒胸腔疾病
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # neonatal-chest-disease
@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which description about disease of neonatal chest is incorrect? (2020-299)
 > **Meconium aspiration syndrome is related to perinal stress and commonly ocurrs in pre-term infant（C）**為錯誤——MAS實際上常發生於**足月或過期產兒**，非早產兒。IRDS/SDD好發早產兒、剖腹產/產程延長/母體麻醉或糖尿病為胎兒肺液滯留(TTN)促成因子、PIE與BPD為IRDS呼吸器治療之可能併發症，皆正確。[^1][^2]
+
+> [!question]- Which description about disease of neonatal chest is incorrect? (2021-211)
+> **C（Meconium aspiration syndrome is related to perinatal stress and commonly occurs in pre-term infant）為錯誤**——MAS 與周產期窘迫／子宮內缺氧相關，好發足月或過期產兒，早產兒罕見。其餘正確：(A) IRDS（透明膜病）好發早產兒；(B) 剖腹產／產程延長／母體麻醉或糖尿病為胎兒肺液滯留（TTN）之促成因子；(D) PIE 與 BPD 為 IRDS 呼吸器治療之可能併發症。
 
 ## 考題
 ```dataview

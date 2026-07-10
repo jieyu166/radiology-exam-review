@@ -6,7 +6,7 @@ aliases:
   - ileocolic intussusception
   - pseudokidney sign
   - 兒童腸套疊
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # pediatric-intussusception-types
@@ -59,6 +59,9 @@ dateRev: 2026-07-01
 
 > [!question]- Which of the following is NOT a typical ultrasound finding of intussusception? (2018-271)
 > **Coil spring appearance（A）**——為鋇劑灌腸典型描述，非超音波表現，此為錯誤敘述所指選項。[^2]
+
+> [!question]- 兒童腸套疊，下列敘述何者為 FALSE？ (2021-111)
+> **C（ileocolic intussusception 最常見於左下腹 LLQ）**——錯；迴結腸套疊源自迴盲部、位於**右側（RLQ/右上腹）**而非 LLQ。A（特發性迴結腸型最常見，約 80–90%）、B（超音波可見 pseudokidney sign）、D（空氣或液體對比劑灌腸用於復位）皆正確。
 
 ## 考題
 ```dataview

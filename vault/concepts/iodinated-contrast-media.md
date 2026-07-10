@@ -10,7 +10,7 @@ aliases:
   - osmolality
   - intrathecal contrast
   - 含碘對比劑
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "含碘對比劑藥理/分類/安全，非影像判讀"
 same:
@@ -65,6 +65,13 @@ same:
 - **放射碘-131治療前**：接受放射碘-131治療者**最好於治療前兩個月內不曾使用含碘對比劑**；若病情需要，則最好安排在使用含碘對比劑約4週之後再接受碘-131治療。[^6]
 - **骨骼及紅血球核醫造影**：與含碘對比劑之時效限制（2020版對比劑手冊已刪除此條）。[^6]
 
+### 主動脈 CTA 之碘負荷量與 double-low CTA
+- **傳統（conventional）主動脈 CTA**：以 **120 kVp** 掃描，採較高碘負荷量；某院標準胸腹主動脈 CTA 協定為 **75 mL、碘濃度 400 mgI/mL、4 mL/s**（官方詳解另以體重標準化表述為 **~400 mgI/kg**）。[^7]
+- **降低管電壓可減少碘量之物理原理**：**降低管電壓使光子能量趨近碘 k-edge（33.2 keV）**，光電效應增強、康普頓散射減少，**碘的衰減值上升**；此效應可用以在維持影像品質下減少對比劑用量。[^7]
+- **量化**：相對 120 kVp，碘衰減於 110/100/90/80/**70 kVp** 分別高出 9%/19%/29%/40%/**51%**——即 **70 kVp 時碘衰減約為 120 kVp 的 1.5 倍**，故可將碘負荷量約**減半**。[^7]（另有腎臟 CTA 研究：80 kVp 低碘協定較 120 kVp 高碘協定**減少碘負荷 51%** 而維持影像品質。[^8]）
+- **"Double-low" CTA（DLCTA）**：結合**低管電壓（70–80 kVp）＋低碘負荷**（可降至約 **200 mgI/kg**），常搭配 high-pitch 與 iterative reconstruction，以同時降低輻射與碘負荷（對比劑腎病風險）。[^7][^8]
+- ⚠️ **本考點答案矛盾**：題幹問「120 kVp 主動脈 CTA 之常規碘負荷量」，官方詳解自載 **conventional 120 kVp = 400 mgI/kg（應為 D）**，而 **200 mgI/kg（選項 C，答案鍵）係 double-low（70 kVp）之協定**。若嚴格對應「120 kVp」，正解應為 **D（400 mgI/kg）**；答案鍵標 C 與其詳解相互矛盾，待醫師確認。
+
 ### 參考來源
 [^6]: 2017 中華民國放射線醫學會對比劑手冊, p.25（2018 交換考題詳解 p.277 引用；Tier 2 指引；註：部分條文2020版已修訂/刪除）。含碘對比劑注射後至少兩個月避免甲狀腺核醫掃瞄；放射碘-131治療者最好治療前兩個月不曾用含碘對比劑(若需要則使用後約4週再治療)。
 [^1]: *Iodinated contrast media*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**High osmolality contrast media** are approximately **five to eight times** the osmolality of serum ... ionic compounds」；「**Low osmolality contrast media** are less than three times the osmolality of serum and **preferred for intravascular and intrathecal administration** ... generally ... nonionic monomers」；「the only **iso-osmolality** contrast in use is a **non-ionic dimer** ... **iodixanol (Visipaque)**」。
@@ -72,6 +79,8 @@ same:
 [^3]: 中華民國放射線醫學會《對比劑手冊》2017/2020（本機 [[2017 中華民國放射線醫學會對比劑手册.pdf]]、[[2020 中華民國放射線醫學會對比劑手冊.pdf]]，gitignore）：台灣常用製劑與分類、鞘內可用之低濃度非離子單體、保存（37°C 保溫箱／庫存室溫 15–30°C）、小兒劑量（1.5–2 cc/kg）等臨床規範。
 [^4]: 2019 交換考詳解；ACR Manual on Contrast Media, Version 10.2, 2016, p.33-40：研究未證實 IV iso-osmolality iodixanol 較 IV LOCM 對 PC-AKI/CIN 有明確優勢；CIN 定義為對比劑注射後48小時內serum creatinine較注射前上升≥50%；CIN最重要危險因子為既存腎功能障礙；iso-osmolar dimer iodixanol 延遲性皮膚不良反應略高於其他LOCM，非離子雙體整體發生率高於非離子單體。
 [^5]: 2019 交換考詳解；Nat Rev Nephrol. 2017 Mar：CIAKI預防傳統指引建議長時間大量生理食鹽水靜脈輸液，介入前6-12小時開始、維持至處置後4小時；門診病人可改採口服水化，現有證據顯示口服水化至少與靜脈生理食鹽水同樣有效。
+[^7]: **Tier 1** Higashigaito K, Schmid T, Puippe G, et al. *CT Angiography of the Aorta: Prospective Evaluation of Individualized Low-Volume Contrast Media Protocols*. Radiology 2016;280(3):960-968（DOI [10.1148/radiol.2016151982](https://doi.org/10.1148/radiol.2016151982)；奇美 Chrome 帳號實際查證 accessed 2026-07-10）：標準 120 kVp 胸腹主動脈 CTA 協定 75 mL／400 mgI/mL／4 mL/s；「Lowering the tube potential is associated with an increase in the attenuation of iodine ... as the photon energy approaches the k-edge of iodine at 33.2 keV. This effect can be used to decrease the amount of CM」；phantom 顯示碘衰減於 110/100/90/80/70 kVp 較 120 kVp 分別高 9%/19%/29%/40%/51%，據以個別化降低碘負荷。
+[^8]: **Tier 1** Kanematsu M, Goshima S, Kawai N, et al. *Low-Iodine-Load and Low-Tube-Voltage CT Angiographic Imaging of the Kidney by Using Bolus Tracking with Saline Flushing*. Radiology 2014;275(3):832-840（DOI [10.1148/radiol.14141457](https://doi.org/10.1148/radiol.14141457)；奇美 Chrome 帳號實際查證 accessed 2026-07-10）：80 kVp 低碘協定較 120 kVp 高碘協定**減少碘負荷 51%** 而維持雙期腎 CTA 影像品質。
 
 ## 題目
 > [!question]- 含碘對比劑分類，以下選項何者錯誤? (2018-367)
@@ -79,6 +88,15 @@ same:
 
 > [!question]- 含碘對比劑與甲狀腺核醫/放射碘時效，以下何者錯誤? (2018-368)
 > **官方標示B（接受放射碘-131治療者需至少治療前一個月不曾使用含碘對比劑）**——⚠️有爭議：手冊建議最好治療前**兩個月**內不曾使用含碘對比劑(非一個月)，故B之「一個月」為錯。註：選項C(骨骼/紅血球核醫造影24小時)於2020版手冊已刪除。此題具時效性爭議，flag待醫師確認。[^6]
+
+> [!question]- 依滲透壓由高到低排序：Iothalamate meglumine 60 (Conray 60)、Iohexol 350 (Omnipaque 350)、Iodixanol 320 (Visipaque 320)? (2021-130)
+> **A（1>2>3；Conray 60 ~1400 ＞ Omnipaque 350 ~844 ＞ Visipaque 320 ~290 mOsm/kg）**——離子單體(HOCM，Conray)最高滲、非離子單體(LOCM，Omnipaque)次之、非離子雙體(IOCM，iodixanol)等滲≈血漿最低；故其餘排序皆錯。[^1]
+
+> [!question]- For patients with a history of hyperthyroidism, which of the following statements is correct? (2021-345)
+> **D（接受甲狀腺放射碘影像/治療者，含碘對比劑之投予需與其間隔一段時間）**——含碘對比劑與甲狀腺攝碘互相干擾：注射對比劑後兩個月內應避免甲狀腺核醫同位素掃瞄；放射碘-131 治療前兩個月內最好不曾用對比劑(若需要則用後約 4 週再治療)。A(常規限制含碘對比劑)、B(需類固醇前處置)非甲亢使用對比劑之通則。[^6]
+
+> [!question]- What is the clinical routine iodine load for use of 120 kVp CTA of aorta? (2021-082)
+> **答案鍵標 C（200 mgI/kg），但 ⚠️與官方詳解矛盾**——官方詳解自載「conventional 120 kVp 主動脈 CTA＝**400 mgI/kg（應為 D）**」，而 **200 mgI/kg 為 double-low CTA（70 kVp＋低碘）之協定**。若嚴格對應題幹「120 kVp」，正解應為 **D（400 mgI/kg）**。物理上：降低管電壓趨近碘 k-edge（33.2 keV）使碘衰減上升，70 kVp 較 120 kVp 高約 51%，故 DLCTA 可將碘負荷約減半至 ~200 mgI/kg。此題答案鍵與詳解衝突，待醫師確認。[^7][^8]
 
 ## 考題
 ```dataview

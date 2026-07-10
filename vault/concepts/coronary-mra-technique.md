@@ -7,7 +7,7 @@ aliases:
   - CMR coronary angiography
   - mid diastole cardiac imaging
   - 冠狀動脈磁振血管攝影
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # coronary-mra-technique
@@ -52,6 +52,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which of the following statements is correct regarding the usefulness of CMR coronary angiography? (2020-310)
 > **It has high sensitivity but low–moderate specificity for detection of proximal and mid-significant CAD in selected individuals（C）**——約 94% 敏感、57% 特異；非顯著 CAD 常規指標、非次臨床動脈粥狀硬化篩檢；對冠狀動脈異常評估仍有角色。[^2][^3]
+
+> [!question]- Which of the following statements comparing CMR with other noninvasive imaging technologies is correct? (2021-330)
+> **E（CMR 之流量量測於評估主動脈瓣逆流較 TTE 可靠）為正確**——相位對比(phase-contrast)CMR 可直接量逆流量/逆流分率，瓣膜逆流量化優於 TTE。A 錯：CMR 冠狀動脈空間解析度不及 64-MDCT（CMR 冠狀動脈評估遜於心臟 CT）；B 錯：M-mode echocardiography 時間解析度最高；C 錯：TTE 評估瓣膜結構仍佳；D 錯：主動脈瓣狹窄之高速噴流易 aliasing，CMR 流量量測於狹窄較不可靠（逆流才是其強項）。
 
 ## 考題
 ```dataview

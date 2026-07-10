@@ -6,7 +6,7 @@ aliases:
   - cardiac amyloidosis MRI
   - amyloid heart disease
   - 心臟類澱粉沉積
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 same:
   - "[[cardiomyopathy-mri]]"
 ---
@@ -43,6 +43,9 @@ same:
 ## 題目
 > [!question]- About manifestations of cardiac amyloidosis, which is wrong? (2018-048)
 > **室壁運動不能（C）**——非心臟類澱粉沉積典型描述特徵。透壁性延遲強化(A)、心內膜下延遲強化(B)、室壁增厚(D)皆為典型表現。[^1]
+
+> [!question]- About cardiac amyloidosis, which description is wrong? (2021-348)
+> **A（global epicardial LGE... with a dark blood pool）為錯誤敘述**——心臟類澱粉沉積典型 LGE 為瀰漫性**心內膜下（subendocardial）或透壁性**、不依冠狀動脈分佈，並因心肌與血池同時攝取釓造成 nulling 困難（dark blood pool）；「心外膜下（epicardial）」並非其型態。B（HFpEF 常隱藏類澱粉）、C（多數未被診斷、未獲適當治療）、D（預後差、尤其晚期心衰）皆為正確敘述。
 
 ## 考題
 ```dataview

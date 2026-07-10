@@ -6,7 +6,7 @@ aliases:
   - characteristic X-rays
   - 特性輻射
   - K-shell binding energy
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "X光物理原理主題，非影像判讀"
 ---
@@ -48,6 +48,9 @@ nonImagingReason: "X光物理原理主題，非影像判讀"
 ## 題目
 > [!question]- X光機產生之特性輻射（characteristic X-rays）光子能量與下列何者最有關? (2020-200)
 > **陽極靶材質（C）**——特性輻射能量取決於靶材元素之電子結合能。管電流影響強度、陰極燈絲材質影響熱電子產生、管電壓影響最高能量與連續輻射強度，皆非決定因素。[^1][^2]
+
+> [!question]- X-rays produced following a photoelectric interaction in tissue are best characterized as: (2021-083)
+> **A（Characteristic x-rays 特性輻射）**——光電效應中入射光子擊出原子內層（K 殼）電子形成電洞，外層電子躍遷填補，釋放等於兩殼層結合能差之光子，即特性輻射（線光譜）。Compton scatter(B)為非彈性散射、coherent/Rayleigh scatter(C)為彈性散射，皆非內層電洞躍遷產物；Bremsstrahlung(D)為電子受核庫倫場減速之連續輻射，非光電效應產物。
 
 ## 考題
 ```dataview

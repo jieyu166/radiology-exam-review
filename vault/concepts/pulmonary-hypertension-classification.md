@@ -7,7 +7,7 @@ aliases:
   - pulmonary arterial hypertension
   - PAH classification
   - 肺高壓分類
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # pulmonary-hypertension-classification
@@ -69,6 +69,9 @@ dateRev: 2026-06-30
 
 > [!question]- What will not be found on a pulmonary hypertension patient? (2020-354)
 > **Pulmonary artery diameter 25 mm（B）**——CT診斷肺高壓之主肺動脈徑擴大門檻為**>29mm**（非25mm）。mPAP≥25mmHg之定義、主肺動脈徑常大於同層降主動脈、非特異性心肺症狀，皆為正確之肺高壓相關描述。[^4]
+
+> [!question]- Which of the following is NOT a common cause of pulmonary hypertension? (2021-292)
+> **C（Bronchopneumonia 支氣管肺炎）**——為急性感染，非慢性肺高壓之常見病因。COPD（A）屬 WHO Group 3（肺病/缺氧）、thromboembolism（B）屬 Group 4（CTEPH）、left-to-right shunt（D）屬肺血流增多相關 PAH（Group 1／心臟因素），皆為肺高壓常見病因。
 
 ## 考題
 ```dataview

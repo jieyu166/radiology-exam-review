@@ -8,7 +8,7 @@ aliases:
   - Cognard
   - Borden
   - 硬腦膜動靜脈瘻管
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # dural-avf
@@ -60,6 +60,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which is wrong while considering endovascular treatment of the dural arteriovenous fistula? (2022-245)
 > **C** 錯誤——經動脈途徑「把所有 feeder 近端栓塞」無法閉塞瘻管點、反促側枝再徵召；治癒取決於閉塞瘻管點與引流靜脈根部。[^2]
+
+> [!question]- Which statement is "WRONG" about dural AVF (arteriovenous fistula)? (2021-173)
+> **A（Most common site: cavernous sinus）**——錯誤；DAVF 最常見部位為 transverse/sigmoid sinus，非海綿竇（常見誤植陷阱）。B（症狀隨部位與分流型態而異）、C（皮質引流靜脈擴大＝aggressive DAVF）、D（Cognard 分級依靜脈引流型態分層、與臨床侵犯性及顱內出血風險相關）皆正確。
 
 ## 考題
 ```dataview

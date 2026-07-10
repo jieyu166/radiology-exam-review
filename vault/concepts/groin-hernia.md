@@ -7,7 +7,7 @@ aliases:
   - inguinal hernia
   - groin hernia imaging
   - 股疝 腹股溝疝
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # groin-hernia
@@ -68,6 +68,10 @@ dateRev: 2026-06-29
 [^5]: *Contemporary imaging of inguinal hernia and pain / abdominal wall hernia MDCT review.* Br J Radiol / RadioGraphics（Tier 1–2 review；全文層級）。MRI 對 occult hernia 敏感度 91–100%、特異度 92–97%；絞扼徵象（腸壁不強化、積液、近端擴張、脂肪 stranding、closed-loop、mesenteric swirl、pneumatosis）；femoral 絞扼風險 20–25% vs inguinal 約 3%。
 [^6]: *Obturator hernia: CT diagnosis*（PMC 病例與文獻回顧，Tier 2）。如 PMC4269088。老年消瘦女性；疝囊於 pectineus 與 obturator externus 間；Howship-Romberg sign 約 37%；CT 為首選診斷工具，常以小腸阻塞表現。
 [^7]: Aguirre DA, et al. *Abdominal Wall Hernias: Imaging Features, Complications, and Diagnostic Pitfalls at Multi–Detector Row CT.* RadioGraphics 2005;25(6):1501-20（Tier 1, RadioGraphics；2018 交換考題詳解 p.9 引用）。腹股溝疝為最常見腹壁疝型別，股疝相對少見；臍疝好發女性（腹壓升高相關）；parastomal hernia 為 incisional hernia 之亞型。
+
+## 題目
+> [!question]- Features of abdominal wall hernia, which one is wrong? (2021-351)
+> **B（Femoral hernias are more common than inguinal hernia）**——腹股溝疝為最常見腹壁疝，股疝遠少於腹股溝疝（且好發女性、絞扼風險較高），故此敘述錯誤。其餘正確：腹股溝疝最常見(A)、臍疝好發女性(C)、造口旁疝(parastomal)為切口疝(incisional)之亞型(D)。（同 2018-147）
 
 ## 考題
 ```dataview

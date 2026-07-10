@@ -7,7 +7,7 @@ aliases:
   - Mikulicz disease
   - autoimmune pancreatitis
   - 免疫球蛋白G4相關疾病
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # igg4-related-disease
@@ -65,6 +65,13 @@ dateRev: 2026-07-03
 - **甲狀腺**：Riedel thyroiditis 為 IgG4 相關甲狀腺炎的組織學表現;影像呈瀰漫硬實腫大、T2 低訊號。[^6]
 - **肺**：常見模式含支氣管血管束周圍增厚（peribronchovascular，最常見）、實性結節/腫塊、間質性病變、圓形毛玻璃影、淋巴結腫大、胸膜病變;可呈多型態混合。[^9]
 
+### 乳房：IgG4 硬化性乳腺炎（IgG4-related sclerosing mastitis）（2021-027）
+- **臨床**：乳房受累罕見但確有;**表現為單發或多發之無痛（painless）可觸摸腫塊**,無皮膚變化、無腋窩淋巴結腫大;常合併他處 IgG4-RD（如本病例先前不明原因胰臟炎)。[^10]
+- **乳房攝影（mammography）**：典型為**界限不清之局部不對稱緻密影（ill-defined focal asymmetry）**,**無鈣化（no calcifications／no suspicious microcalcifications）**;可被歸為 BI-RADS 4/5 而必須切片。**故「screening mammography 常見 coarse microcalcifications」的敘述為錯——實際多無鈣化。**[^10]
+- **超音波**：一個或多個**界限不清、低回音腫塊**,可伴周邊脂肪回音增加/脂肪面消失;與惡性難以只靠影像區分。[^10]
+- **組織學**：**結節狀病灶,硬化性間質（sclerotic/storiform stroma）被緻密淋巴漿細胞浸潤包繞、萎縮乳腺小葉,偶見 phlebitis;免疫染色 >10 IgG4 陽性漿細胞/高倍視野（常呈 periductal 分布）**——與 IgG4-RD 他處組織學一致。[^10]
+- **鑑別與處置**：影像與乳癌重疊,常需切片甚至手術確診;若他處有已知/可能 IgG4-RD 且無惡性徵象（無腋淋巴結腫、無皮膚凹陷),應提高懷疑;**預後佳,類固醇治療可完全或部分逆轉纖維發炎變化。**[^10]
+
 ### 判讀重點與鑑別（DDx）
 - **指向 IgG4-RD**：多器官受累、腺體對稱腫大、T2 低訊號、對類固醇反應佳。[^2][^3]
 - **胰腺癌（pancreatic adenocarcinoma）**：主胰管突然截斷＋上游顯著擴張、遠端腺體萎縮、血管被侵蝕阻斷;AIP 反為瀰漫不規則細窄、duct-penetrating、包膜樣環與延遲均質強化。[^5]
@@ -83,10 +90,20 @@ dateRev: 2026-07-03
 [^7]: Peng L, et al. *IgG4-related aortitis/periaortitis and periarteritis: a distinct spectrum of IgG4-related disease*. Arthritis Res Ther. 2020;22:103. doi:10.1186/s13075-020-02197-w（Tier 2，PMC 開放全文已讀）：以腎下腹主動脈為主（83.1%）的環周軟組織與管壁增厚/強化、mantle 樣表現;輸尿管包繞致水腎達約 61.8%;可不論血清 IgG4 憑組織學診斷。
 [^8]: Ilyas M, Sharma S, Gupta V. *Immunoglobulin G4 disease-related retroperitoneal fibrosis: A series of five cases*. SA J Radiol. 2024;28(1):2830. doi:10.4102/sajr.v28i1.2830（Tier 2，PMC 開放全文已讀）：環周低衰減、輕度強化軟組織包繞腎下主動脈與下腔靜脈而不阻斷管腔;典型不把主動脈抬離脊椎,藉此與會造成血管前移的淋巴瘤/惡性病灶鑑別;輸尿管套狀包繞致水腎/水輸尿管。
 [^9]: Inoue D, et al. 與 ERS review（*Thoracic involvement and imaging patterns in IgG4-related disease*. Eur Respir Rev. 2021;30(162):210078. doi:10.1183/16000617.0078-2021）（Tier 2，依 PMC/ERS 摘要與開放文獻轉述、未讀全文）：肺部模式含支氣管血管束周圍增厚（最常見）、實性結節/腫塊、間質性病變、圓形毛玻璃影、淋巴結腫大、胸膜病變。
+[^10]: **Tier 1（RadioGraphics 全文已讀,pubs.rsna.org 個人存取,accessed 2026-07-10）** Zalaquett E, Razmilic D, Oddo D. *Immunoglobulin G4–related Sclerosing Mastitis: AIRP Best Cases in Radiologic-Pathologic Correlation*. RadioGraphics 2016;36(4):1145-1151. DOI [10.1148/rg.2016150235](https://doi.org/10.1148/rg.2016150235)。IgG4 硬化性乳腺炎：**單/多發無痛腫塊**;**乳房攝影＝界限不清局部不對稱、無鈣化**;US＝一或多個界限不清低回音腫塊;組織學＝緻密淋巴漿細胞浸潤＋硬化間質＋萎縮小葉、偶見 phlebitis、**>10 IgG4+ 漿細胞/HPF（periductal）**;影像酷似乳癌（BI-RADS 4/5)常需切片/手術;**類固醇治療預後佳**。
 
 ## 題目
 > [!question]- What is the “possible” 2020 revised comprehensive diagnostic (RCD) criteria for IgG4-RD? (2022-241)
 > ⚠️ **B**——對應血清學條件 serum IgG4 >135 mg/dl；RCD 三分項為臨床/影像＋血清學＋組織學，答案依原卷保留待對照原文。[^1]
+
+> [!question]- 關於 mass-forming pancreatitis 與 pancreatic ductal adenocarcinoma 影像，何者錯誤? (2021-096)
+> **D（胰管平滑穿過腫塊、無突然阻斷強烈支持 PDAC）為誤**——胰管平滑穿越腫塊而無突然截斷即 **duct-penetrating sign**，反而支持發炎性腫塊（mass-forming／自體免疫胰臟炎）；PDAC 典型為胰管突然截斷＋上游擴張。A double duct sign 偏惡性、B 鈣化周邊移位提示新生惡性、C 軟組織包覆血管示 PDAC 腺外侵犯皆正確。[^5]
+
+> [!question]- 關於 IgG4-related sclerosing mastitis，下列敘述何者「錯誤」？ (2021-027)
+> **C（screening mammography 常見 coarse microcalcifications）為錯誤**——IgG4 硬化性乳腺炎於乳房攝影**典型為界限不清之局部不對稱、無鈣化**。A（顯微下結節狀病灶＝硬化間質被緻密淋巴漿細胞浸潤包繞)、B（檢體 IgG4 陽性漿細胞增多)、D（多以無痛腫塊、單/多發表現)皆正確。[^10]
+
+> [!question]- Which one of the following is NOT in the spectrum of IgG-4 related disease? (2021-249)
+> **B（Erdheim-Chester disease）**——ECD 屬非 Langerhans 細胞組織球增生症，不在 IgG4-RD 譜系內。後腹腔纖維化、type 1 自體免疫胰臟炎、發炎性主動脈瘤（主動脈周圍炎）、硬化性膽管炎皆為 IgG4-RD 典型表現。
 
 ## 考題
 ```dataview

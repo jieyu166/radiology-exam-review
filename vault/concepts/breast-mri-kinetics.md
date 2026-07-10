@@ -7,7 +7,7 @@ aliases:
   - washout curve
   - breast MR spectroscopy
   - 動態曲線
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # breast-mri-kinetics
@@ -44,6 +44,8 @@ dateRev: 2026-07-03
 - **形態（morphology）才是 BI-RADS MRI 判讀主軸,動力學為輔。** 文獻明確：**形態上懷疑惡性的病灶,無論動力學曲線為何都應切片**;動力學的價值主要在「形態看似良性」的病灶上加分。[^3]
 - **Mass（腫塊）**：評估 shape（oval／round／irregular）、margin（circumscribed vs not-circumscribed／irregular／spiculated）、internal enhancement（homogeneous／heterogeneous／rim enhancement）。其中 **rim enhancement、spiculated margin、irregular shape 偏惡性**。[^3]
 - **Non-mass enhancement（NME,非腫塊強化）**：以**分布（distribution）**＋**內部型態（internal pattern）**判讀。分布如 focal／linear／segmental／regional／diffuse,其中 **segmental、linear 偏惡性（提示沿導管分布,如 DCIS）**;內部型態中 **clustered ring enhancement 顯著與惡性相關**,homogeneous 偏良性。NME 良惡性影像重疊大,判讀困難。[^3]
+- **NME 各分布之惡性率（考點數據，官方 2021 詳解引用）**：**segmental ~78%**（最高）＞ **ductal ~60%** ＞ **linear ~31%** ＞ **focal <25%** ≈ **regional ~21%**；**diffuse（瀰漫）多為良性**。故考題「diffuse enhancement 常被認為是惡性型態」為**錯誤**——diffuse 反而偏良性。[^9]
+- **DCIS 的動力學（考點）**：**DCIS 的 kinetics 通常「不好用」，尤其 low-grade**；許多 DCIS **無 washout、且初期強化偏慢**——故「DCIS 一般比侵犯癌強化更快」的說法為**錯誤**，DCIS 動力學常較慢而非較快。[^9]
 
 ### 背景實質強化 BPE 與技術
 - **BPE（background parenchymal enhancement）**：正常纖維腺體組織對 gadolinium 的攝取,分 minimal／mild／moderate／marked 與對稱性。典型 BPE 為雙側對稱瀰漫、**slow early + persistent delayed**;但 moderate/marked、非對稱或非瀰漫的 BPE 可呈 **rapid early + plateau/washout**,可能遮蔽或模擬病灶。BPE 對判讀表現影響小,但與乳癌風險、治療結果相關。[^4]
@@ -89,14 +91,21 @@ dateRev: 2026-07-03
 [^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Mann RM, et al. *Abbreviated Breast MRI: State of the Art*. *Radiology* 2023. doi:10.1148/radiol.221822。abbreviated 核心為 early post-contrast T1WI + MIP,因病灶顯著度與癌偵測主要由早期強化驅動;與全協定 BI-RADS 分類一致性高;常加 T2WI（形態）、DWI/ADC（restricted diffusion 鑑別良惡、減少不必要切片）。**abbreviated＝針對單一臨床問題選擇性用足夠序列（非單純截短）**；適應症含篩檢/監測、性質未定微鈣化評估、術前局部分期。**三型分類**：short protocols（**FAST＝first postcontrast subtracted，高空間解析、以形態為主；UF＝ultrafast，時間解析高但空間解析較低之連續早期系列**）、abridged protocols（FAST/UF＋選定額外序列）、abridged noncontrast（以 DWI 等非顯影序列為主）。
 [^7]: 官方 2017 詳解；Kuhl C. The Current Status of Breast MR Imaging Part I/II. RadioGraphics 2006;26(6):1719-34（乳房 MRI 判讀綜述）：kinetic curve 含 initial peak＋delayed phase（不含 time to peak）;T2 高訊號偏良性但無法可靠分 myxoid fibroadenoma 與 medullary cancer（後者也常 T2 高）;敏感度 ~90%、DCIS 40-100%、CAD 可輔助、特異度較低;margin 最具預測性、spiculated PPV 84-91%、segmental 78% 惡性;hook sign（架構扭曲 desmoplastic tethering）提示惡性（惡性 29.3% vs 良性 3.2%）。
 [^8]: 官方2016詳解；ACR BI-RADS Atlas 2013（題目所引）——focus為enhancing dot通常<5mm，可能良性或惡性；惡性可疑特徵為無fatty hilum、動力學rapid rise with washout(type 3，非persistent/plateau)、與前片比較增大。
+[^9]: 官方 2021 詳解（enhancing lesion in breast MRI）；與 Radiopaedia《Breast MRI enhancement curves》及 ACR BI-RADS MRI lexicon 一致（accessed 2026-07-10）——NME 各分布惡性率：focal <25%、ductal ~60%、linear ~31%、segmental ~78%、regional ~21%、**diffuse 多為良性**；DCIS 動力學常不具鑑別力（尤其 low-grade），多無 washout、初期強化偏慢；Type II plateau ~64%、Type III washout ~87% 為惡性型態（rapid upslope + plateau/washout 屬惡性而非良性）。
 
 ## 題目
 > [!question]- 以下關於Breast MRI lexicon中"focus"的敘述，何者有誤？ (2016-287)
 > **「focus惡性feature為無fatty hilum、persistent/plateau dynamics、與前片比較增大」有誤（C）**——惡性動力學特徵應為rapid rise with washout(type 3)，非persistent/plateau。focus為<5mm enhancing dot、可能良性或惡性皆正確。[^8]
 
+> [!question]- According to the ACR BI-RADS Atlas® 5th Edition, which description of the Kinetic Curve Assessment is **not** true? (2021-011)
+> **C（persistent＝訊號在初始上升後不隨時間變化）**——persistent（type I）的定義是初始上升後訊號**持續緩慢增加（>10%）**，而非「不隨時間變化」（後者較接近 plateau）。其餘正確：初期 slow 為前 2 分鐘上升 <50%（A）、fast 為上升 >100%（B）、delayed 期 washout 為自最高訊號下降 >10% 且特別標為可疑（D）。
+
 ## 題目
 > [!question]- 請問關於breast MRI的kinetic enhancement curve assessment，下列何者為真? (2018-010)
 > **Persistent type favored benign lesion over malignancy（A）**——type I persistent(續升)偏良性(惟約9%惡性仍可呈此)。plateau型良惡皆可(非專指惡性)、washout型偏惡性而非血管瘤，故B/C為偽。[^1]
+
+> [!question]- Which of the following statement about breast MRI is true? (2021-010)
+> **⚠️ 官方記錄答案為 A，但依醫學事實應為 D，需醫師覆核原始答案卷。** 依醫學事實：**D「lesions <5mm 稱為 focus/foci」為真**（BI-RADS lexicon：focus 為 <5 mm 之 enhancing dot）。其餘皆偽——**A**「rapid initial upslope + delayed plateau/washout 較可能為良性」錯，plateau/washout 屬**惡性**型態（plateau ~64%、washout ~87% 為惡性）；**B**「diffuse enhancement 常被認為惡性」錯，diffuse NME 多為良性；**C**「DCIS 一般比侵犯癌強化更快」錯，DCIS 動力學常較慢、無 washout。故正解為 D 而非 A。[^1][^8][^9]
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - psoriatic arthritis
   - sausage digit
   - 乾癬性關節炎
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # psoriatic-arthritis
@@ -78,6 +78,16 @@ dateRev: 2026-06-29
 
 > [!question]- 下列關於 Rheumatoid arthritis (RA)和 Psoriatic Arthritis (PsA)的比較何者為誤? (2022-403)
 > **答案：C（關鍵）**。「periarticular bone proliferation RA 比 PsA 常見」為**錯誤**——**骨增生（periarticular new bone／periostitis／enthesophyte）是 PsA 的特徵而非 RA**，RA 反而以純侵蝕＋近關節骨質疏鬆為主。其餘正確：RA 呈 row pattern（MCP／腕骨為主）、PsA 呈 ray pattern（DIP 為主）；periarticular osteoporosis RA 比 PsA 常見（PsA 通常保留骨密度）。[^1][^6][^7]
+
+## 題目
+> [!question]- Choose the correct option (RA vs PsA)：(2021-262)
+> **D（新骨形成常見於 PsA、少見於 RA）**——**juxta-articular new bone formation／periostitis／enthesophyte 是 PsA 特徵**，RA 則以純侵蝕＋近關節骨質疏鬆為主。A 錯：約 30% RA 之 RF 為陰性，RF 無法可靠區分 RA 與其他發炎性關節炎；B 錯：RA 發炎原發於**滑膜（synovium）**，PsA 才始於**附著點（enthesis）**；C 錯：始於 bare area 侵蝕的是 RA，PsA 以 DIP／附著點為主。
+
+> [!question]- Choose the correct option (RA vs PsA deformities/signs)：(2021-263)
+> **D（晚期 PsA 骨破壞＋新骨形成致 pencil-in-cup 變形）**——pencil-in-cup 為 PsA 好發 DIP 的典型晚期表現，正確。A 錯：關節/腱鞘積液在 RA 與 PsA 皆可見，不能用來排除 PsA；B 錯：Boutonnière／swan-neck 為 RA 最常見且早期即可出現的變形，hitchhiker 等屬進展期；C 錯：mouse-ear sign 是 PsA 附著點骨侵蝕＋增生的表現（好發 DIP），非 RA 的 bare-area 侵蝕。
+
+> [!question]- Choose the correct option (bone marrow edema in inflammatory arthritis)：(2021-264)
+> **D（PsA 之 BME 始於指骨角落、關節囊附著點處）**——PsA 骨髓水腫由指骨角落 enthesis 起始並隨病程蔓延至整節指骨（可延伸至骨幹），正確。A 錯：BME 在 T1WI 為**低訊號**、在 PDFS 才高訊號；B 錯：與代表不可逆的放射線侵蝕相反，**BME 被視為可逆現象**；C 錯：RA 的 BME 位於 bare area 鄰近，蔓延至整節指骨的向骨幹擴散型態是 PsA 而非 RA。
 
 ## 考題
 ```dataview

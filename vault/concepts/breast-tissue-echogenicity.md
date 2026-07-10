@@ -6,7 +6,7 @@ aliases:
   - glandular breast tissue echogenicity
   - fatty breast lobule
   - 乳房組織回音性
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # breast-tissue-echogenicity
@@ -32,6 +32,10 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: 2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.236。
 [^2]: **Tier 1** Stavros AT, Thickman D, Rapp CL, Dennis MA, Parker SH, Sisney GA. *Solid breast nodules: use of sonography to distinguish between benign and malignant lesions.* Radiology 1995;196(1):123-134（據 PubMed，DOI [10.1148/radiology.196.1.7784555](https://doi.org/10.1148/radiology.196.1.7784555)；實際查證 accessed 2026-07-04；並對照 ACR BI-RADS Atlas 5th ed, 2013 之組織回音描述作為參考標準）——確立以**脂肪小葉為回音參考基準**之乳房超音波判讀體系，病灶回音強度（如 markedly hypoechoic）皆相對脂肪判定；均質強高回音之實質結節屬良性提示，據此可推得正常纖維腺體相對脂肪呈中度高回音之組織背景關係。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- Which one of the following descriptions about anatomy imaging issues of breast sonography is **not true**? (2021-002)
+> **B（Echogenicity is defined relative to fibroglandular tissue）**——乳房超音波的回音性是以**皮下脂肪**為參考基準，而非纖維腺體。脂肪呈中灰、較纖維腺體（淺灰）為暗，腺體相對脂肪呈中度高回音，故 B 敘述錯誤。其餘：皮膚線正常 <2 mm（A）、前懸韌帶（Cooper 韌帶）可見於皮下區（C）、間葉腺體組織多呈高回音（D）皆正確。
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - corticomedullary junction DWI
   - NIID DWI sign
   - 皮質下 DWI 高訊號鑑別
-dateRev: 2026-07-06
+dateRev: 2026-07-10
 ---
 
 # bilateral-subcortical-dwi-hyperintensity-ddx
@@ -39,6 +39,9 @@ dateRev: 2026-07-06
 ## 題目
 > [!question]- Which of the following diseases does NOT demonstrate bilateral multifocal subcortical DW hyperintensities? (2022-413)
 > **A. Alexander disease（關鍵）**——NIID（皮質-髓質交界緞帶狀 DWI 高訊號）、Canavan（皮質下 U-fiber）、FXTAS 皆可見雙側皮質下 DWI／白質變化；Alexander disease 為額葉為主、累及深部白質與基底核、腦幹的白質失養症，非此皮質下多灶 DWI 型態。[^1][^2] → [[bilateral-subcortical-dwi-hyperintensity-ddx]]
+
+> [!question]- Which of the following description is false regarding the adult-onset neuronal intranuclear inclusion disease (NIID)? (2021-269)
+> **C（MRI shows high DWI signal in deep periventricular white matter）**——錯誤；NIID 的招牌 DWI 高訊號沿皮質-髓質交界（corticomedullary junction）呈帶狀分布，且不擴及深部白質，即使晚期亦然。A（可由皮膚切片診斷）、B（緩慢進展神經退化病）、D（顯著白質腦病 leukoencephalopathy）皆正確。
 
 ## 考題
 ```dataview

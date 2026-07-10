@@ -6,7 +6,7 @@ aliases:
   - aortic coarctation
   - coarctation of the aorta
   - 主動脈縮窄
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # aortic-coarctation
@@ -40,6 +40,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- Which description about features of coarctation is incorrect? (2022-390)
 > **the post-ductal type presents in infancy（D，關鍵）為錯誤**——導管後（adult／postductal）型多為 simple coarctation、常晚期才被發現；於**嬰兒期**表現者為 preductal（infantile）／complex coarctation（遠端血流依賴 PDA）。其餘正確：(A) berry aneurysm 為公認合併症（cerebral aneurysm 2.5–10%）；(B) isthmus（峽部）為最常見部位；(C) 側面 CXR 可見擴張之內乳（internal mammary）動脈側支（併 inferior rib notching）。[^1][^2]
+
+> [!question]- Which description about features of coarctation is incorrect? (2021-153)
+> **D（the post-ductal type presents in infancy）為錯誤**——導管後（adult／postductal）型多為 simple coarctation、常晚期才被發現；於嬰兒期表現者為 preductal（infantile）／complex 型（遠端血流依賴 PDA）。其餘正確：(A) berry aneurysm 為公認合併症（cerebral aneurysm 2.5–10%）；(B) isthmus（峽部，左鎖骨下遠端）為最常見部位；(C) 側位 CXR 可見擴張之內乳動脈側支併 inferior rib notching。
 
 ## 考題
 ```dataview

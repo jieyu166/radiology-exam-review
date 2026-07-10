@@ -7,7 +7,7 @@ aliases:
   - CAA
   - lobar hemorrhage
   - 腦類澱粉血管病變
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[hypertensive-hemorrhage]]"
 ---
@@ -45,6 +45,10 @@ same:
 [^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。
 [^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。
 [^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。
+
+## 題目
+> [!question]- Modified Boston Criteria for definite CAA, which of the following is wrong? (2021-276)
+> **D（Often with numerous deep microbleeds——錯誤）**——CAA為皮質-皮質下(lobar)出血、保留(spares)基底核與腦幹；深部(deep)微出血屬高血壓性微血管病而非CAA。且definite CAA為病理層級診斷（全面屍檢證實嚴重CAA且無其他病灶），不以微出血為要件。A（full post-mortem確診）、B（lobar/cortical/cortical-subcortical出血）、C（病理證實嚴重CAA且無其他診斷性病灶）皆正確。
 
 ## 考題
 ```dataview

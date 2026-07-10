@@ -8,7 +8,7 @@ aliases:
   - poststenotic dilatation
   - congenital absent pulmonary valve
   - 主肺動脈擴大
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # pulmonary-artery-enlargement
@@ -50,6 +50,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- The etiology of enlargement of main pulmonary artery includes (2020-311)
 > **以上皆是（E）**——肺動脈高壓、先天性肺動脈瓣缺失、左側心包缺如、肺動脈瘤（另含肺血流過多、瓣膜性狹窄後擴張/逆流、特發性擴張）皆為已知病因。[^1][^2]
+
+> [!question]- What is the upper limit diameter for a normal pulmonary arterial (main PA) segment on CT or MR? (2021-293)
+> **B（29 mm）**——主肺動脈幹於軸位、肺動脈分叉處、與長軸垂直量測，>29 mm 即判定為擴大，常作為肺高壓的預測切點；正常上限即約 29 mm（≈3 cm）。20 mm（A）過小，30 mm（C）／39 mm（D）已落在擴大範圍。
 
 ## 考題
 ```dataview

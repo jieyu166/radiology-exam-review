@@ -7,7 +7,7 @@ aliases:
   - PI-RADS v2
   - prostate MRI
   - 攝護腺MRI分級
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # pi-rads
@@ -74,6 +74,13 @@ dateRev: 2026-06-29
 [^5]: *Diagnostic performance of PI-RADS version 2.1 compared to version 2.0…*. Sci Rep. 2020;10:15982. PMC7525456. doi:10.1038/s41598-020-72544-z——v2.1 變更：典型 BPH 結節 T2 由 2 降為 1、非典型結節由 3 降為 2;**新增 TZ「T2=2＋DWI ≥4 → PI-RADS 3」升級**;線狀／楔形 ADC 低訊號歸 DWI 2;「marked」定義澄清。（Tier 2，PMC 全文）
 [^6]: Turkbey B, Rosenkrantz AB, Haider MA, et al. *Prostate Imaging Reporting and Data System Version 2.1: 2019 Update of PI-RADS Version 2*. Eur Urol. 2019;76(3):340-351. doi:10.1016/j.eururo.2019.02.033——TZ 癌「erased charcoal sign」/lenticular（淚滴狀）均質中度低訊號描述;良性 BPH 結節為圓形完整包膜。（Tier 1，Eur Urol 官方更新文件，摘要層級）
 [^7]: *PI-RADS version 2: what you need to know*. PMC6369533——DWI 切面厚度 3 mm 無間距、高 b 值 1400–2000;切片後出血在 T1WI 高訊號、出血區常不呈擴散受限（hemorrhage exclusion sign），建議切片後 ≥6 週再掃;BPH 結節含基質/高細胞密度可擴散受限致 TZ DWI 特異度較低。（Tier 2，PMC 全文）
+
+## 題目
+> [!question]- For the transition zone of the prostate, which is the primary determining sequence to assign the PI-RADS assessment category? (2021-313)
+> **C（T2WI）**——PI-RADS v2/v2.1 移行帶(TZ)以 T2WI 為主導序列決定評分（再以 DWI 修飾，如 T2=3＋DWI=5 升為 4）；周邊帶(PZ)才以 DWI/ADC 主導，DCE 僅為二元開關(positive/negative)且只作用於 PZ、T1WI 用於偵測切片後出血而非評分。
+
+> [!question]- For the peripheral zone of the prostate, which is the primary determining sequence to assign the PI-RADS assessment category? (2021-314)
+> **B（DWI/ADC）**——PI-RADS v2/v2.1 周邊帶(PZ)以 DWI/ADC 為主導序列決定評分；移行帶(TZ)才以 T2WI 主導，DCE 僅在 PZ 的 DWI=3 時作為陽性升級(3→4)開關、T2WI 為 TZ 主導序列而非 PZ、T1WI 非評分序列。
 
 ## 考題
 ```dataview

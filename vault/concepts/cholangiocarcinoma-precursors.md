@@ -7,7 +7,7 @@ aliases:
   - intraductal papillary neoplasm of bile duct
   - IPNB
   - 膽管癌癌前病灶
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # cholangiocarcinoma-precursors
@@ -47,6 +47,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 膽管癌的癌前病灶中，何者「最常見」? (2017-219)
 > **Intraductal papillary neoplasm（IPNB，A）**——膽管內乳頭狀腫瘤為最常見前驅病灶。congenital choledochal cyst、biliary serous cystic neoplasm、solid papillary epithelial neoplasm 皆非最常見。[^1][^2]
+
+> [!question]- 有關 Intraductal papillary neoplasm of the bile ducts (IPNB)，以下敘述何者不正確? (2021-326)
+> **C（很少有惡性化的機會、也很少復發、預後很好）**——IPNB 為侵襲前膽道腫瘤、具最高惡性潛能（可進展為侵襲性乳頭狀膽管癌），復發率高（良性約 20%、惡性 20–60%），故此敘述錯誤。其餘皆正確：又稱 biliary papillomatosis(A，指 diffuse 型)、可分泌大量黏液致膽道阻塞(B)、MRCP/CT 可提供良好診斷(D)、通常多發性(E)。
 
 ## 考題
 ```dataview

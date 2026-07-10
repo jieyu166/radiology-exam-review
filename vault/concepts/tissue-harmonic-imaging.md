@@ -6,7 +6,7 @@ aliases:
   - tissue harmonic imaging
   - THI ultrasound
   - 組織諧波成像
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 same:
   - "[[ultrasound-artifacts]]"
 ---
@@ -38,6 +38,9 @@ same:
 ## 題目
 > [!question]- Which of the following statements about sonography artifact is wrong. (2018-241)
 > **Tissue harmonic imaging is helpful for thin patient（C）**——實際有助於肥胖/大體型病人，非瘦病人，此敘述錯誤。[^2]
+
+> [!question]- Which of the following US artifacts is reduced by using tissue harmonic imaging? (2021-067)
+> **A、B（grating lobe 與 reverberation artifact）**——THI 因諧波成分於淺層/體壁能量低、深部才建立，可減少 side lobe/grating lobe、reverberation 與近場雜訊；但 acoustic shadowing（C）反而被 THI／高頻探頭強化，故非「以上皆是（D）」。⚠️ 原始 answer 標為 D，與官方詳解（ANS: A.B）矛盾，正解應為 A、B。
 
 ## 考題
 ```dataview

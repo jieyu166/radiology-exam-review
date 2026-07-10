@@ -7,7 +7,7 @@ aliases:
   - SPN
   - Rigler notch
   - 孤立性肺結節
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # solitary-pulmonary-nodule
@@ -45,6 +45,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which statement about solitary pulmonary nodule (SPN) is not true? (2017-277)
 > 「**已知肺外惡性腫瘤病人的 SPN 更常為原發肺癌而非轉移（C）**」不正確——**取決於肺外腫瘤組織學與吸菸史**（黑色素瘤/肉瘤/睪丸癌組反而多為轉移）。上肺葉肺癌較多、穩定 2 年幾乎必良性、Rigler notch 鑑別力有限皆為正確補充。[^1][^2]
+
+> [!question]- Characteristics of benign tumour of lung in X-ray is (2021-183)
+> **D（Concentric dense calcification 同心圓緻密鈣化）為良性特徵**——laminated/中央緻密鈣化型態提示肉芽腫等良性病灶。A（>5 cm）、B（cavitation 空洞化）偏惡性；C（周邊位置）非良性指標，故良性特徵為 D。
 
 ## 考題
 ```dataview

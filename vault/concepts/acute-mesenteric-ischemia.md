@@ -7,7 +7,7 @@ aliases:
   - acute mesenteric ischemia
   - preserved bowel enhancement
   - 急性腸繫膜缺血
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # acute-mesenteric-ischemia
@@ -54,6 +54,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which is the LEAST typical of early arterial small bowel ischemia? (2022-263)
 > **D**——早期動脈性缺血腸壁多薄而非增厚；腸壁增厚屬較晚期/靜脈性/再灌流表現，故最不典型。[^3]
+
+> [!question]- Which of the followings is NOT true while talking about mesenteric venous thrombosis (MVT)? (2021-194)
+> **C（Systemic anticoagulation 為 MVT 之第二線治療）為錯**——系統性抗凝是 MVT 的主要（第一線）治療，非第二線。特徵影像為腸繫膜靜脈內充盈缺損 ± 腸壁增厚/腸緣模糊/腹水/腸繫膜增厚 (A對)、非手術治療存活較佳且併發症較少 (B對)、導管導向溶栓僅用於抗凝無效之頑固症狀但不需開刀者 (D對)。
 
 ## 考題
 ```dataview

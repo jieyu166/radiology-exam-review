@@ -6,7 +6,7 @@ aliases:
   - intramuscular myxoma
   - musculoskeletal myxoma
   - 肌肉內黏液瘤
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # intramuscular-myxoma
@@ -45,6 +45,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 有關 musculoskeletal myxoma 敘述，下列何者「為非」? (2017-201)
 > 「**Usually no enhancement after contrast injection**」為非——myxoma 會輕至中度強化（瀰漫或厚周邊/間隔型）。intramuscular 較 intermuscular 多、T2 明顯高訊號、bright cap sign 可見皆正確。[^1][^2]
+
+> [!question]- Which of the following statement is wrong for intramuscular myxoma? (2021-119)
+> **D（Usually only peripheral enhancement）**——肌肉內黏液瘤因黏液基質內富含血管，注射對比劑後多呈瀰漫性（約 57%）或厚周邊及間隔型（約 43%）之輕至中度異質強化，並非僅周邊強化。A CT 低密度、B T1 低訊號、C T2 明顯高訊號（似水）皆為正確描述。
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - chronic cholecystitis
   - bile signal T1 MRI
   - 慢性膽囊炎
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # chronic-cholecystitis
@@ -91,6 +91,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which of the following is NOT a typical ultrasound finding of chronic cholecystitis? (2018-272)
 > **Hyperemic changes of gallbladder wall（B）**——較典型見於急性膽囊炎，非慢性典型表現。膽囊壁增厚(A)、膽囊縮小(C)、膽結石(D)皆為慢性膽囊炎典型超音波表現。[^11]
+
+> [!question]- 膽囊壁增厚合併低密度變化是以下何種疾病的影像發現? (2021-300)
+> **E（以上皆是）**——瀰漫性膽囊壁增厚合併低密度（水腫）非膽囊炎專屬：急性膽囊炎、心臟衰竭、敗血症、門靜脈高壓等全身性病因（肝功能不良、心/腎衰竭、低白蛋白、腹水）皆可造成，須配合結石與 Murphy sign 判讀。
 
 ## 考題
 ```dataview

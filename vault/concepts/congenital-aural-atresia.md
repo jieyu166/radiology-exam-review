@@ -42,6 +42,9 @@ dateRev: 2026-07-10
 > [!question]- A patient's external auditory canal is atretic with a hypoplastic middle ear cavity and the ossicles are absent. What type of hearing loss does the patient have? (2022-494)
 > **A（關鍵）Conductive（傳導性）**。閉鎖的外耳道＋發育不良的中耳腔＋缺如的聽小骨阻斷了聲音的機械傳導路徑；而內耳（耳蝸、CN VIII）通常正常，故為純傳導性聽障。B mixed 需同時有內耳受損、C sensorineural 需內耳/神經異常，皆非本情境。→ [[congenital-aural-atresia]]。[^1][^2]
 
+> [!question]- For external acoustic canal (EAC) atresia, which one is less likely? (2021-277)
+> **D（Inner ear and internal acoustic canal are usually stenotic——最不可能）**——先天性外中耳畸形(CEMEM)病變侷限於外耳道/鼓膜/中耳腔/聽小骨(聲音傳導路徑)；內耳與內聽道源自較早形成的otocyst故通常正常(<30%有內耳異常才提示症候群)。A（malleus/incus畸形）、B（stapes可正常）、C（顏面神經鼓室段/乳突段走行異常）皆屬常見表現。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "congenital-aural-atresia")

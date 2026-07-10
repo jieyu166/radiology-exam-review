@@ -127,6 +127,10 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     # 正面：tag 與題幹「同一行」（SR 外掛需 tag 與卡片同區塊才讀得到）+ 選項
     stem = _bold_verdicts(q.get("questionText", "").strip())
     front = [f"{tag_line} {stem}"]
+    # 影像：僅在題幹指涉影像時放正面（否則多為詳解插圖，放背面以免爆雷）
+    images = q.get("images") or []
+    if images and q.get("imagesOnFront"):
+        front += [f"![[{f}]]" for f in images]
     for opt in q.get("options", []):
         front.append(f"({opt['letter']}) {opt.get('text', '').strip()}")
 
@@ -149,6 +153,10 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     else:
         back.append("> [!todo] 待補詳解")  # 真正無詳解才標待補
 
+    # 詳解插圖放背面（隨答案一起出現）
+    if images and not q.get("imagesOnFront"):
+        back += [f"![[{f}]]" for f in images]
+
     # SR 卡片本體（front + ?? + back + 概念 inline 連結）。
     # 概念連結 `概念：[[...]]` 緊接詳解、屬卡片一部分（複習時一起出現）。
     card = "\n".join(front) + "\n??\n" + "\n".join(back)
@@ -165,6 +173,12 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
     if ref_defs:
         meta.append("## Reference\n" + "\n".join(ref_defs))
+    # 詳解附圖 OCR（原為圖片的表格/文字段落，OCR 轉文字後放卡片外，避免破壞 SR 卡片、且表格可正常渲染）
+    ocr = q.get("imageOcr") or []
+    if ocr:
+        blocks = [b.get("markdown", "").strip() for b in ocr if b.get("markdown", "").strip()]
+        if blocks:
+            meta.append("## 詳解附圖（OCR）\n" + "\n\n".join(blocks))
     # 註：原「> 參考依據見概念筆記 [[...]]」行已移除——與上方 ![[concept]] 嵌入重複（減少重複文字）
 
     # 卡片後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註

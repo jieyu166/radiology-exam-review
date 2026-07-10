@@ -6,7 +6,7 @@ aliases:
   - hypertensive intracerebral hemorrhage
   - hypertensive ICH
   - 高血壓腦出血
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # hypertensive-hemorrhage
@@ -75,6 +75,10 @@ dateRev: 2026-06-29
 [^5]: Charidimou A, et al. The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI-neuropathology diagnostic accuracy study. *Lancet Neurology*. 2022;21(8):714-725（依摘要與相關 Stroke／Neurology 驗證文，未讀全文）。PMID: 35841910。深部 CMB＝高血壓小血管病；嚴格腦葉 CMB＝CAA；probable CAA 需無深部出血性病灶。
 [^6]: MR appearance of hemorrhage in the brain（Bradley 五期分類；依 *Radiology* 經典文獻與開放教學來源彙整，摘要層級）。DOI: 10.1148/radiology.189.1.8372185。五期 T1/T2 訊號與血紅素物種對應；hemosiderin 於 GRE/SWI 最敏感、可永久殘留。
 [^7]: Contrast extravasation (CTA spot sign) as predictor of hematoma expansion in spontaneous ICH（依 PMC 開放全文與 *Radiology* 相關文獻，摘要層級）。Spot sign＝血腫內與血管不連續之局灶對比外滲，預測血腫擴大（OR 約 3–5）與 30 天死亡率。
+
+## 題目
+> [!question]- Which of the following is NOT a common cause of spontaneous intraparenchymal hemorrhage in older adult? (2021-285)
+> **D（Cerebral aneurysm）**——老年人自發性腦實質內出血常見病因為高血壓（深部：基底核/視丘/橋腦/小腦）、cerebral amyloid angiopathy（腦葉/皮質-皮質下）與腫瘤（原發或轉移）。動脈瘤破裂主要造成蛛網膜下腔出血（SAH），而非典型的腦實質內出血，故非常見病因。
 
 ## 考題
 ```dataview

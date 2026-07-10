@@ -6,7 +6,7 @@ aliases:
   - pleural metastases
   - pleural metastasis primaries
   - 肋膜轉移
-dateRev: 2026-06-28
+dateRev: 2026-07-10
 ---
 
 # pleural-metastases
@@ -58,6 +58,7 @@ dateRev: 2026-06-28
 
 ## DDx — 與惡性間皮瘤（mesothelioma）鑑別
 - **mesothelioma 偏向**：多有**石綿（asbestos）暴露史**、常為**單側**、可伴**肋膜斑塊（pleural plaque）**；典型呈縱膈、環周、葉間裂（fissural）肋膜增厚。[^2]
+- **分布方向（高頻考點）**：**惡性間皮瘤主要累及壁層肋膜（parietal pleura）多於臟層肋膜（visceral pleura）**；此與**肺癌相反**——肺癌自肺實質內向外生長，故先侵犯臟層肋膜。故「mesothelioma 相較肺癌更易犯 visceral pleura」的敘述**錯誤**（2021-132 選項 D）。mesothelioma 為**最常見的原發性惡性肋膜腫瘤**、與石綿強相關。[^5]
 - 然而**沒有任何單一 CT 參數能可靠區分 MPM 與續發性（轉移性）肋膜惡性**——結節狀／環周／縱膈增厚兩者皆可見；故須結合臨床史（石綿暴露、已知原發癌）與病理（肋膜切片）。[^2]
 - 其他鑑別：良性肋膜斑塊（鈣化、不連續、無結節）、結核或膿胸後纖維化（光滑、可鈣化、不呈結節狀）。[^2]
 
@@ -66,6 +67,12 @@ dateRev: 2026-06-28
 [^2]: *Imaging of pleural disease*. PMC10928554（PMC 開放全文，實際查證 accessed 2026-06-28）。Leung 四徵象特異度：環周 100%、結節 94%、>1 cm 94%、縱膈 88%；結節「幾乎可診斷惡性」；大型系列 CT 敏感度 58–68%；早期 MPM 灌注 MRI 敏感度 92% vs CT 56%；PET 用於找原發；mesothelioma 與石綿暴露、肋膜斑塊、單側相關，但「無單一 CT 參數可可靠區分 MPM 與續發性肋膜癌」。
 [^3]: Leung AN, Müller NL, Miller RR. *CT in differential diagnosis of diffuse pleural disease*. AJR Am J Roentgenol. 1990;154(3):487-492（摘要層級／需訂閱全文，實際查證 accessed 2026-06-28）。原始四項惡性肋膜增厚 CT 徵象：環周增厚、結節狀增厚、壁層肋膜 >1 cm、縱膈肋膜受累。
 [^4]: *Malignant pleural effusion and its current management: a review*. PMC6723530（PMC 開放全文，實際查證 accessed 2026-06-28）。惡性肋膜積液最常見為肺癌、其次乳癌，再淋巴瘤（~10%）、婦科／胃癌（~5%）；肺＋乳合計約占 50–65%。
+[^5]: Tyszko SM, Marano GD, Tallaksen RJ, Gyure KA. *Malignant Mesothelioma*. RadioGraphics. 2007;27(1):259–264（Tier-1，DOI 10.1148/rg.271065105，正文 accessed 2026-07-10）。「Mesothelioma of the thorax is a malignant neoplasm that involves the parietal pleura to a greater extent than the visceral pleura」；與石綿強相關（重度暴露終生風險達 10%、潛伏期 35–40 年）；影像呈環周、分葉狀肋膜增厚（非特異，DDx 含腺癌/淋巴瘤/胸腺瘤/良性石綿肋膜病）；預後差、中位存活約 12 個月。
+
+## 題目
+
+> [!question]- 以下關於 pleural malignancy 的敘述，何者錯誤？ (2021-132)
+> **D（錯誤）**——正確事實為 mesothelioma **主要累及壁層肋膜（parietal）多於臟層肋膜（visceral）**；肺癌則自肺內向外生長、先犯 visceral pleura，故 D 的「mesothelioma 相較肺癌更易犯 visceral」敘述相反、為錯。A（轉移為最常見肋膜惡性）、B（mesothelioma 為最常見原發性肋膜惡性）、C（與石綿強相關）皆正確。
 
 ## 考題
 ```dataview

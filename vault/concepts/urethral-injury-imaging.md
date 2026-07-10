@@ -6,7 +6,7 @@ aliases:
   - urethral injury
   - retrograde urethrography
   - 尿道損傷影像
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # urethral-injury-imaging
@@ -43,6 +43,10 @@ dateRev: 2026-07-04
 
 > [!question]- Which description about urethral injury is WRONG? (2019-352)
 > **C. Urethral injury is more common in females than males**（錯誤）。尿道損傷男性遠多於女性；後尿道損傷比前尿道常見、RUG 為 gold standard、骨盆骨折為後尿道損傷最常見成因（A/B/D 正確）。[^1]
+
+## 題目
+> [!question]- 前骨盆環骨折併膀胱周圍積液（radiography 呈現），下一步應執行何項檢查？ (2021-150)
+> **B（Retrograde urethrocystography 逆行性尿道膀胱攝影）**——骨盆骨折併尿道/膀胱損傷之虞時，應先做逆行性尿道攝影確認尿道是否完整，為 gold standard。A 錯：貿然置入 Foley 導尿管可能把部分斷裂變全斷裂、加重撕裂，須先排除尿道損傷；C（膀胱鏡非此時首選）、D（血管攝影用於出血栓塞，非此情境首選）。
 
 ## 考題
 ```dataview

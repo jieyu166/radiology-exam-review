@@ -10,7 +10,7 @@ aliases:
   - complex sclerosing lesion
   - intraductal papilloma
   - 乳房癌前病變
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # breast-premalignant-lesions
@@ -91,6 +91,9 @@ dateRev: 2026-07-01
 
 > [!question]- Which statement below is incorrect about papillomas? (2018-256)
 > **Atypia is more common in central papilloma（B）**——實際上異型性於周邊型較常見，此敘述錯誤。[^3]
+
+> [!question]- Which benign breast lesion has high risk for the subsequent development of invasive breast cancer: (2021-290)
+> **B（Atypical hyperplasia）**——非典型增生（ADH/ALH）為公認高風險癌前病變，與 DCIS 為病理學上相近實體，後續乳癌相對風險約 4–5 倍。Sclerosing adenosis 僅輕度增加風險（1.5–2×）；squamous metaplasia、papillary hyperplasia 非高風險病變。
 
 ## 考題
 ```dataview

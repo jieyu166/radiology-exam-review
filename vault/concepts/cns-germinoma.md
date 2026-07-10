@@ -7,7 +7,7 @@ aliases:
   - CNS germinoma
   - pineal germinoma
   - 中樞神經生殖細胞瘤
-dateRev: 2026-06-28
+dateRev: 2026-07-10
 ---
 
 # cns-germinoma
@@ -45,6 +45,13 @@ dateRev: 2026-06-28
 [^5]: *Distinguishing between Germinomas and Pineal Cell Tumors on MR Imaging*. AJNR. 2012;33(3):550（開放，accessed 2026-06-28）：以鈣化型態與訊號特徵區分 germinoma 與松果體細胞腫瘤。
 [^6]: *An update on the clinical diagnostic value of β-hCG and αFP for intracranial germ cell tumors*. PMC4788851（開放，accessed 2026-06-28）：純 germinoma AFP 應陰性、β-hCG 可輕度升高（syncytiotrophoblastic 成分）；標記顯著升高提示 NGGCT。
 [^7]: *Basal ganglia germinoma in children with associated ipsilateral cerebral and brain stem hemiatrophy*. Pediatr Radiol. 2006;36（摘要開放，accessed 2026-06-28）：基底節 germinoma 約 1/3 伴同側大腦/腦幹萎縮（Wallerian degeneration）；兒童基底節病灶＋進行性偏癱＋同側半球萎縮應懷疑 ectopic germinoma。
+
+## 題目
+> [!question]- Which of the following description regarding pineal germinoma is FALSE? (2021-048)
+> **D（None of the above）**——A、B、C 皆為正確敘述：germinoma 是最常見的松果體區腫瘤、整體以男性為主（松果體型 M:F 約 5–22:1）、可壓迫頂蓋致 Parinaud 症候群。三者皆對，故「以上皆非（沒有錯誤敘述）」D 為正解。
+
+> [!question]- When considering a pineal region mass, which characteristic favors Non-germ cell neoplasms? (2021-060)
+> **C（calcification with exploded appearance）**——松果體實質腫瘤（如 pineoblastoma，屬非生殖細胞瘤）會把既有鈣化往周邊「炸開（exploded）」；而 germinoma 則把鈣化「吞入包覆（engulfed）」。A（放療敏感）、B（男性為主）、D（合併鞍上另一腫瘤＝bifocal）皆為 germinoma 之特徵，故不偏向非生殖細胞瘤。
 
 ## 考題
 ```dataview

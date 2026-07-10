@@ -8,7 +8,7 @@ aliases:
   - SPEN
   - Hamoudi tumor
   - 實性偽乳頭狀腫瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # solid-pseudopapillary-neoplasm
@@ -64,6 +64,9 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- Which statement of solid pseudopapillary tumor of pancreas is wrong? (2018-391)
 > **Greater predilection location at pancreatic head and body（C）**——SPN好發於胰**尾(tail)**(greater predilection at pancreatic tail)，非頭/體。少見外分泌胰腫瘤(A對)、可無症狀(B對)、好發年輕女性(D對)皆為正確描述。[^1]
+
+> [!question]- Which statement about pancrease solid pseudopapillary tumors is false? (2021-236)
+> **C（腫瘤發生於多個器官系統）為錯**——SPN 為胰臟原發腫瘤，僅見於胰臟（好發胰體尾），非多器官系統。好發女性 (A對)、低惡性潛能 (B對)、囊性成分源自腫瘤退變/出血壞死 (D對)。
 
 ## 考題
 ```dataview

@@ -10,7 +10,7 @@ aliases:
   - 能量都卜勒
 nonImaging: true
 nonImagingReason: "都卜勒模式原理比較題，無特定病例影像特徵"
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # color-vs-power-doppler
@@ -50,6 +50,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which of the following statements about the advantages of color and power Doppler is not true? (2022-416)
 > **「Power Doppler is more affected by Doppler angle（能量都卜勒較受角度影響）」為錯誤**——能量都卜勒以訊號振幅編碼，**不依賴都卜勒角度（angle-independent）**、無 aliasing，這正是其對慢/低流敏感的原因。正確敘述：彩色都卜勒可判斷血流方向、可反映相對流速（依平均頻移編碼）；能量都卜勒與血流量（血球密度）相關。[^1][^2]
+
+> [!question]- Which one of the following descriptions about Power and color doppler is not true? (2021-104)
+> **A（color uses amount of signal; power uses frequency）**——敘述反了：color Doppler 以平均頻移（mean frequency shift）編碼、power Doppler 以訊號振幅（amount of signal/power）編碼。B（power 與 color 對快流同樣敏感，但 power 對慢流更敏感）、C（color 相對 power 的優勢在提供血流方向資訊）、D（power Doppler 有假影，如 flash artifact）皆正確。
 
 ## 考題
 ```dataview

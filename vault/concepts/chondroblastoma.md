@@ -6,7 +6,7 @@ aliases:
   - Codman tumor
   - chondroblastoma
   - 軟骨母細胞瘤
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # chondroblastoma
@@ -31,6 +31,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Which of the following is NOT a common location for Chondroblastoma? (2022-489)
 > **E. Scapula（關鍵）**——chondroblastoma 絕大多數位於長骨骨骺/骨突，近端肱骨（A）、近端股骨（B）、遠端股骨（C）、近端脛骨（D）皆為典型好發部位。**肩胛骨為扁平骨，起源罕見且多見於成人**，故非常見部位。[^2][^3]
+
+> [!question]- Which of the following description regarding chondroblastoma is FALSE? (2021-283)
+> **D（好發於第一個十年 / 1st decade）為誤**——chondroblastoma 好發年齡為**第二個十年（約 15–20 歲、生長板未閉合之青少年）**，非 1st decade。A（偏心髓內、軟骨下骨骺，近乎皆起於骨骺）、B（約 2/3 位於下肢、約 50% 在膝周）、C（男：女約 2:1）皆正確。
 
 ## 考題
 ```dataview

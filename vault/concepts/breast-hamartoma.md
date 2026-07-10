@@ -6,7 +6,7 @@ aliases:
   - fibroadenolipoma
   - breast within a breast
   - 乳房錯構瘤
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # breast-hamartoma
@@ -40,6 +40,10 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: 官方 2019 交換考詳解；Radiopaedia.org — *Breast hamartoma*（輔助來源）——又稱 fibroadenolipoma、良性；乳攝 breast-within-a-breast、含脂肪+纖維腺體、界清有薄包膜、質地柔軟易壓縮。
 [^2]: **Tier 1** Tso H, Berg WA. *Hamartoma (Fibroadenolipoma)*（Breast, Benign Lesions, Dx）. STATdx, Elsevier, updated 04/25/19（30 refs；實際查證 accessed 2026-07-04）——**MH/FAL＝局部發育性 pseudotumor、biphasic（脂肪+纖維腺體）**；**乳攝 breast-within-a-breast（界清混合密度 5-90% 脂肪 + pseudocapsule、tomosynthesis 更明顯）；US 卵圓界常不清與周邊融合、可壓縮；MR 脂肪部不強化纖維腺體部強化**；最佳工具乳攝+tomosynthesis、**典型即 BI-RADS 2 不需切片**、非典型才切片；DDx（asymmetry/fibroadenoma 互誤/benign phyllodes 無脂肪快速增大/galactocele/fat necrosis/lipoma/PASH/NHL）；**流病 0.1-0.7% 女性、4.8% 良性腫瘤、平均 45 歲、典型 3-6cm 可達 20cm、懷孕哺乳增大停經退縮、極罕內生惡性**；**罕與 PTEN hamartoma tumor syndrome（Cowden/BRRS、50% 50 歲前乳癌、終身 ~85%）相關**；治療（無症狀不需、極大者選擇性切除、復發 8%）。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
+
+## 題目
+> [!question]- 以下關於breast hamartoma之相關敘述，何者為非? (2021-215)
+> **B（Are suspicious lesion, often requires further tissue proof for high probability of malignancy）為非**——hamartoma 為**良性**發育性病灶，典型「breast-within-a-breast」外觀者評為 BI-RADS 2、不需切片（僅非典型時才切片）。A（又稱 fibroadenolipoma）、C（breast-within-a-breast 為典型特徵）、D（大小不一但常於發現時已較大，典型 3–6 cm 可達 20 cm）皆正確。
 
 ## 考題
 ```dataview

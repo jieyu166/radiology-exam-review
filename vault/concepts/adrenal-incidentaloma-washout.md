@@ -6,7 +6,7 @@ aliases:
   - adrenal washout
   - adrenal adenoma CT
   - 腎上腺偶然腫
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # adrenal-incidentaloma-washout
@@ -41,6 +41,10 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解；Dahnert Radiology Review Manual 7th ed.：adrenal washout protocol 標準為 unenhanced + 15-min delayed，absolute washout ≥60%、relative washout ≥40% 提示 adenoma。
 [^2]: **Tier 1** Warda MHA, Shehata SM, Zaiton F. *Chemical-shift MRI versus washout CT for characterizing adrenal incidentalomas*. Clin Imaging 2016;40(4):780-7（據 PubMed，DOI [10.1016/j.clinimag.2016.02.006](https://doi.org/10.1016/j.clinimag.2016.02.006)；實際查證 accessed 2026-07-04）——直接比較 washout CT 與 chemical-shift MRI 特徵化 adrenal adenoma，佐證 washout CT 敏感度（95%）高於 MRI（81%）、特異度皆 100%，且 lipid-rich adenoma 於 unenhanced 低 HU 即可診斷、lipid-poor 者靠 washout 判定的考點。原「官方/Dahnert」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- Which one of the following is false regarding the adrenal dynamic CT exam? (2021-305)
+> **A**——標準腎上腺 dynamic CT 為非顯影＋強化期（約 60–90 秒）＋15 分鐘延遲，而非「30 分鐘延遲」。B 部分中心採 10 分鐘延遲但可能降低敏感度、C dynamic 期用於計算 washout 評估腺瘤、D 線上有 washout 計算器皆正確。
 
 ## 考題
 ```dataview

@@ -8,7 +8,7 @@ aliases:
   - whirlpool sign
   - twisted vascular pedicle sign
   - 附件扭轉
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # adnexal-torsion
@@ -46,6 +46,12 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which of the following is NOT a typical image finding of adnexal torsion? (2020-245)
 > **More commonly related to a malignant ovarian tumor（D）**——多與良性病灶相關（生理性/黃體/皮樣囊腫），惡性腫瘤因沾黏反而少見。[^1]
+
+> [!question]- Which of the following about gynecologic emergencies is WRONG? (2021-355)
+> **D（Contralateral uterine deviation 為卵巢扭轉直接徵象）為錯**——卵巢扭轉時子宮偏向「同側（ipsilateral）」扭轉側，非對側。A 子宮外孕著床於子宮內膜外、B 95% 為輸卵管型且好發壺腹部、C 正常卵巢扭轉罕見且好發初經前女孩或孕期，皆正確。
+
+> [!question]- Ovarian torsion ... Which of the followings is NOT correct? (2021-196)
+> **D（Color Doppler US evaluation is reliable for confirming or excluding ovarian torsion）為錯**——彩色都卜勒並不可靠：卵巢有子宮／卵巢雙重動脈供血，扭轉時動脈血流可保留；且無血流亦常見於未扭轉之兒童卵巢，故正常或異常都卜勒皆不能確診或排除扭轉。其餘正確：(A) 正常附件之扭轉在兒童較成人常見；(B) 最常見所見為不對稱腫大之卵巢；(C) 周邊移位濾泡為青少年扭轉之特異徵；(E) 卵巢內液-屑液平面為周產期扭轉之特異徵。
 
 ## 考題
 ```dataview

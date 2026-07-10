@@ -8,7 +8,7 @@ aliases:
   - Milan criteria
   - UCSF criteria
   - 肝癌影像診斷
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # hcc-imaging-diagnosis
@@ -32,6 +32,15 @@ dateRev: 2026-06-29
 - **多期 CT**（≥8 排）：late arterial＋portal venous＋delayed 三期；曾接受局部治療者須加非顯影期。[^3]
 - **MRI**（1.5T／3.0T）：含 T1 in/opposed phase、脂肪抑制 T2 TSE、非特異性 Gd 三期動態（late arterial／PV／delayed），建議加 DWI。[^3]
 - **肝膽特異性對比劑（Gd-EOB-DTPA／gadoxetate, Primovist）或 gadobenate**：另取 **hepatobiliary phase（HBP）**；HBP **低訊號**屬偏 HCC 之 ancillary，且可上修分類、改善不確定病灶的定性（一研究中 71% 病灶因 HBP 而改 LI-RADS 分類）。[^3][^4]
+
+### 多期顯影期相定義（偵測 HCC 用）
+偵測富血流 HCC 需在**動脈優勢期／late arterial phase**（此期肝動脈已強化、門靜脈已開始強化、肝靜脈尚未強化）。以三期時相對照：
+- **Early arterial phase（早期動脈期，~15–25 秒）**：對比劑**仍在動脈內、尚未到達器官與軟組織**，門靜脈尚未強化；用途為血管定界（CTA）。此期**太早**，肝實質與門脈未顯影，不利偵測 HCC。[^10]
+- **Late arterial phase／arterial dominant phase（晚期動脈期／動脈優勢期，~30–40 秒；亦稱 corticomedullary／early venous portal phase）**：主動脈峰值 290–360 HU、**門靜脈已濃染（145±20 HU）**、肝實質僅輕度強化（20–30 HU）、**肝靜脈尚未強化**；為**偵測富血流肝病灶（HCC）之最佳期相**。[^11]
+- **Portal venous phase（門脈期，~70–90 秒）**：**門靜脈與肝靜脈皆完全強化**、肝實質達峰值（>110 HU）；適合偵測乏血流病灶。此期**太晚**，HCC 多已 washout。[^12]
+
+> [!note] 考點六：偵測 HCC 血管性最適的 arterial dominant phase 描述為？
+> **肝動脈強化、門靜脈部分強化、肝靜脈完全無強化（B）**＝late arterial／arterial dominant phase（~35 秒）。A「只有肝動脈強化」＝early arterial，太早；C「三管皆強化」＝portal venous，太晚。[^10][^11][^12]
 
 ### Ancillary features（輔助特徵）
 - **偏 HCC／惡性（可上修一級，最多到 LR-4，不可到 LR-5）**：HBP 低訊號、transitional 期低訊號、輕中度 T2 高訊號、restricted diffusion、distinctive rim、corona enhancement、mosaic architecture、nodule-in-nodule、病灶內脂肪、lesional iron／fat sparing、blood products、未達閾值的生長。[^3]
@@ -111,6 +120,9 @@ dateRev: 2026-06-29
 [^7]: 官方2020詳解；Ref: AJCC cancer stage Version 8（題目所引）——AJCC第8版HCC T分期：T1a單一≤2cm；T1b單一>2cm無血管侵犯；T2單一>2cm併血管侵犯或多發皆≤5cm；T3多發至少一顆>5cm；T4任何大小併門脈/肝靜脈主要分支侵犯，或侵犯膽囊以外鄰近器官，或穿破臟層腹膜。
 [^8]: *Milan criteria in liver transplantation* 與 *Hepatocellular carcinoma*. Radiopaedia.org（radiopaedia.org/articles/milan-criteria-in-liver-transplantation、/articles/hepatocellular-carcinoma，實際查證 accessed 2026-07-06）：肝移植資格採 Milan criteria——單一 ≤5 cm 或 ≤3 顆各 ≤3 cm、**「no extra-hepatic metastases」、「no major vessel involvement」**；肝外轉移與主要血管侵犯即不符資格(絕對禁忌)。HCC 轉移發生於末期(IVa)、預後差，好發肺、腎上腺、淋巴結、骨。
 [^9]: 題目原引；Yu JS et al. *Liver transplantation: preoperative CT evaluation.* RadioGraphics 2001;21 Spec No:S133-46（Tier 1，題目所引）——移植前 CT 評估須排除肝外轉移等絕對禁忌；肝外轉移為肝移植的絕對禁忌，反應性淋巴結腫大與良性(bland)血栓非絕對禁忌。
+[^10]: *Early arterial phase*. Radiopaedia.org, rID-91603. DOI: https://doi.org/10.53347/rID-91603（實查 2026-07-10）——~15–25 秒，對比劑仍在動脈內、尚未到達器官/軟組織；用途為血管定界。
+[^11]: *Late arterial phase*. Radiopaedia.org, rID-91605. DOI: https://doi.org/10.53347/rID-91605（實查 2026-07-10）——~30–40 秒（亦稱 corticomedullary／early venous portal phase）；主動脈 290–360 HU、門靜脈已濃染 145±20 HU、肝實質僅 20–30 HU；為偵測富血流肝病灶（HCC）之最佳期相。
+[^12]: *Portal venous phase*. Radiopaedia.org, rID-91786. DOI: https://doi.org/10.53347/rID-91786（實查 2026-07-10）——~70–90 秒（亦稱 late portal／hepatic phase）；門靜脈與肝靜脈皆完全強化、肝實質峰值 >110 HU；適合偵測乏血流病灶。
 
 ## 題目
 > [!question]- Which of the following is NOT a typical ultrasound finding of hepatocellular carcinoma? (2020-267)
@@ -121,6 +133,21 @@ dateRev: 2026-06-29
 
 > [!question]- For a recipient with hepatocellular carcinoma (HCC), which of the following conditions is considered an absolute contraindication for liver transplantation? (2022-437)
 > **extrahepatic metastases（C）**——肝外轉移為肝移植的絕對禁忌(Milan criteria 明訂 no extra-hepatic metastases)。HCC <5 cm 符合 Milan、區域淋巴結腫大多為反應性、急性(bland)門靜脈血栓非腫瘤瘤栓，皆非絕對禁忌。[^8][^9]
+
+> [!question]- LI-RADS v2018 不適用在下列何種病人? (2021-019)
+> **B（Chronic hepatitis C viral infection without cirrhosis）**——LI-RADS 僅適用於高危族群：肝硬化、慢性**B**肝、或現有／曾有 HCC 者（含成人肝移植候選與術後）。單純慢性 C 肝而無肝硬化不在適用範圍。A 肝硬化、C 現有/曾有 HCC、D 肝移植後合併慢性 B 肝皆屬適用族群。[^3]
+
+> [!question]- 有關 LI-RADS，以下敘述何者有誤? (2021-020)
+> **C（典型 HCC features 包括 rim arterial phase hyperenhancement）為誤**——HCC 動脈期高強化須為 **non-rim**；rim 狀 APHE 偏非 HCC 惡性（LR-M）。B non-rim APHE、D non-peripheral washout、E capsule 皆為 HCC 主要特徵，正確。[^3]
+
+> [!question]- 有關 LI-RADS，以下敘述何者有誤? (2021-021)
+> **E（threshold growth 指 ≥50% 於 ≤12 個月）為誤**——threshold growth 為 ≤**6** 個月內直徑增 ≥50%（或前次影像 >6 個月時須增 ≥100%；或 24 個月內新現 ≥10 mm 病灶）。A 適用族群、B LR-5 不需切片、C 須 non-rim APHE、D capsule／washout／threshold growth 三主要徵象皆正確。[^3]
+
+> [!question]- 根據2018 ACR LI-RADS，下列何者不是診斷HCC的major feature? (2021-302)
+> **D（Bright up on DWI in MRI）**——DWI 受限（restricted diffusion）屬 ancillary（輔助）特徵，非 major feature。Non-rim 動脈期高強化（APHE）、non-peripheral 門脈期 washout、強化包膜（連同 size 與 threshold growth）才是 LI-RADS 五大主要特徵。
+
+> [!question]- 肝臟動態攝影中，下列哪個描述是最適合用來偵測 HCC 血管性的動脈相 (arterial dominant phase)? (2021-301)
+> **B（肝動脈對比增強，門靜脈部分對比增強，肝靜脈完全無對比增強）**——此即 late arterial／arterial dominant phase（~30–40 秒），為偵測富血流 HCC 之最佳期相。A「只有肝動脈強化」＝early arterial（~15–25 秒），太早、門脈未顯影；C「三管皆強化」＝portal venous（~70–90 秒），太晚、HCC 多已 washout。[^10][^11][^12]
 
 ## 考題
 ```dataview

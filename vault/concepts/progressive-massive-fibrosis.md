@@ -7,7 +7,7 @@ aliases:
   - PMF
   - complicated pneumoconiosis
   - 進行性大量纖維化
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # progressive-massive-fibrosis
@@ -41,6 +41,16 @@ dateRev: 2026-06-29
 - 支持 PMF：**雙側對稱**、含鈣化、伴上肺塵肺小結節背景、伴蛋殼淋巴結、隨訪**穩定或向肺門遷移**而非持續增大；團塊沿縱向呈串珠狀並與結節性支氣管血管束增厚相連（淋巴路徑分布）。[^2][^3]
 - 警訊（須排除合併肺癌）：**單側、快速增大、偏離典型上肺後段位置、新發空洞**——此類非典型 PMF 最易被誤判為肺癌，需切片或追蹤。[^3]
 
+### silicosis 疾病譜（PMF 之上位疾病，enrich）
+- **病因**：silicosis＝吸入**結晶型二氧化矽（crystalline silicon dioxide）**細顆粒所致之纖維化塵肺；高風險職業含採礦、採石、隧道、噴砂、人造石加工。[^5]
+- **臨床/影像分型**（依暴露後時序與型態）：[^5]
+  - **classic（典型）silicosis**：慢性間質性 reticulonodular 病變，是最常見型。再分：
+    - **simple silicosis**：小而圓或不規則的小陰影（1–10 mm，上肺後段為主，10–20% 結節鈣化）。
+    - **complicated silicosis＝progressive massive fibrosis（PMF）**：小結節聚合成**大團塊（conglomerate）**。
+  - **accelerated silicosis**：疾病快速進展之型態。
+  - **acute silicosis（＝silicoproteinosis）**：與典型型不同，病理為 alveolar silicoproteinosis；**CT 見雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation，類似 crazy-paving pattern**。[^5]
+- 此即為何 2021-344 三敘述（A 結晶矽吸入、B simple/complicated 定義、C acute/silicoproteinosis 類 crazy-paving）皆正確 → 答案 D（All above）。
+
 **鑑別診斷（DDx）**
 - **肺癌**（最重要，見上述鑑別重點）。[^3]
 - **Sarcoidosis 的 PMF-like 團塊**：第 IV 期類肉瘤亦可形成上肺旁肺門團塊伴遷移，背景為沿淋巴路徑之微結節與肺門/縱膈淋巴結病。[^2]
@@ -53,7 +63,13 @@ dateRev: 2026-06-29
 [^1]: *Progressive massive fibrosis*. Radiopaedia.org（tier 2 輔助）。矽肺/CWP 併發；上肺為主、雙側對稱大團塊伴放射狀條索、香腸狀、含鈣化、向肺門遷移、周圍 emphysema；MRI 可助與肺癌鑑別（accessed 2026-06-29）。「可在暴露停止後仍進展」為標準塵肺教學；題目另引 *Radiology Review Manual* 7th ed, p.530。
 [^2]: Tian X, et al. *Computed Tomography Findings in Progressive Massive Fibrosis: Analyses of 90 Cases.* La Medicina del Lavoro. 2022（tier 2，PMC 免費全文）。DOI: 10.23749/mdl.v113i1.12303。數據：95.6% 上葉、雙側 90%、不規則形 78.3%、鈣化 62.6%（點狀為主）、空洞 5.6%、淋巴結腫大 83.3%（蛋殼 24.4%）、band 86%、胸膜內陷 80%、paracicatricial emphysema。
 [^3]: *Progressive Massive Fibrosis Mimicking Lung Cancer: Two Case Reports with Potentially Useful CT Features for Differential Diagnosis.* Journal of the Korean Society of Radiology（J Korean Soc Radiol）. 2022（tier 2，PMC 免費全文）。DOI: 10.3348/jksr.2021.0185。FDG-PET SUVmax 5.4 與 2.0；PET 在塵肺偽陽性率高、角色有限；3D 重組評估團塊沿縱向與支氣管血管束增厚相連有助診斷 PMF。
-[^4]: Chong S, et al. *Pneumoconiosis: Comparison of Imaging and Pathologic Findings.* RadioGraphics. 2006;26(1):59-77（tier 1）。DOI: 10.1148/rg.261055070。PMF 由上肺小結節聚合形成大團塊之影像-病理對照。
+[^4]: Chong S, et al. *Pneumoconiosis: Comparison of Imaging and Pathologic Findings.* RadioGraphics. 2006;26(1):59-77（tier 1）。DOI: 10.1148/rg.261055070。PMF 由上肺小結節聚合形成大團塊之影像-病理對照；silicosis 之 simple/complicated/acute（silicoproteinosis）分型與影像-病理對照。
+[^5]: *Silicosis*. Radiopaedia.org（公開，rID 12513，DOI 10.53347/rID-12513，accessed 2026-07-10）。silicosis＝吸入結晶型二氧化矽細顆粒之纖維化塵肺；分 classic（simple＝小圓/不規則陰影、complicated＝大團塊＝PMF）、accelerated、acute（silicoproteinosis）；acute silicosis CT＝雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation（類 crazy-paving）；淋巴結周邊（蛋殼）鈣化高度提示 silicosis。
+
+## 題目
+
+> [!question]- Among the following descriptions about silicosis, which is right? (2021-344)
+> **D（All above）**——三敘述皆正確：A silicosis 由吸入**結晶型二氧化矽**細顆粒所致；B **simple silicosis**＝小而圓/不規則小陰影，**complicated silicosis（＝PMF）**＝大團塊；C **acute silicosis（silicoproteinosis）**CT 呈雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation、類 crazy-paving。故正解為 D。
 
 ## 考題
 ```dataview

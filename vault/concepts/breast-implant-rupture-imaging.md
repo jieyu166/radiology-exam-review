@@ -9,7 +9,7 @@ aliases:
   - snowstorm sign
   - intracapsular extracapsular rupture
   - 乳房植入物破裂影像
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # breast-implant-rupture-imaging
@@ -50,6 +50,9 @@ dateRev: 2026-07-03
 
 > [!question]- 下列關於breast implant imaging的敘述何者錯誤? (2020-348，已與2019-006合併)
 > **Intracapsular silicone 於超音波呈 snowstorm appearance（D）為錯誤**——snowstorm 為腔外（extracapsular）破裂之徵象，非腔內。[^1]
+
+> [!question]- 下列關於Breast implant associated complication之相關敘述，何者為非? (2021-014)
+> **D（Extra-capsular rupture 於影像上可見典型 linguine sign、stepladder sign、keyhole sign）為非**——linguine／stepladder／keyhole 皆為**腔內（intracapsular）**破裂之徵象，非腔外；腔外（extracapsular）破裂表現為 snowstorm、siliconoma、矽膠散落乳腺／腋下淋巴結。A（早期併發症含 peri-implant fluid/hematoma 及感染）、B（capsular contracture 多由臨床即可診斷）、C（腔外破裂可見矽膠散落乳腺或腋淋巴結）皆正確。
 
 ## 考題
 ```dataview

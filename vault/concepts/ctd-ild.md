@@ -8,7 +8,7 @@ aliases:
   - antisynthetase syndrome
   - IPAF
   - 結締組織疾病間質肺病
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[nonspecific-interstitial-pneumonia]]"
   - "[[organizing-pneumonia]]"
@@ -66,6 +66,19 @@ same:
 [^5]: *A Review of Antisynthetase Syndrome-Associated Interstitial Lung Disease*. *Int J Mol Sci*. 2024;25(8):4453（PMC11050089）：antisynthetase-ILD 78–100% 為 NSIP/OP/混合;NSIP alone >55%;下肺、周邊／peribronchovascular consolidation+GGO;OP+NSIP overlap 對免疫抑制反應較佳。
 [^6]: pSS-related LIP 特徵（*Clin Rheumatol*. 2020;39(11):3409-3416, PMC7327216;及 LIP→淋巴瘤轉化案例回顧 *J Cardiothorac Surg*. 2022;17:131）：pSS-LIP HRCT cysts 近 100%、GGO 73%、結節 73%;須警覺淋巴瘤轉化。
 [^7]: *Esophageal dilatation and interstitial lung disease in systemic sclerosis: A cross-sectional study*（PMC5500283;原文 *Semin Arthritis Rheum*. 2016）及相關研究：HRCT 食道擴張與 SSc 相關，cut-off 約 18.5 mm（sens≈70%、spec≈90%），於 ILD 合併食道擴張時對 SSc 有判別意義。
+
+## 題目
+> [!question]- In terms of CTD-ILD, which one is not correct? (2021-133)
+> **D（Organizing pneumonia 在 systemic sclerosis 比 polymyositis/dermatomyositis 常見）為錯誤**——OP 反而以 PM/DM（antisynthetase syndrome，NSIP-OP overlap/fibrosing OP）較常見，SSc 以 NSIP 為主。A（NSIP 為 CTD-ILD 最常見型態）、B（UIP 於 CTD 中最常見於 rheumatoid arthritis）、C（LIP 好發 Sjögren，RA/SLE 相對少見）皆正確。
+
+> [!question]- Which specific CT sign is more common in UIP associated with CTD-ILD than in UIP associated with IPF? (2021-178)
+> **D（All of the above）**——anterior upper lobe sign、exuberant honeycombing sign、straight-edge sign 三徵象在 CTD-ILD（相對 IPF）皆較常見、具高特異度但中等敏感度，故三者皆是。
+
+> [!question]- Which sign is specific for usual interstitial pneumonia due to connective tissue disease? (2021-185)
+> **D（All of the above）**——straight-edge sign、anterior upper lobe sign、exuberant honeycombing sign 三徵象對 CTD 相關 UIP（相對 IPF）皆具高特異度，故三者皆是。
+
+> [!question]- What is the HRCT features of CTD-ILD? (2021-327)
+> **A（Straight-edge sign）**——straight-edge sign（纖維化侷限肺基底、冠狀面上下界銳利、不沿肺外側緣往上延伸）是 CTD-UIP 相對 IPF 較常見的三大反常徵象之一，屬 CTD-ILD 的 HRCT 特徵。B「multi-layers honeycombing」用詞錯誤——CTD 的特徵是 exuberant honeycombing（蜂窩 >70% 纖維化區），非「多層蜂窩」；C「posterior upper lobe sign」方向相反——正確為 anterior upper lobe sign（纖維化集中上葉前段）；故非 D。
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - X-linked adrenoleukodystrophy
   - X-ALD
   - 腎上腺腦白質失養症
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # adrenoleukodystrophy
@@ -57,6 +57,10 @@ dateRev: 2026-06-29
 [^7]: *Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。
 [^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。
 [^9]: *Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。
+
+## 題目
+> [!question]- About X-linked adrenoleukodystrophy, which one is "Wrong"? (2021-165)
+> **D**——錯在「restriction of long-chain fatty acids (LCFA)」；治療為限制**極長鏈脂肪酸（VLCFA，如 Lorenzo's oil）**並可行造血幹細胞/骨髓移植，而非限制 LCFA。其餘正確：A. 過氧化體病、VLCFA-CoA synthetase（acyl-CoA synthetase）缺陷；B. 兒童型約 6–9 歲起病，行為/聽/視/步態異常；C. 枕葉與胼胝體壓部雙側對稱受累、由後向前進展。
 
 ## 考題
 ```dataview

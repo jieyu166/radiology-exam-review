@@ -10,7 +10,7 @@ aliases:
   - reversed halo sign
   - atoll sign
   - 機化性肺炎
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[nonspecific-interstitial-pneumonia]]"
   - "[[ctd-ild]]"
@@ -63,6 +63,10 @@ same:
 [^4]: 期刊綜述（According to PubMed）。Godoy MCB, Viswanathan C, Marchiori E, et al. *The reversed halo sign: update and differential diagnosis.* Br J Radiol 2012;85(1017):1226-1235. [DOI](https://doi.org/10.1259/bjr/54532316)（PMC3487053，open access）。Reversed halo＝中央 GGO 被新月形／環形 consolidation 包圍;最初被視為對 COP 具特異性,後見於侵襲性肺黴菌感染、paracoccidioidomycosis、PCP、結核、社區型肺炎、lymphomatoid granulomatosis、Wegener granulomatosis、lipoid pneumonia、sarcoidosis、肺腫瘤、肺梗塞,以及放療後與 RFA 後。整合臨床史與其他影像可大幅縮小鑑別、部分可免切片。
 [^5]: 期刊綜述（According to PubMed）。Marchiori E, Zanetti G, Hochhegger B, et al. *Reversed halo sign on computed tomography: state-of-the-art review.* Lung 2012;190(4):389-394. [DOI](https://doi.org/10.1007/s00408-012-9392-x)。OP 是 reversed halo 最常見成因;**環壁／病灶內小結節**偏向活動性肉芽腫病（結核、sarcoidosis）而非 OP;**免疫低下者出現 reversed halo 應先當感染處理**（zygomycosis／侵襲性 aspergillosis,多見於血液惡性腫瘤之嚴重免疫抑制）。
 [^6]: 原著比較研究（According to PubMed）。Marchiori E, Marom EM, Zanetti G, et al. *Reversed halo sign in invasive fungal infections: criteria for differentiation from organizing pneumonia.* Chest 2012;142(6):1469-1473. [DOI](https://doi.org/10.1378/chest.12-0114)。biopsy-proven 比較（15 IFI vs 25 OP）：reversed halo 內**reticulation** 93% IFI vs 0% OP;外緣 consolidation rim 厚度 2.04±0.85 cm（IFI）vs 0.50±0.22 cm（OP）;**肋膜積液** 73% IFI vs 0% OP。結論：reticulation、rim >1 cm、肋膜積液皆傾向 IFI 而非 OP。
+
+## 題目
+> [!question]- 以下關於 COP (cryptogenic organizing pneumonia) 之敘述何者為非? (2021-231)
+> **A（COP 組織型態為 organizing pneumonia，前稱 bronchiolitis obliterans, BO）為非**——COP 舊稱應為 BOOP（bronchiolitis obliterans organizing pneumonia），而非單指 BO；BO（bronchiolitis obliterans／constrictive bronchiolitis）是另一種阻塞性小氣道疾病，兩者不同。B（影像由 GGO 至 consolidation）、C（病灶可移行 migratory）、D（reverse halo／atoll sign 為可能表現）皆正確。
 
 ## 考題
 ```dataview

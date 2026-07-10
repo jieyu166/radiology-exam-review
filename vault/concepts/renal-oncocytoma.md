@@ -5,7 +5,7 @@ subspecialty: [ABD]
 aliases:
   - renal oncocytoma
   - 腎嗜酸細胞瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[renal-aml]]"
 ---
@@ -62,6 +62,10 @@ same:
 [^6]: (tier 1) Kim JI, et al. *Is Segmental Enhancement Inversion on Enhanced Biphasic MDCT a Reliable Sign for the Noninvasive Diagnosis of Renal Oncocytomas?* AJR 2013. DOI: 10.2214/AJR.11.6463。結論:SEI 並非可靠的非侵入性 oncocytoma 診斷徵象,chromophobe RCC 亦可出現。
 [^7]: (tier 1) "Segmental Enhancement Inversion at Biphasic Multidetector CT: Characteristic Finding of Small Renal Oncocytoma." Radiology 2009;252(2):441–448. DOI: 10.1148/radiol.2522081180。SEI 定義及為小型 oncocytoma 的特徵性表現;小腫瘤盛行率較高。
 [^8]: (tier 1) "Imaging Findings of Common Benign Renal Tumors in the Era of Small Renal Masses." Korean J Radiol 2015;16(1):99–113. DOI: 10.3348/kjr.2015.16.1.99。fat-poor AML 多 T2 低訊號、反相位無訊號掉落,RCC 反之;chemical-shift 可偵測微量脂肪,但與 RCC 胞內脂質重疊;無脂肪 AML 與非透明細胞 RCC 難分。
+
+## 題目
+> [!question]- 以下關於腎臟腫瘤的敘述，何者錯誤？ (2021-123)
+> **C（oncocytoma 的中央星狀疤痕與 spoke-wheel enhancement 為 pathognomonic、無其他腫瘤類似）**——錯，此二徵象皆非特異，chromophobe RCC（約 30–40% 有中央疤痕）及部分 clear cell RCC 亦可出現，無法單憑影像確診 oncocytoma。A（clear cell RCC 約 60% 含微量胞內脂肪、反相位訊號掉落）、B（papillary RCC T2 低訊號、乏血管、漸進性強化）、D（lipid-poor AML 平滑肌豐富呈 T2 低訊號、T1 高訊號）皆為正確描述。
 
 ## 考題
 ```dataview

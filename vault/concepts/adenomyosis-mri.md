@@ -6,7 +6,7 @@ aliases:
   - adenomyosis
   - junctional zone thickening
   - 子宮腺肌症
-dateRev: 2026-06-15
+dateRev: 2026-07-10
 ---
 
 # adenomyosis-mri
@@ -56,6 +56,9 @@ dateRev: 2026-06-15
 ## 題目
 > [!question]- Which of the following is WRONG about adenomyosis? (2020-301)
 > **None of above（D）**——即A/B/C三項描述皆正確：囊性adenomyosis呈Swiss cheese外觀、HSG可見多發線狀/囊袋狀憩室延伸入肌層、局部或瀰漫junctional zone增寬≥12mm於T2WI呈低訊號皆為典型表現。[^2]
+
+> [!question]- Which one is not the typical finding of uterine adenomyosis on US? (2021-324)
+> **C（distinct border 邊界清楚）**——錯。Adenomyosis 為肌層內浸潤性病變、邊界不清（ill-defined）；邊界清楚的圓形腫塊應想 leiomyoma。A（微小囊泡與囊狀條紋）、B（血流增加）、D（異質回音伴結節與條紋，Venetian blind／rain-shower 外觀）皆為典型 US 表現。
 
 ## 考題
 ```dataview

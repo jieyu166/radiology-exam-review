@@ -6,7 +6,7 @@ aliases:
   - MS plaques
   - Dawson fingers
   - 多發性硬化症影像
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # multiple-sclerosis-imaging
@@ -44,6 +44,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Regarding to MS, which is wrong? (2022-397)
 > **B（關鍵）** 「F:M ≈ 1:2」為錯——MS **女性多於男性（約 2–3:1）**，此選項把男女比顛倒。其餘皆正確：A. 發病峰值 20–40 歲；C. optic neuritis（約半數日後發展為 MS）；D. T2 高訊號 Dawson fingers（腦室周圍沿髓靜脈垂直排列之典型斑塊）。[^2][^3]
+
+> [!question]- Regarding to MS, which is wrong? (2021-146)
+> **B（F:M ≈ 1:2）**——錯誤；MS 女性多於男性（F:M 約 2:1），此選項把男女比顛倒。其餘正確：A. 發病峰值 20–40 歲；C. optic neuritis（約 50% 日後發展為 MS）；D. T2 高訊號 Dawson fingers（腦室周圍沿深髓靜脈垂直排列之斑塊）。
 
 ## 考題
 ```dataview

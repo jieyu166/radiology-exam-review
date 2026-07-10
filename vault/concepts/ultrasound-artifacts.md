@@ -8,7 +8,7 @@ aliases:
   - ring down artifact
   - mirror artifact
   - 超音波偽影
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[ultrasound-speed-artifact]]"
   - "[[ultrasound-attenuation]]"
@@ -52,9 +52,15 @@ same:
 - **Twinkling artifact（閃爍偽影）**：彩流模式下，強反射且**表面粗糙**的結構（最典型為結石）後方出現快速變換的紅藍雜訊色塊。機轉以機器內在「相位/時脈抖動（phase/clock jitter）」窄頻雜訊為主，表面粗糙度再使雜訊頻譜變寬;高度依賴機器設定（PRF、color-write priority、灰階與都卜勒 gain）。有用徵象：偵測小結石（泌尿道、膽道）比聲影更敏感;struvite（鳥糞石）等粗糙結石閃爍最明顯。[^4]
 - **Anisotropy（各向異性）**：纖維走向結構（肌腱、韌帶、神經）在聲束**非垂直入射**時訊號被反射偏離探頭→看似低回音，易誤判為肌腱病變或撕裂。判讀關鍵：這是**角度依賴**的偽影而非真病灶;把探頭調到與纖維垂直（如 heel-toe、傾斜探頭）後低回音消失即可確認。最常見陷阱部位：Achilles 腱止點、肱二頭肌長頭腱。[^1]
 
-> [!warning] 兩題重點
+### 六、spatial compound imaging（SCI）對偽影的影響
+- **SCI 機轉**：以陣列探頭**電子導向（beam steering）從多個角度**掃描同一組織，再把多次擷取的回波**平均**成單張合成影像。因掃描次數增加，**frame rate 下降**是其取捨。[^7]
+- **SCI 可減少的**：speckle、noise、clutter、**refractive shadow（折射性聲影）**，並改善對比與邊界清晰度；**依 RadioGraphics（Hangiandreou）明載，enhancement（後方增強）與 shadowing（聲影）偽影「也可能被減少」，此在不同情境可為優點或缺點**。[^7]
+- **考點爭議（2021-069）**：官方答案取 **D「increased through transmission（後方增強）無法被 SCI 減少」**；然 **Tier-1 Hangiandreou RG 明言 enhancement 與 shadowing 偽影『皆可能』被 SCI 減少**，故此「乾淨版」推理與最強 Tier-1 有出入。官方詳解本身亦承認「SCI 有論文說可改善，但器官太大就沒效（Vet Radiol Ultrasound 2010）」——即答案 D 是建立在「大器官時 SCI 無法減少後方增強」的特定（獸醫）研究，而非普遍成立。判讀重點：**後方增強本質是低衰減造成的真實訊號（tissue-composition 線索），與角度無關**，故在大器官/一般情境下最不受 SCI 角度平均影響。[^7][^8]
+
+> [!warning] 三題重點
 > - **2016-192 正解 E**：A 後方增強、B mirror、C ring-down、D refraction 描述**皆正確** → 「none of above（無錯誤）」。
 > - **2016-193 正解 C**：Aliasing 的描述「occurs when sampling rate is **more than** twice the Doppler shift」**錯**——應為**取樣率『小於』兩倍頻移（頻移超過 Nyquist=PRF/2）**才 aliasing。A（ring-down 氣體/金屬）、B（partial torsion 高阻力波形）皆正確。
+> - **2021-069 正解 D（官方，含 ⚠️）**：問哪個偽影「無法被 SCI 減少」，官方取 D increased through transmission；但 Tier-1 Hangiandreou RG 指 enhancement/shadowing 皆「可能」被 SCI 減少，答案僅在「大器官」情境下成立，屬弱題。
 
 ### 參考來源
 [^1]: Radiopaedia *Ultrasound artifacts*、*Aliasing artifact*、*Ring down artifact*（輔助來源，實際查證 accessed 2026-06-20）：aliasing＝Doppler 間歇取樣率不足、無法正確記錄方向/速度（Nyquist：頻移 > PRF/2、即取樣率 PRF < 2×頻移時發生）;ring-down＝『僅』氣泡間困住液體共振→後方連續訊號（金屬/膽固醇之相似外觀屬機轉不同的 comet-tail）;mirror＝強反射面鏡像;refraction 常見於腹直肌-腹脂交界。posterior enhancement、acoustic shadowing 三型、speed displacement、range ambiguity、edge artifact、anisotropy 之影像表現與成因另以 [^2] 同行期刊綜述交叉佐證。相關速度/衰減偽影見 [[ultrasound-speed-artifact]]、[[ultrasound-attenuation]]。
@@ -63,6 +69,8 @@ same:
 [^4]: Kamaya A, Tuthill T, Rubin JM. *Twinkling Artifact on Color Doppler Sonography: Dependence on Machine Parameters and Underlying Cause*. **AJR Am J Roentgenol**. 2003;180(1):215-222（同行評審期刊原著）。twinkling 機轉以機器內在相位/時脈抖動（phase/clock jitter）窄頻雜訊為主、表面粗糙度使頻譜變寬;高度依賴 PRF、color-write priority、灰階與都卜勒 gain;struvite 結石後方閃爍與頻譜變寬最強;偵測小結石較聲影敏感。[DOI](https://doi.org/10.2214/ajr.180.1.1800215)
 [^5]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 6-8（2018 交換考題詳解 p.132 引用；Tier 2 教科書）。Acoustic shadowing為高衰減/強反射結構後方訊號減弱；探頭周邊聲束不均勻造成的偽影為side lobe artifact，非acoustic shadowing。
 [^6]: *Ultrasound: the requisites*, p.19-22（2018 交換考題詳解 p.252 引用；Tier 2 教科書）。石頭/鈣化/骨後方聲影源自強烈**吸收或反射**超音波（signal void，非僅反射）；posterior enhancement鑑別囊實性；mirror image偽影常見於color Doppler；duplication偽影源自脾-鄰近脂肪界面之折射。
+[^7]: **Tier 1（RadioGraphics 正文全文已讀，accessed 2026-07-10）** Hangiandreou NJ. *AAPM/RSNA Physics Tutorial for Residents: Topics in US: B-mode US: Basic Concepts and New Technology*. RadioGraphics. 2003;23(4):1019-1033. https://doi.org/10.1148/rg.234035034。Spatial compound imaging＝陣列探頭電子導向、多角度掃描同一組織後平均成合成影像；**frame rate 因多次擷取而下降**；「Spatial compound images often show reduced levels of speckle, noise, clutter, and refractive shadows and improved contrast and margin definition. **Enhancement and shadowing artifacts may also be reduced**, which may be an advantage or potential drawback, depending on the imaging situation.」——即 enhancement/shadowing 偽影『皆可能』被 SCI 減少。
+[^8]: **Tier 1（RadioGraphics 正文全文已讀，accessed 2026-07-10）** Feldman MK, Katyal S, Blackwood MS. *US Artifacts*. RadioGraphics. 2009;29(4):1179-1189. https://doi.org/10.1148/rg.294085199。increased through-transmission＝聲束穿過低衰減物體後深部回波幅度偏高、被誤顯為高回音的**亮帶（源自衰減特性差異）**，屬可用於判斷組織成分的診斷性線索——本質為衰減現象、與插入角度無關。官方詳解另引 Vet Radiol Ultrasound 2010;51(6):621-7（Tier 2，非白名單），指 SCI 對大器官後方增強改善有限。
 
 ## 題目
 > [!question]- Which of the following statements about sonography artifact is wrong. (2018-240)
@@ -70,6 +78,12 @@ same:
 
 > [!question]- About artifacts of ultrasound images, which following statement is not true? (2018-105)
 > **The shadowing that occurs behind stones, calcifications, and bones is primarily due to sound reflection by these structures（A）**——聲影為結構強烈**吸收或反射**超音波所致之signal void（非僅反射）。posterior enhancement鑑別囊實性(B)、mirror image偽影常見於color Doppler(C)、duplication偽影源自脾-脂肪界面折射(D)皆為正確描述。[^6]
+
+> [!question]- Which one of the following descriptions about artifacts of ultrasonography is not true? (2021-068)
+> **D（Ring-down artifacts cannot be produced by metal）**——依官方詳解，聲脈波與被困氣泡間液體共振產生 ring-down，而金屬同樣能產生 ring-down 樣偽影，故此敘述錯誤（=正解 D）。A 衰減差異造成 shadowing 與 posterior enhancement、B 大而平滑強反射面造成 mirror image、C reverberation 造成近場假回音皆為正確描述。
+
+> [!question]- Which of the following US artifacts CANNOT be reduced by using spatial compound imaging? (2021-069)
+> **D（Increased through transmission，即後方增強）**（官方答案，含 ⚠️）——官方理由：後方增強本質是低衰減造成的真實訊號（tissue-composition 線索）、與角度無關，故 SCI 的多角度平均在大器官情境下對其改善有限；A comet-tail、B ring-down、C acoustic shadowing 屬角度/散射相關偽影，較可被 SCI 減少。⚠️ **爭議**：Tier-1 Hangiandreou RadioGraphics 明載「enhancement 與 shadowing 偽影**皆可能**被 SCI 減少」，故 D 僅在「大器官」特定情境成立（官方另引 Vet Radiol Ultrasound 2010），本題屬弱題、答案非普遍必然。[^7][^8]
 
 ## 考題
 ```dataview

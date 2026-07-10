@@ -4,7 +4,7 @@ name: Meningioma Recurrence Risk Factors
 subspecialty: [NR]
 aliases:
   - 腦膜瘤復發因子
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # meningioma-recurrence
@@ -34,6 +34,10 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Tang Y, Dundamadappa SK, Thangasamy S, Flood T, Moser R, Smith T, Cauley K, Takhtani D. *Correlation of apparent diffusion coefficient with Ki-67 proliferation index in grading meningioma*. AJR Am J Roentgenol 2014;202(6):1303-1308（據 PubMed，DOI [10.2214/AJR.13.11637](https://doi.org/10.2214/AJR.13.11637)；實際查證 accessed 2026-07-04）——68 例手術腦膜瘤：ADC 與 Ki-67 增殖指數呈顯著負相關，低 ADC 對應高細胞密度/高分級；ADC cutoff 0.70×10⁻³ mm²/s 診斷 aggressive meningioma 特異度 94%、敏感度 29%，可協助術前預測侵襲性與復發傾向。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- Which is not associated with recurrence in meningiomas? (2021-172)
+> **E（Age，年齡）**——年齡本身不是腦膜瘤復發的獨立風險因子。其餘 falx location、preoperative tumor volume、tentorial location、African American race 皆為文獻中的復發/生長預測因子，故唯一「不相關」者為年齡。
 
 ## 考題
 ```dataview

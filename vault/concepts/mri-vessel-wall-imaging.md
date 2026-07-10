@@ -7,7 +7,7 @@ aliases:
   - VW-MRI
   - high resolution vessel wall MRI
   - 血管壁磁振造影
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # mri-vessel-wall-imaging
@@ -38,6 +38,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- Which is wrong about the MRI vessel wall images? (2022-355)
 > **A（關鍵）Atherosclerotic plaque: usually concentric wall thickening and homogeneous enhancement**——錯誤。**動脈粥狀硬化斑塊在血管壁 MRI 上為偏心（eccentric）管壁增厚、不均勻（heterogeneous）強化**；「同心圓＋均勻強化」是**血管炎**的型態。選項 B（剝離：T2 內膜瓣、T1 壁內血腫）、C（囊狀動脈瘤：管壁無強化預測穩定）、D（顱外頸動脈斑塊高風險特徵）皆與 Radiopaedia、STATdx 相符、正確。[^1][^2]
+
+> [!question]- 關於顱內大血管之血管壁影像(VW-MRI)在臨床上的應用，以下何者有錯？ (2021-281)
+> **B（對急性大血管阻塞的病因及血管內治療策略的擬定有幫助——錯誤）**——VW-MRI的臨床用途在於鑑別慢性動脈狹窄病因(ICAD偏心/不均勻強化 vs 血管炎同心圓/均勻強化 vs 剝離 vs RCVS)、評估斑塊是否易破裂、偵測非狹窄性血管病灶，而非急性LVO的病因判定或取栓策略擬定。A（慢性狹窄鑑別）、C（斑塊易破裂性）、D（非狹窄血管病灶）皆為正確用途。
 
 ## 考題
 ```dataview

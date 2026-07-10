@@ -7,7 +7,7 @@ aliases:
   - TAVR
   - aortic annulus measurement
   - 經導管主動脈瓣置換
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # tavi
@@ -75,6 +75,9 @@ dateRev: 2026-06-29
 [^6]: 綜述／原始研究（bicuspid 判讀與選型，依摘要與開放全文）：Yoon SH, et al. 與相關 Sievers 分型／bicuspid sizing 文獻（含 PMC8549004 外科對照與 PMC9043529 鈣化 raphe 預後）。— Sievers type 0/1/2（依 raphe 數）；bicuspid 最窄處可能在瓣環平面之上（supra-annular sizing）；有 raphe 者周長導出徑較貼合外科瓣號；**鈣化 raphe >4 mm** 為長期不良結局獨立預測因子，與不對稱擴張、瓣周漏、環破裂及傳導阻滯風險升高相關。
 [^7]: 原始研究（環破裂之 LVOT 鈣量定量，依摘要未讀全文）：Hansson NC, et al. *The impact of calcium volume and distribution in aortic root injury related to balloon-expandable transcatheter aortic valve replacement.* J Cardiovasc Comput Tomogr. 2015. PMID:26164109；與 Barbanti M, et al. *Anatomical and procedural features associated with aortic root rupture during balloon-expandable TAVR.* Circulation. 2013;128(3):244–253. doi:10.1161/CIRCULATIONAHA.113.002947. — **上段 LVOT（NCC 下方）鈣量** 較整體 LVOT 鈣量更能預測根部受傷（AUC 約 0.78 vs 0.71）；面積 oversizing ≥20% 與中重度瓣下鈣化為高危。
 [^8]: **TAVI 適應症（>1 年存活門檻）**：ESC/EACTS 2017 valvular heart disease guideline 與 ACC/AHA 對**不適合外科（inoperable）**之嚴重症狀性主動脈瓣狹窄病人，建議 TAVI 條件為預期能改善生活品質且**預期存活 >1 年（>12 months）**；此為原題（Eur Radiol 2020;30:2627–2650 ESCR 共識引用之指引背景，見 [^1]）所本。輔以 *Transcatheter aortic valve implantation (TAVI)*. Radiopaedia.org（實際查證 accessed 2026-07-05）：TAVI 為對外科高風險之症狀性主動脈瓣狹窄病人的較低侵襲替代術式，術前 CT 評估瓣環、冠脈口高度與入路。
+
+> [!question]- 依據 2017 年版 ESC/ACC guideline for percutaneous treatment of aortic stenosis 的 indication 是無法開刀且預期 procedure 後可存活大於多久? (2021-159)
+> **C（12 months）**——ESC/EACTS 2017（與 ACC/AHA）對不適合外科之嚴重症狀性主動脈瓣狹窄病人，TAVI 適應症要求預期能改善生活品質且術後預期存活 >1 年（>12 個月）；3/6/24 months 皆非門檻。
 
 ## 考題
 ```dataview

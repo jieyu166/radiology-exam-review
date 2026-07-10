@@ -7,7 +7,7 @@ aliases:
   - WNT group
   - SHH group
   - 髓母細胞瘤分子亞型
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # medulloblastoma-molecular-subgroups
@@ -44,6 +44,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which molecular subtype of Medulloblastoma has lowest risk and best prognosis? (2020-233)
 > **WNT group（A）**——CTNNB1 突變、好發 CP angle、存活最佳、風險最低，四型中預後最佳（Group 3 最差）。[^1][^2]
+
+> [!question]- The following description about molecular subgroups of the medulloblastoma, which one is wrong? (2021-370)
+> **C（Group 4 usually demonstrates vivid enhancement after Gd）**——錯誤；Group 4 強化常極輕微或呈中央星狀，並非明顯（vivid）強化。A（Group 4 ~40% 最常見 > WNT ~10% 最少見）、B（WNT 預後最佳 > Group 3 最差）、D（WNT 在嬰兒極罕見）皆正確。
 
 ## 考題
 ```dataview

@@ -8,7 +8,7 @@ aliases:
   - Askin tumor
   - PNET
   - Ewing肉瘤家族腫瘤
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # ewing-sarcoma-family
@@ -24,6 +24,7 @@ dateRev: 2026-06-30
   - **Neuroepithelioma**（神經上皮瘤）
 - **共同機轉**：曾被認為源自骨組織血管的「endothelioma of bone」；現代分子病理已證實 **Ewing sarcoma、PNET、Askin tumor 皆為單一腫瘤實體（源自神經脊/副交感神經起源）的不同表現**，多具 **EWSR1 基因重排（如 t(11;22) EWSR1-FLI1）**。[^1]
 - **非家族成員**：**Lymphoma（淋巴瘤）不屬於 ESFT**——淋巴瘤為造血系統（B/T 淋巴球）起源的惡性腫瘤，與神經外胚層起源的 ESFT 譜系完全不同。[^1]
+- **骨骼分布頻率（enrich 補充，Ewing sarcoma）**：下肢約 **45%**（femur 最常見）、pelvis 約 **20%**、上肢約 **13%**、spine 與 ribs 約 **13%**（脊椎以 sacrococcygeal region 最常見）、skull/face 約 **2%**。另一種表示法：long bones 50–60%（femur 25%、tibia 11%、humerus 10%）、flat bones 40%（pelvis 14%、scapula、ribs 6%）。扁骨中 **iliac（骨盆）、scapula、rib 相對常見，而 clavicle 少見**。[^3]
 
 > [!note] 考點：下列何者「不屬於」Ewing sarcoma family of tumors (ESFT)?
 > **Lymphoma（D）**——淋巴瘤為造血系統起源，非神經外胚層/神經脊起源，不屬於 ESFT。Askin tumor、endothelioma of bone（Ewing 原始命名）、PNET 皆屬 ESFT 譜系。[^1]
@@ -44,9 +45,14 @@ dateRev: 2026-06-30
 [^1]: 官方 2017 詳解；Eponyms of Tumors and Tumorlike Lesions in the Musculoskeletal System. AJR 2010;195:S62-S65. doi:10.2214/AJR.10.7264：ESFT 含 Ewing sarcoma of bone、extraosseous Ewing sarcoma、peripheral PNET、Askin tumor、neuroepithelioma;Ewing 原認為源自骨血管（endothelioma of bone）;現統一視為神經脊起源單一腫瘤實體;淋巴瘤非 ESFT 成員。
 [^2]: 據 PubMed：Wright A, Desai M, Bolan CW, et al. *Extraskeletal Ewing Sarcoma from Head to Toe: Multimodality Imaging Review.* RadioGraphics. 2022;42(4):1145-1160. doi:10.1148/rg.210226（PMID 35622491；Tier 1 影像期刊綜述，accessed 2026-07-04）。ESFT（含 Ewing sarcoma of bone、EES、PNET）依共同基因轉位與免疫組化歸為同一家族；約 25% 起源骨外，成人 EES 較骨 Ewing 常見；EES 典型為大、中央壞死、不跨中線之軟組織腫塊；MRI 為原發腫瘤評估與局部分期首選，胸部 CT 與 FDG PET/CT 對肺與遠端轉移最敏感；治療以化療＋局部手術切除為主；局部性疾病 5 年存活率 >80%，轉移者預後差。
 
+[^3]: **Radiopaedia**（公開）— Gaillard F, Knipe H, Silverstone L, et al. *Ewing sarcoma*. Radiopaedia.org（rID **7852**，DOI [10.53347/rID-7852](https://doi.org/10.53347/rID-7852)；accessed 2026-07-10）。骨骼分布：lower limb 45%（femur 最常見）、pelvis 20%、upper limb 13%、spine+ribs 13%（脊椎以 sacrococcygeal 最常見）、skull/face 2%；另表示為 long bones 50–60%（femur 25%、tibia 11%、humerus 10%）、flat bones 40%（pelvis 14%、scapula、ribs 6%）。clavicle 未列入常見部位，屬少見。
+
 ## 題目
 > [!question]- All of the following are included in the Ewing sarcoma family of tumors (ESFT) EXCEPT: (2017-251)
 > **Lymphoma（d）**——淋巴瘤為造血系統起源，不屬於 ESFT。Askin tumor、endothelioma of bone、PNET 皆為 ESFT 成員（同一神經外胚層起源腫瘤實體的不同表現）。[^1]
+
+> [!question]- Which one of the following skeletal sites is LESS common seen in patients with an Ewing sarcoma? (2021-258)
+> **D（Clavicle）最不常見**——Ewing sarcoma 好發下肢（約 45%，femur 最常見）與骨盆（約 20%）；扁骨中以 iliac（骨盆，約 14%）、scapula、rib（約 6%）相對常見，clavicle 則少見。故 A iliac bone、B scapula、C rib 皆較 clavicle 常見。[^3]
 
 ## 考題
 ```dataview

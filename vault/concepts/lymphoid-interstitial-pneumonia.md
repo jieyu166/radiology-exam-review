@@ -8,7 +8,7 @@ aliases:
   - lymphocytic interstitial pneumonia
   - 淋巴性間質性肺炎
   - 淋巴球性間質性肺炎
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # lymphoid-interstitial-pneumonia
@@ -54,6 +54,9 @@ dateRev: 2026-07-02
 
 > [!question]- Which is the typical CT feature of lymphoid interstitial pneumonitis? (2018-263)
 > **毛玻璃混濁常合併囊性病灶（B）**——LIP之招牌影像組合。[^2]
+
+> [!question]- 下列何者「非」lymphocytic interstitial pneumonitis 在電腦斷層掃描中較常見的影像發現？ (2021-218)
+> **C（diffuse with upper lobe predominance）**——LIP 分布雖為瀰漫，但以中下肺葉為主（非上肺優勢），故 C 非其常見表現。A（ground-glass changes）、B（scattered thin-walled cysts，約 70%、多沿血管周圍分布）、D（interstitial thickening along lymph channels，沿淋巴路徑之間隔/支氣管血管束增厚，約 85%）、E（mediastinal lymphadenopathy）皆為 LIP 常見 CT 特徵。
 
 ## 考題
 ```dataview

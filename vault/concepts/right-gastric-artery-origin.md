@@ -31,6 +31,9 @@ aliases:
 > [!question]- The most frequent origin of right gastric artery is (2022-393)
 > **Proper hepatic artery（B，關鍵）**——RGA 最常源自固有肝動脈（約 43–53%），為固有肝動脈或其遠端分支最常見之非肝分支；common hepatic（9–20%）、gastroduodenal（3–26%）、left hepatic 為較少見起源。⚠️ 原題四選項（Common hepatic／Proper hepatic／Left hepatic／Gastroduodenal artery）經解析退化併入 A。[^1][^2]
 
+> [!question]- The most frequent origin of right gastric artery is (2021-161)
+> **B（Proper hepatic artery）**——胃右動脈（RGA）最常源自固有肝動脈（約 43–53%），為肝動脈幹或其遠端分支最常見之非肝分支；common hepatic（9–20%）、gastroduodenal（3–26%）、left hepatic 為較少見起源。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "right-gastric-artery-origin")

@@ -7,7 +7,7 @@ aliases:
   - duplex collecting system
   - Weigert-Meyer rule
   - 輸尿管重複
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # ureteral-duplication
@@ -56,6 +56,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which statement is true about Weigert-Meyer law? (2020-363)
 > **A、B皆為正確敘述（D）**——上極腎異位開口偏內下且常 end 於 ureterocele；下極腎正位開口偏外上、因短壁內段常致 VUR。[^2][^3]
+
+> [!question]- 所謂 Weigert-Meyer law，以下敘述，何者為**非**？ (2021-064)
+> **A（胚胎上為兩個 ureteric bud 源自單一 Müllerian duct）**——錯在「Müllerian duct」；mesonephric duct 即 **Wolffian duct**（非 Müllerian），重複集尿系統源自單一 Wolffian duct 長出兩個 ureteric bud。B（上極輸尿管開口內下、ectopic、常合併 ureterocele 致阻塞）、C（下極輸尿管開口外上、正位、易 VUR）、D（ectopic ureterocele 阻塞其自身集尿系統）皆為 Weigert-Meyer 之正確描述。
 
 ## 考題
 ```dataview

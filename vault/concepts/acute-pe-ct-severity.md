@@ -6,7 +6,7 @@ aliases:
   - RV/LV ratio
   - high risk pulmonary embolism CT
   - 急性肺栓塞CT嚴重度徵象
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # acute-pe-ct-severity
@@ -33,6 +33,10 @@ dateRev: 2026-07-01
 ### 參考來源
 [^1]: 2018/2019 交換考詳解；2014 ESC Guidelines on the diagnosis and management of acute pulmonary embolism: The Task Force for the Diagnosis and Management of Acute Pulmonary Embolism of the European Society of Cardiology (ESC)。
 [^2]: **Tier 1** Jiménez D, Lobo JL, Monreal M, et al. *Prognostic significance of multidetector CT in normotensive patients with pulmonary embolism: results of the protect study*. Thorax 2013;69(2):109-115（據 PubMed，DOI [10.1136/thoraxjnl-2012-202900](https://doi.org/10.1136/thoraxjnl-2012-202900)；實際查證 accessed 2026-07-04）——PROTECT 前瞻多中心研究，以 MDCT 之 RV/LV 短軸比值 > 0.9 定義右心室功能障礙；該影像 RVD 與心臟超音波 RVD、BNP、troponin 升高顯著相關，惟在血壓正常病人並未獨立預測 30 天死亡或不良病程，提示 RV/LV 比值為右心負荷徵象、須與生物標記與臨床整合判讀。原「官方/ESC 指引」來源已由本次 DOI Tier 1 一手研究查核升級。
+
+## 題目
+> [!question]- Which description about pulmonary embolism is wrong? (2021-147)
+> **A（massive→submassive→low risk 依『遞增 increasing』死亡風險分層）為錯誤**——此分層依『遞減 decreasing』死亡風險排列（massive 死亡率最高、low risk 最低）。B（RV/LV 比值、septal bowing 於 CTA/echo 與較差 30 天預後相關）、C（massive PE 需更積極再灌流：溶栓/導管/手術取栓）、D（血氧 <90% 與較高 30 天死亡相關）皆正確。
 
 ## 考題
 ```dataview

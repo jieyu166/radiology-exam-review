@@ -7,7 +7,7 @@ aliases:
   - right ventricular volume
   - ejection fraction
   - 心臟MRI功能
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # cardiac-mri-function
@@ -58,6 +58,10 @@ dateRev: 2026-06-29
 [^4]: Tier 2 開放文獻（Circ Cardiovasc Imaging 2024 meta-analysis, doi:10.1161/CIRCIMAGING.123.016090,及對應 Simpson 法乳頭肌討論 PMC4044521）：乳頭肌計入血池會高估 EDV/ESV 並略低估 EF;將乳頭肌排除於血池量得之 EF 平均約高出數個百分點（文獻引約 6%）,故乳頭肌/肌小樑處理慣例顯著影響 LV 參數,前後須一致。
 [^5]: Tier 1/2 文獻（*Role of CMR in Native Valvular Regurgitation*, Front Cardiovasc Med 2022, doi:10.3389/fcvm.2022.881141;JACC: Cardiovascular Imaging 2021, doi:10.1016/j.jcmg.2020.09.029）：瓣膜逆流以 2D PC velocity mapping 於瓣上垂直切面直接量逆流量/逆流分率,或用 cine SV 減前向流之間接法,VENC 須避免 aliasing,4D flow 為進階全方向流速;心肌應變以 tagging/feature-tracking 量化。
 [^6]: Tier 1 主流影像期刊（*Artifacts at Cardiac MRI: Imaging Appearances and Solutions*, RadioGraphics 2024, doi:10.1148/rg.230200, PMID 39745866;dark-rim 補充 MRIquestions）：心律不整/屏氣不佳致 ghosting 與 blurring,可改 real-time free-breathing cine;dark-rim artifact 為 Gibbs 疊加運動之心內膜下一過性低訊號,勿誤判灌注缺損;bSSFP 場不均勻造成 off-resonance banding,3T 尤甚,以 shimming／短 TR／frequency scout 緩解。
+
+## 題目
+> [!question]- For which of the following applications CMR is not the gold standard? (2021-331)
+> **E（Assessment of coronary atherosclerosis）**——CMR 是量測 LVEF、右心室舒張末容積（cine SSFP 短軸堆疊、Simpson 逐層加總、無幾何假設）與偵測梗塞心肌（LGE）的參考標準，也能準確判定異常起源冠狀動脈的走向；但冠狀動脈粥狀硬化（管壁小斑塊、管腔狹窄）受限於空間解析度與心臟運動，特異度中低，須靠 CCTA 或侵入性血管攝影，CMR 非首選。
 
 ## 考題
 ```dataview
