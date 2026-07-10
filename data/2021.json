@@ -1062,7 +1062,9 @@
       "reference": "Breast J. 2019 Nov;25(6):1251-1253.；2021 交換考官方詳解 PDF p344",
       "explanation": "通常可看到 ill-defined focal asymmetries，**no** calcifications。\n- 念書知道AB正確。\n\n【2021 官方詳解】\nC: Screening mammography usually shows no calcification\nRef:\nIgG4‐related sclerosing mastitis in a 49‐year‐old patient with multiple, tumor‐like nodules—Diagnostic accuracy of core needle biopsy",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "igg4-related-disease"
+      ],
       "checked": false,
       "sourcePage2021": 344
     },
@@ -4985,7 +4987,9 @@
       "reference": "Small Bowel Crohn Disease at CT and MR Enterography: Imaging Atlas and Glossary of Terms Radiographics Mar-Apr 2020;40(2):354-375；2021 交換考官方詳解 PDF p70",
       "explanation": "【2021 官方詳解】\nB. Chron disease is likely when small bowel inflammation is asymmetric (more severe along mesenteric border).\nC. Intramural edema is identified on fat-suppressed T2WI or low b-value DWI.\nD. Wall thickness should be evaluated and measured in a bowel segment that is adequately distended by fluid or enteric contrast material\nE. Stricture is defined as a bowel segment with luminal narrowing and unequivocal dilation (ie, ≥3 cm) of the upstream bowel segment",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "inflammatory-bowel-disease"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳建銘",
@@ -6532,7 +6536,9 @@
       "images": [
         "2021-167-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "inferolateral-trunk-branches"
+      ],
       "checked": false,
       "difficulty": "普",
       "author": "崔祐堃",
@@ -6810,7 +6816,9 @@
       "reference": "UpToDate : Femoral artery pseudoaneurysm following  percutaneous intervention；2021 交換考官方詳解 PDF p129",
       "explanation": "【2021 官方詳解】\nIatrogenic pseudoaneurysm (IPA)\n- <1 percent of all interventional procedures\n- risk factors for IPA include female sex, increasing age, concomitant venous puncture, hypertension, severely calcified vessels, larger access sheath size (>6 French), and use of anticoagulation either at the time of arterial cannulation or in the immediate postprocedure period\n- Treatment:\n  - Complicated pseudoaneurysm (Hemodynamic instability, Neurologic deficit (motor or sensory) or pulse deficit attributable to the IPA, Expanding hematoma, Extensive skin and subcutaneous damage, Concern for soft tissue infection) 🡪 Open surgical repair\n  - Uncomplicated pseudoaneurysm <3cm: obseveration\n  - Uncomplicated pseudoaneurysm >3cm: ultrasound-guided thrombin injection as the first-line technique",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "iatrogenic-femoral-pseudoaneurysm"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林建人",
@@ -8586,7 +8594,9 @@
       "reference": "1. von der Thüsen JH. Pleuroparenchymal Fibroelastosis: Its Pathological Characteristics. Curr Respir Med Rev. 2014;9 (4): 238-247. 2. Reddy TL, Tominaga M, Hansell DM et-al. Pleuroparenchymal fibroelastosis: a spectrum of histopathological and imaging phenotypes. Eur. Respir. J. 2012;40 (2): 377-85.；2021 交換考官方詳解 PDF p187",
       "explanation": "【2021 官方詳解】\nPleuroparenchymal fibroelastosis (PPFE) is a rare condition characterised by predominantly upper lobe pleural and subjacent parenchymal fibrosis, the latter being intraalveolar with accompanying elastosis of the alveolar walls.\nA distinct pattern of pulmonary fibrosis which often runs a rapidly progressive course with a poor prognosis, and it is likely to be introduced as a separate entity in the new classification scheme of idiopathic interstitial pneumonias.\n1/2 idiopathic, 1/2 underlying (transplantation)\nNon-smokers",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "idiopathic-interstitial-pneumonia"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳信銘",
