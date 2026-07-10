@@ -15,7 +15,7 @@ dateRev: 2026-07-10
 **胸部 CT 並非 COVID-19 的第一線篩檢工具——診斷靠 RT-PCR，CT「非診斷所必需，應保留用於評估併發症與鑑別診斷」。典型 CT 為雙側、周邊/胸膜下為主之磨玻璃影，常呈機化性肺炎（OP）型態。** 判讀分水嶺：**雙側周邊 subpleural GGO + crazy paving + OP/reverse halo ＝典型 COVID；若見縱膈淋巴結腫大、肋膜積液、多發微小結節、空洞化這些「非典型」徵象，反而要往其他病因想。**
 
 ## Summary
-- **CT 角色**：**CT 非診斷所必需，應保留用於評估併發症或鑑別診斷**；診斷以 **RT-PCR（鼻咽拭子/呼吸道分泌物）**為主——多數放射學會**不建議**常規篩檢 CT 診斷 COVID-19。[^1][^2]
+- **CT 角色**：**CT 非診斷所必需，應保留用於評估併發症或鑑別診斷**；診斷以 **RT-PCR（鼻咽拭子/呼吸道分泌物）**為主——多數放射學會**不建議**常規篩檢 CT 診斷 COVID-19。[^1][^2][^4]
 - **典型 CT**：**雙側、周邊（subpleural）與 peribronchovascular 為主之磨玻璃影（GGO）± 實變**；可見 **crazy paving（碎石路，間隔增厚 + 小葉內線）**、**organizing pneumonia / AFOP** 型態、**reverse halo**、牽引性支氣管擴張與血管擴張。[^1][^2]
 - **高峰期表現**：發病後約 **9-13 天**主要呈**非典型肺炎/機化性肺炎（OP）**型態。[^2]
 - **相對非典型徵象（提高鑑別警覺）**：**縱膈淋巴結腫大、肋膜積液、多發微小結節、空洞化**——出現時應想其他病因。[^2]
@@ -49,6 +49,7 @@ RSNA/STR/ACR 共識將 CT 表現分四類——**注意「isolated lobar or segm
 [^1]: *COVID-19* (Dx). STATdx, updated 09/13/21. Elsevier——診斷以 **RT-PCR**；**CT 非診斷所必需、應保留評估併發症**；典型雙側周邊/胸膜下 + peribronchovascular GGO ± 實變、**crazy paving**、organizing pneumonia/AFOP、reverse halo、牽引性支氣管/血管擴張；併發症（細菌性肺炎、氣胸、pneumomediastinum、急性肺栓塞）。
 [^2]: 官方 2020 詳解；Ref: Simpson S, et al. *RSNA Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19*. Radiology: Cardiothoracic Imaging 2020;2(2):e200152（題目所引）——典型雙側周邊 GGO + crazy paving/實變；常規篩檢 CT 非第一線；高峰期 9-13 天呈非典型/機化性肺炎；縱膈淋巴結腫大/肋膜積液/多發微小結節/空洞化屬相對非典型徵象（結論已由上述 STATdx 一手來源查核佐證）。
 [^3]: **Tier 1** 據 PubMed，Simpson S, Kay FU, Abbara S, et al. *Radiological Society of North America Expert Consensus Statement on Reporting Chest CT Findings Related to COVID-19. Endorsed by the STR, ACR, and RSNA*. J Thorac Imaging 2020;35(4):219-227（secondary publication；PMC7255403）. [DOI](https://doi.org/10.1097/RTI.0000000000000524)（原始版 Radiol Cardiothorac Imaging 2020 [DOI](https://doi.org/10.1148/ryct.2020200152)；實際查證 accessed 2026-07-10）——四分類 Typical/Indeterminate/Atypical/Negative 之定義；孤立性大葉或節段實變而無 GGO 歸於 **Atypical**。
+[^4]: **Radiopaedia（公開）**：Bell D, Sciacca F, Campos A, et al. *COVID-19*. Radiopaedia.org, rID 73913, DOI [10.53347/rID-73913](https://doi.org/10.53347/rID-73913)（last revised 5 Apr 2026；accessed 2026-07-10）。COVID-19 診斷以 RT-PCR 為主、胸部 CT 非診斷所必需且不建議常規篩檢；典型 CT 為雙側周邊/胸膜下磨玻璃影 ± 實變、crazy paving 與機化性肺炎型態，佐證概念之 CT 角色與典型影像考點。
 
 ## 題目
 > [!question]- Which one is WRONG for imaging features of COVID-19. (2020-289)

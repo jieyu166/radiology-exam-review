@@ -46,6 +46,7 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: **Radiopaedia**（公開）— Radswiki T, Sarma A. *Diabetic mastopathy*. Reference article, Radiopaedia.org（rID **13048**，DOI [10.53347/rID-13048](https://doi.org/10.53347/rID-13048)；accessed 2026-07-10）。良性乳房疾病，見於長期 type 1 或 type 2 insulin-dependent DM（亦見於男性）；病理為 lymphocytic mastitis + stromal fibrosis（緻密纖維化、B 細胞為主淋巴浸潤）；臨床為大、無痛、硬塊，與乳癌難分，multicentric/bilateral 相對常見；MG 為 ill-defined mass/asymmetric density（易被緻密腺體遮蔽）；US 為 irregular hypoechoic mass 伴 marked posterior acoustic shadowing（可模擬惡性）；MRI 顯影多變（減弱瀰漫強化至快速強烈強化）；core biopsy 即足以診斷、FNA 較不適用；自限性、易復發。
+[^2]: **Tier 1** Sakuhara Y, Shinozaki T, Hozumi Y, Ogura S, Omoto K, Furuse M. *MR Imaging of Diabetic Mastopathy*. AJR Am J Roentgenol 2002;179(5):1201-1203（DOI [10.2214/ajr.179.5.1791201](https://doi.org/10.2214/ajr.179.5.1791201)；實際查證 accessed 2026-07-10）——AJR 案例報告：糖尿病乳腺病變為**罕見疾病，發生於長期胰島素依賴型（insulin-dependent）糖尿病病人**，表現為**堅硬可觸及之乳房腫塊，臨床上可與乳癌難以區分**；佐證本概念之族群（長期 insulin-dependent DM）與「硬塊、擬似惡性」核心考點，並補充 MRI 影像判讀。
 
 ## 題目
 > [!question]- Which of the following statement about diabetic mastopathy of the breast is **incorrect**? (2021-013)

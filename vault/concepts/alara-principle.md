@@ -30,7 +30,7 @@ dateRev: 2026-07-10
 ### 三大原則中的定位
 - **正當化**：利益 vs 風險——每次曝露之利益須大於風險方屬正當。[^2]
 - **最適化（ALARA）**：在正當化之曝露中，把劑量壓到合理可達成之最低，權衡經濟與社會因素。[^2][^3]
-- **劑量限制**：ICRP 建議之上限（如職業曝露有效劑量 20 mSv/年、5 年平均且任一年不超過 50 mSv；一般大眾 1 mSv/年）——劑量限制**不適用於病人之醫療曝露**（病人靠正當化＋最適化把關）。[^2]
+- **劑量限制**：ICRP 建議之上限（如職業曝露有效劑量 20 mSv/年、5 年平均且任一年不超過 50 mSv；一般大眾 1 mSv/年）——劑量限制**不適用於病人之醫療曝露**（病人靠正當化＋最適化把關）。[^2][^5]
 
 ### 落實 ALARA 的常見手段（放射實務）
 - 只做**臨床有指徵**之檢查、避免重複；優先選擇無/低游離輻射之替代（如超音波、MR）。
@@ -51,6 +51,7 @@ dateRev: 2026-07-10
 [^2]: Murphy A. *Radiation protection*. Radiopaedia.org, rID-52566, DOI 10.53347/rID-52566（accessed 2026-07-10）。輻射防護三原則：正當化、最適化（ALARA）、劑量限制；劑量限制（職業 20 mSv/年、大眾 1 mSv/年）由 ICRP 建議。
 [^3]: **權威來源（primary standard）** International Commission on Radiological Protection. *The 2007 Recommendations of the International Commission on Radiological Protection*. ICRP Publication 103, Ann ICRP 2007;37(2-4)（Radiopaedia radiation-protection 之引用來源）。最適化原則：曝露之可能性、受照人數與個人劑量均應維持在 ALARA，經濟與社會因素納入考量。
 [^4]: 官方 2021 詳解引用之教科書（Tier 2 佐證）：*Review of Radiologic Physics*, 4th Ed.（"residual risk shall be reduced as far as reasonably practicable; unnecessary radiation is eliminated"）；《醫學影像物理學》Chp.31（防護須兼顧工作人員/一般大眾與輻射源屏蔽，防止確定效應、降低機率效應至合理可接受之低水平）。
+[^5]: **Tier 1** Edwards M. *Development of radiation protection standards*. RadioGraphics. 1991;11(4):699-712. DOI [10.1148/radiographics.11.4.1887122](https://doi.org/10.1148/radiographics.11.4.1887122)（RSNA 正文查證 accessed 2026-07-10）——回顧輻射防護標準之演進與 ICRP 架構；職業曝露劑量上限自 1958 年起 50 mSv(5 rem)/年、一般大眾 1–5 mSv/年、胚胎/胎兒 0.5 mSv/月且全程 5 mSv；防護以「as low as」（ALARA）最適化為基礎，直接佐證概念之劑量限制與 ALARA 最適化考點。
 
 ## 題目
 > [!question]- In diagnostic radiology, As Low As Reasonably Achievable (ALARA) may be taken to mean ensuring: (2021-084)

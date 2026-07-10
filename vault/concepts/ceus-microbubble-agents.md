@@ -17,7 +17,7 @@ same:
 **超音波對比劑（UCA）微泡由「低溶解度氣體（low-solubility gas，如sulfur hexafluoride六氟化硫）」外包生物相容性磷脂質殼組成——低溶解度使微泡在血中穩定持久。所以「高溶解度氣體」是錯誤敘述。微泡不具腎毒性、可注入生理/病理腔隙、增強可持續數分鐘。**
 
 ## Summary
-- **微泡組成（本題重點）**：UCA微泡由**低溶解度填充氣體（low-solubility filling gas，如sulfur hexafluoride六氟化硫、perfluorocarbon）**外包生物相容性殼（典型為磷脂質phospholipid）組成——低溶解度使微泡穩定持久；故「high-solubility gas」為**錯誤**。[^1]
+- **微泡組成（本題重點）**：UCA微泡由**低溶解度填充氣體（low-solubility filling gas，如sulfur hexafluoride六氟化硫、perfluorocarbon）**外包生物相容性殼（典型為磷脂質phospholipid）組成——低溶解度使微泡穩定持久；故「high-solubility gas」為**錯誤**。[^1][^3]
 - **非腎毒性**：UCA不經腎排泄、**不具腎毒性**（氣體經肺呼出、殼經肝代謝），可用於腎功能不全病人。[^1]
 - **持續時間**：IV注射後增強可**持續約數分鐘（~5分鐘）**。[^1]
 - **腔內使用**：可注入生理或病理腔隙（如腎盂、膽道、甚至膿瘍腔）作腔內CEUS。[^1]
@@ -36,6 +36,7 @@ same:
 ### 參考來源
 [^1]: *Contrast-enhanced US–guided Interventions: Improving Success Rate and Avoiding Complications Using US Contrast Agents*. RadioGraphics 2017;37:0001-0013（2018 交換考題詳解 p.287 引用；Tier 1 期刊）。UCA微泡由低溶解度填充氣體(如sulfur hexafluoride)外包生物相容性磷脂質殼組成；不具腎毒性；IV後增強持續約數分鐘；可注入生理/病理腔隙(腎盂/膽道/膿瘍腔)。
 [^2]: 官方 2021 詳解；超音波散射物理通則＋微泡後向散射頻率相依（WebSearch 交叉核實，accessed 2026-07-10）——微泡直徑約 1–8 μm、遠小於超音波波長，屬次波長（Rayleigh）散射體；散射體之反射率/後向散射強烈**取決於超音波頻率**（理想 Rayleigh 散射強度 ∝ f⁴），微泡另具共振頻率使頻率相依更顯著（散射並非對所有頻率均一）；反射率與 frame rate、imaging depth、contrast resolution 無直接關係，故本題答案為 frequency。文獻佐證：*Ultrasound Microbubble Contrast Agents: Fundamentals*（UNC BME 教材）及微泡共振/散射相關 PMC 文獻。
+[^3]: **Radiopaedia（公開）**：Morgan M, Campos A, Bell D, et al. *Microbubbles*. Radiopaedia.org, rID 36952, DOI [10.53347/rID-36952](https://doi.org/10.53347/rID-36952)（accessed 2026-07-10）。微泡為對比增強超音波所用之靜脈內對比劑，由氣體核心外包殼組成；與心臟超音波常用之攪動生理食鹽水（agitated saline）對比劑不同，佐證概念之微泡對比劑組成與 CEUS 用途。
 
 ## 題目
 > [!question]- Which of the followings about contrast-enhanced ultrasonography is wrong? (2018-377)

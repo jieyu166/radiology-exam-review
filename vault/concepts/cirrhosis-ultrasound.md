@@ -20,7 +20,7 @@ dateRev: 2026-07-10
 - 其他：ascites, portal vein enlargement。[^1]
 
 ## 放射科醫師影像判讀重點
-- **形態學三聯**：**表面結節狀（nodular surface）**、**肝實質回音增強（increased echogenicity）** 與 **caudate lobe 相對肥大**（即 right lobe/caudate ratio 下降，因尾葉獨立靜脈回流較不受纖維化影響而代償增大）為肝硬化超音波核心徵象；caudate 為 **hypertrophy 而非 atrophy**，為經典考點。[^2]
+- **形態學三聯**：**表面結節狀（nodular surface）**、**肝實質回音增強（increased echogenicity）** 與 **caudate lobe 相對肥大**（即 right lobe/caudate ratio 下降，因尾葉獨立靜脈回流較不受纖維化影響而代償增大）為肝硬化超音波核心徵象；caudate 為 **hypertrophy 而非 atrophy**，為經典考點。[^2][^4]
 - **門脈高壓間接徵象**：脾腫大（splenomegaly）、腹水、側枝循環（collateral vessels）、門脈擴張與流速下降/血流方向改變，支持肝硬化診斷並提示併發症。[^2]
 - **增高回音的鑑別**：increased echogenicity 對脂肪肝敏感但非硬化專一；單看實質回音無法區分脂肪肝與早期硬化，須合併表面結節、caudate 比例與門脈高壓徵象整體判讀。[^2]
 - **超音波的限度**：據 PubMed 回顧，超音波診斷硬化敏感度與特異度雖佳但不完美，須放在臨床脈絡下判讀；表面結節須用高頻線陣探頭於肝表面評估，深部或肥胖病人易低估。[^2]
@@ -41,6 +41,7 @@ dateRev: 2026-07-10
 [^1]: 2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. p 1-10~1-13。
 [^3]: *Cirrhosis*. Radiopaedia.org，rID 1131，DOI [10.53347/rID-1131](https://doi.org/10.53347/rID-1131)（Gaillard F, Knipe H, Silverstone L, et al.；last revised 11 Jun 2026；實際查證 accessed 2026-07-10）——超音波表面結節 88% 敏感、82–95% 特異，粗糙不均勻回音、caudate/right lobe ratio >0.65（尾葉相對肥大）、門脈高壓 Doppler 徵象（門脈擴張>13mm、流速<15cm/s、reversal/to-and-fro、脾腫大、腹水）；再生結節回音特徵（isoechoic/hypoechoic＋薄 echogenic 纖維脂肪邊界）與肝硬化餐後 RI 上升被鈍化，另據官方 2021 詳解（Ahuja DI: Ultrasound 及肝血流動力學文獻）——正解選項 C 之錯即在把 echogenic border 誤述為 hypoechoic border。
 [^2]: **Tier 1** Tchelepi H, Ralls PW, Radin R, Grant E. *Sonography of diffuse liver disease*. J Ultrasound Med 2002;21(9):1023-32（據 PubMed，DOI [10.7863/jum.2002.21.9.1023](https://doi.org/10.7863/jum.2002.21.9.1023)；實際查證 accessed 2026-07-04）——回顧瀰漫性肝病超音波，明列肝硬化診斷須合併 nodular liver surface、**decreased right lobe–caudate lobe ratio**（即 caudate 相對肥大）與門脈高壓間接徵象（側枝、脾腫大），並指出 increased echogenicity 對脂肪肝敏感、超音波敏感度/特異度不完美，直接佐證形態學三聯、caudate hypertrophy 與判讀限度之考點。原「Ahuja DI: Ultrasound」弱來源已由本次 DOI Tier 1 查核升級。
+[^4]: **Tier 1** Di Lelio A, Cestari C, Lomazzi A, Beretta L. *Cirrhosis: diagnosis with sonographic study of the liver surface*. Radiology. 1989;172(2):389-392. DOI [10.1148/radiology.172.2.2526349](https://doi.org/10.1148/radiology.172.2.2526349)（RSNA 正文查證 accessed 2026-07-10）——以高頻小零件探頭檢查肝表面之結節狀不規則作為肝硬化客觀超音波徵象；佐證概念之「表面結節狀（nodular contour/surface）」為肝硬化核心超音波表現。
 
 ## 題目
 > [!question]- Which one is not the sonographic feature of liver cirrhosis? (2021-106)

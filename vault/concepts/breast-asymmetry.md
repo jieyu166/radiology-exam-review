@@ -18,7 +18,7 @@ dateRev: 2026-07-10
 ## Summary
 
 ### 四型定義與惡性風險
-- **四型（BI-RADS 2013）**：asymmetry（僅單一投影可見）、global asymmetry、focal asymmetry、developing asymmetry。[^1][^3]
+- **四型（BI-RADS 2013）**：asymmetry（僅單一投影可見）、global asymmetry、focal asymmetry、developing asymmetry。[^1][^3][^7]
 - **Asymmetry（單純不對稱）**：**僅在「單一投影」可見**的纖維腺體緻密;絕大多數為**正常組織重疊（summation）**,而非真實病灶。[^1][^3]
 - **Focal asymmetry（局部不對稱）**：**在「兩個不同投影」皆可見且形狀相似**（代表真實的三維病灶,非疊影）;範圍 **<一象限**;**缺乏 mass 的 convex-outward 邊界,邊界呈 concave-outward、其內常夾雜脂肪**。[^1][^3]
 - **Global asymmetry（廣泛不對稱）**：範圍 **≥一象限**且不形成腫塊;**最常為正常變異**;若伴可觸及異常或其他可疑徵象才需評估。[^1][^3]
@@ -78,6 +78,7 @@ dateRev: 2026-07-10
 [^4]: 期刊（一級,輔助佐證無 US 對應之惡性率）。*Suspicious Ultrasound-Occult Non-Calcified Mammographic Masses, Asymmetries, and Architectural Distortions Are Moderate Probability for Malignancy.* Cancers (Basel) 2024。無 US 對應之 asymmetry 惡性率 44/194（22.7%）,屬 BI-RADS 4b 中度機率,支持切片建議。
 [^5]: ACR BI-RADS Atlas 2013, Page 86（2018 交換考題詳解 p.285 引用；Tier 1 圖譜）。focal asymmetry範圍<一象限、global asymmetry範圍≥一象限(多為normal variant)；typically benign calcifications含round/rim/dystrophic/milk of calcium；architectural distortion可與asymmetry或鈣化並存。
 [^6]: **Tier 1** *Nonmass Findings at Breast US: Definition, Classifications, and Differential Diagnosis.* RadioGraphics. 2020;40(2)（DOI [10.1148/rg.2020190125](https://doi.org/10.1148/rg.2020190125)；vault PDF「2020 RG Nonmass Findings at Breast US」；查證 accessed 2026-07-10）——**最常於超音波上呈 non-mass 表現之乳攝病灶＝鈣化、focal／developing asymmetry、architectural distortion**；spiculated mass 屬 mass（腫塊）表現而非 non-mass。
+[^7]: **Radiopaedia（公開）**：Weerakkody Y, Kruger G. *Asymmetry (mammography)*. Radiopaedia.org, rID 15627, DOI [10.53347/rID-15627](https://doi.org/10.53347/rID-15627)（last revised 23 Mar 2023；accessed 2026-07-10）。乳房不對稱為單側纖維腺體緻密之形態學描述譜；含 asymmetry（僅單一投影）、focal asymmetry、global asymmetry、developing asymmetry 四型，佐證概念之四型分類與惡性度排序。
 
 ## 題目
 > [!question]- To identify an ultrasound non-mass lesion for a mammographic correlation, which of the following mammographic finding is less likely? (2021-003)

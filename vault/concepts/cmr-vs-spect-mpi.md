@@ -20,7 +20,7 @@ dateRev: 2026-07-10
 - **空間解析度**：CMR 的空間解析度明顯優於 SPECT（文獻常引約 3–4 倍），有利偵測心內膜下（subendocardial）灌注缺損。[^2]
 - **多血管冠心病偵測準確度**：大型前瞻試驗 CE-MARC 顯示 CMR 對顯著冠心病的敏感度（86.5%）明顯高於 SPECT（66.5%），整體診斷準確度 CMR 優於 SPECT。[^2]
 - **心肌存活性兩者皆可評**：SPECT（rest/redistribution、或 FDG-PET 代謝影像）與 CMR（延遲對比強化 LGE 判透壁性瘢痕）都能評估 viability。[^1]
-- **衰減假影為 SPECT 特有**：訊號穿越不同密度組織（乳房、胸壁、橫膈下臟器）強度衰減，造成 SPECT 的偽灌注缺損；CMR 不受此類衰減假影影響。[^1]
+- **衰減假影為 SPECT 特有**：訊號穿越不同密度組織（乳房、胸壁、橫膈下臟器）強度衰減，造成 SPECT 的偽灌注缺損；CMR 不受此類衰減假影影響。[^1][^3]
 
 ## 影像診斷
 ### CMR（心臟磁振灌注）
@@ -45,6 +45,7 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: *Myocardial perfusion and viability*. Radiopaedia.org（rID 37070, [DOI](https://doi.org/10.53347/rID-37070)；實際查證 accessed 2026-07-10）——列出灌注／存活性成像技術：SPECT（Tl-201、Tc-99m sestamibi）、FDG-PET（存活性）、cardiac MR perfusion（**no ionizing radiation exposure**、gadolinium 動態灌注、delayed imaging 評 viability）、CT MPI；SPECT 示蹤劑特性與缺損判讀。
 [^2]: **Tier 1** 據 PubMed，Greenwood JP, Maredia N, Younger JF, et al. *Cardiovascular magnetic resonance and single-photon emission computed tomography for diagnosis of coronary heart disease (CE-MARC): a prospective trial*. Lancet 2012;379(9814):453-60. [DOI](https://doi.org/10.1016/S0140-6736(11)61335-4)（實際查證 accessed 2026-07-10）——752 例、39% 有顯著冠心病；多參數 CMR 敏感度 86.5%、SPECT 66.5%（p<0.0001），CMR 對冠心病診斷準確度高且優於 SPECT；SPECT 使患者暴露游離輻射。空間解析度 CMR 高於 SPECT 為 CMR 得以偵測心內膜下缺血的基礎。
+[^3]: **Tier 1** Sirajuddin A, Mirmomen SM, Kligerman SJ, Groves DW, Burke AP, Kureshi F, White CS, Arai AE. *Ischemic Heart Disease: Noninvasive Imaging Techniques and Findings*. RadioGraphics. 2021;41(4):990-1021. DOI [10.1148/rg.2021200125](https://doi.org/10.1148/rg.2021200125)（RSNA 正文查證 accessed 2026-07-10）——回顧缺血性心臟病之各種非侵入性影像；SPECT 因訊號穿越乳房/橫膈等組織產生衰減假影（attenuation artifact），CMR 灌注不受此類衰減影響、空間解析度較高、可同時以 LGE 評估存活性，佐證概念之「衰減假影為 SPECT 特有」與 CMR 相對優勢。
 
 ## 題目
 > [!question]- 關於心肌灌注顯影 MPI，CMR 與 SPECT 之比較，何者為誤？ (2021-208)

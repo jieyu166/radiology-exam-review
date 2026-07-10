@@ -32,6 +32,7 @@ up: "[[lung-cancer]]"
 [^3]: *AJCC Cancer Staging* 7th/8th — Lung（2018 交換考題詳解 p.330 引用；Tier 1）。AJCC 7th：T2a >3-5cm、T2b >5-7cm；AJCC 8th：T2b >4-5cm、T3 >5-7cm。5.1cm於7th為T2b、於8th為T3；臟層肋膜侵犯為T2 descriptor；同側縱膈淋巴結為N2。
 [^4]: **Tier 1** Jensen L. *Lung Carcinoma*. STATdx（Elsevier；last updated 2019-10-02；實際查證 accessed 2026-07-10）：AJCC 8th 適用於肺癌；T1a(≤1cm)/T1b(>1–2cm)/T1c(>2–3cm)；**solid component corresponds to invasive behavior**（part-solid 之侵犯以實質成分為準）；列出 IASLC 淋巴結分站圖（1 supraclavicular；2R/2L upper paratracheal；4R/4L lower paratracheal；7 subcarinal；8 paraesophageal；9 pulmonary ligament；10 hilar…）。
 [^5]: 【2021 官方詳解】(2021-228／341)：part-solid 之 T 依 solid component（影像）／invasive component（病理）大小、不計 GGO——solid 9mm≤10mm→T1a；IASLC 淋巴結分站——supraclavicular zone 上界＝cricoid 下緣、2L 下界＝主動脈弓上緣、右/左 paratracheal 分界＝**left lateral tracheal wall（非 midline）**、4R 下界＝azygos vein 下緣；thoracic inlet 最可靠標誌＝軸位 CT 可見之第一肋。
+[^6]: **Radiopaedia**（公開）— Weerakkody Y, Bell DJ, Murphy A, et al. *Lung cancer (staging - IASLC 8th edition)*. Reference article, Radiopaedia.org（rID **50570**，DOI [10.53347/rID-50570](https://doi.org/10.53347/rID-50570)；accessed 2026-07-10）。IASLC/AJCC 8th：T1a(≤1cm)/T1b(>1–2cm)/T1c(>2–3cm)；T2a(>3–4cm)/T2b(>4–5cm)、含侵犯主支氣管未及隆突、臟層肋膜侵犯、阻塞性肺炎/肺不張達肺門；T3(>5–7cm 或侵犯胸壁/膈神經/心包/同肺葉衛星結節)；T4(>7cm 或侵犯縱膈/心臟/大血管/隆突/氣管/食道/脊椎/同側他葉結節)。N1 同側肺門/肺內、N2 同側縱膈/隆突下、**N3 對側縱膈或肺門、斜角肌/鎖骨上**。M1a 對側肺結節/肋膜或心包結節或惡性積液、M1b 單一胸腔外轉移、M1c 多發胸腔外轉移。
 
 ## 判讀骨架：本題（2018-417）之AJCC 7th vs 8th
 - **5.1cm NSCLC**：AJCC 7th→T2b(>5-7cm)→歸T2；AJCC 8th→T3(>5cm起為T3)。

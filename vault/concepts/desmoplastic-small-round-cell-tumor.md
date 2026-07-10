@@ -17,7 +17,7 @@ dateRev: 2026-07-10
 ## Summary
 - **本質**：罕見、高度侵襲性的原發腹膜惡性腫瘤，屬**小圓藍細胞腫瘤（small round blue cell tumor）**家族；特徵性 EWSR1–WT1 基因融合〔t(11;22)〕。[^1][^2]
 - **流行病學**：好發**青少年／年輕成年男性**（約 15–25 歲），**男：女約 6:1** 之明顯男性優勢。[^1][^3]
-- **好發部位**：典型發生於**腹膜腔／骨盆腔而無明顯原發臟器**，多佔 **retrovesical（膀胱後）或 rectouterine（直腸子宮／retrouterine）空間**。[^1][^3]
+- **好發部位**：典型發生於**腹膜腔／骨盆腔而無明顯原發臟器**，多佔 **retrovesical（膀胱後）或 rectouterine（直腸子宮／retrouterine）空間**。[^1][^3][^4]
 - **臨床表現**：常以可觸及腹部腫塊與腹痛表現。[^1]
 - **轉移／擴散**：腹膜播散（seeding）、淋巴結侵犯常見；**肝為最常見遠端轉移處**，並可見骨轉移。[^1][^3]
 - **預後**：**預後差（非 very good prognosis）**——高度惡性、診斷時多已廣泛播散。[^1][^3]
@@ -42,6 +42,7 @@ dateRev: 2026-07-10
 [^1]: **Radiopaedia（公開）**：*Desmoplastic small round cell tumour (peritoneal)*. rID-26748（DOI [10.53347/rID-26748](https://doi.org/10.53347/rID-26748)），https://radiopaedia.org/articles/desmoplastic-small-round-cell-tumour-peritoneal （accessed 2026-07-10）。DSRCT＝罕見、高度侵襲性原發腹膜惡性腫瘤；好發青少年、男性優勢；多起於骨盆腹膜腔（retrovesical/rectouterine），無明確器官起源；CT 見單／多發軟組織腫塊；腹膜播散、淋巴結、肝與骨轉移常見；屬 small round blue cell tumour；DDx 腹膜癌病、NHL、惡性腹膜間皮瘤、橫紋肌肉瘤。
 [^2]: **Tier 1（Insights into Imaging，ESR）**：Thomas R, Rajeswaran G, Thway K, et al. *Desmoplastic small round cell tumour: the radiological, pathological and clinical features.* Insights Imaging. 2013;4(1):111-8. [DOI](https://doi.org/10.1007/s13244-012-0212-x)（PMC3579986，PMID 23307783，據 Radiopaedia 參考書目）。描述 DSRCT 之影像／病理／臨床特徵與 EWSR1–WT1 融合、男性青年好發、腹膜分布與預後不佳。
 [^3]: 官方 2021 詳解＋**Tier 1（British Journal of Radiology）** Kis B, O'Regan KN, Agoston A, et al. *Imaging of desmoplastic small round cell tumour in adults.* Br J Radiol. 2012;85(1019):187-92. [DOI](https://doi.org/10.1259/bjr/57186741)（PMC3473944，PMID 22128126）。DSRCT 好發 15–25 歲男性、M:F≈6:1；典型發生於腹膜腔而無明顯原發臟器，佔 retrovesical/retrouterine 空間；**肝為最常見遠端轉移處**；預後差。
+[^4]: **Tier 1** Pickhardt PJ, Fisher AJ, Balfe DM, Dehner LP, Huettner PC. *Desmoplastic Small Round Cell Tumor of the Abdomen: Radiologic-Histopathologic Correlation*. Radiology. 1999;210(3):633-638. DOI [10.1148/radiology.210.3.r99mr42633](https://doi.org/10.1148/radiology.210.3.r99mr42633)（RSNA 正文查證 accessed 2026-07-10）——腹部 DSRCT 之標誌影像為多發分葉狀腹膜腫塊（平均 4.4 顆）而無明確原發臟器、好發年輕族群（平均年齡約 20 歲），佐證概念之腹膜腔多發腫塊、無原發臟器與好發青少年考點。
 
 ## 題目
 > [!question]- Which statement is wrong about the desmoplastic small round cell tumor? (2021-109)

@@ -48,6 +48,7 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: *Fibrosing mediastinitis*. Radiopaedia.org, rID-11089, DOI 10.53347/rID-11089（實際查證 accessed 2026-07-10）。本質＝縱膈軟組織慢性發炎+過度纖維化壓迫/阻塞縱膈結構；好發年輕成人；SVC/肺血管/中央氣道/食道阻塞、broncholithiasis；focal ~80% vs diffuse ~20%；**病因＝idiopathic（多數，IgG4-RD）、Histoplasma capsulatum（美國最常、局部型）、M. tuberculosis、並存胸內惡性、sarcoidosis、放療、藥物（methysergide）**，**Schistosoma 未列為病因**；關聯 Riedel 甲狀腺炎/後腹膜纖維化/Behçet/RA/SLE；X 光縱膈增寬+鈣化（~85%，局部型多見）；CT 中縱膈、局部型鈣化腫塊 vs 瀰漫型浸潤消除脂肪面、氣管支氣管狹窄、支氣管動脈怒張、crazy-paving；MRI T1 等肌肉、T2 高低混雜、T1C+ 異質強化。
+[^2]: **Tier 1** Rossi SE, McAdams HP, Rosado-de-Christenson ML, Franks TJ, Galvin JR. *Fibrosing Mediastinitis*. RadioGraphics 2001;21(3):737-757（DOI [10.1148/radiographics.21.3.g01ma17737](https://doi.org/10.1148/radiographics.21.3.g01ma17737)；實際查證 accessed 2026-07-10）——AFIP archives 回顧：纖維化縱膈炎為罕見良性病，由 acellular collagen 與纖維組織於縱膈增生所致；多數 idiopathic，但美國多數病例被認為源自對 **Histoplasma capsulatum** 感染之異常免疫反應；好發年輕病人，以 SVC、肺靜脈/動脈、中央氣道或食道之阻塞/壓迫表現；分 **focal（局部型：CT/MR 呈氣管旁/隆突下或肺門之局限性鈣化腫塊）與 diffuse（瀰漫型：浸潤性、常不鈣化）** 兩型，佐證本概念之病因與分型考點。
 
 ## 題目
 > [!question]- Which of the following is NOT a common etiology of fibrosing mediastinitis? (2021-294)

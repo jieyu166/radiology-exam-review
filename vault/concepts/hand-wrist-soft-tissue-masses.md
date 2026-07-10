@@ -57,6 +57,7 @@ dateRev: 2026-07-10
 [^3]: Gaillard F, Mahsoub M, Knipe H, et al. *Epidermal inclusion cyst*. Radiopaedia.org, rID-13731. DOI: https://doi.org/10.53347/rID-13731（實查 2026-07-10）——由上皮細胞植入真皮所致；「sebaceous cyst」為誤稱；訊號依角質蛋白含量而多變。搭配 Radiopaedia *Terminal tuft mass* 條目：EIC 常有穿刺傷（penetrating trauma）病史。
 [^4]: 官方 2021 詳解（題目 2021-256 框架）——US 可區分囊性/實質並評估內部血流；MRI 為特徵化手腕軟組織腫塊之最佳模態；aneurysm 可於 MRI 誤為實質腫塊，需 Doppler/duplex/CTA/血管攝影輔助。（核心解剖/影像事實另以 Radiopaedia [^1][^2][^3][^5] 查證。）
 [^5]: Holland M, Knipe H, Collins E, et al. *Pilomatricoma*. Radiopaedia.org, rID-19245. DOI: https://doi.org/10.53347/rID-19245（實查 2026-07-10）——別名 calcifying epithelioma of Malherbe；鈣化為其特徵，手部腫塊見鈣化較提示 pilomatricoma 而非 EIC。
+[^6]: **Tier 1** Jacobson JA, Middleton WD, Allison SJ, et al. *Ultrasonography of Superficial Soft-Tissue Masses: Society of Radiologists in Ultrasound Consensus Conference Statement*. Radiology 2022;304(1):18-30（DOI [10.1148/radiol.211101](https://doi.org/10.1148/radiol.211101)；實際查證 accessed 2026-07-10）——SRU 學會共識指引：**超音波為淺表軟組織腫塊的第一線影像工具，用以分辨囊性 vs 實質、並以 color/power Doppler 評估內部血流**；逐一描述常見淺表腫塊之超音波特徵（含 lipoma、epidermal inclusion cyst、ganglion、tenosynovial giant cell tumor/pilomatricoma 等）；佐證本概念之「US 先分囊性/實質＋Doppler、實質或不確定者再用 MRI 定性」判讀分水嶺與各腫塊之影像特徵。
 
 ## 題目
 > [!question]- Which one of the following statements concerning soft tissue masses of the hand and wrist is false? (2021-256)

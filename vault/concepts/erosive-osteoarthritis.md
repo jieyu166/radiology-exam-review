@@ -46,6 +46,7 @@ dateRev: 2026-07-10
 [^2]: **Radiopaedia**（公開）— *Psoriatic arthritis*, Radiopaedia.org（accessed 2026-07-10）：「there is no gender predilection in psoriatic arthritis」，peak 30–60 歲、median 48 歲。
 [^3]: **Radiopaedia**（公開）— *Reactive arthritis*（前稱 Reiter syndrome）, Radiopaedia.org（accessed 2026-07-10）：「most commonly occurs in males aged 20–50 years」。
 [^4]: **Radiopaedia**（公開）— *Gout*, Radiopaedia.org（accessed 2026-07-10）：「strong male predilection of 20:1，此偏好於年輕與中年更明顯，老年則性別分布較平均」。
+[^5]: **Tier 1** Kidd KL, Peter JB. *Erosive Osteoarthritis*. Radiology 1966;86(4):640-647（DOI [10.1148/86.4.640](https://doi.org/10.1148/86.4.640)；實際查證 accessed 2026-07-10）——Radiology 原始描述：典型見於**中年停經後婦女（postmenopausal women）**，指間關節同時具**侵蝕性變化與骨贅性退化**、關節旁（juxta-articular）侵蝕可模擬類風濕性關節炎但不符 RA 診斷準則，常伴 Heberden 結節、症狀較急性起病；佐證本概念「erosive OA 明顯女性/停經後偏好、指間關節侵蝕（有別於 RA）」之核心考點。
 
 ## 題目
 > [!question]- Which one of the following arthritis is more common in females? (2021-257)
