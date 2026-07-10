@@ -97,6 +97,9 @@ dateRev: 2026-07-10
 > [!question]- Which statement about acute pancreatitis is not correct? (2021-128)
 > **B（應立即做 CT 以建立急性胰臟炎診斷）**——錯，急性胰臟炎診斷主要靠臨床症狀與血清酵素，CECT/MRI 保留給診斷不明或臨床未改善者；且症狀 <72h 的早期 CT 會低估壞死範圍，不宜貿然早做。A（輕型影像可正常）、C（無症狀 pseudocyst 不論大小位置皆不需介入）、D（穩定病人之感染性壞死宜延後 >4 週待內容物液化、壞死周圍纖維壁形成再引流）皆正確。
 
+> [!question]- Which one is wrong according to 2012 Revised Atlanta Classification of pancreatitis fluid collection? (2021-248)
+> **B（Pseudocyst：no necrosis < 4 weeks）**——pseudocyst 是「無壞死型」積液的 >4 週成熟版本（有清楚囊壁、純液體無實質成分），時間應為 >4 週而非 <4 週。命名邏輯：無壞死→APFC(<4週)→pseudocyst(>4週)；有壞死→ANC(<4週)→WON(>4週)。A（APFC 無壞死<4週）方向正確，唯 B 把 pseudocyst 誤標為 <4 週故為錯誤敘述。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "pancreatitis-severity")

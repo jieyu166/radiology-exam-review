@@ -6,7 +6,7 @@ aliases:
   - LVA
   - enlarged vestibular aqueduct
   - 大前庭導水管症候群
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # large-vestibular-aqueduct
@@ -35,6 +35,10 @@ dateRev: 2026-07-02
 
 ### 參考來源
 [^1]: 2019 交換考詳解；Radiology 2015; 276:655-672。
+
+## 題目
+> [!question]- Which is wrong about the "large vestibular aqueduct syndrome"? (2021-164)
+> **E（All of above are right）**——A–D 皆正確：A. 前庭導水管直徑 >1.5 mm（operculum 上限）；B. 合併先天性感音性聽力損失；C. 源於內淋巴管/囊擴大；D. 常合併其他內耳畸形（約 85%，如 Mondini/耳蝸發育不全）。故正解為「全部正確」。
 
 ## 考題
 ```dataview

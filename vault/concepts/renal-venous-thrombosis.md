@@ -6,7 +6,7 @@ aliases:
   - renal vein thrombosis
   - RVT
   - 腎靜脈血栓
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # renal-venous-thrombosis
@@ -41,6 +41,10 @@ dateRev: 2026-07-04
 
 > [!question]- Which statement regarding the cause of renal venous thrombosis is incorrect? (2019-282)
 > **C. Neoplastic invasion of the renal vein is more common in metastatic renal tumors than in primary renal tumors**（錯誤）。原發腎腫瘤（RCC）的靜脈侵犯遠多於轉移性腫瘤。[^2]
+
+## 題目
+> [!question]- A 52-year-old male with ADPKD, postoperative day 1 s/p renal transplantation with anuria and abdominal pain — most likely explanation for the spectral waveform (reversed diastolic flow)? (2021-316)
+> **B（Renal vein thrombosis）**——移植腎動脈出現舒張期逆向血流(reversed/absent diastolic flow)高度提示腎靜脈血栓（靜脈流出受阻致下游阻力極高）；此徵象亦可見於移植腎扭轉、嚴重排斥、重度 ATN。腎動脈狹窄(A)呈 tardus-parvus 型態、正常波形(D)不會逆向；故答案為腎靜脈血栓。
 
 ## 考題
 ```dataview

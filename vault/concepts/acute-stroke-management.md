@@ -7,7 +7,7 @@ aliases:
   - 2015 AHA ASA stroke guideline
   - thrombectomy stroke
   - 急性缺血中風血管內治療
-dateRev: 2026-06-15
+dateRev: 2026-07-10
 down:
   - "[[aspects-score]]"
 ---
@@ -84,6 +84,9 @@ down:
 
 > [!question]- Which one of the followings contraindications of r-tPA injection in acute ischemic stroke is FALSE? (2022-445)
 > **Perform CTA study for further endovascular thrombectomy evaluation（C，關鍵——此非禁忌）**——CTA 是評估大血管阻塞、規劃取栓的必要影像流程，並非 r-tPA 禁忌。其餘皆為真正禁忌：48 小時內用 heparin 且 aPTT 上升（A）、血小板 <100,000/mm³（B）、血糖異常如 400 mg/dL（D）、近期重大手術或嚴重非頭部外傷（E）。[^1]
+
+> [!question]- 急性缺血中風病人符合以下條件應積極評估 EVT（Class I），何者除外？ (2021-168)
+> **D**——錯在 ASPECTS「≥ 4」；2015 AHA/ASA EVT Class I 準則要求腦部 CT **ASPECTS ≥ 6**（非 ≥4）。其餘為正確準則：A. 年齡 ≥18 歲；B. 中風前 mRS ≤1；C. groin puncture 於發病 6 小時內開始；且需 ICA 或 MCA M1 阻塞。
 
 ## 考題
 ```dataview

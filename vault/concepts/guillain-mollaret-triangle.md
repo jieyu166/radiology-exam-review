@@ -7,7 +7,7 @@ aliases:
   - hypertrophic olivary degeneration
   - dentato-rubro-olivary
   - 齒狀核紅核橄欖三角
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # guillain-mollaret-triangle
@@ -60,6 +60,10 @@ dateRev: 2026-06-29
 [^2]: **全文已讀（醫師提供 PDF，accessed 2026-06-28）**。Goyal M, Versnick E, Tuite P, Saint Cyr J, Kucharczyk W, Montanera W, Willinsky R, Mikulis D. Hypertrophic olivary degeneration: meta-analysis of the temporal evolution of MR findings. *AJNR Am J Neuroradiol*. 2000;21(6):1073–1077.（亦見 [^1] 對應原始 meta-analysis 數據）
 [^3]: **Tier 2（免費 PMC 全文，accessed 2026-06-29）**。Van Eetvelde R, Lemmerling M, Backaert T, et al. Imaging Features of Hypertrophic Olivary Degeneration. *J Belg Soc Radiol*. 2016;100(1):71. DOI: 10.5334/jbr-btr.1065. PMCID: PMC6100676.（三角解剖、CTT 不交叉／SCP 交叉之側別規則、三期訊號演化、DDx）
 [^4]: **Tier 2（摘要／案例層級，accessed 2026-06-29）**。HOD 與顎肌震顫之臨床—影像對應綜整，參 AJNR Case Collection: Hypertrophic Olivary Degeneration（ajnr.org/ajnr-case-collections-diagnosis）及 Nature Sci Rep 2025（DOI: 10.1038/s41598-025-14912-1，腦幹／小腦出血後 HOD 臨床特徵）。
+
+## 題目
+> [!question]- Which statement is correct?（Hypertrophic olivary degeneration / Guillain-Mollaret）(2021-170)
+> **E（All of above）**——A–D 皆正確：A. HOD 為 dentato-rubro-olivary 路徑（Guillain-Mollaret 三角）破壞後之跨神經元退化；B. 三角＝同側下橄欖核＋紅核＋對側齒狀核；C. 典型 MRI 為下橄欖核 T2 高訊號＋肥大，隨時間演變為萎縮但 T2 高訊號殘留；D. 臨床典型為顎肌陣攣（palatal myoclonus）。
 
 ## 考題
 ```dataview

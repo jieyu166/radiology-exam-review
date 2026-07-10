@@ -131,6 +131,9 @@ dateRev: 2026-07-10
 > [!question]- 有關 LI-RADS，以下敘述何者有誤? (2021-021)
 > **E（threshold growth 指 ≥50% 於 ≤12 個月）為誤**——threshold growth 為 ≤**6** 個月內直徑增 ≥50%（或前次影像 >6 個月時須增 ≥100%；或 24 個月內新現 ≥10 mm 病灶）。A 適用族群、B LR-5 不需切片、C 須 non-rim APHE、D capsule／washout／threshold growth 三主要徵象皆正確。[^3]
 
+> [!question]- 根據2018 ACR LI-RADS，下列何者不是診斷HCC的major feature? (2021-302)
+> **D（Bright up on DWI in MRI）**——DWI 受限（restricted diffusion）屬 ancillary（輔助）特徵，非 major feature。Non-rim 動脈期高強化（APHE）、non-peripheral 門脈期 washout、強化包膜（連同 size 與 threshold growth）才是 LI-RADS 五大主要特徵。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "hcc-imaging-diagnosis")

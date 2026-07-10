@@ -5552,7 +5552,9 @@
       "reference": "Anne G. Osborn, Gary L. Hedlund, Karen L Salzman: Osborn’s Brain Imaging, pathology and anatomy, 2nd edition.  Elsevier 2018. Page 1012-1014；2021 交換考官方詳解 PDF p98",
       "explanation": "【2021 官方詳解】\nB. Bilateral symmetric calcification in the pulvinar region (thalamus). May also involve globus pallidus (basal ganglia). 但符合這個條件的比較像Fahr’s syndrome.\nC. Basilar artery dolichoectasia is characteristic of Fabry’s.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fabry-disease-pulvinar"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "鄧木火",
@@ -5588,7 +5590,9 @@
       "reference": "Osborn’s Brain 2nd edition P454-461；2021 交換考官方詳解 PDF p99",
       "explanation": "【2021 官方詳解】\nB. F:M = 2:1",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "multiple-sclerosis-imaging"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "鄧木火",
@@ -6270,7 +6274,9 @@
       "reference": "Enlarged Vestibular Aqueduct and Sensorineural Hearing Loss in Childhood. Arch Otolaryngol Head Neck Surg. 1995;121(1):23-28.；2021 交換考官方詳解 PDF p119",
       "explanation": "【2021 官方詳解】\nLarge vestibular aqueduct syndrome\nOne of the most common congenital causes of sensorineural hearing loss.\nAn enlarged vestibular aqueduct due to enlargement of the endolymphatic duct\nAssociated anomalies are the norm, occurring in ~85% of patients: (Pendred syndrome, vestibular anomalies, cochlear anomalies (e.g. cochlear hypoplasia, Mondini malformation), semicircular canal anomalies\nThe vestibular aqueduct of 1.5 mm is considered the upper limit of normal",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "large-vestibular-aqueduct"
+      ],
       "checked": false,
       "difficulty": "中等",
       "author": "吳德昌",
@@ -6306,7 +6312,9 @@
       "reference": "Leukodystrophy in Children: A Pictorial Review of MR Imaging Features. RadioGraphics 2002; 22:461–476；2021 交換考官方詳解 PDF p120",
       "explanation": "【2021 官方詳解】\nX-linked adrenoleukodystrophy\ninherited metabolic peroxisomal disorder\nsevere inflammatory demyelination typically of the periventricular deep white matter with posterior-predominant pattern and early involvement of the splenium of the corpus callosum and parietal white matter changes\nSubtype\n- cerebral adrenoleukodystrophy (40%): presents after 2.5 years of age (typically at 4-8 years), progressive impairment motor and cognitive function, vision and hearing\n- adrenomyeloneuropathy (35-40%): most common adult presentation, progressive paraparesis, sphincter dysfunction, sexual dysfunction, and adrenocortical deficiency, spinal cord involvement with few if any brain abnormalities\nTreatment:\n- Bone marrow transplantation is thought to be favorable in the early stages of the disease.\n- Restriction of VLCFAs has also been trialled.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenoleukodystrophy"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "吳德昌",
@@ -6416,7 +6424,10 @@
       "reference": "台灣腦中風學會急性缺血中風動脈內血栓移除治療指引2019；2021 交換考官方詳解 PDF p123",
       "explanation": "【2021 官方詳解】\n- 年齡≥ 18歲。\n- 中風前的mRS ≤ 1。\n- 開始進行介入性治療時間離中風症狀發生時間在6小時以內。\n- 和病人中風症狀相符的ICA或MCA M1阻塞，以及腦部斷層影像ASPECTS (Alberta Stroke Program Early CT Score)分數≥ 6。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-stroke-management",
+        "aspects-score"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "崔祐堃",
@@ -6494,7 +6505,9 @@
       "images": [
         "2021-170-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "guillain-mollaret-triangle"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "陳泰源",
@@ -6574,7 +6587,9 @@
       "reference": "1. Joshua Materi, David Mampre, Jeff Ehresman, Jordina Rincon-Torroella, Kaisorn L Chaichana. Predictors of recurrence and high growth rate of residual meningiomas after subtotal resection. J Neurosurg. 2020 Jan 3;1-7. doi: 10.3171/2019.10.JNS192466. Online ahead of print.；10.3171/2019.10.JNS192466.；2021 交換考官方詳解 PDF p127",
       "explanation": "【2021 官方詳解】\nBy identifying predictors of recurrence and growth rate, this study helps identify potential patients with a high chance of recurrence following subtotal resection, which are those with large preoperative tumor volume, falcine location, tentorial location, and African American race. Higher RVs were associated with tumors with higher postoperative growth rates. Recurrences typically occurred 14 months after surgery.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "meningioma-recurrence"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "柯景中",
@@ -6610,7 +6625,10 @@
       "reference": "STATdx, Head and Neck, Dural Arteriovenous fistula；2021 交換考官方詳解 PDF p128",
       "explanation": "【2021 官方詳解】\n- transverse/sigmoid sinus\n  - most common\n  - least likely to have retrograde leptomeningeal venous drainage\n- cavernous sinus (indirect caroticocavernous fistula)\n- superior sagittal sinus\n- straight sinus\n- other venous sinuses\n- anterior cranial fossa\n  - typically only ICA supply due to meningeal supply of this region\n  - frequently associated with retrograde leptomeningeal venous drainage\n- tentorium: frequently associated with retrograde leptomeningeal venous drainage",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "dural-avf",
+        "dural-av-fistula"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林建人",
@@ -8043,7 +8061,9 @@
         "2021-210-2.jpg",
         "2021-210-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "corpus-callosum-agenesis-signs"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃俊肇",
@@ -9479,7 +9499,9 @@
       "images": [
         "2021-248-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pancreatitis-severity"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉高郎",
@@ -9521,7 +9543,9 @@
       "images": [
         "2021-249-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "igg4-related-disease"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "劉高郎",
@@ -9563,7 +9587,9 @@
       "images": [
         "2021-250-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "inflammatory-bowel-disease"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉高郎",
@@ -9599,7 +9625,9 @@
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.209；2021 交換考官方詳解 PDF p219",
       "explanation": "【2021 官方詳解】\nD. Two ducts (common bile duct and main pancreatic duct) fusion exactly at but not prior to the sphincter of Oddi complex",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "anomalous-pancreatobiliary-duct-union"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "劉高郎",
@@ -10199,7 +10227,9 @@
       "reference": "The diagnosis and treatment of pseudoprogression, radiation necrosis and brain tumor recurrence. Int J Mol Sci. 2014;15 (7): 11832-46.；2021 交換考官方詳解 PDF p235",
       "explanation": "【2021 官方詳解】\n(A) Pseudoprogression often appears several weeks up to months (i.e., 3+) after radiation treatment.\nThe cause of pseudoprogression is the transient interruption of myelin synthesis secondary to\nradiation injury to oligodendrocytes. Many studies suggest a transient course with spontaneous\nrecovery. In contrast, radiation necrosis may appear months to several years after radiation therapy. Radiation necrosis involves a space occupying necrotic lesion with mass effect and neurological dysfunction.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "radiation-induced-changes"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳雅芳",
@@ -10273,7 +10303,9 @@
       "reference": "Clinicopathological features of adult-onset neuronal intranuclear inclusion disease. BRAIN 2016: 139; 3170–3186；2021 交換考官方詳解 PDF p237",
       "explanation": "【2021 官方詳解】\n(C) Head MRI examination detected remarkable leukoencephalopathy and DWI high intensity signal in the corticomedullary junction in the dementia-dominant group. In this study, we found that the DWI high intensity signal extended along the corticomedullary junction, but did not expand into the deep white matter, even in the advanced stage.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bilateral-subcortical-dwi-hyperintensity-ddx"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "陳雅芳",
@@ -11441,7 +11473,10 @@
       "reference": "AJR 2007; 188: p496；2021 交換考官方詳解 PDF p274",
       "explanation": "【2021 官方詳解】\nAcute cholecystitis, chronic cholecystitis, gallbladder ca, adenomyomatosis, systemic disease(such as liver dysfunction, heart failure, or kidney failure), and extracholecytic inflammation.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "chronic-cholecystitis",
+        "acute-cholecystitis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "丁偉義",
@@ -11519,7 +11554,9 @@
       "reference": "CT/MRI LI-RADS® v2018 CORE p20；2021 交換考官方詳解 PDF p276",
       "explanation": "【2021 官方詳解】\nMajor feature:\n- Non-rim APHE\n- Nonperipheral washout\n- Enhancing capsule\n- Size (Largest outer-edge-to-outer-edge dimension of an observation)\n- Threhold growth (size increase >50% in 6 months)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "丁偉義",
@@ -11557,7 +11594,9 @@
       "images": [
         "2021-303-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "adrenal-lesions"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "姜振華",
@@ -11631,7 +11670,9 @@
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 75；2021 交換考官方詳解 PDF p279",
       "explanation": "【2021 官方詳解】\n(A) initial enhanced phase (60-90 sec delay) and delay scan at 15 minutes.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adrenal-incidentaloma-washout"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "姜振華",
@@ -11928,7 +11969,9 @@
         "2021-313-1.png",
         "2021-313-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pi-rads"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "鄧惠中",
@@ -11968,7 +12011,9 @@
         "2021-314-2.png",
         "2021-314-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pi-rads"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "鄧惠中",
@@ -12042,7 +12087,9 @@
       "images": [
         "2021-316-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "renal-venous-thrombosis"
+      ],
       "checked": false,
       "difficulty": "中等",
       "author": "李明峰",
@@ -12426,7 +12473,9 @@
       "images": [
         "2021-326-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cholangiocarcinoma-precursors"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃哲勳",
@@ -13305,7 +13354,9 @@
       "reference": "Body MRI. Evan S. Siegelman. p. 96；2021 交換考官方詳解 PDF p367",
       "explanation": "【2021 官方詳解】\nB. Insulinoma\nPancreatic neuroendocrine tumor\nSyndromic tumors\ninsulinoma: most common\ngastrinoma: second most common\nglucagonoma\nVIPoma: rare\nsomatostatinoma: rare, some of these can be non-functional\nNon-syndromic tumors: third most common\ninsulinoma: 10% malignant\ngastrinoma: 60% malignant\nglucagonoma: 80% malignant\nVIPoma: 75% malignant\nsomatostatinoma: 75% malignant\nnon-functional: 85-100% malignant",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-neuroendocrine-tumors"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總邱乃祈醫師",
@@ -13341,7 +13392,9 @@
       "reference": "Radiographics. 2006 Nov-Dec;26(6):1637-53. Fatty liver: imaging patterns and pitfalls.；2021 交換考官方詳解 PDF p368",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fatty-liver"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總邱乃祈醫師",
@@ -13377,7 +13430,9 @@
       "reference": "Radiographics. 2005 Nov-Dec;25(6):1501-20. Abdominal wall hernias: imaging features, complications, and diagnostic pitfalls at multi-detectorrow CT.；2021 交換考官方詳解 PDF p369",
       "explanation": "【2021 官方詳解】\nB. Femoral hernias are less common than inguinal hernias\nUnlike inguinal hernias, they are more common in females.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "groin-hernia"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總邱乃祈醫師",

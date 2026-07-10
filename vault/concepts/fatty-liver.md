@@ -7,7 +7,7 @@ aliases:
   - fatty liver
   - focal fat sparing
   - 脂肪肝
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # fatty-liver
@@ -65,6 +65,10 @@ dateRev: 2026-06-29
 
 > [!question]- Hepatic pseudolesion 描述何者錯誤? (2020-204)
 > **以上描述皆正確（D，無錯誤選項）**——鐮韌帶旁假病灶與異常靜脈引流(Sappey vein)有關；segment 4後部假病灶與insulin theory有關（aberrant right gastric veins低insulin造成focal fatty sparing、aberrant duodenopancreatic arcades高insulin造成focal fatty steatosis）；膽囊窩旁segment 4/5亦可見focal fatty sparing。[^5]
+
+## 題目
+> [!question]- Features of hepatic focal fat deposition, which one is wrong? (2021-350)
+> **D（Above-mentioned correct）**——鐮韌帶旁(falciform ligament)、porta hepatis(門脈周圍)、膽囊窩(gall bladder fossa)皆為局部脂肪沉積/sparing 之好發部位（與『第三供血 third inflow』相關、呈地圖狀、無腫塊效應），A、B、C 三者皆正確，故本題無錯誤選項、答案為 D「以上皆正確」。（同 2018-139）
 
 ## 考題
 ```dataview

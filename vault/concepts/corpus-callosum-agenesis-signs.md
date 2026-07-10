@@ -10,7 +10,7 @@ aliases:
   - moose head sign
   - colpocephaly
   - 胼胝體發育不全
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # corpus-callosum-agenesis-signs
@@ -50,6 +50,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which of the following imaging appearance is NOT related to agenesis of corpus callosum? (2020-298)
 > **Molar tooth sign（D）**——與 ACC 無關，屬 Joubert 症候群及相關疾病之中腦徵象（上小腦腳拉長）。Racing car sign、moose head sign、colpocephaly 皆為 ACC 之典型影像表現。[^1][^3]
+
+> [!question]- Which of the following imaging appearance is NOT related to agenesis of corpus callosum? (2021-210)
+> **D（Molar tooth sign）**——與 ACC 無關，為 Joubert 症候群及相關疾病之中腦徵象（上小腦腳拉長似臼齒）。Racing car sign、Moose head sign、colpocephaly 皆源自 Probst bundles 造成側腦室平行外移/後角擴大，為 ACC 典型影像表現。
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - ulcerative colitis
   - Crohn disease
   - 發炎性腸道疾病
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # inflammatory-bowel-disease
@@ -57,6 +57,9 @@ dateRev: 2026-06-30
 
 > [!question]- 關於 inflammatory bowel disease,何者敘述「為非」? (2017-195)
 > 「**Severe CD may exhibit backwash ileitis**」為非——backwash ileitis 是 **UC** 的特徵。UC 侷限大腸僅黏膜、CD 全消化道全層、CD 末端迴腸受累常見草酸鈣腎結石皆正確。[^1]
+
+> [!question]- Which is not typical feature of Crohn's disease? (2021-250)
+> **C（Only superficial mucosal inflammation）**——僅表淺黏膜發炎為 UC 特徵；Crohn 為全層（transmural）發炎。竇道/瘻管、跳躍性病灶（skip lesions）、迴盲瓣狹窄、腸繫膜淋巴結腫大皆為 Crohn 典型表現。
 
 ## 考題
 ```dataview

@@ -8,7 +8,7 @@ aliases:
   - gastrinoma
   - insulinoma
   - 胰臟神經內分泌腫瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # pancreatic-neuroendocrine-tumors
@@ -86,6 +86,9 @@ dateRev: 2026-06-29
 
 > [!question]- Which feature may help discriminate pancreatic neuroendocrine tumor from adenocarcinoma? (2022-270)
 > **A（較低程度主胰管阻塞）**——PNET 富血管、少阻塞胰管；異質弱強化、高纖維浸潤、遠端胰萎縮皆為 PDAC 特徵。[^1]
+
+> [!question]- Features of gastrinomas, which one is wrong? (2021-349)
+> **B（Most common hyperfunctioning neuroendocrine tumor）**——最常見的功能性/亢進性胰臟 NET 為 insulinoma，gastrinoma 為第二常見，故此敘述錯誤。其餘正確：約佔胰臟 NET 一定比例(A)、與 Zollinger-Ellison 症候群相關(C)、約 60–80% 為惡性(D)。
 
 ## 考題
 ```dataview

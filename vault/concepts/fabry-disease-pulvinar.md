@@ -8,7 +8,7 @@ aliases:
   - pulvinar sign
   - T1 hyperintensity pulvinar
   - 法布瑞氏症
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # fabry-disease-pulvinar
@@ -48,6 +48,9 @@ dateRev: 2026-07-03
 
 > [!question]- Regarding to Fabry disease, which one is wrong (2022-259)
 > **C（Never dolichoectasia）**錯誤——Fabry 典型即有基底動脈 dolichoectasia；X 性聯溶酶體儲積症、雙側深灰質鈣化、醣鞘脂堆積皆正確。[^1]
+
+> [!question]- Regarding to Fabry disease, which one is wrong (2021-145)
+> **C（Never dolichoectasia）**——錯誤；Fabry disease 典型即有 basilar artery dolichoectasia（醣鞘脂堆積致血管病變）。其餘皆正確：A. X 性聯溶酶體醣鞘脂代謝障礙（α-半乳糖苷酶 A 缺乏）；B. NECT 雙側常對稱之基底節與視丘鈣化；D. 醣鞘脂堆積於多種組織。
 
 ## 考題
 ```dataview

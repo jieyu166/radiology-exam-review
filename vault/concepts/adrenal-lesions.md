@@ -7,7 +7,7 @@ aliases:
   - adrenal pseudocyst
   - pheochromocytoma calcification
   - 腎上腺病灶
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # adrenal-lesions
@@ -84,6 +84,10 @@ dateRev: 2026-06-29
 [^7]: AJR 定量比較研究層級，Israel GM et al. 與 1.5T/3T CSI 量化文獻：SII = [(IP−OOP)/IP]×100%，1.5T >16.5% 提示 lipid-rich adenoma;ASR = (腺瘤OOP/脾OOP)/(腺瘤IP/脾IP)，<0.71 提示腺瘤;兩者為最可靠定量指標。https://doi.org/10.2214/AJR.14.12941
 [^8]: Radiology: Imaging Cancer 原著層級（T2 鑑別 lipid-poor adenoma 與轉移）2020;2(6):e200011，及 PMC 開放全文「MRI of adrenal gland: state of the art」（Adam SZ et al., PMC6755942）：pheo 顯著 T2 高訊號（light bulb sign，約 35% 不典型）;轉移無胞內脂肪、CSI 不掉訊號。https://pmc.ncbi.nlm.nih.gov/articles/PMC6755942/
 [^9]: *Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis.* RadioGraphics 2016;36:page 718（2018 交換考題詳解 p.86 引用；Tier 1）。Adrenal adenoma、adrenocortical carcinoma、pheochromocytoma 皆可含微觀脂肪成分。
+
+## 題目
+> [!question]- Which one of the following is not one of the criteria of the 10% rule for pheochromocytoma? (2021-303)
+> **B（~10% are unilateral）**——10% rule 是「約 10% 雙側（bilateral）」而非單側；多數嗜鉻細胞瘤本即單側。約 10% 腎上腺外（paraganglioma）、10% 惡性、10% 兒童/家族性皆屬 10% rule 內容。
 
 ## 考題
 ```dataview

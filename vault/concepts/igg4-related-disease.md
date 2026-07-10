@@ -91,6 +91,9 @@ dateRev: 2026-07-10
 > [!question]- 關於 mass-forming pancreatitis 與 pancreatic ductal adenocarcinoma 影像，何者錯誤? (2021-096)
 > **D（胰管平滑穿過腫塊、無突然阻斷強烈支持 PDAC）為誤**——胰管平滑穿越腫塊而無突然截斷即 **duct-penetrating sign**，反而支持發炎性腫塊（mass-forming／自體免疫胰臟炎）；PDAC 典型為胰管突然截斷＋上游擴張。A double duct sign 偏惡性、B 鈣化周邊移位提示新生惡性、C 軟組織包覆血管示 PDAC 腺外侵犯皆正確。[^5]
 
+> [!question]- Which one of the following is NOT in the spectrum of IgG-4 related disease? (2021-249)
+> **B（Erdheim-Chester disease）**——ECD 屬非 Langerhans 細胞組織球增生症，不在 IgG4-RD 譜系內。後腹腔纖維化、type 1 自體免疫胰臟炎、發炎性主動脈瘤（主動脈周圍炎）、硬化性膽管炎皆為 IgG4-RD 典型表現。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "igg4-related-disease")
