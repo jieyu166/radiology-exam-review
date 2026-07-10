@@ -36,6 +36,8 @@ dateRev: 2026-07-10
 
 ### 判讀骨架：分子時代對影像角色
 - 2021 WHO 後，「glioblastoma」專指 **IDH-wildtype**（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。[^2]
+- **cIMPACT-NOW update 3／WHO 2021 分子升級三聯**：在成人、瀰漫性星狀細胞瘤、**IDH-wildtype** 前提下，即使組織學未達 grade 4，只要具備下列**任一**分子/組織學特徵即診斷為 glioblastoma（CNS WHO grade 4）：**壞死、微血管增生、TERT promoter mutation、EGFR gene amplification、或第 7 對染色體整體獲得＋第 10 對整體缺失（+7/−10）**。換言之，這些分子標記可把「組織學低度」的 IDHwt astrocytoma **升級**為 glioblastoma。[^8]
+- **注意（近期修訂方向）**：cIMPACT-NOW 另建議對 **< 40 歲**病人，勿以「僅 TERT promoter」或單獨 EGFR amp／+7/−10 作為診斷高度膠質瘤為 glioblastoma 的唯一依據，此領域仍在演進。[^8]
 - **MGMT promoter methylation**：為對 temozolomide 反應與預後的標記；methylated 者治療反應較佳但**也較常出現 pseudoprogression**，影響追蹤影像判讀。影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。[^7]
 
 ### 判讀骨架：DDx（單發環狀強化/壞死病灶）
@@ -55,10 +57,14 @@ dateRev: 2026-07-10
 [^5]: Toh 等. *Differentiation of Pyogenic Brain Abscesses from Necrotic Glioblastomas with Use of Susceptibility-Weighted Imaging*. AJNR 2012;33(8):1534-8（PMC7966558）。膿瘍 SWI 完整平滑低訊號環、dual rim sign（雙同心環）見於膿瘍而不見於 GBM；膿瘍強化環對應 T2 低訊號內囊，GBM 強化位於 T2 低訊號環之外。開放全文已讀（結果段）。dual rim sign 定義另參 Radiopaedia（輔助）。DOI:10.3174/ajnr.A2986。
 [^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Gahramanov 等. *Pseudoprogression of Glioblastoma after Chemo- and Radiation Therapy: DSC Perfusion MR with Ferumoxytol vs Gadoteridol and Correlation with Survival*. Radiology 2013（19 例化放療後 apparently progressive GBM）。**高 rCBV(>1.75)＝腫瘤/真進展、≤1.75＝pseudoprogression;ferumoxytol（血池劑）不需 contrast leakage correction（gadoteridol 需）、且為好的預後 biomarker;pseudoprogression 於 temozolomide 化放療較 RT-only 常見**。DOI:10.1148/radiol.12111472。
 [^7]: MRI perfusion 區分 pseudoprogression 與真進展之綜述/研究：真進展 rCBV、rPH 較高、PSR 較低；MGMT methylated 者較常 pseudoprogression（PMC4755513、PMC7915936）。依摘要整理，部分開放全文已讀（rCBV/PSR 方向性段落）。
+[^8]: *Glioblastoma, IDH-wildtype*. Radiopaedia.org, rID-4910, DOI 10.53347/rID-4910（實際查證 accessed 2026-07-10）。WHO 2021 診斷 glioblastoma 之要件＝成人＋瀰漫性星狀細胞瘤＋IDH-wildtype，並具下列**至少一項**：necrosis、microvascular proliferation、**TERT promoter mutation、EGFR gene amplification、+7/−10（第 7 對整體獲得＋第 10 對整體缺失）**（即 cIMPACT-NOW update 3 之分子升級準則）；另載 cIMPACT-NOW 對 <40 歲慎用單一分子標記之修訂建議。
 
 ## 題目
 > [!question]- According to cIMPACT proposed (2020) changes to diffuse glioma classification, which one is wrong? (2021-056)
 > **B（All glioblastoma will be IDHmt）**——錯。依 cIMPACT-NOW／2021 WHO，glioblastoma 專指 IDH-wildtype 並維持 grade 4；IDH-mutant 者不再稱 GBM，改歸 astrocytoma。故 A（GBM 皆 IDHwt）對、C（diffuse astrocytoma 皆 IDHmt）對、D（astrocytoma 依組織學與分子表型分 grade 2–4）對，唯 B 方向相反為錯。
+
+> [!question]- According to cIMPACT (2020) changes to IDHwt diffuse gliomas, which molecular phenotype is NOT included in the expanded diagnostic criteria for IDHwt glioblastoma? (2021-057)
+> **E（All the above are included）**——正解。WHO 2021／cIMPACT-NOW update 3 對 IDHwt glioblastoma 的診斷要件，除 A（necrosis or microvascular proliferation，原有組織學標準）外，另納入三項分子準則：B（TERT promoter mutation）、C（EGFR gene amplification）、D（+7/−10）。任一即可將組織學低度的 IDHwt astrocytoma 升級為 glioblastoma（grade 4），故四者皆屬納入項目＝E。
 
 ## 考題
 ```dataview

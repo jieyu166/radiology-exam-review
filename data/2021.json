@@ -1562,7 +1562,9 @@
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p4",
       "explanation": "<30歲年輕人已有半數有OA的情形。\n退化性關節炎（OA）是一種漸進性退化性疾病，是椎間facet joints疼痛最常見的原因之一。根據 Eubanks 等人的研究，30歲以下的成年人中已超過一半有 OA 的跡象，而60歲以上的長者幾乎全部都有，且以 L4-L5 節段最常見，其次是 L3-L4 和 L5-S1。Ref: [2021 RG Differential Diagnosis of Facet Joint Disorders](https://pubs.rsna.org/doi/full/10.1148/rg.2021200079)\n## Facet cysts\n## AS\n\n## [[Gout]]\n- Gout: 代謝疾病，monosodium urate crystal沉積在synovium跟關節旁軟組織\n- 常見於30-50歲中老年人\n- involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n- 可能合併CPPD/pseudogout\n- 長時間不治療會引起tophi沉積\n- X光: sensitivity較低，慢性變化有osteophytes, periarticular erosions, subchondral cysts, and bone scleroses,可能和tumors, abscesses, tuberculosis, and degenerative spinal diseases搞混\n- CT: 看tophi引起的bony erosion好用。50%病人有\n\t- DECT: Sensitivity 90%, Specificity 83%。但對spine 敏感度較低，無法排除。\n- MRI: 有時不容易區分gout跟感染，腫瘤。\n\t- Tophi T1: low-iso intensity，T2: low-high intensity。會有homogeneous or peripheral enhancement\n\n【2021 官方詳解】\nB. OA can already be found in just over half of adults under 30 years of age\nOsteoarthritis (OA) is a progressive degenerative disease that is the most frequent cause of pain in facet joints. According to Eubanks et al, signs of OA can already be found in just over half of adults under 30 years of age and in all elderly people after 60 years of age, with the prevalence and degree of OA\nbeing higher at the L4-L5 level, followed by L3-L4 and L5-S1.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "facet-joint-osteoarthritis"
+      ],
       "checked": false,
       "sourcePage2021": 4
     },
@@ -1598,7 +1600,9 @@
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p5",
       "explanation": "involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n\n## [[CPPD]]\n\n- =pseudogout，calcium pyrophosphate crystals沉積在cartilage跟關節旁軟組織，導致的發炎反應，也會導致**chondrocalcinosis**軟骨鈣化症\n- 在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital ligaments。黃韌帶、後縱韌帶和寰枕韌帶，較少影響椎間盤\n\n【2021 官方詳解】\n- Gouty lesions usually involve peripheral joints such as the interphalangeal, ankle, and wrist joints. May also involve structures in the axial skeleton.\nGout is a metabolic disease that results from monosodium urate crystal deposits in the synovium and juxta-articular tissues. The peak incidence occurs at 30–50 years of age, affecting primarily middle-aged to elderly men and postmenopausal women (25–27). Gouty lesions usually involve peripheral joints such as the interphalangeal, ankle, and wrist joints but may also involve structures in the axial skeleton such as laminae, pedicles, vertebral bodies, ligaments, facet joints, intervertebral disks, and epidural spaces.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gout-imaging"
+      ],
       "checked": false,
       "sourcePage2021": 5
     },
@@ -2239,7 +2243,9 @@
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p175",
       "explanation": "Update 3: 病理需有 Presence of necrosis and/or florid microvascular proliferation，或這三種：+7/-10, TERT promoter mutation, EGFR amplification。\nA是本來就有的。BCD是新的。\n\n【2021 官方詳解】\nThe presence of necrosis and/or florid microvascular proliferation is a cornerstone for the histopathological diagnosis of a diffuse astrocytic glioma, IDH–wild-type as glioblastoma (WHO grade IV).\nThe third cIMPACT-NOW update presents molecular criteria that can be used for upgrading the diagnosis of such histologically lower-grade, IDH–wild-type, astrocytomas to glioblastoma, IDH–wild-type (WHO grade IV). This concerns the following 3 criteria or any combination thereof: concurrent gain of whole chromosome 7 and loss of whole chromosome 10 (+7/–10); TERT promoter mutation; epidermal growth factor receptor (EGFR) amplification.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gbm"
+      ],
       "checked": false,
       "sourcePage2021": 175
     },
@@ -11514,7 +11520,9 @@
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, P.640；2021 交換考官方詳解 PDF p266",
       "explanation": "【2021 官方詳解】\nRef: radiopaedia\nEtiology\n- idiopathic: most cases , thought to be a form of IgG4-related disease\n- Histoplasma capsulatum infection (histoplasmosis): common in the United States and often gives a localized pattern\n- Mycobacterium tuberculosis infection (pulmonary tuberculosis)\n- concurrent intrathoracic malignancy\n- sarcoidosis\n- radiation therapy\n- drugs, e.g. methysergide therapy",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fibrosing-mediastinitis"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "Yen-Lin Huang (SHH)",
@@ -12749,7 +12757,9 @@
       "images": [
         "2021-325-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "gi-infection-location-pattern"
+      ],
       "checked": false,
       "difficulty": "易\n普通",
       "author": "江佳陵",
