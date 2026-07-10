@@ -8,7 +8,7 @@ aliases:
   - marrow conversion
   - marrow reconversion
   - 骨髓
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # bone-marrow
@@ -75,6 +75,13 @@ dateRev: 2026-07-01
 [^5]: Tier 2（全文）Akman B, Ata Korkmaz HA, Sarı A. *Efficacy of chemical shift MRI for differentiating diffuse red bone marrow reconversion and hematological malignancies.* Turk J Med Sci. 2019;49(2):644-652. PMC7018244. SIR（opposed/in-phase）cut-off 0.82 區分紅髓 reconversion 與血液惡性腫瘤，敏感度 83.3%、特異度 87%；各組數值文獻間分歧，僅供參考。
 [^6]: Tier 2（教學／全文彙整）DWI／ADC：惡性浸潤高 b 值 DWI 高訊號、ADC 偏低；良性 reconversion／水腫 ADC 較高；造血肥厚與發炎亦可 DWI 高訊號，視覺判讀不具特異性，須量化 ADC。Bull's-eye sign（T1 病灶中央保有脂肪點）對良性敏感度 ~95%、特異度 ~99.5%。來源：Egyptian J Radiol Nucl Med 2019;50:17（DWI 紅髓 vs 浸潤，ejrnm.springeropen.com）；Radsource MRI Web Clinic（bull's-eye sign）。
 [^7]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** *How I Do It: MRI of the Bone with Marrow-specific Sequences*. Radiology 2024. DOI 10.1148/radiol.242371。重點：**T1 FSE 為骨髓評估首選序列**（對比解析度與訊噪比最佳），Dixon 序列為替代方案（脂水分離精確、可定量脂肪分率）；取代性病灶於 T1 呈**邊界清楚**低訊號（正常紅髓多邊界不清）；chemical shift 場強別門檻：**訊號下降 >20%（1.5T）／>25%（3.0T）**提示正常紅髓（非取代）；極小取代性病灶可於 opposed-phase 周邊見 **etching（勾邊）偽影**作為輔助線索。
+
+## 題目
+> [!question]- What are the typical MRI characteristics of neoplastic marrow involvement? (2021-045)
+> **A（T1 與肌肉等訊號、out-of-phase 無訊號下降）**——腫瘤取代正常骨髓脂肪，故 T1 呈等/低於肌肉訊號、fluid-sensitive 序列高於肌肉，且因缺乏殘存脂肪，反相位（out-of-phase/opposed-phase）不掉訊號；反之正常紅髓 T1 高於肌肉且 opposed-phase 會掉訊號。B/D 稱 T1 高於肌肉皆與取代性病變矛盾；C/D 稱有 out-of-phase 訊號下降屬正常紅髓表現；E 之 T2 低於肌肉與腫瘤（fluid-sensitive 高訊號）相反。
+
+> [!question]- Regarding red bone marrow, which of the following is TRUE? (2021-335)
+> **A（紅髓可局灶、腫塊樣）**——正常紅髓有多種正常型態，含平滑瀰漫、局灶腫塊樣及細點狀分布。B 誤：紅髓 reconversion 不循固定可預測型態；C 誤：成人手腳末端為成熟黃髓，紅髓通常不存留於此；D 誤：紅髓含造血細胞、水與脂肪細胞（非純造血）；E 誤：因位置不定且可呈腫塊樣，紅髓與腫瘤常不易區分。
 
 ## 考題
 ```dataview

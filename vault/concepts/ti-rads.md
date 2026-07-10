@@ -5,7 +5,7 @@ subspecialty: [H&N]
 aliases:
   - Thyroid Imaging Reporting and Data System
   - 甲狀腺影像報告與數據系統
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # ti-rads
@@ -27,6 +27,7 @@ dateRev: 2026-07-02
 - **低風險線索**：純囊性或海綿狀（spongiform）結節可判為良性（TR1），大彗尾偽影（large comet-tail artifact）不給分。[^2]
 - **切片/追蹤閾值**：依 TR 分級結合結節最大徑決定 FNA 或超音波追蹤（如 TR5 ≥1 cm 建議 FNA、TR3/TR4 有較高徑閾值），旨在減少不必要切片。[^2]
 - **判讀陷阱**：vascularity（血流）非 ACR TI-RADS 評分項目（舊 Kwak 版曾納入）；echogenic foci 中須區分微鈣化（punctate，惡性提示）與良性彗尾/巨鈣化/周邊鈣化。[^2]
+- **Echogenic foci 給分（惡性風險排序）**：punctate echogenic foci（微鈣化）**3 分** ＞ peripheral/rim calcification **2 分** ＞ macrocalcification **1 分**；large comet-tail artifact 與 none 為 **0 分**——分數越高惡性風險越高。[^2]
 
 ## 臨床重點（5 句）
 - 甲狀腺結節在頸部超音波極常見，絕大多數為良性；風險分層旨在挑出少數需切片或手術者。[^2]
@@ -41,6 +42,10 @@ dateRev: 2026-07-02
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Tessler FN, Middleton WD, Grant EG, et al. *ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACR TI-RADS Committee*. J Am Coll Radiol 2017;14(5):587-595（據 PubMed，DOI [10.1016/j.jacr.2017.01.046](https://doi.org/10.1016/j.jacr.2017.01.046)；實際查證 accessed 2026-07-04）——ACR TI-RADS 官方白皮書：以 composition、echogenicity、shape、margin、echogenic foci 五類別點數化評分（TR1–TR5），結合結節徑決定 FNA/追蹤；vascularity 非評分項目。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+
+## 題目
+> [!question]- 依 ACR TI-RADS，將下列超音波特徵之惡性風險由高到低排序：1.Macrocalcification 2.Peripheral(rim) calcification 3.Punctate echogenic foci? (2021-373)
+> **C（3>2>1）**——echogenic foci 給分：punctate echogenic foci(微鈣化) 3 分 ＞ peripheral/rim calcification 2 分 ＞ macrocalcification 1 分，分數越高惡性風險越高。（⚠️ 原始答案欄標 D(3>1>2) 與官方詳解 ANS:C 及點數邏輯不符，正解應為 C，待醫師覆核答案卷。）[^2]
 
 ## 考題
 ```dataview

@@ -8,7 +8,7 @@ aliases:
   - spoke-wheel
   - central scar
   - 局灶性結節增生
-dateRev: 2026-06-15
+dateRev: 2026-07-10
 same:
   - "[[hepatic-hemangioma]]"
 ---
@@ -47,6 +47,9 @@ same:
 ## 題目
 > [!question]- Concerning focal nodular hyperplasia, which of the following is an atypical feature? (2018-414)
 > **Discontinuous peripheral enhancement（C）**——為非典型FNH特徵(典型為動脈期均質高強化，不連續周邊強化偏向hemangioma)。fibrous central scar(A)、門脈期與肝等密度(B)、動脈期高強化(D)皆為典型FNH特徵。[^2]
+
+> [!question]- Which hepatic lesion enhances in the hepatobiliary phase after Primovist (gadoxetate) injection? (2021-093)
+> **A（Focal nodular hyperplasia）**——FNH 含正常肝細胞與功能性膽管，肝膽期呈等/高訊號攝取 Primovist(gadoxetate)。Hepatic adenoma(B)缺功能性膽管而呈低訊號、liver metastasis(C)無肝細胞故不攝取、hepatic cyst(D)無強化，故僅 FNH 於肝膽期強化。[^1]
 
 ## 考題
 ```dataview

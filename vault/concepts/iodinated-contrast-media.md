@@ -10,7 +10,7 @@ aliases:
   - osmolality
   - intrathecal contrast
   - 含碘對比劑
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 nonImaging: true
 nonImagingReason: "含碘對比劑藥理/分類/安全，非影像判讀"
 same:
@@ -79,6 +79,12 @@ same:
 
 > [!question]- 含碘對比劑與甲狀腺核醫/放射碘時效，以下何者錯誤? (2018-368)
 > **官方標示B（接受放射碘-131治療者需至少治療前一個月不曾使用含碘對比劑）**——⚠️有爭議：手冊建議最好治療前**兩個月**內不曾使用含碘對比劑(非一個月)，故B之「一個月」為錯。註：選項C(骨骼/紅血球核醫造影24小時)於2020版手冊已刪除。此題具時效性爭議，flag待醫師確認。[^6]
+
+> [!question]- 依滲透壓由高到低排序：Iothalamate meglumine 60 (Conray 60)、Iohexol 350 (Omnipaque 350)、Iodixanol 320 (Visipaque 320)? (2021-130)
+> **A（1>2>3；Conray 60 ~1400 ＞ Omnipaque 350 ~844 ＞ Visipaque 320 ~290 mOsm/kg）**——離子單體(HOCM，Conray)最高滲、非離子單體(LOCM，Omnipaque)次之、非離子雙體(IOCM，iodixanol)等滲≈血漿最低；故其餘排序皆錯。[^1]
+
+> [!question]- For patients with a history of hyperthyroidism, which of the following statements is correct? (2021-345)
+> **D（接受甲狀腺放射碘影像/治療者，含碘對比劑之投予需與其間隔一段時間）**——含碘對比劑與甲狀腺攝碘互相干擾：注射對比劑後兩個月內應避免甲狀腺核醫同位素掃瞄；放射碘-131 治療前兩個月內最好不曾用對比劑(若需要則用後約 4 週再治療)。A(常規限制含碘對比劑)、B(需類固醇前處置)非甲亢使用對比劑之通則。[^6]
 
 ## 考題
 ```dataview

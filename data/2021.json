@@ -222,7 +222,9 @@
       "reference": "ACR BI-RADS® atlas, 2013, Mammography page149,175; MRI page 141.；2021 交換考官方詳解 PDF p348",
       "explanation": "10-49%\n\n【2021 官方詳解】\nA.\nWhen there are multiple findings, the BI-RADS category for the exam is assigned the highest category in the following hierarchy, from lowest to highest: 1, 2, 3, 6, 0, 4, 5.\nThe vast majority of screening mammograms fall into BI-RADS 1 or 2\nScreening mammograms with suspicious findings should generally be assigned BI-RADS 0\n=> indicate a callback for diagnostic evaluation, meaning additional views to confirm and further evaluate the finding.\nC.\nBI-RADS 4A: low suspicion for malignancy (2-9%)\nBI-RADS 4B: moderate suspicion for malignancy (10-49%)\nBI-RADS 4C: high suspicion for malignancy (50-94%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
       "checked": false,
       "sourcePage2021": 348
     },
@@ -634,7 +636,9 @@
       "reference": "RadioGraphics 2005; 25:1456；2021 交換考官方詳解 PDF p321",
       "explanation": "ABE.根據guideline應該和惡性有關。\nC. 在其引用的RadioGraphics 2005; 25:1456 有提到\n\n【2021 官方詳解】\nFukuoka consensus guidelines\nInvestigation\n- cyst <5 mm\n  - asymptomatic: invasive carcinoma is rare if the patient is asymptomatic, therefore, follow-up only is recommended\n  - symptomatic: further evaluation or resection (clinical circumstances dictate)\n- cyst >5 mm\n  - pancreatic protocol CT or MRI pancreas and MRCP to evaluate\nHigh-risk stigmata\n- enhancing solid component >5 mm\n  - strongest association with malignant IPMN\n- main pancreatic duct ≥10 mm\n- obstructive jaundice\nWorrisome features\n- cyst ≥3 cm\n- thickened and enhancing cyst wall\n- enhancing mural nodule <5 mm\n- main pancreatic duct 5-9 mm\n- lymphadenopathy\n- abrupt change in caliber of the pancreatic duct with distal pancreatic atrophy\n- cyst growth rate ≥5 mm in two years\n- elevated Ca19-9",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-ipmn"
+      ],
       "checked": false,
       "sourcePage2021": 321
     },
@@ -1697,7 +1701,9 @@
       "reference": "American Journal of Roentgenology. 2009;193: S5-S9. 10.2214/AJR.07.7088；10.2214/AJR.07.7088；2021 交換考官方詳解 PDF p342",
       "explanation": "【2021 官方詳解】\nNeoplastic bone marrow involvement\nisointense or hypointense to muscle on T1WI.\nhyperintense to skeletal muscle on fluid-sensitive sequences.\nlacks normal signal dropout on out-of-phase imaging, due to the lack of remaining normal bone marrow fat.\nRed marrow:\nhyperintense signal to muscle on T1WI\nhyperintense to skeletal muscle on fluid-sensitive sequences\nsignal dropout on out-of-phase imaging.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bone-marrow"
+      ],
       "checked": false,
       "sourcePage2021": 342
     },
@@ -3538,7 +3544,9 @@
       "reference": "https://radiopaedia.org/articles/gadoxetate-disodium?lang=us Topic: Gadoxetate disodium；2021 交換考官方詳解 PDF p21",
       "explanation": "【2021 官方詳解】\nGadoxetate disodium (also known by the tradenames PrimovistTM and EovistTM) is a hepatospecific paramagnetic gadolinium-based contrast agent, used exclusively in MRI liver imaging\n- linear, ionic molecule\n- 50% hepatic excretion, 50% renal excretion\n- evaluating focal nodular hyperplasia (FNH) vs adenoma\n  - hepatobiliary phase (20 minutes after contrast injection)\n    - FNH appears iso- to hyperintense\n    - adenoma appears hypointense\n- evaluation of hepatic metastases\n  - does not take up the contrast\n  - gadoxetate disodium uptake in a lesion indicates that it contains hepatocytes (or is a vascular malformation), and effectively excludes a metastasis from outside the liver",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fnh"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳嘉邦",
@@ -4732,7 +4740,9 @@
       "reference": "Pancreatology. Sep-Oct 2017;17(5):738-753.；2021 交換考官方詳解 PDF p68",
       "explanation": "【2021 官方詳解】\nHigh-risk stigmata:\n  - Enhancing solid component >5 mm\n  - Main pancreatic duct ≥10 mm\n  - Obstructive jaundice\nWorrisome features:\n  - Cyst ≥3 cm\n  - Thickened and enhancing cyst wall\n  - Enhancing mural nodule <5 mm\n  - Main pancreatic duct 5-9 mm\n  - Lymphadenopathy\n  - Abrupt change in caliber of the pancreatic duct with distal pancreatic atrophy\n  - Cyst growth rate ≥5 mm in two years\n  - Elevated Ca19-9",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-ipmn"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "賴盈傑",
@@ -4926,7 +4936,9 @@
       "reference": "2021 交換考官方詳解 PDF p73",
       "explanation": "【2021 官方詳解】\nIothalamate meglumine 60 (Conray 60) : 1400 mOsm/Kg\nIohexol 350 (Omnipaque 350): 844 mOsm/Kg\nIodixanol 320 (Visipaque 320): 290 mOsm/Kg\n喔.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "朱崧毓",
@@ -5260,7 +5272,9 @@
       "reference": "https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.009834；10.1161/CIRCIMAGING.119.009834；2021 交換考官方詳解 PDF p92",
       "explanation": "【2021 官方詳解】\nB. Aortic valve 在Diastole 應該是關的…….\nSevere aortic stenosis (AS) is currently defined by an aortic valve area (AVA) <1.0 cm2 and/or a mean transaortic pressure gradient (MPG) >40 mm Hg and/or a peak aortic jet velocity (Vmax) >4 m/s.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "aortic-stenosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉原彰",
@@ -5588,7 +5602,9 @@
       "images": [
         "2021-148-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "方詩珺",
@@ -6028,7 +6044,9 @@
       "reference": "European Radiology https://doi.org/10.1007/s00330-019-06357-8 /Published online: 5 September 2019 y (2020) 30:2627–2650；10.1007/s00330-019-06357-8；2021 交換考官方詳解 PDF p115",
       "explanation": "【2021 官方詳解】\nStandardisation of scanning protocols\nA contrast enhanced ECG gated or triggered scan of the aortic root (include LVOT, snnulus, sinus of Valsalva, sinotubular junction, ascending aorta, coronary ostia)\nContrstructed with 1mm or less slice thickeness\nAt least 64 slice or dual source scanner is required\nAt least including a systolic phase\nAt least from subclavian arteries to superficial femoral arteries\nNTG and beta blockers are contraindicated in severe aortic stenosis and should not be administered prior to scanning.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "aortic-stenosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳美翰",
@@ -8067,7 +8085,9 @@
       "reference": "BIRADS (A)此定義應為BIRADS 1；BIRADS 0為incomplete study；2021 交換考官方詳解 PDF p182",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bi-rads-categories"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳若瑀醫師",
@@ -8629,7 +8649,9 @@
       "images": [
         "2021-229-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳若瑀醫師",
@@ -8855,7 +8877,9 @@
       "images": [
         "2021-235-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-ipmn"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "梁博欽醫師",
@@ -12366,7 +12390,9 @@
       "reference": "AJRCCM 2018 (Sept); 198 (5): e44-68；2021 交換考官方詳解 PDF p327",
       "explanation": "【2021 官方詳解】\n2018 HRCT category of UIP\nClassification\nUIP pattern (definite)\nprobable UIP pattern\nindeterminate for UIP pattern\nalternative diagnosis\nIn 2018 the guidelines were reviewed, and the main changes compared to the 2011 publication are:\n- \"possible UIP\" no longer exists and has been replaced by \"probable UIP\"\n  - studies have shown that most of these patients were likely to have histopathologic UIP pattern despite the radiologic absence of honeycombing\n- similar to the diagnostic HRCT criteria for usual interstitial pneumonia (UIP) pattern - Fleischner society guideline (2018), this reviewed guidelines moved from three to four HRCT categories with a reasonable correspondence among the two 2018 papers\n- now, the patient's management should be based on their HRCT classification in two groups:\n  - HRCT pattern of probable UIP, indeterminate for UIP, and alternative diagnosis\n  - HRCT pattern of UIP",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ipf"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "吳銘庭",
@@ -12640,7 +12666,9 @@
       "reference": "American Journal of Roentgenology. 2009;193: S5-S9. 10.2214/AJR.07.7088；10.2214/AJR.07.7088；2021 交換考官方詳解 PDF p341",
       "explanation": "【2021 官方詳解】\nA.\nRed bone marrow has a variety of normal appearances. include smooth contiguous involvement\nof bones, focal mass-like lesions, and a fine-speckled appearance.\nB.\nred bone marrow reconverts from yellow marrow, it does not always progress in a predictable pattern\nred marrow converts to mature yellow or fatty marrow, from peripheral to central.\nC.\nhands and feet tend to contain mature fatty marrow early in the maturation process, with red\nmarrow usually not persisting in these regions.\nD.\nRed bone marrow consists of hematopoietic cells containing water and fat cells\nE.\ndifferentiation is more problematic because of the inconsistent location and a sometimes masslike pattern of red marrow reconversion",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bone-marrow"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "蔡孟原",
@@ -13014,7 +13042,9 @@
       "images": [
         "2021-345-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總李潤川主任",
@@ -14067,7 +14097,9 @@
       "images": [
         "2021-373-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ti-rads"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總王信凱醫師",

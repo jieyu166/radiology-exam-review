@@ -7,7 +7,7 @@ aliases:
   - BI-RADS assessment
   - final assessment category
   - 乳房分類
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # bi-rads-categories
@@ -63,6 +63,12 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- According to BI-RADS 5th edition, which of the following descriptions about BI-RADS categories is true? (2022-260)
 > ⚠️ 選項 OCR 錯位、暫依來源答案 C；每份報告須給 0–6 最終評估分類並對應處置，分類亦適用於男性乳攝。[^3]
+
+> [!question]- 關於 ACR BI-RADS categories，以下何者為非? (2021-006)
+> **C（Category 4B 指惡性可能 >25% 但 ≤50%）為非**——4B 應為 **10–49%**(moderate suspicion)；4A 為 2–9%、4C 為 50–94%。A(多發病灶取最高類別，階層由低到高 1,2,3,6,0,4,5)、B(4A 2–9%)、D(2013 版 breast MRI category 4 未建議一定細分 4A/4B/4C)皆正確。[^1][^2]
+
+> [!question]- 下列關於 BI-RADS 之敘述，何者為非? (2021-214)
+> **A（BI-RADS 0 定義為 negative：symmetrical、無腫塊/結構扭曲/可疑鈣化）為非**——BI-RADS 0 是「評估不完整」，須加做影像(spot compression/放大/超音波)或調舊片比對後才能給最終分類，並非 negative；negative 是 category 1。B(category 2 良性，~0%)、C(category 3 可能良性，<2%)、D(category 5 高度懷疑，>95%)皆正確。[^1][^3]
 
 ## 考題
 ```dataview

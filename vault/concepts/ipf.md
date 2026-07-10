@@ -7,7 +7,7 @@ aliases:
   - usual interstitial pneumonia
   - UIP
   - 特發性肺纖維化
-dateRev: 2026-06-14
+dateRev: 2026-07-10
 concepts: [ipf]
 ---
 
@@ -72,6 +72,15 @@ concepts: [ipf]
 
 > [!question]- UIP is most frequently found in patients with: (2022-261)
 > ⚠️ **C**——原卷選項未完整匯入；臨床上 CTD-ILD 中 UIP 型態最常見於類風濕性關節炎，答案依原卷保留待對照完整選項。[^1]
+
+> [!question]- What is false about the possible UIP pattern (2011 ATS/ERS/JRS/ALAT IPF guideline)? (2021-148)
+> **A（Honeycombing with or without traction bronchiectasis）**——2011 指引中出現 honeycombing 即屬 definite UIP pattern，而非「possible UIP pattern」；possible UIP 需為 subpleural+basal 為主、網狀影、且缺乏 inconsistent-with-UIP 特徵，但『無 honeycombing』。B（subpleural/basal 為主）、C（reticular）、D（缺乏 inconsistent 特徵）皆為 possible UIP 的正確條件。[^3]
+
+> [!question]- 下列關於 UIP 典型 HRCT pattern 之敘述何者為非? (2021-229)
+> **E（Diffuse ground glass opacity）**——UIP 典型為 honeycombing±traction bronchiectasis、網狀影、subpleural+basal 為主、且缺乏替代診斷特徵；GGO 範圍應少於網狀影，瀰漫毛玻璃反而指向替代診斷（如 NSIP/HP）。A–D 皆為 UIP 典型特徵。[^1][^3]
+
+> [!question]- What is NOT in the 2018 HRCT category of UIP? (2021-328)
+> **A（Possible UIP）**——2018 四分類為 UIP（definite）、probable UIP、indeterminate for UIP、alternative diagnosis；2011 的「possible UIP」已被「probable UIP」取代，故不再屬 2018 分類。B（indeterminate for UIP）、C（alternative diagnosis）為 2018 分類項目。[^3]
 
 ## 考題
 ```dataview
