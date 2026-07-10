@@ -8,7 +8,7 @@ aliases:
   - juvenile polyposis syndrome
   - Peutz-Jeghers syndrome
   - 遺傳性腸胃道癌症症候群
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # hereditary-gi-cancer-syndromes
@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 以下關於Hereditary gastrointestinal (GI) cancer syndromes的敘述何者為非? (2020-398)
 > **Lynch syndrome 病患最常發生胃癌和子宮頸癌（C）為錯誤**——實際上終生風險最高者為大腸直腸癌與子宮內膜癌。[^1][^2]
+
+> [!question]- Which statement about Lynch Syndrome is false? (2021-232)
+> **C（左側大腸癌佔 Lynch 病人 60%–80%）為錯**——Lynch 之大腸癌好發於右側/近端結腸（多位於脾曲近端），非左側。Lynch 為最常見遺傳性癌症症候群 (A對)、幾乎所有大腸癌呈微衛星不穩定(MSI) (B對)、個別癌症風險依 MMR germline 突變種類與病人性別而異 (D對)。
 
 ## 考題
 ```dataview

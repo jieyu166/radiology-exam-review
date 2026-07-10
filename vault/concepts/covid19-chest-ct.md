@@ -7,7 +7,7 @@ aliases:
   - crazy paving
   - organizing pneumonia COVID
   - 新冠肺炎胸部CT
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # covid19-chest-ct
@@ -45,6 +45,21 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which one is WRONG for imaging features of COVID-19. (2020-289)
 > **Contrast chest CT is the first-line screening imaging modality for COVID-19 in daily practice（B）**為錯誤——常規篩檢 CT 並非第一線，CT 保留用於併發症/鑑別，多數放射學會不建議常規篩檢 CT。其餘（典型 CT 表現、高峰期呈非典型/機化性肺炎、相對非典型徵象）皆正確。[^1][^2]
+
+> [!question]- Which statement about COVID-19 on chest imaging is incorrect? (2021-136)
+> **B（胸部影像可作為無症狀或輕症者的 COVID-19 篩檢工具）為錯誤**——胸部影像『不』建議用於無症狀或僅輕微呼吸道症狀者的篩檢；診斷靠 RT-PCR，CT 保留用於評估併發症/鑑別。A（>70% 病例見 GGO、下葉與後側優勢）、C（陰性 CT 不能排除、與多病影像重疊）、D（CT 非診斷標準但可提示診斷）皆正確。
+
+> [!question]- 下列何者不是COVID-19的 CT 典型表現? (2021-176)
+> **C（單側異常、上葉侵犯）非典型**——COVID-19 典型為雙側、下葉/後側優勢分布。A（磨玻璃影 GGO）、B（血管擴張 vascular enlargement）、D（後側優勢 posterior predilection）皆為典型表現，故非典型者為 C。
+
+> [!question]- Concerning COVID-19 Imaging, which one of the following is not correct? (2021-179)
+> **D（建議對無症狀者常規影像篩檢、對穩定插管病人每日胸部X光）不正確**——專家共識反對以影像作為無症狀者篩檢、反對穩定插管病人每日CXR；CT 保留用於功能受損/低血氧或康復後評估。A（心血管併發症如血栓栓塞、心肌炎）、B（影像可與 SARS/MERS/流感/H1N1/藥物反應/CTD 重疊）、C（典型雙側周邊 GGO 下肺分布、似機化性肺炎）皆正確。
+
+> [!question]- Which one is "Wrong" about chest CT in COVID-19? (2021-180)
+> **B（胸部影像可作為無症狀或輕症者的 COVID 篩檢工具）錯誤**——影像不建議作為無症狀或輕症 COVID 的篩檢。A（高發現率>70%：GGO/血管擴張/雙側/下葉/後側優勢）、C（CT 陰性不能排除 COVID）、D（臨床惡化時評估 ARDS/肺栓塞/續發肺炎/心衰等）皆正確。
+
+> [!question]- 下列何種影像發現為 COVID-19 的胸部X光 characteristic finding? (2021-181)
+> **⚠️ 答案欄標 A（Lobar consolidation），惟 COVID-19 CXR 特徵應為 C（雙側、周邊且中下肺帶分布之實變）**——lobar consolidation 反屬非典型；B（肋膜積液）、D（氣胸）亦非特徵。COVID 影像遵循「雙側周邊」指紋，C 才是特徵表現，建議對照原卷確認答案。
 
 ## 考題
 ```dataview

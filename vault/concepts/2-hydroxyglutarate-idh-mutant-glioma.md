@@ -7,7 +7,7 @@ aliases:
   - 2-HG peak
   - IDH-mutant glioma spectroscopy
   - 2-羥基戊二酸
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # 2-hydroxyglutarate-idh-mutant-glioma
@@ -32,6 +32,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選) (2022-396)
 > **A + B（關鍵）** 2-HG 只在 **IDH-mutant** 神經膠質瘤堆積：故 A. Diffuse Astrocytoma, IDH-Mutant 與 B. Anaplastic Astrocytoma, IDH-Mutant 皆可見 2.25 ppm 的 2-HG 峰。C（Diffuse Astrocytoma, IDH-Wild-Type）與 D（Glioblastoma, IDH-Wild-Type）為 IDH-wild-type，**不產生 2-HG**，故不會出現此峰。此為複選題，正解為 A 與 B。[^1][^2]
+
+> [!question]- Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選) (2021-144)
+> **A＋B**——2-HG 為 IDH 突變腫瘤專屬代謝物，故 A（Diffuse Astrocytoma, IDH-Mutant）與 B（Anaplastic Astrocytoma, IDH-Mutant）皆可於 2.25 ppm 見 2-HG 峰；C、D 為 IDH-wild-type，不產生 2-HG，故無此峰。此為複選題。
 
 ## 考題
 ```dataview

@@ -10,7 +10,7 @@ aliases:
   - posterior reversible encephalopathy syndrome
   - diabetic striatopathy
   - 中毒代謝性腦病變
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # toxic-metabolic-brain-imaging
@@ -101,6 +101,9 @@ dateRev: 2026-07-03
 
 > [!question]- Which of the following descriptions about carbon monoxide poisoning is false? (2020-373)
 > **白質訊號變化不可逆（D）為錯誤敘述**——CO中毒遲發性白質病變數月後可完全或部分消退，並非不可逆。病灶周邊薄層T2低訊號邊緣、雙側蒼白球對稱擴散受限、第二常見侵犯部位為大腦白質，皆為正確敘述。[^5]
+
+> [!question]- About toxic and metabolic brain disorders, which following statement is false? (2021-062)
+> **C**——慢性肝性腦病的雙側對稱蒼白球與黑質 T1 高訊號係「錳（manganese）」沉積，非「鎂（magnesium）」，故 C 錯誤。A（Wernicke 侵犯第三腦室周圍、頂蓋板/導水管周圍灰質、殼核）、B（metronidazole 毒性雙側對稱小腦病灶）、D（蒼白球對缺氧敏感、CO 中毒雙側對稱壞死為標誌）、E（腦橋外 ODS 常對稱侵犯基底核/視丘/半球白質）皆正確。
 
 ## 考題
 ```dataview

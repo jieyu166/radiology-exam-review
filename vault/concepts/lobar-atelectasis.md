@@ -8,7 +8,7 @@ aliases:
   - Luftsichel sign
   - right middle lobe syndrome
   - 肺葉塌陷
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # lobar-atelectasis
@@ -56,6 +56,10 @@ dateRev: 2026-06-29
 [^8]: PMC 開放全文（pictorial review 級）：*Rounded atelectasis of the lung: a pictorial review*. PMC4102604——CT 四要件（胸膜增厚、銳角貼胸膜不完全被肺包圍、comet tail、容積減少）；與肺癌鑑別（corona radiata、淋巴結腫大 vs 無）。
 [^9]: Partap VA. *The Comet Tail Sign*. Radiology（article 級）DOI: 10.1148/radiology.213.2.r99nv08553——comet tail＝血管支氣管束被牽入 round atelectasis 的弧形影。
 [^10]: Woodring JH, Reed JC. *Types and mechanisms of pulmonary atelectasis*（review；PubMed PMID 8820021）＋ Radiology Key *Atelectasis*（章節）：五型機轉——obstructive/resorptive、passive/relaxation、compressive、adhesive（surfactant↓）、cicatricial（瘢痕收縮）。
+
+## 題目
+> [!question]- Which of the following collapsed site refers to Luftsichel sign? (2021-091)
+> **B（LUL）**——Luftsichel（德語『空氣鐮刀』）為**左上葉塌陷**時，左下葉上節段過度充氣疝入主動脈弓與塌陷上葉之間，於 PA 片主動脈旁形成新月狀透亮影。A（RUL）側位呈三角形緻密影、C/D（RLL/LLL）塌陷向後內下呈後縱膈三角影，皆不產生此主動脈旁透亮徵象，故非 Luftsichel。
 
 ## 考題
 ```dataview

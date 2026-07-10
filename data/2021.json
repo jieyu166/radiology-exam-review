@@ -1070,7 +1070,9 @@
       "reference": "2021 交換考官方詳解 PDF p329",
       "explanation": "Category 1 (negative, <1% chance of malignancy)\n- No lung nodules\n- Lung nodule(s) with speciﬁc ﬁndings favoring benign nodule(s)\n\t- complete calciﬁcation\n\t- central calciﬁcation\n\t- popcorn calciﬁcation\n\t- calciﬁcation  in concentric rings\n\t- fat-containing nodules\n\n【2021 官方詳解】\nLung-RADS\nCategory 1 (negative, <1% chance of malignancy)\n- no lung nodules\n- lung nodule(s) with specific findings favoring benign nodule(s)\n  - complete calcification\n  - central calcification\n  - popcorn calcification\n  - calcification in concentric rings\n  - fat-containing nodules",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-calcification"
+      ],
       "checked": false,
       "sourcePage2021": 329
     },
@@ -2300,7 +2302,9 @@
       "images": [
         "2021-060-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cns-germinoma"
+      ],
       "checked": false,
       "sourcePage2021": 386
     },
@@ -2376,7 +2380,9 @@
       "reference": "de Oliveira AM, Paulino MV, Vieira APF, et al. Imaging Patterns of Toxic and Metabolic Brain Disorders. Radiographics. 2019;39:1672-1695.；2021 交換考官方詳解 PDF p51",
       "explanation": "【2021 官方詳解】\nThe characteristic imaging finding of chronic hepatic encephalopathy is bilateral and symmetric T1 hyperintensity involving the globi pallidi and substantiae nigrae, most likely due to Manganese accumulation",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "toxic-metabolic-brain-imaging"
+      ],
       "checked": false,
       "sourcePage2021": 51
     },
@@ -3493,7 +3499,9 @@
       "reference": "Diagnostic Imaging-Chest Part 4（IV-1-3）；2021 交換考官方詳解 PDF p10",
       "explanation": "【2021 官方詳解】\nThe luftsichel sign is seen in some cases of left upper lobe collapse and refers to the frontal chest radiographic appearance due to hyperinflation of the superior segment of the left lower lobe interposing itself between the mediastinum and the collapsed left upper lobe.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lobar-atelectasis"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "何上芸",
@@ -3878,7 +3886,9 @@
       "reference": "明書名,頁次 Osborn’s brain - Ch36 Posterior Fossa Malformations；2021 交換考官方詳解 PDF p32",
       "explanation": "【2021 官方詳解】\nMega Cisterna Magna has enlarged mega cisterna magna freely communicates with the fourth ventricle, results in consistent absence of hydrocephalus.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "posterior-fossa-malformations"
+      ],
       "checked": false,
       "difficulty": "普通\nMega Cisterna Magna has enlarged mega cisterna magna freely\ncommunicates with the fourth ventricle, results in consistent absence of\nhydrocephalus.",
       "author": "",
@@ -5096,7 +5106,9 @@
       "images": [
         "2021-133-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ctd-ild"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "萬永亮",
@@ -5204,7 +5216,9 @@
       "reference": "Chest CT in COVID-19: What the Radiologist Needs to Know Thomas C. Kwee , Robert M. Kwee RadioGraphics Vol. 40, No. 7 https://doi.org/10.1148/rg.2020200159；10.1148/rg.2020200159；2021 交換考官方詳解 PDF p82",
       "explanation": "【2021 官方詳解】\nB. Chest imaging is not indicated as a screening test for COVID-19 in asymptomatic patients or in patients with mild respiratory symptoms of COVID-19 (ie, absence of significant pulmonary dysfunction or damage).\nA negative chest CT examination does not exclude COVID-19. 沒症狀或輕微症狀就不要浪費時間跟金錢了，切了還會不小心看到一些 Incidentalomas.\nSeveral chest CT findings have been reported in more than 70% of RT-PCR test–proven COVID-19 cases, including ground-glass opacities, vascular enlargement, bilateral abnormalities, lower lobe involvement, and posterior predilection.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "許文麒",
@@ -5500,7 +5514,9 @@
       "reference": "Osborn’s Brain 2nd edition P.529；2021 交換考官方詳解 PDF p97",
       "explanation": "【2021 官方詳解】\n2-HG 是IDH mutation 腫瘤專屬的代謝物．所以只要是 IDH-Mutant 都會peak.\n2-hydroxyglutarate is a metabolite that accumulates in the brains of patients with IDH-1 mutated (IDH-1 positive) brain tumors, particularly diffuse low-grade gliomas. Although not in widespread clinical use, it is likely that 2-hydroxyglutarate, which resonates at 2.25 ppm, will be able to be detected in vivo using MR spectroscopy (MRS), and thus IDH-1 status could be detected preoperatively.\nRadiopaedia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "2-hydroxyglutarate-idh-mutant-glioma"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "鄧木火",
@@ -5608,7 +5624,9 @@
       "reference": "Stratification, Imaging, and Management of Acute Massive and Submassive Pulmonary Embolism. https://doi.org/10.1148/radiol.2017151978；10.1148/radiol.2017151978；2021 交換考官方詳解 PDF p100",
       "explanation": "【2021 官方詳解】\nA. Based on decreasing mortality risk. Massive -🡺 submassive 🡺 low risk 一看就覺得是往下降",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-pe-ct-severity"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "方詩珺",
@@ -5686,7 +5704,9 @@
       "images": [
         "2021-149-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "方詩珺\nT1\nT2\nT3\nT4\nM1a\nSize\nT1a <= 1cm\nT1b 1-2cm\nT1c 2-3cm\nT2a 3-4cm\nT2b 4-5cm\n5-7cm\n>7cm\nInvolve\nMain bronchus\nwithout carina\nVisceral pleural\nChest wall\nPericardium\nPhrenic nerve\nMediastinum\nDiaphragm\nHeart\nGreat vessel\nRecurrent\nlaryngeal nerve\nCarina/trachea\nEsophagus\nSpine\nSeparate tumor\nSame lobe\nDifferent lobe\nof ipsilateral\nlung\nContralateral\nlung",
@@ -6662,7 +6682,9 @@
       "reference": "2021 交換考官方詳解 PDF p130",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-sequestration"
+      ],
       "checked": false,
       "difficulty": "",
       "author": "簡巧弦\nIntralobar\nExtralobar\n75-85%\n15-25%\nMale (4:1)\nChildren, recurrent infections\nNeonatal (respiratory distress, cyanosis, infection)\nLocation\n60% LLL\n40% RLL\nAlways LLL\nIntrathoracic / Subdiaphragmatic (10%)\nVein\ncommonly via pulmonary veins\nprobably azygos , portal, RA, IVC\nsystemic vein\nPleura\nwithout separate pleura\nseparated pleura",
@@ -6700,7 +6722,9 @@
       "images": [
         "2021-176-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "中等",
       "author": "簡巧弦",
@@ -6774,7 +6798,9 @@
       "images": [
         "2021-178-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "ctd-ild"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳貞慧",
@@ -6810,7 +6836,9 @@
       "reference": "Kanne JP, Bai H, Bernheim A et-al. COVID-19 imaging: What we know now and what remains unknown Radiology 2021; 299:E262–E279；2021 交換考官方詳解 PDF p134",
       "explanation": "【2021 官方詳解】\nOn the basis of ex-pert opinions of panel members, recommendations were issued that included no indication for routine imaging as a screening test for COVID-19 in asymptomatic individuals, no indication for daily chest radiography in stable intubated patients with COVID-19, and an indication for CT in patients with functional impairment, hypoxemia, or both after recovery from infection.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳佳慧",
@@ -6846,7 +6874,9 @@
       "reference": "Thomas C. Kwee, and Robert M. Kwee,: Chest CT in COVID-19: What the Radiologist Needs to Know. RadioGraphics 2020; 40:1848–1865；2021 交換考官方詳解 PDF p135",
       "explanation": "【2021 官方詳解】\nChest imaging is not indicated as a screening test for COVID-19 in asymptomatic patients or in patients with mild respiratory symptoms of COVID-19 (ie, absence of significant pulmonary dysfunction or damage).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "奇美醫院陳佳慧",
@@ -6884,7 +6914,9 @@
       "images": [
         "2021-181-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "郭禹廷",
@@ -6958,7 +6990,9 @@
       "images": [
         "2021-183-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "solitary-pulmonary-nodule"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "麥志輝",
@@ -7032,7 +7066,9 @@
       "images": [
         "2021-178-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "ctd-ild"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃品齊",
@@ -7350,7 +7386,9 @@
       "reference": "RadioGraphics 2010;30:887–90；2021 交換考官方詳解 PDF p149",
       "explanation": "【2021 官方詳解】\nCryoablation makes use of rapid cooling to cause cell death. Two sequential and synergistic\nmechanisms lead to cell death. Intra- and extracellular ice crystals are directly cytotoxic and\nlead to cell dehydration and rupture. When the frozen tissue is thawed, there is microvascular\nocclusion with cell hypoxia, resulting in indirect ischemic injury.\nAn initial freeze followed by thawing and additional freezing (double freeze-thaw cycle) results in a larger amount of liquefaction necrosis and improves treatment efficacy.\nCell death is time- and temperature dependent, with the critical threshold for cell death being between −19.4°C and −40°C.\nthe goal should be an ice ball margin of at least 5 mm to avoid residual or untreated tumor.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tumor-ablation"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃建銓",
@@ -7388,7 +7426,9 @@
       "images": [
         "2021-194-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "acute-mesenteric-ischemia"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "鄭華銘",
@@ -8827,7 +8867,9 @@
       "images": [
         "2021-232-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hereditary-gi-cancer-syndromes"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "梁博欽醫師",
@@ -8863,7 +8905,9 @@
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p201",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "梁博欽醫師",
@@ -8901,7 +8945,9 @@
       "images": [
         "2021-234-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pancreatic-cystic-lesions"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "梁博欽醫師",
@@ -8980,7 +9026,9 @@
         "2021-236-1.png",
         "2021-236-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "solid-pseudopapillary-neoplasm"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "梁博欽醫師",
@@ -9058,7 +9106,9 @@
         "2021-238-2.png",
         "2021-238-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "peritoneal-inclusion-cyst"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "陳邦斌",

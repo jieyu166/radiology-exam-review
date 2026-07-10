@@ -50,6 +50,9 @@ dateRev: 2026-07-10
 > [!question]- Which of the following description regarding pineal germinoma is FALSE? (2021-048)
 > **D（None of the above）**——A、B、C 皆為正確敘述：germinoma 是最常見的松果體區腫瘤、整體以男性為主（松果體型 M:F 約 5–22:1）、可壓迫頂蓋致 Parinaud 症候群。三者皆對，故「以上皆非（沒有錯誤敘述）」D 為正解。
 
+> [!question]- When considering a pineal region mass, which characteristic favors Non-germ cell neoplasms? (2021-060)
+> **C（calcification with exploded appearance）**——松果體實質腫瘤（如 pineoblastoma，屬非生殖細胞瘤）會把既有鈣化往周邊「炸開（exploded）」；而 germinoma 則把鈣化「吞入包覆（engulfed）」。A（放療敏感）、B（男性為主）、D（合併鞍上另一腫瘤＝bifocal）皆為 germinoma 之特徵，故不偏向非生殖細胞瘤。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "cns-germinoma")

@@ -76,6 +76,9 @@ dateRev: 2026-07-10
 > [!question]- 關於 Renal cell carcinoma 的 Thermal ablation 治療，下列何者敘述錯誤? (2021-191)
 > **E（Cryoablation 治療中所形成的冰球範圍等同於腫瘤壞死範圍）為錯**——完全細胞死亡發生在冰球邊緣『內側』約 3 mm 處，故須讓冰球延伸超出腫瘤邊緣至少 5 mm 以確保完整涵蓋；冰球外緣≠壞死邊界。(A) 術前置 ureteral stent 可減少 urine extravasation／urinoma、(B) RFA 較 cryoablation 更常需重複消融（局部腫瘤進展率較高）、(C) cryoablation 患者舒適度較佳、(D) >5 cm 或中央型（hilum／collecting system）RCC 一般不適合消融，皆為正確。
 
+> [!question]- Which statement about Cryoablation for renal tumor is correct? (2021-193)
+> **E（All statements are correct）**——冷凍消融四項敘述皆正確：快速冷卻→較多胞內冰晶（直接細胞毒性）(A)、緩慢解凍→微血管阻塞與細胞缺氧（間接缺血傷害）(B)、細胞死亡臨界溫度介於 −19.4°C 至 −40°C 且具時間/溫度依賴性 (C)、冰球邊界應超出腫瘤至少 5 mm 以避免殘餘/未治療腫瘤 (D)。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "tumor-ablation")

@@ -7,7 +7,7 @@ aliases:
   - extralobar sequestration
   - intralobar sequestration
   - 肺隔離症
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # pulmonary-sequestration
@@ -81,6 +81,9 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- Which of the description about pulmonary sequestration is wrong? (2018-045)
 > **Intralobar sequestration usually present in the neonatal period... Extralobar sequestration present later in childhood（B）**——相反：ILS多在青少年/成人因反覆感染發現，ELS多在新生兒/嬰兒期或產前發現。[^1][^2]
+
+> [!question]- 關於pulmonary sequestration何者錯誤 (2021-175)
+> **D（Extralobar 為較常見型別）錯誤**——實際上 intralobar（ILS）較常見（約占 75–85%），extralobar（ELS）僅約 15–25%。A（無正常氣道相通、體循環動脈供血之定義）、B（供血動脈多源自胸主動脈約75%、腹主動脈、肋間動脈等）、C（ILS 位於正常肺葉內、無獨立臟層胸膜）皆為正確描述。
 
 ## 考題
 ```dataview

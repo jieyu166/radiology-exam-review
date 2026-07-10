@@ -6,7 +6,7 @@ aliases:
   - AJCC 8th lung cancer
   - TNM 8th lung
   - 肺癌分期
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 up: "[[lung-cancer]]"
 ---
 
@@ -52,6 +52,9 @@ up: "[[lung-cancer]]"
 
 > [!question]- A proved NSCLC 5.1cm with visceral pleural involvement and ipsilateral mediastinal lymphadenopathy, no distant metastasis. TNM staging? (2018-417)
 > **官方答案B(T2N2，依AJCC 7th)；AJCC 8th則為C(T3N2)**——5.1cm於7th為T2b、於8th為T3(>5cm)；同側縱膈LN為N2。見上方warning。[^3]
+
+> [!question]- 有關lung cancer的TNM staging，下列何者不屬於T4? (2021-149)
+> **C（Directly invades chest wall——胸壁侵犯屬 T3 而非 T4）**——AJCC 8th 中直接侵犯胸壁歸類 T3。A（>7 cm）、B（同側不同肺葉之衛星結節）、D（侵犯膈肌）三者皆為 T4，故不屬 T4 者為 C。
 
 ## 考題
 ```dataview
