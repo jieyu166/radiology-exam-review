@@ -127,6 +127,10 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
     # 正面：tag 與題幹「同一行」（SR 外掛需 tag 與卡片同區塊才讀得到）+ 選項
     stem = _bold_verdicts(q.get("questionText", "").strip())
     front = [f"{tag_line} {stem}"]
+    # 影像：僅在題幹指涉影像時放正面（否則多為詳解插圖，放背面以免爆雷）
+    images = q.get("images") or []
+    if images and q.get("imagesOnFront"):
+        front += [f"![[{f}]]" for f in images]
     for opt in q.get("options", []):
         front.append(f"({opt['letter']}) {opt.get('text', '').strip()}")
 
@@ -148,6 +152,10 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         back.append(body_txt.rstrip())
     else:
         back.append("> [!todo] 待補詳解")  # 真正無詳解才標待補
+
+    # 詳解插圖放背面（隨答案一起出現）
+    if images and not q.get("imagesOnFront"):
+        back += [f"![[{f}]]" for f in images]
 
     # SR 卡片本體（front + ?? + back + 概念 inline 連結）。
     # 概念連結 `概念：[[...]]` 緊接詳解、屬卡片一部分（複習時一起出現）。

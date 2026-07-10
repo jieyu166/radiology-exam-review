@@ -334,7 +334,9 @@
       "correctAnswer": "D",
       "reference": "Radiographics 2021; 41(3):1-20.；2021 交換考官方詳解 PDF p164",
       "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities\n\n【2021 官方詳解】Perceptual errors are the most common type of error in diagnostic radiology, reportedly accounting for 60%–80% of\nradiologists’ errors\n\n⚠️ 本題含影像（官方詳解 PDF 第 164 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-009-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 164
@@ -407,7 +409,9 @@
       "correctAnswer": "C",
       "reference": "ACR BI-RADS Atlas® 5th Edition；10.2214/AJR.15.15957；2021 交換考官方詳解 PDF p2",
       "explanation": "「持續性」（persistent）的定義是：在初始上升後，信號強度繼續**緩慢增加>10%**，而不是「不隨時間變化」。\n\n【2021 官方詳解】C. During the delayed phase, persistent is defined as signal intensity more than 10% of initial enhancement.\nIt represents the initial increase in contrast enhancement in the kinetic assessment for BI-RADS. An\nintensity increase < 50% is classified as slow, 50–100% as medium, and > 100% as fast enhancement. SER\nindicates the kinetic curve shape that represents the delayed phase in BI-RADS assessment. Persistent is\nmore than 10% of initial enhancement, washout is less than 10% of initial enhancement, and plateau is\nbetween the two.\n10.2214/AJR.15.15957\nThe kinetic curve can be classified into three categories. Early\nenhancement (2 minutes after agent injection), during which\nthe initial rise of the enhanced curve can be divided into\n“slow”, “medium”, and “rapid”.\nThe signal intensity 2 minutes after contrast injection is\ndefined as “delayed phase, which is divided into “persistent”\n(type I), “plateau” (type II), and “washout” (type III)\n10.3978/j.issn.2227-684X.2013.02.04\n\n⚠️ 本題含影像（官方詳解 PDF 第 2 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-011-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 2
@@ -551,7 +555,9 @@
       "correctAnswer": "A",
       "reference": "2021 交換考官方詳解 PDF p179",
       "explanation": "Muffins rise.\nB. Leak sinks.\nC. Rolled CC view:\n- If the top of the breast is rolled medially while the lower part is rolled laterally, the lesion in the upper portion of the breast moves medially and the lesion in the lower portion moves laterally.\n- If the top of the breast is rolled laterally, the lesion in the upper portion of the breast moves laterally and the lesion in the lower portion moves medially.\nD. XCCL exaggerated CC lateral ~~medial~~\n\n【2021 官方詳解】●\nmuffins rise: if the lesion appears in a higher position on the lateral than MLO, then it is located\nmedially\n●\nlead falls: if the lesion appears in a lower position on the lateral than MLO, then it is located laterally\n●\nRolled CC view:\no\nif the top of the breast is rolled medially while the\nlower part is rolled laterally, the lesion in the upper\nportion of the breast moves medially and the\nlesion in the lower portion moves laterally.\no\nIf the top of the breast is rolled laterally, the lesion\nin the upper portion of the breast moves laterally\nand the lesion in the lower portion moves medially.\n●\nAxillary view: better imaging of lateral portion of breast to\nthe axillary tial\n●\nXCCM view: medial portion of the breast\n\n⚠️ 本題含影像（官方詳解 PDF 第 179 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-015-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 179
@@ -663,7 +669,9 @@
       "correctAnswer": "A",
       "reference": "8th edition radiology review manual. P.367；2021 交換考官方詳解 PDF p272",
       "explanation": "主要Liver, pancreas。也會沉積在**heart**, thyroid, pituitary。\nRES的沉積會在spleen和bone可能也會沉積，B可能稍有爭議。\n\n⚠️ 本題含影像（官方詳解 PDF 第 272 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-018-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 272
@@ -739,7 +747,10 @@
       "correctAnswer": "C",
       "reference": "LI-RADS v2018 Core, American College of Radiology；2021 交換考官方詳解 PDF p317",
       "explanation": "考題應該是BC選一個。\n\n【2021 官方詳解】C. non-rim arterial phase hyperenhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 317 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-020-1.png",
+        "2021-020-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 317
@@ -779,7 +790,9 @@
       "correctAnswer": "E",
       "reference": "RadioGraphics 2017; 37:1994–2017；2021 交換考官方詳解 PDF p319",
       "explanation": "size increase ≥ 50% in ≤ **6** months\n\n【2021 官方詳解】D.\nthreshold growth\ndiameter increase ≥50% increase in ≤6 months\nother prior criteria are now considered subthreshold growth, an ancillary feature\nif prior exam >6 months, diameter ≥100% increase\na new lesion ≥10 mm in <24 months\nthreshold growth should be compared on similar sequences between studies\nonly apply this criterion if the lesion is definitely a mass (e.g. not perfusion alteration)\n\n⚠️ 本題含影像（官方詳解 PDF 第 319 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-021-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 319
@@ -852,12 +865,17 @@
       "correctAnswer": "D",
       "reference": "CT Features of the Usual Interstitial Pneumonia Pattern: Differentiating Connective Tissue Disease–Associated Interstitial Lung Disease from Idiopathic Pulmonary Fibrosis American Journal of Roentgenology. 2018;210: 307-313；2021 交換考官方詳解 PDF p357",
       "explanation": "【2021 官方詳解】connective tissue disease- interstitial lung disease (CTD-ILD)\nAnterior upper lobe sign:\nsubstantial degree of reticulation, traction bronchiectasis, and honeycombing within upper lobes, mostly\nconcentrated in anterior aspect\nexuberant honeycombing sign:\nperipheral- and basilar-predominant pulmonary fibrosis pattern characterized primarily by florid\nhoneycombing\nstraight-edge sign:\nstraight interface between fibrosis and normal lung orthogonal to lateral chest wall surface\n\n⚠️ 本題含影像（官方詳解 PDF 第 357 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-327-1.png",
+        "2021-327-2.png",
+        "2021-327-3.png"
+      ],
       "concepts": [
         "ipf"
       ],
       "checked": false,
-      "sourcePage2021": 357
+      "sourcePage2021": 357,
+      "imagesOnFront": true
     },
     {
       "id": "2021-024",
@@ -927,7 +945,9 @@
       "correctAnswer": "D",
       "reference": "Grainger & Allison’s Diagnostic Radiology Essentials 1.4 (53~55)；10.2214/AJR.09.4146；2021 交換考官方詳解 PDF p12",
       "explanation": "【2021 官方詳解】10.2214/AJR.09.4146\n\n⚠️ 本題含影像（官方詳解 PDF 第 12 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-025-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 12
@@ -1181,7 +1201,10 @@
       "correctAnswer": "D",
       "reference": "JACC: Cardiovascular Imaging 2016;9:1099-1113；2021 交換考官方詳解 PDF p364",
       "explanation": "【2021 官方詳解】Vulnerable plaque (at least two of following high risk feature)\nNapkin ring sign:\nlow attenuating eccentric structure (necrotic core),\nthat is surrounded by a thin ring-like hyperattenuating rim and may represent vulnerable cap.\n\n⚠️ 本題含影像（官方詳解 PDF 第 364 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-032-1.png",
+        "2021-032-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 364
@@ -1213,7 +1236,9 @@
       "correctAnswer": "B",
       "reference": "Identifying, Characterizing, and Classifying Congenital Anomalies of the Coronary Arteries; RadioGraphics 2012; 32:453–468；2021 交換考官方詳解 PDF p18",
       "explanation": "Artery courses downward (hammock sign) below the crista supraventricularis in **Transseptal** Variant.\n- Origin from the Pulmonary Artery\n- Origin of a coronary artery from the pulmonary artery is usually discovered owing to severe clinical manifestations. In this entity, the LMCA more commonly originates from the pulmonary artery. This pattern was described in 1956 and retains the eponym of the authors who described it (Bland-Garland-White syndrome). This entity is also known by the acronym ALCAPA (anomalous origin of the left coronary artery from the pulmonary artery). Since its initial description, ALCAPA has been recognized to constitute 0.25%–0.5% of cases of congenital heart disease Patients usually present with symptoms of myocardial ischemia or with left ventricular volume overload due to left-to-right shunting. The entire coronary arterial system is usually markedly enlarged and tortuous as a result of increased flow. ALCAPA syndrome is among the differential diagnoses for massive cardiomegaly in the newborn period, a finding that is one of the classic features of this entity at presentation\n- Prepulmonic Course\n- Normally, the major coronary arteries are never found in a position anterior to the pulmonary outflow tract or pulmonary artery. When a prepulmonic artery is present, it usually poses no hemodynamic consequences, although some case reports posit an association with angina (52).\n- Prepulmonic coronary arteries are particularly common in tetralogy of Fallot, in which the prepulmonic artery may complicate the surgical approach to correction of pulmonary outflow tract stenosis (53). Usually, the prepulmonic vessel is the LMCA (Fig 11), although the RCA may originate from the LAD artery or LMCA and subsequently take a prepulmonic course\n- Interarterial Course\n- Several reasons have been suggested for the association between interarterial coronary arteries and sudden cardiac death. It has been postulated that interarterial coronary arteries tend to have a more slitlike orifice and that the slitlike orifice is more prone to occlusion\n\n\n\n# 其他coronary\n## CAD\n\n【2021 官方詳解】Artery courses downward (hammock sign) below the crista supraventricularis in Transseptal Variant.\nOrigin from the Pulmonary Artery\nOrigin of a coronary artery from the pulmonary artery is usually discovered owing to severe clinical manifestations. In this\nentity, the LMCA more commonly originates from the pulmonary artery. This pattern was described in 1956 and retains the\neponym of the authors who described it (Bland-Garland-White syndrome). This entity is also known by the acronym\nALCAPA (anomalous origin of the left coronary artery from the pulmonary artery). Since its initial description, ALCAPA has\nbeen recognized to constitute 0.25%–0.5% of cases of congenital heart disease\nPatients usually present with symptoms of myocardial ischemia or with left ventricular volume overload due to left-to-right\nshunting. The entire coronary arterial system is usually markedly enlarged and tortuous as a result of increased flow.\nALCAPA syndrome is among the differential diagnoses for massive cardiomegaly in the newborn period, a finding that is\none of the classic features of this entity at presentation\nPrepulmonic Course\nNormally, the major coronary arteries are never found in a position anterior to the pulmonary outflow tract or pulmonary\nartery. When a prepulmonic artery is present, it usually poses no hemodynamic consequences, although some case\nreports posit an association with angina (52).\nPrepulmonic coronary arteries are particularly common in tetralogy of Fallot, in which the prepulmonic artery may\ncomplicate the surgical approach to correction of pulmonary outflow tract stenosis (53). Usually, the prepulmonic vessel is\nthe LMCA (Fig 11), although the RCA may originate from the LAD artery or LMCA and subsequently take a prepulmonic\ncourse\nInterarterial Course\nSeveral reasons have been suggested for the association between interarterial coronary arteries and sudden cardiac death.\nIt has been postulated that interarterial coronary arteries tend to have a more slitlike orifice and that the slitlike orifice is\nmore prone to occlusion.\n\n⚠️ 本題含影像（官方詳解 PDF 第 18 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-033-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 18
@@ -1249,7 +1274,10 @@
       "correctAnswer": "B",
       "reference": "1. Abdom Radiol (2017) 42:2346–2357 DOI: 10.1007/s00261-017-1137-0 2. Journal of Vascular Surgery Volume 45, Issue 1, Supplement , S5-S67, Janjuary DOI:10.1016/j.jvs.2006.12.037；10.1007/s00261-017-1137-0；2021 交換考官方詳解 PDF p88",
       "explanation": "Infrarenal aorta.\n\n【2021 官方詳解】B. Aortoiliac occlusive disease (AIOD), a subset of peripheral arterial disease (PAD), is characterized by\nsevere atherosclerotic stenosis or occlusion of the infrarenal aorta and/or iliac arteries.\n\n⚠️ 本題含影像（官方詳解 PDF 第 88 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-034-1.png",
+        "2021-034-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 88
@@ -1285,7 +1313,9 @@
       "correctAnswer": "D",
       "reference": "Journal of Cardiovascular Magnetic Resonance 2017;19:75；2021 交換考官方詳解 PDF p363",
       "explanation": "會降低native T1值的原因有fat 或iron overload。\n\n【2021 官方詳解】Iron overload cardiomyopathy = siderotic cardiomyopathy\nANS: see the table\nT1 mapping :\ncalculate the T1 time of a certain tissue and display them voxel-vice on a parametric map\nT1\n=>Reflects changes in intracellular and extracellular compartments\nAffected by collagen, protein, water (edema), lipids and iron\nNative T1\n=> T1 time measured in the absence of a contrast agent\nPostcontrast T1\n=>Measurement after the application of gadolinium\nCalculate extracellular volume (ECV), a surrogate parameter for the extracellular matrix after adjusting for\nhematocrit\n\n⚠️ 本題含影像（官方詳解 PDF 第 363 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-035-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 363
@@ -1321,7 +1351,9 @@
       "correctAnswer": "C",
       "reference": "Multimodality Imaging of Transposition of the Great Arteries; RadioGraphics 2021; 41:338–360；2021 交換考官方詳解 PDF p7",
       "explanation": "CCTGA: 心臟下半相反，rare。又稱L-TGA。\n\n【2021 官方詳解】A. Congenitally corrected transposition of the great arteries (CCTGA) is a rare heart defect in which the\nheart's lower half is reversed. It is also called L-TGA. It is different from and much less common than\n“regular” transposition of the great arteries (TGA or D-TGA).\nC. Deoxygenated blood enters the RA and through the mitral valve flows into the discordant LV and\nthen to the PA\n\n⚠️ 本題含影像（官方詳解 PDF 第 7 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-036-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 7
@@ -1772,7 +1804,10 @@
       "correctAnswer": "D",
       "reference": "Dahner Radiology Review Manual 7th ed., p. 324；2021 交換考官方詳解 PDF p256",
       "explanation": "from Radiology review manual\n\n⚠️ 本題含影像（官方詳解 PDF 第 256 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-048-1.png",
+        "2021-048-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 256
@@ -1809,7 +1844,9 @@
       "correctAnswer": "D",
       "reference": "Radiographics 2012; 32: 721-740；2021 交換考官方詳解 PDF p288",
       "explanation": "from Radiographics. 2012 May-Jun;32(3):721-40.\n- As the left vagus nerve passes anterolateral to the aortic arch, the left RLN branches off and passes below the arch posterior to the ligamentum arteriosum. It then ascends within the left tracheoesophageal groove to enter the larynx posteriorly at the level of the cricoarytenoid joint.\n- Right vagus nerve descends posterolateral to the internal and common carotid arteries from the right jugular foramen, giving rise to the right RLN as it passes anterior to the right SCA. The right RLN then passes posterior to the right brachiocephalic artery before ascending to the larynx within the right tracheoesophageal groove.\n\n【2021 官方詳解】The left RLN exits from the vagus nerve at the level of the aortic arch, then courses posteromedially\nbeneath it, and thus passes through the aorticopulmonary window posterior to the ligamentum\narteriosum. It then ascends vertically through the superior mediastinum to reach the tracheoesophageal\ngroove.\n\n⚠️ 本題含影像（官方詳解 PDF 第 288 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-049-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 288
@@ -1925,7 +1962,10 @@
       "correctAnswer": "C",
       "reference": "1. McCartyJL,LeungLY,PetersonRB,SittonCW,SarrajA,RiascosRF,BrinjikjiW. IschemicInfarctioninYoungAdults:AReviewforRadiologists.Radiographics.2019 Oct;39(6):1629-1648. doi: 10.1148/rg.2019190033. PMID: 31589580. 2.DouZ,ChenH,ChengH,LiuG.Moyamoyasyndromeafterbacterialmeningitis. Pediatr Investig. 2018 Jul 16;2(2):134-136. doi: 10.1002/ped4.12048. PMID: 32851248; PMCID: PMC7331372.；10.1148/rg.2019190033.；2021 交換考官方詳解 PDF p396",
       "explanation": "【2021 官方詳解】Thyroid disease: Graves’ disease….\nMoyamoya syndrome after bacterial meningitis => case report\nKasabach-Merritt syndrome  (hemangioma thrombocytopenia syndrome)\nRapidly growing vascular tumor =>  thrombocytopenia, microangiopathic hemolytic anemia and\nconsumptive coagulopathy\nDLP based method:\nCT dose estimates =  DLP* conversion factor\nDLP= CTDIvol *Scan length\nC: 20mGy*30cm*0.002mSv/mGy*cm= 1.2mSv\n答案\n3\n題目\n陳先生今年67歲，剛做完頭部電腦斷層，急著想知道他接受了多少輻射劑量。根據檢查\n參數：\n64切電腦斷層\nkVp 120\n0.6-sec rotation time\nCTDIvol 20 mGy\nScan length 30 cm\nPitch 2\n雖然光憑以上數據並無法用來精確計算陳先生接受的輻射劑量，但若以 CT dose index 的\n概念來進行估算，假設 k conversion coefficient factor 為 0.002 mSv/(mGy*cm)，請問此次檢\n查的有效劑量(effective dose)大約是多少？\n選項\n1. 0.6 毫西弗(mSv)\n2. 1 毫西弗(mSv)\n3. 1.2 毫西弗(mSv)\n4. 2 毫西弗(mSv)\n難易程度\n中\n題目來源\nCT Radiation Dose Optimization and Estimation: an Update for Radiologists. Korean J Radiol\n2012;13(1):1-11\n擬題者\n臺北榮總郭昱醫師\n\n⚠️ 本題含影像（官方詳解 PDF 第 396 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-052-1.png",
+        "2021-052-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 396
@@ -1962,7 +2002,9 @@
       "correctAnswer": "D",
       "reference": "RadioGraphics 2014; 34:1047–1061  (1058-1059 頁)；2021 交換考官方詳解 PDF p302",
       "explanation": "和 lipid peak重疊\n\n【2021 官方詳解】D: Lipid peak\nLactate,  marker of anaerobic metabolism\ncharacteristic doublet peak at 1.3 ppm on spectra with a short echo time (35 msec)\ninversion below the baseline with intermediate echo times (135–144 msec).\nInversion allows lactate peak to be distinguished from the adjacent lipid peak (at 0.9–1.3 ppm), which does not invert\nat intermediate echo times\n\n⚠️ 本題含影像（官方詳解 PDF 第 302 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-053-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 302
@@ -2226,7 +2268,9 @@
       "correctAnswer": "C",
       "reference": "Yousem, D. M., & Nadgir, R. (2017). Neuroradiology: The requisites.；2021 交換考官方詳解 PDF p386",
       "explanation": "Exploded calcification會偏向pineoblastoma之類的，非germinoma.\n\n⚠️ 本題含影像（官方詳解 PDF 第 386 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-060-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 386
@@ -2338,7 +2382,9 @@
       "correctAnswer": "D",
       "reference": "Neurographics, Volume 7, Number 6, 1 November 2017, pp. 416-436(21).；2021 交換考官方詳解 PDF p54",
       "explanation": "想到Global cortical atrophy (GCA) scale 3\nABD都是NPH的特徵。\n\n【2021 官方詳解】E. “Knife-blade” configuration of gyri is seen in frontotemporal atrophy (frontotemporal dementia, Pick’s\ndisease).\nred = severe atrophy (knife-blade like)\nYellow = normal, spared.\nNormal pressure hydrocephalus radiologic signs: Ventriculomegaly (Evan’s index>0.3, temporal horn lateral\nventricle >6mm, acute callosal angle); dilated Sylvian fissure, cingulate sulcus sign (posterior become\nnarrower than anterior cingulate sulcus).\n\n⚠️ 本題含影像（官方詳解 PDF 第 54 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-063-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 54
@@ -2446,7 +2492,9 @@
       "correctAnswer": "C",
       "reference": "Bacino, CA. (2021, JAN25). Birth defects: Epidemiology, types, and patterns. UpToDate.；2021 交換考官方詳解 PDF p281",
       "explanation": "Vertebra\n\n⚠️ 本題含影像（官方詳解 PDF 第 281 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-066-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 281
@@ -2482,7 +2530,11 @@
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1411 (Table 2)；2021 交換考官方詳解 PDF p399",
       "explanation": "? 答案應該是AB. C會被強化.\nRadiographics. 2015 Nov-Dec;35(7):1955-64.\n- THI reduces: reverberation artifact, side lobe artifact, and grating lobe artifact,\n- THI enhances: acoustic enhancement deep to fluid (useful for depicting cysts), **acoustic shadowing**, and comet-tail artifact.\n\n【2021 官方詳解】ANS: A.B\nC: imaging with increased frequency probes and using THI will increase\nshadowing\n\n⚠️ 本題含影像（官方詳解 PDF 第 399 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-067-1.png",
+        "2021-067-2.png",
+        "2021-067-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 399
@@ -2554,7 +2606,10 @@
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1421 (Table 2, Table 3)；2021 交換考官方詳解 PDF p401",
       "explanation": "SCI有 paper說可改善，但器官太大就會沒效。(Vet Radiol Ultrasound. 2010 Nov-Dec;51(6):621-7.)\n\n⚠️ 本題含影像（官方詳解 PDF 第 401 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-067-2.png",
+        "2021-067-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 401
@@ -2623,7 +2678,12 @@
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p14",
       "explanation": "半衰期=2小時．全部消失=24小時 [[對比劑 - Metformin]]\n\n【2021 官方詳解】半衰期=2小時． 全部消失=24小時\n\n⚠️ 本題含影像（官方詳解 PDF 第 14 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-071-1.png",
+        "2021-071-2.png",
+        "2021-071-3.png",
+        "2021-071-4.png"
+      ],
       "concepts": [
         "contrast-media-safety"
       ],
@@ -2741,7 +2801,9 @@
       "correctAnswer": "C",
       "reference": "Radiographics. Jan-Feb 2020;40(1):153-162；2021 交換考官方詳解 PDF p360",
       "explanation": "(2017 p. 36) 尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。\n\n【2021 官方詳解】D: No studies in animal or humans demonstrating clinical, behavioral, biological changes associated with\nneuronal gadolinium deposition.\n\n⚠️ 本題含影像（官方詳解 PDF 第 360 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-074-1.png"
+      ],
       "concepts": [
         "gadolinium-contrast"
       ],
@@ -2858,7 +2920,10 @@
       "correctAnswer": "A",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p13",
       "explanation": "【2021 官方詳解】化學結構為Linear的風險較高\n\n⚠️ 本題含影像（官方詳解 PDF 第 13 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-077-1.png",
+        "2021-077-2.png"
+      ],
       "concepts": [
         "nephrogenic-systemic-fibrosis"
       ],
@@ -3047,7 +3112,9 @@
       "correctAnswer": "C",
       "reference": "Clinical Radiology Volume 75, Issue 10, October 2020, Pages 797.e9-797.e19；2021 交換考官方詳解 PDF p316",
       "explanation": "答案應該是D\n- The conventional aortic CTA protocol :120 kVp and 400mg Iodine/kg (答案應該是D)\n- 為了減少 radiation dose ==> \"double low” CTA (DLCTA)\n\t- low-tube voltage acquisition (70~80 kVp)\n\t- high pitch mode\n\t- iterative reconstruction techniques\n\t- New imaging protocol called “of the aorta (low tube voltage and low iodine\n\t- **iodine load可降到200 mg iodine/kg**\n\t- Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. 考自己的paper??\n\n【2021 官方詳解】The conventional aortic CTA protocol :120 kVp and 400 mg iodine/kg (答案應該是D)\nFor reduction the radiation dose=>\nlow-tube voltage acquisition (70~80 kVp)\nhigh pitch mode\niterative reconstruction techniques\nNew imaging protocol called “double low”CTA (DLCTA) of the aorta (low tube voltage and low iodine\nload) has been developed.\nConclusion:\nDouble-low computed tomography  angiography (DLCTA): with 70 kVp and 200 mg iodine/kg is feasible for\nwhole-aortic CT angiography\n\n⚠️ 本題含影像（官方詳解 PDF 第 316 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-082-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 316
@@ -3083,7 +3150,9 @@
       "correctAnswer": "A",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 9, 14.；2021 交換考官方詳解 PDF p44",
       "explanation": "考定義：光電交互作用產生的X光，就是特性輻射。\n\n【2021 官方詳解】Most common is Characteristic x-rays (photoelectric effect), then Compton scatter.\nLeast likely is coherent (Rayleigh) scatter.\nhttps://howradiologyworks.com/x-ray-interactions/\n\n⚠️ 本題含影像（官方詳解 PDF 第 44 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-083-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 44
@@ -3156,7 +3225,9 @@
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
       "explanation": "正解 **D**。**Iodixanol（Visipaque）為 non-ionic dimer**（等滲）。Iopromide/Iohexol/Iopamidol 為非離子單體；Iothalamate meglumine 為離子單體。\n\n→ [[iodinated-contrast-media]]\n\n【2021 官方詳解】Non-ionic dimer = Iodixanol (Visipaque).\n\n⚠️ 本題含影像（官方詳解 PDF 第 74 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-085-1.png"
+      ],
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -3278,7 +3349,9 @@
       "correctAnswer": "C",
       "reference": "ACR BI-RADS Atlas® 5th Edition p15；2021 交換考官方詳解 PDF p1",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 1 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-088-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -3314,7 +3387,9 @@
       "correctAnswer": "A",
       "reference": "Fetal Hepatomegaly: Causes and Associations; RadioGraphics 2020; 40:589–604；2021 交換考官方詳解 PDF p8",
       "explanation": "【2021 官方詳解】Focal nodular hyperplasia : Hypoechoic lesion without vascularity at Doppler US\n\n⚠️ 本題含影像（官方詳解 PDF 第 8 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-089-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -3350,7 +3425,9 @@
       "correctAnswer": "D",
       "reference": "Fetal Hepatomegaly: Causes and Associations; RadioGraphics 2020; 40:589–604；2021 交換考官方詳解 PDF p9",
       "explanation": "【2021 官方詳解】Metastatic neuroblastoma : Heterogenous hyperechoic nodule with/without vascularity.\n\n⚠️ 本題含影像（官方詳解 PDF 第 9 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-089-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -3422,7 +3499,9 @@
       "correctAnswer": "C",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p16",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 16 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-092-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -3494,7 +3573,9 @@
       "correctAnswer": "A",
       "reference": "LI-RADS Version 2018 Ancillary Features at MRI RadioGraphics 2018; 38: 1973-2001；2021 交換考官方詳解 PDF p22",
       "explanation": "【2021 官方詳解】Non-enhancing “capsule” favors HCC.\n\n⚠️ 本題含影像（官方詳解 PDF 第 22 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-094-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -3530,7 +3611,9 @@
       "correctAnswer": "D",
       "reference": "LI-RADS Version 2018 Ancillary Features at MRI RadioGraphics 2018; 38: 1973-2001.；2021 交換考官方詳解 PDF p23",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 23 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-094-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -3566,7 +3649,9 @@
       "correctAnswer": "D",
       "reference": "Wolske, K. M., Ponnatapura, J., Kolokythas, O., Burke, L. M. B., Tappouni, R., & Lalwani, N. (2019). Chronic Pancreatitis or Pancreatic Tumor? A Problem-solving Approach. RadioGraphics, 39(7), 1965–1982. https://doi.org/10.1148/rg.2019190011；10.1148/rg.2019190011；2021 交換考官方詳解 PDF p24",
       "explanation": "【2021 官方詳解】Smooth narrowing of the pancreatic duct that traverses a pancreatic mass without abrupt obstruction\nstrongly favors the diagnosis of inflammatory mass.\n\n⚠️ 本題含影像（官方詳解 PDF 第 24 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-096-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -3674,7 +3759,9 @@
       "correctAnswer": "A",
       "reference": "Radiopedia；10.2214/AJR.12.8510；2021 交換考官方詳解 PDF p29",
       "explanation": "【2021 官方詳解】T2: prostate cancer usually appears as a region of low signal within a normally high signal peripheral zone\nDWI/ADC: often shows restricted diffusion\nThe normal prostate produces a large amount of citrate from the peripheral zone, which tumors do not 3.\nTumor = Increased choline: citrate ratio\nThere are three common dynamic curve types after initial uptake: type 1, persistent increase; type 2,\nplateau; and type 3, decline after initial upslope. Type 3 is considered the most suspicious for prostate\ncancer, especially if there is a focal asymmetric enhancing lesion\n10.2214/AJR.12.8510\n\n⚠️ 本題含影像（官方詳解 PDF 第 29 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-099-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -3782,7 +3869,9 @@
       "correctAnswer": "D",
       "reference": "Kamalian, S., Avery, L., Lev, M. H., Schaefer, P. W., Curtin, H. D., & Kamalian, S. (2019). Nontraumatic Head and Neck Emergencies. RadioGraphics, 39(6), 1808–1823. https://doi.org/10.1148/rg.2019190159；10.1148/rg.2019190159；2021 交換考官方詳解 PDF p33",
       "explanation": "⚠️ 疑似與 2021-008 為同一題（相似度 0.988），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 33 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-102-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -4070,7 +4159,9 @@
       "correctAnswer": "D",
       "reference": "次 American College of Radiology (ACR) and Society for Pediatric Radiology (SPR) guidelines clinical indications for voiding cystourethrography；2021 交換考官方詳解 PDF p47",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 47 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-110-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -4214,7 +4305,9 @@
       "correctAnswer": "D",
       "reference": "Front. Oncol., 04 June 2019  https://doi.org/10.3389/fonc.2019.00440；10.3389/fonc.2019.00440；2021 交換考官方詳解 PDF p53",
       "explanation": "【2021 官方詳解】雖然Choline > NAA, 但還有看到NAA (intra-axial tumor) @2ppm, 所以排除Meningioma.\n\n⚠️ 本題含影像（官方詳解 PDF 第 53 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-114-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -4250,7 +4343,10 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2006; 26:765–781；2021 交換考官方詳解 PDF p55",
       "explanation": "【2021 官方詳解】B. 嚴格來說超過正負10度就算Pathological了．雖然paper也同意說小於正負30度可以是normal.\n\n⚠️ 本題含影像（官方詳解 PDF 第 55 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-115-1.png",
+        "2021-115-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -4286,7 +4382,9 @@
       "correctAnswer": "D",
       "reference": "p182 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p57",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 57 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-116-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -4362,7 +4460,10 @@
       "correctAnswer": "E",
       "reference": "Quant Imaging Med Surg 2017;7(4):443-460；2021 交換考官方詳解 PDF p60",
       "explanation": "【2021 官方詳解】E. Scapholunate ligmanet 離TFCC有點距離\n\n⚠️ 本題含影像（官方詳解 PDF 第 60 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-118-1.jpg",
+        "2021-118-2.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -4438,7 +4539,9 @@
       "correctAnswer": "E",
       "reference": "AJCC Cancer Staging Manual 8th ed.；2021 交換考官方詳解 PDF p62",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 62 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-120-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -4514,7 +4617,9 @@
       "correctAnswer": "D",
       "reference": "AJCC cancer staging manual, 8th edition.；2021 交換考官方詳解 PDF p64",
       "explanation": "【2021 官方詳解】A. Invasion to bladder is stage IV, but presence of bullous edema is not sufficient evidence.\nB. Myometrial invasion represents IA.\nC. Invasion of cervical strome correspond to II.\nD. ?? Grade 3 是high grade, 所以切upper abdomen 是要看metastasis??\n\n⚠️ 本題含影像（官方詳解 PDF 第 64 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-122-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -4778,7 +4883,9 @@
       "correctAnswer": "C",
       "reference": "https://www.ncbi.nlm.nih.gov/books/NBK551559/；2021 交換考官方詳解 PDF p72",
       "explanation": "【2021 官方詳解】Auerbach plexus, also known by the name of myenteric plexus, is a group of ganglia that run throughout\nthe entire gastrointestinal tract and innervate its multiple layers of smooth muscle\n\n⚠️ 本題含影像（官方詳解 PDF 第 72 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-129-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -4930,7 +5037,15 @@
       "correctAnswer": "D",
       "reference": "Mayo Clinic Process. Feb 2019:94121:309-325；2021 交換考官方詳解 PDF p79",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 79 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-133-1.png",
+        "2021-133-2.png",
+        "2021-133-3.png",
+        "2021-133-4.png",
+        "2021-133-5.png",
+        "2021-133-6.png",
+        "2021-133-7.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -5294,7 +5409,9 @@
       "correctAnswer": "A",
       "reference": "Magn Reson Imaging Clin N Am 23 (2015) 427–440 page 433；2021 交換考官方詳解 PDF p96",
       "explanation": "【2021 官方詳解】Reference 沒有說為什麼，我也查不到相關原因，可能就是個現象．\n\n⚠️ 本題含影像（官方詳解 PDF 第 96 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-143-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -5474,7 +5591,9 @@
       "correctAnswer": "A",
       "reference": "2011 an Official ATS/ERS/JRS/ALAT Statement: Idiopathic Pulmonary Fibrosis: Evidence-based Guidelines for Diagnosis and Management；2021 交換考官方詳解 PDF p101",
       "explanation": "【2021 官方詳解】A. Honeycombing with or without traction bronchiectasis 是Definite UIP pattern!\n2011 出來的，但2018 小改版了.\n\n⚠️ 本題含影像（官方詳解 PDF 第 101 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-148-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -5510,7 +5629,9 @@
       "correctAnswer": "C",
       "reference": "Revisions to the TNM Staging of Lung Cancer: Rationale, Significance, and Clinical Application RadioGraphics 2018; 38:374–391；2021 交換考官方詳解 PDF p102",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 102 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-149-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -5618,7 +5739,9 @@
       "correctAnswer": "D",
       "reference": "Radiology Review Manual 5th edition (page 938)；2021 交換考官方詳解 PDF p106",
       "explanation": "【2021 官方詳解】Posterior urethral valves\n= congenital thick folds of mucous membrane located in posterior uretra distal to verumontanum\nTime of discovery: prenatal (8%), neonatal (34%), 1st year (32%), 2-16 year(23%), adult (3%)\nSymptom: UTI (36%), obstructive symptom (32%), palpable kidney/bladder in neonate(21%), failure to\nthrive (13%), hematuria (5%)\nVCUG: VUR (33%), fusiform ndistension elongation of proximal posterior uretra\nUS: Keyhole sign, Bilateral hydronephroureter, oligohydramnios\n\n⚠️ 本題含影像（官方詳解 PDF 第 106 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-152-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -5654,7 +5777,9 @@
       "correctAnswer": "D",
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.537；2021 交換考官方詳解 PDF p107",
       "explanation": "【2021 官方詳解】Infantile (pre-ductal) form: just distal to brachiocephalic artery proximal to dectus arteriosus, the blood\nsupple to the descending aorta is via the PDA.\nAdult (juxtaductal, postductal, middle aortic) form: distal to ligamentum arteriosum\nAortic isthmus = distal to the origin of the left subclavian artery at the site of the ductus arteriosus.\nPlain film:\n●\nFigure of 3 sign: contour abnormality of aorta\n●\nScalloped contouring of soft tissue posterior to sternum (=dilated tortuous internal mammary arteries)\non lateral X ray\n●\nInferior rib notching: Roesler sign (usually the 4th to 8th ribs)\nComplication:\nNeonatal herat failure, SAH from ruptured berry aneurysm, aortic dissection, infective endocarditis, mycotic\naneurysm\n\n⚠️ 本題含影像（官方詳解 PDF 第 107 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-153-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -5870,7 +5995,10 @@
       "correctAnswer": "C",
       "reference": "European Radiology https://doi.org/10.1007/s00330-019-06357-8 /Published online: 5 September 2019 y (2020) 30:2627–2650；10.1007/s00330-019-06357-8；2021 交換考官方詳解 PDF p113",
       "explanation": "【2021 官方詳解】ACA guideline 2020版\n\n⚠️ 本題含影像（官方詳解 PDF 第 113 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-159-1.jpg",
+        "2021-159-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -6162,7 +6290,9 @@
       "correctAnswer": "C",
       "reference": "Practiacal Neuroangiography 2nd Edition P158；2021 交換考官方詳解 PDF p122",
       "explanation": "【2021 官方詳解】A: Inferior lateral trunk\nB: Recurrent branch: along CN VI, supply territory of marginal tentorial or lateral tentorial arteries\nC: Anterior medial branch: through superior orbital fissure anastomosis with recurrent meningeal bran of\nophthalmic artery\nD: Artery to foramen rotundem: Supply maxillary division of CN V\nE: Artery of foramen ovale: anastomoses with accessory meningeal artery\nArtery of foramen lacerum: anastomosis with carotid branch from ascending pharyngeal artery\n\n⚠️ 本題含影像（官方詳解 PDF 第 122 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-167-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普",
@@ -6274,7 +6404,9 @@
       "correctAnswer": "E",
       "reference": "Imaging Features of Hypertrophic Olivary Degeneration. Journal of the Belgian Society of Radiology. 2016;100(1):71.；2021 交換考官方詳解 PDF p125",
       "explanation": "【2021 官方詳解】Hypertrophic olivary degeneration\n●\ncaused by a lesion along the dentate-rubro-olivary pathway,\nalso known as the anatomic triangle of Guillain-Mollaret\n●\nThe classical clinical presentation consists of palatal\nmyoclonus\n●\nTypically, within a few months, T2 signal increases and lasts\nfor 3-4 years, whereas hypertrophy occurs later (at about\none year), and resolves by 3-4 years. There are three stages:\n1. T2 hyperintense without olivary swelling\n2. T2 hyperintense and olivary swelling occur concomitantly,\ndeveloping after 6 months and persisting for nearly 3-4 years\n3. olivary swelling subsides, but T2 hyperintensity persists\n\n⚠️ 本題含影像（官方詳解 PDF 第 125 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-170-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -6498,7 +6630,9 @@
       "correctAnswer": "C",
       "reference": "Chest CT in COVID-19: What the Radiologist Needs to Know RadioGraphics Volume 40, Issue 7Oct 23 2020 37:777–794；2021 交換考官方詳解 PDF p131",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 131 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-176-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中等",
@@ -6570,7 +6704,9 @@
       "correctAnswer": "D",
       "reference": "2021 交換考官方詳解 PDF p133",
       "explanation": "【2021 官方詳解】the exuberant honeycombing sign, the anterior upper lobe sign, and the straight-edge sign have high\nspecificity but modest sensitivity in suggesting that UIP on CT images is due to CTD-ILD rather than IPF\n\n⚠️ 本題含影像（官方詳解 PDF 第 133 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-178-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -6678,7 +6814,9 @@
       "correctAnswer": "A",
       "reference": "Radiology: Cardiothoracic Imaging 2020; 2(5):e200280；2021 交換考官方詳解 PDF p136",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 136 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-181-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -6750,7 +6888,9 @@
       "correctAnswer": "D",
       "reference": "Radiology multiple choice questions and answers https://engineeringinterviewquestions.com/radiology-objective-questions-and -answers/；2021 交換考官方詳解 PDF p138",
       "explanation": "⚠️ 疑似與 2021-028 為同一題（相似度 0.951），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 138 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-183-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -6822,7 +6962,9 @@
       "correctAnswer": "D",
       "reference": "Straight-edege sign, anterior upper lobe sign, and exuberant honey combing sign are much more common in and highly specific for CTDUIP than IPF UIP. CT Features of the Usual Interstitial Pneumonia Pattern: Differentiating Connective Tissue Disease–Associated Interstitial Lung Disease From Idiopathic Pulmonary Fibrosis American Journal of Roentgenology. 2018;210: 307-313. 10.2214/AJR.17.18384；10.2214/AJR.17.18384；2021 交換考官方詳解 PDF p140",
       "explanation": "【2021 官方詳解】the exuberant honeycombing sign, the anterior upper lobe sign, and the straight-edge sign have high\nspecificity but modest sensitivity in suggesting that UIP on CT images is due to CTD-ILD rather than IPF\n\n⚠️ 本題含影像（官方詳解 PDF 第 140 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-178-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -7170,7 +7312,9 @@
       "correctAnswer": "C",
       "reference": "Circulation. 2015;131:1599-160；2021 交換考官方詳解 PDF p150",
       "explanation": "【2021 官方詳解】Systemic anticoagulation is the mainstay of treatment for MVT\n\n⚠️ 本題含影像（官方詳解 PDF 第 150 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-194-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -7358,7 +7502,9 @@
       "correctAnswer": "B",
       "reference": "Imaging the Triangular Fibrocartilaginous Complex；2021 交換考官方詳解 PDF p156",
       "explanation": "【2021 官方詳解】Palmer classification for triangular fibrocartilage complex (TFCC) abnormalities\nClass 1 - traumatic injury\n●\na: central perforation of the triangular fibrocartilage (TFC)\ndisc proper\n●\nb: ulnar avulsion with or without distal ulnar fracture\no\nmay involve the proximal or distal lamina (foveal and\nstyloid attachment, respectively), or both\n●\nc: distal avulsion of the TFCC involving ulnotriquetral and\nulnolunate ligaments\n●\nd: radial avulsion of the TFC disc proper +/- sigmoid notch\nfracture\nClass 2 - degenerative injury (ulnocarpal abutment syndrome)\n●\na: TFCC wear with thinning/fraying without perforation\n●\nb: TFCC wear in 2a with lunate, triquetral and/or ulnar chondromalacia\n●\nc: TFCC perforation +/- 2b chondromalacia\n●\nd: lunotriquetral ligament perforation +/ features of 2a, 2b and/or 2c\n●\ne: any or all of above with ulnocarpal arthritis\n\n⚠️ 本題含影像（官方詳解 PDF 第 156 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-199-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -7542,7 +7688,10 @@
       "correctAnswer": "E",
       "reference": "RadioGraphics 2021; 41:144–155；2021 交換考官方詳解 PDF p161",
       "explanation": "【2021 官方詳解】Zero-column tibial plateau fractures are pure articular surface depression fractures with no associated\ncleavage-type fracture.\nOne-column tibial plateau fractures involve only the medial, lateral, or posterior column, with a fracture\nline disrupting the cortical surface of the column wall. The key to diagnosis is the presence of a split\nfracture with a single separate fragment in the involved column.\nTwo-column fractures involve two of the three columns and must have two discrete fracture fragments,\neach of which has a fracture line extending to the cortical surface of the involved column. For example, a\nlateral tibial plateau fracture would be considered a two-column fracture if there is an anterolateral\nfracture plus a separate posterolateral fracture fragment. This distinction is important because recent\northopedic literature advocates for an altered surgical approach to allow dorsal plating of a separate\nposterolateral fracture fragment for the best surgical outcome.\nThree-column fractures involve all three columns of the tibial plateau, with fracture lines in each column\nextending to the cortical surface of the respective column wall. Three-column fractures are typically the\nresult of high-energy trauma, resulting in highly comminuted fractures. These fractures must have at least\none separate fracture fragment in each column\n\n⚠️ 本題含影像（官方詳解 PDF 第 161 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-204-1.gif",
+        "2021-204-2.gif"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -7578,7 +7727,10 @@
       "correctAnswer": "D",
       "reference": "RadioGraphics 2005; 25:399 – 410；2021 交換考官方詳解 PDF p163",
       "explanation": "【2021 官方詳解】Osteonecrosis of the talus follows a characteristic radiographic sequence that generally begins with an\nincrease in talar dome opacity (sclerosis), then advances to deformity and, in severe cases, to articular\ncollapse and bone fragmentation\nThe Hawkins sign, which becomes evident 6–8 weeks after injury, is an area of disuse osteopenia caused by\nresorption of the subchondral bone and is visualized as a thin subchondral radiolucent line along all or part\nof the talar dome\n\n⚠️ 本題含影像（官方詳解 PDF 第 163 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-205-1.jpg",
+        "2021-205-2.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -7734,7 +7886,10 @@
       "correctAnswer": "C",
       "reference": "Governale LS. Craniosynostosis. Pediatr Neurol. 2015;53(5):394-401. doi:10.1016/j.pediatrneurol.2015.07.006；10.1016/j.pediatrneurol.2015.07.006；2021 交換考官方詳解 PDF p169",
       "explanation": "【2021 官方詳解】C🡪 anterior/frontal plagiocephaly\n●\nbrachycephaly: bicoronal and/or bilambdoid sutures\n●\nscaphocephaly/dolichocephaly: sagittal suture\n●\nplagiocephaly: unilateral coronal and lambdoid sutures\no\nanterior/frontal plagiocephaly: unilateral coronal suture\no\nposterior/occipital plagiocephaly: unilateral lambdoid suture\n●\ntrigonocephaly: metopic suture\n●\npachycephaly: lambdoid suture\n●\noxycephaly/turricephaly: sagittal, coronal and lambdoid sutures (tower like skull)\n●\ncloverleaf skull/Kleeblattschadel: intrauterine sagittal, coronal, lambdoid sutures (most severe)\n●\nharlequin eye: ipsilateral coronal suture\n●\nprogressive postnatal pansynostosis: rare form of craniosynostosis which involves late (postnatal) fusion\nof all cranial sutures\n\n⚠️ 本題含影像（官方詳解 PDF 第 169 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-209-1.jpg",
+        "2021-209-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -7770,7 +7925,11 @@
       "correctAnswer": "D",
       "reference": "Cherian EV, Shenoy KV, Bukelo MJ, Thomas DA. Racing car brings tear drops in the moose. BMJ Case Rep. 2013;2013:bcr2012008165. Published 2013 Feb 21. doi:10.1136/bcr-2012-008165；10.1136/bcr-2012-008165；2021 交換考官方詳解 PDF p172",
       "explanation": "【2021 官方詳解】Ventricles:\nRacing car appearance on axial image (ventricles run parallel)\nColpocephaly: dilatation of trigones and occipital horns 🡪 Moose head, viking helmet appearance\n*** Molar tooth sign: Joubert syndrome\n\n⚠️ 本題含影像（官方詳解 PDF 第 172 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-210-1.jpg",
+        "2021-210-2.jpg",
+        "2021-210-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8174,7 +8333,9 @@
       "correctAnswer": "B",
       "reference": "N Engl J Med 2020; 382:503-513；2021 交換考官方詳解 PDF p189",
       "explanation": "【2021 官方詳解】In the NELSON trial, volume CT lung-cancer screening of high-risk former and current smokers, with the\nintroduction of growth-rate assessment as an imaging biomarker for indeterminate tests, resulted in low\nreferral rates for additional assessments and substantially lower lung-cancer mortality (in both sexes) than\nno screening, despite screening intervals that increased over time.\n\n⚠️ 本題含影像（官方詳解 PDF 第 189 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-221-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -8282,7 +8443,12 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1848-1865；2021 交換考官方詳解 PDF p192",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 192 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-176-1.jpg",
+        "2021-224-2.png",
+        "2021-224-3.png",
+        "2021-224-4.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8390,7 +8556,9 @@
       "correctAnswer": "D",
       "reference": "Antoniou KM, et al. Interstitial lung disease. Eur Respir Rev 2014; 23: 40–54.；2021 交換考官方詳解 PDF p195",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 195 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-227-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -8426,7 +8594,9 @@
       "correctAnswer": "A",
       "reference": "Rami-Porta R, Asamura H, Travis WD, Rusch VW. Lung cancer - major changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017;67:138–155.；2021 交換考官方詳解 PDF p196",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 196 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-228-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -8466,7 +8636,9 @@
       "correctAnswer": "E",
       "reference": "Diagnostic HRCT criteria for usual interstitial pneumonia (UIP) pattern - ATS/ERS/JRS/ALAT (2018)；2021 交換考官方詳解 PDF p197",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 197 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-229-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -8502,7 +8674,9 @@
       "correctAnswer": "D",
       "reference": "Radiopaedia Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615.；2021 交換考官方詳解 PDF p198",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 198 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-230-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8538,7 +8712,9 @@
       "correctAnswer": "A",
       "reference": "Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615. Kligerman, S. J., Franks, T. J., & Galvin, J. R. (2013). From the radiologic pathology archives: organization and fibrosis as a response to lung injury in diffuse alveolar damage, organizing pneumonia, and acute fibrinous and organizing pneumonia. Radiographics, 33(7), 1951-1975. (A)ThehistologicpatternofCOPisorganizingpneumonia,formerlyreferred to as bronchiolitis obliterans organizing pneumonia (BOOP).；2021 交換考官方詳解 PDF p199",
       "explanation": "【2021 官方詳解】Reference 1\n:\n\n⚠️ 本題含影像（官方詳解 PDF 第 199 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-231-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8574,7 +8750,9 @@
       "correctAnswer": "C",
       "reference": "Vol. 38, No. 2 Lynch Syndrome: Genomics Update and Imaging Review；2021 交換考官方詳解 PDF p200",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 200 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-232-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -8646,7 +8824,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p202",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 202 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-234-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8682,7 +8862,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p203",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 203 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-235-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -8718,7 +8900,10 @@
       "correctAnswer": "C",
       "reference": "RadioGraphicsVol. 29, No. 6Vol. 41, No. 2 MR Imaging of Cystic Lesions of thePancreas；2021 交換考官方詳解 PDF p204",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 204 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-236-1.png",
+        "2021-236-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -8754,7 +8939,9 @@
       "correctAnswer": "B",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p205",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 205 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-237-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -8790,7 +8977,11 @@
       "correctAnswer": "C",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p206",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 206 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-238-1.png",
+        "2021-238-2.png",
+        "2021-238-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -8898,7 +9089,9 @@
       "correctAnswer": "C",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p209",
       "explanation": "【2021 官方詳解】The fat split, target, and fascicular signs have been described in association with schwannomas.\nThe fat split sign is a thin rim of fat around the lesion, seen as high T1 SI.\nThe target sign consists of a peripheral high-SI myxoid component and a central low-SI fibrous component\non T2-weighted images.\nThe fascicular sign corresponds to multiple low-SI strands with peripheral high SI on T2-weighted images,\nrepresenting the fascicular bundles within the nerves.\n\n⚠️ 本題含影像（官方詳解 PDF 第 209 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-241-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -9118,13 +9311,16 @@
       "correctAnswer": "E",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.196 2 World J Hepatol. Jul 27, 2018; 10(7): 462-473 3 EASL extended criteria for SORAMIC clinical trial.；2021 交換考官方詳解 PDF p215",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 215 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-247-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "劉高郎",
       "sourcePage2021": 215,
-      "hasImage": true
+      "hasImage": true,
+      "imagesOnFront": true
     },
     {
       "id": "2021-248",
@@ -9154,7 +9350,9 @@
       "correctAnswer": "B",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.223 2 2012 Revised Atlanta Classification of pancreatitis fluid collection 3 https://radiologyassistant.nl/abdomen/pancreas/acute-pancreatitis#peripa ncreatic-collections；2021 交換考官方詳解 PDF p216",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 216 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-248-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -9194,7 +9392,9 @@
       "correctAnswer": "B",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.225 2 RadioGraphics 2015; 35:2007–2025；2021 交換考官方詳解 PDF p217",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 217 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-249-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -9234,7 +9434,9 @@
       "correctAnswer": "C",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.182；2021 交換考官方詳解 PDF p218",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 218 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-250-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -9650,13 +9852,17 @@
       "correctAnswer": "D",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.736；2021 交換考官方詳解 PDF p229",
       "explanation": "【2021 官方詳解】???radiopaedia和radiology key寫得不一樣\nradiopaedia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 229 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-261-1.png",
+        "2021-261-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
       "author": "游治維",
       "sourcePage2021": 229,
-      "hasImage": true
+      "hasImage": true,
+      "imagesOnFront": true
     },
     {
       "id": "2021-262",
@@ -9902,7 +10108,9 @@
       "correctAnswer": "B",
       "reference": "Radiation-induced brain tumours after central nervous system irradiation in childhood: a review. Child's Nervous System volume 24, pages793–805(2008)；2021 交換考官方詳解 PDF p236",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 236 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-268-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10190,7 +10398,10 @@
       "correctAnswer": "D",
       "reference": "Greenberg, S. M., & Charidimou, A. (2018). Diagnosis of cerebral amyloid angiopathy: evolution of the Boston criteria. Stroke, 49(2), 491-497. Pasi, M., Charidimou, A., Boulouis, G., Auriel, E., Ayres, A., Schwab, K. M., ... & Gurol, M. E. (2018). Mixed-location cerebral hemorrhage/microbleeds: underlying microangiopathy and recurrence risk. Neurology, 90(2), e119-e126.；2021 交換考官方詳解 PDF p244",
       "explanation": "【2021 官方詳解】(D) Probable CAA with supporting pathology, Probable CAA, and Possible CAA may show deep microbleeds\n\n⚠️ 本題含影像（官方詳解 PDF 第 244 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-276-1.png",
+        "2021-276-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -10370,7 +10581,9 @@
       "correctAnswer": "B",
       "reference": "Intracranial Vessel Wall MRI: Principles and Expert Consensus Recommendations of the American Society of Neuroradiology. AJNR Am J Neuroradiol; 2017;38:218–29；2021 交換考官方詳解 PDF p250",
       "explanation": "【2021 官方詳解】(A)(C)(D)如下圖\n(B) Slow flow and Vasa Vasorum of major extracranial arteries may mimic vessel wall thickening, wall\nenhancement, and vasculitis.\nMost VW-MR imaging techniques rely on blood flow to achieve blood-signal suppression. Blood flow is\noften laminar, with lower velocity closer to the vessel wall. Incomplete signal suppression in the periphery\nof the lumen can mimic vessel wall thickening and/or wall enhancement. Factors predisposing to these\nartifacts include recirculating or slow flow within an aneurysm, low velocity flow in a dilated artery, and\nretrograde filling of a branch artery via leptomeningeal collaterals when there is proximal arterial occlusion.\nThe walls of major extracranial arteries receive blood supply through the vasa vasorum, a network of small\nvessels within the outer aspect of the vessel wall itself. Intracranial vessels in children lack a vasa vasorum.\nHowever, with increasing age and with atherosclerotic risk factors, extracranial vasa vasorum can extend\ninto the proximal intracranial segments of the internal carotid and vertebral arteries. In patients with a\nvariety of intracranial arterial diseases, a vasa vasorum can also develop distant from the extracranial vasa\nvasorum, with supply from nearby intracranial arteries. Vasa vasorum can cause concentric arterial wall\nthickening and enhancement, which mimic vasculitis.\n\n⚠️ 本題含影像（官方詳解 PDF 第 250 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-281-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10406,7 +10619,9 @@
       "correctAnswer": "A",
       "reference": "Spectrum of Critical Imaging Findings in Complex Facial Skeletal Trauma. RadioGraphics 2013; 33:3–19；2021 交換考官方詳解 PDF p252",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 252 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-282-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -10442,7 +10657,9 @@
       "correctAnswer": "D",
       "reference": "Dahner Radiology Review Manual 7th ed., p. 58；2021 交換考官方詳解 PDF p253",
       "explanation": "⚠️ 疑似與 2021-048 為同一題（相似度 0.849），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 253 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-283-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -10478,7 +10695,9 @@
       "correctAnswer": "C",
       "reference": "Dahnert Radiology Review Manual 7th ed., pp. 32-33  = =” p.137才對…….；2021 交換考官方詳解 PDF p255",
       "explanation": "【2021 官方詳解】(C) Older women\n\n⚠️ 本題含影像（官方詳解 PDF 第 255 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-284-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -10586,7 +10805,9 @@
       "correctAnswer": "A",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p259",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 259 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-287-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -10622,7 +10843,9 @@
       "correctAnswer": "C",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p260",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 260 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-288-1.gif"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -10658,7 +10881,10 @@
       "correctAnswer": "B",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p261",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 261 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-289-1.jpg",
+        "2021-289-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -10694,7 +10920,9 @@
       "correctAnswer": "B",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p262",
       "explanation": "【2021 官方詳解】Ref: https://www.pathologyoutlines.com/\n(A) As a single feature, increased risk of cancer of 1.5 - 2x, as seen with proliferative fibrocystic changes (Cancer\n1989;64:1977)\n(B) atypical (ductal) hyperplasia: 4 - 5x risk of developing ductal carcinoma in situ within 5 years\n(Cancer Prev Res (Phila) 2014;7:211)\n(C) 查不到確切資料\n(D) Papillary hyperplasia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 262 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-290-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10730,7 +10958,9 @@
       "correctAnswer": "A",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p263",
       "explanation": "【2021 官方詳解】?? Ref: radioassistant\n\n⚠️ 本題含影像（官方詳解 PDF 第 263 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-291-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10766,7 +10996,9 @@
       "correctAnswer": "C",
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, Table 28-1；2021 交換考官方詳解 PDF p264",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 264 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-292-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -10878,7 +11110,10 @@
       "correctAnswer": "A",
       "reference": "A systematic review of 639 patients with biopsy-confirmed nephrogenic system fibrosis. Radiology 2019; 292:376-386.；2021 交換考官方詳解 PDF p267",
       "explanation": "⚠️ 疑似與 2021-075 為同一題（相似度 0.883），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 267 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-295-1.png",
+        "2021-295-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10918,7 +11153,9 @@
       "correctAnswer": "B",
       "reference": "Immediate allergic reactions to gadolinium-based contrast agents: a systemic review and meta-analysis. Radiology 2018; 286:471-482.；2021 交換考官方詳解 PDF p269",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 269 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-296-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10958,7 +11195,10 @@
       "correctAnswer": "B",
       "reference": "Extracellular gadolinium-based contrast media: an overview. Eur J Radiol 2008; 66:160-167；2021 交換考官方詳解 PDF p270",
       "explanation": "⚠️ 疑似與 2021-072 為同一題（相似度 0.828），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 270 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-297-1.png",
+        "2021-297-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -10994,7 +11234,9 @@
       "correctAnswer": "D",
       "reference": "8th edition radiology review manual. P.274      74……；2021 交換考官方詳解 PDF p271",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 271 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-298-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -11030,7 +11272,9 @@
       "correctAnswer": "B",
       "reference": "8th edition radiology review manual. P.772；2021 交換考官方詳解 PDF p273",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-299-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -11106,7 +11350,9 @@
       "correctAnswer": "B",
       "reference": "CT/MRI LI-RADS® v2018 CORE p19；2021 交換考官方詳解 PDF p275",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 275 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-301-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -11182,7 +11428,9 @@
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 85；2021 交換考官方詳解 PDF p277",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 277 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-303-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -11218,7 +11466,9 @@
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 164；10.1148/radiol.2019182646；2021 交換考官方詳解 PDF p278",
       "explanation": "【2021 官方詳解】Ref: Bosniak classification 2019 Radiology 2019; 292:475–488; https://doi.org/10.1148/radiol.2019182646\n\n⚠️ 本題含影像（官方詳解 PDF 第 278 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-304-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -11362,7 +11612,9 @@
       "correctAnswer": "B",
       "reference": "Radiology: Volume 292: Number 2—August 2019；2021 交換考官方詳解 PDF p284",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 284 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-308-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11398,7 +11650,9 @@
       "correctAnswer": "D",
       "reference": "書名：Osborn, A Diagnostic Neuroradiology (1994) 頁次：p. 407-8；2021 交換考官方詳解 PDF p285",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 285 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-309-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "□ 難  □普通  ■易",
@@ -11470,7 +11724,9 @@
       "correctAnswer": "A",
       "reference": "Baik SH, Park HJ, Kim JH, Jang CK, Kim BM, Kim DJ. Mechanical Thrombectomy in Subtypes of Basilar Artery Occlusion: Relationship to Recanalization Rate and Clinical Outcome. Radiology. 2019;291(3):730‐737；2021 交換考官方詳解 PDF p289",
       "explanation": "【2021 官方詳解】mRS score = Modified Rankin scale classified as favorable (modified Rankin scale score, 0–2) or poor\n(modified Rankin scale score, 3–6).\n\n⚠️ 本題含影像（官方詳解 PDF 第 289 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-311-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11542,7 +11798,10 @@
       "correctAnswer": "C",
       "reference": "Prostate Imaging Reporting & Data System - PI-RADS 2015 version 2；2021 交換考官方詳解 PDF p291",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 291 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-313-1.png",
+        "2021-313-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11578,7 +11837,11 @@
       "correctAnswer": "B",
       "reference": "Prostate Imaging Reporting & Data System - PI-RADS 2015 version 2；2021 交換考官方詳解 PDF p292",
       "explanation": "【2021 官方詳解】Dynamic contrast enhancement (DCE)\n●\n(-) negative:\n○\nno early or contemporaneous enhancement, or\n○\ndiffuse multifocal enhancement not corresponding to a focal finding on T2W and/or DWI, or\n○\nfocal enhancement corresponding to a lesion demonstrating features of benign prostatic hyperplasia on T2W\n(including features of extruded benign prostatic hyperplasia nodule in the peripheral zone)\n●\n(+) positive:\n○\nfocal, and\n○\nearlier than or contemporaneous with enhancement of adjacent normal prostatic tissues, and\n○\ncorresponds to suspicious finding on T2 and/or DWI\n\n⚠️ 本題含影像（官方詳解 PDF 第 292 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-314-1.png",
+        "2021-314-2.png",
+        "2021-314-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11650,7 +11913,9 @@
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging: Genitourinary；2021 交換考官方詳解 PDF p296",
       "explanation": "【2021 官方詳解】Reversed diastolic flow in the transplant renal artery => highly suggestive of renal vein thrombosis.\nOther less common cause:\nDisorders such as allograft torsion\nSevere allograft rejection\nAcute tubular necrosis (ATN)\n\n⚠️ 本題含影像（官方詳解 PDF 第 296 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-316-1.jpg"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中等",
@@ -11766,7 +12031,11 @@
       "correctAnswer": "D",
       "reference": "RadioGraphics 2014; 34:1047–1061  (1048-1049 頁)；2021 交換考官方詳解 PDF p299",
       "explanation": "【2021 官方詳解】Hypoxic-Ischemic Injury in Term Neonates\nPeripheral pattern:\n- mild hypoxia or ischemia of prolonged duration\n- predominant in  cerebral cortex and subcortical white matter along the inter-vascular boundary zones.\nBasal ganglia–thalamus pattern\n- secondary to more severe hypoxic or ischemic event of short duration\n- abnormal hyperintensity on T1WI and hypointensity on T2WI in posterolateral putamen and ventrolateral\nthalamus.\n- Associated loss of normal hyperintensity on T1WI and  hypointensity on T2WI  in the posterior\nlimb of the internal capsule\n\n⚠️ 本題含影像（官方詳解 PDF 第 299 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-319-1.png",
+        "2021-319-2.png",
+        "2021-319-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "難",
@@ -11874,7 +12143,9 @@
       "correctAnswer": "D",
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p241；2021 交換考官方詳解 PDF p307",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 307 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-322-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11946,7 +12217,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2018; 38:p1586；2021 交換考官方詳解 PDF p309",
       "explanation": "【2021 官方詳解】C: ill-defined\nUS of adenomyosis:\n\"Venetian blind 百葉窗\" or \"rain shower\" appearance (linear striations, parallel shadowing)\ncirrhosis of the uterus (ill-defined)\n\"adeno\":\n-  subendometrial echogenic linear striations and/or nodules (specific sign), extending from endometrium\nand into inner myometrium\n-  hyperechoic islands\n-  tiny (1-5 mm) anechoic myometrial and subendometrial cysts (specific sign)\n\"myosis\":\n-  focal or diffuse myometrial bulkiness, which may be asymmetric\ntypically of the fundal region and posterior wall\n-  Vascularity: increased\nincreased number of tortuous vessels penetrating myometrium\n\n⚠️ 本題含影像（官方詳解 PDF 第 309 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-324-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -11982,7 +12255,9 @@
       "correctAnswer": "D",
       "reference": "UpToDate. Abdominal tuberculosis. Oct 25, 2019；2021 交換考官方詳解 PDF p323",
       "explanation": "【2021 官方詳解】D: tuberculous lymphadenitis : typical low-attenuation adenopathy\nCentral caseation =>  centrally low density and eventually frankly cystic.\nMatted together with only minor surrounding inflammatory changes\n\n⚠️ 本題含影像（官方詳解 PDF 第 323 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-325-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易\n普通",
@@ -12022,7 +12297,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2008; 28:2059–2063；2021 交換考官方詳解 PDF p324",
       "explanation": "【2021 官方詳解】Intraductal papillary neoplasm of the bile duct (IPNB)\npreinvasive biliary tree neoplasm=> cholangiocarcinoma\nbiliary papillomatosis=> diffuse type IPNB\nanalogous to IPMN of pancreas\nhighest malignant potential, recurrence rate 20% to 60%, depending on the presence of an invasive\ncomponent\n\n⚠️ 本題含影像（官方詳解 PDF 第 324 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-326-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -12058,7 +12335,11 @@
       "correctAnswer": "A",
       "reference": "Chung JH et al. AJR Am J Roentgenol 2018;210:307-313；2021 交換考官方詳解 PDF p325",
       "explanation": "【2021 官方詳解】connective tissue disease- interstitial lung disease (CTD-ILD)\nAnterior upper lobe sign:\nsubstantial degree of reticulation, traction bronchiectasis, and honeycombing within upper lobes, mostly\nconcentrated in anterior aspect\nexuberant honeycombing sign:\nperipheral- and basilar-predominant pulmonary fibrosis pattern characterized primarily by florid\nhoneycombing\nstraight-edge sign:\nstraight interface between fibrosis and normal lung orthogonal to lateral chest wall surface\n\n⚠️ 本題含影像（官方詳解 PDF 第 325 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-327-1.png",
+        "2021-327-2.png",
+        "2021-327-3.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -12246,7 +12527,9 @@
       "correctAnswer": "B",
       "reference": "JACC Cardiovasc Imaging. Mouaz H. Al-Mallah M. Coronary Artery Calcium Scoring. 2018.；2021 交換考官方詳解 PDF p334",
       "explanation": "【2021 官方詳解】Agatston score=  highest attenuation value (HU) multiplied by the area of the calcification speck\nDensity factor\n130-199 HU: 1\n200-299 HU: 2\n300-399 HU: 3\n400+ HU: 4\nif a calcified speck has a maximum attenuation value of 400 HU and occupies 8 sq mm area, then its\ncalcium score will be 32.\nGrading of coronary artery disease (based on total calcium score)\ncalcium score\nno evidence of CAD: 0\nminimal: 1-10\nmild: 11-100\nmoderate: 101-400\nsevere: >400\nB: information is not enough in this question\n\n⚠️ 本題含影像（官方詳解 PDF 第 334 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-332-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -12282,7 +12565,9 @@
       "correctAnswer": "B",
       "reference": "Ahmadi A. et al JCCT 2020; 14: 394；10.1161/CIRCULATIONAHA.108.767665；2021 交換考官方詳解 PDF p336",
       "explanation": "【2021 官方詳解】When the pretest probability of coronary artery disease is low (eg, asymptomatic screening setting), a CAC\nscore of zero is associated with low risk of coronary artery disease and low risk of near-term coronary\nevents.\nIn older asymptomatic patients with risk factors, CAC=0 is associated with a moderate increased risk of\nevents.\nPatient group with clinical signs and symptoms associated with an intermediate-to-high risk of coronary\ndisease, CAC=0 is often associated with myocardial ischemia on provocative testing (16% in their patients)\nand with a high risk of near-term coronary events (nearly 9 times higher than previously reported for any\nasymptomatic cohort). It is appropriate to question the added value of the CAC score in this moderately\nhigh-risk patient group\nRef: How Low-Risk Is a Coronary Calcium Score of Zero? The Importance of Conditional Probability\nhttps://doi.org/10.1161/CIRCULATIONAHA.108.767665   Circulation. 2008;117:1627–1629\n\n⚠️ 本題含影像（官方詳解 PDF 第 336 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-333-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
@@ -12322,7 +12607,9 @@
       "correctAnswer": "D",
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p338",
       "explanation": "【2021 官方詳解】Morton neuromas ( interdigital or intermetatarsal neuromas=> misnomer)\nfocal areas of symptomatic perineural fibrosis around a\nplantar digital nerve of the foot,\ndue to chronic entrapment of the nerve by the\nintermetatarsal ligament.\n=> Morton metatarsalgia\nMulder sign (Sign of physical examination)\nLocation: The 3rd web-space (between 3rd and 4th\nmetatarsal heads) is the most commonly affected site\nUS:\nround to ovoid, well-defined, hypoechoic lesion in the\nintermetatarsal space proximal to the metatarsal head. Not\ncompressible\nMRI\nDumbbell/ovoid-shaped lesion at a similar position to that described on ultrasound:\nT1: typically low-to-iso signal\nT2: typically low signal but can sometimes be intermediate in signal\nT1 C+ (Gd): variable enhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 338 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-334-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -12578,7 +12865,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2014; 34:1680–1691 International Association for the Study of Lung Cancer (IASLC) Lymph Node Map: Radiologic Review with CT Illustration；2021 交換考官方詳解 PDF p353",
       "explanation": "【2021 官方詳解】C. Left lateral wall of the trachea  (not the midline) serves as the boundary between\nright and left upper/lower  paratracheal lymph nodes\nOther teaching point:\nBecause the plane of the thoracic inlet bisects the axial plane at conventional thoracic\nCT, the visible sections of the right and left first ribs serve as the most reliable landmarks for the\nthoracic inlet at axial CT.\n\n⚠️ 本題含影像（官方詳解 PDF 第 353 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-341-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -12618,7 +12907,10 @@
       "correctAnswer": "E",
       "reference": "RadioGraphics 2019; 39:344–366 Recognizing Radiation Therapy– related Complications in the Chest；2021 交換考官方詳解 PDF p354",
       "explanation": "【2021 官方詳解】Mesothelioma, esophageal cancer have been reported\n\n⚠️ 本題含影像（官方詳解 PDF 第 354 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-342-1.png",
+        "2021-342-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -12654,7 +12946,10 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2020; 40:515–528 Imaging Evaluation of Tracheobronchial Injuries；2021 交換考官方詳解 PDF p356",
       "explanation": "【2021 官方詳解】C. Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations.\nCuff overinflation can be depicted at CT or radiography by a discrepancy in cuff diameter relative to the\nadjacent trachea.\n\n⚠️ 本題含影像（官方詳解 PDF 第 356 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-343-1.png",
+        "2021-343-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -12726,7 +13021,9 @@
       "correctAnswer": "D",
       "reference": "2020 中華民國放射線醫學會對比劑手冊 ACR Manual On Contrast Media 2020；2021 交換考官方詳解 PDF p361",
       "explanation": "【2021 官方詳解】接受放射線碘 131 治療者，最好在治療前兩個月內不曾使用含碘對比劑。\n若病情需要，則最好安排在使用含碘對比劑 4 周之後接受放射線碘 131 治療。\n接受含碘造影劑後兩個月內，應避免核子醫學甲狀腺同位素掃瞄\n\n⚠️ 本題含影像（官方詳解 PDF 第 361 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-345-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -12762,7 +13059,9 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1528–1553；2021 交換考官方詳解 PDF p362",
       "explanation": "【2021 官方詳解】Ref: CT for Pre- and Postprocedural Evaluation of Transcatheter Mitral Valve Replacement\nA. Mitral orifice area > 4cm2 => favorable anatomy\nC. Mobile leaflet length > 1cm => favorable anatomy\nD. LVOT obstruction => postprocedural LVOT gradient increase 10 mm Hg or mor\n\n⚠️ 本題含影像（官方詳解 PDF 第 362 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-346-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -12834,7 +13133,10 @@
       "correctAnswer": "A",
       "reference": "Radiographics 2020;40:961-981；2021 交換考官方詳解 PDF p366",
       "explanation": "【2021 官方詳解】C.\nIn cardiac amyloidosis, typical LGE pattern involves global subendocardial  LGE distributed in a\nnon–coronary artery territory with a dark blood pool.\n\n⚠️ 本題含影像（官方詳解 PDF 第 366 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-348-1.png",
+        "2021-348-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13014,7 +13316,10 @@
       "correctAnswer": "D",
       "reference": "Meyers' Dynamic Radiology of the Abdomen, p.230-231；2021 交換考官方詳解 PDF p371",
       "explanation": "【2021 官方詳解】Superficial drainage\nDeep drainage\n\n⚠️ 本題含影像（官方詳解 PDF 第 371 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-353-1.png",
+        "2021-353-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13122,7 +13427,10 @@
       "correctAnswer": "B",
       "reference": "Taylor E, et al. Multimodality Imaging Approach to Ovarian Neoplasms with Pathologic Correlation. Radiographics 2021; 41:289-315.；2021 交換考官方詳解 PDF p375",
       "explanation": "【2021 官方詳解】B.\nEpithelial cell neoplasms are the most common, followed by germ cell tumors\n\n⚠️ 本題含影像（官方詳解 PDF 第 375 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-356-1.png",
+        "2021-356-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -13158,7 +13466,10 @@
       "correctAnswer": "A",
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p376",
       "explanation": "【2021 官方詳解】A. At imaging, tumor thrombus is more expansive than bland  thrombus, demonstrates enhancement, and\nmay have imaging features similar to those of the primary malignancy.  Another helpful indicator of tumor\nthrombus is contiguity  with the primary mass.\nICC: intrahepatic cholangiocarcinoma\nPNET: pancreatic neuroendocrine tumor\n\n⚠️ 本題含影像（官方詳解 PDF 第 376 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-357-1.png",
+        "2021-357-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
@@ -13430,7 +13741,10 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2021; 41:156–174；2021 交換考官方詳解 PDF p384",
       "explanation": "【2021 官方詳解】C. high signal intensity at T2-weighted MRI (edema)\n\n⚠️ 本題含影像（官方詳解 PDF 第 384 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-364-1.png",
+        "2021-364-2.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13538,7 +13852,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2018; 38:169–193；2021 交換考官方詳解 PDF p388",
       "explanation": "【2021 官方詳解】C:\nMOG-IgG–positive NMOSD patients usually have younger age of onset than AQP4-IgG–positive patients\nand tend to have monophasic course with a favorable outcome\n\n⚠️ 本題含影像（官方詳解 PDF 第 388 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-367-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13646,7 +13962,9 @@
       "correctAnswer": "C",
       "reference": "Front Oncol. 2014 Jul 22;4:176. AJNR Am J Neuroradiol. 2019 Jan;40(1):154-161 Acta Neuropathol. 2012 Apr; 123(4): 473–484.；2021 交換考官方詳解 PDF p393",
       "explanation": "【2021 官方詳解】D. mild or no enhancement\nMedulloblastoma:\nWNT =>(least common, children and adults), cerebellar peduncle, best prognosis\nSHH =>(infants and adult)  cerebellar hemisphere, intermediate prognosis,\nGroup3 =>(infants and children)  midline, ill-defined margins but prominent enhancement, worst prognosis\nGroup4=>  (most common,typically children) well-defined margins but mild or no enhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 393 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-370-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13682,7 +14000,9 @@
       "correctAnswer": "A",
       "reference": "1. Bhattacharya JJ, Luo CB, Suh DC, Alvarez H, Rodesch G, Lasjaunias P. Wyburn-Mason or Bonnet-Dechaume-Blanc as Cerebrofacial Arteriovenous Metameric Syndromes (CAMS). A New Concept and aNewClassification.Interv Neuroradiol. 2001 Mar 30;7(1):5-17. doi: 10.1177/159101990100700101. Epub 2001 May 15. PMID: 20663326; PMCID: PMC3621461. 2. Luo CB, Lasjaunias P, Bhattacharya J. Craniofacial vascular malformations in Wyburn-Mason syndrome. J Chin Med Assoc. 2006 Dec;69(12):575-80. doi: 10.1016/S1726-4901(09)70332-6. PMID: 17182351.；10.1177/159101990100700101.；2021 交換考官方詳解 PDF p395",
       "explanation": "【2021 官方詳解】B. typically unilateral vascular malformations that primarily involve the brain, orbits and facial structures\nWyburn-Mason syndrome\nNonhereditary neurocutaneous disorder=> craniofacial arteriovenous metameric syndrome (CAMS)\ntypicallypresentswithunilateralvascularmalformationsthatprimarilyinvolvethebrain,orbitsandfacial\nstructures\nFeatures include:\nfacial vascular nevus\nvisual pathway and orbital arteriovenous malformations (AVMs), e.g. racemose angioma\nintracranial arteriovenous malformations (AVMs) commonly in midbrain\n\n⚠️ 本題含影像（官方詳解 PDF 第 395 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-371-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
@@ -13754,7 +14074,9 @@
       "correctAnswer": "D",
       "reference": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACT TI-RADS Committee. J Am Coll Radiol 2017;14:587-595；2021 交換考官方詳解 PDF p403",
       "explanation": "【2021 官方詳解】macrocalcifications: 1 point\nperipheral/rim calcifications: 2 points\npunctate echogenic foci: 3 points\nANS:Ｃ\n\n⚠️ 本題含影像（官方詳解 PDF 第 403 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [],
+      "images": [
+        "2021-373-1.png"
+      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
