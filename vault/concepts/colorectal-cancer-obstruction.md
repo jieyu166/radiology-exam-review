@@ -38,7 +38,7 @@ dateRev: 2026-07-06
 
 ## 題目
 > [!question]- Approximately half of all cases of large bowel obstruction are related to colon cancer. Approximately what percentage of people with colon cancer will develop obstruction? (2022-478)
-> **B. 20%（關鍵）**——大腸癌為大腸阻塞最常見病因（約佔 50–60%），但反過來只有少數大腸癌會發生阻塞，臨床文獻多引約 10–20%（範圍約 8–29%）。⚠️ 匯入題原始答案標記不一致（選項 A 5% 內文標「correct」但 answer 欄標 E 80%）；5% 偏低（近穿孔比例）、80% 顯然過高（近似「阻塞由癌造成」的反向比例），依文獻校正為 20%（B）。[^1][^2][^3]
+> **A. 5%**——醫師覆核（2026-07-10）確認原卷答案 **A**；確切比例需回查原始論文。大腸癌仍為大腸阻塞最常見病因（約占半數）。先前依外科文獻校正為 20%（B）之更正已撤回。
 
 ## 考題
 ```dataview

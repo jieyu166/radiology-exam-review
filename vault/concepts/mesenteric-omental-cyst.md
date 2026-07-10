@@ -33,7 +33,7 @@ dateRev: 2026-07-06
 
 ## 題目
 > [!question]- Failure of the mesentery to fuse is a congenital anomaly associated with development of a(n): (2022-471)
-> **B. mesentery cyst（腸繫膜囊腫，關鍵）**——依 Radiopaedia，「腸繫膜兩葉未能正常融合（failure of the leaves of the mesentery to fuse）」正是**腸繫膜囊腫**的公認胚胎成因之一。⚠️ 本題交換考輸入答案標為 A（omental cyst，網膜囊腫）；網膜囊腫機轉類似但位於網膜，題幹既言「mesentery」，權威來源支持腸繫膜囊腫。臍疝（umbilical hernia）為腹壁缺損、Meckel 憩室為卵黃管殘留，成因不同。[^1][^2]
+> **A. omental cyst（網膜囊腫）**——醫師覆核（2026-07-10）依原文：腸繫膜未能融合（failure of the mesentery to fuse）對應**網膜囊腫**；**腸繫膜囊腫**則與 Wolffian 管／淋巴管有關。臍疝為腹壁缺損、Meckel 憩室為卵黃管殘留。先前判 B 之更正已撤回。
 
 ## 考題
 ```dataview

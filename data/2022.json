@@ -13295,9 +13295,9 @@
           "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia + ACR Manual on Contrast Media 2026 嚴重度分級）",
-      "explanation": "本題問「何者為非」。依 ACR 與 Radiopaedia，中度（moderate）對比劑反應需給予特定藥物治療（如廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非『不需治療』，故 B 為錯誤敘述（即答案）。A（輕度多自限、一般無需特殊治療）、C（重度需立即治療）、D（重度過敏可給 epinephrine 1:1000 IM）皆正確。⚠️ 原輸入答案標記 A 有誤——A 為正確敘述，真正『為非』者為 B。→ [[contrast-adverse-reactions]]",
+      "explanation": "本題問「何者為非」。依 ACR 與 Radiopaedia，中度（moderate）對比劑反應需給予特定藥物治療（如廣泛蕁麻疹用抗組織胺/IM epinephrine、bronchospasm 給氧＋β2 agonist），並非『不需治療』，故 B 為錯誤敘述（即答案）。A（輕度多自限、一般無需特殊治療）、C（重度需立即治療）、D（重度過敏可給 epinephrine 1:1000 IM）皆正確。\n\n⚠️ 醫師覆核（2026-07-10）：改回原卷答案 **A**。依《2023 中華民國放射線醫學會對比劑手冊》（台灣官方依據），原卷標記正確；先前依 ACR 判讀改為 B 之更正已撤回。註：本題題幹寫「風險因子」，四個選項卻是急性反應之嚴重度分級與處置，題幹與選項不符。\n→ [[contrast-adverse-reactions]]",
       "images": [],
       "concepts": [
         "contrast-adverse-reactions"
@@ -15013,9 +15013,9 @@
           "text": "d. Meckel diverticulum"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "reference": "詳見 [[mesenteric-omental-cyst]]（Radiopaedia mesenteric cyst rID 24940：成因即『failure of the leaves of the mesentery to fuse』 + Tier-1 STATdx Lymphangioma/Mesenteric Cyst）",
-      "explanation": "依 Radiopaedia，『腸繫膜兩葉未能正常融合（failure of the leaves of the mesentery to fuse）』正是腸繫膜囊腫（mesenteric cyst）的公認胚胎成因之一，故最佳答案為 B。⚠️ 本題交換考輸入答案標為 A（omental cyst，網膜囊腫）；網膜囊腫機轉類似但位於網膜，題幹既明言『mesentery』，權威來源支持腸繫膜囊腫。臍疝為腹壁缺損、Meckel 憩室為卵黃管殘留，成因不同。胚胎成因與影像特徵 → [[mesenteric-omental-cyst]]。",
+      "explanation": "依 Radiopaedia，『腸繫膜兩葉未能正常融合（failure of the leaves of the mesentery to fuse）』正是腸繫膜囊腫（mesenteric cyst）的公認胚胎成因之一，故最佳答案為 B。\n\n⚠️ 醫師覆核（2026-07-10）：改回原卷答案 **A（omental cyst）**。醫師依原文：「Congenital failure of the mesentery to fuse is a congenital anomaly associated with development of an omental cyst；mesenteric cysts are related to the Wolffian or lymph ducts」——腸繫膜未融合對應網膜囊腫，而腸繫膜囊腫源自 Wolffian 管／淋巴管。先前改為 B 之更正已撤回。\n→ [[mesenteric-omental-cyst]]",
       "images": [],
       "concepts": [
         "mesenteric-omental-cyst"
@@ -15284,9 +15284,9 @@
           "text": "80%"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "A",
       "reference": "詳見 [[colorectal-cancer-obstruction]]（Radiopaedia《Large bowel obstruction》＋ STATdx《Colon Carcinoma》Tier-1）",
-      "explanation": "⚠️ 匯入題原始答案標記不一致（選項 A「5%」內文標 correct，但 answer 欄標 E「80%」）。大腸癌為大腸阻塞最常見病因（約佔 50–60%，即題幹「約半數」之來源）；但反過來只有少數大腸癌會發生阻塞，臨床外科文獻多引約 10–20%（範圍約 8–29%）。5% 偏低（接近穿孔比例）、80% 顯然過高（近似反向比例），依文獻校正為 20%（B）。→ [[colorectal-cancer-obstruction]]",
+      "explanation": "⚠️ 醫師覆核（2026-07-10）：改回原卷答案 **A（5%）**。醫師註記「答案為 A，需查原論文才知比例」——本題比例依原始論文，先前依外科文獻校正為 20%（B）之更正已撤回，比例待查原文確認。\n→ [[colorectal-cancer-obstruction]]",
       "images": [],
       "concepts": [
         "colorectal-cancer-obstruction"
