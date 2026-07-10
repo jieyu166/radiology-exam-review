@@ -271,7 +271,9 @@
       "reference": "BRCA-associated Cancers: Role of Imaging in Screening, Diagnosis, and Management; RadioGraphics 2017; 37:1005–1023；2021 交換考官方詳解 PDF p3",
       "explanation": "第~~14~~13對染色體 只能記憶\nCD. 不同資料數據不同，基本上沒錯。 RadioGraphics 2017; 37:1005–1023的數據：BRCA1：55-65% ；BRCA2：45%\n\n【2021 官方詳解】\n- BRCA2 is tumor suppressor genes located on chromosomes 13\nBRCA1 and BRCA2 are large tumor suppressor genes located on chromosomes 17 and 13, respectively.\nWomen with a BRCA mutation have a substantially greater risk of developing breast cancer compared with the general population, which has an average lifetime risk of 12.3%. According to recent estimates, 55%–65% of female BRCA1 mutation carriers and approximately 45% of female BRCA2 mutation carriers will develop breast cancer by age 70 years",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-cancer-genetics"
+      ],
       "checked": false,
       "sourcePage2021": 3
     },
@@ -390,7 +392,9 @@
       "reference": "Primer 6th ed, p511；2021 交換考官方詳解 PDF p180",
       "explanation": "A. malignant. plateau 64%, washout 87%.\nB. typically benign.\nC. Kinetics are usually not useful in DCIS, especially low-grade. Many DCISs show no wash out and usually slow initial enhancement.\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diﬀuse: typically benign\n\n【2021 官方詳解】\nEnhancing lesion in breast MRI\nFocus and foci: <5mm, non-specific\nMasses:\n- Shape: round, oval, lobulated, irregular (32% malignant)\n- Margin: smooth, irregular, speculated (80% malignant)\n- T1 high: lymph node, fat necrosis, hamartoma\n- T2FS high: cyst, lymph node, fibroadenoma, fat necrosis, colloid carcinoma\n- Enhancement\n  - Type I (persistent): benign (6%malignanct)\n  - Type II (platea): malignant\n  - Type III (washout): stroung malignancy\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diffuse: typically benign\n***DCIS:\nKinetics are usually not useful in DCIS, especially not in cases when low-grade.\nMany cases of DCIS show no wash out and usually ther is slow initial enhancement.\n\n⚠️ 答案以官方詳解 PDF 為準更正：原匯入 D → 官方 A。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-mri-kinetics"
+      ],
       "checked": false,
       "sourcePage2021": 180
     },
@@ -466,7 +470,9 @@
       "reference": "Breast J. 2021 Jan;27(1):44-47.；10.1111/tbj.14075；2021 交換考官方詳解 PDF p346",
       "explanation": "【2021 官方詳解】\nBreast sarcoidosis\nUnilateral or bilateral disorder\nMammography: irregular or ill-defined and/or spiculated masses\nUS: irregular hypoechoic masses, as well as enlarged axillary or intramammary lymph nodes\nMRI:\nIrregular shaped mass with heterogeneous internal enhancement pattern\nrapid enhancement and washout phenomenon or gradually increasing signal intensity\nRef:\nBreast sarcoidosis: Clinical features, imaging, and histological findings\nDOI: 10.1111/tbj.14075",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-sarcoidosis"
+      ],
       "checked": false,
       "sourcePage2021": 346
     },
@@ -4919,7 +4925,9 @@
       "reference": "Gastrointestinal Imaging: THE REQUISITES, ed 3, P 172.；10.1378/chest.111.4.1121；2021 交換考官方詳解 PDF p69",
       "explanation": "【2021 官方詳解】\nD. 有一篇case report 有寫過.\n10.1378/chest.111.4.1121\nCauses of hepatic calcifications (Metastatic tumor):\n  - Mucinous carcinoma of the colon, breast, stomach, ovary.\n  - Melanoma, thyroid carcinoma, chondrosarcoma, carcinoid, leiomyosarcoma, neuroblastoma\n10.1148/radiographics.18.3.9599391",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "calcified-liver-metastases"
+      ],
       "checked": false,
       "difficulty": "適中",
       "author": "陳奎安",
@@ -7395,7 +7403,9 @@
       "reference": "Radiographics 2021;41:742-761；2021 交換考官方詳解 PDF p146",
       "explanation": "【2021 官方詳解】\nCT Findings of Hemorrhage\nBlood in the alveoli typically manifests as ground-glass opacity or consolidation\nWhen hemorrhage is subacute, septal lines may also be present\nBlood products in the bronchial tree may manifest as detectable filling defects at CT\nObstruction of larger airways with blood products may result in atelectasis\nBlood products in the more distal airways typically manifest as centrilobular nodules that may have a tree-in-bud appearance\nWhen bronchial arteries are hypertrophied, cardiac output to them can increase from a normal output of 1% to up to 30%. Furthermore, these hypertrophied arteries are thin walled and fragile and are exposed to systemic pressure, making them prone to rupture into the airways, which can\ncause hemoptysis.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "bronchial-artery-embolization-hemoptysis"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "吳仁宏",
@@ -12859,7 +12869,9 @@
       "reference": "2021 交換考官方詳解 PDF p330",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mediastinal-contours-cxr"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "吳輔榮",
@@ -13023,7 +13035,9 @@
       "images": [
         "2021-333-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "calcium-score"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "吳銘庭",
@@ -13257,7 +13271,9 @@
       "reference": "ACR BI-RADS Atlas 2013 P155；2021 交換考官方詳解 PDF p351",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "breast-calcifications"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總賴亦貞醫師",

@@ -24,6 +24,10 @@ same:
 - **MESA 計算器**：以 MESA 族群資料，依 CAC 分數與事件給出年齡/性別/種族百分位與風險。[^1]
 - **與 CCTA 連結**：高 CAC（>400）之重度鈣化 blooming 會**顯著降低 CCTA 的 specificity / PPV**（見 [[ccta]]，ACCURACY trial）。[^1]
 - **臨床價值定位**：CAC score 的意義在於對傳統風險因子（如 Framingham risk score）提供**額外（incremental）的預後資訊**、協助重新分層，非用於個別病人精準預測事件，也不能取代整體風險評估或排除 CAD。[^2]
+- **症狀病人 CAC = 0 的判讀 caveat（條件機率／conditional probability）**：**「power of zero」只適用於無症狀、驗前機率低的族群**。（1）無症狀者 CAC = 0 → 近期冠狀事件風險低；（2）年長且有風險因子的無症狀者 CAC = 0 → 風險為「中度上升」；（3）**有症狀、驗前機率中—高**的病人，CAC = 0 **不能排除阻塞性 CAD**——此族群 CAC = 0 者仍約 **16%** 於誘發性檢查出現心肌缺血，近期冠狀事件風險甚至約為無症狀族群的 **9 倍**，故應進一步安排 coronary CTA（或功能性檢查），而非以 CAC = 0 判為低風險。[^3][^4]
+
+> [!warning] 症狀病人不要被 CAC = 0 誤導
+> 一位有**運動性呼吸困難＋下巴痛（心絞痛等價症狀）**的病人屬「症狀性、驗前機率偏高」族群。此情境下 CAC = 0 的陰性預測價值明顯下降，**不可套用 power of zero**，也不應僅憑 ASCVD 10 年風險決定是否影像檢查——症狀本身即為進一步冠狀動脈評估（coronary CTA）的理由。此即條件機率（同一 CAC = 0，在不同驗前機率族群意義完全不同）的核心教訓。[^3]
 
 ## 放射科醫師影像判讀重點
 - **判讀前確認掃描技術**：必須是**非顯影、前瞻性 ECG 閘控**軸位掃描；若見管腔內對比劑或 helical（螺旋）採集則非標準 CAC 掃描，Agatston 分數不可信。[^1][^2]
@@ -51,6 +55,8 @@ same:
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01；Free Access 文章）** Gupta A, Bera K, Kikano E, Pierce JD, Gan J, Rajdev M, Ciancibello LM, Gupta A, Rajagopalan S, Gilkeson RC. *Coronary Artery Calcium Scoring: Current Status and Future Directions*. RadioGraphics. 2022;42(4). https://doi.org/10.1148/rg.210122。重點：標準協定＝前瞻性 ECG 閘控、層厚 2.5 mm／層距 1 mm、主動脈弓至心底、120 kVp；CAC 每年平均增加 20–25%，CAC=0 者約 20% 於 5 年內轉為 >0（隨年齡加劇），為重掃間隔建議之實證基礎；CAC 進展與事件風險相關但預後價值證據較弱。
 [^2]: 2019 交換考詳解（SCCT cardiovascular CT board prep, third edition, p.211/213/221）：Agatston scoring 採前瞻性 ECG 閘控、120 kVp、層厚 2.5–3.0 mm（非 helical、非 100kVp）；CAC score 對 Framingham risk 提供 incremental prognostic information，非用於個別事件精準預測；CACS>0 者不建議常規重複鈣化分數檢測。
+[^3]: **Tier 1（Circulation 編輯評論，via PubMed 查證 PMID 18378624，accessed 2026-07-10；因 Cloudflare 未取全文，內容依 2021 官方詳解逐字引用＋PubMed 書目核對）**：*How Low-Risk Is a Coronary Calcium Score of Zero? The Importance of Conditional Probability.* Circulation. 2008;117(13):1627–1629. https://doi.org/10.1161/CIRCULATIONAHA.108.767665 。重點：低驗前機率（無症狀篩檢）CAC=0→事件率低；年長有風險因子之無症狀者 CAC=0→風險中度上升；**有症狀、驗前機率中—高族群 CAC=0 常仍見誘發性心肌缺血（約 16%）且近期冠狀事件風險約為無症狀族群 9 倍**，質疑 CAC 於此族群的加值。
+[^4]: **Radiopaedia（公開）**：*Agatston score*. https://radiopaedia.org/articles/agatston-score （accessed 2026-07-10）。Agatston 分數之非顯影低劑量 ECG 閘控 CT 計分與冠心病風險分層（0＝no evidence、1–99 minimal/mild、100–399 moderate、≥400 severe）。
 
 ## 題目
 > [!question]- In a calcium scoring scan, what is the definition of a calcified plaque? (2016-291)
@@ -61,6 +67,9 @@ same:
 
 > [!question]- A solitary coronary calcification spot was found over LAD on LDCT of lung cancer screen of a 50 y/o woman (2021-332)
 > **B（Should control the risk factors of CAD, if any）**——任何 CAC>0 都代表已存在冠狀動脈粥狀硬化，應積極矯正可控制的 CAD 風險因子。A（很常見）與 C（相對年齡性別鈣化負擔偏低）都需實際 Agatston 分數與 MESA 百分位才能判定，僅憑「一顆鈣化點」資訊不足；D 因 A、C 無法成立而不對。
+
+> [!question]- For a 43 y/o man, progressive dyspnea on exertion and jaw pain (2021-333)
+> **B（If CAC = 0, should consider coronary CTA）**——此病人有心絞痛等價症狀（運動性呼吸困難＋下巴痛），屬**症狀性、驗前機率中—高**族群。依條件機率，power of zero 只適用於無症狀低風險者，故 A 錯（此族群 CAC=0 仍約 16% 有誘發性缺血、近期事件風險約 9 倍）；C 錯，症狀本身已是進一步冠狀評估的理由，不應僅以 ASCVD 10 年風險決定；D 因含 A、C 而錯。正解 B：即使 CAC=0 也應考慮 coronary CTA。[^3]（⚠️ 本題原含影像，官方詳解 PDF 第 336 頁，影像尚未匯入，判讀請對照原檔。）
 
 ## 考題
 ```dataview
