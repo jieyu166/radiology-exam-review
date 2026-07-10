@@ -7305,9 +7305,9 @@
           "text": "Pneumothorax"
         }
       ],
-      "correctAnswer": "A",
+      "correctAnswer": "C",
       "reference": "Radiology: Cardiothoracic Imaging 2020; 2(5):e200280；2021 交換考官方詳解 PDF p136",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 136 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 136 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 A → C（原答案為 A）。COVID-19 CXR 之 characteristic finding 為雙側、周邊、中下肺帶之實變/毛玻璃（C）；lobar consolidation（A）非典型、屬 nonspecific。依官方詳解 Table 2（Chest Radiograph Characterization by Findings）：**Characteristic** ＝ Bilateral patchy and/or confluent, bandlike ground-glass opacity or consolidation in a peripheral and mid to lower lung zone distribution（即選項 C）；Nonspecific ＝ 上述以外之任何肺-胸膜異常（lobar consolidation 屬此類）；Negative ＝ 無可辨識之肺-胸膜異常。",
       "concepts": [
         "covid19-chest-ct"
       ],
