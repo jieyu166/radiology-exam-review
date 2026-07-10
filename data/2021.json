@@ -12265,7 +12265,9 @@
       "reference": "RadioGraphics 2010; 30:801–826；2021 交換考官方詳解 PDF p297",
       "explanation": "【2021 官方詳解】\nInfantile hemangioendothelioma, or infantile hepatic hemangioma, is a vascular neoplasm and\nthe most common benign hepatic tumor of infancy.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-liver-tumors"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃哲勳",
@@ -12810,7 +12812,10 @@
       "reference": "Peter G. Danias. Cardiovascular MRI: 150 multiple-Choice Questions and Answers © Humana Press 2008；2021 交換考官方詳解 PDF p332",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cardiac-mri-function",
+        "coronary-mra-technique"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "吳輔榮",
@@ -12848,7 +12853,9 @@
       "images": [
         "2021-332-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "calcium-score"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "吳銘庭",
@@ -13463,7 +13470,9 @@
         "2021-348-1.png",
         "2021-348-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cardiac-amyloidosis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總張瀛月醫師",
@@ -14313,7 +14322,9 @@
       "images": [
         "2021-370-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "medulloblastoma-molecular-subgroups"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳嘉紘醫師",

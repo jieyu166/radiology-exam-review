@@ -7,7 +7,7 @@ aliases:
   - infantile hemangioendothelioma
   - mesenchymal hamartoma
   - 兒童肝腫瘤
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # pediatric-liver-tumors
@@ -37,6 +37,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- About the pediatric liver tumor, which description is CORRECT? (2018-421)
 > **Hepatocellular adenomas are usually asymptomatic or present with an abdominal mass（C）**。A(hamartoma為第二常見)、B(不需FNA)、D(AFP非皆升高)皆為偽。[^1]
+
+> [!question]- 最常見的 pediatric liver tumor, 是以下哪一種 ? (2021-317)
+> **A（Infantile hemangioendothelioma）**——嬰兒型血管內皮瘤（infantile hepatic hemangioma）為嬰兒最常見的良性肝腫瘤。B mesenchymal hamartoma 為第二常見良性；C hepatoblastoma 為兒童最常見的『惡性』原發肝腫瘤（非本題所指最常見良性肝腫瘤）；D FNH 與 E HCC 於兒童少見。
 
 ## 考題
 ```dataview

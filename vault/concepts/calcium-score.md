@@ -6,7 +6,7 @@ aliases:
   - CAC score
   - Agatston score
   - 冠狀動脈鈣化分數
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 concepts: [calcium-score]
 same:
   - "[[ccta]]"
@@ -58,6 +58,9 @@ same:
 
 > [!question]- The description about Agatston calcium scoring, which is wrong? (2020-327)
 > **CT image greater than 120HU in density is identified as calcification（A）為錯誤敘述**——正確門檻為**>130 HU**（非120HU）；四條冠狀動脈(LM/LAD/LCx/RCA)病灶總和即為總Agatston分數，此法於MDCT仍廣泛適用，其餘選項皆正確。[^1]
+
+> [!question]- A solitary coronary calcification spot was found over LAD on LDCT of lung cancer screen of a 50 y/o woman (2021-332)
+> **B（Should control the risk factors of CAD, if any）**——任何 CAC>0 都代表已存在冠狀動脈粥狀硬化，應積極矯正可控制的 CAD 風險因子。A（很常見）與 C（相對年齡性別鈣化負擔偏低）都需實際 Agatston 分數與 MESA 百分位才能判定，僅憑「一顆鈣化點」資訊不足；D 因 A、C 無法成立而不對。
 
 ## 考題
 ```dataview
