@@ -7,7 +7,7 @@ aliases:
   - TEF
   - 食道閉鎖
   - tracheoesophageal fistula
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # esophageal-atresia
@@ -42,6 +42,10 @@ dateRev: 2026-07-04
 
 > [!question]- Regarding esophageal atresia, which of the following is correct? (2019-317)
 > **All of the above（D）**——與 VACTERL/CHARGE 相關、產前 polyhydramnios ＋胃泡縮小/消失、腹部腸氣有無判讀 distal fistula 狀態，三者皆正確。[^1]
+
+## 題目
+> [!question]- 關於 VACTERL association 何者 incorrect？ (2021-066)
+> **C（V 代表 ventricular septal defect）**——錯；VACTERL 之 **V＝Vertebral（椎體異常）**（其餘 A=Anorectal、C=Cardiac、TE=TracheoEsophageal、R=Renal、L=Limb）。A（≥3 項彼此無共同致病機轉之異常、病因未明）、B（發現一項異常應系統性搜尋其他相關畸形）、D（不含 cranial/CNS 異常）皆為正確描述。
 
 ## 考題
 ```dataview

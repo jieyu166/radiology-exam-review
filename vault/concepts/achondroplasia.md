@@ -7,7 +7,7 @@ aliases:
   - trident hand
   - bullet-shaped vertebra
   - 軟骨發育不全
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # achondroplasia
@@ -51,6 +51,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- About Achondroplasia, which of following is not true (2017-322)
 > **B 為偽**——腰椎椎弓根間距應由頭側向尾側**漸進縮小**（非漸進增寬，與正常脊椎相反）。Rhizomelic dwarfism、trident hand、bullet-shaped 短粗手指皆為真實特徵。[^1][^2]
+
+> [!question]- 下列何者非 achondroplasia 之典型 X 光特徵？ (2021-113)
+> **B（wide interpedicular distance 椎弓根間距增寬）**——反了；achondroplasia 腰椎椎弓根間距由頭側向尾側**漸進縮小**（L5-S1 最窄，與正常脊椎漸增相反）→ 先天性椎管狹窄。A（rhizomelic dwarfism 近端肢體縮短）、C（ping-pong paddle/champagne-glass 骨盆）、D（枕骨大孔狹小）皆為典型特徵。
 
 ## 考題
 ```dataview

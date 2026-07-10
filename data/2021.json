@@ -2488,7 +2488,9 @@
       "reference": "Sheth S, Fishman EK. Multi-detector row CT of the kidneys and urinary tract: techniques and applications in the diagnosis of benign diseases. Radiographics. 24 (2): e20.；2021 交換考官方詳解 PDF p304",
       "explanation": "【2021 官方詳解】\nEmbryologically, duplication occurs when two separate ureteric buds arise from a single Wolffian duct (mesonephric duct).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ureteral-duplication"
+      ],
       "checked": false,
       "sourcePage2021": 304
     },
@@ -2562,7 +2564,9 @@
       "images": [
         "2021-066-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "esophageal-atresia"
+      ],
       "checked": false,
       "sourcePage2021": 281
     },
@@ -4288,7 +4292,9 @@
       "reference": "次 Caffey's Pediatric Diagnostic Imaging 13th edition. Chapter 107；2021 交換考官方詳解 PDF p48",
       "explanation": "【2021 官方詳解】\nIleocolic intussusception is most often encountered in the right lower quadrant (RLQ) of abdomen.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-intussusception-types"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳宛蘋",
@@ -4360,7 +4366,9 @@
       "reference": "Primer of Diagnostic Imaging, p. 885；2021 交換考官方詳解 PDF p50",
       "explanation": "【2021 官方詳解】\n- Narrower interpedicular distance\nAchondroplasia:\n  - relatively large cranial vault with small skull base\n  - narrowed foramen magnum\n  - posterior vertebral scalloping\n  - progressive decrease in the interpedicular distance in the lumbar spine\n  - champagne glass type pelvic inlet\n  - small squared (tombstone or mickey mouse ear) iliac wings\n  - the femora and humeri are particularly shortened (rhizomelic shortening)\n  - trident hand\n\n⚠️ 疑似與 2021-046 為同一題（相似度 0.824），請醫師確認是否合併。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "achondroplasia"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳宛蘋",
@@ -5911,7 +5919,9 @@
       "images": [
         "2021-153-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "aortic-coarctation"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "周定遠",
@@ -5947,7 +5957,9 @@
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.154；2021 交換考官方詳解 PDF p108",
       "explanation": "【2021 官方詳解】\nSturge-Weber syndrome\nCongenital facial cutaneous hemanioma (port wine stain or facial nevus flammeus), almost always involve CN V1.\n*** Strawberry nervus -🡪 infantile hemangioma\nPlain film: gyriform calcification of subcortical white matter\nDXA: abscent of superficial cortical veins with abnormal and enlarged deep venous drainage (82%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sturge-weber-syndrome"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "周定遠",
@@ -5983,7 +5995,9 @@
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.385；2021 交換考官方詳解 PDF p109",
       "explanation": "【2021 官方詳解】\nAir bronchograms can be seen with several processes:\n- pulmonary consolidation\n- pulmonary edema: especially with alveolar edema 3\n- non-obstructive atelectasis\n- severe interstitial lung disease\n- neoplasms: bronchioloalveolar carcinoma; pulmonary lymphoma\n- pulmonary infarct\n- pulmonary hemorrhage\n- normal expiration",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "air-bronchogram"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "周定遠",
@@ -7573,7 +7587,9 @@
       "reference": "RadioGraphics 2017; 37:1892-1908.；2021 交換考官方詳解 PDF p152",
       "explanation": "【2021 官方詳解】\nColor Doppler US evaluation is not reliable for confirming or excluding ovarian torsion. The absence of arterial and venous flow in the ovary and decreased venous flow are common Doppler US findings of ovarian torsion. However, these findings are nonspecific, because absent Doppler flow is frequently seen in nontorsed pediatric ovaries. Preserved arterial flow may be seen in cases of ovarian torsion—either secondary to lymphatic or venous obstruction producing symptoms before the later development of arterial occlusion, or owing to the dual arterial supply to the ovary from the uterine arteries. In adults, the twisted vascular pedicle has been described as a specific sign of ovarian torsion and can be seen as a round hyperechoic structure with multiple concentric hypoechoic stripes on transvaginal US images. However, this sign is less reliable in the pediatric population, as imaging in children is almost always performed by the transabdominal approach.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adnexal-torsion"
+      ],
       "checked": false,
       "difficulty": "易\n普通",
       "author": "劉俊彥",
@@ -8160,7 +8176,9 @@
       "reference": "The requisites: Pediatric Radiology 3rd edition p.26~30；2021 交換考官方詳解 PDF p176",
       "explanation": "【2021 官方詳解】\nMeconium aspiration occurs secondary to intrapartum or intrauterine aspiration of meconium, usually in the setting of fetal distress, often in term or post-term infants.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neonatal-chest-disease"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "馬偕醫院 放射線科 蔡佩珊",
@@ -8196,7 +8214,9 @@
       "reference": "Caffey's Pediatric Diagnostic Imaging 13ed Ch.143  p. 1454-1463；2021 交換考官方詳解 PDF p177",
       "explanation": "【2021 官方詳解】\nThe follow-up skeletal survey should be completed on all patients who have an initial skeletal survey performed for suspected physical child abuse and for whom child abuse is still a concern.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "child-abuse-skeletal-survey"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "馬偕醫院 放射線科 蔡佩珊",
@@ -8232,7 +8252,9 @@
       "reference": "Caffey's Pediatric Diagnostic Imaging 13ed Ch.87 p.810-815；2021 交換考官方詳解 PDF p178",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "biliary-atresia"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "馬偕醫院 放射線科 蔡佩珊",
@@ -11839,7 +11861,9 @@
       "reference": "Berrocal, T et al. Congenital Anomalies of the Tracheobronchial Tree, Lung, and Mediastinum: Embryology, Radiology, and Pathology. Radiographics, 2004;24(1).；2021 交換考官方詳解 PDF p280",
       "explanation": "【2021 官方詳解】\n(A) = Aberrant left pulmonary artery: Left pulmonary artery arising from the right pulmonary artery and passing above the right main bronchus and in between the trachea and esophagus to reach the left lung.\n(B) Focal congenital tracheal stenosis consists of a simple local narrowing of the trachea, usually in the lower third. ???\n(C) Length of stenosis does not appear to be as critical as degree of stenosis in producing symptoms, as airway resistance is only linearly proportional to length of stenosis, whereas resistance increases fourfold relative to luminal radius decrease.\n(D) Magnetic resonance (MR) imaging is valuable for demonstrating the relationship of the airway to adjacent blood vessels without injection of intravascular contrast medium. Both CT and MR imaging can provide three-dimensional reconstruction.\n\n⚠️ 疑似與 2021-008 為同一題（相似度 0.831），請醫師確認是否合併。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ring-sling-syndrome"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉顯慈",

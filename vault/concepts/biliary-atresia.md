@@ -8,7 +8,7 @@ aliases:
   - ghost gallbladder
   - Kasai procedure
   - 膽道閉鎖
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # biliary-atresia
@@ -47,6 +47,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which description about Biliary atresia is correct? (2020-303)
 > **以上皆正確（D）**——膽道閉鎖為新生兒膽汁鬱積最常見原因、好發亞洲（中國/日本）嬰兒、通常出生第一個月內表現且未治療 3 年內進展至末期肝病死亡、2 個月大以前接受 Kasai 手術者長期預後較佳，皆正確。[^1][^2]
+
+> [!question]- Which description about Biliary atresia is correct? (2021-213)
+> **D（All of above）為正確**——(A) 膽道閉鎖為新生兒膽汁鬱積最常見（需手術）之原因且好發亞洲（尤中國、日本）嬰兒；(B) 通常出生第一個月內以黃疸、淺色便、直接型高膽紅素表現，未治療約 3 年內進展至末期肝病死亡；(C) <2 個月接受 Kasai 手術者長期預後較佳（暫效約 90%，>3 個月降至 <50%）；三者皆正確。
 
 ## 考題
 ```dataview

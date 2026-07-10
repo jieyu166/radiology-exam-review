@@ -9,7 +9,7 @@ aliases:
   - babygram
   - follow-up skeletal survey
   - 兒虐骨骼調查
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # child-abuse-skeletal-survey
@@ -48,6 +48,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- Which description about child abuse is incorrect? (2020-300)
 > **Follow-up skeletal survey performed 2 weeks later is not necessary（B）**為錯誤——追加複查骨骼調查（約 2 週後）是必要的，可提高敏感/特異度並協助精確判斷損傷時間。2 歲以下完整骨骼調查為必要（babygram 不足）、死亡病例應依相同協定調查、CT/MRI 用於評估疑似頭部外傷，皆正確。[^1][^2]
+
+> [!question]- Which description about child abuse is incorrect? (2021-212)
+> **B（Follow-up skeletal survey performed 2 weeks later is not necessary）為錯誤**——約 2 週後的追加骨骼調查是必要的，可顯現初查未見之癒合中 CML／後肋骨折並提高敏感度／特異度、協助判斷損傷時間。其餘正確：(A) <2 歲須做完整骨骼調查、babygram 不足；(C) 死亡病例依與存活嬰兒相同協定調查；(D) CT／MRI 用於評估疑似頭部外傷。
 
 ## 考題
 ```dataview

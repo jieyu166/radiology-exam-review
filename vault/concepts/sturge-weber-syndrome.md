@@ -6,7 +6,7 @@ aliases:
   - Sturge-Weber syndrome
   - encephalotrigeminal angiomatosis
   - 史特吉-韋伯症候群
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # sturge-weber-syndrome
@@ -53,6 +53,9 @@ dateRev: 2026-07-02
 
 > [!question]- The following characteristic features of Sturge-Weber syndrome is correct? (2022-391)
 > **calcification in the occipital cortex is visible on plain skull films（D，關鍵）為正確**——SWS gyriform／tram-track 皮質下鈣化多在頂枕區，歷史上可於顱骨平片顯示。其餘為錯：(A) 臉部為 port-wine nevus（非 strawberry nevus）、(B) 約 85% 為單側非雙側、(C) 軟腦膜血管瘤為低流量、動脈攝影常無法清楚顯示（DSA 反見淺層皮質靜脈缺如）。[^3]
+
+> [!question]- The following characteristic features of Sturge-Weber syndrome is correct? (2021-154)
+> **D（calcification in the occipital cortex is visible on plain skull films）為正確**——SWS gyriform／tram-track 皮質下鈣化多在頂枕區，歷史上可於顱骨平片顯示。其餘錯誤：(A) 臉部為 port-wine nevus 非 strawberry nevus（後者為 infantile hemangioma）；(B) 約 85% 為單側非雙側；(C) 軟腦膜血管瘤為低流量、動脈攝影常無法清楚顯示。
 
 ## 考題
 ```dataview

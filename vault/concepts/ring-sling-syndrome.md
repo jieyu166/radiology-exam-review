@@ -9,7 +9,7 @@ aliases:
   - congenital tracheal stenosis
   - complete tracheal rings
   - 環形氣管左肺動脈吊索症候群
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # ring-sling-syndrome
@@ -47,6 +47,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 下面有關「環形氣管-左肺動脈吊索症候群」(ring-sling syndrome)的描述何者錯誤？ (2020-261)
 > **以上四項描述都沒有錯誤（E）**——氣管內在狹窄為主、吊索為另一問題；狹窄範圍常超過吊索壓迫；單純吊索重植無法解決內在氣管狹窄（Type IIA/IIB 須氣管重建）；發育不良氣管反而較長、有利滑動氣管整形術。[^1][^2][^3]
+
+> [!question]- Which of the following statements is CORRECT? (pulmonary artery sling / congenital tracheal stenosis) (2021-306)
+> **B（Congenital tracheal stenosis consists of a simple local narrowing of the trachea, usually in the lower third）為正確**——focal type 之先天性氣管狹窄即為下三分之一之局部狹窄。(A) 錯：pulmonary artery sling 為『左』肺動脈異常起自『右』肺動脈（非右起自左），走行於氣管與食道之間。
 
 ## 考題
 ```dataview

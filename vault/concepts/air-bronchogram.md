@@ -5,7 +5,7 @@ subspecialty: [CH]
 aliases:
   - air bronchogram
   - 支氣管充氣徵
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # air-bronchogram
@@ -48,6 +48,9 @@ dateRev: 2026-07-03
 
 > [!question]- In the followings which one is not a characteristic feature of air-bronchogram? (2022-256)
 > **C. Bronchogenic cyst**——充液先天性囊腫、非肺泡填充過程，內部無通暢含氣支氣管；HMD、肺水腫、大葉性肺炎皆可見 air bronchogram。[^1]
+
+> [!question]- In the followings which one is not a characteristic feature of air-bronchogram? (2021-155)
+> **C（Bronchogenic cyst）為非**——支氣管源性囊腫為充液先天性囊腫、非肺泡填充過程，內部無通暢含氣支氣管。透明膜病（SDD）、肺水腫、大葉性肺炎皆因肺泡腔被液體／滲出物取代而近端氣道通暢，故可見 air bronchogram。
 
 ## 考題
 ```dataview
