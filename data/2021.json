@@ -2526,7 +2526,9 @@
       "reference": "Fernback, SK et al. Pediatric Voiding Cystourethrography: A Pictorial Guide. Radiographics 2000;20(1):155-168.；2021 交換考官方詳解 PDF p282",
       "explanation": "- All grades of reflux can be outgrown變大，變嚴重, but the process is seen more frequently and takes less time in patients with low-grade reflux.\n- Renal scarring is more likely to occur in patients with high-grade vesicoureteral reflux.\n- Children with grade V reflux are usually treated surgically; infants are excepted because grade V reflux has been shown to diminish and disappear in this patient population.\n\n\nAnomalies of the Distal Ureter, Bladder, and Urethra in Children: Embryologic, Radiologic, and Pathologic Features [^1]\n\n【2021 官方詳解】\n(D) All grades of reflux can be outgrown, but the process is seen more frequently and takes less time in patients with low-grade reflux. Children with grade V reflux are usually treated surgically; infants are excepted because grade V reflux has been shown to diminish and disappear in this patient population.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "vesicoureteral-reflux-grading"
+      ],
       "checked": false,
       "sourcePage2021": 282
     },
@@ -4271,7 +4273,9 @@
       "images": [
         "2021-110-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "vesicoureteral-reflux-grading"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "吳宛蘋",
@@ -9394,7 +9398,9 @@
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p210",
       "explanation": "【2021 官方詳解】\nAdenomas are divided into three subtypes: tubular adenomas, tubulovillous adenomas, and villous adenomas.\nVillous adenomas are one type of advanced adenoma. These lesions are typically larger than tubular adenomas—75% of them are larger than 2 cm—and they have a higher potential for malignant transformation.\nTubular adenomas are the most common, accounting for more than 80% of adenomas, and they have tubular glands or crowded branching tubules embedded in the lamina propria. Villous adenomas are the least common of the adenomas, accounting for less than 5% of cases.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gi-villous-lesions"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳邦斌",
@@ -9430,7 +9436,9 @@
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p211",
       "explanation": "【2021 官方詳解】\nAdvanced adenomas—that is, those at high risk for progression to cancer, are 10 mm or larger (any histologic subtype), have a substantial villous component (>25% villous, including tubulovillous and villous adenomas), and/or exhibit high-grade dysplasia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gi-villous-lesions"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳邦斌",
@@ -9466,7 +9474,9 @@
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p212",
       "explanation": "【2021 官方詳解】\nAt barium examinations, villous lesions have been described as broad based and having numerous polypoid protrusions into the lumen of the bowel, with insinuation of barium into the interstices or clefts between the protrusions.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gi-villous-lesions"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳邦斌",
@@ -9502,7 +9512,9 @@
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p213",
       "explanation": "【2021 官方詳解】\nIn one study, investigators assessed 23 rectal villous lesions on MR images and found that the majority of them (n = 21) had a “vegetating” shape, with only two lesions characterized as flat. Most of the lesions had polycyclic margins and a thick T2-hyperintense layer along their surface, which was possibly due to high cellularity or a mucinous film coating. All lesions showed heterogeneously intermediate to high signal intensity on T2-weighted MR images, with low signal intensity on T1-weighted MR images and pronounced heterogeneous enhancement in 61% of cases.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gi-villous-lesions"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳邦斌",
@@ -9538,7 +9550,9 @@
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p214",
       "explanation": "【2021 官方詳解】\nIn the duodenum, villous lesions can have an appearance similar to that of colonic villous lesions, but small lesions are easily missed. Sporadic duodenal villous lesions are most common in the second portion of the duodenum, and those associated with FAP are more commonly ampullary or periampullary. Small lesions may appear as nonspecific intramural nodular filling defects. Larger lesions may have a soap-bubble or cauliflower-like appearance. This appearance is that of multiple rounded radiolucent areas interspersed in a fine lacework of radiopaque material owing to barium entering the clefts between frondlike projections, as seen in the colon. Similarly, a frond- or lacelike mass in the duodenal lumen, with a feathery margin seen as contrast material enters the interstices from different directions, has been described.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gi-villous-lesions"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "陳邦斌",
@@ -10469,7 +10483,9 @@
       "reference": "中；2021 交換考官方詳解 PDF p238",
       "explanation": "【2021 官方詳解】\n(D) In this CADASIL sample, presence of hypertension was independently associated with CMB presence, and CMB burden was independently associated with ICH. *CMB = cerebral microbleeds",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lacunar-infarction"
+      ],
       "checked": false,
       "difficulty": "Cerebral Microbleeds, Hypertension, and Intracerebral Hemorrhage in Cerebral\nAutosomal-Dominant Arteriopathy with Subcortical Infarcts and\nLeukoencephalopathy. Front. Neurol., 15 May 2017",
       "author": "陳雅芳",
@@ -10505,7 +10521,9 @@
       "reference": "CADASIL. Lancet Neurol 2009; 8: 643–53；2021 交換考官方詳解 PDF p239",
       "explanation": "【2021 官方詳解】\n(B) Cerebral autosomal dominant arteriopathy with subcortical infarcts and leucoencephalopathy (CADASIL) is the most common heritable cause of stroke and vascular dementia in adults. Clinical and neuroimaging features resemble those of sporadic small-artery disease, although patients with CADASIL have an earlier age at onset of stroke events, an increased frequency of migraine with aura, and a slightly variable pattern of ischaemic white-matter lesions on brain MRI.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lacunar-infarction"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳雅芳",
@@ -11811,7 +11829,9 @@
       "images": [
         "2021-304-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "bosniak-classification"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "姜振華",
@@ -11964,7 +11984,9 @@
       "images": [
         "2021-308-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "bosniak-classification"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "",
