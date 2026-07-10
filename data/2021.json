@@ -352,12 +352,16 @@
       "correctAnswer": "D",
       "reference": "Radiographics 2021; 41(3):1-20.；2021 交換考官方詳解 PDF p164",
       "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities\n\n【2021 官方詳解】\nPerceptual errors are the most common type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\n\n⚠️ 本題含影像（官方詳解 PDF 第 164 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-009-1.jpg"
-      ],
       "concepts": [],
       "checked": false,
-      "sourcePage2021": 164
+      "sourcePage2021": 164,
+      "imageOcr": [
+        {
+          "file": "2021-009-1.jpg",
+          "type": "table",
+          "markdown": "**Table 2: Causes of False-Negative Breast MRI Results**\n\n| Type of Error | Causes |\n|---|---|\n| Technical error | Patient motion；Lack of intravenous contrast material administration (including unrecognized contrast extravasation)；Incomplete or inadequate visualization of findings on images (including that due to poor patient positioning or secondary to a finding being located at the edge of or partially excluded from the field of view)；Artifacts (including those from metal or hematoma) |\n| Perceptual error | Failure to detect owing to blind spots or poor search patterns；Poor lesion conspicuity (including poor conspicuity secondary to a complex background parenchymal pattern, obscuration or reduced visualization due to background parenchymal enhancement [BPE], or small lesion size)；Subtle or atypical appearance of cancer；Satisfaction of search；Reader fatigue, distractions, or interruptions |\n| Cognitive error | Stable or slowly growing lesion；Lesions with seemingly benign features (including benign shape, morphology, or T2 hyperintensity)；Attributing a suspicious finding as secondary to postsurgical change；Incorrect or misleading clinical information；Lack of knowledge (including recognizing that not all cancer subtypes may be visualized at MRI)；Radiologist bias |"
+        }
+      ]
     },
     {
       "id": "2021-010",
@@ -703,14 +707,18 @@
       "correctAnswer": "A",
       "reference": "8th edition radiology review manual. P.367；2021 交換考官方詳解 PDF p272",
       "explanation": "主要Liver, pancreas。也會沉積在**heart**, thyroid, pituitary。\nRES的沉積會在spleen和bone可能也會沉積，B可能稍有爭議。\n\n⚠️ 本題含影像（官方詳解 PDF 第 272 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-018-1.png"
-      ],
       "concepts": [
         "hemochromatosis-mri"
       ],
       "checked": false,
-      "sourcePage2021": 272
+      "sourcePage2021": 272,
+      "imageOcr": [
+        {
+          "file": "2021-018-1.png",
+          "type": "text",
+          "markdown": "**HEMOCHROMATOSIS**\n= excess iron deposition in tissues (hemosiderosis) resulting in tissue injury\n\n**Primary / Idiopathic Hemochromatosis**\n= autosomal recessive genetic disorder (abnormal iron-loading gene on short arm of chromosome 6) in thalassemia, sideroblastic anemia\n- Defect: increased absorption + parenchymal accumulation of dietary iron\n- Organs: liver, pancreas, heart (parenchymal iron overload)\n- Homozygous frequency: 1÷200; M÷F = 1÷1\n- Age: >30 years (M), usually after menopause (F); females protected by menstruation"
+        }
+      ]
     },
     {
       "id": "2021-019",
@@ -785,15 +793,23 @@
       "correctAnswer": "C",
       "reference": "LI-RADS v2018 Core, American College of Radiology；2021 交換考官方詳解 PDF p317",
       "explanation": "考題應該是BC選一個。\n\n【2021 官方詳解】\nC. non-rim arterial phase hyperenhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 317 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-020-1.png",
-        "2021-020-2.png"
-      ],
       "concepts": [
         "hcc-imaging-diagnosis"
       ],
       "checked": false,
-      "sourcePage2021": 317
+      "sourcePage2021": 317,
+      "imageOcr": [
+        {
+          "file": "2021-020-1.png",
+          "type": "text",
+          "markdown": "**Apply in patients at high risk for HCC, namely those with:**（✓）\n- Cirrhosis **OR**\n- Chronic hepatitis B viral infection **OR**\n- Current or prior HCC\n（Including adult liver transplant candidates and recipients posttransplant）\n\n**Do not apply in patients:**（✗）\n- Without the above risk factors\n- < 18 years old\n- With cirrhosis due to congenital hepatic fibrosis\n- With cirrhosis due to a vascular disorder such as hereditary hemorrhagic telangiectasia, Budd-Chiari syndrome, chronic portal vein occlusion, cardiac congestion, or diffuse nodular regenerative hyperplasia"
+        },
+        {
+          "file": "2021-020-2.png",
+          "type": "table",
+          "markdown": "**CT/MRI Diagnostic Table（LI-RADS）**\n\n| Additional major features↓ / APHE→ | No APHE, <20mm | No APHE, ≥20mm | Nonrim APHE, <10mm | Nonrim APHE, 10-19mm | Nonrim APHE, ≥20mm |\n|---|---|---|---|---|---|\n| None | LR-3 | LR-3 | LR-3 | LR-3 | LR-4 |\n| One | LR-3 | LR-4 | LR-4 | LR-4/LR-5 | LR-5 |\n| ≥ Two | LR-4 | LR-4 | LR-4 | LR-5 | LR-5 |\n\nCount additional major features: Enhancing \"capsule\"、Nonperipheral \"washout\"、Threshold growth。\nLR-4/LR-5 格判定：LR-4 若為 enhancing \"capsule\"；LR-5 若為 nonperipheral \"washout\" OR threshold growth。"
+        }
+      ]
     },
     {
       "id": "2021-021",
@@ -987,12 +1003,16 @@
       "correctAnswer": "D",
       "reference": "Grainger & Allison’s Diagnostic Radiology Essentials 1.4 (53~55)；10.2214/AJR.09.4146；2021 交換考官方詳解 PDF p12",
       "explanation": "【2021 官方詳解】\n10.2214/AJR.09.4146\n\n⚠️ 本題含影像（官方詳解 PDF 第 12 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-025-1.png"
-      ],
       "concepts": [],
       "checked": false,
-      "sourcePage2021": 12
+      "sourcePage2021": 12,
+      "imageOcr": [
+        {
+          "file": "2021-025-1.png",
+          "type": "table",
+          "markdown": "**TABLE 1: Imaging Findings of Various Diffuse Tracheal Diseases**\n\n| Tracheal Disease | CT Appearance | Tracheal Narrowing | Wall Thickened | Wall Calcification | Useful Differentiators |\n|---|---|---|---|---|---|\n| Tracheomalacia | Severe expiratory collapse of the tracheal lumen; lunate-shaped trachea | Yes | No | No | Tracheal collapse; history of predisposing condition or trauma |\n| Saber-sheath trachea | Decreased coronal diameter with concomitant increase in sagittal diameter | Yes | No | No | Characteristic bullet-shaped trachea on axial CT; history or imaging findings suggesting COPD |\n| Relapsing polychondritis | Thickening of the cartilaginous trachea with sparing of the posterior membrane | Yes | Yes | Sometimes | Sparing of the posterior trachea; cartilaginous abnormalities of the ears or nose |\n| Tracheobronchopathia osteochondroplastica | Calcified or ossified nodules in the cartilaginous trachea with sparing of the posterior membrane | Yes | Yes | Always | Nodular calcified or nodular ossified tracheal wall thickening sparing the posterior tracheal membrane and superior trachea |\n| Amyloidosis | Calcified or ossified nodular or concentric tracheal wall thickening | Yes | Yes | Often present | Concentric calcified or ossified nodular or concentric wall thickening without posterior sparing; may involve the larynx and upper trachea |\n| Wegener granulomatosis | Circumferential tracheal wall thickening or cartilage defects; subglottic region most often involved | Yes | Yes | No | Subglottic narrowing when focal; history of sinus or renal disease, pulmonary cavitary nodules, or pulmonary hemorrhage |\n| Mounier-Kuhn syndrome | Tracheal diameter > 3 cm; main bronchial diameter > 2.4 cm; scalloping of tracheal wall and diverticula | No | No | No | Only diffuse tracheal abnormality resulting in both anteroposterior and lateral tracheal dilatation |\n| Sarcoidosis | Secondary tracheal narrowing from lymphadenopathy or primary tracheal narrowing from tracheal noncaseating granulomas | Yes | Yes | Yes | Hilar and mediastinal lymphadenopathy; perilymphatic pulmonary nodules |\n| Inflammatory bowel disease | Diffuse or focal tracheal narrowing | Yes | Yes | No | History of inflammatory bowel disease or chronic abdominal pain |"
+        }
+      ]
     },
     {
       "id": "2021-026",
@@ -1340,15 +1360,23 @@
       "correctAnswer": "B",
       "reference": "1. Abdom Radiol (2017) 42:2346–2357 DOI: 10.1007/s00261-017-1137-0 2. Journal of Vascular Surgery Volume 45, Issue 1, Supplement , S5-S67, Janjuary DOI:10.1016/j.jvs.2006.12.037；10.1007/s00261-017-1137-0；2021 交換考官方詳解 PDF p88",
       "explanation": "Infrarenal aorta.\n\n【2021 官方詳解】\nB. Aortoiliac occlusive disease (AIOD), a subset of peripheral arterial disease (PAD), is characterized by\nsevere atherosclerotic stenosis or occlusion of the infrarenal aorta and/or iliac arteries.\n\n⚠️ 本題含影像（官方詳解 PDF 第 88 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-034-1.png",
-        "2021-034-2.png"
-      ],
       "concepts": [
         "pad-peripheral-arterial"
       ],
       "checked": false,
-      "sourcePage2021": 88
+      "sourcePage2021": 88,
+      "imageOcr": [
+        {
+          "file": "2021-034-1.png",
+          "type": "table",
+          "markdown": "**Table F1. TASC classification of aorto-iliac lesions**\n\n| Type | Lesions |\n|---|---|\n| Type A lesions | Unilateral or bilateral stenoses of CIA；Unilateral or bilateral single short (≤3 cm) stenosis of EIA |\n| Type B lesions | Short (≤3 cm) stenosis of infrarenal aorta；Unilateral CIA occlusion；Single or multiple stenosis totaling 3–10 cm involving the EIA not extending into the CFA；Unilateral EIA occlusion not involving the origins of internal iliac or CFA |\n| Type C lesions | Bilateral CIA occlusions；Bilateral EIA stenoses 3–10 cm long not extending into the CFA；Unilateral EIA stenosis extending into the CFA；Unilateral EIA occlusion that involves the origins of internal iliac and/or CFA；Heavily calcified unilateral EIA occlusion with or without involvement of origins of internal iliac and/or CFA |\n| Type D lesions | Infra-renal aortoiliac occlusion；Diffuse disease involving the aorta and both iliac arteries requiring treatment；Diffuse multiple stenoses involving the unilateral CIA, EIA and CFA；Unilateral occlusions of both CIA and EIA；Bilateral occlusions of EIA；Iliac stenoses in patients with AAA requiring treatment and not amenable to endograft placement or other lesions requiring open aortic or iliac surgery |\n\nCIA = common iliac artery；EIA = external iliac artery；CFA = common femoral artery；AAA = abdominal aortic aneurysm。"
+        },
+        {
+          "file": "2021-034-2.png",
+          "type": "text",
+          "markdown": "**Recommendation 36 — Treatment of aortoiliac lesions**\n- TASC A and D lesions: Endovascular therapy is the treatment of choice for type A lesions and surgery is the treatment of choice for type D lesions [C].\n- TASC B and C lesions: Endovascular treatment is the preferred treatment for type B lesions and surgery is the preferred treatment for good-risk patients with type C lesions. The patient's co-morbidities, fully informed patient preference and the local operator's long-term success rates must be considered when making treatment recommendations for type B and type C lesions [C]."
+        }
+      ]
     },
     {
       "id": "2021-035",
@@ -1381,14 +1409,18 @@
       "correctAnswer": "D",
       "reference": "Journal of Cardiovascular Magnetic Resonance 2017;19:75；2021 交換考官方詳解 PDF p363",
       "explanation": "會降低native T1值的原因有fat 或iron overload。\n\n【2021 官方詳解】\nIron overload cardiomyopathy = siderotic cardiomyopathy\nANS: see the table\nT1 mapping :\ncalculate the T1 time of a certain tissue and display them voxel-vice on a parametric map\nT1\n=>Reflects changes in intracellular and extracellular compartments\nAffected by collagen, protein, water (edema), lipids and iron\nNative T1\n=> T1 time measured in the absence of a contrast agent\nPostcontrast T1\n=>Measurement after the application of gadolinium\nCalculate extracellular volume (ECV), a surrogate parameter for the extracellular matrix after adjusting for\nhematocrit\n\n⚠️ 本題含影像（官方詳解 PDF 第 363 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-035-1.png"
-      ],
       "concepts": [
         "myocardial-t1-mapping"
       ],
       "checked": false,
-      "sourcePage2021": 363
+      "sourcePage2021": 363,
+      "imageOcr": [
+        {
+          "file": "2021-035-1.png",
+          "type": "table",
+          "markdown": "**Table 5 Typical alterations of T1, T2, T2\\* relaxation times and ECV according to pathology.（further details see Captur et al. [194]）**\n\n| Measure | Decrease | Mild increase | Moderate or severe increase |\n|---|---|---|---|\n| Native T1 | Anderson-Fabry, iron overload, fat, hemorrhage (athlete's heart) | diffuse fibrosis, scar, subacute inflammation | amyloid, acute inflammation, acute ischemia, necrosis |\n| ECV | athlete's heart | diffuse fibrosis | amyloid, necrosis, scar |\n| T2 | iron, hemorrhage | subacute inflammation | acute inflammation, acute ischemia, necrosis |\n| T2\\* | iron, hemorrhage, stress-induced ischemia | — | — |"
+        }
+      ]
     },
     {
       "id": "2021-036",
@@ -1892,15 +1924,23 @@
       "correctAnswer": "D",
       "reference": "Dahner Radiology Review Manual 7th ed., p. 324；2021 交換考官方詳解 PDF p256",
       "explanation": "from Radiology review manual\n\n⚠️ 本題含影像（官方詳解 PDF 第 256 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-048-1.png",
-        "2021-048-2.png"
-      ],
       "concepts": [
         "cns-germinoma"
       ],
       "checked": false,
-      "sourcePage2021": 256
+      "sourcePage2021": 256,
+      "imageOcr": [
+        {
+          "file": "2021-048-1.png",
+          "type": "text",
+          "markdown": "**PINEAL GERMINOMA**\n= DYSGERMINOMA = PINEALOMA = ATYPICAL TERATOMA (former inaccurate names)\n◊ \"pinealoma\" = misnomer referring to any pineal mass\n= malignant primitive germ cell neoplasm\n- Incidence: most common pineal tumor (>50% of all pineal tumors, 66% of pineal germ cell tumors)\n- Histo: identical to testicular seminoma + ovarian dysgerminoma, NO capsule facilitates invasion\n- Age: 10–25 years; M÷F = 10÷1 to 33÷1\n- May be associated with: ectopic pinealoma = secondary focus in inferior portion of 3rd ventricle\n- precocious puberty frequent in children <10 years of age"
+        },
+        {
+          "file": "2021-048-2.png",
+          "type": "text",
+          "markdown": "- **Parinaud syndrome** = paralysis of upward gaze (compression of mesencephalic tectum)\n- Location of germinomas: pineal gland (80%), suprasellar region (20%), basal ganglia, thalamus\n- √ displacement of calcified pineal gland\n- √ hydrocephalus (compression of aqueduct of Sylvius)\n- √ well-defined lesion restricted to pineal gland\n- √ may infiltrate quadrigeminal plate / thalamus"
+        }
+      ]
     },
     {
       "id": "2021-049",
@@ -2058,15 +2098,23 @@
       "correctAnswer": "C",
       "reference": "1. McCartyJL,LeungLY,PetersonRB,SittonCW,SarrajA,RiascosRF,BrinjikjiW. IschemicInfarctioninYoungAdults:AReviewforRadiologists.Radiographics.2019 Oct;39(6):1629-1648. doi: 10.1148/rg.2019190033. PMID: 31589580. 2.DouZ,ChenH,ChengH,LiuG.Moyamoyasyndromeafterbacterialmeningitis. Pediatr Investig. 2018 Jul 16;2(2):134-136. doi: 10.1002/ped4.12048. PMID: 32851248; PMCID: PMC7331372.；10.1148/rg.2019190033.；2021 交換考官方詳解 PDF p396",
       "explanation": "【2021 官方詳解】\nThyroid disease: Graves’ disease….\nMoyamoya syndrome after bacterial meningitis => case report\nKasabach-Merritt syndrome (hemangioma thrombocytopenia syndrome)\nRapidly growing vascular tumor => thrombocytopenia, microangiopathic hemolytic anemia and consumptive coagulopathy\nDLP based method:\nCT dose estimates = DLP* conversion factor\nDLP= CTDIvol *Scan length\nC: 20mGy*30cm*0.002mSv/mGy*cm= 1.2mSv\n\n⚠️ 本題含影像（官方詳解 PDF 第 396 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-052-1.png",
-        "2021-052-2.png"
-      ],
       "concepts": [
         "moyamoya"
       ],
       "checked": false,
-      "sourcePage2021": 396
+      "sourcePage2021": 396,
+      "imageOcr": [
+        {
+          "file": "2021-052-1.png",
+          "type": "table",
+          "markdown": "**Table 1. Moyamoya syndrome-associated diseases and conditions**\n\n| 分組 | 疾病 |\n|---|---|\n| Relatively common moyamoya syndrome | Neurofibromatosis type 1；Down syndrome；Thyroid disease；Cranial irradiation；Sickle cell anemia |\n| Extremely rare moyamoya syndrome | Systemic lupus erythematosus；Turner syndrome；Noonan syndrome；Alagille syndrome |"
+        },
+        {
+          "file": "2021-052-2.png",
+          "type": "table",
+          "markdown": "**Table 1. CT Radiation Dose Parameters**\n\n| Dose Parameter | Definition | Effects on Radiation Dose | Unit |\n|---|---|---|---|\n| Tube potential or voltage | X-ray beam energy | Proportional to square of tube voltage change | kV |\n| Product of tube current and time | Photon fluence; number of photons in defined exposure time | Directly proportional to radiation dose | mAs |\n| Pitch | Ratio of table feed per gantry rotation to nominal width of beam collimation | Inversely proportional to radiation dose | - |\n| CTDIw | Average radiation dose in scan volume measured in standard CT phantoms; 1/3 CTDI center + 2/3 CTDI periphery | Directly proportional to radiation dose in unit volume, influenced by pitch factor | mGy |\n| CTDIvol | CTDIw/pitch | Directly proportional to radiation dose in unit volume, irrespective of pitch factor | mGy |\n| Dose-length product | CTDIvol x scan length (cm) | Directly proportional to total scanned radiation dose | mGy·cm |\n| Effective dose | Overall risk-related radiation exposure; Σ W_T (tissue weighting factor) x H_T (tissue equivalent dose) | Directly proportional to total scanned radiation dose and overall risk of irradiated tissue | mSv |\n\nNote — CTDIvol = volume CT dose index, CTDIw = weighted CT dose index"
+        }
+      ]
     },
     {
       "id": "2021-053",
@@ -2613,14 +2661,18 @@
       "correctAnswer": "C",
       "reference": "Bacino, CA. (2021, JAN25). Birth defects: Epidemiology, types, and patterns. UpToDate.；2021 交換考官方詳解 PDF p281",
       "explanation": "Vertebra\n\n⚠️ 本題含影像（官方詳解 PDF 第 281 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-066-1.png"
-      ],
       "concepts": [
         "esophageal-atresia"
       ],
       "checked": false,
-      "sourcePage2021": 281
+      "sourcePage2021": 281,
+      "imageOcr": [
+        {
+          "file": "2021-066-1.png",
+          "type": "text",
+          "markdown": "**VATER/VACTERL association**\n\n- **V** ertebral anomalies\n- **A** nal atresia\n- **C** ardiovascular anomalies\n- **T** racheoesophageal fistula\n- **E** sophageal atresia\n- **R** enal and/or radial anomalies\n- **L** imb defects\n\n（投影片另附嬰兒 X 光、肛門正常/異常示意圖、氣管食道瘻管解剖圖）"
+        }
+      ]
     },
     {
       "id": "2021-067",
@@ -2654,7 +2706,6 @@
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1411 (Table 2)；2021 交換考官方詳解 PDF p399",
       "explanation": "? 答案應該是AB. C會被強化.\nRadiographics. 2015 Nov-Dec;35(7):1955-64.\n- THI reduces: reverberation artifact, side lobe artifact, and grating lobe artifact,\n- THI enhances: acoustic enhancement deep to fluid (useful for depicting cysts), **acoustic shadowing**, and comet-tail artifact.\n\n【2021 官方詳解】\nANS: A.B\nC: imaging with increased frequency probes and using THI will increase\nshadowing\n\n⚠️ 本題含影像（官方詳解 PDF 第 399 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-067-1.png",
         "2021-067-2.png",
         "2021-067-3.png"
       ],
@@ -2663,7 +2714,14 @@
         "ultrasound-harmonics"
       ],
       "checked": false,
-      "sourcePage2021": 399
+      "sourcePage2021": 399,
+      "imageOcr": [
+        {
+          "file": "2021-067-1.png",
+          "type": "table",
+          "markdown": "**Table 1: US Artifacts due to Beam and Resolution Characteristics**\n\n| Type of Artifact | Physics Mechanism | Alteration of Artifacts | Clinical Relevance |\n|---|---|---|---|\n| Beam width | Poor lateral resolution | Can be reduced by dynamic receive focusing, multiple-transmit FZs, increasing frequency, FZ placement, local speed of sound selection | Lateral blurring of point targets, aberrant echoes from adjacent highly echogenic objects |\n| Section thickness | Poor elevational resolution | Can be reduced by positioning the area of interest in FZ with a standoff pad or by using 1.5D/2D transducer arrays | Mimics debris in anechoic structures, aberrant internal echoes in small cysts and vessels |\n| Axial resolution | Axial resolution | Better with increasing frequency | Choose a higher frequency for better axial resolution |\n| Speckle noise | Acoustic interference causing granular appearance | Can be reduced by SRI, SCI, THI | Degrades spatial and contrast resolution but also gives tissues their characteristic image texture |\n| Secondary lobe (Side lobes, Grating lobes) | Echoes transmitted outside primary beam are reflected back to transducer | Can be reduced by THI, decreasing gain, changing AOI, using multiple windows, advanced transducer design | Mimics debris in anechoic structures |\n\nNote — AOI = angle of insonation, FZ = focal zone, 1.5D = 1.5-dimensional, SCI = spatial compound imaging, SRI = speckle reduction imaging, THI = tissue harmonic imaging, 2D = two-dimensional."
+        }
+      ]
     },
     {
       "id": "2021-068",
@@ -2734,9 +2792,6 @@
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1421 (Table 2, Table 3)；2021 交換考官方詳解 PDF p401",
       "explanation": "SCI有 paper說可改善，但器官太大就會沒效。(Vet Radiol Ultrasound. 2010 Nov-Dec;51(6):621-7.)\n\n⚠️ 本題含影像（官方詳解 PDF 第 401 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-067-2.png"
-      ],
       "concepts": [],
       "checked": false,
       "sourcePage2021": 401,
@@ -2745,6 +2800,11 @@
           "file": "2021-067-3.png",
           "type": "table",
           "markdown": "**Table 3: US Artifacts due to Attenuation Characteristics**\n\n| Type of Artifact | Physics Mechanism | Alteration of Artifacts | Clinical Relevance |\n| --- | --- | --- | --- |\n| Increased through transmission | Increased intensity of echoes distal to a low-attenuating structure | May be increased by using THI | Differentiation of cystic from solid structures |\n| Acoustic shadowing (Clean / Partial / Dirty) | Reduction in echo strength distal to a highly attenuating or reflective object | Increases with increased frequency and THI; decreases with inappropriate FZ placement, excessive beam width, and SCI | Detection of stones, calcification, and air |\n\nNote.—FZ = focal zone, SCI = spatial compound imaging."
+        },
+        {
+          "file": "2021-067-2.png",
+          "type": "table",
+          "markdown": "**Table 2: US Artifacts due to Location (Path or Speed) Characteristics**\n\n| Type of Artifact | Physics Mechanism | Alteration of Artifacts | Clinical Relevance |\n|---|---|---|---|\n| Reverberation | Reflections between highly reflective interfaces in parallel | Can be reduced by using THI, decreasing gain, changing AOI, and using multiple windows | Usually unwanted, mimicking debris within cystic structures; may be useful, as in abnormal air |\n| Comet tail | Reverberations from closely spaced highly reflective interfaces | May be more visible using THI and less visible by using SCI | Adenomyomatosis, colloid nodules, calcifications, foreign bodies, surgical clips, IUDs |\n| Ring down | Resonant vibrations within air bubbles | May be reduced by using SCI | Abnormal air (abscesses, pneumoperitoneum, PVG, emphysematous infections, pneumobilia, normal air [bowel loops, appendix], B-lines) |\n| Mirror image | Reflections off a strong specular reflector produce a mirror image of an object | May be reduced by decreasing gain, changing AOI, using multiple imaging windows | Mimics disease, such as pseudothickened bowel wall and consolidated lung |\n| Multipath | Small off-axis reflections on path to or from primary reflector | May be altered by varying AOI or imaging window | General image degradation |\n| Refraction (Misregistration, Ghosting, Edge shadowing) | Refraction at oblique interfaces causes altered location of objects, duplication of underlying structures, and/or shadowing at edges | May be reduced by varying AOI or imaging window | False position of lesions during biopsy, can mimic duplication of structures (gestational sac, spinal cord, aorta), cyst characterization by using edge shadowing |\n| Speed of sound (Boundary distortion, Misregistration of targets, Errors in size, Phase aberration) | A constant speed of sound is used to calculate depth in soft tissues, but there actually is variability among different tissues | Modern US units allow manual speed of sound correction | Inaccurate locations and measurements of structures in axial dimension, loss of lateral resolution, bayonet artifact |\n| Range ambiguity | Echoes deep to imaging range are depicted within range on the next pulse | May be reduced by reducing PRF, reducing the number of FZs, increasing the image depth | Mimics debris in large fluid-filled structures |\n\nNote — AOI = angle of insonation, FZ = focal zone, IUD = intrauterine device, PRF = pulse repetition frequency, PVG = portal venous gas, SCI = spatial compound imaging."
         }
       ]
     },
@@ -2946,14 +3006,18 @@
       "correctAnswer": "C",
       "reference": "Radiographics. Jan-Feb 2020;40(1):153-162；2021 交換考官方詳解 PDF p360",
       "explanation": "(2017 p. 36) 尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。\n\n【2021 官方詳解】\nD: No studies in animal or humans demonstrating clinical, behavioral, biological changes associated with\nneuronal gadolinium deposition.\n\n⚠️ 本題含影像（官方詳解 PDF 第 360 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-074-1.png"
-      ],
       "concepts": [
         "gadolinium-contrast"
       ],
       "checked": false,
-      "sourcePage2021": 360
+      "sourcePage2021": 360,
+      "imageOcr": [
+        {
+          "file": "2021-074-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- The risk of NSF after GBCA exposure depends on which agent is used, with most cases reported after use of nonionic linear agents.\n- Administration of higher than standard doses (>0.1 mmol/kg) of GBCAs has been associated with development of NSF.\n- The dramatic reduction of new cases of NSF over the last decade may have occurred because of more routine screening for kidney disease, less use of the GBCAs that have been associated with the most cases of NSF (particularly in patients with renal dysfunction), and less use of the high-dose GBCA-enhanced examinations that were sometimes used in MR angiography.\n- To our knowledge, there have been no studies in animals or humans demonstrating clinical, behavioral, or biologic changes associated with neuronal gadolinium deposition.\n- Neuronal GBCA deposition has been reported after administration of linear and macrocyclic agents. However, less retention is seen after use of macrocyclic agents."
+        }
+      ]
     },
     {
       "id": "2021-075",
@@ -3309,14 +3373,18 @@
       "correctAnswer": "A",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 9, 14.；2021 交換考官方詳解 PDF p44",
       "explanation": "考定義：光電交互作用產生的X光，就是特性輻射。\n\n【2021 官方詳解】\nMost common is Characteristic x-rays (photoelectric effect), then Compton scatter.\nLeast likely is coherent (Rayleigh) scatter.\nhttps://howradiologyworks.com/x-ray-interactions/\n\n⚠️ 本題含影像（官方詳解 PDF 第 44 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-083-1.png"
-      ],
       "concepts": [
         "characteristic-xray-physics"
       ],
       "checked": false,
-      "sourcePage2021": 44
+      "sourcePage2021": 44,
+      "imageOcr": [
+        {
+          "file": "2021-083-1.png",
+          "type": "table",
+          "markdown": "| | Coherent Scatter | Photoelectric | Compton Scatter |\n|---|---|---|---|\n| Products | X-Ray photon (=energy) | Electron; Characteristic X-Ray (low energy) | Electron; Scattered Photon (low energy) |\n| Outcome | Direction change of x-ray | X-Ray stops and deposits energy locally | Some energy deposited, scattered x-ray in different direction |\n| Energy Summary | Less than 10 keV | Dominant Below ~30 keV (1/E) | Dominant Above ~30 keV (1/E) |\n| Z Dependence | Z | Z^3 | Independent of Z |\n| Impact on X-Ray Image | No Significant | Primary Contrast | Background Haze |\n| Impact on Patient Dose | No Significant | Electrons, characteristic x-rays Deposit Dose | Electrons Deposit Dose |\n| Impact on Staff Dose | No Significant | Not sign, except for interventions if in beam | Dominant Source of stray dose |"
+        }
+      ]
     },
     {
       "id": "2021-084",
@@ -3388,9 +3456,6 @@
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
       "explanation": "正解 **D**。**Iodixanol（Visipaque）為 non-ionic dimer**（等滲）。Iopromide/Iohexol/Iopamidol 為非離子單體；Iothalamate meglumine 為離子單體。\n\n→ [[iodinated-contrast-media]]\n\n【2021 官方詳解】\nNon-ionic dimer = Iodixanol (Visipaque).\n\n⚠️ 本題含影像（官方詳解 PDF 第 74 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-085-1.png"
-      ],
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -3398,7 +3463,14 @@
       "years": [
         2021
       ],
-      "sourcePage2021": 74
+      "sourcePage2021": 74,
+      "imageOcr": [
+        {
+          "file": "2021-085-1.png",
+          "type": "table",
+          "markdown": "**Commonly used iodinated contrast agents**\n\n| Class | Name | Type | Iodine Content | Osmolality | Osmolar |\n|---|---|---|---|---|---|\n| Ionic | Diatrizoate (Hypaque 50) | Ionic Monomer | 300 | 1550 | High Osmolar |\n| Ionic | Metrizoate (Isopaque Coronar 370) | Ionic | 370 | 2100 | High Osmolar |\n| Ionic | Ioxaglate (Hexabrix) | Ionic | 320 | 580 | Low Osmolar |\n| Non-Ionic | Iopamidol (Isovue 370) | Non-ionic monomer | 370 | 796 | Low Osmolar |\n| Non-Ionic | Iohexol (Omnipaque 350) | Non-ionic | 350 | 884 | Low Osmolar |\n| Non-Ionic | Iodixanol (Visipaque 320) | Non-ionic dimer | 320 | 290 | Iso Osmolar |"
+        }
+      ]
     },
     {
       "id": "2021-086",
@@ -3512,9 +3584,6 @@
       "correctAnswer": "C",
       "reference": "ACR BI-RADS Atlas® 5th Edition p15；2021 交換考官方詳解 PDF p1",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 1 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-088-1.png"
-      ],
       "concepts": [
         "bi-rads-mass-lexicon"
       ],
@@ -3522,7 +3591,14 @@
       "difficulty": "易",
       "author": "胡華堃",
       "sourcePage2021": 1,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-088-1.png",
+          "type": "table",
+          "markdown": "**Ultrasound Lexicon（乳房超音波 BI-RADS 詞彙）**\n\n| 類別 | 項目 | 描述選項 |\n|---|---|---|\n| Breast composition | | a. homogeneous - fat；b. homogeneous - fibroglandular；c. heterogeneous |\n| Mass | shape | oval - round - irregular |\n| Mass | margin | Circumscribed 或 Not-circumscribed（indistinct, angular, microlobulated, spiculated） |\n| Mass | orientation | parallel - not parallel |\n| Mass | echo pattern | anechoic - hyperechoic - complex cystic/solid - hypoechoic - isoechoic - heterogeneous |\n| Mass | posterior features | no features - enhancement - shadowing - combined pattern |\n| Calcifications | | in mass - outside mass - intraductal |\n| Associated features | | architectural distortion - duct changes - skin thickening - skin retraction - edema - vascularity (absent, internal, rim) - elasticity |\n| Special cases | | simple cyst - clustered microcysts - complicated cyst - mass in or on skin - foreign body (including implants) - intramammary lymph node - AVM - Mondor disease - postsurgical fluid collection - fat necrosis |"
+        }
+      ]
     },
     {
       "id": "2021-089",
@@ -3592,9 +3668,6 @@
       "correctAnswer": "D",
       "reference": "Fetal Hepatomegaly: Causes and Associations; RadioGraphics 2020; 40:589–604；2021 交換考官方詳解 PDF p9",
       "explanation": "【2021 官方詳解】\nMetastatic neuroblastoma : Heterogenous hyperechoic nodule with/without vascularity.\n\n⚠️ 本題含影像（官方詳解 PDF 第 9 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-089-1.png"
-      ],
       "concepts": [
         "pediatric-liver-tumors"
       ],
@@ -3602,7 +3675,14 @@
       "difficulty": "普通",
       "author": "楊良友",
       "sourcePage2021": 9,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-089-1.png",
+          "type": "table",
+          "markdown": "**Table 2: Imaging Findings of Fetal Liver Tumor**\n\n| Tumor Status | Tumor Type | Imaging Findings |\n|---|---|---|\n| Benign | Focal nodular hyperplasia | Hypoechoic lesion with vascularity at Doppler US |\n| Benign | Hemangioma | Hypoechoic cystic lesion with or without punctate calcifications; vascularity at Doppler US |\n| Benign | Hemangioendothelioma | Dilated intrahepatic vessels, elevated maternal serum α-fetoprotein |\n| Benign | Mesenchymal hamartoma | Usually a large multiloculated cystic mass |\n| Benign | Arterial venous malformations or fistulas | Multiple enlarged intrahepatic vessels |\n| Benign | Simple cysts | Anechoic, without vascularity |\n| Benign | Intrahepatic meconium pseudocysts | Related to perforation, multiple intrahepatic complex cysts |\n| Malignant | Hepatoblastoma | Solid, spoke-wheel, vascular multilobular mass with or without calcifications |\n| Malignant | Metastatic neuroblastoma | Heterogeneous hyperechoic nodule with or without vascularity |"
+        }
+      ]
     },
     {
       "id": "2021-091",
@@ -3670,9 +3750,6 @@
       "correctAnswer": "C",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p16",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 16 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-092-1.png"
-      ],
       "concepts": [
         "contrast-adverse-reactions"
       ],
@@ -3680,7 +3757,14 @@
       "difficulty": "易",
       "author": "黃元俊",
       "sourcePage2021": 16,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-092-1.png",
+          "type": "table",
+          "markdown": "**A4.2.2 急性全身性不良反應之風險因子 [10, 20]**\n\n雖然有風險因子之受檢者發生不良反應的風險較高，但對比劑之不良反應仍是不可預測。\n\n風險因子分類：\n\n| 受檢者風險因子 ᵃ | 對比劑風險因子 ᵇ |\n|---|---|\n| 因使用含碘對比劑發生過中度或重度急性反應；需治療的氣喘；需治療特異反應性體質（多重過敏）；嚴重心臟疾病 ᶜ；過度焦慮 ᵈ | 離子性高張對比劑 |"
+        }
+      ]
     },
     {
       "id": "2021-093",
@@ -3788,9 +3872,6 @@
       "correctAnswer": "D",
       "reference": "LI-RADS Version 2018 Ancillary Features at MRI RadioGraphics 2018; 38: 1973-2001.；2021 交換考官方詳解 PDF p23",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 23 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-094-1.jpg"
-      ],
       "concepts": [
         "li-rads-ancillary-benignity"
       ],
@@ -3798,7 +3879,14 @@
       "difficulty": "普通",
       "author": "陳嘉邦",
       "sourcePage2021": 23,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-094-1.jpg",
+          "type": "table",
+          "markdown": "**LI-RADS Ancillary features（輔助特徵）**\n\n**Ancillary features favoring malignancy in general**\n- US visibility as discrete nodule\n- Subthreshold growth\n- Corona enhancement\n- Fat sparing in solid mass\n- Restricted diffusion\n- Mild-moderate T2 hyperintensity\n- Iron sparing in solid mass\n- Transitional phase hypointensity\n- Hepatobiliary phase (HBP) hypointensity\n\n**Ancillary features favoring HCC in particular**\n- Nonenhancing \"capsule\"\n- Mosaic architecture\n- Nodule-in-nodule architecture\n- Fat in mass, more than in adjacent liver\n- Blood products in mass\n\n**Ancillary features favoring benignity**\n- Size stability for ≥2 y\n- Size reduction\n- Parallels blood pool enhancement\n- Undistorted vessels\n- Iron in mass, more than in liver\n- Marked T2 hyperintensity\n- HBP isointensity"
+        }
+      ]
     },
     {
       "id": "2021-096",
@@ -3828,9 +3916,6 @@
       "correctAnswer": "D",
       "reference": "Wolske, K. M., Ponnatapura, J., Kolokythas, O., Burke, L. M. B., Tappouni, R., & Lalwani, N. (2019). Chronic Pancreatitis or Pancreatic Tumor? A Problem-solving Approach. RadioGraphics, 39(7), 1965–1982. https://doi.org/10.1148/rg.2019190011；10.1148/rg.2019190011；2021 交換考官方詳解 PDF p24",
       "explanation": "【2021 官方詳解】\nSmooth narrowing of the pancreatic duct that traverses a pancreatic mass without abrupt obstruction strongly favors the diagnosis of inflammatory mass.\n\n⚠️ 本題含影像（官方詳解 PDF 第 24 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-096-1.png"
-      ],
       "concepts": [
         "igg4-related-disease",
         "autoimmune-pancreatitis"
@@ -3839,7 +3924,14 @@
       "difficulty": "普通",
       "author": "",
       "sourcePage2021": 24,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-096-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- Smooth narrowing of the pancreatic duct that traverses a pancreatic mass without abrupt obstruction strongly favors the diagnosis of an inflammatory mass.\n- Pancreatic parenchymal calcifications are commonly seen in chronic pancreatitis, and peripheral displacement of calcifications can indicate a new underlying malignancy that may otherwise be imaging occult or poorly visualized because of gland heterogeneity from chronic pancreatitis.\n- In the absence of the pathognomonic capsulelike rim, visualization of multiple pancreatic or biliary strictures rather than a solitary stricture and absence of substantial dilatation of the side branches or upstream pancreatic duct may be helpful clues that a focal mass in the pancreas represents focal AIP. Similar to other benign focal inflammatory lesions in the pancreas, AIP often shows the duct-penetrating sign, which further supports a benign diagnosis. Extrapancreatic autoimmune disease may be present.\n- Displacement rather than encasement of the common bile duct and/or the gastroduodenal artery is highly suggestive of the diagnosis of PDP rather than PDAC.\n- Dilatation of both the common bile duct and the main pancreatic duct, or the double duct sign, is highly suggestive of an underlying neoplasm. Although uncommon, inflammatory disease can produce this finding, which mimics malignancy."
+        }
+      ]
     },
     {
       "id": "2021-097",
@@ -4061,15 +4153,19 @@
       "correctAnswer": "D",
       "reference": "Kamalian, S., Avery, L., Lev, M. H., Schaefer, P. W., Curtin, H. D., & Kamalian, S. (2019). Nontraumatic Head and Neck Emergencies. RadioGraphics, 39(6), 1808–1823. https://doi.org/10.1148/rg.2019190159；10.1148/rg.2019190159；2021 交換考官方詳解 PDF p33",
       "explanation": "⚠️ 疑似與 2021-008 為同一題（相似度 0.988），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 33 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-102-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "普通",
       "author": "",
       "sourcePage2021": 33,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-102-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- Above the hyoid bone, the posterior aspect of the middle layer of the deep cervical fascia (or buccopharyngeal fascia) continues to the skull base and covers the pharyngeal constrictor muscles. However, above the carotid bifurcation, the contribution of the middle layer to the carotid sheath is inconsistent; it does not form a well-defined sheath around the internal and external carotid arteries and the internal jugular vein.\n- The retropharyngeal space extends from the skull base to the thoracocervical junction as the alar fascia attaches to the buccopharyngeal fascia somewhere between the C6 and T4 vertebral levels.\n- If the masticator space is involved, the infection has the potential to extend intracranially through the foramen ovale, along the course of the mandibular nerve (V3 branch of the trigeminal nerve).\n- CT allows the radiologist to localize the infection accurately and distinguish a true abscess from retropharyngeal edema. Accurate diagnosis is important to avoid unnecessary and potentially harmful surgery for drainage of a reactive noninfected effusion. A true abscess appears as a rim-enhancing hypoattenuating collection that expands the retropharyngeal space and may contain foci of air.\n- The degree of sinonasal mucosal thickening and opacification may be minimal and is not sensitive or specific for diagnosis of invasive fungal sinusitis in at-risk patients. Subtle stranding of the periantral fat can be the first imaging finding of vascular invasion and spread of infection beyond the sinuses."
+        }
+      ]
     },
     {
       "id": "2021-103",
@@ -4562,7 +4658,6 @@
       "reference": "RadioGraphics 2006; 26:765–781；2021 交換考官方詳解 PDF p55",
       "explanation": "【2021 官方詳解】\nB. 嚴格來說超過正負10度就算Pathological了．雖然paper也同意說小於正負30度可以是normal.\n\n⚠️ 本題含影像（官方詳解 PDF 第 55 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-115-1.png",
         "2021-115-2.png"
       ],
       "concepts": [],
@@ -4570,7 +4665,14 @@
       "difficulty": "普通",
       "author": "葉智華",
       "sourcePage2021": 55,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-115-1.png",
+          "type": "table",
+          "markdown": "**Table 1. Direct and Indirect MR Imaging Signs of TMJ Dysfunction**\n\n| 分類 | 內容 |\n|---|---|\n| **Direct signs** | |\n| Abnormal disk morphologic features | Crumpled / Rounded / Flat / Perforated |\n| Abnormal disk displacement in closed-mouth position — Anterior displacement | More frequently observed；Posterior band exceeds 10° (9,18,19) or 30° (20) from vertical |\n| — Posterior displacement | Rare；Posterior band exceeds −10° (9,18,19) or −30° (20) from vertical |\n| — Lateral or medial displacement | |\n| Abnormal disk movement in open-mouth position | Anterior disk displacement with reduction / without reduction / Stuck disk (disk remains fixed) |\n| Osteoarthritic changes of the condyle | Flattening / Osteophytes / Erosion / Sclerosis |\n| **Indirect signs** | Large amount of joint fluid (joint effusion)；Increased thickness of LPM attachments；Rupture of retrodiskal layers |\n\nNote.—Numbers in parentheses indicate reference numbers."
+        }
+      ]
     },
     {
       "id": "2021-116",
@@ -4600,9 +4702,6 @@
       "correctAnswer": "D",
       "reference": "p182 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p57",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 57 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-116-1.jpg"
-      ],
       "concepts": [
         "bone-lesion-sclerotic-border"
       ],
@@ -4610,7 +4709,14 @@
       "difficulty": "易",
       "author": "林宇旌",
       "sourcePage2021": 57,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-116-1.jpg",
+          "type": "table",
+          "markdown": "| Findings favoring benignity | Factors favoring malignancy |\n|---|---|\n| Narrow zone of transition | Broad zone of transition |\n| Benign periosteal reaction | Aggressive periosteal reaction (note this can be seen in benign and infectious processes) |\n| Absence of cortical destruction | Presence of cortical destruction |\n| Stability with time | Interval growth |"
+        }
+      ]
     },
     {
       "id": "2021-117",
@@ -4763,15 +4869,19 @@
       "correctAnswer": "E",
       "reference": "AJCC Cancer Staging Manual 8th ed.；2021 交換考官方詳解 PDF p62",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 62 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-120-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "沈鼎文",
       "sourcePage2021": 62,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-120-1.png",
+          "type": "text",
+          "markdown": "**T**\n- **Ta:** noninvasive papillary tumor\n- **Tis:** in situ (noninvasive flat)\n- **T1:** through lamina propria into sub-epithelial connective tissues\n- **T2:** into muscularis propria\n- **T3:** invasion into peripelvic fat or renal parenchyma\n- **T4:** direct invasion into adjacent structures or beyond renal capsule\n\n**N**\n\nNodal staging is the same for TCC of any part of the urinary tract.\n- **N0:** no nodal involvement\n- **N1:** single node involved <2 cm\n- **N2:** single node 2-5 cm or multiple nodes all <5 cm\n- **N3:** one or more nodes >5 cm\n\n**M**\n- **M0:** no metastases\n- **M1:** metastases identified"
+        }
+      ]
     },
     {
       "id": "2021-121",
