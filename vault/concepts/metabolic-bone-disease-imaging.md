@@ -30,6 +30,15 @@ dateRev: 2026-07-01
 > [!note] 考點總覽：各代謝性骨病之「非典型」誤判陷阱
 > Rickets非典型＝遠端指骨骨吸收；Hypophosphatasia非典型＝瀰漫性「硬化」（實為疏鬆）；腎性骨營養不良非典型＝與生長板平行橫向硬化線（那是rickets）；副甲狀腺機能亢進非典型＝鈕扣狀死骨（那是骨髓炎/嗜酸性肉芽腫）。[^2]
 
+## Summary（Rickets 典型 X 光徵象與骨骺陷阱，2021-259）
+- **幹骺端變化為核心徵象**：**fraying（毛刷狀，幹骺端邊緣不清）、splaying／flaring（喇叭狀增寬）、cupping（杯口狀凹陷）**；因生長板臨時鈣化區堆積未礦化 osteoid，故**生長板增寬（widening of the growth plate）＋幹骺端構型異常**。[^2][^3]
+- **好發於生長最快的骨端**：膝（遠端股骨、近端脛骨）、腕（尤其尺骨）、前肋骨端（rachitic rosary 佝僂病串珠）。[^3]
+- **長骨彎曲（bowing）**：合併骨軟化使骨變弱，會走路後下肢向外彎曲（coxa vara、genu varum/valgum、protrusio acetabuli、Harrison sulcus）。[^3]
+- **骨骺（epiphysis）陷阱（本題答案）**：骨骺骨化中心**礦化不良、出現延遲、邊緣模糊**，但**體積並不會縮小**——故「Decreased size of the epiphysis（骨骺體積減小）」**非** rickets 典型表現（答案 B）。[^2][^3]
+
+> [!note] 考點：Rickets 的 X 光何者「非」典型？
+> **B（Decreased size of the epiphysis）**——骨骺礦化差、出現延遲但**體積不縮小**。A（長骨彎曲）、C（幹骺端喇叭狀展開 flaring）、D（生長板增寬）皆為 rickets 典型表現。[^2][^3]
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "metabolic-bone-disease-imaging")
@@ -38,6 +47,7 @@ list from #交換 where contains(concepts, "metabolic-bone-disease-imaging")
 ### 參考來源
 [^1]: *Imaging Findings of Metabolic Bone Disease.* RadioGraphics 2016;36:page 1872（2018 交換考題詳解 p.91 引用；Tier 1）。骨質疏鬆症為最常見代謝性骨病；副甲狀腺機能亢進之骨骼變化95%病人最容易於手部（橈側中節指骨骨膜下骨吸收）辨識，非脊椎；骨軟化為類骨質礦化不足；腎性骨營養不良為慢性腎不全背景下之複合骨骼變化。
 [^2]: *Imaging Findings of Metabolic Bone Disease.* RadioGraphics 2016;36:1871-1887（2018 交換考題詳解 p.201-203/206 引用；Tier 1）。Rickets典型表現rachitic rosary/幹骺端周邊透亮環/與生長板平行橫向硬化線，非典型為遠端指骨骨吸收；Hypophosphatasia典型表現beaten-copper顱骨/身材矮小/假性骨折，典型骨變化為瀰漫性骨質疏鬆(非硬化)；腎性骨營養不良典型表現salt-pepper顱骨/皮質隧道化/棕色瘤，與生長板平行橫向硬化線非其典型(為rickets表現)；副甲狀腺機能亢進典型表現骨膜下骨吸收/皮質內骨吸收/棕色瘤，鈕扣狀死骨非典型(為骨髓炎/嗜酸性肉芽腫表現)。
+[^3]: *Rickets*. Radiopaedia.org rID 8220（DOI 10.53347/rID-8220；實際查證 accessed 2026-07-10）：生長骨的礦化不足最明顯於幹骺端臨時鈣化區，堆積未礦化 osteoid 造成 **growth plate widening 與幹骺端構型異常——fraying（邊緣不清）、splaying（幹骺端展開）、cupping（凹陷）**，並可見 Looser zone；徵象在生長最快處最明顯（膝：遠端股骨/近端脛骨；腕：尤其尺骨；前肋端 rachitic rosary）；合併骨軟化使骨變弱而 **bowing of long bones**（coxa vara、genu valga/vara、protrusio acetabuli、Harrison sulcus）。骨骺骨化中心礦化不良、出現延遲、邊緣模糊，但體積不縮小。
 
 ## 題目
 > [!question]- Which of the following imaging findings not typical for rickets? (2018-297)
@@ -51,3 +61,6 @@ list from #交換 where contains(concepts, "metabolic-bone-disease-imaging")
 
 > [!question]- Which one of the following radiographic features is NOT usually seen in patients with hyperparathyroidism? (2018-302)
 > **Button sequestrum in skull vault（D）**——典型見於骨髓炎/嗜酸性肉芽腫，非副甲狀腺機能亢進，此敘述錯誤。[^2]
+
+> [!question]- Which one of the following radiographic features on radiography is NOT usually seen in patients with Rickets? (2021-259)
+> **B（Decreased size of the epiphysis）**——rickets 的骨骺骨化中心礦化不良、出現延遲、邊緣模糊，但**體積不會縮小**，故非典型表現。A 長骨彎曲、C 幹骺端喇叭狀展開（flaring）、D 生長板增寬皆為 rickets 典型 X 光徵象。[^2][^3]

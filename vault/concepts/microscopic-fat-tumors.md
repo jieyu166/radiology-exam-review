@@ -32,8 +32,20 @@ dateRev: 2026-07-02
 - 肝細胞癌可因含細胞內脂肪而在反相掉訊號，屬需與良性脂肪浸潤鑑別的情境。[^1]
 - 病灶含巨觀脂肪（如血管肌脂瘤、脂肪瘤）時臨床意義與微量脂肪不同，處置方向亦異。[^1]
 
+## 補充：Hepatic angiomyolipoma 與正常腹部實質器官 MR 訊號（2021-187）
+- **Hepatic AML 一定會掉訊號（本題核心）**：肝 AML 依脂肪量分 mixed／**lipomatous（≥70% 脂肪）**／myomatous（≤10%）／angiomatous 型。**含較多巨觀脂肪者：T1WI 高訊號、脂肪抑制序列明顯掉訊號；含脂少（lipid-poor）者：反相（opposed-phase）掉訊號**（chemical shift 偵測細胞內脂肪）。故「hepatic lipomatous AML 在 IP/OP 無 signal drop」**為錯**（答案 D）——MRI 是偵測微量與巨觀脂肪最專一的工具。[^2][^3]
+- **正常肝 vs 脾 on T2WI**：正常肝實質 T2 訊號**低於脾**（脾 T2 較長、較亮）——A 正確。[^2]
+- **正常肝 vs 脾 on in/out-of-phase**：正常肝與脾皆不含脂肪，在同相/反相間**無明顯訊號差**、彼此訊號相近——B 正確（正常肝無脂肪浸潤時 IP/OP 不掉訊號）。[^3]
+- **正常胰臟 on T1WI**：正常胰臟因腺泡富含水溶性蛋白／錳，**T1WI 呈相對高訊號**（腹部實質器官中 T1 最亮）——C 正確。[^3]
+
 ### 參考來源
 [^1]: RadioGraphics 2016;36:718；Schieda N et al. Update on CT and MRI of Adrenal Nodules. AJR 2017;208:1206-1217.
+[^2]: *Hepatic angiomyolipoma*. Radiopaedia.org rID 17271（DOI 10.53347/rID-17271；實際查證 accessed 2026-07-10）：依脂肪量分 mixed／lipomatous（>70% fat）／myomatous（<10%）／angiomatous；MRI **呈脂肪樣高訊號於 T1 與 T2、脂肪抑制後掉訊號**；偵測 lipid-poor AML 少量脂肪可用 **chemical shift（in-phase/out-of-phase）**——poor lipid-content 者**於 out-of-phase 掉訊號**；動脈期血管成分強化。
+[^3]: **Tier 1** Prasad SR, Wang H, Rosas H, et al. *Fat-containing Lesions of the Liver: Radiologic-Pathologic Correlation.* RadioGraphics 2005;25(2):321–331（DOI 10.1148/rg.252045083；正文查證 accessed 2026-07-10）：AML 依脂肪量分類，**lipomatous ≥70% fat**；**AML 常高脂肪含量、T1 高訊號、脂肪抑制影像顯著掉訊號**；chemical shift 之 opposed-phase 於水脂並存 voxel 產生相位抵消而掉訊號；**MR imaging is the most specific imaging technique for demonstration of both microscopic and macroscopic fat**；HCC 含脂時 T1 高訊號、chemical shift 掉訊號。（正常肝/脾/胰臟之相對 T1/T2 訊號為腹部 MR 基礎判讀通則。）
+
+## 題目
+> [!question]- Which of the following descriptions about intra-abdominal solid organ is wrong? (2021-187)
+> **D（hepatic lipomatous angiomyolipoma shows no signal drop on IP/OP）為錯**——含脂之肝 AML 在脂肪抑制／反相會掉訊號（脂-非脂界面呈 India-ink），故「無 signal drop」錯誤。A（正常肝 T2 低於脾）、B（正常肝與脾在 IP/OP 訊號相近，皆無脂肪）、C（正常胰臟 T1 呈高訊號）皆正確。[^2][^3]
 
 ## 考題
 > [!question]- 相關考題

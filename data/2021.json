@@ -2170,7 +2170,9 @@
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 206, 223, 234.；2021 交換考官方詳解 PDF p43",
       "explanation": "記憶/基本題\n\n## Location\n### Intra-axial v.s. extra-axial\n口試常被問\n如何確定是extra-axial lesion？\n- 是否有CSF cleft，血管是否往內推\n- Gray/white matter是否有buckled的型態？WM buckling sign\n- **沿著dura長不能判斷是intra/extra-axial**\n\n### 不同位置的DDx\n\n接下來要講的outline\n針對不同位置的pathology做介紹\n\n### Extra-axial\n\n### Intraventricular\n\n### Pineal\n\n### Sellar\n\n### CP angle\n\n### Foramen of Magnum\n\n### Skull base\n\n### Intra-axial\n- intra-axial為supra/infratentorial，小孩/大人 的排列組合\n\n# Summary\n最後複習一下金三角\n\n念書有問題，這三本教科書都很棒(Osborn's brain, DI: Brain, Neuroradiology: The requisites)\n\n【2021 官方詳解】\n嗯嗯\nFat appears bright on T1 weighted SE images, and fluids appear bright on T2 weighted images.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mri-tissue-signal-t1-t2-basics"
+      ],
       "checked": false,
       "sourcePage2021": 43
     },
@@ -4475,7 +4477,9 @@
       "images": [
         "2021-114-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "mr-spectroscopy-brain"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林彥伶",
@@ -7333,7 +7337,9 @@
       "reference": "2021 交換考官方詳解 PDF p142",
       "explanation": "【2021 官方詳解】\nHepatic angiomyolipoma:\n- T1\n  - fatty components show hyperintensity on T1WI\n  - loss of signal on fat suppressed sequences\n  - in cases of poor lipid-content in phase/out of phase will show loss of signal at out of phase\n- T2: fatty components show hyperintensity on T2WI\n- T1 C+ (Gd): enhancement of vascular component in arterial phase",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "microscopic-fat-tumors"
+      ],
       "checked": false,
       "difficulty": "易\n易",
       "author": "蘇盈盈",
@@ -10197,7 +10203,9 @@
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.2120；2021 交換考官方詳解 PDF p227",
       "explanation": "【2021 官方詳解】\nRef: http://learningradiology.com/archives04/COW%20088-Rickets/ricketscorrect.htm\nImaging findings\n- Cupping and fraying of metaphysis\n- Poorly mineralized epiphyseal centers with delayed appearance\n- Irregular widened epiphyseal plates (increased osteoid)\n- Increase in distance between end of shaft and epiphyseal center\n- Cortical spurs projecting at right angles to metaphysis\n- Coarse trabeculation (not the ground-glass pattern found in scurvy)\n- Periosteal reaction may be present\n- Deformities common\n  - Bowing of long bones\n  - Molding of epiphysis\n  - Fractures\n  - Frontal bossing",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "metabolic-bone-disease-imaging"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "游治維",
@@ -11159,7 +11167,9 @@
       "images": [
         "2021-284-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "milwaukee-shoulder"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "J-W Ku (SHH)",
