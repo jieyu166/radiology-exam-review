@@ -13451,9 +13451,6 @@
       "correctAnswer": "B",
       "reference": "JACC Cardiovasc Imaging. Mouaz H. Al-Mallah M. Coronary Artery Calcium Scoring. 2018.；2021 交換考官方詳解 PDF p334",
       "explanation": "【2021 官方詳解】\nAgatston score= highest attenuation value (HU) multiplied by the area of the calcification speck\nDensity factor\n130-199 HU: 1\n200-299 HU: 2\n300-399 HU: 3\n400+ HU: 4\nif a calcified speck has a maximum attenuation value of 400 HU and occupies 8 sq mm area, then its calcium score will be 32.\nGrading of coronary artery disease (based on total calcium score)\ncalcium score\nno evidence of CAD: 0\nminimal: 1-10\nmild: 11-100\nmoderate: 101-400\nsevere: >400\nB: information is not enough in this question\n\n⚠️ 本題含影像（官方詳解 PDF 第 334 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-332-1.png"
-      ],
       "concepts": [
         "calcium-score"
       ],
@@ -13461,7 +13458,14 @@
       "difficulty": "普通",
       "author": "吳銘庭",
       "sourcePage2021": 334,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-332-1.png",
+          "type": "title",
+          "markdown": "Wu MT, Yang P, Huang YL, Chen JS, et al. Coronary Arterial Calcification on Low-Dose Ungated MDCT for Lung Cancer Screening: Concordance Study with Dedicated Cardiac CT. AJR Am J Roentgenol. April 2008;190(4)（Cardiac Imaging – Original Research）."
+        }
+      ]
     },
     {
       "id": "2021-333",
@@ -13851,16 +13855,24 @@
       "correctAnswer": "E",
       "reference": "RadioGraphics 2019; 39:344–366 Recognizing Radiation Therapy– related Complications in the Chest；2021 交換考官方詳解 PDF p354",
       "explanation": "【2021 官方詳解】\nMesothelioma, esophageal cancer have been reported\n\n⚠️ 本題含影像（官方詳解 PDF 第 354 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-342-1.png",
-        "2021-342-2.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總李瑩琦醫師",
       "sourcePage2021": 354,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-342-1.png",
+          "type": "table",
+          "markdown": "**Table 2: Post–Radiation Therapy Complications**\n\n| Anatomic Site | Early Complication(s) | Late Complication(s)* |\n|---|---|---|\n| Lungs | Infection, organizing pneumonia | Tumor recurrence |\n| Pleura | Pleural effusion | … |\n| Heart | Pericardial effusion | CAD, valvular disease, chronic pericarditis, cardiomyopathy |\n| Great vessels | Vascular stenosis | Vascular wall calcifications, vascular occlusion and pseudoaneurysms |\n| Thymus | Simple cysts | … |\n| Lymph nodes | … | Calcified lymph nodes, fibrotic mass |\n| Esophagus | Ulceration, esophageal dismotility related to acute radiation-induced esophagitis, perforation, fistula (rare) | Stricture, ulceration, perforation, or fistula formation |\n| Liver | Focal hepatitis | Atrophic liver changes |\n| Breast | Diffuse skin thickening | Fat necrosis and dystrophic calcifications, skin retraction, radiation-induced breast cancer |\n| Bones | Bone edema and osteopenia | Pathologic bone fractures, osteochondromas, osteoradionecrosis, and radiation-induced bone malignancy |\n\n*Late complications can also include radiation-induced thoracic malignancies, including sarcoma and breast and lung cancers. CAD = coronary artery disease."
+        },
+        {
+          "file": "2021-342-2.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n- When the intent in treating the primary malignancy is curative, the goal in performing radiation therapy is to deliver a therapeutic radiation dose to the target tissue in a precise and accurate manner while minimizing the radiation delivered to surrounding normal structures.\n- Pulmonary opacities due to radiation damage are usually confined to the radiation portal, as radiation pneumonitis outside the radiation field is extremely rare.\n- During the first few months after radiation therapy, there is diffuse FDG uptake in the area of radiation pneumonitis. Owing to this uptake, the sensitivity of FDG PET for the detection of any residual FDG-avid tumor in the radiation field, while the inflammation is still active, is decreased. Therefore, it is best to perform FDG PET at least 6 months after the completion of radiation therapy.\n- To correctly interpret chest imaging findings after thoracic irradiation, the radiologist must be familiar with the newer radiation delivery techniques, the date of the last radiation therapy delivery, the treatment dose, and the treatment field. This information helps in distinguishing radiation-induced changes from infection or malignancy progression.\n- Direct radiation damage to the heart may affect the coronary arteries, valves, pericardium, and/or myocardium. These cardiac effects are associated with increased mortality and may take their toll years after the radiation therapy; thus, they are usually seen in long-term survivors whose mediastinum was irradiated when they were younger."
+        }
+      ]
     },
     {
       "id": "2021-343",
@@ -13890,10 +13902,6 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2020; 40:515–528 Imaging Evaluation of Tracheobronchial Injuries；2021 交換考官方詳解 PDF p356",
       "explanation": "【2021 官方詳解】\nC. Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations.\nCuff overinflation can be depicted at CT or radiography by a discrepancy in cuff diameter relative to the adjacent trachea.\n\n⚠️ 本題含影像（官方詳解 PDF 第 356 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-343-1.png",
-        "2021-343-2.png"
-      ],
       "concepts": [
         "chest-trauma-imaging"
       ],
@@ -13901,7 +13909,19 @@
       "difficulty": "中",
       "author": "臺北榮總李瑩琦醫師",
       "sourcePage2021": 356,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-343-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n- The precise site of injury is frequently subtle or occult at imaging, even in the presence of other suggestive imaging features such as pneumomediastinum, pneumothorax, or deep cervical subcutaneous emphysema.\n- Penetrating injuries such as stabbings are more commonly found in the anterior cervical trachea because of its relatively exposed position. Iatrogenic injuries such as those related to bronchoscopic procedures most commonly affect the cervical and proximal intrathoracic trachea, especially the less protected posterior membrane. High-impact blunt force injuries tend to involve the intrathoracic distal trachea near the carina, with a slight preponderance of right-sided involvement.\n- Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations. Cuff overinflation can be depicted at CT or radiography by a discrepancy in cuff diameter relative to the adjacent trachea."
+        },
+        {
+          "file": "2021-343-2.png",
+          "type": "text",
+          "markdown": "- Surgery is usually performed in lacerations greater than 2–4 cm, especially when there is involvement of the cartilage. Surgery may also be performed in patients with worsening pneumomediastinum, subcutaneous emphysema, or pneumothorax or with a lung that fails to re-expand despite drain placement. Mediastinal sepsis and proximity of the injury to the carina have also been proposed as indications for surgery. Emergency surgery is required where there is failure to ventilate or if there is esophageal herniation through the tracheal defect, which may be visualized at CT.\n- In more borderline cases with lacerations measuring 1.5–2 cm or less, there is increasing momentum behind nonsurgical management options. These include rigid and flexible bronchoscopic application of synthetic adhesives (fibrin- or cyanoacrylate-based), which may be considered in injuries smaller than 5 mm, and covered metallic or silicone stent placement, both of which have shown promising results in specialist units."
+        }
+      ]
     },
     {
       "id": "2021-344",
@@ -13967,9 +13987,6 @@
       "correctAnswer": "D",
       "reference": "2020 中華民國放射線醫學會對比劑手冊 ACR Manual On Contrast Media 2020；2021 交換考官方詳解 PDF p361",
       "explanation": "【2021 官方詳解】\n接受放射線碘 131 治療者，最好在治療前兩個月內不曾使用含碘對比劑。\n若病情需要，則最好安排在使用含碘對比劑 4 周之後接受放射線碘 131 治療。\n接受含碘造影劑後兩個月內，應避免核子醫學甲狀腺同位素掃瞄\n\n⚠️ 本題含影像（官方詳解 PDF 第 361 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-345-1.png"
-      ],
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -13977,7 +13994,14 @@
       "difficulty": "易",
       "author": "臺北榮總李潤川主任",
       "sourcePage2021": 361,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-345-1.png",
+          "type": "text",
+          "markdown": "**A4.4 晚期全身性不良反應 [20]**\n- 含碘對比劑之晚期全身性不良反應為甲狀腺機能亢進 [20, 21]。\n- 有甲狀腺機能亢進之受檢者應盡量避免使用含碘對比劑 [20]。\n- 晚期全身性不良反應可發生於任何種類之含碘對比劑注射，通常可自行緩解 [21]。\n- 部分有風險因子之受檢者，可能於靜脈注射含碘對比劑後 6 至 8 周發生甲狀腺機能亢進 [21]。\n\n風險因子分類：\n\n| 風險因子 ᵃ | 非風險因子 |\n|---|---|\n| 未治療之 Graves' disease；甲狀腺多結節腺腫或甲狀腺 autonomy，特別是年長或居住區之食用碘缺乏 | 甲狀腺功能正常 [20] |\n\n註解：ᵃ 有風險因子之受檢者，內分泌專科醫師可給予預防性治療並在含碘對比劑注射後密切追蹤受檢者 [20]"
+        }
+      ]
     },
     {
       "id": "2021-346",
@@ -14007,15 +14031,19 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1528–1553；2021 交換考官方詳解 PDF p362",
       "explanation": "【2021 官方詳解】\nRef: CT for Pre- and Postprocedural Evaluation of Transcatheter Mitral Valve Replacement\nA. Mitral orifice area > 4cm2 => favorable anatomy\nC. Mobile leaflet length > 1cm => favorable anatomy\nD. LVOT obstruction => postprocedural LVOT gradient increase 10 mm Hg or mor\n\n⚠️ 本題含影像（官方詳解 PDF 第 362 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-346-1.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "陳俊谷",
       "sourcePage2021": 362,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-346-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n- CT can help provide information on the morphology and function of the mitral valve that is complementary to findings at echocardiography. CT adds excellent incremental value to performing echocardiography alone in guiding device sizing and procedural planning.\n- Owing to the difficulty in reconstructing the true complex shape of the mitral annulus, a simplified D-shaped annulus is more reproducible for device sizing.\n- CT is used to estimate the size of the anticipated neo-LVOT, thus allowing prediction of potential obstruction. CT can simulate a virtual prosthesis, a 3D model that matches the shape and dimensions of a specific TMVR prosthesis.\n- The risk of neo-LVOT obstruction is higher with greater flaring, protrusion, and skirt size of the device.\n- LVOT obstruction is the most dreaded complication of TMVR, defined as a postprocedural LVOT gradient increase of 10 mm Hg or more.\n\n**Table 1: Favorable Anatomy and Contraindications for Transcatheter Mitral Valve Repair with MitraClip**\n\nFavorable anatomy:\n- Pathologic condition at A2–P2 cusps\n- Coaptation depth, <1 mm\n- Coaptation length, >2 mm\n- Flail gap, <10 mm\n- Flail width, <15 mm\n- Mitral orifice area, >4 cm²\n- Mobile leaflet length, >1 cm\n\nContraindications:\n- Rheumatic mitral disease\n- Mitral leaflet calcifications\n\nSource.—Reference 4."
+        }
+      ]
     },
     {
       "id": "2021-347",
@@ -14083,10 +14111,6 @@
       "correctAnswer": "A",
       "reference": "Radiographics 2020;40:961-981；2021 交換考官方詳解 PDF p366",
       "explanation": "【2021 官方詳解】\nC.\nIn cardiac amyloidosis, typical LGE pattern involves global subendocardial LGE distributed in a non–coronary artery territory with a dark blood pool.\n\n⚠️ 本題含影像（官方詳解 PDF 第 366 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-348-1.png",
-        "2021-348-2.png"
-      ],
       "concepts": [
         "cardiac-amyloidosis"
       ],
@@ -14094,7 +14118,19 @@
       "difficulty": "中",
       "author": "臺北榮總張瀛月醫師",
       "sourcePage2021": 366,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-348-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n- Radiologists encounter two main types of CA in clinical settings: immunoglobulin light-chain amyloidosis (AL) and transthyretin amyloidosis (ATTR). ATTR can be subdivided into two types according to genetic mutation status: hereditary or mutant type (ATTRm) and wild type (ATTRwt).\n- Radiologists should be familiar with the following key clinical points regarding CA: (a) Many patients with heart failure, particularly those with HFpEF, also have \"hidden\" CA. (b) Most patients with CA remain undiagnosed and do not receive appropriate treatment. (c) CA generally is associated with a poor prognosis, especially for patients with advanced heart failure. (d) Early diagnosis and an intervention based on effective therapies are important factors in prognostic improvement. (e) Advanced diagnostic imaging can facilitate the early diagnosis of CA."
+        },
+        {
+          "file": "2021-348-2.png",
+          "type": "text",
+          "markdown": "- The important cardiac manifestations of CA include increased left ventricular (LV) thickening, HFpEF, atrial fibrillation, bundle branch block, and complete heart block. Extracardiac symptoms that should also increase suspicion regarding CA include bilateral carpal tunnel syndrome, spinal canal stenosis, rotator cuff tear, peripheral and autonomic neuropathy, proteinuria, chronic diarrhea, weight loss, macroglossia, periorbital purpura, and jaw claudication.\n- In CA, the typical LGE pattern involves global subendocardial LGE distributed in a non–coronary artery territory with a dark blood pool.\n- When differentiating patients with ATTR (including ATTRm and ATTRwt) from those with AL or nonamyloid heart failure, the cardiac uptake of radiotracers such as technetium 99m (99mTc) pyrophosphate (99mTc-PYP), 99mTc–3,3-diphosphono-1,2-propanodicarboxylic acid (99mTc-DPD), and 99mTc–hydroxymethylene diphosphonate at bone scintigraphy has high diagnostic performance."
+        }
+      ]
     },
     {
       "id": "2021-349",
@@ -14394,9 +14430,6 @@
       "correctAnswer": "B",
       "reference": "Taylor E, et al. Multimodality Imaging Approach to Ovarian Neoplasms with Pathologic Correlation. Radiographics 2021; 41:289-315.；2021 交換考官方詳解 PDF p375",
       "explanation": "【2021 官方詳解】\nB. Epithelial cell neoplasms are the most common, followed by germ cell tumors\n\n⚠️ 本題含影像（官方詳解 PDF 第 375 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-356-1.png"
-      ],
       "concepts": [
         "ovarian-tumors-imaging"
       ],
@@ -14410,6 +14443,11 @@
           "file": "2021-356-2.png",
           "type": "text",
           "markdown": "- Both endometrioid and clear cell carcinomas are associated with Lynch syndrome, which is often accompanied by synchronous endometrial carcinoma. Both subtypes are also highly associated with endometriosis.\n- There are characteristic imaging findings of mature teratomas owing to the presence of sebaceous material or fat, hair, teeth (calcification), bone, or cartilage. At MRI, the fatty component of the mass demonstrates high T1 and T2 signal intensity with loss of signal intensity at fat-suppressed MR imaging. The T1-weighted fat-saturated sequence is crucial in distinguishing fat signal intensity from hemorrhage (which remains T1 hyperintense)."
+        },
+        {
+          "file": "2021-356-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n- Imaging features that suggest a borderline or malignant tumor include mural nodules, papillary projections, enhancing solid (nonfatty, nonfibrous) components, and thickened walls and septa (greater than 3 mm), particularly when vascularized.\n- At imaging, serous cystadenomas most often manifest as a simple unilocular cyst with an absence of solid components, thickened septa, or mural nodularity, although some may have a few locules separated by thin septa.\n- Mucinous tumors manifest as a predominantly cystic, multilocular unilateral mass, often with varying signal intensity, attenuation, and echogenicity of the mucin-containing cysts at MRI, CT, and US, respectively."
         }
       ]
     },
