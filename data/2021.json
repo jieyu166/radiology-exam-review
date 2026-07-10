@@ -1254,14 +1254,20 @@
       "reference": "JACC: Cardiovascular Imaging 2016;9:1099-1113；2021 交換考官方詳解 PDF p364",
       "explanation": "【2021 官方詳解】\nVulnerable plaque (at least two of following high risk feature)\nNapkin ring sign:\nlow attenuating eccentric structure (necrotic core),\nthat is surrounded by a thin ring-like hyperattenuating rim and may represent vulnerable cap.\n\n⚠️ 本題含影像（官方詳解 PDF 第 364 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-032-1.png",
         "2021-032-2.png"
       ],
       "concepts": [
         "ccta"
       ],
       "checked": false,
-      "sourcePage2021": 364
+      "sourcePage2021": 364,
+      "imageOcr": [
+        {
+          "file": "2021-032-1.png",
+          "type": "text",
+          "markdown": "Positive remodeling: outer vessel diameter with a threshold of 1.1 was used.\n\nLow HU plaque was defined as the mean CT number within these 3 regions of interest <30 HU.\n\nThe napkin-ring sign was defined as a ring-like peripheral higher attenuation.\n\nSpotty calcium was defined as calcified plaque with a diameter <3 mm in any direction."
+        }
+      ]
     },
     {
       "id": "2021-033",
@@ -1290,14 +1296,18 @@
       "correctAnswer": "B",
       "reference": "Identifying, Characterizing, and Classifying Congenital Anomalies of the Coronary Arteries; RadioGraphics 2012; 32:453–468；2021 交換考官方詳解 PDF p18",
       "explanation": "【2021 官方詳解】\nArtery courses downward (hammock sign) below the crista supraventricularis in Transseptal Variant.\nOrigin from the Pulmonary Artery\nOrigin of a coronary artery from the pulmonary artery is usually discovered owing to severe clinical manifestations. In this entity, the LMCA more commonly originates from the pulmonary artery. This pattern was described in 1956 and retains the eponym of the authors who described it (Bland-Garland-White syndrome). This entity is also known by the acronym ALCAPA (anomalous origin of the left coronary artery from the pulmonary artery). Since its initial description, ALCAPA has been recognized to constitute 0.25%–0.5% of cases of congenital heart disease\nPatients usually present with symptoms of myocardial ischemia or with left ventricular volume overload due to left-to-right shunting. The entire coronary arterial system is usually markedly enlarged and tortuous as a result of increased flow. ALCAPA syndrome is among the differential diagnoses for massive cardiomegaly in the newborn period, a finding that is one of the classic features of this entity at presentation\nPrepulmonic Course\nNormally, the major coronary arteries are never found in a position anterior to the pulmonary outflow tract or pulmonary artery. When a prepulmonic artery is present, it usually poses no hemodynamic consequences, although some case reports posit an association with angina (52).\nPrepulmonic coronary arteries are particularly common in tetralogy of Fallot, in which the prepulmonic artery may complicate the surgical approach to correction of pulmonary outflow tract stenosis (53). Usually, the prepulmonic vessel is the LMCA (Fig 11), although the RCA may originate from the LAD artery or LMCA and subsequently take a prepulmonic course\nInterarterial Course\nSeveral reasons have been suggested for the association between interarterial coronary arteries and sudden cardiac death. It has been postulated that interarterial coronary arteries tend to have a more slitlike orifice and that the slitlike orifice is more prone to occlusion.\n\n⚠️ 本題含影像（官方詳解 PDF 第 18 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-033-1.jpg"
-      ],
       "concepts": [
         "acaos"
       ],
       "checked": false,
-      "sourcePage2021": 18
+      "sourcePage2021": 18,
+      "imageOcr": [
+        {
+          "file": "2021-033-1.jpg",
+          "type": "table",
+          "markdown": "| Transseptal Variant | Interarterial Variant |\n| --- | --- |\n| Artery is surrounded by septal myocardium | Artery is surrounded by epicardial fat |\n| Artery courses downward (hammock sign), below the crista supraventricularis | Artery does not have a downward course |\n| Artery does not have an oblong or slitlike orifice | Artery may have an oblong or slitlike orifice |"
+        }
+      ]
     },
     {
       "id": "2021-034",
@@ -2725,12 +2735,18 @@
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1421 (Table 2, Table 3)；2021 交換考官方詳解 PDF p401",
       "explanation": "SCI有 paper說可改善，但器官太大就會沒效。(Vet Radiol Ultrasound. 2010 Nov-Dec;51(6):621-7.)\n\n⚠️ 本題含影像（官方詳解 PDF 第 401 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-067-2.png",
-        "2021-067-3.png"
+        "2021-067-2.png"
       ],
       "concepts": [],
       "checked": false,
-      "sourcePage2021": 401
+      "sourcePage2021": 401,
+      "imageOcr": [
+        {
+          "file": "2021-067-3.png",
+          "type": "table",
+          "markdown": "**Table 3: US Artifacts due to Attenuation Characteristics**\n\n| Type of Artifact | Physics Mechanism | Alteration of Artifacts | Clinical Relevance |\n| --- | --- | --- | --- |\n| Increased through transmission | Increased intensity of echoes distal to a low-attenuating structure | May be increased by using THI | Differentiation of cystic from solid structures |\n| Acoustic shadowing (Clean / Partial / Dirty) | Reduction in echo strength distal to a highly attenuating or reflective object | Increases with increased frequency and THI; decreases with inappropriate FZ placement, excessive beam width, and SCI | Detection of stones, calcification, and air |\n\nNote.—FZ = focal zone, SCI = spatial compound imaging."
+        }
+      ]
     },
     {
       "id": "2021-070",
@@ -2796,17 +2812,28 @@
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p14",
       "explanation": "半衰期=2小時．全部消失=24小時 [[對比劑 - Metformin]]\n\n【2021 官方詳解】\n半衰期=2小時． 全部消失=24小時\n\n⚠️ 本題含影像（官方詳解 PDF 第 14 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-071-1.png",
-        "2021-071-2.png",
-        "2021-071-3.png",
-        "2021-071-4.png"
-      ],
       "concepts": [
         "contrast-media-safety"
       ],
       "checked": false,
-      "sourcePage2021": 14
+      "sourcePage2021": 14,
+      "imageOcr": [
+        {
+          "file": "2021-071-1.png",
+          "type": "text",
+          "markdown": "A8.1 Metformin 副作用\n\nMetformin 最嚴重的副作用是乳酸中毒，通常發生在合併嚴重共病的狀態，最常見的是心血管疾病及腎臟病。Metformin 引起乳酸中毒發生機率估計約為每十萬人年少於 10 例（0-0.084 例／每千人年），但在報告案例中致死率可高達 30-50% [54,55]。施打含碘對比劑本身並不會造成使用 Metformin 病患發生乳酸中毒，但當施打對比劑後發生對比劑腎病變時，有導致乳酸中毒的風險。"
+        },
+        {
+          "file": "2021-071-2.png",
+          "type": "text",
+          "markdown": "A8.4 使用 Metformin 受檢者於血管內注射含釓對比劑之規範\n\n注射含釓對比劑劑量在一般範圍時 (0.1-0.3 mmol/kg)，不須暫停使用 metformin [58, 59]。"
+        },
+        {
+          "file": "2021-071-3.png",
+          "type": "table",
+          "markdown": "| 建議處置／含碘對比劑注射方式 | 可繼續正常使用 Metformin | 注射對比劑當時或之前開始停用 Metformin，檢查後 48h 如腎功能穩定，可重新使用 ᵉ |\n| --- | --- | --- |\n| 靜脈內 ᵃ | eGFR ≥ 30 mL/min/1.73 m² | 1. eGFR < 30 mL/min/1.73 m² ᶠ<br>2. 急性腎衰竭 |\n| 動脈內 ᵇ | eGFR ≥ 30 mL/min/1.73 m² 且為腎臟低濃度碘暴露 | 1. 腎臟高濃度碘暴露 ᶜ<br>2. eGFR < 30 mL/min/1.73 m² ᶠ 且為腎臟低濃度碘暴露 ᵈ<br>3. 急性腎衰竭 |"
+        }
+      ]
     },
     {
       "id": "2021-072",
@@ -3038,15 +3065,23 @@
       "correctAnswer": "A",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p13",
       "explanation": "【2021 官方詳解】\n化學結構為Linear的風險較高\n\n⚠️ 本題含影像（官方詳解 PDF 第 13 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-077-1.png",
-        "2021-077-2.png"
-      ],
       "concepts": [
         "nephrogenic-systemic-fibrosis"
       ],
       "checked": false,
-      "sourcePage2021": 13
+      "sourcePage2021": 13,
+      "imageOcr": [
+        {
+          "file": "2021-077-1.png",
+          "type": "text",
+          "markdown": "目前相關重要研究結果摘要如下 [80, 82, 83]：\n\n1. 不同對比劑造成風險不同。\n2. 對比劑化學結構為線狀者風險較環狀者高。\n3. 非離子性線狀結構對比劑風險較離子性線狀結構高。"
+        },
+        {
+          "file": "2021-077-2.png",
+          "type": "text",
+          "markdown": "受檢者之風險因子為：\n\n1. 因任何原因接受透析治療\n2. Stage 4, stage 5 的慢性腎臟病 (Chronic Kidney disease, CKD) 尚未透析治療\n3. eGFR 30-40 mL/min/1.73m² 尚未透析治療 *\n4. 急性腎臟傷害 (acute kidney insufficiency, AKI) **"
+        }
+      ]
     },
     {
       "id": "2021-078",
@@ -3230,14 +3265,18 @@
       "correctAnswer": "C",
       "reference": "Clinical Radiology Volume 75, Issue 10, October 2020, Pages 797.e9-797.e19；2021 交換考官方詳解 PDF p316",
       "explanation": "答案應該是D\n- The conventional aortic CTA protocol :120 kVp and 400mg Iodine/kg (答案應該是D)\n- 為了減少 radiation dose ==> \"double low” CTA (DLCTA)\n\t- low-tube voltage acquisition (70~80 kVp)\n\t- high pitch mode\n\t- iterative reconstruction techniques\n\t- New imaging protocol called “of the aorta (low tube voltage and low iodine\n\t- **iodine load可降到200 mg iodine/kg**\n\t- Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. 考自己的paper??\n\n【2021 官方詳解】\nThe conventional aortic CTA protocol :120 kVp and 400 mg iodine/kg (答案應該是D)\nFor reduction the radiation dose=>\nlow-tube voltage acquisition (70~80 kVp)\nhigh pitch mode\niterative reconstruction techniques\nNew imaging protocol called “double low”CTA (DLCTA) of the aorta (low tube voltage and low iodine\nload) has been developed.\nConclusion:\nDouble-low computed tomography angiography (DLCTA): with 70 kVp and 200 mg iodine/kg is feasible for whole-aortic CT angiography\n\n⚠️ 本題含影像（官方詳解 PDF 第 316 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-082-1.png"
-      ],
       "concepts": [
         "iodinated-contrast-media"
       ],
       "checked": false,
-      "sourcePage2021": 316
+      "sourcePage2021": 316,
+      "imageOcr": [
+        {
+          "file": "2021-082-1.png",
+          "type": "title",
+          "markdown": "Chen P-A, Huang EP, Chen K-T, Chen Y-C, Huang Y-L, Chuo C-C, Wu F-Z, Wu M-T. Comparison of four contrast medium delivery protocols in low-iodine and low-radiation dose CT angiography of the aorta. Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. (Kaohsiung Veterans General Hospital / National Yang Ming University, Taiwan)"
+        }
+      ]
     },
     {
       "id": "2021-083",
@@ -4324,9 +4363,6 @@
       "correctAnswer": "D",
       "reference": "次 American College of Radiology (ACR) and Society for Pediatric Radiology (SPR) guidelines clinical indications for voiding cystourethrography；2021 交換考官方詳解 PDF p47",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 47 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-110-1.png"
-      ],
       "concepts": [
         "vesicoureteral-reflux-grading"
       ],
@@ -4334,7 +4370,14 @@
       "difficulty": "易",
       "author": "吳宛蘋",
       "sourcePage2021": 47,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-110-1.png",
+          "type": "text",
+          "markdown": "Clinical indications for VCUG include, but are not limited to, the following:\n\n- Hydronephrosis and/or hydroureter\n- Abnormal US (any degree of hydronephrosis, uroepithelial thickening, scarring) after first urinary tract infection (UTI), especially if febrile or non-Escherichia coli (E. coli)\n- Recurrent UTI\n- Congenital anomalies of the urinary tract\n- Dysfunctional voiding, such as neurogenic dysfunction of the bladder\n- Urinary incontinence\n- Bladder outlet obstruction\n- Postoperative evaluation of the urinary tract\n- Dysuria/difficulty voiding\n- Hematuria\n- Trauma"
+        }
+      ]
     },
     {
       "id": "2021-111",
@@ -7105,9 +7148,6 @@
       "correctAnswer": "A",
       "reference": "Radiology: Cardiothoracic Imaging 2020; 2(5):e200280；2021 交換考官方詳解 PDF p136",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 136 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-181-1.jpg"
-      ],
       "concepts": [
         "covid19-chest-ct"
       ],
@@ -7115,7 +7155,14 @@
       "difficulty": "易",
       "author": "郭禹廷",
       "sourcePage2021": 136,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-181-1.jpg",
+          "type": "table",
+          "markdown": "**Table 2: Chest Radiograph Characterization by Findings**\n\n| Chest Radiograph Characterization | Chest Radiograph Findings |\n| --- | --- |\n| Characteristic | Bilateral patchy and/or confluent, bandlike ground-glass opacity or consolidation in a peripheral and mid to lower lung zone distribution |\n| Nonspecific | Any pleuropulmonary abnormality other than the above |\n| Negative | No perceived pleuropulmonary abnormality |"
+        }
+      ]
     },
     {
       "id": "2021-182",
@@ -7262,9 +7309,6 @@
       "correctAnswer": "D",
       "reference": "Straight-edege sign, anterior upper lobe sign, and exuberant honey combing sign are much more common in and highly specific for CTDUIP than IPF UIP. CT Features of the Usual Interstitial Pneumonia Pattern: Differentiating Connective Tissue Disease–Associated Interstitial Lung Disease From Idiopathic Pulmonary Fibrosis American Journal of Roentgenology. 2018;210: 307-313. 10.2214/AJR.17.18384；10.2214/AJR.17.18384；2021 交換考官方詳解 PDF p140",
       "explanation": "【2021 官方詳解】\nthe exuberant honeycombing sign, the anterior upper lobe sign, and the straight-edge sign have high specificity but modest sensitivity in suggesting that UIP on CT images is due to CTD-ILD rather than IPF\n\n⚠️ 本題含影像（官方詳解 PDF 第 140 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-178-1.jpg"
-      ],
       "concepts": [
         "ctd-ild"
       ],
@@ -7272,7 +7316,14 @@
       "difficulty": "易",
       "author": "黃品齊",
       "sourcePage2021": 140,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-178-1.jpg",
+          "type": "table",
+          "markdown": "**TABLE 3: Performance of Specific CT Signs in Differentiation of Connective Tissue Disease–Associated Interstitial Lung Disease (CTD-ILD) From Idiopathic Pulmonary Fibrosis (IPF) in Patients With Usual Interstitial Pneumonia CT Pattern**\n\n| CT Sign | % of IPF Patients With CT Sign (n=133) | % of CTD-ILD Patients With CT Sign (n=63) | Sensitivity (%) | Specificity (%) | Positive Likelihood Ratio | Negative Likelihood Ratio | p |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Anterior upper lobe | 12.8 (17) | 25.4 (16) | 25.4 | 87.2 | 1.99 | 0.86 | 0.028ᵃ |\n| Exuberant honeycombing | 6.0 (8) | 22.2 (14) | 22.2 | 94.0 | 3.69 | 0.83 | <0.001ᵃ |\n| Straight edge | 6.0 (8) | 25.4 (16) | 25.4 | 94.0 | 4.22 | 0.79 | <0.001ᵃ |\n| More than one sign | 4.5 (6) | 23.8 (15) | 23.8 | 95.5 | 5.28 | 0.80 | <0.001ᵃ |\n| Any CT sign | 19.5 (26) | 42.9 (27) | 42.9 | 80.5 | 2.19 | 0.71 | <0.001ᵃ |\n\nNote—Values in parentheses are number of subjects. ᵃStatistically significant."
+        }
+      ]
     },
     {
       "id": "2021-186",
@@ -9414,7 +9465,9 @@
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p207",
       "explanation": "【2021 官方詳解】\nPerivesical Space.—The perivesical space is a small potential space that is enveloped by the umbilicovesical fascia. The umbilicovesical fascia fuses posteriorly with the rectovaginal fascia. The perivesical space contains the urachus (median umbilical ligament), obliterated umbilical arteries (medial umbilical folds), and urinary bladder. The perivesical space is continuous posteriorly with the lower uterus. As with the prevesical space, the perivesical space is most commonly involved by direct tumor extension from the bladder or urachus.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pelvic-extraperitoneal-spaces"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳邦斌",
@@ -9450,7 +9503,9 @@
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p208",
       "explanation": "【2021 官方詳解】\nTumor extension to the iliac vessels (common and external iliac) should be scrutinized for abutment (tumor surrounding <50% of the vessel circumference), encasement (tumor surrounding >50% of the vessel circumference), and/or luminal invasion (tumor seen within the vessel) (Fig 24). At MRI, a well-defined and uninterrupted fat plane around vessels excludes involvement. Encasement of the common iliac and external iliac vessels may be a relative surgical contraindication, depending on available surgical expertise and tumor type. Vascular reconstruction with grafts may be appropriate in treatment of some tumors, such as primary soft-tissue sarcomas (23). Involvement of the internal iliac vessels is not an obstacle because, if involved, these vessels can be sacrificed owing to existing collaterals",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pelvic-tumor-resectability-vessels"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳邦斌",
@@ -12535,7 +12590,9 @@
       "reference": "RadioGraphics 2019; 39:842–856；2021 交換考官方詳解 PDF p298",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-hepatic-artery-aneurysm"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "黃哲勳",
@@ -13959,7 +14016,9 @@
       "reference": "Iraha Y, et al. CT and MR Imaging of Gynecologic Emergencies. Radiographics 2017; 37:1569–1586.；2021 交換考官方詳解 PDF p373",
       "explanation": "【2021 官方詳解】\nC. CT findings of a hemorrhagic ovarian cyst include a unilateral adnexal cyst with a high attenuation area (>40 HU) within the cyst. Contrast material–enhanced CT helps delineate the cyst wall to show a corpus luteal cyst. After the cyst ruptures, hemoperitoneum can be observed as high-attenuation peritoneal free fluid (>30 HU).",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ovarian-mass-benign-vs-malignant"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總陳蓉宣醫師",
@@ -14037,7 +14096,9 @@
         "2021-356-1.png",
         "2021-356-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "ovarian-tumors-imaging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",

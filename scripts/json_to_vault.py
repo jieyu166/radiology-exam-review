@@ -173,6 +173,12 @@ def render_card(q: dict, substantive_concepts: set[str] | None = None) -> str:
         meta.append("## 概念\n" + "\n".join(f"![[{c}]]" for c in embeds))
     if ref_defs:
         meta.append("## Reference\n" + "\n".join(ref_defs))
+    # 詳解附圖 OCR（原為圖片的表格/文字段落，OCR 轉文字後放卡片外，避免破壞 SR 卡片、且表格可正常渲染）
+    ocr = q.get("imageOcr") or []
+    if ocr:
+        blocks = [b.get("markdown", "").strip() for b in ocr if b.get("markdown", "").strip()]
+        if blocks:
+            meta.append("## 詳解附圖（OCR）\n" + "\n\n".join(blocks))
     # 註：原「> 參考依據見概念筆記 [[...]]」行已移除——與上方 ![[concept]] 嵌入重複（減少重複文字）
 
     # 卡片後留 2 空行供 SR 外掛寫入 <!--SR:--> 排程附註
