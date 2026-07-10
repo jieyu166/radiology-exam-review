@@ -4047,7 +4047,9 @@
       "reference": "General and Vascular Ultrasound: Case Review Series E-Book P6；2021 交換考官方詳解 PDF p38",
       "explanation": "【2021 官方詳解】\nA. 相反. The main difference between color and power is that color uses frequency; power uses amount of signal.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "color-vs-power-doppler"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃培青",
@@ -4083,7 +4085,9 @@
       "reference": "General and Vascular Ultrasound: Case Review Series E-Book P14；2021 交換考官方詳解 PDF p39",
       "explanation": "【2021 官方詳解】\nB. The sign suggests either a large gallstone or multiple small gallstones filling the lumen of a contracted or incompletely visualized gallbladder.\nThe wall-echo-shadow sign (also known as WES sign) is an ultrasonographic finding within the gallbladder fossa:\n  - a curvilinear hyperechogenic line representing the gallbladder wall a thin hypoechoic space representing a small amount of bile\n  - a curvilinear hyperechogenic line representing the near surface of gallstone(s)\n  - and acoustic shadowing distal to the surface of the gallstone(s)\nThe sign suggests either a large gallstone or multiple small gallstones filling the lumen of a contracted or incompletely visualized gallbladder. Recognizing this finding helps to avoid misinterpretation of a stone-filled gallbladder as a loop of bowel.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "cholelithiasis-ultrasound"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃培青",
@@ -12427,7 +12431,9 @@
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p166；2021 交換考官方詳解 PDF p305",
       "explanation": "【2021 官方詳解】\n- increased peak systolic velocity (PSV): some advocate 180 cm/s\n- increased renal-interlobar ratio (RIR), i.e. PSVrenal artery (intrastenotic)/PSVinterlobar (distal): some advocate values greater than 5\n- increased renal-aortic ratio (RAR), i.e. PSVrenal/PSVaorta: usually taken as >3.5, although some advocate >3 or even >2\n  - ​lower cut off values increase sensitivity, but decrease specificity\n- turbulent flow in a post-stenotic area\n- pulsus parvus tardus waveform due to stenosis\n- decreased (interlobar) renal arterial resistive index (RI): <0.55 in severe stenosis\n- resistive index difference between kidneys >5 %\n- intraparenchymal acceleration time >0.07 s\n- acceleration index (AI): lower than 3 m/s",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-artery-stenosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林益輝",
@@ -12537,7 +12543,9 @@
       "reference": "Diagnostic Imaging Pediatrics second edition p4-55；2021 交換考官方詳解 PDF p308",
       "explanation": "【2021 官方詳解】\nDiame­ter of a single muscular wall (hypoechoic component) on a transverse image: >3 mm (most accurate)\npyloric transverse diameter: >13 mm\nlongitudinal measurement: >15-17 mm\npyloric volume: >1.5 cm3\nπ = 3.1415\nDiame­ter of a single muscular wall on a transverse image >3 mm (most accurate )\npyloric transverse diameter ≥14 mm length\nlongitudinal measurement >15 mm",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pyloric-stenosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "鄧惠中",
@@ -12575,7 +12583,9 @@
       "images": [
         "2021-324-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "adenomyosis-mri"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "鄧惠中",

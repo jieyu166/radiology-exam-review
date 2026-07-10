@@ -5,7 +5,7 @@ subspecialty: [US]
 aliases:
   - gallstone ultrasound
   - 膽結石超音波
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # cholelithiasis-ultrasound
@@ -36,6 +36,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- Which of the following statements about the ultrasound appearance of gallbladder disease is not true? (2022-417)
 > **「Wall-echo-shadow（WES）複合徵是膽囊『部分』充滿結石的表現」為錯誤**——WES 徵象實為膽囊**幾乎完全填滿（packed/contracted GB full of stones）**結石時的表現：見膽囊前壁的弧狀高回音（wall）＋緊接的一條高回音（結石表面 echo）＋其後濃密聲影（shadow），因結石填滿使膽囊腔消失，故非「部分充滿」。其餘敘述皆正確：急性膽囊炎常見結石＋膽囊壁增厚＋膽囊周圍積液＋超音波墨菲氏徵；腺肌症（adenomyomatosis）特徵為彗尾偽影（comet-tail，源自羅-阿竇內膽固醇結晶）；膽固醇沉積症（cholesterolosis）可形成膽固醇息肉，呈附著於壁、不動、無聲影的小球。[^1][^2]
+
+> [!question]- Which one of the following descriptions about Ultrasound findings of gallstones is not true? (2021-105)
+> **B（WES sign 出現於結石很小時）**——錯。Wall-echo-shadow（WES）徵象代表膽囊被結石幾乎完全填滿（單顆大結石或多顆小結石填滿收縮的膽囊腔），並非「結石小」時的表現。A（後方聲影為膽結石主要影像特徵）、C（都卜勒下可見 twinkle artifact）、D（膽結石傾向乏血流）皆正確。
 
 ## 考題
 ```dataview

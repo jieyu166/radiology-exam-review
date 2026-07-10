@@ -8,7 +8,7 @@ aliases:
   - renovascular hypertension
   - resistive index
   - 腎動脈狹窄
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # renal-artery-stenosis
@@ -100,6 +100,9 @@ dateRev: 2026-06-29
 
 > [!question]- 關於 fibromuscular dysplasia(FMD)，下列何者有誤? (2017-279)
 > 「**少以 vascular ectasia 表現（D）**」有誤——血管迂曲、紡錘狀血管擴張、string-of-beads為**典型**表現（非少見）。好發年輕女性、最常影響腎動脈、intracranial FMD可以SAH表現（但屬較不典型）皆正確。[^6]
+
+> [!question]- Renal artery stenosis is suggested after the peak systolic velocity exceeds: (2021-320)
+> **C（180 cm/s）**——腎動脈狹窄的都卜勒直接徵象為狹窄處 PSV 超過約 180–200 cm/s（>200 對 ≥60% 狹窄更具特異性）。90、135 cm/s 過低，230 cm/s 高於常用起始閾值。
 
 ## 考題
 ```dataview

@@ -6,7 +6,7 @@ aliases:
   - hypertrophic pyloric stenosis
   - pyloric stenosis ultrasound
   - 肥厚性幽門狹窄
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # pyloric-stenosis
@@ -65,6 +65,9 @@ dateRev: 2026-06-29
 
 > [!question]- Which of the following organs is associated with the "olive sign"? (2022-468)
 > **B（關鍵）stomach（胃）**。「olive sign／palpable olive」指肥厚性幽門狹窄時，肥厚的**幽門（pylorus，胃的遠端出口）**在右上腹被觸診成橄欖狀腫塊——對應器官為胃。與肝(A)、闌尾(C)、膽囊(D)無關。[^1][^6]
+
+> [!question]- Which one is not the finding of hypertrophic pyloric stenosis on US? (2021-323)
+> **D（decreased blood flow）**——非 HPS 徵象。HPS 以形態學指標診斷：單層肌壁厚 >3 mm（最準）、幽門管長 >15–17 mm、橫徑 >14–15 mm、容積 >1.5 cm³；血流減少不是診斷條件（肥厚肌層血流可正常甚至增加）。A、B、C 皆為公認量測切點。
 
 ## 考題
 ```dataview
