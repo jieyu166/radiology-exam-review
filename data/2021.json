@@ -4212,7 +4212,9 @@
       "reference": "Ultrasound: The Requisites E-Book P10-13；2021 交換考官方詳解 PDF p36",
       "explanation": "【2021 官方詳解】\nB. The power output determines the strength of the pulses that is transmitted. When the transmitted pulse is stronger, the returning echoes are stronger, and the resulting image is brighter.\n\n⚠️ 疑似與 2021-068 為同一題（相似度 0.854），請醫師確認是否合併。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ultrasound-physics-basics"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "黃培青",
@@ -4889,7 +4891,9 @@
       "correctAnswer": "E",
       "reference": "AJCC Cancer Staging Manual 8th ed.；2021 交換考官方詳解 PDF p62",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 62 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "upper-tract-urothelial-carcinoma-staging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "沈鼎文",

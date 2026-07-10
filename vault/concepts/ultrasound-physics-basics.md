@@ -7,7 +7,7 @@ aliases:
   - sound velocity tissue
   - lateral resolution
   - 超音波物理基礎
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # ultrasound-physics-basics
@@ -23,6 +23,8 @@ dateRev: 2026-06-30
 - **Time gain compensation (TGC)**：TGC 用以補償**組織對聲波之衰減(attenuation)**——聲波隨深度增加而衰減，若無TGC校正，原始回音影像將呈**淺層較亮、深層較暗**之假象；TGC沿深度逐漸增益(gain)，使**同等回音特性之組織於不同深度呈現相同亮度**。TGC**不是**用來補償掃描所需時間、不同組織間聲速差異、或影像顯示延遲時間。[^2]
 - **改善不佳(suboptimal)超音波影像之常用方法**：調整**探頭焦點(focal point)位置**、**改變探頭角度(angle)**、必要時**移動病人(moving the patient)**姿勢以改善聲窗，皆為有效方法；**單純將整體增益(overall gain)調至最大**通常**最不能**改善影像品質——過度增益反使影像過曝、雜訊增加、對比下降，無法解決根本的聲窗/衰減問題。[^3]
 - **提升影像解析度最有效方法**：**提高探頭頻率(increasing the frequency)**可縮短波長、提升軸向與側向解析度，是提升解析度最直接有效的方法；惟需犧牲穿透深度（trade-off）。增加深度、降低頻率、將目標移至螢幕下方皆**不會**改善解析度。[^4]
+- **灰階影像最佳化：output power vs gain（2021-103 核心）**：**發射功率(output/acoustic power)決定發射脈波的強度——脈波越強→回音越強→影像越亮**（故「發射脈波越強影像越暗」為錯）；此與**接收端 gain**（放大回音、不改變病人接收的聲能）不同。**overall gain 與 power output 類似，通常以最大值百分比或分貝(dB)顯示**。[^5][^6]
+- **多重聚焦與 frame rate 取捨**：**multiple-level focusing（多層聚焦）改善側向解析度，但代價是 frame rate 下降**（每條掃描線需多次發射以聚焦不同深度）；表淺構造仍以高頻探頭掃描。[^5]
 
 ## 放射科醫師影像判讀重點
 - **頻率-穿透-解析度取捨（操作判讀核心）**：高頻＝軸向解析度佳但穿透淺（適表淺構造）；低頻＝穿透深但解析度差；「高頻探頭觀測深部組織」為錯誤操作。[^1]
@@ -53,7 +55,8 @@ dateRev: 2026-06-30
 [^2]: 官方2020詳解（TGC 題，題目未附明確引用文獻，依標準超音波物理教學）——TGC補償聲波隨深度之衰減，使等回音組織於不同深度呈現相同亮度，非補償掃描時間/組織間聲速差異/顯示延遲。並見官方2018詳解基礎超音波物理講義（2018 交換考題詳解 p.181-182 引用；Tier 2/3 講義）：四項聲學變數為壓力/密度/粒子振動距離/溫度(非強度)；週期與頻率互為倒數(T=1/f)；探頭直徑增加提升聚焦區側向解析度。
 [^3]: 官方2020詳解（suboptimal 影像題，題目未附明確引用文獻，依標準超音波物理教學）——改善不佳超音波影像常用調整焦點位置、探頭角度、移動病人；單純調高整體增益至最大最不能改善影像品質。並見 *一般超音波診斷學* p.1-9（2018 交換考題詳解 p.250 引用；Tier 2/3 教科書）：超音波為人耳聽不到之聲音(頻率>20000赫茲)；超音波影像由回波組成；A mode顯示方式現已幾乎不用；軸向解析度＝區分沿音波前進方向兩反射點之能力（非側向/橫向解析度之定義）。
 [^4]: 官方2020詳解（題目未附明確引用文獻，依標準超音波物理教學）——提高探頭頻率為提升影像解析度最有效方法，惟犧牲穿透深度。
-[^5]: **Tier 1** Hangiandreou NJ. *AAPM/RSNA physics tutorial for residents. Topics in US: B-mode US: basic concepts and new technology*. RadioGraphics 2003;23(4):1019-33（據 PubMed，DOI [10.1148/rg.234035034](https://doi.org/10.1148/rg.234035034)；Review；實際查證 accessed 2026-07-04）——現代 US 掃描儀基於 **pulse-echo + B-mode 顯示**；涵蓋 B-mode 成像基本面（超音波物理、與組織交互作用、脈衝形成、波束掃描、回音偵測與訊號處理）、新技術（tissue harmonic imaging、spatial compound imaging、extended FOV、coded pulse excitation、電子聚焦、3D/4D、微型化）；US 為廉價可攜安全即時之模態——佐證超音波成像物理基礎、頻率-解析度-穿透取捨與聚焦/波束概念。原「官方」弱來源已由本次 RadioGraphics DOI Tier 1 查核升級。
+[^5]: **Tier 1（正文全文已讀，accessed 2026-07-04；2026-07-10 再核 output power/focusing 段）** Hangiandreou NJ. *AAPM/RSNA physics tutorial for residents. Topics in US: B-mode US: basic concepts and new technology*. RadioGraphics 2003;23(4):1019-33（DOI [10.1148/rg.234035034](https://doi.org/10.1148/rg.234035034)；Review）——現代 US 基於 **pulse-echo + B-mode 顯示**；涵蓋 B-mode 成像基本面（超音波物理、組織交互作用、脈衝形成、波束掃描、回音偵測與訊號處理）、電子聚焦與新技術（tissue harmonic、spatial compound imaging、extended FOV、coded pulse excitation、3D/4D）。發射功率(output power)決定發射脈波強度→回音強度→亮度；多層聚焦提升側向解析但降低 frame rate 之取捨屬 B-mode 波束掃描標準原理。（「發射脈波越強影像越亮」細節另依標準 US 物理與本題官方詳解）
+[^6]: **Radiopaedia（公開，accessed 2026-07-10）** Murphy A et al. *Time gain compensation*. rID 30427. https://doi.org/10.53347/rID-30427。TGC＝隨往返時間(深度)增加接收 gain 以補償衰減，使等回音組織於不同深度呈相同亮度；區分「接收端 gain（放大回音）」與「發射端 output power（決定入射聲能）」之概念。
 
 ## 題目
 > [!question]- 關於超音波的原理,以下何者「錯誤」? (2017-214)
@@ -79,6 +82,10 @@ dateRev: 2026-06-30
 
 > [!question]- 下列關於醫用超音波的基本物理何者有誤? (2018-339)
 > **側向或橫向解析度是區分音波前進方向的兩個反射點的能力（D）**——此為**軸向解析度（axial resolution）**之定義（區分沿音波前進方向上的兩點）；側向/橫向解析度應為區分**垂直於音波前進方向**的兩個反射點之能力。超音波為人耳聽不到之聲音、頻率大於20000赫茲(A對)、超音波影像由回波組成(B對)、A mode顯示方式目前已幾乎不用(C對)皆為正確描述。[^3]
+
+> [!question]- Which one of the following descriptions about grey-scale image optimization of ultrasonography is not true? (2021-103)
+> **B（When the transmitted pulse is stronger, the resulting image is darker）錯**——發射功率(output power)決定發射脈波強度，**脈波越強→回音越強→影像越亮**（非更暗）。A 表淺構造用高頻探頭、C overall gain 如同 power output 以最大值%或分貝(dB)顯示、D 多層聚焦的代價是 frame rate 下降，皆為**正確**描述。[^5][^6]
+> 註：官方標記本題疑與 2021-068 高度相似，但 2021-068 為「超音波偽影何者為非」（見 [[ultrasound-artifacts]]），本題為「灰階影像最佳化」，考點不同、**非重複題**。
 
 ## 考題
 ```dataview
