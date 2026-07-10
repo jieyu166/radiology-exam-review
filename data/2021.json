@@ -1534,7 +1534,9 @@
       "reference": "2021 交換考官方詳解 PDF p328",
       "explanation": "困難\nC會出血之後鈣化。B少見。E不會。\n\n【2021 官方詳解】\n- pericarditis: tuberculous, fungal, viral or pyogenic\n- previous trauma (hemopericardium) , cardiac surgery, hemopericardium due to anticoagulant\n- collagen vascular diseases: SLE, RA, scleroderma\n- uremic pericarditis\n- later sequelae of rheumatic heart disease\n- malignant pericardial involvement (e.g. mediastinal teratoma)\n- post-radiotherapy\n- idiopathic\n- calcified pericardial mass or cyst\nConstrictive pericarditis due to methysergide therapy (case report)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pericardial-calcification"
+      ],
       "checked": false,
       "sourcePage2021": 328
     },
@@ -5362,7 +5364,9 @@
       "reference": "Lymphatic Pathways of the Thorax: Predictable Patterns of Spread American Journal of Roentgenology. 2021;216: 649-658 https://www.ajronline.org/doi/full/10.2214/AJR.20.23523；10.1148/rg.271065105；2021 交換考官方詳解 PDF p78",
       "explanation": "【2021 官方詳解】\nD. Mesothelioma of the thorax is a malignant neoplasm that involves the parietal pleura to a greater extent than the visceral pleura\n10.1148/rg.271065105\nLung cancer 從裡面往外吃，所以當然先吃visceral pleura.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pleural-metastases"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳煥武\nReference: RadioGraphics 1996;16:613–644",
@@ -7940,7 +7944,9 @@
       "reference": "RadioGraphics 2020; 40:2117-2141.；2021 交換考官方詳解 PDF p154",
       "explanation": "【2021 官方詳解】\nAt imaging, it is challenging to differentiate dehiscence from the normal appearance of the uterine incision. Accompanying signs such as free fluid, a large bladder flap hematoma (>5 cm), pleural effusion, and bowel distention have been suggested to support the diagnosis of uterine dehiscence. In the proper clinical setting, the presence of a large bladder flap hematoma and large pelvic hematomas should be considered highly suspicious for uterine dehiscence. The sensitivity of CT is poor for the diagnosis of uterine dehiscence. Pelvic MRI may provide a better diagnostic yield than does contrast-enhanced CT, because it can show the intact serosa and allow the differentiation of uterine rupture from dehiscence. The distinction is important because a ruptured uterus requires surgical repair.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "postpartum-uterine-dehiscence-imaging"
+      ],
       "checked": false,
       "difficulty": "易\n普通",
       "author": "劉俊彥",
@@ -9731,7 +9737,9 @@
       "images": [
         "2021-241-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "peripheral-nerve-sheath-tumor-mri-signs"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳邦斌",
@@ -12764,7 +12772,9 @@
       "reference": "Prostate Imaging Reporting & Data System - PI-RADS 2015 version 2；2021 交換考官方詳解 PDF p294",
       "explanation": "【2021 官方詳解】\nRegional lymph nodes are defined as those of the true pelvis\n(i.e. pelvic nodes below the bifurcation of the common iliac arteries).\ncommon iliac arteries would be considered M1a, not N1\nClinical primary tumor staging (cT)\n- TX: primary tumor cannot be assessed\n- T0: no evidence of primary tumor\n- T1: clinically inapparent tumor that is not palpable (image invisible)\n  - T1a: tumor incidental histologic finding in 5% or less of tissue resected\n  - T1b: tumor incidental histologic finding in more than 5% of tissue resected\n  - T1c: tumor identified by needle biopsy found in one or both sides, but not palpable\n- T2: tumor is palpable and confined within prostate\n  - T2a: tumor involves one-half of one side or less\n  - T2b: tumor involves more than one-half of one side but not both sides\n  - T2c: tumor involves both sides\n- T3: extraprostatic tumor that is not fixed or does not invade adjacent structures\n  - T3a: extraprostatic extension (unilateral or bilateral)\n  - T3b: tumor invades seminal vesicle(s)\n- T4: tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall\nRegional nodal status (N)\nRegional lymph nodes are defined as those of the true pelvis (i.e. pelvic nodes below the bifurcation of the common iliac arteries).\nNodal status is based on PSMA PET/CT, MRI or CT. On MRI/CT a 1 cm short axis diameter cut off is used if size is the sole criterion for adenopathy\n- NX: regional nodes were not assessed\n- N0: no positive regional nodes\n- N1: metastases in regional node(s)\nDistant Metastasis (M)\n- M0: no distant metastasis\n- M1: distant metastasis\n  - M1a: non-regional lymph node(s)\n    - note that a node along the common iliac arteries would be considered M1a, not N1\n  - M1b: bone(s)\n  - M1c: other site(s) with or without bone disease\n    - e.g. lungs, liver, brain",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "prostate-adenocarcinoma-imaging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "鄧惠中",
@@ -13952,7 +13962,9 @@
       "reference": "Pneumoconiosis: Comparison of Imaging and Pathologic Findings RadioGraphics 2006 26:1, 59-77；2021 交換考官方詳解 PDF p359",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "progressive-massive-fibrosis"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總翁敬堯醫師",

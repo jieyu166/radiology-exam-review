@@ -26,7 +26,8 @@ dateRev: 2026-07-10
   - **DWI/ADC**：ADC 偏高（facilitated）;SWI 可見壞死區多發點狀出血。[^3]
   - **MRS**：純放射性壞死 choline、creatine、NAA 皆低,lipid/lactate 升高。[^3][^5]
   - **MR perfusion**：壞死（或 pseudoprogression）rCBV **低**;腫瘤復發 rCBV **高** → 鑑別關鍵。[^3][^5]
-- **其他 late 變化**：放射性血管病變（mineralizing microangiopathy、海綿狀血管畸形、SMART syndrome 等）、放療誘發次發腫瘤（meningioma、glioma 等）。[^1][^6]
+- **其他 late 變化**：放射性血管病變（mineralizing microangiopathy、海綿狀血管畸形、SMART syndrome 等）、放療誘發次發腫瘤（見下）。[^1][^6]
+- **放療誘發次發 CNS 腫瘤（考點）**[^6][^7]：經典且最常見者為 **meningioma（放療誘發顱內腫瘤中最常見，較 glioma 顯著更頻繁；常多發、潛伏期很長）**；其次為 **sarcoma、glioma（含 high-grade）**，以及**周邊神經鞘瘤（PNST/MPNST）**。此類腫瘤與照射劑量、照射時年紀（兒童風險高）及潛伏期（數年–數十年）相關。**lymphoma 並非放療誘發之典型 CNS 腫瘤**，故在「何者最不可能為放療誘發」的題型中為答案。
 
 > [!note] 考點：放射性壞死 vs 腫瘤復發
 > **壞死/pseudoprogression：rCBV『低』、choline『不升』、ADC 偏高、強化呈 soap-bubble/Swiss cheese**;**腫瘤復發：rCBV『高』、choline『升』**。常輔以 amino-acid/FDG PET 與時序追蹤。[^3][^5][^6]
