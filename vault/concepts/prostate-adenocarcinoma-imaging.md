@@ -19,6 +19,13 @@ dateRev: 2026-07-10
 - **淋巴引流**：主要引流至**骨盆淋巴結**。[^1]
 - **CT**：對攝護腺癌本身之偵測**準確度不佳**，主要用於評估遠處轉移與淋巴結。[^1]
 
+## 淋巴結分期（AJCC：regional N vs distant M）
+- **Regional nodes（N，屬 N 分期）＝真骨盆內淋巴結**：即位於**總髂動脈分叉（common iliac bifurcation）以下**之骨盆淋巴結，包含 **internal iliac（下腹）、external iliac、obturator、presacral/sacral** 群。轉移即為 **N1**。[^3][^4]
+- **攝護腺癌淋巴引流最常侵犯 internal iliac、external iliac、obturator 三群**；單側癌之淋巴結轉移傾向同側。[^4]
+- **Distant nodal metastasis（M1a，屬 M 分期）＝非 regional 淋巴結**：包含 **common iliac（含以上）、paraaortic/retrocaval、與 inguinal（腹股溝）淋巴結**。**沿總髂動脈之淋巴結計為 M1a 而非 N1**。[^3][^4]
+- **M 分期再分**：M1a＝非 regional 淋巴結；**M1b＝骨轉移（攝護腺癌最常見遠處轉移部位）**；M1c＝其他部位（肺、肝、腦）±骨。[^3]
+- **影像判讀規範**：MRI/CT 以短軸 **1 cm** 為淋巴結腫大閾值（PSMA PET-CT 更敏感）；判讀時務必依「是否落在真骨盆內」界定 N 或 M——**inguinal 與 common iliac 以上之腫大淋巴結一旦陽性即上修為 M1（stage IV）**，牽動治療選擇。[^3][^4]
+
 ## 放射科醫師影像判讀重點
 - **依區帶選主導序列（PI-RADS v2）**：**周邊區(PZ)以 DWI/ADC 為主導序列**，T2WI 上表現為局部低訊號；**移行區(TZ)以 T2WI 為主導序列**，典型癌灶呈邊界不清、鏡片/擦拭狀低訊號(erased charcoal)，需與界線清楚的 BPH 結節區分。[^2]
 - **DCE 之角色**：動態顯影(DCE)僅具次要/輔助角色，用於 PZ 的模稜兩可病灶(score 3)——DCE 陽性局部強化可將 PZ score 3 上調為 4。[^2]
@@ -38,7 +45,13 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: 2019 交換考詳解；Diagnostic Imaging (abdomen), P. III-6-31。
-[^2]: **Tier 1** Hassanzadeh E, Glazer DI, Dunne RM, Fennessy FM, Harisinghani MG, Tempany CM. *Prostate imaging reporting and data system version 2 (PI-RADS v2): a pictorial review*. Abdom Radiol (NY) 2017;42(1):278-289（據 PubMed，DOI [10.1007/s00261-016-0871-z](https://doi.org/10.1007/s00261-016-0871-z)；實際查證 accessed 2026-07-04）——PZ 以 DWI/ADC 為主導序列、TZ 以 T2WI 為主導序列，DCE 具次要角色（PZ score 3 之上調）；臨床顯著癌定義為 Gleason ≥7、體積 >0.5 cc 或前列腺外侵犯；mpMRI 含 T1/T2/DWI/DCE 並以 5 分制評分。原「官方詳解/Diagnostic Imaging」弱來源已由本次 DOI Tier 1 查核升級。
+[^2]: Hassanzadeh E, Glazer DI, Dunne RM, Fennessy FM, Harisinghani MG, Tempany CM. *Prostate imaging reporting and data system version 2 (PI-RADS v2): a pictorial review*. Abdom Radiol (NY) 2017;42(1):278-289（DOI [10.1007/s00261-016-0871-z](https://doi.org/10.1007/s00261-016-0871-z)；accessed 2026-07-04）——PZ 以 DWI/ADC 為主導序列、TZ 以 T2WI 為主導序列，DCE 具次要角色；臨床顯著癌定義為 Gleason ≥7、體積 >0.5 cc 或前列腺外侵犯；mpMRI 含 T1/T2/DWI/DCE 並以 5 分制評分。
+[^3]: *Prostate cancer (staging)*. Radiopaedia.org，rID 1925，DOI [10.53347/rID-1925](https://doi.org/10.53347/rID-1925)（實際查證 accessed 2026-07-10）：Regional nodes(N)＝真骨盆內（總髂動脈分叉以下）淋巴結，N1＝regional 轉移；M1a＝非 regional 淋巴結（明示沿 common iliac 之淋巴結為 M1a 而非 N1）、M1b＝骨、M1c＝其他部位；MRI/CT 以短軸 1 cm 為閾值。
+[^4]: **Tier 1** McMahon CJ, Rofsky NM, Pedrosa I. *Lymphatic Metastases from Pelvic Tumors: Anatomic Classification, Characterization, and Staging*. Radiology 2010;254(1):31-46. DOI [10.1148/radiol.2541090361](https://doi.org/10.1148/radiol.2541090361)（實際查證 accessed 2026-07-10）：攝護腺癌 regional nodal 轉移最常侵犯 internal iliac、external iliac、obturator 群，單側癌傾向同側；落在 defined regional nodes 以外之淋巴結（如 paraaortic）為 M（M1）分期，導致 upstage 至 stage IV。
+
+## 題目
+> [!question]- For the prostate cancer, which site is distant lymph node metastasis? (2021-315)
+> **D（Inguinal lymph node）**——攝護腺癌之 regional nodes（N 分期）限於真骨盆內、即總髂動脈分叉以下之淋巴結（internal iliac、external iliac、obturator、presacral）。**inguinal（腹股溝）淋巴結位於真骨盆之外，屬非 regional 淋巴結，轉移計為 distant metastasis（M1a）**。A internal iliac、B external iliac、C obturator 皆為 regional（N1）淋巴結，非遠處轉移。
 
 ## 考題
 ```dataview
