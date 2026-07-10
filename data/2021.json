@@ -4953,9 +4953,6 @@
       "correctAnswer": "D",
       "reference": "AJCC cancer staging manual, 8th edition.；2021 交換考官方詳解 PDF p64",
       "explanation": "【2021 官方詳解】\nA. Invasion to bladder is stage IV, but presence of bullous edema is not sufficient evidence.\nB. Myometrial invasion represents IA.\nC. Invasion of cervical strome correspond to II.\nD. ?? Grade 3 是high grade, 所以切upper abdomen 是要看metastasis??\n\n⚠️ 本題含影像（官方詳解 PDF 第 64 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-122-1.png"
-      ],
       "concepts": [
         "endometrial-cancer-mri"
       ],
@@ -4963,7 +4960,14 @@
       "difficulty": "中",
       "author": "黃彥綾",
       "sourcePage2021": 64,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-122-1.png",
+          "type": "table",
+          "markdown": "**Table 1. TNM (8th Edition) and FIGO (2009) Classification of endometrial cancer**\n\n| TNM | FIGO | Description |\n|---|---|---|\n| Tx | | Primary tumor cannot be assessed |\n| T0 | | No evidence of primary tumor |\n| T1 | Iᵃ | Tumor confined to the corpus uteriᵃ |\n| T1a | IAᵃ | Tumor limited to the endometrium or invading less than half of the myometrium |\n| T1b | IB | Tumor invades one half or more of the myometrium |\n| T2 | II | Tumor invades cervical stroma, but does not extend beyond the uterus |\n| T3 | III | Local and/or regional spread |\n| T3a | IIIa | Tumor invades the serosa of the corpus uteri or adnexa (direct extension or metastasis) |\n| T3b | IIIb | Vaginal or parametrial involvement (direct extension or metastasis) |\n| N1, N2 | IIIC | Metastasis to pelvic or paraaortic lymph nodesᵇ |\n| N1 | IIIC1 | Metastasis to pelvic lymph nodes |\n| N2 | IIIC2 | Metastasis to paraaortic lymph nodes with/without metastasis to pelvic lymph nodes |\n| T4ᶜ | IVA | Tumor invades bladder/bowel mucosa |\n| M1 | IVB | Distant metastasis (excluding metastasis to vagina, pelvic serosa, or adnexa) (including metastasis to inguinal lymph nodes, intra-abdominal lymph nodes other than paraaortic or pelvic nodes) |\n\nᵃ Endocervical glandular involvement alone should be considered stage I\nᵇ Positive cytology must be reported separately without affecting the stage\nᶜ The presence of bullous edema is not sufficient evidence to classify as T4"
+        }
+      ]
     },
     {
       "id": "2021-123",
@@ -5393,9 +5397,6 @@
       "correctAnswer": "D",
       "reference": "Mayo Clinic Process. Feb 2019:94121:309-325；2021 交換考官方詳解 PDF p79",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 79 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-133-1.png"
-      ],
       "concepts": [
         "ctd-ild"
       ],
@@ -5403,7 +5404,14 @@
       "difficulty": "中",
       "author": "萬永亮",
       "sourcePage2021": 79,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-133-1.png",
+          "type": "table",
+          "markdown": "**TABLE 1. Relative Frequencies of Computed Tomography Imaging Patterns Among CTDsᵃ**\n\n| CTD | UIP | NSIP | OP | LIP | DAD | Hemorrhage | Airwayᵇ | Nodulesᶜ | Serositisᵈ |\n|---|---|---|---|---|---|---|---|---|---|\n| RA | +++ | ++ | ++ | + | + | − | +++ | +++ | +++ |\n| SSc | + | +++ | + | − | + | − | − | − | − |\n| PM/DM | + | +++ | +++ | − | ++ | − | − | − | − |\n| SjS | + | ++ | − | ++ | + | − | + | + | − |\n| SLE | + | ++ | + | ++ | ++ | +++ | − | − | +++ |\n| MCTD | + | ++ | + | − | − | − | − | − | + |\n\nᵃ − = absence of finding; + = lowest and +++ = highest; CTD = connective tissue disease; DAD = diffuse alveolar damage pattern; LIP = lymphocytic interstitial pneumonia pattern; MCTD = mixed connective tissue disease; NSIP = nonspecific interstitial pneumonia pattern; OP = organizing pneumonia pattern; PM/DM = polymyositis/dermatomyositis; RA = rheumatoid arthritis; SjS = Sjögren syndrome; SLE = systemic lupus erythematosus; SSc = systemic sclerosis; UIP = usual interstitial pneumonia pattern.\nᵇ Bronchiectasis, bronchial wall thickening, small centrilobular nodules (that may reflect follicular bronchiolitis), and constrictive bronchiolitis.\nᶜ Typically ≥1 cm (not centrilobular).\nᵈ Pleural or pericardial fluid or thickening."
+        }
+      ]
     },
     {
       "id": "2021-134",
@@ -5778,9 +5786,6 @@
       "correctAnswer": "A",
       "reference": "Magn Reson Imaging Clin N Am 23 (2015) 427–440 page 433；2021 交換考官方詳解 PDF p96",
       "explanation": "【2021 官方詳解】\nReference 沒有說為什麼，我也查不到相關原因，可能就是個現象．\n\n⚠️ 本題含影像（官方詳解 PDF 第 96 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-143-1.png"
-      ],
       "concepts": [
         "ulnar-collateral-ligament-injury"
       ],
@@ -5788,7 +5793,14 @@
       "difficulty": "難",
       "author": "洪猷崇",
       "sourcePage2021": 96,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-143-1.png",
+          "type": "text",
+          "markdown": "**Box 2. Elbow instability: teaching points**\n\n1. The most important static soft tissue constraints are the LUCL and the anterior bundle of the UCL.\n2. Caution should be exercised when making the diagnosis of partial UCL detachment: remember the striated appearance of the ligament.\n3. UCL midsubstance disruptions account for most traumatic injuries.\n4. Conventional MR imaging shows sensitivity, specificity, and accuracy that approach 100% for full-thickness UCL tears.\n5. The anterior bundle of the UCL is often intact even when the radial head and coronoid process are both fractured.\n6. Posttraumatic laxity, disruption, or avulsion of the LUCL is considered to be the main contributing factor in PLRI.\n7. The most common injury to the LUCL is soft tissue avulsion at the proximal humeral attachment, often with concomitant injury to the common origin of the RCL.\n8. Elbow dislocation is most commonly associated with a torn capsule, but the capsule may be intact if the coronoid process is fractured.\n9. An abnormal posterolateral plicae usually reflects incompetence of the UCL."
+        }
+      ]
     },
     {
       "id": "2021-144",
@@ -5970,9 +5982,6 @@
       "correctAnswer": "A",
       "reference": "2011 an Official ATS/ERS/JRS/ALAT Statement: Idiopathic Pulmonary Fibrosis: Evidence-based Guidelines for Diagnosis and Management；2021 交換考官方詳解 PDF p101",
       "explanation": "【2021 官方詳解】\nA. Honeycombing with or without traction bronchiectasis 是Definite UIP pattern!\n2011 出來的，但2018 小改版了.\n\n⚠️ 本題含影像（官方詳解 PDF 第 101 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-148-1.png"
-      ],
       "concepts": [
         "ipf"
       ],
@@ -5980,7 +5989,14 @@
       "difficulty": "易",
       "author": "方詩珺",
       "sourcePage2021": 101,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-148-1.png",
+          "type": "table",
+          "markdown": "**Table 4. High-Resolution Computed Tomography Scanning Patterns**\n\n| UIP | Probable UIP | Indeterminate for UIP |\n|---|---|---|\n| Subpleural and basal predominant; distribution is often heterogeneous* | Subpleural and basal predominant; distribution is often heterogeneous | Subpleural and basal predominant |\n| Honeycombing with or without peripheral traction bronchiectasis or bronchiolectasis† | Reticular pattern with peripheral traction bronchiectasis or bronchiolectasis；May have mild GGO | Subtle reticulation; may have mild GGO or distortion (\"early UIP pattern\")；CT features and/or distribution of lung fibrosis that do not suggest any specific etiology (\"truly indeterminate for UIP\") |"
+        }
+      ]
     },
     {
       "id": "2021-149",
@@ -6010,9 +6026,6 @@
       "correctAnswer": "C",
       "reference": "Revisions to the TNM Staging of Lung Cancer: Rationale, Significance, and Clinical Application RadioGraphics 2018; 38:374–391；2021 交換考官方詳解 PDF p102",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 102 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-149-1.png"
-      ],
       "concepts": [
         "lung-cancer-tnm-staging"
       ],
@@ -6020,7 +6033,14 @@
       "difficulty": "易",
       "author": "方詩珺\nT1\nT2\nT3\nT4\nM1a\nSize\nT1a <= 1cm\nT1b 1-2cm\nT1c 2-3cm\nT2a 3-4cm\nT2b 4-5cm\n5-7cm\n>7cm\nInvolve\nMain bronchus\nwithout carina\nVisceral pleural\nChest wall\nPericardium\nPhrenic nerve\nMediastinum\nDiaphragm\nHeart\nGreat vessel\nRecurrent\nlaryngeal nerve\nCarina/trachea\nEsophagus\nSpine\nSeparate tumor\nSame lobe\nDifferent lobe\nof ipsilateral\nlung\nContralateral\nlung",
       "sourcePage2021": 102,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-149-1.png",
+          "type": "table",
+          "markdown": "**TNM 8th - Primary tumor characteristics（肺癌）**\n\n| 分期 | 描述 |\n|---|---|\n| Tx | Tumor in sputum/bronchial washings but not be assessed in imaging or bronchoscopy |\n| T0 | No evidence of tumor |\n| Tis | Carcinoma in situ |\n| T1 | ≤ 3 cm surrounded by lung/visceral pleura, not involving main bronchus |\n| T1a(mi) | Minimally invasive carcinoma |\n| T1a | ≤ 1 cm |\n| T1b | > 1 to ≤ 2 cm |\n| T1c | > 2 to ≤ 3 cm |\n| T2 | > 3 to ≤ 5 cm；or involvement of main bronchus without carina, regardless of distance from carina；or invasion visceral pleural；or atelectasis or post obstructive pneumonitis extending to hilum |\n| T2a | > 3 to ≤ 4 cm |\n| T2b | > 4 to ≤ 5 cm |\n| T3 | > 5 to ≤ 7 cm in greatest dimension；or tumor of any size that involves chest wall, pericardium, phrenic nerve；or satellite nodules in the same lobe |\n| T4 | > 7 cm in greatest dimension；or any tumor with invasion of mediastinum, diaphragm, heart, great vessels, recurrent laryngeal nerve, carina, trachea, oesophagus, spine；or separate tumor in different lobe of ipsilateral lung |\n| N1 | Ipsilateral peribronchial and/or hilar nodes and intrapulmonary nodes |\n| N2 | Ipsilateral mediastinal and/or subcarinal nodes |\n| N3 | Contralateral mediastinal or hilar; ipsilateral/contralateral scalene/supraclavicular |\n| M1 | Distant metastasis |\n| M1a | Tumor in contralateral lung or pleural/pericardial nodule/malignant effusion |\n| M1b | Single extrathoracic metastasis, including single non-regional lymphnode |\n| M1c | Multiple extrathoracic metastases in one or more organs |"
+        }
+      ]
     },
     {
       "id": "2021-150",
