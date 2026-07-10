@@ -9,7 +9,7 @@ aliases:
   - DEFUSE 3 trial
   - 機械取栓治療窗
   - 全民健保取栓給付標準
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # ia-thrombectomy-stroke-window
@@ -72,6 +72,9 @@ dateRev: 2026-07-02
 
 > [!question]- 下列有關 acute vertebrobasilar occlusion 的取栓治療，何者為錯？ (2020-253)
 > **屬於AHA/ASA class1/level A的建議（A）**——實際為2019更新中之Class IIb/Level C-LD（弱建議）。本地常因ICAD、DWI MRI可協助評估、不應延誤IV溶栓皆正確。[^3]
+
+> [!question]- 下列關於缺血性中風之相關敘述，何者為非? (2021-275)
+> **A（健保限NIHSS 8至20分、前循環發病6小時——此為錯誤敘述）**——台灣健保2016起給付EVT之標準應為NIHSS 8至30分、前循環發病8小時(後循環24小時)內。B（術後24-48h安排CT/MRI）、C（符合IV rt-PA者須先給並儘量縮短DTN時間）、D（腦部小血管疾病為急性腦中風重要病因）皆為正確敘述。
 
 ## 考題
 ```dataview

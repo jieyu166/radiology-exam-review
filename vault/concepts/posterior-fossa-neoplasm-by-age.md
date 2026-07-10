@@ -6,7 +6,7 @@ aliases:
   - intra-axial posterior fossa tumor
   - posterior fossa tumor differential
   - 後顱窩腫瘤
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # posterior-fossa-neoplasm-by-age
@@ -23,6 +23,10 @@ dateRev: 2026-07-01
 
 ### 參考來源
 [^1]: *Neuroimaging Clin N Am*. 2016 Nov;26(4):493-510（2018 交換考題詳解 p.51 引用；Tier 1）。成人顱內軸內後顱窩腫瘤以轉移瘤最常見，hemangioblastoma 為成人最常見原發腦腫瘤；兒童後顱窩腫瘤以 pilocytic astrocytoma、medulloblastoma、ependymoma 為主。
+
+## 題目
+> [!question]- Which one of the following is the MOST common intra-axial posterior fossa neoplasm in adults? (2021-309)
+> **D（Metastasis）**——成人最常見的顱內軸內（intra-axial）後顱窩腫瘤為轉移瘤（常見原發為肺癌、乳癌等）。Hemangioblastoma 雖為成人最常見的「原發」軸內腦腫瘤，但整體發生率仍低於轉移瘤；GBM 罕見於後顱窩，meningioma 屬軸外（extra-axial）病灶。
 
 ## 考題
 ```dataview

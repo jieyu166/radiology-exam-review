@@ -8281,7 +8281,9 @@
       "reference": "低劑量胸部電腦斷層肺癌篩檢手冊醫療版；2021 交換考官方詳解 PDF p184",
       "explanation": "【2021 官方詳解】\n篩檢對象\n1.年齡介於50-80歲，抽菸史超過30包年，目前仍在抽菸或戒菸時間尚未超過 15 年的民眾，證據顯示可以接受低劑量電腦斷層以篩檢肺癌。尤以 60-75 歲者，最具成本效應。\n2. 具有肺癌家族史的民眾，建議接受低劑量電腦斷層作為肺癌篩檢。\n3. 有肺病史、氡暴露及特定職業暴露 ( 如石綿 ) 的民眾，可以諮詢醫師考慮進行肺癌篩檢。\n4. 非吸菸，也無上述風險因子的民眾目前沒有證據支持肺癌篩檢。若擔心有罹患肺癌風險，建議諮詢醫師後，再進行肺癌篩檢。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "簡單",
       "author": "柯維鈞",
@@ -8357,7 +8359,9 @@
       "reference": "Johkoh T, Müller NL, Pickford HA et-al. Lymphocytic interstitial pneumonia: thin-section CT findings in 22 patients. Radiology. 1999;212 (2): 567-72.；2021 交換考官方詳解 PDF p186",
       "explanation": "【2021 官方詳解】\nCT features of LIP:\n- features tend to be diffuse with mid to lower lobe predominance\n- thickening of bronchovascular bundles\n- interstitial thickening along lymph channels\n- small but variable sized pulmonary nodules (can be centrilobular or subpleural, and are often ill-defined)\n- ground-glass changes\n- scattered thin-walled cysts\n  - usually deep within the lung parenchyma\n  - typically abut vessels (i.e. is perivascular or subpleural)\n  - size range between 1-30 mm (useful for differentiation from lymphoma of the lung 1)\n- mediastinal lymphadenopathy",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lymphoid-interstitial-pneumonia"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳信銘",
@@ -8617,7 +8621,9 @@
       "reference": "RadioGraphics 2020; 40:1848-1865；2021 交換考官方詳解 PDF p193",
       "explanation": "【2021 官方詳解】\nChest CT Abnormalities with High Incidence (>70%)\nSeveral chest CT findings have been reported in more than 70% of RT-PCR test–proven COVID-19 cases, including ground-glass opacities, vascular enlargement, bilateral abnormalities, lower lobe involvement,\nand posterior predilection. In COVID-19–endemic regions, the observation of these chest CT findings should raise the suspicion of possible COVID-19 diagnosis.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "covid19-chest-ct"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳玫圻",
@@ -8653,7 +8659,10 @@
       "reference": "Cottin V, et al. Fibrosing interstitial lung diseases: knowns and unknowns. European Respiratory Review 2019 28: 180100.；2021 交換考官方詳解 PDF p194",
       "explanation": "【2021 官方詳解】\n- By definition, a progressive fibrosing ILD characterised by decline in lung function and early mortality. Most clinical trials and observational studies in patients with ILDs have defined disease progression in terms of decline in FVC, measured as the change from baseline in mL or as a percentage of the predicted value, or as a categorical change (typically ⩾10% predicted), or as a composite of categorical change and mortality.\n- Patients with certain other types of chronic fibrosing ILD are also at risk of developing a progressive phenotype. These include idiopathic nonspecific interstitial pneumonia (NSIP), unclassifiable idiopathic interstitial pneumonia, autoimmune ILDs, chronic sarcoidosis, chronic hypersensitivity pneumonitis (HP) and exposure-related diseases such as asbestosis and silicosis\n- Treatment of autoimmune ILDs usually involves corticosteroids or other immunosuppressants such as azathioprine, CYC or MMF, based on clinical experience rather than scientific evidence.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "progressive-fibrosing-ild",
+        "ipf"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "張允中",
@@ -8691,7 +8700,9 @@
       "images": [
         "2021-227-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "idiopathic-interstitial-pneumonia"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "張允中",
@@ -8811,7 +8822,9 @@
       "images": [
         "2021-230-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "nonspecific-interstitial-pneumonia"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳若瑀醫師",
@@ -8849,7 +8862,9 @@
       "images": [
         "2021-231-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "organizing-pneumonia"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳若瑀醫師",
@@ -10413,7 +10428,10 @@
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引；2021 交換考官方詳解 PDF p240",
       "explanation": "【2021 官方詳解】\n(C)目前EVT的臨床試驗都只針對18歲以上的成人進行，因此對於年齡小於18歲的中風病人的效果未知。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "intra-arterial-thrombectomy",
+        "acute-stroke-management"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "李崇維醫師",
@@ -10449,7 +10467,9 @@
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引；2021 交換考官方詳解 PDF p241",
       "explanation": "【2021 官方詳解】\n(A) rt-PA藉由分解血栓的方式打通阻塞的血管，如果遇到較大的血栓，如阻塞的位置在中大腦動脈近端、內頸動脈或基底動脈等，或者是非急性形成的血栓，如動脈硬化的斑塊造成的血管栓塞，rt-PA的治療效果欠佳，大約只有二至三成的血管再通率。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "acute-stroke-management"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "李崇維醫師",
@@ -10521,7 +10541,9 @@
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引 2020台灣腦中風學會缺血性腦中風相關之血壓 控制指引；2021 交換考官方詳解 PDF p243",
       "explanation": "【2021 官方詳解】\n(A) 台灣健保於2016年開始給付EVT，限於NIHSS 8至30分、前循環發病8小時或後循環發病24小時內的急性缺血中風病人。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "ia-thrombectomy-stroke-window"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "李崇維醫師",
@@ -10560,7 +10582,9 @@
         "2021-276-1.png",
         "2021-276-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cerebral-amyloid-angiopathy"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "李崇維醫師",
@@ -10596,7 +10620,9 @@
       "reference": "Diagnostic Imaging: Head and neck, I-2-6；2021 交換考官方詳解 PDF p246",
       "explanation": "【2021 官方詳解】\nOf the syndromes resulting in microtia and EAC atresia, Goldenhar syndrome or hemifacial microsomia is the most common and is also the second most common craniofacial anomaly after cleft lip and palate. There are four major components to Goldenhar syndrome: deformity of the auricle, EAC atresia, malformation of the tympanic cavity, and ossicular abnormalities causing conductive hearing loss. Occasionally, there is also sensorineural hearing loss due to stria vascularis and semicircular canal or cochlear abnormalities as well as hypoplastic or atretic oval window. Pfeiffer syndrome is another cause of EAC stenosis/atresia that results in moderate to severe conductive or mixed hearing loss in patients with cranio-facial abnormalities. In addition to the stenosis and/or atresia of the EAC, there is hypoplasia of the middle ear cavity and occasionally hypoplastic ossicles. Typically, the inner ear anatomy is normal, but middle ear effusions are frequently seen. Therefore, when Pfeiffer syndrome patients receive CT for craniofacial anomalies, examination of the temporal bones should also be performed.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "congenital-aural-atresia"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "王郁棻",
@@ -10632,7 +10658,9 @@
       "reference": "Diagnostic Imaging: Head and neck. I-2-25；10.4103/0971-3026.90687；2021 交換考官方詳解 PDF p247",
       "explanation": "【2021 官方詳解】\nRef: Radiopaedia\nExostosis of the external auditory canal (also known as surfer's ear), is a benign bony overgrowth of the bony external auditory canal brought about by exposure to cold wind and water combined.\n- broad-based or more focal circumferential bony overgrowth of the osseous external auditory canal\n- bilateral\nRef: Indian J Radiol Imaging. 2011 Oct-Dec; 21(4): 274–278. doi: 10.4103/0971-3026.90687\nOsteochondroma (exostosis) is the most common benign tumor found in the EAC.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "eac-exostoses"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "王郁棻",
@@ -10704,7 +10732,9 @@
       "reference": "An Approach to the Diagnosis of Acute Transverse Myelitis. SEMINARS IN NEUROLOGY 2008; 28(1); 105-120；2021 交換考官方詳解 PDF p249",
       "explanation": "【2021 官方詳解】\nInflammatory transverse myelitis (CSF inflammation with usual pleocytosis and occasionally elevated IgG\nindex/OCBs) in the absence of a specific cause (such as MS, NMO, ADEM, connective tissue disease, etc.) is\nthe most common cause of acute myelitis. However, the idiopathic nature is a diagnosis of exclusion.\nWhen identified at the first attack, NMOIgG also predicts future episodes of myelitis or optic neuritis. In a prospective study, the risk of developing recurrent myelitis or new onset optic neuritis in patients with an isolated longitudinally extensive transverse myelitis was more than 50% among those who were NMO-IgG seropositive, compared with 0% in those who were NMO-IgG seronegative. Brain MRI can be abnormal in NMO. Typically, lesions are periventricular, especially in regions of high concentration of aquaporin-4, the target antigen for the NMO-IgG. (D) 應改為Long extensive transverse myelitis (LETM) pattern on T2W MRI is pathogomonic NMO ???",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "neuromyelitis-optica"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "林彥亨",
@@ -10742,7 +10772,9 @@
       "images": [
         "2021-281-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "mri-vessel-wall-imaging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "林彥亨",
@@ -10780,7 +10812,9 @@
       "images": [
         "2021-282-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "le-fort-fracture"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林彥亨",
@@ -10892,7 +10926,10 @@
       "reference": "Osborn's Brain: Imaging, Pathology, and Anatomy, 2nd ed., p. 115；2021 交換考官方詳解 PDF p257",
       "explanation": "【2021 官方詳解】\nspontaneous intraparenchymal hemorrhage in older adult:\n- common:\n  - HTN\n  - Amyloid angiopathy\n  - Neoplasm (primary or metastatic)\n- less common:\n  - dural sinus or cortical vein occlusion\n  - coagulopathy\n- rare but important\n  - vascular malformation (usually dAVF)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hypertensive-hemorrhage",
+        "cerebral-amyloid-angiopathy"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "DYT Chen (SHH)",
@@ -10928,7 +10965,9 @@
       "reference": "Dahnert Radiology Review Manual 7th ed., pp. 295-296；2021 交換考官方詳解 PDF p258",
       "explanation": "【2021 官方詳解】\n- adulthood (>80%): 20-50 y/o, average of 33, M > F\nchildhood (<20%): in von Hippel-Lindau disease (10-20%), girls",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hemangioblastoma"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "DYT Chen (SHH)",
@@ -11157,7 +11196,9 @@
       "images": [
         "2021-292-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-hypertension-classification"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "Yen-Lin Huang (SHH)",
@@ -11193,7 +11234,10 @@
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, P.631；2021 交換考官方詳解 PDF p265",
       "explanation": "【2021 官方詳解】\nEnlarged pulmonary trunk (measured at pulmonary artery bifurcation on an axial slice vertical to its long axis) >29 mm diameter is often used as a general predictive cut-off.\nRef: radiopaedia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pulmonary-artery-enlargement",
+        "pulmonary-hypertension-classification"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "Yen-Lin Huang (SHH)",
@@ -11744,7 +11788,10 @@
       "reference": "Radiology: Volume 284: Number 1—July 2017；2021 交換考官方詳解 PDF p283",
       "explanation": "【2021 官方詳解】\n(A) Nodule Multiplicity\nAn analysis of patients with multiple nodules in the NELSON trial showed increased risk of primary cancer as the total nodule count increased from 1 to 4 but decreased risk in patients with 5 or more nodules, most of which likely resulted from prior granulomatous infection. In the PanCan trial, multiplicity of nodules was associated with a reduced risk of cancer when compared with risk associated with one nodule.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "fleischner-pulmonary-nodule",
+        "solitary-pulmonary-nodule"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "",
@@ -11820,7 +11867,9 @@
       "images": [
         "2021-309-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "posterior-fossa-neoplasm-by-age"
+      ],
       "checked": false,
       "difficulty": "□ 難  □普通  ■易",
       "author": "賴炳宏 (第1題 / 共3題)",
@@ -14012,7 +14061,9 @@
       "reference": "Osborn’s Brain 2nd edition, p1149-1151 Brain 2017: 140; 344-352；2021 交換考官方詳解 PDF p387",
       "explanation": "【2021 官方詳解】\nIntracranial hypotension, also known as craniospinal hypotension is defined as cerebrospinal fluid (CSF) pressure <6 cm H2O in patients with clinical presentation compatible with intracranial hypotension\nMRI quantitative signs\nmamillopontine distance <5.5 mm\npontomesencephalic angle <50 ̊\ninterpeduncular angle <40.5°",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "spontaneous-intracranial-hypotension"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總陳書庭醫師",

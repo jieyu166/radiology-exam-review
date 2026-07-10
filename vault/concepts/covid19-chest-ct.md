@@ -61,6 +61,9 @@ dateRev: 2026-07-10
 > [!question]- 下列何種影像發現為 COVID-19 的胸部X光 characteristic finding? (2021-181)
 > **⚠️ 答案欄標 A（Lobar consolidation），惟 COVID-19 CXR 特徵應為 C（雙側、周邊且中下肺帶分布之實變）**——lobar consolidation 反屬非典型；B（肋膜積液）、D（氣胸）亦非特徵。COVID 影像遵循「雙側周邊」指紋，C 才是特徵表現，建議對照原卷確認答案。
 
+> [!question]- Which one is NOT a chest CT finding reported in >70% of RT-PCR–proven COVID-19 cases? (2021-225)
+> **D（pleural effusion 肋膜積液）**——>70% 高發現率者為磨玻璃影(GGO)、血管擴張(vascular enlargement)、雙側、下葉、後側優勢分布；肋膜積液屬相對非典型徵象，出現時反而要想其他病因，故非 >70% 常見表現者為 D。A（GGO）、B（vascular enlargement）、C（peripheral location）皆為典型高發現率徵象。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "covid19-chest-ct")

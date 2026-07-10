@@ -8,7 +8,7 @@ aliases:
   - lung cancer screening trial
   - Lung-RADS
   - 肺癌篩檢試驗
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # lung-cancer-screening-trials
@@ -48,6 +48,10 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: 官方2020詳解；Ref: RadioGraphics 2015;35:1893–1908（題目所引）——NLST 為首個報告 LDCT 篩檢降低肺癌死亡率之 RCT（降 20%）；Lung-RADS 為 ACR 設計以降偽陽性之報告系統。
 [^2]: **Tier 1** *Lung-RADS Lexicon and Usage*（Chest, RADS；Godfrey AV, Rosado-de-Christenson ML 等，updated 2023-01-26，含 Lung-RADS 2022）. STATdx（實際查證 accessed 2026-07-03）：**NLST 53,454 人、55–74 歲、≥30 包-年、降肺癌死亡 20%/全因 6.7%**；**USPSTF 2021 更新為 50–80 歲/≥20 包-年**、CMS 50–77；**Lung-RADS v1.0(2014,4→6 mm)→v1.1(2019,perifissural 6→10 mm)→v2022(2022/11)**；分類 0–4X（陰性 1&2、陽性 3&4）、生長=12 月增 >1.5 mm、perifissural <10 mm 平滑歸 2、S modifier、AI 為輔助。與 [^1] 一致並更新至現行指引與 Lung-RADS 2022 分類/處置。原「官方 2020 詳解（題目所引）」弱來源已由本次 Tier 1 全文查核升級。
+
+## 題目
+> [!question]- 根據低劑量胸部電腦斷層肺癌篩檢手冊醫療版的篩檢對象，下列描述何者錯誤? (2021-216)
+> **D（非吸菸且無上述風險因子者，年齡大於 30 歲也可進行 LDCT 篩檢）**——錯誤。篩檢對象以吸菸史為核心：50–80 歲、≥30 包-年、現行吸菸或戒菸未滿 15 年（尤 60–75 歲最具成本效益）；具肺癌家族史者建議篩檢；有肺病史/氡暴露/石綿等職業暴露者可諮詢醫師考慮。非吸菸且無上述風險因子者目前無證據支持篩檢，故 D 錯。A、B、C 皆與手冊/USPSTF 篩檢資格相符。
 
 ## 考題
 ```dataview

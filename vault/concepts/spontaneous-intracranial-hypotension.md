@@ -6,7 +6,7 @@ aliases:
   - SIH
   - CSF leak
   - 自發性顱內低壓
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # spontaneous-intracranial-hypotension
@@ -51,6 +51,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Classical findings of intracranial hypotension include the following except? (2018-237)
 > **Veins/dural sinuses shrinkage（C）**——實際上靜脈竇為「充血擴大(engorgement)」，非萎縮，此敘述錯誤。腦幹下垂(A)、瀰漫硬膜增厚強化(B)、硬膜下積液/血腫(D)皆為典型表現。[^2]
+
+> [!question]- Which of the following descriptions of spontaneous intracranial hypotension is INCORRECT? (2021-366)
+> **B（the angle between midbrain, pons increases）為錯誤**——SIH 因腦幹下沉（sagging brain），pontomesencephalic（midbrain-pons）夾角會「縮小」（<50°）而非增大。A（瀰漫性 pachymeningeal 強化常見）、C（夾角縮小預測 blood patch 治療反應差）、D（ICHD-3 診斷需低 CSF 壓力測量值及/或影像上 CSF 漏證據）皆正確。
 
 ## 考題
 ```dataview

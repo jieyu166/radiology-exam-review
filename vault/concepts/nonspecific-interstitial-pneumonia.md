@@ -9,7 +9,7 @@ aliases:
   - fibrotic NSIP
   - subpleural sparing
   - 非特異性間質性肺炎
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[ipf]]"
   - "[[ctd-ild]]"
@@ -68,6 +68,9 @@ same:
 > [!question]- 請問以下何者非 Non-specific interstitial pneumonia 的影像特徵？（2022-377）
 > A. Honeycombing　B. Ground-glass opacities　C. Reticular opacities　D. Traction bronchiectasis
 > **A. Honeycombing（關鍵，「非」NSIP 特徵）**——NSIP 典型呈下肺為主的 GGO（B）、網狀影（C）與牽引性支氣管擴張（D）；而**蜂窩狀變化在 NSIP 特徵性地少見／缺如**（fibrotic NSIP 系列僅約 5%），明顯 honeycombing 應偏向 UIP/IPF。故 honeycombing 非 NSIP 典型影像特徵。[^1][^6]
+
+> [!question]- 下列關於 NSIP (nonspecific interstitial pneumonia) 之敘述何者為非? (2021-230)
+> **D（reticular opacities、traction bronchiectasis 為 fibrosis 表現，常見於 UIP，在 NSIP 不會出現）為非**——fibrotic NSIP 正是以下肺 GGO ＋ 網狀影(reticular) ＋ 牽引性支氣管擴張(traction bronchiectasis)為招牌特徵，此兩者在 NSIP 常見。A（早期 CXR 可正常）、B（成因多元：idiopathic、CTD、藥物、職業暴露）、C（GGO 伴 subpleural sparing）皆正確。NSIP 與 UIP 之別在 honeycombing 少、對稱均質、可有 subpleural sparing。
 
 ## 考題
 ```dataview

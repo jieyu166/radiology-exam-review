@@ -7,7 +7,7 @@ aliases:
   - facial fracture classification
   - pterygoid plate fracture
   - 勒福氏骨折
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # le-fort-fracture
@@ -44,6 +44,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- Which is true for Le Fort I fracture? (2018-350)
 > **Fracture of anterolateral margin of the nasal cavity（D）**——Le Fort I為水平上頜骨折，骨折線通過鼻腔前外側緣（梨狀孔）。[^1]
+
+> [!question]- Regarding to midface LeFort fracture, which of the following statements are wrong? (2021-282)
+> **A（"Floating palate" refers to LeFort II fracture）為錯誤敘述**——floating palate（浮動上顎，牙齒與上臉分離）指的是 LeFort **I**（水平型），非 II（II 為 floating maxilla/pyramidal 錐狀）。B（必累及翼突板 pterygoid plate，為診斷 Le Fort 之必要條件）、C（臨床常多型混合）、D（左右可為不同型）皆正確。
 
 ## 考題
 ```dataview

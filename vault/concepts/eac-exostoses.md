@@ -7,7 +7,7 @@ aliases:
   - surfer's ear
   - 外耳道骨疣
   - 衝浪者耳
-dateRev: 2026-07-06
+dateRev: 2026-07-10
 ---
 
 # eac-exostoses
@@ -31,6 +31,9 @@ dateRev: 2026-07-06
 ## 題目
 > [!question]- Which diagnosis is also known as "surfer's ear"? (2022-491)
 > **A. External auditory canal exostoses（關鍵）**。外耳道 exostoses 是因冷水反覆暴露引起的反應性骨增生，俗稱「衝浪者耳」，顳骨 CT 上典型為兩側、寬基底、環繞骨性外耳道的骨增生。B（osteoma）為單側單發有蒂骨腫塊；C（keratosis obturans）與 D（cholesteatoma）為角化/軟組織病灶，皆非「surfer's ear」。[^1][^2]
+
+> [!question]- For EAC exostosis, which one is less likely? (2021-278)
+> **C（Usually a narrow-based lesion——最不可能）**——exostoses為寬基底(broad-based)、環繞骨性外耳道的反應性骨增生；窄基底/有蒂(pedunculated)是osteoma的特徵。A（EAC最常見的實質腫瘤）、B（多為兩側）、D（俗稱surfer's ear，冷水暴露所致）皆正確。
 
 ## 考題
 ```dataview

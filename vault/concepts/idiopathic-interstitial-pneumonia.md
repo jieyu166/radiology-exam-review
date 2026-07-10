@@ -7,7 +7,7 @@ aliases:
   - IIP
   - smoking-related IIP
   - 特發性間質性肺炎
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # idiopathic-interstitial-pneumonia
@@ -46,6 +46,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 關於 idiopathic interstitial pneumonias (IIP),何者「為真」? (2017-180)
 > 「**Cryptogenic organizing pneumonia（COP）以胸膜下分布為特徵**」為真。吸菸相關 IIP 不含 HP、RB-ILD 為上肺（非下肺）為主、tree-in-bud 提示小氣道病非 IIP。[^1]
+
+> [!question]- 下列何者非 Major Idiopathic Interstitial Pneumonias? (2021-227)
+> **D（Idiopathic lymphoid/lymphocytic interstitial pneumonia, LIP）**——依 2013 ATS/ERS 分類，LIP 與 idiopathic PPFE 屬「rare IIP（罕見型）」，非 major。Major IIP 六型為 IPF/UIP、idiopathic NSIP、RB-ILD、DIP、AIP、COP，故 A（IPF）、B（AIP）、C（RB-ILD）皆屬 major。
 
 ## 考題
 ```dataview

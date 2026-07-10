@@ -6,7 +6,7 @@ aliases:
   - mechanical thrombectomy
   - EVT
   - 動脈取栓術
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # intra-arterial-thrombectomy
@@ -37,6 +37,10 @@ dateRev: 2026-07-02
 [^1]: 2019 交換考詳解；Stroke. 1988;19:604-607（mRS 量表原始文獻）。
 [^2]: **Tier 1** Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update... A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association*. Stroke 2019;50(12):e344-e418（據 PubMed，DOI [10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211)；實際查證 accessed 2026-07-04）——AHA/ASA官方指引明訂前循環LVO取栓之影像與臨床選擇準則（ASPECTS ≥6、NIHSS ≥6、mRS 0–1、6小時窗與6–24小時延伸窗之進階影像準則）。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
 [^3]: **Tier 1** Goyal M, Menon BK, van Zwam WH, et al. *Endovascular thrombectomy after large-vessel ischaemic stroke: a meta-analysis of individual patient data from five randomised trials*. Lancet 2016;387(10029):1723-1731（據 PubMed，DOI [10.1016/S0140-6736(16)00163-X](https://doi.org/10.1016/S0140-6736(16)00163-X)；實際查證 accessed 2026-07-04）——HERMES統合五大取栓試驗（MR CLEAN、ESCAPE、REVASCAT、SWIFT PRIME、EXTEND IA）個別病人資料，證實取栓顯著降低90天失能（cOR 2.49，NNT 2.6）。
+
+## 題目
+> [!question]- 下列關於rt-PA及血管內血栓移除術(EVT)相關敘述，何者為非? (2021-272)
+> **C（EVT對年齡<18歲中風病人效果卓越——此為錯誤敘述）**——EVT臨床試驗只納入≥18歲成人，對<18歲兒童療效未知；「年齡≥18」本即取栓Class I適應症之一。A（rt-PA對ICA/MCA近端等大血栓再通率僅約二至三成）、B（台灣2016起健保給付EVT）、D（後循環取栓證據力較有限）皆為正確敘述。
 
 ## 考題
 ```dataview

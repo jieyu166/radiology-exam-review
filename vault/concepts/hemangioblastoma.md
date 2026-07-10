@@ -5,7 +5,7 @@ subspecialty: [NR]
 aliases:
   - hemangioblastoma
   - 血管母細胞瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 same:
   - "[[ependymoma]]"
 ---
@@ -51,6 +51,10 @@ same:
 [^1]: Matsusue E, et al. "Advanced magnetic resonance imaging findings of cerebellar hemangioblastomas: A report of three cases and a literature review." *Acta Radiol Open* 2022;11(3)（PMC 開放全文 PMC8902200，accessed 2026-06-29）。要點：型態分布 solid 47.7%／cystic 26.3%／cyst with mural nodule 21.3%；壁結節 T2 高訊號、均勻強化、囊壁不強化、貼軟膜；flow voids 約 60–69%；好發小腦半球、第 3–5 個十年；約 20% 合併 VHL；進階 MR rCBV↑、ADC↑、MRS lipid/lactate；鑑別 pilocytic astrocytoma（年齡、無 flow void）。DOI: 10.1177/20584601221077074。
 [^2]: StatPearls（NCBI Bookshelf）"Hemangioblastoma"（NBK606126，accessed 2026-06-29）。要點：WHO grade 1；約 75% 偶發、25% VHL 相關，CNS hemangioblastoma 約 20% 合併 VHL，VHL 患者約 45% 發生 CNS 病灶且常多發；分布小腦 45–50%／脊髓 30–40%／腦幹 5–10%；招牌為囊＋強化壁結節、flow voids 60–70%；VHL 合併 clear cell RCC／pheochromocytoma／胰臟神經內分泌瘤／視網膜血管母細胞瘤；VHL 蛋白功能喪失致 EPO 過度分泌→紅血球增多。
 [^3]: Kim DW, et al. "Cerebellar Metastasis Manifesting as a Cyst with Mural Nodule(s): Differentiating It From Hemangioblastoma on MRI." *Acad Radiol*（PubMed 37087031，accessed 2026-06-29）。偏向轉移之鑑別：年齡較大（中位 59.5 vs 37 歲）、多發結節（72.7% vs 8.7%）、缺乏 flow void（100% vs 65.2% 有）、FLAIR 結節等／低訊號（100% vs 22.7%）、結節 DWI 受限（22.2% vs 0%）、結節僅輕度強化（90.9% vs 4.3%）、囊壁 ring enhancement（100% vs 8.7%）。DOI: 10.1016/j.acra.2023.03.026。
+
+## 題目
+> [!question]- Which of the following description regarding hemangioblastoma of CNS is FALSE? (2021-286)
+> **A（More common in the childhood than in adulthood）為錯誤**——hemangioblastoma >80% 發生於成人（好發 20–50 歲、中位約 33 歲、M>F），兒童 <20%（多見於 von Hippel-Lindau，10–20%）。B（可合併 VHL）、C（血管攝影呈富血管腫瘤、可見 flow void）皆為真，故 D（none of the above）不成立。
 
 ## 考題
 ```dataview
