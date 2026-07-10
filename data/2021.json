@@ -1859,7 +1859,9 @@
       "reference": "Dahnert Radiology Review Manual 7th ed., p. 122；2021 交換考官方詳解 PDF p254",
       "explanation": "【2021 官方詳解】\n- Common in diaphysis of appendicular skeleton (lower > upper extrimity); usually monomelic with at least 2 bones involved in dermatomal distribution. Rare in axial skeleton.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sclerosing-bone-dysplasias"
+      ],
       "checked": false,
       "sourcePage2021": 254
     },
@@ -4163,7 +4165,9 @@
       "correctAnswer": "D",
       "reference": "Kamalian, S., Avery, L., Lev, M. H., Schaefer, P. W., Curtin, H. D., & Kamalian, S. (2019). Nontraumatic Head and Neck Emergencies. RadioGraphics, 39(6), 1808–1823. https://doi.org/10.1148/rg.2019190159；10.1148/rg.2019190159；2021 交換考官方詳解 PDF p33",
       "explanation": "⚠️ 疑似與 2021-008 為同一題（相似度 0.988），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 33 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "retropharyngeal-space"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "",
@@ -7994,7 +7998,9 @@
       "reference": "Scoliosis Imaging: What Radiologists Should Know RadioGraphics 2010; 30:1823–1842；2021 交換考官方詳解 PDF p155",
       "explanation": "【2021 官方詳解】\nObservation:\nAdolescent: Cobb angle <20°\nAdult: Cobb angle < 30°\nBracing:\nAdolescent: 20-45°\nSurgery:\nAdolescent: Cobb angle >45° Adult: Cobb angle > 45° ofr",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "scoliosis-cobb-angle-management"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳坤煌",
@@ -9580,7 +9586,9 @@
       "correctAnswer": "B",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p205",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 205 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "rectal-cancer-mri"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳邦斌",
@@ -12589,7 +12597,9 @@
       "reference": "書名：Osborn A. Diagnostic Imaging, Brain. Amirsys 2004 頁次：p. I:8 30-31；2021 交換考官方詳解 PDF p286",
       "explanation": "【2021 官方詳解】\n(B) epidural empyema (EDE) DWI variable signal\nsubdural empyema (SDE) DWI typically restricted diffusion\n(C) subdural empyema much more common\n(D) Infants & young children: complication of bacterial meningitis\nolder children &adult: related to paranasal sinus disease (>2/3)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "subdural-empyema"
+      ],
       "checked": false,
       "difficulty": "□ 難  □普通  ■易",
       "author": "賴炳宏 (第2題 / 共3題)",
@@ -13078,7 +13088,9 @@
       "images": [
         "2021-322-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "soft-tissue-lipoma-ultrasound"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林益輝",
@@ -14063,7 +14075,9 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1528–1553；2021 交換考官方詳解 PDF p362",
       "explanation": "【2021 官方詳解】\nRef: CT for Pre- and Postprocedural Evaluation of Transcatheter Mitral Valve Replacement\nA. Mitral orifice area > 4cm2 => favorable anatomy\nC. Mobile leaflet length > 1cm => favorable anatomy\nD. LVOT obstruction => postprocedural LVOT gradient increase 10 mm Hg or mor\n\n⚠️ 本題含影像（官方詳解 PDF 第 362 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "transcatheter-mitral-valve-replacement"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "陳俊谷",
@@ -14511,7 +14525,9 @@
       "correctAnswer": "A",
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p376",
       "explanation": "【2021 官方詳解】\nA. At imaging, tumor thrombus is more expansive than bland thrombus, demonstrates enhancement, and may have imaging features similar to those of the primary malignancy. Another helpful indicator of tumor thrombus is contiguity with the primary mass.\nICC: intrahepatic cholangiocarcinoma\nPNET: pancreatic neuroendocrine tumor\n\n⚠️ 本題含影像（官方詳解 PDF 第 376 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",
@@ -14686,7 +14702,9 @@
       "reference": "Reference: Chang EY, Chen KC, Huang BK, Kavanaugh A. Adult Inflammatory Arthritides: What the Radiologist Should Know. Radiographics. 2016 Oct;36(6):1849-1870.；2021 交換考官方詳解 PDF p381",
       "explanation": "【2021 官方詳解】\nA.\nin cases in which the diagnosis is less than certain, US or MR imaging can be used to increase diagnostic confidence, compared with clinical criteria alone\nB.\nmetatarsophalangeal joints MTP are among the most common and earliest eroded joints\nplantar aspect of the fifth MTP joint can be considered a good starting point for evaluation\nC.\nFor the diagnosis of synovitis, US and contrast material–enhanced MR imaging\nhave shown comparable high sensitivity values in most studies\nE.\nuniform synovial thickening, large size of bone erosion with rim enhancement, and extra-articular cystic masses favoring a diagnosis of tuberculous arthritis",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "rheumatoid-arthritis-imaging"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳宏達主任",
@@ -14726,7 +14744,9 @@
       "reference": "Reference: 1. Wei JCC et al. Int J Rheum Dis. 2020 Jan;23(1):24-36 2. Rudwaleit M et al. Arthritis Rheum. 2006 ;54(2):569-78. doi: 10.1002/art.21619. 3. Rudwaleit M et al. Ann Rheum Dis. 2009 ;68(6):777-83.；10.1002/art.21619.；2021 交換考官方詳解 PDF p382",
       "explanation": "【2021 官方詳解】\nC. Ferguson view",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "sacroiliitis-spondyloarthropathy"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總吳宏達主任",
@@ -14803,7 +14823,9 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2021; 41:156–174；2021 交換考官方詳解 PDF p384",
       "explanation": "【2021 官方詳解】\nC. high signal intensity at T2-weighted MRI (edema)\n\n⚠️ 本題含影像（官方詳解 PDF 第 384 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "skull-base-osteomyelitis"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總游鎧蔚醫師",

@@ -55,6 +55,7 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: **Tier 1** Vattoth S, Harnsberger HR. *Retropharyngeal Space*（Head and Neck, Anatomy）. STATdx，last updated 2023-12-20. Elsevier（實際查證 accessed 2026-07-03）：RPS＝咽後中線腔（顱底→縱膈）、alar fascia 分 true RPS 與 danger space；內容物 SHN 脂肪＋RPSLN（nodes of Rouvière 外側顱底/C1-C2、內側 C2-C3、<6–8 mm 正常）、**IHN 僅脂肪無淋巴結、無唾液腺**；**RPS 水腫病因＝內頸靜脈栓塞、SVC 症候群、化/放療、咽炎/鼻竇炎/牙源感染、血管性水腫、longus colli 肌腱炎**；非膿瘍積液＝壁不強化＋佔位輕；RPS 病灶壓平椎前肌（perivertebral 抬高）；CECT 感染首選、MR 腫瘤敏感；RPSLN 引流鼻咽/後咽 SCC；retropharyngeal fat stripe 對椎前侵犯有 NPV。
 [^2]: 官方 2020 詳解（題目所引）；原引 AJR 2011;196:W426-432（含 Table I: Four-Step Interpretive Approach to Retropharyngeal Space Collection）——比較 edema／suppurative node／abscess 於 fluid distribution、configuration/mass effect、enhancing wall、ancillary findings 之鑑別，及 edema 可因鄰近發炎、內頸靜脈栓塞、放療引起，已由 [^1] STATdx 一手來源查核並補強解剖與定位鑑別。
+[^3]: **Radiopaedia** — Jones J, Elfeky M, Escobar-Poni B, et al. *Retropharyngeal space*. Reference article, Radiopaedia.org（rID 10468，DOI 10.53347/rID-10468，實際查證 accessed 2026-07-11）：RPS 前界＝**深頸筋膜中層（buccopharyngeal fascia）**、後界＝alar fascia（與 danger space 分隔）、側界＝深頸筋膜深層、上界＝clivus、**下界＝alar fascia 與深頸筋膜中層之融合點**；內容物為 areolar fat、咽後淋巴結、小血管（舌骨下無淋巴結）。C6–T4 之融合層次為標準深頸筋膜解剖（Grodinsky–Holyoke），並與 [^1] STATdx／[^2] AJR Tier-1 交叉一致。
 
 ## 題目
 > [!question]- Which one is not normal content of retropharyngeal space? (2020-324)
@@ -62,6 +63,9 @@ dateRev: 2026-07-10
 
 > [!question]- Which is associated with retropharyngeal edema? (2020-325)
 > **以上皆是（All of the above，D）**——鈣化性肌腱炎、內頸靜脈栓塞、放射治療皆可造成咽後間隙水腫。[^1][^2]
+
+> [!question]- Which of the following statements is WRONG? (deep cervical fascia / retropharyngeal space) (2021-102)
+> **D（None of above）**——A、B、C 皆為正確：A buccopharyngeal 中層舌骨上覆蓋咽縮肌、頸動脈鞘貢獻不定；B RPS 由顱底延伸至胸頸交界、alar fascia 於 C6–T4 間附著於 buccopharyngeal fascia；C masticator space 感染可經 foramen ovale 沿 V3 顱內擴散。[^1][^2][^3] ⚠️ 官方詳解註記本題疑與 2021-008 為同一題（相似度 0.988）且含影像（PDF p.33），請對照原檔。
 
 ## 考題
 ```dataview
