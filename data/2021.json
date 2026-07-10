@@ -3472,7 +3472,9 @@
       "images": [
         "2021-089-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pediatric-liver-tumors"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "楊良友",
@@ -3510,7 +3512,9 @@
       "images": [
         "2021-089-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "pediatric-liver-tumors"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "楊良友",
@@ -5514,7 +5518,9 @@
       "reference": "Megnetic resonance Imaging orthopaedics and sport medicine 3rd edition volum 2 page 1822；2021 交換考官方詳解 PDF p95",
       "explanation": "【2021 官方詳解】\nHemosiderin appears as low signal and may demonstrate blooming on T2* GRE sequences.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor-tendon-sheath"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "洪猷崇",
@@ -7765,7 +7771,9 @@
       "reference": "Plastic Surgery: Volume 6: Hand and Upper Extremity. 4th Edition © 2018, Elsevier Inc. p. 71-95；2021 交換考官方詳解 PDF p157",
       "explanation": "【2021 官方詳解】\nGiant cell tumor of the tendon sheath is most commonly found in the distal interphalangeal (DIP) joint and the proximal phalanx",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "giant-cell-tumor-tendon-sheath"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "謝賜吉",
@@ -8428,7 +8436,9 @@
       "reference": "低劑量胸部電腦斷層肺癌篩檢手冊醫療版；2021 交換考官方詳解 PDF p185",
       "explanation": "【2021 官方詳解】\n- 結節大小 ≤4 mm ：每年一次低劑量電腦斷層。\n- 結節大小 4-6mm：6 個月內安排低劑量電腦斷層。\n- 結節大小 6-8mm：3 個月內安排低劑量電腦斷層，若無變化 則 6 個月內安排低劑量電腦斷層，仍穩定則改一年。若於首次 追蹤（三個月）有變化則手術，於後續追蹤有變化則轉介給胸 腔專科醫師進行評估。\n- 結節大小 >8mm：安排正子電腦斷層掃瞄，\n  - 若評估為低風險，則 3 個月內安排低劑量電腦斷層\n    - 有變化則安排手術\n    - 若無變化則 6 個月內安排低劑量電腦斷層，仍穩定則改 一年。後續追蹤發現有變化，則轉介給胸腔專科醫師進行 評估。\n  - 若評估為高風險，則安排開刀或切片。\n- 支氣管內病灶：安排支氣管鏡檢查。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "簡單",
       "author": "柯維鈞",
@@ -8546,7 +8556,9 @@
       "reference": "ACR–STR PRACTICE PARAMETER FOR THE PERFORMANCE AND REPORTING OF LUNG CANCER SCREENING THORACIC COMPUTED TOMOGRAPHY (CT)；2021 交換考官方詳解 PDF p188",
       "explanation": "【2021 官方詳解】\nScreening thoracic CT is appropriate for asymptomatic individuals at high risk for lung cancer . An individual’s risk for lung cancer is primarily determined by:\n- Smoking history and age.\nAdditional risk factors include the following:\n- Emphysema and chronic obstructive pulmonary disease (COPD)\n- Interstitial lung disease, such as pulmonary fibrosis\n- Occupational and environmental exposures, such as asbestos, arsenic, beryllium, cadmium, chromium, coal smoke, diesel fumes, nickel, silica, and soot\n- High levels of radon(氡) exposure\n- History of cancer, including lung cancer, lymphoma, head and neck cancer, and smoking-related cancers\n- Family history of lung cancer\n- Extensive secondhand smoke exposure\n- Prior thoracic radiation therapy, as may occur for breast cancer and lymphoma",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃昱森",
@@ -8584,7 +8596,9 @@
       "images": [
         "2021-221-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃昱森",
@@ -8620,7 +8634,9 @@
       "reference": "Lung Cancer: Targets and Therapy 2019:10 107–124；2021 交換考官方詳解 PDF p190",
       "explanation": "【2021 官方詳解】\nGenetic factors also play an important role in lung cancer etiology of LCINS. There are differences in genetics and molecular changes between LCINS and lung cancer in smokers.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃昱森",
@@ -8656,7 +8672,9 @@
       "reference": "ACR–STR PRACTICE PARAMETER FOR THE PERFORMANCE AND REPORTING OF LUNG CANCER SCREENING THORACIC COMPUTED TOMOGRAPHY (CT)；2021 交換考官方詳解 PDF p191",
       "explanation": "【2021 官方詳解】\nKey Elements\n• One breath-hold (thoracic motion is problematic);\n• Thin image thicknesses (≤2.5 mm, ≤1.0 mm preferred); reconstruction of coronal and sagittal reformations as well as MIPS may be helpful and are encouraged.\n• CTDIvol < 3.0 mGy for a standard sized patient (see table), with adjustments made for smaller and larger patients.\n• This typically requires a 16 detector row (or greater) scanner to meet these requirements.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-screening-trials"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "黃昱森",
@@ -8849,7 +8867,9 @@
       "images": [
         "2021-228-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "張允中",
@@ -9801,7 +9821,9 @@
       "reference": "1 StatPearls, https://www.statpearls.com/home/index Quiz: Osteosarcoma (Id:356827) Question Author: Stephanie Prater; Article/Question Editor: Brett McKeon, Last Updated:11/16/2019 10:55:07 AM 2 Eftekhari F. (2009) Imaging Assessment of Osteosarcoma in Childhood and Adolescence: Diagnosis, Staging, and Evaluating Response to Chemotherapy. In: Jaffe N., Bruland O., Bielack S. (eds) Pediatric and Adolescent Osteosarcoma. Cancer Treatment and Research, vol 152. Springer, Boston, MA. https://doi.org/10.1007/978-1-4419-0284-9_3 3 Sun Y, Liu X, Pan S, Deng C, Li X, Guo Q. Analysis of imaging characteristics of primary malignant bone tumors in children. Oncol Lett. 2017 Nov;14(5):5801-5810. doi: 10.3892/ol.2017.6939. Epub 2017 Sep 14. PMID: 29113210; PMCID: PMC5661490.；10.1007/978-1-4419-0284-9_3；2021 交換考官方詳解 PDF p220",
       "explanation": "【2021 官方詳解】\nThe sunburst appearance occurs when the lesion grows too fast and the periosteum does not have enough time to lay down a new layer and instead the Sharpey's fibers stretch out perpendicular to the bone. It is frequently associated with osteosarcoma but also in: Ewing sarcoma and osteoblastic metastases.\nEwing sarcoma typically occurs in P’t 10-20 y/o male, image show wide zone of poorly defined margin and 80 % demonstrate extension into adjacent soft tissues. ====> 比較不像\nOsteaosarcoma tyically occurs in P’t 10-20 y/o male, image show osteoid matrix with neoplastic bone formation and permeative growth and non-expansile cortical destruction =>符合\nOsteosarcoma typically occur at the metadiaphysis of long bones in the appendicular skeleton: femur(40%) > tibia(16%) > humerus(15%) > ….",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "osteosarcoma"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "王彧宸",
@@ -9841,7 +9863,9 @@
       "reference": "1 StatPearls, https://www.statpearls.com/home/index Quiz: Osteosarcoma (Id:356827) Question Author: Stephanie Prater; Article/Question Editor: Brett McKeon, Last Updated:11/16/2019 10:55:07 AM 2 Lindsey BA, Markel JE, Kleinerman ES. Osteosarcoma Overview. Rheumatol Ther. 2017 Jun;4(1):25-43. doi: 10.1007/s40744-016-0050-2. Epub 2016 Dec 8. PMID: 27933467; PMCID: PMC5443719. 3 Sun Y, Liu X, Pan S, Deng C, Li X, Guo Q. Analysis of imaging characteristics of primary malignant bone tumors in children. Oncol Lett. 2017 Nov;14(5):5801-5810. doi: 10.3892/ol.2017.6939. Epub 2017 Sep 14.；10.2214/AJR.11.6927；2021 交換考官方詳解 PDF p221",
       "explanation": "【2021 官方詳解】\nMetastatic Extraskeletal Osteosarcoma metastatic spread is most commonly reported to the lung.\nRef: https://www.ajronline.org/doi/10.2214/AJR.11.6927",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "osteosarcoma"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "王彧宸",
@@ -13275,7 +13299,9 @@
       "images": [
         "2021-341-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "lung-cancer-tnm-staging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總李瑩琦醫師",
@@ -14324,7 +14350,9 @@
       "reference": "Radiology: Volume 285: Number 3—December 2017 Hepatic Imaging in Neonates and Young Infants: State of the Art；2021 交換考官方詳解 PDF p390",
       "explanation": "【2021 官方詳解】\nB.\nInfantile hepatic hemangiomas (IHHs) differ from congenital hepatic hemangiomas (CHHs)\nIHHs appear after birth, proliferate during the first few months of life, and are treated with propranolol\n- Gradually involute over the next few years\n- Unifocal (rare), multifocal (multiple lesions with intervening normal parenchyma), or diffuse (innumerable\nlesions that replace the parenchyma)\nCHHs tend to be fully formed at the time of birth and are not responsive to propranolol.\n- A solitary large mass\n- Three patterns of growth\nrapidly involuting, noninvoluting, and partially involuting",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pediatric-liver-tumors"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總余思賢醫師",
