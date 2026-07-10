@@ -22,6 +22,16 @@ dateRev: 2026-07-10
   - **1D**：**橈側撕脫（radial avulsion）**，可合併 sigmoid notch 骨折、lunotriquetral 韌帶穿孔。
 - **Class 2（退化性，尺腕衝擊 ulnar impaction）**：**2A** TFC 磨損／纖維化未穿孔 → **2B** ＋lunate 或尺骨頭軟骨流失 → **2C** ＋TFC 穿孔 → **2D** ＋lunotriquetral 韌帶撕裂 → **2E** ＋尺腕關節炎。[^1][^2]
 
+### TFCC 解剖組成（哪些屬於／不屬於 TFCC）
+- **TFCC 組成**（尺側腕關節，介於尺骨與 lunate／triquetrum、橈骨之間）：[^4]
+  - **關節盤本體（triangular fibrocartilage disc proper／triangular ligament）**
+  - **橈尺韌帶：volar（palmar）radioulnar ligament、dorsal radioulnar ligament**
+  - **尺腕韌帶：ulnotriquetral、ulnolunate、ulnocapitate ligaments**
+  - **ulnomeniscal homologue（meniscal homologue／半月板同源物）**
+  - **ulnar collateral ligament（腕尺側副韌帶）＋ ECU（extensor carpi ulnaris）腱鞘**
+- **不屬於 TFCC**：**scapholunate ligament 為腕內在韌帶（intrinsic carpal ligament）**，位於 scaphoid–lunate 之間、與 TFCC 有距離，並非 TFCC 組成；同理 lunotriquetral 韌帶雖鄰近，Palmer 系統將其列為退化型受累結構而非 disc 本體。[^4]
+- 判讀提醒：central/radial 部分無血供（撕裂癒合差）；TFCC 形態隨尺骨變異改變（負變異：較厚較短水平；正變異：較薄弧形）。TFCC 為 DRUJ 主要穩定結構，並傳遞約 20% 腕-尺軸向負荷。[^4]
+
 ## 放射科醫師影像判讀重點
 - **最佳工具＝MR arthrography**；部分／完全撕裂在 MR 可見卻可能於透視下注射（fluoroscopic injection）呈 occult，必要時需**追加 DRUJ 腔注射對比**方能顯示。[^2]
 - **撕裂位置與外觀**：**partial tear 多在尺側附著、最常為 proximal（DRUJ 側）、呈不規則毛糙（frayed）**；**complete tear 多沿 TFC 橈側緣**或尺側 detachment。[^2]
@@ -43,6 +53,7 @@ dateRev: 2026-07-10
 [^1]: **Tier 1** Manaster BJ, Davis KW. *Triangular Fibrocartilage Complex (TFCC) Injury Classification (Palmer)*. STATdx（Musculoskeletal, Tool），last updated 2024-07-23. Elsevier（實際查證 accessed 2026-07-03）：Class 1 創傷（1A 中央穿孔／1B 尺側撕脫±尺骨莖突基部骨折，可伴 DRUJ 不穩／1C 遠端 ulnolunate·ulnotriquetral 撕脫，可伴 carpal translocation／1D 橈側撕脫±lunotriquetral 穿孔）；Class 2 退化（尺腕衝擊）2A 磨損未穿孔→2B ＋軟骨流失→2C ＋穿孔→2D ＋LT 韌帶撕裂→2E ＋尺腕關節炎。
 [^2]: **Tier 1** Triangular Fibrocartilage Complex Injury. STATdx（Musculoskeletal, Dx），last updated 2026-04-02. Elsevier（實際查證 accessed 2026-07-03，19 references）：MR arthrography 為最佳工具（必要時追加 DRUJ 注射）；partial tear 多在尺側附著近端（DRUJ 側）不規則、complete tear 多沿橈側緣；正常 ligamentum subcruentum（styloid–fovea 間高訊號）勿誤為撕裂；退化型伴軟骨流失／軟骨下水腫囊腫／LT 韌帶斷裂／DRUJ 不穩；創傷 <40 歲、退化 >50 歲；治療保守 vs 修補／debridement／尺骨縮短；Palmer 分類暗示單獨病灶但實可合併。
 [^3]: 官方 2020 詳解（題目所引）；原引 High-Resolution 3T MR Imaging of the TFCC. Magn Reson Med Sci 2017;16:3-15——已由上述 [^1][^2] STATdx 一手來源查核取代並補強。
+[^4]: **Radiopaedia** Knipe H, et al. *Triangular fibrocartilage complex.* Radiopaedia.org rID 24686，DOI 10.53347/rID-24686（accessed 2026-07-10）：TFCC 組成＝triangular fibrocartilage disc proper（triangular ligament）、volar 與 dorsal radioulnar ligaments、ulnotriquetral／ulnolunate／ulnocapitate ligaments、ulnomeniscal homologue、ulnar collateral ligament＋ECU 腱鞘；central 與 radial 部無血供；為 DRUJ 主要穩定結構、傳遞約 20% 軸向負荷。scapholunate ligament 屬腕內在韌帶，非 TFCC 組成。
 
 ## 題目
 > [!question]- Which of the followings is Palmer type 1B injury of triangular fibrocartilage complex (TFCC)? (2020-295)
@@ -50,6 +61,9 @@ dateRev: 2026-07-10
 
 > [!question]- Post-traumatic ulnar avulsion tear (foveal and/or styloid fibers) of TFCC is classified as Palmer classification (2021-199)
 > **B（Type 1B）**——Palmer Class 1（創傷性）中，1B＝尺側撕脫（ulnar avulsion，可合併尺骨莖突基部骨折，涉 foveal／styloid 附著、常伴 DRUJ 不穩）。1A 為中央穿孔、1C 為遠端撕脫（ulnolunate／ulnotriquetral 韌帶）、1D 為橈側撕脫（±sigmoid notch 骨折）。
+
+> [!question]- 請問下列何者構造「不」屬於 triangular fibrocartilaginous complex (TFCC) 的一部分？(2021-118)
+> **E（Scapholunate ligament）不屬於 TFCC**——scapholunate ligament 為腕內在韌帶（intrinsic carpal ligament），位於 scaphoid–lunate 之間、與 TFCC 有距離。其餘皆為 TFCC 組成：A disc proper（關節盤本體）、B dorsal radioulnar ligament、C volar radioulnar ligament、D meniscal homologue（ulnomeniscal homologue）。[^4]
 
 ## 考題
 ```dataview

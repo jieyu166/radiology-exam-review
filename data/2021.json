@@ -2804,7 +2804,9 @@
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1421 (Table 2, Table 3)；2021 交換考官方詳解 PDF p401",
       "explanation": "SCI有 paper說可改善，但器官太大就會沒效。(Vet Radiol Ultrasound. 2010 Nov-Dec;51(6):621-7.)\n\n⚠️ 本題含影像（官方詳解 PDF 第 401 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "ultrasound-artifacts"
+      ],
       "checked": false,
       "sourcePage2021": 401,
       "imageOcr": [
@@ -4808,7 +4810,9 @@
         "2021-118-1.jpg",
         "2021-118-2.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "tfcc-palmer-classification"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "賴盈傑",
@@ -7147,7 +7151,9 @@
       "reference": "RadioGraphics Vol. 30, No. 2 Clinical and Radiologic Review of the Normal and Abnormal Thymus: Pearls and Pitfalls；2021 交換考官方詳解 PDF p132",
       "explanation": "【2021 官方詳解】\nThymic rebound hyperplasia\n- When the body is exposed to stress, the thymus may shrink to as little as 40% of its original volume. Once the body recovers, the thymus usually grows back to its original size within 9 months; it can grow to be as much as 50% larger.\n- Rebound hyperplasia is commonly seen in children but also occurs in adults\n- Thymic rebound hyperplasia typically shows diffuse enlargement, a fine mixture of fat and lymphoid tissue, a smooth contour, and normal vessels; in contrast, thymic neoplasia is usually associated with a nodular contour and frequently contains necrotic or calcified foci",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "thymic-hyperplasia"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "陳貞慧",
@@ -8114,7 +8120,9 @@
       "reference": "Musculoskeletal MRI. 3rd Edition. 2020 by Elsevier, Inc. Ch.9, P.186-190.；2021 交換考官方詳解 PDF p158",
       "explanation": "【2021 官方詳解】\nThe study should include oblique sagittal spin and gradient echo T2 WIs on each TMJ separately both in open and closed mouth positions\nDirect signs of disc displacement include abnormal orientation in open and closed mouth positions.\n- anterior disc displacement: is the commonest abnormality and includes anterior disc displacement in closed mouth that reduces in open mouth and a non reduced anterior displacement.\n- posterior disc displacement: occurs when the posterior band is displaced posteriorly and exceeds 1 o'clock position.\n- stuck disc: occurs when the disc fails to displace in open or closed mouth position and becomes fixed to the temporal bone due to adhesion.\nIndirect signs of internal derangement include large joint effusion, rupture of retrodiscal layers, thickening of lateral pterygoid muscle attachment and osteoarthritic changes.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tmj-internal-derangement"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "謝賜吉",
@@ -8233,7 +8241,9 @@
         "2021-204-1.gif",
         "2021-204-2.gif"
       ],
-      "concepts": [],
+      "concepts": [
+        "tibial-plateau-fracture-classification"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "周怡甄",
@@ -12140,7 +12150,9 @@
       "correctAnswer": "B",
       "reference": "8th edition radiology review manual. P.772；2021 交換考官方詳解 PDF p273",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。",
-      "concepts": [],
+      "concepts": [
+        "tia-stroke-risk-factors"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "林哲銘",
