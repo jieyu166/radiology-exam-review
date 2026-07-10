@@ -8,7 +8,7 @@ aliases:
   - Milan criteria
   - UCSF criteria
   - 肝癌影像診斷
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # hcc-imaging-diagnosis
@@ -121,6 +121,15 @@ dateRev: 2026-06-29
 
 > [!question]- For a recipient with hepatocellular carcinoma (HCC), which of the following conditions is considered an absolute contraindication for liver transplantation? (2022-437)
 > **extrahepatic metastases（C）**——肝外轉移為肝移植的絕對禁忌(Milan criteria 明訂 no extra-hepatic metastases)。HCC <5 cm 符合 Milan、區域淋巴結腫大多為反應性、急性(bland)門靜脈血栓非腫瘤瘤栓，皆非絕對禁忌。[^8][^9]
+
+> [!question]- LI-RADS v2018 不適用在下列何種病人? (2021-019)
+> **B（Chronic hepatitis C viral infection without cirrhosis）**——LI-RADS 僅適用於高危族群：肝硬化、慢性**B**肝、或現有／曾有 HCC 者（含成人肝移植候選與術後）。單純慢性 C 肝而無肝硬化不在適用範圍。A 肝硬化、C 現有/曾有 HCC、D 肝移植後合併慢性 B 肝皆屬適用族群。[^3]
+
+> [!question]- 有關 LI-RADS，以下敘述何者有誤? (2021-020)
+> **C（典型 HCC features 包括 rim arterial phase hyperenhancement）為誤**——HCC 動脈期高強化須為 **non-rim**；rim 狀 APHE 偏非 HCC 惡性（LR-M）。B non-rim APHE、D non-peripheral washout、E capsule 皆為 HCC 主要特徵，正確。[^3]
+
+> [!question]- 有關 LI-RADS，以下敘述何者有誤? (2021-021)
+> **E（threshold growth 指 ≥50% 於 ≤12 個月）為誤**——threshold growth 為 ≤**6** 個月內直徑增 ≥50%（或前次影像 >6 個月時須增 ≥100%；或 24 個月內新現 ≥10 mm 病灶）。A 適用族群、B LR-5 不需切片、C 須 non-rim APHE、D capsule／washout／threshold growth 三主要徵象皆正確。[^3]
 
 ## 考題
 ```dataview

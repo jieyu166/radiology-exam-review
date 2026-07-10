@@ -8,7 +8,7 @@ aliases:
   - recurrent laryngeal nerve mediastinum
   - intercostal nerve mediastinum
   - 後縱膈神經
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # posterior-mediastinum-nerves
@@ -36,6 +36,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- Which one is relative rarely affected by posterior mediastinum tumor? (2018-322)
 > **Phrenic nerve（A）**——走行於前縱膈，非後縱膈路徑。[^1]
+
+> [!question]- Which level does the left recurrent laryngeal nerve exit from the vagus nerve? (2021-049)
+> **D（Aortic arch）**——左迷走神經行經主動脈弓前外側時分出左喉返神經，繞主動脈弓下（後於 ligamentum arteriosum、經 aorticopulmonary window）再上行於左氣管食道溝入喉。故分支高度在主動脈弓；skull base、carotid bulb、thyroid cartilage 皆非左 RLN 自迷走神經分出之處（右側 RLN 才在較高處繞右鎖骨下動脈）。
 
 ## 考題
 ```dataview

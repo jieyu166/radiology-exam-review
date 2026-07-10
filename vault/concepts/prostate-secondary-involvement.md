@@ -8,7 +8,7 @@ aliases:
   - prostate cystadenoma
   - bladder cancer involving prostate
   - 攝護腺次發性腫瘤
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # prostate-secondary-involvement
@@ -50,6 +50,9 @@ dateRev: 2026-07-03
 
 > [!question]- 以下關於攝護腺腫瘤的敘述，何者錯誤？ (2020-402)
 > **肉瘤頻譜造影呈降低之 choline-to-citrate ratio（B）為錯誤**——應為明顯升高，有助與良性 BPH 結節鑑別。[^1]
+
+> [!question]- 以下關於攝護腺腫瘤的敘述，何者錯誤？ (2021-124)
+> **B（攝護腺肉瘤 MRS 呈明顯「降低」之 choline-to-citrate ratio）**——錯，應為明顯「升高」：腫瘤 choline 上升、而正常與 BPH 上皮才是產 citrate 細胞，故肉瘤 choline-to-citrate ratio 明顯升高，可與異常大的 BPH 結節鑑別。A（cystadenoma 多房 T2 高訊號囊＋周邊等訊號軟組織）、C（肉瘤界清、T1 均質低、T2 異質、明顯強化）、D（paraganglioma 輕度 T2 高訊號分葉狀、明顯強化）皆正確。
 
 ## 考題
 ```dataview

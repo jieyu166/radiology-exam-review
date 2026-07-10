@@ -7,7 +7,7 @@ aliases:
   - Mikulicz disease
   - autoimmune pancreatitis
   - 免疫球蛋白G4相關疾病
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # igg4-related-disease
@@ -87,6 +87,9 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- What is the “possible” 2020 revised comprehensive diagnostic (RCD) criteria for IgG4-RD? (2022-241)
 > ⚠️ **B**——對應血清學條件 serum IgG4 >135 mg/dl；RCD 三分項為臨床/影像＋血清學＋組織學，答案依原卷保留待對照原文。[^1]
+
+> [!question]- 關於 mass-forming pancreatitis 與 pancreatic ductal adenocarcinoma 影像，何者錯誤? (2021-096)
+> **D（胰管平滑穿過腫塊、無突然阻斷強烈支持 PDAC）為誤**——胰管平滑穿越腫塊而無突然截斷即 **duct-penetrating sign**，反而支持發炎性腫塊（mass-forming／自體免疫胰臟炎）；PDAC 典型為胰管突然截斷＋上游擴張。A double duct sign 偏惡性、B 鈣化周邊移位提示新生惡性、C 軟組織包覆血管示 PDAC 腺外侵犯皆正確。[^5]
 
 ## 考題
 ```dataview

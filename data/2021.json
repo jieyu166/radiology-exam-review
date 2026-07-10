@@ -676,7 +676,9 @@
       "images": [
         "2021-018-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hemochromatosis-mri"
+      ],
       "checked": false,
       "sourcePage2021": 272
     },
@@ -712,7 +714,9 @@
       "reference": "LIRADS v2018；2021 交換考官方詳解 PDF p143",
       "explanation": "台大HCV也可以，其他醫院/原版不行\n\n【2021 官方詳解】\n- Apply in patients at high risk for HCC, namely those with:\n  - Cirrhosis OR\n  - Chronic hepatitis B viral infection OR\n  - Current or prior HCC\n  - Including adult liver transplant candidates and recipients posttransplant\n- Do not apply in patients:\n  - Without the above risk factors\n  - < 18 years old\n  - With cirrhosis due to congenital hepatic fibrosis\n  - With cirrhosis due to a vascular disorder such as hereditary hemorrhagic telangiectasia, Budd-Chiari syndrome, chronic portal vein occlusion, cardiac congestion, or diffuse nodular regenerative hyperplasia",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
       "checked": false,
       "sourcePage2021": 143
     },
@@ -755,7 +759,9 @@
         "2021-020-1.png",
         "2021-020-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
       "checked": false,
       "sourcePage2021": 317
     },
@@ -797,7 +803,9 @@
       "images": [
         "2021-021-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "hcc-imaging-diagnosis"
+      ],
       "checked": false,
       "sourcePage2021": 319
     },
@@ -1814,7 +1822,9 @@
         "2021-048-1.png",
         "2021-048-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "cns-germinoma"
+      ],
       "checked": false,
       "sourcePage2021": 256
     },
@@ -1853,7 +1863,9 @@
       "images": [
         "2021-049-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "posterior-mediastinum-nerves"
+      ],
       "checked": false,
       "sourcePage2021": 288
     },
@@ -1893,7 +1905,9 @@
       "reference": "Diagnostic Imaging Ultrasound, 1st edition, Section 11, P76-79；2021 交換考官方詳解 PDF p404",
       "explanation": "最常見是 Pleomorphic adenomas of the salivary glands (mixed tumor)\n\n【2021 官方詳解】\nA. Pleomorphic adenomas of the salivary glands (mixed tumor) , 1st common",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "salivary-gland-ultrasound"
+      ],
       "checked": false,
       "sourcePage2021": 404
     },
@@ -1933,7 +1947,9 @@
       "reference": "Diagnostic Imaging Ultrasound, 1st edition, Section 11, P58-61; P72-75；2021 交換考官方詳解 PDF p405",
       "explanation": "【2021 官方詳解】\nD.\nparotid gland: 84%\ncommoner in the superficial lobe\nsubmandibular gland: 8%\nminor salivary glands: 6.5%",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "salivary-gland-ultrasound"
+      ],
       "checked": false,
       "sourcePage2021": 405
     },
@@ -1972,7 +1988,9 @@
         "2021-052-1.png",
         "2021-052-2.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "moyamoya"
+      ],
       "checked": false,
       "sourcePage2021": 396
     },
@@ -2011,7 +2029,9 @@
       "images": [
         "2021-053-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "mr-spectroscopy-brain"
+      ],
       "checked": false,
       "sourcePage2021": 302
     },
@@ -2120,7 +2140,10 @@
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p173",
       "explanation": "新分類GBM都是IDH-widetype。不會再有IDH-mutant GBM。A對B錯。\n\n【2021 官方詳解】\n- glioblastoma will be reserved for IDH-wildtype tumors and remain grade 4\n- astrocytoma will be definitionally IDH-mutant and graded based on histological and molecular phenotype to grades 2 through 4\n- anaplastic astrocytoma and anaplastic oligodendroglioma will no longer be recognized as distinct diagnoses but merely grade 3 or grade 4 astrocytomas or grade 3 oligodendroglioma respectively depending on molecular characteristics",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "gbm",
+        "who-cns-tumor-grading"
+      ],
       "checked": false,
       "sourcePage2021": 173
     },
@@ -3584,7 +3607,9 @@
       "images": [
         "2021-094-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "li-rads-ancillary-benignity"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "陳嘉邦",
@@ -3622,7 +3647,9 @@
       "images": [
         "2021-094-1.jpg"
       ],
-      "concepts": [],
+      "concepts": [
+        "li-rads-ancillary-benignity"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "陳嘉邦",
@@ -3660,7 +3687,10 @@
       "images": [
         "2021-096-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "igg4-related-disease",
+        "autoimmune-pancreatitis"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "",
@@ -3696,7 +3726,9 @@
       "reference": "Radiopedia；2021 交換考官方詳解 PDF p26",
       "explanation": "【2021 官方詳解】\nHereditary renal cancer syndromes\n- von Hippel Lindau syndrome: predominantly clear cell type\n- tuberous sclerosis: predominantly clear cell type (also associated with angiomyolipoma)\n- Birt-Hogg-Dubé syndrome: predominantly chromophobe type, oncocytoma, or a hybrid of both\n- sickle cell trait or hemoglobin SC disease: renal medullary carcinoma\n- hereditary renal oncocytoma: oncocytoma\nPathology\n- clear cell renal carcinoma (conventional): 70-80%\n- papillary renal cell carcinoma: 13-20%\n  - can be multifocal and bilateral\n  - most common form in dialysis-associated RCC\n- chromophobe renal cell carcinoma: 5%\n  - similar histologically to renal oncocytomas 4\n  - best prognosis 5\n- collecting duct renal cell carcinoma (Bellini duct): <1%\n  - worst prognosis 5\n- renal medullary carcinoma: rare, highly aggressive.\nMRI\n- T2: appearances depend on histology 6\n  - clear cell RCC: T2 hyperintense\n  - papillary RCC: T2 hypointense\n- T1 C+ (Gd): often shows prompt arterial enhancement\nClear cell RCC: Pancreatic and renal metastases\nPapillary RCC: Lymphangitic spread and peritoneal carcinomatosis\nSarcomatoid transformation in ccRCC: Increased the risk of lymphangitic spread, pleural and peritoneal metastases\n10.1148/radiol.2017160343",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "",
@@ -3732,7 +3764,9 @@
       "reference": "Radiopedia；10.1186/s12882-021-02253-w；2021 交換考官方詳解 PDF p28",
       "explanation": "【2021 官方詳解】\n- Absence of ossification/calcification on imaging is in favor of AML.\n  - Calcifications suggest liposarcoma\n  - Angiomyolipomas are seen in 55-75% of patients with tuberous sclerosis\n  - Symptomatic presentation is most frequently with spontaneous retroperitoneal hemorrhage; the risk of bleeding is proportional to the size of the lesion (>4 cm diameter)\nDigital subtraction angiography (DSA)\nAngiomyolipomas are hypervascular lesions ...\nTuberous Sclerosis Complex (TSC) is a genetic disorder, with renal manifestations like angiomyolipoma (AML) occurring in 70–80% of patients\n10.1186/s12882-021-02253-w",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-angiomyolipoma"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "",
@@ -3770,7 +3804,9 @@
       "images": [
         "2021-099-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "prostate-mri"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "",
@@ -4628,7 +4664,9 @@
       "images": [
         "2021-122-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "endometrial-cancer-mri"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃彥綾",
@@ -4664,7 +4702,9 @@
       "reference": "Differentiation of Solid Renal Tumors with Multiparametric MR Imaging. RadioGraphics 2017; 37:2026–2042；2021 交換考官方詳解 PDF p66",
       "explanation": "【2021 官方詳解】\nC. Chromophobe RCCs may show a central stellate scar (30%–40% of cases) and spoke-wheel enhancement, but these are not specific features, as oncocytomas may have similar characteristics",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-oncocytoma"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "張鈞弼",
@@ -4700,7 +4740,9 @@
       "reference": "Beyond Prostate Adenocarcinoma: Expanding the Differential Diagnosis in Prostate Pathologic Conditions. RadioGraphics 2016; 36:1055–1075；2021 交換考官方詳解 PDF p67",
       "explanation": "【2021 官方詳解】\nB. Prostate sarcoma’s MRS demonstrate markedly elevated choline-to-citrate ratio, a finding that helps to differentiate sarcoma from benign mimics, such as unusually large BPH nodules.\nCholine 在tumor 會高.\nNormal and BPH epithelial cells are citrate-producing cells.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "prostate-secondary-involvement"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "張鈞弼",
@@ -4858,7 +4900,9 @@
       "reference": "Reference 1. Acute pancreatitis. The Lancet 396; 726-734; Nov. 2020 2. Radiographics 2016: 36: 675-687 3. American College of Gastroenterology guideline: management of aucte pancreaitis 2020；2021 交換考官方詳解 PDF p71",
       "explanation": "【2021 官方詳解】\nB. As the diagnosis of acute pancreatitis is most often established by clinical symptoms and laboratory testing, contrast-enhanced computed tomography (CECT) and/or magnetic resonance imaging (MRI) of the pancreas should be reserved for patients in whom the diagnosis is unclear or who fail to improve clinically.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "pancreatitis-severity"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "曾振輝",
@@ -5678,7 +5722,9 @@
       "reference": "Aunt Minnie’s Atlas Imaging-Specific Diagnosis (page 375)；2021 交換考官方詳解 PDF p104",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "urethral-injury-imaging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林彥懷",
@@ -5714,7 +5760,9 @@
       "reference": "Radiology Review Manual 5th edition (page 953)；2021 交換考官方詳解 PDF p105",
       "explanation": "【2021 官方詳解】\nAcute renal infarction\nCT:\nWedge-shaped area of absent enhancement\nEdematous enlargement of kidney (with large infarction)\nCortical rum sign within several days after global infarction\nUS:\nNormal echogenicity (Echoes appear within 7 days)\nDisminished echogenicity (within 24hr)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-infarction"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林彥懷",
@@ -5752,7 +5800,9 @@
       "images": [
         "2021-152-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "urethral-anomalies-congenital"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "林彥懷",
@@ -6082,7 +6132,9 @@
       "reference": "J Vasc Interv Radiol 2001; 12:957-963；2021 交換考官方詳解 PDF p116",
       "explanation": "【2021 官方詳解】\nRight gastric artery variant:\n- proximal branches of hepatic trunk (80%)\n  - common hepatic artery (9-20%)\n  - proper hepatic artery (43-53%) (most common)\n  - gastroduodenal artery (3-26%)\n- distal branches (20%)\n  - left hepatic artery (15-41%)\n  - right hepatic artery (2-4%)",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "right-gastric-artery-origin"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "曾修山",
@@ -6118,7 +6170,9 @@
       "reference": "https://radiologyassistant.nl/abdomen/liver/common-liver-tumors；2021 交換考官方詳解 PDF p117",
       "explanation": "【2021 官方詳解】\nComplications\n- spontaneous rupture\n- rare: hepatic adenomas can degenerate into hepatocellular carcinomas (HCC), particularly in men\n- In general, and if feasible, adenomas are resected, both to eliminate the risk of spontaneous rupture and to conclusively confirm the diagnosis.\n- In cases where the lesion is small, not subcapsular, and has a typical appearance, some would choose to observe (with imaging and alpha-fetoprotein levels) and cease oral contraceptives. In such instances, the adenoma may regress. In inoperable cases, hepatic arterial embolization may have a role 7.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "hepatocellular-adenoma"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "曾修山",
@@ -6154,7 +6208,9 @@
       "reference": "RadioGraphics 2004; 24: 565-587；2021 交換考官方詳解 PDF p118",
       "explanation": "【2021 官方詳解】\nMeckel’s diverticulum\nfibrous degeneration of the umbilical end of the omphalomesenteric (vitelline) duct\n** allantois(尿囊) 🡪 Urachus\nthe most common structural congenital anomaly of the gastrointestinal tract\nComplication:\n- GI hemorrhage (most common)\n- Small bowel obstruction (2nd most common)\n- Meckel diverticulitis\ncomplications are more common in men than in women, with a ratio of aproximately 2:1",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "meckel-diverticulum"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "曾修山",
@@ -7088,7 +7144,9 @@
       "reference": "Abbott RM, Levy AD, Aguilera NS, Gorospe L, Thompson WM. From the archives of the AFIP: primary vascular neoplasms of the spleen: radiologic-pathologic correlation. Radiographics. 2004 Jul-Aug;24(4):1137-63. doi: 10.1148/rg.244045006. PMID: 15256634.；10.1148/rg.244045006.；2021 交換考官方詳解 PDF p144",
       "explanation": "【2021 官方詳解】\n- T1: iso to hypo-intense to normal splenic parenchyma\n- T2: hyperintense to splenic parenchyma\n- T1 C+(Gd)\n  - most demonstrate early nodular centripetal enhancement and uniform enhancement at delayed imaging\n  - smaller lesions may, however, show homogeneous enhancement on immediate post-contrast acquisitions remaining enhanced on delayed images",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "splenic-tumors"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉綺霞",
@@ -7208,7 +7266,9 @@
       "reference": "Uptodate: Radiofrequency ablation and cryoablation for renal cell carcinoma. Apr 23, 2020. updated；2021 交換考官方詳解 PDF p147",
       "explanation": "【2021 官方詳解】\nContraindications — Relative contraindications to RFA or cryoablation include:\n- A life expectancy less than one year.\n- The presence of distant metastases.\n- Tumors >5 cm or tumors in the hilum or central collecting system are generally not candidates for ablation.\n- For tumors in which treatment may cause thermal injury to the proximal ureter (resulting in urine extravasation and urinoma), an intraureteral stent is usually inserted prior to treatment.\nCryoablation\nDuring cryoablation, the ice ball can be visualized in real time with either CT or MRI, which allows the extent of cell death to be more reliably predicted. Complete cell death is thought to occur 3 mm inside the edge of the ice ball; thus, most operators extend the ice ball at least 5 mm beyond the tumor margin to ensure complete tumor coverage.\nComparison\nLocal tumor progression after a single treatment session was more frequent after RFA (12.9 versus 5.2 percent with cryoablation), and repeat ablation therapy was required more often following initial treatment with RFA (8.5 versus 1.3 percent). These differences were statistically significant.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "tumor-ablation"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "吳仁宏",
@@ -7248,7 +7308,9 @@
       "reference": "RadioGraphics 2017;37:2026–2042；2021 交換考官方詳解 PDF p148",
       "explanation": "【2021 官方詳解】\nClear cell RCC\n- T1: heterogeneous appearance\n- T2: hyperintense\n- IP/OP: frequently containing microscopic fat resulting in focal or diffuse non-curvilinear signal loss in opposed phase (in 60% 7)\nPapillary renal cell carcinoma\n- T1: hypointense\n- T2: hypointense\n- T1 C+ (Gd): contrast enhancement tends to be less intense than in the more common clear cell RCC\n- DWI: restricted diffusion may be useful for differentiating from a hemorrhagic cyst\nChromophobe renal cell carcinoma\n- They have a similar origin to oncocytomas\n- isointense to kidney / maybe T2 hypointense\n- relatively homogeneous contrast enhancement\n- necrosis not common\nRenal angiomyolipoma\n- Macroscopic fat: loss of signal following fat saturation, India ink artifact at the interface between fat and non-fat components",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-cell-carcinoma"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "黃建銓",

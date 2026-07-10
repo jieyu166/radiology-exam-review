@@ -7,7 +7,7 @@ aliases:
   - Sjogren syndrome
   - pleomorphic adenoma
   - 唾液腺超音波
-dateRev: 2026-07-03
+dateRev: 2026-07-10
 ---
 
 # salivary-gland-ultrasound
@@ -47,6 +47,12 @@ dateRev: 2026-07-03
 ## 題目
 > [!question]- 關於唾液腺超音波，以下何者「錯誤」? (2017-217)
 > 「**Sjögren syndrome 可見腮腺不均質但不會影響 submandibular gland**」錯誤——Sjögren **下頜下腺亦會受累**。benign lymphoepithelial lesion 可囊/混合/實質、mixed tumor 均質低回音 + 後方增強、腮腺囊性想 1st branchial cleft cyst 皆正確。[^1][^2]
+
+> [!question]- Warthin tumor of salivary gland is associated with all of the following choices EXCEPT? (2021-050)
+> **A（最常見的主要唾液腺良性腫瘤）**——錯。最常見的良性唾液腺腫瘤是 pleomorphic adenoma（mixed tumor），非 Warthin。其餘皆對：Warthin 與吸菸相關、US 常為卵圓形界清低回音且含多個無回音區、可呈單純囊腫樣需與其他囊性腫瘤鑑別、約 10–60% 雙側或多發。
+
+> [!question]- Mixed tumor of salivary gland is associated with all of the following choices EXCEPT? (2021-051)
+> **D（最常發生於下頜下腺）**——錯。Pleomorphic adenoma（mixed tumor）絕大多數發生於腮腺（~84%，多在淺葉），下頜下腺僅約 8%、小唾液腺約 6.5%。其餘皆對：為最常見良性主要唾液腺腫瘤、又名 pleomorphic adenoma、多為單發單側、US 呈低回音界清分葉、後方聲增強、可含鈣化。
 
 ## 考題
 ```dataview

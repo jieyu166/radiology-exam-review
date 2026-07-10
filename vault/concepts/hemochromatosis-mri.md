@@ -7,7 +7,7 @@ aliases:
   - secondary hemochromatosis
   - iron overload liver spleen
   - 血鐵沉積症
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # hemochromatosis-mri
@@ -42,6 +42,9 @@ dateRev: 2026-07-01
 
 > [!question]- What's the WRONG description about the iron overload disease? (2018-019)
 > **Hemosiderosis is secondary to repeated transfusion with iron deposition in reticuloendothelial system only（D）**——續發性(hemosiderosis)雖**以**RES為主但**不限於(not only)**RES,嚴重時亦溢入實質組織。A(原發性為體染色體隱性、小腸過度吸收鐵)、B(hemochromatosis鐵沉積於非RES實質細胞)、C(鐵沉積典型MR表現為in-phase序列訊號下降)皆為正確描述。[^3]
+
+> [!question]- 請問 hemochromatosis 主要影響那些器官? (2021-018)
+> **A（heart）**——原發性血鐵沉積症鐵沉積於實質細胞，除肝、胰外亦累及**心臟**、腦下垂體、甲狀腺；bone、lung、genitalia 非其典型受累器官，故選 heart。[^2]
 
 ## 考題
 ```dataview

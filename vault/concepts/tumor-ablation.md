@@ -7,7 +7,7 @@ aliases:
   - cryoablation
   - heat sink
   - 經皮腫瘤消融
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # tumor-ablation
@@ -72,6 +72,9 @@ dateRev: 2026-07-01
 ## 題目
 > [!question]- Which of the following description about cryoablation is NOT true? (2018-326)
 > **The bleeding risk of cryoablation for patients with liver cirrhosis and hepatocellular carcinoma obviously equals to that of heat ablation（C）**——實際上cryoablation出血風險高於heat ablation。[^6]
+
+> [!question]- 關於 Renal cell carcinoma 的 Thermal ablation 治療，下列何者敘述錯誤? (2021-191)
+> **E（Cryoablation 治療中所形成的冰球範圍等同於腫瘤壞死範圍）為錯**——完全細胞死亡發生在冰球邊緣『內側』約 3 mm 處，故須讓冰球延伸超出腫瘤邊緣至少 5 mm 以確保完整涵蓋；冰球外緣≠壞死邊界。(A) 術前置 ureteral stent 可減少 urine extravasation／urinoma、(B) RFA 較 cryoablation 更常需重複消融（局部腫瘤進展率較高）、(C) cryoablation 患者舒適度較佳、(D) >5 cm 或中央型（hilum／collecting system）RCC 一般不適合消融，皆為正確。
 
 ## 考題
 ```dataview

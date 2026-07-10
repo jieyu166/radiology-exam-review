@@ -6,7 +6,7 @@ aliases:
   - moyamoya disease
   - Suzuki staging
   - 煙霧病
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # moyamoya
@@ -70,6 +70,9 @@ dateRev: 2026-06-29
 
 > [!question]- Which of the following statement about Moyamoya disease is wrong? (2022-250)
 > ⚠️ 錯在「FLAIR dark sulci(ivy sign)」——ivy sign 實為 FLAIR 軟腦膜「高訊號」（緩慢逆行血流），非 dark；puff of smoke、supraclinoid ICA 狹窄、T2 flow void 皆正確。[^2]
+
+> [!question]- Regarding moyamoya syndrome, which of the following causes is not an established etiology? (2021-052)
+> **C（Kasabach-Merritt syndrome）**——非確立病因。Kasabach-Merritt 是快速增長血管腫瘤造成的血小板減少-消耗性凝血症候群，與 moyamoya 型血管病變無關。NF1（phakomatoses）、Down syndrome 皆為公認的 moyamoya syndrome 相關病因，細菌性腦膜炎後續發 moyamoya 亦有病例報告支持。
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - splenic neoplasms
   - splenic lymphoma
   - 脾臟腫瘤
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # splenic-tumors
@@ -67,6 +67,10 @@ dateRev: 2026-07-01
 [^4]: *Multimodality Imaging Features of Various Splenic Lesions: Clinical and Histopathologic Correlation*. PMC11625836（各病灶 CT/MRI 強化型態、數目、訊號、鈣化與 DDx 線索；PMC 開放全文，免費，accessed 2026-06-28）。
 [^5]: 脾囊性病灶：epidermoid(true) cyst 薄壁無強化、壁鈣化少、好發年輕女性；pseudocyst 無上皮襯裡、約 50% 壁鈣化、厚壁含碎屑、外傷/梗塞史。綜整自 *Epidermoid cyst of the spleen*（PMC3670013，免費全文）與 *Calcified Splenic Lesions*（AJR 2020，AJR online PDF，須訂閱/機構登入，僅引摘要層級）；accessed 2026-06-28。
 [^6]: 同 [^3]（RadioGraphics 2022 rg.210071，全文已讀）：**Echinococcal cyst**——脾侵犯占 hydatid disease 0.9–8%，多續發於肝囊腫破裂之全身/腹腔散播；daughter cyst「一串葡萄」外觀、hydatid sand 不強化碎屑；WHO 分型 1–4、破裂率 50–90%。**Inflammatory pseudotumor**——罕見、與 EBV 密切相關（IPT-like FDC tumor 為最常見亞型）、好發中老年、可伴血液學/發炎指數異常。
+
+## 題目
+> [!question]- Regarding splenic hemangioma: Which one is not the common imaging features on MRI? (2021-188)
+> **A（Hyperintense on T1-weighted images）**——脾血管瘤 T1 多為等至低訊號（iso-to-hypo），並非高訊號，故非常見特徵。其餘皆典型：(B) T2 高訊號、(C) 結節狀向心（centripetal）強化、(D) 延遲期呈均勻強化、(E) 較小病灶可呈均質強化。
 
 ## 考題
 ```dataview

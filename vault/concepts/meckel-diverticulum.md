@@ -7,7 +7,7 @@ aliases:
   - omphalomesenteric duct remnant
   - Meckel scan
   - 麥克爾憩室
-dateRev: 2026-06-30
+dateRev: 2026-07-10
 ---
 
 # meckel-diverticulum
@@ -50,6 +50,9 @@ dateRev: 2026-06-30
 ## 題目
 > [!question]- Concerning Meckel's diverticula, which one of the following is true? (2018-413)
 > **Diverticulitis is a known complication（B）**。usually asymptomatic in first years of life敘述不精確(A)、為真性diverticulum非false(C)、Tc99m scintigraphy敏感度兒童85%/成人54%非20-30%(D)。[^2]
+
+> [!question]- 有關 Meckel's diverticulum 下列何者為非? (2021-163)
+> **B（It resulted from improper absorption of allantois）為非**——Meckel 憩室源自卵黃管（omphalomesenteric／vitelline duct）近端殘留，與 allantois（尿囊，退化為 urachus 臍尿管）無關。(A) 為最常見腸胃道結構性先天異常、(C) 症狀性者男多於女（約 2:1）、(D) 消化道出血為最常見併發症，皆為正確。
 
 ## 題目
 > [!question]- About the Meckel's Diverticulum, which of the following description is correct? (2017-262)

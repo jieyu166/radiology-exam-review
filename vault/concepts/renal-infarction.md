@@ -6,7 +6,7 @@ aliases:
   - renal infarction
   - renal infarct
   - 腎梗塞
-dateRev: 2026-07-05
+dateRev: 2026-07-10
 ---
 
 # renal-infarction
@@ -40,6 +40,9 @@ dateRev: 2026-07-05
 ## 題目
 > [!question]- Which of the finding about the acute renal infarction can be seen in the computed tomography? (2022-388)
 > **All of the above（D，關鍵）**——急性腎梗塞 CT 可見 ①cortical rim sign（皮質環徵，包膜下側支供血之薄環持續強化，約梗塞後 6–8 小時、見於約半數）②edematous enlargement（急性期腎臟正常或水腫性腫大＋包膜下積液／腎周條紋）③wedge-shaped area of absent enhancement（周邊楔形無強化區，base 朝包膜、apex 朝腎門），三者皆為典型所見，故選「以上皆是」。⚠️ 原題選項經解析退化併入 A，四選項應為 cortical rim sign／edematous enlargement／wedge-shaped 無強化區／All of the above。[^1][^2]
+
+> [!question]- Which of the finding about the acute renal infarction can be seen in the computed tomography? (2021-151)
+> **D（All of the above）**——急性腎梗塞 CT 可見 ①cortical rim sign（皮質環，包膜下側支供血之薄環持續強化，約梗塞後 6–8 小時、見於約半數）②edematous enlargement（急性期腎臟正常或水腫性腫大±包膜下積液／腎周條紋）③wedge-shaped area of absent enhancement（周邊楔形無強化區，base 朝包膜、apex 朝腎門），三者皆為典型所見，故選以上皆是。
 
 ## 考題
 ```dataview

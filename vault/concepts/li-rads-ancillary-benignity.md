@@ -5,7 +5,7 @@ subspecialty: [ABD]
 aliases:
   - ancillary features favoring benignity
   - LI-RADS 良性輔助特徵
-dateRev: 2026-07-04
+dateRev: 2026-07-10
 ---
 
 # li-rads-ancillary-benignity
@@ -38,6 +38,13 @@ dateRev: 2026-07-04
 
 > [!question]- Which of the following is the ancillary features favoring benignity in liver tumors? (2019-299)
 > **A. Iron in mass, more than liver.** [^2]
+
+## 題目
+> [!question]- LI-RADS v2018 MR ancillary features 中，何者「不」favoring benignity? (2021-094)
+> **A（Non-enhancing "capsule"）**——non-enhancing capsule 屬 favoring malignancy（偏 HCC，可升級）。B marked T2 hyperintensity、C hepatobiliary phase isointensity、D undistorted vessel 皆為 favoring benignity（可降級）。[^1][^2]
+
+> [!question]- LI-RADS v2018 MR ancillary features 中，何者為 favoring HCC in particular? (2021-095)
+> **D（All of above）**——nodule-in-nodule、mosaic architecture、fat in mass more than adjacent liver 三者皆為「特別偏 HCC」之 ancillary features（favoring malignancy），故以上皆是。[^1][^2]
 
 ## 考題
 ```dataview

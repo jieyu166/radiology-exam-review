@@ -7,7 +7,7 @@ aliases:
   - MR spectroscopy
   - proton spectroscopy
   - 磁振頻譜
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # mr-spectroscopy-brain
@@ -40,6 +40,9 @@ dateRev: 2026-07-02
 ## 題目
 > [!question]- Which statement about MR spectroscopy is correct? (2018-319)
 > **Choline為acetylcholine（細胞膜成分）之前驅物（D）**。[^1]
+
+> [!question]- Which one of the following descriptions about lactate in MRS is wrong? (2021-053)
+> **D（lactate peak 與 GABA peak 重疊）**——錯。Lactate（1.3 ppm）是與 lipid peak（0.9–1.3 ppm）重疊，非 GABA；利用 intermediate TE（135–144 ms）使 lactate doublet 反轉至基線下、而 lipid 不反轉，即可區分二者。其餘皆對：lactate 為無氧代謝標記、short TE 於 1.3 ppm 呈 doublet、intermediate TE 反轉至基線下。
 
 ## 考題
 ```dataview

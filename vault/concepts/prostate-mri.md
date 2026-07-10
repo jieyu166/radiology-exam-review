@@ -7,7 +7,7 @@ aliases:
   - prostate cancer ADC
   - PI-RADS
   - 攝護腺MRI
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 same:
   - "[[pet-prostate-cancer]]"
 ---
@@ -46,6 +46,9 @@ same:
 ## 題目
 > [!question]- About MRI of prostate gland, which of the following is correct? (2018-388)
 > **On ADC maps, prostate cancer often shows lower ADC than the surrounding healthy peripheral zone tissue（D）**。[^1]
+
+> [!question]- 請選出 typical prostate cancer 之 MRI findings? (2021-099)
+> **A（T2 hypointensity, ADC dark, type III enhancement）**——攝護腺癌於周邊帶正常高 T2 訊號中呈**低訊號**、細胞密度高致 **ADC 明顯降低（擴散受限）**、DCE 呈快速 wash-in 後 washout（type III 曲線，最可疑）。B、D 之 T2 hyperintensity 不符；C 之 type I（持續上升）屬良性型曲線，非典型癌。[^1]
 
 ## 考題
 ```dataview

@@ -7,7 +7,7 @@ aliases:
   - GBM
   - glioblastoma multiforme
   - 多形性膠質母細胞瘤
-dateRev: 2026-07-01
+dateRev: 2026-07-10
 ---
 
 # gbm
@@ -55,6 +55,10 @@ dateRev: 2026-07-01
 [^5]: Toh 等. *Differentiation of Pyogenic Brain Abscesses from Necrotic Glioblastomas with Use of Susceptibility-Weighted Imaging*. AJNR 2012;33(8):1534-8（PMC7966558）。膿瘍 SWI 完整平滑低訊號環、dual rim sign（雙同心環）見於膿瘍而不見於 GBM；膿瘍強化環對應 T2 低訊號內囊，GBM 強化位於 T2 低訊號環之外。開放全文已讀（結果段）。dual rim sign 定義另參 Radiopaedia（輔助）。DOI:10.3174/ajnr.A2986。
 [^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Gahramanov 等. *Pseudoprogression of Glioblastoma after Chemo- and Radiation Therapy: DSC Perfusion MR with Ferumoxytol vs Gadoteridol and Correlation with Survival*. Radiology 2013（19 例化放療後 apparently progressive GBM）。**高 rCBV(>1.75)＝腫瘤/真進展、≤1.75＝pseudoprogression;ferumoxytol（血池劑）不需 contrast leakage correction（gadoteridol 需）、且為好的預後 biomarker;pseudoprogression 於 temozolomide 化放療較 RT-only 常見**。DOI:10.1148/radiol.12111472。
 [^7]: MRI perfusion 區分 pseudoprogression 與真進展之綜述/研究：真進展 rCBV、rPH 較高、PSR 較低；MGMT methylated 者較常 pseudoprogression（PMC4755513、PMC7915936）。依摘要整理，部分開放全文已讀（rCBV/PSR 方向性段落）。
+
+## 題目
+> [!question]- According to cIMPACT proposed (2020) changes to diffuse glioma classification, which one is wrong? (2021-056)
+> **B（All glioblastoma will be IDHmt）**——錯。依 cIMPACT-NOW／2021 WHO，glioblastoma 專指 IDH-wildtype 並維持 grade 4；IDH-mutant 者不再稱 GBM，改歸 astrocytoma。故 A（GBM 皆 IDHwt）對、C（diffuse astrocytoma 皆 IDHmt）對、D（astrocytoma 依組織學與分子表型分 grade 2–4）對，唯 B 方向相反為錯。
 
 ## 考題
 ```dataview

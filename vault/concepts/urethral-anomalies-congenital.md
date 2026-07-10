@@ -9,7 +9,7 @@ aliases:
   - megalourethra
   - Cowper gland cyst
   - 尿道先天異常
-dateRev: 2026-07-02
+dateRev: 2026-07-10
 ---
 
 # urethral-anomalies-congenital
@@ -54,6 +54,9 @@ dateRev: 2026-07-02
 
 > [!question]- Which of the description is not related to type I urethral valves? (2022-389)
 > **It is discovered most commonly in the neonatal period（D，關鍵）為與 type I 較不相關／不正確**——PUV 嚴重者多於**產前（antenatally）**經超音波診斷、較輕者於嬰兒／兒童期表現，並非特定「最常於新生兒期」被發現。其餘皆與 type I PUV 相關：(A) 為 urogenital membrane（type I 為黏膜皺褶／膜性結構）、(B) 可致 VUR（約 50%）、(C) 可致 UTI。⚠️ 原題四選項經解析退化併入 A。[^3]
+
+> [!question]- Which of the description is not related to type I urethral valves? (2021-152)
+> **D（It is discovered most commonly in the neonatal period）為與 type I 較不相關／不正確**——type I PUV 嚴重者多於產前（antenatally）經超音波（羊水過少＋雙側腎積水）診斷，較輕者於嬰兒／兒童期表現，並非「最常於新生兒期」被發現。其餘皆與 type I 相關：(A) 為 urogenital／後尿道膜性結構、(B) 約 50% 合併 VUR、(C) 膀胱小樑／尿滯留可致 UTI。
 
 ## 考題
 ```dataview

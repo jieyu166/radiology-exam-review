@@ -7,7 +7,7 @@ aliases:
   - clear cell RCC
   - papillary RCC
   - 腎細胞癌
-dateRev: 2026-07-06
+dateRev: 2026-07-10
 ---
 
 # renal-cell-carcinoma
@@ -114,6 +114,12 @@ dateRev: 2026-07-06
 
 > [!question]- Which subtype of RCC may have a central scar that is indistinguishable from benign oncocytoma of the kidney? (2022-458)
 > **Chromophobe RCC（C，關鍵）**——chromophobe RCC 可呈中央星狀疤痕與輻輪狀（spoke-wheel）強化，與良性 oncocytoma 影像重疊、不可僅憑此徵象區分（兩者可能源自共同前驅細胞）。故中央疤痕非 oncocytoma 專屬。[^1][^6][^8]
+
+> [!question]- 關於 renal cell carcinoma (RCC)，何者錯誤? (2021-097)
+> **D（Medullary RCC 為少見低惡性度腫瘤，呈多分葉強化腫塊）為誤**——renal medullary carcinoma 罕見但**高度侵襲性**（好發帶鐮刀型血球特徵者），非低惡性度。A clear cell 與 VHL 相關、B chromophobe 與 Birt-Hogg-Dubé 相關、C papillary 較常淋巴管播散與腹膜轉移皆為正確敘述。[^1]
+
+> [!question]- Which statement about differentiation of solid renal tumor with MR imaging is correct? (2021-192)
+> **E（All statements are correct）**——(A) clear cell RCC 典型呈 T2 高訊號、(B) papillary RCC 典型 T2 低訊號且乏血管、(C) chromophobe RCC 與 oncocytoma 影像特徵重疊（可源自共同前驅細胞，中央疤痕／spoke-wheel 非 oncocytoma 專屬）、(D) 典型 angiomyolipoma 因含巨觀脂肪，於 opposed-phase 之脂肪／非脂肪界面呈 India ink artifact，四者皆正確。
 
 ## 考題
 ```dataview

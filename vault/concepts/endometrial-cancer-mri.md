@@ -5,7 +5,7 @@ subspecialty: [ABD]
 aliases:
   - endometrial cancer MRI
   - 子宮內膜癌MRI
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # endometrial-cancer-mri
@@ -59,6 +59,10 @@ dateRev: 2026-06-29
 [^2]: （Tier 1）RadioGraphics Update: 2023 FIGO Staging System for Endometrial Cancer / Endometrial Cancer: 2023 Revised FIGO Staging System and the Role of Imaging（PMC11119523）。RadioGraphics, doi:10.1148/rg.240084；多參數 MRI（T2WI＋DWI/ADC＋DCE）、斜軸面、FIGO 2023 分期、肌層侵犯<50% vs ≥50%、淋巴結 MRI 敏感度約 44%/特異度約 98%、停經後 JZ 不清等陷阱。
 [^3]: （Tier 2，輔助）The Radiology Assistant: Endometrial Cancer – MR staging（radiologyassistant.nl/abdomen/unsorted/mr-in-endometrial-cancer）：T2 斜軸面攝影、JZ 中斷、內膜-肌層介面強化中斷、IA/IB 量測法、DCE 三時相、頸間質突出 vs 真侵犯陷阱、cornual/polypoid 陷阱。
 [^4]: （Tier 2）Contrast-Enhanced MRI in Women with Endometrial Cancer: Dynamic Versus Single-Phase Acquisitions（PMC10644739）。Clin Med Insights Oncol 2023, doi:10.1177/11795549231207833：單相增強影像品質較佳、診斷深部肌層侵犯與動態相當，SEE 出現率低、臨床效用有限。
+
+## 題目
+> [!question]- With regard to endometrial carcinoma staging, which of the following is true? (2021-122)
+> **D（grade 3 endometrioid 與非內膜樣腫瘤須評估上腹部）**——高惡性度/非內膜樣型較易腹膜與上腹部轉移，分期評估須納入上腹部。A 錯：膀胱侵犯才屬 stage IVA，單純 bullous edema 不足以證明真正侵犯；B 錯：肌層侵犯屬 IA（≥50% 深層侵犯才是 IB）；C 錯：子宮頸間質侵犯屬 stage II 而非 IB。
 
 ## 考題
 ```dataview

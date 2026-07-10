@@ -8,7 +8,7 @@ aliases:
   - walled-off necrosis
   - Balthazar score
   - 急性胰臟炎分類
-dateRev: 2026-06-29
+dateRev: 2026-07-10
 ---
 
 # pancreatitis-severity
@@ -93,6 +93,9 @@ dateRev: 2026-06-29
 ## 題目
 > [!question]- Which statement of acute pancreatitis is wrong? (2018-026)
 > **Modified CT severity score > 8 points indicate moderate severity（A）**——modified CTSI 8-10分為**重度(severe)**，非中度；中度為4-6分。兩型含間質水腫型與壞死型(B對)、成因含膽結石/酗酒/代謝異常/特發性(C對)皆為正確描述。[^5]
+
+> [!question]- Which statement about acute pancreatitis is not correct? (2021-128)
+> **B（應立即做 CT 以建立急性胰臟炎診斷）**——錯，急性胰臟炎診斷主要靠臨床症狀與血清酵素，CECT/MRI 保留給診斷不明或臨床未改善者；且症狀 <72h 的早期 CT 會低估壞死範圍，不宜貿然早做。A（輕型影像可正常）、C（無症狀 pseudocyst 不論大小位置皆不需介入）、D（穩定病人之感染性壞死宜延後 >4 週待內容物液化、壞死周圍纖維壁形成再引流）皆正確。
 
 ## 考題
 ```dataview
