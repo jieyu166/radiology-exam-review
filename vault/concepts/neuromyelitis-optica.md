@@ -10,6 +10,8 @@ aliases:
   - MOGAD
   - MS vs NMO
   - 視神經脊髓炎
+  - MOG-IgG
+  - pediatric NMOSD
 dateRev: 2026-07-10
 ---
 
@@ -40,6 +42,13 @@ dateRev: 2026-07-10
 ### MOGAD [^3]
 - 抗 **MOG** 抗體相關;為與 AQP4-NMOSD、MS 不同的**獨立疾病**（於血清陰性/NMO 樣病例中佔一部分,文獻常引約 10%）;影像可較模糊（棉絮樣）、ON 常雙側/長段。
 
+### MOGAD vs AQP4-NMOSD 臨床特徵（考點）
+- **發病年齡**：MOG-IgG 陽性者**發病年齡通常較 AQP4-IgG 陽性者年輕**（好發兒童/年輕成人）。[^4][^5]
+- **病程（monophasic vs relapsing，⚠ 文獻分歧）**：MOGAD 可為 monophasic 亦可 relapsing。**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 轉為復發**；成人及部分系列復發比例更高（約可達 40–50%）。故「MOGAD typically monophasic」與「tend to relapse」在文獻上並非定論——**官方 2021 詳解把選項 C 的「relapsing」判為錯（改為 monophasic），此鑑別點偏軟，判讀時對照原檔並存疑**。[^4]
+- **視神經炎型態**：ON 為 MOGAD 最主要表現；**常雙側、且偏前段（anterior，視神經頭/眶內段、常伴 optic disc oedema/perineural 強化）**——對照 AQP4-NMOSD 之 ON 偏**後段、跨視交叉（chiasm）**。[^4][^5]
+- **預後**：MOGAD 整體預後相對良好（favorable outcome）；MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎。[^4]
+- **兒童 NMOSD 預後（選項 B）**：兒童發病 NMOSD 在失能（disability）預後上通常較成人為佳。[^4][^5]
+
 ## 放射科醫師影像判讀重點
 - **NMO 腦病灶「並非沒有」（考點核心）**：判讀 T2/FLAIR 時勿因「NMO 只侵犯視神經與脊髓」而漏看腦病灶——**亞洲 60–80%、歐洲 25–40% 有腦病灶**，分布**鏡像 aquaporin-4 高表現區**（第三/第四腦室周、導水管周灰質、下視丘/視丘、dorsal pons/medulla、胼胝體、皮質脊髓束長病灶）。「NMO 腦白質無 T2/FLAIR 高訊號」為錯誤敘述。[^1]
 - **脊髓 LETM 是核心影像分水嶺**：NMO 為**長節段橫貫性脊髓炎(LETM ≥3 椎節)、以中央灰質為主、急性期腫脹**；MS 脊髓病灶多**<1–2 節、偏一側週邊**。判讀脊髓時量測病灶縱向節段長度以分流兩者。[^1][^2]
@@ -63,10 +72,16 @@ dateRev: 2026-07-10
 [^1]: Osborn's Brain Ch 15（官方 2017 詳解所引）：NMO 腦病灶亞洲 60–80%／歐洲 25–40%,鏡像 aquaporin-4 分布（室周、導水管周、下視丘/視丘、dorsal pons/medulla、胼胝體）;MS Dawson finger／open-ring 強化。
 [^2]: 據 PubMed——Wingerchuk DM, Banwell B, Bennett JL, et al. *International Consensus Diagnostic Criteria for Neuromyelitis Optica Spectrum Disorders*. Neurology. 2015;85(2):177-189. doi:10.1212/WNL.0000000000001729（PMC4515040,開放取用;NMOSD 依 AQP4-IgG 分層、6 大核心臨床特徵、seronegative 之 MRI 要件）。另 *Neuromyelitis optica spectrum disorder*. Radiopaedia.org（實際查證 accessed 2026-06-20）：AQP4 三聯（雙側 ON＋LETM＋AQP4(+)）、LETM ≥3 椎節常伴脊髓腫脹、核心症候群、**IPND 2025 改名 disorder→disease**。（**provenance**：本概念之 NMOSD 準則與 MS vs NMO 對照整合自演講筆記《Evolution of MS, NMO diagnostic criteria》(林宙晴);事實已依本條 Wingerchuk 2015 與 Radiopaedia 一手來源查核。）
 [^3]: MOGAD（anti-MOG 抗體相關疾病）為與 AQP4-NMOSD、MS 不同之**獨立疾病**,於血清陰性/NMO 樣病例中佔一部分（文獻常引約 10%）;影像可較模糊、ON 常雙側長段。出處：*Neuromyelitis optica spectrum disorder*. Radiopaedia.org（提及 MOG 抗體異質性,accessed 2026-06-20）;延伸文獻 *MOGAD: A Review of Clinical and MRI Features, Diagnosis, and Management*（未取全文,供醫師延伸查閱）。
+[^4]: **Tier-1 RadioGraphics** — Server Alonso A, Sakinis T, Pfeiffer HCV, et al. *Understanding Pediatric Neuroimmune Disorder Conflicts: A Neuroradiologic Approach in the Molecular Era*. RadioGraphics. 2020;40(5):1395-1411. DOI [10.1148/rg.2020200032](https://doi.org/10.1148/rg.2020200032)（RSNA 正文，實際查證 accessed 2026-07-10）：MOGAD 為與 MS、AQP4-NMOSD 不同的獨立疾病；病程可 monophasic 或 relapsing，**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 復發**；**ON 為最主要表現**；MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎；整體預後相對良好。（⚠ 註：MOGAD monophasic vs relapsing 比例隨族群與追蹤時間差異大，成人系列復發比例更高；官方詳解之「typically monophasic」屬偏軟鑑別，本註以此並列存疑。）
+[^5]: **Tier-1 RadioGraphics** — Dutra BG, da Rocha AJ, Nunes RH, Maia ACM Jr. *Neuromyelitis Optica Spectrum Disorders: Spectrum of MR Imaging Findings and Their Differential Diagnosis*. RadioGraphics. 2018;38(1):169-193. DOI [10.1148/rg.2018170141](https://doi.org/10.1148/rg.2018170141)（RSNA 正文，實際查證 accessed 2026-07-10）：AQP4-NMOSD 之 ON 常雙側、長節段、偏**後段視神經與視交叉**；MS 之 ON 多單側、短段、較少及 chiasm——用以對照 MOGAD ON 偏前段/雙側之型態。
 
 ## 題目
 > [!question]- Regarding acute transverse myelitis, which statements are wrong? (2021-280)
 > **D（LETM pattern on T2W MRI is pathognomonic of acute transverse myelitis——錯誤）**——長節段橫貫性脊髓炎(LETM ≥3椎節)並非特發性ATM的病理特徵性(pathognomonic)表現，反而高度提示NMOSD(抗AQP4 astrocytopathy)；特發性ATM本身屬排除性診斷。A（ATM為acute myelitis最常見成因）、B（排除性診斷）、C（CSF發炎、pleocytosis±IgG上升）大致正確。
+
+> [!question]- Which of the following descriptions of NMOSD is INCORRECT? (2021-367)
+> **C（官方答案；MOG-IgG NMOSD 較年輕發病＋relapsing course＋favorable outcome——官方判為錯，理由改為 monophasic course）**——官方詳解認為 MOGAD 應「typically monophasic」而非 relapsing。A（NMO 為抗 AQP4 水通道之自體免疫脫髓鞘）、B（兒童發病 NMOSD 失能預後通常較成人佳）、D（MOG-IgG ON 常雙側且偏前段侵犯）皆正確；MOG 較 AQP4 年輕發病、整體預後良好亦屬實。
+> ⚠ **此鑑別點偏軟／文獻分歧**：MOGAD 相當比例會復發（兒童約 1/3、成人系列可達 40–50%），「typically monophasic」並非定論。判讀時對照原檔並存疑；官方將「relapsing」定為唯一錯點宜保留質疑。
 
 ## 考題
 ```dataview

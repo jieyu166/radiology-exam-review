@@ -2408,7 +2408,9 @@
       "reference": "Fundamentals of Diagnostic Radiology, 3rd Edition p.265；10.1007/s13244-015-0443-8；2021 交換考官方詳解 PDF p52",
       "explanation": "- A. (Ref Handbook of Head and Neck Imaging)\n\t-  Choroidal melanoma是最常見的 primary ocular tumor，Inflammatory pseudotumor是最常見的painful orbital mass。但如果是patchy CE(+)只能是cavernous venous malformation.\n- C. 書中沒提到phleboliths. 和其他地方hemangioma不太相同，眼睛的hemangioma不太會鈣化。 (Radiopaedia) Sclerosing hemangiomas有時會有鈣化。\n\n【2021 官方詳解】\nC. Calcification is occasionally seen in cavernous haemangiomas and plays a limited role in the differential diagnosis\nOn NECT, a cavernous hemangioma is seen as a well-circumscribed, dense intraconal mass. It is usually seen separately from the optic nerve and extraocular muscles CECT may show patchy or uniform enhancement (Fig. 6). Phleboliths, if present, help to confirm the diagnosis (Fig. 6). On MRI, the lesion typically appears iso- to hypointense on T1W images and hyperintense on T2W images, although some hemangiomas may display moderately high/low signal intensity. Some scattered hyperintense areas on T1W images may indicate thrombosis. Fat-suppressed, dynamic CEMRI shows initial patchy enhancement followed by homogeneous enhancement in the delayed phase\n10.1007/s13244-015-0443-8\nAlthough non-contrast MR imaging findings are non-specific, they may offer some advantage in the differentiation of orbital cavernous haemangiomas by demonstrating marked hyperintensity signal to muscle with internal septations on T2-weighted imaging, a hypointense circumferential rim corresponding to the fibrous pseudocapsule, and chemical shift artefact in the frequency-encoded direction secondary to high water content within the lesion surrounded by orbital fat…\nHowever, calcification is occasionally seen in cavernous haemangiomas and plays a limited role in the differential diagnosis\n10.1007/s00330-010-1774-y",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "orbital-cavernous-venous-malformation"
+      ],
       "checked": false,
       "sourcePage2021": 52
     },
@@ -2488,7 +2490,9 @@
       "images": [
         "2021-063-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "normal-pressure-hydrocephalus"
+      ],
       "checked": false,
       "sourcePage2021": 54
     },
@@ -12571,7 +12575,9 @@
         "2021-319-2.png",
         "2021-319-3.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "normal-myelination-pattern"
+      ],
       "checked": false,
       "difficulty": "難",
       "author": "王柏欽",
@@ -13405,7 +13411,9 @@
       "reference": "Berg WA, et al. Diagnostic imaging- Breast 3rd edition, 2019. Page 779,783；2021 交換考官方詳解 PDF p352",
       "explanation": "【2021 官方詳解】\nBreast ductography (a.k.a. galactography)\nPrecisely locating the mass within breast tissue and gives useful information for surgical approach and planning.\nRef:\nDiagnostic Performance of MRI Versus Galactography in Women With Pathologic Nipple Discharge: A Systematic Review and Meta-Analysis\nConclusion:\nhigher diagnostic performance of MRI compared with galactography in the detection of any kind of lesion with pathologic nipple discharge.\nHigh sensitivity and very high specificity for cancer by MRI could be confirmed in this clinical setting.\nIf mammography and ultrasound are negative, MRI should be preferred over galactography for further evaluation.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "nipple-discharge-imaging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳健翎醫師",
@@ -14466,7 +14474,9 @@
       "images": [
         "2021-367-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "neuromyelitis-optica"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總陳書庭醫師",
