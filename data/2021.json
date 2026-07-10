@@ -7361,9 +7361,6 @@
       "correctAnswer": "D",
       "reference": "Radiology multiple choice questions and answers https://engineeringinterviewquestions.com/radiology-objective-questions-and -answers/；2021 交換考官方詳解 PDF p138",
       "explanation": "⚠️ 疑似與 2021-028 為同一題（相似度 0.951），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 138 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-183-1.png"
-      ],
       "concepts": [
         "solitary-pulmonary-nodule"
       ],
@@ -7371,7 +7368,14 @@
       "difficulty": "易",
       "author": "麥志輝",
       "sourcePage2021": 138,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-183-1.png",
+          "type": "table",
+          "markdown": "**Lung-RADS™ Version 1.1 — Assessment Categories (Release date: 2019)**\n\n| Category Descriptor | Lung-RADS Score | Findings | Management | Risk of Malignancy | Est. Population Prevalence |\n|---|---|---|---|---|---|\n| Incomplete | 0 | Prior chest CT examination(s) being located for comparison; Part or all of lungs cannot be evaluated | Additional lung cancer screening CT images and/or comparison to prior chest CT examinations is needed | n/a | 1% |\n| Negative — No nodules and definitely benign nodules | 1 | No lung nodules; Nodule(s) with specific calcifications: complete, central, popcorn, concentric rings and fat containing nodules | Continue annual screening with LDCT in 12 months | <1% | 90% |\n| Benign Appearance or Behavior — Nodules with a very low likelihood of becoming a clinically active cancer due to size or lack of growth | 2 | Solid nodule(s): <6 mm, new <4 mm; Part solid nodule(s): <6 mm total diameter on baseline screening; Non solid nodule(s) (GGN): <30 mm OR ≥30 mm and unchanged or slowly growing; Category 3 or 4 nodules unchanged for ≥3 months | Continue annual screening with LDCT in 12 months | <1% | 90% |\n| Probably Benign — Probably benign finding(s), short term follow up suggested; includes nodules with a low likelihood of becoming a clinically active cancer | 3 | Solid nodule(s): ≥6 to <8 mm at baseline OR new 4 mm to <6 mm; Part solid nodule(s): ≥6 mm total diameter with solid component <6 mm OR new <6 mm total diameter; Non solid nodule(s) (GGN) ≥30 mm on baseline CT or new | 6 month LDCT | 1-2% | 5% |\n| Probably Suspicious — Findings for which additional diagnostic testing is recommended | 4A | Solid nodule(s): ≥8 to <15 mm at baseline OR growing <8 mm OR new 6 to <8 mm; Part solid nodule(s): ≥6 mm with solid component ≥6 mm to <8 mm OR with a new or growing <4 mm solid component; Endobronchial nodule | 3 month LDCT; PET/CT may be used when there is a ≥8 mm solid component | 5-15% | 2% |\n| Suspicious — Findings for which additional diagnostic testing and/or tissue sampling is recommended | 4B | Solid nodule(s) ≥15 mm OR new or growing, and ≥8 mm; Part solid nodule(s) with: a solid component ≥8 mm OR a new or growing ≥4 mm solid component | Chest CT with or without contrast, PET/CT and/or tissue sampling depending on the probability of malignancy and comorbidities. PET/CT may be used when there is a ≥8 mm solid component. For new large nodules that develop on an annual repeat screening CT, a 1 month LDCT may be recommended to address potentially infectious or inflammatory conditions | >15% | 2% |\n| Suspicious | 4X | Category 3 or 4 nodules with additional features or imaging findings that increases the suspicion of malignancy | (see 4B management) | >15% | 2% |\n| Other — Clinically Significant or Potentially Clinically Significant Findings (non lung cancer) | S | Modifier - may add on to category 0-4 coding | As appropriate to the specific finding | n/a | 10% |\n| Volumetric measurements | — | 1.5 mm = 1.8 mm³; 4 mm = 33.5 mm³; 6 mm = 113.1 mm³; 8 mm = 268.1 mm³; 10 mm = 523.6 mm³; 15 mm = 1767.1 mm³; 20 mm = 4188.8 mm³; 30 mm = 14137.2 mm³ | | | |\n\nIMPORTANT NOTES FOR USE: (1) Negative screen does not mean an individual does not have lung cancer. (2) Size: measure long and short axis to one decimal point, report mean nodule diameter to one decimal point. (3) Size Thresholds apply to nodules at first detection and that grow and reach a higher size category. (4) Growth: an increase in size of >1.5 mm. (5) each exam coded 0-4 based on nodule(s) with highest degree of suspicion. (6) S modifier may be added to 0-4 category. (11) Solid nodules with smooth margins, oval/lentiform/triangular shape, max diameter <10 mm (perifissural nodules) should be classified as category 2. (12) Category 3 and 4A nodules unchanged on interval CT should be coded category 2. (13) LDCT: low dose chest CT."
+        }
+      ]
     },
     {
       "id": "2021-184",
@@ -8994,9 +8998,6 @@
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1848-1865；2021 交換考官方詳解 PDF p192",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 192 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-176-1.jpg"
-      ],
       "concepts": [
         "covid19-chest-ct"
       ],
@@ -9004,7 +9005,14 @@
       "difficulty": "普通",
       "author": "陳玫圻",
       "sourcePage2021": 192,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-176-1.jpg",
+          "type": "table",
+          "markdown": "**Table 2: Imaging Classification and CT Features of COVID-19 Pneumonia**\n\n| Imaging Classification | Rationale | CT Features |\n|---|---|---|\n| Typical appearance | Commonly reported imaging features of greater specificity for COVID-19 pneumonia | Peripheral, bilateral, ground-glass opacities with or without consolidation or visible intralobular lines (\"crazy-paving\" pattern); Multifocal ground-glass opacities of rounded morphology with or without consolidation or visible intralobular lines (crazy-paving pattern); Reverse halo sign or other findings of organizing pneumonia (seen later in the disease) |\n| Indeterminate appearance | Nonspecific imaging features of COVID-19 pneumonia | Absence of typical features AND the presence of the following features: multifocal, diffuse, perihilar, or unilateral ground-glass opacity with or without consolidation lacking a specific distribution and that are nonrounded or nonperipheral; Few small ground-glass opacities, with a nonrounded and nonperipheral distribution |\n| Atypical appearance | Uncommonly or not reported features of COVID-19 pneumonia | Absence of typical or indeterminate features AND the presence of the following features: isolated lobar or segmental consolidation without ground-glass opacities; discrete small nodules (centrilobular, \"tree-in-bud\" appearance); lung cavitation; smooth interlobular septal thickening with pleural effusion |\n| Negative for pneumonia | No features of pneumonia | No CT features to suggest pneumonia. |\n\nSource.—Adapted and reprinted under a CCBY 4.0 license from reference 51."
+        }
+      ]
     },
     {
       "id": "2021-225",
@@ -9111,9 +9119,6 @@
       "correctAnswer": "D",
       "reference": "Antoniou KM, et al. Interstitial lung disease. Eur Respir Rev 2014; 23: 40–54.；2021 交換考官方詳解 PDF p195",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 195 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-227-1.png"
-      ],
       "concepts": [
         "idiopathic-interstitial-pneumonia"
       ],
@@ -9121,7 +9126,14 @@
       "difficulty": "中",
       "author": "張允中",
       "sourcePage2021": 195,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-227-1.png",
+          "type": "table",
+          "markdown": "**TABLE 2. Update of the classification of idiopathic interstitial pneumonias**\n\n**Major idiopathic interstitial pneumonias**\n- Idiopathic pulmonary fibrosis\n- Idiopathic nonspecific interstitial pneumonia\n- Respiratory bronchiolitis–interstitial lung disease\n- Desquamative interstitial pneumonia\n- Cryptogenic organising pneumonia\n- Acute interstitial pneumonia\n\n**Rare idiopathic interstitial pneumonias**\n- Idiopathic lymphoid interstitial pneumonia\n- Idiopathic pleuroparenchymal fibroelastosis\n\n**Unclassifiable idiopathic interstitial pneumonias**"
+        }
+      ]
     },
     {
       "id": "2021-228",
@@ -9151,9 +9163,6 @@
       "correctAnswer": "A",
       "reference": "Rami-Porta R, Asamura H, Travis WD, Rusch VW. Lung cancer - major changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017;67:138–155.；2021 交換考官方詳解 PDF p196",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 196 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-228-1.png"
-      ],
       "concepts": [
         "lung-cancer-tnm-staging"
       ],
@@ -9161,7 +9170,14 @@
       "difficulty": "易",
       "author": "張允中",
       "sourcePage2021": 196,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-228-1.png",
+          "type": "table",
+          "markdown": "（表格；第一列 CT image on HRCT 為示意圖，以下為分期對照）\n\n| | | | | | |\n|---|---|---|---|---|---|\n| **cT*** | | | | | |\n| Solid part | 0 | 0 cm | ≤0.5 cm↑ | 0.6–1.0 cm↑ | 1.1–2.0 cm↑ |\n| Total tumor size (including GG) | ≤0.5 cm | 0.6–3.0 cm | ≤3.0 cm↑↑ | 0.6–3.0 cm↑↑ | 1.1–3.0 cm↑↑ |\n| Pathologic differential diagnosis | AAH‡, AIS, MIA | AIS, MIA, LPA | MIA, LPA, AIS | LPA, Invasive AD, MIA | LPA, Invasive AD |\n| Clinical Stage* | 0 | cTis | cT1mi | cT1a | cT1b |\n| **pT** | | | | | |\n| Invasive part | 0 | 0 cm | ≤0.5 cm↑ | 0.6–1.0 cm↑ | 1.1–2.0 cm↑ |\n| Total tumor size (including lepidic growth part) | Usually ≤0.5 cm‡ | ≤3.0 cm | ≤3.0 cm | 0.6–1.0 cm↑↑ | 1.1–3.0 cm↑↑ |\n| Pathology | AAH | AIS | MIA | Lepidic predominant AD 或 Invasive AD with lepidic component | Invasive AD with a lepidic component 或 lepidic predominant AD |\n| Pathologic Stage | | pTis | pT1mi | pT1a | pT1b |\n\n（最右欄 cT1c/pT1c：Solid/Invasive part 2.1–3.0 cm↑；Total 2.1–3.0 cm↑↑；病理 Invasive AD／Invasive AD with lepidic component）"
+        }
+      ]
     },
     {
       "id": "2021-229",
@@ -9195,9 +9211,6 @@
       "correctAnswer": "E",
       "reference": "Diagnostic HRCT criteria for usual interstitial pneumonia (UIP) pattern - ATS/ERS/JRS/ALAT (2018)；2021 交換考官方詳解 PDF p197",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 197 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-229-1.png"
-      ],
       "concepts": [
         "ipf"
       ],
@@ -9205,7 +9218,14 @@
       "difficulty": "易",
       "author": "陳若瑀醫師",
       "sourcePage2021": 197,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-229-1.png",
+          "type": "table",
+          "markdown": "（UIP CT pattern 分類表）\n\n| | Typical UIP CT pattern | Probable UIP CT pattern | CT features consistent with non-IPF diagnosis | CT features highly consistent with non-IPF diagnosis |\n|---|---|---|---|---|\n| **Distribution** | ・Basal predominant（偶爾 diffuse）且 subpleural predominant ・分布常呈 heterogeneous | ・Basal 且 subpleural predominant ・分布常呈 heterogeneous | ・上肺或中肺為主之 fibrosis ・Peribronchovascular predominance 伴 subpleural sparing | （同左欄延續） |\n| **Features** | ・Honeycombing；reticular pattern 伴 peripheral traction bronchiectasis 或 bronchiolectasis* ・無提示其他診斷之特徵 | ・Reticular pattern 伴 peripheral traction bronchiectasis 或 bronchiolectasis* ・無 honeycombing ・無提示其他診斷之特徵 | 以下任一：・predominant consolidation† ・extensive pure ground glass opacity（非急性惡化）† ・extensive mosaic attenuation 伴呼氣相 sharply defined lobular air trapping ・diffuse nodules† ・cysts | （同左欄延續） |"
+        }
+      ]
     },
     {
       "id": "2021-230",
@@ -11551,8 +11571,7 @@
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p261",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 261 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-289-1.jpg",
-        "2021-289-2.png"
+        "2021-289-1.jpg"
       ],
       "concepts": [
         "breast-calcifications"
@@ -11561,7 +11580,14 @@
       "difficulty": "易",
       "author": "YC TSENG",
       "sourcePage2021": 261,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-289-2.png",
+          "type": "table",
+          "markdown": "**Calcifications Distribution（鈣化分布）**\n\n| Benign（良性） | Intermediate Concern（中度） | Malignant（惡性） |\n|---|---|---|\n| Diffuse / Regional（瀰漫／區域） | Clustered（群聚） | Linear / Segmental（線狀／節段狀） |"
+        }
+      ]
     },
     {
       "id": "2021-290",
@@ -11591,9 +11617,6 @@
       "correctAnswer": "B",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p262",
       "explanation": "【2021 官方詳解】\nRef: https://www.pathologyoutlines.com/\n- As a single feature, increased risk of cancer of 1.5 - 2x, as seen with proliferative fibrocystic changes (Cancer 1989;64:1977)\n- atypical (ductal) hyperplasia: 4 - 5x risk of developing ductal carcinoma in situ within 5 years (Cancer Prev Res (Phila) 2014;7:211)\n- 查不到確切資料\n- Papillary hyperplasia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 262 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-290-1.png"
-      ],
       "concepts": [
         "breast-premalignant-lesions"
       ],
@@ -11601,7 +11624,14 @@
       "difficulty": "中",
       "author": "YC TSENG",
       "sourcePage2021": 262,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-290-1.png",
+          "type": "text",
+          "markdown": "- **At 5 years after diagnosis,** about 7% of women with atypical hyperplasia may develop breast cancer. Put another way, for every 100 women diagnosed with atypical hyperplasia, 7 can be expected to develop breast cancer five years after diagnosis. And 93 will not be diagnosed with breast cancer.\n- **At 10 years after diagnosis,** about 13% of women with atypical hyperplasia may develop breast cancer. That means for every 100 women diagnosed with atypical hyperplasia, 13 can be expectected to develop breast cancer 10 years after diagnosis. And 87 will not develop breast cancer.\n- **At 25 years after diagnosis,** about 30% of women with atypical hyperplasia may develop breast cancer. Put another way, for every 100 women diagnosed with atypical hyperplasia, 30 can be expected to develop breast cancer 25 years after diagnosis. And 70 will not develop breast cancer."
+        }
+      ]
     },
     {
       "id": "2021-291",
@@ -11631,9 +11661,6 @@
       "correctAnswer": "A",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p263",
       "explanation": "【2021 官方詳解】\n?? Ref: radioassistant\n\n⚠️ 本題含影像（官方詳解 PDF 第 263 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-291-1.png"
-      ],
       "concepts": [
         "breast-mri-morphology-features"
       ],
@@ -11641,7 +11668,14 @@
       "difficulty": "中",
       "author": "YC TSENG",
       "sourcePage2021": 263,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-291-1.png",
+          "type": "text",
+          "markdown": "**Breast MRI（BI-RADS MRI descriptors）**\n\n- **Focus and foci**：< 5mm - cannot be specified\n- **Masses**\n  - **Shape**：round - oval - lobulated - irregular (32% ca)\n  - **Margin**：smooth - irregular - spiculated (80% ca)\n  - **T1** ↑：lymphnode - fat necrosis - hamartoma\n  - **T2 fatsat** ↑：cyst - lymphnode - fibroadenoma - fat necrosis - colloid carcinoma\n  - **Enhancement**：homogeneous - rim - septa etc.\n  - **Kinetics**：type I (6% ca) - type II - type III (29-77% ca)\n- **Nonmass-like enhancement**：Linear - ductal - segmental - clumped etc."
+        }
+      ]
     },
     {
       "id": "2021-292",
@@ -11671,9 +11705,6 @@
       "correctAnswer": "C",
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, Table 28-1；2021 交換考官方詳解 PDF p264",
       "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 264 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-292-1.png"
-      ],
       "concepts": [
         "pulmonary-hypertension-classification"
       ],
@@ -11681,7 +11712,14 @@
       "difficulty": "普通",
       "author": "Yen-Lin Huang (SHH)",
       "sourcePage2021": 264,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-292-1.png",
+          "type": "table",
+          "markdown": "**Pulmonary Hypertension 分類（WHO/Nice 5群）**\n\n**1. Pulmonary arterial hypertension**\n- Idiopathic\n- Heritable：BMPR2；ALK1, Endoglin；Unknown\n- Drug and toxin-induced\n- Associated with PAH：Connective tissue diseases；HIV infection；Portal hypertension；Congenital heart disease；Schistosomiasis；Chronic hemolytic anemia\n- 1'. Pulmonary Veno-occlusive disease and/or capillary hemangiomatosis\n- 1''. Persistent pulmonary hypertension of the newborn (PPHN)\n\n**2. Pulmonary hypertension due to left heart disease**\n- Left ventricular systolic dysfunction\n- Left ventricular diastolic dysfunction\n- Valvular disease\n- Congenital/acquired left heart inflow/outflow tract obstruction and congenital cardiomyopathy\n\n**3. Pulmonary hypertension due to lung diseases and/or hypoxia**\n- Chronic obstructive pulmonary disease\n- Interstitial lung disease\n- Pulmonary diseases with restrictive and obstructive pattern\n- Sleep-disordered breathing\n- Alveolar hypoventilation disorders\n- Chronic exposure to high altitude\n- Developmental lung diseases\n\n**4. Chronic thromboembolic pulmonary hypertension (CTEPH)**\n- Complication of pulmonary embolism\n- Large or proximal vessel disorders\n- High blood pressure, blood clots\n- Reduced compliance and luminal narrowing\n\n**5. Pulmonary hypertension with unclear and/or multi-factorial mechanisms**\n- Hematologic disorders (myeloproliferative disorders, splenectomy)\n- Systemic disorders (Vasculitis sarcoidosis, pulmonary Langerhans cell, histiocytosis LAM, neurofibromatosis)\n- Metabolic disorders (Glycogen storage disease, thyroid disorders)\n- Congenital heart disease\n- Cancer-related, renal failure on dialysis"
+        }
+      ]
     },
     {
       "id": "2021-293",
