@@ -121,6 +121,9 @@ dateRev: 2026-07-10
 > [!question]- Which statement about differentiation of solid renal tumor with MR imaging is correct? (2021-192)
 > **E（All statements are correct）**——(A) clear cell RCC 典型呈 T2 高訊號、(B) papillary RCC 典型 T2 低訊號且乏血管、(C) chromophobe RCC 與 oncocytoma 影像特徵重疊（可源自共同前驅細胞，中央疤痕／spoke-wheel 非 oncocytoma 專屬）、(D) 典型 angiomyolipoma 因含巨觀脂肪，於 opposed-phase 之脂肪／非脂肪界面呈 India ink artifact，四者皆正確。
 
+> [!question]- Which of the following about renal tumor is WRONG? (2021-358)
+> **B（Papillary 為最常見 RCC 亞型）為錯**——最常見亞型為 clear cell（~70%），papillary 約 10–20% 居次。A RCC 佔腎惡性 >90% 且好發腫瘤栓、C T3a 定義為侷限於腎靜脈、D AML 為最常見良性實質腎腫瘤，皆正確。
+
 ## 考題
 ```dataview
 list from #交換 where contains(concepts, "renal-cell-carcinoma")

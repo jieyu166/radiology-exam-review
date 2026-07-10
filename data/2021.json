@@ -13468,7 +13468,9 @@
       "reference": "Double contrast Gastrointestinal Radiology. 1999；2021 交換考官方詳解 PDF p370",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "double-contrast-barium-study"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總邱乃祈醫師",
@@ -13579,7 +13581,10 @@
       "reference": "Iraha Y, et al. CT and MR Imaging of Gynecologic Emergencies. Radiographics 2017; 37:1569–1586.；2021 交換考官方詳解 PDF p374",
       "explanation": "【2021 官方詳解】\nD. ipsilateral uterine deviation",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "adnexal-torsion",
+        "ectopic-pregnancy"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",
@@ -13693,7 +13698,10 @@
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p378",
       "explanation": "【2021 官方詳解】\nB. clear cell type is the most common subtype of RCC\n(Also most common associated with tumor thrombus)\nC.\nT3a disease when confined to the renal vein\nT3b disease when within the infradiaphragmatic IVC\nT3c disease when there is supradiaphragmatic extension or tumor invades the wall of the IVC\n\n⚠️ 疑似與 2021-008 為同一題（相似度 0.822），請醫師確認是否合併。",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "renal-cell-carcinoma",
+        "renal-aml"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",
