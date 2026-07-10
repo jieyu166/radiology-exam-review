@@ -14395,8 +14395,7 @@
       "reference": "Taylor E, et al. Multimodality Imaging Approach to Ovarian Neoplasms with Pathologic Correlation. Radiographics 2021; 41:289-315.；2021 交換考官方詳解 PDF p375",
       "explanation": "【2021 官方詳解】\nB. Epithelial cell neoplasms are the most common, followed by germ cell tumors\n\n⚠️ 本題含影像（官方詳解 PDF 第 375 頁），影像尚未匯入，判讀請對照原檔。",
       "images": [
-        "2021-356-1.png",
-        "2021-356-2.png"
+        "2021-356-1.png"
       ],
       "concepts": [
         "ovarian-tumors-imaging"
@@ -14405,7 +14404,14 @@
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",
       "sourcePage2021": 375,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-356-2.png",
+          "type": "text",
+          "markdown": "- Both endometrioid and clear cell carcinomas are associated with Lynch syndrome, which is often accompanied by synchronous endometrial carcinoma. Both subtypes are also highly associated with endometriosis.\n- There are characteristic imaging findings of mature teratomas owing to the presence of sebaceous material or fat, hair, teeth (calcification), bone, or cartilage. At MRI, the fatty component of the mass demonstrates high T1 and T2 signal intensity with loss of signal intensity at fat-suppressed MR imaging. The T1-weighted fat-saturated sequence is crucial in distinguishing fat signal intensity from hemorrhage (which remains T1 hyperintense)."
+        }
+      ]
     },
     {
       "id": "2021-357",
@@ -14435,16 +14441,24 @@
       "correctAnswer": "A",
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p376",
       "explanation": "【2021 官方詳解】\nA. At imaging, tumor thrombus is more expansive than bland thrombus, demonstrates enhancement, and may have imaging features similar to those of the primary malignancy. Another helpful indicator of tumor thrombus is contiguity with the primary mass.\nICC: intrahepatic cholangiocarcinoma\nPNET: pancreatic neuroendocrine tumor\n\n⚠️ 本題含影像（官方詳解 PDF 第 376 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-357-1.png",
-        "2021-357-2.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "易",
       "author": "臺北榮總陳蓉宣醫師",
       "sourcePage2021": 376,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-357-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- At imaging, tumor thrombus is more expansive than bland thrombus, demonstrates enhancement, and may have imaging features similar to those of the primary malignancy. Another helpful indicator of tumor thrombus is contiguity with the primary mass.\n- Tumor types most commonly associated with invasion of the IVC are RCC, HCC, adrenocortical carcinoma, and primary leiomyosarcoma of the IVC.\n- The growth pattern of ICC with respect to the veins is typically more encasement with narrowing or occlusion rather than venous invasion with tumor thrombus. Some studies have reported the presence of macrovascular portal tumor thrombus in up to 15%–20% of cases of ICC, suggesting that tumor in vein may be an overlooked feature."
+        },
+        {
+          "file": "2021-357-2.png",
+          "type": "text",
+          "markdown": "- PNETs most commonly invade the splenic vein but can also extend into or separately involve the superior mesenteric or main portal vein or uncommonly smaller branch veins, depending on the location of the primary tumor. Tumor thrombus can be extensive, resulting in significant venous hypertension and venous collateral formation, including formation of gastric varices.\n- At US of the iliac or femoral veins, an overly expansive thrombus or a thrombus that deforms or extends beyond the vessel wall should raise suspicion for venous leiomyosarcoma and prompt careful Doppler interrogation for internal flow or further characterization with multiphase CT or MRI."
+        }
+      ]
     },
     {
       "id": "2021-358",
@@ -14719,16 +14733,24 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2021; 41:156–174；2021 交換考官方詳解 PDF p384",
       "explanation": "【2021 官方詳解】\nC. high signal intensity at T2-weighted MRI (edema)\n\n⚠️ 本題含影像（官方詳解 PDF 第 384 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-364-1.png",
-        "2021-364-2.png"
-      ],
       "concepts": [],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總游鎧蔚醫師",
       "sourcePage2021": 384,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-364-1.png",
+          "type": "text",
+          "markdown": "**TEACHING POINTS**\n\n- Skull base osteomyelitis (SBO) is an infection of the temporal, sphenoid, or occipital bones that is typically caused by a complication of improperly treated otogenic or sinonasal infection in elderly patients with diabetes or immunocompromised patients.\n- SBO frequently has an otogenic origin, typically in patients with diabetes and recurrent otitis externa. Other causes of SBO include suppurative otitis media or mastoiditis. In these patients, the infection usually extends inferiorly from the osseous-cartilaginous junction of the external auditory canal, through the vertical fissures of Santorini to the Haversian system of the compact bone of the infratemporal fossa, affecting the lower cranial nerve foramina.\n- *Pseudomonas aeruginosa* is the most prevalent bacteria, followed by *Staphylococcus aureus*. Other bacteria that are seen less frequently include *Staphylococcus epidermidis*, *Salmonella* species, *Proteus mirabilis*, nontuberculous *Mycobacterium* species, *Streptococcus pneumoniae*, *Treponema pallidum*, and *Klebsiella* species. There is general agreement that the most frequently seen fungus is *Aspergillus* species, although it depends on the study."
+        },
+        {
+          "file": "2021-364-2.png",
+          "type": "text",
+          "markdown": "- The diagnosis of SBO is usually delayed. In our study, the mean time from the onset of symptoms to diagnosis was 6 months, owing to the nonspecific symptoms of SBO, its long clinical course, and the fact that it mimics malignancies on radiologic images. The diagnosis of SBO should be based on four points: a high index of clinical suspicion, radiologic evidence of infection, repeated biopsy results that are negative for malignancy, and positive microbiologic isolation.\n- NPC is the main diagnosis to consider in the differential diagnosis of SBO. Given that imaging does not allow differentiation of SBO from NPC, a biopsy is necessary. The imaging findings for these two entities are similar, with contrast-enhanced CT showing an enhancing mass with aggressive behavior, bone erosion, and opacification of mastoid cells. MRI also reveals an enhancing mass with bone infiltration. Diffusion tends to be restricted, with low ADCs. According to Goh et al, there are several characteristics of MRI examinations that can help in differentiation of these two diseases. Findings such as the involvement of lateral structures, soft-tissue enhancement, high signal intensity at T2-weighted MRI (edema), and abscess formation can lead to suspicion for SBO."
+        }
+      ]
     },
     {
       "id": "2021-365",
@@ -14834,9 +14856,6 @@
       "correctAnswer": "C",
       "reference": "RadioGraphics 2018; 38:169–193；2021 交換考官方詳解 PDF p388",
       "explanation": "【2021 官方詳解】\nC:\nMOG-IgG–positive NMOSD patients usually have younger age of onset than AQP4-IgG–positive patients and tend to have monophasic course with a favorable outcome\n\n⚠️ 本題含影像（官方詳解 PDF 第 388 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-367-1.png"
-      ],
       "concepts": [
         "neuromyelitis-optica"
       ],
@@ -14844,7 +14863,14 @@
       "difficulty": "中",
       "author": "臺北榮總陳書庭醫師",
       "sourcePage2021": 388,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-367-1.png",
+          "type": "table",
+          "markdown": "**Table 3: Clinical and Radiologic Features of NMOSD Patients with AQP4-IgG–positive Status versus MOG-IgG–positive Status**\n\n| Features | AQP4-IgG–positive Status | MOG-IgG–positive Status |\n|---|---|---|\n| Main target | Astrocytes | Myelin |\n| Evolution | Relapsing | Usually monophasic |\n| Prognosis | Poor | Favorable |\n| Gender | Female predominance | Lower female-to-male ratio or male predominance |\n| Approximate age of onset | More common in adults than in children | Younger age |\n| Phenotypes | Multiple phenotypes, but the most common are the core clinical syndromes of NMOSD | Various phenotypes, but the most common is optic neuritis |\n| Most common MR imaging patterns | Optic nerve: bilateral, long-length, and posterior involvement, usually with chiasmatic extension. Spinal cord: LETM; central/gray matter lesions; bright spotty lesions on T2-weighted images; dark lesions on T1-weighted images. Brain lesions: periependymal lesions and corticospinal tract involvement. Gadolinium enhancement: cloud-like enhancement; thin periventricular enhancement | Optic nerve: bilateral, long-length, and anterior involvement; severe optic disk swelling; perineural enhancement; optic chiasm less involved. Spinal cord: involvement of conus or thoracolumbar cord. Brain lesions: deep gray matter lesions; ADEM-like lesions (large cerebral lesions); fluffy lesions in the pons and cerebellar peduncles and adjacent to the fourth ventricle; periependymal areas rarely involved. Gadolinium enhancement: optic perineural enhancement |\n| Associated disorders | NMOSD, ADEM in children, autoimmune disorders | AQP4-IgG–negative NMOSD status, multiple sclerosis, ADEM, recurrent optic neuritis, LETM |\n\nNote.—ADEM = acute disseminated encephalomyelitis."
+        }
+      ]
     },
     {
       "id": "2021-368",
@@ -14950,9 +14976,6 @@
       "correctAnswer": "C",
       "reference": "Front Oncol. 2014 Jul 22;4:176. AJNR Am J Neuroradiol. 2019 Jan;40(1):154-161 Acta Neuropathol. 2012 Apr; 123(4): 473–484.；2021 交換考官方詳解 PDF p393",
       "explanation": "【2021 官方詳解】\nD. mild or no enhancement\nMedulloblastoma:\nWNT =>(least common, children and adults), cerebellar peduncle, best prognosis\nSHH =>(infants and adult) cerebellar hemisphere, intermediate prognosis,\nGroup3 =>(infants and children) midline, ill-defined margins but prominent enhancement, worst prognosis\nGroup4=> (most common,typically children) well-defined margins but mild or no enhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 393 頁），影像尚未匯入，判讀請對照原檔。",
-      "images": [
-        "2021-370-1.png"
-      ],
       "concepts": [
         "medulloblastoma-molecular-subgroups"
       ],
@@ -14960,7 +14983,14 @@
       "difficulty": "中",
       "author": "臺北榮總吳嘉紘醫師",
       "sourcePage2021": 393,
-      "hasImage": true
+      "hasImage": true,
+      "imageOcr": [
+        {
+          "file": "2021-370-1.png",
+          "type": "table",
+          "markdown": "**Table 3: Molecular Subgroups of Medulloblastoma**\n\n| Feature | Wnt | SHH | Group 3 | Group 4 |\n|---|---|---|---|---|\n| Frequency | ~10% | ~30% | ~20% | ~40% |\n| Age | Older children | Infants, older children, adolescents | Young children | All age groups to adulthood |\n| Male-to-female ratio | 1:1 | 1:1 | 2:1 | 3:1 |\n| Oncogenic drivers | CTNNB1 mutation, monosomy 6 | PTCHD1, smoothened, and SUFU mutations; GLI 1, GLI 2, and MYC amplifications | MYC and OTX2 amplifications, i17q | i17q, MYCN and OTX2 amplifications, SNCAIP duplication |\n| Survival | Very good (p53 status independent) | Intermediate (p53 status dependent) | Poor | Intermediate |\n| Location | CP angle | Cerebellar hemisphere | Midline or fourth ventricle (tumor may be small) | Midline or fourth ventricle |\n| Metastasis | Rare | Rare | Frequent | Frequent |\n| Enhancement | Variable | Yes, often intense | Yes | Variable, may be poor to none |\n\nNote.—CP = cerebellopontine, CTNNB1 = catenin beta 1 gene, GLI = zinc finger protein gene, OTX2 = orthodenticle homeobox 2 gene, PTCHD1 = patched-1 gene, SNCAIP = synuclein alpha interacting protein gene, SUFU = suppressor of fused gene."
+        }
+      ]
     },
     {
       "id": "2021-371",

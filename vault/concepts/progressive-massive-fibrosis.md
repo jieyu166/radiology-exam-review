@@ -41,6 +41,16 @@ dateRev: 2026-07-10
 - 支持 PMF：**雙側對稱**、含鈣化、伴上肺塵肺小結節背景、伴蛋殼淋巴結、隨訪**穩定或向肺門遷移**而非持續增大；團塊沿縱向呈串珠狀並與結節性支氣管血管束增厚相連（淋巴路徑分布）。[^2][^3]
 - 警訊（須排除合併肺癌）：**單側、快速增大、偏離典型上肺後段位置、新發空洞**——此類非典型 PMF 最易被誤判為肺癌，需切片或追蹤。[^3]
 
+### silicosis 疾病譜（PMF 之上位疾病，enrich）
+- **病因**：silicosis＝吸入**結晶型二氧化矽（crystalline silicon dioxide）**細顆粒所致之纖維化塵肺；高風險職業含採礦、採石、隧道、噴砂、人造石加工。[^5]
+- **臨床/影像分型**（依暴露後時序與型態）：[^5]
+  - **classic（典型）silicosis**：慢性間質性 reticulonodular 病變，是最常見型。再分：
+    - **simple silicosis**：小而圓或不規則的小陰影（1–10 mm，上肺後段為主，10–20% 結節鈣化）。
+    - **complicated silicosis＝progressive massive fibrosis（PMF）**：小結節聚合成**大團塊（conglomerate）**。
+  - **accelerated silicosis**：疾病快速進展之型態。
+  - **acute silicosis（＝silicoproteinosis）**：與典型型不同，病理為 alveolar silicoproteinosis；**CT 見雙側 centrilobular nodular GGO＋多灶 patchy GGO＋consolidation，類似 crazy-paving pattern**。[^5]
+- 此即為何 2021-344 三敘述（A 結晶矽吸入、B simple/complicated 定義、C acute/silicoproteinosis 類 crazy-paving）皆正確 → 答案 D（All above）。
+
 **鑑別診斷（DDx）**
 - **肺癌**（最重要，見上述鑑別重點）。[^3]
 - **Sarcoidosis 的 PMF-like 團塊**：第 IV 期類肉瘤亦可形成上肺旁肺門團塊伴遷移，背景為沿淋巴路徑之微結節與肺門/縱膈淋巴結病。[^2]
