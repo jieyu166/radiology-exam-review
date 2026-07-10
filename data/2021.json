@@ -10531,7 +10531,9 @@
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.137-140；2021 交換考官方詳解 PDF p228",
       "explanation": "【2021 官方詳解】\n(A) The causes of periosteal reaction are broad, including trauma, infection, arthritis, tumors, and drug-induced and vascular entities.\n(B) = Lipohemarthrosis, associated with a tibial plateau fracture or distal femoral fracture; rarely a patellar fracture. They have also been described in hip, shoulder, elbow and wrist fractures\n(C) This finding indicates a subtle but depressed fracture. The actual fracture line may not be apparent, but the double contour of the cortex reflects impaction.\n(D) may related to osteonecrosis, infraction, infection….",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "subtle-fracture-radiographic-signs"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "游治維",
