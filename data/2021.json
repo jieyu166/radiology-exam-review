@@ -586,7 +586,9 @@
       "images": [
         "2021-015-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "mammography-positioning"
+      ],
       "checked": false,
       "sourcePage2021": 179
     },
@@ -2130,7 +2132,9 @@
       "reference": "Radiographics 2012; 32: 721-740；2021 交換考官方詳解 PDF p287",
       "explanation": "ipsilateral arytenoids cartilage都被固定在前內側。\nAD. 同側擴張\n\n【2021 官方詳解】\nMost sensitive signs on axial CT of vocal cord paralysis (VCP):\n- ipsilateral piriform sinus dilatation => (A)\n- medial rotation and thickening of the aryepiglottic fold => (B)\n- ipsilateral laryngeal ventricle dilatation => (D)\nAnother helpful sign of VCP:\nAnteromedial displacement of the ipsilateral arytenoid cartilage with medial displacement of the posterior vocal cord margin.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "larynx-hypopharynx-subsite-anatomy"
+      ],
       "checked": false,
       "sourcePage2021": 287
     },
@@ -3223,7 +3227,9 @@
       "images": [
         "2021-082-1.png"
       ],
-      "concepts": [],
+      "concepts": [
+        "iodinated-contrast-media"
+      ],
       "checked": false,
       "sourcePage2021": 316
     },
@@ -4584,7 +4590,9 @@
       "reference": "p104 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p58",
       "explanation": "【2021 官方詳解】\nC. Kummell’s disease = osteonecrosis and collapse of a vertebral body.\nKümmell disease represents delayed (usually two weeks) vertebral body collapse due to ischemia and non-union of anterior vertebral body wedge fractures after major trauma.\nA. an intravertebral vacuum cleft and fluid may be seen",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "kummell-disease"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "林宇旌",
@@ -4747,7 +4755,9 @@
       "reference": "CT and MR Imaging of Ovarian Tumors with Emphasis on Differential Diagnosis. RadioGraphics 2002; 22:1305–1325；2021 交換考官方詳解 PDF p63",
       "explanation": "【2021 官方詳解】\nA. Only 10% of all ovarian tumors are due to metastatic tumor.\nThe colon and stomach are the most common primary tumor sites in ovarian metastasis, followed by the breast, lung, and contralateral ovary. The tumors represent 10% of all ovarian tumors and develop during the reproductive years (52). Krukenberg tumors are metastatic tumors to the ovary that contain mucin-secreting “signet ring” cells and usually originate in the gastrointestinal tract",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "krukenberg-tumor"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "黃彥綾",
@@ -6112,7 +6122,9 @@
       "reference": "Caffy’s Pediatric Diagnostic Imaging 11th ed. p.3005~6；2021 交換考官方詳解 PDF p110",
       "explanation": "【2021 官方詳解】\nLEUKEMIC BONE changes are for many reasons more common, more extensive, and more varied in children than in adults. (because more active bone marrow)\nmanifestations of bone marrow replacement\n- Ostepenia\n- Radiolucent metaphyseal bands (pediatric patient)\n- Periosteal reaction\n- coarse trabeculation: lead to an osteosclerotic appearanc\n- Vertebral body collapse (vertebra plana)\nAcute myeloid leukemia is common in > 65 y/o\nChronic myeloid leukemia is common in around 64 y/o",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "leukemia-skeletal-manifestations"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "周定遠",
@@ -6699,7 +6711,9 @@
       "reference": "1.Ching-Chung Ko, Hon-Man Liu, Tai-Yuan Chen, Te-Chang Wu, Li-Kai Tsai, Sung-Chun Tang, Yu-Kun Tsui, Jiann-Shing Jeng. Prediction of mTICI 3 recanalization and clinical outcomes in endovascular thrombectomy for acute ischemic stroke: a retrospective study in the Taiwan registry. Neurol Sci. 2021 Jun;42(6):2325-2335.；2021 交換考官方詳解 PDF p126",
       "explanation": "【2021 官方詳解】\nPretreatment collateral statuses, NIHSS scores, time lapses between symptoms to needle, and the occurrence of hemorrhage at 24 h are all significant predictors for good outcomes with odds ratios of 2.88, 0.91, 0.99, and 0.31 respectively.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "intra-arterial-thrombectomy"
+      ],
       "checked": false,
       "difficulty": "普通",
       "author": "柯景中",
@@ -7281,7 +7295,9 @@
       "reference": "Postoperative Imaging in Liver Transplantation: What Radiologists Should Know1    RadioGraphics 2010; 30:339–351；2021 交換考官方詳解 PDF p141",
       "explanation": "【2021 官方詳解】\nUS findings of a venous pulsatility index of less than 0.45 and monophasic waveforms in the hepatic veins are indicative of hepatic vein stenosis",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-transplant-doppler"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "蘇盈盈",
@@ -7399,7 +7415,9 @@
       "reference": "http://dx.doi.org/10.1594/ecr2016/C-0818；10.1594/ecr2016/C-0818；2021 交換考官方詳解 PDF p145",
       "explanation": "【2021 官方詳解】\nCT and MR are complementary modalities that allow for a comprehensive non-invasive assessment of a potential liver donor while either of these modalities is adequate for pre-transplant radiological assessment of a potential recipient.",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "liver-living-donor-imaging"
+      ],
       "checked": false,
       "difficulty": "易",
       "author": "劉綺霞",
@@ -13263,7 +13281,9 @@
       "reference": "ACR BI-RADS® atlas (2013). Follow-up and Outcome monitoring page13-20.；2021 交換考官方詳解 PDF p349",
       "explanation": "【2021 官方詳解】\nRecall rate was calculated by dividing the number of BI-RADS category 0 screening mammographic results by the total number of screening digital mammography examinations performed.\nCDR (cancer detection rate) was calculated by dividing the total number of malignancies by the total number of screening digital mammography examinations performed.\nPPV of positive screening result (PPV1) was calculated as the percentage of all positive screening examinations (BI-RADS categories 0, 4, and 5) that resulted in a diagnosis of cancer within 1 year\nPPV of biopsy recommendation (PPV2) (真陽性之數目)/(建議切片之數目)。\nthe percentage of screening examinations with biopsy recommendations (BI-RADS categories 4 and 5) that resulted in a cancer diagnosis within 1 year\nPPV of biopsied performed (PPV3) (真陽性之數目)/(所有切片之數目)。\nthe percentage of all known biopsies performed that resulted in a cancer diagnosis within 1 year",
       "images": [],
-      "concepts": [],
+      "concepts": [
+        "mammography-medical-audit-ppv"
+      ],
       "checked": false,
       "difficulty": "中",
       "author": "臺北榮總王甄醫師",
