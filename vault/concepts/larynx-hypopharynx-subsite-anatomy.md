@@ -8,7 +8,9 @@ aliases:
   - hypopharynx subsites
   - 喉部分區
   - 下咽分區
-dateRev: 2026-07-03
+  - vocal cord paralysis CT signs
+  - 聲帶麻痺
+dateRev: 2026-07-10
 ---
 
 # larynx-hypopharynx-subsite-anatomy
@@ -43,13 +45,32 @@ dateRev: 2026-07-03
 > [!note] 考點：下列那個構造不屬於supraglottis？
 > **Postcricoid area（D）**——屬於下咽（hypopharynx）三分區之一（下咽前壁下段），非 supraglottis。FVC、arytenoid、epiglottis（及 AE fold、preepiglottic fat）皆為 supraglottis 組成。[^1][^2]
 
+## 聲帶麻痺之 CT 徵象（vocal cord paralysis, VCP）
+軸位 CT 上**最敏感的三個徵象**（Chin 等 2003：31 例臨床確診 VCP 中，每例皆具其中至少兩項）：[^3][^4]
+- **同側梨狀窩擴張（ipsilateral piriform sinus dilatation）**——充氣擴張。
+- **同側喉室擴張（ipsilateral laryngeal ventricle dilatation）**——充氣。
+- **AE fold 之內旋與增厚（medial rotation and thickening of the aryepiglottic fold）**。
+
+其他有助徵象：[^3][^4]
+- **同側杓狀軟骨『前內側』移位（anteromedial displacement of the arytenoid cartilage）＋後段聲帶邊緣內移**——後環杓肌（posterior cricoarytenoid，主要外展肌）麻痺使杓狀軟骨向**前內側**半脫位、後段真聲帶內移。**注意：是 anteromedial，不是 lateral displacement。**
+- **Sail sign**：後段聲帶內移＋甲杓肌（thyroarytenoid）萎縮致喉室充氣，殘餘氣道呈船帆狀。
+- **Mushroom sign**（斜切面）、甲杓肌與後環杓肌萎縮、閉氣時患側聲帶維持外展而對側代償性內弓。
+- 冠狀重組：同側 subglottic arch 消失／變平。
+
+**判讀陷阱**：VCP 的杓狀軟骨是**前內側（anteromedial）**移位；「lateral displacement of arytenoid cartilage」為錯誤敘述（杓狀軟骨反被固定於前內側）。腫瘤（喉/梨狀窩鱗癌）浸潤、杓狀軟骨脫位、斜切面等可 mimic VCP。[^4]
+
 ### 參考來源
 [^1]: 官方2020詳解；Ref: Larynx and hypopharynx. Radiol Clin North Am. 1998;36:891-920（題目所引）——喉部三分區(supraglottis/glottis/subglottis)、下咽三分區(piriform sinus/postcricoid/posterior pharyngeal wall)；postcricoid 屬 hypopharynx 非 supraglottis。
 [^2]: **Tier 1** *Larynx and Hypopharynx*（Head and Neck Anatomy；Tang EWK, Ahuja AT 等，updated 2018-12-20）. STATdx（實際查證 accessed 2026-07-03）：**supraglottis＝epiglottis 尖至 ventricle，含 preepiglottic fat/AE folds/FVC/paraglottic space/arytenoid**；glottis＝TVC＋commissures；subglottis＝TVC 下緣至 cricoid 下緣；**下咽三分區＝piriform sinus(apex 位 TVC 高度)、postcricoid region(cricoarytenoid joints→cricoid 下緣，下咽與喉交界)、posterior hypopharyngeal wall**；**AE fold 為 supraglottis 上外側緣、分隔 piriform sinus**；preepiglottic 與 paraglottic space 為腫瘤擴散途徑。與 [^1] 一致並更正 postcricoid 上界為 cricoarytenoid joints（非 hyoid）、補脂肪間隙擴散途徑與軟骨標記。原「官方 2020 詳解（題目所引）」弱來源已由本次 Tier 1 全文查核升級。
+[^3]: *Vocal fold paralysis*. Radiopaedia.org（rID 21747，DOI [10.53347/rID-21747](https://doi.org/10.53347/rID-21747)；實際查證 accessed 2026-07-10）：CT 徵象含 enlarged pyriform sinus、medialization and thickening of the aryepiglottic fold、enlarged laryngeal ventricle（sail sign）、thyroarytenoid muscle atrophy、**anteromedial deviation of the arytenoid cartilage**、患側聲帶外展合併對側代償性內移、posterior cricoarytenoid muscle atrophy。
+[^4]: **Tier 1** Paquette CM, Manos DC, Psooy BJ. *Unilateral Vocal Cord Paralysis: A Review of CT Findings, Mediastinal Causes, and the Course of the Recurrent Laryngeal Nerves*. RadioGraphics 2012;32(3):721-740（DOI [10.1148/rg.323115129](https://doi.org/10.1148/rg.323115129)；奇美 Chrome 帳號實際查證 accessed 2026-07-10）：「The most sensitive signs on axial CT scans are (a) ipsilateral piriform sinus dilatation, (b) medial rotation and thickening of the aryepiglottic fold, and (c) ipsilateral laryngeal ventricle dilatation」（Chin 2003：31 例每例皆具其中≥2 項）；另一有助徵象為「**anteromedial displacement of the ipsilateral arytenoid cartilage** with medial displacement of the posterior vocal cord margin」；後環杓肌（主要外展肌）麻痺使杓狀軟骨向前內側半脫位；sail/mushroom sign。（STATdx 於本次 session 遭圖書館登入牆阻擋，改以白名單 RadioGraphics 正文查核。）
 
 ## 題目
 > [!question]- 下列那個構造不屬於 supraglottis？ (2020-254)
 > **Postcricoid area（D）**——屬於下咽(hypopharynx)之次分區（下咽前壁下段），與 supraglottis 之 epiglottis、FVC、arytenoid 不同系統。[^1][^2]
+
+> [!question]- Which is not one of signs of vocal cord paralysis at CT? (2021-054)
+> **C（Lateral displacement of ipsilateral arytenoid cartilage——非 VCP 徵象）**——VCP 之杓狀軟骨為**前內側（anteromedial）移位**（被固定於前內側），非向外側移位。A（同側梨狀窩擴張）、B（AE fold 內旋與增厚）、D（同側喉室擴張）皆為聲帶麻痺之正確 CT 徵象。[^3][^4]
 
 ## 考題
 ```dataview
