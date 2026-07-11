@@ -11703,29 +11703,29 @@
       "options": [
         {
           "letter": "A",
-          "text": "輕微症狀就一般而言是不需要治療"
+          "text": "每連續五年週期之有效劑量不得超過 100 mSv"
         },
         {
           "letter": "B",
-          "text": "中度症狀需要生理監測和保留IV, 但不需要治療"
+          "text": "任何單一年內之有效劑量不得超過 50 mSv"
         },
         {
           "letter": "C",
-          "text": "嚴重症狀需要治療"
+          "text": "眼球水晶體之等價劑量於一年內不得超過 150 mSv"
         },
         {
           "letter": "D",
-          "text": "嚴正症狀可以給予epinephrine (1:1000)1M"
+          "text": "皮膚或四肢之等價劑量於一年內不得超過 100 mSv"
         }
       ],
       "correctAnswer": "D",
-      "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia《Contrast media adverse reactions》 + STATdx Berg《Contrast Reactions》Tier-1）",
-      "explanation": "⚠️ 題幹與選項不符：原始 PDF 題幹被誤植為「輻射工作人員職業曝露之劑量限度」，但四個選項實際描述對比劑急性反應的嚴重度分級與處置。依選項內容判讀：A（輕微多不需治療）正確、C（嚴重需治療）正確、D（嚴重可給 1:1000 IM epinephrine）依 ACR/RANZCR 亦為正確；而 B（中度只需監測與保留 IV「但不需要治療」）為錯誤——中度反應需特定治療。故若問「何者錯誤」臨床上最可能為 B；匯入資料標記答案為 D，因題幹嚴重降級無法確認，暫從原始標記並保留此旗標供院方原始詳解覆核。→ [[contrast-adverse-reactions]]",
+      "reference": "《游離輻射防護安全標準》第 7 條（全國法規資料庫）",
+      "explanation": "答案 D。依《游離輻射防護安全標準》第 7 條，輻射工作人員職業曝露劑量限度：有效劑量每連續五年週期 ≤100 mSv 且任一年 ≤50 mSv（A、B 正確）；眼球水晶體等價劑量一年內 ≤150 mSv（C 正確）；**皮膚或四肢之等價劑量一年內 ≤500 mSv**——選項 D 寫「100 mSv」為錯誤（應為 500 mSv）。⚠️ 版本註：ICRP 2011《Statement on Tissue Reactions》建議水晶體年限度下修為 20 mSv（5 年平均、單年上限 50），惟我國《游離輻射防護安全標準》第 7 條至今（2026-07 查證全國法規資料庫）仍維持 150 mSv/年、尚未跟進——故本題 C（150）依現行台灣法規為正確。→ [[radiation-incident-reporting]]",
       "images": [],
       "concepts": [
-        "contrast-adverse-reactions"
+        "radiation-incident-reporting"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-380",
