@@ -8816,12 +8816,12 @@
       ],
       "correctAnswer": "B",
       "reference": "詳見 [[retroperitoneal-fibrosis]]（Radiopaedia Chronic periaortitis／Ormond disease；RadioGraphics 2013 retroperitoneal fibrosis imaging）",
-      "explanation": "⚠️ 原卷選項於匯入時併為單一段落、無法對應到題號答案字母（來源答 B），僅能就內容判讀。本題問「何者敘述錯誤」。良性／原發性 RPF 為浸潤性斑塊、貼脊椎而不把主動脈往前抬離脊椎（primary RPF 主動脈不被自脊椎前推），此敘述正確；斑塊確可包繞 IVC；T1WI 多為均勻低訊號（正確）；且與自體免疫胰臟炎（IgG4-RD 譜系）相關（正確）。真正的判讀陷阱在輸尿管偏移方向——良性 RPF 把輸尿管牽向「內側（medial deviation）」，故若敘述作「laterally displaced ureters（外側偏移）」即為錯誤，外側偏移反而提示惡性／淋巴瘤。→ [[retroperitoneal-fibrosis]]",
+      "explanation": "A. 良性／原發性 RPF 為浸潤性斑塊、貼脊椎而不把主動脈往前抬離脊椎（primary RPF 主動脈不被自脊椎前推），此敘述正確； B. 斑塊確可包繞 IVC；真正的判讀陷阱在輸尿管偏移方向——良性 RPF 把輸尿管牽向「內側（medial deviation）」，故若敘述作「laterally displaced ureters（外側偏移）」即為錯誤，外側偏移反而提示惡性／淋巴瘤。 C. T1WI 多為均勻低訊號（正確）； D. 與自體免疫胰臟炎（IgG4-RD 譜系）相關（正確）。",
       "images": [],
       "concepts": [
         "retroperitoneal-fibrosis"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-247",
@@ -9371,12 +9371,13 @@
       ],
       "correctAnswer": "C",
       "reference": "詳見 [[ipf]]（Radiopaedia UIP；STATdx IPF 佐證 UIP pattern 與其分布特徵）",
-      "explanation": "⚠️ 本題原卷選項僅擷取到 A（列出 SLE／皮肌炎／類風濕性關節炎／硬皮症四種結締組織病），完整選項未匯入，無法對映原答案「C」之文字。就臨床事實而言，於結締組織病相關間質性肺病（CTD-ILD）中，UIP 型態最常見於類風濕性關節炎（RA）；SLE、皮肌炎、硬皮症則以 NSIP 為主。本概念（[[ipf]]）聚焦 idiopathic UIP 之影像型態與分布，未逐項收錄各 CTD 之 ILD 型態分布，答案依原卷保留為 C 並標記待醫師比對完整選項與原始文獻。→ [[ipf]]",
+      "explanation": "答案 C。就臨床事實而言，於結締組織病相關間質性肺病（CTD-ILD）中，UIP 型態最常見於**類風濕性關節炎（RA）**；SLE、皮肌炎（PM/DM）、硬皮症（SSc）則以 NSIP 為主。見下方詳解附圖 Table 1。→ [[ipf]]",
       "images": [],
       "concepts": [
         "ipf"
       ],
-      "checked": false
+      "checked": true,
+      "imageOcr": "**Table 1. Radiological pattern in CTD-ILD**（結締組織病相關間質性肺病之放射學型態）\n\n| 疾病 | NSIP | UIP | OP | PH | DAD | LIP | Hemorrhage | Airways disease |\n| --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n| **RA**（類風濕性關節炎） | + | **++++** | ++ | | | + | | ++++ |\n| SSc（硬皮症） | ++++ | + | + | +++ | + | | | |\n| PM/DM（多發性肌炎/皮肌炎） | ++++ | + | ++++ | | + | | | |\n| SjS（乾燥症） | ++ | + | + | | | ++++ | | +++ |\n| MCTD（混合結締組織病） | ++ | + | | + | | | | |\n| SLE（全身性紅斑性狼瘡） | ++ | + | | ++ | ++ | | + | |\n\n> `+` 個數代表觀察到該損傷型態的頻率：`++++` = 很常見／臨床顯著，`+` = 較少見，空白 = 罕見或未描述。\n> **判讀重點**：UIP 欄唯有 **RA 為 ++++**，其餘 CTD 皆僅 `+`——故「UIP 最常見於哪種 CTD」答 **RA**；SSc、PM/DM、SjS 以 NSIP／OP／LIP 為主。"
     },
     {
       "id": "2022-262",
