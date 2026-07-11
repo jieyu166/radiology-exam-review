@@ -14174,11 +14174,11 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiographics 2020;40:961-981；2021 交換考官方詳解 PDF p366",
-      "explanation": "【2021 官方詳解】\nC.\nIn cardiac amyloidosis, typical LGE pattern involves global subendocardial LGE distributed in a non–coronary artery territory with a dark blood pool.\n\n⚠️ 本題含影像（官方詳解 PDF 第 366 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "In cardiac amyloidosis, typical LGE pattern involves **global subendocardial** LGE distributed in a non–coronary artery territory with a dark blood pool.",
       "concepts": [
         "cardiac-amyloidosis"
       ],
-      "checked": false,
+      "checked": true,
       "difficulty": "中",
       "author": "臺北榮總張瀛月醫師",
       "sourcePage2021": 366,
