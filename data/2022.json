@@ -8964,12 +8964,12 @@
       ],
       "correctAnswer": "C",
       "reference": "詳見 [[moyamoya]]（Radiopaedia moyamoya disease；Tarasów Pol J Radiol 2011 PMC3389911）",
-      "explanation": "⚠️（原始匯入選項殘缺、僅單一敘述，答案沿用來源標記 C）此題問「何者敘述錯誤」。敘述中錯誤之處為「engorged collaterals may produce FLAIR dark sulci (ivy sign)」——ivy sign 為 FLAIR 上沿腦溝腦回的「高訊號（bright）」，代表軟腦膜側支內緩慢逆行血流，並非「dark sulci」。其餘敘述皆正確：血管攝影 puff of smoke、supraclinoid ICA 狹窄／閉塞、T2 多發細小 flow void 為擴張側支、偶爾侵犯後循環。詳見 → [[moyamoya]]",
+      "explanation": "敘述中錯誤之處為「engorged collaterals may produce FLAIR dark sulci (ivy sign)」——ivy sign 為 FLAIR 上沿腦溝腦回的「高訊號（bright）」，代表軟腦膜側支內緩慢逆行血流，並非「dark sulci」。其餘敘述皆正確：血管攝影 puff of smoke、supraclinoid ICA 狹窄／閉塞、T2 多發細小 flow void 為擴張側支、偶爾侵犯後循環。詳見 → [[moyamoya]]",
       "images": [],
       "concepts": [
         "moyamoya"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-251",
