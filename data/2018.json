@@ -5283,12 +5283,12 @@
       ],
       "correctAnswer": "C",
       "reference": "2018 交換考題 詳解 p.12（官方答案鍵標 C，並註記 D 也有爭議）；Friedewald SM, et al. JAMA 2014;311(24):2499-2507.",
-      "explanation": "Friedewald 2014 JAMA：DBT+FFDM 併用之 PPV1 較單獨 FFDM 更高（3.6% vs 1.8%），非更低，故 C 為錯誤敘述。recall rate 併用略低於單獨 FFDM（10.7% vs 10.3%，未達顯著）、癌偵測率併用較高（3.8‰ vs 1.8‰）。\n\n> [!warning] 官方詳解在此題答案欄註記「D也錯」，惟依 JAMA 2014 原始數據 D（切片比率可能較高）與 PPV 上升方向一致，暫依官方標示 C 為準，待醫師確認。\n\n見 [[breast-tomosynthesis]]",
+      "explanation": "Friedewald 2014 JAMA：DBT+FFDM 併用之 PPV1 較單獨 FFDM 更高（3.6% vs 1.8%），非更低，故 C 為錯誤敘述。recall rate 併用略低於單獨 FFDM（10.7% vs 10.3%，未達顯著）、癌偵測率併用較高（3.8‰ vs 1.8‰）。\n- 依 JAMA 2014 原始數據 D（切片比率可能較高）與 PPV 上升方向一致，然而不同研究可能有不同結果。\n見 [[breast-tomosynthesis]]",
       "images": [],
       "concepts": [
         "breast-tomosynthesis"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2018-144",
