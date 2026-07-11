@@ -15085,11 +15085,11 @@
       ],
       "correctAnswer": "C",
       "reference": "Front Oncol. 2014 Jul 22;4:176. AJNR Am J Neuroradiol. 2019 Jan;40(1):154-161 Acta Neuropathol. 2012 Apr; 123(4): 473–484.；2021 交換考官方詳解 PDF p393",
-      "explanation": "【2021 官方詳解】\nD. mild or no enhancement\nMedulloblastoma:\nWNT =>(least common, children and adults), cerebellar peduncle, best prognosis\nSHH =>(infants and adult) cerebellar hemisphere, intermediate prognosis,\nGroup3 =>(infants and children) midline, ill-defined margins but prominent enhancement, worst prognosis\nGroup4=> (most common,typically children) well-defined margins but mild or no enhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 393 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "D. mild or no enhancement Medulloblastoma: WNT =>(least common, children and adults), cerebellar peduncle, best prognosis SHH =>(infants and adult) cerebellar hemisphere, intermediate prognosis, Group3 =>(infants and children) midline, ill-defined margins but prominent enhancement, worst prognosis Group4=> (most common,typically children) well-defined margins but mild or no enhancement",
       "concepts": [
         "medulloblastoma-molecular-subgroups"
       ],
-      "checked": false,
+      "checked": true,
       "difficulty": "中",
       "author": "臺北榮總吳嘉紘醫師",
       "sourcePage2021": 393,
