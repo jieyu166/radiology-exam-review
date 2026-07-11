@@ -9409,12 +9409,12 @@
       ],
       "correctAnswer": "B",
       "reference": "詳見 [[lam]]（Radiopaedia Lymphangioleiomyomatosis；STATdx Lymphangioleiomyomatosis）",
-      "explanation": "⚠️ 原卷四個子敘述於匯入時併為單一段落、無法對應題號答案字母（來源答 B），僅能就內容判讀。LAM 為進展性囊狀肺病、幾乎僅見於女性（正確），可反覆自發性氣胸（正確），影像上以多發（>10）圓形薄壁含氣囊腫為特徵（正確）。錯誤在「occurs almost exclusively in women with Tuberous Sclerosis Complex」——LAM 分為散發型（S-LAM）與 TSC 相關型（TSC-LAM），並非幾乎僅發生於 TSC 患者；且與其併存者為 multifocal micronodular pneumocyte hyperplasia（MMPH），題敘「macronodular pneumocystic hyperplasia」亦屬用詞失準。故 TSC 專屬性之敘述為錯。→ [[lam]]",
+      "explanation": "答案 B。B「Associated with multiple macronodular pneumocystic hyperplasia」為錯誤——與 LAM／結節性硬化症併存的肺部病灶，**正確用詞為 multifocal micronodular pneumocyte hyperplasia（MMPH）**；題敘「macronodular pneumocystic hyperplasia」在結節大小（應為 micronodular 微結節，非 macronodular）與細胞名稱（pneumocyte 肺泡細胞，非 pneumocystic）皆用詞失準。A（進展性囊狀肺病、幾乎僅見於女性、與 TSC 相關）、C（以 >10 個圓形薄壁含氣囊腫為特徵）、D（可發生自發性氣胸）皆正確。→ [[lam]]",
       "images": [],
       "concepts": [
         "lam"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-263",
