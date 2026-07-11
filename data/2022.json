@@ -12006,7 +12006,7 @@
       "concepts": [
         "bladder-urethral-trauma-imaging"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-388",
@@ -12376,17 +12376,29 @@
       "options": [
         {
           "letter": "A",
-          "text": "Leriche syndrome May-Thurner syndrome and related venous thrombosis Acute femoral artery thrombosis due to arterial fibrillation Segmental chronic total occlusion of superficial femoral artery"
+          "text": "Leriche syndrome"
+        },
+        {
+          "letter": "B",
+          "text": "May-Thurner syndrome and related venous thrombosis"
+        },
+        {
+          "letter": "C",
+          "text": "Acute femoral artery thrombosis due to arterial fibrillation"
+        },
+        {
+          "letter": "D",
+          "text": "Segmental chronic total occlusion of superficial femoral artery"
         }
       ],
       "correctAnswer": "C",
       "reference": "詳見 [[peripheral-vascular-immediate-stenting]]（Radiopaedia May-Thurner syndrome + Tier-1 STATdx May-Thurner Syndrome）",
-      "explanation": "⚠️ 選項於題庫匯入時合併為單一長字串，請對照原卷。就內容判斷：Acute femoral artery thrombosis due to atrial fibrillation（心房顫動引起的急性股動脈栓塞）不適合即時支架——急性栓子阻塞第一線為 embolectomy／catheter-directed thrombolysis 清除血栓，而非直接放支架。其餘（Leriche syndrome 主動脈-髂動脈阻塞、May-Thurner 及相關靜脈血栓、SFA 節段性慢性完全閉塞）皆為結構性狹窄/閉塞病灶，適合血管成形±支架。→ [[peripheral-vascular-immediate-stenting]]",
+      "explanation": "就內容判斷：Acute femoral artery thrombosis due to atrial fibrillation（心房顫動引起的急性股動脈栓塞）不適合即時支架——急性栓子阻塞第一線為 embolectomy／catheter-directed thrombolysis 清除血栓，而非直接放支架。 其餘（Leriche syndrome 主動脈-髂動脈阻塞、May-Thurner 及相關靜脈血栓、SFA 節段性慢性完全閉塞）皆為結構性狹窄/閉塞病灶，適合血管成形±支架。→ [[peripheral-vascular-immediate-stenting]]",
       "images": [],
       "concepts": [
         "peripheral-vascular-immediate-stenting"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-401",
@@ -12890,17 +12902,17 @@
         },
         {
           "letter": "D",
-          "text": "腦部病灶主要為髓鞘脫失 (demyelination) 所致的白質病變"
+          "text": "以上答案皆正確"
         }
       ],
       "correctAnswer": "D",
       "reference": "詳見 [[tuberous-sclerosis]]（Radiopaedia TSC + Pediatr Neurol 2021 國際 TSC 診斷準則）",
-      "explanation": "⚠️ 原題四選項於資料匯入時退化合併為單一文字塊，已依來源重建為 A–D 並保留答案字母 D。A/B/C 均正確：TSC 為 mTOR 路徑失調之錯構瘤性／皮質發育不良疾病，可見皮質結節（cortical tubers）、室管膜下結節（subependymal nodules）與 SEGA，部分患者有心臟橫紋肌瘤。D「腦部病灶主要為髓鞘脫失（demyelination）所致之白質病變」為錯誤——TSC 中樞病灶屬皮質發育不良／錯構瘤，而非脫髓鞘型白質病。→ [[tuberous-sclerosis]]",
+      "explanation": "A/B/C 均正確：TSC 為 mTOR 路徑失調之錯構瘤性／皮質發育不良疾病，可見皮質結節（cortical tubers）、室管膜下結節（subependymal nodules）與 SEGA，部分患者有心臟橫紋肌瘤。→ [[tuberous-sclerosis]]",
       "images": [],
       "concepts": [
         "tuberous-sclerosis"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-416",
