@@ -9483,12 +9483,12 @@
       ],
       "correctAnswer": "D",
       "reference": "詳見 [[hepatic-hemangioma]]（Radiopaedia Hepatic hemangioma；Yang DM World J Gastroenterol PMC8727199）",
-      "explanation": "⚠️（原始匯入選項殘缺、僅顯示 A，答案沿用來源標記 D）就本題所示敘述而言，錯誤處在於「typical atypical hemangioma shows hypoechoic rim with hyperechoic center（低回音暈＋高回音中心）」——此描述與典型不符：脂肪肝背景下的不典型血管瘤反而呈「高回音暈／低回音中心」（相對背景反轉）。敘述中其他項正確：典型為界清、均質高回音腫塊；color Doppler 中央常測不到血流（慢流）；可見後方穿透增強（acoustic enhancement，非 shadowing）。詳見 → [[hepatic-hemangioma]]",
+      "explanation": "答案 D。錯誤處在於「typical atypical hemangioma shows hypoechoic rim with hyperechoic center（低回音暈＋高回音中心）」——此描述與典型不符：脂肪肝背景下的不典型血管瘤反而呈「高回音暈／低回音中心」（相對背景反轉），下方課本示意圖 panel ① 即為此樣態。![[Pasted image 20260711221853.png]]（課本示意 Figures 1–3，不典型肝血管瘤的三種超音波樣態：① 低回音型——邊緣扇貝狀高回音、內部以低回音為主，即「高回音暈＋低回音中心」，正與選項 D 所述相反；② 網狀型——病灶內線狀高回音帶形成 reticular pattern；③ 顆粒型——細點狀回音形成 granular 外觀。）敘述中其他項正確：典型血管瘤為界清、均質高回音腫塊（A）；color Doppler 中央常測不到血流（慢流，B）；可見後方穿透增強（acoustic enhancement，非 shadowing，C）。詳見 → [[hepatic-hemangioma]]",
       "images": [],
       "concepts": [
         "hepatic-hemangioma"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-265",
