@@ -8,7 +8,7 @@ aliases:
   - biphasic contrast
   - positive negative contrast
   - 腸道對比劑
-dateRev: 2026-06-19
+dateRev: 2026-07-12
 ---
 
 # mri-bowel-contrast
@@ -20,6 +20,7 @@ dateRev: 2026-06-19
 - **Negative（T2 暗）**：縮短 T2 或無質子 → T2WI 低訊號;如 **SPIO、鋇劑(barium)、氣體/空氣、perflubron**。[^1]
 - **Biphasic（水性）**：**T1 暗、T2 亮**;如 **水、mannitol、PEG、methylcellulose**——MR enterography 主力（腸腔擴張、T2 亮對比腸壁、T1 暗利於看強化）。[^1]
 - **稀釋鋇劑（dilute barium）為 water-based**：行為近 **biphasic**——CT 上 high density、MRI **T1 暗、T2 亮**（非 T2 暗）、US 近似水;疑腸道破漏時改用水溶性含碘劑、勿用鋇。[^1]
+- **框架對照**：Radiopaedia 專文以 **positive（亮）/negative（暗）二分法**分類（positive＝順磁劑 Gd/含鐵鹽,低濃度 T1 亮、高濃度轉 T2 暗；negative＝iron oxide/SPIO 使 T2 訊號下降）;此與本檔 MRE 腔內三分法之「biphasic＝T1 暗 T2 亮」可調和——同一水性劑在 T2 呈亮腔、T1 呈黑腔。[^3]
 
 ## 放射科醫師影像判讀重點
 - **判讀邏輯（腸腔對比與腸壁）**：MR enterography/enteroclysis 判讀之核心是「腸腔充分擴張 + 對比劑訊號與腸壁強化之對比」；biphasic(水性)腸內對比劑使腸腔在 T2WI 呈亮、T1WI 呈暗，故 T2 亮腸腔襯托腸壁水腫/T2 高訊號，T1 增強序列則凸顯強化之發炎腸壁——此為判讀 Crohn 病活動度之基礎。[^2]
@@ -40,6 +41,7 @@ dateRev: 2026-06-19
 ### 參考來源
 [^1]: MR 腸道對比劑分類（*Bowel contrast agents — Questions and Answers in MRI*, mriquestions.com；MR enterography 文獻）：positive（T1 短、T1 亮：Gd/Mn/lipid）／negative（T2 暗：SPIO/barium/air）／biphasic（水性：T1 暗 T2 亮：water/mannitol/PEG）;稀釋鋇劑為 water-based、MRI 呈 T1 暗 T2 亮。
 [^2]: **Tier 1** Masselli G, Gualdi G. *MR imaging of the small bowel*. Radiology 2012;264(2):333-348（據 PubMed，DOI [10.1148/radiol.12111658](https://doi.org/10.1148/radiol.12111658)；實際查證 accessed 2026-07-04）——Radiology 回顧：MR enteroclysis(經鼻腸管)與 MR enterography(口服)兩法比較，enteroclysis 於空腸/迴腸擴張較一致、對早期黏膜病變與低位阻塞更敏感，enterography 較不侵入且適合 Crohn 追蹤與兒童；強調口服對比劑充分擴張腸腔並以腔內訊號襯托腸壁強化為判讀關鍵。原「mriquestions.com」弱來源已由本次 DOI Tier 1 期刊查核升級。
+[^3]: **Radiopaedia（snippet/同意牆，未實讀全文）** *Gastrointestinal MRI contrast agents*. Radiopaedia.org, rID 21771, DOI [10.53347/rID-21771](https://doi.org/10.53347/rID-21771)（正文卡 Terms-of-Use，搜尋摘要 accessed 2026-07-12）——以 positive（亮）/negative（暗）二分框架；positive＝順磁劑（Gd、含鐵鹽）低濃度 T1 亮、高濃度轉 T2 暗；negative＝iron oxide/SPIO 使 T2 訊號下降。
 
 ## 考題
 ```dataview

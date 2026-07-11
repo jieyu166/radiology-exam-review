@@ -7,7 +7,7 @@ aliases:
   - Segond fracture
   - Gerdy's tubercle fracture
   - 撕脫性骨折附著點
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # avulsion-fracture-attachments
@@ -25,7 +25,9 @@ dateRev: 2026-07-10
 - **lateral capsular sign**：正面膝 X 光見脛骨外側平台邊緣**小片縱向撕脫骨片**；為 ACL 損傷之間接影像線索（~75% 伴 ACL 斷裂）、應進一步 MRI。[^2]
 - **機轉**：**internal rotation + varus stress**；見 Segond 須主動搜尋 ACL、外側半月板、後外側角損傷。[^2]
 - **reverse Segond**：脛骨**內側**平台撕脫（deep MCL/後斜韌帶），伴 PCL + 內側半月板損傷——與 Segond 對稱概念勿混。[^2]
-- **附著點記憶（配對）**：**Gerdy 結節＝腸脛束（ITB）、AIIS＝rectus femoris、坐骨結節＝hamstring、ASIS＝sartorius/TFL、lesser trochanter＝iliopsoas、tibial tubercle＝patellar tendon**；青少年運動員好發 apophyseal 撕脫。[^1]
+- **附著點記憶（配對）**：**Gerdy 結節＝腸脛束（ITB）、AIIS＝rectus femoris（直頭）、坐骨結節＝hamstring、ASIS＝sartorius/TFL、lesser trochanter＝iliopsoas、tibial tubercle＝patellar tendon**;骨盆 apophyseal 撕脫發生率 **坐骨結節 ~54% ＞ AIIS ~22% ＞ ASIS**;青少年運動員好發 apophyseal 撕脫。[^1][^4]
+- **影像時序陷阱**：撕脫傷於**亞急性/慢性癒合期**可呈混合溶解-硬化之「侵襲性」外觀,酷似腫瘤或骨髓炎——判讀須結合病史與部位,勿誤判為惡性。[^4]
+- **成人孤立 lesser trochanter 撕脫**：成人非外傷情境下孤立性小轉子撕脫須警覺**病理性（轉移）骨折**;lesser/greater trochanter 之肌肉配對屬教科書標準（非該 RG 表列）。[^4]
 - **陷阱**：勿把「伴隨損傷（ACL）」誤當「附著結構」；Segond 附著為 ALL/外側關節囊韌帶。[^1][^3]
 
 ## 臨床重點（5 句）
@@ -42,6 +44,7 @@ dateRev: 2026-07-10
 [^1]: 官方2016詳解；Internal Derangements of Joints, 2nd ed., p.616, 1787, 1792（題目所引）——Segond fracture為lateral capsular ligaments撕脫（非ACL本身，惟高度伴隨ACL斷裂）；Gerdy's tubercle fracture為iliotibial band撕脫；anteroinferior iliac spine fracture為rectus femoris撕脫；ischial tuberosity fracture為hamstring muscle撕脫。
 [^2]: Gaillard F, et al. *Segond fracture*. Radiopaedia, rID-8874, DOI 10.53347/rID-8874（輔助來源）——**膝關節撕脫骨折、侵犯脛骨外側平台、~75% 伴隨 ACL 斷裂**（正面 X 光為 lateral capsular sign）；機轉為 internal rotation + varus stress；傳統教學為 middle third of lateral capsular ligaments 撕脫，候選結構亦含 iliotibial band 與 ALL；reverse Segond＝脛骨內側平台撕脫伴 PCL/內側半月板損傷——佐證附著結構為關節囊韌帶而非 ACL 本身。
 [^3]: **Tier 1** Claes S, Luyckx T, Vereecke E, Bellemans J. *The Segond fracture: a bony injury of the anterolateral ligament of the knee*. Arthroscopy 2014;30(11):1475-82（據 PubMed，DOI [10.1016/j.arthro.2014.05.039](https://doi.org/10.1016/j.arthro.2014.05.039)；實際查證 accessed 2026-07-04）——屍體膝(n=30)+影像(n=26)研究：**ALL 為連接外側股骨上髁與前外側近端脛骨之明確韌帶；其脛骨附著中心距 Gerdy 結節 ~22.0 mm，與 Segond 骨折床距 Gerdy 之 ~22.4 mm 幾乎一致（差 0.4 mm，無統計/臨床意義）**；結論：**Segond 骨折為 ALL 之骨性撕脫，雖仍為 ACL 損傷之有用間接線索，應視為真正的韌帶撕脫本身**——直接佐證「Segond 附著結構為 ALL/外側關節囊韌帶而非 ACL」。原「官方/Radiopaedia」弱來源已由本次 PubMed DOI Tier 1 查核升級。
+[^4]: **Tier 1（摘要，白名單）** Stevens MA, El-Khoury GY, Kathol MH, Brandser EA, Chow S. *Imaging Features of Avulsion Injuries.* RadioGraphics 1999;19(3):655-672（DOI [10.1148/radiographics.19.3.g99ma05655](https://doi.org/10.1148/radiographics.19.3.g99ma05655)，PMID 10336196；摘要實讀，全文需登入 accessed 2026-07-12）——骨盆 apophyseal 撕脫各附著點;**亞急性/慢性癒合期呈混合溶解-硬化之「侵襲性」外觀,可似腫瘤或骨髓炎**（影像時序陷阱）。附著點細節經免費 PMC3445104（Kjellin 2010, Sports Health, Tier-2 open access）交叉核實：ASIS→sartorius、AIIS→rectus femoris 直頭、ischial tuberosity→hamstrings、iliac crest→腹肌/臀肌、pubic symphysis→adductors；發生率 ischial tuberosity ~54%＞AIIS ~22%＞ASIS。lesser/greater trochanter 配對屬教科書標準（非該 RG 表列）；成人孤立 lesser trochanter 撕脫須警覺病理性（轉移）骨折。
 
 ## 題目
 > [!question]- 下列tendon or ligament attach site avulsion fracture的配對,何者為錯？ (2016-279)

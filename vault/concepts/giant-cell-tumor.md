@@ -7,7 +7,7 @@ aliases:
   - GCT
   - osteoclastoma
   - 巨細胞瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # giant-cell-tumor
@@ -34,11 +34,11 @@ dateRev: 2026-07-10
 ### MRI / CT
 - **訊號**：T1 低至中等訊號;T2 不均勻、實質為主的高訊號;Gd 不均勻強化。[^2]
 - **含鐵血黃素 (hemosiderin)**：可造成局部**低訊號**區，為判讀提示之一。[^2][^3]
-- **次發 ABC**：約 10–14% 出現 **fluid-fluid levels**;此為次發動脈瘤樣骨囊腫，非惡性指標。[^2]
+- **次發 ABC**：約 10–14% 出現 **fluid-fluid levels**;此為次發動脈瘤樣骨囊腫，非惡性指標。[^2][^4]
 - **低訊號緣 / 皮質殼**：MRI 上腫塊內低 T2 訊號、CT 上對應皮質殼的 T2 hypointense rim，皆支持 GCT。[^3]
 
 ### 良性但可轉移／惡性
-- **肺轉移**：約 2–5%，多在 2–3 年內出現;轉移灶通常生長緩慢、可手術切除，>70% 預後良好——故 GCT「組織學良性卻可肺轉移」是經典考點。[^2]
+- **肺轉移**：約 **2–5%（文獻 1–6%）**，多在 2–3 年內出現;為良性肺植入,轉移灶通常生長緩慢、可手術切除，>70% 預後良好——故 GCT「組織學良性卻可肺轉移」是經典考點。[^2][^4]
 - **惡性 GCT**：約 5–10% 發生惡性轉化;次發性惡性變佔約 87%，常與既往放療相關（次發性惡性 GCT 約 76% 有放療史）。[^2]
 - **判讀陷阱**：皮質破壞、軟組織腫塊等「侵襲徵象」是 GCT 本身可有的表現，**不等於惡性**;惡性需病理佐證或快速進展。[^2][^3]
 
@@ -56,6 +56,7 @@ dateRev: 2026-07-10
 [^1]: **Campanacci 影像分級（article 級）**。Campanacci M et al. *Giant-cell tumor of bone*. J Bone Joint Surg Am. 1987;69(1):106-114（doi:10.2106/00004623-198769010-00018）;分級內容並經 Sobti A et al. *Giant cell tumor of bone – an overview*. Arch Bone Jt Surg. 2016;4(1):2-9（PMC4733230）及下列 review 複核：Grade 1 latent／Grade 2 active／Grade 3 aggressive 與對應治療策略。
 [^2]: **review（article 級，PMC 開放全文）**。van der Heijden L 等綜論與 Chakarun CJ et al. *Giant cell tumor of bone: review, mimics, and new developments in treatment*. RadioGraphics. 2013;33(1):197-211（doi:10.1148/rg.331125089）;經 *Giant cell tumor of bone revisited*. SICOT-J. 2017;3:54（doi:10.1051/sicotj/2017041, PMC5598212）查證：meta-epiphyseal、軟骨下延伸（84–99% 距關節面 1 cm 內）、closed physis（約 80% 在 20–55 歲）、好發遠端股骨 23–30%／近端脛骨 20–25%／遠端橈骨 10–12%／薦骨 4–9%、multicentric <1%;MRI T1 低-中、T2 高、含鐵血黃素低訊號、次發 ABC fluid-fluid levels 10–14%;肺轉移 2–5%、惡性轉化 5–10%（次發惡性 ~87%，放療相關 ~76%）。
 [^3]: **review（article 級，PMC 開放全文）**。*Radiological Features of Giant Cell Tumours of Bone*（PMC7381871）與 *Imaging of giant cell tumor of bone*（PMC2989147）：地圖狀溶骨、**窄移行帶非硬化緣**、無基質礦化、無骨膜反應（除非病理性骨折）、CT 評估皮質殼;MRI 腫塊內低 T2 訊號、CT 對應 T2 hypointense rim 支持 GCT;DDx——fluid-fluid levels 為 ABC 特徵、棕色瘤需結合 PTH／高血鈣、chondroblastoma 骨骺且 MRI 明顯骨髓水腫、clear cell chondrosarcoma 骨骺惡性、giant cell-rich／telangiectatic osteosarcoma 膨脹但少大量骨樣基質。
+[^4]: **Radiopaedia（snippet/403，未實讀全文）** *Giant cell tumour of bone*. Radiopaedia.org, rID 1385, DOI [10.53347/rID-1385](https://doi.org/10.53347/rID-1385)（搜尋摘要 accessed 2026-07-12）——骨骺閉合後 20–40 歲、長骨末端偏心延伸至軟骨下、遠端股骨最常見；次發 ABC 達 10–14%（fluid-fluid levels）；肺轉移約 2–5%（文獻 1–6%）屬良性肺植入。與既有白名單 Tier-1（Chakarun RadioGraphics 2013）一致。
 
 ## 題目
 > [!question]- Which of the following lesions does not present matrix mineralization? (2021-202)

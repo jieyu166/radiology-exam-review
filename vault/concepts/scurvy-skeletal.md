@@ -5,7 +5,7 @@ subspecialty: [PE, MSK]
 aliases:
   - 壞血病骨骼表現
   - vitamin C deficiency
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # scurvy-skeletal
@@ -22,9 +22,9 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **好發部位與長骨判讀**：變化最明顯於生長最快的幹骺端(膝周、遠端股骨/近端脛骨、近端肱骨、遠端橈尺骨、肋骨-肋軟骨交界)；平片應優先評估這些部位的幹骺端與骨骺周緣。[^1][^2]
-- **Frankel 白線與 Trümmerfeld 透亮帶**：幹骺端因鈣化軟骨堆積、無法被吸收而呈緻密白線(Frankel line/white line of Frankel)，其下方為骨質稀疏的透亮帶(Trümmerfeld/scurvy line)，兩者並存是特徵組合。[^1][^2]
-- **Pelkan spur / corner sign 與 Wimberger ring**：幹骺端邊緣骨折突出形成 Pelkan spur(角徵)；骨骺周緣緻密硬化環為 Wimberger ring sign(有別於先天梅毒之 Wimberger sign＝近端脛骨內側幹骺端侵蝕)。[^1]
-- **骨膜下出血與抬升**：膠原不良致血管脆弱，骨膜下出血使骨膜抬升，急性期平片可不明顯，恢復期出血鈣化後才顯著；表現為瀰漫性骨質疏鬆背景。[^1][^2]
+- **Frankel 白線與 Trümmerfeld 透亮帶**：幹骺端因鈣化軟骨堆積、無法被吸收而呈緻密白線(Frankel line/white line of Frankel＝幹骺端暫時鈣化帶)，其下方為骨質稀疏的透亮帶(Trümmerfeld/scurvy line＝Frankel 線下之透亮出血帶)，兩者並存是特徵組合。[^1][^2][^3][^4]
+- **Pelkan spur / corner sign 與 Wimberger ring**：幹骺端邊緣微骨折癒合刺突/杯狀變形成 Pelkan spur(角徵)；骨骺骨化中心周緣緻密硬化環為 Wimberger ring sign(有別於先天梅毒之 Wimberger sign＝近端脛骨內側幹骺端侵蝕)。[^1][^3]
+- **膠原缺陷機制與骨膜下出血**：維生素 C 缺乏使**膠原轉譯後修飾障礙**→血管脆弱、骨膜下出血使骨膜抬升,並致骨折;急性期平片可不明顯，恢復期出血鈣化後才顯著；背景常見 diffuse osteopenia、生長板增寬、subepiphyseal corner fracture。[^1][^2][^4]
 - **判讀陷阱與進階影像**：早期平片可正常，MRI 可見類似白血病的骨髓訊號變化(含膠狀骨髓轉變)而被誤導；幹骺端角徵/骨膜下出血亦需與受虐兒童創傷、白血病、其他代謝性骨病鑑別，須結合飲食史與維生素 C 濃度。[^2]
 
 ## 臨床重點（5 句）
@@ -37,6 +37,8 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 2019 交換考詳解。
 [^2]: **Tier 1** Irvine I, Walshe T, Capra M, Hayes R. *Scurvy: an unusual complication of paediatric cancer treatment.* Skeletal Radiol 2018;48(6):995-998（據 PubMed，DOI [10.1007/s00256-018-3103-5](https://doi.org/10.1007/s00256-018-3103-5)；實際查證 accessed 2026-07-04）——壞血病為維生素 C 缺乏致膠原不良，工業化國家罕見但吸收不良(如癌症治療併發腸胃道疾病)可誘發；臨床見肢體疼痛壓痛，影像具特徵性放射學表現，補充維生素 C 後臨床與影像可完全恢復，須納入高風險病人之鑑別。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Radiopaedia（snippet/403，未實讀全文）** *Hypovitaminosis C (scurvy)*. Radiopaedia.org, rID 12433, DOI [10.53347/rID-12433](https://doi.org/10.53347/rID-12433)（搜尋索引摘要，原站 403；accessed 2026-07-12）——Frankel line（幹骺端暫時鈣化帶緻密白線）、Trümmerfeld/scurvy line（Frankel 線下之透亮出血帶）、Wimberger ring sign（骨骺骨化中心周緣緻密環）、Pelkan spur（幹骺端微骨折癒合刺突/杯狀變）、骨膜下出血。
+[^4]: **Tier 1（摘要，白名單）** Chang CY, Rosenthal DI, Mitchell DM, et al. *Imaging Findings of Metabolic Bone Disease.* RadioGraphics 2016;36(6):1871-1887（DOI [10.1148/rg.2016160004](https://doi.org/10.1148/rg.2016160004)，PMID 27726750；官方摘要實讀 accessed 2026-07-12）——維生素 C 缺乏使膠原轉譯後修飾障礙→骨膜下出血與骨折；個案見 diffuse osteopenia、Frankel lines、Trümmerfeld zones、生長板增寬、subepiphyseal corner fracture。
 
 ## 題目
 > [!question]- Which of the following statement about the skeletal manifestations of congenital syphilis is WRONG? (2021-100)

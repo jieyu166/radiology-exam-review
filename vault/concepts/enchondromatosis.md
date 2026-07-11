@@ -7,7 +7,7 @@ aliases:
   - Ollier disease
   - Maffucci syndrome
   - 多發性內生軟骨瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # enchondromatosis
@@ -18,21 +18,21 @@ dateRev: 2026-07-10
 - **Ollier disease（enchondromatosis）**：**非遺傳、散發**性骨骼疾患;多發性內生軟骨瘤,主要在**幹骺端**;常有**手足變形、肢長不等、彎曲/短縮**;偏側分布常見。[^1]
 - **Maffucci syndrome**：內生軟骨瘤 **＋ 軟組織血管瘤**（平片以**靜脈石 phleboliths** 提示）。[^1]
 - **本質為體細胞鑲嵌（somatic mosaicism）**：約 80% 病灶帶 **IDH1（p.Arg132）或 IDH2** 體細胞突變,非生殖細胞遺傳;故為散發、分布常偏側。[^2]
-- **惡性變**：兩型皆可轉**軟骨肉瘤**,Maffucci 風險更高;新發疼痛/快速增大/軟骨帽增厚須警覺。[^2][^3]
+- **惡性變**：兩型皆可轉**軟骨肉瘤**,Maffucci 風險更高;新發疼痛/快速增大/軟骨帽增厚須警覺。惡變率各家並列：Verdegaal 2011（一手數據）**Ollier 續發軟骨肉瘤 ~40%、Maffucci ~53%**;文獻範圍約 **20–57% 且部位相依（長骨 44–50% ＞ 手足 ~14%）**;Michaeli 2025 整體 **~30%**。[^2][^3][^8]
 
 ## 影像判讀
 
 ### 定義與分型
 - **Enchondroma**：源自髓腔的良性軟骨腫瘤,造成骨膨脹,單發病灶一般 ≤3 cm、不痛。多發＝enchondromatosis。[^2]
 - **Ollier disease**：多發性內生軟骨瘤(常 ≥3 個),典型**不對稱/偏側分布**,主要侵犯**四肢附肢骨骼**,但可累及軸性骨(骨盆、肋骨);可單側或雙側。發病年齡早(中位 ~5–11 歲)。[^2]
-- **Maffucci syndrome**：上述特徵**＋良性血管增生**(皮膚、內臟或軟組織血管畸形);其中約 8.5% 血管病灶可惡性變。[^2]
+- **Maffucci syndrome**：上述特徵**＋良性血管增生**(皮膚、內臟或軟組織血管畸形);其中約 8.5% 血管病灶可惡性變。[^2][^6]
 - DDx 鑑別需考慮 hereditary multiple osteochondromas、metachondromatosis、spondyloenchondrodysplasia 等。[^2]
 
 ### X 光徵象(判讀核心)
 - **軟骨基質鈣化**：呈典型 **rings-and-arcs / popcorn / punctate** 樣鈣化,反映軟骨小葉外圍的內生軟骨性骨化,是辨識軟骨腫瘤的關鍵。[^4]
 - **膨脹性透亮病灶**:位於髓腔,可使骨皮質變薄、骨膨脹;好發**手足短管狀骨與長骨幹骺端**。[^2][^4]
 - **生長/變形後遺**:因病灶位於幹骺端影響生長板,造成**骨短縮、彎曲變形、肢長不等(leg length discrepancy)**、scoliosis、步態異常,甚至病理性骨折;偏側分布是 Ollier 的辨識線索。[^2]
-- **靜脈石(phleboliths)**:Maffucci 的軟組織血管瘤在平片上呈**圓形鈣化(靜脈石)**,是與 Ollier 的影像分水嶺。[^1]
+- **靜脈石(phleboliths)**:Maffucci 的軟組織血管瘤在平片上呈**圓形鈣化(靜脈石)**,是與 Ollier 的影像分水嶺;Maffucci＝多發 enchondroma ＋軟組織靜脈畸形/血管瘤（靜脈石）。[^1][^7]
 
 ### CT / MRI
 - **CT**:最佳顯示**軟骨基質鈣化**型態(rings-and-arcs)與**骨皮質完整性/破壞**,評估惡變最有用的徵象之一是 deep cortical scalloping 與皮質破壞。[^4]
@@ -40,6 +40,7 @@ dateRev: 2026-07-10
 
 ### 惡變(軟骨肉瘤)警訊影像
 - **平片/CT**:**deep cortical scalloping(>骨皮質厚度 2/3)**、**皮質破壞**、出現**軟組織腫塊** → 偏向 sarcoma 而非良性 enchondroma。[^4]
+- **Murphey 判讀準則（附肢骨）**:惡變徵象含 deep endosteal scalloping（>皮質厚度 2/3）、皮質破壞＋軟組織腫塊、病灶相關疼痛、骨掃描明顯攝取;依此準則 ≥90% 附肢病例可區分 enchondroma 與 chondrosarcoma。[^5]
 - **MRI**(enchondromatosis 病人辨高/低惡性度的徵象):**骨髓水腫、骨膜反應、軟組織水腫**顯著者偏向高惡性度轉化;在大長骨,**皮質破壞與軟組織腫塊**亦為高惡性度預測;但**手足部位**這些徵象區辨力差(手足病灶判讀陷阱)。[^3]
 - **臨床配合**:新發或持續疼痛、病灶快速增大 → 提高軟骨肉瘤警覺(疼痛不具特異性,可有無痛性軟骨肉瘤,亦有良性病灶會痛)。[^2]
 
@@ -60,6 +61,10 @@ dateRev: 2026-07-10
 [^2]: Michaeli O, et al. *Update on Cancer Screening in Children with Syndromes of Bone Lesions...* Clin Cancer Res. 2025;31(3):457-465（PMC11790369；開放全文已讀）。據 PubMed，[DOI](https://doi.org/10.1158/1078-0432.CCR-24-2171)。提供：enchondroma 定義(髓腔來源、≤3 cm 不痛)、Ollier 散發/偏側分布/附肢骨/發病年齡、Maffucci ＋血管病灶(8.5% 惡變)、IDH1/IDH2 體細胞鑲嵌、惡變約 30%/中位 30–52 歲/好發部位/低惡性度預後、whole-body MRI＋MRA 監測、肢體變形與肢長不等等併發症。
 [^3]: Sharif B, Rajakulasingam R, Sharifi S, O'Donnell P, Saifuddin A. *MRI features of low-grade and high-grade chondrosarcoma in enchondromatosis.* Skeletal Radiol. 2021;50(8):1637-1646（依摘要與 MeSH，未讀全文）。據 PubMed，[DOI](https://doi.org/10.1007/s00256-021-03718-7)。提供：enchondromatosis 病人中,**骨髓水腫、骨膜反應、軟組織水腫**顯著者提示高惡性度轉化;大長骨另以皮質破壞、軟組織腫塊為高惡性度預測;**手足部位無顯著區辨徵象(判讀陷阱)**。
 [^4]: Uhl M, Herget G, Kurz P. *[Cartilage tumors: Pathology and radiomorphology].* Radiologe. 2016;56(6):476-488（德文;依英文摘要,未讀全文）。據 PubMed，[DOI](https://doi.org/10.1007/s00117-016-0112-z)。提供：軟骨腫瘤平片/CT/MRI 型態學;**deep cortical scalloping(>皮質厚度 2/3)、皮質破壞、軟組織腫塊**為 sarcoma 徵象;軟骨腫瘤多有部位與年齡偏好。〔rings-and-arcs／popcorn 鈣化型態為軟骨基質公認影像描述,亦見此類軟骨腫瘤影像學文獻〕
+[^5]: **Tier 1（摘要，白名單）** Murphey MD, Flemming DJ, Boyea SR, et al. *Enchondroma versus chondrosarcoma in the appendicular skeleton: differentiating features.* RadioGraphics 1998;18(5):1213-1237（DOI [10.1148/radiographics.18.5.9747616](https://doi.org/10.1148/radiographics.18.5.9747616)，PMID 9747616；摘要實讀 accessed 2026-07-12）——惡變徵象：deep endosteal scalloping（>皮質厚度 2/3）、皮質破壞＋軟組織腫塊、病灶相關疼痛、骨掃描明顯攝取；依此 ≥90% 附肢病例可區分 enchondroma 與 chondrosarcoma。
+[^6]: **Tier 1（citation 層級，白名單）** Foreman KL, Kransdorf MJ, O'Connor MI, Krishna M. *AIRP Best Cases in Radiologic-Pathologic Correlation: Maffucci Syndrome.* RadioGraphics 2013;33(3):861-868（DOI [10.1148/rg.333125155](https://doi.org/10.1148/rg.333125155)，PMID 23674779；citation 層級，全文需登入 accessed 2026-07-12）。
+[^7]: **Radiopaedia（snippet/403，未實讀全文）** *Maffucci syndrome*. Radiopaedia.org, rID 1638, DOI [10.53347/rID-1638](https://doi.org/10.53347/rID-1638)（搜尋摘要 accessed 2026-07-12）——多發 enchondroma＋軟組織靜脈畸形/血管瘤（靜脈石 phleboliths）。
+[^8]: Verdegaal SHM, Bovée JVMG, et al. *Incidence, predictive factors, and prognosis of chondrosarcoma in patients with Ollier disease and Maffucci syndrome.* The Oncologist 2011;16(12):1771-1779（DOI [10.1634/theoncologist.2011-0200](https://doi.org/10.1634/theoncologist.2011-0200)，PMID 22147000；PMC 全文實讀 accessed 2026-07-12）——Ollier 續發 chondrosarcoma ~40%、Maffucci ~53%。
 
 ## 題目
 > [!question]- Which ONE of the following image findings is NOT seen in Ollier disease on the radiograph? (2021-261)

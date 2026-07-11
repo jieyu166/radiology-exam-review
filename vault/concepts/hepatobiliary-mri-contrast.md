@@ -11,7 +11,7 @@ aliases:
   - MultiHance
   - hepatobiliary phase
   - 肝膽特異對比劑
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[gadolinium-contrast]]"
 ---
@@ -22,10 +22,10 @@ same:
 
 ## Summary
 - **製劑與排泄**：[^1]
-  - **Gd-EOB-DTPA（gadoxetate, Primovist/Eovist）**：linear ionic;**~50% 肝膽、50% 腎**排泄;肝膽期約 **20 分**;肝實質強化較強但血中濃度低 → 動脈期較弱、易動作假影。
+  - **Gd-EOB-DTPA（gadoxetate, Primovist/Eovist）**：linear ionic;**~50% 肝膽、50% 腎**排泄;肝膽期約 **10–20 分**;肝實質強化較強但血中濃度低 → 動脈期較弱、易動作假影。[^8]
   - **Gd-BOPTA（gadobenate, MultiHance）**：linear ionic;**~3–5% 肝膽、95–97% 腎**;肝膽期較久（~60–120 分）。
   - **Mn-DPDP（mangafodipir）**：錳基（非釓）肝細胞特異劑（歷史性）。
-- **攝取機轉**：肝細胞**OATP1B1/B3** 攝取 → **MRP2** 排入膽道;故肝膽期可作 MR 膽道攝影。[^1]
+- **攝取機轉**：肝細胞經 sinusoidal 膜 **OATP1B3** 攝取 → **canalicular MRP2**（及 sinusoidal MRP1/MRP3）排出至膽道;此經膜轉運子攝取/排膽即肝膽期作為「功能影像」的分子基礎,故肝膽期可作 MR 膽道攝影。[^1][^6]
 - **肝膽期病灶判讀**：[^1]
   - **攝取（等/高訊號）**：**FNH（功能性肝細胞＋膽管）、部分保留 OATP 的高分化 HCC、再生結節**。
   - **不攝取（低訊號）**：**轉移、囊腫、血管瘤、多數肝腺瘤、低分化 HCC**。
@@ -36,10 +36,11 @@ same:
 > Primovist 50/50 肝腎、肝膽期 20 分;MultiHance ~3–5% 經膽;肝膽期**攝取者＝FNH/含 OATP 之 HCC/再生結節**,**轉移/囊腫不攝取**;經 OATP1 攝取、MRP2 排膽。[^1]
 
 ## 放射科醫師影像判讀重點
-- **肝膽期時機依製劑而定**：Gd-EOB-DTPA（Primovist，~50% 經膽）約 **20 分**取肝膽期；Gd-BOPTA（MultiHance，僅 ~3–5% 經膽）需等 **60–120 分**——排程與掃描時間點要對，過早取相會誤判攝取。[^1][^3]
+- **肝膽期時機依製劑而定**：Gd-EOB-DTPA（Primovist，~50% 經膽）約 **10–20 分**取肝膽期；Gd-BOPTA（MultiHance，僅 ~3–5% 經膽）需等 **60–120 分**——gadoxetic acid 動態期先呈細胞外對比劑分布、後排入膽道兼供結構與功能評估;排程與掃描時間點要對，過早取相會誤判攝取。[^1][^3][^7][^8]
 - **肝膽期訊號解讀**：機轉為肝細胞 OATP1B1/B3 攝取 → MRP2 排入膽道；**攝取（等/高訊號）＝含功能性肝細胞＋膽管的病灶**（FNH、部分保留 OATP 的高分化 HCC、再生結節），**不攝取（低訊號）＝轉移、囊腫、血管瘤、多數腺瘤、低分化 HCC**。[^1]
 - **gadoxetate 的技術取捨**：動脈期/靜脈期強化較弱、動脈期易因短暫呼吸困難/移動產生假影、肝功能不良/纖維化時肝實質攝取下降；但**小病灶在肝膽期偵測率反而提高**（為優點非缺點）。[^1]
-- **HCC 肝膽期矛盾攝取（paradoxical uptake）判讀陷阱**：部分 HCC 於肝膽期反常呈等/高訊號，機轉為 **OATP8（OATP1B3）表現量升高（非降低）＋MRP2 表現量降低**造成細胞質內滯留，並與腫瘤壓迫致膽汁分泌障礙有關——勿因肝膽期攝取即排除 HCC。[^2]
+- **肝膽期高訊號病灶譜（Fujita 2020）**：FNH／FNH-like 因增生正常肝細胞攝取 gadoxetic acid 而肝膽期呈高訊號;部分 HCC 亦可矛盾攝取——判讀高訊號結節須放在此譜系脈絡下鑑別。[^6]
+- **HCC 肝膽期矛盾攝取（paradoxical uptake）判讀陷阱**：部分 HCC 於肝膽期反常呈等/高訊號，機轉為 **OATP8（OATP1B3）表現量升高（非降低）＋MRP2 表現量降低**造成細胞質內滯留，並與腫瘤壓迫致膽汁分泌障礙有關——勿因肝膽期攝取即排除 HCC。[^2][^6]
 - **與血管瘤的交互陷阱**：肝膽期肝實質增亮會使高流量血管瘤相對變暗呈 **pseudo-washout**，判讀勿單看肝膽期相對訊號，須併看 T2 與動態血池型態。[^1]
 
 ### 參考來源
@@ -48,6 +49,9 @@ same:
 [^3]: *Cancer Imaging* (2013) 13(4), 567-579（2018 交換考題詳解 p.239 引用；Tier 2 期刊）。Gd-EOB-DTPA為肝膽特異性對比劑，具顯著肝膽排泄比例（約50%）；Gd-DTPA、Gd-DOTA、Gd-DO3A為一般細胞外對比劑，主要經腎排泄，無顯著肝膽排泄。
 [^4]: *Gadoxetate disodium*. Radiopaedia.org（實際查證 accessed 2026-07-05）：「distributes into the vascular and extravascular spaces during the arterial, portal venous, and late dynamic phases, and then progressively into the **hepatocytes and bile ducts during the hepatobiliary phase**」；「**50% hepatic excretion, 50% renal excretion**」；「The next strongest hepatobiliary agent is gadobenate dimeglumine (MultiHance), with only **5%** of the injected dose taken up by the liver」；肝膽期於注射後 **20 分**取得；病灶攝取對比劑代表含肝細胞（FNH iso/hyperintense、adenoma hypointense），並可排除肝外轉移。
 [^5]: **Tier 1** 肝膽期攝取/排出轉運子與 EOB 藥理（交換考題原始出處：Leonhardt 2010 *Drug Metab Dispos* 38:1024；König 1999 *Hepatology* 29:1156；Kitao 2015 *Radiology* 275:708；Kitao 2018 *Hepatol Res* 48:205）（實際查證：Radiopaedia Gadoxetate disodium 交叉比對 accessed 2026-07-05）：肝細胞經 **OATP1B3（sinusoidal，主要攝取轉運子）** 攝取 Gd-EOB-DTPA，經 **MRP2（canalicular）** 排入膽道、**MRP1/MRP3（sinusoidal）** 為 sinusoidal 側 export；無功能性肝細胞之病灶 OATP1B3 表現低/無，肝膽期不攝取；肝膽期呈高訊號之 HCC 常見 **β-catenin 與 HNF4α（HNF4A）活化**（伴 OATP1B3 表現升高、MRP2 降低）。
+[^6]: **Tier 1** Fujita N, Nishie A, Asayama Y, et al. *Hyperintense Liver Masses at Hepatobiliary Phase Gadoxetic Acid-enhanced MRI.* RadioGraphics 2020;40(1):72-94（DOI [10.1148/rg.2020190037](https://doi.org/10.1148/rg.2020190037)，PMID 31834849；摘要＋全文索引 accessed 2026-07-12）——肝細胞經 sinusoidal 膜 OATP1B3 攝取 gadoxetic acid、經 canalicular MRP2（及 sinusoidal MRP1/MRP3）排出；FNH／FNH-like 因增生正常肝細胞攝取而肝膽期高訊號，部分 HCC 可矛盾攝取。
+[^7]: **Tier 1** Baleato-González S, Vilanova JC, Luna A, et al. *Current and Advanced Applications of Gadoxetic Acid-enhanced MRI in Hepatobiliary Disorders.* RadioGraphics 2023;43(4):e220087（DOI [10.1148/rg.220087](https://doi.org/10.1148/rg.220087)，PMID 36952256；摘要 accessed 2026-07-12）——gadoxetic acid 動態期具細胞外對比劑分布、後排入膽道供肝膽系統結構/功能評估。
+[^8]: **Radiopaedia（snippet/403，未實讀全文）** *Gadoxetate disodium*. Radiopaedia.org（rID 未取得，WebFetch 403；搜尋摘要 accessed 2026-07-12）——gadoxetate 膽/腎排泄約各半、肝膽期 10–20 分；gadobenate 約 3–5% 經肝細胞攝取。
 
 ## 題目
 > [!question]- Some hepatocellular carcinoma show paradoxical uptake in hepatobiliary phase in liver MRI, which statement for these lesions is wrong? (2017-314)
