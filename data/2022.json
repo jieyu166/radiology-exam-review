@@ -11031,16 +11031,24 @@
       "options": [
         {
           "letter": "A",
-          "text": "Type"
+          "text": "Type A"
         },
         {
           "letter": "B",
-          "text": "Type A with arch involvement Type B with arch involvement"
+          "text": "Type B"
+        },
+        {
+          "letter": "C",
+          "text": "Type A with arch involvement"
+        },
+        {
+          "letter": "D",
+          "text": "Type B with arch involvement"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "D",
       "reference": "詳見 [[aortic-dissection]]（Radiopaedia + STATdx Rajiah/Abbara, Cardiac Dx：Stanford A 侵犯升主動脈、B 不侵犯升主動脈）",
-      "explanation": "Stanford 分類只看是否侵犯 ascending aorta：Type A 侵犯升主動脈、Type B 不侵犯升主動脈。本例剝離自 aortic arch 起延伸至 descending thoracic aorta、未侵犯升主動脈，故為 Stanford Type B（DeBakey Type III）。⚠️ 原始選項因解析退化嚴重（僅 A/B、文字殘缺），正確概念答案為 Type B，建議醫師覆核原卷選項排列。 → [[aortic-dissection]]",
+      "explanation": "依官方 2022 詳解 PDF p.270（答案 **D**＝Type B with arch involvement）。剝離起於 aortic arch、延伸至 descending thoracic aorta、未侵犯升主動脈→基礎屬 Stanford Type B；但「起自 aortic arch 向遠端延伸」為原始 Stanford 分類未明確描述之情形。依 RadioGraphics 2022（Steinbrecher 等，CT of the Difficult Acute Aortic Syndrome, 42(1):69–86）及 Lempel 等，此類多為 uncomplicated、以藥物治療，故歸類為「Type B with arch involvement」＝D。（原始匯入選項解析退化僅剩 A/B、看不到「with arch involvement」細分，故先前誤記 B；經官方 PDF 重建 4 選項並更正為 D。附註：American surgical consensus 2020 仍以 intimal tear 相對 LSCA 位置分 type A/B。）→ [[aortic-dissection]]",
       "images": [],
       "concepts": [
         "aortic-dissection"
