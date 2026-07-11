@@ -12849,7 +12849,7 @@
       ],
       "subspecialty": "PED",
       "subspecialty_confidence": "auto",
-      "questionText": "對慢性兒童型腦硬化症 ( Pelizaeus-Merzbacher Disease )之敘述，何者錯誤 ?",
+      "questionText": "對慢性兒童型腦硬化症 ( Pelizaeus-Merzbacher Disease )之敘述，何者正確 ?",
       "options": [
         {
           "letter": "A",
@@ -12865,17 +12865,17 @@
         },
         {
           "letter": "D",
-          "text": "為體染色體隱性（autosomal recessive）遺傳疾病"
+          "text": "以上答案皆正確"
         }
       ],
       "correctAnswer": "D",
       "reference": "詳見 [[pelizaeus-merzbacher-disease]]（Radiopaedia PMD + Neurol Genet 2020 PMD 樣低髓鞘化白質病 mimics）",
-      "explanation": "⚠️ 原題四選項於資料匯入時退化合併為單一文字塊，已依來源重建為 A–D 並保留答案字母 D。A/B/C 均正確：PMD 為中樞神經髓鞘發育不良（hypomyelination）疾病、由 Xq22 之 PLP1（proteolipid protein）基因異常所致、突變與重複／缺失皆可致病（重複最常見）。D「體染色體隱性遺傳」為錯誤——PMD 屬 X 染色體性聯（X-linked）遺傳，主要影響男性。→ [[pelizaeus-merzbacher-disease]]",
+      "explanation": "答案 D。A（中樞神經髓鞘發育不良 hypomyelination）、B（Xq22.2 之 PLP1／proteolipid protein 基因突變）、C（PLP1 突變或重複／缺失皆可致病，其中以重複最常見）對 Pelizaeus-Merzbacher Disease 之敘述皆正確，故 (D)「以上答案皆正確」為正解。→ [[pelizaeus-merzbacher-disease]]",
       "images": [],
       "concepts": [
         "pelizaeus-merzbacher-disease"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-415",
