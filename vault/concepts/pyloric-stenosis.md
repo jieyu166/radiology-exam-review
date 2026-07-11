@@ -6,7 +6,7 @@ aliases:
   - hypertrophic pyloric stenosis
   - pyloric stenosis ultrasound
   - 肥厚性幽門狹窄
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # pyloric-stenosis
@@ -14,10 +14,10 @@ dateRev: 2026-07-10
 **肥厚性幽門狹窄以超音波診斷，四個數值中肌壁厚度（>3 mm）最準，長度（>15–17 mm）正常上限約 15 mm 是常考數字。** 判讀分水嶺一：**最可靠單一指標＝肌壁厚 >3 mm**，其次橫徑 >14 mm。判讀分水嶺二：**正常幽門肌長度＜15 mm**——考「正常上限多少」答 15 mm。臨床背景：2–8 週男嬰、非膽汁性噴射性嘔吐，動態看胃內容物無法通過幽門管。記憶鉤：「3–14–15」厚-橫-長三數字，3 mm 肌壁最關鍵。
 
 ## Summary
-- **肌壁厚度（muscle wall thickness）>3 mm**：**最準確**指標。[^1]
+- **肌壁厚度（muscle wall thickness）>3 mm**：**最準確**指標——一手依據 AJR Blumhagen 1988（HPS 肌壁 4.8±0.6 mm vs 非 HPS 1.8±0.4 mm，肌壁厚為最具鑑別力指標；註：3 mm 切點屬後續 Rohrschneider 共識）。[^1][^7]
 - **幽門橫徑（transverse diameter）>14 mm**。[^1]
 - **長度/縱軸（length）>15–17 mm**為異常 → 故**正常長度 < 15 mm**（2016-105 正解 C）。[^1]
-- **幽門容積 >1.5 cm³**。[^1]
+- **幽門容積**：早期（<4 週）病例可加用——一手 Radiology Westra 1989 為 **≥1.4 mL**（教學常引 ~1.5 cm³，兩者接近勿只取單值），公式 ¼·π·直徑²·長度。[^1][^8]
 - 動態：胃內容物無法通過、可見 "channel"、target/doughnut 徵象；好發 2–8 週男嬰、非膽汁性嘔吐。[^1]
 
 ### 量測切點交叉佐證（Radiopaedia 以外）
@@ -58,6 +58,8 @@ dateRev: 2026-07-10
 [^4]: 影像徵象短文（同儕審查，Abdominal Radiology）。Indiran V, Selvaraj V. *The cervix sign and other sonographic signs of hypertrophic pyloric stenosis.* Abdom Radiol (NY). 2016;41(10):2085-6（PubMed 索引，文獻型別 Review）：描述 cervix sign——肥厚幽門突入充液胃竇似子宮頸突入陰道穹窿。[DOI](https://doi.org/10.1007/s00261-016-0809-5)
 [^5]: 官方 2017 詳解：IHPS男性好發(4:1至6:1)，症狀典型於出生後3-5週開始(非出生後不久，極罕見12週後發病)，非膽汁性嘔吐，X光呈顯著胃擴張與小腸氣體量不成比例。
 [^6]: *Pyloric stenosis (hypertrophic pyloric stenosis)*. Radiopaedia.org（實際查證 accessed 2026-07-06）：臨床上**肥厚的幽門（pylorus，屬胃的遠端出口）可於右上腹觸診到「橄欖狀（olive-sized）腫塊」**——即 olive sign／palpable olive，對應器官為 stomach（胃的幽門）；典型 2–12 週非膽汁性噴射狀嘔吐、可聞 succussion splash。
+[^7]: **Tier 1（一手出處）** Blumhagen JD, Maclin L, Krauter D, Rosenbaum DM, Weinberger E. *Sonographic diagnosis of hypertrophic pyloric stenosis.* AJR Am J Roentgenol. 1988;150(6):1367-70（DOI [10.2214/ajr.150.6.1367](https://doi.org/10.2214/ajr.150.6.1367)，PMID 3285655；PubMed 摘要實際查證 accessed 2026-07-12）——319 名嘔吐嬰兒/326 掃描：HPS 肌壁厚 4.8±0.6 mm、非 HPS 1.8±0.4 mm；肌肉長度與幽門管長兩組重疊大，結論**肌壁厚度為 HPS 最具鑑別力、最準確之指標**（本文給均值分佈，未定 3 mm 切點；3 mm 屬後續 Rohrschneider 共識）。
+[^8]: **Tier 1（一手出處）** Westra SJ, de Groot CJ, Smits NJ, Staalman CR. *Hypertrophic pyloric stenosis: use of the pyloric volume measurement in early US diagnosis.* Radiology. 1989;172(3):615-619（DOI [10.1148/radiology.172.3.2672088](https://doi.org/10.1148/radiology.172.3.2672088)，PMID 2672088；摘要實際查證 accessed 2026-07-12）——幽門容積（PV）=¼·π·PD²·PL；**PV ≥1.4 mL** 對 <4 週齡早期 HPS 之辨識優於單一切點（HPS 3.13 mL vs 對照 0.65 mL、有症狀非 HPS 0.86 mL）。與概念檔既寫 ~1.5 cm³ 接近但非同值，並列標註。
 
 ## 題目
 > [!question]- Which one is not the correct description about "infantile hypertrophic pyloric stenosis(IHPS)? (2017-337)

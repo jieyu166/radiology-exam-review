@@ -5,7 +5,7 @@ subspecialty: [US]
 aliases:
   - gallstone ultrasound
   - 膽結石超音波
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # cholelithiasis-ultrasound
@@ -13,8 +13,9 @@ dateRev: 2026-07-10
 **膽結石超音波典型三聯徵：echogenic foci + posterior acoustic shadow + gravity-dependent movement。Comet-tail artifact 非膽結石典型表現，而是 adenomyomatosis 的特徵。**
 
 ## Summary
-- 典型表現：**echogenic foci + posterior acoustic shadow + gravity-dependent movement**。[^1]
-- **Comet-tail artifact → adenomyomatosis**，非膽結石。[^1]
+- 典型表現：**echogenic foci + posterior acoustic shadow（聲影與結石成分／鈣含量無關）+ gravity-dependent movement（rolling stone sign）**；Color Doppler 可見 twinkling artifact，利於偵測小結石。[^1][^3]
+- **WES（wall-echo-shadow）**＝壁高回音→薄低回音膽汁帶→結石表面高回音→濃密聲影，代表**單顆大結石或多顆小結石填滿收縮膽囊**（非結石小時）；須與 porcelain GB（缺薄膽汁帶）鑑別。[^4]
+- **Comet-tail artifact → adenomyomatosis**（源自 Rokitansky-Aschoff sinus 內膽固醇結晶），非膽結石。[^1][^5]
 
 ## 放射科醫師影像判讀重點
 - **典型三聯徵的判讀**：膽結石在超音波上呈膽囊腔內的高回音病灶(echogenic focus)、其後方伴清晰的後方聲影(posterior acoustic shadowing)，且隨體位改變而重力相關移動(gravity-dependent) — 三者齊備即為膽結石高特異性表現。[^2]
@@ -32,6 +33,9 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 2019 交換考詳解；Ahuja A. Diagnostic Imaging: Ultrasound. Amirsys; 2007. 2-6~2-9。
 [^2]: **Tier 1** Lammert F, Gurusamy K, Ko CW, et al. *Gallstones*. Nat Rev Dis Primers 2016;2:16024（據 PubMed，DOI [10.1038/nrdp.2016.24](https://doi.org/10.1038/nrdp.2016.24)；Journal Article, Review；實際查證 accessed 2026-07-04）——權威疾病綜述闡明膽結石以腹部超音波為主要診斷工具、流行病學與並發症，佐證本卡超音波診斷與鑑別考點。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Radiopaedia** Jones J, et al. *Gallstones*. Radiopaedia.org, rID 20125, DOI [10.53347/rID-20125](https://doi.org/10.53347/rID-20125)（last revised 22 Jul 2025；瀏覽器實際讀取，accessed 2026-07-12）——超音波為偵測膽結石 gold standard；腔內高反射灶＋後方聲影（**聲影與結石成分/鈣含量無關**）＋重力相關移動（rolling stone sign）；Color Doppler 見 twinkling artifact，利於偵測小結石。
+[^4]: **Radiopaedia** Al Kabbani A, et al. *Wall-echo-shadow sign (ultrasound)*. Radiopaedia.org, rID 21822, DOI [10.53347/rID-21822](https://doi.org/10.53347/rID-21822)（last revised 4 Dec 2025；瀏覽器實際讀取，accessed 2026-07-12）——WES＝弧狀高回音壁→薄低回音膽汁帶→結石近側表面高回音→其後聲影；代表**單顆大結石或多顆小結石填滿收縮/無法完整顯示之膽囊**；DDx 含 porcelain GB（缺薄膽汁帶）、含氣腸道、emphysematous cholecystitis。
+[^5]: **Tier 1** Boscak AR, Al-Hawary M, Ramsburgh SR. *Adenomyomatosis of the Gallbladder*. RadioGraphics 2006;26(3):941-946（DOI [10.1148/rg.263055180](https://doi.org/10.1148/rg.263055180)；全文實際查證 accessed 2026-07-12）——US 特徵為壁內 echogenic foci 伴 comet-tail 回響偽影，源自 Rokitansky-Aschoff sinuses 內膽固醇結晶、彗尾自壁延伸入腔，常伴膽囊壁增厚；佐證 comet-tail→adenomyomatosis、非膽結石。
 
 ## 題目
 > [!question]- Which of the following statements about the ultrasound appearance of gallbladder disease is not true? (2022-417)
