@@ -12944,12 +12944,12 @@
       ],
       "correctAnswer": "C",
       "reference": "詳見 [[color-vs-power-doppler]]（Radiopaedia + STATdx / RadioGraphics Doppler 原理綜述，Tier-1）",
-      "explanation": "答案 C。⚠️ 原輸入四項敘述全擠在單一選項 A，已依來源重建為 A–D 四選項。「Power Doppler is more affected by Doppler angle（能量都卜勒較受都卜勒角度影響）」為錯誤——能量都卜勒以訊號振幅（power/amplitude）編碼，不依賴都卜勒角度（angle-independent）、無 aliasing，這正是其對慢/低流敏感的優勢。其餘為真：彩色都卜勒可判斷血流方向、可反映相對流速（依平均頻移編碼）；能量都卜勒與血流量（血球密度）相關。→ [[color-vs-power-doppler]]",
+      "explanation": "「Power Doppler is more affected by Doppler angle（能量都卜勒較受都卜勒角度影響）」為錯誤——能量都卜勒以訊號振幅（power/amplitude）編碼，不依賴都卜勒角度（angle-independent）、無 aliasing，這正是其對慢/低流敏感的優勢。其餘為真：彩色都卜勒可判斷血流方向、可反映相對流速（依平均頻移編碼）；能量都卜勒與血流量（血球密度）相關。→ [[color-vs-power-doppler]]",
       "images": [],
       "concepts": [
         "color-vs-power-doppler"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-417",
@@ -12981,12 +12981,12 @@
       ],
       "correctAnswer": "A",
       "reference": "詳見 [[cholelithiasis-ultrasound]]（Radiopaedia + Diagnostic Imaging: Ultrasound / Nat Rev Dis Primers Gallstones，Tier-1）",
-      "explanation": "答案 A。⚠️ 原輸入四項敘述全擠在單一選項 A，已依來源重建為 A–D 四選項。「Wall-echo-shadow（WES）複合徵是膽囊『部分』充滿結石的表現」為錯誤——WES 實為膽囊『幾乎完全填滿/packed』結石時的表現（前壁弧狀高回音 wall＋結石表面 echo＋濃密後方 shadow，膽囊腔消失），非部分充滿。其餘皆正確：急性膽囊炎常見結石＋膽囊壁增厚＋周圍積液＋超音波墨菲氏徵；腺肌症特徵為 comet-tail artifact；膽固醇沉積症可形成不動、無聲影的膽固醇息肉。→ [[cholelithiasis-ultrasound]]",
+      "explanation": "「Wall-echo-shadow（WES）複合徵是膽囊『~~部分~~』充滿結石的表現」——WES 實為膽囊『幾乎完全填滿/packed』結石時的表現（前壁弧狀高回音 wall＋結石表面 echo＋濃密後方 shadow，膽囊腔消失）。其餘皆正確： 急性膽囊炎常見結石＋膽囊壁增厚＋周圍積液＋超音波墨菲氏徵； 腺肌症特徵為 comet-tail artifact； 膽固醇沉積症可形成不動、無聲影的膽固醇息肉。→ [[cholelithiasis-ultrasound]]",
       "images": [],
       "concepts": [
         "cholelithiasis-ultrasound"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-418",
@@ -14960,14 +14960,14 @@
           "text": "100 mL"
         }
       ],
-      "correctAnswer": "B",
+      "correctAnswer": "無正解",
       "reference": "詳見 [[post-void-residual]]（Radiopaedia post-void residual rID 152111 + Tier-1 STATdx Benign Prostatic Hyperplasia：膀胱體積前列橢球體公式、餘尿升高＝出口阻塞）",
-      "explanation": "餘尿量（PVR）為排尿後膀胱內殘留尿量。超音波複習教材（Hagen-Ansert）以正常成人餘尿不超過約 20 mL 為界，代表膀胱近乎完全排空，故答案取 B。⚠️ 臨床/影像門檻不同：Radiopaedia 以 PVR >100–200 mL 為明確異常、常以 <50 mL 為正常，答案依採用標準而異。餘尿升高提示膀胱出口阻塞（BPH）或神經性膀胱。判讀方法與門檻對照 → [[post-void-residual]]。",
+      "explanation": "本題「正常成人餘尿量不應超過」**無單一公認答案，故標為無正解（瑕疵題）**。各來源門檻分歧極大：超音波複習教材（Hagen-Ansert）取 **≤20 mL**（原題標記 B）；Radiopaedia 常以 **<50 mL** 為正常；StatPearls 以 **<100 mL** 為正常（>200 排空不良、>300–400 尿滯留；20 mL 在 StatPearls 反而是「兒童」異常門檻）；Lim 2024 健康成人常模 90 百分位為 **男 73／女 60 mL**；AUA／EAU 指引則**不設單一 cutoff、改看時間趨勢**。選項 A(5)／B(20)／C(50)／D(100) 各自對應不同來源標準，無唯一正解。→ [[post-void-residual]]",
       "images": [],
       "concepts": [
         "post-void-residual"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-471",

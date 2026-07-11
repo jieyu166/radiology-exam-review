@@ -51,7 +51,7 @@ dateRev: 2026-07-11
 
 ## 題目
 > [!question]- Postvoid residual in a normal adult urinary bladder should not exceed: (2022-470)
-> **B. 20 mL（關鍵）**——超音波複習教材（Hagen-Ansert）以正常成人排尿後餘尿量**不超過約 20 mL** 為界，代表膀胱近乎完全排空，本題採此觀點。⚠️ 各來源門檻分歧極大（見上表）：Radiopaedia／StatPearls 以 <50–100 mL 為正常、>200 mL 才算明確異常；Lim 2024 常模上限為男 73／女 60 mL；AUA/EAU 指引則不設單一 cutoff、改看趨勢。20 mL 為各來源中最嚴格者（且在 StatPearls 中屬「兒童」異常門檻），作答依採用之標準而異。[^3][^4][^5][^6]
+> **無正解（各家標準不一，經醫師裁定為瑕疵題）**。選項 A(5)／B(20)／C(50)／D(100) mL 各自對應不同來源：超音波複習教材（Hagen-Ansert）取 **≤20 mL**（原題標記 B）、Radiopaedia 以 **<50 mL**、StatPearls 以 **<100 mL** 為正常（20 mL 在 StatPearls 反屬「兒童」門檻）、Lim 2024 常模上限為男 73／女 60 mL，而 AUA/EAU 指引則不設單一 cutoff、改看時間趨勢——故本題無唯一正解。[^3][^4][^5][^6]
 
 ## 考題
 ```dataview
