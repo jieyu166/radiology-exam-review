@@ -5396,12 +5396,12 @@
       ],
       "correctAnswer": "C",
       "reference": "2018 交換考題 詳解 p.26；AJCC Cancer Staging Manual 8th Edition, Lung Cancer chapter.",
-      "explanation": "4.3 cm 結節落於 >4–5cm 區間為 T2b；對側肺門淋巴結腫大依規則一律為 N3（非 N2）；雙側肋膜多發轉移結節/積液符合 M1a，另有左腎上腺單一轉移符合 M1b。\n\n> [!warning] 官方詳解本題答案欄僅標示「A C?」（存疑未定案）。依 N 分期邏輯（對側肺門淋巴結應為 N3）僅 C 選項符合；惟同時具 M1a 與 M1b 特徵時分期表未列對應單一類別,暫依此邏輯記為 C,待醫師對照原始 AJCC 8th 規則與原始考卷確認。\n\n見 [[lung-cancer-tnm-staging]]",
+      "explanation": "【醫師裁決 2026-07-11】答案 C（T2bN3M1b）。依 AJCC 8th：4.3 cm 結節落於 >4–5 cm 區間＝**T2b**；**對側**肺門淋巴結腫大一律為 **N3**（非 N2）；左腎上腺單一遠端轉移＝**M1b**（單一胸外轉移——雖另具雙側肋膜多發結節/積液之 M1a 胸內特徵，但一旦出現胸外單一轉移即歸 M1b）。故 T2bN3M1b ＝ C。（官方詳解答案欄原標「A C?」存疑未定案，經醫師裁決確定為 C。）見 [[lung-cancer-tnm-staging]]",
       "images": [],
       "concepts": [
         "lung-cancer-tnm-staging"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2018-147",
