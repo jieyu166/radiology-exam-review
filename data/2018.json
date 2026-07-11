@@ -12690,7 +12690,8 @@
       "explanation": "海綿狀結節(spongiform)於ACR TI-RADS composition給0分，為良性表徵。微細鈣化、前後軸大於橫軸(taller-than-wide)、邊緣鈣化且突出軟組織皆為可疑表徵。\n\n見 [[thyroid-nodule-us]]",
       "images": [],
       "concepts": [
-        "thyroid-nodule-us"
+        "thyroid-nodule-us",
+        "ti-rads"
       ],
       "checked": false
     },
