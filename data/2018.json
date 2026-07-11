@@ -1534,7 +1534,7 @@
       ],
       "subspecialty": "CH",
       "subspecialty_confidence": "manual",
-      "questionText": "關於 lymphangioleiomyomatosis,下列何者正確？",
+      "questionText": "關於 lymphangioleiomyomatosis,下列何者錯誤？",
       "options": [
         {
           "letter": "A",
@@ -1559,12 +1559,12 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiology review manual 6th ed. P.508; https://radiopaedia.org/articles/lymphangioleiomyomatosis-1",
-      "explanation": "官方答案B(Will not involve bone)。惟LAM可侵犯骨呈massive osteolysis(少/無骨膜反應、常多發)，故B實為錯誤敘述；A/C/D/E皆為正確LAM描述。題幹作『何者正確』但答案B為錯誤敘述，推測題幹應為『何者錯誤』。flag待醫師對照原卷。\n\n見 [[lam]]",
+      "explanation": "官方答案B(Will not involve bone)。惟LAM可侵犯骨呈massive osteolysis(少/無骨膜反應、常多發)，故B實為錯誤敘述；A/C/D/E皆為正確LAM描述。題幹作『何者正確』但答案B為錯誤敘述，推測題幹應為『何者錯誤』。flag待醫師對照原卷。\n\n見 [[lam]]\n\n【醫師裁決 2026-07-11】醫師確認題幹方向：原「何者正確」更正為「何者錯誤」。LAM 可侵犯骨呈 massive osteolysis，B(Will not involve bone)為錯誤敘述，即本題答案。",
       "images": [],
       "concepts": [
         "lam"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2018-043",
@@ -13404,14 +13404,14 @@
           "text": "Signal drop on T1-weighted out-of-phase image"
         }
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "皆正確",
       "reference": "Radiology Review Manual 6th ed., p919; AJR 1998; 170(3), 747-752.",
-      "explanation": "官方標示答案C，惟附註「錯在哪?」——四選項皆為腺瘤正確特徵(APW>60%高度提示腺瘤)，官方詳解自身存疑，可能為瑕疵題，待醫師確認。\n\n見 [[adrenal-adenoma]]",
+      "explanation": "官方標示答案C，惟附註「錯在哪?」——四選項皆為腺瘤正確特徵(APW>60%高度提示腺瘤)，官方詳解自身存疑，可能為瑕疵題，待醫師確認。\n\n見 [[adrenal-adenoma]]\n\n【醫師裁決 2026-07-11】醫師裁決：四選項皆為 adrenal adenoma 正確特徵，本題無錯誤選項（原答案 C 撤銷），屬瑕疵題，答案改「皆正確」。",
       "images": [],
       "concepts": [
         "adrenal-adenoma"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2018-361",
@@ -13642,14 +13642,14 @@
           "text": "proton density"
         }
       ],
-      "correctAnswer": "C",
+      "correctAnswer": "C，但應該是T2WI",
       "reference": "Hricak H, Husband J, Panicek DM, eds. Oncologic Imaging: Essentials of reporting common cancers. Philadelphia: Saunders, 2007; 30-1.",
-      "explanation": "官方標示答案C(FLAIR)。惟直腸癌局部分期標準最佳序列為高解析度T2WI，FLAIR非直腸MRI常規分期序列、四選項亦無T2W，疑瑕疵題，待醫師對照原卷確認。\n\n見 [[rectal-cancer-mri]]",
+      "explanation": "官方標示答案C(FLAIR)。惟直腸癌局部分期標準最佳序列為高解析度T2WI，FLAIR非直腸MRI常規分期序列、四選項亦無T2W，疑瑕疵題，待醫師對照原卷確認。\n\n見 [[rectal-cancer-mri]]\n\n【醫師裁決 2026-07-11】醫師裁決：官方答案 C(FLAIR)，但直腸癌分期最佳序列實務上應為高解析度 T2WI；選項中無 T2WI，屬瑕疵題。答案記為「C，但應該是T2WI」。",
       "images": [],
       "concepts": [
         "rectal-cancer-mri"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2018-367",
