@@ -8836,11 +8836,11 @@
       "options": [
         {
           "letter": "A",
-          "text": "In the “typically benign” category, eggshell and lucent-centered calcifications have been combined into a new term, rim, while round and punctate calcifications are combined into the term round"
+          "text": "In the \"typically benign\" category, eggshell and lucent-centered calcifications have been combined into a new term, rim, while round and punctate calcifications are combined into the term round."
         },
         {
           "letter": "B",
-          "text": "Amorphous, dystrophic, coarse heterogeneous, fine pleomorphic, and fine linear or fine linear branching calcifications are now placed in the “suspicious morphology” category."
+          "text": "Amorphous, dystrophic, coarse heterogeneous, fine pleomorphic, and fine linear or fine linear branching calcifications are now placed in the \"suspicious morphology\" category."
         },
         {
           "letter": "C",
@@ -8848,12 +8848,12 @@
         },
         {
           "letter": "D",
-          "text": "The number of calcifications in the “grouped” distribution has been revised to include (a) a minimum of five calcifications within 1 cm of each other and (b) a larger number of calcifications within 2 cm of each other."
+          "text": "The number of calcifications in the \"grouped\" distribution has been revised to include (a) a minimum of five calcifications within 1 cm of each other and (b) a larger number of calcifications within 2 cm of each other."
         }
       ],
-      "correctAnswer": "D",
+      "correctAnswer": "B",
       "reference": "詳見 [[breast-composition]]（Radiopaedia breast density：BI-RADS 2013 以 a–d 四級主觀描述取代百分比估計；The Radiology Assistant BI-RADS 2013 為 Tier 1 開放全文，強調遮蔽效應）",
-      "explanation": "⚠️ 本題選項文字為 OCR 擷取後嚴重不完整（僅存 A、B 兩段關於鈣化群聚範圍「至少 5 顆於彼此 1 cm 內／較多顆於 2 cm 內」的描述），無法自 [[breast-composition]] 概念完整逐項核對，暫依來源標記答案 D。就概念可確認者：BI-RADS 2013 最大改版為把緻密度「百分比估計」改為 a–d 四級主觀描述、強調緻密組織的遮蔽效應而非比例數字；「需報告纖維腺體約略比例（如 0–25%）」屬第 4 版做法、第 5 版已廢除，為此類題的高頻陷阱。建議醫師覆核原始完整題幹與選項。→ [[breast-composition]]",
+      "explanation": "依官方 2022 詳解 PDF p.335（答案 **B**）。BI-RADS 第 5 版（RadioGraphics 2016;36:623–639, A Pictorial Review of Changes in the BI-RADS Fifth Edition）：選項 B 把 **dystrophic calcification** 列入「suspicious morphology」為錯誤——**dystrophic 屬 typically benign**（良性）鈣化，非可疑型態。A（eggshell/lucent-centered→合併為 rim、round/punctate→round）、C（五種分布 diffuse/segmental/regional/grouped/linear）、D（grouped 定義修訂為 1cm 內至少 5 顆、或 2cm 內較多顆）皆正確。（原始匯入選項 OCR 殘缺僅剩 A/B 片段、憑來源預設 D；經官方 PDF 重建 4 選項並更正為 B。）→ [[breast-composition]]",
       "images": [],
       "concepts": [
         "breast-composition"
