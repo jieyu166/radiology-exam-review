@@ -11719,7 +11719,7 @@
         }
       ],
       "correctAnswer": "D",
-      "reference": "詳見 [[contrast-reaction-severity-management]]（Radiopaedia《Contrast media adverse reactions》 + STATdx Berg《Contrast Reactions》Tier-1）",
+      "reference": "詳見 [[contrast-adverse-reactions]]（Radiopaedia《Contrast media adverse reactions》 + STATdx Berg《Contrast Reactions》Tier-1）",
       "explanation": "⚠️ 題幹與選項不符：原始 PDF 題幹被誤植為「輻射工作人員職業曝露之劑量限度」，但四個選項實際描述對比劑急性反應的嚴重度分級與處置。依選項內容判讀：A（輕微多不需治療）正確、C（嚴重需治療）正確、D（嚴重可給 1:1000 IM epinephrine）依 ACR/RANZCR 亦為正確；而 B（中度只需監測與保留 IV「但不需要治療」）為錯誤——中度反應需特定治療。故若問「何者錯誤」臨床上最可能為 B；匯入資料標記答案為 D，因題幹嚴重降級無法確認，暫從原始標記並保留此旗標供院方原始詳解覆核。→ [[contrast-adverse-reactions]]",
       "images": [],
       "concepts": [
