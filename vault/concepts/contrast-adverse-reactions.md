@@ -9,7 +9,10 @@ aliases:
   - premedication
   - Lalli effect
   - 對比劑不良反應
-dateRev: 2026-07-10
+  - acute contrast reaction
+  - 對比劑急性反應處置
+  - 對比劑過敏反應分級
+dateRev: 2026-07-11
 nonImaging: true
 nonImagingReason: "對比劑不良反應臨床分類/處置，無影像徵象"
 same:
@@ -33,6 +36,7 @@ same:
   - **中度 Moderate（需藥物治療）**：類過敏＝廣泛蕁麻疹、廣泛紅斑＋生命徵象穩定、**臉部水腫（無呼吸困難）**、喉嚨緊/聲音沙啞（無呼吸困難）、喘鳴/支氣管痙攣（輕微或無低血氧）;生理性＝持續噁心嘔吐、高血壓 urgency、單純胸痛、**vasovagal（需治療且有效）**。
   - **重度 Severe（立即急救）**：類過敏＝廣泛/**臉部水腫＋呼吸困難**、廣泛紅斑＋低血壓、**喉頭水腫＋stridor±低血氧**、支氣管痙攣＋明顯低血氧、過敏性休克（低血壓＋心搏過速）;生理性＝**vasovagal（治療無效）**、**心律不整**、抽搐/癲癇、高血壓急症。
 - **致死率**：不良反應約 **千分之 2–9**;致死約 **百萬分之 2–9**。[^1]
+- **急性反應處置與 epinephrine 劑量（易考陷阱）**：**輕度**多自限、僅需支持性觀察通常不需特殊治療;**中度需特定藥物治療**（非「只監測、保留 IV 而不治療」）;**重度**危及生命需立即急救。過敏樣嚴重反應一線＝**epinephrine**——**肌肉注射(IM)用 1:1000**（0.01 mg/kg、成人上限 0.5 mg、打大腿前外側）、**靜脈注射(IV)用 1:10000**（濃度與途徑**不可對調**，反用恐致高血壓危象/心律不整）;支氣管痙攣＝面罩 O₂ 6–10 L/min＋吸入型 β2 致效劑。幾乎所有致命反應在注射後 20 分鐘內。[^4][^5][^6]
 - **遲發不良反應(DAR)**：[^2]
   - **T 細胞媒介**（非 B 細胞）;最常見**皮膚反應**（maculopapular/斑丘疹、癢）、多 self-limiting。
   - 時程：首次 **2–10 天**、再暴露 **1–2 天**（多在 3 小時–2 天）。
@@ -68,6 +72,8 @@ same:
 [^2]: 含碘對比劑遲發不良反應(DAR)文獻（AJR 2014;203:1163-1170;2020 對比劑手冊）：**DAR 為 T 細胞媒介**、maculopapular rash、首次 2–10 天/再暴露 1–2 天、**dimer iso-osmolar 為風險因子**;對比劑為藥物性皮膚反應第三大原因（次於抗生素、NSAID）。**近期 IL-2 免疫治療亦為 DAR 風險因子**（Choyke PL, Miller DL, Lotze MT, et al. *Delayed reactions to contrast media after interleukin-2 immunotherapy*. Radiology 1992;183(1):111-4, PMID 1549655：IL-2 組遲發反應 11.8% vs 非 IL-2 組 3.9%、症狀更重）。
 [^3]: ESUR Contrast Media Safety Committee. *ESUR Guidelines on Contrast Agents, v2025*（esur.org;PDF 實際查證 accessed 2026-06-20）：「Categories of immediate **hypersensitivity** reactions」表將 **facial oedema、laryngeal oedema (with hypoxia, Grade 3)、bronchospasm、anaphylactic shock** 列為 hypersensitivity（類過敏）;CMSC 同採 ACR 與 Ring & Messmer 分級。另 ACR Manual on Contrast Media 嚴重度分級（Mild/Moderate/Severe,各分 allergic-like／physiologic）同此歸類——**facial/laryngeal oedema 屬類過敏、非劑量相關**。ESUR 2025 hypersensitivity 全文本機備有 [[2025 ESUR Hypersensitivity reactions to contrast media - Part 1.pdf]]／[[2025 ESUR Hypersensitivity reactions to contrast media - Part 2.pdf]]（gitignore）。
 [^4]: *Contrast media adverse reactions*. Radiopaedia.org（實際查證 accessed 2026-07-06）：嚴重度與處置分級——**mild**＝自限性、通常**無需特殊治療**（如噁心嘔吐、潮紅、搔癢、輕度蕁麻疹），支持性照護即可；**moderate**＝症狀較明顯、**需醫療介入並給予特定治療**（如明顯蕁麻疹用抗組織胺／IM epinephrine、bronchospasm 給氧＋β2 agonist±IM epinephrine）；**severe**＝多為 moderate 之進展、危及生命，需立即急救。故「中度反應不需治療」之敘述為錯誤。
+[^5]: **Tier 1** Berg WA, Houshmand G. *Contrast Reactions*（Breast/Imaging Safety, Dx）. STATdx, Elsevier（updated 05/13/26，實際查證 accessed 2026-07-05）：不良反應分「allergic-like」（輕微 urticaria/pruritus 至 bronchospasm、cardiopulmonary arrest／死亡）與「physiologic」（噁心嘔吐、迷走、高血壓、頭痛、焦慮）;首次 ICM 曝露反應率約 2%、再次約 0.4%。
+[^6]: **Tier 1** Wang CL, et al. *Management and Prevention of Hypersensitivity Reactions to Radiocontrast Media: A Consensus Statement from the ACR and the American Academy of Allergy, Asthma & Immunology.* Radiology. 2025;315(2)（DOI [10.1148/radiol.240100](https://doi.org/10.1148/radiol.240100)，RSNA 全文查證 accessed 2026-07-05）：**moderate reactions「commonly require medical management with the potential to become severe if not treated」**;anaphylaxis 首選 epinephrine、**IM 0.01 mg/kg 之 1:1000（1 mg/mL）、>50 kg 上限 0.5 mg、打大腿前外側**——佐證「中度反應需治療」。
 
 ## 題目
 > [!question]- What statement of iodinated contrast media adverse reactions is wrong? (2018-106)
@@ -87,6 +93,10 @@ same:
 
 > [!question]- 有關含碘對比劑的安全事項，下列敘述何者正確? (2021-182)
 > **B（含碘對比劑會影響 radioactive iodine therapy/scan 之病人，應建議適當的 washout period）**——含碘對比劑與甲狀腺攝碘互相干擾，接受放射碘治療/掃描前後需間隔一段時間（正確）。A 錯：甲狀腺風暴/甲亢活動期應避免含碘對比劑，此情境 corticosteroid premedication 幫助不大；C 錯：皮內皮膚測試（intradermal skin testing）無法正確預測不良反應、不建議；D 錯：premedication 不能預防所有反應（仍可能 breakthrough）。
+
+> [!question]- 有關輻射工作人員職業曝露之劑量限度，下列敘述何者錯誤？（2022-379）
+> A. 輕微症狀就一般而言是不需要治療　B. 中度症狀需要生理監測和保留IV, 但不需要治療　C. 嚴重症狀需要治療　D. 嚴正症狀可以給予epinephrine (1:1000)1M
+> ⚠️ **題幹與選項不符**：原始 PDF 題幹被誤植為「輻射劑量限度」，四個選項實為對比劑急性反應之嚴重度分級與處置。依選項內容：A（輕微多不需治療）、C（嚴重需治療）、D（嚴重可給 1:1000 IM epinephrine）皆正確；**B（中度只監測、保留 IV「但不需治療」）為錯誤**——中度反應需特定治療。故若問「何者錯誤」臨床上最可能為 **B**；原卷標記答案為 D，因題幹嚴重降級無法確認，請以院方原始詳解覆核。[^4][^6]
 
 ## 考題
 ```dataview
