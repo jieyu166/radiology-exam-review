@@ -351,7 +351,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics 2021; 41(3):1-20.；2021 交換考官方詳解 PDF p164",
-      "explanation": "答案 D。本題問 false-negative breast MRI 錯誤類型何者「錯誤」。（A）對：知覺性錯誤（perceptual error）是放射診斷最常見的錯誤，約占放射科醫師錯誤的 60%–80%。（B）對：知覺性錯誤指異常僅在回溯（retrospective）時才被看見、當下（prospective）未偵測到，即「漏看」。（C）對：認知性錯誤（cognitive error）指異常當下已被看見，但對其臨床意義判讀錯誤。（D）錯：subtle findings、satisfaction of search、工作環境干擾、醫師疲勞、病灶顯著度不佳等，屬於造成「知覺性錯誤」的原因，而非認知性錯誤，本選項張冠李戴故為不正確者。（E）對：醫學知識不足、醫師偏誤、錯誤的臨床資訊等才是認知性錯誤的常見成因。→ [[breast-mri-false-negative]]",
+      "explanation": "答案 D。本題問 false-negative breast MRI 錯誤類型何者「錯誤」。（A）對：知覺性錯誤（perceptual error）是放射診斷最常見的錯誤，約占放射科醫師錯誤的 60%–80%。（B）對：知覺性錯誤指異常僅在回溯（retrospective）時才被看見、當下（prospective）未偵測到，即「漏看」。（C）對：認知性錯誤（cognitive error）指異常當下已被看見，但對其臨床意義判讀錯誤。（D）錯：subtle findings、satisfaction of search、工作環境干擾、醫師疲勞、病灶顯著度不佳等，屬於造成「知覺性錯誤」的原因，而非認知性錯誤，本選項張冠李戴故為不正確者。（E）對：醫學知識不足、醫師偏誤、錯誤的臨床資訊等才是認知性錯誤的常見成因。→ [[radiology-diagnostic-error-types]]",
       "concepts": [
         "radiology-diagnostic-error-types"
       ],
@@ -588,7 +588,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2021 交換考官方詳解 PDF p179",
-      "explanation": "答案 A。本題問乳房攝影三角定位（triangulation）何者「正確」，口訣「muffins rise, lead sinks」——由 MLO 換到 ML（true lateral）時，內側（medial）病灶上移、外側（lateral）病灶下移。（A）對：只見於 MLO 的病灶，若位於內側乳房，在 ML 上會「上移」（medial muffins rise）。（B）錯：外側（outer）病灶在 ML 上應「下移」（lateral lead sinks），並非上移。（C）錯：rolled CC view 中，上部病灶的移動方向與乳房上部被 roll 的方向「一致（concordant）」，而非相反。（D）錯：腋尾（axillary tail）病灶應以 exaggerated CC lateral（XCCL）而非 medial view 來顯示。→ [[mammography-triangulation]]",
+      "explanation": "答案 A。本題問乳房攝影三角定位（triangulation）何者「正確」，口訣「muffins rise, lead sinks」——由 MLO 換到 ML（true lateral）時，內側（medial）病灶上移、外側（lateral）病灶下移。（A）對：只見於 MLO 的病灶，若位於內側乳房，在 ML 上會「上移」（medial muffins rise）。（B）錯：外側（outer）病灶在 ML 上應「下移」（lateral lead sinks），並非上移。（C）錯：rolled CC view 中，上部病灶的移動方向與乳房上部被 roll 的方向「一致（concordant）」，而非相反。（D）錯：腋尾（axillary tail）病灶應以 exaggerated CC lateral（XCCL）而非 medial view 來顯示。→ [[mammography-positioning]]",
       "images": [
         "2021-015-1.png"
       ],

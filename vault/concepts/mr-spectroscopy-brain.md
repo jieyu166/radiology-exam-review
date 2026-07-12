@@ -7,21 +7,21 @@ aliases:
   - MR spectroscopy
   - proton spectroscopy
   - 磁振頻譜
-dateRev: 2026-07-10
+dateRev: 2026-07-13
 ---
 
 # mr-spectroscopy-brain
 
-**MRS的四個常考代謝物口訣：NAA(2.02 ppm)是神經元的身分證，減少代表神經元受損；Choline(3.2 ppm)是細胞膜週轉/增生的指標，是acetylcholine的前驅物；Lactate(1.3 ppm)在長TE呈doublet，代表無氧代謝；Canavan disease是唯一NAA不減反增的疾病。**
+**MRS的四個常考代謝物口訣：NAA(2.02 ppm)是神經元的身分證，減少代表神經元受損；Choline(3.2 ppm)是細胞膜週轉/增生的指標，是acetylcholine的前驅物；Lactate(1.3 ppm)呈doublet(J-coupling)、於intermediate TE(135–144ms)倒轉至基線下可與lipid區分，代表無氧代謝；Canavan disease是唯一NAA不減反增的疾病。**
 
 ## Summary
-- **Lactate**：**1.3 ppm**，於**long TE**（非short TE）呈**double peak（doublet）**；與lipid band重疊，可用**intermediate TE（如144 ms）使lactate反轉**以資鑑別。[^1]
+- **Lactate**：**1.3 ppm**，呈**doublet（J-coupling）**——此雙峰跨各 TE 皆存在，只是**相位隨 TE 改變**：**短 TE 為正立峰、intermediate TE（135–144 ms）倒轉至基線下、long TE 譜線較乾淨故較易辨識**（並非「只在 long TE 才有 doublet」）；因與 lipid band 重疊，臨床用 **intermediate TE 使 lactate 倒轉、而 lipid 不倒轉**以資鑑別。[^1]
 - **NAA (N-acetylaspartate)**：共振於**2.02 ppm**（非3.0 ppm）；為神經元/軸突完整性指標，減少代表神經元受損或喪失。[^1]
 - **Canavan disease**：**NAA增加**（非減少）——是少數NAA不降反升的疾病，具鑑別意義。[^1]
 - **Choline**：為**acetylcholine（乙醯膽鹼）之前驅物**，acetylcholine是細胞膜成分之一；choline峰反映細胞膜合成/週轉（增生性病灶常見choline上升）。[^1]
 
 > [!note] 考點：MRS敘述何者正確？
-> **Choline為acetylcholine（細胞膜成分）之前驅物（D）**。Lactate doublet見於long TE而非short TE(A錯)、NAA共振於2.02而非3.0 ppm(B錯)、Canavan disease為NAA增加而非減少(C錯)。[^1]
+> **Choline為acetylcholine（細胞膜成分）之前驅物（D）**。選項A「Lactate doublet只見於long TE、short TE看不到」為錯——doublet於**短TE即為正立可見**、intermediate TE(135–144ms)倒轉、long TE譜線較乾淨(A錯)；NAA共振於2.02而非3.0 ppm(B錯)、Canavan disease為NAA增加而非減少(C錯)。[^1]
 
 ## 放射科醫師影像判讀重點
 
@@ -43,7 +43,7 @@ dateRev: 2026-07-10
 > **D（Meningioma）**——meningioma 為外軸腫瘤、無神經元故無 NAA、常見 alanine（~1.5 ppm）。病灶既仍見 NAA→內軸腫瘤（lymphoma／HGG／metastasis），故 meningioma 最不可能。[^1][^2]
 
 ### 參考來源
-[^1]: *Clinical Proton MR Spectroscopy in Central Nervous System Disorders.* Radiographics 2006;26 Suppl 1:S173-89（2018 交換考題詳解 p.228 引用；Tier 1 期刊；查證 accessed 2026-07-10）。Lactate 1.3 ppm long TE doublet(可用intermediate TE 144ms反轉區分lipid)；NAA 2.02 ppm 為神經元標記；Canavan disease NAA增加；Choline為acetylcholine前驅物；meningioma 具特徵性 alanine peak（~1.47–1.5 ppm）且缺 NAA。
+[^1]: *Clinical Proton MR Spectroscopy in Central Nervous System Disorders.* Radiographics 2006;26 Suppl 1:S173-89（2018 交換考題詳解 p.228 引用；Tier 1 期刊；查證 accessed 2026-07-10）。Lactate 1.3 ppm doublet（J-coupling；短TE正立、intermediate TE 144ms倒轉區分lipid、long TE譜線乾淨故較易辨識，非僅long TE才有doublet）；NAA 2.02 ppm 為神經元標記；Canavan disease NAA增加；Choline為acetylcholine前驅物；meningioma 具特徵性 alanine peak（~1.47–1.5 ppm）且缺 NAA。
 [^2]: *MR spectroscopy*. Radiopaedia.org rID 1630（DOI 10.53347/rID-1630；實際查證 accessed 2026-07-10）：Grossman & Yousem 名言「everything except Canavan has low NAA, high choline」；**non-glial tumors will have little, if any, NAA peak**（腦膜瘤為外軸/非神經膠質腫瘤，故無 NAA、可見 alanine）；MRS 可增加特異性、協助預測組織學分級。
 
 ## 題目
