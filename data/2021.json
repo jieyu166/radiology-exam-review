@@ -1004,7 +1004,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Grainger & Allison’s Diagnostic Radiology Essentials 1.4 (53~55)；10.2214/AJR.09.4146；2021 交換考官方詳解 PDF p12",
-      "explanation": "【2021 官方詳解】\n10.2214/AJR.09.4146\n\n⚠️ 本題含影像（官方詳解 PDF 第 12 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。題幹問「氣管壁呈結節狀（nodularity）增厚且保留後壁膜（membranous wall）」者為何。氣管後壁無軟骨、由 trachealis 肌構成，「保留後壁」把病灶限縮在軟骨環的前外側；再加上「結節狀」即指向 tracheobronchopathia osteochondroplastica（TBO）——其黏膜下的骨／軟骨結節自軟骨環長出、突入管腔形成結節，並常帶焦點粗鈣化，好發於氣管下 2/3。\n(A) relapsing polychondritis 雖也保留後壁膜，但為前外側壁「平滑」的高衰減增厚合併軟骨破壞，非結節狀，且常伴耳鼻軟骨炎等全身線索，故非本題最佳答案。\n(B) tracheobronchial papillomatosis 為 HPV 相關的多發 polypoid 軟組織結節、可沿氣道向肺內播散，並無「鈣化結節＋保留後壁」的型態。\n(C) Mounier-Kuhn（tracheobronchomegaly）以氣管與主支氣管管腔瀰漫「擴大」為特徵（氣管 >3 cm），屬管徑異常而非管壁結節。\n故答案為 (D) TBO。\n→ [[tracheal-tumors]]",
       "concepts": [
         "tracheal-tumors"
       ],
@@ -1048,7 +1048,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging-Chest Part 1（I-2-34~37）；10.1371/journal.pone.0226084；2021 交換考官方詳解 PDF p11",
-      "explanation": "A. 較年輕 B. UIP: 抽菸老男人較多 D. 預後比UIP好\n\n【2021 官方詳解】\nNonspecific interstitial pneumonia (NSIP), on the other hand, represents a pathological subtype of IIP that can mimic IPF in its clinical presentation and has a more favorable prognosis, with a median survival time of more than 9 years\nHoneycombing with a peripheral predominance was significantly associated with a diagnosis of UIP. The NSIP pattern showed more subpleural sparing. The UIP pattern was predominantly observed in elderly males with a history of smoking, whereas NSIP occurred in a younger patient population.\nThe main CT features of IPF are reported to be basal and peripheral reticulations, which are most typically associated with honeycombing potentially predicting patient outcomes [8–10]. Ground-glass opacities (GGOs) are also common, but less extensive. For NSIP, the reported characteristic CT patterns overlap with those of UIP and consist of GGOs and/or reticular patterns, while honeycombing is rare.\n10.1371/journal.pone.0226084",
+      "explanation": "答案 C。本題問關於 NSIP 何者「正確」。NSIP 的招牌影像是下肺／基底為主、對稱的毛玻璃影（GGO）為主要型態，纖維化型（fibrotic NSIP）並可合併網狀影與牽引性支氣管擴張（即氣道結構扭曲），故 (C)「以 GGO 為主、可伴或不伴氣道扭曲」為正確。\n(A) 錯誤：NSIP 好發族群相對「較年輕」，UIP 病人年齡通常較大，方向相反。\n(B) 錯誤：與抽菸強相關的是 UIP（好發年長男性、吸菸者）；NSIP 反而常見於年輕女性並強烈提示結締組織疾病，與抽菸無明確關聯。\n(D) 錯誤：NSIP 預後優於 IPF/UIP，cellular NSIP 對免疫治療反應尤佳、中位存活可達 9 年以上，而非更差。\n另 NSIP 相對 UIP 常見 subpleural sparing、honeycombing 罕見，是兩者的鏡像鑑別點。\n→ [[nonspecific-interstitial-pneumonia]]",
       "images": [],
       "concepts": [
         "nonspecific-interstitial-pneumonia"
@@ -1086,7 +1086,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Breast J. 2019 Nov;25(6):1251-1253.；2021 交換考官方詳解 PDF p344",
-      "explanation": "通常可看到 ill-defined focal asymmetries，**no** calcifications。\n- 念書知道AB正確。\n\n【2021 官方詳解】\nC: Screening mammography usually shows no calcification\nRef:\nIgG4‐related sclerosing mastitis in a 49‐year‐old patient with multiple, tumor‐like nodules—Diagnostic accuracy of core needle biopsy",
+      "explanation": "答案 C。本題問關於 IgG4 硬化性乳腺炎何者「錯誤」。(C) 稱篩檢乳房攝影常見粗大微鈣化（coarse microcalcifications），此敘述錯誤——IgG4 硬化性乳腺炎在乳房攝影上典型為界限不清的局部不對稱緻密影，一般「無鈣化」，故 (C) 為誤。\n(A) 正確：顯微下為結節狀病灶，硬化性（storiform）間質被緻密淋巴漿細胞浸潤包繞、乳腺小葉萎縮，與 IgG4-RD 他處組織學一致。\n(B) 正確：檢體可見 IgG4 陽性漿細胞增多（每高倍視野 >10、常呈 periductal 分布），為診斷要件之一。\n(D) 正確：臨床多以無痛腫塊表現，可為單發或多發病灶，通常無皮膚變化或腋窩淋巴結腫大。\n影像與乳癌重疊、常被歸為 BI-RADS 4/5 而需切片；確診後類固醇治療預後佳。\n→ [[igg4-related-disease]]",
       "images": [],
       "concepts": [
         "igg4-related-disease"
@@ -1124,7 +1124,7 @@
       ],
       "correctAnswer": "D",
       "reference": "2021 交換考官方詳解 PDF p329",
-      "explanation": "Category 1 (negative, <1% chance of malignancy)\n- No lung nodules\n- Lung nodule(s) with speciﬁc ﬁndings favoring benign nodule(s)\n\t- complete calciﬁcation\n\t- central calciﬁcation\n\t- popcorn calciﬁcation\n\t- calciﬁcation  in concentric rings\n\t- fat-containing nodules\n\n【2021 官方詳解】\nLung-RADS\nCategory 1 (negative, <1% chance of malignancy)\n- no lung nodules\n- lung nodule(s) with specific findings favoring benign nodule(s)\n  - complete calcification\n  - central calcification\n  - popcorn calcification\n  - calcification in concentric rings\n  - fat-containing nodules",
+      "explanation": "答案 D。本題問肺良性腫瘤在 X 光上的特徵。最可靠的良性線索是「良性型態的鈣化」，其中同心圓／層狀的緻密鈣化（concentric/laminated dense calcification）對應癒合性肉芽腫，屬明確的良性型態，故選 (D)。\n(A) 直徑 >5 cm 的病灶體積愈大惡性機率愈高，偏向惡性而非良性。\n(B) 空洞化（cavitation）常見於惡性（如壞死性肺癌）或感染，不是良性腫瘤的特徵。\n(C) 周邊位置（peripheral location）對良惡性沒有鑑別特異度，不能據以判定良性。\n補充：其他良性鈣化型態尚有中央（central）、瀰漫實心（diffuse/solid）與爆米花（popcorn，hamartoma）；偏心與點狀／不定形鈣化則屬可疑，須當惡性處理。\n→ [[pulmonary-calcification]]",
       "images": [],
       "concepts": [
         "pulmonary-calcification"
@@ -3725,7 +3725,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging-Chest Part 4（IV-1-3）；2021 交換考官方詳解 PDF p10",
-      "explanation": "【2021 官方詳解】\nThe luftsichel sign is seen in some cases of left upper lobe collapse and refers to the frontal chest radiographic appearance due to hyperinflation of the superior segment of the left lower lobe interposing itself between the mediastinum and the collapsed left upper lobe.",
+      "explanation": "答案 B。Luftsichel（德語「空氣鐮刀」）指左上葉（LUL）塌陷時的正面胸片徵象：LUL 向前塌陷後，左下葉的上節段（superior segment）代償性過度充氣，向上疝入主動脈弓與塌陷上葉之間，於主動脈旁形成新月狀透亮影，故答案為 (B) LUL。\n(A) RUL 塌陷在側位片呈三角形緻密影、可伴 Golden S sign，不會形成此主動脈旁透亮。\n(C) RLL 與 (D) LLL 塌陷均向後內下方塌陷，正面片呈後縱隔／後心影三角形增密，也不產生主動脈旁新月透亮。\n故唯有左上葉塌陷對應 Luftsichel sign。\n→ [[lobar-atelectasis]]",
       "images": [],
       "concepts": [
         "lobar-atelectasis"
@@ -5384,7 +5384,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Lymphatic Pathways of the Thorax: Predictable Patterns of Spread American Journal of Roentgenology. 2021;216: 649-658 https://www.ajronline.org/doi/full/10.2214/AJR.20.23523；10.1148/rg.271065105；2021 交換考官方詳解 PDF p78",
-      "explanation": "【2021 官方詳解】\nD. Mesothelioma of the thorax is a malignant neoplasm that involves the parietal pleura to a greater extent than the visceral pleura\n10.1148/rg.271065105\nLung cancer 從裡面往外吃，所以當然先吃visceral pleura.",
+      "explanation": "答案 D。本題問肋膜惡性的敘述何者「錯誤」。(D) 稱間皮瘤相較肺癌更易侵犯臟層肋膜（visceral pleura），此敘述錯誤——惡性間皮瘤主要累及「壁層肋膜（parietal pleura）」多於臟層；而肺癌自肺實質內向外生長，反而先侵犯臟層肋膜，兩者方向恰好相反，故 (D) 為誤。\n(A) 正確：肋膜最常見的惡性病灶是轉移，遠多於原發性間皮瘤，常以惡性肋膜積液表現。\n(B) 正確：惡性間皮瘤是最常見的原發性肋膜惡性腫瘤。\n(C) 正確：惡性間皮瘤與石綿（asbestos）暴露強相關，潛伏期可達數十年。\n補充：轉移的原發排序以肺癌第一、乳癌第二；Leung 四徵象（結節狀、環周、壁層 >1 cm、縱膈肋膜受累）有助判別惡性肋膜增厚。\n→ [[pleural-metastases]]",
       "images": [],
       "concepts": [
         "pleural-metastases"
@@ -5422,7 +5422,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Mayo Clinic Process. Feb 2019:94121:309-325；2021 交換考官方詳解 PDF p79",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 79 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題問 CTD-ILD 的敘述何者「不正確」。(D) 稱 organizing pneumonia（OP）在 systemic sclerosis 比 polymyositis/dermatomyositis 更常見，此敘述錯誤——OP 其實以 PM/DM（尤其 antisynthetase syndrome，常呈 NSIP-OP overlap／fibrosing OP）較常見，而 SSc 以 NSIP 為主、OP 少見，方向相反，故 (D) 不正確。\n(A) 正確：NSIP（尤 fibrotic NSIP）是 CTD-ILD 整體最常見的型態。\n(B) 正確：在各 CTD 中，UIP 最常見於 rheumatoid arthritis（RA 是唯一以 UIP 為主導、最像 IPF 的 CTD）。\n(C) 正確：lymphocytic interstitial pneumonitis（LIP）最具 Sjögren 代表性，亦可見於 RA 或 SLE，但相對少見。\n→ [[ctd-ild]]",
       "concepts": [
         "ctd-ild"
       ],
@@ -5466,7 +5466,7 @@
       ],
       "correctAnswer": "A",
       "reference": "RadioGraphics 2019; 39:344–366；2021 交換考官方詳解 PDF p80",
-      "explanation": "【2021 官方詳解】\nA. It is customary to use the radiation therapy completion date as a reference point for determining the dates of tissue changes.\nRegardless of the radiation therapy delivery technique used, radiographically evident changes are uncommon when the total radiation dose delivered is less than 30 Gy, but they are almost always seen with doses higher than 40 Gy.\nRadiographic findings seen during the acute phase typically appear as heterogeneous opacities or consolidation in the treatment field approximately 3–4 weeks after the radiation therapy ends.\nCT can depict the radiation damage before it is evident at radiography. Although acute radiation pneumonitis may be detected at CT as early as 1 week after treatment, more frequently changes are detected with CT by 4 weeks.",
+      "explanation": "答案 A。本題問關於放射性肺損傷（RILD）何者「錯誤」。(A) 稱以放療「首日（first date）」作為判定組織變化時序的參考點，此敘述錯誤——慣例是以放療「完成日（completion date）」而非開始日為計時基準，故 (A) 為誤。\n(B) 正確：不論放療技術為何，總劑量 <30 Gy 時影像可見變化少見，>40 Gy 時幾乎必然出現。\n(C) 正確：CT 比胸片更早、更敏感；急性放射性肺炎最早可於治療後 1 週於 CT 呈現，但更常在 4 週時被偵測到。\n(D) 正確：影像典型呈治療野內、不循肺葉／肺節分界的異質性 opacity 或 consolidation，急性期約於放療結束後 3–4 週出現。\n→ [[radiation-induced-lung-disease]]",
       "images": [],
       "concepts": [
         "radiation-induced-lung-disease"
@@ -5504,7 +5504,7 @@
       ],
       "correctAnswer": "D",
       "reference": "2021 交換考官方詳解 PDF p81",
-      "explanation": "【2021 官方詳解】\nInterstitial Lung Disease symptoms:\n  - Shortness of breath at rest or aggravated by exertion\n  - Dry cough\nPulmonary Fibrosis symptoms:\n  - Shortness of breath (dyspnea)\n  - A dry cough\n  - Fatigue\n  - Unexplained weight loss\n  - Aching muscles and joints\n  - Widening and rounding of the tips of the fingers or toes (clubbing)\nMayo Clinic 寫的，不服氣的話，申請進去 然後嗆他們．",
+      "explanation": "答案 D。本題問急性胸痛的 CT 病因中何者「最不可能」。(D) interstitial lung fibrosis（間質性肺病／肺纖維化）屬慢性病程，臨床以漸進性呼吸困難、乾咳、疲倦、杵狀指為主，並非急性胸痛的典型病因，故為最不可能者。\n(A) aortic dissection 是急性胸痛的致命病因之一，屬 triple rule-out 三大血管性殺手（另含肺栓塞、急性冠心症）。\n(B) pneumothorax（氣胸）為可致急性胸痛的非血管急症，CT 可見胸膜線外無肺紋、深溝徵。\n(C) pleural effusion／肋膜炎亦可造成急性胸痛，屬 CT 可見的急性病因。\n本題作答邏輯是「急性 vs 慢性病程」而非特定影像徵象，屬低鑑別度題。\n→ [[acute-chest-pain-ct]]",
       "images": [],
       "concepts": [
         "acute-chest-pain-ct"
@@ -5542,7 +5542,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Chest CT in COVID-19: What the Radiologist Needs to Know Thomas C. Kwee , Robert M. Kwee RadioGraphics Vol. 40, No. 7 https://doi.org/10.1148/rg.2020200159；10.1148/rg.2020200159；2021 交換考官方詳解 PDF p82",
-      "explanation": "【2021 官方詳解】\nB. Chest imaging is not indicated as a screening test for COVID-19 in asymptomatic patients or in patients with mild respiratory symptoms of COVID-19 (ie, absence of significant pulmonary dysfunction or damage).\nA negative chest CT examination does not exclude COVID-19. 沒症狀或輕微症狀就不要浪費時間跟金錢了，切了還會不小心看到一些 Incidentalomas.\nSeveral chest CT findings have been reported in more than 70% of RT-PCR test–proven COVID-19 cases, including ground-glass opacities, vascular enlargement, bilateral abnormalities, lower lobe involvement, and posterior predilection.",
+      "explanation": "答案 B。本題問關於 COVID-19 胸部影像何者「錯誤」。(B) 稱胸部影像可作為無症狀或僅輕微呼吸道症狀者的 COVID-19 篩檢工具，此敘述錯誤——胸部影像「不」建議用於無症狀或輕症者的篩檢，診斷應以 RT-PCR 為主，CT 保留用於評估併發症或鑑別診斷，故 (B) 為誤。\n(A) 正確：逾 70% 經 RT-PCR 確診病例的 CT 可見磨玻璃影、下葉侵犯與後側優勢分布（亦含血管擴張、雙側異常）。\n(C) 正確：CT 陰性不能排除 COVID-19，且其影像與眾多其他疾病重疊、偽陽性比例不低。\n(D) 正確：CT 非 COVID-19 的診斷標準，但在適當臨床情境下其表現有助提示診斷。\n→ [[covid19-chest-ct]]",
       "images": [],
       "concepts": [
         "covid19-chest-ct"
@@ -5971,7 +5971,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Stratification, Imaging, and Management of Acute Massive and Submassive Pulmonary Embolism. https://doi.org/10.1148/radiol.2017151978；10.1148/radiol.2017151978；2021 交換考官方詳解 PDF p100",
-      "explanation": "【2021 官方詳解】\nA. Based on decreasing mortality risk. Massive -🡺 submassive 🡺 low risk 一看就覺得是往下降",
+      "explanation": "答案 A。此題問肺栓塞敘述何者「錯誤」。A 稱危險分層（massive→submassive→low risk）是依「遞增（increasing）」死亡風險排列，方向恰好相反：massive（大量）死亡率最高、submassive 次之、low risk 最低，屬「遞減」排列，故 A 為錯誤敘述。B 正確：CTA 與心臟超音波上的右心室/左心室比值（RV/LV ratio）、室間隔向左膨出（septal bowing）等右心負荷徵象與較差的 30 天預後相關。C 正確：massive PE 需更積極的再灌流治療（全身溶栓、導管導向治療、外科取栓）以迅速恢復肺血流、避免死亡。D 正確：血氧飽和度 <90% 與較高的 30 天死亡風險相關。\n→ [[acute-pe-ct-severity]]",
       "images": [],
       "concepts": [
         "acute-pe-ct-severity"
@@ -6009,7 +6009,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2011 an Official ATS/ERS/JRS/ALAT Statement: Idiopathic Pulmonary Fibrosis: Evidence-based Guidelines for Diagnosis and Management；2021 交換考官方詳解 PDF p101",
-      "explanation": "【2021 官方詳解】\nA. Honeycombing with or without traction bronchiectasis 是Definite UIP pattern!\n2011 出來的，但2018 小改版了.\n\n⚠️ 本題含影像（官方詳解 PDF 第 101 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。依 2011 ATS/ERS/JRS/ALAT IPF 指引，「possible UIP pattern」的條件為 subpleural＋basal 為主的分布、網狀影（reticular），且不具與 UIP 不符（inconsistent）的特徵，但關鍵前提是「無 honeycombing」。A 所述「honeycombing 伴或不伴牽引性支氣管擴張」一旦出現蜂窩化，即屬 definite（typical）UIP pattern，而非 possible UIP，故 A 為錯誤選項。B（subpleural、basal 為主）、C（reticular abnormality）、D（缺乏 inconsistent-with-UIP 特徵）皆為 possible UIP 的正確組成條件。附註：2018 指引改為 typical／probable／indeterminate／alternative 四分類，2011 的 possible UIP 對應到之後的 probable UIP。\n→ [[ipf]]",
       "concepts": [
         "ipf"
       ],
@@ -6053,7 +6053,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Revisions to the TNM Staging of Lung Cancer: Rationale, Significance, and Clinical Application RadioGraphics 2018; 38:374–391；2021 交換考官方詳解 PDF p102",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 102 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。此題問何者「不」屬於 AJCC 8th 肺癌 T4。C 的「直接侵犯胸壁（chest wall）」屬 T3 而非 T4——胸壁、心包、膈神經侵犯以及同肺葉衛星結節皆歸 T3。A（腫瘤 >7 cm）符合 T4 的大小門檻；B（同側「不同肺葉」的另一顆腫瘤結節）屬 T4；D（直接侵犯膈肌 diaphragm）亦為 T4。故不屬 T4 者為 C。對照記憶：同肺葉衛星結節＝T3、同側不同肺葉結節＝T4、對側肺結節則升為 M1a。\n→ [[lung-cancer-tnm-staging]]",
       "concepts": [
         "lung-cancer-tnm-staging"
       ],
@@ -7113,7 +7113,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Chest CT in COVID-19: What the Radiologist Needs to Know RadioGraphics Volume 40, Issue 7Oct 23 2020 37:777–794；2021 交換考官方詳解 PDF p131",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 131 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。此題問何者「不是」COVID-19 的 CT 典型表現。COVID-19 典型 CT 為「雙側」分布、以下葉與後側（posterior／subpleural）為優勢；C 描述的「單側異常且上葉侵犯」與此指紋相反，故非典型。A（磨玻璃影 GGO）為最核心的典型表現；B（血管擴張 vascular enlargement）是常見伴隨徵象；D（後側優勢 posterior predilection）符合典型分布。故非典型者為 C。附註：單側、上葉為主、縱膈淋巴結腫大、肋膜積液、空洞等徵象出現時，反而應提高對其他病因的警覺。\n→ [[covid19-chest-ct]]",
       "images": [
         "2021-176-1.jpg"
       ],
@@ -7153,7 +7153,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics Vol. 30, No. 2 Clinical and Radiologic Review of the Normal and Abnormal Thymus: Pearls and Pitfalls；2021 交換考官方詳解 PDF p132",
-      "explanation": "【2021 官方詳解】\nThymic rebound hyperplasia\n- When the body is exposed to stress, the thymus may shrink to as little as 40% of its original volume. Once the body recovers, the thymus usually grows back to its original size within 9 months; it can grow to be as much as 50% larger.\n- Rebound hyperplasia is commonly seen in children but also occurs in adults\n- Thymic rebound hyperplasia typically shows diffuse enlargement, a fine mixture of fat and lymphoid tissue, a smooth contour, and normal vessels; in contrast, thymic neoplasia is usually associated with a nodular contour and frequently contains necrotic or calcified foci",
+      "explanation": "答案 B。此題問何者為「錯誤」敘述。B 稱身體受壓力時胸腺「會長大」，方向錯誤：面對壓力（化療、放療、感染、燒傷、類固醇、手術）時胸腺會「先縮小」，可小至原體積約 40%；待恢復期才反彈長大（rebound hyperplasia），通常 9 個月內回到原大小，甚至可再大達 50%。故 B 敘述錯誤。A 正確：未滿 5 歲幼兒胸腺典型呈四邊形（quadrilateral）且邊緣外凸。C 正確：囊性變化可見於多種胸腺腫瘤（胸腺上皮腫瘤、淋巴瘤、生殖細胞瘤、胸腺癌）。D 正確：成人原發胸腺腫瘤以 thymoma 最常見，孩童則以 lymphoma 最常見。附註：反彈增生呈瀰漫對稱、輪廓平滑、脂肪與淋巴組織細緻混合、血管正常，可與結節狀、含壞死或鈣化的腫瘤鑑別。\n→ [[thymic-hyperplasia]]",
       "images": [],
       "concepts": [
         "thymic-hyperplasia"
@@ -7191,7 +7191,7 @@
       ],
       "correctAnswer": "D",
       "reference": "2021 交換考官方詳解 PDF p133",
-      "explanation": "【2021 官方詳解】\nthe exuberant honeycombing sign, the anterior upper lobe sign, and the straight-edge sign have high specificity but modest sensitivity in suggesting that UIP on CT images is due to CTD-ILD rather than IPF\n\n⚠️ 本題含影像（官方詳解 PDF 第 133 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。此題問哪個 CT 徵象在 CTD-ILD 相關的 UIP 中比 IPF 相關的 UIP 更常見。anterior upper lobe sign（纖維化集中上葉前段並合併下肺侵犯）、exuberant honeycombing sign（蜂窩化占纖維化區 >70%）、straight-edge sign（纖維化侷限肺基底、冠狀面上下界銳利、不沿肺外側緣上延）三者在 CTD-ILD 都比 IPF 更常出現，屬高特異度但中等敏感度的「反常」徵象（陰性不能排除 CTD），故三者皆對，答案為 D（All of the above）。臨床意義：年輕或女性出現 UIP 樣纖維化並帶這些徵象時，應優先懷疑 CTD 而非 IPF。\n→ [[ctd-ild]]",
       "images": [
         "2021-178-1.jpg"
       ],
@@ -7231,7 +7231,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Kanne JP, Bai H, Bernheim A et-al. COVID-19 imaging: What we know now and what remains unknown Radiology 2021; 299:E262–E279；2021 交換考官方詳解 PDF p134",
-      "explanation": "【2021 官方詳解】\nOn the basis of ex-pert opinions of panel members, recommendations were issued that included no indication for routine imaging as a screening test for COVID-19 in asymptomatic individuals, no indication for daily chest radiography in stable intubated patients with COVID-19, and an indication for CT in patients with functional impairment, hypoxemia, or both after recovery from infection.",
+      "explanation": "答案 D。此題問關於 COVID-19 影像何者「不正確」。D 稱「建議對無症狀者常規影像篩檢，並對穩定插管病人每日照胸部 X 光」——這與專家共識相反：共識明確「不」建議以影像作為無症狀者的篩檢工具，也「不」建議對病況穩定的插管病人每日照 CXR；CT 應保留用於功能受損、低血氧或康復後的評估。故 D 不正確。A 正確：COVID-19 可併發血栓栓塞、心肌炎等心血管併發症，甚至牽連神經與腹部表現。B 正確：其影像可與 SARS-CoV、MERS-CoV、流感、H1N1、藥物反應、結締組織病重疊或相似。C 正確：典型 CT 為雙側周邊 GGO、以下肺為主，有時呈機化性肺炎（OP）型態。\n→ [[covid19-chest-ct]]",
       "images": [],
       "concepts": [
         "covid19-chest-ct"
@@ -7269,7 +7269,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Thomas C. Kwee, and Robert M. Kwee,: Chest CT in COVID-19: What the Radiologist Needs to Know. RadioGraphics 2020; 40:1848–1865；2021 交換考官方詳解 PDF p135",
-      "explanation": "【2021 官方詳解】\nChest imaging is not indicated as a screening test for COVID-19 in asymptomatic patients or in patients with mild respiratory symptoms of COVID-19 (ie, absence of significant pulmonary dysfunction or damage).",
+      "explanation": "答案 B。此題問關於 COVID-19 胸部 CT 何者「錯誤」。B 稱胸部影像「可」作為無症狀者或僅輕微呼吸道症狀者的 COVID-19 篩檢工具——這是錯的：影像「不」建議用於無症狀或輕症（無顯著肺功能異常或損傷）者的篩檢，診斷應靠 RT-PCR。故 B 為錯誤。A 正確：高發現率（>70%）徵象包含 GGO、血管擴張、雙側、下葉侵犯與後側優勢。C 正確：CT 陰性並不能排除 COVID-19。D 正確：病情惡化時可用影像評估病程進展或次發心肺併發症（ARDS、肺栓塞、續發肺炎、心衰竭等，後者可能續發於 COVID 引起的心臟損傷）。\n→ [[covid19-chest-ct]]",
       "images": [],
       "concepts": [
         "covid19-chest-ct"
@@ -7307,7 +7307,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiology: Cardiothoracic Imaging 2020; 2(5):e200280；2021 交換考官方詳解 PDF p136",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 136 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 A → C（原答案為 A）。COVID-19 CXR 之 characteristic finding 為雙側、周邊、中下肺帶之實變/毛玻璃（C）；lobar consolidation（A）非典型、屬 nonspecific。依官方詳解 Table 2（Chest Radiograph Characterization by Findings）：**Characteristic** ＝ Bilateral patchy and/or confluent, bandlike ground-glass opacity or consolidation in a peripheral and mid to lower lung zone distribution（即選項 C）；Nonspecific ＝ 上述以外之任何肺-胸膜異常（lobar consolidation 屬此類）；Negative ＝ 無可辨識之肺-胸膜異常。",
+      "explanation": "答案 C。此題問何者為 COVID-19 胸部 X 光的 characteristic（特徵性）表現。COVID-19 影像遵循「雙側、周邊、中下肺帶」的分布指紋，故 C（雙側、周邊且中下肺帶分布之實變/毛玻璃）為特徵表現。A（lobar consolidation 大葉性實變）屬非特異（nonspecific）表現，非 COVID 特徵；B（肋膜積液）與 D（氣胸）皆非 COVID 典型或特徵徵象，出現時反而要想其他病因。故特徵表現為 C。判讀分類：符合上述雙側周邊中下肺帶者＝characteristic；其餘任何肺-胸膜異常（含大葉性實變）＝nonspecific；無可辨識異常＝negative。⚠️ 概念檔記載本題原卷答案欄疑為 A、與現值 C 有分歧，建議對照原卷確認題號答案標示。\n→ [[covid19-chest-ct]]",
       "concepts": [
         "covid19-chest-ct"
       ],
@@ -7390,7 +7390,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiology multiple choice questions and answers https://engineeringinterviewquestions.com/radiology-objective-questions-and -answers/；2021 交換考官方詳解 PDF p138",
-      "explanation": "⚠️ 疑似與 2021-028 為同一題（相似度 0.951），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 138 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。此題問肺部良性腫瘤在 X 光上的特徵。D（concentric dense calcification，同心圓/層狀緻密鈣化）是良性鈣化型態（如肉芽腫），為良性特徵。A（>5 cm 大小）偏向惡性；B（cavitation 空洞化，尤其厚壁不規則者）偏惡性；C（peripheral location 周邊位置）鑑別良惡的效力薄弱，並非良性指標。故良性特徵為 D。附註：良性鈣化型態還包含中央、瀰漫、laminated、popcorn；病灶含脂肪則提示 hamartoma。\n→ [[solitary-pulmonary-nodule]]",
       "concepts": [
         "solitary-pulmonary-nodule"
       ],
