@@ -9,7 +9,7 @@ aliases:
   - lymphatic cording
   - 腋網症候群
   - 腋下索狀症候群
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # axillary-web-syndrome
@@ -24,6 +24,7 @@ dateRev: 2026-07-10
 - **超音波表現**：肩外展時真皮變形、**無回音（anechoic）索狀構造伴高回音邊（可能為血管腔與管壁）**、高回音結構（推測為纖維化）；**Doppler 無血流**。[^2]（選項 C 之依據——但措辭見 ⚠️）
 - **MRI 表現**：索狀構造呈**低訊號之皮下線狀帶或點狀（low signal subcutaneous linear bands or dots）**。[^2]（選項 D 正確）
 - **與 Mondor disease 關係**：腋部之 Mondor disease（淺靜脈血栓性靜脈炎）即被稱為 axillary web syndrome——歷史上二者概念重疊，反映 AWS 兼具淋巴與靜脈成分。[^3]
+- **關鍵反證（AWS ≠ 血栓化淺靜脈）**：有以 **18 MHz 高頻超音波無法辨識出特定索狀結構**之研究，顯示 AWS **並非血栓化淺靜脈、亦不等同 Mondor disease**；此點強化 2021-336 選項 C「US usually demonstrates a non-compressible thrombosed superficial vein」為可疑錯述。[^5] 誠實註記：AWS 為冷門主題，白名單五來源（StatDx/Radiopaedia/ClinicalKey/RadioGraphics/AJR）無此專文，退用同儕審查放射期刊佐證。[^4][^5]
 
 ## 影像診斷
 ### 超音波（首選影像；診斷仍以臨床為主）
@@ -52,6 +53,8 @@ dateRev: 2026-07-10
 [^1]: Awal S. *Axillary web syndrome*. Radiopaedia.org（accessed 2026-07-10）。乳癌手術（lymphadenectomy）後常見之自限性併發症；腋下一或多條皮下細索延伸至上臂/胸壁；病生理主流為手術之淋巴管損傷；診斷以臨床觸診為主，術後數日至數週出現。
 [^2]: **Tier 1** Mullen LA, Harvey SC. *Review of axillary web syndrome: What the radiologist should know*. Eur J Radiol. 2019;113:66-73. DOI 10.1016/j.ejrad.2019.02.001（PubMed PMID 30927961；官方詳解引用之同一篇）。摘要明載：AWS 常見於腋部手術後、好發乳癌病患；**患者出現一或多條緊繃組織索帶（"cords"）於腋下與上臂，伴疼痛與肩臂活動受限**；US：肩外展真皮變形、無回音索帶伴高回音邊、Doppler 無血流；MRI：低訊號皮下線狀帶/點狀。
 [^3]: Radiopaedia. *Mondor disease (breast)*（accessed 2026-07-10）。Mondor disease 為淺靜脈血栓性靜脈炎；發生於腋部時稱 axillary web syndrome——反映 AWS 之靜脈成分與概念重疊。
+[^4]: **Radiopaedia（snippet/403）** *Axillary web syndrome*. Radiopaedia.org, rID 168666, DOI 10.53347/rID-168666（搜尋摘要 accessed 2026-07-12）——乳癌腋部手術後自限性併發症；腋下延伸至上臂之一或多條緊繃索（cords）；診斷以臨床觸診為主；病生理為淋巴管損傷。（AWS 為冷門主題，白名單無此專文，退用同儕審查放射期刊。）
+[^5]: **同儕審查（免費全文，關鍵反證，非白名單）** Koehler LA, Hunter DW, Haddad TC, et al. *Characterizing axillary web syndrome: ultrasonographic efficacy*. Lymphology 2014;47(4)（PMID 25915976，PMC4518554；全文實讀 accessed 2026-07-12）——18 MHz US 無法辨識特定索狀結構，故 AWS 並非血栓化淺靜脈、亦不等同 Mondor disease。另 Mullen & Harvey（Eur J Radiol 2019，DOI 10.1016/j.ejrad.2019.02.001，PMID 30927961）之同儕審查放射期刊觀點見 [^2]。
 
 ## 題目
 > [!question]- Which of the following statement about axillary web syndrome of the breast is incorrect? (2021-336)

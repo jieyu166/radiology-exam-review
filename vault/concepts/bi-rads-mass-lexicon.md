@@ -8,7 +8,7 @@ aliases:
   - mass margin
   - oval mass undulations
   - 乳房腫塊術語
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # bi-rads-mass-lexicon
@@ -20,6 +20,7 @@ dateRev: 2026-07-10
 ### 判讀邏輯（先記這條再看細節）
 - **三軸權重**：margin >> shape > density。**margin 是良惡分水嶺最關鍵的一軸**;density 最弱（多數 reader 較少獨立判讀）。[^1][^3]
 - **任一可疑特徵即升級**：腫塊只要出現一個可疑描述詞（如 spiculated margin），整體評估就須往可疑（≥4）方向走;**乳房攝影與超音波同時做時，整體 assessment 反映「最可疑」的那一個發現**（the finding with the highest likelihood of malignancy）。[^3]
+- **觀察者間信度與 PPV 實證**：三軸中 **density 一致性最低（κ=0.18）**、shape/margin 較佳（κ≈0.48）、US echo pattern 最弱（κ=0.29）——實證印證「density 是最弱一軸」;BI-RADS 4 次分類之惡性 PPV 呈梯度 **4a≈6%、4b≈15%、4c≈53%、cat5≈91%**。[^5] ACR 第 5 版已**移除 lobular/lobulated**、shape 僅存 **oval／round／irregular** 三詞，支撐 2021-088「lobular 非 shape lexicon」。[^6]
 
 ### Mammography lexicon
 - **Shape**：[^1]
@@ -85,6 +86,8 @@ dateRev: 2026-07-10
 [^2]: *BI-RADS*. Radiopaedia.org（實際查證 accessed 2026-06-18）：mass 描述用 shape/margin/density;「nodule」非 BI-RADS lexicon 用語、應用 mass。（輔助）
 [^3]: The Radiology Assistant — *Bi-RADS for Mammography and Ultrasound 2013*（複述 ACR BI-RADS Atlas 5th ed.;實際查證 accessed 2026-06-29）：mammo margin 五詞與可疑性、obscured「須加照釐清」;density「extremely rare for breast cancer to be low density」、fat-containing 良性;US orientation「parallel (benign) or not parallel (suspicious)」、posterior「enhancement (benign) vs shadowing」;同時做兩 modality 時「overall assessment should reflect the most suspicious finding」;circumscribed 仍可為 mucinous／medullary 癌。https://radiologyassistant.nl/breast/bi-rads/bi-rads-for-mammography-and-ultrasound-2013 （Tier 2，免費，複述 ACR Atlas）
 [^4]: Park CS, et al. *Validation of the fifth edition BI-RADS ultrasound lexicon*. PMC5040135;及 ACR BI-RADS US lexicon：shape／orientation（parallel vs not-parallel）／margin／echo pattern／posterior features 五軸;circumscribed margin、parallel orientation 為良性高預測值。https://pmc.ncbi.nlm.nih.gov/articles/PMC5040135/ （Tier 2，PMC）
+[^5]: **Tier 1（摘要）** Lazarus E, Mainiero MB, Schepps B, et al. *BI-RADS lexicon for US and mammography: interobserver variability and positive predictive value*. Radiology 2006;239(2):385-391（DOI 10.1148/radiol.2392042127，PMID 16569780；摘要 accessed 2026-07-12）——mass density 觀察者間一致性最低（κ=0.18）、shape/margin κ=0.48;US echo pattern 最弱（κ=0.29）;PPV 4a 6%／4b 15%／4c 53%／cat5 91%。
+[^6]: **Radiopaedia（rID 待登入複核）** *BI-RADS*. Radiopaedia.org, rID 10003, DOI 10.53347/rID-10003（正文 403，rID 待醫師登入複核 accessed 2026-07-12）——ACR 5th 版 mass shape 僅 oval／round／irregular，已移除 lobular/lobulated。
 
 ## 題目
 > [!question]- 下列有關breast mass的敘述何者有誤? (2022-357)

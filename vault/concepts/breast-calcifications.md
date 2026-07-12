@@ -7,7 +7,7 @@ aliases:
   - typically benign calcifications
   - amorphous calcification
   - 乳房鈣化
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # breast-calcifications
@@ -38,6 +38,10 @@ dateRev: 2026-07-10
 - **較不可疑**：**Diffuse**（隨機散在，幾乎都良性）、**Regional**（>2 cm 大範圍、非乳管走向）、**Grouped/clustered**（<2 cm 內聚集）。[^1][^3]
 - **較可疑**：**Linear**（排成一直線，提示單一乳管內沉積）、**Segmental**（沿一個乳葉／乳管分支的三角分布，尖端指向乳頭）。**Segmental 為最可疑分布**，文獻 PPV 可達 **60–78%**。[^1][^3]
 - **版本沿革（BI-RADS 5th ed, 2013）**：第 5 版分布詞彙為 **diffuse／regional／grouped／linear／segmental** 五類；其中 **「grouped」為正式用語、「clustered（歷史用語 historically cluster）」已不再使用**——第 5 版以 grouped 取代 clustered。故 grouped／segmental／regional 皆仍在用，**clustered 才是現行版本中「不再使用」的分布詞**（本概念上文把 grouped/clustered 並列僅為對照舊詞，正式報告應寫 grouped）。[^1][^10]
+
+### 版本整併與 amorphous PPV 分歧（BI-RADS 5th）
+- **型態整併**：BI-RADS 第 5 版將鈣化型態整併為 **benign／suspicious 兩大類、取消舊版「intermediate concern」中間層級**，可疑型態遞增四類（amorphous → coarse heterogeneous → fine pleomorphic → fine linear/branching）自此確立。[^11]
+- **amorphous PPV 分歧並列**：傳統文獻多列 amorphous PPV **~20%（歸 4B）**;近期以 BI-RADS 5th 為基礎之實測有低至 **~9.42%** 者，主張部分可降評 **4a**（Radiologia Brasileira 2023，DOI 10.1590/0100-3984.2022.0085-en，非白名單）;另 **bilateral diffuse amorphous 為例外，可評 BI-RADS 2**。[^11][^12]
 
 ### 特殊徵象
 - **Tea-cup / milk of calcium**：同一群鈣化在 **CC 位**呈淡圓形、在 **90° true lateral（或 MLO）** 沉降成彎月／茶杯底的水平上緣——此「隨體位改變」即良性囊腫內鈣乳沉積的標誌，是區分良性與可疑微鈣化的關鍵動作（必加照 true lateral）。[^1]
@@ -95,6 +99,8 @@ dateRev: 2026-07-10
 [^4]: 斷層攝影（DBT）對微鈣化的偵測非其優勢、鈣化評估仍以全視野數位攝影＋放大為主：StatPearls（*Breast Imaging Reporting and Data System*, NCBI Bookshelf NBK459169）相關章節說明（accessed 2026-06-29）。教科書／審閱章節級。
 [^9]: *Diagnostic Imaging: Breast*, page 104（2018 交換考題詳解 p.96 引用；Tier 3 教科書）。鈣化為DCIS最常見表現；30-67%病人最終發展侵襲性癌；細線狀/分支狀鈣化高度提示高級別DCIS。
 [^10]: *BI-RADS for Mammography and Ultrasound 2013*, Radiology Assistant（radiologyassistant.nl，實際查證 accessed 2026-07-10）：分布詞條逐字列 **「Grouped (historically cluster): few calcifications occupying a small portion of breast tissue」**，證實 BI-RADS 5th ed (2013) 以 grouped 取代 clustered、clustered 為歷史用語。Radiopaedia 現行 lexicon 亦將該分布合併為單一條目「clustered calcification / grouped calcification」（accessed 2026-07-10），以 grouped 為現行詞。指引／教學圖譜級。
+[^11]: **Tier 1（摘要）** Rao AA, Feneis J, Lalonde C, Ojeda-Fournier H. *A Pictorial Review of Changes in the BI-RADS Fifth Edition*. RadioGraphics 2016;36(3):623-639（DOI 10.1148/rg.2016150178，PMID 27082663；摘要 accessed 2026-07-12）——BI-RADS 5th 將鈣化整併為 benign/suspicious 兩類、取消「intermediate concern」中間層級。
+[^12]: **Radiopaedia（snippet/403，rID 未取得）** *Breast calcifications*／*Amorphous calcifications (breast)*. Radiopaedia.org（正文 403，搜尋摘要 accessed 2026-07-12）——分布定義;amorphous 多評 4B，但 **bilateral diffuse amorphous 可評 BI-RADS 2**。amorphous PPV 近期實測分歧（~9.42% 主張可降 4a，見 Radiologia Brasileira 2023，DOI 10.1590/0100-3984.2022.0085-en，非白名單）。
 
 ## 題目
 > [!question]- Calcification is seen on a screening mammogram. Which of the following patterns is the most likely to be associated with a carcinoma? (2017-271)

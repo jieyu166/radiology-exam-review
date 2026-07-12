@@ -6,7 +6,7 @@ aliases:
   - glandular breast tissue echogenicity
   - fatty breast lobule
   - 乳房組織回音性
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # breast-tissue-echogenicity
@@ -15,6 +15,7 @@ dateRev: 2026-07-10
 
 ## Summary
 - **腺體組織 vs 脂肪小葉**：腺體組織之回音性相對於脂肪小葉為**中度增強（moderately hyperechoic）**，並非等回音、明顯高回音或中度減弱。[^1]
+- **echotexture 分類與基準**：乳房 echotexture 類比乳攝 density，BI-RADS 分 **homogeneous fat／homogeneous fibroglandular／heterogeneous** 三類，且**僅用於篩檢超音波**;纖維腺體呈 **echogenic**、乳房脂肪呈 **hypoechoic**（與他處脂肪相反），故以脂肪為等回音基準時腺體高於脂肪。[^3]
 
 ## 放射科醫師影像判讀重點
 - **回音層次基準（判讀背景之錨點）**：正常乳房超音波由淺至深為皮膚（薄高回音）→皮下脂肪（低回音）→纖維腺體層（相對脂肪為**中度高回音**）→後方脂肪與胸大肌（低回音）。以脂肪為「等回音基準」，腺體高於脂肪、病灶回音則相對腺體與脂肪判定。[^2]
@@ -32,6 +33,7 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.236。
 [^2]: **Tier 1** Stavros AT, Thickman D, Rapp CL, Dennis MA, Parker SH, Sisney GA. *Solid breast nodules: use of sonography to distinguish between benign and malignant lesions.* Radiology 1995;196(1):123-134（據 PubMed，DOI [10.1148/radiology.196.1.7784555](https://doi.org/10.1148/radiology.196.1.7784555)；實際查證 accessed 2026-07-04；並對照 ACR BI-RADS Atlas 5th ed, 2013 之組織回音描述作為參考標準）——確立以**脂肪小葉為回音參考基準**之乳房超音波判讀體系，病灶回音強度（如 markedly hypoechoic）皆相對脂肪判定；均質強高回音之實質結節屬良性提示，據此可推得正常纖維腺體相對脂肪呈中度高回音之組織背景關係。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Radiopaedia（snippet/403）** *Breast echotexture*. Radiopaedia.org, rID 49435, DOI 10.53347/rID-49435（搜尋摘要 accessed 2026-07-12）——echotexture 類比 mammographic density;BI-RADS 分 homogeneous fat／homogeneous fibroglandular／heterogeneous 三類、僅用於篩檢超音波;纖維腺體 echogenic、乳房脂肪 hypoechoic。
 
 ## 題目
 > [!question]- Which one of the following descriptions about anatomy imaging issues of breast sonography is **not true**? (2021-002)

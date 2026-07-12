@@ -9,7 +9,7 @@ aliases:
   - snowstorm sign
   - intracapsular extracapsular rupture
   - 乳房植入物破裂影像
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # breast-implant-rupture-imaging
@@ -23,6 +23,7 @@ dateRev: 2026-07-10
 - **最準確工具**：**乳房 MRI**（矽膠特異序列）為評估破裂最準確，尤其腔內破裂。[^1]
 - **乳房攝影 vs 超音波**：乳房攝影**偵測不到腔內破裂**（敏感度低於超音波），僅能顯示囊外矽膠/緻密腫塊。[^1]
 - **各模態共通**：可見 **"salad oil"/"droplet" sign**、矽膠內 water locules（水滴）。[^1]
+- **佐證（Radiopaedia + RadioGraphics）**：linguine/stepladder/keyhole/teardrop 為**腔內**、snowstorm 為**腔外**，兩者絕不對調;MRI 為偵測破裂最敏感、且區分腔內／腔外最準確;正常 radial folds 勿誤判為破裂。[^2][^3]
 
 ## 放射科醫師影像判讀重點
 - **linguine sign（MRI 腔內招牌）**：塌陷外殼漂在矽膠中呈多條波浪線，是腔內破裂最特異徵象。[^1]
@@ -43,6 +44,8 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: *Implant, Silicone* (Dx). STATdx, updated 01/27/26. Elsevier——**MR 對植入物完整性最準確，尤其腔內破裂（佔破裂約 80%）**；腔內＝外殼被纖維囊包住塌陷（US **stepladder、keyhole/subcapsular line**；MRI **linguine**）；腔外＝矽膠越囊入乳腺 ± 腋下（US **snowstorm 散射**、siliconoma/silicone granuloma；矽膠特異序列顯示囊外矽膠）；各模態可見 salad oil/droplet、water locules。原「官方 2019/2020 詳解／RadioGraphics 2017;37:366-382」弱來源已由此一手來源查核取代。
+[^2]: **Radiopaedia（snippet/403）** *Breast implant rupture*. Radiopaedia.org（主文搜尋報 rID 13106 未進正文核;正文 403，搜尋摘要 accessed 2026-07-12）——linguine/stepladder/keyhole/teardrop＝腔內、snowstorm＝腔外;MRI 為偵測破裂最敏感、且區分腔內／腔外最準確。
+[^3]: **Tier 1（citation 級）** Raj S, Karimova E, Fishman M, et al. *Imaging of Breast Implant-associated Complications and Pathologic Conditions*. RadioGraphics 2017（DOI 10.1148/rg.2017170025；citation 級，全文需登入 accessed 2026-07-12）。
 
 ## 題目
 > [!question]- 下列關於breast implant imaging的敘述何者錯誤? (2019-006)

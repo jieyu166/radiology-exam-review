@@ -6,7 +6,7 @@ aliases:
   - mammography medical audit
   - positive predictive value PPV1 PPV2 PPV3
   - 乳房攝影醫學稽核
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # mammography-medical-audit-ppv
@@ -21,6 +21,8 @@ dateRev: 2026-07-10
 - **Recall rate（回招率／abnormal interpretation rate）**：篩檢時「需再評估」者占總篩檢數的比例；在純篩檢情境下分子＝**BI-RADS category 0**（不完整、需追加影像）之篩檢數 ÷ 總篩檢數。**只含 category 0，不含 4、5**（4、5 通常於診斷性檢查後才給定）。[^4]
 - **CDR（cancer detection rate，癌症偵測率）**：所偵測之惡性數 ÷ 總篩檢數（常以每 1000 例表示）。[^4]
 - **category 3 之陽/陰性歸屬**：在 **screening** 給定的 category 3 屬「陽性判讀」（其偽陽性計入 FP1、亦計入 PPV1 分母）；在 **diagnostic** 給定的 category 3 屬「陰性判讀」（probably benign，建議短期追蹤而非切片）。[^2]
+- **實測 benchmark（BCSC 2017）**：現代數位篩檢乳攝 **PPV1≈4.4%、PPV2≈25.6%、PPV3≈28.6%**（PPV3≥PPV2≥PPV1）、recall/AIR≈11.6%、CDR≈5.1/1000、sensitivity≈86.9%、specificity≈88.9%。[^5] ACR 可接受範圍：**recall 5–12%、CDR≥2.5/1000、PPV2 20–40%**。[^6]
+- **PPV1 分母之來源分歧（並列）**：ACR 定義 PPV1 分母為篩檢陽性判讀 **0／3／4／5**;惟部分教學來源將其簡化為**僅 category 0**——兩者並列，報告與稽核以 ACR 定義為準。[^5][^6]
 
 ## 放射科醫師影像判讀重點
 - **稽核邏輯**：PPV1 → PPV2 → PPV3 是「篩檢 → 建議切片 → 實際切片」的漏斗；PPV 值通常 PPV3 ≥ PPV2 ≥ PPV1，因分母逐步限縮至更可疑的族群。[^2]
@@ -33,6 +35,8 @@ dateRev: 2026-07-10
 [^2]: **Tier 1** American College of Radiology. *ACR BI-RADS Atlas, 5th edition (2013) — Follow-up and Outcome Monitoring / Auditing your Practice*（一手 PDF，實際查證 accessed 2026-07-06）：PPV 有三種定義——PPV1（abnormal findings at screening）分母為所有篩檢陽性判讀「usually BI-RADS categories 0, 3, 4, and 5」；PPV2（biopsy recommended）分母為建議組織診斷之 category 4、5；PPV3（biopsy performed）分母為實際切片之 category 4、5，即 Biopsy Yield of Malignancy／Positive Biopsy Rate（PBR），為 FDA 法規所要求。
 [^3]: **Tier 1** 同 ACR BI-RADS Atlas 5th ed.（2013）assessment categories 章節：各評估分類對應之乳癌陽性預測值。
 [^4]: **Tier 1** American College of Radiology. *ACR BI-RADS Atlas, 5th edition (2013) — Follow-up and Outcome Monitoring / Auditing your Practice*（一手 PDF，實際查證 accessed 2026-07-10）：**Recall rate（abnormal interpretation rate）**＝篩檢時給定 BI-RADS category 0（需再評估）之比例（純篩檢情境分子為 category 0，不含 4、5）；**CDR（cancer detection rate）**＝偵測之惡性數 ÷ 總篩檢數。與 2021-337 官方詳解一致（recall＝category 0 ÷ 總檢查數；CDR＝惡性總數 ÷ 總檢查數）。
+[^5]: **Tier 1（PMC 全文）** Lehman CD, Arao RF, Sprague BL, et al. *National Performance Benchmarks for Modern Screening Digital Mammography: Update from the BCSC*. Radiology 2017;283(1):49-58（DOI 10.1148/radiol.2016161174，PMC5375631，PMID 27918707；PMC 全文 accessed 2026-07-12）——PPV1 4.4%、PPV2 25.6%、PPV3 28.6%（PPV3≥PPV2≥PPV1）、recall/AIR 11.6%、CDR 5.1/1000、sensitivity 86.9%、specificity 88.9%。
+[^6]: **Tier 1** Linver MN, et al. *The Mammography Audit: A Primer for the MQSA*（RadioGraphics/AJR 系列;accessed 2026-07-12）——PPV1＝篩檢異常判讀、PPV2＝建議切片、PPV3＝實際切片;ACR 可接受範圍 recall 5–12%、CDR≥2.5/1000、PPV2 20–40%。
 
 ## 題目
 > [!question]- What is the following about Medial Audit is INCORRECT? (2022-429)

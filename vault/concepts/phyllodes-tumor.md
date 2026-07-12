@@ -7,7 +7,7 @@ aliases:
   - phyllodes tumour
   - cystosarcoma phyllodes
   - 葉狀腫瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # phyllodes-tumor
@@ -31,6 +31,7 @@ dateRev: 2026-07-10
 - **DDx（判讀時同時想到）**：cellular/giant fibroadenoma、metaplastic（梭形細胞）癌、原發或轉移性乳房肉瘤、periductal stromal tumour——當「大而快速生長、似 FA」時尤其要把 phyllodes 納入。[^1][^2]
 - **處置導向的判讀陷阱**：影像與細胞學高度重疊，**FNA 無法可靠區分、CNB 對 benign PT 與 cellular fibroadenoma 亦有限**；記錄為「生長中 FA」者切除後約半數重分類為 benign PT，故對**大、快速生長、≥40 歲**者應建議切除並在報告中提示 phyllodes 可能。[^2][^4]
 - **不需腋窩分期**：惡性 phyllodes 以**血行轉移至肺與骨骼**為主、腋下淋巴轉移罕見，故報告轉移評估重點在肺／骨而非腋窩。[^1][^2]
+- **US 良惡預測因子（重疊，無法單靠影像鑑別）**：傾向 borderline/malignant 之預測因子為 **年齡>55、不規則形狀、最長徑>7 cm**;惟特徵高度重疊，仍無法單靠影像區分良惡。[^6] PT 好發 **40–50 歲**、較 FA 大有時不規則，因經皮切片易 undersampling 且具惡性潛能，故**一律手術（廣泛）切除**。[^7] 分級比例 benign 60–75%／borderline 15–26%／malignant 8–20%（vault 之 60/20/20 落於此區間內）。[^5]
 
 > [!note] 考點：何者「為非」?
 > 「**局部復發很罕見**」為非——phyllodes **未廣泛切除易局部復發**（benign 約 11%、borderline 約 16%、malignant 約 25%）。大而快速生長、well-circumscribed、似 fibroadenoma 皆正確。[^1][^2]
@@ -47,6 +48,9 @@ dateRev: 2026-07-10
 [^2]: Lee JS, Chang J, Hagemann IS, Bennett DL. *Malignant Phyllodes Tumor: Imaging Features With Histopathologic Correlation*. J Breast Imaging. 2021;3(6):703-711（review,摘要實際查證,全文未開放）。PT 常以快速增大可觸及腫塊表現;malignant 無法單靠影像與 benign 區分,但傾向較大、形狀不規則、較少 circumscribed margins;切片不確定時建議 excisional biopsy;約 1/3 malignant PT 局部復發,遠端轉移少見,5 年存活率約 80%;治療為 wide local excision。據 PubMed,[DOI](https://doi.org/10.1093/jbi/wbab065)。
 [^3]: Plaza MJ, Swintelski C, Yaziji H, Torres-Salichs M, Esserman LE. *Phyllodes tumor: review of key imaging characteristics*. Breast Dis. 2015;35(2):79-86（review,摘要實際查證,全文未開放）。回顧 PT 於乳攝、超音波、MRI 之關鍵影像特徵;PT 影像與 fibroadenoma 重疊,核心切片不一定能區分,放射-病理一致性評估對處置至關重要。據 PubMed,[DOI](https://doi.org/10.3233/BD-150399)。
 [^4]: Nam G, et al. *"Growing fibroadenoma": Are there clinical and pathological features predicting a phyllodes tumor on surgical excision?* Ann Diagn Pathol. 2022;62:152069（摘要實際查證）。影像記錄為「生長中 FA」者,切除後約 47% 重新分類為 benign PT;PT 患者年齡較大（平均 42.6 vs FA 28.2 歲）;≥40 歲之「生長中 FA」因 CNB 偽陰性率高、PT 可能性高,建議切除。據 PubMed,[DOI](https://doi.org/10.1016/j.anndiagpath.2022.152069)。
+[^5]: **Radiopaedia（snippet/403）** *Phyllodes tumour*. Radiopaedia.org, rID 1872, DOI 10.53347/rID-1872（搜尋摘要 accessed 2026-07-12）——佔乳房腫瘤 0.3–1%;benign 60–75%／borderline 15–26%／malignant 8–20%;好發 35–55 歲;>3 cm 快速生長應懷疑;治療為 wide excision/mastectomy。
+[^6]: **Tier 1（摘要）** Kalambo M, Adrada BE, Adeyefa MM, et al. *Phyllodes Tumor of the Breast: Ultrasound-Pathology Correlation*. AJR 2018;210(4):W173-W179（DOI 10.2214/AJR.17.18554，PMID 29412020；摘要 accessed 2026-07-12）——US 傾向 borderline/malignant 之預測因子:年齡>55、不規則形狀、最長徑>7 cm;但特徵高度重疊。
+[^7]: **Tier 1（摘要）** Zhang M, Arjmandi FK, Porembka JH, et al. *Imaging and Management of Fibroepithelial Lesions of the Breast*. RadioGraphics 2023;43(11):e230051（DOI 10.1148/rg.230051，PMID 37856317；摘要 accessed 2026-07-12）——PT 好發 40–50 歲、較 FA 大有時不規則、與 FA 重疊;因經皮切片易 undersampling 且具惡性潛能，故一律手術切除。
 
 ## 題目
 > [!question]- Which statement about phyllodes tumor is wrong? (2018-014)

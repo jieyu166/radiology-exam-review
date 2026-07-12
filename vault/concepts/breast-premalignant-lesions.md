@@ -10,7 +10,7 @@ aliases:
   - complex sclerosing lesion
   - intraductal papilloma
   - 乳房癌前病變
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # breast-premalignant-lesions
@@ -66,8 +66,8 @@ dateRev: 2026-07-10
 
 ## 臨床重點（5 句）
 1. 四者皆屬**癌前/高風險病灶**，切片（尤其粗針）診斷後常需依 upgrade 風險決定追蹤或手術切除。[^1][^2]
-2. **ADH 與 DCIS 為病理學上相近實體**，鑑別常僅依範圍大小而非本質差異。[^1]
-3. **LCIS 為多中心/雙側傾向的高風險標記**，屬雙側乳房整體風險上升，而非局部前驅病灶。[^2]
+2. **ADH 與 DCIS 為病理學上相近實體**，鑑別常僅依範圍大小而非本質差異;ADH 屬**高風險癌前病變、與 low-grade DCIS 共享特徵**，因粗針切片易低估 DCIS 故常建議手術切除。[^1][^4]
+3. **LCIS 為多中心/雙側傾向的高風險標記**，屬雙側乳房整體風險上升，而非局部前驅病灶;LCIS/ALH 同屬 **lobular neoplasia 光譜**，為未來侵襲癌之雙側整體風險標記，處置依 upgrade 風險而定。[^2][^4]
 4. 無異型性 RS 之惡性 upgrade 率低（VAB 重評後約 1%），可監測；具異型性者風險升至 18–28%。[^2]
 5. 乳突瘤合併異型性時 upgrade 風險高（達 67%），臨床須積極切除評估。[^3]
 
@@ -78,6 +78,7 @@ dateRev: 2026-07-10
 [^1]: *American Journal of Roentgenology*. June 2014;202:1389-1394（2018 交換考題詳解 p.145 引用；Tier 1 影像期刊）。ADH與DCIS為相近病理實體；ADH影像表現為鈣化群非腫塊；取樣不完整為低估主因；VAB重新切片可能降低upgrade率；MG/US無法有效預測ADH upgrade。
 [^2]: *AJR* 2012;198(2):246-248（2018 交換考題詳解 p.146 引用；Tier 1 影像期刊）。LCIS診斷標準>50%小葉腺泡侵犯(<50%為ALH)；PLCIS近似DCIS；LCIS無症狀、常多發多中心可達1/3雙側；小葉贅生可與DCIS/IDC/ILC並存；RS/CSL為良性增生病灶(纖維彈性核心+完整肌上皮+放射狀小管)；CSL定義為RS>1cm；不具異型性RS僅需保守追蹤(14G NCB upgrade率5%，VAB重新評估後降至1%；MRI導引9G VAB upgrade率24%)；可合併囊腫/硬化性腺病/異型增生/DCIS/早期侵襲癌(風險18-28%)。
 [^3]: *AJR* 2012;198(2):246-248（2018 交換考題詳解 p.147 引用；Tier 1 影像期刊）。單發性乳突瘤源自大中央導管、好發停經前後、血性/清澈分泌物；多發性乳突瘤源自終末導管小葉單位、周邊病灶、好發較年輕女性、以腫塊表現；異型性於周邊型較中央型常見；合併異型性者upgrade為惡性比例達67%。
+[^4]: **Radiopaedia（snippet/403）** *Atypical ductal hyperplasia*（rID 12683, DOI 10.53347/rID-12683）;*Lobular carcinoma in situ*（rID 12685, DOI 10.53347/rID-12685）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——ADH 為高風險、與 low-grade DCIS 共享特徵，粗針切片低估 DCIS 故建議手術切除;LCIS 為未來侵襲癌之雙側整體風險標記。
 
 ## 題目
 > [!question]- Which statement below is incorrect about ADH? (2018-253)
