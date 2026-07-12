@@ -7,7 +7,7 @@ aliases:
   - adrenal pseudocyst
   - pheochromocytoma calcification
   - 腎上腺病灶
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # adrenal-lesions
@@ -25,14 +25,14 @@ dateRev: 2026-07-10
 ## 放射科醫師影像判讀重點
 - **結節性增生（考點一）**：影像上呈**雙側、瀰漫或多結節**腺體增厚，隨年齡盛行率上升；診斷關鍵是「雙側對稱、無主導性單一腫塊」，若為單側孤立局灶則應改往腺瘤／功能性腫瘤方向思考。[^1]
 - **Adrenal pseudocyst（考點二）**：多為出血後演變，壁可鈣化、內含分隔或碎屑；**T1WI 內高訊號源自出血（亞急性期高鐵血紅素）而非脂肪或單純液**——脂肪抑制不掉訊號（非脂肪）、CT 無巨觀負值可與 myelolipoma 區分。[^1]
-- **Pheochromocytoma（考點三）**：典型 **T2 顯著高訊號（light bulb sign，約 35% 不典型）**、富血管明顯強化、可囊變／出血／壞死；「10% rule」中**約 10% 含鈣化**，鈣化本身非腺瘤特徵，見鈣化不可逕判良性。[^1][^4][^8]
+- **Pheochromocytoma（考點三）**：典型 **T2 顯著高訊號（light bulb sign，約 35% 不典型，故此徵不敏感亦不特異）**、富血管明顯強化、可囊變／出血／壞死；「10% rule」中**約 10% 含鈣化**，鈣化本身非腺瘤特徵，見鈣化不可逕判良性。**adenoma 含微觀脂肪（CSI 反相位掉訊號）vs myelolipoma 含巨觀脂肪（CT 負值）為含脂病灶的分野。**[^1][^4][^8][^10]
 - **腺瘤 vs 非腺瘤主線**：非顯影 **≤10 HU** 或 CSI 反相位訊號掉落即可確診 lipid-rich adenoma；11–30 HU 之 lipid-poor adenoma 單看 HU 不夠，須 washout（APW ≥60%／RPW ≥40%）或 chemical-shift MRI。[^2][^3][^6][^7]
 - **判讀陷阱**：pheochromocytoma 的 washout 可落入腺瘤範圍，washout 高不能排除 pheo；ROI 須避開鈣化／壞死否則衰減值失真；含微觀脂肪不能排除 ACC 或 pheo（三者皆可含微觀脂肪）。[^4][^6][^9]
 
 ## 臨床重點（5 句）
 - 結節性增生可伴皮質醇或醛固酮過度分泌（如 ACTH 依賴性庫欣、原發性醛固酮增多），須結合生化評估而非僅看影像。[^1]
 - Pheochromocytoma 分泌兒茶酚胺，典型三徵為陣發性頭痛、心悸、盜汗合併高血壓，切片或介入前須先 α 阻斷以防高血壓危象。[^1]
-- 「10% rule」臨床要點：約 10% 雙側、10% 腎上腺外（paraganglioma）、10% 惡性、10% 家族遺傳（如 MEN2、VHL、NF1、SDHx）。[^1]
+- 「10% rule」臨床要點：約 10% 雙側、10% 腎上腺外（paraganglioma）、10% 惡性、10% 兒童、10% normotensive、約 10% 鈣化、10% 家族遺傳（如 MEN2、VHL、NF1、SDHx）；**多數 pheo 為單側，故「~10% unilateral」為錯**（支撐 2021-303 答 B）。[^1][^10]
 - 假性囊腫多為既往出血、感染或梗塞後果，臨床常為偶發、無功能，需與功能性或惡性病灶鑑別後再定追蹤。[^1]
 - 腎上腺皮質癌（ACC）預後差、常已大且具內分泌活性或壓迫症狀，凡大而不均質病灶須積極評估與外科轉介。[^4]
 
@@ -84,6 +84,7 @@ dateRev: 2026-07-10
 [^7]: AJR 定量比較研究層級，Israel GM et al. 與 1.5T/3T CSI 量化文獻：SII = [(IP−OOP)/IP]×100%，1.5T >16.5% 提示 lipid-rich adenoma;ASR = (腺瘤OOP/脾OOP)/(腺瘤IP/脾IP)，<0.71 提示腺瘤;兩者為最可靠定量指標。https://doi.org/10.2214/AJR.14.12941
 [^8]: Radiology: Imaging Cancer 原著層級（T2 鑑別 lipid-poor adenoma 與轉移）2020;2(6):e200011，及 PMC 開放全文「MRI of adrenal gland: state of the art」（Adam SZ et al., PMC6755942）：pheo 顯著 T2 高訊號（light bulb sign，約 35% 不典型）;轉移無胞內脂肪、CSI 不掉訊號。https://pmc.ncbi.nlm.nih.gov/articles/PMC6755942/
 [^9]: *Fat-containing Retroperitoneal Lesions: Imaging Characteristics, Localization, and Differential Diagnosis.* RadioGraphics 2016;36:page 718（2018 交換考題詳解 p.86 引用；Tier 1）。Adrenal adenoma、adrenocortical carcinoma、pheochromocytoma 皆可含微觀脂肪成分。
+[^10]: **Radiopaedia（snippet/403）** *Adrenal adenoma*（rID 862, DOI 10.53347/rID-862）、*Phaeochromocytoma*／*Adrenal myelolipoma*（後二者 rID 未取得，正文 403）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——10% rule 多數 pheo 為單側；adenoma 微觀脂肪 CSI 反相位掉訊號 vs myelolipoma 巨觀脂肪 CT 負值；light bulb sign 約 35% 不典型、不敏感不特異。
 
 ## 題目
 > [!question]- Which one of the following is not one of the criteria of the 10% rule for pheochromocytoma? (2021-303)

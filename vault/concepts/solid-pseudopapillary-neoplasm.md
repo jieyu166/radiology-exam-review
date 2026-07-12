@@ -8,7 +8,7 @@ aliases:
   - SPEN
   - Hamoudi tumor
   - 實性偽乳頭狀腫瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # solid-pseudopapillary-neoplasm
@@ -29,6 +29,7 @@ dateRev: 2026-07-10
 - **MRI 血液成分是關鍵線索**：**出血→T1 高訊號**、囊內可見**液-液平面（fluid-fluid level）**；包膜呈 T2 低訊號厚環；包膜與瘤內出血在其他胰腫瘤罕見，為重要診斷線索。[^1][^2]
 - **鈣化型態**：可見，**常呈周邊/包膜性鈣化**，型態多變。[^1][^3]
 - **DDx 首要對手是 PNET**：PNET 典型**動脈期高度強化（富血供）**，SPN 則乏血供漸進填充；小而全實心的 SPN 最易誤為 PNET，年齡性別組合可幫忙。與 SCN（中央星狀鈣化、無出血）、MCN（囊中囊＋蛋殼鈣化、卵巢樣間質）、pancreatoblastoma、acinar cell carcinoma 亦須鑑別。[^1][^2][^4]
+- **重點速記**：**年輕女性（20–30 歲）、低惡性潛能、占外分泌胰腫瘤約 1–2%**；大腫塊、纖維偽包膜、實性-囊性混合、**瘤內出血（T1 高訊號、可液-液平面）**、乏血供漸進性（fill-in）強化、可鈣化、好發胰體尾——與富血供動脈期強化的 PNET 相對。[^6]
 - **判讀陷阱**：①小腫瘤可**全實心、無包膜**，失去典型線索易誤為 PNET；②**乏血供勿當良性**，強化曲線與富血供 PNET 不同是關鍵；③**尾部 SPN 侵犯脾臟≠高惡性**，不影響長期預後；④罕見高惡性轉化可見明顯 DWI 擴散受限/低 ADC，遇侵襲性表現應註記。[^1][^2]
 
 ## 臨床重點（5 句）
@@ -60,6 +61,7 @@ dateRev: 2026-07-10
 [^3]: **(AJR 級 size-stratified review)** *Solid Pseudopapillary Neoplasms of the Pancreas: Clinicopathologic and Radiologic Features According to Size*. AJR. 隨體積增大由實質轉為實質-囊變含出血;實質強化不均、傾向乏血供、漸進填充;鈣化與部位／型態描述。[DOI](https://doi.org/10.2214/AJR.18.20715)
 [^4]: **(同儕審查 review／鑑別)** 年齡＋性別組合對 SPN vs PNET 鑑別有價值（年輕女性偏向 SPN）;術前最常見誤判為 PNET、MCN、PDAC;SPN 與 PNET 影像／免疫表現重疊。Pathological/clinicopathologic differential studies, PubMed/PMC（PMC9587641, PMC5064041）。
 [^5]: **(同儕審查 review)** SPN 占胰腫瘤約 1–3%,好發年輕女性（多為第 3–4 個十年,平均約 25–35 歲）;病理以核內 β-catenin 表現、E-cadherin 缺失為特徵,可與 PNET 鑑別。PubMed/PMC review（PMC8422912）。
+[^6]: **Radiopaedia（snippet/403）** *Solid pseudopapillary tumour of the pancreas*. Radiopaedia.org, rID 16859, DOI [10.53347/rID-16859](https://doi.org/10.53347/rID-16859)（搜尋摘要 accessed 2026-07-12）——年輕女性、低惡性潛能、占外分泌胰腫瘤 1–2%；大、纖維偽包膜、實性-囊性混合、瘤內出血（T1 高、可液-液平面）、乏血供漸進性 fill-in 強化、可鈣化、好發胰體尾。
 
 ## 題目
 > [!question]- Which statement of solid pseudopapillary tumor of pancreas is wrong? (2018-391)

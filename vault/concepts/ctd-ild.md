@@ -8,7 +8,7 @@ aliases:
   - antisynthetase syndrome
   - IPAF
   - 結締組織疾病間質肺病
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[nonspecific-interstitial-pneumonia]]"
   - "[[organizing-pneumonia]]"
@@ -21,7 +21,7 @@ same:
 
 ## Summary
 - **HRCT 型態譜（整體）**：CTD-ILD 最常見 **NSIP（尤 fibrotic NSIP）**，其次 **UIP**、**OP**（含 [[organizing-pneumonia|fibrosing OP]]）、**LIP**;統合分析中 NSIP 約 36.5%、UIP 約 24.8%、OP 約 9.8%、LIP 約 1.25%（各研究比例不一，依族群與分類）。[^1][^2]
-- **各 CTD 對應型態**：systemic sclerosis（SSc）→ 以 **NSIP** 為主;rheumatoid arthritis（RA）→ **UIP** 較常見（CTD 中最像 IPF 者）;idiopathic inflammatory myopathy／**antisynthetase syndrome** → **NSIP、OP 或 NSIP-OP overlap（fibrosing OP）**;Sjögren → **LIP/cysts**（但近代多數仍為 NSIP）;SLE 與 MCTD → 多為 **NSIP**。[^2][^3]
+- **各 CTD 對應型態**：**RA 為唯一以 UIP 為主導的 CTD（最像 IPF）**;systemic sclerosis（SSc）、PM-DM、MCTD、SLE → 多為 **NSIP**;idiopathic inflammatory myopathy／**antisynthetase syndrome** → **NSIP、OP 或 NSIP-OP overlap（fibrosing OP）**;**Sjögren（SjS）→ LIP 最具代表但實務仍以 NSIP 最多**;**SLE 臨床顯著纖維化少見（僅約 3–13%）**。[^2][^3][^9]
 - **提示 CTD 的附加徵象**：**食道擴張（air-filled，多見於 SSc，cut-off 約 18.5 mm 對 SSc 有判別力）**、**心包/肋膜增厚或積液**、**NSIP 與 OP 並存**、**straight-edge sign**、**anterior upper lobe sign**、**exuberant honeycombing**;subpleural sparing 的 NSIP 樣分布也是線索。[^2][^4][^5]
 - **CTD-UIP vs IPF**：三徵象（straight-edge、anterior upper lobe、exuberant honeycombing）在 CTD-ILD 較 IPF 常見（CTD 約 22–25%、IPF 約 6–13%），**特異度高但敏感度中等**，須與血清學/臨床合判;**<55 歲、女性、年輕男性**出現 UIP 樣纖維化要先想 CTD（三徵象以 SSc 最常見）。[^4]
 - **IPAF（interstitial pneumonia with autoimmune features）**：**有自體免疫臨床/血清/型態特徵但未達任一 CTD 確診標準**;屬研究分類，需追蹤是否演變為明確 CTD。[^1]
@@ -35,7 +35,7 @@ same:
 - **NSIP**：雙下肺為主、subpleural／basal predominant 的 GGO + reticulation + traction bronchiectasis/bronchiolectasis;約 40% 有 **subpleural sparing（背側下肺豁免）**，為 NSIP 的典型線索。[^2]
 - **UIP**：basal/subpleural、honeycombing + traction bronchiectasis、heterogeneous（時間/空間異質）;在 CTD（尤 RA）可見，但常帶反常徵象（見下）。[^2][^4]
 - **OP**：peripheral 或 peribronchovascular 的 consolidation/GGO，可游走;與 NSIP 並存（NSIP-OP overlap／fibrosing OP）時高度提示 myositis/antisynthetase。[^3][^5]
-- **LIP**：GGO + **thin-walled cysts**（peribronchovascular 分布）、centrilobular nodules;最具 Sjögren 代表性，需警覺 amyloid 與淋巴瘤轉化。[^2][^6]
+- **LIP**：GGO + **thin-walled cysts**（peribronchovascular 分布）、centrilobular nodules;最具 Sjögren 代表性，需警覺 amyloid 與淋巴瘤轉化。SjS-LIP 之演變路徑為 **centrilobular nodules + peribronchiolar GGO → 薄壁囊腫**;**囊腫的存在有助與淋巴瘤鑑別**。[^2][^6][^8]
 
 ### 各 CTD 對應型態
 - **SSc**：NSIP 為主（fibrotic NSIP），下肺、subpleural;常伴 **食道擴張**。[^2][^4]
@@ -66,6 +66,8 @@ same:
 [^5]: *A Review of Antisynthetase Syndrome-Associated Interstitial Lung Disease*. *Int J Mol Sci*. 2024;25(8):4453（PMC11050089）：antisynthetase-ILD 78–100% 為 NSIP/OP/混合;NSIP alone >55%;下肺、周邊／peribronchovascular consolidation+GGO;OP+NSIP overlap 對免疫抑制反應較佳。
 [^6]: pSS-related LIP 特徵（*Clin Rheumatol*. 2020;39(11):3409-3416, PMC7327216;及 LIP→淋巴瘤轉化案例回顧 *J Cardiothorac Surg*. 2022;17:131）：pSS-LIP HRCT cysts 近 100%、GGO 73%、結節 73%;須警覺淋巴瘤轉化。
 [^7]: *Esophageal dilatation and interstitial lung disease in systemic sclerosis: A cross-sectional study*（PMC5500283;原文 *Semin Arthritis Rheum*. 2016）及相關研究：HRCT 食道擴張與 SSc 相關，cut-off 約 18.5 mm（sens≈70%、spec≈90%），於 ILD 合併食道擴張時對 SSc 有判別意義。
+[^8]: **Tier 1** Egashira R, et al. *CT Findings of Thoracic Manifestations of Primary Sjögren Syndrome: Radiologic-Pathologic Correlation*. RadioGraphics 2013;33(7):1923-1938（DOI [10.1148/rg.337125107](https://doi.org/10.1148/rg.337125107)；摘要 accessed 2026-07-12）——SjS-LIP centrilobular nodules + peribronchiolar GGO → 薄壁囊腫;囊腫有助與淋巴瘤鑑別。
+[^9]: **Radiopaedia（snippet/403）** *Collagen vascular disease related interstitial pneumonitis*. Radiopaedia.org, rID 97801, DOI [10.53347/rID-97801](https://doi.org/10.53347/rID-97801)（搜尋摘要 accessed 2026-07-12）——RA 為唯一以 UIP 為主導的 CTD、餘多為 NSIP;SLE 臨床顯著纖維化少見（約 3–13%）。
 
 ## 題目
 > [!question]- In terms of CTD-ILD, which one is not correct? (2021-133)

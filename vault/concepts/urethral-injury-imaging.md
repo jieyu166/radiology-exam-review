@@ -6,7 +6,7 @@ aliases:
   - urethral injury
   - retrograde urethrography
   - 尿道損傷影像
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # urethral-injury-imaging
@@ -14,7 +14,9 @@ dateRev: 2026-07-10
 **懷疑尿道損傷時，透視引導逆行性尿道攝影（RUG）是診斷的 gold standard；不要先做導尿或 CT 靜脈相——後兩者評估膀胱/腎，非尿道。**
 
 ## Summary
-- **Fluoroscopic retrograde urethrography（RUG）**：評估尿道損傷的首選與 gold standard，可顯示損傷位置、完全/部分斷裂與造影劑外滲。[^1]
+- **Fluoroscopic retrograde urethrography（RUG）**：評估尿道損傷的首選與 gold standard，可顯示損傷位置、完全/部分斷裂與造影劑外滲；**須在置入 Foley 導尿管之前施行**——貿然導尿可能把部分撕裂變成完全斷裂（支撐 2021-150）。[^2]
+- **Goldman 分型（I–V）**：以尿生殖膈（urogenital diaphragm，UGD）為界——外滲位於 **UGD 之上＝type II、之下＝type III**；後尿道（膜部）損傷多合併骨盆骨折，前尿道（球部）多為騎跨傷。[^3][^4]
+- **膀胱損傷評估用 CT cystography**，非 RUG。[^3]
 - **CT with IV contrast（delayed phase）**：用於腎/膀胱等實質及集尿系統損傷，非尿道。[^1]
 - **CT / fluoroscopic cystography**：用於膀胱破裂（腹膜內/外）評估，非尿道。[^1]
 - **尿道損傷男性遠多於女性**，因男性尿道長且相對固定於恥骨聯合。[^1]
@@ -22,7 +24,7 @@ dateRev: 2026-07-10
 ## 放射科醫師影像判讀重點
 - **RUG 判讀重點**：造影劑外滲＝斷裂；外滲同時膀胱仍顯影＝部分斷裂；完全斷裂則造影劑不進入近端尿道/膀胱。[^1]
 - **前後段定位**：後尿道損傷（膜部）多與骨盆骨折併發，常見造影劑滲入會陰/骨盆腔；前尿道損傷（球部）多見於騎跨傷。[^1]
-- **檢查順序原則**：血自尿道口滲出、骨盆骨折、無法置入導尿管時，先做 RUG 再考慮導尿，避免盲目導尿加重撕裂。[^1]
+- **檢查順序原則**：血自尿道口滲出、骨盆骨折、無法置入導尿管時，先做 RUG 再考慮導尿，避免盲目導尿加重撕裂。[^1][^2]
 - **判讀陷阱**：把 CT 靜脈相延遲相當作尿道損傷首選檢查是錯的——那是評估腎/膀胱的方式。[^1]
 
 ## 臨床重點（5 句）
@@ -37,6 +39,9 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: 據 PubMed，Avery LL, Scheinfeld MH. Imaging of male pelvic trauma. Radiol Clin North Am. 2012;50(6):1201-1217. [10.1016/j.rcl.2012.08.010](https://doi.org/10.1016/j.rcl.2012.08.010)；輔以 Klemm J, et al. Contemporary management of pelvic fracture urethral injuries. Urologie. 2022;61(6):602-608. [10.1007/s00120-022-01833-4](https://doi.org/10.1007/s00120-022-01833-4)。
+[^2]: **Tier 1** Ingram MD, Watson SG, Skippage PL, Patel U. *Urethral injuries after pelvic trauma: evaluation with urethrography*. RadioGraphics 2008;28(6):1631-1643（DOI [10.1148/rg.286085501](https://doi.org/10.1148/rg.286085501)，PMID 18936026；摘要 accessed 2026-07-12）——RUG 為評估首選；置入導尿管可能把部分撕裂變完全斷裂。
+[^3]: **Tier 1** Ali M, Safriel Y, Sclafani SJA, Schulze R. *CT signs of urethral injury*. RadioGraphics 2003;23(4):951-963（DOI [10.1148/rg.234025097](https://doi.org/10.1148/rg.234025097)，PMID 12853670；摘要 accessed 2026-07-12）——外滲於 UGD 之上＝type II、之下＝type III。
+[^4]: **Radiopaedia（snippet/403）** *Goldman classification of urethral injuries*／*Urethral injury*. Radiopaedia.org, rID 27214, DOI [10.53347/rID-27214](https://doi.org/10.53347/rID-27214)（搜尋摘要 accessed 2026-07-12）。
 
 > [!question]- What imaging modality is best for evaluation of urethral injury? (2019-279)
 > **C. Fluoroscopic retrograde urethrography**。RUG 為尿道損傷診斷 gold standard。[^1]

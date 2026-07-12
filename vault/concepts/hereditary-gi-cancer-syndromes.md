@@ -8,7 +8,7 @@ aliases:
   - juvenile polyposis syndrome
   - Peutz-Jeghers syndrome
   - 遺傳性腸胃道癌症症候群
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # hereditary-gi-cancer-syndromes
@@ -23,7 +23,8 @@ dateRev: 2026-07-10
 - **影像角色**：對此類病人，影像用於**篩檢、診斷、分期與追蹤**，並延伸至**高風險家屬**之監測與治療後追蹤。[^1][^2]
 
 ## 放射科醫師影像判讀重點
-- **Lynch 大腸癌特徵**：好發**右側/近端結腸**、發病年齡較輕、可多發同時/異時癌——CT colonography/大腸鏡監測重點在近端。[^2]
+- **Lynch 大腸癌特徵**：好發**右側/近端結腸（約 70% 位於脾曲近端）**、發病年齡較輕、可多發同時/異時癌——CT colonography/大腸鏡監測重點在近端；**故「左側佔 60–80%」為錯（直接支撐 2021-232 選項 C 為誤）**。[^2][^3]
+- **腺瘤性 vs 錯構瘤性瘜肉症候群**：**腺瘤性**＝FAP（APC，近 100% 終生 CRC 風險）；**錯構瘤性**＝PJS（STK11）、JPS（SMAD4／BMPR1A）、Cowden（PTEN）。[^1][^3]
 - **各症候群影像線索**：FAP＝滿佈腺瘤性瘜肉（+desmoid、骨瘤 Gardner）；PJS＝小腸 hamartomatous 瘜肉（腸套疊風險）+ 黏膜皮膚色素沉著；JPS＝多發幼年型瘜肉；Cowden＝多系統 hamartoma。[^1]
 - **監測工具**：子宮內膜/卵巢用經陰道 US ± 切片；小腸（PJS）用 MR/CT enterography 或膠囊內視鏡；胰（HDGC/hereditary pancreatic）用 MRI/MRCP/EUS。[^1][^2]
 - **分期與追蹤**：確診癌後以 CT/MRI 分期，並長期追蹤異時性第二癌。[^1]
@@ -40,8 +41,9 @@ dateRev: 2026-07-10
 > **Lynch syndrome 病患最常發生胃癌和子宮頸癌（C）為錯誤**——終生風險最高者為大腸直腸癌（52-58%）與子宮內膜癌（25-60%）。定義（germline 突變致 GI+腸外癌）、常見類型（Lynch/FAP/JPS/PJS…）、影像用於篩檢/診斷/分期/追蹤，皆為正確。[^1][^2]
 
 ### 參考來源
-[^1]: Yousaf HM, et al. *Hereditary Gastrointestinal Cancer Syndromes: Role of Imaging in Screening, Diagnosis, and Management*. RadioGraphics 2019;39(5):1441-1464, DOI 10.1148/rg.2019180185——germline 突變致 GI + 腸外癌 + 良性異常；含 **Lynch、FAP、JPS、PJS、Cowden、HDGC、hereditary pancreatic cancer**；影像於**篩檢/監測/診斷/追蹤**及高風險家屬之角色。
-[^2]: 官方 2020 詳解；Ref: *Hereditary GI Cancer Syndromes*. RadioGraphics 2015;35:1031-（題目所引）——Lynch 相關癌終生風險：大腸直腸癌 52-58%、子宮內膜癌 25-60%、胃癌 6-13%、卵巢癌 4-12%；建議每年經陰道 US ± 子宮內膜切片；子宮頸癌非 Lynch 典型相關癌（框架已由上述 2019 RG 一手來源查核佐證）。
+[^1]: **Tier 1（作者／頁數已更正）** Katabathina VS, Menias CO, Khanna L, et al. *Hereditary Gastrointestinal Cancer Syndromes: Role of Imaging in Screening, Diagnosis, and Management*. RadioGraphics 2019;39(5):1280-1301（DOI [10.1148/rg.2019180185](https://doi.org/10.1148/rg.2019180185)，PMID 31373866）——germline 突變致 GI + 腸外癌 + 良性異常；含 **Lynch、FAP、JPS、PJS、Cowden、HDGC、hereditary pancreatic cancer**；影像於**篩檢/監測/診斷/追蹤**及高風險家屬之角色。⚠️ 原記載作者「Yousaf HM」與頁數「1441-1464」係誤植，標題／年份／DOI 正確，本次更正為 Katabathina 等、pp.1280-1301。
+[^2]: 官方 2020 詳解；Ref: *Hereditary GI Cancer Syndromes*. RadioGraphics 2015;35:1031-（題目所引）——Lynch 相關癌終生風險：大腸直腸癌 52-58%、子宮內膜癌 25-60%、胃癌 6-13%、卵巢癌 4-12%；建議每年經陰道 US ± 子宮內膜切片；子宮頸癌非 Lynch 典型相關癌（框架已由上述 2019 RG 一手來源查核佐證）。⚠️ 頁碼「2015;35:1031-」查無對應、存疑待核。
+[^3]: **Radiopaedia（snippet/403，rID 未取得）** *Hereditary non-polyposis colorectal cancer*／*Familial adenomatous polyposis*／*Juvenile polyposis syndrome*／*Cowden syndrome*／*polyposis syndromes*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——Lynch/HNPCC 大腸癌好發右側（約 70% 脾曲近端）；腺瘤性（FAP/APC，近 100% CRC）vs 錯構瘤性（PJS/STK11、JPS/SMAD4-BMPR1A、Cowden/PTEN）。
 
 ## 題目
 > [!question]- 以下關於Hereditary gastrointestinal (GI) cancer syndromes的敘述何者為非? (2020-398)

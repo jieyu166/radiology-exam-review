@@ -5,7 +5,7 @@ subspecialty: [ABD]
 aliases:
   - endometrial cancer MRI
   - 子宮內膜癌MRI
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # endometrial-cancer-mri
@@ -24,7 +24,7 @@ dateRev: 2026-07-10
 
 ### 一、序列與攝影計畫
 - **T2WI 為核心**：取**矢狀面**＋**斜軸面（oblique axial，與子宮腔長軸垂直）**最關鍵——斜軸面才能正確顯示腫瘤-肌層介面、避免斜切高估侵犯深度。子宮屈曲（前/後傾、前/後屈）時要依長軸重新規劃斜面。[^2][^3]
-- **正常三層（trilaminar）**：T2 上內膜高訊號、**junctional zone（JZ）低訊號**、外肌層中等訊號；JZ 完整與否是判讀肌層侵犯的關鍵解剖標誌。[^2][^3]
+- **正常三層（trilaminar）**：T2 上內膜高訊號、**junctional zone（JZ）低訊號**、外肌層中等訊號；**JZ 低訊號帶完整＝腫瘤限於內膜、可排除肌層侵犯**，JZ 完整與否是判讀肌層侵犯的關鍵解剖標誌。[^2][^3][^5]
 - **DWI/ADC**：高 b 值（約 500–1000 s/mm²）腫瘤呈高訊號、ADC 低（常 <1.0），用於**提高腫瘤偵測、勾勒邊界（T2 不清時）**並輔助深部侵犯與淋巴結判讀。[^2]
 - **動態增強（DCE）相位**：早期相（約 30–60 秒）顯示 **subendometrial enhancement（SEE，內膜下強化帶）**；平衡相（約 120–180 秒）肌層強化最大、為**判讀肌層侵犯深度**最佳時相；延遲相（約 4–5 分）評估**子宮頸間質侵犯**。腫瘤相對強化肌層呈低訊號。[^2][^3]
 - **單相 vs 動態**：近年研究顯示**單相增強**影像品質較佳、影像量大減而對深部肌層侵犯之診斷力與動態相當，且 SEE 出現率低（動態僅約 30% 可見、停經前完整 SEE 僅約 17.7%），SEE 臨床效用有限——故單相 CE-MRI 可作為實務選擇。[^4]
@@ -59,6 +59,7 @@ dateRev: 2026-07-10
 [^2]: （Tier 1）RadioGraphics Update: 2023 FIGO Staging System for Endometrial Cancer / Endometrial Cancer: 2023 Revised FIGO Staging System and the Role of Imaging（PMC11119523）。RadioGraphics, doi:10.1148/rg.240084；多參數 MRI（T2WI＋DWI/ADC＋DCE）、斜軸面、FIGO 2023 分期、肌層侵犯<50% vs ≥50%、淋巴結 MRI 敏感度約 44%/特異度約 98%、停經後 JZ 不清等陷阱。
 [^3]: （Tier 2，輔助）The Radiology Assistant: Endometrial Cancer – MR staging（radiologyassistant.nl/abdomen/unsorted/mr-in-endometrial-cancer）：T2 斜軸面攝影、JZ 中斷、內膜-肌層介面強化中斷、IA/IB 量測法、DCE 三時相、頸間質突出 vs 真侵犯陷阱、cornual/polypoid 陷阱。
 [^4]: （Tier 2）Contrast-Enhanced MRI in Women with Endometrial Cancer: Dynamic Versus Single-Phase Acquisitions（PMC10644739）。Clin Med Insights Oncol 2023, doi:10.1177/11795549231207833：單相增強影像品質較佳、診斷深部肌層侵犯與動態相當，SEE 出現率低、臨床效用有限。
+[^5]: **Radiopaedia（snippet/403）** *Endometrial carcinoma protocol (MRI)*（rID 17640, DOI 10.53347/rID-17640）、*Endometrial carcinoma staging*（rID 待登入核對）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——肌層侵犯 <50%（IA）vs ≥50%（IB）為分期關鍵；JZ 低訊號完整＝腫瘤限內膜、排除肌層侵犯；斜軸面 T2＋DWI＋動態增強，肌層侵犯最佳判讀約打藥後 2 分鐘平衡相；腫瘤呈 hypoenhancement（低於肌層）；MRI 淋巴結敏感度僅約 44%（特異度約 98%）。
 
 ## 題目
 > [!question]- With regard to endometrial carcinoma staging, which of the following is true? (2021-122)

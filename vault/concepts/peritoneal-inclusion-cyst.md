@@ -6,7 +6,7 @@ aliases:
   - peritoneal inclusion cyst
   - benign multicystic mesothelioma
   - 腹膜包涵囊腫
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # peritoneal-inclusion-cyst
@@ -17,6 +17,8 @@ dateRev: 2026-07-10
 - **本質**：**非腫瘤性反應性間皮增生**;由腹膜沾黏陷住卵巢分泌的液體。[^1]
 - **族群**：**停經前(premenopausal)婦女**,有骨盆手術、外傷、PID 或子宮內膜異位史。[^1]
 - **影像**：圍繞 GYN 器官的清澈液體、卵巢正常;**spider web appearance**（分隔）;**無強化實質、無惡性潛能**。[^1]
+- **兩要件缺一不可**：需**具功能（active/functioning）卵巢持續分泌液體＋腹膜沾黏**兩者並存，故**幾乎只見於停經前婦女**；囊液**沿腹膜輪廓塑形、無固有真正囊壁**，正常卵巢被困呈 spider-in-web／entrapped ovary。[^4]
+- **治療與預後**：分隔壁幾乎不強化；單純**引流（drainage）後易復發**，因致病沾黏環境未除。[^4]
 
 ### 判讀骨架（一般放射科醫師閱片需知）
 
@@ -47,6 +49,7 @@ dateRev: 2026-07-10
 [^1]: 官方 2017 詳解；Hricak, Diagnostic Imaging: Gynecology 2007, p.9-2~9-4：腹膜包涵囊腫為非腫瘤反應性間皮增生、好發停經前婦女（手術/PID/內膜異位）、spider web 外觀、無惡性潛能。
 [^2]: Vallerie AM, Lerner JP, et al. / 多模態影像回顧：Peritoneal Inclusion Cysts in Female Children: Pathogenesis, Treatment, and Multimodality Imaging Review. PMC4131098（開放全文已讀）— 成因（有功能卵巢＋沾黏、術後/PID/內膜異位/外傷、6 個月至 20 年）、影像（US 正常卵巢被無回聲液包繞含多分隔、spider-in-web、缺乏真正囊壁故形狀不規則、CT 液體/出血密度、MRI T1 低 T2 高、對比劑幾乎無強化），及與 hydrosalpinx／paraovarian cyst／lymphatic malformation／ovarian malignancy／endometrioma 之鑑別點。https://pmc.ncbi.nlm.nih.gov/articles/PMC4131098/
 [^3]: Sohaey R 等，Imaging of Peritoneal Inclusion Cysts, AJR Am J Roentgenol 2000;174(6):1559（DOI 10.2214/ajr.174.6.1741559；付費全文未取得，依公開摘要與二手回顧）— 多分隔囊性病灶內見被困住的卵巢（spider-in-web sign），卵巢可被誤判為實質結節。
+[^4]: **Radiopaedia（snippet/403，rID 存疑待核）** *Peritoneal inclusion cyst*. Radiopaedia.org（搜尋回報 rID 28094，待登入核；搜尋摘要 accessed 2026-07-12）——非腫瘤性反應性間皮增生；需功能卵巢＋腹膜沾黏兩要件、幾乎只見停經前婦女；囊沿腹膜輪廓塑形、無真正囊壁、entrapped ovary；分隔幾不強化、引流後易復發。
 
 ## 題目
 > [!question]- What lesion that involves the peritoneal cavity has a characteristic “spider in a web” appearance? (2021-238)

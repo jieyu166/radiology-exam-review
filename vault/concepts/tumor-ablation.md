@@ -7,7 +7,7 @@ aliases:
   - cryoablation
   - heat sink
   - 經皮腫瘤消融
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # tumor-ablation
@@ -19,6 +19,13 @@ dateRev: 2026-07-10
 - **Cryoablation**：消融冰球可視、邊界較可控，**對鄰近脆弱結構（神經/腸/輸尿管等）較精準**。[^1]（選項 B 正確）
 - **Heat sink（vascular-mediated cooling）**：鄰近大血管把熱帶走 → **顯著改變消融帶之大小與形狀**（熱消融易殘留近血管處）。[^1]（選項 D 正確）
 - **肺結節路徑**：偏好**保留一段未消融的充氣肺路徑（約 ≥2 cm）以防持續氣漏與支氣管肋膜瘻（BPF）**；故「直接路徑、盡量『少留』充氣肺路徑」**錯誤**（題目正解）。[^2]
+
+### 腎腫瘤消融補充（cryo 冰球與適應症）
+- **可見冰球邊界 ≠ 致死區**：冰球最外緣等溫線僅約 −0.5°C（非致死），**致死邊界約落在冰球內側 5 mm**；故**冰球須外擴超出腫瘤 ≥5 mm** 以確保完整涵蓋（支撐 2021-191/193 之判讀，冰球外緣≠壞死邊界）。[^7]
+- **致死溫度（區間表述）**：腫瘤細胞可靠壞死一般需**約 −20 ~ −40°C（腫瘤細胞可能需達 −40°C）**，並具時間/溫度依賴性；單一數值（如 −19.4°C）僅為下限估計，實務宜以區間理解。[^7]
+- **不適合消融之預測因子**：**腫瘤 >4 cm、或位於腎門（hilum）/中央型（近集尿系統）** 為消融失敗/不完全消融之預測因子。[^8]
+- **cryo 細胞死亡雙機轉**：**快速冷卻→胞內冰晶形成（直接細胞毒性）＋緩慢解凍→微血管阻塞與細胞缺氧（間接缺血傷害）**。[^7][^8]
+- **heat sink 於 MWA 較小**：微波消融（MWA）升溫快、消融帶較大，受 heat sink 影響**小於 RFA**。[^8]
 
 > [!note] 考點：何者「錯」？
 > 「肺結節宜採**直接路徑、盡量不留充氣肺 tract**」錯——肺消融偏好**保留 ≥2 cm 未消融充氣肺路徑**以防氣漏/BPF。其餘（模式依器官/腫瘤/共病、cryo 精準、heat sink 改變範圍）皆正確。[^1][^2]
@@ -61,6 +68,8 @@ dateRev: 2026-07-10
 [^3]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Park MH, Rhim H, Kim YS, et al. Spectrum of CT findings after radiofrequency ablation of hepatic tumors. RadioGraphics 2008;28(2):379-390. [DOI](https://doi.org/10.1148/rg.282075038)。要點：三期對比 CT 於術後即時/1 個月內評估技術成功，成功則每 3 個月追蹤；成功消融帶＝**涵蓋腫瘤＋ablative margin（≥0.5 cm）的低衰減區**，並**隨時間逐漸退縮**；環狀強化代表良性反應性充血、中央高衰減與微小氣泡為早期常見、通常第一/二次追蹤消退；**局部腫瘤進展發生率文獻報告差異極大（1.8–56.9%）**，且常難與消融區內新發腫瘤區分。
 [^4]: Fritz J, Sonnow L, Morris CD. Adjuvant MRI-guided percutaneous cryoablation treatment for aneurysmal bone cyst. Skeletal Radiol 2018;48(7):1149-1153（Tier 2，依摘要未讀全文）。支持：cryoablation 之 **ice ball 可被影像直接可視化並監測其延伸超出病灶邊界**，介入 MRI 高對比解析度利於小病灶直接定位。[DOI](https://doi.org/10.1007/s00256-018-3115-1)。來源：PubMed（PMID 30523379）。
 [^5]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Akahane M, Koga H, Kato N, et al. Complications of percutaneous radiofrequency ablation for hepatocellular carcinoma: imaging spectrum and management. RadioGraphics 2005;25 Suppl 1:S57-S68. [DOI](https://doi.org/10.1148/rg.25si055505)。併發症三類：血管性（門靜脈/肝靜脈栓塞、肝梗塞、被膜下血腫）、膽道性（膽管狹窄、biloma、膿瘍、hemobilia）、肝外性（胃腸道/膽囊損傷、氣胸/血胸、tumor seeding 針道種植）；**種植危險因子＝電極口徑類型、穿刺次數、被膜下位置、腫瘤分化不良**；種植腫瘤可生長極緩慢須長期追蹤；**異位脾組織（副脾／splenosis）可 mimic 腫瘤種植**。
+[^7]: **Tier 1** Georgiades CS, et al. *Percutaneous Cryoablation of Renal Tumors: Patient Selection, Technique, and Postprocedural Imaging*. RadioGraphics 2010;30(4):887-900（DOI [10.1148/rg.304095134](https://doi.org/10.1148/rg.304095134)；snippet accessed 2026-07-12）——可見 ice ball 邊界≠致死區：致死邊界約在冰球內側 5 mm、冰球等溫線僅約 −0.5°C（非致死）；故冰球須外擴超出腫瘤 ≥5 mm。
+[^8]: **Radiopaedia（snippet/403，rID 未取得）** *Percutaneous renal tumour ablation*／*Radiofrequency ablation*／*Microwave ablation*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——>4 cm 或 hilum/中央型為消融失敗預測因子；MWA heat sink 影響小於 RFA。
 [^6]: *RadioGraphics* 2014;35:1344–1362（2018 交換考題詳解 p.236 引用；Tier 1 期刊）。細胞凍死機轉為細胞膜破壞與胞內物質釋出；可靠細胞壞死溫度依細胞型態與熱歷史而異(估計-35°C至-20°C)；**肝硬化合併HCC病人，cryoablation出血風險『高於』heat ablation**（非相等）——熱消融可提供較佳止血且幾無cryoshock（瀰漫性血管內凝血樣反應）風險，故肝硬化病人存在可行熱消融替代方案時，難以正當化cryoablation之額外出血風險；cryoablation之精準度對鄰近脆弱結構之腫瘤治療具重要性。
 
 ### Cryoablation於肝硬化合併HCC之出血風險（重要陷阱）

@@ -6,7 +6,7 @@ aliases:
   - liver lymphatic drainage
   - superficial deep hepatic lymphatics
   - 肝臟淋巴迴流
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # hepatic-lymphatic-drainage
@@ -14,8 +14,9 @@ dateRev: 2026-07-10
 **肝臟淋巴引流分為兩套系統：淺層（superficial，位於 Glisson 包膜下／肝表面）與深層（deep，沿門脈三合體與肝靜脈走行）。深層是肝臟淋巴的主幹：沿門脈三合體上行 → 肝門（hepatic hilar）淋巴結 → 沿肝動脈 → 幽門後 → celiac 淋巴結；另一支沿肝靜脈下行 → 繞下腔靜脈穿橫膈 → juxtaphrenic（腔靜脈旁）／後縱膈。** 判讀分水嶺：**celiac、hepatic hilar、juxtaphrenic 屬深層主幹的節站；而 lateral diaphragmatic（橫膈外側）淋巴結屬橫膈表面／淺層系統，並非深層主幹的主要節站。**
 
 ## Summary
-- **主幹（深層）**：肝臟大部分淋巴引流至**肝門（porta hepatis）淋巴結**，其引流管道**沿肝動脈**到達幽門後（retropyloric），再到 **celiac 淋巴結**。[^1]
-- **淺層（capsular／橫膈面）**：肝臟**上表面**與穿橫膈的腹膜外淋巴管相通，引流入**縱膈淋巴結**（juxtaphrenic／後縱膈方向）。[^1]
+- **主幹（深層 periportal）**：深層淋巴沿門脈三合體走行、**約占肝臟淋巴生成的 80%**，引流至**肝門（porta hepatis）淋巴結**，其管道**沿肝動脈**到達幽門後（retropyloric），再到 **celiac 淋巴結**；另有一支**沿肝靜脈匯集 5–6 條大淋巴管、沿下腔靜脈穿橫膈至後縱膈（juxtaphrenic）**。[^1][^3][^4]
+- **淺層（capsular／橫膈面）**：肝臟**上表面**與穿橫膈的腹膜外淋巴管相通、引流入**縱膈淋巴結**（juxtaphrenic／後縱膈方向）；**下表面則回流至肝門**。[^1][^4]
+- **量級**：肝臟為體內最大的淋巴生成器官之一，**約占胸管淋巴的 25–50%**。[^4]
 - **深層節站**：**hepatic hilar、celiac**（沿門脈—肝動脈之下行/上行主幹）與 **juxtaphrenic（腔靜脈旁）**（沿肝靜脈繞 IVC 穿橫膈之支）為深層引流之主要節站。[^1][^2]
 - **非深層主幹**：**lateral diaphragmatic（橫膈外側）淋巴結**引流橫膈本身，屬壁層／橫膈表面之淺層引流，**非肝深層引流主幹的主要節站**（本題正解 D）。[^2]
 
@@ -37,6 +38,8 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: *Liver*（gross anatomy → Lymphatic drainage）. Radiopaedia.org, rID-5726. DOI: https://doi.org/10.53347/rID-5726（實查 2026-07-10）——「The majority of the lymph from the liver drains into nodes that lie in the porta hepatis. Drainage channels ... follow the hepatic artery to reach the retropyloric and then the celiac lymph nodes. The superior surface ... communicates with extraperitoneal lymphatics that perforate the diaphragm and drain into mediastinal lymph nodes.」——確認 hepatic hilar → celiac 為（深層）主幹、上表面經橫膈→縱膈為淺層路徑。
 [^2]: 官方 2021 詳解（題目 2021-353，僅列 superficial/deep 標題、含未匯入影像 PDF p.371）＋標準肝臟解剖（深層沿門脈/肝靜脈：hepatic hilar、celiac、juxtaphrenic/pericaval；lateral diaphragmatic 屬橫膈表面淺層系統）。⚠️ 見下方 flag：juxtaphrenic 與 lateral diaphragmatic 之 deep/superficial 精確歸屬未能於 Radiopaedia 明文或可存取之 Tier-1 逐字確認。
+[^3]: **同儕審查（非題目白名單）** *Liver lymphatic anatomy and role in systemic lymphatic disease.* Eur Radiol 2021（DOI [10.1007/s00330-021-08098-z](https://doi.org/10.1007/s00330-021-08098-z)；需登入未讀全文，citation 級 accessed 2026-07-12）——肝淋巴解剖之深／淺層路徑與系統性淋巴疾病關聯。⚠️ 屬非白名單來源，僅供框架佐證。
+[^4]: **同儕審查（非題目白名單）** Tanaka M, Iwakiri Y. *The Hepatic Lymphatic Vascular System.* Cell Mol Gastroenterol Hepatol 2016;2(6):733-749（PMC5240041，全文 accessed 2026-07-12）——深層 periportal 約占肝淋巴 80%→肝門→celiac；沿肝靜脈匯 5–6 條大管沿 IVC 穿橫膈至後縱膈；肝占胸管淋巴 25–50%。屬非白名單來源。白名單（STATdx/Radiopaedia/RG/AJR/ClinicalKey）無此冷門解剖之專篇，故誠實退用 Radiopaedia（rID-5726）＋同儕審查佐證。
 
 ## 題目
 > [!question]- 肝臟的淋巴迴流可分為 superficial pathway 與 deep pathway，以下 lymph node station 何者不屬於主要的 deep pathway? (2021-353)

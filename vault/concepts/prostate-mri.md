@@ -7,7 +7,7 @@ aliases:
   - prostate cancer ADC
   - PI-RADS
   - 攝護腺MRI
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[pet-prostate-cancer]]"
 ---
@@ -29,7 +29,8 @@ same:
 - **PI-RADS v2.1分區主序列不同**：**周邊帶(PZ)以DWI/ADC為主導序列**（DWI決定PI-RADS分數，DCE僅在DWI為3時作分流升級）；**移行帶(TZ)以T2WI為主導序列**（T2形態決定分數，DWI用於升級TZ score 2→3）。[^2]
 - **DWI/ADC判讀**：攝護腺癌因細胞密度高、擴散受限，於高b值(建議≥1400 s/mm²)DWI呈明顯高訊號、對應ADC map明顯低訊號；判讀ADC須與同側正常PZ對照。[^2]
 - **T2WI形態學**：PZ癌典型為局灶圓形/透鏡狀低訊號；TZ癌v2.1描述為「均質中等低訊號、邊界模糊(lenticular/non-circumscribed, homogeneous)」，與界線清楚有包膜之BPH增生結節鑑別。[^2]
-- **DCE角色受限**：DCE強調時間解析度（快速wash-in），在v2.1僅對PZ DWI=3之病灶作「陽性/陰性」二分升級，不獨立賦分。[^2]
+- **DCE角色受限**：DCE強調時間解析度（快速wash-in），在v2.1僅對PZ DWI=3之病灶作「陽性/陰性」二分升級，不獨立賦分；**DCE 陽性（局灶早期強化）可將 PZ 之 DWI=3 病灶升級為 category 4**（此為 ancillary 二分角色，對應 2021-099 之判讀）。[^3][^4]
+- **TZ 良性 BPH 增生結節**：**圓形、界線清楚、有包膜（encapsulated）、T2 呈低訊號（PI-RADS T2 category 1–2）**，藉此與 TZ 癌之「均質中低訊號、邊界模糊」鑑別。[^3]
 - **判讀陷阱**：PZ的T2低訊號非癌專屬——慢性攝護腺炎、萎縮、疤痕、放療/荷爾蒙治療後、切片後出血皆可mimic；出血於T1WI高訊號可協助排除，故T1WI用於偵測出血而非分區。[^1]
 
 ## 臨床重點（5 句）
@@ -42,6 +43,8 @@ same:
 ### 參考來源
 [^1]: *Radiology* Volume 261, Number 1—October 2011（2018 交換考題詳解 p.298 引用；Tier 1 期刊）。T2WI高空間解析度區分周邊帶與中央/移行帶；周邊帶T2低訊號不一定為癌(慢性攝護腺炎/萎縮/疤痕/切片後出血可mimic)；DCE快速T1序列強調時間解析度；攝護腺癌於ADC map呈較周邊帶健康組織更低之ADC。
 [^2]: **Tier 1** Turkbey B, Rosenkrantz AB, Haider MA, Padhani AR, Villeirs G, Macura KJ, Tempany CM, Choyke PL, Cornud F, Margolis DJ, Thoeny HC, Verma S, Barentsz J, Weinreb JC. *Prostate Imaging Reporting and Data System Version 2.1: 2019 Update of Prostate Imaging Reporting and Data System Version 2*. Eur Urol 2019;76(3):340-351（據 PubMed，DOI [10.1016/j.eururo.2019.02.033](https://doi.org/10.1016/j.eururo.2019.02.033)；實際查證 accessed 2026-07-04）——PI-RADS指導委員會共識更新之官方文件，明定PZ以DWI為主導序列、TZ以T2WI為主導序列、DCE僅對PZ DWI=3作二分升級，佐證本卡分區主序列與ADC/T2判讀重點。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
+[^3]: **Tier 1** Purysko AS, Rosenkrantz AB, Barentsz JO, Weinreb JC, Macura KJ. *PI-RADS Version 2: A Pictorial Update*. RadioGraphics 2016;36(5):1354-1372（DOI [10.1148/rg.2016150234](https://doi.org/10.1148/rg.2016150234)；摘要/鏡像 accessed 2026-07-12）——PZ 以 DWI/ADC 主導、TZ 以 T2W 主導、DCE 為 ancillary 二分（PZ equivocal 時作升級）；TZ 良性增生結節圓形界清有包膜、T2 低訊號。
+[^4]: **Radiopaedia（snippet/403）** *PI-RADS*. Radiopaedia.org, rID 27968, DOI [10.53347/rID-27968](https://doi.org/10.53347/rID-27968)（搜尋摘要 accessed 2026-07-12）。
 
 ## 題目
 > [!question]- About MRI of prostate gland, which of the following is correct? (2018-388)

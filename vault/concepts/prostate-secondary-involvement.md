@@ -8,7 +8,7 @@ aliases:
   - prostate cystadenoma
   - bladder cancer involving prostate
   - 攝護腺次發性腫瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # prostate-secondary-involvement
@@ -18,7 +18,8 @@ dateRev: 2026-07-10
 ## Summary
 - **攝護腺肉瘤（sarcoma）**：多呈**邊界清楚腫塊**、**T1 均質低訊號、T2 異質、明顯強化**；**MR 頻譜呈明顯升高之 choline-to-citrate ratio**（助與良性 BPH 大結節鑑別）；擴散受限程度依細胞組成而異。**Rhabdomyosarcoma 為最常見（占 42%）、好發兒童/青少年**；leiomyosarcoma 為成人最常見。[^1]
 - **攝護腺副神經節瘤（paraganglioma）**：**T2 訊號較腺癌高（腺癌 T2 低訊號）**、分葉狀伴明顯強化；**MIBG（iobenguane I-123）閃爍攝影**因神經內分泌受體而局部攝取，可輔助診斷。[^1]
-- **最常侵犯攝護腺之次發腫瘤**：**膀胱尿路上皮癌（因解剖鄰近，最常見）> 大腸直腸癌（次之但少很多）**；**他處原發癌之血行轉移至攝護腺極罕見**（多為直接侵犯或全身瀰漫）。[^1]
+- **最常侵犯攝護腺之次發腫瘤**：續發性最常見為**鄰近器官直接蔓延，以膀胱尿路上皮癌居首**（因解剖鄰近）> 大腸直腸癌（次之但少很多）；**膀胱癌直接侵犯攝護腺基質（stromal invasion）＝T4a 分期**；**他處原發癌之血行轉移至攝護腺極罕見**。[^1][^2]
+- **攝護腺淋巴瘤（續發或原發）**：**T1/T2 均質等訊號、均質擴散受限、DCE 中度強化、PSA 常 <4**，多有淋巴瘤病史；影像可呈局灶或大分葉腫塊，宜以「訊號均質＋PSA 偏低＋病史」判讀，勿斷言其保留腺體輪廓；確診靠切片（CD20 等免疫染色）。[^3]
 - **攝護腺囊腺瘤（cystadenoma）**：MR 呈**多房 T2 高訊號囊性病灶**、周邊等訊號軟組織（良性）；另一良性腫瘤為 plexiform neurofibroma。[^1]
 
 ## 放射科醫師影像判讀重點
@@ -43,6 +44,8 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: **Tier 1（全文已讀）** Bhatia S 等. *Beyond Prostate Adenocarcinoma: Expanding the Differential Diagnosis in Prostate Pathologic Conditions*. RadioGraphics 2016;36(4):1055-1075（doi:10.1148/rg.2016150226，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）：肉瘤邊界清楚、T2 異質、**MR 頻譜 choline:citrate 明顯升高**（別於良性大 BPH 結節）、擴散受限依細胞組成、**rhabdomyosarcoma 最常見占 42%（兒童/青少年）**；副神經節瘤 **T2 較腺癌高（腺癌 T2 低）＋iobenguane I-123（MIBG）局部攝取（神經內分泌受體）**；**膀胱尿路上皮癌因鄰近為最常侵犯攝護腺之癌、大腸直腸癌次之但少很多、他器官轉移極罕見**；良性含囊腺瘤（多房 T2 高訊號囊）與 plexiform neurofibroma。原「官方 2020 詳解（題目所引）」之兩條 footnote 已由本次全文查核合併升級。
+[^2]: **Radiopaedia（snippet/403，無專屬條目→用膀胱癌分期，rID 未取得）** *Bladder cancer (staging)*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——膀胱癌直接侵犯攝護腺基質＝T4a。
+[^3]: **同儕審查（非題目白名單，免費全文）** Han C, et al. *Differential diagnosis of uncommon prostate diseases: combining mpMRI and clinical information*. Insights into Imaging 2021;12:79（DOI [10.1186/s13244-021-01024-3](https://doi.org/10.1186/s13244-021-01024-3)，PMID 34132898；PMC 全文 accessed 2026-07-12）——攝護腺淋巴瘤：T1/T2 均質等訊號、均質擴散受限、DCE 中度強化、PSA 常 <4。
 
 ## 題目
 > [!question]- About beyond prostate adenocarcinoma, which one is correct? (2020-314)

@@ -7,7 +7,7 @@ aliases:
   - secondary hemochromatosis
   - iron overload liver spleen
   - 血鐵沉積症
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # hemochromatosis-mri
@@ -23,7 +23,7 @@ dateRev: 2026-07-10
 > 續發性血鐵沉積症**肝臟與脾臟皆呈T2低訊號**；原發性早期僅**肝臟**低訊號、脾臟不受累。[^1]
 
 ## 放射科醫師影像判讀重點
-- **看脾臟分原發／續發**：鐵之順磁性縮短 T2/T2\*，鐵沉積器官在 T2WI 呈低訊號（訊號空洞）。**原發（HFE）鐵沉積於實質細胞**——肝（及胰、心、腦下垂體）低訊號、**脾臟不受累**；**續發（輸血相關 haemosiderosis）鐵沉積於網狀內皮系統**——**肝與脾皆低訊號**，此「脾臟受不受累」是最直接的判讀分水嶺。[^1][^3]
+- **看脾臟／胰臟分原發／續發**：鐵之順磁性縮短 T2/T2\*，鐵沉積器官在 T2WI 呈低訊號（訊號空洞）。**原發／基因型（HFE）鐵沉積於非 RES 實質細胞**——肝（及胰、心、腦下垂體）低訊號、**保留脾臟**（**胰臟受累是 primary 的線索**）；**續發／輸血相關（haemosiderosis）鐵沉積於 RES**——肝 Kupffer 細胞／脾／骨髓皆低訊號、**相對保留胰臟**，嚴重時才溢入實質。「脾臟受不受累」與「胰臟受不受累」是最直接的判讀分水嶺。[^1][^3][^4]
 - **序列選擇看 in-phase**：iron overload 的典型 MR 表現為**長 TE（in-phase）序列訊號下降**（相對 out-of-phase 更暗；與脂肪肝之 out-of-phase 掉訊號恰相反）；量化可用 T2\*/R2\* mapping 估肝鐵濃度。[^3][^2]
 - **原發性訊號分布**：原發性血鐵沉積症肝實質細胞鐵沉積使肝於 **T1W 與 T2W 皆訊號下降**，可累及胰、心、腦下垂體、甲狀腺、滑膜。[^2]
 - **判讀陷阱**：續發性以 RES 為主但**非僅限於 RES**，嚴重／長期輸血時鐵可溢入實質器官（肝、胰、心）；勿把「hemosiderosis 只沉積於 RES」當正確敘述。[^3]
@@ -32,6 +32,7 @@ dateRev: 2026-07-10
 [^1]: *McGraw-Hill Specialty Board Review: RADIOLOGY*（2018 交換考題詳解 p.131 引用；Tier 2 board review教材）。早期原發性血鐵沉積症肝臟T2低訊號、脾臟不受累；續發性血鐵沉積症肝臟與脾臟皆T2低訊號；記憶口訣Primary=Pancreas、Secondary=Spleen。
 [^2]: Dähnert W. *Radiology Review Manual*, 6th edn. Philadelphia: Lippincott Williams & Wilkins, 2007; p.717（2018 交換考題詳解 p.274 引用；Tier 2 教科書）。原發性血鐵沉積症鐵沉積於肝實質細胞(肝/胰/心/腦下垂體/甲狀腺/滑膜)，肝臟於T1W與T2W皆訊號下降；續發性(血鐵沉積症haemosiderosis，如thalassemia)鐵主要沉積於脾/骨髓之網狀內皮系統。
 [^3]: *MR Imaging Findings of Iron Overload*. RadioGraphics 2009;29:1575-1589（2018 交換考題詳解 p.350 引用；Tier 1 期刊）。原發性血鐵沉積症為體染色體隱性、小腸過度吸收鐵、沉積於非網狀內皮系統(實質細胞)；續發性(hemosiderosis)常繼發於反覆輸血,鐵**以**網狀內皮系統為主但**非僅限於**RES(嚴重時亦溢入實質器官);鐵沉積典型MR表現為長TE(in-phase)序列訊號下降。
+[^4]: **Radiopaedia（snippet/403）** *Haemochromatosis*（rID 1419, DOI 10.53347/rID-1419）、*(pancreatic haemochromatosis)*（rID 26386）、*(cardiac haemochromatosis)*（rID 26134）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——primary/genetic（HFE）沉積於非 RES 實質細胞（肝／胰／心、保留脾，胰受累是 primary 線索）vs secondary/transfusional 沉積於 RES（肝 Kupffer／脾／骨髓、保留胰，嚴重時溢入實質）；iron overload 於 in-phase（long TE）訊號下降（與脂肪肝 out-of-phase 掉訊號相反）。
 
 ## 題目
 > [!question]- Concerning MR imaging features (with T2-weighting) of primary and secondary hemochromatosis, which of the following is true? (2018-018)

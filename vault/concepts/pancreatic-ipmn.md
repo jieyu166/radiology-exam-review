@@ -8,7 +8,7 @@ aliases:
   - main duct IPMN
   - branch duct IPMN
   - 胰管內乳頭狀黏液瘤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # pancreatic-ipmn
@@ -24,9 +24,10 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **CT/MRCP 分型判讀（核心考點）**：MD-IPMN＝主胰管瀰漫或節段性擴張（>5 mm，尤 ≥10 mm），無阻塞性原因；BD-IPMN＝與主胰管**相通**的葡萄串狀（cluster-of-grapes）囊性病灶、好發鉤突；混合型兼具兩者。[^1]
-- **與主胰管相通是關鍵鑑別**：MRCP 或 3D 重組顯示囊與主胰管相通，可與 serous cystadenoma、mucinous cystic neoplasm、假性囊腫區分——後三者通常不與主胰管相通。[^1]
+- **與主胰管相通是關鍵鑑別**：MRCP 或 3D 重組顯示囊與主胰管相通，可與 serous cystadenoma、mucinous cystic neoplasm、假性囊腫區分——後三者通常不與主胰管相通；**「與主胰管或分支胰管相通」正是 IPMN 的定義性影像特徵，與不相通的 MCN 相對**。[^3][^4]
+- **最強惡性關聯徵象**：於 2017 國際共識指引下，**強化壁結節（enhancing mural nodule）≥5 mm 為與惡性關聯最強的徵象**；CT 與 MRI 判定惡性潛能的表現相當（AUC 約 0.83 vs 0.86）。[^3]
 - **高危徵象（high-risk stigmata，直接指向手術）**：**強化的實質壁結節 ≥5 mm、主胰管 ≥10 mm、阻塞性黃疸伴胰頭囊**；worrisome features（囊 ≥3 cm、增厚強化囊壁、主胰管 5–9 mm、非強化壁結節、遠端胰腺萎縮、淋巴結腫）需進一步 EUS 評估。[^1][^2]
-- **DDx 陷阱**：擴張的主胰管勿一律歸咎慢性胰臟炎——MD-IPMN 亦致瀰漫主胰管擴張且惡性率高；瀰漫主胰管擴張伴壁結節、乳頭膨隆（十二指腸乳頭因黏液外溢而膨大）強烈提示 MD-IPMN。[^2]
+- **DDx 陷阱**：擴張的主胰管勿一律歸咎慢性胰臟炎——MD-IPMN 亦致瀰漫主胰管擴張且惡性率高；瀰漫主胰管擴張伴壁結節、乳頭膨隆（十二指腸乳頭因黏液外溢而膨大）強烈提示 MD-IPMN；**阻塞性慢性胰臟炎亦可 mimic MD-IPMN**，須以整體型態與相通關係綜合判讀。[^2][^5]
 - **判讀陷阱**：BD-IPMN 惡性率雖低仍非零（2–10%），須依高危徵象決定監測或手術，不可僅因「分支型」即忽視壁結節。[^1]
 
 ## 臨床重點（5 句）
@@ -42,6 +43,9 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 官方 2017 詳解；J Pancreat Cancer 2016;2(1) doi:10.1089/crpc.2016.0004：IPMN 分 MD/BD/mixed;MD 多在胰頭、BD 多在鉤突;MD ~60% 惡性、BD ~5%（2-10%）惡性。
 [^2]: 據 PubMed，Ohtsuka T, et al. *International evidence-based Kyoto guidelines for the management of intraductal papillary mucinous neoplasm of the pancreas.* Pancreatology 2023;24(2):255-270. DOI: [10.1016/j.pan.2023.12.009](https://doi.org/10.1016/j.pan.2023.12.009)（accessed 2026-07-05）。high-risk stigmata（阻塞性黃疸伴胰頭囊、強化壁結節 ≥5 mm、主胰管 ≥10 mm）與 worrisome features（囊 ≥3 cm、增厚強化囊壁、主胰管 5–9 mm、非強化壁結節、遠端胰腺萎縮/胰管突變伴遠端萎縮、淋巴結腫、CA19-9 升高、囊快速增大）之影像分層；納入 EUS/EUS-FNA 於評估；IPMN 為胰腺癌癌前病變、切除後仍須監測再發。
+[^3]: **Tier 1** Lee JE, et al. *Determining Malignant Potential of IPMN: CT versus MRI Using Revised 2017 International Consensus Guidelines*. Radiology 2019;293(1):134-143（DOI [10.1148/radiol.2019190144](https://doi.org/10.1148/radiol.2019190144)；摘要 accessed 2026-07-12）——enhancing mural nodule ≥5 mm 為最強惡性關聯；CT≈MRI（AUC 0.83 vs 0.86）。
+[^4]: **Radiopaedia（snippet/403，rID 未取得）** *Intraductal papillary mucinous neoplasm*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——IPMN 以與胰管系統相通為定義特徵。
+[^5]: **Tier 1** Wolske KM, et al. *Chronic Pancreatitis or Pancreatic Tumor? A Problem-solving Approach*. RadioGraphics 2019;39(7):1965-1982（DOI [10.1148/rg.2019190011](https://doi.org/10.1148/rg.2019190011)；摘要 accessed 2026-07-12）——obstructive chronic pancreatitis 可 mimic MD-IPMN。
 
 ## 題目
 > [!question]- 關於 Intraductal papillary mucinous neoplasm (IPMN) 的描述，何者「錯誤」? (2017-220)

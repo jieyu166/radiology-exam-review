@@ -7,7 +7,7 @@ aliases:
   - inguinal hernia
   - groin hernia imaging
   - 股疝 腹股溝疝
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # groin-hernia
@@ -17,7 +17,7 @@ dateRev: 2026-07-10
 ## Summary
 
 ### 判讀骨架：inferior epigastric vessels 是分水嶺
-- **第一步定位下腹壁血管**：在骨盆上方、rectus abdominis 深面找到 inferior epigastric artery/vein，向下追到其源自 external iliac vessels 處，即可作為三型疝的分界標誌。[^2]
+- **第一步定位下腹壁血管**：在骨盆上方、rectus abdominis 深面找到 inferior epigastric artery/vein，向下追到其源自 external iliac vessels 處，即可作為三型疝的分界標誌——**indirect 於其外側經深環（可入陰囊）、direct 於其內側經 Hesselbach 三角、femoral 於腹股溝韌帶後下方經 femoral canal**。[^2][^8]
 - **Indirect 間接疝**：經 **deep inguinal ring**，疝頸位於 inferior epigastric vessels **外側 lateral**（superolateral），沿 inguinal canal 走行，可延伸至陰囊／大陰唇。[^2][^3]
 - **Direct 直接疝**：經 Hesselbach 三角（transversalis fascia 缺損），疝頸位於 inferior epigastric vessels **內側 medial**（anteromedial），**寬頸**、obstruction 少見。[^2][^3]
 - **Femoral 股疝**：經 femoral canal，位於 **inguinal ligament 下方 below**、inferior epigastric vessels 外側、**femoral vein 內側 medial**；窄頸。[^1][^2]
@@ -26,7 +26,7 @@ dateRev: 2026-07-10
 ### 股疝四字訣與分水嶺
 - **解剖**：股疝經 femoral ring 入 femoral canal，**位於腹股溝韌帶後下方**、inferior epigastric vessels 外側、**common femoral vein 內側**。[^1]
 - **頸與囊**：常**窄漏斗狀頸 → 疝囊小而局限**（易嵌頓/絞窄）；故**「延伸的大疝囊（extended sac）」較不易見**（題目正解）。[^1]
-- **壓迫股靜脈**：**股疝幾乎一定壓迫股靜脈**（AJR 系列 45 例 CT 偵測之股疝中 42 例見靜脈受壓；疝囊全為 localized）；**腹股溝疝罕壓迫**股靜脈。[^1]（選項 B 為股疝特徵）
+- **壓迫股靜脈**：**股疝疝囊位恥骨結節外下且近乎必壓迫股靜脈**（近乎專屬徵象；AJR 系列 45 例 CT 偵測之股疝中 42 例見靜脈受壓、疝囊全為 localized）；**腹股溝疝罕壓迫**股靜脈。[^1][^8]（選項 B 為股疝特徵）
 - **位置 vs 恥骨結節**：**股疝位於恥骨結節『外側』**（lateral）；腹股溝疝位於『內上』。[^1]（選項 D 為股疝特徵）
 
 ### 模態與內容物判讀
@@ -68,6 +68,7 @@ dateRev: 2026-07-10
 [^5]: *Contemporary imaging of inguinal hernia and pain / abdominal wall hernia MDCT review.* Br J Radiol / RadioGraphics（Tier 1–2 review；全文層級）。MRI 對 occult hernia 敏感度 91–100%、特異度 92–97%；絞扼徵象（腸壁不強化、積液、近端擴張、脂肪 stranding、closed-loop、mesenteric swirl、pneumatosis）；femoral 絞扼風險 20–25% vs inguinal 約 3%。
 [^6]: *Obturator hernia: CT diagnosis*（PMC 病例與文獻回顧，Tier 2）。如 PMC4269088。老年消瘦女性；疝囊於 pectineus 與 obturator externus 間；Howship-Romberg sign 約 37%；CT 為首選診斷工具，常以小腸阻塞表現。
 [^7]: Aguirre DA, et al. *Abdominal Wall Hernias: Imaging Features, Complications, and Diagnostic Pitfalls at Multi–Detector Row CT.* RadioGraphics 2005;25(6):1501-20（Tier 1, RadioGraphics；2018 交換考題詳解 p.9 引用）。腹股溝疝為最常見腹壁疝型別，股疝相對少見；臍疝好發女性（腹壓升高相關）；parastomal hernia 為 incisional hernia 之亞型。
+[^8]: **Radiopaedia（snippet/403）** *Femoral hernia*（rID 23937, DOI 10.53347/rID-23937）、*Inguinal hernia*（rID 12533, DOI 10.53347/rID-12533）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——三型以 inferior epigastric vessels 為軸：indirect 外側經深環（可入陰囊）、direct 內側經 Hesselbach 三角、femoral 於腹股溝韌帶後下方經 femoral canal；股疝疝囊位恥骨結節外下且近乎必壓迫股靜脈（近乎專屬徵象）。
 
 ## 題目
 > [!question]- Features of abdominal wall hernia, which one is wrong? (2021-351)

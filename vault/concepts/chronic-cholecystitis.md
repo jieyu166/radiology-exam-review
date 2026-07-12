@@ -6,7 +6,7 @@ aliases:
   - chronic cholecystitis
   - bile signal T1 MRI
   - 慢性膽囊炎
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # chronic-cholecystitis
@@ -25,7 +25,7 @@ dateRev: 2026-07-10
 ## 影像判讀骨架
 
 ### US／CT：慢性膽囊炎本體
-- **結石幾乎必有**：慢性膽囊炎絕大多數合併膽結石（cholelithiasis），US 見結石＋後方音影是基本款；無結石時要先質疑診斷或想 acalculous／其他壁增厚原因。[^3]
+- **結石幾乎必有**：慢性膽囊炎**約 95%** 合併膽結石（cholelithiasis），US 見結石＋後方音影是基本款；無結石時要先質疑診斷或想 acalculous／其他壁增厚原因。[^3][^12]
 - **膽囊壁增厚但「均勻、平滑」**：壁厚 >3 mm，但呈**瀰漫、對稱、平滑**的增厚（纖維化所致），不像急性那樣有明顯水腫分層或高度充血。[^3][^4]
 - **膽囊縮小（contracted GB）**：慢性纖維化使膽囊體積變小、腔變窄；CT 量測短徑／長徑均小於急性（短徑約 2.9 vs 3.7 cm、長徑約 7.6 vs 9.6 cm）。[^4]
 - **壁強化但無周邊發炎徵象**：CT 上慢性膽囊炎壁可強化（纖維化、慢性增厚，甚至比急性更常見壁強化），但**缺乏急性的旁徵**——無 transient hepatic enhancement（肝床一過性高強化）、無壁分層水腫、無周圍脂肪糢糊／積液。[^4]
@@ -48,7 +48,7 @@ dateRev: 2026-07-10
 - **整體風險已下修**：早年宣稱併存膽囊癌 7–60% 已被推翻；去除選擇偏差後的次群分析顯示惡性率約 **6%**（對照無鈣化壁約 1%），故風險仍存在但遠低於舊說，預防性膽囊切除是否必要需個別權衡共病。[^5]
 
 ### Xanthogranulomatous cholecystitis（XGC，黃色肉芽腫性膽囊炎）
-- **影像核心**：**壁內低密度結節／條帶（intramural hypoattenuating nodules）**反映脂質肉芽腫，幾乎見於所有 XGC，是與膽囊癌鑑別的關鍵；壁瀰漫增厚常見（XGC 約 70% vs 癌約 12.5%）。[^6][^7]
+- **影像核心**：**壁內低密度結節／條帶（intramural hypoattenuating nodules）**反映阻塞破裂之 Rokitansky-Aschoff 竇形成的脂質肉芽腫，幾乎見於所有 XGC，是與膽囊癌鑑別的關鍵；壁瀰漫增厚常見（XGC 約 70% vs 癌約 12.5%）。**連續黏膜線是鑑別膽囊癌的關鍵徵象。**[^6][^7][^12]
 - **黏膜線連續性**：XGC 多保留**連續黏膜線（continuous mucosal line，約 80%）**，膽囊癌多中斷（僅約 6%）。[^6][^7]
 - **判讀陷阱**：XGC 壁增厚可像癌、可直接侵犯肝臟、引起膽道擴張，術前影像常難與膽囊癌截然區分；應用「壁內低密度結節＋連續黏膜線」這組合提高 XGC 信心。[^6][^7]
 
@@ -84,6 +84,7 @@ dateRev: 2026-07-10
 [^9]: 〔Tier 1〕van Breda Vriesman AC, et al. *Diffuse Gallbladder Wall Thickening: Differential Diagnosis*. AJR Am J Roentgenol. 2007;188(2):495-501. https://doi.org/10.2214/AJR.05.1712 （accessed 2026-06-29，摘要層級）。瀰漫壁增厚的非膽囊原因：肝炎、肝硬化／門脈高壓、腹水、低白蛋白血症、右心衰竭、腎衰竭、膽囊未充分擴張。
 [^10]: *Problem solving in Abdominal imaging*, 1st Edition, Chapter 1, Page 17-21（2018 交換考題詳解 p.135 引用；Tier 2 教科書）。單獨膽囊壁增厚非急性膽囊炎特異性診斷依據；鬱血性心衰竭可致膽囊壁增厚；膽囊癌彩色都卜勒可無血流訊號；總膽管結石為膽結石病人膽管擴張最常見原因；腺肌症comet tail源自Rokitansky-Aschoff竇內結晶殘響。
 [^11]: Ahuja A. *Diagnostic Imaging: Ultrasound*. Salt Lake City, Utah: Amirsys; 2007. p 2-28~2-29（2018 交換考題詳解 p.180 引用；Tier 2 教科書）。慢性膽囊炎典型超音波表現為壁增厚、膽囊縮小、膽結石；壁充血變化較典型見於急性膽囊炎非慢性。
+[^12]: **Radiopaedia（snippet/403）** *Chronic cholecystitis*（rID 24003）、*Xanthogranulomatous cholecystitis*（rID 15947）、*Porcelain gallbladder*（rID 12408）、*Diffuse gallbladder wall thickening (DDx)*（rID 9421）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）——慢性膽囊炎約 95% 合併膽石；XGC 為阻塞破裂之 Rokitansky-Aschoff 竇致壁內低衰減結節、連續黏膜線為鑑別膽囊癌關鍵；瓷膽囊癌風險現代下修約 6%；瀰漫壁增厚＋低密度非膽囊炎專屬，須納全身病因（心／腎衰、門脈高壓、低白蛋白）。
 
 ## 題目
 > [!question]- Which of the following statements about ultrasound of the gallbladder is incorrect. (2018-243)
