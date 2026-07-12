@@ -670,7 +670,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2005; 25:1456；2021 交換考官方詳解 PDF p321",
-      "explanation": "ABE.根據guideline應該和惡性有關。\nC. 在其引用的RadioGraphics 2005; 25:1456 有提到\n\n【2021 官方詳解】\nFukuoka consensus guidelines\nInvestigation\n- cyst <5 mm\n  - asymptomatic: invasive carcinoma is rare if the patient is asymptomatic, therefore, follow-up only is recommended\n  - symptomatic: further evaluation or resection (clinical circumstances dictate)\n- cyst >5 mm\n  - pancreatic protocol CT or MRI pancreas and MRCP to evaluate\nHigh-risk stigmata\n- enhancing solid component >5 mm\n  - strongest association with malignant IPMN\n- main pancreatic duct ≥10 mm\n- obstructive jaundice\nWorrisome features\n- cyst ≥3 cm\n- thickened and enhancing cyst wall\n- enhancing mural nodule <5 mm\n- main pancreatic duct 5-9 mm\n- lymphadenopathy\n- abrupt change in caliber of the pancreatic duct with distal pancreatic atrophy\n- cyst growth rate ≥5 mm in two years\n- elevated Ca19-9",
+      "explanation": "答案 D。本題問哪一項「不是」偏惡性（favor malignancy）徵象。IPMN 的高危／worrisome 徵象多與主胰管受累及壁結節有關：A 主胰管受累（main duct 型惡性率高）、B 主胰管明顯擴張（>15 mm）、E 大型壁結節（enhancing mural nodule）皆偏惡性；C 管腔內鈣化內容物依題目所引 RadioGraphics 2005;25:1456 亦與惡性相關。D 膽總管口徑正常代表無阻塞性黃疸，屬正常表現、並非偏惡性徵象，故為正解。→ [[pancreatic-ipmn]]",
       "images": [],
       "concepts": [
         "pancreatic-ipmn"
@@ -752,7 +752,7 @@
       ],
       "correctAnswer": "B",
       "reference": "LIRADS v2018；2021 交換考官方詳解 PDF p143",
-      "explanation": "台大HCV也可以，其他醫院/原版不行\n\n【2021 官方詳解】\n- Apply in patients at high risk for HCC, namely those with:\n  - Cirrhosis OR\n  - Chronic hepatitis B viral infection OR\n  - Current or prior HCC\n  - Including adult liver transplant candidates and recipients posttransplant\n- Do not apply in patients:\n  - Without the above risk factors\n  - < 18 years old\n  - With cirrhosis due to congenital hepatic fibrosis\n  - With cirrhosis due to a vascular disorder such as hereditary hemorrhagic telangiectasia, Budd-Chiari syndrome, chronic portal vein occlusion, cardiac congestion, or diffuse nodular regenerative hyperplasia",
+      "explanation": "答案 B。LI-RADS v2018 僅適用於 HCC 高危族群：肝硬化、慢性 B 型肝炎、或現有／曾有 HCC 者（含成人肝移植候選人與術後受贈者）。B 單純慢性 C 型肝炎而「無」肝硬化不在適用範圍，為正解（不適用）；A 肝硬化、C 現有或曾有 HCC、D 肝移植後合併慢性 B 肝皆屬適用族群。（註：部分機構如台大將無肝硬化之慢性 C 肝亦納入，惟原版 LI-RADS 不含。）→ [[hcc-imaging-diagnosis]]",
       "images": [],
       "concepts": [
         "hcc-imaging-diagnosis"
@@ -794,7 +794,7 @@
       ],
       "correctAnswer": "C",
       "reference": "LI-RADS v2018 Core, American College of Radiology；2021 交換考官方詳解 PDF p317",
-      "explanation": "考題應該是BC選一個。\n\n【2021 官方詳解】\nC. non-rim arterial phase hyperenhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 317 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。LI-RADS 典型 HCC 之動脈期高強化須為 non-rim（非環狀）；C 所述 rim arterial phase hyperenhancement 為環狀強化，偏向非 HCC 惡性（LR-M，如膽管癌），故為錯誤敘述、本題正解。B non-rim APHE、D non-peripheral washout、E capsule 皆為 HCC 主要特徵而正確；A 適用於肝硬化與 HBV 高危族群（敘述略簡但方向正確）。→ [[hcc-imaging-diagnosis]]",
       "concepts": [
         "hcc-imaging-diagnosis"
       ],
@@ -847,7 +847,7 @@
       ],
       "correctAnswer": "E",
       "reference": "RadioGraphics 2017; 37:1994–2017；2021 交換考官方詳解 PDF p319",
-      "explanation": "size increase ≥ 50% in ≤ **6** months\n\n【2021 官方詳解】\nD.\nthreshold growth\ndiameter increase ≥50% increase in ≤6 months\nother prior criteria are now considered subthreshold growth, an ancillary feature\nif prior exam >6 months, diameter ≥100% increase\na new lesion ≥10 mm in <24 months\nthreshold growth should be compared on similar sequences between studies\nonly apply this criterion if the lesion is definitely a mass (e.g. not perfusion alteration)\n\n⚠️ 本題含影像（官方詳解 PDF 第 319 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。Threshold growth（閾值生長）定義為 ≤6 個月內直徑增加 ≥50%（若前次影像間隔 >6 個月則須增 ≥100%；或 24 個月內新出現 ≥10 mm 之病灶），E 誤植為「≤12 個月」故錯誤、為正解。A 適用族群（肝硬化、慢性 B 肝、肝癌病史）、B LR-5＝definite HCC 不需切片、C 須具 non-rim APHE、D 另三主要徵象（enhancing capsule、nonperipheral washout、threshold growth）皆正確。→ [[hcc-imaging-diagnosis]]",
       "images": [
         "2021-021-1.png"
       ],
@@ -3807,7 +3807,7 @@
       ],
       "correctAnswer": "A",
       "reference": "https://radiopaedia.org/articles/gadoxetate-disodium?lang=us Topic: Gadoxetate disodium；2021 交換考官方詳解 PDF p21",
-      "explanation": "【2021 官方詳解】\nGadoxetate disodium (also known by the tradenames PrimovistTM and EovistTM) is a hepatospecific paramagnetic gadolinium-based contrast agent, used exclusively in MRI liver imaging\n- linear, ionic molecule\n- 50% hepatic excretion, 50% renal excretion\n- evaluating focal nodular hyperplasia (FNH) vs adenoma\n  - hepatobiliary phase (20 minutes after contrast injection)\n    - FNH appears iso- to hyperintense\n    - adenoma appears hypointense\n- evaluation of hepatic metastases\n  - does not take up the contrast\n  - gadoxetate disodium uptake in a lesion indicates that it contains hepatocytes (or is a vascular malformation), and effectively excludes a metastasis from outside the liver",
+      "explanation": "答案 A。Gadoxetate（Primovist／Eovist）為肝細胞特異性對比劑，肝膽期（約注射後 20 分鐘）由具功能的肝細胞攝取。A 之 FNH 含正常肝細胞與功能性膽管，肝膽期呈等／高訊號（攝取對比劑），為正解；B 肝腺瘤缺功能性膽管、排出受阻，肝膽期多呈低訊號；C 肝轉移不含肝細胞、不攝取對比劑；D 肝囊腫無強化。故僅 FNH 於肝膽期呈強化。→ [[fnh]]",
       "images": [],
       "concepts": [
         "fnh"
@@ -3845,7 +3845,7 @@
       ],
       "correctAnswer": "A",
       "reference": "LI-RADS Version 2018 Ancillary Features at MRI RadioGraphics 2018; 38: 1973-2001；2021 交換考官方詳解 PDF p22",
-      "explanation": "【2021 官方詳解】\nNon-enhancing “capsule” favors HCC.\n\n⚠️ 本題含影像（官方詳解 PDF 第 22 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。LI-RADS v2018 之 ancillary features 分「偏惡性（可升級，上限僅至 LR-4）」與「偏良性（可降級）」兩類。A non-enhancing「capsule」屬偏惡性（favoring malignancy／偏 HCC），並非偏良性，故為正解；B marked T2 hyperintensity、C hepatobiliary phase isointensity、D undistorted vessel 皆屬偏良性之輔助特徵。→ [[li-rads-ancillary-benignity]]",
       "images": [
         "2021-094-1.jpg"
       ],
@@ -3929,7 +3929,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Wolske, K. M., Ponnatapura, J., Kolokythas, O., Burke, L. M. B., Tappouni, R., & Lalwani, N. (2019). Chronic Pancreatitis or Pancreatic Tumor? A Problem-solving Approach. RadioGraphics, 39(7), 1965–1982. https://doi.org/10.1148/rg.2019190011；10.1148/rg.2019190011；2021 交換考官方詳解 PDF p24",
-      "explanation": "【2021 官方詳解】\nSmooth narrowing of the pancreatic duct that traverses a pancreatic mass without abrupt obstruction strongly favors the diagnosis of inflammatory mass.\n\n⚠️ 本題含影像（官方詳解 PDF 第 24 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。胰管平滑穿越腫塊而無突然阻斷即 duct-penetrating sign，反而支持發炎性腫塊（腫塊型胰臟炎／自體免疫胰臟炎）而非 PDAC，故 D 敘述方向錯誤、為正解——PDAC 典型為胰管突然截斷併上游擴張。A double duct sign（膽總管與主胰管同時擴張）偏向惡性、B 慢性胰臟炎鈣化之周邊移位可提示新生惡性、C 軟組織包覆鄰近血管高度提示 PDAC 之腺外蔓延，皆為正確敘述。→ [[autoimmune-pancreatitis]]",
       "concepts": [
         "igg4-related-disease",
         "autoimmune-pancreatitis"
@@ -3974,7 +3974,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiopedia；2021 交換考官方詳解 PDF p26",
-      "explanation": "【2021 官方詳解】\nHereditary renal cancer syndromes\n- von Hippel Lindau syndrome: predominantly clear cell type\n- tuberous sclerosis: predominantly clear cell type (also associated with angiomyolipoma)\n- Birt-Hogg-Dubé syndrome: predominantly chromophobe type, oncocytoma, or a hybrid of both\n- sickle cell trait or hemoglobin SC disease: renal medullary carcinoma\n- hereditary renal oncocytoma: oncocytoma\nPathology\n- clear cell renal carcinoma (conventional): 70-80%\n- papillary renal cell carcinoma: 13-20%\n  - can be multifocal and bilateral\n  - most common form in dialysis-associated RCC\n- chromophobe renal cell carcinoma: 5%\n  - similar histologically to renal oncocytomas 4\n  - best prognosis 5\n- collecting duct renal cell carcinoma (Bellini duct): <1%\n  - worst prognosis 5\n- renal medullary carcinoma: rare, highly aggressive.\nMRI\n- T2: appearances depend on histology 6\n  - clear cell RCC: T2 hyperintense\n  - papillary RCC: T2 hypointense\n- T1 C+ (Gd): often shows prompt arterial enhancement\nClear cell RCC: Pancreatic and renal metastases\nPapillary RCC: Lymphangitic spread and peritoneal carcinomatosis\nSarcomatoid transformation in ccRCC: Increased the risk of lymphangitic spread, pleural and peritoneal metastases\n10.1148/radiol.2017160343",
+      "explanation": "答案 D。Renal medullary carcinoma 罕見但屬高度侵襲性腫瘤（好發具鐮刀型血球特徵者），並非「低惡性度、呈多分葉強化腫塊」，故 D 敘述錯誤、為正解。A clear cell RCC 與 Von-Hippel-Lindau 症候群相關、B chromophobe RCC 與 Birt-Hogg-Dubé 症候群相關、C papillary RCC 較常見淋巴管播散與腹膜癌病，皆為正確敘述。→ [[renal-cell-carcinoma]]",
       "images": [],
       "concepts": [
         "renal-cell-carcinoma"
@@ -4012,7 +4012,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiopedia；10.1186/s12882-021-02253-w；2021 交換考官方詳解 PDF p28",
-      "explanation": "【2021 官方詳解】\n- Absence of ossification/calcification on imaging is in favor of AML.\n  - Calcifications suggest liposarcoma\n  - Angiomyolipomas are seen in 55-75% of patients with tuberous sclerosis\n  - Symptomatic presentation is most frequently with spontaneous retroperitoneal hemorrhage; the risk of bleeding is proportional to the size of the lesion (>4 cm diameter)\nDigital subtraction angiography (DSA)\nAngiomyolipomas are hypervascular lesions ...\nTuberous Sclerosis Complex (TSC) is a genetic disorder, with renal manifestations like angiomyolipoma (AML) occurring in 70–80% of patients\n10.1186/s12882-021-02253-w",
+      "explanation": "答案 C。AML 罕見鈣化，故「腎腫塊有明顯強化成分＋鈣化」時反而應警覺 RCC（鈣化亦見於脂肪肉瘤），以此推論 AML 並不恰當，C 為錯誤敘述、本題正解。A 結節性硬化症病人約 70–80% 有 AML（原述 80% 可接受）、B AML <4 cm 較不易出血（出血風險與 ≥4 cm 相關）、D 非典型／少脂 AML 於血管攝影可呈乏血管表現，皆屬可接受敘述。→ [[renal-angiomyolipoma]]",
       "images": [],
       "concepts": [
         "renal-angiomyolipoma"
@@ -4050,7 +4050,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiopedia；10.2214/AJR.12.8510；2021 交換考官方詳解 PDF p29",
-      "explanation": "【2021 官方詳解】\nT2: prostate cancer usually appears as a region of low signal within a normally high signal peripheral zone\nDWI/ADC: often shows restricted diffusion\nThe normal prostate produces a large amount of citrate from the peripheral zone, which tumors do not 3.\nTumor = Increased choline: citrate ratio\nThere are three common dynamic curve types after initial uptake: type 1, persistent increase; type 2, plateau; and type 3, decline after initial upslope. Type 3 is considered the most suspicious for prostate cancer, especially if there is a focal asymmetric enhancing lesion\n10.2214/AJR.12.8510\n\n⚠️ 本題含影像（官方詳解 PDF 第 29 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。攝護腺癌於周邊帶正常高 T2 訊號中呈低訊號（T2 hypointensity），因細胞密度高致擴散受限、ADC map 呈明顯低訊號（ADC dark），DCE 動態曲線呈初期快速上升後下降之 type III（wash-out）曲線，最可疑為癌，故 A 正確、為正解。B、D 之 T2 hyperintensity 與典型癌相反；C 之 type I（持續上升）為良性型曲線，皆不符。→ [[prostate-mri]]",
       "images": [
         "2021-099-1.png"
       ],
@@ -4938,7 +4938,7 @@
       ],
       "correctAnswer": "A",
       "reference": "CT and MR Imaging of Ovarian Tumors with Emphasis on Differential Diagnosis. RadioGraphics 2002; 22:1305–1325；2021 交換考官方詳解 PDF p63",
-      "explanation": "【2021 官方詳解】\nA. Only 10% of all ovarian tumors are due to metastatic tumor.\nThe colon and stomach are the most common primary tumor sites in ovarian metastasis, followed by the breast, lung, and contralateral ovary. The tumors represent 10% of all ovarian tumors and develop during the reproductive years (52). Krukenberg tumors are metastatic tumors to the ovary that contain mucin-secreting “signet ring” cells and usually originate in the gastrointestinal tract",
+      "explanation": "答案 A。轉移性（secondary）腫瘤僅約佔所有卵巢腫瘤的 5–10%（而在「轉移至卵巢」的腫瘤中 Krukenberg 型可佔多達約 50%），並非「50% 的卵巢惡性腫瘤為轉移」，故 A 敘述錯誤、為正解。B 影像多屬非特異性、以實質為主或囊實混合、C 最常見原發部位為大腸與胃，其次乳房、肺、對側卵巢、D Krukenberg 腫瘤含分泌黏液之印戒細胞、多源自胃腸道，皆為正確敘述。→ [[krukenberg-tumor]]",
       "images": [],
       "concepts": [
         "krukenberg-tumor"
@@ -4976,7 +4976,7 @@
       ],
       "correctAnswer": "D",
       "reference": "AJCC cancer staging manual, 8th edition.；2021 交換考官方詳解 PDF p64",
-      "explanation": "【2021 官方詳解】\nA. Invasion to bladder is stage IV, but presence of bullous edema is not sufficient evidence.\nB. Myometrial invasion represents IA.\nC. Invasion of cervical strome correspond to II.\nD. ?? Grade 3 是high grade, 所以切upper abdomen 是要看metastasis??\n\n⚠️ 本題含影像（官方詳解 PDF 第 64 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。Grade 3 內膜樣及非內膜樣（高惡性度）腫瘤較易發生腹膜與上腹部轉移，分期評估須納入上腹部影像，故 D 正確、為正解。A 錯：真正膀胱黏膜侵犯才屬 stage IVA，單純 bullous edema（膀胱黏膜水腫）不足以證明侵犯；B 錯：肌層侵犯（<50%）屬 IA，≥50% 深層侵犯才是 IB；C 錯：子宮頸間質侵犯屬 stage II，而非 IB。→ [[endometrial-cancer-mri]]",
       "concepts": [
         "endometrial-cancer-mri"
       ],
@@ -5020,7 +5020,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Differentiation of Solid Renal Tumors with Multiparametric MR Imaging. RadioGraphics 2017; 37:2026–2042；2021 交換考官方詳解 PDF p66",
-      "explanation": "【2021 官方詳解】\nC. Chromophobe RCCs may show a central stellate scar (30%–40% of cases) and spoke-wheel enhancement, but these are not specific features, as oncocytomas may have similar characteristics",
+      "explanation": "答案 C。oncocytoma 的中央星狀疤痕與 spoke-wheel（輪輻狀）強化雖為典型表現，但並非 pathognomonic：chromophobe RCC 約 30–40% 亦可見中央星狀疤痕與輪輻狀強化，部分 clear cell RCC 也有類似表現，故無法單憑此二徵象確診 oncocytoma，此敘述錯誤。A（clear cell RCC 約 60% 含微量胞內脂肪、反相位訊號掉落）正確；B（papillary RCC 常呈 T2 低訊號、乏血管、漸進性強化）正確；D（lipid-poor AML 因平滑肌豐富呈 T2 低訊號、T1 高訊號且均質）正確。→ [[renal-oncocytoma]]",
       "images": [],
       "concepts": [
         "renal-oncocytoma"
@@ -5058,7 +5058,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Beyond Prostate Adenocarcinoma: Expanding the Differential Diagnosis in Prostate Pathologic Conditions. RadioGraphics 2016; 36:1055–1075；2021 交換考官方詳解 PDF p67",
-      "explanation": "【2021 官方詳解】\nB. Prostate sarcoma’s MRS demonstrate markedly elevated choline-to-citrate ratio, a finding that helps to differentiate sarcoma from benign mimics, such as unusually large BPH nodules.\nCholine 在tumor 會高.\nNormal and BPH epithelial cells are citrate-producing cells.",
+      "explanation": "答案 B。攝護腺肉瘤的 MR 頻譜應呈明顯「升高」而非降低的 choline-to-citrate ratio：腫瘤細胞 choline 上升，而正常與 BPH 上皮才是產 citrate 的細胞，故肉瘤 choline-to-citrate 比值明顯升高，可藉此與異常增大的 BPH 結節鑑別，題目寫「降低」故為錯誤。A（cystadenoma 呈多房 T2 高訊號囊性病灶＋周邊等訊號軟組織）正確；C（多數肉瘤界清、T1 均質低訊號、T2 異質、明顯強化）正確；D（paraganglioma 呈輕度 T2 高訊號分葉狀腫塊、明顯強化）正確。→ [[prostate-secondary-involvement]]",
       "images": [],
       "concepts": [
         "prostate-secondary-involvement"
@@ -5100,7 +5100,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Pancreatology. Sep-Oct 2017;17(5):738-753.；2021 交換考官方詳解 PDF p68",
-      "explanation": "【2021 官方詳解】\nHigh-risk stigmata:\n  - Enhancing solid component >5 mm\n  - Main pancreatic duct ≥10 mm\n  - Obstructive jaundice\nWorrisome features:\n  - Cyst ≥3 cm\n  - Thickened and enhancing cyst wall\n  - Enhancing mural nodule <5 mm\n  - Main pancreatic duct 5-9 mm\n  - Lymphadenopathy\n  - Abrupt change in caliber of the pancreatic duct with distal pancreatic atrophy\n  - Cyst growth rate ≥5 mm in two years\n  - Elevated Ca19-9",
+      "explanation": "答案 D。出血（hemorrhage）並非 Fukuoka／國際共識所列 IPMN 的 worrisome features 或 high-risk stigmata，故為正解。A（囊 ≥3 cm）屬 worrisome feature；B（主胰管 ≥10 mm）屬 high-risk stigmata；C（阻塞性黃疸）屬 high-risk stigmata；E（增厚且強化的囊壁）屬 worrisome feature，皆為共識列名徵象，唯出血不在其中。→ [[pancreatic-ipmn]]",
       "images": [],
       "concepts": [
         "pancreatic-ipmn"
@@ -5142,7 +5142,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Gastrointestinal Imaging: THE REQUISITES, ed 3, P 172.；10.1378/chest.111.4.1121；2021 交換考官方詳解 PDF p69",
-      "explanation": "【2021 官方詳解】\nD. 有一篇case report 有寫過.\n10.1378/chest.111.4.1121\nCauses of hepatic calcifications (Metastatic tumor):\n  - Mucinous carcinoma of the colon, breast, stomach, ovary.\n  - Melanoma, thyroid carcinoma, chondrosarcoma, carcinoid, leiomyosarcoma, neuroblastoma\n10.1148/radiographics.18.3.9599391",
+      "explanation": "答案 E。鈣化性肝轉移的原發灶清單相當廣，A–D 皆為公認可造成鈣化性肝轉移之來源：A 產黏液腫瘤（大腸、胰、胃、卵巢，以黏液性腺癌最常見）、B 骨肉瘤（成骨性腫瘤可直接產生類骨質鈣化）、C 神經母細胞瘤（屬神經內分泌腫瘤群）、D 肺癌皆可鈣化，故「以上皆為可能病因」的 E 為正解。→ [[calcified-liver-metastases]]",
       "images": [],
       "concepts": [
         "calcified-liver-metastases"
@@ -5184,7 +5184,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Small Bowel Crohn Disease at CT and MR Enterography: Imaging Atlas and Glossary of Terms Radiographics Mar-Apr 2020;40(2):354-375；2021 交換考官方詳解 PDF p70",
-      "explanation": "【2021 官方詳解】\nB. Chron disease is likely when small bowel inflammation is asymmetric (more severe along mesenteric border).\nC. Intramural edema is identified on fat-suppressed T2WI or low b-value DWI.\nD. Wall thickness should be evaluated and measured in a bowel segment that is adequately distended by fluid or enteric contrast material\nE. Stricture is defined as a bowel segment with luminal narrowing and unequivocal dilation (ie, ≥3 cm) of the upstream bowel segment",
+      "explanation": "答案 A。沿腸繫膜緣較嚴重的「不對稱」壁強化（asymmetric mural hyperenhancement）為 Crohn 的特異徵象，故 A 正確。B 錯，對稱、均質的壁強化並不特異，可見於多種情況；C 錯，腸壁水腫應於「脂肪抑制」T2 加權像或低／高 b 值 DWI 判讀，而非非脂肪抑制 T2；D 錯，壁厚須在以水或腸道對比劑「充分擴張」的腸段量測，塌陷腸段易高估；E 錯，狹窄定義為管腔狹窄＋上游無疑義擴張，門檻常定為 >3 cm 而非 ≥5 cm。→ [[inflammatory-bowel-disease]]",
       "images": [],
       "concepts": [
         "inflammatory-bowel-disease"
@@ -5222,7 +5222,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Reference 1. Acute pancreatitis. The Lancet 396; 726-734; Nov. 2020 2. Radiographics 2016: 36: 675-687 3. American College of Gastroenterology guideline: management of aucte pancreaitis 2020；2021 交換考官方詳解 PDF p71",
-      "explanation": "【2021 官方詳解】\nB. As the diagnosis of acute pancreatitis is most often established by clinical symptoms and laboratory testing, contrast-enhanced computed tomography (CECT) and/or magnetic resonance imaging (MRI) of the pancreas should be reserved for patients in whom the diagnosis is unclear or who fail to improve clinically.",
+      "explanation": "答案 B。急性胰臟炎的診斷主要依臨床症狀與血清酵素，CECT／MRI 應保留給診斷不明或臨床未改善者，且症狀 <72 小時的早期 CT 會低估壞死範圍，故「應立即做 CT 以建立診斷」為錯誤。A（輕型胰臟炎影像可正常）正確；C（無症狀 pseudocyst 不論大小、位置皆不需介入）正確；D（穩定病人之感染性壞死宜延後、最好 >4 週待內容物液化與周圍纖維壁形成再引流）正確。→ [[pancreatitis-severity]]",
       "images": [],
       "concepts": [
         "pancreatitis-severity"
@@ -5260,7 +5260,7 @@
       ],
       "correctAnswer": "C",
       "reference": "https://www.ncbi.nlm.nih.gov/books/NBK551559/；2021 交換考官方詳解 PDF p72",
-      "explanation": "【2021 官方詳解】\nAuerbach plexus, also known by the name of myenteric plexus, is a group of ganglia that run throughout the entire gastrointestinal tract and innervate its multiple layers of smooth muscle\n\n⚠️ 本題含影像（官方詳解 PDF 第 72 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。Myenteric plexus 即 Auerbach plexus，位於肌層固有膜的環肌與縱肌兩層之間，主要調控腸道蠕動，故選 C。A Submucosal plexus（別名 Meissner plexus，位於黏膜下層）為腸神經系統的另一神經叢，並非 myenteric；B Brachial plexus（臂神經叢）與 D Lumbar plexus（腰神經叢）為軀體周邊神經叢，與腸胃道無關。→ [[enteric-nervous-system-plexuses]]",
       "images": [
         "2021-129-1.jpg"
       ],
@@ -6135,7 +6135,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiology Review Manual 5th edition (page 953)；2021 交換考官方詳解 PDF p105",
-      "explanation": "【2021 官方詳解】\nAcute renal infarction\nCT:\nWedge-shaped area of absent enhancement\nEdematous enlargement of kidney (with large infarction)\nCortical rum sign within several days after global infarction\nUS:\nNormal echogenicity (Echoes appear within 7 days)\nDisminished echogenicity (within 24hr)",
+      "explanation": "答案 D。急性腎梗塞於 CT 可見以上三種所見：A cortical rim sign（皮質環徵，包膜下皮質靠側支循環仍持續強化，約梗塞後 6–8 小時出現、見於約半數）、B edematous enlargement（急性期腎臟可正常或水腫性腫大，可伴包膜下積液／腎周條紋）、C wedge-shaped area of absent enhancement（周邊楔形無強化區，base 朝腎包膜、apex 朝腎門），三者皆為典型表現，故選「以上皆是」。→ [[renal-infarction]]",
       "images": [],
       "concepts": [
         "renal-infarction"
@@ -6173,7 +6173,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiology Review Manual 5th edition (page 938)；2021 交換考官方詳解 PDF p106",
-      "explanation": "【2021 官方詳解】\nPosterior urethral valves\n= congenital thick folds of mucous membrane located in posterior uretra distal to verumontanum\nTime of discovery: prenatal (8%), neonatal (34%), 1st year (32%), 2-16 year(23%), adult (3%)\nSymptom: UTI (36%), obstructive symptom (32%), palpable kidney/bladder in neonate(21%), failure to thrive (13%), hematuria (5%)\nVCUG: VUR (33%), fusiform ndistension elongation of proximal posterior uretra\nUS: Keyhole sign, Bilateral hydronephroureter, oligohydramnios\n\n⚠️ 本題含影像（官方詳解 PDF 第 106 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。Type I 後尿道瓣（PUV）嚴重者多於「產前」經超音波（羊水過少＋雙側腎積水）診斷，較輕者於嬰兒／兒童期表現，並非「最常於新生兒期」被發現，故 D 為與 type I 較不相關／不正確之敘述。A（本質為 urogenital／後尿道膜性結構）正確；B（約 50% 合併膀胱輸尿管逆流 VUR）正確；C（膀胱小樑、尿滯留易致泌尿道感染）正確。→ [[urethral-anomalies-congenital]]",
       "images": [
         "2021-152-1.png"
       ],
@@ -6521,7 +6521,7 @@
       ],
       "correctAnswer": "B",
       "reference": "J Vasc Interv Radiol 2001; 12:957-963；2021 交換考官方詳解 PDF p116",
-      "explanation": "【2021 官方詳解】\nRight gastric artery variant:\n- proximal branches of hepatic trunk (80%)\n  - common hepatic artery (9-20%)\n  - proper hepatic artery (43-53%) (most common)\n  - gastroduodenal artery (3-26%)\n- distal branches (20%)\n  - left hepatic artery (15-41%)\n  - right hepatic artery (2-4%)",
+      "explanation": "答案 B。胃右動脈（RGA）最常源自 proper hepatic artery（固有肝動脈，約 43–53%），為肝動脈幹或其遠端分支最常見之非肝分支，故選 B。A common hepatic artery（約 9–20%）、D gastroduodenal artery（約 3–26%）、C left hepatic artery 皆為較少見之起源。→ [[right-gastric-artery-origin]]",
       "images": [],
       "concepts": [
         "right-gastric-artery-origin"
@@ -6559,7 +6559,7 @@
       ],
       "correctAnswer": "D",
       "reference": "https://radiologyassistant.nl/abdomen/liver/common-liver-tumors；2021 交換考官方詳解 PDF p117",
-      "explanation": "【2021 官方詳解】\nComplications\n- spontaneous rupture\n- rare: hepatic adenomas can degenerate into hepatocellular carcinomas (HCC), particularly in men\n- In general, and if feasible, adenomas are resected, both to eliminate the risk of spontaneous rupture and to conclusively confirm the diagnosis.\n- In cases where the lesion is small, not subcapsular, and has a typical appearance, some would choose to observe (with imaging and alpha-fetoprotein levels) and cease oral contraceptives. In such instances, the adenoma may regress. In inoperable cases, hepatic arterial embolization may have a role 7.",
+      "explanation": "答案 D。肝細胞腺瘤（HCA）具自發出血／破裂與惡性轉化風險（>5 cm、男性、β-catenin exon 3 型尤甚），一般建議切除並停用口服避孕藥、以影像追蹤，並非「僅需觀察」，故 D 為非。A（好發於服用避孕藥之年輕女性）正確；B（可自發出血）正確；C（可惡性轉化為 HCC，尤男性）正確。→ [[hepatocellular-adenoma]]",
       "images": [],
       "concepts": [
         "hepatocellular-adenoma"
@@ -6597,7 +6597,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics 2004; 24: 565-587；2021 交換考官方詳解 PDF p118",
-      "explanation": "【2021 官方詳解】\nMeckel’s diverticulum\nfibrous degeneration of the umbilical end of the omphalomesenteric (vitelline) duct\n** allantois(尿囊) 🡪 Urachus\nthe most common structural congenital anomaly of the gastrointestinal tract\nComplication:\n- GI hemorrhage (most common)\n- Small bowel obstruction (2nd most common)\n- Meckel diverticulitis\ncomplications are more common in men than in women, with a ratio of aproximately 2:1",
+      "explanation": "答案 B。Meckel 憩室源自卵黃管（omphalomesenteric／vitelline duct）近端未退化之殘留，與 allantois（尿囊，退化為 urachus 臍尿管）無關，故「源自 allantois 吸收不良」為非。A（為腸胃道最常見的結構性先天異常）正確；C（症狀性者男性多於女性，約 2:1）正確；D（消化道出血為最常見併發症）正確。→ [[meckel-diverticulum]]",
       "images": [],
       "concepts": [
         "meckel-diverticulum"
@@ -7554,7 +7554,7 @@
       ],
       "correctAnswer": "D",
       "reference": "2021 交換考官方詳解 PDF p142",
-      "explanation": "【2021 官方詳解】\nHepatic angiomyolipoma:\n- T1\n  - fatty components show hyperintensity on T1WI\n  - loss of signal on fat suppressed sequences\n  - in cases of poor lipid-content in phase/out of phase will show loss of signal at out of phase\n- T2: fatty components show hyperintensity on T2WI\n- T1 C+ (Gd): enhancement of vascular component in arterial phase",
+      "explanation": "答案 D。含脂肪的 hepatic angiomyolipoma（尤其 lipomatous 型）在同相／反相或脂肪抑制序列上必定會掉訊號——巨觀脂肪在脂肪抑制序列掉訊號，含脂較少（lipid-poor）者則於反相位（out-of-phase）掉訊號，脂肪與非脂肪界面呈 India-ink artifact，故「lipomatous AML 在 IP/OP 無 signal drop」為錯誤敘述。A 正確：正常肝實質 T2 訊號低於脾（脾 T2 較長、較亮）。B 正確：正常肝與脾皆不含脂肪，同相／反相間訊號相近、彼此接近而無明顯掉訊號。C 正確：正常胰臟因腺泡富含水溶性蛋白，T1WI 呈相對高訊號（腹部實質器官中 T1 最亮）。→ [[microscopic-fat-tumors]]",
       "images": [],
       "concepts": [
         "microscopic-fat-tumors"
@@ -7596,7 +7596,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Abbott RM, Levy AD, Aguilera NS, Gorospe L, Thompson WM. From the archives of the AFIP: primary vascular neoplasms of the spleen: radiologic-pathologic correlation. Radiographics. 2004 Jul-Aug;24(4):1137-63. doi: 10.1148/rg.244045006. PMID: 15256634.；10.1148/rg.244045006.；2021 交換考官方詳解 PDF p144",
-      "explanation": "【2021 官方詳解】\n- T1: iso to hypo-intense to normal splenic parenchyma\n- T2: hyperintense to splenic parenchyma\n- T1 C+(Gd)\n  - most demonstrate early nodular centripetal enhancement and uniform enhancement at delayed imaging\n  - smaller lesions may, however, show homogeneous enhancement on immediate post-contrast acquisitions remaining enhanced on delayed images",
+      "explanation": "答案 A。脾臟血管瘤在 T1WI 多呈等訊號至低訊號（iso-to-hypointense to 脾實質），並非高訊號，故「T1 高訊號」不是其常見特徵、為本題正解。B 正確：T2WI 呈高訊號。C 正確：可呈結節狀向心性（centripetal）強化。D 正確：延遲期呈均勻強化。E 正確：較小的病灶可於即時對比後即呈均質強化並持續至延遲期。→ [[splenic-tumors]]",
       "images": [],
       "concepts": [
         "splenic-tumors"
@@ -7638,7 +7638,7 @@
       ],
       "correctAnswer": "E",
       "reference": "http://dx.doi.org/10.1594/ecr2016/C-0818；10.1594/ecr2016/C-0818；2021 交換考官方詳解 PDF p145",
-      "explanation": "【2021 官方詳解】\nCT and MR are complementary modalities that allow for a comprehensive non-invasive assessment of a potential liver donor while either of these modalities is adequate for pre-transplant radiological assessment of a potential recipient.",
+      "explanation": "答案 E。完整的活體捐肝者術前評估需同時回答肝實質、肝動脈、門靜脈與肝靜脈、膽道樹解剖，並計算移植物與殘肝體積；CT 與 MR 為互補模態——4-phase CT 憑高空間解析度擅長動脈與體積評估，MR／MRCP 擅長肝實質（脂肪定量）與膽道樹，故需 4-phase CT 加上肝實質與膽道的 MR 研究兩者併用。A 只做 4-phase CT、B 只做 MR、C 只做 US Doppler、D 只做抽血，皆無法涵蓋全部項目，不足以完成「extensive study」。註：受贈者術前放射評估則單一模態通常已足夠。→ [[liver-living-donor-imaging]]",
       "images": [],
       "concepts": [
         "liver-living-donor-imaging"
@@ -7722,7 +7722,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Uptodate: Radiofrequency ablation and cryoablation for renal cell carcinoma. Apr 23, 2020. updated；2021 交換考官方詳解 PDF p147",
-      "explanation": "【2021 官方詳解】\nContraindications — Relative contraindications to RFA or cryoablation include:\n- A life expectancy less than one year.\n- The presence of distant metastases.\n- Tumors >5 cm or tumors in the hilum or central collecting system are generally not candidates for ablation.\n- For tumors in which treatment may cause thermal injury to the proximal ureter (resulting in urine extravasation and urinoma), an intraureteral stent is usually inserted prior to treatment.\nCryoablation\nDuring cryoablation, the ice ball can be visualized in real time with either CT or MRI, which allows the extent of cell death to be more reliably predicted. Complete cell death is thought to occur 3 mm inside the edge of the ice ball; thus, most operators extend the ice ball at least 5 mm beyond the tumor margin to ensure complete tumor coverage.\nComparison\nLocal tumor progression after a single treatment session was more frequent after RFA (12.9 versus 5.2 percent with cryoablation), and repeat ablation therapy was required more often following initial treatment with RFA (8.5 versus 1.3 percent). These differences were statistically significant.",
+      "explanation": "答案 E。冷凍消融所形成的冰球範圍並不等同於腫瘤壞死範圍——冰球最外緣等溫線僅約 −0.5°C 並非致死溫度，完全細胞死亡約發生在冰球邊緣內側 3 mm 處，故須讓冰球外擴超出腫瘤邊緣至少 5 mm 以確保完整涵蓋，因此「冰球範圍等同壞死範圍」為錯誤敘述、為本題正解。A 正確：術前置放 ureteral stent 可降低近端輸尿管熱傷害導致的 urine extravasation 與 urinoma。B 正確：與 cryoablation 相比，RFA 局部腫瘤進展率較高、較常需重複消融以達完全壞死。C 正確：就患者舒適度而言 cryoablation 明顯優於 RFA。D 正確：大於 5 公分或位於腎門／中央型（近集尿系統）的 RCC 一般不適合熱消融。→ [[tumor-ablation]]",
       "images": [],
       "concepts": [
         "tumor-ablation"
@@ -7764,7 +7764,7 @@
       ],
       "correctAnswer": "E",
       "reference": "RadioGraphics 2017;37:2026–2042；2021 交換考官方詳解 PDF p148",
-      "explanation": "【2021 官方詳解】\nClear cell RCC\n- T1: heterogeneous appearance\n- T2: hyperintense\n- IP/OP: frequently containing microscopic fat resulting in focal or diffuse non-curvilinear signal loss in opposed phase (in 60% 7)\nPapillary renal cell carcinoma\n- T1: hypointense\n- T2: hypointense\n- T1 C+ (Gd): contrast enhancement tends to be less intense than in the more common clear cell RCC\n- DWI: restricted diffusion may be useful for differentiating from a hemorrhagic cyst\nChromophobe renal cell carcinoma\n- They have a similar origin to oncocytomas\n- isointense to kidney / maybe T2 hypointense\n- relatively homogeneous contrast enhancement\n- necrosis not common\nRenal angiomyolipoma\n- Macroscopic fat: loss of signal following fat saturation, India ink artifact at the interface between fat and non-fat components",
+      "explanation": "答案 E。四項敘述皆正確、故選以上皆是。A 正確：clear cell RCC 典型呈 T2 高訊號，且常含微觀脂肪而於反相位出現局部或瀰漫的非曲線狀訊號下降。B 正確：papillary RCC 乏血管、典型 T2 低訊號、強化較常見的 clear cell RCC 弱。C 正確：chromophobe RCC 與 oncocytoma 可源自共同前驅細胞，影像特徵重疊（中央疤痕／spoke-wheel 強化並非 oncocytoma 專屬）。D 正確：典型 angiomyolipoma 含巨觀脂肪，脂肪抑制後掉訊號，並於反相位在脂肪與非脂肪界面呈 India ink artifact。→ [[renal-cell-carcinoma]]",
       "images": [],
       "concepts": [
         "renal-cell-carcinoma"
@@ -7806,7 +7806,7 @@
       ],
       "correctAnswer": "E",
       "reference": "RadioGraphics 2010;30:887–90；2021 交換考官方詳解 PDF p149",
-      "explanation": "【2021 官方詳解】\nCryoablation makes use of rapid cooling to cause cell death. Two sequential and synergistic\nmechanisms lead to cell death. Intra- and extracellular ice crystals are directly cytotoxic and\nlead to cell dehydration and rupture. When the frozen tissue is thawed, there is microvascular\nocclusion with cell hypoxia, resulting in indirect ischemic injury.\nAn initial freeze followed by thawing and additional freezing (double freeze-thaw cycle) results in a larger amount of liquefaction necrosis and improves treatment efficacy.\nCell death is time- and temperature dependent, with the critical threshold for cell death being between −19.4°C and −40°C.\nthe goal should be an ice ball margin of at least 5 mm to avoid residual or untreated tumor.",
+      "explanation": "答案 E。冷凍消融的四項敘述皆正確、故選以上皆是。A 正確：快速冷卻會在細胞內形成較多冰晶，具直接細胞毒性。B 正確：緩慢解凍造成微血管阻塞與細胞缺氧，導致間接缺血傷害。C 正確：細胞死亡具時間與溫度依賴性，臨界致死溫度約介於 −19.4°C 至 −40°C。D 正確：冰球邊界應超出目標腫瘤至少 5 mm，以避免殘餘或未治療的腫瘤。→ [[tumor-ablation]]",
       "images": [],
       "concepts": [
         "tumor-ablation"
@@ -7844,7 +7844,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Circulation. 2015;131:1599-160；2021 交換考官方詳解 PDF p150",
-      "explanation": "【2021 官方詳解】\nSystemic anticoagulation is the mainstay of treatment for MVT\n\n⚠️ 本題含影像（官方詳解 PDF 第 150 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。系統性抗凝（systemic anticoagulation）是腸繫膜靜脈栓塞（MVT）的主要、第一線治療，而非第二線，故 C 敘述錯誤、為本題正解。A 正確：MVT 特徵影像為腸繫膜靜脈內的充盈缺損，其他非特異表現包括腸壁增厚、腸緣模糊、腹水與腸繫膜增厚。B 正確：近期研究顯示非手術治療較手術介入有較佳存活率與較少併發症。D 正確：導管導向溶栓通常僅用於抗凝治療後症狀仍頑固、但尚不需手術介入的病人。→ [[acute-mesenteric-ischemia]]",
       "images": [
         "2021-194-1.jpg"
       ],
@@ -7884,7 +7884,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Hypertension. 2014;63:151-160；2021 交換考官方詳解 PDF p151",
-      "explanation": "【2021 官方詳解】\nD: Hypokalemia",
+      "explanation": "答案 D。原發性高醛固酮症的典型表現為高血壓合併低血鉀（hypokalemia）——醛固酮促進鉀離子排出，低血鉀常是最早的線索，好發於年輕（<20 歲）高血壓、頑固性高血壓、及高血壓合併低血鉀者，故「高血壓合併高血鉀」為錯誤敘述、為本題正解。A 正確：血漿醛固酮濃度與血漿腎素活性之比值（ARR）大於 30 ng/dl per ng/ml/hr 可作為篩檢（原發者醛固酮升高、腎素低下故 ARR 升高）。B 正確：腎上腺靜脈取樣（AVS）為分型金標準，可分辨醛固酮分泌腺瘤（APA）與雙側腎上腺增生。C 正確：AVS 適用於已生化確診原發性高醛固酮症、且擬接受單側腎上腺切除以治療高血壓的病人，結果左右手術或內科處置。→ [[adrenal-adenoma]]",
       "images": [],
       "concepts": [
         "adrenal-adenoma"
@@ -7968,7 +7968,7 @@
       ],
       "correctAnswer": "A",
       "reference": "RadioGraphics 2020; 40:2117-2141.；2021 交換考官方詳解 PDF p154",
-      "explanation": "【2021 官方詳解】\nAt imaging, it is challenging to differentiate dehiscence from the normal appearance of the uterine incision. Accompanying signs such as free fluid, a large bladder flap hematoma (>5 cm), pleural effusion, and bowel distention have been suggested to support the diagnosis of uterine dehiscence. In the proper clinical setting, the presence of a large bladder flap hematoma and large pelvic hematomas should be considered highly suspicious for uterine dehiscence. The sensitivity of CT is poor for the diagnosis of uterine dehiscence. Pelvic MRI may provide a better diagnostic yield than does contrast-enhanced CT, because it can show the intact serosa and allow the differentiation of uterine rupture from dehiscence. The distinction is important because a ruptured uterus requires surgical repair.",
+      "explanation": "答案 A。CT 對子宮切口 dehiscence 的敏感度差、影像徵象非特異；骨盆 MRI 因多切面與軟組織對比可顯示是否有完整漿膜層、進而區分 uterine rupture 與 dehiscence，其診斷率優於顯影 CT，故「CT 優於 pelvic MRI」與事實相反、為錯誤敘述、為本題正解。B、C、D、E 皆為可伴隨並支持 dehiscence 診斷的徵象：腹腔游離液、較大的 bladder flap hematoma（>5 cm 高度可疑）、肋膜積液（pleural effusion）與腸脹（bowel distention）。此鑑別的臨床意義在於 rupture 需手術修補、dehiscence 多可保守。→ [[postpartum-uterine-dehiscence-imaging]]",
       "images": [],
       "concepts": [
         "postpartum-uterine-dehiscence-imaging"
@@ -9691,7 +9691,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p207",
-      "explanation": "【2021 官方詳解】\nPerivesical Space.—The perivesical space is a small potential space that is enveloped by the umbilicovesical fascia. The umbilicovesical fascia fuses posteriorly with the rectovaginal fascia. The perivesical space contains the urachus (median umbilical ligament), obliterated umbilical arteries (medial umbilical folds), and urinary bladder. The perivesical space is continuous posteriorly with the lower uterus. As with the prevesical space, the perivesical space is most commonly involved by direct tumor extension from the bladder or urachus.",
+      "explanation": "答案 A。perivesical space 為 umbilicovesical fascia 包覆的小型潛在間隙（該筋膜後方與 rectovaginal fascia 融合），內含 urachus（臍尿管，median umbilical ligament）、閉鎖臍動脈與膀胱，後方與子宮下段相連；一如相鄰的 prevesical space，此間隙最常見的受累為膀胱或 urachus 腫瘤的直接延伸，而非原發於間隙的腫瘤，故答案為 A。B hemangioma、C solitary fibrous tumor、D liposarcoma 等原發間隙腫瘤皆極為罕見。→ [[pelvic-extraperitoneal-spaces]]",
       "images": [],
       "concepts": [
         "pelvic-extraperitoneal-spaces"
@@ -9729,7 +9729,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p208",
-      "explanation": "【2021 官方詳解】\nTumor extension to the iliac vessels (common and external iliac) should be scrutinized for abutment (tumor surrounding <50% of the vessel circumference), encasement (tumor surrounding >50% of the vessel circumference), and/or luminal invasion (tumor seen within the vessel) (Fig 24). At MRI, a well-defined and uninterrupted fat plane around vessels excludes involvement. Encasement of the common iliac and external iliac vessels may be a relative surgical contraindication, depending on available surgical expertise and tumor type. Vascular reconstruction with grafts may be appropriate in treatment of some tumors, such as primary soft-tissue sarcomas (23). Involvement of the internal iliac vessels is not an obstacle because, if involved, these vessels can be sacrificed owing to existing collaterals",
+      "explanation": "答案 D。common 與 external iliac vessels 為下肢主要供血血管，被腫瘤包繞（encasement，環繞血管圓周 >50%）屬相對手術禁忌，切除時常需以移植血管重建，故其受累可能妨礙骨盆腫瘤的完整切除、為本題正解。C internal iliac vessels 因側枝循環豐富、受侵犯時可直接犧牲，並不構成切除阻礙；A ovaries 與 B uterus／cervix 受累亦非切除的絕對禁忌。判準：abutment 為環繞 <50%、encasement 為 >50%、luminal invasion 為腔內侵犯；MRI 上血管周圍完整不中斷的脂肪面可排除侵犯。→ [[pelvic-tumor-resectability-vessels]]",
       "images": [],
       "concepts": [
         "pelvic-tumor-resectability-vessels"
@@ -9767,7 +9767,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiographics. Jul-Aug 2019;39(4):1205-1229.；2021 交換考官方詳解 PDF p209",
-      "explanation": "【2021 官方詳解】\nThe fat split, target, and fascicular signs have been described in association with schwannomas.\nThe fat split sign is a thin rim of fat around the lesion, seen as high T1 SI.\nThe target sign consists of a peripheral high-SI myxoid component and a central low-SI fibrous component on T2-weighted images.\nThe fascicular sign corresponds to multiple low-SI strands with peripheral high SI on T2-weighted images, representing the fascicular bundles within the nerves.\n\n⚠️ 本題含影像（官方詳解 PDF 第 209 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。題幹描述「T2WI 上多條低訊號束、各束周邊呈高訊號」對應的是 fascicular sign（束狀徵象），其病理基礎為神經束（fascicular bundles），屬神經源性腫瘤的內在徵象、於良性 PNST 較常見，故答案為 C。A bridging vessel sign 用於子宮漿膜下肌瘤與卵巢腫塊之鑑別，與神經鞘瘤內在訊號無關；B claw sign 為判斷病灶是否起源於器官或腔壁的通用徵象；D fat split sign 是病灶周圍一圈脂肪薄緣（T1 高訊號）而非束狀結構。另注意勿與 target sign（中央低訊號纖維、周邊高訊號 myxoid 的靶徵）混淆。→ [[peripheral-nerve-sheath-tumor-mri-signs]]",
       "images": [
         "2021-241-1.png"
       ],
@@ -9807,7 +9807,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p210",
-      "explanation": "【2021 官方詳解】\nAdenomas are divided into three subtypes: tubular adenomas, tubulovillous adenomas, and villous adenomas.\nVillous adenomas are one type of advanced adenoma. These lesions are typically larger than tubular adenomas—75% of them are larger than 2 cm—and they have a higher potential for malignant transformation.\nTubular adenomas are the most common, accounting for more than 80% of adenomas, and they have tubular glands or crowded branching tubules embedded in the lamina propria. Villous adenomas are the least common of the adenomas, accounting for less than 5% of cases.",
+      "explanation": "答案 D。腺瘤依絨毛成分分為 tubular、tubulovillous、villous 三型，其中 villous adenoma 屬於 advanced adenoma（癌前病變、惡性潛能最高），故 D 正確。A 錯：最常見者為 tubular（占腺瘤 >80%），villous 反而最少（約 5–15%）；B 錯：villous 通常體積較大，約 75% 大於 2 cm；C 錯：在腺瘤性息肉中 villous 的惡變潛能最高（約 40%）而非最低。→ [[gi-villous-lesions]]",
       "images": [],
       "concepts": [
         "gi-villous-lesions"
@@ -9845,7 +9845,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p211",
-      "explanation": "【2021 官方詳解】\nAdvanced adenomas—that is, those at high risk for progression to cancer, are 10 mm or larger (any histologic subtype), have a substantial villous component (>25% villous, including tubulovillous and villous adenomas), and/or exhibit high-grade dysplasia",
+      "explanation": "答案 C。Advanced adenoma（高惡變風險腺瘤）定義為 ≥10 mm（任何組織型）、或含明顯 villous 成分（>25%，含 tubulovillous 與 villous）、或具高度異型增生；C「有明顯 villous 成分」符合定義，故正確。A 錯：應為 ≥10 mm 而非 <10 mm；B 錯：advanced adenoma 可有異型增生，甚至以高度異型增生為定義要件之一；D 錯：並非以 flat 型態定義，flat（carpet）僅是其中一種形態。→ [[gi-villous-lesions]]",
       "images": [],
       "concepts": [
         "gi-villous-lesions"
@@ -9883,7 +9883,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p212",
-      "explanation": "【2021 官方詳解】\nAt barium examinations, villous lesions have been described as broad based and having numerous polypoid protrusions into the lumen of the bowel, with insinuation of barium into the interstices or clefts between the protrusions.",
+      "explanation": "答案 B。鋇劑攝影下 villous lesion 呈寬基（broad-based），表面有多個 polypoid 突起伸入腸腔，鋇劑滲入突起間隙形成 lace／frond／soap-bubble 花樣，故 B 正確。A 錯：為寬基而非窄基；C 錯：環狀狹窄阻塞屬晚期或惡變表現，非典型 villous lesion；D 錯：鋇劑會困陷於絨毛間隙，而非覆蓋不良。→ [[gi-villous-lesions]]",
       "images": [],
       "concepts": [
         "gi-villous-lesions"
@@ -9921,7 +9921,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p213",
-      "explanation": "【2021 官方詳解】\nIn one study, investigators assessed 23 rectal villous lesions on MR images and found that the majority of them (n = 21) had a “vegetating” shape, with only two lesions characterized as flat. Most of the lesions had polycyclic margins and a thick T2-hyperintense layer along their surface, which was possibly due to high cellularity or a mucinous film coating. All lesions showed heterogeneously intermediate to high signal intensity on T2-weighted MR images, with low signal intensity on T1-weighted MR images and pronounced heterogeneous enhancement in 61% of cases.",
+      "explanation": "答案 A。MRI 上 villous lesion 於 T2 呈異質性中至高訊號，表面常有一層厚 T2 高訊號層（高細胞或黏液膜覆蓋所致），故 A 正確。B 錯：T1 為低訊號、並非因出血呈高訊號；C 錯：表面黏液層在 T2 為高訊號而非低訊號；D 錯：T1 為低訊號，非中至高訊號。→ [[gi-villous-lesions]]",
       "images": [],
       "concepts": [
         "gi-villous-lesions"
@@ -9959,7 +9959,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiographics Sep-Oct 2018;38(5):1370-1384；2021 交換考官方詳解 PDF p214",
-      "explanation": "【2021 官方詳解】\nIn the duodenum, villous lesions can have an appearance similar to that of colonic villous lesions, but small lesions are easily missed. Sporadic duodenal villous lesions are most common in the second portion of the duodenum, and those associated with FAP are more commonly ampullary or periampullary. Small lesions may appear as nonspecific intramural nodular filling defects. Larger lesions may have a soap-bubble or cauliflower-like appearance. This appearance is that of multiple rounded radiolucent areas interspersed in a fine lacework of radiopaque material owing to barium entering the clefts between frondlike projections, as seen in the colon. Similarly, a frond- or lacelike mass in the duodenal lumen, with a feathery margin seen as contrast material enters the interstices from different directions, has been described.",
+      "explanation": "答案 B。與 FAP 相關之十二指腸 villous lesion 多位於壺腹或壺腹周圍，故 B 正確。A 錯：偶發性者最常見於第二段（D2），並非第四段；C 錯：多以非特異壁內結節填充缺損表現，阻塞並非最常見表現；D 錯：其影像特徵與大腸病灶相似（soap-bubble／cauliflower），並非不同。→ [[gi-villous-lesions]]",
       "images": [],
       "concepts": [
         "gi-villous-lesions"
@@ -10181,7 +10181,7 @@
       ],
       "correctAnswer": "D",
       "reference": "1 Prometheus Lionhart, MD. Crack the Core Exam - Volume 1: 8th (2021) Edition. p.209；2021 交換考官方詳解 PDF p219",
-      "explanation": "【2021 官方詳解】\nD. Two ducts (common bile duct and main pancreatic duct) fusion exactly at but not prior to the sphincter of Oddi complex",
+      "explanation": "答案 D。APBDU 的胰膽管匯合發生在十二指腸壁「外」、且位於 Oddi 括約肌「近端（之前）」，形成過長共同通道使括約肌無法調控交界；故 D「恰在括約肌處而非其近端匯合」的描述錯誤，即為本題要選的錯誤敘述。A 正確：屬先天解剖變異而非後天；B 正確：胰液反流使胰臟炎風險增加；C 正確：與第一型膽總管囊腫（choledochal cyst）高度相關。→ [[anomalous-pancreatobiliary-duct-union]]",
       "images": [],
       "concepts": [
         "anomalous-pancreatobiliary-duct-union"
@@ -12201,7 +12201,7 @@
       ],
       "correctAnswer": "E",
       "reference": "AJR 2007; 188: p496；2021 交換考官方詳解 PDF p274",
-      "explanation": "【2021 官方詳解】\nAcute cholecystitis, chronic cholecystitis, gallbladder ca, adenomyomatosis, systemic disease(such as liver dysfunction, heart failure, or kidney failure), and extracholecytic inflammation.",
+      "explanation": "答案 E。膽囊壁增厚合併低密度（水腫性）變化並非單一疾病的專屬影像，急性膽囊炎、心臟衰竭、敗血症、門靜脈高壓等皆可造成；此外肝功能不良、腎衰竭、低白蛋白血症、腹水等全身性病因亦同，故 A、B、C、D 皆可能，正解為 E（以上皆是）。判讀時須配合是否有結石與 Murphy sign 區分膽囊本身發炎與全身次發性壁增厚。→ [[chronic-cholecystitis]]",
       "images": [],
       "concepts": [
         "chronic-cholecystitis",
@@ -12288,7 +12288,7 @@
       ],
       "correctAnswer": "D",
       "reference": "CT/MRI LI-RADS® v2018 CORE p20；2021 交換考官方詳解 PDF p276",
-      "explanation": "【2021 官方詳解】\nMajor feature:\n- Non-rim APHE\n- Nonperipheral washout\n- Enhancing capsule\n- Size (Largest outer-edge-to-outer-edge dimension of an observation)\n- Threhold growth (size increase >50% in 6 months)",
+      "explanation": "答案 D。2018 ACR LI-RADS 診斷 HCC 的五大 major features 為 non-rim 動脈期高強化（APHE）、non-peripheral 門脈期 washout、強化包膜（enhancing capsule）、size 與 threshold growth；D「DWI 上的高訊號（擴散受限）」屬 ancillary（輔助）特徵而非 major feature，故為本題要選者。A、B、C 皆為 major feature。→ [[hcc-imaging-diagnosis]]",
       "images": [],
       "concepts": [
         "hcc-imaging-diagnosis"
@@ -12370,7 +12370,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 164；10.1148/radiol.2019182646；2021 交換考官方詳解 PDF p278",
-      "explanation": "【2021 官方詳解】\nRef: Bosniak classification 2019 Radiology 2019; 292:475–488; https://doi.org/10.1148/radiol.2019182646\n\n⚠️ 本題含影像（官方詳解 PDF 第 278 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。需要影像追蹤（surveillance）者是 Bosniak IIF，而非 Class III；Class III 為不確定／中度惡性風險病灶（建議泌尿科會診、常需手術評估），故 C「Class 3 需 CT/MR 影像追蹤」的敘述錯誤，即為本題要選的錯誤分類。A（I 為良性單純囊腫）、B（II 為輕微複雜、良性）、D（IV 多為惡性、需手術）皆正確。→ [[bosniak-classification]]",
       "concepts": [
         "bosniak-classification"
       ],
@@ -12414,7 +12414,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Diagnostic Imaging Genitourinary (Third Edition). Pg 75；2021 交換考官方詳解 PDF p279",
-      "explanation": "【2021 官方詳解】\n(A) initial enhanced phase (60-90 sec delay) and delay scan at 15 minutes.",
+      "explanation": "答案 A。標準腎上腺 dynamic CT washout protocol 為非顯影期＋強化期（約 60–90 秒）＋15 分鐘延遲，而非「30 分鐘延遲」，故 A 敘述錯誤、即為本題要選者。B 正確：部分中心採 10 分鐘延遲，但較短延遲可能降低敏感度；C 正確：dynamic 期用於計算 washout 百分比以評估腎上腺腺瘤（absolute washout ≥60%／relative washout ≥40%）；D 正確：多個網站提供 washout 計算器。→ [[adrenal-incidentaloma-washout]]",
       "images": [],
       "concepts": [
         "adrenal-incidentaloma-washout"
@@ -12695,7 +12695,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics 2017; 37:1569–1586；2021 交換考官方詳解 PDF p290",
-      "explanation": "【2021 官方詳解】\n(A) The risk factors for ectopic pregnancy include the following:\n- Previous ectopic pregnancy\n- Prior fallopian tube surgery\n- Previous pelvic or abdominal surgery\n- Certain sexually transmitted infections (STIs)\n- Pelvic inflammatory disease\n- Endometriosis\nOther factors that may increase a woman’s risk of ectopic pregnancy include:\n- Cigarette smoking\n- Age older than 35 years\n- History of infertility\n- Use of assisted reproductive technology, such as in vitro fertilization (IVF)\nRef: ACOG.org\n(B) 95% of ectopic pregnancies are tubal, and most commonly occur in the ampulla of the fallopian tube.",
+      "explanation": "答案 B。子宮外孕約 93–97% 為輸卵管（tubal）妊娠，最常見於壺腹部（ampulla），卵巢妊娠罕見（僅約 0.5–1%），故 B「最常發生於卵巢」錯誤、即為本題要選者。A 正確：危險因子含骨盆腔發炎（PID）、既往輸卵管／骨盆手術、既往子宮外孕；C 正確：增強 CT 可見附件囊性病灶伴周邊環狀強化；D 正確：β-hCG 可偏低或上升緩慢。→ [[ectopic-pregnancy]]",
       "images": [],
       "concepts": [
         "ectopic-pregnancy"
@@ -12774,7 +12774,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Prostate Imaging Reporting & Data System - PI-RADS 2015 version 2；2021 交換考官方詳解 PDF p292",
-      "explanation": "【2021 官方詳解】\nDynamic contrast enhancement (DCE)\n- (-) negative:\n  - no early or contemporaneous enhancement, or\n  - diffuse multifocal enhancement not corresponding to a focal finding on T2W and/or DWI, or\n  - focal enhancement corresponding to a lesion demonstrating features of benign prostatic hyperplasia on T2W (including features of extruded benign prostatic hyperplasia nodule in the peripheral zone)\n- (+) positive:\n  - focal, and\n  - earlier than or contemporaneous with enhancement of adjacent normal prostatic tissues, and\n  - corresponds to suspicious finding on T2 and/or DWI\n\n⚠️ 本題含影像（官方詳解 PDF 第 292 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。PI-RADS v2／v2.1 中周邊帶（PZ）以 DWI/ADC 為主導序列決定評分，故 B 正確。A 錯：T1WI 用於偵測切片後出血而非評分；C 錯：T2WI 為移行帶（TZ）的主導序列而非 PZ；D 錯：DCE 僅為二元開關（positive/negative），只在 PZ 的 DWI＝3 時作為升級（3→4）之用，並非主導序列。→ [[pi-rads]]",
       "images": [
         "2021-314-1.png",
         "2021-314-2.png",
@@ -12816,7 +12816,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Prostate Imaging Reporting & Data System - PI-RADS 2015 version 2；2021 交換考官方詳解 PDF p294",
-      "explanation": "【2021 官方詳解】\nRegional lymph nodes are defined as those of the true pelvis\n(i.e. pelvic nodes below the bifurcation of the common iliac arteries).\ncommon iliac arteries would be considered M1a, not N1\nClinical primary tumor staging (cT)\n- TX: primary tumor cannot be assessed\n- T0: no evidence of primary tumor\n- T1: clinically inapparent tumor that is not palpable (image invisible)\n  - T1a: tumor incidental histologic finding in 5% or less of tissue resected\n  - T1b: tumor incidental histologic finding in more than 5% of tissue resected\n  - T1c: tumor identified by needle biopsy found in one or both sides, but not palpable\n- T2: tumor is palpable and confined within prostate\n  - T2a: tumor involves one-half of one side or less\n  - T2b: tumor involves more than one-half of one side but not both sides\n  - T2c: tumor involves both sides\n- T3: extraprostatic tumor that is not fixed or does not invade adjacent structures\n  - T3a: extraprostatic extension (unilateral or bilateral)\n  - T3b: tumor invades seminal vesicle(s)\n- T4: tumor is fixed or invades adjacent structures other than seminal vesicles such as external sphincter, rectum, bladder, levator muscles, and/or pelvic wall\nRegional nodal status (N)\nRegional lymph nodes are defined as those of the true pelvis (i.e. pelvic nodes below the bifurcation of the common iliac arteries).\nNodal status is based on PSMA PET/CT, MRI or CT. On MRI/CT a 1 cm short axis diameter cut off is used if size is the sole criterion for adenopathy\n- NX: regional nodes were not assessed\n- N0: no positive regional nodes\n- N1: metastases in regional node(s)\nDistant Metastasis (M)\n- M0: no distant metastasis\n- M1: distant metastasis\n  - M1a: non-regional lymph node(s)\n    - note that a node along the common iliac arteries would be considered M1a, not N1\n  - M1b: bone(s)\n  - M1c: other site(s) with or without bone disease\n    - e.g. lungs, liver, brain",
+      "explanation": "答案 D。攝護腺癌的區域淋巴結（regional nodes，N 分期）僅限真骨盆內、即總髂動脈分叉以下的骨盆淋巴結，包含 internal iliac（A）、external iliac（B）、obturator（C）與 presacral 群，此三者轉移皆屬 N1，並非遠處轉移；inguinal（腹股溝，D）淋巴結位於真骨盆之外，屬非區域淋巴結，其轉移計為遠處轉移（M1a），故為正解。補充：沿總髂動脈（含以上）之淋巴結亦計為 M1a 而非 N1。→ [[prostate-adenocarcinoma-imaging]]",
       "images": [],
       "concepts": [
         "prostate-adenocarcinoma-imaging"
@@ -12854,7 +12854,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging: Genitourinary；2021 交換考官方詳解 PDF p296",
-      "explanation": "【2021 官方詳解】\nReversed diastolic flow in the transplant renal artery => highly suggestive of renal vein thrombosis.\nOther less common cause:\nDisorders such as allograft torsion\nSevere allograft rejection\nAcute tubular necrosis (ATN)\n\n⚠️ 本題含影像（官方詳解 PDF 第 296 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。⚠️ 存疑：本題標記正解與影像徵象疑有矛盾。移植腎動脈頻譜出現舒張期逆向血流（reversed diastolic flow）是腎靜脈血栓（renal vein thrombosis，選項 C）的典型徵象——靜脈流出受阻使下游阻力極高、致舒張期血流逆轉，亦可見於移植腎扭轉、嚴重排斥或重度 ATN；腎動脈狹窄（A）呈 tardus-parvus 低阻型態、腎動靜脈瘻管（B）多呈高速低阻的動脈化血流、正常疊加波形（D）不會出現逆向血流。就此頻譜最符合者應為 C（腎靜脈血栓），與卡片標記之 B（arteriovenous fistula）不一致，建議醫師覆核正解。→ [[renal-venous-thrombosis]]",
       "images": [
         "2021-316-1.jpg"
       ],
@@ -13220,7 +13220,7 @@
       ],
       "correctAnswer": "D",
       "reference": "UpToDate. Abdominal tuberculosis. Oct 25, 2019；2021 交換考官方詳解 PDF p323",
-      "explanation": "【2021 官方詳解】\nD: tuberculous lymphadenitis : typical low-attenuation adenopathy\nCentral caseation => centrally low density and eventually frankly cystic.\nMatted together with only minor surrounding inflammatory changes\n\n⚠️ 本題含影像（官方詳解 PDF 第 323 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。結核性淋巴結腫的典型表現為低衰減、中央乾酪化壞死（可逐漸囊變），淋巴結彼此糾結而周圍發炎變化輕微，並非如選項 D 所述之「均質實心中心（homogeneous solid centers）」，故 D 為錯誤敘述（正解）。其餘皆正確：腹腔結核的危險因子確含肝硬化、HIV 感染、糖尿病、惡性腫瘤與腹膜透析（A）；最常見的侵犯型態為腹膜、腸道與/或肝臟（B）；腸道結核以迴盲部環周壁增厚最為常見（C）。→ [[gi-infection-location-pattern]]",
       "images": [
         "2021-325-1.png"
       ],
@@ -13264,7 +13264,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2008; 28:2059–2063；2021 交換考官方詳解 PDF p324",
-      "explanation": "【2021 官方詳解】\nIntraductal papillary neoplasm of the bile duct (IPNB)\npreinvasive biliary tree neoplasm=> cholangiocarcinoma\nbiliary papillomatosis=> diffuse type IPNB\nanalogous to IPMN of pancreas\nhighest malignant potential, recurrence rate 20% to 60%, depending on the presence of an invasive component\n\n⚠️ 本題含影像（官方詳解 PDF 第 324 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。IPNB 為膽管的侵襲前（preinvasive）乳頭狀腫瘤、具高度惡性潛能（可進展為侵襲性乳頭狀膽管癌），復發率高（依是否含侵襲成分約 20–60%），並非如選項 C 所述「很少惡性化、也很少復發、預後很好」，故 C 為錯誤敘述（正解）。其餘皆正確：diffuse 型又稱 biliary papillomatosis（A）；可分泌大量黏液造成膽道阻塞（B）；MRCP、CT 可提供良好診斷（D）；通常為多發性（E）。→ [[cholangiocarcinoma-precursors]]",
       "images": [
         "2021-326-1.png"
       ],
@@ -14223,7 +14223,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Body MRI. Evan S. Siegelman. p. 96；2021 交換考官方詳解 PDF p367",
-      "explanation": "【2021 官方詳解】\nB. Insulinoma\nPancreatic neuroendocrine tumor\nSyndromic tumors\ninsulinoma: most common\ngastrinoma: second most common\nglucagonoma\nVIPoma: rare\nsomatostatinoma: rare, some of these can be non-functional\nNon-syndromic tumors: third most common\ninsulinoma: 10% malignant\ngastrinoma: 60% malignant\nglucagonoma: 80% malignant\nVIPoma: 75% malignant\nsomatostatinoma: 75% malignant\nnon-functional: 85-100% malignant",
+      "explanation": "答案 B。最常見的功能性（亢進性）胰臟神經內分泌腫瘤是 insulinoma，gastrinoma 為第二常見，故選項 B「gastrinoma 為最常見的功能亢進 NET」為錯誤敘述（正解）。其餘皆正確：gastrinoma 約占胰臟神經內分泌腫瘤的一定比例（A，約 30%）；與 Zollinger-Ellison 症候群相關（C）；約 60–80% 為惡性（D）。→ [[pancreatic-neuroendocrine-tumors]]",
       "images": [],
       "concepts": [
         "pancreatic-neuroendocrine-tumors"
@@ -14299,7 +14299,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiographics. 2005 Nov-Dec;25(6):1501-20. Abdominal wall hernias: imaging features, complications, and diagnostic pitfalls at multi-detectorrow CT.；2021 交換考官方詳解 PDF p369",
-      "explanation": "【2021 官方詳解】\nB. Femoral hernias are less common than inguinal hernias\nUnlike inguinal hernias, they are more common in females.",
+      "explanation": "答案 B。腹股溝疝（inguinal hernia）為最常見的腹壁疝，股疝（femoral hernia）遠比腹股溝疝少見（且股疝好發於女性、嵌頓絞扼風險較高），故選項 B「股疝比腹股溝疝常見」為錯誤敘述（正解）。其餘皆正確：腹股溝疝為最常見型別（A）；臍疝特別好發於女性（C）；造口旁疝（parastomal hernia）屬切口疝（incisional hernia）的一種亞型（D）。→ [[groin-hernia]]",
       "images": [],
       "concepts": [
         "groin-hernia"
@@ -14375,7 +14375,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Meyers' Dynamic Radiology of the Abdomen, p.230-231；2021 交換考官方詳解 PDF p371",
-      "explanation": "【2021 官方詳解】\nSuperficial drainage\nDeep drainage\n\n⚠️ 本題含影像（官方詳解 PDF 第 371 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。肝臟深層淋巴引流沿門脈三合體上行至肝門（hepatic hilar）淋巴結、再沿肝動脈到達 celiac 淋巴結，另一支沿肝靜脈繞下腔靜脈穿橫膈至 juxtaphrenic（腔靜脈旁）／後縱膈，故 celiac（A）、hepatic hilar（B）、juxtaphrenic（C）皆屬深層引流主幹的節站；lateral diaphragmatic（橫膈外側，D）淋巴結引流橫膈本身、屬橫膈表面／淺層系統，並非深層主幹的主要節站，故為正解。→ [[hepatic-lymphatic-drainage]]",
       "images": [
         "2021-353-1.png",
         "2021-353-2.png"
@@ -14416,7 +14416,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Iraha Y, et al. CT and MR Imaging of Gynecologic Emergencies. Radiographics 2017; 37:1569–1586.；2021 交換考官方詳解 PDF p373",
-      "explanation": "【2021 官方詳解】\nC. CT findings of a hemorrhagic ovarian cyst include a unilateral adnexal cyst with a high attenuation area (>40 HU) within the cyst. Contrast material–enhanced CT helps delineate the cyst wall to show a corpus luteal cyst. After the cyst ruptures, hemoperitoneum can be observed as high-attenuation peritoneal free fluid (>30 HU).",
+      "explanation": "答案 C。CT 的 Hounsfield unit 確實可用於偵測與鑑別出血性卵巢囊腫破裂與腹腔積血——囊內出血呈高衰減（未凝血約 30–45 HU、凝血塊 45–70 HU、水樣液體 0–15 HU），破裂後 hemoperitoneum 呈高衰減腹水並可見 hematocrit level／sentinel clot，故選項 C「CT HU 不適用於鑑別」為錯誤敘述（正解）。其餘皆正確：出血性囊腫多源自黃體（corpus luteum）而非濾泡囊腫（A）；破裂可與性交、外傷、懷孕相關（B）；MR 表現隨出血時期而異，可 T1、T2 皆呈高訊號，或 T1 高、T2 低訊號（D）。→ [[ovarian-mass-benign-vs-malignant]]",
       "images": [],
       "concepts": [
         "ovarian-mass-benign-vs-malignant"
@@ -14454,7 +14454,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Iraha Y, et al. CT and MR Imaging of Gynecologic Emergencies. Radiographics 2017; 37:1569–1586.；2021 交換考官方詳解 PDF p374",
-      "explanation": "【2021 官方詳解】\nD. ipsilateral uterine deviation",
+      "explanation": "答案 D。卵巢扭轉時因附件血管蒂縮短，子宮會偏向「同側（ipsilateral）」扭轉側，而非選項 D 所述之對側（contralateral），故 D 為錯誤敘述（正解）。其餘皆正確：子宮外孕為胚囊著床於子宮內膜腔以外（A）；約 95% 為輸卵管妊娠且最常見於壺腹部（ampulla，B）；正常卵巢的扭轉罕見，好發於初經前女孩或孕期（C）。→ [[adnexal-torsion]]",
       "images": [],
       "concepts": [
         "adnexal-torsion",
@@ -14493,7 +14493,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Taylor E, et al. Multimodality Imaging Approach to Ovarian Neoplasms with Pathologic Correlation. Radiographics 2021; 41:289-315.；2021 交換考官方詳解 PDF p375",
-      "explanation": "【2021 官方詳解】\nB. Epithelial cell neoplasms are the most common, followed by germ cell tumors\n\n⚠️ 本題含影像（官方詳解 PDF 第 375 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。卵巢腫瘤中最常見的大類為上皮性腫瘤（epithelial surface cell tumors，約占 60–70%），其次才是生殖細胞腫瘤（germ cell，約 20%），故選項 B「germ cell 為最常見大類」為錯誤敘述（正解）。其餘皆正確：依組織病理可分為生殖細胞、性索間質、上皮性與轉移四大類（A）；漿液性腫瘤常為單房且雙側、黏液性腫瘤常較大、單側且多房（C）；子宮內膜樣癌與透明細胞癌皆可源自子宮內膜異位瘤，並與 Lynch 症候群相關（D）。→ [[ovarian-tumors-imaging]]",
       "concepts": [
         "ovarian-tumors-imaging"
       ],
@@ -14542,7 +14542,7 @@
       ],
       "correctAnswer": "A",
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p376",
-      "explanation": "【2021 官方詳解】\nA. At imaging, tumor thrombus is more expansive than bland thrombus, demonstrates enhancement, and may have imaging features similar to those of the primary malignancy. Another helpful indicator of tumor thrombus is contiguity with the primary mass.\nICC: intrahepatic cholangiocarcinoma\nPNET: pancreatic neuroendocrine tumor\n\n⚠️ 本題含影像（官方詳解 PDF 第 376 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。實際上是腫瘤栓（tumor thrombus）較單純血栓（bland thrombus）更為膨脹、會強化（栓內強化為最具特異性之徵象），且可與原發腫塊訊號相似並與之相連（contiguity）；選項 A 將方向顛倒，稱「bland thrombus 較膨脹且會強化」，故為錯誤敘述（正解）。其餘皆正確：最常侵犯下腔靜脈的腫瘤為腎細胞癌、肝細胞癌、腎上腺皮質癌與原發性 IVC 平滑肌肉瘤（B）；泌尿上皮癌相關腫瘤栓罕見，有助與腎細胞癌鑑別（C）；靜脈侵犯好發於腎細胞癌且腫瘤越大越易發生（D）。→ [[renal-cell-carcinoma]]",
       "concepts": [
         "renal-cell-carcinoma"
       ],
@@ -14591,7 +14591,7 @@
       ],
       "correctAnswer": "B",
       "reference": "LeGout J, et al. Multimodality Imaging of Abdominopelvic Tumors with Venous Invasion. Radiographics 2020; 40:2098-2116.；2021 交換考官方詳解 PDF p378",
-      "explanation": "【2021 官方詳解】\nB. clear cell type is the most common subtype of RCC\n(Also most common associated with tumor thrombus)\nC.\nT3a disease when confined to the renal vein\nT3b disease when within the infradiaphragmatic IVC\nT3c disease when there is supradiaphragmatic extension or tumor invades the wall of the IVC\n\n⚠️ 疑似與 2021-008 為同一題（相似度 0.822），請醫師確認是否合併。",
+      "explanation": "答案 B。最常見的 RCC 亞型為 clear cell（透明細胞型，約占 70%），也是最常伴隨腫瘤栓者；papillary（乳頭狀）約 10–20% 居次，故選項 B「papillary 為最常見亞型」為錯誤敘述（正解）。其餘皆正確：RCC 占腎臟惡性腫瘤逾 90% 且好發形成腫瘤栓（A）；AJCC 分期中腫瘤局限於腎靜脈時為 T3a（C）；血管肌脂瘤（angiomyolipoma）為最常見的良性實質腎腫瘤（D）。→ [[renal-cell-carcinoma]]",
       "images": [],
       "concepts": [
         "renal-cell-carcinoma",
