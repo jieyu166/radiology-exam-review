@@ -10,7 +10,7 @@ aliases:
   - reversed halo sign
   - atoll sign
   - 機化性肺炎
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[nonspecific-interstitial-pneumonia]]"
   - "[[ctd-ild]]"
@@ -25,6 +25,7 @@ same:
 - **治療/預後**：[^1]
   - **多數（尤其 cryptogenic OP, COP）對類固醇反應佳、可消退**。
   - **Fibrosing OP（fOP）**：部分 OP 經長期治療仍不完全消退;與 **fibrotic NSIP overlap**;**好發於 polymyositis／antisynthetase syndrome 等 CTD-ILD**,不如典型 OP 易逆轉。[^2]
+  - **機化→纖維化的連續光譜**：organization 為肺損傷近乎共通之反應，可完全癒合、亦可進展為纖維化並轉呈 **NSIP 樣型態**——此即 fibrosing OP 與 fibrotic NSIP 影像重疊之機轉，說明何以持續不消退的 OP 會逐漸呈現 NSIP 樣纖維化。[^7]
 
 ## 影像判讀
 
@@ -57,12 +58,13 @@ same:
 > OP 核心＝**周邊/支氣管中心 consolidation ＋ atoll(reversed halo) sign ＋ 移行性 ＋ 類固醇反應佳**;**fOP（fibrosing OP）較不可逆、常見於 CTD（PM/antisynthetase）**。[^1][^2]
 
 ### 參考來源
-[^1]: *Organizing pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「peripheral or **bronchocentric consolidation** ... ground glass opacity, air bronchogram, curvilinear **perilobular** ... **atoll sign**, peripheral sparing」;「Most (especially cryptogenic forms) **respond very well to corticosteroid**」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
+[^1]: *Organizing pneumonia*. Radiopaedia.org, rID 57255, DOI [10.53347/rID-57255](https://doi.org/10.53347/rID-57255)（實際查證 accessed 2026-06-19）：「peripheral or **bronchocentric consolidation** ... ground glass opacity, air bronchogram, curvilinear **perilobular** ... **atoll sign**, peripheral sparing」;「Most (especially cryptogenic forms) **respond very well to corticosteroid**」。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: *Am J Respir Crit Care Med*. 2013;188(6):733-748（fibrosing OP）：部分 OP 不完全消退者與 fibrotic NSIP overlap（histologic OP/NSIP overlap 68% 預後較差）＝**fibrosing OP**,好發 polymyositis/antisynthetase syndrome、屬 CTD-ILD,治療以 steroid 為主。
 [^3]: 期刊綜述（According to PubMed）。Hamer OW, Silva CI, Müller NL. *Cryptogenic organizing pneumonia: typical and atypical imaging features on computed tomography.* Rofo 2008;180(7):614-620. [DOI](https://doi.org/10.1055/s-2008-1027449)。OP 可為 cryptogenic 或 secondary（觸發因子：感染、藥物、collagen vascular disease、IBD、移植、胸部放療）;典型 CT＝peripheral 與 peribronchovascular consolidations＋GGO;非典型＝nodules、crazy-paving、lines and bands、perilobular consolidations、reversed halo sign。
 [^4]: 期刊綜述（According to PubMed）。Godoy MCB, Viswanathan C, Marchiori E, et al. *The reversed halo sign: update and differential diagnosis.* Br J Radiol 2012;85(1017):1226-1235. [DOI](https://doi.org/10.1259/bjr/54532316)（PMC3487053，open access）。Reversed halo＝中央 GGO 被新月形／環形 consolidation 包圍;最初被視為對 COP 具特異性,後見於侵襲性肺黴菌感染、paracoccidioidomycosis、PCP、結核、社區型肺炎、lymphomatoid granulomatosis、Wegener granulomatosis、lipoid pneumonia、sarcoidosis、肺腫瘤、肺梗塞,以及放療後與 RFA 後。整合臨床史與其他影像可大幅縮小鑑別、部分可免切片。
 [^5]: 期刊綜述（According to PubMed）。Marchiori E, Zanetti G, Hochhegger B, et al. *Reversed halo sign on computed tomography: state-of-the-art review.* Lung 2012;190(4):389-394. [DOI](https://doi.org/10.1007/s00408-012-9392-x)。OP 是 reversed halo 最常見成因;**環壁／病灶內小結節**偏向活動性肉芽腫病（結核、sarcoidosis）而非 OP;**免疫低下者出現 reversed halo 應先當感染處理**（zygomycosis／侵襲性 aspergillosis,多見於血液惡性腫瘤之嚴重免疫抑制）。
 [^6]: 原著比較研究（According to PubMed）。Marchiori E, Marom EM, Zanetti G, et al. *Reversed halo sign in invasive fungal infections: criteria for differentiation from organizing pneumonia.* Chest 2012;142(6):1469-1473. [DOI](https://doi.org/10.1378/chest.12-0114)。biopsy-proven 比較（15 IFI vs 25 OP）：reversed halo 內**reticulation** 93% IFI vs 0% OP;外緣 consolidation rim 厚度 2.04±0.85 cm（IFI）vs 0.50±0.22 cm（OP）;**肋膜積液** 73% IFI vs 0% OP。結論：reticulation、rim >1 cm、肋膜積液皆傾向 IFI 而非 OP。
+[^7]: **Tier 1（摘要）** Kligerman SJ, Franks TJ, Galvin JR. *Organization and Fibrosis as a Response to Lung Injury in Diffuse Alveolar Damage, Organizing Pneumonia, and Acute Fibrinous and Organizing Pneumonia.* RadioGraphics 2013;33(7):1951-1975（DOI [10.1148/rg.337130057](https://doi.org/10.1148/rg.337130057)，PMID 24224590；摘要 accessed 2026-07-12）——organization（機化）為肺損傷近乎共通之反應，可完全癒合亦可進展為纖維化並轉呈 NSIP 樣型態，此為 fibrosing OP 與 fibrotic NSIP 影像重疊之機轉。
 
 ## 題目
 > [!question]- 以下關於 COP (cryptogenic organizing pneumonia) 之敘述何者為非? (2021-231)

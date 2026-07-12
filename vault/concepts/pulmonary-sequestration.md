@@ -7,7 +7,7 @@ aliases:
   - extralobar sequestration
   - intralobar sequestration
   - 肺隔離症
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # pulmonary-sequestration
@@ -27,7 +27,7 @@ dateRev: 2026-07-10
 - **供血動脈——體循環動脈是診斷關鍵**：兩型皆由**體循環動脈**供血，最常源自**胸主動脈下段或腹主動脈**（可經膈肌或膈下發出，少數來自肋間、鎖骨下、腹腔幹等分支）。**辨識出這條異常體循環供血動脈是影像確診的核心**，也是術前規劃避免大出血的關鍵。[^1][^2][^4]
 - **靜脈引流——兩型分水嶺**：[^1][^2]
   - **ILS → 引流入肺靜脈**（pulmonary veins，肺循環）。
-  - **ELS → 多引流入體循環靜脈**（systemic：azygos/hemiazygos/IVC，偶可入 portal vein）。
+  - **ELS → 多引流入體循環靜脈**（systemic：azygos/hemiazygos/IVC，偶可入 portal vein）;惟**約 1/4 ELS 之靜脈可引流入肺循環（肺靜脈）**，故「ELS 一律走體循環靜脈」並非絕對，判讀時仍須逐例追蹤引流走向。[^5]
 - **影像首選**：**CT angiography（CTA）為最佳非侵入性檢查**，可同時顯示異常實質與供血/引流血管；MRA / contrast-enhanced MR 為無輻射替代（產前及小兒尤佳）；傳統導管血管攝影已少作為診斷用途。[^1][^4]
 
 ### 各模態表現
@@ -60,7 +60,7 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **CTA 追蹤到源自主動脈的體循環供血動脈是影像確診核心**：兩型皆由體循環動脈供血,最常自胸主動脈下段或腹主動脈發出;找到這條異常動脈即可與單純肺炎/膿瘍/腫瘤區分,也是術前避免大出血的關鍵。[^1][^4]
-- **靜脈引流決定分型（考點分水嶺）**：ILS→肺靜脈（肺循環）;ELS→體循環靜脈（azygos/hemiazygos/IVC,偶入 portal）;答「extralobar 引流入肺靜脈」為錯。[^1][^2]
+- **靜脈引流決定分型（考點分水嶺）**：ILS→肺靜脈（肺循環）;ELS→多為體循環靜脈（azygos/hemiazygos/IVC,偶入 portal）;考題層次答「extralobar 引流入肺靜脈」為錯,惟臨床上約 1/4 ELS 之靜脈仍可入肺循環,故非無條件之絕對規則。[^1][^2][^5]
 - **部位與合併畸形**：好發左下葉後基底段為兩型共同傾向;ELS 約 90% 位左側、可位於膈下、男性居多（~4:1）,常合併先天性膈疝等;ELS 有獨立臟層胸膜,ILS 與正常肺共用胸膜。[^1][^3]
 - **模態分工**：CXR 僅供初步懷疑（無法顯示血管）;CTA 為最佳非侵入性檢查,MRA/增強 MR 為無輻射替代（產前/小兒尤佳）;胎兒可用產前超音波＋胎兒 MRI（都卜勒顯示主動脈供血動脈以與 CPAM 鑑別）。[^1][^4]
 - **判讀陷阱**：① 未找到體循環供血動脈易誤判為肺炎/膿瘍/腫瘤,須用薄層 CTA＋MIP/容積重組;② 分型靠靜脈引流,但「體循環動脈供血＋無正常氣道相通」才是定性診斷核心;③ 見體循環供血＋多囊成分應想 hybrid lesion（與 CPAM 共存）。[^1][^2][^4]
@@ -77,6 +77,7 @@ dateRev: 2026-07-10
 [^2]: Zylak CJ, Eyler WR, Spizarny DL, Stone CH. *Developmental lung anomalies in the adult: radiologic-pathologic correlation*. RadioGraphics. 2002;22 Spec No:S25–S43（RadioGraphics 綜述，據 PubMed 摘要與 MeSH 查證 2026-06-29）：BPS（含 ILS 與 ELS）歸於「合併肺與血管畸形」，以體循環供血與分型/合併畸形為要點。According to PubMed，[DOI](https://doi.org/10.1148/radiographics.22.suppl_1.g02oc26s25)。
 [^3]: Lin CH, Chuang CY, Hsia JY, et al. *Pulmonary sequestration—differences in diagnosis and treatment in a single institution*. J Chin Med Assoc. 2013;76(7):385–389（單一機構 31 例系列，據 PubMed 摘要查證 2026-06-29）：成人系列以 ILS 為大宗（31 例中 29 例 ILS、2 例 ELS），96.8% 由胸部 CT 診斷，CTA 為評估隔離肺與其血管供應之首選影像。According to PubMed，[DOI](https://doi.org/10.1016/j.jcma.2013.04.002)。
 [^4]: Naffaa L, Tank J, Ali S, Ong C. *Bronchopulmonary sequestration in a 60 year old man*. J Radiol Case Rep. 2014;8(10):32–39（個案＋影像綜述，PMC 開放全文，據 PubMed 摘要查證 2026-06-29）：以胸主動脈發出之供血動脈確立 BPS 診斷，並強調各影像模態在 ILS 診斷與術前規劃的角色。According to PubMed，[DOI](https://doi.org/10.3941/jrcr.v8i10.2235)。
+[^5]: **Radiopaedia（snippet/403）** *Pulmonary sequestration*, rID 1934, DOI [10.53347/rID-1934](https://doi.org/10.53347/rID-1934)；*(intralobar)* rID 25579, DOI [10.53347/rID-25579](https://doi.org/10.53347/rID-25579)；*(extralobar)* rID 26985, DOI [10.53347/rID-26985](https://doi.org/10.53347/rID-26985). Radiopaedia.org（搜尋摘要 accessed 2026-07-12；正文未取得）——共同點：體循環動脈供血（胸/腹主動脈）。ILS 約 75%、與正常肺共用臟層胸膜、多在 30 歲前反覆感染表現、引流入肺靜脈。ELS 約 15–25%、有自己的胸膜、強烈好發左下葉（65–90%）、男性居多、常合併先天性膈疝、多於嬰兒期發現；**ELS 靜脈引流可為體循環或肺循環（非絕對體循環）**。
 
 ## 題目
 > [!question]- Which of the description about pulmonary sequestration is wrong? (2018-045)

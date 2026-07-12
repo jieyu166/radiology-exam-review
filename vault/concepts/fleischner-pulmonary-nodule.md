@@ -6,7 +6,7 @@ aliases:
   - Fleischner Society guidelines
   - pulmonary nodule follow-up
   - 偶見肺結節追蹤
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # fleischner-pulmonary-nodule
@@ -43,7 +43,8 @@ dateRev: 2026-07-10
 - **適用範圍的判斷（先確認能不能用指引）**：Fleischner 指引僅適用於 ≥35 歲、偶然發現的實質（solid）結節；已知惡性病史、免疫低下、肺癌篩檢族群（另有 Lung-RADS）皆排除——判讀第一步是確認病人與結節符合適用條件，用錯族群比記錯門檻更嚴重。[^4]
 - **大小＋風險二維分層（2017 版判讀骨架）**：以結節大小（<6 mm／6–8 mm／>8 mm）與病人風險（低/高）交叉決定追蹤。單發低風險 <6 mm 不需常規追蹤（高風險則 optional 12 個月）；單發 6–8 mm（任何風險）6–12 個月追蹤、再 18–24 個月；單發 >8 mm 考慮 3 個月追蹤/PET-CT/切片。判讀時務必量測到「最長徑（或體積）」並明確標註風險層級再給建議。[^4]
 - **多發結節規則（易被忽略的判讀點）**：多發時以「最可疑結節」的大小分層，且追蹤時程較單發更早——多發 6–8 mm 於 3–6 個月即追蹤（單發為 6–12 個月）。見多發結節不可套用單發時程。[^4]
-- **惡性風險徵象的判讀（影響風險分層）**：ACCP 高風險因子含重度吸菸、上肺葉位置（upper lobe location）、邊緣毛刺（spiculation）、高齡、肺纖維化（尤其 IPF）、石綿等暴露、肺癌家族史；低風險為年輕、少吸菸。**上肺葉位置為高風險而非低風險**是常見混淆點——判讀時見上肺葉毛刺結節應上調風險層級。[^3]
+- **惡性風險徵象的判讀（影響風險分層）**：Fleischner 2017 之高風險定義為「預估惡性癌症風險 > 5%」，因子含重度吸菸、上肺葉位置（upper lobe location）、邊緣不規則或毛刺（spiculation）、高齡、肺纖維化（尤其 IPF）、石綿等暴露、肺癌家族史；低風險為年輕、少吸菸。**上肺葉位置為高風險而非低風險**是常見混淆點——判讀時見上肺葉毛刺結節應上調風險層級。[^3][^5]
+- **多發性與惡性風險的判讀（出處校正）**：結節數 1→4 顆時原發癌風險上升、≥5 顆時風險反降（≥5 顆多源自既往肉芽腫感染而非惡性）——此多發性數據出自 Fleischner 2017 原文，原文引用的是 **NELSON trial**（非 PanCan model）；報告或概念引用宜標為 NELSON，勿誤植為 PanCan。[^5]
 - **版本時效的判讀提醒**：2005 舊版自 ≤4 mm 起分層、門檻較低；2017 版將實質結節多改自 6 mm 起追蹤並引入體積與多發規則。同一結節在新舊版建議可能不同，報告應以現行 2017 版為準。[^1][^2][^4]
 
 ## ACCP 肺癌風險因子分類（Fleischner 2017 所採用）
@@ -58,6 +59,7 @@ dateRev: 2026-07-10
 [^2]: MacMahon H et al. Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017. **Radiology** 2017;284(1):228-243（2017 更新版，門檻與規則改變）。
 [^3]: 2019 交換考詳解；MacMahon H, Naidich DP, Goo JM, Lee KS, Leung ANC, Mayo JR, Mehta AC, Ohno Y, Powell CA, Prokop M, Rubin GD, Schaefer-Prokop CM, Travis WD, Van Schil PE, Bankier AA. Fleischner Society 2017 guidelines, Radiology 2017;284(1):228-243（ACCP 風險因子分類段落）。
 [^4]: 官方2020詳解；Updated Fleischner Society Guidelines for Managing Incidental Pulmonary Nodules: Common Questions and Challenging Scenarios, RadioGraphics Vol. 38, No. 5（題目所引）；並 MacMahon H et al. *Guidelines for Management of Incidental Pulmonary Nodules Detected on CT Images: From the Fleischner Society 2017*. Radiology. 2017 Jul;284(1):228-243（2018 交換考題詳解 p.165 引用；Tier 1 影像期刊，Table A: Solid Nodules）。指引適用35歲以上偶見結節；排除35歲以下、已知惡性病史、免疫低下、肺癌篩檢族群。Table A（Solid Nodules）：單發低風險<6mm不需常規追蹤；單發高風險<6mm可選擇性12個月追蹤；單發6-8mm先6-12個月後18-24個月追蹤；單發>8mm考慮3個月/PET-CT/切片；多發低風險<6mm不需常規追蹤，6-8mm先3-6個月後視情況18-24個月；多發高風險<6mm可選擇性12個月，6-8mm先3-6個月後18-24個月。
+[^5]: **Radiopaedia（snippet/403）** *Fleischner Society pulmonary nodule recommendations*. Radiopaedia.org, rID 13541, DOI [10.53347/rID-13541](https://doi.org/10.53347/rID-13541)（搜尋摘要 accessed 2026-07-12；正文未取得）——高風險定義為「預估惡性癌症風險 > 5%」，風險因子包含高齡、重度吸菸、結節邊緣不規則或毛刺（spiculation）、上葉位置。**多發性數據出處校正**：2021-307 所述多發結節數 1→4 顆原發癌風險上升、≥5 顆風險反降，Fleischner 2017 原文引用的是 **NELSON trial**（非 PanCan model）；若他處標註「NELSON／PanCan」建議改標為 NELSON。既有 Radiology 2017 [^2] Tier-1 一手來源已足支撐此段。
 
 ## 題目
 > [!question]- 關於 Fleischner 小肺結節 CT 追蹤指引,何者「不正確」? (2017-179)

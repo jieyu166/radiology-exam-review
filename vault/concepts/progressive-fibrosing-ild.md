@@ -9,7 +9,7 @@ aliases:
   - PPF
   - progressive phenotype
   - 進行性纖維化間質肺病
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[ipf]]"
   - "[[interstitial-lung-abnormalities]]"
@@ -30,7 +30,8 @@ same:
 
 ## 放射科醫師影像判讀重點
 - **判讀主軸 = 序列 HRCT 對比**：PPF 的「影像進展」需以**同一病人不同時間點的 HRCT 比對**認定，非單張判讀;報告應明列與前次的可比較切面與變化方向。[^3]
-- **纖維化擴大的可靠 marker（依序）**：**牽引性支氣管／細支氣管擴張的範圍或管徑增加**最早且與預後相關;其次為新增或擴大的**網狀陰影（reticulation）**與**蜂窩化（honeycombing）**;honeycombing 出現太晚，不宜當早期進展指標。[^3]
+- **纖維化擴大的可靠 marker（依序）**：**牽引性支氣管／細支氣管擴張的範圍或管徑增加**為最早、最可靠之進展 marker，與預後相關;其次為新增或擴大的**網狀陰影（reticulation）**與**蜂窩化（honeycombing）**。文獻並列說明：**新增蜂窩化雖為預後不良之標記，但出現時機偏晚**，故不宜當早期進展指標——早期靠牽引擴張、預後看蜂窩化。[^3][^4]
+- **影像監測角色與指引空白**：PPF 與 ILA 之連續 HRCT 監測在現行指引仍有空白，辨識早期進展徵象並正確歸類 ILA 是優化 ILD 處置的關鍵;放射科逐次目視比對目前仍不可取代。[^4]
 - **鑑別「慢性進展」vs「急性惡化」**：新出現、快速變化的**磨玻璃陰影（GGO）／實變**要先想**急性惡化（AE）、感染、心衰竭肺水腫、藥物性肺毒性**，不可逕自歸為 PPF 慢性纖維化進展——處置方向完全不同。[^3]
 - **型態辨識影響治療**：先辨識底層型態（UIP-like 牽引擴張＋蜂窩 vs 非 UIP 的 GGO 為主），再判定是否符合 PPF;抗纖維化藥（nintedanib）用於「初始治療後仍進展」者。[^3]
 - **AI/定量 HRCT 尚待驗證**：自動化 HRCT 定量為未來工具，目前尚未取代放射科醫師逐次目視比對。[^3]
@@ -49,6 +50,7 @@ same:
 [^1]: Raghu G et al. *Idiopathic Pulmonary Fibrosis and Progressive Pulmonary Fibrosis (PPF) — ATS/ERS/JRS/ALAT Clinical Practice Guideline*. Am J Respir Crit Care Med 2022;205(9):e18-e47：PPF＝非 IPF 纖維化 ILD,過去一年 ≥2/3（症狀惡化／FVC↓≥5% 或 DLCO↓≥10%／影像惡化）;非 IPF ILD 約 1/3 進展。（**provenance**：本概念整合自演講筆記《Imaging for ILD》吳銘庭 2021-01-23。）
 [^2]: 纖維化進展影像 marker（牽引性支氣管擴張變化早於 honeycombing、與 mortality 相關）：ILD 進展評估文獻（與 [[ipf]] UIP criteria 配合判讀）。
 [^3]: **Tier 1** Rajan SK, Cottin V, Dhar R, ... Kolb M, Wells AU. *Progressive pulmonary fibrosis: an expert group consensus statement*. Eur Respir J 2023;61(3):2103187（據 PubMed，DOI [10.1183/13993003.03187-2021](https://doi.org/10.1183/13993003.03187-2021)；實際查證 accessed 2026-07-04）——ERJ 專家共識:標準化 F-ILD／PPF 定義;PPF 影像進展需序列 HRCT 比對，牽引性支氣管擴張增加為可靠 marker;PPF 須與藥物性肺毒性、急性惡化區分;初始治療失敗後早期用抗纖維化藥（nintedanib）。原「演講筆記」弱來源已由本次 DOI Tier 1 查核升級。
+[^4]: **Tier 1（摘要）** Kanne JP, Walker CM, Brixey AG, et al. *Progressive Pulmonary Fibrosis and Interstitial Lung Abnormalities: Expert Panel Narrative Review*. AJR 2024;224(3):e2431125（DOI [10.2214/AJR.24.31125](https://doi.org/10.2214/AJR.24.31125)，PMID 38656115；摘要 accessed 2026-07-12）——PPF/ILA 之影像監測角色與現行指引空白；辨識 PPF 進展徵象並正確歸類 ILA，為優化 ILD 處置之關鍵。（**Radiopaedia**：無專屬 PPF 條目，最接近者為 interstitial fibrosis 一般條目及教學 rPoster，未取得專屬 rID。）
 
 ## 題目
 > [!question]- 有關 progressive fibrosing interstitial lung disease (PF-ILD) 之敘述何者錯誤? (2021-226)

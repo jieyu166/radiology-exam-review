@@ -8,7 +8,7 @@ aliases:
   - poststenotic dilatation
   - congenital absent pulmonary valve
   - 主肺動脈擴大
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # pulmonary-artery-enlargement
@@ -27,7 +27,10 @@ dateRev: 2026-07-10
   - **特發性肺動脈擴張**。
 
 ## 放射科醫師影像判讀重點
-- **量測標準**：**CT 主肺動脈幹 >3 cm**、**主肺動脈:升主動脈比值 ≥1** 支持肺動脈擴大（後者與 PAH 相關）；PAH 之確診為右心導管**靜息 mPAP ≥25 mmHg**（新指引已改 >20，考題多沿用 25）。[^1]
+- **量測標準**：**CT 主肺動脈幹 >3 cm**、**主肺動脈:升主動脈比值 >1** 支持肺動脈擴大（後者與 PAH 相關）；PAH 之確診為右心導管**靜息 mPAP ≥25 mmHg**（新指引已改 >20，考題多沿用 25）。[^1]
+- **正常上限的精確值與性別相依**：main PA 正常上限一般取 **≈29 mm**（Framingham 世代 男 28.9 mm／女 26.9 mm，呈性別相依）；惟各家研究上限落在 **27–30 mm** 之間有分歧，判讀時宜並列理解、勿死記單一數字。[^4]
+- **多量測指標互補**：除 main PA 徑外，**主肺動脈:升主動脈 >1**（於 <50 歲更具特異性）、**segmental artery:bronchus 比值 >1 且見於 ≥3 個肺葉**皆支持肺高壓;綜合多指標優於單一徑值。[^3][^4]
+- **單一 main PA 徑之診斷效能**：僅憑 main PA >29 mm 判定肺高壓之**敏感度中等（約 50%）、特異度較高（約 85%）**——徑值正常不能排除、須結合心臟徵象與其他比值綜合判讀。[^4]
 - **Hilum convergence sign（關鍵鑑別）**：**負號（血管分支導向肺門陰影）＝肺動脈擴大**；**正號（分支可穿過陰影被看見）＝肺門腫塊/腫大淋巴結**——用以把「大血管」與「腫塊」分開。[^1]
 - **依伴隨徵象縮小病因**：中央擴大＋周邊 pruning→PAH；主+左肺動脈不成比例＋RV 大→瓣膜性 PS 狹窄後擴張；RA/RV 大＋肺血流增→ASD；壁增厚/動脈瘤＋主動脈受累→Takayasu；左房大→二尖瓣病變。[^1]
 - **PVOD/肺微血管血管瘤病**：罕見 PAH 病因，見**小葉間隔增厚＋中心小葉毛玻璃、肺微血管楔壓正常**——PAH 徵象但實質異常時要想到。[^1]
@@ -46,6 +49,8 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: **Tier 1** Bueno J. *Pulmonary Artery Enlargement*（Chest, Pulmonary Arteries, DDx）. STATdx，last updated 2020-02-05. Elsevier（實際查證 accessed 2026-07-03）：CT 主肺動脈幹 >3 cm、主肺動脈:升主動脈 ≥1；hilum convergence sign（負號=PA 擴大、正號=肺門腫塊）；病因 PAH（mPAP≥25、中央擴大+周邊 pruning）、瓣膜性 PS 狹窄後擴張（主+左 PA 不成比例+RV 大）、ASD（增流+RA/RV 大）、Takayasu（壁增厚/動脈瘤）、PA 動脈瘤（特發±瓣膜逆流/Behçet/黴菌）、二尖瓣病變、PVOD/肺微血管血管瘤病。
 [^2]: 官方 2020 詳解（題目所引）；原引 Webb WR, Higgins CB. *Thoracic Imaging: Pulmonary and Cardiovascular Radiology*. LWW 2005, p.675——主肺動脈擴大病因含肺動脈高壓、肺血流過多、肺動脈瓣狹窄/逆流、先天性肺動脈瓣缺失、左側心包缺如、肺動脈瘤、特發性肺動脈擴張，已由 [^1] STATdx 一手來源查核並補強量測標準與 hilum convergence sign。
+[^3]: **Radiopaedia（snippet/403）** *Idiopathic pulmonary arterial hypertension*. Radiopaedia.org, rID 8845（正文 403、DOI 未取得；搜尋摘要 accessed 2026-07-12）——main PA >3 cm 提示肺高壓、main PA:aorta >1 為 CTPA 最常見徵象、周邊血管 pruning。
+[^4]: **Tier 1（snippet/引用級）** Peña E, Dennie C, Veinot J, et al. *Pulmonary Hypertension: How the Radiologist Can Help.* / *From CT to Clinical Diagnosis.* RadioGraphics 2018（DOI [10.1148/rg.2018170046](https://doi.org/10.1148/rg.2018170046)；搜尋 snippet，全文需登入 accessed 2026-07-12）——main PA >29 mm、PA:ascending aorta >1、segmental artery:bronchus >1 為 CT 提示肺高壓之量測指標。main PA 正常上限一手數據：Framingham 世代 男 28.9 mm／女 26.9 mm（Truong QA, et al. Circ Cardiovasc Imaging 2012, DOI 10.1161/CIRCIMAGING.111.968610，**非白名單**）；PA:AA >1 之出處 Ng CS, et al. J Thorac Imaging 1999（PMID 10524808，**非白名單**）。
 
 ## 題目
 > [!question]- The etiology of enlargement of main pulmonary artery includes (2020-311)
