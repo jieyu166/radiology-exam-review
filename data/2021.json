@@ -2716,7 +2716,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1411 (Table 2)；2021 交換考官方詳解 PDF p399",
-      "explanation": "? 答案應該是AB. C會被強化.\nRadiographics. 2015 Nov-Dec;35(7):1955-64.\n- THI reduces: reverberation artifact, side lobe artifact, and grating lobe artifact,\n- THI enhances: acoustic enhancement deep to fluid (useful for depicting cysts), **acoustic shadowing**, and comet-tail artifact.\n\n【2021 官方詳解】\nANS: A.B\nC: imaging with increased frequency probes and using THI will increase\nshadowing\n\n⚠️ 本題含影像（官方詳解 PDF 第 399 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。（此為答案卷標記，本題屬爭議題。）\n組織諧波成像（THI）利用超音波在組織內非線性傳播所生的諧波成像，因諧波於淺層/體壁能量低、需累積至較深處才建立，故能壓抑近場雜訊，減少 (A) grating lobe 與 (B) reverberation 等偽影，同時提升訊噪比與側向解析度。\n然而 (C) acoustic shadowing（聲影）反而會被 THI 與高頻探頭強化，並非被減少；因此嚴格而言「以上皆是」並不成立，官方詳解實際判為 A、B 兩項。\n判讀重點：THI 抑制的是散射/旁瓣類偽影，對聲影則是加強。\n→ [[tissue-harmonic-imaging]]",
       "images": [
         "2021-067-2.png",
         "2021-067-3.png"
@@ -2765,7 +2765,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Ultrasound: The Requisites E-Book P19-27；2021 交換考官方詳解 PDF p37",
-      "explanation": "【2021 官方詳解】\nD. When a sound pulse intereacts with gas bubbles, it excites the fluid that is trapped between the bubbles and causes fluid to resonate (or ring)…. Metal is also capable of producing a ring-down artifact.",
+      "explanation": "答案 D。本題要選「錯誤」敘述。\n(D)「金屬無法產生 ring-down 偽影」為錯——ring-down 源自聲束打到被困住的氣泡/氣體使其共振、向探頭連續發射回音，而金屬同樣能造成類似的 ring-down 樣偽影，故此敘述不成立。\n其餘皆正確：(A) 組織對聲波的衰減差異，會在高衰減結構後方造成聲影、在低衰減結構（如囊腫）後方造成後方增強；(B) 大而平滑的強反射界面可把結構鏡射到對側等距處，形成 mirror image 偽影；(C) reverberation 為聲束在兩平行強反射面間來回反射，多出現在近場、造成假回音。\n→ [[ultrasound-artifacts]]",
       "images": [],
       "concepts": [
         "ultrasound-artifacts"
@@ -2803,7 +2803,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Clinical Significance of US Artifacts. Radiographics 2017; 37. p.1421 (Table 2, Table 3)；2021 交換考官方詳解 PDF p401",
-      "explanation": "SCI有 paper說可改善，但器官太大就會沒效。(Vet Radiol Ultrasound. 2010 Nov-Dec;51(6):621-7.)\n\n⚠️ 本題含影像（官方詳解 PDF 第 401 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題要選「無法」被空間複合成像（SCI）減少的偽影。\nSCI 以陣列探頭多角度掃描同一組織再平均，對角度或散射相關的偽影較有效：(A) comet-tail、(B) ring-down 與 (C) acoustic shadowing 皆屬與入射角度或散射有關者，較能被多角度平均削弱。\n(D) increased through transmission（即後方增強）本質是聲束穿過低衰減結構後、深部回音相對增強的「真實」訊號，反映組織成分、與入射角度無關，故在（尤其大器官）情境下最不受 SCI 角度平均影響，官方取為正解。\n⚠️ 惟需知 Tier-1 文獻指出 SCI 對 enhancement 與 shadowing 偽影「亦可能」減少，故本題答案僅在特定情境成立，屬弱題。\n→ [[ultrasound-artifacts]]",
       "concepts": [
         "ultrasound-artifacts"
       ],
@@ -4210,7 +4210,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Ultrasound: The Requisites E-Book P10-13；2021 交換考官方詳解 PDF p36",
-      "explanation": "【2021 官方詳解】\nB. The power output determines the strength of the pulses that is transmitted. When the transmitted pulse is stronger, the returning echoes are stronger, and the resulting image is brighter.\n\n⚠️ 疑似與 2021-068 為同一題（相似度 0.854），請醫師確認是否合併。",
+      "explanation": "答案 B。本題要選「錯誤」敘述。\n(B)「發射脈波越強、影像越暗」為錯——發射功率（output power）決定發射脈波的強度，脈波越強→返回回音越強→影像越亮（而非變暗）；此與接收端增益（gain）僅放大回音的機轉不同。\n其餘皆正確：(A) 表淺構造應以高頻探頭掃描以取得較佳解析度；(C) overall gain 與發射功率類似，通常以最大值百分比或分貝（dB）顯示；(D) 多層聚焦可改善側向解析度，但每條掃描線需多次發射，代價是 frame rate 下降。\n→ [[ultrasound-physics-basics]]",
       "images": [],
       "concepts": [
         "ultrasound-physics-basics"
@@ -4248,7 +4248,7 @@
       ],
       "correctAnswer": "A",
       "reference": "General and Vascular Ultrasound: Case Review Series E-Book P6；2021 交換考官方詳解 PDF p38",
-      "explanation": "【2021 官方詳解】\nA. 相反. The main difference between color and power is that color uses frequency; power uses amount of signal.",
+      "explanation": "答案 A。本題要選「錯誤」敘述。\n(A) 把兩者說反了——彩色都卜勒（color）以平均頻移（mean frequency shift）編碼，能量都卜勒（power）則以訊號振幅（amount of signal/power）編碼，故「color 用訊號量、power 用頻率」為錯。\n其餘皆正確：(B) 兩者對快速血流敏感度相當，但 power 因振幅編碼、不依賴角度，對慢速血流更敏感；(C) 相較 power，color 的優勢在於能提供血流方向資訊；(D) power 都卜勒仍會有偽影（如運動造成的 flash artifact）。\n→ [[color-vs-power-doppler]]",
       "images": [],
       "concepts": [
         "color-vs-power-doppler"
@@ -4286,7 +4286,7 @@
       ],
       "correctAnswer": "B",
       "reference": "General and Vascular Ultrasound: Case Review Series E-Book P14；2021 交換考官方詳解 PDF p39",
-      "explanation": "【2021 官方詳解】\nB. The sign suggests either a large gallstone or multiple small gallstones filling the lumen of a contracted or incompletely visualized gallbladder.\nThe wall-echo-shadow sign (also known as WES sign) is an ultrasonographic finding within the gallbladder fossa:\n  - a curvilinear hyperechogenic line representing the gallbladder wall a thin hypoechoic space representing a small amount of bile\n  - a curvilinear hyperechogenic line representing the near surface of gallstone(s)\n  - and acoustic shadowing distal to the surface of the gallstone(s)\nThe sign suggests either a large gallstone or multiple small gallstones filling the lumen of a contracted or incompletely visualized gallbladder. Recognizing this finding helps to avoid misinterpretation of a stone-filled gallbladder as a loop of bowel.",
+      "explanation": "答案 B。本題要選「錯誤」敘述。\n(B)「WES（wall-echo-shadow）徵象出現於結石很小時」為錯——WES 徵象代表膽囊被結石幾乎完全填滿（單顆大結石或多顆小結石填滿收縮的膽囊腔），呈膽囊壁高回音→薄層低回音膽汁→結石表面高回音→其後濃密聲影，並非「結石小」時的表現。\n其餘皆正確：(A) 後方聲影為膽結石的主要超音波影像特徵之一；(C) 都卜勒下結石可呈 twinkle artifact，有助偵測小結石；(D) 膽結石本身傾向乏血流。\n→ [[cholelithiasis-ultrasound]]",
       "images": [],
       "concepts": [
         "cholelithiasis-ultrasound"
@@ -4324,7 +4324,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Ultrasound E-Book P93-95；2021 交換考官方詳解 PDF p40",
-      "explanation": "【2021 官方詳解】\nC. Regenerating nodules have similar architecture to the normal liver…. Tend to be isoechoic or hypoechoic with a thin, echogenic border that corresponds to fibrofatty connective tissue.",
+      "explanation": "答案 C。本題要選「非」肝硬化超音波徵象/敘述有誤者。\n(C) 錯在「邊界」的描述——再生結節與正常肝結構相近，傾向 isoechoic 或 hypoechoic，且帶一圈薄的「高回音（echogenic）」邊界（對應纖維脂肪結締組織），而非題目所述的低回音（hypoechoic）邊界。\n其餘皆為肝硬化徵象：(A) 尾葉相對右葉的寬度比可作為硬化指標（尾葉因獨立靜脈回流而代償肥大）；(B) 表面結節狀對應再生結節與纖維化；(D) 肝硬化病人進食後肝動脈阻力指數（RI）正常應上升的反應被鈍化。\n→ [[cirrhosis-ultrasound]]",
       "images": [],
       "concepts": [
         "cirrhosis-ultrasound"
@@ -7516,7 +7516,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Postoperative Imaging in Liver Transplantation: What Radiologists Should Know1    RadioGraphics 2010; 30:339–351；2021 交換考官方詳解 PDF p141",
-      "explanation": "【2021 官方詳解】\nUS findings of a venous pulsatility index of less than 0.45 and monophasic waveforms in the hepatic veins are indicative of hepatic vein stenosis",
+      "explanation": "答案 D。本題要選「錯誤」敘述。\n(D) 的概念方向雖對（肝靜脈呈 monophasic 且指數 <0.45 提示肝靜脈狹窄），但參數用錯了——正確應為「靜脈搏動指數（venous pulsatility index）<0.45」，而非題目所寫的「resistance index（RI）」；RI 用於評估動脈、不用於肝靜脈，故此敘述有誤。\n其餘皆正確：(A) 吻合處收縮期峰值流速升高＋肝內動脈 tardus-parvus 波形提示肝動脈狹窄；(B) 吻合處局部 color aliasing＋流速較狹窄前段增加逾 3 倍提示門靜脈狹窄；(C) 肝靜脈維持 biphasic/triphasic 波形代表流出道通暢。\n→ [[liver-transplant-doppler]]",
       "images": [],
       "concepts": [
         "liver-transplant-doppler"
@@ -13026,7 +13026,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p166；2021 交換考官方詳解 PDF p305",
-      "explanation": "【2021 官方詳解】\n- increased peak systolic velocity (PSV): some advocate 180 cm/s\n- increased renal-interlobar ratio (RIR), i.e. PSVrenal artery (intrastenotic)/PSVinterlobar (distal): some advocate values greater than 5\n- increased renal-aortic ratio (RAR), i.e. PSVrenal/PSVaorta: usually taken as >3.5, although some advocate >3 or even >2\n  - ​lower cut off values increase sensitivity, but decrease specificity\n- turbulent flow in a post-stenotic area\n- pulsus parvus tardus waveform due to stenosis\n- decreased (interlobar) renal arterial resistive index (RI): <0.55 in severe stenosis\n- resistive index difference between kidneys >5 %\n- intraparenchymal acceleration time >0.07 s\n- acceleration index (AI): lower than 3 m/s",
+      "explanation": "答案 C。腎動脈狹窄的都卜勒直接徵象，是狹窄處收縮期峰值流速（PSV）超過約 180 cm/s（部分文獻取 >200 cm/s 對 ≥60% 狹窄更具特異性），故 (C) 180 cm/s 為常用的起始閾值。\n(A) 90 與 (B) 135 cm/s 均低於此閾值、不足以提示狹窄；(D) 230 cm/s 雖確實超過，但已高於常用的判定起點，非本題所問的「起始」閾值。\n判讀時可再輔以 renal-aortic ratio >3.5、狹窄後亂流與下游葉間動脈的 tardus-parvus 波形（acceleration time >0.07 s）綜合研判。\n→ [[renal-artery-stenosis]]",
       "images": [],
       "concepts": [
         "renal-artery-stenosis"
@@ -13064,7 +13064,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p85；2021 交換考官方詳解 PDF p306",
-      "explanation": "【2021 官方詳解】\nUS contrast agent\nAt a low MI (< 0.2), bubbles are in harmonic motion\nAt a higher MI (>0.3), bubbles are disrupted & emit a strong, highly nonlinear echo.\nMechanical index = peak negative pressure / √(center frequency of the US beam)\nMI => proportional to an ultrasound beam's peak negative pressure (or peak rarefaction pressure).\n=> inversely proportional to the frequency of the beam\npeak negative pressure: an attenuation factor to account for in-tissue acoustic attenuation",
+      "explanation": "答案 A。超音波對比劑微泡的直徑約 1–8 μm，遠小於超音波波長，屬次波長（Rayleigh）散射體，其反射率／後向散射強度主要取決於「頻率（frequency）」——理想 Rayleigh 散射強度隨頻率急遽增加（約與 f⁴ 成正比），微泡又具共振頻率使此頻率相依性更明顯。\n(B) frame rate、(C) imaging depth 與 (D) contrast resolution 屬成像顯示或設定參數，與小粒子本身的反射率無直接關係，故非正解。\n→ [[ceus-microbubble-agents]]",
       "images": [],
       "concepts": [
         "ceus-microbubble-agents"
@@ -13102,7 +13102,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology： Edition 2 p241；2021 交換考官方詳解 PDF p307",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 307 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】維持答案 D。醫師說明：軟組織脂肪瘤回音多變（hypoechoic 到 hyperechoic 皆可），臨床上與旁邊 subcutaneous fat 相比相對呈 hypoechoic，故本題答 D。",
+      "explanation": "答案 D。軟組織脂肪瘤的回音表現多變，從 hypoechoic 到 hyperechoic 皆可能——相對於肌肉多呈 isoechoic 或 hyperechoic，但相對於周邊的皮下脂肪則常呈相對低回音，故腹前壁脂肪瘤在臨床上多以 hypoechoic mass 呈現，本題取 (D)。\n判讀上，脂肪瘤典型為橢圓形、長軸與皮膚平行、內含與皮膚平行的線狀高回音、可壓縮且乏血流。\n(A) anechoic 屬純囊性病灶表現、(B) complex mass 指囊實混合、(C) hyperechoic 雖可見但非本題腹壁脂肪瘤最常見的表現，故皆非正解。\n→ [[soft-tissue-lipoma-ultrasound]]",
       "images": [
         "2021-322-1.png"
       ],
@@ -13142,7 +13142,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Diagnostic Imaging Pediatrics second edition p4-55；2021 交換考官方詳解 PDF p308",
-      "explanation": "【2021 官方詳解】\nDiame­ter of a single muscular wall (hypoechoic component) on a transverse image: >3 mm (most accurate)\npyloric transverse diameter: >13 mm\nlongitudinal measurement: >15-17 mm\npyloric volume: >1.5 cm3\nπ = 3.1415\nDiame­ter of a single muscular wall on a transverse image >3 mm (most accurate )\npyloric transverse diameter ≥14 mm length\nlongitudinal measurement >15 mm",
+      "explanation": "答案 D。本題要選「非」肥厚性幽門狹窄（HPS）超音波徵象者。\nHPS 以形態學量測診斷：(A) 單層肌壁厚度 >3 mm（最準確的單一指標）、(B) 幽門管長度 >16 mm（正常上限約 15 mm）、(C) 幽門橫徑增大（約 >14 mm），皆為公認切點。\n(D)「血流減少」並非診斷條件——肥厚肌層的血流可正常甚至增加，故此項不是 HPS 的判讀徵象。\n臨床背景為 2–8 週男嬰、非膽汁性噴射狀嘔吐，動態掃描可見胃內容物無法通過固定不開的幽門管。\n→ [[pyloric-stenosis]]",
       "images": [],
       "concepts": [
         "pyloric-stenosis"
@@ -13180,7 +13180,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2018; 38:p1586；2021 交換考官方詳解 PDF p309",
-      "explanation": "【2021 官方詳解】\nC: ill-defined\nUS of adenomyosis:\n\"Venetian blind 百葉窗\" or \"rain shower\" appearance (linear striations, parallel shadowing)\ncirrhosis of the uterus (ill-defined)\n\"adeno\":\n- subendometrial echogenic linear striations and/or nodules (specific sign), extending from endometrium\nand into inner myometrium\n- hyperechoic islands\n- tiny (1-5 mm) anechoic myometrial and subendometrial cysts (specific sign)\n\"myosis\":\n- focal or diffuse myometrial bulkiness, which may be asymmetric\ntypically of the fundal region and posterior wall\n- Vascularity: increased\nincreased number of tortuous vessels penetrating myometrium\n\n⚠️ 本題含影像（官方詳解 PDF 第 309 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。本題要選「非」子宮腺肌症（adenomyosis）典型超音波徵象者。\n腺肌症本質是異位子宮內膜浸潤肌層的病變，邊界不清（ill-defined），故 (C)「邊界清楚（distinct border）」並非其典型表現——邊界清楚的圓形腫塊反而應想 leiomyoma。\n其餘皆為典型腺肌症 US 表現：(A) 肌層內微小囊泡與囊狀條紋；(B) 血流增加（迂曲血管穿入肌層）；(D) 異質回音伴結節與條紋，呈 Venetian blind（百葉窗）/rain-shower 樣平行聲影。\n→ [[adenomyosis-mri]]",
       "images": [
         "2021-324-1.png"
       ],
@@ -15207,7 +15207,7 @@
       ],
       "correctAnswer": "D",
       "reference": "ACR Thyroid Imaging, Reporting and Data System (TI-RADS): White Paper of the ACT TI-RADS Committee. J Am Coll Radiol 2017;14:587-595；2021 交換考官方詳解 PDF p403",
-      "explanation": "【2021 官方詳解】\nmacrocalcifications: 1 point\nperipheral/rim calcifications: 2 points\npunctate echogenic foci: 3 points\nANS:Ｃ\n\n⚠️ 本題含影像（官方詳解 PDF 第 403 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。（此為答案卷標記；依 ACR TI-RADS 點數邏輯與官方詳解，正解實為 C＝3>2>1，本題屬答案存疑題。）\nACR TI-RADS 對 echogenic foci 的給分為：punctate echogenic foci（微鈣化）3 分 ＞ peripheral/rim calcification（周邊/環狀鈣化）2 分 ＞ macrocalcification（巨鈣化）1 分，分數越高代表惡性風險越高。\n故三者惡性風險由高到低應為 3（punctate）>2（rim）>1（macro），對應選項 C；選項 D（3>1>2）將 macrocalcification 與 rim calcification 的順序顛倒，與點數不符。\n→ [[ti-rads]]",
       "images": [
         "2021-373-1.png"
       ],
