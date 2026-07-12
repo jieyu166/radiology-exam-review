@@ -6,7 +6,7 @@ aliases:
   - cardiac amyloidosis MRI
   - amyloid heart disease
   - 心臟類澱粉沉積
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[cardiomyopathy-mri]]"
 ---
@@ -21,8 +21,9 @@ same:
 - **室壁運動不能（ventricular wall akinesia）**：**非**典型描述特徵——心臟類澱粉沉積早期心肌收縮力多仍保留（僅舒張功能受損為主），室壁運動不能並非用於描述本病之典型影像表現。[^1]
 
 ## 放射科醫師影像判讀重點
-- **延遲強化（LGE）判讀核心**：類澱粉沉積造成細胞外空間擴大，釓對比劑滯留，典型呈**瀰漫性心內膜下（subendocardial）或透壁性（transmural）LGE**，且**不依冠狀動脈血管分佈**——此點是與心肌梗塞（沿冠脈區域、心內膜下起始）鑑別的關鍵。[^1]
-- **對比劑動力學陷阱（nulling 異常）**：因心肌與血池同時大量攝取釓，設定 TI（inversion time）做心肌 nulling 時，心肌與血池訊號常「同步變黑、難以獨立歸零」，此「血池與心肌無法正常歸零」本身即是類澱粉的重要提示徵象。[^1]
+- **延遲強化（LGE）判讀核心**：類澱粉沉積造成細胞外空間擴大，釓對比劑滯留，典型呈**瀰漫性心內膜下（subendocardial）或透壁性（transmural）LGE**，且**不依冠狀動脈血管分佈**——此點是與心肌梗塞（沿冠脈區域、心內膜下起始）鑑別的關鍵；並伴 **native T1／ECV 升高**。[^1][^2]
+- **對比劑動力學陷阱（nulling 異常）**：因心肌與血池同時大量攝取釓，設定 TI（inversion time）做心肌 nulling 時，心肌與血池訊號常「同步變黑、難以獨立歸零」，此 **dark blood pool sign**（血池與心肌無法正常歸零）本身即是類澱粉的重要提示徵象。[^1][^2]
+- **核醫分型（99mTc-PYP 骨掃描）**：對 **ATTR 型**心臟類澱粉具高攝取，為非侵入性分型工具（H/CL ratio、Perugini grade），可與 AL 型鑑別並免除切片。[^2]
 - **形態學**：**心室壁瀰漫性增厚**（常合併心房壁與房間隔增厚、瓣膜增厚、心包/胸腔積液），但**QRS 電壓不高**（假性肥厚），與真正的肥厚性心肌病（HCM，多為非對稱間隔肥厚且電壓高）不同。[^1]
 - **功能學重點**：早期**收縮功能（EF）多仍保留、以舒張功能受損（restrictive pattern）為主**；故「室壁運動不能（akinesia）」不是本病的典型描述——考點正解即在此。[^1]
 - **鑑別診斷（浸潤性/肥厚性心肌病）**：HCM（非對稱間隔肥厚、LGE 多在右室插入點與肥厚處）、高血壓性心臟病（對稱肥厚但無瀰漫 LGE）、Fabry disease（下側壁中層 LGE、T1 mapping native T1 偏低，與類澱粉之 native T1 偏高相反）、心肌炎（心外膜下/中層 LGE）。[^1]
@@ -38,7 +39,8 @@ same:
 > **室壁運動不能（akinesia）非**典型描述；透壁性/心內膜下延遲強化與室壁增厚皆為典型表現。[^1]
 
 ### 參考來源
-[^1]: *RadioGraphics* 2015;35:1381-1392（2018 交換考題詳解 p.107 引用；Tier 1 影像期刊）。心臟類澱粉沉積MRI典型表現含透壁性或心內膜下延遲強化、心室壁增厚；室壁運動不能非用於描述本病之典型表現特徵。
+[^1]: *RadioGraphics* 2015;35:1381-1392（DOI [10.1148/rg.2015140033](https://doi.org/10.1148/rg.2015140033)；2018 交換考題詳解 p.107 引用；Tier 1 影像期刊）。心臟類澱粉沉積MRI典型表現含透壁性或心內膜下延遲強化、心室壁增厚；室壁運動不能非用於描述本病之典型表現特徵。
+[^2]: **Radiopaedia（snippet/403，未實讀全文）** *Cardiac amyloidosis*. Radiopaedia.org（主文 rID 未取得／403；相關 99mTc-PYP case rID 186531, DOI [10.53347/rID-186531](https://doi.org/10.53347/rID-186531)；搜尋摘要 accessed 2026-07-12）——global subendocardial（非冠狀動脈分布）LGE、dark blood pool sign、native T1／ECV 升高、99mTc-PYP 骨掃描分型 ATTR；分型 AL（免疫球蛋白輕鏈）vs ATTR（wild-type／hereditary）。
 
 ## 題目
 > [!question]- About manifestations of cardiac amyloidosis, which is wrong? (2018-048)

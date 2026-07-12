@@ -7,7 +7,7 @@ aliases:
   - aortic valve area
   - TAVI TAVR
   - 主動脈瓣狹窄
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # aortic-stenosis
@@ -15,7 +15,7 @@ dateRev: 2026-07-10
 **主動脈瓣狹窄用CT評估瓣口面積時，要在「收縮中期（midsystole）」取像——此時瓣膜開啟、相對靜止，能量測最大開口。用ECG-gated cardiac CTA的『舒張期』取像量瓣口是錯誤的（舒張期瓣膜關閉）。這是本題陷阱。其餘：AS好發70歲以上老人、severe AS瓣口<1cm²(<100mm²)常伴嚴重鈣化、最新治療為經導管置換人工瓣膜(TAVI/TAVR)。**
 
 ## Summary
-- **流行病學**：**好發於70歲以上老人**（退化性鈣化性AS）。[^1]
+- **流行病學**：**好發於70歲以上老人**（退化性鈣化性AS）；為最常見的原生瓣膜病，男性優勢約 4:1，並與 Heyde syndrome（胃腸血管發育不良併後天型 von Willebrand 缺乏）相關。[^1][^4]
 - **Severe AS定義**：瓣口面積**<1 cm²（<100 mm²）**、常伴嚴重瓣膜鈣化；壓力梯度>40 mmHg。（Critical：梯度>80 mmHg、瓣口<0.5 cm²）。[^1]
 - **CT評估時相（本題重點）**：以ECG-gated cardiac CTA評估瓣口/狹窄程度時，應於**收縮中期（midsystole）**取像——此時瓣膜開啟、相對靜止（valve cusps open and relatively quiescent），可準確量測最大瓣口；**「舒張期取像」錯誤**（舒張期瓣膜關閉）。[^1]
 - **治療**：最新技術為**經皮穿刺以導管技術置換人工瓣膜（TAVI/TAVR）**。[^1]
@@ -25,7 +25,8 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **CT 平面法量瓣口（planimetry）取像時相**：以 ECG-gated cardiac CT 直接描繪主動脈瓣開口面積時，須在**收縮中期**重建（瓣葉最大張開、相對靜止）；於**舒張期重建量瓣口為錯誤**（此時瓣葉閉合，量得的是閉合線而非開口）——此即本題陷阱。[^2]
-- **CT 鈣化評分（Agatston）之角色**：CT 常用於量化主動脈瓣鈣化負荷，於超音波流速／梯度與瓣口不一致（如 low-flow low-gradient AS）時，作為判定 severe AS 的補充依據；鈣化評分應於**非增強**掃描量測。[^2]
+- **CT 鈣化評分（Agatston）之角色**：CT 常用於量化主動脈瓣鈣化負荷，於超音波流速／梯度與瓣口不一致（如 low-flow low-gradient AS）時，作為判定 severe AS 的**仲裁性補充依據**；鈣化評分應於**非增強**掃描量測。非增強 CT 之主動脈瓣鈣化積分（AVCS）對 severe AS 之 pooled 敏感度約 82%／特異度約 78%，並為預後標記（全因死亡 HR 約 2.11）。[^2][^5]
+- **性別化鈣化閾值（兩指引並列）**：判定 severe AS 之 AVCS 門檻依性別不同，且兩大指引數值互異，宜並列引用——**AHA/ACC**：男 ≥2000 AU、女 ≥1300 AU；**ESC（very likely）**：男 ≥3000 AU、女 ≥1600 AU（likely：男 ≥2000、女 ≥1200）。[^5]
 - **CT 在 TAVI 術前的核心用途**：測量瓣環大小與形狀、竇部與冠狀動脈開口高度、瓣膜鈣化分布，以及評估股動脈／髂動脈入路，是 TAVI 規劃不可或缺的影像；現行 Heart Team 決策幾乎皆納入術前 cardiac CT。[^2]
 - **術前 CT 掃描前用藥禁忌**：**NTG（硝化甘油）與 beta-blocker 在 severe AS 為禁忌，掃描前不應給予**（不同於冠狀動脈 CTA 常規以 beta-blocker 降心率、NTG 擴張血管的作法）——故「為使影像清楚 scan 前最好使用 beta-blocker 及 NTG」為錯誤敘述。[^3]
 - **DDx／pitfalls**：(1) 退化性鈣化性 AS（老年）需與二葉式主動脈瓣（年輕、瓣葉數目異常、常合併主動脈病變）及風濕性 AS（常合併二尖瓣受累）區分；(2) 超音波為評估血流動力學（梯度、瓣口）首選，CT／MR 為補充；(3) 影像量得的解剖瓣口（GOA）常略大於超音波連續方程式算得的有效瓣口（EOA），解讀 severe 閾值時需注意方法差異。[^2]
@@ -41,6 +42,8 @@ dateRev: 2026-07-10
 [^1]: *Diagnostic Imaging: Cardiovascular*, p.I-2-8（2018 交換考題詳解 p.281 引用；Tier 2 教科書）。AS好發70歲以上老人；severe AS瓣口<1cm²(<100mm²)常伴嚴重鈣化(梯度>40mmHg；critical梯度>80mmHg/<0.5cm²)；CT評估瓣口應於收縮中期(瓣膜開啟相對靜止)取像非舒張期；TAVI為最新導管置換治療。
 [^2]: **Tier 1** Iung B, Delgado V, Rosenhek R, et al. *Contemporary Presentation and Management of Valvular Heart Disease: The EURObservational Research Programme Valvular Heart Disease II Survey.* Circulation 2019;140(14):1156-1169（據 PubMed，DOI [10.1161/CIRCULATIONAHA.119.041080](https://doi.org/10.1161/CIRCULATIONAHA.119.041080)；實際查證 accessed 2026-07-04；並對照 2021 ESC/EACTS 與 2020 ACC/AHA 瓣膜病指引原則）——28 國 7247 例前瞻登錄，AS 為最常見原生瓣膜病、患者中位 71 歲；重症 AS 中約 38.7% 以經導管方式（TAVI）治療，並強調 Heart Team 依指引 Class I 建議決定介入時機。原「官方/教科書」弱來源已由本次 DOI Tier 1 查核升級。
 [^3]: 2021 交換考題官方詳解（TAVI 術前 CT 掃描規範）：「NTG and beta blockers are contraindicated in severe aortic stenosis and should not be administered prior to scanning.」——severe AS 病人掃描前不應給予 NTG 或 beta-blocker。
+[^4]: **Radiopaedia（snippet/403，未實讀全文）** *Aortic valve stenosis*. Radiopaedia.org, rID 17960, DOI [10.53347/rID-17960](https://doi.org/10.53347/rID-17960)（搜尋摘要 accessed 2026-07-12）——最常見瓣膜病、男性優勢約 4:1；TTE 為首選、ECG-gated CT 顯示鈣化與瓣口、CMR 評估心室功能；與 Heyde syndrome 相關。
+[^5]: **Tier 1** Wang TKM, Flamm SD, Schoenhagen P, et al. *Diagnostic and Prognostic Performance of Aortic Valve Calcium Score with Cardiac CT for Aortic Stenosis: A Meta-Analysis.* Radiology: Cardiothoracic Imaging 2021;3(4):e210075（DOI [10.1148/ryct.2021210075](https://doi.org/10.1148/ryct.2021210075)，PMC8415142；摘要實讀 accessed 2026-07-12）——非增強 CT 之 Agatston 主動脈瓣鈣化積分（AVCS）對 severe AS pooled 敏感度 82%／特異度 78%；各嚴重度 mean AVCS：severe ~3219、moderate ~1808、mild ~584；AVCS 為預後標記（全因死亡 HR 2.11）。性別／指引閾值差異（AHA/ACC vs ESC）為指引層級對照，宜並列。
 
 ## 題目
 > [!question]- 有關Aortic stenosis (AS)，下列何者為非? (2018-373)

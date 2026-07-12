@@ -9,7 +9,7 @@ aliases:
   - ECV fraction
   - T1 shortening
   - 心肌T1定量
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # myocardial-t1-mapping
@@ -19,7 +19,7 @@ dateRev: 2026-07-10
 ## Summary（Native T1）
 - **原生(native)T1值**：同時受**細胞內與細胞外**因素影響（為心肌細胞與細胞外基質之複合訊號）。[^1]
 - **Native T1上升**：見於**水腫(edema)**（急性梗塞、發炎）與**間質空間擴大(increased interstitial space)**（纖維化、疤痕、心肌病）。[^1]
-- **Native T1下降**：見於**脂肪過載(lipid overload)**（如Anderson-Fabry disease、慢性心肌梗塞之脂肪化生）與**鐵過載(iron overload)**。[^1]
+- **Native T1下降**：見於**脂肪過載(lipid overload)**（如Anderson-Fabry disease；Fabry 於 LVH 出現前 native T1 即降）、慢性心肌梗塞之脂肪化生與**鐵過載(iron overload)**——故考題稱 siderotic/iron-overload cardiomyopathy「native T1 上升」為錯述（2021-035）。[^1][^5]
 - **正常值參考**：3T下、0.15 mmol/kg釓劑，平均native T1值約1159-1286 ms。[^1]
 
 ## Summary（Postcontrast T1 與 T1 Shortening）
@@ -40,8 +40,8 @@ dateRev: 2026-07-10
 ## 放射科醫師影像判讀重點
 - **參數對應的病理軸**：native T1 反映細胞內＋細胞外整體變化；ECV 為釓劑基礎、直接量化細胞外空間；T2/T2* 分別對應水腫與鐵沉積，判讀時應把每個 map 對應到其病理軸。[^4]
 - **主要以「細胞內」為主的病變使 native T1 下降**：鐵過載與 Anderson-Fabry 病（醣鞘脂堆積）使 native T1「降低」；而水腫、纖維化、類澱粉（間質擴張）使 native T1 與 ECV「上升」——方向相反是常見判讀陷阱。[^4]
-- **顯影後 T1 縮短**：釓劑使 T1 縮短，故 postcontrast T1 值低於 native T1；ECV 須於注射後穩態量測且需同時取得血液 T1 與 hematocrit。[^4]
-- **判讀須成套**：mapping 值受場強、廠商序列、擷取時機影響，須對照各中心/廠商正常參考值，並結合 LGE、T2 等序列與臨床情境綜合判讀，不宜以單一 postcontrast T1 作生物標記。[^4]
+- **顯影後 T1 縮短**：釓劑使 T1 縮短，故 postcontrast T1 值低於 native T1；ECV 須於注射後穩態量測且需同時取得血液 T1 與 hematocrit，計算式為 **ECV=(1−Hct)×(ΔR1_心肌/ΔR1_血池)**（ΔR1＝1/T1_post − 1/T1_pre）。[^4][^6]
+- **判讀須成套與正常值變異（nuance）**：mapping 值受**場強、廠商、序列**影響，**native T1 正常值因平台而異，各中心須自建參考範圍**；升／降並存時可互相抵消而限制鑑別，須結合 LGE、T2 等序列與臨床情境綜合判讀，不宜以單一 postcontrast T1 作生物標記。[^4][^5]
 - **鑑別價值**：native T1 極高提示類澱粉/急性水腫，native T1 極低提示 Fabry 或鐵過載，為心肌病鑑別提供無顯影劑的線索。[^4]
 
 ## 臨床重點（5 句）
@@ -59,9 +59,11 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: Haaf P, et al. *Cardiac T1 Mapping and Extracellular Volume (ECV) in clinical practice: a comprehensive review*. Journal of Cardiovascular Magnetic Resonance 2016;18:89（2018 交換考題詳解 p.150 引用；Tier 1 期刊）。Native T1受細胞內外因素影響；上升見於水腫/間質擴大(纖維化疤痕心肌病)；下降見於脂肪過載(Anderson-Fabry)/鐵過載；3T平均native T1值1159-1286ms(0.15mmol/kg釓劑)。
-[^2]: *Radiology*. 2016 Mar;278(3):658-76（2018 交換考題詳解 p.148-149 引用；Tier 1 影像期刊）。顯影劑造成T1縮短，postcontrast T1較native T1低；ECV量測應於注射後10-15分鐘穩態進行；單獨使用postcontrast T1易受劑量與擷取時間點干擾不建議單獨使用；心肌水腫同時使T1與T2皆上升，可伴隨急性缺血性與發炎性損傷；心肌T1上升非水腫特異性表現。
-[^3]: *Radiology*. 2016 Mar;278(3):658-76（2018 交換考題詳解 p.150 引用；Tier 1 影像期刊）。瀰漫性心肌纖維化通常同時造成native T1與ECV上升；ECV較native T1更穩健、與組織學相關性更佳；ECV上升亦可反映其他細胞外基質擴張過程非僅限於纖維化。
+[^2]: **Tier 1（摘要實讀）** Schelbert EB, Messroghli DR. *State of the Art: Clinical Applications of Cardiac T1 Mapping.* Radiology 2016;278(3):658-676（DOI [10.1148/radiol.2016141802](https://doi.org/10.1148/radiol.2016141802)，PMID 26885733；摘要 accessed 2026-07-12；2018 交換考題詳解 p.148-149 引用）。顯影劑造成T1縮短，postcontrast T1較native T1低；ECV量測應於注射後10-15分鐘穩態進行；單獨使用postcontrast T1易受劑量與擷取時間點干擾不建議單獨使用；心肌水腫同時使T1與T2皆上升，可伴隨急性缺血性與發炎性損傷；心肌T1上升非水腫特異性表現；native T1 下降對鐵過載與 Fabry「highly specific」。
+[^3]: **Tier 1（摘要實讀）** Schelbert EB, Messroghli DR. *State of the Art: Clinical Applications of Cardiac T1 Mapping.* Radiology 2016;278(3):658-676（DOI [10.1148/radiol.2016141802](https://doi.org/10.1148/radiol.2016141802)，PMID 26885733；摘要 accessed 2026-07-12；2018 交換考題詳解 p.150 引用）。瀰漫性心肌纖維化通常同時造成native T1與ECV上升；ECV較native T1更穩健、與組織學相關性更佳（ECV 量化非梗塞心肌纖維化，預後價值與 LVEF 相當）；ECV上升亦可反映其他細胞外基質擴張過程非僅限於纖維化。
 [^4]: **Tier 1** Messroghli DR, Moon JC, Ferreira VM, et al. *Clinical recommendations for cardiovascular magnetic resonance mapping of T1, T2, T2* and extracellular volume: A consensus statement by the Society for Cardiovascular Magnetic Resonance (SCMR) endorsed by the European Association for Cardiovascular Imaging (EACVI)*. J Cardiovasc Magn Reson 2017;19(1):75（據 PubMed，DOI [10.1186/s12968-017-0389-8](https://doi.org/10.1186/s12968-017-0389-8)；實際查證 accessed 2026-07-04）——SCMR/EACVI mapping 共識：native T1 反映細胞內外整體、ECV 為釓劑基礎量化細胞外空間；鐵過載與 Anderson-Fabry 使 native T1 下降，纖維化/類澱粉/水腫使 native T1 與 ECV 上升；顯影後 T1 縮短；建議各臨床情境標準化應用。原「官方詳解」弱來源已由本次 DOI Tier 1 查核升級。
+[^5]: **Radiopaedia（snippet/403，未實讀全文）** *Myocardial mapping*. Radiopaedia.org, rID 74193, DOI [10.53347/rID-74193](https://doi.org/10.53347/rID-74193)（搜尋摘要 accessed 2026-07-12）——native T1 升高：水腫／纖維化／類澱粉；native T1 下降：鐵過載、Anderson-Fabry（脂質沉積，LVH 前即降）；ECV 升高：類澱粉／水腫；升降並存可互相抵消而限制鑑別。native T1 正常值依場強／廠商／序列而異。
+[^6]: **非白名單（公式來源）** Kim PK, Hong YJ, Im DJ, et al. *Myocardial T1 and T2 Mapping: Techniques and Clinical Applications.* Korean J Radiol 2017;18(1):113-131（DOI [10.3348/kjr.2017.18.1.113](https://doi.org/10.3348/kjr.2017.18.1.113)）——ECV 計算式 ECV=(1−Hct)×(ΔR1_心肌/ΔR1_血池)。（非本次五來源白名單，僅供公式出處。）
 
 ## 題目
 > [!question]- Which of the following statements does NOT apply to myocardial T1? (2018-257)

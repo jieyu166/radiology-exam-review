@@ -7,7 +7,7 @@ aliases:
   - CMR coronary angiography
   - mid diastole cardiac imaging
   - 冠狀動脈磁振血管攝影
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # coronary-mra-technique
@@ -23,10 +23,11 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **時相選擇**：低-中心率 → mid-diastole（diastasis）；心率快 → 舒張期縮短，改用 end-systole；必要時 β-blocker 降率延長 diastasis。[^1]
-- **無輻射/無碘**：對兒童（川崎追蹤）、腎功能不良、需多次追蹤者為 MRA 相對 CTA 之關鍵優勢。[^3]
+- **序列技術**：多採 **navigator-gated 3D SSFP whole-heart** 併 **T2-prep／fat-sat**、**free-breathing**，無游離輻射、無碘對比劑。[^4]
+- **無輻射/無碘**：對兒童（川崎追蹤）、腎功能不良、需多次追蹤者為 MRA 相對 CTA 之關鍵優勢。[^3][^4]
 - **強項＝異常冠狀動脈**：起源/走向（尤其 interarterial 走向）之判定，MRA/CTA 準確度高（~100%）。[^3]
 - **弱項＝斑塊/顯著 CAD 常規篩檢**：小斑塊 + 心臟運動使 MRA 難評估，特異度中低，非常規 CAD 篩檢工具。[^2]
-- **對照 CTA**：解析度/速度 CTA 優，故顯著 CAD 排除選 CTA；不能輻射/碘或評估先天異常時 MRA 有其角色。[^2][^3]
+- **對照 CTA（考點）**：**CMR 冠狀動脈之空間解析度不及冠狀 CTA（含 64-MDCT）**，時間／空間解析度與掃描速度 CTA 均較優，故顯著 CAD 排除選 CTA——此為 2021-330 選項 A「CMR 空間解析度優於 64-MDCT」錯述之直接依據；不能輻射/碘或評估先天異常時 MRA 才有其角色。[^2][^3][^5]
 
 ## 臨床重點（5 句）
 1. **時相**：mid-diastole 為多數病人最佳取像時相（凍結運動）。[^1]
@@ -45,6 +46,8 @@ dateRev: 2026-07-10
 [^1]: 官方 2020 詳解；Ref: Seifarth H, et al. *Optimal systolic and diastolic reconstruction windows for coronary CT angiography using dual-source CT*. AJR Am J Roentgenol 2007;189(6):1317-1323, DOI 10.2214/AJR.07.2711（題目所引）——低至中等心率影像重組常選舒張中期（心臟週期最平靜時相）。
 [^2]: 官方 2020 詳解；Ref: Jahnke C, et al. *Rapid and complete coronary arterial tree visualization with MRI: feasibility and diagnostic performance*. Eur Heart J 2005;26(21):2313-2319, DOI 10.1093/eurheartj/ehi306（題目所引）——冠狀動脈 MRA 適應症（異常起源、川崎冠狀擴張/瘤、繞道通暢、近端原生狹窄）；顯著 CAD 敏感度 ~94%/特異度 ~57%；中等驗前機率排除 CAD，冠狀 CT 適當、MRA 不適當。
 [^3]: *Left Coronary Artery Anomalous Origin* (Dx). STATdx, updated 11/12/21. Elsevier——echo 受限時 **CTA/MRA 辨識冠狀動脈起源準確度 ~100%**；MRA/MR cine 顯示異常起源與走向、川崎追蹤等，佐證 MRA 於冠狀動脈異常評估之角色與無輻射/無碘優勢。
+[^4]: **Radiopaedia（snippet/403，未實讀全文）** *Coronary MR angiography*. Radiopaedia.org, rID 31912, DOI [10.53347/rID-31912](https://doi.org/10.53347/rID-31912)（末修 2025-05-15；搜尋摘要 accessed 2026-07-12）——navigator-gated 3D SSFP whole-heart＋T2-prep／fat-sat、free-breathing、無輻射無碘；適應症含冠狀動脈異常起源／走向、川崎、CABG。
+[^5]: **Tier 1（snippet／引用級，全文需登入）** Sakuma H. *Coronary CT versus MR Angiography: The Role of MR Angiography.* Radiology 2011;258(2):340-349（DOI [10.1148/radiol.10100116](https://doi.org/10.1148/radiol.10100116)，PMID 21273518；搜尋／引用級 accessed 2026-07-12）——冠狀動脈 MRA 無輻射，但臨床上冠狀 CTA 之時間／空間解析度與速度優於 MRA。
 
 ## 題目
 > [!question]- For coronary magnetic resonance (MR) angiography, data are typically obtained over several cardiac cycles. To freeze cardiac motion, it is desirable to obtain image data during a very short time period within each cycle. What would the optimal time for data collection be? (2020-309)

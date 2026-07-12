@@ -7,7 +7,7 @@ aliases:
   - arrhythmogenic right ventricular cardiomyopathy
   - 2010 Revised Task Force criteria
   - ARVC心臟MR診斷準則
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # arvc-diagnostic-criteria
@@ -25,8 +25,10 @@ dateRev: 2026-07-10
 ### 心臟 MR 判讀重點（依 2010 修訂版準則）
 - **必備區域性異常＋定量門檻併用**：判 major 須「局部 RV akinesia/dyskinesia/不同步收縮」**加上** RV EDV（BSA 校正，男 ≥110、女 ≥100 mL/m²）**或** RVEF ≤40%；單有容積或單有 EF 而無區域性室壁異常不成立。[^1]
 - **切勿把 echo 參數混入 MR 準則**：**RVOT 徑（PLAX ≥32 mm／PSAX ≥36 mm）與 fractional area change ≤33% 屬 2D echo 準則**，MR 準則不採用；此為最常見的考題陷阱。[^1]
-- **形態徵象（輔助觀察、非定量門檻）**：局部 RV 動脈瘤（收縮期外凸）、RV 游離壁膨出、小梁排列紊亂、脂肪浸潤；MR 上心肌內脂肪／纖維化本身**未列入**修訂版準則之定量項目，勿據此單獨診斷。[^1]
+- **形態徵象（輔助觀察、非定量門檻）**：局部 RV 動脈瘤（收縮期外凸）、RV 游離壁膨出、小梁排列紊亂、脂肪浸潤；**心肌脂肪／纖維脂肪浸潤本身未列入 2010 原版或修訂版 TFC**（心肌脂肪為常見偽影，正常心肌亦可見），fibrofatty replacement 雖為組織病理標記但**不可單憑影像診斷**——此為 2021-031 之直接依據。[^1][^2]
+- **fatty vs fibrofatty 兩型**：fatty 型室壁不變薄、多僅右室受累；fibrofatty 型右室壁變薄、可累及左室。[^3]
 - **影像品質與 DDx**：RV 游離壁薄、心律不整易致偽影，須以 SSFP cine 多平面評估；DDx 須與正常變異、Uhl anomaly、RV 容積負荷（如 ASD、嚴重 TR）鑑別。[^1]
+- **模態界定（nuance）**：2010 修訂版 TFC 正式納入之影像模態為 echo／CMR／RV 血管攝影，**cardiac CT 並未正式列入 TFC**；故考題（如 2021-031）題幹雖含「cardiac CT」，判讀時應理解 CT 僅為臨床輔助、非 TFC 準則模態。[^2]
 
 ## 臨床重點（5 句）
 1. **流病/病因**：ARVC 為遺傳性心肌病，多為體染色體顯性之 desmosome 蛋白基因突變，好發於年輕成人與運動員。[^1]
@@ -40,6 +42,8 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: *RadioGraphics* 2013;33:1977-2001（2018 交換考題詳解 p.104 引用；Tier 1 影像期刊，引用2010 Revised Task Force criteria, Marcus et al）。ARVC診斷依據六大類發現(型態功能異常、切片脂肪纖維化、ECG復極/去極異常、心律不整、家族史)；心臟MR major準則＝局部RV運動異常+RV EDV(BSA校正，男≥110mL/m²、女≥100mL/m²)或RVEF≤40%；2D心臟超音波major準則另含RVOT徑(PLAX≥32mm或PSAX≥36mm，BSA校正)或fractional area change≤33%；RVOT徑僅屬echo準則、非MR準則參數。
+[^2]: **Tier 1（PMC 全文實讀）** Rastegar N, Zimmerman SL, Te Riele ASJM, et al. *Cardiac MR Findings and Potential Diagnostic Pitfalls in Patients Evaluated for Arrhythmogenic Right Ventricular Cardiomyopathy.* RadioGraphics 2014;34(6):1553-1570（DOI [10.1148/rg.346140194](https://doi.org/10.1148/rg.346140194)，PMC5550031；正文實讀 accessed 2026-07-12）——2010 修訂 TFC 之 CMR 準則須「區域性 RV 運動異常（akinesia／dyskinesia／dyssynchrony）」＋「定量 RV 擴大或 RVEF 下降」併存；**心肌脂肪／纖維脂肪浸潤未列入原版或修訂版 TFC**（心肌脂肪偽影常見）；fibrofatty replacement 為組織病理標記但不可單憑影像診斷；TFC 正式影像模態為 echo／CMR／RV 血管攝影。
+[^3]: **Radiopaedia（snippet/403，未實讀全文）** *Arrhythmogenic right ventricular cardiomyopathy*. Radiopaedia.org, rID 7439, DOI [10.53347/rID-7439](https://doi.org/10.53347/rID-7439)（搜尋摘要 accessed 2026-07-12）——fatty 型（室壁不變薄、僅右室）vs fibrofatty 型（右室壁變薄、可累及左室）。
 
 ## 題目
 > [!question]- Which of the following abnormalities of right ventricle is not in the MR imaging criteria for ARVC according to 2010 Revised Task Force criteria? (2018-049)

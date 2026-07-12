@@ -7,7 +7,7 @@ aliases:
   - TAVR
   - aortic annulus measurement
   - 經導管主動脈瓣置換
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # tavi
@@ -15,6 +15,8 @@ dateRev: 2026-07-10
 **TAVI 術前 CT 三要：①收縮期量 annulus（此時最大）②評估 annulus 至冠狀動脈口距離（<10 mm 有阻塞風險）③不需 β-blocker（需涵蓋整個心動週期，與冠狀動脈 CTA 相反）。** 記憶鉤：「TAVI 要看整個心臟跑一圈，壓慢了反而漏資訊」——β-blocker 是冠狀動脈 CTA 的事；TAVI 量瓣環在收縮末期最大，壓慢心率會縮小量測值。判讀分水嶺一：**annulus＝主動脈瓣葉最低附著點所連的虛擬環（位於 LVOT 頂），收縮期量測（瓣環此時最大）**；判讀分水嶺二：**annulus 至冠狀動脈口距離 <10 mm（合併低冠狀竇）→ 冠狀動脈阻塞風險；TAVI CT 不需（且應避免）β-blocker**。
 
 ## Summary
+
+- **術前 CT 三大核心任務**：①**病人篩選**、②**瓣膜尺寸選型（sizing）**、③**入路途徑評估**；放射科須熟悉主動脈根部解剖陷阱。[^9]
 
 ### 術前 CT 量測：annulus
 - **Annulus 定義**：**三個主動脈瓣葉最低附著（插入）點所連成的虛擬環**，位於 LVOT 頂；annulus 本身非解剖結構，須以後處理虛擬建構。[^1]
@@ -50,7 +52,7 @@ dateRev: 2026-07-10
 > 「**必須用 β-blocker 控制心率以取得好影像**」為非——TAVI CT **不需**(且應避免)β-blocker。收縮期量 annulus、annulus-冠狀動脈口 <10 mm 有阻塞風險、annulus＝瓣葉最低插入點皆正確。[^1]
 
 ## 放射科醫師影像判讀重點
-- **掃描協定**：TAVI 術前 CT 需**涵蓋整個心動週期（retrospective / 全期重組）**，故**不需且應避免 β-blocker**（與冠狀動脈 CTA 需減速取靜止相相反）——此為最常考的判讀分水嶺。[^1]
+- **掃描協定**：TAVI 術前 CT 需**涵蓋整個心動週期（retrospective / 全期重組）**，故**不需且應避免 β-blocker**（與冠狀動脈 CTA 需減速取靜止相相反）——此為最常考的判讀分水嶺（2021-159）；ESCR 共識 [^1] 與 RadioGraphics 2014 綜述 [^9] 均以病人篩選／sizing／入路為三大核心任務。[^1][^9]
 - **Annulus 量測**：以 **double-oblique 多平面重組** 通過三瓣葉最低附著點且垂直長軸，於**收縮期（~30–40% R-R，瓣環最大）** 量測，避免舒張期系統性低估而選小瓣；瓣環呈橢圓，須以**面積導出徑（2√(A/π)）或周長導出徑（C/π）** 選型，勿只報單一直徑。[^1][^2]
 - **冠脈阻塞風險評估**：量**冠脈口高度（低位 <12 mm 高風險）**、竇部（deficient sinus 直接阻塞）、STJ（低窄→sinus sequestration）、**VTC <3–4 mm** 高風險（主驗於 valve-in-valve）；冠脈阻塞原生瓣約 0.8%、VIV 約 3.5%。[^1][^3]
 - **Bicuspid 與 access**：依 **Sievers 分型** 辨 raphe，**鈣化 raphe >4 mm** 及 supra-annular 最窄處易致選型不準；access 以 **SFAR >1.05** 預測血管併發症，環周／horseshoe 鈣化風險最高（約 5–6 倍）。[^4][^6]
@@ -74,7 +76,8 @@ dateRev: 2026-07-10
 [^5]: 綜述（cusp-overlap 投影與機轉，開放全文已讀）：Doldi PM, et al. *Cusp Overlap Technique: Should it become the Standard Implantation Technique for Self-Expanding Valves?* PMC8845572（Front Cardiovasc Med, 2022）。— 右、左冠狀竇 hinge point 重疊、NCC 孤立，RAO/caudal 投影；拉長 LVOT、消除導管跨瓣環 parallax；目標植入深度約 3–5 mm；新發 LBBB 與永久節律器植入率下降。投影象限資料另見 Tang GHL, et al. *Double S-Curve Versus Cusp-Overlap Technique.* JACC Cardiovasc Interv. 2020;13(24):2783–2795. doi:10.1016/j.jcin.2020.10.033.
 [^6]: 綜述／原始研究（bicuspid 判讀與選型，依摘要與開放全文）：Yoon SH, et al. 與相關 Sievers 分型／bicuspid sizing 文獻（含 PMC8549004 外科對照與 PMC9043529 鈣化 raphe 預後）。— Sievers type 0/1/2（依 raphe 數）；bicuspid 最窄處可能在瓣環平面之上（supra-annular sizing）；有 raphe 者周長導出徑較貼合外科瓣號；**鈣化 raphe >4 mm** 為長期不良結局獨立預測因子，與不對稱擴張、瓣周漏、環破裂及傳導阻滯風險升高相關。
 [^7]: 原始研究（環破裂之 LVOT 鈣量定量，依摘要未讀全文）：Hansson NC, et al. *The impact of calcium volume and distribution in aortic root injury related to balloon-expandable transcatheter aortic valve replacement.* J Cardiovasc Comput Tomogr. 2015. PMID:26164109；與 Barbanti M, et al. *Anatomical and procedural features associated with aortic root rupture during balloon-expandable TAVR.* Circulation. 2013;128(3):244–253. doi:10.1161/CIRCULATIONAHA.113.002947. — **上段 LVOT（NCC 下方）鈣量** 較整體 LVOT 鈣量更能預測根部受傷（AUC 約 0.78 vs 0.71）；面積 oversizing ≥20% 與中重度瓣下鈣化為高危。
-[^8]: **TAVI 適應症（>1 年存活門檻）**：ESC/EACTS 2017 valvular heart disease guideline 與 ACC/AHA 對**不適合外科（inoperable）**之嚴重症狀性主動脈瓣狹窄病人，建議 TAVI 條件為預期能改善生活品質且**預期存活 >1 年（>12 months）**；此為原題（Eur Radiol 2020;30:2627–2650 ESCR 共識引用之指引背景，見 [^1]）所本。輔以 *Transcatheter aortic valve implantation (TAVI)*. Radiopaedia.org（實際查證 accessed 2026-07-05）：TAVI 為對外科高風險之症狀性主動脈瓣狹窄病人的較低侵襲替代術式，術前 CT 評估瓣環、冠脈口高度與入路。
+[^8]: **TAVI 適應症（>1 年存活門檻）**：ESC/EACTS 2017 valvular heart disease guideline 與 ACC/AHA 對**不適合外科（inoperable）**之嚴重症狀性主動脈瓣狹窄病人，建議 TAVI 條件為預期能改善生活品質且**預期存活 >1 年（>12 months）**；此為原題（Eur Radiol 2020;30:2627–2650 ESCR 共識引用之指引背景，見 [^1]）所本。輔以 *Transcatheter aortic valve implantation (TAVI)*. Radiopaedia.org（TAVI case, rID 50347, DOI [10.53347/rID-50347](https://doi.org/10.53347/rID-50347)；實際查證 accessed 2026-07-05）：TAVI 為對外科高風險之症狀性主動脈瓣狹窄病人的較低侵襲替代術式，術前 CT 評估瓣環、冠脈口高度與入路。
+[^9]: **Tier 1（摘要）** Salgado RA, Leipsic JA, Shivalkar B, et al. *Preprocedural CT Evaluation of Transcatheter Aortic Valve Replacement: What the Radiologist Needs to Know.* RadioGraphics 2014;34(6):1491-1514（DOI [10.1148/rg.346125076](https://doi.org/10.1148/rg.346125076)，PMID 25310413；摘要 accessed 2026-07-12）——術前 CT 核心任務：病人篩選、瓣膜尺寸選型、入路途徑評估；放射科須熟主動脈根部解剖陷阱。具體數值門檻（冠脈口高度、SFAR、oversizing）維持既有 [^1][^3][^4] 來源，未改掛此文。
 
 > [!question]- 依據 2017 年版 ESC/ACC guideline for percutaneous treatment of aortic stenosis 的 indication 是無法開刀且預期 procedure 後可存活大於多久? (2021-159)
 > **C（12 months）**——ESC/EACTS 2017（與 ACC/AHA）對不適合外科之嚴重症狀性主動脈瓣狹窄病人，TAVI 適應症要求預期能改善生活品質且術後預期存活 >1 年（>12 個月）；3/6/24 months 皆非門檻。
