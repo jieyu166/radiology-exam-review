@@ -9,7 +9,7 @@ aliases:
   - babygram
   - follow-up skeletal survey
   - 兒虐骨骼調查
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # child-abuse-skeletal-survey
@@ -20,12 +20,12 @@ dateRev: 2026-07-10
 - **首選檢查**：**radiographic skeletal survey 為初始首選**；單張/少數涵蓋全身的 **babygram 不足**（解析與擺位不夠），不可取代分部位標準攝影。[^1][^2]
 - **2 歲以下**：疑似受虐 **<2 歲**兒童，完整骨骼調查為必要。[^2]
 - **2 週後追加複查（repeat survey）**：**必要**——**約 2 週後複查可提高敏感度與特異度**（顯現初查未見之癒合中骨折、CML），並協助**判斷損傷時間**。[^1][^2]
-- **high-specificity 骨折（強烈提示兒虐）**：**classic metaphyseal lesion（CML）、後肋骨折（posterior rib）、棘突骨折、肩胛骨折、胸骨骨折**；以及**多處不同時期骨折 + 病史不符**。[^1]
+- **high-specificity 骨折（強烈提示兒虐）**：**classic metaphyseal lesion（CML；corner/bucket-handle，近乎 pathognomonic）、後肋骨折（posterior rib，尤肋椎交界處最特異）、棘突骨折、肩胛骨折、胸骨骨折**；以及**多處不同時期骨折 + 病史不符**。[^1][^3][^4]
 - **死亡病例**：致命性疑似受虐與不明原因嬰兒死亡，皆應依與存活嬰兒相同協定進行骨骼調查。[^2]
 - **CT/MRI 與核醫角色**：CT/MRI 用於**疑似頭部外傷**（硬膜下等）；scintigraphy 為**補充**（複雜部位如骨盆/足較敏，但對 CML 與顱骨骨折敏感度較低，不能取代 survey）。[^1][^2]
 
 ## 放射科醫師影像判讀重點
-- **CML（角落/桶柄）**：乾骺端邊緣之特徵性骨折，**特異度高**、常無明顯病史，初查易漏 → 2 週複查價值最大。[^1]
+- **CML（角落/桶柄）**：乾骺端邊緣之特徵性骨折，**近乎 pathognomonic**、常無明顯病史，初查易漏 → 2 週複查價值最大；判讀時仍**須排除 OI（成骨不全）/代謝性骨病**（有少數文獻主張部分 CML 樣變化可能為代謝性，AJR CML critical review DOI 10.2214/AJR.13.10540，非白名單）。[^1][^3][^4]
 - **後肋骨折**：因搖晃/擠壓機轉，**特異度高**；初期無骨痂難見，癒合期複查更明顯。[^1]
 - **多發 + 不同癒合期**：同時見新舊骨折（有無骨痂/塑形）＝反覆受傷，是兒虐核心影像證據。[^1]
 - **懷疑觸發點**：**不會走的嬰兒卻有骨折、傷勢與說法不符、延遲就醫、以跌倒解釋多處骨折**。[^1]
@@ -44,6 +44,8 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: Vyas B. *Nonaccidental Trauma* (Dx). STATdx, updated 06/03/25. Elsevier——**radiographic skeletal survey 為初始首選**、**repeat survey（~2 週）提高敏感/特異度**；high-specificity 骨折（**CML、後肋、棘突、肩胛、胸骨**）；多處不同時期骨折 + 病史不符；scintigraphy 補充（複雜部位較敏、對 CML/顱骨較不敏）；至 18 歲約 1/8 兒童實證受虐、骨折為第二常見發現。
 [^2]: 官方 2020 詳解；Ref: Caffey's Pediatric Diagnostic Imaging 13th ed. Ch.143, pp.1454-1463（題目所引）——已由上述一手來源查核取代主要結論；2 歲以下完整骨骼調查為必要（babygram 不足）、2 週後追加複查為必要、死亡病例依相同協定、CT/MRI 評估頭部外傷。
+[^3]: Sarma A, Snyder EJ, Vankineni K, et al. *A Radiologist's Lexicon for Reporting in Child Abuse.* RadioGraphics 2023;43(7):e220101（DOI 10.1148/rg.220101，PMID 37289645；摘要/citation accessed 2026-07-12）——兒虐影像報告用語規範與高特異骨折之描述準則。
+[^4]: *Non-accidental injury*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12；article rID 未取得(正文403)）——CML(classic metaphyseal lesion/corner/bucket-handle)近乎 pathognomonic；高特異骨折含 CML 與後肋/肩胛/棘突/胸骨；skeletal survey 應於 2 週後複查提高敏感度。
 
 ## 題目
 > [!question]- Which description about child abuse is incorrect? (2020-300)

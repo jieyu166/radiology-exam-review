@@ -8,7 +8,7 @@ aliases:
   - whirlpool sign
   - twisted vascular pedicle sign
   - 附件扭轉
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # adnexal-torsion
@@ -18,10 +18,10 @@ dateRev: 2026-07-10
 ## Summary
 - **機轉**：卵巢繞其**血管蒂旋轉** → **靜脈/淋巴回流受阻、水腫、出血** → 最終動脈受阻、梗塞。[^1]
 - **常見 lead point（核心）**：多為**良性**——**生理性濾泡囊腫/黃體囊腫最常見，其次皮樣囊腫（dermoid）**、paraovarian cyst；**惡性腫瘤反而少見**（沾黏、活動度差）；**5-10 cm 風險最高**。[^1]
-- **主要 US 徵象**：**卵巢腫大（>4 cm 或 >20 cm³）、異質高回音水腫基質**、**周邊被推移之小濾泡（peripheral follicle sign）**。[^1]
-- **特異徵象**：**whirlpool sign（coiled/twisted vascular pedicle）為最特異**，但僅見於 **<1/3** 病例（用多平面重組找）。[^1]
-- **Doppler**：**靜脈血流最先受影響**；因卵巢**雙重動脈供血**，**動脈血流可保留**（正常動脈不排除扭轉）；**有靜脈血流提示卵巢尚存活**。[^1]
-- **人口學/側性**：雙峰（年輕 15-30、停經後），約 20% 於孕期；**右 > 左（3:2，乙狀結腸保護左側）**；子宮可偏向扭轉側。[^1]
+- **主要 US 徵象**：**卵巢腫大（>4 cm 或 >20 cm³）、異質高回音水腫基質**、**周邊被推移之小濾泡（peripheral follicle sign）**；其中**卵巢不對稱增大為最敏感、最一致之所見**，並可見卵巢移位至中線。[^1][^2][^3]
+- **特異徵象**：**whirlpool sign（coiled/twisted vascular pedicle）為最特異/最確定**，但僅見於 **<1/3** 病例（用多平面重組找）。[^1][^3]
+- **Doppler**：**靜脈血流最先受影響**；因卵巢**雙重動脈供血**，**動脈血流可保留**（**都卜勒有血流亦不能排除扭轉**，故不可靠）；**有靜脈血流提示卵巢尚存活**。[^1][^3]
+- **人口學/側性**：雙峰（年輕 15-30、停經後），約 20% 於孕期；**右 > 左（3:2，乙狀結腸保護左側）**（支撐 2021-196/355）；子宮可偏向扭轉側。[^1][^3]
 
 ## 放射科醫師影像判讀重點
 - **第一線 US**：卵巢腫大 + 周邊濾泡 + 水腫基質 → 高度懷疑；找 whirlpool/扭轉蒂為最特異。[^1]
@@ -42,6 +42,8 @@ dateRev: 2026-07-10
 
 ### 參考來源
 [^1]: *Adnexal/Ovarian Torsion* (Dx). STATdx, updated 06/24/21. Elsevier——機轉（繞血管蒂旋轉→靜脈鬱血→梗塞）；lead point 多良性（**生理性/黃體囊腫最常見、次為 dermoid**，惡性少見）；US 徵象（**卵巢腫大 >4 cm/>20 cm³、異質水腫基質、周邊濾泡**）；**whirlpool sign 最特異但 <1/3 可見**；**Doppler 靜脈先受影響、動脈因雙重供血可保留、有靜脈血流示存活**。原「官方 2020 詳解／Diagnostic Imaging: Gynecology」弱來源已由此一手來源查核取代（5-10 cm 風險最高、右>左 3:2）。
+[^2]: Sintim-Damoa A, Majmudar AS, Cohen HL, Parvey LS. *Pediatric Ovarian Torsion: Spectrum of Imaging Findings.* RadioGraphics 2017;37(6):1892-1908（DOI 10.1148/rg.2017170026，PMID 29019757；摘要 accessed 2026-07-12）——兒科扭轉核心＝卵巢不對稱增大、濾泡周邊化、卵巢移位至中線；周產期特徵＝囊性腫塊含液-屑液平面。
+[^3]: *Ovarian torsion*（case rID 11723 等）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12；article rID 未取得(正文403)）——卵巢腫大＋周邊移位濾泡為最一致所見；whirlpool sign 最確定但僅 <1/3 可見；**都卜勒有血流不能排除扭轉**；右側較常見。
 
 ## 題目
 > [!question]- Which of the following is NOT a typical image finding of adnexal torsion? (2020-245)

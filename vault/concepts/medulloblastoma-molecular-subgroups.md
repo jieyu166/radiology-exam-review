@@ -7,7 +7,7 @@ aliases:
   - WNT group
   - SHH group
   - 髓母細胞瘤分子亞型
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # medulloblastoma-molecular-subgroups
@@ -18,10 +18,10 @@ dateRev: 2026-07-10
 - **WNT group（最少見，~10%）**：**CTNNB1 突變**；好發**較大兒童/青少年至成人**；常位於 **CP angle（cerebellopontine angle cistern）**；**存活最佳、風險最低**、轉移少見。[^1][^2]
 - **SHH activated（~30%，依 TP53 分兩型）**：好發**嬰兒(0–3)與較大兒童**；常位**小腦半球**；**TP53-wildtype（PTCH1/SUFU 突變、常 nodular/desmoplastic）預後較佳**；**TP53-mutant（GLI2 等）預後較差**。[^1][^2]
 - **Group 3（non-WNT/non-SHH，~20%）**：好發**幼童**；**MYC 擴增**；**幾乎只在中線/第四腦室**；**存活最差、轉移常見**。[^1][^2]
-- **Group 4（non-WNT/non-SHH，最常見，~40%）**：各年齡（至成人）；**i17q**；中線/第四腦室；**強化常極輕微或中央星狀**；存活中等、轉移可見。[^1][^2]
+- **Group 4（non-WNT/non-SHH，最常見，~40%）**：各年齡（至成人）；**i17q**；中線/第四腦室；**強化常極輕微或無/中央星狀（enhancement 相對不顯著，支撐 2021-370 選項 C「vivid enhancement」為錯）**；存活中等、轉移可見。[^1][^2][^3]
 
 ## 放射科醫師影像判讀重點
-- **位置＝分子亞型生物標記（考點核心）**：**小腦半球→SHH（~10%）、CP angle→WNT（<5%）、中線/第四腦室頂→Group 3 與 Group 4（此兩型「只」在中線）**。[^2]
+- **位置＝分子亞型生物標記（考點核心）**：**小腦半球→SHH（~10%）、CP angle→WNT（<5%）、中線/第四腦室頂→Group 3 與 Group 4（此兩型「只」在中線）**；位置＋強化型態已被驗證為分子亞型之 MRI 影像 biomarker。[^2][^3][^4]
 - **共通影像**：**CT 高密度(90%，高細胞度)、Ca⁺⁺ 達 20%、出血少見、阻塞性水腦達 95%**；MR **DWI 限制擴散（高細胞度，ADC 低）**、T2 iso-高、變異性強化。[^2]
 - **與鑑別診斷分辨**：**pilocytic astrocytoma 之 ADC 高（擴散不受限）**、ependymoma 常經第四腦室孔「塑形」外突且鈣化/出血較多、AT/RT 好發 <3 歲且較異質——DWI 與位置為關鍵。[^2]
 - **全神經軸攝影必做**：**33% 診斷時已有蛛網膜下腔轉移**；C+ 全腦脊髓偵測 CSF 播散，bSSFP(FIESTA/CISS) 利偵測脊髓軟膜小轉移；**骨轉移 ~5% 多為硬化性**。[^2]
@@ -40,6 +40,8 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 官方2020詳解；Ref: The 2016 WHO Classification of Tumors of the CNS: a summary. Acta Neuropathol 2016;131:803–820（題目所引）——四分子亞型 WNT/SHH/Group 3/Group 4；WNT 頻率最低、預後最佳；Group 3 存活最差、轉移常見。
 [^2]: **Tier 1** *Medulloblastoma, Molecularly Defined*（Brain, Dx；Linscott LL，updated 2025-09-17，採 WHO 2021 分類）. STATdx（實際查證 accessed 2026-07-03）：**四亞型＝WNT(最少)、SHH TP53-wildtype、SHH TP53-mutant、non-WNT/non-SHH(Group 3、4，最常見)**；**位置為亞型影像生物標記——小腦半球→SHH、CP angle→WNT、中線/第四腦室→Group 3&4**；WNT＝CTNNB1、SHH-wildtype 較 mutant 佳、Group 3＝MYC 擴增預後最差、Group 4＝i17q 強化極輕微；CT 高密度 90%、限制擴散、阻塞性水腦 95%、33% 診斷時 CSF 轉移、骨轉移 5% 硬化性；0–4 歲最常見後顱窩瘤、存活一般 >80%/高風險 >60%。原「官方 2020 詳解（2016 WHO 題目所引）」弱來源已由本次 Tier 1 全文（WHO 2021 更新）查核升級。
+[^3]: *Medulloblastoma*（主條目及 WNT/group3/group4 系列）. Radiopaedia.org（搜尋摘要 accessed 2026-07-12；article rID 未取得(正文403)，僅 slug）——WNT 最少/預後最佳/CP angle/prominent enhancement；Group3 MYC/最差/中線；**Group4 最多/中線/enhancement 相對不顯著**。
+[^4]: Perreault S, Ramaswamy V, Achrol AS, et al. *MRI Surrogates for Molecular Subgroups of Medulloblastoma.* AJNR 2014;35(7):1263-1269（DOI 10.3174/ajnr.A3990，PMID 24831600，PMC4819007；摘要 accessed 2026-07-12；註：AJNR 非題目白名單所列 AJR）——腫瘤位置＋強化型態為分子亞型之影像 biomarker。
 
 ## 題目
 > [!question]- Which molecular subtype of Medulloblastoma has lowest risk and best prognosis? (2020-233)

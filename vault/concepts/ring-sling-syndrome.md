@@ -9,7 +9,7 @@ aliases:
   - congenital tracheal stenosis
   - complete tracheal rings
   - 環形氣管左肺動脈吊索症候群
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # ring-sling-syndrome
@@ -18,8 +18,8 @@ dateRev: 2026-07-10
 
 ## Summary
 - **解剖定義**：**左肺動脈（LPA）異常起自近端右肺動脈後方**，繞過遠端氣管右側與後方形成吊索，**於氣管與食道之間**向左走行。[^1]
-- **唯一走行於氣管食道間之血管環**：壓迫**氣管後壁與食道前壁**→**食道攝影呈「前方」壓跡**（為與其他血管環鑑別之要點）。[^1]
-- **分型與 ring-sling complex（考點）**：**Type I**（carina 正常 T4-5）；**Type II（低位 carina T6＋中間支氣管被多節完整軟骨環瀰漫狹窄＝ring-sling complex）→ 雙側或左肺過度充氣**；完整軟骨環見於約 **2/3** 病例。[^1]
+- **唯一走行於氣管食道間之血管環**：左肺動脈為**唯一固定走行於氣管與食道之間**之血管環，壓迫**氣管後壁與食道前壁**→**食道攝影側位呈「前方」壓跡（食道前方、氣管後方）**（為與其他血管環鑑別之要點）；嚴格而言並非真正完整之血管環。[^1][^4]
+- **分型與 ring-sling complex（考點）**：**Type I**（carina 正常 T4-5）；**Type II（低位 carina T6＋中間支氣管被多節完整軟骨環瀰漫狹窄＝ring-sling complex）→ 雙側或左肺過度充氣**；完整軟骨環之長段氣管狹窄見於約 **2/3（up to ~65%）** 病例，且**狹窄範圍常遠超動脈壓迫處，伴低位 carina 與水平化支氣管**。[^1][^4][^5]
 - **治療原則**：**LPA 自異常起源切下、重植回主肺動脈**；**若有完整軟骨環或相關氣管支氣管畸形（Type IIA/IIB）則另須氣管支氣管重建**——單純吊索復位無法解決內在性氣管狹窄。[^1][^2][^3]
 
 ## 放射科醫師影像判讀重點
@@ -43,6 +43,8 @@ dateRev: 2026-07-10
 [^1]: **Tier 1** Richardson RR, Rattan MS. *Pulmonary Sling*（Pediatrics, Airway, Dx）. STATdx，last updated 2021-10-28. Elsevier（實際查證 accessed 2026-07-03，34 references）：LPA 起自近端 RPA 後方、繞遠端氣管形成吊索、**唯一走行氣管食道間之血管環**（食道前方壓跡）；Type I（carina T4-5）vs Type II（低 carina T6＋中間支氣管完整軟骨環瀰漫狹窄＝ring-sling complex）；完整軟骨環 2/3（軸位圓形小口徑氣管）；CTA 首選（免插管、3D、界定狹窄長度/嚴重度）；治療 LPA 重植主肺動脈、Type IIA/IIB 加氣管支氣管重建；新生兒喘鳴/缺氧、Type II 預後差（相關異常 60–80%）。
 [^2]: 官方 2020 詳解（題目所引）；原引 *Left pulmonary artery sling complex: computed tomography and hypothesis of embryogenesis*. Ann Thorac Surg 2007;84(5):1645-50——氣管內在狹窄為主、狹窄範圍常超過吊索壓迫、單純吊索重植無法解決內在氣管狹窄；已由 [^1] STATdx 一手來源查核（ring-sling complex 之完整軟骨環須另做氣管重建）。
 [^3]: 官方 2020 詳解（題目所引）；原引 *Excessive Tracheal Length in Patients With Congenital Tracheal Stenosis*. Ann Thorac Surg 2019;108(1):138-145——先天性氣管狹窄病患氣管較正常人長、carina 角度較寬，此特徵有利滑動氣管整形術，並可恢復氣管支氣管形態。
+[^4]: *Pulmonary artery sling*. Radiopaedia.org, rID 8932, DOI 10.53347/rID-8932（搜尋摘要 accessed 2026-07-12）——左肺動脈異常起自右肺動脈、於氣管與食道之間走行；食道攝影側位見氣管後方/食道前方壓跡；非真正完整之血管環；約 65% 合併瀰漫性氣管狹窄。
+[^5]: Berdon WE, Baker DH, Wung JT, et al. *Complete cartilage-ring tracheal stenosis associated with anomalous left pulmonary artery: the ring-sling complex.* Radiology 1984;152(1):57-64（DOI 10.1148/radiology.152.1.6729137，PMID 6729137；摘要/citation accessed 2026-07-12）——首創 ring-sling complex 一詞；氣管狹窄範圍常遠超動脈壓迫處、伴低位 carina 與水平化支氣管。
 
 ## 題目
 > [!question]- 下面有關「環形氣管-左肺動脈吊索症候群」(ring-sling syndrome)的描述何者錯誤？ (2020-261)
