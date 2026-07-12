@@ -1199,7 +1199,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Cardiac MR Findings and Potential Diagnostic Pitfalls in Patients Evaluated for Arrhythmogenic Right Ventricular Cardiomyopathy; RadioGraphics 2014; 34:1553–1570；2021 交換考官方詳解 PDF p20",
-      "explanation": "常見於年輕人，但在兒童中較少見。男女發病比例相同\n\n【2021 官方詳解】\nArrhythmogenic right ventricular cardiomyopathy (ARVC) is a familial cardiomyopathy characterized by fibrofatty replacement of the myocardium, ventricular tachycardia, and ventricular dysfunction that affects primarily the right ventricle (RV). This disease is not common but can be seen more frequently in young adults, and clinical manifestations range from no symptoms to lethal arrhythmia and sudden death.\nThe major or minor imaging criteria of the original 1994 task force criteria included the presence of global or regional RV dilatation (evaluated subjectively), RV microaneurysm, or regional hypokinesia (3). Microaneurysms of the RV (dyskinesia in systole with persistent diastolic bulging) and segmental RV dilatation were removed from the imaging criteria.\n2010 Task Force Criteria:\nthe combination of (a) regional RV wall motion abnormality, such as akinesia, dyskinesia, or dyssynchrony, and (b) reduced global RV function or increased RV end-diastolic volume index (quantitative assessment) is necessary to meet major or minor criteria at cardiac MR imaging\nMicro aneurysm 可以有，但已經從新criteria 移除",
+      "explanation": "答案 B。ARVC 是一種遺傳性（多為 desmosome 基因突變）心肌病，典型好發於年輕成人與運動員，並非年長者，因此「more frequent in elder patients」是與事實相反的敘述，為本題所選的偽敘述。其餘均為 ARVC 的正確特徵：(A) 右心室心肌被脂肪與纖維組織進行性取代（fibrofatty replacement）是其病理本質；(C) 病灶區可見局部動脈瘤樣膨出（收縮期外凸、舒張期持續鼓起），好發於 triangle of dysplasia（RVOT、RV 心尖、下基底壁）；(D) 局部右心室室壁運動異常，如 akinesia、dyskinesia 或收縮不同步，是 2010 Task Force 影像準則的核心項目。→ [[arrhythmogenic-rv-dysplasia]]",
       "images": [],
       "concepts": [
         "arrhythmogenic-rv-dysplasia"
@@ -1238,7 +1238,7 @@
       ],
       "correctAnswer": "C",
       "reference": "(J Am Coll Cardiol Img 2015;8:597–611)；2021 交換考官方詳解 PDF p333",
-      "explanation": "fatty infiltration 以前有，但在2010Task Force診斷criteria中拿掉，且正常心肌也可能會有。照criteria，fibrofatty replacement要看切片。2020 Padua criteria可用CE-MRI看fibrofatty change\n\n【2021 官方詳解】\nC: Fatty infiltration in the right ventricle => no longer part of the diagnostic criteria\nMajor cardiac MRI diagnostic criteria for ARVD:\n*Regional RV akinesia or dyskinesia or dyssynchronous RV contraction and 1 of the following:\n-ratio of RV end-diastolic volume to BSA ≥110 mL/m2 (male) or ≥100 mL/m2 (female)\n-RV ejection fraction ≤40%\nMinor cardiac MRI diagnostic criteria are:\n*regional RV akinesia or dyskinesia or dyssynchronous RV contraction and 1 of the following:\nratio of RV end-diastolic volume to BSA ≥100 to <110 mL/m2 (male) or ≥90 to <100 mL/m2 (female)\nRV ejection fraction >40% to ≤45%\nFatty infiltration in the right ventricle (and occasionally in the left ventricle) , but this can also be seen in normal myocardium and is no longer part of the diagnostic criteria",
+      "explanation": "答案 C。依 2010 修訂版 Task Force 準則，心臟 MR 診斷 ARVC 必須「局部右心室運動異常」加上「定量指標」兩者並列；RV 心肌脂肪浸潤本身從未列入準則，且正常心肌、陳舊性梗塞與其他心肌病亦可見脂肪訊號，纖維脂肪取代須靠心內膜切片證實，故「RV wall fatty infiltration」不是心臟 MR/CT 的診斷準則，為本題所選。其餘皆為現行準則採用之定量或形態項目：(A) RV 舒張末容積經體表面積校正 ≥110 mL/m²（男）或 ≥100 mL/m²（女）為 major；(B) RVEF ≤40% 為 major；(D) 局部 RV dyskinesia 或室壁 scalloping 屬必備的區域性室壁運動異常。→ [[arvc-diagnostic-criteria]]",
       "images": [],
       "concepts": [
         "arvc-diagnostic-criteria"
@@ -1276,7 +1276,7 @@
       ],
       "correctAnswer": "D",
       "reference": "JACC: Cardiovascular Imaging 2016;9:1099-1113；2021 交換考官方詳解 PDF p364",
-      "explanation": "【2021 官方詳解】\nVulnerable plaque (at least two of following high risk feature)\nNapkin ring sign:\nlow attenuating eccentric structure (necrotic core),\nthat is surrounded by a thin ring-like hyperattenuating rim and may represent vulnerable cap.\n\n⚠️ 本題含影像（官方詳解 PDF 第 364 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。冠狀動脈 CT 上易損（高風險）斑塊的指標是「低密度」而非高密度——富含脂質的壞死核心呈 low-attenuation plaque（多 <30 HU），因此「high attenuation」與易損斑塊特徵相反，為本題所選的非特徵。其餘三者皆為公認的高風險斑塊徵象（一般需符合至少兩項）：(A) positive remodeling，斑塊處管壁向外代償擴張、管腔反而保留；(B) spotty calcification，直徑 <3 mm 的點狀鈣化；(C) napkin-ring sign，中央低密度核心外圍環繞一圈較高密度的「餐巾環」。→ [[ccta]]",
       "images": [
         "2021-032-2.png"
       ],
@@ -1319,7 +1319,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Identifying, Characterizing, and Classifying Congenital Anomalies of the Coronary Arteries; RadioGraphics 2012; 32:453–468；2021 交換考官方詳解 PDF p18",
-      "explanation": "【2021 官方詳解】\nArtery courses downward (hammock sign) below the crista supraventricularis in Transseptal Variant.\nOrigin from the Pulmonary Artery\nOrigin of a coronary artery from the pulmonary artery is usually discovered owing to severe clinical manifestations. In this entity, the LMCA more commonly originates from the pulmonary artery. This pattern was described in 1956 and retains the eponym of the authors who described it (Bland-Garland-White syndrome). This entity is also known by the acronym ALCAPA (anomalous origin of the left coronary artery from the pulmonary artery). Since its initial description, ALCAPA has been recognized to constitute 0.25%–0.5% of cases of congenital heart disease\nPatients usually present with symptoms of myocardial ischemia or with left ventricular volume overload due to left-to-right shunting. The entire coronary arterial system is usually markedly enlarged and tortuous as a result of increased flow. ALCAPA syndrome is among the differential diagnoses for massive cardiomegaly in the newborn period, a finding that is one of the classic features of this entity at presentation\nPrepulmonic Course\nNormally, the major coronary arteries are never found in a position anterior to the pulmonary outflow tract or pulmonary artery. When a prepulmonic artery is present, it usually poses no hemodynamic consequences, although some case reports posit an association with angina (52).\nPrepulmonic coronary arteries are particularly common in tetralogy of Fallot, in which the prepulmonic artery may complicate the surgical approach to correction of pulmonary outflow tract stenosis (53). Usually, the prepulmonic vessel is the LMCA (Fig 11), although the RCA may originate from the LAD artery or LMCA and subsequently take a prepulmonic course\nInterarterial Course\nSeveral reasons have been suggested for the association between interarterial coronary arteries and sudden cardiac death. It has been postulated that interarterial coronary arteries tend to have a more slitlike orifice and that the slitlike orifice is more prone to occlusion.\n\n⚠️ 本題含影像（官方詳解 PDF 第 18 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。hammock sign（冠狀動脈向下走行、位於室上嵴 crista supraventricularis 下方、肺動脈瓣下 RVOT 層面）屬於 transseptal（subpulmonic）變異，而非 interarterial course，因此「in interarterial course」是張冠李戴的錯誤敘述，為本題所選。其餘皆正確：(A) ALCAPA（左冠狀動脈起源自肺動脈，Bland-White-Garland）因整個冠狀系統擴大扭曲，是新生兒期巨大心臟的鑑別診斷之一；(C) 橫越右心室流出道的 prepulmonic 冠狀動脈好發於法洛四聯症，術前須標明以免傷及跨越 RVOT 之血管；(D) transseptal 為良性走行，不具裂縫狀（slit-like）或橢圓形開口——裂縫狀開口是惡性 interarterial/intramural 走行的高風險形態。→ [[acaos]]",
       "concepts": [
         "acaos"
       ],
@@ -1363,7 +1363,7 @@
       ],
       "correctAnswer": "B",
       "reference": "1. Abdom Radiol (2017) 42:2346–2357 DOI: 10.1007/s00261-017-1137-0 2. Journal of Vascular Surgery Volume 45, Issue 1, Supplement , S5-S67, Janjuary DOI:10.1016/j.jvs.2006.12.037；10.1007/s00261-017-1137-0；2021 交換考官方詳解 PDF p88",
-      "explanation": "Infrarenal aorta.\n\n【2021 官方詳解】\nB. Aortoiliac occlusive disease (AIOD), a subset of peripheral arterial disease (PAD), is characterized by\nsevere atherosclerotic stenosis or occlusion of the infrarenal aorta and/or iliac arteries.\n\n⚠️ 本題含影像（官方詳解 PDF 第 88 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。主動脈髂動脈阻塞病（Leriche syndrome）侵犯的是「腎動脈以下（infrarenal）」的腹主動脈及/或髂動脈，並非從腎上（suprarenal）主動脈開始，因此 B 的「from suprarenal aorta」為錯誤敘述，為本題所選。其餘皆正確：(A) 本病又稱 Leriche syndrome，典型三聯為跛行、股動脈搏動消失與陽痿；(C) 因側枝循環發達（如腰動脈-髂動脈側枝），不少病人可長期無明顯症狀；(D) 依 TASC II 分類，瀰漫性的腎下主動脈髂動脈阻塞屬 type D 病灶，傳統上以外科繞道手術為首選治療。→ [[pad-peripheral-arterial]]",
       "concepts": [
         "pad-peripheral-arterial"
       ],
@@ -1412,7 +1412,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Journal of Cardiovascular Magnetic Resonance 2017;19:75；2021 交換考官方詳解 PDF p363",
-      "explanation": "會降低native T1值的原因有fat 或iron overload。\n\n【2021 官方詳解】\nIron overload cardiomyopathy = siderotic cardiomyopathy\nANS: see the table\nT1 mapping :\ncalculate the T1 time of a certain tissue and display them voxel-vice on a parametric map\nT1\n=>Reflects changes in intracellular and extracellular compartments\nAffected by collagen, protein, water (edema), lipids and iron\nNative T1\n=> T1 time measured in the absence of a contrast agent\nPostcontrast T1\n=>Measurement after the application of gadolinium\nCalculate extracellular volume (ECV), a surrogate parameter for the extracellular matrix after adjusting for\nhematocrit\n\n⚠️ 本題含影像（官方詳解 PDF 第 363 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。native T1 值上升代表組織含水量增加或間質空間擴大，下降則見於細胞內脂質或鐵沉積。鐵過載型（siderotic）心肌病因鐵的順磁性效應會使 native T1「下降」而非上升，因此 D 為錯誤敘述，為本題所選。其餘皆正確：(A) 心肌炎的心肌水腫使 native T1 上升；(B) 心臟類澱粉沉積造成細胞外間質擴張，native T1 上升；(C) Anderson-Fabry 病因醣鞘脂在細胞內堆積（脂質過載），native T1 下降，且常在左心室肥厚出現前即已降低。→ [[myocardial-t1-mapping]]",
       "concepts": [
         "myocardial-t1-mapping"
       ],
@@ -1456,7 +1456,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Multimodality Imaging of Transposition of the Great Arteries; RadioGraphics 2021; 41:338–360；2021 交換考官方詳解 PDF p7",
-      "explanation": "CCTGA: 心臟下半相反，rare。又稱L-TGA。\n\n【2021 官方詳解】\n- Congenitally corrected transposition of the great arteries (CCTGA) is a rare heart defect in which the heart's lower half is reversed. It is also called L-TGA. It is different from and much less common than “regular” transposition of the great arteries (TGA or D-TGA).\n- Deoxygenated blood enters the RA and through the mitral valve flows into the discordant LV and then to the PA\n\n⚠️ 本題含影像（官方詳解 PDF 第 7 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。CCTGA（L-TGA）為房室不一致加上心室大動脈不一致的「雙重不一致」，兩處錯接互相抵銷而達生理矯正。全身回流的去氧血是進入「右心房」，再經二尖瓣流入不一致的形態學左心室、送往肺動脈；C 卻寫成去氧血「進入左心房（LA）」，房室腔搞錯，為本題所選的錯誤敘述。其餘皆正確：(A) 原始心管為左旋（L-looping）而非一般的 D-loop；(B) 主動脈接形態學右心室、肺動脈接形態學左心室；(D) 含氧的肺靜脈血回左心房，經三尖瓣流入不一致的形態學右心室，再送入主動脈。→ [[d-tga]]",
       "images": [
         "2021-036-1.jpg"
       ],
@@ -1538,7 +1538,7 @@
       ],
       "correctAnswer": "E",
       "reference": "2021 交換考官方詳解 PDF p328",
-      "explanation": "困難\nC會出血之後鈣化。B少見。E不會。\n\n【2021 官方詳解】\n- pericarditis: tuberculous, fungal, viral or pyogenic\n- previous trauma (hemopericardium) , cardiac surgery, hemopericardium due to anticoagulant\n- collagen vascular diseases: SLE, RA, scleroderma\n- uremic pericarditis\n- later sequelae of rheumatic heart disease\n- malignant pericardial involvement (e.g. mediastinal teratoma)\n- post-radiotherapy\n- idiopathic\n- calcified pericardial mass or cyst\nConstrictive pericarditis due to methysergide therapy (case report)",
+      "explanation": "答案 E。心包鈣化來自心包發炎或積血後的鈣沉積，凡能造成心包炎或心包積血的病因都可能導致鈣化。皮肌炎（dermatomyositis）的鈣化以皮下與肌肉軟組織的 calcinosis 為主，並不累及心包，因此 E 是唯一的「except」，為本題所選。其餘皆為公認或有文獻記載的成因：(A) 縱膈放射治療是現代心包鈣化與縮窄性心包炎的常見成因；(C) 抗凝血治療造成心包積血、日後鈣化；(D) 良性（含感染性、尤以結核最厚最典型）心包炎後遺鈣化；(B) methysergide 所致的縮窄性心包炎雖僅屬罕見的案例報告層級，仍歸於「可致」之列。→ [[pericardial-calcification]]",
       "images": [],
       "concepts": [
         "pericardial-calcification"
@@ -5580,7 +5580,7 @@
       ],
       "correctAnswer": "A",
       "reference": "J Cardiovas Computed Tomogr 2017;11:105-110；2021 交換考官方詳解 PDF p90",
-      "explanation": "【2021 官方詳解】\n????\n他給的Reference 只有解釋選項C 跟 D.\nQCT-diastole overestimated coronary diameter stenosis by 5.7%-8.5% while QCT-systole overestimated coronary diameter stenosis by 9.4%-11.9% (p < 0.05).",
+      "explanation": "答案 A。CT 血管攝影相較侵入性導管攝影（ICA）本就系統性「高估」狹窄，且收縮期高估幅度大於舒張期；若在兩個皆屬良質的期相看到不同狹窄程度時，一律挑「較嚴重」的那一期，只會放大這種系統性高估，因此 A 的作法錯誤，為本題所選。其餘皆正確：(B) CAD-RADS 3、4 病灶宜至少取兩個期相綜合判讀；(C) 相較 ICA，收縮期量得的管徑狹窄較舒張期明顯（QCT 收縮期高估約 9.4–11.9%、舒張期約 5.7–8.5%）；(D) 鈣化病灶因 blooming 高估更明顯，而 CAD-RADS 1 的良質影像通常不需多期相評估。→ [[ccta]]",
       "images": [],
       "concepts": [
         "ccta"
@@ -5622,7 +5622,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Cardiac CT. Marc Deway. Springer. ISBN 978-3-642-14021-1；10.1016/j.ejrad.2006.02.009；2021 交換考官方詳解 PDF p91",
-      "explanation": "【2021 官方詳解】\n64>16>8>4.\n10.1016/j.ejrad.2006.02.009\n320-detector row dynamic volume CT (DVCT) can cover the whole heart within one heartbeat. Heart rate variation did not influence the image quality of coronary arteries.\n10.1007/s00330-012-2497-z\nDual-head contrast agent injector for saline flush saves contrast doses.",
+      "explanation": "答案 E。A 到 D 都是正確的心臟 CT 技術要求，因此「以上皆非（None of the above）」反而是唯一錯誤的選項，為本題所選。逐項來看：(A) 64 排 CT 在時間/空間解析度、影像品質與診斷準確度上優於 16 排；(B) 320 排容積 CT 與第二代雙源 CT 可在單一心跳內完成整顆心臟造影；(C) 心臟 CT 需靠心電圖進行 gating（回溯式）或 triggering（前瞻式）以凍結心臟運動；(D) 雙頭高壓注射器可在對比劑後接生理食鹽水沖洗，推進團注、節省對比劑並減少上腔靜脈與右心的條紋偽影。四者皆真，故答案為 E。→ [[ccta]]",
       "images": [],
       "concepts": [
         "ccta",
@@ -5661,7 +5661,7 @@
       ],
       "correctAnswer": "B",
       "reference": "https://www.ahajournals.org/doi/10.1161/CIRCIMAGING.119.009834；10.1161/CIRCIMAGING.119.009834；2021 交換考官方詳解 PDF p92",
-      "explanation": "【2021 官方詳解】\nB. Aortic valve 在Diastole 應該是關的…….\nSevere aortic stenosis (AS) is currently defined by an aortic valve area (AVA) <1.0 cm2 and/or a mean transaortic pressure gradient (MPG) >40 mm Hg and/or a peak aortic jet velocity (Vmax) >4 m/s.",
+      "explanation": "答案 B。主動脈瓣口面積必須在「收縮期」（瓣膜開啟時）量測，舒張期主動脈瓣是關閉的，量到的會是閉合線而非開口，因此 B 把定義寫成「舒張期」開口面積 <100 mm² 是錯的，為本題所選；同樣數值改成「收縮期」的 C 才正確。其餘：(A) 退化性鈣化性主動脈瓣狹窄好發於 70 歲以上長者；(D) 狹窄的主動脈瓣通常伴隨明顯鈣化。補充：severe AS 一般定義為瓣口面積 <1.0 cm²（<100 mm²）、平均壓力梯度 >40 mmHg 或最大流速 >4 m/s。→ [[aortic-stenosis]]",
       "images": [],
       "concepts": [
         "aortic-stenosis"
@@ -5699,7 +5699,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiology Review Manual 8th Edition page 2057；2021 交換考官方詳解 PDF p93",
-      "explanation": "【2021 官方詳解】\nB. 全世界的Prevalence 差太多，但是題目參考Radiology Review Manual (歐美數據), 所以應該是0.5-0.6%.\nTAO is observed worldwide but is more common in countries where tobacco is heavily used, especially among people who make homemade cigarettes from raw tobacco (sometimes mixed with cannabis) [6]. As such, TAO is most prevalent in the Mediterranean, Middle East, and Asia [7,8]. In other parts of the world, among patients with arterial occlusive disease, the prevalence varies widely, ranging from 0.5 to 5.6 percent in Western Europe, 15 to 66 percent in Korea and Japan, and as high as 45 to 63 percent in India\nUpToDate\nBuerger disease, also known as thromboangiitis obliterans, is a chronic, non-atherosclerotic, inflammatory, thrombotic arteritis found predominantly in young male smokers.\nRadiopaedia",
+      "explanation": "答案 B。Buerger disease 與大量吸菸高度相關，並非病因不明（unknown etiology），且「約佔所有慢性血管疾病 20%」的比例明顯過高——依 Radiology Review Manual 的歐美數據，其盛行率僅約 0.5–0.6%（亞洲、中東較高），因此 B 為錯誤敘述，為本題所選。其餘皆正確：(A) 又稱 thromboangiitis obliterans（血栓閉塞性血管炎），與吸菸強相關；(C) 表現為足弓（instep）跛行合併遠端潰瘍，戒菸後症狀緩解、復抽則復發；(D) 好發下肢（約 80%）與上肢（10–20%），呈跳躍性病灶，且無全身性動脈粥狀硬化背景。→ [[buerger-disease]]",
       "images": [],
       "concepts": [
         "buerger-disease"
@@ -6405,7 +6405,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Semin Roentgenol . 2008 Apr;43(2):154-66. doi: 10.1053/j.ro.2008.01.010.；10.1053/j.ro.2008.01.010.；2021 交換考官方詳解 PDF p112",
-      "explanation": "【2021 官方詳解】\nPulmonary Vein and Left Atrium Anatomy (Two superior two inferior)\nRight superior vein: RUL + RML\nLeft superior vein: LUL (+lingual)\nInferior vein: lower lobes\nLargest: right superior pulmonary vein\nCronin and coworkers: RSPV: ostia was 17.6 mm; the LSPV ostia was 16.6 mm, compared with 17.1 mm for the RIPV ostia, and 14.8 mm for theLIPV\nVariant:\nCommon trunk (left more common)\nAccessory vein (Right: separate RMPV, LMPV for lingula )",
+      "explanation": "答案 D。四條主要肺靜脈中口徑最小者是「左下肺靜脈（LIPV）」（開口徑約 14.8 mm），而非右下肺靜脈（RIPV，約 17.1 mm），因此 D 為錯誤敘述，為本題所選。其餘皆正確：(A) 約七成人為兩上兩下共四條主要肺靜脈直接匯入左心房；(B) 右上葉與右中葉的靜脈多引流入右上肺靜脈（RSPV）；(C) 四條中以 RSPV 口徑最大（約 17.6 mm）。整體口徑排序約為 RSPV > RIPV > LSPV > LIPV。→ [[pulmonary-vein-anatomy]]",
       "images": [],
       "concepts": [
         "pulmonary-vein-anatomy"
@@ -6443,7 +6443,7 @@
       ],
       "correctAnswer": "C",
       "reference": "European Radiology https://doi.org/10.1007/s00330-019-06357-8 /Published online: 5 September 2019 y (2020) 30:2627–2650；10.1007/s00330-019-06357-8；2021 交換考官方詳解 PDF p113",
-      "explanation": "【2021 官方詳解】\nACA guideline 2020版\n\n⚠️ 本題含影像（官方詳解 PDF 第 113 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。依 2017 年 ESC/EACTS（與 ACC/AHA）瓣膜性心臟病指引，對不適合外科手術的嚴重症狀性主動脈瓣狹窄病人，經導管主動脈瓣置換（TAVI）的適應症要求預期術後能改善生活品質且預期存活大於一年（>12 個月），因此答案為 C；3、6、24 個月皆非指引所訂門檻。此門檻的用意在於避免對預期壽命過短、無法從介入獲益的病人施行手術。→ [[tavi]]",
       "images": [
         "2021-159-1.jpg"
       ],
@@ -6483,7 +6483,7 @@
       ],
       "correctAnswer": "A",
       "reference": "European Radiology https://doi.org/10.1007/s00330-019-06357-8 /Published online: 5 September 2019 y (2020) 30:2627–2650；10.1007/s00330-019-06357-8；2021 交換考官方詳解 PDF p115",
-      "explanation": "【2021 官方詳解】\nStandardisation of scanning protocols\nA contrast enhanced ECG gated or triggered scan of the aortic root (include LVOT, snnulus, sinus of Valsalva, sinotubular junction, ascending aorta, coronary ostia)\nContrstructed with 1mm or less slice thickeness\nAt least 64 slice or dual source scanner is required\nAt least including a systolic phase\nAt least from subclavian arteries to superficial femoral arteries\nNTG and beta blockers are contraindicated in severe aortic stenosis and should not be administered prior to scanning.",
+      "explanation": "答案 A。與冠狀動脈 CTA 常規使用 beta-blocker 降心率、NTG 擴張血管不同，這兩種藥物在嚴重主動脈瓣狹窄病人屬「禁忌」，掃描前不應給予，因此 A 為錯誤敘述，為本題所選。其餘皆正確：(B) TAVI 術前 CT 須評估主動脈瓣、瓣環（annulus）、竇部（sinus）與入路動脈；(C) 為取得無心臟運動偽影的影像，需採 ECG gating；(D) 主動脈瓣環在收縮期最大，故瓣環量測以收縮期為主，以免選到過小的人工瓣。→ [[aortic-stenosis]]",
       "images": [],
       "concepts": [
         "aortic-stenosis"
@@ -8326,7 +8326,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch. 17, P302；2021 交換考官方詳解 PDF p166",
-      "explanation": "【2021 官方詳解】\nThe overall incidence of NSF was 36.5 cases per 100 000 gadolinium-enhanced magnetic resonance (MR) examinations between 2003 and 2006\nfour cases per 100 000 gadolinium-enhanced MR examinations between 2007 and 2008 after screening for NSF risk was instituted (Fisher exact test, P = .001).",
+      "explanation": "答案 B。腎因性全身纖維化（NSF）的實際發生率遠低於 1%——在導入腎功能篩檢前（2003–2006 年）約每 10 萬次釓增強 MR 檢查 36.5 例，導入篩檢後（2007–2008 年）更降至約 4 例，換算不到萬分之四，因此把機率說成「約 1%」明顯高估，B 為錯誤敘述，為本題所選。其餘皆正確：(A) 臨床 CMR 目前僅使用含釓對比劑；(C) NSF 為間質纖維化過程，可致皮膚硬結、四肢攣縮與多重器官纖維化，甚至死亡；(D) 主要風險因子為 eGFR <30、急性腎損傷及末期腎病透析者；(E) 目前尚無 eGFR ≥30 的慢性腎病人發生 NSF 的案例。→ [[nephrogenic-systemic-fibrosis]]",
       "images": [],
       "concepts": [
         "nephrogenic-systemic-fibrosis"
@@ -8368,7 +8368,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch17, P308；2021 交換考官方詳解 PDF p167",
-      "explanation": "【2021 官方詳解】\nCardiac MRI is safe with joint replacements, coronary stents, ASD/PFO closure devices, sternal wires and most prosthetic heart valves.",
+      "explanation": "答案 C。關節置換等骨科植入物並非 MRI 禁忌，頂多產生局部金屬（磁化率）偽影，可安全接受掃描，因此「應避免核磁共振造影」是錯誤觀念，為本題所選。其餘皆正確：(A) 絕大多數機械與生物人工瓣膜在 1.5T（多數亦含 3T）為 MR-safe/conditional；(B) 冠狀動脈金屬支架為非/弱鐵磁材質，不會因 MRI 移位或受損；(D) 幽閉恐懼病人可考慮給予口服鎮定劑協助完成檢查；(E) MR-conditional 的植入式心律去顫器在符合廠商設定與院內標準化流程下，於特定影像條件仍可安全掃描。→ [[cardiac-mri-safety]]",
       "images": [],
       "concepts": [
         "cardiac-mri-safety"
@@ -8410,7 +8410,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Heart Disease_ Eugene Braunwald (2019年11版) Ch 17, P311；2021 交換考官方詳解 PDF p168",
-      "explanation": "【2021 官方詳解】\n“Attenuation artifact” observed in a nuclear stress test is due to the reduction in the intensity / strength of signal when it travels through various body tissues of different densities, such as breast tissues, chest wall, and organs under the diaphragm",
+      "explanation": "答案 B。衰減假影（attenuation artifact）是核醫 SPECT 特有的問題——放射訊號穿越乳房、胸壁、橫膈下臟器等不同密度組織時強度衰減，產生偽性灌注缺損；CMR 灌注並不會產生這類衰減假影，因此「SPECT 和 CMR 均可能造成衰減假影」是錯誤敘述，為本題所選。其餘皆正確：(A) CMR 以釓劑動態灌注成像，無游離輻射；(C) CMR 空間解析度約為 SPECT 的三到四倍，利於偵測心內膜下缺血；(D) 對多血管冠心病的偵測準確度 CMR 高於 SPECT（CE-MARC 敏感度 86.5% vs 66.5%）；(E) SPECT（rest/redistribution 或搭配 FDG-PET）與 CMR（延遲對比強化 LGE）皆可評估心肌存活性。→ [[cmr-vs-spect-mpi]]",
       "images": [],
       "concepts": [
         "cmr-vs-spect-mpi"
@@ -12109,7 +12109,7 @@
       ],
       "correctAnswer": "D",
       "reference": "8th edition radiology review manual. P.274      74……；2021 交換考官方詳解 PDF p271",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 271 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。唐氏症（trisomy 21）的先天性心臟病表現涵蓋以上全部，故選「all of the above」。逐項來看：(A) 心內膜墊缺損（房室中隔缺損 AVSD）是唐氏兒最常見的心臟缺損，約占 40–50%；(B) 心室中隔缺損（VSD）亦常見；(C) 法洛四聯症（tetralogy of Fallot）也是唐氏症可見的先天性心臟病之一。因三者皆為其表現，答案為 D。→ [[endocardial-cushion-defect]]",
       "concepts": [
         "endocardial-cushion-defect"
       ],
@@ -12153,7 +12153,7 @@
       ],
       "correctAnswer": "B",
       "reference": "8th edition radiology review manual. P.772；2021 交換考官方詳解 PDF p273",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 273 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】維持答案 B。依 Dähnert《Radiology Review Manual》TIA 危險因子為：高血壓、心臟疾病(含 prior MI／angina／瓣膜病／心律不整／CHF)、糖尿病、抽菸(弱)。alcohol 與 PM2.5 均不在此清單，故 B(prior MI)為列出之危險因子、D(all)不成立。",
+      "explanation": "答案 B。依 Dähnert《Radiology Review Manual》，TIA／缺血性中風的危險因子為高血壓、心臟疾病（含先前心肌梗塞、心絞痛、瓣膜病、心律不整、心衰竭）、糖尿病與抽菸（弱相關）。選項中的 prior myocardial infarction（先前心肌梗塞）屬心臟疾病類危險因子，明確列於此清單，故為所選；alcohol 與 PM2.5 均不在 Dähnert 所列的傳統危險因子中，因此 D（all of the above）不成立。⚠️ 須注意：若採更廣的臨床流行病學觀點，酒精與空氣污染（PM2.5）亦被視為血管危險因子，該框架下答案會傾向 D；本題依清單與院內醫師裁決維持 B（以 Dähnert 為據），未更動 correctAnswer，醫師覆核時可留意此分歧。→ [[tia-stroke-risk-factors]]",
       "concepts": [
         "tia-stroke-risk-factors"
       ],
