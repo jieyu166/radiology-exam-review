@@ -1496,7 +1496,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Diagnostic Imaging-Chest Part 2（II-2-44~47）；2021 交換考官方詳解 PDF p17",
-      "explanation": "common. 晚期表現。\nD. 正確。年輕亞洲女性。\n\n【2021 官方詳解】\nStenosis or coartation are common.\nTakayasu arteritis (TAK), also known as idiopathic medial aortopathy or pulseless disease, is a granulomatous large vessel vasculitis that predominantly affects the aorta and its major branches. It may also affect the pulmonary arteries. The exact cause is not well known but the pathology is thought to be similar to giant cell arteritis.\nThere is a strong female predominance (F: M ~ 9:1), an increased prevalence in Asian populations, and it tends to affect younger patients (<50 years of age). The typical age of onset is at around 15-30 years of age.\nThere is segmental and patchy granulomatous inflammation of the aorta which results in stenosis, thrombosis and aneurysm formation.\nhttps://radiopaedia.org/articles/takayasu-arteritis",
+      "explanation": "答案 A。本題問「何者為錯」，A 稱狹窄或縮窄（stenosis／coarctation）不常見，恰恰相反——高安氏動脈炎為節段性肉芽腫發炎，纖維化區會造成血管狹窄與閉塞，狹窄其實是最常見的結構後果，故 A 為錯誤敘述（正解）。B 正確：屬肉芽腫性大血管炎，主要侵犯主動脈及其主要分支（亦可及肺動脈）。C 正確：破壞區可退化形成動脈瘤。D 正確：典型好發於 40 歲以下的年輕（尤其亞洲）女性，女男比約 8–9:1。→ [[takayasu-arteritis]]",
       "images": [],
       "concepts": [
         "takayasu-arteritis"
@@ -1576,7 +1576,7 @@
       ],
       "correctAnswer": "C",
       "reference": "明書名,頁次 https://radiopaedia.org/articles/avulsion-fractures-of-the-kn ee；2021 交換考官方詳解 PDF p30",
-      "explanation": "【2021 官方詳解】\n- Osgood-Schlatter disease- Avulsion injury at tibial tuberosity\n- Gerdy tubercle is the eponymous name for the lateral condyle of the proximal tibia (where it is located anterolaterally). It is where the iliotibial band and anterior tibialis muscle inserts.",
+      "explanation": "答案 C。Gerdy 結節位於脛骨前外側，是腸脛束（iliotibial band）的附著點，其撕脫並非發生在脛骨粗隆，故 C 的配對錯誤；脛骨粗隆（tibial tuberosity）才是髕韌帶附著處，該處的牽引性撕脫即 Osgood-Schlatter。其餘配對正確：A Stieda fracture 為內側股骨髁的內側副韌帶撕脫（即 Pellegrini-Stieda）；B Segond fracture 為脛骨外側平台邊緣的外側關節囊韌帶／前外側韌帶（ALL）撕脫，常伴前十字韌帶斷裂；D Sinding-Larsen-Johansson 為髕骨下極的牽引性撕脫。→ [[avulsion-fracture-attachments]]",
       "images": [],
       "concepts": [
         "avulsion-fracture-attachments"
@@ -1614,7 +1614,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p4",
-      "explanation": "<30歲年輕人已有半數有OA的情形。\n退化性關節炎（OA）是一種漸進性退化性疾病，是椎間facet joints疼痛最常見的原因之一。根據 Eubanks 等人的研究，30歲以下的成年人中已超過一半有 OA 的跡象，而60歲以上的長者幾乎全部都有，且以 L4-L5 節段最常見，其次是 L3-L4 和 L5-S1。Ref: [2021 RG Differential Diagnosis of Facet Joint Disorders](https://pubs.rsna.org/doi/full/10.1148/rg.2021200079)\n## Facet cysts\n## AS\n\n## [[Gout]]\n- Gout: 代謝疾病，monosodium urate crystal沉積在synovium跟關節旁軟組織\n- 常見於30-50歲中老年人\n- involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n- 可能合併CPPD/pseudogout\n- 長時間不治療會引起tophi沉積\n- X光: sensitivity較低，慢性變化有osteophytes, periarticular erosions, subchondral cysts, and bone scleroses,可能和tumors, abscesses, tuberculosis, and degenerative spinal diseases搞混\n- CT: 看tophi引起的bony erosion好用。50%病人有\n\t- DECT: Sensitivity 90%, Specificity 83%。但對spine 敏感度較低，無法排除。\n- MRI: 有時不容易區分gout跟感染，腫瘤。\n\t- Tophi T1: low-iso intensity，T2: low-high intensity。會有homogeneous or peripheral enhancement\n\n【2021 官方詳解】\nB. OA can already be found in just over half of adults under 30 years of age\nOsteoarthritis (OA) is a progressive degenerative disease that is the most frequent cause of pain in facet joints. According to Eubanks et al, signs of OA can already be found in just over half of adults under 30 years of age and in all elderly people after 60 years of age, with the prevalence and degree of OA\nbeing higher at the L4-L5 level, followed by L3-L4 and L5-S1.",
+      "explanation": "答案 B。約 50% 的 30 歲以下成人其實已可見某種程度的 facet 退化性關節病，故「30 歲以下找不到 OA」的敘述錯誤。其餘正確：A facet OA 為進行性退化疾病，是小面關節疼痛最常見的原因；C facet 退化隨年齡增加，約 95% 的 60 歲以上長者皆有某種程度退化，可謂幾乎人人都有；D 盛行率與嚴重度以 L4–L5 節段最高，其次為 L3–L4、L5–S1。→ [[facet-joint-osteoarthritis]]",
       "images": [],
       "concepts": [
         "facet-joint-osteoarthritis"
@@ -1652,7 +1652,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p5",
-      "explanation": "involve **peripheral joints**較多，但也會出現在axial bones，在脊椎L4-5最多\n\n## [[CPPD]]\n\n- =pseudogout，calcium pyrophosphate crystals沉積在cartilage跟關節旁軟組織，導致的發炎反應，也會導致**chondrocalcinosis**軟骨鈣化症\n- 在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital ligaments。黃韌帶、後縱韌帶和寰枕韌帶，較少影響椎間盤\n\n【2021 官方詳解】\n- Gouty lesions usually involve peripheral joints such as the interphalangeal, ankle, and wrist joints. May also involve structures in the axial skeleton.\nGout is a metabolic disease that results from monosodium urate crystal deposits in the synovium and juxta-articular tissues. The peak incidence occurs at 30–50 years of age, affecting primarily middle-aged to elderly men and postmenopausal women (25–27). Gouty lesions usually involve peripheral joints such as the interphalangeal, ankle, and wrist joints but may also involve structures in the axial skeleton such as laminae, pedicles, vertebral bodies, ligaments, facet joints, intervertebral disks, and epidural spaces.",
+      "explanation": "答案 C。痛風病灶主要侵犯周邊關節（以第一蹠趾關節 podagra 最典型，其次手足小關節、踝、腕），呈不對稱多關節分布；中軸骨（椎板、椎弓根、椎體、韌帶、facet、椎間盤、硬膜外腔）雖「可能」受侵，但並非主要部位，故稱「主要侵犯中軸骨」為錯。其餘正確：A 痛風為單鈉尿酸鹽（MSU）結晶沉積於滑膜與關節旁組織所致的代謝性關節病；B 發病高峰約 30–50 歲；D CT 對痛風石造成的骨糜爛與軟組織侵犯顯示佳，骨糜爛見於約半數（50%）慢性痛風石病例。→ [[gout-imaging]]",
       "images": [],
       "concepts": [
         "gout-imaging"
@@ -1690,7 +1690,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Differential Diagnosis of Facet Joint Disorders; RadioGraphics 2021; 41:543–558；2021 交換考官方詳解 PDF p6",
-      "explanation": "在大關節knee and hip較多，Spine不常見，有的話多在頸部的ligamentum flavum黃韌帶, posterior longitudinal ligaments後縱韌帶, and atlanto-occipital ligaments寰枕韌帶，較少影響椎間盤\n\n## Trauma\n## Infection\n## Tumors\n### OO\n### Multiple myeloma\n### GCT\n### Osteochondroma\n\n【2021 官方詳解】\nC. occurs more frequently in large joints such as the knee and hip.\nCalcium pyrophosphate deposition disease (CPPD), also known as pseudogout, represents an inflammatory response to the deposition of calcium pyrophosphate crystals in hyaline cartilage, fibrocartilage, and periarticular structures.\nThe deposition of crystals leads to chondrocalcinosis, which can be identified at radiography and occurs more frequently in large joints such as the knee and hip and, rarely, in the spine, where it most commonly involves the cervical region\nIn the spine, crystals can be found most commonly in the ligamentum flavum, posterior longitudinal ligaments, and atlanto-occipital liga ments and less frequently can affect the intervertebral disks.",
+      "explanation": "答案 C。CPPD 造成的軟骨鈣化好發於大關節（膝、髖、腕、恥骨聯合），脊椎受侵犯相對罕見；因此「較常發生於脊椎」的敘述錯誤——正確應為大關節優先、脊椎為少見的例外（例外時才多在頸椎）。其餘正確：A CPPD 又稱假性痛風（pseudogout）；B 其本質為對焦磷酸鈣結晶沉積於透明軟骨、纖維軟骨與關節周圍結構的發炎反應；D 一旦侵犯脊椎，結晶最常見於黃韌帶、後縱韌帶與寰枕韌帶，較少影響椎間盤。→ [[cppd-chondrocalcinosis]]",
       "images": [],
       "concepts": [
         "cppd-chondrocalcinosis"
@@ -1733,7 +1733,7 @@
       ],
       "correctAnswer": "D",
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p339",
-      "explanation": "【2021 官方詳解】\nA. Imaging both feet with a head coil appears more efficient but results in suboptimal imaging of both\nsides. Each foot should be imaged separately.\nB.\nThe calf should be included if there is clinical concern for proximal spread of infection.\nHowever, this is relatively rare , and the large field of view renders interpretation of the small bones of the foot limited because they are subject to volume averaging effects\nC.\nOn T2-weighted spin-echo and especially fast spin-echo imaging, fat in marrow and subcutaneous tissues is hyperintense, which can obscure subtle areas of edema. Fat suppression should be used when available unless there is significant artifacts\nE.\nIV gadolinium contrast material facilitates identification of abscesses, sinus tracts, and devitalized regions; differentiation of cellulitis from diabetic soft-tissue edema; and differentiation of bland fluid from\nseptic arthritis and septic tenosynovitis",
+      "explanation": "答案 D。STIR 為非選擇性、依脂肪短 T1 反轉來抑制訊號的序列，對磁場不均（足部小骨眾多、易有磁化率變化）相對不敏感，故能提供比頻率選擇性（frequency-selective）更均勻的脂肪抑制，適合糖尿病足評估，D 為真。其餘為錯：A 用 head coil 同時掃兩足看似有效率，實則影像品質不佳，每隻腳應分開成像；B FOV 不應一律放大，過大的 FOV 會使足部小骨受體積平均效應影響而判讀受限，僅在臨床懷疑感染向近端擴散時才納入小腿；C T2 加權須使用脂肪抑制，否則骨髓與皮下脂肪的高訊號會掩蓋細微水腫；E 靜脈注射釓對比劑有助於辨識膿瘍、竇道與壞死區，並鑑別蜂窩組織炎、感染性關節炎與腱鞘炎。→ [[msk-mri-fat-suppression-magic-angle]]",
       "images": [],
       "concepts": [
         "msk-mri-fat-suppression-magic-angle"
@@ -1776,7 +1776,7 @@
       ],
       "correctAnswer": "B",
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p340",
-      "explanation": "【2021 官方詳解】\nA.\nPilon fractures usually are due to axial loading injuries, such as a fall from a height\nC\nThe risk of avascular necrosis of the talus is increased with subluxation or dislocation of the subtalar\nor ankle joint but is unrelated to involvement of the anterior process.\nD.\nFractures of the sustentaculum tali usually are due to vertical shear forces from axial loading injuries\nE.\nThe blood supply to the talar dome consists of branches of the anterior tibial artery that enter the bone at\nthe talar neck",
+      "explanation": "答案 B。距骨頸骨折若延伸穿過距骨頂（talar dome）關節面，會造成關節面不平整，日後創傷後關節炎發生率高，B 為正確敘述。其餘為錯：A pilon 骨折多為軸向負荷機轉（如高處墜落），而非外旋損傷；C 距骨缺血性壞死（AVN）風險與距下關節或踝關節的半脫位／脫位相關，與是否侵犯 anterior process 無關；D sustentaculum tali 骨折多源於軸向負荷造成的垂直剪力，而非三角韌帶（deltoid ligament）撕脫；E 距骨頂的血供來自脛前動脈分支，於距骨頸（talar neck）進入，而非 anterior process。→ [[talus-anatomy]]",
       "images": [],
       "concepts": [
         "talus-anatomy"
@@ -1819,7 +1819,7 @@
       ],
       "correctAnswer": "A",
       "reference": "American Journal of Roentgenology. 2009;193: S5-S9. 10.2214/AJR.07.7088；10.2214/AJR.07.7088；2021 交換考官方詳解 PDF p342",
-      "explanation": "【2021 官方詳解】\nNeoplastic bone marrow involvement\nisointense or hypointense to muscle on T1WI.\nhyperintense to skeletal muscle on fluid-sensitive sequences.\nlacks normal signal dropout on out-of-phase imaging, due to the lack of remaining normal bone marrow fat.\nRed marrow:\nhyperintense signal to muscle on T1WI\nhyperintense to skeletal muscle on fluid-sensitive sequences\nsignal dropout on out-of-phase imaging.",
+      "explanation": "答案 A。腫瘤浸潤會取代正常骨髓脂肪，故在 T1 呈與肌肉等訊號（或更低），在流體敏感序列高於肌肉；因病灶內缺乏殘存脂肪，反相位（out-of-phase／opposed-phase）影像不會出現訊號下降，A 正確。相對地，正常紅髓 T1 高於肌肉、且反相位會掉訊號。故其餘為錯：B、D 稱 T1 高於肌肉，與「脂肪被取代」的取代性病變矛盾（較像正常紅髓）；C、D 稱反相位有訊號下降，屬正常紅髓（含微觀脂肪）的表現；E 稱 T2 低於肌肉，與腫瘤在流體敏感序列呈高訊號相反。→ [[bone-marrow]]",
       "images": [],
       "concepts": [
         "bone-marrow"
@@ -1857,7 +1857,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Dahnert Radiology Review Manual 7th ed., p. 122；2021 交換考官方詳解 PDF p254",
-      "explanation": "【2021 官方詳解】\n- Common in diaphysis of appendicular skeleton (lower > upper extrimity); usually monomelic with at least 2 bones involved in dermatomal distribution. Rare in axial skeleton.",
+      "explanation": "答案 A。Melorheostosis 好發於四肢長骨（下肢多於上肢），沿骨皮質呈「流蠟樣」流動、依硬節（sclerotome）分布並可跨關節，並非以幹骺端（metaphysis）為好發部位，故 A 不是其影像特徵（本題要選「非」特徵）。其餘皆為真正特徵：B dripping candle wax（流蠟）徵象為其招牌；C 可造成肢體變形、攣縮與肢體長度差異；D 可與 osteopoikilosis 併存（同屬硬化性骨發育不良、共同 LEMD3 突變）。→ [[sclerosing-bone-dysplasias]]",
       "images": [],
       "concepts": [
         "sclerosing-bone-dysplasias"
@@ -1895,7 +1895,7 @@
       ],
       "correctAnswer": "B",
       "reference": "p80 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p59",
-      "explanation": "【2021 官方詳解】\nB. Osgood-Schlatter disease (tibial osteochondrosis) is seen in active adolescents, especially those who jump and kick, usually affecting boys between ages 10-15 years.",
+      "explanation": "答案 B。Osgood-Schlatter disease 是活躍青少年的脛骨粗隆牽引性骨骺炎，好發男性 10–15 歲、女性 8–12 歲，並非成人較常見，故 B 敘述不正確。其餘正確：A 其本質為脛骨粗隆的骨軟骨病（osteochondrosis）；C 脛骨粗隆骨化中心的碎裂化通常在受傷後約 3–4 週才顯現；D 病人典型以前膝疼痛、局部軟組織腫脹與壓痛表現。→ [[osgood-schlatter-disease]]",
       "images": [],
       "concepts": [
         "osgood-schlatter-disease"
@@ -1983,7 +1983,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics 2012; 32: 721-740；2021 交換考官方詳解 PDF p288",
-      "explanation": "from Radiographics. 2012 May-Jun;32(3):721-40.\n- As the left vagus nerve passes anterolateral to the aortic arch, the left RLN branches off and passes below the arch posterior to the ligamentum arteriosum. It then ascends within the left tracheoesophageal groove to enter the larynx posteriorly at the level of the cricoarytenoid joint.\n- Right vagus nerve descends posterolateral to the internal and common carotid arteries from the right jugular foramen, giving rise to the right RLN as it passes anterior to the right SCA. The right RLN then passes posterior to the right brachiocephalic artery before ascending to the larynx within the right tracheoesophageal groove.\n\n【2021 官方詳解】\nThe left RLN exits from the vagus nerve at the level of the aortic arch, then courses posteromedially beneath it, and thus passes through the aorticopulmonary window posterior to the ligamentum arteriosum. It then ascends vertically through the superior mediastinum to reach the tracheoesophageal groove.\n\n⚠️ 本題含影像（官方詳解 PDF 第 288 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。左喉返神經（RLN）是在左迷走神經行經主動脈弓前外側時分出的，分支後繞行主動脈弓下方（位於動脈韌帶後方、經主肺動脈窗），再沿左氣管食道溝上行入喉，故其自迷走神經分出的高度在「主動脈弓」。A 顱底、B 頸動脈球、C 甲狀軟骨皆非左 RLN 分出之處；而右側 RLN 才是在較高處繞右鎖骨下動脈折返，與左側不同。→ [[posterior-mediastinum-nerves]]",
       "images": [
         "2021-049-1.png"
       ],
@@ -2027,7 +2027,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Diagnostic Imaging Ultrasound, 1st edition, Section 11, P76-79；2021 交換考官方詳解 PDF p404",
-      "explanation": "最常見是 Pleomorphic adenomas of the salivary glands (mixed tumor)\n\n【2021 官方詳解】\nA. Pleomorphic adenomas of the salivary glands (mixed tumor) , 1st common",
+      "explanation": "答案 A。本題問 Warthin tumor「除何者以外」皆相關，A 稱它是主要唾液腺最常見的良性腫瘤為錯——最常見的良性唾液腺腫瘤是多形性腺瘤（pleomorphic adenoma／mixed tumor），Warthin 居次，故 A 不適用於 Warthin。B 正確：Warthin 與吸菸有明確相關。C 正確：超音波下典型為卵圓形、低回音、邊界清楚，且常含多個無回音區。D 正確：也可呈單純囊腫樣，需與其他囊性腫瘤鑑別。E 正確：約 10–60% 可雙側或多發，為 Warthin 的特色。→ [[salivary-gland-ultrasound]]",
       "images": [],
       "concepts": [
         "salivary-gland-ultrasound"
@@ -2069,7 +2069,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Diagnostic Imaging Ultrasound, 1st edition, Section 11, P58-61; P72-75；2021 交換考官方詳解 PDF p405",
-      "explanation": "【2021 官方詳解】\nD.\nparotid gland: 84%\ncommoner in the superficial lobe\nsubmandibular gland: 8%\nminor salivary glands: 6.5%",
+      "explanation": "答案 D。本題問混合瘤（pleomorphic adenoma）「除何者以外」皆相關，D 稱它最常發生於下頜下腺為錯——多形性腺瘤絕大多數發生於腮腺（約 84%，且多在淺葉），下頜下腺僅約 8%、小唾液腺約 6.5%。A 正確：為主要唾液腺最常見的良性腫瘤。B 正確：即又名 pleomorphic adenoma。C 正確：通常為單發、單側。E 正確：超音波下呈低回音、邊界清楚、分葉狀、具後方聲增強，並可含鈣化。→ [[salivary-gland-ultrasound]]",
       "images": [],
       "concepts": [
         "salivary-gland-ultrasound"
@@ -2107,7 +2107,7 @@
       ],
       "correctAnswer": "C",
       "reference": "1. McCartyJL,LeungLY,PetersonRB,SittonCW,SarrajA,RiascosRF,BrinjikjiW. IschemicInfarctioninYoungAdults:AReviewforRadiologists.Radiographics.2019 Oct;39(6):1629-1648. doi: 10.1148/rg.2019190033. PMID: 31589580. 2.DouZ,ChenH,ChengH,LiuG.Moyamoyasyndromeafterbacterialmeningitis. Pediatr Investig. 2018 Jul 16;2(2):134-136. doi: 10.1002/ped4.12048. PMID: 32851248; PMCID: PMC7331372.；10.1148/rg.2019190033.；2021 交換考官方詳解 PDF p396",
-      "explanation": "【2021 官方詳解】\nThyroid disease: Graves’ disease….\nMoyamoya syndrome after bacterial meningitis => case report\nKasabach-Merritt syndrome (hemangioma thrombocytopenia syndrome)\nRapidly growing vascular tumor => thrombocytopenia, microangiopathic hemolytic anemia and consumptive coagulopathy\nDLP based method:\nCT dose estimates = DLP* conversion factor\nDLP= CTDIvol *Scan length\nC: 20mGy*30cm*0.002mSv/mGy*cm= 1.2mSv\n\n⚠️ 本題含影像（官方詳解 PDF 第 396 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。本題問何者「非」moyamoya syndrome 的確立病因，C 的 Kasabach-Merritt 症候群為正解——它是快速增長的血管腫瘤所致的血小板減少、微血管病性溶血與消耗性凝血病，與 moyamoya 型的進行性內頸動脈末端狹窄／基底側支增生無關。A 神經纖維瘤病第一型（屬 phakomatoses）與 B 唐氏症皆為公認的相對常見相關病因；D 細菌性腦膜炎後續發 moyamoya 雖較罕見，但有病例報告支持，屬已知病因之一，故非答案。→ [[moyamoya]]",
       "concepts": [
         "moyamoya"
       ],
@@ -2157,7 +2157,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2014; 34:1047–1061  (1058-1059 頁)；2021 交換考官方詳解 PDF p302",
-      "explanation": "和 lipid peak重疊\n\n【2021 官方詳解】\nD: Lipid peak\nLactate, marker of anaerobic metabolism\ncharacteristic doublet peak at 1.3 ppm on spectra with a short echo time (35 msec)\ninversion below the baseline with intermediate echo times (135–144 msec).\nInversion allows lactate peak to be distinguished from the adjacent lipid peak (at 0.9–1.3 ppm), which does not invert at intermediate echo times\n\n⚠️ 本題含影像（官方詳解 PDF 第 302 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題問「何者錯誤」，D 稱 lactate peak 與 GABA peak 重疊為錯——lactate 峰（1.3 ppm）實際是與相鄰的 lipid 峰（約 0.9–1.3 ppm）重疊，可利用 intermediate TE（135–144 ms）使 lactate doublet 反轉至基線下、而 lipid 不反轉，藉此區分二者。A 正確：lactate 為無氧代謝的標記。B 正確：於 1.3 ppm 呈雙峰（doublet，源自 J-coupling），短 TE 時可見。C 正確：intermediate TE 時 lactate 反轉至基線下方。→ [[mr-spectroscopy-brain]]",
       "images": [
         "2021-053-1.png"
       ],
@@ -2198,7 +2198,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiographics 2012; 32: 721-740；2021 交換考官方詳解 PDF p287",
-      "explanation": "ipsilateral arytenoids cartilage都被固定在前內側。\nAD. 同側擴張\n\n【2021 官方詳解】\nMost sensitive signs on axial CT of vocal cord paralysis (VCP):\n- ipsilateral piriform sinus dilatation => (A)\n- medial rotation and thickening of the aryepiglottic fold => (B)\n- ipsilateral laryngeal ventricle dilatation => (D)\nAnother helpful sign of VCP:\nAnteromedial displacement of the ipsilateral arytenoid cartilage with medial displacement of the posterior vocal cord margin.",
+      "explanation": "答案 C。本題問何者「不是」聲帶麻痺（VCP）的 CT 徵象，C 稱同側杓狀軟骨向外側（lateral）移位為錯——聲帶麻痺時因後環杓肌（主要外展肌）失能，杓狀軟骨反而被固定並向「前內側（anteromedial）」半脫位、後段聲帶邊緣內移，方向與 C 相反。A、B、D 皆為軸位 CT 上最敏感的正確徵象：A 同側梨狀窩擴張、B 杓會厭皺襞內旋並增厚、D 同側喉室擴張（皆因患側喉部鬆弛而充氣擴張）。→ [[larynx-hypopharynx-subsite-anatomy]]",
       "images": [],
       "concepts": [
         "larynx-hypopharynx-subsite-anatomy"
@@ -2236,7 +2236,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 206, 223, 234.；2021 交換考官方詳解 PDF p43",
-      "explanation": "記憶/基本題\n\n## Location\n### Intra-axial v.s. extra-axial\n口試常被問\n如何確定是extra-axial lesion？\n- 是否有CSF cleft，血管是否往內推\n- Gray/white matter是否有buckled的型態？WM buckling sign\n- **沿著dura長不能判斷是intra/extra-axial**\n\n### 不同位置的DDx\n\n接下來要講的outline\n針對不同位置的pathology做介紹\n\n### Extra-axial\n\n### Intraventricular\n\n### Pineal\n\n### Sellar\n\n### CP angle\n\n### Foramen of Magnum\n\n### Skull base\n\n### Intra-axial\n- intra-axial為supra/infratentorial，小孩/大人 的排列組合\n\n# Summary\n最後複習一下金三角\n\n念書有問題，這三本教科書都很棒(Osborn's brain, DI: Brain, Neuroradiology: The requisites)\n\n【2021 官方詳解】\n嗯嗯\nFat appears bright on T1 weighted SE images, and fluids appear bright on T2 weighted images.",
+      "explanation": "答案 A（bright；bright）。脂肪的縱向磁化回復快（短 T1），在 T1 加權影像上呈高訊號（亮）；水／體液具長 T2，橫向磁化衰減慢，在 T2 加權影像上呈高訊號（亮）。因此脂肪於 T1WI、體液於 T2WI 皆為 bright。其餘選項（bright；dark、dark；bright、dark；dark）皆與此物理原理不符。→ [[mri-tissue-signal-t1-t2-basics]]",
       "images": [],
       "concepts": [
         "mri-tissue-signal-t1-t2-basics"
@@ -2274,7 +2274,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p173",
-      "explanation": "新分類GBM都是IDH-widetype。不會再有IDH-mutant GBM。A對B錯。\n\n【2021 官方詳解】\n- glioblastoma will be reserved for IDH-wildtype tumors and remain grade 4\n- astrocytoma will be definitionally IDH-mutant and graded based on histological and molecular phenotype to grades 2 through 4\n- anaplastic astrocytoma and anaplastic oligodendroglioma will no longer be recognized as distinct diagnoses but merely grade 3 or grade 4 astrocytomas or grade 3 oligodendroglioma respectively depending on molecular characteristics",
+      "explanation": "答案 B。本題問「何者錯誤」，B 稱所有膠質母細胞瘤都會是 IDH-mutant 為錯——依 cIMPACT-NOW 與 2021 WHO CNS 分類，glioblastoma 一詞已專指 IDH-wildtype，並維持 grade 4；帶 IDH 突變者不再稱 GBM，改歸為 astrocytoma。故 A（所有 GBM 皆 IDH-wildtype）正確，與 B 恰相反；C（所有 diffuse astrocytoma 皆 IDH-mutant）正確；D（diffuse astrocytoma 依組織學與分子表型分為 grade 2 至 4）正確。→ [[gbm]]",
       "images": [],
       "concepts": [
         "gbm",
@@ -2317,7 +2317,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p175",
-      "explanation": "Update 3: 病理需有 Presence of necrosis and/or florid microvascular proliferation，或這三種：+7/-10, TERT promoter mutation, EGFR amplification。\nA是本來就有的。BCD是新的。\n\n【2021 官方詳解】\nThe presence of necrosis and/or florid microvascular proliferation is a cornerstone for the histopathological diagnosis of a diffuse astrocytic glioma, IDH–wild-type as glioblastoma (WHO grade IV).\nThe third cIMPACT-NOW update presents molecular criteria that can be used for upgrading the diagnosis of such histologically lower-grade, IDH–wild-type, astrocytomas to glioblastoma, IDH–wild-type (WHO grade IV). This concerns the following 3 criteria or any combination thereof: concurrent gain of whole chromosome 7 and loss of whole chromosome 10 (+7/–10); TERT promoter mutation; epidermal growth factor receptor (EGFR) amplification.",
+      "explanation": "答案 E。本題問哪一個分子表型「不」屬於 IDH-wildtype glioblastoma 的擴充診斷準則，正解是 E（以上皆屬於）——依 2021 WHO／cIMPACT-NOW update 3，在成人、瀰漫性星狀細胞瘤且 IDH-wildtype 的前提下，除了 A（壞死或微血管增生，屬原有組織學標準）之外，另納入三項分子標準：B（TERT promoter mutation）、C（EGFR 基因擴增）、D（第 7 對染色體整體獲得＋第 10 對整體缺失，+7/−10）。只要具備任一項，即可將組織學看似低度的 IDHwt astrocytoma 升級診斷為 glioblastoma（grade 4）。因此四者皆為納入項目，答案為 E。→ [[gbm]]",
       "images": [],
       "concepts": [
         "gbm"
@@ -2359,7 +2359,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Assoc Prof Frank Gaillard and Dr Mendel Castle et al. cIMPACT recommendations for the classification of diffuse gliomas 2020.  Retrieved from https://radiopaedia.org/；2021 交換考官方詳解 PDF p174",
-      "explanation": "全部都正確。\n\n【2021 官方詳解】\nIDHmt astrocytoma will be graded based on histology and the presence or absence of a novel genetic parameter, CDKN2A/B homozygous deletion (note the use of Arabic numerals, another proposed change):\n- astrocytoma, IDH-mutant, WHO grade 2\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that is well-differentiated and lacks histologic features of anaplasia. Mitotic activity is not detected or low. Microvascular proliferation, necrosis and CDKN2A/B homozygous deletions are absent\n- astrocytoma, IDH-mutant, WHO grade 3\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that exhibits focal or dispersed anaplasia and displays significant mitotic activity. Microvascular proliferation, necrosis and CDKN2A/B homozygous deletions are absent\n- astrocytoma, IDH-mutant, WHO grade 4\n  - a diffusely infiltrative astrocytic glioma with an IDH1 or IDH2 mutation that exhibits microvascular proliferation or necrosis or CDKN2A/B homozygous deletion or any combination of these features",
+      "explanation": "答案 E。cIMPACT-NOW（2020）／WHO CNS5 對 IDH-mutant 瀰漫性膠質瘤的四項敘述皆成立，故「全部正確」為正解。(A) 正確：第五版廢除「IDH-mutant glioblastoma」一詞，glioblastoma 僅保留給 IDH-wildtype，IDH-mutant 星細胞瘤改採型內分級並可至 grade 4。(B) 正確：IDH-mutant astrocytoma 依組織學加上 CDKN2A/B 純合缺失此一新分子參數分級，並改以阿拉伯數字書寫。(C) 正確：凡 2016 版以微血管增生或壞死定義之 IDH-mutant glioblastoma，一律重新歸為 IDH-mutant astrocytoma WHO grade 4。(D) 正確：舊 diffuse／anaplastic astrocytoma 若帶 CDKN2A/B 純合缺失即升為 grade 4（即使無微血管增生或壞死）。→ [[who-cns-tumor-grading]]",
       "images": [],
       "concepts": [
         "who-cns-tumor-grading"
@@ -2398,7 +2398,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Kerrigan JF, Parsons A, Tsang C, Simeone K, Coons S, Wu J. Hypothalamic hamartoma: Neuropathology and epileptogenesis. Epilepsia. 2017;58 Suppl 2:22-31. doi:10.1111/epi.13752；10.1111/epi.13752；2021 交換考官方詳解 PDF p171",
-      "explanation": "【2021 官方詳解】\nHypothalamic hamartoma\nClinical presentation: gelastic seizures, visual problems, early onset of puberty and behavioral problems\nMR:\n- T1: isointense to cerebral cortex\n- T1 C+ (Gd): no contrast enhancement\n- T2\n  - iso- to hyperintense to the cerebral cortex\n  - the higher the proportion of glial cells, the higher the T2 signal",
+      "explanation": "答案 B。下視丘錯構瘤本質是非腫瘤性的先天灰質異位，注射對比劑後「不強化」，故「通常呈強烈強化（B）」為錯誤敘述——此不強化特性正是與其他會強化的下視丘／漏斗腫塊（生殖細胞瘤、顱咽管瘤、星細胞瘤、LCH）鑑別的關鍵。(A) 正確：可引起 gelastic seizure（大笑性癲癇），多見於大而無柄（sessile）的病灶。(C) 正確：中樞性性早熟為可能症狀，多見於小而有柄（pedunculated）的病灶。(D) 正確：T2WI 上病灶對大腦皮質呈等至高訊號，膠質細胞比例越高訊號越高。→ [[hypothalamic-hamartoma]]",
       "images": [],
       "concepts": [
         "hypothalamic-hamartoma"
@@ -2518,7 +2518,7 @@
       ],
       "correctAnswer": "C",
       "reference": "de Oliveira AM, Paulino MV, Vieira APF, et al. Imaging Patterns of Toxic and Metabolic Brain Disorders. Radiographics. 2019;39:1672-1695.；2021 交換考官方詳解 PDF p51",
-      "explanation": "【2021 官方詳解】\nThe characteristic imaging finding of chronic hepatic encephalopathy is bilateral and symmetric T1 hyperintensity involving the globi pallidi and substantiae nigrae, most likely due to Manganese accumulation",
+      "explanation": "答案 C。慢性肝性腦病的雙側對稱蒼白球與黑質 T1 高訊號是「錳（manganese）」沉積所致，非選項所述的「鎂（magnesium）」，故 C 敘述錯誤。(A) 正確：Wernicke 腦病好發於第三腦室周圍、頂蓋板與導水管周圍灰質及殼核。(B) 正確：metronidazole 腦毒性幾乎都呈雙側對稱小腦（齒狀核）病灶。(D) 正確：蒼白球對缺氧敏感，其雙側對稱壞死是一氧化碳中毒的標誌。(E) 正確：腦橋外滲透壓性脫髓鞘常對稱侵犯基底核、視丘與大腦半球白質。→ [[toxic-metabolic-brain-imaging]]",
       "images": [],
       "concepts": [
         "toxic-metabolic-brain-imaging"
@@ -2556,7 +2556,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Neurographics, Volume 7, Number 6, 1 November 2017, pp. 416-436(21).；2021 交換考官方詳解 PDF p54",
-      "explanation": "想到Global cortical atrophy (GCA) scale 3\nABD都是NPH的特徵。\n\n【2021 官方詳解】\n- “Knife-blade” configuration of gyri is seen in frontotemporal atrophy (frontotemporal dementia, Pick’s disease).\nred = severe atrophy (knife-blade like)\nYellow = normal, spared.\nNormal pressure hydrocephalus radiologic signs: Ventriculomegaly (Evan’s index>0.3, temporal horn lateral ventricle >6mm, acute callosal angle); dilated Sylvian fissure, cingulate sulcus sign (posterior become narrower than anterior cingulate sulcus).\n\n⚠️ 本題含影像（官方詳解 PDF 第 54 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。「刀刃狀腦回（knife-blade gyri）」是額顳葉萎縮（額顳葉失智／Pick 病）嚴重局部萎縮的表現，並非 NPH 徵象；NPH 反而在高凸面呈現腦溝腦回擁擠，故 D 為「非」NPH 的典型放射徵象。(A) 正確：Evans index > 0.3（腦室擴大）。(B) 正確：callosal angle 變銳（acute，冠狀面 <90°）。(C) 正確：cingulate sulcus sign（後段腦溝較前段窄）。三者皆為 NPH 經典徵象，另可見 DESH 與 Sylvian fissure 擴大。→ [[normal-pressure-hydrocephalus]]",
       "images": [
         "2021-063-1.png"
       ],
@@ -4090,7 +4090,7 @@
       ],
       "correctAnswer": "C",
       "reference": "次 Rasool MN, Govender S. The skeletal manifestations of congenital syphilis. A review of 197 cases. J Bone Joint Surg Br. 1989 Nov;71(5):752-5. doi: 10.1302/0301-620X.71B5.2584243. PMID: 2584243.；10.1302/0301-620X.71B5.2584243.；2021 交換考官方詳解 PDF p31",
-      "explanation": "【2021 官方詳解】\n- A : Celery stalk metaphysis ( seen with congenital rubella, cytomegalovirus, toxoplasma, or syphilis infection) appearance of the metaphyses in a number of longitudinally aligned linear bands of sclerosis.\n- B: Metaphyseal lucent bands (LINGING) – Leukemia/Lymphoma, Infection (STORCH, including syphilis), Normal variation, Illness (rickets/scurvy), Neuroblastoma (mets), Growth arrest lines.\n- C : Symmetric localized demineralization and osseous destruction of the medial portion of the proximal tibial metaphysis (Wimberger sign / Wimberger corner sign). => Congenital syphilis.\n- Wimberger ring sign, often simply just called Wimberger ring, refers to a circular calcification surrounding the osteoporotic epiphyseal center of ossification in scurvy.",
+      "explanation": "答案 C。Wimberger ring sign 是壞血病（scurvy）的表現，指骨骺骨化中心周緣的環狀鈣化，並非先天梅毒的骨骼變化，故對「先天梅毒」而言 C 為錯誤選項。須注意先天梅毒的是名稱相近的 Wimberger sign（corner sign）＝近端脛骨內側幹骺端對稱性去礦化與骨破壞，兩者易混淆。其餘皆為先天梅毒（STORCH 感染）的幹骺端表現：A celery stalk（縱行線狀硬化）幹骺端、B 幹骺端透亮帶（metaphyseal lucent bands）、D 幹骺端鋸齒狀鋸切（sawtooth metaphyseal serration）。→ [[scurvy-skeletal]]",
       "images": [],
       "concepts": [
         "scurvy-skeletal"
@@ -4128,7 +4128,7 @@
       ],
       "correctAnswer": "C",
       "reference": "明書名,頁次 Osborn’s brain - Ch36 Posterior Fossa Malformations；2021 交換考官方詳解 PDF p32",
-      "explanation": "【2021 官方詳解】\nMega Cisterna Magna has enlarged mega cisterna magna freely communicates with the fourth ventricle, results in consistent absence of hydrocephalus.",
+      "explanation": "答案 C。Mega cisterna magna（大枕大池）是良性變異，與第四腦室「自由相通」且「不」造成水腦；選項 C 稱其「不相通、導致水腦」為錯誤敘述。(A) 正確：典型 Dandy-Walker malformation 有第四腦室囊狀擴大、竇匯上抬、小腦（蚓部）發育不全與後顱窩擴大。(B) 正確：旋轉發育不全之蚓部型後顱窩大小正常、第四腦室呈鑰匙孔（keyhole）開口。(D) 正確：Blake pouch cyst 因 Blake pouch 開窗失敗，第四腦室與蜘蛛膜下腔不通而導致水腦。→ [[posterior-fossa-malformations]]",
       "images": [],
       "concepts": [
         "posterior-fossa-malformations"
@@ -4634,7 +4634,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Front. Oncol., 04 June 2019  https://doi.org/10.3389/fonc.2019.00440；10.3389/fonc.2019.00440；2021 交換考官方詳解 PDF p53",
-      "explanation": "【2021 官方詳解】\n雖然Choline > NAA, 但還有看到NAA (intra-axial tumor) @2ppm, 所以排除Meningioma.\n\n⚠️ 本題含影像（官方詳解 PDF 第 53 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。譜線上雖然 Choline > NAA，但仍可測得 NAA（2.02 ppm），代表病灶位於含神經元的腦實質內、屬內軸（intra-axial）腫瘤；腦膜瘤是外軸腫瘤、不含神經元故幾乎測不到 NAA、且常見 alanine（約 1.5 ppm）峰，因此在「仍見 NAA」的譜線上最不可能是腦膜瘤，故選 D。(A) 淋巴瘤、(B) 高惡性度膠質瘤、(C) 轉移皆為內軸腫瘤，可保留部分 NAA 而較可能。→ [[mr-spectroscopy-brain]]",
       "images": [
         "2021-114-1.png"
       ],
@@ -4674,7 +4674,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics 2006; 26:765–781；2021 交換考官方詳解 PDF p55",
-      "explanation": "【2021 官方詳解】\nB. 嚴格來說超過正負10度就算Pathological了．雖然paper也同意說小於正負30度可以是normal.\n\n⚠️ 本題含影像（官方詳解 PDF 第 55 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。閉口位時厚的關節盤後帶應位於髁狀突正上方約 12 點鐘位置，後帶與垂直線的夾角在「10 度以內」屬正常（95 百分位），「超過 10 度」即視為病理性位移；30 度只是 Rammelsberg 等為使判定與臨床症狀更相關而放寬的替代建議，並非「異常」的標準定義，故 B 稱「超過 30 度才算異常」為錯誤敘述。(A) 正確：最常見成因為 internal derangement（關節盤與髁狀突的異常相對關係）。(C) 正確：無症狀志願者中前移位盤可高達約 34%。(D) 正確：上 retrodiskal 層纖維破裂可造成顯著關節盤不穩定。→ [[temporomandibular-joint-disorder-mri]]",
       "images": [
         "2021-115-2.png"
       ],
@@ -4765,7 +4765,7 @@
       ],
       "correctAnswer": "C",
       "reference": "p104 Musculoskeletal imaging Case Review Series. Second Edition Joseph S Yu；2021 交換考官方詳解 PDF p58",
-      "explanation": "【2021 官方詳解】\nC. Kummell’s disease = osteonecrosis and collapse of a vertebral body.\nKümmell disease represents delayed (usually two weeks) vertebral body collapse due to ischemia and non-union of anterior vertebral body wedge fractures after major trauma.\nA. an intravertebral vacuum cleft and fluid may be seen",
+      "explanation": "答案 C。Kümmell disease 是重大外傷後椎體「延遲性」缺血性壞死與塌陷，其椎體內真空裂隙（vacuum cleft）是缺血壞死在低壓下聚積的氮氣，而非產氣菌感染所致；真空裂隙徵象反而「反對」感染，故「代表產氣性感染」的 C 為不正確敘述。其餘為真：A 椎體裂隙內的真空現象為其招牌影像；B 其本質即椎體缺血性壞死（AVN）；D 骨壞死在 MRI 可見 double line sign，與其病生理一致。→ [[kummell-disease]]",
       "images": [],
       "concepts": [
         "kummell-disease"
@@ -4807,7 +4807,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Quant Imaging Med Surg 2017;7(4):443-460；2021 交換考官方詳解 PDF p60",
-      "explanation": "【2021 官方詳解】\nE. Scapholunate ligmanet 離TFCC有點距離\n\n⚠️ 本題含影像（官方詳解 PDF 第 60 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。Scapholunate ligament（舟月韌帶）是位於舟骨與月骨之間的腕內在韌帶（intrinsic carpal ligament），與 TFCC 有一段距離，並非 TFCC 的組成，故 E 為「不屬於」者。其餘皆為 TFCC 的組成：A 關節盤本體（disc proper／triangular ligament）、B 背側橈尺韌帶（dorsal radioulnar ligament）、C 掌側橈尺韌帶（volar radioulnar ligament）、D 半月板同源物（ulnomeniscal homologue）。→ [[tfcc-palmer-classification]]",
       "images": [
         "2021-118-1.jpg",
         "2021-118-2.jpg"
@@ -4848,7 +4848,7 @@
       ],
       "correctAnswer": "D",
       "reference": "American Journal of Roentgenology. 2015;204: 374-385；2021 交換考官方詳解 PDF p61",
-      "explanation": "【2021 官方詳解】\nD. Heterogenous or avid enhancement due to the presence of abundant vascularity within the myxoid matrix\nOn CT, intramuscular myxomas appear as well-defined low-density lesions with minimal to mild contrast enhancement. On MRI, the lesions are well circumscribed with smooth or slightly lobulated margins, homogeneously hypointense on T1-weighted images, and extremely hyperintense on T2weighted images, similar to water . On contrast-enhanced images, lesions show variable heterogeneous, sometimes avid, contrast enhancement due to the presence of abundant vascularity within the myxoid matrix",
+      "explanation": "答案 D。肌肉內黏液瘤的黏液基質內富含血管，注射對比劑後多呈瀰漫性（約 57%）或厚周邊及間隔型（約 43%）的輕至中度異質強化，並非「僅周邊強化」，故 D 敘述錯誤。其餘正確：A CT 上呈邊界清楚的低密度病灶；B T1 呈低訊號；C T2 呈明顯高訊號、近似水的訊號。→ [[intramuscular-myxoma]]",
       "images": [],
       "concepts": [
         "intramuscular-myxoma"
@@ -5737,7 +5737,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Magn Reson Imaging Clin N Am 16 (2008) 1–18, page 2；2021 交換考官方詳解 PDF p94",
-      "explanation": "【2021 官方詳解】\nLateral ligaments of the ankle:\n  - ATFL (most likely to be injured)\n  - CFL\n  - PTFL (strongest)",
+      "explanation": "答案 C。踝關節外側副韌帶由前而後為 ATFL、CFL、PTFL，其中後距腓韌帶（PTFL）最強、最厚、也最少受傷，故為「最強者」。A 前距腓韌帶（ATFL）反而最弱、且在內翻扭傷中最常撕裂；B 跟腓韌帶（CFL）強度居中；D Spring ligament（跟舟足底／彈簧韌帶）屬內側／足底支撐結構，並非踝外側韌帶，為干擾選項。→ [[lateral-ankle-ligaments]]",
       "images": [],
       "concepts": [
         "lateral-ankle-ligaments"
@@ -5775,7 +5775,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Megnetic resonance Imaging orthopaedics and sport medicine 3rd edition volum 2 page 1822；2021 交換考官方詳解 PDF p95",
-      "explanation": "【2021 官方詳解】\nHemosiderin appears as low signal and may demonstrate blooming on T2* GRE sequences.",
+      "explanation": "答案 D。含鐵血黃素（hemosiderin）為順磁性物質，在 T2* 梯度回訊序列會造成局部磁場不均而產生 blooming（訊號外溢／流失），因此最能凸顯並記錄含鐵血黃素含量；GCTTS 富含細胞內外含鐵血黃素沉積，是此序列的判讀重點。A T2WI 加脂肪抑制、B T1WI、C inversion recovery 皆缺乏 T2* 的磁敏感效應，對 hemosiderin 的敏感度低、不會產生 blooming，故不適合記錄含鐵血黃素。→ [[giant-cell-tumor-tendon-sheath]]",
       "images": [],
       "concepts": [
         "giant-cell-tumor-tendon-sheath"
@@ -5813,7 +5813,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Magn Reson Imaging Clin N Am 23 (2015) 427–440 page 433；2021 交換考官方詳解 PDF p96",
-      "explanation": "【2021 官方詳解】\nReference 沒有說為什麼，我也查不到相關原因，可能就是個現象．\n\n⚠️ 本題含影像（官方詳解 PDF 第 96 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。anterior bundle 為 UCL（MCL 複合體）抗外翻的主力，附著於 coronoid 的 sublime tubercle。肘關節骨折-脫位時 coronoid 常為小的 tip 型骨折，位置在 sublime tubercle 遠端，故即使 radial head 與 coronoid 同時骨折，anterior bundle 的附著點常未被波及而保持完整。B transverse（Cooper's）bundle 幾乎不參與肘關節穩定；C posterior bundle 附著於內側鷹嘴，非本題所指；D none of above 錯，因 A 成立。→ [[ulnar-collateral-ligament-injury]]",
       "concepts": [
         "ulnar-collateral-ligament-injury"
       ],
@@ -5857,7 +5857,7 @@
       ],
       "correctAnswer": "A,B",
       "reference": "Osborn’s Brain 2nd edition P.529；2021 交換考官方詳解 PDF p97",
-      "explanation": "【2021 官方詳解】\n2-HG 是IDH mutation 腫瘤專屬的代謝物．所以只要是 IDH-Mutant 都會peak.\n2-hydroxyglutarate is a metabolite that accumulates in the brains of patients with IDH-1 mutated (IDH-1 positive) brain tumors, particularly diffuse low-grade gliomas. Although not in widespread clinical use, it is likely that 2-hydroxyglutarate, which resonates at 2.25 ppm, will be able to be detected in vivo using MR spectroscopy (MRS), and thus IDH-1 status could be detected preoperatively.\nRadiopaedia\n\n【醫師裁決 2026-07-11】答案更正 A → A,B。題幹可複選；2-HG peak 見於所有 IDH-Mutant astrocytoma，故 diffuse(A)與 anaplastic(B)皆對。答案 A→A,B。",
+      "explanation": "答案 A,B。2-hydroxyglutarate（2-HG）是 IDH 突變腫瘤專屬的代謝物——突變型 IDH 把 α-ketoglutarate 還原成 2-HG 並堆積，於 MRS 上約 2.25 ppm 出現波峰；只要是 IDH-mutant 的星細胞瘤都可測得，故 (A) Diffuse astrocytoma, IDH-mutant 與 (B) Anaplastic astrocytoma, IDH-mutant 皆為正解。(C) Diffuse astrocytoma, IDH-wild-type 與 (D) Glioblastoma, IDH-wild-type 為 IDH-wildtype，不產生 2-HG，故無此峰。本題為複選。→ [[2-hydroxyglutarate-idh-mutant-glioma]]",
       "images": [],
       "concepts": [
         "2-hydroxyglutarate-idh-mutant-glioma"
@@ -5895,7 +5895,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Anne G. Osborn, Gary L. Hedlund, Karen L Salzman: Osborn’s Brain Imaging, pathology and anatomy, 2nd edition.  Elsevier 2018. Page 1012-1014；2021 交換考官方詳解 PDF p98",
-      "explanation": "【2021 官方詳解】\nB. Bilateral symmetric calcification in the pulvinar region (thalamus). May also involve globus pallidus (basal ganglia). 但符合這個條件的比較像Fahr’s syndrome.\nC. Basilar artery dolichoectasia is characteristic of Fabry’s.",
+      "explanation": "答案 C。法布瑞氏症典型即會出現基底動脈 dolichoectasia（醣鞘脂堆積導致的血管病變），故「Never dolichoectasia（絕不會擴張迂曲）」為錯誤敘述。(A) 正確：X 性聯之溶酶體儲積症、α-半乳糖苷酶 A 缺乏所致醣鞘脂代謝障礙。(B) 正確：NECT 上可見雙側、常對稱之基底核與視丘鈣化。(D) 正確：醣鞘脂異常堆積於多種組織（血管內皮、腎、心、神經等）。→ [[fabry-disease-pulvinar]]",
       "images": [],
       "concepts": [
         "fabry-disease-pulvinar"
@@ -5933,7 +5933,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Osborn’s Brain 2nd edition P454-461；2021 交換考官方詳解 PDF p99",
-      "explanation": "【2021 官方詳解】\nB. F:M = 2:1",
+      "explanation": "答案 B。多發性硬化症女性多於男性（F:M 約 2:1），選項 B 寫成「F:M ≈ 1:2」把男女比顛倒，故為錯誤敘述。(A) 正確：發病年齡峰值約 20–40 歲。(C) 正確：視神經炎（optic neuritis）約半數日後發展為 MS。(D) 正確：T2 高訊號的 Dawson fingers（腦室周圍沿深髓靜脈垂直排列的斑塊）為典型徵象。→ [[multiple-sclerosis-imaging]]",
       "images": [],
       "concepts": [
         "multiple-sclerosis-imaging"
@@ -6639,7 +6639,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Enlarged Vestibular Aqueduct and Sensorineural Hearing Loss in Childhood. Arch Otolaryngol Head Neck Surg. 1995;121(1):23-28.；2021 交換考官方詳解 PDF p119",
-      "explanation": "【2021 官方詳解】\nLarge vestibular aqueduct syndrome\nOne of the most common congenital causes of sensorineural hearing loss.\nAn enlarged vestibular aqueduct due to enlargement of the endolymphatic duct\nAssociated anomalies are the norm, occurring in ~85% of patients: (Pendred syndrome, vestibular anomalies, cochlear anomalies (e.g. cochlear hypoplasia, Mondini malformation), semicircular canal anomalies\nThe vestibular aqueduct of 1.5 mm is considered the upper limit of normal",
+      "explanation": "答案 E。依本題設定，A–D 皆為正確敘述，故選「全部正確」。(A) 前庭導水管管徑 > 1.5 mm 判為擴大；(B) 與先天性感音性聽力損失相關；(C) 源於內淋巴管（endolymphatic duct）擴大；(D) 常合併其他內耳異常（約 85%，如 Mondini 畸形、耳蝸發育不全）。⚠️ 存疑：選項 A 的 1.5 mm 其實是舊 Valvassori 標準的「midpoint（中段）」正常上限，並非 operculum（外開口）；現行 Cincinnati 標準為 midpoint ≥ 1.0 mm 或 operculum ≥ 2.0 mm。題目將 1.5 mm 籠統標為「vestibular aqueduct 直徑」而未指明測量位置，嚴格而言不夠精確，故「全部正確（E）」有瑕疵之虞，臨床測量請以 Cincinnati 標準為準。→ [[large-vestibular-aqueduct]]",
       "images": [],
       "concepts": [
         "large-vestibular-aqueduct"
@@ -6677,7 +6677,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Leukodystrophy in Children: A Pictorial Review of MR Imaging Features. RadioGraphics 2002; 22:461–476；2021 交換考官方詳解 PDF p120",
-      "explanation": "【2021 官方詳解】\nX-linked adrenoleukodystrophy\ninherited metabolic peroxisomal disorder\nsevere inflammatory demyelination typically of the periventricular deep white matter with posterior-predominant pattern and early involvement of the splenium of the corpus callosum and parietal white matter changes\nSubtype\n- cerebral adrenoleukodystrophy (40%): presents after 2.5 years of age (typically at 4-8 years), progressive impairment motor and cognitive function, vision and hearing\n- adrenomyeloneuropathy (35-40%): most common adult presentation, progressive paraparesis, sphincter dysfunction, sexual dysfunction, and adrenocortical deficiency, spinal cord involvement with few if any brain abnormalities\nTreatment:\n- Bone marrow transplantation is thought to be favorable in the early stages of the disease.\n- Restriction of VLCFAs has also been trialled.",
+      "explanation": "答案 D。X 性聯腎上腺腦白質失養症的飲食治療是限制「極長鏈脂肪酸（VLCFA，如 Lorenzo's oil）」，並可施行骨髓／造血幹細胞移植；選項 D 寫成限制「long-chain fatty acids（LCFA）」不精確，故為錯誤敘述。(A) 正確：屬過氧化體病，源於 acyl-CoA synthetase（VLCFA-CoA synthetase）缺陷。(B) 正確：兒童型多在 6–9 歲起病，出現行為、聽力、視力與步態異常。(C) 正確：典型雙側對稱侵犯枕葉與胼胝體壓部、呈由後向前的區帶進展。→ [[adrenoleukodystrophy]]",
       "images": [],
       "concepts": [
         "adrenoleukodystrophy"
@@ -6715,7 +6715,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Stephane Kremer et al. Brain MRI Findings in Severe COVID-19: A Retrospective Observational Study. Radiology 2020; 297:E242–E251；2021 交換考官方詳解 PDF p121",
-      "explanation": "【2021 官方詳解】\nThe most frequent MRI findings:\n- Signal abnormalities located in the medial temporal lobe in 16 of 37 patients (43%; 95% confidence interval [CI]: 27%, 59%),\n- nonconfluent multifocal white matter hyperintense lesions seen with FLAIR and DWI with variable enhancement, with associated hemorrhagic lesions in 11 of 37 patients (30%; 95% CI: 15%, 45%)\n- extensive and isolated white matter microhemorrhages in nine of 37 patients (24%; 95% CI: 10%, 38%)",
+      "explanation": "答案 D。依 Kremer 等（Radiology 2020）37 例重症 COVID-19 系列，扣除缺血性梗塞後，最常見的實質異常是內側（mesial）顳葉 FLAIR 和／或 擴散高訊號（約 43%），故選 D。(A) 非融合性多灶白質 FLAIR/DWI 病灶、可變強化併出血約 30%，居次；(B) 廣泛而孤立的白質微出血約 24%，再次之；(C) 廣泛融合性幕上白質 FLAIR 高訊號並非該研究描述的主要型態。→ [[covid-19-brain-mri]]",
       "images": [],
       "concepts": [
         "covid-19-brain-mri"
@@ -6793,7 +6793,7 @@
       ],
       "correctAnswer": "D",
       "reference": "台灣腦中風學會急性缺血中風動脈內血栓移除治療指引2019；2021 交換考官方詳解 PDF p123",
-      "explanation": "【2021 官方詳解】\n- 年齡≥ 18歲。\n- 中風前的mRS ≤ 1。\n- 開始進行介入性治療時間離中風症狀發生時間在6小時以內。\n- 和病人中風症狀相符的ICA或MCA M1阻塞，以及腦部斷層影像ASPECTS (Alberta Stroke Program Early CT Score)分數≥ 6。",
+      "explanation": "答案 D。2015 AHA/ASA 積極評估 EVT 的 Class I 準則要求腦部 CT 的 ASPECTS「≥ 6」，選項 D 寫成「≥ 4」故為錯誤（即題目要找的「除外」項）。其餘皆為正確準則：(A) 年齡 ≥ 18 歲；(B) 中風前 mRS ≤ 1；(C) 介入治療（groin puncture）於中風症狀發生 6 小時內開始；且須為與症狀相符的 ICA 或 MCA M1 阻塞。→ [[acute-stroke-management]]",
       "images": [],
       "concepts": [
         "acute-stroke-management",
@@ -8006,7 +8006,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Scoliosis Imaging: What Radiologists Should Know RadioGraphics 2010; 30:1823–1842；2021 交換考官方詳解 PDF p155",
-      "explanation": "【2021 官方詳解】\nObservation:\nAdolescent: Cobb angle <20°\nAdult: Cobb angle < 30°\nBracing:\nAdolescent: 20-45°\nSurgery:\nAdolescent: Cobb angle >45° Adult: Cobb angle > 45° ofr",
+      "explanation": "答案 B。成人（骨骼成熟）特發性側彎的觀察門檻放寬至 Cobb <30°，25° 落在此區間，故採規則影像追蹤觀察。C bracing 錯：支架僅用於青少年特發性側彎（20–45°），對成人特發性側彎無角色；D surgery 錯：手術門檻為 Cobb ≥45°；A leave alone 錯：側彎仍須定期影像監測是否惡化，並非置之不理，與「observation（定期追蹤）」語意不同。→ [[scoliosis-cobb-angle-management]]",
       "images": [],
       "concepts": [
         "scoliosis-cobb-angle-management"
@@ -8044,7 +8044,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Imaging the Triangular Fibrocartilaginous Complex；2021 交換考官方詳解 PDF p156",
-      "explanation": "【2021 官方詳解】\nPalmer classification for triangular fibrocartilage complex (TFCC) abnormalities\nClass 1 - traumatic injury\n- a: central perforation of the triangular fibrocartilage (TFC) disc proper\n- b: ulnar avulsion with or without distal ulnar fracture\n  - may involve the proximal or distal lamina (foveal and styloid attachment, respectively), or both\n- c: distal avulsion of the TFCC involving ulnotriquetral and ulnolunate ligaments\n- d: radial avulsion of the TFC disc proper +/- sigmoid notch fracture\nClass 2 - degenerative injury (ulnocarpal abutment syndrome)\n- a: TFCC wear with thinning/fraying without perforation\n- b: TFCC wear in 2a with lunate, triquetral and/or ulnar chondromalacia\n- c: TFCC perforation +/- 2b chondromalacia\n- d: lunotriquetral ligament perforation +/ features of 2a, 2b and/or 2c\n- e: any or all of above with ulnocarpal arthritis\n\n⚠️ 本題含影像（官方詳解 PDF 第 156 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。Palmer 分類的 Class 1 為創傷性損傷，其中 1B 即尺側撕脫（ulnar avulsion），涉及 foveal／styloid 附著、可合併或不合併尺骨莖突基部骨折，常伴 DRUJ 不穩，正符合題幹「尺側撕脫（foveal 和／或 styloid 纖維）」。A 1A 為關節盤本體中央穿孔；C 1C 為遠端撕脫（ulnolunate／ulnotriquetral 韌帶自 carpus 撕脫）；D 1D 為橈側撕脫（±sigmoid notch 骨折）。→ [[tfcc-palmer-classification]]",
       "images": [
         "2021-199-1.png"
       ],
@@ -8084,7 +8084,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Plastic Surgery: Volume 6: Hand and Upper Extremity. 4th Edition © 2018, Elsevier Inc. p. 71-95；2021 交換考官方詳解 PDF p157",
-      "explanation": "【2021 官方詳解】\nGiant cell tumor of the tendon sheath is most commonly found in the distal interphalangeal (DIP) joint and the proximal phalanx",
+      "explanation": "答案 A。本題問「何者錯誤」。A 稱 GCTTS 好發於手指背側（dorsal aspect），為錯：GCTTS 雖約 85% 發生於手指，但以掌側（volar／屈側）為主、鄰近遠端指間關節（DIP）與近端指骨，故「背側」描述不正確。B 源自腱鞘、關節囊、筋膜或韌帶，正確；C 含多核巨細胞及細胞內外含鐵血黃素沉積，正確；D 含鐵血黃素的順磁效應致 T1WI、T2WI 皆呈低訊號，正確。→ [[giant-cell-tumor-tendon-sheath]]",
       "images": [],
       "concepts": [
         "giant-cell-tumor-tendon-sheath"
@@ -8122,7 +8122,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Musculoskeletal MRI. 3rd Edition. 2020 by Elsevier, Inc. Ch.9, P.186-190.；2021 交換考官方詳解 PDF p158",
-      "explanation": "【2021 官方詳解】\nThe study should include oblique sagittal spin and gradient echo T2 WIs on each TMJ separately both in open and closed mouth positions\nDirect signs of disc displacement include abnormal orientation in open and closed mouth positions.\n- anterior disc displacement: is the commonest abnormality and includes anterior disc displacement in closed mouth that reduces in open mouth and a non reduced anterior displacement.\n- posterior disc displacement: occurs when the posterior band is displaced posteriorly and exceeds 1 o'clock position.\n- stuck disc: occurs when the disc fails to displace in open or closed mouth position and becomes fixed to the temporal bone due to adhesion.\nIndirect signs of internal derangement include large joint effusion, rupture of retrodiscal layers, thickening of lateral pterygoid muscle attachment and osteoarthritic changes.",
+      "explanation": "答案 C。本題問「何者錯誤」。C 稱僅憑開口（mouth opening）矢狀 MR 即可診斷關節盤前移位，為錯：前移位須同時取閉口與開口兩種斜矢狀 MR 判定——閉口位判斷盤是否移位、開口位判斷是否回位並排除 stuck disc，單一位置不足以診斷。A 正常盤呈不對稱雙凹、前帶較後帶小（薄），正確；B 內部紊亂好發年輕女性，正確；D 髁突侵蝕可為 TMJ 退化性變化最早的骨性表現，正確。→ [[tmj-internal-derangement]]",
       "images": [],
       "concepts": [
         "tmj-internal-derangement"
@@ -8160,7 +8160,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Jaffe HL. Tumors and tumorous conditions of the bones and joints. Philadelphia: Lea & Febiger; 1958. pp. 117–141.；2021 交換考官方詳解 PDF p159",
-      "explanation": "【2021 官方詳解】\nCharacteristic matrix mineralization patterns include:\n- fibrous – ground glass e.g. fibrous dysplasia\n- osteoblastic – cumulus cloud e.g. osteosarcoma, osteoid osteoma\n- chondroid – popcorn or arcs and rings e.g. chondrosarcoma, enchondroma",
+      "explanation": "答案 B。GCT 不產生礦化的腫瘤基質（無 matrix mineralization），此為其定義特徵之一，平片呈地圖狀溶骨、窄移行帶但無硬化緣。A clear cell chondrosarcoma 與 C enchondroma 屬軟骨源腫瘤，可見軟骨型基質鈣化（ring-and-arc／popcorn）；D osteoid osteoma 屬骨母細胞源，可見骨樣基質礦化，三者皆有基質礦化。→ [[giant-cell-tumor]]",
       "images": [],
       "concepts": [
         "giant-cell-tumor"
@@ -8198,7 +8198,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Meyers SP. MRI of bone and soft tissue tumors and tumorlike lesions, differential diagnosis and atlas. Thieme Publishing Group. (2008)；2021 交換考官方詳解 PDF p160",
-      "explanation": "【2021 官方詳解】\nCharacteristic matrix mineralization patterns include:\n- fibrous – ground glass e.g. fibrous dysplasia\n- osteoblastic – cumulus cloud e.g. osteosarcoma, osteoid osteoma\n- chondroid – popcorn or arcs and rings e.g. chondrosarcoma, enchondroma",
+      "explanation": "答案 D。GCT 無基質礦化、不產生礦化的腫瘤基質。A chondroblastoma、B enchondroma、C clear cell chondrosarcoma 皆屬軟骨源腫瘤，可見軟骨基質鈣化（ring-and-arc／popcorn），故三者皆有基質礦化。→ [[giant-cell-tumor]]",
       "images": [],
       "concepts": [
         "giant-cell-tumor"
@@ -8240,7 +8240,7 @@
       ],
       "correctAnswer": "E",
       "reference": "RadioGraphics 2021; 41:144–155；2021 交換考官方詳解 PDF p161",
-      "explanation": "【2021 官方詳解】\nZero-column tibial plateau fractures are pure articular surface depression fractures with no associated cleavage-type fracture.\nOne-column tibial plateau fractures involve only the medial, lateral, or posterior column, with a fracture line disrupting the cortical surface of the column wall. The key to diagnosis is the presence of a split fracture with a single separate fragment in the involved column.\nTwo-column fractures involve two of the three columns and must have two discrete fracture fragments, each of which has a fracture line extending to the cortical surface of the involved column. For example, a lateral tibial plateau fracture would be considered a two-column fracture if there is an anterolateral fracture plus a separate posterolateral fracture fragment. This distinction is important because recent orthopedic literature advocates for an altered surgical approach to allow dorsal plating of a separate posterolateral fracture fragment for the best surgical outcome.\nThree-column fractures involve all three columns of the tibial plateau, with fracture lines in each column extending to the cortical surface of the respective column wall. Three-column fractures are typically the result of high-energy trauma, resulting in highly comminuted fractures. These fractures must have at least one separate fracture fragment in each column\n\n⚠️ 本題含影像（官方詳解 PDF 第 161 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。三柱分型（Luo）依術前 CT 將脛骨平台分為內側、外側、後三柱。A 0 柱為純關節面壓陷、無皮質（柱壁）破裂、無劈裂型骨折線，正確；B 1 柱僅單一柱受累、骨折線破壞該柱皮質、以單一分離骨塊為診斷關鍵，正確；C 2 柱受累兩柱、須有兩塊各自延伸至皮質的分離骨塊（後外側骨塊常需後方 dorsal plating），正確；D 3 柱三柱皆受累、每柱骨折線皆達皮質且各有分離骨塊，正確。四項定義皆符合，故選 E。→ [[tibial-plateau-fracture-classification]]",
       "images": [
         "2021-204-1.gif",
         "2021-204-2.gif"
@@ -8281,7 +8281,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2005; 25:399 – 410；2021 交換考官方詳解 PDF p163",
-      "explanation": "【2021 官方詳解】\nOsteonecrosis of the talus follows a characteristic radiographic sequence that generally begins with an increase in talar dome opacity (sclerosis), then advances to deformity and, in severe cases, to articular collapse and bone fragmentation\nThe Hawkins sign, which becomes evident 6–8 weeks after injury, is an area of disuse osteopenia caused by resorption of the subchondral bone and is visualized as a thin subchondral radiolucent line along all or part of the talar dome\n\n⚠️ 本題含影像（官方詳解 PDF 第 163 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。A 距骨由三條骨外動脈供血：posterior tibial artery、dorsalis pedis（anterior tibial）與 perforating peroneal artery，正確；B Hawkins sign 為距骨頂軟骨下透亮帶、於 AP／mortise view 可見，是傷後數週因血流灌注才出現的 disuse osteopenia，正確；C 距骨 AVN 典型影像序列為距骨頂 opacity 增加（硬化）→變形→嚴重時關節面塌陷與骨碎裂，正確。三者皆對，故選 D。→ [[talus-anatomy]]",
       "images": [
         "2021-205-1.jpg",
         "2021-205-2.jpg"
@@ -10223,7 +10223,7 @@
       ],
       "correctAnswer": "D",
       "reference": "1 StatPearls, https://www.statpearls.com/home/index Quiz: Osteosarcoma (Id:356827) Question Author: Stephanie Prater; Article/Question Editor: Brett McKeon, Last Updated:11/16/2019 10:55:07 AM 2 Eftekhari F. (2009) Imaging Assessment of Osteosarcoma in Childhood and Adolescence: Diagnosis, Staging, and Evaluating Response to Chemotherapy. In: Jaffe N., Bruland O., Bielack S. (eds) Pediatric and Adolescent Osteosarcoma. Cancer Treatment and Research, vol 152. Springer, Boston, MA. https://doi.org/10.1007/978-1-4419-0284-9_3 3 Sun Y, Liu X, Pan S, Deng C, Li X, Guo Q. Analysis of imaging characteristics of primary malignant bone tumors in children. Oncol Lett. 2017 Nov;14(5):5801-5810. doi: 10.3892/ol.2017.6939. Epub 2017 Sep 14. PMID: 29113210; PMCID: PMC5661490.；10.1007/978-1-4419-0284-9_3；2021 交換考官方詳解 PDF p220",
-      "explanation": "【2021 官方詳解】\nThe sunburst appearance occurs when the lesion grows too fast and the periosteum does not have enough time to lay down a new layer and instead the Sharpey's fibers stretch out perpendicular to the bone. It is frequently associated with osteosarcoma but also in: Ewing sarcoma and osteoblastic metastases.\nEwing sarcoma typically occurs in P’t 10-20 y/o male, image show wide zone of poorly defined margin and 80 % demonstrate extension into adjacent soft tissues. ====> 比較不像\nOsteaosarcoma tyically occurs in P’t 10-20 y/o male, image show osteoid matrix with neoplastic bone formation and permeative growth and non-expansile cortical destruction =>符合\nOsteosarcoma typically occur at the metadiaphysis of long bones in the appendicular skeleton: femur(40%) > tibia(16%) > humerus(15%) > ….",
+      "explanation": "答案 D。病史為青少年、夜間痛、平片見類骨基質（osteoid）沉積與 sunburst（日光放射）骨膜反應，符合傳統型骨肉瘤。骨肉瘤好發長骨幹骺端，約 50% 位於膝關節周圍（遠端股骨 > 近端脛骨），故最常侵犯膝關節。A shoulder、B wrist、C hip、E ankle 皆較少見。→ [[osteosarcoma]]",
       "images": [],
       "concepts": [
         "osteosarcoma"
@@ -10265,7 +10265,7 @@
       ],
       "correctAnswer": "B",
       "reference": "1 StatPearls, https://www.statpearls.com/home/index Quiz: Osteosarcoma (Id:356827) Question Author: Stephanie Prater; Article/Question Editor: Brett McKeon, Last Updated:11/16/2019 10:55:07 AM 2 Lindsey BA, Markel JE, Kleinerman ES. Osteosarcoma Overview. Rheumatol Ther. 2017 Jun;4(1):25-43. doi: 10.1007/s40744-016-0050-2. Epub 2016 Dec 8. PMID: 27933467; PMCID: PMC5443719. 3 Sun Y, Liu X, Pan S, Deng C, Li X, Guo Q. Analysis of imaging characteristics of primary malignant bone tumors in children. Oncol Lett. 2017 Nov;14(5):5801-5810. doi: 10.3892/ol.2017.6939. Epub 2017 Sep 14.；10.2214/AJR.11.6927；2021 交換考官方詳解 PDF p221",
-      "explanation": "【2021 官方詳解】\nMetastatic Extraskeletal Osteosarcoma metastatic spread is most commonly reported to the lung.\nRef: https://www.ajronline.org/doi/10.2214/AJR.11.6927",
+      "explanation": "答案 B。緻密（radiodense）基質加 sunburst 骨膜反應與局部軟組織侵犯符合骨肉瘤。骨肉瘤以血行轉移為主，最常見的遠端轉移器官為肺（Lung ≫ 骨、淋巴結），約 5–10% 於診斷時已有肺轉移。A brain、C liver、D adrenal glands、E kidneys 皆非骨肉瘤的典型轉移部位。→ [[osteosarcoma]]",
       "images": [],
       "concepts": [
         "osteosarcoma"
@@ -10307,7 +10307,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.8; doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p222",
-      "explanation": "【2021 官方詳解】\nPrimary synovial osteochondromatosis is a benign synovial neoplastic process with slow formation of hyaline cartilage nodules, which calcify eventually. Tenosynovial osteochondromatosis is less frequent but can occur in the hands and feet. Calcified nodules may be visible on radiography or as dark signal on MRI. Cartilage content produces MR T2 hyperintensity. A vascularized, fibrous pseudocapsule can produce rim enhancement. If the lesion’s synovial origin is not relayed to the pathologist, the considerable cellular atypia can be misinterpreted by the pathologist as extraskeletal chondrosarcoma.",
+      "explanation": "答案 D。原發性滑膜骨軟骨瘤病的軟骨結節在病理切片可呈顯著細胞異型性，組織學外觀可模擬 chondrosarcoma；唯有放射科把病灶定位為「滑膜起源、關節內」並傳達給病理科，才能避免誤判為 extraskeletal chondrosarcoma。B 腫塊內鈣化、C 骨侵犯、E T2 高訊號雖為此病可見的影像特徵，但能扭轉病理誤判的關鍵訊息是滑膜起源；A 超音波內部血流非本病的特徵性關鍵。→ [[synovial-osteochondromatosis]]",
       "images": [],
       "concepts": [
         "synovial-osteochondromatosis"
@@ -10349,7 +10349,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.7; doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p223",
-      "explanation": "【2021 官方詳解】\nSynovial sarcoma generally presents at 15 to 40 years of age as a painless nodule. Although tumor growth may be slow, these lesions have high metastatic potential; 30% have calcifications, which may be visible on radiography. A circumscribed, nonspecifi c mass is typical on ultrasound. When the lesion is small, MRI shows a homogeneous, T1 intermediate and T2 hyperintense mass. T2 signal is not quite fluid bright, and special care should be taken not to mischaracterize a small synovial sarcoma as a benign ganglionic cyst. When lesions are larger, MRI signal is heterogeneous with septations, hemorrhage, and fluid (“bowl of grapes” appearance).",
+      "explanation": "答案 A。本題問「非」特徵者。A 稱小病灶時 T2 訊號等同於純水（fluid），為錯誤：小的滑膜肉瘤雖可界清、均質而貌似良性囊腫，但它是實質腫瘤，T2 雖高卻不到純水那麼亮，不可誤當 ganglion cyst。B 約 30% 有鈣化、X 光可見，正確；C 大病灶 MRI 因出血、液平、分隔呈 \"bowl of grapes\"，正確；D 超音波為界清、非特異腫塊，正確；E 常以無痛結節表現，正確。→ [[synovial-sarcoma]]",
       "images": [],
       "concepts": [
         "synovial-sarcoma"
@@ -10391,7 +10391,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Soft Tissue Masses of the Hand and Wrist: Systematic Approach to Imaging Evaluation, Contemporary Diagnostic Radiology: February 15, 2020 - Volume 43 - Issue 4 - p 8 ; CME Quiz. No.5 (with modifications); doi: 10.1097/01.CDR.0000653556.54479.2a；10.1097/01.CDR.0000653556.54479.2a；2021 交換考官方詳解 PDF p224",
-      "explanation": "【2021 官方詳解】\nEpidermal inclusion cysts (EICs) are the third most common soft tissue mass of the hand and often result when penetrating trauma deposits keratin-producing epithelial cells into the subdermal tissues. Consequently, they are found most commonly on the tactile surfaces of the digits. T1 and T2 signal on MRI can be variable, depending on their proteinaceous content. Calcifications are uncommon and are more suggestive of pilomatricoma (ie, a benign solitary hair follicle mass).",
+      "explanation": "答案 C。此題問「何者敘述錯誤」。C 的前半正確——表皮包涵囊腫（EIC）確為手部第三常見的軟組織腫塊；但後半「鈣化在 EIC 極為常見」為錯：EIC 的 MRI 訊號隨內含角質蛋白量而多變，鈣化其實並不常見，腫塊若明顯鈣化反而應想到 pilomatricoma（鈣化上皮瘤），這正是本題陷阱。其餘皆正確：A 脂肪瘤在手部相對少見，好發大魚際或小魚際；B 超音波可分辨囊性與實質，並以都卜勒評估內部血流；D 動脈瘤在 MRI 可被誤認為實質腫塊，需彩色都卜勒、雙功、CTA 或傳統血管攝影輔助鑑別；E MRI 為特徵化此類腫塊的最佳影像模態。\n→ [[hand-wrist-soft-tissue-masses]]",
       "images": [],
       "concepts": [
         "hand-wrist-soft-tissue-masses"
@@ -10429,7 +10429,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.528；2021 交換考官方詳解 PDF p225",
-      "explanation": "【2021 官方詳解】\n(A) F:M = 12:1 typically presenting in the postmenopausal patient\n(B) no gender predilection\n(C) most commonly occurs in males between ages 15-35\n(D) F:M = 1:20 越年輕越偏向男性為主，越年老越偏向男女平均\nRef: Radiopaedia",
+      "explanation": "答案 A。侵蝕性（發炎性）骨關節炎有明顯女性偏好，F:M 約 12:1，典型見於停經後婦女，故最符合「較常見於女性」。其餘皆非女性為主：B 乾癬性關節炎無明顯性別偏好；C 反應性關節炎（舊稱 Reiter 症候群）好發男性，約 15–35 歲；D 痛風性關節炎明顯以男性為主（約 20:1），越年輕越偏男性，年老才漸趨男女平均。\n→ [[erosive-osteoarthritis]]",
       "images": [],
       "concepts": [
         "erosive-osteoarthritis"
@@ -10467,7 +10467,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.877；2021 交換考官方詳解 PDF p226",
-      "explanation": "【2021 官方詳解】\n表示方式有兩種:\n- lower limb: 45% (femur most common)\n- pelvis: 20%\n- upper limb: 13%\n- spine and ribs: 13% (the sacrococcygeal region most common)\n- skull/face: 2%\n或者:\n- long bones: 50-60%\n  - femur: 25%\n  - tibia: 11%\n  - humerus: 10%\n- flat bones: 40%\n  - pelvis: 14%\n  - scapula\n  - ribs: 6%",
+      "explanation": "答案 D。此題問 Ewing sarcoma「較少見」的骨骼部位。Ewing sarcoma 好發下肢（約 45%，股骨最常見）與骨盆（約 20%），扁骨中以髂骨（骨盆約 14%）、肩胛骨、肋骨（約 6%）相對常見。鎖骨並不在常見發生部位之列，屬少見，故 D 最不常見。相對地 A 髂骨、B 肩胛骨、C 肋骨皆較鎖骨常見。\n→ [[ewing-sarcoma-family]]",
       "images": [],
       "concepts": [
         "ewing-sarcoma-family"
@@ -10505,7 +10505,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.2120；2021 交換考官方詳解 PDF p227",
-      "explanation": "【2021 官方詳解】\nRef: http://learningradiology.com/archives04/COW%20088-Rickets/ricketscorrect.htm\nImaging findings\n- Cupping and fraying of metaphysis\n- Poorly mineralized epiphyseal centers with delayed appearance\n- Irregular widened epiphyseal plates (increased osteoid)\n- Increase in distance between end of shaft and epiphyseal center\n- Cortical spurs projecting at right angles to metaphysis\n- Coarse trabeculation (not the ground-glass pattern found in scurvy)\n- Periosteal reaction may be present\n- Deformities common\n  - Bowing of long bones\n  - Molding of epiphysis\n  - Fractures\n  - Frontal bossing",
+      "explanation": "答案 B。此題問佝僂病 X 光「非」典型表現。佝僂病的骨骺骨化中心因礦化不良而出現延遲、邊緣模糊，但體積並不會縮小，故「骨骺體積減小」非其表現。其餘皆為典型：A 合併骨軟化使骨質變弱而長骨彎曲；C 幹骺端因未礦化類骨質堆積而呈喇叭狀展開（flaring）並伴毛刷狀、杯口狀變化；D 生長板臨時鈣化區堆積未礦化 osteoid，故生長板增寬。\n→ [[metabolic-bone-disease-imaging]]",
       "images": [],
       "concepts": [
         "metabolic-bone-disease-imaging"
@@ -10543,7 +10543,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.137-140；2021 交換考官方詳解 PDF p228",
-      "explanation": "【2021 官方詳解】\n(A) The causes of periosteal reaction are broad, including trauma, infection, arthritis, tumors, and drug-induced and vascular entities.\n(B) = Lipohemarthrosis, associated with a tibial plateau fracture or distal femoral fracture; rarely a patellar fracture. They have also been described in hip, shoulder, elbow and wrist fractures\n(C) This finding indicates a subtle but depressed fracture. The actual fracture line may not be apparent, but the double contour of the cortex reflects impaction.\n(D) may related to osteonecrosis, infraction, infection….",
+      "explanation": "答案 D。此題問「非」隱匿性骨折的間接徵象。不規則骨骺角並非骨折徵象，而是指向骨壞死/骨梗塞、感染或代謝性/發育性病變（如壞血病 corner sign、佝僂病幹骺端變化），故為正解。其餘皆為隱匿性骨折可用的間接徵象：A 骨膜反應成因雖廣，癒合期可提示先前未察覺的骨折或壓力性骨折；B 關節內脂肪-液平（lipohemarthrosis／FBI sign）代表骨髓脂肪與血滲入關節，只要看到即代表關節內骨折；C 雙皮質線反映皮質壓陷/嵌插，提示壓陷性骨折。\n→ [[subtle-fracture-radiographic-signs]]",
       "images": [],
       "concepts": [
         "subtle-fracture-radiographic-signs"
@@ -10581,7 +10581,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Orthopedic Imaging – A Practical Approach 6th Edition, p.736；2021 交換考官方詳解 PDF p229",
-      "explanation": "【2021 官方詳解】\n???radiopaedia和radiology key寫得不一樣\nradiopaedia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 229 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。⚠️ 此題問 Ollier 病 X 光「非」表現，各家文獻對此選項描述不一致，作答存疑。依概念判讀：Ollier 的內生軟骨瘤源自髓腔、主要位於幹骺端，隨生長可向骨幹遷移，但一般不會跨越生長板侵入骨骺（骨骺通常被保留），故「病灶由生長板延伸至骨骺」視為非典型表現。其餘皆屬 enchondromatosis 譜系可見：A 軟骨基質可有 rings-and-arcs／punctate 鈣化；B 病灶可呈皮質內或骨膜性軟骨瘤；C 病灶可自管狀骨骨幹膨出。\n→ [[enchondromatosis]]",
       "concepts": [
         "enchondromatosis"
       ],
@@ -10630,7 +10630,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p230",
-      "explanation": "【2021 官方詳解】\n(A) 30% RA may show negative result of rheumatoid factor\n(B) The synovium is thought to be the primary site of inflammation in RA and enthesis in PsA.\n(C) Erosions in RA typically occur in the bare areas of the joint.",
+      "explanation": "答案 D。此題選「正確」敘述。D 正確：關節旁新骨形成（periostitis／enthesophyte）是乾癬性關節炎的特徵，類風濕性關節炎則以純侵蝕加近關節骨質疏鬆為主，較少見新骨形成。A 錯：約 30% 類風濕性關節炎的類風濕因子為陰性，故 RF 無法可靠區分 RA 與其他發炎性關節炎；B 錯：RA 發炎的原發部位是滑膜，附著點（enthesis）才是 PsA 的起始處；C 錯：始於關節裸區（bare area）侵蝕、以近端關節為主的是 RA，而非以 DIP／附著點為主的 PsA。\n→ [[psoriatic-arthritis]]",
       "images": [],
       "concepts": [
         "psoriatic-arthritis"
@@ -10668,7 +10668,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p231",
-      "explanation": "【2021 官方詳解】\n(A) Effusion in the joint or tendon sheath, which occurs in both RA and PsA, is commonly associated with joint capsular synovitis or tenosynovitis\n(B) Boutonnière deformity (buttonhole deformity) and swan neck deformity are most frequent type of deformity in RA and may manifest at early stages. Other deformities such as mallet finger and hitchhiker deformity are more likely to be found in advanced stages of RA.\n(C) The combination of bone erosion and proliferation at enthesis gives a characteristic appearance of mouse ears on the distal surface of the interphalangeal joint, with frequent involvement of the DIP joints. The term bony corona was previously used to describe severe bone proliferation, which affects the entire circumference of the bone in PsA.",
+      "explanation": "答案 D。此題選「正確」敘述。D 正確：晚期乾癬性關節炎的骨破壞與侵蝕合併新骨形成，可在 DIP 造成典型的鉛筆套杯（pencil-in-cup）變形。A 錯：關節或腱鞘積液在 RA 與 PsA 皆可見，不能用來排除 PsA；B 錯：鈕扣狀（Boutonnière）與天鵝頸變形是 RA 最常見且早期即可出現的變形，hitchhiker 等屬進展期，非 PsA 專屬；C 錯：老鼠耳（mouse-ear）徵象是 PsA 附著點骨侵蝕合併骨增生的表現、好發 DIP，並非 RA 的裸區侵蝕。\n→ [[psoriatic-arthritis]]",
       "images": [],
       "concepts": [
         "psoriatic-arthritis"
@@ -10706,7 +10706,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Differentiating Rheumatoid and Psoriatic Arthritis of the Hand: Multimodality Imaging Characteristics. Radiographics, Jul 31 2020.；2021 交換考官方詳解 PDF p232",
-      "explanation": "【2021 官方詳解】\n(A) low signal intensity\n(B) In contrast to radiographic erosions, which reflect irreversible bone damage, bone marrow edema is\nconsidered to be a potentially reversible phenomenon.\n(C)(D) Bone marrow edema in RA is usually located adjacent to bare areas. In PsA, bone marrow edema is thought to begin at the corner of the phalanx at the enthesis of the capsule and spread to involve the entire bone as the disease progresses.",
+      "explanation": "答案 D。此題選「正確」敘述。D 正確：乾癬性關節炎的骨髓水腫始於指骨角落、關節囊附著點（enthesis）處，並隨病程蔓延至整節指骨甚至骨幹。A 錯：骨髓水腫在 T1WI 為低訊號、僅在質子密度脂肪抑制（PDFS）序列呈高訊號；B 錯：與代表不可逆的放射線侵蝕相反，骨髓水腫被視為可逆現象，並非不可逆骨變化的起點；C 錯：RA 的骨髓水腫位於裸區鄰近，向整節指骨/骨幹蔓延的型態屬 PsA 而非 RA。\n→ [[psoriatic-arthritis]]",
       "images": [],
       "concepts": [
         "psoriatic-arthritis"
@@ -10744,7 +10744,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Pitfalls in MRI of the Developing Pediatric Ankle. Radiographics. Nov 20 2020.；2021 交換考官方詳解 PDF p233",
-      "explanation": "【2021 官方詳解】\n(A) Intrinsic moderate T2-weighted or short τ inversion-recovery (STIR) hyperintensity of the\ncartilaginous precursors should be recognized as normal. In the ankle, the medial malleolus and calcaneus are common locations for normal, sometimes intense, increased precursor signal.\n(B) Preossification centers about the ankle are seen most often within the medial malleolus, calcaneal apophysis, and navicular cartilaginous precursors.\n(C) ????",
+      "explanation": "答案 D。此題選「正確」敘述。D 正確：骨化前中心（preossification center）在 MRI 可呈邊界清楚、圓形、類囊液的高訊號，酷似囊腫或膿瘍，關鍵鑑別在於周邊無骨髓/軟組織水腫。A 錯：軟骨前身的正常（有時相當強）T2/STIR 高訊號好發於內踝與跟骨，而非「跟骨加外踝」；B 錯：骨化前中心好發於內踝、跟骨骨突、navicular 軟骨前身，而非外踝；C 錯：軟骨前身/骨化前中心並非典型呈強烈對比增強（官方原標「????」，非正解）。\n→ [[pediatric-ankle-ossification-mri]]",
       "images": [],
       "concepts": [
         "pediatric-ankle-ossification-mri"
@@ -10782,7 +10782,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Pitfalls in MRI of the Developing Pediatric Ankle. Radiographics. Nov 20 2020.；2021 交換考官方詳解 PDF p234",
-      "explanation": "【2021 官方詳解】\n(A) The tibial and fibular diaphyseal ossification centers are partially ossified in the prenatal period (by approximately 7–9 weeks in utero), as are the calcaneus (3 monthsin utero) and talus (6 months in utero). Therefore, these centers are visualized radiographically from birth.\n(B) On MR images, normal primary ossification centers are predominantly T1 hyperintense and\nare hypointense with STIR and fat-suppressed T2-weighted sequences, corresponding to yellow marrow signal intensity. . Early on, secondary ossification centers may demonstrate low T1-weighted and high T2-weighted or STIR signal intensity, distinct from the background of the cartilage precursor, and reflect red marrow composition.\n(C) In children, normal primary ossification centers can have inhomogeneous marrow signal intensity, with multiple foci of rounded T2-weighted or STIR hyperintensities, creating a starry sky appearance.",
+      "explanation": "答案 D。此題選「正確」敘述。D 正確：星空狀（starry sky）外觀為初級（primary）骨化中心內多發圓形 T2/STIR 高訊號的正常紅骨髓灶，屬正常變異，可延續至年輕成人。A 錯：距骨骨化中心雖晚於跟骨出現，但兩者皆於子宮內骨化，出生時 X 光即可見（並非看不到）；B 錯：初級骨化中心以 T1 高、STIR/脂抑 T2 低（黃骨髓）為主，並非「T1 低 T2 高」；C 錯：星空狀外觀屬初級骨化中心，並非次級中心、也非好發於後足。\n→ [[pediatric-ankle-ossification-mri]]",
       "images": [],
       "concepts": [
         "pediatric-ankle-ossification-mri"
@@ -11498,7 +11498,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Dahnert Radiology Review Manual 7th ed., pp. 32-33  = =” p.137才對…….；2021 交換考官方詳解 PDF p255",
-      "explanation": "【2021 官方詳解】\n(C) Older women\n\n⚠️ 本題含影像（官方詳解 PDF 第 255 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。此題問「何者敘述錯誤」。C 錯誤：Milwaukee shoulder（鹼性磷酸鈣結晶破壞性關節病變）最常見於老年女性（約 50–90 歲），並非老年男性。其餘皆正確：A 常見完全性旋轉肌袖撕裂；B 呈快速進行的破壞性骨關節炎變化；D 患側常有創傷病史。\n→ [[milwaukee-shoulder]]",
       "concepts": [
         "milwaukee-shoulder"
       ],
@@ -13596,7 +13596,7 @@
       ],
       "correctAnswer": "D",
       "reference": "American Journal of Roentgenology. 2008;190: S18-S22. 10.2214/AJR.07.7023；10.2214/AJR.07.7023；2021 交換考官方詳解 PDF p338",
-      "explanation": "【2021 官方詳解】\nMorton neuromas ( interdigital or intermetatarsal neuromas=> misnomer)\nfocal areas of symptomatic perineural fibrosis around a plantar digital nerve of the foot,\ndue to chronic entrapment of the nerve by the intermetatarsal ligament.\n=> Morton metatarsalgia\nMulder sign (Sign of physical examination)\nLocation: The 3rd web-space (between 3rd and 4th metatarsal heads) is the most commonly affected site\nUS:\nround to ovoid, well-defined, hypoechoic lesion in the intermetatarsal space proximal to the metatarsal head. Not compressible\nMRI\nDumbbell/ovoid-shaped lesion at a similar position to that described on ultrasound:\nT1: typically low-to-iso signal\nT2: typically low signal but can sometimes be intermediate in signal\nT1 C+ (Gd): variable enhancement\n\n⚠️ 本題含影像（官方詳解 PDF 第 338 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。均勻低 T1 且低 T2、並會強化的訊號組合，最典型為足底纖維瘤病（plantar fibromatosis）等纖維性腫塊，因含成熟膠原之故。其餘訊號組合皆不符：A Morton 神經瘤 T1 與肌肉等訊號、T2 低訊號、強化程度不一；B 脂肪瘤 T1/T2 皆高訊號、脂肪抑制序列變低；C 腱鞘囊腫 T1 低、T2 高，通常僅薄邊環狀強化；E 血管瘤含血管/脂肪/纖維而呈混雜訊號。\n→ [[foot-ankle-soft-tissue-masses]]",
       "images": [
         "2021-334-1.png"
       ],
@@ -13640,7 +13640,7 @@
       ],
       "correctAnswer": "A",
       "reference": "American Journal of Roentgenology. 2009;193: S5-S9. 10.2214/AJR.07.7088；10.2214/AJR.07.7088；2021 交換考官方詳解 PDF p341",
-      "explanation": "【2021 官方詳解】\nA.\nRed bone marrow has a variety of normal appearances. include smooth contiguous involvement\nof bones, focal mass-like lesions, and a fine-speckled appearance.\nB.\nred bone marrow reconverts from yellow marrow, it does not always progress in a predictable pattern\nred marrow converts to mature yellow or fatty marrow, from peripheral to central.\nC.\nhands and feet tend to contain mature fatty marrow early in the maturation process, with red\nmarrow usually not persisting in these regions.\nD.\nRed bone marrow consists of hematopoietic cells containing water and fat cells\nE.\ndifferentiation is more problematic because of the inconsistent location and a sometimes masslike pattern of red marrow reconversion",
+      "explanation": "答案 A。此題問「何者為真」。A 正確：正常紅骨髓有多種正常型態，包含平滑瀰漫、局灶腫塊樣以及細點狀分布，故可呈局灶且似腫塊。B 錯：紅骨髓 reconversion（黃轉紅）不一定循固定可預測的型態；C 錯：成人手腳末端為成熟黃骨髓，紅骨髓通常不存留於此；D 錯：紅骨髓含造血細胞、水與脂肪細胞（約 40% 脂肪），並非不含脂肪；E 錯：因位置不定且可呈腫塊樣，紅骨髓與腫瘤常不易區分。\n→ [[bone-marrow]]",
       "images": [],
       "concepts": [
         "bone-marrow"
@@ -14634,7 +14634,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Chakarun CJ, Forrester DM, Gottsegen CJ, Patel DB, White EA, Matcuk GR Jr. Giant cell tumor of bone: review, mimics, and new developments in treatment. Radiographics. 2013 Jan-Feb;33(1):197-211.；2021 交換考官方詳解 PDF p379",
-      "explanation": "【2021 官方詳解】\nD.\nGCT may also contain fluid-fluid levels due to secondary aneurysmal bone cyst (ABC) formation, which has been reported in up to 14% of cases\n\n⚠️ 疑似與 2021-016 為同一題（相似度 0.823），請醫師確認是否合併。",
+      "explanation": "答案 D。本題問「何者錯誤」，D 敘述次發性動脈瘤樣骨囊腫（ABC）發生率「高達 50%」為錯——GCT 內確實可因次發 ABC 而出現 fluid-fluid levels，惟文獻報告發生率僅約 10–14%，並非 50%；其提及需與 telangiectatic osteosarcoma 鑑別則屬正確概念。A 正確：GCT 好發於骨骼成熟後的中壯年（約 20–55 歲為高峰），老年較少、兒童罕見。B 正確：多發生於長骨末端，且以膝關節周圍（遠端股骨、近端脛骨）最多。C 正確：典型平片為偏心性溶骨、界線清楚但「非硬化緣」、延伸至軟骨下。E 正確：denosumab 作用於 RANK/RANKL 途徑，抑制蝕骨細胞活性，可用於治療 GCT。→ [[giant-cell-tumor]]",
       "images": [],
       "concepts": [
         "giant-cell-tumor"
@@ -14676,7 +14676,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Rosenberg ZS, Beltran J, Bencardino JT. From the RSNA Refresher Courses. Radiological Society of North America. MR imaging of the ankle and foot. Radiographics. 2000;20 Spec No:S153-79.；2021 交換考官方詳解 PDF p380",
-      "explanation": "【2021 官方詳解】\nC.\nPTFL often appear striated and discontinuous owing to fat interposed between the fascicles of the ligaments. => Normal appearance",
+      "explanation": "答案 C。本題問「何者為錯」，C 稱後距腓韌帶（PTFL）出現脂肪條紋（fatty striation）代表部分撕裂或慢性發炎，實為錯誤——PTFL 因纖維束之間夾帶脂肪，MRI 上本就常呈條紋狀、看似不連續的「正常」外觀，不可誤判為病理。A 正確：正常踝韌帶在 MRI 上為薄、線狀、均勻低訊號結構。B 正確：三角（deltoid）韌帶屬內側韌帶，多因外翻（eversion）扭傷受損。D 正確：跗骨竇（sinus tarsi）為距骨與跟骨之間的外側間隙。E 正確：前外側夾擠症候群典型於踝外側溝出現「meniscoid」軟組織腫塊。→ [[lateral-ankle-ligaments]]",
       "images": [],
       "concepts": [
         "lateral-ankle-ligaments"
@@ -14718,7 +14718,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Reference: Chang EY, Chen KC, Huang BK, Kavanaugh A. Adult Inflammatory Arthritides: What the Radiologist Should Know. Radiographics. 2016 Oct;36(6):1849-1870.；2021 交換考官方詳解 PDF p381",
-      "explanation": "【2021 官方詳解】\nA.\nin cases in which the diagnosis is less than certain, US or MR imaging can be used to increase diagnostic confidence, compared with clinical criteria alone\nB.\nmetatarsophalangeal joints MTP are among the most common and earliest eroded joints\nplantar aspect of the fifth MTP joint can be considered a good starting point for evaluation\nC.\nFor the diagnosis of synovitis, US and contrast material–enhanced MR imaging\nhave shown comparable high sensitivity values in most studies\nE.\nuniform synovial thickening, large size of bone erosion with rim enhancement, and extra-articular cystic masses favoring a diagnosis of tuberculous arthritis",
+      "explanation": "答案 D。本題問「何者正確」，D 正確——骨髓水腫（BME）是 RA 活動性發炎的表現，可先於軟骨下囊腫與侵蝕出現，並且是後續 erosion 最重要的預測因子，只能以水敏感 MRI 序列偵測。A 錯：RA 早期變化為非骨性（滑膜炎、積液、BME），診斷不確定時 US 或 MRI 反而有助早期偵測與提升診斷信心，影像並非「無角色」。B 錯：最早、最常受侵蝕的是蹠趾（MTP）關節而非腕掌（CMC）關節，第 5 蹠趾關節蹠側為良好評估起點。C 錯：偵測滑膜炎時，超音波（含 power Doppler）與對比增強 MRI 的敏感度相當，並非 US 明顯較差。E 錯：均勻滑膜增厚、大型且緣強化的骨侵蝕、關節外囊性腫塊反而偏向結核性關節炎，而非 RA。→ [[rheumatoid-arthritis-imaging]]",
       "images": [],
       "concepts": [
         "rheumatoid-arthritis-imaging"
@@ -14760,7 +14760,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Reference: 1. Wei JCC et al. Int J Rheum Dis. 2020 Jan;23(1):24-36 2. Rudwaleit M et al. Arthritis Rheum. 2006 ;54(2):569-78. doi: 10.1002/art.21619. 3. Rudwaleit M et al. Ann Rheum Dis. 2009 ;68(6):777-83.；10.1002/art.21619.；2021 交換考官方詳解 PDF p382",
-      "explanation": "【2021 官方詳解】\nC. Ferguson view",
+      "explanation": "答案 C。本題問「何者錯誤」，C 稱 Dunn view 是為了更清楚顯示薦腸關節而改良的 AP 骨盆攝影，此敘述張冠李戴——正確者應為 Ferguson view（向頭側傾斜的 AP，使射束對齊薦腸關節斜面）；Dunn view 其實是評估股骨頭頸 offset／股髖夾擊（FAI）的髖部投照，與薦腸關節無關。A 正確：X 光偵測 sacroiliitis 敏感度低、早期易漏。B 正確：X 光陰性而懷疑 nr-axSpA 時強烈建議 MRI，無 MRI 時可改用 CT。D 正確：超音波用於周邊型 SpA 評估，不建議用於中軸（axSpA）。E 正確：骨髓水腫是急性發炎／骨炎的重要標誌，脂肪沉積與侵蝕則代表慢性結構變化。→ [[sacroiliitis-spondyloarthropathy]]",
       "images": [],
       "concepts": [
         "sacroiliitis-spondyloarthropathy"
