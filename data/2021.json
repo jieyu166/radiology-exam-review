@@ -9156,7 +9156,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Antoniou KM, et al. Interstitial lung disease. Eur Respir Rev 2014; 23: 40–54.；2021 交換考官方詳解 PDF p195",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 195 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。依 2013 ATS/ERS 對特發性間質性肺炎（IIP）的分類，主要型（major）共六型：IPF/UIP、特發性 NSIP、RB-ILD、DIP、AIP 與 COP；LIP（淋巴球性間質性肺炎）與特發性 PPFE 則歸在「罕見型（rare）」，並非 major。故 (D) idiopathic LIP 才是本題要挑出的「非 major」項。(A) IPF 為慢性纖維化型主要 IIP、(B) AIP 屬急性／亞急性型主要 IIP、(C) RB-ILD 屬吸菸相關主要 IIP，三者皆列於 major，故皆非答案。\n→ [[idiopathic-interstitial-pneumonia]]",
       "concepts": [
         "idiopathic-interstitial-pneumonia"
       ],
@@ -9200,7 +9200,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Rami-Porta R, Asamura H, Travis WD, Rusch VW. Lung cancer - major changes in the American Joint Committee on Cancer eighth edition cancer staging manual. CA Cancer J Clin. 2017;67:138–155.；2021 交換考官方詳解 PDF p196",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 196 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。AJCC／IASLC 第 8 版對半實性（part-solid）肺腺癌結節的 T 分期，臨床（影像）以「實質成分（solid component）」的最大徑決定，毛玻璃（GGO／lepidic）部分不計入；病理則以侵犯成分計算。本題 GGO 總徑雖達 25 mm，但實質成分僅 9 mm（≤10 mm），故為 cT1a。(B) T1b 對應實質成分 >10–20 mm、(C) T1c 對應 >20–30 mm、(D) T2 對應 >30 mm，皆與 9 mm 不符；若誤把整體 25 mm 當分期依據才會落到 T1b／T1c，這正是本題設下的陷阱。\n→ [[lung-cancer-tnm-staging]]",
       "concepts": [
         "lung-cancer-tnm-staging"
       ],
@@ -9248,7 +9248,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Diagnostic HRCT criteria for usual interstitial pneumonia (UIP) pattern - ATS/ERS/JRS/ALAT (2018)；2021 交換考官方詳解 PDF p197",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 197 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。UIP 型（IPF）的典型 HRCT 表現為以肺基底與胸膜下為主、分布呈時空異質，並以蜂窩狀變化（honeycombing，可伴牽引性支氣管擴張）與網狀影為核心，且缺乏指向其他診斷的特徵。(A) honeycombing±牽引性支氣管擴張、(B) 網狀影、(C) 胸膜下且基底為主的分布、(D) 無提示替代診斷的特徵，皆為 typical UIP 的組成。反之，(E) 瀰漫性毛玻璃並非 UIP 特徵——UIP 中 GGO 範圍應少於網狀影，若見廣泛毛玻璃反而要往 NSIP、過敏性肺炎等替代診斷想，故 (E) 為敘述錯誤者。\n→ [[ipf]]",
       "concepts": [
         "ipf"
       ],
@@ -9292,7 +9292,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiopaedia Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615.；2021 交換考官方詳解 PDF p198",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 198 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。NSIP 的影像本質是相對均質、雙側下肺／胸膜下為主，且常見 subpleural sparing（緊貼胸膜的薄帶被豁免）。(A) 早期胸部 X 光可為正常、(B) 成因多元（可特發，亦可續發於結締組織病、自體免疫病、藥物、職業暴露）、(C) 常見毛玻璃合併 subpleural sparing，皆為正確描述。(D) 則錯誤：網狀影與牽引性支氣管擴張雖屬纖維化表現，但正是 fibrotic NSIP 的招牌特徵，NSIP 一樣會出現，並非「只見於 UIP、NSIP 不會有」。NSIP 與 UIP 的差別在於 honeycombing 少、對稱均質、可有 subpleural sparing，而非有無牽引性支氣管擴張。\n→ [[nonspecific-interstitial-pneumonia]]",
       "concepts": [
         "nonspecific-interstitial-pneumonia"
       ],
@@ -9336,7 +9336,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Mueller-Mang, C., Grosse, C., Schmid, K., Stiebellehner, L., & Bankier, A. A. (2007). What every radiologist should know about idiopathic interstitial pneumonias. Radiographics, 27(3), 595-615. Kligerman, S. J., Franks, T. J., & Galvin, J. R. (2013). From the radiologic pathology archives: organization and fibrosis as a response to lung injury in diffuse alveolar damage, organizing pneumonia, and acute fibrinous and organizing pneumonia. Radiographics, 33(7), 1951-1975. (A)ThehistologicpatternofCOPisorganizingpneumonia,formerlyreferred to as bronchiolitis obliterans organizing pneumonia (BOOP).；2021 交換考官方詳解 PDF p199",
-      "explanation": "【2021 官方詳解】\nReference 1 :\n\n⚠️ 本題含影像（官方詳解 PDF 第 199 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。COP 的組織型態為 organizing pneumonia，其舊稱應為 BOOP（bronchiolitis obliterans organizing pneumonia），後為避免與真正的小氣道阻塞性疾病混淆而捨棄此名。(A) 把舊稱寫成單純的「bronchiolitis obliterans（BO）」是錯的——BO（閉塞性／收縮性細支氣管炎）是另一種阻塞性小氣道病，與 COP 不同，故 (A) 為敘述錯誤者。(B) 肺部陰影由毛玻璃到實質化不等、(C) 病灶可移行（改變位置與大小）、(D) 可出現 reverse halo（atoll）sign，皆為 COP 正確且典型的表現。\n→ [[organizing-pneumonia]]",
       "concepts": [
         "organizing-pneumonia"
       ],
@@ -11834,7 +11834,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, Table 28-1；2021 交換考官方詳解 PDF p264",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 264 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。肺高壓依 WHO 分為五大群：第 1 群肺動脈高壓、第 2 群左心病變、第 3 群肺病／缺氧、第 4 群慢性血栓栓塞（CTEPH）、第 5 群多因子。(A) COPD 屬第 3 群、(B) 血栓栓塞性疾病屬第 4 群、(D) 左向右分流造成肺血流增多屬第 1 群相關的常見病因，三者皆為肺高壓公認的常見成因。(C) 支氣管肺炎（bronchopneumonia）為急性肺部感染，並非造成慢性肺高壓的常見病因，故為本題要挑出的「非」常見病因者。\n→ [[pulmonary-hypertension-classification]]",
       "concepts": [
         "pulmonary-hypertension-classification"
       ],
@@ -11878,7 +11878,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, P.631；2021 交換考官方詳解 PDF p265",
-      "explanation": "【2021 官方詳解】\nEnlarged pulmonary trunk (measured at pulmonary artery bifurcation on an axial slice vertical to its long axis) >29 mm diameter is often used as a general predictive cut-off.\nRef: radiopaedia",
+      "explanation": "答案 B。主肺動脈幹的量測應於軸位、在肺動脈分叉處、與其長軸垂直取得；一般以直徑 >29 mm（約 3 cm）作為擴大的判定切點，也常用來預測肺高壓，故正常上限約 29 mm，選 (B)。(A) 20 mm 明顯偏小、屬正常範圍；(C) 30 mm 與 (D) 39 mm 皆已落在擴大範圍，不是「正常上限」。須留意單一徑值敏感度僅中等，實務多再輔以主肺動脈:升主動脈比值 >1 等指標綜合判讀。\n→ [[pulmonary-artery-enlargement]]",
       "images": [],
       "concepts": [
         "pulmonary-artery-enlargement",
@@ -11917,7 +11917,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Thoracic Imaging, 2005 ed. W. Richard Webb, Charles B. Higgins Chapter 28, P.640；2021 交換考官方詳解 PDF p266",
-      "explanation": "【2021 官方詳解】\nRef: radiopaedia\nEtiology\n- idiopathic: most cases , thought to be a form of IgG4-related disease\n- Histoplasma capsulatum infection (histoplasmosis): common in the United States and often gives a localized pattern\n- Mycobacterium tuberculosis infection (pulmonary tuberculosis)\n- concurrent intrathoracic malignancy\n- sarcoidosis\n- radiation therapy\n- drugs, e.g. methysergide therapy",
+      "explanation": "答案 D。纖維化縱膈炎的常見病因包括：多數為特發性（現多認為屬 IgG4 相關疾病）、組織漿菌（Histoplasma capsulatum，在美國最常見、常呈局部鈣化型）、結核分枝桿菌感染、結節病、放射治療、藥物（如 methysergide）及並存的胸內惡性腫瘤。(A) 結節病、(B) 結核、(C) 組織漿菌皆列於已知病因中。(D) Schistosoma mansoni（血吸蟲）並非纖維化縱膈炎的病因，故為本題要選出的「非」病因者。\n→ [[fibrosing-mediastinitis]]",
       "images": [],
       "concepts": [
         "fibrosing-mediastinitis"
@@ -12490,7 +12490,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Radiology: Volume 284: Number 1—July 2017；2021 交換考官方詳解 PDF p283",
-      "explanation": "【2021 官方詳解】\n(A) Nodule Multiplicity\nAn analysis of patients with multiple nodules in the NELSON trial showed increased risk of primary cancer as the total nodule count increased from 1 to 4 but decreased risk in patients with 5 or more nodules, most of which likely resulted from prior granulomatous infection. In the PanCan trial, multiplicity of nodules was associated with a reduced risk of cancer when compared with risk associated with one nodule.",
+      "explanation": "答案 A。偶見肺結節的惡性風險因子中，結節數量與惡性風險並非單調正相關：分析顯示結節數由 1 增至約 4 顆時原發癌風險上升，但達 5 顆以上反而風險下降（多源自過去肉芽腫感染）。故 (A)「總結節數達 10 顆以上」不指向惡性，為本題要選出者。其餘皆為惡性指標：(B) 邊緣毛刺（spiculation）在篩檢發現結節的勝算比約 2.2–2.5、(C) 實質與次實質（subsolid）結節本身即需警覺、(D) 實質結節倍增時間 100–400 天／次實質結節倍增時間 3–5 年，皆屬典型惡性生長速率範圍。\n→ [[fleischner-pulmonary-nodule]]",
       "images": [],
       "concepts": [
         "fleischner-pulmonary-nodule",
@@ -13304,7 +13304,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Chung JH et al. AJR Am J Roentgenol 2018;210:307-313；2021 交換考官方詳解 PDF p325",
-      "explanation": "【2021 官方詳解】\nconnective tissue disease- interstitial lung disease (CTD-ILD)\nAnterior upper lobe sign:\nsubstantial degree of reticulation, traction bronchiectasis, and honeycombing within upper lobes, mostly concentrated in anterior aspect\nexuberant honeycombing sign:\nperipheral- and basilar-predominant pulmonary fibrosis pattern characterized primarily by florid honeycombing\nstraight-edge sign:\nstraight interface between fibrosis and normal lung orthogonal to lateral chest wall surface\n\n⚠️ 本題含影像（官方詳解 PDF 第 325 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。straight-edge sign（纖維化侷限於肺基底、在冠狀面上下界銳利、不沿肺外側緣往上延伸）是 CTD 相關 UIP 相對於 IPF 較常出現的三大反常徵象之一，故 (A) 為 CTD-ILD 的 HRCT 特徵。(B)「multi-layers honeycombing」用詞有誤——CTD 的特徵是 exuberant honeycombing（蜂窩佔纖維化區 >70%），並非「多層蜂窩」；(C)「posterior upper lobe sign」方向相反，正確者為 anterior upper lobe sign（纖維化集中於上葉前段並合併下肺侵犯）。因 B、C 敘述皆不正確，故 (D)「以上皆對」不成立，正解為 (A)。\n→ [[ctd-ild]]",
       "images": [
         "2021-327-1.png",
         "2021-327-2.png",
@@ -13346,7 +13346,7 @@
       ],
       "correctAnswer": "A",
       "reference": "AJRCCM 2018 (Sept); 198 (5): e44-68；2021 交換考官方詳解 PDF p327",
-      "explanation": "【2021 官方詳解】\n2018 HRCT category of UIP\nClassification\nUIP pattern (definite)\nprobable UIP pattern\nindeterminate for UIP pattern\nalternative diagnosis\nIn 2018 the guidelines were reviewed, and the main changes compared to the 2011 publication are:\n- \"possible UIP\" no longer exists and has been replaced by \"probable UIP\"\n  - studies have shown that most of these patients were likely to have histopathologic UIP pattern despite the radiologic absence of honeycombing\n- similar to the diagnostic HRCT criteria for usual interstitial pneumonia (UIP) pattern - Fleischner society guideline (2018), this reviewed guidelines moved from three to four HRCT categories with a reasonable correspondence among the two 2018 papers\n- now, the patient's management should be based on their HRCT classification in two groups:\n  - HRCT pattern of probable UIP, indeterminate for UIP, and alternative diagnosis\n  - HRCT pattern of UIP",
+      "explanation": "答案 A。2018 年 ATS/ERS/JRS/ALAT 指引將 UIP 的 HRCT 分為四類：UIP（definite）、probable UIP、indeterminate for UIP、alternative diagnosis。相較 2011 年版本，最大改變是取消「possible UIP」、以「probable UIP」取代（因研究顯示這群病人縱使影像無蜂窩，多數病理仍為 UIP）。因此 (A) possible UIP 已不在 2018 分類中，為本題要選出者。(B) indeterminate for UIP 與 (C) alternative diagnosis 皆為 2018 四分類的正式項目，故 (D)「全部都對且包含」不成立。\n→ [[ipf]]",
       "images": [],
       "concepts": [
         "ipf"
@@ -13868,7 +13868,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2014; 34:1680–1691 International Association for the Study of Lung Cancer (IASLC) Lymph Node Map: Radiologic Review with CT Illustration；2021 交換考官方詳解 PDF p353",
-      "explanation": "【2021 官方詳解】\nC. Left lateral wall of the trachea (not the midline) serves as the boundary between\nright and left upper/lower paratracheal lymph nodes\nOther teaching point:\nBecause the plane of the thoracic inlet bisects the axial plane at conventional thoracic\nCT, the visible sections of the right and left first ribs serve as the most reliable landmarks for the\nthoracic inlet at axial CT.\n\n⚠️ 本題含影像（官方詳解 PDF 第 353 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。依 IASLC 淋巴結分站，右側與左側上（及下）氣管旁淋巴結的分界是氣管的「左外側壁（left lateral tracheal wall）」，而非氣管中線；2R／4R 會越過中線延伸至氣管左緣，這是 IASLC nodal map 的核心特徵，故 (C) 以「midline」為界的敘述錯誤，為本題答案。其餘皆正確：(A) 鎖骨上區的上界為環狀軟骨下緣、(B) 左上氣管旁（2L）淋巴結下界為主動脈弓上緣、(D) 右下氣管旁（4R）淋巴結下界為奇靜脈下緣。附帶記憶點：胸廓入口在軸位 CT 上最可靠的標誌是可見的左右第一肋。\n→ [[lung-cancer-tnm-staging]]",
       "images": [
         "2021-341-1.png"
       ],
@@ -13912,7 +13912,7 @@
       ],
       "correctAnswer": "E",
       "reference": "RadioGraphics 2019; 39:344–366 Recognizing Radiation Therapy– related Complications in the Chest；2021 交換考官方詳解 PDF p354",
-      "explanation": "【2021 官方詳解】\nMesothelioma, esophageal cancer have been reported\n\n⚠️ 本題含影像（官方詳解 PDF 第 354 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。胸部放療的晚期併發症之一是放射線誘發的續發惡性腫瘤，已報告者包括 (A) 肉瘤、(B) 乳癌、(C) 肺癌；而 (D) 間皮瘤的致病因子除石綿外，放射線暴露亦為公認因素之一（官方另提食道癌亦有報告）。由於四個具體選項皆屬已報告的放射線誘發胸部惡性腫瘤，沒有任何一項可被排除，故「何者不是」的答案為 (E) 以上皆非。判讀上，續發惡性多潛伏數年至數十年、出現於或鄰近舊照射野並隨追蹤逐漸增大，可藉此與治療野內短期的預期放射性變化區分。\n→ [[radiation-induced-thoracic-malignancy]]",
       "concepts": [
         "radiation-induced-thoracic-malignancy"
       ],
