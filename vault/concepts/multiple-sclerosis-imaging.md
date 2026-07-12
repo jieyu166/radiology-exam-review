@@ -6,7 +6,7 @@ aliases:
   - MS plaques
   - Dawson fingers
   - 多發性硬化症影像
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # multiple-sclerosis-imaging
@@ -20,7 +20,9 @@ dateRev: 2026-07-10
 - **流行病學（考點）**：MS **好發於女性（female predominance，F:M 約 2–3:1，即女多於男）**，發病年齡青春期至第六十年、**峰值約 30 歲（20–40 歲）**；**optic neuritis** 為常見表現（相當比例日後發展為 MS）；**Dawson fingers**（腦室周圍沿深髓靜脈垂直排列之 T2 高訊號斑塊）為典型徵象。故「F:M ≈ 1:2」為錯誤（把男女比顛倒）。[^3]
 
 ## 放射科醫師影像判讀重點
-- **空間多發（DIS）的四個典型部位**：2017 McDonald 準則以 T2 高訊號病灶分布於 **periventricular、cortical/juxtacortical、infratentorial、spinal cord** 四區中 ≥2 區證明 DIS；判讀 MRI 時應系統性檢視此四區，periventricular（Dawson fingers）而非後顱窩為主要好發部位。[^2]
+- **空間多發（DIS）的典型部位**：2017 McDonald 準則以 T2 高訊號病灶分布於 **periventricular、cortical/juxtacortical、infratentorial、spinal cord** 四區中 ≥2 區證明 DIS；**2024 McDonald 更新新增 optic nerve 為第 5 個 DIS 部位**，並將 **central vein sign（CVS）與 paramagnetic rim lesion（PRL）納入為選用支持標記**。判讀 MRI 時應系統性檢視這些部位，periventricular（Dawson fingers）而非後顱窩為主要好發部位。[^2][^5]
+- **Central vein sign（CVS，perivenular）**：MS 病灶多沿一條穿行的中央小靜脈排列，是與小血管病等 mimics 鑑別的高效徵象；文獻 Select-6 法之敏感度約 **95–100%**、特異度約 **88–97%**。**PRL**（SWI/相位上病灶周邊的順磁環）代表**慢性活動性（chronic active）**病灶。[^4]
+- **強化型態（open-ring sign）**：活動性去髓鞘病灶可呈**不完整環狀強化（open-ring）**，缺口朝向皮質／CSF 側，用以與腫瘤、膿瘍（多為完整環強化）鑑別；慢性期可見 **T1 黑洞（black hole）**。[^4]
 - **時間多發（DIT）的影像判準**：同時出現**強化與非強化病灶**，或追蹤新出現之 T2／強化病灶，即滿足 DIT——判讀時同一次掃描中並存 enhancing 與 non-enhancing 斑塊即具意義。[^2]
 - **症狀性病灶與皮質病灶納入**：2017 修訂後**症狀性病灶亦可用於證明 DIS/DIT**，且**皮質病灶（cortical lesions）可與皮質下病灶同等用於證明 DIS**——判讀不再排除症狀相關病灶。[^2]
 - **Dawson fingers 與 dot-dash sign**：腦室周圍斑塊沿深髓靜脈垂直於側腦室排列（Dawson fingers），矢狀 FLAIR 最清楚；室管膜線 dot-dash 徵象反映室管膜下受累。[^1]
@@ -39,7 +41,9 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: 2019 交換考詳解；Osborn's Brain, Demyelinating and Inflammatory Diseases, p.449-461。
 [^2]: **Tier 1** Thompson AJ, Banwell BL, Barkhof F, et al. *Diagnosis of multiple sclerosis: 2017 revisions of the McDonald criteria*. Lancet Neurol 2017;17(2):162-173（據 PubMed，DOI [10.1016/S1474-4422(17)30470-2](https://doi.org/10.1016/S1474-4422(17)30470-2)；實際查證 accessed 2026-07-04）——國際小組修訂 2017 McDonald 準則：DIS 以 periventricular／cortical-juxtacortical／infratentorial／spinal cord 四區中≥2區之 T2 病灶界定，DIT 以強化與非強化病灶並存或新病灶界定；症狀性與皮質病灶可納入，具 DIS 之 CIS 病人有 CSF 特異性 oligoclonal bands 可據以診斷 MS。原「2019 交換考詳解」弱來源已由本次 DOI Tier 1 查核升級。
-[^3]: *Multiple sclerosis*. Radiopaedia.org（實際查證 accessed 2026-07-05）：MS 呈女性優勢（female predominance），發病自青春期至第六十年、**峰值約 30 歲**；表現包含 optic neuritis 等；影像特徵含 periventricular Dawson fingers（沿深髓靜脈垂直側腦室排列之 T2 高訊號斑塊）。支持本題「F:M ≈ 1:2」為錯誤敘述（實為女多於男）。
+[^3]: *Multiple sclerosis* / *Central vein sign*. Radiopaedia.org（實際查證 accessed 2026-07-05；CVS 搜尋摘要 accessed 2026-07-12）：MS 呈女性優勢（female predominance），發病自青春期至第六十年、**峰值約 30 歲**；表現包含 optic neuritis 等；影像特徵含 periventricular Dawson fingers（沿深髓靜脈垂直側腦室排列之 T2 高訊號斑塊）、central vein sign。支持本題「F:M ≈ 1:2」為錯誤敘述（實為女多於男）。
+[^4]: **Tier 1（全文，vault 已有 L3）** Lim TR, Suthiphosuwan S, et al. *Conventional and Emerging MRI Biomarkers of Multiple Sclerosis.* RadioGraphics. 2026;46(3):e250069（DOI [10.1148/rg.250069](https://doi.org/10.1148/rg.250069)；PMC12973095；全文 accessed 2026-07-12）：CVS 敏感度 95–100%／特異度 88–97%（Select-6）；PRL＝慢性活動性病灶；open-ring 強化缺口朝皮質／CSF 側；T1 black hole 為慢性去髓鞘。
+[^5]: **Tier 1** Rai P, Bathla G, et al. *The 2024 Update to the McDonald Criteria for Multiple Sclerosis: A Guide for Radiologists.* AJR Am J Roentgenol. 2026;226(4):e2533997（DOI [10.2214/AJR.25.33997](https://doi.org/10.2214/AJR.25.33997)；摘要 accessed 2026-07-12）：2024 更新新增 optic nerve 為第 5 個 DIS 部位，並納入 CVS＋PRL 為選用支持標記。
 
 ## 題目
 > [!question]- Regarding to MS, which is wrong? (2022-397)

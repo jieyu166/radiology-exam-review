@@ -7,7 +7,7 @@ aliases:
   - CAA
   - lobar hemorrhage
   - 腦類澱粉血管病變
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 same:
   - "[[hypertensive-hemorrhage]]"
 ---
@@ -18,13 +18,14 @@ same:
 
 ## Summary
 - **族群/出血**：**正常血壓老年人**的 **lobar（皮質-皮質下）腦出血**;為老年自發性 lobar ICH 常見原因。[^1]
-- **分布**：**皮質-皮質下為主,『保留(spares)』basal ganglia 與 pons**——對比高血壓出血好發深部(基底核/視丘/腦橋,見 [[hypertensive-hemorrhage]])。[^1]
+- **分布**：**皮質-皮質下為主,『保留(spares)』basal ganglia 與 pons**——對比高血壓出血好發深部(基底核/視丘/腦橋,見 [[hypertensive-hemorrhage]])。β-amyloid 沉積於皮質及軟腦膜血管、好發老年。[^1][^6]
 - **微出血**：GRE/SWI 多發皮質-皮質下『**黑點(susceptibility)**』、cortical superficial siderosis。[^1]
 - **臨床**：與失智(Alzheimer 共病)相關。[^1]
 
 ### 影像判讀骨架（一般放射科醫師需知）
 - **首選序列**：以 **SWI 或 GRE/T2\*** 偵測出血標記;SWI 對微出血與含鐵血黃素的敏感度高於傳統 GRE T2\*。微出血計數與分布判讀均建立在這類磁敏感序列上。[^2]
-- **微出血分布（最關鍵的判讀區別）**：CAA 微出血呈 **多發(≥2)、嚴格腦葉(strictly lobar)、皮質/皮質-皮質下**,且 **好發後部(後枕葉/頂葉)**;反之 **高血壓性微出血好發深部(基底核、視丘、腦幹/橋腦、小腦深部)**。看到深部微出血應優先想高血壓性微血管病而非 CAA。[^2][^3]
+- **微出血分布（最關鍵的判讀區別）**：CAA 微出血呈 **多發(≥2)、嚴格腦葉(strictly lobar)、皮質/皮質-皮質下**,且 **好發後部(後枕葉/頂葉)**;反之 **高血壓性微出血好發深部(基底核、視丘、腦幹/橋腦、小腦深部)**。看到深部微出血應優先想高血壓性微血管病而非 CAA。[^2][^3][^6]
+  - **nuance（後部優勢並非絕對）**：CAA 微出血的「後枕優勢」為群體傾向,實際分布會隨 **偵測序列（SWI vs GRE、磁場強度）與 APOE 基因型（ε4 vs ε2）** 而異,不宜作為單一病例的必要條件。[^8]
 - **皮質表面含鐵血黃素沉積(cortical superficial siderosis, cSS)**：沿腦溝/腦回表面的曲線狀(gyriform/"tram-track")磁敏感低訊號;依範圍分 **focal(<4 個腦溝)** 與 **disseminated(≥4 個腦溝)**;**幕下(infratentorial)cSS 與嚴重 CAA 相關**。cSS 是 CAA 高度特異的標記,也是反覆 convexity SAH 的後遺。[^2]
 - **凸面蛛網膜下出血(convexity SAH, cSAH)**：出血 **侷限於腦凸面腦溝、不在基底池(basal cisterns)**;在老年人為 CAA 的表現之一,常以暫時性局灶神經發作(transient focal neurological episodes, "amyloid spells")表現,並可演變為 cSS。動脈瘤性 SAH 則以基底池為中心,為重要鑑別。[^2]
 - **改良 Boston 2.0 診斷標準影像要件**(年齡 **≥50 歲**、且無其他出血原因):新增 **兩項非出血性白質標記**——(1) **半卵圓中心嚴重血管周隙擴大(>20 個 enlarged perivascular spaces / 半球)**;(2) **多斑點型白質高訊號(multispot WMH,雙側皮質下 >10 個小圓/卵圓 T2/FLAIR 高訊號)**。**Probable CAA** = 至少 **2 個嚴格腦葉出血性病灶(lobar ICH、微出血或 cSS 任意組合)**,或 **1 個腦葉出血性病灶 + 1 項白質標記**;**Possible CAA** = 僅 **1 個腦葉出血性病灶** 或僅 **1 項白質標記**。對照神經病理金標準,Probable CAA 敏感度約 74.5%、特異度約 95%。[^4]
@@ -45,6 +46,9 @@ same:
 [^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。
 [^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。
 [^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。
+[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。
+[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。
+[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。
 
 ## 題目
 > [!question]- Modified Boston Criteria for definite CAA, which of the following is wrong? (2021-276)

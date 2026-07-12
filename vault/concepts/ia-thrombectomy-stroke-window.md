@@ -9,7 +9,7 @@ aliases:
   - DEFUSE 3 trial
   - 機械取栓治療窗
   - 全民健保取栓給付標準
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # ia-thrombectomy-stroke-window
@@ -46,10 +46,13 @@ dateRev: 2026-07-10
 
 ## 放射科醫師影像判讀重點
 - **晚窗選病人靠灌流影像（判讀分水嶺）**：6-24 小時前循環 LVO 須以 **CTP 或 DW-MRI±MR perfusion** 篩出「小梗塞核心、大可挽救半暗帶（mismatch）」者才建議取栓；核心過大者取栓獲益有限甚至有害。[^1]
-- **DAWN／DEFUSE-3 影像門檻**：DAWN 以**臨床-核心不匹配**（年齡分層之核心體積上限）、DEFUSE-3 以**灌流-核心 mismatch（核心 <70 mL、mismatch ratio ≥1.8、mismatch volume ≥15 mL）**選病人；判讀延窗影像時要對照這些量化標準。[^1]
+- **標準窗（<6 小時）**：仍以 **ASPECTS ≥6**（或小梗塞核心）作為前循環取栓的常規門檻；6 小時後才進入需灌流影像延窗的範疇。[^1][^4]
+- **DAWN／DEFUSE-3 影像門檻**：DAWN 以**臨床-核心不匹配**選病人，核心體積上限依**年齡／NIHSS 分層**（<80 歲且 NIHSS≥10 → core <21 mL；<80 歲且 NIHSS≥20 → core <31 mL；≥80 歲 → core <51 mL）；DEFUSE-3 以**灌流-核心 mismatch（核心 <70 mL、mismatch ratio ≥1.8、mismatch volume ≥15 mL）**選病人；判讀延窗影像時要對照這些量化標準。[^1]
+- **CTP 參數判讀**：以 **rCBF <30% 定義梗塞核心（core）**、**Tmax >6 秒定義低灌流／半暗帶（penumbra）**；ASPECTS 為 10 分制。CTP／MR perfusion 是晚窗選病人的核心工具。[^4]
 - **LVO 定位與健保給付部位**：判讀 CTA/MRA 要明確定位阻塞段（**ICA、M1/M2、ACA、basilar、vertebral**）——這既是取栓適應症，也是台灣健保給付四要件之一。[^2]
 - **後循環判讀要點**：basilar/vertebral occlusion 取栓證據等級較弱（Class IIb/LOE C-LD）；亞洲族群常見 **ICAD（顱內動脈粥狀硬化）**，判讀時注意串聯狹窄與夾層延伸，DWI 可評估腦幹梗塞範圍。[^3]
 - **流程陷阱**：取栓前的進階影像評估**不應延誤 IV 溶栓**；ASPECTS／核心體積、側支循環評估影響選病人與預後判讀。[^1][^3]
+- **大梗塞核心取栓（新證據，nuance）**：2023 年 **SELECT2（ASPECTS 3–5 或 core ≥50 mL）** 與 **ANGEL-ASPECT（ASPECTS 3–5 或 core 70–100 mL）** 顯示對「大核心」病人取栓仍可獲益，已擴大取栓適應症；惟此屬**二手／新聞級整理，NEJM 原文待登入查證**，臨床請以正式指引為準。[^5]
 
 ## 臨床重點（5 句）
 - 2019 AHA/ASA 更新：前循環 LVO 6-16 小時符合 DAWN/DEFUSE-3 取栓為 Class I，16-24 小時符合 DAWN 為 Class IIa。[^1]
@@ -62,6 +65,8 @@ dateRev: 2026-07-10
 [^1]: Powers WJ, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update*. Stroke 2019;50(12):e344–e418, DOI 10.1161/STR.0000000000000211（accessed 2026-07-03；亦含 2018 版 Stroke 2018;49:e46–e99, DOI 10.1161/STR.0000000000000158）——前循環 LVO 6-16 小時符合 DAWN/DEFUSE-3 取栓為 Class I、16-24 小時符合 DAWN 為 Class IIa；6-24 小時以 CTP/DW-MRI±perfusion 選病人（Class I, LOE A）。查證註記：截至 2026-07 此仍為 AHA/ASA 最新完整 AIS 指引，晚窗另有 2023 SVIN 指引補充，6-24h 影像導向延窗維持標準。
 [^2]: 官方 2020 詳解；Ref: 全民健保，衛生福利部中央健康保險署醫療給付項目及支付標準（accessed 2026-07-03）——前循環 8 小時/後循環 24 小時、NIHSS 8-30、特定大血管阻塞（ICA/M1/M2/ACA/basilar/vertebral）三條件須同時符合。
 [^3]: Powers WJ, et al. *AIS 2019 Update*. Stroke 2019;50(12):e344–e418, DOI 10.1161/STR.0000000000000211（accessed 2026-07-03）——vertebrobasilar occlusion 取栓為 **Class IIb / LOE C-LD**（弱建議、有限資料），非前循環 LVO 之 Class I/LOE A；評估不應延誤 IV 溶栓。
+[^4]: **Tier 1** *CT for Treatment Selection in Acute Ischemic Stroke: A Code Stroke Primer.* RadioGraphics. 2019（DOI [10.1148/rg.2019190142](https://doi.org/10.1148/rg.2019190142)；摘要 accessed 2026-07-12）：rCBF <30% 定義梗塞核心（core）、Tmax >6 秒定義半暗帶（penumbra）；ASPECTS 為 10 分制；標準窗以 ASPECTS ≥6 選病人。
+[^5]: **二手／新聞級（NEJM 原文待登入）** *Mechanical thrombectomy for acute ischaemic stroke*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12，rID 未取得）；並綜整 2023 SELECT2（ASPECTS 3–5／core ≥50 mL）與 ANGEL-ASPECT（ASPECTS 3–5／core 70–100 mL）擴大大核心取栓之報導——原始 NEJM 全文尚待登入查證，臨床以正式指引為準。
 
 ## 題目
 > [!question]- According to the 2018 AHA/ASA Guidelines, IAT treatment window can be extended up to how long with MR-DWI/perfusion imaging help? (2020-231)

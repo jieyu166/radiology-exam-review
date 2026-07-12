@@ -8,7 +8,7 @@ aliases:
   - recurrent laryngeal nerve mediastinum
   - intercostal nerve mediastinum
   - 後縱膈神經
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # posterior-mediastinum-nerves
@@ -24,14 +24,17 @@ dateRev: 2026-07-10
 ## 放射科醫師影像判讀重點
 - **依走行分區定位**：判讀神經受侵時先依走行分區——**phrenic nerve 走前縱膈（沿心包外側）**，故後縱膈腫瘤相對罕見侵犯；vagus、recurrent laryngeal、intercostal 三者走後縱膈範圍，較易受侵。[^1]
 - **喉返神經路徑判讀**：右側繞右鎖骨下動脈、左側繞主動脈弓後上行於**氣管食道溝**；主動脈弓下（aortopulmonary window）腫塊侵犯左喉返神經可致左側聲帶麻痺——判讀縱膈腫塊時須留意此區。[^1]
-- **神經源性腫瘤定位**：後縱膈（脊椎旁溝）為神經源性腫瘤好發區，沿肋間神經或交感神經鏈生長，CT/MRI 判讀時注意有無經椎間孔延伸（啞鈴狀 dumbbell）壓迫脊髓。[^1]
+- **神經源性腫瘤定位**：後縱膈（脊椎旁溝）為**神經源性腫瘤好發區——佔後縱膈腫塊約 90–95%**，沿肋間神經或交感神經鏈生長，CT/MRI 判讀時注意有無經椎間孔延伸（啞鈴狀 dumbbell）壓迫脊髓。[^1][^2][^3]
+- **神經源性腫瘤三分類與年齡良惡**：分為 **①周邊神經鞘腫瘤（nerve sheath：schwannoma／neurofibroma）——好發成人、多良性、外形較圓**；**②交感神經節腫瘤（ganglioneuroma／ganglioneuroblastoma／neuroblastoma）——好發兒童、外形沿交感鏈縱長形、neuroblastoma 最惡**；**③副神經節瘤（paraganglioma）**。良性 dumbbell 型可致**椎間孔擴大、肋骨／椎體 scalloping（壓迫性重塑）**。[^2][^3]
 - **膈神經受累間接徵象**：phrenic nerve 受累（多來自前縱膈病灶）可致**同側橫膈上抬與麻痺**，透視/超音波見矛盾運動——後縱膈腫瘤出現此徵象反而不典型。[^1]
 
 > [!note] 考點：後縱膈腫瘤「相對少」侵犯何者？
 > **Phrenic nerve（A）**——走行於前縱膈，不在後縱膈路徑內。Vagus nerve、recurrent laryngeal nerve、intercostal nerve皆走行於後縱膈範圍，較易受侵犯。[^1]
 
 ### 參考來源
-[^1]: Cummings KW, Sridhar S, Parsons MS, et al. *Cross-sectional imaging anatomy and pathologic conditions affecting thoracic nerves*. RadioGraphics 2017;37:73–92（2018 交換考題詳解 p.231 引用；Tier 1 期刊）。膈神經走行於前縱膈（沿心包外側）；迷走神經/喉返神經/肋間神經皆走行於後縱膈範圍。
+[^1]: Cummings KW, Sridhar S, Parsons MS, et al. *Cross-sectional imaging anatomy and pathologic conditions affecting thoracic nerves*. RadioGraphics 2017;37(1):73–92（DOI [10.1148/rg.2017160089](https://doi.org/10.1148/rg.2017160089)；2018 交換考題詳解 p.231 引用；Tier 1 期刊）。膈神經走行於前縱膈（沿心包外側）；迷走神經/喉返神經/肋間神經皆走行於後縱膈範圍。
+[^2]: *Neurogenic tumors of the mediastinum* / *Posterior mediastinal mass (differential)*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12；rID 未取得（正文 403））：神經源性腫瘤佔後縱膈腫塊約 90%；三分類（nerve sheath／sympathetic ganglion／paraganglioma）；dumbbell 型經椎間孔延伸。
+[^3]: **佐證（免費全文，非題目白名單）** Occhipinti M, Heidinger BH, Franquet E, et al. *Imaging the posterior mediastinum: a multimodality approach.* Diagn Interv Radiol. 2015;21(1):37-45（DOI [10.5152/dir.2014.14467](https://doi.org/10.5152/dir.2014.14467)；PMID 25993732；全文 accessed 2026-07-12，非題目白名單）：後縱膈約 95% 腫塊為神經源性；nerve sheath 腫瘤好發成人多良性、外形較圓；sympathetic ganglion 腫瘤好發兒童、縱長形，neuroblastoma 最惡。
 
 ## 題目
 > [!question]- Which one is relative rarely affected by posterior mediastinum tumor? (2018-322)

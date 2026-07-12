@@ -6,7 +6,7 @@ aliases:
   - X-linked adrenoleukodystrophy
   - X-ALD
   - 腎上腺腦白質失養症
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # adrenoleukodystrophy
@@ -17,7 +17,7 @@ dateRev: 2026-07-10
 
 ### 疾病與族群
 - **遺傳/代謝**：X-linked 過氧化體（peroxisomal）病,**ABCD1** 基因突變;**極長鏈脂肪酸（VLCFA）顯著升高**,於腎上腺、CNS 髓鞘、Leydig 細胞堆積。表型由重到輕：兒童腦型（CerALD）→ 成人 adrenomyeloneuropathy（AMN）→ Addison-only → 無症狀。[^1][^2]
-- **典型族群**：兒童腦型多見於 **5–12 歲男童**,以行為/學業退步、視聽功能障礙起病;影像進展快、預後差。[^2][^3]
+- **典型族群**：兒童腦型多見於 **5–12 歲男童**,以行為/學業退步、視聽功能障礙起病;影像進展快、預後差。**childhood cerebral 型為最重、快速退化的表型,腦 MRI 為初診與追蹤（含鑑別）的主軸**。[^2][^3][^10]
 
 ### 判讀骨架（兒童腦型）
 - **分布（核心判讀點）**：**頂枕（parieto-occipital）/peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號**,早期即累及**胼胝體壓部（splenium of corpus callosum）**,病灶經壓部跨中線連成對稱馬蹄/蝴蝶狀,典型由**後向前進展**。可沿下行/上行纖維束累及**視放射（visual）與聽放射（auditory pathway）**、皮質脊髓束（projection fibres）。[^2][^3][^4]
@@ -25,7 +25,7 @@ dateRev: 2026-07-10
   - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。[^4][^3]
   - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。[^4][^3]
   - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。[^4]
-- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。[^5][^3]
+- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。**周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間**。[^5][^3][^10]
 - **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。[^1]
 
 ### 成人型 adrenomyeloneuropathy（AMN）
@@ -38,7 +38,7 @@ dateRev: 2026-07-10
 ### 鑑別判讀（分水嶺）
 - **後部白質對稱＋胼胝體壓部受累＋活動性強化前緣** → **X-linked ALD** 的判讀指紋。[^2][^3]
 - **PML**：免疫低下、不對稱、皮質下 U-fibre、通常**不強化**（除 IRIS）、無腎上腺關聯。
-- **其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。[^9]
+- **其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。[^9][^11]
 - **PRES（後部可逆性腦病）**：亦後部頂枕為主,但多為皮質下血管源性水腫、**可逆**、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。
 
 ### 本題
@@ -57,6 +57,8 @@ dateRev: 2026-07-10
 [^7]: *Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。
 [^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。
 [^9]: *Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。
+[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。
+[^11]: *Leukodystrophies*（含 X-ALD）. Radiopaedia.org（rID 5266；DOI [10.53347/rID-5266](https://doi.org/10.53347/rID-5266)；搜尋摘要 accessed 2026-07-12；X-ALD 專屬文章 rID 未取得（正文 403））：leukodystrophy 分類與各型白質分布鑑別。
 
 ## 題目
 > [!question]- About X-linked adrenoleukodystrophy, which one is "Wrong"? (2021-165)

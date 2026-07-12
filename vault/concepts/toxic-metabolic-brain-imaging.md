@@ -10,7 +10,7 @@ aliases:
   - posterior reversible encephalopathy syndrome
   - diabetic striatopathy
   - 中毒代謝性腦病變
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # toxic-metabolic-brain-imaging
@@ -40,6 +40,12 @@ dateRev: 2026-07-10
 - **好發時序**：CO中毒後**數週之亞急性期**可出現遲發性白質腦病(delayed leukoencephalopathy)，為第二常見侵犯部位（大腦白質，僅次於雙側蒼白球）。[^5]
 - **影像表現**：瀰漫**雙側對稱融合性**T2/FLAIR白質高訊號。[^5]
 - **病程與可逆性**：此白質訊號變化**數月後可完全或部分消退，並非不可逆**——與其他CO中毒特徵(雙側蒼白球對稱擴散受限、病灶周邊因出血呈薄層T2低訊號邊緣)並列判讀重點。[^5]
+
+### 其他對稱型態速記（對號入座）
+- **蒼白球 vs 殼核**：CO 中毒／慢性肝性腦病侵犯**雙側蒼白球**（CO 保留殼核）；**甲醇中毒相反**——選擇性**殼核**壞死、相對保留蒼白球、可伴視神經壞死。[^4][^6]
+- **T1 高訊號（免顯影）**：慢性肝性腦病之**錳沉積**呈雙側蒼白球（±黑質）T1 高訊號；糖尿病性紋狀體病變呈單側紋狀體 T1 高訊號。[^4][^6]
+- **Metronidazole 毒性**：**雙側對稱齒狀核** T2/FLAIR 高訊號（±中腦、胼胝體壓部），停藥後多可逆——為 2021-062 之對應實體。[^6]
+- **對稱皮質型**：低血糖侵犯頂枕葉/海馬/內囊後肢；急性高血氨侵犯扣帶回/腦島/視丘且**特徵性保留枕葉與 peri-rolandic 皮質**。[^6]
 
 ### 糖尿病性紋狀體病變（Diabetic striatopathy）與其他代謝性腦病鑑別
 - **糖尿病性紋狀體病變**：控制不良之第二型糖尿病合併**非自主運動(舞蹈症)**，MRI呈現**單側紋狀體(unilateral striatum)T1高訊號**，為其特徵表現。[^4]
@@ -82,6 +88,7 @@ dateRev: 2026-07-10
 [^3]: **Tier 1（全文已讀）** 同上（doi:10.1148/rg.2019190016）：PRES 因血管源性水腫主要侵犯白質（皮質與皮質下皆可）；頂枕葉最典型(~90%)、額上溝型(~70%)、holohemispheric watershed(~50%)，>90% 病例多模式並存；藥物相關(cyclosporine/tacrolimus)常呈非典型 PRES。
 [^4]: **Tier 1（全文已讀）** 同上（doi:10.1148/rg.2019190016）：糖尿病性紋狀體病變單側紋狀體 T1 高訊號；慢性肝性腦病雙側蒼白球/黑質 T1 高訊號(錳沉積)；CO 中毒與海洛因過量典型侵犯雙側蒼白球；**甲醇中毒選擇性侵犯殼核、相對保留蒼白球、可伴視神經壞死**。
 [^5]: **Tier 1（全文已讀）** 同上（doi:10.1148/rg.2019190016）：PRES 可進展為 SAH(~15%)與梗塞(10-25%)、多數僅輕度血壓上升、20-30% 血壓正常；CO 遲發性白質腦病於亞急性期（數週後）出現、雙側對稱融合性 T2/FLAIR 白質高訊號、數月後可（部分）消退（可逆），為第二常見侵犯部位（僅次雙側蒼白球）。
+[^6]: **Radiopaedia（snippet／403，正文未實讀全文）** *Osmotic demyelination syndrome*（rID 1077, DOI 10.53347/rID-1077）、*Wernicke encephalopathy*（rID 5627, DOI 10.53347/rID-5627）、及 *carbon monoxide poisoning*／*methanol poisoning*／*metronidazole-induced CNS toxicity*／*hepatic encephalopathy*／*hypoglycaemic encephalopathy*／*acute hyperammonaemic encephalopathy*（後六者 rID 未取得，正文 403）。Radiopaedia.org（搜尋摘要 accessed 2026-07-12）：CO/肝性腦病侵犯雙側蒼白球（CO 保留殼核）、甲醇選擇性殼核壞死保留蒼白球；錳沉積雙側蒼白球 T1 高訊號；metronidazole 雙側對稱齒狀核 T2 高、多可逆；低血糖頂枕葉/海馬、急性高血氨保留枕葉與 peri-rolandic 皮質。
 
 ## 題目
 > [!question]- Which is most likely finding of Wernicke encephalopathy? (2020-341)

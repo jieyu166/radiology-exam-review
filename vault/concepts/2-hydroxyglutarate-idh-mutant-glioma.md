@@ -7,7 +7,7 @@ aliases:
   - 2-HG peak
   - IDH-mutant glioma spectroscopy
   - 2-羥基戊二酸
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # 2-hydroxyglutarate-idh-mutant-glioma
@@ -16,18 +16,21 @@ dateRev: 2026-07-10
 
 ## Summary
 - **2-HG 是 IDH 突變的專屬代謝物**：突變型 IDH1/IDH2 把 α-ketoglutarate 還原成 D-2-hydroxyglutarate，使其在腫瘤內堆積至可被 MRS 偵測。[^1][^2]
-- **共振位置 2.25 ppm**：Radiopaedia MR spectroscopy 明列 2-HG peak resonates at 2.25 ppm；此區與 GABA、glutamate-glutamine（2.2–2.4 ppm）重疊，需最佳化 echo time 的 MRS 序列（如 2D correlation / optimized TE）以區辨。[^1]
+- **共振位置 2.25 ppm**：Radiopaedia MR spectroscopy 明列 2-HG peak resonates at 2.25 ppm；此區與 GABA、glutamate-glutamine（Glx, 2.2–2.4 ppm）重疊，需最佳化 echo time（optimized TE）的 MRS 序列（如 2D correlation）以區辨。[^1][^3]
+- **偽陽性須慎防**：IDH-wild-type glioblastoma 亦可測得偽陽性 2-HG 峰，整體偽陽率約 21%；當腫瘤壞死 > 20% 時偽陽率升至約 50%（多源自壞死與 lactate 訊號干擾），故取樣體素應置於實質腫瘤、避開壞死區。[^3]
 - **只見於 IDH-mutant 腫瘤**：Diffuse astrocytoma（IDH-mutant）、Anaplastic astrocytoma（IDH-mutant，2021 WHO 已整併為 astrocytoma IDH-mutant grade 2–4）皆可見升高的 2-HG；**IDH-wild-type 星細胞瘤與 IDH-wild-type glioblastoma 則無 2-HG 峰**。[^1][^2]
 
 ## 放射科醫師影像判讀重點
 - **MRS 判讀**：於 2.25 ppm 尋找 2-HG 共振峰；陽性高度提示 IDH-mutant lower-grade glioma。IDH-mutant astrocytoma 影像多為 T2/FLAIR 相對均質、鈣化少、強化不明顯（低惡性度期），與 IDH-wild-type GBM 的壞死、明顯環狀強化、rCBV 高不同。[^1][^2]
-- **T2-FLAIR mismatch sign**：IDH-mutant、1p/19q non-codeleted astrocytoma 的特徵性徵象（T2 全瀰漫高訊號但 FLAIR 周邊高、中心相對低），可與 2-HG MRS 互補提示 IDH 狀態。[^2]
+- **T2-FLAIR mismatch sign**：IDH-mutant、1p/19q non-codeleted astrocytoma 的特徵性徵象（T2 全瀰漫高訊號但 FLAIR 周邊高、中心相對低），可與 2-HG MRS 互補提示 IDH 狀態。**特異度接近 100%（陽性幾可確診此亞型），但敏感度低——徵象陰性不可用以排除 IDH-mutant astrocytoma**。分子（含 IDH）資訊已納入 WHO 中樞神經腫瘤分類。[^2][^4]
 - **陷阱**：2.25 ppm 鄰近 GABA/Glx，未用專屬序列易偽陰/偽陽；且 2-HG 濃度隨腫瘤細胞密度變化，取樣體素應涵蓋實質腫瘤而非壞死或囊變區。[^1]
 - **臨床意義**：IDH-mutant 相較 IDH-wild-type 預後較佳、對治療反應與存活不同，術前 2-HG MRS 有助分子分型與治療規劃。[^2]
 
 ### 參考來源
 [^1]: *MR spectroscopy* 與 *2-hydroxyglutarate*. Radiopaedia.org（實際查證 accessed 2026-07-05）：MR spectroscopy 條目明列「2-hydroxyglutarate peak: resonates at 2.25 ppm」，並列於腦部 MRS 代謝物峰（NAA 2.0、Cr 3.0、Cho 3.2、lactate/lipids 1.3、myoinositol 3.5 ppm 等）之中；2-HG 為 IDH 突變之產物。
 [^2]: **Tier 1** Brat D, Reuss D, et al.（WHO Classification of Tumours Editorial Board 5th ed.）；相關文獻見 *Astrocytoma, IDH-mutant*. Radiopaedia.org（rID 之引用清單，實際查證 accessed 2026-07-05）：IDH-mutant astrocytoma 為瀰漫性膠質瘤，突變型 IDH 產生 2-HG 可經 MRS 偵測；2021 WHO 將 astrocytoma IDH-mutant 分 grade 2–4；IDH-wild-type glioblastoma 不產生 2-HG。原題出處 Osborn's Brain 2nd ed. P.529。
+[^3]: **Tier 1** Suh CH, Kim HS, et al. *False-Positive Measurement at 2-HG MR Spectroscopy in Patients With IDH Wild-Type Glioblastoma.* Radiology. 2019;291(3):752-762（DOI [10.1148/radiol.2019182200](https://doi.org/10.1148/radiol.2019182200)；PMID 30990380；摘要 accessed 2026-07-12）：IDH-wildtype GBM 之 2-HG 偽陽率約 21%，壞死 > 20% 時升至約 50%；建議體素取實質腫瘤、避開壞死以降低偽陽。
+[^4]: **Tier 1** Iv M, Bisdas S. *Neuroimaging in the Era of the Evolving WHO Classification of Brain Tumors.* AJR Am J Roentgenol. 2021;217(1):3-15（DOI [10.2214/AJR.20.25246](https://doi.org/10.2214/AJR.20.25246)；摘要 accessed 2026-07-12）：分子資訊（含 IDH 狀態）已整合入 WHO 腦腫瘤分類。
 
 ## 題目
 > [!question]- Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選) (2022-396)

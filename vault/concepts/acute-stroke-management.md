@@ -7,7 +7,7 @@ aliases:
   - 2015 AHA ASA stroke guideline
   - thrombectomy stroke
   - 急性缺血中風血管內治療
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 down:
   - "[[aspects-score]]"
 ---
@@ -21,6 +21,7 @@ down:
 - **不需先觀察 tPA 反應**再進行血管內治療（觀察反應「非必要、不建議」，Class III, LOE B-R）。[^1]
 - **Stent retriever 取栓優先於 intra-arterial fibrinolysis**（IA fibrinolysis 屬次線）。[^1]
 - **技術目標：reperfusion 達 mTICI 2b/3**（Class I, LOE A），且應**儘早、發病 6 小時內**（6 小時後臨床效益顯著下降）。[^1]
+- **rt-PA 對近端大血管血栓再通率低**：靜脈 rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**（近端 ICA 更低），效果欠佳——這正是需以機械取栓（EVT）補強的核心理由，故「rt-PA 效用不因血管大小而異、大血栓也很好」的敘述為錯（支撐 2021-273）。[^1][^7]
 
 ## Summary — 影像
 - **NECT 在多數情況即可提供緊急處置所需資訊**（Class I, LOE A）。[^1]
@@ -72,6 +73,7 @@ down:
 [^4]: 台灣腦中風學會治療指引（官網 http://www.stroke.org.tw/guideline/ ，實際查證 accessed 2026-06-17）。**2023 急性缺血中風動脈內血栓移除治療指引更新（全文已讀，官網公開 PDF）**：EVT 窗 6–24h；6–24h 以 CTP/MRP 或 CTA collateral score／DWI infarct core 選病人（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT）；納入 large-core EVT 證據。另列 2025 急性缺血性腦中風處置建議、2025 IVT 指引更新、2026 Tenecteplase IVT 共識、2019 EVT/IVT 指引。
 [^5]: *Endovascular clot retrieval (ECR)*. Radiopaedia.org（亦稱 mechanical thrombectomy／EVT；rID 57136；DOI [10.53347/rID-57136](https://doi.org/10.53347/rID-57136)；實際查證 accessed 2026-07-06）：適用**前循環大血管阻塞（LVO）**之急性缺血中風；**發病 6 小時內證據穩固**，並延伸至 24 小時及大梗塞核心病人（DAWN/DEFUSE-3 等）；禁忌含初始 NECT 上出血、無可救腦組織之大梗塞核心。佐證取栓病人選擇原則。
 [^6]: **Tier 1** Powers WJ, Rabinstein AA, et al. *2019 AHA/ASA Guidelines*（同 [^2]，Stroke 2019;50(12):e344-e418，DOI [10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211)）＋台灣腦中風學會急性缺血中風血壓處置建議（見 [^4] 官網指引）；經 AHA 2019 條文實際查證 accessed 2026-07-10——**未接受再灌流者採 permissive hypertension，發病 24h 內須 SBP > 220 或 DBP > 120 才降壓**（門檻非 160/60）；**IVT 前 < 185/110、後 24h 維持 < 180/105**；**EVT 術前（未 IVT）< 185/110 合理、術後 24h < 180/105 合理**；台灣指引另建議**成功再灌流（mTICI 2b–3）後可考慮較低目標 < 140/90**。
+[^7]: 靜脈溶栓對近端大血管阻塞再通率之依據綜合 [^1][^2] 指引所述機械取栓發展背景（IV alteplase 對近端 ICA／M1 大血栓早期再通率偏低，約 10–30%，近端 ICA 更低），與 *Endovascular clot retrieval*（見 [^5]，Radiopaedia rID 57136，搜尋摘要 accessed 2026-07-12）所載「LVO 對 IV 溶栓反應不佳、需機械取栓」一致。
 
 ## EVT 病人選擇（2015 AHA/ASA Class I 六準則）
 > [!info] 六準則（全部符合方為 Class I）：**prestroke mRS 0–1**、**致病阻塞位於 ICA 或 MCA M1**、**年齡 ≥18**、**NIHSS ≥6**、**ASPECTS ≥6**、**groin puncture 可於發病 6 小時內開始**。考試陷阱：NIHSS 門檻為 **≥6，非 ≥4**。[^1][^5]

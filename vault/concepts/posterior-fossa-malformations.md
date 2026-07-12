@@ -8,7 +8,7 @@ aliases:
   - rhombencephalosynapsis
   - mega cisterna magna
   - 後顱窩先天畸形
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # posterior-fossa-malformations
@@ -25,11 +25,12 @@ dateRev: 2026-07-10
 > **Rhombencephalosynapsis以小腦蚓部缺如為特徵並導致雙側小腦半球discontinuity（C）**——應為**continuity（連續融合）**，非不連續。Dandy-Walker囊為擴大第四腦室(A對)、Blake pouch cyst源自開窗失敗(B對)、mega cisterna magna少合併水腦(D對)皆為正確描述。[^1]
 
 ## 放射科醫師影像判讀重點
-- **判讀主軸（囊性後顱窩病灶四分法）**：以「小腦蚓部是否發育不全／缺如」＋「第四腦室與囊之關係」＋「後顱窩大小、天幕位置、有無水腦」系統性鑑別 Dandy-Walker、Blake pouch cyst、mega cisterna magna 與 rhombencephalosynapsis。[^1]
+- **判讀主軸（四軸鑑別法）**：以「①小腦蚓部是否發育不全／缺如」＋「②囊與第四腦室之關係（相通與否）」＋「③後顱窩大小、天幕位置」＋「④有無水腦」四軸系統性鑑別 Dandy-Walker、Blake pouch cyst、mega cisterna magna 與 rhombencephalosynapsis。[^1][^2]
 - **Dandy-Walker malformation**：後顱窩囊＝**擴大的第四腦室**、合併**小腦蚓部發育不全／缺如**、後顱窩擴大、**天幕與竇匯上抬**（torcular-lambdoid inversion）；常合併**水腦**與巨頭。[^1]
 - **Blake pouch cyst**：源自 Blake pouch **開窗失敗**（Magendie 孔未通），囊與第四腦室相通、**蚓部大小正常且位置正常**（僅可被上抬旋轉）——與 DWM 之蚓部發育不全區別；可致四腦室出口阻塞性水腦。[^1]
 - **Rhombencephalosynapsis（本卡重點）**：**小腦蚓部缺如**致雙側小腦半球於中線**連續融合（continuity）**——軸位見小腦葉、齒狀核跨中線連續、第四腦室呈鑰匙孔／三角狀；「discontinuity（不連續）」為陷阱敘述。[^1]
-- **Mega cisterna magna**：大枕大池為**良性變異**，蚓部與第四腦室正常、**較少合併水腦**；與 DWM／Blake pouch 之最大鑑別在於「蚓部正常且無明顯水腦」。[^1]
+- **Mega cisterna magna**：大枕大池為**良性變異**，**蚓部完整且正常、與第四腦室『自由相通』、少合併水腦**；與 DWM／Blake pouch 之最大鑑別在於「蚓部正常且無明顯水腦」。故 2021-101 選項 C 稱其「不相通、導致水腦」為錯誤描述。[^1][^2]
+- **Rhombencephalosynapsis 補充**：**小腦蚓部缺如**致雙側小腦半球（含齒狀核、小腦葉）於中線**連續（continuity）融合**，第四腦室常呈鑰匙孔／三角狀。[^1][^2]
 
 ## 臨床重點（5 句）
 - Dandy-Walker malformation 為**最常見後顱窩畸形**，多為偶發、整體復發風險低（1%–5%）。[^1]
@@ -39,7 +40,8 @@ dateRev: 2026-07-10
 - Rhombencephalosynapsis 臨床可見發展遲緩、共濟失調與頭部異常運動，嚴重度隨蚓部缺損程度而異。[^1]
 
 ### 參考來源
-[^1]: *Congenital Abnormalities of the Posterior Fossa*. RadioGraphics 2015;35:200-220（2018 交換考題詳解 p.290 引用；Tier 1 期刊）。Dandy-Walker=擴大第四腦室+蚓部發育不全；Blake pouch cyst=Blake pouch開窗失敗；rhombencephalosynapsis=蚓部缺如致雙側小腦半球連續融合(continuity)；mega cisterna magna少合併水腦。
+[^1]: Bosemani T, Orman G, Boltshauser E, et al. *Congenital Abnormalities of the Posterior Fossa*. RadioGraphics 2015;35(1):200-220（DOI [10.1148/rg.351140038](https://doi.org/10.1148/rg.351140038)；2018 交換考題詳解 p.290 引用；Tier 1 期刊）。Dandy-Walker=擴大第四腦室+蚓部發育不全；Blake pouch cyst=Blake pouch開窗失敗；rhombencephalosynapsis=蚓部缺如致雙側小腦半球連續融合(continuity)；mega cisterna magna少合併水腦。
+[^2]: *Dandy-Walker malformation* / *Blake pouch cyst* / *Mega cisterna magna*（case rID 11618）/ *Rhombencephalosynapsis*. Radiopaedia.org（搜尋摘要 accessed 2026-07-12）：四軸鑑別（蚓部、囊與第四腦室關係、後顱窩大小、水腦）；mega cisterna magna 蚓部完整、與第四腦室自由相通、少水腦；rhombencephalosynapsis 蚓部缺如致半球中線連續。
 
 ## Dandy-Walker malformation（DWM）補充（2018-424）
 - **本質**：**最常見後顱窩畸形，多偶發、整體復發風險低(1%-5%)**。[^1]

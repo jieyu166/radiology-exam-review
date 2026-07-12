@@ -7,7 +7,7 @@ aliases:
   - hypertrophic olivary degeneration
   - dentato-rubro-olivary
   - 齒狀核紅核橄欖三角
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # guillain-mollaret-triangle
@@ -15,13 +15,13 @@ dateRev: 2026-07-10
 **Guillain-Mollaret 三角＝紅核（中腦）→ 下橄欖核（延髓）→ 對側齒狀核（小腦）；路徑破壞後，下橄欖核不萎縮反而肥大（HOD），T2 高訊號。** 判讀分水嶺：**三角確認考點＝red nucleus＋inferior olivary nucleus＋contralateral dentate nucleus；putamen / caudate / substantia nigra 不在三角內**；HOD 是少數「退化卻肥大」的特例。記憶鉤：空間順序沿腦幹由上而下——中腦（紅）→延髓（橄欖）→對側小腦（齒狀），就像紅燈、橄欖、齒輪三站。
 
 ## Summary
-- **三角組成**：[^1]
+- **三角組成**：[^1][^6]
   - **Red nucleus（紅核，中腦）**。
   - **Inferior olivary nucleus（下橄欖核，延髓）**。
   - **Contralateral dentate nucleus（對側齒狀核，小腦）**。
 - 連接（迴路方向）：齒狀核傳出經**上小腦腳（brachium conjunctivum）**上行、於紅核下方交叉 → 經**中央被蓋束**下行至下橄欖核 → 橄欖傳出跨中線經**下小腦腳**回到原齒狀核。[^1][^2]
-- **損傷 → 肥大性橄欖核退化（HOD）**：下橄欖核『肥大』＋T2 高訊號；機轉為**經突觸退化（transsynaptic degeneration）**。症狀性顎肌震顫／HOD 與三角**前兩臂（齒狀→紅核、紅核→橄欖）**病灶相關，而非橄欖齒狀纖維。[^2]
-- **側別**：HOD 多為**單側**；腦幹病灶 → **同側**橄欖、小腦病灶 → **對側**橄欖。[^2]
+- **損傷 → 肥大性橄欖核退化（HOD）**：下橄欖核『肥大』＋T2 高訊號；機轉為**跨突觸退化（transsynaptic degeneration）——為神經元肥大而非萎縮**，是少數「退化卻變大」的特例。症狀性顎肌震顫／HOD 與三角**前兩臂（齒狀→紅核、紅核→橄欖）**病灶相關，而非橄欖齒狀纖維。[^2][^5]
+- **側別**：HOD 多為**單側**；腦幹病灶 → **同側**橄欖、小腦病灶 → **對側**橄欖。原始病理—MR 對照即指出：**中央被蓋束（CTT）病灶 → 同側 HOD；齒狀核／上小腦腳病灶 → 對側 HOD**。[^2][^5]
 
 ### 解剖迴路（判讀骨架）
 - **三臂走向**（順時針，記憶「齒狀傳出 → 紅核 → 橄欖 → 回齒狀」）：[^3]
@@ -37,8 +37,8 @@ dateRev: 2026-07-10
 - 判讀流程：先在後顱窩找原發病灶（出血、海綿狀血管瘤、梗塞、術後、腫瘤），再依上述規則「反推」預期的 HOD 側別並核對橄欖；側別不符要重新檢視病灶定位。[^3][^4]
 
 ### MRI 訊號時間演化（分期判讀）
-- **第一期（數週內）**：下橄欖核 **T2/FLAIR 高訊號**先出現，**尚無肥大**；**無瀰散受限、不強化**。[^1][^3]
-- **第二期（約 4–6 個月起，典型 10–18 個月）**：T2 高訊號**合併橄欖肥大（mass-like 膨大但無 mass effect）**；仍**不強化**。[^1][^3]
+- **第一期（數週內）**：下橄欖核 **T2/FLAIR 高訊號**先出現（原始 MR—病理研究約 **3 週**首現），**尚無肥大**；**無瀰散受限、不強化（全程不強化）**。[^1][^3][^5]
+- **第二期（約 4–6 個月起，典型 10–18 個月；原始研究記載肥大約 5–15 個月）**：T2 高訊號**合併橄欖肥大（mass-like 膨大但無 mass effect）**；仍**不強化**。[^1][^3][^5]
 - **第三期（約 3–4 年後）**：肥大**消退**、橄欖回復正常體積甚或**萎縮**，但 **T2 高訊號可長期／永久殘留**。[^1][^3]
 - 數據以 45 病人／58 次 MR 之 meta-analysis 為準：T2 高訊號病灶後約 **1 個月**首現、持續**至少 3–4 年**；橄欖肥大最早約 **6 個月**、約 **3–4 年後消退**。[^1]
 
@@ -60,6 +60,8 @@ dateRev: 2026-07-10
 [^2]: **全文已讀（醫師提供 PDF，accessed 2026-06-28）**。Goyal M, Versnick E, Tuite P, Saint Cyr J, Kucharczyk W, Montanera W, Willinsky R, Mikulis D. Hypertrophic olivary degeneration: meta-analysis of the temporal evolution of MR findings. *AJNR Am J Neuroradiol*. 2000;21(6):1073–1077.（亦見 [^1] 對應原始 meta-analysis 數據）
 [^3]: **Tier 2（免費 PMC 全文，accessed 2026-06-29）**。Van Eetvelde R, Lemmerling M, Backaert T, et al. Imaging Features of Hypertrophic Olivary Degeneration. *J Belg Soc Radiol*. 2016;100(1):71. DOI: 10.5334/jbr-btr.1065. PMCID: PMC6100676.（三角解剖、CTT 不交叉／SCP 交叉之側別規則、三期訊號演化、DDx）
 [^4]: **Tier 2（摘要／案例層級，accessed 2026-06-29）**。HOD 與顎肌震顫之臨床—影像對應綜整，參 AJNR Case Collection: Hypertrophic Olivary Degeneration（ajnr.org/ajnr-case-collections-diagnosis）及 Nature Sci Rep 2025（DOI: 10.1038/s41598-025-14912-1，腦幹／小腦出血後 HOD 臨床特徵）。
+[^5]: **Tier 1** Kitajima M, Korogi Y, Takahashi M, et al. *Hypertrophic olivary degeneration: MR imaging and pathologic findings.* Radiology. 1994;192(2):539-543（DOI [10.1148/radiology.192.2.8029428](https://doi.org/10.1148/radiology.192.2.8029428)；PMID 8029428；摘要 accessed 2026-07-12）：側別規則——中央被蓋束病灶 → 同側 HOD、齒狀核／上小腦腳病灶 → 對側 HOD；T2 高訊號約 3 週先現、橄欖肥大約 5–15 個月；HOD 為跨突觸性神經元肥大。
+[^6]: *Hypertrophic olivary degeneration*. Radiopaedia.org（rID 1478；DOI [10.53347/rID-1478](https://doi.org/10.53347/rID-1478)；搜尋摘要 accessed 2026-07-12）：Guillain-Mollaret 三角破壞後的下橄欖核跨突觸退化性肥大、T2 高訊號、不強化。
 
 ## 題目
 > [!question]- Which statement is correct?（Hypertrophic olivary degeneration / Guillain-Mollaret）(2021-170)

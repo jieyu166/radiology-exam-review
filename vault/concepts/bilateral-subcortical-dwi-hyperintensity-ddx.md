@@ -6,7 +6,7 @@ aliases:
   - corticomedullary junction DWI
   - NIID DWI sign
   - 皮質下 DWI 高訊號鑑別
-dateRev: 2026-07-10
+dateRev: 2026-07-12
 ---
 
 # bilateral-subcortical-dwi-hyperintensity-ddx
@@ -20,10 +20,11 @@ dateRev: 2026-07-10
 - **Alexander disease**（本題答案「不」符合者）：額葉為主的腦白質失養症，累及深部白質、基底核、腦幹，非「雙側多灶皮質下 DWI 高訊號」型態。[^2]
 
 ## 放射科醫師影像判讀重點
-- **NIID 判讀關鍵**：DWI 沿皮質-髓質交界的「緞帶狀（ribbon-like）」高訊號，隨病程可向深部白質進展；伴瀰漫白質病變；皮膚切片見嗜酸性核內包涵體。[^1]
+- **NIID 判讀關鍵**：DWI 沿皮質-髓質交界（corticomedullary junction）的「緞帶狀（ribbon-like / subcortical lace）」高訊號，**分布沿皮質下、不累及深部腦室旁白質**（此為 2021-269 選項 C 敘述「深部腦室旁白質 DWI 高訊號」為錯的判讀依據）；伴瀰漫白質病變；皮膚切片見嗜酸性核內包涵體。corticomedullary junction DWI 高訊號被視為 NIID 的特異徵象。[^1][^5]
 - **U-fiber 侵犯（Canavan）**：皮質下弓狀纖維早期受累，搭配 NAA 升高（MRS）為特徵。[^2]
 - **DDx 思路**：見雙側皮質下多灶 DWI 高訊號→先想 NIID；配合家族史／基因（NOTCH2NLC、FMR1 前突變）與臨床（自律神經、認知）鑑別。[^1][^2]
-- **陷阱**：NIID 亦有「非典型」病例可缺乏皮質下 DWI 徵象；不可僅憑影像排除。[^1]
+- **其他鑑別（雙側對稱 DWI／深部灰質）**：**Creutzfeldt-Jakob disease（sCJD）**以 DWI 為診斷樞紐（皮質 ribboning 與深部灰質受累），與多種 mimics 鑑別；**中毒／代謝性腦病**多呈雙側對稱、好發深部灰質／皮質／腦室旁白質——皆與 NIID 沿皮質下的 corticomedullary lace 分布不同。[^3][^4]
+- **陷阱**：NIID 亦有「非典型」病例可缺乏皮質下 DWI 徵象（部分僅表現 T2 白質病變）；此徵象特異但非全敏，不可僅憑影像排除。[^1][^5]
 
 ## 臨床重點（5 句）
 1. NIID 為緩慢進展的神經退化病，臨床表現高度異質。[^1]
@@ -35,6 +36,9 @@ dateRev: 2026-07-10
 ### 參考來源
 [^1]: *Neuronal intranuclear inclusion disease*. Radiopaedia.org（實際查證 accessed 2026-07-06）：NIID 為緩慢進展神經退化病，中樞與周邊神經及內臟見嗜酸性核內包涵體；腦 MRI（尤其 DWI）與皮膚切片有助診斷，成人型近年辨識增加。（招牌徵象為皮質-髓質交界 DWI 高訊號。）
 [^2]: **Tier 1** 據 PubMed，Han X, Han M, Liu N, et al. *Adult-onset neuronal intranuclear inclusion disease presenting with typical MRI changes*. Brain Behav 2019;9(12):e01477. [DOI](https://doi.org/10.1002/brb3.1477)（實際查證 accessed 2026-07-06）：DWI 顯示雙側額-枕-頂葉皮質-髓質交界對稱帶狀高訊號，具高診斷意義（另 Front Neurol 2023;14:1117243, [DOI](https://doi.org/10.3389/fneur.2023.1117243) 指出典型徵象為沿皮質-髓質交界 DWI 高訊號，惟部分病例可缺此徵）。原題並引 Brain 2016;139:3170-3186 與 JCAT 2003;27:30-33。
+[^3]: **Tier 1** Fragoso DC, Gonçalves Filho ALM, et al. *Imaging of Creutzfeldt-Jakob Disease: Imaging Patterns and Their Differential Diagnosis.* RadioGraphics. 2017;37(1):234-257（DOI [10.1148/rg.2017160075](https://doi.org/10.1148/rg.2017160075)；摘要 accessed 2026-07-12）：DWI 為 sCJD 診斷樞紐；含影像型態與 mimics 之鑑別。
+[^4]: **Tier 1** de Oliveira AM, Paulino Reis F, et al. *Imaging Patterns of Toxic and Metabolic Brain Disorders.* RadioGraphics. 2019;39(6):1672-1695（DOI [10.1148/rg.2019190016](https://doi.org/10.1148/rg.2019190016)；摘要 accessed 2026-07-12）：中毒/代謝性腦病多為雙側對稱，好發深部灰質／皮質／腦室旁白質。
+[^5]: **非題目白名單（AJNR）** Sugiyama A, Sato N, et al. *MR Imaging Features of the Cerebellum in Adult-Onset Neuronal Intranuclear Inclusion Disease.* AJNR Am J Neuroradiol. 2017;38(11):2100-2104（DOI [10.3174/ajnr.A5336](https://doi.org/10.3174/ajnr.A5336)；摘要 accessed 2026-07-12，非題目白名單）：corticomedullary junction DWI 高訊號為 NIID 之特異徵象；並描述小腦旁蚓部白質 T2 高訊號等徵。
 
 ## 題目
 > [!question]- Which of the following diseases does NOT demonstrate bilateral multifocal subcortical DW hyperintensities? (2022-413)
