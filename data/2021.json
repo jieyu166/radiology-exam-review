@@ -351,7 +351,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics 2021; 41(3):1-20.；2021 交換考官方詳解 PDF p164",
-      "explanation": "Perceptual errors are the **most common** type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\nRadiographics. May-Jun 2021;41(3):645-664. Breast MRI: False-Negative Results and Missed Opportunities\n\n【2021 官方詳解】\nPerceptual errors are the most common type of error in diagnostic radiology, reportedly accounting for 60%–80% of radiologists’ errors\n\n⚠️ 本題含影像（官方詳解 PDF 第 164 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題問 false-negative breast MRI 錯誤類型何者「錯誤」。（A）對：知覺性錯誤（perceptual error）是放射診斷最常見的錯誤，約占放射科醫師錯誤的 60%–80%。（B）對：知覺性錯誤指異常僅在回溯（retrospective）時才被看見、當下（prospective）未偵測到，即「漏看」。（C）對：認知性錯誤（cognitive error）指異常當下已被看見，但對其臨床意義判讀錯誤。（D）錯：subtle findings、satisfaction of search、工作環境干擾、醫師疲勞、病灶顯著度不佳等，屬於造成「知覺性錯誤」的原因，而非認知性錯誤，本選項張冠李戴故為不正確者。（E）對：醫學知識不足、醫師偏誤、錯誤的臨床資訊等才是認知性錯誤的常見成因。→ [[breast-mri-false-negative]]",
       "concepts": [
         "radiology-diagnostic-error-types"
       ],
@@ -396,7 +396,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Primer 6th ed, p511；2021 交換考官方詳解 PDF p180",
-      "explanation": "A. malignant. plateau 64%, washout 87%.\nB. typically benign.\nC. Kinetics are usually not useful in DCIS, especially low-grade. Many DCISs show no wash out and usually slow initial enhancement.\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diﬀuse: typically benign\n\n【2021 官方詳解】\nEnhancing lesion in breast MRI\nFocus and foci: <5mm, non-specific\nMasses:\n- Shape: round, oval, lobulated, irregular (32% malignant)\n- Margin: smooth, irregular, speculated (80% malignant)\n- T1 high: lymph node, fat necrosis, hamartoma\n- T2FS high: cyst, lymph node, fibroadenoma, fat necrosis, colloid carcinoma\n- Enhancement\n  - Type I (persistent): benign (6%malignanct)\n  - Type II (platea): malignant\n  - Type III (washout): stroung malignancy\nNon-mass like enhancement:\n- Focal: <25% malignant\n- Ductal: 60% malignant\n- Linear: 31% malignant\n- Segmental: 78% malignant\n- Regional: 21% cancer\n- Diffuse: typically benign\n***DCIS:\nKinetics are usually not useful in DCIS, especially not in cases when low-grade.\nMany cases of DCIS show no wash out and usually ther is slow initial enhancement.\n\n⚠️ 答案以官方詳解 PDF 為準更正：原匯入 D → 官方 A。\n\n【醫師裁決 2026-07-11】答案更正 A → D。A 敘述(rapid upslope+plateau/washout 偏良性)為錯，plateau/washout 屬惡性型態；D「<5mm=focus」符 BI-RADS lexicon。答案 A→D。",
+      "explanation": "答案 D。本題問何者「正確」。（A）錯：初期 2 分鐘內快速上升、延遲期呈 plateau 或 washout，屬「惡性」型態而非良性（plateau 約 64%、washout 約 87% 為惡性）。（B）錯：瀰漫性（diffuse）強化多為良性/生理性背景強化，並非惡性型態。（C）錯：DCIS 動力學常不具鑑別力，尤其 low-grade，多無 washout、初期強化偏慢，並非比侵犯癌強化更快。（D）對：BI-RADS lexicon 中 <5mm 的 enhancing dot 稱為 focus/foci，太小而無法評估內部特徵。（原匯入答案 A，醫師 2026-07-11 裁決更正為 D：A 敘述錯誤、D 符合 BI-RADS lexicon，正解為 D，不再更動。）",
       "images": [],
       "concepts": [
         "breast-mri-kinetics"
@@ -434,7 +434,7 @@
       ],
       "correctAnswer": "C",
       "reference": "ACR BI-RADS Atlas® 5th Edition；10.2214/AJR.15.15957；2021 交換考官方詳解 PDF p2",
-      "explanation": "「持續性」（persistent）的定義是：在初始上升後，信號強度繼續**緩慢增加>10%**，而不是「不隨時間變化」。\n\n【2021 官方詳解】\nC. During the delayed phase, persistent is defined as signal intensity more than 10% of initial enhancement.\nIt represents the initial increase in contrast enhancement in the kinetic assessment for BI-RADS. An intensity increase < 50% is classified as slow, 50–100% as medium, and > 100% as fast enhancement. SER indicates the kinetic curve shape that represents the delayed phase in BI-RADS assessment. Persistent is more than 10% of initial enhancement, washout is less than 10% of initial enhancement, and plateau is between the two.\n10.2214/AJR.15.15957\nThe kinetic curve can be classified into three categories. Early enhancement (2 minutes after agent injection), during which the initial rise of the enhanced curve can be divided into “slow”, “medium”, and “rapid”.\nThe signal intensity 2 minutes after contrast injection is defined as “delayed phase, which is divided into “persistent” (type I), “plateau” (type II), and “washout” (type III)\n10.3978/j.issn.2227-684X.2013.02.04\n\n⚠️ 本題含影像（官方詳解 PDF 第 2 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。本題問 ACR BI-RADS 第 5 版動態曲線（kinetic curve）描述何者「錯誤」。（A）對：初期相（前 2 分鐘）signal intensity 上升 <50% 定義為 slow。（B）對：初期相上升 >100% 定義為 fast（50–100% 為 medium）。（C）錯：延遲期 persistent（type I）的定義是初始上升後訊號「持續緩慢增加（>10%）」，而非「不隨時間變化」；「不隨時間變化」較接近 plateau（type II）。（D）對：延遲期 washout（type III）定義為自初始上升的最高訊號下降 >10%，屬可疑（suspicious）型態。",
       "images": [
         "2021-011-1.jpg"
       ],
@@ -474,7 +474,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Breast J. 2021 Jan;27(1):44-47.；10.1111/tbj.14075；2021 交換考官方詳解 PDF p346",
-      "explanation": "【2021 官方詳解】\nBreast sarcoidosis\nUnilateral or bilateral disorder\nMammography: irregular or ill-defined and/or spiculated masses\nUS: irregular hypoechoic masses, as well as enlarged axillary or intramammary lymph nodes\nMRI:\nIrregular shaped mass with heterogeneous internal enhancement pattern\nrapid enhancement and washout phenomenon or gradually increasing signal intensity\nRef:\nBreast sarcoidosis: Clinical features, imaging, and histological findings\nDOI: 10.1111/tbj.14075",
+      "explanation": "答案 B。本題問乳房類肉瘤病（breast sarcoidosis）敘述何者「錯誤」。（A）對：超音波典型為不規則、低回音腫塊。（B）錯：腋下或乳內淋巴結腫大其實是乳房類肉瘤病「最常見」的影像所見（乳房攝影上尤然），並非罕見，故為不正確者。（C）對：乳房攝影可呈邊界不清、分葉狀、等密度的實質腫塊。（D）對：MRI 呈不規則毛刺狀腫塊伴內部不均勻強化。",
       "images": [],
       "concepts": [
         "breast-sarcoidosis"
@@ -512,7 +512,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Breast J. 2019 Nov;25(6):1251-1253.；2021 交換考官方詳解 PDF p345",
-      "explanation": ": **hard** mass.\n- B也不太對 T2DM打insulin也有可能\n- D正確. 顯影表現多樣.\n\n【2021 官方詳解】\nC: hard mass\nDiabetic mastopathy\n- Benign tumor like breast masses in women\n- Long-standing type 1 or type 2 insulin-dependent DM.\n- Large, painless, hard breast mass ,clinically indistinguishable from breast cancer\n- Pathology, lymphocytic mastitis and stromal fibrosis\n- Multicentric or bilateral involvement is a relatively frequent phenomenon, often occurring in late stages of\nthe disease.\nUS:\nIrregular hypoechoic masses with marked posterior acoustic shadowing.\nMammography:\nill-defined masses or asymmetric densities.\nSuch lesions are often masked by dense glandular tissue, making mammographic evaluation difficult.",
+      "explanation": "答案 C。本題問糖尿病乳腺病變（diabetic mastopathy）敘述何者「錯誤」。（A）對：為少見的良性乳房疾病，病理特徵為淋巴球性乳腺炎（lymphocytic mastitis）合併間質纖維化（stromal fibrosis）。（B）大致對：典型見於長期胰島素依賴型糖尿病；嚴格而言 type 2 打胰島素者亦可發生，但仍屬經典關聯敘述。（C）錯：超音波典型為不規則低回音腫塊伴「顯著後方聲影」，反映病灶質地「堅硬（hard）」而非「柔軟（soft）」，故「hypoechoic soft lesion」為不正確描述。（D）對：MRI 多呈邊界不清的腫塊伴對比強化，且顯影表現多變。",
       "images": [],
       "concepts": [
         "diabetic-mastopathy"
@@ -588,7 +588,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2021 交換考官方詳解 PDF p179",
-      "explanation": "Muffins rise.\nB. Leak sinks.\nC. Rolled CC view:\n- If the top of the breast is rolled medially while the lower part is rolled laterally, the lesion in the upper portion of the breast moves medially and the lesion in the lower portion moves laterally.\n- If the top of the breast is rolled laterally, the lesion in the upper portion of the breast moves laterally and the lesion in the lower portion moves medially.\nD. XCCL exaggerated CC lateral ~~medial~~\n\n【2021 官方詳解】\n- muffins rise: if the lesion appears in a higher position on the lateral than MLO, then it is located medially\n- lead falls: if the lesion appears in a lower position on the lateral than MLO, then it is located laterally\n- Rolled CC view:\n  - if the top of the breast is rolled medially while the lower part is rolled laterally, the lesion in the upper portion of the breast moves medially and the lesion in the lower portion moves laterally.\n  - If the top of the breast is rolled laterally, the lesion in the upper portion of the breast moves laterally and the lesion in the lower portion moves medially.\n- Axillary view: better imaging of lateral portion of breast to the axillary tial\n- XCCM view: medial portion of the breast\n\n⚠️ 本題含影像（官方詳解 PDF 第 179 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。本題問乳房攝影三角定位（triangulation）何者「正確」，口訣「muffins rise, lead sinks」——由 MLO 換到 ML（true lateral）時，內側（medial）病灶上移、外側（lateral）病灶下移。（A）對：只見於 MLO 的病灶，若位於內側乳房，在 ML 上會「上移」（medial muffins rise）。（B）錯：外側（outer）病灶在 ML 上應「下移」（lateral lead sinks），並非上移。（C）錯：rolled CC view 中，上部病灶的移動方向與乳房上部被 roll 的方向「一致（concordant）」，而非相反。（D）錯：腋尾（axillary tail）病灶應以 exaggerated CC lateral（XCCL）而非 medial view 來顯示。→ [[mammography-triangulation]]",
       "images": [
         "2021-015-1.png"
       ],
@@ -628,7 +628,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Breast J. 2020 Oct;26(10):2038-2041.；2021 交換考官方詳解 PDF p343",
-      "explanation": "hematogenous metastases。因很少lymphatic metastasis，所以不需清axillary LN。\n\n【2021 官方詳解】\nMalignant phyllodes tumor:\nA tumor diameter of 3 cm or greater => higher likelihood of malignancy\nFewer than 20% of the malignant tumors metastasize. When metastatic disease does occur, the metastases usually spread hematogenously to the lungs, pleura, or bone.\nlymphatic metastasis is rare, axillary nodal surgery is not indicated.",
+      "explanation": "答案 D。本題問惡性葉狀腫瘤（malignant phyllodes tumor）敘述何者「錯誤」。（A）對：葉狀腫瘤為罕見的乳房纖維上皮性腫瘤。（B）對：確診需靠手術切除後的完整組織評估（細針或粗針切片常無法可靠區分良惡）。（C）對：超音波典型呈大而不均質的低回音腫塊，可見內部囊狀裂隙。（D）錯：惡性葉狀腫瘤遠端轉移少見（<20%），一旦發生主要以「血行途徑」轉移至肺、肋膜、骨骼，淋巴轉移罕見，故不需腋窩淋巴結分期手術，本選項「以淋巴轉移為主」為不正確者。",
       "images": [],
       "concepts": [
         "phyllodes-tumor"
@@ -924,7 +924,7 @@
       ],
       "correctAnswer": "D",
       "reference": "CT Features of the Usual Interstitial Pneumonia Pattern: Differentiating Connective Tissue Disease–Associated Interstitial Lung Disease from Idiopathic Pulmonary Fibrosis American Journal of Roentgenology. 2018;210: 307-313；2021 交換考官方詳解 PDF p357",
-      "explanation": "【2021 官方詳解】\nconnective tissue disease- interstitial lung disease (CTD-ILD)\nAnterior upper lobe sign:\nsubstantial degree of reticulation, traction bronchiectasis, and honeycombing within upper lobes, mostly concentrated in anterior aspect\nexuberant honeycombing sign:\nperipheral- and basilar-predominant pulmonary fibrosis pattern characterized primarily by florid honeycombing\nstraight-edge sign:\nstraight interface between fibrosis and normal lung orthogonal to lateral chest wall surface\n\n⚠️ 本題含影像（官方詳解 PDF 第 357 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。straight-edge sign、anterior upper lobe sign、exuberant honeycombing sign 三者都是傾向「結締組織疾病相關 UIP（CTD-ILD）」而非特發性 UIP/IPF 的線索，故 D（以上皆是）正確。anterior upper lobe sign：上肺葉有相當程度的網狀影、牽引性支氣管擴張與蜂窩化，且集中於前側。exuberant honeycombing sign：以周邊及基底為主的纖維化，以「大量誇張的蜂窩化」為主要表現。straight-edge sign：纖維化與正常肺之間呈與側胸壁垂直的平直界面（纖維化侷限於基底、未沿側緣往上延伸）。三個徵象出現皆提示 CTD-ILD，故 A、B、C 單選皆不足，正解為 D。（⚠️ 本題含影像，官方詳解 PDF 第 357 頁，影像尚未匯入，判讀請對照原檔。）→ [[ipf]]",
       "images": [
         "2021-327-1.png",
         "2021-327-2.png",
@@ -2476,7 +2476,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Fundamentals of Diagnostic Radiology, 3rd Edition p.265；10.1007/s13244-015-0443-8；2021 交換考官方詳解 PDF p52",
-      "explanation": "- A. (Ref Handbook of Head and Neck Imaging)\n\t-  Choroidal melanoma是最常見的 primary ocular tumor，Inflammatory pseudotumor是最常見的painful orbital mass。但如果是patchy CE(+)只能是cavernous venous malformation.\n- C. 書中沒提到phleboliths. 和其他地方hemangioma不太相同，眼睛的hemangioma不太會鈣化。 (Radiopaedia) Sclerosing hemangiomas有時會有鈣化。\n\n【2021 官方詳解】\nC. Calcification is occasionally seen in cavernous haemangiomas and plays a limited role in the differential diagnosis\nOn NECT, a cavernous hemangioma is seen as a well-circumscribed, dense intraconal mass. It is usually seen separately from the optic nerve and extraocular muscles CECT may show patchy or uniform enhancement (Fig. 6). Phleboliths, if present, help to confirm the diagnosis (Fig. 6). On MRI, the lesion typically appears iso- to hypointense on T1W images and hyperintense on T2W images, although some hemangiomas may display moderately high/low signal intensity. Some scattered hyperintense areas on T1W images may indicate thrombosis. Fat-suppressed, dynamic CEMRI shows initial patchy enhancement followed by homogeneous enhancement in the delayed phase\n10.1007/s13244-015-0443-8\nAlthough non-contrast MR imaging findings are non-specific, they may offer some advantage in the differentiation of orbital cavernous haemangiomas by demonstrating marked hyperintensity signal to muscle with internal septations on T2-weighted imaging, a hypointense circumferential rim corresponding to the fibrous pseudocapsule, and chemical shift artefact in the frequency-encoded direction secondary to high water content within the lesion surrounded by orbital fat…\nHowever, calcification is occasionally seen in cavernous haemangiomas and plays a limited role in the differential diagnosis\n10.1007/s00330-010-1774-y",
+      "explanation": "答案 C（此題問「錯誤」敘述）。C 為錯誤：巨觀鈣化或靜脈石（phlebolith）在眼眶海綿狀靜脈畸形僅「偶爾」出現、於鑑別診斷的角色有限（sclerosing 亞型較可能見鈣化），並非典型徵象，故此敘述錯。A 正確：為成人最常見的眼眶腫塊，動態增強呈特徵性的斑塊狀漸進填充（patchy progressive fill-in）。B 正確：MRI 在 T2 上顯示內部分隔（septation）於與其他眼眶腫塊鑑別上比 CT 更具特異性。D 正確：病灶多年緩慢漸進性長大，平均每年約增 10–15% 體積，懷孕期成長加速。→ [[orbital-cavernous-venous-malformation]]",
       "images": [],
       "concepts": [
         "orbital-cavernous-venous-malformation"
@@ -7434,7 +7434,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiology:Imaging Cancer https://doi.org/10.1148/rycan.2021210038；10.1148/rycan.2021210038；2021 交換考官方詳解 PDF p139",
-      "explanation": "【2021 官方詳解】\nCurrent imaging fuidelines related to vaccine-induced axillary lymphadenopathy.\n- Document vaccination dates, injection site/laterality, vaccine type\n- Scheduling exam: Screening exam prior to 1st dose or 4-6 weeks following 2nd dose\n- Incidentally detected unilateral lymphadenopathy on imaging:\n  - BIRADS-0 🡪 if COVID19 vaccine in 4 weeks 🡪 BIRADS-3 🡪 follow up in 4-12 weeks 🡪 if persisted 🡪 BIRADS-4\n  - Another suggestion: BIRADS-2 after recent COVID 19 vaccination in ipsilateral arm",
+      "explanation": "答案 D。本題問何者「為是」。（A）對：疫苗引起的淋巴結腫大對放射科醫師而言可能造成診斷上的兩難（易與乳癌腋下轉移混淆）。（B）對：在 COVID 疫苗之前，單側淋巴結腫大僅偶爾見於 BCG、流感、HPV 等疫苗的零星報告，並不常見。（C）對：記錄接種狀態（日期、部位/側別、疫苗別）可減少不必要的切片並緩解病人焦慮。（D）對：故以上皆是。處置上建議記錄接種資訊、依接種時序安排篩檢，並對近期同側接種後偶發的單側腋下淋巴結腫大採較保守的 BI-RADS 分級與追蹤。",
       "images": [],
       "concepts": [
         "covid-vaccine-axillary-adenopathy"
@@ -11746,7 +11746,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p262",
-      "explanation": "【2021 官方詳解】\nRef: https://www.pathologyoutlines.com/\n- As a single feature, increased risk of cancer of 1.5 - 2x, as seen with proliferative fibrocystic changes (Cancer 1989;64:1977)\n- atypical (ductal) hyperplasia: 4 - 5x risk of developing ductal carcinoma in situ within 5 years (Cancer Prev Res (Phila) 2014;7:211)\n- 查不到確切資料\n- Papillary hyperplasia:\n\n⚠️ 本題含影像（官方詳解 PDF 第 262 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。本題問哪一種良性乳房病變對後續發生「侵襲性乳癌」屬高風險。（A）錯：硬化性腺病（sclerosing adenosis）僅屬增生性變化，風險輕度上升約 1.5–2 倍，非高風險。（B）對：非典型增生（atypical hyperplasia，含 ADH/ALH）為公認高風險癌前病變，與 DCIS 為病理學上相近實體，後續乳癌相對風險約 4–5 倍（診斷後 25 年累積風險可達約 30%）。（C）錯：鱗狀化生（squamous metaplasia）並非公認的高風險病變。（D）錯：乳突狀增生（papillary hyperplasia）本身非高風險病變。",
       "concepts": [
         "breast-premalignant-lesions"
       ],
@@ -11790,7 +11790,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Breast Imaging, KOPANS；2021 交換考官方詳解 PDF p263",
-      "explanation": "【2021 官方詳解】\n?? Ref: radioassistant\n\n⚠️ 本題含影像（官方詳解 PDF 第 263 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。本題問乳癌在 MRI 上「最可靠」的特徵。（A）對：形態學上的不規則/針狀形狀（irregular shape）是最可靠且獨立的惡性判準，形態優先於動力學。（B）錯：快速強化併快速 washout（type III 動力學）雖提示惡性，但須與形態並用，單看強化率特異度低，良性病灶（如纖維腺瘤、乳突瘤）亦可出現。（C）錯：DWI 高訊號（擴散受限）為輔助線索，特異度較低，良性病灶亦可呈現。（D）錯：異質性強化（heterogeneous enhancement）特異度較低，非最可靠指標。",
       "concepts": [
         "breast-mri-morphology-features"
       ],
@@ -13426,7 +13426,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Peter G. Danias. Cardiovascular MRI: 150 multiple-Choice Questions and Answers © Humana Press 2008；2021 交換考官方詳解 PDF p331",
-      "explanation": "【2021 官方詳解】\nB. CMR is generally inferior to cardiac CT for evaluation of the coronary arteries.",
+      "explanation": "答案 E。相位對比（phase-contrast）CMR 可直接量測主動脈瓣的逆流量與逆流分率，對主動脈瓣「逆流」的定量比經胸超音波（TTE）更可靠，故 E 正確。A 錯：臨床 CMR 對冠狀動脈的空間解析度不及 64 切 MDCT，冠狀動脈評估整體遜於心臟 CT。B 錯：時間解析度以 M-mode 超音波最高，CMR cine 功能造影並未超過。C 錯：評估瓣膜「結構」上 TTE 仍相當好，非 CMR 強項。D 錯：主動脈瓣「狹窄」的高速噴流易 aliasing，CMR 流量量測於狹窄反而較不可靠，逆流才是其強項。→ [[coronary-mra-technique]]",
       "images": [],
       "concepts": [
         "coronary-mra-technique",
@@ -13508,7 +13508,7 @@
       ],
       "correctAnswer": "B",
       "reference": "JACC Cardiovasc Imaging. Mouaz H. Al-Mallah M. Coronary Artery Calcium Scoring. 2018.；2021 交換考官方詳解 PDF p334",
-      "explanation": "【2021 官方詳解】\nAgatston score= highest attenuation value (HU) multiplied by the area of the calcification speck\nDensity factor\n130-199 HU: 1\n200-299 HU: 2\n300-399 HU: 3\n400+ HU: 4\nif a calcified speck has a maximum attenuation value of 400 HU and occupies 8 sq mm area, then its calcium score will be 32.\nGrading of coronary artery disease (based on total calcium score)\ncalcium score\nno evidence of CAD: 0\nminimal: 1-10\nmild: 11-100\nmoderate: 101-400\nsevere: >400\nB: information is not enough in this question\n\n⚠️ 本題含影像（官方詳解 PDF 第 334 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。冠狀動脈只要出現任何鈣化（CAC>0），即代表已存在動脈粥狀硬化，故應積極矯正可控制的 CAD 危險因子，B 正確。A（很常見）與 C（以此年齡性別而言鈣化負擔偏低）都必須有實際 Agatston 分數與 MESA 百分位才能判定，單憑「一顆鈣化點」資訊不足，均無法成立；D 因 A、C 不成立而錯。（⚠️ 本題含影像，官方詳解 PDF 第 334 頁，影像尚未匯入，判讀請對照原檔。）→ [[calcium-score]]",
       "concepts": [
         "calcium-score"
       ],
@@ -13552,7 +13552,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Ahmadi A. et al JCCT 2020; 14: 394；10.1161/CIRCULATIONAHA.108.767665；2021 交換考官方詳解 PDF p336",
-      "explanation": "【2021 官方詳解】\nWhen the pretest probability of coronary artery disease is low (eg, asymptomatic screening setting), a CAC score of zero is associated with low risk of coronary artery disease and low risk of near-term coronary events.\nIn older asymptomatic patients with risk factors, CAC=0 is associated with a moderate increased risk of events.\nPatient group with clinical signs and symptoms associated with an intermediate-to-high risk of coronary disease, CAC=0 is often associated with myocardial ischemia on provocative testing (16% in their patients) and with a high risk of near-term coronary events (nearly 9 times higher than previously reported for any asymptomatic cohort). It is appropriate to question the added value of the CAC score in this moderately high-risk patient group\nRef: How Low-Risk Is a Coronary Calcium Score of Zero? The Importance of Conditional Probability\nhttps://doi.org/10.1161/CIRCULATIONAHA.108.767665 Circulation. 2008;117:1627–1629\n\n⚠️ 本題含影像（官方詳解 PDF 第 336 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。此 43 歲男性有運動性呼吸困難加下巴痛（心絞痛等價症狀），屬「症狀性、驗前機率中至高」族群；依條件機率，「power of zero」只適用於無症狀低風險者。A 錯：此族群即使 CAC=0 仍約 16% 於誘發性檢查出現心肌缺血、近期冠狀事件風險約為無症狀族群的 9 倍，不能視為低風險。C 錯：症狀本身即為進一步冠狀動脈評估的理由，不應僅以 ASCVD 10 年風險決定是否影像檢查。D 因含 A、C 而錯。正解 B：即使 CAC=0 也應考慮 coronary CTA。（⚠️ 本題含影像，官方詳解 PDF 第 336 頁，影像尚未匯入，判讀請對照原檔。）→ [[calcium-score]]",
       "images": [
         "2021-333-1.png"
       ],
@@ -13678,7 +13678,7 @@
       ],
       "correctAnswer": "無正解",
       "reference": "Breast J. 2021 Jan;27(1):44-47.；2021 交換考官方詳解 PDF p347",
-      "explanation": "【2021 官方詳解】\n(以上皆對) Ref: Review of axillary web syndrome: What the radiologist should know, European Journal of Radiology\nAxillary web syndrome\ncommon after axillary surgery, frequently affecting breast cancer patients.\none or more linear bands of firm tissue, also known as “cords”, in the axilla and arm, associated with pain and limited range of motion of the shoulder and arm\nEtiology:\nlymphovenous tissue damage with disruption of superficial lymphatics and veins during surgery, resulting in superficial venous and lymphatic stasis and local hypercoagulability and thrombosis.\nUS: deformation of the dermis with shoulder abduction, an anechoic cord with hyperechoic edge, likely the lumen of a vessel and vesselwall, and hyperechoic structures thought to represent fibrosis.\nno flow on Doppler images.\nMRI: the cords were visible as low signal subcutaneous linear bands or dots\n\n【醫師裁決 2026-07-11】醫師裁決：四項敘述(A/B/C/D)皆為 axillary web syndrome 之正確描述，本題無「錯誤」選項（原答案 B 撤銷）。屬題目瑕疵，答案改為「以上皆是（全對）」。",
+      "explanation": "答案 無正解。本題官方詳解記為「以上皆對」，故無單一正確之錯誤選項。（A）對：AWS 常見於腋部手術後、好發乳癌病患（ALND > SLNB）。（B）對：典型表現即為腋下至上臂出現一條或多條可觸/可見的緊繃線狀索帶（cords），伴疼痛與肩臂活動受限，此為本病經典描述。（D）對：MRI 呈低訊號的皮下線狀帶或點狀。（C）措辭可議：AWS 病生理以「淋巴管索化」為主、常合併淺靜脈受累，將 US 所見一律描述為「非可壓縮之血栓化淺靜脈」過度簡化（有高頻超音波研究無法辨識出特定索狀結構，顯示 AWS 並非單純血栓化淺靜脈）。⚠️ 存疑：官方標準答案原標為 B（視為錯誤），但其詳解卻自寫「以上皆對」自相矛盾，且所引 Mullen & Harvey（Eur J Radiol 2019）明載 B 之敘述為正確；若須挑一最可議者應為 C 而非 B。建議對照原卷，維持「無正解」不更動。",
       "images": [],
       "concepts": [
         "axillary-web-syndrome"
@@ -13716,7 +13716,7 @@
       ],
       "correctAnswer": "C",
       "reference": "ACR BI-RADS® atlas (2013). Follow-up and Outcome monitoring page13-20.；2021 交換考官方詳解 PDF p349",
-      "explanation": "【2021 官方詳解】\nRecall rate was calculated by dividing the number of BI-RADS category 0 screening mammographic results by the total number of screening digital mammography examinations performed.\nCDR (cancer detection rate) was calculated by dividing the total number of malignancies by the total number of screening digital mammography examinations performed.\nPPV of positive screening result (PPV1) was calculated as the percentage of all positive screening examinations (BI-RADS categories 0, 4, and 5) that resulted in a diagnosis of cancer within 1 year\nPPV of biopsy recommendation (PPV2) (真陽性之數目)/(建議切片之數目)。\nthe percentage of screening examinations with biopsy recommendations (BI-RADS categories 4 and 5) that resulted in a cancer diagnosis within 1 year\nPPV of biopsied performed (PPV3) (真陽性之數目)/(所有切片之數目)。\nthe percentage of all known biopsies performed that resulted in a cancer diagnosis within 1 year",
+      "explanation": "答案 C。本題問乳房攝影稽核（medical audit）何者「為非」。（A）對：篩檢（screening）時給定的 category 3 屬「陽性判讀」，其偽陽性計入 FP1。（B）對：診斷性（diagnostic）檢查時給定的 category 3 屬「陰性判讀」（probably benign，建議短期追蹤而非切片）。（C）錯：篩檢的 recall rate（回招率）＝（BI-RADS category 0）÷（總檢查數），分子「只含 category 0」；選項多納入 category 4、5 故為非（4、5 屬 PPV/CDR 相關，且通常於診斷性檢查後才給定）。（D）對：PPV2（建議切片之陽性預測值）＝真陽性數 ÷ 建議切片數（category 4、5）。",
       "images": [],
       "concepts": [
         "mammography-medical-audit-ppv"
@@ -13754,7 +13754,7 @@
       ],
       "correctAnswer": "D",
       "reference": "1. ACR BI-RADS® atlas, MRI: page33-35,69. 2. Morris EA, Liberman L. Breast MRI (2005) page51-76.；2021 交換考官方詳解 PDF p350",
-      "explanation": "【2021 官方詳解】\nA.\nBright T2WI lesion => cysts, lymph nodes and fat necrosis. These are all benign lesions.\nUnfortunately there is one malignant lesion that has a high signal intensity on T2WI => colloid carcinoma.\nB.\nDark internal septation on T2WI and dynamic contrast-enhanced MRI, oval-shape;\nClassical picture of fibroadenoma\nD.\nIrregular or spiculated margin, cancer diagnosis (PPV 84%– 91%)\nRim like enhancement , cancer diagnosis (PPV, 84%)\nClumped enhancement , (PPV, 60% PPV)\nlinear or branching ductal distribution of enhancement (PPV 24% to 85%)",
+      "explanation": "答案 D。本題問何者「最可能」為乳癌在 breast MRI 的表現。（A）錯：T2WI 極高訊號多為囊腫、淋巴結、脂肪壞死等良性病灶（唯一例外為膠質癌 colloid carcinoma）。（B）錯：T2WI 與 DCE 上不強化的暗色內隔（dark internal septation）加上卵圓形，是纖維腺瘤（fibroadenoma）的典型良性表現。（C）錯：與舊片相比無變化、且呈 persistent（type I）曲線，偏向良性。（D）對：DCE 上呈 clustered ring（成簇環狀）強化屬 non-mass enhancement 的惡性型態，常見於高惡性度 DCIS 或浸潤癌，故最可能為乳癌。",
       "images": [],
       "concepts": [
         "breast-mri-enhancement-patterns"
@@ -13830,7 +13830,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Berg WA, et al. Diagnostic imaging- Breast 3rd edition, 2019. Page 779,783；2021 交換考官方詳解 PDF p352",
-      "explanation": "【2021 官方詳解】\nBreast ductography (a.k.a. galactography)\nPrecisely locating the mass within breast tissue and gives useful information for surgical approach and planning.\nRef:\nDiagnostic Performance of MRI Versus Galactography in Women With Pathologic Nipple Discharge: A Systematic Review and Meta-Analysis\nConclusion:\nhigher diagnostic performance of MRI compared with galactography in the detection of any kind of lesion with pathologic nipple discharge.\nHigh sensitivity and very high specificity for cancer by MRI could be confirmed in this clinical setting.\nIf mammography and ultrasound are negative, MRI should be preferred over galactography for further evaluation.",
+      "explanation": "答案 C。本題問乳頭分泌物（nipple discharge）何者「錯誤」。（A）對：影像目標是定位底層病因、界定解剖異常範圍並規劃適當治療。（B）對：超音波可見管內或囊內的卵圓/分葉腫塊，中央（subareolar）病灶較常見且較易顯示，周邊小 papilloma 常被遺漏。（C）錯：當乳房攝影與超音波陰性時，進一步評估應「優先 MRI 而非 galactography」，且 MRI 對病灶偵測的敏感度（92%）與特異度（76%）皆「高於」galactography（69%、39%），本選項稱 ductography 兩者皆高於 MR 恰好相反。（D）對：乳管攝影上管壁不規則、扭曲、阻塞或不規則充盈缺損提示惡性。",
       "images": [],
       "concepts": [
         "nipple-discharge-imaging"
@@ -13961,7 +13961,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2020; 40:515–528 Imaging Evaluation of Tracheobronchial Injuries；2021 交換考官方詳解 PDF p356",
-      "explanation": "【2021 官方詳解】\nC. Endotracheal intubation usually causes cuff-related injuries rather than direct lacerations.\nCuff overinflation can be depicted at CT or radiography by a discrepancy in cuff diameter relative to the adjacent trachea.\n\n⚠️ 本題含影像（官方詳解 PDF 第 356 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C（此題問「錯誤」敘述）。C 為錯誤：氣管內插管造成的損傷「主要是氣囊（cuff）相關」而非直接撕裂——cuff 過度充氣時，CT 或胸片可見氣囊直徑相對鄰近氣管異常增寬，選項把因果反述故錯。其餘皆正確：A，穿刺傷（如刺傷）因位置較外露，好發於前段頸部氣管；B，支氣管鏡等醫源性損傷好發於頸部與近端胸內氣管，尤其防護較差的後膜部；D，撕裂 >2–4 cm、特別是累及軟骨時通常需手術修補。（⚠️ 本題含影像，官方詳解 PDF 第 356 頁，影像尚未匯入，判讀請對照原檔。）→ [[chest-trauma-imaging]]",
       "concepts": [
         "chest-trauma-imaging"
       ],
@@ -14048,7 +14048,7 @@
       ],
       "correctAnswer": "D",
       "reference": "2020 中華民國放射線醫學會對比劑手冊 ACR Manual On Contrast Media 2020；2021 交換考官方詳解 PDF p361",
-      "explanation": "【2021 官方詳解】\n接受放射線碘 131 治療者，最好在治療前兩個月內不曾使用含碘對比劑。\n若病情需要，則最好安排在使用含碘對比劑 4 周之後接受放射線碘 131 治療。\n接受含碘造影劑後兩個月內，應避免核子醫學甲狀腺同位素掃瞄\n\n⚠️ 本題含影像（官方詳解 PDF 第 361 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。含碘對比劑與甲狀腺攝碘會互相干擾，故接受甲狀腺放射碘影像／治療者，含碘對比劑之投予須與其間隔一段時間（注射對比劑後兩個月內應避免甲狀腺核醫同位素掃瞄；放射碘-131 治療前兩個月內最好未曾使用對比劑，若必要則使用後約 4 週再治療），D 正確。A 錯：並非對所有甲亢者常規限制含碘對比劑，須留意者主要為未治療的 Graves' disease 或甲狀腺自主性結節等高風險族群，且多數反應可自行緩解。B 錯：類固醇前處置是為預防過敏型不良反應，非針對甲狀腺功能。⚠️ 存疑：C（急性甲狀腺風暴時應避免含碘對比劑）臨床上亦屬合理，本題以 D 為官方最明確之單一正解。（⚠️ 本題含影像，官方詳解 PDF 第 361 頁，影像尚未匯入，判讀請對照原檔。）→ [[iodinated-contrast-media]]",
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -14092,7 +14092,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1528–1553；2021 交換考官方詳解 PDF p362",
-      "explanation": "【2021 官方詳解】\nRef: CT for Pre- and Postprocedural Evaluation of Transcatheter Mitral Valve Replacement\nA. Mitral orifice area > 4cm2 => favorable anatomy\nC. Mobile leaflet length > 1cm => favorable anatomy\nD. LVOT obstruction => postprocedural LVOT gradient increase 10 mm Hg or mor\n\n⚠️ 本題含影像（官方詳解 PDF 第 362 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。依 RadioGraphics 的 MitraClip Table 1，風濕性二尖瓣疾病與瓣葉鈣化屬禁忌，故 B 正確。A 錯：有利解剖為二尖瓣口面積 >4 cm²（非 <1 cm²）。C 錯：可動瓣葉長 >1 cm 是「有利」解剖，非禁忌。D 錯：LVOT 阻塞是 TMVR 最嚴重的「重大」併發症（非次要），定義為術後 LVOT 壓差上升 ≥10 mmHg（非 50 mmHg）。（⚠️ 本題含影像，官方詳解 PDF 第 362 頁，影像尚未匯入，判讀請對照原檔。）→ [[transcatheter-mitral-valve-replacement]]",
       "concepts": [
         "transcatheter-mitral-valve-replacement"
       ],
@@ -14136,7 +14136,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics 2019;39:1921-1922；10.1148/rg.2019190081；2021 交換考官方詳解 PDF p365",
-      "explanation": "【2021 官方詳解】\nCardiac tamponade:\nDiagnosed by findings of chamber inversion during the relaxation phase\n(collapse of RV free wall in early diastole and RA free wall in late diastole and early systole)\nExaggerated flattening of ventricular septum toward LV during inspiration at real-time cine imaging\n=> highly specific feature of pericardial constriction.\nRef: MRI of the Pericardium\nhttps://doi.org/10.1148/rg.2019190081",
+      "explanation": "答案 D（此題選「錯誤」敘述）。心包填塞的 MR 診斷核心是「鬆弛期心腔反轉」：B（右心室游離壁於早舒張期塌陷）與 C（右心房游離壁於晚舒張至早收縮期塌陷）皆正確；A（flattened heart sign，前後徑減小、心臟被壓扁）亦正確。D 為錯誤敘述：吸氣時室間隔的誇大擺動方向應為偏向「左心室（toward LV）」而非偏向右心室，且此徵象其實是心包束縛（constriction）的高特異表現，選項 D 方向寫反，故為錯的敘述。→ [[cardiac-tamponade]]",
       "images": [],
       "concepts": [
         "cardiac-tamponade"
@@ -15169,7 +15169,7 @@
       ],
       "correctAnswer": "A",
       "reference": "The Essential Physics of Medical Imaging, 3rd edition. Page 310.；2021 交換考官方詳解 PDF p398",
-      "explanation": "【2021 官方詳解】\nGrid (鉛柵)\nBetween the patient and the x-ray film to reduce the scattered radiation reaching the detector\n(produced mainly by the Compton effect) and thus improve image contrast.\n巴克因素(Bucky factor) =入射鉛柵時的輻射強度/穿透鉛柵時的輻射強度\nIt indicates the increase in patient dose due to the use of a grid, for maintain SNR",
+      "explanation": "答案 A（此題問「無法」減少病人劑量者）。A 為正解：anti-scatter grid（鉛柵）置於病人與偵測器之間以攔阻散射、提升影像對比，但為維持 SNR 必須提高入射劑量（即 Bucky factor 所代表的劑量增加），因此反而「增加」病人劑量，無法減劑量（小兒透視移除鉛柵甚至可使劑量降半以上）。B 能降劑量：降低脈衝透視 frame rate＝少照少劑量。C 能降劑量：檢查台盡量遠離射源＝拉長 source-skin distance，降低入射皮膚劑量。D 能降劑量：不使用電子放大，因放大模式會增加劑量。→ [[fluoroscopy-radiation-safety]]",
       "images": [],
       "concepts": [
         "fluoroscopy-radiation-safety"
