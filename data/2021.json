@@ -2885,7 +2885,7 @@
       ],
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p14",
-      "explanation": "半衰期=2小時．全部消失=24小時 [[對比劑 - Metformin]]\n\n【2021 官方詳解】\n半衰期=2小時． 全部消失=24小時\n\n⚠️ 本題含影像（官方詳解 PDF 第 14 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。正常腎功能者靜脈注射含碘對比劑後，血中半衰期約為 2 小時、約 24 小時可完全排出，並非 6 小時，故 D 為錯誤敘述。\n(A) 依現行規範，eGFR<30 mL/min/1.73m² 或急性腎衰竭者，於注射對比劑當時或之前即應停用 metformin，檢查後 48 小時確認腎功能穩定才恢復使用，正確。\n(B) 一般劑量（0.1–0.3 mmol/kg）之含釓對比劑不增加腎臟碘負荷，無須暫停 metformin，正確。\n(C) 碘對比劑本身不會直接誘發乳酸中毒，風險在於一旦施打後發生對比劑腎病變、腎功能惡化使 metformin 蓄積，才可能導致乳酸中毒，正確。\n→ [[contrast-media-safety]]",
       "concepts": [
         "contrast-media-safety"
       ],
@@ -2981,7 +2981,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Pretorius ES, MBA JASMD. Radiology Secrets Plus. Mosby. ISBN:0323067948.；2021 交換考官方詳解 PDF p314",
-      "explanation": "Gd contrast agent ==> shortening T1 relaxation time ==> T1WI Hyperintensity\n- 但Gado也會有shortening T2 relaxation time的效果，T2訊號會降低。高濃度時較明顯(Radiopaedia)\n\n【2021 官方詳解】\nA. Gd contrast agent => shortening T1 relaxation time=> Hyperintensity in T1WI\nThe size of Mz, the z-component of tissue magnetization (M) before the RF-pulse.\nThe size of Mxy, the transverse components of M after the RF-pulse (when the signal is recorded).\nT1 reflects the length of time it takes for regrowth of Mz back toward its initial maximum value (Mo). Tissues with short T1's recover more quickly than those with long T1's.\nTheir Mz values are larger, producing a stronger signal and brighter spot on the MR image inT1WI\nT2 reflects the length of time it takes for the MR signal (Mxy) to decay in the transverse plane.\nA short T2 means that the signal decays very rapidly.\nSo substances with short T2's have smaller signals and appear darker than substances with longer T2 values in T2WI",
+      "explanation": "答案 A。釓為順磁性金屬，臨床使用含釓對比劑的主要目的是縮短鄰近質子的 T1 弛緩時間，使組織在 T1 加權影像上訊號增強（變亮），故 A 正確。\n(B) 增長 T1 方向恰好相反，錯誤。\n釓雖然同時也會縮短 T2（高濃度時 T2 訊號下降較明顯），但這並非臨床給藥的主要目的，故 (C) 縮短 T2、(D) 增長 T2 均非最佳答案。\n→ [[gadolinium-contrast]]",
       "images": [],
       "concepts": [
         "gadolinium-contrast"
@@ -3019,7 +3019,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiographics. Jan-Feb 2020;40(1):153-162；2021 交換考官方詳解 PDF p360",
-      "explanation": "(2017 p. 36) 尚未發現會造成任何不良之健康效應，但其臨床意義仍有待觀察。\n\n【2021 官方詳解】\nD: No studies in animal or humans demonstrating clinical, behavioral, biological changes associated with\nneuronal gadolinium deposition.\n\n⚠️ 本題含影像（官方詳解 PDF 第 360 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。目前並無動物或人體研究證實神經組織的釓沉積會造成認知功能損害或小腦症候群等臨床、行為或生物學上的不良變化，其臨床意義仍未明，故宣稱「重複注射會影響認知功能並造成小腦症候群」的 C 為錯誤敘述。\n(A) 釓可穿過完整的血腦障壁、沉積於齒狀核、蒼白球、腦橋與視丘（推測經腦脊髓液/glymphatic 途徑），正確。\n(B) 即使腎功能正常者，暴露於含釓對比劑後仍可能在腦部與骨骼組織產生沉積，正確。\n(D) 線狀製劑去螯合較多，腦內釓濃度顯著高於環狀製劑，正確。\n→ [[gadolinium-contrast]]",
       "concepts": [
         "gadolinium-contrast"
       ],
@@ -3104,7 +3104,7 @@
       ],
       "correctAnswer": "D",
       "reference": "次 Mathur, M., Jones, J. R., & Weinreb, J. C. (2020). Gadolinium Deposition and Nephrogenic Systemic Fibrosis: A Radiologist’s Primer. RadioGraphics, 40(1), 153–162. https://doi.org/10.1148/rg.2020190110；10.1148/rg.2020190110；2021 交換考官方詳解 PDF p35",
-      "explanation": "Most cases reported after use of **nonionic linear** agents. (含Ominscan, OptiMARK)\n\n【2021 官方詳解】\nThe risk of NSF after GBCA exposure depends on which agent is used, with most cases reported after use of nonionic linear agents.",
+      "explanation": "答案 D。NSF 病例雖與所用釓製劑種類高度相關，但通報最多的是「非離子性線狀（nonionic linear）」製劑（如 Omniscan/gadodiamide、OptiMARK/gadoversetamide），而非「離子性線狀（ionic linear）」，故 D 敘述錯誤。\n(A) NSF 與腎功能不全密切相關，殘餘腎功能越差、發生 NSF 的風險越高，正確。\n(B) 使用高於標準劑量（>0.1 mmol/kg）之釓製劑與 NSF 發生相關，正確。\n(C) 線狀與環狀製劑皆曾報告神經組織釓沉積，但環狀製劑滯留量較少，正確。\n→ [[gadolinium-contrast]]",
       "images": [],
       "concepts": [
         "gadolinium-contrast"
@@ -3142,7 +3142,7 @@
       ],
       "correctAnswer": "A",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p13",
-      "explanation": "【2021 官方詳解】\n化學結構為Linear的風險較高\n\n⚠️ 本題含影像（官方詳解 PDF 第 13 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。含釓對比劑造成腎因性全身纖維化的風險，化學結構為「線狀（linear）」者高於「環狀（cyclic/macrocyclic）」，因環狀結構把釓離子鎖得較牢、不易去螯合游離；故 A 將方向寫反，為錯誤敘述。\n(B) 在線狀製劑中，非離子性者去螯合更多，風險高於離子性線狀，正確。\n(C) 尚未接受透析的第 4、5 期慢性腎臟病（eGFR<30）為受檢者的風險因子，正確。\n(D) 急性腎損傷/腎衰竭亦為受檢者的風險因子，正確。\n→ [[nephrogenic-systemic-fibrosis]]",
       "concepts": [
         "nephrogenic-systemic-fibrosis"
       ],
@@ -3303,7 +3303,7 @@
       ],
       "correctAnswer": "C",
       "reference": "ACR Manual on Contrast Media, 2021 p. 62-67；2021 交換考官方詳解 PDF p311",
-      "explanation": "dilute 代表是water based agent故如同biphasic agent\n\n【2021 官方詳解】\n1000 cc dilute鋇劑=> water based agent=> biphasic contrast agents\nEnteric MR contrast materials\nBiphasic contrast agents :\nlengthen both T1 and T2 values, resulting in decreased intraluminal signal on T1WI and increased signal on T2WI . ex: all water-based agent\nNonabsorbable additives (mannitol) prevent water absorption by jejunum\nPositive contrast agents:\nshorten T1 relaxation times and increase intraluminal signal on T1-weighted images.\nAgent with low concentrations of ferric, manganese, or gadolinium ions (but Neither in production)\nOrally administered lipids with short T1 values\nNegative contrast agents:\nshorten T2 relaxation times and decrease intraluminal signal on T2WI\ndiamagnetic materials (barium, kaolin) or relatively high concentrations of paramagnetic ions\nsuperparamagnetic ion oxides (SPIOs) to produce marked T2* shortening.\nRef: Bowel contrast agents - Questions and Answers ​in MRI (mriquestions.com)",
+      "explanation": "答案 C。約 1000 cc 的稀釋鋇劑屬「水性（water-based）」腸道對比劑，行為近似 biphasic（雙相）製劑——同時延長 T1 與 T2 值，使腸腔在 T1WI 呈低訊號、T2WI 呈高訊號；故 C 所稱「T2 加權下腸道為 hypointense」方向錯誤，實際應為 hyperintense（高訊號）。\n(A) 稀釋鋇劑於 CT 下仍呈高密度，正確。\n(B) T1WI 下腸腔為低訊號（hypointense），正確。\n(D) 稀釋後含水量高，超音波下效果與水相當，正確。\n(E) 疑有腸道穿孔/破漏時不應使用鋇劑（外漏入腹腔會引發嚴重腹膜炎），應改用水溶性含碘對比劑，正確。\n→ [[mri-bowel-contrast]]",
       "images": [],
       "concepts": [
         "mri-bowel-contrast"
@@ -3342,7 +3342,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Clinical Radiology Volume 75, Issue 10, October 2020, Pages 797.e9-797.e19；2021 交換考官方詳解 PDF p316",
-      "explanation": "答案應該是D\n- The conventional aortic CTA protocol :120 kVp and 400mg Iodine/kg (答案應該是D)\n- 為了減少 radiation dose ==> \"double low” CTA (DLCTA)\n\t- low-tube voltage acquisition (70~80 kVp)\n\t- high pitch mode\n\t- iterative reconstruction techniques\n\t- New imaging protocol called “of the aorta (low tube voltage and low iodine\n\t- **iodine load可降到200 mg iodine/kg**\n\t- Clin Radiol. 2020 Oct;75(10):797.e9-797.e19. 考自己的paper??\n\n【2021 官方詳解】\nThe conventional aortic CTA protocol :120 kVp and 400 mg iodine/kg (答案應該是D)\nFor reduction the radiation dose=>\nlow-tube voltage acquisition (70~80 kVp)\nhigh pitch mode\niterative reconstruction techniques\nNew imaging protocol called “double low”CTA (DLCTA) of the aorta (low tube voltage and low iodine\nload) has been developed.\nConclusion:\nDouble-low computed tomography angiography (DLCTA): with 70 kVp and 200 mg iodine/kg is feasible for whole-aortic CT angiography\n\n⚠️ 本題含影像（官方詳解 PDF 第 316 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 C → D。conventional 120 kVp 主動脈 CTA 碘負荷為 400 mgI/kg（200 為 double-low CTA 協定）。答案 C→D。",
+      "explanation": "答案 D。傳統（conventional）主動脈 CTA 以 120 kVp 掃描時，臨床常規碘負荷量約為 400 mgI/kg，故選 D。\n為降低輻射劑量與碘用量所發展的「double-low」CTA（DLCTA）採低管電壓（70–80 kVp）搭配 high-pitch 與迭代重建：降低管電壓使光子能量趨近碘的 k-edge（33.2 keV），碘的衰減值上升，因而可將碘負荷約減半至 200 mgI/kg；但該 200 mgI/kg 對應的是 70 kVp 低劑量協定，並非題幹所問的 120 kVp 常規協定。\n故 (C) 200、(A) 50、(B) 100 mgI/kg 對於 120 kVp 常規協定皆偏低不符。\n（本題答案鍵原標 C，經醫師裁決 2026-07-11 更正為 D。）\n→ [[iodinated-contrast-media]]",
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -3386,7 +3386,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 9, 14.；2021 交換考官方詳解 PDF p44",
-      "explanation": "考定義：光電交互作用產生的X光，就是特性輻射。\n\n【2021 官方詳解】\nMost common is Characteristic x-rays (photoelectric effect), then Compton scatter.\nLeast likely is coherent (Rayleigh) scatter.\nhttps://howradiologyworks.com/x-ray-interactions/\n\n⚠️ 本題含影像（官方詳解 PDF 第 44 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。光電效應（photoelectric interaction）中，入射光子被原子內層（K 殼）電子完全吸收並將其擊出、留下電洞，外層電子躍遷填補時釋放出能量等於兩殼層結合能差的光子，即「特性輻射（characteristic x-rays）」，故 A 正確。\n(B) 康普頓散射是光子與外層電子非彈性碰撞後偏向的散射光子，(C) 同調（coherent/Rayleigh）散射是無能量轉移的彈性散射，兩者皆非內層電洞躍遷的產物。\n(D) 制動輻射（Bremsstrahlung）是電子受原子核庫倫場減速所放出的連續輻射，屬 X 光在球管內「產生」的機制，而非組織內光電交互作用的產物，皆非答案。\n→ [[characteristic-xray-physics]]",
       "concepts": [
         "characteristic-xray-physics"
       ],
@@ -3430,7 +3430,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 80, 85.；2021 交換考官方詳解 PDF p41",
-      "explanation": "- A不夠全面。除了病人，我們人員的輻射劑量也要盡量減少。\n- 輻射防護要防止確定效應的發生，並使機率效應的發生降低至合理可接受的低水平。除了降低病人劑量，也要考慮輻射源本身的屏蔽，以降低一般大眾或工作人員的劑量。(醫學影像物理學Chp.31)\n- 目標ALARA: As Low As Reasonable Achievable合理抑低。\n- 考書中文字。The principle is that the residual risk shall be reduced as far as reasonably practicable. Unnecessary radiation is eliminated. (Review of radiologic physics 4th Ed.)\n\n【2021 官方詳解】\n嗯嗯\nThe principle is that the residual risk shall be reduced as far as reasonably practicable. Unnecessary radiation is eliminated",
+      "explanation": "答案 B。ALARA（合理抑低）的核心意涵是「消除一切不必要的輻射、並在兼顧經濟與社會因素下把殘餘風險降到合理可行的最低」，故 B（Unnecessary radiation is eliminated）最貼切。\n(A) 僅「使病人劑量低」不夠全面，因 ALARA 同時涵蓋工作人員、一般大眾以及輻射源本身的屏蔽，非只針對病人。\n(C) 成本最小化、(D) 檢查具成本效益，都把 ALARA 誤解為經濟目標——經濟只是被納入權衡的因素之一，並非原則本身的目的，故皆非。\n→ [[alara-principle]]",
       "images": [],
       "concepts": [
         "alara-principle"
@@ -3469,7 +3469,7 @@
       ],
       "correctAnswer": "D",
       "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
-      "explanation": "正解 **D**。**Iodixanol（Visipaque）為 non-ionic dimer**（等滲）。Iopromide/Iohexol/Iopamidol 為非離子單體；Iothalamate meglumine 為離子單體。\n\n→ [[iodinated-contrast-media]]\n\n【2021 官方詳解】\nNon-ionic dimer = Iodixanol (Visipaque).\n\n⚠️ 本題含影像（官方詳解 PDF 第 74 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。Iodixanol（Visipaque）是唯一常用的「非離子性雙體（non-ionic dimer）」含碘對比劑；因一個分子攜帶兩個苯環（兩份碘）卻只算一顆溶質顆粒，滲透壓最低、接近血漿（等滲），故選 D。\n(A) Iopromide、(B) Iohexol、(E) Iopamidol 皆為非離子性單體（低滲透壓）；(C) Iothalamate meglumine 為離子性單體（高滲透壓），均非雙體，故皆非。\n→ [[iodinated-contrast-media]]",
       "concepts": [
         "iodinated-contrast-media"
       ],
@@ -3517,7 +3517,7 @@
       ],
       "correctAnswer": "B",
       "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
-      "explanation": "正解 **B（1+2）**。含碘對比劑分子量低（<200 Da），靜脈注射後**自由交換於血管內與細胞外間隙**，不進入細胞內。\n\n→ [[iodinated-contrast-media]]\n\n【2021 官方詳解】\nAll conventional water-soluble CT contrast agents have a low molecular weight (<200 Da) and freely exchange between the intravascular and extracellular extravascular spaces.\n10.2214/AJR.12.10039",
+      "explanation": "答案 B（1+2）。含碘對比劑分子量低（<200 Da），靜脈注射後於血管內間隙與細胞外（間質）間隙之間自由交換分布，但不會進入細胞內，最終經腎絲球過濾排出；故分布於血管內（1）與細胞外（2）兩個間隙，選 B。\n凡納入 (3) 細胞內間隙的 C（1+2+3）、D（1+3）、E（2+3）皆錯，僅含 (1) 的 A 不完整。\n→ [[iodinated-contrast-media]]",
       "images": [],
       "concepts": [
         "iodinated-contrast-media"
@@ -3559,7 +3559,7 @@
       ],
       "correctAnswer": "A",
       "reference": "中華民國放射線醫學會對比劑手冊；標準放射藥理學",
-      "explanation": "正解 **A（1）**。正常腦部血腦障壁（BBB）完整，對比劑**僅分布於血管內間隙**，不滲入腦細胞外間隙。\n\n→ [[iodinated-contrast-media]]\n\n【2021 官方詳解】\nThe blood brain barrier (BBB) renders cerebral capillaries impermeable to iodinated contrast agents.",
+      "explanation": "答案 A（僅 1）。正常腦部的血腦障壁（BBB）完整，腦微血管內皮對含碘對比劑不通透，故腦血管攝影時對比劑僅停留於血管內間隙，不會滲入腦的細胞外或細胞內間隙，因此僅選 (1)，答案 A。\n凡納入 (2) 細胞外或 (3) 細胞內間隙的 B、C、D、E 皆錯。（對照 2021-086：同一對比劑在一般組織可分布至細胞外間隙，但在正常腦部因 BBB 阻隔而僅限血管內。）\n→ [[iodinated-contrast-media]]",
       "images": [],
       "concepts": [
         "iodinated-contrast-media"
@@ -3763,7 +3763,7 @@
       ],
       "correctAnswer": "C",
       "reference": "中華民國放射線醫學會對比劑手冊；2021 交換考官方詳解 PDF p16",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 16 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。含碘對比劑急性全身性不良反應的受檢者風險因子，包括曾對含碘對比劑發生中至重度急性反應、需治療的氣喘（尤其不穩定性）與過度焦慮（Lalli effect），故 A、B、D 皆為真正的風險因子。\n而「對海鮮/乳類過敏或對碘酒過敏」與含碘對比劑的類過敏反應並無因果關係，是常見迷思，並非風險因子，故本題問「何者為非」選 C。\n→ [[contrast-adverse-reactions]]",
       "concepts": [
         "contrast-adverse-reactions"
       ],
@@ -4362,7 +4362,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 153, 158.；2021 交換考官方詳解 PDF p42",
-      "explanation": "【2021 官方詳解】\nWindowing, also known as grey-level mapping, contrast stretching, histogram modification or contrast enhancement is the process in which the CT image greyscale component of an image is manipulated via the CT numbers\nWide window\nDefined as 400-2000 HU best used in areas of acute differing attenuation values, a good example is lungs or cortical tissue, where air and vessels will sit side by side\nTypical window width and levels:\n- brain W:80 L:40\n- mediastinum W:350 L:50\n- lungs W:1500 L:-600\n- liver W:150 L:30",
+      "explanation": "答案 C。視窗寬度（window width）代表影像所顯示的 CT 值範圍，範圍越大表示涵蓋的衰減差異越廣。肺部同時存在空氣與血管/軟組織，衰減值差異極大，需最寬的視窗（典型 W 約 1500 HU）才能同時呈現，故胸部肺窗使用的 window width 最大，選 C。\n相較之下 (A) 頭部軟組織窗（W 約 80）、(B) 縱膈窗（W 約 350）、(D) 肝臟窗（W 約 150）都是用於衰減相近軟組織的窄窗，寬度都遠小於肺窗。\n→ [[ct-attenuation-hounsfield-units]]",
       "images": [],
       "concepts": [
         "ct-attenuation-hounsfield-units"
@@ -4400,7 +4400,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Huda, Walter, and Richard M. Slone. Review of radiologic physics, 4th ed. Lippincott Williams & Wilkins, 2003: 139.；2021 交換考官方詳解 PDF p45",
-      "explanation": "【2021 官方詳解】\nUnder the table x-ray tubes will result in lower operator doses…. For lateral projections, operators should stand on the receptor side and avoid the x-ray tube location where radiation intensities will be substantially increased.",
+      "explanation": "答案 C（under；image receptor）。散射線主要來自病人的入射側（即 X 光管那一側），因此將 X 光管置於檢查床「下方（under）」，可讓最強的散射從下方散出、減少操作者（尤其頭頸與眼睛）的受曝，故第一格為 under。\n側位投影時，操作者應站在「影像接收器（image receptor）側」，避開 X 光管側（該側散射強度大幅增加），故第二格為 image receptor，合為 C。\n→ [[fluoroscopy-radiation-safety]]",
       "images": [],
       "concepts": [
         "fluoroscopy-radiation-safety"
@@ -5304,7 +5304,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2021 交換考官方詳解 PDF p73",
-      "explanation": "【2021 官方詳解】\nIothalamate meglumine 60 (Conray 60) : 1400 mOsm/Kg\nIohexol 350 (Omnipaque 350): 844 mOsm/Kg\nIodixanol 320 (Visipaque 320): 290 mOsm/Kg\n喔.",
+      "explanation": "答案 A（1>2>3）。滲透壓由所含有效溶質顆粒數決定，同碘量下離子性單體最高、非離子性單體次之、非離子性雙體最低。\n三者中 Iothalamate meglumine 60（Conray 60）為離子性單體、滲透壓最高（約 1400 mOsm/kg）；Iohexol 350（Omnipaque 350）為非離子性單體、居中（約 844 mOsm/kg）；Iodixanol 320（Visipaque 320）為非離子性雙體、等滲、最低（約 290 mOsm/kg，接近血漿）。\n故由高至低為 1>2>3，選 A，其餘排序皆誤。\n→ [[iodinated-contrast-media]]",
       "images": [],
       "concepts": [
         "iodinated-contrast-media"
@@ -5346,7 +5346,7 @@
       ],
       "correctAnswer": "C",
       "reference": "2021 交換考官方詳解 PDF p77",
-      "explanation": "【2021 官方詳解】\nHepatobiliary MRI contrast agents:\nGd based: GD-BOPTA (Multihance), Gd-EOB-DTPA (Primovist)\nMn based: MN-DPDP",
+      "explanation": "答案 C（1+2+3）。三種都是肝膽特異性 MR 對比劑：(1) Mangafodipir trisodium（Mn-DPDP）為錳基肝細胞特異劑；(2) Gadobenate dimeglumine（Gd-BOPTA，MultiHance）約 3–5% 經膽道排泄；(3) Gadoxetic acid（Gd-EOB-DTPA，Primovist）約 50% 經膽道排泄。\n三者皆由肝細胞經 OATP 攝取後、部分再經 MRP2 排入膽道，可提供肝膽期影像，故全選，答案 C。\n→ [[hepatobiliary-mri-contrast]]",
       "images": [],
       "concepts": [
         "hepatobiliary-mri-contrast"
@@ -7351,7 +7351,7 @@
       ],
       "correctAnswer": "B",
       "reference": "ACR contrast Manual 2020；2021 交換考官方詳解 PDF p137",
-      "explanation": "【2021 官方詳解】\n- In patients with acute thyroid storm, iodinated contrast medium exposure can potentiate thyrotoxicosis; in such patients, iodinated contrast medium should be avoided. Corticosteroid premedication in this setting is unlikely to be helpful.\n- Intradermal skin testing with contrast media to predict the likelihood of adverse reactions has not been shown to be useful in minimizing reaction risk.\n- Premedication does not prevent all contrast reactions. Allergic- like contrast reactions that occur despite premedication are called “breakthrough reactions”. Physiologic reactions are not mitigated by premedication and are not considered “breakthrough reactions,” even if they occur following premedication.",
+      "explanation": "答案 B。含碘對比劑會與甲狀腺攝碘互相競爭干擾，故對於接受放射碘治療或放射碘掃描的病人，施打含碘對比劑前後應安排適當的等待（washout）期，B 正確。\n(A) 甲狀腺風暴/甲亢活動期的病人暴露於含碘對比劑可能加重甲狀腺毒症，原則是「避免使用」，且此情境下類固醇前置用藥幫助不大，故 A 錯。\n(C) 皮內測試（intradermal skin testing）無法可靠預測對比劑不良反應，對減少反應並無助益、甚至可能增加風險，故 C 錯。\n(D) 前置用藥並不能預防所有反應，用藥後仍可能出現「突破性反應（breakthrough reaction）」，故 D 錯。\n→ [[contrast-adverse-reactions]]",
       "images": [],
       "concepts": [
         "contrast-adverse-reactions",
@@ -11959,7 +11959,7 @@
       ],
       "correctAnswer": "A",
       "reference": "A systematic review of 639 patients with biopsy-confirmed nephrogenic system fibrosis. Radiology 2019; 292:376-386.；2021 交換考官方詳解 PDF p267",
-      "explanation": "⚠️ 疑似與 2021-075 為同一題（相似度 0.883），請醫師確認是否合併。\n⚠️ 本題含影像（官方詳解 PDF 第 267 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。Omniscan（gadodiamide）為「線狀、非離子性」製劑，配位鍵結最弱、去螯合游離出的釓最多，屬 ACR Group I 高風險製劑，且是 NSF 通報病例數最多、風險最高者，故選 A。\n(B) Magnevist（gadopentetate）與 (C) Optimark（gadoversetamide）雖同為線狀 Group I 高風險，但風險仍以 gadodiamide 為最高；(D) Gadovist（gadobutrol）為環狀低風險製劑；(E) MultiHance（gadobenate）風險相對較低，皆非最高。\n⚠️ 疑似與 2021-075 為同一題（相似度 0.883），請醫師確認是否合併。\n→ [[nephrogenic-systemic-fibrosis]]",
       "concepts": [
         "nephrogenic-systemic-fibrosis"
       ],
@@ -12012,7 +12012,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Immediate allergic reactions to gadolinium-based contrast agents: a systemic review and meta-analysis. Radiology 2018; 286:471-482.；2021 交換考官方詳解 PDF p269",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 269 頁），影像尚未匯入，判讀請對照原檔。\n\n【醫師裁決 2026-07-11】答案更正 B → C。290 mOsm/kg 為題幹給的血漿參考值；gadopentetate 原液約 1960 mOsm/kg。答案 B→C。",
+      "explanation": "答案 C。血漿正常滲透壓約 290 mOsm/kg，而 gadopentetate（Magnevist，線狀離子性釓劑）原液為高滲透壓、約 1960 mOsm/kg，遠高於血漿，故正解為 C。\n(A) 10、(B) 290（此為血漿滲透壓，屬誘答值）、(D) 5900、(E) 9900 mOsm/kg 皆不符。（對照：Omniscan/gadodiamide 原液約 650 mOsm/kg。）\n（註：本卡答案原標記為 B、與 data/2021.json 的正解 C 不一致，已將卡片同步為 C；正解 C 有物理數值與概念檔支持。）\n→ [[gadolinium-contrast]]",
       "concepts": [
         "gadolinium-contrast"
       ],
