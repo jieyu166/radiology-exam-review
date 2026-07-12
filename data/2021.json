@@ -7472,7 +7472,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Straight-edege sign, anterior upper lobe sign, and exuberant honey combing sign are much more common in and highly specific for CTDUIP than IPF UIP. CT Features of the Usual Interstitial Pneumonia Pattern: Differentiating Connective Tissue Disease–Associated Interstitial Lung Disease From Idiopathic Pulmonary Fibrosis American Journal of Roentgenology. 2018;210: 307-313. 10.2214/AJR.17.18384；10.2214/AJR.17.18384；2021 交換考官方詳解 PDF p140",
-      "explanation": "【2021 官方詳解】\nthe exuberant honeycombing sign, the anterior upper lobe sign, and the straight-edge sign have high specificity but modest sensitivity in suggesting that UIP on CT images is due to CTD-ILD rather than IPF\n\n⚠️ 本題含影像（官方詳解 PDF 第 140 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。CTD 相關的 UIP（相對於 IPF）常帶有幾個反常徵象：straight-edge sign（纖維化侷限肺基底、冠狀面上下界銳利而不沿外側緣往上延伸）、anterior upper lobe sign（纖維化集中上葉前段並合併下肺侵犯）、exuberant honeycombing（蜂窩化佔纖維化區 >70%）。這三個徵象在 CTD-ILD 出現的比例（約 22–25%）明顯高於 IPF（約 6–13%），特異度高但敏感度僅中等，因此三者對「CTD 造成的 UIP」皆具鑑別意義。(A)、(B)、(C) 各自都是正確的特異徵象，故完整答案是「以上皆是」，正解為 (D)。\n⚠️ 本題原含影像（官方詳解 PDF 第 140 頁）尚未匯入，判讀請對照原檔。\n→ [[ctd-ild]]",
       "concepts": [
         "ctd-ild"
       ],
@@ -7680,7 +7680,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Radiographics 2021;41:742-761；2021 交換考官方詳解 PDF p146",
-      "explanation": "【2021 官方詳解】\nCT Findings of Hemorrhage\nBlood in the alveoli typically manifests as ground-glass opacity or consolidation\nWhen hemorrhage is subacute, septal lines may also be present\nBlood products in the bronchial tree may manifest as detectable filling defects at CT\nObstruction of larger airways with blood products may result in atelectasis\nBlood products in the more distal airways typically manifest as centrilobular nodules that may have a tree-in-bud appearance\nWhen bronchial arteries are hypertrophied, cardiac output to them can increase from a normal output of 1% to up to 30%. Furthermore, these hypertrophied arteries are thin walled and fragile and are exposed to systemic pressure, making them prone to rupture into the airways, which can\ncause hemoptysis.",
+      "explanation": "答案 E。咳血在 CT 上可從肺實質、氣道與血管三方面表現，題列選項全部都可能出現：(A) ground-glass opacity 反映肺泡內出血（也可呈實變）；(C) filling defects in bronchial tree 是氣道內血塊；(D) atelectasis 為較大氣道被血塊阻塞所致；(B) bronchial artery hypertrophy 則是咳血最常見的血管來源——肥大的支氣管動脈管壁薄而脆、承受體循環壓力，流量可由正常約 1% 增至最高約 30%，易破入氣道而出血。此外還可見亞急性出血的 septal lines、遠端氣道血塊造成的 centrilobular／tree-in-bud 結節。因此四者皆為咳血之 CT 表現，正解為「以上皆可以」(E)。\n→ [[bronchial-artery-embolization-hemoptysis]]",
       "images": [],
       "concepts": [
         "bronchial-artery-embolization-hemoptysis"
@@ -8721,7 +8721,7 @@
       ],
       "correctAnswer": "D",
       "reference": "低劑量胸部電腦斷層肺癌篩檢手冊醫療版；2021 交換考官方詳解 PDF p184",
-      "explanation": "【2021 官方詳解】\n篩檢對象\n1.年齡介於50-80歲，抽菸史超過30包年，目前仍在抽菸或戒菸時間尚未超過 15 年的民眾，證據顯示可以接受低劑量電腦斷層以篩檢肺癌。尤以 60-75 歲者，最具成本效應。\n2. 具有肺癌家族史的民眾，建議接受低劑量電腦斷層作為肺癌篩檢。\n3. 有肺病史、氡暴露及特定職業暴露 ( 如石綿 ) 的民眾，可以諮詢醫師考慮進行肺癌篩檢。\n4. 非吸菸，也無上述風險因子的民眾目前沒有證據支持肺癌篩檢。若擔心有罹患肺癌風險，建議諮詢醫師後，再進行肺癌篩檢。",
+      "explanation": "答案 D。低劑量 CT 肺癌篩檢以吸菸史為核心：主要對象為 50–80 歲、抽菸史超過 30 包年、目前仍吸菸或戒菸未滿 15 年者（其中 60–75 歲最具成本效益），(B) 正確。具肺癌家族史者亦建議接受篩檢，(A) 正確；有肺病史、氡暴露或石綿等特定職業暴露者可諮詢醫師考慮篩檢，(C) 正確。至於「非吸菸且無上述任何風險因子」的一般民眾，目前並無證據支持以年齡大於 30 歲作為篩檢門檻，(D) 的敘述與手冊不符，故為錯誤選項。\n→ [[lung-cancer-screening-trials]]",
       "images": [],
       "concepts": [
         "lung-cancer-screening-trials"
@@ -8759,7 +8759,7 @@
       ],
       "correctAnswer": "D",
       "reference": "低劑量胸部電腦斷層肺癌篩檢手冊醫療版；2021 交換考官方詳解 PDF p185",
-      "explanation": "【2021 官方詳解】\n- 結節大小 ≤4 mm ：每年一次低劑量電腦斷層。\n- 結節大小 4-6mm：6 個月內安排低劑量電腦斷層。\n- 結節大小 6-8mm：3 個月內安排低劑量電腦斷層，若無變化 則 6 個月內安排低劑量電腦斷層，仍穩定則改一年。若於首次 追蹤（三個月）有變化則手術，於後續追蹤有變化則轉介給胸 腔專科醫師進行評估。\n- 結節大小 >8mm：安排正子電腦斷層掃瞄，\n  - 若評估為低風險，則 3 個月內安排低劑量電腦斷層\n    - 有變化則安排手術\n    - 若無變化則 6 個月內安排低劑量電腦斷層，仍穩定則改 一年。後續追蹤發現有變化，則轉介給胸腔專科醫師進行 評估。\n  - 若評估為高風險，則安排開刀或切片。\n- 支氣管內病灶：安排支氣管鏡檢查。",
+      "explanation": "答案 D。台灣 LDCT 手冊對實心結節依大小分流追蹤：(A) ≤4 mm 每年一次 LDCT、(B) 4–6 mm 於 6 個月內 LDCT、(C) 6–8 mm 於 3 個月內 LDCT（穩定則延長為 6 個月、再穩定改一年；首次追蹤有變化即手術，後續有變化則轉介胸腔專科）皆正確。至於 >8 mm 的結節，手冊要求先安排 PET，再依風險分流：低風險才走「3 個月內 LDCT」路徑，高風險則直接安排開刀或切片。(D) 把「高風險」對應到「3 個月內 LDCT」屬於低風險的處置，方向錯置，故為錯誤選項。\n→ [[lung-cancer-screening-trials]]",
       "images": [],
       "concepts": [
         "lung-cancer-screening-trials"
@@ -8801,7 +8801,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Johkoh T, Müller NL, Pickford HA et-al. Lymphocytic interstitial pneumonia: thin-section CT findings in 22 patients. Radiology. 1999;212 (2): 567-72.；2021 交換考官方詳解 PDF p186",
-      "explanation": "【2021 官方詳解】\nCT features of LIP:\n- features tend to be diffuse with mid to lower lobe predominance\n- thickening of bronchovascular bundles\n- interstitial thickening along lymph channels\n- small but variable sized pulmonary nodules (can be centrilobular or subpleural, and are often ill-defined)\n- ground-glass changes\n- scattered thin-walled cysts\n  - usually deep within the lung parenchyma\n  - typically abut vessels (i.e. is perivascular or subpleural)\n  - size range between 1-30 mm (useful for differentiation from lymphoma of the lung 1)\n- mediastinal lymphadenopathy",
+      "explanation": "答案 C。LIP 在 CT 上雖呈瀰漫分布，但以中下肺葉為主，並非上肺優勢，故 (C)「diffuse with upper lobe predominance」不符合其常見表現。(A) ground-glass changes、(B) scattered thin-walled cysts（薄壁囊腫多沿血管周圍分布、圓形邊界，是與肺淋巴瘤鑑別的重要線索）、(D) interstitial thickening along lymph channels（沿淋巴路徑的間隔與支氣管血管束增厚）、(E) mediastinal lymphadenopathy 皆為 LIP 常見的 CT 特徵，其中毛玻璃合併薄壁囊腫是招牌組合。故不符合者為 (C)。\n→ [[lymphoid-interstitial-pneumonia]]",
       "images": [],
       "concepts": [
         "lymphoid-interstitial-pneumonia"
@@ -8843,7 +8843,7 @@
       ],
       "correctAnswer": "B",
       "reference": "1. von der Thüsen JH. Pleuroparenchymal Fibroelastosis: Its Pathological Characteristics. Curr Respir Med Rev. 2014;9 (4): 238-247. 2. Reddy TL, Tominaga M, Hansell DM et-al. Pleuroparenchymal fibroelastosis: a spectrum of histopathological and imaging phenotypes. Eur. Respir. J. 2012;40 (2): 377-85.；2021 交換考官方詳解 PDF p187",
-      "explanation": "【2021 官方詳解】\nPleuroparenchymal fibroelastosis (PPFE) is a rare condition characterised by predominantly upper lobe pleural and subjacent parenchymal fibrosis, the latter being intraalveolar with accompanying elastosis of the alveolar walls.\nA distinct pattern of pulmonary fibrosis which often runs a rapidly progressive course with a poor prognosis, and it is likely to be introduced as a separate entity in the new classification scheme of idiopathic interstitial pneumonias.\n1/2 idiopathic, 1/2 underlying (transplantation)\nNon-smokers",
+      "explanation": "答案 B。PPFE 雖屬進行性、預後差的纖維化疾病，但其終點是慢性高碳酸血症呼吸衰竭，而非 progressive massive fibrosis（PMF）——PMF 是塵肺症／complicated pneumoconiosis 的融合纖維腫塊，與 PPFE 病理無關，故 (B) 的敘述錯誤。(A) 患者多為非吸菸者、(C) 以雙側肺尖胸膜及胸膜下實質明顯增厚為特徵、(D) 約半數為肺移植或骨髓移植後之續發表現、(E) 肺功能常呈混合（阻塞＋限制）型，皆符合 PPFE 的描述。\n→ [[idiopathic-interstitial-pneumonia]]",
       "images": [],
       "concepts": [
         "idiopathic-interstitial-pneumonia"
@@ -8881,7 +8881,7 @@
       ],
       "correctAnswer": "D",
       "reference": "ACR–STR PRACTICE PARAMETER FOR THE PERFORMANCE AND REPORTING OF LUNG CANCER SCREENING THORACIC COMPUTED TOMOGRAPHY (CT)；2021 交換考官方詳解 PDF p188",
-      "explanation": "【2021 官方詳解】\nScreening thoracic CT is appropriate for asymptomatic individuals at high risk for lung cancer . An individual’s risk for lung cancer is primarily determined by:\n- Smoking history and age.\nAdditional risk factors include the following:\n- Emphysema and chronic obstructive pulmonary disease (COPD)\n- Interstitial lung disease, such as pulmonary fibrosis\n- Occupational and environmental exposures, such as asbestos, arsenic, beryllium, cadmium, chromium, coal smoke, diesel fumes, nickel, silica, and soot\n- High levels of radon(氡) exposure\n- History of cancer, including lung cancer, lymphoma, head and neck cancer, and smoking-related cancers\n- Family history of lung cancer\n- Extensive secondhand smoke exposure\n- Prior thoracic radiation therapy, as may occur for breast cancer and lymphoma",
+      "explanation": "答案 D。ACR–STR 所列的肺癌風險因子以吸菸史與年齡為主，額外包含 emphysema／COPD、間質性肺病（如肺纖維化）、職業與環境暴露（石綿、砷、鈹、鎘、鉻、煤等）、高濃度氡（radon）暴露、癌症史、肺癌家族史、大量二手菸與既往胸部放射治療。(A)、(B)、(C) 都在此清單內。(D) 所稱的「高濃度氬（argon）暴露」並非公認風險因子——正確者應為氡（radon，鈾衰變產生的惰性氣體，約佔肺癌 2–3% 並與吸菸協同）；氬與氡是不同氣體，故 (D) 為錯誤選項。\n→ [[lung-cancer-screening-trials]]",
       "images": [],
       "concepts": [
         "lung-cancer-screening-trials"
@@ -8919,7 +8919,7 @@
       ],
       "correctAnswer": "B",
       "reference": "N Engl J Med 2020; 382:503-513；2021 交換考官方詳解 PDF p189",
-      "explanation": "【2021 官方詳解】\nIn the NELSON trial, volume CT lung-cancer screening of high-risk former and current smokers, with the introduction of growth-rate assessment as an imaging biomarker for indeterminate tests, resulted in low referral rates for additional assessments and substantially lower lung-cancer mortality (in both sexes) than no screening, despite screening intervals that increased over time.\n\n⚠️ 本題含影像（官方詳解 PDF 第 189 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。題幹描述的是以「volume CT＋結節生長速率（growth-rate／體積倍增時間）作為不確定結果之影像生物標記」，在高風險現行及曾吸菸者中達到低轉介率、且雙性別皆顯著降低肺癌死亡率——這正是荷蘭–比利時 NELSON 試驗的特徵，故正解為 (B)。(D) NLST 是美國試驗，採直徑判讀、為首個證實 LDCT 降低肺癌死亡率 20% 者，但並非以體積生長速率作為生物標記；(A) JECS、(C) TALENT 與此描述不符。\n⚠️ 本題原含影像（官方詳解 PDF 第 189 頁）尚未匯入，判讀請對照原檔。\n→ [[lung-cancer-screening-trials]]",
       "images": [
         "2021-221-1.png"
       ],
@@ -8959,7 +8959,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Lung Cancer: Targets and Therapy 2019:10 107–124；2021 交換考官方詳解 PDF p190",
-      "explanation": "【2021 官方詳解】\nGenetic factors also play an important role in lung cancer etiology of LCINS. There are differences in genetics and molecular changes between LCINS and lung cancer in smokers.",
+      "explanation": "答案 C。針對從不吸菸者的肺癌（LCINS），遺傳因子與環境因子同樣扮演重要角色，且其在遺傳與分子變化上與吸菸者的肺癌明顯不同（如 EGFR 突變、ALK 重排在非吸菸者及亞裔更常見）。(C) 稱「環境因子有影響、但基因因子不參與」與事實相反，故為錯誤選項。(A) LDCT 篩檢已用於北美、歐洲及部分亞洲的重度吸菸者、(B) 針對從不吸菸族群仍需另行發展篩檢策略、(D) LDCT 篩檢成本與保險給付會影響篩檢普及與死亡率，皆為正確敘述。\n→ [[lung-cancer-screening-trials]]",
       "images": [],
       "concepts": [
         "lung-cancer-screening-trials"
@@ -8997,7 +8997,7 @@
       ],
       "correctAnswer": "B",
       "reference": "ACR–STR PRACTICE PARAMETER FOR THE PERFORMANCE AND REPORTING OF LUNG CANCER SCREENING THORACIC COMPUTED TOMOGRAPHY (CT)；2021 交換考官方詳解 PDF p191",
-      "explanation": "【2021 官方詳解】\nKey Elements\n• One breath-hold (thoracic motion is problematic);\n• Thin image thicknesses (≤2.5 mm, ≤1.0 mm preferred); reconstruction of coronal and sagittal reformations as well as MIPS may be helpful and are encouraged.\n• CTDIvol < 3.0 mGy for a standard sized patient (see table), with adjustments made for smaller and larger patients.\n• This typically requires a 16 detector row (or greater) scanner to meet these requirements.",
+      "explanation": "答案 B。ACR–STR 對標準體型病人的肺癌篩檢劑量要求為 CTDIvol < 3.0 mGy（並依病人體型大小調整），故正解為 (B) 3 mGy or less。其餘技術要點包括單次閉氣掃描、薄層 ≤2.5 mm（≤1.0 mm 更佳）、建議重組冠狀與矢狀切面及 MIP，並需 16 排以上的 CT。(A) 1 mGy 過低、(C) 5 mGy 與 (D) 10 mGy 皆高於規範上限，故不正確。\n→ [[lung-cancer-screening-trials]]",
       "images": [],
       "concepts": [
         "lung-cancer-screening-trials"
@@ -9035,7 +9035,7 @@
       ],
       "correctAnswer": "B",
       "reference": "RadioGraphics 2020; 40:1848-1865；2021 交換考官方詳解 PDF p192",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 192 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。RSNA 將 COVID-19 肺炎的 CT 表現分為四類。(B) 把「孤立性大葉或節段性實變、且無毛玻璃影」歸為 Intermediate（不確定）是錯的——這種表現實際屬於 Atypical（非典型）；Indeterminate 應是缺乏典型徵象、呈多灶／瀰漫／肺門周圍或單側、且無特定分布（非圓形非周邊）的毛玻璃影。(A) Typical＝周邊、雙側毛玻璃影伴或不伴實變或小葉內線、(C) Atypical＝離散小結節（centrilobular、tree-in-bud）或肺空洞化、(D) Negative＝無肺炎徵象，皆正確，故錯誤者為 (B)。\n⚠️ 本題原含影像（官方詳解 PDF 第 192 頁）尚未匯入，判讀請對照原檔。\n→ [[covid19-chest-ct]]",
       "concepts": [
         "covid19-chest-ct"
       ],
@@ -9079,7 +9079,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2020; 40:1848-1865；2021 交換考官方詳解 PDF p193",
-      "explanation": "【2021 官方詳解】\nChest CT Abnormalities with High Incidence (>70%)\nSeveral chest CT findings have been reported in more than 70% of RT-PCR test–proven COVID-19 cases, including ground-glass opacities, vascular enlargement, bilateral abnormalities, lower lobe involvement,\nand posterior predilection. In COVID-19–endemic regions, the observation of these chest CT findings should raise the suspicion of possible COVID-19 diagnosis.",
+      "explanation": "答案 D。已有超過 70% RT-PCR 確診的 COVID-19 病例被報告出現的 CT 徵象包括：毛玻璃影(GGO)、血管擴張(vascular enlargement)、雙側侵犯、下葉分布與後側優勢。故 (A) GGO、(B) vascular enlargement、(C) peripheral location 皆屬此類高發現率的典型徵象。(D) pleural effusion（肋膜積液）則屬相對非典型徵象，出現時反而應考慮其他病因或併發症，並非 >70% 病例的常見表現，故正解為 (D)。\n→ [[covid19-chest-ct]]",
       "images": [],
       "concepts": [
         "covid19-chest-ct"
@@ -9117,7 +9117,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Cottin V, et al. Fibrosing interstitial lung diseases: knowns and unknowns. European Respiratory Review 2019 28: 180100.；2021 交換考官方詳解 PDF p194",
-      "explanation": "【2021 官方詳解】\n- By definition, a progressive fibrosing ILD characterised by decline in lung function and early mortality. Most clinical trials and observational studies in patients with ILDs have defined disease progression in terms of decline in FVC, measured as the change from baseline in mL or as a percentage of the predicted value, or as a categorical change (typically ⩾10% predicted), or as a composite of categorical change and mortality.\n- Patients with certain other types of chronic fibrosing ILD are also at risk of developing a progressive phenotype. These include idiopathic nonspecific interstitial pneumonia (NSIP), unclassifiable idiopathic interstitial pneumonia, autoimmune ILDs, chronic sarcoidosis, chronic hypersensitivity pneumonitis (HP) and exposure-related diseases such as asbestosis and silicosis\n- Treatment of autoimmune ILDs usually involves corticosteroids or other immunosuppressants such as azathioprine, CYC or MMF, based on clinical experience rather than scientific evidence.",
+      "explanation": "答案 D。IPF 一旦經臨床與 HRCT 診斷，標準治療是抗纖維化藥物（nintedanib 或 pirfenidone），而非高劑量脈衝式類固醇——單獨使用類固醇（乃至類固醇加免疫抑制劑）對 IPF 無益甚至有害（PANTHER-IPF 試驗），故 (D) 錯誤。(A) PF-ILD 以 6–24 個月內 FVC 下降合併臨床症狀惡化來定義進展、(B) 病因多元（含 idiopathic NSIP、CTD-ILD、慢性過敏性肺炎等）、(C) 影像出現 honeycombing 者存活表現顯著較差，皆為正確敘述。\n→ [[progressive-fibrosing-ild]]",
       "images": [],
       "concepts": [
         "progressive-fibrosing-ild",
