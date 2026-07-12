@@ -6753,7 +6753,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Practiacal Neuroangiography 2nd Edition P158；2021 交換考官方詳解 PDF p122",
-      "explanation": "【2021 官方詳解】 A: Inferior lateral trunk B: Recurrent branch: along CN VI, supply territory of marginal tentorial or lateral tentorial arteries C: Anterior medial branch: through superior orbital fissure anastomosis with recurrent meningeal bran of ophthalmic artery D: Artery to foramen rotundem: Supply maxillary division of CN V E: Artery of foramen ovale: anastomoses with accessory meningeal artery Artery of foramen lacerum: anastomosis with carotid branch from ascending pharyngeal artery",
+      "explanation": "答案 C。下外側幹（inferolateral trunk，ILT，即供應下海綿竇之動脈）自海綿竇段（C4）內頸動脈外下發出，其分支與吻合包括：經上眶裂與眼動脈 recurrent meningeal 支吻合（A 對）、經 foramen rotundum 供 CN V2、經 foramen ovale 與 accessory meningeal artery 吻合（D 對），以及可有 recurrent artery of foramen lacerum 與升咽動脈 carotid branch 吻合（B 對）；而 basal／marginal tentorial artery（Bernasconi–Cassinari）一般源自 meningohypophyseal trunk（MHT），並非 ILT 分支，故 C（basal tentorial artery）為「不是」ILT 分支者。→ [[inferolateral-trunk-branches]]",
       "images": [
         "2021-167-1.png"
       ],
@@ -6832,7 +6832,7 @@
       ],
       "correctAnswer": "D",
       "reference": "UpToDate；2021 交換考官方詳解 PDF p124",
-      "explanation": "【2021 官方詳解】\nParkinson disease: Loss of the normal swallow tail appearance of susceptibility signal pattern in the substantia nigra on axial imaging is perhaps the most promising diagnostic sign\nWilson disease:\n- Most common: Abnormal T2 hyperintensity in the putamina\n- T2 signal abnormality predominantly affect the deep gray nuclei.\n- Face of the giant panda sign (Involvement of midbrain tegmentum)\n- Miniature panda sign (Axial T2 MR at pons)\n- On T1-weighted hypointensity\n- *** Patients with severe hepatic dysfunction show areas of T1 hyperintensity, especially in the globus pallidus, similar to that seen in acquired (non-Wilsonian) hepatocerebral degeneration attributed to manganese deposition .\n- Diffusion restriction may be seen early in the course of the disease 7.",
+      "explanation": "答案 D。A：帕金森氏症於軸位 SWI／T2* 見黑質正常「燕尾（swallow tail）」高訊號消失，是極具前景的診斷徵象（對 PD／路易體失智之診斷準確度可達九成以上），敘述正確；B：路易體失智（DLB）之內側顳葉與海馬相對保留、體積正常，可藉此與典型內側顳葉萎縮的阿茲海默症區分，敘述正確；C：威爾森氏症神經型於 T1WI 多呈低訊號，而嚴重肝功能不良者反於 T1WI（尤以蒼白球）呈高訊號，與後天性（非威爾森型）肝腦退化之錳（manganese）沉積表現相似，敘述正確；三段敘述皆正確，故選 D（All of above）。→ [[hepatic-encephalopathy-manganese-deposition]]",
       "images": [],
       "concepts": [
         "hepatic-encephalopathy-manganese-deposition"
@@ -6874,7 +6874,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Imaging Features of Hypertrophic Olivary Degeneration. Journal of the Belgian Society of Radiology. 2016;100(1):71.；2021 交換考官方詳解 PDF p125",
-      "explanation": "【2021 官方詳解】\nHypertrophic olivary degeneration\n- caused by a lesion along the dentate-rubro-olivary pathway, also known as the anatomic triangle of Guillain-Mollaret\n- The classical clinical presentation consists of palatal myoclonus\n- Typically, within a few months, T2 signal increases and lasts for 3-4 years, whereas hypertrophy occurs later (at about one year), and resolves by 3-4 years. There are three stages:\n- T2 hyperintense without olivary swelling\n- T2 hyperintense and olivary swelling occur concomitantly, developing after 6 months and persisting for nearly 3-4 years\n- olivary swelling subsides, but T2 hyperintensity persists\n\n⚠️ 本題含影像（官方詳解 PDF 第 125 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 E。A：肥大性橄欖核退化（HOD）為齒狀核–紅核–橄欖核路徑（即 Guillain–Mollaret 三角）受損後之跨神經元退化，敘述正確；B：此三角由一側之下橄欖核與紅核，加上對側齒狀核組成，與細部隨意動作控制相關，敘述正確；C：典型 MRI 為下橄欖核 T2 高訊號並肥大，隨時間演變為萎縮但殘留 T2 高訊號，敘述正確；D：臨床典型表現為顎肌陣攣（palatal myoclonus），敘述正確；四者皆正確，故選 E（All of above）。→ [[guillain-mollaret-triangle]]",
       "images": [
         "2021-170-1.jpg"
       ],
@@ -6918,7 +6918,7 @@
       ],
       "correctAnswer": "E",
       "reference": "1.Ching-Chung Ko, Hon-Man Liu, Tai-Yuan Chen, Te-Chang Wu, Li-Kai Tsai, Sung-Chun Tang, Yu-Kun Tsui, Jiann-Shing Jeng. Prediction of mTICI 3 recanalization and clinical outcomes in endovascular thrombectomy for acute ischemic stroke: a retrospective study in the Taiwan registry. Neurol Sci. 2021 Jun;42(6):2325-2335.；2021 交換考官方詳解 PDF p126",
-      "explanation": "【2021 官方詳解】\nPretreatment collateral statuses, NIHSS scores, time lapses between symptoms to needle, and the occurrence of hemorrhage at 24 h are all significant predictors for good outcomes with odds ratios of 2.88, 0.91, 0.99, and 0.31 respectively.",
+      "explanation": "答案 E。取栓後良好臨床預後之顯著相關因子包括 A（橋接靜脈溶栓 IV-tPA 使用）、B（CTA 上的側支循環狀態，為缺血核心進展速率的重要決定因子）、C（mTICI 再灌流分級，達 2b–3 之成功再灌流為最關鍵的程序性預後因子）與 D（入院 NIHSS 之基準中風嚴重度）；至於 E 全身麻醉相較清醒鎮靜對功能預後孰優尚無定論（SIESTA、AnStroke、GOLIATH 等隨機試驗多為中性／非劣），並非良好預後之顯著正向預測因子，題目問「不顯著相關」者，故選 E。→ [[intra-arterial-thrombectomy]]",
       "images": [],
       "concepts": [
         "intra-arterial-thrombectomy"
@@ -6960,7 +6960,7 @@
       ],
       "correctAnswer": "E",
       "reference": "1. Joshua Materi, David Mampre, Jeff Ehresman, Jordina Rincon-Torroella, Kaisorn L Chaichana. Predictors of recurrence and high growth rate of residual meningiomas after subtotal resection. J Neurosurg. 2020 Jan 3;1-7. doi: 10.3171/2019.10.JNS192466. Online ahead of print.；10.3171/2019.10.JNS192466.；2021 交換考官方詳解 PDF p127",
-      "explanation": "【2021 官方詳解】\nBy identifying predictors of recurrence and growth rate, this study helps identify potential patients with a high chance of recurrence following subtotal resection, which are those with large preoperative tumor volume, falcine location, tentorial location, and African American race. Higher RVs were associated with tumors with higher postoperative growth rates. Recurrences typically occurred 14 months after surgery.",
+      "explanation": "答案 E。文獻中與腦膜瘤次全切除後復發及生長速率相關之預測因子包括 A（大腦鐮／falx 位置）、B（術前腫瘤體積大）、C（非裔美國人族群）與 D（天幕／tentorial 位置），這些均與較高復發風險相關；而年齡（E, Age）本身並非獨立的復發風險因子，故為「不相關」者，選 E。→ [[meningioma-recurrence]]",
       "images": [],
       "concepts": [
         "meningioma-recurrence"
@@ -6998,7 +6998,7 @@
       ],
       "correctAnswer": "A",
       "reference": "STATdx, Head and Neck, Dural Arteriovenous fistula；2021 交換考官方詳解 PDF p128",
-      "explanation": "【2021 官方詳解】\n- transverse/sigmoid sinus\n  - most common\n  - least likely to have retrograde leptomeningeal venous drainage\n- cavernous sinus (indirect caroticocavernous fistula)\n- superior sagittal sinus\n- straight sinus\n- other venous sinuses\n- anterior cranial fossa\n  - typically only ICA supply due to meningeal supply of this region\n  - frequently associated with retrograde leptomeningeal venous drainage\n- tentorium: frequently associated with retrograde leptomeningeal venous drainage",
+      "explanation": "答案 A。硬腦膜動靜脈瘻管（DAVF）最常見部位為橫竇–乙狀竇（transverse／sigmoid sinus）而非海綿竇，故 A（most common site: cavernous sinus）敘述錯誤（此為常見誤植陷阱）；B：症狀確實隨瘻管部位與分流型態而異，正確；C：皮質引流靜脈擴大代表血流逆流入皮質靜脈系統，屬侵犯性（aggressive）DAVF 之影像標記，正確；D：Cognard 分級依靜脈引流型態分層，與臨床病程侵犯性及顱內出血風險相關，正確；題目問「錯誤」者，故選 A。→ [[dural-avf]]",
       "images": [],
       "concepts": [
         "dural-avf",
@@ -7037,7 +7037,7 @@
       ],
       "correctAnswer": "D",
       "reference": "UpToDate : Femoral artery pseudoaneurysm following  percutaneous intervention；2021 交換考官方詳解 PDF p129",
-      "explanation": "【2021 官方詳解】\nIatrogenic pseudoaneurysm (IPA)\n- <1 percent of all interventional procedures\n- risk factors for IPA include female sex, increasing age, concomitant venous puncture, hypertension, severely calcified vessels, larger access sheath size (>6 French), and use of anticoagulation either at the time of arterial cannulation or in the immediate postprocedure period\n- Treatment:\n  - Complicated pseudoaneurysm (Hemodynamic instability, Neurologic deficit (motor or sensory) or pulse deficit attributable to the IPA, Expanding hematoma, Extensive skin and subcutaneous damage, Concern for soft tissue infection) 🡪 Open surgical repair\n  - Uncomplicated pseudoaneurysm <3cm: obseveration\n  - Uncomplicated pseudoaneurysm >3cm: ultrasound-guided thrombin injection as the first-line technique",
+      "explanation": "答案 D。無併發症且較大（>3cm）之醫源性股動脈假性動脈瘤，首選為超音波導引經皮 thrombin 注射（成功率 >90%），開放手術主要保留給有併發症（血流動力不穩、神經／脈搏缺損、擴大血腫、廣泛皮膚軟組織受損、疑感染）或微創失敗者，故 D「>3cm 者開刀優於 thrombin 注射」之敘述錯誤；A（發生率於介入術大致偏低，診斷性介入約 <1%）大致正確、B（風險因子含肥胖與大口徑鞘 >6 Fr）正確、C（無併發症之小假性動脈瘤可序列超音波觀察）為可接受之保守處置，皆非最錯者；題目問「錯誤」者，故選 D。→ [[iatrogenic-femoral-pseudoaneurysm]]",
       "images": [],
       "concepts": [
         "iatrogenic-femoral-pseudoaneurysm"
@@ -8448,7 +8448,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Governale LS. Craniosynostosis. Pediatr Neurol. 2015;53(5):394-401. doi:10.1016/j.pediatrneurol.2015.07.006；10.1016/j.pediatrneurol.2015.07.006；2021 交換考官方詳解 PDF p169",
-      "explanation": "【2021 官方詳解】\nC🡪 anterior/frontal plagiocephaly\n- brachycephaly: bicoronal and/or bilambdoid sutures\n- scaphocephaly/dolichocephaly: sagittal suture\n- plagiocephaly: unilateral coronal and lambdoid sutures\n  - anterior/frontal plagiocephaly: unilateral coronal suture\n  - posterior/occipital plagiocephaly: unilateral lambdoid suture\n- trigonocephaly: metopic suture\n- pachycephaly: lambdoid suture\n- oxycephaly/turricephaly: sagittal, coronal and lambdoid sutures (tower like skull)\n- cloverleaf skull/Kleeblattschadel: intrauterine sagittal, coronal, lambdoid sutures (most severe)\n- harlequin eye: ipsilateral coronal suture\n- progressive postnatal pansynostosis: rare form of craniosynostosis which involves late (postnatal) fusion of all cranial sutures\n\n⚠️ 本題含影像（官方詳解 PDF 第 169 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。單側（one）冠狀縫早閉造成的是前部／額部斜頭（anterior／frontal plagiocephaly，伴同側 harlequin eye 徵象），而非短頭（brachycephaly）；brachycephaly 需雙側冠狀縫和／或雙側人字縫早閉才會形成，故 C 配對不正確。其餘配對正確：A 矢狀縫早閉→舟狀頭（scaphocephaly）；B 額縫早閉→三角頭（trigonocephaly）；D 單側人字縫早閉→後部斜頭（plagiocephaly）。題目問「不正確」者，故選 C。→ [[craniosynostosis-suture-fusion]]",
       "images": [
         "2021-209-1.jpg",
         "2021-209-2.png"
@@ -8489,7 +8489,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Cherian EV, Shenoy KV, Bukelo MJ, Thomas DA. Racing car brings tear drops in the moose. BMJ Case Rep. 2013;2013:bcr2012008165. Published 2013 Feb 21. doi:10.1136/bcr-2012-008165；10.1136/bcr-2012-008165；2021 交換考官方詳解 PDF p172",
-      "explanation": "【2021 官方詳解】\nVentricles:\nRacing car appearance on axial image (ventricles run parallel)\nColpocephaly: dilatation of trigones and occipital horns 🡪 Moose head, viking helmet appearance\n*** Molar tooth sign: Joubert syndrome\n\n⚠️ 本題含影像（官方詳解 PDF 第 172 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。臼齒徵象（molar tooth sign）為 Joubert 症候群及相關疾病之中腦徵象（上小腦腳拉長似臼齒），與胼胝體發育不全（ACC）無關；A 賽車徵象（racing car sign）、B 麋鹿頭徵象（moose head sign）與 C 枕角擴大（colpocephaly）皆源自 Probst bundles 造成側腦室平行外移／後角不成比例擴大，為 ACC 之典型影像表現。題目問「無關」者，故選 D。→ [[corpus-callosum-agenesis-signs]]",
       "images": [
         "2021-210-1.jpg",
         "2021-210-2.jpg",
@@ -10820,7 +10820,7 @@
       ],
       "correctAnswer": "A",
       "reference": "The diagnosis and treatment of pseudoprogression, radiation necrosis and brain tumor recurrence. Int J Mol Sci. 2014;15 (7): 11832-46.；2021 交換考官方詳解 PDF p235",
-      "explanation": "【2021 官方詳解】\n(A) Pseudoprogression often appears several weeks up to months (i.e., 3+) after radiation treatment.\nThe cause of pseudoprogression is the transient interruption of myelin synthesis secondary to\nradiation injury to oligodendrocytes. Many studies suggest a transient course with spontaneous\nrecovery. In contrast, radiation necrosis may appear months to several years after radiation therapy. Radiation necrosis involves a space occupying necrotic lesion with mass effect and neurological dysfunction.",
+      "explanation": "答案 A。假性進展（pseudoprogression）屬 early-delayed／subacute 期變化，多在放療後數週至約 3 個月內出現（膠質母細胞瘤同步放化療 Stupp protocol 後尤其常見），並非「罕見於 3 個月內」，故 A 敘述錯誤；B：表現為強化病灶增大，正確；C：與局部組織發炎反應（放射對寡突膠細胞髓鞘合成之暫時性損傷）相關，正確；D：常規影像無法可靠區分假性進展與真進展，需輔以灌注／MRS／PET 及時序追蹤，正確。題目問「錯誤」者，故選 A。→ [[radiation-induced-changes]]",
       "images": [],
       "concepts": [
         "radiation-induced-changes"
@@ -10902,7 +10902,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Clinicopathological features of adult-onset neuronal intranuclear inclusion disease. BRAIN 2016: 139; 3170–3186；2021 交換考官方詳解 PDF p237",
-      "explanation": "【2021 官方詳解】\n(C) Head MRI examination detected remarkable leukoencephalopathy and DWI high intensity signal in the corticomedullary junction in the dementia-dominant group. In this study, we found that the DWI high intensity signal extended along the corticomedullary junction, but did not expand into the deep white matter, even in the advanced stage.",
+      "explanation": "答案 C。神經元核內包涵體病（NIID）的招牌 DWI 高訊號沿皮質–髓質交界（corticomedullary junction）呈緞帶狀分布，且不擴及深部腦室旁白質，即使晚期亦然，故 C「深部腦室旁白質 DWI 高訊號」之敘述錯誤；A：可由皮膚切片見嗜酸性核內包涵體診斷，正確；B：為緩慢進展之神經退化病，正確；D：MRI 可見顯著白質腦病（leukoencephalopathy），正確。題目問「錯誤」者，故選 C。→ [[bilateral-subcortical-dwi-hyperintensity-ddx]]",
       "images": [],
       "concepts": [
         "bilateral-subcortical-dwi-hyperintensity-ddx"
@@ -10940,7 +10940,7 @@
       ],
       "correctAnswer": "D",
       "reference": "中；2021 交換考官方詳解 PDF p238",
-      "explanation": "【2021 官方詳解】\n(D) In this CADASIL sample, presence of hypertension was independently associated with CMB presence, and CMB burden was independently associated with ICH. *CMB = cerebral microbleeds",
+      "explanation": "答案 D。CADASIL 是 NOTCH3 基因（第 19 號染色體）突變造成的體染色體顯性小血管病，為最常見的單基因腦小血管病，故 A 正確；其致病基因確為 NOTCH3，B 正確；MRI 典型可見瀰漫白質高訊號與晚期腦萎縮，C 正確；D「MRI 少見腦微出血」與事實相反——在 GRE／SWI 上 CADASIL 的微出血相當常見（約 25–50%，隨年齡增加，最常群聚於視丘與深部灰質），故 D 為錯誤敘述。→ [[lacunar-infarction]]",
       "images": [],
       "concepts": [
         "lacunar-infarction"
@@ -10978,7 +10978,7 @@
       ],
       "correctAnswer": "B",
       "reference": "CADASIL. Lancet Neurol 2009; 8: 643–53；2021 交換考官方詳解 PDF p239",
-      "explanation": "【2021 官方詳解】\n(B) Cerebral autosomal dominant arteriopathy with subcortical infarcts and leucoencephalopathy (CADASIL) is the most common heritable cause of stroke and vascular dementia in adults. Clinical and neuroimaging features resemble those of sporadic small-artery disease, although patients with CADASIL have an earlier age at onset of stroke events, an increased frequency of migraine with aura, and a slightly variable pattern of ischaemic white-matter lesions on brain MRI.",
+      "explanation": "答案 B。CADASIL 屬小血管病，侵犯腦與軟腦膜的穿通小動脈，傳統血管攝影（DSA）正常，不會出現顱內大血管狹窄，故 B（顱內主要血管狹窄）與 CADASIL 最不相關；A 瀰漫白質腦病、C 視丘與皮質下微出血、D 白質內多發陳舊性腔隙皆為 CADASIL 典型影像表現。→ [[lacunar-infarction]]",
       "images": [],
       "concepts": [
         "lacunar-infarction"
@@ -11016,7 +11016,7 @@
       ],
       "correctAnswer": "C",
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引；2021 交換考官方詳解 PDF p240",
-      "explanation": "【2021 官方詳解】\n(C)目前EVT的臨床試驗都只針對18歲以上的成人進行，因此對於年齡小於18歲的中風病人的效果未知。",
+      "explanation": "答案 C。EVT 的臨床試驗僅納入 18 歲以上成人，對未滿 18 歲兒童的療效尚無實證、並非「效果卓越」，故 C 為錯誤敘述；A 正確，rt-PA 對 ICA、MCA 近端或基底動脈等大血栓及動脈硬化斑塊造成的栓塞，再通率僅約二至三成、效果欠佳；B 正確，台灣健保自 2016 年起給付 EVT；D 正確，後循環急性缺血中風之動脈內溶栓或取栓證據力仍較有限。→ [[intra-arterial-thrombectomy]]",
       "images": [],
       "concepts": [
         "intra-arterial-thrombectomy",
@@ -11055,7 +11055,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引；2021 交換考官方詳解 PDF p241",
-      "explanation": "【2021 官方詳解】\n(A) rt-PA藉由分解血栓的方式打通阻塞的血管，如果遇到較大的血栓，如阻塞的位置在中大腦動脈近端、內頸動脈或基底動脈等，或者是非急性形成的血栓，如動脈硬化的斑塊造成的血管栓塞，rt-PA的治療效果欠佳，大約只有二至三成的血管再通率。",
+      "explanation": "答案 A。rt-PA 的溶栓效果會隨血栓大小而不同，遇到 ICA、MCA 近端或基底動脈等大血栓時再通率僅約二至三成、效果欠佳，正是發展機械取栓的理由，故「效用不因血管大小而異、大血栓也很好」的 A 為錯誤敘述；B 正確，符合 EVT 之 Class I 準則（年齡 ≥18、mRS ≤1、NIHSS ≥6、ICA 或 M1 阻塞、ASPECTS ≥6、6 小時內開始介入）；C 正確，M2／M3 阻塞仍可評估取栓；D 正確，無腎功能損傷病史者可在血清肌酸酐結果出來前先行 CTA。→ [[acute-stroke-management]]",
       "images": [],
       "concepts": [
         "acute-stroke-management"
@@ -11093,7 +11093,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2020台灣腦中風學會缺血性腦中風相關之血壓 控制指引；2021 交換考官方詳解 PDF p242",
-      "explanation": "【2021 官方詳解】\n(A)未接受再灌流治療者，除了須緊急降壓的情況之外(例如嚴重的心衰竭、主動脈剝離、高血壓腦症等)，在發生缺血性腦中風24小時內，建議收縮壓超過220 mmHg或舒張壓超過120 mmH時再開始使用降壓藥物。",
+      "explanation": "答案 A。未接受再灌流治療者採允許性高血壓，除嚴重心衰竭、主動脈剝離、高血壓腦症等須緊急降壓的情況外，發病 24 小時內須收縮壓超過 220 mmHg 或舒張壓超過 120 mmHg 才開始降壓，A 誤植為 160／60 之過低門檻，故為錯誤敘述；B 正確，接受靜脈溶栓者注射時血壓控制在 185／110 mmHg 以下；C 正確，EVT 術前未接受靜脈溶栓者控制在 185／110 以下屬合理；D 正確，EVT 術後 24 小時維持 <180／105，若成功再灌流（mTICI 2b–3）可考慮更低的 <140／90。→ [[acute-stroke-management]]",
       "images": [],
       "concepts": [
         "acute-stroke-management"
@@ -11131,7 +11131,7 @@
       ],
       "correctAnswer": "A",
       "reference": "2019台灣腦中風學會急性缺血中風動脈內血栓移除治療指引 2020台灣腦中風學會缺血性腦中風相關之血壓 控制指引；2021 交換考官方詳解 PDF p243",
-      "explanation": "【2021 官方詳解】\n(A) 台灣健保於2016年開始給付EVT，限於NIHSS 8至30分、前循環發病8小時或後循環發病24小時內的急性缺血中風病人。",
+      "explanation": "答案 A。台灣健保自 2016 年起給付 EVT，標準為 NIHSS 8 至 30 分、前循環發病 8 小時內或後循環發病 24 小時內，A 誤寫為「NIHSS 8 至 20 分、前循環 6 小時」，故為錯誤敘述；B 正確，EVT 術後 24 至 48 小時建議安排 CT 或 MRI 追蹤；C 正確，符合 IV rt-PA 標準者須先給予並儘量縮短 DTN 時間；D 正確，腦部小血管疾病是急性腦中風的重要病因。→ [[ia-thrombectomy-stroke-window]]",
       "images": [],
       "concepts": [
         "ia-thrombectomy-stroke-window"
@@ -11169,7 +11169,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Greenberg, S. M., & Charidimou, A. (2018). Diagnosis of cerebral amyloid angiopathy: evolution of the Boston criteria. Stroke, 49(2), 491-497. Pasi, M., Charidimou, A., Boulouis, G., Auriel, E., Ayres, A., Schwab, K. M., ... & Gurol, M. E. (2018). Mixed-location cerebral hemorrhage/microbleeds: underlying microangiopathy and recurrence risk. Neurology, 90(2), e119-e126.；2021 交換考官方詳解 PDF p244",
-      "explanation": "【2021 官方詳解】\n(D) Probable CAA with supporting pathology, Probable CAA, and Possible CAA may show deep microbleeds\n\n⚠️ 本題含影像（官方詳解 PDF 第 244 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。Definite CAA 是病理層級的診斷，需經全面屍檢證實有腦葉／皮質／皮質-皮質下出血、嚴重的腦類澱粉血管病變且無其他可診斷病灶，故 A、B、C 皆為其正確要件；D「常伴多發深部微出血」與 CAA 特性相反——CAA 的出血與微出血侷限於皮質-皮質下（lobar）並保留基底核與腦幹，深部微出血反而是高血壓性微血管病的表現，且 definite CAA 不以微出血為診斷要件，故 D 為錯誤。→ [[cerebral-amyloid-angiopathy]]",
       "concepts": [
         "cerebral-amyloid-angiopathy"
       ],
@@ -11218,7 +11218,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Diagnostic Imaging: Head and neck, I-2-6；2021 交換考官方詳解 PDF p246",
-      "explanation": "【2021 官方詳解】\nOf the syndromes resulting in microtia and EAC atresia, Goldenhar syndrome or hemifacial microsomia is the most common and is also the second most common craniofacial anomaly after cleft lip and palate. There are four major components to Goldenhar syndrome: deformity of the auricle, EAC atresia, malformation of the tympanic cavity, and ossicular abnormalities causing conductive hearing loss. Occasionally, there is also sensorineural hearing loss due to stria vascularis and semicircular canal or cochlear abnormalities as well as hypoplastic or atretic oval window. Pfeiffer syndrome is another cause of EAC stenosis/atresia that results in moderate to severe conductive or mixed hearing loss in patients with cranio-facial abnormalities. In addition to the stenosis and/or atresia of the EAC, there is hypoplasia of the middle ear cavity and occasionally hypoplastic ossicles. Typically, the inner ear anatomy is normal, but middle ear effusions are frequently seen. Therefore, when Pfeiffer syndrome patients receive CT for craniofacial anomalies, examination of the temporal bones should also be performed.",
+      "explanation": "答案 D。先天性外中耳畸形的病變侷限於聲音傳導路徑（外耳道、鼓膜、中耳腔、聽小骨），而內耳與內聽道源自胚胎期較早形成的 otocyst、通常正常（僅 <30% 有內耳異常且多提示症候群），故「內耳與內聽道通常狹窄」的 D 最不可能；A 正確，malleus 與 incus 常見畸形；B 正確，stapes 型態可正常；C 正確，顏面神經鼓室段與乳突段走行常異常（乳突段較正常更向前外側移位），為手術重建的關鍵風險。→ [[congenital-aural-atresia]]",
       "images": [],
       "concepts": [
         "congenital-aural-atresia"
@@ -11256,7 +11256,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging: Head and neck. I-2-25；10.4103/0971-3026.90687；2021 交換考官方詳解 PDF p247",
-      "explanation": "【2021 官方詳解】\nRef: Radiopaedia\nExostosis of the external auditory canal (also known as surfer's ear), is a benign bony overgrowth of the bony external auditory canal brought about by exposure to cold wind and water combined.\n- broad-based or more focal circumferential bony overgrowth of the osseous external auditory canal\n- bilateral\nRef: Indian J Radiol Imaging. 2011 Oct-Dec; 21(4): 274–278. doi: 10.4103/0971-3026.90687\nOsteochondroma (exostosis) is the most common benign tumor found in the EAC.",
+      "explanation": "答案 C。外耳道 exostoses 是冷水反覆刺激造成的反應性骨增生，典型為寬基底（broad-based）、環繞骨性外耳道的增生，故「窄基底」的 C 最不可能——窄基底／有蒂是 osteoma 的特徵；A 正確，exostoses 為外耳道最常見的實質（骨性）腫瘤；B 正確，通常為兩側；D 正確，俗稱 surfer's ear（衝浪者耳），與冷水暴露相關。→ [[eac-exostoses]]",
       "images": [],
       "concepts": [
         "eac-exostoses"
@@ -11294,7 +11294,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging: Head and neck, I-2 70；2021 交換考官方詳解 PDF p248",
-      "explanation": "【2021 官方詳解】\nRef: Radiopaedia\nCholesterol granuloma (CG), also sometimes called a chocolate cyst of the ear or blue domed cyst, is a special type of middle ear granulation tissue which is particularly prone to bleeding and is a frequent cause of a hemotympanum. Cholesterol granulomas represent the most common cystic lesion of the petrous apex.\nRadiographic features\nCT\nTypically, there is an expansile well-marginated lesion with thinned overlying bone. This may be dehiscent when the lesion is large. Faint peripheral enhancement post contrast may be seen.\nAppearance is related to location. When a cholesterol granuloma is located in the petrous apex, it may be more aggressive in appearance, e.g. bony erosions and extension to the carotid canal or cerebellopontine angle. However, when they are located in the middle ear, associated erosion is rare.\nMRI\nT1: overall high signal due to cholesterol component and methemoglobin +/- low signal rim due to hemosiderin rim, and thinned adjacent bone\nT2:\n- central high signal +/- peripheral low signal due to hemosiderin rim\n- thinned adjacent bone\n- does not attenuate on FLAIR\n- fat suppression: remain high signal\nT1 C + (Gd): no central enhancement although faint peripheral enhancement may be difficult to see due to intrinsic high T1 signal of lesion which is not saturated (not an adipose tissue)\nDWI/ADC: no restricted diffusion",
+      "explanation": "答案 C。膽固醇肉芽腫典型不會擴散受限，non-EPI DWI 上呈高訊號／擴散受限者應想 cholesteatoma 或 epidermoid，故「b=1000 non-EPI DWI 高訊號」對膽固醇肉芽腫最不可能，C 為答案；A 正確，為中耳平滑膨脹性腫塊；B 正確，因膽固醇成分與 methemoglobin 而呈 T1 高訊號；D 正確，膽固醇肉芽腫是岩尖最常見的囊性病灶。→ [[cholesterol-granuloma-petrous-apex]]",
       "images": [],
       "concepts": [
         "cholesterol-granuloma-petrous-apex"
@@ -11332,7 +11332,7 @@
       ],
       "correctAnswer": "D",
       "reference": "An Approach to the Diagnosis of Acute Transverse Myelitis. SEMINARS IN NEUROLOGY 2008; 28(1); 105-120；2021 交換考官方詳解 PDF p249",
-      "explanation": "【2021 官方詳解】\nInflammatory transverse myelitis (CSF inflammation with usual pleocytosis and occasionally elevated IgG\nindex/OCBs) in the absence of a specific cause (such as MS, NMO, ADEM, connective tissue disease, etc.) is\nthe most common cause of acute myelitis. However, the idiopathic nature is a diagnosis of exclusion.\nWhen identified at the first attack, NMOIgG also predicts future episodes of myelitis or optic neuritis. In a prospective study, the risk of developing recurrent myelitis or new onset optic neuritis in patients with an isolated longitudinally extensive transverse myelitis was more than 50% among those who were NMO-IgG seropositive, compared with 0% in those who were NMO-IgG seronegative. Brain MRI can be abnormal in NMO. Typically, lesions are periventricular, especially in regions of high concentration of aquaporin-4, the target antigen for the NMO-IgG. (D) 應改為Long extensive transverse myelitis (LETM) pattern on T2W MRI is pathogomonic NMO ???",
+      "explanation": "答案 D。長節段橫貫性脊髓炎（LETM ≥3 椎節）並非特發性急性橫貫性脊髓炎的特徵性（pathognomonic）表現，反而高度提示 NMOSD（抗 AQP4 星狀細胞病），故 D 為錯誤敘述；A 大致正確，發炎性（特發性）橫貫性脊髓炎是急性脊髓炎最常見的成因；B 正確，特發性 ATM 屬排除性診斷；C 正確，常見 CSF 發炎、可有 pleocytosis 及偶爾 IgG 上升。→ [[neuromyelitis-optica]]",
       "images": [],
       "concepts": [
         "neuromyelitis-optica"
@@ -11370,7 +11370,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Intracranial Vessel Wall MRI: Principles and Expert Consensus Recommendations of the American Society of Neuroradiology. AJNR Am J Neuroradiol; 2017;38:218–29；2021 交換考官方詳解 PDF p250",
-      "explanation": "【2021 官方詳解】\n(A)(C)(D)如下圖 (B) Slow flow and Vasa Vasorum of major extracranial arteries may mimic vessel wall thickening, wall enhancement, and vasculitis. Most VW-MR imaging techniques rely on blood flow to achieve blood-signal suppression. Blood flow is often laminar, with lower velocity closer to the vessel wall. Incomplete signal suppression in the periphery of the lumen can mimic vessel wall thickening and/or wall enhancement. Factors predisposing to these artifacts include recirculating or slow flow within an aneurysm, low velocity flow in a dilated artery, and retrograde filling of a branch artery via leptomeningeal collaterals when there is proximal arterial occlusion.\nThe walls of major extracranial arteries receive blood supply through the vasa vasorum, a network of small vessels within the outer aspect of the vessel wall itself. Intracranial vessels in children lack a vasa vasorum. However, with increasing age and with atherosclerotic risk factors, extracranial vasa vasorum can extend into the proximal intracranial segments of the internal carotid and vertebral arteries. In patients with a variety of intracranial arterial diseases, a vasa vasorum can also develop distant from the extracranial vasa vasorum, with supply from nearby intracranial arteries. Vasa vasorum can cause concentric arterial wall thickening and enhancement, which mimic vasculitis.\n\n⚠️ 本題含影像（官方詳解 PDF 第 250 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 B。血管壁影像（VW-MRI）的臨床價值在於「慢性」血管病變的鑑別與評估，而非急性大血管阻塞（LVO）的病因判定或血管內取栓策略擬定，故 B 有錯。（A）對慢性動脈狹窄成因的鑑別有幫助：動脈粥狀硬化呈偏心性管壁增厚、不均勻強化，血管炎呈同心圓管壁增厚、均勻強化，剝離見 T1 壁內血腫／T2 內膜瓣，RCVS 則管壁幾乎不強化，可依強化型態區分，正確。（C）可評估斑塊活性與是否易破裂（如強化代表活性斑塊、T1 高訊號代表斑塊內出血），對併發症風險判讀有幫助，正確。（D）能偵測管腔造影正常但管壁確有病灶的非狹窄性病變（如症狀性非狹窄斑塊），正確。→ [[mri-vessel-wall-imaging]]",
       "concepts": [
         "mri-vessel-wall-imaging"
       ],
@@ -11542,7 +11542,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Osborn's Brain: Imaging, Pathology, and Anatomy, 2nd ed., p. 115；2021 交換考官方詳解 PDF p257",
-      "explanation": "【2021 官方詳解】\nspontaneous intraparenchymal hemorrhage in older adult:\n- common:\n  - HTN\n  - Amyloid angiopathy\n  - Neoplasm (primary or metastatic)\n- less common:\n  - dural sinus or cortical vein occlusion\n  - coagulopathy\n- rare but important\n  - vascular malformation (usually dAVF)",
+      "explanation": "答案 D。老年人自發性腦實質內出血（IPH）的常見病因為高血壓（好發深部：基底核／視丘／橋腦／小腦）、腦類澱粉血管病變（cerebral amyloid angiopathy，好發腦葉／皮質－皮質下）與腫瘤（原發或轉移性出血），故（A）（B）（C）皆為常見病因。（D）腦動脈瘤破裂主要造成的是蛛網膜下腔出血（SAH），並非典型的腦實質內出血，因此不屬常見病因，為本題答案。（其他較少見者尚有硬膜靜脈竇／皮質靜脈栓塞、凝血病變，罕見但重要者如硬腦膜動靜脈廔管等血管畸形。）→ [[hypertensive-hemorrhage]]",
       "images": [],
       "concepts": [
         "hypertensive-hemorrhage",
@@ -11581,7 +11581,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Dahnert Radiology Review Manual 7th ed., pp. 295-296；2021 交換考官方詳解 PDF p258",
-      "explanation": "【2021 官方詳解】\n- adulthood (>80%): 20-50 y/o, average of 33, M > F\nchildhood (<20%): in von Hippel-Lindau disease (10-20%), girls",
+      "explanation": "答案 A。血管母細胞瘤（hemangioblastoma）超過 80% 發生於成人，好發第 3–5 個十年（約 20–50 歲、中位約 33 歲，男略多於女），兒童發生率不到 20%，因此（A）「兒童比成人常見」為錯誤敘述，即本題答案。（B）約四分之一與 von Hippel-Lindau（VHL）疾病相關，兒童病例更常見於 VHL，正確。（C）為富血管腫瘤，血管攝影典型呈明顯腫瘤染色、可見供養血管與 flow void，正確。因（A）為假，故（D）「以上皆非」不成立。→ [[hemangioblastoma]]",
       "images": [],
       "concepts": [
         "hemangioblastoma"
@@ -12613,7 +12613,7 @@
       ],
       "correctAnswer": "A",
       "reference": "書名：Osborn A. Diagnostic Imaging, Brain. Amirsys 2004 頁次：p. I:8 30-31；2021 交換考官方詳解 PDF p286",
-      "explanation": "【2021 官方詳解】\n(B) epidural empyema (EDE) DWI variable signal\nsubdural empyema (SDE) DWI typically restricted diffusion\n(C) subdural empyema much more common\n(D) Infants & young children: complication of bacterial meningitis\nolder children &adult: related to paranasal sinus disease (>2/3)",
+      "explanation": "答案 A。硬膜下積膿（subdural empyema）在影像上呈新月形硬膜下積液，其外形與慢性硬膜下血腫可完全相同，需靠邊緣強化、DWI 與臨床病史區分，故（A）正確、為本題答案。（B）錯——積膿的膿液典型呈擴散受限（DWI 高訊號、ADC 低），且比硬膜外積膿更常見到受限，並非罕見。（C）錯——硬膜下積膿其實比硬膜外積膿／膿瘍更常見。（D）錯——成人與較大兒童多續發自副鼻竇疾病（以額竇炎為主，超過三分之二），與細菌性腦膜炎相關者主要是嬰幼兒。→ [[subdural-empyema]]",
       "images": [],
       "concepts": [
         "subdural-empyema"
@@ -12651,7 +12651,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Baik SH, Park HJ, Kim JH, Jang CK, Kim BM, Kim DJ. Mechanical Thrombectomy in Subtypes of Basilar Artery Occlusion: Relationship to Recanalization Rate and Clinical Outcome. Radiology. 2019;291(3):730‐737；2021 交換考官方詳解 PDF p289",
-      "explanation": "【2021 官方詳解】\nmRS score = Modified Rankin scale classified as favorable (modified Rankin scale score, 0–2) or poor (modified Rankin scale score, 3–6).\n\n⚠️ 本題含影像（官方詳解 PDF 第 289 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。依 Baik 等（Radiology 2019）依中風機轉將急性基底動脈阻塞取栓分三組，其中「栓塞且無椎動脈狹窄阻塞（embolism without VA steno-occlusion）」組的成功再通率與臨床預後最佳（成功再通約 85%、90 天 mRS 0–2 良好結局約 53%），故（A）為本題答案。（B）合併 tandem 椎動脈狹窄阻塞之栓塞、（C）原位動脈粥樣硬化血栓（再通率較低約 55%、良好結局約 20%，且常需血管成形／支架處理殘餘狹窄）預後均較差。既然三組預後有別，（D）「以上皆是」不成立。（良好結局定義 mRS 0–2、不良 3–6。）→ [[basilar-artery-occlusion]]",
       "concepts": [
         "basilar-artery-occlusion"
       ],
@@ -12978,7 +12978,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2014; 34:1047–1061  (1048-1049 頁)；2021 交換考官方詳解 PDF p299",
-      "explanation": "【2021 官方詳解】\nHypoxic-Ischemic Injury in Term Neonates\nPeripheral pattern:\n- mild hypoxia or ischemia of prolonged duration\n- predominant in cerebral cortex and subcortical white matter along the inter-vascular boundary zones.\nBasal ganglia–thalamus pattern\n- secondary to more severe hypoxic or ischemic event of short duration\n- abnormal hyperintensity on T1WI and hypointensity on T2WI in posterolateral putamen and ventrolateral\nthalamus.\n- Associated loss of normal hyperintensity on T1WI and hypointensity on T2WI in the posterior\nlimb of the internal capsule\n\n⚠️ 本題含影像（官方詳解 PDF 第 299 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。（題幹應更正為 T2 hypointensity。）健康足月新生兒因早期髓鞘化，T2WI 上有幾處深部結構「總是或幾乎總是」呈相對低訊號，這是判讀 HIE 時的正常基準：內囊後肢（PLIC）與腹外側視丘總是呈低訊號、far lateral（後外側）putamen 幾乎總是呈曲線狀低訊號，故（A）（B）（C）皆為正常 T2 低訊號部位。（D）內側蒼白球（medial globus pallidus）於足月時尚未髓鞘化、訊號相對較高，並非 T2 低訊號，為本題答案（EXCEPT）；反之 medial globus pallidus 屬 T1 相對高訊號的區域。",
       "images": [
         "2021-319-2.png",
         "2021-319-3.png"
@@ -14840,7 +14840,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2021; 41:156–174；2021 交換考官方詳解 PDF p384",
-      "explanation": "【2021 官方詳解】\nC. high signal intensity at T2-weighted MRI (edema)\n\n⚠️ 本題含影像（官方詳解 PDF 第 384 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。顱底骨髓炎的發炎／水腫在 MRI 上應為 T2WI（或 STIR）高訊號，在 T1WI 上因正常脂肪骨髓被發炎組織取代反而呈低訊號；選項 C 誤把水腫寫成「T1WI 高訊號」，故 C 錯誤、為本題答案。（A）可續發自未妥善治療的牙源性或鼻竇感染（經 Haversian 系統擴散），正確。（B）致病菌以 Pseudomonas aeruginosa 最常見、其次為 Staphylococcus aureus，正確。（D）因影像與惡性腫瘤高度重疊，鑑別診斷須納入鼻咽癌（NPC）與脊索瘤（chordoma），常需反覆切片排除惡性，正確。→ [[skull-base-osteomyelitis]]",
       "concepts": [
         "skull-base-osteomyelitis"
       ],
@@ -14889,7 +14889,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Radiographics. 2020 Oct;40(6):1686-1714.；2021 交換考官方詳解 PDF p385",
-      "explanation": "【2021 官方詳解】\nC.\nDiagnosis of root avulsion hinges on findings of spinal nerve discontinuity near the rootlet-cord interface or the presence of a pseudomeningocele, implying meningeal rupture.\nCT myelography performed 3–4 weeks after injury is recommended, as this allows any potential\nhemorrhagic material at the site of injury that might displace the contrast material to disappear.\nPseudomeningoceles, which are strongly associated with root avulsion, may take 3–4\nweeks to develop after injury as well.\nMRI should be performed 3–4 weeks after injury for similar reasons and to allow improvement in adjacent\nsoft-tissue edema.",
+      "explanation": "答案 C。評估創傷性臂神經叢損傷之根撕脫／假性腦膜膨出（pseudomeningocele）的 CT myelography 或 MRI，建議延至受傷後 3–4 週執行，而非傷後 48 小時內，故 C 錯誤、為本題答案；理由是假性腦膜膨出常需 3–4 週才形成，且須待損傷處出血物質消退（以免位移對比劑）與鄰近軟組織水腫改善。（A）臂神經叢由 roots、trunks、divisions、cords、branches 五個層次組成，正確。（B）傳統上源自 C5–T1 腹支，但確有變異（如 prefixed 多 C4、postfixed 多 T2 參與），正確。（D）乳癌或肺尖癌之放射治療可為放射後臂神經叢病變（postirradiation brachial plexopathy）的原因之一，正確。→ [[brachial-plexus-anatomy]]",
       "images": [],
       "concepts": [
         "brachial-plexus-anatomy"
@@ -14927,7 +14927,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Osborn’s Brain 2nd edition, p1149-1151 Brain 2017: 140; 344-352；2021 交換考官方詳解 PDF p387",
-      "explanation": "【2021 官方詳解】\nIntracranial hypotension, also known as craniospinal hypotension is defined as cerebrospinal fluid (CSF) pressure <6 cm H2O in patients with clinical presentation compatible with intracranial hypotension\nMRI quantitative signs\nmamillopontine distance <5.5 mm\npontomesencephalic angle <50 ̊\ninterpeduncular angle <40.5°",
+      "explanation": "答案 B。自發性顱內低壓（SIH）因腦幹下沉（sagging brain），中腦－橋腦夾角（pontomesencephalic angle）會「縮小」（<50° 提示顱內低壓）而非增大，故 B 敘述「夾角增大」為錯誤、為本題答案。（A）瀰漫性硬腦膜（pachymeningeal）平滑均勻強化為 SIH 常見表現，正確。（C）夾角縮小被認為可預測硬膜外血液貼片（blood patch）治療反應不佳；⚠️ 存疑：選項 C 的預後宣稱僅溯及 Brain 2017、Tier-1（AJR2013/AJNR2020）無法證實此因果，宜視為待覆核之較弱論述。（D）依 ICHD-3，SIH 診斷需有低 CSF 壓力測量值及／或影像上（CT／MR myelography）CSF 滲漏證據，正確。→ [[spontaneous-intracranial-hypotension]]",
       "images": [],
       "concepts": [
         "spontaneous-intracranial-hypotension"
@@ -14965,7 +14965,7 @@
       ],
       "correctAnswer": "C",
       "reference": "RadioGraphics 2018; 38:169–193；2021 交換考官方詳解 PDF p388",
-      "explanation": "【2021 官方詳解】\nC:\nMOG-IgG–positive NMOSD patients usually have younger age of onset than AQP4-IgG–positive patients and tend to have monophasic course with a favorable outcome\n\n⚠️ 本題含影像（官方詳解 PDF 第 388 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。本題採官方判定：官方詳解認為 MOG-IgG 陽性 NMOSD 的病程應為「單相（monophasic）」而非「復發（relapsing）」，故將選項 C 判為錯誤、為本題答案。（A）NMO 為以 aquaporin-4（AQP4）水通道為主要標的抗原之自體免疫脫髓鞘疾病，正確。（B）兒童發病之 NMOSD 在失能預後上通常較成人為佳，正確。（D）MOG-IgG 陽性者之視神經炎常為雙側且偏前段（視神經頭／眶內段）侵犯，正確；MOG 相較 AQP4 確實發病較年輕、整體預後較良好亦屬實。⚠️ 存疑：此鑑別點偏軟且文獻分歧——MOGAD 相當比例會復發（兒童約 1/3、成人系列可達 40–50%），「typically monophasic」並非定論，官方把「relapsing」定為唯一錯點宜保留質疑，判讀時對照原檔。",
       "concepts": [
         "neuromyelitis-optica"
       ],
