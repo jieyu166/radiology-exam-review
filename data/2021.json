@@ -36,7 +36,7 @@
       ],
       "correctAnswer": "E",
       "reference": "Digital Breast Tomosynthesis: Concepts and Clinical Practice. Radiology 2019; 292:1–14；2021 交換考官方詳解 PDF p84",
-      "explanation": "【2021 官方詳解】\nLarger angle range = better resolution.\nDBT screening increases detection of invasive cancers rather than DCIS.\nDBT lower recall rate for asymmetries and focal symmetries.\nDBT higher recall rate for masses and distorsions.",
+      "explanation": "答案 E。A 至 D 皆為正確敘述，故選「以上皆非（即沒有錯誤者）」。(A) X 光管擺動的弧角範圍越大，取得的斷層資訊越多，z 軸（深度向）的切層分離與解析越好；(B) DBT 篩檢多增加的偵測以侵犯性癌為主（尤其侵犯性小葉癌），而非原位癌（DCIS）；(C) DBT 薄層可去除組織重疊，降低不對稱與局部不對稱的召回率；(D) 個別鈣化的解析可能因鈣化的光學密度、DBT 擷取方式，以及較長擷取時間內的移動而受影響。四項均無誤，答案為 E。→ [[breast-tomosynthesis]]",
       "images": [],
       "concepts": [
         "breast-tomosynthesis"
@@ -74,7 +74,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Diagnostic Imaging: Breast E-Book P4；2021 交換考官方詳解 PDF p86",
-      "explanation": "Echo pattern跟fat做比對。Mammo是跟gland比對，要寫equal density\n\n【2021 官方詳解】\nB. Subcutaneous fat, the tissue relative to which echogenicity is compared, is medium gray and darker than fibroglandular tissue, which is light gray.",
+      "explanation": "答案 B。乳房超音波的回音性是以「皮下脂肪」為參考基準，而非纖維腺體組織；脂肪呈中灰、較淺灰的纖維腺體為暗，腺體相對脂肪呈中度高回音，故 B 稱「以纖維腺體為基準」為不正確敘述。其餘為正確：(A) 正常的薄高回音皮膚線厚度一般小於 2 mm；(C) 前懸韌帶（Cooper 韌帶）通常可見於皮下區；(D) 小葉間基質與腺體成分多呈高回音。→ [[breast-tissue-echogenicity]]",
       "images": [],
       "concepts": [
         "breast-tissue-echogenicity",
@@ -117,7 +117,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Radiographics 2020; 40:326-335.；2021 交換考官方詳解 PDF p165",
-      "explanation": "Mammographic lesions that most often appear as nonmass findings on US images include calcifications, a focal or developing asymmetry, and architectural distortion.\n[[2020 RG Nonmass Findings at Breast US - Definition, Classifications, and Differential Diagnosis.pdf]]\n\n\n## Adenopathy, lymph node\n\n【2021 官方詳解】\nMammographic lesions that most often appear as nonmass findings on US images include calcifications, a focal or developing asymmetry, and architectural distortion.",
+      "explanation": "答案 D。超音波上呈「非腫塊（non-mass）」表現的病灶，最常對應的乳攝所見為鈣化、局部或發展性不對稱，以及結構扭曲；毛刺狀腫塊（spiculated mass）本身即為「腫塊（mass）」表現，具三維佔位與外凸邊界，最不可能以 non-mass 呈現，故 D 為最不可能的選項。其餘 (A) 群集／節段性微鈣化、(B) 局部不對稱、(C) 發展性不對稱、(E) 結構扭曲，因缺乏腫塊的外凸邊界或明確佔位，較常在超音波上呈 non-mass 表現。→ [[breast-asymmetry]]",
       "images": [],
       "concepts": [
         "breast-asymmetry"
@@ -155,7 +155,7 @@
       ],
       "correctAnswer": "C",
       "reference": "ACR BI-RADS Atlas® 5th Edition, Frequently asked question section；2021 交換考官方詳解 PDF p85",
-      "explanation": "【2021 官方詳解】\nC. Bilateral axillary adenopathy would be assessed as benign (BI-RADS® category 2) in some situations and as suspicious (BI-RADS® category 4) in others.\n- Bilateral axillary adenopathy is frequently reactive/infectious in origin, such as with inflammatory conditions (sarcoidosis, systemic lupus erythematosis, psoriasis, etc.) and HIV. => Bi-RADS 2\n- If there is no known explanation for bilateral adenopathy, and particularly if it is new, then it may be a sign of lymphoma/leukemia, and a suspicious (BI-RADS® category 4) assessment is warranted, with a recommendation for US-guided FNA or core biopsy.",
+      "explanation": "答案 C。雙側腋下淋巴腫大的分類須視臨床情境而定，並非一律給良性（BI-RADS 2）：若有已知的反應性／感染性病因（如結節病、系統性紅斑狼瘡、乾癬、HIV）才評為 BI-RADS 2，但若無已知原因、尤其為新出現者，可能是淋巴瘤／白血病的表現，應給可疑（BI-RADS 4）並建議超音波導引 FNA 或粗針切片，故 C 稱「一律評為良性」為錯誤（false）敘述。其餘正確：(A) 可做雙側腋下超音波確認為不對稱／單側；(B) 在無已知感染或發炎病因下，孤立單側腋下淋巴腫大應給可疑（BI-RADS 4）；(D) 單側腋下淋巴腫大提示隱匿性乳癌，較少為淋巴瘤、轉移性黑色素瘤、卵巢癌或其他轉移癌，故須仔細檢查同側乳房影像。→ [[axillary-adenopathy-mammography]]",
       "images": [],
       "concepts": [
         "axillary-adenopathy-mammography"
@@ -193,7 +193,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Diagnostic Imaging: Breast E-Book P219；2021 交換考官方詳解 PDF p87",
-      "explanation": "要biopsy就是4以上\n- B. Screening  Echo 做完可直接下 BIRADS 3 診斷，但 Screening  Mammo 不行。原因是如果Echo 有看到東西 ，通常在同一次就會做Mammo. (BIRADS 敘述的邏輯)\n- D. Screening mammography不可直接下BIRADS 3，需診斷mammo才行(小陳主任, after workup)\n\n【2021 官方詳解】\nC. An increase of 20% or more in the longest dimension of a probably benign solid mass within 6 months may prompt biopsy.\nScreening Echo 做完可以直接下 BiRADS 3 診斷, 但 Screening Mammo 不行. 原因是如果Echo有看到東西，通常在同一次就會做Mammo. (BiRADS 敘述的邏輯)\nACR BI-RADS Atlas Reporting System for Breast Ultrasound",
+      "explanation": "答案 C。可能良性（BI-RADS 3）的邊界清晰實質腫塊，若在 6 個月短期追蹤內最長徑增加達 20% 以上（或出現其他可疑特徵）即應改為切片，C 誤植為「≥30%」，故為不正確敘述（切片門檻的成長幅度是 20%，非 30%）。其餘正確：(A) BI-RADS 3 定義為惡性風險 ≤2% 的特定病灶類型；(B) 超音波篩檢見典型可能良性病灶可直接下 BI-RADS 3（乳房攝影篩檢則須先完成診斷性 work-up）；(D) 特定病灶於基線乳房攝影完成 work-up 後可歸為 category 3。→ [[bi-rads-categories]]",
       "images": [],
       "concepts": [
         "bi-rads-categories"
@@ -231,7 +231,7 @@
       ],
       "correctAnswer": "C",
       "reference": "ACR BI-RADS® atlas, 2013, Mammography page149,175; MRI page 141.；2021 交換考官方詳解 PDF p348",
-      "explanation": "10-49%\n\n【2021 官方詳解】\nA.\nWhen there are multiple findings, the BI-RADS category for the exam is assigned the highest category in the following hierarchy, from lowest to highest: 1, 2, 3, 6, 0, 4, 5.\nThe vast majority of screening mammograms fall into BI-RADS 1 or 2\nScreening mammograms with suspicious findings should generally be assigned BI-RADS 0\n=> indicate a callback for diagnostic evaluation, meaning additional views to confirm and further evaluate the finding.\nC.\nBI-RADS 4A: low suspicion for malignancy (2-9%)\nBI-RADS 4B: moderate suspicion for malignancy (10-49%)\nBI-RADS 4C: high suspicion for malignancy (50-94%)",
+      "explanation": "答案 C。BI-RADS 4B 代表中度惡性可能，惡性率區間為 10–49%，C 誤述為「>25% 但 ≤50%」，故為錯誤選項。其餘正確：(A) 多發病灶時取最高類別，嚴重度由低到高的階層為 1、2、3、6、0、4、5；(B) 4A 為低度惡性可能，區間 2–9%（即 >2% 但 ≤10%）；(D) 至 2013 版為止，乳房 MRI 的 category 4 並未建議一定要再細分為 4A／4B／4C。（補充：4C 為 50–94%。）→ [[bi-rads-categories]]",
       "images": [],
       "concepts": [
         "bi-rads-categories"
@@ -269,7 +269,7 @@
       ],
       "correctAnswer": "B",
       "reference": "BRCA-associated Cancers: Role of Imaging in Screening, Diagnosis, and Management; RadioGraphics 2017; 37:1005–1023；2021 交換考官方詳解 PDF p3",
-      "explanation": "第~~14~~13對染色體 只能記憶\nCD. 不同資料數據不同，基本上沒錯。 RadioGraphics 2017; 37:1005–1023的數據：BRCA1：55-65% ；BRCA2：45%\n\n【2021 官方詳解】\n- BRCA2 is tumor suppressor genes located on chromosomes 13\nBRCA1 and BRCA2 are large tumor suppressor genes located on chromosomes 17 and 13, respectively.\nWomen with a BRCA mutation have a substantially greater risk of developing breast cancer compared with the general population, which has an average lifetime risk of 12.3%. According to recent estimates, 55%–65% of female BRCA1 mutation carriers and approximately 45% of female BRCA2 mutation carriers will develop breast cancer by age 70 years",
+      "explanation": "答案 B。BRCA2 位於第 13 對染色體，而非第 14 對，故 B 為不正確敘述（記憶口訣：BRCA1→17、BRCA2→13）。其餘正確：(A) BRCA1 為位於第 17 對染色體的大型腫瘤抑制基因；(C) BRCA1 帶原者至 70 歲的終生乳癌風險約 55–65%；(D) BRCA2 帶原者約 45%；相較之下一般族群平均終生風險約 12.3%。→ [[breast-cancer-genetics]]",
       "images": [],
       "concepts": [
         "breast-cancer-genetics"
@@ -307,7 +307,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Breast MRI: State of the Art. Radiology 2019; 292:520–536；2021 交換考官方詳解 PDF p83",
-      "explanation": "幾乎沒有遇過US 比 MRI 好的情況. Tissue contrast 差太多\n[[2019 R Breast MRI State of the Art.pdf]]\n- A. Indication 沒錯\n- B. 沒錯，主要打contrast看血管。現在還會再看T2WI, DWI\n- C. Lobular carcinoma: MRI 能看得比mammo/US清楚，評估tumor size也更準，減少re-excision rate。故眾多guideline indication都有lobular carcinoma (原文Table 2)\n- D. MRI 看tumor sensitivity是最高的。但以microcalcification呈現的DCIS要用mammo看，MRI沒有比較好。\n\t- 看invasive cancer旁邊的DCIS，MRI比其他工具好。\n\t- MRI看 large DCIS ，Sensitivity approaches 100%.\n\t- MRI看 DCIS，特別是 high-grade 效果也是很好 (原文Fig 4)，但以microcalcification呈現的DCIS可能會看不到，看microcalcification還是mammography比較強\n\n【2021 官方詳解】\nC. 幾乎沒有遇過US 比 MRI 好的情況. Tissue contrast 差太多\nThe benefit of using MRI to assess tumor size is particularly strong for invasive lobular carcinomas. Likewise, the depiction of DCIS components related to invasive cancers is much better than that with mammography, the latter missing more than half of all lesions, whereas the sensitivity for large DCIS components with MRI approaches 100%. Breast MRI is also more accurate in the depiction of pure DCIS lesions, particularly high-grade lesions; however, small DCIS lesions detected because of calcifications at mammography may be occult at MRI.",
+      "explanation": "答案 C。恰好相反：MRI 是評估浸潤性小葉癌範圍最準確的模態（敏感度 >95%，多以線狀／節段的 non-mass enhancement 呈現），對真實範圍、多發與雙側的評估都優於乳房攝影與超音波，並可降低再切除率；超音波反而常低估 ILC 範圍（約 18–53%），故 C 稱「MRI 不如超音波準確」為錯誤敘述。其餘正確：(A) 乳房 MRI 主要適應症為已知癌症分期、高風險族群篩檢與新輔助化療反應評估；(B) 病灶偵測主要依賴打顯影劑後的影像；(D) MRI 對侵犯癌旁 DCIS 成分的顯示優於乳房攝影。→ [[invasive-lobular-carcinoma]]",
       "images": [],
       "concepts": [
         "invasive-lobular-carcinoma",
@@ -2596,7 +2596,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Sheth S, Fishman EK. Multi-detector row CT of the kidneys and urinary tract: techniques and applications in the diagnosis of benign diseases. Radiographics. 24 (2): e20.；2021 交換考官方詳解 PDF p304",
-      "explanation": "【2021 官方詳解】\nEmbryologically, duplication occurs when two separate ureteric buds arise from a single Wolffian duct (mesonephric duct).",
+      "explanation": "答案 A。本題問 Weigert-Meyer 法則的敘述何者「為非」。A 錯在胚胎來源：集尿系統重複的正確機轉是單一 Wolffian duct（中腎管／mesonephric duct）長出兩個 ureteric bud，各自引流上、下極；A 卻寫成「單一 Müllerian duct」，然而 mesonephric duct 即 Wolffian duct，並非 Müllerian duct（後者為苗勒氏管、發育為女性生殖道），故敘述錯誤。B 正確：上極輸尿管開口偏內下、屬異位（ectopic），常終止於 ureterocele。C 正確：下極輸尿管開口偏外上、屬正位（orthotopic），因膀胱壁內段短而易發生 VUR。D 正確：異位開口常合併 ureterocele，並阻塞其自身引流的（上極）集尿系統。\n→ [[ureteral-duplication]]",
       "images": [],
       "concepts": [
         "ureteral-duplication"
@@ -2634,7 +2634,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Fernback, SK et al. Pediatric Voiding Cystourethrography: A Pictorial Guide. Radiographics 2000;20(1):155-168.；2021 交換考官方詳解 PDF p282",
-      "explanation": "- All grades of reflux can be outgrown變大，變嚴重, but the process is seen more frequently and takes less time in patients with low-grade reflux.\n- Renal scarring is more likely to occur in patients with high-grade vesicoureteral reflux.\n- Children with grade V reflux are usually treated surgically; infants are excepted because grade V reflux has been shown to diminish and disappear in this patient population.\n\n\nAnomalies of the Distal Ureter, Bladder, and Urethra in Children: Embryologic, Radiologic, and Pathologic Features [^1]\n\n【2021 官方詳解】\n(D) All grades of reflux can be outgrown, but the process is seen more frequently and takes less time in patients with low-grade reflux. Children with grade V reflux are usually treated surgically; infants are excepted because grade V reflux has been shown to diminish and disappear in this patient population.",
+      "explanation": "答案 D。本題問何者敘述「錯誤」。D 過於絕對而錯：各級 VUR 皆可能自行緩解（outgrown），只是低級別緩解更頻繁、所需時間更短；即使 grade V 也非「一律需手術」——嬰兒的 grade V 已被證實可自行縮小、消退，故不能說「除 grade V 外皆可 outgrown、grade V 一律開刀」。A 正確：男嬰在導管推進時最常於外括約肌處遇到阻力。B 正確：ureterocele 或膀胱腫瘤僅在早期充盈時可見，對比劑充填增多後易被遮蔽。C 正確：若未涵蓋排尿期影像，約 20% 的逆流會被漏診。\n→ [[vesicoureteral-reflux-grading]]",
       "images": [],
       "concepts": [
         "vesicoureteral-reflux-grading"
@@ -2672,7 +2672,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Bacino, CA. (2021, JAN25). Birth defects: Epidemiology, types, and patterns. UpToDate.；2021 交換考官方詳解 PDF p281",
-      "explanation": "Vertebra\n\n⚠️ 本題含影像（官方詳解 PDF 第 281 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 C。本題問關於 VACTERL association 何者「錯誤」。C 錯：VACTERL 的「V」代表 Vertebral（椎體異常），而非 ventricular septal defect（心臟異常另由字母 C＝Cardiac 涵蓋）。A 正確：VACTERL 定義為三項以上、彼此無共同致病機轉的先天異常之非隨機聚集，病因未明。B 正確：一旦發現其中一項異常，臨床上應系統性搜尋其他相關畸形。D 正確：VACTERL 本身不包含顱骨／中樞神經系統異常。\n→ [[esophageal-atresia]]",
       "concepts": [
         "esophageal-atresia"
       ],
@@ -3641,7 +3641,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Fetal Hepatomegaly: Causes and Associations; RadioGraphics 2020; 40:589–604；2021 交換考官方詳解 PDF p8",
-      "explanation": "【2021 官方詳解】\nFocal nodular hyperplasia : Hypoechoic lesion without vascularity at Doppler US\n\n⚠️ 本題含影像（官方詳解 PDF 第 8 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 A。本題問胎兒肝腫瘤影像描述何者「不恰當」。A 錯在回音特性：胎兒 focal nodular hyperplasia 應為 hypoechoic（低回音）病灶、都卜勒無明顯血流，而非題目所寫的 hyper-echoic。B 正確：hemangioma 為低回音囊性病灶、可含點狀鈣化、都卜勒可見血流。C 正確：hemangioendothelioma 表現為擴張的肝內血管，母體血清 α-fetoprotein 可升高。D 正確：mesenchymal hamartoma 典型為大型多房囊性腫塊。\n→ [[pediatric-liver-tumors]]",
       "images": [
         "2021-089-1.png"
       ],
@@ -3681,7 +3681,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Fetal Hepatomegaly: Causes and Associations; RadioGraphics 2020; 40:589–604；2021 交換考官方詳解 PDF p9",
-      "explanation": "【2021 官方詳解】\nMetastatic neuroblastoma : Heterogenous hyperechoic nodule with/without vascularity.\n\n⚠️ 本題含影像（官方詳解 PDF 第 9 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題問胎兒肝腫瘤典型影像何者「不恰當」。D 錯在回音型態：胎兒肝的轉移性 neuroblastoma 應為 heterogeneous hyperechoic（不均質高回音）結節、可有或無血流，而非題目所寫的 homogeneous hypoechoic。A 正確：動靜脈畸形／瘻管表現為多條擴張的肝內血管。B 正確：肝內胎便假囊腫與（腸）穿孔相關、呈多發複雜囊腫。C 正確：hepatoblastoma 為實質性、輻輪狀（spoke-wheel）、富血管的多分葉腫塊，可含或不含鈣化。\n→ [[pediatric-liver-tumors]]",
       "concepts": [
         "pediatric-liver-tumors"
       ],
@@ -4438,7 +4438,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Journal of Radiological Science；44卷 (2019 / 03 / 01)，P15 - 19 DOI： 10.6698/JRS.201905_44.0004；10.6698/JRS.201905_44.0004；2021 交換考官方詳解 PDF p46",
-      "explanation": "【2021 官方詳解】\nD. Desmoplastic small round cell tumor (DSRCT) is a rare and highly aggressive mesenchymal tumor, mostly affecting young males and carrying a poor prognosis.\n  - DSRCT predominantly affects male patients between the ages of 15 and 25 years. The male to female ratio is 6:1\n  - The tumor typically develops in the peritoneal cavity without an apparent primary visceral site of origin, and usually occupies the retrovesical or retrouterine space.\n  - The liver is the most common site of distant metastasis",
+      "explanation": "答案 D。DSRCT（促結締組織增生性小圓細胞瘤）為罕見、高度侵襲性的間葉性小圓藍細胞腫瘤，診斷時多已廣泛腹膜播散，預後差，故「預後良好」的敘述錯誤。A 正確：好發於青少年／年輕成年男性。B 正確：男女比約 6:1，男性明顯居多。C 正確：典型發生於腹膜腔而無明顯原發臟器，多佔膀胱後（retrovesical）或直腸子宮（retrouterine）空間。補充：肝為最常見的遠端轉移處。\n→ [[desmoplastic-small-round-cell-tumor]]",
       "images": [],
       "concepts": [
         "desmoplastic-small-round-cell-tumor"
@@ -4476,7 +4476,7 @@
       ],
       "correctAnswer": "D",
       "reference": "次 American College of Radiology (ACR) and Society for Pediatric Radiology (SPR) guidelines clinical indications for voiding cystourethrography；2021 交換考官方詳解 PDF p47",
-      "explanation": "⚠️ 本題含影像（官方詳解 PDF 第 47 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。反覆泌尿道感染（A）、先天泌尿生殖道異常（B）與神經性膀胱功能障礙（C）皆為兒童 VCUG 的公認適應症，故正解為「以上皆是」。VCUG 於泌尿道感染的 bottom-up 評估（併腎臟超音波）、先天異常的解剖評估，以及續發性 VUR（如神經性膀胱、輸尿管膨出、後尿道瓣膜）的偵測皆有明確角色，三種情境都適用。\n→ [[vesicoureteral-reflux-grading]]",
       "concepts": [
         "vesicoureteral-reflux-grading"
       ],
@@ -4520,7 +4520,7 @@
       ],
       "correctAnswer": "C",
       "reference": "次 Caffey's Pediatric Diagnostic Imaging 13th edition. Chapter 107；2021 交換考官方詳解 PDF p48",
-      "explanation": "【2021 官方詳解】\nIleocolic intussusception is most often encountered in the right lower quadrant (RLQ) of abdomen.",
+      "explanation": "答案 C。本題問何者為「錯誤」敘述。C 錯在位置：迴結腸型腸套疊源自迴盲部，腫塊多位於右側（右下腹／右上腹）而非左下腹（LLQ）。A 正確：特發性迴結腸型為兒童腸套疊最常見型態（約 80–90%）。B 正確：超音波縱切面可見假腎徵（pseudokidney sign）。D 正確：空氣或液體對比劑灌腸皆可用於腸套疊的復位。\n→ [[pediatric-intussusception-types]]",
       "images": [],
       "concepts": [
         "pediatric-intussusception-types"
@@ -4558,7 +4558,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Primer of Diagnostic Imaging, p. 870；2021 交換考官方詳解 PDF p49",
-      "explanation": "【2021 官方詳解】\nA. It occurs more often on the right side.\nIncidence of adrenal hemorrhage most commonly (~70%) occurs on the right side because anatomically, the right adrenal gland is located between the liver and spine and thus, can result in its compression. Moreover, the right adrenal vein drains into the inferior vena cava and its compression can induce venous pressure changes.",
+      "explanation": "答案 A。本題問何者「錯誤」。A 錯在側性：新生兒腎上腺出血好發於右側（R > L，約 75%，個別研究達 85%；雙側僅約 5–10%），並非左側較常見；推測機轉包括右腎上腺靜脈較短且直接注入下腔靜脈、右腺體夾於肝與脊椎之間易受壓，圍產期靜脈壓變化易致出血。B 正確：主要鑑別診斷為 neuroblastoma（出血為無血流、隨時間縮小，neuroblastoma 則有內部血流、可跨中線或轉移）。C 正確：母親糖尿病經由造成巨嬰而為公認誘因。D 正確：血塊隨時間可出現營養不良性鈣化。\n→ [[adrenal-imaging]]",
       "images": [],
       "concepts": [
         "adrenal-imaging"
@@ -4596,7 +4596,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Primer of Diagnostic Imaging, p. 885；2021 交換考官方詳解 PDF p50",
-      "explanation": "【2021 官方詳解】\n- Narrower interpedicular distance\nAchondroplasia:\n  - relatively large cranial vault with small skull base\n  - narrowed foramen magnum\n  - posterior vertebral scalloping\n  - progressive decrease in the interpedicular distance in the lumbar spine\n  - champagne glass type pelvic inlet\n  - small squared (tombstone or mickey mouse ear) iliac wings\n  - the femora and humeri are particularly shortened (rhizomelic shortening)\n  - trident hand\n\n⚠️ 疑似與 2021-046 為同一題（相似度 0.824），請醫師確認是否合併。",
+      "explanation": "答案 B。本題問何者「非」軟骨發育不全的典型 X 光特徵。B 錯：achondroplasia 的腰椎椎弓根間距是由頭側向尾側漸進「縮小」（L5-S1 最窄，與正常脊椎的漸進增寬相反），構成先天性椎管狹窄，故「寬的椎弓根間距（wide interpedicular distance）」不對。A 正確：近端肢體不成比例縮短（rhizomelic dwarfism，肱骨與股骨最短）。C 正確：香檳杯／乒乓球拍樣骨盆（水平髖臼頂、方形小髂翼）。D 正確：枕骨大孔狹小，嬰兒期可致 cervicomedullary 壓迫。\n→ [[achondroplasia]]",
       "images": [],
       "concepts": [
         "achondroplasia"
@@ -6213,7 +6213,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.537；2021 交換考官方詳解 PDF p107",
-      "explanation": "【2021 官方詳解】\nInfantile (pre-ductal) form: just distal to brachiocephalic artery proximal to dectus arteriosus, the blood supple to the descending aorta is via the PDA.\nAdult (juxtaductal, postductal, middle aortic) form: distal to ligamentum arteriosum\nAortic isthmus = distal to the origin of the left subclavian artery at the site of the ductus arteriosus.\nPlain film:\n- Figure of 3 sign: contour abnormality of aorta\n- Scalloped contouring of soft tissue posterior to sternum (=dilated tortuous internal mammary arteries) on lateral X ray\n- Inferior rib notching: Roesler sign (usually the 4th to 8th ribs)\nComplication:\nNeonatal herat failure, SAH from ruptured berry aneurysm, aortic dissection, infective endocarditis, mycotic aneurysm\n\n⚠️ 本題含影像（官方詳解 PDF 第 107 頁），影像尚未匯入，判讀請對照原檔。",
+      "explanation": "答案 D。本題問何者「錯誤」。D 錯：導管後型（postductal／adult 型）多為單純型縮窄，常到較晚期才被發現；於嬰兒期表現者是導管前型（preductal／infantile 型，遠端血流依賴 PDA、常合併其他心內畸形）。A 正確：顱內漿果狀動脈瘤（berry aneurysm）為公認合併症，可致蜘蛛膜下腔出血。B 正確：峽部（左鎖骨下動脈遠端、鄰近 ductus arteriosus）為最常見的縮窄部位。C 正確：側位胸片可見擴張的內乳（internal mammary）動脈側支（並伴下肋緣凹痕／Roesler 徵）。\n→ [[aortic-coarctation]]",
       "images": [
         "2021-153-1.png"
       ],
@@ -6253,7 +6253,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.154；2021 交換考官方詳解 PDF p108",
-      "explanation": "【2021 官方詳解】\nSturge-Weber syndrome\nCongenital facial cutaneous hemanioma (port wine stain or facial nevus flammeus), almost always involve CN V1.\n*** Strawberry nervus -🡪 infantile hemangioma\nPlain film: gyriform calcification of subcortical white matter\nDXA: abscent of superficial cortical veins with abnormal and enlarged deep venous drainage (82%)",
+      "explanation": "答案 D。本題問何者「正確」。D 正確：Sturge-Weber 的腦回狀／tram-track 皮質下鈣化多位於頂枕（parieto-occipital）區，歷史上可於顱骨平片上顯示。A 錯：臉部為葡萄酒色斑（port-wine nevus／capillary malformation），而非草莓狀血管瘤（strawberry nevus，後者屬嬰兒型血管瘤）。B 錯：病灶約 85% 為單側（與色斑同側），並非通常雙側。C 錯：軟腦膜血管瘤為低流量病灶，動脈攝影常無法清楚顯示（DSA 反而顯示淺層皮質靜脈缺如、深部靜脈引流異常擴大）。\n→ [[sturge-weber-syndrome]]",
       "images": [],
       "concepts": [
         "sturge-weber-syndrome"
@@ -6291,7 +6291,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Pediatric Radiology Practical Imaging Evaluation of Infants and Children 2018 p.385；2021 交換考官方詳解 PDF p109",
-      "explanation": "【2021 官方詳解】\nAir bronchograms can be seen with several processes:\n- pulmonary consolidation\n- pulmonary edema: especially with alveolar edema 3\n- non-obstructive atelectasis\n- severe interstitial lung disease\n- neoplasms: bronchioloalveolar carcinoma; pulmonary lymphoma\n- pulmonary infarct\n- pulmonary hemorrhage\n- normal expiration",
+      "explanation": "答案 C。本題問何者「非」air bronchogram 的特徵性成因。C 為答案：支氣管源性囊腫（bronchogenic cyst）是充液的先天性囊腫、並非肺泡填充過程，內部沒有通暢的含氣支氣管，故不會產生 air bronchogram。A（透明膜病／SDD）、B（肺水腫）、D（大葉性肺炎）皆因肺泡腔被液體或滲出物取代、而近端支氣管仍通暢，故可見 air bronchogram。air bronchogram 的本質即「肺泡腔內空氣被非空氣物質取代、近端氣道仍通暢」，屬肺實質內病變徵象。\n→ [[air-bronchogram]]",
       "images": [],
       "concepts": [
         "air-bronchogram"
@@ -6329,7 +6329,7 @@
       ],
       "correctAnswer": "D",
       "reference": "Caffy’s Pediatric Diagnostic Imaging 11th ed. p.3005~6；2021 交換考官方詳解 PDF p110",
-      "explanation": "【2021 官方詳解】\nLEUKEMIC BONE changes are for many reasons more common, more extensive, and more varied in children than in adults. (because more active bone marrow)\nmanifestations of bone marrow replacement\n- Ostepenia\n- Radiolucent metaphyseal bands (pediatric patient)\n- Periosteal reaction\n- coarse trabeculation: lead to an osteosclerotic appearanc\n- Vertebral body collapse (vertebra plana)\nAcute myeloid leukemia is common in > 65 y/o\nChronic myeloid leukemia is common in around 64 y/o",
+      "explanation": "答案 D。⚠️ 本題標準答案為 D，但依概念查證，D 實為「正確」敘述，四個選項皆成立、找不到明確錯誤項，此題疑有瑕疵，建議覆核原卷。逐項說明：A 正確——白血病的骨骼變化在兒童較成人更常見、更廣泛（兒童紅骨髓活躍）。B 正確——骨骼變化可先於周邊血象改變出現（傳統教學）。C 正確——osteosclerosis 為公認表現（骨小樑變粗可呈骨硬化外觀）。D 敘述「骨髓性白血病（myeloid leukemia）成人較兒童常見」——AML 好發 >65 歲、CML 約 64 歲，皆好發成人，故此敘述其實也正確，非可判為錯誤之選項。\n→ [[leukemia-skeletal-manifestations]]",
       "images": [],
       "concepts": [
         "leukemia-skeletal-manifestations"
@@ -6367,7 +6367,7 @@
       ],
       "correctAnswer": "A",
       "reference": "Caffy’s Pediatric Diagnostic Imaging 11th ed. p.1740；2021 交換考官方詳解 PDF p111",
-      "explanation": "【2021 官方詳解】\nEbstein anomaly:\nAbnormal tricuspid valve displace apically into RV\n- Atrialization of part of RV 🡪 enlarged RA and small RV 🡪 Boxlike cardiomegaly\n- Congenital tricuspid regurgitation 🡪 IVC and azygos dilatation\n- Cynosis in neonatal period\n- CHF in utero/ in neonate (50%)",
+      "explanation": "答案 A。本題問 Ebstein 異常的特徵何者「錯誤」。A 錯：Ebstein 異常是三尖瓣（尤其中隔葉與後葉）向心尖方向下移，使部分右心室被「心房化」，結果功能性右心室反而變小、右心房則巨大擴張（呈 box-shaped／wall-to-wall heart），故「右心室擴大」不正確——真正擴大的是右心房。B 正確：右心房擴大。C 正確：三尖瓣逆流致體靜脈回流受阻，下腔靜脈與 azygos vein 擴張。D 正確：新生兒期可因 right-to-left shunt 而發紺。\n→ [[congenital-heart-disease-chest-xray]]",
       "images": [],
       "concepts": [
         "congenital-heart-disease-chest-xray"
@@ -7926,7 +7926,7 @@
       ],
       "correctAnswer": "D",
       "reference": "RadioGraphics 2017; 37:1892-1908.；2021 交換考官方詳解 PDF p152",
-      "explanation": "【2021 官方詳解】\nColor Doppler US evaluation is not reliable for confirming or excluding ovarian torsion. The absence of arterial and venous flow in the ovary and decreased venous flow are common Doppler US findings of ovarian torsion. However, these findings are nonspecific, because absent Doppler flow is frequently seen in nontorsed pediatric ovaries. Preserved arterial flow may be seen in cases of ovarian torsion—either secondary to lymphatic or venous obstruction producing symptoms before the later development of arterial occlusion, or owing to the dual arterial supply to the ovary from the uterine arteries. In adults, the twisted vascular pedicle has been described as a specific sign of ovarian torsion and can be seen as a round hyperechoic structure with multiple concentric hypoechoic stripes on transvaginal US images. However, this sign is less reliable in the pediatric population, as imaging in children is almost always performed by the transabdominal approach.",
+      "explanation": "答案 D。卵巢同時接受子宮動脈與卵巢動脈的雙重血流供應，扭轉早期常先影響靜脈與淋巴回流，動脈血流仍可保留；加上未扭轉的兒童卵巢本來就常測不到血流，故彩色都卜勒無論有無血流都無法確診或排除扭轉，D 稱其「可靠」因此為本題要選的「不正確」敘述。其餘為正確敘述：(A) 正常附件的扭轉在兒童比成人常見；(B) 最常見所見為不對稱腫大的卵巢，也是最敏感、最一致的徵象；(C) 水腫基質把濾泡推向周邊，周邊移位濾泡為青少年扭轉的特異表現；(E) 周產期扭轉可見卵巢內液-屑液平面為其特異徵。→ [[adnexal-torsion]]",
       "images": [],
       "concepts": [
         "adnexal-torsion"
@@ -8531,7 +8531,7 @@
       ],
       "correctAnswer": "C",
       "reference": "The requisites: Pediatric Radiology 3rd edition p.26~30；2021 交換考官方詳解 PDF p176",
-      "explanation": "【2021 官方詳解】\nMeconium aspiration occurs secondary to intrapartum or intrauterine aspiration of meconium, usually in the setting of fetal distress, often in term or post-term infants.",
+      "explanation": "答案 C。胎便吸入症候群源於周產期窘迫／子宮內缺氧下吸入胎便，好發於足月或過期產兒，早產兒罕見，故 C 稱其「常發生於早產兒」為錯誤敘述。其餘正確：(A) 表面張力素缺乏病（即嬰兒呼吸窘迫症候群，舊稱透明膜病）因第二型肺泡細胞不成熟、surfactant 不足，好發早產兒；(B) 剖腹產、產程延長、母體麻醉或糖尿病會延遲胎兒肺液清除，是暫時性呼吸急促的促成因子；(D) 肺間質性肺氣腫（PIE）與支氣管肺發育不良（BPD）為表面張力素缺乏病接受呼吸器治療後的可能併發症。→ [[neonatal-chest-disease]]",
       "images": [],
       "concepts": [
         "neonatal-chest-disease"
@@ -8569,7 +8569,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Caffey's Pediatric Diagnostic Imaging 13ed Ch.143  p. 1454-1463；2021 交換考官方詳解 PDF p177",
-      "explanation": "【2021 官方詳解】\nThe follow-up skeletal survey should be completed on all patients who have an initial skeletal survey performed for suspected physical child abuse and for whom child abuse is still a concern.",
+      "explanation": "答案 B。約兩週後的追加骨骼調查是常規且必要的步驟，可顯現初查尚未成形的癒合中骨折與典型乾骺端損傷（CML）、提高敏感度與特異度，並協助推估受傷時間，故 B 稱「不必要」為錯誤敘述。其餘正確：(A) 2 歲以下疑似受虐兒須做完整分部位骨骼調查，單張全身合照（babygram）解析與擺位不足、不可取代；(C) 致命性疑似受虐與不明原因嬰兒死亡應依與存活嬰兒相同的協定進行骨骼調查；(D) CT 與 MRI 用於評估疑似頭部外傷。→ [[child-abuse-skeletal-survey]]",
       "images": [],
       "concepts": [
         "child-abuse-skeletal-survey"
@@ -12452,7 +12452,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Berrocal, T et al. Congenital Anomalies of the Tracheobronchial Tree, Lung, and Mediastinum: Embryology, Radiology, and Pathology. Radiographics, 2004;24(1).；2021 交換考官方詳解 PDF p280",
-      "explanation": "【2021 官方詳解】\n(A) = Aberrant left pulmonary artery: Left pulmonary artery arising from the right pulmonary artery and passing above the right main bronchus and in between the trachea and esophagus to reach the left lung.\n(B) Focal congenital tracheal stenosis consists of a simple local narrowing of the trachea, usually in the lower third. ???\n(C) Length of stenosis does not appear to be as critical as degree of stenosis in producing symptoms, as airway resistance is only linearly proportional to length of stenosis, whereas resistance increases fourfold relative to luminal radius decrease.\n(D) Magnetic resonance (MR) imaging is valuable for demonstrating the relationship of the airway to adjacent blood vessels without injection of intravascular contrast medium. Both CT and MR imaging can provide three-dimensional reconstruction.\n\n⚠️ 疑似與 2021-008 為同一題（相似度 0.831），請醫師確認是否合併。",
+      "explanation": "答案 B。局灶型（focal）先天性氣管狹窄即為氣管的單純局部狹窄，通常位於下三分之一，故 B 為正確敘述。(A) 錯誤：肺動脈吊索是「左」肺動脈異常起自「右」肺動脈（非右起自左），繞行於氣管與食道之間造成壓迫，A 把左右對調。(C) 描述有瑕疵：狹窄長度確實不如狹窄程度關鍵，惟氣道阻力與狹窄「長度」僅呈線性正比、卻隨管腔半徑縮小呈四次方增加，C 略去了「與長度呈線性」的前提。(D) 本身為正確概念：MR 可不打血管內對比劑即顯示氣道與鄰近血管的關係，CT 與 MR 皆能三維重建；本題設定選單一最正確者，故為 B。⚠️ 本卡標示疑與另題高度相似（相似度 0.831），選項判讀與是否合併請一併覆核。→ [[ring-sling-syndrome]]",
       "images": [],
       "concepts": [
         "ring-sling-syndrome"
@@ -12898,7 +12898,7 @@
       ],
       "correctAnswer": "A",
       "reference": "RadioGraphics 2010; 30:801–826；2021 交換考官方詳解 PDF p297",
-      "explanation": "【2021 官方詳解】\nInfantile hemangioendothelioma, or infantile hepatic hemangioma, is a vascular neoplasm and\nthe most common benign hepatic tumor of infancy.",
+      "explanation": "答案 A。嬰兒型血管內皮瘤（infantile hemangioendothelioma，即 infantile hepatic hemangioma）是嬰兒最常見的良性肝腫瘤，為富血管腫塊、動態顯影呈周邊結節狀強化並漸進向心填充，多可依影像特徵診斷、不需切片。(B) 間葉性錯構瘤（mesenchymal hamartoma）為第二常見的良性兒童肝腫塊，典型呈多房囊性；(C) 肝母細胞瘤是兒童最常見的原發性「惡性」肝腫瘤，非本題所指的良性腫瘤；(D) 局灶結節性增生與 (E) 肝細胞癌在兒童皆少見。⚠️ 若題意涵蓋所有兒童肝腫瘤（含惡性），最常見原發惡性腫瘤為肝母細胞瘤；本題依「最常見良性肝腫瘤」脈絡選 A。→ [[pediatric-liver-tumors]]",
       "images": [],
       "concepts": [
         "pediatric-liver-tumors"
@@ -15009,7 +15009,7 @@
       ],
       "correctAnswer": "B",
       "reference": "Radiology: Volume 285: Number 3—December 2017 Hepatic Imaging in Neonates and Young Infants: State of the Art；2021 交換考官方詳解 PDF p390",
-      "explanation": "【2021 官方詳解】\nB.\nInfantile hepatic hemangiomas (IHHs) differ from congenital hepatic hemangiomas (CHHs)\nIHHs appear after birth, proliferate during the first few months of life, and are treated with propranolol\n- Gradually involute over the next few years\n- Unifocal (rare), multifocal (multiple lesions with intervening normal parenchyma), or diffuse (innumerable\nlesions that replace the parenchyma)\nCHHs tend to be fully formed at the time of birth and are not responsive to propranolol.\n- A solitary large mass\n- Three patterns of growth\nrapidly involuting, noninvoluting, and partially involuting",
+      "explanation": "答案 B。B 把嬰兒型（IHH）與先天型（CHH）肝血管瘤的特徵對調，故為錯誤敘述：實際上是 IHH 出生後才出現、生後數月增生、對 propranolol 有效、其後數年緩慢退化，可單發（少）、多發（常見）或瀰漫；CHH 則出生時已完全形成、對 propranolol 無反應、多為單發大腫塊，分為快速退化（RICH）、不退化（NICH）與部分退化（PICH）三型。其餘正確：(A) 膽道閉鎖最有用的超音波徵象為三角索徵（triangular cord sign）、膽囊形態異常與肝動脈肥厚；(C) 肝母細胞瘤為最常見的先天性肝惡性腫瘤；(D) 臍靜脈導管置放是多種後天併發症（肝血腫、肝膿瘍、門靜脈栓塞、門靜脈積氣）的重要成因。→ [[pediatric-liver-tumors]]",
       "images": [],
       "concepts": [
         "pediatric-liver-tumors"
@@ -15047,7 +15047,7 @@
       ],
       "correctAnswer": "C",
       "reference": "Pediatric Radiology (2018) 48:536–554；2021 交換考官方詳解 PDF p391",
-      "explanation": "【2021 官方詳解】\nC.\nIf tumor only involves the caudate lobe, it should be considered a PRETEXT II tumor by convention\nPediatric liver tumor staging (PRETEXT grouping system)\nUsed for any tumor lesion of the liver in children\nThe liver segments are grouped into sections:\nleft lateral section: segments 2 and 3\nleft medial section: segments 4a and 4b\nright anterior section: segments 5 and 8\nright posterior section: segments 6 and 7\n(Only caudate lobe involvement => PRETEXT II)\nPRETEXT I : one section is involved and three adjoining sections are free\nPRETEXT II : one or two sections are involved, but two adjoining sections are free\nPRETEXT III : tumor involves three liver sections and one liver section is free of tumor or tumor involves\ntwo liver sections and two non-adjoining liver sections are free of tumor\nPRETEXT IV: all four sections are involved, there is no liver section free of tumor\nPRETEXT system divides patients into two risk groups:\nhigh-risk group :\nPRETEXT number IV\nserum alpha fetoprotein <100 μg/L or very high AFP (>1 million ng/ml)\npresence of additional PRETEXT criteria from groups E, H, M, N, P, and V\nthe rest of patients belong to the standard risk group\nadditional categories\ncaudate lobe involvement ( C)\nextrahepatic abdominal disease (E)\ntumor focality (F)\ntumor rupture or intraperitoneal hemorrhage (H)\ndistant metastases (M)\nlymph node metastases (N)\nportal vein involvement (P)\ninvolvement of the IVC and/or hepatic veins (V)",
+      "explanation": "答案 C。依 PRETEXT 慣例，腫瘤僅侵犯尾葉（caudate lobe，segment 1）時應歸為 PRETEXT II 而非 I，故 C 為錯誤敘述。PRETEXT 把肝臟分為四個 section（左外 2/3、左內 4a/4b、右前 5/8、右後 6/7），以未受腫瘤侵犯之相鄰 section 數決定分組。其餘正確：(A) PRETEXT 分組是兒童肝母細胞瘤與肝細胞癌總存活的有力預測因子；(B) 分組（I–IV）依據未被腫瘤侵犯之相鄰肝 section 數判定；(D) 肺為兒童肝母細胞瘤與肝細胞癌最常見的遠端轉移部位。→ [[hepatoblastoma-imaging]]",
       "images": [],
       "concepts": [
         "hepatoblastoma-imaging"
