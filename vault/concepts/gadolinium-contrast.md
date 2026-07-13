@@ -10,7 +10,7 @@ aliases:
   - gadolinium deposition
   - hepatobiliary contrast
   - 含釓對比劑
-dateRev: 2026-07-10
+dateRev: 2026-07-13
 nonImaging: true
 nonImagingReason: "釓對比劑藥理/安全；唯一影像項（腦沉積）已涵蓋"
 same:
@@ -64,7 +64,7 @@ same:
 ### 參考來源
 [^1]: *Gadolinium-based contrast agents*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「**Macrocyclic agents have less chemical instability than linear agents, resulting in a lower risk of nephrogenic systemic fibrosis and lower gadolinium deposition**」;deposition「especially the brain (**dentate nucleus**, **globus pallidus**)」;分類依 net charge 與 linear/macrocyclic。
 [^2]: ACR Manual on Contrast Media（GBCA NSF 分組 Group I/II/III）＋ EMA 2017 PRAC 建議（限制 linear 製劑）；中華民國放射線醫學會對比劑手冊 2017/2023 B 章。高風險 linear＝gadodiamide/gadopentetate/gadoversetamide;macrocyclic 為低風險;肝膽特異 linear（gadoxetate/gadobenate）保留。
-[^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*. AJR 2016;207(2):229-33（GDD 診斷：注射後 2 個月內 ≥3 症狀）。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
+[^3]: 釓劑沉積與 GDD：Kanda et al. *Radiology* 2014（齒狀核/蒼白球 T1 高訊號）；釓沉積序 dentate ＞ globus pallidus ＞ thalamus ＞ pons（*Radiology* 2015;275:772-82）；*Gadolinium in Humans: A Family of Disorders*（Semelka RC 等）. AJR 2016;207(2):229-33, DOI 10.2214/AJR.15.15842（**全文實查 2026-07-13**）：本 2016 原著提出 GDD 概念，以「注射後**數小時至 2 個月**出現持續症狀＋症狀特徵（周邊神經痛、關節/肌肉症狀、頭痛、brain fog、皮下軟組織增厚等）＋無他因可解釋」定義。⚠️ **「≥3 症狀」之計分門檻查證後不在本 2016 原著內**（疑出自 Semelka 後續診斷準則），正確出處待補正。重複注射間隔、滲透壓、血液透析移除：中華民國放射線醫學會對比劑手冊 2020/2023（本機 gitignore）。
 [^4]: 官方2020詳解；Heart Disease: Eugene Braunwald (2019年11版) Ch. 17, P302——含釓對比劑臨床安全性高，eGFR<30族群NSF風險<1/10,000（遠低於1%）；風險因子含腎絲球過濾率<30、急性腎衰竭、末期腎臟病需透析；目前尚無eGFR≥30之慢性腎衰竭患者發生NSF案例報告。並 *The presence of the gadolinium-based contrast agent depositions in the brain and symptoms of gadolinium neurotoxicity - A systematic review*. 2017;e0171704（2018 交換考題詳解 p.129 引用；Tier 2 系統性回顧）：配位基與釓離子結合強度以macrocyclic ionic結構結合最強最穩定。
 
 ## 題目
