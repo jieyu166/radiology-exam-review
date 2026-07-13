@@ -8,7 +8,7 @@ aliases:
   - thoracic inlet CT landmark
   - cervical rib
   - 胸廓入口
-dateRev: 2026-07-01
+dateRev: 2026-07-13
 ---
 
 # thoracic-inlet-anatomy
@@ -49,7 +49,7 @@ Thoracic outlet syndrome 相關的狹窄好發於三個由內而外排列的腔�
 
 ### 參考來源
 [^1]: *Superior thoracic aperture (thoracic inlet)*. Radiopaedia.org（實際查證 accessed 2026-06-20）：邊界（後 T1＋肋椎關節、外側第一肋＋肋軟骨、前 manubrium 上緣）、腎形斜面（~10×5 cm）、內容物（氣管/食道/胸管/大血管/神經/肺尖 Sibson's fascia）。
-[^2]: 官方 2017 詳解（題 2017-108）：軸狀 CT 上 first ribs 為 thoracic inlet 最可靠標誌（T1/甲狀腺/斜角肌較不可靠）。（註：原筆記另引「RadioGraphics 2014;34:1680-1691」,本次於 pubs.rsna.org 未能核對到該卷頁對應文章,已移除以免誤引;入口邊界解剖改以 [^1] Radiopaedia 為據。）
+[^2]: 官方 2017 詳解（題 2017-108）：軸狀 CT 上 first ribs 為 thoracic inlet 最可靠標誌（T1/甲狀腺/斜角肌較不可靠）。**Tier 1（全文實查 2026-07-13，via 醫師登入 pubs.rsna.org）** El-Sherief AH, Lau CT, Wu CC, Drake RL, Abbott GF, Rice TW. *International Association for the Study of Lung Cancer (IASLC) Lymph Node Map: Radiologic Review with CT Illustration*. RadioGraphics 2014;34(6):1680-1691, DOI 10.1148/rg.346130097——專節論 thoracic inlet（superior thoracic aperture）為頸部與上縱膈之界線（manubrium 上緣、雙側第一肋上緣、T1 肋椎交界），並教示軸狀 CT 上以「兩側第一肋可見斷面」連線區分 low cervical（1R/1L）與 superior mediastinal（2R/2L 等）淋巴結；直接支持「first ribs 為 thoracic inlet 定位標誌」。（訂正：先前註「該卷頁查無對應文章、已移除」係查證未定位到第 6 期之誤判，本次核實存在並恢復。）
 [^3]: *Cervical rib*. Radiopaedia.org;*Anatomy, Thorax, Cervical Rib*. StatPearls, NCBI Bookshelf NBK541001;**Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Raptis CA, Sridhar S, Thompson RW, Fowler KJ, Bhalla S. *Imaging of the Patient with Thoracic Outlet Syndrome*. RadioGraphics. 2016;36(4):984-1000. doi:10.1148/rg.2016150221。C7 來源、~0.5–1%、女性多、TOS 壓迫下幹 C8/T1、頸肋影像譜（elongated C7 TP → 完整肋接第一肋 tubercle）、可致鎖骨下血管狹窄；**TOS 三腔室（scalene triangle→costoclavicular space→pectoralis minor space）**；**疑似 TOS 即使已排 MRI 仍應加做傳統攝影，因頸肋等骨性異常 MRI 可能漏診**。
 [^4]: **判斷方法**。(a)**實務首選＝C-spine 影像由 C1/C2 往下逐節數到 C7**（臨床經驗;確認額外肋之椎體來源、為最可靠 gold standard——無 C-spine 時角度/型態差異常看不出）;(b)輔助＝橫突朝向法則（標準解剖,Gray's Anatomy 基礎;Physiopedia／ScienceDirect *Cervical Rib*,實際查證 accessed 2026-06-20）：頸椎橫突向下（inferolateral）、胸椎橫突向上（superolateral）,cervical rib 所附之 C7 橫突朝下,可與 T1（橫突朝上）之第一胸肋區別。**待補（供醫師後續找文獻）**：上述「逐節計數／角度型態鑑別」之放射技術原始全文本次未取得（多屬教科書/技術慣例,如 Keats *Atlas of Normal Roentgen Variants*、Felson 胸部判讀）,可循 [^5] 之 reference list 進一步查證。
 [^5]: 據 PubMed——Henry BM, Vikse J, Sanna B, et al. *Cervical Rib Prevalence and its Association with Thoracic Outlet Syndrome: A Meta-Analysis of 141 Studies with Surgical Considerations*. World Neurosurg. 2017;110:e965-e978. doi:10.1016/j.wneu.2017.11.148（141 篇、77,924 人;cervical rib 一般族群盛行率 **1.1%**、TOS 病人 **29.5%**;逾半單側;症狀者 51.3% 血管型、48.7% 神經型 TOS）。摘要實際查證 accessed 2026-06-20,全文未取。
