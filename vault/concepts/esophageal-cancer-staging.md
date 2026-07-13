@@ -7,7 +7,7 @@ aliases:
   - esophageal TNM
   - T4a T4b esophagus
   - 食道癌分期
-dateRev: 2026-06-29
+dateRev: 2026-07-13
 ---
 
 # esophageal-cancer-staging
@@ -53,7 +53,7 @@ dateRev: 2026-06-29
 - **治療後早期 PET 評估**勿過度判讀:發炎瀰漫攝取易誤為殘存／復發，應於發炎期後或合併形態學判讀。[^6][^7]
 
 ### 參考來源
-[^1]: 官方 2017 詳解；New TNM Staging System for Esophageal Cancer: What Chest Radiologists Need to Know. RadioGraphics 2014;34:1722-1740(article 級)：位置由 epicenter 決定;T4a(pleura/pericardium/azygos/diaphragm/peritoneum) vs T4b(aorta/vertebral body/trachea);regional node 涵蓋頸部至 celiac;coeliac/supraclavicular 於 AJCC 8th 納入區域 N。
+[^1]: 官方 2017 詳解；Hong SJ, Kim TJ, et al. *New TNM Staging System for Esophageal Cancer: What Chest Radiologists Need to Know*. RadioGraphics 2014;34(6):1722-1740, DOI 10.1148/rg.346130079（**全文實查 2026-07-13**；卷期更正為 34(6)）：位置由 epicenter 決定;regional node 涵蓋頸部至 celiac;coeliac/supraclavicular 於 AJCC 8th 納入區域 N。⚠️ **azygos vein 之 T4 歸屬有版本差異**：本 RG 2014（AJCC 7th era）全文將 **azygos vein 列於 T4b（不可切除，與 aorta/trachea/vertebral body 同列）**；而 **AJCC 8th（現行）將 azygos vein 移入 T4a（可切除：pleura/pericardium/azygos vein/diaphragm/peritoneum）**。本概念 body 採 AJCC 8th（azygos＝T4a）為現行標準；作答舊題（如 2017）若依當年 7th 版則 azygos 屬 T4b——請依當題採用版本判定。
 [^2]: van Vliet EPM et al. Staging investigations for oesophageal cancer: a meta-analysis. Br J Cancer 2008(PMC2243147，開放全文，meta-analysis 級)＋Kim TJ et al. Multimodality assessment of esophageal cancer(綜述)：EUS 對 T 最佳;CT 僅能以脂肪平面保留排除 T4，主用於遠端轉移(30–60% 可能隱匿);EUS 對區域 N 最敏感，CT／PET 較特異;PET 對遠端轉移敏感度較高，合併 CT 確認。
 [^3]: Choi J et al. Surgically resected T1- and T2-stage esophageal SCC: T and N staging performance of EUS and PET/CT(PMC6089181，開放全文)：EUS-FNA 對 N 敏感度 83%／準確度 87% 優於 CT;早期食道癌 PET/CT 對 N 可偽陰性。
 [^4]: Puli SR et al. Staging accuracy of esophageal cancer by EUS: meta-analysis(PMC2693739，開放全文，meta-analysis 級)＋Krill T et al. Accuracy of EUS in esophageal cancer staging. J Thorac Dis 2019(PMC6702397)：T1 敏 81.6%／特異 99.4%、T3 敏 91.4%／特異 94.4%、T4 敏 92.4%／特異 97.4%;阻塞性腫瘤 20–36% echoendoscope 無法通過;nCRT 後 T 分期準確度低。
