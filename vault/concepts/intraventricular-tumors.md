@@ -8,18 +8,18 @@ aliases:
   - central neurocytoma
   - choroid plexus tumor
   - 腦室內腫瘤
-dateRev: 2026-07-03
+dateRev: 2026-07-13
 ---
 
 # intraventricular-tumors
 
-**腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 成人最常見於側腦室 atrium（~50%），非第三腦室——位置是考點。
+**腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 整體最常見於側腦室房部(atrium，~50%)＞第四腦室(40%)＞第三腦室(10%)；惟**側腦室型以兒童為主，成人反而好發第四腦室**——位置與年齡都是考點。
 
 ## Summary
 - **Subependymoma**：經典為**中年男性偶發、無症狀**的腦室內腫瘤;佔顱內腫瘤 **0.2–0.7%**（因常無症狀偶發而低估）;好發**第四腦室（50–60%）＞側腦室（30–40%）**;多 <2 cm（症狀性者常 ≥4 cm）;**男性居多（2.3:1）、82% 見於 >15 歲**、60% 無症狀（有症狀者多為水腦）。[^1]
 - **Ependymoma**：任何年齡,但**較常見於年輕族群**（非老年）。[^1]
 - **Central neurocytoma**：**約 50% 含鈣化（punctate）、可出血**（非「從不」）;側腦室、年輕成人。[^1]
-- **Choroid plexus tumor**：成人最常見於**側腦室房部(atrium)（~50%）**,40% 第四腦室、10% 第三腦室。[^1]
+- **Choroid plexus tumor**：整體最常見於**側腦室房部(atrium，~50%)**、40% 第四腦室、10% 第三腦室；**側腦室型 80% 見於兒童，成人反而好發第四腦室**（此為 RG 2013 [^1] 明載）。[^1]
 
 > [!note] 考點：關於腦室內腫瘤,何者「為真」?
 > 「**subependymoma 經典為中年男性偶發發現的腦室內腫瘤**」為真。ependymoma 偏年輕(A 誤)、central neurocytoma ~50% 鈣化(C 誤)、choroid plexus 最常見側腦室房部非第三腦室(D 誤)。[^1]
@@ -53,7 +53,7 @@ dateRev: 2026-07-03
 
 - **Neurocytoma vs ependymoma vs SEGA**:三者都可塞在 Monro 孔／側腦室前部。用**年齡＋附著點＋背景**拆解——neurocytoma 為年輕成人、附著透明隔、肥皂泡多囊、約半數鈣化;SEGA 為 TSC 兒童／青年、Monro 孔、強烈強化且常合併皮質結節與室管膜下結節等 TSC 影像線索;ependymoma 偏年輕、訊號不均、可能有跨室管膜延伸。[^4][^5]
 - **Subependymoma vs ependymoma**:單憑影像難以絕對區分;但 subependymoma **幾乎完全位於腔室內、均質不強化、無水腫**,ependymoma 較常見**跨室管膜延伸與周邊水腫**且明顯強化。[^6]
-- **Choroid plexus 腫瘤的位置陷阱**:成人 choroid plexus 腫瘤最常見於**側腦室房部(~50%)**,不是第三腦室;位置記錯會誤導年齡與鑑別判斷。[^1][^2]
+- **Choroid plexus 腫瘤的位置陷阱**:整體最常見於側腦室房部(~50%)，但**此側腦室型是兒童特徵，成人反而好發第四腦室**——把「成人也以房部為主」記錯會誤導年齡與鑑別判斷。[^1][^2]
 
 ### 參考來源
 [^1]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Smith AB, Smirniotopoulos JG, Horkanyne-Szakaly I. *From the Radiologic Pathology Archives: Intraventricular Neoplasms: Radiologic-Pathologic Correlation*. RadioGraphics 2013;33(1):21-43. doi:10.1148/rg.331125192。**subependymoma** 佔顱內腫瘤 0.2–0.7%、第四腦室(50–60%)＞側腦室(30–40%)、多<2cm（症狀性≥4cm）、男性 2.3:1、82%>15歲、60% 無症狀;**central neurocytoma** 0.25–0.5%、平均 29 歲、無性別偏好、附著透明隔/腦室壁、約 50% 鈣化;**choroid plexus** 側腦室房部 50%＞第四腦室 40%＞第三腦室 10%、側腦室病灶 80% 見於兒童、與 Aicardi/Li-Fraumeni 相關;ependymoma 偏年輕。

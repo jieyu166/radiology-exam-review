@@ -6,20 +6,20 @@ aliases:
   - Wilms tumor
   - nephroblastoma
   - 腎母細胞瘤
-dateRev: 2026-06-29
+dateRev: 2026-07-13
 ---
 
 # wilms-tumor
 
-**Wilms tumor 是兒童最常見腎臟惡性腫瘤（占約 90%），好發 3–4 歲；<1 歲腎腫塊先想 mesoblastic nephroma，不是 Wilms。** 判讀分水嶺一：**peak 3–4 歲（<5 歲），非 <1 歲**；判讀分水嶺二：**可侵犯腎靜脈/IVC 形成瘤栓；雙側腫塊提示 nephroblastomatosis 與遺傳症候群（WAGR、Beckwith-Wiedemann、Denys-Drash）**。年齡鑑別鏈：<1 歲→ mesoblastic nephroma，1–8 歲→ Wilms tumor。
+**Wilms tumor 是兒童最常見腎臟惡性腫瘤（占約 90%），好發 2–3 歲；<1 歲腎腫塊先想 mesoblastic nephroma，不是 Wilms。** 判讀分水嶺一：**peak 2–3 歲（75–80% <5 歲），非 <1 歲**；判讀分水嶺二：**可侵犯腎靜脈/IVC 形成瘤栓；雙側腫塊提示 nephroblastomatosis 與遺傳症候群（WAGR、Beckwith-Wiedemann、Denys-Drash）**。年齡鑑別鏈：<1 歲→ mesoblastic nephroma，1–8 歲→ Wilms tumor。
 
 ## Summary
-- **流行病學**：**兒童最常見腎臟惡性腫瘤,占兒童腎腫瘤約 90%**;**peak age 3–4 歲（<5 歲）**——非 <1 歲（<1 歲想 mesoblastic nephroma）。[^1]
+- **流行病學**：**兒童最常見腎臟惡性腫瘤,占兒童腎腫瘤約 90%**;**peak age 2–3 歲（<5 歲）**——非 <1 歲（<1 歲想 mesoblastic nephroma）。[^1]
 - **影像**：大、異質、推擠（claw sign）、可壞死/出血;**可侵犯腎靜脈/IVC 形成瘤栓**。[^1]
 - **雙側腫塊**：提示 **nephroblastomatosis** 與**遺傳易感**（WAGR、Beckwith-Wiedemann、Denys-Drash）。[^1]
 
 > [!note] 考點：關於 Wilms tumor,何者「為非」?
-> 「**peak age <1 歲**」為非——**peak 3–4 歲（<5 歲）**;<1 歲應想 mesoblastic nephroma。占兒童腎腫瘤 90%、可侵腎靜脈、雙側提示 nephroblastomatosis/遺傳皆正確。[^1]
+> 「**peak age <1 歲**」為非——**peak 2–3 歲（75–80% <5 歲）**;<1 歲應想 mesoblastic nephroma。占兒童腎腫瘤 90%、可侵腎靜脈、雙側提示 nephroblastomatosis/遺傳皆正確。[^1]
 
 ## 影像判讀骨架
 
@@ -38,10 +38,10 @@ dateRev: 2026-06-29
 | 與血管關係 | **推擠移位（displace）**為主,可直接**侵入腎靜脈/IVC** 形成瘤栓 | **包繞（encase）大血管**(主動脈、IVC)、抬高主動脈,**少侵犯** |
 | 跨中線 | 少跨中線(除非雙側) | **典型跨中線**包繞中線血管 |
 | 鈣化 | **不常見（~10%）**,細小 | **常見（CT 約 80–90%）**,粗大斑點狀 |
-| 好發年齡 | **peak 3–4 歲** | 偏小,**多 <2 歲**,約 90% 在 6 歲前確診 |
+| 好發年齡 | **peak 2–3 歲** | 偏小,**多 <2 歲**,約 90% 在 6 歲前確診 |
 | 轉移 | **肺**為主(就診時約 10% 肺轉移) | 骨／骨髓常見,就診時約 50% 已轉移 |
 
-- 速記：**「包繞血管、跨中線、鈣化多、年紀小」→ neuroblastoma;「腎內 claw、侵腎靜脈/IVC、鈣化少、3–4 歲」→ Wilms。** 血管「encase（包繞）vs invade（侵入瘤栓）」是兩者最具區辨力的單一影像差異。[^2][^3]
+- 速記：**「包繞血管、跨中線、鈣化多、年紀小」→ neuroblastoma;「腎內 claw、侵腎靜脈/IVC、鈣化少、2–3 歲」→ Wilms。** 血管「encase（包繞）vs invade（侵入瘤栓）」是兩者最具區辨力的單一影像差異。[^2][^3]
 
 ### 分期與術前判讀重點
 - **腎靜脈／IVC 瘤栓**：Wilms 約 **5–10%** 侵入腎靜脈或 IVC,少數延伸至右心房;判讀時務必順著腎靜脈追到 IVC,評估瘤栓上緣高度(影響手術切口與是否需要心臟團隊)。[^2][^4]
@@ -70,7 +70,7 @@ dateRev: 2026-06-29
 - 單憑影像下「腫瘤破裂 = stage III」風險高(偽陽性近半),須多專科綜合判定。[^6]
 
 ### 參考來源
-[^1]: Wilms tumor（官方 2016 詳解;RadioGraphics 2016;36(2):499-522,Renal Tumors of Childhood Part 1）：占兒童腎腫瘤 ~90%、**peak 3–4 歲**、可侵腎靜脈/IVC、雙側提示 nephroblastomatosis 與遺傳症候群。
+[^1]: Wilms tumor（官方 2016 詳解;RadioGraphics 2016;36(2):499-522,Renal Tumors of Childhood Part 1）：占兒童腎腫瘤 ~90%、**peak 2–3 歲**、可侵腎靜脈/IVC、雙側提示 nephroblastomatosis 與遺傳症候群。
 [^2]: Chung EM, Graeber AR, Conran RM. *Renal Tumors of Childhood: Radiologic-Pathologic Correlation Part 1. The 1st Decade.* RadioGraphics 2016;36(2):499-522（review，文獻層級：教科書級綜述，AIRP 系列）. DOI: https://doi.org/10.1148/rg.2016150230 — claw sign 提示腎內起源、Wilms 推擠移位且可侵腎靜脈/IVC、與 neuroblastoma 之鈣化與年齡差異;另據 PubMed 經 PMC 開放全文 *Neuroblastoma and nephroblastoma: a radiological review*（PMC4446071）佐證 Wilms 腎靜脈/IVC 侵犯 5–10%、鈣化 ~10%、neuroblastoma 鈣化 80–90% 且包繞血管/跨中線、Wilms 肺轉移 ~10%、neuroblastoma 就診轉移 ~50%。
 [^3]: ECR 教學海報與綜述（ESR EPOS, *Distinguishing between Wilms' tumor and neuroblastoma at imaging*；*Imaging pitfalls: neuroblastoma or nephroblastoma?*）：claw sign 在 Wilms 約見於 71%、neuroblastoma 包繞且跨中線、Wilms 多移位並可形成瘤栓。文獻層級：學會教學海報（輔助佐證）。
 [^4]: Lowe LH, Isuani BH, Heller RM, et al. *Pediatric Renal Masses: Wilms Tumor and Beyond.* RadioGraphics 2000;20(6):1585-1603（review，教學綜述）. DOI: https://doi.org/10.1148/radiographics.20.6.g00nv051585 — Wilms 以血管侵犯與結構移位為特徵、約 10% 雙側;nephroblastomatosis 多為雙側被膜下病灶;mesoblastic nephroma 為新生兒實質腎腫塊首選;multilocular cystic renal tumor、CCSK 骨轉移、rhabdoid 合併腦瘤等鑑別。
