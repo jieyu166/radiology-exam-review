@@ -7,7 +7,7 @@ aliases:
   - dual LAD
   - coronary dominance
   - 冠狀動脈變異
-dateRev: 2026-06-29
+dateRev: 2026-07-14
 ---
 
 # coronary-artery-variants
@@ -49,7 +49,7 @@ dateRev: 2026-06-29
 - **CCTA 功能評估**：依收縮期管腔壓迫分為無壓迫／<50%／≥50%；可用 TAG、CCTA-FFR 評估血流動力學意義。很深（≥5 mm）或很長（≥25 mm）者傾向手術（unroofing／CABG）。[^mb]
 
 ### Dual LAD 與 single coronary artery（多為 benign 變異）
-- **Dual LAD（Yamanaka 分型 I–IV）— Type I**：short LAD 走**近端 AIVS（前室間溝）**並發出 septal＋diagonal 分支；long LAD 沿 LV 側走 epicardial，再進入**遠端 AIVS**（記成「近端─繞彎─遠端歸位」）；屬重複變異，一般 benign。[^rg]
+- **Dual LAD（Spindola-Franco 分型，原始 type I–IV）— Type I**：short LAD 走**近端 AIVS（前室間溝）**並發出 septal＋diagonal 分支；long LAD 沿 LV 側走 epicardial，再進入**遠端 AIVS**（記成「近端─繞彎─遠端歸位」）；屬重複變異，一般 benign。[^rg][^dlad]（⚠️ 原註「Yamanaka 分型」係誤植：dual LAD 之數字分型出自 **Spindola-Franco et al. Am Heart J 1983;105:445-455**；後續 type V–XII 由他人擴增，另有 Jariwala 2021 提「split/true/anomalous」三群新制。）
 - **LAD 與 PDA 互為代償（reciprocal）**：LAD 繞心尖供應下壁心尖段時較長，則 PDA 較短，反之亦然——一長一短、此消彼長。[^rg]
 - **single coronary artery**：單一冠狀動脈幹自主動脈發出供應全心；依起源、分支型態與走行分類（Lipton 分型），多為偶然發現，但若異常段走 interarterial 仍具臨床意義。[^single]
 
@@ -88,6 +88,7 @@ dateRev: 2026-06-29
 [^aorl]: 期刊原著（article 級）。Lee HJ, et al. Anomalous origin of the RCA from the left coronary sinus with an interarterial course: subtypes and clinical importance. *Radiology* 2011;262(1):101-8. doi:10.1148/radiol.11110823（PMID 22056684）— high interarterial（aorta–PA 間）vs low interarterial（aorta–RVOT 間）；typical angina 43% vs 6%、MACE 28% vs 6%，high 型風險顯著較高。
 [^single]: 期刊綜論（article 級）。Aldana-Sepulveda N, et al. Single coronary artery: spectrum of imaging findings with multidetector CT. *J Cardiovasc Comput Tomogr* 2013;7(6):391-9. doi:10.1016/j.jcct.2013.11.009（PMID 24331935）— single coronary artery 依起源/分支/走行分類（Lipton），多為偶然發現。
 [^q]: 官方 2017 詳解（考題事實基礎）：myocardial bridging 好發 LAD 中段;dual LAD 分型 I–IV;LAD 與 PDA 代償關係。
+[^dlad]: **dual LAD 分型出處（全文實查 2026-07-14，via PMC 免費全文）** Jariwala P, Jadhav KP, Koduganti S. *Dual left anterior descending artery: diagnostic criteria and novel classification*. Indian J Thorac Cardiovasc Surg 2021;37(3):285-294. DOI 10.1007/s12055-020-01102-z（PMC8079599，PMID 33967416）——明載 dual LAD 之原始數字分類（type I–IV）出自 **Spindola-Franco H, et al. Am Heart J 1983;105:445-455**（非 Yamanaka），其後 type V–XII 由他人陸續擴增；本文另提「split／true／anomalous」三群新制取代過度膨脹的數字分類。⚠️ 本文未列各 type I–IV 之逐一走行定義、亦未提 myocardial bridging；欲引 type I–IV 完整定義應追 Spindola-Franco 1983 原文。
 
 ## 考題
 ```dataview
