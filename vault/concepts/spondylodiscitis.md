@@ -9,7 +9,7 @@ aliases:
   - infectious spondylitis
   - Modic type 1
   - 椎間盤炎
-dateRev: 2026-06-18
+dateRev: 2026-07-14
 ---
 
 # spondylodiscitis
@@ -41,7 +41,7 @@ dateRev: 2026-06-18
 > **椎間盤內 T2 高訊號（high signal within the disc）**——感染才有(含椎間盤強化、核間裂消失、終板破壞);Modic 1 椎間盤訊號正常。椎間盤高度降低、終板輕度不規則、終板 T2 高訊號等在兩者皆可見,鑑別力低。[^1]
 
 ### 參考來源
-[^1]: *Spondylodiscitis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**T2: high signal in disc space (fluid)**; high signal in adjacent endplates; loss of low signal cortex at endplates ... **intervertebral disc enhancement** with contrast」;MRI 敏感度 >95%、特異度 >90%。另 RadioGraphics（題目所引）。
+[^1]: *Spondylodiscitis*. Radiopaedia.org（實際查證 accessed 2026-06-18）：「**T2: high signal in disc space (fluid)**; high signal in adjacent endplates; loss of low signal cortex at endplates ... **intervertebral disc enhancement** with contrast」;MRI 敏感度 >95%、特異度 >90%。**Tier 1（全文實查 2026-07-14，via 醫師登入 pubs.rsna.org）** Laur O, Mandell JC, Titelbaum DS, et al. *Acute Nontraumatic Back Pain: Infections and Mimics*. RadioGraphics 2019;39(1), DOI 10.1148/rg.2019180077——早期 spondylodiscitis：終板破壞、iliopsoas 水腫、epidural phlegmon、MRI psoas sign（可作切片標的）；DWI「claw sign」對排除感染有高 NPV，終板水腫內出現擴散受限則高度疑感染；非感染 mimics 含 **Modic type 1**、acute Schmorl node、Andersson lesion、SAPHO。另 **Tier 1** Thompson KJ, et al. *Modic Changes on MR Images as Studied with Provocative Diskography*. Radiology 2009;250(3), DOI 10.1148/radiol.2503080474——Modic type 1＝T1 低/T2 高終板（發炎/新生血管），type 2 脂肪、type 3 硬化。
 
 ## 考題
 ```dataview
