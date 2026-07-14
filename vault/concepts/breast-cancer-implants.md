@@ -6,7 +6,7 @@ aliases:
   - breast cancer implants
   - augmented breast cancer
   - 隆乳乳癌
-dateRev: 2026-06-29
+dateRev: 2026-07-14
 ---
 
 # breast-cancer-implants
@@ -75,7 +75,7 @@ dateRev: 2026-06-29
 - **篩檢限制總結**：植入物遮蔽腺體 → 乳攝敏感度下降 → 偵測到的癌偏向可觸及；矽膠破裂在乳攝上常無法判讀，須以 MRI／超音波補強。[^3][^5]
 
 ### 參考來源
-[^1]: 隆乳婦女乳癌影像特徵（題目所引 RadioGraphics／augmented breast imaging 文獻）：分期分布與篩檢族群相近;偵測到的癌多為可觸及;多為不規則非清楚邊界強化腫塊;subglandular 植入物較易見沿輪廓擴散。
+[^1]: **Tier 1（AJR 全文實查 2026-07-14，via 院內）** Mango VL, Kaplan J, Sung JS, Moskowitz CS, Dershaw DD, Morris EA. *Breast Carcinoma in Augmented Breasts: MRI Findings*. AJR Am J Roentgenol 2015;204(5), DOI 10.2214/AJR.14.13221（n=54 切片證實之隆乳乳癌回顧）：**偵測到的癌 70%（38/54）為可觸及**（其他研究 55–97%）；**63%（34/54）呈 mass enhancement，其中 shape irregular 88%、margin non-circumscribed 100%；另 37% 為 nonmass enhancement**（故「多為不規則非清楚邊界腫塊」僅約 6 成、非全部）；**37%（20/54）腫瘤 abut 植入物，其中 90%（18/20）沿包膜擴散 >0.5 cm，retroglandular 位置較 retropectoral 更常見（56% vs 24%，p=0.03）**。（原「題目所引 RadioGraphics/augmented breast imaging」弱佔位已由本 AJR 原始研究升級。）
 [^2]: Balk EM et al. 系統性回顧／meta-analysis（如 Aesthet Surg J. 2015;35(1):55-62）：現有證據未顯示乳房植入物增加乳癌發生率。
 [^3]: Tier 2｜AJR Challenges in Mammography Part 2: Multimodality Review of Breast Augmentation—Imaging Findings and Complications（doi:10.2214/AJR.11.7216）＋Applied Radiology, Cosmetic Breast Augmentation: A Review of Mammographic Findings：saline 乳攝呈周邊緻密外殼＋中央透亮填充閥的卵圓腫塊；silicone 因密度高乳攝無法顯示外殼皺褶；subglandular（胸大肌前）vs subpectoral（胸大肌後）位置判定。
 [^4]: Tier 1｜RadioGraphics, MRI for Evaluation of Complications of Breast Augmentation（doi:10.1148/rg.210096）：纖維包膜為 intra- vs extracapsular 分界；intracapsular rupture 之 linguine／subcapsular line／keyhole（noose）／teardrop 徵；extracapsular rupture 矽膠外漏成肉芽腫與淋巴結受累；radial fold 與破裂的鑑別（兩側矽膠訊號）。
