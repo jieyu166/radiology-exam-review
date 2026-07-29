@@ -284,6 +284,25 @@ def run_validate_batch_cli(
     return exit_code, output.getvalue()
 
 
+def load_real_batch_and_notes() -> tuple[dict, dict[str, audit.NoteRecord]]:
+    root = Path(__file__).resolve().parents[1]
+    report = json.loads(
+        (
+            root / "docs" / "reports" / "nr-summary-rewrite" / "batch-00.json"
+        ).read_text(encoding="utf-8")
+    )
+    notes = {
+        slug: audit.parse_note(root / "vault" / "concepts" / f"{slug}.md")
+        for slug in PILOT_SLUGS
+    }
+    return report, notes
+
+
+def reseal_report(report: dict) -> None:
+    for entry in report["notes"]:
+        seal_entry(entry)
+
+
 def set_fact_state(
     report: dict,
     *,
@@ -639,6 +658,47 @@ def test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_upd
     assert exit_code == 1
     assert "summary-bullet-unsupported" in output
     assert "evidence-validation" in output
+
+
+def test_trusted_baseline_anchor_rejects_coordinated_batch_reseal() -> None:
+    report, notes = load_real_batch_and_notes()
+    entry = report["notes"][0]
+    entry["originalSummary"] += "\nCoordinated baseline mutation."
+    entry["factUnits"][0]["text"] = "Coordinated fact-text mutation."
+    entry["factUnits"][0]["sourceRefs"] = ["1", "3"]
+    reseal_report(report)
+
+    findings = audit.validate_evidence(report, notes)
+
+    assert {finding.code for finding in findings} == {
+        "evidence-trusted-baseline-mismatch"
+    }
+
+
+def test_trusted_summary_anchor_rejects_coordinated_existing_bullet_reseal() -> None:
+    report, notes = load_real_batch_and_notes()
+    entry = report["notes"][0]
+    note = notes[entry["slug"]]
+    original_bullet = audit._summary_bullet_lines(note)[0]
+    changed_bullet = original_bullet.replace("**", "**Mutated ", 1)
+    changed_text = note.path.read_text(encoding="utf-8").replace(
+        original_bullet,
+        changed_bullet,
+        1,
+    )
+    changed_note = audit.parse_note_text(note.path, changed_text)
+    notes[entry["slug"]] = changed_note
+    entry["rewrittenSummary"] = changed_note.original_summary
+    entry["summaryBulletEvidence"][0]["sha256"] = hashlib.sha256(
+        changed_bullet.encode("utf-8")
+    ).hexdigest()
+    reseal_report(report)
+
+    findings = audit.validate_evidence(report, notes)
+
+    assert {finding.code for finding in findings} == {
+        "evidence-trusted-summary-bullet-mismatch"
+    }
 
 
 def test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths() -> None:
@@ -1242,6 +1302,8 @@ def run_smoke() -> None:
     test_validate_batch_cli_rejects_rewritten_summary_drift()
     test_validate_batch_cli_rejects_final_integrity_mutations()
     test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated()
+    test_trusted_baseline_anchor_rejects_coordinated_batch_reseal()
+    test_trusted_summary_anchor_rejects_coordinated_existing_bullet_reseal()
     test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths()
     test_validate_batch_cli_allow_pending_retains_mutation_findings()
     test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one()

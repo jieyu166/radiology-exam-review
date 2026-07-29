@@ -68,6 +68,41 @@ PILOT_SLUGS = frozenset(
     }
 )
 
+# Reviewed trust roots are deliberately stored in code, outside mutable batch
+# evidence.  Task 3 provenance: commit 8dca155, batch blob
+# 650229dda33a31dfc816f54418db394356d47dc5.  Task 4 research added only the
+# source references listed below; originalSummary, fact IDs, and fact texts
+# remain byte-for-byte equivalent to that Task 3 baseline.
+TRUSTED_TASK3_BASELINE_EVIDENCE_SHA256 = (
+    "c4eee7a9869f944b7bb1481e018999eef30013c47deb023efaa3cfac055ba071"
+)
+TRUSTED_REVIEWED_BASELINE_EVIDENCE_SHA256 = (
+    "b2cff4944bf07fa9eb99eaf0ba183bd79d397d528b4d9b7199f9ba576e20d1fe"
+)
+TRUSTED_FINAL_SUMMARY_BULLET_EVIDENCE_SHA256 = (
+    "b632ffec59156e3b25c2d011daeb1a0c42dd09dd90449d058d5974e8de343412"
+)
+TRUSTED_TASK4_SOURCE_REF_ADDITIONS = {
+    "artery-of-adamkiewicz-f05": frozenset({"8"}),
+    "artery-of-adamkiewicz-f09": frozenset({"9"}),
+    "aspects-score-f24": frozenset({"9"}),
+    "aspects-score-f25": frozenset({"9"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f04": frozenset({"6", "10"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f05": frozenset({"6"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f06": frozenset({"6"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f07": frozenset({"7"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f08": frozenset({"7"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f09": frozenset({"8", "9"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f10": frozenset({"8"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f11": frozenset({"8"}),
+    "bilateral-subcortical-dwi-hyperintensity-ddx-f12": frozenset({"8", "9"}),
+    "cerebral-amyloid-angiopathy-f10": frozenset({"9"}),
+    "cpa-masses-f01": frozenset({"6"}),
+    "cpa-masses-f06": frozenset({"6"}),
+    "cpa-masses-f12": frozenset({"6"}),
+    "cpa-masses-f16": frozenset({"6"}),
+}
+
 # Every value in this map was assigned by reviewing the corresponding note.
 # Inventory generation performs a direct lookup only; it deliberately contains
 # no filename, heading, or medical-keyword inference fallback.
@@ -550,6 +585,160 @@ def _coverage_evidence_sha256(entry: dict) -> str:
     )
 
 
+def _unique_batch_entry(report: dict, slug: str) -> dict | None:
+    report_notes = report.get("notes")
+    if not isinstance(report_notes, list):
+        return None
+    matches = [
+        entry
+        for entry in report_notes
+        if isinstance(entry, dict) and entry.get("slug") == slug
+    ]
+    return matches[0] if len(matches) == 1 else None
+
+
+def _reviewed_baseline_evidence_sha256(
+    report: dict,
+    *,
+    task3_projection: bool,
+) -> str:
+    note_payloads = []
+    for slug in sorted(PILOT_SLUGS):
+        entry = _unique_batch_entry(report, slug)
+        if entry is None:
+            note_payloads.append({"slug": slug, "originalSummary": None, "factUnits": None})
+            continue
+        fact_units = entry.get("factUnits")
+        stable_facts = []
+        if isinstance(fact_units, list):
+            for fact in fact_units:
+                if not isinstance(fact, dict):
+                    stable_facts.append(None)
+                    continue
+                source_refs = fact.get("sourceRefs")
+                if task3_projection and isinstance(source_refs, list):
+                    reviewed_additions = TRUSTED_TASK4_SOURCE_REF_ADDITIONS.get(
+                        fact.get("id"),
+                        frozenset(),
+                    )
+                    source_refs = [
+                        source_ref
+                        for source_ref in source_refs
+                        if source_ref not in reviewed_additions
+                    ]
+                stable_facts.append(
+                    {
+                        "id": fact.get("id"),
+                        "text": fact.get("text"),
+                        "sourceRefs": source_refs,
+                    }
+                )
+        else:
+            stable_facts = None
+        note_payloads.append(
+            {
+                "slug": slug,
+                "originalSummary": entry.get("originalSummary"),
+                "factUnits": stable_facts,
+            }
+        )
+    return _canonical_sha256({"batch": "batch-00", "notes": note_payloads})
+
+
+def _final_summary_bullet_evidence_sha256(
+    report: dict,
+    notes: dict[str, NoteRecord],
+) -> str:
+    note_payloads = []
+    for slug in sorted(PILOT_SLUGS):
+        entry = _unique_batch_entry(report, slug)
+        note = notes.get(slug)
+        evidence = entry.get("summaryBulletEvidence") if entry is not None else None
+        bullet_payloads = []
+        if note is not None:
+            for index, bullet in enumerate(_summary_bullet_lines(note)):
+                evidence_record = (
+                    evidence[index]
+                    if isinstance(evidence, list)
+                    and index < len(evidence)
+                    and isinstance(evidence[index], dict)
+                    else None
+                )
+                bullet_payloads.append(
+                    {
+                        "text": bullet,
+                        "factIds": (
+                            evidence_record.get("factIds")
+                            if evidence_record is not None
+                            else None
+                        ),
+                    }
+                )
+        else:
+            bullet_payloads = None
+        note_payloads.append({"slug": slug, "summaryBullets": bullet_payloads})
+    return _canonical_sha256({"batch": "batch-00", "notes": note_payloads})
+
+
+def _uses_checked_in_pilot_notes(notes: dict[str, NoteRecord]) -> bool:
+    if set(notes) != PILOT_SLUGS:
+        return False
+    concepts_root = Path(__file__).resolve().parents[1] / "vault" / "concepts"
+    for slug in PILOT_SLUGS:
+        note = notes.get(slug)
+        expected_path = concepts_root / f"{slug}.md"
+        if note is None or note.path.resolve() != expected_path.resolve():
+            return False
+    return True
+
+
+def _trusted_evidence_anchor_findings(
+    report: dict,
+    notes: dict[str, NoteRecord],
+    batch_path: str,
+) -> list[Finding]:
+    if not _uses_checked_in_pilot_notes(notes):
+        return []
+    findings: list[Finding] = []
+    task3_digest = _reviewed_baseline_evidence_sha256(
+        report,
+        task3_projection=True,
+    )
+    reviewed_digest = _reviewed_baseline_evidence_sha256(
+        report,
+        task3_projection=False,
+    )
+    if (
+        task3_digest != TRUSTED_TASK3_BASELINE_EVIDENCE_SHA256
+        or reviewed_digest != TRUSTED_REVIEWED_BASELINE_EVIDENCE_SHA256
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "evidence-trusted-baseline-mismatch",
+                batch_path,
+                (
+                    "The recomputed immutable baseline evidence differs from the "
+                    "reviewed code trust anchors."
+                ),
+            )
+        )
+    final_summary_digest = _final_summary_bullet_evidence_sha256(report, notes)
+    if final_summary_digest != TRUSTED_FINAL_SUMMARY_BULLET_EVIDENCE_SHA256:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-trusted-summary-bullet-mismatch",
+                batch_path,
+                (
+                    "The recomputed current Summary bullets and fact mappings differ "
+                    "from the reviewed code trust anchor."
+                ),
+            )
+        )
+    return findings
+
+
 def _summary_bullet_lines(note: NoteRecord) -> list[str]:
     bullets: list[str] = []
     for section in note.summaries:
@@ -610,6 +799,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
             Finding("error", "evidence-notes", batch_path, "Batch notes must be an array.")
         )
         return findings
+    findings.extend(_trusted_evidence_anchor_findings(report, notes, batch_path))
 
     slugs = [
         entry.get("slug")
