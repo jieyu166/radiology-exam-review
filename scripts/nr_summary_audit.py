@@ -1346,6 +1346,236 @@ def build_phase2_pending_evidence_scaffold_bytes(
     )
 
 
+def phase2_coverage_evidence_sha256(
+    baseline_lock_sha256: str, entry: Mapping[str, object]
+) -> str:
+    """Return the Task 2 note-local checksum defined by the Phase 2 design."""
+    facts = entry.get("facts")
+    fact_projection = []
+    for fact in facts if isinstance(facts, list) else []:
+        if not isinstance(fact, Mapping):
+            fact_projection.append(None)
+            continue
+        fact_projection.append(
+            {
+                "id": fact.get("id"),
+                "sourceRefs": fact.get("sourceRefs"),
+                "disposition": fact.get("disposition"),
+            }
+        )
+    return _canonical_sha256(
+        {
+            "baselineLockSha256": baseline_lock_sha256,
+            "slug": entry.get("slug"),
+            "rewrittenSummary": entry.get("rewrittenSummary"),
+            "facts": fact_projection,
+            "sourceDefinitions": entry.get("sourceDefinitions"),
+            "summaryBulletEvidence": entry.get("summaryBulletEvidence"),
+            "newUnsupportedFacts": entry.get("newUnsupportedFacts"),
+            "validation": entry.get("validation"),
+        }
+    )
+
+
+def _phase2_reconstructed_original_sha256(
+    context: BatchContext, locked: Mapping[str, object], note: NoteRecord
+) -> str | None:
+    """Restore the locked Summary in memory and hash the complete source bytes."""
+    path = context.repo_root / note.path
+    try:
+        current_bytes = path.read_bytes()
+        current_text = current_bytes.decode("utf-8")
+    except (OSError, UnicodeDecodeError):
+        return None
+    current_summary = note.original_summary
+    locked_summary = locked.get("originalSummary")
+    if (
+        not isinstance(locked_summary, str)
+        or not current_summary
+        or current_text.count(current_summary) != 1
+    ):
+        return None
+    restored = current_text.replace(current_summary, locked_summary, 1)
+    return hashlib.sha256(restored.encode("utf-8")).hexdigest()
+
+
+def build_phase2_rewrite_evidence(
+    context: BatchContext,
+    *,
+    implementer: str,
+    reviewer: str,
+    research_needed_fact_ids: Sequence[str] = (),
+) -> dict:
+    """Build deterministic pre-review evidence from the lock and current notes."""
+    if (
+        not isinstance(context.baseline, dict)
+        or PHASE2_RUN_ID_RE.fullmatch(implementer) is None
+        or PHASE2_RUN_ID_RE.fullmatch(reviewer) is None
+        or implementer == reviewer
+    ):
+        raise ValueError(
+            "A loaded baseline and distinct canonical workflow identities are required."
+        )
+    baseline_findings = validate_baseline_lock(context)
+    if _findings_have_errors(baseline_findings):
+        raise ValueError("The trusted baseline must validate before evidence is built.")
+
+    requested_unresolved = list(research_needed_fact_ids)
+    if (
+        any(not isinstance(fact_id, str) for fact_id in requested_unresolved)
+        or requested_unresolved != sorted(set(requested_unresolved))
+    ):
+        raise ValueError("research_needed_fact_ids must be sorted and unique.")
+    all_locked_ids = {
+        fact["id"]
+        for locked in context.baseline["notes"]
+        for fact in locked["factUnits"]
+    }
+    if not set(requested_unresolved) <= all_locked_ids:
+        raise ValueError("A research-needed fact ID is absent from the baseline.")
+    unresolved_set = set(requested_unresolved)
+    baseline_digest = _canonical_sha256(context.baseline)
+    evidence_notes = []
+
+    for locked in context.baseline["notes"]:
+        slug = locked["slug"]
+        note = context.note_records[slug]
+        if (
+            _phase2_reconstructed_original_sha256(context, locked, note)
+            != locked["originalSha256"]
+        ):
+            raise ValueError(
+                f"Bytes outside the accepted Summary changed for {slug!r}."
+            )
+        summary_findings = validate_summary(note)
+        if summary_findings:
+            raise ValueError(f"Current Summary is not strict for {slug!r}.")
+
+        rendered = _rendered_footnote_definitions(context.repo_root / note.path)
+        facts = []
+        referenced: list[str] = []
+        dispositions = []
+        for locked_fact in locked["factUnits"]:
+            fact_id = locked_fact["id"]
+            locked_refs = list(locked_fact["sourceRefs"])
+            disposition = (
+                "research-needed" if fact_id in unresolved_set else "covered"
+            )
+            if disposition == "covered" and not locked_refs:
+                raise ValueError(
+                    f"Covered fact {fact_id!r} has no verified source reference."
+                )
+            source_refs = [] if disposition == "research-needed" else locked_refs
+            if any(ref not in rendered for ref in source_refs):
+                raise ValueError(f"A source footnote is undefined for {fact_id!r}.")
+            for ref in source_refs:
+                if ref not in referenced:
+                    referenced.append(ref)
+            facts.append(
+                {
+                    "id": fact_id,
+                    "sourceRefs": source_refs,
+                    "disposition": disposition,
+                }
+            )
+            dispositions.append(disposition)
+
+        covered = dispositions.count("covered")
+        research_needed = dispositions.count("research-needed")
+        manual_review = dispositions.count("manual-review")
+        validation = {
+            "hashMatches": True,
+            "losslessSummaryMatches": True,
+            "allSourceRefsDefined": True,
+            "structure": {"errors": 0, "codes": []},
+            "footnotes": {"errors": 0, "codes": []},
+            "factCoverage": {
+                "total": len(facts),
+                "covered": covered,
+                "researchNeeded": research_needed,
+                "manualReview": manual_review,
+            },
+        }
+        entry = {
+            "slug": slug,
+            "sourceStatus": (
+                "research-needed" if research_needed else "existing-sufficient"
+            ),
+            "status": "research-needed" if research_needed else "verified",
+            "rewrittenSummary": note.original_summary,
+            "facts": facts,
+            "sourceDefinitions": {
+                ref: {
+                    "kind": "existing-footnote",
+                    "locator": ref,
+                    "citation": rendered[ref],
+                }
+                for ref in referenced
+            },
+            "newUnsupportedFacts": 0,
+            "validation": validation,
+            "summaryBulletEvidence": _generated_keypoints(note),
+        }
+        entry["coverageEvidenceSha256"] = phase2_coverage_evidence_sha256(
+            baseline_digest, entry
+        )
+        evidence_notes.append(entry)
+
+    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    sequence = batch_ids.index(context.batch["id"]) + 1
+    unresolved = sorted(
+        fact["id"]
+        for entry in evidence_notes
+        for fact in entry["facts"]
+        if fact["disposition"] in {"research-needed", "manual-review"}
+    )
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2-batch-evidence",
+        "batch": context.batch["id"],
+        "scope": "NR",
+        "baselineLock": {
+            "path": context.baseline_path.as_posix(),
+            "sha256": baseline_digest,
+        },
+        "status": "needs-review" if unresolved else "verified",
+        "workflow": {
+            "sequence": sequence,
+            "predecessor": batch_ids[sequence - 2] if sequence > 1 else None,
+            "implementer": implementer,
+            "reviewer": reviewer,
+            "reviewStatus": "not-started",
+            "reviewedBaselineSha256": None,
+        },
+        "notes": evidence_notes,
+        "manualReviewFactIds": unresolved,
+        "generatedManifest": (
+            context.baseline_path.parent.parent
+            / "generated"
+            / f"{context.batch['id']}.json"
+        ).as_posix(),
+    }
+
+
+def build_phase2_rewrite_evidence_bytes(
+    context: BatchContext,
+    *,
+    implementer: str,
+    reviewer: str,
+    research_needed_fact_ids: Sequence[str] = (),
+) -> bytes:
+    """Return deterministic pretty-printed pre-review evidence bytes."""
+    evidence = build_phase2_rewrite_evidence(
+        context,
+        implementer=implementer,
+        reviewer=reviewer,
+        research_needed_fact_ids=research_needed_fact_ids,
+    )
+    return (json.dumps(evidence, ensure_ascii=False, indent=2) + "\n").encode(
+        "utf-8"
+    )
+
+
 def _phase2_trust_registry_is_valid(context: BatchContext) -> bool:
     """Reject missing/unknown/early registry entries independently of lock data."""
     registry = TRUSTED_PHASE2A_BATCH_LOCK_SHA256
@@ -2392,9 +2622,15 @@ def validate_phase2_batch(
             )
         definitions = entry.get("sourceDefinitions")
         definitions = definitions if isinstance(definitions, dict) else {}
+        rendered_definitions = (
+            _rendered_footnote_definitions(context.repo_root / note.path)
+            if note is not None
+            else {}
+        )
         current_summary_findings = validate_summary(note) if note is not None else []
         findings.extend(current_summary_findings)
         local_dispositions = []
+        referenced_source_refs: list[str] = []
         for fact in facts if isinstance(facts, list) else []:
             if not isinstance(fact, dict):
                 continue
@@ -2412,9 +2648,17 @@ def validate_phase2_batch(
             if disposition in {"research-needed", "manual-review"}:
                 unresolved.append(fact.get("id"))
             refs = fact.get("sourceRefs")
-            if not isinstance(refs, list) or not refs or any(
-                ref not in definitions for ref in refs
-            ):
+            refs_valid = (
+                isinstance(refs, list)
+                and all(isinstance(ref, str) and ref for ref in refs)
+                and len(refs) == len(set(refs))
+                and (
+                    disposition in {"research-needed", "manual-review"}
+                    or bool(refs)
+                )
+                and all(ref in definitions for ref in refs)
+            )
+            if not refs_valid:
                 findings.append(
                     Finding(
                         "error",
@@ -2424,6 +2668,8 @@ def validate_phase2_batch(
                     )
                 )
             for ref in refs if isinstance(refs, list) else []:
+                if ref not in referenced_source_refs:
+                    referenced_source_refs.append(ref)
                 definition = definitions.get(ref)
                 if (
                     not isinstance(definition, dict)
@@ -2435,6 +2681,14 @@ def validate_phase2_batch(
                     or not definition["citation"].strip()
                     or note is None
                     or ref not in note.footnote_defs
+                    or (
+                        definition.get("kind") == "existing-footnote"
+                        and (
+                            definition.get("locator") != ref
+                            or definition.get("citation")
+                            != rendered_definitions.get(ref)
+                        )
+                    )
                 ):
                     findings.append(
                         Finding(
@@ -2444,6 +2698,15 @@ def validate_phase2_batch(
                             f"Source definition {ref!r} is malformed or not rendered.",
                         )
                     )
+        if list(definitions) != referenced_source_refs:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-source-definition",
+                    path,
+                    f"Source definitions for {slug!r} are not exactly derived.",
+                )
+            )
         if entry.get("newUnsupportedFacts") != 0:
             findings.append(
                 Finding(
@@ -2527,6 +2790,20 @@ def validate_phase2_batch(
                     "evidence-rewritten-summary-mismatch",
                     path,
                     f"Summary bullet evidence for {slug!r} differs from source.",
+                )
+            )
+        if (
+            not isinstance(entry.get("coverageEvidenceSha256"), str)
+            or SHA256_RE.fullmatch(entry["coverageEvidenceSha256"]) is None
+            or entry["coverageEvidenceSha256"]
+            != phase2_coverage_evidence_sha256(baseline_digest or "", entry)
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-evidence-schema",
+                    path,
+                    f"Coverage checksum for {slug!r} is not derived.",
                 )
             )
         if (
@@ -4849,11 +5126,67 @@ def validate_inventory(inventory: object) -> list[Finding]:
     return findings
 
 
+def _trusted_phase2_inventory_hashes(
+    notes: Mapping[str, NoteRecord],
+    *,
+    repo_root: Path | None = None,
+) -> dict[str, str]:
+    """Load note hashes only from code-sealed Phase 2 baseline locks."""
+    absolute_roots = (
+        {repo_root.resolve()}
+        if repo_root is not None
+        else {
+            note.path.parents[2]
+            for note in notes.values()
+            if note.path.is_absolute()
+            and len(note.path.parents) >= 3
+            and note.path.parent.name == "concepts"
+            and note.path.parent.parent.name == "vault"
+        }
+    )
+    if len(absolute_roots) != 1:
+        return {}
+    repo_root = next(iter(absolute_roots))
+    trusted_hashes: dict[str, str] = {}
+    for batch_id, trusted_digest in TRUSTED_PHASE2A_BATCH_LOCK_SHA256.items():
+        baseline_path = (
+            repo_root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "baselines"
+            / f"{batch_id}.json"
+        )
+        try:
+            baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+            continue
+        if (
+            not isinstance(baseline, dict)
+            or baseline.get("batch") != batch_id
+            or _canonical_sha256(baseline) != trusted_digest
+            or not isinstance(baseline.get("notes"), list)
+        ):
+            continue
+        for entry in baseline["notes"]:
+            if (
+                isinstance(entry, dict)
+                and isinstance(entry.get("slug"), str)
+                and isinstance(entry.get("originalSha256"), str)
+                and SHA256_RE.fullmatch(entry["originalSha256"]) is not None
+            ):
+                trusted_hashes[entry["slug"]] = entry["originalSha256"]
+    return trusted_hashes
+
+
 def validate_inventory_against_notes(
     inventory: object,
     notes: dict[str, NoteRecord],
+    *,
+    repo_root: Path | None = None,
 ) -> list[Finding]:
-    """Validate inventory coverage against reviewed pilot and current nonpilot hashes."""
+    """Validate inventory against pilot, sealed Phase 2, or current hashes."""
     findings = validate_inventory(inventory)
     if not isinstance(inventory, dict):
         return findings
@@ -4917,6 +5250,10 @@ def validate_inventory_against_notes(
             )
         )
 
+    trusted_phase2_hashes = _trusted_phase2_inventory_hashes(
+        nr_notes,
+        repo_root=repo_root,
+    )
     for slug in sorted(set(nr_notes) & inventory_slugs):
         entry = entries_by_slug[slug]
         note = nr_notes[slug]
@@ -4942,7 +5279,9 @@ def validate_inventory_against_notes(
                         ),
                     )
                 )
-        elif entry.get("originalSha256") != note.sha256:
+        elif entry.get("originalSha256") != trusted_phase2_hashes.get(
+            slug, note.sha256
+        ):
             findings.append(
                 _inventory_finding(
                     "inventory-hash-mismatch",
@@ -4995,6 +5334,27 @@ def _apply_trusted_inventory_hashes(
         trusted_hash = TRUSTED_PILOT_ORIGINAL_SHA256.get(slug)
         if trusted_hash is not None:
             entry["originalSha256"] = trusted_hash
+    return generated
+
+
+def _apply_trusted_phase2_inventory_hashes(
+    generated: dict,
+    notes: Mapping[str, NoteRecord],
+    *,
+    repo_root: Path,
+) -> dict:
+    """Keep code-sealed Phase 2 original hashes in regenerated inventory."""
+    trusted = _trusted_phase2_inventory_hashes(notes, repo_root=repo_root)
+    entries = generated.get("notes")
+    if not isinstance(entries, list):
+        return generated
+    for entry in entries:
+        if (
+            isinstance(entry, dict)
+            and isinstance(entry.get("slug"), str)
+            and entry["slug"] in trusted
+        ):
+            entry["originalSha256"] = trusted[entry["slug"]]
     return generated
 
 
@@ -5335,6 +5695,7 @@ def _load_batch_notes(
         validate_inventory_against_notes(
             inventory,
             inventory_notes,
+            repo_root=repo_root,
         )
     )
     for entry in sorted(pilot_entries, key=lambda item: item["slug"]):
@@ -5484,6 +5845,17 @@ def main(argv: Sequence[str] | None = None) -> int:
             expected,
             PILOT_SLUGS,
         )
+        inventory_repo_root = (
+            args.root.resolve().parents[1]
+            if args.root.name == "concepts"
+            and args.root.parent.name == "vault"
+            else args.root.resolve()
+        )
+        expected = _apply_trusted_phase2_inventory_hashes(
+            expected,
+            notes,
+            repo_root=inventory_repo_root,
+        )
         if args.check:
             if not args.output.is_file():
                 print(f"Inventory output does not exist: {args.output}")
@@ -5504,6 +5876,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             findings = validate_inventory_against_notes(
                 report,
                 notes,
+                repo_root=inventory_repo_root,
             )
             checked_expected = expected
             assignment_path = args.output.with_name("phase2-assignment.json")
@@ -5545,6 +5918,7 @@ def main(argv: Sequence[str] | None = None) -> int:
         findings = validate_inventory_against_notes(
             report,
             notes,
+            repo_root=inventory_repo_root,
         )
         if findings:
             _print_inventory_counts(report)

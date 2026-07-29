@@ -14,13 +14,14 @@ dateRev: 2026-07-10
 **臂神經叢的常見起源是 C5–T1 五條神經根（C4 屬變異 prefixed plexus）。** 判讀分水嶺一：**Roots（C5–T1）→ Trunks（upper C5-6／middle C7／lower C8-T1）→ Divisions（各分前後股）→ Cords（lateral／posterior／medial，依與腋動脈關係命名）→ Branches**;判讀分水嶺二：**prefixed plexus 多 C4 貢獻、postfixed 多 T2 貢獻**。
 
 ## Summary
-- **常見起源**：**C5、C6、C7、C8、T1 五條腹支（ventral rami）**;C4 非常見起源;位於頸部延伸至腋部、鎖骨後方。[^1][^2]
-- **層次（roots→branches）**：[^1]
-  - **Trunks**：upper（C5-6）、middle（C7）、lower（C8-T1）。
-  - **Divisions**：各 trunk 分 anterior／posterior division（位鎖骨後）。
-  - **Cords**：lateral、posterior、medial（依與**腋動脈**的位置命名）。
-- **變異**：**prefixed（C4 參與）／postfixed（T2 參與）**。[^1]
-- **影像**：MR neurography（冠狀 STIR/T2）顯示自椎間孔出根、經斜角肌間隙、鎖骨下至腋部;外傷看根撕脫（pseudomeningocele）。[^1]
+- **常見起源**：C5、C6、C7、C8、T1 五條腹支（ventral rami）；C4 非常見起源。[^1][^2]
+- **位置**：位於頸部並延伸至腋部、鎖骨後方。[^1][^2]
+- **Trunks**：upper（C5-6）、middle（C7）、lower（C8-T1）。[^1]
+- **Divisions**：各 trunk 分 anterior 與 posterior division，位於鎖骨後。[^1]
+- **Cords**：lateral、posterior、medial，依其與腋動脈的位置命名。[^1]
+- **變異**：prefixed 為 C4 參與；postfixed 為 T2 參與。[^1]
+- **MR neurography**：冠狀 STIR/T2 顯示神經根自椎間孔出、經斜角肌間隙、鎖骨下至腋部。[^1]
+- **外傷提示**：根撕脫可見 pseudomeningocele。[^1]
 
 ## 放射科醫師影像判讀重點
 - **MRI 為首選（van Es）**：**MRI 為顯示臂神經叢解剖與病理之首選模態**——神經與周圍脂肪之天然對比使 **roots/trunks/divisions/cords** 清楚可辨；冠狀斜面薄層 T1（解剖）＋脂抑 T2/STIR（病灶）為核心序列。[^3]

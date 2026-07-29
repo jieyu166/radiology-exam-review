@@ -14,13 +14,13 @@ dateRev: 2026-07-02
 **「Fogging effect(霧化效應)」是腦梗塞演變的陷阱：亞急性期(約發病第2週)梗塞區在CT一過性回到接近正常密度(hypoattenuation暫時消失)、MR T2訊號一過性減低，使梗塞『看似消失』而易漏診。發生於約發病後6-36天(中位10天)、約50%病人。**
 
 ## Summary
-- **Fogging effect定義（本題正解）**：亞急性期梗塞區於**CT呈一過性等密度(hypoattenuation消失)、MR上T2訊號一過性減低**——即「T2 signal loss on MR or hypoattenuation resolution on CT during the second week post-ictus」，使梗塞看似消失。[^1]
-- **時機**：約發病後**6-36天(中位約10天)**，一系列30病人約**50%**出現某程度fogging。[^1]
-- **機轉**：巨噬細胞浸潤、微血管增生、水腫消退，使密度/訊號一過性回到接近正常。[^1]
-- **臨床意義**：此期單靠平掃CT可能漏診梗塞；需結合病史、增強或DWI/追蹤影像。[^1]
-
-> [!note] 考點：「fogging of a cerebral infarction」指？
-> **The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus（B）**——亞急性期(約第2週)梗塞區訊號/密度一過性回到接近正常而看似消失。非CT首24小時診斷困難(A)、非再灌流瀰漫實質強化(C)、非慢性期(D)。[^1]
+- **Fogging effect 定義**：亞急性期梗塞區在 CT 呈一過性等密度（hypoattenuation 消失）、MR T2 訊號一過性減低，即「T2 signal loss on MR or hypoattenuation resolution on CT during the second week post-ictus」，使梗塞看似消失。[^1]
+- **時機與比例**：約發病後 6-36 天（中位約 10 天），一系列 30 名病人約 50% 出現某程度 fogging。[^1]
+- **機轉**：巨噬細胞浸潤、微血管增生與水腫消退，使密度或訊號一過性回到接近正常。[^1]
+- **漏診風險**：此期單靠平掃 CT 可能漏診梗塞。[^1]
+- **判讀策略**：需結合病史、增強或 DWI/追蹤影像。[^1]
+- **考題定義**：The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus（B）；亞急性期約第 2 週，梗塞區訊號或密度一過性回到接近正常而看似消失。[^1]
+- **錯誤選項**：非 CT 首 24 小時診斷困難（A）、非再灌流瀰漫實質強化（C）、非慢性期（D）。[^1]
 
 ## 放射科醫師影像判讀重點
 - **時序判讀（CT）**：超急性（<24 小時）可只見隱約 hypoattenuation、島帶徵、豆狀核模糊；急性至亞急性（數日）hypoattenuation 與腫脹最明顯；**約第 2 週進入 fogging 期**，梗塞區一過性等密度而「看似消失」；慢性期則呈邊界清楚的低密度腦軟化與局部萎縮。判讀時務必比對發病時間。[^2]

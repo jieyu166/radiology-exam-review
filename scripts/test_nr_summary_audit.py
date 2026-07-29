@@ -7,6 +7,7 @@ or third-party dependency is required.
 import hashlib
 import io
 import json
+import re
 import shutil
 import tempfile
 from copy import deepcopy
@@ -368,12 +369,18 @@ def validate_inventory_with_fixture_trust(
     inventory: dict,
     notes: dict[str, audit.NoteRecord],
     trusted_pilot_hashes: dict[str, str],
+    *,
+    repo_root: Path | None = None,
 ) -> list[audit.Finding]:
     """Test-only trust injection; production public defaults remain immutable."""
     original_trust = audit.TRUSTED_PILOT_ORIGINAL_SHA256
     audit.TRUSTED_PILOT_ORIGINAL_SHA256 = trusted_pilot_hashes
     try:
-        return audit.validate_inventory_against_notes(inventory, notes)
+        return audit.validate_inventory_against_notes(
+            inventory,
+            notes,
+            repo_root=repo_root,
+        )
     finally:
         audit.TRUSTED_PILOT_ORIGINAL_SHA256 = original_trust
 
@@ -611,6 +618,10 @@ def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> 
             f"docs/reports/nr-summary-rewrite/phase2a/generated/{batch_id}.json"
         ),
     }
+    for entry in evidence["notes"]:
+        entry["coverageEvidenceSha256"] = audit.phase2_coverage_evidence_sha256(
+            baseline_digest, entry
+        )
     (evidence_root / f"{batch_id}.json").write_text(
         json.dumps(evidence), encoding="utf-8"
     )
@@ -708,6 +719,12 @@ def write_phase2_approved_chain_fixture(root: Path) -> tuple[Path, dict[str, str
                 "reviewedBaselineSha256": baseline_digest,
             }
         )
+        for entry in evidence["notes"]:
+            entry["coverageEvidenceSha256"] = (
+                audit.phase2_coverage_evidence_sha256(
+                    baseline_digest, entry
+                )
+            )
         evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
 
     detail_paths = sorted((root / "data" / "concepts").glob("*.json"))
@@ -778,6 +795,9 @@ def rewrite_phase2_fixture_note(root: Path, batch_id: str, slug: str) -> None:
     entry = next(item for item in evidence["notes"] if item["slug"] == slug)
     entry["rewrittenSummary"] = NR_REWRITE_SUMMARY
     entry["summaryBulletEvidence"] = ["**Label**: Rewritten fact."]
+    entry["coverageEvidenceSha256"] = audit.phase2_coverage_evidence_sha256(
+        evidence["baselineLock"]["sha256"], entry
+    )
     evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
 
 
@@ -3919,6 +3939,7 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
     findings = audit.validate_inventory_against_notes(
         inventory,
         notes,
+        repo_root=root,
     )
     assert "inventory-hash-mismatch" not in {
         finding.code for finding in findings
@@ -3952,7 +3973,7 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
     assert exit_code == 0, output.getvalue()
 
 
-def test_public_inventory_default_binds_reviewed_pilot_hashes() -> None:
+def test_public_inventory_binds_reviewed_hashes_with_explicit_root() -> None:
     root = Path(__file__).resolve().parents[1]
     inventory = json.loads(
         (
@@ -3960,7 +3981,14 @@ def test_public_inventory_default_binds_reviewed_pilot_hashes() -> None:
         ).read_text(encoding="utf-8")
     )
     _, notes = audit._inventory(root / "vault" / "concepts")
-    assert audit.validate_inventory_against_notes(inventory, notes) == []
+    assert (
+        audit.validate_inventory_against_notes(
+            inventory,
+            notes,
+            repo_root=root,
+        )
+        == []
+    )
 
     replaced = json.loads(json.dumps(inventory))
     for entry in replaced["notes"]:
@@ -3968,7 +3996,11 @@ def test_public_inventory_default_binds_reviewed_pilot_hashes() -> None:
             entry["originalSha256"] = notes[entry["slug"]].sha256
     codes = {
         finding.code
-        for finding in audit.validate_inventory_against_notes(replaced, notes)
+        for finding in audit.validate_inventory_against_notes(
+            replaced,
+            notes,
+            repo_root=root,
+        )
     }
     assert "inventory-trusted-baseline-mismatch" in codes
 
@@ -3979,6 +4011,7 @@ def test_public_inventory_default_binds_reviewed_pilot_hashes() -> None:
         replaced,
         notes,
         fixture_trust,
+        repo_root=root,
     ) == []
 
 
@@ -4308,26 +4341,30 @@ def test_phase2a_batch01_baseline_is_lossless_and_regenerates_byte_identically()
 
     assert [entry["slug"] for entry in baseline["notes"]] == expected_slugs
     assert audit.validate_baseline_lock(context) == []
-    assert audit._validate_phase2_source_state(context, pre_edit=True) == []
     for entry in baseline["notes"]:
         note = context.note_records[entry["slug"]]
-        assert entry["originalSha256"] == note.sha256
-        assert entry["originalSummary"] == note.original_summary
+        assert (
+            audit._phase2_reconstructed_original_sha256(context, entry, note)
+            == entry["originalSha256"]
+        )
         assert entry["summaryHeadings"] == [
             section.heading for section in note.summaries
         ]
 
-    regenerated = audit.build_phase2_baseline_lock(
-        context,
-        _baseline_fact_templates(baseline),
-    )
-    regenerated_bytes = audit.build_phase2_baseline_lock_bytes(
-        context,
-        _baseline_fact_templates(baseline),
-    )
-    assert regenerated == baseline
-    assert regenerated_bytes == baseline_path.read_bytes()
-    assert hashlib.sha256(regenerated_bytes).hexdigest() == hashlib.sha256(
+    deterministic_bytes = (
+        json.dumps(baseline, ensure_ascii=False, indent=2) + "\n"
+    ).encode("utf-8")
+    assert deterministic_bytes == baseline_path.read_bytes()
+    try:
+        audit.build_phase2_baseline_lock(
+            context,
+            _baseline_fact_templates(baseline),
+        )
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("A post-rewrite checkout must not reseal its baseline.")
+    assert hashlib.sha256(deterministic_bytes).hexdigest() == hashlib.sha256(
         baseline_path.read_bytes()
     ).hexdigest()
 
@@ -4343,8 +4380,12 @@ def test_phase2a_batch01_fact_units_cover_source_statements_in_stable_order() ->
             f"{slug}-f{index:02d}" for index in range(1, len(facts) + 1)
         ]
         assert all(fact["text"].strip() for fact in facts)
+        locked_note = audit.parse_note_text(
+            context.note_records[slug].path,
+            "---\nsubspecialty: [NR]\n---\n" + entry["originalSummary"],
+        )
         source_statements = audit.phase2_summary_source_statements(
-            context.note_records[slug]
+            locked_note
         )
         assert list(dict.fromkeys(fact["sourceStatement"] for fact in facts)) == [
             statement["text"] for statement in source_statements
@@ -4530,11 +4571,12 @@ def test_phase2a_batch01_rejects_coordinated_mutable_baseline_replacement() -> N
 
 def test_phase2a_batch01_pending_scaffold_is_deterministic_but_nonterminal() -> None:
     root, _, context = _production_phase2a_batch01()
-    evidence = context.evidence
-    assert isinstance(evidence, dict)
-    evidence_path = root / context.evidence_path
     baseline = context.baseline
     assert isinstance(baseline, dict)
+    evidence = audit.build_phase2_pending_evidence_scaffold(
+        context,
+        implementer="/root/phase2a_task2_1_impl",
+    )
 
     assert evidence["status"] == "baseline"
     assert evidence["workflow"] == {
@@ -4558,29 +4600,29 @@ def test_phase2a_batch01_pending_scaffold_is_deterministic_but_nonterminal() -> 
         and "newUnsupportedFacts" not in entry
         for entry in evidence["notes"]
     )
-    assert audit.build_phase2_pending_evidence_scaffold(
-        context,
-        implementer="/root/phase2a_task2_1_impl",
+    assert json.loads(
+        audit.build_phase2_pending_evidence_scaffold_bytes(
+            context,
+            implementer="/root/phase2a_task2_1_impl",
+        )
     ) == evidence
+    pending_context = replace(context, evidence=evidence)
+    assert audit.validate_phase2_batch(
+        pending_context,
+        check_source_hashes=False,
+        check_generated=False,
+    )
     assert audit.build_phase2_pending_evidence_scaffold_bytes(
         context,
         implementer="/root/phase2a_task2_1_impl",
-    ) == evidence_path.read_bytes()
-    assert audit.validate_phase2_batch(
-        context,
-        check_source_hashes=True,
-        check_generated=False,
-    )
+    ).endswith(b"\n")
 
 
 def test_phase2a_batch01_baseline_validation_has_shadow_checkout_parity() -> None:
     root, assignment_path, context = _production_phase2a_batch01()
     canonical_codes = [
         finding.code
-        for finding in (
-            audit.validate_baseline_lock(context)
-            + audit._validate_phase2_source_state(context, pre_edit=True)
-        )
+        for finding in audit.validate_baseline_lock(context)
     ]
     with tempfile.TemporaryDirectory() as directory:
         shadow = Path(directory) / "relocated" / "shadow"
@@ -4605,14 +4647,184 @@ def test_phase2a_batch01_baseline_validation_has_shadow_checkout_parity() -> Non
         )
         shadow_codes = [
             finding.code
-            for finding in (
-                audit.validate_baseline_lock(shadow_context)
-                + audit._validate_phase2_source_state(
-                    shadow_context, pre_edit=True
-                )
-            )
+            for finding in audit.validate_baseline_lock(shadow_context)
         ]
     assert canonical_codes == shadow_codes == []
+
+
+def test_phase2_noncovered_empty_refs_are_queued_but_covered_empty_refs_fail() -> None:
+    results: dict[str, set[str]] = {}
+    for disposition in ("research-needed", "covered"):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            assignment_path, baseline_digest = write_phase2_api_fixture(root)
+            evidence_path = (
+                root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / "phase2a"
+                / "evidence"
+                / "batch-01-anatomy.json"
+            )
+            evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+            entry = evidence["notes"][0]
+            fact = entry["facts"][0]
+            fact["sourceRefs"] = []
+            fact["disposition"] = disposition
+            if disposition == "research-needed":
+                entry["sourceDefinitions"] = {}
+                entry["status"] = "research-needed"
+                entry["sourceStatus"] = "research-needed"
+                entry["validation"]["factCoverage"] = {
+                    "total": 1,
+                    "covered": 0,
+                    "researchNeeded": 1,
+                    "manualReview": 0,
+                }
+                evidence["manualReviewFactIds"] = [fact["id"]]
+                evidence["status"] = "needs-review"
+            evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+
+            original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-01-anatomy": baseline_digest
+            }
+            try:
+                context = audit.load_phase2_batch(
+                    root, assignment_path, "batch-01-anatomy"
+                )
+                results[disposition] = {
+                    finding.code
+                    for finding in audit.validate_phase2_batch(
+                        context,
+                        check_source_hashes=False,
+                        check_generated=False,
+                    )
+                }
+            finally:
+                audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert "evidence-source-definition" not in results["research-needed"]
+    assert "evidence-source-definition" in results["covered"]
+
+
+def test_phase2a_batch01_rewrite_preserves_every_non_summary_byte() -> None:
+    root, _, context = _production_phase2a_batch01()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+
+    for locked in baseline["notes"]:
+        note = context.note_records[locked["slug"]]
+        current_bytes = (root / note.path).read_bytes()
+        current_summary = note.original_summary.encode("utf-8")
+        assert current_bytes.count(current_summary) == 1
+        reconstructed = current_bytes.replace(
+            current_summary,
+            locked["originalSummary"].encode("utf-8"),
+            1,
+        )
+        assert hashlib.sha256(reconstructed).hexdigest() == locked["originalSha256"]
+
+
+def test_phase2a_batch01_rewrite_evidence_is_deterministic_and_pre_review() -> None:
+    root, _, context = _production_phase2a_batch01()
+    expected_queue = ["brain-herniation-syndromes-f03"]
+    regenerated = audit.build_phase2_rewrite_evidence(
+        context,
+        implementer="/root/phase2a_task2_2_impl",
+        reviewer="/root/phase2a_task2_3_review",
+        research_needed_fact_ids=expected_queue,
+    )
+    assert regenerated == context.evidence
+    assert audit.build_phase2_rewrite_evidence_bytes(
+        context,
+        implementer="/root/phase2a_task2_2_impl",
+        reviewer="/root/phase2a_task2_3_review",
+        research_needed_fact_ids=expected_queue,
+    ) == (root / context.evidence_path).read_bytes()
+
+    evidence = regenerated
+    assert evidence["status"] == "needs-review"
+    assert evidence["manualReviewFactIds"] == expected_queue
+    assert evidence["workflow"] == {
+        "sequence": 1,
+        "predecessor": None,
+        "implementer": "/root/phase2a_task2_2_impl",
+        "reviewer": "/root/phase2a_task2_3_review",
+        "reviewStatus": "not-started",
+        "reviewedBaselineSha256": None,
+    }
+    facts = [
+        fact for entry in evidence["notes"] for fact in entry["facts"]
+    ]
+    assert len(facts) == 121
+    assert sum(fact["disposition"] == "covered" for fact in facts) == 120
+    assert sum(fact["disposition"] == "research-needed" for fact in facts) == 1
+    assert all(
+        entry["newUnsupportedFacts"] == 0 for entry in evidence["notes"]
+    )
+
+    findings = audit.validate_phase2_batch(
+        context,
+        check_source_hashes=False,
+        check_generated=False,
+    )
+    assert [finding.code for finding in findings] == ["phase2-review-sequence"]
+
+
+def test_phase2a_batch01_summaries_are_flat_sourced_cards_with_stable_facts() -> None:
+    _, _, context = _production_phase2a_batch01()
+    baseline = context.baseline
+    evidence = context.evidence
+    assert isinstance(baseline, dict)
+    assert isinstance(evidence, dict)
+    evidence_by_slug = {entry["slug"]: entry for entry in evidence["notes"]}
+
+    for locked in baseline["notes"]:
+        slug = locked["slug"]
+        note = context.note_records[slug]
+        entry = evidence_by_slug[slug]
+        assert audit.validate_summary(note) == []
+        lines = [
+            line
+            for section in note.summaries
+            for line in section.content.splitlines()
+            if line.strip()
+        ]
+        assert lines
+        assert all(audit.VALID_BULLET_RE.match(line) for line in lines)
+        assert all(audit.FOOTNOTE_REFERENCE_RE.search(line) for line in lines)
+        assert entry["summaryBulletEvidence"] == audit._generated_keypoints(note)
+        assert [fact["id"] for fact in entry["facts"]] == [
+            fact["id"] for fact in locked["factUnits"]
+        ]
+
+        current_text = note.original_summary
+        critical_markers = {
+            marker
+            for fact in locked["factUnits"]
+            for marker in re.findall(
+                r"(?:第\s*\d+\s*版|[<>≤≥]?\d+(?:[.–-]\d+)*(?:\s*(?:mm|cm|%|天))?|"
+                r"non-HPV|p16−|不必然|不能|無|勿|少見|唯一|例外|另分)",
+                fact["text"],
+            )
+        }
+        compact_current = re.sub(r"\s+", "", current_text)
+        assert all(
+            re.sub(r"\s+", "", marker) in compact_current
+            for marker in critical_markers
+        )
+
+    unresolved = evidence_by_slug["brain-herniation-syndromes"]["facts"][2]
+    assert unresolved == {
+        "id": "brain-herniation-syndromes-f03",
+        "sourceRefs": [],
+        "disposition": "research-needed",
+    }
+    assert "顳葉鉤回內移" not in context.note_records[
+        "brain-herniation-syndromes"
+    ].original_summary
 
 
 def run_smoke() -> None:
@@ -4676,7 +4888,7 @@ def run_smoke() -> None:
     test_inventory_membership_rejects_unhashable_slug_without_raising()
     test_inventory_cli_generates_and_checks_deterministically()
     test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots()
-    test_public_inventory_default_binds_reviewed_pilot_hashes()
+    test_public_inventory_binds_reviewed_hashes_with_explicit_root()
     test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline()
     test_public_validate_evidence_rejects_coordinated_pilot_hash_replacement()
     test_shadow_checkout_validate_batch_rejects_coordinated_pilot_hash_replacement()
