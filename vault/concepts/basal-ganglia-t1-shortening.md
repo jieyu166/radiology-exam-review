@@ -14,13 +14,11 @@ dateRev: 2026-07-02
 **基底核T1縮短的口訣是「鈣、肝、毒、血」：鈣化、肝衰竭(錳沉積)、中毒/長期靜脈營養(錳)、出血(methemoglobin)。低血糖不屬此列——它造成的是T2/FLAIR高訊號合併擴散受限，機轉是細胞毒性水腫而非順磁性物質沉積。**
 
 ## Summary
-- **T1縮短（高訊號）常見成因**：[^1]
-  - 鈣化（idiopathic calcification、calcium/phosphate異常）
-  - 肝衰竭（manganese沉積：acquired non-Wilsonian hepatocerebral degeneration、Wilson's disease）
-  - 毒物/缺血：一氧化碳中毒、長期全靜脈營養（parenteral nutrition，manganese）、hyperglycemia相關chorea-ballism（non-ketotic hyperglycemic hemichorea）、linear gadolinium chelate沉積、global hypoxia
-  - 出血：intracranial hemorrhage之methemoglobin、haemorrhagic infarct
-  - 其他：Japanese encephalitis、neurofibromatosis type 1之hamartoma
-- **低血糖（hypoglycemia）不屬於T1縮短病因**：造成bilateral T2/FLAIR高訊號，侵犯posterior limb of internal capsule、cerebral cortex（parieto-occipital、insula）、hippocampus與basal ganglia；restricted diffusion可為更早期敏感表現，多可回復。[^1]
+- **首要影像軸**：基底核 **T1 縮短／高訊號**的鑑別須依造成 T1 shortening 的物質或病理機轉分組。[^1]
+- **鈣化與代謝沉積**：idiopathic calcification、calcium／phosphate 異常，以及肝衰竭相關 manganese 沉積（acquired non-Wilsonian hepatocerebral degeneration；原表亦列 Wilson disease）均可造成基底核 T1 高訊號。[^1]
+- **毒物、醫療曝露與缺氧**：一氧化碳中毒、長期全靜脈營養的 manganese、non-ketotic hyperglycemic hemichorea、linear gadolinium chelate 沉積與 global hypoxia 均列入鑑別。[^1]
+- **血液產物與其他病因**：顱內出血的 methemoglobin、haemorrhagic infarct、Japanese encephalitis，以及 neurofibromatosis type 1 的 hamartoma 均可造成 T1 縮短。[^1]
+- **負向鑑別—低血糖**：hypoglycemia **不屬於 T1 縮短病因**；其典型表現為雙側 T2/FLAIR 高訊號，累及內囊後肢、頂枕葉與島葉皮質、海馬及基底核，restricted diffusion 可更早出現且異常常可逆。[^1]
 
 ## 放射科醫師影像判讀重點
 - **先分「T1 亮 vs T2/FLAIR 亮」兩條路**：基底核 T1 縮短（T1 高訊號）與低血糖等細胞毒性水腫（T2/FLAIR 高訊號＋擴散受限）機轉不同，判讀第一步先看是哪個序列亮。[^1]

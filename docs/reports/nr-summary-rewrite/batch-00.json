@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batch": "batch-00",
   "scope": "NR",
-  "status": "baseline",
+  "status": "needs-review",
   "notes": [
     {
       "slug": "acute-stroke-management",
@@ -17,7 +17,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f02",
@@ -26,7 +26,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f03",
@@ -35,7 +35,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f04",
@@ -44,7 +44,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f05",
@@ -53,7 +53,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f06",
@@ -62,7 +62,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f07",
@@ -71,7 +71,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f08",
@@ -79,7 +79,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f09",
@@ -87,7 +87,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "research-needed"
+          "disposition": "manual-review"
         },
         {
           "id": "acute-stroke-management-f10",
@@ -96,7 +96,7 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f11",
@@ -105,7 +105,7 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f12",
@@ -114,7 +114,7 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f13",
@@ -123,7 +123,7 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f14",
@@ -132,7 +132,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f15",
@@ -141,7 +141,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f16",
@@ -150,7 +150,7 @@
             "1",
             "2"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f17",
@@ -158,7 +158,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "acute-stroke-management-f18",
@@ -166,36 +166,26 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary — 治療\n- **2015 IV r-tPA 層**：符合條件者即使同時考慮血管內治療，仍應給 IV r-tPA（Class I, LOE A），不可為避免延遲而跳過。[^1]\n- **2015 作業順序**：進行血管內治療前不需等待觀察 tPA 反應；此等待非必要且不建議（Class III, LOE B-R）。[^1]\n- **2015 器械優先序**：stent retriever 取栓應優先於 intra-arterial fibrinolysis，後者屬次線或特定情境選項。[^1]\n- **2015 再灌流目標與時間**：技術目標為 mTICI 2b/3（Class I, LOE A），並應儘早且在發病 6 小時內完成（Class I, LOE B-R）；2015 指引對 6 小時後的原文是「效益未確立」（Class IIb, LOE C），較原摘要所寫「臨床效益顯著下降」保守，兩者不可合併為同一無版本規則。[^1]\n- **近端大血管陷阱**：IV rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**，近端 ICA 更低；此低再通率是機械取栓／EVT 的核心理由，因此「rt-PA 效用不受血管或血栓大小影響、對大血栓也很好」為錯。[^1][^7]\n- **2019–2020 後續證據層**：其後指引已把特定 LVO 病人的取栓窗延長至 6–24 小時，並以 DAWN／DEFUSE-3 的臨床－影像 mismatch 或 multimodal CT/MR selection 選病人；不得把此後續證據回填成 2015 的 timeless rule。[^8]\n\n## Summary — 影像\n- **2015 初始影像**：緊急處置前須先做腦部影像（Class I, LOE A）；多數情況下 NECT 即可提供決策所需資訊。[^1]\n- **2015 血管影像順序**：若考慮血管內治療，強烈建議初始評估納入 CTA／MRA，但不得延遲 IV r-tPA，必要時應先開始溶栓再儘快取得血管影像（Class I, LOE A）。[^1]\n- **2015 perfusion 證據層**：CT／MR perfusion 用於選擇血管內治療病人的效益當時仍屬未確立（Class IIb, LOE C），亦未證實優於 CTA／MRA。[^1]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 18,
-        "pendingFactCount": 4,
-        "researchNeededFactIds": [
-          "acute-stroke-management-f01",
-          "acute-stroke-management-f02",
-          "acute-stroke-management-f03",
-          "acute-stroke-management-f04",
-          "acute-stroke-management-f05",
-          "acute-stroke-management-f06",
-          "acute-stroke-management-f07",
-          "acute-stroke-management-f08",
-          "acute-stroke-management-f09",
-          "acute-stroke-management-f14",
-          "acute-stroke-management-f15",
-          "acute-stroke-management-f16",
-          "acute-stroke-management-f17",
-          "acute-stroke-management-f18"
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [
+          "acute-stroke-management-f09"
         ],
-        "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "fail"
       }
     },
     {
@@ -211,7 +201,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f02",
@@ -220,7 +210,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f03",
@@ -229,7 +219,7 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f04",
@@ -238,15 +228,16 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f05",
           "text": "The Adamkiewicz hairpin contains a small ascending branch and a main descending branch to the anterior spinal artery; this makes option C correct.",
           "sourceRefs": [
-            "1"
+            "1",
+            "8"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f06",
@@ -255,7 +246,7 @@
             "1",
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f07",
@@ -265,7 +256,7 @@
             "3",
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f08",
@@ -274,15 +265,16 @@
             "1",
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f09",
           "text": "The full reported origin range is T3-L4.",
           "sourceRefs": [
-            "1"
+            "1",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "artery-of-adamkiewicz-f10",
@@ -292,24 +284,24 @@
             "3",
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "researched",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **結構與功能**：Adamkiewicz 動脈是胸腰段主要的前根髓質動脈，可加強前脊髓動脈對下段脊髓的供應，因此原題 option A 正確。[^1][^3]\n- **形態與陷阱**：其與前脊髓動脈吻合處呈 **hairpin（髮夾）轉折**，不是 coathook configuration；故 2016-169 的錯誤敘述／正解為 option B。[^1][^2]\n- **分支**：hairpin 連接前脊髓動脈後可見較小的升支與較大的降支，因此原題 option C 正確。[^8]\n- **起源**：約 **76.6–77% 起自左側**，最常見於 **T9–T12**；約 89% 位於 **T8–L1**，完整報告範圍可自 **T3 至 L4**，因此原題 option D 正確。[^4][^9]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 10,
-        "pendingFactCount": 8,
-        "researchNeededFactIds": [
-          "artery-of-adamkiewicz-f05",
-          "artery-of-adamkiewicz-f09"
-        ],
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -324,7 +316,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f02",
@@ -332,7 +324,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f03",
@@ -340,7 +332,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f04",
@@ -348,7 +340,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f05",
@@ -356,7 +348,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f06",
@@ -365,7 +357,7 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f07",
@@ -374,7 +366,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f08",
@@ -382,7 +374,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f09",
@@ -390,7 +382,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f10",
@@ -398,7 +390,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f11",
@@ -406,7 +398,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f12",
@@ -414,7 +406,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f13",
@@ -422,7 +414,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f14",
@@ -430,7 +422,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f15",
@@ -438,7 +430,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f16",
@@ -446,7 +438,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f17",
@@ -454,7 +446,7 @@
           "sourceRefs": [
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f18",
@@ -462,7 +454,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f19",
@@ -470,7 +462,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f20",
@@ -478,7 +470,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f21",
@@ -486,7 +478,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f22",
@@ -495,7 +487,7 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f23",
@@ -504,41 +496,43 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f24",
           "text": "ASPECTS at or below 7 predicts poorer functional outcome at 3 months.",
           "sourceRefs": [
             "1",
-            "7"
+            "7",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "aspects-score-f25",
           "text": "ASPECTS at or below 7 predicts increased risk of symptomatic hemorrhage.",
           "sourceRefs": [
-            "1"
+            "1",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "researched",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **設計緣由**：ASPECTS 誕生前，急性中風 CT 判讀常用「MCA 領域是否 >1/3 受累」作為 rt-PA 排除標準，但**目視估計 1/3 MCA 領域在實務上並不可靠**；ASPECTS 以**拓樸區域計分**取代此模糊估計，僅需軸位影像即可執行。[^6]\n- **範圍與適用區域**：ASPECTS 為 **0–10 分**，用於 **MCA 領域**急性中風；另有後循環改良版 pc-ASPECTS。[^1][^3]\n- **判讀技術**：灰白質分界消失是急性梗塞最早 CT 徵象；採窄窗 **WW 8 HU／WL 32 HU**可提高細微變化偵測，且應加看冠狀與矢狀切面，以免漏掉軸位不明顯的腦溝出血。[^6]\n- **判讀盲點**：顱頂端易受 volume averaging、顳葉下方的灰白質交界呈軸向、枕葉受不規則顱骨偽影影響，深部灰質尤其尾狀核頭亦易漏判；insula、caudate、basal ganglia 因側枝較差，早期改變常明顯但仍受判讀陷阱影響。[^6]\n- **計分順序**：由 **10 分**開始，每個受累區域減 1 分；正常 CT 為 10 分，廣泛 MCA 領域受累時分數趨近 0。[^1]\n- **深部區域**：3 個深部區為 caudate、lentiform nucleus（含 putamen）與 internal capsule。[^1][^2]\n- **皮質區域**：7 個皮質區為 insular cortex／insular ribbon 與 M1–M6。[^1][^2]\n- **臨床意義**：原始 ASPECTS 研究顯示，基線 **ASPECTS ≤7** 與 3 個月較差功能預後及較高症狀性顱內出血風險相關。[^9]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 25,
-        "pendingFactCount": 23,
-        "researchNeededFactIds": [
-          "aspects-score-f24",
-          "aspects-score-f25"
-        ],
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -553,7 +547,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f02",
@@ -561,7 +555,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f03",
@@ -569,7 +563,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f04",
@@ -577,7 +571,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f05",
@@ -585,7 +579,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f06",
@@ -593,7 +587,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f07",
@@ -601,7 +595,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f08",
@@ -609,7 +603,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f09",
@@ -617,7 +611,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f10",
@@ -625,7 +619,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f11",
@@ -633,7 +627,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f12",
@@ -641,7 +635,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f13",
@@ -649,7 +643,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f14",
@@ -657,7 +651,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f15",
@@ -665,7 +659,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f16",
@@ -673,7 +667,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "basal-ganglia-t1-shortening-f17",
@@ -681,21 +675,24 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
       "sourceStatus": "existing-sufficient",
-      "status": "pending",
-      "rewrittenSummary": "",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **首要影像軸**：基底核 **T1 縮短／高訊號**的鑑別須依造成 T1 shortening 的物質或病理機轉分組。[^1]\n- **鈣化與代謝沉積**：idiopathic calcification、calcium／phosphate 異常，以及肝衰竭相關 manganese 沉積（acquired non-Wilsonian hepatocerebral degeneration；原表亦列 Wilson disease）均可造成基底核 T1 高訊號。[^1]\n- **毒物、醫療曝露與缺氧**：一氧化碳中毒、長期全靜脈營養的 manganese、non-ketotic hyperglycemic hemichorea、linear gadolinium chelate 沉積與 global hypoxia 均列入鑑別。[^1]\n- **血液產物與其他病因**：顱內出血的 methemoglobin、haemorrhagic infarct、Japanese encephalitis，以及 neurofibromatosis type 1 的 hamartoma 均可造成 T1 縮短。[^1]\n- **負向鑑別—低血糖**：hypoglycemia **不屬於 T1 縮短病因**；其典型表現為雙側 T2/FLAIR 高訊號，累及內囊後肢、頂枕葉與島葉皮質、海馬及基底核，restricted diffusion 可更早出現且異常常可逆。[^1]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 17,
-        "pendingFactCount": 17,
+        "pendingFactCount": 0,
         "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -711,7 +708,7 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f02",
@@ -720,7 +717,7 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f03",
@@ -729,103 +726,110 @@
             "1",
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f04",
           "text": "Canavan disease has spongiform degeneration that begins subcortically.",
           "sourceRefs": [
-            "2"
+            "2",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f05",
           "text": "Canavan disease involves subcortical U-fibers.",
           "sourceRefs": [
-            "2"
+            "2",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f06",
           "text": "Canavan disease is a subcortical white-matter involvement pattern.",
           "sourceRefs": [
-            "2"
+            "2",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f07",
           "text": "FXTAS can produce white-matter disease with the classic middle cerebellar peduncle sign.",
           "sourceRefs": [
-            "2"
+            "2",
+            "7"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
           "text": "FXTAS can show subcortical or callosal changes similar to NIID.",
           "sourceRefs": [
-            "2"
+            "2",
+            "7"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
           "text": "Alexander disease is the answer that does not fit the bilateral multifocal subcortical DWI-hyperintensity pattern.",
           "sourceRefs": [
-            "2"
+            "2",
+            "8",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "manual-review"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f10",
           "text": "Alexander disease is a frontal-predominant leukodystrophy.",
           "sourceRefs": [
-            "2"
+            "2",
+            "8"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f11",
           "text": "Alexander disease involves deep white matter, basal ganglia, and brainstem.",
           "sourceRefs": [
-            "2"
+            "2",
+            "8"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f12",
           "text": "Alexander disease is not a bilateral multifocal subcortical DWI-hyperintensity pattern.",
           "sourceRefs": [
-            "2"
+            "2",
+            "8",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "manual-review"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **首要影像軸—NIID**：成人型典型為雙側額、枕、頂葉皮質－髓質交界的**對稱帶狀 DWI 高訊號**，此分布具高度診斷價值。[^1][^2]\n- **Canavan disease**：為皮質下白質的海綿狀退化，典型累及皮質下 U-fibers，屬皮質下白質侵犯型。[^6]\n- **FXTAS**：可有白質病變，典型為中小腦腳徵象；亦常見皮質下白質與胼胝體壓部異常，可與 NIID 的部分分布重疊。[^7]\n- **Alexander disease—原題判讀**：經典型態以前額葉優勢的深部白質異常為主，並可累及基底核與腦幹；原題因此將其列為不符合「雙側多灶皮質下 DWI 高訊號」者，但罕見 late-onset 病例曾報告多灶 diffusion restriction，故此排除僅適用於原題的經典型態，不能視為絕對規則。[^8][^9]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 12,
-        "pendingFactCount": 3,
-        "researchNeededFactIds": [
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f04",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f05",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f06",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f07",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [
           "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f10",
-          "bilateral-subcortical-dwi-hyperintensity-ddx-f11",
           "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
         ],
-        "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "fail"
       }
     },
     {
@@ -841,7 +845,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f02",
@@ -850,7 +854,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f03",
@@ -859,7 +863,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f04",
@@ -868,7 +872,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f05",
@@ -877,7 +881,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f06",
@@ -886,7 +890,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f07",
@@ -895,7 +899,7 @@
             "1",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f08",
@@ -904,7 +908,7 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f09",
@@ -913,15 +917,16 @@
             "1",
             "7"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f10",
           "text": "CAA is associated with dementia and can coexist with Alzheimer disease.",
           "sourceRefs": [
-            "1"
+            "1",
+            "9"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f11",
@@ -929,7 +934,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f12",
@@ -937,7 +942,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f13",
@@ -945,7 +950,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f14",
@@ -953,7 +958,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f15",
@@ -963,7 +968,7 @@
             "3",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f16",
@@ -973,7 +978,7 @@
             "3",
             "6"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f17",
@@ -982,7 +987,7 @@
             "2",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f18",
@@ -991,7 +996,7 @@
             "2",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f19",
@@ -999,7 +1004,7 @@
           "sourceRefs": [
             "8"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f20",
@@ -1007,7 +1012,7 @@
           "sourceRefs": [
             "8"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f21",
@@ -1015,7 +1020,7 @@
           "sourceRefs": [
             "8"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f22",
@@ -1023,7 +1028,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f23",
@@ -1031,7 +1036,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f24",
@@ -1039,7 +1044,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f25",
@@ -1047,7 +1052,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f26",
@@ -1055,7 +1060,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f27",
@@ -1063,7 +1068,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f28",
@@ -1071,7 +1076,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f29",
@@ -1079,7 +1084,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f30",
@@ -1087,7 +1092,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f31",
@@ -1095,7 +1100,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f32",
@@ -1103,7 +1108,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f33",
@@ -1111,7 +1116,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f34",
@@ -1119,7 +1124,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f35",
@@ -1127,7 +1132,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f36",
@@ -1135,7 +1140,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f37",
@@ -1143,7 +1148,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f38",
@@ -1151,7 +1156,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f39",
@@ -1159,7 +1164,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f40",
@@ -1167,7 +1172,7 @@
           "sourceRefs": [
             "4"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f41",
@@ -1175,7 +1180,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f42",
@@ -1183,7 +1188,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f43",
@@ -1191,7 +1196,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f44",
@@ -1199,7 +1204,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f45",
@@ -1207,7 +1212,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f46",
@@ -1215,7 +1220,7 @@
           "sourceRefs": [
             "5"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f47",
@@ -1223,7 +1228,7 @@
           "sourceRefs": [
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f48",
@@ -1231,7 +1236,7 @@
           "sourceRefs": [
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f49",
@@ -1239,7 +1244,7 @@
           "sourceRefs": [
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f50",
@@ -1247,7 +1252,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f51",
@@ -1255,7 +1260,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f52",
@@ -1263,7 +1268,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f53",
@@ -1271,7 +1276,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f54",
@@ -1279,7 +1284,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f55",
@@ -1287,7 +1292,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f56",
@@ -1295,7 +1300,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f57",
@@ -1303,7 +1308,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f58",
@@ -1311,7 +1316,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f59",
@@ -1319,7 +1324,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cerebral-amyloid-angiopathy-f60",
@@ -1327,23 +1332,24 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "researched",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]\n- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]\n- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 SWI 或 GRE/T2\\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]\n- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]\n- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]\n- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]\n- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]\n- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 hemorrhagic lesion 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]\n- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]\n- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]\n- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]\n\n### 參考來源\n[^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。\n[^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。\n[^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。\n[^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。\n[^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。\n[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。\n[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。\n[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。\n[^9]: Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J, Sperling R, van Veluw SJ. *Cerebral amyloid angiopathy and Alzheimer disease—one peptide, two pathways*. Nat Rev Neurol. 2020;16(1):30-42. DOI: [10.1038/s41582-019-0281-2](https://doi.org/10.1038/s41582-019-0281-2)（PMC7268202；全文查證 accessed 2026-07-29）：CAA 與 AD 均涉及 Aβ，但病理路徑不同；兩者常在同一腦內共存，且可共同促進 cognitive impairment／dementia。\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 60,
-        "pendingFactCount": 59,
-        "researchNeededFactIds": [
-          "cerebral-amyloid-angiopathy-f10"
-        ],
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -1358,7 +1364,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f02",
@@ -1366,7 +1372,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f03",
@@ -1374,7 +1380,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f04",
@@ -1382,7 +1388,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f05",
@@ -1390,7 +1396,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f06",
@@ -1398,7 +1404,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f07",
@@ -1406,7 +1412,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f08",
@@ -1415,7 +1421,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f09",
@@ -1424,7 +1430,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f10",
@@ -1433,7 +1439,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f11",
@@ -1442,7 +1448,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f12",
@@ -1451,7 +1457,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f13",
@@ -1460,7 +1466,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f14",
@@ -1469,7 +1475,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f15",
@@ -1478,7 +1484,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f16",
@@ -1486,7 +1492,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f17",
@@ -1494,7 +1500,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "clippers-f18",
@@ -1502,21 +1508,24 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
       "sourceStatus": "existing-sufficient",
-      "status": "pending",
-      "rewrittenSummary": "",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **部位**：CLIPPERS 是以**橋腦（pons）為主**的慢性淋巴球性發炎；亦可侵犯幕上，並非侷限於橋腦。[^1]\n- **強化**：典型 MRI 為**點狀、曲線狀（punctate and curvilinear）「胡椒粉狀（peppering）」強化**。[^1]\n- **伴隨表現**：即使顯影後病灶明顯，典型病灶仍僅有**極少血管源性水腫**且**無佔位效應**。[^2]\n- **非典型表現**：**出血並非** CLIPPERS 的典型影像表現。[^2]\n- **診斷**：目前**無特異性血清或 CSF 生物標記**；須整合臨床、影像及必要時病理，並符合亞急性橋腦小腦功能障礙、類固醇後顯著改善、無周邊神經異常且無替代診斷的排除性框架；多見於中年，可能略偏男性。[^1][^3]\n- **治療**：通常對類固醇反應良好，但停用糖皮質類固醇後常惡化或復發，因此常需長期免疫抑制。[^1]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 18,
-        "pendingFactCount": 18,
+        "pendingFactCount": 0,
         "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -1529,9 +1538,10 @@
           "id": "cpa-masses-f01",
           "text": "Vestibular schwannoma, or acoustic neuroma, is by far the most common CPA mass at approximately 80%.",
           "sourceRefs": [
-            "1"
+            "1",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f02",
@@ -1540,7 +1550,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f03",
@@ -1549,7 +1559,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f04",
@@ -1558,7 +1568,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f05",
@@ -1567,15 +1577,16 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f06",
           "text": "Meningioma is the second most common CPA mass at approximately 10%.",
           "sourceRefs": [
-            "1"
+            "1",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f07",
@@ -1584,7 +1595,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f08",
@@ -1593,7 +1604,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f09",
@@ -1602,7 +1613,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f10",
@@ -1611,7 +1622,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f11",
@@ -1620,15 +1631,16 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f12",
           "text": "Epidermoid cyst is described as the third most common CPA mass group.",
           "sourceRefs": [
-            "1"
+            "1",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f13",
@@ -1637,7 +1649,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f14",
@@ -1646,7 +1658,7 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f15",
@@ -1655,16 +1667,17 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f16",
           "text": "Other CPA masses include trigeminal or facial nerve schwannoma, ependymoma, metastasis, and aneurysm.",
           "sourceRefs": [
             "1",
-            "3"
+            "3",
+            "6"
           ],
-          "disposition": "research-needed"
+          "disposition": "covered"
         },
         {
           "id": "cpa-masses-f17",
@@ -1673,26 +1686,24 @@
             "1",
             "3"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
-      "sourceStatus": "research-needed",
-      "status": "research-needed",
-      "rewrittenSummary": "",
+      "sourceStatus": "researched",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **首要影像軸**：先依病灶是否強化、是否 T1 高訊號、是否呈 CSF 密度／訊號及 DWI 表現分類，再判斷 IAC 中心性、硬膜基底與跨腦池生長。[^1][^3]\n- **Vestibular schwannoma**：為最常見 CPA 腫塊，約占 **70–80%（常概述為 ~80%）**；以 IAC 為中心、可呈 ice-cream-cone、強烈強化且通常不鈣化。[^1][^6]\n- **Meningioma**：為第二常見，約占 **10–15%（原摘要記 ~10%）**；具硬膜基底、與骨呈鈍角、dural tail、可鈣化，且不以 IAC 為中心。[^1][^6]\n- **Epidermoid cyst**：為第三常見 CPA 病灶，約占 **5%**；訊號近 CSF 但 DWI 受限、FLAIR 不完全抑制，並沿腦池鑽縫生長、包繞血管神經。[^1][^6]\n- **其他鑑別**：尚包括 trigeminal／facial nerve schwannoma、ependymoma、metastasis 與 aneurysm。[^3][^6]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 17,
-        "pendingFactCount": 13,
-        "researchNeededFactIds": [
-          "cpa-masses-f01",
-          "cpa-masses-f06",
-          "cpa-masses-f12",
-          "cpa-masses-f16"
-        ],
+        "pendingFactCount": 0,
+        "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -1707,7 +1718,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f02",
@@ -1715,7 +1726,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f03",
@@ -1723,7 +1734,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f04",
@@ -1731,7 +1742,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f05",
@@ -1739,7 +1750,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f06",
@@ -1747,7 +1758,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f07",
@@ -1755,7 +1766,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f08",
@@ -1763,7 +1774,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f09",
@@ -1771,7 +1782,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f10",
@@ -1779,7 +1790,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f11",
@@ -1787,7 +1798,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f12",
@@ -1795,7 +1806,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "craniopharyngioma-f13",
@@ -1803,21 +1814,24 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
       "sourceStatus": "existing-sufficient",
-      "status": "pending",
-      "rewrittenSummary": "",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **族群與病理型**：成人多為 **papillary type**，以實質成分為主、囊性成分較小且較少鈣化；兒童多為 **adamantinomatous type**，常呈多囊並有鈣化。[^1]\n- **臨床表現**：鞍上腫塊可壓迫視交叉造成**雙顳側偏盲**，或壓迫下視丘／腦下垂體造成晨間頭痛與內分泌功能異常。[^1]\n- **影像**：典型描述為鞍上、實質為主且帶小囊性成分的腫塊，**實質成分明顯強化**，並非單純囊性病灶。[^1]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 13,
-        "pendingFactCount": 13,
+        "pendingFactCount": 0,
         "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     },
     {
@@ -1832,7 +1846,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f02",
@@ -1840,7 +1854,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f03",
@@ -1848,7 +1862,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f04",
@@ -1856,7 +1870,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f05",
@@ -1864,7 +1878,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f06",
@@ -1872,7 +1886,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f07",
@@ -1880,7 +1894,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f08",
@@ -1888,7 +1902,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f09",
@@ -1896,7 +1910,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f10",
@@ -1904,7 +1918,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f11",
@@ -1912,7 +1926,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f12",
@@ -1920,7 +1934,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f13",
@@ -1928,7 +1942,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f14",
@@ -1936,7 +1950,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f15",
@@ -1944,7 +1958,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f16",
@@ -1952,7 +1966,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f17",
@@ -1960,7 +1974,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f18",
@@ -1968,7 +1982,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f19",
@@ -1976,7 +1990,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f20",
@@ -1984,7 +1998,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f21",
@@ -1992,7 +2006,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f22",
@@ -2000,7 +2014,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f23",
@@ -2008,7 +2022,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f24",
@@ -2016,7 +2030,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f25",
@@ -2024,7 +2038,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f26",
@@ -2032,7 +2046,7 @@
           "sourceRefs": [
             "2"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f27",
@@ -2040,7 +2054,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f28",
@@ -2048,7 +2062,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f29",
@@ -2056,7 +2070,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f30",
@@ -2064,7 +2078,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f31",
@@ -2072,7 +2086,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f32",
@@ -2080,7 +2094,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f33",
@@ -2088,7 +2102,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f34",
@@ -2096,7 +2110,7 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         },
         {
           "id": "dementia-neuroimaging-overview-f35",
@@ -2104,21 +2118,24 @@
           "sourceRefs": [
             "1"
           ],
-          "disposition": "pending"
+          "disposition": "covered"
         }
       ],
       "sourceStatus": "existing-sufficient",
-      "status": "pending",
-      "rewrittenSummary": "",
+      "status": "verified",
+      "rewrittenSummary": "## Summary — 異常蛋白堆積分類\n- **AD 蛋白病理**：Alzheimer disease 與 tau、β-amyloid 堆積相關。[^1]\n- **DLB 蛋白病理**：Dementia with Lewy bodies 與 α-synuclein 堆積相關。[^1]\n- **FTD 蛋白病理**：Frontotemporal dementia 依亞型可涉及 tau、TDP-43 或 FUS，不可泛化為單一 proteinopathy。[^1]\n\n### Synucleinopathies（依是否合併Lewy bodies）\n- **有 Lewy bodies**：Parkinson disease 與 Dementia with Lewy bodies。[^1]\n- **無 Lewy bodies**：原摘要將 Multiple systemic atrophy 歸於此組。[^1]\n\n### Tauopathies\n- **Tauopathy 分類**：包括 PSP、FTLD-tau、corticobasal degeneration；Alzheimer disease 則列為 secondary tau pathology。[^1]\n\n### FTD臨床亞型與好發部位\n- **Behavioral variant FTD**：偏雙側額葉。[^1]\n- **Semantic variant PPA**：偏左側顳葉。[^1]\n- **Non-fluent variant PPA**：偏左側腦島與額葉蓋／Broca area。[^1]\n\n### FTLD病理亞型與分布\n- **FTLD-tau／MAPT**：偏雙側顳葉。[^1]\n- **FTLD-FUS**：偏雙側尾狀核。[^1]\n- **FTLD-TDP／GRN**：markedly asymmetric，偏右側半球。[^1]\n- **FTLD-TDP／C9orf72**：呈雙側半球 generalized 分布。[^1]\n\n## Summary — 結構性MRI（VBM）萎縮型態鑑別\n- **DLB 萎縮軸**：VBM 萎縮主要見於 striatum、midbrain 與 hypothalamus，hippocampus 相對保留；相對海馬保留是與 AD 鑑別的重要線索。[^2]\n- **AD 萎縮軸**：以 prominent hippocampal atrophy 為特徵。[^2]\n- **PSP 中腦軸**：中腦萎縮可形成矢狀面 hummingbird sign、軸切面 Mickey Mouse sign，亦可見 morning glory sign。[^2]\n\n## Summary — 血管性失智（vascular dementia）影像指標\n- **WMH**：white matter hyperintensity 以 MRI 顯示最佳，可用半定量視覺分數或定量 voxel-based 方法測量；與血管危險因子，尤其高血壓與血糖控制不良相關，並已廣泛作為血管疾病影像生物標記。[^1]\n- **Lacunar infarcts**：常位於皮質下白質與基底核，是 cerebrovascular disease 的影像相關表現。[^1]\n- **Macrohemorrhage 分布**：lobar macrohemorrhage 傳統上與 [[cerebral-amyloid-angiopathy|CAA]] 相關；deep／infratentorial macrohemorrhage 則與血管危險因子、WMH、lacunar infarcts 及高血壓性血管病變相關。[^1]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
         "allSourceRefsDefined": true,
         "factCount": 35,
-        "pendingFactCount": 35,
+        "pendingFactCount": 0,
         "researchNeededFactIds": [],
         "manualReviewFactIds": [],
-        "newUnsupportedFacts": 0
+        "newUnsupportedFacts": 0,
+        "structure": "pass",
+        "footnotes": "pass",
+        "factCoverage": "pass"
       }
     }
   ]

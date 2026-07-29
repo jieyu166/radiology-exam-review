@@ -14,10 +14,10 @@ dateRev: 2026-07-12
 **「雙側皮質-髓質交界（corticomedullary junction）沿腦回呈帶狀 DWI 高訊號」是神經元核內包涵體病（NIID）的招牌徵象；Canavan（皮質下 U-fiber）、FXTAS 亦可見皮質下白質／DWI 變化；Alexander disease 為額葉為主的深部白質＋基底核型腦白質失養症，非此皮質下多灶 DWI 型態。**
 
 ## Summary
-- **NIID**：成人型典型於雙側額-枕-頂葉皮質-髓質交界呈對稱帶狀 DWI 高訊號，為高診斷價值徵象。[^1]
-- **Canavan disease**：海綿狀退化自皮質下起始，累及皮質下 U-fibers，屬皮質下白質侵犯型。[^2]
-- **FXTAS（Fragile X 相關顫抖／共濟失調症候群）**：可有白質病變（典型中小腦腳徵象），並可出現與 NIID 相似的皮質下／胼胝體變化。[^2]
-- **Alexander disease**（本題答案「不」符合者）：額葉為主的腦白質失養症，累及深部白質、基底核、腦幹，非「雙側多灶皮質下 DWI 高訊號」型態。[^2]
+- **首要影像軸—NIID**：成人型典型為雙側額、枕、頂葉皮質－髓質交界的**對稱帶狀 DWI 高訊號**，此分布具高度診斷價值。[^1][^2]
+- **Canavan disease**：為皮質下白質的海綿狀退化，典型累及皮質下 U-fibers，屬皮質下白質侵犯型。[^6]
+- **FXTAS**：可有白質病變，典型為中小腦腳徵象；亦常見皮質下白質與胼胝體壓部異常，可與 NIID 的部分分布重疊。[^7]
+- **Alexander disease—原題判讀**：經典型態以前額葉優勢的深部白質異常為主，並可累及基底核與腦幹；原題因此將其列為不符合「雙側多灶皮質下 DWI 高訊號」者，但罕見 late-onset 病例曾報告多灶 diffusion restriction，故此排除僅適用於原題的經典型態，不能視為絕對規則。[^8][^9]
 
 ## 放射科醫師影像判讀重點
 - **NIID 判讀關鍵**：DWI 沿皮質-髓質交界（corticomedullary junction）的「緞帶狀（ribbon-like / subcortical lace）」高訊號，**分布沿皮質下、不累及深部腦室旁白質**（此為 2021-269 選項 C 敘述「深部腦室旁白質 DWI 高訊號」為錯的判讀依據）；伴瀰漫白質病變；皮膚切片見嗜酸性核內包涵體。corticomedullary junction DWI 高訊號被視為 NIID 的特異徵象。[^1][^5]
@@ -39,6 +39,10 @@ dateRev: 2026-07-12
 [^3]: **Tier 1** Fragoso DC, Gonçalves Filho ALM, et al. *Imaging of Creutzfeldt-Jakob Disease: Imaging Patterns and Their Differential Diagnosis.* RadioGraphics. 2017;37(1):234-257（DOI [10.1148/rg.2017160075](https://doi.org/10.1148/rg.2017160075)；摘要 accessed 2026-07-12）：DWI 為 sCJD 診斷樞紐；含影像型態與 mimics 之鑑別。
 [^4]: **Tier 1** de Oliveira AM, Paulino Reis F, et al. *Imaging Patterns of Toxic and Metabolic Brain Disorders.* RadioGraphics. 2019;39(6):1672-1695（DOI [10.1148/rg.2019190016](https://doi.org/10.1148/rg.2019190016)；摘要 accessed 2026-07-12）：中毒/代謝性腦病多為雙側對稱，好發深部灰質／皮質／腦室旁白質。
 [^5]: **非題目白名單（AJNR）** Sugiyama A, Sato N, et al. *MR Imaging Features of the Cerebellum in Adult-Onset Neuronal Intranuclear Inclusion Disease.* AJNR Am J Neuroradiol. 2017;38(11):2100-2104（DOI [10.3174/ajnr.A5336](https://doi.org/10.3174/ajnr.A5336)；摘要 accessed 2026-07-12，非題目白名單）：corticomedullary junction DWI 高訊號為 NIID 之特異徵象；並描述小腦旁蚓部白質 T2 高訊號等徵。
+[^6]: Sreenivasan P, Purushothaman KK. *Radiological clue to diagnosis of Canavan disease*. Indian J Pediatr. 2013;80(1):75-77. DOI: [10.1007/s12098-012-0794-9](https://doi.org/10.1007/s12098-012-0794-9)（PubMed PMID 22660905；摘要查證 accessed 2026-07-29）：Canavan disease 為海綿狀白質退化，MRI 的特徵性分布包含皮質下 U-fibers。
+[^7]: Hagerman RJ, Hagerman P. *Fragile X-associated tremor/ataxia syndrome: pathophysiology and clinical implications*. Mov Disord. 2020;35(7):1073-1084. DOI: [10.1002/mds.28055](https://doi.org/10.1002/mds.28055)（PMC7352421；全文查證 accessed 2026-07-29）：雙側中小腦腳 T2/FLAIR 高訊號為 FXTAS hallmark；常見其他白質異常包括皮質下／腦室旁白質、胼胝體壓部與腦幹。
+[^8]: van der Knaap MS, Naidu S, Breiter SN, et al. *Alexander disease: diagnosis with MR imaging*. AJNR Am J Neuroradiol. 2001;22(3):541-552（PMC7976831；全文查證 accessed 2026-07-29）：典型 MRI 準則包括前額葉優勢白質異常、基底核／視丘與腦幹異常；經典病例的白質異常通常無 diffusion restriction。
+[^9]: Park J, Jung NY, Kim YJ, et al. *A Novel GFAP Mutation in Late-Onset Alexander Disease Showing Diffusion Restriction*. J Clin Neurol. 2017;13(4):426-429. DOI: [10.3988/jcn.2017.13.4.426](https://doi.org/10.3988/jcn.2017.13.4.426)（article 全文查證 accessed 2026-07-29）：late-onset Alexander disease 曾出現雙側腦室旁白質與皮質區多灶 diffusion restriction，構成經典型態之外的罕見例外。
 
 ## 題目
 > [!question]- Which of the following diseases does NOT demonstrate bilateral multifocal subcortical DW hyperintensities? (2022-413)

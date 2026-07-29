@@ -18,37 +18,37 @@ same:
 **失智腦內異常蛋白/胜肽堆積依疾病可分三大類：AD為tau與β-amyloid、DLB為α-synuclein、FTD為tau/TDP/FUS；此分類為病理生理學共識（"all of the above"型考題）。血管性失智之影像指標則包含白質高訊號（WMH）、腔隙性梗塞（lacunar infarcts）與微出血分布（腦葉/CAA vs 深部-幕下/血管危險因子相關）。**
 
 ## Summary — 異常蛋白堆積分類
-- **Alzheimer disease（AD）**：**tau與β-amyloid**堆積。[^1]
-- **Dementia with Lewy bodies（DLB）**：**α-synuclein**堆積。[^1]
-- **Frontotemporal dementia（FTD）**：**tau、TDP-43或FUS**堆積（依亞型而異）。[^1]
+- **AD 蛋白病理**：Alzheimer disease 與 tau、β-amyloid 堆積相關。[^1]
+- **DLB 蛋白病理**：Dementia with Lewy bodies 與 α-synuclein 堆積相關。[^1]
+- **FTD 蛋白病理**：Frontotemporal dementia 依亞型可涉及 tau、TDP-43 或 FUS，不可泛化為單一 proteinopathy。[^1]
 
 ### Synucleinopathies（依是否合併Lewy bodies）
-- **有Lewy bodies**：Parkinson disease、Dementia with Lewy bodies（DLB）。[^1]
-- **無Lewy bodies**：Multiple systemic atrophy（MSA）。[^1]
+- **有 Lewy bodies**：Parkinson disease 與 Dementia with Lewy bodies。[^1]
+- **無 Lewy bodies**：原摘要將 Multiple systemic atrophy 歸於此組。[^1]
 
 ### Tauopathies
-- Progressive supranuclear palsy（PSP）、frontotemporal lobar degeneration（FTLD-tau）、corticobasal degeneration（CBD）、Alzheimer disease（次發性tau，secondary tau）。[^1]
+- **Tauopathy 分類**：包括 PSP、FTLD-tau、corticobasal degeneration；Alzheimer disease 則列為 secondary tau pathology。[^1]
 
 ### FTD臨床亞型與好發部位
-- **Behavioral variant FTD**：雙側額葉（bilateral frontal lobes）。[^1]
-- **Semantic variant PPA**：左側顳葉（left temporal lobe）。[^1]
-- **Non-fluent variant PPA**：左側腦島與額葉蓋（left insula and frontal operculum, Broca area）。[^1]
+- **Behavioral variant FTD**：偏雙側額葉。[^1]
+- **Semantic variant PPA**：偏左側顳葉。[^1]
+- **Non-fluent variant PPA**：偏左側腦島與額葉蓋／Broca area。[^1]
 
 ### FTLD病理亞型與分布
-- **FTLD-tau（MAPT基因突變）**：雙側顳葉。[^1]
-- **FTLD-FUS**：雙側尾狀核（bilateral caudate nuclei）。[^1]
-- **FTLD-TDP（GRN基因突變）**：右側半球為主（markedly asymmetric）。[^1]
-- **FTLD-TDP（C9orf72基因突變）**：雙側半球（generalized）。[^1]
+- **FTLD-tau／MAPT**：偏雙側顳葉。[^1]
+- **FTLD-FUS**：偏雙側尾狀核。[^1]
+- **FTLD-TDP／GRN**：markedly asymmetric，偏右側半球。[^1]
+- **FTLD-TDP／C9orf72**：呈雙側半球 generalized 分布。[^1]
 
 ## Summary — 結構性MRI（VBM）萎縮型態鑑別
-- **DLB（dementia with Lewy bodies）**：萎縮主要見於**紋狀體（striatum）、中腦（midbrain）、下視丘（hypothalamus）**，**海馬迴（hippocampus）相對保留**——此為與AD鑑別之關鍵（AD則海馬迴明顯萎縮）。[^2]
-- **AD（Alzheimer disease）**：**顯著海馬迴萎縮（prominent hippocampal atrophy）**。[^2]
-- **PSP（progressive supranuclear palsy）**：中腦萎縮致矢狀面**"hummingbird" sign（蜂鳥徵）**、軸切面**"Mickey Mouse" sign（米老鼠徵）**，另可合併**"morning glory" sign**。[^2]
+- **DLB 萎縮軸**：VBM 萎縮主要見於 striatum、midbrain 與 hypothalamus，hippocampus 相對保留；相對海馬保留是與 AD 鑑別的重要線索。[^2]
+- **AD 萎縮軸**：以 prominent hippocampal atrophy 為特徵。[^2]
+- **PSP 中腦軸**：中腦萎縮可形成矢狀面 hummingbird sign、軸切面 Mickey Mouse sign，亦可見 morning glory sign。[^2]
 
 ## Summary — 血管性失智（vascular dementia）影像指標
-- **WMH（white matter hyperintensity）**：MRI上最佳顯示，可用半定量視覺評分或定量voxel-based方法測量；與血管危險因子（尤其高血壓與血糖控制不良）相關；現已廣泛接受為血管疾病之影像生物標記。[^1]
-- **Lacunar infarcts（腔隙性梗塞）**：發生於皮質下白質與基底核，亦為腦血管疾病（CVD）之影像相關表現。[^1]
-- **Macrohemorrhage分布**：**腦葉（lobar）巨量出血**傳統與**cerebral amyloid angiopathy（CAA，見 [[cerebral-amyloid-angiopathy]]）**相關；**深部與幕下（deep and infratentorial）巨量出血**則與血管危險因子、WMH、腔隙性梗塞相關（即高血壓性血管病變）。[^1]
+- **WMH**：white matter hyperintensity 以 MRI 顯示最佳，可用半定量視覺分數或定量 voxel-based 方法測量；與血管危險因子，尤其高血壓與血糖控制不良相關，並已廣泛作為血管疾病影像生物標記。[^1]
+- **Lacunar infarcts**：常位於皮質下白質與基底核，是 cerebrovascular disease 的影像相關表現。[^1]
+- **Macrohemorrhage 分布**：lobar macrohemorrhage 傳統上與 [[cerebral-amyloid-angiopathy|CAA]] 相關；deep／infratentorial macrohemorrhage 則與血管危險因子、WMH、lacunar infarcts 及高血壓性血管病變相關。[^1]
 
 ## 放射科醫師影像判讀重點
 - **建議以「疾病導向」標準化流程判讀失智MRI**：系統性評分萎縮（尤其內側顳葉/海馬迴、頂葉、額顳葉）、白質變化、微出血、小血管病變，並採結構化報告以提升與臨床端之診斷一致性。[^3]

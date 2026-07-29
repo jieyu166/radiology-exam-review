@@ -14,11 +14,11 @@ dateRev: 2026-06-17
 **CPA 腫瘤的「頻率答案」幾乎都是 vestibular schwannoma（~80%），第二永遠是 meningioma（~10%）。** 三者用影像特徵一刀切：vestibular schwannoma 以 IAC 為中心（ice-cream-cone）、meningioma 有硬膜基底＋dural tail＋可鈣化但不進 IAC、epidermoid 外觀像 CSF 但 DWI 受限（鑽縫走）。記憶鉤：**「80-10-其他」順序＋S（schwannoma 進孔）vs M（meningioma 貼膜）vs E（epidermoid DWI 亮）**。
 
 ## Summary
-- **Vestibular schwannoma（acoustic neuroma）**：**遠最常見（~80%）**；以**內聽道（IAC）**為中心、ice-cream-cone、強烈強化、無鈣化。[^1]
-- **Meningioma**：**第二常見（~10%）**；**硬膜基底、與骨呈鈍角、dural tail、可鈣化**、不以 IAC 為中心。[^1]
-- **Epidermoid cyst**：第三常見族群（CSF 密度/訊號但**DWI 受限**、FLAIR 不完全抑制、沿腦池**鑽縫包繞**血管神經）。[^1]
-- 其他：trigeminal / facial nerve schwannoma、ependymoma、metastasis、aneurysm。[^1]
-- **分類法（依影像）**：強化腫塊／T1 高訊號／CSF 密度／其他。[^1]
+- **首要影像軸**：先依病灶是否強化、是否 T1 高訊號、是否呈 CSF 密度／訊號及 DWI 表現分類，再判斷 IAC 中心性、硬膜基底與跨腦池生長。[^1][^3]
+- **Vestibular schwannoma**：為最常見 CPA 腫塊，約占 **70–80%（常概述為 ~80%）**；以 IAC 為中心、可呈 ice-cream-cone、強烈強化且通常不鈣化。[^1][^6]
+- **Meningioma**：為第二常見，約占 **10–15%（原摘要記 ~10%）**；具硬膜基底、與骨呈鈍角、dural tail、可鈣化，且不以 IAC 為中心。[^1][^6]
+- **Epidermoid cyst**：為第三常見 CPA 病灶，約占 **5%**；訊號近 CSF 但 DWI 受限、FLAIR 不完全抑制，並沿腦池鑽縫生長、包繞血管神經。[^1][^6]
+- **其他鑑別**：尚包括 trigeminal／facial nerve schwannoma、ependymoma、metastasis 與 aneurysm。[^3][^6]
 
 ## 放射科醫師影像判讀重點
 - **診斷演算法（Bonneville）**：**依『病灶起源部位＋形狀邊界＋密度／訊號強度＋對比劑攝取』系統歸類 CPA 病灶**，並輔以 DWI/PWI/MRS——CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵。[^3]
@@ -45,6 +45,7 @@ dateRev: 2026-06-17
 [^3]: **Tier 1** Bonneville F, Savatovsky J, Chiras J. *Imaging of cerebellopontine angle lesions: an update. Part 2: intra-axial lesions, skull base lesions that may invade the CPA region, and non-enhancing extra-axial lesions*. Eur Radiol 2007;17(11):2908-20（據 PubMed，DOI [10.1007/s00330-007-0680-4](https://doi.org/10.1007/s00330-007-0680-4)；Review；實際查證 accessed 2026-07-04）——**CT/MR 對絕大多數 CPA 腫塊可可靠顯示 schwannoma 或 meningioma 之典型徵**；提出**依病灶起源部位、形狀邊界、密度、訊號強度與對比劑攝取之診斷演算法**（輔以 DWI/PWI/MRS）；系統涵蓋**非強化 extra-axial（epidermoid/arachnoid/neurenteric cyst、dermoid/lipoma）、顱底延伸（paraganglioma/chondromatous/chordoma/cholesterol granuloma/ELST）、腦幹或腦室腫瘤外突（lymphoma/hemangioblastoma/CPP/ependymoma/glioma/medulloblastoma）**之鑑別。佐證 CPA DDx 之系統化影像判讀框架。原「Radiopaedia」弱來源已由本次 Eur Radiol DOI Tier 1 查核升級。
 [^4]: **Tier 1** Fink JR. *Imaging of cerebellopontine angle masses: self-assessment module*. AJR Am J Roentgenol. 2010;195(3 Suppl):S15-S21. DOI [10.2214/AJR.09.7191](https://doi.org/10.2214/AJR.09.7191)（PubMed PMID 20729406；書目經 PubMed 查證 accessed 2026-07-06）：**進階 MRI（含 perfusion‑weighted imaging, PWI）於 CPA 腫塊鑑別的角色**——PWI 藉 rCBV 差異區分血管性與非血管性病灶（如高 rCBV 的 meningioma vs 低 rCBV 的 schwannoma、hemangioblastoma 之極高 rCBV vs lymphoma 之低 rCBV、abscess vs metastasis 之壞死環灌流差異、lymphoma vs metastasis）；**但兩者皆為高灌流（高 rCBV）之 meningioma 與 metastasis，PWI 無法可靠區分**。
 [^5]: *Cerebellopontine angle cistern*. Radiopaedia.org（rID 43489, DOI [10.53347/rID-43489](https://doi.org/10.53347/rID-43489)；實際查證 accessed 2026-07-06）：CPA cistern 內容物為 **CN VII、CN VIII**（及 AICA、絨球等）；relations——**上方 CN V（三叉神經）**，**下方 CN IX、X、XI**（朝頸靜脈孔）。CN VI（外展神經）走行於相鄰的橋前池（prepontine cistern）沿斜坡上行至 Dorello canal；CN XII（舌下神經）起自延髓前橄欖溝、經舌下神經管出顱，**不行經 CPA**。
+[^6]: Lin EP, Crane BT. *The Management and Imaging of Vestibular Schwannomas*. AJNR Am J Neuroradiol. 2017;38(11):2034-2043. DOI: [10.3174/ajnr.A5213](https://doi.org/10.3174/ajnr.A5213)（PMC5690865；全文查證 accessed 2026-07-29）：vestibular schwannoma 為最常見 extra-axial CPA mass（70–80%），其次為 meningioma（10–15%）與 epidermoid cyst（5%）；影像鑑別亦涵蓋 facial nerve schwannoma、aneurysm 與 metastasis。
 
 ## 放射科醫師影像判讀重點（perfusion 鑑別，Q446）
 - **PWI 差異可區分**：vestibular schwannoma（低‑中 rCBV）vs meningioma（高 rCBV）；lymphoma（低 rCBV）vs metastasis（高 rCBV）；abscess（環壁灌流、核心低）vs metastasis；hemangioblastoma（極高 rCBV）vs lymphoma（低 rCBV）——各對配灌流型態不同，可資鑑別。[^4]

@@ -17,16 +17,17 @@ down:
 **2015 AHA/ASA 兩個「不可以」：不可跳過 tPA，不可等 tPA 反應再取栓。** tPA 與血管內治療並行、互不阻擋；NECT 多數即可決策，CTA/MRA 若考慮取栓則強烈建議但不得延遲 tPA。考試陷阱：2015 指引對 perfusion 選病人效益「未確立（Class IIb）」，但 2018/2019 起延長窗（6–24h）已翻轉為 Class I——作答前先確認題目問的是哪版指引。
 
 ## Summary — 治療
-- **符合條件者應給 IV r-tPA，即使同時考慮血管內治療**（Class I, LOE A）→ **不可為避免延遲而跳過 tPA**。[^1]
-- **不需先觀察 tPA 反應**再進行血管內治療（觀察反應「非必要、不建議」，Class III, LOE B-R）。[^1]
-- **Stent retriever 取栓優先於 intra-arterial fibrinolysis**（IA fibrinolysis 屬次線）。[^1]
-- **技術目標：reperfusion 達 mTICI 2b/3**（Class I, LOE A），且應**儘早、發病 6 小時內**（6 小時後臨床效益顯著下降）。[^1]
-- **rt-PA 對近端大血管血栓再通率低**：靜脈 rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**（近端 ICA 更低），效果欠佳——這正是需以機械取栓（EVT）補強的核心理由，故「rt-PA 效用不因血管大小而異、大血栓也很好」的敘述為錯（支撐 2021-273）。[^1][^7]
+- **2015 IV r-tPA 層**：符合條件者即使同時考慮血管內治療，仍應給 IV r-tPA（Class I, LOE A），不可為避免延遲而跳過。[^1]
+- **2015 作業順序**：進行血管內治療前不需等待觀察 tPA 反應；此等待非必要且不建議（Class III, LOE B-R）。[^1]
+- **2015 器械優先序**：stent retriever 取栓應優先於 intra-arterial fibrinolysis，後者屬次線或特定情境選項。[^1]
+- **2015 再灌流目標與時間**：技術目標為 mTICI 2b/3（Class I, LOE A），並應儘早且在發病 6 小時內完成（Class I, LOE B-R）；2015 指引對 6 小時後的原文是「效益未確立」（Class IIb, LOE C），較原摘要所寫「臨床效益顯著下降」保守，兩者不可合併為同一無版本規則。[^1]
+- **近端大血管陷阱**：IV rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**，近端 ICA 更低；此低再通率是機械取栓／EVT 的核心理由，因此「rt-PA 效用不受血管或血栓大小影響、對大血栓也很好」為錯。[^1][^7]
+- **2019–2020 後續證據層**：其後指引已把特定 LVO 病人的取栓窗延長至 6–24 小時，並以 DAWN／DEFUSE-3 的臨床－影像 mismatch 或 multimodal CT/MR selection 選病人；不得把此後續證據回填成 2015 的 timeless rule。[^8]
 
 ## Summary — 影像
-- **NECT 在多數情況即可提供緊急處置所需資訊**（Class I, LOE A）。[^1]
-- **若考慮血管內治療，強烈建議非侵入性顱內血管攝影（CTA/MRA）**，但**不得延遲 IV r-tPA**。[^1]
-- **CT/MR perfusion 用於『選擇』血管內治療病人之效益『未確立（unknown）』（Class IIb, LOE C）** → **不可說 perfusion 已證實優於 CTA/MRA**。[^1]
+- **2015 初始影像**：緊急處置前須先做腦部影像（Class I, LOE A）；多數情況下 NECT 即可提供決策所需資訊。[^1]
+- **2015 血管影像順序**：若考慮血管內治療，強烈建議初始評估納入 CTA／MRA，但不得延遲 IV r-tPA，必要時應先開始溶栓再儘快取得血管影像（Class I, LOE A）。[^1]
+- **2015 perfusion 證據層**：CT／MR perfusion 用於選擇血管內治療病人的效益當時仍屬未確立（Class IIb, LOE C），亦未證實優於 CTA／MRA。[^1]
 
 ## 放射科醫師影像判讀重點
 - **急診第一線 = NECT**：主要目的為**排除出血**並辨識早期缺血徵象（灰白質界線消失、島帶徵、緻密血管徵、早期低密度）;多數情況 NECT 即足以決定緊急處置（Class I）。[^1]
@@ -67,13 +68,14 @@ down:
 - **更新版本**：台灣另有 **2025 急性缺血性腦中風處置建議**、**2025 IVT 指引更新**、**2026 Tenecteplase IVT 共識**（見學會官網）。[^4]
 
 ### 參考來源
-[^1]: Powers WJ, Derdeyn CP, Biller J, et al. *2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment*. Stroke. 2015;46(10):3020-3035. https://doi.org/10.1161/STR.0000000000000074 （實際查證原文 accessed 2026-06-15：IV r-tPA「even if endovascular considered」Class I；觀察 tPA 反應 Class III 不建議；NECT 多數可決策 Class I；CTA/MRA 強烈建議但勿延遲 tPA；perfusion 選病人效益 unknown，Class IIb；技術目標 mTICI 2b/3，6 小時內）。**此為 2016 考題之依據；其後更新見 [^2][^3]**。
+[^1]: Powers WJ, Derdeyn CP, Biller J, et al. *2015 AHA/ASA Focused Update of the 2013 Guidelines for the Early Management of Patients With Acute Ischemic Stroke Regarding Endovascular Treatment*. Stroke. 2015;46(10):3020-3035. https://doi.org/10.1161/STR.0000000000000074 （官方 guideline 全文再次查證 accessed 2026-07-29：IV r-tPA「even if endovascular considered」Class I；觀察 tPA 反應 Class III 不建議；NECT 多數可決策 Class I；CTA/MRA 強烈建議但勿延遲 tPA；perfusion 選病人效益 unknown，Class IIb；mTICI 2b/3 技術目標 Class I, LOE A；儘早且 6 小時內 Class I, LOE B-R；6 小時後效益為 uncertain, Class IIb, LOE C）。**此為 2016 考題之依據；其後更新見 [^2][^3]**。
 [^2]: Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines*. Stroke. 2019;50(12):e344-e418. https://doi.org/10.1161/STR.0000000000000211 （現行 AHA/ASA 綜合指引；取栓窗延長至 24h，DAWN/DEFUSE-3 以 mismatch 選病人 Class I。經 PubMed 取得書目 PMID 31662037）。
 [^3]: Hsieh MJ, Chen YJ, Tang SC, et al.（台灣急診醫學會 ＋ 台灣腦中風學會）*2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. https://doi.org/10.6705/j.jacme.202103_11(1).0002 （**全文已讀（PMC 開放）**：引 DAWN 6–24h、DEFUSE-3 6–16h；延長窗/醒睡型建議 multimodal CT/MR perfusion 選病人 COR I, LOE B-NR。PMID 33928011）。
 [^4]: 台灣腦中風學會治療指引（官網 http://www.stroke.org.tw/guideline/ ，實際查證 accessed 2026-06-17）。**2023 急性缺血中風動脈內血栓移除治療指引更新（全文已讀，官網公開 PDF）**：EVT 窗 6–24h；6–24h 以 CTP/MRP 或 CTA collateral score／DWI infarct core 選病人（DAWN/DEFUSE-3/MR CLEAN-LATE/SELECT2/ANGEL-ASPECT）；納入 large-core EVT 證據。另列 2025 急性缺血性腦中風處置建議、2025 IVT 指引更新、2026 Tenecteplase IVT 共識、2019 EVT/IVT 指引。
 [^5]: *Endovascular clot retrieval (ECR)*. Radiopaedia.org（亦稱 mechanical thrombectomy／EVT；rID 57136；DOI [10.53347/rID-57136](https://doi.org/10.53347/rID-57136)；實際查證 accessed 2026-07-06）：適用**前循環大血管阻塞（LVO）**之急性缺血中風；**發病 6 小時內證據穩固**，並延伸至 24 小時及大梗塞核心病人（DAWN/DEFUSE-3 等）；禁忌含初始 NECT 上出血、無可救腦組織之大梗塞核心。佐證取栓病人選擇原則。
 [^6]: **Tier 1** Powers WJ, Rabinstein AA, et al. *2019 AHA/ASA Guidelines*（同 [^2]，Stroke 2019;50(12):e344-e418，DOI [10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211)）＋台灣腦中風學會急性缺血中風血壓處置建議（見 [^4] 官網指引）；經 AHA 2019 條文實際查證 accessed 2026-07-10——**未接受再灌流者採 permissive hypertension，發病 24h 內須 SBP > 220 或 DBP > 120 才降壓**（門檻非 160/60）；**IVT 前 < 185/110、後 24h 維持 < 180/105**；**EVT 術前（未 IVT）< 185/110 合理、術後 24h < 180/105 合理**；台灣指引另建議**成功再灌流（mTICI 2b–3）後可考慮較低目標 < 140/90**。
 [^7]: 靜脈溶栓對近端大血管阻塞再通率之依據綜合 [^1][^2] 指引所述機械取栓發展背景（IV alteplase 對近端 ICA／M1 大血栓早期再通率偏低，約 10–30%，近端 ICA 更低），與 *Endovascular clot retrieval*（見 [^5]，Radiopaedia rID 57136，搜尋摘要 accessed 2026-07-12）所載「LVO 對 IV 溶栓反應不佳、需機械取栓」一致。
+[^8]: Powers WJ, Rabinstein AA, Ackerson T, et al. *Guidelines for the Early Management of Patients With Acute Ischemic Stroke: 2019 Update to the 2018 Guidelines*. Stroke. 2019;50(12):e344-e418. DOI: [10.1161/STR.0000000000000211](https://doi.org/10.1161/STR.0000000000000211)；Hsieh MJ, Chen YJ, Tang SC, et al. *2020 Guideline for Prehospital Management, Emergency Evaluation and Treatment of Patients With Acute Ischemic Stroke*. J Acute Med. 2021;11(1):12-17. DOI: [10.6705/j.jacme.202103_11(1).0002](https://doi.org/10.6705/j.jacme.202103_11(1).0002)（guideline articles 複核 accessed 2026-07-29）：後續證據將選定前循環 LVO 的 EVT 延伸至 6–16／6–24 小時，並使用 DAWN／DEFUSE-3 臨床－影像 mismatch 或 multimodal CT/MR selection。
 
 ## EVT 病人選擇（2015 AHA/ASA Class I 六準則）
 > [!info] 六準則（全部符合方為 Class I）：**prestroke mRS 0–1**、**致病阻塞位於 ICA 或 MCA M1**、**年齡 ≥18**、**NIHSS ≥6**、**ASPECTS ≥6**、**groin puncture 可於發病 6 小時內開始**。考試陷阱：NIHSS 門檻為 **≥6，非 ≥4**。[^1][^5]

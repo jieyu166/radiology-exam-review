@@ -19,14 +19,13 @@ up: "[[acute-stroke-management]]"
 
 ## Summary
 - **設計緣由**：ASPECTS 誕生前，急性中風 CT 判讀常用「MCA 領域是否 >1/3 受累」作為 rt-PA 排除標準，但**目視估計 1/3 MCA 領域在實務上並不可靠**；ASPECTS 以**拓樸區域計分**取代此模糊估計，僅需軸位影像即可執行。[^6]
-- **範圍 0–10 分**；用於 **MCA 區域**急性中風（另有 posterior circulation 改良版 pc-ASPECTS）。[^1]
-- **判讀技術細節**：偵測早期灰白質分界消失（GWD loss，急性梗塞最早的 CT 徵象）建議採**窄窗（stroke window）：window width 8 HU、window level 32 HU**，可提升細微 GWD 喪失之偵測；**須加看冠狀與矢狀切面**，軸位上易忽略的腦溝出血徵象在其他切面較明顯。[^6]
-- **判讀盲點（易漏診部位）**：**顱頂端**（volume averaging）、**顳葉下方**（灰白質交界呈軸向走行）、**枕葉**（顱骨不規則輪廓致偽影）、**深部灰質尤其尾狀核頭**——island、caudate、basal ganglia 因側枝血流較差，早期變化常較明顯但也易受上述陷阱干擾。[^6]
-- **計分法**：起始 10 分，**每個受累區域 −1**；故**正常 CT＝10 分**、廣泛受累趨近 0。[^1]
-- **10 個區域**：[^1][^2]
-  - **深部（3 分）**：caudate、lentiform（putamen）、internal capsule。
-  - **皮質（7 分）**：insular cortex（insular ribbon）＋ **M1–M6**。
-- **臨床意義**：ASPECTS **≤7** 預示 3 個月較差功能預後與症狀性出血風險增加。[^1]
+- **範圍與適用區域**：ASPECTS 為 **0–10 分**，用於 **MCA 領域**急性中風；另有後循環改良版 pc-ASPECTS。[^1][^3]
+- **判讀技術**：灰白質分界消失是急性梗塞最早 CT 徵象；採窄窗 **WW 8 HU／WL 32 HU**可提高細微變化偵測，且應加看冠狀與矢狀切面，以免漏掉軸位不明顯的腦溝出血。[^6]
+- **判讀盲點**：顱頂端易受 volume averaging、顳葉下方的灰白質交界呈軸向、枕葉受不規則顱骨偽影影響，深部灰質尤其尾狀核頭亦易漏判；insula、caudate、basal ganglia 因側枝較差，早期改變常明顯但仍受判讀陷阱影響。[^6]
+- **計分順序**：由 **10 分**開始，每個受累區域減 1 分；正常 CT 為 10 分，廣泛 MCA 領域受累時分數趨近 0。[^1]
+- **深部區域**：3 個深部區為 caudate、lentiform nucleus（含 putamen）與 internal capsule。[^1][^2]
+- **皮質區域**：7 個皮質區為 insular cortex／insular ribbon 與 M1–M6。[^1][^2]
+- **臨床意義**：原始 ASPECTS 研究顯示，基線 **ASPECTS ≤7** 與 3 個月較差功能預後及較高症狀性顱內出血風險相關。[^9]
 
 ## 放射科醫師影像判讀重點
 
@@ -95,6 +94,7 @@ up: "[[acute-stroke-management]]"
 [^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Potter CA, Vagal AS, Goyal M, Nunez DB, Leslie-Mazwi TM, Lev MH. *CT for Treatment Selection in Acute Ischemic Stroke: A Code Stroke Primer*. RadioGraphics. 2019;39(6). doi:10.1148/rg.2019190142。重點：ASPECTS 設計緣由為取代不可靠之「目視估計 1/3 MCA 領域」判讀法；建議窄窗（8 HU/32 HU）偵測細微 GWD 消失、須加看冠狀矢狀切面；判讀盲點含顱頂端、顳葉下方、枕葉（骨偽影）、深部灰質／尾狀核頭；ASPECTS 亦為 CTA 側枝評估系統之一（與 Miteff、Maas、modified Tan scale 並列，無共識何者最佳）。
 [^7]: Nezu T, Koga M, Kimura K, et al. *Pretreatment ASPECTS on DWI Predicts 3-Month Outcome Following rt-PA: SAMURAI rt-PA Registry*. Neurology. 2010;75(6):555-561. doi:10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS 預後驗證；PubMed 實際查證 accessed 2026-06-20）。
 [^8]: e-ASPECTS（自動化軟體）驗證：Herweh C, Ringleb PA, Rauch G, et al. *Performance of e-ASPECTS Software in Comparison to That of Stroke Physicians on Assessing CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2016;11(4):438-445. doi:10.1177/1747493016632244；Nagel S, Sinha D, Day D, et al. *e-ASPECTS Software Is Non-Inferior to Neuroradiologists in Applying the ASPECT Score to CT Scans of Acute Ischemic Stroke Patients*. Int J Stroke. 2017;12(6):615-622. doi:10.1177/1747493016681020（PubMed 實際查證 accessed 2026-06-20）。
+[^9]: Barber PA, Demchuk AM, Zhang J, Buchan AM; ASPECTS Study Group. *Validity and reliability of a quantitative computed tomography score in predicting outcome of hyperacute stroke before thrombolytic therapy*. Lancet. 2000;355(9221):1670-1674. DOI: [10.1016/S0140-6736(00)02237-6](https://doi.org/10.1016/S0140-6736(00)02237-6)（PubMed PMID 10905241；全文與摘要查證 accessed 2026-07-29）：基線 ASPECTS 可預測 3 個月功能預後與症狀性顱內出血；ASPECTS ≤7 的 alteplase 後症狀性出血風險高於 >7。
 
 ## 題目
 > [!question]- Which is NOT included in the ASPECT score for the MCA territory? (2022-274)

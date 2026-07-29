@@ -186,10 +186,17 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
     return batch_path, inventory, report
 
 
-def run_validate_batch_cli(batch_path: Path, *, allow_pending: bool) -> tuple[int, str]:
+def run_validate_batch_cli(
+    batch_path: Path,
+    *,
+    allow_pending: bool,
+    check_source_hashes: bool = False,
+) -> tuple[int, str]:
     argv = ["validate-batch", str(batch_path)]
     if allow_pending:
         argv.append("--allow-pending")
+    if check_source_hashes:
+        argv.append("--check-source-hashes")
     output = io.StringIO()
     try:
         with redirect_stdout(output), redirect_stderr(output):
@@ -423,6 +430,87 @@ def test_validate_batch_cli_requires_allow_pending_for_baseline() -> None:
     assert "fact-pending" in blocked_output
 
 
+def test_validate_batch_cli_supports_explicit_pre_edit_hash_gate() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path, _, _ = write_valid_batch_cli_fixture(Path(directory))
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+            check_source_hashes=True,
+        )
+
+    assert exit_code == 0
+    assert "Batch notes: 10" in output
+    assert "Missing sources: 0" in output
+
+
+def test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            entry["rewrittenSummary"] = entry["originalSummary"]
+            entry["factUnits"][0]["disposition"] = "covered"
+            entry["status"] = "verified"
+            entry["validation"].update(
+                {
+                    "pendingFactCount": 0,
+                    "structure": "pass",
+                    "footnotes": "pass",
+                    "factCoverage": "pass",
+                }
+            )
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        verified_exit, verified_output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+        report["status"] = "needs-review"
+        first = report["notes"][0]
+        first_fact = first["factUnits"][0]
+        first_fact["disposition"] = "manual-review"
+        first["sourceStatus"] = "conflict"
+        first["status"] = "manual-review"
+        first["validation"]["manualReviewFactIds"] = [first_fact["id"]]
+        first["validation"]["factCoverage"] = "fail"
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        review_exit, review_output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert verified_exit == 0, verified_output
+    assert review_exit == 0, review_output
+
+
+def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            entry["rewrittenSummary"] = entry["originalSummary"]
+            entry["factUnits"][0]["disposition"] = "covered"
+            entry["status"] = "verified"
+            entry["validation"].update(
+                {
+                    "pendingFactCount": 0,
+                    "structure": "pass",
+                    "footnotes": "pass",
+                    "factCoverage": "pass",
+                }
+            )
+        report["notes"][0]["rewrittenSummary"] = "## Summary\n- **Label**: Drift.[^1]\n"
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 1
+    assert "evidence-rewritten-summary-mismatch" in output
+
+
 def test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths() -> None:
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
@@ -507,7 +595,9 @@ def test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one() -> None:
     assert len(facts) == 18
     for fact_id in expected_ids:
         assert facts[fact_id]["sourceRefs"] == ["1"]
-        assert facts[fact_id]["disposition"] == "research-needed"
+    assert facts["acute-stroke-management-f09"]["disposition"] == "manual-review"
+    for fact_id in expected_ids - {"acute-stroke-management-f09"}:
+        assert facts[fact_id]["disposition"] == "covered"
 
 
 def test_validate_batch_cli_handles_invalid_json_without_raising() -> None:
@@ -948,6 +1038,9 @@ def run_smoke() -> None:
     test_evidence_rejects_statuses_that_contradict_fact_dispositions()
     test_evidence_rejects_stale_validation_metadata_and_nonsequential_ids()
     test_validate_batch_cli_requires_allow_pending_for_baseline()
+    test_validate_batch_cli_supports_explicit_pre_edit_hash_gate()
+    test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review()
+    test_validate_batch_cli_rejects_rewritten_summary_drift()
     test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths()
     test_validate_batch_cli_allow_pending_retains_mutation_findings()
     test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one()

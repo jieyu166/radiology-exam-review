@@ -51,6 +51,7 @@ FACT_DISPOSITIONS = {
     "research-needed",
     "manual-review",
 }
+BATCH_STATUSES = {"baseline", "needs-review", "verified"}
 PHASE_1_BATCHES = {"batch-00", "unassigned"}
 PILOT_SLUGS = frozenset(
     {
@@ -506,7 +507,6 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
         ("schemaVersion", 1, "evidence-schema-version"),
         ("batch", "batch-00", "evidence-batch"),
         ("scope", "NR", "evidence-scope"),
-        ("status", "baseline", "evidence-status"),
     )
     for field, expected, code in root_contract:
         if report.get(field) != expected:
@@ -518,6 +518,17 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     f"Batch field {field!r} must equal {expected!r}.",
                 )
             )
+
+    batch_status = report.get("status")
+    if not _is_string_member(batch_status, BATCH_STATUSES):
+        findings.append(
+            Finding(
+                "error",
+                "evidence-status",
+                batch_path,
+                f"Batch field 'status' must be one of {sorted(BATCH_STATUSES)!r}.",
+            )
+        )
 
     report_notes = report.get("notes")
     if not isinstance(report_notes, list):
@@ -635,7 +646,8 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     f"Unsupported note status {note_status!r}.",
                 )
             )
-        if not isinstance(entry.get("rewrittenSummary"), str):
+        rewritten_summary = entry.get("rewrittenSummary")
+        if not isinstance(rewritten_summary, str):
             findings.append(
                 Finding(
                     "error",
@@ -644,6 +656,8 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     "rewrittenSummary must be a string.",
                 )
             )
+            rewritten_summary = ""
+        is_rewritten = bool(rewritten_summary)
         if not isinstance(entry.get("validation"), dict):
             findings.append(
                 Finding(
@@ -674,7 +688,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
             )
         else:
-            if original_hash != note.sha256:
+            if not is_rewritten and original_hash != note.sha256:
                 findings.append(
                     Finding(
                         "error",
@@ -683,7 +697,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         "Current note SHA-256 differs from originalSha256.",
                     )
                 )
-            if entry.get("originalSummary") != note.original_summary:
+            if not is_rewritten and entry.get("originalSummary") != note.original_summary:
                 findings.append(
                     Finding(
                         "error",
@@ -692,6 +706,17 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         "originalSummary is not a lossless snapshot of the current note.",
                     )
                 )
+            if is_rewritten and rewritten_summary != note.original_summary:
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-rewritten-summary-mismatch",
+                        path,
+                        "rewrittenSummary is not a lossless snapshot of the current note Summary.",
+                    )
+                )
+            if is_rewritten:
+                findings.extend(validate_summary(note))
 
         fact_units = entry.get("factUnits")
         if not isinstance(fact_units, list):
@@ -819,9 +844,15 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
         if isinstance(validation, dict):
             valid_fact_units = [fact for fact in fact_units if isinstance(fact, dict)]
             expected_validation = {
-                "hashMatches": note is not None and original_hash == note.sha256,
+                "hashMatches": (
+                    True
+                    if is_rewritten
+                    else note is not None and original_hash == note.sha256
+                ),
                 "losslessSummaryMatches": (
-                    note is not None and entry.get("originalSummary") == note.original_summary
+                    True
+                    if is_rewritten
+                    else note is not None and entry.get("originalSummary") == note.original_summary
                 ),
                 "allSourceRefsDefined": (
                     note is not None
@@ -853,6 +884,37 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 ],
                 "newUnsupportedFacts": 0,
             }
+            if is_rewritten:
+                summary_findings = validate_summary(note) if note is not None else []
+                expected_validation.update(
+                    {
+                        "structure": (
+                            "pass"
+                            if not any(
+                                finding.code != "footnote-undefined"
+                                for finding in summary_findings
+                            )
+                            else "fail"
+                        ),
+                        "footnotes": (
+                            "pass"
+                            if not any(
+                                finding.code == "footnote-undefined"
+                                for finding in summary_findings
+                            )
+                            else "fail"
+                        ),
+                        "factCoverage": (
+                            "pass"
+                            if all(
+                                fact.get("disposition") == "covered"
+                                for fact in valid_fact_units
+                            )
+                            and len(valid_fact_units) == len(fact_units)
+                            else "fail"
+                        ),
+                    }
+                )
             mismatches = [
                 field
                 for field, expected in expected_validation.items()
@@ -869,11 +931,22 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
         has_unresolved = has_research_needed or has_manual_review
         if _is_string_member(source_status, SOURCE_STATUSES):
-            source_status_matches_facts = (
-                source_status in {"research-needed", "conflict"}
-                if has_unresolved
-                else source_status == "existing-sufficient"
-            )
+            if is_rewritten and has_manual_review:
+                source_status_matches_facts = source_status == "conflict"
+            elif is_rewritten and has_research_needed:
+                source_status_matches_facts = source_status == "research-needed"
+            elif is_rewritten:
+                source_status_matches_facts = source_status in {
+                    "existing-sufficient",
+                    "researched",
+                }
+            elif has_unresolved:
+                source_status_matches_facts = source_status in {
+                    "research-needed",
+                    "conflict",
+                }
+            else:
+                source_status_matches_facts = source_status == "existing-sufficient"
             if not source_status_matches_facts:
                 findings.append(
                     Finding(
@@ -881,8 +954,15 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         "evidence-source-status",
                         path,
                         (
-                            "Unresolved facts require research-needed or conflict sourceStatus."
-                            if has_unresolved
+                            "Manual-review facts require conflict sourceStatus."
+                            if has_manual_review
+                            else "Research-needed facts require research-needed sourceStatus."
+                            if has_research_needed
+                            else (
+                                "Resolved rewritten facts require existing-sufficient or "
+                                "researched sourceStatus."
+                            )
+                            if is_rewritten
                             else "Resolved baseline facts require existing-sufficient sourceStatus."
                         ),
                     )
@@ -892,6 +972,8 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
             if has_manual_review
             else "research-needed"
             if has_research_needed
+            else "verified"
+            if is_rewritten
             else "pending"
         )
         if _is_string_member(note_status, NOTE_STATUSES) and note_status != expected_note_status:
@@ -906,6 +988,47 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     ),
                 )
             )
+    valid_entries = [entry for entry in report_notes if isinstance(entry, dict)]
+    all_rewritten = (
+        len(valid_entries) == len(report_notes)
+        and bool(valid_entries)
+        and all(
+            isinstance(entry.get("rewrittenSummary"), str)
+            and bool(entry["rewrittenSummary"])
+            for entry in valid_entries
+        )
+    )
+    all_facts = [
+        fact
+        for entry in valid_entries
+        if isinstance(entry.get("factUnits"), list)
+        for fact in entry["factUnits"]
+        if isinstance(fact, dict)
+    ]
+    has_pending_batch_fact = any(
+        fact.get("disposition") == "pending" for fact in all_facts
+    )
+    has_unresolved_batch_fact = any(
+        fact.get("disposition") == "research-needed"
+        or fact.get("disposition") == "manual-review"
+        for fact in all_facts
+    )
+    expected_batch_status = (
+        "baseline"
+        if has_pending_batch_fact or not all_rewritten
+        else "needs-review"
+        if has_unresolved_batch_fact
+        else "verified"
+    )
+    if _is_string_member(batch_status, BATCH_STATUSES) and batch_status != expected_batch_status:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-status",
+                batch_path,
+                f"Batch content requires status {expected_batch_status!r}.",
+            )
+        )
     return findings
 
 
@@ -1403,6 +1526,11 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Permit pending fact dispositions in a pre-edit baseline.",
     )
+    validate_batch.add_argument(
+        "--check-source-hashes",
+        action="store_true",
+        help="Run the explicit pre-edit source hash and lossless Summary snapshot gate.",
+    )
     return parser
 
 
@@ -1454,7 +1582,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 1
         notes, findings = _load_batch_notes(args.path)
         findings.extend(validate_evidence(report, notes))
-        if not args.allow_pending:
+        if not args.allow_pending and not args.check_source_hashes:
             findings.extend(_pending_fact_findings(report))
         _print_batch_counts(report, findings)
         _print_findings(findings)
