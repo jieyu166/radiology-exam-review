@@ -554,6 +554,13 @@ def build_parser():
 def main(argv=None):
     args = build_parser().parse_args(argv)
     quiet = args.quiet
+    if (args.batch_file or args.slugs) and not args.repo_root:
+        print(
+            "ERROR: build-selection-root-required: "
+            "scoped builds require explicit --repo-root.",
+            file=sys.stderr,
+        )
+        return 1
     repo_root = Path(args.repo_root).resolve() if args.repo_root else Path(REPO).resolve()
     src_dir = repo_root / "vault" / "concepts"
     out_dir = repo_root / "data" / "concepts"

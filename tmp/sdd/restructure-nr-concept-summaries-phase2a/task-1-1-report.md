@@ -54,3 +54,45 @@ No file below `vault/concepts/` and no production Phase 2 assignment, inventory,
 ## Limitation / staged trust state
 
 `TRUSTED_PHASE2A_BATCH_LOCK_SHA256` intentionally remains fail-closed and empty in Task 1.1 because Tasks 2.1, 3.1, and 4.1 create and independently review the three production baseline locks. Isolated tests inject fixture-only reviewed digests. A production baseline cannot pass until its later task adds the corresponding code-owned digest.
+
+## Independent review round 1 fixes
+
+### Adversarial RED
+
+- Command:
+  - `python -m pytest -q scripts/test_nr_summary_audit.py scripts/test_build_concepts.py -k "pilot_nonpilot_batch_swap or separates_pre_edit_source_gate or shrunken_membership or coordinated_nonselected or scoped_cli_requires_explicit_root"`
+- Result before implementation:
+  - `5 failed, 85 deselected`
+- The five failures reproduced every Important review scenario:
+  1. mutable `batch-00` pilot/nonpilot swap was accepted;
+  2. `check_source_hashes=False` still emitted pre-edit lock mismatches;
+  3. shrunken evidence and forged workflow metadata emitted no findings;
+  4. coordinated nonselected mutation/manifest regeneration lacked `generated-unrelated-write` and `generated-non-idempotent`;
+  5. scoped build accepted omitted `--repo-root`.
+
+### Fixes
+
+- Pilot identity now comes only from immutable `PILOT_SLUGS`; inventory `batch-00` membership is independently required to equal that set.
+- Baseline trust/membership validation is separate from the optional pre-edit current-source gate. Rewrite-mode validation compares the current Summary with the evidence snapshot.
+- Evidence validation now enforces exact ordered membership, root/note schema, derived validation/status/queue data, baseline reference, workflow sequence/predecessor, nonblank distinct identities, review state, and reviewed baseline snapshot.
+- Generated manifests preserve nonselected observations across regeneration, execute and record a real second idempotence run, and emit the two specific stable failure codes.
+- `--batch-file` and `--slugs` require explicit `--repo-root`; legacy unscoped full build retains its fallback behavior.
+- The empty production trusted registry remains unchanged and fail-closed.
+
+### Review-round verification
+
+- Five focused exploit tests:
+  - `5 passed, 85 deselected`
+- Full audit/build suite:
+  - `90 passed in 30.70s`
+- Existing direct Phase 1 suites:
+  - `NR_SUMMARY_AUDIT_OK`
+  - `BUILD_CONCEPTS_TEST_OK`
+- Four-file `py_compile`:
+  - exit 0
+- Combined original relocation/attack and review-attack selection:
+  - `14 passed, 76 deselected in 0.88s`
+- `git diff --check`:
+  - exit 0
+- `git diff --exit-code -- vault/concepts`:
+  - exit 0

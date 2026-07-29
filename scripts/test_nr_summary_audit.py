@@ -28,6 +28,17 @@ subspecialty: [NR]
 [^1]: Example.
 """
 NR_DEMO_SUMMARY = "## Summary\n- **Label**: Demo fact.[^1]\n\n"
+NR_REWRITE_TEXT = """---
+concepts: [demo]
+subspecialty: [NR]
+---
+## Summary
+- **Label**: Rewritten fact.[^1]
+
+## References
+[^1]: Example.
+"""
+NR_REWRITE_SUMMARY = "## Summary\n- **Label**: Rewritten fact.[^1]\n\n"
 
 PILOT_SLUGS = (
     "acute-stroke-management",
@@ -701,6 +712,38 @@ def test_phase2_assignment_reports_stable_inventory_membership_order_and_path_co
     }
 
 
+def test_phase2_assignment_rejects_mutable_pilot_nonpilot_batch_swap() -> None:
+    inventory = phase2_inventory_fixture()
+    pilot = next(
+        entry for entry in inventory["notes"] if entry["slug"] in audit.PILOT_SLUGS
+    )
+    active_slugs = {
+        slug
+        for contract in audit.ACTIVE_PHASE2A_BATCHES.values()
+        for slug in contract["slugs"]
+    }
+    scheduled = next(
+        entry
+        for entry in inventory["notes"]
+        if entry["slug"] not in audit.PILOT_SLUGS
+        and entry["slug"] not in active_slugs
+    )
+    pilot["batch"], scheduled["batch"] = scheduled["batch"], pilot["batch"]
+
+    assignment = audit.build_phase2_assignment(inventory)
+    codes = {
+        finding.code
+        for finding in audit.validate_phase2_assignment(assignment, inventory)
+    }
+
+    assert "phase2-assignment-membership" in codes
+    assigned_slugs = {
+        slug for batch in assignment["batches"] for slug in batch["slugs"]
+    }
+    assert scheduled["slug"] in assigned_slugs
+    assert pilot["slug"] not in assigned_slugs
+
+
 def test_phase2_batch_context_is_immutable_root_relative_and_relocation_stable() -> None:
     with tempfile.TemporaryDirectory() as directory:
         base = Path(directory)
@@ -887,6 +930,182 @@ def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:
     assert baseline_output.getvalue() == batch_output.getvalue() == "[]\n"
     assert "generated-keypoints-mismatch" in attack_codes
     assert "generated-manifest-mismatch" in attack_codes
+
+
+def test_phase2_batch_separates_pre_edit_source_gate_from_rewrite_validation() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        slug = audit.ACTIVE_PHASE2A_BATCHES["batch-01-anatomy"]["slugs"][0]
+        (root / "vault" / "concepts" / f"{slug}.md").write_text(
+            NR_REWRITE_TEXT, encoding="utf-8", newline=""
+        )
+        evidence_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "evidence"
+            / "batch-01-anatomy.json"
+        )
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        evidence["notes"][0]["rewrittenSummary"] = NR_REWRITE_SUMMARY
+        evidence["notes"][0]["summaryBulletEvidence"] = [
+            "**Label**: Rewritten fact."
+        ]
+        evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            rewrite_codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context, check_source_hashes=False, check_generated=False
+                )
+            }
+            pre_edit_codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context, check_source_hashes=True, check_generated=False
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert "phase2-source-hash-mismatch" not in rewrite_codes
+    assert "phase2-lossless-summary-mismatch" not in rewrite_codes
+    assert "evidence-rewritten-summary-mismatch" not in rewrite_codes
+    assert {
+        "phase2-source-hash-mismatch",
+        "phase2-lossless-summary-mismatch",
+    } <= pre_edit_codes
+
+
+def test_phase2_evidence_rejects_shrunken_membership_and_forged_workflow() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        evidence_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "evidence"
+            / "batch-01-anatomy.json"
+        )
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        evidence["notes"] = evidence["notes"][:1]
+        evidence["workflow"].update(
+            {
+                "sequence": 99,
+                "predecessor": "forged-predecessor",
+                "implementer": "",
+                "reviewer": "",
+                "reviewStatus": "approved",
+                "reviewedBaselineSha256": "f" * 64,
+            }
+        )
+        evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context, check_source_hashes=False, check_generated=False
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert {
+        "phase2-evidence-schema",
+        "phase2-review-sequence",
+        "phase2-reviewer-conflict",
+    } <= codes
+
+
+def test_phase2_manifest_rejects_coordinated_nonselected_and_second_run_attacks() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        unrelated_slug = "unrelated-detail"
+        unrelated = {
+            "slug": unrelated_slug,
+            "name": "Unrelated",
+            "nameZh": "",
+            "subspecialty": "NR",
+            "checked": False,
+            "keyPoints": ["before"],
+        }
+        unrelated_path = root / "data" / "concepts" / f"{unrelated_slug}.json"
+        unrelated_path.write_text(json.dumps(unrelated), encoding="utf-8")
+        index_path = root / "data" / "concepts-index.json"
+        index = json.loads(index_path.read_text(encoding="utf-8"))
+        index["concepts"].append(
+            {
+                key: unrelated[key]
+                for key in ("slug", "name", "nameZh", "subspecialty", "checked")
+            }
+        )
+        index["concepts"].sort(key=lambda entry: entry["slug"])
+        index_path.write_text(json.dumps(index), encoding="utf-8")
+        manifest_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "generated"
+            / "batch-01-anatomy.json"
+        )
+        manifest_path.parent.mkdir(parents=True)
+        initial_manifest = audit.build_phase2_generated_manifest(
+            root, "batch-01-anatomy"
+        )
+        manifest_path.write_text(json.dumps(initial_manifest), encoding="utf-8")
+
+        unrelated["keyPoints"] = ["coordinated mutation"]
+        unrelated_path.write_text(json.dumps(unrelated), encoding="utf-8")
+        forged_manifest = audit.build_phase2_generated_manifest(
+            root, "batch-01-anatomy"
+        )
+        forged_manifest["secondRun"] = {
+            "changedPaths": ["data/concepts/ajcc-8th-head-neck-n-staging.json"],
+            "mtimeChangedPaths": [],
+        }
+        manifest_path.write_text(json.dumps(forged_manifest), encoding="utf-8")
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context, check_source_hashes=False, check_generated=True
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert "generated-unrelated-write" in codes
+    assert "generated-non-idempotent" in codes
 
 
 def test_phase2_assignment_path_attack_cli_is_relocation_stable() -> None:

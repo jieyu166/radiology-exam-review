@@ -410,6 +410,46 @@ def test_explicit_root_rejects_absolute_or_escaping_batch_path_without_writes() 
     assert all("build-selection-path-invalid" in output for _, output in results)
 
 
+def test_scoped_cli_requires_explicit_root_but_legacy_full_build_keeps_fallback() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        sources = root / "vault" / "concepts"
+        sources.mkdir(parents=True)
+        write_concept(sources / "alpha.md", "alpha")
+        batch_path = root / "batch.json"
+        batch_path.write_text(
+            json.dumps({"notes": [{"slug": "alpha"}]}), encoding="utf-8"
+        )
+        scoped_results = []
+        for argv in (
+            ["--batch-file", str(batch_path), "--quiet"],
+            ["--slugs", "alpha", "--quiet"],
+        ):
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = build.main(argv)
+            scoped_results.append((exit_code, output.getvalue()))
+
+        original_repo = build.REPO
+        build.REPO = str(root)
+        try:
+            with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                full_exit = build.main(["--quiet"])
+        finally:
+            build.REPO = original_repo
+        full_detail_exists = (
+            root / "data" / "concepts" / "alpha.json"
+        ).is_file()
+
+    assert all(exit_code == 1 for exit_code, _ in scoped_results)
+    assert all(
+        "build-selection-root-required" in output
+        for _, output in scoped_results
+    )
+    assert full_exit == 0
+    assert full_detail_exists
+
+
 def run_smoke() -> None:
     test_extract_links_preserves_balanced_doi_parentheses()
     test_extract_links_stops_before_chinese_doi_explanations()

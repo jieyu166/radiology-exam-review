@@ -543,7 +543,7 @@ def _phase2_inventory_projection(inventory: dict) -> list[dict]:
         raise ValueError("Inventory notes must be an array.")
     projection = []
     for entry in notes:
-        if not isinstance(entry, dict) or entry.get("batch") == "batch-00":
+        if not isinstance(entry, dict) or entry.get("slug") in PILOT_SLUGS:
             continue
         projection.append(
             {
@@ -636,6 +636,20 @@ def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Findin
     assignment_path = "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     inventory_notes = inventory.get("notes") if isinstance(inventory, dict) else None
     if isinstance(inventory_notes, list):
+        batch_00_slugs = {
+            entry.get("slug")
+            for entry in inventory_notes
+            if isinstance(entry, dict) and entry.get("batch") == "batch-00"
+        }
+        if batch_00_slugs != PILOT_SLUGS:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-assignment-membership",
+                    "docs/reports/nr-summary-rewrite/inventory.json",
+                    "Inventory batch-00 membership must equal immutable PILOT_SLUGS.",
+                )
+            )
         for index, entry in enumerate(inventory_notes):
             if (
                 isinstance(entry, dict)
@@ -976,24 +990,6 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                     f"Baseline metadata for {slug!r} differs from assignment/inventory.",
                 )
             )
-        if locked.get("originalSha256") != note.sha256:
-            findings.append(
-                Finding(
-                    "error",
-                    "phase2-source-hash-mismatch",
-                    locked.get("path", path),
-                    f"Current source hash for {slug!r} differs from the lock.",
-                )
-            )
-        if locked.get("originalSummary") != note.original_summary:
-            findings.append(
-                Finding(
-                    "error",
-                    "phase2-lossless-summary-mismatch",
-                    locked.get("path", path),
-                    f"Current Summary snapshot for {slug!r} differs from the lock.",
-                )
-            )
         facts = locked.get("factUnits")
         if not isinstance(facts, list) or not facts:
             findings.append(
@@ -1021,11 +1017,149 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
     return findings
 
 
-def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
+def _validate_phase2_source_state(
+    context: BatchContext, *, pre_edit: bool
+) -> list[Finding]:
+    """Validate either the pre-edit lock or the current evidence rewrite."""
+    findings: list[Finding] = []
+    baseline_by_slug = {
+        entry["slug"]: entry
+        for entry in (context.baseline or {}).get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    evidence_by_slug = {
+        entry["slug"]: entry
+        for entry in (context.evidence or {}).get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    for slug in context.batch["slugs"]:
+        note = context.note_records.get(slug)
+        locked = baseline_by_slug.get(slug, {})
+        evidence = evidence_by_slug.get(slug, {})
+        display = locked.get("path", context.evidence_path.as_posix())
+        if note is None:
+            continue
+        if pre_edit:
+            if locked.get("originalSha256") != note.sha256:
+                findings.append(
+                    Finding(
+                        "error",
+                        "phase2-source-hash-mismatch",
+                        display,
+                        f"Current source hash for {slug!r} differs from the lock.",
+                    )
+                )
+            if locked.get("originalSummary") != note.original_summary:
+                findings.append(
+                    Finding(
+                        "error",
+                        "phase2-lossless-summary-mismatch",
+                        display,
+                        f"Current Summary snapshot for {slug!r} differs from the lock.",
+                    )
+                )
+        elif evidence.get("rewrittenSummary") != note.original_summary:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-rewritten-summary-mismatch",
+                    display,
+                    f"Current Summary for {slug!r} differs from evidence.",
+                )
+            )
+    return findings
+
+
+def _generated_snapshot(repo_root: Path) -> tuple[dict[str, bytes], dict[str, int]]:
+    paths = sorted((repo_root / "data").rglob("*.json"))
+    return (
+        {
+            path.relative_to(repo_root).as_posix(): path.read_bytes()
+            for path in paths
+        },
+        {
+            path.relative_to(repo_root).as_posix(): path.stat().st_mtime_ns
+            for path in paths
+        },
+    )
+
+
+def _nonselected_detail_hashes(context: BatchContext) -> dict[str, str]:
+    selected = set(context.batch["slugs"])
+    return {
+        (context.generated_root / path.name).as_posix(): hashlib.sha256(
+            path.read_bytes()
+        ).hexdigest()
+        for path in sorted(
+            (context.repo_root / context.generated_root).glob("*.json"),
+            key=lambda item: item.name,
+        )
+        if path.stem not in selected
+    }
+
+
+def build_phase2_generated_manifest(
+    repo_root: Path, batch_id: str, *, _run_build: bool = True
+) -> dict:
     assignment_path = Path(
         "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     )
     context = load_phase2_batch(repo_root, assignment_path, batch_id)
+    manifest_path = (
+        context.assignment_path.parent
+        / "phase2a"
+        / "generated"
+        / f"{batch_id}.json"
+    )
+    previous = None
+    try:
+        previous = json.loads(
+            (context.repo_root / manifest_path).read_text(encoding="utf-8")
+        )
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+        pass
+    current_nonselected = _nonselected_detail_hashes(context)
+    nonselected_before = (
+        previous.get("nonselectedAfter")
+        if isinstance(previous, dict)
+        and isinstance(previous.get("nonselectedAfter"), dict)
+        else current_nonselected
+    )
+    second_run = (
+        previous.get("secondRun")
+        if isinstance(previous, dict) and isinstance(previous.get("secondRun"), dict)
+        else {"changedPaths": [], "mtimeChangedPaths": []}
+    )
+    if _run_build:
+        import build_concepts as concept_builder
+
+        concept_builder.build_selected_concepts(
+            context.batch["slugs"],
+            src_dir=context.repo_root / "vault" / "concepts",
+            out_dir=context.repo_root / context.generated_root,
+            index_path=context.repo_root / "data" / "concepts-index.json",
+        )
+        current_nonselected = _nonselected_detail_hashes(context)
+        before_bytes, before_mtimes = _generated_snapshot(context.repo_root)
+        concept_builder.build_selected_concepts(
+            context.batch["slugs"],
+            src_dir=context.repo_root / "vault" / "concepts",
+            out_dir=context.repo_root / context.generated_root,
+            index_path=context.repo_root / "data" / "concepts-index.json",
+        )
+        after_bytes, after_mtimes = _generated_snapshot(context.repo_root)
+        second_run = {
+            "changedPaths": sorted(
+                path
+                for path in set(before_bytes) | set(after_bytes)
+                if before_bytes.get(path) != after_bytes.get(path)
+            ),
+            "mtimeChangedPaths": sorted(
+                path
+                for path in set(before_mtimes) | set(after_mtimes)
+                if before_mtimes.get(path) != after_mtimes.get(path)
+            ),
+        }
     detail_root = context.repo_root / context.generated_root
     detail_files = sorted(detail_root.glob("*.json"), key=lambda item: item.name)
     tree_entries = []
@@ -1115,7 +1249,9 @@ def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
         "detailFileCount": len(detail_files),
         "detailTreeSha256": _canonical_sha256(tree_entries),
         "allowedWrites": allowed_writes,
-        "secondRun": {"changedPaths": [], "mtimeChangedPaths": []},
+        "nonselectedBefore": nonselected_before,
+        "nonselectedAfter": current_nonselected,
+        "secondRun": second_run,
     }
 
 
@@ -1123,6 +1259,9 @@ def validate_phase2_batch(
     context: BatchContext, check_source_hashes: bool, check_generated: bool
 ) -> list[Finding]:
     findings = validate_baseline_lock(context)
+    findings.extend(
+        _validate_phase2_source_state(context, pre_edit=check_source_hashes)
+    )
     evidence = context.evidence
     path = context.evidence_path.as_posix()
     if not isinstance(evidence, dict):
@@ -1134,6 +1273,64 @@ def validate_phase2_batch(
         return findings + [
             Finding("error", "phase2-baseline-schema", path, "Evidence notes must be an array.")
         ]
+    required_root = {
+        "schemaVersion",
+        "kind",
+        "batch",
+        "scope",
+        "baselineLock",
+        "status",
+        "workflow",
+        "notes",
+        "manualReviewFactIds",
+        "generatedManifest",
+    }
+    if (
+        required_root - evidence.keys()
+        or evidence.get("schemaVersion") != 1
+        or evidence.get("kind") != "phase2-batch-evidence"
+        or evidence.get("batch") != context.batch["id"]
+        or evidence.get("scope") != "NR"
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-evidence-schema",
+                path,
+                "Evidence root shape or identity is invalid.",
+            )
+        )
+    evidence_slugs = [
+        entry.get("slug") if isinstance(entry, dict) else None
+        for entry in evidence_notes
+    ]
+    if evidence_slugs != context.batch["slugs"]:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-evidence-schema",
+                path,
+                "Evidence notes must exactly match ordered batch membership.",
+            )
+        )
+    baseline_digest = (
+        _canonical_sha256(context.baseline) if isinstance(context.baseline, dict) else None
+    )
+    expected_lock_path = context.baseline_path.as_posix()
+    lock_ref = evidence.get("baselineLock")
+    if (
+        not isinstance(lock_ref, dict)
+        or lock_ref.get("path") != expected_lock_path
+        or lock_ref.get("sha256") != baseline_digest
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-evidence-schema",
+                path,
+                "Evidence baseline reference does not match the loaded lock.",
+            )
+        )
     baseline_by_slug = {
         entry["slug"]: entry
         for entry in (context.baseline or {}).get("notes", [])
@@ -1148,6 +1345,28 @@ def validate_phase2_batch(
             continue
         slug = entry["slug"]
         locked = baseline_by_slug.get(slug, {})
+        note = context.note_records.get(slug)
+        required_note = {
+            "slug",
+            "sourceStatus",
+            "status",
+            "rewrittenSummary",
+            "facts",
+            "sourceDefinitions",
+            "newUnsupportedFacts",
+            "validation",
+            "summaryBulletEvidence",
+            "coverageEvidenceSha256",
+        }
+        if required_note - entry.keys():
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-evidence-schema",
+                    path,
+                    f"Evidence note {slug!r} is missing required fields.",
+                )
+            )
         expected_ids = [
             fact.get("id")
             for fact in locked.get("factUnits", [])
@@ -1170,10 +1389,12 @@ def validate_phase2_batch(
             )
         definitions = entry.get("sourceDefinitions")
         definitions = definitions if isinstance(definitions, dict) else {}
+        local_dispositions = []
         for fact in facts if isinstance(facts, list) else []:
             if not isinstance(fact, dict):
                 continue
             disposition = fact.get("disposition")
+            local_dispositions.append(disposition)
             if disposition not in {"covered", "research-needed", "manual-review"}:
                 findings.append(
                     Finding(
@@ -1206,6 +1427,73 @@ def validate_phase2_batch(
                     f"Evidence note {slug!r} has unsupported rewritten facts.",
                 )
             )
+        validation = entry.get("validation")
+        covered = sum(item == "covered" for item in local_dispositions)
+        research_needed = sum(item == "research-needed" for item in local_dispositions)
+        manual_review = sum(item == "manual-review" for item in local_dispositions)
+        fact_coverage = (
+            validation.get("factCoverage") if isinstance(validation, dict) else None
+        )
+        if (
+            not isinstance(validation, dict)
+            or validation.get("hashMatches") is not True
+            or validation.get("losslessSummaryMatches") is not True
+            or validation.get("allSourceRefsDefined") is not True
+            or not isinstance(validation.get("structure"), dict)
+            or validation["structure"].get("errors") != 0
+            or not isinstance(validation.get("footnotes"), dict)
+            or validation["footnotes"].get("errors") != 0
+            or fact_coverage
+            != {
+                "total": len(local_dispositions),
+                "covered": covered,
+                "researchNeeded": research_needed,
+                "manualReview": manual_review,
+            }
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-evidence-schema",
+                    path,
+                    f"Evidence validation block for {slug!r} is not derived.",
+                )
+            )
+        if (
+            note is not None
+            and entry.get("summaryBulletEvidence") != _generated_keypoints(note)
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-rewritten-summary-mismatch",
+                    path,
+                    f"Summary bullet evidence for {slug!r} differs from source.",
+                )
+            )
+        if (
+            not local_dispositions
+            or any(
+                item not in {"covered", "research-needed", "manual-review"}
+                for item in local_dispositions
+            )
+            or (
+                all(item == "covered" for item in local_dispositions)
+                and entry.get("status") != "verified"
+            )
+            or (
+                any(item in {"research-needed", "manual-review"} for item in local_dispositions)
+                and entry.get("status") == "verified"
+            )
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-evidence-schema",
+                    path,
+                    f"Evidence status for {slug!r} is inconsistent with facts.",
+                )
+            )
     if evidence.get("manualReviewFactIds") != sorted(unresolved):
         findings.append(
             Finding(
@@ -1215,20 +1503,57 @@ def validate_phase2_batch(
                 "Manual queue is not the derived sorted unresolved fact IDs.",
             )
         )
-    workflow = evidence.get("workflow")
-    if isinstance(workflow, dict):
-        if (
-            workflow.get("implementer")
-            and workflow.get("implementer") == workflow.get("reviewer")
-        ):
-            findings.append(
-                Finding(
-                    "error",
-                    "phase2-reviewer-conflict",
-                    path,
-                    "Implementer and reviewer must be different identities.",
-                )
+    expected_root_status = "needs-review" if unresolved else "verified"
+    if evidence.get("status") != expected_root_status:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-evidence-schema",
+                path,
+                "Evidence root status is not derived from note dispositions.",
             )
+        )
+    workflow = evidence.get("workflow")
+    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    batch_index = batch_ids.index(context.batch["id"])
+    expected_sequence = batch_index + 1
+    expected_predecessor = batch_ids[batch_index - 1] if batch_index else None
+    if (
+        not isinstance(workflow, dict)
+        or workflow.get("sequence") != expected_sequence
+        or workflow.get("predecessor") != expected_predecessor
+        or workflow.get("reviewStatus")
+        not in {"not-started", "changes-requested", "approved"}
+        or (
+            workflow.get("reviewStatus") == "approved"
+            and workflow.get("reviewedBaselineSha256") != baseline_digest
+        )
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-review-sequence",
+                path,
+                "Workflow sequence, predecessor, review state, or snapshot is invalid.",
+            )
+        )
+    implementer = workflow.get("implementer") if isinstance(workflow, dict) else None
+    reviewer = workflow.get("reviewer") if isinstance(workflow, dict) else None
+    if (
+        not isinstance(implementer, str)
+        or not implementer.strip()
+        or not isinstance(reviewer, str)
+        or not reviewer.strip()
+        or implementer == reviewer
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-reviewer-conflict",
+                path,
+                "Implementer and reviewer must be nonblank distinct identities.",
+            )
+        )
     if check_generated:
         for slug, note in context.note_records.items():
             detail_path = context.generated_root / f"{slug}.json"
@@ -1252,7 +1577,7 @@ def validate_phase2_batch(
                 )
         try:
             actual = build_phase2_generated_manifest(
-                context.repo_root, context.batch["id"]
+                context.repo_root, context.batch["id"], _run_build=False
             )
             manifest_path = Path(str(evidence.get("generatedManifest", "")))
             if manifest_path.as_posix() != (
@@ -1267,6 +1592,29 @@ def validate_phase2_batch(
             checked = _read_phase2_json(
                 context.repo_root / manifest_path, manifest_path
             )
+            if checked.get("nonselectedBefore") != checked.get("nonselectedAfter"):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-unrelated-write",
+                        manifest_path.as_posix(),
+                        "Nonselected detail observations changed across the scoped build.",
+                    )
+                )
+            second_run = checked.get("secondRun")
+            if (
+                not isinstance(second_run, dict)
+                or second_run.get("changedPaths")
+                or second_run.get("mtimeChangedPaths")
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-non-idempotent",
+                        manifest_path.as_posix(),
+                        "Second-run bytes or mtimes changed.",
+                    )
+                )
             if checked != actual:
                 findings.append(
                     Finding(
@@ -4133,6 +4481,9 @@ def main(argv: Sequence[str] | None = None) -> int:
                 args.repo_root, Path(args.assignment), args.batch
             )
             findings = validate_baseline_lock(context)
+            findings.extend(
+                _validate_phase2_source_state(context, pre_edit=True)
+            )
         except Phase2LoadError as error:
             findings = [error.finding()]
         _print_findings(findings)
