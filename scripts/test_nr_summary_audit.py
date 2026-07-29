@@ -49,6 +49,79 @@ PILOT_TYPES = {
 }
 
 
+def canonical_sha256(value: object) -> str:
+    payload = json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def baseline_evidence_sha256(entry: dict) -> str:
+    return canonical_sha256(
+        {
+            "originalSummary": entry["originalSummary"],
+            "factUnits": [
+                {
+                    "id": fact["id"],
+                    "text": fact["text"],
+                    "sourceRefs": fact["sourceRefs"],
+                }
+                for fact in entry["factUnits"]
+            ],
+        }
+    )
+
+
+def coverage_evidence_sha256(entry: dict) -> str:
+    return canonical_sha256(
+        {
+            "rewrittenSummary": entry["rewrittenSummary"],
+            "factDispositions": [
+                {"id": fact["id"], "disposition": fact["disposition"]}
+                for fact in entry["factUnits"]
+            ],
+            "summaryBulletEvidence": entry["summaryBulletEvidence"],
+        }
+    )
+
+
+def summary_bullet_evidence(slug: str, fact_id: str) -> list[dict]:
+    bullet = "- **Label**: Demo fact.[^1]"
+    return [
+        {
+            "id": f"{slug}-s01",
+            "sha256": hashlib.sha256(bullet.encode("utf-8")).hexdigest(),
+            "factIds": [fact_id],
+            "sourceRefs": ["1"],
+        }
+    ]
+
+
+def seal_entry(entry: dict) -> None:
+    entry["baselineEvidenceSha256"] = baseline_evidence_sha256(entry)
+    entry["coverageEvidenceSha256"] = coverage_evidence_sha256(entry)
+
+
+def make_entry_final(entry: dict) -> None:
+    fact = entry["factUnits"][0]
+    entry["rewrittenSummary"] = entry["originalSummary"]
+    entry["summaryBulletEvidence"] = summary_bullet_evidence(entry["slug"], fact["id"])
+    fact["disposition"] = "covered"
+    entry["status"] = "verified"
+    entry["validation"].update(
+        {
+            "pendingFactCount": 0,
+            "structure": "pass",
+            "footnotes": "pass",
+            "factCoverage": "pass",
+        }
+    )
+    seal_entry(entry)
+
+
 def make_nr_note(slug: str) -> audit.NoteRecord:
     return audit.parse_note_text(Path(f"vault/concepts/{slug}.md"), NR_DEMO_TEXT)
 
@@ -84,7 +157,7 @@ def make_pilot_inventory() -> tuple[dict, dict[str, audit.NoteRecord]]:
 
 def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
     note = make_nr_note("demo")
-    return {
+    report = {
         "schemaVersion": 1,
         "batch": "batch-00",
         "scope": "NR",
@@ -106,6 +179,7 @@ def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
                 "sourceStatus": "existing-sufficient",
                 "status": "pending",
                 "rewrittenSummary": "",
+                "summaryBulletEvidence": [],
                 "validation": {
                     "hashMatches": True,
                     "losslessSummaryMatches": True,
@@ -119,6 +193,8 @@ def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
             }
         ],
     }
+    seal_entry(report["notes"][0])
+    return report
 
 
 def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
@@ -140,10 +216,10 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
                 "slug": slug,
                 "path": f"vault/concepts/{slug}.md",
                 "batch": "batch-00",
+                "originalSha256": source_hash,
             }
         )
-        evidence_notes.append(
-            {
+        entry = {
                 "slug": slug,
                 "type": PILOT_TYPES[slug],
                 "originalSha256": source_hash,
@@ -159,6 +235,7 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
                 "sourceStatus": "existing-sufficient",
                 "status": "pending",
                 "rewrittenSummary": "",
+                "summaryBulletEvidence": [],
                 "validation": {
                     "hashMatches": True,
                     "losslessSummaryMatches": True,
@@ -170,7 +247,8 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
                     "newUnsupportedFacts": 0,
                 },
             }
-        )
+        seal_entry(entry)
+        evidence_notes.append(entry)
 
     inventory = {"notes": inventory_notes}
     report = {
@@ -226,6 +304,7 @@ def set_fact_state(
     validation["manualReviewFactIds"] = (
         [fact["id"]] if disposition == "manual-review" else []
     )
+    seal_entry(entry)
 
 
 def test_evidence_rejects_unmapped_or_unresolved_fact_units() -> None:
@@ -449,17 +528,7 @@ def test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review() 
         batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
         report["status"] = "verified"
         for entry in report["notes"]:
-            entry["rewrittenSummary"] = entry["originalSummary"]
-            entry["factUnits"][0]["disposition"] = "covered"
-            entry["status"] = "verified"
-            entry["validation"].update(
-                {
-                    "pendingFactCount": 0,
-                    "structure": "pass",
-                    "footnotes": "pass",
-                    "factCoverage": "pass",
-                }
-            )
+            make_entry_final(entry)
         batch_path.write_text(json.dumps(report), encoding="utf-8")
         verified_exit, verified_output = run_validate_batch_cli(
             batch_path,
@@ -474,6 +543,7 @@ def test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review() 
         first["status"] = "manual-review"
         first["validation"]["manualReviewFactIds"] = [first_fact["id"]]
         first["validation"]["factCoverage"] = "fail"
+        seal_entry(first)
         batch_path.write_text(json.dumps(report), encoding="utf-8")
         review_exit, review_output = run_validate_batch_cli(
             batch_path,
@@ -489,17 +559,7 @@ def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
         batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
         report["status"] = "verified"
         for entry in report["notes"]:
-            entry["rewrittenSummary"] = entry["originalSummary"]
-            entry["factUnits"][0]["disposition"] = "covered"
-            entry["status"] = "verified"
-            entry["validation"].update(
-                {
-                    "pendingFactCount": 0,
-                    "structure": "pass",
-                    "footnotes": "pass",
-                    "factCoverage": "pass",
-                }
-            )
+            make_entry_final(entry)
         report["notes"][0]["rewrittenSummary"] = "## Summary\n- **Label**: Drift.[^1]\n"
         batch_path.write_text(json.dumps(report), encoding="utf-8")
         exit_code, output = run_validate_batch_cli(
@@ -509,6 +569,76 @@ def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
 
     assert exit_code == 1
     assert "evidence-rewritten-summary-mismatch" in output
+
+
+def test_validate_batch_cli_rejects_final_integrity_mutations() -> None:
+    mutations = (
+        ("original-hash", "evidence-inventory-hash-mismatch"),
+        ("original-summary", "evidence-baseline-digest-mismatch"),
+        ("fact-text", "evidence-baseline-digest-mismatch"),
+        ("source-refs", "evidence-baseline-digest-mismatch"),
+        ("disposition", "evidence-coverage-digest-mismatch"),
+    )
+    for mutation, expected_code in mutations:
+        with tempfile.TemporaryDirectory() as directory:
+            batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
+            report["status"] = "verified"
+            for entry in report["notes"]:
+                make_entry_final(entry)
+            first = report["notes"][0]
+            if mutation == "original-hash":
+                first["originalSha256"] = "0" * 64
+            elif mutation == "original-summary":
+                first["originalSummary"] += "\nMutated original snapshot."
+            elif mutation == "fact-text":
+                first["factUnits"][0]["text"] = "Mutated fact text."
+            elif mutation == "source-refs":
+                first["factUnits"][0]["sourceRefs"] = ["1", "2"]
+            elif mutation == "disposition":
+                first["factUnits"][0]["disposition"] = "manual-review"
+            batch_path.write_text(json.dumps(report), encoding="utf-8")
+            exit_code, output = run_validate_batch_cli(
+                batch_path,
+                allow_pending=False,
+            )
+        assert exit_code == 1, (mutation, output)
+        assert expected_code in output, (mutation, output)
+
+
+def test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        batch_path, _, report = write_valid_batch_cli_fixture(root)
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            make_entry_final(entry)
+
+        first = report["notes"][0]
+        added_bullet = "- **New**: Unsupported new fact.[^1]\n"
+        rewritten = first["rewrittenSummary"].replace(
+            "[^1]: Example.\n",
+            f"{added_bullet}[^1]: Example.\n",
+        )
+        first["rewrittenSummary"] = rewritten
+        seal_entry(first)
+        note_path = root / "vault" / "concepts" / f"{first['slug']}.md"
+        note_path.write_text(
+            NR_DEMO_TEXT.replace(
+                "[^1]: Example.\n",
+                f"{added_bullet}[^1]: Example.\n",
+            ),
+            encoding="utf-8",
+            newline="",
+        )
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 1
+    assert "summary-bullet-unsupported" in output
+    assert "evidence-validation" in output
 
 
 def test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths() -> None:
@@ -598,6 +728,75 @@ def test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one() -> None:
     assert facts["acute-stroke-management-f09"]["disposition"] == "manual-review"
     for fact_id in expected_ids - {"acute-stroke-management-f09"}:
         assert facts[fact_id]["disposition"] == "covered"
+
+
+def test_fix_round1_content_and_evidence_regressions() -> None:
+    root = Path(__file__).resolve().parents[1]
+    batch = json.loads(
+        (
+            root / "docs" / "reports" / "nr-summary-rewrite" / "batch-00.json"
+        ).read_text(encoding="utf-8")
+    )
+    bilateral_entry = next(
+        entry
+        for entry in batch["notes"]
+        if entry["slug"] == "bilateral-subcortical-dwi-hyperintensity-ddx"
+    )
+    bilateral_facts = {fact["id"]: fact for fact in bilateral_entry["factUnits"]}
+    assert bilateral_facts[
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f04"
+    ]["disposition"] == "covered"
+    assert "10" in bilateral_facts[
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f04"
+    ]["sourceRefs"]
+    assert bilateral_facts[
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f08"
+    ]["disposition"] == "manual-review"
+    assert bilateral_entry["validation"]["manualReviewFactIds"] == [
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f12",
+    ]
+
+    bilateral_note = (
+        root / "vault" / "concepts" / "bilateral-subcortical-dwi-hyperintensity-ddx.md"
+    ).read_text(encoding="utf-8")
+    assert "Cabal-Herrera AM" in bilateral_note
+    assert "10.3390/ijms21124391" in bilateral_note
+    assert "PMID 32575683" in bilateral_note
+    assert "PMC7352421" in bilateral_note
+    assert "10.1002/mds.28055" not in bilateral_note
+    alexander_footnote = next(
+        line for line in bilateral_note.splitlines() if line.startswith("[^8]:")
+    )
+    assert "diffusion restriction" not in alexander_footnote
+
+    caa_note = (
+        root / "vault" / "concepts" / "cerebral-amyloid-angiopathy.md"
+    ).read_text(encoding="utf-8")
+    caa_entry = next(
+        entry
+        for entry in batch["notes"]
+        if entry["slug"] == "cerebral-amyloid-angiopathy"
+    )
+    caa_f38 = next(
+        fact
+        for fact in caa_entry["factUnits"]
+        if fact["id"] == "cerebral-amyloid-angiopathy-f38"
+    )
+    assert caa_f38["disposition"] == "covered"
+    assert caa_f38["sourceRefs"] == ["4"]
+    assert (
+        "possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion**"
+        in caa_note
+    )
+
+    adamkiewicz_note = (
+        root / "vault" / "concepts" / "artery-of-adamkiewicz.md"
+    ).read_text(encoding="utf-8")
+    assert "原題／舊來源的記憶範圍為左側約 **77%、T9–T12**" in adamkiewicz_note
+    assert "單一高峰集中 T9–T11" in adamkiewicz_note
+    assert "完整報告範圍可自 **T3 至 L4**" in adamkiewicz_note
 
 
 def test_validate_batch_cli_handles_invalid_json_without_raising() -> None:
@@ -1041,9 +1240,12 @@ def run_smoke() -> None:
     test_validate_batch_cli_supports_explicit_pre_edit_hash_gate()
     test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review()
     test_validate_batch_cli_rejects_rewritten_summary_drift()
+    test_validate_batch_cli_rejects_final_integrity_mutations()
+    test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated()
     test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths()
     test_validate_batch_cli_allow_pending_retains_mutation_findings()
     test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one()
+    test_fix_round1_content_and_evidence_regressions()
     test_validate_batch_cli_handles_invalid_json_without_raising()
     test_parse_note_hashes_exact_source_bytes()
     test_note_preserves_lossless_summary_snapshot()

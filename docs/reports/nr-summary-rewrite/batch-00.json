@@ -186,7 +186,110 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "fail"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "acute-stroke-management-s01",
+          "sha256": "3abddd7266cddff8dc4d45252fe5c651ce8f417e49e9b26f138c0024305078d2",
+          "factIds": [
+            "acute-stroke-management-f01",
+            "acute-stroke-management-f02"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s02",
+          "sha256": "e25a3b63825343afbcbf23ac9e5425491783723c7acbfbc44d90a68db999799e",
+          "factIds": [
+            "acute-stroke-management-f03",
+            "acute-stroke-management-f04"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s03",
+          "sha256": "7872cb61e26b82c9ab5f6b6acab4a9ee82b439d8231db0cd5f7ed6ccb2ccf756",
+          "factIds": [
+            "acute-stroke-management-f05",
+            "acute-stroke-management-f06"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s04",
+          "sha256": "75ba574993ba6b65f4994dce135c85664b269bdbf6eef0b123dd6b1c95cf054e",
+          "factIds": [
+            "acute-stroke-management-f07",
+            "acute-stroke-management-f08",
+            "acute-stroke-management-f09"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s05",
+          "sha256": "5c314bb926e9a8b2d794c3b0010ec2e74d67b9c93570564f773600d23475ca85",
+          "factIds": [
+            "acute-stroke-management-f10",
+            "acute-stroke-management-f11",
+            "acute-stroke-management-f12",
+            "acute-stroke-management-f13"
+          ],
+          "sourceRefs": [
+            "1",
+            "7"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s06",
+          "sha256": "93a4b2c451d4a570bc12c44069b2da931604ad4c6cc638a6b882bd2f926a6905",
+          "factIds": [],
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s07",
+          "sha256": "38a1a6390ce667539ac9537ca99737090b86bdc063f980e0bdb5fef93a717a71",
+          "factIds": [
+            "acute-stroke-management-f14"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s08",
+          "sha256": "363f36d0c8423105556e9fb30a61f43efdafe65c4f559d57647822f234274d91",
+          "factIds": [
+            "acute-stroke-management-f15",
+            "acute-stroke-management-f16"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "acute-stroke-management-s09",
+          "sha256": "c9f828a5f1523c403f0ae796f77a9557f54553fe41427ce5283435aa56822455",
+          "factIds": [
+            "acute-stroke-management-f17",
+            "acute-stroke-management-f18"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "1db18ca11a97708c4af1f4132907f7dbf0ff7c09dc161de9bfce90ab0481b1a0",
+      "coverageEvidenceSha256": "9e5f65933f7e015714b4cb963d672adad5f3435e092118224d92ec6a11fba1b9"
     },
     {
       "slug": "artery-of-adamkiewicz",
@@ -289,7 +392,7 @@
       ],
       "sourceStatus": "researched",
       "status": "verified",
-      "rewrittenSummary": "## Summary\n- **結構與功能**：Adamkiewicz 動脈是胸腰段主要的前根髓質動脈，可加強前脊髓動脈對下段脊髓的供應，因此原題 option A 正確。[^1][^3]\n- **形態與陷阱**：其與前脊髓動脈吻合處呈 **hairpin（髮夾）轉折**，不是 coathook configuration；故 2016-169 的錯誤敘述／正解為 option B。[^1][^2]\n- **分支**：hairpin 連接前脊髓動脈後可見較小的升支與較大的降支，因此原題 option C 正確。[^8]\n- **起源**：約 **76.6–77% 起自左側**，最常見於 **T9–T12**；約 89% 位於 **T8–L1**，完整報告範圍可自 **T3 至 L4**，因此原題 option D 正確。[^4][^9]\n\n",
+      "rewrittenSummary": "## Summary\n- **結構與功能**：Adamkiewicz 動脈是胸腰段主要的前根髓質動脈，可加強前脊髓動脈對下段脊髓的供應，因此原題 option A 正確。[^1][^3]\n- **形態與陷阱**：其與前脊髓動脈吻合處呈 **hairpin（髮夾）轉折**，不是 coathook configuration；故 2016-169 的錯誤敘述／正解為 option B。[^1][^2]\n- **分支**：hairpin 連接前脊髓動脈後可見較小的升支與較大的降支，因此原題 option C 正確。[^8]\n- **起源**：原題／舊來源的記憶範圍為左側約 **77%、T9–T12**，支持 option D；較新的 pooled 資料則顯示左側 **76.6%**、約 89% 位於 **T8–L1**，單一高峰集中 T9–T11；現行章節另記典型 T9–T11、完整報告範圍可自 **T3 至 L4**。這些不同層級的數值須分開陳述。[^1][^4][^9]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
@@ -302,7 +405,61 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "artery-of-adamkiewicz-s01",
+          "sha256": "e83ca5ddb01191c807c12e10703fe1216d7a8b8df1f6a911e2774289f7f56a56",
+          "factIds": [
+            "artery-of-adamkiewicz-f01",
+            "artery-of-adamkiewicz-f02"
+          ],
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "artery-of-adamkiewicz-s02",
+          "sha256": "c66868d04035a3ce83405005fcb74da9652c1f45db1d0dfa1d4f224af1216a94",
+          "factIds": [
+            "artery-of-adamkiewicz-f03",
+            "artery-of-adamkiewicz-f04"
+          ],
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "artery-of-adamkiewicz-s03",
+          "sha256": "dfccf3a8fcabddb86a3bbada524963f0ac8263c218205540f356606190e0e612",
+          "factIds": [
+            "artery-of-adamkiewicz-f05"
+          ],
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "artery-of-adamkiewicz-s04",
+          "sha256": "fe0410bc95550ec8637d3d99916af80b0ab41039a3c402f10d82ac7a4fd4c55f",
+          "factIds": [
+            "artery-of-adamkiewicz-f06",
+            "artery-of-adamkiewicz-f07",
+            "artery-of-adamkiewicz-f08",
+            "artery-of-adamkiewicz-f09",
+            "artery-of-adamkiewicz-f10"
+          ],
+          "sourceRefs": [
+            "1",
+            "4",
+            "9"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "9192a443202c1ac016401f632d39152281ff8afbb91c117e3194cb6c14d166f5",
+      "coverageEvidenceSha256": "b3dac72942db16a94c10e236b4c29a1ac6a16b751fb6340632fb842b1fae2caf"
     },
     {
       "slug": "aspects-score",
@@ -533,7 +690,111 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "aspects-score-s01",
+          "sha256": "5331eac7adec6623d484d13fd3d8d578b4d5edf263edd5433ecb5c629dc43105",
+          "factIds": [
+            "aspects-score-f01",
+            "aspects-score-f02",
+            "aspects-score-f03",
+            "aspects-score-f04"
+          ],
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "aspects-score-s02",
+          "sha256": "62a0766e5a6efc51385e166edc9739dfa7b0b1fa5b16210f0179a70f7d9f1629",
+          "factIds": [
+            "aspects-score-f05",
+            "aspects-score-f06",
+            "aspects-score-f07"
+          ],
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "aspects-score-s03",
+          "sha256": "b638a63fe72ced32753fddc62f4ce0140515fc6a00b64d6da4207f9772a305e2",
+          "factIds": [
+            "aspects-score-f08",
+            "aspects-score-f09",
+            "aspects-score-f10",
+            "aspects-score-f11",
+            "aspects-score-f12"
+          ],
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "aspects-score-s04",
+          "sha256": "1a4657e36037dbd6f77926dcb94562132b445d09891c8876147d76428f89f24a",
+          "factIds": [
+            "aspects-score-f13",
+            "aspects-score-f14",
+            "aspects-score-f15",
+            "aspects-score-f16",
+            "aspects-score-f17"
+          ],
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "aspects-score-s05",
+          "sha256": "a03aec0336cac8a288016cc6d5ebfea769844b850aa3370139a55c6cdb10214d",
+          "factIds": [
+            "aspects-score-f18",
+            "aspects-score-f19",
+            "aspects-score-f20",
+            "aspects-score-f21"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "aspects-score-s06",
+          "sha256": "27dc77521e80c9b3ef9df91981020076a7bfee4f04d7874337cd7ac219806bf8",
+          "factIds": [
+            "aspects-score-f22"
+          ],
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "aspects-score-s07",
+          "sha256": "4c3d5cc6c682c5c49190868d1f947cb4ae2f668c39ff575e5d5bba4f2687c08f",
+          "factIds": [
+            "aspects-score-f23"
+          ],
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "aspects-score-s08",
+          "sha256": "18fdf1d36bb6c764f336cc5123f7f46e5e40bde1a29cdf8755d1cf32d3f56727",
+          "factIds": [
+            "aspects-score-f24",
+            "aspects-score-f25"
+          ],
+          "sourceRefs": [
+            "9"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "7fdc6d0c071dce8f142acf95959c1095670fa0a66128ccdcd18d383a3afe46c0",
+      "coverageEvidenceSha256": "0a743f33b8b7b9c5ff50119de8ae647de728ffe24b751a10d3753fe8137e49b3"
     },
     {
       "slug": "basal-ganglia-t1-shortening",
@@ -693,7 +954,72 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "basal-ganglia-t1-shortening-s01",
+          "sha256": "2488e189d00b7e23c8ae8a0525bf20d4cd29807288de2b2eb71a3b3686b1c6c7",
+          "factIds": [],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-s02",
+          "sha256": "56e0ed2e4859d9f9fb121d7cc89ba5968bdb954637916f06017be2055a58aaca",
+          "factIds": [
+            "basal-ganglia-t1-shortening-f01",
+            "basal-ganglia-t1-shortening-f02",
+            "basal-ganglia-t1-shortening-f03",
+            "basal-ganglia-t1-shortening-f04"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-s03",
+          "sha256": "51464a07d6cb3fec03506d88b7918d208b8fecd042946c420384f5b291756605",
+          "factIds": [
+            "basal-ganglia-t1-shortening-f05",
+            "basal-ganglia-t1-shortening-f06",
+            "basal-ganglia-t1-shortening-f07",
+            "basal-ganglia-t1-shortening-f08",
+            "basal-ganglia-t1-shortening-f09"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-s04",
+          "sha256": "e7e41f7f64ed7850751458945fe13b7fffb42f68366c18031736c435e7e7c9fa",
+          "factIds": [
+            "basal-ganglia-t1-shortening-f10",
+            "basal-ganglia-t1-shortening-f11",
+            "basal-ganglia-t1-shortening-f12",
+            "basal-ganglia-t1-shortening-f13"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-s05",
+          "sha256": "6932c6c9f984dcf81d3fa0ff4a22d4532204005b3f3579df4eab41c3a8ea38d6",
+          "factIds": [
+            "basal-ganglia-t1-shortening-f14",
+            "basal-ganglia-t1-shortening-f15",
+            "basal-ganglia-t1-shortening-f16",
+            "basal-ganglia-t1-shortening-f17"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "72128cc707ee4d0d435b50293561f4d96607e701c55ccaaacadc28a9d14837f8",
+      "coverageEvidenceSha256": "b365a02b6e85715140f1e494b11427964a5f292aa1cbd13ba8047e5e9febcb95"
     },
     {
       "slug": "bilateral-subcortical-dwi-hyperintensity-ddx",
@@ -733,7 +1059,8 @@
           "text": "Canavan disease has spongiform degeneration that begins subcortically.",
           "sourceRefs": [
             "2",
-            "6"
+            "6",
+            "10"
           ],
           "disposition": "covered"
         },
@@ -771,7 +1098,7 @@
             "2",
             "7"
           ],
-          "disposition": "covered"
+          "disposition": "manual-review"
         },
         {
           "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
@@ -814,7 +1141,7 @@
       ],
       "sourceStatus": "conflict",
       "status": "manual-review",
-      "rewrittenSummary": "## Summary\n- **首要影像軸—NIID**：成人型典型為雙側額、枕、頂葉皮質－髓質交界的**對稱帶狀 DWI 高訊號**，此分布具高度診斷價值。[^1][^2]\n- **Canavan disease**：為皮質下白質的海綿狀退化，典型累及皮質下 U-fibers，屬皮質下白質侵犯型。[^6]\n- **FXTAS**：可有白質病變，典型為中小腦腳徵象；亦常見皮質下白質與胼胝體壓部異常，可與 NIID 的部分分布重疊。[^7]\n- **Alexander disease—原題判讀**：經典型態以前額葉優勢的深部白質異常為主，並可累及基底核與腦幹；原題因此將其列為不符合「雙側多灶皮質下 DWI 高訊號」者，但罕見 late-onset 病例曾報告多灶 diffusion restriction，故此排除僅適用於原題的經典型態，不能視為絕對規則。[^8][^9]\n\n",
+      "rewrittenSummary": "## Summary\n- **首要影像軸—NIID**：成人型典型為雙側額、枕、頂葉皮質－髓質交界的**對稱帶狀 DWI 高訊號**，此分布具高度診斷價值。[^1][^2]\n- **Canavan disease**：白質病變早期／最重位於皮質下並累及 U-fibers，之後中央白質亦可受累，符合由皮質下向中央進展的方向性。[^6][^10]\n- **FXTAS**：典型 MRI 軸為中小腦腳徵象，另可見腦室旁白質、胼胝體壓部及腦幹 T2/FLAIR 異常；此來源不支持將其概括為 NIID-like 皮質下 DWI 型態，故原題 f08 的相似性敘述保留為待人工判讀。[^7]\n- **Alexander disease—原題判讀**：經典型態以前額葉優勢的深部白質異常為主，並可累及基底核與腦幹；原題因此將其列為不符合「雙側多灶皮質下 DWI 高訊號」者，但罕見 late-onset 病例曾報告多灶 diffusion restriction，故此排除僅適用於原題的經典型態，不能視為絕對規則。[^8][^9]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
@@ -823,6 +1150,7 @@
         "pendingFactCount": 0,
         "researchNeededFactIds": [],
         "manualReviewFactIds": [
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
           "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
           "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
         ],
@@ -830,7 +1158,62 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "fail"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-s01",
+          "sha256": "cf9a4576c39bf30b5fb3cec6a719a98444aa1997b92f71a15cb2a339fe9d9ea4",
+          "factIds": [
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f01",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f02",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f03"
+          ],
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-s02",
+          "sha256": "ab9d2e3621f5d25b50911afe736a336ed0fd6827c55acac5b097f21382c4a3fe",
+          "factIds": [
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f04",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f05",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f06"
+          ],
+          "sourceRefs": [
+            "6",
+            "10"
+          ]
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-s03",
+          "sha256": "087f411b5259737d91c6f44594c098116acd53b795da7b8ae13ba90c1690cca0",
+          "factIds": [
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f07",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f08"
+          ],
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-s04",
+          "sha256": "f584abfa6986f130d1b159d1d5439842ff1bceaca2c6cf2bb233247789517497",
+          "factIds": [
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f10",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f11",
+            "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
+          ],
+          "sourceRefs": [
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "9a8ef0098469a60c4db3dcc1ae4c49396a599cbc2b03acec2487f319b78c9d69",
+      "coverageEvidenceSha256": "2cb6792626eab40fc23c832474d14387e22be1514053c5c4d120172f68d8bcc7"
     },
     {
       "slug": "cerebral-amyloid-angiopathy",
@@ -1337,7 +1720,7 @@
       ],
       "sourceStatus": "researched",
       "status": "verified",
-      "rewrittenSummary": "## Summary\n- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]\n- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]\n- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 SWI 或 GRE/T2\\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]\n- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]\n- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]\n- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]\n- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]\n- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 hemorrhagic lesion 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]\n- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]\n- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]\n- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]\n\n### 參考來源\n[^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。\n[^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。\n[^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。\n[^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。\n[^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。\n[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。\n[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。\n[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。\n[^9]: Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J, Sperling R, van Veluw SJ. *Cerebral amyloid angiopathy and Alzheimer disease—one peptide, two pathways*. Nat Rev Neurol. 2020;16(1):30-42. DOI: [10.1038/s41582-019-0281-2](https://doi.org/10.1038/s41582-019-0281-2)（PMC7268202；全文查證 accessed 2026-07-29）：CAA 與 AD 均涉及 Aβ，但病理路徑不同；兩者常在同一腦內共存，且可共同促進 cognitive impairment／dementia。\n\n",
+      "rewrittenSummary": "## Summary\n- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]\n- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]\n- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 SWI 或 GRE/T2\\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]\n- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]\n- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]\n- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]\n- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]\n- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion** 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]\n- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]\n- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]\n- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]\n\n### 參考來源\n[^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。\n[^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。\n[^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。\n[^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。\n[^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。\n[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。\n[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。\n[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。\n[^9]: Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J, Sperling R, van Veluw SJ. *Cerebral amyloid angiopathy and Alzheimer disease—one peptide, two pathways*. Nat Rev Neurol. 2020;16(1):30-42. DOI: [10.1038/s41582-019-0281-2](https://doi.org/10.1038/s41582-019-0281-2)（PMC7268202；全文查證 accessed 2026-07-29）：CAA 與 AD 均涉及 Aβ，但病理路徑不同；兩者常在同一腦內共存，且可共同促進 cognitive impairment／dementia。\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
@@ -1350,7 +1733,202 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "cerebral-amyloid-angiopathy-s01",
+          "sha256": "6aa35461fe0208c53d4224d201cc567ebc16fe992e95cac9aa25dff2b8a1b8ae",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f01",
+            "cerebral-amyloid-angiopathy-f02",
+            "cerebral-amyloid-angiopathy-f03"
+          ],
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s02",
+          "sha256": "e70289ce27a60f8fd98ec4c06dd79d4d1de9f32c752d2ef4fde802ad0333399e",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f04",
+            "cerebral-amyloid-angiopathy-f05",
+            "cerebral-amyloid-angiopathy-f06",
+            "cerebral-amyloid-angiopathy-f07",
+            "cerebral-amyloid-angiopathy-f08",
+            "cerebral-amyloid-angiopathy-f09"
+          ],
+          "sourceRefs": [
+            "1",
+            "3",
+            "6"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s03",
+          "sha256": "28a8a3704cd5b4ca335a6dc80f4c4cd5f3389aafea8362da5dd90375cfa6d5ec",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f10"
+          ],
+          "sourceRefs": [
+            "9"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s04",
+          "sha256": "5ec632990907f7dbbcc070bc877ca4047da8d214198a292a0060518af1778ebd",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f11",
+            "cerebral-amyloid-angiopathy-f12",
+            "cerebral-amyloid-angiopathy-f13"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s05",
+          "sha256": "a845862e8c5ee0e18031ffb531c366ce3596834e79f16f4d8b45ad70f1f6ea9f",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f14",
+            "cerebral-amyloid-angiopathy-f15",
+            "cerebral-amyloid-angiopathy-f16",
+            "cerebral-amyloid-angiopathy-f17",
+            "cerebral-amyloid-angiopathy-f18"
+          ],
+          "sourceRefs": [
+            "2",
+            "3",
+            "6"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s06",
+          "sha256": "8145b778de3329455f6166d0795fec9a9594aa9da4bd1e4cd1b76cedbd76a0eb",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f19",
+            "cerebral-amyloid-angiopathy-f20",
+            "cerebral-amyloid-angiopathy-f21"
+          ],
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s07",
+          "sha256": "9f4beabe8e9525787a07e6fc1d1ab41264a52e7e21fe05aed4104ceb9d751c90",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f22",
+            "cerebral-amyloid-angiopathy-f23",
+            "cerebral-amyloid-angiopathy-f24",
+            "cerebral-amyloid-angiopathy-f25",
+            "cerebral-amyloid-angiopathy-f26"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s08",
+          "sha256": "b8b01f7cb5e49daafffe86cf4fd79246918d7fbda8527e20611db6b40a66ea08",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f27",
+            "cerebral-amyloid-angiopathy-f28",
+            "cerebral-amyloid-angiopathy-f29",
+            "cerebral-amyloid-angiopathy-f30",
+            "cerebral-amyloid-angiopathy-f31"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s09",
+          "sha256": "fe3552645cbc8678b2101296d5361352183579985b08eeb64e9cc0339ce10c47",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f32",
+            "cerebral-amyloid-angiopathy-f33",
+            "cerebral-amyloid-angiopathy-f34",
+            "cerebral-amyloid-angiopathy-f35",
+            "cerebral-amyloid-angiopathy-f36",
+            "cerebral-amyloid-angiopathy-f37",
+            "cerebral-amyloid-angiopathy-f38",
+            "cerebral-amyloid-angiopathy-f39",
+            "cerebral-amyloid-angiopathy-f40"
+          ],
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s10",
+          "sha256": "2af0fd24fd0088baba3178b532aec4292d0e7872ead6530d5bd6b5c74b039050",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f41",
+            "cerebral-amyloid-angiopathy-f42",
+            "cerebral-amyloid-angiopathy-f43",
+            "cerebral-amyloid-angiopathy-f44",
+            "cerebral-amyloid-angiopathy-f45",
+            "cerebral-amyloid-angiopathy-f46"
+          ],
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s11",
+          "sha256": "be7ae21d94307770b9abe8c9288c708b2f9ffb86d59ca6c7794ea323b6e37a9f",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f47",
+            "cerebral-amyloid-angiopathy-f48",
+            "cerebral-amyloid-angiopathy-f49"
+          ],
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s12",
+          "sha256": "52a46fd90956c50c84914d1276f7ebe31978fc8fe71f178a4521cd3cd371db0f",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f50",
+            "cerebral-amyloid-angiopathy-f51",
+            "cerebral-amyloid-angiopathy-f52",
+            "cerebral-amyloid-angiopathy-f53"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s13",
+          "sha256": "4299838bb145a6455ffca19c9cb54db1c7a9a583d2d0099b296be30672a913cf",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f54",
+            "cerebral-amyloid-angiopathy-f55",
+            "cerebral-amyloid-angiopathy-f56"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-s14",
+          "sha256": "a00590f993812dbd60491e24def422b5f159a3172fda1b9f710ce56e506548ef",
+          "factIds": [
+            "cerebral-amyloid-angiopathy-f57",
+            "cerebral-amyloid-angiopathy-f58",
+            "cerebral-amyloid-angiopathy-f59",
+            "cerebral-amyloid-angiopathy-f60"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "f2cb3886169f9af0420a0f7a70408fa839b4f8538690f1ffa7c4d7d15c1a04a9",
+      "coverageEvidenceSha256": "38bac4185f348683d6aa659a737434ea2a1f0d774364d8c1ee4e5c1aa15f7407"
     },
     {
       "slug": "clippers",
@@ -1526,7 +2104,84 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "clippers-s01",
+          "sha256": "a57cc7627b77026932668c546ae79a9ad8934d9a7638f48a418f5de15bebd713",
+          "factIds": [
+            "clippers-f01",
+            "clippers-f02"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "clippers-s02",
+          "sha256": "983ec4d87648b8285a0b1eee5a21bf32993fedd09931b2f327dfcf2e7ba32937",
+          "factIds": [
+            "clippers-f03",
+            "clippers-f04"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "clippers-s03",
+          "sha256": "cdcaac48abc1e1a9ef3f2db2067cbe6b5487d53342fdc080265229062ad14842",
+          "factIds": [
+            "clippers-f05",
+            "clippers-f06"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "clippers-s04",
+          "sha256": "9aaa7a137bac9669f567bcba00cbe2af9e95c5452686ffca66be6200745a644d",
+          "factIds": [
+            "clippers-f07"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "clippers-s05",
+          "sha256": "2be85c2ed0af3fbfec3c07c8a0d43551023b78081e369968ff6ec0458d83053a",
+          "factIds": [
+            "clippers-f08",
+            "clippers-f09",
+            "clippers-f10",
+            "clippers-f11",
+            "clippers-f12",
+            "clippers-f13",
+            "clippers-f14",
+            "clippers-f15"
+          ],
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "clippers-s06",
+          "sha256": "f85d4bb5570e3f5b2b21cc8ca2e772773c9925b0771bc771d49e8b795e39fe47",
+          "factIds": [
+            "clippers-f16",
+            "clippers-f17",
+            "clippers-f18"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "4da10b345c85a1e5ba482f60732bb325d0eb555f7d503753188cfe340f805035",
+      "coverageEvidenceSha256": "523f554eecc3e4b1ab07c223c1ea36d3cc6580c09aed7196f2d2bd244fe50669"
     },
     {
       "slug": "cpa-masses",
@@ -1704,7 +2359,78 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "cpa-masses-s01",
+          "sha256": "0b5619b51ef7ae931a369d0a4e4819813b260f9d0316573b619be3112d618290",
+          "factIds": [
+            "cpa-masses-f17"
+          ],
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "cpa-masses-s02",
+          "sha256": "24e7fada47390cc89c348838eb8decf5e7c7588ab87126c133252415044c4b98",
+          "factIds": [
+            "cpa-masses-f01",
+            "cpa-masses-f02",
+            "cpa-masses-f03",
+            "cpa-masses-f04",
+            "cpa-masses-f05"
+          ],
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cpa-masses-s03",
+          "sha256": "ac56a2894e4ed5e52457890b01f88187c2ace637e0dbecb5fb86451f80b9bc40",
+          "factIds": [
+            "cpa-masses-f06",
+            "cpa-masses-f07",
+            "cpa-masses-f08",
+            "cpa-masses-f09",
+            "cpa-masses-f10",
+            "cpa-masses-f11"
+          ],
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cpa-masses-s04",
+          "sha256": "0dde0a88956057823aa3d3db066626a13422aa5b2c7f551e677b48f2e6738616",
+          "factIds": [
+            "cpa-masses-f12",
+            "cpa-masses-f13",
+            "cpa-masses-f14",
+            "cpa-masses-f15"
+          ],
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cpa-masses-s05",
+          "sha256": "3523d5802d64ba3ec793b44246c9eaf4f79d165b3197bfa58ae6bf470b1be023",
+          "factIds": [
+            "cpa-masses-f16"
+          ],
+          "sourceRefs": [
+            "3",
+            "6"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "e75d797ff72715077ceda04301f821d5a98d23a0cd488eedbc9eadb18e34d457",
+      "coverageEvidenceSha256": "6f1bf5d6265d6b826c5d4ef1c1b600aa3cc8882d27adb58ab00cf9e77fe9b2cb"
     },
     {
       "slug": "craniopharyngioma",
@@ -1832,7 +2558,51 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "craniopharyngioma-s01",
+          "sha256": "42f26e0ea9281e90a4f01f2451d24de2e0c55623da1e066c3d4536ae03ad4448",
+          "factIds": [
+            "craniopharyngioma-f01",
+            "craniopharyngioma-f02",
+            "craniopharyngioma-f03",
+            "craniopharyngioma-f04",
+            "craniopharyngioma-f05",
+            "craniopharyngioma-f06",
+            "craniopharyngioma-f07"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "craniopharyngioma-s02",
+          "sha256": "24863287af0d2e4dd93bbfe0addf6eb442a1f8ab7a5eec7b3e49e1b7aaa48e74",
+          "factIds": [
+            "craniopharyngioma-f08",
+            "craniopharyngioma-f09",
+            "craniopharyngioma-f10"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "craniopharyngioma-s03",
+          "sha256": "0d0a0af43a215c9f01295003592930d0ec67b83db4eb49de06b05b81cbd3c6d0",
+          "factIds": [
+            "craniopharyngioma-f11",
+            "craniopharyngioma-f12",
+            "craniopharyngioma-f13"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "4b0f0ea9bbdaeb01968380aafff3f8d2d2694863c248492cc469ea96738f39fd",
+      "coverageEvidenceSha256": "a6fd0363903b085b3dcca43173e2127f4bf45a37c168e4316105a794ac23dde4"
     },
     {
       "slug": "dementia-neuroimaging-overview",
@@ -2136,7 +2906,217 @@
         "structure": "pass",
         "footnotes": "pass",
         "factCoverage": "pass"
-      }
+      },
+      "summaryBulletEvidence": [
+        {
+          "id": "dementia-neuroimaging-overview-s01",
+          "sha256": "ee288b5fd2339541a413e36c06a69a2c67ab46c0742b88f4ce186c396e75e2a4",
+          "factIds": [
+            "dementia-neuroimaging-overview-f01"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s02",
+          "sha256": "72f3f4d00b9f5efb1ee4fc477fee88466faf7bf36a3015c9186c253b880a3848",
+          "factIds": [
+            "dementia-neuroimaging-overview-f02"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s03",
+          "sha256": "bafb3d6bf490e6bb04bd9285ba33bcc80b4e31de60ab009c90f6c3c4e89d9a01",
+          "factIds": [
+            "dementia-neuroimaging-overview-f03"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s04",
+          "sha256": "f9a78e3bbd9db66e3f8f2271a97d69181ccf858303ee6c47d8aff76f4c243dfa",
+          "factIds": [
+            "dementia-neuroimaging-overview-f04",
+            "dementia-neuroimaging-overview-f05"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s05",
+          "sha256": "d6b8447b7f321204aba756273e7583ab1a4421f3963790325f0f54d1965b7a35",
+          "factIds": [
+            "dementia-neuroimaging-overview-f06"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s06",
+          "sha256": "792e8f9dfc8b2f497a5a1750d29ebe8de15d7b092b656c531755fb58973f9940",
+          "factIds": [
+            "dementia-neuroimaging-overview-f07",
+            "dementia-neuroimaging-overview-f08",
+            "dementia-neuroimaging-overview-f09",
+            "dementia-neuroimaging-overview-f10"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s07",
+          "sha256": "a154672ea15e98a74f5df8c8a61d1abdacddebe838b2084d3ecdb9313b8f3dd4",
+          "factIds": [
+            "dementia-neuroimaging-overview-f11"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s08",
+          "sha256": "30e7e72d2359984969f86e3138cae8018aa7f8b08d217610cfff543c1cd6af04",
+          "factIds": [
+            "dementia-neuroimaging-overview-f12"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s09",
+          "sha256": "dc40f09964e941967da8a97b89b0de91b68766697484772d7decfcf90771ef68",
+          "factIds": [
+            "dementia-neuroimaging-overview-f13"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s10",
+          "sha256": "acddb30a140400be75d2fe59806d547b16f4ff377f2c128dfe550d0ab5ebb7e6",
+          "factIds": [
+            "dementia-neuroimaging-overview-f14"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s11",
+          "sha256": "dfac15e21c497146932bf3347af3987f72320516e1c0494f415ef3fac87358c5",
+          "factIds": [
+            "dementia-neuroimaging-overview-f15"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s12",
+          "sha256": "6ede6f8ef629411e9088a4901aa4345ac5885ac7714eb196d0bceda362ed8164",
+          "factIds": [
+            "dementia-neuroimaging-overview-f16"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s13",
+          "sha256": "b5aca72d4a95735f7a0a47797e65147a5e4531dd42283ac29865f9aa758554d5",
+          "factIds": [
+            "dementia-neuroimaging-overview-f17"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s14",
+          "sha256": "95313dca4c95c0316e7130c2db03fc96f6fb5b3b1b6f34ef143dd0e7616b05c6",
+          "factIds": [
+            "dementia-neuroimaging-overview-f18",
+            "dementia-neuroimaging-overview-f19",
+            "dementia-neuroimaging-overview-f20",
+            "dementia-neuroimaging-overview-f21",
+            "dementia-neuroimaging-overview-f22"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s15",
+          "sha256": "4b2aefb0335ac56efb89f14459ca64ea7a43ad600ca21ff87f9e3ae69bc4dcee",
+          "factIds": [
+            "dementia-neuroimaging-overview-f23"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s16",
+          "sha256": "53848ed30764b69ad1a2376e8b78c848c8e95fe8ae173517529e1ae2ef904a54",
+          "factIds": [
+            "dementia-neuroimaging-overview-f24",
+            "dementia-neuroimaging-overview-f25",
+            "dementia-neuroimaging-overview-f26"
+          ],
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s17",
+          "sha256": "ea6d13dfb7f07da9cf9ba41d925fd4f6ec954d35513ef7c3fcbb85f4415adf7f",
+          "factIds": [
+            "dementia-neuroimaging-overview-f27",
+            "dementia-neuroimaging-overview-f28",
+            "dementia-neuroimaging-overview-f29",
+            "dementia-neuroimaging-overview-f30"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s18",
+          "sha256": "0dbf1f485ebe71228d3fe6bd05b2220c88d9672666a32102737588498bfcb227",
+          "factIds": [
+            "dementia-neuroimaging-overview-f31",
+            "dementia-neuroimaging-overview-f32"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dementia-neuroimaging-overview-s19",
+          "sha256": "09eedfa991682bd98bad9241754a8e53a4e4468db22032647956a7e4fd1fb25e",
+          "factIds": [
+            "dementia-neuroimaging-overview-f33",
+            "dementia-neuroimaging-overview-f34",
+            "dementia-neuroimaging-overview-f35"
+          ],
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ],
+      "baselineEvidenceSha256": "532211c8aa53d7b243843337058f6add61db9103cd739d77afd4350be5536909",
+      "coverageEvidenceSha256": "b389a6ddf57d78bc8f1fba0b9c8560f890637fd4f33014d84f739c173efba452"
     }
   ]
 }

@@ -15,8 +15,8 @@ dateRev: 2026-07-12
 
 ## Summary
 - **首要影像軸—NIID**：成人型典型為雙側額、枕、頂葉皮質－髓質交界的**對稱帶狀 DWI 高訊號**，此分布具高度診斷價值。[^1][^2]
-- **Canavan disease**：為皮質下白質的海綿狀退化，典型累及皮質下 U-fibers，屬皮質下白質侵犯型。[^6]
-- **FXTAS**：可有白質病變，典型為中小腦腳徵象；亦常見皮質下白質與胼胝體壓部異常，可與 NIID 的部分分布重疊。[^7]
+- **Canavan disease**：白質病變早期／最重位於皮質下並累及 U-fibers，之後中央白質亦可受累，符合由皮質下向中央進展的方向性。[^6][^10]
+- **FXTAS**：典型 MRI 軸為中小腦腳徵象，另可見腦室旁白質、胼胝體壓部及腦幹 T2/FLAIR 異常；此來源不支持將其概括為 NIID-like 皮質下 DWI 型態，故原題 f08 的相似性敘述保留為待人工判讀。[^7]
 - **Alexander disease—原題判讀**：經典型態以前額葉優勢的深部白質異常為主，並可累及基底核與腦幹；原題因此將其列為不符合「雙側多灶皮質下 DWI 高訊號」者，但罕見 late-onset 病例曾報告多灶 diffusion restriction，故此排除僅適用於原題的經典型態，不能視為絕對規則。[^8][^9]
 
 ## 放射科醫師影像判讀重點
@@ -40,9 +40,10 @@ dateRev: 2026-07-12
 [^4]: **Tier 1** de Oliveira AM, Paulino Reis F, et al. *Imaging Patterns of Toxic and Metabolic Brain Disorders.* RadioGraphics. 2019;39(6):1672-1695（DOI [10.1148/rg.2019190016](https://doi.org/10.1148/rg.2019190016)；摘要 accessed 2026-07-12）：中毒/代謝性腦病多為雙側對稱，好發深部灰質／皮質／腦室旁白質。
 [^5]: **非題目白名單（AJNR）** Sugiyama A, Sato N, et al. *MR Imaging Features of the Cerebellum in Adult-Onset Neuronal Intranuclear Inclusion Disease.* AJNR Am J Neuroradiol. 2017;38(11):2100-2104（DOI [10.3174/ajnr.A5336](https://doi.org/10.3174/ajnr.A5336)；摘要 accessed 2026-07-12，非題目白名單）：corticomedullary junction DWI 高訊號為 NIID 之特異徵象；並描述小腦旁蚓部白質 T2 高訊號等徵。
 [^6]: Sreenivasan P, Purushothaman KK. *Radiological clue to diagnosis of Canavan disease*. Indian J Pediatr. 2013;80(1):75-77. DOI: [10.1007/s12098-012-0794-9](https://doi.org/10.1007/s12098-012-0794-9)（PubMed PMID 22660905；摘要查證 accessed 2026-07-29）：Canavan disease 為海綿狀白質退化，MRI 的特徵性分布包含皮質下 U-fibers。
-[^7]: Hagerman RJ, Hagerman P. *Fragile X-associated tremor/ataxia syndrome: pathophysiology and clinical implications*. Mov Disord. 2020;35(7):1073-1084. DOI: [10.1002/mds.28055](https://doi.org/10.1002/mds.28055)（PMC7352421；全文查證 accessed 2026-07-29）：雙側中小腦腳 T2/FLAIR 高訊號為 FXTAS hallmark；常見其他白質異常包括皮質下／腦室旁白質、胼胝體壓部與腦幹。
-[^8]: van der Knaap MS, Naidu S, Breiter SN, et al. *Alexander disease: diagnosis with MR imaging*. AJNR Am J Neuroradiol. 2001;22(3):541-552（PMC7976831；全文查證 accessed 2026-07-29）：典型 MRI 準則包括前額葉優勢白質異常、基底核／視丘與腦幹異常；經典病例的白質異常通常無 diffusion restriction。
+[^7]: Cabal-Herrera AM, Tassanakijpanich N, Salcedo-Arellano MJ, Hagerman RJ. *Fragile X-Associated Tremor/Ataxia Syndrome (FXTAS): Pathophysiology and Clinical Implications*. Int J Mol Sci. 2020;21(12):4391. DOI: [10.3390/ijms21124391](https://doi.org/10.3390/ijms21124391)；PubMed PMID 32575683；PMC7352421（PubMed 與開放全文查證 accessed 2026-07-29）：MRI 白質病變以中小腦腳、腦室旁區與胼胝體壓部為主，圖示另呈 cerebral white matter disease；本文未建立 NIID-like 皮質下 DWI 型態。
+[^8]: van der Knaap MS, Naidu S, Breiter SN, et al. *Alexander disease: diagnosis with MR imaging*. AJNR Am J Neuroradiol. 2001;22(3):541-552（PMC7976831；全文查證 accessed 2026-07-29）：典型 MRI 準則包括前額葉優勢白質異常、基底核／視丘與腦幹異常。
 [^9]: Park J, Jung NY, Kim YJ, et al. *A Novel GFAP Mutation in Late-Onset Alexander Disease Showing Diffusion Restriction*. J Clin Neurol. 2017;13(4):426-429. DOI: [10.3988/jcn.2017.13.4.426](https://doi.org/10.3988/jcn.2017.13.4.426)（article 全文查證 accessed 2026-07-29）：late-onset Alexander disease 曾出現雙側腦室旁白質與皮質區多灶 diffusion restriction，構成經典型態之外的罕見例外。
+[^10]: Hoshino H, Kubota M. *Canavan disease: Clinical features and recent advances in research*. Pediatr Int. 2014;56(4):477-483. DOI: [10.1111/ped.12422](https://doi.org/10.1111/ped.12422)（publisher article page 查證 accessed 2026-07-29）：MRI 異常以皮質下白質最嚴重且可輕度腫脹，腦室旁白質與內囊早期通常保留；中央白質可隨疾病進展而受累，支持早期皮質下優勢與後續中央延伸的方向性。
 
 ## 題目
 > [!question]- Which of the following diseases does NOT demonstrate bilateral multifocal subcortical DW hyperintensities? (2022-413)

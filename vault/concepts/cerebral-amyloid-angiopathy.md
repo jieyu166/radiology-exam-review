@@ -27,7 +27,7 @@ same:
 - **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]
 - **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]
 - **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]
-- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 hemorrhagic lesion 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]
+- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion** 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]
 - **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]
 
 ### 鑑別診斷（依分布判讀）

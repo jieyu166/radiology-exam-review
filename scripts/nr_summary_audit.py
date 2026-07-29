@@ -494,6 +494,80 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
     return findings
 
 
+def _canonical_sha256(value: object) -> str:
+    payload = json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def _baseline_evidence_sha256(entry: dict) -> str:
+    fact_units = entry.get("factUnits")
+    stable_facts = []
+    if isinstance(fact_units, list):
+        for fact in fact_units:
+            if not isinstance(fact, dict):
+                stable_facts.append(None)
+                continue
+            stable_facts.append(
+                {
+                    "id": fact.get("id"),
+                    "text": fact.get("text"),
+                    "sourceRefs": fact.get("sourceRefs"),
+                }
+            )
+    return _canonical_sha256(
+        {
+            "originalSummary": entry.get("originalSummary"),
+            "factUnits": stable_facts,
+        }
+    )
+
+
+def _coverage_evidence_sha256(entry: dict) -> str:
+    fact_units = entry.get("factUnits")
+    fact_dispositions = []
+    if isinstance(fact_units, list):
+        for fact in fact_units:
+            if not isinstance(fact, dict):
+                fact_dispositions.append(None)
+                continue
+            fact_dispositions.append(
+                {
+                    "id": fact.get("id"),
+                    "disposition": fact.get("disposition"),
+                }
+            )
+    return _canonical_sha256(
+        {
+            "rewrittenSummary": entry.get("rewrittenSummary"),
+            "factDispositions": fact_dispositions,
+            "summaryBulletEvidence": entry.get("summaryBulletEvidence"),
+        }
+    )
+
+
+def _summary_bullet_lines(note: NoteRecord) -> list[str]:
+    bullets: list[str] = []
+    for section in note.summaries:
+        for line in section.content.splitlines():
+            if TOP_LEVEL_BULLET_RE.match(line):
+                bullets.append(line.rstrip())
+    return bullets
+
+
+def _ordered_footnote_refs(text: str) -> list[str]:
+    refs: list[str] = []
+    for match in FOOTNOTE_REFERENCE_RE.finditer(text):
+        source_ref = match.group("id")
+        if source_ref not in refs:
+            refs.append(source_ref)
+    return refs
+
+
 def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Finding]:
     """Validate the lossless, source-mapped batch evidence contract."""
     findings: list[Finding] = []
@@ -558,12 +632,16 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
         "type",
         "originalSha256",
         "originalSummary",
+        "baselineEvidenceSha256",
         "factUnits",
         "sourceStatus",
         "status",
         "rewrittenSummary",
+        "summaryBulletEvidence",
+        "coverageEvidenceSha256",
         "validation",
     }
+    has_unsupported_batch_bullet = False
 
     for entry in report_notes:
         if not isinstance(entry, dict):
@@ -647,6 +725,15 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
             )
         rewritten_summary = entry.get("rewrittenSummary")
+        if not isinstance(entry.get("originalSummary"), str):
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-note-schema",
+                    path,
+                    "originalSummary must be a string.",
+                )
+            )
         if not isinstance(rewritten_summary, str):
             findings.append(
                 Finding(
@@ -676,6 +763,42 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     "evidence-sha256",
                     path,
                     "originalSha256 must be a lowercase SHA-256 digest.",
+                )
+            )
+        baseline_digest = entry.get("baselineEvidenceSha256")
+        baseline_digest_valid = (
+            isinstance(baseline_digest, str)
+            and SHA256_RE.fullmatch(baseline_digest) is not None
+            and baseline_digest == _baseline_evidence_sha256(entry)
+        )
+        if not baseline_digest_valid:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-baseline-digest-mismatch",
+                    path,
+                    (
+                        "baselineEvidenceSha256 must match originalSummary and the stable "
+                        "fact id/text/sourceRefs ledger."
+                    ),
+                )
+            )
+        coverage_digest = entry.get("coverageEvidenceSha256")
+        coverage_digest_valid = (
+            isinstance(coverage_digest, str)
+            and SHA256_RE.fullmatch(coverage_digest) is not None
+            and coverage_digest == _coverage_evidence_sha256(entry)
+        )
+        if not coverage_digest_valid:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-coverage-digest-mismatch",
+                    path,
+                    (
+                        "coverageEvidenceSha256 must match rewrittenSummary, fact "
+                        "dispositions, and summaryBulletEvidence."
+                    ),
                 )
             )
         if note is None:
@@ -840,17 +963,222 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                                 ),
                             )
                         )
+        summary_bullet_evidence = entry.get("summaryBulletEvidence")
+        actual_bullets = _summary_bullet_lines(note) if note is not None else []
+        unsupported_bullet_count = 0
+        coverage_mapping_complete = not is_rewritten
+        summary_evidence_refs_defined = True
+        if not isinstance(summary_bullet_evidence, list):
+            findings.append(
+                Finding(
+                    "error",
+                    "summary-bullet-evidence-schema",
+                    path,
+                    "summaryBulletEvidence must be an array.",
+                )
+            )
+            unsupported_bullet_count = len(actual_bullets) if is_rewritten else 0
+            coverage_mapping_complete = False
+            summary_evidence_refs_defined = False
+        elif not is_rewritten:
+            if summary_bullet_evidence:
+                findings.append(
+                    Finding(
+                        "error",
+                        "summary-bullet-evidence-schema",
+                        path,
+                        "A pre-edit baseline must have empty summaryBulletEvidence.",
+                    )
+                )
+                coverage_mapping_complete = False
+        else:
+            mapped_fact_ids: list[str] = []
+            evidence_schema_valid = True
+            if len(summary_bullet_evidence) != len(actual_bullets):
+                findings.append(
+                    Finding(
+                        "error",
+                        "summary-bullet-evidence",
+                        path,
+                        (
+                            "summaryBulletEvidence count must equal the actual top-level "
+                            "Summary bullet count."
+                        ),
+                    )
+                )
+            for bullet_index, bullet_line in enumerate(actual_bullets, start=1):
+                expected_id = f"{slug}-s{bullet_index:02d}"
+                if bullet_index > len(summary_bullet_evidence):
+                    unsupported_bullet_count += 1
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-unsupported",
+                            path,
+                            f"Actual Summary bullet {expected_id!r} has no evidence record.",
+                        )
+                    )
+                    continue
+                evidence = summary_bullet_evidence[bullet_index - 1]
+                if not isinstance(evidence, dict):
+                    evidence_schema_valid = False
+                    unsupported_bullet_count += 1
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-evidence-schema",
+                            path,
+                            f"Summary bullet evidence {expected_id!r} must be an object.",
+                        )
+                    )
+                    continue
+                evidence_id = evidence.get("id")
+                bullet_sha256 = evidence.get("sha256")
+                fact_ids = evidence.get("factIds")
+                source_refs = evidence.get("sourceRefs")
+                if evidence_id != expected_id:
+                    evidence_schema_valid = False
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-evidence-schema",
+                            path,
+                            f"Summary bullet evidence at position {bullet_index} must use {expected_id!r}.",
+                        )
+                    )
+                expected_bullet_sha256 = hashlib.sha256(
+                    bullet_line.encode("utf-8")
+                ).hexdigest()
+                if bullet_sha256 != expected_bullet_sha256:
+                    unsupported_bullet_count += 1
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-unsupported",
+                            path,
+                            (
+                                f"Actual Summary bullet {expected_id!r} does not match its "
+                                "approved evidence digest."
+                            ),
+                        )
+                    )
+                refs_valid = (
+                    isinstance(source_refs, list)
+                    and all(isinstance(source_ref, str) and source_ref for source_ref in source_refs)
+                    and len(source_refs) == len(set(source_refs))
+                )
+                if not refs_valid or source_refs != _ordered_footnote_refs(bullet_line):
+                    evidence_schema_valid = False
+                    summary_evidence_refs_defined = False
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-source-refs",
+                            path,
+                            (
+                                f"Summary bullet evidence {expected_id!r} sourceRefs must "
+                                "exactly match its inline footnote references."
+                            ),
+                        )
+                    )
+                elif note is not None and any(
+                    source_ref not in note.footnote_defs for source_ref in source_refs
+                ):
+                    summary_evidence_refs_defined = False
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-source-undefined",
+                            path,
+                            f"Summary bullet evidence {expected_id!r} maps to an undefined footnote.",
+                        )
+                    )
+                fact_ids_valid = (
+                    isinstance(fact_ids, list)
+                    and all(isinstance(fact_id, str) and fact_id for fact_id in fact_ids)
+                    and len(fact_ids) == len(set(fact_ids))
+                )
+                if not fact_ids_valid:
+                    evidence_schema_valid = False
+                    findings.append(
+                        Finding(
+                            "error",
+                            "summary-bullet-fact-coverage",
+                            path,
+                            (
+                                f"Summary bullet evidence {expected_id!r} factIds must be "
+                                "unique non-empty strings."
+                            ),
+                        )
+                    )
+                else:
+                    mapped_fact_ids.extend(fact_ids)
+                    unknown_fact_ids = sorted(set(fact_ids) - seen_fact_ids)
+                    if unknown_fact_ids:
+                        evidence_schema_valid = False
+                        findings.append(
+                            Finding(
+                                "error",
+                                "summary-bullet-fact-coverage",
+                                path,
+                                (
+                                    f"Summary bullet evidence {expected_id!r} maps unknown "
+                                    f"fact IDs: {', '.join(unknown_fact_ids)}."
+                                ),
+                            )
+                        )
+            if len(summary_bullet_evidence) > len(actual_bullets):
+                evidence_schema_valid = False
+                findings.append(
+                    Finding(
+                        "error",
+                        "summary-bullet-evidence",
+                        path,
+                        "summaryBulletEvidence contains records with no actual Summary bullet.",
+                    )
+                )
+            mapped_fact_id_set = set(mapped_fact_ids)
+            duplicate_mapped_fact_ids = sorted(
+                fact_id
+                for fact_id in mapped_fact_id_set
+                if mapped_fact_ids.count(fact_id) > 1
+            )
+            missing_mapped_fact_ids = sorted(seen_fact_ids - mapped_fact_id_set)
+            if duplicate_mapped_fact_ids or missing_mapped_fact_ids:
+                evidence_schema_valid = False
+                details = []
+                if missing_mapped_fact_ids:
+                    details.append("missing " + ", ".join(missing_mapped_fact_ids))
+                if duplicate_mapped_fact_ids:
+                    details.append("duplicated " + ", ".join(duplicate_mapped_fact_ids))
+                findings.append(
+                    Finding(
+                        "error",
+                        "summary-bullet-fact-coverage",
+                        path,
+                        "Fact-to-bullet mapping is incomplete: " + "; ".join(details) + ".",
+                    )
+                )
+            coverage_mapping_complete = (
+                evidence_schema_valid
+                and unsupported_bullet_count == 0
+                and mapped_fact_id_set == seen_fact_ids
+                and not duplicate_mapped_fact_ids
+            )
+        has_unsupported_batch_bullet = (
+            has_unsupported_batch_bullet or unsupported_bullet_count > 0
+        )
         validation = entry.get("validation")
         if isinstance(validation, dict):
             valid_fact_units = [fact for fact in fact_units if isinstance(fact, dict)]
             expected_validation = {
                 "hashMatches": (
-                    True
+                    baseline_digest_valid
                     if is_rewritten
                     else note is not None and original_hash == note.sha256
                 ),
                 "losslessSummaryMatches": (
-                    True
+                    baseline_digest_valid
                     if is_rewritten
                     else note is not None and entry.get("originalSummary") == note.original_summary
                 ),
@@ -867,6 +1195,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         )
                         for fact in valid_fact_units
                     )
+                    and summary_evidence_refs_defined
                 ),
                 "factCount": len(fact_units),
                 "pendingFactCount": sum(
@@ -882,7 +1211,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     for fact in valid_fact_units
                     if fact.get("disposition") == "manual-review"
                 ],
-                "newUnsupportedFacts": 0,
+                "newUnsupportedFacts": unsupported_bullet_count,
             }
             if is_rewritten:
                 summary_findings = validate_summary(note) if note is not None else []
@@ -911,6 +1240,8 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                                 for fact in valid_fact_units
                             )
                             and len(valid_fact_units) == len(fact_units)
+                            and coverage_mapping_complete
+                            and unsupported_bullet_count == 0
                             else "fail"
                         ),
                     }
@@ -929,9 +1260,13 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         "Stale or invalid validation fields: " + ", ".join(mismatches) + ".",
                     )
                 )
-        has_unresolved = has_research_needed or has_manual_review
+        has_unresolved = (
+            has_research_needed
+            or has_manual_review
+            or unsupported_bullet_count > 0
+        )
         if _is_string_member(source_status, SOURCE_STATUSES):
-            if is_rewritten and has_manual_review:
+            if is_rewritten and (has_manual_review or unsupported_bullet_count > 0):
                 source_status_matches_facts = source_status == "conflict"
             elif is_rewritten and has_research_needed:
                 source_status_matches_facts = source_status == "research-needed"
@@ -969,7 +1304,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
         expected_note_status = (
             "manual-review"
-            if has_manual_review
+            if has_manual_review or unsupported_bullet_count > 0
             else "research-needed"
             if has_research_needed
             else "verified"
@@ -1017,7 +1352,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
         "baseline"
         if has_pending_batch_fact or not all_rewritten
         else "needs-review"
-        if has_unresolved_batch_fact
+        if has_unresolved_batch_fact or has_unsupported_batch_bullet
         else "verified"
     )
     if _is_string_member(batch_status, BATCH_STATUSES) and batch_status != expected_batch_status:
@@ -1312,7 +1647,72 @@ def _print_inventory_counts(report: dict) -> None:
     print(f"Unassigned: {unassigned}")
 
 
-def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Finding]]:
+def _inventory_hash_anchor_findings(
+    report: dict,
+    inventory: dict,
+    inventory_path: Path,
+) -> list[Finding]:
+    findings: list[Finding] = []
+    report_entries = report.get("notes") if isinstance(report, dict) else None
+    inventory_entries = inventory.get("notes") if isinstance(inventory, dict) else None
+    if not isinstance(report_entries, list) or not isinstance(inventory_entries, list):
+        return findings
+    inventory_by_slug = {
+        entry.get("slug"): entry
+        for entry in inventory_entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    for entry in report_entries:
+        if not isinstance(entry, dict) or not isinstance(entry.get("slug"), str):
+            continue
+        slug = entry["slug"]
+        inventory_entry = inventory_by_slug.get(slug)
+        if inventory_entry is None:
+            continue
+        inventory_hash = inventory_entry.get("originalSha256")
+        hash_matches = (
+            isinstance(inventory_hash, str)
+            and SHA256_RE.fullmatch(inventory_hash) is not None
+            and entry.get("originalSha256") == inventory_hash
+        )
+        if not isinstance(inventory_hash, str) or not SHA256_RE.fullmatch(inventory_hash):
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-inventory-hash-missing",
+                    inventory_path.as_posix(),
+                    f"Inventory pilot {slug!r} lacks a valid originalSha256 anchor.",
+                )
+            )
+        elif not hash_matches:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-inventory-hash-mismatch",
+                    inventory_path.as_posix(),
+                    (
+                        f"Batch originalSha256 for {slug!r} does not match the "
+                        "checked-in inventory anchor."
+                    ),
+                )
+            )
+        validation = entry.get("validation")
+        if isinstance(validation, dict) and validation.get("hashMatches") != hash_matches:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-validation",
+                    str(slug),
+                    "Stale or invalid validation fields: hashMatches.",
+                )
+            )
+    return findings
+
+
+def _load_batch_notes(
+    report_path: Path,
+    report: dict | None = None,
+) -> tuple[dict[str, NoteRecord], list[Finding]]:
     """Load the fixed pilot notes through the checked-in sibling inventory."""
     inventory_path = report_path.with_name("inventory.json")
     batch_path = report_path.as_posix()
@@ -1375,6 +1775,12 @@ def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Fi
             )
         ]
 
+    anchor_findings = (
+        _inventory_hash_anchor_findings(report, inventory, inventory_path)
+        if report is not None
+        else []
+    )
+
     for entry in pilot_entries:
         slug = entry["slug"]
         expected_path = (Path("vault") / "concepts" / f"{slug}.md").as_posix()
@@ -1410,7 +1816,7 @@ def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Fi
         ]
 
     notes: dict[str, NoteRecord] = {}
-    findings: list[Finding] = []
+    findings: list[Finding] = list(anchor_findings)
     resolved_repo_root = repo_root.resolve()
     concepts_root = (resolved_repo_root / "vault" / "concepts").resolve()
     if not concepts_root.is_relative_to(resolved_repo_root):
@@ -1580,7 +1986,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 ]
             )
             return 1
-        notes, findings = _load_batch_notes(args.path)
+        notes, findings = _load_batch_notes(args.path, report)
         findings.extend(validate_evidence(report, notes))
         if not args.allow_pending and not args.check_source_hashes:
             findings.extend(_pending_fact_findings(report))
