@@ -67,6 +67,10 @@ PILOT_SLUGS = frozenset(
         "dementia-neuroimaging-overview",
     }
 )
+GENERATED_INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
+# Keep this explicit and empty unless a reviewed legacy index-only concept is
+# intentionally supported. Every other index entry must have a detail JSON.
+LEGACY_INDEX_DETAIL_FALLBACKS: dict[str, dict[str, object]] = {}
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
 # evidence.  Task 3 provenance: commit 8dca155, batch blob
@@ -777,30 +781,65 @@ def _generated_keypoints(note: NoteRecord) -> list[str]:
     return keypoints
 
 
-def validate_generated_keypoints(
+def _canonical_generated_root(
     report_path: Path,
+    notes: dict[str, NoteRecord],
+) -> tuple[Path | None, list[Finding]]:
+    """Bind generated data to the one checkout root that supplied source notes."""
+    roots: set[Path] = set()
+    for slug, note in notes.items():
+        note_path = note.path.resolve()
+        if len(note_path.parents) < 3:
+            return None, [
+                Finding(
+                    "error",
+                    "generated-root-mismatch",
+                    note.path.as_posix(),
+                    f"Pilot source path for {slug!r} has no canonical checkout root.",
+                )
+            ]
+        root = note_path.parents[2]
+        expected = (root / "vault" / "concepts" / f"{slug}.md").resolve()
+        if note_path != expected:
+            return None, [
+                Finding(
+                    "error",
+                    "generated-root-mismatch",
+                    note.path.as_posix(),
+                    f"Pilot source path for {slug!r} is not canonical for its checkout.",
+                )
+            ]
+        roots.add(root)
+
+    if len(roots) != 1:
+        return None, [
+            Finding(
+                "error",
+                "generated-root-mismatch",
+                report_path.as_posix(),
+                "Pilot source notes do not resolve to exactly one checkout root.",
+            )
+        ]
+
+    repo_root = next(iter(roots))
+    if not report_path.resolve().is_relative_to(repo_root):
+        return None, [
+            Finding(
+                "error",
+                "generated-root-mismatch",
+                report_path.as_posix(),
+                "Batch report and pilot source notes resolve to different checkouts.",
+            )
+        ]
+    return repo_root, []
+
+
+def validate_generated_keypoints(
+    repo_root: Path,
     notes: dict[str, NoteRecord],
 ) -> list[Finding]:
     """Require each checked-in pilot JSON keyPoints list to mirror its Summary."""
     findings: list[Finding] = []
-    repo_root = next(
-        (
-            candidate
-            for candidate in report_path.resolve().parents
-            if (candidate / "data" / "concepts").is_dir()
-        ),
-        None,
-    )
-    if repo_root is None:
-        return [
-            Finding(
-                "error",
-                "generated-keypoints-mismatch",
-                report_path.as_posix(),
-                "Could not resolve the generated data/concepts directory.",
-            )
-        ]
-
     for slug in sorted(PILOT_SLUGS):
         note = notes.get(slug)
         generated_path = repo_root / "data" / "concepts" / f"{slug}.json"
@@ -833,6 +872,121 @@ def validate_generated_keypoints(
                     ),
                 )
             )
+    return findings
+
+
+def validate_generated_index(repo_root: Path) -> list[Finding]:
+    """Require a complete, non-dangling index consistent with detail metadata."""
+    index_path = repo_root / "data" / "concepts-index.json"
+    detail_root = repo_root / "data" / "concepts"
+    try:
+        report = json.loads(index_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        return [
+            Finding(
+                "error",
+                "generated-index-invalid",
+                index_path.as_posix(),
+                f"Cannot read generated concepts index: {error}.",
+            )
+        ]
+
+    entries = report.get("concepts") if isinstance(report, dict) else None
+    if not isinstance(entries, list):
+        return [
+            Finding(
+                "error",
+                "generated-index-invalid",
+                index_path.as_posix(),
+                "Generated concepts index must contain a concepts array.",
+            )
+        ]
+
+    findings: list[Finding] = []
+    indexed_slugs: set[str] = set()
+    for entry in entries:
+        if not isinstance(entry, dict) or not isinstance(entry.get("slug"), str):
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-index-invalid",
+                    index_path.as_posix(),
+                    "Every generated index entry must be an object with a string slug.",
+                )
+            )
+            continue
+        slug = entry["slug"]
+        if slug in indexed_slugs:
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-index-invalid",
+                    index_path.as_posix(),
+                    f"Generated index contains duplicate slug {slug!r}.",
+                )
+            )
+            continue
+        indexed_slugs.add(slug)
+        generated_path = detail_root / f"{slug}.json"
+        try:
+            detail = json.loads(generated_path.read_text(encoding="utf-8"))
+        except FileNotFoundError:
+            fallback = LEGACY_INDEX_DETAIL_FALLBACKS.get(slug)
+            if fallback is None:
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-index-dangling",
+                        index_path.as_posix(),
+                        f"Generated index slug {slug!r} has no detail JSON.",
+                    )
+                )
+                continue
+            detail = fallback
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-index-detail-invalid",
+                    generated_path.as_posix(),
+                    f"Cannot read indexed detail JSON: {error}.",
+                )
+            )
+            continue
+
+        if not isinstance(detail, dict):
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-index-detail-invalid",
+                    generated_path.as_posix(),
+                    "Indexed detail JSON must be an object.",
+                )
+            )
+            continue
+        expected = {field: detail.get(field) for field in GENERATED_INDEX_FIELDS}
+        actual = {field: entry.get(field) for field in GENERATED_INDEX_FIELDS}
+        if actual != expected:
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-index-metadata-mismatch",
+                    index_path.as_posix(),
+                    f"Generated index metadata for {slug!r} differs from its detail JSON.",
+                )
+            )
+
+    detail_slugs = {path.stem for path in detail_root.glob("*.json")}
+    unindexed = sorted(detail_slugs - indexed_slugs)
+    for slug in unindexed:
+        findings.append(
+            Finding(
+                "error",
+                "generated-index-detail-unindexed",
+                index_path.as_posix(),
+                f"Detail JSON {slug!r} is absent from the generated index.",
+            )
+        )
     return findings
 
 
@@ -2257,7 +2411,11 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 1
         notes, findings = _load_batch_notes(args.path, report)
         findings.extend(validate_evidence(report, notes))
-        findings.extend(validate_generated_keypoints(args.path, notes))
+        generated_root, root_findings = _canonical_generated_root(args.path, notes)
+        findings.extend(root_findings)
+        if generated_root is not None:
+            findings.extend(validate_generated_keypoints(generated_root, notes))
+            findings.extend(validate_generated_index(generated_root))
         if not args.allow_pending and not args.check_source_hashes:
             findings.extend(_pending_fact_findings(report))
         _print_batch_counts(report, findings)

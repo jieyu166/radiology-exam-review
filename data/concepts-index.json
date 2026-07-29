@@ -2,13 +2,6 @@
   "concepts": [
     {
       "checked": false,
-      "name": "2-Hydroxyglutarate (2-HG) MRS in IDH-mutant Glioma",
-      "nameZh": "2-羥基戊二酸",
-      "slug": "2-hydroxyglutarate-idh-mutant-glioma",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "AAA Post-EVAR Follow-up — Imaging with Renal Impairment",
       "nameZh": "腹主動脈瘤術後追蹤影像",
       "slug": "aaa-evar-followup-imaging",
@@ -107,31 +100,10 @@
     },
     {
       "checked": false,
-      "name": "Acute Aortic Syndrome (AAS)",
-      "nameZh": "急性主動脈症候群",
-      "slug": "acute-aortic-syndrome",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Acute Appendicitis — CT/MR/US Diagnostic Criteria",
       "nameZh": "急性闌尾炎影像診斷",
       "slug": "acute-appendicitis-imaging",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Acute Chest Pain — CT Causes & Triple Rule-Out",
-      "nameZh": "急性胸痛電腦斷層",
-      "slug": "acute-chest-pain-ct",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
-      "name": "Acute Cholecystitis",
-      "nameZh": "急性膽囊炎",
-      "slug": "acute-cholecystitis",
-      "subspecialty": "US"
     },
     {
       "checked": false,
@@ -160,13 +132,6 @@
       "nameZh": "急性胰臟炎超音波",
       "slug": "acute-pancreatitis-ultrasound",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Acute Papillary Muscle Rupture",
-      "nameZh": "乳突肌斷裂",
-      "slug": "acute-papillary-muscle-rupture",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -255,7 +220,7 @@
     {
       "checked": false,
       "name": "Adrenal Lesions — Tumor-like & Misc (RG 2014)",
-      "nameZh": "新生兒腎上腺出血",
+      "nameZh": "腎上腺病灶",
       "slug": "adrenal-imaging",
       "subspecialty": "ABD"
     },
@@ -345,13 +310,6 @@
     },
     {
       "checked": false,
-      "name": "ALARA Principle (As Low As Reasonably Achievable)",
-      "nameZh": "合理抑低",
-      "slug": "alara-principle",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
       "name": "ALCAPA (Bland-White-Garland Syndrome)",
       "nameZh": "白蘭德懷特加蘭症候群",
       "slug": "alcapa-bland-white-garland",
@@ -436,13 +394,6 @@
     },
     {
       "checked": false,
-      "name": "Annuloaortic Ectasia",
-      "nameZh": "主動脈環擴張",
-      "slug": "annuloaortic-ectasia",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Anomalous Pancreatobiliary Duct Union (APBDU)",
       "nameZh": "異常胰膽管匯合",
       "slug": "anomalous-pancreatobiliary-duct-union",
@@ -488,20 +439,6 @@
       "name": "Aortic Arch Anomalies",
       "nameZh": "主動脈弓變異",
       "slug": "aortic-arch-anomalies",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "Coarctation of the Aorta",
-      "nameZh": "主動脈縮窄",
-      "slug": "aortic-coarctation",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Aortic Dissection (Stanford & DeBakey Classification)",
-      "nameZh": "主動脈剝離",
-      "slug": "aortic-dissection",
       "subspecialty": "CV"
     },
     {
@@ -604,13 +541,6 @@
     },
     {
       "checked": false,
-      "name": "Atypical Teratoid/Rhabdoid Tumor",
-      "nameZh": "非典型畸胎樣橫紋肌樣瘤",
-      "slug": "atypical-teratoid-rhabdoid-tumor",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Autoimmune Encephalitis — Overview",
       "nameZh": "自體免疫腦炎",
       "slug": "autoimmune-encephalitis",
@@ -639,23 +569,9 @@
     },
     {
       "checked": false,
-      "name": "Axillary Adenopathy at Mammography — BI-RADS Assessment",
-      "nameZh": "腋下淋巴腫大 乳攝",
-      "slug": "axillary-adenopathy-mammography",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "Axillary Lymph Node Levels (Relative to Pectoralis Minor)",
       "nameZh": "腋窩淋巴結分級",
       "slug": "axillary-lymph-node-levels",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
-      "name": "Axillary Web Syndrome (Cording)",
-      "nameZh": "腋網症候群",
-      "slug": "axillary-web-syndrome",
       "subspecialty": "Breast"
     },
     {
@@ -758,13 +674,6 @@
     },
     {
       "checked": false,
-      "name": "Urinary Bladder Cancer AJCC 8th T Staging",
-      "nameZh": "膀胱癌分期",
-      "slug": "bladder-cancer-ajcc8-staging",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "CT Cystography — Traumatic Bladder Injury Classification",
       "nameZh": "膀胱外傷CT膀胱攝影分類",
       "slug": "bladder-injury-ct-cystography",
@@ -804,13 +713,6 @@
       "nameZh": "骨髓",
       "slug": "bone-marrow",
       "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Bosniak Classification of Cystic Renal Masses (v2019)",
-      "nameZh": "腎囊腫 Bosniak 分級",
-      "slug": "bosniak-classification",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -919,13 +821,6 @@
     },
     {
       "checked": false,
-      "name": "Breast Cancer Molecular Subtypes — Imaging & Prognosis",
-      "nameZh": "乳癌分子亞型",
-      "slug": "breast-cancer-molecular-subtypes",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "Breast Cancer TNM Staging (AJCC)",
       "nameZh": "乳癌TNM分期",
       "slug": "breast-cancer-staging",
@@ -943,13 +838,6 @@
       "name": "Benign Cystic Breast Lesions",
       "nameZh": "乳房良性囊性病灶",
       "slug": "breast-cystic-lesions",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
-      "name": "Breast Ductal Carcinoma In Situ (DCIS) — MRI Features",
-      "nameZh": "乳房導管原位癌",
-      "slug": "breast-dcis",
       "subspecialty": "Breast"
     },
     {
@@ -1066,13 +954,6 @@
     },
     {
       "checked": false,
-      "name": "Breast Sarcoidosis",
-      "nameZh": "乳房類肉瘤病",
-      "slug": "breast-sarcoidosis",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "Spiculated Breast Mass (Differential Diagnosis)",
       "nameZh": "毛刺狀腫塊",
       "slug": "breast-spiculated-mass",
@@ -1105,13 +986,6 @@
       "nameZh": "布羅迪膿瘍",
       "slug": "brodie-abscess",
       "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Bronchial Artery Embolization for Hemoptysis",
-      "nameZh": "支氣管動脈栓塞咳血",
-      "slug": "bronchial-artery-embolization-hemoptysis",
-      "subspecialty": "CH"
     },
     {
       "checked": false,
@@ -1185,20 +1059,6 @@
     },
     {
       "checked": false,
-      "name": "Calcific Tendinitis (Hydroxyapatite Deposition Disease)",
-      "nameZh": "鈣化性肌腱炎",
-      "slug": "calcific-tendinitis",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Calcified Hepatic Metastases",
-      "nameZh": "鈣化性肝轉移",
-      "slug": "calcified-liver-metastases",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Calcifying Pulmonary Metastases",
       "nameZh": "鈣化肺轉移",
       "slug": "calcified-pulmonary-metastases",
@@ -1210,13 +1070,6 @@
       "nameZh": "冠狀動脈鈣化分數",
       "slug": "calcium-score",
       "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "Candida Esophagitis",
-      "nameZh": "念珠菌食道炎",
-      "slug": "candida-esophagitis",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -1262,13 +1115,6 @@
     },
     {
       "checked": false,
-      "name": "Normal Cardiac & Mediastinal Contours on Chest Radiograph",
-      "nameZh": "心臟縱膈輪廓",
-      "slug": "cardiac-mediastinal-contours-cxr",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
       "name": "Cardiac MRI — Delayed Enhancement Patterns",
       "nameZh": "心臟MRI延遲強化",
       "slug": "cardiac-mri-delayed-enhancement",
@@ -1293,13 +1139,6 @@
       "name": "Cardiac MRI — LGE for Myocardial Scar",
       "nameZh": "延遲釓增強",
       "slug": "cardiac-mri-lge",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "Cardiac MRI (CMR) Safety with Implants & Devices",
-      "nameZh": "心臟MRI安全性",
-      "slug": "cardiac-mri-safety",
       "subspecialty": "CV"
     },
     {
@@ -1426,13 +1265,6 @@
       "name": "Coronary CT Angiography",
       "nameZh": "冠狀動脈 CT 血管攝影",
       "slug": "ccta",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "CEAP Classification (Chronic Venous Disorders)",
-      "nameZh": "慢性靜脈疾病 CEAP 分類",
-      "slug": "ceap-classification",
       "subspecialty": "CV"
     },
     {
@@ -1682,13 +1514,6 @@
     },
     {
       "checked": false,
-      "name": "Cholesterol Granuloma — Petrous Apex / Middle Ear",
-      "nameZh": "膽固醇肉芽腫",
-      "slug": "cholesterol-granuloma-petrous-apex",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Chondroblastoma",
       "nameZh": "軟骨母細胞瘤",
       "slug": "chondroblastoma",
@@ -1738,13 +1563,6 @@
     },
     {
       "checked": false,
-      "name": "Cirrhosis-associated Hepatocellular Nodules",
-      "nameZh": "肝硬化結節",
-      "slug": "cirrhotic-liver-nodules",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Cleidocranial Dysplasia (Dysostosis)",
       "nameZh": "鎖骨顱骨發育不全",
       "slug": "cleidocranial-dysplasia",
@@ -1763,13 +1581,6 @@
       "nameZh": "閉合迴路阻塞",
       "slug": "closed-loop-obstruction",
       "subspecialty": "GI"
-    },
-    {
-      "checked": false,
-      "name": "CMR vs SPECT Myocardial Perfusion Imaging",
-      "nameZh": "心臟磁振灌注",
-      "slug": "cmr-vs-spect-mpi",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -1808,13 +1619,6 @@
     },
     {
       "checked": false,
-      "name": "Colorectal Cancer & Large Bowel Obstruction",
-      "nameZh": "大腸癌腸阻塞",
-      "slug": "colorectal-cancer-obstruction",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Colorectal Cancer Screening — Risk-Based Age of Onset",
       "nameZh": "大腸直腸癌篩檢",
       "slug": "colorectal-cancer-screening",
@@ -1840,13 +1644,6 @@
       "nameZh": "先天性腎上腺增生症",
       "slug": "congenital-adrenal-hyperplasia",
       "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Congenital Aural Atresia (External & Middle Ear Malformation)",
-      "nameZh": "先天性外耳道閉鎖",
-      "slug": "congenital-aural-atresia",
-      "subspecialty": "NR"
     },
     {
       "checked": false,
@@ -1941,27 +1738,6 @@
     },
     {
       "checked": false,
-      "name": "Cor Triatriatum (Sinister & Dexter)",
-      "nameZh": "三心房心",
-      "slug": "cor-triatriatum",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "Coracoid Process",
-      "nameZh": "喙突",
-      "slug": "coracoid-process",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Bone Tumors of the Coracoid Process — 喙突原發骨腫瘤",
-      "nameZh": "喙突骨腫瘤",
-      "slug": "coracoid-process-bone-tumors",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Corona Mortis (\"Crown of Death\")",
       "nameZh": "死亡冠",
       "slug": "corona-mortis",
@@ -2032,20 +1808,6 @@
     },
     {
       "checked": false,
-      "name": "Brain MRI Findings in Severe COVID-19",
-      "nameZh": "新冠腦部MRI",
-      "slug": "covid-19-brain-mri",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "COVID-19 Vaccine–Related Axillary Adenopathy",
-      "nameZh": "新冠疫苗腋下淋巴腫大",
-      "slug": "covid-vaccine-axillary-adenopathy",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "COVID-19 — Chest CT Imaging Features & Role",
       "nameZh": "新冠肺炎胸部CT",
       "slug": "covid19-chest-ct",
@@ -2074,13 +1836,6 @@
     },
     {
       "checked": false,
-      "name": "CPPD & Chondrocalcinosis",
-      "nameZh": "焦磷酸鈣沉積症",
-      "slug": "cppd-chondrocalcinosis",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Cranial Nerve Injury — Denervation Muscle Atrophy",
       "nameZh": "顱神經去神經萎縮",
       "slug": "cranial-nerve-muscle-atrophy",
@@ -2091,13 +1846,6 @@
       "name": "Craniopharyngioma",
       "nameZh": "顱咽管瘤",
       "slug": "craniopharyngioma",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Craniosynostosis — Suture Fusion & Head Shape",
-      "nameZh": "顱縫早閉",
-      "slug": "craniosynostosis-suture-fusion",
       "subspecialty": "NR"
     },
     {
@@ -2214,13 +1962,6 @@
     },
     {
       "checked": false,
-      "name": "Dynamic Contrast-Enhanced (DCE) MR Perfusion",
-      "nameZh": "動態顯影劑加強磁振造影",
-      "slug": "dce-mri-perfusion",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
       "name": "DDH — Reference Lines (Hilgenreiner, Perkins, Shenton) & Graf",
       "nameZh": "髖關節發育不良參考線",
       "slug": "ddh-hip-lines",
@@ -2249,30 +1990,9 @@
     },
     {
       "checked": false,
-      "name": "Desmoplastic Small Round Cell Tumor (DSRCT)",
-      "nameZh": "促結締組織增生性小圓細胞瘤",
-      "slug": "desmoplastic-small-round-cell-tumor",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Developmental Dysplasia of the Hip (DDH)",
       "nameZh": "髖關節發育不良",
       "slug": "developmental-dysplasia-hip",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Diabetic Mastopathy",
-      "nameZh": "糖尿病乳腺病變",
-      "slug": "diabetic-mastopathy",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
-      "name": "Diastematomyelia (Split Cord Malformation)",
-      "nameZh": "脊髓縱裂",
-      "slug": "diastematomyelia",
       "subspecialty": "PED"
     },
     {
@@ -2326,24 +2046,10 @@
     },
     {
       "checked": false,
-      "name": "Dorsal Dermal Sinus",
-      "nameZh": "背側皮竇",
-      "slug": "dorsal-dermal-sinus",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Double Outlet Right Ventricle (DORV) — Diagnostic Criteria",
       "nameZh": "右心室雙出口",
       "slug": "dorv-diagnostic-criteria",
       "subspecialty": "PE"
-    },
-    {
-      "checked": false,
-      "name": "Double-Contrast Barium Study — 雙重對比鋇劑攝影",
-      "nameZh": "雙重對比鋇劑攝影",
-      "slug": "double-contrast-barium-study",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -2400,13 +2106,6 @@
       "nameZh": "脫髓鞘疾病 U-fiber",
       "slug": "dysmyelinating-u-fiber",
       "subspecialty": "Neuro"
-    },
-    {
-      "checked": false,
-      "name": "External auditory canal exostoses",
-      "nameZh": "外耳道骨疣",
-      "slug": "eac-exostoses",
-      "subspecialty": "NR"
     },
     {
       "checked": false,
@@ -2515,20 +2214,6 @@
     },
     {
       "checked": false,
-      "name": "Enlarged (Dilated) Coronary Sinus",
-      "nameZh": "冠狀竇擴大",
-      "slug": "enlarged-coronary-sinus",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "Enteric Nervous System Plexuses (Myenteric / Submucosal)",
-      "nameZh": "腸神經叢",
-      "slug": "enteric-nervous-system-plexuses",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Ependymoma (Posterior Fossa)",
       "nameZh": "室管膜瘤",
       "slug": "ependymoma",
@@ -2547,13 +2232,6 @@
       "nameZh": "大腸腸脂垂炎",
       "slug": "epiploic-appendagitis",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Erosive (Inflammatory) Osteoarthritis",
-      "nameZh": "侵蝕性骨關節炎",
-      "slug": "erosive-osteoarthritis",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -2627,13 +2305,6 @@
     },
     {
       "checked": false,
-      "name": "Extratesticular / Scrotal Mass Differential Diagnosis",
-      "nameZh": "陰囊腫塊鑑別",
-      "slug": "extratesticular-scrotal-mass-ddx",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Fabry Disease — Pulvinar Sign (T1 Hyperintensity)",
       "nameZh": "法布瑞氏症",
       "slug": "fabry-disease-pulvinar",
@@ -2641,23 +2312,9 @@
     },
     {
       "checked": false,
-      "name": "Facet Joint Osteoarthritis / Arthropathy",
-      "nameZh": "小面關節退化",
-      "slug": "facet-joint-osteoarthritis",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Facial Bone Fracture Complications",
       "nameZh": "顏面骨折併發症",
       "slug": "facial-fracture-complications",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Facial Nerve Schwannoma (CN VII)",
-      "nameZh": "顏面神經鞘瘤",
-      "slug": "facial-nerve-schwannoma",
       "subspecialty": "NR"
     },
     {
@@ -2715,13 +2372,6 @@
       "nameZh": "纖維肌肉發育不良",
       "slug": "fibromuscular-dysplasia",
       "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Fibrosing Mediastinitis",
-      "nameZh": "纖維化縱膈炎",
-      "slug": "fibrosing-mediastinitis",
-      "subspecialty": "CH"
     },
     {
       "checked": false,
@@ -2823,13 +2473,6 @@
     },
     {
       "checked": false,
-      "name": "Gadolinium Re-injection Interval (ESUR / NSF risk)",
-      "nameZh": "釓對比劑再注射間隔",
-      "slug": "gadolinium-reinjection-interval-esur",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
       "name": "Gallbladder Adenomyomatosis",
       "nameZh": "膽囊腺肌症",
       "slug": "gallbladder-adenomyomatosis",
@@ -2855,13 +2498,6 @@
       "nameZh": "肺纖維化預後評分",
       "slug": "gap-score",
       "subspecialty": "CH"
-    },
-    {
-      "checked": false,
-      "name": "Gastric Adenocarcinoma",
-      "nameZh": "胃腺癌",
-      "slug": "gastric-adenocarcinoma",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -2921,23 +2557,9 @@
     },
     {
       "checked": false,
-      "name": "Villous Lesions of the GI Tract & Adenoma–Carcinoma Sequence",
-      "nameZh": "絨毛狀腺瘤",
-      "slug": "gi-villous-lesions",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Giant Cell Tumor of Bone (GCT)",
       "nameZh": "巨細胞瘤",
       "slug": "giant-cell-tumor",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Giant Cell Tumor of Tendon Sheath (Localized TSGCT)",
-      "nameZh": "腱鞘巨細胞瘤",
-      "slug": "giant-cell-tumor-tendon-sheath",
       "subspecialty": "MSK"
     },
     {
@@ -2974,13 +2596,6 @@
       "nameZh": "第一型戊二酸尿症",
       "slug": "glutaric-aciduria-type1",
       "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Gout — Imaging Features",
-      "nameZh": "痛風",
-      "slug": "gout-imaging",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -3036,13 +2651,6 @@
       "name": "Hand Bone Tumors — Enchondroma & BPOP/Nora Lesion",
       "nameZh": "手部骨腫瘤",
       "slug": "hand-bone-tumors",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Hand & Wrist Soft Tissue Masses",
-      "nameZh": "手腕軟組織腫塊",
-      "slug": "hand-wrist-soft-tissue-masses",
       "subspecialty": "MSK"
     },
     {
@@ -3187,13 +2795,6 @@
     },
     {
       "checked": false,
-      "name": "Hepatic Lymphatic Drainage (Superficial & Deep Pathways)",
-      "nameZh": "肝臟淋巴迴流",
-      "slug": "hepatic-lymphatic-drainage",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Hematological Malignancy of the Liver (PHL / Secondary Lymphoma / Myeloma)",
       "nameZh": "原發性肝臟淋巴瘤",
       "slug": "hepatic-lymphoma-myeloma",
@@ -3313,13 +2914,6 @@
     },
     {
       "checked": false,
-      "name": "Acetabular Labral Tear",
-      "nameZh": "髖臼唇裂",
-      "slug": "hip-labral-tear",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "HIV — Chest Manifestations & Hilar Lymphadenopathy",
       "nameZh": "愛滋病胸腔表現",
       "slug": "hiv-chest-manifestations",
@@ -3432,13 +3026,6 @@
     },
     {
       "checked": false,
-      "name": "Iatrogenic Femoral Artery Pseudoaneurysm (post-catheterisation)",
-      "nameZh": "醫源性股動脈假性動脈瘤",
-      "slug": "iatrogenic-femoral-pseudoaneurysm",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Internal Carotid Artery (ICA) Dissection — Predilection Sites",
       "nameZh": "頸內動脈剝離好發位置",
       "slug": "ica-dissection-sites",
@@ -3509,13 +3096,6 @@
     },
     {
       "checked": false,
-      "name": "Inferolateral Trunk (ILT) — Branches & Anastomoses",
-      "nameZh": "下外側幹",
-      "slug": "inferolateral-trunk-branches",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Infiltrative (Diffuse) Hepatocellular Carcinoma",
       "nameZh": "浸潤型肝細胞癌",
       "slug": "infiltrative-hcc",
@@ -3575,13 +3155,6 @@
       "name": "Intracranial Cystic Lesions — DWI",
       "nameZh": "顱內囊性病灶",
       "slug": "intracranial-cystic-lesions",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Intracranial Germ Cell Tumors",
-      "nameZh": "顱內生殖細胞瘤",
-      "slug": "intracranial-germ-cell-tumors",
       "subspecialty": "NR"
     },
     {
@@ -3754,13 +3327,6 @@
     },
     {
       "checked": false,
-      "name": "Kümmell Disease (Delayed Post-traumatic Vertebral Osteonecrosis)",
-      "nameZh": "庫梅爾病",
-      "slug": "kummell-disease",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Lacunar Infarction",
       "nameZh": "腔隙性梗塞",
       "slug": "lacunar-infarction",
@@ -3796,31 +3362,10 @@
     },
     {
       "checked": false,
-      "name": "Lateral Collateral Ligaments of the Ankle",
-      "nameZh": "踝關節外側韌帶",
-      "slug": "lateral-ankle-ligaments",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Le Fort Fractures (Facial)",
       "nameZh": "勒福氏骨折",
       "slug": "le-fort-fracture",
       "subspecialty": "H&N"
-    },
-    {
-      "checked": false,
-      "name": "Lead Apron — Lead Equivalent",
-      "nameZh": "鉛衣鉛當量",
-      "slug": "lead-apron-lead-equivalent",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
-      "name": "左心室真性動脈瘤 vs 假性動脈瘤（LV true aneurysm vs pseudoaneurysm）",
-      "nameZh": "左心室假性動脈瘤",
-      "slug": "left-ventricular-aneurysm-vs-pseudoaneurysm",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -3835,13 +3380,6 @@
       "nameZh": "豆紋動脈",
       "slug": "lenticulostriate-arteries",
       "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Leukemia — Skeletal / Musculoskeletal Manifestations",
-      "nameZh": "白血病骨骼表現",
-      "slug": "leukemia-skeletal-manifestations",
-      "subspecialty": "PED"
     },
     {
       "checked": false,
@@ -3880,24 +3418,10 @@
     },
     {
       "checked": false,
-      "name": "Living Liver Donor — Preoperative Imaging Evaluation",
-      "nameZh": "活體肝臟捐贈者影像評估",
-      "slug": "liver-living-donor-imaging",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Liver — Visceral Peritoneum Coverage",
       "nameZh": "肝臟腹膜覆蓋",
       "slug": "liver-peritoneal-anatomy",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Liver Transplant — Graft Vessel Doppler US",
-      "nameZh": "肝臟移植都卜勒",
-      "slug": "liver-transplant-doppler",
-      "subspecialty": "US"
     },
     {
       "checked": false,
@@ -3985,13 +3509,6 @@
     },
     {
       "checked": false,
-      "name": "Lymphatic System Imaging",
-      "nameZh": "胸管",
-      "slug": "lymphatic-system-imaging",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
       "name": "Lymphoid Interstitial Pneumonia (LIP) — Pediatric AIDS",
       "nameZh": "淋巴性間質性肺炎",
       "slug": "lymphoid-interstitial-pneumonia",
@@ -4041,13 +3558,6 @@
     },
     {
       "checked": false,
-      "name": "Mammographic Signs of Breast Malignancy (Spiculation & Tomosynthesis)",
-      "nameZh": "乳房惡性腫瘤乳房攝影徵象",
-      "slug": "mammographic-signs-malignancy",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "Mammography Artifact",
       "nameZh": "乳房攝影假影",
       "slug": "mammography-artifact",
@@ -4065,13 +3575,6 @@
       "name": "Mammography Dose Reduction Techniques",
       "nameZh": "乳房攝影降低劑量技術",
       "slug": "mammography-dose-reduction-techniques",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
-      "name": "Mammography Medical Audit — PPV1/PPV2/PPV3",
-      "nameZh": "乳房攝影醫學稽核",
-      "slug": "mammography-medical-audit-ppv",
       "subspecialty": "Breast"
     },
     {
@@ -4188,13 +3691,6 @@
     },
     {
       "checked": false,
-      "name": "Medullary Nephrocalcinosis",
-      "nameZh": "髓質腎鈣質沉著",
-      "slug": "medullary-nephrocalcinosis",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Medullary Sponge Kidney & Medullary Cavity Opacification",
       "nameZh": "海綿腎",
       "slug": "medullary-sponge-kidney",
@@ -4272,13 +3768,6 @@
     },
     {
       "checked": false,
-      "name": "Mesenteric / Omental Cyst",
-      "nameZh": "腸繫膜囊腫",
-      "slug": "mesenteric-omental-cyst",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Metabolic Bone Disease — Imaging Overview",
       "nameZh": "代謝性骨病",
       "slug": "metabolic-bone-disease-imaging",
@@ -4293,24 +3782,10 @@
     },
     {
       "checked": false,
-      "name": "Methanol Poisoning (Neurotoxicity)",
-      "nameZh": "甲醇中毒",
-      "slug": "methanol-toxicity",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Tumors with Microscopic Fat",
       "nameZh": "含微量脂肪腫瘤",
       "slug": "microscopic-fat-tumors",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Milwaukee Shoulder (BCP Crystal Destructive Arthropathy)",
-      "nameZh": "米爾瓦基肩",
-      "slug": "milwaukee-shoulder",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -4426,27 +3901,6 @@
     },
     {
       "checked": false,
-      "name": "MRI Tissue Signal Basics (T1/T2)",
-      "nameZh": "MR 組織訊號基礎",
-      "slug": "mri-tissue-signal-t1-t2-basics",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
-      "name": "MR Vessel Wall Imaging (Intracranial VW-MRI)",
-      "nameZh": "血管壁磁振造影",
-      "slug": "mri-vessel-wall-imaging",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "MSK MRI — Fat Suppression & Magic Angle",
-      "nameZh": "魔術角假影",
-      "slug": "msk-mri-fat-suppression-magic-angle",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Mucopolysaccharidosis Imaging",
       "nameZh": "黏多醣症影像",
       "slug": "mucopolysaccharidosis-imaging",
@@ -4457,20 +3911,6 @@
       "name": "Rhinocerebral Mucormycosis",
       "nameZh": "毛黴菌症",
       "slug": "mucormycosis",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Multicystic Dysplastic Kidney (MCDK)",
-      "nameZh": "多囊性發育不良腎",
-      "slug": "multicystic-dysplastic-kidney",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Multinodular and Vacuolating Neuronal Tumor (MVNT)",
-      "nameZh": "多結節空泡化神經元腫瘤",
-      "slug": "multinodular-vacuolating-neuronal-tumor",
       "subspecialty": "NR"
     },
     {
@@ -4622,13 +4062,6 @@
     },
     {
       "checked": false,
-      "name": "Neonatal Small Left Colon Syndrome (Meconium Plug Syndrome)",
-      "nameZh": "新生兒小左結腸症",
-      "slug": "neonatal-small-left-colon-syndrome",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Nephrogenic Systemic Fibrosis (NSF)",
       "nameZh": "腎源性全身性纖維化",
       "slug": "nephrogenic-systemic-fibrosis",
@@ -4678,20 +4111,6 @@
     },
     {
       "checked": false,
-      "name": "NF1 Spine — Dystrophic Scoliosis",
-      "nameZh": "神經纖維瘤病脊椎側彎",
-      "slug": "nf1-dystrophic-scoliosis",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Pathologic Nipple Discharge — Imaging Workup",
-      "nameZh": "病理性乳頭分泌物",
-      "slug": "nipple-discharge-imaging",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
       "name": "Naso-Orbito-Ethmoidal (NOE) Fracture",
       "nameZh": "鼻-眼眶-篩骨骨折",
       "slug": "noe-fracture",
@@ -4723,13 +4142,6 @@
       "name": "Normal Brain Myelination Pattern (Pediatric MRI)",
       "nameZh": "正常髓鞘化時程",
       "slug": "normal-myelination-pattern",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Normal Pressure Hydrocephalus (NPH)",
-      "nameZh": "常壓性水腦",
-      "slug": "normal-pressure-hydrocephalus",
       "subspecialty": "NR"
     },
     {
@@ -4790,13 +4202,6 @@
     },
     {
       "checked": false,
-      "name": "Orbital Cavernous Venous Malformation (Cavernous Haemangioma)",
-      "nameZh": "眼眶海綿狀血管畸形",
-      "slug": "orbital-cavernous-venous-malformation",
-      "subspecialty": "H&N"
-    },
-    {
-      "checked": false,
       "name": "Orbital Subperiosteal Abscess",
       "nameZh": "眼眶骨膜下膿瘍",
       "slug": "orbital-subperiosteal-abscess",
@@ -4814,13 +4219,6 @@
       "name": "Osgood-Schlatter Disease (OSD)",
       "nameZh": "脛骨粗隆骨骺炎",
       "slug": "osgood-schlatter-disease",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Osteochondral Lesion of the Talus (Osteochondral Injury of Ankle)",
-      "nameZh": "距骨骨軟骨損傷",
-      "slug": "osteochondral-lesion-talus",
       "subspecialty": "MSK"
     },
     {
@@ -4853,13 +4251,6 @@
     },
     {
       "checked": false,
-      "name": "Conventional (Intramedullary) Osteosarcoma",
-      "nameZh": "骨肉瘤",
-      "slug": "osteosarcoma",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Otosclerosis",
       "nameZh": "耳硬化症",
       "slug": "otosclerosis",
@@ -4871,13 +4262,6 @@
       "nameZh": "卵巢纖維莢膜瘤",
       "slug": "ovarian-fibrothecoma",
       "subspecialty": "GYN"
-    },
-    {
-      "checked": false,
-      "name": "Ovarian Granulosa Cell Tumor",
-      "nameZh": "顆粒細胞瘤",
-      "slug": "ovarian-granulosa-cell-tumor",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -5028,13 +4412,6 @@
     },
     {
       "checked": false,
-      "name": "Parathyroid adenoma",
-      "nameZh": "副甲狀腺腺瘤",
-      "slug": "parathyroid-adenoma",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Parosteal Osteosarcoma",
       "nameZh": "骨旁骨肉瘤",
       "slug": "parosteal-osteosarcoma",
@@ -5084,24 +4461,10 @@
     },
     {
       "checked": false,
-      "name": "Pectus Excavatum (Funnel Chest) & Haller Index",
-      "nameZh": "漏斗胸",
-      "slug": "pectus-excavatum",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Pediatric Tracheal & Bronchial Neoplasms",
       "nameZh": "兒童氣管支氣管腫瘤",
       "slug": "pediatric-airway-neoplasms",
       "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Pediatric Ankle/Foot Ossification — Normal MRI Variants",
-      "nameZh": "兒童足踝骨化正常變異",
-      "slug": "pediatric-ankle-ossification-mri",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -5140,30 +4503,9 @@
     },
     {
       "checked": false,
-      "name": "Pediatric Hepatic Artery Aneurysm / Pseudoaneurysm — Etiology & Imaging",
-      "nameZh": "兒童肝動脈瘤",
-      "slug": "pediatric-hepatic-artery-aneurysm",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Pediatric Hindfoot Alignment — Varus vs Valgus",
-      "nameZh": "兒童後足對位",
-      "slug": "pediatric-hindfoot-alignment",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Pediatric Intussusception — Types & \"Pseudokidney\" Sign",
       "nameZh": "兒童腸套疊",
       "slug": "pediatric-intussusception-types",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Pediatric Lateral Humeral Condyle Fracture",
-      "nameZh": "兒童肱骨外髁骨折",
-      "slug": "pediatric-lateral-condyle-fracture",
       "subspecialty": "PED"
     },
     {
@@ -5224,23 +4566,9 @@
     },
     {
       "checked": false,
-      "name": "Pediatric Supracondylar Humeral Fracture",
-      "nameZh": "兒童肱骨髁上骨折",
-      "slug": "pediatric-supracondylar-fracture",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Pediatric Tuberculosis — Diagnostic Challenges",
       "nameZh": "兒童結核病",
       "slug": "pediatric-tuberculosis",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Pelizaeus-Merzbacher Disease (PMD)",
-      "nameZh": "培利氏-梅茲巴克氏病",
-      "slug": "pelizaeus-merzbacher-disease",
       "subspecialty": "PED"
     },
     {
@@ -5252,24 +4580,10 @@
     },
     {
       "checked": false,
-      "name": "Pelvic Extraperitoneal Spaces — Prevesical & Perivesical Space Anatomy and Tumor Spread",
-      "nameZh": "骨盆腹膜外間隙",
-      "slug": "pelvic-extraperitoneal-spaces",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Pelvic Fracture with Hemorrhagic Shock — Management",
       "nameZh": "骨盆骨折出血處置",
       "slug": "pelvic-fracture-hemorrhage-management",
       "subspecialty": "IR"
-    },
-    {
-      "checked": false,
-      "name": "Pelvic Tumor Resectability — Iliac Vessel Involvement",
-      "nameZh": "骨盆腫瘤可切除性",
-      "slug": "pelvic-tumor-resectability-vessels",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -5291,13 +4605,6 @@
       "nameZh": "經皮腎造廔",
       "slug": "percutaneous-nephrostomy-access",
       "subspecialty": "GU"
-    },
-    {
-      "checked": false,
-      "name": "Pericardial Calcification (Causes)",
-      "nameZh": "心包鈣化",
-      "slug": "pericardial-calcification",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -5347,20 +4654,6 @@
       "nameZh": "周邊動靜脈畸形分類",
       "slug": "peripheral-avm-classification",
       "subspecialty": "IR"
-    },
-    {
-      "checked": false,
-      "name": "Peripheral Nerve Sheath Tumor — MRI Signs",
-      "nameZh": "周邊神經鞘瘤 MRI 徵象",
-      "slug": "peripheral-nerve-sheath-tumor-mri-signs",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Indications for Immediate Stenting in Peripheral Vascular Disease",
-      "nameZh": "週邊血管即時支架適應症",
-      "slug": "peripheral-vascular-immediate-stenting",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -5462,13 +4755,6 @@
     },
     {
       "checked": false,
-      "name": "Isolated PIP Soft-Tissue Swelling — Differential Diagnosis",
-      "nameZh": "近端指間關節軟組織腫脹鑑別",
-      "slug": "pip-soft-tissue-swelling-ddx",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Pituicytoma",
       "nameZh": "垂體細胞瘤",
       "slug": "pituicytoma",
@@ -5487,13 +4773,6 @@
       "nameZh": "植入性胎盤",
       "slug": "placenta-accreta-spectrum",
       "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Plantar Fibroma (Plantar Fibromatosis / Ledderhose Disease)",
-      "nameZh": "足底纖維瘤",
-      "slug": "plantar-fibroma",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -5581,24 +4860,10 @@
     },
     {
       "checked": false,
-      "name": "Portal Vein Thrombosis in Cirrhosis",
-      "nameZh": "肝硬化門靜脈血栓",
-      "slug": "portal-vein-thrombosis-cirrhosis",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Portal Venous Gas",
       "nameZh": "門靜脈氣體",
       "slug": "portal-venous-gas",
       "subspecialty": "GI"
-    },
-    {
-      "checked": false,
-      "name": "Post-Void Residual (PVR) Bladder Volume",
-      "nameZh": "餘尿量",
-      "slug": "post-void-residual",
-      "subspecialty": "US"
     },
     {
       "checked": false,
@@ -5644,13 +4909,6 @@
     },
     {
       "checked": false,
-      "name": "Postpartum Uterine Dehiscence vs Rupture — Imaging",
-      "nameZh": "子宮切口裂開影像",
-      "slug": "postpartum-uterine-dehiscence-imaging",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Postpneumonectomy Complications",
       "nameZh": "肺切除術後併發症",
       "slug": "postpneumonectomy-complications",
@@ -5683,20 +4941,6 @@
       "nameZh": "後部可逆性腦病變",
       "slug": "pres",
       "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Primary Bone Lymphoma",
-      "nameZh": "原發性骨骼淋巴瘤",
-      "slug": "primary-bone-lymphoma",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Primary Malignant Pericardial Neoplasm (Pericardial Mesothelioma)",
-      "nameZh": "心包間皮瘤",
-      "slug": "primary-pericardial-malignancy",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -5889,13 +5133,6 @@
     },
     {
       "checked": false,
-      "name": "肺栓塞 in COVID-19 — 影像與流行病學",
-      "nameZh": "COVID 肺栓塞",
-      "slug": "pulmonary-embolism-covid19",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
       "name": "Pulmonary Embolism Diagnosis",
       "nameZh": "肺栓塞診斷",
       "slug": "pulmonary-embolism-diagnosis",
@@ -6015,13 +5252,6 @@
     },
     {
       "checked": false,
-      "name": "Normal Pulmonary Vein Anatomy",
-      "nameZh": "肺靜脈解剖",
-      "slug": "pulmonary-vein-anatomy",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Pulmonary Venous Hypertension Stages (Mitral Stenosis)",
       "nameZh": "肺靜脈高壓分期",
       "slug": "pulmonary-venous-hypertension",
@@ -6078,7 +5308,7 @@
     },
     {
       "checked": false,
-      "name": "Radiation Protection Law — Incident Reporting (第13條) & Occupational Dose Limits (第7條)",
+      "name": "Radiation Protection Law — Incident Reporting (游離輻射防護法第13條)",
       "nameZh": "游離輻射防護法規事故通報",
       "slug": "radiation-incident-reporting",
       "subspecialty": "Physics"
@@ -6092,27 +5322,6 @@
     },
     {
       "checked": false,
-      "name": "Radiation-induced Hypopituitarism (Neuroendocrine Sequelae)",
-      "nameZh": "放射線誘發腦下垂體功能低下",
-      "slug": "radiation-induced-hypopituitarism",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Radiation-induced Lung Disease (RILD)",
-      "nameZh": "放射性肺損傷",
-      "slug": "radiation-induced-lung-disease",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
-      "name": "Radiation-induced Thoracic Malignancy",
-      "nameZh": "放射線誘發胸部惡性腫瘤",
-      "slug": "radiation-induced-thoracic-malignancy",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
       "name": "Radiation Necrosis vs Brain Tumor Recurrence",
       "nameZh": "放射線壞死",
       "slug": "radiation-necrosis-vs-tumor-recurrence",
@@ -6123,20 +5332,6 @@
       "name": "Radiation Stochastic Effects (機率效應)",
       "nameZh": "機率效應",
       "slug": "radiation-stochastic-effects",
-      "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
-      "name": "Diagnostic Error Types in Radiology (Perceptual vs Cognitive)",
-      "nameZh": "放射診斷錯誤分類",
-      "slug": "radiology-diagnostic-error-types",
-      "subspecialty": "Breast"
-    },
-    {
-      "checked": false,
-      "name": "Radium-223 — Alpha-Emitting Radiopharmaceutical",
-      "nameZh": "鐳-223",
-      "slug": "radium-223-alpha-emitter",
       "subspecialty": "Physics"
     },
     {
@@ -6236,20 +5431,6 @@
       "nameZh": "腎細胞癌影像分期",
       "slug": "renal-cell-carcinoma-imaging",
       "subspecialty": "GU"
-    },
-    {
-      "checked": false,
-      "name": "Living Renal Donor Vascular Evaluation",
-      "nameZh": "活體腎捐贈血管評估",
-      "slug": "renal-donor-vascular-evaluation",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
-      "name": "Renal Infarction",
-      "nameZh": "腎梗塞",
-      "slug": "renal-infarction",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -6358,13 +5539,6 @@
     },
     {
       "checked": false,
-      "name": "Rheumatoid Arthritis — Imaging",
-      "nameZh": "類風濕性關節炎影像",
-      "slug": "rheumatoid-arthritis-imaging",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Rhombencephalosynapsis",
       "nameZh": "菱腦融合症",
       "slug": "rhombencephalosynapsis",
@@ -6386,13 +5560,6 @@
     },
     {
       "checked": false,
-      "name": "Right Gastric Artery Origin",
-      "nameZh": "胃右動脈起源",
-      "slug": "right-gastric-artery-origin",
-      "subspecialty": "ABD"
-    },
-    {
-      "checked": false,
       "name": "Ring-Sling Syndrome (Congenital Tracheal Stenosis + Pulmonary Artery Sling)",
       "nameZh": "環形氣管左肺動脈吊索症候群",
       "slug": "ring-sling-syndrome",
@@ -6410,13 +5577,6 @@
       "name": "Rotator Cuff Muscles (SITS)",
       "nameZh": "旋轉肌袖",
       "slug": "rotator-cuff-muscles",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Sacral Chordoma",
-      "nameZh": "脊索瘤",
-      "slug": "sacral-chordoma",
       "subspecialty": "MSK"
     },
     {
@@ -6470,13 +5630,6 @@
     },
     {
       "checked": false,
-      "name": "SCCT 18-Segment Coronary Model",
-      "nameZh": "冠狀動脈分節",
-      "slug": "scct-coronary-segmentation",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Slipped Capital Femoral Epiphysis (SCFE) — Imaging",
       "nameZh": "股骨頭骨骺滑脫",
       "slug": "scfe-imaging",
@@ -6523,13 +5676,6 @@
       "nameZh": "肺硬化性肺細胞瘤",
       "slug": "sclerosing-pneumocytoma",
       "subspecialty": "CH"
-    },
-    {
-      "checked": false,
-      "name": "Scoliosis — Cobb Angle Treatment Thresholds (Observation / Bracing / Surgery)",
-      "nameZh": "脊椎側彎治療閾值",
-      "slug": "scoliosis-cobb-angle-management",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -6631,13 +5777,6 @@
     },
     {
       "checked": false,
-      "name": "Sinus Venosus Atrial Septal Defect (SV-ASD)",
-      "nameZh": "靜脈竇型心房中膈缺損",
-      "slug": "sinus-venosus-atrial-septal-defect",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Sinusoidal Obstruction Syndrome (SOS)",
       "nameZh": "肝竇阻塞症候群",
       "slug": "sinusoidal-obstruction-syndrome",
@@ -6663,13 +5802,6 @@
       "nameZh": "Skene 腺囊腫",
       "slug": "skene-gland-cyst",
       "subspecialty": "GU"
-    },
-    {
-      "checked": false,
-      "name": "Skull Base Osteomyelitis (Typical/Otogenic vs Central/Atypical)",
-      "nameZh": "顱底骨髓炎",
-      "slug": "skull-base-osteomyelitis",
-      "subspecialty": "NR"
     },
     {
       "checked": false,
@@ -6712,13 +5844,6 @@
       "nameZh": "吸菸相關肺實質疾病",
       "slug": "smoke-lung",
       "subspecialty": "CH"
-    },
-    {
-      "checked": false,
-      "name": "Soft-Tissue Lipoma — Ultrasound Appearance",
-      "nameZh": "軟組織脂肪瘤超音波",
-      "slug": "soft-tissue-lipoma-ultrasound",
-      "subspecialty": "US"
     },
     {
       "checked": false,
@@ -6792,13 +5917,6 @@
     },
     {
       "checked": false,
-      "name": "Spinal Meningocele",
-      "nameZh": "脊膜膨出",
-      "slug": "spinal-meningocele",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Spinal Column & Leptomeningeal Metastasis — Spread Pathways",
       "nameZh": "脊椎轉移擴散途徑",
       "slug": "spinal-metastasis-pathways",
@@ -6869,13 +5987,6 @@
     },
     {
       "checked": false,
-      "name": "Spontaneous Coronary Artery Dissection (SCAD)",
-      "nameZh": "自發性冠狀動脈剝離",
-      "slug": "spontaneous-coronary-artery-dissection",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "Spontaneous Intracranial Hemorrhage — Etiology in Young Adults",
       "nameZh": "年輕成人自發性腦出血病因",
       "slug": "spontaneous-ich-young-adults",
@@ -6939,24 +6050,10 @@
     },
     {
       "checked": false,
-      "name": "Subdural Empyema (DWI, vs Chronic SDH, Etiology by Age)",
-      "nameZh": "硬膜下積膿",
-      "slug": "subdural-empyema",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Subependymoma",
       "nameZh": "室管膜下瘤",
       "slug": "subependymoma",
       "subspecialty": "NR"
-    },
-    {
-      "checked": false,
-      "name": "Subtle Fracture — Radiographic (Secondary) Signs",
-      "nameZh": "隱匿性骨折徵象",
-      "slug": "subtle-fracture-radiographic-signs",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -7002,20 +6099,6 @@
     },
     {
       "checked": false,
-      "name": "Primary Synovial (Osteo)chondromatosis",
-      "nameZh": "滑膜骨軟骨瘤病",
-      "slug": "synovial-osteochondromatosis",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Synovial Sarcoma",
-      "nameZh": "滑膜肉瘤",
-      "slug": "synovial-sarcoma",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "Synthetic Mammography (SM)",
       "nameZh": "合成乳房攝影",
       "slug": "synthetic-mammography",
@@ -7041,13 +6124,6 @@
       "nameZh": "台灣兒童死亡率OECD排名",
       "slug": "taiwan-child-mortality-oecd",
       "subspecialty": "Physics"
-    },
-    {
-      "checked": false,
-      "name": "Takayasu Arteritis",
-      "nameZh": "高安氏動脈炎",
-      "slug": "takayasu-arteritis",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -7114,13 +6190,6 @@
     },
     {
       "checked": false,
-      "name": "Temporomandibular Joint Disorder — MRI",
-      "nameZh": "顳顎關節障礙 MRI",
-      "slug": "temporomandibular-joint-disorder-mri",
-      "subspecialty": "NR"
-    },
-    {
-      "checked": false,
       "name": "Testicular Epidermoid Cyst",
       "nameZh": "睪丸表皮樣囊腫",
       "slug": "testicular-epidermoid-cyst",
@@ -7163,13 +6232,6 @@
     },
     {
       "checked": false,
-      "name": "Bird-Beak Configuration after TEVAR",
-      "nameZh": "TEVAR 鳥嘴徵象",
-      "slug": "tevar-bird-beak-configuration",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
       "name": "TFCC — Palmer Classification",
       "nameZh": "三角纖維軟骨複合體分類",
       "slug": "tfcc-palmer-classification",
@@ -7205,13 +6267,6 @@
     },
     {
       "checked": false,
-      "name": "胸腺增生（Thymic hyperplasia）與正常胸腺",
-      "nameZh": "胸腺增生",
-      "slug": "thymic-hyperplasia",
-      "subspecialty": "CH"
-    },
-    {
-      "checked": false,
       "name": "Thymoma",
       "nameZh": "胸腺瘤",
       "slug": "thymoma",
@@ -7223,13 +6278,6 @@
       "nameZh": "甲狀舌管囊腫",
       "slug": "thyroglossal-duct-cyst",
       "subspecialty": "US"
-    },
-    {
-      "checked": false,
-      "name": "Differentiated Thyroid Cancer TNM Staging (AJCC 8th)",
-      "nameZh": "甲狀腺癌 TNM 分期",
-      "slug": "thyroid-cancer-tnm-staging",
-      "subspecialty": "NR"
     },
     {
       "checked": false,
@@ -7254,20 +6302,6 @@
     },
     {
       "checked": false,
-      "name": "短暫性腦缺血發作（TIA）— 影像與風險因子",
-      "nameZh": "短暫性腦缺血發作",
-      "slug": "tia-stroke-risk-factors",
-      "subspecialty": "CV"
-    },
-    {
-      "checked": false,
-      "name": "脛骨平台骨折 — 三柱分型（Three-Column / Luo）",
-      "nameZh": "脛骨平台骨折三柱分型",
-      "slug": "tibial-plateau-fracture-classification",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
       "name": "TIPS — Indications in Portal Hypertension",
       "nameZh": "經頸靜脈肝內門體分流術",
       "slug": "tips-portal-hypertension",
@@ -7286,13 +6320,6 @@
       "nameZh": "組織諧波成像",
       "slug": "tissue-harmonic-imaging",
       "subspecialty": "US"
-    },
-    {
-      "checked": false,
-      "name": "顳顎關節內部紊亂（TMJ internal derangement）",
-      "nameZh": "顳顎關節內部紊亂",
-      "slug": "tmj-internal-derangement",
-      "subspecialty": "MSK"
     },
     {
       "checked": false,
@@ -7335,13 +6362,6 @@
       "nameZh": "氣管食道瘔管",
       "slug": "tracheoesophageal-fistula",
       "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Transcatheter Mitral Valve Replacement (TMVR) — Pre-procedural CT",
-      "nameZh": "經導管二尖瓣置換",
-      "slug": "transcatheter-mitral-valve-replacement",
-      "subspecialty": "CV"
     },
     {
       "checked": false,
@@ -7429,13 +6449,6 @@
     },
     {
       "checked": false,
-      "name": "Umbilical Arterial Catheter Position",
-      "nameZh": "臍動脈導管路徑",
-      "slug": "uac-catheter-route",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
       "name": "Ulnar Collateral Ligament (UCL) Injury — Throwing Elbow",
       "nameZh": "尺側副韌帶損傷",
       "slug": "ulnar-collateral-ligament-injury",
@@ -7460,13 +6473,6 @@
       "name": "Ultrasound Pulse-Echo Display Modes (A/B/M-mode)",
       "nameZh": "超音波顯示模式",
       "slug": "ultrasound-display-modes",
-      "subspecialty": "US"
-    },
-    {
-      "checked": false,
-      "name": "Ultrasound Beam — Fresnel (Near) vs Fraunhofer (Far) Zone",
-      "nameZh": "超音波近場遠場",
-      "slug": "ultrasound-fresnel-fraunhofer-zone",
       "subspecialty": "US"
     },
     {
@@ -7552,13 +6558,6 @@
       "nameZh": "上消化道出血處置",
       "slug": "upper-gi-bleeding-management",
       "subspecialty": "IR"
-    },
-    {
-      "checked": false,
-      "name": "Upper Tract Urothelial Carcinoma — AJCC 8th Staging",
-      "nameZh": "上尿路泌尿上皮癌分期",
-      "slug": "upper-tract-urothelial-carcinoma-staging",
-      "subspecialty": "ABD"
     },
     {
       "checked": false,
@@ -7810,20 +6809,6 @@
       "name": "Wilms Tumor (Nephroblastoma)",
       "nameZh": "腎母細胞瘤",
       "slug": "wilms-tumor",
-      "subspecialty": "PED"
-    },
-    {
-      "checked": false,
-      "name": "Wrist — Ulnar Variance, Ulnar Impaction & Carpal Instability",
-      "nameZh": "腕關節解剖",
-      "slug": "wrist-ulnar-variance-carpal-instability",
-      "subspecialty": "MSK"
-    },
-    {
-      "checked": false,
-      "name": "Wyburn-Mason syndrome (cerebrofacial arteriovenous metameric syndrome, CAMS)",
-      "nameZh": "",
-      "slug": "wyburn-mason-syndrome",
       "subspecialty": "PED"
     },
     {

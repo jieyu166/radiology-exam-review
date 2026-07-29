@@ -210,12 +210,27 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
 
     inventory_notes = []
     evidence_notes = []
+    generated_index_notes = []
     for slug in PILOT_SLUGS:
         note_path = concepts / f"{slug}.md"
         note_path.write_text(NR_DEMO_TEXT, encoding="utf-8", newline="")
+        generated_detail = {
+            "slug": slug,
+            "name": slug,
+            "nameZh": "",
+            "subspecialty": "NR",
+            "checked": False,
+            "keyPoints": ["**Label**: Demo fact."],
+        }
         (generated_concepts / f"{slug}.json").write_text(
-            json.dumps({"keyPoints": ["**Label**: Demo fact."]}),
+            json.dumps(generated_detail),
             encoding="utf-8",
+        )
+        generated_index_notes.append(
+            {
+                field: generated_detail[field]
+                for field in ("slug", "name", "nameZh", "subspecialty", "checked")
+            }
         )
         inventory_notes.append(
             {
@@ -265,6 +280,10 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
         "notes": evidence_notes,
     }
     (report_dir / "inventory.json").write_text(json.dumps(inventory), encoding="utf-8")
+    (root / "data" / "concepts-index.json").write_text(
+        json.dumps({"concepts": generated_index_notes}),
+        encoding="utf-8",
+    )
     batch_path = report_dir / "batch-00.json"
     batch_path.write_text(json.dumps(report), encoding="utf-8")
     return batch_path, inventory, report
@@ -600,6 +619,170 @@ def test_validate_batch_cli_rejects_generated_keypoints_mismatch() -> None:
 
     assert exit_code == 1
     assert '"code": "generated-keypoints-mismatch"' in output
+
+
+def test_validate_batch_cli_rejects_all_generated_keypoints_shape_failures() -> None:
+    mutations = (
+        ("missing", lambda path: path.unlink()),
+        ("malformed", lambda path: path.write_text("{", encoding="utf-8")),
+        ("non-object", lambda path: path.write_text("[]", encoding="utf-8")),
+        (
+            "absent-keyPoints",
+            lambda path: path.write_text(json.dumps({"slug": path.stem}), encoding="utf-8"),
+        ),
+        (
+            "wrong-type-keyPoints",
+            lambda path: path.write_text(
+                json.dumps({"keyPoints": "**Label**: Demo fact."}),
+                encoding="utf-8",
+            ),
+        ),
+    )
+    for mutation, mutate in mutations:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            batch_path, _, report = write_valid_batch_cli_fixture(root)
+            report["status"] = "verified"
+            for entry in report["notes"]:
+                make_entry_final(entry)
+            batch_path.write_text(json.dumps(report), encoding="utf-8")
+            generated_path = (
+                root / "data" / "concepts" / f"{PILOT_SLUGS[0]}.json"
+            )
+            mutate(generated_path)
+
+            exit_code, output = run_validate_batch_cli(
+                batch_path,
+                allow_pending=False,
+            )
+
+        assert exit_code == 1, mutation
+        assert '"code": "generated-keypoints-mismatch"' in output, mutation
+
+
+def test_generated_keypoints_preserve_first_variant_and_subheading_order() -> None:
+    note = audit.parse_note_text(
+        Path("vault/concepts/dementia-neuroimaging-overview.md"),
+        """---
+subspecialty: [NR]
+---
+## Summary — first variant
+- **First**: One.[^1]
+
+### Nested classification
+- **Nested**: Two.[^2]
+
+## Summary — later variant
+- **Later**: Three.[^3]
+
+[^1]: One.
+[^2]: Two.
+[^3]: Three.
+""",
+    )
+
+    assert audit._generated_keypoints(note) == [
+        "**First**: One.",
+        "**Nested**: Two.",
+    ]
+
+
+def test_generated_data_root_is_bound_to_source_checkout_not_shadow_tree() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        batch_path, _, report = write_valid_batch_cli_fixture(root)
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            make_entry_final(entry)
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+
+        shadow = root / "docs" / "data" / "concepts"
+        shadow.mkdir(parents=True)
+        for slug in PILOT_SLUGS:
+            (shadow / f"{slug}.json").write_text(
+                json.dumps({"keyPoints": ["shadow tree"]}),
+                encoding="utf-8",
+            )
+
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 0, output
+
+
+def test_validate_batch_cli_rejects_dangling_generated_index_entry() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        batch_path, _, report = write_valid_batch_cli_fixture(root)
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            make_entry_final(entry)
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        index_path = root / "data" / "concepts-index.json"
+        index = json.loads(index_path.read_text(encoding="utf-8"))
+        index["concepts"].append(
+            {
+                "slug": "dangling",
+                "name": "Dangling",
+                "nameZh": "",
+                "subspecialty": "NR",
+                "checked": False,
+            }
+        )
+        index_path.write_text(json.dumps(index), encoding="utf-8")
+
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 1
+    assert '"code": "generated-index-dangling"' in output
+
+
+def test_validate_batch_cli_rejects_nonpilot_index_metadata_drift() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        batch_path, _, report = write_valid_batch_cli_fixture(root)
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            make_entry_final(entry)
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+
+        detail = {
+            "slug": "nonpilot",
+            "name": "Detail name",
+            "nameZh": "細節",
+            "subspecialty": "CH",
+            "checked": False,
+            "keyPoints": [],
+        }
+        (root / "data" / "concepts" / "nonpilot.json").write_text(
+            json.dumps(detail),
+            encoding="utf-8",
+        )
+        index_path = root / "data" / "concepts-index.json"
+        index = json.loads(index_path.read_text(encoding="utf-8"))
+        index["concepts"].append(
+            {
+                "slug": "nonpilot",
+                "name": "Drifted name",
+                "nameZh": "細節",
+                "subspecialty": "CH",
+                "checked": False,
+            }
+        )
+        index_path.write_text(json.dumps(index), encoding="utf-8")
+
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 1
+    assert '"code": "generated-index-metadata-mismatch"' in output
 
 
 def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
@@ -1329,6 +1512,11 @@ def run_smoke() -> None:
     test_validate_batch_cli_supports_explicit_pre_edit_hash_gate()
     test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review()
     test_validate_batch_cli_rejects_generated_keypoints_mismatch()
+    test_validate_batch_cli_rejects_all_generated_keypoints_shape_failures()
+    test_generated_keypoints_preserve_first_variant_and_subheading_order()
+    test_generated_data_root_is_bound_to_source_checkout_not_shadow_tree()
+    test_validate_batch_cli_rejects_dangling_generated_index_entry()
+    test_validate_batch_cli_rejects_nonpilot_index_metadata_drift()
     test_validate_batch_cli_rejects_rewritten_summary_drift()
     test_validate_batch_cli_rejects_final_integrity_mutations()
     test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated()

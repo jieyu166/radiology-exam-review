@@ -114,6 +114,122 @@
       "data/concepts-index.json"
     ]
   },
+  "fixRound1Verification": {
+    "date": "2026-07-29",
+    "status": "pass",
+    "generatedBaseline": {
+      "command": "git status --short -- data/concepts data/concepts-index.json",
+      "status": "clean",
+      "changedFiles": []
+    },
+    "rootBinding": {
+      "status": "pass",
+      "rule": "generated data is resolved from the same canonical checkout root as the pilot source notes",
+      "shadowTreeRegression": "pass"
+    },
+    "indexCoherence": {
+      "command": "node index/detail coherence check",
+      "rawOutput": "{\"index\":978,\"details\":978,\"dangling\":0,\"unindexed\":0,\"metadataMismatch\":0}",
+      "indexEntries": 978,
+      "detailFiles": 978,
+      "dangling": 0,
+      "unindexed": 0,
+      "metadataMismatch": 0,
+      "legacyFallbacks": 0,
+      "preFixIndexEntries": 1123,
+      "removedDanglingEntries": 145
+    },
+    "referenceUrls": {
+      "command": "node pilot externalLinks URL parse and exact DOI check",
+      "rawOutput": "{\"urls\":43,\"bad\":0,\"required\":[true,true]}",
+      "checked": 43,
+      "invalid": 0,
+      "requiredExactUrls": [
+        "https://doi.org/10.6705/j.jacme.202103_11(1).0002",
+        "https://doi.org/10.1016/S0140-6736(00)02237-6"
+      ]
+    },
+    "commandResults": [
+      {
+        "command": "python scripts/test_build_concepts.py",
+        "exitCode": 0,
+        "rawOutput": "BUILD_CONCEPTS_TEST_OK"
+      },
+      {
+        "command": "python scripts/test_nr_summary_audit.py",
+        "exitCode": 0,
+        "rawOutput": "NR_SUMMARY_AUDIT_OK"
+      },
+      {
+        "command": "python -m py_compile scripts/build_concepts.py scripts/test_build_concepts.py scripts/nr_summary_audit.py scripts/test_nr_summary_audit.py",
+        "exitCode": 0,
+        "rawOutput": "PY_COMPILE_OK"
+      },
+      {
+        "command": "python scripts/nr_summary_audit.py validate-batch docs/reports/nr-summary-rewrite/batch-00.json",
+        "exitCode": 0,
+        "rawOutput": "Batch notes: 10\nMissing sources: 0\n[]"
+      },
+      {
+        "command": "python scripts/build_concepts.py --quiet",
+        "exitCode": 0,
+        "rawOutput": ""
+      },
+      {
+        "command": "python scripts/build_concepts.py --index-from-details --quiet",
+        "exitCode": 0,
+        "rawOutput": ""
+      },
+      {
+        "command": "python scripts/lint_concepts.py --quiet",
+        "exitCode": 1,
+        "rawOutput": "2 errors, 124 warnings",
+        "acceptedBaseline": true
+      }
+    ],
+    "lint": {
+      "errors": 2,
+      "warnings": 124,
+      "pilotErrors": [],
+      "onlyErrors": [
+        "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
+        "[json 殘留 ![[...]]] 2022-264"
+      ]
+    },
+    "generatedScope": {
+      "regeneratedPilotFiles": 10,
+      "changedPilotFiles": [
+        "data/concepts/acute-stroke-management.json",
+        "data/concepts/aspects-score.json",
+        "data/concepts/cerebral-amyloid-angiopathy.json",
+        "data/concepts/clippers.json"
+      ],
+      "index": "data/concepts-index.json",
+      "firstBroadRunTrackedOutputsRestored": 588,
+      "finalQuietRunTrackedOutputsRestored": 379,
+      "broadUntrackedOutputsRemovedPerRun": 145,
+      "preBuildUserChangesDiscarded": 0
+    },
+    "factCoverage": {
+      "total": 225,
+      "covered": 221,
+      "manualReview": 4,
+      "researchNeeded": 0,
+      "pending": 0
+    },
+    "manualQueue": [
+      "acute-stroke-management-f09",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
+    ],
+    "reviewGate": {
+      "status": "needs-review",
+      "verifiedNotes": 8,
+      "manualReviewNotes": 2,
+      "phase2Started": false
+    }
+  },
   "notes": [
     {
       "slug": "acute-stroke-management",

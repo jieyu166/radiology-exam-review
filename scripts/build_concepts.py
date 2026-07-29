@@ -35,13 +35,45 @@ INDEX_PATH = "data/concepts-index.json"
 SAFE_SLUG = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 CJK = re.compile(r"[一-鿿]")
 FOOTNOTE_REF = re.compile(r"\[\^[^\]]+\]")          # [^1] 引用標記（顯示時移除）
-MD_LINK = re.compile(r"\[([^\]]+)\]\((https?://[^)]+)\)")
-BARE_URL = re.compile(r"https?://[^\s)\]）]+")
-PLAIN_DOI = re.compile(r"\b(10\.\d{4,}/[^\s)\]）,；。]+)")
+MD_LINK_START = re.compile(r"\[([^\]]+)\]\((https?://)")
+BARE_URL = re.compile(r"https?://[^\s\]；。，（）]+")
+PLAIN_DOI = re.compile(r"\b(10\.\d{4,9}/[^\s\]>,；。（）]+)")
+INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
 
 
 def _strip_footnotes(text: str) -> str:
     return FOOTNOTE_REF.sub("", text).rstrip()
+
+
+def _clean_url_token(value: str) -> str:
+    """Trim prose/Markdown delimiters without truncating balanced DOI parentheses."""
+    value = value.split("（", 1)[0].rstrip(".,;:；。")
+    while value.endswith(")") and value.count(")") > value.count("("):
+        value = value[:-1]
+    return value.rstrip(".,;:；。")
+
+
+def _iter_markdown_links(text: str):
+    """Yield Markdown HTTP links while honoring balanced parentheses in URLs."""
+    position = 0
+    while match := MD_LINK_START.search(text, position):
+        label = match.group(1)
+        url_start = match.start(2)
+        depth = 1
+        cursor = url_start
+        while cursor < len(text):
+            char = text[cursor]
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                depth -= 1
+                if depth == 0:
+                    yield label, text[url_start:cursor]
+                    position = cursor + 1
+                    break
+            cursor += 1
+        else:
+            position = match.end()
 
 
 def parse_frontmatter(raw: str):
@@ -232,13 +264,14 @@ def extract_links(sections):
         seen.add(key)
         links.append({"label": _strip_footnotes(label).strip() or url, "url": url})
 
-    for label, url in MD_LINK.findall(content):
-        add(url, label)
+    for label, url in _iter_markdown_links(content):
+        add(_clean_url_token(url), label)
     for url in BARE_URL.findall(content):
-        add(url.rstrip(".,)）"), url.rstrip(".,)）"))
+        cleaned_url = _clean_url_token(url)
+        add(cleaned_url, cleaned_url)
     # 純文字 DOI（多數 Radiopaedia/官方引用為此形式）→ 建 doi.org 連結
     for doi in PLAIN_DOI.findall(content):
-        doi = doi.rstrip(".,)）")
+        doi = _clean_url_token(doi)
         add("https://doi.org/" + doi, doi)
     return links[:12]
 
@@ -291,8 +324,34 @@ def write_json(path, data):
         f.write("\n")
 
 
+def build_index_from_detail_files(out_dir=OUT_DIR, index_path=INDEX_PATH):
+    """Rebuild a coherent index from the detail JSON files that actually exist."""
+    index = []
+    for path in sorted(glob.glob(os.path.join(out_dir, "*.json"))):
+        with open(path, encoding="utf-8") as file:
+            detail = json.load(file)
+        slug = os.path.basename(path)[:-5]
+        if not isinstance(detail, dict) or detail.get("slug") != slug:
+            raise ValueError(f"Detail JSON slug mismatch: {path}")
+        missing = [field for field in INDEX_FIELDS if field not in detail]
+        if missing:
+            raise ValueError(f"Detail JSON missing index fields {missing}: {path}")
+        index.append({field: detail[field] for field in INDEX_FIELDS})
+    index.sort(key=lambda entry: entry["slug"])
+    report = {"concepts": index}
+    write_json(index_path, report)
+    return report
+
+
 def main():
     quiet = "--quiet" in sys.argv
+    if "--index-from-details" in sys.argv:
+        report = build_index_from_detail_files()
+        if not quiet:
+            print(f"索引概念總數：{len(report['concepts'])}")
+            print(f"輸出：{INDEX_PATH}")
+        return
+
     files = sorted(p for p in glob.glob(os.path.join(SRC_DIR, "*.md"))
                    if not os.path.basename(p).startswith("_"))
     os.makedirs(OUT_DIR, exist_ok=True)
