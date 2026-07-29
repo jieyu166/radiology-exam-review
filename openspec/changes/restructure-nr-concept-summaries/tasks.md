@@ -12,8 +12,8 @@
 
 ## 4. Pilot Summary 語意重組
 
-- [ ] 4.1 滿足「NR Summary bullets follow a type-specific labeled format」與「Summary rewriting preserves sourced medical facts」：只改寫固定 10 篇 pilot 的 Summary，以 type-specific bold-label top-level bullets 保存全部 qualifier、polarity、number、version、negation、exception 與 footnote，且不修改正文、題目、frontmatter、圖片、Dataview；逐篇以 validate-note 與 batch fact coverage review 驗證。
-- [ ] 4.2 滿足「Literature research is exception-driven and auditable」與「Source research is exception-driven」：僅對 unmapped、conflicted、time-sensitive 或 weak-source-dependent facts 啟用 radiology-topic-research，新增內容必須同步新增 article/chapter footnote；需要登入時將 note 保持 research-needed 並等待使用者自行登入，以 batch evidence 的 sourceStatus、sourceRefs 與 manual-review 狀態驗證。
+- [x] 4.1 滿足「NR Summary bullets follow a type-specific labeled format」與「Summary rewriting preserves sourced medical facts」：只改寫固定 10 篇 pilot 的 Summary，以 type-specific bold-label top-level bullets 保存全部 qualifier、polarity、number、version、negation、exception 與 footnote，且不修改正文、題目、frontmatter、圖片、Dataview；逐篇以 validate-note 與 batch fact coverage review 驗證。
+- [x] 4.2 滿足「Literature research is exception-driven and auditable」與「Source research is exception-driven」：僅對 unmapped、conflicted、time-sensitive 或 weak-source-dependent facts 啟用 radiology-topic-research，新增內容必須同步新增 article/chapter footnote；需要登入時將 note 保持 research-needed 並等待使用者自行登入，以 batch evidence 的 sourceStatus、sourceRefs 與 manual-review 狀態驗證。
 
 ## 5. Build、lint baseline 與網站輸出
 
