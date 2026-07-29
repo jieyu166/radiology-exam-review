@@ -19,4 +19,3 @@ For each Phase 1 pilot concept, the build output keyPoints array SHALL equal the
 
 - **WHEN** a Summary variant, nested section, or normalization difference causes generated keyPoints to differ from the validated source bullets
 - **THEN** batch validation emits generated-keypoints-mismatch and the note cannot be marked verified
-

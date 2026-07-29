@@ -79,4 +79,3 @@ The 10 pilot notes MUST have zero Summary structural errors and zero undefined f
 
 - **WHEN** project lint reports either a third error or an error in a pilot note
 - **THEN** the lint-baseline gate fails and batch-00 cannot be verified
-
