@@ -156,6 +156,10 @@ PHASE2_TYPE_SHORT = {
 # Populated one reviewed batch at a time by Tasks 2.1, 3.1, and 4.1.  Absence
 # is fail-closed: no mutable lock or evidence file may choose its own digest.
 TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {}
+# Sealed one reviewed batch at a time after the gated two-run build workflow.
+# Task 1.1 intentionally leaves this empty so generated observations cannot
+# self-authorize before Tasks 2.3, 3.3, and 4.3 independently review them.
+TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {}
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
 # evidence.  Task 3 provenance: commit 8dca155, batch blob
@@ -1130,6 +1134,7 @@ def build_phase2_generated_manifest(
     *,
     nonselected_before: Mapping[str, str] | None = None,
     nonselected_after: Mapping[str, str] | None = None,
+    first_run: Mapping[str, Sequence[str]] | None = None,
     second_run: Mapping[str, Sequence[str]] | None = None,
 ) -> dict:
     """Construct a manifest from current bytes and explicit build observations."""
@@ -1146,12 +1151,13 @@ def build_phase2_generated_manifest(
     if (
         nonselected_before is None
         or nonselected_after is None
+        or first_run is None
         or second_run is None
     ):
         raise Phase2LoadError(
             "generated-observation-missing",
             observation_path,
-            "Explicit pre-build, post-build, and second-run observations are required.",
+            "Explicit pre-build, first-run, post-build, and second-run observations are required.",
         )
     selected = set(context.batch["slugs"])
 
@@ -1170,25 +1176,29 @@ def build_phase2_generated_manifest(
             )
         )
 
-    second_run_keys = {"changedPaths", "mtimeChangedPaths"}
-    valid_second_run = (
-        isinstance(second_run, dict)
-        and set(second_run) == second_run_keys
-        and all(
-            isinstance(paths, list)
-            and paths == sorted(set(paths))
+    run_keys = {"changedPaths", "mtimeChangedPaths"}
+
+    def valid_run(observation: Mapping[str, Sequence[str]]) -> bool:
+        return (
+            isinstance(observation, dict)
+            and set(observation) == run_keys
             and all(
-                isinstance(path, str) and _phase2_path_parts(path) is not None
-                for path in paths
+                isinstance(paths, list)
+                and paths == sorted(set(paths))
+                and all(
+                    isinstance(path, str) and _phase2_path_parts(path) is not None
+                    for path in paths
+                )
+                for paths in observation.values()
             )
-            for paths in second_run.values()
         )
-    )
+
     if (
         not valid_nonselected(nonselected_before)
         or not valid_nonselected(nonselected_after)
         or dict(nonselected_after) != _nonselected_detail_hashes(context)
-        or not valid_second_run
+        or not valid_run(first_run)
+        or not valid_run(second_run)
     ):
         raise Phase2LoadError(
             "generated-observation-invalid",
@@ -1286,10 +1296,142 @@ def build_phase2_generated_manifest(
         "allowedWrites": allowed_writes,
         "nonselectedBefore": dict(nonselected_before),
         "nonselectedAfter": dict(nonselected_after),
+        "firstRun": {
+            key: list(first_run[key])
+            for key in ("changedPaths", "mtimeChangedPaths")
+        },
         "secondRun": {
             key: list(second_run[key])
             for key in ("changedPaths", "mtimeChangedPaths")
         },
+    }
+
+
+def _phase2_generated_observation_projection(manifest: dict) -> dict:
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2-generated-observation",
+        "batch": manifest.get("batch"),
+        "selectedSlugs": manifest.get("selectedSlugs"),
+        "allowedWrites": manifest.get("allowedWrites"),
+        "nonselectedBefore": manifest.get("nonselectedBefore"),
+        "nonselectedAfter": manifest.get("nonselectedAfter"),
+        "firstRun": manifest.get("firstRun"),
+        "secondRun": manifest.get("secondRun"),
+        "detailFiles": manifest.get("detailFiles"),
+        "index": manifest.get("index"),
+        "detailFileCount": manifest.get("detailFileCount"),
+        "detailTreeSha256": manifest.get("detailTreeSha256"),
+    }
+
+
+def _phase2_generated_snapshot(
+    context: BatchContext,
+) -> tuple[dict[str, bytes], dict[str, int]]:
+    paths = sorted(
+        [
+            *(context.repo_root / context.generated_root).glob("*.json"),
+            context.repo_root / "data" / "concepts-index.json",
+        ],
+        key=lambda item: item.relative_to(context.repo_root).as_posix(),
+    )
+    paths = [path for path in paths if path.is_file()]
+    return (
+        {
+            path.relative_to(context.repo_root).as_posix(): path.read_bytes()
+            for path in paths
+        },
+        {
+            path.relative_to(context.repo_root).as_posix(): path.stat().st_mtime_ns
+            for path in paths
+        },
+    )
+
+
+def _phase2_snapshot_delta(
+    before: tuple[dict[str, bytes], dict[str, int]],
+    after: tuple[dict[str, bytes], dict[str, int]],
+) -> dict[str, list[str]]:
+    before_bytes, before_mtimes = before
+    after_bytes, after_mtimes = after
+    return {
+        "changedPaths": sorted(
+            path
+            for path in set(before_bytes) | set(after_bytes)
+            if before_bytes.get(path) != after_bytes.get(path)
+        ),
+        "mtimeChangedPaths": sorted(
+            path
+            for path in set(before_mtimes) | set(after_mtimes)
+            if before_mtimes.get(path) != after_mtimes.get(path)
+        ),
+    }
+
+
+def run_phase2_generated_observation_workflow(
+    repo_root: Path, batch_id: str
+) -> dict:
+    """Run the gated scoped build twice and return its sealable observation."""
+    assignment_path = Path(
+        "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    )
+    context = load_phase2_batch(repo_root, assignment_path, batch_id)
+    preflight_findings = validate_phase2_batch(
+        context,
+        check_source_hashes=False,
+        check_generated=False,
+    )
+    errors = [finding for finding in preflight_findings if finding.severity == "error"]
+    if errors:
+        first = errors[0]
+        raise Phase2LoadError(first.code, first.path, first.message)
+
+    import build_concepts as concept_builder
+
+    pre_nonselected = _nonselected_detail_hashes(context)
+    pre_snapshot = _phase2_generated_snapshot(context)
+    concept_builder.build_selected_concepts(
+        context.batch["slugs"],
+        src_dir=context.repo_root / "vault" / "concepts",
+        out_dir=context.repo_root / context.generated_root,
+        index_path=context.repo_root / "data" / "concepts-index.json",
+    )
+    post_nonselected = _nonselected_detail_hashes(context)
+    post_snapshot = _phase2_generated_snapshot(context)
+    concept_builder.build_selected_concepts(
+        context.batch["slugs"],
+        src_dir=context.repo_root / "vault" / "concepts",
+        out_dir=context.repo_root / context.generated_root,
+        index_path=context.repo_root / "data" / "concepts-index.json",
+    )
+    second_snapshot = _phase2_generated_snapshot(context)
+    first_run = _phase2_snapshot_delta(pre_snapshot, post_snapshot)
+    second_run = _phase2_snapshot_delta(post_snapshot, second_snapshot)
+    if pre_nonselected != post_nonselected:
+        raise Phase2LoadError(
+            "generated-unrelated-write",
+            context.generated_root.as_posix(),
+            "The scoped build changed a nonselected detail.",
+        )
+    if second_run["changedPaths"] or second_run["mtimeChangedPaths"]:
+        raise Phase2LoadError(
+            "generated-non-idempotent",
+            "data",
+            "The actual second scoped build changed bytes or mtimes.",
+        )
+    manifest = build_phase2_generated_manifest(
+        context.repo_root,
+        batch_id,
+        nonselected_before=pre_nonselected,
+        nonselected_after=post_nonselected,
+        first_run=first_run,
+        second_run=second_run,
+    )
+    return {
+        "manifest": manifest,
+        "observationSha256": _canonical_sha256(
+            _phase2_generated_observation_projection(manifest)
+        ),
     }
 
 
@@ -1725,12 +1867,36 @@ def validate_phase2_batch(
             checked = _read_phase2_json(
                 context.repo_root / manifest_path, manifest_path
             )
+            observation_digest = _canonical_sha256(
+                _phase2_generated_observation_projection(checked)
+            )
+            trusted_observation = (
+                TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256.get(
+                    context.batch["id"]
+                )
+            )
+            if (
+                not isinstance(trusted_observation, str)
+                or SHA256_RE.fullmatch(trusted_observation) is None
+                or trusted_observation != observation_digest
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-observation-untrusted",
+                        manifest_path.as_posix(),
+                        "Generated observations do not match the code-owned review seal.",
+                    )
+                )
+            current_nonselected = _nonselected_detail_hashes(context)
+            empty_run = {"changedPaths": [], "mtimeChangedPaths": []}
             actual = build_phase2_generated_manifest(
                 context.repo_root,
                 context.batch["id"],
-                nonselected_before=checked.get("nonselectedBefore"),
-                nonselected_after=checked.get("nonselectedAfter"),
-                second_run=checked.get("secondRun"),
+                nonselected_before=current_nonselected,
+                nonselected_after=current_nonselected,
+                first_run=empty_run,
+                second_run=empty_run,
             )
             if checked.get("nonselectedBefore") != checked.get("nonselectedAfter"):
                 findings.append(
@@ -1739,6 +1905,28 @@ def validate_phase2_batch(
                         "generated-unrelated-write",
                         manifest_path.as_posix(),
                         "Nonselected detail observations changed across the scoped build.",
+                    )
+                )
+            first_run = checked.get("firstRun")
+            allowed_writes = checked.get("allowedWrites")
+            if (
+                not isinstance(first_run, dict)
+                or not isinstance(allowed_writes, list)
+                or any(
+                    not isinstance(paths, list)
+                    or not set(paths).issubset(set(allowed_writes))
+                    for paths in (
+                        first_run.get("changedPaths"),
+                        first_run.get("mtimeChangedPaths"),
+                    )
+                )
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-manifest-mismatch",
+                        manifest_path.as_posix(),
+                        "First-run observations exceed the permitted write set.",
                     )
                 )
             second_run = checked.get("secondRun")
@@ -1755,7 +1943,18 @@ def validate_phase2_batch(
                         "Second-run bytes or mtimes changed.",
                     )
                 )
-            if checked != actual:
+            current_fields = {
+                "schemaVersion",
+                "kind",
+                "batch",
+                "selectedSlugs",
+                "detailFiles",
+                "index",
+                "detailFileCount",
+                "detailTreeSha256",
+                "allowedWrites",
+            }
+            if any(checked.get(field) != actual.get(field) for field in current_fields):
                 findings.append(
                     Finding(
                         "error",

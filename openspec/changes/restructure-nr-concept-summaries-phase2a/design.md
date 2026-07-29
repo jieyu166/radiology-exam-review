@@ -259,6 +259,18 @@ validator 可機械驗證宣告的順序、identity inequality、predecessor 狀
 
 替代方案：只比較 10 個 selected JSON。拒絕，因為 index 或非 selected detail 的遺失、增添或漂移仍可讓網站 corpus 不一致。
 
+Generated observations use a second central, code-owned trust registry,
+`TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256`, with exactly one canonical
+observation-projection digest per active batch. The projection is produced only
+after assignment, baseline, evidence, and baseline-trust gates pass; it binds
+the actual pre-build snapshot, first scoped build delta, post-build snapshot,
+actual second-run byte/mtime delta, and final generated tree. Batch validation
+derives the current output state independently and compares the projection with
+this code-owned digest; checked manifest fields cannot authenticate themselves.
+The registry is intentionally empty and fail-closed in Task 1.1. The independent
+reviewers in Tasks 2.3, 3.3, and 4.3 seal their respective batch digest only
+after reviewing the genuine two-run workflow.
+
 ## Implementation Contract
 
 ### 狀態與資料不變量
@@ -270,6 +282,13 @@ validator 可機械驗證宣告的順序、identity inequality、predecessor 狀
 - note `verified` 的必要且充分條件為：source hash / lossless lock / structure / footnotes / source definitions / fact coverage / generated keyPoints 全通過、`newUnsupportedFacts=0`、沒有 unresolved fact，且 review approved。任何 manual-review/research-needed fact 都讓該 note 保持相應非 verified status。
 - batch `verified` 必須每個 note verified、manual queue 空、review approved、generated/lint gate 通過。若沒有 validation error 但 derived manual queue 非空，batch 為 `needs-review`；若有 validation error，不能用 `needs-review` 掩蓋，CLI 必須 nonzero。
 - 新醫學事實不得只靠 Summary 文字或弱既有連結；必須附 article/chapter footnote、sourceDefinitions 與實際 rendered footnote。遇到不可存取的 authenticated source，記錄 `research-needed`，請使用者登入並保留可讀頁面；不得接觸 credential 或繞過限制。
+
+- Generated-output acceptance MUST require the code-owned per-batch
+  `TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256` digest. A trusted observation
+  is produced only by the gated two-run workflow; missing trust, a self-attested
+  no-build manifest, or a digest mismatch fails before generated output can be
+  accepted. Task 1.1 leaves the registry empty; Tasks 2.3, 3.3, and 4.3 seal one
+  independently reviewed digest for their corresponding active batch.
 
 ### Stable failure modes
 

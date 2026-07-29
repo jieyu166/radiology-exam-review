@@ -657,6 +657,7 @@ def phase2_manifest_observations(
             else nonselected_before
         ),
         "nonselected_after": current_nonselected,
+        "first_run": {"changedPaths": [], "mtimeChangedPaths": []},
         "second_run": {"changedPaths": [], "mtimeChangedPaths": []},
     }
 
@@ -922,27 +923,33 @@ def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
         assignment_path, baseline_digest = write_phase2_api_fixture(root)
-        manifest = audit.build_phase2_generated_manifest(
-            root,
-            "batch-01-anatomy",
-            **phase2_manifest_observations(root),
-        )
-        manifest_path = (
-            root
-            / "docs"
-            / "reports"
-            / "nr-summary-rewrite"
-            / "phase2a"
-            / "generated"
-            / "batch-01-anatomy.json"
-        )
-        manifest_path.parent.mkdir(parents=True)
-        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
         original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        original_observation_trust = (
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+        )
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
             "batch-01-anatomy": baseline_digest
         }
         try:
+            workflow = audit.run_phase2_generated_observation_workflow(
+                root, "batch-01-anatomy"
+            )
+            manifest_path = (
+                root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / "phase2a"
+                / "generated"
+                / "batch-01-anatomy.json"
+            )
+            manifest_path.parent.mkdir(parents=True)
+            manifest_path.write_text(
+                json.dumps(workflow["manifest"]), encoding="utf-8"
+            )
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+                "batch-01-anatomy": workflow["observationSha256"]
+            }
             common = [
                 "--repo-root",
                 str(root),
@@ -983,6 +990,9 @@ def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:
             }
         finally:
             audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+                original_observation_trust
+            )
 
     assert baseline_exit == batch_exit == 0
     assert baseline_output.getvalue() == batch_output.getvalue() == "[]\n"
@@ -1428,6 +1438,143 @@ def test_phase2_statuses_are_closed_and_exactly_derived_from_dispositions() -> N
                 audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
 
         assert "phase2-evidence-schema" in codes, (field, value, codes)
+
+
+def test_phase2_self_attested_no_build_manifest_is_untrusted() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        manifest = audit.build_phase2_generated_manifest(
+            root,
+            "batch-01-anatomy",
+            **phase2_manifest_observations(root),
+        )
+        manifest_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "generated"
+            / "batch-01-anatomy.json"
+        )
+        manifest_path.parent.mkdir(parents=True)
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context,
+                    check_source_hashes=False,
+                    check_generated=True,
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_baseline_trust
+
+    assert "generated-observation-untrusted" in codes
+
+
+def test_phase2_gated_two_run_workflow_produces_trusted_observation() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        original_observation_trust = getattr(
+            audit, "TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256", None
+        )
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            result = audit.run_phase2_generated_observation_workflow(
+                root, "batch-01-anatomy"
+            )
+            manifest = result["manifest"]
+            manifest_path = (
+                root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / "phase2a"
+                / "generated"
+                / "batch-01-anatomy.json"
+            )
+            manifest_path.parent.mkdir(parents=True)
+            manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+                "batch-01-anatomy": result["observationSha256"]
+            }
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            findings = audit.validate_phase2_batch(
+                context,
+                check_source_hashes=False,
+                check_generated=True,
+            )
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_baseline_trust
+            if (
+                original_observation_trust is None
+                and hasattr(audit, "TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256")
+            ):
+                delattr(audit, "TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256")
+            elif original_observation_trust is not None:
+                audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+                    original_observation_trust
+                )
+
+    assert manifest["firstRun"]["changedPaths"]
+    assert manifest["secondRun"] == {
+        "changedPaths": [],
+        "mtimeChangedPaths": [],
+    }
+    assert findings == []
+
+
+def test_phase2_two_run_workflow_fails_before_write_when_trust_gate_fails() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        write_phase2_api_fixture(root)
+        before = {
+            path.relative_to(root).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted(root.rglob("*"))
+            if path.is_file()
+        }
+        original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {}
+        try:
+            audit.run_phase2_generated_observation_workflow(
+                root, "batch-01-anatomy"
+            )
+        except audit.Phase2LoadError as error:
+            failure_code = error.code
+        else:
+            failure_code = None
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_baseline_trust
+        after = {
+            path.relative_to(root).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted(root.rglob("*"))
+            if path.is_file()
+        }
+
+    assert failure_code == "phase2-trusted-batch-lock-mismatch"
+    assert after == before
 
 
 def test_phase2_assignment_path_attack_cli_is_relocation_stable() -> None:

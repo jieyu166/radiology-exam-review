@@ -64,6 +64,20 @@ For each completed Phase 2A batch, the evidence workflow SHALL create a determin
 
 Before and after that batch's scoped build, validation SHALL compare the paths and byte hashes of every nonselected detail file. Any added, missing, or byte-changed nonselected detail file SHALL fail the batch gate with `generated-manifest-mismatch`, identify the changed path or paths, and prevent the batch from being marked generated-output verified. The validation SHALL allow later batches to change their own selected files; it SHALL not reinterpret those authorized later writes as a failure of an earlier batch's historical scope check.
 
+The system MUST obtain generated observations through a gated two-run workflow:
+validate assignment, baseline, evidence, and the code-owned baseline trust
+before any write; capture pre-build bytes and mtimes; execute the scoped build;
+capture post-build state; execute the same scoped build again; and compare the
+second-run bytes and mtimes. A canonical projection of those observations MUST
+match the corresponding entry in the central, code-owned
+`TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256` registry. The registry SHALL
+contain at most one digest per active batch and SHALL be independent of mutable
+manifest/evidence fields. It is empty and fail-closed in Task 1.1; the
+independent reviewers in Tasks 2.3, 3.3, and 4.3 SHALL seal their batch entry
+only after reviewing the genuine two-run result. A no-build manifest that
+copies current hashes into pre/post fields or claims an empty second run MUST
+fail generated-output acceptance.
+
 #### Scenario: Unrelated detail drift fails a batch gate
 
 - **GIVEN** `batch-01-anatomy` selects ten anatomy slugs and a build or concurrent edit changes `data/concepts/gbm-vs-pcnsl.json`
