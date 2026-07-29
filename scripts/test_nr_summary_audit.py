@@ -4,10 +4,11 @@ Run directly with ``python scripts/test_nr_summary_audit.py``; no test runner
 or third-party dependency is required.
 """
 
+import hashlib
 import io
 import json
 import tempfile
-from contextlib import redirect_stdout
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 
 import nr_summary_audit as audit
@@ -34,6 +35,18 @@ PILOT_SLUGS = (
     "craniopharyngioma",
     "dementia-neuroimaging-overview",
 )
+PILOT_TYPES = {
+    "acute-stroke-management": "anatomy-measurement-management",
+    "artery-of-adamkiewicz": "anatomy-measurement-management",
+    "aspects-score": "anatomy-measurement-management",
+    "basal-ganglia-t1-shortening": "pattern-ddx",
+    "bilateral-subcortical-dwi-hyperintensity-ddx": "pattern-ddx",
+    "cerebral-amyloid-angiopathy": "disease",
+    "clippers": "disease",
+    "cpa-masses": "pattern-ddx",
+    "craniopharyngioma": "disease",
+    "dementia-neuroimaging-overview": "pattern-ddx",
+}
 
 
 def make_nr_note(slug: str) -> audit.NoteRecord:
@@ -67,6 +80,303 @@ def make_pilot_inventory() -> tuple[dict, dict[str, audit.NoteRecord]]:
         "notes": [make_inventory_entry(notes[slug]) for slug in PILOT_SLUGS],
     }
     return inventory, notes
+
+
+def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
+    note = make_nr_note("demo")
+    return {
+        "schemaVersion": 1,
+        "batch": "batch-00",
+        "scope": "NR",
+        "status": "baseline",
+        "notes": [
+            {
+                "slug": "demo",
+                "type": "disease",
+                "originalSha256": note.sha256,
+                "originalSummary": "## Summary\n- **Label**: Demo fact.[^1]\n[^1]: Example.\n",
+                "factUnits": [
+                    {
+                        "id": "demo-f01",
+                        "text": "Demo fact.",
+                        "sourceRefs": ["1"] if source_refs is None else source_refs,
+                        "disposition": "pending",
+                    }
+                ],
+                "sourceStatus": "existing-sufficient",
+                "status": "pending",
+                "rewrittenSummary": "",
+                "validation": {
+                    "hashMatches": True,
+                    "losslessSummaryMatches": True,
+                    "allSourceRefsDefined": True,
+                    "factCount": 1,
+                    "pendingFactCount": 1,
+                    "researchNeededFactIds": [],
+                    "manualReviewFactIds": [],
+                    "newUnsupportedFacts": 0,
+                },
+            }
+        ],
+    }
+
+
+def test_evidence_rejects_unmapped_or_unresolved_fact_units() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["notes"][0]["factUnits"] = [
+        {
+            "id": "demo-f01",
+            "text": "DWI high signal",
+            "sourceRefs": [],
+            "disposition": "covered",
+        }
+    ]
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    codes = {finding.code for finding in findings}
+    assert "fact-source-missing" in codes
+
+
+def test_evidence_rejects_source_ref_not_defined_in_note() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture(source_refs=["missing"])
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    assert "fact-source-undefined" in {finding.code for finding in findings}
+
+
+def test_evidence_rejects_invalid_root_membership_hash_and_snapshot() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["schemaVersion"] = 2
+    report["batch"] = "batch-01"
+    report["scope"] = "ABD"
+    report["status"] = "verified"
+    report["notes"][0]["originalSha256"] = "0" * 64
+    report["notes"][0]["originalSummary"] = "changed"
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    codes = {finding.code for finding in findings}
+    assert {
+        "evidence-schema-version",
+        "evidence-batch",
+        "evidence-scope",
+        "evidence-status",
+        "evidence-batch-membership",
+        "evidence-hash-mismatch",
+        "evidence-summary-mismatch",
+    } <= codes
+
+
+def test_evidence_rejects_malformed_note_and_fact_schema_without_raising() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["notes"].extend(
+        [
+            None,
+            {"slug": "broken"},
+            {
+                "slug": "demo",
+                "type": "disease",
+                "originalSha256": nr_demo.sha256,
+                "originalSummary": nr_demo.original_summary,
+                "factUnits": [None],
+                "sourceStatus": "existing-sufficient",
+                "status": "pending",
+                "rewrittenSummary": "",
+                "validation": {},
+            },
+        ]
+    )
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    codes = {finding.code for finding in findings}
+    assert {"evidence-note-schema", "fact-schema", "evidence-duplicate-slug"} <= codes
+
+
+def test_evidence_rejects_invalid_fact_identity_text_disposition_and_refs() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["notes"][0]["factUnits"] = [
+        {
+            "id": "wrong-f01",
+            "text": "",
+            "sourceRefs": "1",
+            "disposition": "unknown",
+        },
+        {
+            "id": "wrong-f01",
+            "text": "Second fact.",
+            "sourceRefs": ["1"],
+            "disposition": "pending",
+        },
+    ]
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    codes = {finding.code for finding in findings}
+    assert {
+        "fact-id",
+        "fact-id-duplicate",
+        "fact-text",
+        "fact-source-refs",
+        "fact-disposition",
+    } <= codes
+
+
+def test_evidence_requires_research_status_for_explicitly_unresolved_fact() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["notes"][0]["factUnits"][0]["sourceRefs"] = []
+    report["notes"][0]["factUnits"][0]["disposition"] = "research-needed"
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    assert "evidence-source-status" in {finding.code for finding in findings}
+
+
+def test_evidence_rejects_stale_validation_metadata_and_nonsequential_ids() -> None:
+    nr_demo = make_nr_note("demo")
+    report = batch_report_fixture()
+    report["notes"][0]["factUnits"][0]["id"] = "demo-f02"
+    report["notes"][0]["validation"]["factCount"] = 2
+    findings = audit.validate_evidence(report, {"demo": nr_demo})
+    codes = {finding.code for finding in findings}
+    assert {"fact-id-sequence", "evidence-validation"} <= codes
+
+
+def test_validate_batch_cli_requires_allow_pending_for_baseline() -> None:
+    summary_snapshot = "## Summary\n- **Label**: Demo fact.[^1]\n[^1]: Example.\n"
+    source_hash = hashlib.sha256(NR_DEMO_TEXT.encode("utf-8")).hexdigest()
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        concepts = root / "vault" / "concepts"
+        report_dir = root / "docs" / "reports" / "nr-summary-rewrite"
+        concepts.mkdir(parents=True)
+        report_dir.mkdir(parents=True)
+
+        inventory_notes = []
+        evidence_notes = []
+        for slug in PILOT_SLUGS:
+            note_path = concepts / f"{slug}.md"
+            note_path.write_text(NR_DEMO_TEXT, encoding="utf-8", newline="")
+            inventory_notes.append(
+                {
+                    "slug": slug,
+                    "path": f"vault/concepts/{slug}.md",
+                    "batch": "batch-00",
+                }
+            )
+            evidence_notes.append(
+                {
+                    "slug": slug,
+                    "type": PILOT_TYPES[slug],
+                    "originalSha256": source_hash,
+                    "originalSummary": summary_snapshot,
+                    "factUnits": [
+                        {
+                            "id": f"{slug}-f01",
+                            "text": "Demo fact.",
+                            "sourceRefs": ["1"],
+                            "disposition": "pending",
+                        }
+                    ],
+                    "sourceStatus": "existing-sufficient",
+                    "status": "pending",
+                    "rewrittenSummary": "",
+                    "validation": {
+                        "hashMatches": True,
+                        "losslessSummaryMatches": True,
+                        "allSourceRefsDefined": True,
+                        "factCount": 1,
+                        "pendingFactCount": 1,
+                        "researchNeededFactIds": [],
+                        "manualReviewFactIds": [],
+                        "newUnsupportedFacts": 0,
+                    },
+                }
+            )
+
+        (report_dir / "inventory.json").write_text(
+            json.dumps({"notes": inventory_notes}),
+            encoding="utf-8",
+        )
+        batch_path = report_dir / "batch-00.json"
+        batch_path.write_text(
+            json.dumps(
+                {
+                    "schemaVersion": 1,
+                    "batch": "batch-00",
+                    "scope": "NR",
+                    "status": "baseline",
+                    "notes": evidence_notes,
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        allowed_output = io.StringIO()
+        try:
+            with redirect_stdout(allowed_output), redirect_stderr(allowed_output):
+                allowed_exit = audit.main(
+                    ["validate-batch", str(batch_path), "--allow-pending"]
+                )
+        except SystemExit as error:
+            allowed_exit = error.code
+        blocked_output = io.StringIO()
+        with redirect_stdout(blocked_output):
+            blocked_exit = audit.main(["validate-batch", str(batch_path)])
+
+    assert allowed_exit == 0
+    assert "Batch notes: 10" in allowed_output.getvalue()
+    assert "Missing sources: 0" in allowed_output.getvalue()
+    assert blocked_exit == 1
+    assert "fact-pending" in blocked_output.getvalue()
+
+
+def test_validate_batch_cli_handles_invalid_json_without_raising() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path = Path(directory) / "batch-00.json"
+        batch_path.write_text("{", encoding="utf-8")
+        output = io.StringIO()
+        try:
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    ["validate-batch", str(batch_path), "--allow-pending"]
+                )
+        except SystemExit as error:
+            exit_code = error.code
+    assert exit_code == 1
+    assert "evidence-json-invalid" in output.getvalue()
+
+
+def test_parse_note_hashes_exact_source_bytes() -> None:
+    payload = NR_DEMO_TEXT.replace("\n", "\r\n").encode("utf-8")
+    with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory) / "demo.md"
+        path.write_bytes(payload)
+        note = audit.parse_note(path)
+    assert note.sha256 == hashlib.sha256(payload).hexdigest()
+
+
+def test_note_preserves_lossless_summary_snapshot() -> None:
+    text = (
+        "---\nconcepts: [demo]\nsubspecialty: [NR]\n---\n"
+        "## Summary — first\n"
+        "- **Label**: First fact.[^1]\n"
+        "\n"
+        "## Body\n"
+        "Body text.\n"
+        "\n"
+        "## Summary — second\n"
+        "- **Label**: Second fact.[^1]\n"
+        "\n"
+        "## References\n"
+        "[^1]: Example.\n"
+    )
+    note = audit.parse_note_text(Path("demo.md"), text)
+    expected = (
+        "## Summary — first\n"
+        "- **Label**: First fact.[^1]\n"
+        "\n"
+        "## Summary — second\n"
+        "- **Label**: Second fact.[^1]\n"
+        "\n"
+    )
+    assert getattr(note, "original_summary", None) == expected
 
 
 def test_summary_variants_are_extracted() -> None:
@@ -410,6 +720,17 @@ def test_inventory_cli_generates_and_checks_deterministically() -> None:
 
 
 def run_smoke() -> None:
+    test_evidence_rejects_unmapped_or_unresolved_fact_units()
+    test_evidence_rejects_source_ref_not_defined_in_note()
+    test_evidence_rejects_invalid_root_membership_hash_and_snapshot()
+    test_evidence_rejects_malformed_note_and_fact_schema_without_raising()
+    test_evidence_rejects_invalid_fact_identity_text_disposition_and_refs()
+    test_evidence_requires_research_status_for_explicitly_unresolved_fact()
+    test_evidence_rejects_stale_validation_metadata_and_nonsequential_ids()
+    test_validate_batch_cli_requires_allow_pending_for_baseline()
+    test_validate_batch_cli_handles_invalid_json_without_raising()
+    test_parse_note_hashes_exact_source_bytes()
+    test_note_preserves_lossless_summary_snapshot()
     test_summary_variants_are_extracted()
     test_non_nr_note_is_not_in_scope()
     test_validator_rejects_unlabeled_and_undefined_footnote()

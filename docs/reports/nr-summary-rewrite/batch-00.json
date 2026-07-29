@@ -1,0 +1,2137 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-00",
+  "scope": "NR",
+  "status": "baseline",
+  "notes": [
+    {
+      "slug": "acute-stroke-management",
+      "type": "anatomy-measurement-management",
+      "originalSha256": "e12b6ea4ff0198ccd081f7089550a1242bcb9b6c3041eb7651a629444f3a981b",
+      "originalSummary": "## Summary — 治療\n- **符合條件者應給 IV r-tPA，即使同時考慮血管內治療**（Class I, LOE A）→ **不可為避免延遲而跳過 tPA**。[^1]\n- **不需先觀察 tPA 反應**再進行血管內治療（觀察反應「非必要、不建議」，Class III, LOE B-R）。[^1]\n- **Stent retriever 取栓優先於 intra-arterial fibrinolysis**（IA fibrinolysis 屬次線）。[^1]\n- **技術目標：reperfusion 達 mTICI 2b/3**（Class I, LOE A），且應**儘早、發病 6 小時內**（6 小時後臨床效益顯著下降）。[^1]\n- **rt-PA 對近端大血管血栓再通率低**：靜脈 rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**（近端 ICA 更低），效果欠佳——這正是需以機械取栓（EVT）補強的核心理由，故「rt-PA 效用不因血管大小而異、大血栓也很好」的敘述為錯（支撐 2021-273）。[^1][^7]\n\n## Summary — 影像\n- **NECT 在多數情況即可提供緊急處置所需資訊**（Class I, LOE A）。[^1]\n- **若考慮血管內治療，強烈建議非侵入性顱內血管攝影（CTA/MRA）**，但**不得延遲 IV r-tPA**。[^1]\n- **CT/MR perfusion 用於『選擇』血管內治療病人之效益『未確立（unknown）』（Class IIb, LOE C）** → **不可說 perfusion 已證實優於 CTA/MRA**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "acute-stroke-management-f01",
+          "text": "Under the 2015 AHA/ASA focused update, eligible patients should receive IV r-tPA even when endovascular treatment is also considered; Class I, level of evidence A.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f02",
+          "text": "Under the 2015 AHA/ASA focused update, IV r-tPA must not be skipped merely to avoid delaying endovascular treatment.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f03",
+          "text": "Under the 2015 AHA/ASA focused update, clinicians need not observe the response to tPA before proceeding to endovascular treatment.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f04",
+          "text": "Observing the tPA response before endovascular treatment is unnecessary and not recommended; Class III, level of evidence B-R in the 2015 update.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f05",
+          "text": "Under the 2015 update, stent-retriever thrombectomy is preferred to intra-arterial fibrinolysis.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f06",
+          "text": "Under the 2015 update, intra-arterial fibrinolysis is a second-line option relative to stent-retriever thrombectomy.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f07",
+          "text": "The 2015 technical reperfusion target is mTICI 2b or 3; Class I, level of evidence A.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f08",
+          "text": "The 2015 recommendation was to achieve reperfusion as early as possible and within 6 hours of onset.",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f09",
+          "text": "The original Summary states that clinical benefit declines substantially after 6 hours.",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f10",
+          "text": "Early recanalization after IV rt-PA for proximal ICA or MCA M1 large thrombi is only approximately 10-30%.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "acute-stroke-management-f11",
+          "text": "Early recanalization after IV rt-PA is even lower for proximal ICA thrombus.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "acute-stroke-management-f12",
+          "text": "The poor IV rt-PA response of proximal large-vessel thrombi is a core rationale for mechanical thrombectomy or EVT.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "acute-stroke-management-f13",
+          "text": "The claim that rt-PA efficacy does not vary with vessel or thrombus size and works well for large thrombi is false.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "acute-stroke-management-f14",
+          "text": "Under the 2015 update, NECT provides the information required for emergency management in most circumstances; Class I, level of evidence A.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f15",
+          "text": "Under the 2015 update, noninvasive intracranial vascular imaging with CTA or MRA is strongly recommended when endovascular treatment is considered.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f16",
+          "text": "CTA or MRA acquisition must not delay IV r-tPA.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f17",
+          "text": "The 2015 update classified the benefit of CT or MR perfusion for selecting endovascular-treatment patients as unknown; Class IIb, level of evidence C.",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "acute-stroke-management-f18",
+          "text": "The 2015 evidence did not establish perfusion imaging as superior to CTA or MRA for endovascular selection.",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "research-needed"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 18,
+        "pendingFactCount": 4,
+        "researchNeededFactIds": [
+          "acute-stroke-management-f01",
+          "acute-stroke-management-f02",
+          "acute-stroke-management-f03",
+          "acute-stroke-management-f04",
+          "acute-stroke-management-f05",
+          "acute-stroke-management-f06",
+          "acute-stroke-management-f07",
+          "acute-stroke-management-f08",
+          "acute-stroke-management-f09",
+          "acute-stroke-management-f14",
+          "acute-stroke-management-f15",
+          "acute-stroke-management-f16",
+          "acute-stroke-management-f17",
+          "acute-stroke-management-f18"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "artery-of-adamkiewicz",
+      "type": "anatomy-measurement-management",
+      "originalSha256": "e55ed8842ab70e3c442bc92a8d4f7608ab919a11aadf49684dae9e815008a811",
+      "originalSummary": "## Summary\n- **角色**：胸腰段**主要前段髓質動脈**,加強前脊髓動脈供應下段脊髓(option A 對)。[^1]\n- **特徵形態**：與前脊髓動脈吻合處呈**『hairpin（髮夾）轉折』**;故「**coathook configuration**」**錯誤**＝題目正解（2016-169 正解 B）。[^1]\n- **分支**：hairpin 含一小**升支**與主要**降支**至前脊髓動脈(option C 對)。[^1]\n- **起源**：**左側佔多（~77%）、T9–T12 最常見**（整體 T8–L1;範圍 T3–L4）(option D 對)。[^1]\n\n> [!note] 考點：Adamkiewicz 動脈何者「錯」?\n> 「**coathook configuration**」錯——特徵是 **hairpin（髮夾）轉折**。主要前段髓質動脈、升降支、左側 T9–T12 為主皆對。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "artery-of-adamkiewicz-f01",
+          "text": "The artery of Adamkiewicz is the major anterior radiculomedullary artery of the thoracolumbar cord.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f02",
+          "text": "The artery of Adamkiewicz reinforces the anterior spinal artery supply to the lower spinal cord; this makes option A correct.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f03",
+          "text": "The Adamkiewicz-anterior spinal artery anastomosis forms a hairpin turn.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f04",
+          "text": "Calling the Adamkiewicz configuration a coathook is incorrect and is the correct answer B for question 2016-169.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f05",
+          "text": "The Adamkiewicz hairpin contains a small ascending branch and a main descending branch to the anterior spinal artery; this makes option C correct.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f06",
+          "text": "The artery of Adamkiewicz arises on the left in approximately 77% of cases.",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f07",
+          "text": "T9-T12 is the most common origin range for the artery of Adamkiewicz.",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f08",
+          "text": "The overall common origin span is T8-L1.",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f09",
+          "text": "The full reported origin range is T3-L4.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "artery-of-adamkiewicz-f10",
+          "text": "The left-sided T9-T12 predominance makes option D correct.",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 10,
+        "pendingFactCount": 8,
+        "researchNeededFactIds": [
+          "artery-of-adamkiewicz-f05",
+          "artery-of-adamkiewicz-f09"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "aspects-score",
+      "type": "anatomy-measurement-management",
+      "originalSha256": "f7cfdb3fe6ebdb0a07e5d2b42088e0fab0bde33d2b2391892a8c7de87d79f0d9",
+      "originalSummary": "## Summary\n- **設計緣由**：ASPECTS 誕生前，急性中風 CT 判讀常用「MCA 領域是否 >1/3 受累」作為 rt-PA 排除標準，但**目視估計 1/3 MCA 領域在實務上並不可靠**；ASPECTS 以**拓樸區域計分**取代此模糊估計，僅需軸位影像即可執行。[^6]\n- **範圍 0–10 分**；用於 **MCA 區域**急性中風（另有 posterior circulation 改良版 pc-ASPECTS）。[^1]\n- **判讀技術細節**：偵測早期灰白質分界消失（GWD loss，急性梗塞最早的 CT 徵象）建議採**窄窗（stroke window）：window width 8 HU、window level 32 HU**，可提升細微 GWD 喪失之偵測；**須加看冠狀與矢狀切面**，軸位上易忽略的腦溝出血徵象在其他切面較明顯。[^6]\n- **判讀盲點（易漏診部位）**：**顱頂端**（volume averaging）、**顳葉下方**（灰白質交界呈軸向走行）、**枕葉**（顱骨不規則輪廓致偽影）、**深部灰質尤其尾狀核頭**——island、caudate、basal ganglia 因側枝血流較差，早期變化常較明顯但也易受上述陷阱干擾。[^6]\n- **計分法**：起始 10 分，**每個受累區域 −1**；故**正常 CT＝10 分**、廣泛受累趨近 0。[^1]\n- **10 個區域**：[^1][^2]\n  - **深部（3 分）**：caudate、lentiform（putamen）、internal capsule。\n  - **皮質（7 分）**：insular cortex（insular ribbon）＋ **M1–M6**。\n- **臨床意義**：ASPECTS **≤7** 預示 3 個月較差功能預後與症狀性出血風險增加。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "aspects-score-f01",
+          "text": "Before ASPECTS, acute-stroke CT interpretation used involvement of more than one third of the MCA territory as an rt-PA exclusion criterion.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f02",
+          "text": "Visual estimation of one-third MCA-territory involvement is unreliable in practice.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f03",
+          "text": "ASPECTS replaced the vague one-third estimate with topographic regional scoring.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f04",
+          "text": "ASPECTS can be performed with axial images alone.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f05",
+          "text": "ASPECTS ranges from 0 to 10 points.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f06",
+          "text": "ASPECTS is used for acute stroke in the MCA territory.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f07",
+          "text": "A posterior-circulation modification exists as pc-ASPECTS.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f08",
+          "text": "Loss of gray-white differentiation is described as the earliest CT sign of acute infarction.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f09",
+          "text": "A narrow stroke window with width 8 HU and level 32 HU is recommended to detect early gray-white differentiation loss.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f10",
+          "text": "The 8-HU width and 32-HU level stroke window improves detection of subtle gray-white differentiation loss.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f11",
+          "text": "Coronal and sagittal planes should also be reviewed.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f12",
+          "text": "Sulcal hemorrhage signs that are easily overlooked axially can be more apparent on other planes.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f13",
+          "text": "The vertex is a diagnostic blind spot because of volume averaging.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f14",
+          "text": "The inferior temporal lobe is a diagnostic blind spot because the gray-white interface runs axially.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f15",
+          "text": "The occipital lobe is a diagnostic blind spot because irregular skull contours create artifact.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f16",
+          "text": "Deep gray matter, especially the caudate head, is a diagnostic blind spot.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f17",
+          "text": "The insula, caudate, and basal ganglia have poorer collateral flow, so early changes are often conspicuous but can still be affected by interpretation pitfalls.",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f18",
+          "text": "ASPECTS starts at 10 points.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f19",
+          "text": "Each involved ASPECTS region subtracts 1 point.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f20",
+          "text": "A normal CT has ASPECTS 10.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f21",
+          "text": "Extensive MCA-territory involvement drives ASPECTS toward 0.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f22",
+          "text": "The 3 deep ASPECTS regions are the caudate, lentiform nucleus including putamen, and internal capsule.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f23",
+          "text": "The 7 cortical ASPECTS regions are the insular cortex or insular ribbon and M1 through M6.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aspects-score-f24",
+          "text": "ASPECTS at or below 7 predicts poorer functional outcome at 3 months.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "aspects-score-f25",
+          "text": "ASPECTS at or below 7 predicts increased risk of symptomatic hemorrhage.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 25,
+        "pendingFactCount": 23,
+        "researchNeededFactIds": [
+          "aspects-score-f24",
+          "aspects-score-f25"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "basal-ganglia-t1-shortening",
+      "type": "pattern-ddx",
+      "originalSha256": "df599c23d02c903b62e7233c63cd782f88f3fabba8f359852505f1f2391ab434",
+      "originalSummary": "## Summary\n- **T1縮短（高訊號）常見成因**：[^1]\n  - 鈣化（idiopathic calcification、calcium/phosphate異常）\n  - 肝衰竭（manganese沉積：acquired non-Wilsonian hepatocerebral degeneration、Wilson's disease）\n  - 毒物/缺血：一氧化碳中毒、長期全靜脈營養（parenteral nutrition，manganese）、hyperglycemia相關chorea-ballism（non-ketotic hyperglycemic hemichorea）、linear gadolinium chelate沉積、global hypoxia\n  - 出血：intracranial hemorrhage之methemoglobin、haemorrhagic infarct\n  - 其他：Japanese encephalitis、neurofibromatosis type 1之hamartoma\n- **低血糖（hypoglycemia）不屬於T1縮短病因**：造成bilateral T2/FLAIR高訊號，侵犯posterior limb of internal capsule、cerebral cortex（parieto-occipital、insula）、hippocampus與basal ganglia；restricted diffusion可為更早期敏感表現，多可回復。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "basal-ganglia-t1-shortening-f01",
+          "text": "Idiopathic calcification can cause basal-ganglia T1 shortening and high signal.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f02",
+          "text": "Calcium or phosphate abnormalities can cause basal-ganglia T1 shortening and high signal.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f03",
+          "text": "Liver failure with manganese deposition, including acquired non-Wilsonian hepatocerebral degeneration, can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f04",
+          "text": "Wilson disease is listed among liver-related manganese-deposition causes of basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f05",
+          "text": "Carbon-monoxide poisoning can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f06",
+          "text": "Long-term parenteral nutrition can cause manganese-related basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f07",
+          "text": "Hyperglycemia-related chorea-ballism, including non-ketotic hyperglycemic hemichorea, can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f08",
+          "text": "Linear gadolinium-chelate deposition can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f09",
+          "text": "Global hypoxia can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f10",
+          "text": "Methemoglobin in intracranial hemorrhage can cause T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f11",
+          "text": "Hemorrhagic infarction can cause T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f12",
+          "text": "Japanese encephalitis can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f13",
+          "text": "A hamartoma in neurofibromatosis type 1 can cause basal-ganglia T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f14",
+          "text": "Hypoglycemia is not a cause of T1 shortening.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f15",
+          "text": "Hypoglycemia instead causes bilateral T2/FLAIR hyperintensity involving the posterior limbs of the internal capsules, cerebral cortex including parieto-occipital and insular cortex, hippocampi, and basal ganglia.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f16",
+          "text": "Restricted diffusion can be an earlier sensitive manifestation of hypoglycemic injury.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basal-ganglia-t1-shortening-f17",
+          "text": "Hypoglycemic imaging abnormalities are often reversible.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "existing-sufficient",
+      "status": "pending",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 17,
+        "pendingFactCount": 17,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "bilateral-subcortical-dwi-hyperintensity-ddx",
+      "type": "pattern-ddx",
+      "originalSha256": "3bcefabc671edaa9fa251662af8b52d464fc43448574c4fd7e0cb367d6cf4376",
+      "originalSummary": "## Summary\n- **NIID**：成人型典型於雙側額-枕-頂葉皮質-髓質交界呈對稱帶狀 DWI 高訊號，為高診斷價值徵象。[^1]\n- **Canavan disease**：海綿狀退化自皮質下起始，累及皮質下 U-fibers，屬皮質下白質侵犯型。[^2]\n- **FXTAS（Fragile X 相關顫抖／共濟失調症候群）**：可有白質病變（典型中小腦腳徵象），並可出現與 NIID 相似的皮質下／胼胝體變化。[^2]\n- **Alexander disease**（本題答案「不」符合者）：額葉為主的腦白質失養症，累及深部白質、基底核、腦幹，非「雙側多灶皮質下 DWI 高訊號」型態。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f01",
+          "text": "Adult NIID classically shows bilateral frontal-occipital-parietal corticomedullary-junction DWI hyperintensity.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f02",
+          "text": "The NIID corticomedullary-junction DWI abnormality is symmetric and band-like.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f03",
+          "text": "The symmetric band-like corticomedullary-junction DWI abnormality has high diagnostic value for NIID.",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f04",
+          "text": "Canavan disease has spongiform degeneration that begins subcortically.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f05",
+          "text": "Canavan disease involves subcortical U-fibers.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f06",
+          "text": "Canavan disease is a subcortical white-matter involvement pattern.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f07",
+          "text": "FXTAS can produce white-matter disease with the classic middle cerebellar peduncle sign.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+          "text": "FXTAS can show subcortical or callosal changes similar to NIID.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+          "text": "Alexander disease is the answer that does not fit the bilateral multifocal subcortical DWI-hyperintensity pattern.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f10",
+          "text": "Alexander disease is a frontal-predominant leukodystrophy.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f11",
+          "text": "Alexander disease involves deep white matter, basal ganglia, and brainstem.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "bilateral-subcortical-dwi-hyperintensity-ddx-f12",
+          "text": "Alexander disease is not a bilateral multifocal subcortical DWI-hyperintensity pattern.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "research-needed"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 12,
+        "pendingFactCount": 3,
+        "researchNeededFactIds": [
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f04",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f05",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f06",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f07",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f10",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f11",
+          "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "cerebral-amyloid-angiopathy",
+      "type": "disease",
+      "originalSha256": "582f7b34b43571b22c33d8a99409c066abff8b6b0f6e5e85a014cdf38225ef3e",
+      "originalSummary": "## Summary\n- **族群/出血**：**正常血壓老年人**的 **lobar（皮質-皮質下）腦出血**;為老年自發性 lobar ICH 常見原因。[^1]\n- **分布**：**皮質-皮質下為主,『保留(spares)』basal ganglia 與 pons**——對比高血壓出血好發深部(基底核/視丘/腦橋,見 [[hypertensive-hemorrhage]])。β-amyloid 沉積於皮質及軟腦膜血管、好發老年。[^1][^6]\n- **微出血**：GRE/SWI 多發皮質-皮質下『**黑點(susceptibility)**』、cortical superficial siderosis。[^1]\n- **臨床**：與失智(Alzheimer 共病)相關。[^1]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 **SWI 或 GRE/T2\\*** 偵測出血標記;SWI 對微出血與含鐵血黃素的敏感度高於傳統 GRE T2\\*。微出血計數與分布判讀均建立在這類磁敏感序列上。[^2]\n- **微出血分布（最關鍵的判讀區別）**：CAA 微出血呈 **多發(≥2)、嚴格腦葉(strictly lobar)、皮質/皮質-皮質下**,且 **好發後部(後枕葉/頂葉)**;反之 **高血壓性微出血好發深部(基底核、視丘、腦幹/橋腦、小腦深部)**。看到深部微出血應優先想高血壓性微血管病而非 CAA。[^2][^3][^6]\n  - **nuance（後部優勢並非絕對）**：CAA 微出血的「後枕優勢」為群體傾向,實際分布會隨 **偵測序列（SWI vs GRE、磁場強度）與 APOE 基因型（ε4 vs ε2）** 而異,不宜作為單一病例的必要條件。[^8]\n- **皮質表面含鐵血黃素沉積(cortical superficial siderosis, cSS)**：沿腦溝/腦回表面的曲線狀(gyriform/\"tram-track\")磁敏感低訊號;依範圍分 **focal(<4 個腦溝)** 與 **disseminated(≥4 個腦溝)**;**幕下(infratentorial)cSS 與嚴重 CAA 相關**。cSS 是 CAA 高度特異的標記,也是反覆 convexity SAH 的後遺。[^2]\n- **凸面蛛網膜下出血(convexity SAH, cSAH)**：出血 **侷限於腦凸面腦溝、不在基底池(basal cisterns)**;在老年人為 CAA 的表現之一,常以暫時性局灶神經發作(transient focal neurological episodes, \"amyloid spells\")表現,並可演變為 cSS。動脈瘤性 SAH 則以基底池為中心,為重要鑑別。[^2]\n- **改良 Boston 2.0 診斷標準影像要件**(年齡 **≥50 歲**、且無其他出血原因):新增 **兩項非出血性白質標記**——(1) **半卵圓中心嚴重血管周隙擴大(>20 個 enlarged perivascular spaces / 半球)**;(2) **多斑點型白質高訊號(multispot WMH,雙側皮質下 >10 個小圓/卵圓 T2/FLAIR 高訊號)**。**Probable CAA** = 至少 **2 個嚴格腦葉出血性病灶(lobar ICH、微出血或 cSS 任意組合)**,或 **1 個腦葉出血性病灶 + 1 項白質標記**;**Possible CAA** = 僅 **1 個腦葉出血性病灶** 或僅 **1 項白質標記**。對照神經病理金標準,Probable CAA 敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA 相關發炎(CAA-related inflammation, CAA-ri)**:**不對稱、斑塊狀或融合性 T2/FLAIR 白質高訊號(血管源性水腫)**,常延伸至皮質下白質、可有腫脹/輕度佔位效應;**水腫區常重疊或鄰近多發微出血/cSS**(此空間關聯為診斷要點);**post-contrast 可見軟腦膜或腦回狀強化(但非必然)**。為類固醇可反應、臨床重要的可逆型。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微出血/微血管病**：微出血與出血 **好發深部(基底核、視丘、腦幹、小腦)**;CAA 則 **腦葉/皮質**且保留深部。分布是首要區分點。[^3]\n- **瀰漫性軸突損傷(diffuse axonal injury, DAI)**:外傷史,微出血分布於 **灰白質交界、胼胝體、腦幹背外側** 等剪力好發處,非腦葉皮質隨機散布;臨床情境(外傷)即可區分。[^2]\n- **海綿狀血管瘤(cavernoma)**:典型 **\"爆米花(popcorn)\" 混雜訊號核心 + 完整含鐵血黃素低訊號環(complete hemosiderin ring)**,可單發或多發(家族型);CAA 微出血則為均質小黑點、無爆米花核心。[^2]\n- **出血性轉移**：出血灶 **多在灰白質交界**、常有 **周邊水腫與結節狀強化**、大小不一並有原發癌病史;CAA 微出血無強化結節、無顯著病灶周圍水腫(發炎型除外)。[^2]\n\n> [!note] 考點：關於 CAA,何者「不正確」?\n> 「**主要侵犯深部灰質與腦幹**」不正確——CAA 為**皮質-皮質下(lobar)、保留深部灰質/腦幹**(深部出血屬高血壓)。老年 lobar 出血(A)、GRE 黑點(B)、合併失智(D)皆正確。[^1]\n\n### 參考來源\n[^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。\n[^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。\n[^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。\n[^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。\n[^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。\n[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。\n[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。\n[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。\n\n",
+      "factUnits": [
+        {
+          "id": "cerebral-amyloid-angiopathy-f01",
+          "text": "CAA classically affects normotensive older adults.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f02",
+          "text": "CAA causes lobar, cortical-subcortical intracerebral hemorrhage.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f03",
+          "text": "CAA is a common cause of spontaneous lobar intracerebral hemorrhage in older adults.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f04",
+          "text": "CAA predominantly involves cortical-subcortical regions and spares the basal ganglia and pons.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f05",
+          "text": "In contrast to CAA, hypertensive hemorrhage favors deep structures including the basal ganglia, thalamus, and pons.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f06",
+          "text": "CAA involves beta-amyloid deposition in cortical and leptomeningeal vessels.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f07",
+          "text": "CAA has an older-age predilection.",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f08",
+          "text": "GRE or SWI can show multiple cortical-subcortical susceptibility black dots representing microbleeds.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f09",
+          "text": "Cortical superficial siderosis is an imaging manifestation of CAA.",
+          "sourceRefs": [
+            "1",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f10",
+          "text": "CAA is associated with dementia and can coexist with Alzheimer disease.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f11",
+          "text": "SWI or GRE/T2* is used to detect hemorrhagic markers of CAA.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f12",
+          "text": "SWI is more sensitive than conventional GRE T2* for microbleeds and hemosiderin.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f13",
+          "text": "Microbleed counting and distribution assessment depend on susceptibility-sensitive sequences.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f14",
+          "text": "CAA microbleeds are typically multiple, with a threshold of at least 2.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f15",
+          "text": "CAA microbleeds are strictly lobar and cortical or cortical-subcortical.",
+          "sourceRefs": [
+            "2",
+            "3",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f16",
+          "text": "CAA microbleeds have a posterior predilection, especially in the occipital and parietal lobes.",
+          "sourceRefs": [
+            "2",
+            "3",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f17",
+          "text": "Hypertensive microbleeds favor the basal ganglia, thalamus, brainstem or pons, and deep cerebellum.",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f18",
+          "text": "Deep microbleeds should favor hypertensive small-vessel disease rather than CAA.",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f19",
+          "text": "The posterior predominance of CAA microbleeds is a population tendency rather than an absolute rule.",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f20",
+          "text": "CAA microbleed distribution varies with detection sequence, field strength, and APOE genotype including epsilon-4 versus epsilon-2.",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f21",
+          "text": "Posterior predominance should not be treated as a required criterion in an individual CAA case.",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f22",
+          "text": "Cortical superficial siderosis produces gyriform or tram-track susceptibility low signal along sulcal or gyral surfaces.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f23",
+          "text": "Cortical superficial siderosis is focal when it involves fewer than 4 sulci and disseminated when it involves at least 4 sulci.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f24",
+          "text": "Infratentorial cortical superficial siderosis is associated with severe CAA.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f25",
+          "text": "Cortical superficial siderosis is a highly specific marker of CAA.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f26",
+          "text": "Cortical superficial siderosis can be a sequela of recurrent convexity subarachnoid hemorrhage.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f27",
+          "text": "Convexity subarachnoid hemorrhage is confined to convexity sulci and does not involve the basal cisterns.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f28",
+          "text": "Convexity subarachnoid hemorrhage can be a manifestation of CAA in older adults.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f29",
+          "text": "CAA-related convexity subarachnoid hemorrhage often presents with transient focal neurological episodes called amyloid spells.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f30",
+          "text": "CAA-related convexity subarachnoid hemorrhage can evolve into cortical superficial siderosis.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f31",
+          "text": "Aneurysmal subarachnoid hemorrhage is centered in the basal cisterns and is an important differential diagnosis.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f32",
+          "text": "Modified Boston criteria version 2.0 imaging assessment applies at age at least 50 years and requires no other hemorrhage cause.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f33",
+          "text": "Boston criteria version 2.0 added two nonhemorrhagic white-matter markers.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f34",
+          "text": "One Boston 2.0 white-matter marker is severe centrum semiovale perivascular-space enlargement, defined as more than 20 spaces per hemisphere.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f35",
+          "text": "The other Boston 2.0 white-matter marker is a multispot WMH pattern with more than 10 small round or ovoid bilateral subcortical T2/FLAIR hyperintensities.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f36",
+          "text": "Probable CAA can be diagnosed with at least 2 strictly lobar hemorrhagic lesions in any combination of lobar ICH, microbleeds, or cSS.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f37",
+          "text": "Probable CAA can alternatively be diagnosed with 1 strictly lobar hemorrhagic lesion plus 1 white-matter marker.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f38",
+          "text": "Possible CAA requires only 1 strictly lobar hemorrhagic lesion or only 1 white-matter marker.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f39",
+          "text": "Against neuropathologic reference, probable CAA has approximately 74.5% sensitivity.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f40",
+          "text": "Against neuropathologic reference, probable CAA has approximately 95% specificity.",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f41",
+          "text": "CAA-related inflammation produces asymmetric patchy or confluent T2/FLAIR white-matter hyperintensity representing vasogenic edema.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f42",
+          "text": "CAA-related inflammation often extends into subcortical white matter.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f43",
+          "text": "CAA-related inflammation can cause swelling or mild mass effect.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f44",
+          "text": "In CAA-related inflammation, edema commonly overlaps or lies adjacent to multiple microbleeds or cSS; this spatial relationship is diagnostically important.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f45",
+          "text": "CAA-related inflammation can show leptomeningeal or gyral post-contrast enhancement, but enhancement is not mandatory.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f46",
+          "text": "CAA-related inflammation is a clinically important, potentially reversible, corticosteroid-responsive form.",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f47",
+          "text": "Hypertensive microbleeds and hemorrhage favor deep basal ganglia, thalamic, brainstem, and cerebellar locations.",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f48",
+          "text": "CAA instead favors lobar or cortical locations and spares deep structures.",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f49",
+          "text": "Distribution is the primary discriminator between hypertensive microangiopathy and CAA.",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f50",
+          "text": "Diffuse axonal injury is associated with a trauma history.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f51",
+          "text": "Diffuse axonal injury microbleeds favor the gray-white junction, corpus callosum, and dorsolateral brainstem shear sites.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f52",
+          "text": "Diffuse axonal injury microbleeds do not have the random lobar cortical distribution of CAA.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f53",
+          "text": "The clinical trauma context helps distinguish diffuse axonal injury from CAA.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f54",
+          "text": "A cavernoma classically has a popcorn-like mixed-signal core and a complete low-signal hemosiderin ring.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f55",
+          "text": "Cavernomas can be solitary or multiple in familial disease.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f56",
+          "text": "CAA microbleeds are homogeneous small black dots without a popcorn core.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f57",
+          "text": "Hemorrhagic metastases commonly occur at the gray-white junction.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f58",
+          "text": "Hemorrhagic metastases commonly have surrounding edema and nodular enhancement.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f59",
+          "text": "Hemorrhagic metastases vary in size and can occur in a patient with a primary cancer history.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-amyloid-angiopathy-f60",
+          "text": "CAA microbleeds lack an enhancing nodule and lack substantial perilesional edema, except in the inflammatory form.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 60,
+        "pendingFactCount": 59,
+        "researchNeededFactIds": [
+          "cerebral-amyloid-angiopathy-f10"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "clippers",
+      "type": "disease",
+      "originalSha256": "f35fe0aff8da041a9dd09e0dcdb7d6af59f2681e02c46c43377e98c01d6f773e",
+      "originalSummary": "## Summary\n- **好發部位**：以**橋腦（pons）**為主的慢性淋巴球性發炎，但**幕上侵犯也可見**，非侷限橋腦。[^1]\n- **典型MRI強化型態**：呈**點狀與曲線狀（punctate and curvilinear）**或稱**「胡椒粉狀（peppering）」強化**。[^1]\n- **典型伴隨表現**：**極少血管源性水腫(minimal vasogenic edema)**、**缺乏佔位效應(no mass effect)**——儘管顯影劑後表現顯著，病灶仍幾乎無水腫或明顯佔位效應。[^2]\n- **非典型表現**：**出血(hemorrhage)並非**CLIPPERS之典型影像表現。[^2]\n- **診斷方式（重要陷阱）**：目前**無特異性血清或CSF生物標記**可供確診；診斷需綜合臨床、影像、（必要時）病理，準則含**亞急性橋腦小腦功能障礙、類固醇治療顯著改善、無周邊神經異常、無其他替代診斷**（即排除性診斷）；好發中年、可能略偏男性。[^1][^3]\n- **治療**：對類固醇反應良好，但**停用糖皮質類固醇後常復發（disease exacerbation）**，故需**長期免疫抑制治療**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "clippers-f01",
+          "text": "CLIPPERS is a chronic lymphocytic inflammatory process predominantly involving the pons.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f02",
+          "text": "Supratentorial involvement can also occur, so CLIPPERS is not confined to the pons.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f03",
+          "text": "The typical MRI enhancement pattern is punctate and curvilinear.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f04",
+          "text": "The punctate and curvilinear enhancement pattern is also described as peppering.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f05",
+          "text": "Despite conspicuous post-contrast enhancement, typical lesions have minimal vasogenic edema.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f06",
+          "text": "Despite conspicuous post-contrast enhancement, typical lesions have no mass effect.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f07",
+          "text": "Hemorrhage is not a typical imaging manifestation of CLIPPERS.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f08",
+          "text": "There is currently no specific serum or CSF biomarker that confirms CLIPPERS.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f09",
+          "text": "Diagnosis integrates clinical and imaging findings and, when necessary, pathology.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f10",
+          "text": "The diagnostic framework includes subacute pontocerebellar dysfunction.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f11",
+          "text": "The diagnostic framework includes marked improvement with corticosteroid treatment.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f12",
+          "text": "The diagnostic framework includes absence of peripheral nervous system abnormalities.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f13",
+          "text": "The diagnostic framework requires no alternative diagnosis and is therefore exclusionary.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f14",
+          "text": "CLIPPERS most often affects middle-aged patients.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f15",
+          "text": "CLIPPERS may have a slight male predominance.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f16",
+          "text": "CLIPPERS responds well to corticosteroids.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f17",
+          "text": "Disease exacerbation commonly follows withdrawal of glucocorticoids.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "clippers-f18",
+          "text": "The tendency to relapse after glucocorticoid withdrawal creates a need for long-term immunosuppressive treatment.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "existing-sufficient",
+      "status": "pending",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 18,
+        "pendingFactCount": 18,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "cpa-masses",
+      "type": "pattern-ddx",
+      "originalSha256": "ad70bfd0e00ce2c0ead8699dcbdc19f884a9d79c9cfe4bb7bb9eb3bba04da41e",
+      "originalSummary": "## Summary\n- **Vestibular schwannoma（acoustic neuroma）**：**遠最常見（~80%）**；以**內聽道（IAC）**為中心、ice-cream-cone、強烈強化、無鈣化。[^1]\n- **Meningioma**：**第二常見（~10%）**；**硬膜基底、與骨呈鈍角、dural tail、可鈣化**、不以 IAC 為中心。[^1]\n- **Epidermoid cyst**：第三常見族群（CSF 密度/訊號但**DWI 受限**、FLAIR 不完全抑制、沿腦池**鑽縫包繞**血管神經）。[^1]\n- 其他：trigeminal / facial nerve schwannoma、ependymoma、metastasis、aneurysm。[^1]\n- **分類法（依影像）**：強化腫塊／T1 高訊號／CSF 密度／其他。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "cpa-masses-f01",
+          "text": "Vestibular schwannoma, or acoustic neuroma, is by far the most common CPA mass at approximately 80%.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "cpa-masses-f02",
+          "text": "Vestibular schwannoma is centered on the internal auditory canal.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f03",
+          "text": "Vestibular schwannoma can have an ice-cream-cone configuration.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f04",
+          "text": "Vestibular schwannoma enhances avidly.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f05",
+          "text": "Vestibular schwannoma does not calcify.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f06",
+          "text": "Meningioma is the second most common CPA mass at approximately 10%.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "cpa-masses-f07",
+          "text": "CPA meningioma has a dural base.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f08",
+          "text": "CPA meningioma forms an obtuse angle with bone.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f09",
+          "text": "CPA meningioma can show a dural tail.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f10",
+          "text": "CPA meningioma can calcify.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f11",
+          "text": "CPA meningioma is not centered on the internal auditory canal.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f12",
+          "text": "Epidermoid cyst is described as the third most common CPA mass group.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "cpa-masses-f13",
+          "text": "An epidermoid cyst follows CSF density or signal but restricts diffusion.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f14",
+          "text": "An epidermoid cyst does not completely suppress on FLAIR.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f15",
+          "text": "An epidermoid cyst insinuates through cisterns and encases vessels and nerves.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cpa-masses-f16",
+          "text": "Other CPA masses include trigeminal or facial nerve schwannoma, ependymoma, metastasis, and aneurysm.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "research-needed"
+        },
+        {
+          "id": "cpa-masses-f17",
+          "text": "An imaging classification divides CPA lesions into enhancing masses, T1-hyperintense lesions, CSF-density lesions, and other lesions.",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 17,
+        "pendingFactCount": 13,
+        "researchNeededFactIds": [
+          "cpa-masses-f01",
+          "cpa-masses-f06",
+          "cpa-masses-f12",
+          "cpa-masses-f16"
+        ],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "craniopharyngioma",
+      "type": "disease",
+      "originalSha256": "bfca1e1633b23dd8cf95e5d76f99ce9849090c7cab7045dd532cc0199ce83cd1",
+      "originalSummary": "## Summary\n- **好發族群與型態**：成人型顱咽管瘤多為**papillary type**，實質成分為主、囊性成分較小、鈣化較少見；兒童型多為**adamantinomatous type**，多囊、常見鈣化。[^1]\n- **臨床表現**：鞍上腫塊壓迫視交叉致**雙顳側偏盲(bitemporal hemianopsia)**、壓迫下視丘/腦下垂體致晨間頭痛、內分泌功能異常。[^1]\n- **影像特徵**：鞍上實質為主腫塊合併小囊性成分，**實質成分明顯強化**，非單純囊性病灶。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "craniopharyngioma-f01",
+          "text": "Adult craniopharyngiomas are most often papillary type.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f02",
+          "text": "Adult papillary craniopharyngiomas are predominantly solid.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f03",
+          "text": "Adult papillary craniopharyngiomas have a smaller cystic component.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f04",
+          "text": "Calcification is less common in adult papillary craniopharyngiomas.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f05",
+          "text": "Pediatric craniopharyngiomas are most often adamantinomatous type.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f06",
+          "text": "Pediatric adamantinomatous craniopharyngiomas are commonly multicystic.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f07",
+          "text": "Calcification is common in pediatric adamantinomatous craniopharyngiomas.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f08",
+          "text": "A suprasellar craniopharyngioma can compress the optic chiasm and cause bitemporal hemianopsia.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f09",
+          "text": "Compression of the hypothalamus or pituitary can cause morning headache.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f10",
+          "text": "Compression of the hypothalamus or pituitary can cause endocrine dysfunction.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f11",
+          "text": "The described imaging pattern is a predominantly solid suprasellar mass with a small cystic component.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f12",
+          "text": "The solid component enhances avidly.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "craniopharyngioma-f13",
+          "text": "The described craniopharyngioma is not a purely cystic lesion.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "existing-sufficient",
+      "status": "pending",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 13,
+        "pendingFactCount": 13,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    },
+    {
+      "slug": "dementia-neuroimaging-overview",
+      "type": "pattern-ddx",
+      "originalSha256": "4119c8b7cfd2c770a1d7975e0f586a6f693d50b9171421e8c1d3652f6c08687a",
+      "originalSummary": "## Summary — 異常蛋白堆積分類\n- **Alzheimer disease（AD）**：**tau與β-amyloid**堆積。[^1]\n- **Dementia with Lewy bodies（DLB）**：**α-synuclein**堆積。[^1]\n- **Frontotemporal dementia（FTD）**：**tau、TDP-43或FUS**堆積（依亞型而異）。[^1]\n\n### Synucleinopathies（依是否合併Lewy bodies）\n- **有Lewy bodies**：Parkinson disease、Dementia with Lewy bodies（DLB）。[^1]\n- **無Lewy bodies**：Multiple systemic atrophy（MSA）。[^1]\n\n### Tauopathies\n- Progressive supranuclear palsy（PSP）、frontotemporal lobar degeneration（FTLD-tau）、corticobasal degeneration（CBD）、Alzheimer disease（次發性tau，secondary tau）。[^1]\n\n### FTD臨床亞型與好發部位\n- **Behavioral variant FTD**：雙側額葉（bilateral frontal lobes）。[^1]\n- **Semantic variant PPA**：左側顳葉（left temporal lobe）。[^1]\n- **Non-fluent variant PPA**：左側腦島與額葉蓋（left insula and frontal operculum, Broca area）。[^1]\n\n### FTLD病理亞型與分布\n- **FTLD-tau（MAPT基因突變）**：雙側顳葉。[^1]\n- **FTLD-FUS**：雙側尾狀核（bilateral caudate nuclei）。[^1]\n- **FTLD-TDP（GRN基因突變）**：右側半球為主（markedly asymmetric）。[^1]\n- **FTLD-TDP（C9orf72基因突變）**：雙側半球（generalized）。[^1]\n\n## Summary — 結構性MRI（VBM）萎縮型態鑑別\n- **DLB（dementia with Lewy bodies）**：萎縮主要見於**紋狀體（striatum）、中腦（midbrain）、下視丘（hypothalamus）**，**海馬迴（hippocampus）相對保留**——此為與AD鑑別之關鍵（AD則海馬迴明顯萎縮）。[^2]\n- **AD（Alzheimer disease）**：**顯著海馬迴萎縮（prominent hippocampal atrophy）**。[^2]\n- **PSP（progressive supranuclear palsy）**：中腦萎縮致矢狀面**\"hummingbird\" sign（蜂鳥徵）**、軸切面**\"Mickey Mouse\" sign（米老鼠徵）**，另可合併**\"morning glory\" sign**。[^2]\n\n## Summary — 血管性失智（vascular dementia）影像指標\n- **WMH（white matter hyperintensity）**：MRI上最佳顯示，可用半定量視覺評分或定量voxel-based方法測量；與血管危險因子（尤其高血壓與血糖控制不良）相關；現已廣泛接受為血管疾病之影像生物標記。[^1]\n- **Lacunar infarcts（腔隙性梗塞）**：發生於皮質下白質與基底核，亦為腦血管疾病（CVD）之影像相關表現。[^1]\n- **Macrohemorrhage分布**：**腦葉（lobar）巨量出血**傳統與**cerebral amyloid angiopathy（CAA，見 [[cerebral-amyloid-angiopathy]]）**相關；**深部與幕下（deep and infratentorial）巨量出血**則與血管危險因子、WMH、腔隙性梗塞相關（即高血壓性血管病變）。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "dementia-neuroimaging-overview-f01",
+          "text": "Alzheimer disease is associated with tau and beta-amyloid deposition.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f02",
+          "text": "Dementia with Lewy bodies is associated with alpha-synuclein deposition.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f03",
+          "text": "Frontotemporal dementia can involve tau, TDP-43, or FUS deposition depending on subtype.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f04",
+          "text": "Parkinson disease is a synucleinopathy with Lewy bodies.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f05",
+          "text": "Dementia with Lewy bodies is a synucleinopathy with Lewy bodies.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f06",
+          "text": "Multiple systemic atrophy is categorized as a synucleinopathy without Lewy bodies.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f07",
+          "text": "Progressive supranuclear palsy is a tauopathy.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f08",
+          "text": "FTLD-tau is a tauopathy.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f09",
+          "text": "Corticobasal degeneration is a tauopathy.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f10",
+          "text": "Alzheimer disease includes secondary tau pathology.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f11",
+          "text": "Behavioral-variant FTD preferentially involves both frontal lobes.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f12",
+          "text": "Semantic-variant primary progressive aphasia preferentially involves the left temporal lobe.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f13",
+          "text": "Non-fluent-variant primary progressive aphasia preferentially involves the left insula and frontal operculum or Broca area.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f14",
+          "text": "MAPT-mutant FTLD-tau preferentially involves both temporal lobes.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f15",
+          "text": "FTLD-FUS preferentially involves both caudate nuclei.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f16",
+          "text": "GRN-mutant FTLD-TDP is markedly asymmetric with right-hemisphere predominance.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f17",
+          "text": "C9orf72-mutant FTLD-TDP is generalized across both hemispheres.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f18",
+          "text": "DLB atrophy on structural MRI VBM predominantly involves the striatum.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f19",
+          "text": "DLB atrophy on structural MRI VBM predominantly involves the midbrain.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f20",
+          "text": "DLB atrophy on structural MRI VBM predominantly involves the hypothalamus.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f21",
+          "text": "The hippocampus is relatively preserved in DLB.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f22",
+          "text": "Relative hippocampal preservation in DLB is an important discriminator from Alzheimer disease.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f23",
+          "text": "Alzheimer disease shows prominent hippocampal atrophy.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f24",
+          "text": "PSP midbrain atrophy produces the sagittal hummingbird sign.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f25",
+          "text": "PSP midbrain atrophy produces the axial Mickey Mouse sign.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f26",
+          "text": "PSP can also show the morning glory sign.",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f27",
+          "text": "MRI best demonstrates white-matter hyperintensity in vascular dementia.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f28",
+          "text": "White-matter hyperintensity can be measured with semiquantitative visual scores or quantitative voxel-based methods.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f29",
+          "text": "White-matter hyperintensity is associated with vascular risk factors, especially hypertension and poor glycemic control.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f30",
+          "text": "White-matter hyperintensity is now widely accepted as an imaging biomarker of vascular disease.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f31",
+          "text": "Lacunar infarcts occur in subcortical white matter and basal ganglia.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f32",
+          "text": "Lacunar infarcts are an imaging correlate of cerebrovascular disease.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f33",
+          "text": "Lobar macrohemorrhage is traditionally associated with cerebral amyloid angiopathy.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f34",
+          "text": "Deep and infratentorial macrohemorrhage is associated with vascular risk factors, white-matter hyperintensity, and lacunar infarcts.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dementia-neuroimaging-overview-f35",
+          "text": "The deep and infratentorial macrohemorrhage pattern represents hypertensive vascular disease.",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceStatus": "existing-sufficient",
+      "status": "pending",
+      "rewrittenSummary": "",
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "factCount": 35,
+        "pendingFactCount": 35,
+        "researchNeededFactIds": [],
+        "manualReviewFactIds": [],
+        "newUnsupportedFacts": 0
+      }
+    }
+  ]
+}
