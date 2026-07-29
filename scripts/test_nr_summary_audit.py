@@ -22,6 +22,52 @@ subspecialty: [NR]
 [^1]: Example.
 """
 
+PILOT_SLUGS = (
+    "acute-stroke-management",
+    "artery-of-adamkiewicz",
+    "aspects-score",
+    "basal-ganglia-t1-shortening",
+    "bilateral-subcortical-dwi-hyperintensity-ddx",
+    "cerebral-amyloid-angiopathy",
+    "clippers",
+    "cpa-masses",
+    "craniopharyngioma",
+    "dementia-neuroimaging-overview",
+)
+
+
+def make_nr_note(slug: str) -> audit.NoteRecord:
+    return audit.parse_note_text(Path(f"vault/concepts/{slug}.md"), NR_DEMO_TEXT)
+
+
+def make_inventory_entry(
+    note: audit.NoteRecord,
+    *,
+    note_type: str = "disease",
+    batch: str = "batch-00",
+) -> dict:
+    return {
+        "slug": note.slug,
+        "path": note.path.as_posix(),
+        "type": note_type,
+        "batch": batch,
+        "status": "pending",
+        "sourceStatus": "existing-sufficient",
+        "originalSha256": note.sha256,
+        "summaryHeadings": ["Summary"],
+    }
+
+
+def make_pilot_inventory() -> tuple[dict, dict[str, audit.NoteRecord]]:
+    notes = {slug: make_nr_note(slug) for slug in PILOT_SLUGS}
+    inventory = {
+        "schemaVersion": 1,
+        "scope": "NR",
+        "generatedFrom": "vault/concepts",
+        "notes": [make_inventory_entry(notes[slug]) for slug in PILOT_SLUGS],
+    }
+    return inventory, notes
+
 
 def test_summary_variants_are_extracted() -> None:
     text = """---
@@ -160,17 +206,16 @@ def test_cli_prints_findings_and_uses_error_exit_code() -> None:
 
 
 def test_inventory_requires_allowed_type_and_status() -> None:
-    entry = {
-        "slug": "demo",
-        "path": "vault/concepts/demo.md",
-        "type": "unknown",
-        "batch": "batch-00",
-        "status": "pending",
-        "sourceStatus": "existing-sufficient",
-        "originalSha256": "a" * 64,
-        "summaryHeadings": ["Summary"],
-    }
-    findings = audit.validate_inventory({"schemaVersion": 1, "notes": [entry]})
+    note = make_nr_note("demo")
+    entry = make_inventory_entry(note, note_type="unknown", batch="unassigned")
+    findings = audit.validate_inventory(
+        {
+            "schemaVersion": 1,
+            "scope": "NR",
+            "generatedFrom": "vault/concepts",
+            "notes": [entry],
+        }
+    )
     assert "inventory-type" in {finding.code for finding in findings}
 
 
@@ -184,21 +229,9 @@ def test_inventory_requires_root_contract() -> None:
 
 
 def test_inventory_rejects_duplicate_slug_and_missing_nr_note() -> None:
-    nr_demo = audit.parse_note_text(Path("vault/concepts/demo.md"), NR_DEMO_TEXT)
-    nr_other = audit.parse_note_text(
-        Path("vault/concepts/other.md"),
-        NR_DEMO_TEXT.replace("concepts: [demo]", "concepts: [other]"),
-    )
-    entry = {
-        "slug": "demo",
-        "path": "vault/concepts/demo.md",
-        "type": "disease",
-        "batch": "batch-00",
-        "status": "pending",
-        "sourceStatus": "existing-sufficient",
-        "originalSha256": nr_demo.sha256,
-        "summaryHeadings": ["Summary"],
-    }
+    nr_demo = make_nr_note("demo")
+    nr_other = make_nr_note("other")
+    entry = make_inventory_entry(nr_demo)
     inventory_with_duplicate_demo = {
         "schemaVersion": 1,
         "scope": "NR",
@@ -214,6 +247,168 @@ def test_inventory_rejects_duplicate_slug_and_missing_nr_note() -> None:
     assert "inventory-scope-mismatch" in codes
 
 
+def test_inventory_accepts_valid_schema_and_closed_enum_values() -> None:
+    note = make_nr_note("demo")
+    entry = make_inventory_entry(note, batch="unassigned")
+    inventory = {
+        "schemaVersion": 1,
+        "scope": "NR",
+        "generatedFrom": "vault/concepts",
+        "notes": [entry],
+    }
+    assert audit.validate_inventory(inventory) == []
+
+
+def test_inventory_rejects_invalid_status_source_batch_hash_and_headings() -> None:
+    note = make_nr_note("demo")
+    mutations = (
+        ("status", "not-a-status", "inventory-status"),
+        ("sourceStatus", "unknown", "inventory-source-status"),
+        ("batch", "batch-01", "inventory-batch"),
+        ("originalSha256", "A" * 64, "inventory-sha256"),
+        ("summaryHeadings", "Summary", "inventory-summary-headings"),
+    )
+    for field, invalid_value, expected_code in mutations:
+        entry = make_inventory_entry(note, batch="unassigned")
+        entry[field] = invalid_value
+        inventory = {
+            "schemaVersion": 1,
+            "scope": "NR",
+            "generatedFrom": "vault/concepts",
+            "notes": [entry],
+        }
+        codes = {finding.code for finding in audit.validate_inventory(inventory)}
+        assert expected_code in codes, (field, codes)
+
+
+def test_inventory_against_notes_accepts_exact_pilot_fixture() -> None:
+    inventory, notes = make_pilot_inventory()
+    assert audit.validate_inventory_against_notes(inventory, notes) == []
+
+
+def test_inventory_against_notes_rejects_path_hash_and_heading_mismatches() -> None:
+    inventory, notes = make_pilot_inventory()
+    mutated_entry = inventory["notes"][0]
+    mutated_entry["path"] = "vault/concepts/wrong.md"
+    mutated_entry["originalSha256"] = "b" * 64
+    mutated_entry["summaryHeadings"] = ["Summary — wrong"]
+    codes = {
+        finding.code
+        for finding in audit.validate_inventory_against_notes(inventory, notes)
+    }
+    assert {
+        "inventory-path-mismatch",
+        "inventory-hash-mismatch",
+        "inventory-summary-headings-mismatch",
+    } <= codes
+
+
+def test_inventory_against_notes_rejects_fixed_pilot_membership_drift() -> None:
+    inventory, notes = make_pilot_inventory()
+    inventory["notes"][0]["batch"] = "unassigned"
+    codes = {
+        finding.code
+        for finding in audit.validate_inventory_against_notes(inventory, notes)
+    }
+    assert "inventory-batch-membership" in codes
+
+
+def test_inventory_against_notes_handles_malformed_entries_without_raising() -> None:
+    inventory, notes = make_pilot_inventory()
+    inventory["notes"].extend(["bad-entry", 7, None])
+    findings = audit.validate_inventory_against_notes(inventory, notes)
+    assert "inventory-schema" in {finding.code for finding in findings}
+
+
+def test_inventory_cli_generates_and_checks_deterministically() -> None:
+    fixture_slugs = (*PILOT_SLUGS, "facial-fracture-complications")
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory) / "concepts"
+        root.mkdir()
+        for slug in fixture_slugs:
+            (root / f"{slug}.md").write_text(NR_DEMO_TEXT, encoding="utf-8")
+        output_path = Path(directory) / "inventory.json"
+
+        with redirect_stdout(io.StringIO()):
+            assert (
+                audit.main(
+                    [
+                        "inventory",
+                        "--root",
+                        str(root),
+                        "--output",
+                        str(output_path),
+                    ]
+                )
+                == 0
+            )
+        first_bytes = output_path.read_bytes()
+        generated = json.loads(first_bytes)
+        facial_entry = next(
+            entry
+            for entry in generated["notes"]
+            if entry["slug"] == "facial-fracture-complications"
+        )
+        assert facial_entry["type"] == "pattern-ddx"
+        assert [entry["slug"] for entry in generated["notes"]] == sorted(fixture_slugs)
+
+        with redirect_stdout(io.StringIO()):
+            assert (
+                audit.main(
+                    [
+                        "inventory",
+                        "--root",
+                        str(root),
+                        "--output",
+                        str(output_path),
+                    ]
+                )
+                == 0
+            )
+        assert output_path.read_bytes() == first_bytes
+
+        check_output = io.StringIO()
+        with redirect_stdout(check_output):
+            check_exit = audit.main(
+                [
+                    "inventory",
+                    "--root",
+                    str(root),
+                    "--output",
+                    str(output_path),
+                    "--check",
+                ]
+            )
+        assert check_exit == 0
+        assert check_output.getvalue().splitlines() == [
+            "NR notes: 11",
+            "Duplicate slugs: 0",
+            "Unclassified: 0",
+            "Batch 00: 10",
+            "Unassigned: 1",
+        ]
+
+        generated["notes"][0]["status"] = "verified"
+        output_path.write_text(
+            json.dumps(generated, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        mutated_output = io.StringIO()
+        with redirect_stdout(mutated_output):
+            mutated_exit = audit.main(
+                [
+                    "inventory",
+                    "--root",
+                    str(root),
+                    "--output",
+                    str(output_path),
+                    "--check",
+                ]
+            )
+        assert mutated_exit == 1
+        assert "inventory-not-deterministic" in mutated_output.getvalue()
+
+
 def run_smoke() -> None:
     test_summary_variants_are_extracted()
     test_non_nr_note_is_not_in_scope()
@@ -226,6 +421,13 @@ def run_smoke() -> None:
     test_inventory_requires_allowed_type_and_status()
     test_inventory_requires_root_contract()
     test_inventory_rejects_duplicate_slug_and_missing_nr_note()
+    test_inventory_accepts_valid_schema_and_closed_enum_values()
+    test_inventory_rejects_invalid_status_source_batch_hash_and_headings()
+    test_inventory_against_notes_accepts_exact_pilot_fixture()
+    test_inventory_against_notes_rejects_path_hash_and_heading_mismatches()
+    test_inventory_against_notes_rejects_fixed_pilot_membership_drift()
+    test_inventory_against_notes_handles_malformed_entries_without_raising()
+    test_inventory_cli_generates_and_checks_deterministically()
     print("NR_SUMMARY_AUDIT_OK")
 
 

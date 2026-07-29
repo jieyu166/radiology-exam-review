@@ -883,7 +883,7 @@
     {
       "slug": "facial-fracture-complications",
       "path": "vault/concepts/facial-fracture-complications.md",
-      "type": "disease",
+      "type": "pattern-ddx",
       "batch": "unassigned",
       "status": "pending",
       "sourceStatus": "existing-sufficient",

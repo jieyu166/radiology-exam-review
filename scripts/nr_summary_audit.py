@@ -138,7 +138,7 @@ NOTE_TYPE_OVERRIDES = {
     "ependymoma": "disease",
     "ev71-cns-complications": "disease",
     "fabry-disease-pulvinar": "disease",
-    "facial-fracture-complications": "disease",
+    "facial-fracture-complications": "pattern-ddx",
     "facial-nerve-schwannoma": "disease",
     "fahr-disease": "disease",
     "fibromuscular-dysplasia": "disease",
@@ -656,7 +656,11 @@ def validate_inventory_against_notes(
                 )
             )
 
-    batch_00 = {entry.get("slug") for entry in entries if entry.get("batch") == "batch-00"}
+    batch_00 = {
+        entry.get("slug")
+        for entry in entries
+        if isinstance(entry, dict) and entry.get("batch") == "batch-00"
+    }
     if batch_00 != PILOT_SLUGS:
         findings.append(
             _inventory_finding(
