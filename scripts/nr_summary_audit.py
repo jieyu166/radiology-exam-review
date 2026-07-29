@@ -816,16 +816,25 @@ def _final_review_evidence_sha256(
     )
 
 
-def _uses_checked_in_pilot_notes(notes: dict[str, NoteRecord]) -> bool:
+def _coherent_pilot_repo_root(
+    notes: dict[str, NoteRecord],
+) -> Path | None:
+    """Return the checkout root for an exact, coherently rooted pilot set."""
     if set(notes) != PILOT_SLUGS:
-        return False
-    concepts_root = Path(__file__).resolve().parents[1] / "vault" / "concepts"
+        return None
+    roots: set[Path] = set()
     for slug in PILOT_SLUGS:
         note = notes.get(slug)
-        expected_path = concepts_root / f"{slug}.md"
-        if note is None or note.path.resolve() != expected_path.resolve():
-            return False
-    return True
+        if note is None:
+            return None
+        note_path = note.path.resolve()
+        if len(note_path.parents) < 3:
+            return None
+        root = note_path.parents[2]
+        if note_path != (root / "vault" / "concepts" / f"{slug}.md").resolve():
+            return None
+        roots.add(root)
+    return next(iter(roots)) if len(roots) == 1 else None
 
 
 def _trusted_evidence_anchor_findings(
@@ -833,8 +842,17 @@ def _trusted_evidence_anchor_findings(
     notes: dict[str, NoteRecord],
     batch_path: str,
 ) -> list[Finding]:
-    if not _uses_checked_in_pilot_notes(notes):
+    if set(notes) != PILOT_SLUGS:
         return []
+    if _coherent_pilot_repo_root(notes) is None:
+        return [
+            Finding(
+                "error",
+                "evidence-pilot-root",
+                batch_path,
+                "Fixed-pilot evidence does not resolve to one coherent checkout root.",
+            )
+        ]
     findings: list[Finding] = []
     task3_digest = _reviewed_baseline_evidence_sha256(
         report,
@@ -1363,9 +1381,19 @@ def _phase1_verification_findings(
     notes: dict[str, NoteRecord],
     batch_path: str,
 ) -> list[Finding]:
-    """Validate/recompute final Phase 1 metadata for checked-in pilot evidence."""
-    if not _uses_checked_in_pilot_notes(notes):
+    """Validate/recompute final Phase 1 metadata for coherent pilot evidence."""
+    if set(notes) != PILOT_SLUGS:
         return []
+    repo_root = _coherent_pilot_repo_root(notes)
+    if repo_root is None:
+        return [
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "Fixed-pilot Phase 1 metadata has no coherent checkout root.",
+            )
+        ]
     findings: list[Finding] = []
     verification = report.get("phase1Verification")
     if not isinstance(verification, dict):
@@ -1484,7 +1512,6 @@ def _phase1_verification_findings(
                 )
             )
 
-    repo_root = Path(__file__).resolve().parents[1]
     findings.extend(
         validate_generated_manifest(
             verification.get("generatedManifest"),
@@ -1570,7 +1597,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
     findings.extend(_trusted_report_pilot_hash_findings(report, batch_path))
     findings.extend(_trusted_evidence_anchor_findings(report, notes, batch_path))
     findings.extend(_phase1_verification_findings(report, notes, batch_path))
-    if _uses_checked_in_pilot_notes(notes):
+    if set(notes) == PILOT_SLUGS:
         allowed_root_fields = {
             "schemaVersion",
             "batch",
@@ -2522,10 +2549,8 @@ def validate_inventory(inventory: object) -> list[Finding]:
 def validate_inventory_against_notes(
     inventory: object,
     notes: dict[str, NoteRecord],
-    *,
-    immutable_hash_slugs: frozenset[str] = frozenset(),
 ) -> list[Finding]:
-    """Validate inventory coverage, preserving reviewed pre-edit hashes when requested."""
+    """Validate inventory coverage against reviewed pilot and current nonpilot hashes."""
     findings = validate_inventory(inventory)
     if not isinstance(inventory, dict):
         return findings
@@ -2601,7 +2626,7 @@ def validate_inventory_against_notes(
                     f"Inventory path for {slug} does not match the note path.",
                 )
             )
-        if slug in immutable_hash_slugs:
+        if slug in PILOT_SLUGS:
             trusted_hash = TRUSTED_PILOT_ORIGINAL_SHA256.get(slug)
             if trusted_hash is None or entry.get("originalSha256") != trusted_hash:
                 findings.append(
@@ -3002,6 +3027,13 @@ def _load_batch_notes(
                 "Canonical vault/concepts directory resolves outside the repository.",
             )
         ]
+    _, inventory_notes = _inventory(concepts_root)
+    findings.extend(
+        validate_inventory_against_notes(
+            inventory,
+            inventory_notes,
+        )
+    )
     for entry in sorted(pilot_entries, key=lambda item: item["slug"]):
         slug = entry["slug"]
         canonical_path = repo_root / "vault" / "concepts" / f"{slug}.md"
@@ -3125,10 +3157,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.command == "inventory":
         expected, notes = _inventory(args.root)
-        immutable_hash_slugs = PILOT_SLUGS
         expected = _apply_trusted_inventory_hashes(
             expected,
-            immutable_hash_slugs,
+            PILOT_SLUGS,
         )
         if args.check:
             if not args.output.is_file():
@@ -3150,7 +3181,6 @@ def main(argv: Sequence[str] | None = None) -> int:
             findings = validate_inventory_against_notes(
                 report,
                 notes,
-                immutable_hash_slugs=immutable_hash_slugs,
             )
             if report != expected:
                 findings.append(
@@ -3168,7 +3198,6 @@ def main(argv: Sequence[str] | None = None) -> int:
         findings = validate_inventory_against_notes(
             report,
             notes,
-            immutable_hash_slugs=immutable_hash_slugs,
         )
         if findings:
             _print_inventory_counts(report)

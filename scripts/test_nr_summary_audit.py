@@ -307,6 +307,9 @@ def run_validate_batch_cli(
         argv.append("--check-source-hashes")
     output = io.StringIO()
     original_trust = audit.TRUSTED_PILOT_ORIGINAL_SHA256
+    original_trusted_anchor = audit._trusted_evidence_anchor_findings
+    original_phase1_gate = audit._phase1_verification_findings
+    original_inventory_validator = audit.validate_inventory_against_notes
     if use_fixture_trust:
         inventory = json.loads(
             batch_path.with_name("inventory.json").read_text(encoding="utf-8")
@@ -316,6 +319,11 @@ def run_validate_batch_cli(
             for entry in inventory["notes"]
             if entry.get("slug") in PILOT_SLUGS
         }
+        audit._trusted_evidence_anchor_findings = lambda report, notes, path: []
+        audit._phase1_verification_findings = lambda report, notes, path: []
+        audit.validate_inventory_against_notes = (
+            lambda inventory, notes, **kwargs: []
+        )
     try:
         with redirect_stdout(output), redirect_stderr(output):
             exit_code = audit.main(argv)
@@ -323,6 +331,9 @@ def run_validate_batch_cli(
         exit_code = error.code
     finally:
         audit.TRUSTED_PILOT_ORIGINAL_SHA256 = original_trust
+        audit._trusted_evidence_anchor_findings = original_trusted_anchor
+        audit._phase1_verification_findings = original_phase1_gate
+        audit.validate_inventory_against_notes = original_inventory_validator
     return exit_code, output.getvalue()
 
 
@@ -338,6 +349,84 @@ def load_real_batch_and_notes() -> tuple[dict, dict[str, audit.NoteRecord]]:
         for slug in PILOT_SLUGS
     }
     return report, notes
+
+
+def validate_inventory_with_fixture_trust(
+    inventory: dict,
+    notes: dict[str, audit.NoteRecord],
+    trusted_pilot_hashes: dict[str, str],
+) -> list[audit.Finding]:
+    """Test-only trust injection; production public defaults remain immutable."""
+    original_trust = audit.TRUSTED_PILOT_ORIGINAL_SHA256
+    audit.TRUSTED_PILOT_ORIGINAL_SHA256 = trusted_pilot_hashes
+    try:
+        return audit.validate_inventory_against_notes(inventory, notes)
+    finally:
+        audit.TRUSTED_PILOT_ORIGINAL_SHA256 = original_trust
+
+
+def write_real_shadow_checkout(
+    root: Path,
+    shadow: Path,
+    inventory: dict,
+    report: dict,
+    *,
+    written_inventory: dict | None = None,
+) -> tuple[Path, dict[str, audit.NoteRecord]]:
+    for entry in inventory["notes"]:
+        source = root / entry["path"]
+        target = shadow / entry["path"]
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+    shutil.copytree(root / "data", shadow / "data")
+    report_dir = shadow / "docs" / "reports" / "nr-summary-rewrite"
+    report_dir.mkdir(parents=True)
+    (report_dir / "inventory.json").write_text(
+        json.dumps(inventory if written_inventory is None else written_inventory),
+        encoding="utf-8",
+    )
+    batch_path = report_dir / "batch-00.json"
+    batch_path.write_text(json.dumps(report), encoding="utf-8")
+    notes = {
+        slug: audit.parse_note(shadow / "vault" / "concepts" / f"{slug}.md")
+        for slug in PILOT_SLUGS
+    }
+    return batch_path, notes
+
+
+def promote_manual_queue_to_verified(report: dict) -> None:
+    for entry in report["notes"]:
+        manual_facts = [
+            fact
+            for fact in entry["factUnits"]
+            if fact["disposition"] == "manual-review"
+        ]
+        if not manual_facts:
+            continue
+        for fact in manual_facts:
+            fact["disposition"] = "covered"
+        entry["sourceStatus"] = "existing-sufficient"
+        entry["status"] = "verified"
+        entry["validation"]["manualReviewFactIds"] = []
+        entry["validation"]["factCoverage"] = "pass"
+        seal_entry(entry)
+    report["status"] = "verified"
+    verification = report["phase1Verification"]
+    verification["status"] = "verified"
+    verification["factCoverage"] = {
+        "total": 225,
+        "covered": 225,
+        "manualReview": 0,
+        "researchNeeded": 0,
+        "pending": 0,
+    }
+    verification["manualQueue"] = []
+    verification["reviewGate"] = {
+        "status": "verified",
+        "verifiedNotes": 10,
+        "manualReviewNotes": 0,
+        "phase2Started": True,
+    }
 
 
 def reseal_report(report: dict) -> None:
@@ -1639,7 +1728,7 @@ def test_inventory_against_notes_rejects_path_hash_and_heading_mismatches() -> N
     }
     assert {
         "inventory-path-mismatch",
-        "inventory-hash-mismatch",
+        "inventory-trusted-baseline-mismatch",
         "inventory-summary-headings-mismatch",
     } <= codes
 
@@ -1771,7 +1860,6 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
     findings = audit.validate_inventory_against_notes(
         inventory,
         notes,
-        immutable_hash_slugs=audit.PILOT_SLUGS,
     )
     assert "inventory-hash-mismatch" not in {
         finding.code for finding in findings
@@ -1785,7 +1873,6 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
     findings = audit.validate_inventory_against_notes(
         mutated,
         notes,
-        immutable_hash_slugs=audit.PILOT_SLUGS,
     )
     assert "inventory-hash-mismatch" in {
         finding.code for finding in findings
@@ -1804,6 +1891,36 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
             ]
         )
     assert exit_code == 0, output.getvalue()
+
+
+def test_public_inventory_default_binds_reviewed_pilot_hashes() -> None:
+    root = Path(__file__).resolve().parents[1]
+    inventory = json.loads(
+        (
+            root / "docs" / "reports" / "nr-summary-rewrite" / "inventory.json"
+        ).read_text(encoding="utf-8")
+    )
+    _, notes = audit._inventory(root / "vault" / "concepts")
+    assert audit.validate_inventory_against_notes(inventory, notes) == []
+
+    replaced = json.loads(json.dumps(inventory))
+    for entry in replaced["notes"]:
+        if entry["slug"] in PILOT_SLUGS:
+            entry["originalSha256"] = notes[entry["slug"]].sha256
+    codes = {
+        finding.code
+        for finding in audit.validate_inventory_against_notes(replaced, notes)
+    }
+    assert "inventory-trusted-baseline-mismatch" in codes
+
+    fixture_trust = {
+        slug: notes[slug].sha256 for slug in PILOT_SLUGS
+    }
+    assert validate_inventory_with_fixture_trust(
+        replaced,
+        notes,
+        fixture_trust,
+    ) == []
 
 
 def test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline() -> None:
@@ -1967,6 +2084,81 @@ def test_canonical_inventory_generation_emits_trusted_pilot_hashes_and_checks() 
     assert check_exit == 0
 
 
+def test_shadow_final_review_and_phase2_mutation_is_rejected_everywhere() -> None:
+    root = Path(__file__).resolve().parents[1]
+    evidence_root = root / "docs" / "reports" / "nr-summary-rewrite"
+    inventory = json.loads(
+        (evidence_root / "inventory.json").read_text(encoding="utf-8")
+    )
+    report = json.loads(
+        (evidence_root / "batch-00.json").read_text(encoding="utf-8")
+    )
+    promote_manual_queue_to_verified(report)
+
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path, shadow_notes = write_real_shadow_checkout(
+            root,
+            Path(directory),
+            inventory,
+            report,
+        )
+        public_codes = {
+            finding.code
+            for finding in audit.validate_evidence(report, shadow_notes)
+        }
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+            use_fixture_trust=False,
+        )
+
+    assert {
+        "evidence-trusted-final-mismatch",
+        "evidence-manual-queue-mismatch",
+        "evidence-phase1-verification",
+    } <= public_codes
+    assert exit_code == 1, output
+    assert "evidence-trusted-final-mismatch" in output
+    assert "evidence-manual-queue-mismatch" in output
+    assert "evidence-phase1-verification" in output
+
+
+def test_validate_batch_rejects_ten_pilot_only_sibling_inventory() -> None:
+    root = Path(__file__).resolve().parents[1]
+    evidence_root = root / "docs" / "reports" / "nr-summary-rewrite"
+    inventory = json.loads(
+        (evidence_root / "inventory.json").read_text(encoding="utf-8")
+    )
+    report = json.loads(
+        (evidence_root / "batch-00.json").read_text(encoding="utf-8")
+    )
+    pilot_only_inventory = json.loads(json.dumps(inventory))
+    pilot_only_inventory["notes"] = [
+        entry
+        for entry in pilot_only_inventory["notes"]
+        if entry["slug"] in PILOT_SLUGS
+    ]
+
+    with tempfile.TemporaryDirectory() as directory:
+        batch_path, _ = write_real_shadow_checkout(
+            root,
+            Path(directory),
+            inventory,
+            report,
+            written_inventory=pilot_only_inventory,
+        )
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+            use_fixture_trust=False,
+        )
+
+    assert exit_code == 1, output
+    assert "inventory-count" in output
+    assert "inventory-override-completeness" in output
+    assert "inventory-batch-counts" in output
+
+
 def test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback() -> None:
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory) / "concepts"
@@ -2057,10 +2249,13 @@ def run_smoke() -> None:
     test_inventory_membership_rejects_unhashable_slug_without_raising()
     test_inventory_cli_generates_and_checks_deterministically()
     test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots()
+    test_public_inventory_default_binds_reviewed_pilot_hashes()
     test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline()
     test_public_validate_evidence_rejects_coordinated_pilot_hash_replacement()
     test_shadow_checkout_validate_batch_rejects_coordinated_pilot_hash_replacement()
     test_canonical_inventory_generation_emits_trusted_pilot_hashes_and_checks()
+    test_shadow_final_review_and_phase2_mutation_is_rejected_everywhere()
+    test_validate_batch_rejects_ten_pilot_only_sibling_inventory()
     test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback()
     print("NR_SUMMARY_AUDIT_OK")
 
