@@ -96,3 +96,43 @@ No file below `vault/concepts/` and no production Phase 2 assignment, inventory,
   - exit 0
 - `git diff --exit-code -- vault/concepts`:
   - exit 0
+
+## Independent review round 2 fixes
+
+### Adversarial RED
+
+- Command:
+  - `python -m pytest -q scripts/test_nr_summary_audit.py -k "duplicate_pilot_and_217 or requires_approval_and_predecessor or derives_current_footnotes or public_manifest_builder_is_read_only"`
+- Result before implementation:
+  - `4 failed, 79 deselected`
+- The failures reproduced all four Important review scenarios:
+  1. a duplicate pilot plus 217 inventory rows was accepted;
+  2. terminal evidence did not require approval/current-baseline review, and batch 2 did not require valid batch 1 evidence;
+  3. deleted rendered footnote definitions were hidden by self-claimed zero counters;
+  4. the public manifest builder wrote generated data while the trusted registry was empty.
+
+### Fixes
+
+- Assignment projection and validation now require exactly 216 globally unique string slugs and exactly one occurrence of every immutable pilot.
+- Terminal `verified`/`needs-review` evidence now requires approved review of the current baseline; every later batch loads and validates its approved terminal predecessor evidence.
+- Batch evidence validation derives current `validate_summary()` findings and checks source-definition kind, locator, citation, and rendered-footnote correspondence before comparing derived error counts with evidence.
+- Public generated-manifest construction is read-only. It observes current bytes and existing evidence only, so untrusted callers cannot trigger scoped writes.
+- The empty production trusted registry remains unchanged and fail-closed.
+
+### Review-round verification
+
+- Four focused exploit tests:
+  - `4 passed, 79 deselected`
+- Full audit/build suite:
+  - `94 passed in 33.58s`
+- Existing direct Phase 1 suites:
+  - `NR_SUMMARY_AUDIT_OK`
+  - `BUILD_CONCEPTS_TEST_OK`
+- Consolidated relocation/adversarial selection:
+  - `18 passed, 76 deselected in 1.48s`
+- Four-file `py_compile`:
+  - exit 0
+- `git diff --check`:
+  - exit 0
+- `git diff --exit-code -- vault/concepts`:
+  - exit 0

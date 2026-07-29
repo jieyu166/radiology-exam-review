@@ -541,6 +541,23 @@ def _phase2_inventory_projection(inventory: dict) -> list[dict]:
     notes = inventory.get("notes")
     if not isinstance(notes, list):
         raise ValueError("Inventory notes must be an array.")
+    slugs = [
+        entry.get("slug")
+        for entry in notes
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    ]
+    pilot_slugs = [slug for slug in slugs if slug in PILOT_SLUGS]
+    if (
+        len(notes) != EXPECTED_NR_NOTE_COUNT
+        or len(slugs) != EXPECTED_NR_NOTE_COUNT
+        or len(set(slugs)) != EXPECTED_NR_NOTE_COUNT
+        or len(pilot_slugs) != EXPECTED_BATCH_00_COUNT
+        or set(pilot_slugs) != PILOT_SLUGS
+    ):
+        raise ValueError(
+            "Inventory must contain exactly 216 globally unique slugs and "
+            "each immutable pilot exactly once."
+        )
     projection = []
     for entry in notes:
         if not isinstance(entry, dict) or entry.get("slug") in PILOT_SLUGS:
@@ -636,6 +653,29 @@ def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Findin
     assignment_path = "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     inventory_notes = inventory.get("notes") if isinstance(inventory, dict) else None
     if isinstance(inventory_notes, list):
+        inventory_slugs = [
+            entry.get("slug")
+            for entry in inventory_notes
+            if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+        ]
+        pilot_occurrences = [
+            slug for slug in inventory_slugs if slug in PILOT_SLUGS
+        ]
+        if (
+            len(inventory_notes) != EXPECTED_NR_NOTE_COUNT
+            or len(inventory_slugs) != EXPECTED_NR_NOTE_COUNT
+            or len(set(inventory_slugs)) != EXPECTED_NR_NOTE_COUNT
+            or len(pilot_occurrences) != EXPECTED_BATCH_00_COUNT
+            or set(pilot_occurrences) != PILOT_SLUGS
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-assignment-membership",
+                    "docs/reports/nr-summary-rewrite/inventory.json",
+                    "Inventory must have 216 unique slugs and each pilot exactly once.",
+                )
+            )
         batch_00_slugs = {
             entry.get("slug")
             for entry in inventory_notes
@@ -1070,20 +1110,6 @@ def _validate_phase2_source_state(
     return findings
 
 
-def _generated_snapshot(repo_root: Path) -> tuple[dict[str, bytes], dict[str, int]]:
-    paths = sorted((repo_root / "data").rglob("*.json"))
-    return (
-        {
-            path.relative_to(repo_root).as_posix(): path.read_bytes()
-            for path in paths
-        },
-        {
-            path.relative_to(repo_root).as_posix(): path.stat().st_mtime_ns
-            for path in paths
-        },
-    )
-
-
 def _nonselected_detail_hashes(context: BatchContext) -> dict[str, str]:
     selected = set(context.batch["slugs"])
     return {
@@ -1098,9 +1124,8 @@ def _nonselected_detail_hashes(context: BatchContext) -> dict[str, str]:
     }
 
 
-def build_phase2_generated_manifest(
-    repo_root: Path, batch_id: str, *, _run_build: bool = True
-) -> dict:
+def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
+    """Construct a manifest from current bytes without writing generated output."""
     assignment_path = Path(
         "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     )
@@ -1130,36 +1155,6 @@ def build_phase2_generated_manifest(
         if isinstance(previous, dict) and isinstance(previous.get("secondRun"), dict)
         else {"changedPaths": [], "mtimeChangedPaths": []}
     )
-    if _run_build:
-        import build_concepts as concept_builder
-
-        concept_builder.build_selected_concepts(
-            context.batch["slugs"],
-            src_dir=context.repo_root / "vault" / "concepts",
-            out_dir=context.repo_root / context.generated_root,
-            index_path=context.repo_root / "data" / "concepts-index.json",
-        )
-        current_nonselected = _nonselected_detail_hashes(context)
-        before_bytes, before_mtimes = _generated_snapshot(context.repo_root)
-        concept_builder.build_selected_concepts(
-            context.batch["slugs"],
-            src_dir=context.repo_root / "vault" / "concepts",
-            out_dir=context.repo_root / context.generated_root,
-            index_path=context.repo_root / "data" / "concepts-index.json",
-        )
-        after_bytes, after_mtimes = _generated_snapshot(context.repo_root)
-        second_run = {
-            "changedPaths": sorted(
-                path
-                for path in set(before_bytes) | set(after_bytes)
-                if before_bytes.get(path) != after_bytes.get(path)
-            ),
-            "mtimeChangedPaths": sorted(
-                path
-                for path in set(before_mtimes) | set(after_mtimes)
-                if before_mtimes.get(path) != after_mtimes.get(path)
-            ),
-        }
     detail_root = context.repo_root / context.generated_root
     detail_files = sorted(detail_root.glob("*.json"), key=lambda item: item.name)
     tree_entries = []
@@ -1389,6 +1384,8 @@ def validate_phase2_batch(
             )
         definitions = entry.get("sourceDefinitions")
         definitions = definitions if isinstance(definitions, dict) else {}
+        current_summary_findings = validate_summary(note) if note is not None else []
+        findings.extend(current_summary_findings)
         local_dispositions = []
         for fact in facts if isinstance(facts, list) else []:
             if not isinstance(fact, dict):
@@ -1418,6 +1415,27 @@ def validate_phase2_batch(
                         f"Evidence sources for {fact.get('id')!r} are incomplete.",
                     )
                 )
+            for ref in refs if isinstance(refs, list) else []:
+                definition = definitions.get(ref)
+                if (
+                    not isinstance(definition, dict)
+                    or definition.get("kind")
+                    not in {"existing-footnote", "article", "chapter"}
+                    or not isinstance(definition.get("locator"), str)
+                    or not definition["locator"].strip()
+                    or not isinstance(definition.get("citation"), str)
+                    or not definition["citation"].strip()
+                    or note is None
+                    or ref not in note.footnote_defs
+                ):
+                    findings.append(
+                        Finding(
+                            "error",
+                            "evidence-source-definition",
+                            path,
+                            f"Source definition {ref!r} is malformed or not rendered.",
+                        )
+                    )
         if entry.get("newUnsupportedFacts") != 0:
             findings.append(
                 Finding(
@@ -1434,15 +1452,20 @@ def validate_phase2_batch(
         fact_coverage = (
             validation.get("factCoverage") if isinstance(validation, dict) else None
         )
+        actual_footnote_errors = sum(
+            finding.code == "footnote-undefined"
+            for finding in current_summary_findings
+        )
+        actual_structure_errors = len(current_summary_findings) - actual_footnote_errors
         if (
             not isinstance(validation, dict)
             or validation.get("hashMatches") is not True
             or validation.get("losslessSummaryMatches") is not True
             or validation.get("allSourceRefsDefined") is not True
             or not isinstance(validation.get("structure"), dict)
-            or validation["structure"].get("errors") != 0
+            or validation["structure"].get("errors") != actual_structure_errors
             or not isinstance(validation.get("footnotes"), dict)
-            or validation["footnotes"].get("errors") != 0
+            or validation["footnotes"].get("errors") != actual_footnote_errors
             or fact_coverage
             != {
                 "total": len(local_dispositions),
@@ -1537,6 +1560,51 @@ def validate_phase2_batch(
                 "Workflow sequence, predecessor, review state, or snapshot is invalid.",
             )
         )
+    if expected_root_status in {"verified", "needs-review"} and (
+        not isinstance(workflow, dict)
+        or workflow.get("reviewStatus") != "approved"
+        or workflow.get("reviewedBaselineSha256") != baseline_digest
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-review-sequence",
+                path,
+                "Terminal batch status requires approved review of this baseline.",
+            )
+        )
+    if batch_index:
+        predecessor_id = batch_ids[batch_index - 1]
+        try:
+            predecessor_context = load_phase2_batch(
+                context.repo_root,
+                context.assignment_path,
+                predecessor_id,
+            )
+            predecessor_findings = validate_phase2_batch(
+                predecessor_context,
+                check_source_hashes=False,
+                check_generated=False,
+            )
+            predecessor_evidence = predecessor_context.evidence or {}
+            predecessor_workflow = predecessor_evidence.get("workflow")
+            predecessor_ok = (
+                not _findings_have_errors(predecessor_findings)
+                and predecessor_evidence.get("status") in {"verified", "needs-review"}
+                and isinstance(predecessor_workflow, dict)
+                and predecessor_workflow.get("reviewStatus") == "approved"
+            )
+        except Phase2LoadError:
+            predecessor_ok = False
+        if not predecessor_ok:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-review-sequence",
+                    path,
+                    f"Approved terminal predecessor {predecessor_id!r} is required.",
+                )
+            )
     implementer = workflow.get("implementer") if isinstance(workflow, dict) else None
     reviewer = workflow.get("reviewer") if isinstance(workflow, dict) else None
     if (
@@ -1577,7 +1645,7 @@ def validate_phase2_batch(
                 )
         try:
             actual = build_phase2_generated_manifest(
-                context.repo_root, context.batch["id"], _run_build=False
+                context.repo_root, context.batch["id"]
             )
             manifest_path = Path(str(evidence.get("generatedManifest", "")))
             if manifest_path.as_posix() != (
