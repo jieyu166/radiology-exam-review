@@ -1,6 +1,6 @@
 ## 1. Audit tooling 與測試
 
-- [ ] 1.1 實作「Deterministic audit tooling does not generate medical prose」與「Observable behavior」：新增 scripts/nr_summary_audit.py 與 scripts/test_nr_summary_audit.py，提供 Public Python interfaces（parse_note、parse_note_text、extract_summary_sections、validate_summary、validate_inventory、validate_inventory_against_notes、validate_evidence）、穩定 Finding codes 與 CLI Failure modes；Task 1 的 validate_evidence／validate-batch 僅為可呼叫 placeholder，不驗證 evidence content，完整 evidence semantics 由 Task 3 實作且不更改 signature；以 python scripts/test_nr_summary_audit.py 輸出 NR_SUMMARY_AUDIT_OK、python -m py_compile 成功及 Acceptance criteria 所列命令驗證。
+- [x] 1.1 實作「Deterministic audit tooling does not generate medical prose」與「Observable behavior」：新增 scripts/nr_summary_audit.py 與 scripts/test_nr_summary_audit.py，提供 Public Python interfaces（parse_note、parse_note_text、extract_summary_sections、validate_summary、validate_inventory、validate_inventory_against_notes、validate_evidence）、穩定 Finding codes 與 CLI Failure modes；Task 1 的 validate_evidence／validate-batch 僅為可呼叫 placeholder，不驗證 evidence content，完整 evidence semantics 由 Task 3 實作且不更改 signature；以 python scripts/test_nr_summary_audit.py 輸出 NR_SUMMARY_AUDIT_OK、python -m py_compile 成功及 Acceptance criteria 所列命令驗證。
 
 ## 2. NR inventory 與分類
 
