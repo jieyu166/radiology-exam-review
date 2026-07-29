@@ -290,6 +290,11 @@ NOTE_TYPE_OVERRIDES = {
 }
 
 
+def _is_string_member(value: object, allowed: set[str] | frozenset[str]) -> bool:
+    """Return enum membership without hashing untrusted JSON containers."""
+    return isinstance(value, str) and value in allowed
+
+
 @dataclass(frozen=True)
 class SummarySection:
     heading: str
@@ -596,7 +601,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
             )
 
         note_type = entry.get("type")
-        if note_type not in NOTE_TYPES:
+        if not _is_string_member(note_type, NOTE_TYPES):
             findings.append(
                 Finding("error", "evidence-note-type", path, f"Unsupported note type {note_type!r}.")
             )
@@ -611,7 +616,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
             )
         source_status = entry.get("sourceStatus")
-        if source_status not in SOURCE_STATUSES:
+        if not _is_string_member(source_status, SOURCE_STATUSES):
             findings.append(
                 Finding(
                     "error",
@@ -621,7 +626,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                 )
             )
         note_status = entry.get("status")
-        if note_status not in NOTE_STATUSES:
+        if not _is_string_member(note_status, NOTE_STATUSES):
             findings.append(
                 Finding(
                     "error",
@@ -705,7 +710,8 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
             )
 
         seen_fact_ids: set[str] = set()
-        has_unresolved = False
+        has_research_needed = False
+        has_manual_review = False
         for fact_index, fact in enumerate(fact_units, start=1):
             if not isinstance(fact, dict):
                 findings.append(
@@ -756,7 +762,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                     )
                 )
             disposition = fact.get("disposition")
-            if disposition not in FACT_DISPOSITIONS:
+            if not _is_string_member(disposition, FACT_DISPOSITIONS):
                 findings.append(
                     Finding(
                         "error",
@@ -765,8 +771,10 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         f"Fact unit {fact_id!r} has unsupported disposition {disposition!r}.",
                     )
                 )
-            if disposition in {"research-needed", "manual-review"}:
-                has_unresolved = True
+            if disposition == "research-needed":
+                has_research_needed = True
+            if disposition == "manual-review":
+                has_manual_review = True
             source_refs = fact.get("sourceRefs")
             refs_valid = (
                 isinstance(source_refs, list)
@@ -782,7 +790,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         f"Fact unit {fact_id!r} sourceRefs must be unique non-empty strings.",
                     )
                 )
-            if disposition not in {"research-needed", "manual-review"} and (
+            if disposition != "research-needed" and disposition != "manual-review" and (
                 not isinstance(source_refs, list) or not source_refs
             ):
                 findings.append(
@@ -859,22 +867,43 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
                         "Stale or invalid validation fields: " + ", ".join(mismatches) + ".",
                     )
                 )
-        if has_unresolved and source_status not in {"research-needed", "conflict"}:
-            findings.append(
-                Finding(
-                    "error",
-                    "evidence-source-status",
-                    path,
-                    "Unresolved facts require research-needed or conflict sourceStatus.",
-                )
+        has_unresolved = has_research_needed or has_manual_review
+        if _is_string_member(source_status, SOURCE_STATUSES):
+            source_status_matches_facts = (
+                source_status in {"research-needed", "conflict"}
+                if has_unresolved
+                else source_status == "existing-sufficient"
             )
-        if has_unresolved and note_status not in {"research-needed", "manual-review"}:
+            if not source_status_matches_facts:
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-source-status",
+                        path,
+                        (
+                            "Unresolved facts require research-needed or conflict sourceStatus."
+                            if has_unresolved
+                            else "Resolved baseline facts require existing-sufficient sourceStatus."
+                        ),
+                    )
+                )
+        expected_note_status = (
+            "manual-review"
+            if has_manual_review
+            else "research-needed"
+            if has_research_needed
+            else "pending"
+        )
+        if _is_string_member(note_status, NOTE_STATUSES) and note_status != expected_note_status:
             findings.append(
                 Finding(
                     "error",
                     "evidence-note-status",
                     path,
-                    "Unresolved facts require research-needed or manual-review note status.",
+                    (
+                        f"Fact dispositions require {expected_note_status!r} "
+                        "baseline note status."
+                    ),
                 )
             )
     return findings
@@ -931,7 +960,7 @@ def validate_inventory(inventory: dict) -> list[Finding]:
                     f"Inventory entry is missing fields: {', '.join(missing)}.",
                 )
             )
-        if entry.get("type") not in NOTE_TYPES:
+        if not _is_string_member(entry.get("type"), NOTE_TYPES):
             findings.append(
                 _inventory_finding(
                     "inventory-type",
@@ -939,7 +968,7 @@ def validate_inventory(inventory: dict) -> list[Finding]:
                     f"Unsupported note type: {entry.get('type')!r}.",
                 )
             )
-        if entry.get("status") not in NOTE_STATUSES:
+        if not _is_string_member(entry.get("status"), NOTE_STATUSES):
             findings.append(
                 _inventory_finding(
                     "inventory-status",
@@ -947,7 +976,7 @@ def validate_inventory(inventory: dict) -> list[Finding]:
                     f"Unsupported note status: {entry.get('status')!r}.",
                 )
             )
-        if entry.get("sourceStatus") not in SOURCE_STATUSES:
+        if not _is_string_member(entry.get("sourceStatus"), SOURCE_STATUSES):
             findings.append(
                 _inventory_finding(
                     "inventory-source-status",
@@ -955,7 +984,7 @@ def validate_inventory(inventory: dict) -> list[Finding]:
                     f"Unsupported source status: {entry.get('sourceStatus')!r}.",
                 )
             )
-        if entry.get("batch") not in PHASE_1_BATCHES:
+        if not _is_string_member(entry.get("batch"), PHASE_1_BATCHES):
             findings.append(
                 _inventory_finding(
                     "inventory-batch",
@@ -1066,9 +1095,11 @@ def validate_inventory_against_notes(
             )
 
     batch_00 = {
-        entry.get("slug")
+        entry["slug"]
         for entry in entries
-        if isinstance(entry, dict) and entry.get("batch") == "batch-00"
+        if isinstance(entry, dict)
+        and entry.get("batch") == "batch-00"
+        and isinstance(entry.get("slug"), str)
     }
     if batch_00 != PILOT_SLUGS:
         findings.append(
@@ -1128,10 +1159,17 @@ def _inventory(root: Path) -> tuple[dict, dict[str, NoteRecord]]:
 
 def _inventory_counts(report: dict) -> tuple[int, int, int, int, int]:
     entries = report.get("notes", [])
-    slugs = [entry.get("slug") for entry in entries if isinstance(entry, dict)]
+    slugs = [
+        entry.get("slug")
+        for entry in entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    ]
     duplicates = len(slugs) - len(set(slugs))
     unclassified = sum(
-        1 for entry in entries if not isinstance(entry, dict) or entry.get("type") not in NOTE_TYPES
+        1
+        for entry in entries
+        if not isinstance(entry, dict)
+        or not _is_string_member(entry.get("type"), NOTE_TYPES)
     )
     batch_00 = sum(
         1 for entry in entries if isinstance(entry, dict) and entry.get("batch") == "batch-00"
@@ -1177,15 +1215,34 @@ def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Fi
                 "Inventory notes must be an array.",
             )
         ]
-    pilot_entries = [
+    batch_entries = [
         entry
         for entry in entries
         if isinstance(entry, dict)
         and entry.get("batch") == "batch-00"
-        and entry.get("slug") in PILOT_SLUGS
-        and isinstance(entry.get("path"), str)
     ]
-    if {entry["slug"] for entry in pilot_entries} != PILOT_SLUGS:
+    pilot_entries = [
+        entry
+        for entry in entries
+        if isinstance(entry, dict)
+        and _is_string_member(entry.get("slug"), PILOT_SLUGS)
+    ]
+    batch_slugs = [
+        entry.get("slug")
+        for entry in batch_entries
+        if isinstance(entry.get("slug"), str)
+    ]
+    pilot_slugs = [entry["slug"] for entry in pilot_entries]
+    exact_membership = (
+        len(batch_entries) == len(PILOT_SLUGS)
+        and len(batch_slugs) == len(PILOT_SLUGS)
+        and len(set(batch_slugs)) == len(PILOT_SLUGS)
+        and set(batch_slugs) == PILOT_SLUGS
+        and len(pilot_entries) == len(PILOT_SLUGS)
+        and len(set(pilot_slugs)) == len(PILOT_SLUGS)
+        and all(entry.get("batch") == "batch-00" for entry in pilot_entries)
+    )
+    if not exact_membership:
         return {}, [
             Finding(
                 "error",
@@ -1195,9 +1252,28 @@ def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Fi
             )
         ]
 
+    for entry in pilot_entries:
+        slug = entry["slug"]
+        expected_path = (Path("vault") / "concepts" / f"{slug}.md").as_posix()
+        if entry.get("path") != expected_path:
+            return {}, [
+                Finding(
+                    "error",
+                    "evidence-inventory-path",
+                    inventory_path.as_posix(),
+                    (
+                        f"Pilot {slug!r} must use canonical inventory path "
+                        f"{expected_path!r}."
+                    ),
+                )
+            ]
+
     repo_root: Path | None = None
     for candidate in report_path.resolve().parents:
-        if all((candidate / entry["path"]).is_file() for entry in pilot_entries):
+        if all(
+            (candidate / "vault" / "concepts" / f"{slug}.md").is_file()
+            for slug in PILOT_SLUGS
+        ):
             repo_root = candidate
             break
     if repo_root is None:
@@ -1212,10 +1288,47 @@ def _load_batch_notes(report_path: Path) -> tuple[dict[str, NoteRecord], list[Fi
 
     notes: dict[str, NoteRecord] = {}
     findings: list[Finding] = []
-    for entry in pilot_entries:
-        note_path = repo_root / entry["path"]
+    resolved_repo_root = repo_root.resolve()
+    concepts_root = (resolved_repo_root / "vault" / "concepts").resolve()
+    if not concepts_root.is_relative_to(resolved_repo_root):
+        return {}, [
+            Finding(
+                "error",
+                "evidence-inventory-path",
+                concepts_root.as_posix(),
+                "Canonical vault/concepts directory resolves outside the repository.",
+            )
+        ]
+    for entry in sorted(pilot_entries, key=lambda item: item["slug"]):
+        slug = entry["slug"]
+        canonical_path = repo_root / "vault" / "concepts" / f"{slug}.md"
         try:
-            notes[entry["slug"]] = parse_note(note_path)
+            note_path = canonical_path.resolve(strict=True)
+            if not note_path.is_relative_to(concepts_root) or note_path.parent != concepts_root:
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-inventory-path",
+                        canonical_path.as_posix(),
+                        f"Pilot note {slug!r} resolves outside vault/concepts.",
+                    )
+                )
+                continue
+            note = parse_note(note_path)
+            if note.slug != slug:
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-inventory-slug-mismatch",
+                        note_path.as_posix(),
+                        (
+                            f"Parsed note slug {note.slug!r} does not match "
+                            f"inventory slug {slug!r}."
+                        ),
+                    )
+                )
+                continue
+            notes[slug] = note
         except (OSError, UnicodeDecodeError) as error:
             findings.append(
                 Finding(

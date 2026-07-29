@@ -77,10 +77,7 @@
           "id": "acute-stroke-management-f08",
           "text": "The 2015 recommendation was to achieve reperfusion as early as possible and within 6 hours of onset.",
           "sourceRefs": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1"
           ],
           "disposition": "research-needed"
         },
@@ -88,10 +85,7 @@
           "id": "acute-stroke-management-f09",
           "text": "The original Summary states that clinical benefit declines substantially after 6 hours.",
           "sourceRefs": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1"
           ],
           "disposition": "research-needed"
         },
@@ -162,10 +156,7 @@
           "id": "acute-stroke-management-f17",
           "text": "The 2015 update classified the benefit of CT or MR perfusion for selecting endovascular-treatment patients as unknown; Class IIb, level of evidence C.",
           "sourceRefs": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1"
           ],
           "disposition": "research-needed"
         },
@@ -173,10 +164,7 @@
           "id": "acute-stroke-management-f18",
           "text": "The 2015 evidence did not establish perfusion imaging as superior to CTA or MRA for endovascular selection.",
           "sourceRefs": [
-            "1",
-            "2",
-            "3",
-            "4"
+            "1"
           ],
           "disposition": "research-needed"
         }
