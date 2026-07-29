@@ -20,6 +20,9 @@
 - 額外文獻查證只在來源不足、互相衝突、時效性規則或弱來源無法安全壓縮時啟用。
 - 需要受限平台時由使用者自行登入；不得處理帳密、規避存取控制或下載受限 PDF。
 - 任何無法確認的事實覆蓋必須標記 `manual-review`，不得視為通過。
+- `scripts/lint_concepts.py --quiet` 的既有 baseline 為 2 errors／124 warnings：
+  `ceap-classification.md` 的未定義 `[^*]`，以及 `2022-264` JSON 的 `![[...]]`。
+  本計畫不得新增 lint error；NR Summary 自身的 footnote／結構檢查仍須零錯誤。
 - 不得 stage 或 commit 目前工作樹中既有的題目與覆核筆記變更。
 
 ---
@@ -679,8 +682,15 @@ python scripts/lint_concepts.py --quiet
 python scripts/build_concepts.py --quiet
 ```
 
-Expected: all commands exit 0. Pre-existing lint warnings may remain only if the error count is zero and the warning
-baseline is recorded.
+Expected: audit test、batch validation 與 concept build 均 exit 0。`lint_concepts.py` 維持既有 exit 1，
+且輸出必須精確保持 2 errors／124 warnings，錯誤只能是：
+
+```text
+[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義
+[json 殘留 ![[...]]] 2022-264
+```
+
+任何新增 lint error 都使本步驟失敗；NR pilot notes 自身不得出現在 error 清單。
 
 - [ ] **Step 4: Verify website keyPoints exactly mirror Summary bullets**
 

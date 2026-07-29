@@ -188,7 +188,8 @@ frontmatter 或網站分類。
 4. footnote reference 與 definition 完整性檢查。
 5. 原 Summary 事實覆蓋報告。
 6. `scripts/build_concepts.py` 建置。
-7. `scripts/lint_concepts.py`。
+7. `scripts/lint_concepts.py`；以變更前既有的 2 errors／124 warnings 為 baseline，
+   本變更不得新增 error，且 NR Summary 自身的 footnote／結構檢查必須零錯誤。
 8. 確認產生的 `data/concepts-index.json` 與 NR concept JSON 可解析。
 9. 抽樣檢視網站 JSON 中的 `keyPoints`，確保粗體與短 bullets 正確輸出。
 
@@ -211,6 +212,6 @@ frontmatter 或網站分類。
 - 原 Summary 事實覆蓋無已知遺失；未能確定者均列入人工覆核，不偽裝為通過。
 - 新增或改寫的事實全部有有效 footnote。
 - 沒有新增無來源的數字、疾病關聯、診斷門檻或處置建議。
-- Concept build 與 lint 通過。
+- Concept build 通過；concept lint 不得新增超出既有 baseline 的 error。
 - 網站生成 JSON 可解析，抽樣 `keyPoints` 與 vault Summary 一致。
 - 非 NR concept 正文不因本變更被修改。
