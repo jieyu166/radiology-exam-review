@@ -5,77 +5,82 @@
   "status": "needs-review",
   "phase1Verification": {
     "date": "2026-07-29",
-    "generatedBaseline": {
-      "command": "git status --short -- data/concepts data/concepts-index.json",
-      "status": "clean",
-      "changedFiles": []
-    },
-    "commandResults": [
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\build_concepts.py",
-        "exitCode": 0,
-        "result": "1123 concepts; 3 missing imaging sections; 261 missing reference links; 0 removed orphans; 0 skipped"
-      },
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\test_nr_summary_audit.py",
-        "exitCode": 0,
-        "result": "NR_SUMMARY_AUDIT_OK"
-      },
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts\\nr_summary_audit.py scripts\\test_nr_summary_audit.py",
-        "exitCode": 0,
-        "result": "pass"
-      },
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\nr_summary_audit.py validate-batch docs\\reports\\nr-summary-rewrite\\batch-00.json",
-        "exitCode": 0,
-        "result": "10 notes; 0 missing sources; 0 findings"
-      },
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\lint_concepts.py --quiet",
-        "exitCode": 1,
-        "result": "accepted baseline: 2 errors, 124 warnings"
-      },
-      {
-        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\build_concepts.py --quiet",
-        "exitCode": 0,
-        "result": "pass"
-      }
-    ],
-    "lint": {
-      "acceptedBaseline": true,
-      "errors": [
-        "[footnote 未定義] ceap-classification.md used [^*] without a definition",
-        "[json 殘留 ![[...]]] 2022-264"
+    "status": "needs-review",
+    "scopedBuild": {
+      "command": "python scripts/build_concepts.py --batch-file docs/reports/nr-summary-rewrite/batch-00.json --quiet",
+      "runs": 2,
+      "exitCodes": [
+        0,
+        0
       ],
+      "byteIdentical": true,
+      "unrelatedDetailWrites": 0,
+      "changedGeneratedFiles": [
+        "data/concepts/acute-stroke-management.json",
+        "data/concepts/dementia-neuroimaging-overview.json"
+      ]
+    },
+    "lint": {
+      "command": "python scripts/lint_concepts.py --quiet",
+      "exitCode": 1,
+      "rawOutput": "檢查：1123 概念、4 圖引用、4 圖檔\n\n=== ERROR (2) ===\n  ✗ [footnote 未定義] ceap-classification.md 用了 [^*] 但無定義\n  ✗ [json 殘留 ![[...]]] 2022-264\n\n=== WARN (124) ===\n  ⚠ 題目無 correctAnswer: 65\n  ⚠ 概念缺 ## 考題 dataview: 37\n  ⚠ footnote 未被引用: 22\n\n小結：2 errors, 124 warnings\n",
       "errorCount": 2,
       "warningCount": 124,
+      "errors": [
+        "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
+        "[json 殘留 ![[...]]] 2022-264"
+      ],
       "pilotErrors": []
+    },
+    "generatedManifest": {
+      "schemaVersion": 1,
+      "pilotFiles": {
+        "data/concepts/acute-stroke-management.json": "28864b2e27f013a42c85f31258e209d4e61a2126a5fbc6f82ef779567f550a7b",
+        "data/concepts/artery-of-adamkiewicz.json": "28c816d5c0e13991d9a9924aaf3420c66cd03179af87ceb69d23f8895594ef4b",
+        "data/concepts/aspects-score.json": "9e1a3678b92e20475cbdb80be9bde407e4a0e544dfd577259045bb6a9e8b1951",
+        "data/concepts/basal-ganglia-t1-shortening.json": "7817a8996a8ab9070b85e1ed356f1ef61fd754bb56e08e85aaee9e81e4b3d515",
+        "data/concepts/bilateral-subcortical-dwi-hyperintensity-ddx.json": "d5d90324a9c22d9974dd8bfd10556a353c285ddeafd75b48dbbc77979bf9adab",
+        "data/concepts/cerebral-amyloid-angiopathy.json": "b46009ee7bf15cfd9cca4eb554fad05f46802d354d48cad5ff1a5e458810c24e",
+        "data/concepts/clippers.json": "927dd8cd5ebbbb32dd276da6c69cf5388394376db40270c5c92b691cb42fd50f",
+        "data/concepts/cpa-masses.json": "c9cc9c7d2e120e5485ba69aca4dc6404ee2297bebc87f30f075717a7c0016ee4",
+        "data/concepts/craniopharyngioma.json": "51203d110f14ed1fffe7d03373900be26ebebd8a21805f3eff4f68a4109bd3b2",
+        "data/concepts/dementia-neuroimaging-overview.json": "f1a7969d8960b294861a10733cd37ff8ffb0d084f15bc5c03cf768508b0589d7"
+      },
+      "index": {
+        "path": "data/concepts-index.json",
+        "sha256": "696d892882106ce54948fdb604e4c4240ae212bae6f43b0c61672c3f85b1edf5",
+        "entryCount": 978
+      },
+      "detailFileCount": 978,
+      "allDetailFilesSha256": "2585767f0eb6b5000e5cebf7970c5d329b14c5842615ab3dab5451cae538d5e0"
     },
     "generatedKeyPoints": {
       "status": "pass",
       "checked": 10,
-      "normalization": "source Summary bullets in website order with footnote references removed",
-      "mismatchCode": "generated-keypoints-mismatch"
+      "counts": {
+        "acute-stroke-management": 9,
+        "artery-of-adamkiewicz": 4,
+        "aspects-score": 8,
+        "basal-ganglia-t1-shortening": 5,
+        "bilateral-subcortical-dwi-hyperintensity-ddx": 4,
+        "cerebral-amyloid-angiopathy": 14,
+        "clippers": 6,
+        "cpa-masses": 5,
+        "craniopharyngioma": 3,
+        "dementia-neuroimaging-overview": 19
+      }
     },
-    "generatedScope": {
-      "retainedFiles": [
-        "data/concepts/acute-stroke-management.json",
-        "data/concepts/artery-of-adamkiewicz.json",
-        "data/concepts/aspects-score.json",
-        "data/concepts/basal-ganglia-t1-shortening.json",
-        "data/concepts/bilateral-subcortical-dwi-hyperintensity-ddx.json",
-        "data/concepts/cerebral-amyloid-angiopathy.json",
-        "data/concepts/clippers.json",
-        "data/concepts/cpa-masses.json",
-        "data/concepts/craniopharyngioma.json",
-        "data/concepts/dementia-neuroimaging-overview.json",
-        "data/concepts-index.json"
+    "referenceUrls": {
+      "checked": 43,
+      "invalid": 0,
+      "requiredExactUrls": [
+        "https://doi.org/10.6705/j.jacme.202103_11(1).0002",
+        "https://doi.org/10.1016/S0140-6736(00)02237-6"
       ],
-      "indexHasDeterministicMetadataDiff": true,
-      "unrelatedTrackedOutputsRestored": 186,
-      "unrelatedUntrackedOutputsRemoved": 145,
-      "preBuildUserChangesDiscarded": 0
+      "requiredPresent": [
+        true,
+        true
+      ]
     },
     "factCoverage": {
       "total": 225,
@@ -91,138 +96,6 @@
       "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
     ],
     "loginQueue": [],
-    "reviewGate": {
-      "status": "needs-review",
-      "verifiedNotes": 8,
-      "manualReviewNotes": 2,
-      "reason": "Four fact units remain manual-review; Phase 2 has not started."
-    },
-    "intendedCommitFiles": [
-      "scripts/nr_summary_audit.py",
-      "scripts/test_nr_summary_audit.py",
-      "docs/reports/nr-summary-rewrite/batch-00.json",
-      "data/concepts/acute-stroke-management.json",
-      "data/concepts/artery-of-adamkiewicz.json",
-      "data/concepts/aspects-score.json",
-      "data/concepts/basal-ganglia-t1-shortening.json",
-      "data/concepts/bilateral-subcortical-dwi-hyperintensity-ddx.json",
-      "data/concepts/cerebral-amyloid-angiopathy.json",
-      "data/concepts/clippers.json",
-      "data/concepts/cpa-masses.json",
-      "data/concepts/craniopharyngioma.json",
-      "data/concepts/dementia-neuroimaging-overview.json",
-      "data/concepts-index.json"
-    ]
-  },
-  "fixRound1Verification": {
-    "date": "2026-07-29",
-    "status": "pass",
-    "generatedBaseline": {
-      "command": "git status --short -- data/concepts data/concepts-index.json",
-      "status": "clean",
-      "changedFiles": []
-    },
-    "rootBinding": {
-      "status": "pass",
-      "rule": "generated data is resolved from the same canonical checkout root as the pilot source notes",
-      "shadowTreeRegression": "pass"
-    },
-    "indexCoherence": {
-      "command": "node index/detail coherence check",
-      "rawOutput": "{\"index\":978,\"details\":978,\"dangling\":0,\"unindexed\":0,\"metadataMismatch\":0}",
-      "indexEntries": 978,
-      "detailFiles": 978,
-      "dangling": 0,
-      "unindexed": 0,
-      "metadataMismatch": 0,
-      "legacyFallbacks": 0,
-      "preFixIndexEntries": 1123,
-      "removedDanglingEntries": 145
-    },
-    "referenceUrls": {
-      "command": "node pilot externalLinks URL parse and exact DOI check",
-      "rawOutput": "{\"urls\":43,\"bad\":0,\"required\":[true,true]}",
-      "checked": 43,
-      "invalid": 0,
-      "requiredExactUrls": [
-        "https://doi.org/10.6705/j.jacme.202103_11(1).0002",
-        "https://doi.org/10.1016/S0140-6736(00)02237-6"
-      ]
-    },
-    "commandResults": [
-      {
-        "command": "python scripts/test_build_concepts.py",
-        "exitCode": 0,
-        "rawOutput": "BUILD_CONCEPTS_TEST_OK"
-      },
-      {
-        "command": "python scripts/test_nr_summary_audit.py",
-        "exitCode": 0,
-        "rawOutput": "NR_SUMMARY_AUDIT_OK"
-      },
-      {
-        "command": "python -m py_compile scripts/build_concepts.py scripts/test_build_concepts.py scripts/nr_summary_audit.py scripts/test_nr_summary_audit.py",
-        "exitCode": 0,
-        "rawOutput": "PY_COMPILE_OK"
-      },
-      {
-        "command": "python scripts/nr_summary_audit.py validate-batch docs/reports/nr-summary-rewrite/batch-00.json",
-        "exitCode": 0,
-        "rawOutput": "Batch notes: 10\nMissing sources: 0\n[]"
-      },
-      {
-        "command": "python scripts/build_concepts.py --quiet",
-        "exitCode": 0,
-        "rawOutput": ""
-      },
-      {
-        "command": "python scripts/build_concepts.py --index-from-details --quiet",
-        "exitCode": 0,
-        "rawOutput": ""
-      },
-      {
-        "command": "python scripts/lint_concepts.py --quiet",
-        "exitCode": 1,
-        "rawOutput": "2 errors, 124 warnings",
-        "acceptedBaseline": true
-      }
-    ],
-    "lint": {
-      "errors": 2,
-      "warnings": 124,
-      "pilotErrors": [],
-      "onlyErrors": [
-        "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
-        "[json 殘留 ![[...]]] 2022-264"
-      ]
-    },
-    "generatedScope": {
-      "regeneratedPilotFiles": 10,
-      "changedPilotFiles": [
-        "data/concepts/acute-stroke-management.json",
-        "data/concepts/aspects-score.json",
-        "data/concepts/cerebral-amyloid-angiopathy.json",
-        "data/concepts/clippers.json"
-      ],
-      "index": "data/concepts-index.json",
-      "firstBroadRunTrackedOutputsRestored": 588,
-      "finalQuietRunTrackedOutputsRestored": 379,
-      "broadUntrackedOutputsRemovedPerRun": 145,
-      "preBuildUserChangesDiscarded": 0
-    },
-    "factCoverage": {
-      "total": 225,
-      "covered": 221,
-      "manualReview": 4,
-      "researchNeeded": 0,
-      "pending": 0
-    },
-    "manualQueue": [
-      "acute-stroke-management-f09",
-      "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
-      "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
-      "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
-    ],
     "reviewGate": {
       "status": "needs-review",
       "verifiedNotes": 8,
@@ -1947,7 +1820,7 @@
       ],
       "sourceStatus": "researched",
       "status": "verified",
-      "rewrittenSummary": "## Summary\n- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]\n- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]\n- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 SWI 或 GRE/T2\\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]\n- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]\n- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]\n- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]\n- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]\n- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion** 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]\n- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]\n- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]\n- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]\n\n### 參考來源\n[^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。\n[^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。\n[^3]: 同 [^2](Biomolecules 2024;14(11):1459, PMC11592298）。要點：「Deep-seated microbleeds associate with hypertensive disease」;CAA 腦葉出血定位於「frontal, parietal, occipital, temporal or insular lobe」,有別於高血壓深部結構好發。\n[^4]: Charidimou A, Boulouis G, Frosch MP, et al. *The Boston criteria version 2.0 for cerebral amyloid angiopathy: a multicentre, retrospective, MRI–neuropathology diagnostic accuracy study.* Lancet Neurol. 2022;21(8):714-725. DOI: 10.1016/S1474-4422(22)00208-3。primary（accessed 2026-06-29）。Probable CAA(年齡 ≥50):「at least two strictly lobar haemorrhagic lesions … or at least one strictly lobar haemorrhagic lesion and at least one white matter characteristic (ie, severe visible perivascular spaces in centrum semiovale or white matter hyperintensities in a multispot pattern)」;CSO-PVS「>20」、multispot WMH「>10 … subcortical white matter of both hemispheres」;對照神經病理 sensitivity 74.5%、specificity 95.0%。\n[^5]: Renard D, et al. *Cerebral amyloid angiopathy related inflammation*（CAA-ri）相關全文(PMC8260958;另參 Radiol Case Rep. 2021;16(9):2514-2521, DOI 10.1016/j.radcr.2021.05.080）（accessed 2026-06-29）。要點：CAA-ri 為「Patchy or confluent T2 or FLAIR hyperintensity … usually asymmetric with or without mass effect」之皮質下血管源性水腫,水腫區常與 SWI 多發皮質/皮質下微出血、cSS 重疊或鄰近;post-contrast 可見 gyral/leptomeningeal enhancement(非必然)。\n[^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。\n[^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。\n[^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。\n[^9]: Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J, Sperling R, van Veluw SJ. *Cerebral amyloid angiopathy and Alzheimer disease—one peptide, two pathways*. Nat Rev Neurol. 2020;16(1):30-42. DOI: [10.1038/s41582-019-0281-2](https://doi.org/10.1038/s41582-019-0281-2)（PMC7268202；全文查證 accessed 2026-07-29）：CAA 與 AD 均涉及 Aβ，但病理路徑不同；兩者常在同一腦內共存，且可共同促進 cognitive impairment／dementia。\n\n",
+      "rewrittenSummary": "## Summary\n- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]\n- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]\n- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]\n\n### 影像判讀骨架（一般放射科醫師需知）\n- **首選序列**：以 SWI 或 GRE/T2\\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]\n- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]\n- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]\n- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]\n- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]\n- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion** 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]\n- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]\n\n### 鑑別診斷（依分布判讀）\n- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]\n- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]\n- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]\n- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]\n\n",
       "validation": {
         "hashMatches": true,
         "losslessSummaryMatches": true,
@@ -2155,7 +2028,7 @@
         }
       ],
       "baselineEvidenceSha256": "f2cb3886169f9af0420a0f7a70408fa839b4f8538690f1ffa7c4d7d15c1a04a9",
-      "coverageEvidenceSha256": "38bac4185f348683d6aa659a737434ea2a1f0d774364d8c1ee4e5c1aa15f7407"
+      "coverageEvidenceSha256": "184604313d1481e60be3282258d36dff505b56766880941970fe3196e0717d0a"
     },
     {
       "slug": "clippers",

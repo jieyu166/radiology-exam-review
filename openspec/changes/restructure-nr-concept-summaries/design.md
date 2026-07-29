@@ -30,6 +30,10 @@ scripts/nr_summary_audit.py will parse, inventory, and validate content but will
 
 Alternative considered: automatic Summary generation from headings and body text. Rejected because it can introduce unsupported relationships or silently drop conditions.
 
+Every nonblank line inside an accepted Summary variant must be either a nonempty level-3 heading or a valid top-level bold-label bullet with at least one defined footnote reference. Plain prose, block quotes, fenced code, Markdown tables, callouts, and nested bullets are rejected. This closed grammar prevents content from being silently excluded from generated keyPoints.
+
+Alternative considered: validate only lines that already look like bullets. Rejected because arbitrary prose could otherwise survive note validation while disappearing from generated output.
+
 ### Manual classification uses a closed enum and complete inventory
 
 Every NR entry will have exactly one type: disease, pattern-ddx, or anatomy-measurement-management. The tool may consume a checked-in override map, but unknown values and unclassified notes fail validation. Phase 1 assigns the 10 fixed pilot slugs to batch-00 and leaves the other 206 as unassigned.
@@ -41,6 +45,10 @@ Alternative considered: infer type from filename keywords. Rejected because enti
 batch-00.json stores the original Summary losslessly, stable fact-unit IDs, source refs, dispositions, rewritten Summary, hashes, per-note status, and validation results. A note can be verified only when every original fact unit is covered and there are zero unsupported new facts.
 
 Alternative considered: rely only on git diff review. Rejected because a compact rewrite can omit a qualifier or exception without creating an obvious structural defect.
+
+The trusted final-review anchor covers every fact disposition and source mapping, per-note sourceStatus and status, current and rewritten Summary snapshots, validation results, root status, and Phase 1 verification metadata. Coordinated evidence changes require resealing the anchor; changing both content and its self-reported digest without updating the trusted anchor fails with evidence-trusted-final-mismatch.
+
+Alternative considered: trust only digests stored inside batch-00.json. Rejected because an attacker or accidental edit could change both evidence and its colocated digest.
 
 ### Source research is exception-driven
 
@@ -56,9 +64,13 @@ Alternative considered: repair unrelated lint defects in this branch. Rejected t
 
 ### Generated keyPoints must match source Summary bullets
 
-After scripts/build_concepts.py runs, each pilot JSON keyPoints array must equal the corresponding top-level Summary bullets after footnote-marker removal and the build script's established normalization. Mismatch is reported as generated-keypoints-mismatch.
+After scripts/build_concepts.py runs, each pilot JSON keyPoints array must equal the aggregate of top-level bullets from all accepted Summary variants, in source order, after footnote-marker removal and the build script's established normalization. Mismatch is reported as generated-keypoints-mismatch.
 
 Alternative considered: visual spot checks only. Rejected because multi-Summary variants and nested sections can produce subtle extraction differences.
+
+The build runs as `python scripts/build_concepts.py --batch-file docs/reports/nr-summary-rewrite/batch-00.json --quiet`. It writes only selected pilot detail files whose deterministic bytes changed, reconstructs a coherent index from checked-in detail files, and performs no unrelated writes. The Phase 1 generated manifest records the exact 10 pilot hashes, index hash and entry count, total detail-file count, and a digest of the whole detail tree. Any missing, added, or changed non-pilot detail file fails validation.
+
+Alternative considered: run the unscoped repository-wide generator and inspect the diff manually. Rejected because write scope and non-pilot drift would not be machine-enforced.
 
 ## Implementation Contract
 
@@ -69,8 +81,11 @@ Alternative considered: visual spot checks only. Rejected because multi-Summary 
 - validate-note reports stable finding codes and exits 1 on structural or footnote errors.
 - Task 1 provides a syntactically callable `validate_evidence()`/`validate-batch` placeholder only; a successful Task 1 `validate-batch` invocation is not evidence verification.
 - Task 3 extends that stable interface to verify source hashes, evidence schema, fact-source mappings, fact dispositions, rewritten Summary coverage, and generated keyPoints.
-- The 10 pilot Summary sections use bold-label top-level bullets without Summary tables, callouts, or nested bullets.
+- Every nonblank line in each accepted pilot Summary variant is either a nonempty level-3 heading or a valid bold-label top-level bullet with a defined footnote; prose, quotes, code, tables, callouts, and nested bullets are rejected.
+- Generated keyPoints aggregate all accepted Summary variants in source order.
+- The batch-scoped build performs no unrelated writes and its manifest seals the exact pilot files, index, counts, and whole detail tree.
 - Notes that require unavailable research remain research-needed or manual-review and are never reported as verified.
+- The Phase 1 batch root remains needs-review while the four derived manual fact units remain unresolved.
 
 ### Public Python interfaces
 
@@ -94,11 +109,13 @@ batch-00.json has schemaVersion 1, batch batch-00, scope NR, status, and notes. 
 ### Failure modes
 
 - Missing Summary, invalid bold-label bullet, nested bullet, callout, table, empty bullet, or undefined footnote produces an error finding and nonzero CLI exit.
+- Any nonblank Summary line outside the closed heading-or-bullet grammar produces summary-content-line.
 - Duplicate/unclassified/missing inventory entries fail inventory validation.
 - A source hash mismatch stops edits to that note and changes its status to manual-review.
 - Missing or undefined source refs prevent a fact unit from being covered.
 - Unresolved research does not block safe sibling notes, but prevents the affected note and batch root from being verified.
 - A generated keyPoints mismatch fails batch validation.
+- A generated manifest mismatch or trusted final-review anchor mismatch fails batch validation.
 - Any new project lint error fails Phase 1; the two named baseline errors remain recorded and unchanged.
 
 ### Acceptance criteria
@@ -109,7 +126,9 @@ batch-00.json has schemaVersion 1, batch batch-00, scope NR, status, and notes. 
 - The 10 pilot notes pass validate-note.
 - Batch validation reports no missing sources, no unsupported new facts, and complete fact coverage for every verified note.
 - Concept build succeeds and generated keyPoints match source Summary bullets.
-- Project lint shows no errors beyond the two fixed baseline errors and no pilot note appears in the error list.
+- The scoped build is byte-idempotent, writes no unrelated detail file, and validates the exact 10-file/index/count/whole-tree manifest.
+- Project lint reports exactly the two named errors and 124 warnings, and no pilot note appears in the error list.
+- Final evidence passes the trusted-anchor gate and the batch root is needs-review with Phase 2 disabled.
 
 ### Scope boundaries
 
@@ -122,5 +141,5 @@ Out of scope: the remaining 206 Summary rewrites, unrelated question/vault edits
 - [Risk] Semantic fact units require judgment and cannot be fully derived mechanically. -> Mitigation: lossless original snapshots, stable IDs, explicit source refs, and per-note review.
 - [Risk] Summary compression may drop qualifiers or versions. -> Mitigation: fact-unit coverage includes polarity, qualifiers, numbers, dates, and guideline version layers.
 - [Risk] Existing project lint is not clean. -> Mitigation: pin the exact baseline and reject any new error while requiring pilot-local zero errors.
-- [Risk] build_concepts.py regenerates all concept JSON. -> Mitigation: compare changed paths and stage only the 10 pilot outputs plus a deterministic index diff when present.
+- [Risk] A concept build could drift non-pilot generated data. -> Mitigation: use the batch-scoped deterministic command and validate exact pilot/index/count hashes plus the whole detail-tree digest.
 - [Risk] Authenticated literature may be unavailable. -> Mitigation: park only affected notes as research-needed and continue safe notes.

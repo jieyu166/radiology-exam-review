@@ -36,6 +36,7 @@ same:
 - **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]
 - **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]
 
+## 參考來源
 ### 參考來源
 [^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。
 [^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。

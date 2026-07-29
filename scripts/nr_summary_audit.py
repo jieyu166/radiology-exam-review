@@ -13,11 +13,13 @@ import re
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Iterable, Sequence
+from urllib.parse import urlparse
 
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(?P<frontmatter>.*?)\n---\s*(?:\n|\Z)", re.DOTALL)
 SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary(?:\s+\u2014\s+\S.*)?\s*$")
 LEVEL_TWO_HEADING_RE = re.compile(r"^##(?:\s|$)")
+LEVEL_THREE_HEADING_RE = re.compile(r"^###\s+\S.*$")
 FOOTNOTE_DEFINITION_RE = re.compile(r"^\[\^(?P<id>[^\]\r\n]+)\]:", re.MULTILINE)
 FOOTNOTE_REFERENCE_RE = re.compile(r"\[\^(?P<id>[^\]\r\n]+)\]")
 VALID_BULLET_RE = re.compile(r"^- \*\*[^*]+\*\*[:\uFF1A]")
@@ -67,6 +69,27 @@ PILOT_SLUGS = frozenset(
         "dementia-neuroimaging-overview",
     }
 )
+EXPECTED_NR_NOTE_COUNT = 216
+EXPECTED_BATCH_00_COUNT = 10
+EXPECTED_UNASSIGNED_COUNT = 206
+EXPECTED_GENERATED_CONCEPT_COUNT = 978
+EXPECTED_MANUAL_REVIEW_FACT_IDS = frozenset(
+    {
+        "acute-stroke-management-f09",
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+        "bilateral-subcortical-dwi-hyperintensity-ddx-f12",
+    }
+)
+EXPECTED_LINT_ERRORS = (
+    "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
+    "[json 殘留 ![[...]]] 2022-264",
+)
+EXPECTED_LINT_WARNING_COUNT = 124
+REQUIRED_EXACT_DOI_URLS = (
+    "https://doi.org/10.6705/j.jacme.202103_11(1).0002",
+    "https://doi.org/10.1016/S0140-6736(00)02237-6",
+)
 GENERATED_INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
 # Keep this explicit and empty unless a reviewed legacy index-only concept is
 # intentionally supported. Every other index entry must have a detail JSON.
@@ -85,6 +108,16 @@ TRUSTED_REVIEWED_BASELINE_EVIDENCE_SHA256 = (
 )
 TRUSTED_FINAL_SUMMARY_BULLET_EVIDENCE_SHA256 = (
     "b632ffec59156e3b25c2d011daeb1a0c42dd09dd90449d058d5974e8de343412"
+)
+# Final-review trust root. Unlike the mutable self-digests, this reviewed seal
+# covers the root/note statuses, every fact disposition, exact manual queue,
+# complete rewritten Summary spans, validation counters, bullet evidence, and
+# phase1Verification (including lint and generated manifest). Updating it is
+# intentionally expensive: review all 10 Summary spans and fact mappings,
+# reproduce lint/build outputs, regenerate the manifest, then update the
+# regression fixtures and this digest in the same reviewed commit.
+TRUSTED_FINAL_REVIEW_EVIDENCE_SHA256 = (
+    "3b1d6be11cca13682cea9b2e7dcbd99ec8f838d51cb9dae46f66e48f1be968d3"
 )
 TRUSTED_TASK4_SOURCE_REF_ADDITIONS = {
     "artery-of-adamkiewicz-f05": frozenset({"8"}),
@@ -492,6 +525,8 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
         section_lines = section.content.splitlines()
         for relative_line, line in enumerate(section_lines, start=1):
             line_number = section.start_line + relative_line
+            if not line.strip():
+                continue
             if NESTED_BULLET_RE.match(line):
                 findings.append(_finding("summary-nested-bullet", note, f"Nested bullet at line {line_number}."))
             if CALLOUT_RE.match(line):
@@ -505,23 +540,36 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
             ):
                 findings.append(_finding("summary-table", note, f"Table separator at line {line_number}."))
 
+            if LEVEL_THREE_HEADING_RE.fullmatch(line):
+                continue
             bullet_match = TOP_LEVEL_BULLET_RE.match(line)
-            if not bullet_match:
-                continue
-            bullet = bullet_match.group("content").strip()
-            if not bullet:
-                findings.append(_finding("summary-empty-bullet", note, f"Empty bullet at line {line_number}."))
-                continue
-            if not VALID_BULLET_RE.match(line) or not FOOTNOTE_REFERENCE_RE.search(bullet):
-                findings.append(
-                    _finding(
-                        "summary-bullet-label",
-                        note,
-                        f"Bullet at line {line_number} must start with a bold label and cite a footnote.",
+            if bullet_match:
+                bullet = bullet_match.group("content").strip()
+                if not bullet:
+                    findings.append(_finding("summary-empty-bullet", note, f"Empty bullet at line {line_number}."))
+                    continue
+                if not VALID_BULLET_RE.match(line) or not FOOTNOTE_REFERENCE_RE.search(bullet):
+                    findings.append(
+                        _finding(
+                            "summary-bullet-label",
+                            note,
+                            f"Bullet at line {line_number} must start with a bold label and cite a footnote.",
+                        )
                     )
-                )
+                    continue
+                valid_bullets += 1
                 continue
-            valid_bullets += 1
+
+            findings.append(
+                _finding(
+                    "summary-content-line",
+                    note,
+                    (
+                        f"Summary content at line {line_number} must be a level-three "
+                        "subsection heading or a valid labeled top-level bullet."
+                    ),
+                )
+            )
 
         if valid_bullets == 0:
             findings.append(
@@ -684,6 +732,75 @@ def _final_summary_bullet_evidence_sha256(
     return _canonical_sha256({"batch": "batch-00", "notes": note_payloads})
 
 
+def _derived_manual_review_fact_ids(report: dict) -> list[str]:
+    report_notes = report.get("notes") if isinstance(report, dict) else None
+    if not isinstance(report_notes, list):
+        return []
+    return sorted(
+        fact.get("id")
+        for entry in report_notes
+        if isinstance(entry, dict) and isinstance(entry.get("factUnits"), list)
+        for fact in entry["factUnits"]
+        if isinstance(fact, dict)
+        and fact.get("disposition") == "manual-review"
+        and isinstance(fact.get("id"), str)
+    )
+
+
+def _final_review_evidence_sha256(
+    report: dict,
+    notes: dict[str, NoteRecord],
+) -> str:
+    """Seal all reviewed final-state fields outside mutable batch evidence."""
+    note_payloads = []
+    for slug in sorted(PILOT_SLUGS):
+        entry = _unique_batch_entry(report, slug)
+        note = notes.get(slug)
+        if entry is None:
+            note_payloads.append({"slug": slug, "entry": None})
+            continue
+        fact_units = entry.get("factUnits")
+        reviewed_facts = (
+            [
+                {
+                    "id": fact.get("id"),
+                    "text": fact.get("text"),
+                    "sourceRefs": fact.get("sourceRefs"),
+                    "disposition": fact.get("disposition"),
+                }
+                if isinstance(fact, dict)
+                else None
+                for fact in fact_units
+            ]
+            if isinstance(fact_units, list)
+            else None
+        )
+        note_payloads.append(
+            {
+                "slug": slug,
+                "type": entry.get("type"),
+                "sourceStatus": entry.get("sourceStatus"),
+                "status": entry.get("status"),
+                "currentSummary": note.original_summary if note is not None else None,
+                "rewrittenSummary": entry.get("rewrittenSummary"),
+                "factUnits": reviewed_facts,
+                "summaryBulletEvidence": entry.get("summaryBulletEvidence"),
+                "validation": entry.get("validation"),
+                "baselineEvidenceSha256": entry.get("baselineEvidenceSha256"),
+                "coverageEvidenceSha256": entry.get("coverageEvidenceSha256"),
+            }
+        )
+    return _canonical_sha256(
+        {
+            "batch": "batch-00",
+            "status": report.get("status"),
+            "phase1Verification": report.get("phase1Verification"),
+            "manualReviewFactIds": _derived_manual_review_fact_ids(report),
+            "notes": note_payloads,
+        }
+    )
+
+
 def _uses_checked_in_pilot_notes(notes: dict[str, NoteRecord]) -> bool:
     if set(notes) != PILOT_SLUGS:
         return False
@@ -740,6 +857,19 @@ def _trusted_evidence_anchor_findings(
                 ),
             )
         )
+    final_review_digest = _final_review_evidence_sha256(report, notes)
+    if final_review_digest != TRUSTED_FINAL_REVIEW_EVIDENCE_SHA256:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-trusted-final-mismatch",
+                batch_path,
+                (
+                    "The complete reviewed final state differs from the code-owned "
+                    "trust anchor."
+                ),
+            )
+        )
     return findings
 
 
@@ -767,17 +897,14 @@ def _generated_keypoints(note: NoteRecord) -> list[str]:
         return []
 
     keypoints: list[str] = []
-    # build_concepts.py uses the first section whose heading contains
-    # "Summary".  NoteRecord preserves accepted suffix variants and includes
-    # their level-three subsection content, so dementia's variant heading and
-    # nested classification bullets retain their website order here.
-    for line in note.summaries[0].content.splitlines():
-        match = TOP_LEVEL_BULLET_RE.match(line)
-        if not match:
-            continue
-        normalized = FOOTNOTE_REFERENCE_RE.sub("", match.group("content")).strip()
-        if normalized:
-            keypoints.append(normalized)
+    for section in note.summaries:
+        for line in section.content.splitlines():
+            match = TOP_LEVEL_BULLET_RE.match(line)
+            if not match:
+                continue
+            normalized = FOOTNOTE_REFERENCE_RE.sub("", match.group("content")).strip()
+            if normalized:
+                keypoints.append(normalized)
     return keypoints
 
 
@@ -875,7 +1002,10 @@ def validate_generated_keypoints(
     return findings
 
 
-def validate_generated_index(repo_root: Path) -> list[Finding]:
+def validate_generated_index(
+    repo_root: Path,
+    expected_count: int | None = None,
+) -> list[Finding]:
     """Require a complete, non-dangling index consistent with detail metadata."""
     index_path = repo_root / "data" / "concepts-index.json"
     detail_root = repo_root / "data" / "concepts"
@@ -903,6 +1033,15 @@ def validate_generated_index(repo_root: Path) -> list[Finding]:
         ]
 
     findings: list[Finding] = []
+    if expected_count is not None and len(entries) != expected_count:
+        findings.append(
+            Finding(
+                "error",
+                "generated-index-count-mismatch",
+                index_path.as_posix(),
+                f"Generated index must contain exactly {expected_count} entries.",
+            )
+        )
     indexed_slugs: set[str] = set()
     for entry in entries:
         if not isinstance(entry, dict) or not isinstance(entry.get("slug"), str):
@@ -977,6 +1116,15 @@ def validate_generated_index(repo_root: Path) -> list[Finding]:
             )
 
     detail_slugs = {path.stem for path in detail_root.glob("*.json")}
+    if expected_count is not None and len(detail_slugs) != expected_count:
+        findings.append(
+            Finding(
+                "error",
+                "generated-index-count-mismatch",
+                detail_root.as_posix(),
+                f"Generated detail directory must contain exactly {expected_count} JSON files.",
+            )
+        )
     unindexed = sorted(detail_slugs - indexed_slugs)
     for slug in unindexed:
         findings.append(
@@ -987,6 +1135,378 @@ def validate_generated_index(repo_root: Path) -> list[Finding]:
                 f"Detail JSON {slug!r} is absent from the generated index.",
             )
         )
+    return findings
+
+
+def _raw_file_sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def build_generated_output_manifest(repo_root: Path) -> dict:
+    """Return a timestamp-free seal of pilot outputs and the full detail tree."""
+    detail_root = repo_root / "data" / "concepts"
+    index_path = repo_root / "data" / "concepts-index.json"
+    detail_paths = sorted(detail_root.glob("*.json"), key=lambda path: path.name)
+    detail_records = [
+        {
+            "path": path.relative_to(repo_root).as_posix(),
+            "sha256": _raw_file_sha256(path),
+        }
+        for path in detail_paths
+    ]
+    pilot_files = {
+        (Path("data") / "concepts" / f"{slug}.json").as_posix(): (
+            _raw_file_sha256(detail_root / f"{slug}.json")
+            if (detail_root / f"{slug}.json").is_file()
+            else None
+        )
+        for slug in sorted(PILOT_SLUGS)
+    }
+    index_report = json.loads(index_path.read_text(encoding="utf-8"))
+    index_entries = index_report.get("concepts") if isinstance(index_report, dict) else None
+    return {
+        "schemaVersion": 1,
+        "pilotFiles": pilot_files,
+        "index": {
+            "path": "data/concepts-index.json",
+            "sha256": _raw_file_sha256(index_path),
+            "entryCount": len(index_entries) if isinstance(index_entries, list) else None,
+        },
+        "detailFileCount": len(detail_records),
+        "allDetailFilesSha256": _canonical_sha256(detail_records),
+    }
+
+
+def validate_generated_manifest(
+    reviewed_manifest: object,
+    repo_root: Path,
+) -> list[Finding]:
+    """Require current generated bytes to equal a reviewed deterministic manifest."""
+    path = (repo_root / "data").as_posix()
+    if not isinstance(reviewed_manifest, dict):
+        return [
+            Finding(
+                "error",
+                "generated-manifest-invalid",
+                path,
+                "Reviewed generated manifest must be an object.",
+            )
+        ]
+    try:
+        current_manifest = build_generated_output_manifest(repo_root)
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        return [
+            Finding(
+                "error",
+                "generated-manifest-invalid",
+                path,
+                f"Cannot recompute generated output manifest: {error}.",
+            )
+        ]
+    if reviewed_manifest != current_manifest:
+        return [
+            Finding(
+                "error",
+                "generated-manifest-mismatch",
+                path,
+                "Current generated output bytes differ from the reviewed manifest.",
+            )
+        ]
+    return []
+
+
+def parse_lint_result(output: str, exit_code: int) -> dict | None:
+    """Parse lint_concepts.py --quiet output into a deterministic projection."""
+    if not isinstance(output, str) or not isinstance(exit_code, int):
+        return None
+    error_match = re.search(r"(?m)^=== ERROR \((\d+)\) ===\s*$", output)
+    warning_match = re.search(r"(?m)^=== WARN \((\d+)\) ===\s*$", output)
+    summary_match = re.search(
+        r"(?m)^小結：(\d+) errors, (\d+) warnings\s*$",
+        output,
+    )
+    if error_match is None or warning_match is None or summary_match is None:
+        return None
+    errors = tuple(
+        match.group("message").strip()
+        for match in re.finditer(r"(?m)^\s*✗\s+(?P<message>.+?)\s*$", output)
+    )
+    error_count = int(error_match.group(1))
+    warning_count = int(warning_match.group(1))
+    if (
+        error_count != int(summary_match.group(1))
+        or warning_count != int(summary_match.group(2))
+        or error_count != len(errors)
+    ):
+        return None
+    pilot_errors = sorted(
+        error
+        for error in errors
+        if any(
+            f"{slug}.md" in error or f"data/concepts/{slug}.json" in error
+            for slug in PILOT_SLUGS
+        )
+    )
+    return {
+        "exitCode": exit_code,
+        "errorCount": error_count,
+        "warningCount": warning_count,
+        "errors": list(errors),
+        "pilotErrors": pilot_errors,
+    }
+
+
+def validate_lint_baseline(
+    output: str,
+    exit_code: int,
+    *,
+    path: str = "scripts/lint_concepts.py",
+) -> list[Finding]:
+    """Accept only the exact reviewed non-NR 2-error/124-warning baseline."""
+    parsed = parse_lint_result(output, exit_code)
+    if (
+        parsed is None
+        or parsed["exitCode"] != 1
+        or parsed["errorCount"] != len(EXPECTED_LINT_ERRORS)
+        or parsed["warningCount"] != EXPECTED_LINT_WARNING_COUNT
+        or parsed["errors"] != list(EXPECTED_LINT_ERRORS)
+        or parsed["pilotErrors"]
+    ):
+        return [
+            Finding(
+                "error",
+                "lint-baseline-mismatch",
+                path,
+                "Lint output must equal the exact two-error/124-warning non-NR baseline.",
+            )
+        ]
+    return []
+
+
+def _phase1_fact_coverage(report: dict) -> dict:
+    facts = [
+        fact
+        for entry in report.get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("factUnits"), list)
+        for fact in entry["factUnits"]
+        if isinstance(fact, dict)
+    ]
+    return {
+        "total": len(facts),
+        "covered": sum(fact.get("disposition") == "covered" for fact in facts),
+        "manualReview": sum(
+            fact.get("disposition") == "manual-review" for fact in facts
+        ),
+        "researchNeeded": sum(
+            fact.get("disposition") == "research-needed" for fact in facts
+        ),
+        "pending": sum(fact.get("disposition") == "pending" for fact in facts),
+    }
+
+
+def _generated_keypoint_count_projection(repo_root: Path) -> dict:
+    counts = {}
+    for slug in sorted(PILOT_SLUGS):
+        path = repo_root / "data" / "concepts" / f"{slug}.json"
+        detail = json.loads(path.read_text(encoding="utf-8"))
+        keypoints = detail.get("keyPoints") if isinstance(detail, dict) else None
+        counts[slug] = len(keypoints) if isinstance(keypoints, list) else None
+    return {"status": "pass", "checked": len(PILOT_SLUGS), "counts": counts}
+
+
+def _generated_reference_url_projection(repo_root: Path) -> dict:
+    urls: list[str] = []
+    invalid = 0
+    for slug in sorted(PILOT_SLUGS):
+        path = repo_root / "data" / "concepts" / f"{slug}.json"
+        detail = json.loads(path.read_text(encoding="utf-8"))
+        links = detail.get("externalLinks") if isinstance(detail, dict) else None
+        if not isinstance(links, list):
+            invalid += 1
+            continue
+        for link in links:
+            url = link.get("url") if isinstance(link, dict) else None
+            if not isinstance(url, str):
+                invalid += 1
+                continue
+            parsed = urlparse(url)
+            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                invalid += 1
+            urls.append(url)
+    return {
+        "checked": len(urls),
+        "invalid": invalid,
+        "requiredExactUrls": list(REQUIRED_EXACT_DOI_URLS),
+        "requiredPresent": [
+            required_url in urls for required_url in REQUIRED_EXACT_DOI_URLS
+        ],
+    }
+
+
+def _phase1_verification_findings(
+    report: dict,
+    notes: dict[str, NoteRecord],
+    batch_path: str,
+) -> list[Finding]:
+    """Validate/recompute final Phase 1 metadata for checked-in pilot evidence."""
+    if not _uses_checked_in_pilot_notes(notes):
+        return []
+    findings: list[Finding] = []
+    verification = report.get("phase1Verification")
+    if not isinstance(verification, dict):
+        return [
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "Checked-in final evidence requires phase1Verification metadata.",
+            )
+        ]
+
+    derived_manual_queue = _derived_manual_review_fact_ids(report)
+    if (
+        derived_manual_queue != sorted(EXPECTED_MANUAL_REVIEW_FACT_IDS)
+        or verification.get("manualQueue") != derived_manual_queue
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "evidence-manual-queue-mismatch",
+                batch_path,
+                "The reviewed Phase 1 manual queue must contain the exact four fact IDs.",
+            )
+        )
+
+    expected_fact_coverage = _phase1_fact_coverage(report)
+    if verification.get("factCoverage") != expected_fact_coverage:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "phase1Verification factCoverage does not match fact dispositions.",
+            )
+        )
+
+    report_notes = [
+        entry for entry in report.get("notes", []) if isinstance(entry, dict)
+    ]
+    expected_review_gate = {
+        "status": report.get("status"),
+        "verifiedNotes": sum(
+            entry.get("status") == "verified" for entry in report_notes
+        ),
+        "manualReviewNotes": sum(
+            entry.get("status") == "manual-review" for entry in report_notes
+        ),
+        "phase2Started": False,
+    }
+    if verification.get("reviewGate") != expected_review_gate:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "phase1Verification reviewGate does not match note/root status.",
+            )
+        )
+    if verification.get("status") != report.get("status"):
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "phase1Verification status must match batch status.",
+            )
+        )
+    if verification.get("loginQueue") != []:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "Phase 1 loginQueue must remain empty.",
+            )
+        )
+
+    lint = verification.get("lint")
+    if not isinstance(lint, dict):
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                "phase1Verification lint result must be an object.",
+            )
+        )
+    else:
+        lint_output = lint.get("rawOutput")
+        lint_exit_code = lint.get("exitCode")
+        lint_findings = validate_lint_baseline(
+            lint_output,
+            lint_exit_code,
+            path=batch_path,
+        )
+        findings.extend(lint_findings)
+        parsed_lint = parse_lint_result(lint_output, lint_exit_code)
+        stored_projection = {
+            field: lint.get(field)
+            for field in (
+                "exitCode",
+                "errorCount",
+                "warningCount",
+                "errors",
+                "pilotErrors",
+            )
+        }
+        if parsed_lint is None or stored_projection != parsed_lint:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-phase1-verification",
+                    batch_path,
+                    "Stored lint counters/errors do not match parsed rawOutput.",
+                )
+            )
+
+    repo_root = Path(__file__).resolve().parents[1]
+    findings.extend(
+        validate_generated_manifest(
+            verification.get("generatedManifest"),
+            repo_root,
+        )
+    )
+    try:
+        expected_keypoints = _generated_keypoint_count_projection(repo_root)
+        expected_urls = _generated_reference_url_projection(repo_root)
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        findings.append(
+            Finding(
+                "error",
+                "evidence-phase1-verification",
+                batch_path,
+                f"Cannot recompute generated Phase 1 metadata: {error}.",
+            )
+        )
+    else:
+        if verification.get("generatedKeyPoints") != expected_keypoints:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-phase1-verification",
+                    batch_path,
+                    "Stored generated keyPoint counts are stale.",
+                )
+            )
+        if verification.get("referenceUrls") != expected_urls:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-phase1-verification",
+                    batch_path,
+                    "Stored generated reference URL checks are stale.",
+                )
+            )
     return findings
 
 
@@ -1033,6 +1553,28 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
         )
         return findings
     findings.extend(_trusted_evidence_anchor_findings(report, notes, batch_path))
+    findings.extend(_phase1_verification_findings(report, notes, batch_path))
+    if _uses_checked_in_pilot_notes(notes):
+        allowed_root_fields = {
+            "schemaVersion",
+            "batch",
+            "scope",
+            "status",
+            "phase1Verification",
+            "notes",
+        }
+        extra_root_fields = sorted(set(report) - allowed_root_fields)
+        if extra_root_fields:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-phase1-verification",
+                    batch_path,
+                    "Unchecked batch root fields are not allowed: "
+                    + ", ".join(extra_root_fields)
+                    + ".",
+                )
+            )
 
     slugs = [
         entry.get("slug")
@@ -1794,9 +2336,17 @@ def _inventory_finding(code: str, path: str, message: str) -> Finding:
     return Finding(severity="error", code=code, path=path, message=message)
 
 
-def validate_inventory(inventory: dict) -> list[Finding]:
+def validate_inventory(inventory: object) -> list[Finding]:
     """Validate the closed Phase 1 inventory schema and enum values."""
     findings: list[Finding] = []
+    if not isinstance(inventory, dict):
+        return [
+            _inventory_finding(
+                "inventory-root",
+                "inventory.json",
+                "Inventory root must be an object.",
+            )
+        ]
     if inventory.get("schemaVersion") != 1:
         findings.append(
             _inventory_finding("inventory-schema", "inventory.json", "schemaVersion must be 1.")
@@ -1816,6 +2366,53 @@ def validate_inventory(inventory: dict) -> list[Finding]:
     if not isinstance(entries, list):
         findings.append(_inventory_finding("inventory-schema", "inventory.json", "notes must be a list."))
         return findings
+
+    if len(entries) != EXPECTED_NR_NOTE_COUNT:
+        findings.append(
+            _inventory_finding(
+                "inventory-count",
+                "inventory.json",
+                f"Phase 1 inventory must contain exactly {EXPECTED_NR_NOTE_COUNT} notes.",
+            )
+        )
+    valid_slugs = [
+        entry.get("slug")
+        for entry in entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    ]
+    if (
+        len(NOTE_TYPE_OVERRIDES) != EXPECTED_NR_NOTE_COUNT
+        or set(valid_slugs) != set(NOTE_TYPE_OVERRIDES)
+    ):
+        findings.append(
+            _inventory_finding(
+                "inventory-override-completeness",
+                "inventory.json",
+                "Inventory slugs must exactly equal the reviewed note-type override map.",
+            )
+        )
+    batch_00_count = sum(
+        isinstance(entry, dict) and entry.get("batch") == "batch-00"
+        for entry in entries
+    )
+    unassigned_count = sum(
+        isinstance(entry, dict) and entry.get("batch") == "unassigned"
+        for entry in entries
+    )
+    if (
+        batch_00_count != EXPECTED_BATCH_00_COUNT
+        or unassigned_count != EXPECTED_UNASSIGNED_COUNT
+    ):
+        findings.append(
+            _inventory_finding(
+                "inventory-batch-counts",
+                "inventory.json",
+                (
+                    f"Phase 1 inventory must split into {EXPECTED_BATCH_00_COUNT} "
+                    f"batch-00 and {EXPECTED_UNASSIGNED_COUNT} unassigned notes."
+                ),
+            )
+        )
 
     required = {
         "slug",
@@ -1847,6 +2444,16 @@ def validate_inventory(inventory: dict) -> list[Finding]:
                     "inventory-type",
                     path,
                     f"Unsupported note type: {entry.get('type')!r}.",
+                )
+            )
+        slug = entry.get("slug")
+        expected_type = NOTE_TYPE_OVERRIDES.get(slug) if isinstance(slug, str) else None
+        if expected_type is not None and entry.get("type") != expected_type:
+            findings.append(
+                _inventory_finding(
+                    "inventory-override-completeness",
+                    path,
+                    f"Inventory type for {slug!r} must equal reviewed override {expected_type!r}.",
                 )
             )
         if not _is_string_member(entry.get("status"), NOTE_STATUSES):
@@ -1897,10 +2504,15 @@ def validate_inventory(inventory: dict) -> list[Finding]:
 
 
 def validate_inventory_against_notes(
-    inventory: dict, notes: dict[str, NoteRecord]
+    inventory: object,
+    notes: dict[str, NoteRecord],
+    *,
+    immutable_hash_slugs: frozenset[str] = frozenset(),
 ) -> list[Finding]:
-    """Validate inventory uniqueness and exact coverage of current NR notes."""
+    """Validate inventory coverage, preserving reviewed pre-edit hashes when requested."""
     findings = validate_inventory(inventory)
+    if not isinstance(inventory, dict):
+        return findings
     entries = inventory.get("notes")
     if not isinstance(entries, list):
         return findings
@@ -1929,6 +2541,22 @@ def validate_inventory_against_notes(
         )
 
     nr_notes = {slug: note for slug, note in notes.items() if note.in_scope}
+    if len(nr_notes) != EXPECTED_NR_NOTE_COUNT:
+        findings.append(
+            _inventory_finding(
+                "inventory-count",
+                "inventory.json",
+                f"Current NR scope must contain exactly {EXPECTED_NR_NOTE_COUNT} notes.",
+            )
+        )
+    if set(nr_notes) != set(NOTE_TYPE_OVERRIDES):
+        findings.append(
+            _inventory_finding(
+                "inventory-override-completeness",
+                "inventory.json",
+                "Current NR slugs must exactly equal the reviewed note-type override map.",
+            )
+        )
     missing = sorted(set(nr_notes) - inventory_slugs)
     extra = sorted(inventory_slugs - set(nr_notes))
     if missing or extra:
@@ -1957,7 +2585,10 @@ def validate_inventory_against_notes(
                     f"Inventory path for {slug} does not match the note path.",
                 )
             )
-        if entry.get("originalSha256") != note.sha256:
+        if (
+            slug not in immutable_hash_slugs
+            and entry.get("originalSha256") != note.sha256
+        ):
             findings.append(
                 _inventory_finding(
                     "inventory-hash-mismatch",
@@ -1991,6 +2622,34 @@ def validate_inventory_against_notes(
             )
         )
     return findings
+
+
+def _preserve_inventory_hashes(
+    generated: dict,
+    reviewed: object,
+    immutable_hash_slugs: frozenset[str],
+) -> dict:
+    """Carry reviewed pre-edit hashes into a freshly generated comparison."""
+    reviewed_entries = reviewed.get("notes") if isinstance(reviewed, dict) else None
+    generated_entries = generated.get("notes")
+    if not isinstance(reviewed_entries, list) or not isinstance(generated_entries, list):
+        return generated
+    reviewed_by_slug = {
+        entry.get("slug"): entry
+        for entry in reviewed_entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    for entry in generated_entries:
+        if not isinstance(entry, dict):
+            continue
+        slug = entry.get("slug")
+        reviewed_entry = reviewed_by_slug.get(slug)
+        if slug not in immutable_hash_slugs or not isinstance(reviewed_entry, dict):
+            continue
+        reviewed_hash = reviewed_entry.get("originalSha256")
+        if isinstance(reviewed_hash, str) and SHA256_RE.fullmatch(reviewed_hash):
+            entry["originalSha256"] = reviewed_hash
+    return generated
 
 
 def _findings_have_errors(findings: Iterable[Finding]) -> bool:
@@ -2038,8 +2697,12 @@ def _inventory(root: Path) -> tuple[dict, dict[str, NoteRecord]]:
     return report, normalized_records
 
 
-def _inventory_counts(report: dict) -> tuple[int, int, int, int, int]:
+def _inventory_counts(report: object) -> tuple[int, int, int, int, int]:
+    if not isinstance(report, dict):
+        return 0, 0, 0, 0, 0
     entries = report.get("notes", [])
+    if not isinstance(entries, list):
+        return 0, 0, 0, 0, 0
     slugs = [
         entry.get("slug")
         for entry in entries
@@ -2371,8 +3034,29 @@ def main(argv: Sequence[str] | None = None) -> int:
             if not args.output.is_file():
                 print(f"Inventory output does not exist: {args.output}")
                 return 1
-            report = json.loads(args.output.read_text(encoding="utf-8"))
-            findings = validate_inventory_against_notes(report, notes)
+            try:
+                report = json.loads(args.output.read_text(encoding="utf-8"))
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+                _print_findings(
+                    [
+                        _inventory_finding(
+                            "inventory-json-invalid",
+                            args.output.as_posix(),
+                            f"Cannot read inventory JSON: {error}.",
+                        )
+                    ]
+                )
+                return 1
+            expected = _preserve_inventory_hashes(
+                expected,
+                report,
+                PILOT_SLUGS,
+            )
+            findings = validate_inventory_against_notes(
+                report,
+                notes,
+                immutable_hash_slugs=PILOT_SLUGS,
+            )
             if report != expected:
                 findings.append(
                     _inventory_finding(
@@ -2386,6 +3070,11 @@ def main(argv: Sequence[str] | None = None) -> int:
                 _print_findings(findings)
             return 1 if _findings_have_errors(findings) else 0
         report = expected
+        findings = validate_inventory_against_notes(report, notes)
+        if findings:
+            _print_inventory_counts(report)
+            _print_findings(findings)
+            return 1
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         _print_inventory_counts(report)
@@ -2415,7 +3104,17 @@ def main(argv: Sequence[str] | None = None) -> int:
         findings.extend(root_findings)
         if generated_root is not None:
             findings.extend(validate_generated_keypoints(generated_root, notes))
-            findings.extend(validate_generated_index(generated_root))
+            expected_generated_count = (
+                EXPECTED_GENERATED_CONCEPT_COUNT
+                if generated_root.resolve() == Path(__file__).resolve().parents[1]
+                else None
+            )
+            findings.extend(
+                validate_generated_index(
+                    generated_root,
+                    expected_count=expected_generated_count,
+                )
+            )
         if not args.allow_pending and not args.check_source_hashes:
             findings.extend(_pending_fact_findings(report))
         _print_batch_counts(report, findings)

@@ -41,7 +41,10 @@
     "**2015 器械優先序**：stent retriever 取栓應優先於 intra-arterial fibrinolysis，後者屬次線或特定情境選項。",
     "**2015 再灌流目標與時間**：技術目標為 mTICI 2b/3（Class I, LOE A），並應儘早且在發病 6 小時內完成（Class I, LOE B-R）；2015 指引對 6 小時後的原文是「效益未確立」（Class IIb, LOE C），較原摘要所寫「臨床效益顯著下降」保守，兩者不可合併為同一無版本規則。",
     "**近端大血管陷阱**：IV rt-PA 對 ICA／MCA M1 等近端大血栓的早期再通率僅約 **10–30%**，近端 ICA 更低；此低再通率是機械取栓／EVT 的核心理由，因此「rt-PA 效用不受血管或血栓大小影響、對大血栓也很好」為錯。",
-    "**2019–2020 後續證據層**：其後指引已把特定 LVO 病人的取栓窗延長至 6–24 小時，並以 DAWN／DEFUSE-3 的臨床－影像 mismatch 或 multimodal CT/MR selection 選病人；不得把此後續證據回填成 2015 的 timeless rule。"
+    "**2019–2020 後續證據層**：其後指引已把特定 LVO 病人的取栓窗延長至 6–24 小時，並以 DAWN／DEFUSE-3 的臨床－影像 mismatch 或 multimodal CT/MR selection 選病人；不得把此後續證據回填成 2015 的 timeless rule。",
+    "**2015 初始影像**：緊急處置前須先做腦部影像（Class I, LOE A）；多數情況下 NECT 即可提供決策所需資訊。",
+    "**2015 血管影像順序**：若考慮血管內治療，強烈建議初始評估納入 CTA／MRA，但不得延遲 IV r-tPA，必要時應先開始溶栓再儘快取得血管影像（Class I, LOE A）。",
+    "**2015 perfusion 證據層**：CT／MR perfusion 用於選擇血管內治療病人的效益當時仍屬未確立（Class IIb, LOE C），亦未證實優於 CTA／MRA。"
   ],
   "management": "- 符合條件者應給 IV 溶栓，**即使同時計畫取栓也不可為搶時間跳過**（Class I）。\n- **不需先觀察 tPA 反應**再進行血管內治療（觀察等待 Class III 不建議）。\n- 取栓時間窗自 2015 的「6 小時內」延長至 **24 小時**（DAWN/DEFUSE-3 等，影像選擇）。\n- Stent retriever 取栓**優先於**動脈內纖溶（IA fibrinolysis）。\n- 現行 IV 溶栓藥物中，**tenecteplase 已成 alteplase 的替代選項**。\n\n> [!note] 兩題的「錯誤」選項\n> 治療題：**「考慮血管內治療就跳過 IV r-tPA」錯**（應照給）。影像題：**「perfusion 已證實優於 CTA/MRA 選病人」錯**（效益未確立、Class IIb）。",
   "name": "Acute Ischemic Stroke — 2015 AHA/ASA Endovascular Update",

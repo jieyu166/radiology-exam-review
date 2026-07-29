@@ -26,7 +26,13 @@
     "**FTLD-tau／MAPT**：偏雙側顳葉。",
     "**FTLD-FUS**：偏雙側尾狀核。",
     "**FTLD-TDP／GRN**：markedly asymmetric，偏右側半球。",
-    "**FTLD-TDP／C9orf72**：呈雙側半球 generalized 分布。"
+    "**FTLD-TDP／C9orf72**：呈雙側半球 generalized 分布。",
+    "**DLB 萎縮軸**：VBM 萎縮主要見於 striatum、midbrain 與 hypothalamus，hippocampus 相對保留；相對海馬保留是與 AD 鑑別的重要線索。",
+    "**AD 萎縮軸**：以 prominent hippocampal atrophy 為特徵。",
+    "**PSP 中腦軸**：中腦萎縮可形成矢狀面 hummingbird sign、軸切面 Mickey Mouse sign，亦可見 morning glory sign。",
+    "**WMH**：white matter hyperintensity 以 MRI 顯示最佳，可用半定量視覺分數或定量 voxel-based 方法測量；與血管危險因子，尤其高血壓與血糖控制不良相關，並已廣泛作為血管疾病影像生物標記。",
+    "**Lacunar infarcts**：常位於皮質下白質與基底核，是 cerebrovascular disease 的影像相關表現。",
+    "**Macrohemorrhage 分布**：lobar macrohemorrhage 傳統上與 [[cerebral-amyloid-angiopathy|CAA]] 相關；deep／infratentorial macrohemorrhage 則與血管危險因子、WMH、lacunar infarcts 及高血壓性血管病變相關。"
   ],
   "management": "- 失智之診斷須整合臨床病史、神經心理評估、影像與生物標記，影像單獨不足以定論，屬多科整合判斷。\n- 影像的關鍵臨床價值在於排除可治療病因（如常壓性水腦、腫瘤、慢性硬腦膜下出血）並支持特定退化性診斷。\n- AD為最常見之退化性失智，DLB與FTD各有臨床表型（波動性認知/視幻覺、行為/語言障礙）對應不同蛋白病理。\n- 血管危險因子（高血壓、糖尿病）之控制與血管性失智之進展相關，具可介入性。\n- 標準化、疾病導向之影像報告可提升跨科溝通效率與診斷準確度，為臨床照護品質之一環。",
   "name": "Dementia — Proteinopathy Classification & Vascular Dementia Imaging Markers",

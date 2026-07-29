@@ -20,8 +20,11 @@ subspecialty: [NR]
 ---
 ## Summary
 - **Label**: Demo fact.[^1]
+
+## References
 [^1]: Example.
 """
+NR_DEMO_SUMMARY = "## Summary\n- **Label**: Demo fact.[^1]\n\n"
 
 PILOT_SLUGS = (
     "acute-stroke-management",
@@ -167,7 +170,7 @@ def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
                 "slug": "demo",
                 "type": "disease",
                 "originalSha256": note.sha256,
-                "originalSummary": "## Summary\n- **Label**: Demo fact.[^1]\n[^1]: Example.\n",
+                "originalSummary": NR_DEMO_SUMMARY,
                 "factUnits": [
                     {
                         "id": "demo-f01",
@@ -199,7 +202,7 @@ def batch_report_fixture(*, source_refs: list[str] | None = None) -> dict:
 
 def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
     """Write a complete ten-note batch fixture and return its mutable JSON objects."""
-    summary_snapshot = "## Summary\n- **Label**: Demo fact.[^1]\n[^1]: Example.\n"
+    summary_snapshot = NR_DEMO_SUMMARY
     source_hash = hashlib.sha256(NR_DEMO_TEXT.encode("utf-8")).hexdigest()
     concepts = root / "vault" / "concepts"
     generated_concepts = root / "data" / "concepts"
@@ -660,7 +663,7 @@ def test_validate_batch_cli_rejects_all_generated_keypoints_shape_failures() -> 
         assert '"code": "generated-keypoints-mismatch"' in output, mutation
 
 
-def test_generated_keypoints_preserve_first_variant_and_subheading_order() -> None:
+def test_generated_keypoints_preserve_all_variants_and_subheading_order() -> None:
     note = audit.parse_note_text(
         Path("vault/concepts/dementia-neuroimaging-overview.md"),
         """---
@@ -684,6 +687,7 @@ subspecialty: [NR]
     assert audit._generated_keypoints(note) == [
         "**First**: One.",
         "**Nested**: Two.",
+        "**Later**: Three.",
     ]
 
 
@@ -785,6 +789,92 @@ def test_validate_batch_cli_rejects_nonpilot_index_metadata_drift() -> None:
     assert '"code": "generated-index-metadata-mismatch"' in output
 
 
+def test_generated_manifest_rejects_nonpilot_drift_and_missing_output() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        detail_root = root / "data" / "concepts"
+        detail_root.mkdir(parents=True)
+        details = {}
+        for slug in ("clippers", "nonpilot"):
+            detail = {
+                "slug": slug,
+                "name": slug,
+                "nameZh": "",
+                "subspecialty": "NR",
+                "checked": False,
+                "keyPoints": [],
+            }
+            path = detail_root / f"{slug}.json"
+            path.write_text(
+                json.dumps(detail, sort_keys=True, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            details[slug] = path
+        index_entries = [
+            {
+                field: json.loads(path.read_text(encoding="utf-8"))[field]
+                for field in audit.GENERATED_INDEX_FIELDS
+            }
+            for path in details.values()
+        ]
+        (root / "data" / "concepts-index.json").write_text(
+            json.dumps({"concepts": index_entries}, sort_keys=True, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        reviewed_manifest = audit.build_generated_output_manifest(root)
+        assert audit.validate_generated_manifest(reviewed_manifest, root) == []
+
+        nonpilot = json.loads(details["nonpilot"].read_text(encoding="utf-8"))
+        nonpilot["keyPoints"] = ["Unreviewed nonpilot drift."]
+        details["nonpilot"].write_text(
+            json.dumps(nonpilot, sort_keys=True, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        drift_codes = {
+            finding.code
+            for finding in audit.validate_generated_manifest(reviewed_manifest, root)
+        }
+        assert "generated-manifest-mismatch" in drift_codes
+
+        details["nonpilot"].unlink()
+        missing_codes = {
+            finding.code
+            for finding in audit.validate_generated_manifest(reviewed_manifest, root)
+        }
+        assert "generated-manifest-mismatch" in missing_codes
+
+
+def test_lint_baseline_parser_accepts_exact_baseline_and_rejects_third_error() -> None:
+    exact_output = """檢查：1123 概念、4 圖引用、4 圖檔
+
+=== ERROR (2) ===
+  ✗ [footnote 未定義] ceap-classification.md 用了 [^*] 但無定義
+  ✗ [json 殘留 ![[...]]] 2022-264
+
+=== WARN (124) ===
+  ⚠ 題目無 correctAnswer: 65
+  ⚠ 概念缺 ## 考題 dataview: 37
+  ⚠ footnote 未被引用: 22
+
+小結：2 errors, 124 warnings
+"""
+    assert audit.validate_lint_baseline(exact_output, 1) == []
+
+    third_error_output = exact_output.replace(
+        "=== ERROR (2) ===",
+        "=== ERROR (3) ===",
+    ).replace(
+        "  ✗ [json 殘留 ![[...]]] 2022-264",
+        "  ✗ [json 殘留 ![[...]]] 2022-264\n"
+        "  ✗ [footnote 未定義] clippers.md 用了 [^third] 但無定義",
+    ).replace(
+        "小結：2 errors, 124 warnings",
+        "小結：3 errors, 124 warnings",
+    )
+    findings = audit.validate_lint_baseline(third_error_output, 1)
+    assert {finding.code for finding in findings} == {"lint-baseline-mismatch"}
+
+
 def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
     with tempfile.TemporaryDirectory() as directory:
         batch_path, _, report = write_valid_batch_cli_fixture(Path(directory))
@@ -846,17 +936,14 @@ def test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_upd
 
         first = report["notes"][0]
         added_bullet = "- **New**: Unsupported new fact.[^1]\n"
-        rewritten = first["rewrittenSummary"].replace(
-            "[^1]: Example.\n",
-            f"{added_bullet}[^1]: Example.\n",
-        )
+        rewritten = first["rewrittenSummary"] + added_bullet
         first["rewrittenSummary"] = rewritten
         seal_entry(first)
         note_path = root / "vault" / "concepts" / f"{first['slug']}.md"
         note_path.write_text(
             NR_DEMO_TEXT.replace(
-                "[^1]: Example.\n",
-                f"{added_bullet}[^1]: Example.\n",
+                "## References\n",
+                f"{added_bullet}\n## References\n",
             ),
             encoding="utf-8",
             newline="",
@@ -882,8 +969,8 @@ def test_trusted_baseline_anchor_rejects_coordinated_batch_reseal() -> None:
 
     findings = audit.validate_evidence(report, notes)
 
-    assert {finding.code for finding in findings} == {
-        "evidence-trusted-baseline-mismatch"
+    assert "evidence-trusted-baseline-mismatch" in {
+        finding.code for finding in findings
     }
 
 
@@ -908,9 +995,83 @@ def test_trusted_summary_anchor_rejects_coordinated_existing_bullet_reseal() -> 
 
     findings = audit.validate_evidence(report, notes)
 
-    assert {finding.code for finding in findings} == {
-        "evidence-trusted-summary-bullet-mismatch"
-    }
+    codes = {finding.code for finding in findings}
+    assert "evidence-trusted-summary-bullet-mismatch" in codes
+    assert "evidence-trusted-final-mismatch" in codes
+
+
+def test_trusted_final_anchor_rejects_coordinated_manual_queue_reseal() -> None:
+    report, notes = load_real_batch_and_notes()
+    changed_fact_ids = []
+    changed_note_slugs = []
+    for entry in report["notes"]:
+        manual_facts = [
+            fact
+            for fact in entry["factUnits"]
+            if fact["disposition"] == "manual-review"
+        ]
+        if not manual_facts:
+            continue
+        changed_note_slugs.append(entry["slug"])
+        changed_fact_ids.extend(fact["id"] for fact in manual_facts)
+        for fact in manual_facts:
+            fact["disposition"] = "covered"
+        entry["sourceStatus"] = "existing-sufficient"
+        entry["status"] = "verified"
+        entry["validation"]["manualReviewFactIds"] = []
+        entry["validation"]["factCoverage"] = "pass"
+        seal_entry(entry)
+
+    report["status"] = "verified"
+    for verification_name in ("phase1Verification", "fixRound1Verification"):
+        verification = report.get(verification_name)
+        if not isinstance(verification, dict):
+            continue
+        verification["factCoverage"] = {
+            "total": 225,
+            "covered": 225,
+            "manualReview": 0,
+            "researchNeeded": 0,
+            "pending": 0,
+        }
+        verification["manualQueue"] = []
+        review_gate = verification.get("reviewGate")
+        if isinstance(review_gate, dict):
+            review_gate["status"] = "verified"
+            review_gate["verifiedNotes"] = 10
+            review_gate["manualReviewNotes"] = 0
+
+    assert sorted(changed_fact_ids) == sorted(audit.EXPECTED_MANUAL_REVIEW_FACT_IDS)
+    assert sorted(changed_note_slugs) == [
+        "acute-stroke-management",
+        "bilateral-subcortical-dwi-hyperintensity-ddx",
+    ]
+    findings = audit.validate_evidence(report, notes)
+    codes = {finding.code for finding in findings}
+    assert "evidence-manual-queue-mismatch" in codes
+    assert "evidence-trusted-final-mismatch" in codes
+
+
+def test_plain_summary_prose_reseal_is_structurally_and_cryptographically_rejected() -> None:
+    report, notes = load_real_batch_and_notes()
+    entry = next(item for item in report["notes"] if item["slug"] == "clippers")
+    note = notes[entry["slug"]]
+    original_bullet = audit._summary_bullet_lines(note)[0]
+    unsupported_claim = "Uncited medical claim: treatment always cures disease."
+    changed_text = note.path.read_text(encoding="utf-8").replace(
+        original_bullet,
+        f"{original_bullet}\n{unsupported_claim}",
+        1,
+    )
+    changed_note = audit.parse_note_text(note.path, changed_text)
+    notes[entry["slug"]] = changed_note
+    entry["rewrittenSummary"] = changed_note.original_summary
+    seal_entry(entry)
+
+    findings = audit.validate_evidence(report, notes)
+    codes = {finding.code for finding in findings}
+    assert "summary-content-line" in codes
+    assert "evidence-trusted-final-mismatch" in codes
 
 
 def test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths() -> None:
@@ -1192,6 +1353,44 @@ subspecialty: [NR]
     assert {"summary-nested-bullet", "summary-callout", "summary-table"} <= codes
 
 
+def test_validator_rejects_every_other_nonblank_summary_content_line() -> None:
+    invalid_lines = (
+        "Uncited medical prose.",
+        "> ordinary quote",
+        "```python",
+        "claim | without | table fences",
+        "[^1]: Footnote definitions belong outside Summary.",
+    )
+    for invalid_line in invalid_lines:
+        text = (
+            "---\nconcepts: [demo]\nsubspecialty: [NR]\n---\n"
+            "## Summary\n"
+            "### Allowed subsection\n"
+            "- **Label**: Supported fact.[^1]\n"
+            f"{invalid_line}\n"
+            "\n## References\n[^1]: Example.\n"
+        )
+        codes = {
+            finding.code
+            for finding in audit.validate_summary(
+                audit.parse_note_text(Path("demo.md"), text)
+            )
+        }
+        assert "summary-content-line" in codes, invalid_line
+
+
+def test_validator_accepts_level_three_subheadings_and_labeled_bullets_only() -> None:
+    text = (
+        "---\nconcepts: [demo]\nsubspecialty: [NR]\n---\n"
+        "## Summary — first\n"
+        "### Allowed subsection\n"
+        "- **Label**: Supported fact.[^1]\n"
+        "\n## References\n[^1]: Example.\n"
+    )
+    findings = audit.validate_summary(audit.parse_note_text(Path("demo.md"), text))
+    assert findings == []
+
+
 def test_summary_heading_rejects_unapproved_suffix() -> None:
     text = """---
 concepts: [demo]
@@ -1282,6 +1481,14 @@ def test_inventory_requires_root_contract() -> None:
     assert {"inventory-scope", "inventory-generated-from"} <= codes
 
 
+def test_inventory_malformed_roots_return_stable_findings_without_raising() -> None:
+    for malformed_root in ([], "not-an-object", None, 7):
+        findings = audit.validate_inventory(malformed_root)
+        assert {finding.code for finding in findings} == {"inventory-root"}
+        against_notes = audit.validate_inventory_against_notes(malformed_root, {})
+        assert {finding.code for finding in against_notes} == {"inventory-root"}
+
+
 def test_inventory_rejects_duplicate_slug_and_missing_nr_note() -> None:
     nr_demo = make_nr_note("demo")
     nr_other = make_nr_note("other")
@@ -1301,7 +1508,7 @@ def test_inventory_rejects_duplicate_slug_and_missing_nr_note() -> None:
     assert "inventory-scope-mismatch" in codes
 
 
-def test_inventory_accepts_valid_schema_and_closed_enum_values() -> None:
+def test_inventory_schema_accepts_closed_enum_values_but_enforces_phase1_count() -> None:
     note = make_nr_note("demo")
     entry = make_inventory_entry(note, batch="unassigned")
     inventory = {
@@ -1310,7 +1517,12 @@ def test_inventory_accepts_valid_schema_and_closed_enum_values() -> None:
         "generatedFrom": "vault/concepts",
         "notes": [entry],
     }
-    assert audit.validate_inventory(inventory) == []
+    codes = {finding.code for finding in audit.validate_inventory(inventory)}
+    assert codes == {
+        "inventory-batch-counts",
+        "inventory-count",
+        "inventory-override-completeness",
+    }
 
 
 def test_inventory_rejects_invalid_status_source_batch_hash_and_headings() -> None:
@@ -1359,9 +1571,46 @@ def test_inventory_enum_fields_reject_unhashable_json_values_without_raising() -
         assert expected_code in {finding.code for finding in findings}, field
 
 
-def test_inventory_against_notes_accepts_exact_pilot_fixture() -> None:
+def test_inventory_against_notes_enforces_full_phase1_contract_on_small_fixture() -> None:
     inventory, notes = make_pilot_inventory()
-    assert audit.validate_inventory_against_notes(inventory, notes) == []
+    codes = {
+        finding.code
+        for finding in audit.validate_inventory_against_notes(inventory, notes)
+    }
+    assert {
+        "inventory-batch-counts",
+        "inventory-count",
+        "inventory-override-completeness",
+    } <= codes
+
+
+def test_inventory_rejects_regenerated_215_note_scope_after_nonpilot_missing() -> None:
+    root = Path(__file__).resolve().parents[1]
+    checked_in = json.loads(
+        (
+            root / "docs" / "reports" / "nr-summary-rewrite" / "inventory.json"
+        ).read_text(encoding="utf-8")
+    )
+    removed_slug = next(
+        entry["slug"]
+        for entry in checked_in["notes"]
+        if entry["slug"] not in PILOT_SLUGS
+    )
+    regenerated = json.loads(json.dumps(checked_in))
+    regenerated["notes"] = [
+        entry for entry in regenerated["notes"] if entry["slug"] != removed_slug
+    ]
+    notes = {
+        entry["slug"]: make_nr_note(entry["slug"])
+        for entry in regenerated["notes"]
+    }
+
+    codes = {
+        finding.code
+        for finding in audit.validate_inventory_against_notes(regenerated, notes)
+    }
+    assert "inventory-count" in codes
+    assert "inventory-override-completeness" in codes
 
 
 def test_inventory_against_notes_rejects_path_hash_and_heading_mismatches() -> None:
@@ -1409,7 +1658,7 @@ def test_inventory_membership_rejects_unhashable_slug_without_raising() -> None:
 
 
 def test_inventory_cli_generates_and_checks_deterministically() -> None:
-    fixture_slugs = (*PILOT_SLUGS, "facial-fracture-complications")
+    fixture_slugs = tuple(sorted(audit.NOTE_TYPE_OVERRIDES))
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory) / "concepts"
         root.mkdir()
@@ -1469,11 +1718,11 @@ def test_inventory_cli_generates_and_checks_deterministically() -> None:
             )
         assert check_exit == 0
         assert check_output.getvalue().splitlines() == [
-            "NR notes: 11",
+            "NR notes: 216",
             "Duplicate slugs: 0",
             "Unclassified: 0",
             "Batch 00: 10",
-            "Unassigned: 1",
+            "Unassigned: 206",
         ]
 
         generated["notes"][0]["status"] = "verified"
@@ -1497,6 +1746,81 @@ def test_inventory_cli_generates_and_checks_deterministically() -> None:
         assert "inventory-not-deterministic" in mutated_output.getvalue()
 
 
+def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() -> None:
+    root = Path(__file__).resolve().parents[1]
+    inventory_path = (
+        root / "docs" / "reports" / "nr-summary-rewrite" / "inventory.json"
+    )
+    inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+    _, notes = audit._inventory(root / "vault" / "concepts")
+
+    findings = audit.validate_inventory_against_notes(
+        inventory,
+        notes,
+        immutable_hash_slugs=audit.PILOT_SLUGS,
+    )
+    assert "inventory-hash-mismatch" not in {
+        finding.code for finding in findings
+    }
+
+    mutated = json.loads(json.dumps(inventory))
+    nonpilot = next(
+        entry for entry in mutated["notes"] if entry["slug"] not in audit.PILOT_SLUGS
+    )
+    nonpilot["originalSha256"] = "0" * 64
+    findings = audit.validate_inventory_against_notes(
+        mutated,
+        notes,
+        immutable_hash_slugs=audit.PILOT_SLUGS,
+    )
+    assert "inventory-hash-mismatch" in {
+        finding.code for finding in findings
+    }
+
+    output = io.StringIO()
+    with redirect_stdout(output):
+        exit_code = audit.main(
+            [
+                "inventory",
+                "--root",
+                str(root / "vault" / "concepts"),
+                "--output",
+                str(inventory_path),
+                "--check",
+            ]
+        )
+    assert exit_code == 0, output.getvalue()
+
+
+def test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory) / "concepts"
+        root.mkdir()
+        for slug in sorted(audit.NOTE_TYPE_OVERRIDES):
+            (root / f"{slug}.md").write_text(NR_DEMO_TEXT, encoding="utf-8")
+        output_path = Path(directory) / "inventory.json"
+        for payload, expected_code in (
+            ("{", "inventory-json-invalid"),
+            ("[]", "inventory-root"),
+        ):
+            output_path.write_text(payload, encoding="utf-8")
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "inventory",
+                        "--root",
+                        str(root),
+                        "--output",
+                        str(output_path),
+                        "--check",
+                    ]
+                )
+            assert exit_code == 1
+            assert expected_code in output.getvalue()
+            assert "Traceback" not in output.getvalue()
+
+
 def run_smoke() -> None:
     test_evidence_rejects_unmapped_or_unresolved_fact_units()
     test_evidence_rejects_source_ref_not_defined_in_note()
@@ -1513,15 +1837,19 @@ def run_smoke() -> None:
     test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review()
     test_validate_batch_cli_rejects_generated_keypoints_mismatch()
     test_validate_batch_cli_rejects_all_generated_keypoints_shape_failures()
-    test_generated_keypoints_preserve_first_variant_and_subheading_order()
+    test_generated_keypoints_preserve_all_variants_and_subheading_order()
     test_generated_data_root_is_bound_to_source_checkout_not_shadow_tree()
     test_validate_batch_cli_rejects_dangling_generated_index_entry()
     test_validate_batch_cli_rejects_nonpilot_index_metadata_drift()
+    test_generated_manifest_rejects_nonpilot_drift_and_missing_output()
+    test_lint_baseline_parser_accepts_exact_baseline_and_rejects_third_error()
     test_validate_batch_cli_rejects_rewritten_summary_drift()
     test_validate_batch_cli_rejects_final_integrity_mutations()
     test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated()
     test_trusted_baseline_anchor_rejects_coordinated_batch_reseal()
     test_trusted_summary_anchor_rejects_coordinated_existing_bullet_reseal()
+    test_trusted_final_anchor_rejects_coordinated_manual_queue_reseal()
+    test_plain_summary_prose_reseal_is_structurally_and_cryptographically_rejected()
     test_validate_batch_loader_rejects_redirected_duplicate_and_unsafe_paths()
     test_validate_batch_cli_allow_pending_retains_mutation_findings()
     test_real_batch_keeps_acute_stroke_legacy_claims_on_source_one()
@@ -1533,22 +1861,28 @@ def run_smoke() -> None:
     test_non_nr_note_is_not_in_scope()
     test_validator_rejects_unlabeled_and_undefined_footnote()
     test_validator_rejects_callout_table_and_nested_bullet()
+    test_validator_rejects_every_other_nonblank_summary_content_line()
+    test_validator_accepts_level_three_subheadings_and_labeled_bullets_only()
     test_summary_heading_rejects_unapproved_suffix()
     test_validator_rejects_missing_empty_and_alternate_table_summaries()
     test_note_line_numbers_include_frontmatter()
     test_cli_prints_findings_and_uses_error_exit_code()
     test_inventory_requires_allowed_type_and_status()
     test_inventory_requires_root_contract()
+    test_inventory_malformed_roots_return_stable_findings_without_raising()
     test_inventory_rejects_duplicate_slug_and_missing_nr_note()
-    test_inventory_accepts_valid_schema_and_closed_enum_values()
+    test_inventory_schema_accepts_closed_enum_values_but_enforces_phase1_count()
     test_inventory_rejects_invalid_status_source_batch_hash_and_headings()
     test_inventory_enum_fields_reject_unhashable_json_values_without_raising()
-    test_inventory_against_notes_accepts_exact_pilot_fixture()
+    test_inventory_against_notes_enforces_full_phase1_contract_on_small_fixture()
+    test_inventory_rejects_regenerated_215_note_scope_after_nonpilot_missing()
     test_inventory_against_notes_rejects_path_hash_and_heading_mismatches()
     test_inventory_against_notes_rejects_fixed_pilot_membership_drift()
     test_inventory_against_notes_handles_malformed_entries_without_raising()
     test_inventory_membership_rejects_unhashable_slug_without_raising()
     test_inventory_cli_generates_and_checks_deterministically()
+    test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots()
+    test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback()
     print("NR_SUMMARY_AUDIT_OK")
 
 

@@ -8,16 +8,24 @@
 
 對映（Note v5 章節 → 網站欄位）：
   導讀粗體段          → definition
-  ## Summary          → keyPoints（各 bullet）
+  所有 ## Summary / ## Summary — ... → keyPoints（依來源順序的各 bullet）
   ## 放射科醫師影像判讀重點 → imagingFindings
   鑑別/DDx 段          → differentialDiagnosis[]
   ## 臨床重點          → management
   ### 參考來源 內 DOI/連結 → externalLinks[{label,url}]
 
-用法：python scripts/build_concepts.py [--quiet]
+用法：
+  python scripts/build_concepts.py [--quiet]
+  python scripts/build_concepts.py --batch-file docs/reports/nr-summary-rewrite/batch-00.json [--quiet]
+  python scripts/build_concepts.py --slugs slug-a slug-b [--quiet]
+  python scripts/build_concepts.py --index-from-details [--quiet]
+
+batch/slugs 模式只寫指定 detail JSON，並由既有 detail JSON 重建 coherent index；
+不掃寫、不刪除其他 detail JSON。
 退出碼：成功 0；有無法解析 slug 的檔僅警告、不致命。
 """
 from __future__ import annotations
+import argparse
 import glob
 import json
 import os
@@ -39,6 +47,7 @@ MD_LINK_START = re.compile(r"\[([^\]]+)\]\((https?://)")
 BARE_URL = re.compile(r"https?://[^\s\]；。，（）]+")
 PLAIN_DOI = re.compile(r"\b(10\.\d{4,9}/[^\s\]>,；。（）]+)")
 INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
+SUMMARY_SECTION = re.compile(r"^Summary(?:\s+—\s+\S.*)?$")
 
 
 def _strip_footnotes(text: str) -> str:
@@ -185,6 +194,18 @@ def find_section(sections, *keywords):
     return ""
 
 
+def summary_bullets(sections):
+    """Aggregate bullets from every accepted level-two Summary variant."""
+    result = []
+    in_summary = False
+    for header, level, content in sections:
+        if level == 2:
+            in_summary = SUMMARY_SECTION.fullmatch(header) is not None
+        if in_summary:
+            result.extend(bullets(content))
+    return result
+
+
 def lead_paragraph(lead: str) -> str:
     """取導讀：跳過 # 標題、> callout、[[..]] 導覽、表格、圖片，
     優先回傳以 ** 開頭的粗體心法段，否則第一段散文。"""
@@ -298,7 +319,6 @@ def build_concept(path):
 
     lead, sections = split_sections(body)
     imaging = find_section(sections, "放射科醫師", "影像判讀", "判讀骨架", "影像診斷", "影像表現", "影像特徵", "技術要點")
-    summary = find_section(sections, "Summary")
     clinical = find_section(sections, "臨床重點", "應用重點", "實務重點", "臨床/考試")
 
     obj = {
@@ -310,18 +330,33 @@ def build_concept(path):
         "imagingFindings": _strip_footnotes(imaging).strip(),
         "differentialDiagnosis": extract_ddx(sections),
         "externalLinks": extract_links(sections),
-        "keyPoints": bullets(summary),
+        "keyPoints": summary_bullets(sections),
         "management": numbered_or_bullets(clinical),
         "checked": False,
     }
     return obj, None
 
 
+def _json_bytes(data) -> bytes:
+    return (
+        json.dumps(data, ensure_ascii=False, sort_keys=True, indent=2) + "\n"
+    ).encode("utf-8")
+
+
 def write_json(path, data):
+    """Write deterministic JSON only when bytes differ; return whether written."""
+    path = os.fspath(path)
+    payload = _json_bytes(data)
+    try:
+        with open(path, "rb") as existing:
+            if existing.read() == payload:
+                return False
+    except FileNotFoundError:
+        pass
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(data, f, ensure_ascii=False, sort_keys=True, indent=2)
-        f.write("\n")
+    with open(path, "wb") as file:
+        file.write(payload)
+    return True
 
 
 def build_index_from_detail_files(out_dir=OUT_DIR, index_path=INDEX_PATH):
@@ -343,14 +378,100 @@ def build_index_from_detail_files(out_dir=OUT_DIR, index_path=INDEX_PATH):
     return report
 
 
-def main():
-    quiet = "--quiet" in sys.argv
-    if "--index-from-details" in sys.argv:
+def load_batch_slugs(path) -> list[str]:
+    """Load a deterministic unique slug list from a batch evidence JSON file."""
+    with open(path, encoding="utf-8") as file:
+        report = json.load(file)
+    if not isinstance(report, dict) or not isinstance(report.get("notes"), list):
+        raise ValueError("Batch file must be an object with a notes array.")
+    slugs = []
+    for entry in report["notes"]:
+        slug = entry.get("slug") if isinstance(entry, dict) else None
+        if not isinstance(slug, str) or not SAFE_SLUG.fullmatch(slug):
+            raise ValueError("Every batch note must contain a safe string slug.")
+        slugs.append(slug)
+    if not slugs or len(slugs) != len(set(slugs)):
+        raise ValueError("Batch slugs must be non-empty and unique.")
+    return sorted(slugs)
+
+
+def build_selected_concepts(
+    slugs,
+    *,
+    src_dir=SRC_DIR,
+    out_dir=OUT_DIR,
+    index_path=INDEX_PATH,
+):
+    """Build exactly selected detail JSON files, then rebuild index from details."""
+    selected = sorted(slugs)
+    if not selected or len(selected) != len(set(selected)):
+        raise ValueError("Selected slugs must be non-empty and unique.")
+    if any(not isinstance(slug, str) or not SAFE_SLUG.fullmatch(slug) for slug in selected):
+        raise ValueError("Selected slugs must use safe lowercase filename syntax.")
+
+    written_files = []
+    for slug in selected:
+        source_path = os.path.join(os.fspath(src_dir), f"{slug}.md")
+        if not os.path.isfile(source_path):
+            raise ValueError(f"Missing selected concept source: {source_path}")
+        obj, warning = build_concept(source_path)
+        if obj is None:
+            raise ValueError(warning or f"Could not build selected concept: {slug}")
+        output_path = os.path.join(os.fspath(out_dir), f"{slug}.json")
+        if write_json(output_path, obj):
+            written_files.append(os.path.basename(output_path))
+
+    before_index = None
+    try:
+        with open(index_path, "rb") as file:
+            before_index = file.read()
+    except FileNotFoundError:
+        pass
+    index_report = build_index_from_detail_files(out_dir, index_path)
+    with open(index_path, "rb") as file:
+        after_index = file.read()
+    if before_index != after_index:
+        written_files.append(os.path.basename(os.fspath(index_path)))
+    return {
+        "builtSlugs": selected,
+        "writtenFiles": written_files,
+        "indexCount": len(index_report["concepts"]),
+    }
+
+
+def build_parser():
+    parser = argparse.ArgumentParser(description=__doc__)
+    scope = parser.add_mutually_exclusive_group()
+    scope.add_argument("--batch-file")
+    scope.add_argument("--slugs", nargs="+")
+    scope.add_argument("--index-from-details", action="store_true")
+    parser.add_argument("--quiet", action="store_true")
+    return parser
+
+
+def main(argv=None):
+    args = build_parser().parse_args(argv)
+    quiet = args.quiet
+    if args.index_from_details:
         report = build_index_from_detail_files()
         if not quiet:
             print(f"索引概念總數：{len(report['concepts'])}")
             print(f"輸出：{INDEX_PATH}")
-        return
+        return 0
+
+    if args.batch_file or args.slugs:
+        try:
+            slugs = load_batch_slugs(args.batch_file) if args.batch_file else args.slugs
+            result = build_selected_concepts(slugs)
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError, ValueError) as error:
+            print(f"ERROR: {error}", file=sys.stderr)
+            return 1
+        if not quiet:
+            print(f"批次概念數：{len(result['builtSlugs'])}")
+            print(f"實際寫入：{len(result['writtenFiles'])}")
+            print(f"索引概念總數：{result['indexCount']}")
+            print(f"輸出：{INDEX_PATH} + selected {OUT_DIR}/*.json")
+        return 0
 
     files = sorted(p for p in glob.glob(os.path.join(SRC_DIR, "*.md"))
                    if not os.path.basename(p).startswith("_"))
@@ -397,7 +518,8 @@ def main():
         for s in skipped:
             print("  ⚠", s)
         print(f"輸出：{INDEX_PATH} + {OUT_DIR}/*.json")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
