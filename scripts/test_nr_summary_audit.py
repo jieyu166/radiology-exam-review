@@ -560,8 +560,8 @@ def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> 
         "workflow": {
             "sequence": 1,
             "predecessor": None,
-            "implementer": "fixture-implementer",
-            "reviewer": "fixture-reviewer",
+            "implementer": "/root/fixture_implementer",
+            "reviewer": "/root/fixture_reviewer",
             "reviewStatus": "approved",
             "reviewedBaselineSha256": baseline_digest,
         },
@@ -1271,10 +1271,20 @@ def test_phase2_evidence_rejects_shrunken_membership_and_forged_workflow() -> No
 
 def test_phase2_reviewer_identity_requires_canonical_traceable_run_ids() -> None:
     invalid_pairs = (
-        ("run-123", " run-123 "),
-        ("run-123", "run-123\t"),
-        ("RUN-123", "run-456"),
-        ("run-123\x00", "run-456"),
+        ("task-3", "/root/task-3"),
+        ("task_3", "/root/task_3"),
+        ("/root/task_3", " /root/task_3 "),
+        ("/root/task_3", "/root/task_3\t"),
+        ("/root/TASK_3", "/root/task_4"),
+        ("/root/task_3\x00", "/root/task_4"),
+        ("/root/", "/root/task_4"),
+        ("/root//task_3", "/root/task_4"),
+        ("/root/./task_3", "/root/task_4"),
+        ("/root/../task_3", "/root/task_4"),
+        ("/root/task-3", "/root/task_4"),
+        (r"\root\task_3", "/root/task_4"),
+        ("//root/task_3", "/root/task_4"),
+        ("/root/task_3/", "/root/task_4"),
     )
     for implementer, reviewer in invalid_pairs:
         with tempfile.TemporaryDirectory() as directory:
@@ -1329,12 +1339,8 @@ def test_phase2_reviewer_identity_requires_canonical_traceable_run_ids() -> None
             / "batch-01-anatomy.json"
         )
         evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
-        evidence["workflow"]["implementer"] = (
-            "019fabd2-821c-7592-b465-dfb1d7b5a22d"
-        )
-        evidence["workflow"]["reviewer"] = (
-            "019fabd2-821c-7592-b465-dfb1d7b5a22e"
-        )
+        evidence["workflow"]["implementer"] = "/root/phase2a/task_3"
+        evidence["workflow"]["reviewer"] = "/root/phase2a/reviewer_3"
         evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
         original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {

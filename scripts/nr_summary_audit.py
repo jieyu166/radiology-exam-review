@@ -31,9 +31,7 @@ TABLE_SEPARATOR_RE = re.compile(r"^\s*:?-{3,}:?(?:\s*\|\s*:?-{3,}:?)+\s*$")
 TABLE_ROW_RE = re.compile(r"^\s*(?!\|)[^|\r\n]+\|[^|\r\n]+(?:\|[^|\r\n]+)*\s*$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 SAFE_SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
-PHASE2_RUN_ID_RE = re.compile(
-    r"^(?=.{3,128}\Z)(?=.*[-:/])/?[a-z0-9](?:[a-z0-9._:/-]*[a-z0-9])?$"
-)
+PHASE2_RUN_ID_RE = re.compile(r"^/root(?:/[a-z0-9_]+)+$")
 
 NOTE_TYPES = {"disease", "pattern-ddx", "anatomy-measurement-management"}
 NOTE_STATUSES = {

@@ -130,8 +130,8 @@ Phase 1 的 Summary 封閉文法、三種 note type 的內容規則、footnote �
   "workflow": {
     "sequence": 1,
     "predecessor": null,
-    "implementer": "<nonempty subagent run id>",
-    "reviewer": "<nonempty different subagent run id>",
+    "implementer": "/root/<canonical_task_path>",
+    "reviewer": "/root/<different_canonical_task_path>",
     "reviewStatus": "not-started|changes-requested|approved",
     "reviewedBaselineSha256": "<64 lower-hex or null>"
   },
@@ -226,7 +226,7 @@ build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict
 
 每一 batch workflow 都固定為：baseline lock sealed → implementer subagent 改寫及更新該批證據 → 該 batch validator/build/lint gate → 不同 reviewer subagent 審核 evidence、Markdown 與 generated output → reviewer `approved`。只有第 N 批 `approved` 且其 acceptance gate 成功後，N+1 才允許 baseline lock 或任何 Markdown edit 開始。
 
-`workflow.sequence` 固定為 1、2、3；`predecessor` 依序為 `null`、`batch-01-anatomy`、`batch-02-disease`。`implementer` 與 `reviewer` 均為非空、可追溯的 run ID，且必須不同。sequence > 1 的 batch 除了自身 `reviewStatus=approved` 之外，其 predecessor evidence 亦必須 `reviewStatus=approved`、status 為 `verified` 或 `needs-review` 且所有可驗證 note gate 已通過；若 predecessor 還有 manual queue，該狀態不得阻擋 sibling batch，但 reviewer 必須確認它是 derived queue 而非未處理 validation error。
+`workflow.sequence` 固定為 1、2、3；`predecessor` 依序為 `null`、`batch-01-anatomy`、`batch-02-disease`。`implementer` 與 `reviewer` 均須使用 collaboration runtime 的 canonical absolute task path：以 `/root/` 開頭，後接一或多個 lowercase `[a-z0-9_]+` path segments，且兩者必須不同；relative names 與其他 aliases 均不接受。sequence > 1 的 batch 除了自身 `reviewStatus=approved` 之外，其 predecessor evidence 亦必須 `reviewStatus=approved`、status 為 `verified` 或 `needs-review` 且所有可驗證 note gate 已通過；若 predecessor 還有 manual queue，該狀態不得阻擋 sibling batch，但 reviewer 必須確認它是 derived queue 而非未處理 validation error。
 
 validator 可機械驗證宣告的順序、identity inequality、predecessor 狀態、sealed lock digest 與 review snapshot；人類/獨立 reviewer 的內容判斷仍由 review 進行，不能假裝由一個布林欄位自動保證。若 reviewer 要求修改，該 batch 保持 `needs-review`，修正後重新跑完整 batch gate 並由同一位或另一位獨立 reviewer 再核准；下一批仍不得開始。
 
@@ -307,6 +307,11 @@ manifest claim alone never authorizes evolution.
   independent-review, and generated-observation trust gates. Earlier selected
   drift, unattributed detail drift, and an incoherent current index remain
   stable generated-output failures.
+- Evidence `workflow.implementer` and `workflow.reviewer` MUST each match the
+  canonical collaboration task-path grammar
+  `^/root(?:/[a-z0-9_]+)+$` and MUST differ exactly. Relative task names,
+  whitespace/control/case variants, empty or dot segments, hyphens,
+  backslashes, and noncanonical separators fail `phase2-reviewer-conflict`.
 
 ### Stable failure modes
 

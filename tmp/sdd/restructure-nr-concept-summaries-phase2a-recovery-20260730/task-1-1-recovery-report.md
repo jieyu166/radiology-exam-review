@@ -168,3 +168,55 @@ Review-round verification:
 - `git diff --check`: exit 0.
 - `git diff --exit-code -- vault/concepts`: exit 0.
 - Task 1.1 checkbox diff from the review base: empty.
+
+## Review round 2
+
+Review base: `745906dd6c97fbf4f583a770bac6572093f7763b`.
+
+The remaining Important identity-alias finding was reproduced before changing
+production code:
+
+- Command:
+  `python -m pytest -q scripts/test_nr_summary_audit.py -k "reviewer_identity_requires_canonical_traceable_run_ids"`
+- RED result: `1 failed, 95 deselected in 0.32s`.
+- Expected failure: the direct relative/canonical alias pair `task-3` and
+  `/root/task-3` produced no `phase2-reviewer-conflict`.
+
+Evidence identities now have one accepted representation: a canonical
+collaboration task path matching `^/root(?:/[a-z0-9_]+)+$`. The regression
+table rejects relative aliases, whitespace/control/case variants, empty and
+dot segments, hyphens, backslashes, repeated leading/interior separators, and
+trailing separators. A positive control accepts distinct nested paths
+`/root/phase2a/task_3` and `/root/phase2a/reviewer_3`. Isolated fixture defaults
+were migrated to `/root/fixture_implementer` and
+`/root/fixture_reviewer`.
+
+The design evidence example, sequential-review decision, and one
+Implementation Contract bullet now state the same exact canonical syntax.
+The generated predecessor-chain implementation was not changed.
+
+Focused GREEN:
+
+- Command:
+  `python -m pytest -q scripts/test_nr_summary_audit.py -k "reviewer_identity_requires_canonical_traceable_run_ids"`
+- Result: `1 passed, 95 deselected in 1.21s`.
+- Identity plus the positive historical-update and intermediate generated-seal
+  controls: `3 passed, 93 deselected in 3.11s`.
+
+Review-round verification:
+
+- `python -m pytest -q scripts/test_nr_summary_audit.py scripts/test_build_concepts.py`:
+  `107 passed in 49.11s`.
+- `python -m pytest -q scripts/test_nr_summary_audit.py scripts/test_build_concepts.py -k "phase2 or scoped_build or explicit_root"`:
+  `35 passed, 72 deselected in 24.67s`.
+- Four-file `python -m py_compile`: exit 0.
+- Direct smokes: `NR_SUMMARY_AUDIT_OK` and `BUILD_CONCEPTS_TEST_OK`.
+- `spectra validate restructure-nr-concept-summaries-phase2a --strict --json`:
+  valid, 0 errors, 0 warnings.
+- `spectra analyze restructure-nr-concept-summaries-phase2a --json`:
+  0 Critical, 0 Warning; the same 2 pre-existing Suggestions.
+- `git diff --check`: exit 0.
+- `git diff --exit-code -- vault/concepts`: exit 0.
+- Task 1.1 checkbox diff from the review base: empty.
+- The production diff from the review base is only the run-ID regex; the
+  generated predecessor-chain implementation has no diff.
