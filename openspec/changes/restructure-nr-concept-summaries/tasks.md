@@ -4,7 +4,7 @@
 
 ## 2. NR inventory 與分類
 
-- [ ] 2.1 滿足「NR concept inventory is complete and explicitly classified」與「Manual classification uses a closed enum and complete inventory」：建立 docs/reports/nr-summary-rewrite/inventory.json 的 JSON data shapes，明確分類 216 篇 notes、固定 10 篇 batch-00、其餘 206 篇 unassigned，並遵守 Scope boundaries；以 inventory --check 驗證 216／0 duplicate／0 unclassified／10／206。
+- [x] 2.1 滿足「NR concept inventory is complete and explicitly classified」與「Manual classification uses a closed enum and complete inventory」：建立 docs/reports/nr-summary-rewrite/inventory.json 的 JSON data shapes，明確分類 216 篇 notes、固定 10 篇 batch-00、其餘 206 篇 unassigned，並遵守 Scope boundaries；以 inventory --check 驗證 216／0 duplicate／0 unclassified／10／206。
 
 ## 3. Pilot baseline evidence
 
