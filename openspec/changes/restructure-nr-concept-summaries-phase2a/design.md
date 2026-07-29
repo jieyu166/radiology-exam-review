@@ -271,6 +271,17 @@ The registry is intentionally empty and fail-closed in Task 1.1. The independent
 reviewers in Tasks 2.3, 3.3, and 4.3 seal their respective batch digest only
 after reviewing the genuine two-run workflow.
 
+The authenticated `detailFiles`, `index`, `detailFileCount`, and
+`detailTreeSha256` fields describe that batch's immutable historical post-build
+observation; revalidation checks them against the authenticated historical
+detail map (`detailFiles` plus `nonselectedAfter`), not by requiring equality
+with a later current full tree. Current detail-tree and index coherence is a
+separate gate. A current detail delta is permitted only when it is outside the
+earlier batch's selected set and belongs to a strictly later active batch whose
+baseline, evidence, independent approval, generated-observation seal, and
+current selected-detail hash all validate. Assignment membership or a mutable
+manifest claim alone never authorizes evolution.
+
 ## Implementation Contract
 
 ### 狀態與資料不變量
@@ -289,6 +300,13 @@ after reviewing the genuine two-run workflow.
   no-build manifest, or a digest mismatch fails before generated output can be
   accepted. Task 1.1 leaves the registry empty; Tasks 2.3, 3.3, and 4.3 seal one
   independently reviewed digest for their corresponding active batch.
+- Batch revalidation MUST preserve the authenticated historical scope result
+  while independently validating the current complete detail tree and index.
+  Current differences from that historical tree are accepted only for
+  strictly later selected details whose later batch passes baseline, evidence,
+  independent-review, and generated-observation trust gates. Earlier selected
+  drift, unattributed detail drift, and an incoherent current index remain
+  stable generated-output failures.
 
 ### Stable failure modes
 

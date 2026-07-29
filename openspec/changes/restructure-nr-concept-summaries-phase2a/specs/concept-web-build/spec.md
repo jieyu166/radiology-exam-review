@@ -78,6 +78,16 @@ only after reviewing the genuine two-run result. A no-build manifest that
 copies current hashes into pre/post fields or claims an empty second run MUST
 fail generated-output acceptance.
 
+The manifest's authenticated selected-detail, index, count, and complete-tree
+fields SHALL be validated as the immutable historical observation for that
+batch. The current complete detail tree and current index SHALL be validated
+independently. A difference from the historical tree SHALL be accepted only
+when every changed path is selected by a strictly later batch that passes its
+baseline, evidence, independent-review, and generated-observation trust gates,
+and its selected-detail hash agrees with the current file. A later batch ID,
+assignment membership, or mutable manifest claim alone SHALL NOT authorize the
+difference.
+
 #### Scenario: Unrelated detail drift fails a batch gate
 
 - **GIVEN** `batch-01-anatomy` selects ten anatomy slugs and a build or concurrent edit changes `data/concepts/gbm-vs-pcnsl.json`

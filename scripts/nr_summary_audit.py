@@ -1325,6 +1325,141 @@ def _phase2_generated_observation_projection(manifest: dict) -> dict:
     }
 
 
+def _phase2_historical_generated_detail_hashes(
+    context: BatchContext,
+    manifest: dict,
+    display_path: str,
+) -> dict[str, str]:
+    selected_slugs = list(context.batch["slugs"])
+    selected_paths = {
+        (context.generated_root / f"{slug}.json").as_posix()
+        for slug in selected_slugs
+    }
+    detail_files = manifest.get("detailFiles")
+    nonselected_before = manifest.get("nonselectedBefore")
+    nonselected_after = manifest.get("nonselectedAfter")
+
+    def valid_hash_map(
+        value: object,
+        *,
+        expected_paths: set[str] | None = None,
+        exclude_selected: bool = False,
+    ) -> bool:
+        if not isinstance(value, dict):
+            return False
+        if expected_paths is not None and set(value) != expected_paths:
+            return False
+        return all(
+            isinstance(path, str)
+            and _phase2_path_parts(path) is not None
+            and path.startswith(context.generated_root.as_posix() + "/")
+            and Path(path).suffix == ".json"
+            and (not exclude_selected or path not in selected_paths)
+            and isinstance(digest, str)
+            and SHA256_RE.fullmatch(digest) is not None
+            for path, digest in value.items()
+        )
+
+    expected_allowed_writes = sorted(
+        [*selected_paths, "data/concepts-index.json"]
+    )
+    if (
+        manifest.get("schemaVersion") != 1
+        or manifest.get("kind") != "phase2-generated-manifest"
+        or manifest.get("batch") != context.batch["id"]
+        or manifest.get("selectedSlugs") != selected_slugs
+        or manifest.get("allowedWrites") != expected_allowed_writes
+        or not valid_hash_map(detail_files, expected_paths=selected_paths)
+        or not valid_hash_map(nonselected_before, exclude_selected=True)
+        or not valid_hash_map(nonselected_after, exclude_selected=True)
+        or set(detail_files).intersection(nonselected_after)
+    ):
+        raise Phase2LoadError(
+            "generated-manifest-mismatch",
+            display_path,
+            "Historical generated observation shape is invalid.",
+        )
+
+    historical_hashes = dict(nonselected_after)
+    historical_hashes.update(detail_files)
+    tree_entries = [
+        {"path": path, "sha256": historical_hashes[path]}
+        for path in sorted(historical_hashes)
+    ]
+    index = manifest.get("index")
+    detail_file_count = manifest.get("detailFileCount")
+    if (
+        not isinstance(index, dict)
+        or set(index) != {"path", "sha256", "entryCount"}
+        or index.get("path") != "data/concepts-index.json"
+        or not isinstance(index.get("sha256"), str)
+        or SHA256_RE.fullmatch(index["sha256"]) is None
+        or type(index.get("entryCount")) is not int
+        or type(detail_file_count) is not int
+        or index["entryCount"] != detail_file_count
+        or detail_file_count != len(historical_hashes)
+        or manifest.get("detailTreeSha256") != _canonical_sha256(tree_entries)
+    ):
+        raise Phase2LoadError(
+            "generated-manifest-mismatch",
+            display_path,
+            "Historical index and detail-tree observation are incoherent.",
+        )
+    return historical_hashes
+
+
+def _phase2_authorized_later_detail_paths(
+    context: BatchContext,
+    current_hashes: Mapping[str, str],
+    changed_paths: set[str],
+) -> set[str]:
+    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    current_index = batch_ids.index(context.batch["id"])
+    authorized: set[str] = set()
+    for later_batch_id in batch_ids[current_index + 1 :]:
+        later_paths = {
+            (context.generated_root / f"{slug}.json").as_posix()
+            for slug in ACTIVE_PHASE2A_BATCHES[later_batch_id]["slugs"]
+        }
+        relevant_paths = changed_paths.intersection(later_paths)
+        if not relevant_paths:
+            continue
+        try:
+            later_context = load_phase2_batch(
+                context.repo_root,
+                context.assignment_path,
+                later_batch_id,
+            )
+            later_findings = validate_phase2_batch(
+                later_context,
+                check_source_hashes=False,
+                check_generated=True,
+            )
+            if _findings_have_errors(later_findings):
+                continue
+            later_manifest_path = (
+                Path("docs/reports/nr-summary-rewrite/phase2a/generated")
+                / f"{later_batch_id}.json"
+            )
+            later_manifest = _read_phase2_json(
+                context.repo_root / later_manifest_path,
+                later_manifest_path,
+            )
+            assert later_manifest is not None
+            later_detail_files = later_manifest.get("detailFiles")
+            if not isinstance(later_detail_files, dict):
+                continue
+            authorized.update(
+                path
+                for path in relevant_paths
+                if current_hashes.get(path) is not None
+                and later_detail_files.get(path) == current_hashes[path]
+            )
+        except Phase2LoadError:
+            continue
+    return authorized
+
+
 def _phase2_generated_snapshot(
     context: BatchContext,
 ) -> tuple[dict[str, bytes], dict[str, int]]:
@@ -1888,6 +2023,11 @@ def validate_phase2_batch(
                         "Generated observations do not match the code-owned review seal.",
                     )
                 )
+            historical_hashes = _phase2_historical_generated_detail_hashes(
+                context,
+                checked,
+                manifest_path.as_posix(),
+            )
             current_nonselected = _nonselected_detail_hashes(context)
             empty_run = {"changedPaths": [], "mtimeChangedPaths": []}
             actual = build_phase2_generated_manifest(
@@ -1943,24 +2083,51 @@ def validate_phase2_batch(
                         "Second-run bytes or mtimes changed.",
                     )
                 )
-            current_fields = {
-                "schemaVersion",
-                "kind",
-                "batch",
-                "selectedSlugs",
-                "detailFiles",
-                "index",
-                "detailFileCount",
-                "detailTreeSha256",
-                "allowedWrites",
+            current_hashes = dict(actual["nonselectedAfter"])
+            current_hashes.update(actual["detailFiles"])
+            changed_paths = {
+                detail_path
+                for detail_path in set(historical_hashes) | set(current_hashes)
+                if historical_hashes.get(detail_path)
+                != current_hashes.get(detail_path)
             }
-            if any(checked.get(field) != actual.get(field) for field in current_fields):
+            selected_paths = set(checked["detailFiles"])
+            authorized_later_paths = _phase2_authorized_later_detail_paths(
+                context,
+                current_hashes,
+                changed_paths - selected_paths,
+            )
+            unauthorized_paths = (
+                changed_paths.intersection(selected_paths)
+                | (
+                    changed_paths
+                    - selected_paths
+                    - authorized_later_paths
+                )
+            )
+            for unauthorized_path in sorted(unauthorized_paths):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-manifest-mismatch",
+                        unauthorized_path,
+                        "Current detail evolution is not authorized by a later independently trusted batch.",
+                    )
+                )
+            if not changed_paths and any(
+                checked.get(field) != actual.get(field)
+                for field in (
+                    "index",
+                    "detailFileCount",
+                    "detailTreeSha256",
+                )
+            ):
                 findings.append(
                     Finding(
                         "error",
                         "generated-manifest-mismatch",
                         manifest_path.as_posix(),
-                        "Checked-in generated manifest differs from current outputs.",
+                        "Current index or tree metadata changed without detail evolution.",
                     )
                 )
         except Phase2LoadError as error:
