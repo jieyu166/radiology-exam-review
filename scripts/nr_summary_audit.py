@@ -1124,37 +1124,77 @@ def _nonselected_detail_hashes(context: BatchContext) -> dict[str, str]:
     }
 
 
-def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
-    """Construct a manifest from current bytes without writing generated output."""
+def build_phase2_generated_manifest(
+    repo_root: Path,
+    batch_id: str,
+    *,
+    nonselected_before: Mapping[str, str] | None = None,
+    nonselected_after: Mapping[str, str] | None = None,
+    second_run: Mapping[str, Sequence[str]] | None = None,
+) -> dict:
+    """Construct a manifest from current bytes and explicit build observations."""
     assignment_path = Path(
         "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     )
     context = load_phase2_batch(repo_root, assignment_path, batch_id)
-    manifest_path = (
+    observation_path = (
         context.assignment_path.parent
         / "phase2a"
         / "generated"
         / f"{batch_id}.json"
-    )
-    previous = None
-    try:
-        previous = json.loads(
-            (context.repo_root / manifest_path).read_text(encoding="utf-8")
+    ).as_posix()
+    if (
+        nonselected_before is None
+        or nonselected_after is None
+        or second_run is None
+    ):
+        raise Phase2LoadError(
+            "generated-observation-missing",
+            observation_path,
+            "Explicit pre-build, post-build, and second-run observations are required.",
         )
-    except (OSError, UnicodeDecodeError, json.JSONDecodeError):
-        pass
-    current_nonselected = _nonselected_detail_hashes(context)
-    nonselected_before = (
-        previous.get("nonselectedAfter")
-        if isinstance(previous, dict)
-        and isinstance(previous.get("nonselectedAfter"), dict)
-        else current_nonselected
+    selected = set(context.batch["slugs"])
+
+    def valid_nonselected(observation: Mapping[str, str]) -> bool:
+        return (
+            isinstance(observation, dict)
+            and all(
+                isinstance(path, str)
+                and _phase2_path_parts(path) is not None
+                and path.startswith(context.generated_root.as_posix() + "/")
+                and Path(path).suffix == ".json"
+                and Path(path).stem not in selected
+                and isinstance(digest, str)
+                and SHA256_RE.fullmatch(digest) is not None
+                for path, digest in observation.items()
+            )
+        )
+
+    second_run_keys = {"changedPaths", "mtimeChangedPaths"}
+    valid_second_run = (
+        isinstance(second_run, dict)
+        and set(second_run) == second_run_keys
+        and all(
+            isinstance(paths, list)
+            and paths == sorted(set(paths))
+            and all(
+                isinstance(path, str) and _phase2_path_parts(path) is not None
+                for path in paths
+            )
+            for paths in second_run.values()
+        )
     )
-    second_run = (
-        previous.get("secondRun")
-        if isinstance(previous, dict) and isinstance(previous.get("secondRun"), dict)
-        else {"changedPaths": [], "mtimeChangedPaths": []}
-    )
+    if (
+        not valid_nonselected(nonselected_before)
+        or not valid_nonselected(nonselected_after)
+        or dict(nonselected_after) != _nonselected_detail_hashes(context)
+        or not valid_second_run
+    ):
+        raise Phase2LoadError(
+            "generated-observation-invalid",
+            observation_path,
+            "Build observations must be complete canonical repo-relative snapshots.",
+        )
     detail_root = context.repo_root / context.generated_root
     detail_files = sorted(detail_root.glob("*.json"), key=lambda item: item.name)
     tree_entries = []
@@ -1244,9 +1284,12 @@ def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
         "detailFileCount": len(detail_files),
         "detailTreeSha256": _canonical_sha256(tree_entries),
         "allowedWrites": allowed_writes,
-        "nonselectedBefore": nonselected_before,
-        "nonselectedAfter": current_nonselected,
-        "secondRun": second_run,
+        "nonselectedBefore": dict(nonselected_before),
+        "nonselectedAfter": dict(nonselected_after),
+        "secondRun": {
+            key: list(second_run[key])
+            for key in ("changedPaths", "mtimeChangedPaths")
+        },
     }
 
 
@@ -1449,6 +1492,33 @@ def validate_phase2_batch(
         covered = sum(item == "covered" for item in local_dispositions)
         research_needed = sum(item == "research-needed" for item in local_dispositions)
         manual_review = sum(item == "manual-review" for item in local_dispositions)
+        referenced_definition_kinds = {
+            definitions[ref].get("kind")
+            for fact in (facts if isinstance(facts, list) else [])
+            if isinstance(fact, dict)
+            for ref in (
+                fact.get("sourceRefs")
+                if isinstance(fact.get("sourceRefs"), list)
+                else []
+            )
+            if isinstance(definitions.get(ref), dict)
+        }
+        expected_note_status = (
+            "manual-review"
+            if manual_review
+            else "research-needed"
+            if research_needed
+            else "verified"
+        )
+        expected_source_status = (
+            "conflict"
+            if manual_review
+            else "research-needed"
+            if research_needed
+            else "researched"
+            if referenced_definition_kinds & {"article", "chapter"}
+            else "existing-sufficient"
+        )
         fact_coverage = (
             validation.get("factCoverage") if isinstance(validation, dict) else None
         )
@@ -1500,21 +1570,15 @@ def validate_phase2_batch(
                 item not in {"covered", "research-needed", "manual-review"}
                 for item in local_dispositions
             )
-            or (
-                all(item == "covered" for item in local_dispositions)
-                and entry.get("status") != "verified"
-            )
-            or (
-                any(item in {"research-needed", "manual-review"} for item in local_dispositions)
-                and entry.get("status") == "verified"
-            )
+            or entry.get("status") != expected_note_status
+            or entry.get("sourceStatus") != expected_source_status
         ):
             findings.append(
                 Finding(
                     "error",
                     "phase2-evidence-schema",
                     path,
-                    f"Evidence status for {slug!r} is inconsistent with facts.",
+                    f"Evidence note/source status for {slug!r} is not derived.",
                 )
             )
     if evidence.get("manualReviewFactIds") != sorted(unresolved):
@@ -1527,7 +1591,10 @@ def validate_phase2_batch(
             )
         )
     expected_root_status = "needs-review" if unresolved else "verified"
-    if evidence.get("status") != expected_root_status:
+    if (
+        not _is_string_member(evidence.get("status"), BATCH_STATUSES)
+        or evidence.get("status") != expected_root_status
+    ):
         findings.append(
             Finding(
                 "error",
@@ -1644,14 +1711,12 @@ def validate_phase2_batch(
                     )
                 )
         try:
-            actual = build_phase2_generated_manifest(
-                context.repo_root, context.batch["id"]
-            )
             manifest_path = Path(str(evidence.get("generatedManifest", "")))
-            if manifest_path.as_posix() != (
+            expected_manifest_path = (
                 Path("docs/reports/nr-summary-rewrite/phase2a/generated")
                 / f"{context.batch['id']}.json"
-            ).as_posix():
+            )
+            if manifest_path.as_posix() != expected_manifest_path.as_posix():
                 raise Phase2LoadError(
                     "generated-manifest-mismatch",
                     path,
@@ -1659,6 +1724,13 @@ def validate_phase2_batch(
                 )
             checked = _read_phase2_json(
                 context.repo_root / manifest_path, manifest_path
+            )
+            actual = build_phase2_generated_manifest(
+                context.repo_root,
+                context.batch["id"],
+                nonselected_before=checked.get("nonselectedBefore"),
+                nonselected_after=checked.get("nonselectedAfter"),
+                second_run=checked.get("secondRun"),
             )
             if checked.get("nonselectedBefore") != checked.get("nonselectedAfter"):
                 findings.append(

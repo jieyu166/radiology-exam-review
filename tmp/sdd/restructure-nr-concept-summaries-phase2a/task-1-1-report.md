@@ -136,3 +136,42 @@ No file below `vault/concepts/` and no production Phase 2 assignment, inventory,
   - exit 0
 - `git diff --exit-code -- vault/concepts`:
   - exit 0
+
+## Independent review round 3 fixes
+
+### Adversarial RED
+
+- Command:
+  - `python -m pytest -q scripts/test_nr_summary_audit.py -k "requires_explicit_build_observations or statuses_are_closed_and_exactly_derived"`
+- Result before implementation:
+  - `2 failed, 83 deselected`
+- The failures reproduced both Important review scenarios:
+  1. manifest construction succeeded without independently supplied pre-build, post-build, or second-run observations;
+  2. a `research-needed` fact accepted arbitrary note/source status strings.
+- A follow-up RED assertion proved that a syntactically valid but stale explicit post-build snapshot also succeeded before the final observation gate.
+
+### Fixes
+
+- The read-only manifest constructor now requires explicit pre-build, post-build, and second-run observations. Missing observations fail with `generated-observation-missing`; malformed or stale observations fail with `generated-observation-invalid`.
+- The post-build nonselected snapshot must match the current read-only generated tree. No observation is synthesized from an existing manifest or defaulted to empty success.
+- Batch validation reads only the fixed expected manifest path and passes its explicit historical observations into read-only reconstruction.
+- Phase 2 note status is exactly derived as `manual-review`, `research-needed`, or `verified` from fact dispositions. `sourceStatus` is derived from unresolved dispositions and the kinds of definitions actually referenced; root status remains exactly derived from the batch unresolved queue.
+- The empty production trusted registry remains unchanged and fail-closed.
+
+### Review-round verification
+
+- Two focused exploit tests:
+  - `2 passed, 83 deselected`
+- Full audit/build suite:
+  - `96 passed in 32.68s`
+- Consolidated relocation/adversarial selection:
+  - `20 passed, 76 deselected in 1.86s`
+- Existing direct Phase 1 suites:
+  - `NR_SUMMARY_AUDIT_OK`
+  - `BUILD_CONCEPTS_TEST_OK`
+- Four-file `py_compile`:
+  - exit 0
+- `git diff --check`:
+  - exit 0
+- `git diff --exit-code -- vault/concepts`:
+  - exit 0

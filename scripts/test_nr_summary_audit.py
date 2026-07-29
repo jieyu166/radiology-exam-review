@@ -638,6 +638,29 @@ def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> 
     return assignment_path.relative_to(root), baseline_digest
 
 
+def phase2_manifest_observations(
+    root: Path,
+    batch_id: str = "batch-01-anatomy",
+    *,
+    nonselected_before: dict[str, str] | None = None,
+) -> dict:
+    selected = set(audit.ACTIVE_PHASE2A_BATCHES[batch_id]["slugs"])
+    current_nonselected = {
+        path.relative_to(root).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in sorted((root / "data" / "concepts").glob("*.json"))
+        if path.stem not in selected
+    }
+    return {
+        "nonselected_before": (
+            current_nonselected
+            if nonselected_before is None
+            else nonselected_before
+        ),
+        "nonselected_after": current_nonselected,
+        "second_run": {"changedPaths": [], "mtimeChangedPaths": []},
+    }
+
+
 def test_phase2_assignment_is_complete_deterministic_and_validated() -> None:
     inventory = phase2_inventory_fixture()
 
@@ -795,10 +818,14 @@ def test_phase2_batch_context_is_immutable_root_relative_and_relocation_stable()
             canonical_findings = audit.validate_baseline_lock(canonical_context)
             shadow_findings = audit.validate_baseline_lock(shadow_context)
             canonical_manifest = audit.build_phase2_generated_manifest(
-                canonical, "batch-01-anatomy"
+                canonical,
+                "batch-01-anatomy",
+                **phase2_manifest_observations(canonical),
             )
             shadow_manifest = audit.build_phase2_generated_manifest(
-                shadow, "batch-01-anatomy"
+                shadow,
+                "batch-01-anatomy",
+                **phase2_manifest_observations(shadow),
             )
         finally:
             audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
@@ -896,7 +923,9 @@ def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:
         root = Path(directory)
         assignment_path, baseline_digest = write_phase2_api_fixture(root)
         manifest = audit.build_phase2_generated_manifest(
-            root, "batch-01-anatomy"
+            root,
+            "batch-01-anatomy",
+            **phase2_manifest_observations(root),
         )
         manifest_path = (
             root
@@ -1214,14 +1243,21 @@ def test_phase2_manifest_rejects_coordinated_nonselected_and_second_run_attacks(
         )
         manifest_path.parent.mkdir(parents=True)
         initial_manifest = audit.build_phase2_generated_manifest(
-            root, "batch-01-anatomy"
+            root,
+            "batch-01-anatomy",
+            **phase2_manifest_observations(root),
         )
         manifest_path.write_text(json.dumps(initial_manifest), encoding="utf-8")
 
         unrelated["keyPoints"] = ["coordinated mutation"]
         unrelated_path.write_text(json.dumps(unrelated), encoding="utf-8")
         forged_manifest = audit.build_phase2_generated_manifest(
-            root, "batch-01-anatomy"
+            root,
+            "batch-01-anatomy",
+            **phase2_manifest_observations(
+                root,
+                nonselected_before=initial_manifest["nonselectedAfter"],
+            ),
         )
         forged_manifest["secondRun"] = {
             "changedPaths": ["data/concepts/ajcc-8th-head-neck-n-staging.json"],
@@ -1265,7 +1301,9 @@ def test_phase2_public_manifest_builder_is_read_only_with_empty_registry() -> No
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {}
         try:
             audit.build_phase2_generated_manifest(
-                root, "batch-01-anatomy"
+                root,
+                "batch-01-anatomy",
+                **phase2_manifest_observations(root),
             )
         finally:
             audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
@@ -1279,6 +1317,117 @@ def test_phase2_public_manifest_builder_is_read_only_with_empty_registry() -> No
         }
 
     assert after == before
+
+
+def test_phase2_manifest_builder_requires_explicit_build_observations() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        write_phase2_api_fixture(root)
+        before = {
+            path.relative_to(root).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted(root.rglob("*"))
+            if path.is_file()
+        }
+        try:
+            audit.build_phase2_generated_manifest(
+                root, "batch-01-anatomy"
+            )
+        except audit.Phase2LoadError as error:
+            failure_code = error.code
+        else:
+            failure_code = None
+        stale_observations = phase2_manifest_observations(root)
+        stale_observations["nonselected_after"] = {
+            "data/concepts/ghost.json": "0" * 64
+        }
+        try:
+            audit.build_phase2_generated_manifest(
+                root,
+                "batch-01-anatomy",
+                **stale_observations,
+            )
+        except audit.Phase2LoadError as error:
+            stale_failure_code = error.code
+        else:
+            stale_failure_code = None
+        after = {
+            path.relative_to(root).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted(root.rglob("*"))
+            if path.is_file()
+        }
+
+    assert failure_code == "generated-observation-missing"
+    assert stale_failure_code == "generated-observation-invalid"
+    assert after == before
+
+
+def test_phase2_statuses_are_closed_and_exactly_derived_from_dispositions() -> None:
+    mutations = (
+        ("status", "totally-invalid"),
+        ("status", "manual-review"),
+        ("sourceStatus", "totally-invalid"),
+        ("sourceStatus", "conflict"),
+        ("root-status", "totally-invalid"),
+    )
+    for field, value in mutations:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            assignment_path, baseline_digest = write_phase2_api_fixture(root)
+            evidence_path = (
+                root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / "phase2a"
+                / "evidence"
+                / "batch-01-anatomy.json"
+            )
+            evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+            entry = evidence["notes"][0]
+            fact = entry["facts"][0]
+            fact["disposition"] = "research-needed"
+            fact_id = fact["id"]
+            entry["status"] = "research-needed"
+            entry["sourceStatus"] = "research-needed"
+            entry["validation"]["factCoverage"] = {
+                "total": 1,
+                "covered": 0,
+                "researchNeeded": 1,
+                "manualReview": 0,
+            }
+            evidence["manualReviewFactIds"] = [fact_id]
+            evidence["status"] = "needs-review"
+            if field == "root-status":
+                evidence["status"] = value
+            else:
+                entry[field] = value
+            evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+            original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-01-anatomy": baseline_digest
+            }
+            try:
+                context = audit.load_phase2_batch(
+                    root, assignment_path, "batch-01-anatomy"
+                )
+                codes = {
+                    finding.code
+                    for finding in audit.validate_phase2_batch(
+                        context,
+                        check_source_hashes=False,
+                        check_generated=False,
+                    )
+                }
+            finally:
+                audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+        assert "phase2-evidence-schema" in codes, (field, value, codes)
 
 
 def test_phase2_assignment_path_attack_cli_is_relocation_stable() -> None:
