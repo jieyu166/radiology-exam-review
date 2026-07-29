@@ -8,7 +8,7 @@
 
 ## 3. Pilot baseline evidence
 
-- [ ] 3.1 滿足「Batch evidence provides lossless and source-mapped coverage」與「Fact coverage is an explicit batch evidence contract」：在任何 Summary edit 前建立 docs/reports/nr-summary-rewrite/batch-00.json，保存 10 篇 lossless originalSummary、originalSha256、穩定 fact units、sourceRefs 與 unresolved disposition；以 validate-batch --allow-pending 驗證 10 notes、0 missing sources，且每個 fact 均為 pending、research-needed 或 manual-review。
+- [x] 3.1 滿足「Batch evidence provides lossless and source-mapped coverage」與「Fact coverage is an explicit batch evidence contract」：在任何 Summary edit 前建立 docs/reports/nr-summary-rewrite/batch-00.json，保存 10 篇 lossless originalSummary、originalSha256、穩定 fact units、sourceRefs 與 unresolved disposition；以 validate-batch --allow-pending 驗證 10 notes、0 missing sources，且每個 fact 均為 pending、research-needed 或 manual-review。
 
 ## 4. Pilot Summary 語意重組
 
