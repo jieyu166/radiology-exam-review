@@ -211,3 +211,19 @@ No file below `vault/concepts/` and no production Phase 2 assignment, inventory,
   - valid, 0 errors, 0 warnings
 - `spectra analyze restructure-nr-concept-summaries-phase2a --json`:
   - 0 Critical/Warning; 2 pre-existing Suggestions for missing concrete examples in unrelated medical scenarios
+
+## Final independent review blocker
+
+Round 5 returned one remaining Important finding after all permitted review
+rounds. The current validator compares an earlier batch manifest's complete
+detail tree and index against the later current corpus. A later batch can
+legitimately update one of its own selected detail files and rebuild the index,
+but revalidating the earlier batch then emits `generated-manifest-mismatch`.
+
+Task 1.1 is therefore reopened and blocked. Historical authenticated scope
+evidence must be separated from volatile current-corpus coherence: the earlier
+batch's selected outputs and authenticated write-boundary observation remain
+checked, authorized later-batch selected changes must not invalidate that
+history, and genuinely unauthorized nonselected drift must still fail.
+
+Task 1.2 and all concept rewrites remain unstarted.
