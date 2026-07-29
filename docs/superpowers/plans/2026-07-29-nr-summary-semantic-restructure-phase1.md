@@ -30,7 +30,7 @@
 ## File Map
 
 - Create: `scripts/nr_summary_audit.py`
-  - 純標準函式庫的唯讀 parser、validator 與 evidence checker。
+  - 純標準函式庫的唯讀 parser、structural validator，與 Task 1 evidence interface placeholder；Task 3 才實作 evidence checker。
 - Create: `scripts/test_nr_summary_audit.py`
   - 不依賴 pytest 的 smoke tests，沿用本專案 `scripts/test_import_obsidian_sr.py` 風格。
 - Create: `docs/reports/nr-summary-rewrite/inventory.json`
@@ -66,6 +66,8 @@
   - `validate_summary(note: NoteRecord) -> list[Finding]`
   - `validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Finding]`
   - CLI commands `inventory`, `validate-note`, and `validate-batch`.
+
+**Task 1 evidence boundary:** `validate_evidence()` and `validate-batch` establish a syntactically callable interface only. They do not validate evidence content, fact/source mappings, or dispositions; Task 3 adds those semantics without changing the public signature. A Task 1 `validate-batch` success is not evidence verification.
 
 - [ ] **Step 1: Write parser tests that fail before implementation**
 
@@ -220,6 +222,7 @@ python scripts/nr_summary_audit.py validate-batch docs/reports/nr-summary-rewrit
 ```
 
 `validate-note` and `validate-batch` must print findings and return exit code 1 on any `error`; warnings alone return 0.
+In Task 1, `validate-batch` only loads JSON and invokes the evidence-interface placeholder; the evidence-related failure modes begin in Task 3.
 
 - [ ] **Step 6: Run smoke tests and verify GREEN**
 

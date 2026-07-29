@@ -16,15 +16,17 @@ from typing import Iterable, Sequence
 
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(?P<frontmatter>.*?)\n---\s*(?:\n|\Z)", re.DOTALL)
-SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary(?:\s+.*)?\s*$", re.IGNORECASE)
+SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary(?:\s+\u2014\s+\S.*)?\s*$")
 LEVEL_TWO_HEADING_RE = re.compile(r"^##(?:\s|$)")
 FOOTNOTE_DEFINITION_RE = re.compile(r"^\[\^(?P<id>[^\]\r\n]+)\]:", re.MULTILINE)
 FOOTNOTE_REFERENCE_RE = re.compile(r"\[\^(?P<id>[^\]\r\n]+)\]")
-VALID_BULLET_RE = re.compile(r"^- \*\*[^*]+\*\*[:：]")
+VALID_BULLET_RE = re.compile(r"^- \*\*[^*]+\*\*[:\uFF1A]")
 TOP_LEVEL_BULLET_RE = re.compile(r"^-\s*(?P<content>.*)$")
 NESTED_BULLET_RE = re.compile(r"^\s{2,}[-*+]\s+")
 CALLOUT_RE = re.compile(r"^\s*>\s*\[![^\]]+\]", re.IGNORECASE)
 TABLE_RE = re.compile(r"^\s*\|.*\|\s*$")
+TABLE_SEPARATOR_RE = re.compile(r"^\s*:?-{3,}:?(?:\s*\|\s*:?-{3,}:?)+\s*$")
+TABLE_ROW_RE = re.compile(r"^\s*(?!\|)[^|\r\n]+\|[^|\r\n]+(?:\|[^|\r\n]+)*\s*$")
 
 
 @dataclass(frozen=True)
@@ -88,7 +90,7 @@ def extract_summary_sections(body: str) -> list[SummarySection]:
             sections.append(
                 SummarySection(
                     heading=lines[start_index].strip()[3:].strip(),
-                    content="\n".join(lines[start_index + 1 : index]).strip(),
+                    content="\n".join(lines[start_index + 1 : index]),
                     start_line=start_index + 1,
                     end_line=index,
                 )
@@ -99,7 +101,7 @@ def extract_summary_sections(body: str) -> list[SummarySection]:
         sections.append(
             SummarySection(
                 heading=lines[start_index].strip()[3:].strip(),
-                content="\n".join(lines[start_index + 1 :]).strip(),
+                content="\n".join(lines[start_index + 1 :]),
                 start_line=start_index + 1,
                 end_line=len(lines),
             )
@@ -111,7 +113,9 @@ def parse_note_text(path: Path, text: str) -> NoteRecord:
     """Parse a UTF-8 Obsidian concept note supplied as text."""
     frontmatter_match = FRONTMATTER_RE.match(text)
     frontmatter = frontmatter_match.group("frontmatter") if frontmatter_match else ""
-    body = text[frontmatter_match.end() :] if frontmatter_match else text
+    body_start = frontmatter_match.end() if frontmatter_match else 0
+    body = text[body_start:]
+    body_line_offset = text[:body_start].count("\n")
     definitions = frozenset(match.group("id") for match in FOOTNOTE_DEFINITION_RE.finditer(text))
     references: set[str] = set()
     for line in text.splitlines():
@@ -123,7 +127,15 @@ def parse_note_text(path: Path, text: str) -> NoteRecord:
         path=path,
         slug=path.stem,
         subspecialties=_parse_frontmatter_array(frontmatter, "subspecialty"),
-        summaries=tuple(extract_summary_sections(body)),
+        summaries=tuple(
+            SummarySection(
+                heading=section.heading,
+                content=section.content,
+                start_line=section.start_line + body_line_offset,
+                end_line=section.end_line + body_line_offset,
+            )
+            for section in extract_summary_sections(body)
+        ),
         footnote_refs=frozenset(references),
         footnote_defs=definitions,
         sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
@@ -150,7 +162,8 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
 
     for section in note.summaries:
         valid_bullets = 0
-        for relative_line, line in enumerate(section.content.splitlines(), start=1):
+        section_lines = section.content.splitlines()
+        for relative_line, line in enumerate(section_lines, start=1):
             line_number = section.start_line + relative_line
             if NESTED_BULLET_RE.match(line):
                 findings.append(_finding("summary-nested-bullet", note, f"Nested bullet at line {line_number}."))
@@ -158,6 +171,12 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
                 findings.append(_finding("summary-callout", note, f"Callout at line {line_number}."))
             if TABLE_RE.match(line):
                 findings.append(_finding("summary-table", note, f"Table row at line {line_number}."))
+            elif (
+                relative_line > 1
+                and TABLE_SEPARATOR_RE.match(line)
+                and TABLE_ROW_RE.match(section_lines[relative_line - 2])
+            ):
+                findings.append(_finding("summary-table", note, f"Table separator at line {line_number}."))
 
             bullet_match = TOP_LEVEL_BULLET_RE.match(line)
             if not bullet_match:
@@ -188,10 +207,10 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
 
 
 def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Finding]:
-    """Validate a batch evidence report.
+    """Provide the Task 1 evidence-validation interface placeholder.
 
-    Task 1 establishes this callable boundary.  Fact-unit/source mapping rules
-    are added with the evidence schema in the following task.
+    Task 1 intentionally performs no evidence-content validation. Task 3 adds
+    fact-unit/source mapping rules while preserving this public signature.
     """
     del report, notes
     return []
@@ -235,7 +254,9 @@ def build_parser() -> argparse.ArgumentParser:
     validate_note = commands.add_parser("validate-note", help="Validate one concept note.")
     validate_note.add_argument("path", type=Path)
 
-    validate_batch = commands.add_parser("validate-batch", help="Validate an evidence batch report.")
+    validate_batch = commands.add_parser(
+        "validate-batch", help="Invoke the Task 1 evidence-interface placeholder."
+    )
     validate_batch.add_argument("path", type=Path)
     return parser
 

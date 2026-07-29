@@ -67,7 +67,8 @@ Alternative considered: visual spot checks only. Rejected because multi-Summary 
 - The audit CLI provides inventory, validate-note, and validate-batch commands.
 - Inventory contains exactly 216 NR notes, no duplicate slugs, no unclassified entries, 10 batch-00 notes, and 206 unassigned notes.
 - validate-note reports stable finding codes and exits 1 on structural or footnote errors.
-- validate-batch verifies source hashes, evidence schema, fact-source mappings, fact dispositions, rewritten Summary coverage, and generated keyPoints.
+- Task 1 provides a syntactically callable `validate_evidence()`/`validate-batch` placeholder only; a successful Task 1 `validate-batch` invocation is not evidence verification.
+- Task 3 extends that stable interface to verify source hashes, evidence schema, fact-source mappings, fact dispositions, rewritten Summary coverage, and generated keyPoints.
 - The 10 pilot Summary sections use bold-label top-level bullets without Summary tables, callouts, or nested bullets.
 - Notes that require unavailable research remain research-needed or manual-review and are never reported as verified.
 
@@ -82,6 +83,7 @@ Alternative considered: visual spot checks only. Rejected because multi-Summary 
 - validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Finding]
 
 SummarySection, NoteRecord, and Finding are immutable dataclasses. Finding contains severity, code, path, and message.
+`validate_evidence()` is intentionally a no-op interface in Task 1; Task 3 owns all evidence-content semantics and preserves its signature.
 
 ### JSON data shapes
 
