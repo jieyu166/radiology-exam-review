@@ -157,3 +157,57 @@ The field-level comparison against base `5c3256e` proved:
 - Git emits an environment warning that the user-level
   `C:\Users\jai16\.config\git\ignore` is unreadable in the managed sandbox.
   Repository diff/status commands still completed successfully.
+
+## Review round 1 fix
+
+Review round 1 identified that a cross-type member swap between scheduled
+batches emitted `phase2-assignment-nondeterministic` but not the simultaneously
+applicable `phase2-assignment-membership`.
+
+### RED / GREEN
+
+- RED:
+  `test_phase2_checked_assignment_rejects_duplicate_missing_and_type_drift`
+  was tightened to require both stable codes after swapping the first members
+  of scheduled anatomy and disease batches.
+- RED result: `1 failed, 101 deselected in 0.27s`; the missing code was
+  `phase2-assignment-membership`.
+- Fix: validation now checks every batch member's inventory type against the
+  batch's declared type. A mixed-type or wrong-type batch therefore fails
+  membership classification while canonical regeneration independently retains
+  the nondeterministic finding.
+- GREEN result: `1 passed, 101 deselected in 0.10s`.
+
+### Production-byte preservation
+
+Both checked production files remain byte-identical to FIX_BASE
+`2d223691f32c4fe502956b9728221decccd6382d`:
+
+- `inventory.json`: base/current SHA-256
+  `b4289d4a25c225f4083a1ee4a0bbf2a83ec4baabdf4c8eee0f453a3321923131`;
+- `phase2-assignment.json`: base/current SHA-256
+  `15e3aa72a77aa017423680186d0cb31c96a28cb4a978c4d7a8e712a0ccec59df`.
+
+### Fresh round-1 gates
+
+- Complete audit/build pytest: `113 passed in 51.22s`.
+- Consolidated Phase 2/scoped-build/explicit-root attacks:
+  `41 passed, 72 deselected in 25.79s`.
+- Direct production `validate-assignment`: exit 0, findings `[]`, exact
+  216/10/206/30/176 counts.
+- Direct Phase 1 smokes: `NR_SUMMARY_AUDIT_OK` and
+  `BUILD_CONCEPTS_TEST_OK`.
+- Four-file `py_compile`: exit 0.
+- Spectra strict validation: valid, 0 errors, 0 warnings.
+- Spectra analysis: 0 Critical, 0 Warning; the same two unrelated
+  Suggestion-only findings remain.
+- `git diff --check`: exit 0.
+- Production JSON, `vault/concepts`, `data/concepts`,
+  `data/concepts-index.json`, and Task 1.2 checkbox diffs against FIX_BASE:
+  none.
+
+Round-1 changed files are limited to:
+
+- `scripts/nr_summary_audit.py`;
+- `scripts/test_nr_summary_audit.py`;
+- this report.

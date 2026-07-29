@@ -1064,10 +1064,14 @@ def test_phase2_checked_assignment_rejects_duplicate_missing_and_type_drift() ->
         disease["slugs"][0],
         anatomy["slugs"][0],
     )
-    assert "phase2-assignment-nondeterministic" in {
+    mixed_type_codes = {
         finding.code
         for finding in audit.validate_phase2_assignment(mixed_type, inventory)
     }
+    assert {
+        "phase2-assignment-membership",
+        "phase2-assignment-nondeterministic",
+    } <= mixed_type_codes
 
     type_drift = deepcopy(inventory)
     active_slugs = {

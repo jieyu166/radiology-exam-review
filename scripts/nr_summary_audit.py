@@ -853,6 +853,10 @@ def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Findin
     membership_ok = isinstance(batches, list)
     flattened: list[str] = []
     batch_by_id = {}
+    inventory_type_by_slug = {
+        entry["slug"]: entry["type"]
+        for entry in _phase2_inventory_projection(inventory)
+    }
     if isinstance(batches, list):
         for batch in batches:
             if not isinstance(batch, dict) or not isinstance(batch.get("id"), str):
@@ -865,6 +869,12 @@ def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Findin
             ):
                 membership_ok = False
                 continue
+            declared_type = batch.get("type")
+            if not isinstance(declared_type, str) or any(
+                inventory_type_by_slug.get(slug) != declared_type
+                for slug in slugs
+            ):
+                membership_ok = False
             flattened.extend(slugs)
         expected_slugs = [
             entry["slug"] for entry in _phase2_inventory_projection(inventory)
