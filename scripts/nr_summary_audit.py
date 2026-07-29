@@ -27,6 +27,261 @@ CALLOUT_RE = re.compile(r"^\s*>\s*\[![^\]]+\]", re.IGNORECASE)
 TABLE_RE = re.compile(r"^\s*\|.*\|\s*$")
 TABLE_SEPARATOR_RE = re.compile(r"^\s*:?-{3,}:?(?:\s*\|\s*:?-{3,}:?)+\s*$")
 TABLE_ROW_RE = re.compile(r"^\s*(?!\|)[^|\r\n]+\|[^|\r\n]+(?:\|[^|\r\n]+)*\s*$")
+SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+
+NOTE_TYPES = {"disease", "pattern-ddx", "anatomy-measurement-management"}
+NOTE_STATUSES = {
+    "pending",
+    "rewritten",
+    "unchanged",
+    "research-needed",
+    "manual-review",
+    "build-failed",
+    "verified",
+}
+SOURCE_STATUSES = {
+    "existing-sufficient",
+    "research-needed",
+    "researched",
+    "conflict",
+}
+PHASE_1_BATCHES = {"batch-00", "unassigned"}
+PILOT_SLUGS = frozenset(
+    {
+        "clippers",
+        "cerebral-amyloid-angiopathy",
+        "craniopharyngioma",
+        "basal-ganglia-t1-shortening",
+        "cpa-masses",
+        "bilateral-subcortical-dwi-hyperintensity-ddx",
+        "artery-of-adamkiewicz",
+        "aspects-score",
+        "acute-stroke-management",
+        "dementia-neuroimaging-overview",
+    }
+)
+
+# Every value in this map was assigned by reviewing the corresponding note.
+# Inventory generation performs a direct lookup only; it deliberately contains
+# no filename, heading, or medical-keyword inference fallback.
+NOTE_TYPE_OVERRIDES = {
+    "2-hydroxyglutarate-idh-mutant-glioma": "disease",
+    "acute-stroke-management": "anatomy-measurement-management",
+    "adrenoleukodystrophy": "disease",
+    "aicardi-syndrome": "disease",
+    "ajcc-8th-head-neck-n-staging": "anatomy-measurement-management",
+    "als-imaging": "disease",
+    "aneurysm-coiling-recurrence": "anatomy-measurement-management",
+    "angioinvasive-aspergillosis": "disease",
+    "anti-nmda-encephalitis": "disease",
+    "arterial-dissection-mri": "disease",
+    "artery-of-adamkiewicz": "anatomy-measurement-management",
+    "aspects-score": "anatomy-measurement-management",
+    "atlantodental-interval": "anatomy-measurement-management",
+    "atypical-teratoid-rhabdoid-tumor": "disease",
+    "autoimmune-encephalitis": "disease",
+    "basal-ganglia-t1-shortening": "pattern-ddx",
+    "basilar-artery-occlusion": "disease",
+    "behcet-disease-neuro": "disease",
+    "bilateral-subcortical-dwi-hyperintensity-ddx": "pattern-ddx",
+    "brachial-plexus-anatomy": "anatomy-measurement-management",
+    "brain-abscess": "disease",
+    "brain-herniation-syndromes": "anatomy-measurement-management",
+    "brain-metastasis-mri": "disease",
+    "brain-tumor-imaging": "pattern-ddx",
+    "capillary-telangiectasia": "disease",
+    "cardioembolic-stroke": "disease",
+    "carotid-cavernous-fistula": "disease",
+    "carotid-vertebrobasilar-anastomoses": "anatomy-measurement-management",
+    "cavernous-sinus-schwannoma": "disease",
+    "central-neurocytoma": "disease",
+    "cerebral-amyloid-angiopathy": "disease",
+    "cerebral-border-zone-infarct-arteries": "anatomy-measurement-management",
+    "cerebral-cavernous-malformation": "disease",
+    "cerebral-deep-venous-cortex": "anatomy-measurement-management",
+    "cerebral-herniation-types": "anatomy-measurement-management",
+    "cerebral-infarction-evolution": "anatomy-measurement-management",
+    "cerebral-infarction-fogging": "pattern-ddx",
+    "cerebral-microbleeds": "pattern-ddx",
+    "cerebral-proliferative-angiopathy": "disease",
+    "cerebral-pseudoaneurysm": "disease",
+    "cerebral-venous-system": "anatomy-measurement-management",
+    "cerebral-venous-thrombosis-mri": "disease",
+    "cerebrovascular-malformations": "pattern-ddx",
+    "cervical-nerve-root-dermatome": "anatomy-measurement-management",
+    "cervical-radiculopathy": "disease",
+    "chemical-shift-artifact": "pattern-ddx",
+    "chiari-malformation": "disease",
+    "cholesterol-granuloma-petrous-apex": "disease",
+    "clippers": "disease",
+    "cns-germinoma": "disease",
+    "cns-opportunistic-infection": "pattern-ddx",
+    "colloid-cyst": "disease",
+    "congenital-aural-atresia": "disease",
+    "corpus-callosum-agenesis-signs": "disease",
+    "corpus-callosum-dysgenesis": "disease",
+    "covid-19-brain-mri": "disease",
+    "cpa-masses": "pattern-ddx",
+    "cranial-nerve-muscle-atrophy": "pattern-ddx",
+    "craniopharyngioma": "disease",
+    "craniosynostosis-suture-fusion": "disease",
+    "cri-du-chat-syndrome": "disease",
+    "ct-venography": "anatomy-measurement-management",
+    "dandy-walker-malformation": "disease",
+    "dementia-neuroimaging-overview": "pattern-ddx",
+    "dural-av-fistula": "disease",
+    "dural-avf": "disease",
+    "dural-based-masses-aids": "pattern-ddx",
+    "dural-venous-sinus-thrombosis": "disease",
+    "eac-exostoses": "disease",
+    "empty-sella": "disease",
+    "ependymoma": "disease",
+    "ev71-cns-complications": "disease",
+    "fabry-disease-pulvinar": "disease",
+    "facial-fracture-complications": "disease",
+    "facial-nerve-schwannoma": "disease",
+    "fahr-disease": "disease",
+    "fibromuscular-dysplasia": "disease",
+    "gbm": "disease",
+    "gbm-vs-pcnsl": "pattern-ddx",
+    "glomus-jugulare": "disease",
+    "glutaric-aciduria-type1": "disease",
+    "gre-hemorrhage-detection": "anatomy-measurement-management",
+    "guillain-mollaret-triangle": "anatomy-measurement-management",
+    "hair-on-end-skull": "pattern-ddx",
+    "head-melanoma-mri-signal": "disease",
+    "hemangioblastoma": "disease",
+    "hemichorea-hemiballism": "disease",
+    "hemimegalencephaly": "disease",
+    "hepatic-encephalopathy-manganese-deposition": "disease",
+    "herpes-simplex-encephalitis": "disease",
+    "hypertensive-hemorrhage": "disease",
+    "hypothalamic-anatomy": "anatomy-measurement-management",
+    "hypothalamic-hamartoma": "disease",
+    "hypoxic-ischemic-encephalopathy": "disease",
+    "ia-thrombectomy-stroke-window": "anatomy-measurement-management",
+    "iatrogenic-femoral-pseudoaneurysm": "disease",
+    "ica-dissection-sites": "anatomy-measurement-management",
+    "ich-score": "anatomy-measurement-management",
+    "idiopathic-intracranial-hypertension": "disease",
+    "incomplete-spinal-cord-syndrome": "disease",
+    "inferolateral-trunk-branches": "anatomy-measurement-management",
+    "intra-arterial-thrombectomy": "anatomy-measurement-management",
+    "intracranial-cystic-lesions": "pattern-ddx",
+    "intracranial-germ-cell-tumors": "pattern-ddx",
+    "intracranial-lipoma": "disease",
+    "intramedullary-spinal-tumors": "pattern-ddx",
+    "intraventricular-tumors": "pattern-ddx",
+    "ischemic-stroke-imaging-timeline": "anatomy-measurement-management",
+    "joubert-syndrome": "disease",
+    "lacunar-infarction": "disease",
+    "large-vestibular-aqueduct": "disease",
+    "larynx-hypopharynx-subsite-anatomy": "anatomy-measurement-management",
+    "lemierre-syndrome": "disease",
+    "lenticulostriate-arteries": "anatomy-measurement-management",
+    "lipomyelomeningocele": "disease",
+    "lysosomal-storage-disorders-cns": "pattern-ddx",
+    "machine-learning-radiomics-basics": "anatomy-measurement-management",
+    "masticator-space": "anatomy-measurement-management",
+    "mcdonald-ms-criteria": "anatomy-measurement-management",
+    "medulloblastoma-molecular-subgroups": "pattern-ddx",
+    "men1": "disease",
+    "meninges-anatomy": "anatomy-measurement-management",
+    "meningioma-recurrence": "anatomy-measurement-management",
+    "metachromatic-leukodystrophy": "disease",
+    "methanol-toxicity": "disease",
+    "moyamoya": "disease",
+    "moyamoya-disease": "disease",
+    "mr-elastography-brain": "anatomy-measurement-management",
+    "mri-vessel-wall-imaging": "anatomy-measurement-management",
+    "mr-spectroscopy-brain": "anatomy-measurement-management",
+    "mucopolysaccharidosis-imaging": "pattern-ddx",
+    "mucormycosis": "disease",
+    "multinodular-vacuolating-neuronal-tumor": "disease",
+    "multiple-hypodense-brain-lesions": "pattern-ddx",
+    "multiple-sclerosis-imaging": "disease",
+    "neurocutaneous-melanosis": "disease",
+    "neurofibromatosis-type-1": "disease",
+    "neuromyelitis-optica": "disease",
+    "neuropsychiatric-sle": "disease",
+    "non-sah-vasospasm": "pattern-ddx",
+    "normal-myelination-pattern": "anatomy-measurement-management",
+    "normal-pressure-hydrocephalus": "disease",
+    "npsle-imaging": "disease",
+    "odontoid-fracture": "disease",
+    "opscc-hpv": "disease",
+    "optic-nerve-meningioma": "disease",
+    "optic-nerve-sheath-meningioma": "disease",
+    "oral-cavity-cancer-ajcc-staging": "anatomy-measurement-management",
+    "otosclerosis": "disease",
+    "paraneoplastic-syndromes-brain": "pattern-ddx",
+    "parathyroid-adenoma": "disease",
+    "pca-branches": "anatomy-measurement-management",
+    "pediatric-head-neck-infections": "pattern-ddx",
+    "pediatric-lgg-genetics": "disease",
+    "pediatric-meningitis": "disease",
+    "pelizaeus-merzbacher-disease": "disease",
+    "perimesencephalic-sah": "disease",
+    "persistent-stapedial-artery": "anatomy-measurement-management",
+    "pilocytic-astrocytoma": "disease",
+    "pituicytoma": "disease",
+    "pituitary-macroadenoma": "disease",
+    "posterior-cerebral-artery-branches": "anatomy-measurement-management",
+    "posterior-fossa-malformations": "pattern-ddx",
+    "posterior-fossa-neoplasm-by-age": "pattern-ddx",
+    "pres": "disease",
+    "psp-imaging-signs": "disease",
+    "pterygopalatine-fossa": "anatomy-measurement-management",
+    "ra-cervical-spine": "disease",
+    "radiation-induced-changes": "pattern-ddx",
+    "radiation-induced-hypopituitarism": "disease",
+    "radiation-necrosis-vs-tumor-recurrence": "pattern-ddx",
+    "rapidly-progressive-dementia": "pattern-ddx",
+    "relapsing-remitting-cns": "pattern-ddx",
+    "remote-cerebellar-hemorrhage": "disease",
+    "retinoblastoma": "disease",
+    "retropharyngeal-space": "anatomy-measurement-management",
+    "rhombencephalosynapsis": "disease",
+    "schwannomatosis": "disease",
+    "sciwora": "disease",
+    "second-impact-syndrome": "disease",
+    "sellar-parasellar-lesions": "pattern-ddx",
+    "skull-base-osteomyelitis": "disease",
+    "solitary-fibrous-tumor-hemangiopericytoma": "disease",
+    "spetzler-martin-avm": "anatomy-measurement-management",
+    "sphenoparietal-sinus": "anatomy-measurement-management",
+    "spinal-avm": "pattern-ddx",
+    "spinal-cord-astrocytoma": "disease",
+    "spinal-ewing-sarcoma": "disease",
+    "spinal-intramedullary-tumors": "pattern-ddx",
+    "spinal-metastasis-pathways": "anatomy-measurement-management",
+    "spondylodiscitis": "disease",
+    "spontaneous-ich-young-adults": "pattern-ddx",
+    "spontaneous-intracranial-hypotension": "disease",
+    "spontaneous-skull-base-cephalocele": "disease",
+    "sturge-weber-syndrome": "disease",
+    "subacute-combined-degeneration": "disease",
+    "subdural-empyema": "disease",
+    "subependymoma": "disease",
+    "superficial-siderosis": "disease",
+    "superior-orbital-fissure": "anatomy-measurement-management",
+    "takayasu-arteritis": "disease",
+    "temporal-bone-fracture": "disease",
+    "temporal-bone-inflammatory": "pattern-ddx",
+    "temporal-bone-trauma-ossicular": "anatomy-measurement-management",
+    "temporomandibular-joint-disorder-mri": "anatomy-measurement-management",
+    "thyroid-cancer-tnm-staging": "anatomy-measurement-management",
+    "thyroid-rfa": "anatomy-measurement-management",
+    "toxic-metabolic-brain-imaging": "pattern-ddx",
+    "toxic-metabolic-leukoencephalopathy": "pattern-ddx",
+    "trigeminal-neuralgia-neurovascular-compression": "disease",
+    "tuberous-sclerosis": "disease",
+    "tumefactive-demyelinating-lesion": "disease",
+    "vertebrobasilar-dolichoectasia": "disease",
+    "who-cns-tumor-grading": "anatomy-measurement-management",
+    "wyburn-mason-syndrome": "disease",
+    "xenon-ct-perfusion": "anatomy-measurement-management",
+}
 
 
 @dataclass(frozen=True)
@@ -216,6 +471,203 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
     return []
 
 
+def _inventory_finding(code: str, path: str, message: str) -> Finding:
+    return Finding(severity="error", code=code, path=path, message=message)
+
+
+def validate_inventory(inventory: dict) -> list[Finding]:
+    """Validate the closed Phase 1 inventory schema and enum values."""
+    findings: list[Finding] = []
+    if inventory.get("schemaVersion") != 1:
+        findings.append(
+            _inventory_finding("inventory-schema", "inventory.json", "schemaVersion must be 1.")
+        )
+    if inventory.get("scope") != "NR":
+        findings.append(_inventory_finding("inventory-scope", "inventory.json", "scope must be NR."))
+    if inventory.get("generatedFrom") != "vault/concepts":
+        findings.append(
+            _inventory_finding(
+                "inventory-generated-from",
+                "inventory.json",
+                "generatedFrom must be vault/concepts.",
+            )
+        )
+
+    entries = inventory.get("notes")
+    if not isinstance(entries, list):
+        findings.append(_inventory_finding("inventory-schema", "inventory.json", "notes must be a list."))
+        return findings
+
+    required = {
+        "slug",
+        "path",
+        "type",
+        "batch",
+        "status",
+        "sourceStatus",
+        "originalSha256",
+        "summaryHeadings",
+    }
+    for index, entry in enumerate(entries):
+        path = f"inventory.json#notes/{index}"
+        if not isinstance(entry, dict):
+            findings.append(_inventory_finding("inventory-schema", path, "Inventory entry must be an object."))
+            continue
+        missing = sorted(required - entry.keys())
+        if missing:
+            findings.append(
+                _inventory_finding(
+                    "inventory-schema",
+                    path,
+                    f"Inventory entry is missing fields: {', '.join(missing)}.",
+                )
+            )
+        if entry.get("type") not in NOTE_TYPES:
+            findings.append(
+                _inventory_finding(
+                    "inventory-type",
+                    path,
+                    f"Unsupported note type: {entry.get('type')!r}.",
+                )
+            )
+        if entry.get("status") not in NOTE_STATUSES:
+            findings.append(
+                _inventory_finding(
+                    "inventory-status",
+                    path,
+                    f"Unsupported note status: {entry.get('status')!r}.",
+                )
+            )
+        if entry.get("sourceStatus") not in SOURCE_STATUSES:
+            findings.append(
+                _inventory_finding(
+                    "inventory-source-status",
+                    path,
+                    f"Unsupported source status: {entry.get('sourceStatus')!r}.",
+                )
+            )
+        if entry.get("batch") not in PHASE_1_BATCHES:
+            findings.append(
+                _inventory_finding(
+                    "inventory-batch",
+                    path,
+                    f"Unsupported Phase 1 batch: {entry.get('batch')!r}.",
+                )
+            )
+        if not isinstance(entry.get("originalSha256"), str) or not SHA256_RE.fullmatch(
+            entry["originalSha256"]
+        ):
+            findings.append(
+                _inventory_finding(
+                    "inventory-sha256",
+                    path,
+                    "originalSha256 must be 64 lowercase hexadecimal characters.",
+                )
+            )
+        if not isinstance(entry.get("summaryHeadings"), list) or not all(
+            isinstance(heading, str) for heading in entry.get("summaryHeadings", [])
+        ):
+            findings.append(
+                _inventory_finding(
+                    "inventory-summary-headings",
+                    path,
+                    "summaryHeadings must be a list of strings.",
+                )
+            )
+    return findings
+
+
+def validate_inventory_against_notes(
+    inventory: dict, notes: dict[str, NoteRecord]
+) -> list[Finding]:
+    """Validate inventory uniqueness and exact coverage of current NR notes."""
+    findings = validate_inventory(inventory)
+    entries = inventory.get("notes")
+    if not isinstance(entries, list):
+        return findings
+
+    seen: set[str] = set()
+    duplicate_slugs: set[str] = set()
+    inventory_slugs: set[str] = set()
+    entries_by_slug: dict[str, dict] = {}
+    for entry in entries:
+        if not isinstance(entry, dict) or not isinstance(entry.get("slug"), str):
+            continue
+        slug = entry["slug"]
+        if slug in seen:
+            duplicate_slugs.add(slug)
+        seen.add(slug)
+        inventory_slugs.add(slug)
+        entries_by_slug.setdefault(slug, entry)
+
+    for slug in sorted(duplicate_slugs):
+        findings.append(
+            _inventory_finding(
+                "inventory-duplicate-slug",
+                "inventory.json",
+                f"Duplicate inventory slug: {slug}.",
+            )
+        )
+
+    nr_notes = {slug: note for slug, note in notes.items() if note.in_scope}
+    missing = sorted(set(nr_notes) - inventory_slugs)
+    extra = sorted(inventory_slugs - set(nr_notes))
+    if missing or extra:
+        details = []
+        if missing:
+            details.append(f"missing NR slugs: {', '.join(missing)}")
+        if extra:
+            details.append(f"non-NR or absent slugs: {', '.join(extra)}")
+        findings.append(
+            _inventory_finding(
+                "inventory-scope-mismatch",
+                "inventory.json",
+                "; ".join(details) + ".",
+            )
+        )
+
+    for slug in sorted(set(nr_notes) & inventory_slugs):
+        entry = entries_by_slug[slug]
+        note = nr_notes[slug]
+        expected_path = note.path.as_posix()
+        if entry.get("path") != expected_path:
+            findings.append(
+                _inventory_finding(
+                    "inventory-path-mismatch",
+                    expected_path,
+                    f"Inventory path for {slug} does not match the note path.",
+                )
+            )
+        if entry.get("originalSha256") != note.sha256:
+            findings.append(
+                _inventory_finding(
+                    "inventory-hash-mismatch",
+                    expected_path,
+                    f"Inventory hash for {slug} does not match the current note.",
+                )
+            )
+        expected_headings = [section.heading for section in note.summaries]
+        if entry.get("summaryHeadings") != expected_headings:
+            findings.append(
+                _inventory_finding(
+                    "inventory-summary-headings-mismatch",
+                    expected_path,
+                    f"Inventory Summary headings for {slug} do not match the note.",
+                )
+            )
+
+    batch_00 = {entry.get("slug") for entry in entries if entry.get("batch") == "batch-00"}
+    if batch_00 != PILOT_SLUGS:
+        findings.append(
+            _inventory_finding(
+                "inventory-batch-membership",
+                "inventory.json",
+                "batch-00 membership does not match the fixed Phase 1 pilot.",
+            )
+        )
+    return findings
+
+
 def _findings_have_errors(findings: Iterable[Finding]) -> bool:
     return any(finding.severity == "error" for finding in findings)
 
@@ -224,23 +676,65 @@ def _print_findings(findings: Sequence[Finding]) -> None:
     print(json.dumps([asdict(finding) for finding in findings], ensure_ascii=False, indent=2))
 
 
-def _inventory(root: Path) -> dict:
+def _inventory(root: Path) -> tuple[dict, dict[str, NoteRecord]]:
     records = [parse_note(path) for path in sorted(root.rglob("*.md"), key=lambda item: item.as_posix())]
     nr_records = [record for record in records if record.in_scope]
-    return {
+    report = {
         "schemaVersion": 1,
         "scope": "NR",
+        "generatedFrom": "vault/concepts",
         "notes": [
             {
                 "slug": record.slug,
-                "path": record.path.as_posix(),
-                "subspecialty": list(record.subspecialties),
+                "path": (Path("vault/concepts") / record.path.name).as_posix(),
+                "type": NOTE_TYPE_OVERRIDES.get(record.slug, "unknown"),
+                "batch": "batch-00" if record.slug in PILOT_SLUGS else "unassigned",
+                "status": "pending",
+                "sourceStatus": "existing-sufficient",
+                "originalSha256": record.sha256,
                 "summaryHeadings": [section.heading for section in record.summaries],
-                "sha256": record.sha256,
             }
-            for record in nr_records
+            for record in sorted(nr_records, key=lambda item: item.slug)
         ],
     }
+    normalized_records = {
+        record.slug: NoteRecord(
+            path=Path("vault/concepts") / record.path.name,
+            slug=record.slug,
+            subspecialties=record.subspecialties,
+            summaries=record.summaries,
+            footnote_refs=record.footnote_refs,
+            footnote_defs=record.footnote_defs,
+            sha256=record.sha256,
+        )
+        for record in nr_records
+    }
+    return report, normalized_records
+
+
+def _inventory_counts(report: dict) -> tuple[int, int, int, int, int]:
+    entries = report.get("notes", [])
+    slugs = [entry.get("slug") for entry in entries if isinstance(entry, dict)]
+    duplicates = len(slugs) - len(set(slugs))
+    unclassified = sum(
+        1 for entry in entries if not isinstance(entry, dict) or entry.get("type") not in NOTE_TYPES
+    )
+    batch_00 = sum(
+        1 for entry in entries if isinstance(entry, dict) and entry.get("batch") == "batch-00"
+    )
+    unassigned = sum(
+        1 for entry in entries if isinstance(entry, dict) and entry.get("batch") == "unassigned"
+    )
+    return len(entries), duplicates, unclassified, batch_00, unassigned
+
+
+def _print_inventory_counts(report: dict) -> None:
+    total, duplicates, unclassified, batch_00, unassigned = _inventory_counts(report)
+    print(f"NR notes: {total}")
+    print(f"Duplicate slugs: {duplicates}")
+    print(f"Unclassified: {unclassified}")
+    print(f"Batch 00: {batch_00}")
+    print(f"Unassigned: {unassigned}")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -250,6 +744,11 @@ def build_parser() -> argparse.ArgumentParser:
     inventory = commands.add_parser("inventory", help="Write a deterministic NR concept inventory.")
     inventory.add_argument("--root", type=Path, required=True)
     inventory.add_argument("--output", type=Path, required=True)
+    inventory.add_argument(
+        "--check",
+        action="store_true",
+        help="Validate the existing output against a freshly generated inventory.",
+    )
 
     validate_note = commands.add_parser("validate-note", help="Validate one concept note.")
     validate_note.add_argument("path", type=Path)
@@ -264,9 +763,29 @@ def build_parser() -> argparse.ArgumentParser:
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.command == "inventory":
-        report = _inventory(args.root)
+        expected, notes = _inventory(args.root)
+        if args.check:
+            if not args.output.is_file():
+                print(f"Inventory output does not exist: {args.output}")
+                return 1
+            report = json.loads(args.output.read_text(encoding="utf-8"))
+            findings = validate_inventory_against_notes(report, notes)
+            if report != expected:
+                findings.append(
+                    _inventory_finding(
+                        "inventory-not-deterministic",
+                        args.output.as_posix(),
+                        "Existing inventory differs from deterministic generation.",
+                    )
+                )
+            _print_inventory_counts(report)
+            if findings:
+                _print_findings(findings)
+            return 1 if _findings_have_errors(findings) else 0
+        report = expected
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        _print_inventory_counts(report)
         return 0
     if args.command == "validate-note":
         findings = validate_summary(parse_note(args.path))

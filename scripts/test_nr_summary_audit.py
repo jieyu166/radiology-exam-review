@@ -13,6 +13,16 @@ from pathlib import Path
 import nr_summary_audit as audit
 
 
+NR_DEMO_TEXT = """---
+concepts: [demo]
+subspecialty: [NR]
+---
+## Summary
+- **Label**: Demo fact.[^1]
+[^1]: Example.
+"""
+
+
 def test_summary_variants_are_extracted() -> None:
     text = """---
 concepts: [demo]
@@ -149,6 +159,61 @@ def test_cli_prints_findings_and_uses_error_exit_code() -> None:
     assert findings[0]["code"] == "summary-missing"
 
 
+def test_inventory_requires_allowed_type_and_status() -> None:
+    entry = {
+        "slug": "demo",
+        "path": "vault/concepts/demo.md",
+        "type": "unknown",
+        "batch": "batch-00",
+        "status": "pending",
+        "sourceStatus": "existing-sufficient",
+        "originalSha256": "a" * 64,
+        "summaryHeadings": ["Summary"],
+    }
+    findings = audit.validate_inventory({"schemaVersion": 1, "notes": [entry]})
+    assert "inventory-type" in {finding.code for finding in findings}
+
+
+def test_inventory_requires_root_contract() -> None:
+    inventory = {
+        "schemaVersion": 1,
+        "notes": [],
+    }
+    codes = {finding.code for finding in audit.validate_inventory(inventory)}
+    assert {"inventory-scope", "inventory-generated-from"} <= codes
+
+
+def test_inventory_rejects_duplicate_slug_and_missing_nr_note() -> None:
+    nr_demo = audit.parse_note_text(Path("vault/concepts/demo.md"), NR_DEMO_TEXT)
+    nr_other = audit.parse_note_text(
+        Path("vault/concepts/other.md"),
+        NR_DEMO_TEXT.replace("concepts: [demo]", "concepts: [other]"),
+    )
+    entry = {
+        "slug": "demo",
+        "path": "vault/concepts/demo.md",
+        "type": "disease",
+        "batch": "batch-00",
+        "status": "pending",
+        "sourceStatus": "existing-sufficient",
+        "originalSha256": nr_demo.sha256,
+        "summaryHeadings": ["Summary"],
+    }
+    inventory_with_duplicate_demo = {
+        "schemaVersion": 1,
+        "scope": "NR",
+        "generatedFrom": "vault/concepts",
+        "notes": [entry, dict(entry)],
+    }
+    findings = audit.validate_inventory_against_notes(
+        inventory_with_duplicate_demo,
+        {"demo": nr_demo, "other": nr_other},
+    )
+    codes = {finding.code for finding in findings}
+    assert "inventory-duplicate-slug" in codes
+    assert "inventory-scope-mismatch" in codes
+
+
 def run_smoke() -> None:
     test_summary_variants_are_extracted()
     test_non_nr_note_is_not_in_scope()
@@ -158,6 +223,9 @@ def run_smoke() -> None:
     test_validator_rejects_missing_empty_and_alternate_table_summaries()
     test_note_line_numbers_include_frontmatter()
     test_cli_prints_findings_and_uses_error_exit_code()
+    test_inventory_requires_allowed_type_and_status()
+    test_inventory_requires_root_contract()
+    test_inventory_rejects_duplicate_slug_and_missing_nr_note()
     print("NR_SUMMARY_AUDIT_OK")
 
 
