@@ -155,3 +155,58 @@ There are no changes to `vault/concepts`, `data/concepts`,
   suggestions about scenarios without concrete examples.
 - The local shell lacks the `python` alias; verification used the installed
   Python 3.14 executable directly.
+
+## Fix round 1 after scoped review
+
+Review source:
+`.superpowers/sdd/2026-07-29-nr-summary-semantic-restructure-phase1/task-6-review.md`.
+
+### RED
+
+Three regressions reproduced both Important findings before the fix:
+
+- Public `validate_evidence()` accepted the same `"a" * 64` pilot replacement
+  with no trusted-baseline finding.
+- A coherent shadow checkout containing copied real pilot notes, all generated
+  details/index, inventory, and batch passed full `validate-batch` with exit 0,
+  10 notes, 0 missing sources, and `[]`.
+- Canonical inventory generation exited 0 while emitting 10/10 post-edit pilot
+  hashes; the generated output disagreed with the reviewed trust map.
+
+### GREEN implementation
+
+- Public `validate_evidence()` now applies the fixed-pilot code-owned baseline
+  invariant directly whenever the report has the exact fixed pilot membership.
+- `_load_batch_notes()` always checks both inventory and batch against that
+  invariant; enforcement no longer depends on absolute checkout identity.
+- Inventory generation and checking both apply the reviewed pilot hashes to the
+  deterministic projection. Nonpilot hashes continue to come from current note
+  bytes.
+- Synthetic fixture trust is injected only by the private test helper; no
+  production validation path has a default-off trust gate.
+
+The three targeted regressions printed `FIX_ROUND_1_GREEN`.
+
+### Fresh fix-round verification
+
+Commands used the installed Python 3.14 executable in place of the unavailable
+`python` alias.
+
+- `scripts/test_nr_summary_audit.py` -> exit 0,
+  `NR_SUMMARY_AUDIT_OK`.
+- `python -m py_compile scripts/nr_summary_audit.py
+  scripts/test_nr_summary_audit.py` -> exit 0.
+- `python -B scripts/test_build_concepts.py` -> exit 0,
+  `BUILD_CONCEPTS_TEST_OK`.
+- Real `inventory --check` -> exit 0; 216 notes, 0 duplicates,
+  0 unclassified, 10 batch-00, 206 unassigned.
+- Real `validate-batch` -> exit 0; 10 notes, 0 missing sources, `[]`.
+- Strict `validate-note` -> 10/10 exit 0 with `[]`.
+- Live lint -> expected exit 1 and exactly `2 errors, 124 warnings`.
+- Preserved state -> root `needs-review`, manual queue 4,
+  `phase2Started=false`, generated manifest 978/978.
+- `spectra validate restructure-nr-concept-summaries` -> valid.
+- `git diff --check` -> pass.
+
+Task 8 remains complete. No medical content, Phase 2 state, evidence JSON,
+generated output, or nonpilot output was modified in fix round 1.

@@ -7,6 +7,7 @@ or third-party dependency is required.
 import hashlib
 import io
 import json
+import shutil
 import tempfile
 from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
@@ -297,6 +298,7 @@ def run_validate_batch_cli(
     *,
     allow_pending: bool,
     check_source_hashes: bool = False,
+    use_fixture_trust: bool = True,
 ) -> tuple[int, str]:
     argv = ["validate-batch", str(batch_path)]
     if allow_pending:
@@ -304,11 +306,23 @@ def run_validate_batch_cli(
     if check_source_hashes:
         argv.append("--check-source-hashes")
     output = io.StringIO()
+    original_trust = audit.TRUSTED_PILOT_ORIGINAL_SHA256
+    if use_fixture_trust:
+        inventory = json.loads(
+            batch_path.with_name("inventory.json").read_text(encoding="utf-8")
+        )
+        audit.TRUSTED_PILOT_ORIGINAL_SHA256 = {
+            entry["slug"]: entry["originalSha256"]
+            for entry in inventory["notes"]
+            if entry.get("slug") in PILOT_SLUGS
+        }
     try:
         with redirect_stdout(output), redirect_stderr(output):
             exit_code = audit.main(argv)
     except SystemExit as error:
         exit_code = error.code
+    finally:
+        audit.TRUSTED_PILOT_ORIGINAL_SHA256 = original_trust
     return exit_code, output.getvalue()
 
 
@@ -1844,6 +1858,7 @@ def test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline() ->
         batch_exit, batch_output = run_validate_batch_cli(
             batch_path,
             allow_pending=False,
+            use_fixture_trust=False,
         )
 
     assert (inventory_exit, batch_exit) == (1, 1), (
@@ -1852,6 +1867,104 @@ def test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline() ->
     )
     assert "inventory-trusted-baseline-mismatch" in inventory_output.getvalue()
     assert "evidence-trusted-baseline-mismatch" in batch_output
+
+
+def test_public_validate_evidence_rejects_coordinated_pilot_hash_replacement() -> None:
+    report, notes = load_real_batch_and_notes()
+    assert "evidence-trusted-baseline-mismatch" not in {
+        finding.code for finding in audit.validate_evidence(report, notes)
+    }
+
+    target = next(
+        entry
+        for entry in report["notes"]
+        if entry["slug"] == "acute-stroke-management"
+    )
+    target["originalSha256"] = "a" * 64
+    codes = {finding.code for finding in audit.validate_evidence(report, notes)}
+    assert "evidence-trusted-baseline-mismatch" in codes
+
+
+def test_shadow_checkout_validate_batch_rejects_coordinated_pilot_hash_replacement() -> None:
+    root = Path(__file__).resolve().parents[1]
+    evidence_root = root / "docs" / "reports" / "nr-summary-rewrite"
+    inventory = json.loads(
+        (evidence_root / "inventory.json").read_text(encoding="utf-8")
+    )
+    report = json.loads(
+        (evidence_root / "batch-00.json").read_text(encoding="utf-8")
+    )
+    target_slug = "acute-stroke-management"
+    next(
+        entry for entry in inventory["notes"] if entry["slug"] == target_slug
+    )["originalSha256"] = "a" * 64
+    next(
+        entry for entry in report["notes"] if entry["slug"] == target_slug
+    )["originalSha256"] = "a" * 64
+
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory)
+        concepts = shadow / "vault" / "concepts"
+        report_dir = shadow / "docs" / "reports" / "nr-summary-rewrite"
+        concepts.mkdir(parents=True)
+        report_dir.mkdir(parents=True)
+        for slug in PILOT_SLUGS:
+            shutil.copy2(
+                root / "vault" / "concepts" / f"{slug}.md",
+                concepts / f"{slug}.md",
+            )
+        shutil.copytree(root / "data", shadow / "data")
+        (report_dir / "inventory.json").write_text(
+            json.dumps(inventory),
+            encoding="utf-8",
+        )
+        batch_path = report_dir / "batch-00.json"
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+            use_fixture_trust=False,
+        )
+
+    assert exit_code == 1, output
+    assert "evidence-trusted-baseline-mismatch" in output
+
+
+def test_canonical_inventory_generation_emits_trusted_pilot_hashes_and_checks() -> None:
+    root = Path(__file__).resolve().parents[1]
+    with tempfile.TemporaryDirectory() as directory:
+        output_path = Path(directory) / "inventory.json"
+        with redirect_stdout(io.StringIO()):
+            generated_exit = audit.main(
+                [
+                    "inventory",
+                    "--root",
+                    str(root / "vault" / "concepts"),
+                    "--output",
+                    str(output_path),
+                ]
+            )
+        generated = json.loads(output_path.read_text(encoding="utf-8"))
+        generated_pilot_hashes = {
+            entry["slug"]: entry["originalSha256"]
+            for entry in generated["notes"]
+            if entry["slug"] in PILOT_SLUGS
+        }
+        with redirect_stdout(io.StringIO()):
+            check_exit = audit.main(
+                [
+                    "inventory",
+                    "--root",
+                    str(root / "vault" / "concepts"),
+                    "--output",
+                    str(output_path),
+                    "--check",
+                ]
+            )
+
+    assert generated_exit == 0
+    assert generated_pilot_hashes == audit.TRUSTED_PILOT_ORIGINAL_SHA256
+    assert check_exit == 0
 
 
 def test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback() -> None:
@@ -1945,6 +2058,9 @@ def run_smoke() -> None:
     test_inventory_cli_generates_and_checks_deterministically()
     test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots()
     test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline()
+    test_public_validate_evidence_rejects_coordinated_pilot_hash_replacement()
+    test_shadow_checkout_validate_batch_rejects_coordinated_pilot_hash_replacement()
+    test_canonical_inventory_generation_emits_trusted_pilot_hashes_and_checks()
     test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback()
     print("NR_SUMMARY_AUDIT_OK")
 

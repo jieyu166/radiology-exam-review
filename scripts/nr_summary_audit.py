@@ -1567,6 +1567,7 @@ def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Findin
             Finding("error", "evidence-notes", batch_path, "Batch notes must be an array.")
         )
         return findings
+    findings.extend(_trusted_report_pilot_hash_findings(report, batch_path))
     findings.extend(_trusted_evidence_anchor_findings(report, notes, batch_path))
     findings.extend(_phase1_verification_findings(report, notes, batch_path))
     if _uses_checked_in_pilot_notes(notes):
@@ -2812,6 +2813,38 @@ def _inventory_hash_anchor_findings(
     return findings
 
 
+def _trusted_report_pilot_hash_findings(
+    report: dict,
+    path: str,
+) -> list[Finding]:
+    """Bind a complete fixed-pilot report to the reviewed code trust map."""
+    report_entries = report.get("notes") if isinstance(report, dict) else None
+    if not isinstance(report_entries, list):
+        return []
+    report_by_slug = {
+        entry.get("slug"): entry
+        for entry in report_entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    if set(report_by_slug) != PILOT_SLUGS:
+        return []
+    findings: list[Finding] = []
+    for slug, trusted_hash in sorted(TRUSTED_PILOT_ORIGINAL_SHA256.items()):
+        if report_by_slug[slug].get("originalSha256") != trusted_hash:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-trusted-baseline-mismatch",
+                    path,
+                    (
+                        f"Pilot {slug!r} originalSha256 differs from the "
+                        "independently reviewed code trust anchor."
+                    ),
+                )
+            )
+    return findings
+
+
 def _trusted_pilot_hash_anchor_findings(
     report: dict,
     inventory: dict,
@@ -2822,26 +2855,20 @@ def _trusted_pilot_hash_anchor_findings(
     inventory_entries = inventory.get("notes") if isinstance(inventory, dict) else None
     if not isinstance(report_entries, list) or not isinstance(inventory_entries, list):
         return []
-    report_by_slug = {
-        entry.get("slug"): entry
-        for entry in report_entries
-        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
-    }
     inventory_by_slug = {
         entry.get("slug"): entry
         for entry in inventory_entries
         if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
     }
-    findings: list[Finding] = []
+    findings = _trusted_report_pilot_hash_findings(
+        report,
+        inventory_path.as_posix(),
+    )
     for slug, trusted_hash in sorted(TRUSTED_PILOT_ORIGINAL_SHA256.items()):
-        report_entry = report_by_slug.get(slug)
         inventory_entry = inventory_by_slug.get(slug)
-        if (
-            not isinstance(report_entry, dict)
-            or not isinstance(inventory_entry, dict)
-            or report_entry.get("originalSha256") != trusted_hash
-            or inventory_entry.get("originalSha256") != trusted_hash
-        ):
+        if not isinstance(inventory_entry, dict) or inventory_entry.get(
+            "originalSha256"
+        ) != trusted_hash:
             findings.append(
                 Finding(
                     "error",
@@ -3014,14 +3041,13 @@ def _load_batch_notes(
                     f"Cannot read pilot note: {error}.",
                 )
             )
-    if _uses_checked_in_pilot_notes(notes):
-        findings.extend(
-            _trusted_pilot_hash_anchor_findings(
-                report if report is not None else {},
-                inventory,
-                inventory_path,
-            )
+    findings.extend(
+        _trusted_pilot_hash_anchor_findings(
+            report if report is not None else {},
+            inventory,
+            inventory_path,
         )
+    )
     return notes, findings
 
 
@@ -3099,6 +3125,11 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     if args.command == "inventory":
         expected, notes = _inventory(args.root)
+        immutable_hash_slugs = PILOT_SLUGS
+        expected = _apply_trusted_inventory_hashes(
+            expected,
+            immutable_hash_slugs,
+        )
         if args.check:
             if not args.output.is_file():
                 print(f"Inventory output does not exist: {args.output}")
@@ -3116,17 +3147,6 @@ def main(argv: Sequence[str] | None = None) -> int:
                     ]
                 )
                 return 1
-            checked_in_root = (
-                Path(__file__).resolve().parents[1] / "vault" / "concepts"
-            ).resolve()
-            enforce_trusted_baseline = args.root.resolve() == checked_in_root
-            immutable_hash_slugs = (
-                PILOT_SLUGS if enforce_trusted_baseline else frozenset()
-            )
-            expected = _apply_trusted_inventory_hashes(
-                expected,
-                immutable_hash_slugs,
-            )
             findings = validate_inventory_against_notes(
                 report,
                 notes,
@@ -3145,7 +3165,11 @@ def main(argv: Sequence[str] | None = None) -> int:
                 _print_findings(findings)
             return 1 if _findings_have_errors(findings) else 0
         report = expected
-        findings = validate_inventory_against_notes(report, notes)
+        findings = validate_inventory_against_notes(
+            report,
+            notes,
+            immutable_hash_slugs=immutable_hash_slugs,
+        )
         if findings:
             _print_inventory_counts(report)
             _print_findings(findings)
