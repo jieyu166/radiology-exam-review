@@ -3,6 +3,117 @@
   "batch": "batch-00",
   "scope": "NR",
   "status": "needs-review",
+  "phase1Verification": {
+    "date": "2026-07-29",
+    "generatedBaseline": {
+      "command": "git status --short -- data/concepts data/concepts-index.json",
+      "status": "clean",
+      "changedFiles": []
+    },
+    "commandResults": [
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\build_concepts.py",
+        "exitCode": 0,
+        "result": "1123 concepts; 3 missing imaging sections; 261 missing reference links; 0 removed orphans; 0 skipped"
+      },
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\test_nr_summary_audit.py",
+        "exitCode": 0,
+        "result": "NR_SUMMARY_AUDIT_OK"
+      },
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe -m py_compile scripts\\nr_summary_audit.py scripts\\test_nr_summary_audit.py",
+        "exitCode": 0,
+        "result": "pass"
+      },
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\nr_summary_audit.py validate-batch docs\\reports\\nr-summary-rewrite\\batch-00.json",
+        "exitCode": 0,
+        "result": "10 notes; 0 missing sources; 0 findings"
+      },
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\lint_concepts.py --quiet",
+        "exitCode": 1,
+        "result": "accepted baseline: 2 errors, 124 warnings"
+      },
+      {
+        "command": "C:\\Users\\jai16\\AppData\\Local\\Programs\\Python\\Python314\\python.exe scripts\\build_concepts.py --quiet",
+        "exitCode": 0,
+        "result": "pass"
+      }
+    ],
+    "lint": {
+      "acceptedBaseline": true,
+      "errors": [
+        "[footnote 未定義] ceap-classification.md used [^*] without a definition",
+        "[json 殘留 ![[...]]] 2022-264"
+      ],
+      "errorCount": 2,
+      "warningCount": 124,
+      "pilotErrors": []
+    },
+    "generatedKeyPoints": {
+      "status": "pass",
+      "checked": 10,
+      "normalization": "source Summary bullets in website order with footnote references removed",
+      "mismatchCode": "generated-keypoints-mismatch"
+    },
+    "generatedScope": {
+      "retainedFiles": [
+        "data/concepts/acute-stroke-management.json",
+        "data/concepts/artery-of-adamkiewicz.json",
+        "data/concepts/aspects-score.json",
+        "data/concepts/basal-ganglia-t1-shortening.json",
+        "data/concepts/bilateral-subcortical-dwi-hyperintensity-ddx.json",
+        "data/concepts/cerebral-amyloid-angiopathy.json",
+        "data/concepts/clippers.json",
+        "data/concepts/cpa-masses.json",
+        "data/concepts/craniopharyngioma.json",
+        "data/concepts/dementia-neuroimaging-overview.json",
+        "data/concepts-index.json"
+      ],
+      "indexHasDeterministicMetadataDiff": true,
+      "unrelatedTrackedOutputsRestored": 186,
+      "unrelatedUntrackedOutputsRemoved": 145,
+      "preBuildUserChangesDiscarded": 0
+    },
+    "factCoverage": {
+      "total": 225,
+      "covered": 221,
+      "manualReview": 4,
+      "researchNeeded": 0,
+      "pending": 0
+    },
+    "manualQueue": [
+      "acute-stroke-management-f09",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f08",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f09",
+      "bilateral-subcortical-dwi-hyperintensity-ddx-f12"
+    ],
+    "loginQueue": [],
+    "reviewGate": {
+      "status": "needs-review",
+      "verifiedNotes": 8,
+      "manualReviewNotes": 2,
+      "reason": "Four fact units remain manual-review; Phase 2 has not started."
+    },
+    "intendedCommitFiles": [
+      "scripts/nr_summary_audit.py",
+      "scripts/test_nr_summary_audit.py",
+      "docs/reports/nr-summary-rewrite/batch-00.json",
+      "data/concepts/acute-stroke-management.json",
+      "data/concepts/artery-of-adamkiewicz.json",
+      "data/concepts/aspects-score.json",
+      "data/concepts/basal-ganglia-t1-shortening.json",
+      "data/concepts/bilateral-subcortical-dwi-hyperintensity-ddx.json",
+      "data/concepts/cerebral-amyloid-angiopathy.json",
+      "data/concepts/clippers.json",
+      "data/concepts/cpa-masses.json",
+      "data/concepts/craniopharyngioma.json",
+      "data/concepts/dementia-neuroimaging-overview.json",
+      "data/concepts-index.json"
+    ]
+  },
   "notes": [
     {
       "slug": "acute-stroke-management",

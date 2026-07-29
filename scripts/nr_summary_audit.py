@@ -757,6 +757,85 @@ def _ordered_footnote_refs(text: str) -> list[str]:
     return refs
 
 
+def _generated_keypoints(note: NoteRecord) -> list[str]:
+    """Mirror build_concepts.py Summary bullet normalization."""
+    if not note.summaries:
+        return []
+
+    keypoints: list[str] = []
+    # build_concepts.py uses the first section whose heading contains
+    # "Summary".  NoteRecord preserves accepted suffix variants and includes
+    # their level-three subsection content, so dementia's variant heading and
+    # nested classification bullets retain their website order here.
+    for line in note.summaries[0].content.splitlines():
+        match = TOP_LEVEL_BULLET_RE.match(line)
+        if not match:
+            continue
+        normalized = FOOTNOTE_REFERENCE_RE.sub("", match.group("content")).strip()
+        if normalized:
+            keypoints.append(normalized)
+    return keypoints
+
+
+def validate_generated_keypoints(
+    report_path: Path,
+    notes: dict[str, NoteRecord],
+) -> list[Finding]:
+    """Require each checked-in pilot JSON keyPoints list to mirror its Summary."""
+    findings: list[Finding] = []
+    repo_root = next(
+        (
+            candidate
+            for candidate in report_path.resolve().parents
+            if (candidate / "data" / "concepts").is_dir()
+        ),
+        None,
+    )
+    if repo_root is None:
+        return [
+            Finding(
+                "error",
+                "generated-keypoints-mismatch",
+                report_path.as_posix(),
+                "Could not resolve the generated data/concepts directory.",
+            )
+        ]
+
+    for slug in sorted(PILOT_SLUGS):
+        note = notes.get(slug)
+        generated_path = repo_root / "data" / "concepts" / f"{slug}.json"
+        if note is None:
+            continue
+        try:
+            generated = json.loads(generated_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-keypoints-mismatch",
+                    generated_path.as_posix(),
+                    f"Cannot read generated pilot JSON: {error}.",
+                )
+            )
+            continue
+
+        actual = generated.get("keyPoints") if isinstance(generated, dict) else None
+        expected = _generated_keypoints(note)
+        if actual != expected:
+            findings.append(
+                Finding(
+                    "error",
+                    "generated-keypoints-mismatch",
+                    generated_path.as_posix(),
+                    (
+                        f"Generated keyPoints for {slug!r} must exactly match "
+                        "the normalized source Summary bullets in order."
+                    ),
+                )
+            )
+    return findings
+
+
 def validate_evidence(report: dict, notes: dict[str, NoteRecord]) -> list[Finding]:
     """Validate the lossless, source-mapped batch evidence contract."""
     findings: list[Finding] = []
@@ -2178,6 +2257,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             return 1
         notes, findings = _load_batch_notes(args.path, report)
         findings.extend(validate_evidence(report, notes))
+        findings.extend(validate_generated_keypoints(args.path, notes))
         if not args.allow_pending and not args.check_source_hashes:
             findings.extend(_pending_fact_findings(report))
         _print_batch_counts(report, findings)

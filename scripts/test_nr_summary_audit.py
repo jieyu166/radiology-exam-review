@@ -202,8 +202,10 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
     summary_snapshot = "## Summary\n- **Label**: Demo fact.[^1]\n[^1]: Example.\n"
     source_hash = hashlib.sha256(NR_DEMO_TEXT.encode("utf-8")).hexdigest()
     concepts = root / "vault" / "concepts"
+    generated_concepts = root / "data" / "concepts"
     report_dir = root / "docs" / "reports" / "nr-summary-rewrite"
     concepts.mkdir(parents=True)
+    generated_concepts.mkdir(parents=True)
     report_dir.mkdir(parents=True)
 
     inventory_notes = []
@@ -211,6 +213,10 @@ def write_valid_batch_cli_fixture(root: Path) -> tuple[Path, dict, dict]:
     for slug in PILOT_SLUGS:
         note_path = concepts / f"{slug}.md"
         note_path.write_text(NR_DEMO_TEXT, encoding="utf-8", newline="")
+        (generated_concepts / f"{slug}.json").write_text(
+            json.dumps({"keyPoints": ["**Label**: Demo fact."]}),
+            encoding="utf-8",
+        )
         inventory_notes.append(
             {
                 "slug": slug,
@@ -571,6 +577,29 @@ def test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review() 
 
     assert verified_exit == 0, verified_output
     assert review_exit == 0, review_output
+
+
+def test_validate_batch_cli_rejects_generated_keypoints_mismatch() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        batch_path, _, report = write_valid_batch_cli_fixture(root)
+        report["status"] = "verified"
+        for entry in report["notes"]:
+            make_entry_final(entry)
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+
+        generated_path = root / "data" / "concepts" / f"{PILOT_SLUGS[0]}.json"
+        generated_path.write_text(
+            json.dumps({"keyPoints": ["wrong generated bullet"]}),
+            encoding="utf-8",
+        )
+        exit_code, output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert exit_code == 1
+    assert '"code": "generated-keypoints-mismatch"' in output
 
 
 def test_validate_batch_cli_rejects_rewritten_summary_drift() -> None:
@@ -1299,6 +1328,7 @@ def run_smoke() -> None:
     test_validate_batch_cli_requires_allow_pending_for_baseline()
     test_validate_batch_cli_supports_explicit_pre_edit_hash_gate()
     test_validate_batch_cli_accepts_final_rewrites_and_explicit_manual_review()
+    test_validate_batch_cli_rejects_generated_keypoints_mismatch()
     test_validate_batch_cli_rejects_rewritten_summary_drift()
     test_validate_batch_cli_rejects_final_integrity_mutations()
     test_validate_batch_cli_rejects_new_summary_bullet_even_when_snapshot_is_updated()
