@@ -50,7 +50,7 @@ The rewrite MUST preserve every independent fact from the original Summary, incl
 
 ### Requirement: Batch evidence provides lossless and source-mapped coverage
 
-Before editing a pilot note, the system SHALL store a lossless original Summary snapshot and current file SHA-256. Each independent original claim MUST have a stable fact-unit ID, one or more defined source references or an explicit unresolved disposition, and a final coverage disposition. A note SHALL have verified status only when all original facts are covered, the source hash matched before editing, and newUnsupportedFacts equals 0. The final-review trusted anchor MUST cover all fact dispositions and source mappings, per-note sourceStatus and status, current and rewritten Summary snapshots, validation results, root status, and Phase 1 verification metadata. Evidence changes MUST be resealed against that trusted anchor.
+Before editing a pilot note, the system SHALL store a lossless original Summary snapshot and current file SHA-256. Each independent original claim MUST have a stable fact-unit ID, one or more defined source references or an explicit unresolved disposition, and a final coverage disposition. A note SHALL have verified status only when all original facts are covered, the source hash matched before editing, and newUnsupportedFacts equals 0. The final-review trusted anchor MUST cover all fact dispositions and source mappings, per-note sourceStatus and status, current and rewritten Summary snapshots, validation results, root status, and Phase 1 verification metadata. The reviewed pre-edit `originalSha256` values for all 10 pilots MUST additionally be anchored independently of both inventory.json and batch-00.json. Evidence changes MUST be resealed against that trusted anchor, and validation MUST NOT derive or preserve the expected pilot baseline hash from either mutable evidence file.
 
 #### Scenario: Concurrent edit prevents overwrite
 
@@ -66,6 +66,11 @@ Before editing a pilot note, the system SHALL store a lossless original Summary 
 
 - **WHEN** batch evidence and its colocated digest are both changed without updating the trusted final-review anchor
 - **THEN** batch validation emits evidence-trusted-final-mismatch and the batch cannot be marked verified
+
+#### Scenario: Coordinated pilot baseline replacement is rejected
+
+- **WHEN** one pilot `originalSha256` is replaced by the same arbitrary valid 64-character hexadecimal value in inventory.json and batch-00.json
+- **THEN** validation emits a stable trusted-baseline mismatch finding, exits nonzero, and does not accept the substituted value as the reviewed pre-edit baseline
 
 #### Scenario: Current unresolved manual queue keeps the root reviewable
 

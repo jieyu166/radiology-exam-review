@@ -50,6 +50,10 @@ The trusted final-review anchor covers every fact disposition and source mapping
 
 Alternative considered: trust only digests stored inside batch-00.json. Rejected because an attacker or accidental edit could change both evidence and its colocated digest.
 
+The reviewed pre-edit `originalSha256` values for all 10 pilots are also sealed by trust material that is independent of both inventory.json and batch-00.json. Inventory validation compares those two evidence files against the independent reviewed baseline; it does not preserve or derive the expected value from either mutable evidence file. Coordinated replacement of a pilot hash in both files therefore fails even when the replacement is a syntactically valid 64-character hexadecimal digest.
+
+Alternative considered: exempt pilots from current-file hash comparison and accept whichever pre-edit value is stored in inventory.json. Rejected because coordinated edits to inventory.json and batch-00.json would silently replace the reviewed baseline.
+
 ### Source research is exception-driven
 
 radiology-topic-research is triggered only for unmapped facts, source conflicts, time-sensitive guidelines, weak-source-dependent claims, or prose that cannot be compressed without interpretation. Public and already accessible sources are used first. Authenticated platforms require the user to log in and leave a readable tab; credentials and restricted PDF downloads are out of scope.
@@ -116,6 +120,7 @@ batch-00.json has schemaVersion 1, batch batch-00, scope NR, status, and notes. 
 - Unresolved research does not block safe sibling notes, but prevents the affected note and batch root from being verified.
 - A generated keyPoints mismatch fails batch validation.
 - A generated manifest mismatch or trusted final-review anchor mismatch fails batch validation.
+- A pilot `originalSha256` that differs from the independently reviewed baseline fails inventory and batch validation, including when inventory.json and batch-00.json contain the same replacement value.
 - Any new project lint error fails Phase 1; the two named baseline errors remain recorded and unchanged.
 
 ### Acceptance criteria
@@ -129,6 +134,7 @@ batch-00.json has schemaVersion 1, batch batch-00, scope NR, status, and notes. 
 - The scoped build is byte-idempotent, writes no unrelated detail file, and validates the exact 10-file/index/count/whole-tree manifest.
 - Project lint reports exactly the two named errors and 124 warnings, and no pilot note appears in the error list.
 - Final evidence passes the trusted-anchor gate and the batch root is needs-review with Phase 2 disabled.
+- Replacing one pilot `originalSha256` with the same arbitrary valid 64-hex value in inventory.json and batch-00.json produces a stable nonzero validation finding; the unchanged reviewed baseline passes.
 
 ### Scope boundaries
 
@@ -142,4 +148,5 @@ Out of scope: the remaining 206 Summary rewrites, unrelated question/vault edits
 - [Risk] Summary compression may drop qualifiers or versions. -> Mitigation: fact-unit coverage includes polarity, qualifiers, numbers, dates, and guideline version layers.
 - [Risk] Existing project lint is not clean. -> Mitigation: pin the exact baseline and reject any new error while requiring pilot-local zero errors.
 - [Risk] A concept build could drift non-pilot generated data. -> Mitigation: use the batch-scoped deterministic command and validate exact pilot/index/count hashes plus the whole detail-tree digest.
+- [Risk] Mutable evidence files could coordinate on a substituted pilot baseline hash. -> Mitigation: seal the 10 reviewed pre-edit hashes independently and test coordinated replacement.
 - [Risk] Authenticated literature may be unavailable. -> Mitigation: park only affected notes as research-needed and continue safe notes.

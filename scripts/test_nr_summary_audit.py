@@ -1792,6 +1792,68 @@ def test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots() 
     assert exit_code == 0, output.getvalue()
 
 
+def test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline() -> None:
+    root = Path(__file__).resolve().parents[1]
+    evidence_root = root / "docs" / "reports" / "nr-summary-rewrite"
+    inventory = json.loads(
+        (evidence_root / "inventory.json").read_text(encoding="utf-8")
+    )
+    report = json.loads(
+        (evidence_root / "batch-00.json").read_text(encoding="utf-8")
+    )
+    inventory_hashes = {
+        entry["slug"]: entry["originalSha256"]
+        for entry in inventory["notes"]
+        if entry["slug"] in PILOT_SLUGS
+    }
+    report_hashes = {
+        entry["slug"]: entry["originalSha256"] for entry in report["notes"]
+    }
+    assert set(audit.TRUSTED_PILOT_ORIGINAL_SHA256) == set(PILOT_SLUGS)
+    assert inventory_hashes == audit.TRUSTED_PILOT_ORIGINAL_SHA256
+    assert report_hashes == audit.TRUSTED_PILOT_ORIGINAL_SHA256
+
+    target_slug = "acute-stroke-management"
+    replacement = "0" * 64
+    next(
+        entry for entry in inventory["notes"] if entry["slug"] == target_slug
+    )["originalSha256"] = replacement
+    next(
+        entry for entry in report["notes"] if entry["slug"] == target_slug
+    )["originalSha256"] = replacement
+
+    with tempfile.TemporaryDirectory(dir=root) as directory:
+        copied_evidence_root = Path(directory)
+        inventory_path = copied_evidence_root / "inventory.json"
+        batch_path = copied_evidence_root / "batch-00.json"
+        inventory_path.write_text(json.dumps(inventory), encoding="utf-8")
+        batch_path.write_text(json.dumps(report), encoding="utf-8")
+
+        inventory_output = io.StringIO()
+        with redirect_stdout(inventory_output), redirect_stderr(inventory_output):
+            inventory_exit = audit.main(
+                [
+                    "inventory",
+                    "--root",
+                    str(root / "vault" / "concepts"),
+                    "--output",
+                    str(inventory_path),
+                    "--check",
+                ]
+            )
+        batch_exit, batch_output = run_validate_batch_cli(
+            batch_path,
+            allow_pending=False,
+        )
+
+    assert (inventory_exit, batch_exit) == (1, 1), (
+        inventory_output.getvalue(),
+        batch_output,
+    )
+    assert "inventory-trusted-baseline-mismatch" in inventory_output.getvalue()
+    assert "evidence-trusted-baseline-mismatch" in batch_output
+
+
 def test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback() -> None:
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory) / "concepts"
@@ -1882,6 +1944,7 @@ def run_smoke() -> None:
     test_inventory_membership_rejects_unhashable_slug_without_raising()
     test_inventory_cli_generates_and_checks_deterministically()
     test_final_inventory_check_preserves_pilot_baselines_but_checks_nonpilots()
+    test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline()
     test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback()
     print("NR_SUMMARY_AUDIT_OK")
 

@@ -14,6 +14,8 @@ NR concept 的 Summary 目前雖有完整醫學內容，但格式不一致、長
   既有 references。
 - 每個原 Summary 事實單元建立來源對映；不得遺失限定詞、否定、數值、版本，或新增
   無來源結論。
+- 將 10 篇 pilot 的改寫前 `originalSha256` 納入 batch／inventory 之外的獨立信任錨；
+  同時竄改兩份 evidence 的 hash 仍必須被拒絕。
 - 僅在來源不足、衝突、時效性規則或弱來源無法安全壓縮時啟用
   radiology-topic-research。
 - 驗證網站 JSON 的 keyPoints 與 vault Summary bullets 一致。

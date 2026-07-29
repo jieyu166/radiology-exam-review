@@ -19,3 +19,7 @@
 
 - [x] 5.1 滿足「Generated keyPoints preserve source Summary bullets」與「Generated keyPoints must match source Summary bullets」：執行 scripts/build_concepts.py，僅保留 10 篇 pilot 對應的 deterministic JSON 差異，讓 validate-batch 比對 keyPoints 與 source top-level bullets；任何 mismatch 必須產生 generated-keypoints-mismatch 並阻止 verified。
 - [x] 5.2 滿足「Phase 1 validation permits only the fixed non-NR lint baseline」與「Lint acceptance compares against a fixed baseline」：執行 smoke tests、validate-batch、build 與 scripts/lint_concepts.py --quiet，確認 NR pilot notes 零 error，project lint 僅保留 ceap-classification.md 的 [^*] 與 question 2022-264 的 ![[...]] 兩項既有 errors／124 warnings；新增 error、第三項 error 或 pilot error 均使 Phase 1 失敗。
+
+## 6. Pilot baseline hash 獨立錨定
+
+- [x] 6.1 補強「Batch evidence provides lossless and source-mapped coverage」與「Fact coverage is an explicit batch evidence contract」：將固定 10 篇 pilot 的受審 pre-edit `originalSha256` 置於 inventory.json／batch-00.json 之外的獨立 trust material，且 validation 不得從任一 mutable evidence file 推導 expected value；先以回歸測試重現同時把兩份 JSON 的同一 pilot hash 改為相同任意合法 64-hex 仍通過的缺陷，再使該案例產生穩定 trusted-baseline mismatch finding 並 nonzero exit，同時以 `python scripts/test_nr_summary_audit.py`、真實 `inventory --check`（216／10／206）與 `validate-batch` 通過驗證，保持 root `needs-review`、四項 manual queue、Phase 2 disabled 及非 pilot outputs 不變。

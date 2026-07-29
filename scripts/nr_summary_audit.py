@@ -119,6 +119,21 @@ TRUSTED_FINAL_SUMMARY_BULLET_EVIDENCE_SHA256 = (
 TRUSTED_FINAL_REVIEW_EVIDENCE_SHA256 = (
     "3b1d6be11cca13682cea9b2e7dcbd99ec8f838d51cb9dae46f66e48f1be968d3"
 )
+# Reviewed pre-edit pilot hashes from the accepted Phase 1 baseline.  This
+# code-owned map is deliberately independent of inventory.json and
+# batch-00.json: neither mutable evidence file may choose its expected value.
+TRUSTED_PILOT_ORIGINAL_SHA256 = {
+    "acute-stroke-management": "e12b6ea4ff0198ccd081f7089550a1242bcb9b6c3041eb7651a629444f3a981b",
+    "artery-of-adamkiewicz": "e55ed8842ab70e3c442bc92a8d4f7608ab919a11aadf49684dae9e815008a811",
+    "aspects-score": "f7cfdb3fe6ebdb0a07e5d2b42088e0fab0bde33d2b2391892a8c7de87d79f0d9",
+    "basal-ganglia-t1-shortening": "df599c23d02c903b62e7233c63cd782f88f3fabba8f359852505f1f2391ab434",
+    "bilateral-subcortical-dwi-hyperintensity-ddx": "3bcefabc671edaa9fa251662af8b52d464fc43448574c4fd7e0cb367d6cf4376",
+    "cerebral-amyloid-angiopathy": "582f7b34b43571b22c33d8a99409c066abff8b6b0f6e5e85a014cdf38225ef3e",
+    "clippers": "f35fe0aff8da041a9dd09e0dcdb7d6af59f2681e02c46c43377e98c01d6f773e",
+    "cpa-masses": "ad70bfd0e00ce2c0ead8699dcbdc19f884a9d79c9cfe4bb7bb9eb3bba04da41e",
+    "craniopharyngioma": "bfca1e1633b23dd8cf95e5d76f99ce9849090c7cab7045dd532cc0199ce83cd1",
+    "dementia-neuroimaging-overview": "4119c8b7cfd2c770a1d7975e0f586a6f693d50b9171421e8c1d3652f6c08687a",
+}
 TRUSTED_TASK4_SOURCE_REF_ADDITIONS = {
     "artery-of-adamkiewicz-f05": frozenset({"8"}),
     "artery-of-adamkiewicz-f09": frozenset({"9"}),
@@ -2585,10 +2600,20 @@ def validate_inventory_against_notes(
                     f"Inventory path for {slug} does not match the note path.",
                 )
             )
-        if (
-            slug not in immutable_hash_slugs
-            and entry.get("originalSha256") != note.sha256
-        ):
+        if slug in immutable_hash_slugs:
+            trusted_hash = TRUSTED_PILOT_ORIGINAL_SHA256.get(slug)
+            if trusted_hash is None or entry.get("originalSha256") != trusted_hash:
+                findings.append(
+                    _inventory_finding(
+                        "inventory-trusted-baseline-mismatch",
+                        expected_path,
+                        (
+                            f"Inventory hash for {slug} does not match the "
+                            "independently reviewed pilot baseline."
+                        ),
+                    )
+                )
+        elif entry.get("originalSha256") != note.sha256:
             findings.append(
                 _inventory_finding(
                     "inventory-hash-mismatch",
@@ -2624,31 +2649,23 @@ def validate_inventory_against_notes(
     return findings
 
 
-def _preserve_inventory_hashes(
+def _apply_trusted_inventory_hashes(
     generated: dict,
-    reviewed: object,
     immutable_hash_slugs: frozenset[str],
 ) -> dict:
-    """Carry reviewed pre-edit hashes into a freshly generated comparison."""
-    reviewed_entries = reviewed.get("notes") if isinstance(reviewed, dict) else None
+    """Apply code-owned pre-edit hashes to a generated inventory projection."""
     generated_entries = generated.get("notes")
-    if not isinstance(reviewed_entries, list) or not isinstance(generated_entries, list):
+    if not isinstance(generated_entries, list):
         return generated
-    reviewed_by_slug = {
-        entry.get("slug"): entry
-        for entry in reviewed_entries
-        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
-    }
     for entry in generated_entries:
         if not isinstance(entry, dict):
             continue
         slug = entry.get("slug")
-        reviewed_entry = reviewed_by_slug.get(slug)
-        if slug not in immutable_hash_slugs or not isinstance(reviewed_entry, dict):
+        if slug not in immutable_hash_slugs:
             continue
-        reviewed_hash = reviewed_entry.get("originalSha256")
-        if isinstance(reviewed_hash, str) and SHA256_RE.fullmatch(reviewed_hash):
-            entry["originalSha256"] = reviewed_hash
+        trusted_hash = TRUSTED_PILOT_ORIGINAL_SHA256.get(slug)
+        if trusted_hash is not None:
+            entry["originalSha256"] = trusted_hash
     return generated
 
 
@@ -2790,6 +2807,50 @@ def _inventory_hash_anchor_findings(
                     "evidence-validation",
                     str(slug),
                     "Stale or invalid validation fields: hashMatches.",
+                )
+            )
+    return findings
+
+
+def _trusted_pilot_hash_anchor_findings(
+    report: dict,
+    inventory: dict,
+    inventory_path: Path,
+) -> list[Finding]:
+    """Bind both mutable evidence files to the code-owned reviewed baselines."""
+    report_entries = report.get("notes") if isinstance(report, dict) else None
+    inventory_entries = inventory.get("notes") if isinstance(inventory, dict) else None
+    if not isinstance(report_entries, list) or not isinstance(inventory_entries, list):
+        return []
+    report_by_slug = {
+        entry.get("slug"): entry
+        for entry in report_entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    inventory_by_slug = {
+        entry.get("slug"): entry
+        for entry in inventory_entries
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    findings: list[Finding] = []
+    for slug, trusted_hash in sorted(TRUSTED_PILOT_ORIGINAL_SHA256.items()):
+        report_entry = report_by_slug.get(slug)
+        inventory_entry = inventory_by_slug.get(slug)
+        if (
+            not isinstance(report_entry, dict)
+            or not isinstance(inventory_entry, dict)
+            or report_entry.get("originalSha256") != trusted_hash
+            or inventory_entry.get("originalSha256") != trusted_hash
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-trusted-baseline-mismatch",
+                    inventory_path.as_posix(),
+                    (
+                        f"Pilot {slug!r} originalSha256 differs from the "
+                        "independently reviewed code trust anchor."
+                    ),
                 )
             )
     return findings
@@ -2953,6 +3014,14 @@ def _load_batch_notes(
                     f"Cannot read pilot note: {error}.",
                 )
             )
+    if _uses_checked_in_pilot_notes(notes):
+        findings.extend(
+            _trusted_pilot_hash_anchor_findings(
+                report if report is not None else {},
+                inventory,
+                inventory_path,
+            )
+        )
     return notes, findings
 
 
@@ -3047,15 +3116,21 @@ def main(argv: Sequence[str] | None = None) -> int:
                     ]
                 )
                 return 1
-            expected = _preserve_inventory_hashes(
+            checked_in_root = (
+                Path(__file__).resolve().parents[1] / "vault" / "concepts"
+            ).resolve()
+            enforce_trusted_baseline = args.root.resolve() == checked_in_root
+            immutable_hash_slugs = (
+                PILOT_SLUGS if enforce_trusted_baseline else frozenset()
+            )
+            expected = _apply_trusted_inventory_hashes(
                 expected,
-                report,
-                PILOT_SLUGS,
+                immutable_hash_slugs,
             )
             findings = validate_inventory_against_notes(
                 report,
                 notes,
-                immutable_hash_slugs=PILOT_SLUGS,
+                immutable_hash_slugs=immutable_hash_slugs,
             )
             if report != expected:
                 findings.append(
