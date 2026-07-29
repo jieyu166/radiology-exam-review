@@ -158,7 +158,11 @@ PHASE2_TYPE_SHORT = {
 }
 # Populated one reviewed batch at a time by Tasks 2.1, 3.1, and 4.1.  Absence
 # is fail-closed: no mutable lock or evidence file may choose its own digest.
-TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {}
+TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
+    "batch-01-anatomy": (
+        "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
+    ),
+}
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
 # Task 1.1 intentionally leaves this empty so generated observations cannot
 # self-authorize before Tasks 2.3, 3.3, and 4.3 independently review them.
@@ -1040,6 +1044,334 @@ def load_phase2_batch(
     )
 
 
+def _ordered_footnote_refs(text: str) -> list[str]:
+    """Return unique Obsidian footnote ids in source order."""
+    refs: list[str] = []
+    for match in FOOTNOTE_REFERENCE_RE.finditer(text):
+        ref = match.group("id")
+        if ref not in refs:
+            refs.append(ref)
+    return refs
+
+
+def _phase2_statement_body(source_statement: str) -> str:
+    """Return source-language fact text without list/quote markup or footnotes."""
+    value = source_statement.strip()
+    value = re.sub(r"^>\s*", "", value)
+    value = re.sub(r"^[-*+]\s+", "", value)
+    value = FOOTNOTE_REFERENCE_RE.sub("", value)
+    value = value.replace("**", "")
+    return value.strip()
+
+
+def _phase2_fact_segments(source_statement: str) -> list[str]:
+    """Split exact source wording at top-level sentence/semicolon boundaries."""
+    value = _phase2_statement_body(source_statement)
+    segments: list[str] = []
+    start = 0
+    depth = 0
+    opening = {"(": ")", "（": "）", "[": "]", "【": "】"}
+    closing = set(opening.values())
+    for index, character in enumerate(value):
+        if character in opening:
+            depth += 1
+        elif character in closing and depth:
+            depth -= 1
+        elif depth == 0 and character in {";", "；", "。"}:
+            segment = value[start : index + 1].strip()
+            if segment:
+                segments.append(segment)
+            start = index + 1
+    tail = value[start:].strip()
+    if tail:
+        segments.append(tail)
+    return segments
+
+
+def phase2_summary_source_statements(note: NoteRecord) -> list[dict]:
+    """Extract exact factual Summary lines and their explicit/enclosing sources."""
+    statements: list[dict] = []
+    for section in note.summaries:
+        enclosing_refs: list[str] = []
+        for source_line in section.content.splitlines():
+            stripped = source_line.strip()
+            if (
+                not stripped
+                or LEVEL_THREE_HEADING_RE.match(stripped)
+                or CALLOUT_RE.match(source_line)
+            ):
+                continue
+            explicit_refs = _ordered_footnote_refs(source_line)
+            is_top_level = TOP_LEVEL_BULLET_RE.match(source_line) is not None
+            is_nested = NESTED_BULLET_RE.match(source_line) is not None
+            if is_top_level:
+                enclosing_refs = explicit_refs
+            refs = explicit_refs or (enclosing_refs if is_nested else [])
+            body_without_refs = FOOTNOTE_REFERENCE_RE.sub("", stripped).strip()
+            if re.fullmatch(
+                r"(?:>\s*)?(?:[-*+]\s+)?\*\*[^*]+\*\*[:\uFF1A]\s*",
+                body_without_refs,
+            ):
+                continue
+            if not _phase2_statement_body(source_line):
+                continue
+            statements.append(
+                {
+                    "text": source_line,
+                    "sourceRefs": list(refs),
+                }
+            )
+    return statements
+
+
+def phase2_default_fact_templates(note: NoteRecord) -> list[dict]:
+    """Derive conservative source-exact fact units from audited Summary lines."""
+    facts: list[dict] = []
+    for statement in phase2_summary_source_statements(note):
+        for text in _phase2_fact_segments(statement["text"]):
+            facts.append(
+                {
+                    "text": text,
+                    "sourceStatement": statement["text"],
+                    "sourceRefs": list(statement["sourceRefs"]),
+                }
+            )
+    return facts
+
+
+def build_phase2_baseline_lock(
+    context: BatchContext,
+    fact_templates_by_slug: Mapping[str, Sequence[Mapping[str, object]]] | None = None,
+) -> dict:
+    """Build deterministic pre-edit lock data from the loaded source checkout."""
+    inventory_file = context.repo_root / context.inventory_path
+    inventory = json.loads(inventory_file.read_text(encoding="utf-8"))
+    inventory_by_slug = {
+        entry["slug"]: entry
+        for entry in inventory.get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    expected_slugs = list(context.batch["slugs"])
+    if fact_templates_by_slug is not None and set(fact_templates_by_slug) != set(
+        expected_slugs
+    ):
+        raise ValueError("Fact templates must exactly match selected batch membership.")
+
+    notes = []
+    for slug in expected_slugs:
+        note = context.note_records.get(slug)
+        inventory_entry = inventory_by_slug.get(slug)
+        if note is None or not isinstance(inventory_entry, dict):
+            raise ValueError(f"Missing selected source or inventory entry for {slug!r}.")
+        headings = [section.heading for section in note.summaries]
+        if any(
+            (
+                inventory_entry.get("path") != note.path.as_posix(),
+                inventory_entry.get("type") != context.batch.get("type"),
+                inventory_entry.get("originalSha256") != note.sha256,
+                inventory_entry.get("summaryHeadings") != headings,
+            )
+        ):
+            raise ValueError(
+                f"Current source metadata for {slug!r} differs from inventory."
+            )
+        expected_templates = phase2_default_fact_templates(note)
+        supplied_templates = (
+            expected_templates
+            if fact_templates_by_slug is None
+            else [
+                {
+                    "text": item.get("text"),
+                    "sourceStatement": item.get("sourceStatement"),
+                    "sourceRefs": item.get("sourceRefs"),
+                }
+                for item in fact_templates_by_slug[slug]
+                if isinstance(item, Mapping)
+            ]
+        )
+        if supplied_templates != expected_templates or not supplied_templates:
+            raise ValueError(
+                f"Fact templates for {slug!r} are not the audited source projection."
+            )
+        fact_units = [
+            {
+                "id": f"{slug}-f{index:02d}",
+                "text": item["text"],
+                "sourceStatement": item["sourceStatement"],
+                "sourceRefs": item["sourceRefs"],
+            }
+            for index, item in enumerate(supplied_templates, start=1)
+        ]
+        notes.append(
+            {
+                "slug": slug,
+                "path": inventory_entry["path"],
+                "type": inventory_entry["type"],
+                "originalSha256": note.sha256,
+                "summaryHeadings": headings,
+                "originalSummary": note.original_summary,
+                "factUnits": fact_units,
+            }
+        )
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2-baseline-lock",
+        "batch": context.batch["id"],
+        "scope": "NR",
+        "assignmentSha256": _canonical_sha256(context.assignment),
+        "notes": notes,
+    }
+
+
+def build_phase2_baseline_lock_bytes(
+    context: BatchContext,
+    fact_templates_by_slug: Mapping[str, Sequence[Mapping[str, object]]] | None = None,
+) -> bytes:
+    """Return deterministic pretty-printed checked baseline bytes."""
+    baseline = build_phase2_baseline_lock(context, fact_templates_by_slug)
+    return (json.dumps(baseline, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
+
+
+def _rendered_footnote_definitions(path: Path) -> dict[str, str]:
+    """Read exact existing footnote definition bodies, including continuations."""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    definitions: dict[str, str] = {}
+    index = 0
+    while index < len(lines):
+        match = re.match(r"^\[\^([^\]\r\n]+)\]:\s*(.*)$", lines[index])
+        if match is None:
+            index += 1
+            continue
+        ref = match.group(1)
+        citation_lines = [match.group(2)]
+        index += 1
+        while index < len(lines) and (
+            lines[index].startswith("    ") or lines[index].startswith("\t")
+        ):
+            citation_lines.append(lines[index].lstrip())
+            index += 1
+        citation = "\n".join(citation_lines).strip()
+        if citation:
+            definitions[ref] = citation
+    return definitions
+
+
+def build_phase2_pending_evidence_scaffold(
+    context: BatchContext, *, implementer: str
+) -> dict:
+    """Build the honest nonterminal Task 2.1 evidence scaffold."""
+    if (
+        not isinstance(context.baseline, dict)
+        or not isinstance(implementer, str)
+        or PHASE2_RUN_ID_RE.fullmatch(implementer) is None
+    ):
+        raise ValueError("A loaded baseline and canonical implementer are required.")
+    baseline_digest = _canonical_sha256(context.baseline)
+    evidence_notes = []
+    for locked in context.baseline["notes"]:
+        slug = locked["slug"]
+        note = context.note_records[slug]
+        rendered = _rendered_footnote_definitions(
+            context.repo_root / note.path
+        )
+        referenced: list[str] = []
+        for fact in locked["factUnits"]:
+            for ref in fact["sourceRefs"]:
+                if ref not in referenced:
+                    referenced.append(ref)
+        if any(ref not in rendered for ref in referenced):
+            raise ValueError(f"Referenced footnote is undefined for {slug!r}.")
+        evidence_notes.append(
+            {
+                "slug": slug,
+                "status": "pending",
+                "rewrittenSummary": locked["originalSummary"],
+                "facts": [
+                    {
+                        "id": fact["id"],
+                        "sourceRefs": list(fact["sourceRefs"]),
+                        "disposition": "pending",
+                    }
+                    for fact in locked["factUnits"]
+                ],
+                "sourceDefinitions": {
+                    ref: {
+                        "kind": "existing-footnote",
+                        "locator": ref,
+                        "citation": rendered[ref],
+                    }
+                    for ref in referenced
+                },
+            }
+        )
+    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    sequence = batch_ids.index(context.batch["id"]) + 1
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2-batch-evidence",
+        "batch": context.batch["id"],
+        "scope": "NR",
+        "baselineLock": {
+            "path": context.baseline_path.as_posix(),
+            "sha256": baseline_digest,
+        },
+        "status": "baseline",
+        "workflow": {
+            "sequence": sequence,
+            "predecessor": batch_ids[sequence - 2] if sequence > 1 else None,
+            "implementer": implementer,
+            "reviewer": None,
+            "reviewStatus": "not-started",
+            "reviewedBaselineSha256": None,
+        },
+        "notes": evidence_notes,
+        "manualReviewFactIds": [],
+        "generatedManifest": (
+            context.baseline_path.parent.parent
+            / "generated"
+            / f"{context.batch['id']}.json"
+        ).as_posix(),
+    }
+
+
+def build_phase2_pending_evidence_scaffold_bytes(
+    context: BatchContext, *, implementer: str
+) -> bytes:
+    """Return deterministic pretty-printed pending scaffold bytes."""
+    evidence = build_phase2_pending_evidence_scaffold(
+        context, implementer=implementer
+    )
+    return (json.dumps(evidence, ensure_ascii=False, indent=2) + "\n").encode(
+        "utf-8"
+    )
+
+
+def _phase2_trust_registry_is_valid(context: BatchContext) -> bool:
+    """Reject missing/unknown/early registry entries independently of lock data."""
+    registry = TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+    if not isinstance(registry, Mapping):
+        return False
+    registered = set(registry)
+    active_ids = set(ACTIVE_PHASE2A_BATCHES)
+    if not registered <= active_ids:
+        return False
+    present_active = {
+        batch_id
+        for batch_id in ACTIVE_PHASE2A_BATCHES
+        if (
+            context.repo_root
+            / context.baseline_path.parent
+            / f"{batch_id}.json"
+        ).is_file()
+    }
+    if registered != present_active:
+        return False
+    return all(
+        isinstance(value, str) and SHA256_RE.fullmatch(value)
+        for value in registry.values()
+    )
+
+
 def validate_baseline_lock(context: BatchContext) -> list[Finding]:
     findings: list[Finding] = []
     path = context.baseline_path.as_posix()
@@ -1076,6 +1408,8 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
     digest = _canonical_sha256(baseline)
     trusted = TRUSTED_PHASE2A_BATCH_LOCK_SHA256.get(context.batch["id"])
     if (
+        not _phase2_trust_registry_is_valid(context)
+        or
         not isinstance(trusted, str)
         or not SHA256_RE.fullmatch(trusted)
         or digest != trusted
@@ -1141,6 +1475,7 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
         if any(
             (
                 locked.get("path") != inventory_entry.get("path"),
+                locked.get("path") != note.path.as_posix(),
                 locked.get("type") != inventory_entry.get("type"),
                 locked.get("type") != context.batch.get("type"),
                 locked.get("originalSha256") != inventory_entry.get("originalSha256"),
@@ -1177,6 +1512,67 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                     "phase2-baseline-schema",
                     locked.get("path", path),
                     f"Baseline fact IDs for {slug!r} are not stable/sequential.",
+                )
+            )
+        locked_summary = locked.get("originalSummary")
+        if isinstance(locked_summary, str):
+            locked_note = parse_note_text(
+                note.path,
+                "---\nsubspecialty: [NR]\n---\n" + locked_summary,
+            )
+            expected_templates = phase2_default_fact_templates(locked_note)
+            locked_summary_headings = [
+                section.heading for section in locked_note.summaries
+            ]
+        else:
+            expected_templates = []
+            locked_summary_headings = []
+        actual_templates = []
+        fact_shape_valid = (
+            bool(expected_templates)
+            and locked.get("summaryHeadings") == locked_summary_headings
+        )
+        for fact in facts:
+            if not isinstance(fact, dict):
+                fact_shape_valid = False
+                continue
+            text = fact.get("text")
+            source_statement = fact.get("sourceStatement")
+            source_refs = fact.get("sourceRefs")
+            refs_valid = (
+                isinstance(source_refs, list)
+                and all(isinstance(ref, str) and ref for ref in source_refs)
+                and len(source_refs) == len(set(source_refs))
+                and all(ref in note.footnote_defs for ref in source_refs)
+            )
+            if (
+                set(fact)
+                != {"id", "text", "sourceStatement", "sourceRefs"}
+                or not isinstance(text, str)
+                or not text.strip()
+                or not isinstance(source_statement, str)
+                or not source_statement
+                or not refs_valid
+            ):
+                fact_shape_valid = False
+            actual_templates.append(
+                {
+                    "text": text,
+                    "sourceStatement": source_statement,
+                    "sourceRefs": source_refs,
+                }
+            )
+        if not fact_shape_valid or actual_templates != expected_templates:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-baseline-schema",
+                    locked.get("path", path),
+                    (
+                        f"Baseline facts for {slug!r} are malformed, ungrounded, "
+                        "out of source order, or do not cover every factual "
+                        "Summary statement."
+                    ),
                 )
             )
     return findings
