@@ -111,3 +111,60 @@ explicitly without weakening final tranche current-corpus coherence.
 - Spectra analyze continues to report two pre-existing Suggestions for missing
   concrete examples in unrelated medical scenarios. There are no
   Critical/Warning findings.
+
+## Review round 1
+
+Review base: `0476a3379020abae3c7b27729e95056063c6facd`.
+
+Two Important findings were reproduced before production changes:
+
+- Command:
+  `python -m pytest -q scripts/test_nr_summary_audit.py -k "reviewer_identity_requires_canonical_traceable_run_ids or batch3_update_requires_batch2_generated_observation_seal"`
+- RED result: `2 failed, 94 deselected in 0.97s`.
+- The identity control showed that whitespace aliases passed raw-string
+  inequality. The generated-chain control showed that batch 3 could authorize
+  current detail evolution without a trusted batch-2 generated observation.
+
+The fix defines a lowercase, exact-trimmed, traceable run-ID grammar and
+compares the canonical values. UUID-style subagent run IDs remain accepted;
+whitespace, control-character, and case aliases fail closed.
+
+Generated validation is now split into three non-recursive responsibilities:
+
+1. `_validate_phase2_own_generated_result` authenticates and validates only
+   one batch's sealed generated/build result.
+2. `_phase2_historical_authorization_findings` compares that authenticated
+   historical observation with the current complete corpus.
+3. `_phase2_generated_chain_passes` loads every batch in increasing sequence
+   through the last implicated batch, validates non-generated prerequisites
+   with `check_generated=False`, then authorizes historical evolution in
+   reverse sequence. Missing or corrupt intermediate seals break the complete
+   chain. No generated-validation call recursively invokes the full generated
+   validator.
+
+Focused GREEN:
+
+- Command:
+  `python -m pytest -q scripts/test_nr_summary_audit.py -k "reviewer_identity_requires_canonical_traceable_run_ids or batch3_update_requires_batch2_generated_observation_seal"`
+- Result: `2 passed, 94 deselected in 1.21s`.
+- The predecessor-chain test also validates batch 3 directly, so missing or
+  corrupt batch-2 trust fails both earlier historical authorization and batch
+  3's own complete predecessor-chain gate.
+
+Review-round verification:
+
+- `python -m pytest -q scripts/test_nr_summary_audit.py`:
+  `96 passed in 49.56s`.
+- `python -m pytest -q scripts/test_nr_summary_audit.py scripts/test_build_concepts.py`:
+  `107 passed in 47.80s`.
+- `python -m pytest -q scripts/test_nr_summary_audit.py scripts/test_build_concepts.py -k "phase2 or scoped_build or explicit_root"`:
+  `35 passed, 72 deselected in 24.35s`.
+- Four-file `python -m py_compile`: exit 0.
+- Direct smokes: `NR_SUMMARY_AUDIT_OK` and `BUILD_CONCEPTS_TEST_OK`.
+- `spectra validate restructure-nr-concept-summaries-phase2a --strict --json`:
+  valid, 0 errors, 0 warnings.
+- `spectra analyze restructure-nr-concept-summaries-phase2a --json`:
+  0 Critical, 0 Warning; the same 2 pre-existing Suggestions.
+- `git diff --check`: exit 0.
+- `git diff --exit-code -- vault/concepts`: exit 0.
+- Task 1.1 checkbox diff from the review base: empty.

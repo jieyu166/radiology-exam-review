@@ -781,7 +781,7 @@ def rewrite_phase2_fixture_note(root: Path, batch_id: str, slug: str) -> None:
 
 def prepare_phase2_later_update_fixture(
     root: Path,
-) -> tuple[Path, dict[str, str], dict, dict]:
+) -> tuple[Path, dict[str, str], dict, dict, dict]:
     assignment_path, baseline_digests = write_phase2_approved_chain_fixture(root)
     original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
     audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
@@ -797,6 +797,12 @@ def prepare_phase2_later_update_fixture(
         )
         write_phase2_generated_manifest_fixture(
             root, "batch-01-anatomy", batch_1_workflow
+        )
+        batch_2_workflow = audit.run_phase2_generated_observation_workflow(
+            root, "batch-02-disease"
+        )
+        write_phase2_generated_manifest_fixture(
+            root, "batch-02-disease", batch_2_workflow
         )
         rewrite_phase2_fixture_note(
             root,
@@ -815,6 +821,7 @@ def prepare_phase2_later_update_fixture(
         assignment_path,
         baseline_digests,
         batch_1_workflow,
+        batch_2_workflow,
         batch_3_workflow,
     )
 
@@ -1262,6 +1269,95 @@ def test_phase2_evidence_rejects_shrunken_membership_and_forged_workflow() -> No
     } <= codes
 
 
+def test_phase2_reviewer_identity_requires_canonical_traceable_run_ids() -> None:
+    invalid_pairs = (
+        ("run-123", " run-123 "),
+        ("run-123", "run-123\t"),
+        ("RUN-123", "run-456"),
+        ("run-123\x00", "run-456"),
+    )
+    for implementer, reviewer in invalid_pairs:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            assignment_path, baseline_digest = write_phase2_api_fixture(root)
+            evidence_path = (
+                root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / "phase2a"
+                / "evidence"
+                / "batch-01-anatomy.json"
+            )
+            evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+            evidence["workflow"]["implementer"] = implementer
+            evidence["workflow"]["reviewer"] = reviewer
+            evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+            original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-01-anatomy": baseline_digest
+            }
+            try:
+                context = audit.load_phase2_batch(
+                    root, assignment_path, "batch-01-anatomy"
+                )
+                codes = {
+                    finding.code
+                    for finding in audit.validate_phase2_batch(
+                        context,
+                        check_source_hashes=False,
+                        check_generated=False,
+                    )
+                }
+            finally:
+                audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+        assert "phase2-reviewer-conflict" in codes, (
+            implementer,
+            reviewer,
+        )
+
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        evidence_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "evidence"
+            / "batch-01-anatomy.json"
+        )
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        evidence["workflow"]["implementer"] = (
+            "019fabd2-821c-7592-b465-dfb1d7b5a22d"
+        )
+        evidence["workflow"]["reviewer"] = (
+            "019fabd2-821c-7592-b465-dfb1d7b5a22e"
+        )
+        evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            valid_codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context,
+                    check_source_hashes=False,
+                    check_generated=False,
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert "phase2-reviewer-conflict" not in valid_codes
+
+
 def test_phase2_verified_review_requires_approval_and_predecessor_evidence() -> None:
     with tempfile.TemporaryDirectory() as directory:
         root = Path(directory)
@@ -1704,6 +1800,7 @@ def test_phase2_later_trusted_batch_update_preserves_earlier_historical_scope() 
             assignment_path,
             baseline_digests,
             batch_1_workflow,
+            batch_2_workflow,
             batch_3_workflow,
         ) = prepare_phase2_later_update_fixture(root)
         original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
@@ -1713,6 +1810,7 @@ def test_phase2_later_trusted_batch_update_preserves_earlier_historical_scope() 
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
         audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
             "batch-01-anatomy": batch_1_workflow["observationSha256"],
+            "batch-02-disease": batch_2_workflow["observationSha256"],
             "batch-03-pattern": batch_3_workflow["observationSha256"],
         }
         try:
@@ -1745,6 +1843,84 @@ def test_phase2_later_trusted_batch_update_preserves_earlier_historical_scope() 
     assert "generated-manifest-mismatch" not in earlier_codes
 
 
+def test_phase2_batch3_update_requires_batch2_generated_observation_seal() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        (
+            assignment_path,
+            baseline_digests,
+            batch_1_workflow,
+            batch_2_workflow,
+            batch_3_workflow,
+        ) = prepare_phase2_later_update_fixture(root)
+        original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        original_observation_trust = (
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+        )
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
+        try:
+            failure_codes = []
+            direct_batch_3_failure_codes = []
+            for batch_2_seal in (None, "f" * 64):
+                observation_trust = {
+                    "batch-01-anatomy": batch_1_workflow[
+                        "observationSha256"
+                    ],
+                    "batch-03-pattern": batch_3_workflow[
+                        "observationSha256"
+                    ],
+                }
+                if batch_2_seal is not None:
+                    assert (
+                        batch_2_seal
+                        != batch_2_workflow["observationSha256"]
+                    )
+                    observation_trust["batch-02-disease"] = batch_2_seal
+                audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+                    observation_trust
+                )
+                context = audit.load_phase2_batch(
+                    root, assignment_path, "batch-01-anatomy"
+                )
+                failure_codes.append(
+                    {
+                        finding.code
+                        for finding in audit.validate_phase2_batch(
+                            context,
+                            check_source_hashes=False,
+                            check_generated=True,
+                        )
+                    }
+                )
+                batch_3_context = audit.load_phase2_batch(
+                    root, assignment_path, "batch-03-pattern"
+                )
+                direct_batch_3_failure_codes.append(
+                    {
+                        finding.code
+                        for finding in audit.validate_phase2_batch(
+                            batch_3_context,
+                            check_source_hashes=False,
+                            check_generated=True,
+                        )
+                    }
+                )
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_baseline_trust
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+                original_observation_trust
+            )
+
+    assert all(
+        "generated-manifest-mismatch" in codes
+        for codes in failure_codes
+    )
+    assert all(
+        "generated-manifest-mismatch" in codes
+        for codes in direct_batch_3_failure_codes
+    )
+
+
 def test_phase2_later_update_without_independent_trust_fails_earlier_batch() -> None:
     cases = (
         ("reviewer", "phase2-reviewer-conflict"),
@@ -1758,6 +1934,7 @@ def test_phase2_later_update_without_independent_trust_fails_earlier_batch() -> 
                 assignment_path,
                 baseline_digests,
                 batch_1_workflow,
+                batch_2_workflow,
                 batch_3_workflow,
             ) = prepare_phase2_later_update_fixture(root)
             evidence_path = (
@@ -1781,6 +1958,7 @@ def test_phase2_later_update_without_independent_trust_fails_earlier_batch() -> 
 
             observation_trust = {
                 "batch-01-anatomy": batch_1_workflow["observationSha256"],
+                "batch-02-disease": batch_2_workflow["observationSha256"],
                 "batch-03-pattern": batch_3_workflow["observationSha256"],
             }
             if invalid_gate == "generated":
@@ -1831,6 +2009,7 @@ def test_phase2_unassigned_current_detail_drift_still_fails_earlier_batch() -> N
             assignment_path,
             baseline_digests,
             batch_1_workflow,
+            batch_2_workflow,
             batch_3_workflow,
         ) = prepare_phase2_later_update_fixture(root)
         rogue_detail = {
@@ -1853,6 +2032,7 @@ def test_phase2_unassigned_current_detail_drift_still_fails_earlier_batch() -> N
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
         audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
             "batch-01-anatomy": batch_1_workflow["observationSha256"],
+            "batch-02-disease": batch_2_workflow["observationSha256"],
             "batch-03-pattern": batch_3_workflow["observationSha256"],
         }
         try:
@@ -1883,6 +2063,7 @@ def test_phase2_earlier_selected_detail_drift_still_fails() -> None:
             assignment_path,
             baseline_digests,
             batch_1_workflow,
+            batch_2_workflow,
             batch_3_workflow,
         ) = prepare_phase2_later_update_fixture(root)
         slug = audit.ACTIVE_PHASE2A_BATCHES["batch-01-anatomy"]["slugs"][0]
@@ -1897,6 +2078,7 @@ def test_phase2_earlier_selected_detail_drift_still_fails() -> None:
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
         audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
             "batch-01-anatomy": batch_1_workflow["observationSha256"],
+            "batch-02-disease": batch_2_workflow["observationSha256"],
             "batch-03-pattern": batch_3_workflow["observationSha256"],
         }
         try:
@@ -1929,6 +2111,7 @@ def test_phase2_forged_or_incoherent_current_index_fails_after_later_update() ->
                 assignment_path,
                 baseline_digests,
                 batch_1_workflow,
+                batch_2_workflow,
                 batch_3_workflow,
             ) = prepare_phase2_later_update_fixture(root)
             index_path = root / "data" / "concepts-index.json"
@@ -1943,6 +2126,7 @@ def test_phase2_forged_or_incoherent_current_index_fails_after_later_update() ->
             audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
             audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
                 "batch-01-anatomy": batch_1_workflow["observationSha256"],
+                "batch-02-disease": batch_2_workflow["observationSha256"],
                 "batch-03-pattern": batch_3_workflow["observationSha256"],
             }
             try:
@@ -1978,12 +2162,14 @@ def test_phase2_authorized_later_update_is_relocation_stable() -> None:
             canonical_assignment,
             canonical_baselines,
             canonical_batch_1,
+            canonical_batch_2,
             canonical_batch_3,
         ) = fixtures[0]
         (
             relocated_assignment,
             relocated_baselines,
             relocated_batch_1,
+            relocated_batch_2,
             relocated_batch_3,
         ) = fixtures[1]
         assert canonical_assignment == relocated_assignment
@@ -1991,6 +2177,10 @@ def test_phase2_authorized_later_update_is_relocation_stable() -> None:
         assert (
             canonical_batch_1["observationSha256"]
             == relocated_batch_1["observationSha256"]
+        )
+        assert (
+            canonical_batch_2["observationSha256"]
+            == relocated_batch_2["observationSha256"]
         )
         assert (
             canonical_batch_3["observationSha256"]
@@ -2004,6 +2194,7 @@ def test_phase2_authorized_later_update_is_relocation_stable() -> None:
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = canonical_baselines
         audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
             "batch-01-anatomy": canonical_batch_1["observationSha256"],
+            "batch-02-disease": canonical_batch_2["observationSha256"],
             "batch-03-pattern": canonical_batch_3["observationSha256"],
         }
         try:
