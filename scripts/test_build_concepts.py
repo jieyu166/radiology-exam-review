@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import io
 import json
 import tempfile
+from contextlib import redirect_stderr, redirect_stdout
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -235,6 +237,177 @@ def test_batch_scoped_build_is_byte_idempotent_and_never_writes_nonpilot_detail(
     assert first_mtimes == second_mtimes
     assert first_bytes["data/concepts/nonpilot.json"] == nonpilot_bytes
     assert first_mtimes["data/concepts/nonpilot.json"] == nonpilot_mtime
+
+
+def snapshot_generated(root: Path) -> tuple[dict[str, bytes], dict[str, int]]:
+    paths = sorted((root / "data").rglob("*.json"))
+    return (
+        {path.relative_to(root).as_posix(): path.read_bytes() for path in paths},
+        {path.relative_to(root).as_posix(): path.stat().st_mtime_ns for path in paths},
+    )
+
+
+def test_scoped_build_validates_entire_selection_before_any_write() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        sources = root / "vault" / "concepts"
+        details = root / "data" / "concepts"
+        index_path = root / "data" / "concepts-index.json"
+        sources.mkdir(parents=True)
+        details.mkdir(parents=True)
+        write_concept(sources / "alpha.md", "alpha")
+        existing = {
+            "slug": "alpha",
+            "name": "Old Alpha",
+            "nameZh": "",
+            "subspecialty": "NR",
+            "checked": False,
+            "keyPoints": ["old"],
+        }
+        (details / "alpha.json").write_text(json.dumps(existing), encoding="utf-8")
+        index_path.write_text(
+            json.dumps(
+                {
+                    "concepts": [
+                        {
+                            key: existing[key]
+                            for key in (
+                                "slug",
+                                "name",
+                                "nameZh",
+                                "subspecialty",
+                                "checked",
+                            )
+                        }
+                    ]
+                }
+            ),
+            encoding="utf-8",
+        )
+        before = snapshot_generated(root)
+
+        try:
+            build.build_selected_concepts(
+                ["alpha", "missing"],
+                src_dir=sources,
+                out_dir=details,
+                index_path=index_path,
+            )
+        except ValueError as error:
+            assert "build-selection-source-missing" in str(error)
+        else:
+            raise AssertionError("Missing selected source must fail")
+
+        after = snapshot_generated(root)
+
+    assert after == before
+
+
+def test_scoped_build_rejects_bad_existing_detail_before_selected_write() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        sources = root / "vault" / "concepts"
+        details = root / "data" / "concepts"
+        index_path = root / "data" / "concepts-index.json"
+        sources.mkdir(parents=True)
+        details.mkdir(parents=True)
+        write_concept(sources / "alpha.md", "alpha")
+        (details / "unrelated.json").write_text("{bad json", encoding="utf-8")
+        index_path.write_text('{"concepts":[]}', encoding="utf-8")
+        before = snapshot_generated(root)
+
+        try:
+            build.build_selected_concepts(
+                ["alpha"],
+                src_dir=sources,
+                out_dir=details,
+                index_path=index_path,
+            )
+        except ValueError as error:
+            assert "build-detail-tree-invalid" in str(error)
+        else:
+            raise AssertionError("Malformed existing detail must fail")
+
+        after = snapshot_generated(root)
+
+    assert after == before
+
+
+def test_explicit_root_batch_cli_is_relocated_and_second_run_idempotent() -> None:
+    results = []
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        for root in (base / "canonical", base / "relocated" / "checkout"):
+            sources = root / "vault" / "concepts"
+            details = root / "data" / "concepts"
+            batch = root / "docs" / "batch.json"
+            sources.mkdir(parents=True)
+            details.mkdir(parents=True)
+            batch.parent.mkdir(parents=True)
+            for slug in ("alpha", "beta"):
+                write_concept(sources / f"{slug}.md", slug)
+            batch.write_text(
+                json.dumps({"notes": [{"slug": "beta"}, {"slug": "alpha"}]}),
+                encoding="utf-8",
+            )
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                first_exit = build.main(
+                    [
+                        "--repo-root",
+                        str(root),
+                        "--batch-file",
+                        "docs/batch.json",
+                        "--quiet",
+                    ]
+                )
+            first = snapshot_generated(root)
+            with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                second_exit = build.main(
+                    [
+                        "--repo-root",
+                        str(root),
+                        "--batch-file",
+                        "docs/batch.json",
+                        "--quiet",
+                    ]
+                )
+            second = snapshot_generated(root)
+            results.append((first_exit, second_exit, first, second, output.getvalue()))
+
+    assert results[0][0:2] == results[1][0:2] == (0, 0)
+    assert results[0][2][0] == results[1][2][0]
+    assert results[0][4] == results[1][4]
+    assert all(first == second for _, _, first, second, _ in results)
+
+
+def test_explicit_root_rejects_absolute_or_escaping_batch_path_without_writes() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        (root / "vault" / "concepts").mkdir(parents=True)
+        outside = root.parent / "outside-batch.json"
+        outside.write_text(json.dumps({"notes": [{"slug": "alpha"}]}), encoding="utf-8")
+        before = snapshot_generated(root)
+        results = []
+        for batch_path in (str(outside.resolve()), "../outside-batch.json"):
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = build.main(
+                    [
+                        "--repo-root",
+                        str(root),
+                        "--batch-file",
+                        batch_path,
+                        "--quiet",
+                    ]
+                )
+            results.append((exit_code, output.getvalue()))
+
+        after = snapshot_generated(root)
+
+    assert after == before
+    assert all(exit_code == 1 for exit_code, _ in results)
+    assert all("build-selection-path-invalid" in output for _, output in results)
 
 
 def run_smoke() -> None:

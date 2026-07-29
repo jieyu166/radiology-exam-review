@@ -9,7 +9,9 @@ import io
 import json
 import shutil
 import tempfile
+from copy import deepcopy
 from contextlib import redirect_stderr, redirect_stdout
+from dataclasses import FrozenInstanceError
 from pathlib import Path
 
 import nr_summary_audit as audit
@@ -455,6 +457,463 @@ def set_fact_state(
         [fact["id"]] if disposition == "manual-review" else []
     )
     seal_entry(entry)
+
+
+def phase2_inventory_fixture() -> dict:
+    notes = []
+    for slug, note_type in sorted(audit.NOTE_TYPE_OVERRIDES.items()):
+        notes.append(
+            {
+                "slug": slug,
+                "path": f"vault/concepts/{slug}.md",
+                "type": note_type,
+                "batch": "batch-00" if slug in audit.PILOT_SLUGS else "unassigned",
+                "status": "pending",
+                "sourceStatus": "existing-sufficient",
+                "originalSha256": hashlib.sha256(slug.encode("utf-8")).hexdigest(),
+                "summaryHeadings": ["Summary"],
+            }
+        )
+    return {
+        "schemaVersion": 1,
+        "scope": "NR",
+        "generatedFrom": "vault/concepts",
+        "notes": notes,
+    }
+
+
+def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> tuple[Path, str]:
+    report_root = root / "docs" / "reports" / "nr-summary-rewrite"
+    baseline_root = report_root / "phase2a" / "baselines"
+    evidence_root = report_root / "phase2a" / "evidence"
+    generated_root = root / "data" / "concepts"
+    concept_root = root / "vault" / "concepts"
+    for directory in (baseline_root, evidence_root, generated_root, concept_root):
+        directory.mkdir(parents=True, exist_ok=True)
+
+    inventory = phase2_inventory_fixture()
+    active_slugs = list(audit.ACTIVE_PHASE2A_BATCHES[batch_id]["slugs"])
+    inventory_by_slug = {entry["slug"]: entry for entry in inventory["notes"]}
+    for slug in active_slugs:
+        note_path = concept_root / f"{slug}.md"
+        note_path.write_text(NR_DEMO_TEXT, encoding="utf-8", newline="")
+        inventory_by_slug[slug]["originalSha256"] = hashlib.sha256(
+            NR_DEMO_TEXT.encode("utf-8")
+        ).hexdigest()
+    assignment = audit.build_phase2_assignment(inventory)
+    assignment_path = report_root / "phase2-assignment.json"
+    inventory_path = report_root / "inventory.json"
+    assignment_path.write_text(json.dumps(assignment), encoding="utf-8")
+    inventory_path.write_text(json.dumps(inventory), encoding="utf-8")
+
+    batch = next(item for item in assignment["batches"] if item["id"] == batch_id)
+    baseline = {
+        "schemaVersion": 1,
+        "kind": "phase2-baseline-lock",
+        "batch": batch_id,
+        "scope": "NR",
+        "assignmentSha256": canonical_sha256(assignment),
+        "notes": [
+            {
+                "slug": slug,
+                "path": inventory_by_slug[slug]["path"],
+                "type": batch["type"],
+                "originalSha256": inventory_by_slug[slug]["originalSha256"],
+                "summaryHeadings": ["Summary"],
+                "originalSummary": NR_DEMO_SUMMARY,
+                "factUnits": [
+                    {
+                        "id": f"{slug}-f01",
+                        "text": "Demo fact.",
+                        "sourceRefs": ["1"],
+                    }
+                ],
+            }
+            for slug in active_slugs
+        ],
+    }
+    baseline_digest = canonical_sha256(baseline)
+    baseline_path = baseline_root / f"{batch_id}.json"
+    baseline_path.write_text(json.dumps(baseline), encoding="utf-8")
+
+    evidence = {
+        "schemaVersion": 1,
+        "kind": "phase2-batch-evidence",
+        "batch": batch_id,
+        "scope": "NR",
+        "baselineLock": {
+            "path": f"docs/reports/nr-summary-rewrite/phase2a/baselines/{batch_id}.json",
+            "sha256": baseline_digest,
+        },
+        "status": "verified",
+        "workflow": {
+            "sequence": 1,
+            "predecessor": None,
+            "implementer": "fixture-implementer",
+            "reviewer": "fixture-reviewer",
+            "reviewStatus": "approved",
+            "reviewedBaselineSha256": baseline_digest,
+        },
+        "notes": [
+            {
+                "slug": slug,
+                "sourceStatus": "existing-sufficient",
+                "status": "verified",
+                "rewrittenSummary": NR_DEMO_SUMMARY,
+                "facts": [
+                    {
+                        "id": f"{slug}-f01",
+                        "sourceRefs": ["1"],
+                        "disposition": "covered",
+                    }
+                ],
+                "sourceDefinitions": {
+                    "1": {
+                        "kind": "existing-footnote",
+                        "locator": "1",
+                        "citation": "Example.",
+                    }
+                },
+                "newUnsupportedFacts": 0,
+                "validation": {
+                    "hashMatches": True,
+                    "losslessSummaryMatches": True,
+                    "allSourceRefsDefined": True,
+                    "structure": {"errors": 0, "codes": []},
+                    "footnotes": {"errors": 0, "codes": []},
+                    "factCoverage": {
+                        "total": 1,
+                        "covered": 1,
+                        "researchNeeded": 0,
+                        "manualReview": 0,
+                    },
+                },
+                "summaryBulletEvidence": ["**Label**: Demo fact."],
+                "coverageEvidenceSha256": "0" * 64,
+            }
+            for slug in active_slugs
+        ],
+        "manualReviewFactIds": [],
+        "generatedManifest": (
+            f"docs/reports/nr-summary-rewrite/phase2a/generated/{batch_id}.json"
+        ),
+    }
+    (evidence_root / f"{batch_id}.json").write_text(
+        json.dumps(evidence), encoding="utf-8"
+    )
+
+    index_entries = []
+    for slug in active_slugs:
+        detail = {
+            "slug": slug,
+            "name": slug,
+            "nameZh": "",
+            "subspecialty": "NR",
+            "checked": False,
+            "keyPoints": ["**Label**: Demo fact."],
+        }
+        (generated_root / f"{slug}.json").write_text(
+            json.dumps(detail), encoding="utf-8"
+        )
+        index_entries.append(
+            {
+                key: detail[key]
+                for key in ("slug", "name", "nameZh", "subspecialty", "checked")
+            }
+        )
+    (root / "data" / "concepts-index.json").write_text(
+        json.dumps({"concepts": index_entries}), encoding="utf-8"
+    )
+    return assignment_path.relative_to(root), baseline_digest
+
+
+def test_phase2_assignment_is_complete_deterministic_and_validated() -> None:
+    inventory = phase2_inventory_fixture()
+
+    first = audit.build_phase2_assignment(inventory)
+    second = audit.build_phase2_assignment(deepcopy(inventory))
+    active = [batch for batch in first["batches"] if batch["state"] == "active"]
+    scheduled = [batch for batch in first["batches"] if batch["state"] == "scheduled"]
+
+    assert first == second
+    assert canonical_sha256(first) == canonical_sha256(second)
+    assert audit.validate_phase2_assignment(first, inventory) == []
+    assert [batch["id"] for batch in active] == [
+        "batch-01-anatomy",
+        "batch-02-disease",
+        "batch-03-pattern",
+    ]
+    assert sum(len(batch["slugs"]) for batch in active) == 30
+    assert sum(len(batch["slugs"]) for batch in scheduled) == 176
+    assert all(
+        len(batch["slugs"]) == 10
+        or batch is [
+            candidate for candidate in scheduled if candidate["type"] == batch["type"]
+        ][-1]
+        for batch in scheduled
+    )
+
+
+def test_phase2_assignment_reports_stable_inventory_membership_order_and_path_codes() -> None:
+    inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+
+    changed_inventory = deepcopy(inventory)
+    changed_entry = next(
+        entry for entry in changed_inventory["notes"] if entry["batch"] != "batch-00"
+    )
+    changed_entry["originalSha256"] = "f" * 64
+    assert "phase2-assignment-inventory-mismatch" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(assignment, changed_inventory)
+    }
+
+    substituted = deepcopy(assignment)
+    active = next(
+        batch for batch in substituted["batches"] if batch["id"] == "batch-03-pattern"
+    )
+    replacement = next(
+        batch["slugs"][0]
+        for batch in substituted["batches"]
+        if batch["state"] == "scheduled" and batch["type"] == "pattern-ddx"
+    )
+    active["slugs"][0] = replacement
+    assert "phase2-assignment-membership" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(substituted, inventory)
+    }
+
+    reordered = deepcopy(assignment)
+    scheduled = next(batch for batch in reordered["batches"] if batch["state"] == "scheduled")
+    scheduled["slugs"] = list(reversed(scheduled["slugs"]))
+    assert "phase2-assignment-nondeterministic" in {
+        finding.code for finding in audit.validate_phase2_assignment(reordered, inventory)
+    }
+
+    unsafe_inventory = deepcopy(inventory)
+    unsafe_entry = next(
+        entry for entry in unsafe_inventory["notes"] if entry["batch"] != "batch-00"
+    )
+    unsafe_entry["path"] = "../outside.md"
+    assert "phase2-path-invalid" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(assignment, unsafe_inventory)
+    }
+
+
+def test_phase2_batch_context_is_immutable_root_relative_and_relocation_stable() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        canonical = base / "canonical"
+        shadow = base / "relocated" / "checkout"
+        canonical.mkdir(parents=True)
+        assignment_path, baseline_digest = write_phase2_api_fixture(canonical)
+        shutil.copytree(canonical, shadow)
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            canonical_context = audit.load_phase2_batch(
+                canonical, assignment_path, "batch-01-anatomy"
+            )
+            shadow_context = audit.load_phase2_batch(
+                shadow, assignment_path, "batch-01-anatomy"
+            )
+            canonical_findings = audit.validate_baseline_lock(canonical_context)
+            shadow_findings = audit.validate_baseline_lock(shadow_context)
+            canonical_manifest = audit.build_phase2_generated_manifest(
+                canonical, "batch-01-anatomy"
+            )
+            shadow_manifest = audit.build_phase2_generated_manifest(
+                shadow, "batch-01-anatomy"
+            )
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert canonical_findings == shadow_findings == []
+    assert canonical_manifest == shadow_manifest
+    assert canonical_context.assignment_path.as_posix() == (
+        "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    )
+    assert canonical_context.baseline_path.as_posix().startswith(
+        "docs/reports/nr-summary-rewrite/phase2a/baselines/"
+    )
+    try:
+        canonical_context.batch = {}
+    except FrozenInstanceError:
+        pass
+    else:
+        raise AssertionError("BatchContext must be an immutable dataclass")
+
+
+def test_phase2_trust_and_explicit_root_path_attacks_have_stable_failures() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            baseline_file = root / context.baseline_path
+            baseline = json.loads(baseline_file.read_text(encoding="utf-8"))
+            baseline["notes"][0]["originalSha256"] = "f" * 64
+            baseline_file.write_text(json.dumps(baseline), encoding="utf-8")
+            mutated = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            codes = {
+                finding.code for finding in audit.validate_baseline_lock(mutated)
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+        assert "phase2-trusted-batch-lock-mismatch" in codes
+        try:
+            audit.load_phase2_batch(
+                root, (root / assignment_path).resolve(), "batch-01-anatomy"
+            )
+        except audit.Phase2LoadError as error:
+            assert error.code == "phase2-path-invalid"
+            assert not Path(error.path).is_absolute()
+        else:
+            raise AssertionError("Absolute assignment paths must be rejected")
+
+
+def test_phase2_explicit_root_assignment_cli_matches_relocated_checkout() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        roots = (base / "canonical", base / "shadow")
+        outputs = []
+        for root in roots:
+            report_root = root / "docs" / "reports" / "nr-summary-rewrite"
+            report_root.mkdir(parents=True)
+            inventory = phase2_inventory_fixture()
+            assignment = audit.build_phase2_assignment(inventory)
+            (report_root / "inventory.json").write_text(
+                json.dumps(inventory), encoding="utf-8"
+            )
+            (report_root / "phase2-assignment.json").write_text(
+                json.dumps(assignment), encoding="utf-8"
+            )
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "validate-assignment",
+                        "--repo-root",
+                        str(root),
+                        "--inventory",
+                        "docs/reports/nr-summary-rewrite/inventory.json",
+                        "--assignment",
+                        "docs/reports/nr-summary-rewrite/phase2-assignment.json",
+                    ]
+                )
+            outputs.append((exit_code, output.getvalue()))
+
+    assert outputs[0] == outputs[1]
+    assert outputs[0][0] == 0
+
+
+def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        assignment_path, baseline_digest = write_phase2_api_fixture(root)
+        manifest = audit.build_phase2_generated_manifest(
+            root, "batch-01-anatomy"
+        )
+        manifest_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "generated"
+            / "batch-01-anatomy.json"
+        )
+        manifest_path.parent.mkdir(parents=True)
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        original_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+            "batch-01-anatomy": baseline_digest
+        }
+        try:
+            common = [
+                "--repo-root",
+                str(root),
+                "--assignment",
+                assignment_path.as_posix(),
+                "--batch",
+                "batch-01-anatomy",
+            ]
+            baseline_output = io.StringIO()
+            with redirect_stdout(baseline_output), redirect_stderr(baseline_output):
+                baseline_exit = audit.main(["validate-baseline", *common])
+            batch_output = io.StringIO()
+            with redirect_stdout(batch_output), redirect_stderr(batch_output):
+                batch_exit = audit.main(
+                    [
+                        "validate-batch",
+                        *common,
+                        "--check-source-hashes",
+                        "--check-generated",
+                    ]
+                )
+
+            selected_slug = audit.ACTIVE_PHASE2A_BATCHES["batch-01-anatomy"][
+                "slugs"
+            ][0]
+            detail_path = root / "data" / "concepts" / f"{selected_slug}.json"
+            detail = json.loads(detail_path.read_text(encoding="utf-8"))
+            detail["keyPoints"] = ["wrong"]
+            detail_path.write_text(json.dumps(detail), encoding="utf-8")
+            context = audit.load_phase2_batch(
+                root, assignment_path, "batch-01-anatomy"
+            )
+            attack_codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context, check_source_hashes=True, check_generated=True
+                )
+            }
+        finally:
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_trust
+
+    assert baseline_exit == batch_exit == 0
+    assert baseline_output.getvalue() == batch_output.getvalue() == "[]\n"
+    assert "generated-keypoints-mismatch" in attack_codes
+    assert "generated-manifest-mismatch" in attack_codes
+
+
+def test_phase2_assignment_path_attack_cli_is_relocation_stable() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        outputs = []
+        for root in (base / "canonical", base / "relocated" / "shadow"):
+            root.mkdir(parents=True)
+            output = io.StringIO()
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "validate-assignment",
+                        "--repo-root",
+                        str(root),
+                        "--inventory",
+                        "../inventory.json",
+                        "--assignment",
+                        "docs/phase2-assignment.json",
+                    ]
+                )
+            outputs.append((exit_code, output.getvalue()))
+
+    assert outputs[0] == outputs[1]
+    assert outputs[0][0] == 1
+    assert '"code": "phase2-path-invalid"' in outputs[0][1]
+    assert str(base) not in outputs[0][1]
 
 
 def test_evidence_rejects_unmapped_or_unresolved_fact_units() -> None:

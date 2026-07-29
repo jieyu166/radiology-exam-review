@@ -31,9 +31,9 @@ import json
 import os
 import re
 import sys
+from pathlib import Path
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-os.chdir(REPO)
 
 SRC_DIR = "vault/concepts"
 OUT_DIR = "data/concepts"
@@ -48,6 +48,43 @@ BARE_URL = re.compile(r"https?://[^\s\]；。，（）]+")
 PLAIN_DOI = re.compile(r"\b(10\.\d{4,9}/[^\s\]>,；。（）]+)")
 INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
 SUMMARY_SECTION = re.compile(r"^Summary(?:\s+—\s+\S.*)?$")
+
+
+class BuildSelectionError(ValueError):
+    """Stable, user-facing selection failure."""
+
+    def __init__(self, code: str, message: str):
+        super().__init__(f"{code}: {message}")
+        self.code = code
+
+
+def _resolve_repo_relative(repo_root: Path, value: str, *, label: str) -> Path:
+    """Resolve one explicit POSIX path without allowing absolute/root escapes."""
+    if (
+        not isinstance(value, str)
+        or not value
+        or "\\" in value
+        or value.startswith("/")
+        or re.match(r"^[A-Za-z]:", value)
+    ):
+        raise BuildSelectionError(
+            "build-selection-path-invalid",
+            f"{label} must be a repo-relative POSIX path.",
+        )
+    parts = value.split("/")
+    if any(part in {"", ".", ".."} for part in parts):
+        raise BuildSelectionError(
+            "build-selection-path-invalid",
+            f"{label} contains an empty, dot, or parent component.",
+        )
+    root = repo_root.resolve()
+    candidate = (root / Path(*parts)).resolve()
+    if not candidate.is_relative_to(root):
+        raise BuildSelectionError(
+            "build-selection-path-invalid",
+            f"{label} resolves outside --repo-root.",
+        )
+    return candidate
 
 
 def _strip_footnotes(text: str) -> str:
@@ -361,21 +398,56 @@ def write_json(path, data):
 
 def build_index_from_detail_files(out_dir=OUT_DIR, index_path=INDEX_PATH):
     """Rebuild a coherent index from the detail JSON files that actually exist."""
-    index = []
-    for path in sorted(glob.glob(os.path.join(out_dir, "*.json"))):
-        with open(path, encoding="utf-8") as file:
-            detail = json.load(file)
-        slug = os.path.basename(path)[:-5]
-        if not isinstance(detail, dict) or detail.get("slug") != slug:
-            raise ValueError(f"Detail JSON slug mismatch: {path}")
-        missing = [field for field in INDEX_FIELDS if field not in detail]
-        if missing:
-            raise ValueError(f"Detail JSON missing index fields {missing}: {path}")
-        index.append({field: detail[field] for field in INDEX_FIELDS})
-    index.sort(key=lambda entry: entry["slug"])
-    report = {"concepts": index}
+    report = _index_report_from_detail_files(out_dir)
     write_json(index_path, report)
     return report
+
+
+def _index_report_from_detail_files(out_dir, replacements=None):
+    """Validate the complete detail tree and return its prospective index."""
+    replacements = replacements or {}
+    index = []
+    for path in sorted(glob.glob(os.path.join(out_dir, "*.json"))):
+        slug = os.path.basename(path)[:-5]
+        if slug in replacements:
+            detail = replacements[slug]
+        else:
+            try:
+                with open(path, encoding="utf-8") as file:
+                    detail = json.load(file)
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+                raise BuildSelectionError(
+                    "build-detail-tree-invalid",
+                    f"Cannot read detail JSON {Path(path).name}: {error}.",
+                ) from error
+        if not isinstance(detail, dict) or detail.get("slug") != slug:
+            raise BuildSelectionError(
+                "build-detail-tree-invalid",
+                f"Detail JSON slug mismatch: {Path(path).name}.",
+            )
+        missing = [field for field in INDEX_FIELDS if field not in detail]
+        if missing:
+            raise BuildSelectionError(
+                "build-detail-tree-invalid",
+                f"Detail JSON missing index fields {missing}: {Path(path).name}.",
+            )
+        index.append({field: detail[field] for field in INDEX_FIELDS})
+    existing_slugs = {
+        os.path.basename(path)[:-5]
+        for path in glob.glob(os.path.join(out_dir, "*.json"))
+    }
+    for slug, detail in replacements.items():
+        if slug in existing_slugs:
+            continue
+        missing = [field for field in INDEX_FIELDS if field not in detail]
+        if missing or detail.get("slug") != slug:
+            raise BuildSelectionError(
+                "build-selected-note-invalid",
+                f"Selected detail {slug!r} cannot populate the index.",
+            )
+        index.append({field: detail[field] for field in INDEX_FIELDS})
+    index.sort(key=lambda entry: entry["slug"])
+    return {"concepts": index}
 
 
 def load_batch_slugs(path) -> list[str]:
@@ -383,15 +455,24 @@ def load_batch_slugs(path) -> list[str]:
     with open(path, encoding="utf-8") as file:
         report = json.load(file)
     if not isinstance(report, dict) or not isinstance(report.get("notes"), list):
-        raise ValueError("Batch file must be an object with a notes array.")
+        raise BuildSelectionError(
+            "build-selection-invalid",
+            "Batch file must be an object with a notes array.",
+        )
     slugs = []
     for entry in report["notes"]:
         slug = entry.get("slug") if isinstance(entry, dict) else None
         if not isinstance(slug, str) or not SAFE_SLUG.fullmatch(slug):
-            raise ValueError("Every batch note must contain a safe string slug.")
+            raise BuildSelectionError(
+                "build-selection-invalid",
+                "Every batch note must contain a safe string slug.",
+            )
         slugs.append(slug)
     if not slugs or len(slugs) != len(set(slugs)):
-        raise ValueError("Batch slugs must be non-empty and unique.")
+        raise BuildSelectionError(
+            "build-selection-invalid",
+            "Batch slugs must be non-empty and unique.",
+        )
     return sorted(slugs)
 
 
@@ -405,18 +486,38 @@ def build_selected_concepts(
     """Build exactly selected detail JSON files, then rebuild index from details."""
     selected = sorted(slugs)
     if not selected or len(selected) != len(set(selected)):
-        raise ValueError("Selected slugs must be non-empty and unique.")
+        raise BuildSelectionError(
+            "build-selection-invalid",
+            "Selected slugs must be non-empty and unique.",
+        )
     if any(not isinstance(slug, str) or not SAFE_SLUG.fullmatch(slug) for slug in selected):
-        raise ValueError("Selected slugs must use safe lowercase filename syntax.")
+        raise BuildSelectionError(
+            "build-selection-invalid",
+            "Selected slugs must use safe lowercase filename syntax.",
+        )
 
-    written_files = []
+    # Complete the selected-source and prospective-tree validation before the
+    # first output write.  This makes every selection/input failure atomic.
+    replacements = {}
     for slug in selected:
         source_path = os.path.join(os.fspath(src_dir), f"{slug}.md")
         if not os.path.isfile(source_path):
-            raise ValueError(f"Missing selected concept source: {source_path}")
+            raise BuildSelectionError(
+                "build-selection-source-missing",
+                f"Missing selected concept source: {slug}.md.",
+            )
         obj, warning = build_concept(source_path)
         if obj is None:
-            raise ValueError(warning or f"Could not build selected concept: {slug}")
+            raise BuildSelectionError(
+                "build-selected-note-invalid",
+                warning or f"Could not build selected concept: {slug}.",
+            )
+        replacements[slug] = obj
+
+    index_report = _index_report_from_detail_files(out_dir, replacements)
+    written_files = []
+    for slug in selected:
+        obj = replacements[slug]
         output_path = os.path.join(os.fspath(out_dir), f"{slug}.json")
         if write_json(output_path, obj):
             written_files.append(os.path.basename(output_path))
@@ -427,7 +528,7 @@ def build_selected_concepts(
             before_index = file.read()
     except FileNotFoundError:
         pass
-    index_report = build_index_from_detail_files(out_dir, index_path)
+    write_json(index_path, index_report)
     with open(index_path, "rb") as file:
         after_index = file.read()
     if before_index != after_index:
@@ -445,6 +546,7 @@ def build_parser():
     scope.add_argument("--batch-file")
     scope.add_argument("--slugs", nargs="+")
     scope.add_argument("--index-from-details", action="store_true")
+    parser.add_argument("--repo-root")
     parser.add_argument("--quiet", action="store_true")
     return parser
 
@@ -452,8 +554,12 @@ def build_parser():
 def main(argv=None):
     args = build_parser().parse_args(argv)
     quiet = args.quiet
+    repo_root = Path(args.repo_root).resolve() if args.repo_root else Path(REPO).resolve()
+    src_dir = repo_root / "vault" / "concepts"
+    out_dir = repo_root / "data" / "concepts"
+    index_path = repo_root / "data" / "concepts-index.json"
     if args.index_from_details:
-        report = build_index_from_detail_files()
+        report = build_index_from_detail_files(out_dir, index_path)
         if not quiet:
             print(f"索引概念總數：{len(report['concepts'])}")
             print(f"輸出：{INDEX_PATH}")
@@ -461,8 +567,19 @@ def main(argv=None):
 
     if args.batch_file or args.slugs:
         try:
-            slugs = load_batch_slugs(args.batch_file) if args.batch_file else args.slugs
-            result = build_selected_concepts(slugs)
+            if args.batch_file:
+                batch_path = _resolve_repo_relative(
+                    repo_root, args.batch_file, label="--batch-file"
+                )
+                slugs = load_batch_slugs(batch_path)
+            else:
+                slugs = args.slugs
+            result = build_selected_concepts(
+                slugs,
+                src_dir=src_dir,
+                out_dir=out_dir,
+                index_path=index_path,
+            )
         except (OSError, UnicodeDecodeError, json.JSONDecodeError, ValueError) as error:
             print(f"ERROR: {error}", file=sys.stderr)
             return 1
@@ -473,9 +590,9 @@ def main(argv=None):
             print(f"輸出：{INDEX_PATH} + selected {OUT_DIR}/*.json")
         return 0
 
-    files = sorted(p for p in glob.glob(os.path.join(SRC_DIR, "*.md"))
-                   if not os.path.basename(p).startswith("_"))
-    os.makedirs(OUT_DIR, exist_ok=True)
+    files = sorted(p for p in glob.glob(os.path.join(src_dir, "*.md"))
+                    if not os.path.basename(p).startswith("_"))
+    os.makedirs(out_dir, exist_ok=True)
 
     index, skipped = [], []
     n_no_imaging = n_no_links = 0
@@ -486,7 +603,7 @@ def main(argv=None):
         if obj is None:
             skipped.append(warn)
             continue
-        write_json(os.path.join(OUT_DIR, obj["slug"] + ".json"), obj)
+        write_json(os.path.join(out_dir, obj["slug"] + ".json"), obj)
         written_slugs.add(obj["slug"])
         index.append({
             "slug": obj["slug"],
@@ -501,11 +618,11 @@ def main(argv=None):
             n_no_links += 1
 
     index.sort(key=lambda e: e["slug"])
-    write_json(INDEX_PATH, {"concepts": index})
+    write_json(index_path, {"concepts": index})
 
     # 移除已不存在於 vault 的舊產物（保持 idempotent、無孤兒）
     removed = 0
-    for stale in glob.glob(os.path.join(OUT_DIR, "*.json")):
+    for stale in glob.glob(os.path.join(out_dir, "*.json")):
         slug = os.path.basename(stale)[:-5]
         if slug not in written_slugs:
             os.remove(stale)

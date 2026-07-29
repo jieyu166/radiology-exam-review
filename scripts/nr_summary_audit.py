@@ -12,7 +12,7 @@ import json
 import re
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
-from typing import Iterable, Sequence
+from typing import Iterable, Mapping, Sequence
 from urllib.parse import urlparse
 
 
@@ -30,6 +30,7 @@ TABLE_RE = re.compile(r"^\s*\|.*\|\s*$")
 TABLE_SEPARATOR_RE = re.compile(r"^\s*:?-{3,}:?(?:\s*\|\s*:?-{3,}:?)+\s*$")
 TABLE_ROW_RE = re.compile(r"^\s*(?!\|)[^|\r\n]+\|[^|\r\n]+(?:\|[^|\r\n]+)*\s*$")
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
+SAFE_SLUG_RE = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 
 NOTE_TYPES = {"disease", "pattern-ddx", "anatomy-measurement-management"}
 NOTE_STATUSES = {
@@ -94,6 +95,67 @@ GENERATED_INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
 # Keep this explicit and empty unless a reviewed legacy index-only concept is
 # intentionally supported. Every other index entry must have a detail JSON.
 LEGACY_INDEX_DETAIL_FALLBACKS: dict[str, dict[str, object]] = {}
+
+ACTIVE_PHASE2A_BATCHES = {
+    "batch-01-anatomy": {
+        "type": "anatomy-measurement-management",
+        "slugs": (
+            "ajcc-8th-head-neck-n-staging",
+            "aneurysm-coiling-recurrence",
+            "atlantodental-interval",
+            "brachial-plexus-anatomy",
+            "brain-herniation-syndromes",
+            "carotid-vertebrobasilar-anastomoses",
+            "cerebral-border-zone-infarct-arteries",
+            "cerebral-deep-venous-cortex",
+            "cerebral-herniation-types",
+            "cerebral-infarction-evolution",
+        ),
+    },
+    "batch-02-disease": {
+        "type": "disease",
+        "slugs": (
+            "2-hydroxyglutarate-idh-mutant-glioma",
+            "adrenoleukodystrophy",
+            "aicardi-syndrome",
+            "als-imaging",
+            "angioinvasive-aspergillosis",
+            "anti-nmda-encephalitis",
+            "arterial-dissection-mri",
+            "atypical-teratoid-rhabdoid-tumor",
+            "autoimmune-encephalitis",
+            "basilar-artery-occlusion",
+        ),
+    },
+    "batch-03-pattern": {
+        "type": "pattern-ddx",
+        "slugs": (
+            "brain-tumor-imaging",
+            "cerebral-infarction-fogging",
+            "cerebral-microbleeds",
+            "cerebrovascular-malformations",
+            "chemical-shift-artifact",
+            "cns-opportunistic-infection",
+            "cranial-nerve-muscle-atrophy",
+            "dural-based-masses-aids",
+            "facial-fracture-complications",
+            "gbm-vs-pcnsl",
+        ),
+    },
+}
+PHASE2_TYPE_ORDER = (
+    "anatomy-measurement-management",
+    "disease",
+    "pattern-ddx",
+)
+PHASE2_TYPE_SHORT = {
+    "anatomy-measurement-management": "anatomy",
+    "disease": "disease",
+    "pattern-ddx": "pattern",
+}
+# Populated one reviewed batch at a time by Tasks 2.1, 3.1, and 4.1.  Absence
+# is fail-closed: no mutable lock or evidence file may choose its own digest.
+TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {}
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
 # evidence.  Task 3 provenance: commit 8dca155, batch blob
@@ -413,6 +475,810 @@ class Finding:
     code: str
     path: str
     message: str
+
+
+@dataclass(frozen=True)
+class BatchContext:
+    repo_root: Path
+    inventory_path: Path
+    assignment_path: Path
+    assignment: dict
+    batch: dict
+    baseline_path: Path
+    baseline: dict | None
+    evidence_path: Path
+    evidence: dict | None
+    note_records: Mapping[str, NoteRecord]
+    generated_root: Path
+
+
+class Phase2LoadError(ValueError):
+    def __init__(self, code: str, path: str, message: str):
+        super().__init__(message)
+        self.code = code
+        self.path = path
+        self.message = message
+
+    def finding(self) -> Finding:
+        return Finding("error", self.code, self.path, self.message)
+
+
+def _phase2_path_parts(value: object) -> tuple[str, ...] | None:
+    if (
+        not isinstance(value, str)
+        or not value
+        or "\\" in value
+        or value.startswith("/")
+        or re.match(r"^[A-Za-z]:", value)
+    ):
+        return None
+    parts = tuple(value.split("/"))
+    if any(part in {"", ".", ".."} for part in parts):
+        return None
+    return parts
+
+
+def _resolve_phase2_path(repo_root: Path, value: str, *, display_path: str) -> Path:
+    parts = _phase2_path_parts(value)
+    if parts is None:
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            display_path,
+            "Path must be a repo-relative POSIX path without dot components.",
+        )
+    root = repo_root.resolve()
+    resolved = (root / Path(*parts)).resolve()
+    if not resolved.is_relative_to(root):
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            display_path,
+            "Path resolves outside the repository root.",
+        )
+    return resolved
+
+
+def _phase2_inventory_projection(inventory: dict) -> list[dict]:
+    notes = inventory.get("notes")
+    if not isinstance(notes, list):
+        raise ValueError("Inventory notes must be an array.")
+    projection = []
+    for entry in notes:
+        if not isinstance(entry, dict) or entry.get("batch") == "batch-00":
+            continue
+        projection.append(
+            {
+                "slug": entry.get("slug"),
+                "path": entry.get("path"),
+                "type": entry.get("type"),
+                "originalSha256": entry.get("originalSha256"),
+                "summaryHeadings": entry.get("summaryHeadings"),
+            }
+        )
+    return sorted(projection, key=lambda entry: str(entry.get("slug")))
+
+
+def build_phase2_assignment(inventory: dict) -> dict:
+    """Deterministically assign all non-pilot NR notes without path inference."""
+    projection = _phase2_inventory_projection(inventory)
+    by_slug: dict[str, dict] = {}
+    for entry in projection:
+        slug = entry.get("slug")
+        note_type = entry.get("type")
+        if (
+            not isinstance(slug, str)
+            or not SAFE_SLUG_RE.fullmatch(slug)
+            or slug in by_slug
+            or note_type not in NOTE_TYPES
+            or _phase2_path_parts(entry.get("path")) is None
+        ):
+            raise ValueError("Inventory cannot produce a deterministic Phase 2 assignment.")
+        by_slug[slug] = entry
+    if len(by_slug) != EXPECTED_UNASSIGNED_COUNT:
+        raise ValueError("Phase 2 assignment requires exactly 206 non-pilot notes.")
+
+    active_slugs: set[str] = set()
+    batches = []
+    ordinal = 1
+    for batch_id, contract in ACTIVE_PHASE2A_BATCHES.items():
+        slugs = list(contract["slugs"])
+        if any(
+            slug not in by_slug or by_slug[slug]["type"] != contract["type"]
+            for slug in slugs
+        ):
+            raise ValueError(f"Inventory does not contain fixed active batch {batch_id}.")
+        active_slugs.update(slugs)
+        batches.append(
+            {
+                "id": batch_id,
+                "ordinal": ordinal,
+                "type": contract["type"],
+                "state": "active",
+                "slugs": slugs,
+            }
+        )
+        ordinal += 1
+
+    for note_type in PHASE2_TYPE_ORDER:
+        remaining = sorted(
+            slug
+            for slug, entry in by_slug.items()
+            if entry["type"] == note_type and slug not in active_slugs
+        )
+        for offset in range(0, len(remaining), 10):
+            type_ordinal = offset // 10 + 1
+            batches.append(
+                {
+                    "id": (
+                        f"scheduled-{PHASE2_TYPE_SHORT[note_type]}-"
+                        f"{type_ordinal:02d}"
+                    ),
+                    "ordinal": ordinal,
+                    "type": note_type,
+                    "state": "scheduled",
+                    "slugs": remaining[offset : offset + 10],
+                }
+            )
+            ordinal += 1
+    return {
+        "schemaVersion": 1,
+        "scope": "NR",
+        "phase": "2",
+        "sourceInventorySha256": _canonical_sha256(projection),
+        "batchSize": 10,
+        "activeBatchIds": list(ACTIVE_PHASE2A_BATCHES),
+        "batches": batches,
+    }
+
+
+def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Finding]:
+    """Return stable assignment findings without consulting cwd or checkout identity."""
+    findings: list[Finding] = []
+    assignment_path = "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    inventory_notes = inventory.get("notes") if isinstance(inventory, dict) else None
+    if isinstance(inventory_notes, list):
+        for index, entry in enumerate(inventory_notes):
+            if (
+                isinstance(entry, dict)
+                and _phase2_path_parts(entry.get("path")) is None
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "phase2-path-invalid",
+                        f"docs/reports/nr-summary-rewrite/inventory.json#notes/{index}",
+                        "Inventory note path must be repo-relative POSIX.",
+                    )
+                )
+    try:
+        expected = build_phase2_assignment(inventory)
+    except (TypeError, ValueError) as error:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-assignment-inventory-mismatch",
+                "docs/reports/nr-summary-rewrite/inventory.json",
+                str(error),
+            )
+        )
+        return findings
+    if not isinstance(assignment, dict):
+        return findings + [
+            Finding(
+                "error",
+                "phase2-assignment-membership",
+                assignment_path,
+                "Assignment root must be an object.",
+            )
+        ]
+    if assignment.get("sourceInventorySha256") != expected["sourceInventorySha256"]:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-assignment-inventory-mismatch",
+                assignment_path,
+                "Assignment inventory projection digest does not match inventory.",
+            )
+        )
+
+    batches = assignment.get("batches")
+    membership_ok = isinstance(batches, list)
+    flattened: list[str] = []
+    batch_by_id = {}
+    if isinstance(batches, list):
+        for batch in batches:
+            if not isinstance(batch, dict) or not isinstance(batch.get("id"), str):
+                membership_ok = False
+                continue
+            batch_by_id[batch["id"]] = batch
+            slugs = batch.get("slugs")
+            if not isinstance(slugs, list) or not all(
+                isinstance(slug, str) for slug in slugs
+            ):
+                membership_ok = False
+                continue
+            flattened.extend(slugs)
+        expected_slugs = [
+            entry["slug"] for entry in _phase2_inventory_projection(inventory)
+        ]
+        membership_ok = (
+            membership_ok
+            and len(flattened) == len(set(flattened)) == EXPECTED_UNASSIGNED_COUNT
+            and set(flattened) == set(expected_slugs)
+        )
+        for batch_id, contract in ACTIVE_PHASE2A_BATCHES.items():
+            actual = batch_by_id.get(batch_id)
+            membership_ok = membership_ok and bool(
+                isinstance(actual, dict)
+                and actual.get("type") == contract["type"]
+                and actual.get("state") == "active"
+                and actual.get("slugs") == list(contract["slugs"])
+            )
+    if not membership_ok:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-assignment-membership",
+                assignment_path,
+                "Assignment membership is incomplete, duplicated, or not the fixed tranche.",
+            )
+        )
+    if assignment != expected:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-assignment-nondeterministic",
+                assignment_path,
+                "Assignment differs from deterministic regeneration.",
+            )
+        )
+    return findings
+
+
+def _read_phase2_json(path: Path, display: Path, *, missing_ok: bool = False) -> dict | None:
+    if missing_ok and not path.is_file():
+        return None
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError as error:
+        raise Phase2LoadError(
+            "phase2-baseline-missing",
+            display.as_posix(),
+            "Required Phase 2 file is missing.",
+        ) from error
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        raise Phase2LoadError(
+            "phase2-baseline-schema",
+            display.as_posix(),
+            f"Cannot read Phase 2 JSON: {error}.",
+        ) from error
+    if not isinstance(value, dict):
+        raise Phase2LoadError(
+            "phase2-baseline-schema",
+            display.as_posix(),
+            "Phase 2 JSON root must be an object.",
+        )
+    return value
+
+
+def load_phase2_batch(
+    repo_root: Path, assignment_path: Path, batch_id: str
+) -> BatchContext:
+    """Load one batch only through explicit, repo-relative paths."""
+    root = repo_root.resolve()
+    display_assignment = assignment_path.as_posix()
+    if assignment_path.is_absolute():
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            "phase2-assignment.json",
+            "Assignment path must be repo-relative.",
+        )
+    assignment_file = _resolve_phase2_path(
+        root, display_assignment, display_path="phase2-assignment.json"
+    )
+    inventory_path = assignment_path.with_name("inventory.json")
+    inventory_file = _resolve_phase2_path(
+        root, inventory_path.as_posix(), display_path=inventory_path.as_posix()
+    )
+    assignment = _read_phase2_json(assignment_file, assignment_path)
+    inventory = _read_phase2_json(inventory_file, inventory_path)
+    assert assignment is not None and inventory is not None
+    assignment_findings = validate_phase2_assignment(assignment, inventory)
+    if assignment_findings:
+        first = assignment_findings[0]
+        raise Phase2LoadError(first.code, first.path, first.message)
+    if not isinstance(batch_id, str) or not SAFE_SLUG_RE.fullmatch(batch_id):
+        raise Phase2LoadError(
+            "phase2-assignment-membership",
+            assignment_path.as_posix(),
+            "Batch id is unsafe.",
+        )
+    batch = next(
+        (
+            candidate
+            for candidate in assignment["batches"]
+            if isinstance(candidate, dict) and candidate.get("id") == batch_id
+        ),
+        None,
+    )
+    if batch is None or batch.get("state") != "active":
+        raise Phase2LoadError(
+            "phase2-assignment-membership",
+            assignment_path.as_posix(),
+            f"Unknown or inactive batch {batch_id!r}.",
+        )
+
+    report_root = assignment_path.parent
+    baseline_path = (
+        report_root / "phase2a" / "baselines" / f"{batch_id}.json"
+    )
+    evidence_path = report_root / "phase2a" / "evidence" / f"{batch_id}.json"
+    baseline_file = _resolve_phase2_path(
+        root, baseline_path.as_posix(), display_path=baseline_path.as_posix()
+    )
+    evidence_file = _resolve_phase2_path(
+        root, evidence_path.as_posix(), display_path=evidence_path.as_posix()
+    )
+    baseline = _read_phase2_json(baseline_file, baseline_path, missing_ok=True)
+    evidence = _read_phase2_json(evidence_file, evidence_path, missing_ok=True)
+    entries = {
+        entry["slug"]: entry
+        for entry in inventory["notes"]
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    note_records: dict[str, NoteRecord] = {}
+    for slug in batch["slugs"]:
+        entry = entries.get(slug)
+        if not isinstance(entry, dict):
+            raise Phase2LoadError(
+                "phase2-baseline-inventory-mismatch",
+                inventory_path.as_posix(),
+                f"Inventory is missing selected slug {slug!r}.",
+            )
+        note_file = _resolve_phase2_path(
+            root, entry.get("path"), display_path=inventory_path.as_posix()
+        )
+        try:
+            note = parse_note(note_file)
+        except (OSError, UnicodeDecodeError) as error:
+            raise Phase2LoadError(
+                "phase2-baseline-inventory-mismatch",
+                entry["path"],
+                f"Cannot read selected source note {slug!r}: {error}.",
+            ) from error
+        note_records[slug] = replace(note, path=Path(entry["path"]))
+    return BatchContext(
+        repo_root=root,
+        inventory_path=inventory_path,
+        assignment_path=assignment_path,
+        assignment=assignment,
+        batch=batch,
+        baseline_path=baseline_path,
+        baseline=baseline,
+        evidence_path=evidence_path,
+        evidence=evidence,
+        note_records=note_records,
+        generated_root=Path("data/concepts"),
+    )
+
+
+def validate_baseline_lock(context: BatchContext) -> list[Finding]:
+    findings: list[Finding] = []
+    path = context.baseline_path.as_posix()
+    baseline = context.baseline
+    if baseline is None:
+        return [
+            Finding("error", "phase2-baseline-missing", path, "Baseline lock is missing.")
+        ]
+    required = {
+        "schemaVersion",
+        "kind",
+        "batch",
+        "scope",
+        "assignmentSha256",
+        "notes",
+    }
+    if (
+        required - baseline.keys()
+        or baseline.get("schemaVersion") != 1
+        or baseline.get("kind") != "phase2-baseline-lock"
+        or baseline.get("batch") != context.batch.get("id")
+        or baseline.get("scope") != "NR"
+        or not isinstance(baseline.get("notes"), list)
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-baseline-schema",
+                path,
+                "Baseline lock shape or identity is invalid.",
+            )
+        )
+        return findings
+    digest = _canonical_sha256(baseline)
+    trusted = TRUSTED_PHASE2A_BATCH_LOCK_SHA256.get(context.batch["id"])
+    if (
+        not isinstance(trusted, str)
+        or not SHA256_RE.fullmatch(trusted)
+        or digest != trusted
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-trusted-batch-lock-mismatch",
+                path,
+                "Baseline lock does not match the code-owned batch digest.",
+            )
+        )
+    if baseline.get("assignmentSha256") != _canonical_sha256(context.assignment):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-baseline-inventory-mismatch",
+                path,
+                "Baseline assignment digest does not match the loaded assignment.",
+            )
+        )
+    inventory_file = context.repo_root / context.inventory_path
+    inventory = json.loads(inventory_file.read_text(encoding="utf-8"))
+    inventory_by_slug = {
+        entry["slug"]: entry
+        for entry in inventory.get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    baseline_notes = baseline["notes"]
+    baseline_by_slug = {
+        entry["slug"]: entry
+        for entry in baseline_notes
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    if (
+        len(baseline_notes) != len(context.batch["slugs"])
+        or list(baseline_by_slug) != context.batch["slugs"]
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-baseline-inventory-mismatch",
+                path,
+                "Baseline membership/order does not match the selected batch.",
+            )
+        )
+    for slug in context.batch["slugs"]:
+        locked = baseline_by_slug.get(slug)
+        inventory_entry = inventory_by_slug.get(slug)
+        note = context.note_records.get(slug)
+        if not all((isinstance(locked, dict), isinstance(inventory_entry, dict), note)):
+            continue
+        if _phase2_path_parts(locked.get("path")) is None:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-path-invalid",
+                    path,
+                    f"Baseline path for {slug!r} is invalid.",
+                )
+            )
+            continue
+        if any(
+            (
+                locked.get("path") != inventory_entry.get("path"),
+                locked.get("type") != inventory_entry.get("type"),
+                locked.get("type") != context.batch.get("type"),
+                locked.get("originalSha256") != inventory_entry.get("originalSha256"),
+                locked.get("summaryHeadings") != inventory_entry.get("summaryHeadings"),
+            )
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-baseline-inventory-mismatch",
+                    locked.get("path", path),
+                    f"Baseline metadata for {slug!r} differs from assignment/inventory.",
+                )
+            )
+        if locked.get("originalSha256") != note.sha256:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-source-hash-mismatch",
+                    locked.get("path", path),
+                    f"Current source hash for {slug!r} differs from the lock.",
+                )
+            )
+        if locked.get("originalSummary") != note.original_summary:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-lossless-summary-mismatch",
+                    locked.get("path", path),
+                    f"Current Summary snapshot for {slug!r} differs from the lock.",
+                )
+            )
+        facts = locked.get("factUnits")
+        if not isinstance(facts, list) or not facts:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-baseline-schema",
+                    locked.get("path", path),
+                    f"Baseline facts for {slug!r} must be a nonempty array.",
+                )
+            )
+            continue
+        expected_ids = [f"{slug}-f{index:02d}" for index in range(1, len(facts) + 1)]
+        actual_ids = [
+            fact.get("id") if isinstance(fact, dict) else None for fact in facts
+        ]
+        if actual_ids != expected_ids:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-baseline-schema",
+                    locked.get("path", path),
+                    f"Baseline fact IDs for {slug!r} are not stable/sequential.",
+                )
+            )
+    return findings
+
+
+def build_phase2_generated_manifest(repo_root: Path, batch_id: str) -> dict:
+    assignment_path = Path(
+        "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    )
+    context = load_phase2_batch(repo_root, assignment_path, batch_id)
+    detail_root = context.repo_root / context.generated_root
+    detail_files = sorted(detail_root.glob("*.json"), key=lambda item: item.name)
+    tree_entries = []
+    all_hashes = {}
+    details_by_slug = {}
+    for detail_path in detail_files:
+        slug = detail_path.stem
+        payload = detail_path.read_bytes()
+        try:
+            detail = json.loads(payload.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as error:
+            raise Phase2LoadError(
+                "generated-manifest-mismatch",
+                (context.generated_root / detail_path.name).as_posix(),
+                "Generated detail JSON is invalid.",
+            ) from error
+        if not isinstance(detail, dict) or detail.get("slug") != slug:
+            raise Phase2LoadError(
+                "generated-manifest-mismatch",
+                (context.generated_root / detail_path.name).as_posix(),
+                "Generated detail slug does not match its filename.",
+            )
+        digest = hashlib.sha256(payload).hexdigest()
+        relative = (context.generated_root / detail_path.name).as_posix()
+        all_hashes[slug] = digest
+        details_by_slug[slug] = detail
+        tree_entries.append({"path": relative, "sha256": digest})
+    selected_detail_files = {}
+    for slug in context.batch["slugs"]:
+        if slug not in all_hashes:
+            raise Phase2LoadError(
+                "generated-manifest-mismatch",
+                (context.generated_root / f"{slug}.json").as_posix(),
+                "Selected generated detail is missing.",
+            )
+        selected_detail_files[
+            (context.generated_root / f"{slug}.json").as_posix()
+        ] = all_hashes[slug]
+    index_path = Path("data/concepts-index.json")
+    index_file = context.repo_root / index_path
+    try:
+        index = json.loads(index_file.read_text(encoding="utf-8"))
+        concepts = index["concepts"]
+        if not isinstance(concepts, list):
+            raise TypeError
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError, KeyError, TypeError) as error:
+        raise Phase2LoadError(
+            "generated-manifest-mismatch",
+            index_path.as_posix(),
+            "Generated index is missing or invalid.",
+        ) from error
+    index_by_slug = {
+        entry.get("slug"): entry
+        for entry in concepts
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    if (
+        len(index_by_slug) != len(concepts)
+        or set(index_by_slug) != set(details_by_slug)
+        or any(
+            any(
+                index_by_slug[slug].get(field) != detail.get(field)
+                for field in GENERATED_INDEX_FIELDS
+            )
+            for slug, detail in details_by_slug.items()
+        )
+    ):
+        raise Phase2LoadError(
+            "generated-manifest-mismatch",
+            index_path.as_posix(),
+            "Generated index is not coherent with the complete detail tree.",
+        )
+    allowed_writes = sorted(
+        [*selected_detail_files, index_path.as_posix()]
+    )
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2-generated-manifest",
+        "batch": batch_id,
+        "selectedSlugs": list(context.batch["slugs"]),
+        "detailFiles": selected_detail_files,
+        "index": {
+            "path": index_path.as_posix(),
+            "sha256": hashlib.sha256(index_file.read_bytes()).hexdigest(),
+            "entryCount": len(concepts),
+        },
+        "detailFileCount": len(detail_files),
+        "detailTreeSha256": _canonical_sha256(tree_entries),
+        "allowedWrites": allowed_writes,
+        "secondRun": {"changedPaths": [], "mtimeChangedPaths": []},
+    }
+
+
+def validate_phase2_batch(
+    context: BatchContext, check_source_hashes: bool, check_generated: bool
+) -> list[Finding]:
+    findings = validate_baseline_lock(context)
+    evidence = context.evidence
+    path = context.evidence_path.as_posix()
+    if not isinstance(evidence, dict):
+        return findings + [
+            Finding("error", "phase2-baseline-schema", path, "Batch evidence is missing.")
+        ]
+    evidence_notes = evidence.get("notes")
+    if not isinstance(evidence_notes, list):
+        return findings + [
+            Finding("error", "phase2-baseline-schema", path, "Evidence notes must be an array.")
+        ]
+    baseline_by_slug = {
+        entry["slug"]: entry
+        for entry in (context.baseline or {}).get("notes", [])
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    unresolved = []
+    for entry in evidence_notes:
+        if not isinstance(entry, dict) or not isinstance(entry.get("slug"), str):
+            findings.append(
+                Finding("error", "evidence-fact-coverage", path, "Malformed evidence note.")
+            )
+            continue
+        slug = entry["slug"]
+        locked = baseline_by_slug.get(slug, {})
+        expected_ids = [
+            fact.get("id")
+            for fact in locked.get("factUnits", [])
+            if isinstance(fact, dict)
+        ]
+        facts = entry.get("facts")
+        actual_ids = [
+            fact.get("id")
+            for fact in facts
+            if isinstance(fact, dict)
+        ] if isinstance(facts, list) else []
+        if actual_ids != expected_ids:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-fact-coverage",
+                    path,
+                    f"Evidence fact IDs for {slug!r} differ from baseline.",
+                )
+            )
+        definitions = entry.get("sourceDefinitions")
+        definitions = definitions if isinstance(definitions, dict) else {}
+        for fact in facts if isinstance(facts, list) else []:
+            if not isinstance(fact, dict):
+                continue
+            disposition = fact.get("disposition")
+            if disposition not in {"covered", "research-needed", "manual-review"}:
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-fact-coverage",
+                        path,
+                        f"Unsupported disposition for {fact.get('id')!r}.",
+                    )
+                )
+            if disposition in {"research-needed", "manual-review"}:
+                unresolved.append(fact.get("id"))
+            refs = fact.get("sourceRefs")
+            if not isinstance(refs, list) or not refs or any(
+                ref not in definitions for ref in refs
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "evidence-source-definition",
+                        path,
+                        f"Evidence sources for {fact.get('id')!r} are incomplete.",
+                    )
+                )
+        if entry.get("newUnsupportedFacts") != 0:
+            findings.append(
+                Finding(
+                    "error",
+                    "evidence-unsupported-fact",
+                    path,
+                    f"Evidence note {slug!r} has unsupported rewritten facts.",
+                )
+            )
+    if evidence.get("manualReviewFactIds") != sorted(unresolved):
+        findings.append(
+            Finding(
+                "error",
+                "phase2-manual-queue-mismatch",
+                path,
+                "Manual queue is not the derived sorted unresolved fact IDs.",
+            )
+        )
+    workflow = evidence.get("workflow")
+    if isinstance(workflow, dict):
+        if (
+            workflow.get("implementer")
+            and workflow.get("implementer") == workflow.get("reviewer")
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-reviewer-conflict",
+                    path,
+                    "Implementer and reviewer must be different identities.",
+                )
+            )
+    if check_generated:
+        for slug, note in context.note_records.items():
+            detail_path = context.generated_root / f"{slug}.json"
+            try:
+                detail = json.loads(
+                    (context.repo_root / detail_path).read_text(encoding="utf-8")
+                )
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+                detail = None
+            if (
+                not isinstance(detail, dict)
+                or detail.get("keyPoints") != _generated_keypoints(note)
+            ):
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-keypoints-mismatch",
+                        detail_path.as_posix(),
+                        f"Generated keyPoints for {slug!r} differ from Summary bullets.",
+                    )
+                )
+        try:
+            actual = build_phase2_generated_manifest(
+                context.repo_root, context.batch["id"]
+            )
+            manifest_path = Path(str(evidence.get("generatedManifest", "")))
+            if manifest_path.as_posix() != (
+                Path("docs/reports/nr-summary-rewrite/phase2a/generated")
+                / f"{context.batch['id']}.json"
+            ).as_posix():
+                raise Phase2LoadError(
+                    "generated-manifest-mismatch",
+                    path,
+                    "Evidence generated manifest path is invalid.",
+                )
+            checked = _read_phase2_json(
+                context.repo_root / manifest_path, manifest_path
+            )
+            if checked != actual:
+                findings.append(
+                    Finding(
+                        "error",
+                        "generated-manifest-mismatch",
+                        manifest_path.as_posix(),
+                        "Checked-in generated manifest differs from current outputs.",
+                    )
+                )
+        except Phase2LoadError as error:
+            findings.append(error.finding())
+    return findings
 
 
 def _parse_frontmatter_array(frontmatter: str, key: str) -> tuple[str, ...]:
@@ -3136,10 +4002,29 @@ def build_parser() -> argparse.ArgumentParser:
     validate_note = commands.add_parser("validate-note", help="Validate one concept note.")
     validate_note.add_argument("path", type=Path)
 
+    validate_assignment = commands.add_parser(
+        "validate-assignment",
+        help="Validate a Phase 2 assignment through an explicit repository root.",
+    )
+    validate_assignment.add_argument("--repo-root", type=Path, required=True)
+    validate_assignment.add_argument("--inventory", required=True)
+    validate_assignment.add_argument("--assignment", required=True)
+
+    validate_baseline = commands.add_parser(
+        "validate-baseline",
+        help="Validate one Phase 2 baseline lock.",
+    )
+    validate_baseline.add_argument("--repo-root", type=Path, required=True)
+    validate_baseline.add_argument("--assignment", required=True)
+    validate_baseline.add_argument("--batch", required=True)
+
     validate_batch = commands.add_parser(
         "validate-batch", help="Validate a source-mapped batch evidence report."
     )
-    validate_batch.add_argument("path", type=Path)
+    validate_batch.add_argument("path", type=Path, nargs="?")
+    validate_batch.add_argument("--repo-root", type=Path)
+    validate_batch.add_argument("--assignment")
+    validate_batch.add_argument("--batch")
     validate_batch.add_argument(
         "--allow-pending",
         action="store_true",
@@ -3150,6 +4035,7 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Run the explicit pre-edit source hash and lossless Summary snapshot gate.",
     )
+    validate_batch.add_argument("--check-generated", action="store_true")
     return parser
 
 
@@ -3211,7 +4097,86 @@ def main(argv: Sequence[str] | None = None) -> int:
         findings = validate_summary(parse_note(args.path))
         _print_findings(findings)
         return 1 if _findings_have_errors(findings) else 0
+    if args.command == "validate-assignment":
+        try:
+            inventory_file = _resolve_phase2_path(
+                args.repo_root,
+                args.inventory,
+                display_path=args.inventory,
+            )
+            assignment_file = _resolve_phase2_path(
+                args.repo_root,
+                args.assignment,
+                display_path=args.assignment,
+            )
+            inventory = _read_phase2_json(
+                inventory_file, Path(args.inventory)
+            )
+            assignment = _read_phase2_json(
+                assignment_file, Path(args.assignment)
+            )
+            assert inventory is not None and assignment is not None
+            findings = validate_phase2_assignment(assignment, inventory)
+        except Phase2LoadError as error:
+            findings = [error.finding()]
+        _print_findings(findings)
+        return 1 if _findings_have_errors(findings) else 0
+    if args.command == "validate-baseline":
+        try:
+            if _phase2_path_parts(args.assignment) is None:
+                raise Phase2LoadError(
+                    "phase2-path-invalid",
+                    "phase2-assignment.json",
+                    "--assignment must be a repo-relative POSIX path.",
+                )
+            context = load_phase2_batch(
+                args.repo_root, Path(args.assignment), args.batch
+            )
+            findings = validate_baseline_lock(context)
+        except Phase2LoadError as error:
+            findings = [error.finding()]
+        _print_findings(findings)
+        return 1 if _findings_have_errors(findings) else 0
     if args.command == "validate-batch":
+        explicit_phase2 = any((args.repo_root, args.assignment, args.batch))
+        if explicit_phase2:
+            try:
+                if not all((args.repo_root, args.assignment, args.batch)):
+                    raise Phase2LoadError(
+                        "phase2-path-invalid",
+                        "phase2-assignment.json",
+                        "Phase 2 validation requires --repo-root, --assignment, and --batch.",
+                    )
+                if _phase2_path_parts(args.assignment) is None:
+                    raise Phase2LoadError(
+                        "phase2-path-invalid",
+                        "phase2-assignment.json",
+                        "--assignment must be a repo-relative POSIX path.",
+                    )
+                context = load_phase2_batch(
+                    args.repo_root, Path(args.assignment), args.batch
+                )
+                findings = validate_phase2_batch(
+                    context,
+                    check_source_hashes=args.check_source_hashes,
+                    check_generated=args.check_generated,
+                )
+            except Phase2LoadError as error:
+                findings = [error.finding()]
+            _print_findings(findings)
+            return 1 if _findings_have_errors(findings) else 0
+        if args.path is None:
+            _print_findings(
+                [
+                    Finding(
+                        "error",
+                        "evidence-json-invalid",
+                        "batch.json",
+                        "Legacy validation requires a batch evidence path.",
+                    )
+                ]
+            )
+            return 1
         try:
             report = json.loads(args.path.read_text(encoding="utf-8"))
         except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
