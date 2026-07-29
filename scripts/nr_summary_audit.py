@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import re
+from copy import deepcopy
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Iterable, Mapping, Sequence
@@ -36,6 +37,7 @@ PHASE2_RUN_ID_RE = re.compile(r"^/root(?:/[a-z0-9_]+)+$")
 NOTE_TYPES = {"disease", "pattern-ddx", "anatomy-measurement-management"}
 NOTE_STATUSES = {
     "pending",
+    "scheduled-not-started",
     "rewritten",
     "unchanged",
     "research-needed",
@@ -450,6 +452,16 @@ def _is_string_member(value: object, allowed: set[str] | frozenset[str]) -> bool
     return isinstance(value, str) and value in allowed
 
 
+def _is_inventory_batch(value: object) -> bool:
+    if not isinstance(value, str):
+        return False
+    if value in PHASE_1_BATCHES or value in ACTIVE_PHASE2A_BATCHES:
+        return True
+    return re.fullmatch(
+        r"scheduled-(?:anatomy|disease|pattern)-[0-9]{2}", value
+    ) is not None
+
+
 @dataclass(frozen=True)
 class SummarySection:
     heading: str
@@ -661,6 +673,70 @@ def build_phase2_assignment(inventory: dict) -> dict:
     }
 
 
+def build_phase2_assignment_bytes(inventory: dict) -> bytes:
+    """Return deterministic checked-file bytes for an inventory-derived assignment."""
+    assignment = build_phase2_assignment(inventory)
+    return (
+        json.dumps(assignment, ensure_ascii=False, indent=2) + "\n"
+    ).encode("utf-8")
+
+
+def synchronize_phase2_inventory(inventory: dict, assignment: dict) -> dict:
+    """Return an inventory copy synchronized to a deterministic assignment."""
+    expected = build_phase2_assignment(inventory)
+    if assignment != expected:
+        raise ValueError("Assignment must equal deterministic inventory regeneration.")
+    batch_by_slug = {
+        slug: batch["id"]
+        for batch in assignment["batches"]
+        for slug in batch["slugs"]
+    }
+    synchronized = deepcopy(inventory)
+    for entry in synchronized["notes"]:
+        slug = entry["slug"]
+        if slug in PILOT_SLUGS:
+            continue
+        entry["batch"] = batch_by_slug[slug]
+        entry["status"] = "scheduled-not-started"
+    return synchronized
+
+
+def phase2_assignment_counts(assignment: dict, inventory: dict) -> dict[str, int]:
+    """Summarize the checked assignment/inventory arithmetic."""
+    inventory_notes = inventory.get("notes", []) if isinstance(inventory, dict) else []
+    batches = assignment.get("batches", []) if isinstance(assignment, dict) else []
+    pilot = sum(
+        isinstance(entry, dict) and entry.get("slug") in PILOT_SLUGS
+        for entry in inventory_notes
+    )
+    active = sum(
+        len(batch.get("slugs", []))
+        for batch in batches
+        if isinstance(batch, dict) and batch.get("state") == "active"
+    )
+    scheduled = sum(
+        len(batch.get("slugs", []))
+        for batch in batches
+        if isinstance(batch, dict) and batch.get("state") == "scheduled"
+    )
+    return {
+        "total": len(inventory_notes),
+        "pilot": pilot,
+        "nonPilot": active + scheduled,
+        "active": active,
+        "scheduled": scheduled,
+    }
+
+
+def _print_phase2_assignment_counts(assignment: dict, inventory: dict) -> None:
+    counts = phase2_assignment_counts(assignment, inventory)
+    print(f"NR total: {counts['total']}")
+    print(f"Phase 1 pilots: {counts['pilot']}")
+    print(f"Phase 2 non-pilots: {counts['nonPilot']}")
+    print(f"Phase 2A active: {counts['active']}")
+    print(f"Scheduled: {counts['scheduled']}")
+
+
 def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Finding]:
     """Return stable assignment findings without consulting cwd or checkout identity."""
     findings: list[Finding] = []
@@ -747,6 +823,31 @@ def validate_phase2_assignment(assignment: dict, inventory: dict) -> list[Findin
                 "Assignment inventory projection digest does not match inventory.",
             )
         )
+
+    expected_batch_by_slug = {
+        slug: batch["id"]
+        for batch in expected["batches"]
+        for slug in batch["slugs"]
+    }
+    if isinstance(inventory_notes, list):
+        inventory_synchronized = all(
+            not isinstance(entry, dict)
+            or entry.get("slug") in PILOT_SLUGS
+            or (
+                entry.get("batch") == expected_batch_by_slug.get(entry.get("slug"))
+                and entry.get("status") == "scheduled-not-started"
+            )
+            for entry in inventory_notes
+        )
+        if not inventory_synchronized:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-assignment-inventory-mismatch",
+                    "docs/reports/nr-summary-rewrite/inventory.json",
+                    "Non-pilot inventory batch/status must match the checked assignment.",
+                )
+            )
 
     batches = assignment.get("batches")
     membership_ok = isinstance(batches, list)
@@ -4229,17 +4330,26 @@ def validate_inventory(inventory: object) -> list[Finding]:
         isinstance(entry, dict) and entry.get("batch") == "unassigned"
         for entry in entries
     )
-    if (
-        batch_00_count != EXPECTED_BATCH_00_COUNT
-        or unassigned_count != EXPECTED_UNASSIGNED_COUNT
-    ):
+    assigned_count = len(entries) - batch_00_count - unassigned_count
+    phase1_split = (
+        batch_00_count == EXPECTED_BATCH_00_COUNT
+        and unassigned_count == EXPECTED_UNASSIGNED_COUNT
+        and assigned_count == 0
+    )
+    phase2_split = (
+        batch_00_count == EXPECTED_BATCH_00_COUNT
+        and unassigned_count == 0
+        and assigned_count == EXPECTED_UNASSIGNED_COUNT
+    )
+    if not (phase1_split or phase2_split):
         findings.append(
             _inventory_finding(
                 "inventory-batch-counts",
                 "inventory.json",
                 (
-                    f"Phase 1 inventory must split into {EXPECTED_BATCH_00_COUNT} "
-                    f"batch-00 and {EXPECTED_UNASSIGNED_COUNT} unassigned notes."
+                    f"Inventory must have {EXPECTED_BATCH_00_COUNT} batch-00 "
+                    f"pilots and either {EXPECTED_UNASSIGNED_COUNT} unassigned "
+                    "or assigned non-pilots."
                 ),
             )
         )
@@ -4302,12 +4412,12 @@ def validate_inventory(inventory: object) -> list[Finding]:
                     f"Unsupported source status: {entry.get('sourceStatus')!r}.",
                 )
             )
-        if not _is_string_member(entry.get("batch"), PHASE_1_BATCHES):
+        if not _is_inventory_batch(entry.get("batch")):
             findings.append(
                 _inventory_finding(
                     "inventory-batch",
                     path,
-                    f"Unsupported Phase 1 batch: {entry.get('batch')!r}.",
+                    f"Unsupported inventory batch: {entry.get('batch')!r}.",
                 )
             )
         if not isinstance(entry.get("originalSha256"), str) or not SHA256_RE.fullmatch(
@@ -4989,7 +5099,31 @@ def main(argv: Sequence[str] | None = None) -> int:
                 report,
                 notes,
             )
-            if report != expected:
+            checked_expected = expected
+            assignment_path = args.output.with_name("phase2-assignment.json")
+            if assignment_path.is_file():
+                try:
+                    assignment = json.loads(
+                        assignment_path.read_text(encoding="utf-8")
+                    )
+                except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+                    findings.append(
+                        Finding(
+                            "error",
+                            "phase2-assignment-membership",
+                            assignment_path.as_posix(),
+                            f"Cannot read Phase 2 assignment JSON: {error}.",
+                        )
+                    )
+                else:
+                    expected_assignment = build_phase2_assignment(expected)
+                    checked_expected = synchronize_phase2_inventory(
+                        expected, expected_assignment
+                    )
+                    findings.extend(
+                        validate_phase2_assignment(assignment, report)
+                    )
+            if report != checked_expected:
                 findings.append(
                     _inventory_finding(
                         "inventory-not-deterministic",
@@ -5019,6 +5153,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         _print_findings(findings)
         return 1 if _findings_have_errors(findings) else 0
     if args.command == "validate-assignment":
+        inventory = None
+        assignment = None
         try:
             inventory_file = _resolve_phase2_path(
                 args.repo_root,
@@ -5040,6 +5176,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             findings = validate_phase2_assignment(assignment, inventory)
         except Phase2LoadError as error:
             findings = [error.finding()]
+        if isinstance(inventory, dict) and isinstance(assignment, dict):
+            _print_phase2_assignment_counts(assignment, inventory)
         _print_findings(findings)
         return 1 if _findings_have_errors(findings) else 0
     if args.command == "validate-baseline":

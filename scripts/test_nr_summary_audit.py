@@ -512,6 +512,7 @@ def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> 
             NR_DEMO_TEXT.encode("utf-8")
         ).hexdigest()
     assignment = audit.build_phase2_assignment(inventory)
+    inventory = audit.synchronize_phase2_inventory(inventory, assignment)
     assignment_path = report_root / "phase2-assignment.json"
     inventory_path = report_root / "inventory.json"
     assignment_path.write_text(json.dumps(assignment), encoding="utf-8")
@@ -836,7 +837,8 @@ def test_phase2_assignment_is_complete_deterministic_and_validated() -> None:
 
     assert first == second
     assert canonical_sha256(first) == canonical_sha256(second)
-    assert audit.validate_phase2_assignment(first, inventory) == []
+    synchronized = audit.synchronize_phase2_inventory(inventory, first)
+    assert audit.validate_phase2_assignment(first, synchronized) == []
     assert [batch["id"] for batch in active] == [
         "batch-01-anatomy",
         "batch-02-disease",
@@ -853,9 +855,136 @@ def test_phase2_assignment_is_complete_deterministic_and_validated() -> None:
     )
 
 
+def test_phase2_assignment_rejects_inventory_batch_status_sync_mismatch() -> None:
+    inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+    assignment_by_slug = {
+        slug: batch["id"]
+        for batch in assignment["batches"]
+        for slug in batch["slugs"]
+    }
+    for entry in inventory["notes"]:
+        if entry["slug"] in audit.PILOT_SLUGS:
+            continue
+        entry["batch"] = assignment_by_slug[entry["slug"]]
+        entry["status"] = "scheduled-not-started"
+
+    mismatched = next(
+        entry for entry in inventory["notes"] if entry["slug"] not in audit.PILOT_SLUGS
+    )
+    mismatched["batch"] = "unassigned"
+    mismatched["status"] = "pending"
+
+    codes = {
+        finding.code
+        for finding in audit.validate_phase2_assignment(assignment, inventory)
+    }
+
+    assert "phase2-assignment-inventory-mismatch" in codes
+
+
+def test_phase2_inventory_synchronization_preserves_pilots_and_immutable_content() -> None:
+    inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+    original_by_slug = {
+        entry["slug"]: deepcopy(entry) for entry in inventory["notes"]
+    }
+    pilot_before = [
+        deepcopy(entry)
+        for entry in inventory["notes"]
+        if entry["slug"] in audit.PILOT_SLUGS
+    ]
+    synchronize = getattr(
+        audit,
+        "synchronize_phase2_inventory",
+        lambda _inventory, _assignment: {},
+    )
+
+    synchronized = synchronize(inventory, assignment)
+
+    assert len(synchronized["notes"]) == 216
+    pilot_after = [
+        entry
+        for entry in synchronized["notes"]
+        if entry["slug"] in audit.PILOT_SLUGS
+    ]
+    assert canonical_sha256(pilot_after) == canonical_sha256(pilot_before)
+    assignment_by_slug = {
+        slug: batch["id"]
+        for batch in assignment["batches"]
+        for slug in batch["slugs"]
+    }
+    for entry in synchronized["notes"]:
+        original = original_by_slug[entry["slug"]]
+        if entry["slug"] in audit.PILOT_SLUGS:
+            assert entry == original
+            continue
+        assert entry["batch"] == assignment_by_slug[entry["slug"]]
+        assert entry["status"] == "scheduled-not-started"
+        assert {
+            key: value
+            for key, value in entry.items()
+            if key not in {"batch", "status"}
+        } == {
+            key: value
+            for key, value in original.items()
+            if key not in {"batch", "status"}
+        }
+
+
+def test_phase2_assignment_regeneration_emits_canonical_identical_bytes() -> None:
+    inventory = phase2_inventory_fixture()
+    build_bytes = getattr(
+        audit,
+        "build_phase2_assignment_bytes",
+        lambda _inventory: b"",
+    )
+
+    first = build_bytes(inventory)
+    second = build_bytes(deepcopy(inventory))
+
+    assert first == second
+    assert first.endswith(b"\n")
+    assert json.loads(first) == audit.build_phase2_assignment(inventory)
+
+
+def test_phase2_assignment_counts_are_exact_for_synchronized_production() -> None:
+    inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+    synchronize = getattr(
+        audit,
+        "synchronize_phase2_inventory",
+        lambda _inventory, _assignment: {},
+    )
+    count_assignment = getattr(
+        audit,
+        "phase2_assignment_counts",
+        lambda _assignment, _inventory: {},
+    )
+
+    synchronized = synchronize(inventory, assignment)
+
+    assert count_assignment(assignment, synchronized) == {
+        "total": 216,
+        "pilot": 10,
+        "nonPilot": 206,
+        "active": 30,
+        "scheduled": 176,
+    }
+
+
+def test_phase2_synchronized_inventory_satisfies_closed_inventory_schema() -> None:
+    source_inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(source_inventory)
+    synchronized = audit.synchronize_phase2_inventory(source_inventory, assignment)
+
+    assert audit.validate_inventory(synchronized) == []
+
+
 def test_phase2_assignment_reports_stable_inventory_membership_order_and_path_codes() -> None:
     inventory = phase2_inventory_fixture()
     assignment = audit.build_phase2_assignment(inventory)
+    inventory = audit.synchronize_phase2_inventory(inventory, assignment)
 
     changed_inventory = deepcopy(inventory)
     changed_entry = next(
@@ -900,8 +1029,70 @@ def test_phase2_assignment_reports_stable_inventory_membership_order_and_path_co
     }
 
 
+def test_phase2_checked_assignment_rejects_duplicate_missing_and_type_drift() -> None:
+    source_inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(source_inventory)
+    inventory = audit.synchronize_phase2_inventory(source_inventory, assignment)
+
+    duplicate_and_missing = deepcopy(assignment)
+    scheduled = next(
+        batch
+        for batch in duplicate_and_missing["batches"]
+        if batch["state"] == "scheduled"
+    )
+    scheduled["slugs"][1] = scheduled["slugs"][0]
+    assert "phase2-assignment-membership" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(
+            duplicate_and_missing, inventory
+        )
+    }
+
+    mixed_type = deepcopy(assignment)
+    anatomy = next(
+        batch
+        for batch in mixed_type["batches"]
+        if batch["state"] == "scheduled"
+        and batch["type"] == "anatomy-measurement-management"
+    )
+    disease = next(
+        batch
+        for batch in mixed_type["batches"]
+        if batch["state"] == "scheduled" and batch["type"] == "disease"
+    )
+    anatomy["slugs"][0], disease["slugs"][0] = (
+        disease["slugs"][0],
+        anatomy["slugs"][0],
+    )
+    assert "phase2-assignment-nondeterministic" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(mixed_type, inventory)
+    }
+
+    type_drift = deepcopy(inventory)
+    active_slugs = {
+        slug
+        for contract in audit.ACTIVE_PHASE2A_BATCHES.values()
+        for slug in contract["slugs"]
+    }
+    drifted = next(
+        entry
+        for entry in type_drift["notes"]
+        if entry["slug"] not in audit.PILOT_SLUGS
+        and entry["slug"] not in active_slugs
+        and entry["type"] == "disease"
+    )
+    drifted["type"] = "pattern-ddx"
+    assert "phase2-assignment-inventory-mismatch" in {
+        finding.code
+        for finding in audit.validate_phase2_assignment(assignment, type_drift)
+    }
+
+
 def test_phase2_assignment_rejects_mutable_pilot_nonpilot_batch_swap() -> None:
     inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+    inventory = audit.synchronize_phase2_inventory(inventory, assignment)
     pilot = next(
         entry for entry in inventory["notes"] if entry["slug"] in audit.PILOT_SLUGS
     )
@@ -935,6 +1126,7 @@ def test_phase2_assignment_rejects_mutable_pilot_nonpilot_batch_swap() -> None:
 def test_phase2_assignment_rejects_duplicate_pilot_and_217_rows() -> None:
     inventory = phase2_inventory_fixture()
     valid_assignment = audit.build_phase2_assignment(inventory)
+    inventory = audit.synchronize_phase2_inventory(inventory, valid_assignment)
     duplicate = deepcopy(
         next(
             entry
@@ -1058,6 +1250,7 @@ def test_phase2_explicit_root_assignment_cli_matches_relocated_checkout() -> Non
             report_root.mkdir(parents=True)
             inventory = phase2_inventory_fixture()
             assignment = audit.build_phase2_assignment(inventory)
+            inventory = audit.synchronize_phase2_inventory(inventory, assignment)
             (report_root / "inventory.json").write_text(
                 json.dumps(inventory), encoding="utf-8"
             )
@@ -1081,6 +1274,11 @@ def test_phase2_explicit_root_assignment_cli_matches_relocated_checkout() -> Non
 
     assert outputs[0] == outputs[1]
     assert outputs[0][0] == 0
+    assert "NR total: 216" in outputs[0][1]
+    assert "Phase 1 pilots: 10" in outputs[0][1]
+    assert "Phase 2 non-pilots: 206" in outputs[0][1]
+    assert "Phase 2A active: 30" in outputs[0][1]
+    assert "Scheduled: 176" in outputs[0][1]
 
 
 def test_phase2_baseline_batch_cli_and_generated_keypoints_gate() -> None:

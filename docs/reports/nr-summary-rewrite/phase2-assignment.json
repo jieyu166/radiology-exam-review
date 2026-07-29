@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "scope": "NR",
+  "phase": "2",
+  "sourceInventorySha256": "9a343b0184256033228ce42aa5ba9507e37a9dc4c8843b76c0cdf14030eadd9b",
+  "batchSize": 10,
+  "activeBatchIds": [
+    "batch-01-anatomy",
+    "batch-02-disease",
+    "batch-03-pattern"
+  ],
+  "batches": [
+    {
+      "id": "batch-01-anatomy",
+      "ordinal": 1,
+      "type": "anatomy-measurement-management",
+      "state": "active",
+      "slugs": [
+        "ajcc-8th-head-neck-n-staging",
+        "aneurysm-coiling-recurrence",
+        "atlantodental-interval",
+        "brachial-plexus-anatomy",
+        "brain-herniation-syndromes",
+        "carotid-vertebrobasilar-anastomoses",
+        "cerebral-border-zone-infarct-arteries",
+        "cerebral-deep-venous-cortex",
+        "cerebral-herniation-types",
+        "cerebral-infarction-evolution"
+      ]
+    },
+    {
+      "id": "batch-02-disease",
+      "ordinal": 2,
+      "type": "disease",
+      "state": "active",
+      "slugs": [
+        "2-hydroxyglutarate-idh-mutant-glioma",
+        "adrenoleukodystrophy",
+        "aicardi-syndrome",
+        "als-imaging",
+        "angioinvasive-aspergillosis",
+        "anti-nmda-encephalitis",
+        "arterial-dissection-mri",
+        "atypical-teratoid-rhabdoid-tumor",
+        "autoimmune-encephalitis",
+        "basilar-artery-occlusion"
+      ]
+    },
+    {
+      "id": "batch-03-pattern",
+      "ordinal": 3,
+      "type": "pattern-ddx",
+      "state": "active",
+      "slugs": [
+        "brain-tumor-imaging",
+        "cerebral-infarction-fogging",
+        "cerebral-microbleeds",
+        "cerebrovascular-malformations",
+        "chemical-shift-artifact",
+        "cns-opportunistic-infection",
+        "cranial-nerve-muscle-atrophy",
+        "dural-based-masses-aids",
+        "facial-fracture-complications",
+        "gbm-vs-pcnsl"
+      ]
+    },
+    {
+      "id": "scheduled-anatomy-01",
+      "ordinal": 4,
+      "type": "anatomy-measurement-management",
+      "state": "scheduled",
+      "slugs": [
+        "cerebral-venous-system",
+        "cervical-nerve-root-dermatome",
+        "ct-venography",
+        "gre-hemorrhage-detection",
+        "guillain-mollaret-triangle",
+        "hypothalamic-anatomy",
+        "ia-thrombectomy-stroke-window",
+        "ica-dissection-sites",
+        "ich-score",
+        "inferolateral-trunk-branches"
+      ]
+    },
+    {
+      "id": "scheduled-anatomy-02",
+      "ordinal": 5,
+      "type": "anatomy-measurement-management",
+      "state": "scheduled",
+      "slugs": [
+        "intra-arterial-thrombectomy",
+        "ischemic-stroke-imaging-timeline",
+        "larynx-hypopharynx-subsite-anatomy",
+        "lenticulostriate-arteries",
+        "machine-learning-radiomics-basics",
+        "masticator-space",
+        "mcdonald-ms-criteria",
+        "meninges-anatomy",
+        "meningioma-recurrence",
+        "mr-elastography-brain"
+      ]
+    },
+    {
+      "id": "scheduled-anatomy-03",
+      "ordinal": 6,
+      "type": "anatomy-measurement-management",
+      "state": "scheduled",
+      "slugs": [
+        "mr-spectroscopy-brain",
+        "mri-vessel-wall-imaging",
+        "normal-myelination-pattern",
+        "oral-cavity-cancer-ajcc-staging",
+        "pca-branches",
+        "persistent-stapedial-artery",
+        "posterior-cerebral-artery-branches",
+        "pterygopalatine-fossa",
+        "retropharyngeal-space",
+        "spetzler-martin-avm"
+      ]
+    },
+    {
+      "id": "scheduled-anatomy-04",
+      "ordinal": 7,
+      "type": "anatomy-measurement-management",
+      "state": "scheduled",
+      "slugs": [
+        "sphenoparietal-sinus",
+        "spinal-metastasis-pathways",
+        "superior-orbital-fissure",
+        "temporal-bone-trauma-ossicular",
+        "temporomandibular-joint-disorder-mri",
+        "thyroid-cancer-tnm-staging",
+        "thyroid-rfa",
+        "who-cns-tumor-grading",
+        "xenon-ct-perfusion"
+      ]
+    },
+    {
+      "id": "scheduled-disease-01",
+      "ordinal": 8,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "behcet-disease-neuro",
+        "brain-abscess",
+        "brain-metastasis-mri",
+        "capillary-telangiectasia",
+        "cardioembolic-stroke",
+        "carotid-cavernous-fistula",
+        "cavernous-sinus-schwannoma",
+        "central-neurocytoma",
+        "cerebral-cavernous-malformation",
+        "cerebral-proliferative-angiopathy"
+      ]
+    },
+    {
+      "id": "scheduled-disease-02",
+      "ordinal": 9,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "cerebral-pseudoaneurysm",
+        "cerebral-venous-thrombosis-mri",
+        "cervical-radiculopathy",
+        "chiari-malformation",
+        "cholesterol-granuloma-petrous-apex",
+        "cns-germinoma",
+        "colloid-cyst",
+        "congenital-aural-atresia",
+        "corpus-callosum-agenesis-signs",
+        "corpus-callosum-dysgenesis"
+      ]
+    },
+    {
+      "id": "scheduled-disease-03",
+      "ordinal": 10,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "covid-19-brain-mri",
+        "craniosynostosis-suture-fusion",
+        "cri-du-chat-syndrome",
+        "dandy-walker-malformation",
+        "dural-av-fistula",
+        "dural-avf",
+        "dural-venous-sinus-thrombosis",
+        "eac-exostoses",
+        "empty-sella",
+        "ependymoma"
+      ]
+    },
+    {
+      "id": "scheduled-disease-04",
+      "ordinal": 11,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "ev71-cns-complications",
+        "fabry-disease-pulvinar",
+        "facial-nerve-schwannoma",
+        "fahr-disease",
+        "fibromuscular-dysplasia",
+        "gbm",
+        "glomus-jugulare",
+        "glutaric-aciduria-type1",
+        "head-melanoma-mri-signal",
+        "hemangioblastoma"
+      ]
+    },
+    {
+      "id": "scheduled-disease-05",
+      "ordinal": 12,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "hemichorea-hemiballism",
+        "hemimegalencephaly",
+        "hepatic-encephalopathy-manganese-deposition",
+        "herpes-simplex-encephalitis",
+        "hypertensive-hemorrhage",
+        "hypothalamic-hamartoma",
+        "hypoxic-ischemic-encephalopathy",
+        "iatrogenic-femoral-pseudoaneurysm",
+        "idiopathic-intracranial-hypertension",
+        "incomplete-spinal-cord-syndrome"
+      ]
+    },
+    {
+      "id": "scheduled-disease-06",
+      "ordinal": 13,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "intracranial-lipoma",
+        "joubert-syndrome",
+        "lacunar-infarction",
+        "large-vestibular-aqueduct",
+        "lemierre-syndrome",
+        "lipomyelomeningocele",
+        "men1",
+        "metachromatic-leukodystrophy",
+        "methanol-toxicity",
+        "moyamoya"
+      ]
+    },
+    {
+      "id": "scheduled-disease-07",
+      "ordinal": 14,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "moyamoya-disease",
+        "mucormycosis",
+        "multinodular-vacuolating-neuronal-tumor",
+        "multiple-sclerosis-imaging",
+        "neurocutaneous-melanosis",
+        "neurofibromatosis-type-1",
+        "neuromyelitis-optica",
+        "neuropsychiatric-sle",
+        "normal-pressure-hydrocephalus",
+        "npsle-imaging"
+      ]
+    },
+    {
+      "id": "scheduled-disease-08",
+      "ordinal": 15,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "odontoid-fracture",
+        "opscc-hpv",
+        "optic-nerve-meningioma",
+        "optic-nerve-sheath-meningioma",
+        "otosclerosis",
+        "parathyroid-adenoma",
+        "pediatric-lgg-genetics",
+        "pediatric-meningitis",
+        "pelizaeus-merzbacher-disease",
+        "perimesencephalic-sah"
+      ]
+    },
+    {
+      "id": "scheduled-disease-09",
+      "ordinal": 16,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "pilocytic-astrocytoma",
+        "pituicytoma",
+        "pituitary-macroadenoma",
+        "pres",
+        "psp-imaging-signs",
+        "ra-cervical-spine",
+        "radiation-induced-hypopituitarism",
+        "remote-cerebellar-hemorrhage",
+        "retinoblastoma",
+        "rhombencephalosynapsis"
+      ]
+    },
+    {
+      "id": "scheduled-disease-10",
+      "ordinal": 17,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "schwannomatosis",
+        "sciwora",
+        "second-impact-syndrome",
+        "skull-base-osteomyelitis",
+        "solitary-fibrous-tumor-hemangiopericytoma",
+        "spinal-cord-astrocytoma",
+        "spinal-ewing-sarcoma",
+        "spondylodiscitis",
+        "spontaneous-intracranial-hypotension",
+        "spontaneous-skull-base-cephalocele"
+      ]
+    },
+    {
+      "id": "scheduled-disease-11",
+      "ordinal": 18,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "sturge-weber-syndrome",
+        "subacute-combined-degeneration",
+        "subdural-empyema",
+        "subependymoma",
+        "superficial-siderosis",
+        "takayasu-arteritis",
+        "temporal-bone-fracture",
+        "trigeminal-neuralgia-neurovascular-compression",
+        "tuberous-sclerosis",
+        "tumefactive-demyelinating-lesion"
+      ]
+    },
+    {
+      "id": "scheduled-disease-12",
+      "ordinal": 19,
+      "type": "disease",
+      "state": "scheduled",
+      "slugs": [
+        "vertebrobasilar-dolichoectasia",
+        "wyburn-mason-syndrome"
+      ]
+    },
+    {
+      "id": "scheduled-pattern-01",
+      "ordinal": 20,
+      "type": "pattern-ddx",
+      "state": "scheduled",
+      "slugs": [
+        "hair-on-end-skull",
+        "intracranial-cystic-lesions",
+        "intracranial-germ-cell-tumors",
+        "intramedullary-spinal-tumors",
+        "intraventricular-tumors",
+        "lysosomal-storage-disorders-cns",
+        "medulloblastoma-molecular-subgroups",
+        "mucopolysaccharidosis-imaging",
+        "multiple-hypodense-brain-lesions",
+        "non-sah-vasospasm"
+      ]
+    },
+    {
+      "id": "scheduled-pattern-02",
+      "ordinal": 21,
+      "type": "pattern-ddx",
+      "state": "scheduled",
+      "slugs": [
+        "paraneoplastic-syndromes-brain",
+        "pediatric-head-neck-infections",
+        "posterior-fossa-malformations",
+        "posterior-fossa-neoplasm-by-age",
+        "radiation-induced-changes",
+        "radiation-necrosis-vs-tumor-recurrence",
+        "rapidly-progressive-dementia",
+        "relapsing-remitting-cns",
+        "sellar-parasellar-lesions",
+        "spinal-avm"
+      ]
+    },
+    {
+      "id": "scheduled-pattern-03",
+      "ordinal": 22,
+      "type": "pattern-ddx",
+      "state": "scheduled",
+      "slugs": [
+        "spinal-intramedullary-tumors",
+        "spontaneous-ich-young-adults",
+        "temporal-bone-inflammatory",
+        "toxic-metabolic-brain-imaging",
+        "toxic-metabolic-leukoencephalopathy"
+      ]
+    }
+  ]
+}
