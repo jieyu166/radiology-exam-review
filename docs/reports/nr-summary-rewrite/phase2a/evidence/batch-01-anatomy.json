@@ -197,7 +197,7 @@
       "slug": "atlantodental-interval",
       "sourceStatus": "existing-sufficient",
       "status": "verified",
-      "rewrittenSummary": "## Summary\n- **AADI 量法**：側位 X 光或 CT 矢狀面，量 C1 前弓後緣（皮質）至齒突前緣的水平距離。[^1][^2]\n- **AADI 姿勢**：最易在中段測量，屈曲位最易凸顯增寬。[^1][^2]\n- **PADI 量法**：量齒突後緣至 C1 後弓前緣（腹側皮質）的距離，等同寰樞段脊髓可用空間（SAC）。[^3]\n- **AADI 意義**：反映前移位移（橫韌帶撐不撐得住）。[^3]\n- **PADI 意義**：PADI/SAC 反映椎管剩餘空間；AADI 增寬不必然壓迫脊髓，真正預測脊髓病變的是 PADI。[^3]\n- **X 光成人正常值**：AADI <3 mm；Radiopaedia 另分男性 <3 mm、女性 <2.5 mm。[^1][^2]\n- **X 光兒童正常值**：兒童可達 5 mm，因韌帶較鬆且可有 pseudosubluxation；2016-085 正解 C。[^1][^2]\n- **X 光異常值**：成人 >3 mm、兒童 >5 mm 即異常。[^1][^2]\n- **CT 成人正常值**：AADI ≤2 mm；CT 解析度高、無放大效應，參考值小於 X 光。[^1][^2]\n- **CT 兒童正常值**：約 <2.6 mm。[^1][^2]\n- **橫韌帶閾值**：AADI ≥5 mm 提示橫韌帶鬆弛、斷裂或齒突畸形。[^4]\n- **橫韌帶失能**：AADI ≥7 mm 強烈提示橫韌帶完全斷裂或失能。[^4]\n- **PADI 臨界值**：<14 mm 對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。[^3]\n- **PADI 處置**：PADI <14 mm 應進一步以 MRI 評估真實 SAC，且常為手術固定指標。[^3]\n- **外傷病因**：橫韌帶斷裂；Jefferson 骨折兩側塊外突總和 >6.9 mm 提示橫韌帶斷裂（rule of Spence）。[^4]\n- **發炎或沉積**：類風濕性關節炎（pannus 侵蝕齒突與韌帶）、僵直性脊椎炎、crystal deposition。[^2][^3]\n- **先天或鬆弛**：Down 症（韌帶鬆弛加齒突發育異常，10–20% 有寰樞不穩）、骨骼發育不良、os odontoideum（游離齒突）。[^2][^5]\n- **感染病因**：Grisel 症候群可由頭頸部感染或術後齒突周圍充血脫鈣造成非外傷性旋轉脫位。[^1][^2]\n- **動態量測**：中立位 AADI 正常不能排除不穩；動態屈伸側位 X 光是評估主軸，須在屈曲位量最大 AADI 與最小 PADI。[^2][^5]\n- **屈曲位提示**：os odontoideum 與韌帶鬆弛常僅在屈曲位顯現。[^2][^5]\n- **MRI 評估**：評估脊髓受壓、pannus、SAC 及髓內訊號變化，以決定手術與否。[^2][^3]\n- **兒童陷阱**：正常 pseudosubluxation 與生理性韌帶鬆弛勿誤判。[^2][^5]\n- **量測陷阱**：非真側位與頸部姿勢可造成測量誤差。[^2][^5]\n- **Os odontoideum DDx**：須與急性齒突骨折鑑別；皮質緣光滑、圓鈍且有獨立小骨提示先天。[^2][^5]\n- **兒童 ADI 考點**：X 光 ≤5 mm；成人 ≤3 mm；CT 更嚴，成人 ≤2 mm、兒童 <2.6 mm。[^1][^2]\n\n",
+      "rewrittenSummary": "## Summary\n- **AADI 量法**：側位 X 光或 CT 矢狀面，量 C1 前弓後緣（皮質）至齒突前緣的水平距離。[^1][^2]\n- **AADI 姿勢**：最易在中段測量，屈曲位最易凸顯增寬。[^1][^2]\n- **PADI 量法**：量齒突後緣至 C1 後弓前緣（腹側皮質）的距離，等同寰樞段脊髓可用空間（SAC）。[^3]\n- **AADI 意義**：反映前移位移（橫韌帶撐不撐得住）。[^3]\n- **PADI 意義**：PADI/SAC 反映椎管剩餘空間；AADI 增寬不必然壓迫脊髓，真正預測脊髓病變的是 PADI。[^3]\n- **X 光成人正常值**：AADI <3 mm；Radiopaedia 另分男性 <3 mm、女性 <2.5 mm。[^1][^2]\n- **X 光兒童正常值**：兒童可達 5 mm，因韌帶較鬆且可有 pseudosubluxation；2016-085 正解 C。[^1][^2]\n- **X 光異常值**：成人 >3 mm、兒童 >5 mm 即異常。[^1][^2]\n- **CT 成人正常值**：AADI ≤2 mm；CT 解析度高、無放大效應，參考值小於 X 光。[^1][^2]\n- **CT 兒童正常值**：約 <2.6 mm。[^1][^2]\n- **橫韌帶閾值**：AADI ≥5 mm 提示橫韌帶鬆弛、斷裂或齒突畸形。[^4]\n- **橫韌帶失能**：AADI ≥7 mm 強烈提示橫韌帶完全斷裂或失能。[^4]\n- **PADI 臨界值**：<14 mm（Boden 等）對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。[^3]\n- **PADI 處置**：PADI <14 mm 應進一步以 MRI 評估真實 SAC，且常為手術固定指標。[^3]\n- **外傷病因**：橫韌帶斷裂；Jefferson 骨折兩側塊外突總和 >6.9 mm 提示橫韌帶斷裂（rule of Spence）。[^4]\n- **發炎或沉積**：類風濕性關節炎（pannus 侵蝕齒突與韌帶）、僵直性脊椎炎、crystal deposition。[^2][^3]\n- **先天或鬆弛**：Down 症（韌帶鬆弛加齒突發育異常，10–20% 有寰樞不穩）、骨骼發育不良、os odontoideum（游離齒突）。[^2][^5]\n- **感染病因**：Grisel 症候群可由頭頸部感染或術後齒突周圍充血脫鈣造成非外傷性旋轉脫位。[^1][^2]\n- **動態量測**：中立位 AADI 正常不能排除不穩；動態屈伸側位 X 光是評估主軸，須在屈曲位量最大 AADI 與最小 PADI。[^2][^5]\n- **屈曲位提示**：os odontoideum 與韌帶鬆弛常僅在屈曲位顯現。[^2][^5]\n- **MRI 評估**：評估脊髓受壓、pannus、SAC 及髓內訊號變化，以決定手術與否。[^2][^3]\n- **兒童陷阱**：正常 pseudosubluxation 與生理性韌帶鬆弛勿誤判。[^2][^5]\n- **量測陷阱**：非真側位與頸部姿勢可造成測量誤差。[^2][^5]\n- **Os odontoideum DDx**：須與急性齒突骨折鑑別；皮質緣光滑、圓鈍且有獨立小骨提示先天。[^2][^5]\n- **兒童 ADI 考點**：X 光 ≤5 mm；成人 ≤3 mm；CT 更嚴，成人 ≤2 mm、兒童 <2.6 mm。[^1][^2]\n\n",
       "facts": [
         {
           "id": "atlantodental-interval-f01",
@@ -466,7 +466,7 @@
         "**CT 兒童正常值**：約 <2.6 mm。",
         "**橫韌帶閾值**：AADI ≥5 mm 提示橫韌帶鬆弛、斷裂或齒突畸形。",
         "**橫韌帶失能**：AADI ≥7 mm 強烈提示橫韌帶完全斷裂或失能。",
-        "**PADI 臨界值**：<14 mm 對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。",
+        "**PADI 臨界值**：<14 mm（Boden 等）對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。",
         "**PADI 處置**：PADI <14 mm 應進一步以 MRI 評估真實 SAC，且常為手術固定指標。",
         "**外傷病因**：橫韌帶斷裂；Jefferson 骨折兩側塊外突總和 >6.9 mm 提示橫韌帶斷裂（rule of Spence）。",
         "**發炎或沉積**：類風濕性關節炎（pannus 侵蝕齒突與韌帶）、僵直性脊椎炎、crystal deposition。",
@@ -480,7 +480,7 @@
         "**Os odontoideum DDx**：須與急性齒突骨折鑑別；皮質緣光滑、圓鈍且有獨立小骨提示先天。",
         "**兒童 ADI 考點**：X 光 ≤5 mm；成人 ≤3 mm；CT 更嚴，成人 ≤2 mm、兒童 <2.6 mm。"
       ],
-      "coverageEvidenceSha256": "8a59bbe6c15b9e352fc9c41424e09f7c70bd6a685b0299ab23daa4a2a037707f"
+      "coverageEvidenceSha256": "c58e727e82bef8c54e032037ed48d895f1ff4601583392cbc05376ae8e12fb78"
     },
     {
       "slug": "brachial-plexus-anatomy",
@@ -894,7 +894,7 @@
       "slug": "cerebral-deep-venous-cortex",
       "sourceStatus": "existing-sufficient",
       "status": "verified",
-      "rewrittenSummary": "## Summary\n- **淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。[^1][^2]\n- **深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。[^1][^2]\n- **系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。[^1][^2]\n- **深部主幹**：成對 ICV 加成對 BVR 於 quadrigeminal cistern 匯合成單一 vein of Galen，再注入 straight sinus 至 confluence of sinuses。[^1][^3]\n- **ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。[^1][^3]\n- **BVR 起點**：起於 anterior perforated substance，由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。[^1][^4]\n- **BVR 終點**：繞中腦（環池）後注入 vein of Galen。[^1][^4]\n- **SMV**：superficial middle cerebral vein 沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。[^2][^5]\n- **Vein of Trolard**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。[^2][^5]\n- **Vein of Labbé**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。[^2][^5]\n- **ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。[^1][^4]\n- **BVR 引流領域**：島葉、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。[^1][^4]\n- **深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。[^1][^2]\n- **領域例外**：向皮質延伸偏向腦底部 limbic、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。[^1][^2]\n- **正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。[^2][^6]\n- **重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。[^2][^6]\n- **ICV/BVR 變異**：發育與優勢度變異大。[^4][^5]\n- **BVR 變異**：可有非典型引流路徑。[^4][^5]\n- **淺部變異**：SMV 與 Labbé 共優勢等組合常見，單一支缺如不一定是病理。[^4][^5]\n- **TOF-MRV 陷阱**：慢流或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞。[^6]\n- **佐證方式**：深部系統建議以 CE-MRV 或 CTV 佐證。[^6]\n- **DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。[^7][^8]\n- **DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。[^7][^8]\n- **DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。[^7][^8]\n- **DCVT CT 靜脈**：thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。[^7][^8]\n- **DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。[^7][^8]\n- **DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。[^7][^8]\n- **DCVT DWI**：可顯示細胞毒與血管源混合水腫。[^7][^8]\n- **DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。[^7][^8]\n- **單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，松果體或視丘區術後尤須警覺。[^9]\n- **動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。[^7][^8]\n- **代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。[^7][^8]\n- **其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。[^7][^8]\n- **鑑別關鍵**：尋找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損。[^7][^8]\n- **高衰減陷阱**：兒童、脫水、血比容升高者的靜脈竇本就偏高衰減。[^2]\n- **高衰減確認**：對照 Hounsfield 值與靜脈是否過度緻密，並以 CTV 確認。[^2]\n- **TOF 假象**：慢流或平面內血流飽和可被誤判為栓塞。[^2][^6]\n- **不對稱漏診**：單側視丘水腫勿先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。[^9]\n- **深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。[^1][^2]\n- **EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。[^1][^2]\n\n",
+      "rewrittenSummary": "## Summary\n- **淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。[^1][^2]\n- **深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。[^1][^2]\n- **系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。[^1][^2]\n- **深部三主幹**：成對 internal cerebral veins（ICV，內大腦靜脈）加成對 basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）於四疊體池（quadrigeminal cistern）匯合成單一 vein of Galen（Galen 大靜脈），再注入 straight sinus 至 confluence of sinuses。[^1][^3]\n- **ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。[^1][^3]\n- **BVR 起點**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。[^1][^4]\n- **BVR 終點**：繞中腦（環池）後注入 vein of Galen。[^1][^4]\n- **SMV**：superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。[^2][^5]\n- **Vein of Trolard（上吻合靜脈）**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。[^2][^5]\n- **Vein of Labbé（下吻合靜脈）**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。[^2][^5]\n- **ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。[^1][^4]\n- **BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。[^1][^4]\n- **深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。[^1][^2]\n- **領域例外**：向皮質延伸偏向腦底部 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。[^1][^2]\n- **正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。[^2][^6]\n- **重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。[^2][^6]\n- **ICV/BVR 變異**：發育與優勢度變異大。[^4][^5]\n- **BVR 變異**：可有非典型引流路徑。[^4][^5]\n- **淺部變異**：SMV 與 Labbé 共優勢等組合常見，單一支缺如不一定是病理。[^4][^5]\n- **TOF-MRV 陷阱**：慢流或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞。[^6]\n- **佐證方式**：深部系統建議以 CE-MRV 或 CTV 佐證。[^6]\n- **DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。[^7][^8]\n- **DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。[^7][^8]\n- **DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。[^7][^8]\n- **DCVT CT 靜脈**：同時，thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。[^7][^8]\n- **DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。[^7][^8]\n- **DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。[^7][^8]\n- **DCVT DWI**：可顯示細胞毒與血管源混合水腫。[^7][^8]\n- **DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。[^7][^8]\n- **單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，神經外科術後（松果體或視丘區手術）尤須警覺。[^9]\n- **動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。[^7][^8]\n- **代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。[^7][^8]\n- **其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。[^7][^8]\n- **鑑別關鍵**：尋找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損。[^7][^8]\n- **高衰減陷阱**：兒童、脫水、血比容升高者的靜脈竇本就偏高衰減。[^2]\n- **高衰減確認**：對照 Hounsfield 值與靜脈是否過度緻密，並以 CTV 確認。[^2]\n- **TOF 假象**：慢流或平面內血流飽和可被誤判為栓塞。[^2][^6]\n- **不對稱漏診**：單側視丘水腫勿先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。[^9]\n- **深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。[^1][^2]\n- **EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。[^1][^2]\n\n",
       "facts": [
         {
           "id": "cerebral-deep-venous-cortex-f01",
@@ -1282,17 +1282,17 @@
         "**淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。",
         "**深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。",
         "**系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。",
-        "**深部主幹**：成對 ICV 加成對 BVR 於 quadrigeminal cistern 匯合成單一 vein of Galen，再注入 straight sinus 至 confluence of sinuses。",
+        "**深部三主幹**：成對 internal cerebral veins（ICV，內大腦靜脈）加成對 basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）於四疊體池（quadrigeminal cistern）匯合成單一 vein of Galen（Galen 大靜脈），再注入 straight sinus 至 confluence of sinuses。",
         "**ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。",
-        "**BVR 起點**：起於 anterior perforated substance，由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。",
+        "**BVR 起點**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。",
         "**BVR 終點**：繞中腦（環池）後注入 vein of Galen。",
-        "**SMV**：superficial middle cerebral vein 沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。",
-        "**Vein of Trolard**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。",
-        "**Vein of Labbé**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。",
+        "**SMV**：superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。",
+        "**Vein of Trolard（上吻合靜脈）**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。",
+        "**Vein of Labbé（下吻合靜脈）**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。",
         "**ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。",
-        "**BVR 引流領域**：島葉、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。",
+        "**BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。",
         "**深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。",
-        "**領域例外**：向皮質延伸偏向腦底部 limbic、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。",
+        "**領域例外**：向皮質延伸偏向腦底部 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。",
         "**正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。",
         "**重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。",
         "**ICV/BVR 變異**：發育與優勢度變異大。",
@@ -1303,12 +1303,12 @@
         "**DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。",
         "**DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。",
         "**DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。",
-        "**DCVT CT 靜脈**：thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。",
+        "**DCVT CT 靜脈**：同時，thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。",
         "**DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。",
         "**DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。",
         "**DCVT DWI**：可顯示細胞毒與血管源混合水腫。",
         "**DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。",
-        "**單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，松果體或視丘區術後尤須警覺。",
+        "**單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，神經外科術後（松果體或視丘區手術）尤須警覺。",
         "**動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。",
         "**代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
         "**其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。",
@@ -1320,7 +1320,7 @@
         "**深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。",
         "**EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。"
       ],
-      "coverageEvidenceSha256": "0cce576c28cd56e5e9324457d9a7da1cf1f9e52220ca090b7a3bdc1e817730dd"
+      "coverageEvidenceSha256": "3a1406ed80a846322e7a18a73ef1852ca22d13559c0e68d1fbb99cb17b383849"
     },
     {
       "slug": "cerebral-herniation-types",
