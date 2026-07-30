@@ -165,6 +165,9 @@ TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
     "batch-02-disease": (
         "3c294b4e098fc971ec6cbc67945cc24620752108f7d31bf3c1ba574ef6fd8fa8"
     ),
+    "batch-03-pattern": (
+        "3a93bfbe332067f06b5dda7ac47c6484107f52afd152059701f44ea3d7394e98"
+    ),
 }
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
 # Task 1.1 intentionally leaves this empty so generated observations cannot
@@ -1309,7 +1312,15 @@ def build_phase2_baseline_lock(
                 if isinstance(item, Mapping)
             ]
         )
-        if supplied_templates != expected_templates or not supplied_templates:
+        exact_empty_projection = (
+            not note.summaries
+            and note.original_summary == ""
+            and not expected_templates
+        )
+        if (
+            supplied_templates != expected_templates
+            or (not supplied_templates and not exact_empty_projection)
+        ):
             raise ValueError(
                 f"Fact templates for {slug!r} are not the audited source projection."
             )
@@ -1972,13 +1983,13 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                 )
             )
         facts = locked.get("factUnits")
-        if not isinstance(facts, list) or not facts:
+        if not isinstance(facts, list):
             findings.append(
                 Finding(
                     "error",
                     "phase2-baseline-schema",
                     locked.get("path", path),
-                    f"Baseline facts for {slug!r} must be a nonempty array.",
+                    f"Baseline facts for {slug!r} must be an array.",
                 )
             )
             continue
@@ -2012,9 +2023,16 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
         else:
             expected_templates = []
             locked_summary_headings = []
+        exact_empty_projection = (
+            locked.get("summaryHeadings") == []
+            and locked.get("originalSummary") == ""
+            and facts == []
+            and not locked_summary_headings
+            and not expected_templates
+        )
         actual_templates = []
         fact_shape_valid = (
-            bool(expected_templates)
+            (bool(expected_templates) or exact_empty_projection)
             and locked.get("summaryHeadings") == locked_summary_headings
         )
         for fact in facts:

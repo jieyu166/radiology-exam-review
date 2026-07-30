@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "batch-03-pattern",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-03-pattern.json",
+    "sha256": "3a93bfbe332067f06b5dda7ac47c6484107f52afd152059701f44ea3d7394e98"
+  },
+  "status": "baseline",
+  "workflow": {
+    "sequence": 3,
+    "predecessor": "batch-02-disease",
+    "implementer": "/root/phase2a_task4_1_impl",
+    "reviewer": null,
+    "reviewStatus": "not-started",
+    "reviewedBaselineSha256": null
+  },
+  "notes": [
+    {
+      "slug": "brain-tumor-imaging",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **Pilocytic astrocytoma**：好發**小腦**（兒童），囊＋強化壁結節。[^1]\n- **Pleomorphic xanthoastrocytoma (PXA)**：幾乎只見**年輕成人**，顳葉皮質、常鄰腦膜（dural tail）。[^1]\n- **Ganglioglioma**：**皮質腫瘤，最常見於顳葉（~70%）**，非深部半球；兒童/年輕成人癲癇。[^1]\n- **瀰漫浸潤型星細胞瘤**：具**惡性進展的內在傾向**。[^1]\n\n> [!note] 考點：關於腦腫瘤,何者「不正確」?\n> 「**Ganglioglioma 最常見於深部半球**」不正確——為**皮質腫瘤、最常見顳葉(~70%)**。pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。[^1]\n\n",
+      "facts": [
+        {
+          "id": "brain-tumor-imaging-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "brain-tumor-imaging-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解；Osborn's Brain: Imaging, Pathology, and Anatomy, Ch 15：ganglioglioma 為皮質腫瘤、最常見顳葉(~70%)；pilocytic astrocytoma 好發小腦；PXA 幾乎只見年輕成人。"
+        }
+      }
+    },
+    {
+      "slug": "cerebral-infarction-fogging",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **定義**：Fogging phenomenon見於腦梗塞平掃CT，代表梗塞演變過程中的暫時性階段——皮質梗塞區域恢復至接近正常密度（外觀）。[^1]\n- **好發時間**：梗塞後**2至3週**（MRI T2序列則約6至36天，中位數10天），此時皮質恢復至接近正常密度，可能導致誤判或漏診。[^1]\n- **發生率**：約見於**50%病例**。[^1]\n- **判讀對策**：若有疑慮，**靜脈注射對比劑**可界定出真正的梗塞範圍。[^1]\n- **本質**：反映**梗塞後第二週左右，MR上T2訊號損失或CT上低密度暫時消失**的現象，並非發生於梗塞後24小時內的診斷困難、也非再灌流後的瀰漫性實質強化、亦非慢性梗塞期的表現。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-infarction-fogging-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-infarction-fogging-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-infarction-fogging-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-infarction-fogging-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-infarction-fogging-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；Diagnostic Imaging, Brain, I-4-64。"
+        }
+      }
+    },
+    {
+      "slug": "cerebral-microbleeds",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **本質**：小灶慢性腦內出血（hemosiderin），常僅在**磁化率序列（T2\\* GRE、SWI，SWI 更敏感）**上以低訊號 blooming 呈現。[^1][^2][^3]\n- **常見病因（分佈導向）**：[^1][^2][^3]\n  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。\n  - **慢性高血壓**：**基底核、視丘、腦幹、小腦（深部）**；較年輕（<65）、常與 CAA 並存。\n  - **DAI（外傷）**：灰白質交界、胼胝體、深部白質、腦幹。\n  - **Cavernous malformation（Zabramski IV）**：隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。\n- **其他**：**缺血中風伴微出血（見於 10–15% 急性缺血中風）**、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）。[^3]\n- **非病因**：**NF1 不屬於**（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-microbleeds-f01",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f02",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f03",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f04",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f05",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f06",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f07",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f08",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f09",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f10",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cerebral-microbleeds-f11",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2020 詳解（題目所引）——常見微出血病因（cavernous malformation Zabramski IV、慢性高血壓、CAA、DAI）與少見病因；NF1 非微出血病因（為 T2/FLAIR UBOs）。與 [^3] STATdx 一致。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Cerebral microbleed*. Radiopaedia.org, rID-4560, DOI 10.53347/rID-4560（輔助來源）——分佈導向鑑別：CAA＝皮質-皮質下交界 spares 基底核、慢性高血壓＝基底核/視丘/腦幹/小腦、DAI＝灰白質交界/胼胝體壓部/背外側腦幹；SWI 最敏感。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "**Tier 1** Baradaran H, Salzman KL. *Cerebral Amyloid Disease*（Brain, Dx）. STATdx, Elsevier, updated 08/19/25（48 refs；實際查證 accessed 2026-07-03）——CAA＝皮質-皮質下（灰白交界、頂枕葉最常）lobar 微出血、cortical superficial siderosis、正常血壓失智老人；**Boston 準則（probable/possible）、無深部微出血**；SWI 比 T2\\* GRE 敏感、NECT 為急性出血初篩；DDx（高血壓深部/較年輕 <65 常並存、cavernoma type IV locules/CT 鈣化、缺血中風伴微出血 10–15%、DAI 胼胝體/腦幹、出血性微轉移灰白交界、金屬微栓、PRES 對稱、CADASIL 多非出血）；發炎型 CAA-RI/ABRA 擬 PRES 但類固醇反應；**CAA 佔 >60 歲原發 ICH 15–20%、正常老人 20–40%、Alzheimer 90%、APOE ε4**。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。"
+        }
+      }
+    },
+    {
+      "slug": "cerebrovascular-malformations",
+      "status": "pending",
+      "rewrittenSummary": "",
+      "facts": [],
+      "sourceDefinitions": {}
+    },
+    {
+      "slug": "chemical-shift-artifact",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2][^3]\n\n### 第一型（misregistration，空間位移）\n- **影像長相**：沿**頻率編碼方向**，脂水介面一側出現**黑帶**、相對側出現**白帶**（black/white boundary，黑白成對）；這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。[^2][^3]\n- **位移幅度**：以接收頻寬／像素換算——例如頻寬 32 kHz、矩陣 256 時每像素約 125 Hz，220 Hz 約位移 **1.8 像素**。[^2]\n- **加重因子**：**高場強**（頻率差絕對值變大）與**低接收頻寬**（每像素 Hz 變小、位移像素數變多）會使黑白帶更明顯；故調**寬接收頻寬**或降場強可減輕。[^2][^3]\n- **判讀利用**：脂肪介面的黑白帶可標示**腎、腎上腺、後腹腔脂肪**等含大量脂肪結構的邊界，協助定位；亦見於各序列（自旋迴訊為主），常不明顯。[^1][^3]\n\n### 第二型（India ink / boundary artifact，邊界勾邊）\n- **影像長相**：**反相位(opposed-phase)** 梯度迴訊上，沿**含水脂介面的 voxel** 出現**對稱的黑線勾邊**，**完整環繞器官各邊**（不限頻率編碼方向）。[^3][^4]\n- **成因**：邊界 voxel 內同時含脂與水，在反相位 TE 時兩者相位相反、訊號相消為零 → 黑線。**與脂肪『量』無關**，只看介面 voxel 是否脂水並存，故各方向皆對稱勾邊。[^4][^5]\n- **判讀利用**：用以**辨識器官邊界**，並可作為「此為反相位影像」的內部確認；回到 in-phase TE 即消失。[^3][^5]\n- **與第一型區分**：第一型只沿頻率編碼軸、黑白成對；第二型各邊對稱黑線、僅反相位出現。[^4][^5]\n\n### in/opposed-phase 訊號掉落（與第二型須區分的概念）\n- 用於偵測 **voxel 內微觀脂肪（intracytoplasmic / microscopic fat）**：**腎上腺腺瘤、脂肪肝、含脂病灶**在反相位**整體訊號下降**（signal drop），這是「同一 voxel 內脂水並存而相消」的**訊號強度下降**，**不是第二型的邊緣勾邊**——兩者機制相關但表現須分清：一個是病灶內部均勻變暗、一個是介面黑線。[^1][^2]\n- **判讀陷阱**：小腺瘤受周邊脂肪 partial volume 影響、訊號掉落可能很**輕微**；應**早採反相位 TE** 以減少 T2* 效應假性訊號損失（含鐵血黃素沈積反而在 in-phase 較暗，見下）。[^2]\n\n### 判讀陷阱（共通）\n- **黑白帶／勾邊勿誤為病灶或鈣化**：第一型黑帶、第二型 India ink 黑線都是偽影，不可當作真實低訊號病灶或邊緣鈣化。[^3][^4]\n- **與其他黑線偽影區分**：第二型黑線屬脂水相消，與磁感受性(susceptibility)黑線、流動／截斷偽影不同；定位於脂水介面且僅反相位出現是辨識關鍵。[^3][^5]\n- **可調參數減輕第一型**：加寬接收頻寬、降低場強、或改變頻率編碼方向。[^2][^3]\n\n- **純脂肪區在反相位『不會』完全失訊號**——抵消需脂＋水並存；故「純脂肪在 out-of-phase 完全失去強度」**錯誤**（2016-092 正解 B）。[^1]\n- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]\n- **Dixon 技術陷阱**：以 Dixon 法做脂肪抑制時，因相位誤差可能造成**局部脂水訊號互換（fat-water swap）**，或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；現代三點法 Dixon 已可大幅改善此問題。[^3]\n- **Hemosiderosis**：肝脾在 out-of-phase 反而較亮（in-phase TE 較長、T2* 效應使 in-phase 變暗）。[^1]\n\n> [!note] 考點：何者「為非」？\n> 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]\n\n",
+      "facts": [
+        {
+          "id": "chemical-shift-artifact-f01",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f02",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f03",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f04",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f05",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f06",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f07",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f08",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f09",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f10",
+          "sourceRefs": [
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f11",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f12",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f13",
+          "sourceRefs": [
+            "3",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f14",
+          "sourceRefs": [
+            "3",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f15",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f16",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f17",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f18",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f19",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f20",
+          "sourceRefs": [
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f21",
+          "sourceRefs": [
+            "3",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f22",
+          "sourceRefs": [
+            "3",
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f23",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f24",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f25",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f26",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f27",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f28",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f29",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f30",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f31",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f32",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f33",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "chemical-shift-artifact-f34",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Tier 1。Merkle EM 等，*Chemical Shift MR Imaging of the Adrenal Gland: Principles, Pitfalls, and Applications*，RadioGraphics 2016;36(2):414-432（DOI 10.1148/rg.2016150139；PubMed 26849154）＋脂水 3.5 ppm／1.5T 約 220 Hz、頻寬-像素位移換算（accessed 2026-06-29，mrimaster/mri-q chemical shift 教學頁）：化學位移成像原理、微觀脂肪反相位訊號掉落（腎上腺腺瘤、脂肪肝）、輕微掉落與早採反相位 TE 以減 T2* 等判讀陷阱。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "**Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Hood MN 等／*In-Phase and Opposed-Phase Imaging: Applications of Chemical Shift and Magnetic Susceptibility in the Chest and Abdomen*，RadioGraphics 2019;39(4)。DOI 10.1148/rg.2019180043。重點：第一型沿頻率編碼方向呈黑白帶、隨高場強與低接收頻寬加重、脂水介面（腎/腎上腺/後腹腔）標示；第二型 opposed-phase 沿脂水介面對稱黑線勾邊；化學位移頻率差 **1.5T 約 225 Hz、3T 約 450 Hz**；**Teaching Point：無反相位訊號掉落不代表無脂肪（可能是純脂肪缺水，如 adrenal myelolipoma、Modic type 2、放療後脂肪骨髓），須合併脂肪抑制與非脂肪抑制影像判讀**；Dixon 法脂肪抑制可有 fat-water swap 陷阱，三點法可改善。"
+        },
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "MRI 化學位移假影經實際查證（accessed 2026-06-17，Radiopaedia *chemical shift artifact*）：脂水頻率差；type1 頻率編碼方向位移(各序列)、type2 反相位抵消(需脂+水)；India ink 環繞器官；hemosiderosis out-of-phase 較亮(in-phase T2*)。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "Tier 2。Radiopaedia *black boundary artifact*（type 2 chemical shift / India ink artifact，accessed 2026-06-29）：反相位梯度迴訊、沿所有脂水介面 voxel 之黑線（不限頻率編碼方向）、與脂肪量無關、對稱環繞器官；與第一型區分。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "Tier 2。mriquestions.com *Chemical Shift 2nd Kind* 與 radiologykey.com *Chemical Shift Type 2 Artifact*（accessed 2026-06-29）：邊界 voxel 脂水相位相反相消產生黑線、各方向對稱、用以辨識器官邊界與確認反相位影像、回到 in-phase TE 即消失、與第一型及其他黑線偽影區分。"
+        }
+      }
+    },
+    {
+      "slug": "cns-opportunistic-infection",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **DWI 區分環狀強化病灶**：**化膿性膿瘍**中心膿液**擴散明顯受限（DWI 高、ADC 低）**;**壞死/囊變腫瘤**中心多**不受限**——故 DWI 為鑑別最佳序列(option A 正確)。[^1]\n- **CNS 黴菌病**：多為**免疫低下者的伺機性感染**(option B 正確)。[^1]\n- **弓蟲症（toxoplasmosis）**：**AIDS/免疫低下患者最常見的中樞神經伺機性感染**;典型多發環狀強化、好發基底節,「eccentric target sign」(option C 正確)。[^2]\n- 三者皆正確 → 故「何者正確」答 **D（以上皆正確）**（2016-184 正解 D）。\n\n> [!note] 考點\n> DWI 為環狀強化病灶鑑別最佳序列、CNS 黴菌多伺機性、**toxoplasmosis 為 AIDS 最常見 CNS 伺機感染** → 三者皆正確（答 D）。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "cns-opportunistic-infection-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f04",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f05",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f06",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "cns-opportunistic-infection-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Cerebral abscess* / *Dual rim sign*. Radiopaedia.org（Tier 輔助，實際查證 accessed 2026-06-29）：化膿性膿瘍中心 **DWI 明顯受限**,與壞死腫瘤（多不受限）區別;DWI 為鑑別環狀強化病灶之關鍵。見 [[brain-abscess]]。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Cerebral toxoplasmosis*. Radiopaedia.org（Tier 輔助，實際查證 accessed 2026-06-29）：**AIDS 最常見的機會性 CNS 感染**;多發環狀強化、好發基底節/灰白質交界、eccentric target sign。"
+        }
+      }
+    },
+    {
+      "slug": "cranial-nerve-muscle-atrophy",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **前提**：去神經化萎縮需該神經含**運動纖維（LMN）**。[^1][^2]\n- **可致萎縮之運動顱神經**：**V（咀嚼肌，經 V3）、VII（表情肌）、IX（stylopharyngeus）、X（咽/喉、palatoglossus）、XI（SCM＋斜方肌）、XII（舌肌）**。[^2]\n- **不致萎縮（純感覺）**：**CN VIII（vestibulocochlear，聽覺＋平衡）**；另 I（嗅）、II（視）亦純感覺。[^1][^2]\n- **去神經影像時序（核心）**：**急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）**；去神經變化**不會自行消退、必進展至慢性**。[^2]\n\n",
+      "facts": [
+        {
+          "id": "cranial-nerve-muscle-atrophy-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f02",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f05",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f06",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；*Cranial nerves*, Radiopaedia.org（輔助來源）——去神經化萎縮需該神經含運動纖維；CN VIII 純感覺（聽覺＋平衡）無運動成分；CN V（咀嚼肌）、CN VII（表情肌）、CN XII（舌肌）損傷可致萎縮。與 [^2] STATdx 一致。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** Lee J, Wiggins RH. *Hypoglossal Nerve Motor Denervation*（Head and Neck, Dx）. STATdx, Elsevier, updated 06/25/25（85 refs；實際查證 accessed 2026-07-03）——去神經影像時序：**急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）**；關鍵＝單側變化之銳利分界線；LMN 舌偏患側/UMN 偏對側（雙側支配故短暫）；palatoglossus 由 CN X 支配；易誤為腫瘤（flaccid hemitongue、FDG 攝取）；病因（顱底/術後/血管/放射）；多顱神經症候群（Tapia/Collet-Sicard/Villaret/Guillain-Alajouanine-Garcin）；對比 MR 評神經全程；去神經不可逆必進展。原「2019 交換考詳解/Radiopaedia only」弱來源已由本次 STATdx Tier 1 查核升級。"
+        }
+      }
+    },
+    {
+      "slug": "dural-based-masses-aids",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **EBV相關平滑肌腫瘤(EBV-SMT)**：源自硬腦膜或腦血管之**間質細胞(mesenchymal cells)**，**EBV共感染為此類腫瘤發生之必要條件**，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]\n- **腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）**：\n  - **腫瘤性**：轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。\n  - **肉芽腫性**：結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。\n  - **淋巴增生性**：淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。\n  - **自體免疫性**：IgG4相關疾病。[^1]\n\n",
+      "facts": [
+        {
+          "id": "dural-based-masses-aids-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f04",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f05",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f06",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "dural-based-masses-aids-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Mass Lesions of the Dura: Beyond Meningioma—Radiologic-Pathologic Correlation*. RadioGraphics 2014;34:295-312（2018 交換考題詳解 p.187 引用；Tier 1 影像期刊）。EBV相關平滑肌腫瘤源自硬腦膜/腦血管間質細胞，EBV共感染為必要條件，AIDS病人硬腦膜基底腫塊應列入鑑別；腦膜瘤鑑別診斷另含腫瘤性(轉移/孤立性纖維瘤/黑色素細胞腫瘤/膠質母細胞瘤)、肉芽腫性(TB/GPA/類肉瘤病)、淋巴增生性(淋巴瘤/Rosai-Dorfman/Erdheim-Chester)、自體免疫性(IgG4相關疾病)。"
+        }
+      }
+    },
+    {
+      "slug": "facial-fracture-complications",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **Superior orbital fissure syndrome (SOFS)**：[^1]\n  - 骨折延伸至 superior orbital fissure\n  - 損傷 CN III、IV、V1、VI\n  - 眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失\n- **Orbital apex syndrome**：[^1]\n  - 累及 orbital apex（包含 SOF + optic canal）\n  - 除 SOFS 的所有神經外，**再加上 optic nerve（CN II）**損傷 → 視力喪失\n  - 並非僅有 optic nerve 受傷（考試常見陷阱）\n- **Infraorbital nerve（V2）損傷**：[^1]\n  - 眶底/顴骨骨折（orbital blowout fracture）常見併發症\n  - 同側臉頰、上唇、鼻翼感覺減退\n- **Inferior alveolar nerve（V3）損傷**：[^1]\n  - 下頜骨折通過 mandibular canal\n  - 同側下巴與下唇麻木\n\n",
+      "facts": [
+        {
+          "id": "facial-fracture-complications-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f11",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f12",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f13",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "facial-fracture-complications-f14",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Winegar, B.A., Murillo, H. & Tantiwongkosi, B., 2013. Spectrum of Critical Imaging Findings in Complex Facial Skeletal Trauma. RadioGraphics, 33(1), pp.3-19."
+        }
+      }
+    },
+    {
+      "slug": "gbm-vs-pcnsl",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **ADC value**：PCNSL < GBM（PCNSL cellularity 更高） [^1]\n- GBM 特有：更多 necrosis、更大 tumor size、irregular margin [^1]\n- GBM 發生率高於 PCNSL [^1]\n\n",
+      "facts": [
+        {
+          "id": "gbm-vs-pcnsl-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "gbm-vs-pcnsl-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "gbm-vs-pcnsl-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解。"
+        }
+      }
+    }
+  ],
+  "manualReviewFactIds": [],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-03-pattern.json"
+}
