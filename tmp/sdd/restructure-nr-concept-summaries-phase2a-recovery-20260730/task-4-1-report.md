@@ -181,4 +181,3 @@ codes including `evidence-fact-coverage`, `phase2-evidence-schema`,
    separately justified, source-preserving rewrite.
 2. The four empty-ref facts above must remain unresolved or receive auditable
    source mapping. Task 4.1 does not infer a citation or mark them covered.
-
