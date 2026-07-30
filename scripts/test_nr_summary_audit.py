@@ -4366,15 +4366,103 @@ def _production_phase2a_batch01() -> tuple[Path, Path, audit.BatchContext]:
     return root, assignment_path, context
 
 
+BATCH02_DISEASE_SLUGS = (
+    "2-hydroxyglutarate-idh-mutant-glioma",
+    "adrenoleukodystrophy",
+    "aicardi-syndrome",
+    "als-imaging",
+    "angioinvasive-aspergillosis",
+    "anti-nmda-encephalitis",
+    "arterial-dissection-mri",
+    "atypical-teratoid-rhabdoid-tumor",
+    "autoimmune-encephalitis",
+    "basilar-artery-occlusion",
+)
+BATCH02_PREEDIT_SHA256 = {
+    "2-hydroxyglutarate-idh-mutant-glioma": (
+        "956c9af7339798ed5659248453e267a918bccf7876c2b099bf6bfbf8ca60f205"
+    ),
+    "adrenoleukodystrophy": (
+        "792affd2ce3e0ccbb8f84eb4b2e31db8cd196fb2cbaa2506a64668a1dddafa8a"
+    ),
+    "aicardi-syndrome": (
+        "74769c738b4ed0f4be58f9ddb0d8b4208bf8372a5f0a5a844bab3aa92bed8a5b"
+    ),
+    "als-imaging": (
+        "10985b1e45e93c4ad95624b1cd7a6cb680e4f1297c1f304caa61cabdd08d39a0"
+    ),
+    "angioinvasive-aspergillosis": (
+        "42998c7340d8a5e33388c7daf269a2c547473ced4457e088fbaadc1a363a68cf"
+    ),
+    "anti-nmda-encephalitis": (
+        "fcd551d46ba7e5934367c16c63fab0b10983b4f38fe43803c13e5c961f408855"
+    ),
+    "arterial-dissection-mri": (
+        "5d0c5a8cb2736985da542e4b21dfca56a367b17c80c8113486ddbafac3b17521"
+    ),
+    "atypical-teratoid-rhabdoid-tumor": (
+        "b5bf97074c2dc1591e24750c78b2aa344c150c97a5b2f51d38b0c04871c5f947"
+    ),
+    "autoimmune-encephalitis": (
+        "25727f01bde2d53b3151531e15f6b107b4de3546e5bccacac9a6cf51c873fb5c"
+    ),
+    "basilar-artery-occlusion": (
+        "f5deb355d9f0728350ff84a51176666a2044cfcc5840cba870e39e8bfc8b883b"
+    ),
+}
+BATCH02_STATEMENT_FACT_REF_COUNTS = {
+    "2-hydroxyglutarate-idh-mutant-glioma": (4, 7, 3),
+    "adrenoleukodystrophy": (28, 70, 11),
+    "aicardi-syndrome": (6, 7, 2),
+    "als-imaging": (3, 4, 1),
+    "angioinvasive-aspergillosis": (5, 6, 1),
+    "anti-nmda-encephalitis": (4, 7, 2),
+    "arterial-dissection-mri": (5, 7, 2),
+    "atypical-teratoid-rhabdoid-tumor": (5, 12, 2),
+    "autoimmune-encephalitis": (4, 4, 1),
+    "basilar-artery-occlusion": (5, 7, 4),
+}
+BATCH01_APPROVED_ARTIFACT_SHA256 = {
+    "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-01-anatomy.json": (
+        "6b05caff4e2cbd618a9c15478f914853701b4be2587af58469b013917d0a7934"
+    ),
+    "docs/reports/nr-summary-rewrite/phase2a/evidence/batch-01-anatomy.json": (
+        "0225a5e6c7a6fca4d2abe6abe9d73540ef186c064dc5d3b89690d0d74857f70b"
+    ),
+    "docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json": (
+        "bd1d2be10b9045c17b3f7ff540414623b8ecee4b6f2dd38f576aa3d118fbbbdb"
+    ),
+}
+
+
+def _production_phase2a_batch02() -> tuple[Path, Path, audit.BatchContext]:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path(
+        "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    )
+    context = audit.load_phase2_batch(
+        root,
+        assignment_path,
+        "batch-02-disease",
+    )
+    return root, assignment_path, context
+
+
 def _copy_production_phase2a_batch01_checkout(destination: Path) -> Path:
     """Copy the complete batch-01 validation surface to a relocated checkout."""
     root, assignment_path, context = _production_phase2a_batch01()
+    additional_trusted_baselines = [
+        context.baseline_path.parent / f"{batch_id}.json"
+        for batch_id in audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+        if batch_id != context.batch["id"]
+    ]
     relative_files = [
         assignment_path,
         context.inventory_path,
         context.baseline_path,
         context.evidence_path,
         Path("data/concepts-index.json"),
+        *additional_trusted_baselines,
         *(
             Path(record.path)
             for record in context.note_records.values()
@@ -4419,7 +4507,10 @@ def _validate_resealed_baseline(
 ) -> set[str]:
     original_registry = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
     audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = (
-        {context.batch["id"]: canonical_sha256(baseline)}
+        {
+            **original_registry,
+            context.batch["id"]: canonical_sha256(baseline),
+        }
         if registry is None
         else registry
     )
@@ -4571,13 +4662,15 @@ def test_phase2_baseline_rejects_missing_extra_and_duplicate_notes() -> None:
         )
 
 
-def test_phase2a_batch01_registry_is_single_central_digest_and_fail_closed() -> None:
+def test_phase2a_batch01_registry_digest_remains_central_and_fail_closed() -> None:
     root, _, context = _production_phase2a_batch01()
     baseline = context.baseline
     assert isinstance(baseline, dict)
     digest = canonical_sha256(baseline)
-    assert audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 == {
-        "batch-01-anatomy": digest
+    assert audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256["batch-01-anatomy"] == digest
+    assert set(audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256) == {
+        "batch-01-anatomy",
+        "batch-02-disease",
     }
     assert not list(
         (
@@ -4587,16 +4680,12 @@ def test_phase2a_batch01_registry_is_single_central_digest_and_fail_closed() -> 
             / "nr-summary-rewrite"
             / "phase2a"
             / "baselines"
-        ).glob("batch-0[23]-*.json")
+        ).glob("batch-03-*.json")
     )
 
     for registry in (
         {},
         {"batch-01-anatomy": "0" * 64},
-        {
-            "batch-01-anatomy": digest,
-            "batch-02-disease": "1" * 64,
-        },
         {
             "batch-01-anatomy": digest,
             "unknown-batch": "1" * 64,
@@ -4618,6 +4707,11 @@ def test_phase2a_batch01_rejects_coordinated_mutable_baseline_replacement() -> N
             context.inventory_path,
             context.baseline_path,
             context.evidence_path,
+            *(
+                context.baseline_path.parent / f"{batch_id}.json"
+                for batch_id in audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+                if batch_id != context.batch["id"]
+            ),
             *(
                 Path(record.path)
                 for record in context.note_records.values()
@@ -4735,6 +4829,11 @@ def test_phase2a_batch01_baseline_validation_has_shadow_checkout_parity() -> Non
             context.inventory_path,
             context.baseline_path,
             context.evidence_path,
+            *(
+                context.baseline_path.parent / f"{batch_id}.json"
+                for batch_id in audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+                if batch_id != context.batch["id"]
+            ),
             *(
                 Path(record.path)
                 for record in context.note_records.values()
@@ -5343,6 +5442,485 @@ def test_phase2a_batch01_unresolved_fact_is_accepted_only_as_needs_review() -> N
     }
     assert "phase2-manual-queue-mismatch" in codes
     assert "phase2-evidence-schema" in codes
+
+
+def _batch02_resealed_codes(baseline: dict) -> set[str]:
+    _, _, context = _production_phase2a_batch02()
+    batch01 = json.loads(
+        (
+            context.repo_root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "baselines"
+            / "batch-01-anatomy.json"
+        ).read_text(encoding="utf-8")
+    )
+    return _validate_resealed_baseline(
+        context,
+        baseline,
+        registry={
+            "batch-01-anatomy": canonical_sha256(batch01),
+            "batch-02-disease": canonical_sha256(baseline),
+        },
+    )
+
+
+def test_phase2a_batch02_baseline_is_exact_lossless_and_byte_deterministic() -> None:
+    root, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+    assert context.batch["type"] == "disease"
+    assert context.batch["slugs"] == list(BATCH02_DISEASE_SLUGS)
+    assert [entry["slug"] for entry in baseline["notes"]] == list(
+        BATCH02_DISEASE_SLUGS
+    )
+    assert baseline["assignmentSha256"] == canonical_sha256(context.assignment)
+    assert audit.validate_baseline_lock(context) == []
+    assert audit._validate_phase2_source_state(context, pre_edit=True) == []
+
+    for entry in baseline["notes"]:
+        slug = entry["slug"]
+        note = context.note_records[slug]
+        assert entry["path"] == f"vault/concepts/{slug}.md"
+        assert entry["type"] == "disease"
+        assert entry["originalSha256"] == BATCH02_PREEDIT_SHA256[slug]
+        assert note.sha256 == BATCH02_PREEDIT_SHA256[slug]
+        assert entry["originalSummary"] == note.original_summary
+        assert entry["summaryHeadings"] == [
+            section.heading for section in note.summaries
+        ]
+
+    templates = _baseline_fact_templates(baseline)
+    regenerated = audit.build_phase2_baseline_lock(context, templates)
+    regenerated_bytes = audit.build_phase2_baseline_lock_bytes(
+        context, templates
+    )
+    baseline_path = root / context.baseline_path
+    assert regenerated == baseline
+    assert regenerated_bytes == baseline_path.read_bytes()
+    assert (
+        hashlib.sha256(regenerated_bytes).hexdigest()
+        == hashlib.sha256(baseline_path.read_bytes()).hexdigest()
+    )
+
+
+def test_phase2a_batch02_fact_units_cover_every_source_statement_in_order() -> None:
+    _, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+
+    observed_counts: dict[str, tuple[int, int, int]] = {}
+    for entry in baseline["notes"]:
+        slug = entry["slug"]
+        note = context.note_records[slug]
+        facts = entry["factUnits"]
+        statements = audit.phase2_summary_source_statements(note)
+        referenced = list(
+            dict.fromkeys(
+                ref
+                for fact in facts
+                for ref in fact["sourceRefs"]
+            )
+        )
+        observed_counts[slug] = (
+            len(statements),
+            len(facts),
+            len(referenced),
+        )
+        assert [fact["id"] for fact in facts] == [
+            f"{slug}-f{index:02d}"
+            for index in range(1, len(facts) + 1)
+        ]
+        assert list(
+            dict.fromkeys(fact["sourceStatement"] for fact in facts)
+        ) == [statement["text"] for statement in statements]
+        assert [
+            {
+                "text": fact["text"],
+                "sourceStatement": fact["sourceStatement"],
+                "sourceRefs": fact["sourceRefs"],
+            }
+            for fact in facts
+        ] == audit.phase2_default_fact_templates(note)
+        assert all(fact["text"].strip() for fact in facts)
+        assert all(
+            isinstance(fact["sourceRefs"], list)
+            and len(fact["sourceRefs"]) == len(set(fact["sourceRefs"]))
+            and all(ref in note.footnote_defs for ref in fact["sourceRefs"])
+            for fact in facts
+        )
+
+    assert observed_counts == BATCH02_STATEMENT_FACT_REF_COUNTS
+    assert sum(counts[0] for counts in observed_counts.values()) == 69
+    assert sum(counts[1] for counts in observed_counts.values()) == 131
+
+
+def test_phase2a_batch02_rejects_note_and_fact_membership_order_attacks() -> None:
+    _, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+
+    note_mutations = []
+    missing_note = deepcopy(baseline)
+    missing_note["notes"].pop()
+    note_mutations.append(missing_note)
+    duplicate_note = deepcopy(baseline)
+    duplicate_note["notes"].append(deepcopy(duplicate_note["notes"][0]))
+    note_mutations.append(duplicate_note)
+    extra_note = deepcopy(baseline)
+    extra_entry = deepcopy(extra_note["notes"][0])
+    extra_entry["slug"] = "not-in-batch-02"
+    extra_note["notes"].append(extra_entry)
+    note_mutations.append(extra_note)
+    reordered_notes = deepcopy(baseline)
+    reordered_notes["notes"][0], reordered_notes["notes"][1] = (
+        reordered_notes["notes"][1],
+        reordered_notes["notes"][0],
+    )
+    note_mutations.append(reordered_notes)
+    for changed in note_mutations:
+        assert "phase2-baseline-inventory-mismatch" in _batch02_resealed_codes(
+            changed
+        )
+
+    duplicate_fact_id = deepcopy(baseline)
+    duplicate_fact_id["notes"][0]["factUnits"][1]["id"] = (
+        duplicate_fact_id["notes"][0]["factUnits"][0]["id"]
+    )
+    reordered_facts = deepcopy(baseline)
+    reordered_facts["notes"][0]["factUnits"][0:2] = reversed(
+        reordered_facts["notes"][0]["factUnits"][0:2]
+    )
+    lost_statement = deepcopy(baseline)
+    source_statement = lost_statement["notes"][0]["factUnits"][0][
+        "sourceStatement"
+    ]
+    lost_statement["notes"][0]["factUnits"] = [
+        fact
+        for fact in lost_statement["notes"][0]["factUnits"]
+        if fact["sourceStatement"] != source_statement
+    ]
+    for index, fact in enumerate(
+        lost_statement["notes"][0]["factUnits"], start=1
+    ):
+        fact["id"] = (
+            f"{lost_statement['notes'][0]['slug']}-f{index:02d}"
+        )
+    for changed in (duplicate_fact_id, reordered_facts, lost_statement):
+        assert "phase2-baseline-schema" in _batch02_resealed_codes(changed)
+
+
+def test_phase2a_batch02_rejects_blank_ungrounded_and_source_ref_attacks() -> None:
+    _, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+
+    blank = deepcopy(baseline)
+    blank["notes"][0]["factUnits"][0]["text"] = " "
+    ungrounded = deepcopy(baseline)
+    ungrounded["notes"][0]["factUnits"][0]["text"] = (
+        "Injected medical relationship absent from the Summary."
+    )
+    malformed_refs = deepcopy(baseline)
+    malformed_refs["notes"][0]["factUnits"][0]["sourceRefs"] = "1"
+    undefined_ref = deepcopy(baseline)
+    undefined_ref["notes"][0]["factUnits"][0]["sourceRefs"] = ["undefined"]
+    duplicate_ref = deepcopy(baseline)
+    fact_with_ref = next(
+        fact
+        for fact in duplicate_ref["notes"][0]["factUnits"]
+        if fact["sourceRefs"]
+    )
+    fact_with_ref["sourceRefs"] = [
+        fact_with_ref["sourceRefs"][0],
+        fact_with_ref["sourceRefs"][0],
+    ]
+
+    for changed in (
+        blank,
+        ungrounded,
+        malformed_refs,
+        undefined_ref,
+        duplicate_ref,
+    ):
+        assert "phase2-baseline-schema" in _batch02_resealed_codes(changed)
+
+
+def test_phase2a_batch02_registry_is_exact_contiguous_prefix_and_fail_closed() -> None:
+    root, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+    batch01 = json.loads(
+        (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "baselines"
+            / "batch-01-anatomy.json"
+        ).read_text(encoding="utf-8")
+    )
+    expected_registry = {
+        "batch-01-anatomy": canonical_sha256(batch01),
+        "batch-02-disease": canonical_sha256(baseline),
+    }
+    assert audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 == expected_registry
+    assert not (
+        root
+        / "docs"
+        / "reports"
+        / "nr-summary-rewrite"
+        / "phase2a"
+        / "baselines"
+        / "batch-03-pattern.json"
+    ).exists()
+
+    for registry in (
+        {},
+        {"batch-01-anatomy": expected_registry["batch-01-anatomy"]},
+        {"batch-02-disease": expected_registry["batch-02-disease"]},
+        {
+            **expected_registry,
+            "batch-02-disease": "0" * 64,
+        },
+        {
+            **expected_registry,
+            "batch-03-pattern": "1" * 64,
+        },
+        {
+            **expected_registry,
+            "unknown-batch": "1" * 64,
+        },
+    ):
+        codes = _validate_resealed_baseline(
+            context,
+            deepcopy(baseline),
+            registry=registry,
+        )
+        assert "phase2-trusted-batch-lock-mismatch" in codes, registry
+
+
+def test_phase2a_batch02_rejects_coordinated_mutable_baseline_replacement() -> None:
+    root, assignment_path, context = _production_phase2a_batch02()
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "coordinated-mutation"
+        batch01_baseline = (
+            context.baseline_path.parent / "batch-01-anatomy.json"
+        )
+        paths = [
+            assignment_path,
+            context.inventory_path,
+            batch01_baseline,
+            context.baseline_path,
+            context.evidence_path,
+            *(Path(record.path) for record in context.note_records.values()),
+        ]
+        for relative in paths:
+            destination = shadow / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(root / relative, destination)
+
+        target_slug = context.batch["slugs"][0]
+        target_path = shadow / context.note_records[target_slug].path
+        target_path.write_bytes(target_path.read_bytes() + b"\n")
+        replacement_hash = hashlib.sha256(target_path.read_bytes()).hexdigest()
+
+        inventory_path = shadow / context.inventory_path
+        inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+        inventory_entry = next(
+            entry
+            for entry in inventory["notes"]
+            if entry["slug"] == target_slug
+        )
+        inventory_entry["originalSha256"] = replacement_hash
+        assignment = audit.build_phase2_assignment(inventory)
+        inventory = audit.synchronize_phase2_inventory(inventory, assignment)
+        inventory_path.write_text(
+            json.dumps(inventory), encoding="utf-8"
+        )
+        (shadow / assignment_path).write_text(
+            json.dumps(assignment), encoding="utf-8"
+        )
+
+        baseline_path = shadow / context.baseline_path
+        baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
+        baseline["assignmentSha256"] = canonical_sha256(assignment)
+        baseline_entry = next(
+            entry
+            for entry in baseline["notes"]
+            if entry["slug"] == target_slug
+        )
+        baseline_entry["originalSha256"] = replacement_hash
+        baseline_path.write_text(
+            json.dumps(baseline), encoding="utf-8"
+        )
+
+        evidence_path = shadow / context.evidence_path
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        evidence["baselineLock"]["sha256"] = canonical_sha256(baseline)
+        evidence_path.write_text(
+            json.dumps(evidence), encoding="utf-8"
+        )
+
+        attacked_context = audit.load_phase2_batch(
+            shadow,
+            assignment_path,
+            "batch-02-disease",
+        )
+        codes = {
+            finding.code
+            for finding in audit.validate_baseline_lock(attacked_context)
+        }
+
+    assert codes == {"phase2-trusted-batch-lock-mismatch"}
+
+
+def test_phase2a_batch02_pending_scaffold_is_honest_and_nonterminal() -> None:
+    root, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    evidence = context.evidence
+    assert isinstance(baseline, dict)
+    assert isinstance(evidence, dict)
+    assert evidence["status"] == "baseline"
+    assert evidence["workflow"] == {
+        "sequence": 2,
+        "predecessor": "batch-01-anatomy",
+        "implementer": "/root/phase2a_task3_1_impl",
+        "reviewer": None,
+        "reviewStatus": "not-started",
+        "reviewedBaselineSha256": None,
+    }
+    assert evidence["manualReviewFactIds"] == []
+    assert evidence["generatedManifest"] == (
+        "docs/reports/nr-summary-rewrite/phase2a/generated/"
+        "batch-02-disease.json"
+    )
+    assert [entry["slug"] for entry in evidence["notes"]] == list(
+        BATCH02_DISEASE_SLUGS
+    )
+    assert all(entry["status"] == "pending" for entry in evidence["notes"])
+    assert all(
+        fact["disposition"] == "pending"
+        for entry in evidence["notes"]
+        for fact in entry["facts"]
+    )
+    assert all(
+        "coverageEvidenceSha256" not in entry
+        and "validation" not in entry
+        and "newUnsupportedFacts" not in entry
+        for entry in evidence["notes"]
+    )
+    assert audit.build_phase2_pending_evidence_scaffold(
+        context,
+        implementer="/root/phase2a_task3_1_impl",
+    ) == evidence
+    assert audit.build_phase2_pending_evidence_scaffold_bytes(
+        context,
+        implementer="/root/phase2a_task3_1_impl",
+    ) == (root / context.evidence_path).read_bytes()
+    terminal_findings = audit.validate_phase2_batch(
+        context,
+        check_source_hashes=True,
+        check_generated=False,
+    )
+    assert any(
+        finding.severity == "error" for finding in terminal_findings
+    )
+
+
+def test_phase2a_batch02_baseline_has_relocated_checkout_parity() -> None:
+    root, assignment_path, context = _production_phase2a_batch02()
+    canonical_codes = [
+        finding.code
+        for finding in (
+            audit.validate_baseline_lock(context)
+            + audit._validate_phase2_source_state(context, pre_edit=True)
+        )
+    ]
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "relocated" / "shadow"
+        paths = [
+            assignment_path,
+            context.inventory_path,
+            context.baseline_path.parent / "batch-01-anatomy.json",
+            context.baseline_path,
+            context.evidence_path,
+            *(Path(record.path) for record in context.note_records.values()),
+        ]
+        for relative in paths:
+            destination = shadow / relative
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(root / relative, destination)
+        shadow_context = audit.load_phase2_batch(
+            shadow,
+            assignment_path,
+            "batch-02-disease",
+        )
+        shadow_codes = [
+            finding.code
+            for finding in (
+                audit.validate_baseline_lock(shadow_context)
+                + audit._validate_phase2_source_state(
+                    shadow_context, pre_edit=True
+                )
+            )
+        ]
+    assert canonical_codes == shadow_codes == []
+
+
+def test_phase2a_batch02_preserves_approved_batch01_prerequisite() -> None:
+    root, _, batch01_context = _production_phase2a_batch01()
+    for relative, expected_sha256 in BATCH01_APPROVED_ARTIFACT_SHA256.items():
+        assert hashlib.sha256((root / relative).read_bytes()).hexdigest() == (
+            expected_sha256
+        )
+    assert audit.validate_phase2_batch(
+        batch01_context,
+        check_source_hashes=False,
+        check_generated=True,
+    ) == []
+    manifest = json.loads(
+        (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "generated"
+            / "batch-01-anatomy.json"
+        ).read_text(encoding="utf-8")
+    )
+    assert audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256[
+        "batch-01-anatomy"
+    ] == canonical_sha256(
+        audit._phase2_generated_observation_projection(manifest)
+    )
+
+    _, _, batch02_context = _production_phase2a_batch02()
+    expected_baseline_bytes = audit.build_phase2_baseline_lock_bytes(
+        batch02_context,
+        _baseline_fact_templates(batch02_context.baseline),
+    )
+    original_observation_registry = (
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+    )
+    try:
+        for registry in (
+            {},
+            {"batch-01-anatomy": "f" * 64},
+        ):
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = registry
+            assert audit.build_phase2_baseline_lock_bytes(
+                batch02_context,
+                _baseline_fact_templates(batch02_context.baseline),
+            ) == expected_baseline_bytes
+    finally:
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+            original_observation_registry
+        )
 
 
 def run_smoke() -> None:

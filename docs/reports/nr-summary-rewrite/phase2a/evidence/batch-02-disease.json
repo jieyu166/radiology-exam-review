@@ -1,0 +1,1223 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "batch-02-disease",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-02-disease.json",
+    "sha256": "9d10c8fc2e927b19f273ca06e96d3c61b814aabb958c765267f5d5014e2c9516"
+  },
+  "status": "baseline",
+  "workflow": {
+    "sequence": 2,
+    "predecessor": "batch-01-anatomy",
+    "implementer": "/root/phase2a_task3_1_impl",
+    "reviewer": null,
+    "reviewStatus": "not-started",
+    "reviewedBaselineSha256": null
+  },
+  "notes": [
+    {
+      "slug": "2-hydroxyglutarate-idh-mutant-glioma",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **2-HG 是 IDH 突變的專屬代謝物**：突變型 IDH1/IDH2 把 α-ketoglutarate 還原成 D-2-hydroxyglutarate，使其在腫瘤內堆積至可被 MRS 偵測。[^1][^2]\n- **共振位置 2.25 ppm**：Radiopaedia MR spectroscopy 明列 2-HG peak resonates at 2.25 ppm；此區與 GABA、glutamate-glutamine（Glx, 2.2–2.4 ppm）重疊，需最佳化 echo time（optimized TE）的 MRS 序列（如 2D correlation）以區辨。[^1][^3]\n- **偽陽性須慎防**：IDH-wild-type glioblastoma 亦可測得偽陽性 2-HG 峰，整體偽陽率約 21%；當腫瘤壞死 > 20% 時偽陽率升至約 50%（多源自壞死與 lactate 訊號干擾），故取樣體素應置於實質腫瘤、避開壞死區。[^3]\n- **只見於 IDH-mutant 腫瘤**：Diffuse astrocytoma（IDH-mutant）、Anaplastic astrocytoma（IDH-mutant，2021 WHO 已整併為 astrocytoma IDH-mutant grade 2–4）皆可見升高的 2-HG；**IDH-wild-type 星細胞瘤與 IDH-wild-type glioblastoma 則無 2-HG 峰**。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f02",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f03",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f04",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f05",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "2-hydroxyglutarate-idh-mutant-glioma-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*MR spectroscopy* 與 *2-hydroxyglutarate*. Radiopaedia.org（實際查證 accessed 2026-07-05）：MR spectroscopy 條目明列「2-hydroxyglutarate peak: resonates at 2.25 ppm」，並列於腦部 MRS 代謝物峰（NAA 2.0、Cr 3.0、Cho 3.2、lactate/lipids 1.3、myoinositol 3.5 ppm 等）之中；2-HG 為 IDH 突變之產物。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** Brat D, Reuss D, et al.（WHO Classification of Tumours Editorial Board 5th ed.）；相關文獻見 *Astrocytoma, IDH-mutant*. Radiopaedia.org（rID 之引用清單，實際查證 accessed 2026-07-05）：IDH-mutant astrocytoma 為瀰漫性膠質瘤，突變型 IDH 產生 2-HG 可經 MRS 偵測；2021 WHO 將 astrocytoma IDH-mutant 分 grade 2–4；IDH-wild-type glioblastoma 不產生 2-HG。原題出處 Osborn's Brain 2nd ed. P.529。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "**Tier 1** Suh CH, Kim HS, et al. *False-Positive Measurement at 2-HG MR Spectroscopy in Patients With IDH Wild-Type Glioblastoma.* Radiology. 2019;291(3):752-762（DOI [10.1148/radiol.2019182200](https://doi.org/10.1148/radiol.2019182200)；PMID 30990380；摘要 accessed 2026-07-12）：IDH-wildtype GBM 之 2-HG 偽陽率約 21%，壞死 > 20% 時升至約 50%；建議體素取實質腫瘤、避開壞死以降低偽陽。"
+        }
+      }
+    },
+    {
+      "slug": "adrenoleukodystrophy",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n\n### 疾病與族群\n- **遺傳/代謝**：X-linked 過氧化體（peroxisomal）病,**ABCD1** 基因突變;**極長鏈脂肪酸（VLCFA）顯著升高**,於腎上腺、CNS 髓鞘、Leydig 細胞堆積。表型由重到輕：兒童腦型（CerALD）→ 成人 adrenomyeloneuropathy（AMN）→ Addison-only → 無症狀。[^1][^2]\n- **典型族群**：兒童腦型多見於 **5–12 歲男童**,以行為/學業退步、視聽功能障礙起病;影像進展快、預後差。**childhood cerebral 型為最重、快速退化的表型,腦 MRI 為初診與追蹤（含鑑別）的主軸**。[^2][^3][^10]\n\n### 判讀骨架（兒童腦型）\n- **分布（核心判讀點）**：**頂枕（parieto-occipital）/peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號**,早期即累及**胼胝體壓部（splenium of corpus callosum）**,病灶經壓部跨中線連成對稱馬蹄/蝴蝶狀,典型由**後向前進展**。可沿下行/上行纖維束累及**視放射（visual）與聽放射（auditory pathway）**、皮質脊髓束（projection fibres）。[^2][^3][^4]\n- **三區帶（Schaumburg zones,由中央向外）**：\n  - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。[^4][^3]\n  - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。[^4][^3]\n  - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。[^4]\n- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。**周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間**。[^5][^3][^10]\n- **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。[^1]\n\n### 成人型 adrenomyeloneuropathy（AMN）\n- **臨床**：多在 **20–30 歲**起病,進行性**痙攣性下肢輕癱（spastic paraparesis）**、後柱本體覺障礙、周邊神經病變、括約肌障礙;常合併**腎上腺功能不全**。[^1][^6]\n- **影像**：病變主場在**脊髓**——胸（及腰、頸）段**皮質脊髓束與後柱（dorsal columns）**長束退化,造成**脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平**;腦白質可正常或輕微受累（與兒童腦型相反）。[^6][^7]\n\n### 腎上腺關聯（Addison）\n- **原發性腎上腺功能不全（PAI）**見於約 **70% 的 ALD/AMN 男性**(女性帶因者約 5%);VLCFA 堆積以腎上腺最顯著,X-ALD 可**先以 Addison's disease 表現**。判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。[^8]\n\n### 鑑別判讀（分水嶺）\n- **後部白質對稱＋胼胝體壓部受累＋活動性強化前緣** → **X-linked ALD** 的判讀指紋。[^2][^3]\n- **PML**：免疫低下、不對稱、皮質下 U-fibre、通常**不強化**（除 IRIS）、無腎上腺關聯。\n- **其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。[^9][^11]\n- **PRES（後部可逆性腦病）**：亦後部頂枕為主,但多為皮質下血管源性水腫、**可逆**、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。\n\n### 本題\n- 10 歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高＋邊緣強化 → **X-linked ALD**（2016-185 正解 A）;鑑別 Alexander（額葉為主）、Krabbe（後肢/錐體束、視放射）、MS（不對稱、年長）。[^2]\n\n> [!note] 考點\n> 男童、後部（頂枕/splenium）對稱白質 T2 高＋**周邊 leading edge 強化** → **X-linked adrenoleukodystrophy**。[^1]\n\n### 參考來源\n[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。\n[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。\n[^3]: *Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;周邊強化＝活動性脫髓鞘/發炎;DWI 周室高訊號合併低 ADC（restricted diffusion）。\n[^4]: *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。\n[^5]: *X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;初診有強化者多數後續進展。\n[^6]: *Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;脊髓萎縮、demyelination 為主而非單純軸突損傷。\n[^7]: *Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。\n[^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。\n[^9]: *Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。\n[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。\n[^11]: *Leukodystrophies*（含 X-ALD）. Radiopaedia.org（rID 5266；DOI [10.53347/rID-5266](https://doi.org/10.53347/rID-5266)；搜尋摘要 accessed 2026-07-12；X-ALD 專屬文章 rID 未取得（正文 403））：leukodystrophy 分類與各型白質分布鑑別。\n\n",
+      "facts": [
+        {
+          "id": "adrenoleukodystrophy-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f04",
+          "sourceRefs": [
+            "2",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f05",
+          "sourceRefs": [
+            "2",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f06",
+          "sourceRefs": [
+            "2",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f07",
+          "sourceRefs": [
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f08",
+          "sourceRefs": [
+            "2",
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f09",
+          "sourceRefs": [
+            "4",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f10",
+          "sourceRefs": [
+            "4",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f11",
+          "sourceRefs": [
+            "4",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f12",
+          "sourceRefs": [
+            "4",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f13",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f14",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f15",
+          "sourceRefs": [
+            "5",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f16",
+          "sourceRefs": [
+            "5",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f17",
+          "sourceRefs": [
+            "5",
+            "3",
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f18",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f19",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f20",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f21",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f22",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f23",
+          "sourceRefs": [
+            "6",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f24",
+          "sourceRefs": [
+            "6",
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f25",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f26",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f27",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f28",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f29",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f30",
+          "sourceRefs": [
+            "9",
+            "11"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f31",
+          "sourceRefs": [
+            "9",
+            "11"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f32",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f33",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f34",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f35",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f36",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f37",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f38",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f39",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f40",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f41",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f42",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f43",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f44",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f45",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f46",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f47",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f48",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f49",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f50",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f51",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f52",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f53",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f54",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f55",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f56",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f57",
+          "sourceRefs": [
+            "5"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f58",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f59",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f60",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f61",
+          "sourceRefs": [
+            "7"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f62",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f63",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f64",
+          "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f65",
+          "sourceRefs": [
+            "9"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f66",
+          "sourceRefs": [
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f67",
+          "sourceRefs": [
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f68",
+          "sourceRefs": [
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f69",
+          "sourceRefs": [
+            "10"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f70",
+          "sourceRefs": [
+            "11"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "*Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;周邊強化＝活動性脫髓鞘/發炎;DWI 周室高訊號合併低 ADC（restricted diffusion）。"
+        },
+        "10": {
+          "kind": "existing-footnote",
+          "locator": "10",
+          "citation": "**Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "*MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "*X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;初診有強化者多數後續進展。"
+        },
+        "6": {
+          "kind": "existing-footnote",
+          "locator": "6",
+          "citation": "*Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;脊髓萎縮、demyelination 為主而非單純軸突損傷。"
+        },
+        "7": {
+          "kind": "existing-footnote",
+          "locator": "7",
+          "citation": "*Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。"
+        },
+        "8": {
+          "kind": "existing-footnote",
+          "locator": "8",
+          "citation": "*X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。"
+        },
+        "9": {
+          "kind": "existing-footnote",
+          "locator": "9",
+          "citation": "*Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。"
+        },
+        "11": {
+          "kind": "existing-footnote",
+          "locator": "11",
+          "citation": "*Leukodystrophies*（含 X-ALD）. Radiopaedia.org（rID 5266；DOI [10.53347/rID-5266](https://doi.org/10.53347/rID-5266)；搜尋摘要 accessed 2026-07-12；X-ALD 專屬文章 rID 未取得（正文 403））：leukodystrophy 分類與各型白質分布鑑別。"
+        }
+      }
+    },
+    {
+      "slug": "aicardi-syndrome",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **遺傳/性別**：**X 連鎖、對男性致死**，幾乎僅女性表現（罕見 47,XXY 男性例外）；發生率約 1/100,000。[^1][^2]\n- **典型三主徵**：[^1][^2]\n  1. **Corpus callosal dysgenesis/agenesis（胼胝體發育不良）**：**最一致特徵**。\n  2. **Chorioretinal lacunae**：視神經盤周圍**點狀 punched-out**（視網膜色素層），**近 pathognomonic**。\n  3. **Infantile spasms/早發癲癇**：**點頭式（salaam/flexion）**痙攣 + 低頭動作。\n- **非三主徵**：**顱內囊腫（intracranial cyst）**雖可見（interhemispheric/後顱窩囊腫）但**不屬三主徵**。[^1][^2]\n- **常見合併 CNS 畸形**：灰質異位、**polymicrogyria（frontal/perisylvian）**、**後顱窩異常（95%，Dandy-Walker continuum）**、**choroid plexus papilloma/carcinoma**、視神經 coloboma。[^2]\n\n",
+      "facts": [
+        {
+          "id": "aicardi-syndrome-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f03",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f04",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f05",
+          "sourceRefs": [],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f07",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解；Ref: Diagnostic Imaging: Brain, 2nd ed., I(1):128-129（題目所引）——Aicardi 為 X 連鎖對男性致死之罕見發育性疾病；三主徵 infantile spasms、corpus callosal dysgenesis（最一致）、chorioretinal lacunae（病理特徵性）；顱內囊腫非三主徵。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gaillard F, et al. *Aicardi syndrome*. Radiopaedia, rID-5377, DOI 10.53347/rID-5377（輔助來源）——**僅女性表現（罕見 47,XXY 例外）**、~1/100,000；**classic triad：agenesis of corpus callosum、chorioretinal lacunae（punched-out、近 pathognomonic）、infantile spasms/早發癲癇**；合併灰質異位、polymicrogyria、後顱窩異常（95%，Dandy-Walker）、choroid plexus papilloma/carcinoma、視神經 coloboma。"
+        }
+      }
+    },
+    {
+      "slug": "als-imaging",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **Bright tongue sign**：**舌肌 T1 高訊號**——慢性去神經致脂肪取代;為 **ALS**（bulbar 侵犯）的標記。[^1]\n- **Motor band sign**：運動皮質（precentral gyrus）沿皮質的 **T2/SWI 低訊號**（小膠質鐵沉積）。[^1]\n- **皮質脊髓束（CST）T2/FLAIR 高訊號**（internal capsule 後肢最早），為上運動神經元變性之影像。[^1]\n\n",
+      "facts": [
+        {
+          "id": "als-imaging-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "als-imaging-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "als-imaging-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "als-imaging-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Amyotrophic lateral sclerosis*. Radiopaedia.org（輔助來源；實際查證 accessed 2026-06-20）：**motor band sign＝precentral gyrus 雙側 SWI 低訊號（鐵沉積）**;**corticospinal tract T2 高訊號（internal capsule 最早）**;bulbar 侵犯可見 **bright tongue sign（舌肌 T1 高訊號、脂肪取代）**。另 Arq Neuropsiquiatr. 2014;72(7):572（官方 2017 詳解所引）。"
+        }
+      }
+    },
+    {
+      "slug": "angioinvasive-aspergillosis",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **宿主**：免疫低下（AIDS、長期高劑量類固醇、嗜中性球低下、移植）。[^1]\n- **強化**：因免疫反應弱,病灶**強化微弱或不規則**;故「multiple nodules with **strong ring enhancement**」**為假**＝題目正解（2016-162 正解 A）——強烈均勻環狀強化較像化膿性膿瘍。[^1]\n- **周邊 T2 低訊號**：膿瘍周邊低 T2（出血/真菌元素,**GRE/SWI 更明顯**）(option D 對)。[^1]\n- **擴散**：與化膿性膿瘍「均勻高 DWI」不同,麴菌**擴散受限常『異質』、可呈周邊/環狀（ring-like、peripheral）**(option B、C 對)。[^1]\n- **血管侵犯**：可致**腦梗塞、黴菌性動脈瘤、出血**。[^1]\n\n",
+      "facts": [
+        {
+          "id": "angioinvasive-aspergillosis-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "angioinvasive-aspergillosis-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "angioinvasive-aspergillosis-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "angioinvasive-aspergillosis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "angioinvasive-aspergillosis-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "angioinvasive-aspergillosis-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*CNS aspergillosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發免疫低下;**aspergillus 膿瘍周邊 T2 低訊號（出血,GRE/SWI 佳）**;與「classic ring-enhancing、均勻高 DWI」的化膿性膿瘍不同（麴菌強化弱、DWI 異質/周邊）;血管侵犯致梗塞/黴菌性動脈瘤。"
+        }
+      }
+    },
+    {
+      "slug": "anti-nmda-encephalitis",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **族群**：好發**年輕患者、尤其年輕女性**（F:M≈8:2≈4:1）；中位 21 歲、約 **37% 發病時 <18 歲**。[^1][^2]\n- **臨床**：常病毒樣前驅期 → **顯著精神症狀**（約 90% 以精神症狀起病）→ 續發**癲癇/運動異常**、自主神經不穩。[^1][^2]\n- **腫瘤關聯**：**卵巢畸胎瘤**（約 40–60%，年輕女性比例更高、多為成熟畸胎瘤）；**早期切除腫瘤 → 較佳預後**。[^1]\n- **影像**：**MRI 常正常**或僅非特異 T2/FLAIR 高訊號（異常僅約 33–55%），與症狀相關性不佳；**確診靠 CSF/血清抗 NMDAR(GluN1) 抗體、不靠影像**。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "anti-nmda-encephalitis-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "anti-nmda-encephalitis-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*N-methyl-D-aspartic acid receptor (NMDAR) antibody encephalitis*. Radiopaedia.org。好發年輕女性（F:M≈4:1）；卵巢畸胎瘤 40–60%；精神症狀續以癲癇/運動異常；神經影像常正常（實際查證 accessed 2026-06-15）。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Dalmau J, Armangué T, Planagumà J, et al. *An update on anti-NMDA receptor encephalitis for neurologists and psychiatrists: mechanisms and models*. Lancet Neurol. 2019;18(11):1045-1057. DOI 10.1016/S1474-4422(19)30244-3, PMID 31326280（Dalmau 等權威綜述；**全文 PDF 已讀**，醫師提供 accessed 2026-06-21）。診斷準則引自其轉載之 Graus F, et al. Lancet Neurol 2016;15(4):391-404。"
+        }
+      }
+    },
+    {
+      "slug": "arterial-dissection-mri",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **機轉/經典外觀**：內膜/vasa vasorum 撕裂 → 血入 media → **壁內血腫 + 假腔**；**經典＝偏心狹窄管腔 + 新月形壁內血腫 + 薄環狀強化**（adventitia vasa vasorum）。[^1][^2]\n- **訊號隨時期演變**：壁內血腫 MR 呈**多樣訊號**（依血紅素階段），非單一固定。[^1][^2]\n- **典型（亞急性期）**：**T1 FS/T2/DWI 呈高訊號新月徵（crescent sign）**——偏心（eccentric）或偶環周（circumferential）、新月/線狀/帶狀，對應 **methemoglobin** 期。[^1][^2]\n- **急性期陷阱**：急性血腫（**deoxyhemoglobin** 為主）通常呈**低-等訊號**，非高訊號；須數天後轉 methemoglobin 才呈典型高訊號。[^1][^2]\n- **殘餘管腔演變**：隨時間血栓化，殘餘管腔**逐漸縮窄**，**流空（flow void）減少或消失**。[^1]\n\n",
+      "facts": [
+        {
+          "id": "arterial-dissection-mri-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "arterial-dissection-mri-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2016 詳解；Ref: Takahashi S. *Neurovascular Imaging*, p.357（題目所引）——動脈剝離壁內血腫 MR 訊號隨血紅素分解演變、典型偏心/環周新月形高訊號、急性期低訊號、殘餘管腔隨時間縮窄反映流空減少。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gaillard F, et al. *Internal carotid artery dissection*. Radiopaedia, rID-6692, DOI 10.53347/rID-6692（輔助來源）——經典為**偏心狹窄管腔 + 新月形壁內血腫 + 薄環狀（vasa vasorum）強化**；**軸位脂肪抑制 T1（T1 FS）評估（亞急性）壁內血腫呈高訊號新月徵**、DWI 亦可高訊號；CTA 新月高衰減壁增厚/double lumen（急性 deoxyHb 期不呈高訊號為判讀重點）。"
+        }
+      }
+    },
+    {
+      "slug": "atypical-teratoid-rhabdoid-tumor",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **好發年齡（考點）**：**典型見於極年幼兒童，中位年齡 < 2–3 歲**；占 3 歲以下兒童原發性胚胎性 CNS 腫瘤高達約 20%——故「罕見於 < 3 歲」為錯誤。[^1][^2]\n- **病理**：**高惡性度 WHO grade 4 胚胎性腫瘤**；約 95% 有 SMARCB1（INI1）雙套失活；橫紋肌樣細胞為特徵但非診斷必要，需分子/DNA methylation 佐證。[^1][^2]\n- **位置**：**約 47% 幕下、41% 幕上、12% 兩者**；**幕下者常偏中線外（off-midline），好發小腦橋腦角（CPA）**、小腦/腦幹、個別顱神經。[^2]\n- **播散**：**軟腦膜/腦脊髓液播散常見（約 15–20%，初診即可見）**；故疑似 AT/RT 應做全神經軸造影。[^1][^2]\n- **預後**：侵襲性強、預後差；< 3 歲預後更差（約 30% 五年存活）；局部病灶合併三模態治療約 50% 五年存活。[^2]\n\n",
+      "facts": [
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f06",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f07",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f08",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f09",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f10",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f11",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "atypical-teratoid-rhabdoid-tumor-f12",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Atypical teratoid/rhabdoid tumor (AT/RT)*. Radiopaedia.org（實際查證 accessed 2026-07-06）：WHO grade 4 胚胎性腫瘤，絕大多數發生於 < 2 歲幼童，最常見為後顱窩腫塊；影像與 medulloblastoma 相似需細胞遺傳學確診；~95% SMARCB1(INI1) 失活；幕下約 50%，小腦最常見；leptomeningeal dissemination 已見於 15–30% 病例，建議全神經軸造影；預後遠差於 medulloblastoma。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** *Atypical Teratoid/Rhabdoid Tumor*（Brain, Pediatrics, Dx）. STATdx（Elsevier，經奇美 EZproxy 實際查證 accessed 2026-07-06，25 references）：WHO grade 4 惡性胚胎性腫瘤；嬰幼兒異質腦腫塊，實質部 CT 高衰減、MR 擴散受限（高細胞密度）；**47% 幕下／41% 幕上／12% 兩者**，幕下常 off-midline、CPA；leptomeningeal spread 常見（15–20%）；up to 20% of primitive CNS tumors in children < 3 years；診斷 checklist＝年幼（通常 < 3 歲）＋出血/擴散受限＋看似 PNET/MB；DDx medulloblastoma、PNET、ependymoma、teratoma。"
+        }
+      }
+    },
+    {
+      "slug": "autoimmune-encephalitis",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- **臨床光譜**：自體免疫腦炎為相對新興的免疫媒介疾病類別，臨床表現光譜廣泛——從輕微/隱匿發作之認知障礙，到合併頑固性癲癇（refractory seizure）之複雜腦病變皆可見。[^1]\n- **抗體媒介CNS疾病分類**：依**是否合併潛在惡性腫瘤**分為兩大類——**paraneoplastic（副腫瘤性）**與**nonparaneoplastic（非副腫瘤性）**。[^1]\n- **影像角色**：辨識邊緣系統（limbic structures）內提示自體免疫腦炎之特徵性表現，是提醒臨床醫師啟動適當診斷評估之關鍵步驟。[^1]\n- **副腫瘤症候群常見腫瘤**：最常見於**small-cell lung cancer**，亦可見於**neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma**等多種腫瘤。[^1]\n\n",
+      "facts": [
+        {
+          "id": "autoimmune-encephalitis-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "autoimmune-encephalitis-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "autoimmune-encephalitis-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "autoimmune-encephalitis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*American Journal of Neuroradiology* 2017;38(6):1070-1078（2018 交換考題詳解 p.243 引用；Tier 1 期刊）。自體免疫腦炎臨床光譜廣泛（輕微認知障礙至頑固性癲癇腦病變）；抗體媒介CNS疾病依有無潛在惡性腫瘤分paraneoplastic/nonparaneoplastic；邊緣系統特徵性影像表現為關鍵診斷線索；副腫瘤症候群最常見於small-cell lung cancer，亦見於neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma。"
+        }
+      }
+    },
+    {
+      "slug": "basilar-artery-occlusion",
+      "status": "pending",
+      "rewrittenSummary": "## Summary\n- BAO 屬後循環大血管阻塞，未治療死亡率高；病灶部位取決於阻塞節段與側枝供應。[^1]\n- 阻塞好發於基底動脈**近端節（proximal segment）**，亞洲族群病因以**顱內動脈粥樣硬化狹窄（ICAS）**為主，非單純心源性栓塞。[^2]\n- 基底動脈之穿通枝（paramedian/thalamoperforators）供應中腦、橋腦與丘腦，故 BAO 可造成**雙側丘腦梗塞**與 top-of-the-basilar 症候群。[^1]\n- 治療核心為血管內取栓（endovascular thrombectomy），ATTENTION 試驗顯示取栓相較單純內科治療改善預後。[^1]\n- **取栓後預後依病因/機轉分層**：**栓塞且無椎動脈狹窄阻塞（embolism without VA steno-occlusion）取栓後再通率與臨床預後最佳**（Baik 2019：成功再通 ~85%、mRS 0–2 良好結局 ~53%），優於合併 **tandem 椎動脈狹窄阻塞之栓塞**、及**原位動脈粥樣硬化血栓（in situ atherosclerotic thrombosis）**（再通 ~55%、良好結局 ~20%，常需血管成形/支架）；良好結局定義 **mRS 0–2**、不良 3–6。[^3][^4]\n\n",
+      "facts": [
+        {
+          "id": "basilar-artery-occlusion-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f06",
+          "sourceRefs": [
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "basilar-artery-occlusion-f07",
+          "sourceRefs": [
+            "3",
+            "4"
+          ],
+          "disposition": "pending"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "據 PubMed，Tao C, et al. Trial of Endovascular Treatment of Acute Basilar-Artery Occlusion (ATTENTION). N Engl J Med. 2022. [DOI](https://doi.org/10.1056/NEJMoa2206317)。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "據 PubMed，Nguyen TN, et al. Endovascular thrombectomy for basilar artery occlusion: translating research findings into clinical practice. Lancet Neurol. 2022. [DOI](https://doi.org/10.1016/S1474-4422(22)00483-5)。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "**Tier 1** Baik SH, Park HJ, Kim JH, Jang CK, Kim BM, Kim DJ. *Mechanical Thrombectomy in Subtypes of Basilar Artery Occlusion: Relationship to Recanalization Rate and Clinical Outcome.* Radiology. 2019;291(3):730–737. DOI [10.1148/radiol.2019181924](https://doi.org/10.1148/radiol.2019181924)（PMID 30912720；實際查證 accessed 2026-07-10）。82 例急性 BAO 取栓，依機轉分三組：Group 1 embolism without VA steno-occlusion 成功再通 85%／good outcome(mRS 0–2) 53%；Group 3 in situ atherosclerotic thrombosis 再通 55%／good outcome 20%。結論：取栓預後隨中風機轉不同，**最佳預後與再通率為 embolism without VA steno-occlusion**。good outcome 定義 mRS 0–2、poor 3–6。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "*Acute basilar artery occlusion*. Radiopaedia.org, rID-971, DOI [10.53347/rID-971](https://doi.org/10.53347/rID-971)（accessed 2026-07-10，輔助來源）——病因機轉含 thromboembolism（cardioembolic）、atherosclerosis with thrombosis、intracranial dissection 蔓延；distal/basilar tip 為最常見阻塞部位（thromboembolic），近端 vertebrobasilar junction 可為 cardioembolic 或 atherosclerotic with thrombosis。"
+        }
+      }
+    }
+  ],
+  "manualReviewFactIds": [],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-02-disease.json"
+}

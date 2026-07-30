@@ -162,6 +162,9 @@ TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
     "batch-01-anatomy": (
         "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
     ),
+    "batch-02-disease": (
+        "9d10c8fc2e927b19f273ca06e96d3c61b814aabb958c765267f5d5014e2c9516"
+    ),
 }
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
 # Task 1.1 intentionally leaves this empty so generated observations cannot
