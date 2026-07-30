@@ -1518,7 +1518,36 @@ def _phase2_coverage_anchor_is_valid(
     ):
         return False
     bullet = bullet_lines[bullet_index - 1]
-    if quote not in bullet:
+    bullet_match = VALID_BULLET_RE.match(bullet)
+    if bullet_match is None or quote not in bullet:
+        return False
+    footnote_positions = {
+        position
+        for match in FOOTNOTE_REFERENCE_RE.finditer(bullet)
+        for position in range(match.start(), match.end())
+    }
+    medical_body_positions = {
+        position
+        for position in range(bullet_match.end(), len(bullet))
+        if not bullet[position].isspace()
+        and position not in footnote_positions
+    }
+    quote_covers_medical_body = False
+    search_from = 0
+    while True:
+        quote_start = bullet.find(quote, search_from)
+        if quote_start < 0:
+            break
+        quote_end = quote_start + len(quote)
+        if sum(
+            1
+            for position in medical_body_positions
+            if quote_start <= position < quote_end
+        ) >= 8:
+            quote_covers_medical_body = True
+            break
+        search_from = quote_start + 1
+    if not quote_covers_medical_body:
         return False
     if (
         not isinstance(source_refs, list)

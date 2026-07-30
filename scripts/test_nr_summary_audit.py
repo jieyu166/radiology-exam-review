@@ -6480,10 +6480,45 @@ def test_phase2a_batch02_coverage_mapping_rejects_deleted_locked_clause() -> Non
     }
 
 
+def test_phase2a_batch02_coverage_rejects_long_label_only_reseal() -> None:
+    _, _, context = _production_phase2a_batch02()
+    forged_evidence = deepcopy(context.evidence)
+    assert isinstance(forged_evidence, dict)
+    forged_entry = next(
+        entry
+        for entry in forged_evidence["notes"]
+        if entry["slug"] == "2-hydroxyglutarate-idh-mutant-glioma"
+    )
+    forged_fact = next(
+        fact
+        for fact in forged_entry["facts"]
+        if fact["id"] == "2-hydroxyglutarate-idh-mutant-glioma-f06"
+    )
+    forged_fact["coverage"] = [
+        {"bulletIndex": 4, "quote": "**IDH-mutant 腫瘤**"}
+    ]
+    forged_entry["coverageEvidenceSha256"] = (
+        audit.phase2_coverage_evidence_sha256(
+            canonical_sha256(context.baseline),
+            forged_entry,
+        )
+    )
+
+    findings = audit.validate_phase2_batch(
+        replace(context, evidence=forged_evidence),
+        check_source_hashes=False,
+        check_generated=False,
+    )
+    assert "evidence-fact-coverage" in {
+        finding.code for finding in findings
+    }
+
+
 def test_phase2_coverage_anchor_schema_is_fail_closed() -> None:
     bullets = [
         "- **影像**：壞死 > 20% 時偽陽率約 50%。[^1][^3]",
         "- **陷阱**：避開壞死區。[^3]",
+        "- **ABCDEFGH**：ABCDEFGH。[^1][^3]",
     ]
     valid = {"bulletIndex": 1, "quote": "壞死 > 20% 時偽陽率約 50%"}
     assert audit._phase2_coverage_anchor_is_valid(
@@ -6491,12 +6526,25 @@ def test_phase2_coverage_anchor_schema_is_fail_closed() -> None:
         bullets,
         ["1", "3"],
     )
+    assert audit._phase2_coverage_anchor_is_valid(
+        {"bulletIndex": 3, "quote": "ABCDEFGH"},
+        bullets,
+        ["1", "3"],
+    )
+    assert audit._phase2_coverage_anchor_is_valid(
+        {"bulletIndex": 3, "quote": "**ABCDEFGH**：ABCDEFGH"},
+        bullets,
+        ["1", "3"],
+    )
     attacks = (
         {"bulletIndex": 1, "quote": "壞死"},
         {"bulletIndex": 1, "quote": "**影像**"},
+        {"bulletIndex": 3, "quote": "**ABCDEFGH**"},
+        {"bulletIndex": 3, "quote": "**ABCDEFGH**：A"},
+        {"bulletIndex": 1, "quote": "[^1][^3]"},
         {"bulletIndex": 1, "quote": "偽陽率約50%"},
         {"bulletIndex": 0, "quote": valid["quote"]},
-        {"bulletIndex": 3, "quote": valid["quote"]},
+        {"bulletIndex": 4, "quote": valid["quote"]},
         {"bulletIndex": 1, "quote": "不存在的完整事實"},
         {"bulletIndex": 2, "quote": "避開壞死區"},
         {"bulletIndex": True, "quote": valid["quote"]},
