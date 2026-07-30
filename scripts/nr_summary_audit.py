@@ -166,7 +166,11 @@ TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
 # Task 1.1 intentionally leaves this empty so generated observations cannot
 # self-authorize before Tasks 2.3, 3.3, and 4.3 independently review them.
-TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {}
+TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
+    "batch-01-anatomy": (
+        "7adfa693cf5a178e1a393c250b1322f4e7ea4de990fdac16c0afae26f6f9cefd"
+    ),
+}
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
 # evidence.  Task 3 provenance: commit 8dca155, batch blob
@@ -2200,11 +2204,44 @@ def _validate_phase2_own_generated_result(
         observation_digest = _canonical_sha256(
             _phase2_generated_observation_projection(checked)
         )
+        generated_manifest_root = (
+            context.repo_root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2a"
+            / "generated"
+        )
+        present_manifest_ids = {
+            manifest_path.stem
+            for manifest_path in generated_manifest_root.glob("*.json")
+            if manifest_path.stem in ACTIVE_PHASE2A_BATCHES
+        }
+        active_batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+        expected_manifest_prefix = set(
+            active_batch_ids[: len(present_manifest_ids)]
+        )
+        observation_registry = (
+            TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+        )
+        registry_shape_valid = (
+            isinstance(observation_registry, dict)
+            and set(observation_registry) == present_manifest_ids
+            and present_manifest_ids == expected_manifest_prefix
+            and all(
+                isinstance(batch_id, str)
+                and batch_id in ACTIVE_PHASE2A_BATCHES
+                and isinstance(digest, str)
+                and SHA256_RE.fullmatch(digest) is not None
+                for batch_id, digest in observation_registry.items()
+            )
+        )
         trusted_observation = TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256.get(
             context.batch["id"]
         )
         if (
-            not isinstance(trusted_observation, str)
+            not registry_shape_valid
+            or not isinstance(trusted_observation, str)
             or SHA256_RE.fullmatch(trusted_observation) is None
             or trusted_observation != observation_digest
         ):
@@ -2451,6 +2488,29 @@ def run_phase2_generated_observation_workflow(
     )
     post_nonselected = _nonselected_detail_hashes(context)
     post_snapshot = _phase2_generated_snapshot(context)
+    first_run = _phase2_snapshot_delta(pre_snapshot, post_snapshot)
+    allowed_writes = {
+        "data/concepts-index.json",
+        *(
+            (context.generated_root / f"{slug}.json").as_posix()
+            for slug in context.batch["slugs"]
+        ),
+    }
+    unexpected_first_run_paths = (
+        set(first_run["changedPaths"])
+        | set(first_run["mtimeChangedPaths"])
+    ) - allowed_writes
+    if (
+        pre_nonselected != post_nonselected
+        or unexpected_first_run_paths
+    ):
+        raise Phase2LoadError(
+            "generated-unrelated-write",
+            sorted(unexpected_first_run_paths)[0]
+            if unexpected_first_run_paths
+            else context.generated_root.as_posix(),
+            "The scoped build changed or touched a nonselected generated path.",
+        )
     concept_builder.build_selected_concepts(
         context.batch["slugs"],
         src_dir=context.repo_root / "vault" / "concepts",
@@ -2458,14 +2518,7 @@ def run_phase2_generated_observation_workflow(
         index_path=context.repo_root / "data" / "concepts-index.json",
     )
     second_snapshot = _phase2_generated_snapshot(context)
-    first_run = _phase2_snapshot_delta(pre_snapshot, post_snapshot)
     second_run = _phase2_snapshot_delta(post_snapshot, second_snapshot)
-    if pre_nonselected != post_nonselected:
-        raise Phase2LoadError(
-            "generated-unrelated-write",
-            context.generated_root.as_posix(),
-            "The scoped build changed a nonselected detail.",
-        )
     if second_run["changedPaths"] or second_run["mtimeChangedPaths"]:
         raise Phase2LoadError(
             "generated-non-idempotent",
