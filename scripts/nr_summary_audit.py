@@ -25,7 +25,7 @@ FOOTNOTE_DEFINITION_RE = re.compile(r"^\[\^(?P<id>[^\]\r\n]+)\]:", re.MULTILINE)
 FOOTNOTE_REFERENCE_RE = re.compile(r"\[\^(?P<id>[^\]\r\n]+)\]")
 VALID_BULLET_RE = re.compile(r"^- \*\*[^*]+\*\*[:\uFF1A]")
 TOP_LEVEL_BULLET_RE = re.compile(r"^-\s*(?P<content>.*)$")
-NESTED_BULLET_RE = re.compile(r"^\s{2,}[-*+]\s+")
+NESTED_BULLET_RE = re.compile(r"^\s{2,}(?:[-*+]|\d+[.)])\s+")
 CALLOUT_RE = re.compile(r"^\s*>\s*\[![^\]]+\]", re.IGNORECASE)
 TABLE_RE = re.compile(r"^\s*\|.*\|\s*$")
 TABLE_SEPARATOR_RE = re.compile(r"^\s*:?-{3,}:?(?:\s*\|\s*:?-{3,}:?)+\s*$")
@@ -163,7 +163,7 @@ TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
         "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
     ),
     "batch-02-disease": (
-        "9d10c8fc2e927b19f273ca06e96d3c61b814aabb958c765267f5d5014e2c9516"
+        "3c294b4e098fc971ec6cbc67945cc24620752108f7d31bf3c1ba574ef6fd8fa8"
     ),
 }
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
@@ -1065,7 +1065,7 @@ def _phase2_statement_body(source_statement: str) -> str:
     """Return source-language fact text without list/quote markup or footnotes."""
     value = source_statement.strip()
     value = re.sub(r"^>\s*", "", value)
-    value = re.sub(r"^[-*+]\s+", "", value)
+    value = re.sub(r"^(?:[-*+]|\d+[.)])\s+", "", value)
     value = FOOTNOTE_REFERENCE_RE.sub("", value)
     value = value.replace("**", "")
     return value.strip()
@@ -1099,8 +1099,27 @@ def phase2_summary_source_statements(note: NoteRecord) -> list[dict]:
     """Extract exact factual Summary lines and their explicit/enclosing sources."""
     statements: list[dict] = []
     for section in note.summaries:
+        source_lines = section.content.splitlines()
+        definition_lines: set[int] = set()
+        line_index = 0
+        while line_index < len(source_lines):
+            if FOOTNOTE_DEFINITION_RE.match(source_lines[line_index]) is None:
+                line_index += 1
+                continue
+            definition_lines.add(line_index)
+            line_index += 1
+            while line_index < len(source_lines) and (
+                not source_lines[line_index].strip()
+                or source_lines[line_index].startswith("    ")
+                or source_lines[line_index].startswith("\t")
+            ):
+                definition_lines.add(line_index)
+                line_index += 1
+
         enclosing_refs: list[str] = []
-        for source_line in section.content.splitlines():
+        for line_index, source_line in enumerate(source_lines):
+            if line_index in definition_lines:
+                continue
             stripped = source_line.strip()
             if (
                 not stripped
@@ -1115,11 +1134,31 @@ def phase2_summary_source_statements(note: NoteRecord) -> list[dict]:
                 enclosing_refs = explicit_refs
             refs = explicit_refs or (enclosing_refs if is_nested else [])
             body_without_refs = FOOTNOTE_REFERENCE_RE.sub("", stripped).strip()
-            if re.fullmatch(
+            pure_label = re.fullmatch(
                 r"(?:>\s*)?(?:[-*+]\s+)?\*\*[^*]+\*\*[:\uFF1A]\s*",
                 body_without_refs,
-            ):
-                continue
+            ) is not None
+            if pure_label:
+                child_refs = list(explicit_refs)
+                has_nested_child = False
+                child_index = line_index + 1
+                while child_index < len(source_lines):
+                    child_line = source_lines[child_index]
+                    if child_index in definition_lines:
+                        break
+                    if not child_line.strip():
+                        child_index += 1
+                        continue
+                    if NESTED_BULLET_RE.match(child_line) is None:
+                        break
+                    has_nested_child = True
+                    for ref in _ordered_footnote_refs(child_line):
+                        if ref not in child_refs:
+                            child_refs.append(ref)
+                    child_index += 1
+                if not has_nested_child:
+                    continue
+                refs = child_refs
             if not _phase2_statement_body(source_line):
                 continue
             statements.append(
@@ -1136,6 +1175,77 @@ def phase2_default_fact_templates(note: NoteRecord) -> list[dict]:
     facts: list[dict] = []
     for statement in phase2_summary_source_statements(note):
         for text in _phase2_fact_segments(statement["text"]):
+            facts.append(
+                {
+                    "text": text,
+                    "sourceStatement": statement["text"],
+                    "sourceRefs": list(statement["sourceRefs"]),
+                }
+            )
+    return facts
+
+
+def _phase2_legacy_batch01_fact_templates(note: NoteRecord) -> list[dict]:
+    """Recompute only the immutable, already-approved batch-01 projection."""
+    legacy_nested_bullet_re = re.compile(r"^\s{2,}[-*+]\s+")
+
+    def legacy_statement_body(source_statement: str) -> str:
+        value = source_statement.strip()
+        value = re.sub(r"^>\s*", "", value)
+        value = re.sub(r"^[-*+]\s+", "", value)
+        value = FOOTNOTE_REFERENCE_RE.sub("", value)
+        value = value.replace("**", "")
+        return value.strip()
+
+    statements: list[dict] = []
+    for section in note.summaries:
+        enclosing_refs: list[str] = []
+        for source_line in section.content.splitlines():
+            stripped = source_line.strip()
+            if (
+                not stripped
+                or LEVEL_THREE_HEADING_RE.match(stripped)
+                or CALLOUT_RE.match(source_line)
+            ):
+                continue
+            explicit_refs = _ordered_footnote_refs(source_line)
+            is_top_level = TOP_LEVEL_BULLET_RE.match(source_line) is not None
+            is_nested = legacy_nested_bullet_re.match(source_line) is not None
+            if is_top_level:
+                enclosing_refs = explicit_refs
+            refs = explicit_refs or (enclosing_refs if is_nested else [])
+            body_without_refs = FOOTNOTE_REFERENCE_RE.sub("", stripped).strip()
+            if re.fullmatch(
+                r"(?:>\s*)?(?:[-*+]\s+)?\*\*[^*]+\*\*[:\uFF1A]\s*",
+                body_without_refs,
+            ):
+                continue
+            if not legacy_statement_body(source_line):
+                continue
+            statements.append({"text": source_line, "sourceRefs": list(refs)})
+
+    facts: list[dict] = []
+    for statement in statements:
+        value = legacy_statement_body(statement["text"])
+        segments: list[str] = []
+        start = 0
+        depth = 0
+        opening = {"(": ")", "（": "）", "[": "]", "【": "】"}
+        closing = set(opening.values())
+        for index, character in enumerate(value):
+            if character in opening:
+                depth += 1
+            elif character in closing and depth:
+                depth -= 1
+            elif depth == 0 and character in {";", "；", "。"}:
+                segment = value[start : index + 1].strip()
+                if segment:
+                    segments.append(segment)
+                start = index + 1
+        tail = value[start:].strip()
+        if tail:
+            segments.append(tail)
+        for text in segments:
             facts.append(
                 {
                     "text": text,
@@ -1589,7 +1699,8 @@ def _phase2_trust_registry_is_valid(context: BatchContext) -> bool:
     if not isinstance(registry, Mapping):
         return False
     registered = set(registry)
-    active_ids = set(ACTIVE_PHASE2A_BATCHES)
+    ordered_active_ids = list(ACTIVE_PHASE2A_BATCHES)
+    active_ids = set(ordered_active_ids)
     if not registered <= active_ids:
         return False
     present_active = {
@@ -1601,7 +1712,8 @@ def _phase2_trust_registry_is_valid(context: BatchContext) -> bool:
             / f"{batch_id}.json"
         ).is_file()
     }
-    if registered != present_active:
+    expected_prefix = set(ordered_active_ids[: len(registered)])
+    if registered != expected_prefix or present_active != expected_prefix:
         return False
     return all(
         isinstance(value, str) and SHA256_RE.fullmatch(value)
@@ -1757,7 +1869,11 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                 note.path,
                 "---\nsubspecialty: [NR]\n---\n" + locked_summary,
             )
-            expected_templates = phase2_default_fact_templates(locked_note)
+            expected_templates = (
+                _phase2_legacy_batch01_fact_templates(locked_note)
+                if context.batch["id"] == "batch-01-anatomy"
+                else phase2_default_fact_templates(locked_note)
+            )
             locked_summary_headings = [
                 section.heading for section in locked_note.summaries
             ]

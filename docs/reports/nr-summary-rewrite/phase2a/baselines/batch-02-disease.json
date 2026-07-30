@@ -167,6 +167,15 @@
         },
         {
           "id": "adrenoleukodystrophy-f09",
+          "text": "三區帶（Schaumburg zones,由中央向外）：",
+          "sourceStatement": "- **三區帶（Schaumburg zones,由中央向外）**：",
+          "sourceRefs": [
+            "4",
+            "3"
+          ]
+        },
+        {
+          "id": "adrenoleukodystrophy-f10",
           "text": "中央帶：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → T2 最高、T1 最低;",
           "sourceStatement": "  - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。[^4][^3]",
           "sourceRefs": [
@@ -175,7 +184,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f10",
+          "id": "adrenoleukodystrophy-f11",
           "text": "DWI 低訊號（diffusional anisotropy 完全喪失）。",
           "sourceStatement": "  - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。[^4][^3]",
           "sourceRefs": [
@@ -184,7 +193,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f11",
+          "id": "adrenoleukodystrophy-f12",
           "text": "中間帶（活動性發炎脫髓鞘）：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與血管周淋巴球浸潤 → gadolinium 強化帶（enhancing leading edge）;",
           "sourceStatement": "  - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。[^4][^3]",
           "sourceRefs": [
@@ -193,7 +202,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f12",
+          "id": "adrenoleukodystrophy-f13",
           "text": "DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）。",
           "sourceStatement": "  - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。[^4][^3]",
           "sourceRefs": [
@@ -202,7 +211,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f13",
+          "id": "adrenoleukodystrophy-f14",
           "text": "周邊帶（prelesional／前緣活動脫髓鞘）：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → DWI 微高訊號（部分為 T2 shine-through）;",
           "sourceStatement": "  - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。[^4]",
           "sourceRefs": [
@@ -210,7 +219,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f14",
+          "id": "adrenoleukodystrophy-f15",
           "text": "此即影像所見的最外側活動前緣。",
           "sourceStatement": "  - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。[^4]",
           "sourceRefs": [
@@ -218,7 +227,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f15",
+          "id": "adrenoleukodystrophy-f16",
           "text": "強化＝活動性：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,可預測病灶進展;",
           "sourceStatement": "- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。**周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間**。[^5][^3][^10]",
           "sourceRefs": [
@@ -228,7 +237,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f16",
+          "id": "adrenoleukodystrophy-f17",
           "text": "系列研究中初診有強化者約 86% 後續進展。",
           "sourceStatement": "- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。**周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間**。[^5][^3][^10]",
           "sourceRefs": [
@@ -238,7 +247,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f17",
+          "id": "adrenoleukodystrophy-f18",
           "text": "周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間。",
           "sourceStatement": "- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。**周邊 gadolinium 強化即為活動性脫髓鞘的「leading edge（前緣）」,位於已脫髓鞘的中央帶與尚正常白質之間**。[^5][^3][^10]",
           "sourceRefs": [
@@ -248,7 +257,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f18",
+          "id": "adrenoleukodystrophy-f19",
           "text": "Loes score（嚴重度量化）：腦 MRI 評分系統,最高 34 分,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。",
           "sourceStatement": "- **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。[^1]",
           "sourceRefs": [
@@ -256,7 +265,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f19",
+          "id": "adrenoleukodystrophy-f20",
           "text": "一般 ≤4 為輕、5–10 中、>10 重;",
           "sourceStatement": "- **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。[^1]",
           "sourceRefs": [
@@ -264,7 +273,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f20",
+          "id": "adrenoleukodystrophy-f21",
           "text": "臨床用於 HSCT（造血幹細胞移植）時機與預後判斷——Loes <9（近年趨向 ≤4）且早期介入者存活與神經預後較佳。",
           "sourceStatement": "- **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。[^1]",
           "sourceRefs": [
@@ -272,7 +281,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f21",
+          "id": "adrenoleukodystrophy-f22",
           "text": "臨床：多在 20–30 歲起病,進行性痙攣性下肢輕癱（spastic paraparesis）、後柱本體覺障礙、周邊神經病變、括約肌障礙;",
           "sourceStatement": "- **臨床**：多在 **20–30 歲**起病,進行性**痙攣性下肢輕癱（spastic paraparesis）**、後柱本體覺障礙、周邊神經病變、括約肌障礙;常合併**腎上腺功能不全**。[^1][^6]",
           "sourceRefs": [
@@ -281,7 +290,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f22",
+          "id": "adrenoleukodystrophy-f23",
           "text": "常合併腎上腺功能不全。",
           "sourceStatement": "- **臨床**：多在 **20–30 歲**起病,進行性**痙攣性下肢輕癱（spastic paraparesis）**、後柱本體覺障礙、周邊神經病變、括約肌障礙;常合併**腎上腺功能不全**。[^1][^6]",
           "sourceRefs": [
@@ -290,7 +299,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f23",
+          "id": "adrenoleukodystrophy-f24",
           "text": "影像：病變主場在脊髓——胸（及腰、頸）段皮質脊髓束與後柱（dorsal columns）長束退化,造成脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平;",
           "sourceStatement": "- **影像**：病變主場在**脊髓**——胸（及腰、頸）段**皮質脊髓束與後柱（dorsal columns）**長束退化,造成**脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平**;腦白質可正常或輕微受累（與兒童腦型相反）。[^6][^7]",
           "sourceRefs": [
@@ -299,7 +308,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f24",
+          "id": "adrenoleukodystrophy-f25",
           "text": "腦白質可正常或輕微受累（與兒童腦型相反）。",
           "sourceStatement": "- **影像**：病變主場在**脊髓**——胸（及腰、頸）段**皮質脊髓束與後柱（dorsal columns）**長束退化,造成**脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平**;腦白質可正常或輕微受累（與兒童腦型相反）。[^6][^7]",
           "sourceRefs": [
@@ -308,7 +317,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f25",
+          "id": "adrenoleukodystrophy-f26",
           "text": "原發性腎上腺功能不全（PAI）見於約 70% 的 ALD/AMN 男性(女性帶因者約 5%);",
           "sourceStatement": "- **原發性腎上腺功能不全（PAI）**見於約 **70% 的 ALD/AMN 男性**(女性帶因者約 5%);VLCFA 堆積以腎上腺最顯著,X-ALD 可**先以 Addison's disease 表現**。判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。[^8]",
           "sourceRefs": [
@@ -316,7 +325,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f26",
+          "id": "adrenoleukodystrophy-f27",
           "text": "VLCFA 堆積以腎上腺最顯著,X-ALD 可先以 Addison's disease 表現。",
           "sourceStatement": "- **原發性腎上腺功能不全（PAI）**見於約 **70% 的 ALD/AMN 男性**(女性帶因者約 5%);VLCFA 堆積以腎上腺最顯著,X-ALD 可**先以 Addison's disease 表現**。判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。[^8]",
           "sourceRefs": [
@@ -324,7 +333,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f27",
+          "id": "adrenoleukodystrophy-f28",
           "text": "判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。",
           "sourceStatement": "- **原發性腎上腺功能不全（PAI）**見於約 **70% 的 ALD/AMN 男性**(女性帶因者約 5%);VLCFA 堆積以腎上腺最顯著,X-ALD 可**先以 Addison's disease 表現**。判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。[^8]",
           "sourceRefs": [
@@ -332,7 +341,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f28",
+          "id": "adrenoleukodystrophy-f29",
           "text": "後部白質對稱＋胼胝體壓部受累＋活動性強化前緣 → X-linked ALD 的判讀指紋。",
           "sourceStatement": "- **後部白質對稱＋胼胝體壓部受累＋活動性強化前緣** → **X-linked ALD** 的判讀指紋。[^2][^3]",
           "sourceRefs": [
@@ -341,13 +350,13 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f29",
+          "id": "adrenoleukodystrophy-f30",
           "text": "PML：免疫低下、不對稱、皮質下 U-fibre、通常不強化（除 IRIS）、無腎上腺關聯。",
           "sourceStatement": "- **PML**：免疫低下、不對稱、皮質下 U-fibre、通常**不強化**（除 IRIS）、無腎上腺關聯。",
           "sourceRefs": []
         },
         {
-          "id": "adrenoleukodystrophy-f30",
+          "id": "adrenoleukodystrophy-f31",
           "text": "其他 leukodystrophy：Krabbe 與 MLD（metachromatic）多為瀰漫或後肢／錐體束、可累及視放射,典型早期額部受累者見 Alexander;",
           "sourceStatement": "- **其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。[^9][^11]",
           "sourceRefs": [
@@ -356,7 +365,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f31",
+          "id": "adrenoleukodystrophy-f32",
           "text": "ALD 以後部對稱＋壓部＋強化前緣區分。",
           "sourceStatement": "- **其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。[^9][^11]",
           "sourceRefs": [
@@ -365,13 +374,13 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f32",
+          "id": "adrenoleukodystrophy-f33",
           "text": "PRES（後部可逆性腦病）：亦後部頂枕為主,但多為皮質下血管源性水腫、可逆、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。",
           "sourceStatement": "- **PRES（後部可逆性腦病）**：亦後部頂枕為主,但多為皮質下血管源性水腫、**可逆**、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。",
           "sourceRefs": []
         },
         {
-          "id": "adrenoleukodystrophy-f33",
+          "id": "adrenoleukodystrophy-f34",
           "text": "10 歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高＋邊緣強化 → X-linked ALD（2016-185 正解 A）;",
           "sourceStatement": "- 10 歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高＋邊緣強化 → **X-linked ALD**（2016-185 正解 A）;鑑別 Alexander（額葉為主）、Krabbe（後肢/錐體束、視放射）、MS（不對稱、年長）。[^2]",
           "sourceRefs": [
@@ -379,7 +388,7 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f34",
+          "id": "adrenoleukodystrophy-f35",
           "text": "鑑別 Alexander（額葉為主）、Krabbe（後肢/錐體束、視放射）、MS（不對稱、年長）。",
           "sourceStatement": "- 10 歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高＋邊緣強化 → **X-linked ALD**（2016-185 正解 A）;鑑別 Alexander（額葉為主）、Krabbe（後肢/錐體束、視放射）、MS（不對稱、年長）。[^2]",
           "sourceRefs": [
@@ -387,291 +396,11 @@
           ]
         },
         {
-          "id": "adrenoleukodystrophy-f35",
+          "id": "adrenoleukodystrophy-f36",
           "text": "男童、後部（頂枕/splenium）對稱白質 T2 高＋周邊 leading edge 強化 → X-linked adrenoleukodystrophy。",
           "sourceStatement": "> 男童、後部（頂枕/splenium）對稱白質 T2 高＋**周邊 leading edge 強化** → **X-linked adrenoleukodystrophy**。[^1]",
           "sourceRefs": [
             "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f36",
-          "text": ": *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f37",
-          "text": "≤4 輕／5–10 中／>10 重;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f38",
-          "text": "評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f39",
-          "text": "HSCT 閾值 Loes <9（近年趨 ≤4）;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f40",
-          "text": "典型頂枕＋壓部、後→前進展;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f41",
-          "text": "post-contrast 強化＝活動性發炎前緣;",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f42",
-          "text": "X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceStatement": "[^1]: *Loes Score: Clinical and Radiological Profile of 22 Patients of X-Linked Adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC8448211：Loes score 最高 34 分;≤4 輕／5–10 中／>10 重;評分區域含頂枕、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹;HSCT 閾值 Loes <9（近年趨 ≤4）;典型頂枕＋壓部、後→前進展;post-contrast 強化＝活動性發炎前緣;X-ALD 影響腎上腺、CNS 髓鞘、Leydig 細胞,部分為 Addison-only。",
-          "sourceRefs": [
-            "1"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f43",
-          "text": ": *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;",
-          "sourceStatement": "[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。",
-          "sourceRefs": [
-            "2"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f44",
-          "text": "早期 splenium of corpus callosum;",
-          "sourceStatement": "[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。",
-          "sourceRefs": [
-            "2"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f45",
-          "text": "peripheral zone＝leading edge of active demyelination（強化）;",
-          "sourceStatement": "[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。",
-          "sourceRefs": [
-            "2"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f46",
-          "text": "VLCFA 顯著升高;",
-          "sourceStatement": "[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。",
-          "sourceRefs": [
-            "2"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f47",
-          "text": "ABCD1。",
-          "sourceStatement": "[^2]: *X-linked adrenoleukodystrophy*. Radiopaedia.org（輔助,accessed 2026-06-29）：posterior-predominant、peritrigonal 頂枕深部白質對稱 T2 高;早期 splenium of corpus callosum;peripheral zone＝leading edge of active demyelination（強化）;VLCFA 顯著升高;ABCD1。",
-          "sourceRefs": [
-            "2"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f48",
-          "text": ": *Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;",
-          "sourceStatement": "[^3]: *Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;周邊強化＝活動性脫髓鞘/發炎;DWI 周室高訊號合併低 ADC（restricted diffusion）。",
-          "sourceRefs": [
-            "3"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f49",
-          "text": "周邊強化＝活動性脫髓鞘/發炎;",
-          "sourceStatement": "[^3]: *Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;周邊強化＝活動性脫髓鞘/發炎;DWI 周室高訊號合併低 ADC（restricted diffusion）。",
-          "sourceRefs": [
-            "3"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f50",
-          "text": "DWI 周室高訊號合併低 ADC（restricted diffusion）。",
-          "sourceStatement": "[^3]: *Role of MRI in X-linked adrenoleukodystrophy—A case report*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC9520416：peritrigonal 頂枕白質與壓部 T2/FLAIR 高、T1 低;周邊強化＝活動性脫髓鞘/發炎;DWI 周室高訊號合併低 ADC（restricted diffusion）。",
-          "sourceRefs": [
-            "3"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f51",
-          "text": ": *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；",
-          "sourceStatement": "[^4]: *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。",
-          "sourceRefs": [
-            "4"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f52",
-          "text": "及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；",
-          "sourceStatement": "[^4]: *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。",
-          "sourceRefs": [
-            "4"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f53",
-          "text": "中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；",
-          "sourceStatement": "[^4]: *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。",
-          "sourceRefs": [
-            "4"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f54",
-          "text": "周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。",
-          "sourceStatement": "[^4]: *MRI demyelination pattern and clinical course in a child with cerebral X-ALD*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC4385045 / PubMed 25848550；及 Schaumburg 三區帶病理對應：中央膠質增生壞死帶（DWI 低訊號,anisotropy 全失）；中間活動性發炎脫髓鞘帶（含脂巨噬細胞、血管周淋巴球浸潤,DWI 中度高訊號＋低 ADC,gadolinium 強化）；周邊 prelesional 活動脫髓鞘帶（軸突保留,DWI 微高訊號,部分 T2 shine-through）。",
-          "sourceRefs": [
-            "4"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f55",
-          "text": ": *X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;",
-          "sourceStatement": "[^5]: *X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;初診有強化者多數後續進展。",
-          "sourceRefs": [
-            "5"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f56",
-          "text": "21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;",
-          "sourceStatement": "[^5]: *X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;初診有強化者多數後續進展。",
-          "sourceRefs": [
-            "5"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f57",
-          "text": "初診有強化者多數後續進展。",
-          "sourceStatement": "[^5]: *X-linked Adrenoleukodystrophy: The Role of Contrast-enhanced MR Imaging in Predicting Disease Progression*. AJNR 2000;21(5):839（Tier 1,摘要層級,accessed 2026-06-29,全文 403 未取）：gadolinium 於脫髓鞘前緣堆積,對應組織學活動性發炎帶;初診有強化者多數後續進展。",
-          "sourceRefs": [
-            "5"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f58",
-          "text": ": *Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;",
-          "sourceStatement": "[^6]: *Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;脊髓萎縮、demyelination 為主而非單純軸突損傷。",
-          "sourceRefs": [
-            "6"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f59",
-          "text": "139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;",
-          "sourceStatement": "[^6]: *Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;脊髓萎縮、demyelination 為主而非單純軸突損傷。",
-          "sourceRefs": [
-            "6"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f60",
-          "text": "脊髓萎縮、demyelination 為主而非單純軸突損傷。",
-          "sourceStatement": "[^6]: *Quantitative MRI of the spinal cord and brain in adrenomyeloneuropathy*. Brain 2016;139(6):1735（Tier 1 期刊,PubMed 27068048,摘要層級,accessed 2026-06-29）：AMN 為遠端軸突病變,累及胸腰段後柱與皮質脊髓束;脊髓萎縮、demyelination 為主而非單純軸突損傷。",
-          "sourceRefs": [
-            "6"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f61",
-          "text": ": *Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。",
-          "sourceStatement": "[^7]: *Spinal cord atrophy as a measure of severity of myelopathy in adrenoleukodystrophy*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC7383492：胸段脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平,源自後柱與皮質脊髓束退化。",
-          "sourceRefs": [
-            "7"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f62",
-          "text": ": *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;",
-          "sourceStatement": "[^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。",
-          "sourceRefs": [
-            "8"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f63",
-          "text": "VLCFA 以腎上腺堆積最顯著;",
-          "sourceStatement": "[^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。",
-          "sourceRefs": [
-            "8"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f64",
-          "text": "X-ALD 可先以 Addison's disease 表現。",
-          "sourceStatement": "[^8]: *X-linked adrenoleukodystrophy and primary adrenal insufficiency*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10687143 / PubMed 38034003：PAI 見於約 70% ALD/AMN 男性、女性帶因者約 5%;VLCFA 以腎上腺堆積最顯著;X-ALD 可先以 Addison's disease 表現。",
-          "sourceRefs": [
-            "8"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f65",
-          "text": ": *Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。",
-          "sourceStatement": "[^9]: *Leukodystrophy Imaging: Insights for Diagnostic Dilemmas*. PMC（Tier 2,免費全文,accessed 2026-06-29）,PMC10885080：各 leukodystrophy 分布鑑別（ALD 後部對稱＋壓部＋強化前緣;Alexander 額部為主;Krabbe/MLD 之分布特徵）。",
-          "sourceRefs": [
-            "9"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f66",
-          "text": ": Tier 1 Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;",
-          "sourceStatement": "[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。",
-          "sourceRefs": [
-            "10"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f67",
-          "text": "25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;",
-          "sourceStatement": "[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。",
-          "sourceRefs": [
-            "10"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f68",
-          "text": "腦 MRI 為初診與追蹤主軸、可鑑別;",
-          "sourceStatement": "[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。",
-          "sourceRefs": [
-            "10"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f69",
-          "text": "頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。",
-          "sourceStatement": "[^10]: **Tier 1** Kim JH, Kim HJ. *Childhood X-linked Adrenoleukodystrophy: Clinical-Pathologic Overview and MR Imaging Manifestations at Initial Evaluation and Follow-up.* RadioGraphics. 2005;25(3):619-631（DOI [10.1148/rg.253045118](https://doi.org/10.1148/rg.253045118)；PMID 15888613；摘要 accessed 2026-07-12）：childhood cerebral 型最重、快速退化;腦 MRI 為初診與追蹤主軸、可鑑別;頂枕/壓部由後向前進展,周邊 gadolinium leading edge 強化＝活動性脫髓鞘前緣。",
-          "sourceRefs": [
-            "10"
-          ]
-        },
-        {
-          "id": "adrenoleukodystrophy-f70",
-          "text": ": *Leukodystrophies*（含 X-ALD）. Radiopaedia.org（rID 5266；DOI [10.53347/rID-5266](https://doi.org/10.53347/rID-5266)；搜尋摘要 accessed 2026-07-12；X-ALD 專屬文章 rID 未取得（正文 403））：leukodystrophy 分類與各型白質分布鑑別。",
-          "sourceStatement": "[^11]: *Leukodystrophies*（含 X-ALD）. Radiopaedia.org（rID 5266；DOI [10.53347/rID-5266](https://doi.org/10.53347/rID-5266)；搜尋摘要 accessed 2026-07-12；X-ALD 專屬文章 rID 未取得（正文 403））：leukodystrophy 分類與各型白質分布鑑別。",
-          "sourceRefs": [
-            "11"
           ]
         }
       ]
@@ -706,24 +435,42 @@
         },
         {
           "id": "aicardi-syndrome-f03",
-          "text": "1. Corpus callosal dysgenesis/agenesis（胼胝體發育不良）：最一致特徵。",
-          "sourceStatement": "  1. **Corpus callosal dysgenesis/agenesis（胼胝體發育不良）**：**最一致特徵**。",
-          "sourceRefs": []
+          "text": "典型三主徵：",
+          "sourceStatement": "- **典型三主徵**：[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
         },
         {
           "id": "aicardi-syndrome-f04",
-          "text": "2. Chorioretinal lacunae：視神經盤周圍點狀 punched-out（視網膜色素層），近 pathognomonic。",
-          "sourceStatement": "  2. **Chorioretinal lacunae**：視神經盤周圍**點狀 punched-out**（視網膜色素層），**近 pathognomonic**。",
-          "sourceRefs": []
+          "text": "Corpus callosal dysgenesis/agenesis（胼胝體發育不良）：最一致特徵。",
+          "sourceStatement": "  1. **Corpus callosal dysgenesis/agenesis（胼胝體發育不良）**：**最一致特徵**。",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
         },
         {
           "id": "aicardi-syndrome-f05",
-          "text": "3. Infantile spasms/早發癲癇：點頭式（salaam/flexion）痙攣 + 低頭動作。",
-          "sourceStatement": "  3. **Infantile spasms/早發癲癇**：**點頭式（salaam/flexion）**痙攣 + 低頭動作。",
-          "sourceRefs": []
+          "text": "Chorioretinal lacunae：視神經盤周圍點狀 punched-out（視網膜色素層），近 pathognomonic。",
+          "sourceStatement": "  2. **Chorioretinal lacunae**：視神經盤周圍**點狀 punched-out**（視網膜色素層），**近 pathognomonic**。",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
         },
         {
           "id": "aicardi-syndrome-f06",
+          "text": "Infantile spasms/早發癲癇：點頭式（salaam/flexion）痙攣 + 低頭動作。",
+          "sourceStatement": "  3. **Infantile spasms/早發癲癇**：**點頭式（salaam/flexion）**痙攣 + 低頭動作。",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "aicardi-syndrome-f07",
           "text": "非三主徵：顱內囊腫（intracranial cyst）雖可見（interhemispheric/後顱窩囊腫）但不屬三主徵。",
           "sourceStatement": "- **非三主徵**：**顱內囊腫（intracranial cyst）**雖可見（interhemispheric/後顱窩囊腫）但**不屬三主徵**。[^1][^2]",
           "sourceRefs": [
@@ -732,7 +479,7 @@
           ]
         },
         {
-          "id": "aicardi-syndrome-f07",
+          "id": "aicardi-syndrome-f08",
           "text": "常見合併 CNS 畸形：灰質異位、polymicrogyria（frontal/perisylvian）、後顱窩異常（95%，Dandy-Walker continuum）、choroid plexus papilloma/carcinoma、視神經 coloboma。",
           "sourceStatement": "- **常見合併 CNS 畸形**：灰質異位、**polymicrogyria（frontal/perisylvian）**、**後顱窩異常（95%，Dandy-Walker continuum）**、**choroid plexus papilloma/carcinoma**、視神經 coloboma。[^2]",
           "sourceRefs": [

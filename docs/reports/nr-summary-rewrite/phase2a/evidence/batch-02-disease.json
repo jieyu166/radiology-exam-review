@@ -5,7 +5,7 @@
   "scope": "NR",
   "baselineLock": {
     "path": "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-02-disease.json",
-    "sha256": "9d10c8fc2e927b19f273ca06e96d3c61b814aabb958c765267f5d5014e2c9516"
+    "sha256": "3c294b4e098fc971ec6cbc67945cc24620752108f7d31bf3c1ba574ef6fd8fa8"
   },
   "status": "baseline",
   "workflow": {
@@ -204,7 +204,8 @@
         {
           "id": "adrenoleukodystrophy-f13",
           "sourceRefs": [
-            "4"
+            "4",
+            "3"
           ],
           "disposition": "pending"
         },
@@ -218,9 +219,7 @@
         {
           "id": "adrenoleukodystrophy-f15",
           "sourceRefs": [
-            "5",
-            "3",
-            "10"
+            "4"
           ],
           "disposition": "pending"
         },
@@ -245,7 +244,9 @@
         {
           "id": "adrenoleukodystrophy-f18",
           "sourceRefs": [
-            "1"
+            "5",
+            "3",
+            "10"
           ],
           "disposition": "pending"
         },
@@ -266,8 +267,7 @@
         {
           "id": "adrenoleukodystrophy-f21",
           "sourceRefs": [
-            "1",
-            "6"
+            "1"
           ],
           "disposition": "pending"
         },
@@ -282,8 +282,8 @@
         {
           "id": "adrenoleukodystrophy-f23",
           "sourceRefs": [
-            "6",
-            "7"
+            "1",
+            "6"
           ],
           "disposition": "pending"
         },
@@ -298,7 +298,8 @@
         {
           "id": "adrenoleukodystrophy-f25",
           "sourceRefs": [
-            "8"
+            "6",
+            "7"
           ],
           "disposition": "pending"
         },
@@ -319,22 +320,21 @@
         {
           "id": "adrenoleukodystrophy-f28",
           "sourceRefs": [
+            "8"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "adrenoleukodystrophy-f29",
+          "sourceRefs": [
             "2",
             "3"
           ],
           "disposition": "pending"
         },
         {
-          "id": "adrenoleukodystrophy-f29",
-          "sourceRefs": [],
-          "disposition": "pending"
-        },
-        {
           "id": "adrenoleukodystrophy-f30",
-          "sourceRefs": [
-            "9",
-            "11"
-          ],
+          "sourceRefs": [],
           "disposition": "pending"
         },
         {
@@ -347,14 +347,15 @@
         },
         {
           "id": "adrenoleukodystrophy-f32",
-          "sourceRefs": [],
+          "sourceRefs": [
+            "9",
+            "11"
+          ],
           "disposition": "pending"
         },
         {
           "id": "adrenoleukodystrophy-f33",
-          "sourceRefs": [
-            "2"
-          ],
+          "sourceRefs": [],
           "disposition": "pending"
         },
         {
@@ -367,7 +368,7 @@
         {
           "id": "adrenoleukodystrophy-f35",
           "sourceRefs": [
-            "1"
+            "2"
           ],
           "disposition": "pending"
         },
@@ -375,244 +376,6 @@
           "id": "adrenoleukodystrophy-f36",
           "sourceRefs": [
             "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f37",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f38",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f39",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f40",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f41",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f42",
-          "sourceRefs": [
-            "1"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f43",
-          "sourceRefs": [
-            "2"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f44",
-          "sourceRefs": [
-            "2"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f45",
-          "sourceRefs": [
-            "2"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f46",
-          "sourceRefs": [
-            "2"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f47",
-          "sourceRefs": [
-            "2"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f48",
-          "sourceRefs": [
-            "3"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f49",
-          "sourceRefs": [
-            "3"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f50",
-          "sourceRefs": [
-            "3"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f51",
-          "sourceRefs": [
-            "4"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f52",
-          "sourceRefs": [
-            "4"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f53",
-          "sourceRefs": [
-            "4"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f54",
-          "sourceRefs": [
-            "4"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f55",
-          "sourceRefs": [
-            "5"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f56",
-          "sourceRefs": [
-            "5"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f57",
-          "sourceRefs": [
-            "5"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f58",
-          "sourceRefs": [
-            "6"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f59",
-          "sourceRefs": [
-            "6"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f60",
-          "sourceRefs": [
-            "6"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f61",
-          "sourceRefs": [
-            "7"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f62",
-          "sourceRefs": [
-            "8"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f63",
-          "sourceRefs": [
-            "8"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f64",
-          "sourceRefs": [
-            "8"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f65",
-          "sourceRefs": [
-            "9"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f66",
-          "sourceRefs": [
-            "10"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f67",
-          "sourceRefs": [
-            "10"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f68",
-          "sourceRefs": [
-            "10"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f69",
-          "sourceRefs": [
-            "10"
-          ],
-          "disposition": "pending"
-        },
-        {
-          "id": "adrenoleukodystrophy-f70",
-          "sourceRefs": [
-            "11"
           ],
           "disposition": "pending"
         }
@@ -698,17 +461,26 @@
         },
         {
           "id": "aicardi-syndrome-f03",
-          "sourceRefs": [],
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
           "disposition": "pending"
         },
         {
           "id": "aicardi-syndrome-f04",
-          "sourceRefs": [],
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
           "disposition": "pending"
         },
         {
           "id": "aicardi-syndrome-f05",
-          "sourceRefs": [],
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
           "disposition": "pending"
         },
         {
@@ -721,6 +493,14 @@
         },
         {
           "id": "aicardi-syndrome-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "pending"
+        },
+        {
+          "id": "aicardi-syndrome-f08",
           "sourceRefs": [
             "2"
           ],

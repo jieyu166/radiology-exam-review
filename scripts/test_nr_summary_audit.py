@@ -4412,8 +4412,8 @@ BATCH02_PREEDIT_SHA256 = {
 }
 BATCH02_STATEMENT_FACT_REF_COUNTS = {
     "2-hydroxyglutarate-idh-mutant-glioma": (4, 7, 3),
-    "adrenoleukodystrophy": (28, 70, 11),
-    "aicardi-syndrome": (6, 7, 2),
+    "adrenoleukodystrophy": (18, 36, 11),
+    "aicardi-syndrome": (7, 8, 2),
     "als-imaging": (3, 4, 1),
     "angioinvasive-aspergillosis": (5, 6, 1),
     "anti-nmda-encephalitis": (4, 7, 2),
@@ -4579,11 +4579,14 @@ def test_phase2a_batch01_fact_units_cover_source_statements_in_stable_order() ->
             context.note_records[slug].path,
             "---\nsubspecialty: [NR]\n---\n" + entry["originalSummary"],
         )
-        source_statements = audit.phase2_summary_source_statements(
+        legacy_templates = audit._phase2_legacy_batch01_fact_templates(
             locked_note
         )
         assert list(dict.fromkeys(fact["sourceStatement"] for fact in facts)) == [
-            statement["text"] for statement in source_statements
+            statement
+            for statement in dict.fromkeys(
+                fact["sourceStatement"] for fact in legacy_templates
+            )
         ]
 
 
@@ -5444,6 +5447,90 @@ def test_phase2a_batch01_unresolved_fact_is_accepted_only_as_needs_review() -> N
     assert "phase2-evidence-schema" in codes
 
 
+def test_phase2_fact_projection_excludes_footnote_definitions_and_continuations() -> None:
+    note = audit.parse_note_text(
+        Path("vault/concepts/demo.md"),
+        """---
+subspecialty: [NR]
+---
+## Summary
+- **First**: Medical fact.[^1]
+[^1]: Citation metadata; not a fact.
+    Continued citation metadata; still not a fact.
+\tTabbed citation continuation.
+- **Second**: Another medical fact.[^2]
+[^2]: Second citation.
+""",
+    )
+
+    statements = audit.phase2_summary_source_statements(note)
+    assert statements == [
+        {"text": "- **First**: Medical fact.[^1]", "sourceRefs": ["1"]},
+        {"text": "- **Second**: Another medical fact.[^2]", "sourceRefs": ["2"]},
+    ]
+    facts = audit.phase2_default_fact_templates(note)
+    assert [fact["sourceStatement"] for fact in facts] == [
+        "- **First**: Medical fact.[^1]",
+        "- **Second**: Another medical fact.[^2]",
+    ]
+    assert not any(
+        audit.FOOTNOTE_DEFINITION_RE.match(fact["sourceStatement"])
+        for fact in facts
+    )
+
+
+def test_phase2_fact_projection_preserves_semantic_nested_context_once() -> None:
+    triad_parent = "- **Classic triad**：[^1][^2]"
+    zone_parent = "- **Three zones（center to outside）**："
+    note = audit.parse_note_text(
+        Path("vault/concepts/demo.md"),
+        f"""---
+subspecialty: [NR]
+---
+## Summary
+{triad_parent}
+  1. **First member**: Alpha.
+  2. **Second member**: Beta.
+  3. **Third member**: Gamma.
+{zone_parent}
+  - **Central**: Core.[^3][^4]
+  - **Intermediate**: Middle.[^4]
+  - **Peripheral**: Edge.[^3]
+[^1]: First source.
+[^2]: Second source.
+[^3]: Third source.
+[^4]: Fourth source.
+""",
+    )
+
+    statements = audit.phase2_summary_source_statements(note)
+    assert [statement["text"] for statement in statements] == [
+        triad_parent,
+        "  1. **First member**: Alpha.",
+        "  2. **Second member**: Beta.",
+        "  3. **Third member**: Gamma.",
+        zone_parent,
+        "  - **Central**: Core.[^3][^4]",
+        "  - **Intermediate**: Middle.[^4]",
+        "  - **Peripheral**: Edge.[^3]",
+    ]
+    assert [statement["sourceRefs"] for statement in statements] == [
+        ["1", "2"],
+        ["1", "2"],
+        ["1", "2"],
+        ["1", "2"],
+        ["3", "4"],
+        ["3", "4"],
+        ["4"],
+        ["3"],
+    ]
+    facts = audit.phase2_default_fact_templates(note)
+    assert sum(fact["sourceStatement"] == triad_parent for fact in facts) == 1
+    assert sum(fact["sourceStatement"] == zone_parent for fact in facts) == 1
+    assert facts[1]["text"] == "First member: Alpha."
+    assert facts[5]["text"] == "Central: Core."
+
+
 def _batch02_resealed_codes(baseline: dict) -> set[str]:
     _, _, context = _production_phase2a_batch02()
     batch01 = json.loads(
@@ -5553,8 +5640,75 @@ def test_phase2a_batch02_fact_units_cover_every_source_statement_in_order() -> N
         )
 
     assert observed_counts == BATCH02_STATEMENT_FACT_REF_COUNTS
-    assert sum(counts[0] for counts in observed_counts.values()) == 69
-    assert sum(counts[1] for counts in observed_counts.values()) == 131
+    assert sum(counts[0] for counts in observed_counts.values()) == 60
+    assert sum(counts[1] for counts in observed_counts.values()) == 98
+
+
+def test_phase2a_batch02_preserves_aicardi_triad_and_ald_zone_context_once() -> None:
+    _, _, context = _production_phase2a_batch02()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+    by_slug = {entry["slug"]: entry for entry in baseline["notes"]}
+
+    aicardi_facts = by_slug["aicardi-syndrome"]["factUnits"]
+    triad_parent = "- **典型三主徵**：[^1][^2]"
+    triad_children = [
+        "  1. **Corpus callosal dysgenesis/agenesis（胼胝體發育不良）**：**最一致特徵**。",
+        "  2. **Chorioretinal lacunae**：視神經盤周圍**點狀 punched-out**（視網膜色素層），**近 pathognomonic**。",
+        "  3. **Infantile spasms/早發癲癇**：**點頭式（salaam/flexion）**痙攣 + 低頭動作。",
+    ]
+    assert sum(
+        fact["sourceStatement"] == triad_parent for fact in aicardi_facts
+    ) == 1
+    assert aicardi_facts[2] == {
+        "id": "aicardi-syndrome-f03",
+        "text": "典型三主徵：",
+        "sourceStatement": triad_parent,
+        "sourceRefs": ["1", "2"],
+    }
+    assert [
+        fact["sourceStatement"] for fact in aicardi_facts[3:6]
+    ] == triad_children
+    assert [
+        fact["sourceRefs"] for fact in aicardi_facts[3:6]
+    ] == [["1", "2"], ["1", "2"], ["1", "2"]]
+
+    ald_facts = by_slug["adrenoleukodystrophy"]["factUnits"]
+    zone_parent = "- **三區帶（Schaumburg zones,由中央向外）**："
+    zone_children = [
+        "  - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。[^4][^3]",
+        "  - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。[^4][^3]",
+        "  - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。[^4]",
+    ]
+    assert sum(
+        fact["sourceStatement"] == zone_parent for fact in ald_facts
+    ) == 1
+    assert ald_facts[8] == {
+        "id": "adrenoleukodystrophy-f09",
+        "text": "三區帶（Schaumburg zones,由中央向外）：",
+        "sourceStatement": zone_parent,
+        "sourceRefs": ["4", "3"],
+    }
+    assert list(
+        dict.fromkeys(
+            fact["sourceStatement"] for fact in ald_facts[9:15]
+        )
+    ) == zone_children
+
+    all_facts = [
+        fact for entry in baseline["notes"] for fact in entry["factUnits"]
+    ]
+    assert not any(
+        audit.FOOTNOTE_DEFINITION_RE.match(fact["sourceStatement"])
+        for fact in all_facts
+    )
+    empty_ref_facts = [
+        fact for fact in all_facts if not fact["sourceRefs"]
+    ]
+    assert [fact["id"] for fact in empty_ref_facts] == [
+        "adrenoleukodystrophy-f30",
+        "adrenoleukodystrophy-f33",
+    ]
 
 
 def test_phase2a_batch02_rejects_note_and_fact_membership_order_attacks() -> None:
@@ -5701,6 +5855,129 @@ def test_phase2a_batch02_registry_is_exact_contiguous_prefix_and_fail_closed() -
             registry=registry,
         )
         assert "phase2-trusted-batch-lock-mismatch" in codes, registry
+
+
+def test_phase2_baseline_registry_requires_active_batch_contiguous_prefix() -> None:
+    root, assignment_path, batch02_context = _production_phase2a_batch02()
+    _, _, batch01_context = _production_phase2a_batch01()
+    batch01_digest = canonical_sha256(batch01_context.baseline)
+    batch02_digest = canonical_sha256(batch02_context.baseline)
+    original_registry = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+
+    def copied_context(
+        destination: Path,
+        context: audit.BatchContext,
+        baseline_ids: tuple[str, ...],
+    ) -> audit.BatchContext:
+        paths = [
+            assignment_path,
+            context.inventory_path,
+            context.baseline_path,
+            *(Path(record.path) for record in context.note_records.values()),
+        ]
+        for relative in paths:
+            target = destination / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(root / relative, target)
+        for batch_id in baseline_ids:
+            if batch_id == context.batch["id"]:
+                continue
+            relative = (
+                context.baseline_path.parent / f"{batch_id}.json"
+            )
+            target = destination / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if (root / relative).is_file():
+                shutil.copy2(root / relative, target)
+            else:
+                target.write_text("{}\n", encoding="utf-8")
+        return audit.load_phase2_batch(
+            destination,
+            assignment_path,
+            context.batch["id"],
+        )
+
+    try:
+        with tempfile.TemporaryDirectory() as directory:
+            shadow = Path(directory) / "batch02-only"
+            context = copied_context(
+                shadow, batch02_context, ("batch-02-disease",)
+            )
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-02-disease": batch02_digest
+            }
+            batch02_only_codes = {
+                finding.code
+                for finding in audit.validate_baseline_lock(context)
+            }
+
+        with tempfile.TemporaryDirectory() as directory:
+            shadow = Path(directory) / "batch01-plus-batch03"
+            context = copied_context(
+                shadow,
+                batch01_context,
+                ("batch-01-anatomy", "batch-03-pattern"),
+            )
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-01-anatomy": batch01_digest,
+                "batch-03-pattern": "f" * 64,
+            }
+            gapped_codes = {
+                finding.code
+                for finding in audit.validate_baseline_lock(context)
+            }
+
+        with tempfile.TemporaryDirectory() as directory:
+            shadow = Path(directory) / "all-three"
+            context = copied_context(
+                shadow,
+                batch02_context,
+                (
+                    "batch-01-anatomy",
+                    "batch-02-disease",
+                    "batch-03-pattern",
+                ),
+            )
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = {
+                "batch-01-anatomy": batch01_digest,
+                "batch-02-disease": batch02_digest,
+                "batch-03-pattern": "f" * 64,
+            }
+            all_three_codes = {
+                finding.code
+                for finding in audit.validate_baseline_lock(context)
+            }
+    finally:
+        audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_registry
+
+    assert batch02_only_codes == {
+        "phase2-trusted-batch-lock-mismatch"
+    }
+    assert gapped_codes == {"phase2-trusted-batch-lock-mismatch"}
+    assert all_three_codes == set()
+
+
+def test_phase2a_batch01_legacy_projection_compatibility_remains_fail_closed() -> None:
+    _, _, context = _production_phase2a_batch01()
+    baseline = context.baseline
+    assert isinstance(baseline, dict)
+    assert audit.validate_baseline_lock(context) == []
+
+    changed = deepcopy(baseline)
+    changed["notes"][0]["factUnits"][0]["text"] = (
+        "Injected relationship absent from the approved Summary."
+    )
+    assert "phase2-baseline-schema" in _validate_resealed_baseline(
+        context, changed
+    )
+
+    wrong_registry = dict(audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256)
+    wrong_registry["batch-01-anatomy"] = "0" * 64
+    assert "phase2-trusted-batch-lock-mismatch" in _validate_resealed_baseline(
+        context,
+        deepcopy(baseline),
+        registry=wrong_registry,
+    )
 
 
 def test_phase2a_batch02_rejects_coordinated_mutable_baseline_replacement() -> None:
