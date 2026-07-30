@@ -807,26 +807,30 @@ def prepare_phase2_later_update_fixture(
 ) -> tuple[Path, dict[str, str], dict, dict, dict]:
     assignment_path, baseline_digests = write_phase2_approved_chain_fixture(root)
     original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+    original_observation_trust = (
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+    )
     audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
     try:
-        audit.run_phase2_generated_observation_workflow(
-            root, "batch-02-disease"
-        )
-        audit.run_phase2_generated_observation_workflow(
-            root, "batch-03-pattern"
-        )
         batch_1_workflow = audit.run_phase2_generated_observation_workflow(
             root, "batch-01-anatomy"
         )
         write_phase2_generated_manifest_fixture(
             root, "batch-01-anatomy", batch_1_workflow
         )
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+            "batch-01-anatomy": batch_1_workflow["observationSha256"]
+        }
         batch_2_workflow = audit.run_phase2_generated_observation_workflow(
             root, "batch-02-disease"
         )
         write_phase2_generated_manifest_fixture(
             root, "batch-02-disease", batch_2_workflow
         )
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+            "batch-01-anatomy": batch_1_workflow["observationSha256"],
+            "batch-02-disease": batch_2_workflow["observationSha256"],
+        }
         rewrite_phase2_fixture_note(
             root,
             "batch-03-pattern",
@@ -840,6 +844,9 @@ def prepare_phase2_later_update_fixture(
         )
     finally:
         audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = original_baseline_trust
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+            original_observation_trust
+        )
     return (
         assignment_path,
         baseline_digests,
@@ -2508,6 +2515,71 @@ def test_phase2_two_run_workflow_fails_before_write_when_trust_gate_fails() -> N
 
     assert failure_code == "phase2-trusted-batch-lock-mismatch"
     assert after == before
+
+
+def test_phase2_later_workflow_requires_generated_predecessor_before_write() -> None:
+    for predecessor_state in ("missing", "wrong-seal"):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            assignment_path, baseline_digests = (
+                write_phase2_approved_chain_fixture(root)
+            )
+            original_baseline_trust = audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256
+            original_observation_trust = (
+                audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+            )
+            audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = baseline_digests
+            try:
+                if predecessor_state == "missing":
+                    audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {}
+                else:
+                    predecessor_workflow = (
+                        audit.run_phase2_generated_observation_workflow(
+                            root, "batch-01-anatomy"
+                        )
+                    )
+                    write_phase2_generated_manifest_fixture(
+                        root,
+                        "batch-01-anatomy",
+                        predecessor_workflow,
+                    )
+                    assert predecessor_workflow["observationSha256"] != "f" * 64
+                    audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+                        "batch-01-anatomy": "f" * 64
+                    }
+
+                batch_id = "batch-02-disease"
+                rewrite_phase2_fixture_note(
+                    root,
+                    batch_id,
+                    audit.ACTIVE_PHASE2A_BATCHES[batch_id]["slugs"][0],
+                )
+                context = audit.load_phase2_batch(
+                    root, assignment_path, batch_id
+                )
+                before = audit._phase2_generated_snapshot(context)
+                try:
+                    audit.run_phase2_generated_observation_workflow(
+                        root, batch_id
+                    )
+                except audit.Phase2LoadError as error:
+                    failure_code = error.code
+                else:
+                    failure_code = None
+                after = audit._phase2_generated_snapshot(context)
+            finally:
+                audit.TRUSTED_PHASE2A_BATCH_LOCK_SHA256 = (
+                    original_baseline_trust
+                )
+                audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = (
+                    original_observation_trust
+                )
+
+        assert failure_code == "phase2-review-sequence", predecessor_state
+        assert audit._phase2_snapshot_delta(before, after) == {
+            "changedPaths": [],
+            "mtimeChangedPaths": [],
+        }, predecessor_state
 
 
 def test_phase2_assignment_path_attack_cli_is_relocation_stable() -> None:

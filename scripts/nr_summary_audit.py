@@ -2476,6 +2476,40 @@ def run_phase2_generated_observation_workflow(
         first = errors[0]
         raise Phase2LoadError(first.code, first.path, first.message)
 
+    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    batch_index = batch_ids.index(batch_id)
+    if batch_index:
+        predecessor_id = batch_ids[batch_index - 1]
+        try:
+            predecessor_context = load_phase2_batch(
+                context.repo_root,
+                context.assignment_path,
+                predecessor_id,
+            )
+            predecessor_findings = validate_phase2_batch(
+                predecessor_context,
+                check_source_hashes=False,
+                check_generated=True,
+            )
+            predecessor_errors = [
+                finding
+                for finding in predecessor_findings
+                if finding.severity == "error"
+            ]
+        except Phase2LoadError as error:
+            predecessor_errors = [error.finding()]
+        if predecessor_errors:
+            first = predecessor_errors[0]
+            raise Phase2LoadError(
+                "phase2-review-sequence",
+                context.evidence_path.as_posix(),
+                (
+                    f"Immediate predecessor {predecessor_id!r} must pass "
+                    "generated acceptance before this workflow can write "
+                    f"({first.code}: {first.message})."
+                ),
+            )
+
     import build_concepts as concept_builder
 
     pre_nonselected = _nonselected_detail_hashes(context)
