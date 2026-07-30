@@ -16,13 +16,10 @@ same:
 **Aicardi 症候群為 X 連鎖、對男性致死之罕見嚴重發育性疾病（幾乎僅女性表現，罕見 47,XXY 男性例外），典型三主徵：胼胝體發育不良（agenesis of CC）、脈絡膜視網膜缺損（chorioretinal lacunae，almost pathognomonic）、嬰兒痙攣（infantile spasms/早發癲癇）——『顱內囊腫』不屬三主徵。** 判讀分水嶺：**胼胝體發育不良最一致；chorioretinal lacunae 為視神經盤周圍點狀 punched-out 病灶、近 pathognomonic；infantile spasms 呈點頭式（salaam）；interhemispheric/後顱窩囊腫與 choroid plexus papilloma 雖常見但非三主徵成員。**
 
 ## Summary
-- **遺傳/性別**：**X 連鎖、對男性致死**，幾乎僅女性表現（罕見 47,XXY 男性例外）；發生率約 1/100,000。[^1][^2]
-- **典型三主徵**：[^1][^2]
-  1. **Corpus callosal dysgenesis/agenesis（胼胝體發育不良）**：**最一致特徵**。
-  2. **Chorioretinal lacunae**：視神經盤周圍**點狀 punched-out**（視網膜色素層），**近 pathognomonic**。
-  3. **Infantile spasms/早發癲癇**：**點頭式（salaam/flexion）**痙攣 + 低頭動作。
-- **非三主徵**：**顱內囊腫（intracranial cyst）**雖可見（interhemispheric/後顱窩囊腫）但**不屬三主徵**。[^1][^2]
-- **常見合併 CNS 畸形**：灰質異位、**polymicrogyria（frontal/perisylvian）**、**後顱窩異常（95%，Dandy-Walker continuum）**、**choroid plexus papilloma/carcinoma**、視神經 coloboma。[^2]
+- **遺傳/性別**：X 連鎖、對男性致死，幾乎僅女性表現；罕見 47,XXY 男性例外，發生率約 1/100,000。[^1][^2]
+- **典型三主徵**：① Corpus callosal dysgenesis/agenesis（胼胝體發育不良）是最一致特徵；② Chorioretinal lacunae 為視神經盤周圍點狀 punched-out 視網膜色素層病灶，近 pathognomonic；③ Infantile spasms/早發癲癇為點頭式（salaam/flexion）痙攣＋低頭動作。[^1][^2]
+- **非三主徵**：顱內囊腫（intracranial cyst）雖可見於 interhemispheric 或後顱窩，但不屬三主徵。[^1][^2]
+- **合併 CNS 畸形**：灰質異位、polymicrogyria（frontal/perisylvian）、後顱窩異常（95%，Dandy-Walker continuum）、choroid plexus papilloma/carcinoma、視神經 coloboma。[^2]
 
 ## 放射科醫師影像判讀重點
 - **三主徵確認**：MRI 看胼胝體缺如 + 眼底 chorioretinal lacunae（眼科/影像）+ EEG（burst-suppression/hypsarrhythmia）。[^1][^2]

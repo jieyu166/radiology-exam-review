@@ -485,7 +485,46 @@ def test_phase2a_batch01_generated_keypoints_match_all_selected_summaries() -> N
         (root / "data" / "concepts-index.json").read_text(encoding="utf-8")
     )
     index_slugs = {entry["slug"] for entry in index["concepts"]}
-    assert len(detail_slugs) == 978
+    assert len(detail_slugs) == len(index["concepts"])
+    assert index_slugs == detail_slugs
+
+
+def test_phase2a_batch02_generated_keypoints_match_all_selected_summaries() -> None:
+    root = Path(__file__).resolve().parents[1]
+    evidence_path = (
+        root
+        / "docs"
+        / "reports"
+        / "nr-summary-rewrite"
+        / "phase2a"
+        / "evidence"
+        / "batch-02-disease.json"
+    )
+    evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+    slugs = [entry["slug"] for entry in evidence["notes"]]
+    assert len(slugs) == len(set(slugs)) == 10
+
+    details = {}
+    for slug in slugs:
+        expected, warning = build.build_concept(
+            root / "vault" / "concepts" / f"{slug}.md"
+        )
+        assert warning is None
+        assert expected is not None
+        detail_path = root / "data" / "concepts" / f"{slug}.json"
+        detail = json.loads(detail_path.read_text(encoding="utf-8"))
+        assert detail["keyPoints"] == expected["keyPoints"]
+        assert detail_path.read_bytes() == build._json_bytes(expected)
+        details[slug] = detail
+
+    detail_slugs = {
+        path.stem for path in (root / "data" / "concepts").glob("*.json")
+    }
+    index = json.loads(
+        (root / "data" / "concepts-index.json").read_text(encoding="utf-8")
+    )
+    index_slugs = {entry["slug"] for entry in index["concepts"]}
+    assert len(detail_slugs) == len(index["concepts"])
     assert index_slugs == detail_slugs
 
 

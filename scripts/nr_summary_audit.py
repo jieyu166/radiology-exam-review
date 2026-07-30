@@ -3315,10 +3315,25 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
     for section in note.summaries:
         valid_bullets = 0
         section_lines = section.content.splitlines()
+        in_reference_subsection = False
+        in_footnote_definition = False
         for relative_line, line in enumerate(section_lines, start=1):
             line_number = section.start_line + relative_line
             if not line.strip():
+                in_footnote_definition = False
                 continue
+            if LEVEL_THREE_HEADING_RE.fullmatch(line):
+                in_reference_subsection = line.strip() == "### 參考來源"
+                in_footnote_definition = False
+                continue
+            if in_reference_subsection and FOOTNOTE_DEFINITION_RE.match(line):
+                in_footnote_definition = True
+                continue
+            if in_reference_subsection and in_footnote_definition and (
+                line.startswith("    ") or line.startswith("\t")
+            ):
+                continue
+            in_footnote_definition = False
             if NESTED_BULLET_RE.match(line):
                 findings.append(_finding("summary-nested-bullet", note, f"Nested bullet at line {line_number}."))
             if CALLOUT_RE.match(line):
@@ -3332,8 +3347,6 @@ def validate_summary(note: NoteRecord) -> list[Finding]:
             ):
                 findings.append(_finding("summary-table", note, f"Table separator at line {line_number}."))
 
-            if LEVEL_THREE_HEADING_RE.fullmatch(line):
-                continue
             bullet_match = TOP_LEVEL_BULLET_RE.match(line)
             if bullet_match:
                 bullet = bullet_match.group("content").strip()

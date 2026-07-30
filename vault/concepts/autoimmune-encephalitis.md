@@ -14,10 +14,10 @@ dateRev: 2026-07-02
 **自體免疫腦炎的核心概念是「光譜很廣、機轉分兩類」：臨床表現從輕微認知障礙到頑固性癲癇的腦病變都有；抗體媒介之CNS疾病則依有無潛在惡性腫瘤分為paraneoplastic（副腫瘤性）與nonparaneoplastic（非副腫瘤性）兩大類，而邊緣系統（limbic）的特徵性影像表現常是提醒臨床醫師啟動評估的關鍵線索。**
 
 ## Summary
-- **臨床光譜**：自體免疫腦炎為相對新興的免疫媒介疾病類別，臨床表現光譜廣泛——從輕微/隱匿發作之認知障礙，到合併頑固性癲癇（refractory seizure）之複雜腦病變皆可見。[^1]
-- **抗體媒介CNS疾病分類**：依**是否合併潛在惡性腫瘤**分為兩大類——**paraneoplastic（副腫瘤性）**與**nonparaneoplastic（非副腫瘤性）**。[^1]
-- **影像角色**：辨識邊緣系統（limbic structures）內提示自體免疫腦炎之特徵性表現，是提醒臨床醫師啟動適當診斷評估之關鍵步驟。[^1]
-- **副腫瘤症候群常見腫瘤**：最常見於**small-cell lung cancer**，亦可見於**neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma**等多種腫瘤。[^1]
+- **臨床光譜**：自體免疫腦炎是相對新興的免疫媒介疾病類別；表現可由輕微／隱匿發作的認知障礙，延伸至合併頑固性癲癇（refractory seizure）的複雜腦病變。[^1]
+- **分類**：抗體媒介 CNS 疾病依有無潛在惡性腫瘤，分為 paraneoplastic（副腫瘤性）與 nonparaneoplastic（非副腫瘤性）。[^1]
+- **影像角色**：辨識 limbic structures 內提示自體免疫腦炎的特徵性表現，是提醒臨床醫師啟動適當診斷評估的關鍵。[^1]
+- **副腫瘤關聯**：最常見於 small-cell lung cancer；亦可見 neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma。[^1]
 
 ## 放射科醫師影像判讀重點
 - **邊緣系統為判讀核心**：典型 limbic encephalitis 在 MRI 呈雙側（可不對稱）內側顳葉—海馬—杏仁核 T2/FLAIR 高訊號，常無或僅輕度強化、無明顯占位效應；辨識此邊緣系統型態是提醒臨床啟動自體免疫腦炎評估的關鍵線索。[^2]
