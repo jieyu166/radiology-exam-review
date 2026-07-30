@@ -173,6 +173,9 @@ TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
     "batch-01-anatomy": (
         "7adfa693cf5a178e1a393c250b1322f4e7ea4de990fdac16c0afae26f6f9cefd"
     ),
+    "batch-02-disease": (
+        "2011c04c8c9c0b681c2fd46faede583c39ed7e1a9a8299c2e354b3f904d47538"
+    ),
 }
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
@@ -2737,8 +2740,32 @@ def run_phase2_generated_observation_workflow(
             predecessor_findings = validate_phase2_batch(
                 predecessor_context,
                 check_source_hashes=False,
-                check_generated=True,
+                check_generated=False,
             )
+            generated_findings, predecessor_state = (
+                _validate_phase2_own_generated_result(predecessor_context)
+            )
+            predecessor_findings.extend(generated_findings)
+            if predecessor_state is None:
+                predecessor_findings.append(
+                    Finding(
+                        "error",
+                        "generated-manifest-mismatch",
+                        predecessor_context.evidence_path.as_posix(),
+                        "Immediate predecessor generated state is unavailable.",
+                    )
+                )
+            else:
+                current_selected_paths = {
+                    (context.generated_root / f"{slug}.json").as_posix()
+                    for slug in context.batch["slugs"]
+                }
+                predecessor_findings.extend(
+                    _phase2_historical_authorization_findings(
+                        predecessor_state,
+                        current_selected_paths,
+                    )
+                )
             predecessor_errors = [
                 finding
                 for finding in predecessor_findings

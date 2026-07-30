@@ -4509,6 +4509,42 @@ def _copy_production_phase2a_batch01_checkout(destination: Path) -> Path:
     return assignment_path
 
 
+def _copy_production_phase2a_batch02_checkout(destination: Path) -> Path:
+    """Copy both reviewed batches and the complete generated corpus."""
+    root, assignment_path, batch02 = _production_phase2a_batch02()
+    _, _, batch01 = _production_phase2a_batch01()
+    relative_files = [
+        assignment_path,
+        batch02.inventory_path,
+        batch01.baseline_path,
+        batch01.evidence_path,
+        batch02.baseline_path,
+        batch02.evidence_path,
+        Path("data/concepts-index.json"),
+        *(
+            Path(record.path)
+            for context in (batch01, batch02)
+            for record in context.note_records.values()
+        ),
+    ]
+    for batch_id in ("batch-01-anatomy", "batch-02-disease"):
+        manifest_path = (
+            Path("docs/reports/nr-summary-rewrite/phase2a/generated")
+            / f"{batch_id}.json"
+        )
+        if (root / manifest_path).is_file():
+            relative_files.append(manifest_path)
+    for relative in dict.fromkeys(relative_files):
+        target = destination / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(root / relative, target)
+    shutil.copytree(
+        root / "data" / "concepts",
+        destination / "data" / "concepts",
+    )
+    return assignment_path
+
+
 def _baseline_fact_templates(baseline: dict) -> dict[str, list[dict]]:
     return {
         entry["slug"]: [
@@ -5085,13 +5121,7 @@ def test_phase2a_batch01_production_generated_seal_is_genuine_and_relocation_sta
         check_source_hashes=False,
         check_generated=True,
     )
-    assert [(finding.code, finding.path) for finding in findings] == [
-        (
-            "generated-manifest-mismatch",
-            "docs/reports/nr-summary-rewrite/phase2a/generated/"
-            "batch-01-anatomy.json",
-        )
-    ]
+    assert findings == []
 
     manifest_path = (
         root
@@ -5106,13 +5136,17 @@ def test_phase2a_batch01_production_generated_seal_is_genuine_and_relocation_sta
     observation_digest = canonical_sha256(
         audit._phase2_generated_observation_projection(checked)
     )
-    assert audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 == {
-        "batch-01-anatomy": observation_digest
+    assert audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256[
+        "batch-01-anatomy"
+    ] == observation_digest
+    assert set(audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256) == {
+        "batch-01-anatomy",
+        "batch-02-disease",
     }
 
     with tempfile.TemporaryDirectory() as directory:
         shadow = Path(directory) / "relocated" / "checkout"
-        shadow_assignment = _copy_production_phase2a_batch01_checkout(shadow)
+        shadow_assignment = _copy_production_phase2a_batch02_checkout(shadow)
         assert shadow_assignment == assignment_path
         shadow_context = audit.load_phase2_batch(
             shadow,
@@ -5135,19 +5169,25 @@ def test_phase2a_batch01_generated_registry_rejects_missing_wrong_and_extra_trus
     valid_digest = original_registry.get("batch-01-anatomy")
     assert isinstance(valid_digest, str)
     registries = (
-        {},
-        {"batch-01-anatomy": "0" * 64},
-        {
-            "batch-01-anatomy": valid_digest,
-            "batch-02-disease": "1" * 64,
-        },
-        {
-            "batch-01-anatomy": valid_digest,
-            "unknown-batch": "1" * 64,
-        },
+        ({}, "generated-observation-untrusted"),
+        ({"batch-01-anatomy": "0" * 64}, "generated-observation-untrusted"),
+        (
+            {
+                "batch-01-anatomy": valid_digest,
+                "batch-02-disease": "1" * 64,
+            },
+            "generated-manifest-mismatch",
+        ),
+        (
+            {
+                "batch-01-anatomy": valid_digest,
+                "unknown-batch": "1" * 64,
+            },
+            "generated-observation-untrusted",
+        ),
     )
     try:
-        for registry in registries:
+        for registry, expected_code in registries:
             audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = registry
             codes = {
                 finding.code
@@ -5157,7 +5197,7 @@ def test_phase2a_batch01_generated_registry_rejects_missing_wrong_and_extra_trus
                     check_generated=True,
                 )
             }
-            assert "generated-observation-untrusted" in codes, registry
+            assert expected_code in codes, registry
     finally:
         audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = original_registry
 
@@ -5434,9 +5474,7 @@ def test_phase2a_batch01_unresolved_fact_is_accepted_only_as_needs_review() -> N
         check_source_hashes=False,
         check_generated=True,
     )
-    assert [finding.code for finding in findings] == [
-        "generated-manifest-mismatch"
-    ]
+    assert findings == []
     assert evidence["status"] == "needs-review"
     assert evidence["manualReviewFactIds"] == [
         "brain-herniation-syndromes-f03"
@@ -6194,9 +6232,7 @@ def test_phase2a_batch02_preserves_approved_batch01_prerequisite() -> None:
         check_source_hashes=False,
         check_generated=True,
     )
-    assert [finding.code for finding in findings] == [
-        "generated-manifest-mismatch"
-    ]
+    assert findings == []
     manifest = json.loads(
         (
             root
@@ -6250,7 +6286,7 @@ def test_phase2a_batch02_rewrite_preserves_every_non_summary_byte() -> None:
         assert hashlib.sha256(reconstructed).hexdigest() == locked["originalSha256"]
 
 
-def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_pre_review() -> None:
+def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_reviewed() -> None:
     root, _, context = _production_phase2a_batch02()
     expected_queue = [
         "adrenoleukodystrophy-f30",
@@ -6265,12 +6301,17 @@ def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_pre_review() -> N
             context.evidence
         ),
     )
-    assert regenerated == context.evidence
+    reviewed = deepcopy(regenerated)
+    reviewed["workflow"]["reviewStatus"] = "approved"
+    reviewed["workflow"]["reviewedBaselineSha256"] = canonical_sha256(
+        context.baseline
+    )
+    assert reviewed == context.evidence
     assert (
-        json.dumps(regenerated, ensure_ascii=False, indent=2) + "\n"
+        json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n"
     ).encode("utf-8") == (root / context.evidence_path).read_bytes()
 
-    evidence = regenerated
+    evidence = reviewed
     assert evidence["status"] == "needs-review"
     assert evidence["manualReviewFactIds"] == expected_queue
     assert evidence["workflow"] == {
@@ -6278,8 +6319,8 @@ def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_pre_review() -> N
         "predecessor": "batch-01-anatomy",
         "implementer": "/root/phase2a_task3_2_impl",
         "reviewer": "/root/phase2a_task3_3_review",
-        "reviewStatus": "not-started",
-        "reviewedBaselineSha256": None,
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": canonical_sha256(context.baseline),
     }
     facts = [fact for entry in evidence["notes"] for fact in entry["facts"]]
     assert len(facts) == 98
@@ -6573,6 +6614,422 @@ def test_phase2_coverage_anchor_schema_is_fail_closed() -> None:
         bullets,
         ["1", "3"],
     )
+
+
+def test_phase2a_batch02_reviewed_generated_seal_and_relocation_are_genuine() -> None:
+    root, assignment_path, context = _production_phase2a_batch02()
+    evidence = context.evidence
+    assert isinstance(evidence, dict)
+    baseline_digest = canonical_sha256(context.baseline)
+    assert evidence["workflow"] == {
+        "sequence": 2,
+        "predecessor": "batch-01-anatomy",
+        "implementer": "/root/phase2a_task3_2_impl",
+        "reviewer": "/root/phase2a_task3_3_review",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": baseline_digest,
+    }
+    manifest_path = (
+        root
+        / "docs"
+        / "reports"
+        / "nr-summary-rewrite"
+        / "phase2a"
+        / "generated"
+        / "batch-02-disease.json"
+    )
+    checked = json.loads(manifest_path.read_text(encoding="utf-8"))
+    observation_digest = canonical_sha256(
+        audit._phase2_generated_observation_projection(checked)
+    )
+    assert audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 == {
+        "batch-01-anatomy": (
+            "7adfa693cf5a178e1a393c250b1322f4e7ea4de990fdac16c0afae26f6f9cefd"
+        ),
+        "batch-02-disease": observation_digest,
+    }
+    assert checked["selectedSlugs"] == list(BATCH02_DISEASE_SLUGS)
+    assert len(checked["detailFiles"]) == 10
+    assert checked["detailFileCount"] == 980
+    assert checked["index"]["entryCount"] == 980
+    assert checked["secondRun"] == {
+        "changedPaths": [],
+        "mtimeChangedPaths": [],
+    }
+    for batch_id in ("batch-01-anatomy", "batch-02-disease"):
+        batch_context = audit.load_phase2_batch(root, assignment_path, batch_id)
+        assert audit.validate_phase2_batch(
+            batch_context,
+            check_source_hashes=False,
+            check_generated=True,
+        ) == []
+
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "relocated" / "checkout"
+        shadow_assignment = _copy_production_phase2a_batch02_checkout(shadow)
+        before = audit._phase2_generated_snapshot(
+            audit.load_phase2_batch(
+                shadow, shadow_assignment, "batch-02-disease"
+            )
+        )
+        rerun = audit.run_phase2_generated_observation_workflow(
+            shadow, "batch-02-disease"
+        )
+        after = audit._phase2_generated_snapshot(
+            audit.load_phase2_batch(
+                shadow, shadow_assignment, "batch-02-disease"
+            )
+        )
+        assert rerun["manifest"] == checked
+        assert rerun["observationSha256"] == observation_digest
+        assert before == after
+
+
+def test_phase2a_batch02_workflow_rejects_review_and_predecessor_forgery_before_write() -> None:
+    cases = (
+        ("unapproved", "phase2-review-sequence"),
+        ("same-identity", "phase2-reviewer-conflict"),
+        ("wrong-baseline", "phase2-review-sequence"),
+        ("unresolved-queue", "phase2-manual-queue-mismatch"),
+    )
+    for mutation, expected_code in cases:
+        with tempfile.TemporaryDirectory() as directory:
+            shadow = Path(directory) / mutation
+            assignment_path = _copy_production_phase2a_batch02_checkout(shadow)
+            evidence_path = (
+                shadow
+                / "docs/reports/nr-summary-rewrite/phase2a/evidence/"
+                "batch-02-disease.json"
+            )
+            evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+            if mutation == "unapproved":
+                evidence["workflow"]["reviewStatus"] = "not-started"
+                evidence["workflow"]["reviewedBaselineSha256"] = None
+            elif mutation == "same-identity":
+                evidence["workflow"]["reviewer"] = evidence["workflow"][
+                    "implementer"
+                ]
+            elif mutation == "wrong-baseline":
+                evidence["workflow"]["reviewedBaselineSha256"] = "0" * 64
+            else:
+                evidence["manualReviewFactIds"] = []
+            evidence_path.write_text(
+                json.dumps(evidence, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            context = audit.load_phase2_batch(
+                shadow, assignment_path, "batch-02-disease"
+            )
+            before = audit._phase2_generated_snapshot(context)
+            with _expect_phase2_error() as observed:
+                audit.run_phase2_generated_observation_workflow(
+                    shadow, "batch-02-disease"
+                )
+            assert observed["code"] == expected_code, mutation
+            assert audit._phase2_generated_snapshot(context) == before
+
+    original_registry = audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+    try:
+        for registry in (
+            {},
+            {"batch-01-anatomy": "0" * 64},
+            {"batch-02-disease": original_registry.get("batch-02-disease", "")},
+        ):
+            with tempfile.TemporaryDirectory() as directory:
+                shadow = Path(directory) / "predecessor"
+                assignment_path = _copy_production_phase2a_batch02_checkout(shadow)
+                context = audit.load_phase2_batch(
+                    shadow, assignment_path, "batch-02-disease"
+                )
+                before = audit._phase2_generated_snapshot(context)
+                audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = registry
+                with _expect_phase2_error() as observed:
+                    audit.run_phase2_generated_observation_workflow(
+                        shadow, "batch-02-disease"
+                    )
+                assert observed["code"] == "phase2-review-sequence"
+                assert audit._phase2_generated_snapshot(context) == before
+    finally:
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = original_registry
+
+
+def test_phase2a_batch02_workflow_accepts_exact_predecessor_before_own_seal() -> None:
+    original_registry = audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "pre-own-seal"
+        _copy_production_phase2a_batch02_checkout(shadow)
+        own_manifest = (
+            shadow
+            / "docs/reports/nr-summary-rewrite/phase2a/generated/"
+            "batch-02-disease.json"
+        )
+        if own_manifest.exists():
+            own_manifest.unlink()
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = {
+            "batch-01-anatomy": original_registry["batch-01-anatomy"]
+        }
+        try:
+            workflow = audit.run_phase2_generated_observation_workflow(
+                shadow, "batch-02-disease"
+            )
+        finally:
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = original_registry
+        assert workflow["manifest"]["batch"] == "batch-02-disease"
+        assert workflow["manifest"]["secondRun"] == {
+            "changedPaths": [],
+            "mtimeChangedPaths": [],
+        }
+
+
+def test_phase2a_batch02_generated_registry_and_manual_queue_are_fail_closed() -> None:
+    _, _, context = _production_phase2a_batch02()
+    evidence = context.evidence
+    assert isinstance(evidence, dict)
+    facts = [fact for entry in evidence["notes"] for fact in entry["facts"]]
+    unresolved = [fact for fact in facts if fact["disposition"] != "covered"]
+    assert evidence["status"] == "needs-review"
+    assert evidence["manualReviewFactIds"] == [
+        "adrenoleukodystrophy-f30",
+        "adrenoleukodystrophy-f33",
+    ]
+    assert unresolved == [
+        {
+            "id": "adrenoleukodystrophy-f30",
+            "sourceRefs": [],
+            "disposition": "research-needed",
+            "coverage": None,
+        },
+        {
+            "id": "adrenoleukodystrophy-f33",
+            "sourceRefs": [],
+            "disposition": "research-needed",
+            "coverage": None,
+        },
+    ]
+
+    original_registry = audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+    valid01 = original_registry.get("batch-01-anatomy")
+    valid02 = original_registry.get("batch-02-disease")
+    registries = (
+        {},
+        {"batch-01-anatomy": valid01},
+        {"batch-01-anatomy": valid01, "batch-02-disease": "0" * 64},
+        {"batch-02-disease": valid02},
+        {
+            "batch-01-anatomy": valid01,
+            "batch-02-disease": valid02,
+            "batch-03-pattern": "1" * 64,
+        },
+    )
+    try:
+        for registry in registries:
+            audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = registry
+            codes = {
+                finding.code
+                for finding in audit.validate_phase2_batch(
+                    context,
+                    check_source_hashes=False,
+                    check_generated=True,
+                )
+            }
+            assert "generated-observation-untrusted" in codes, registry
+    finally:
+        audit.TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256 = original_registry
+
+    forged = deepcopy(evidence)
+    forged["status"] = "verified"
+    forged["manualReviewFactIds"] = []
+    ald = next(
+        entry for entry in forged["notes"] if entry["slug"] == "adrenoleukodystrophy"
+    )
+    ald["status"] = "verified"
+    codes = {
+        finding.code
+        for finding in audit.validate_phase2_batch(
+            replace(context, evidence=forged),
+            check_source_hashes=False,
+            check_generated=False,
+        )
+    }
+    assert "phase2-manual-queue-mismatch" in codes
+    assert "phase2-evidence-schema" in codes
+
+
+def test_phase2a_batch02_selected_and_coordinated_generated_mutations_fail() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "selected"
+        assignment_path = _copy_production_phase2a_batch02_checkout(shadow)
+        context = audit.load_phase2_batch(
+            shadow, assignment_path, "batch-02-disease"
+        )
+        slug = context.batch["slugs"][0]
+        detail_path = shadow / context.generated_root / f"{slug}.json"
+        detail = json.loads(detail_path.read_text(encoding="utf-8"))
+        detail["keyPoints"] = ["forged"]
+        detail_path.write_text(
+            json.dumps(detail, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        attacked = audit.load_phase2_batch(
+            shadow, assignment_path, "batch-02-disease"
+        )
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2_batch(
+                attacked,
+                check_source_hashes=False,
+                check_generated=True,
+            )
+        }
+        assert "generated-keypoints-mismatch" in codes
+        assert "generated-manifest-mismatch" in codes
+
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "coordinated"
+        assignment_path = _copy_production_phase2a_batch02_checkout(shadow)
+        context = audit.load_phase2_batch(
+            shadow, assignment_path, "batch-02-disease"
+        )
+        slug = context.batch["slugs"][0]
+        note_path = shadow / context.note_records[slug].path
+        note_text = note_path.read_text(encoding="utf-8")
+        note_path.write_text(
+            note_text.replace("**代謝**", "**代謝核對**", 1),
+            encoding="utf-8",
+            newline="",
+        )
+        mutated_note = audit.parse_note(note_path)
+        evidence_path = shadow / context.evidence_path
+        evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+        entry = next(item for item in evidence["notes"] if item["slug"] == slug)
+        entry["rewrittenSummary"] = mutated_note.original_summary
+        entry["summaryBulletEvidence"] = audit._generated_keypoints(mutated_note)
+        entry["coverageEvidenceSha256"] = audit.phase2_coverage_evidence_sha256(
+            evidence["baselineLock"]["sha256"], entry
+        )
+        evidence_path.write_text(
+            json.dumps(evidence, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        detail_path = shadow / context.generated_root / f"{slug}.json"
+        detail = json.loads(detail_path.read_text(encoding="utf-8"))
+        detail["keyPoints"] = audit._generated_keypoints(mutated_note)
+        detail_path.write_text(
+            json.dumps(detail, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        manifest_path = (
+            shadow
+            / "docs/reports/nr-summary-rewrite/phase2a/generated/"
+            "batch-02-disease.json"
+        )
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        relative = (context.generated_root / f"{slug}.json").as_posix()
+        manifest["detailFiles"][relative] = hashlib.sha256(
+            detail_path.read_bytes()
+        ).hexdigest()
+        historical = dict(manifest["nonselectedAfter"])
+        historical.update(manifest["detailFiles"])
+        manifest["detailTreeSha256"] = canonical_sha256(
+            [
+                {"path": path, "sha256": historical[path]}
+                for path in sorted(historical)
+            ]
+        )
+        manifest_path.write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        attacked = audit.load_phase2_batch(
+            shadow, assignment_path, "batch-02-disease"
+        )
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2_batch(
+                attacked,
+                check_source_hashes=False,
+                check_generated=True,
+            )
+        }
+        assert "generated-observation-untrusted" in codes
+
+
+def test_phase2a_batch02_workflow_rejects_unrelated_and_second_run_drift() -> None:
+    import build_concepts as concept_builder
+
+    original_builder = concept_builder.build_selected_concepts
+    for phase, mutation, expected in (
+        ("first", "bytes", "generated-unrelated-write"),
+        ("first", "mtime", "generated-unrelated-write"),
+        ("second", "bytes", "generated-non-idempotent"),
+        ("second", "mtime", "generated-non-idempotent"),
+    ):
+        with tempfile.TemporaryDirectory() as directory:
+            shadow = Path(directory) / f"{phase}-{mutation}"
+            assignment_path = _copy_production_phase2a_batch02_checkout(shadow)
+            context = audit.load_phase2_batch(
+                shadow, assignment_path, "batch-02-disease"
+            )
+            selected = set(context.batch["slugs"])
+            victim = (
+                next(
+                    path
+                    for path in sorted(
+                        (shadow / context.generated_root).glob("*.json")
+                    )
+                    if path.stem not in selected
+                )
+                if phase == "first"
+                else (
+                    shadow
+                    / context.generated_root
+                    / f"{context.batch['slugs'][0]}.json"
+                )
+            )
+            calls = 0
+
+            def mutating_builder(*args, **kwargs):
+                nonlocal calls
+                result = original_builder(*args, **kwargs)
+                calls += 1
+                target_call = 1 if phase == "first" else 2
+                if calls == target_call:
+                    if mutation == "bytes":
+                        victim.write_bytes(victim.read_bytes() + b"\n")
+                    else:
+                        stat = victim.stat()
+                        os.utime(
+                            victim,
+                            ns=(
+                                stat.st_atime_ns,
+                                stat.st_mtime_ns + 1_000_000_000,
+                            ),
+                        )
+                return result
+
+            concept_builder.build_selected_concepts = mutating_builder
+            try:
+                with _expect_phase2_error() as observed:
+                    audit.run_phase2_generated_observation_workflow(
+                        shadow, "batch-02-disease"
+                    )
+            finally:
+                concept_builder.build_selected_concepts = original_builder
+            assert observed["code"] == expected, (phase, mutation)
+
+
+class _expect_phase2_error:
+    def __enter__(self) -> dict[str, str | None]:
+        self.observed: dict[str, str | None] = {"code": None}
+        return self.observed
+
+    def __exit__(self, exc_type, exc, traceback) -> bool:
+        if exc_type is None:
+            return False
+        if not isinstance(exc, audit.Phase2LoadError):
+            return False
+        self.observed["code"] = exc.code
+        return True
 
 
 def run_smoke() -> None:
