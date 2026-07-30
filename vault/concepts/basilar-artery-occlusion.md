@@ -18,7 +18,10 @@ dateRev: 2026-07-10
 - **好發節段/病因**：阻塞好發於 basilar artery proximal segment；亞洲族群以顱內動脈粥樣硬化狹窄（ICAS）為主，非單純心源性栓塞。[^2]
 - **穿通枝影響**：paramedian／thalamoperforators 供應中腦、橋腦與丘腦，因此 BAO 可造成雙側丘腦梗塞與 top-of-the-basilar 症候群。[^1]
 - **治療**：核心為 endovascular thrombectomy；ATTENTION 試驗顯示，取栓相較單純內科治療改善預後。[^1]
-- **取栓後預後分層**：embolism without VA steno-occlusion 的再通率與臨床預後最佳（Baik 2019：成功再通約 85%、mRS 0–2 約 53%），優於合併 tandem VA steno-occlusion 的栓塞及 in situ atherosclerotic thrombosis（再通約 55%、良好結局約 20%，常需血管成形／支架）；良好結局定義為 mRS 0–2，不良為 3–6。[^3][^4]
+- **最佳取栓組別**：embolism without VA steno-occlusion 的再通率與臨床預後最佳；Baik 2019 成功再通約 85%、mRS 0–2 良好結局約 53%。[^3][^4]
+- **較差取栓組別**：上述結果優於合併 tandem VA steno-occlusion 的栓塞及 in situ atherosclerotic thrombosis；後者再通約 55%、良好結局約 20%。[^3][^4]
+- **介入需求**：in situ atherosclerotic thrombosis 常需血管成形／支架。[^3][^4]
+- **mRS 定義**：良好結局為 mRS 0–2，不良為 3–6。[^3][^4]
 
 ## 放射科醫師影像判讀重點
 - **CT/CTA 為急性期首選**：非顯影 CT 可見 hyperdense basilar artery sign；CTA/MRA 直接顯示阻塞節段與側枝，並評估 ICAS。[^2]

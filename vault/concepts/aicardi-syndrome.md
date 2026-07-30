@@ -17,7 +17,10 @@ same:
 
 ## Summary
 - **遺傳/性別**：X 連鎖、對男性致死，幾乎僅女性表現；罕見 47,XXY 男性例外，發生率約 1/100,000。[^1][^2]
-- **典型三主徵**：① Corpus callosal dysgenesis/agenesis（胼胝體發育不良）是最一致特徵；② Chorioretinal lacunae 為視神經盤周圍點狀 punched-out 視網膜色素層病灶，近 pathognomonic；③ Infantile spasms/早發癲癇為點頭式（salaam/flexion）痙攣＋低頭動作。[^1][^2]
+- **典型三主徵**：由下列三項構成。[^1][^2]
+- **三主徵—胼胝體**：Corpus callosal dysgenesis/agenesis（胼胝體發育不良）是最一致特徵。[^1][^2]
+- **三主徵—視網膜**：Chorioretinal lacunae 為視神經盤周圍點狀 punched-out 視網膜色素層病灶，近 pathognomonic。[^1][^2]
+- **三主徵—癲癇**：Infantile spasms/早發癲癇為點頭式（salaam/flexion）痙攣＋低頭動作。[^1][^2]
 - **非三主徵**：顱內囊腫（intracranial cyst）雖可見於 interhemispheric 或後顱窩，但不屬三主徵。[^1][^2]
 - **合併 CNS 畸形**：灰質異位、polymicrogyria（frontal/perisylvian）、後顱窩異常（95%，Dandy-Walker continuum）、choroid plexus papilloma/carcinoma、視神經 coloboma。[^2]
 

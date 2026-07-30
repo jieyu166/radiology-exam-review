@@ -1,0 +1,718 @@
+{
+  "2-hydroxyglutarate-idh-mutant-glioma-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "突變型 IDH1/IDH2 把 α-ketoglutarate 還原成 D-2-hydroxyglutarate"
+    },
+    {
+      "bulletIndex": 1,
+      "quote": "2-HG 在腫瘤內堆積至可被 MRS 偵測，是 IDH 突變的專屬代謝物"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f02": [
+    {
+      "bulletIndex": 2,
+      "quote": "2-HG peak 位於 2.25 ppm"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "因與 GABA、glutamate-glutamine（Glx, 2.2–2.4 ppm）重疊，需 optimized TE MRS（如 2D correlation）區辨"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "IDH-wild-type glioblastoma 亦可能有偽陽性 2-HG 峰，整體約 21%"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f05": [
+    {
+      "bulletIndex": 3,
+      "quote": "壞死 > 20% 時約 50%，多源自壞死與 lactate 干擾"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "取樣體素應置於實質腫瘤、避開壞死區"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f06": [
+    {
+      "bulletIndex": 4,
+      "quote": "Diffuse astrocytoma 與 Anaplastic astrocytoma 可見 2-HG 升高"
+    },
+    {
+      "bulletIndex": 4,
+      "quote": "2021 WHO 已整併為 astrocytoma IDH-mutant grade 2–4"
+    }
+  ],
+  "2-hydroxyglutarate-idh-mutant-glioma-f07": [
+    {
+      "bulletIndex": 5,
+      "quote": "IDH-wild-type 星細胞瘤與 IDH-wild-type glioblastoma 無 2-HG 峰"
+    }
+  ],
+  "adrenoleukodystrophy-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "X-linked peroxisomal disease，由 ABCD1 突變造成"
+    }
+  ],
+  "adrenoleukodystrophy-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "VLCFA 顯著升高並堆積於腎上腺、CNS 髓鞘與 Leydig 細胞"
+    }
+  ],
+  "adrenoleukodystrophy-f03": [
+    {
+      "bulletIndex": 1,
+      "quote": "表型由重到輕為 CerALD → AMN → Addison-only → 無症狀"
+    }
+  ],
+  "adrenoleukodystrophy-f04": [
+    {
+      "bulletIndex": 2,
+      "quote": "多見於 5–12 歲男童，以行為／學業退步與視聽功能障礙起病"
+    }
+  ],
+  "adrenoleukodystrophy-f05": [
+    {
+      "bulletIndex": 2,
+      "quote": "影像進展快、預後差"
+    }
+  ],
+  "adrenoleukodystrophy-f06": [
+    {
+      "bulletIndex": 2,
+      "quote": "Childhood cerebral 型最重且快速退化"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "腦 MRI 是初診、追蹤及鑑別的主軸"
+    }
+  ],
+  "adrenoleukodystrophy-f07": [
+    {
+      "bulletIndex": 3,
+      "quote": "頂枕／peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "早期累及 splenium，經壓部跨中線呈對稱馬蹄／蝴蝶狀並由後向前進展"
+    }
+  ],
+  "adrenoleukodystrophy-f08": [
+    {
+      "bulletIndex": 3,
+      "quote": "可沿下行/上行纖維束累及視放射（visual）、聽放射（auditory pathway）與皮質脊髓束（projection fibres）"
+    }
+  ],
+  "adrenoleukodystrophy-f09": [
+    {
+      "bulletIndex": 4,
+      "quote": "Schaumburg zones 由中央向外依序為中央帶、中間帶、周邊帶"
+    }
+  ],
+  "adrenoleukodystrophy-f10": [
+    {
+      "bulletIndex": 5,
+      "quote": "不可逆膠質增生／壞死，髓鞘與軸突幾乎全失且無活動性過程"
+    },
+    {
+      "bulletIndex": 5,
+      "quote": "T2 最高、T1 最低"
+    }
+  ],
+  "adrenoleukodystrophy-f11": [
+    {
+      "bulletIndex": 5,
+      "quote": "DWI 低訊號，代表 diffusional anisotropy 完全喪失"
+    }
+  ],
+  "adrenoleukodystrophy-f12": [
+    {
+      "bulletIndex": 6,
+      "quote": "活動性發炎脫髓鞘，含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞及血管周淋巴球浸潤"
+    },
+    {
+      "bulletIndex": 6,
+      "quote": "呈 gadolinium enhancing leading edge"
+    }
+  ],
+  "adrenoleukodystrophy-f13": [
+    {
+      "bulletIndex": 7,
+      "quote": "DWI 中度高訊號、ADC 偏低"
+    },
+    {
+      "bulletIndex": 7,
+      "quote": "restricted diffusion 源自髓鞘水腫與高細胞密度"
+    }
+  ],
+  "adrenoleukodystrophy-f14": [
+    {
+      "bulletIndex": 8,
+      "quote": "prelesional／前緣活動脫髓鞘，軸突保留、髓鞘破壞並有散在活化吞噬細胞與星狀細胞"
+    },
+    {
+      "bulletIndex": 8,
+      "quote": "DWI 微高訊號，部分為 T2 shine-through"
+    }
+  ],
+  "adrenoleukodystrophy-f15": [
+    {
+      "bulletIndex": 9,
+      "quote": "是影像所見的最外側活動前緣"
+    }
+  ],
+  "adrenoleukodystrophy-f16": [
+    {
+      "bulletIndex": 10,
+      "quote": "post-contrast 強化代表 BBB 破壞及活躍發炎，對應活動性脫髓鞘帶並可預測進展"
+    }
+  ],
+  "adrenoleukodystrophy-f17": [
+    {
+      "bulletIndex": 10,
+      "quote": "初診有強化者約 86% 後續進展"
+    }
+  ],
+  "adrenoleukodystrophy-f18": [
+    {
+      "bulletIndex": 10,
+      "quote": "周邊 gadolinium leading edge 位於已脫髓鞘中央帶與正常白質之間"
+    }
+  ],
+  "adrenoleukodystrophy-f19": [
+    {
+      "bulletIndex": 11,
+      "quote": "腦 MRI 評分最高 34 分，評估白質受累位置／範圍與局部或瀰漫性腦萎縮"
+    },
+    {
+      "bulletIndex": 11,
+      "quote": "包括頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹"
+    }
+  ],
+  "adrenoleukodystrophy-f20": [
+    {
+      "bulletIndex": 12,
+      "quote": "≤4 輕、5–10 中、>10 重"
+    }
+  ],
+  "adrenoleukodystrophy-f21": [
+    {
+      "bulletIndex": 12,
+      "quote": "用於 HSCT 時機與預後判斷"
+    },
+    {
+      "bulletIndex": 12,
+      "quote": "Loes <9（近年趨向 ≤4）且早期介入者存活與神經預後較佳"
+    }
+  ],
+  "adrenoleukodystrophy-f22": [
+    {
+      "bulletIndex": 13,
+      "quote": "多於 20–30 歲起病，呈進行性 spastic paraparesis、後柱本體覺障礙、周邊神經病變與括約肌障礙"
+    }
+  ],
+  "adrenoleukodystrophy-f23": [
+    {
+      "bulletIndex": 13,
+      "quote": "常合併腎上腺功能不全"
+    }
+  ],
+  "adrenoleukodystrophy-f24": [
+    {
+      "bulletIndex": 14,
+      "quote": "以脊髓病變為主；胸段及腰、頸段 CST 與 dorsal columns 長束退化"
+    },
+    {
+      "bulletIndex": 14,
+      "quote": "胸段及腰、頸段 CST 與 dorsal columns 長束退化"
+    },
+    {
+      "bulletIndex": 14,
+      "quote": "造成脊髓瀰漫性萎縮、AP 徑變窄及外觀扁平"
+    }
+  ],
+  "adrenoleukodystrophy-f25": [
+    {
+      "bulletIndex": 14,
+      "quote": "腦白質可正常或僅輕微受累，與兒童腦型相反"
+    }
+  ],
+  "adrenoleukodystrophy-f26": [
+    {
+      "bulletIndex": 15,
+      "quote": "PAI 見於約 70% 的 ALD/AMN 男性，女性帶因者約 5%"
+    }
+  ],
+  "adrenoleukodystrophy-f27": [
+    {
+      "bulletIndex": 15,
+      "quote": "VLCFA 以腎上腺堆積最顯著，X-ALD 可先以 Addison's disease 表現"
+    }
+  ],
+  "adrenoleukodystrophy-f28": [
+    {
+      "bulletIndex": 15,
+      "quote": "男童／青年若腦白質失養合併不明原因腎上腺功能不全，應優先考慮 X-ALD"
+    }
+  ],
+  "adrenoleukodystrophy-f29": [
+    {
+      "bulletIndex": 16,
+      "quote": "後部白質對稱＋胼胝體壓部受累＋活動性強化前緣，提示 X-linked ALD"
+    }
+  ],
+  "adrenoleukodystrophy-f31": [
+    {
+      "bulletIndex": 17,
+      "quote": "Krabbe 與 MLD（metachromatic）多為瀰漫或後肢／錐體束受累，並可累及視放射"
+    },
+    {
+      "bulletIndex": 17,
+      "quote": "Alexander 典型為早期額部受累"
+    }
+  ],
+  "adrenoleukodystrophy-f32": [
+    {
+      "bulletIndex": 17,
+      "quote": "ALD 以後部對稱＋壓部＋強化前緣區分"
+    }
+  ],
+  "adrenoleukodystrophy-f34": [
+    {
+      "bulletIndex": 18,
+      "quote": "10 歲男童、行為／學業退步、雙側 peritrigonal 對稱 T2 高訊號＋邊緣強化，診斷 X-linked ALD（2016-185 正解 A）"
+    }
+  ],
+  "adrenoleukodystrophy-f35": [
+    {
+      "bulletIndex": 18,
+      "quote": "鑑別為 Alexander（額葉為主）、Krabbe（後肢／錐體束、視放射）與 MS（不對稱、年長）"
+    }
+  ],
+  "adrenoleukodystrophy-f36": [
+    {
+      "bulletIndex": 19,
+      "quote": "男童、後部（頂枕／splenium）對稱白質 T2 高訊號＋周邊 leading edge 強化，提示 X-linked adrenoleukodystrophy"
+    }
+  ],
+  "aicardi-syndrome-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "X 連鎖、對男性致死，幾乎僅女性表現"
+    },
+    {
+      "bulletIndex": 1,
+      "quote": "罕見 47,XXY 男性例外"
+    }
+  ],
+  "aicardi-syndrome-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "發生率約 1/100,000"
+    }
+  ],
+  "aicardi-syndrome-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "由下列三項構成。[^1][^2]"
+    }
+  ],
+  "aicardi-syndrome-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "Corpus callosal dysgenesis/agenesis（胼胝體發育不良）是最一致特徵"
+    }
+  ],
+  "aicardi-syndrome-f05": [
+    {
+      "bulletIndex": 4,
+      "quote": "Chorioretinal lacunae 為視神經盤周圍點狀 punched-out 視網膜色素層病灶，近 pathognomonic"
+    }
+  ],
+  "aicardi-syndrome-f06": [
+    {
+      "bulletIndex": 5,
+      "quote": "Infantile spasms/早發癲癇為點頭式（salaam/flexion）痙攣＋低頭動作"
+    }
+  ],
+  "aicardi-syndrome-f07": [
+    {
+      "bulletIndex": 6,
+      "quote": "顱內囊腫（intracranial cyst）雖可見於 interhemispheric 或後顱窩，但不屬三主徵"
+    }
+  ],
+  "aicardi-syndrome-f08": [
+    {
+      "bulletIndex": 7,
+      "quote": "灰質異位、polymicrogyria（frontal/perisylvian）、後顱窩異常（95%，Dandy-Walker continuum）、choroid plexus papilloma/carcinoma、視神經 coloboma"
+    }
+  ],
+  "als-imaging-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "舌肌 T1 高訊號，源自慢性去神經後脂肪取代"
+    }
+  ],
+  "als-imaging-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "是 ALS bulbar 侵犯的標記"
+    }
+  ],
+  "als-imaging-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "運動皮質（precentral gyrus）沿皮質 T2/SWI 低訊號，對應小膠質鐵沉積"
+    }
+  ],
+  "als-imaging-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "CST T2/FLAIR 高訊號，internal capsule 後肢最早，為上運動神經元變性的影像表現"
+    }
+  ],
+  "angioinvasive-aspergillosis-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "免疫低下，包括 AIDS、長期高劑量類固醇、嗜中性球低下與移植"
+    }
+  ],
+  "angioinvasive-aspergillosis-f02": [
+    {
+      "bulletIndex": 2,
+      "quote": "因免疫反應弱，病灶強化微弱或不規則"
+    }
+  ],
+  "angioinvasive-aspergillosis-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "「multiple nodules with strong ring enhancement」為假（2016-162 正解 A）"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "強烈均勻環狀強化較像化膿性膿瘍"
+    }
+  ],
+  "angioinvasive-aspergillosis-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "膿瘍周邊因出血／真菌元素呈低 T2，GRE/SWI 更明顯（option D 對）"
+    }
+  ],
+  "angioinvasive-aspergillosis-f05": [
+    {
+      "bulletIndex": 4,
+      "quote": "不同於化膿性膿瘍的均勻高 DWI"
+    },
+    {
+      "bulletIndex": 4,
+      "quote": "麴菌擴散受限常異質，可呈周邊／環狀（ring-like、peripheral）（option B、C 對）"
+    }
+  ],
+  "angioinvasive-aspergillosis-f06": [
+    {
+      "bulletIndex": 5,
+      "quote": "可造成腦梗塞、黴菌性動脈瘤與出血"
+    }
+  ],
+  "anti-nmda-encephalitis-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "好發年輕患者，尤其年輕女性（F:M≈8:2≈4:1）"
+    }
+  ],
+  "anti-nmda-encephalitis-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "中位 21 歲，約 37% 發病時 <18 歲"
+    }
+  ],
+  "anti-nmda-encephalitis-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "常由病毒樣前驅期進展至顯著精神症狀（約 90% 以精神症狀起病）"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "再續發癲癇／運動異常與自主神經不穩"
+    }
+  ],
+  "anti-nmda-encephalitis-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "卵巢畸胎瘤約 40–60%，年輕女性比例更高且多為成熟畸胎瘤"
+    }
+  ],
+  "anti-nmda-encephalitis-f05": [
+    {
+      "bulletIndex": 3,
+      "quote": "早期切除腫瘤 → 較佳預後"
+    }
+  ],
+  "anti-nmda-encephalitis-f06": [
+    {
+      "bulletIndex": 4,
+      "quote": "MRI 常正常或僅見非特異 T2/FLAIR 高訊號"
+    },
+    {
+      "bulletIndex": 4,
+      "quote": "異常僅約 33–55% 且與症狀相關性不佳"
+    }
+  ],
+  "anti-nmda-encephalitis-f07": [
+    {
+      "bulletIndex": 4,
+      "quote": "確診靠 CSF／血清抗 NMDAR（GluN1）抗體，不靠影像"
+    }
+  ],
+  "arterial-dissection-mri-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "內膜／vasa vasorum 撕裂後血液進入 media，形成壁內血腫＋假腔"
+    }
+  ],
+  "arterial-dissection-mri-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "經典為偏心狹窄管腔＋新月形壁內血腫＋薄環狀強化（adventitia vasa vasorum）"
+    }
+  ],
+  "arterial-dissection-mri-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "壁內血腫 MR 訊號隨血紅素階段而異，並非固定單一訊號"
+    }
+  ],
+  "arterial-dissection-mri-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "T1 FS/T2/DWI 呈高訊號 crescent sign"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "可為偏心（eccentric）或偶呈環周（circumferential）的新月／線狀／帶狀"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "對應 methemoglobin 期"
+    }
+  ],
+  "arterial-dissection-mri-f05": [
+    {
+      "bulletIndex": 4,
+      "quote": "deoxyhemoglobin 為主的急性血腫通常為低至等訊號，而非高訊號"
+    }
+  ],
+  "arterial-dissection-mri-f06": [
+    {
+      "bulletIndex": 4,
+      "quote": "數天後轉為 methemoglobin 才出現典型高訊號"
+    }
+  ],
+  "arterial-dissection-mri-f07": [
+    {
+      "bulletIndex": 5,
+      "quote": "隨時間血栓化，殘餘管腔逐漸縮窄，flow void 減少或消失"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "典型見於極年幼兒童，中位年齡 < 2–3 歲"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "占 3 歲以下兒童原發性胚胎性 CNS 腫瘤高達約 20%"
+    },
+    {
+      "bulletIndex": 1,
+      "quote": "故「罕見於 < 3 歲」為錯誤"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "高惡性度 WHO grade 4 胚胎性腫瘤"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f04": [
+    {
+      "bulletIndex": 2,
+      "quote": "約 95% 有 SMARCB1（INI1）雙套失活"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f05": [
+    {
+      "bulletIndex": 2,
+      "quote": "橫紋肌樣細胞是特徵但非診斷必要"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "需分子／DNA methylation 佐證"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f06": [
+    {
+      "bulletIndex": 3,
+      "quote": "約 47% 幕下、41% 幕上、12% 兩者"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f07": [
+    {
+      "bulletIndex": 3,
+      "quote": "幕下者常偏中線外（off-midline）"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "好發 CPA、小腦／腦幹與個別顱神經"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f08": [
+    {
+      "bulletIndex": 4,
+      "quote": "軟腦膜／腦脊髓液播散常見，約 15–20% 初診即可見"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f09": [
+    {
+      "bulletIndex": 4,
+      "quote": "疑似 AT/RT 應做全神經軸造影"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f10": [
+    {
+      "bulletIndex": 5,
+      "quote": "侵襲性強、預後差"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f11": [
+    {
+      "bulletIndex": 5,
+      "quote": "< 3 歲預後更差（約 30% 五年存活）"
+    }
+  ],
+  "atypical-teratoid-rhabdoid-tumor-f12": [
+    {
+      "bulletIndex": 5,
+      "quote": "局部病灶合併三模態治療約 50% 五年存活"
+    }
+  ],
+  "autoimmune-encephalitis-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "自體免疫腦炎是相對新興的免疫媒介疾病類別"
+    },
+    {
+      "bulletIndex": 1,
+      "quote": "表現可由輕微／隱匿發作的認知障礙，延伸至合併頑固性癲癇（refractory seizure）的複雜腦病變"
+    }
+  ],
+  "autoimmune-encephalitis-f02": [
+    {
+      "bulletIndex": 2,
+      "quote": "抗體媒介 CNS 疾病依有無潛在惡性腫瘤"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "分為 paraneoplastic（副腫瘤性）與 nonparaneoplastic（非副腫瘤性）"
+    }
+  ],
+  "autoimmune-encephalitis-f03": [
+    {
+      "bulletIndex": 3,
+      "quote": "辨識 limbic structures 內提示自體免疫腦炎的特徵性表現"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "是提醒臨床醫師啟動適當診斷評估的關鍵"
+    }
+  ],
+  "autoimmune-encephalitis-f04": [
+    {
+      "bulletIndex": 4,
+      "quote": "最常見於 small-cell lung cancer"
+    },
+    {
+      "bulletIndex": 4,
+      "quote": "亦可見 neuroblastoma、testicular germ cell tumor、breast cancer、Hodgkin lymphoma、thymoma、immature ovarian teratoma"
+    }
+  ],
+  "basilar-artery-occlusion-f01": [
+    {
+      "bulletIndex": 1,
+      "quote": "BAO 是後循環大血管阻塞，未治療死亡率高"
+    }
+  ],
+  "basilar-artery-occlusion-f02": [
+    {
+      "bulletIndex": 1,
+      "quote": "病灶部位取決於阻塞節段與側枝供應"
+    }
+  ],
+  "basilar-artery-occlusion-f03": [
+    {
+      "bulletIndex": 2,
+      "quote": "阻塞好發於 basilar artery proximal segment"
+    },
+    {
+      "bulletIndex": 2,
+      "quote": "亞洲族群以顱內動脈粥樣硬化狹窄（ICAS）為主，非單純心源性栓塞"
+    }
+  ],
+  "basilar-artery-occlusion-f04": [
+    {
+      "bulletIndex": 3,
+      "quote": "paramedian／thalamoperforators 供應中腦、橋腦與丘腦"
+    },
+    {
+      "bulletIndex": 3,
+      "quote": "因此 BAO 可造成雙側丘腦梗塞與 top-of-the-basilar 症候群"
+    }
+  ],
+  "basilar-artery-occlusion-f05": [
+    {
+      "bulletIndex": 4,
+      "quote": "核心為 endovascular thrombectomy"
+    },
+    {
+      "bulletIndex": 4,
+      "quote": "ATTENTION 試驗顯示，取栓相較單純內科治療改善預後"
+    }
+  ],
+  "basilar-artery-occlusion-f06": [
+    {
+      "bulletIndex": 5,
+      "quote": "embolism without VA steno-occlusion 的再通率與臨床預後最佳"
+    },
+    {
+      "bulletIndex": 5,
+      "quote": "Baik 2019 成功再通約 85%、mRS 0–2 良好結局約 53%"
+    },
+    {
+      "bulletIndex": 6,
+      "quote": "上述結果優於合併 tandem VA steno-occlusion 的栓塞及 in situ atherosclerotic thrombosis"
+    },
+    {
+      "bulletIndex": 6,
+      "quote": "後者再通約 55%、良好結局約 20%"
+    },
+    {
+      "bulletIndex": 7,
+      "quote": "in situ atherosclerotic thrombosis 常需血管成形／支架"
+    }
+  ],
+  "basilar-artery-occlusion-f07": [
+    {
+      "bulletIndex": 8,
+      "quote": "良好結局為 mRS 0–2，不良為 3–6"
+    }
+  ]
+}

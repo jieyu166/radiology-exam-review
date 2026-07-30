@@ -619,6 +619,11 @@ def write_phase2_api_fixture(root: Path, batch_id: str = "batch-01-anatomy") -> 
             f"docs/reports/nr-summary-rewrite/phase2a/generated/{batch_id}.json"
         ),
     }
+    if batch_id != "batch-01-anatomy":
+        for entry in evidence["notes"]:
+            entry["facts"][0]["coverage"] = [
+                {"bulletIndex": 1, "quote": "Demo fact."}
+            ]
     for entry in evidence["notes"]:
         entry["coverageEvidenceSha256"] = audit.phase2_coverage_evidence_sha256(
             baseline_digest, entry
@@ -796,6 +801,10 @@ def rewrite_phase2_fixture_note(root: Path, batch_id: str, slug: str) -> None:
     entry = next(item for item in evidence["notes"] if item["slug"] == slug)
     entry["rewrittenSummary"] = NR_REWRITE_SUMMARY
     entry["summaryBulletEvidence"] = ["**Label**: Rewritten fact."]
+    if batch_id != "batch-01-anatomy":
+        entry["facts"][0]["coverage"] = [
+            {"bulletIndex": 1, "quote": "Rewritten fact."}
+        ]
     entry["coverageEvidenceSha256"] = audit.phase2_coverage_evidence_sha256(
         evidence["baselineLock"]["sha256"], entry
     )
@@ -4514,6 +4523,15 @@ def _baseline_fact_templates(baseline: dict) -> dict[str, list[dict]]:
     }
 
 
+def _phase2_coverage_anchors(evidence: dict) -> dict[str, list[dict]]:
+    return {
+        fact["id"]: deepcopy(fact["coverage"])
+        for entry in evidence["notes"]
+        for fact in entry["facts"]
+        if fact["disposition"] == "covered"
+    }
+
+
 def _validate_resealed_baseline(
     context: audit.BatchContext,
     baseline: dict,
@@ -6243,6 +6261,9 @@ def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_pre_review() -> N
         implementer="/root/phase2a_task3_2_impl",
         reviewer="/root/phase2a_task3_3_review",
         research_needed_fact_ids=expected_queue,
+        coverage_anchors_by_fact_id=_phase2_coverage_anchors(
+            context.evidence
+        ),
     )
     assert regenerated == context.evidence
     assert (
@@ -6265,6 +6286,28 @@ def test_phase2a_batch02_rewrite_evidence_is_deterministic_and_pre_review() -> N
     assert sum(fact["disposition"] == "covered" for fact in facts) == 96
     assert sum(fact["disposition"] == "research-needed" for fact in facts) == 2
     assert all(entry["newUnsupportedFacts"] == 0 for entry in evidence["notes"])
+    covered_facts = [
+        fact
+        for entry in evidence["notes"]
+        for fact in entry["facts"]
+        if fact["disposition"] == "covered"
+    ]
+    unresolved_facts = [
+        fact
+        for entry in evidence["notes"]
+        for fact in entry["facts"]
+        if fact["disposition"] != "covered"
+    ]
+    assert all(
+        isinstance(fact["coverage"], list)
+        and bool(fact["coverage"])
+        and all(
+            set(anchor) == {"bulletIndex", "quote"}
+            for anchor in fact["coverage"]
+        )
+        for fact in covered_facts
+    )
+    assert all(fact.get("coverage") is None for fact in unresolved_facts)
 
 
 def test_phase2a_batch02_summaries_are_sourced_disease_cards() -> None:
@@ -6306,13 +6349,69 @@ def test_phase2a_batch02_summaries_are_sourced_disease_cards() -> None:
     )
 
     ald = context.note_records["adrenoleukodystrophy"].original_summary
-    assert ald.count("三區帶（Schaumburg zones,由中央向外）") == 1
-    central = ald.index("中央帶")
-    middle = ald.index("中間帶")
-    peripheral = ald.index("周邊帶")
+    assert (
+        ald.count(
+            "Schaumburg zones 由中央向外依序為中央帶、中間帶、周邊帶"
+        )
+        == 1
+    )
+    central = ald.index("- **中央帶**：")
+    middle = ald.index("- **中間帶**：")
+    peripheral = ald.index("- **周邊帶**：")
     assert central < middle < peripheral
     assert "PML：免疫低下" not in ald
     assert "PRES（後部可逆性腦病）" not in ald
+    assert "下行/上行纖維束" in ald
+    assert all(
+        marker in ald
+        for marker in (
+            "頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹",
+            "MLD（metachromatic）",
+        )
+    )
+
+    anti_nmda = context.note_records[
+        "anti-nmda-encephalitis"
+    ].original_summary
+    assert "早期切除腫瘤 → 較佳預後" in anti_nmda
+    atrt = context.note_records[
+        "atypical-teratoid-rhabdoid-tumor"
+    ].original_summary
+    assert "< 3 歲預後更差（約 30% 五年存活）" in atrt
+
+    assert all(
+        marker in ald
+        for marker in (
+            "- **三區帶**：Schaumburg zones 由中央向外",
+            "- **中央帶**：",
+            "- **中間帶**：",
+            "- **周邊帶**：",
+        )
+    )
+    assert all(
+        marker in aicardi
+        for marker in (
+            "- **典型三主徵**：",
+            "- **三主徵—胼胝體**：",
+            "- **三主徵—視網膜**：",
+            "- **三主徵—癲癇**：",
+        )
+    )
+    glioma = context.note_records[
+        "2-hydroxyglutarate-idh-mutant-glioma"
+    ].original_summary
+    assert "- **IDH-mutant 腫瘤**：" in glioma
+    assert "- **IDH-wild-type 陰性**：" in glioma
+    bao = context.note_records["basilar-artery-occlusion"].original_summary
+    assert all(
+        marker in bao
+        for marker in (
+            "- **最佳取栓組別**：",
+            "- **較差取栓組別**：",
+            "- **介入需求**：",
+            "- **mRS 定義**：",
+        )
+    )
 
     unresolved = {
         fact["id"]: fact
@@ -6324,13 +6423,108 @@ def test_phase2a_batch02_summaries_are_sourced_disease_cards() -> None:
             "id": "adrenoleukodystrophy-f30",
             "sourceRefs": [],
             "disposition": "research-needed",
+            "coverage": None,
         },
         "adrenoleukodystrophy-f33": {
             "id": "adrenoleukodystrophy-f33",
             "sourceRefs": [],
             "disposition": "research-needed",
+            "coverage": None,
         },
     }
+
+
+def test_phase2a_batch02_coverage_mapping_rejects_deleted_locked_clause() -> None:
+    root, _, context = _production_phase2a_batch02()
+    slug = "2-hydroxyglutarate-idh-mutant-glioma"
+    note = context.note_records[slug]
+    original_text = (root / note.path).read_text(encoding="utf-8")
+    deleted = (
+        "壞死 > 20% 時約 50%，多源自壞死與 lactate 干擾，"
+        "取樣體素應置於實質腫瘤、避開壞死區。"
+    )
+    assert original_text.count(deleted) == 1
+    changed_text = original_text.replace(deleted, "", 1)
+    changed_note = audit.parse_note_text(note.path, changed_text)
+
+    forged_evidence = deepcopy(context.evidence)
+    assert isinstance(forged_evidence, dict)
+    forged_entry = next(
+        entry for entry in forged_evidence["notes"] if entry["slug"] == slug
+    )
+    forged_entry["rewrittenSummary"] = changed_note.original_summary
+    forged_entry["summaryBulletEvidence"] = audit._generated_keypoints(
+        changed_note
+    )
+    forged_entry["coverageEvidenceSha256"] = (
+        audit.phase2_coverage_evidence_sha256(
+            canonical_sha256(context.baseline),
+            forged_entry,
+        )
+    )
+    attacked_context = replace(
+        context,
+        evidence=forged_evidence,
+        note_records={
+            **context.note_records,
+            slug: changed_note,
+        },
+    )
+    findings = audit.validate_phase2_batch(
+        attacked_context,
+        check_source_hashes=False,
+        check_generated=False,
+    )
+    assert "evidence-fact-coverage" in {
+        finding.code for finding in findings
+    }
+
+
+def test_phase2_coverage_anchor_schema_is_fail_closed() -> None:
+    bullets = [
+        "- **影像**：壞死 > 20% 時偽陽率約 50%。[^1][^3]",
+        "- **陷阱**：避開壞死區。[^3]",
+    ]
+    valid = {"bulletIndex": 1, "quote": "壞死 > 20% 時偽陽率約 50%"}
+    assert audit._phase2_coverage_anchor_is_valid(
+        valid,
+        bullets,
+        ["1", "3"],
+    )
+    attacks = (
+        {"bulletIndex": 1, "quote": "壞死"},
+        {"bulletIndex": 1, "quote": "**影像**"},
+        {"bulletIndex": 1, "quote": "偽陽率約50%"},
+        {"bulletIndex": 0, "quote": valid["quote"]},
+        {"bulletIndex": 3, "quote": valid["quote"]},
+        {"bulletIndex": 1, "quote": "不存在的完整事實"},
+        {"bulletIndex": 2, "quote": "避開壞死區"},
+        {"bulletIndex": True, "quote": valid["quote"]},
+        {"bulletIndex": 1, "quote": valid["quote"], "extra": "forged"},
+    )
+    assert all(
+        not audit._phase2_coverage_anchor_is_valid(
+            attack,
+            bullets,
+            ["1", "3"],
+        )
+        for attack in attacks
+    )
+    assert audit._phase2_fact_coverage_is_valid(
+        [valid],
+        bullets,
+        ["1", "3"],
+    )
+    assert not audit._phase2_fact_coverage_is_valid(
+        [],
+        bullets,
+        ["1", "3"],
+    )
+    assert not audit._phase2_fact_coverage_is_valid(
+        [valid, valid],
+        bullets,
+        ["1", "3"],
+    )
 
 
 def run_smoke() -> None:

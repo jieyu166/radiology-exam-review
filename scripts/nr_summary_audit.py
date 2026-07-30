@@ -1473,13 +1473,14 @@ def phase2_coverage_evidence_sha256(
         if not isinstance(fact, Mapping):
             fact_projection.append(None)
             continue
-        fact_projection.append(
-            {
-                "id": fact.get("id"),
-                "sourceRefs": fact.get("sourceRefs"),
-                "disposition": fact.get("disposition"),
-            }
-        )
+        projected = {
+            "id": fact.get("id"),
+            "sourceRefs": fact.get("sourceRefs"),
+            "disposition": fact.get("disposition"),
+        }
+        if "coverage" in fact:
+            projected["coverage"] = fact.get("coverage")
+        fact_projection.append(projected)
     return _canonical_sha256(
         {
             "baselineLockSha256": baseline_lock_sha256,
@@ -1492,6 +1493,63 @@ def phase2_coverage_evidence_sha256(
             "validation": entry.get("validation"),
         }
     )
+
+
+def _phase2_coverage_anchor_is_valid(
+    coverage: object,
+    bullet_lines: Sequence[str],
+    source_refs: object,
+) -> bool:
+    """Validate one explicit, auditable covered-fact anchor."""
+    if not isinstance(coverage, Mapping) or set(coverage) != {
+        "bulletIndex",
+        "quote",
+    }:
+        return False
+    bullet_index = coverage.get("bulletIndex")
+    quote = coverage.get("quote")
+    if (
+        type(bullet_index) is not int
+        or bullet_index < 1
+        or bullet_index > len(bullet_lines)
+        or not isinstance(quote, str)
+        or quote != quote.strip()
+        or len(re.sub(r"\s+", "", quote)) < 8
+    ):
+        return False
+    bullet = bullet_lines[bullet_index - 1]
+    if quote not in bullet:
+        return False
+    if (
+        not isinstance(source_refs, list)
+        or any(not isinstance(ref, str) or not ref for ref in source_refs)
+    ):
+        return False
+    bullet_refs = {
+        match.group("id") for match in FOOTNOTE_REFERENCE_RE.finditer(bullet)
+    }
+    return set(source_refs) <= bullet_refs
+
+
+def _phase2_fact_coverage_is_valid(
+    coverage: object,
+    bullet_lines: Sequence[str],
+    source_refs: object,
+) -> bool:
+    """Require one nonempty, duplicate-free anchor list per covered fact."""
+    if not isinstance(coverage, list) or not coverage:
+        return False
+    anchor_keys: list[tuple[object, object]] = []
+    for anchor in coverage:
+        if not _phase2_coverage_anchor_is_valid(
+            anchor,
+            bullet_lines,
+            source_refs,
+        ):
+            return False
+        assert isinstance(anchor, Mapping)
+        anchor_keys.append((anchor.get("bulletIndex"), anchor.get("quote")))
+    return len(anchor_keys) == len(set(anchor_keys))
 
 
 def _phase2_reconstructed_original_sha256(
@@ -1522,6 +1580,10 @@ def build_phase2_rewrite_evidence(
     implementer: str,
     reviewer: str,
     research_needed_fact_ids: Sequence[str] = (),
+    coverage_anchors_by_fact_id: Mapping[
+        str, Sequence[Mapping[str, object]]
+    ]
+    | None = None,
 ) -> dict:
     """Build deterministic pre-review evidence from the lock and current notes."""
     if (
@@ -1551,6 +1613,20 @@ def build_phase2_rewrite_evidence(
     if not set(requested_unresolved) <= all_locked_ids:
         raise ValueError("A research-needed fact ID is absent from the baseline.")
     unresolved_set = set(requested_unresolved)
+    requires_coverage_anchors = context.batch["id"] != "batch-01-anatomy"
+    expected_covered_ids = all_locked_ids - unresolved_set
+    if requires_coverage_anchors:
+        if (
+            not isinstance(coverage_anchors_by_fact_id, Mapping)
+            or set(coverage_anchors_by_fact_id) != expected_covered_ids
+        ):
+            raise ValueError(
+                "Coverage anchors must exactly match every covered fact ID."
+            )
+    elif coverage_anchors_by_fact_id is not None:
+        raise ValueError(
+            "The immutable batch-01 legacy evidence does not accept coverage anchors."
+        )
     baseline_digest = _canonical_sha256(context.baseline)
     evidence_notes = []
 
@@ -1569,6 +1645,7 @@ def build_phase2_rewrite_evidence(
             raise ValueError(f"Current Summary is not strict for {slug!r}.")
 
         rendered = _rendered_footnote_definitions(context.repo_root / note.path)
+        bullet_lines = _summary_bullet_lines(note)
         facts = []
         referenced: list[str] = []
         dispositions = []
@@ -1588,13 +1665,31 @@ def build_phase2_rewrite_evidence(
             for ref in source_refs:
                 if ref not in referenced:
                     referenced.append(ref)
-            facts.append(
-                {
-                    "id": fact_id,
-                    "sourceRefs": source_refs,
-                    "disposition": disposition,
-                }
-            )
+            fact_entry = {
+                "id": fact_id,
+                "sourceRefs": source_refs,
+                "disposition": disposition,
+            }
+            if requires_coverage_anchors:
+                coverage = (
+                    coverage_anchors_by_fact_id.get(fact_id)
+                    if disposition == "covered"
+                    else None
+                )
+                if disposition == "covered" and not _phase2_fact_coverage_is_valid(
+                    coverage,
+                    bullet_lines,
+                    source_refs,
+                ):
+                    raise ValueError(
+                        f"Coverage anchor for {fact_id!r} is invalid."
+                    )
+                fact_entry["coverage"] = (
+                    [dict(anchor) for anchor in coverage]
+                    if isinstance(coverage, Sequence)
+                    else None
+                )
+            facts.append(fact_entry)
             dispositions.append(disposition)
 
         covered = dispositions.count("covered")
@@ -1680,6 +1775,10 @@ def build_phase2_rewrite_evidence_bytes(
     implementer: str,
     reviewer: str,
     research_needed_fact_ids: Sequence[str] = (),
+    coverage_anchors_by_fact_id: Mapping[
+        str, Sequence[Mapping[str, object]]
+    ]
+    | None = None,
 ) -> bytes:
     """Return deterministic pretty-printed pre-review evidence bytes."""
     evidence = build_phase2_rewrite_evidence(
@@ -1687,6 +1786,7 @@ def build_phase2_rewrite_evidence_bytes(
         implementer=implementer,
         reviewer=reviewer,
         research_needed_fact_ids=research_needed_fact_ids,
+        coverage_anchors_by_fact_id=coverage_anchors_by_fact_id,
     )
     return (json.dumps(evidence, ensure_ascii=False, indent=2) + "\n").encode(
         "utf-8"
@@ -2811,6 +2911,9 @@ def validate_phase2_batch(
             for fact in locked.get("factUnits", [])
             if isinstance(fact, dict)
         ]
+        requires_coverage_anchors = (
+            context.batch["id"] != "batch-01-anatomy"
+        )
         facts = entry.get("facts")
         actual_ids = [
             fact.get("id")
@@ -2834,6 +2937,9 @@ def validate_phase2_batch(
             else {}
         )
         current_summary_findings = validate_summary(note) if note is not None else []
+        current_bullet_lines = (
+            _summary_bullet_lines(note) if note is not None else []
+        )
         findings.extend(current_summary_findings)
         local_dispositions = []
         referenced_source_refs: list[str] = []
@@ -2871,6 +2977,45 @@ def validate_phase2_batch(
                         "evidence-source-definition",
                         path,
                         f"Evidence sources for {fact.get('id')!r} are incomplete.",
+                    )
+                )
+            coverage = fact.get("coverage")
+            if requires_coverage_anchors:
+                coverage_valid = (
+                    disposition == "covered"
+                    and _phase2_fact_coverage_is_valid(
+                        coverage,
+                        current_bullet_lines,
+                        refs,
+                    )
+                )
+                unresolved_coverage_valid = (
+                    disposition in {"research-needed", "manual-review"}
+                    and "coverage" in fact
+                    and coverage is None
+                )
+                if not (coverage_valid or unresolved_coverage_valid):
+                    findings.append(
+                        Finding(
+                            "error",
+                            "evidence-fact-coverage",
+                            path,
+                            (
+                                f"Evidence coverage anchor for "
+                                f"{fact.get('id')!r} is incomplete or stale."
+                            ),
+                        )
+                    )
+            elif "coverage" in fact:
+                findings.append(
+                    Finding(
+                        "error",
+                        "phase2-evidence-schema",
+                        path,
+                        (
+                            "Immutable batch-01 legacy facts must not gain "
+                            "Phase 2 coverage anchors."
+                        ),
                     )
                 )
             for ref in refs if isinstance(refs, list) else []:
