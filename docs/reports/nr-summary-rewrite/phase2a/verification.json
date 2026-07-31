@@ -32,7 +32,7 @@
       }
     },
     "generated": {
-      "batchManifestSha256": "0e3100ad088094d1e10781439ac174796845ed8ee68fe10dd7c3a1ee8464e86f",
+      "batchManifestSha256": "7330b81f5e03a88d801c50d97a03a14f0b02b807e5f36bc7cae7345f9d602f69",
       "coherent": true
     },
     "phase2BStarted": false
@@ -68,7 +68,7 @@
       "reviewer": "/root/phase2a_task3_3_review",
       "manifest": {
         "path": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-02-disease.json",
-        "sha256": "e2f069c345410b018ac33b84fa7bfea98c4d0157e307973bf4d30dc8dea55c0e",
+        "sha256": "d8a55583e2804d909404a6fa570b6292bf18f08b676c9e5275b8183c1b55a772",
         "observationSha256": "2011c04c8c9c0b681c2fd46faede583c39ed7e1a9a8299c2e354b3f904d47538"
       },
       "selectedDetailFiles": {

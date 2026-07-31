@@ -4521,9 +4521,22 @@ BATCH02_APPROVED_ARTIFACT_SHA256 = {
         "0d58513e040e5e5564eb7da983e37c9d0bc8f821a38c75971048796c9c751614"
     ),
     "docs/reports/nr-summary-rewrite/phase2a/generated/batch-02-disease.json": (
-        "e2f069c345410b018ac33b84fa7bfea98c4d0157e307973bf4d30dc8dea55c0e"
+        "d8a55583e2804d909404a6fa570b6292bf18f08b676c9e5275b8183c1b55a772"
     ),
 }
+
+
+def test_phase2a_approved_artifact_hashes_bind_portable_lf_checkout() -> None:
+    """Trusted raw hashes must describe bytes reproducible from Git checkout."""
+    root = Path(__file__).resolve().parents[1]
+    for expected_map in (
+        BATCH01_APPROVED_ARTIFACT_SHA256,
+        BATCH02_APPROVED_ARTIFACT_SHA256,
+    ):
+        for relative, expected_sha256 in expected_map.items():
+            raw = (root / relative).read_bytes()
+            assert b"\r\n" not in raw
+            assert hashlib.sha256(raw).hexdigest() == expected_sha256
 
 
 def _assert_only_unsealed_batch03_chain(findings: list[audit.Finding]) -> None:

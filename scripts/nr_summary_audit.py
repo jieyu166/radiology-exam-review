@@ -193,7 +193,7 @@ TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
 # reviewed evidence chains, current generated tree, exact lint result, Phase 1
 # trust projection, and the untouched scheduled-note projection.
 TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256 = (
-    "b53ea1fd1edfc2779c3f64ad25268883033b9d9227d34f601c66326397ecebd0"
+    "04b3c6dd32ad5a14ad6e43acd65afca398318f8e8a7eaf02e13985aac0153791"
 )
 PHASE2A_VERIFICATION_REPORT_PATH = (
     "docs/reports/nr-summary-rewrite/phase2a/verification.json"
