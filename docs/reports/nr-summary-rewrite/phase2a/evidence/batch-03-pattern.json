@@ -13,8 +13,8 @@
     "predecessor": "batch-02-disease",
     "implementer": "/root/phase2a_task4_2_impl",
     "reviewer": "/root/phase2a_task4_3_review",
-    "reviewStatus": "not-started",
-    "reviewedBaselineSha256": null
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "3a93bfbe332067f06b5dda7ac47c6484107f52afd152059701f44ea3d7394e98"
   },
   "notes": [
     {

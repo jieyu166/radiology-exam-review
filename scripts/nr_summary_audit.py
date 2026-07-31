@@ -179,6 +179,9 @@ TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
     "batch-02-disease": (
         "2011c04c8c9c0b681c2fd46faede583c39ed7e1a9a8299c2e354b3f904d47538"
     ),
+    "batch-03-pattern": (
+        "fa0bca4f69a2bcc8ee914aac4ce364e86dc260d272e65697b672f0481f49dec9"
+    ),
 }
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
