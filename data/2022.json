@@ -11153,7 +11153,7 @@
       "concepts": [
         "contrast-induced-aki"
       ],
-      "checked": true
+      "checked": false
     },
     {
       "id": "2022-363",
@@ -12612,7 +12612,7 @@
       "concepts": [
         "lead-apron-lead-equivalent"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-407",
@@ -14338,7 +14338,7 @@
       "concepts": [
         "contrast-adverse-reactions"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-454",
@@ -15004,7 +15004,7 @@
       "concepts": [
         "mesenteric-omental-cyst"
       ],
-      "checked": false
+      "checked": true
     },
     {
       "id": "2022-472",
