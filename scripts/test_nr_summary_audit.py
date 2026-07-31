@@ -9175,6 +9175,156 @@ def test_phase2a_task51_recursive_scope_rejects_nested_and_root_later_artifacts(
             audit._run_phase2a_lint = original_lint
 
 
+def test_phase2a_task51_canonical_hardlink_write_preserves_unrelated_file() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "canonical-hardlink"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report_path = shadow / PHASE2A_VERIFICATION_PATH
+        report_path.unlink()
+        unrelated = shadow / "README.md"
+        unrelated.write_bytes(b"HARDLINK_SENTINEL\n")
+        unrelated_before = (
+            unrelated.read_bytes(),
+            unrelated.stat().st_mtime_ns,
+        )
+        os.link(unrelated, report_path)
+        assert report_path.stat().st_nlink == 2
+
+        original_lint = audit._run_phase2a_lint
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        output = io.StringIO()
+        try:
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "validate-tranche",
+                        "--repo-root",
+                        str(shadow),
+                        "--assignment",
+                        assignment_path.as_posix(),
+                        "--report",
+                        PHASE2A_VERIFICATION_PATH.as_posix(),
+                        "--write",
+                    ]
+                )
+        finally:
+            audit._run_phase2a_lint = original_lint
+
+        assert (
+            unrelated.read_bytes(),
+            unrelated.stat().st_mtime_ns,
+        ) == unrelated_before
+        assert exit_code == 1
+        assert "phase2-path-invalid" in output.getvalue()
+        assert os.path.samefile(unrelated, report_path)
+
+
+def test_phase2a_task51_post_preflight_hardlink_swap_is_safe() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "post-preflight-swap"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report_path = shadow / PHASE2A_VERIFICATION_PATH
+        unrelated = shadow / "README.md"
+        unrelated.write_bytes(b"SWAP_SENTINEL\n")
+        unrelated_before = (
+            unrelated.read_bytes(),
+            unrelated.stat().st_mtime_ns,
+        )
+        phase2a_root = report_path.parent
+        root_entries_before = {entry.name for entry in phase2a_root.iterdir()}
+        original_lint = audit._run_phase2a_lint
+        original_validate = audit.validate_phase2a_tranche
+        swapped = False
+
+        def validate_then_swap(*args: object, **kwargs: object) -> list[audit.Finding]:
+            nonlocal swapped
+            findings = original_validate(*args, **kwargs)
+            if not findings:
+                report_path.unlink()
+                os.link(unrelated, report_path)
+                swapped = True
+            return findings
+
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        audit.validate_phase2a_tranche = validate_then_swap
+        output = io.StringIO()
+        try:
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "validate-tranche",
+                        "--repo-root",
+                        str(shadow),
+                        "--assignment",
+                        assignment_path.as_posix(),
+                        "--report",
+                        PHASE2A_VERIFICATION_PATH.as_posix(),
+                        "--write",
+                    ]
+                )
+        finally:
+            audit.validate_phase2a_tranche = original_validate
+            audit._run_phase2a_lint = original_lint
+
+        assert swapped
+        assert (
+            unrelated.read_bytes(),
+            unrelated.stat().st_mtime_ns,
+        ) == unrelated_before
+        assert exit_code == 1
+        assert "phase2-path-invalid" in output.getvalue()
+        assert os.path.samefile(unrelated, report_path)
+        assert {entry.name for entry in phase2a_root.iterdir()} == root_entries_before
+
+
+def test_phase2a_task51_atomic_replace_failure_cleans_only_owned_temp() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "atomic-cleanup"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report_path = shadow / PHASE2A_VERIFICATION_PATH
+        report_path.write_bytes(report_path.read_bytes() + b" ")
+        report_before = (
+            report_path.read_bytes(),
+            report_path.stat().st_mtime_ns,
+        )
+        phase2a_root = report_path.parent
+        root_entries_before = {entry.name for entry in phase2a_root.iterdir()}
+        original_lint = audit._run_phase2a_lint
+        original_replace = os.replace
+
+        def injected_replace_failure(_source: object, _target: object) -> None:
+            raise OSError("injected atomic replace failure")
+
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        os.replace = injected_replace_failure
+        output = io.StringIO()
+        try:
+            with redirect_stdout(output), redirect_stderr(output):
+                exit_code = audit.main(
+                    [
+                        "validate-tranche",
+                        "--repo-root",
+                        str(shadow),
+                        "--assignment",
+                        assignment_path.as_posix(),
+                        "--report",
+                        PHASE2A_VERIFICATION_PATH.as_posix(),
+                        "--write",
+                    ]
+                )
+        finally:
+            os.replace = original_replace
+            audit._run_phase2a_lint = original_lint
+
+        assert (
+            report_path.read_bytes(),
+            report_path.stat().st_mtime_ns,
+        ) == report_before
+        assert exit_code == 1
+        assert "phase2-path-invalid" in output.getvalue()
+        assert {entry.name for entry in phase2a_root.iterdir()} == root_entries_before
+
+
 def run_smoke() -> None:
     test_evidence_rejects_unmapped_or_unresolved_fact_units()
     test_evidence_rejects_source_ref_not_defined_in_note()

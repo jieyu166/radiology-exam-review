@@ -421,3 +421,110 @@ The checked verification artifact remained byte-identical, and there is still
 no correction-round diff to concept Markdown, generated JSON/index, inventory,
 assignment, baselines, evidence/manifests, Phase 1, scheduled notes, Phase 2B,
 or Spectra task checkboxes.
+
+## Correction round 2 — hardlink-safe atomic report replacement
+
+Independent review I3 confirmed that a canonical `verification.json` hardlink
+still reached the old in-place `Path.write_bytes()` call and overwrote its
+unrelated link peer. Three exact RED regressions reproduced the write-boundary
+failure before production code changed:
+
+```text
+round-2 RED:
+3 failed, 179 deselected in 53.36s
+```
+
+- an upfront canonical hardlink overwrote a README sentinel;
+- a controlled hardlink swap after tranche preflight overwrote a second
+  sentinel;
+- an injected `os.replace` failure had no effect because the old path still
+  used in-place `write_bytes`, so the canonical file drifted.
+
+The final write boundary now:
+
+- rejects a present canonical target unless `lstat` identifies a regular,
+  non-reparse, single-link file; failures return stable
+  `phase2-path-invalid` before lint or mutation;
+- permits a missing canonical report only for the exact canonical write path;
+- creates one exclusive temporary regular file in the already validated
+  Phase 2A parent;
+- writes through its file descriptor, then flushes and `fsync`s it;
+- records the exclusive file identity and revalidates the complete exact
+  parent tree, the temporary identity, and the canonical target immediately
+  before replacement;
+- uses `os.replace` to atomically replace the canonical directory entry,
+  without truncating or following the prior entry;
+- revalidates the resulting target as regular/single-link and checks exact
+  bytes plus the code-owned canonical tranche digest;
+- cleans up a temporary path only if it still has the exact identity of the
+  exclusively created file. A swapped or attacker-owned path is never
+  followed or removed.
+
+Fresh GREEN evidence:
+
+```text
+round-2 new regressions:
+3 passed, 179 deselected in 33.98s
+
+all Task 5.1 regressions:
+10 passed, 172 deselected in 219.57s
+
+full repository suite:
+195 passed in 483.62s
+```
+
+Real complete-shadow subprocess evidence:
+
+```text
+upfront canonical hardlink:
+exit 1 / phase2-path-invalid
+README sentinel bytes and mtime preserved: true
+canonical path remains the hardlink: true
+
+controlled post-preflight hardlink swap:
+exit 1 / phase2-path-invalid
+README sentinel bytes and mtime preserved: true
+canonical path remains the hardlink: true
+
+missing canonical report:
+[] / exit 0
+created raw SHA-256:
+f96af355b12523ef0665ba8371a4ab643415e0eb630f0d49a67ccc5b1508b5fa
+
+canonical two-run write:
+[] / []
+982 files / byte drift 0 / mtime drift 0 / Git status drift 0
+```
+
+A real Windows symlink attack was attempted but could not be created because
+the execution identity lacks symlink privilege (`WinError 1314`). The same
+no-follow boundary rejects the Windows reparse attribute before any read or
+write; the independently reproducible hardlink attacks exercise the confirmed
+I3 vulnerability and the post-preflight write window without relying on
+symlink privilege.
+
+Final gates:
+
+```text
+py_compile: exit 0
+lint: exact 2 inherited errors / 124 warnings / exit 1
+assignment: 216 / 10 / 206 / 30 / 176 / []
+inventory: 216 / duplicates 0 / unclassified 0 / batch-00 10 /
+  unassigned 0 / []
+three validate-batch --check-generated terminals: [] / [] / []
+strict validate-note: 30 checked / 0 failed
+spectra strict: valid
+spectra analyze: Coverage, Consistency, and Gaps clean; two inherited
+  Suggestion-only Ambiguity findings; zero Critical or Warning
+git diff --check: pass
+```
+
+Correction-round scope remains exactly:
+
+- `scripts/nr_summary_audit.py`;
+- `scripts/test_nr_summary_audit.py`;
+- this Task 5.1 implementation report.
+
+The checked verification artifact remains byte-identical. No artifact,
+concept content, generated JSON/index, inventory, assignment, batch evidence,
+Phase 1 data, scheduled note, Phase 2B file, or Spectra task checkbox changed.

@@ -9,10 +9,12 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import stat
 import subprocess
 import sys
+import tempfile
 from copy import deepcopy
 from dataclasses import asdict, dataclass, replace
 from pathlib import Path
@@ -3587,10 +3589,54 @@ def _phase2a_lstat_is(path: Path, expected_kind: str) -> bool:
     return stat.S_ISREG(status.st_mode)
 
 
+def _phase2a_stat_identity(status: os.stat_result) -> tuple[int, int]:
+    return status.st_dev, status.st_ino
+
+
+def _phase2a_validate_report_write_target(
+    report_file: Path,
+    *,
+    missing_ok: bool,
+) -> os.stat_result | None:
+    try:
+        status = report_file.lstat()
+    except FileNotFoundError:
+        if missing_ok:
+            return None
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            "The canonical Phase 2A report is missing after atomic replacement.",
+        )
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            f"Cannot inspect the canonical Phase 2A report: {error}.",
+        ) from error
+    reparse_flag = getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0x400)
+    attributes = getattr(status, "st_file_attributes", 0)
+    if (
+        attributes & reparse_flag
+        or not stat.S_ISREG(status.st_mode)
+        or status.st_nlink != 1
+    ):
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            (
+                "The canonical Phase 2A report must be a regular, "
+                "non-reparse, single-link file."
+            ),
+        )
+    return status
+
+
 def _phase2a_validate_artifact_scope(
     repo_root: Path,
     *,
     allow_missing_verification: bool = False,
+    allowed_temporary: tuple[Path, tuple[int, int]] | None = None,
 ) -> None:
     phase2a_root = repo_root / "docs/reports/nr-summary-rewrite/phase2a"
     relative_root = phase2a_root.relative_to(repo_root).as_posix()
@@ -3614,6 +3660,15 @@ def _phase2a_validate_artifact_scope(
         "generated",
         "verification.json",
     }
+    if allowed_temporary is not None:
+        temporary_path, _ = allowed_temporary
+        if temporary_path.parent != phase2a_root:
+            raise Phase2LoadError(
+                "phase2a-scheduled-drift",
+                relative_root,
+                "The atomic temporary report must remain in the Phase 2A root.",
+            )
+        expected_root_names.add(temporary_path.name)
     actual_root_names = set(root_entries)
     if allow_missing_verification:
         expected_root_names_without_report = expected_root_names - {
@@ -3644,6 +3699,31 @@ def _phase2a_validate_artifact_scope(
             f"{relative_root}/verification.json",
             "The canonical Phase 2A verification report must be a regular file.",
         )
+    if allowed_temporary is not None:
+        temporary_path, expected_identity = allowed_temporary
+        temporary_entry = root_entries.get(temporary_path.name)
+        try:
+            temporary_status = (
+                temporary_entry.lstat()
+                if temporary_entry is not None
+                else None
+            )
+        except OSError:
+            temporary_status = None
+        reparse_flag = getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0x400)
+        if (
+            temporary_status is None
+            or getattr(temporary_status, "st_file_attributes", 0)
+            & reparse_flag
+            or not stat.S_ISREG(temporary_status.st_mode)
+            or temporary_status.st_nlink != 1
+            or _phase2a_stat_identity(temporary_status) != expected_identity
+        ):
+            raise Phase2LoadError(
+                "phase2a-scheduled-drift",
+                f"{relative_root}/{temporary_path.name}",
+                "The atomic temporary report identity is not trusted.",
+            )
     expected_artifacts = {
         f"{batch_id}.json" for batch_id in ACTIVE_PHASE2A_BATCHES
     }
@@ -3681,6 +3761,171 @@ def _phase2a_validate_artifact_scope(
                     "three active batch JSON regular files."
                 ),
             )
+
+
+def _phase2a_verify_report_bytes(report_file: Path, payload: bytes) -> None:
+    before = _phase2a_validate_report_write_target(
+        report_file,
+        missing_ok=False,
+    )
+    assert before is not None
+    try:
+        actual = report_file.read_bytes()
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            f"Cannot read the canonical Phase 2A report: {error}.",
+        ) from error
+    after = _phase2a_validate_report_write_target(
+        report_file,
+        missing_ok=False,
+    )
+    assert after is not None
+    if (
+        _phase2a_stat_identity(before) != _phase2a_stat_identity(after)
+        or actual != payload
+    ):
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            "The canonical Phase 2A report changed during byte verification.",
+        )
+    try:
+        report = json.loads(actual.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            f"The canonical Phase 2A report is not valid UTF-8 JSON: {error}.",
+        ) from error
+    if (
+        not isinstance(report, dict)
+        or _canonical_sha256(report)
+        != TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256
+    ):
+        raise Phase2LoadError(
+            "phase2a-tranche-untrusted",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            "The atomically written Phase 2A report does not match code trust.",
+        )
+
+
+def _phase2a_cleanup_owned_temporary(
+    temporary_path: Path | None,
+    expected_identity: tuple[int, int] | None,
+) -> None:
+    if temporary_path is None or expected_identity is None:
+        return
+    try:
+        status = temporary_path.lstat()
+    except OSError:
+        return
+    reparse_flag = getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0x400)
+    if (
+        getattr(status, "st_file_attributes", 0) & reparse_flag
+        or not stat.S_ISREG(status.st_mode)
+        or status.st_nlink != 1
+        or _phase2a_stat_identity(status) != expected_identity
+    ):
+        return
+    try:
+        temporary_path.unlink()
+    except OSError:
+        return
+
+
+def _phase2a_atomic_write_report(
+    repo_root: Path,
+    report_file: Path,
+    payload: bytes,
+) -> None:
+    current_status = _phase2a_validate_report_write_target(
+        report_file,
+        missing_ok=True,
+    )
+    if current_status is not None:
+        try:
+            current = report_file.read_bytes()
+        except OSError as error:
+            raise Phase2LoadError(
+                "phase2-path-invalid",
+                PHASE2A_VERIFICATION_REPORT_PATH,
+                f"Cannot read the canonical Phase 2A report: {error}.",
+            ) from error
+        after_read = _phase2a_validate_report_write_target(
+            report_file,
+            missing_ok=False,
+        )
+        assert after_read is not None
+        if _phase2a_stat_identity(current_status) != _phase2a_stat_identity(
+            after_read
+        ):
+            raise Phase2LoadError(
+                "phase2-path-invalid",
+                PHASE2A_VERIFICATION_REPORT_PATH,
+                "The canonical Phase 2A report changed during pre-write read.",
+            )
+        if current == payload:
+            _phase2a_verify_report_bytes(report_file, payload)
+            return
+
+    _phase2a_validate_artifact_scope(
+        repo_root,
+        allow_missing_verification=True,
+    )
+    temporary_path: Path | None = None
+    temporary_identity: tuple[int, int] | None = None
+    descriptor = -1
+    try:
+        descriptor, temporary_name = tempfile.mkstemp(
+            prefix=".verification.json.",
+            suffix=".tmp",
+            dir=report_file.parent,
+        )
+        temporary_path = Path(temporary_name)
+        temporary_identity = _phase2a_stat_identity(os.fstat(descriptor))
+        with os.fdopen(descriptor, "wb") as stream:
+            descriptor = -1
+            stream.write(payload)
+            stream.flush()
+            os.fsync(stream.fileno())
+        _phase2a_validate_artifact_scope(
+            repo_root,
+            allow_missing_verification=True,
+            allowed_temporary=(temporary_path, temporary_identity),
+        )
+        _phase2a_validate_report_write_target(
+            report_file,
+            missing_ok=True,
+        )
+        os.replace(temporary_path, report_file)
+        if os.name != "nt":
+            directory_flags = os.O_RDONLY | getattr(os, "O_DIRECTORY", 0)
+            directory_descriptor = os.open(report_file.parent, directory_flags)
+            try:
+                os.fsync(directory_descriptor)
+            finally:
+                os.close(directory_descriptor)
+        _phase2a_verify_report_bytes(report_file, payload)
+    except Phase2LoadError:
+        raise
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            PHASE2A_VERIFICATION_REPORT_PATH,
+            f"Cannot atomically replace the canonical Phase 2A report: {error}.",
+        ) from error
+    finally:
+        if descriptor >= 0:
+            try:
+                os.close(descriptor)
+            except OSError:
+                pass
+        _phase2a_cleanup_owned_temporary(
+            temporary_path,
+            temporary_identity,
+        )
 
 
 def _phase2a_load_json(
@@ -7430,6 +7675,11 @@ def main(argv: Sequence[str] | None = None) -> int:
                 report_value,
                 display_path=report_value,
             )
+            if args.write:
+                _phase2a_validate_report_write_target(
+                    report_file,
+                    missing_ok=True,
+                )
             lint_output, lint_exit_code = _run_phase2a_lint(
                 args.repo_root.resolve()
             )
@@ -7460,14 +7710,11 @@ def main(argv: Sequence[str] | None = None) -> int:
                 payload = (
                     json.dumps(expected, ensure_ascii=False, indent=2) + "\n"
                 ).encode("utf-8")
-                current = (
-                    report_file.read_bytes()
-                    if report_file.is_file()
-                    else None
+                _phase2a_atomic_write_report(
+                    args.repo_root.resolve(),
+                    report_file,
+                    payload,
                 )
-                if current != payload:
-                    report_file.parent.mkdir(parents=True, exist_ok=True)
-                    report_file.write_bytes(payload)
         except Phase2LoadError as error:
             findings = [error.finding()]
         _print_findings(findings)
