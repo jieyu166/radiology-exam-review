@@ -9007,6 +9007,174 @@ def test_phase2a_task51_cli_write_is_preflighted_and_idempotent() -> None:
         assert report_path.read_bytes() == checked_before
 
 
+def test_phase2a_task51_write_rejects_noncanonical_report_without_any_drift() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "noncanonical-write"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        canonical_report = shadow / PHASE2A_VERIFICATION_PATH
+        canonical_before = (
+            canonical_report.read_bytes(),
+            canonical_report.stat().st_mtime_ns,
+        )
+        generated_before = {
+            path.relative_to(shadow).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted((shadow / "data").rglob("*.json"))
+        }
+        readme = shadow / "README.md"
+        readme.write_bytes(b"unrelated sentinel\n")
+        targets = (
+            (Path("README.md"), True),
+            (Path("docs/not-the-tranche.json"), False),
+        )
+        lint_calls = 0
+        original_lint = audit._run_phase2a_lint
+
+        def counted_lint(_root: Path) -> tuple[str, int]:
+            nonlocal lint_calls
+            lint_calls += 1
+            return PHASE2A_LINT_OUTPUT, 1
+
+        audit._run_phase2a_lint = counted_lint
+        case_results = []
+        try:
+            for target, exists_before in targets:
+                target_path = shadow / target
+                target_before = (
+                    (target_path.read_bytes(), target_path.stat().st_mtime_ns)
+                    if exists_before
+                    else None
+                )
+                output = io.StringIO()
+                with redirect_stdout(output), redirect_stderr(output):
+                    exit_code = audit.main(
+                        [
+                            "validate-tranche",
+                            "--repo-root",
+                            str(shadow),
+                            "--assignment",
+                            assignment_path.as_posix(),
+                            "--report",
+                            target.as_posix(),
+                            "--write",
+                        ]
+                    )
+                target_after = (
+                    (
+                        target_path.read_bytes(),
+                        target_path.stat().st_mtime_ns,
+                    )
+                    if target_path.exists()
+                    else None
+                )
+                case_results.append(
+                    (
+                        exit_code,
+                        output.getvalue(),
+                        target_before,
+                        target_after,
+                    )
+                )
+        finally:
+            audit._run_phase2a_lint = original_lint
+
+        for exit_code, output, target_before, target_after in case_results:
+            assert exit_code == 1
+            assert "phase2-path-invalid" in output
+            assert target_after == target_before
+        assert lint_calls == 0
+        assert (
+            canonical_report.read_bytes(),
+            canonical_report.stat().st_mtime_ns,
+        ) == canonical_before
+        assert {
+            path.relative_to(shadow).as_posix(): (
+                path.read_bytes(),
+                path.stat().st_mtime_ns,
+            )
+            for path in sorted((shadow / "data").rglob("*.json"))
+        } == generated_before
+
+        canonical_report.unlink()
+        original_lint = audit._run_phase2a_lint
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        try:
+            with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                exit_code = audit.main(
+                    [
+                        "validate-tranche",
+                        "--repo-root",
+                        str(shadow),
+                        "--assignment",
+                        assignment_path.as_posix(),
+                        "--report",
+                        PHASE2A_VERIFICATION_PATH.as_posix(),
+                        "--write",
+                    ]
+                )
+        finally:
+            audit._run_phase2a_lint = original_lint
+        assert exit_code == 0
+        assert canonical_report.read_bytes() == canonical_before[0]
+
+
+def test_phase2a_task51_recursive_scope_rejects_nested_and_root_later_artifacts() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "recursive-scope"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report_path = shadow / PHASE2A_VERIFICATION_PATH
+        original_report = report_path.read_bytes()
+        original_lint = audit._run_phase2a_lint
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        attacks = (
+            Path(
+                "docs/reports/nr-summary-rewrite/phase2a/evidence/"
+                "later/scheduled-disease-01.json"
+            ),
+            Path(
+                "docs/reports/nr-summary-rewrite/phase2a/"
+                "phase2b-review.json"
+            ),
+        )
+        try:
+            for attack in attacks:
+                attack_path = shadow / attack
+                attack_path.parent.mkdir(parents=True, exist_ok=True)
+                attack_path.write_text("{}", encoding="utf-8")
+                report_path.write_bytes(original_report + b" ")
+                report_before = (
+                    report_path.read_bytes(),
+                    report_path.stat().st_mtime_ns,
+                )
+                output = io.StringIO()
+                with redirect_stdout(output), redirect_stderr(output):
+                    exit_code = audit.main(
+                        [
+                            "validate-tranche",
+                            "--repo-root",
+                            str(shadow),
+                            "--assignment",
+                            assignment_path.as_posix(),
+                            "--report",
+                            PHASE2A_VERIFICATION_PATH.as_posix(),
+                            "--write",
+                        ]
+                    )
+                assert exit_code == 1
+                assert "phase2a-scheduled-drift" in output.getvalue()
+                assert (
+                    report_path.read_bytes(),
+                    report_path.stat().st_mtime_ns,
+                ) == report_before
+                attack_path.unlink()
+                if attack.parent.name == "later":
+                    attack_path.parent.rmdir()
+        finally:
+            audit._run_phase2a_lint = original_lint
+
+
 def run_smoke() -> None:
     test_evidence_rejects_unmapped_or_unresolved_fact_units()
     test_evidence_rejects_source_ref_not_defined_in_note()

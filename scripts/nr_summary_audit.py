@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import re
+import stat
 import subprocess
 import sys
 from copy import deepcopy
@@ -191,6 +192,9 @@ TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
 # trust projection, and the untouched scheduled-note projection.
 TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256 = (
     "b53ea1fd1edfc2779c3f64ad25268883033b9d9227d34f601c66326397ecebd0"
+)
+PHASE2A_VERIFICATION_REPORT_PATH = (
+    "docs/reports/nr-summary-rewrite/phase2a/verification.json"
 )
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
@@ -3568,27 +3572,113 @@ def _phase2a_exact_artifact_paths() -> list[str]:
     ]
 
 
-def _phase2a_validate_artifact_scope(repo_root: Path) -> None:
-    phase2a_root = (
-        repo_root / "docs/reports/nr-summary-rewrite/phase2a"
-    )
-    for section in ("baselines", "evidence", "generated"):
-        section_root = phase2a_root / section
-        expected = {
-            f"{batch_id}.json" for batch_id in ACTIVE_PHASE2A_BATCHES
-        }
-        actual = (
-            {path.name for path in section_root.iterdir() if path.is_file()}
-            if section_root.is_dir()
-            else set()
+def _phase2a_lstat_is(path: Path, expected_kind: str) -> bool:
+    """Classify an artifact without following symlinks or reparse points."""
+    try:
+        status = path.lstat()
+    except OSError:
+        return False
+    reparse_flag = getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0x400)
+    attributes = getattr(status, "st_file_attributes", 0)
+    if attributes & reparse_flag:
+        return False
+    if expected_kind == "directory":
+        return stat.S_ISDIR(status.st_mode)
+    return stat.S_ISREG(status.st_mode)
+
+
+def _phase2a_validate_artifact_scope(
+    repo_root: Path,
+    *,
+    allow_missing_verification: bool = False,
+) -> None:
+    phase2a_root = repo_root / "docs/reports/nr-summary-rewrite/phase2a"
+    relative_root = phase2a_root.relative_to(repo_root).as_posix()
+    if not _phase2a_lstat_is(phase2a_root, "directory"):
+        raise Phase2LoadError(
+            "phase2a-scheduled-drift",
+            relative_root,
+            "Phase 2A artifact root must be a regular directory.",
         )
-        if actual != expected:
+    try:
+        root_entries = {entry.name: entry for entry in phase2a_root.iterdir()}
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2a-scheduled-drift",
+            relative_root,
+            f"Cannot enumerate the Phase 2A artifact root: {error}.",
+        ) from error
+    expected_root_names = {
+        "baselines",
+        "evidence",
+        "generated",
+        "verification.json",
+    }
+    actual_root_names = set(root_entries)
+    if allow_missing_verification:
+        expected_root_names_without_report = expected_root_names - {
+            "verification.json"
+        }
+        root_names_valid = actual_root_names in (
+            expected_root_names,
+            expected_root_names_without_report,
+        )
+    else:
+        root_names_valid = actual_root_names == expected_root_names
+    if not root_names_valid:
+        raise Phase2LoadError(
+            "phase2a-scheduled-drift",
+            relative_root,
+            (
+                "Phase 2A artifact root must contain only the three expected "
+                "section directories and the canonical verification report."
+            ),
+        )
+    verification = root_entries.get("verification.json")
+    if verification is not None and not _phase2a_lstat_is(
+        verification,
+        "regular",
+    ):
+        raise Phase2LoadError(
+            "phase2a-scheduled-drift",
+            f"{relative_root}/verification.json",
+            "The canonical Phase 2A verification report must be a regular file.",
+        )
+    expected_artifacts = {
+        f"{batch_id}.json" for batch_id in ACTIVE_PHASE2A_BATCHES
+    }
+    for section in ("baselines", "evidence", "generated"):
+        section_root = root_entries.get(section)
+        relative_section = f"{relative_root}/{section}"
+        if section_root is None or not _phase2a_lstat_is(
+            section_root,
+            "directory",
+        ):
             raise Phase2LoadError(
                 "phase2a-scheduled-drift",
-                section_root.relative_to(repo_root).as_posix(),
+                relative_section,
+                "Phase 2A artifact sections must be regular directories.",
+            )
+        try:
+            section_entries = {
+                entry.name: entry for entry in section_root.iterdir()
+            }
+        except OSError as error:
+            raise Phase2LoadError(
+                "phase2a-scheduled-drift",
+                relative_section,
+                f"Cannot enumerate the Phase 2A artifact section: {error}.",
+            ) from error
+        if set(section_entries) != expected_artifacts or any(
+            not _phase2a_lstat_is(entry, "regular")
+            for entry in section_entries.values()
+        ):
+            raise Phase2LoadError(
+                "phase2a-scheduled-drift",
+                relative_section,
                 (
-                    "Phase 2A artifact directories must contain exactly the "
-                    "three active batch artifacts."
+                    "Phase 2A artifact sections must contain exactly the "
+                    "three active batch JSON regular files."
                 ),
             )
 
@@ -3802,6 +3892,8 @@ def build_phase2a_tranche_verification(
     assignment_path: Path,
     lint_output: str,
     lint_exit_code: int,
+    *,
+    allow_missing_verification: bool = False,
 ) -> dict:
     """Derive the complete deterministic Phase 2A acceptance projection."""
     root = repo_root.resolve()
@@ -3842,7 +3934,10 @@ def build_phase2a_tranche_verification(
             assignment_value,
             "Phase 2A assignment arithmetic must be exactly 216/10/206/30/176.",
         )
-    _phase2a_validate_artifact_scope(root)
+    _phase2a_validate_artifact_scope(
+        root,
+        allow_missing_verification=allow_missing_verification,
+    )
 
     inventory_entries = inventory.get("notes")
     if not isinstance(inventory_entries, list):
@@ -4052,6 +4147,8 @@ def validate_phase2a_tranche(
     reviewed_report: object,
     lint_output: str,
     lint_exit_code: int,
+    *,
+    allow_missing_verification: bool = False,
 ) -> list[Finding]:
     """Validate a checked Phase 2A report against a fresh trusted projection."""
     try:
@@ -4060,6 +4157,7 @@ def validate_phase2a_tranche(
             assignment_path,
             lint_output,
             lint_exit_code,
+            allow_missing_verification=allow_missing_verification,
         )
     except Phase2LoadError as error:
         findings = [error.finding()]
@@ -7315,6 +7413,18 @@ def main(argv: Sequence[str] | None = None) -> int:
         try:
             assignment_value = Path(args.assignment)
             report_value = str(args.report)
+            if (
+                args.write
+                and report_value != PHASE2A_VERIFICATION_REPORT_PATH
+            ):
+                raise Phase2LoadError(
+                    "phase2-path-invalid",
+                    report_value,
+                    (
+                        "--write requires the canonical Phase 2A report path: "
+                        f"{PHASE2A_VERIFICATION_REPORT_PATH}."
+                    ),
+                )
             report_file = _resolve_phase2_path(
                 args.repo_root,
                 report_value,
@@ -7328,6 +7438,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 assignment_value,
                 lint_output,
                 lint_exit_code,
+                allow_missing_verification=args.write,
             )
             candidate: object
             if args.write:
@@ -7343,6 +7454,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 candidate,
                 lint_output,
                 lint_exit_code,
+                allow_missing_verification=args.write,
             )
             if args.write and not _findings_have_errors(findings):
                 payload = (

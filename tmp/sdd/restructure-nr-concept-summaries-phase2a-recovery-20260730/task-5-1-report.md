@@ -22,6 +22,8 @@ build_phase2a_tranche_verification(
     assignment_path: Path,
     lint_output: str,
     lint_exit_code: int,
+    *,
+    allow_missing_verification: bool = False,
 ) -> dict
 
 validate_phase2a_tranche(
@@ -30,6 +32,8 @@ validate_phase2a_tranche(
     reviewed_report: object,
     lint_output: str,
     lint_exit_code: int,
+    *,
+    allow_missing_verification: bool = False,
 ) -> list[Finding]
 ```
 
@@ -322,3 +326,98 @@ Six facts remain intentionally unresolved in the derived queue. The tranche
 therefore cannot be called `verified`; its only honest terminal status is
 `phase2a-complete-with-manual-queue`. This is a content limitation, not a
 mechanical or integrity failure.
+
+## Correction round 1 — independent review findings I1 and I2
+
+The independent final review requested two Important corrections. Both were
+first reproduced with exact RED regressions against commit `34e8b51`:
+
+```text
+pytest -k "task51_write_rejects_noncanonical or task51_recursive_scope"
+2 failed, 177 deselected in 34.80s
+```
+
+- I1 reproduced an exit-0 overwrite of an existing unrelated `README.md`
+  when passed as `validate-tranche --write --report`.
+- I2 reproduced exit 0 for a nested later-phase artifact under
+  `phase2a/evidence/later/`; the prior immediate-file scan did not see it.
+
+Minimal fixes:
+
+- `--write` now accepts exactly
+  `docs/reports/nr-summary-rewrite/phase2a/verification.json`. Any other path
+  fails before lint with stable code `phase2-path-invalid`, whether the target
+  exists or not.
+- The `phase2a` artifact tree now has an exact `lstat`-based allowlist. The
+  root permits only `baselines/`, `evidence/`, `generated/`, and the canonical
+  `verification.json`. Each section permits exactly the three active batch
+  JSON regular files. Unknown root entries, nested entries, directories,
+  symlinks, and Windows reparse points fail with
+  `phase2a-scheduled-drift` before unknown entry contents are read.
+- Only canonical write mode may temporarily omit `verification.json`, so an
+  initial checked report can be created. The parent tree must still exactly
+  match the allowlist. Read-only custom reports do not enter the Phase 2A
+  artifact allowlist and still must exactly equal the fresh trusted
+  projection.
+
+Fresh GREEN evidence:
+
+```text
+new exact regressions:
+2 passed, 177 deselected in 22.26s
+
+original Task 5.1 regressions:
+5 passed, 174 deselected in 175.89s
+
+all Task 5.1 regressions:
+7 passed, 172 deselected in 185.42s
+
+full repository suite:
+192 passed in 448.91s
+```
+
+Actual CLI attack and immutability evidence:
+
+```text
+--write --report README.md:
+exit 1 / phase2-path-invalid
+README bytes preserved: true
+README mtime preserved: true
+
+shadow nested artifact:
+exit 1 / phase2a-scheduled-drift / report preserved: true
+
+shadow root phase2b-review artifact:
+exit 1 / phase2a-scheduled-drift / report preserved: true
+
+canonical two-run write:
+982 files / byte drift 0 / mtime drift 0 / Git status drift 0
+```
+
+Final gates:
+
+```text
+py_compile: exit 0
+lint: exact 2 inherited errors / 124 warnings / exit 1
+assignment: 216 / 10 / 206 / 30 / 176 / []
+inventory: 216 / duplicates 0 / unclassified 0 / batch-00 10 /
+  unassigned 0 / []
+three validate-batch --check-generated terminals: [] / [] / []
+strict validate-note: 30 checked / 0 failed
+canonical validate-tranche --write: []
+spectra strict: valid
+spectra analyze: Coverage, Consistency, and Gaps clean; two inherited
+  Suggestion-only Ambiguity findings; zero Critical or Warning
+git diff --check: pass
+```
+
+Correction-round scope remains exactly:
+
+- `scripts/nr_summary_audit.py`;
+- `scripts/test_nr_summary_audit.py`;
+- this Task 5.1 implementation report.
+
+The checked verification artifact remained byte-identical, and there is still
+no correction-round diff to concept Markdown, generated JSON/index, inventory,
+assignment, baselines, evidence/manifests, Phase 1, scheduled notes, Phase 2B,
+or Spectra task checkboxes.
