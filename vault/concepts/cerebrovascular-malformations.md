@@ -16,6 +16,11 @@ dateRev: 2026-07-01
 
 **四種顱內血管畸形中，只有「靜脈竇周圍炎（sinus pericranii）」沒有動靜脈分流——它是顱內外靜脈系統之間的異常連通，本質是靜脈對靜脈的溝通，不涉及動脈血直接進入靜脈。硬腦膜動靜脈瘻最常侵犯橫竇與乙狀竇；軟膜動靜脈瘻沒有nidus（這是與AVM的關鍵鑑別）、出血風險比AVM還高。**
 
+## Summary
+- **AV shunting 分類**：無AV分流為竇周靜脈瘤(sinus pericranii)——顱內硬腦膜竇與顱外靜脈結構間之異常連通，通常經穿骨性導靜脈(emissary transosseous vein)相通，屬單純靜脈-靜脈連通；有AV分流為硬腦膜動靜脈瘻(dural AV fistula)、動靜脈畸形(arteriovenous malformation)、Galen靜脈瘤樣畸形(vein of Galen aneurysmal malformation)。[^1]
+- **DAVF 部位**：最常侵犯橫竇與乙狀竇(transverse sinus and sigmoid sinus)。[^2]
+- **Pial AVF 鑑別**：約僅佔所有顱內血管畸形之1.6%（非10%）；出血風險較AVM為高，惟相對於AVM，僅較小比例之PAVF會出現有症狀之出血；無中介之nidus（血管球），為與AVM之關鍵鑑別點；病灶小且血流量較低時仍可能自發性阻塞。[^3]
+
 ## Summary（有無AV分流之分類）
 - **無AV分流**：**竇周靜脈瘤(sinus pericranii)**——顱內硬腦膜竇與顱外靜脈結構間之異常連通，通常經由**穿骨性導靜脈(emissary transosseous vein)**相通，屬單純靜脈-靜脈連通，無動靜脈分流。[^1]
 - **有AV分流**：硬腦膜動靜脈瘻(dural AV fistula)、動靜脈畸形(arteriovenous malformation)、Galen靜脈瘤樣畸形(vein of Galen aneurysmal malformation)，三者皆具動靜脈直接分流。[^1]

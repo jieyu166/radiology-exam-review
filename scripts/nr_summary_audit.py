@@ -1595,6 +1595,33 @@ def _phase2_fact_coverage_is_valid(
     return len(anchor_keys) == len(set(anchor_keys))
 
 
+def _phase2_is_exact_empty_projection(locked: Mapping[str, object]) -> bool:
+    """Identify only the audited legacy-heading lock with no accepted Summary."""
+    return (
+        locked.get("summaryHeadings") == []
+        and locked.get("originalSummary") == ""
+        and locked.get("factUnits") == []
+    )
+
+
+def _phase2_is_approved_empty_projection_migration(
+    context: BatchContext, locked: Mapping[str, object]
+) -> bool:
+    """Allow the single reviewed Batch 03 migration from no accepted Summary."""
+    return (
+        context.batch.get("id") == "batch-03-pattern"
+        and locked.get("slug") == "cerebrovascular-malformations"
+        and _phase2_is_exact_empty_projection(locked)
+    )
+
+
+def _phase2_source_ref_overrides_are_batch_scoped(
+    context: BatchContext, overrides: Mapping[str, Sequence[str]]
+) -> bool:
+    """Keep the reviewed empty-ref resolution mechanism local to Batch 03."""
+    return not overrides or context.batch.get("id") == "batch-03-pattern"
+
+
 def _phase2_reconstructed_original_sha256(
     context: BatchContext, locked: Mapping[str, object], note: NoteRecord
 ) -> str | None:
@@ -1607,13 +1634,16 @@ def _phase2_reconstructed_original_sha256(
         return None
     current_summary = note.original_summary
     locked_summary = locked.get("originalSummary")
-    if (
-        not isinstance(locked_summary, str)
-        or not current_summary
-        or current_text.count(current_summary) != 1
-    ):
+    if not isinstance(locked_summary, str) or current_text.count(current_summary) != 1:
         return None
-    restored = current_text.replace(current_summary, locked_summary, 1)
+    if _phase2_is_approved_empty_projection_migration(context, locked):
+        if not current_summary or not note.summaries:
+            return None
+        restored = current_text.replace(current_summary, "", 1)
+    else:
+        if not current_summary:
+            return None
+        restored = current_text.replace(current_summary, locked_summary, 1)
     return hashlib.sha256(restored.encode("utf-8")).hexdigest()
 
 
@@ -1627,6 +1657,7 @@ def build_phase2_rewrite_evidence(
         str, Sequence[Mapping[str, object]]
     ]
     | None = None,
+    source_ref_overrides_by_fact_id: Mapping[str, Sequence[str]] | None = None,
 ) -> dict:
     """Build deterministic pre-review evidence from the lock and current notes."""
     if (
@@ -1656,6 +1687,37 @@ def build_phase2_rewrite_evidence(
     if not set(requested_unresolved) <= all_locked_ids:
         raise ValueError("A research-needed fact ID is absent from the baseline.")
     unresolved_set = set(requested_unresolved)
+    source_ref_overrides = (
+        source_ref_overrides_by_fact_id
+        if isinstance(source_ref_overrides_by_fact_id, Mapping)
+        else {}
+    )
+    empty_ref_fact_ids = {
+        fact["id"]
+        for locked in context.baseline["notes"]
+        for fact in locked["factUnits"]
+        if fact["sourceRefs"] == []
+    }
+    if (
+        source_ref_overrides_by_fact_id is not None
+        and not isinstance(source_ref_overrides_by_fact_id, Mapping)
+    ) or not set(source_ref_overrides) <= empty_ref_fact_ids - unresolved_set:
+        raise ValueError(
+            "Source-ref overrides may resolve only covered locked empty-ref facts."
+        )
+    if not _phase2_source_ref_overrides_are_batch_scoped(
+        context, source_ref_overrides
+    ):
+        raise ValueError("Source-ref overrides are restricted to Batch 03.")
+    if any(
+        not isinstance(refs, Sequence)
+        or isinstance(refs, (str, bytes))
+        or not refs
+        or any(not isinstance(ref, str) or not ref for ref in refs)
+        or len(refs) != len(set(refs))
+        for refs in source_ref_overrides.values()
+    ):
+        raise ValueError("Source-ref overrides must be nonempty unique ref arrays.")
     requires_coverage_anchors = context.batch["id"] != "batch-01-anatomy"
     expected_covered_ids = all_locked_ids - unresolved_set
     if requires_coverage_anchors:
@@ -1676,6 +1738,9 @@ def build_phase2_rewrite_evidence(
     for locked in context.baseline["notes"]:
         slug = locked["slug"]
         note = context.note_records[slug]
+        exact_empty_projection = _phase2_is_approved_empty_projection_migration(
+            context, locked
+        )
         if (
             _phase2_reconstructed_original_sha256(context, locked, note)
             != locked["originalSha256"]
@@ -1689,12 +1754,21 @@ def build_phase2_rewrite_evidence(
 
         rendered = _rendered_footnote_definitions(context.repo_root / note.path)
         bullet_lines = _summary_bullet_lines(note)
+        if exact_empty_projection and not bullet_lines:
+            raise ValueError(
+                f"The exact empty projection migration for {slug!r} needs sourced bullets."
+            )
         facts = []
         referenced: list[str] = []
         dispositions = []
         for locked_fact in locked["factUnits"]:
             fact_id = locked_fact["id"]
-            locked_refs = list(locked_fact["sourceRefs"])
+            locked_refs = list(
+                source_ref_overrides.get(
+                    fact_id,
+                    locked_fact["sourceRefs"],
+                )
+            )
             disposition = (
                 "research-needed" if fact_id in unresolved_set else "covered"
             )
@@ -1734,6 +1808,15 @@ def build_phase2_rewrite_evidence(
                 )
             facts.append(fact_entry)
             dispositions.append(disposition)
+
+        if exact_empty_projection:
+            for ref in _ordered_footnote_refs("\n".join(bullet_lines)):
+                if ref not in rendered:
+                    raise ValueError(
+                        f"A Summary bullet footnote is undefined for {slug!r}."
+                    )
+                if ref not in referenced:
+                    referenced.append(ref)
 
         covered = dispositions.count("covered")
         research_needed = dispositions.count("research-needed")
@@ -1822,6 +1905,7 @@ def build_phase2_rewrite_evidence_bytes(
         str, Sequence[Mapping[str, object]]
     ]
     | None = None,
+    source_ref_overrides_by_fact_id: Mapping[str, Sequence[str]] | None = None,
 ) -> bytes:
     """Return deterministic pretty-printed pre-review evidence bytes."""
     evidence = build_phase2_rewrite_evidence(
@@ -1830,6 +1914,7 @@ def build_phase2_rewrite_evidence_bytes(
         reviewer=reviewer,
         research_needed_fact_ids=research_needed_fact_ids,
         coverage_anchors_by_fact_id=coverage_anchors_by_fact_id,
+        source_ref_overrides_by_fact_id=source_ref_overrides_by_fact_id,
     )
     return (json.dumps(evidence, ensure_ascii=False, indent=2) + "\n").encode(
         "utf-8"
@@ -2958,6 +3043,9 @@ def validate_phase2_batch(
             continue
         slug = entry["slug"]
         locked = baseline_by_slug.get(slug, {})
+        exact_empty_projection = _phase2_is_approved_empty_projection_migration(
+            context, locked
+        )
         note = context.note_records.get(slug)
         required_note = {
             "slug",
@@ -3123,6 +3211,41 @@ def validate_phase2_batch(
                             f"Source definition {ref!r} is malformed or not rendered.",
                         )
                     )
+        if exact_empty_projection:
+            for ref in _ordered_footnote_refs("\n".join(current_bullet_lines)):
+                if ref not in referenced_source_refs:
+                    referenced_source_refs.append(ref)
+                definition = definitions.get(ref)
+                if (
+                    not isinstance(definition, dict)
+                    or definition.get("kind")
+                    not in {"existing-footnote", "article", "chapter"}
+                    or not isinstance(definition.get("locator"), str)
+                    or not definition["locator"].strip()
+                    or not isinstance(definition.get("citation"), str)
+                    or not definition["citation"].strip()
+                    or note is None
+                    or ref not in note.footnote_defs
+                    or (
+                        definition.get("kind") == "existing-footnote"
+                        and (
+                            definition.get("locator") != ref
+                            or definition.get("citation")
+                            != rendered_definitions.get(ref)
+                        )
+                    )
+                ):
+                    findings.append(
+                        Finding(
+                            "error",
+                            "evidence-source-definition",
+                            path,
+                            (
+                                f"Empty-projection Summary source definition "
+                                f"{ref!r} is malformed or not rendered."
+                            ),
+                        )
+                    )
         if list(definitions) != referenced_source_refs:
             findings.append(
                 Finding(
@@ -3147,13 +3270,7 @@ def validate_phase2_batch(
         manual_review = sum(item == "manual-review" for item in local_dispositions)
         referenced_definition_kinds = {
             definitions[ref].get("kind")
-            for fact in (facts if isinstance(facts, list) else [])
-            if isinstance(fact, dict)
-            for ref in (
-                fact.get("sourceRefs")
-                if isinstance(fact.get("sourceRefs"), list)
-                else []
-            )
+            for ref in referenced_source_refs
             if isinstance(definitions.get(ref), dict)
         }
         expected_note_status = (
@@ -3232,7 +3349,14 @@ def validate_phase2_batch(
                 )
             )
         if (
-            not local_dispositions
+            (
+                not local_dispositions
+                and not (
+                    exact_empty_projection
+                    and bool(current_bullet_lines)
+                    and not current_summary_findings
+                )
+            )
             or any(
                 item not in {"covered", "research-needed", "manual-review"}
                 for item in local_dispositions
@@ -5618,6 +5742,71 @@ def _trusted_phase2_inventory_hashes(
     return trusted_hashes
 
 
+def _inventory_allows_approved_empty_projection_migration(
+    entry: Mapping[str, object],
+    note: NoteRecord,
+    *,
+    repo_root: Path | None,
+) -> bool:
+    """Authenticate the one Batch 03 no-Summary to Summary inventory transition."""
+    if (
+        repo_root is None
+        or entry.get("slug") != "cerebrovascular-malformations"
+        or entry.get("summaryHeadings") != []
+        or [section.heading for section in note.summaries] != ["Summary"]
+    ):
+        return False
+    root = repo_root.resolve()
+    note_path = root / note.path
+    try:
+        if hashlib.sha256(note_path.read_bytes()).hexdigest() != note.sha256:
+            return False
+        context = load_phase2_batch(
+            root,
+            Path("docs/reports/nr-summary-rewrite/phase2-assignment.json"),
+            "batch-03-pattern",
+        )
+    except (OSError, Phase2LoadError):
+        return False
+    locked = next(
+        (
+            candidate
+            for candidate in (context.baseline or {}).get("notes", [])
+            if isinstance(candidate, dict)
+            and candidate.get("slug") == entry.get("slug")
+        ),
+        None,
+    )
+    if (
+        not isinstance(locked, dict)
+        or not _phase2_is_approved_empty_projection_migration(context, locked)
+        or entry.get("originalSha256") != locked.get("originalSha256")
+    ):
+        return False
+    checked_context = replace(
+        context,
+        note_records={
+            **context.note_records,
+            note.slug: replace(note, path=Path(entry.get("path", note.path))),
+        },
+    )
+    if (
+        _phase2_reconstructed_original_sha256(
+            checked_context, locked, checked_context.note_records[note.slug]
+        )
+        != locked.get("originalSha256")
+    ):
+        return False
+    findings = validate_phase2_batch(
+        checked_context,
+        check_source_hashes=False,
+        check_generated=False,
+    )
+    return not findings or (
+        len(findings) == 1 and findings[0].code == "phase2-review-sequence"
+    )
+
+
 def validate_inventory_against_notes(
     inventory: object,
     notes: dict[str, NoteRecord],
@@ -5728,7 +5917,14 @@ def validate_inventory_against_notes(
                 )
             )
         expected_headings = [section.heading for section in note.summaries]
-        if entry.get("summaryHeadings") != expected_headings:
+        if (
+            entry.get("summaryHeadings") != expected_headings
+            and not _inventory_allows_approved_empty_projection_migration(
+                entry,
+                note,
+                repo_root=repo_root,
+            )
+        ):
             findings.append(
                 _inventory_finding(
                     "inventory-summary-headings-mismatch",
@@ -5793,6 +5989,17 @@ def _apply_trusted_phase2_inventory_hashes(
             and entry["slug"] in trusted
         ):
             entry["originalSha256"] = trusted[entry["slug"]]
+            note = notes.get(entry["slug"])
+            locked_projection = {**entry, "summaryHeadings": []}
+            if (
+                note is not None
+                and _inventory_allows_approved_empty_projection_migration(
+                    locked_projection,
+                    note,
+                    repo_root=repo_root,
+                )
+            ):
+                entry["summaryHeadings"] = []
     return generated
 
 

@@ -16,12 +16,11 @@ dateRev: 2026-07-01
 **AIDS病人硬腦膜基底腫塊的鑑別診斷有一項特有病灶——EBV相關平滑肌腫瘤(EBV-associated smooth muscle tumor, EBV-SMT)，源自硬腦膜/腦血管間質細胞，因AIDS免疫低下合併EBV共感染而發生。**
 
 ## Summary
-- **EBV相關平滑肌腫瘤(EBV-SMT)**：源自硬腦膜或腦血管之**間質細胞(mesenchymal cells)**，**EBV共感染為此類腫瘤發生之必要條件**，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]
-- **腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）**：
-  - **腫瘤性**：轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。
-  - **肉芽腫性**：結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。
-  - **淋巴增生性**：淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。
-  - **自體免疫性**：IgG4相關疾病。[^1]
+- **AIDS 特有鑑別｜EBV-SMT**：EBV相關平滑肌腫瘤(EBV-SMT)源自硬腦膜或腦血管之間質細胞(mesenchymal cells)，EBV共感染為此類腫瘤發生之必要條件，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]
+- **腦膜瘤之其他鑑別｜腫瘤性**：腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）：腫瘤性為轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。[^1]
+- **腦膜瘤之其他鑑別｜肉芽腫性**：肉芽腫性為結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。[^1]
+- **腦膜瘤之其他鑑別｜淋巴增生性**：淋巴增生性為淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。[^1]
+- **腦膜瘤之其他鑑別｜自體免疫性**：自體免疫性為IgG4相關疾病。[^1]
 
 ## 放射科醫師影像判讀重點
 

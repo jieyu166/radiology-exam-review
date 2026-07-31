@@ -16,14 +16,12 @@ dateRev: 2026-07-03
 **T2\* GRE/SWI 上多發低訊號焦點（cerebral microbleeds／"black dots"）的常見病因：cavernous malformations（Zabramski type IV）、慢性高血壓性腦病變、cerebral amyloid angiopathy（CAA）、diffuse axonal injury（DAI）——神經纖維瘤病第一型（NF1）不在此清單（NF1 為 T2/FLAIR 高訊號 UBOs，非微出血）。** 判讀分水嶺：**用「分佈」定因——lobar/皮質-皮質下、spares 深部＝CAA（正常血壓、失智老人、可合併 cortical superficial siderosis 與 lobar ICH）；深部（基底核/視丘/腦幹/小腦）＝高血壓（較年輕 <65、常與 CAA 並存）；灰白交界＋胼胝體壓部＋背外側腦幹＝DAI（外傷）。SWI 比 T2\* GRE 更敏感。記憶鉤：CAA 淺葉、高血壓深部、DAI 外傷、NF1 不算。**
 
 ## Summary
-- **本質**：小灶慢性腦內出血（hemosiderin），常僅在**磁化率序列（T2\* GRE、SWI，SWI 更敏感）**上以低訊號 blooming 呈現。[^1][^2][^3]
-- **常見病因（分佈導向）**：[^1][^2][^3]
-  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。
-  - **慢性高血壓**：**基底核、視丘、腦幹、小腦（深部）**；較年輕（<65）、常與 CAA 並存。
-  - **DAI（外傷）**：灰白質交界、胼胝體、深部白質、腦幹。
-  - **Cavernous malformation（Zabramski IV）**：隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。
-- **其他**：**缺血中風伴微出血（見於 10–15% 急性缺血中風）**、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）。[^3]
-- **非病因**：**NF1 不屬於**（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。[^1]
+- **序列與本質**：小灶慢性腦內出血（hemosiderin），常僅在磁化率序列（T2\* GRE、SWI，SWI 更敏感）上以低訊號 blooming 呈現。[^1][^2][^3]
+- **分佈｜CAA**：常見病因（分佈導向）：CAA 為皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部；伴 cortical superficial siderosis、lobar ICH；正常血壓失智老人。[^1][^2][^3]
+- **分佈｜慢性高血壓**：基底核、視丘、腦幹、小腦（深部）；較年輕（<65）、常與 CAA 並存。[^1][^2][^3]
+- **分佈｜DAI**：DAI（外傷）位於灰白質交界、胼胝體、深部白質、腦幹。[^1][^2][^3]
+- **形態｜Cavernous malformation**：Cavernous malformation（Zabramski IV）為隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。[^1][^2][^3]
+- **其他鑑別與非病因**：缺血中風伴微出血（見於 10–15% 急性缺血中風）、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）；NF1 不屬於（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。[^1][^3]
 
 ## 放射科醫師影像判讀重點
 - **序列/篩檢**：**NECT 為急性出血最佳初篩；失智評估用 MR T2\* 或 SWI（SWI 最敏感）**；建議 >60 歲皆納入 T2\*/SWI。[^3]
