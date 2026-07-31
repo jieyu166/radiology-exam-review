@@ -1,0 +1,306 @@
+# Task 6.1 Implementation and Verification Report
+
+Date: 2026-07-29
+Change: `restructure-nr-concept-summaries`
+Scope: independently anchor the reviewed pre-edit `originalSha256` values for
+the fixed 10 Phase 1 pilots.
+
+## Outcome
+
+Task 6.1 is implemented. The canonical Phase 1 inventory and batch validators
+now bind both mutable evidence files to a code-owned map containing exactly the
+10 reviewed pilot hashes. The deterministic inventory comparison no longer
+copies its expected pilot hashes from the inventory under validation.
+
+No medical prose, sources, facts, generated concept content, nonpilot output, or
+Phase 2 state was changed.
+
+## RED
+
+The regression
+`test_coordinated_pilot_hash_replacement_is_rejected_by_trusted_baseline`
+loads the real reviewed inventory and batch, replaces
+`acute-stroke-management.originalSha256` in both files with the same
+syntactically valid value (`"0" * 64`), and runs both canonical validation
+paths against temporary copies.
+
+Before the implementation, both validations incorrectly accepted the
+coordinated replacement:
+
+```text
+inventory exit: 0
+NR notes: 216
+Duplicate slugs: 0
+Unclassified: 0
+Batch 00: 10
+Unassigned: 206
+
+validate-batch exit: 0
+Batch notes: 10
+Missing sources: 0
+[]
+```
+
+This reproduced the final re-review exploit without editing either checked-in
+evidence file.
+
+## GREEN
+
+The smallest coherent implementation is:
+
+1. `TRUSTED_PILOT_ORIGINAL_SHA256` stores exactly the 10 reviewed pre-edit
+   hashes in `scripts/nr_summary_audit.py`, outside `inventory.json` and
+   `batch-00.json`.
+2. Canonical `inventory --check` applies those code-owned values to its expected
+   deterministic projection. It never derives or preserves the pilot expected
+   value from the mutable inventory being checked.
+3. `validate_inventory_against_notes()` emits
+   `inventory-trusted-baseline-mismatch` when an immutable pilot differs from
+   the independent baseline. Nonpilot hashes remain compared with current note
+   bytes and still emit `inventory-hash-mismatch` on drift.
+4. Canonical batch loading compares both the sibling inventory and batch
+   `originalSha256` values with the code-owned map. Any mismatch emits
+   `evidence-trusted-baseline-mismatch`.
+5. The regression first verifies that the trust map contains exactly the fixed
+   10 slugs and that the unchanged reviewed inventory and batch both match all
+   10 values. The coordinated replacement then produces nonzero results on both
+   validation paths with the stable findings above.
+
+The targeted GREEN run printed:
+
+```text
+COORDINATED_REPLACEMENT_GREEN
+```
+
+## Verification evidence
+
+The shell did not expose a `python` command, so every Python command below was
+executed with the equivalent installed interpreter:
+`C:\Users\jai16\AppData\Local\Programs\Python\Python314\python.exe`.
+
+### Audit and compilation
+
+- `scripts/test_nr_summary_audit.py`: exit 0,
+  `NR_SUMMARY_AUDIT_OK`.
+- `python -m py_compile scripts/nr_summary_audit.py
+  scripts/test_nr_summary_audit.py`: exit 0.
+- `python -B scripts/test_build_concepts.py`: exit 0,
+  `BUILD_CONCEPTS_TEST_OK`.
+
+### Real inventory, batch, and notes
+
+- Real canonical `inventory --check`: exit 0; 216 NR notes, 0 duplicate slugs,
+  0 unclassified, 10 batch-00, 206 unassigned.
+- Real `validate-batch docs/reports/nr-summary-rewrite/batch-00.json`: exit 0;
+  10 notes, 0 missing sources, findings `[]`.
+- Strict `validate-note` for each fixed pilot: 10/10 exit 0, each findings
+  `[]`.
+
+### Lint and generated outputs
+
+- `scripts/lint_concepts.py --quiet`: expected exit 1; exactly 2 errors and
+  124 warnings.
+- The only errors remain the undefined `[^*]` in
+  `ceap-classification.md` and the `![[...]]` JSON residue in question
+  `2022-264`; no pilot error was reported.
+- Generated index/detail count: 978/978.
+- The real scoped build command was run twice:
+  `python scripts/build_concepts.py --batch-file
+  docs/reports/nr-summary-rewrite/batch-00.json --quiet`.
+- SHA-256, byte length, and UTC mtime snapshots for all 978 detail files plus
+  the index were identical before, after run 1, and after run 2.
+- Git porcelain status was identical before, after run 1, and after run 2.
+
+### Preserved Phase 1 state
+
+- Root status: `needs-review`.
+- Manual queue remains exactly:
+  - `acute-stroke-management-f09`
+  - `bilateral-subcortical-dwi-hyperintensity-ddx-f08`
+  - `bilateral-subcortical-dwi-hyperintensity-ddx-f09`
+  - `bilateral-subcortical-dwi-hyperintensity-ddx-f12`
+- `phase2Started`: `false`.
+- Generated manifest index/detail counts: 978/978.
+- Canonical checkout-root enforcement, DOI parsing, all-Summary aggregation,
+  generated-manifest validation, and scoped-build idempotence remain covered by
+  the passing existing suites and real validation.
+
+### Spectra and repository gates
+
+- `spectra analyze restructure-nr-concept-summaries --json`: Coverage,
+  Consistency, and Gaps clean; 7 pre-existing Ambiguity suggestions and no
+  critical finding.
+- `spectra validate restructure-nr-concept-summaries`: valid.
+- `git diff --check`: pass.
+
+## Scope review
+
+The focused implementation changes are limited to:
+
+- the four intentional ingested OpenSpec artifact edits;
+- `scripts/nr_summary_audit.py`;
+- `scripts/test_nr_summary_audit.py`;
+- this report; and
+- the Task 6.1 checkbox update performed only after all gates pass.
+
+There are no changes to `vault/concepts`, `data/concepts`,
+`data/concepts-index.json`, `docs/reports/nr-summary-rewrite/inventory.json`, or
+`docs/reports/nr-summary-rewrite/batch-00.json`. No Phase 2 work was started.
+
+## Concerns
+
+- The repository still intentionally has the fixed lint baseline of 2 errors
+  and 124 warnings.
+- Spectra analyze still reports 7 non-blocking, pre-existing ambiguity
+  suggestions about scenarios without concrete examples.
+- The local shell lacks the `python` alias; verification used the installed
+  Python 3.14 executable directly.
+
+## Fix round 1 after scoped review
+
+Review source:
+`.superpowers/sdd/2026-07-29-nr-summary-semantic-restructure-phase1/task-6-review.md`.
+
+### RED
+
+Three regressions reproduced both Important findings before the fix:
+
+- Public `validate_evidence()` accepted the same `"a" * 64` pilot replacement
+  with no trusted-baseline finding.
+- A coherent shadow checkout containing copied real pilot notes, all generated
+  details/index, inventory, and batch passed full `validate-batch` with exit 0,
+  10 notes, 0 missing sources, and `[]`.
+- Canonical inventory generation exited 0 while emitting 10/10 post-edit pilot
+  hashes; the generated output disagreed with the reviewed trust map.
+
+### GREEN implementation
+
+- Public `validate_evidence()` now applies the fixed-pilot code-owned baseline
+  invariant directly whenever the report has the exact fixed pilot membership.
+- `_load_batch_notes()` always checks both inventory and batch against that
+  invariant; enforcement no longer depends on absolute checkout identity.
+- Inventory generation and checking both apply the reviewed pilot hashes to the
+  deterministic projection. Nonpilot hashes continue to come from current note
+  bytes.
+- Synthetic fixture trust is injected only by the private test helper; no
+  production validation path has a default-off trust gate.
+
+The three targeted regressions printed `FIX_ROUND_1_GREEN`.
+
+### Fresh fix-round verification
+
+Commands used the installed Python 3.14 executable in place of the unavailable
+`python` alias.
+
+- `scripts/test_nr_summary_audit.py` -> exit 0,
+  `NR_SUMMARY_AUDIT_OK`.
+- `python -m py_compile scripts/nr_summary_audit.py
+  scripts/test_nr_summary_audit.py` -> exit 0.
+- `python -B scripts/test_build_concepts.py` -> exit 0,
+  `BUILD_CONCEPTS_TEST_OK`.
+- Real `inventory --check` -> exit 0; 216 notes, 0 duplicates,
+  0 unclassified, 10 batch-00, 206 unassigned.
+- Real `validate-batch` -> exit 0; 10 notes, 0 missing sources, `[]`.
+- Strict `validate-note` -> 10/10 exit 0 with `[]`.
+- Live lint -> expected exit 1 and exactly `2 errors, 124 warnings`.
+- Preserved state -> root `needs-review`, manual queue 4,
+  `phase2Started=false`, generated manifest 978/978.
+- `spectra validate restructure-nr-concept-summaries` -> valid.
+- `git diff --check` -> pass.
+
+Task 8 remains complete. No medical content, Phase 2 state, evidence JSON,
+generated output, or nonpilot output was modified in fix round 1.
+
+## Final whole-branch acceptance fix
+
+Review source:
+`.superpowers/sdd/2026-07-29-nr-summary-semantic-restructure-phase1/final-acceptance-review.md`.
+
+Task 6.1 was reopened before this work and remained incomplete until every gate
+below passed.
+
+### RED evidence
+
+Three exact regressions reproduced the final acceptance findings:
+
+1. Public `validate_inventory_against_notes(inventory, notes)` returned 10
+   `inventory-hash-mismatch` findings for the unchanged reviewed inventory.
+   Replacing all ten pilot hashes with their post-edit current note hashes then
+   returned no findings.
+2. In a coherent shadow checkout, changing the four required manual facts to
+   covered, resealing note coverage, setting the root to verified, and setting
+   `phase2Started=true` passed both public `validate_evidence()` and full
+   `validate-batch` without the required trusted-final, manual-queue, or Phase 1
+   findings.
+3. Full `validate-batch` accepted an unchanged trusted batch with a sibling
+   inventory containing only the ten pilots; exit was 0 with findings `[]`.
+
+### GREEN implementation
+
+- The documented public inventory validator is again the exact two-argument
+  interface. Its production default always compares the ten fixed pilots with
+  `TRUSTED_PILOT_ORIGINAL_SHA256`; every nonpilot remains compared with current
+  note bytes. Production code exposes no trust-disable or override keyword.
+- Synthetic inventory trust replacement exists only in the test module's
+  `validate_inventory_with_fixture_trust()` helper and is restored in
+  `finally`.
+- `_coherent_pilot_repo_root()` derives the one source checkout from the exact
+  fixed pilot paths. Trusted baseline/final-review and Phase 1 metadata gates
+  run for canonical and shadow checkouts alike. A fixed-pilot set that cannot
+  resolve coherently fails explicitly instead of silently skipping gates.
+- Phase 1 generated manifest, key-point count, and URL projections use the
+  derived checkout root, so a coherent shadow validates its own copied source
+  and generated tree.
+- `validate-batch` now scans the sibling checkout's complete NR source set and
+  runs the full inventory validator before trusting the sibling inventory.
+  This enforces schema, 216 total, reviewed overrides, 10 batch-00, 206
+  unassigned, paths, headings, trusted pilot hashes, and current nonpilot
+  hashes.
+- Generic CLI fixtures explicitly replace private production gates only inside
+  the test helper and restore every replacement in `finally`; no production
+  command or public default receives a bypass.
+
+The focused attack run printed:
+
+```text
+PUBLIC_INVENTORY_ATTACK_REJECTED
+CANONICAL_HASH_ATTACK_REJECTED
+SHADOW_HASH_ATTACK_REJECTED
+SHADOW_FINAL_PHASE2_ATTACK_REJECTED
+INCOMPLETE_SIBLING_INVENTORY_REJECTED
+```
+
+### Final-fix verification
+
+Python commands used
+`C:\Users\jai16\AppData\Local\Programs\Python\Python314\python.exe` because the
+shell has no `python` alias.
+
+- Amended `scripts/test_nr_summary_audit.py`: exit 0,
+  `NR_SUMMARY_AUDIT_OK`.
+- `python -m py_compile scripts/nr_summary_audit.py
+  scripts/test_nr_summary_audit.py`: exit 0.
+- `python -B scripts/test_build_concepts.py`: exit 0,
+  `BUILD_CONCEPTS_TEST_OK`.
+- Real `inventory --check`: exit 0; 216 NR notes, 0 duplicates,
+  0 unclassified, 10 batch-00, 206 unassigned.
+- Real `validate-batch`: exit 0; 10 notes, 0 missing sources, findings `[]`.
+- Strict `validate-note`: 10/10 exit 0 with findings `[]`.
+- Live lint: expected exit 1, exactly the two named errors and 124 warnings.
+- Generated index/details: 978/978.
+- Real scoped build was run twice; all 978 details plus the index retained
+  identical SHA-256, size, and UTC mtime snapshots, and Git status did not
+  change.
+- Preserved evidence: root `needs-review`; manual queue exactly the four
+  required fact IDs; `phase2Started=false`.
+- `spectra analyze`: Coverage, Consistency, and Gaps clean; the same seven
+  non-blocking Ambiguity suggestions.
+- `spectra validate`: valid.
+- `git diff --check`: pass.
+
+### Final-fix scope
+
+Only `scripts/nr_summary_audit.py`, `scripts/test_nr_summary_audit.py`, the
+intentionally reopened/completed Task 6.1 checkbox, and this report are in the
+fix. There are no changes to medical content, evidence JSON, `vault`, `data`,
+generated outputs, Phase 2 state, or nonpilot outputs.

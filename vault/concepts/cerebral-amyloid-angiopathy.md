@@ -17,29 +17,26 @@ same:
 **CAA 是類澱粉蛋白沉積在皮質及軟腦膜血管，造成正常血壓老年人反覆的「腦葉（lobar）出血」；最關鍵的鑑別要素：出血在皮質-皮質下，保留基底核與腦幹——與高血壓出血好發深部（基底核、視丘、腦橋）恰好相反。** GRE/SWI 可見多發皮質-皮質下微出血黑點（susceptibility）及表淺鐵質沉著。記憶鉤：「CAA 淺、HTN 深；一個老年人lobar、一個高壓打深部」。
 
 ## Summary
-- **族群/出血**：**正常血壓老年人**的 **lobar（皮質-皮質下）腦出血**;為老年自發性 lobar ICH 常見原因。[^1]
-- **分布**：**皮質-皮質下為主,『保留(spares)』basal ganglia 與 pons**——對比高血壓出血好發深部(基底核/視丘/腦橋,見 [[hypertensive-hemorrhage]])。β-amyloid 沉積於皮質及軟腦膜血管、好發老年。[^1][^6]
-- **微出血**：GRE/SWI 多發皮質-皮質下『**黑點(susceptibility)**』、cortical superficial siderosis。[^1]
-- **臨床**：與失智(Alzheimer 共病)相關。[^1]
+- **族群與出血**：CAA 經典發生於正常血壓老年人，造成腦葉／皮質－皮質下 ICH，且是老年人自發性 lobar ICH 的常見原因。[^1][^6]
+- **病理與分布**：β-amyloid 沉積於皮質與軟腦膜血管；出血偏腦葉／皮質－皮質下並保留 basal ganglia 與 pons，對比高血壓出血偏深部基底核、視丘與腦橋。[^1][^3][^6]
+- **臨床共病**：CAA 可造成認知障礙或失智，且與 Alzheimer disease 病理經常共存；兩者共享 Aβ 沉積，但不是同一疾病路徑。[^9]
 
 ### 影像判讀骨架（一般放射科醫師需知）
-- **首選序列**：以 **SWI 或 GRE/T2\*** 偵測出血標記;SWI 對微出血與含鐵血黃素的敏感度高於傳統 GRE T2\*。微出血計數與分布判讀均建立在這類磁敏感序列上。[^2]
-- **微出血分布（最關鍵的判讀區別）**：CAA 微出血呈 **多發(≥2)、嚴格腦葉(strictly lobar)、皮質/皮質-皮質下**,且 **好發後部(後枕葉/頂葉)**;反之 **高血壓性微出血好發深部(基底核、視丘、腦幹/橋腦、小腦深部)**。看到深部微出血應優先想高血壓性微血管病而非 CAA。[^2][^3][^6]
-  - **nuance（後部優勢並非絕對）**：CAA 微出血的「後枕優勢」為群體傾向,實際分布會隨 **偵測序列（SWI vs GRE、磁場強度）與 APOE 基因型（ε4 vs ε2）** 而異,不宜作為單一病例的必要條件。[^8]
-- **皮質表面含鐵血黃素沉積(cortical superficial siderosis, cSS)**：沿腦溝/腦回表面的曲線狀(gyriform/"tram-track")磁敏感低訊號;依範圍分 **focal(<4 個腦溝)** 與 **disseminated(≥4 個腦溝)**;**幕下(infratentorial)cSS 與嚴重 CAA 相關**。cSS 是 CAA 高度特異的標記,也是反覆 convexity SAH 的後遺。[^2]
-- **凸面蛛網膜下出血(convexity SAH, cSAH)**：出血 **侷限於腦凸面腦溝、不在基底池(basal cisterns)**;在老年人為 CAA 的表現之一,常以暫時性局灶神經發作(transient focal neurological episodes, "amyloid spells")表現,並可演變為 cSS。動脈瘤性 SAH 則以基底池為中心,為重要鑑別。[^2]
-- **改良 Boston 2.0 診斷標準影像要件**(年齡 **≥50 歲**、且無其他出血原因):新增 **兩項非出血性白質標記**——(1) **半卵圓中心嚴重血管周隙擴大(>20 個 enlarged perivascular spaces / 半球)**;(2) **多斑點型白質高訊號(multispot WMH,雙側皮質下 >10 個小圓/卵圓 T2/FLAIR 高訊號)**。**Probable CAA** = 至少 **2 個嚴格腦葉出血性病灶(lobar ICH、微出血或 cSS 任意組合)**,或 **1 個腦葉出血性病灶 + 1 項白質標記**;**Possible CAA** = 僅 **1 個腦葉出血性病灶** 或僅 **1 項白質標記**。對照神經病理金標準,Probable CAA 敏感度約 74.5%、特異度約 95%。[^4]
-- **CAA 相關發炎(CAA-related inflammation, CAA-ri)**:**不對稱、斑塊狀或融合性 T2/FLAIR 白質高訊號(血管源性水腫)**,常延伸至皮質下白質、可有腫脹/輕度佔位效應;**水腫區常重疊或鄰近多發微出血/cSS**(此空間關聯為診斷要點);**post-contrast 可見軟腦膜或腦回狀強化(但非必然)**。為類固醇可反應、臨床重要的可逆型。[^5]
+- **首選序列**：以 SWI 或 GRE/T2\* 偵測出血標記；SWI 對微出血與 hemosiderin 較傳統 GRE T2\* 敏感，微出血計數及分布判讀均須建立於磁敏感序列。[^2]
+- **微出血分布**：CAA 通常為多發（≥2）、strictly lobar、皮質或皮質－皮質下微出血，且有後部／枕頂葉傾向；深部基底核、視丘、腦幹／橋腦或小腦深部微出血則優先支持高血壓性小血管病。[^2][^3][^6]
+- **後部優勢的限制**：CAA 微出血的後部優勢只是群體傾向，會受 SWI／GRE、磁場強度與 APOE ε4／ε2 基因型影響，不是單一病例的必要條件。[^8]
+- **cSS**：cortical superficial siderosis 沿腦溝／腦回呈 gyriform 或 tram-track 磁敏感低訊號；少於 4 個腦溝為 focal、至少 4 個為 disseminated，幕下 cSS 與嚴重 CAA 相關；cSS 對 CAA 高度特異，也可為反覆 cSAH 的後遺。[^2]
+- **cSAH**：convexity SAH 侷限於腦凸面腦溝、不在 basal cisterns；老年 CAA 病人可表現為 transient focal neurological episodes／amyloid spells 並演變為 cSS，而動脈瘤性 SAH 通常以基底池為中心。[^2]
+- **Boston 2.0**：在年齡 ≥50 歲且無其他出血原因時，新增兩項白質標記：每半球 >20 個 centrum semiovale PVS，或雙側皮質下 >10 個小圓／卵圓 multispot WMH；probable CAA 為至少 2 個 strictly lobar hemorrhagic lesions，或 1 個此類病灶加 1 項白質標記；possible CAA 為僅 1 個 **strictly lobar hemorrhagic lesion** 或僅 1 項白質標記；probable CAA 對神經病理的敏感度約 74.5%、特異度約 95%。[^4]
+- **CAA-ri**：CAA-related inflammation 呈不對稱斑塊狀或融合性 T2/FLAIR 皮質下血管源性水腫，可有腫脹或輕度 mass effect；水腫常重疊或鄰近多發微出血／cSS，post-contrast 可見但不一定有 leptomeningeal 或 gyral enhancement；此型可逆且常對 corticosteroid 反應。[^5]
 
 ### 鑑別診斷（依分布判讀）
-- **高血壓性微出血/微血管病**：微出血與出血 **好發深部(基底核、視丘、腦幹、小腦)**;CAA 則 **腦葉/皮質**且保留深部。分布是首要區分點。[^3]
-- **瀰漫性軸突損傷(diffuse axonal injury, DAI)**:外傷史,微出血分布於 **灰白質交界、胼胝體、腦幹背外側** 等剪力好發處,非腦葉皮質隨機散布;臨床情境(外傷)即可區分。[^2]
-- **海綿狀血管瘤(cavernoma)**:典型 **"爆米花(popcorn)" 混雜訊號核心 + 完整含鐵血黃素低訊號環(complete hemosiderin ring)**,可單發或多發(家族型);CAA 微出血則為均質小黑點、無爆米花核心。[^2]
-- **出血性轉移**：出血灶 **多在灰白質交界**、常有 **周邊水腫與結節狀強化**、大小不一並有原發癌病史;CAA 微出血無強化結節、無顯著病灶周圍水腫(發炎型除外)。[^2]
+- **高血壓性微血管病**：微出血與出血偏深部基底核、視丘、腦幹與小腦；CAA 偏腦葉／皮質並保留深部，分布是首要區分點。[^3]
+- **瀰漫性軸突損傷**：需有外傷情境，微出血偏灰白質交界、胼胝體及腦幹背外側剪力點，並非 CAA 的隨機腦葉皮質分布。[^2]
+- **Cavernoma**：典型為 popcorn-like 混雜訊號核心加完整 hemosiderin ring，可單發或家族型多發；CAA 微出血則為均質小黑點、無 popcorn core。[^2]
+- **出血性轉移**：常位於灰白質交界，大小不一，伴周邊水腫、結節狀強化及原發癌病史；CAA 微出血無強化結節且通常無明顯周邊水腫，CAA-ri 除外。[^2]
 
-> [!note] 考點：關於 CAA,何者「不正確」?
-> 「**主要侵犯深部灰質與腦幹**」不正確——CAA 為**皮質-皮質下(lobar)、保留深部灰質/腦幹**(深部出血屬高血壓)。老年 lobar 出血(A)、GRE 黑點(B)、合併失智(D)皆正確。[^1]
-
+## 參考來源
 ### 參考來源
 [^1]: *Cerebral amyloid angiopathy*. Radiopaedia.org（實際查證 accessed 2026-06-19）：「manifest in **normotensive elderly** patients as **lobar** intracerebral hemorrhage」;CAA 出血「tend to **spare the basal ganglia and pons** (cf. hypertensive 'deep' intracerebral hemorrhage)」;leptomeningeal/cortical 血管。
 [^2]: Sembill JA, et al. *Neuroradiological Findings in Cerebral Amyloid Angiopathy with a Particular Consideration of the Boston Criteria 2.0: An Imaging Review.* Biomolecules. 2024;14(11):1459（PMC11592298）。article 級全文（accessed 2026-06-29）。要點：微出血以 T2\*/SWI 偵測,「Multiple (≥2), lobar, cortical or subcortical CMBs」具後部好發;cSS 為皮質曲線狀低訊號,focal(<4 sulci)vs disseminated(≥4 sulci),「Infratentorial cSS is associated with severe CAA」;convexity SAH「typically located at the convexity but not in the basal cisterns」。
@@ -49,6 +46,7 @@ same:
 [^6]: **Tier 1** Chao CP, Kotsenas AL, Broderick DF. *Cerebral Amyloid Angiopathy: CT and MR Imaging Findings.* RadioGraphics. 2006;26(5):1517-1531（DOI [10.1148/rg.265055090](https://doi.org/10.1148/rg.265055090)；PMID 16973779；摘要 accessed 2026-07-12）：β-amyloid 沉積於皮質/軟腦膜血管、好發老年；表現為 lobar ICH，spare 深部結構。
 [^7]: *Cerebral amyloid angiopathy*. Radiopaedia.org（rID 6691；DOI [10.53347/rID-6691](https://doi.org/10.53347/rID-6691)；搜尋摘要 accessed 2026-07-12）：normotensive elderly 之 lobar 出血；spares basal ganglia 與 pons；GRE/SWI 多發皮質-皮質下微出血、cortical superficial siderosis。
 [^8]: **非題目白名單** 後枕優勢與 modality/APOE 相依之佐證：Jpn J Radiol 2024（DOI [10.1007/s11604-024-01720-2](https://doi.org/10.1007/s11604-024-01720-2)；摘要 accessed 2026-07-12，非題目白名單）——CAA 微出血分布傾向後部,惟隨偵測序列與 APOE 基因型而變。
+[^9]: Greenberg SM, Bacskai BJ, Hernandez-Guillamon M, Pruzin J, Sperling R, van Veluw SJ. *Cerebral amyloid angiopathy and Alzheimer disease—one peptide, two pathways*. Nat Rev Neurol. 2020;16(1):30-42. DOI: [10.1038/s41582-019-0281-2](https://doi.org/10.1038/s41582-019-0281-2)（PMC7268202；全文查證 accessed 2026-07-29）：CAA 與 AD 均涉及 Aβ，但病理路徑不同；兩者常在同一腦內共存，且可共同促進 cognitive impairment／dementia。
 
 ## 題目
 > [!question]- Modified Boston Criteria for definite CAA, which of the following is wrong? (2021-276)

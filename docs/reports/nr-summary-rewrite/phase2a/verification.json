@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2a-tranche-verification",
+  "phase2aVerification": {
+    "status": "phase2a-complete-with-manual-queue",
+    "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+    "activeBatchIds": [
+      "batch-01-anatomy",
+      "batch-02-disease",
+      "batch-03-pattern"
+    ],
+    "strictNoteCount": 30,
+    "verifiedNoteCount": 27,
+    "manualReviewFactIds": [
+      "adrenoleukodystrophy-f30",
+      "adrenoleukodystrophy-f33",
+      "brain-herniation-syndromes-f03",
+      "cns-opportunistic-infection-f03",
+      "cns-opportunistic-infection-f06",
+      "cns-opportunistic-infection-f07"
+    ],
+    "lint": {
+      "namedErrors": [
+        "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
+        "[json 殘留 ![[...]]] 2022-264"
+      ],
+      "warningDelta": {
+        "before": 124,
+        "after": 124,
+        "delta": 0,
+        "explanations": []
+      }
+    },
+    "generated": {
+      "batchManifestSha256": "0e3100ad088094d1e10781439ac174796845ed8ee68fe10dd7c3a1ee8464e86f",
+      "coherent": true
+    },
+    "phase2BStarted": false
+  },
+  "batches": [
+    {
+      "batch": "batch-01-anatomy",
+      "baselineSha256": "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64",
+      "evidenceSha256": "0225a5e6c7a6fca4d2abe6abe9d73540ef186c064dc5d3b89690d0d74857f70b",
+      "reviewer": "/root/phase2a_task2_3_review",
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json",
+        "sha256": "bd1d2be10b9045c17b3f7ff540414623b8ecee4b6f2dd38f576aa3d118fbbbdb",
+        "observationSha256": "7adfa693cf5a178e1a393c250b1322f4e7ea4de990fdac16c0afae26f6f9cefd"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/ajcc-8th-head-neck-n-staging.json": "1e0bb54c8a191966a7ab69ff138341d1b9babde20694ac1e7c0e8af135b48b67",
+        "data/concepts/aneurysm-coiling-recurrence.json": "5eb1856b5ec8e4716a485092a95f2c930c8a6dd914581ffd833e2bd98d6a99eb",
+        "data/concepts/atlantodental-interval.json": "5d6c606ae11b97a019bf00157d4e006b95e73843eff1c7ede8fa6e678d04994b",
+        "data/concepts/brachial-plexus-anatomy.json": "58aa3fd3f8de14d8a0e4d10b0f6ec76ddf2a240aff580f68a9f43a579d596cd1",
+        "data/concepts/brain-herniation-syndromes.json": "e05a25cd8f9f10be75cb2c576c15ee68f3c52062b3c984e21c9163f67ec3c1c4",
+        "data/concepts/carotid-vertebrobasilar-anastomoses.json": "ce64159d0d74a5e1753a44eaac0adf15aacb85bbac656d5172422a0707619c9a",
+        "data/concepts/cerebral-border-zone-infarct-arteries.json": "39b31f1c2609a7a63187ada1cfefa009bfb180ce78b1d113d64009baade3c359",
+        "data/concepts/cerebral-deep-venous-cortex.json": "51039b6db57bce1b52784cb7b6f45fc81d2da9e677fe07422cc108d5be72d1a1",
+        "data/concepts/cerebral-herniation-types.json": "d3cc9b5aac030227f34c01fdaee205ee65928c68b38408396e7fa6fdade4156f",
+        "data/concepts/cerebral-infarction-evolution.json": "24ba914875a126713b3dcdb0528ab55986d45ac8b0bceb2c85c977ca82b81186"
+      }
+    },
+    {
+      "batch": "batch-02-disease",
+      "baselineSha256": "3c294b4e098fc971ec6cbc67945cc24620752108f7d31bf3c1ba574ef6fd8fa8",
+      "evidenceSha256": "0d58513e040e5e5564eb7da983e37c9d0bc8f821a38c75971048796c9c751614",
+      "reviewer": "/root/phase2a_task3_3_review",
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-02-disease.json",
+        "sha256": "e2f069c345410b018ac33b84fa7bfea98c4d0157e307973bf4d30dc8dea55c0e",
+        "observationSha256": "2011c04c8c9c0b681c2fd46faede583c39ed7e1a9a8299c2e354b3f904d47538"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/2-hydroxyglutarate-idh-mutant-glioma.json": "85a11f90328873e31831f5bf9b1ec4bdfe4409a0d00b8ebab0d56eb889f79b3d",
+        "data/concepts/adrenoleukodystrophy.json": "a0cd4bd49de11a4958c1d4773c6e34da924cef30df58afbde39706fe5add7b8c",
+        "data/concepts/aicardi-syndrome.json": "f1230d3d3b36176e028607b8d58565ed7c9a7717dea6d3dba75c74828cca9245",
+        "data/concepts/als-imaging.json": "866a7b1c8d58e7a76cfea93583f5b870bab6f2d58a57392ab52ab344d9455d92",
+        "data/concepts/angioinvasive-aspergillosis.json": "537539d29eecf20f2ec3bde69110e0006ad9624b9d0c45197681ba530e9baf57",
+        "data/concepts/anti-nmda-encephalitis.json": "f325254f64cca43c2bad647b8d3fa5736dff65c0aab8dd118f26d6233ad17259",
+        "data/concepts/arterial-dissection-mri.json": "e0139ce8eb44a8d685c61dcc43aa350b3c93128ed516f06ffd7581b91cbc49d1",
+        "data/concepts/atypical-teratoid-rhabdoid-tumor.json": "056e8eac0f454abe6e19a5e2cea780ecefd214ec6d06e5356d793577613b7461",
+        "data/concepts/autoimmune-encephalitis.json": "edc9b84f4132a7b405bd20e993f8f3e8816ef0f5d3019c47d427faa9e886e844",
+        "data/concepts/basilar-artery-occlusion.json": "f76d008ae69da076a99c7da487978870238c2efe95b3fda2dc410628e74ce617"
+      }
+    },
+    {
+      "batch": "batch-03-pattern",
+      "baselineSha256": "3a93bfbe332067f06b5dda7ac47c6484107f52afd152059701f44ea3d7394e98",
+      "evidenceSha256": "b95dc78a6d21fdd01f2584f728f319f592bf3dfa5da4c53d5efbc3e32727885b",
+      "reviewer": "/root/phase2a_task4_3_review",
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-03-pattern.json",
+        "sha256": "8de399a3c8a73c01479a2dc2a97a52675ee056312924331c3c8c1fde7b364c6d",
+        "observationSha256": "fa0bca4f69a2bcc8ee914aac4ce364e86dc260d272e65697b672f0481f49dec9"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/brain-tumor-imaging.json": "1c3e83acf9c717427d163127e3131b839711922c8eccac2b84c6d1e4ed8f46df",
+        "data/concepts/cerebral-infarction-fogging.json": "1607e3f35a3786fa333e56554a07de7cffbf94e202bf3848b9348e06688a1d16",
+        "data/concepts/cerebral-microbleeds.json": "3aea59f46e29ec6ea93a5884ba2b7dccebfb66249423661ea4d1aec0403c5435",
+        "data/concepts/cerebrovascular-malformations.json": "30f10b9ad32c45e36f953d858340aac32351c025664a69d0a66a578ec4ecaddc",
+        "data/concepts/chemical-shift-artifact.json": "c29ca07fe3410431cc81dd46af5c62514521339617ed11be25f32606d2e0ef3f",
+        "data/concepts/cns-opportunistic-infection.json": "34439c98b41e52f9811778de7fdca56ece4d8d3f472cb602bf0122ddbcf38fec",
+        "data/concepts/cranial-nerve-muscle-atrophy.json": "bdf216239e600df0404a83a11f77e49a8cbd1d1b9b3414acab00c8f1d5396a50",
+        "data/concepts/dural-based-masses-aids.json": "ae468525f7522ac8758c6a6ff0cb5f9650b458bc2eb05a4fa572a9c1a5b55883",
+        "data/concepts/facial-fracture-complications.json": "787216d964a3160363e3097b9477d10a295d94f3c00f81b980d7ab4fa76c1468",
+        "data/concepts/gbm-vs-pcnsl.json": "05a90a316db2cb1e32d34598cec6266a16ec2e3f3e900f59a84a27b6dbe6169f"
+      }
+    }
+  ],
+  "finalGenerated": {
+    "index": {
+      "path": "data/concepts-index.json",
+      "sha256": "ae01c3105477a18c170238df777eed62556fdc199b80a60256d00a9cb3d9e35f",
+      "entryCount": 980
+    },
+    "detailFileCount": 980,
+    "detailTreeSha256": "5d53aa489719c43f585c0fead74faf484e62fe9c30c6a6b14f1b10378d4f4ad9",
+    "selectedDetailFiles": {
+      "data/concepts/ajcc-8th-head-neck-n-staging.json": "1e0bb54c8a191966a7ab69ff138341d1b9babde20694ac1e7c0e8af135b48b67",
+      "data/concepts/aneurysm-coiling-recurrence.json": "5eb1856b5ec8e4716a485092a95f2c930c8a6dd914581ffd833e2bd98d6a99eb",
+      "data/concepts/atlantodental-interval.json": "5d6c606ae11b97a019bf00157d4e006b95e73843eff1c7ede8fa6e678d04994b",
+      "data/concepts/brachial-plexus-anatomy.json": "58aa3fd3f8de14d8a0e4d10b0f6ec76ddf2a240aff580f68a9f43a579d596cd1",
+      "data/concepts/brain-herniation-syndromes.json": "e05a25cd8f9f10be75cb2c576c15ee68f3c52062b3c984e21c9163f67ec3c1c4",
+      "data/concepts/carotid-vertebrobasilar-anastomoses.json": "ce64159d0d74a5e1753a44eaac0adf15aacb85bbac656d5172422a0707619c9a",
+      "data/concepts/cerebral-border-zone-infarct-arteries.json": "39b31f1c2609a7a63187ada1cfefa009bfb180ce78b1d113d64009baade3c359",
+      "data/concepts/cerebral-deep-venous-cortex.json": "51039b6db57bce1b52784cb7b6f45fc81d2da9e677fe07422cc108d5be72d1a1",
+      "data/concepts/cerebral-herniation-types.json": "d3cc9b5aac030227f34c01fdaee205ee65928c68b38408396e7fa6fdade4156f",
+      "data/concepts/cerebral-infarction-evolution.json": "24ba914875a126713b3dcdb0528ab55986d45ac8b0bceb2c85c977ca82b81186",
+      "data/concepts/2-hydroxyglutarate-idh-mutant-glioma.json": "85a11f90328873e31831f5bf9b1ec4bdfe4409a0d00b8ebab0d56eb889f79b3d",
+      "data/concepts/adrenoleukodystrophy.json": "a0cd4bd49de11a4958c1d4773c6e34da924cef30df58afbde39706fe5add7b8c",
+      "data/concepts/aicardi-syndrome.json": "f1230d3d3b36176e028607b8d58565ed7c9a7717dea6d3dba75c74828cca9245",
+      "data/concepts/als-imaging.json": "866a7b1c8d58e7a76cfea93583f5b870bab6f2d58a57392ab52ab344d9455d92",
+      "data/concepts/angioinvasive-aspergillosis.json": "537539d29eecf20f2ec3bde69110e0006ad9624b9d0c45197681ba530e9baf57",
+      "data/concepts/anti-nmda-encephalitis.json": "f325254f64cca43c2bad647b8d3fa5736dff65c0aab8dd118f26d6233ad17259",
+      "data/concepts/arterial-dissection-mri.json": "e0139ce8eb44a8d685c61dcc43aa350b3c93128ed516f06ffd7581b91cbc49d1",
+      "data/concepts/atypical-teratoid-rhabdoid-tumor.json": "056e8eac0f454abe6e19a5e2cea780ecefd214ec6d06e5356d793577613b7461",
+      "data/concepts/autoimmune-encephalitis.json": "edc9b84f4132a7b405bd20e993f8f3e8816ef0f5d3019c47d427faa9e886e844",
+      "data/concepts/basilar-artery-occlusion.json": "f76d008ae69da076a99c7da487978870238c2efe95b3fda2dc410628e74ce617",
+      "data/concepts/brain-tumor-imaging.json": "1c3e83acf9c717427d163127e3131b839711922c8eccac2b84c6d1e4ed8f46df",
+      "data/concepts/cerebral-infarction-fogging.json": "1607e3f35a3786fa333e56554a07de7cffbf94e202bf3848b9348e06688a1d16",
+      "data/concepts/cerebral-microbleeds.json": "3aea59f46e29ec6ea93a5884ba2b7dccebfb66249423661ea4d1aec0403c5435",
+      "data/concepts/cerebrovascular-malformations.json": "30f10b9ad32c45e36f953d858340aac32351c025664a69d0a66a578ec4ecaddc",
+      "data/concepts/chemical-shift-artifact.json": "c29ca07fe3410431cc81dd46af5c62514521339617ed11be25f32606d2e0ef3f",
+      "data/concepts/cns-opportunistic-infection.json": "34439c98b41e52f9811778de7fdca56ece4d8d3f472cb602bf0122ddbcf38fec",
+      "data/concepts/cranial-nerve-muscle-atrophy.json": "bdf216239e600df0404a83a11f77e49a8cbd1d1b9b3414acab00c8f1d5396a50",
+      "data/concepts/dural-based-masses-aids.json": "ae468525f7522ac8758c6a6ff0cb5f9650b458bc2eb05a4fa572a9c1a5b55883",
+      "data/concepts/facial-fracture-complications.json": "787216d964a3160363e3097b9477d10a295d94f3c00f81b980d7ab4fa76c1468",
+      "data/concepts/gbm-vs-pcnsl.json": "05a90a316db2cb1e32d34598cec6266a16ec2e3f3e900f59a84a27b6dbe6169f"
+    }
+  },
+  "scopeProtection": {
+    "inventoryNoteCount": 216,
+    "phase1PilotCount": 10,
+    "phase2NonPilotCount": 206,
+    "activeNoteCount": 30,
+    "scheduledNotStartedCount": 176,
+    "phase1EvidencePath": "docs/reports/nr-summary-rewrite/batch-00.json",
+    "phase2aArtifactPaths": [
+      "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-01-anatomy.json",
+      "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-02-disease.json",
+      "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-03-pattern.json",
+      "docs/reports/nr-summary-rewrite/phase2a/evidence/batch-01-anatomy.json",
+      "docs/reports/nr-summary-rewrite/phase2a/evidence/batch-02-disease.json",
+      "docs/reports/nr-summary-rewrite/phase2a/evidence/batch-03-pattern.json",
+      "docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json",
+      "docs/reports/nr-summary-rewrite/phase2a/generated/batch-02-disease.json",
+      "docs/reports/nr-summary-rewrite/phase2a/generated/batch-03-pattern.json"
+    ]
+  }
+}

@@ -1,11 +1,7 @@
 {
   "checked": false,
   "definition": "**深部腦靜脈（內大腦靜脈、Rosenthal 基底靜脈、Galen 靜脈）阻塞波及皮質時，受累範圍是邊緣葉、視覺皮質（內側枕葉）、下額葉——這三個區域都在大腦「深底部」。** 上額葉由淺部大腦靜脈（→上矢狀竇）引流，不屬深部系統，因此是 EXCEPT 題的答案。記憶鉤：「深部靜脈管大腦底部周圍，上額葉走高速公路（上矢狀竇）不走深路」。",
-  "differentialDiagnosis": [
-    "**動脈性**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群——分佈循動脈領域、無深部靜脈高衰減/充盈缺損。",
-    "**代謝/中毒/感染**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
-    "**其他**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。鑑別關鍵為**找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損**。"
-  ],
+  "differentialDiagnosis": [],
   "externalLinks": [
     {
       "label": "DOI",
@@ -20,50 +16,72 @@
       "url": "https://doi.org/10.1016/j.wneu.2020.03.008"
     },
     {
-      "label": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed"
+      "label": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>"
     },
     {
-      "label": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed",
-      "url": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed"
+      "label": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>"
     },
     {
-      "label": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed",
-      "url": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed"
+      "label": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/basal-vein>"
     },
     {
-      "label": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed",
-      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed"
+      "label": "https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>",
+      "url": "https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>"
     },
     {
-      "label": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed",
-      "url": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed"
+      "label": "https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>",
+      "url": "https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>"
+    },
+    {
+      "label": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>",
+      "url": "https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>"
     }
   ],
   "imagingFindings": "- **領域判讀（本題核心）**：深部靜脈系統（ICV＋BVR→Galen→直竇）引流的皮質延伸範圍偏向腦「底部周圍」——邊緣葉（limbic）、內側枕葉視覺皮質、下／內額葉；**上額葉（superior frontal）由淺部大腦靜脈引流入上矢狀竇**，不屬深部領域，是 EXCEPT 題的答案。\n- **深部系統路徑辨識（CTV／CE-MRV）**：正常應見 ICV–BVR–vein of Galen–straight sinus 連續均勻顯影；深部靜脈細小，需在矢狀／冠狀重組沿第三腦室頂與環池逐段追蹤，勿與脈絡叢強化混淆。\n- **深部靜脈栓塞（DCVT）影像把手**：典型為**雙側視丘水腫**（CT 低衰減／MRI T2-FLAIR 高訊號），可延伸至基底節與鄰近白質；同時 thalamostriate vein／ICV／BVR／Galen／直竇因血栓呈**高衰減（dense vein sign）**或 T2 flow void 消失，MRV 見充盈缺損——直接徵象是與其他雙側視丘病變分野的關鍵。\n- **雙側視丘病變鑑別**：動脈性（Percheron 動脈、基底動脈尖症候群，循動脈領域、無深部靜脈高衰減）須與 DCVT 區分；另含 Wernicke、滲透性脫髓鞘、病毒性腦炎、PRES、雙側視丘膠質瘤——鑑別關鍵是**找深部靜脈竇血栓徵象與 MRV／CTV 充盈缺損**。\n- **判讀陷阱**：兒童／脫水／血比容升高者靜脈竇本就偏高衰減，勿誤為血栓，須對照 HU 與 CTV；TOF-MRV 慢流／平面內飽和可致假性栓塞，深部系統宜以 CE-MRV／CTV 佐證；**單側 ICV 血栓致單側視丘水腫或深部白質「string of pearls」靜脈分水嶺梗塞**，影像不對稱易誤診，松果體／視丘區術後尤須警覺。\n\n> [!note] 考點：限於以下，除哪一項？\n> 深部靜脈阻塞皮質波及限於 **limbic／visual／inferior frontal**；**superior frontal 走淺部系統**故為例外。\n\n**參考來源**\n: StatPearls（NCBI Bookshelf, peer-reviewed 章節級）, *Neuroanatomy, Brain Veins* / *Anatomy, Head and Neck: Cerebral Venous System*。深部系統＝ICV＋BVR→vein of Galen；ICV 引流視丘、基底節、胼胝體、穹窿、室管膜、脈絡叢、深部白質；BVR 引流島葉、內側顳葉、腹側基底節、額葉眶面、中腦。<https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed 2026-06-29）。\n: Leach JL, Fortuna RB, Jones BV, Gaskill-Shipley MF. *Imaging of cerebral venous thrombosis: current techniques, spectrum of findings, and diagnostic pitfalls.* RadioGraphics 2006;26 Suppl 1:S19–41（綜述級，含正常解剖/變異、深部與皮質靜脈栓塞、判讀陷阱章節）。[DOI](https://doi.org/10.1148/rg.26si055174)。（PubMed）\n: ScienceDirect Topics（教科書摘錄, *Internal Cerebral Veins* / *Great Cerebral Vein* overview）。ICV 起於 Monro 孔（thalamostriate＋septal vein 成 venous angle），沿第三腦室頂後行入 vein of Galen。<https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed 2026-06-29）。\n: ScienceDirect Topics / neuroangio.org（*Basal Vein* overview；BVR 解剖與引流領域）。BVR 起於內側顳極/前穿質，引流島葉、腹側基底節、額葉眶面、視丘與深部白質，注入 vein of Galen。<https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed 2026-06-29）。\n: StatPearls *Neuroanatomy, Brain Veins*；neuroangio.org *Superficial Venous System*。SMV 沿外側裂；vein of Trolard＝SMV↔上矢狀竇最大吻合支；vein of Labbé＝SMV↔橫竇最大吻合支；三支優勢度變異大（常見 SMV 與 Labbé 共優勢）。<https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed 2026-06-29）。\n: Leach JL et al. RadioGraphics 2006（同 ）：TOF-MRV 慢流/平面內飽和致訊號喪失之假性栓塞、建議 CE-MRV/CTV 佐證。[DOI](https://doi.org/10.1148/rg.26si055174)。（PubMed）\n: *Cerebral venous thrombosis: a spectrum of imaging findings*. Singapore Med J 2022（PMC8804428, 開放取用綜述）。DCVT 較少見但致病率高；典型雙側視丘水腫±基底節；CT 深部靜脈高衰減、MRI T2/FLAIR 高訊號＋ICV flow void 消失、MRV 充盈缺損；雙側視丘病變 DDx 含動脈梗塞/感染/代謝/PRES/腫瘤。[DOI](https://doi.org/10.11622/smedj.2021235)。（PubMed，摘要與檢索摘錄；全文未逐頁核實）\n: Radiology Assistant（radiologyassistant.nl）*Cerebral Venous Sinus Thrombosis*；Hindawi Case Rep Radiol 2018 概述。DCVT 影像（雙側視丘/基底節水腫、深部靜脈高衰減/充盈缺損）與雙側視丘 DDx。<https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed 2026-06-29）。\n: Tan AP. *Postoperative Unilateral Internal Cerebral Vein Thrombosis with Venous Watershed Infarcts: Case Report and Review of the Literature.* World Neurosurg 2020;138:158–162（病例＋文獻回顧）。單側 ICV 血栓致深部白質「string of pearls」靜脈分水嶺梗塞，松果體/視丘區術後須警覺。[DOI](https://doi.org/10.1016/j.wneu.2020.03.008)。（PubMed）",
   "keyPoints": [
-    "**腦靜脈分兩大系統**：**淺部（皮質）系統**引流皮質與皮質下淺白質、匯入上矢狀竇與淺部硬腦膜竇；**深部系統**引流深部灰白質、最終經 vein of Galen → straight sinus（直竇）回流。兩系統間有吻合，是側枝代償的解剖基礎。",
-    "**深部系統三主幹**：成對的 **internal cerebral veins（ICV，內大腦靜脈）**＋成對的 **basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）**，於四疊體池（quadrigeminal cistern）匯合成單一 **vein of Galen（Galen 大靜脈）**，再注入 straight sinus → confluence of sinuses。",
-    "**ICV 起點與走行**：起於 Monro 室間孔附近（由 thalamostriate vein 與 septal vein 匯成 venous angle），沿第三腦室頂後行至四疊體池。",
-    "**BVR 起點與走行**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成；繞中腦（環池）後注入 vein of Galen。",
-    "**皮質淺部三大吻合靜脈**（變異大、互為代償）：**superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）**沿外側裂走行，引流入 sphenoparietal/cavernous sinus；**vein of Trolard（上吻合靜脈）**為連接 SMV 與上矢狀竇之最大吻合支（多跨中央區）；**vein of Labbé（下吻合靜脈）**為連接 SMV 與橫竇之最大吻合支（多沿顳枕溝）。",
-    "**ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、以及襯於腦室旁的深部白質。",
-    "**BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面、以及中腦周圍——範圍多變，與 ICV 領域部分重疊。",
-    "**臨床對應**：深部系統阻塞時受累的是這些深部灰白質構造；其向皮質延伸的範圍偏向腦底部之 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉，而 **superior frontal（上額葉）由淺部系統（→上矢狀竇）引流**，故為深部領域之例外。",
-    "**正常辨識**：CTV/CE-MRV 上 ICV–BVR–vein of Galen–straight sinus 應呈連續均勻顯影；深部靜脈細小，需在矢狀/冠狀重組仔細追蹤。",
-    "**常見變異/陷阱**：ICV 與 BVR 在發育、優勢度上變異大；BVR 可有非典型引流路徑。淺部三吻合支常見「SMV 與 Labbé 共優勢」等多種組合，單一支缺如不一定是病理。",
-    "**TOF-MRV 注意**：流速慢或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞；對深部系統建議以 CE-MRV 或 CTV 佐證。",
-    "**典型分佈**：深部靜脈血栓較淺部少見，但因侵及深部灰核而致病率/死亡率較高；典型為**雙側視丘水腫**，可向**基底節**及鄰近白質延伸。",
-    "**CT**：雙側視丘（±基底節/鄰近白質）低衰減（水腫/梗塞）；同時 thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因內含血栓而呈**高衰減（cord/dense vein sign）**。",
-    "**MRI**：雙側視丘/基底節對稱 T2/FLAIR 高訊號、T1 低訊號；ICV 等深部靜脈於 T2 失去正常 flow void 而呈異常訊號；DWI 可顯示細胞毒/血管源混合水腫。MRV 顯示 straight sinus、雙側 ICV、vein of Galen 充盈缺損。",
-    "**單側/不對稱型**：少見但存在——單側 ICV 血栓可致單側視丘水腫或深部白質「string of pearls（串珠狀）」靜脈分水嶺梗塞，影像不對稱易誤診，神經外科術後（松果體/視丘區手術）尤須警覺。",
-    "**動脈性**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群——分佈循動脈領域、無深部靜脈高衰減/充盈缺損。",
-    "**代謝/中毒/感染**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
-    "**其他**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。鑑別關鍵為**找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損**。",
-    "**正常高衰減 vs 血栓**：兒童、脫水、血比容升高者靜脈竇本就偏高衰減；應對照 Hounsfield 值與靜脈是否「過度」緻密，並以 CTV 確認。",
-    "**TOF 流訊號假象**：慢流或平面內血流飽和被誤判為栓塞（見上）。",
-    "**不對稱型 DCVT 漏診**：單側視丘水腫不要先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。",
-    "**領域記憶要點**：深部系統管的是腦「底部周圍」的深部灰白質與 limbic/內側枕/下額；**上額葉走淺部（上矢狀竇）**，是 EXCEPT 題的答案。"
+    "**淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。",
+    "**深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。",
+    "**系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。",
+    "**深部三主幹**：成對 internal cerebral veins（ICV，內大腦靜脈）加成對 basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）於四疊體池（quadrigeminal cistern）匯合成單一 vein of Galen（Galen 大靜脈），再注入 straight sinus 至 confluence of sinuses。",
+    "**ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。",
+    "**BVR 起點**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。",
+    "**BVR 終點**：繞中腦（環池）後注入 vein of Galen。",
+    "**SMV**：superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。",
+    "**Vein of Trolard（上吻合靜脈）**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。",
+    "**Vein of Labbé（下吻合靜脈）**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。",
+    "**ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。",
+    "**BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。",
+    "**深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。",
+    "**領域例外**：向皮質延伸偏向腦底部 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。",
+    "**正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。",
+    "**重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。",
+    "**ICV/BVR 變異**：發育與優勢度變異大。",
+    "**BVR 變異**：可有非典型引流路徑。",
+    "**淺部變異**：SMV 與 Labbé 共優勢等組合常見，單一支缺如不一定是病理。",
+    "**TOF-MRV 陷阱**：慢流或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞。",
+    "**佐證方式**：深部系統建議以 CE-MRV 或 CTV 佐證。",
+    "**DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。",
+    "**DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。",
+    "**DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。",
+    "**DCVT CT 靜脈**：同時，thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。",
+    "**DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。",
+    "**DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。",
+    "**DCVT DWI**：可顯示細胞毒與血管源混合水腫。",
+    "**DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。",
+    "**單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，神經外科術後（松果體或視丘區手術）尤須警覺。",
+    "**動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。",
+    "**代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
+    "**其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。",
+    "**鑑別關鍵**：尋找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損。",
+    "**高衰減陷阱**：兒童、脫水、血比容升高者的靜脈竇本就偏高衰減。",
+    "**高衰減確認**：對照 Hounsfield 值與靜脈是否過度緻密，並以 CTV 確認。",
+    "**TOF 假象**：慢流或平面內血流飽和可被誤判為栓塞。",
+    "**不對稱漏診**：單側視丘水腫勿先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。",
+    "**深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。",
+    "**EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。"
   ],
   "management": "",
   "name": "Deep Cerebral Venous Drainage — Cortical Territory",

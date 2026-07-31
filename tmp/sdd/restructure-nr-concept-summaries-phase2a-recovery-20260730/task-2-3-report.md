@@ -1,0 +1,281 @@
+# Task 2.3 independent review and generated seal report
+
+## Outcome
+
+- Status: `DONE_WITH_CONCERNS`
+- Base: `bb8356a`
+- Batch: `batch-01-anatomy`
+- Independent reviewer: `/root/phase2a_task2_3_review`
+- Implementer under review: `/root/phase2a_task2_2_impl`
+- Reviewer and implementer are canonical, traceable, and distinct.
+- Critical findings: 0
+- Important findings: 0
+- Spectra Task 2.3 checkbox was not changed.
+- No batch-02, batch-03, Phase 2B, or tranche-acceptance work was started.
+
+The batch is independently approved with root status `needs-review`, not
+`verified`, because `brain-herniation-syndromes-f03` remains the sole
+source-unresolved fact. The nine unaffected notes remain verified.
+
+## Independent content and source review
+
+I independently compared all ten current Summary spans against the sealed
+baseline in assignment order. The review covered all 121 fact units, their
+source statements, final dispositions, applicable footnote references and
+definitions, current Summary wording, and generated keyPoints.
+
+Results:
+
+- 121 sealed facts reviewed;
+- 120 facts remain `covered`;
+- one fact remains `research-needed`;
+- zero facts are `manual-review`;
+- `newUnsupportedFacts=0`;
+- every covered fact preserves the sealed subject, relationship, polarity,
+  qualifier, number, unit, version, date, negation, exception, and DDx;
+- 10/10 Summary spans use bold labels, short top-level bullets, and defined
+  Obsidian footnotes;
+- 10/10 current Summary bullet arrays equal generated `keyPoints`;
+- replacing each current Summary span with its sealed `originalSummary`
+  reconstructs the sealed full-file SHA-256 for all 10 notes.
+
+### Retained manual queue
+
+The exact derived queue is:
+
+```text
+brain-herniation-syndromes-f03
+```
+
+That fact remains:
+
+- absent from the rewritten Summary;
+- `disposition=research-needed`;
+- `sourceRefs=[]`;
+- the only unresolved fact;
+- the only reason `brain-herniation-syndromes` is `research-needed`;
+- the only reason the batch root is `needs-review`.
+
+No replacement imaging claim was invented or sourced by inference.
+
+### Closure of Task 2.2 round-1 findings
+
+All three prior Important findings remain closed:
+
+1. `atlantodental-interval-f14` retains `（Boden 等）`.
+2. `cerebral-deep-venous-cortex-f04/f06/f08/f09/f10/f12/f14` retain the
+   locked first-use terminology and Traditional Chinese aliases.
+3. `cerebral-deep-venous-cortex-f25/f30` retain the simultaneous CT
+   relationship and the neurosurgical postoperative qualifier.
+
+No new Critical or Important finding was introduced by those corrections.
+
+## Evidence approval
+
+The checked evidence retains all Task 2.2 content, source, disposition,
+validation, coverage-digest, and manual-queue data. Only the real review
+metadata changed:
+
+```json
+{
+  "implementer": "/root/phase2a_task2_2_impl",
+  "reviewer": "/root/phase2a_task2_3_review",
+  "reviewStatus": "approved",
+  "reviewedBaselineSha256": "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
+}
+```
+
+- Evidence root status remains `needs-review`.
+- Note statuses are 9 `verified` and 1 `research-needed`.
+- Evidence file SHA-256:
+  `0225a5e6c7a6fca4d2abe6abe9d73540ef186c064dc5d3b89690d0d74857f70b`.
+- The trusted baseline lock digest remains:
+  `1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64`.
+
+## TDD evidence
+
+Production regressions were added before evidence approval, manifest creation,
+or generated-observation trust:
+
+- RED: `9 failed, 8 passed, 106 deselected`.
+- The failures were caused by the unapproved review state and absent
+  manifest/trust. The tests also exposed one real gap: a first-run
+  nonselected mtime-only touch was recorded but not immediately rejected.
+- Minimal production fix rejects any first-run byte or mtime path outside the
+  ten selected detail paths plus the index with
+  `generated-unrelated-write`.
+- Generated trust now rejects missing, malformed, wrong, unknown, extra, or
+  noncontiguous code-owned seals relative to the active checked manifests.
+- Focused GREEN: `17 passed, 106 deselected`.
+- Complete audit/build GREEN: `135 passed`.
+
+The production regressions bind the actual batch-01 artifacts and additionally
+exercise a coherent relocated checkout; they are not substitutes for the
+existing synthetic fixture attacks.
+
+## Genuine two-run generated observation
+
+The existing audited
+`run_phase2_generated_observation_workflow(repo_root,
+"batch-01-anatomy")` performed the real preflight, snapshots, and two scoped
+builds.
+
+Task 2.2 had already synchronized all selected details, so the actual first
+run was legitimately zero-delta:
+
+```json
+{
+  "firstRun": {
+    "changedPaths": [],
+    "mtimeChangedPaths": []
+  },
+  "secondRun": {
+    "changedPaths": [],
+    "mtimeChangedPaths": []
+  }
+}
+```
+
+No file was forced to change. A final unchanged-input rerun produced:
+
+- byte-identical manifest bytes;
+- the same observation digest;
+- zero generated byte drift;
+- zero generated mtime drift;
+- zero first-run and second-run writes.
+
+### Manifest and trust
+
+- Generated manifest:
+  `docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json`
+- Manifest file SHA-256:
+  `bd1d2be10b9045c17b3f7ff540414623b8ecee4b6f2dd38f576aa3d118fbbbdb`
+- Manifest bytes: `230471`
+- Code-owned observation digest:
+  `7adfa693cf5a178e1a393c250b1322f4e7ea4de990fdac16c0afae26f6f9cefd`
+- Central generated-observation registry contains exactly one entry:
+  `batch-01-anatomy`.
+- Selected slugs: 10, in exact assignment order.
+- Selected detail hashes: 10.
+- Nonselected before/after hashes: 968/968, identical.
+- Complete detail files: 978.
+- Complete index entries: 978.
+- Allowed writes: exactly 10 selected detail paths plus
+  `data/concepts-index.json` (11 paths).
+- Index SHA-256:
+  `696d892882106ce54948fdb604e4c4240ae212bae6f43b0c61672c3f85b1edf5`
+- Detail-tree SHA-256:
+  `39ae118556a78bcb41aa9c121ba6a6a51f42775ca75b779128ccac8f5ee3e01b`
+
+Selected detail hashes:
+
+| Path | SHA-256 |
+|---|---|
+| `data/concepts/ajcc-8th-head-neck-n-staging.json` | `1e0bb54c8a191966a7ab69ff138341d1b9babde20694ac1e7c0e8af135b48b67` |
+| `data/concepts/aneurysm-coiling-recurrence.json` | `5eb1856b5ec8e4716a485092a95f2c930c8a6dd914581ffd833e2bd98d6a99eb` |
+| `data/concepts/atlantodental-interval.json` | `5d6c606ae11b97a019bf00157d4e006b95e73843eff1c7ede8fa6e678d04994b` |
+| `data/concepts/brachial-plexus-anatomy.json` | `58aa3fd3f8de14d8a0e4d10b0f6ec76ddf2a240aff580f68a9f43a579d596cd1` |
+| `data/concepts/brain-herniation-syndromes.json` | `e05a25cd8f9f10be75cb2c576c15ee68f3c52062b3c984e21c9163f67ec3c1c4` |
+| `data/concepts/carotid-vertebrobasilar-anastomoses.json` | `ce64159d0d74a5e1753a44eaac0adf15aacb85bbac656d5172422a0707619c9a` |
+| `data/concepts/cerebral-border-zone-infarct-arteries.json` | `39b31f1c2609a7a63187ada1cfefa009bfb180ce78b1d113d64009baade3c359` |
+| `data/concepts/cerebral-deep-venous-cortex.json` | `51039b6db57bce1b52784cb7b6f45fc81d2da9e677fe07422cc108d5be72d1a1` |
+| `data/concepts/cerebral-herniation-types.json` | `d3cc9b5aac030227f34c01fdaee205ee65928c68b38408396e7fa6fdade4156f` |
+| `data/concepts/cerebral-infarction-evolution.json` | `24ba914875a126713b3dcdb0528ab55986d45ac8b0bceb2c85c977ca82b81186` |
+
+## Attack and fail-closed results
+
+| Attack | Stable result |
+|---|---|
+| Unapproved review starts workflow | `phase2-review-sequence` before writes |
+| Implementer and reviewer share identity | `phase2-reviewer-conflict` before writes |
+| Missing/wrong/extra/unknown observation trust | `generated-observation-untrusted` |
+| Coordinated Summary/evidence/detail/manifest reseal | `generated-observation-untrusted` |
+| Nonselected detail byte change during first run | `generated-unrelated-write` |
+| Nonselected detail mtime-only touch during first run | `generated-unrelated-write` |
+| Selected keyPoints drift | `generated-keypoints-mismatch` |
+| Selected detail drift | `generated-manifest-mismatch` |
+| Second-run selected byte drift | `generated-non-idempotent` |
+| Second-run selected mtime-only drift | `generated-non-idempotent` |
+| f03 hidden by forged verified root/note state | `phase2-manual-queue-mismatch` and `phase2-evidence-schema` |
+
+Canonical and coherent relocated checkouts both validate with identical empty
+finding lists, identical observation digests, byte-identical manifests, and
+zero second-run writes.
+
+## Validation gates
+
+| Gate | Result |
+|---|---|
+| Final `validate-batch --check-generated` | PASS, exit 0, `[]` |
+| Reviewer independence and reviewed lock snapshot | PASS |
+| Root/note status | PASS: `needs-review`, 9 verified, 1 research-needed |
+| Strict `validate-note` projection | PASS, 10/10, no findings |
+| Fact coverage | PASS: 121 total = 120 covered + 1 research-needed |
+| Manual queue | PASS: exactly `brain-herniation-syndromes-f03` |
+| Unsupported rewritten facts | PASS: 0 |
+| Selected generated keyPoints | PASS: 10/10 |
+| Generated corpus | PASS: 978 details / 978 index entries |
+| Genuine workflow rerun | PASS: byte-identical manifest, zero byte/mtime drift |
+| Focused production tests | PASS: 17 |
+| Full audit/build pytest | PASS: 135 |
+| Direct audit smoke | PASS: `NR_SUMMARY_AUDIT_OK` |
+| Direct build smoke | PASS: `BUILD_CONCEPTS_TEST_OK` |
+| Four-file `py_compile` | PASS |
+| Inventory | PASS: 216 NR, 0 duplicate, 0 unclassified, batch-00 10, 0 unassigned |
+| Assignment | PASS: 10 pilots + 206 nonpilots; 30 active + 176 scheduled |
+| Trusted baseline lock | PASS: `validate_baseline_lock=[]`; 10/10 reconstruction |
+| Full lint | Exact inherited 2 errors / 124 warnings |
+| Spectra strict validation | PASS |
+| Spectra analysis | 0 Critical, 0 Warning, 2 pre-existing Suggestions |
+| `git diff --check` | PASS |
+| Task 2.3 prohibited source/generated scope | PASS: no Markdown/detail/index/inventory/assignment/baseline diff |
+
+### Exact lint output
+
+The full lint inspected 1123 concepts, 4 image references, and 4 image files.
+It retained exactly:
+
+```text
+[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義
+[json 殘留 ![[...]]] 2022-264
+```
+
+Warning summary remained:
+
+```text
+題目無 correctAnswer: 65
+概念缺 ## 考題 dataview: 37
+footnote 未被引用: 22
+小結：2 errors, 124 warnings
+```
+
+Neither inherited error belongs to a selected batch-01 note.
+
+## Changed files
+
+Allowed production changes only:
+
+- `docs/reports/nr-summary-rewrite/phase2a/evidence/batch-01-anatomy.json`
+- `docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json`
+- `scripts/nr_summary_audit.py`
+- `scripts/test_nr_summary_audit.py`
+- this Task 2.3 report
+
+No concept Markdown, selected or nonselected detail JSON,
+`data/concepts-index.json`, inventory, assignment, baseline, Phase 1 artifact,
+batch-02/batch-03 artifact, or scheduled-note artifact changed in Task 2.3.
+
+## Concerns
+
+1. `brain-herniation-syndromes-f03` remains legitimately unresolved. This is
+   why the outcome is `DONE_WITH_CONCERNS` and the batch remains
+   `needs-review`; it is not a validation failure.
+2. `validate-baseline` is intentionally a pre-edit source gate. After Task 2.2
+   legally rewrote the ten Summary spans, invoking that pre-edit CLI reports
+   the expected current-source hash/Summary differences. Task 2.3 therefore
+   uses the correct post-edit checks: `validate_baseline_lock(context)==[]`
+   plus 10/10 hash-guarded reconstruction of the sealed original files. The
+   pre-edit gate was not weakened.
+3. Spectra retains two pre-existing Suggestion-only ambiguity findings for
+   examples absent from the specification. There are no Critical or Warning
+   findings.

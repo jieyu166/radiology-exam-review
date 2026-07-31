@@ -10,41 +10,44 @@
   ],
   "externalLinks": [
     {
-      "label": "10.1161/STROKEAHA.107.511162（pc-ASPECTS",
-      "url": "https://doi.org/10.1161/STROKEAHA.107.511162（pc-ASPECTS"
+      "label": "10.1016/S0140-6736(00)02237-6",
+      "url": "https://doi.org/10.1016/S0140-6736(00)02237-6"
     },
     {
-      "label": "10.3174/ajnr.A0689（CTP-ASPECTS",
-      "url": "https://doi.org/10.3174/ajnr.A0689（CTP-ASPECTS"
+      "label": "10.1161/STROKEAHA.107.511162",
+      "url": "https://doi.org/10.1161/STROKEAHA.107.511162"
+    },
+    {
+      "label": "10.3174/ajnr.A0689",
+      "url": "https://doi.org/10.3174/ajnr.A0689"
     },
     {
       "label": "10.1148/rg.2019190142",
       "url": "https://doi.org/10.1148/rg.2019190142"
     },
     {
-      "label": "10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS",
-      "url": "https://doi.org/10.1212/WNL.0b013e3181eccf78（DWI-ASPECTS"
+      "label": "10.1212/WNL.0b013e3181eccf78",
+      "url": "https://doi.org/10.1212/WNL.0b013e3181eccf78"
     },
     {
       "label": "10.1177/1747493016632244",
       "url": "https://doi.org/10.1177/1747493016632244"
     },
     {
-      "label": "10.1177/1747493016681020（PubMed",
-      "url": "https://doi.org/10.1177/1747493016681020（PubMed"
+      "label": "10.1177/1747493016681020",
+      "url": "https://doi.org/10.1177/1747493016681020"
     }
   ],
   "imagingFindings": "**計分心法（考點核心）**\n- **倒扣制**：起始 **10 分**，每受累一區 −1；故**正常 CT＝10 分（不是 0）**、廣泛受累趨近 0。這是考試最愛挖的陷阱。\n- **10 區＝皮質 7 ＋深部 3**：皮質＝insula＋M1–M6；深部＝caudate、lentiform（putamen）、internal capsule。僅評 **MCA 區域**。\n\n**判讀技術**\n- 偵測早期灰白質分界消失（GWD loss，急性梗塞最早 CT 徵象）建議採**窄窗（stroke window：window width 8 HU、window level 32 HU）**，可提升細微 GWD 喪失之偵測；**須加看冠狀與矢狀切面**。\n- **易漏診部位**：顱頂端（volume averaging）、顳葉下方（灰白質交界軸向走行）、枕葉（顱骨偽影）、深部灰質尤其**尾狀核頭**——側枝血流較差處早期變化明顯但也易受偽影干擾。\n\n**pc-ASPECTS（後循環，配分完全不同）**\n- 同「10 分倒扣」概念但換後循環構造：視丘×2、枕葉×2、小腦半球×2（各 1）＝6 分；**中腦、橋腦各 2 分**＝4 分。\n- **最大差異（考點）**：橋腦/中腦**各值 2 分且不分單雙側**——任何受累即扣滿 2 分（不像 MCA 每區只 1 分）。以 **CTA source image** 評基底動脈阻塞（BAO）預後。\n\n**模態變體**\n- **CTA-SI ASPECTS**：CTA 來源影像，較能顯示側枝與急性期梗塞範圍。\n- **CTP-ASPECTS**：套到灌注圖輔助核心估計。\n- **DWI-ASPECTS**：套到 DWI（對早期細胞毒性水腫最敏感），可預測 rt-PA 後 3 個月預後。\n- **e-ASPECTS**：軟體自動判讀，對神經放射科醫師為非劣性。\n\n**判讀陷阱**\n- **勿把「正常 CT」記成 0 分**——正常＝10。\n- pc-ASPECTS 橋腦/中腦配分與單雙側規則與前循環不同，勿沿用 MCA 的「每區 1 分」。\n- ASPECTS 屬取栓決策工具之一，須與**側枝評分、灌注 core/mismatch** 互補（不同評分系統）。\n\n> [!note] 考點：何者錯誤？\n> 「**正常 CT 得 0 分**」是錯的 —— 正常＝**10 分**（扣分制）。其餘正確：0–10 分、僅評 MCA 區域、**MCA 皮質佔 7 分**（深部 3 分）。",
   "keyPoints": [
     "**設計緣由**：ASPECTS 誕生前，急性中風 CT 判讀常用「MCA 領域是否 >1/3 受累」作為 rt-PA 排除標準，但**目視估計 1/3 MCA 領域在實務上並不可靠**；ASPECTS 以**拓樸區域計分**取代此模糊估計，僅需軸位影像即可執行。",
-    "**範圍 0–10 分**；用於 **MCA 區域**急性中風（另有 posterior circulation 改良版 pc-ASPECTS）。",
-    "**判讀技術細節**：偵測早期灰白質分界消失（GWD loss，急性梗塞最早的 CT 徵象）建議採**窄窗（stroke window）：window width 8 HU、window level 32 HU**，可提升細微 GWD 喪失之偵測；**須加看冠狀與矢狀切面**，軸位上易忽略的腦溝出血徵象在其他切面較明顯。",
-    "**判讀盲點（易漏診部位）**：**顱頂端**（volume averaging）、**顳葉下方**（灰白質交界呈軸向走行）、**枕葉**（顱骨不規則輪廓致偽影）、**深部灰質尤其尾狀核頭**——island、caudate、basal ganglia 因側枝血流較差，早期變化常較明顯但也易受上述陷阱干擾。",
-    "**計分法**：起始 10 分，**每個受累區域 −1**；故**正常 CT＝10 分**、廣泛受累趨近 0。",
-    "**10 個區域**：",
-    "**深部（3 分）**：caudate、lentiform（putamen）、internal capsule。",
-    "**皮質（7 分）**：insular cortex（insular ribbon）＋ **M1–M6**。",
-    "**臨床意義**：ASPECTS **≤7** 預示 3 個月較差功能預後與症狀性出血風險增加。"
+    "**範圍與適用區域**：ASPECTS 為 **0–10 分**，用於 **MCA 領域**急性中風；另有後循環改良版 pc-ASPECTS。",
+    "**判讀技術**：灰白質分界消失是急性梗塞最早 CT 徵象；採窄窗 **WW 8 HU／WL 32 HU**可提高細微變化偵測，且應加看冠狀與矢狀切面，以免漏掉軸位不明顯的腦溝出血。",
+    "**判讀盲點**：顱頂端易受 volume averaging、顳葉下方的灰白質交界呈軸向、枕葉受不規則顱骨偽影影響，深部灰質尤其尾狀核頭亦易漏判；insula、caudate、basal ganglia 因側枝較差，早期改變常明顯但仍受判讀陷阱影響。",
+    "**計分順序**：由 **10 分**開始，每個受累區域減 1 分；正常 CT 為 10 分，廣泛 MCA 領域受累時分數趨近 0。",
+    "**深部區域**：3 個深部區為 caudate、lentiform nucleus（含 putamen）與 internal capsule。",
+    "**皮質區域**：7 個皮質區為 insular cortex／insular ribbon 與 M1–M6。",
+    "**臨床意義**：原始 ASPECTS 研究顯示，基線 **ASPECTS ≤7** 與 3 個月較差功能預後及較高症狀性顱內出血風險相關。"
   ],
   "management": "",
   "name": "ASPECTS (Alberta Stroke Program Early CT Score)",

@@ -2,6 +2,13 @@
   "concepts": [
     {
       "checked": false,
+      "name": "2-Hydroxyglutarate (2-HG) MRS in IDH-mutant Glioma",
+      "nameZh": "2-羥基戊二酸",
+      "slug": "2-hydroxyglutarate-idh-mutant-glioma",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "AAA Post-EVAR Follow-up — Imaging with Renal Impairment",
       "nameZh": "腹主動脈瘤術後追蹤影像",
       "slug": "aaa-evar-followup-imaging",
@@ -541,6 +548,13 @@
     },
     {
       "checked": false,
+      "name": "Atypical Teratoid/Rhabdoid Tumor",
+      "nameZh": "非典型畸胎樣橫紋肌樣瘤",
+      "slug": "atypical-teratoid-rhabdoid-tumor",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Autoimmune Encephalitis — Overview",
       "nameZh": "自體免疫腦炎",
       "slug": "autoimmune-encephalitis",
@@ -636,6 +650,13 @@
       "nameZh": "雙側腎臟腫大鑑別",
       "slug": "bilateral-enlarged-kidneys-ddx",
       "subspecialty": "PED"
+    },
+    {
+      "checked": false,
+      "name": "Bilateral Subcortical (Corticomedullary Junction) DWI Hyperintensity DDx",
+      "nameZh": "皮質下 DWI 高訊號鑑別",
+      "slug": "bilateral-subcortical-dwi-hyperintensity-ddx",
+      "subspecialty": "NR"
     },
     {
       "checked": false,

@@ -14,13 +14,10 @@ dateRev: 2026-06-29
 **Adamkiewicz 動脈是供應胸腰段脊髓的「主力動脈」，一旦術中誤傷就可能造成下肢截癱。** 記憶鉤：它與前脊髓動脈吻合處形成一個「髮夾（hairpin）轉折」——先向下行再急轉向上，形如髮夾；考試常把「coathook（衣鉤）」設為錯誤描述，兩者形狀不同，記「髮夾」即可。起源以**左側（~77%）、T9–T12**為主，手術前 CTA 定位標準。
 
 ## Summary
-- **角色**：胸腰段**主要前段髓質動脈**,加強前脊髓動脈供應下段脊髓(option A 對)。[^1]
-- **特徵形態**：與前脊髓動脈吻合處呈**『hairpin（髮夾）轉折』**;故「**coathook configuration**」**錯誤**＝題目正解（2016-169 正解 B）。[^1]
-- **分支**：hairpin 含一小**升支**與主要**降支**至前脊髓動脈(option C 對)。[^1]
-- **起源**：**左側佔多（~77%）、T9–T12 最常見**（整體 T8–L1;範圍 T3–L4）(option D 對)。[^1]
-
-> [!note] 考點：Adamkiewicz 動脈何者「錯」?
-> 「**coathook configuration**」錯——特徵是 **hairpin（髮夾）轉折**。主要前段髓質動脈、升降支、左側 T9–T12 為主皆對。[^1]
+- **結構與功能**：Adamkiewicz 動脈是胸腰段主要的前根髓質動脈，可加強前脊髓動脈對下段脊髓的供應，因此原題 option A 正確。[^1][^3]
+- **形態與陷阱**：其與前脊髓動脈吻合處呈 **hairpin（髮夾）轉折**，不是 coathook configuration；故 2016-169 的錯誤敘述／正解為 option B。[^1][^2]
+- **分支**：hairpin 連接前脊髓動脈後可見較小的升支與較大的降支，因此原題 option C 正確。[^8]
+- **起源**：原題／舊來源的記憶範圍為左側約 **77%、T9–T12**，支持 option D；較新的 pooled 資料則顯示左側 **76.6%**、約 89% 位於 **T8–L1**，單一高峰集中 T9–T11；現行章節另記典型 T9–T11、完整報告範圍可自 **T3 至 L4**。這些不同層級的數值須分開陳述。[^1][^4][^9]
 
 ## 放射科醫師影像判讀重點
 - **核心徵象＝hairpin（髮夾）轉折**：AKA 在腹側中線與前脊髓動脈（ASA）銜接處先沿神經根下行、再急轉上行匯入 ASA，側面呈髮夾／U 形，含較細升支與較粗主降支——考題常以「coathook」誤導，正解為 hairpin。[^2][^3][^5]
@@ -71,6 +68,8 @@ dateRev: 2026-06-29
 [^5]: AJR（原始研究, 摘要查證）. Boll DT, et al. *MDCT Angiography of the Spinal Vasculature and the Artery of Adamkiewicz*. AJR 2006;187:1054-1060. DOI: [10.2214/AJR.05.0562](https://doi.org/10.2214/AJR.05.0562)（摘要查證 2026-06-29）：curved MPR 將 AKA 辨識為自肋間／腰動脈口經前根髓質動脈至 ASA 的連續血管；本系列左側 63%、T10–T12 佔 74%、duplication 5%、縱向長度 40.1±13.5 mm。
 [^6]: 臨床綜論／文獻彙整（摘要與教科書級查證）. 胸腹主動脈瘤修補脊髓保護相關文獻＋StatPearls：mid-thoracic 為分水嶺區易缺血；開放 TAAA 修補截癱／不全癱率 5–15%；脊髓保護含 AKA／肋間動脈重建、CSF 引流、低溫、運動誘發電位監測。對應 [NBK532971](https://www.ncbi.nlm.nih.gov/books/NBK532971/) 與 PMC10010729。
 [^7]: 原始研究（PMC 開放全文, 判讀陷阱）. *Detection of the artery of Adamkiewicz using multidetector row CT in patients with spinal arteriovenous shunt disease*. Pol J Radiol（PMC7172874，全文查證 2026-06-29）：AKA 與 anterior radiculomedullary vein 形態相似，靠缺乏主動脈連續性／增強差異區分；AV shunt 病例擴張引流靜脈與 hairpin 並存使偵測困難；缺典型 hairpin 時真 AKA 與次要根動脈難辨。
+[^8]: Kudo K, Terae S, Asano T, et al. *Anterior Spinal Artery and Artery of Adamkiewicz Detected by Using Multi-Detector Row CT*. AJNR Am J Neuroradiol. 2003;24(1):13-17. [PubMed PMID 12533320](https://pubmed.ncbi.nlm.nih.gov/12533320/)；[PMC8148952](https://pmc.ncbi.nlm.nih.gov/articles/PMC8148952/)（開放全文與圖說查證 accessed 2026-07-29）：AKA 與 ASA 交界遠端可見升支與降支，其中升支較窄、降支較寬，支持 hairpin 後小升支／主降支的方向性。
+[^9]: Lindeire S, Hauser JM. *Anatomy, Back, Artery of Adamkiewicz*. StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; updated 2025 Mar 25. [NCBI Bookshelf NBK532971](https://www.ncbi.nlm.nih.gov/books/NBK532971/)（chapter 全文查證 accessed 2026-07-29）：典型起源為 T9–T11，但可高至 T3、低至 L4；左側優勢約 77–91.5%。
 
 ## 考題
 ```dataview

@@ -1,32 +1,38 @@
 {
   "checked": false,
   "definition": "**男童行為退步＋腦後部對稱白質 T2 亮＋周邊強化——這是 X-ALD 的三件套。** 過氧化體病，VLCFA 堆積；白質病灶從頂枕（peritrigonal）向前推進，最先侵犯 splenium（胼胝體壓部）。三區帶記憶：中央壞死（T2 最亮）→ 中間活動性脫髓鞘（leading edge 強化）→ 前緣活動帶。鑑別：Alexander 額葉為主；Krabbe 後肢/錐體束及視放射；MS 不對稱且年長。",
-  "differentialDiagnosis": [
-    "**後部白質對稱＋胼胝體壓部受累＋活動性強化前緣** → **X-linked ALD** 的判讀指紋。",
-    "**PML**：免疫低下、不對稱、皮質下 U-fibre、通常**不強化**（除 IRIS）、無腎上腺關聯。",
-    "**其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。",
-    "**PRES（後部可逆性腦病）**：亦後部頂枕為主,但多為皮質下血管源性水腫、**可逆**、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。"
+  "differentialDiagnosis": [],
+  "externalLinks": [
+    {
+      "label": "10.1148/rg.253045118",
+      "url": "https://doi.org/10.1148/rg.253045118"
+    },
+    {
+      "label": "10.53347/rID-5266",
+      "url": "https://doi.org/10.53347/rID-5266"
+    }
   ],
-  "externalLinks": [],
-  "imagingFindings": "- **分布（核心判讀點）**：**頂枕（parieto-occipital）/peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號**,早期即累及**胼胝體壓部（splenium of corpus callosum）**,病灶經壓部跨中線連成對稱馬蹄/蝴蝶狀,典型由**後向前進展**。可沿下行/上行纖維束累及**視放射（visual）與聽放射（auditory pathway）**、皮質脊髓束（projection fibres）。\n- **三區帶（Schaumburg zones,由中央向外）**：\n  - **中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。\n  - **中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。\n  - **周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。\n- **強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。\n- **Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。",
+  "imagingFindings": "",
   "keyPoints": [
-    "**遺傳/代謝**：X-linked 過氧化體（peroxisomal）病,**ABCD1** 基因突變;**極長鏈脂肪酸（VLCFA）顯著升高**,於腎上腺、CNS 髓鞘、Leydig 細胞堆積。表型由重到輕：兒童腦型（CerALD）→ 成人 adrenomyeloneuropathy（AMN）→ Addison-only → 無症狀。",
-    "**典型族群**：兒童腦型多見於 **5–12 歲男童**,以行為/學業退步、視聽功能障礙起病;影像進展快、預後差。",
-    "**分布（核心判讀點）**：**頂枕（parieto-occipital）/peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號**,早期即累及**胼胝體壓部（splenium of corpus callosum）**,病灶經壓部跨中線連成對稱馬蹄/蝴蝶狀,典型由**後向前進展**。可沿下行/上行纖維束累及**視放射（visual）與聽放射（auditory pathway）**、皮質脊髓束（projection fibres）。",
-    "**三區帶（Schaumburg zones,由中央向外）**：",
-    "**中央帶**：不可逆膠質增生／壞死、髓鞘與軸突幾乎全失、無活動性過程 → **T2 最高、T1 最低**;**DWI 低訊號（diffusional anisotropy 完全喪失）**。",
-    "**中間帶（活動性發炎脫髓鞘）**：大量含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞與**血管周淋巴球浸潤** → **gadolinium 強化帶（enhancing leading edge）**;**DWI 中度高訊號＋ADC 偏低（restricted diffusion,源自髓鞘水腫與高細胞密度）**。",
-    "**周邊帶（prelesional／前緣活動脫髓鞘）**：軸突保留、髓鞘破壞、散在活化吞噬細胞與星狀細胞 → **DWI 微高訊號（部分為 T2 shine-through）**;此即影像所見的最外側活動前緣。",
-    "**強化＝活動性**：post-contrast 強化代表血腦屏障破壞與活躍發炎,對應組織學活動性脫髓鞘帶,**可預測病灶進展**;系列研究中初診有強化者約 86% 後續進展。",
-    "**Loes score（嚴重度量化）**：腦 MRI 評分系統,**最高 34 分**,評估白質受累位置／範圍＋局部或瀰漫性腦萎縮（含頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹）。一般 **≤4 為輕、5–10 中、>10 重**;臨床用於 **HSCT（造血幹細胞移植）時機與預後**判斷——**Loes <9（近年趨向 ≤4）且早期介入者**存活與神經預後較佳。",
-    "**臨床**：多在 **20–30 歲**起病,進行性**痙攣性下肢輕癱（spastic paraparesis）**、後柱本體覺障礙、周邊神經病變、括約肌障礙;常合併**腎上腺功能不全**。",
-    "**影像**：病變主場在**脊髓**——胸（及腰、頸）段**皮質脊髓束與後柱（dorsal columns）**長束退化,造成**脊髓瀰漫性萎縮、AP 徑變窄、外觀扁平**;腦白質可正常或輕微受累（與兒童腦型相反）。",
-    "**原發性腎上腺功能不全（PAI）**見於約 **70% 的 ALD/AMN 男性**(女性帶因者約 5%);VLCFA 堆積以腎上腺最顯著,X-ALD 可**先以 Addison's disease 表現**。判讀腦白質失養合併不明原因腎上腺功能不全的男童／青年,應將 X-ALD 列入首位。",
-    "**後部白質對稱＋胼胝體壓部受累＋活動性強化前緣** → **X-linked ALD** 的判讀指紋。",
-    "**PML**：免疫低下、不對稱、皮質下 U-fibre、通常**不強化**（除 IRIS）、無腎上腺關聯。",
-    "**其他 leukodystrophy**：**Krabbe** 與 **MLD（metachromatic）**多為**瀰漫或後肢／錐體束、可累及視放射**,典型**早期額部受累**者見 **Alexander**;ALD 以後部對稱＋壓部＋強化前緣區分。",
-    "**PRES（後部可逆性腦病）**：亦後部頂枕為主,但多為皮質下血管源性水腫、**可逆**、有高血壓／免疫抑制劑等誘因,通常不沿壓部呈進展性強化前緣。",
-    "10 歲男童、行為/學業退步、雙側 peritrigonal 對稱 T2 高＋邊緣強化 → **X-linked ALD**（2016-185 正解 A）;鑑別 Alexander（額葉為主）、Krabbe（後肢/錐體束、視放射）、MS（不對稱、年長）。"
+    "**遺傳/代謝**：X-linked peroxisomal disease，由 ABCD1 突變造成；VLCFA 顯著升高並堆積於腎上腺、CNS 髓鞘與 Leydig 細胞。表型由重到輕為 CerALD → AMN → Addison-only → 無症狀。",
+    "**兒童腦型**：多見於 5–12 歲男童，以行為／學業退步與視聽功能障礙起病；影像進展快、預後差。Childhood cerebral 型最重且快速退化，腦 MRI 是初診、追蹤及鑑別的主軸。",
+    "**核心分布**：頂枕／peritrigonal 深部白質對稱 T2/FLAIR 高訊號、T1 低訊號，早期累及 splenium，經壓部跨中線呈對稱馬蹄／蝴蝶狀並由後向前進展；可沿下行/上行纖維束累及視放射（visual）、聽放射（auditory pathway）與皮質脊髓束（projection fibres）。",
+    "**三區帶**：Schaumburg zones 由中央向外依序為中央帶、中間帶、周邊帶。",
+    "**中央帶**：不可逆膠質增生／壞死，髓鞘與軸突幾乎全失且無活動性過程；T2 最高、T1 最低，DWI 低訊號，代表 diffusional anisotropy 完全喪失。",
+    "**中間帶**：活動性發炎脫髓鞘，含脂巨噬細胞、脫髓鞘軸突、反應性星狀細胞及血管周淋巴球浸潤，呈 gadolinium enhancing leading edge。",
+    "**中間帶擴散**：DWI 中度高訊號、ADC 偏低，restricted diffusion 源自髓鞘水腫與高細胞密度。",
+    "**周邊帶**：prelesional／前緣活動脫髓鞘，軸突保留、髓鞘破壞並有散在活化吞噬細胞與星狀細胞；DWI 微高訊號，部分為 T2 shine-through。",
+    "**周邊帶意義**：是影像所見的最外側活動前緣。",
+    "**活動性強化**：post-contrast 強化代表 BBB 破壞及活躍發炎，對應活動性脫髓鞘帶並可預測進展；初診有強化者約 86% 後續進展。周邊 gadolinium leading edge 位於已脫髓鞘中央帶與正常白質之間。",
+    "**Loes score**：腦 MRI 評分最高 34 分，評估白質受累位置／範圍與局部或瀰漫性腦萎縮，包括頂枕、額顳、胼胝體、視聽傳導路、投射纖維、基底節、小腦、腦幹。",
+    "**Loes 分級/HSCT**：≤4 輕、5–10 中、>10 重；用於 HSCT 時機與預後判斷，Loes <9（近年趨向 ≤4）且早期介入者存活與神經預後較佳。",
+    "**AMN 臨床**：多於 20–30 歲起病，呈進行性 spastic paraparesis、後柱本體覺障礙、周邊神經病變與括約肌障礙，常合併腎上腺功能不全。",
+    "**AMN 影像**：以脊髓病變為主；胸段及腰、頸段 CST 與 dorsal columns 長束退化，造成脊髓瀰漫性萎縮、AP 徑變窄及外觀扁平；腦白質可正常或僅輕微受累，與兒童腦型相反。",
+    "**腎上腺**：PAI 見於約 70% 的 ALD/AMN 男性，女性帶因者約 5%；VLCFA 以腎上腺堆積最顯著，X-ALD 可先以 Addison's disease 表現。男童／青年若腦白質失養合併不明原因腎上腺功能不全，應優先考慮 X-ALD。",
+    "**鑑別指紋**：後部白質對稱＋胼胝體壓部受累＋活動性強化前緣，提示 X-linked ALD。",
+    "**其他 leukodystrophy**：Krabbe 與 MLD（metachromatic）多為瀰漫或後肢／錐體束受累，並可累及視放射；Alexander 典型為早期額部受累。ALD 以後部對稱＋壓部＋強化前緣區分。",
+    "**本題**：10 歲男童、行為／學業退步、雙側 peritrigonal 對稱 T2 高訊號＋邊緣強化，診斷 X-linked ALD（2016-185 正解 A）；鑑別為 Alexander（額葉為主）、Krabbe（後肢／錐體束、視放射）與 MS（不對稱、年長）。",
+    "**考點**：男童、後部（頂枕／splenium）對稱白質 T2 高訊號＋周邊 leading edge 強化，提示 X-linked adrenoleukodystrophy。"
   ],
   "management": "",
   "name": "X-linked Adrenoleukodystrophy",

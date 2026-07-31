@@ -1,0 +1,912 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "batch-03-pattern",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "brain-tumor-imaging",
+      "path": "vault/concepts/brain-tumor-imaging.md",
+      "type": "pattern-ddx",
+      "originalSha256": "1469181203fdd066b27fea6083e08016e080eda89dacb5a7b01a17a3868a6712",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **Pilocytic astrocytoma**：好發**小腦**（兒童），囊＋強化壁結節。[^1]\n- **Pleomorphic xanthoastrocytoma (PXA)**：幾乎只見**年輕成人**，顳葉皮質、常鄰腦膜（dural tail）。[^1]\n- **Ganglioglioma**：**皮質腫瘤，最常見於顳葉（~70%）**，非深部半球；兒童/年輕成人癲癇。[^1]\n- **瀰漫浸潤型星細胞瘤**：具**惡性進展的內在傾向**。[^1]\n\n> [!note] 考點：關於腦腫瘤,何者「不正確」?\n> 「**Ganglioglioma 最常見於深部半球**」不正確——為**皮質腫瘤、最常見顳葉(~70%)**。pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "brain-tumor-imaging-f01",
+          "text": "Pilocytic astrocytoma：好發小腦（兒童），囊＋強化壁結節。",
+          "sourceStatement": "- **Pilocytic astrocytoma**：好發**小腦**（兒童），囊＋強化壁結節。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f02",
+          "text": "Pleomorphic xanthoastrocytoma (PXA)：幾乎只見年輕成人，顳葉皮質、常鄰腦膜（dural tail）。",
+          "sourceStatement": "- **Pleomorphic xanthoastrocytoma (PXA)**：幾乎只見**年輕成人**，顳葉皮質、常鄰腦膜（dural tail）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f03",
+          "text": "Ganglioglioma：皮質腫瘤，最常見於顳葉（~70%），非深部半球；",
+          "sourceStatement": "- **Ganglioglioma**：**皮質腫瘤，最常見於顳葉（~70%）**，非深部半球；兒童/年輕成人癲癇。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f04",
+          "text": "兒童/年輕成人癲癇。",
+          "sourceStatement": "- **Ganglioglioma**：**皮質腫瘤，最常見於顳葉（~70%）**，非深部半球；兒童/年輕成人癲癇。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f05",
+          "text": "瀰漫浸潤型星細胞瘤：具惡性進展的內在傾向。",
+          "sourceStatement": "- **瀰漫浸潤型星細胞瘤**：具**惡性進展的內在傾向**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f06",
+          "text": "「Ganglioglioma 最常見於深部半球」不正確——為皮質腫瘤、最常見顳葉(~70%)。",
+          "sourceStatement": "> 「**Ganglioglioma 最常見於深部半球**」不正確——為**皮質腫瘤、最常見顳葉(~70%)**。pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-tumor-imaging-f07",
+          "text": "pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。",
+          "sourceStatement": "> 「**Ganglioglioma 最常見於深部半球**」不正確——為**皮質腫瘤、最常見顳葉(~70%)**。pilocytic→小腦、PXA→年輕成人、瀰漫浸潤型有惡性進展傾向皆正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cerebral-infarction-fogging",
+      "path": "vault/concepts/cerebral-infarction-fogging.md",
+      "type": "pattern-ddx",
+      "originalSha256": "73e2d83c0192f53329f0d8566a3b1c708e1b8e27b2044e7cab66d2dc37e3c26b",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **定義**：Fogging phenomenon見於腦梗塞平掃CT，代表梗塞演變過程中的暫時性階段——皮質梗塞區域恢復至接近正常密度（外觀）。[^1]\n- **好發時間**：梗塞後**2至3週**（MRI T2序列則約6至36天，中位數10天），此時皮質恢復至接近正常密度，可能導致誤判或漏診。[^1]\n- **發生率**：約見於**50%病例**。[^1]\n- **判讀對策**：若有疑慮，**靜脈注射對比劑**可界定出真正的梗塞範圍。[^1]\n- **本質**：反映**梗塞後第二週左右，MR上T2訊號損失或CT上低密度暫時消失**的現象，並非發生於梗塞後24小時內的診斷困難、也非再灌流後的瀰漫性實質強化、亦非慢性梗塞期的表現。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "cerebral-infarction-fogging-f01",
+          "text": "定義：Fogging phenomenon見於腦梗塞平掃CT，代表梗塞演變過程中的暫時性階段——皮質梗塞區域恢復至接近正常密度（外觀）。",
+          "sourceStatement": "- **定義**：Fogging phenomenon見於腦梗塞平掃CT，代表梗塞演變過程中的暫時性階段——皮質梗塞區域恢復至接近正常密度（外觀）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-infarction-fogging-f02",
+          "text": "好發時間：梗塞後2至3週（MRI T2序列則約6至36天，中位數10天），此時皮質恢復至接近正常密度，可能導致誤判或漏診。",
+          "sourceStatement": "- **好發時間**：梗塞後**2至3週**（MRI T2序列則約6至36天，中位數10天），此時皮質恢復至接近正常密度，可能導致誤判或漏診。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-infarction-fogging-f03",
+          "text": "發生率：約見於50%病例。",
+          "sourceStatement": "- **發生率**：約見於**50%病例**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-infarction-fogging-f04",
+          "text": "判讀對策：若有疑慮，靜脈注射對比劑可界定出真正的梗塞範圍。",
+          "sourceStatement": "- **判讀對策**：若有疑慮，**靜脈注射對比劑**可界定出真正的梗塞範圍。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-infarction-fogging-f05",
+          "text": "本質：反映梗塞後第二週左右，MR上T2訊號損失或CT上低密度暫時消失的現象，並非發生於梗塞後24小時內的診斷困難、也非再灌流後的瀰漫性實質強化、亦非慢性梗塞期的表現。",
+          "sourceStatement": "- **本質**：反映**梗塞後第二週左右，MR上T2訊號損失或CT上低密度暫時消失**的現象，並非發生於梗塞後24小時內的診斷困難、也非再灌流後的瀰漫性實質強化、亦非慢性梗塞期的表現。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cerebral-microbleeds",
+      "path": "vault/concepts/cerebral-microbleeds.md",
+      "type": "pattern-ddx",
+      "originalSha256": "c4333658d946d97f65f0dc4661fd9705517f0742dfd64ec296f3f2947da3b954",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：小灶慢性腦內出血（hemosiderin），常僅在**磁化率序列（T2\\* GRE、SWI，SWI 更敏感）**上以低訊號 blooming 呈現。[^1][^2][^3]\n- **常見病因（分佈導向）**：[^1][^2][^3]\n  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。\n  - **慢性高血壓**：**基底核、視丘、腦幹、小腦（深部）**；較年輕（<65）、常與 CAA 並存。\n  - **DAI（外傷）**：灰白質交界、胼胝體、深部白質、腦幹。\n  - **Cavernous malformation（Zabramski IV）**：隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。\n- **其他**：**缺血中風伴微出血（見於 10–15% 急性缺血中風）**、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）。[^3]\n- **非病因**：**NF1 不屬於**（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "cerebral-microbleeds-f01",
+          "text": "本質：小灶慢性腦內出血（hemosiderin），常僅在磁化率序列（T2\\* GRE、SWI，SWI 更敏感）上以低訊號 blooming 呈現。",
+          "sourceStatement": "- **本質**：小灶慢性腦內出血（hemosiderin），常僅在**磁化率序列（T2\\* GRE、SWI，SWI 更敏感）**上以低訊號 blooming 呈現。[^1][^2][^3]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f02",
+          "text": "常見病因（分佈導向）：",
+          "sourceStatement": "- **常見病因（分佈導向）**：[^1][^2][^3]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f03",
+          "text": "CAA：皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部；",
+          "sourceStatement": "  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f04",
+          "text": "伴 cortical superficial siderosis、lobar ICH；",
+          "sourceStatement": "  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f05",
+          "text": "正常血壓失智老人。",
+          "sourceStatement": "  - **CAA**：**皮質-皮質下交界（lobar）、頂枕葉最常見、spares 深部**；伴 **cortical superficial siderosis**、lobar ICH；正常血壓失智老人。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f06",
+          "text": "慢性高血壓：基底核、視丘、腦幹、小腦（深部）；",
+          "sourceStatement": "  - **慢性高血壓**：**基底核、視丘、腦幹、小腦（深部）**；較年輕（<65）、常與 CAA 並存。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f07",
+          "text": "較年輕（<65）、常與 CAA 並存。",
+          "sourceStatement": "  - **慢性高血壓**：**基底核、視丘、腦幹、小腦（深部）**；較年輕（<65）、常與 CAA 並存。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f08",
+          "text": "DAI（外傷）：灰白質交界、胼胝體、深部白質、腦幹。",
+          "sourceStatement": "  - **DAI（外傷）**：灰白質交界、胼胝體、深部白質、腦幹。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f09",
+          "text": "Cavernous malformation（Zabramski IV）：隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。",
+          "sourceStatement": "  - **Cavernous malformation（Zabramski IV）**：隱匿性海綿狀血管瘤黑點（找 locules/fluid-fluid、CT 常鈣化緻密）。",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f10",
+          "text": "其他：缺血中風伴微出血（見於 10–15% 急性缺血中風）、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）。",
+          "sourceStatement": "- **其他**：**缺血中風伴微出血（見於 10–15% 急性缺血中風）**、出血性微轉移（灰白交界，可強化/水腫）、CADASIL（多為非出血）、放射血管病變、血管炎、金屬微栓（人工瓣膜）、ARIA-H（抗類澱粉治療）、PRES（對稱、高血壓危象）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-microbleeds-f11",
+          "text": "非病因：NF1 不屬於（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。",
+          "sourceStatement": "- **非病因**：**NF1 不屬於**（NF1 腦部為 T2/FLAIR 高訊號 UBOs）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cerebrovascular-malformations",
+      "path": "vault/concepts/cerebrovascular-malformations.md",
+      "type": "pattern-ddx",
+      "originalSha256": "5a19d890855886093f4525cc9fff0a9748b7d92faa27947a151d1d7ef9d0f280",
+      "summaryHeadings": [],
+      "originalSummary": "",
+      "factUnits": []
+    },
+    {
+      "slug": "chemical-shift-artifact",
+      "path": "vault/concepts/chemical-shift-artifact.md",
+      "type": "pattern-ddx",
+      "originalSha256": "31ebc729f179b3ad4191edf6591f4c305546a205be550413335cf96bcfcdc3f4",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2][^3]\n\n### 第一型（misregistration，空間位移）\n- **影像長相**：沿**頻率編碼方向**，脂水介面一側出現**黑帶**、相對側出現**白帶**（black/white boundary，黑白成對）；這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。[^2][^3]\n- **位移幅度**：以接收頻寬／像素換算——例如頻寬 32 kHz、矩陣 256 時每像素約 125 Hz，220 Hz 約位移 **1.8 像素**。[^2]\n- **加重因子**：**高場強**（頻率差絕對值變大）與**低接收頻寬**（每像素 Hz 變小、位移像素數變多）會使黑白帶更明顯；故調**寬接收頻寬**或降場強可減輕。[^2][^3]\n- **判讀利用**：脂肪介面的黑白帶可標示**腎、腎上腺、後腹腔脂肪**等含大量脂肪結構的邊界，協助定位；亦見於各序列（自旋迴訊為主），常不明顯。[^1][^3]\n\n### 第二型（India ink / boundary artifact，邊界勾邊）\n- **影像長相**：**反相位(opposed-phase)** 梯度迴訊上，沿**含水脂介面的 voxel** 出現**對稱的黑線勾邊**，**完整環繞器官各邊**（不限頻率編碼方向）。[^3][^4]\n- **成因**：邊界 voxel 內同時含脂與水，在反相位 TE 時兩者相位相反、訊號相消為零 → 黑線。**與脂肪『量』無關**，只看介面 voxel 是否脂水並存，故各方向皆對稱勾邊。[^4][^5]\n- **判讀利用**：用以**辨識器官邊界**，並可作為「此為反相位影像」的內部確認；回到 in-phase TE 即消失。[^3][^5]\n- **與第一型區分**：第一型只沿頻率編碼軸、黑白成對；第二型各邊對稱黑線、僅反相位出現。[^4][^5]\n\n### in/opposed-phase 訊號掉落（與第二型須區分的概念）\n- 用於偵測 **voxel 內微觀脂肪（intracytoplasmic / microscopic fat）**：**腎上腺腺瘤、脂肪肝、含脂病灶**在反相位**整體訊號下降**（signal drop），這是「同一 voxel 內脂水並存而相消」的**訊號強度下降**，**不是第二型的邊緣勾邊**——兩者機制相關但表現須分清：一個是病灶內部均勻變暗、一個是介面黑線。[^1][^2]\n- **判讀陷阱**：小腺瘤受周邊脂肪 partial volume 影響、訊號掉落可能很**輕微**；應**早採反相位 TE** 以減少 T2* 效應假性訊號損失（含鐵血黃素沈積反而在 in-phase 較暗，見下）。[^2]\n\n### 判讀陷阱（共通）\n- **黑白帶／勾邊勿誤為病灶或鈣化**：第一型黑帶、第二型 India ink 黑線都是偽影，不可當作真實低訊號病灶或邊緣鈣化。[^3][^4]\n- **與其他黑線偽影區分**：第二型黑線屬脂水相消，與磁感受性(susceptibility)黑線、流動／截斷偽影不同；定位於脂水介面且僅反相位出現是辨識關鍵。[^3][^5]\n- **可調參數減輕第一型**：加寬接收頻寬、降低場強、或改變頻率編碼方向。[^2][^3]\n\n- **純脂肪區在反相位『不會』完全失訊號**——抵消需脂＋水並存；故「純脂肪在 out-of-phase 完全失去強度」**錯誤**（2016-092 正解 B）。[^1]\n- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]\n- **Dixon 技術陷阱**：以 Dixon 法做脂肪抑制時，因相位誤差可能造成**局部脂水訊號互換（fat-water swap）**，或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；現代三點法 Dixon 已可大幅改善此問題。[^3]\n- **Hemosiderosis**：肝脾在 out-of-phase 反而較亮（in-phase TE 較長、T2* 效應使 in-phase 變暗）。[^1]\n\n> [!note] 考點：何者「為非」？\n> 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "chemical-shift-artifact-f01",
+          "text": "物理根源：脂肪與水的質子共振頻率差約 3.5 ppm；",
+          "sourceStatement": "- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f02",
+          "text": "此頻率差與磁場強度成正比，1.5T 約 225 Hz、3T 約 450 Hz，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。",
+          "sourceStatement": "- **物理根源**：脂肪與水的質子共振頻率差約 **3.5 ppm**；此頻率差與磁場強度成正比，**1.5T 約 225 Hz、3T 約 450 Hz**，這個差異同時驅動兩型偽影與 in/opposed-phase 成像。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f03",
+          "text": "影像長相：沿頻率編碼方向，脂水介面一側出現黑帶、相對側出現白帶（black/white boundary，黑白成對）；",
+          "sourceStatement": "- **影像長相**：沿**頻率編碼方向**，脂水介面一側出現**黑帶**、相對側出現**白帶**（black/white boundary，黑白成對）；這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f04",
+          "text": "這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。",
+          "sourceStatement": "- **影像長相**：沿**頻率編碼方向**，脂水介面一側出現**黑帶**、相對側出現**白帶**（black/white boundary，黑白成對）；這是脂肪訊號在頻率編碼軸上被「錯誤定位」、與水訊號重疊或分離造成。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f05",
+          "text": "位移幅度：以接收頻寬／像素換算——例如頻寬 32 kHz、矩陣 256 時每像素約 125 Hz，220 Hz 約位移 1.8 像素。",
+          "sourceStatement": "- **位移幅度**：以接收頻寬／像素換算——例如頻寬 32 kHz、矩陣 256 時每像素約 125 Hz，220 Hz 約位移 **1.8 像素**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f06",
+          "text": "加重因子：高場強（頻率差絕對值變大）與低接收頻寬（每像素 Hz 變小、位移像素數變多）會使黑白帶更明顯；",
+          "sourceStatement": "- **加重因子**：**高場強**（頻率差絕對值變大）與**低接收頻寬**（每像素 Hz 變小、位移像素數變多）會使黑白帶更明顯；故調**寬接收頻寬**或降場強可減輕。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f07",
+          "text": "故調寬接收頻寬或降場強可減輕。",
+          "sourceStatement": "- **加重因子**：**高場強**（頻率差絕對值變大）與**低接收頻寬**（每像素 Hz 變小、位移像素數變多）會使黑白帶更明顯；故調**寬接收頻寬**或降場強可減輕。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f08",
+          "text": "判讀利用：脂肪介面的黑白帶可標示腎、腎上腺、後腹腔脂肪等含大量脂肪結構的邊界，協助定位；",
+          "sourceStatement": "- **判讀利用**：脂肪介面的黑白帶可標示**腎、腎上腺、後腹腔脂肪**等含大量脂肪結構的邊界，協助定位；亦見於各序列（自旋迴訊為主），常不明顯。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f09",
+          "text": "亦見於各序列（自旋迴訊為主），常不明顯。",
+          "sourceStatement": "- **判讀利用**：脂肪介面的黑白帶可標示**腎、腎上腺、後腹腔脂肪**等含大量脂肪結構的邊界，協助定位；亦見於各序列（自旋迴訊為主），常不明顯。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f10",
+          "text": "影像長相：反相位(opposed-phase) 梯度迴訊上，沿含水脂介面的 voxel 出現對稱的黑線勾邊，完整環繞器官各邊（不限頻率編碼方向）。",
+          "sourceStatement": "- **影像長相**：**反相位(opposed-phase)** 梯度迴訊上，沿**含水脂介面的 voxel** 出現**對稱的黑線勾邊**，**完整環繞器官各邊**（不限頻率編碼方向）。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f11",
+          "text": "成因：邊界 voxel 內同時含脂與水，在反相位 TE 時兩者相位相反、訊號相消為零 → 黑線。",
+          "sourceStatement": "- **成因**：邊界 voxel 內同時含脂與水，在反相位 TE 時兩者相位相反、訊號相消為零 → 黑線。**與脂肪『量』無關**，只看介面 voxel 是否脂水並存，故各方向皆對稱勾邊。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f12",
+          "text": "與脂肪『量』無關，只看介面 voxel 是否脂水並存，故各方向皆對稱勾邊。",
+          "sourceStatement": "- **成因**：邊界 voxel 內同時含脂與水，在反相位 TE 時兩者相位相反、訊號相消為零 → 黑線。**與脂肪『量』無關**，只看介面 voxel 是否脂水並存，故各方向皆對稱勾邊。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f13",
+          "text": "判讀利用：用以辨識器官邊界，並可作為「此為反相位影像」的內部確認；",
+          "sourceStatement": "- **判讀利用**：用以**辨識器官邊界**，並可作為「此為反相位影像」的內部確認；回到 in-phase TE 即消失。[^3][^5]",
+          "sourceRefs": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f14",
+          "text": "回到 in-phase TE 即消失。",
+          "sourceStatement": "- **判讀利用**：用以**辨識器官邊界**，並可作為「此為反相位影像」的內部確認；回到 in-phase TE 即消失。[^3][^5]",
+          "sourceRefs": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f15",
+          "text": "與第一型區分：第一型只沿頻率編碼軸、黑白成對；",
+          "sourceStatement": "- **與第一型區分**：第一型只沿頻率編碼軸、黑白成對；第二型各邊對稱黑線、僅反相位出現。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f16",
+          "text": "第二型各邊對稱黑線、僅反相位出現。",
+          "sourceStatement": "- **與第一型區分**：第一型只沿頻率編碼軸、黑白成對；第二型各邊對稱黑線、僅反相位出現。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f17",
+          "text": "用於偵測 voxel 內微觀脂肪（intracytoplasmic / microscopic fat）：腎上腺腺瘤、脂肪肝、含脂病灶在反相位整體訊號下降（signal drop），這是「同一 voxel 內脂水並存而相消」的訊號強度下降，不是第二型的邊緣勾邊——兩者機制相關但表現須分清：一個是病灶內部均勻變暗、一個是介面黑線。",
+          "sourceStatement": "- 用於偵測 **voxel 內微觀脂肪（intracytoplasmic / microscopic fat）**：**腎上腺腺瘤、脂肪肝、含脂病灶**在反相位**整體訊號下降**（signal drop），這是「同一 voxel 內脂水並存而相消」的**訊號強度下降**，**不是第二型的邊緣勾邊**——兩者機制相關但表現須分清：一個是病灶內部均勻變暗、一個是介面黑線。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f18",
+          "text": "判讀陷阱：小腺瘤受周邊脂肪 partial volume 影響、訊號掉落可能很輕微；",
+          "sourceStatement": "- **判讀陷阱**：小腺瘤受周邊脂肪 partial volume 影響、訊號掉落可能很**輕微**；應**早採反相位 TE** 以減少 T2* 效應假性訊號損失（含鐵血黃素沈積反而在 in-phase 較暗，見下）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f19",
+          "text": "應早採反相位 TE 以減少 T2* 效應假性訊號損失（含鐵血黃素沈積反而在 in-phase 較暗，見下）。",
+          "sourceStatement": "- **判讀陷阱**：小腺瘤受周邊脂肪 partial volume 影響、訊號掉落可能很**輕微**；應**早採反相位 TE** 以減少 T2* 效應假性訊號損失（含鐵血黃素沈積反而在 in-phase 較暗，見下）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f20",
+          "text": "黑白帶／勾邊勿誤為病灶或鈣化：第一型黑帶、第二型 India ink 黑線都是偽影，不可當作真實低訊號病灶或邊緣鈣化。",
+          "sourceStatement": "- **黑白帶／勾邊勿誤為病灶或鈣化**：第一型黑帶、第二型 India ink 黑線都是偽影，不可當作真實低訊號病灶或邊緣鈣化。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f21",
+          "text": "與其他黑線偽影區分：第二型黑線屬脂水相消，與磁感受性(susceptibility)黑線、流動／截斷偽影不同；",
+          "sourceStatement": "- **與其他黑線偽影區分**：第二型黑線屬脂水相消，與磁感受性(susceptibility)黑線、流動／截斷偽影不同；定位於脂水介面且僅反相位出現是辨識關鍵。[^3][^5]",
+          "sourceRefs": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f22",
+          "text": "定位於脂水介面且僅反相位出現是辨識關鍵。",
+          "sourceStatement": "- **與其他黑線偽影區分**：第二型黑線屬脂水相消，與磁感受性(susceptibility)黑線、流動／截斷偽影不同；定位於脂水介面且僅反相位出現是辨識關鍵。[^3][^5]",
+          "sourceRefs": [
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f23",
+          "text": "可調參數減輕第一型：加寬接收頻寬、降低場強、或改變頻率編碼方向。",
+          "sourceStatement": "- **可調參數減輕第一型**：加寬接收頻寬、降低場強、或改變頻率編碼方向。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f24",
+          "text": "純脂肪區在反相位『不會』完全失訊號——抵消需脂＋水並存；",
+          "sourceStatement": "- **純脂肪區在反相位『不會』完全失訊號**——抵消需脂＋水並存；故「純脂肪在 out-of-phase 完全失去強度」**錯誤**（2016-092 正解 B）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f25",
+          "text": "故「純脂肪在 out-of-phase 完全失去強度」錯誤（2016-092 正解 B）。",
+          "sourceStatement": "- **純脂肪區在反相位『不會』完全失訊號**——抵消需脂＋水並存；故「純脂肪在 out-of-phase 完全失去強度」**錯誤**（2016-092 正解 B）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f26",
+          "text": "反向陷阱（同樣重要）：沒有反相位訊號掉落，不代表病灶不含脂肪——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。",
+          "sourceStatement": "- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f27",
+          "text": "須合併 fat-suppressed 與 non-fat-suppressed 影像才能完全排除脂肪，例：adrenal myelolipoma（含大量純脂肪，反相位可無訊號掉落）；",
+          "sourceStatement": "- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f28",
+          "text": "脊椎 Modic type 2 endplate change 或放療後脂肪性骨髓置換等以純脂肪為主的病灶亦同此陷阱。",
+          "sourceStatement": "- **反向陷阱（同樣重要）**：**沒有反相位訊號掉落，不代表病灶不含脂肪**——可能只是該 voxel 缺乏水而非缺乏脂肪（即純脂肪／gross fat）。**須合併 fat-suppressed 與 non-fat-suppressed 影像**才能完全排除脂肪，例：**adrenal myelolipoma**（含大量純脂肪，反相位可無訊號掉落）；脊椎 **Modic type 2 endplate change** 或**放療後脂肪性骨髓置換**等以純脂肪為主的病灶亦同此陷阱。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f29",
+          "text": "Dixon 技術陷阱：以 Dixon 法做脂肪抑制時，因相位誤差可能造成局部脂水訊號互換（fat-water swap），或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；",
+          "sourceStatement": "- **Dixon 技術陷阱**：以 Dixon 法做脂肪抑制時，因相位誤差可能造成**局部脂水訊號互換（fat-water swap）**，或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；現代三點法 Dixon 已可大幅改善此問題。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f30",
+          "text": "現代三點法 Dixon 已可大幅改善此問題。",
+          "sourceStatement": "- **Dixon 技術陷阱**：以 Dixon 法做脂肪抑制時，因相位誤差可能造成**局部脂水訊號互換（fat-water swap）**，或因渦電流造成脂肪滲入水訊號（反之亦然）的漸進式不良抑制；現代三點法 Dixon 已可大幅改善此問題。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f31",
+          "text": "Hemosiderosis：肝脾在 out-of-phase 反而較亮（in-phase TE 較長、T2* 效應使 in-phase 變暗）。",
+          "sourceStatement": "- **Hemosiderosis**：肝脾在 out-of-phase 反而較亮（in-phase TE 較長、T2* 效應使 in-phase 變暗）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f32",
+          "text": "「純脂肪區在 out-of-phase 完全失去強度」為非——抵消需脂＋水同一像素並存；",
+          "sourceStatement": "> 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f33",
+          "text": "純脂肪不抵消。",
+          "sourceStatement": "> 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "chemical-shift-artifact-f34",
+          "text": "其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。",
+          "sourceStatement": "> 「**純脂肪區在 out-of-phase 完全失去強度**」為非——抵消需**脂＋水同一像素**並存；純脂肪不抵消。其餘(type2 反相位、India ink 環繞、hemosiderosis out-of-phase 較亮)正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cns-opportunistic-infection",
+      "path": "vault/concepts/cns-opportunistic-infection.md",
+      "type": "pattern-ddx",
+      "originalSha256": "fa995cb436473c80d77be3b9d031d2b497e16c66bbe94488c15707dfd29a7c23",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **DWI 區分環狀強化病灶**：**化膿性膿瘍**中心膿液**擴散明顯受限（DWI 高、ADC 低）**;**壞死/囊變腫瘤**中心多**不受限**——故 DWI 為鑑別最佳序列(option A 正確)。[^1]\n- **CNS 黴菌病**：多為**免疫低下者的伺機性感染**(option B 正確)。[^1]\n- **弓蟲症（toxoplasmosis）**：**AIDS/免疫低下患者最常見的中樞神經伺機性感染**;典型多發環狀強化、好發基底節,「eccentric target sign」(option C 正確)。[^2]\n- 三者皆正確 → 故「何者正確」答 **D（以上皆正確）**（2016-184 正解 D）。\n\n> [!note] 考點\n> DWI 為環狀強化病灶鑑別最佳序列、CNS 黴菌多伺機性、**toxoplasmosis 為 AIDS 最常見 CNS 伺機感染** → 三者皆正確（答 D）。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "cns-opportunistic-infection-f01",
+          "text": "DWI 區分環狀強化病灶：化膿性膿瘍中心膿液擴散明顯受限（DWI 高、ADC 低）;",
+          "sourceStatement": "- **DWI 區分環狀強化病灶**：**化膿性膿瘍**中心膿液**擴散明顯受限（DWI 高、ADC 低）**;**壞死/囊變腫瘤**中心多**不受限**——故 DWI 為鑑別最佳序列(option A 正確)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cns-opportunistic-infection-f02",
+          "text": "壞死/囊變腫瘤中心多不受限——故 DWI 為鑑別最佳序列(option A 正確)。",
+          "sourceStatement": "- **DWI 區分環狀強化病灶**：**化膿性膿瘍**中心膿液**擴散明顯受限（DWI 高、ADC 低）**;**壞死/囊變腫瘤**中心多**不受限**——故 DWI 為鑑別最佳序列(option A 正確)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cns-opportunistic-infection-f03",
+          "text": "CNS 黴菌病：多為免疫低下者的伺機性感染(option B 正確)。",
+          "sourceStatement": "- **CNS 黴菌病**：多為**免疫低下者的伺機性感染**(option B 正確)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cns-opportunistic-infection-f04",
+          "text": "弓蟲症（toxoplasmosis）：AIDS/免疫低下患者最常見的中樞神經伺機性感染;",
+          "sourceStatement": "- **弓蟲症（toxoplasmosis）**：**AIDS/免疫低下患者最常見的中樞神經伺機性感染**;典型多發環狀強化、好發基底節,「eccentric target sign」(option C 正確)。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cns-opportunistic-infection-f05",
+          "text": "典型多發環狀強化、好發基底節,「eccentric target sign」(option C 正確)。",
+          "sourceStatement": "- **弓蟲症（toxoplasmosis）**：**AIDS/免疫低下患者最常見的中樞神經伺機性感染**;典型多發環狀強化、好發基底節,「eccentric target sign」(option C 正確)。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cns-opportunistic-infection-f06",
+          "text": "三者皆正確 → 故「何者正確」答 D（以上皆正確）（2016-184 正解 D）。",
+          "sourceStatement": "- 三者皆正確 → 故「何者正確」答 **D（以上皆正確）**（2016-184 正解 D）。",
+          "sourceRefs": []
+        },
+        {
+          "id": "cns-opportunistic-infection-f07",
+          "text": "DWI 為環狀強化病灶鑑別最佳序列、CNS 黴菌多伺機性、toxoplasmosis 為 AIDS 最常見 CNS 伺機感染 → 三者皆正確（答 D）。",
+          "sourceStatement": "> DWI 為環狀強化病灶鑑別最佳序列、CNS 黴菌多伺機性、**toxoplasmosis 為 AIDS 最常見 CNS 伺機感染** → 三者皆正確（答 D）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cranial-nerve-muscle-atrophy",
+      "path": "vault/concepts/cranial-nerve-muscle-atrophy.md",
+      "type": "pattern-ddx",
+      "originalSha256": "d8a236e3502cdae423a8e021b4271b857b648b35d4b34c3bc72c1d0bd3a5bc0c",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **前提**：去神經化萎縮需該神經含**運動纖維（LMN）**。[^1][^2]\n- **可致萎縮之運動顱神經**：**V（咀嚼肌，經 V3）、VII（表情肌）、IX（stylopharyngeus）、X（咽/喉、palatoglossus）、XI（SCM＋斜方肌）、XII（舌肌）**。[^2]\n- **不致萎縮（純感覺）**：**CN VIII（vestibulocochlear，聽覺＋平衡）**；另 I（嗅）、II（視）亦純感覺。[^1][^2]\n- **去神經影像時序（核心）**：**急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）**；去神經變化**不會自行消退、必進展至慢性**。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "cranial-nerve-muscle-atrophy-f01",
+          "text": "前提：去神經化萎縮需該神經含運動纖維（LMN）。",
+          "sourceStatement": "- **前提**：去神經化萎縮需該神經含**運動纖維（LMN）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f02",
+          "text": "可致萎縮之運動顱神經：V（咀嚼肌，經 V3）、VII（表情肌）、IX（stylopharyngeus）、X（咽/喉、palatoglossus）、XI（SCM＋斜方肌）、XII（舌肌）。",
+          "sourceStatement": "- **可致萎縮之運動顱神經**：**V（咀嚼肌，經 V3）、VII（表情肌）、IX（stylopharyngeus）、X（咽/喉、palatoglossus）、XI（SCM＋斜方肌）、XII（舌肌）**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f03",
+          "text": "不致萎縮（純感覺）：CN VIII（vestibulocochlear，聽覺＋平衡）；",
+          "sourceStatement": "- **不致萎縮（純感覺）**：**CN VIII（vestibulocochlear，聽覺＋平衡）**；另 I（嗅）、II（視）亦純感覺。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f04",
+          "text": "另 I（嗅）、II（視）亦純感覺。",
+          "sourceStatement": "- **不致萎縮（純感覺）**：**CN VIII（vestibulocochlear，聽覺＋平衡）**；另 I（嗅）、II（視）亦純感覺。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f05",
+          "text": "去神經影像時序（核心）：急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）；",
+          "sourceStatement": "- **去神經影像時序（核心）**：**急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）**；去神經變化**不會自行消退、必進展至慢性**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cranial-nerve-muscle-atrophy-f06",
+          "text": "去神經變化不會自行消退、必進展至慢性。",
+          "sourceStatement": "- **去神經影像時序（核心）**：**急性 <1 月（腫脹水腫、↑T2、變強化）→ 亞急性 1–20 月（脂肪置換、↑T1、↓強化）→ 慢性 >20 月（脂肪萎縮、無強化）**；去神經變化**不會自行消退、必進展至慢性**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "dural-based-masses-aids",
+      "path": "vault/concepts/dural-based-masses-aids.md",
+      "type": "pattern-ddx",
+      "originalSha256": "43d0d0133c7103d0f497fbfead8627769727c6a51e28a2e2514307198a5b6399",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **EBV相關平滑肌腫瘤(EBV-SMT)**：源自硬腦膜或腦血管之**間質細胞(mesenchymal cells)**，**EBV共感染為此類腫瘤發生之必要條件**，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]\n- **腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）**：\n  - **腫瘤性**：轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。\n  - **肉芽腫性**：結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。\n  - **淋巴增生性**：淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。\n  - **自體免疫性**：IgG4相關疾病。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "dural-based-masses-aids-f01",
+          "text": "EBV相關平滑肌腫瘤(EBV-SMT)：源自硬腦膜或腦血管之間質細胞(mesenchymal cells)，EBV共感染為此類腫瘤發生之必要條件，故常稱EBV-SMT；",
+          "sourceStatement": "- **EBV相關平滑肌腫瘤(EBV-SMT)**：源自硬腦膜或腦血管之**間質細胞(mesenchymal cells)**，**EBV共感染為此類腫瘤發生之必要條件**，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dural-based-masses-aids-f02",
+          "text": "為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。",
+          "sourceStatement": "- **EBV相關平滑肌腫瘤(EBV-SMT)**：源自硬腦膜或腦血管之**間質細胞(mesenchymal cells)**，**EBV共感染為此類腫瘤發生之必要條件**，故常稱EBV-SMT；為AIDS病人硬腦膜基底腫塊鑑別診斷中的特有項目，應與leiomyoma/leiomyosarcoma一併列入。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dural-based-masses-aids-f03",
+          "text": "腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）：",
+          "sourceStatement": "- **腦膜瘤(meningioma)之其他鑑別（Mass Lesions of the Dura綜述）**：",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "dural-based-masses-aids-f04",
+          "text": "腫瘤性：轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。",
+          "sourceStatement": "  - **腫瘤性**：轉移、孤立性纖維瘤、黑色素細胞腫瘤、膠質母細胞瘤、EBV相關平滑肌腫瘤。",
+          "sourceRefs": []
+        },
+        {
+          "id": "dural-based-masses-aids-f05",
+          "text": "肉芽腫性：結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。",
+          "sourceStatement": "  - **肉芽腫性**：結核病、多發血管炎性肉芽腫病(GPA)、類肉瘤病。",
+          "sourceRefs": []
+        },
+        {
+          "id": "dural-based-masses-aids-f06",
+          "text": "淋巴增生性：淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。",
+          "sourceStatement": "  - **淋巴增生性**：淋巴瘤、Rosai-Dorfman disease、Erdheim-Chester disease。",
+          "sourceRefs": []
+        },
+        {
+          "id": "dural-based-masses-aids-f07",
+          "text": "自體免疫性：IgG4相關疾病。",
+          "sourceStatement": "  - **自體免疫性**：IgG4相關疾病。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "facial-fracture-complications",
+      "path": "vault/concepts/facial-fracture-complications.md",
+      "type": "pattern-ddx",
+      "originalSha256": "f924b9aa549bbaa37d3166d0980c0012789eda33a0b7788a7cc4b196373c5c16",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **Superior orbital fissure syndrome (SOFS)**：[^1]\n  - 骨折延伸至 superior orbital fissure\n  - 損傷 CN III、IV、V1、VI\n  - 眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失\n- **Orbital apex syndrome**：[^1]\n  - 累及 orbital apex（包含 SOF + optic canal）\n  - 除 SOFS 的所有神經外，**再加上 optic nerve（CN II）**損傷 → 視力喪失\n  - 並非僅有 optic nerve 受傷（考試常見陷阱）\n- **Infraorbital nerve（V2）損傷**：[^1]\n  - 眶底/顴骨骨折（orbital blowout fracture）常見併發症\n  - 同側臉頰、上唇、鼻翼感覺減退\n- **Inferior alveolar nerve（V3）損傷**：[^1]\n  - 下頜骨折通過 mandibular canal\n  - 同側下巴與下唇麻木\n\n",
+      "factUnits": [
+        {
+          "id": "facial-fracture-complications-f01",
+          "text": "Superior orbital fissure syndrome (SOFS)：",
+          "sourceStatement": "- **Superior orbital fissure syndrome (SOFS)**：[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f02",
+          "text": "骨折延伸至 superior orbital fissure",
+          "sourceStatement": "  - 骨折延伸至 superior orbital fissure",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f03",
+          "text": "損傷 CN III、IV、V1、VI",
+          "sourceStatement": "  - 損傷 CN III、IV、V1、VI",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f04",
+          "text": "眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失",
+          "sourceStatement": "  - 眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f05",
+          "text": "Orbital apex syndrome：",
+          "sourceStatement": "- **Orbital apex syndrome**：[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f06",
+          "text": "累及 orbital apex（包含 SOF + optic canal）",
+          "sourceStatement": "  - 累及 orbital apex（包含 SOF + optic canal）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f07",
+          "text": "除 SOFS 的所有神經外，再加上 optic nerve（CN II）損傷 → 視力喪失",
+          "sourceStatement": "  - 除 SOFS 的所有神經外，**再加上 optic nerve（CN II）**損傷 → 視力喪失",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f08",
+          "text": "並非僅有 optic nerve 受傷（考試常見陷阱）",
+          "sourceStatement": "  - 並非僅有 optic nerve 受傷（考試常見陷阱）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f09",
+          "text": "Infraorbital nerve（V2）損傷：",
+          "sourceStatement": "- **Infraorbital nerve（V2）損傷**：[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f10",
+          "text": "眶底/顴骨骨折（orbital blowout fracture）常見併發症",
+          "sourceStatement": "  - 眶底/顴骨骨折（orbital blowout fracture）常見併發症",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f11",
+          "text": "同側臉頰、上唇、鼻翼感覺減退",
+          "sourceStatement": "  - 同側臉頰、上唇、鼻翼感覺減退",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f12",
+          "text": "Inferior alveolar nerve（V3）損傷：",
+          "sourceStatement": "- **Inferior alveolar nerve（V3）損傷**：[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f13",
+          "text": "下頜骨折通過 mandibular canal",
+          "sourceStatement": "  - 下頜骨折通過 mandibular canal",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "facial-fracture-complications-f14",
+          "text": "同側下巴與下唇麻木",
+          "sourceStatement": "  - 同側下巴與下唇麻木",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gbm-vs-pcnsl",
+      "path": "vault/concepts/gbm-vs-pcnsl.md",
+      "type": "pattern-ddx",
+      "originalSha256": "ddb316644e5746ac0f6f7616605028ba8d4d772da152c3c999f3fc56ecfe48d9",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **ADC value**：PCNSL < GBM（PCNSL cellularity 更高） [^1]\n- GBM 特有：更多 necrosis、更大 tumor size、irregular margin [^1]\n- GBM 發生率高於 PCNSL [^1]\n\n",
+      "factUnits": [
+        {
+          "id": "gbm-vs-pcnsl-f01",
+          "text": "ADC value：PCNSL < GBM（PCNSL cellularity 更高）",
+          "sourceStatement": "- **ADC value**：PCNSL < GBM（PCNSL cellularity 更高） [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-vs-pcnsl-f02",
+          "text": "GBM 特有：更多 necrosis、更大 tumor size、irregular margin",
+          "sourceStatement": "- GBM 特有：更多 necrosis、更大 tumor size、irregular margin [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-vs-pcnsl-f03",
+          "text": "GBM 發生率高於 PCNSL",
+          "sourceStatement": "- GBM 發生率高於 PCNSL [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

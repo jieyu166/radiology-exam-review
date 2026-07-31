@@ -6,13 +6,17 @@
     {
       "label": "10.1186/s12883-016-0672-6",
       "url": "https://doi.org/10.1186/s12883-016-0672-6"
+    },
+    {
+      "label": "10.1186/s12883-016-0672-6)，PMC5002331",
+      "url": "https://doi.org/10.1186/s12883-016-0672-6)，PMC5002331"
     }
   ],
   "imagingFindings": "- **兩標記一高一低**：舌 T1「亮」（bright tongue，去神經脂肪取代）+ 運動皮質 T2/SWI「暗」（motor band，鐵沉積）——助記。\n- **CST 徵象**：**T2/FLAIR 沿皮質脊髓束（corona radiata→internal capsule 後肢→腦幹）對稱高訊號**；DTI 見 FA 下降。\n- **影像角色（Grolez 系統性回顧）**：**ALS 臨床診斷為主（常規 MRI 主要用於排除 mimics）**；**傳統 MRI 徵象敏感度有限、最疾病敏感區在運動區但腦部受累更廣**；DTI/MRS/形態學/脊髓 MRI 為研究性 biomarker（尚需標準化與大型長期世代）。\n- **DDx（白質/CST 高訊號）**：ALD/MLD/PML 等白質病變、Wallerian degeneration、腎上腺白質失養等——bright tongue 為 ALS 較特異。\n- **判讀定位**：MRI 非 ALS 之確診工具（診斷靠臨床 + EMG/El Escorial/Awaji），影像價值在**排除結構性 mimics（頸椎病變/腫瘤）與支持上運動神經元受累**。",
   "keyPoints": [
-    "**Bright tongue sign**：**舌肌 T1 高訊號**——慢性去神經致脂肪取代;為 **ALS**（bulbar 侵犯）的標記。",
-    "**Motor band sign**：運動皮質（precentral gyrus）沿皮質的 **T2/SWI 低訊號**（小膠質鐵沉積）。",
-    "**皮質脊髓束（CST）T2/FLAIR 高訊號**（internal capsule 後肢最早），為上運動神經元變性之影像。"
+    "**Bright tongue sign**：舌肌 T1 高訊號，源自慢性去神經後脂肪取代，是 ALS bulbar 侵犯的標記。",
+    "**Motor band sign**：運動皮質（precentral gyrus）沿皮質 T2/SWI 低訊號，對應小膠質鐵沉積。",
+    "**皮質脊髓束**：CST T2/FLAIR 高訊號，internal capsule 後肢最早，為上運動神經元變性的影像表現。"
   ],
   "management": "1. **本質（Grolez）**：**ALS 為致命、快速進展之神經退化病，主犯運動系統**（上、下運動神經元）。\n2. **臨床評估**：目前療效評估以 **ALSFRS-R、運動測試與存活**為主——為晚期、變異大之指標，故需更敏感之影像 biomarker。\n3. **影像 biomarker 現況（Grolez，116 研究回顧）**：**最疾病敏感之 MRI 型態在運動區，但腦部受累更廣**；現有 biomarker 仍不足、需大型長期 MRI + 臨床追蹤與多中心標準化 protocol。\n4. **診斷**：ALS 為臨床 + 電生理診斷；MRI 主要排除 mimics（bright tongue/motor band 支持但非必要）。\n5. **序列**：SWI/T2*（motor band 鐵）、T2/FLAIR（CST）、T1（bright tongue）、DTI（CST FA）為評估重點。\n\n> [!note] 考點：MRI「bright tongue sign」是何病的診斷標記?\n> **ALS（amyotrophic lateral sclerosis）**——舌肌 T1 高訊號（慢性去神經/脂肪取代）。ALD、MLD、PML 為其他白質病變。\n\n**參考來源**\n: *Amyotrophic lateral sclerosis*. Radiopaedia.org（輔助來源；實際查證 accessed 2026-06-20）：**motor band sign＝precentral gyrus 雙側 SWI 低訊號（鐵沉積）**;**corticospinal tract T2 高訊號（internal capsule 最早）**;bulbar 侵犯可見 **bright tongue sign（舌肌 T1 高訊號、脂肪取代）**。另 Arq Neuropsiquiatr. 2014;72(7):572（官方 2017 詳解所引）。\n: **Tier 1** Grolez G, Moreau C, Danel-Brunaud V, et al. *The value of magnetic resonance imaging as a biomarker for amyotrophic lateral sclerosis: a systematic review*. BMC Neurol 2016;16(1):155（據 PubMed，DOI [10.1186/s12883-016-0672-6](https://doi.org/10.1186/s12883-016-0672-6)，PMC5002331；Systematic Review；實際查證 accessed 2026-07-04）——回顧 116 篇 MRI+臨床相關研究：**ALS 為致命快速進展之運動系統神經退化病；療效目前以 ALSFRS-R/運動測試/存活評估（晚期變異大）故需敏感影像 biomarker**；**最疾病敏感之 MRI 型態在運動區但腦部受累更廣**；傳統 MRI 主要排除 mimics、DTI/MRS/形態學/脊髓 MRI 為研究性 biomarker，仍需大型長期世代與多中心標準化 protocol——佐證 MRI 於 ALS 之角色（排除 mimics + 上運動神經元徵象、bright tongue/motor band/CST 高訊號）。原「官方/Radiopaedia」弱來源已由本次 BMC Neurol DOI Tier 1 查核升級。",
   "name": "Amyotrophic Lateral Sclerosis (ALS) Imaging Signs",

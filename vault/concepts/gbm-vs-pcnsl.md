@@ -12,9 +12,9 @@ dateRev: 2026-07-02
 **PCNSL 比 GBM 有更低的 ADC value（cellularity 更高）。GBM 特徵為更多壞死、更大腫瘤、不規則邊緣、發生率更高。當題目問「非 GBM 特徵」時，lower ADC 是 PCNSL 的特徵。**
 
 ## Summary
-- **ADC value**：PCNSL < GBM（PCNSL cellularity 更高） [^1]
-- GBM 特有：更多 necrosis、更大 tumor size、irregular margin [^1]
-- GBM 發生率高於 PCNSL [^1]
+- **ADC｜PCNSL vs GBM**：PCNSL < GBM（PCNSL cellularity 更高）。[^1]
+- **形態｜GBM**：GBM 特有：更多 necrosis、更大 tumor size、irregular margin。[^1]
+- **發生率**：GBM 發生率高於 PCNSL。[^1]
 
 ## 放射科醫師影像判讀重點
 - **DWI／ADC**：PCNSL 因細胞密度高（緊密堆疊之腫瘤細胞）呈明顯瀰散受限、ADC 值低於 GBM，為兩者最實用之鑑別線索。[^2]

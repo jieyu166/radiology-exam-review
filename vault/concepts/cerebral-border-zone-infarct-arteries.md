@@ -15,11 +15,17 @@ dateRev: 2026-07-03
 **內側（深部）分水嶺區位於 ACA/MCA/PCA 灌流交界，供血來自『穿通動脈（perforating arteries）』——lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 之穿通支——不含『superior hypophyseal artery』（供下視丘/漏斗，與大腦分水嶺無關）。** 判讀分水嶺：**external（cortical）分水嶺＝ACA-MCA/MCA-PCA 皮質交界（多微栓塞）；internal（deep）分水嶺＝腦室旁白質（corona radiata/centrum semiovale），由多穿通動脈供應、典型 hemodynamic（低血壓 + 頸動脈狹窄）、呈 string-of-pearls（≥3 病灶、每處 ≥3mm、線狀沿側腦室，可融合帶狀）。**
 
 ## Summary
-- **本質**：border zone（watershed）梗塞位於**血管領域交界**（離供血最遠、對灌流下降最敏感）；占腦梗塞 **5-10%**；好發老年 + 頸動脈狹窄 + 低血壓 + 微栓塞。[^1][^2]
-- **External（cortical）border zone**：**ACA-MCA、MCA-PCA 皮質交界**；楔形皮質/皮質下梗塞或 laminar necrosis；**多為微栓塞**（清除之微栓 + 側枝少）。[^1][^2]
-- **Internal（deep）border zone**：**corona radiata/centrum semiovale（腦室旁白質）**，介於淺層（皮質）MCA 穿通支與深穿通支之間；由**穿通動脈供應——lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 穿通支**；典型 **hemodynamic（低血壓 + 頸動脈嚴重狹窄）**、呈 **string-of-pearls sign**。[^1][^2]
-- **影像特徵（internal）**：**≥3 病灶、每處 ≥3mm、沿側腦室線狀排列**於 centrum semiovale/corona radiata，可融合呈**帶狀（band-like）**。[^1]
-- **非供應者**：**superior hypophyseal artery** 供下視丘/漏斗（垂體上部），**與大腦分水嶺區無關**。[^1]
+- **本質**：border zone（watershed）梗塞位於血管領域交界，離供血最遠且對灌流下降最敏感。[^1][^2]
+- **比例**：占腦梗塞 5-10%。[^1][^2]
+- **好發條件**：老年、頸動脈狹窄、低血壓與微栓塞。[^1][^2]
+- **External 部位**：位於 ACA-MCA、MCA-PCA 皮質交界。[^1][^2]
+- **External 影像**：楔形皮質/皮質下梗塞，亦可見 laminar necrosis。[^1][^2]
+- **External 機轉**：多為微栓塞，與清除之微栓及側枝少有關。[^1][^2]
+- **Internal 部位**：位於 corona radiata/centrum semiovale（腦室旁白質），介於淺層（皮質）MCA 穿通支與深穿通支之間。[^1][^2]
+- **Internal 供應**：lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 穿通支。[^1][^2]
+- **Internal 機轉**：典型為 hemodynamic（低血壓加頸動脈嚴重狹窄），呈 string-of-pearls sign。[^1][^2]
+- **Internal 影像門檻**：≥3 個病灶、每處 ≥3 mm，沿側腦室線狀排列於 centrum semiovale/corona radiata，可融合呈 band-like。[^1]
+- **非供應者**：superior hypophyseal artery 供應下視丘與漏斗（垂體上部），與大腦分水嶺區無關。[^1]
 
 ## 放射科醫師影像判讀重點
 - **內 vs 外**：internal＝深部白質 string-of-pearls（hemodynamic）；external＝皮質交界楔形（embolic）。[^2]

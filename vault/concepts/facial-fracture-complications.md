@@ -16,20 +16,10 @@ dateRev: 2026-07-03
 **顏面骨折可併發多種神經血管損傷：Superior orbital fissure syndrome（SOFS）為骨折延伸至上眶裂，損傷 CN III、IV、V1、VI；Orbital apex syndrome 則同時累及上眶裂及視神經管，損傷包含 optic nerve 在內的所有通過 orbital apex 的神經（CN II、III、IV、V1、VI）；眶底爆裂骨折常傷及 infraorbital nerve（V2）致同側臉頰感覺減退；下頜管骨折可傷及 inferior alveolar nerve（V3）致同側下巴麻木。**
 
 ## Summary
-- **Superior orbital fissure syndrome (SOFS)**：[^1]
-  - 骨折延伸至 superior orbital fissure
-  - 損傷 CN III、IV、V1、VI
-  - 眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失
-- **Orbital apex syndrome**：[^1]
-  - 累及 orbital apex（包含 SOF + optic canal）
-  - 除 SOFS 的所有神經外，**再加上 optic nerve（CN II）**損傷 → 視力喪失
-  - 並非僅有 optic nerve 受傷（考試常見陷阱）
-- **Infraorbital nerve（V2）損傷**：[^1]
-  - 眶底/顴骨骨折（orbital blowout fracture）常見併發症
-  - 同側臉頰、上唇、鼻翼感覺減退
-- **Inferior alveolar nerve（V3）損傷**：[^1]
-  - 下頜骨折通過 mandibular canal
-  - 同側下巴與下唇麻木
+- **SOFS｜裂隙、神經、症狀**：Superior orbital fissure syndrome (SOFS)：骨折延伸至 superior orbital fissure；損傷 CN III、IV、V1、VI；眼肌麻痺、上眼瞼下垂、瞳孔散大、前額感覺喪失。[^1]
+- **Orbital apex syndrome｜相較 SOFS**：Orbital apex syndrome：累及 orbital apex（包含 SOF + optic canal）；除 SOFS 的所有神經外，再加上 optic nerve（CN II）損傷 → 視力喪失；並非僅有 optic nerve 受傷（考試常見陷阱）。[^1]
+- **V2｜眶底／顴骨骨折**：Infraorbital nerve（V2）損傷：眶底/顴骨骨折（orbital blowout fracture）常見併發症；同側臉頰、上唇、鼻翼感覺減退。[^1]
+- **V3｜下頜骨折**：Inferior alveolar nerve（V3）損傷：下頜骨折通過 mandibular canal；同側下巴與下唇麻木。[^1]
 
 ## 放射科醫師影像判讀重點
 - **判讀主軸（本題核心）**：顏面骨折 CT 的重點不只在骨折線，而在**追蹤骨折是否延伸至神經血管通道**——上眶裂（SOF）、視神經管、眶底、眶下管、下頜管；累及範圍決定臨床症候群（SOFS vs orbital apex syndrome vs V2／V3 損傷）。[^1]

@@ -1,0 +1,1518 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "batch-01-anatomy",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2a/baselines/batch-01-anatomy.json",
+    "sha256": "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
+  },
+  "status": "needs-review",
+  "workflow": {
+    "sequence": 1,
+    "predecessor": null,
+    "implementer": "/root/phase2a_task2_2_impl",
+    "reviewer": "/root/phase2a_task2_3_review",
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "1ba97cdc318b16deaf60cc768dc4b7424f01759287c91e43c85bd6c1601b0b64"
+  },
+  "notes": [
+    {
+      "slug": "ajcc-8th-head-neck-n-staging",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **版本變革**：第 8 版首次將 ENE 納入 N 分期（第 7 版無）。[^1][^3]\n- **ENE 適用**：ENE 為 non-HPV（p16−）SCC 的 N 分期決定因子；nodal 分期綜合位置、數目、大小、側別與 ENE。[^1][^3]\n- **cN3b**：任何淋巴結轉移合併臨床明顯 ENE，不論大小或側別。[^1][^3]\n- **臨床 vs 病理**：≤3 cm 節合併 ENE 時，臨床為 cN3b、病理為 pN2a。[^2][^3]\n- **部位例外**：HPV(+) 口咽、鼻咽、甲狀腺癌另有獨立 N 分期系統，並非同樣使用 ENE。[^3]\n\n",
+      "facts": [
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f01",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f02",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f03",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f04",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f05",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "ajcc-8th-head-neck-n-staging-f06",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2020 詳解（題目所引，AJCC Cancer Staging Manual, 8th edition；accessed 2026-07-03）——N3b＝任何淋巴結轉移合併臨床明顯 ENE(+)、不論大小/側別；ENE 為第 8 版新增分期概念。與 [^3] STATdx 一致。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "**Tier 1** Stambuk HE. *Nodal Squamous Cell Carcinoma*（Head and Neck, Dx）. STATdx, Elsevier, updated 08/27/25（85 refs；實際查證 accessed 2026-07-03）——惡性淋巴結判準併用（大小 I/IIA≥15、IIB–VI≥10、RPN≥8mm 誤差 10–20%；圓形長短軸<2、成簇≥3 顆 8–9mm、局部壞死、ENE；>3cm 融合找 ENE）；**iENE 分級（1 結周脂肪/2 融合/3 器官侵犯、取最高級）**；**ENE 為 non-HPV SCC 之 N 分期決定因子、HPV+ 口咽/鼻咽/甲狀腺另計**；分區 I–VII 與引流（下咽 II/III>IV、RPN）、level VII 區域其餘縱膈 M1；不可切除（頸動脈≥270°、prevertebral、skull base、dermal lymphatics）；模態 CECT/MR（CT 略優 iENE、MR 優 RPN）、US hilar 消失、PET~75%（cystic 偽陰）、DWI 勿用；DDx（反應性/鰓裂囊腫/化膿/甲狀腺癌/NHL/非頭頸 Virchow）；unknown primary 四部位（鼻咽 Rosenmüller/palatine tonsil/lingual tonsil/pyriform apex）；淋巴結轉移為最重要預後因子、level IIA 最常、NPCa~85%/聲門<10%；頸廓清分型。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Cervical lymph node (staging)*. Radiopaedia.org, rID-6621, DOI 10.53347/rID-6621（輔助來源）——反映 AJCC 第 8 版（2018-01-01）；nodal 分期依位置/數目/大小/ENE；臨床明顯 ENE 於 ≤3 cm 節＝cN3b、病理 ENE 同大小節＝pN2a；HPV(+) 口咽另有系統。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 6,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**版本變革**：第 8 版首次將 ENE 納入 N 分期（第 7 版無）。",
+        "**ENE 適用**：ENE 為 non-HPV（p16−）SCC 的 N 分期決定因子；nodal 分期綜合位置、數目、大小、側別與 ENE。",
+        "**cN3b**：任何淋巴結轉移合併臨床明顯 ENE，不論大小或側別。",
+        "**臨床 vs 病理**：≤3 cm 節合併 ENE 時，臨床為 cN3b、病理為 pN2a。",
+        "**部位例外**：HPV(+) 口咽、鼻咽、甲狀腺癌另有獨立 N 分期系統，並非同樣使用 ENE。"
+      ],
+      "coverageEvidenceSha256": "1f3c099921af2077a185382a8c301ae7aad04f52ceba7a87a88ef1753ffa1052"
+    },
+    {
+      "slug": "aneurysm-coiling-recurrence",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **復發相關軸**：volume/size（動脈瘤越大越易復發）、packing density（VER，栓塞密度）、usage of stent（是否輔助支架）與 location（位置）皆相關。[^1][^2]\n- **Huang 2017 風險因子**：大尺寸、寬頸、AComm 或 MCA 動脈瘤、破裂、VER <20%、無支架輔助，另加吸菸。[^2]\n- **復發率**：Huang 2017 的整體復發率為 12.6%（83/658）。[^2]\n- **復發機轉**：coil compaction（線圈壓實）、瘤體再生長、初始栓塞不完全；栓塞密度不足與寬頸使殘餘/再通機率上升。[^2]\n\n",
+      "facts": [
+        {
+          "id": "aneurysm-coiling-recurrence-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "aneurysm-coiling-recurrence-f02",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "aneurysm-coiling-recurrence-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "aneurysm-coiling-recurrence-f04",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2020 詳解（題目所引）——動脈瘤體積、栓塞密度、是否使用輔助支架、位置皆與 coiling 術後復發相關。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Huang DZ, Jiang B, He W, Wang YH, Wang ZG. *Risk factors for the recurrence of an intracranial saccular aneurysm following endovascular treatment*. Oncotarget 2017;8(20):33676-33682, DOI 10.18632/oncotarget.16897（PMC5464901；accessed 2026-07-03）——658 例、復發率 12.6%；顯著風險因子＝**大尺寸、寬頸、AComm/MCA 位置、破裂、VER <20%、無支架輔助**、吸菸。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**復發相關軸**：volume/size（動脈瘤越大越易復發）、packing density（VER，栓塞密度）、usage of stent（是否輔助支架）與 location（位置）皆相關。",
+        "**Huang 2017 風險因子**：大尺寸、寬頸、AComm 或 MCA 動脈瘤、破裂、VER <20%、無支架輔助，另加吸菸。",
+        "**復發率**：Huang 2017 的整體復發率為 12.6%（83/658）。",
+        "**復發機轉**：coil compaction（線圈壓實）、瘤體再生長、初始栓塞不完全；栓塞密度不足與寬頸使殘餘/再通機率上升。"
+      ],
+      "coverageEvidenceSha256": "6ddb22cb8edeb1bbe7892f8e838a6ea1397a954a193334f6be3bd9d94631f965"
+    },
+    {
+      "slug": "atlantodental-interval",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **AADI 量法**：側位 X 光或 CT 矢狀面，量 C1 前弓後緣（皮質）至齒突前緣的水平距離。[^1][^2]\n- **AADI 姿勢**：最易在中段測量，屈曲位最易凸顯增寬。[^1][^2]\n- **PADI 量法**：量齒突後緣至 C1 後弓前緣（腹側皮質）的距離，等同寰樞段脊髓可用空間（SAC）。[^3]\n- **AADI 意義**：反映前移位移（橫韌帶撐不撐得住）。[^3]\n- **PADI 意義**：PADI/SAC 反映椎管剩餘空間；AADI 增寬不必然壓迫脊髓，真正預測脊髓病變的是 PADI。[^3]\n- **X 光成人正常值**：AADI <3 mm；Radiopaedia 另分男性 <3 mm、女性 <2.5 mm。[^1][^2]\n- **X 光兒童正常值**：兒童可達 5 mm，因韌帶較鬆且可有 pseudosubluxation；2016-085 正解 C。[^1][^2]\n- **X 光異常值**：成人 >3 mm、兒童 >5 mm 即異常。[^1][^2]\n- **CT 成人正常值**：AADI ≤2 mm；CT 解析度高、無放大效應，參考值小於 X 光。[^1][^2]\n- **CT 兒童正常值**：約 <2.6 mm。[^1][^2]\n- **橫韌帶閾值**：AADI ≥5 mm 提示橫韌帶鬆弛、斷裂或齒突畸形。[^4]\n- **橫韌帶失能**：AADI ≥7 mm 強烈提示橫韌帶完全斷裂或失能。[^4]\n- **PADI 臨界值**：<14 mm（Boden 等）對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。[^3]\n- **PADI 處置**：PADI <14 mm 應進一步以 MRI 評估真實 SAC，且常為手術固定指標。[^3]\n- **外傷病因**：橫韌帶斷裂；Jefferson 骨折兩側塊外突總和 >6.9 mm 提示橫韌帶斷裂（rule of Spence）。[^4]\n- **發炎或沉積**：類風濕性關節炎（pannus 侵蝕齒突與韌帶）、僵直性脊椎炎、crystal deposition。[^2][^3]\n- **先天或鬆弛**：Down 症（韌帶鬆弛加齒突發育異常，10–20% 有寰樞不穩）、骨骼發育不良、os odontoideum（游離齒突）。[^2][^5]\n- **感染病因**：Grisel 症候群可由頭頸部感染或術後齒突周圍充血脫鈣造成非外傷性旋轉脫位。[^1][^2]\n- **動態量測**：中立位 AADI 正常不能排除不穩；動態屈伸側位 X 光是評估主軸，須在屈曲位量最大 AADI 與最小 PADI。[^2][^5]\n- **屈曲位提示**：os odontoideum 與韌帶鬆弛常僅在屈曲位顯現。[^2][^5]\n- **MRI 評估**：評估脊髓受壓、pannus、SAC 及髓內訊號變化，以決定手術與否。[^2][^3]\n- **兒童陷阱**：正常 pseudosubluxation 與生理性韌帶鬆弛勿誤判。[^2][^5]\n- **量測陷阱**：非真側位與頸部姿勢可造成測量誤差。[^2][^5]\n- **Os odontoideum DDx**：須與急性齒突骨折鑑別；皮質緣光滑、圓鈍且有獨立小骨提示先天。[^2][^5]\n- **兒童 ADI 考點**：X 光 ≤5 mm；成人 ≤3 mm；CT 更嚴，成人 ≤2 mm、兒童 <2.6 mm。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "atlantodental-interval-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f03",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f04",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f05",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f06",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f08",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f09",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f10",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f11",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f12",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f13",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f14",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f15",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f16",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f17",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f18",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f19",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f20",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f21",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f22",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f23",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f24",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f25",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f26",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "atlantodental-interval-f27",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Atlantodental interval*. Radiopaedia.org（實際查證 accessed 2026-06-17）：前 ADI（AADI）X 光正常 成人男 <3 mm／女 <2.5 mm／**兒童 <5 mm**；CT 成人 <2 mm／兒童 <2.6 mm；後 ADI（PADI）正常 >15 mm。增大見於 RA/Down/創傷/Grisel。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Morimoto LR, Kase DT, Esmanhotto PG, et al. *Imaging Assessment of Nontraumatic Pathologic Conditions at the Craniovertebral Junction: A Comprehensive Review*. RadioGraphics. 2024;44(5):e230137. https://doi.org/10.1148/rg.230137 （**全文實際查證 accessed 2026-06-17**）：寰齒間隙（前弓↔齒突）正常 **X 光 成人 ≤3 mm、兒童 ≤5 mm**；**CT 成人 ≤2 mm**（參考值小於 X 光）；強調 **dynamic／lateral view** 評估外傷與非外傷性脫位/不穩；非外傷病因含先天韌帶鬆弛、Grisel、RA/AS/crystal deposition 致寰樞不穩與脊髓壓迫。（Based on articles retrieved from PubMed）"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "Boden 標準（PADI／SAC）— 經 emedicine（Medscape, *Rheumatoid Arthritis of the Cervical Spine*；*Atlantoaxial Instability Workup*）及 PMC 回顧（*Cervical spine instability in the course of rheumatoid arthritis – imaging methods*, PMC5647537；*Radiological assessment and surgical management of cervical spine involvement in RA*, PMC9898347）交叉查證，**依摘要/回顧層級、未讀 Boden 1993 原文**（accessed 2026-06-29）：PADI＝齒突後緣↔C1 後弓，等同 SAC，正常約 19–27 mm；**PADI <14 mm 對神經缺損敏感度 97%**，>14 mm 對無缺損陰性預測值約 94%；<14 mm 建議 MRI、常為手術固定指標；術前 PADI <10 mm 神經恢復不佳。原始：Boden SD, et al. *J Bone Joint Surg Am*. 1993;75(9):1282-1297. https://doi.org/10.2106/00004623-199309000-00004"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "橫韌帶量化閾值與 rule of Spence — 經 emedicine（Medscape, *Atlantoaxial Instability Workup: Plain Radiography*）與 Fiester P, et al. *Utility of Anterior Atlantodens Interval Widening on Cervical Spine CT for Assessing Transverse Atlantal Ligament Injury*. Clin Spine Surg/Global Spine J 系列, 2023, https://doi.org/10.1177/21925682221081211 （**依摘要層級、未讀全文**，accessed 2026-06-29）：AADI **≥5 mm** 提示橫韌帶鬆弛/斷裂或齒突畸形；**≥7 mm** 提示橫韌帶完全斷裂；Jefferson 骨折側塊外突總和 **>6.9 mm**（rule of Spence）提示橫韌帶斷裂。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "os odontoideum／Down 症動態評估 — Radiopaedia *Os odontoideum* 與 emedicine（Medscape, *Atlantoaxial Instability in Down Syndrome*）、PMC 回顧（*A Review of the Diagnosis and Treatment of Atlantoaxial Dislocations*, PMC4111952）交叉查證（**開放全文/摘要層級已讀**，accessed 2026-06-29）：Down 症寰樞不穩源於韌帶鬆弛＋齒突發育異常，盛行率約 10–20%；診斷須**屈伸動態側位**，僅屈曲位顯現之 AADI 增寬／PADI 縮小；os odontoideum 為游離齒突小骨、皮質緣光滑圓鈍，須與急性齒突骨折鑑別。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 27,
+          "covered": 27,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**AADI 量法**：側位 X 光或 CT 矢狀面，量 C1 前弓後緣（皮質）至齒突前緣的水平距離。",
+        "**AADI 姿勢**：最易在中段測量，屈曲位最易凸顯增寬。",
+        "**PADI 量法**：量齒突後緣至 C1 後弓前緣（腹側皮質）的距離，等同寰樞段脊髓可用空間（SAC）。",
+        "**AADI 意義**：反映前移位移（橫韌帶撐不撐得住）。",
+        "**PADI 意義**：PADI/SAC 反映椎管剩餘空間；AADI 增寬不必然壓迫脊髓，真正預測脊髓病變的是 PADI。",
+        "**X 光成人正常值**：AADI <3 mm；Radiopaedia 另分男性 <3 mm、女性 <2.5 mm。",
+        "**X 光兒童正常值**：兒童可達 5 mm，因韌帶較鬆且可有 pseudosubluxation；2016-085 正解 C。",
+        "**X 光異常值**：成人 >3 mm、兒童 >5 mm 即異常。",
+        "**CT 成人正常值**：AADI ≤2 mm；CT 解析度高、無放大效應，參考值小於 X 光。",
+        "**CT 兒童正常值**：約 <2.6 mm。",
+        "**橫韌帶閾值**：AADI ≥5 mm 提示橫韌帶鬆弛、斷裂或齒突畸形。",
+        "**橫韌帶失能**：AADI ≥7 mm 強烈提示橫韌帶完全斷裂或失能。",
+        "**PADI 臨界值**：<14 mm（Boden 等）對神經學缺損的敏感度 97%；>14 mm 對「無神經缺損」陰性預測值約 94%。",
+        "**PADI 處置**：PADI <14 mm 應進一步以 MRI 評估真實 SAC，且常為手術固定指標。",
+        "**外傷病因**：橫韌帶斷裂；Jefferson 骨折兩側塊外突總和 >6.9 mm 提示橫韌帶斷裂（rule of Spence）。",
+        "**發炎或沉積**：類風濕性關節炎（pannus 侵蝕齒突與韌帶）、僵直性脊椎炎、crystal deposition。",
+        "**先天或鬆弛**：Down 症（韌帶鬆弛加齒突發育異常，10–20% 有寰樞不穩）、骨骼發育不良、os odontoideum（游離齒突）。",
+        "**感染病因**：Grisel 症候群可由頭頸部感染或術後齒突周圍充血脫鈣造成非外傷性旋轉脫位。",
+        "**動態量測**：中立位 AADI 正常不能排除不穩；動態屈伸側位 X 光是評估主軸，須在屈曲位量最大 AADI 與最小 PADI。",
+        "**屈曲位提示**：os odontoideum 與韌帶鬆弛常僅在屈曲位顯現。",
+        "**MRI 評估**：評估脊髓受壓、pannus、SAC 及髓內訊號變化，以決定手術與否。",
+        "**兒童陷阱**：正常 pseudosubluxation 與生理性韌帶鬆弛勿誤判。",
+        "**量測陷阱**：非真側位與頸部姿勢可造成測量誤差。",
+        "**Os odontoideum DDx**：須與急性齒突骨折鑑別；皮質緣光滑、圓鈍且有獨立小骨提示先天。",
+        "**兒童 ADI 考點**：X 光 ≤5 mm；成人 ≤3 mm；CT 更嚴，成人 ≤2 mm、兒童 <2.6 mm。"
+      ],
+      "coverageEvidenceSha256": "c58e727e82bef8c54e032037ed48d895f1ff4601583392cbc05376ae8e12fb78"
+    },
+    {
+      "slug": "brachial-plexus-anatomy",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **常見起源**：C5、C6、C7、C8、T1 五條腹支（ventral rami）；C4 非常見起源。[^1][^2]\n- **位置**：位於頸部並延伸至腋部、鎖骨後方。[^1][^2]\n- **Trunks**：upper（C5-6）、middle（C7）、lower（C8-T1）。[^1]\n- **Divisions**：各 trunk 分 anterior 與 posterior division，位於鎖骨後。[^1]\n- **Cords**：lateral、posterior、medial，依其與腋動脈的位置命名。[^1]\n- **變異**：prefixed 為 C4 參與；postfixed 為 T2 參與。[^1]\n- **MR neurography**：冠狀 STIR/T2 顯示神經根自椎間孔出、經斜角肌間隙、鎖骨下至腋部。[^1]\n- **外傷提示**：根撕脫可見 pseudomeningocele。[^1]\n\n",
+      "facts": [
+        {
+          "id": "brachial-plexus-anatomy-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brachial-plexus-anatomy-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解；Surgical Anatomy of the Hand and Upper Extremity, p.297：臂神經叢常見起源 C5–T1;roots→trunks→divisions→cords→branches;prefixed(C4)/postfixed(T2) 變異。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Jones J, et al. *Brachial plexus*. Radiopaedia, rID-24704, DOI 10.53347/rID-24704（輔助來源）——**由 C5–T1 腹支（ventral rami）構成、供上肢與肩帶運動感覺**；於前中斜角肌間出、經頸後三角、鎖骨後，於腋部圍繞腋動脈第二段成 cords，終為 median/ulnar/radial/musculocutaneous/axillary 五大分支——佐證 C5–T1 起源與層次。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 9,
+          "covered": 9,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**常見起源**：C5、C6、C7、C8、T1 五條腹支（ventral rami）；C4 非常見起源。",
+        "**位置**：位於頸部並延伸至腋部、鎖骨後方。",
+        "**Trunks**：upper（C5-6）、middle（C7）、lower（C8-T1）。",
+        "**Divisions**：各 trunk 分 anterior 與 posterior division，位於鎖骨後。",
+        "**Cords**：lateral、posterior、medial，依其與腋動脈的位置命名。",
+        "**變異**：prefixed 為 C4 參與；postfixed 為 T2 參與。",
+        "**MR neurography**：冠狀 STIR/T2 顯示神經根自椎間孔出、經斜角肌間隙、鎖骨下至腋部。",
+        "**外傷提示**：根撕脫可見 pseudomeningocele。"
+      ],
+      "coverageEvidenceSha256": "cba7c6dbeedbbe7be8176ca70e28ab5fbfea18a26d3fa139da5e9bf13de8a9fb"
+    },
+    {
+      "slug": "brain-herniation-syndromes",
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "## Summary\n- **受壓結構**：海馬鉤疝（uncal/transtentorial herniation）最常壓迫 CN III；顳葉內側鉤回向內側疝入 tentorial incisura，直接壓迫緊鄰天幕緣走行的動眼神經。[^1]\n- **臨床警訊**：同側瞳孔散大固定（副交感纖維位於動眼神經外層而最先受壓）、眼外肌麻痺（眼球外展下視位）、對側或同側肢體無力；Kernohan notch 可造成假性側化。[^1]\n\n",
+      "facts": [
+        {
+          "id": "brain-herniation-syndromes-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brain-herniation-syndromes-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "brain-herniation-syndromes-f03",
+          "sourceRefs": [],
+          "disposition": "research-needed"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Textbook of Clinical Neurology*, 3e, Part1, Chapter1（2018 交換考題詳解 p.50 引用；Tier 3 教科書）。海馬鉤疝壓迫第三對腦神經（動眼神經）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 3,
+          "covered": 2,
+          "researchNeeded": 1,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**受壓結構**：海馬鉤疝（uncal/transtentorial herniation）最常壓迫 CN III；顳葉內側鉤回向內側疝入 tentorial incisura，直接壓迫緊鄰天幕緣走行的動眼神經。",
+        "**臨床警訊**：同側瞳孔散大固定（副交感纖維位於動眼神經外層而最先受壓）、眼外肌麻痺（眼球外展下視位）、對側或同側肢體無力；Kernohan notch 可造成假性側化。"
+      ],
+      "coverageEvidenceSha256": "a8d73a94e5b62c4a8d8d2b1dadd7e1f5011504f98c9bfd57b6f5d7430ceda7ed"
+    },
+    {
+      "slug": "carotid-vertebrobasilar-anastomoses",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **Persistent trigeminal artery**：最常見的殘存吻合，連接 cavernous ICA 與 basilar。[^1]\n- **Persistent hypoglossal artery**：第二常見，經 hypoglossal canal。[^1]\n- **Proatlantal artery（type 1/2）**：較少見。[^1]\n- **Persistent otic artery**：最少被報導或記載，其存在仍具相當爭議；自 petrous ICA 起，故為「最少被記載」之正解（2016-182 正解 C）。[^1]\n- **考題辨析**：Persistent otic artery 存在有爭議且最罕；trigeminal（最常見）、hypoglossal、proatlantal 皆較確立。[^1]\n\n",
+      "facts": [
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "carotid-vertebrobasilar-anastomoses-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Persistent otic artery*. Radiopaedia.org（實際查證 accessed 2026-06-17）：為殘存頸-椎基底吻合之一,「**considerable controversy in regards to its existence**」,起自 petrous（C2）ICA;相對地 persistent trigeminal artery 為最常見的此類吻合。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**Persistent trigeminal artery**：最常見的殘存吻合，連接 cavernous ICA 與 basilar。",
+        "**Persistent hypoglossal artery**：第二常見，經 hypoglossal canal。",
+        "**Proatlantal artery（type 1/2）**：較少見。",
+        "**Persistent otic artery**：最少被報導或記載，其存在仍具相當爭議；自 petrous ICA 起，故為「最少被記載」之正解（2016-182 正解 C）。",
+        "**考題辨析**：Persistent otic artery 存在有爭議且最罕；trigeminal（最常見）、hypoglossal、proatlantal 皆較確立。"
+      ],
+      "coverageEvidenceSha256": "2cd7cb84c7d3856a6dd75d5fe095195fa40067fc732f5b5bfd105213280c85c6"
+    },
+    {
+      "slug": "cerebral-border-zone-infarct-arteries",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **本質**：border zone（watershed）梗塞位於血管領域交界，離供血最遠且對灌流下降最敏感。[^1][^2]\n- **比例**：占腦梗塞 5-10%。[^1][^2]\n- **好發條件**：老年、頸動脈狹窄、低血壓與微栓塞。[^1][^2]\n- **External 部位**：位於 ACA-MCA、MCA-PCA 皮質交界。[^1][^2]\n- **External 影像**：楔形皮質/皮質下梗塞，亦可見 laminar necrosis。[^1][^2]\n- **External 機轉**：多為微栓塞，與清除之微栓及側枝少有關。[^1][^2]\n- **Internal 部位**：位於 corona radiata/centrum semiovale（腦室旁白質），介於淺層（皮質）MCA 穿通支與深穿通支之間。[^1][^2]\n- **Internal 供應**：lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 穿通支。[^1][^2]\n- **Internal 機轉**：典型為 hemodynamic（低血壓加頸動脈嚴重狹窄），呈 string-of-pearls sign。[^1][^2]\n- **Internal 影像門檻**：≥3 個病灶、每處 ≥3 mm，沿側腦室線狀排列於 centrum semiovale/corona radiata，可融合呈 band-like。[^1]\n- **非供應者**：superior hypophyseal artery 供應下視丘與漏斗（垂體上部），與大腦分水嶺區無關。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f08",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f09",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-border-zone-infarct-arteries-f11",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解——內側分水嶺區位於 ACA/MCA/PCA 交界，由 lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 等穿通動脈供應；典型 ≥3 病灶每處 ≥3mm 沿側腦室線狀排列於 centrum semiovale/corona radiata、可融合帶狀；superior hypophyseal artery 供下視丘/漏斗、與腦分水嶺無關。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Watershed cerebral infarction*. Radiopaedia.org, rID-2282, DOI 10.53347/rID-2282（輔助來源）——border zone 梗塞位血管領域交界、占 5-10%；deep（internal）border zone 典型受系統性低血壓 + 嚴重 inflow 狹窄（頸動脈）影響、呈 string of pearls sign；external（cortical）border zone 多為微栓塞。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 11,
+          "covered": 11,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**本質**：border zone（watershed）梗塞位於血管領域交界，離供血最遠且對灌流下降最敏感。",
+        "**比例**：占腦梗塞 5-10%。",
+        "**好發條件**：老年、頸動脈狹窄、低血壓與微栓塞。",
+        "**External 部位**：位於 ACA-MCA、MCA-PCA 皮質交界。",
+        "**External 影像**：楔形皮質/皮質下梗塞，亦可見 laminar necrosis。",
+        "**External 機轉**：多為微栓塞，與清除之微栓及側枝少有關。",
+        "**Internal 部位**：位於 corona radiata/centrum semiovale（腦室旁白質），介於淺層（皮質）MCA 穿通支與深穿通支之間。",
+        "**Internal 供應**：lenticulostriate、recurrent artery of Heubner、anterior choroidal artery 穿通支。",
+        "**Internal 機轉**：典型為 hemodynamic（低血壓加頸動脈嚴重狹窄），呈 string-of-pearls sign。",
+        "**Internal 影像門檻**：≥3 個病灶、每處 ≥3 mm，沿側腦室線狀排列於 centrum semiovale/corona radiata，可融合呈 band-like。",
+        "**非供應者**：superior hypophyseal artery 供應下視丘與漏斗（垂體上部），與大腦分水嶺區無關。"
+      ],
+      "coverageEvidenceSha256": "764b79e7b53a5b57eca5ac0e2c7060fa274a747b3ef0a2a19b89119d27640051"
+    },
+    {
+      "slug": "cerebral-deep-venous-cortex",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。[^1][^2]\n- **深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。[^1][^2]\n- **系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。[^1][^2]\n- **深部三主幹**：成對 internal cerebral veins（ICV，內大腦靜脈）加成對 basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）於四疊體池（quadrigeminal cistern）匯合成單一 vein of Galen（Galen 大靜脈），再注入 straight sinus 至 confluence of sinuses。[^1][^3]\n- **ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。[^1][^3]\n- **BVR 起點**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。[^1][^4]\n- **BVR 終點**：繞中腦（環池）後注入 vein of Galen。[^1][^4]\n- **SMV**：superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。[^2][^5]\n- **Vein of Trolard（上吻合靜脈）**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。[^2][^5]\n- **Vein of Labbé（下吻合靜脈）**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。[^2][^5]\n- **ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。[^1][^4]\n- **BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。[^1][^4]\n- **深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。[^1][^2]\n- **領域例外**：向皮質延伸偏向腦底部 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。[^1][^2]\n- **正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。[^2][^6]\n- **重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。[^2][^6]\n- **ICV/BVR 變異**：發育與優勢度變異大。[^4][^5]\n- **BVR 變異**：可有非典型引流路徑。[^4][^5]\n- **淺部變異**：SMV 與 Labbé 共優勢等組合常見，單一支缺如不一定是病理。[^4][^5]\n- **TOF-MRV 陷阱**：慢流或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞。[^6]\n- **佐證方式**：深部系統建議以 CE-MRV 或 CTV 佐證。[^6]\n- **DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。[^7][^8]\n- **DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。[^7][^8]\n- **DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。[^7][^8]\n- **DCVT CT 靜脈**：同時，thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。[^7][^8]\n- **DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。[^7][^8]\n- **DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。[^7][^8]\n- **DCVT DWI**：可顯示細胞毒與血管源混合水腫。[^7][^8]\n- **DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。[^7][^8]\n- **單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，神經外科術後（松果體或視丘區手術）尤須警覺。[^9]\n- **動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。[^7][^8]\n- **代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。[^7][^8]\n- **其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。[^7][^8]\n- **鑑別關鍵**：尋找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損。[^7][^8]\n- **高衰減陷阱**：兒童、脫水、血比容升高者的靜脈竇本就偏高衰減。[^2]\n- **高衰減確認**：對照 Hounsfield 值與靜脈是否過度緻密，並以 CTV 確認。[^2]\n- **TOF 假象**：慢流或平面內血流飽和可被誤判為栓塞。[^2][^6]\n- **不對稱漏診**：單側視丘水腫勿先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。[^9]\n- **深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。[^1][^2]\n- **EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-deep-venous-cortex-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f04",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f05",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f06",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f07",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f08",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f09",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f10",
+          "sourceRefs": [
+            "2",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f11",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f12",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f13",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f14",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f15",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f16",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f17",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f18",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f19",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f20",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f21",
+          "sourceRefs": [
+            "6"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f22",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f23",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f24",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f25",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f26",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f27",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f28",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f29",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f30",
+          "sourceRefs": [
+            "9"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f31",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f32",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f33",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f34",
+          "sourceRefs": [
+            "7",
+            "8"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f35",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f36",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f37",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f38",
+          "sourceRefs": [
+            "9"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f39",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-deep-venous-cortex-f40",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "StatPearls（NCBI Bookshelf, peer-reviewed 章節級）, *Neuroanatomy, Brain Veins* / *Anatomy, Head and Neck: Cerebral Venous System*。深部系統＝ICV＋BVR→vein of Galen；ICV 引流視丘、基底節、胼胝體、穹窿、室管膜、脈絡叢、深部白質；BVR 引流島葉、內側顳葉、腹側基底節、額葉眶面、中腦。<https://www.ncbi.nlm.nih.gov/books/NBK546605/>（accessed 2026-06-29）。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Leach JL, Fortuna RB, Jones BV, Gaskill-Shipley MF. *Imaging of cerebral venous thrombosis: current techniques, spectrum of findings, and diagnostic pitfalls.* RadioGraphics 2006;26 Suppl 1:S19–41（綜述級，含正常解剖/變異、深部與皮質靜脈栓塞、判讀陷阱章節）。[DOI](https://doi.org/10.1148/rg.26si055174)。（PubMed）"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "ScienceDirect Topics（教科書摘錄, *Internal Cerebral Veins* / *Great Cerebral Vein* overview）。ICV 起於 Monro 孔（thalamostriate＋septal vein 成 venous angle），沿第三腦室頂後行入 vein of Galen。<https://www.sciencedirect.com/topics/neuroscience/internal-cerebral-veins>（accessed 2026-06-29）。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "ScienceDirect Topics / neuroangio.org（*Basal Vein* overview；BVR 解剖與引流領域）。BVR 起於內側顳極/前穿質，引流島葉、腹側基底節、額葉眶面、視丘與深部白質，注入 vein of Galen。<https://www.sciencedirect.com/topics/neuroscience/basal-vein>；<https://neuroangio.org/venous-brain-anatomy/basal-vein-of-rosenthal/>（accessed 2026-06-29）。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "StatPearls *Neuroanatomy, Brain Veins*；neuroangio.org *Superficial Venous System*。SMV 沿外側裂；vein of Trolard＝SMV↔上矢狀竇最大吻合支；vein of Labbé＝SMV↔橫竇最大吻合支；三支優勢度變異大（常見 SMV 與 Labbé 共優勢）。<https://www.ncbi.nlm.nih.gov/books/NBK546605/>；<https://neuroangio.org/venous-brain-anatomy/superficial-venous-system/>（accessed 2026-06-29）。"
+        },
+        "6": {
+          "kind": "existing-footnote",
+          "locator": "6",
+          "citation": "Leach JL et al. RadioGraphics 2006（同 [^2]）：TOF-MRV 慢流/平面內飽和致訊號喪失之假性栓塞、建議 CE-MRV/CTV 佐證。[DOI](https://doi.org/10.1148/rg.26si055174)。（PubMed）"
+        },
+        "7": {
+          "kind": "existing-footnote",
+          "locator": "7",
+          "citation": "*Cerebral venous thrombosis: a spectrum of imaging findings*. Singapore Med J 2022（PMC8804428, 開放取用綜述）。DCVT 較少見但致病率高；典型雙側視丘水腫±基底節；CT 深部靜脈高衰減、MRI T2/FLAIR 高訊號＋ICV flow void 消失、MRV 充盈缺損；雙側視丘病變 DDx 含動脈梗塞/感染/代謝/PRES/腫瘤。[DOI](https://doi.org/10.11622/smedj.2021235)。（PubMed，摘要與檢索摘錄；全文未逐頁核實）"
+        },
+        "8": {
+          "kind": "existing-footnote",
+          "locator": "8",
+          "citation": "Radiology Assistant（radiologyassistant.nl）*Cerebral Venous Sinus Thrombosis*；Hindawi Case Rep Radiol 2018 概述。DCVT 影像（雙側視丘/基底節水腫、深部靜脈高衰減/充盈缺損）與雙側視丘 DDx。<https://radiologyassistant.nl/neuroradiology/sinus-thrombosis/cerebral-venous-thrombosis>（accessed 2026-06-29）。"
+        },
+        "9": {
+          "kind": "existing-footnote",
+          "locator": "9",
+          "citation": "Tan AP. *Postoperative Unilateral Internal Cerebral Vein Thrombosis with Venous Watershed Infarcts: Case Report and Review of the Literature.* World Neurosurg 2020;138:158–162（病例＋文獻回顧）。單側 ICV 血栓致深部白質「string of pearls」靜脈分水嶺梗塞，松果體/視丘區術後須警覺。[DOI](https://doi.org/10.1016/j.wneu.2020.03.008)。（PubMed）"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 40,
+          "covered": 40,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**淺部系統**：引流皮質與皮質下淺白質，匯入上矢狀竇與淺部硬腦膜竇。",
+        "**深部系統**：引流深部灰白質，最終經 vein of Galen 至 straight sinus（直竇）回流。",
+        "**系統吻合**：淺、深兩系統間有吻合，是側枝代償的解剖基礎。",
+        "**深部三主幹**：成對 internal cerebral veins（ICV，內大腦靜脈）加成對 basal veins of Rosenthal（BVR，Rosenthal 基底靜脈）於四疊體池（quadrigeminal cistern）匯合成單一 vein of Galen（Galen 大靜脈），再注入 straight sinus 至 confluence of sinuses。",
+        "**ICV 走行**：起於 Monro 室間孔附近，由 thalamostriate vein 與 septal vein 匯成 venous angle，沿第三腦室頂後行至四疊體池。",
+        "**BVR 起點**：起於前穿質（anterior perforated substance），由 anterior cerebral vein、deep middle cerebral vein 與 striate veins 匯成。",
+        "**BVR 終點**：繞中腦（環池）後注入 vein of Galen。",
+        "**SMV**：superficial middle cerebral vein（Sylvian 表淺中大腦靜脈）沿外側裂走行，引流入 sphenoparietal/cavernous sinus；皮質淺部三大吻合靜脈變異大且互為代償。",
+        "**Vein of Trolard（上吻合靜脈）**：連接 SMV 與上矢狀竇的最大吻合支，多跨中央區。",
+        "**Vein of Labbé（下吻合靜脈）**：連接 SMV 與橫竇的最大吻合支，多沿顳枕溝。",
+        "**ICV 引流領域**：背側視丘、基底節（紋狀體、蒼白球）、胼胝體、穹窿、室管膜、側腦室與第三腦室脈絡叢、腦室旁深部白質。",
+        "**BVR 引流領域**：島葉（insula）、內側顳葉（含 parahippocampal/uncus，屬 limbic）、腹側基底節、額葉眶面及中腦周圍；範圍多變並與 ICV 部分重疊。",
+        "**深部阻塞領域**：深部系統阻塞時受累的是上述深部灰白質構造。",
+        "**領域例外**：向皮質延伸偏向腦底部 limbic（邊緣葉）、內側枕葉視覺皮質與下/內額葉；superior frontal（上額葉）由淺部系統至上矢狀竇引流，因此是深部領域的例外。",
+        "**正常 CTV/CE-MRV**：ICV–BVR–vein of Galen–straight sinus 應連續均勻顯影。",
+        "**重組追蹤**：深部靜脈細小，需在矢狀與冠狀重組仔細追蹤。",
+        "**ICV/BVR 變異**：發育與優勢度變異大。",
+        "**BVR 變異**：可有非典型引流路徑。",
+        "**淺部變異**：SMV 與 Labbé 共優勢等組合常見，單一支缺如不一定是病理。",
+        "**TOF-MRV 陷阱**：慢流或與層面平行的靜脈可因飽和而訊號喪失，易誤判為栓塞。",
+        "**佐證方式**：深部系統建議以 CE-MRV 或 CTV 佐證。",
+        "**DCVT 臨床分佈**：較淺部靜脈血栓少見，但因侵及深部灰核而有較高致病率與死亡率。",
+        "**DCVT 典型分佈**：雙側視丘水腫，可向基底節及鄰近白質延伸。",
+        "**DCVT CT 實質**：雙側視丘（±基底節/鄰近白質）低衰減，代表水腫或梗塞。",
+        "**DCVT CT 靜脈**：同時，thalamostriate vein、ICV、BVR、vein of Galen、straight sinus、confluence 因血栓呈高衰減（cord/dense vein sign）。",
+        "**DCVT MRI 實質**：雙側視丘或基底節對稱 T2/FLAIR 高訊號、T1 低訊號。",
+        "**DCVT MRI 靜脈**：ICV 等深部靜脈在 T2 失去正常 flow void 而呈異常訊號。",
+        "**DCVT DWI**：可顯示細胞毒與血管源混合水腫。",
+        "**DCVT MRV**：straight sinus、雙側 ICV、vein of Galen 可見充盈缺損。",
+        "**單側 DCVT**：少見但存在；單側 ICV 血栓可致單側視丘水腫或深部白質 string of pearls（串珠狀）靜脈分水嶺梗塞，不對稱易誤診，神經外科術後（松果體或視丘區手術）尤須警覺。",
+        "**動脈性 DDx**：Percheron 動脈梗塞（雙側內側視丘±中腦）、基底動脈尖症候群循動脈領域分布，無深部靜脈高衰減或充盈缺損。",
+        "**代謝/中毒/感染 DDx**：Wernicke、滲透性脫髓鞘、缺氧缺血、病毒性腦炎（如日本腦炎/Flavivirus）、Creutzfeldt–Jakob。",
+        "**其他 DDx**：PRES、深部腫瘤（如雙側視丘膠質瘤）、artery of Percheron 變異。",
+        "**鑑別關鍵**：尋找深部靜脈竇的血栓徵象與 MRV/CTV 充盈缺損。",
+        "**高衰減陷阱**：兒童、脫水、血比容升高者的靜脈竇本就偏高衰減。",
+        "**高衰減確認**：對照 Hounsfield 值與靜脈是否過度緻密，並以 CTV 確認。",
+        "**TOF 假象**：慢流或平面內血流飽和可被誤判為栓塞。",
+        "**不對稱漏診**：單側視丘水腫勿先入為主歸為動脈或腫瘤，須查單側 ICV 是否栓塞。",
+        "**深部領域記憶**：深部系統涵蓋腦底部周圍的深部灰白質、limbic、內側枕葉與下額葉。",
+        "**EXCEPT 考點**：上額葉走淺部系統至上矢狀竇。"
+      ],
+      "coverageEvidenceSha256": "3a1406ed80a846322e7a18a73ef1852ca22d13559c0e68d1fbb99cb17b383849"
+    },
+    {
+      "slug": "cerebral-herniation-types",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **Subfalcine 血管**：扣帶迴被推至大腦鐮下，壓迫頂住大腦鐮的前大腦動脈（ACA），造成 ACA 領域梗塞。[^1]\n- **Subfalcine 循環**：屬前循環，是四型中唯一較少侵犯後循環者。[^1]\n- **Descending 血管**：下行經天幕疝（uncal/central）壓迫 PCA 與脈絡叢動脈，造成枕葉與內側顳葉梗塞。[^1]\n- **Descending 併發症**：可壓 CN III（瞳孔散大），並造成 Kernohan notch（對側大腦腳受壓、假性定位之同側偏癱）與 Duret 出血（腦幹）。[^1]\n- **Ascending 血管**：後顱窩腫塊向上頂，壓迫 PCA 與小腦上動脈（SCA），造成枕葉皮質與小腦上部梗塞。[^1]\n- **Ascending 併發症**：可造成阻塞性水腦。[^1]\n- **Tonsillar**：小腦扁桃體經枕骨大孔下疝，壓迫 PICA 與延髓，造成小腦後下部/延髓外側受損，並可致呼吸驟停。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-herniation-types-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-herniation-types-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Riascos R, et al. *Types of Cerebral Herniation and Their Imaging Features*. RadioGraphics 2019;39(6):1598-1610, DOI 10.1148/rg.2019190018（accessed 2026-07-03）——顱內疝分 subfalcine／transtentorial（ascending、descending lateral/central）／tonsillar；各型依位置壓迫特定血管致梗塞/出血、壓顱神經、阻塞 CSF 致水腦：**subfalcine→ACA；descending→PCA+脈絡叢動脈；ascending→PCA+SCA；tonsillar→PICA**。原「官方 2020 詳解」弱來源已由此一手全文查核取代。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**Subfalcine 血管**：扣帶迴被推至大腦鐮下，壓迫頂住大腦鐮的前大腦動脈（ACA），造成 ACA 領域梗塞。",
+        "**Subfalcine 循環**：屬前循環，是四型中唯一較少侵犯後循環者。",
+        "**Descending 血管**：下行經天幕疝（uncal/central）壓迫 PCA 與脈絡叢動脈，造成枕葉與內側顳葉梗塞。",
+        "**Descending 併發症**：可壓 CN III（瞳孔散大），並造成 Kernohan notch（對側大腦腳受壓、假性定位之同側偏癱）與 Duret 出血（腦幹）。",
+        "**Ascending 血管**：後顱窩腫塊向上頂，壓迫 PCA 與小腦上動脈（SCA），造成枕葉皮質與小腦上部梗塞。",
+        "**Ascending 併發症**：可造成阻塞性水腦。",
+        "**Tonsillar**：小腦扁桃體經枕骨大孔下疝，壓迫 PICA 與延髓，造成小腦後下部/延髓外側受損，並可致呼吸驟停。"
+      ],
+      "coverageEvidenceSha256": "4f08df13331bac8c750a9bd80c7f470a0e1ae3a4ba788babcd815c00c4665905"
+    },
+    {
+      "slug": "cerebral-infarction-evolution",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **Fogging effect 定義**：亞急性期梗塞區在 CT 呈一過性等密度（hypoattenuation 消失）、MR T2 訊號一過性減低，即「T2 signal loss on MR or hypoattenuation resolution on CT during the second week post-ictus」，使梗塞看似消失。[^1]\n- **時機與比例**：約發病後 6-36 天（中位約 10 天），一系列 30 名病人約 50% 出現某程度 fogging。[^1]\n- **機轉**：巨噬細胞浸潤、微血管增生與水腫消退，使密度或訊號一過性回到接近正常。[^1]\n- **漏診風險**：此期單靠平掃 CT 可能漏診梗塞。[^1]\n- **判讀策略**：需結合病史、增強或 DWI/追蹤影像。[^1]\n- **考題定義**：The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus（B）；亞急性期約第 2 週，梗塞區訊號或密度一過性回到接近正常而看似消失。[^1]\n- **錯誤選項**：非 CT 首 24 小時診斷困難（A）、非再灌流瀰漫實質強化（C）、非慢性期（D）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-infarction-evolution-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        },
+        {
+          "id": "cerebral-infarction-evolution-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered"
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*ASNR Core Curriculum Course 1994*, p.62（2018 交換考題詳解 p.339 引用；Tier 2 教學資料）。fogging effect為亞急性期(約發病6-36天/中位10天、約50%病人)梗塞區於CT呈一過性等密度、MR T2訊號一過性減低而看似消失(巨噬細胞浸潤/微血管增生/水腫消退所致)，此期平掃CT易漏診。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**Fogging effect 定義**：亞急性期梗塞區在 CT 呈一過性等密度（hypoattenuation 消失）、MR T2 訊號一過性減低，即「T2 signal loss on MR or hypoattenuation resolution on CT during the second week post-ictus」，使梗塞看似消失。",
+        "**時機與比例**：約發病後 6-36 天（中位約 10 天），一系列 30 名病人約 50% 出現某程度 fogging。",
+        "**機轉**：巨噬細胞浸潤、微血管增生與水腫消退，使密度或訊號一過性回到接近正常。",
+        "**漏診風險**：此期單靠平掃 CT 可能漏診梗塞。",
+        "**判讀策略**：需結合病史、增強或 DWI/追蹤影像。",
+        "**考題定義**：The loss in T2 signal on MR or hypoattenuation on CT during the second week post-ictus（B）；亞急性期約第 2 週，梗塞區訊號或密度一過性回到接近正常而看似消失。",
+        "**錯誤選項**：非 CT 首 24 小時診斷困難（A）、非再灌流瀰漫實質強化（C）、非慢性期（D）。"
+      ],
+      "coverageEvidenceSha256": "677d431ecc643baf9fec5d77df04a78425aee3d5586f0eb0b4745277bda014fc"
+    }
+  ],
+  "manualReviewFactIds": [
+    "brain-herniation-syndromes-f03"
+  ],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2a/generated/batch-01-anatomy.json"
+}
