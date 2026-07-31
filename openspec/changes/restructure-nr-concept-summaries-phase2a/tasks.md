@@ -24,7 +24,7 @@ sequential by design; no task is marked [P].
 
 - [x] 4.1 在 batch-02 approved 後，依「2. baseline lock 使用每批一個中央程式信任摘要，而非每 note trust constant」為固定 10 個 pattern-ddx slugs 建立 pre-edit baseline lock、stable fact units、evidence scaffold 與單一 trusted batch digest；以 `validate-baseline --batch batch-03-pattern`、source hash／lossless snapshot、coordinated mutation regression 及無 Markdown diff 驗證。
 - [x] 4.2 依「Evidence reports provide complete, source-defined fact dispositions」與「Literature research is exception-only, auditable, and access-safe」，由新的 implementer subagent 僅改寫 `batch-03-pattern` 的 10 個 Summary；依可區辨的部位、sequence/signal、分布、對稱性、enhancement、年齡/臨床、陷阱等有來源影像軸建立短 bullets，不得把未來源鑑別或關係加入矩陣。以 10/10 strict validation、逐 fact/source/footnote coverage、`newUnsupportedFacts=0`、batch-scoped build 與 scope diff 驗證。
-- [ ] 4.3 依「Batch workflow enforces independent implementation and review gates」、「Batch-scoped generation is coherent, narrow, and idempotent」與「Every completed Phase 2A batch has an auditable generated-output manifest and rejects nonselected drift」，由不同 reviewer subagent完成 pattern batch 的規格、醫學證據及 generated-output 審查；以 findings 關閉、derived manual queue、approved review record、兩次零漂移 build、完整 manifest／corpus coherence 與 nonselected protection 驗證。
+- [x] 4.3 依「Batch workflow enforces independent implementation and review gates」、「Batch-scoped generation is coherent, narrow, and idempotent」與「Every completed Phase 2A batch has an auditable generated-output manifest and rejects nonselected drift」，由不同 reviewer subagent完成 pattern batch 的規格、醫學證據及 generated-output 審查；以 findings 關閉、derived manual queue、approved review record、兩次零漂移 build、完整 manifest／corpus coherence 與 nonselected protection 驗證。
 
 ## 5. Phase 2A tranche acceptance
 
