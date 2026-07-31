@@ -8485,6 +8485,528 @@ def test_phase2a_batch03_task43_manifest_rejects_second_run_and_coordinated_rese
         assert "generated-keypoints-mismatch" in codes
 
 
+PHASE2A_LINT_OUTPUT = """檢查：1123 概念、4 圖引用、4 圖檔
+
+=== ERROR (2) ===
+  ✗ [footnote 未定義] ceap-classification.md 用了 [^*] 但無定義
+  ✗ [json 殘留 ![[...]]] 2022-264
+
+=== WARN (124) ===
+  ⚠ 題目無 correctAnswer: 65
+  ⚠ 概念缺 ## 考題 dataview: 37
+  ⚠ footnote 未被引用: 22
+
+小結：2 errors, 124 warnings
+"""
+PHASE2A_QUEUE = [
+    "adrenoleukodystrophy-f30",
+    "adrenoleukodystrophy-f33",
+    "brain-herniation-syndromes-f03",
+    "cns-opportunistic-infection-f03",
+    "cns-opportunistic-infection-f06",
+    "cns-opportunistic-infection-f07",
+]
+PHASE2A_VERIFICATION_PATH = Path(
+    "docs/reports/nr-summary-rewrite/phase2a/verification.json"
+)
+
+
+def _copy_production_phase2a_tranche_checkout(destination: Path) -> Path:
+    """Copy the complete 216-note tranche validation surface."""
+    root, assignment_path, _ = _production_phase2a_batch03()
+    inventory = json.loads(
+        (
+            root / "docs/reports/nr-summary-rewrite/inventory.json"
+        ).read_text(encoding="utf-8")
+    )
+    relative_files = [
+        assignment_path,
+        Path("docs/reports/nr-summary-rewrite/inventory.json"),
+        Path("docs/reports/nr-summary-rewrite/batch-00.json"),
+        Path("data/concepts-index.json"),
+        *(
+            Path("docs/reports/nr-summary-rewrite/phase2a") / section / f"{batch_id}.json"
+            for section in ("baselines", "evidence", "generated")
+            for batch_id in audit.ACTIVE_PHASE2A_BATCHES
+        ),
+        *(Path(entry["path"]) for entry in inventory["notes"]),
+    ]
+    if (root / PHASE2A_VERIFICATION_PATH).is_file():
+        relative_files.append(PHASE2A_VERIFICATION_PATH)
+    for relative in dict.fromkeys(relative_files):
+        target = destination / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(root / relative, target)
+    shutil.copytree(
+        root / "data" / "concepts",
+        destination / "data" / "concepts",
+    )
+    return assignment_path
+
+
+def _production_phase2a_verification() -> tuple[Path, Path, dict]:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path(
+        "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    )
+    report = audit.build_phase2a_tranche_verification(
+        root,
+        assignment_path,
+        PHASE2A_LINT_OUTPUT,
+        1,
+    )
+    return root, assignment_path, report
+
+
+def test_phase2a_task51_tranche_report_is_exact_honest_and_current() -> None:
+    root, assignment_path, report = _production_phase2a_verification()
+    checked = json.loads(
+        (root / PHASE2A_VERIFICATION_PATH).read_text(encoding="utf-8")
+    )
+
+    assert report == checked
+    assert set(report) == {
+        "schemaVersion",
+        "kind",
+        "phase2aVerification",
+        "batches",
+        "finalGenerated",
+        "scopeProtection",
+    }
+    verification = report["phase2aVerification"]
+    assert verification == {
+        "status": "phase2a-complete-with-manual-queue",
+        "assignmentSha256": canonical_sha256(
+            json.loads((root / assignment_path).read_text(encoding="utf-8"))
+        ),
+        "activeBatchIds": list(audit.ACTIVE_PHASE2A_BATCHES),
+        "strictNoteCount": 30,
+        "verifiedNoteCount": 27,
+        "manualReviewFactIds": PHASE2A_QUEUE,
+        "lint": {
+            "namedErrors": list(audit.EXPECTED_LINT_ERRORS),
+            "warningDelta": {
+                "before": 124,
+                "after": 124,
+                "delta": 0,
+                "explanations": [],
+            },
+        },
+        "generated": {
+            "batchManifestSha256": canonical_sha256(
+                report["batches"]
+            ),
+            "coherent": True,
+        },
+        "phase2BStarted": False,
+    }
+    assert [entry["batch"] for entry in report["batches"]] == list(
+        audit.ACTIVE_PHASE2A_BATCHES
+    )
+    assert all(len(entry["selectedDetailFiles"]) == 10 for entry in report["batches"])
+    assert report["finalGenerated"]["detailFileCount"] == 980
+    assert report["finalGenerated"]["index"]["entryCount"] == 980
+    assert len(report["finalGenerated"]["selectedDetailFiles"]) == 30
+    assert report["scopeProtection"] == {
+        "inventoryNoteCount": 216,
+        "phase1PilotCount": 10,
+        "phase2NonPilotCount": 206,
+        "activeNoteCount": 30,
+        "scheduledNotStartedCount": 176,
+        "phase1EvidencePath": "docs/reports/nr-summary-rewrite/batch-00.json",
+        "phase2aArtifactPaths": [
+            (
+                "docs/reports/nr-summary-rewrite/phase2a/"
+                f"{section}/{batch_id}.json"
+            )
+            for section in ("baselines", "evidence", "generated")
+            for batch_id in audit.ACTIVE_PHASE2A_BATCHES
+        ],
+    }
+    assert audit.validate_phase2a_tranche(
+        root,
+        assignment_path,
+        checked,
+        PHASE2A_LINT_OUTPUT,
+        1,
+    ) == []
+
+
+def test_phase2a_task51_report_queue_lint_and_phase2b_are_fail_closed() -> None:
+    root, assignment_path, report = _production_phase2a_verification()
+    cases = []
+    extra = deepcopy(report)
+    extra["forged"] = True
+    cases.append((extra, PHASE2A_LINT_OUTPUT, "phase2a-tranche-manifest-mismatch"))
+    verified = deepcopy(report)
+    verified["phase2aVerification"]["status"] = "verified"
+    cases.append((verified, PHASE2A_LINT_OUTPUT, "phase2a-tranche-manifest-mismatch"))
+    hidden_queue = deepcopy(report)
+    hidden_queue["phase2aVerification"]["manualReviewFactIds"] = []
+    cases.append(
+        (hidden_queue, PHASE2A_LINT_OUTPUT, "phase2a-tranche-manifest-mismatch")
+    )
+    phase2b = deepcopy(report)
+    phase2b["phase2aVerification"]["phase2BStarted"] = True
+    cases.append((phase2b, PHASE2A_LINT_OUTPUT, "phase2a-tranche-manifest-mismatch"))
+    changed_lint = PHASE2A_LINT_OUTPUT.replace(
+        "[json 殘留 ![[...]]] 2022-264",
+        "[json 殘留 ![[...]]] 2022-265",
+    )
+    cases.append((report, changed_lint, "lint-baseline-mismatch"))
+    warning_delta = PHASE2A_LINT_OUTPUT.replace(
+        "=== WARN (124) ===", "=== WARN (125) ==="
+    ).replace(
+        "小結：2 errors, 124 warnings",
+        "小結：2 errors, 125 warnings",
+    )
+    cases.append((report, warning_delta, "lint-baseline-mismatch"))
+
+    for candidate, lint_output, expected_code in cases:
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                root,
+                assignment_path,
+                candidate,
+                lint_output,
+                1,
+            )
+        }
+        assert expected_code in codes
+
+    trusted = audit.TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256
+    audit.TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256 = "0" * 64
+    try:
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                root,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+    finally:
+        audit.TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256 = trusted
+    assert "phase2a-tranche-untrusted" in codes
+
+
+def test_phase2a_task51_source_evidence_generated_and_scope_attacks_fail_closed() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "attacks"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report = audit.build_phase2a_tranche_verification(
+            shadow,
+            assignment_path,
+            PHASE2A_LINT_OUTPUT,
+            1,
+        )
+
+        evidence_path = (
+            shadow
+            / "docs/reports/nr-summary-rewrite/phase2a/evidence/"
+            "batch-03-pattern.json"
+        )
+        evidence_bytes = evidence_path.read_bytes()
+        evidence = json.loads(evidence_bytes.decode("utf-8"))
+        evidence["manualReviewFactIds"] = []
+        evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "phase2-manual-queue-mismatch" in codes
+        evidence_path.write_bytes(evidence_bytes)
+
+        evidence = json.loads(evidence_bytes.decode("utf-8"))
+        evidence["workflow"]["reviewer"] = evidence["workflow"]["implementer"]
+        evidence_path.write_text(json.dumps(evidence), encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "phase2-reviewer-conflict" in codes
+        evidence_path.write_bytes(evidence_bytes)
+
+        assignment_file = shadow / assignment_path
+        assignment_bytes = assignment_file.read_bytes()
+        assignment = json.loads(assignment_bytes.decode("utf-8"))
+        batch03 = next(
+            batch
+            for batch in assignment["batches"]
+            if batch["id"] == "batch-03-pattern"
+        )
+        batch03["slugs"][1] = batch03["slugs"][0]
+        assignment_file.write_text(json.dumps(assignment), encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "phase2-assignment-membership" in codes
+        assignment_file.write_bytes(assignment_bytes)
+
+        selected_path = shadow / "data/concepts/anti-nmda-encephalitis.json"
+        selected_bytes = selected_path.read_bytes()
+        selected_path.unlink()
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "generated-manifest-mismatch" in codes
+        selected_path.write_bytes(selected_bytes)
+
+        index_path = shadow / "data/concepts-index.json"
+        index_bytes = index_path.read_bytes()
+        index = json.loads(index_bytes.decode("utf-8"))
+        index["concepts"].append(deepcopy(index["concepts"][0]))
+        index_path.write_text(json.dumps(index), encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "generated-manifest-mismatch" in codes
+        index_path.write_bytes(index_bytes)
+
+        inventory = json.loads(
+            (
+                shadow / "docs/reports/nr-summary-rewrite/inventory.json"
+            ).read_text(encoding="utf-8")
+        )
+        scheduled = next(
+            entry
+            for entry in inventory["notes"]
+            if entry["status"] == "scheduled-not-started"
+            and entry["batch"].startswith("scheduled-")
+        )
+        scheduled_path = shadow / scheduled["path"]
+        scheduled_bytes = scheduled_path.read_bytes()
+        scheduled_path.write_bytes(scheduled_bytes + b"\n")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "phase2a-scheduled-drift" in codes
+        scheduled_path.write_bytes(scheduled_bytes)
+
+        phase1_path = (
+            shadow / "docs/reports/nr-summary-rewrite/batch-00.json"
+        )
+        phase1_bytes = phase1_path.read_bytes()
+        phase1 = json.loads(phase1_bytes.decode("utf-8"))
+        phase1["status"] = "verified"
+        phase1_path.write_text(json.dumps(phase1), encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "evidence-trusted-final-mismatch" in codes
+        phase1_path.write_bytes(phase1_bytes)
+
+        extra_artifact = (
+            shadow
+            / "docs/reports/nr-summary-rewrite/phase2a/evidence/"
+            "scheduled-disease-01.json"
+        )
+        extra_artifact.write_text("{}", encoding="utf-8")
+        codes = {
+            finding.code
+            for finding in audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        }
+        assert "phase2a-scheduled-drift" in codes
+
+
+def test_phase2a_task51_relocation_path_and_incomplete_checkout_fail_closed() -> None:
+    results = []
+    with tempfile.TemporaryDirectory() as directory:
+        base = Path(directory)
+        for shadow in (base / "canonical", base / "relocated" / "checkout"):
+            assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+            report = audit.build_phase2a_tranche_verification(
+                shadow,
+                assignment_path,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+            findings = audit.validate_phase2a_tranche(
+                shadow,
+                assignment_path,
+                report,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+            results.append((report, findings))
+        assert results[0] == results[1]
+        original_cwd = Path.cwd()
+        try:
+            os.chdir(base)
+            cwd_independent = audit.build_phase2a_tranche_verification(
+                base / "relocated" / "checkout",
+                Path("docs/reports/nr-summary-rewrite/phase2-assignment.json"),
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        finally:
+            os.chdir(original_cwd)
+        assert cwd_independent == results[1][0]
+
+        incomplete = base / "incomplete"
+        assignment_path = _copy_production_phase2a_tranche_checkout(incomplete)
+        victim = incomplete / "vault/concepts/toxic-metabolic-brain-imaging.md"
+        assert victim.is_file()
+        victim.unlink()
+        try:
+            audit.build_phase2a_tranche_verification(
+                incomplete,
+                assignment_path,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        except audit.Phase2LoadError as error:
+            assert error.code == "phase2a-scheduled-drift"
+        else:
+            raise AssertionError("An incomplete coherent checkout must fail.")
+
+    for unsafe in (
+        Path("../phase2-assignment.json"),
+        Path("C:/phase2-assignment.json"),
+    ):
+        try:
+            audit.build_phase2a_tranche_verification(
+                Path(__file__).resolve().parents[1],
+                unsafe,
+                PHASE2A_LINT_OUTPUT,
+                1,
+            )
+        except audit.Phase2LoadError as error:
+            assert error.code == "phase2-path-invalid"
+        else:
+            raise AssertionError("Unsafe assignment path must fail.")
+
+
+def test_phase2a_task51_cli_write_is_preflighted_and_idempotent() -> None:
+    root = Path(__file__).resolve().parents[1]
+    report_path = root / PHASE2A_VERIFICATION_PATH
+    before = report_path.read_bytes()
+    before_mtime = report_path.stat().st_mtime_ns
+    generated_before = {
+        path.relative_to(root).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
+        for path in sorted((root / "data").rglob("*.json"))
+    }
+
+    for _ in range(2):
+        output = io.StringIO()
+        with redirect_stdout(output), redirect_stderr(output):
+            exit_code = audit.main(
+                [
+                    "validate-tranche",
+                    "--repo-root",
+                    str(root),
+                    "--assignment",
+                    "docs/reports/nr-summary-rewrite/phase2-assignment.json",
+                    "--report",
+                    PHASE2A_VERIFICATION_PATH.as_posix(),
+                    "--write",
+                ]
+            )
+        assert exit_code == 0
+        assert output.getvalue().strip() == "[]"
+
+    assert report_path.read_bytes() == before
+    assert report_path.stat().st_mtime_ns == before_mtime
+    assert {
+        path.relative_to(root).as_posix(): (path.read_bytes(), path.stat().st_mtime_ns)
+        for path in sorted((root / "data").rglob("*.json"))
+    } == generated_before
+
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory) / "failed-write"
+        assignment_path = _copy_production_phase2a_tranche_checkout(shadow)
+        report_path = shadow / PHASE2A_VERIFICATION_PATH
+        checked_before = report_path.read_bytes()
+        inventory = json.loads(
+            (
+                shadow / "docs/reports/nr-summary-rewrite/inventory.json"
+            ).read_text(encoding="utf-8")
+        )
+        scheduled = next(
+            entry
+            for entry in inventory["notes"]
+            if entry["batch"].startswith("scheduled-")
+        )
+        scheduled_path = shadow / scheduled["path"]
+        scheduled_path.write_bytes(scheduled_path.read_bytes() + b"\n")
+        original_lint = audit._run_phase2a_lint
+        audit._run_phase2a_lint = lambda _root: (PHASE2A_LINT_OUTPUT, 1)
+        try:
+            with redirect_stdout(io.StringIO()), redirect_stderr(io.StringIO()):
+                exit_code = audit.main(
+                    [
+                        "validate-tranche",
+                        "--repo-root",
+                        str(shadow),
+                        "--assignment",
+                        assignment_path.as_posix(),
+                        "--report",
+                        PHASE2A_VERIFICATION_PATH.as_posix(),
+                        "--write",
+                    ]
+                )
+        finally:
+            audit._run_phase2a_lint = original_lint
+        assert exit_code == 1
+        assert report_path.read_bytes() == checked_before
+
+
 def run_smoke() -> None:
     test_evidence_rejects_unmapped_or_unresolved_fact_units()
     test_evidence_rejects_source_ref_not_defined_in_note()
