@@ -1157,6 +1157,8 @@ a { color: var(--primary); text-decoration: none; }
 .note-table th { background: #f8fafc; }
 .note-callout { margin: 12px 0; padding: 12px 14px; border-left: 4px solid var(--primary); background: #eff6ff; border-radius: var(--radius-sm); }
 .note-callout > div { margin-top: 5px; }
+.note-callout > summary { cursor: pointer; font-weight: 600; }
+.note-quote { margin: 12px 0; padding: 4px 14px; border-left: 3px solid var(--border); }
 .note-degraded { margin: 12px 0; padding: 10px; border: 1px dashed #d97706; background: #fffbeb; border-radius: var(--radius-sm); }
 .note-degraded pre { margin: 0; white-space: pre-wrap; }
 .note-degraded small, .note-render-warnings { color: #92400e; font-size: .8rem; }

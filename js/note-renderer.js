@@ -114,9 +114,40 @@ const NoteRenderer = (function () {
     return lines;
   }
 
+  function _hideObsidianQueries(source) {
+    const lines = source.slice();
+    const emptyHeadings = new Set();
+    for (let index = 0; index < lines.length; index++) {
+      const opening = /^ {0,3}(`{3,}|~{3,})(.*)$/.exec(lines[index]);
+      if (!opening) continue;
+      const closing = new RegExp('^ {0,3}' + opening[1][0] + '{' + opening[1].length + ',}\\s*$');
+      let end = index + 1;
+      while (end < lines.length && !closing.test(lines[end])) end++;
+      // An incomplete fence can contain real prose; retain the fallback display.
+      if (end === lines.length) break;
+      if (/^dataview(?:js)?$/i.test(opening[2].trim())) {
+        let previous = index - 1;
+        while (previous >= 0 && !lines[previous].trim()) previous--;
+        if (previous >= 0 && /^ {0,3}#{1,6}\s+(?:考題|相關考題|相關題目)\s*#*\s*$/.test(lines[previous])) {
+          emptyHeadings.add(previous);
+        }
+        for (let row = index; row <= end; row++) lines[row] = '';
+      }
+      index = end;
+    }
+    for (const index of emptyHeadings) {
+      let next = index + 1;
+      while (next < lines.length && !lines[next].trim()) next++;
+      const current = /^\s*(#+)/.exec(lines[index]);
+      const heading = next < lines.length && /^ {0,3}(#{1,6})\s+/.exec(lines[next]);
+      if (next === lines.length || (heading && heading[1].length <= current[1].length)) lines[index] = '';
+    }
+    return lines;
+  }
+
   function renderDocument(raw, options) {
     const config = options || {};
-    const lines = _stripFrontmatter(raw);
+    const lines = _hideObsidianQueries(_stripFrontmatter(raw));
     const record = config.record || {};
     const embeds = _embedMap(record);
     const warnings = [];
@@ -134,15 +165,25 @@ const NoteRenderer = (function () {
         index++; continue;
       }
 
-      const callout = /^\s*>\s*\[!([^\]]+)\]\s*(.*)$/.exec(line);
-      if (callout) {
-        const body = [callout[2]];
-        let cursor = index + 1;
+      const callout = /^\s*>\s*\[!([^\]]+)\]([+-]?)\s*(.*)$/.exec(line);
+      if (/^\s*>/.test(line)) {
+        const body = [];
+        let cursor = callout ? index + 1 : index;
         while (cursor < lines.length && /^\s*>/.test(lines[cursor])) {
           body.push(lines[cursor].replace(/^\s*>\s?/, ''));
           cursor++;
         }
-        html.push(`<aside class="note-callout" data-callout="${_esc(callout[1].toLowerCase())}"><strong>${_inline(callout[2] || callout[1], config, embeds, footnotes)}</strong><div>${_inline(body.slice(1).join('\n'), config, embeds, footnotes)}</div></aside>`);
+        const nested = renderDocument(body.join('\n'), Object.assign({}, config, { _nested: true }));
+        warnings.push(...nested.warnings.map(warning => Object.assign({}, warning, { line: warning.line + index + (callout ? 1 : 0) })));
+        if (!callout) {
+          html.push(`<blockquote class="note-quote">${nested.html}</blockquote>`);
+        } else {
+          const title = _inline(callout[3] || callout[1], config, embeds, footnotes);
+          const attributes = `class="note-callout" data-callout="${_esc(callout[1].toLowerCase())}"`;
+          html.push(callout[2]
+            ? `<details ${attributes}${callout[2] === '+' ? ' open' : ''}><summary>${title}</summary><div>${nested.html}</div></details>`
+            : `<aside ${attributes}><strong>${title}</strong><div>${nested.html}</div></aside>`);
+        }
         index = cursor; continue;
       }
 
@@ -191,14 +232,14 @@ const NoteRenderer = (function () {
 
       const paragraph = [line];
       let cursor = index + 1;
-      while (cursor < lines.length && lines[cursor].trim() && !/^\s{0,3}#{1,6}\s+/.test(lines[cursor]) && !/^\s*(?:[-*+]\s+|\d+[.)]\s+|>\s*\[!|```)/.test(lines[cursor]) && !_isTable(lines, cursor)) {
+      while (cursor < lines.length && lines[cursor].trim() && !/^\s{0,3}#{1,6}\s+/.test(lines[cursor]) && !/^\s*(?:[-*+]\s+|\d+[.)]\s+|>|```)/.test(lines[cursor]) && !_isTable(lines, cursor)) {
         paragraph.push(lines[cursor]); cursor++;
       }
       html.push(`<p>${_inline(paragraph.join('\n'), config, embeds, footnotes).replace(/\n/g, '<br />')}</p>`);
       index = cursor;
     }
-    const warningHtml = warnings.length ? `<div class="note-render-warnings" aria-live="polite">渲染提示：${warnings.length} 個非內容區塊以原文顯示</div>` : '';
-    if (typeof config.onWarning === 'function') warnings.forEach(config.onWarning);
+    const warningHtml = warnings.length && !config._nested ? `<div class="note-render-warnings" aria-live="polite">渲染提示：${warnings.length} 個非內容區塊以原文顯示</div>` : '';
+    if (!config._nested && typeof config.onWarning === 'function') warnings.forEach(config.onWarning);
     return { html: warningHtml + html.join('\n'), warnings };
   }
 
