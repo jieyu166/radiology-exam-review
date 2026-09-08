@@ -20,10 +20,9 @@ dateRev: 2026-07-03
 - **原發性副甲狀腺機能亢進**：**最常見表現（~95%，多腺體增生 hyperplasia）**；故「副甲狀腺增生在 MEN1 罕見」**錯誤**＝題目正解（2016-102 正解 C）。[^1]
 - **胰臟神經內分泌瘤（pancreatic NET）**：**MEN1 為 panNET 最常見之遺傳症候群，佔所有 panNET 約 10%**;MEN1 中最常見者為**多發性 gastrinoma（20–60%）與非功能性腫瘤（達 80%）**，皆呈邊界清楚、強烈強化腫塊;**gastrinoma 最常見之功能性者**（Zollinger-Ellison，多發、體積小、位十二指腸黏膜下/gastrinoma triangle、多惡性易肝轉移，CT/MRI 見胃皺襞顯著增厚）;**insulinoma 為第二常見**功能性 pNET（~10–30%、發病年輕 <35 歲）;**囊性 panNET 佔 MEN1 之 panNET 達 15%**（多大、likely benign、非功能性）。**panNET 為 MEN1 疾病相關死亡之首因**。[^1][^4][^5][^8]
 - **腦下垂體腺瘤**：常見 prolactinoma。[^1]
-- 可合併其他內分泌腫瘤（如腎上腺、類癌 carcinoid 等）。[^1]
+- **重點**: 可合併其他內分泌腫瘤（如腎上腺、類癌 carcinoid 等）。[^1]
 
-> [!note] 考點：何者「為錯」？
-> 「**副甲狀腺增生在 MEN1 罕見**」錯——副甲狀腺機能亢進/增生反而是**最常見**表現（~95%）。Wermer 同義、胰島腫瘤多為 gastrinoma 皆正確。[^1]（2016-102）
+- **考點**: 「**副甲狀腺增生在 MEN1 罕見**」錯——副甲狀腺機能亢進/增生反而是**最常見**表現（~95%）。Wermer 同義、胰島腫瘤多為 gastrinoma 皆正確。[^1]（2016-102）
 
 ## 各器官影像判讀
 > 以下為一般放射科判讀骨架，依器官分模態整理；功能性 pNET、carcinoid 與部分腎上腺病灶可用 somatostatin receptor imaging（68Ga-DOTATATE PET/CT）偵測。

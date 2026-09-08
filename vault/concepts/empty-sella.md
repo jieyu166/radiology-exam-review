@@ -16,9 +16,9 @@ dateRev: 2026-06-29
 ## Summary
 - **機轉**：CSF 經**缺損/不全的 diaphragma sellae（鞍膈）**疝入蝶鞍（見於約 20% 人口）;故「因 **dorsum sellae（鞍背）**缺損所致」**錯誤**＝題目正解（2016-172 正解 D）。[^1]
 - **MRI 訊號同 CSF**：垂體被壓扁、CSF 填充鞍內(option C 對)。[^1]
-- **骨性蝶鞍可擴大/重塑**(option A 對)。[^1]
+- **重點**: **骨性蝶鞍可擴大/重塑**(option A 對)。[^1]
 - **垂體仍可正常強化**：被壓的垂體組織仍正常強化(option B 對)。[^1]
-- 多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。[^1]
+- **重點**: 多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。[^1]
 
 ## 放射科醫師影像判讀重點
 - **機轉先認對「天花板」**：CSF 經缺損／不全的 **diaphragma sellae（鞍膈）**疝入蝶鞍壓扁垂體，而非 **dorsum sellae（鞍背）**缺損——此為常見考題陷阱。[^1][^3]

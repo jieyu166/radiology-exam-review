@@ -16,11 +16,12 @@ dateRev: 2026-07-10
 **顱底骨髓炎的影像邏輯：發炎組織取代骨髓 → T1 低訊號（正常脂肪髓消失）、T2/STIR 高訊號（水腫），強化明顯（骨、硬膜、咽旁軟組織），DWI 抓膿瘍。它最愛偽裝成腫瘤（NPC、脊索瘤），所以常需切片排除惡性。** 兩型要分清：典型（otogenic/temporal）續發自惡性外耳炎、好發糖尿病老人、Pseudomonas 為主；中央/非典型（central/atypical，clivus/sphenoid）常無明顯耳源、來自鼻竇或牙源感染，真菌比例升高。本題陷阱：水腫在 MRI 應為 **T2WI 高訊號**，題幹說「T1WI 高訊號（edema）」為錯（C）。
 
 ## Summary
-- **兩型**：**典型（otogenic）**——惡性外耳炎（necrotizing otitis externa）併發、以**顳骨**為主；**中央/非典型（central/atypical）**——無明顯耳源，常自**鼻竇炎、牙源性感染**或進行性鼻竇病續發，侵犯**斜坡（clivus）/蝶骨**。[^1][^2]
-- **致病菌**：**Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus**（考點 B，正確）；真菌（Aspergillus、Zygomycetes/Mucor）多見於**非典型型與嚴重免疫低下者**。[^1][^2]
-- **來源（考點 A，正確）**：可續發自**未妥善治療之牙源性（odontogenic）或鼻竇（sinonasal）感染**，經 Haversian 系統擴散。[^1][^2]
-- **MRI 訊號（考點 C，錯誤所在）**：發炎/水腫在 **T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號**；題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 **T2WI 高訊號**。[^1]
-- **鑑別（考點 D，正確）**：須含**鼻咽癌（NPC）、脊索瘤（chordoma）**、SNUC、淋巴瘤、轉移；影像重疊常需**反覆切片**排除惡性。[^1][^2]
+
+- **重點**: 兩型：典型（otogenic）——惡性外耳炎（necrotizing otitis externa）併發、以顳骨為主；中央/非典型（central/atypical）——無明顯耳源，常自鼻竇炎、牙源性感染或進行性鼻竇病續發，侵犯斜坡（clivus）/蝶骨。 [^1] [^2]
+- **重點**: 致病菌：Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus（考點 B，正確）；真菌（Aspergillus、Zygomycetes/Mucor）多見於非典型型與嚴重免疫低下者。 [^1] [^2]
+- **重點**: 來源（考點 A，正確）：可續發自未妥善治療之牙源性（odontogenic）或鼻竇（sinonasal）感染，經 Haversian 系統擴散。 [^1] [^2]
+- **重點**: MRI 訊號（考點 C，錯誤所在）：發炎/水腫在 T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號；題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 T2WI 高訊號。 [^1]
+- **重點**: 鑑別（考點 D，正確）：須含鼻咽癌（NPC）、脊索瘤（chordoma）、SNUC、淋巴瘤、轉移；影像重疊常需反覆切片排除惡性。 [^1] [^2]
 
 ## 影像診斷
 ### CT（評估骨質破壞之首選）

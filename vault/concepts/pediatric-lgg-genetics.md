@@ -13,10 +13,10 @@ dateRev: 2026-07-02
 **兒童低度惡性膠質瘤（LGG）基因突變數最少（median 1 mutation/tumor），幾乎全走 MAPK pathway，最常見為 BRAF 成分突變（fusion 或 V600E）。**
 
 ## Summary
-- 基因突變數所有腦瘤中最少：median 1 mutation per tumor [^1]
-- 幾乎都活化 **MAPK pathway** [^1]
-- 最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等） [^1]
-- 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]
+- **重點**: 基因突變數所有腦瘤中最少：median 1 mutation per tumor [^1]
+- **重點**: 幾乎都活化 **MAPK pathway** [^1]
+- **重點**: 最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等） [^1]
+- **重點**: 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]
 
 ## 放射科醫師影像判讀重點
 - **形態學分層思維**：兒童低度神經上皮腫瘤（PLGNT）應以「腫瘤形態＋部位＋組織學＋基因型」整合判讀；同一基因改變在不同部位／形態下影像表現不同，判讀先看邊界清楚、囊實混合的實質腫塊型 vs. 瀰漫浸潤型。[^2]

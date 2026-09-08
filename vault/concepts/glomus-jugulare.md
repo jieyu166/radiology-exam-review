@@ -20,11 +20,9 @@ dateRev: 2026-06-29
 - **臨床**：**pulsatile tinnitus、聽損**、後組顱神經病變。[^1]
 - **惡性轉化**：**可發生，約 2–13%**；故「**不會** malignant transformation」**錯誤**（2016-089 正解 C）。[^1]
 
-> [!note] 考點：何者「為非」？
-> 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]
+- **考點**: 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]
 
-> [!question]- Which one of the following is most likely to cause a jugular foramen mass? (2018-227)
-> **Paraganglioma（A）**——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。[^5]
+- **考點**: **Paraganglioma（A）**——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。[^5]
 
 ## 影像判讀骨架
 

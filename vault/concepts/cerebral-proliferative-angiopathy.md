@@ -13,11 +13,11 @@ dateRev: 2026-07-02
 **Cerebral proliferative angiopathy (CPA) 與典型 AVM 的關鍵差異：CPA 血管叢間含有正常腦實質（interposed normal brain parenchyma），典型 AVM 則無；CPA 常為大面積、涉及多血管領域、無明確 nidus；出血風險較 AVM 低。** 判讀分水嶺：**CPA 含正常腦組織是最重要鑑別點——與 AVM 不同，因此不宜手術切除。**
 
 ## Summary
-- **定義**：CPA 為一種罕見的腦血管畸形，血管叢廣泛分布、**病灶間夾雜正常腦實質** [^1]
-- **與 AVM 鑑別**：典型 AVM 有 compact nidus、無正常腦組織夾雜；CPA 為 diffuse、**含 interposed normal brain tissue** [^1]
-- **影像特徵**：大範圍、跨多個血管分布區域、無明確 nidus；常見 transdural supply [^1]
-- **臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療** [^1]
-- **常見表現**：頭痛、癲癇；較少以出血為初始表現 [^1]
+- **定義／病理**：CPA 是罕見腦血管畸形，血管叢廣泛分布，病灶間夾雜正常腦實質。[^1]
+- **與 AVM 鑑別**：典型 AVM 為 compact nidus、無正常腦組織夾雜；CPA 為 diffuse，含 interposed normal brain tissue。[^1]
+- **影像**：病灶大範圍、跨多個血管分布區域、無明確 nidus，常見 transdural supply。[^1]
+- **臨床意義**：出血風險低於 AVM；因含正常腦組織，不適合手術切除或立體定位放射治療。[^1]
+- **臨床表現**：常見頭痛、癲癇；較少以出血為初始表現。[^1]
 
 ## 放射科醫師影像判讀重點
 - **斷層影像特徵**：CT/MRI 呈瀰漫、密集強化的血管腔隙網，其間**夾雜正常腦實質**（interspersed normal brain）——此為與典型 AVM 之 compact nidus 的關鍵鑑別點。[^2]

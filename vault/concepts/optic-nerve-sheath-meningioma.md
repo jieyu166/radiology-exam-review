@@ -16,8 +16,8 @@ dateRev: 2026-07-02
 - **Tram-tracking sign**：contrast-enhanced MRI 上沿視神經鞘的雙軌強化，為 ONSM 最典型表現 [^1]
 - **Intratumor calcification**：CT 可見腫瘤內鈣化 [^1]
 - **Perioptic cyst**：視神經周圍囊性變化 [^1]
-- Hypointense pseudocapsule **不是** ONSM 的特徵 [^1]
-- 好發於中年女性，通常為單側，緩慢進行性視力喪失 [^1]
+- **重點**: Hypointense pseudocapsule **不是** ONSM 的特徵 [^1]
+- **重點**: 好發於中年女性，通常為單側，緩慢進行性視力喪失 [^1]
 
 ## 放射科醫師影像判讀重點
 - **Tram-track sign（軌道徵）**：顯影後CT或MRI上，強化的腫瘤沿視神經兩側包繞，中央未強化的視神經呈相對低訊號，形成雙軌狀外觀；橫斷面則呈甜甜圈狀（doughnut sign），為ONSM最具代表性徵象。[^2]

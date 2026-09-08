@@ -21,7 +21,7 @@ dateRev: 2026-07-10
 - **臨床三聯（Hakim triad）**：步態/平衡障礙（magnetic gait，常最早出現）、逼尿肌過動之尿失禁、認知障礙（輕至失智）；開口壓在正常範圍（<18–20 cmH₂O）。[^1]
 - **腦室擴大量測**：**Evans index >0.3**（額角最大寬 / 顱內最大橫徑）；顳角 >6 mm（非海馬萎縮所致）；**callosal angle 變銳（<90°，冠狀面經後聯合垂直於 AC-PC 量測）**；胼胝體上弓。[^1][^2]
 - **不成比例蛛網膜下腔變化**：Sylvian fissure 與 insular cistern 擴大、高凸面與 medial/parafalcine 溝回**擁擠（effacement）**、**cingulate sulcus sign（後半段窄於前半段）**、凸面個別溝回局部擴大。[^1][^2]
-- **DESH**（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。[^1]
+- **重點**: **DESH**（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。[^1]
 - **腦實質變化**：室周低密度（CT）或 T2-FLAIR 高訊號（transependymal oedema／小血管病）。[^1]
 - **CSF flow**：導水管 flow void 明顯（流速增高）；aqueductal stroke volume/peak velocity 可輔助但非必要。[^1]
 - **鈑刀刃狀腦回（knife-blade gyri）非 NPH**：屬額顳葉萎縮（FTD/Pick 病）之嚴重局部萎縮徵象。[^2]（詳見「鑑別與報告要點」）

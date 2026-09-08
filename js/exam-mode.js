@@ -287,7 +287,7 @@ const ExamMode = (function () {
       const ans = answers[q.id];
       const isCorrect = _isBonus(q) || ans === q.correctAnswer;
       if (!_state.resultRecorded) {
-        DataLoader.recordAnswer(q.id, { chosen: ans || null, correct: isCorrect });
+        DataLoader.recordAnswer(q.id, { chosen: ans || null, correct: isCorrect, sourceSha256: q.sourceSha256 || null });
       }
       if (_isBonus(q)) { correct++; }                       // 送分一律算對（含未作答），不列入錯題
       else if (!ans) { skipped++; wrongItems.push({ q, ans: null }); }
@@ -298,12 +298,15 @@ const ExamMode = (function () {
     const total  = questions.length;
     const pct    = total > 0 ? Math.round(correct / total * 100) : 0;
     if (!_state.resultRecorded) {
+      const sourceSha256ByQuestion = {};
+      questions.forEach(q => { sourceSha256ByQuestion[q.id] = q.sourceSha256 || null; });
       DataLoader.addExamRecord({
         total,
         correct,
         wrong,
         skipped,
         pct,
+        sourceSha256ByQuestion,
         wrongIds: wrongItems.map(item => item.q.id),
       });
       _state.resultRecorded = true;

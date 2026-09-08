@@ -14,13 +14,14 @@ dateRev: 2026-07-12
 **自發性顱內低壓（SIH）於MRI常見瀰漫性硬腦膜（pachymeningeal）強化，且中腦-橋腦夾角（midbrain-pons angle）會因腦幹下沉而縮小（narrowing），而非增大；此夾角縮小可預測對硬腦膜外血液貼片治療（blood patch）反應不佳。ICHD-3診斷標準需有低腦脊髓液壓力測量值及/或影像上CSF滲漏證據。**
 
 ## Summary
-- **瀰漫性硬腦膜強化（diffuse pachymeningeal enhancement）**：SIH 常見表現。[^1]
-- **中腦-橋腦夾角（midbrain-pons angle）**：SIH 病人因腦幹下沉（sagging brain）而使此夾角**縮小（narrowing）**，並非增大；**夾角 <50° 提示顱內低壓**。[^1]
-- **夾角縮小與治療反應**：**Narrowing 之夾角預測對 blood patch 治療反應不佳**。[^1] ⚠️ **來源caveat**：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）**未能明確證實**，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。[^3][^4]
-- **定量門檻（原始 Tier-1）**：**mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50°** 為敏感／特異之顱內低壓徵象；此夾角是**縮小**而非變寬。[^3]
-- **可逆性 vs Chiari I（鑑別）**：SIH 之腦幹／小腦扁桃體下垂**可逆**，扁桃體維持正常圓鈍輪廓；有別於 Chiari I 固定之 **peglike（尖楔狀）**扁桃體。[^4]
-- **脊椎漏定位輔助**：可用 **Bern score** 綜合腦部 MRI 徵象評估脊椎 CSF 漏之機率，指引是否進一步 myelography。[^5]
-- **ICHD-3 診斷標準**：需有**低 CSF 壓力測量值**及/或**CT myelography 或 MR myelography 上 CSF 滲漏證據**；**陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點**。[^1][^5]
+
+- **重點**: 瀰漫性硬腦膜強化（diffuse pachymeningeal enhancement）：SIH 常見表現。 [^1]
+- **重點**: 中腦-橋腦夾角（midbrain-pons angle）：SIH 病人因腦幹下沉（sagging brain）而使此夾角縮小（narrowing），並非增大；夾角 <50° 提示顱內低壓。 [^1]
+- **重點**: 夾角縮小與治療反應：Narrowing 之夾角預測對 blood patch 治療反應不佳。 ⚠️ 來源caveat：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）未能明確證實，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。 [^1] [^3] [^4]
+- **重點**: 定量門檻（原始 Tier-1）：mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50° 為敏感／特異之顱內低壓徵象；此夾角是縮小而非變寬。 [^3]
+- **重點**: 可逆性 vs Chiari I（鑑別）：SIH 之腦幹／小腦扁桃體下垂可逆，扁桃體維持正常圓鈍輪廓；有別於 Chiari I 固定之 peglike（尖楔狀）扁桃體。 [^4]
+- **重點**: 脊椎漏定位輔助：可用 Bern score 綜合腦部 MRI 徵象評估脊椎 CSF 漏之機率，指引是否進一步 myelography。 [^5]
+- **重點**: ICHD-3 診斷標準：需有低 CSF 壓力測量值及/或CT myelography 或 MR myelography 上 CSF 滲漏證據；陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點。 [^1] [^5]
 
 ## 放射科醫師影像判讀重點
 - **腦部 MRI（首選篩檢）——SEEPS 六徵**：判讀 SIH 應系統性掃過 SEEPS——硬膜下積液、瀰漫性硬腦膜（pachymeningeal）平滑增厚且**均勻強化**、靜脈竇及硬膜靜脈**充血擴大（engorgement）**、腦下垂體充血腫大、以及腦下垂（brain sag）；其中硬腦膜強化為**光滑連續、不累及軟腦膜/腦溝**，藉此與腦膜炎、癌症性腦膜病變的結節狀或軟腦膜強化鑑別。[^1][^2]

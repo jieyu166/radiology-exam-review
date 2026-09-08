@@ -24,18 +24,15 @@ dateRev: 2026-07-10
 - **腫瘤標記**：純 germinoma **AFP 應陰性**；β-hCG 可**輕度**升高（合併 syncytiotrophoblastic 成分時）；**AFP 升高或 β-hCG 顯著升高 → 提示非生殖細胞瘤性（NGGCT）**，影響治療與預後。[^2][^6]
 - **治療**：對**放療/化療高度敏感**，預後相對佳。[^1][^2]
 
-### 各位置影像判讀重點
 - **松果體型**：邊界清楚的結節/分葉狀腫塊、均勻強化；「engulfed」鈣化；可伴 bithalamic 延伸與瘤周水腫；可壓迫導水管造成阻塞性水腦、Parinaud 症候群。[^1][^3]
 - **鞍上/神經垂體型**：臨床以**尿崩（DI）**起病；MRI 見**神經垂體 T1 高訊號亮點（bright spot）消失**、**垂體柄增厚**。[^2]
 - **基底節/視丘型**：起病較隱匿（進行性偏癱、認知/精神症狀）；早期可僅見 **SWI/T2\* 低訊號**；具特徵的**同側大腦/腦幹萎縮（Wallerian degeneration，約 1/3 病例）**——兒童基底節病灶＋進行性偏癱＋同側半球萎縮應高度懷疑此型。[^2][^7]
 
-### 鑑別診斷（DDx）
 - **松果體區**：pineoblastoma（鈣化「exploded」周邊、DWI 受限、預後差）、pineocytoma（成人、邊界清、強化均勻）、teratoma（含脂肪/鈣化/囊變、訊號雜亂）、tectal glioma。[^1][^3]
 - **鞍上**：Langerhans cell histiocytosis（亦造成柄增厚＋DI，兒童）、顱咽瘤、視路/下視丘 glioma、lymphocytic hypophysitis、轉移。[^2]
 - **基底節**：低度 glioma、缺血/血管病變、感染——但同側半球萎縮較偏向 germinoma。[^7]
 
-> [!note] 考點：CNS germinoma 何者「錯」?
-> 「**女性約男性 10 倍**」錯——germinoma **男性為主**（松果體 M:F 約 5–22:1）。90% <20 歲、中線近第三腦室、可及基底節/視丘皆對。[^1][^2]
+- **考題**：「女性約男性 10 倍」錯；germinoma 男性為主，松果體 M:F 約 5–22:1。[^1][^2]
 
 ### 參考來源
 [^1]: *Intracranial germ cell tumours / CNS germinoma*. Radiopaedia.org（accessed 2026-06-28，開放）：最常見顱內生殖細胞瘤；松果體區「marked male preponderance, M:F 5–22:1」、peak 10–12 歲、90% <20 歲；中線（松果體 majority/第三腦室底/鞍上）；CT 相對高密度、T2 等/略高、注射後均勻強化；對放療敏感。

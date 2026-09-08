@@ -17,10 +17,10 @@ dateRev: 2026-07-12
 > 本概念舊版誤載為「midpoint >0.6 mm 或 operculum >1.5 mm」，**無來源支持且屬錯誤**（其中 1.5 mm 實為舊 Valvassori 之 **midpoint** 門檻被誤植到 operculum）。正確依 **Cincinnati criteria：midpoint ≥1.0 mm 或 operculum ≥2.0 mm**；舊 **Valvassori 標準為 midpoint >1.5 mm**（敏感度較低）。[^2]
 
 ## Summary
-- **LVA 為兒童 SNHL 在 CT 上最常見的發現**。[^1][^3]
-- 判定標準（**Cincinnati criteria**）：**midpoint ≥1.0 mm** 或 **operculum ≥2.0 mm**（源自 73 名正常兒童之 95th 百分位上限 midpoint 0.9／operculum 1.9 mm）；舊 **Valvassori 標準為 midpoint >1.5 mm**、敏感度較低。[^2]
-- 常伴隨其他內耳異常（membranous labyrinth abnormalities），約 **60%** 合併 IP-II（Mondini）等。[^1][^2]
-- 部分有遺傳因素（SLC26A4／pendrin 基因突變，約 27%），與 Pendred 症候群重疊。[^1][^3]
+- **重點**: **LVA 為兒童 SNHL 在 CT 上最常見的發現**。[^1][^3]
+- **重點**: 判定標準（**Cincinnati criteria**）：**midpoint ≥1.0 mm** 或 **operculum ≥2.0 mm**（源自 73 名正常兒童之 95th 百分位上限 midpoint 0.9／operculum 1.9 mm）；舊 **Valvassori 標準為 midpoint >1.5 mm**、敏感度較低。[^2]
+- **重點**: 常伴隨其他內耳異常（membranous labyrinth abnormalities），約 **60%** 合併 IP-II（Mondini）等。[^1][^2]
+- **重點**: 部分有遺傳因素（SLC26A4／pendrin 基因突變，約 27%），與 Pendred 症候群重疊。[^1][^3]
 
 ## 放射科醫師影像判讀重點
 - **CT 判讀為診斷主力**：顳骨高解析 CT（軸位）上，**前庭導水管 midpoint 直徑 ≥1.0 mm 或 operculum（外開口處）≥2.0 mm**（Cincinnati criteria）即判定為大前庭導水管；這是兒童感音性聽力損失最常見的 CT 影像發現。舊 Valvassori 以 **midpoint >1.5 mm** 判定、敏感度較低。[^1][^2]

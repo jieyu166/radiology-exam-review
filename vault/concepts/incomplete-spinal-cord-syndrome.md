@@ -14,10 +14,10 @@ dateRev: 2026-07-02
 
 ## Summary
 - **CCS**：最常見 ISCS，外傷（cervical hyperextension）為最常見原因 [^1]
-- Ventral horn / peripheral nerve injury → LMN deficits [^1]
+- **重點**: Ventral horn / peripheral nerve injury → LMN deficits [^1]
 - **Conus medullaris syndrome**：mixed UMN + LMN deficits [^1]
 - **Cauda equina syndrome**：purely LMN deficits [^1]
-- 鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss） [^1]
+- **重點**: 鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss） [^1]
 
 ## 放射科醫師影像判讀重點
 - **CCS 的典型受傷機轉與族群**：外傷性 CCS 為**最常見的不完全脊髓損傷**，典型見於**50歲以上、頸椎椎管狹窄（spondylosis）病人於頸椎過度後仰（hyperextension）外傷後**；影像判讀時應同時評估先天／退化性椎管狹窄與急性脊髓變化。[^2]

@@ -21,28 +21,12 @@ dateRev: 2026-07-10
 
 ## Summary
 
-### 影像（MS vs NMO 腦病灶）
 - **MS**：斑塊多 **supratentorial**;**Dawson finger（垂直腦室的卵圓形室周斑）**、juxtacortical/cortical;活性斑可**環狀（open-ring）強化**。[^1]
 - **NMO**：優先侵犯**視神經與脊髓**（LETM ≥3 椎節）;腦病灶**並非沒有**——**亞洲 60–80%、歐洲 25–40%**,鏡像 **aquaporin-4**（室周、導水管周灰質、下視丘/視丘、dorsal pons/medulla、胼胝體;corticospinal tract 長病灶）。[^1]
 
-### NMOSD 2015 IPND 診斷準則 [^2]
-- **AQP4-IgG(+)**：**≥1 項核心臨床特徵** ＋ 排除其他診斷。
-- **AQP4-IgG(−) 或無法檢測**：**≥2 項核心特徵**（須含 ON／acute myelitis／area postrema 之一）、其中 ≥1 項有對應 MRI、需**空間多發**、並排除其他。
-- **6 大核心臨床特徵**：①視神經炎 ②acute myelitis ③**area postrema syndrome**（頑固嘔吐/打嗝）④acute brainstem syndrome ⑤symptomatic narcolepsy／急性間腦症候群 ⑥symptomatic cerebral syndrome。
-- **MRI 要件（seronegative 用）**：ON 病灶長/偏後段/跨 chiasm;脊髓 **LETM ≥3 椎節**（急性期常腫脹、中央灰質為主）;area postrema／dorsal medulla;brainstem。
 
-### MS vs NMO（鑑別重點）[^1][^2]
-- **機轉**：MS＝cell-mediated（microglia）;NMO＝抗體（AQP4）介導之 **astrocytopathy**（影響 BBB 星狀細胞）。
-- **脊髓炎**：MS **<1–2 節、偏一側**;NMO **LETM ≥3 節、中央灰質**、發作後可萎縮。
-- **視神經炎**：MS 多單側、預後較好;NMO 嚴重、可雙側、偏後段/跨 chiasm。
-- **CSF OCB**：MS **~85%(+)**;NMO **<30%(+)**。
-- **流病**：MS 白人/~30 歲;NMO 亞洲較多/~40 歲、女性遠多於男性。
-- **⚠ 治療**：MS 用的免疫調節藥（如干擾素）**可能惡化 NMO** → 這是兩者鑑別的臨床關鍵。
 
-### MOGAD [^3]
-- 抗 **MOG** 抗體相關;為與 AQP4-NMOSD、MS 不同的**獨立疾病**（於血清陰性/NMO 樣病例中佔一部分,文獻常引約 10%）;影像可較模糊（棉絮樣）、ON 常雙側/長段。
 
-### MOGAD vs AQP4-NMOSD 臨床特徵（考點）
 - **發病年齡**：MOG-IgG 陽性者**發病年齡通常較 AQP4-IgG 陽性者年輕**（好發兒童/年輕成人）。[^4][^5]
 - **病程（monophasic vs relapsing，⚠ 文獻分歧）**：MOGAD 可為 monophasic 亦可 relapsing。**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 轉為復發**；成人及部分系列復發比例更高（約可達 40–50%）。故「MOGAD typically monophasic」與「tend to relapse」在文獻上並非定論——**官方 2021 詳解把選項 C 的「relapsing」判為錯（改為 monophasic），此鑑別點偏軟，判讀時對照原檔並存疑**。[^4]
 - **視神經炎型態**：ON 為 MOGAD 最主要表現；**常雙側、且偏前段（anterior，視神經頭/眶內段、常伴 optic disc oedema/perineural 強化）**——對照 AQP4-NMOSD 之 ON 偏**後段、跨視交叉（chiasm）**。[^4][^5]

@@ -21,7 +21,6 @@ same:
 - **分布**：**通常單側（unilateral）**，侵犯**尾核（caudate nucleus）與被殼（putamen）**（對側於症狀）。[^1]
 - **影像表現**：**非顯影CT呈高密度（hyperdense，非低密度）**；**T1WI呈高訊號（hyperintensity）**——CT高密度與T1高訊號並存為特徵。[^1]
 - **MR異常之成因（組織學）**：gemistocytes（肥胖性星形膠細胞）、microbleeds（微出血）、calcium（鈣質）、demyelination（脫髓鞘）、macrophages（巨噬細胞）等。[^1]
-- 相關：基底核T1縮短（T1高訊號）病因見 [[basal-ganglia-t1-shortening]]（NHH/hyperglycemia相關chorea-ballism為其一）。
 
 ## 放射科醫師影像判讀重點
 - **CT（判讀關鍵）**：對側基底核（**被殼 putamen、蒼白球 globus pallidus、尾核 caudate**）呈**高密度（hyperdense）**，非低密度；此高密度非鈣化性、且會隨臨床改善而消退，是與鈣化及出血鑑別的要點。[^1][^2]

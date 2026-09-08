@@ -22,8 +22,8 @@ same:
 - **進階 MR**：實質強化部分 **rCBV 明顯升高（DSC-PWI）**、**ADC 升高（DWI 不受限）**，MRS 可見 lipid/lactate peak——有助與轉移（常 DWI 受限）區分。[^1]
 - **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]
 - **脊髓型**：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；脊髓型多發時尤其要想 VHL。[^2]
-- 臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。[^1][^2]
-- 與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → **hemangioblastoma**（2016-090 正解 B）。[^1]
+- **重點**: 臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。[^1][^2]
+- **重點**: 與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → **hemangioblastoma**（2016-090 正解 B）。[^1]
 
 ## 放射科醫師影像判讀重點
 - **招牌型態**：成人小腦半球「囊＋強化壁結節」，壁結節強烈均勻強化、**緊貼軟膜（pial）面**，囊壁本身不強化——貼軟膜是重要定位線索。[^1][^2]

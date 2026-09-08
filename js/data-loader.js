@@ -12,6 +12,7 @@ const DataLoader = (function () {
   const _conceptCache = new Map(); // slug -> 單概念完整物件（懶載入快取）
   const SAFE_SLUG = /^[a-z0-9][a-z0-9-]*$/; // audit：slug 會拼進 fetch 路徑，限安全字元
   const PROGRESS_KEY = 'rex_progress';
+  const PROGRESS_VERSION = 2;
 
   /* ── 從 localStorage 取得使用者編輯 ── */
   function _getLocalEdits(namespace) {
@@ -34,17 +35,32 @@ const DataLoader = (function () {
   }
 
   function _emptyProgress() {
-    return { seen: {}, starred: {}, answers: {}, examHistory: [] };
+    return { schemaVersion: PROGRESS_VERSION, seen: {}, starred: {}, answers: {}, examHistory: [] };
   }
 
   function _normalizeProgress(raw) {
     const base = _emptyProgress();
     if (!raw || typeof raw !== 'object') return base;
+    const answers = raw.answers && typeof raw.answers === 'object' && !Array.isArray(raw.answers) ? raw.answers : {};
+    const normalizedAnswers = {};
+    Object.keys(answers).forEach(id => {
+      const value = answers[id];
+      normalizedAnswers[id] = value && typeof value === 'object'
+        ? Object.assign({}, value, { sourceSha256: value.sourceSha256 || null })
+        : { last: null, correct: false, ts: null, sourceSha256: null };
+    });
+    const examHistory = Array.isArray(raw.examHistory) ? raw.examHistory.map(item => {
+      if (!item || typeof item !== 'object') return item;
+      return Object.assign({}, item, {
+        sourceSha256ByQuestion: item.sourceSha256ByQuestion || item.questionSourceSha256 || null,
+      });
+    }) : [];
     return {
+      schemaVersion: PROGRESS_VERSION,
       seen: raw.seen && typeof raw.seen === 'object' && !Array.isArray(raw.seen) ? raw.seen : {},
       starred: raw.starred && typeof raw.starred === 'object' && !Array.isArray(raw.starred) ? raw.starred : {},
-      answers: raw.answers && typeof raw.answers === 'object' && !Array.isArray(raw.answers) ? raw.answers : {},
-      examHistory: Array.isArray(raw.examHistory) ? raw.examHistory : [],
+      answers: normalizedAnswers,
+      examHistory,
     };
   }
 
@@ -96,6 +112,7 @@ const DataLoader = (function () {
       last: result.chosen || null,
       correct: result.correct === true,
       ts: Date.now(),
+      sourceSha256: result.sourceSha256 || null,
     };
     _saveProgress(progress);
   }
@@ -103,7 +120,7 @@ const DataLoader = (function () {
   function addExamRecord(record) {
     if (!record || typeof record !== 'object') return;
     const progress = getProgress();
-    const item = Object.assign({ ts: Date.now() }, record);
+    const item = Object.assign({ ts: Date.now(), sourceSha256ByQuestion: null }, record);
     progress.examHistory = [item].concat(progress.examHistory || []);
     _saveProgress(progress);
   }
@@ -166,8 +183,7 @@ const DataLoader = (function () {
     const data = await resp.json();
 
     // 合併 localStorage 中對此年份問題的編輯
-    const edits = _getLocalEdits('year_' + key);
-    const questions = _mergeEdits(data.questions || [], edits);
+    const questions = data.questions || [];
 
     _cache.set(key, questions);
     return questions;
@@ -180,9 +196,7 @@ const DataLoader = (function () {
     if (!resp.ok) throw new Error('無法載入 concepts.json：' + resp.status);
     const data = await resp.json();
 
-    // 合併 localStorage 中的 concept 編輯
-    const edits = _getLocalEdits('concepts');
-    const concepts = Object.assign({}, data.concepts, edits);
+    const concepts = Object.assign({}, data.concepts);
 
     _concepts = concepts;
     return concepts;
@@ -196,11 +210,6 @@ const DataLoader = (function () {
     const data = await resp.json();
     const bySlug = {};
     for (const e of (data.concepts || [])) if (e && e.slug) bySlug[e.slug] = e;
-    // 合併 localStorage 概念編輯（覆蓋清單顯示欄位）
-    const edits = _getLocalEdits('concepts');
-    for (const slug of Object.keys(edits)) {
-      bySlug[slug] = Object.assign({ slug }, bySlug[slug] || {}, edits[slug]);
-    }
     _conceptsIndex = bySlug;
     return bySlug;
   }
@@ -240,15 +249,9 @@ const DataLoader = (function () {
         if (idx && idx[slug]) base = Object.assign({ slug }, idx[slug]);
       } catch (e) { /* 略過 */ }
     }
-    const edits = _getLocalEdits('concepts');
-    // 僅存在於 localStorage 的新建概念也要能解析
-    if (!base) {
-      if (!edits[slug]) return null;
-      base = { slug };
-    }
-    const merged = edits[slug] ? Object.assign({}, base, edits[slug]) : base;
-    _conceptCache.set(slug, merged);
-    return merged;
+    if (!base) return null;
+    _conceptCache.set(slug, base);
+    return base;
   }
 
   /* ── 取得所有已載入的問題（扁平化） ── */
@@ -262,44 +265,14 @@ const DataLoader = (function () {
 
   /* ── 儲存概念編輯到 localStorage + 記憶體快取 ── */
   function saveConceptEdit(id, patch) {
-    const key = 'rex_edits_concepts';
-    let edits;
-    try { edits = JSON.parse(localStorage.getItem(key) || '{}'); }
-    catch (e) { edits = {}; }
-    edits[id] = Object.assign({}, edits[id] || {}, patch);
-    localStorage.setItem(key, JSON.stringify(edits));
-
-    // 同步更新記憶體快取（舊 dict、懶載入快取、索引）
-    if (_concepts) {
-      _concepts[id] = Object.assign({}, _concepts[id] || {}, patch);
-    }
-    if (_conceptCache.has(id)) {
-      _conceptCache.set(id, Object.assign({}, _conceptCache.get(id), patch));
-    }
-    if (_conceptsIndex && _conceptsIndex[id]) {
-      _conceptsIndex[id] = Object.assign({}, _conceptsIndex[id], patch);
-    }
+    console.warn('[DataLoader] vault-native content is read-only; export rex_edits_* before migration instead');
+    return false;
   }
 
   /* ── 儲存單題編輯到 localStorage ── */
   function saveQuestionEdit(id, patch) {
-    const year = id.split('-')[0];
-    const key  = 'rex_edits_year_' + year;
-    const edits = (() => {
-      try { return JSON.parse(localStorage.getItem(key) || '{}'); }
-      catch (e) { return {}; }
-    })();
-    edits[id] = Object.assign({}, edits[id] || {}, patch);
-    localStorage.setItem(key, JSON.stringify(edits));
-
-    // 同步更新記憶體快取
-    if (_cache.has(year)) {
-      const qs = _cache.get(year);
-      const idx = qs.findIndex(q => q.id === id);
-      if (idx !== -1) {
-        qs[idx] = Object.assign({}, qs[idx], patch);
-      }
-    }
+    console.warn('[DataLoader] vault-native content is read-only; export rex_edits_* before migration instead');
+    return false;
   }
 
   /* ── 放棄所有編輯（清除 localStorage + 快取） ── */
@@ -367,6 +340,7 @@ const DataLoader = (function () {
     discardAllEdits,
     countPendingEdits,
     exportAllEdits,
+    exportLegacyEdits: exportAllEdits,
     loadAllAvailableYears,
   };
 })();

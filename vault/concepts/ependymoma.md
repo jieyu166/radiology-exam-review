@@ -17,8 +17,8 @@ same:
 ## Summary
 - **位置**：兒童多為**第四腦室底**起源；經 **foramen of Magendie → cisterna magna**、foramina of Luschka → CPA 延伸（"plastic" 可塑性）。[^1]
 - **訊號**：T2 高訊號、T1 低訊號、不均；**常鈣化(~50%)/出血 → SWI blooming foci**；注射後**不均勻（強/弱不一）強化**。[^1]
-- 與本題相符：第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、strong（部分 minimal）enhancement → **ependymoma**（2016-088 正解 C）。[^1]
-- 鑑別：medulloblastoma（中線、DWI 受限、兒童）、choroid plexus papilloma（強化均勻、好發側腦室/兒童）。[^1]
+- **重點**: 與本題相符：第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、strong（部分 minimal）enhancement → **ependymoma**（2016-088 正解 C）。[^1]
+- **重點**: 鑑別：medulloblastoma（中線、DWI 受限、兒童）、choroid plexus papilloma（強化均勻、好發側腦室/兒童）。[^1]
 
 ## 放射科醫師影像判讀重點
 - **「可塑性/擠出」徵（考點核心）**：**第四腦室底起源、經 Magendie 孔擠入 cisterna magna、經 Luschka 孔擠向 CPA/腦橋前池**——此柔軟包繞、經孔擠出之行為（"plastic ependymoma"）為與 medulloblastoma 最重要區別。[^1][^2]

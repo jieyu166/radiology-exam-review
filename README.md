@@ -1,135 +1,125 @@
 # 放射科交換考題複習
 
-放射科住院醫師交換考題線上複習系統，支援卡片翻牌、列表瀏覽、模擬考試三種模式。
+放射科住院醫師交換考題線上複習系統，支援卡片翻牌、列表瀏覽、模擬考試與概念筆記。
+
+**`vault/` 的 Markdown 是題目與概念內容的權威來源。** 醫師與 AI 在 Obsidian 或文字編輯器修改筆記，覆核後由編譯器產生網站發布套件；JSON 僅作為產生的索引與結構化輔助資料，不是日常編輯或回寫來源。
 
 ## 功能特色
 
-- **卡片模式**：逐題翻牌複習（題目 → 答案 → 詳解），支援觸控滑動與鍵盤導航
-- **列表模式**：所有題目以可展開的 accordion 呈現，快速瀏覽
-- **模擬考模式**：隨機抽題、倒數計時、自動評分與錯題分析
-- **概念卡片**：疾病/概念知識卡片，與考題雙向連結
-- **編輯介面**：醫師可直接在網頁上修改題目內容、標記已確認
-- **內容審核**：每題有 `checked` 欄位，預設只顯示已確認內容
-- **響應式設計**：手機、平板、桌面皆可使用
+- **卡片與列表**：逐題複習、顯示答案詳解，依年份、次專科、已覆核狀態等條件篩選
+- **模擬考**：抽題、倒數計時、評分與考試紀錄
+- **概念筆記**：閱讀 Markdown 內容，透過 wikilink 與題目、概念互相連結
+- **來源追溯**：發布資料保留來源路徑與 SHA256，方便比對內容版本
+- **學習進度**：瀏覽器本機保存星號、作答與考試紀錄，可匯出／匯入備份
+- **響應式設計**：支援手機、平板與桌面
 
-## 使用方式
+網站是內容閱讀端；題目與概念請回到 vault 編輯。`checked` 表示覆核狀態，使用者可開啟「已確認」篩選；它不是自動阻擋發布的開關。
 
-### 線上使用
+## 使用與本機預覽
 
-前往 GitHub Pages：`https://jieyu166.github.io/radiology-exam-review/`
+線上網站：[GitHub Pages](https://jieyu166.github.io/radiology-exam-review/)。
 
-### 本機使用
+需求：Git、Python 3.12（與 CI 相同），以及執行 JavaScript 測試所需的 Node.js。新版網站編譯器使用 Python 標準函式庫，前端為純 HTML／JavaScript／CSS，無 npm 安裝步驟。Obsidian 為選用的筆記編輯工具。
 
-```bash
-# 啟動本地伺服器
-python -m http.server 8080
-# 開啟瀏覽器前往 http://localhost:8080
+取得專案後，於專案根目錄依序執行；每一步須成功才繼續下一步：
+
+```powershell
+python scripts/audit_vault_native_cutover.py --vault vault --report tmp/cutover-audit.json
+python scripts/build_vault_site.py --vault vault --output dist --report dist/build-report.json
+python scripts/validate_vault_site.py --vault vault --output dist --report tmp/build-report-validate.json
+python scripts/build_static_site.py --output dist
+python -m http.server 8080 --directory dist
 ```
 
-### 編輯流程（Google Sheets 工作流程）
+開啟 `http://127.0.0.1:8080`。`dist/` 是可重新產生的發布套件，不要直接修改其中的筆記或 JSON。若建置／驗證失敗，先查看報告的來源檔、錯誤代碼與訊息，修正 vault 後重新建置。
 
-題目資料以 Google Sheets 為 source of truth，日常編輯流程：
+## 醫師與 AI 編輯流程
 
-1. 開啟 Google Sheets 試算表（`questions` sheet）
-2. 直接編輯題目內容（題幹、選項、正確答案、詳解、subspecialty、概念等）
-3. 編輯完成後，在本機執行同步腳本：
-   ```bash
-   python scripts/sheets_to_json.py
-   ```
-4. 確認變更符合預期：
-   ```bash
-   git diff data/
-   ```
-5. 提交並發布：
-   ```bash
-   git add data/
-   git commit -m "sync: update questions from Google Sheets"
-   git push
-   ```
+1. 用 Obsidian 開啟專案內的 `vault/`，或直接使用文字編輯器。
+2. 題目編輯 `vault/questions/{year}/{id}.md`；概念編輯 `vault/concepts/{slug}.md`。保留既有 frontmatter、題目的 `??` 正反面分隔、選項與答案格式，以及引用來源。
+3. 使用 `[[concepts/slug]]`、`[[questions/year/id]]` 等 wikilink 連結待覆核筆記。AI 補充的醫學內容與 Summary 圖仍須醫師覆核；確認後再更新適當的覆核欄位。
+4. 不應發布的題目／概念在 frontmatter 明確設定 `publish: false`。編譯器也排除檔名以 `_` 開頭的筆記。其餘位於 questions／concepts 的筆記會進入發布範圍，即使 `checked: false` 亦然。
+5. 執行上述建置與驗證，完成下列測試，再用本機網站檢視內容與圖片。
+6. 檢查 Git 差異，只提交已確認的來源筆記與必要程式變更。推送至 `main` 後由 GitHub Actions 建置及部署。
 
-首次設定請參考 [`scripts/README.md`](scripts/README.md)，需要設定 Google service account 金鑰。
+本機 Summary 圖稿與圖片覆核另行管理，並非此網站的公開管理功能。編譯器只掃描 `vault/questions/` 與 `vault/concepts/`，不會自動發布 `vault/summary-graphics/` 的草稿；將已核准圖片正式引用到發布筆記前，仍須確認圖文與圖片來源。
 
-## 資料來源
+### Obsidian 複習
 
-- 交換考題 PDF（2016–2024）
-- 已匯入：**2016–2024 共 1,230 題**（各年 15–239 題）
-- 官方詳解 PDF（vault `3. Resources/論文s/交換考/`）為詳解的事實基礎
+題目沿用 Spaced Repetition 的 `??` 卡片格式及 `#交換` 標籤；概念可含 Dataview 查詢。首次開啟 vault 時，如需這些功能，請自行安裝並啟用 **Spaced Repetition** 與 **Dataview** 社群外掛。網站不執行這些 Obsidian 外掛。
 
-## 詳解流水線（機器先審、人覆核）
+## 測試與發布
 
-為大量未審核題目逐批製作逐選項詳解、補放射來源 reference、補分類，再由醫師覆核。
-移植 robust-lit-review 的品質工程骨架，查核閘改為放射科來源（期刊/radiopaedia/statdx/教科書/官方詳解）。
+與目前 Pages workflow 相同的測試命令：
 
-```bash
-# 1) 便宜層：抽官方詳解 + 稽核基準（每年份一次）
-python scripts/extract_official_explanations.py 2016   # → tmp/official-2016.json
-python scripts/audit_questions.py 2016                 # → tmp/audit-2016.json
-
-# 2) 智慧層：在 Claude Code 內呼叫 skill「exam-explanation-pipeline」逐批產出 patch
-#    → data/rex-edits-pipeline-2016-YYYY-MM-DD.json（不設 checked，留待覆核）
-
-# 3) 覆核：合併 → 網頁 editor 確認 → 設 checked → commit
-python scripts/merge_edits.py data/rex-edits-pipeline-2016-*.json
-
-# 來源辨識閘可獨立自測
-python scripts/verify_reference.py --selftest
+```powershell
+python scripts/test_vault_site.py
+node scripts/test_content_store.js
+node scripts/test_note_renderer.js
+node scripts/test_vault_question_view.js
+node scripts/test_study_progress.js
 ```
 
-## Obsidian SR Vault（vault/）
+[`deploy-pages.yml`](.github/workflows/deploy-pages.yml) 的流程為：
 
-把交換考題整理成獨立的 Obsidian Spaced-Repetition vault（與網站分離），以卡片翻牌複習、以
-concept 筆記組織知識。資料源為 `data/{year}.json`，單一真實來源仍是 JSON、vault 由其產生。
-
-```bash
-# 由 data/2016.json 產生 vault（一題一檔 SR 卡片 + 概念筆記 + SR 外掛設定）
-python scripts/json_to_vault.py 2016
-# 補詳解後重生（保留既有 SR 排程 <!--SR:--> 行）
-python scripts/json_to_vault.py 2016 --force
+```text
+vault Markdown
+  → audit_vault_native_cutover
+  → build_vault_site
+  → validate_vault_site
+  → build_static_site
+  → Python / JavaScript 測試
+  → 上傳 dist Pages artifact
+  → GitHub Pages 部署
 ```
 
-- **題目卡片** `vault/questions/{year}/{id}.md`：YAML frontmatter + `#交換 #{year}交換 #{科}` tag +
-  題幹選項 + `??` + 答案與逐選項詳解 + `[[concept-id]]` 概念連結。
-- **概念筆記** `vault/concepts/{id}.md`：概念說明（取自 `data/concepts.json`）+ Dataview 動態匯整相關題。
-- **詳解不足**的題（逐選項未通過）背面會標 `> [!todo] 待補詳解`，交給 `exam-explanation-pipeline`
-  skill 補後，更新回 JSON 再 `--force` 重生。
-- **冪等**：預設不覆寫既有檔（保護編輯與 SR 排程）；`--force` 覆寫時保留 `<!--SR:` 排程行。
+GitHub repository 的 **Settings → Pages → Source** 應使用 **GitHub Actions**。Workflow 在 `main` 的 vault、網站程式或建置相關路徑變更時觸發，也可於 Actions 手動執行；只修改 README 不會自動觸發。建置／驗證／測試失敗時不進入部署，報告另存為 Actions artifact。
 
-> **前提**：首次用 Obsidian 開 `vault/` 後，需手動啟用社群外掛 **Spaced Repetition**（flashcard tag
-> 已設為 `#交換`）與 **Dataview**。腳本只寫設定、不安裝外掛。
+## 資料來源與覆核限制
 
-## 技術架構
+- 交換考題 PDF（2016–2024）；實際發布題數以本次 `dist/build-report.json` 為準。
+- 官方詳解 PDF 為詳解的事實基礎，概念筆記與放射科文章提供補充來源。
+- 編譯與測試通過只證明格式、連結與程式行為檢查通過，不代表醫學內容已獲核准。
+- 學習紀錄存在目前瀏覽器，沒有跨裝置帳號同步；換裝置前請先匯出。
+- 網站僅支援其 Markdown renderer 實作的語法，不等同完整 Obsidian 執行環境；外部圖片仍依賴其網址可用。
 
-- 純 HTML / JavaScript / CSS（無框架）
-- 靜態網站，部署於 GitHub Pages
-- 資料以 JSON 格式儲存
-- PDF 解析使用 Python + PyMuPDF
+## 技術架構與專案結構
 
-## 專案結構
+編譯器保存 Markdown 內容，另外產生 manifest、索引、來源位置與題目結構資料；前端由 ContentStore 讀取發布套件，再由筆記 renderer 與題目 view 顯示。舊 JSON 資料與瀏覽器內容 patch 不會成為新版內容來源。
 
-```
+```text
 radiology-exam-review/
-├── index.html              # SPA 入口
-├── css/main.css            # 樣式
-├── js/                     # JavaScript 模組
-│   ├── app.js              # 路由
-│   ├── data-loader.js      # 資料載入
-│   ├── question-store.js   # 題目篩選
-│   ├── card-mode.js        # 卡片模式
-│   ├── list-mode.js        # 列表模式
-│   ├── exam-mode.js        # 模擬考
-│   ├── concept-cards.js    # 概念卡片
-│   └── editor.js           # 編輯介面
-├── data/
-│   ├── index.json          # 年份索引
-│   ├── 2016.json           # 2016 考題
-│   ├── concepts.json       # 概念資料
-│   └── images/2016/        # 考題圖片
-└── scripts/
-    ├── parse_2016.py                      # 早期 PDF 解析
-    ├── import_obsidian_sr.py              # 從 Obsidian SR 匯入題目
-    ├── sheets_to_json.py / json_to_sheets.py  # Google Sheets 雙向同步
-    ├── merge_edits.py                     # 合併 rex-edits patch
-    ├── extract_official_explanations.py   # 詳解流水線：抽官方詳解+對齊
-    ├── audit_questions.py                 # 詳解流水線：5 項品質稽核
-    └── verify_reference.py                # 詳解流水線：放射來源辨識閘
+├── vault/
+│   ├── questions/{year}/{id}.md   # 題目權威來源
+│   └── concepts/{slug}.md        # 概念權威來源
+├── index.html                   # 新版網站入口
+├── css/main.css
+├── js/
+│   ├── content-store.js         # 發布套件讀取
+│   ├── note-renderer.js         # Markdown / wikilink 顯示
+│   ├── vault-question-view.js   # 題目與答案顯示
+│   ├── vault-app.js             # 路由、篩選與複習模式
+│   └── data-loader.js           # 學習進度、舊 patch 匯出相容功能
+├── scripts/
+│   ├── vault_site/              # Markdown 編譯器
+│   ├── audit_vault_native_cutover.py
+│   ├── build_vault_site.py
+│   ├── validate_vault_site.py
+│   ├── build_static_site.py
+│   └── test_*                   # Python / JavaScript 測試
+├── .github/workflows/deploy-pages.yml
+├── dist/                        # 產生的發布套件
+└── data/                        # legacy 匯入／遷移資料，非日常編輯來源
 ```
+
+## Legacy：舊匯入與詳解工具
+
+以下保留供歷史資料整理、遷移或復原，**不屬於新版日常編輯／發布流程，不得直接覆寫醫師已編輯的 vault**：
+
+- `sheets_to_json.py`／`json_to_sheets.py`：舊 Google Sheets 與 JSON 同步；Sheets 已不是權威來源。
+- `json_to_vault.py`／`vault_to_json.py`：舊格式匯入／匯出；不要以 `json_to_vault.py --force` 日常重生筆記。
+- `merge_edits.py`：合併舊 `rex-edits` JSON patch；新版網站只提供舊 patch 匯出，不自動套用。需要保留的內容應逐項比較並轉入 Markdown，交由醫師覆核。
+- `extract_official_explanations.py`／`audit_questions.py`：舊 JSON 詳解流水線的抽取與稽核工具。其輸出可供人工參考，不能直接視為新版 vault 已更新或已核准。
+- `verify_reference.py --selftest`：舊流水線的來源辨識自測。
+
+舊 PDF／Sheets 工具的額外依賴與設定見 [`scripts/README.md`](scripts/README.md)。該文件的同步流程僅適用 legacy 作業；不要將 Google 金鑰或私人來源檔提交至 GitHub。

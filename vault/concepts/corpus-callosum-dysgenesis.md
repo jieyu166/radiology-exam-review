@@ -18,10 +18,10 @@ same:
 **胼胝體發育不良（agenesis/dysgenesis of corpus callosum）的典型伴隨徵象：colpocephaly（枕角不成比例擴大）、interhemispheric lipoma（大腦間裂脂肪瘤）、Probst bundle（本應跨中線的白質改與半球間裂平行走向，使側腦室分得很開 → racing car sign）——但『扁桃體下降（descended tonsil）』與其無關（屬 Chiari malformation）。** 判讀分水嶺：**Probst bundle → racing car sign 為特徵；colpocephaly 反映壓部/後方白質缺失；interhemispheric lipoma 常併存（原始腦膜異常分化）；descended cerebellar tonsil＝Chiari，非胼胝體發育不良徵象。詳細徵象機轉見 [[corpus-callosum-agenesis-signs]]。**
 
 ## Summary
-- **Colpocephaly**：側腦室**枕角不成比例擴大**（缺壓部/後方白質正常發育）。[^1][^2]
-- **Interhemispheric lipoma**：與胼胝體發育不良**常併存**，源自胚胎期原始腦膜（meninx primitiva）異常分化成脂肪。[^1]
-- **Probst bundle**：本應跨胼胝體之白質無法跨中線，改**與半球間裂平行縱走**，使兩側側腦室平行分開 → **racing car sign**（軸位側腦室前角似賽車車身）。[^1][^2]
-- **Descended tonsil（不相關）**：小腦扁桃體疝出至枕骨大孔以下＝**Chiari malformation**，**非**胼胝體發育不良之伴隨徵象。[^1]
+- **Colpocephaly**：側腦室枕角不成比例擴大，與壓部／後方白質正常發育缺損相關。[^1][^2]
+- **Interhemispheric lipoma**：常與胼胝體發育不良併存，源自原始腦膜異常分化成脂肪。[^1]
+- **Probst bundle**：白質無法跨中線而平行縱走，使側腦室平行分開，形成 racing car sign。[^1][^2]
+- **鑑別**：小腦扁桃體下疝為 Chiari malformation，非胼胝體發育不良伴隨徵象。[^1]
 
 ## 放射科醫師影像判讀重點
 - **三面最佳線索（STATdx）**：**軸位＝側腦室平行 + colpocephaly；矢狀＝cingulate sulcus 消失、腦溝放射狀達第三腦室緣；冠狀＝high-riding 第三腦室 + 額角上翹呈 trident/Viking helmet/Texas Longhorn**。[^3]

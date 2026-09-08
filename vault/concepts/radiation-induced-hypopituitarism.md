@@ -17,18 +17,17 @@ dateRev: 2026-07-05
 **下視丘-腦下垂體軸（hypothalamopituitary axis）常被納入腦部、鼻咽、顱底腫瘤與 CNS 預防性照射／全身照射的放射野內；放療後可出現不可逆且漸進的前葉腦下垂體功能低下（anterior hypopituitarism），屬 late-onset 併發症。判讀與臨床核心：各內分泌軸對輻射的敏感度不同——『生長激素（GH）軸最脆弱』，其後依序為 gonadotropin → ACTH → TSH。** 判讀分水嶺一：**低劑量（<30–40 Gy）多產生『孤立性 GH 缺乏』；高劑量（≥60 Gy，鼻咽癌／顱底腫瘤）可致 panhypopituitarism。** 判讀分水嶺二：**輻射傷害的主要部位是『下視丘』而非腦下垂體本身，腦下垂體萎縮多為次發性；影像上見腦下垂體萎縮常伴鄰近 leukoencephalopathy 等變化。**
 
 ## Summary
-- **內分泌軸敏感度排序（考點）**[^1][^2]：下視丘-腦下垂體軸內，**GH 軸對輻射最脆弱（most vulnerable / most radiosensitive）**，其後依序為 **gonadotropin → ACTH（adrenocorticotropic hormone）→ TSH（thyroid-stimulating hormone）**。因此臨床上 GH 缺乏最早、最常見。
-- **屬 late-onset、不可逆且漸進**[^1][^2]：放療後前葉激素缺乏為 irreversible & progressive；血中激素異常常在臨床症狀出現前很久即可偵測，異常最早可在完成治療後約 1 年出現，盛行率隨時間增加。
-- **盛行率**[^1]：成人因原發性非腦下垂體腫瘤接受顱部照射後，任何程度 hypopituitarism 的盛行率約 **66%**（系統性回顧，18 篇研究）。
-- **劑量-效應關係**[^1][^2][^3]：嚴重度、發生速度與頻率與『下視丘-腦下垂體軸接受的總劑量』相關，並受 fraction size、照射時年齡較小、腫瘤／手術先前已傷及腦下垂體等影響。
-  - **<30–40 Gy**：多為**孤立性 GH 缺乏（isolated GH deficiency）**。[^1][^2]
-  - **30–50 Gy**：GH 缺乏頻率大增（可達 50–100%），TSH/ACTH 缺乏開始出現（長期累積約 3–6%）。[^2][^3]
-  - **≥60 Gy**（鼻咽癌／顱底腫瘤等強化照射）：gonadotropin、ACTH、TSH 缺乏頻率顯著上升，可致 **panhypopituitarism**。[^1][^2]
-- **傷害部位與機轉**[^1][^4]：主要受損部位是**下視丘**而非腦下垂體本身；腦下垂體萎縮多為次發性（下視丘營養因子分泌下降＋隨時間之直接輻射傷害）。RadioGraphics 目前偏好的機轉是**離子輻射造成的直接神經元傷害、退化與細胞死亡**，而非血管性傷害。
-- **臨床追蹤**[^1][^2]：接受下視丘／腦下垂體區照射者，應於完成放療 1 年內做基準內分泌評估並定期追蹤，以利及時診斷與荷爾蒙補充。
 
-> [!note] 考點：內分泌軸輻射敏感度排序
-> **GH > gonadotropin > ACTH > TSH**（由最脆弱到最耐受）。故『何種激素對輻射最敏感／最先受損』答案為 **Growth hormone**。孤立性 GH 缺乏最常見（低劑量）；高劑量才逐步累加 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。[^1][^2]
+- **重點**: 內分泌軸敏感度排序（考點）：下視丘-腦下垂體軸內，GH 軸對輻射最脆弱（most vulnerable / most radiosensitive），其後依序為 gonadotropin → ACTH（adrenocorticotropic hormone）→ TSH（thyroid-stimulating hormone）。因此臨床上 GH 缺乏最早、最常見。 [^1] [^2]
+- **重點**: 屬 late-onset、不可逆且漸進：放療後前葉激素缺乏為 irreversible & progressive；血中激素異常常在臨床症狀出現前很久即可偵測，異常最早可在完成治療後約 1 年出現，盛行率隨時間增加。 [^1] [^2]
+- **重點**: 盛行率：成人因原發性非腦下垂體腫瘤接受顱部照射後，任何程度 hypopituitarism 的盛行率約 66%（系統性回顧，18 篇研究）。 [^1]
+- **重點**: 劑量-效應關係：嚴重度、發生速度與頻率與『下視丘-腦下垂體軸接受的總劑量』相關，並受 fraction size、照射時年齡較小、腫瘤／手術先前已傷及腦下垂體等影響。 [^1] [^2] [^3]
+- **重點**: <30–40 Gy：多為孤立性 GH 缺乏（isolated GH deficiency）。 [^1] [^2]
+- **重點**: 30–50 Gy：GH 缺乏頻率大增（可達 50–100%），TSH/ACTH 缺乏開始出現（長期累積約 3–6%）。 [^2] [^3]
+- **重點**: ≥60 Gy（鼻咽癌／顱底腫瘤等強化照射）：gonadotropin、ACTH、TSH 缺乏頻率顯著上升，可致 panhypopituitarism。 [^1] [^2]
+- **重點**: 傷害部位與機轉：主要受損部位是下視丘而非腦下垂體本身；腦下垂體萎縮多為次發性（下視丘營養因子分泌下降＋隨時間之直接輻射傷害）。RadioGraphics 目前偏好的機轉是離子輻射造成的直接神經元傷害、退化與細胞死亡，而非血管性傷害。 [^1] [^4]
+- **重點**: 臨床追蹤：接受下視丘／腦下垂體區照射者，應於完成放療 1 年內做基準內分泌評估並定期追蹤，以利及時診斷與荷爾蒙補充。 [^1] [^2]
+- **重點**: GH > gonadotropin > ACTH > TSH（由最脆弱到最耐受）。故『何種激素對輻射最敏感／最先受損』答案為 Growth hormone。孤立性 GH 缺乏最常見（低劑量）；高劑量才逐步累加 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。 [^1] [^2]
 
 ## 放射科醫師影像判讀重點
 - **這是『臨床-劑量學』考點多於影像徵象**：影像常無專一表現，需結合放療病史。核心影像所見為**腦下垂體萎縮**（不同程度），常與鄰近**輻射誘發變化**並存（如 leukoencephalopathy、鄰近實質變化）。[^1]

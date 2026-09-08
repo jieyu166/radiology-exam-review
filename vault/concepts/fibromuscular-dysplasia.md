@@ -16,9 +16,6 @@ dateRev: 2026-07-01
 
 ## Summary（好發血管，依Olin 2012, 447例資料）
 - **腎動脈(renal arteries)**：約79.7%，**最常侵犯**。[^1]
-- **肋外頸動脈(extracranial carotid)**：約74.4%。
-- **椎動脈(vertebral arteries)**：約36.6%。
-- **腸繫膜動脈(mesenteric arteries)**：約26%。
 - **顱內頸動脈(intracranial carotid arteries)**：約17%。[^1]
 
 ## Summary（三型分類）
@@ -27,8 +24,7 @@ dateRev: 2026-07-01
 - **Type III（5%）**：單側不對稱外突(asymmetric outpouching from 1 side of artery)＝**periadventitial fibroplasia（外膜周圍纖維增生）**。[^2]
 - **Type I細分（另一分類系統）**：medial dysplasia(70%，最常見亞型)、perimedial(subadventitial) fibroplasia(15-20%)、medial hyperplasia(8-10%)。[^2]
 
-> [!note] 考點：FMD好發血管排序何者「錯誤」？
-> **外頸動脈>內頸動脈>椎動脈（A）**——實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈，此敘述錯誤。Type I/II/III分型與型態學對應皆為正確描述。[^1][^2]
+- **考題**：外頸動脈>內頸動脈>椎動脈（A）錯；實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈。[^1][^2]
 
 ## 放射科醫師影像判讀重點
 - **首選診斷影像**：懷疑腎動脈或顱外頸／椎動脈FMD時，CTA或MRA為第一線非侵入性影像；導管血管攝影（DSA）仍是診斷金標準，並可同時測量壓力梯度以評估血流動力學意義。[^3]

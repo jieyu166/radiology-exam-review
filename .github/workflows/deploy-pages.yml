@@ -1,0 +1,90 @@
+name: Build and deploy vault-native review site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vault/**'
+      - 'scripts/vault_site/**'
+      - 'scripts/build_vault_site.py'
+      - 'scripts/validate_vault_site.py'
+      - 'scripts/build_static_site.py'
+      - 'scripts/audit_vault_native_cutover.py'
+      - 'scripts/test_*.js'
+      - 'scripts/test_vault_site.py'
+      - 'js/**'
+      - 'css/**'
+      - 'index.html'
+      - '.github/workflows/deploy-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Audit vault-native cutover boundary
+        run: python scripts/audit_vault_native_cutover.py --vault vault --report tmp/cutover-audit.json
+
+      - name: Build vault-native publication package
+        run: python scripts/build_vault_site.py --vault vault --output dist --report dist/build-report.json
+
+      - name: Validate publication package
+        run: python scripts/validate_vault_site.py --vault vault --output dist --report tmp/build-report-validate.json
+
+      - name: Build static website
+        run: python scripts/build_static_site.py --output dist
+
+      - name: Run browser-compatible smoke tests
+        run: |
+          python scripts/test_vault_site.py
+          node scripts/test_content_store.js
+          node scripts/test_note_renderer.js
+          node scripts/test_vault_question_view.js
+          node scripts/test_study_progress.js
+
+      - name: Upload failed build reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: vault-native-build-reports
+          path: |
+            dist/build-report.json
+            tmp/build-report-validate.json
+            tmp/cutover-audit.json
+          if-no-files-found: warn
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

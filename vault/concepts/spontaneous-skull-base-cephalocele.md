@@ -17,9 +17,10 @@ same:
 **自發性顱底腦膜腦膨出（尤其外側蝶竇型）被視為隱性慢性顱內壓升高（idiopathic intracranial hypertension, IIH）的一種表現，好發於肥胖中年女性，且與蝶竇過度氣化（非氣化不良）造成骨壁變薄有關。** 判讀分水嶺：**顱內壓升高的典型影像徵象包含視神經鞘複合體異常、突出的arachnoid granulation、dural ectasia、meningoencephalocele與empty sella syndrome；pachymeningeal enhancement並非其特徵，而是顱內低壓的表現，為常見鑑別陷阱。**
 
 ## Summary
-- **IIH 典型影像徵象**：視神經鞘複合體異常（optic nerve sheath complex abnormalities）、突出之 arachnoid granulation、meningoencephalocele、empty sella syndrome。[^1]
-- **非典型徵象（陷阱）**：**pachymeningeal（硬腦膜）enhancement 並非 IIH 特徵**，屬顱內低壓（intracranial hypotension）的典型表現，考題常以此作誤導選項。[^1]
-- **自發性外側蝶骨腦膜腦膨出危險因子**：**肥胖**、**中年女性**、**IIH**；解剖上與蝶竇**過度氣化（hyperpneumatization）**造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。[^2]
+
+- **重點**: IIH 典型影像徵象：視神經鞘複合體異常（optic nerve sheath complex abnormalities）、突出之 arachnoid granulation、meningoencephalocele、empty sella syndrome。 [^1]
+- **重點**: 非典型徵象（陷阱）：pachymeningeal（硬腦膜）enhancement 並非 IIH 特徵，屬顱內低壓（intracranial hypotension）的典型表現，考題常以此作誤導選項。 [^1]
+- **重點**: 自發性外側蝶骨腦膜腦膨出危險因子：肥胖、中年女性、IIH；解剖上與蝶竇過度氣化（hyperpneumatization）造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。 [^2]
 
 ## 陷阱
 - 「poor pneumatization of sphenoid sinus」為錯誤危險因子——實際上是蝶竇**過度氣化**（骨壁薄弱處增多）才會增加自發性腦膨出風險。[^2]

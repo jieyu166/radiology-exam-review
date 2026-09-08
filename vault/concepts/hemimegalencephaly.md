@@ -18,10 +18,9 @@ dateRev: 2026-07-02
 - **半球腫大**：**一側大腦半球部分或全部腫大(enlargement of part or all of a hemisphere)**、皮質增厚、腦溝異常。[^1]
 - **髓鞘化**：**髓鞘化進展(progression of myelination)、且相對年齡呈『加速髓鞘化』**——受累白質於**T1呈增高訊號、CT值增高**（非減少）。[^1]
 - **本題陷阱**：「白質於T1呈訊號減低，因髓鞘化減少」為**錯誤**——實際為**加速髓鞘化致T1訊號增高**（另白質亦可增高訊號、異位神經元造成T1縮短）。[^1]
-- 其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。[^1]
+- **重點**: 其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。[^1]
 
-> [!note] 考點：關於hemimegalencephaly何者「不正確」？
-> **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]
+- **考點**: **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]
 
 ## 放射科醫師影像判讀重點
 - **核心影像徵象**：單側大腦半球（部分或全部）擴大，伴同側腦室擴大（尤其額角向前上方拉長）；此不對稱性腦室擴大常為產前超音波與胎兒MRI最先偵測到的非特異表現。[^2]

@@ -19,7 +19,7 @@ dateRev: 2026-06-28
 - **致病菌**：**Fusobacterium necrophorum（~80%）,anaerobic Gram-negative bacillus**;為正常口咽菌叢成員。[^1]
 - **擴散途徑**：初始口咽感染（**咽炎/扁桃腺炎**）→ **側咽（lateral pharyngeal）/頸動脈間隙** → IJV。[^1]
 - **敗血性栓塞**：**肺 ~90%（pulmonary septic emboli 最常見）**、肺膿瘍/膿胸、CNS、關節。[^1]
-- **morbidity/mortality 高於其他頭頸感染**。[^1]
+- **重點**: **morbidity/mortality 高於其他頭頸感染**。[^1]
 
 ## 影像判讀
 

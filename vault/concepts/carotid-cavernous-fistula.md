@@ -17,17 +17,13 @@ dateRev: 2026-07-03
 **Barrow 分類：Type A＝「直接型/高流量」——頸內動脈（ICA）海綿竇段單孔撕裂/斷裂，動靜脈分流直接注入海綿竇（CS），最常見、主因外傷；Type B/C/D＝「間接型/低流量」硬腦膜 AVF，繼發於海綿竇血栓再血管化。CN VI 因游離走行於海綿竇內、緊鄰 ICA，最常受累。** 判讀分水嶺：**影像招牌＝眼球突出＋上眼靜脈（SOV）擴張＋海綿竇擴大＋眼外肌腫大；CT/CTA/MRA 具提示、DSA 為確診與治療。動脈化血流外流路徑含 SOV/angular-facial（前）、inferior/superior petrosal sinus（後）、pterygoid plexus（下）、superficial sylvian 皮質靜脈（上），但『thalamostriate vein（深部腦靜脈）不是常見外流路徑』（考題陷阱）。皮質靜脈逆流→SAH、眼靜脈高壓→失明、ICA 遠端血流下降→半球缺血，是急症警訊。**
 
 ## Summary
-
-### Barrow 分類與病因
-- **Type A（直接型/高流量）**：ICA 海綿竇段與 CS **直接相通（單孔撕裂/斷裂）**，**最常見**；**最常見病因為外傷**（其次 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離）。[^1][^4]
-- **Type B/C/D（間接型/低流量）**：硬腦膜 AVF，繼發海綿竇血栓再血管化；誘因含懷孕、局部手術、鼻竇炎。[^1]
-
-### 顱神經受累
-- **CN VI（外旋神經）最常受累**（游離走行海綿竇內、緊鄰 ICA）致複視；壓力可傳至對側致對側 CN VI 麻痺；CN III/IV/V 走行外側壁亦可受累但較少。[^2][^4]
-
-### 靜脈外流路徑
-- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]
-- **非常見（考題重點）**：**Thalamostriate vein（視丘紋狀體靜脈）屬深部腦靜脈系統，非 CCF 常見外流路徑**。[^3]
+- **分類—Type A**：直接型／高流量，ICA 海綿竇段與 CS 直接相通（單孔撕裂／斷裂），最常見；最常見病因為外傷，其次為 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離。[^1][^4]
+- **分類—Type B/C/D**：間接型／低流量硬腦膜 AVF，可繼發海綿竇血栓再血管化；誘因包括懷孕、局部手術、鼻竇炎。[^1]
+- **顱神經**：CN VI 最常受累（游離走行海綿竇內、緊鄰 ICA）並致複視；壓力可傳至對側致對側 CN VI 麻痺。[^2][^4]
+- **顱神經—其他**：CN III、IV、V 走行外側壁亦可受累，但較少。[^2][^4]
+- **靜脈外流—前／後**：前方經 SOV／inferior ophthalmic vein 至 angular／facial vein，可見眼球突出、結膜水腫；後方經 inferior／superior petrosal sinus 至 jugular／transverse sinus。[^3][^4]
+- **靜脈外流—下／上**：下方經 pterygoid venous plexus、basilar plexus；上方／皮質可經 superficial sylvian cortical vein、uncal vein、sphenoparietal sinus、intercavernous 至對側 CS，或 basal vein of Rosenthal 至 vein of Galen。[^3][^4]
+- **考題陷阱**：Thalamostriate vein 屬深部腦靜脈系統，**不是 CCF 常見外流路徑**。[^3]
 
 ## 放射科醫師影像判讀重點
 - **影像招牌（best diagnostic clue）**：**海綿竇分支擴張伴逆流＋眼球突出、SOV 擴張、CS 擴大、眼外肌腫大**、眶脂「dirty」水腫。[^4]

@@ -16,13 +16,9 @@ dateRev: 2026-07-02
 
 ## Summary
 - **NPSLE典型影像表現**：[^1]
-  - **新發梗塞(new infarcts)**：血栓、血管炎、抗磷脂抗體致缺血。
-  - **局部高訊號病灶(focal areas of hyperintensity)**：T2/FLAIR白質/灰質局部病灶。
-  - **廣泛可逆性白質變化(extensive reversible white matter change)**：如PRES樣、可逆性水腫。
 - **非NPSLE定義項目（本題重點）**：**Brain abscess(腦膿瘍)**——雖未列於ACR NPSLE準則，可因**心臟瓣膜黴菌性栓子(mycotic emboli)**續發，但**非NPSLE本身之典型表現**；CT呈中央低密度伴等/高密度環，MR呈DWI中央高擴散訊號。[^1]
 
-> [!note] 考點：何者「非」神經精神性SLE(NPSLE)之表現？
-> **Brain abscess（D）**——非ACR NPSLE定義項目(雖可因瓣膜黴菌性栓子續發)。new infarcts(A)、focal areas of hyperintensity(B)、extensive reversible white matter change(C)皆為NPSLE典型表現。[^1]
+- **考點**: **Brain abscess（D）**——非ACR NPSLE定義項目(雖可因瓣膜黴菌性栓子續發)。new infarcts(A)、focal areas of hyperintensity(B)、extensive reversible white matter change(C)皆為NPSLE典型表現。[^1]
 
 ## 放射科醫師影像判讀重點
 - **MRI 為首選影像**：對出血/缺血性中風、橫貫性脊髓炎、缺血梗塞偵測敏感，是評估 NPSLE 的主力，但空間解析度不足以顯示微血管侵犯。[^2]

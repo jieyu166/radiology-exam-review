@@ -16,10 +16,11 @@ dateRev: 2026-07-03
 **垂體大腺瘤（PitNET，>10 mm）復發之風險因子包括 cavernous sinus invasion（Knosp 3-4）、low ADC value、tumor size、subtotal resection（及高 MIB-1/Ki-67）——Apoplexy（垂體卒中）是急性併發症，「不是」復發之獨立風險因子（常考陷阱）。** 判讀分水嶺：**「蝶鞍腫塊且找不到獨立的正常垂體＝腫塊本身就是垂體」＝macroadenoma；用 Knosp 0-4 判海綿竇侵犯（腫瘤越過海綿竇 ICA 外側緣＝grade 3-4＝侵犯）；不論看起來多具侵襲性，垂體腫瘤幾乎都不是惡性（carcinoma <0.4%，須有轉移才算）。**
 
 ## Summary
-- **復發風險因子**：**cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection**，另 **MIB-1 >1%／高 Ki-67** 提示早期復發/快速再長。**Apoplexy 非復發風險因子**。[^1]
-- **海綿竇侵犯＝Knosp grade 3-4**：**腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）**即侵犯；grade 1 至內側 50%、grade 2 至外側 50%。[^1]
-- **診斷要點**：**蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）**；>10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；為**成人最常見之鞍上腫塊**。[^1]
-- **良性本質**：不論多具侵襲外觀，**垂體腫瘤幾乎都不是惡性**（pituitary carcinoma <0.4%，須有轉移才診斷）。[^1]
+
+- **重點**: 復發風險因子：cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection，另 MIB-1 >1%／高 Ki-67 提示早期復發/快速再長。Apoplexy 非復發風險因子。 [^1]
+- **重點**: 海綿竇侵犯＝Knosp grade 3-4：腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）即侵犯；grade 1 至內側 50%、grade 2 至外側 50%。 [^1]
+- **重點**: 診斷要點：蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）；>10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；為成人最常見之鞍上腫塊。 [^1]
+- **重點**: 良性本質：不論多具侵襲外觀，垂體腫瘤幾乎都不是惡性（pituitary carcinoma <0.4%，須有轉移才診斷）。 [^1]
 
 ## 放射科醫師影像判讀重點
 - **形態與訊號**：多呈 **figure 8/snowman（diaphragma sellae 壓迫產生腰身）**、T1/T2 與灰質等訊號、**強而異質強化**；囊變/壞死 15-20%、出血 10%、鈣化 1-2%；**densely granulated GH 腺瘤 T2 低訊號**。[^1]

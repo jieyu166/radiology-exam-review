@@ -14,10 +14,11 @@ dateRev: 2026-07-03
 **脊髓星狀細胞瘤是兒童與年輕成人最常見的髓內腫瘤，其組織學惡性度通常『低於』顱內星狀細胞瘤——多數為低惡性度（75-80% low grade），並非以高惡性度為主。** 判讀分水嶺：**成人 low-grade ~75%、anaplastic ~25%、GBM 僅 ~1%；兒童多 grade I/II；好發頸 > 胸段；偏心性膨大脊髓、界限不清（浸潤性）；出血相對少見（與 ependymoma 之 hemosiderin cap sign 不同）。**
 
 ## Summary
-- **流行病學**：**兒童最常見脊髓（髓內）腫瘤**（成人則 ependymoma 較多，astrocytoma 次之）。[^1][^2]
-- **惡性度（低於顱內對應）**：**75-80% 為 low grade**；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。[^1][^2]
-- **好發部位**：**頸段 > 胸段 > 腰段**；偏心性、膨大脊髓、界限不清（浸潤性）。[^1][^2]
-- **強化/出血**：**變異性強化**（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；**出血相對少見**（ependymoma 較常出血/hemosiderin cap）。[^1]
+
+- **重點**: 流行病學：兒童最常見脊髓（髓內）腫瘤（成人則 ependymoma 較多，astrocytoma 次之）。 [^1] [^2]
+- **重點**: 惡性度（低於顱內對應）：75-80% 為 low grade；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。 [^1] [^2]
+- **重點**: 好發部位：頸段 > 胸段 > 腰段；偏心性、膨大脊髓、界限不清（浸潤性）。 [^1] [^2]
+- **重點**: 強化/出血：變異性強化（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；出血相對少見（ependymoma 較常出血/hemosiderin cap）。 [^1]
 
 ## 放射科醫師影像判讀重點
 - **MR 型態**：T1 等/低、**T2 高訊號、界限不清（浸潤）**、脊髓梭形膨大、偏心；可伴囊變/syrinx。[^1]

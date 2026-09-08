@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>放射科交換考題複習</title>
-  <link rel="stylesheet" href="css/main.css?v=user-study-records" />
+  <link rel="stylesheet" href="css/main.css?v=vault-native-20260908" />
 </head>
 <body>
 
@@ -141,7 +141,7 @@
       </button>
     </div>
     <div class="card-container" id="card-container">
-      <!-- 卡片由 card-mode.js 產生 -->
+      <!-- 由 vault-app.js 產生 -->
     </div>
     <div class="card-actions">
       <button class="btn btn-outline" id="card-toggle-answer">顯示答案</button>
@@ -154,7 +154,7 @@
     <!-- 編輯區（edit mode） -->
     <div class="edit-panel" id="card-edit-panel" hidden>
       <div class="edit-form" id="card-edit-form">
-        <!-- editor.js 填入 -->
+        <!-- 由 vault-app.js 產生 -->
       </div>
     </div>
   </section>
@@ -172,7 +172,7 @@
       </div>
     </div>
     <div class="accordion-list" id="accordion-list">
-      <!-- list-mode.js 填入 -->
+      <!-- 由 vault-app.js 產生 -->
     </div>
   </section>
 
@@ -183,7 +183,7 @@
       <div class="form-group">
         <label class="form-label" for="exam-year-select">年份（可多選）</label>
         <div class="checkbox-group" id="exam-year-checkboxes">
-          <!-- app.js 填入 -->
+          <!-- 由 vault-app.js 產生 -->
         </div>
       </div>
       <div class="form-group">
@@ -224,7 +224,7 @@
       </div>
       <button class="btn btn-primary btn-block" id="exam-start-btn">開始模擬考</button>
       <div class="recent-scores" id="recent-scores">
-        <!-- exam-mode.js 填入 -->
+        <!-- 由 vault-app.js 產生 -->
       </div>
     </div>
   </section>
@@ -239,14 +239,14 @@
       <button class="btn btn-outline btn-sm" id="exam-end-btn">結束考試</button>
     </div>
     <div class="exam-question-card" id="exam-question-card">
-      <!-- exam-mode.js 填入 -->
+      <!-- 由 vault-app.js 產生 -->
     </div>
     <div class="exam-nav-bar">
       <button class="btn btn-outline" id="exam-prev-btn">上一題</button>
       <div class="exam-grid-wrap">
         <button class="btn btn-outline btn-sm" id="exam-grid-toggle">題目列表</button>
         <div class="exam-grid" id="exam-grid" hidden>
-          <!-- exam-mode.js 填入 -->
+          <!-- 由 vault-app.js 產生 -->
         </div>
       </div>
       <button class="btn btn-primary" id="exam-next-btn">下一題</button>
@@ -260,7 +260,7 @@
       <div class="result-score" id="result-score"></div>
       <div class="result-stats" id="result-stats"></div>
       <div class="result-review" id="result-review">
-        <!-- exam-mode.js 填入 -->
+        <!-- 由 vault-app.js 產生 -->
       </div>
       <div class="result-actions">
         <button class="btn btn-primary" id="result-retry-btn">重新考試</button>
@@ -272,7 +272,7 @@
   <!-- 概念卡片 -->
   <section id="concept-view" class="view-section" hidden>
     <div class="concept-container" id="concept-container">
-      <!-- concept-cards.js 填入 -->
+      <!-- 由 vault-app.js 產生 -->
     </div>
   </section>
 
@@ -302,14 +302,10 @@
 <div class="toast-container" id="toast-container" aria-live="polite"></div>
 
 <!-- ===== 載入 JS ===== -->
-<script src="js/format.js"></script>
-<script src="js/data-loader.js?v=user-study-records"></script>
-<script src="js/question-store.js?v=user-study-records"></script>
-<script src="js/editor.js?v=user-study-records"></script>
-<script src="js/card-mode.js?v=user-study-records"></script>
-<script src="js/list-mode.js"></script>
-<script src="js/exam-mode.js?v=user-study-records"></script>
-<script src="js/concept-cards.js"></script>
-<script src="js/app.js?v=user-study-records"></script>
+<script src="js/data-loader.js?v=vault-native"></script>
+<script src="js/content-store.js?v=vault-native"></script>
+<script src="js/note-renderer.js?v=vault-native"></script>
+<script src="js/vault-question-view.js?v=vault-native"></script>
+<script src="js/vault-app.js?v=vault-native"></script>
 </body>
 </html>

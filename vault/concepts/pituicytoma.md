@@ -13,10 +13,11 @@ dateRev: 2026-06-28
 **Pituicytoma 最常考的陷阱：它源自「神經垂體（neurohypophysis）/漏斗部」，不是腺垂體（adenohypophysis）。** 記憶鉤：pituicyte 是神經垂體的膠質細胞，pituicytoma 就住在「後葉那一側」（鞍內後部或漏斗），WHO grade 1、生長緩慢。判讀分水嶺一：**起源 neurohypophysis/infundibulum（非 adenohypophysis）**；判讀分水嶺二：**WHO grade 1、鞍/鞍上、S100 ＋ vimentin ＋ TTF-1 陽性**；判讀分水嶺三（影像）：**邊界清楚的實性腫塊、T2 等-高訊號、強烈均勻強化、富血管（術中易大出血）**。
 
 ## Summary
-- **起源**：**神經垂體（neurohypophysis）與漏斗部的 pituicytes**;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」**錯誤**＝題目正解（2016-187 正解 A,起源錯）。[^1]
-- **WHO grade 1**、生長緩慢、indolent(option B 對)。[^1][^2]
-- **位置**：鞍內或鞍上(option C 對);典型為**邊界清楚的實性腫塊**，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。[^1][^3][^5]
-- **免疫**：**S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定**(option D 對);TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。[^1][^5]
+
+- **重點**: 起源：神經垂體（neurohypophysis）與漏斗部的 pituicytes;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」錯誤＝題目正解（2016-187 正解 A,起源錯）。 [^1]
+- **重點**: WHO grade 1、生長緩慢、indolent(option B 對)。 [^1] [^2]
+- **重點**: 位置：鞍內或鞍上(option C 對);典型為邊界清楚的實性腫塊，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。 [^1] [^3] [^5]
+- **重點**: 免疫：S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定(option D 對);TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。 [^1] [^5]
 
 ## 放射科醫師影像判讀重點
 

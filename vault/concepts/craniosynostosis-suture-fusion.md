@@ -23,9 +23,9 @@ dateRev: 2026-07-10
 - **流行病學**：發生率約 1/2000–2500，男：女約 3:1，約 8% 為症候群型（如 Apert、Crouzon、Carpenter）。[^1][^2]
 - **矢狀縫（sagittal）早閉 → scaphocephaly／dolichocephaly（舟狀／長頭）**：最常見（約 50%），側向生長受阻、前後拉長。[^1]
 - **額縫（metopic）早閉 → trigonocephaly（三角頭）**：前額呈龍骨狀尖突。[^1]
-- **單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）**，同側可見 harlequin eye 徵象；**非 brachycephaly**（本題陷阱）。[^1]
-- **雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）**。[^1]
-- **單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）**；須與姿勢性（體位性）斜頭鑑別。[^1]
+- **重點**: **單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）**，同側可見 harlequin eye 徵象；**非 brachycephaly**（本題陷阱）。[^1]
+- **重點**: **雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）**。[^1]
+- **重點**: **單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）**；須與姿勢性（體位性）斜頭鑑別。[^1]
 - **其他型**：pachycephaly（lambdoid）、oxycephaly/turricephaly（矢狀＋冠狀＋人字，塔狀頭）、cloverleaf skull/Kleeblattschädel（子宮內矢狀＋冠狀＋人字，最嚴重）、progressive postnatal pansynostosis（罕見，出生後才全縫晚融合）。[^1]
 
 ## 影像診斷

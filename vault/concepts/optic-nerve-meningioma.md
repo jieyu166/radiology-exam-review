@@ -17,9 +17,7 @@ dateRev: 2026-07-01
 - **好發族群**：中年女性，漸進性單側視力喪失，可合併眼球突出(proptosis)。[^1]
 - **起源與生長型態**：起源於**視神經鞘（optic nerve sheath）**，沿神經**包繞（surrounding）**生長，非取代神經本身。[^1]
 - **影像特徵（tram-track sign）**：軸位增強CT/MRI上，強化之腫瘤組織包繞中央不強化（或較不強化）之視神經，形成兩條平行高密度/高訊號軌道狀外觀，稱為「軌道徵(tram-track sign)」。[^1]
-- **鑑別診斷**：
-  - **Optic nerve glioma**：視神經本身**增粗且強化**（非周邊包繞型態），好發兒童（可合併第一型神經纖維瘤NF1）。
-  - **Orbital lymphoma／metastasis**：影像型態不呈典型tram-track sign，通常為眼眶內軟組織腫塊，需依臨床病史（如已知原發惡性腫瘤病史）輔助鑑別。[^1]
+- **重點**: **Orbital lymphoma／metastasis**：影像型態不呈典型tram-track sign，通常為眼眶內軟組織腫塊，需依臨床病史（如已知原發惡性腫瘤病史）輔助鑑別。[^1]
 
 ## 放射科醫師影像判讀重點
 - **tram-track sign（核心徵象）**：optic nerve sheath meningioma（ONSM）於**軸位增強 CT/MRI** 呈**強化腫瘤沿視神經兩側包繞、中央視神經本身不強化**，形成兩條平行軌道狀外觀；**冠狀切面**則呈環繞視神經的「甜甜圈/doughnut」樣強化。[^2]
