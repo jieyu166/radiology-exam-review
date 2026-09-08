@@ -16,6 +16,13 @@ dateRev: 2026-07-03
 
 # neonatal-bowel-atresia-bubble-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Neonatal obstruction：bubble signs](https://img-hosting.jieyu166.workers.dev/i/MD9vW6m.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MD9vW6m.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **氣泡數目直接對應阻塞位置往遠端多推一段：double bubble（胃＋十二指腸）＝十二指腸閉鎖；triple bubble（胃＋十二指腸＋近端空腸）＝空腸閉鎖——多一顆氣泡，阻塞點就往下移一段腸道。** 判讀分水嶺：**關鍵不只看幾顆氣泡，還要看「有無遠端腸氣」——double bubble 且「無遠端氣」＝十二指腸閉鎖（緊急但非急症）；若 double bubble「有遠端氣」，必須做上消化道攝影排除中腸扭轉(midgut volvulus)——那是外科急症。**
 
 ## Summary

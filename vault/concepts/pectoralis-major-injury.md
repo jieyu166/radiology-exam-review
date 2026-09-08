@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # pectoralis-major-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：胸大肌損傷 Pectoralis major injury](https://img-hosting.jieyu166.workers.dev/i/A4HxFSa.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/A4HxFSa.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胸大肌撕裂最常發生於胸骨頭（sternal head），因其占肌肉體積約 80%、承受較大負荷——非鎖骨頭（clavicular head）常被誤認為好發部位。二頭肌溝（bicipital groove）是超音波評估胸大肌的關鍵定位結構；三角胸溝（deltopectoral groove）內或喙肱肌前方的水腫/積液應高度懷疑胸大肌損傷。**
 
 ## Summary

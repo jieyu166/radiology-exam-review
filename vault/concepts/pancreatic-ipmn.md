@@ -13,6 +13,13 @@ dateRev: 2026-07-12
 
 # pancreatic-ipmn
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：IPMN：胰管關係](https://img-hosting.jieyu166.workers.dev/i/Qda2MOi.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Qda2MOi.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **IPMN 依解剖分『主胰管型(MD)、分支型(BD)、混合型』;MD-IPMN 多在胰頭、惡性率高(~60%)→積極切除;BD-IPMN 多在鉤突、惡性率低(~5%, 2-10%)→可監測。** 判讀分水嶺：**MD-IPMN＝主胰管瀰漫/節段擴張(>5-10 mm)＋強化壁結節→高惡性風險;BD-IPMN＝與主胰管相通的葡萄串狀囊、好發鉤突、低風險;高危徵象（worrisome/high-risk）：壁結節、主胰管擴張、實質成分→偏惡性。**
 
 ## Summary

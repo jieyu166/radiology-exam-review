@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # ivc-leiomyosarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：IVC leiomyosarcoma](https://img-hosting.jieyu166.workers.dev/i/hTTIBhd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/hTTIBhd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **IVC leiomyosarcoma依侵犯節段分三段，各自對應一個特徵性臨床症候群：上段（肝靜脈到右心房）→Budd-Chiari症候群；中段（肝靜脈到腎靜脈）→腎病症候群；下段（腎靜脈以下）→下肢水腫。記憶鉤：「愈往上愈靠近心臟愈危險（Budd-Chiari），愈往下愈單純（腿腫）」。**
 
 ## Summary

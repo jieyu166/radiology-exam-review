@@ -15,6 +15,13 @@ source: 交換考 2021-156
 
 # leukemia-skeletal-manifestations
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Leukemia｜兒童骨骼影像線索](https://img-hosting.jieyu166.workers.dev/i/cAgCKDH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/cAgCKDH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **白血病的骨骼變化本質是「腫瘤細胞取代骨髓」的影像投影：在兒童身上因紅骨髓活躍、分布廣，故骨變化比成人更常見、更廣泛、更多樣。判讀分水嶺：X 光大多正常，最常見（也最早）的是 osteopenia；兒童的招牌是 metaphyseal radiolucent bands（快速生長的幹骺端）。別忘了 osteosclerosis（粗糙骨小樑）與 vertebra plana 也是公認表現。** 骨變化可先於（或不伴隨）周邊血象異常出現，因此在不明原因骨痛／拒走的孩子看到這組徵象要想到白血病。
 
 ## Summary

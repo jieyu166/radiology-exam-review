@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # scfe-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：SCFE｜股骨頭骨骺滑脫](https://img-hosting.jieyu166.workers.dev/i/jzIuzs4.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jzIuzs4.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SCFE＝經近端股骨生長板之移位性 Salter-Harris I 型骨折（剪力所致，斷於肥大軟骨細胞層）；骨骺向「後內側」滑脫。評估必做雙側髖 X 光（20–40% 初診雙側、對側多於 2 年內滑脫），滑脫前之早期生長板變化以 MRI 最敏感（優於 X 光與 CT）。** 判讀分水嶺：**AP 之 Klein line（沿股骨頸外緣畫線應切到骨骺，僅適用 AP）易漏（60% 漏診）→ 必加 frog-leg view（較敏感）；MRI 可在「preslip」即見生長板增寬/水腫，故對早期優於 CT，這是考題核心。**
 
 ## Summary

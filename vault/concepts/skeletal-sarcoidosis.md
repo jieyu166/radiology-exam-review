@@ -13,6 +13,13 @@ same:
 
 # skeletal-sarcoidosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨骼 Sarcoidosis｜花邊狀指骨病灶](https://img-hosting.jieyu166.workers.dev/i/nPOlGkY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nPOlGkY.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **骨骼類肉瘤病好發手足小骨，X 光呈 lace-like（花邊蜂窩）溶骨＋骨侵蝕＋皮下軟組織結節，但『關節間隙保留』，這是與感染性/侵蝕性關節炎的分水嶺。** 判讀分水嶺一：**lace-like 溶骨＋骨侵蝕，好發手部小骨**；判讀分水嶺二：**關節/椎間隙通常保留**——「關節間隙狹窄」非典型，考題常以此為誘餌選項。記憶鉤：類肉瘤病侵骨像「蕾絲網」（lace），但不「擠壓」關節縫。
 
 ## Summary

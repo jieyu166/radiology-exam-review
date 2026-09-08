@@ -12,6 +12,13 @@ dateRev: 2026-07-04
 
 # hernia-incarceration-risk
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：hernia-incarceration-risk：共用 Summary 圖](https://img-hosting.jieyu166.workers.dev/i/7S94LSZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7S94LSZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腹股溝區疝氣嵌頓（incarceration/strangulation）風險由高到低：Femoral hernia ＞ Indirect inguinal hernia ＞ Direct inguinal hernia。判讀分水嶺——股疝的股環由堅硬的 lacunar ligament 圍成、頸窄，內容物難自行復位、嵌頓/絞扼率最高；直接疝經寬大的 Hesselbach triangle 突出、頸寬，風險最低。CT 上以下腹壁血管（inferior epigastric vessels）與股靜脈為定位關鍵。**
 
 ## Summary

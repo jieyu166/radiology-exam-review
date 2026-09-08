@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # hypothalamic-hamartoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hypothalamic hamartoma](https://img-hosting.jieyu166.workers.dev/i/X2gHWhP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/X2gHWhP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **下視丘錯構瘤（HH）是非腫瘤性、先天性灰質異位（gray matter heterotopia），影像關鍵是「不強化」——注射 Gd 後 T1 無明顯強化，這是與其他會強化的下視丘/漏斗腫塊（生殖細胞瘤、顱咽管瘤、星細胞瘤、LCH）最重要的鑑別點。** 判讀分水嶺：**形態預測症狀——「大、無柄（sessile）」多致癲癇（gelastic seizure）；「小、有柄（pedunculated，collar-button）」多致中樞性性早熟。**
 
 ## Summary

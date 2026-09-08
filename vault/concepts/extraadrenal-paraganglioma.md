@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # extraadrenal-paraganglioma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Extra-adrenal paraganglioma](https://img-hosting.jieyu166.workers.dev/i/LE9KRIF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LE9KRIF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎上腺外副神經節瘤好發於「Zuckerkandl 器官」（腹主動脈分叉附近之副神經節組織），多於 40-50 歲診斷，MRI 典型 T2 高訊號（±flow voids，salt-and-pepper）。「Carney triad」＝gastric GIST + pulmonary chondroma + extra-adrenal paraganglioma，好發年輕女性。** 判讀分水嶺：**Carney triad 三要素為『胃部』GIST（非泛指 GI 基質瘤）、肺軟骨瘤、腎上腺外副神經節瘤；副神經節瘤可任何年齡但多 40-50 歲、T2 高訊號、分泌兒茶酚胺者有高血壓/頭痛；性別大致相當，但 glomus jugulotympanicum 與 vagal paraganglioma 好發女性。**
 
 ## Summary

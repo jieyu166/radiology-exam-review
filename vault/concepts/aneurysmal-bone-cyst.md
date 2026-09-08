@@ -13,6 +13,13 @@ up: "[[rib-tumor]]"
 
 # aneurysmal-bone-cyst
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Aneurysmal bone cyst｜ABC](https://img-hosting.jieyu166.workers.dev/i/uPomOCg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uPomOCg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **ABC 是骨頭裡的「血氣球」——偏心膨脹、多房血腔、MRI 見 fluid-fluid levels，但 fluid-fluid 不是 ABC 專屬。** 好發兒童/年輕成人，偏心位於長骨幹骺端，薄硬化殼外包、DSA 乏血管。記憶鉤：ABC vs SBC——ABC「偏心、blow-out 膨脹、buttressing effect」；SBC「中央、膨脹不超骨幹、單房」。Fluid-fluid levels 也可見於 telangiectatic osteosarcoma，出現侵襲性特徵務必排除惡性。
 
 ## Summary

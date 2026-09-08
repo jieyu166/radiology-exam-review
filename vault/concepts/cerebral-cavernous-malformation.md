@@ -15,6 +15,13 @@ same:
 
 # cerebral-cavernous-malformation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Capillary telangiectasia vs cavernous malformation](https://img-hosting.jieyu166.workers.dev/i/Pt6Cu9J.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Pt6Cu9J.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Cavernoma 的外觀像一顆爆米花（popcorn）或桑椹：內部反覆小出血形成混雜訊號，外包一圈含鐵血黃素低訊號環，GRE/SWI 上 blooming 明顯。** 通常少有周邊水腫（除非近期出血），常合併發展性靜脈異常（DVA）。強化程度是「微弱或無（minimal or no）」——並非「絕對不強化」，這個細節是考試陷阱。記憶鉤：「爆米花有鹽邊（含鐵血黃素環），偶爾還沾一點醬（minimal enhancement）」。
 
 ## Summary

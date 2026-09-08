@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # fournier-gangrene
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Fournier gangrene：筋膜感染範圍](https://img-hosting.jieyu166.workers.dev/i/fSHBMKT.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/fSHBMKT.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Fournier gangrene 是會陰/陰囊的壞死性筋膜炎，感染源幾乎都找得到——最常是肛門直腸（廔管/膿瘍），其次泌尿生殖道或會陰創傷,「找不到原發感染源」是錯誤選項。** 判讀分水嶺：**CT 是判定範圍（extent）的必要工具**（找皮下氣體沿筋膜面擴散範圍,決定清創範圍）,不是用來找感染源。
 
 ## Summary

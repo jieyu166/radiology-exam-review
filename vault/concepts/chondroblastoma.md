@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # chondroblastoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Chondroblastoma｜軟骨母細胞瘤](https://img-hosting.jieyu166.workers.dev/i/ZUMv8oI.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ZUMv8oI.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Chondroblastoma（又稱 Codman's tumor）是一種罕見的良性軟骨源性腫瘤，特徵性好發於長骨的骨骺或骨突（epiphysis or apophysis），與大多數好發於幹骺端的良性骨腫瘤形成對比。** 判讀分水嶺：**「罕見」是關鍵形容詞——常考題以「常見良性腫瘤」誤導，實際上 chondroblastoma 屬 rare benign cartilaginous neoplasm。**
 
 ## Summary

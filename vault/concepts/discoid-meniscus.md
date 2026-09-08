@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # discoid-meniscus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Discoid meniscus｜盤狀半月板](https://img-hosting.jieyu166.workers.dev/i/iqEFNP8.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iqEFNP8.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Discoid meniscus 為先天性半月板變異，以外側半月板為主（遠多於內側），發生率約 1-5%（MRI 偶然發現率 3-5%）；MRI 診斷標準為冠狀面正中切面半月板體寬度 ≥15 mm，或矢狀面連續 4 mm 薄切出現 ≥3 個 bow-tie 型態。**
 
 ## Summary

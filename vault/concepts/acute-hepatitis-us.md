@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # acute-hepatitis-us
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：急性肝炎｜US 線索](https://img-hosting.jieyu166.workers.dev/i/bhx6AHg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/bhx6AHg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性肝炎讓肝變暗——回音減低，不是增加；超音波看到「暗肝配亮門脈」才是 starry sky。** 影像非特異，正常超音波不能排除急性肝炎。判讀關鍵：整體回音**減低**＋periportal edema 是方向；「瀰漫回音增加」反而提示脂肪肝/慢性肝病——考題最愛反著考。
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # polycystic-ovary-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PCOM 與 PCOS：影像的角色](https://img-hosting.jieyu166.workers.dev/i/yZ1jO6B.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/yZ1jO6B.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PCOS 的 string of pearls 是「珍珠串掛在卵巢外圈」——濾泡貼著周邊排，中央是增生的間質，雙側對稱。** 考試陷阱正是「濾泡位於中央」——那不是 PCOS 典型，典型是周邊（peripheral）排列。判讀分水嶺：**卵巢腫大 ＋ 多發小濾泡周邊排列（string of pearls）＋ 中央間質回音增多 ＋ 雙側**。
 
 ## Summary

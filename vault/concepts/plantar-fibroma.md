@@ -12,6 +12,13 @@ dateRev: 2026-07-05
 
 # plantar-fibroma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：足底纖維瘤 Plantar fibromatosis](https://img-hosting.jieyu166.workers.dev/i/GDy6p1s.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GDy6p1s.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **足底纖維瘤（Ledderhose disease）＝足底腱膜的良性纖維增生，是足踝最常見的實性軟組織腫瘤。因膠原含量高，在 MRI 上 T1、T2「都偏低到中等訊號」（不是高訊號）；病灶會有內部強化並可見「fascial tail sign」（強化沿腱膜延伸的線狀影）。** 判讀分水嶺：足底腱膜（多在中/內側帶）梭形/多結節腫塊、與跟骨附著點分開、T1/T2 低-中訊號＋fascial tail＝plantar fibroma；若訊號高或邊界侵犯，要重新想（黏液性/侵襲型/肉瘤）。
 
 ## Summary

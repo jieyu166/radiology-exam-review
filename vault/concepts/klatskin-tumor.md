@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # klatskin-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hilar cholangiocarcinoma：Klatskin tumor](https://img-hosting.jieyu166.workers.dev/i/lg3oAY3.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/lg3oAY3.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝內膽管擴張合併肝外膽管正常，為肝門部膽管癌（Klatskin tumor）的典型特徵——因腫瘤阻塞位置在左右肝管匯流處（肝門），僅造成匯流處以上（肝內）膽管擴張，而匯流處以下的肝外膽管不受影響、維持正常口徑。**
 
 ## Summary

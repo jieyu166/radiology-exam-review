@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # scaphoid-fracture
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Scaphoid fracture｜舟狀骨骨折](https://img-hosting.jieyu166.workers.dev/i/ZiBb1Ka.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ZiBb1Ka.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **舟狀骨骨折的核心風險口訣「越近端、越危險」——血供由遠端逆行進入（radial artery 分支遠端入、近端出），故越靠近 proximal pole 的骨折越易缺血性壞死（AVN）、癒合越慢；未併發症之未位移骨折整體癒合率約 90%（非「僅 50%」），是常見反轉陷阱。** 判讀分水嶺一：**骨折部位＝waist 最多、proximal 最危險**；判讀分水嶺二：**初期 X 光陰性但臨床可疑（snuffbox 壓痛）→ 不能排除，須 MR／延遲追蹤**。
 
 ## Summary

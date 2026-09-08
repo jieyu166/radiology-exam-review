@@ -13,6 +13,13 @@ dateRev: 2026-07-01
 
 # placenta-accreta-spectrum
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PAS：MRI 提示徵象](https://img-hosting.jieyu166.workers.dev/i/QU67H1k.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QU67H1k.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **異常胎盤附著(abnormal placental attachment)依絨毛侵犯肌層的深度分三級：Placenta accreta vera（絨毛貼附肌層但未侵入）、Placenta increta（絨毛「部分侵入」肌層）、Placenta percreta（絨毛侵犯至或超過子宮漿膜層）——最重要的兩個危險因子是「前次剖腹產病史」與「前置胎盤(placenta previa)」。** 判讀分水嶺：**Percreta（絨毛侵犯至/超過漿膜層，約5%）≠「部分侵入肌層」（此為increta的定義，約17%）;accreta vera（絨毛貼附肌層但不侵入，約75-78%）為最常見型態;MRI對深部侵犯評估及後壁胎盤顯示優於超音波，可提供子宮膨出(uterine bulging)、胎盤訊號不均(heterogeneous placenta)、胎盤內帶狀構造(placental bands)等徵象。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # candida-esophagitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Candida esophagitis｜食道念珠菌感染](https://img-hosting.jieyu166.workers.dev/i/ljuKNzD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ljuKNzD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **免疫低下病人出現吞嚥疼痛（odynophagia），雙對比食道攝影見「多發、離散、縱向排列的斑塊狀（plaque-like）黏膜病灶」，最典型的診斷即念珠菌食道炎。判讀分水嶺：離散縱向斑塊＝念珠菌；正常黏膜上的離散扁平潰瘍＝病毒（HSV/CMV）；遠端潰瘍／狹窄＝逆流；橫向細褶（feline esophagus）＝逆流相關暫時性收縮、非斑塊；蜿蜒可壓縮之充盈缺損＝靜脈曲張。**
 
 ## Summary

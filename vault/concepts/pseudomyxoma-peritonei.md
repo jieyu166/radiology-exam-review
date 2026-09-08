@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # pseudomyxoma-peritonei
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pseudomyxoma peritonei：Scalloping](https://img-hosting.jieyu166.workers.dev/i/ihbDDSG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ihbDDSG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Pseudomyxoma peritonei＝闌尾黏液性腫瘤破裂後膠狀物播種腹膜，CT 指紋是肝脾邊緣被壓成扇貝狀（scalloping），不像單純腹水那樣只把器官推開。** 判讀分水嶺一：**scalloping＝膠體壓迫，非位移，且可含分隔與鈣化**；判讀分水嶺二：**性別陷阱——女略多於男（M:F ≈ 9:11）**，「男性較常見」為非。記憶鉤：「膠水黏扇貝」＝膠狀黏液（Jelly belly）把肝脾邊緣壓凹如扇貝。
 
 ## Summary

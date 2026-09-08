@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # pediatric-athlete-upper-extremity-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：兒童上肢過度使用｜生長板重點](https://img-hosting.jieyu166.workers.dev/i/Ef43qVg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Ef43qVg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童運動員的上肢傷害好發與尚未閉合的軟骨性骨骺（physes）及骨突（apophyses）有關。體操選手手腕（gymnast's wrist）是因手腕反覆處於「伸直（extension）」姿勢下、遠端橈骨骨骺板受到反覆壓迫性創傷所致——「屈曲（flexion）」為錯誤敘述，這是本題最常考的陷阱。**
 
 ## Summary

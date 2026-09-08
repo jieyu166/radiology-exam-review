@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # subacute-combined-degeneration
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Subacute combined degeneration](https://img-hosting.jieyu166.workers.dev/i/3jzluUd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3jzluUd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **維生素 B12 缺乏之脊髓病變＝亞急性聯合退化（SCD）：影像最常見「後索（dorsal column）對稱雙側 T2 高訊號」，橫切呈 inverted "V"（inverted rabbit ears）徵象，好發胸±頸段；「combined」指同時也侵犯外側柱（lateral column）。後索脫髓鞘為 B12 缺乏最早的表現。亞氧化氮（N2O）中毒的脊髓影像『與』典型 B12 缺乏相同——因 N2O 使 B12 失活、甲基丙二酸（MMA）堆積致髓鞘毒性。** 判讀分水嶺：**後索為主 + 可及外側柱（故稱 combined）；通常無或僅輕微強化（有助與腫瘤/發炎鑑別）；銅缺乏脊髓病變（CDM）影像可幾乎相同；MRI/B12 可能正常（神經症狀可早於貧血、逾 1/4 病人 CBC 正常）需查 MMA/同半胱胺酸。記憶鉤：後索 inverted V、無強化、N2O＝銅缺乏皆相似、治療止損但不復原。**
 
 ## Summary

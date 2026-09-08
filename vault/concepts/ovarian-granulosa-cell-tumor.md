@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # ovarian-granulosa-cell-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ovarian granulosa cell tumor](https://img-hosting.jieyu166.workers.dev/i/EhZKSqq.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EhZKSqq.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **性索間質瘤(sex cord-stromal tumor)佔卵巢癌 <5%；其中「顆粒細胞瘤(granulosa cell tumor, GCT)」是最常見的『惡性』性索間質瘤，約佔 70%。GCT 分泌雌激素→子宮內膜增厚/增生/甚至內膜癌；影像典型為大型、多房、實質＋囊性、常合併出血的單側附件腫塊（Swiss cheese 瑞士起司樣）。**
 
 判讀分水嶺：**GCT 佔『所有卵巢惡性腫瘤』約 3–5%，但佔『惡性性索間質瘤』約 70%——考題問的是後者(70%)；GCT 幾乎總是單側，合併子宮內膜增厚＋出血性囊變是最佳線索。**

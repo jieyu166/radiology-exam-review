@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # scheuermann-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Scheuermann disease｜結構性後凸](https://img-hosting.jieyu166.workers.dev/i/lNCg0SH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/lNCg0SH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Scheuermann disease（juvenile kyphosis / vertebral epiphysitis）＝青少年結構性後凸的最常見原因，結果是「胸椎後凸（thoracic kyphosis）」——不是脊椎側彎、也不是腰椎前凸或頸椎後凸。診斷靠 Sorensen 標準：連續 ≥ 3 個椎體、每個前緣楔形變 ≥ 5°，伴終板不規則（波浪狀）、前方椎間隙變窄與界清 Schmorl nodes。** 判讀分水嶺：**「有 Schmorl nodes 但沒有前緣楔形變」不算 Scheuermann——楔形變（anterior wedging）才是關鍵；影像上也可能只見波浪狀終板而非離散 Schmorl node。記憶鉤：3 節、5 度、胸椎、前楔＋Schmorl。**
 
 ## Summary

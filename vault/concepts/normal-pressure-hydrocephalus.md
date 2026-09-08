@@ -15,6 +15,13 @@ dateRev: 2026-07-10
 
 # normal-pressure-hydrocephalus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：NPH：DESH 影像組合](https://img-hosting.jieyu166.workers.dev/i/uKa8XeM.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uKa8XeM.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **NPH 是可治療的失智病因，臨床三聯（Hakim triad）＝步態障礙（magnetic gait，常最早）＋尿失禁＋認知障礙（wet, wacky, wobbly），CSF 開口壓正常。** 影像診斷不能單靠一項，關鍵徵象組合為 **Evans index >0.3、acute callosal angle（<90°）、cingulate sulcus sign（後段窄於前段）**，加上 **DESH（腦室擴大＋Sylvian fissure/insular cistern 擴大＋高凸面/parafalcine 溝回擁擠）**。判讀分水嶺：**「刀刃狀腦回（knife-blade gyri）」是額顳葉萎縮（FTD/Pick 病）的徵象，不是 NPH**——NPH 反而在高凸面呈溝回擁擠而非刀刃狀萎縮，考題以此設陷阱。與腦萎縮的核心區分：NPH 為**不成比例**的蛛網膜下腔變化（下方 Sylvian 擴大、上方凸面擁擠）＋鑫狀胼胝體角變銳。
 
 ## Summary

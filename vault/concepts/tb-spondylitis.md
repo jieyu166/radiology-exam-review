@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # tb-spondylitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：TB vs Pyogenic｜脊椎感染線索](https://img-hosting.jieyu166.workers.dev/i/gm1ap3Q.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/gm1ap3Q.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **TB spondylitis 與 pyogenic spondylitis 比較：TB 特徵為 subligamentous spread of large paraspinal abscesses、skip lesions、panvertebral involvement，但椎間盤破壞相對較晚且較輕（early and severe disc destruction 是 pyogenic 的特徵）。**
 
 ## Summary

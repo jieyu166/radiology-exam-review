@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # congenital-adrenal-hyperplasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CAH｜先天性腎上腺增生](https://img-hosting.jieyu166.workers.dev/i/uiGkd7J.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uiGkd7J.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **先天性腎上腺增生症（CAH）是體染色體隱性之腎上腺類固醇合成酵素缺乏（約 90% 為 21-hydroxylase deficiency），酵素阻斷使 cortisol↓→ACTH↑→腎上腺增生 + 雄性素過度生成 → 女嬰外生殖器男性化。疑診 CAH（外生殖器模糊 + 17-OHP 上升）時，首選影像為『腎上腺超音波』。** 判讀分水嶺：**US 診斷依雙側腎上腺增大——肢長 ≥20mm、肢寬 ≥4mm、皮髓質分化正常；肢寬 >4mm + 分葉表面 + 斑點回音三者合併敏感度 92%/特異度 100%；特徵為 cerebriform（腦回狀）外觀；部分可正常；男性可見睪丸腎上腺殘餘組織腫塊。**
 
 ## Summary

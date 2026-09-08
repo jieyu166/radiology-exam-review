@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # spinal-osteoblastoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Spinal osteoblastoma｜脊椎後方骨腫瘤](https://img-hosting.jieyu166.workers.dev/i/HmHbb4B.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/HmHbb4B.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **骨母細胞瘤（osteoblastoma）與骨樣骨瘤（osteoid osteoma）組織學相似，主要靠「大小」區分——osteoblastoma通常>1.5-2cm且可持續長大，osteoid osteoma則<1.5-2cm且具自限性；兩者皆好發於脊椎後柱結構（含椎弓根、椎板、棘突、橫突）。**
 
 ## Summary

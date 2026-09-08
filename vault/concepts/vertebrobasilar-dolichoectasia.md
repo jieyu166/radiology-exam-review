@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # vertebrobasilar-dolichoectasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Vertebrobasilar dolichoectasia](https://img-hosting.jieyu166.workers.dev/i/T8FEqC0.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/T8FEqC0.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **VBD＝椎基底動脈廣泛擴張、延長、迂曲（fusiform ectasia，可 giant >2.5 cm）。大多數病人無症狀；有症狀者分兩大類——「壓迫性症狀」（顱神經/腦幹壓迫、hydrocephalus）與「血管事件」（TIA/缺血性中風/出血）。最常見缺血病灶在腦幹（約 41%），又以橋腦最常見（穿通枝受牽拉/阻塞）。** 判讀分水嶺：**擴張延長迂曲的 VBA + 常見管壁內血栓（不強化，管腔強化）；症狀想兩軸——壓迫（顱神經/腦幹）或缺血/出血（穿通枝→橋腦梗塞、栓塞、SAH）。**
 
 ## Summary

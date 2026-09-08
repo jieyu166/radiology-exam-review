@@ -11,6 +11,13 @@ dateRev: 2026-06-19
 
 # brodie-abscess
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Brodie abscess｜亞急性骨髓炎](https://img-hosting.jieyu166.workers.dev/i/b4csbGX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/b4csbGX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Brodie abscess＝亞急性骨髓炎,典型位於長骨『metaphysis（幹骺端）』,界線清楚、硬化緣,可跨生長板。** 判讀分水嶺：**好發 metaphysis（非 epiphysis）;邊界清楚、周圍反應性硬化緣;X 光透亮病灶;可延伸跨越生長板至骨骺;MRI 見 penumbra sign（T1 中央膿腔周圍肉芽組織環略高訊號）**。
 
 ## Summary

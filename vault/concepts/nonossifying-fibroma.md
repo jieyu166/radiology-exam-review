@@ -14,6 +14,13 @@ dateRev: 2026-06-29
 
 # nonossifying-fibroma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：非骨化性纖維瘤 Nonossifying fibroma](https://img-hosting.jieyu166.workers.dev/i/VZu9djv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/VZu9djv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **NOF 是兒童長骨幹骺端最典型的「leave-me-alone」病變：偏心地圖狀透亮＋薄硬化緣＋清楚移行帶，隨年齡向骨幹遷移並自行硬化消退。** 判讀分水嶺：**偏心 metaphyseal＋地圖狀透亮＋薄/緻密硬化緣＋清楚移行帶＋長軸平行骨軸**——與 GCT（骨閉合後鄰關節面）、fibrous dysplasia（毛玻璃基質）、enchondroma（手足軟骨鈣化）三者相互對比。記憶鉤：FEGNOMASHIC 的「N」，生長板旁的偏心「凹槽」，長大自己填平。
 
 ## Summary

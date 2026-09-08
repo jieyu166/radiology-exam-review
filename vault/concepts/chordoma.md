@@ -9,6 +9,13 @@ dateRev: 2026-07-01
 
 # chordoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Chordoma｜脊索瘤](https://img-hosting.jieyu166.workers.dev/i/nOf1ThP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nOf1ThP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脊索瘤源自殘餘脊索組織，好發部位依頻率排序為薦骨最常見，其次蝶枕區（顱底斜坡），再次頸椎，胸腰椎最少見。**
 
 ## Summary

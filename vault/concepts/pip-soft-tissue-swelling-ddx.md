@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # pip-soft-tissue-swelling-ddx
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PIP 腫脹｜滑膜還是皮下軟組織？](https://img-hosting.jieyu166.workers.dev/i/NGA5NuZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/NGA5NuZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **「所有手指近端指間關節（PIP）孤立性軟組織腫脹」的鑑別，別只想到發炎性關節炎——除了幼年特發性關節炎（JIA）與類風濕性關節炎（RA），還必須納入 pachydermodactyly（一種良性、非發炎的軟組織纖維增生，好發於年輕男性、無骨侵蝕）。判讀分水嶺：看「有無骨侵蝕／關節間隙變窄／骨旁疏鬆」——有＝發炎性關節炎；只有軟組織腫脹、骨頭乾淨＝要想到 pachydermodactyly。**
 
 ## Summary

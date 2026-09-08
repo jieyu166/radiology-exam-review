@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # remote-cerebellar-hemorrhage
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Remote cerebellar hemorrhage](https://img-hosting.jieyu166.workers.dev/i/BXySBrL.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/BXySBrL.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **遠端小腦出血不是只發生在蚓部——它可以是手術部位的同側、對側，甚至雙側，斑馬徵(zebra sign)才是它的招牌影像特徵。**
 
 ## Summary

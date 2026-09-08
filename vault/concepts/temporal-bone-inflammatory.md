@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # temporal-bone-inflammatory
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：外耳道病灶：常見 DDx](https://img-hosting.jieyu166.workers.dev/i/3EBoc4T.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3EBoc4T.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **顳骨發炎性病變鑑別：keratosis obturans 好發年輕人，常雙側；EAC cholesteatoma 發生率約 0.1-0.5%（非 1-5%）；necrotizing otitis externa 好發老年糖尿病/免疫低下（非年輕女性）。**
 
 ## Summary

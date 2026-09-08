@@ -8,6 +8,13 @@ dateRev: 2026-06-29
 
 # osteopetrosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：石骨症 Osteopetrosis](https://img-hosting.jieyu166.workers.dev/i/YUo1xe9.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YUo1xe9.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **石骨症的機轉是破骨細胞（osteoclast）缺陷，骨無法被吸收重塑，結果「看似石頭卻易碎」——骨雖硬化但結構異常、脆弱易骨折；X 光見 bone-in-bone、sandwich vertebra（rugger jersey）、交替硬化帶（反映疾病活性起伏）。** 判讀分水嶺一：**機轉是「破骨細胞缺陷」（非成骨過度）**——骨質雖多卻無法重塑；判讀分水嶺二：**骨脆弱易骨折（非更耐折）**。記憶鉤：「破不了、卻易碎」——破骨不工作 → 脆骨一堆。
 
 ## Summary

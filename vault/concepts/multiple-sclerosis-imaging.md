@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # multiple-sclerosis-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Multiple sclerosis：影像辨識](https://img-hosting.jieyu166.workers.dev/i/f8Lff8H.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/f8Lff8H.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **多發性硬化症（MS）斑塊絕大多數位於幕上（supratentorial），並非後顱窩為主；幕上腦室周圍斑塊（periventricular plaques，Dawson fingers）才是最典型分布。危險因子包含EBV病毒、化學物質、抽菸、飲食與地理變異性。影像特徵包含ependymal dot-dash sign與活動性去髓鞘期間可有短暫強化（transient enhancement）。**
 
 ## Summary

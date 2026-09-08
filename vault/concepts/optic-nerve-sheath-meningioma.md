@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # optic-nerve-sheath-meningioma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Optic nerve sheath meningioma](https://img-hosting.jieyu166.workers.dev/i/r4U1IZx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/r4U1IZx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **ONSM 的典型影像特徵包括：intratumor calcification、tram-tracking enhancement（軌道樣強化）、perioptic cyst。Hypointense pseudocapsule 不是 ONSM 的特徵（而是其他腫瘤如 schwannoma 的特徵）。**
 
 ## Summary

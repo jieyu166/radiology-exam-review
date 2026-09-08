@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # splenic-pyogenic-abscess
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：脾膿瘍：液化、周邊強化與氣體](https://img-hosting.jieyu166.workers.dev/i/Cl3lcvG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Cl3lcvG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脾臟化膿性膿瘍最常見成因是血行性播種（尤其是感染性心內膜炎的敗血性栓子），而非先前脾梗塞；影像表現不具特異性、也無法自信地與真性囊腫鑑別，但導引針吸引流可兼具診斷與治療效果——這是脾膿瘍少數不必然開刀的情況。**
 
 ## Summary

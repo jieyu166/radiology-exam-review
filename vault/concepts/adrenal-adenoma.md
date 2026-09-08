@@ -11,6 +11,13 @@ up: "[[adrenal-imaging]]"
 
 # adrenal-adenoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Adrenal adenoma｜腎上腺腺瘤](https://img-hosting.jieyu166.workers.dev/i/52xxg0o.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/52xxg0o.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 > [!info] 從屬（Breadcrumbs）
 > 上層 hub：[[adrenal-imaging]]（腎上腺病灶總覽 / DDx）。本筆記為其子條目（最常見良性實體）。
 

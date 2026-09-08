@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # fahr-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Primary familial brain calcification（舊稱Fahr disease）](https://img-hosting.jieyu166.workers.dev/i/5Fs5kXY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/5Fs5kXY.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Fahr disease = 雙側對稱基底核鈣化。鈣化在 T1WI 上通常為高訊號。臨床症狀多在 30-60 歲發病。有報告指出存在 infantile form（雖罕見）。**
 
 ## Summary

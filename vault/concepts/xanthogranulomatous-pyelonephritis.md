@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # xanthogranulomatous-pyelonephritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：XGP：Bear-paw sign 與腎周發炎](https://img-hosting.jieyu166.workers.dev/i/kakIIVm.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/kakIIVm.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **XGP 是慢性破壞性腎感染，腎實質被充脂質巨噬細胞取代；影像三聯：staghorn 結石＋腎不顯影（non-functioning）＋bear paw sign，pseudoaneurysm 不在其中。** 判讀分水嶺一：**staghorn＋non-functioning＋bear paw＝XGP，pseudoaneurysm 非特徵**；判讀分水嶺二：**致病菌是 Proteus mirabilis（產 urease → struvite 結石），與多數泌尿感染以 E. coli 為主不同**——XGP 是「非 E. coli 泌尿感染」考題的標準答案。
 
 ## Summary

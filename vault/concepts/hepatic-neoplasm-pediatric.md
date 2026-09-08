@@ -11,6 +11,13 @@ dateRev: 2026-07-04
 
 # hepatic-neoplasm-pediatric
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：小兒肝腫瘤：Hepatoblastoma vs HCC](https://img-hosting.jieyu166.workers.dev/i/oLQ8EDb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/oLQ8EDb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **小兒肝臟腫瘤並非兒童最常見的腹腔內腫瘤——neuroblastoma 才是；肝臟居第三（次於 neuroblastoma 與 Wilms tumor）。故本考點的錯誤敘述為「肝腫瘤是兒童最常見腹腔內腫瘤」。判讀分水嶺以年齡分流：< 5 歲以 hepatoblastoma（最常見小兒肝惡性腫瘤，AFP 升高）為主；較大兒童/青少年、常合併潛在肝病者則為 HCC。惡性肝腫瘤僅占所有兒童惡性腫瘤 1-2%。**
 
 ## Summary

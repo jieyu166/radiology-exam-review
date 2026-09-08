@@ -13,6 +13,13 @@ same:
 
 # ankylosing-spondylitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ankylosing spondylitis｜影像線索](https://img-hosting.jieyu166.workers.dev/i/luJ98Ht.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/luJ98Ht.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **AS 是「由下向上、由後向前」融合的脊椎病——對稱薦腸關節炎先，細直 syndesmophytes 後，最終 bamboo spine。** 男性為主、HLA-B27 相關；椎體方形化（squaring）與 shiny corner（Romanus 病灶）是早期特徵；enthesitis 為全身表現。考試分水嶺：**arthritis mutilans（pencil-in-cup）屬乾癬性關節炎，不是 AS**——這幾乎是每次必考的「非 AS 特徵」。
 
 ## Summary

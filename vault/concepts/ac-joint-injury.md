@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # ac-joint-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：AC joint injury｜影像辨識重點](https://img-hosting.jieyu166.workers.dev/i/f7vSdOz.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/f7vSdOz.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肩鎖關節（AC joint）間隙寬於 6 mm 視為異常（提示 AC 韌帶斷裂）；喙鎖韌帶（CC ligament）斷裂則以喙鎖距離（coracoclavicular distance）>13 mm 或雙側不對稱 >5 mm 為判斷標準。兩組數值分屬不同韌帶、不同測量部位，勿混淆。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # spondylolysis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Spondylolysis｜Pars 壓力性損傷](https://img-hosting.jieyu166.workers.dev/i/nmD1Xdv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nmD1Xdv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Spondylolysis 是 pars interarticularis 的疲勞骨折（慢性重複微創傷，非急性），好發 L5，伴隨滑脫最常見於 L5-S1；影像選擇：既成缺損看 CT，早期 stress response 看 MRI/SPECT。** 判讀分水嶺一：**機轉為慢性重複微創傷，非急性高能外傷**——「急性損傷」是常考的錯誤敘述。判讀分水嶺二：**既成缺損範圍以 CT 最佳（皮質缺損形態），MRI 則對早期骨髓水腫 / stress response 敏感**——「既成缺損看 MRI 最佳」是陷阱。常無症狀；約 55% 會進展為滑脫。
 
 ## Summary

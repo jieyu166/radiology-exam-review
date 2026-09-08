@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # skull-base-osteomyelitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Skull base osteomyelitis](https://img-hosting.jieyu166.workers.dev/i/4jCvAlg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/4jCvAlg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **顱底骨髓炎的影像邏輯：發炎組織取代骨髓 → T1 低訊號（正常脂肪髓消失）、T2/STIR 高訊號（水腫），強化明顯（骨、硬膜、咽旁軟組織），DWI 抓膿瘍。它最愛偽裝成腫瘤（NPC、脊索瘤），所以常需切片排除惡性。** 兩型要分清：典型（otogenic/temporal）續發自惡性外耳炎、好發糖尿病老人、Pseudomonas 為主；中央/非典型（central/atypical，clivus/sphenoid）常無明顯耳源、來自鼻竇或牙源感染，真菌比例升高。本題陷阱：水腫在 MRI 應為 **T2WI 高訊號**，題幹說「T1WI 高訊號（edema）」為錯（C）。
 
 ## Summary

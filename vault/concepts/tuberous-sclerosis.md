@@ -14,6 +14,13 @@ same:
 
 # tuberous-sclerosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：TSC：中樞神經影像](https://img-hosting.jieyu166.workers.dev/i/iyFcoGB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iyFcoGB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **結節性硬化症（TSC）的中樞神經典型影像是「鈣化的室管膜下結節（calcified subependymal nodules）」——搭配皮質結節（cortical tubers）與SEGA。臨床三聯徵：發展遲緩、癲癇、皮膚病灶。要與其他斑痣性錯構瘤症鑑別：leptomeningeal angioma＝Sturge-Weber、multiple meningioma＝NF2、retinoblastoma＝獨立疾病。**
 
 ## Summary

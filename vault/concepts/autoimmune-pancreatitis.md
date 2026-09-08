@@ -12,6 +12,13 @@ dateRev: 2026-06-18
 
 # autoimmune-pancreatitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Autoimmune pancreatitis｜典型影像](https://img-hosting.jieyu166.workers.dev/i/dDC4xda.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dDC4xda.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **AIP 的胰臟像一根腫脹的香腸——瀰漫腫大、外緣有一圈低訊號包膜邊（capsule-like rim），主胰管被壓窄但上游不太擴張。** 瀰漫型（香腸型）是最常見表現；局部型較少，但外觀可酷似胰臟癌，此時「找有無 IgG4 升高＋試用類固醇」是重要鑑別思路。記憶鉤：AIP 的主胰管是「狹窄但不上游擴張」，而胰癌常造成上游明顯擴張的「雙管征」，兩者方向相反。合併 PSC 或後腹腔纖維化更支持 IgG4-RD 診斷。
 
 ## Summary

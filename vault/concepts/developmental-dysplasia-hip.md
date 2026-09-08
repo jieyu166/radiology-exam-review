@@ -13,6 +13,13 @@ dateRev: 2026-07-02
 
 # developmental-dysplasia-hip
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：DDH｜共用骨盆正位定位圖](https://img-hosting.jieyu166.workers.dev/i/GYQjiTn.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GYQjiTn.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **DDH 危險因子＝女性、家族史、臀位產、羊水過少（『6F』：female、family history、frank breech、first-born、left；男性『不是』危險因子，M:F≈1:8）;股骨頭骨化（約 4-6 個月）前『超音波』為首選影像。** 判讀分水嶺：**新生兒至 ~6 月股骨頭尚未骨化→US（Graf 法）為首選;骨化後改 X 光;Graf α 角（髖臼骨頂角）正常 ≥60°、β 角（軟骨頂）<77°、骨性覆蓋率 >50% 為正常。**
 
 ## Summary

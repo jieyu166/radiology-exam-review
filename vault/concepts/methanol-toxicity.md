@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # methanol-toxicity
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Methanol toxicity](https://img-hosting.jieyu166.workers.dev/i/p1JwvWF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/p1JwvWF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性失明 + 雙側「殼核（putamen）出血性壞死」＝甲醇中毒的招牌組合。** 判讀分水嶺：急性視力惡化至失明的病人，MRI 見**雙側殼核 T2/FLAIR 高訊號、GRE/SWI（T2*）blooming（出血）、DWI 受限**，並可伴視神經/視交叉、皮質下白質、蒼白球病灶及蜘蛛膜下腔／腦內出血——優先想甲醇（formic acid 毒性），而非單純缺氧或高血壓出血。
 
 ## Summary

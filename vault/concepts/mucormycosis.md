@@ -13,6 +13,13 @@ dateRev: 2026-06-17
 
 # mucormycosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Rhino-orbito-cerebral mucormycosis](https://img-hosting.jieyu166.workers.dev/i/IRJpVYg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IRJpVYg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **鼻腦型毛黴菌症是沿血管壁「侵蝕推進」的感染，從鼻竇到眼眶到顱內可在數天內完成——好發糖尿病/免疫低下，black turbinate sign（不強化的壞死黏膜）是早期線索。** 判讀分水嶺一：**T2 訊號多變，僅約 20% 呈高 T2（真菌元素與出血使訊號偏低）——「T2 傾向高訊號」是考題的假敘述**；判讀分水嶺二：**侵血管特性可致血管栓塞/腦梗塞**，不同於一般化膿性鼻竇炎。
 
 ## Summary

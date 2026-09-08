@@ -10,6 +10,13 @@ dateRev: 2026-07-01
 
 # neurocutaneous-melanosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Neurocutaneous melanosis](https://img-hosting.jieyu166.workers.dev/i/vdBr5Ge.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/vdBr5Ge.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **神經皮膚黑色素沉積症典型表現為大片先天性長毛黑色素痣合併中樞神經系統黑色素細胞增生，MRI上T1呈高訊號（好發於內側顳葉尤其杏仁核、腹側橋腦與延腦、小腦、額葉下部），最常見併發症為水腦；癲癇、視神經頭水腫合併軀幹大片長毛黑痣與小腦上蚓部/內側顳葉高密度變化的臨床情境，最可能診斷為此症。**
 
 ## Summary

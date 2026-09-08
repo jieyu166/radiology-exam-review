@@ -12,6 +12,13 @@ dateRev: 2026-07-04
 
 # bowel-rotational-abnormalities
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：腸旋轉異常｜Malrotation 線索](https://img-hosting.jieyu166.workers.dev/i/6AjFaN9.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6AjFaN9.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **辨識腸道旋轉異常（malrotation）的最關鍵影像線索是「腸道位置反常」——小腸位於右側腹、大腸位於左側腹；SMV-SMA 位置反轉、SMA 走向、十二指腸走行皆為輔助線索，但單一血管徵象敏感度/特異度不足以確診，腸道整體分布才是分水嶺。合併中腸扭轉（midgut volvulus）時可見 whirlpool sign（SMV 與腸繫膜繞 SMA 旋轉）。**
 
 ## Summary

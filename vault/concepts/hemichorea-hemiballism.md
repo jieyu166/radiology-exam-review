@@ -14,6 +14,13 @@ same:
 
 # hemichorea-hemiballism
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Diabetic striatopathy](https://img-hosting.jieyu166.workers.dev/i/CUBAYTE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/CUBAYTE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **非酮性高血糖偏側舞蹈症（NHH）的關鍵影像陷阱在CT密度：病灶在非顯影CT呈「高密度（hyperdense）」而非低密度，並在T1WI呈高訊號——所以「CT低密度」是錯誤描述。病灶通常單側、侵犯對側基底核（尾核與被殼）。**
 
 ## Summary

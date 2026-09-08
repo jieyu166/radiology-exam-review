@@ -17,6 +17,13 @@ source: 交換考 2021-117
 
 # kummell-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Kümmell disease｜延遲椎體塌陷](https://img-hosting.jieyu166.workers.dev/i/LzxN8VD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LzxN8VD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Kümmell disease＝椎體「延遲性」缺血性壞死與塌陷：重大外傷後前緣楔形骨折不癒合、缺血，約兩週後才逐漸塌陷。影像招牌是 intravertebral vacuum cleft（椎體內真空裂隙）。判讀分水嶺：這條裂隙裡是缺血壞死產生的『氮氣（低壓真空現象）』，不是感染的產氣菌——所以真空裂隙徵象『反對』感染／惡性，而『支持』骨壞死。** 別把真空裂隙誤讀成 gas-forming infection（本題正解 C 之所以「非」）。
 
 ## Summary

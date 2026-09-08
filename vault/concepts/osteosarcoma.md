@@ -14,6 +14,13 @@ dateRev: 2026-07-10
 
 # osteosarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：傳統型骨肉瘤 Conventional osteosarcoma](https://img-hosting.jieyu166.workers.dev/i/haIV3b3.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/haIV3b3.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **傳統型（髓內）骨肉瘤是兒童／青少年最常見的原發性惡性骨腫瘤，好發第二十年、男略多；影像特徵＝osteoid 類骨基質＋侵襲性骨膜反應（sunburst 日光放射／Codman triangle）。好發長骨幹骺端（metaphysis／metadiaphysis），約 50% 位於膝關節周圍（遠端股骨＞近端脛骨），故最常侵犯的關節是膝。** 判讀分水嶺一：**軟組織腫塊內出現腫瘤性 osteoid 幾乎是骨肉瘤的 pathognomonic 徵象**（Ewing 的硬化只在骨內、不在軟組織）。判讀分水嶺二：**血行轉移，最常見遠端轉移器官為肺（Lung ≫ 骨、淋巴結）**，5–10% 於診斷時已有肺轉移。
 
 ## Summary

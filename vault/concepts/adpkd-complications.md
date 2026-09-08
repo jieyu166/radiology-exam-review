@@ -12,6 +12,13 @@ up: "[[acquired-cystic-kidney-disease]]"
 
 # adpkd-complications
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：ADPKD｜囊腫出血 vs 感染](https://img-hosting.jieyu166.workers.dev/i/Ey8oe28.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Ey8oe28.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **ADPKD 的三大常見併發症靠「感染、出血、結石」記憶——囊腫感染、囊內/腹膜後出血、腎結石（urolithiasis）皆為常見合併症；「沾黏（adhesion）」不是 ADPKD 的典型直接併發症,是外科術後才常見的概念,考題常以此干擾。** 判讀分水嶺：**沾黏並非囊腎本身的病理特徵**，而是任何腹部手術/發炎後的續發現象，與 ADPKD 病理生理無直接因果關係。
 
 ## Summary

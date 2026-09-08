@@ -13,6 +13,13 @@ dateRev: 2026-07-02
 
 # paraduodenal-hernia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Left paraduodenal hernia：定位](https://img-hosting.jieyu166.workers.dev/i/IKxGgGw.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IKxGgGw.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **左右型paraduodenal hernia的地標血管口訣：左型「IMV + ascending left colic artery」在包裹腸圈的前內側緣；右型「SMA + right colic vein」在前內側緣。左型經Landzert窩、右型經Waldeyer窩，兩者皆是先天腹膜融合失敗造成的內疝氣好發位置。**
 
 ## Summary

@@ -15,6 +15,13 @@ dateRev: 2026-06-29
 
 # shoulder-dislocation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肩關節前 vs 後脫位｜對應損傷](https://img-hosting.jieyu166.workers.dev/i/J3U8CjL.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/J3U8CjL.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肩脫位的壓迫骨折邏輯：脫位方向決定「哪面撞哪面」——前脫位時肱骨頭後外側撞前下盂緣（Hill-Sachs＋Bankart）；後脫位時肱骨頭前內側撞後盂緣（reverse Hill-Sachs = trough sign＋reverse Bankart＋light bulb sign）。「trough-like impaction」是後脫位專屬特徵，不屬前脫位。** 判讀分水嶺一：**前脫位（~95%）→ Hill-Sachs（後外側）＋Bankart（前下盂唇）＋subcoracoid 位**；判讀分水嶺二：**後脫位 → trough sign（前內側縱向緻密線）＋light bulb sign＋half-moon overlap 消失**。
 
 ## Summary

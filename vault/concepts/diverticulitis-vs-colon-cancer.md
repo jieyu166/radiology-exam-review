@@ -10,6 +10,13 @@ dateRev: 2026-07-01
 
 # diverticulitis-vs-colon-cancer
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：憩室炎 vs 大腸癌｜CT 鑑別線索](https://img-hosting.jieyu166.workers.dev/i/S4I4c8B.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/S4I4c8B.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **憩室炎與大腸癌在CT上常有重疊表現（腸壁增厚、周圍發炎變化皆可見於兩者），但「區域淋巴結病變」較常見於癌症——這是判讀分水嶺，而腹水並非有效鑑別點。**
 
 ## Summary

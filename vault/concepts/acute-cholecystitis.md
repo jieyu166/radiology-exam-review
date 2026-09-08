@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # acute-cholecystitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：急性膽囊炎｜結石性 vs 無結石性](https://img-hosting.jieyu166.workers.dev/i/IHHtY3e.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IHHtY3e.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膽囊管（cystic duct）被結石卡住是急性膽囊炎的起因分水嶺：結石阻塞 cystic duct → 膽囊擴張、缺血、毒性傷害 → 可進展至壞疽與穿孔。這與 A cholangitis（膽道系統／總膽管阻塞感染）不同——cystic duct 結石特異地引起「急性膽囊炎」，而非膽管炎、腺肌症或門靜脈栓塞。**
 
 ## Summary

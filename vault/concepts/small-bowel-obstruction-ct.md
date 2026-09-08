@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # small-bowel-obstruction-ct
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gallstone ileus：Rigler triad](https://img-hosting.jieyu166.workers.dev/i/TZSESTt.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TZSESTt.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SBO 的 CT 判讀核心是找「transition point」——近端擴張腸環與遠端塌陷腸環之間的口徑落差處，即阻塞病灶所在。膽石腸阻塞（gallstone ileus）三徵象（Rigler's triad）：氣膽（pneumobilia）＋異位膽結石＋SBO，具高度特異性。** 判讀分水嶺：**小腸繼發性惡性腫瘤（轉移癌）造成 SBO 遠比原發小腸腺癌常見**。
 
 ## Summary

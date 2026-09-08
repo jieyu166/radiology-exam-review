@@ -13,6 +13,13 @@ dateRev: 2026-06-29
 
 # duplex-collecting-system
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Duplex collecting system](https://img-hosting.jieyu166.workers.dev/i/eKMUMm6.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/eKMUMm6.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **泌尿道先天異常中「最常見」的答案就是重複集尿系統。** Weigert-Meyer 法則決定哪一極出哪種麻煩：上極輸尿管插入點偏內下方且異位，容易阻塞和形成 ureterocele；下極輸尿管插入正常但斜行短，容易逆流（VUR）。記憶鉤：**「上極往下走→塞；下極短路→逆流」**。
 
 ## Summary

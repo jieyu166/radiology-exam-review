@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # slipped-capital-femoral-epiphysis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：SCFE｜股骨頭骨骺滑脫](https://img-hosting.jieyu166.workers.dev/i/jzIuzs4.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jzIuzs4.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SCFE好發於「男孩」不是女孩——這是本題陷阱。其餘記憶：肥胖是重要危險因子、本質是Salter-Harris第一型生長板損傷（骨骺相對幹骺端向後內下滑脫）、Klein線（沿股骨頸上緣畫線正常應切過骨骺外側部分，SCFE時未切過）有助診斷。**
 
 ## Summary

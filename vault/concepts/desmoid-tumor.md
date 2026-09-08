@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # desmoid-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Desmoid tumor｜硬纖維瘤](https://img-hosting.jieyu166.workers.dev/i/k4pGYjc.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/k4pGYjc.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Desmoid 長得像惡性腫瘤（局部侵犯、術後復發）、但本質是良性纖維增生，且永遠不轉移。** 緻密膠原讓它 T2 呈現低訊號帶、質地石硬，穿刺切片常針頭彈開。與 FAP/Gardner（APC 基因，5q）強相關——腸息肉病人腹部硬塊要想它。記憶鉤：**「像疤痕的腫瘤：硬、不走遠、但局部纏人」**。
 
 ## Summary

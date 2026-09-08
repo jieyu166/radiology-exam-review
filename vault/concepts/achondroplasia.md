@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # achondroplasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Achondroplasia｜軟骨發育不全](https://img-hosting.jieyu166.workers.dev/i/iBWXzg1.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iBWXzg1.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **軟骨發育不全（achondroplasia）是最常見的骨骼發育不良，FGFR3 gain-of-function 突變致軟骨內骨化異常，呈近端肢體不成比例縮短（rhizomelic dwarfism）。脊椎關鍵徵象是腰椎椎弓根間距『由頭側向尾側漸進縮小』（decreased L5-S1 為 pathognomonic），與正常脊椎（漸進增寬）相反，為椎管狹窄基礎。** 判讀分水嶺：**正常腰椎椎弓根間距頭→尾漸增；achondroplasia 反常漸『縮小』（+短椎弓根→椎管狹窄、posterior vertebral scalloping）；trident hand（2/3/4 指分開且長度相近）；bullet-shaped 椎體（前緣鳥嘴，亦見 MPS/先天甲狀腺低下）；champagne-glass pelvis、狹窄枕骨大孔。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # retroperitoneal-fibrosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：後腹膜纖維化 vs 淋巴瘤](https://img-hosting.jieyu166.workers.dev/i/t8mySXl.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/t8mySXl.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **後腹膜纖維化（Ormond / IgG4 相關）的記憶鉤：斑塊「包住往裡拉」輸尿管——IVP 三聯為腎積水＋輸尿管中段「內側」偏移（medial deviation）＋漸進變細；手術正因此要把輸尿管往外側（lateral transposition）移回來，「外側偏移」是考試陷阱。** 判讀分水嶺一：**輸尿管中 1/3 內側偏移（medial deviation），非外側**；判讀分水嶺二：**斑塊包繞腎下主動脈周圍、強化依纖維化活性而異（活動期↑）**。
 
 ## Summary

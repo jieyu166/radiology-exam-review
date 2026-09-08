@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # biliary-hamartoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Biliary hamartomas｜von Meyenburg complexes](https://img-hosting.jieyu166.workers.dev/i/EktZnDt.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EktZnDt.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **von Meyenburg complex 是肝臟到處散布小膽管囊腫的發育畸形，超音波看到「滿肝小高/低回音結節＋彗星尾偽影」就想到它。** 彗星尾偽影來自管腔內的膽固醇結晶或濃稠物——這是「常見」現象，考試常把它設成「罕見」陷阱，要記反。MRCP 可見多發小囊腫不與主膽管相通，是與 Caroli 病（相通）的鑑別點。
 
 ## Summary

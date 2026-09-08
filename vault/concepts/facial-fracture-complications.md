@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # facial-fracture-complications
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：眼眶外傷：SOFS vs orbital apex syndrome](https://img-hosting.jieyu166.workers.dev/i/wEr2LIp.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/wEr2LIp.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **顏面骨折可併發多種神經血管損傷：Superior orbital fissure syndrome（SOFS）為骨折延伸至上眶裂，損傷 CN III、IV、V1、VI；Orbital apex syndrome 則同時累及上眶裂及視神經管，損傷包含 optic nerve 在內的所有通過 orbital apex 的神經（CN II、III、IV、V1、VI）；眶底爆裂骨折常傷及 infraorbital nerve（V2）致同側臉頰感覺減退；下頜管骨折可傷及 inferior alveolar nerve（V3）致同側下巴麻木。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-04
 
 # sbo-causes-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：SBO：沿 transition zone 找常見病因](https://img-hosting.jieyu166.workers.dev/i/UpOFT1U.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/UpOFT1U.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **小腸阻塞（SBO）病因眾多：adhesion（最常見）、hernia、neoplasm、Crohn disease、intussusception 等皆屬已知病因；本考點問「何者非 SBO 病因」而選項含上述四者＋『以上皆可』，正解為以上皆可造成 SBO（E）。判讀分水嶺——CT 以擴張近端腸（>3 cm）與塌陷遠端腸交界處（transition point）定位阻塞點與病因；closed loop 與腸缺血徵象是絞扼的紅旗。**
 
 ## Summary

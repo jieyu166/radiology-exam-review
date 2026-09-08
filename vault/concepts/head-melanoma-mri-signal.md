@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # head-melanoma-mri-signal
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Melanoma：Melanotic vs amelanotic](https://img-hosting.jieyu166.workers.dev/i/dvfyv7L.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dvfyv7L.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **惡性黑色素瘤依黑色素含量分兩種 MRI 訊號：「Melanotic pattern（>10% 黑色素細胞）」呈 T1 高訊號、T2 低訊號（黑色素順磁效應，唯一提供一致可靠 MR 表現者）；「Amelanotic pattern（<10%）」則 T1 低-等、T2 高-等（非特異）——兩者恰好相反。** 判讀分水嶺：**melanotic：T1 高、T2 低（黑色素順磁、對 T1/T2 皆縮短）；amelanotic：T1 低-等、T2 高-等（似一般軟組織腫瘤）；陷阱＝誤將 amelanotic 之 T2 寫成「低訊號」（應為高-等訊號）；melanoma 為典型出血性轉移，血產物亦致 T1 高/T2 低。**
 
 ## Summary

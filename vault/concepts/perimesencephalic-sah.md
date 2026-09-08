@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # perimesencephalic-sah
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Perimesencephalic SAH pattern](https://img-hosting.jieyu166.workers.dev/i/zcJA0Zh.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/zcJA0Zh.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Perimesencephalic SAH（PMSAH）＝出血集中在『中腦周圍腦池（midbrain 前方）』的非動脈瘤性蛛網膜下腔出血,預後極佳;但它是『排除性診斷』——一定要用影像（CTA）排除後循環（vertebrobasilar）動脈瘤才能下。** 判讀分水嶺一：**出血中心在 pons/midbrain 前方（interpeduncular/prepontine 池）,可延伸至基底池、鞍上池與近端 Sylvian/縱裂;若見外側裂深部或縱裂前方大量積血,要改想動脈瘤**;判讀分水嶺二：**95% 腦血管攝影正常（推測靜脈源、再出血罕見、預後佳）;但約 5% 其實是 vertebrobasilar 動脈瘤破裂（預後差）→ 影像必須先排除**。
 
 ## Summary

@@ -10,6 +10,13 @@ dateRev: 2026-07-10
 
 # hepatoblastoma-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：hepatoblastoma-imaging：共用 Summary 圖](https://img-hosting.jieyu166.workers.dev/i/oLQ8EDb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/oLQ8EDb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝母細胞瘤（hepatoblastoma）為兒童（尤其 <3-4 歲）最常見原發性肝惡性腫瘤，典型影像為邊界清楚之異質性、低密度（hypoattenuating）腫塊，CT 約 40% 可見緻密塊狀鈣化——並非典型囊性病灶，此為考題常見陷阱。** 判讀分水嶺：**臨床「無痛腹部腫塊 + AFP 明顯升高（~90%）」＋影像「well-defined、hypoattenuating、chunky calcification、spoke-wheel」＝ hepatoblastoma；囊性為主要想 mesenchymal hamartoma、超高血流/大血管想 congenital hepatic hemangioma。**
 
 ## Summary

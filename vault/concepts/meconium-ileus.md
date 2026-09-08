@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # meconium-ileus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Meconium ileus](https://img-hosting.jieyu166.workers.dev/i/pEJCrH1.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/pEJCrH1.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胎便性腸阻塞的灌腸攝影招牌：顯影劑逆流進入狹窄的迴腸末端，勾勒出一顆顆胎便糰塊的輪廓，同時因遠端阻塞而見「未使用之微結腸(microcolon)」——這是與其他新生兒腸阻塞病因（如迴腸閉鎖、赫氏症）鑑別的關鍵影像特徵。**
 
 ## Summary

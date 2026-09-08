@@ -14,6 +14,13 @@ dateRev: 2026-07-10
 
 # giant-cell-tumor-tendon-sheath
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Localized TGCT｜腱鞘巨細胞瘤](https://img-hosting.jieyu166.workers.dev/i/zOSxMAS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/zOSxMAS.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腱鞘巨細胞瘤（GCTTS）＝局灶型腱鞘滑膜巨細胞瘤（localized TSGCT），舊稱關節外色素絨毛結節性滑膜炎（PVNS）；是手部僅次於腱鞘囊腫（ganglion）的第二常見腫塊，約 85% 發生在手指，且以掌側（volar／屈側）為主，非背側。** 判讀分水嶺一：**含鐵血黃素（hemosiderin）在 T2* gradient echo 呈 blooming／訊號流失**——是與其他軟組織腫塊鑑別的關鍵，故想「記錄 hemosiderin」要用 T2* GRE，而非 T2 FS／T1／inversion recovery。判讀分水嶺二：**好發部位＝手指掌側、鄰近遠端指間關節（DIP）／近端指骨**，「好發背側」是常見陷阱。
 
 ## Summary

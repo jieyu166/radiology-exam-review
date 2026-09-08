@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # second-impact-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Second-impact syndrome](https://img-hosting.jieyu166.workers.dev/i/dVDZGRm.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dVDZGRm.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **二次撞擊症候群的硬腦膜下血腫是「薄」的，但腫塊效應與中線偏移卻與血腫大小「不成比例」地嚴重——這個反差正是本病的判讀核心，「血腫通常>0.5cm」是常見誤判方向。**
 
 ## Summary

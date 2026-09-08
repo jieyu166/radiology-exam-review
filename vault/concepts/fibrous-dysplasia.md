@@ -12,6 +12,13 @@ up: "[[rib-tumor]]"
 
 # fibrous-dysplasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Fibrous dysplasia｜纖維異常增生](https://img-hosting.jieyu166.workers.dev/i/ZEiFRUs.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ZEiFRUs.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Fibrous dysplasia 就是「骨頭裡長纖維骨、磨玻璃模樣、膨脹但沒有骨膜反應」的良性病變，肋骨是單骨型最常見部位。** 判讀分水嶺一：**ground-glass 基質＋無 periosteal reaction＋rind sign**＝良性纖維骨病變；判讀分水嶺二：**多骨型（polyostotic）→ 想 McCune-Albright（皮膚咖啡牛奶斑＋性早熟）或 Mazabraud（＋肌內黏液瘤）**。記憶鉤：「毛玻璃骨、膨脹無骨膜、多骨配咖啡斑」。
 
 ## Summary

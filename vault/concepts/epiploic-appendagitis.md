@@ -10,6 +10,13 @@ dateRev: 2026-07-01
 
 # epiploic-appendagitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Epiploic appendagitis：發炎中心在腸外脂肪](https://img-hosting.jieyu166.workers.dev/i/TvC6LQl.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TvC6LQl.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Epiploic appendagitis為腸脂垂（epiploic appendage，大腸漿膜面帶蒂脂肪突起）之缺血性梗塞，好發於20-50歲，男性較女性多見（約4倍），肥胖為危險因子；好發部位為rectosigmoid junction（57%）與ileocecal region（26%）。**
 
 ## Summary

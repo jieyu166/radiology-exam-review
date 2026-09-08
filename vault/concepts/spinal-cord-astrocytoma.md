@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # spinal-cord-astrocytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：spinal-cord-astrocytoma：共用圖稿](https://img-hosting.jieyu166.workers.dev/i/C2tSn60.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/C2tSn60.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脊髓星狀細胞瘤是兒童與年輕成人最常見的髓內腫瘤，其組織學惡性度通常『低於』顱內星狀細胞瘤——多數為低惡性度（75-80% low grade），並非以高惡性度為主。** 判讀分水嶺：**成人 low-grade ~75%、anaplastic ~25%、GBM 僅 ~1%；兒童多 grade I/II；好發頸 > 胸段；偏心性膨大脊髓、界限不清（浸潤性）；出血相對少見（與 ependymoma 之 hemosiderin cap sign 不同）。**
 
 ## Summary

@@ -13,6 +13,13 @@ same:
 
 # hepatic-hemangioma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hepatic hemangioma：血池型增強](https://img-hosting.jieyu166.workers.dev/i/ptb0eRq.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ptb0eRq.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝血管瘤超音波看到「高回音＋後方穿透增強（不是聲影遮蔽）」，CEUS 周邊結節狀向心填充——後方 shadowing 是石頭的特徵，不是血管瘤。** 判讀分水嶺一：**後方 acoustic enhancement（穿透增強）不是 shadowing（遮蔽）**，這個相反是常考陷阱；判讀分水嶺二：**中央 color Doppler 無明顯血流（慢流）；CEUS 動脈期周邊結節狀不連續強化 → 門脈/延遲期向心填充**。記憶鉤：血管瘤是血池，讓聲波穿透增強（像水一樣透過去），不像石頭擋住留遮蔽。
 
 ## Summary

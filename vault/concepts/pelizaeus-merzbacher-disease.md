@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # pelizaeus-merzbacher-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pelizaeus–Merzbacher disease](https://img-hosting.jieyu166.workers.dev/i/ldfvwvN.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ldfvwvN.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PMD＝X 染色體性聯（X-linked）之髓鞘「發育不良／發育停滯」型腦白質失養症（hypomyelinating leukodystrophy），由 Xq22 的 PLP1（proteolipid protein）基因異常所致，且以「重複（duplication）」最常見——是「未能製造正常髓鞘」而非「已形成後脫失」。**
 
 ## Summary

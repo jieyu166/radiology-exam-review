@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # pancreatic-cystic-lesions
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pancreatic cysts：常見 DDx](https://img-hosting.jieyu166.workers.dev/i/ixbHmGC.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ixbHmGC.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胰臟最常見囊性病灶是 pseudocyst（無血管化軟組織成分）;serous cystadenoma 為『良性』（微囊／中央星狀疤痕±鈣化）多觀察不需切除;mucinous cystic neoplasm 與 IPMN 才具惡性潛能;MRI/MRCP 描述 IPMN 與主胰管關係優於 CT。** 判讀分水嶺：**pseudocyst＝有胰臟炎史、無強化壁結節;serous＝良性微囊蜂巢、中央疤痕,觀察;mucinous（MCN，中年女性胰尾）＋IPMN（與胰管相通）＝癌前/惡性,需評估手術;有強化壁結節/主胰管擴張＝高危。**
 
 ## Summary

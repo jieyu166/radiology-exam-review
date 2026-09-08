@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # glutaric-aciduria-type1
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Glutaric aciduria type 1](https://img-hosting.jieyu166.workers.dev/i/EiVvx1n.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EiVvx1n.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **第一型戊二酸尿症（Glutaric Aciduria Type 1, GA1）為體染色體隱性遺傳之有機酸代謝疾病，典型影像特徵包含寬大之外側裂（wide operculae）、基底節於某些序列呈現亮訊號（bright basal ganglia）、早期巨頭畸形與晚期腦萎縮；嚴重個案常合併髓鞘化延遲（delayed myelination），並非正常髓鞘化。**
 
 ## Summary

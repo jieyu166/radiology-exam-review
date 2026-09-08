@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # anomalous-pancreatobiliary-duct-union
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：胰膽管異常匯合｜PBM](https://img-hosting.jieyu166.workers.dev/i/m9PouMr.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/m9PouMr.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **APBDU（胰膽管匯合異常）＝胰管與膽管在十二指腸壁外匯合、形成過長共同通道，使胰液反流入膽道；它與先天性膽道囊腫（choledochal cyst）高度相關，並提高膽道癌風險。**
 
 ## Summary

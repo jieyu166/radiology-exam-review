@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # forearm-fracture-dislocation-eponyms
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Forearm injury｜三種骨折脫位](https://img-hosting.jieyu166.workers.dev/i/y2mHBOG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/y2mHBOG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **前臂骨折脫位口訣「近端 Monteggia、遠端 Galeazzi、頭端 Essex-Lopresti」：Monteggia＝尺骨（近端）骨折 + 橈骨頭（radiocapitellar）脫位；Galeazzi＝橈骨（遠端）骨折 + 遠端橈尺關節（DRUJ）脫位；Essex-Lopresti＝橈骨頭（粉碎）骨折 + DRUJ 脫位 +『骨間膜（interosseous membrane）破裂』（縱向前臂不穩定）。橈尺骨由強韌骨間韌帶緊連，故「一骨移位骨折 → 另一骨骨折或脫位」。** 判讀分水嶺：**看到「單一前臂骨移位骨折」務必找另一端關節（PRUJ/DRUJ）——Essex-Lopresti 與 Galeazzi 都有 DRUJ 脫位，差別在骨折部位（橈骨頭 vs 橈骨遠端）＋ Essex-Lopresti 多骨間膜斷裂之縱向不穩定；DRUJ 傷最易漏診。記憶：MUGR（Monteggia-Ulna、Galeazzi-Radius）。**
 
 ## Summary

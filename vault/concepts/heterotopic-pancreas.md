@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # heterotopic-pancreas
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Heterotopic pancreas：胃竇黏膜下病灶](https://img-hosting.jieyu166.workers.dev/i/WIkFkGG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/WIkFkGG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **異位胰臟最常見的位置是上消化道，尤其是胃（gastric antrum，幽門 6 公分內的大彎側）——這是本病最常考的「最高發生率器官」考點；其次為十二指腸與近端空腸，食迴腸、Meckel 憩室、膽道則屬少見部位。**
 
 ## Summary

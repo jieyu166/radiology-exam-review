@@ -7,6 +7,13 @@ aliases:
   - 離斷性骨軟骨炎
 ---
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：膝 OCD｜評估骨軟骨單元](https://img-hosting.jieyu166.workers.dev/i/frxieTg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/frxieTg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Osteochondritis dissecans（OCD）**是軟骨下骨的局灶性病變，好發於兒童及青少年，典型位置在股骨內踝外側面。
 
 ## Summary

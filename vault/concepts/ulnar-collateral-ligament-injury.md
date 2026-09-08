@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # ulnar-collateral-ligament-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肘 UCL 損傷｜遠端深層撕裂](https://img-hosting.jieyu166.workers.dev/i/YJbHJDo.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YJbHJDo.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **棒球投手肘內側的 UCL（尤其 anterior bundle，抗外翻主力）承受外翻應力易拉傷/撕裂；MRI『T sign』＝關節液介於 UCL 尺側附著（sublime tubercle）之間，代表 anterior bundle 遠端 partial（undersurface）撕裂。** 判讀分水嶺：**輕度＝韌帶旁水腫、纖維大致完整；遠端部分撕裂＝T sign；但『Tommy John 重建術後』出現的 T sign 常反映『正常移植肌腱附著』，不應誤判為再撕裂/移植失敗。**
 
 ## Summary

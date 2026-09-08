@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # inflammatory-bowel-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：UC vs Crohn disease](https://img-hosting.jieyu166.workers.dev/i/yTSF9RG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/yTSF9RG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **UC＝侷限大腸、僅黏膜層、由直腸連續向近端、可有『backwash ileitis』;Crohn＝全消化道任一段（跳躍性）、全層（transmural）、好發末端迴腸。** 判讀分水嶺：**backwash ileitis 是 UC（全結腸炎逆流入末端迴腸）的特徵,不是 Crohn;Crohn 全層病變致瘻管/狹窄/脂肪爬行;泌尿系草酸鈣結石為 Crohn（末端迴腸受累致脂肪吸收不良、草酸過量吸收）常見的腸外表現。**
 
 ## Summary

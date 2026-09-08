@@ -16,6 +16,13 @@ dateRev: 2026-07-10
 
 # cppd-chondrocalcinosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CPPD｜Chondrocalcinosis 線索](https://img-hosting.jieyu166.workers.dev/i/GzjkYO9.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GzjkYO9.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **焦磷酸鈣（CPP）結晶沉積於透明軟骨、纖維軟骨與關節周圍組織，造成軟骨鈣化（chondrocalcinosis）與一種類骨關節炎但分布特殊的關節病；急性發作即臨床所稱「假性痛風（pseudogout）」。** 判讀分水嶺：**軟骨鈣化好發於大關節（膝、腕、恥骨聯合），脊椎受侵犯相對罕見；一旦侵犯脊椎多在頸椎（冠齒症候群 crowned dens、齒突後假瘤 retro-odontoid pseudotumor，結晶多沉積於齒突周圍韌帶），可波及椎間盤但較少見。** 因此把 CPPD 說成「較常發生於脊椎、且最常在頸椎」是錯的——它是大關節優先、脊椎少見。記憶鉤：**膝腕先鈣化，脊椎是例外，例外看頸椎。**
 
 ## Summary

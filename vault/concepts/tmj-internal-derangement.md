@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # tmj-internal-derangement
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：TMJ｜關節盤移位與回位](https://img-hosting.jieyu166.workers.dev/i/dwn82WB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dwn82WB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **TMJ 內部紊亂＝關節盤（disc）與髁突（condyle）之異常關係，是 TMJ dysfunction 最常見成因；好發年輕女性（F:M 約 8:1），臨床為疼痛、彈響、開口受限。** 判讀分水嶺：**MRI 為首選，必須同時取「閉口＋開口」斜矢狀影像**——只憑單一位置無法判定移位或有無回位（reduction）。正常盤呈雙凹（biconcave），後帶較前帶厚；閉口時後帶位於髁突正上方約 12 點鐘，後帶-垂直夾角 >10° 視為前移位。直接徵象＝開／閉口盤位置異常（前移位最常見，可回位或不回位；後移位；stuck disc）；間接徵象＝關節積液、後盤層（retrodiscal）破裂、外翼肌（LPM）附著增厚；末期為退化性骨變（髁突變扁、骨刺、侵蝕、硬化）。
 
 ## Summary

@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # pronator-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肘／近端前臂正中神經壓迫](https://img-hosting.jieyu166.workers.dev/i/RMptsXK.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RMptsXK.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肘部/前臂近端之正中神經壓迫分三型：① 旋前肌症候群（pronator syndrome）＝正中神經卡於旋前圓肌淺深兩頭之間／lacertus fibrosus／FDS 起點；② supracondylar process syndrome＝**Struthers 韌帶（自肱骨遠端 supracondylar process 骨刺連至內上髁）**壓迫正中神經；③ AIN（Kiloh-Nevin）syndrome＝前骨間神經被旋前圓肌深頭腱起點壓迫。此題答案「Struthers 韌帶＋supracondylar process」即正中神經肘部壓迫之典型骨性/纖維結構。** 判讀分水嶺：**壓迫點在 MR/US 上「幾乎看不到」——診斷靠「相應肌群之去神經（T2/PD FS 水腫、T1 脂肪萎縮）」等間接徵象；且要與造成他神經壓迫的鑑別（spinoglenoid ganglion→肩胛上神經、cubital tunnel retinaculum→尺神經）分清。**
 
 ## Summary

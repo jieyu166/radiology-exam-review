@@ -15,6 +15,13 @@ dateRev: 2026-07-10
 
 # gi-villous-lesions
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Villous GI lesion：絨毛狀腫瘤](https://img-hosting.jieyu166.workers.dev/i/uQRFRIL.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uQRFRIL.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腺瘤依絨毛(villous)成分分三型——tubular（最常見、>80%、惡變率低）、tubulovillous、villous（最少、惡變率最高）；「advanced adenoma」＝高惡變風險亞群，定義為 ≥10 mm、或明顯 villous 成分（>25%）、或高度異型增生。** 判讀分水嶺：**villous lesion 在鋇劑攝影呈 broad-based＋多個 polypoid 突起，鋇劑滲入突起間隙形成 frond/lace/soap-bubble（cerebriform）花樣，而非窄基或環狀阻塞；MRI 表面有一層厚 T2-hyperintense 黏液/高細胞層，T2 中至高訊號、T1 低訊號。** 十二指腸病灶：**偶發者最常在第二段、與 FAP 相關者多為壺腹/壺腹周圍**，影像與大腸者相似但小病灶易漏。
 
 ## Summary

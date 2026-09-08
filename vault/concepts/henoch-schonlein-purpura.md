@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # henoch-schonlein-purpura
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：IgA vasculitis：腸道影像](https://img-hosting.jieyu166.workers.dev/i/8hsPOQi.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/8hsPOQi.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **HSP（現稱 IgA vasculitis, IgAV）是兒童最常見的血管炎——免疫複合體介導之小血管炎，侵犯皮膚/腸胃/關節/腎。腸道侵犯呈『跳躍性（skip/discontinuous）』節段性腸壁增厚，不侷限單一血管領域；早發型本質為非進行性。** 判讀分水嶺：**GI 症狀約見於一半（Tizard）～多達 75%（STATdx）兒童（並列）；範圍輕（噁心/嘔吐/腹痛/暫時性麻痺性腸阻塞）到重（腸胃出血、腸缺血壞死、腸套疊、腸穿孔）；腸套疊常為 ileoileal；典型影像＝長節段小腸壁增厚、充液小腸、腹水。**
 
 ## Summary

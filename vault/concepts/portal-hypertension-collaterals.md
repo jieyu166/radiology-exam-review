@@ -10,6 +10,13 @@ dateRev: 2026-07-04
 
 # portal-hypertension-collaterals
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Portal hypertension：常見側枝路徑](https://img-hosting.jieyu166.workers.dev/i/lxm5zeb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/lxm5zeb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **門脈高壓側枝的供血血管要記牢：食道／胃靜脈曲張由 left gastric（coronary）vein 供應、臍旁靜脈曲張（caput medusae）由 paraumbilical veins（Sappey 下靜脈）供應而「非 mesenteric veins」，脾腎分流由胃／脾靜脈引流入左腎靜脈。**
 
 ## Summary

@@ -13,6 +13,13 @@ dateRev: 2026-06-30
 
 # paget-disease-bone
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨 Paget disease｜基本影像辨識](https://img-hosting.jieyu166.workers.dev/i/TxAyrYS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TxAyrYS.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **骨柏哲德氏病(Paget disease of bone)的經典徵象包括：長骨的blade-of-grass徵象、顱骨的cotton-wool徵象與osteoporosis circumscripta、脊椎的ivory vertebra——但『hole-within-hole徵象』屬於嗜伊紅性肉芽腫(Eosinophilic Granuloma, EG)在顱骨的特徵，並非Paget disease的徵象。** 判讀分水嶺：**Paget disease分三期——溶骨期(osteoporosis circumscripta,顱骨局部透亮)→混合期→硬化期(cotton-wool skull、blade-of-grass長骨);ivory vertebra除Paget外也見於淋巴瘤、轉移性攝護腺癌等;hole-within-hole是EG顱骨病灶因內外板不對稱受侵犯呈雙重輪廓，與Paget無關。**
 
 ## Summary

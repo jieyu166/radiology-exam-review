@@ -8,6 +8,13 @@ dateRev: 2026-06-29
 
 # osteochondroma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨軟骨瘤 Osteochondroma](https://img-hosting.jieyu166.workers.dev/i/H7lyrDM.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/H7lyrDM.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **骨軟骨瘤是最常見的良性骨腫瘤，皮質與髓質延續母骨；惡性變（→軟骨肉瘤）三警示：軟骨帽增厚（成人 >1.5 cm）、帽內不規則鈣化、快速增大＋新發疼痛；軟骨帽上形成滑囊（bursa）是良性反應，非惡性徵象。** 判讀分水嶺：**軟骨帽 >1.5 cm＋散在不規則鈣化＋快速增大＝懷疑惡性（軟骨肉瘤）**；**bursa 形成＝良性反應（摩擦所致）**。記憶鉤：「帽厚才危險」——帽蓋超過 1.5 cm 就要擔心；滑囊只是墊子，不是腫瘤。
 
 ## Summary

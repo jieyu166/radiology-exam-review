@@ -15,6 +15,13 @@ same:
 
 # hepatic-encephalopathy-manganese-deposition
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：基底核T1高訊號：Manganese vs gadolinium](https://img-hosting.jieyu166.workers.dev/i/aRFS5TF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/aRFS5TF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝硬化病人腦部 MRI 於 T1WI 見雙側對稱性 globus pallidus（±substantia nigra、subthalamic region、中腦）高訊號、不需顯影劑即可見——這是「錳（manganese）」蓄積的經典表現（acquired hepatocerebral degeneration）：錳正常經膽道排泄，肝功能不良/門體分流使其滯留並沉積於這些核團。** 判讀分水嶺：**同樣是「基底核金屬離子 T1 高訊號」，錳＝肝病/TPN、分佈在 GP；釓（gadolinium）＝多次線性對比劑後、典型「齒狀核 + GP」（見 [[gadolinium-contrast]]）——兩者分佈與病史是鑑別關鍵；肝移植後錳的訊號可消退。**
 
 ## Summary

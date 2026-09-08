@@ -13,6 +13,13 @@ dateRev: 2026-07-01
 
 # femoroacetabular-impingement
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：FAI｜Cam 與 Pincer 的形態差異](https://img-hosting.jieyu166.workers.dev/i/rdKwR0s.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rdKwR0s.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **FAI 分兩型：cam 是股骨頭頸交界凸出（pistol-grip），pincer 是髖臼蓋過頭；AP 片上出現 crossover sign（前緣越過後緣），代表髖臼後傾，就是 pincer 型。** 判讀分水嶺一：**Cam＝α 角增大、pistol-grip；Pincer＝髖臼過度覆蓋/後傾**；判讀分水嶺二：**Crossover sign（figure-of-eight）＝前緣線在上段越過後緣線＝acetabular retroversion＝pincer**。記憶鉤：cam 像相機鏡頭凸出（股骨側凸）；pincer 像螃蟹夾子夾太緊（髖臼側蓋過頭）。
 
 ## 定義與分型

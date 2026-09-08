@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # intramuscular-myxoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Intramuscular myxoma｜肌內黏液瘤](https://img-hosting.jieyu166.workers.dev/i/SzRphpr.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/SzRphpr.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肌肉內黏液瘤＝良性黏液性軟組織腫瘤，intramuscular（肌肉內）型較 intermuscular（肌間）型常見；T2 明顯高訊號（黏液成分），『會』輕至中度強化（瀰漫或厚周邊/間隔型），可見 bright cap sign；多發者連結 Mazabraud 症候群。** 判讀分水嶺：**T2 很亮、T1 低訊號；增強後多呈輕度（~76%）至中度（~24%）強化——瀰漫型 57%／厚周邊及間隔型 43%（故『完全不強化』為錯）；周邊脂肪帽（bright cap/rim sign）與周圍水腫為特徵；多發＋纖維異常增生＝Mazabraud，並注意 McCune-Albright 連結。**
 
 ## Summary

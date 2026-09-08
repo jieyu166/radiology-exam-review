@@ -13,6 +13,13 @@ dateRev: 2026-07-01
 
 # urogenital-tuberculosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Urinary TB：狹窄、破壞與晚期鈣化](https://img-hosting.jieyu166.workers.dev/i/7dSvMTZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7dSvMTZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **泌尿生殖道結核抓兩件事:(1) 診斷『陷阱』——胸片正常不能排除（僅 30–50% 胸片異常、<5% 同時有活動性肺 TB）、尿培養特異度 100% 但敏感度僅約 65%（偽陰性 ~35%,絕非「<3%」）;(2) 影像是『由上而下的破壞鏈』——腎乳頭壞死→不規則 caliectasis→鈣化（~35%）→末期 putty kidney/autonephrectomy,輸尿管 beaded/pipestem 狹窄,膀胱纖維收縮成 thimble bladder。** 判讀分水嶺一：**胸片正常≠無 urogenital TB;尿培養偽陰性 ~35%（非 <3%）為高頻考點**;判讀分水嶺二：**經典影像是『降行性』腎→輸尿管→膀胱破壞;末期＝autonephrectomy（鈣化無功能腎）與 thimble bladder**。
 
 ## Summary

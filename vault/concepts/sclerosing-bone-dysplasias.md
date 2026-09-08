@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # sclerosing-bone-dysplasias
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：硬化性骨發育不良｜三種型態比較](https://img-hosting.jieyu166.workers.dev/i/ikUubn4.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ikUubn4.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **硬化性骨發育不良三兄弟（osteopoikilosis斑點、osteopathia striata條紋、melorheostosis蠟燭油流）都是良性、可混合出現。鑑別重點：osteopathia striata＝『線狀髓質硬化，但不侵犯鄰近軟組織』；只有melorheostosis才沿皮質及『鄰近軟組織』形成骨。本題陷阱是把軟組織侵犯錯掛在osteopathia striata上。**
 
 ## Summary

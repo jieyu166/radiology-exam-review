@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # lipomyelomeningocele
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Lipomyelomeningocele vs lipomyelocele](https://img-hosting.jieyu166.workers.dev/i/FeGUJco.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/FeGUJco.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Lipomyelomeningocele為最常見之spinal lipoma型態，因原發性神經管閉合缺損使間葉組織進入neural placode形成脂肪瘤組織；影像上lipoma附著於neural placode背面，placode-lipoma交界面位於脊椎管外（因蛛網膜下腔擴大所致），與lipomyelocele（交界面位於脊椎管內）為關鍵鑑別點。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # central-neurocytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Central neurocytoma](https://img-hosting.jieyu166.workers.dev/i/thmW4Sf.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/thmW4Sf.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Central neurocytoma 是好發於側腦室（常在 Monro 孔附近、附著於透明隔）的 WHO grade 2 神經上皮腫瘤，好發年輕成人、預後佳（完整切除）；MR spectroscopy 關鍵鑑別是『glycine peak（3.55 ppm，長 TE）』而非 glutamine。** 判讀分水嶺：**「Central neurocytoma」專指腦室內（腦室外者稱 extraventricular neurocytoma）；影像＝異質、高衰減、>50% 鈣化（punctate）、多囊（bubbly/swiss cheese/soap bubble）、輕-中度強化 + 腦室擴大；MRS glycine(3.55ppm)+顯著 choline；合併腦室外延伸預後較差。**
 
 ## Summary

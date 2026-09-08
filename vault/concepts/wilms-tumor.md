@@ -11,6 +11,13 @@ dateRev: 2026-07-13
 
 # wilms-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Wilms tumor vs Neuroblastoma：起源與血管](https://img-hosting.jieyu166.workers.dev/i/yGFj3hJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/yGFj3hJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Wilms tumor 是兒童最常見腎臟惡性腫瘤（占約 90%），好發 2–3 歲；<1 歲腎腫塊先想 mesoblastic nephroma，不是 Wilms。** 判讀分水嶺一：**peak 2–3 歲（75–80% <5 歲），非 <1 歲**；判讀分水嶺二：**可侵犯腎靜脈/IVC 形成瘤栓；雙側腫塊提示 nephroblastomatosis 與遺傳症候群（WAGR、Beckwith-Wiedemann、Denys-Drash）**。年齡鑑別鏈：<1 歲→ mesoblastic nephroma，1–8 歲→ Wilms tumor。
 
 ## Summary

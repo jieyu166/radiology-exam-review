@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # fibromuscular-dysplasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Fibromuscular dysplasia：血管形態](https://img-hosting.jieyu166.workers.dev/i/KdsQ4kt.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/KdsQ4kt.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **FMD最常侵犯的血管是「腎動脈」（不是頸動脈），依序為腎動脈＞肋外頸動脈與椎動脈＞腸繫膜動脈＞顱內頸動脈——考題常用「頸動脈>頸內動脈>椎動脈」的錯誤排序來誤導。**
 
 ## Summary（好發血管，依Olin 2012, 447例資料）

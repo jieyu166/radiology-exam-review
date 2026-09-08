@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # carotid-cavernous-fistula
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Carotid–cavernous fistula](https://img-hosting.jieyu166.workers.dev/i/Eq14051.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Eq14051.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Barrow 分類：Type A＝「直接型/高流量」——頸內動脈（ICA）海綿竇段單孔撕裂/斷裂，動靜脈分流直接注入海綿竇（CS），最常見、主因外傷；Type B/C/D＝「間接型/低流量」硬腦膜 AVF，繼發於海綿竇血栓再血管化。CN VI 因游離走行於海綿竇內、緊鄰 ICA，最常受累。** 判讀分水嶺：**影像招牌＝眼球突出＋上眼靜脈（SOV）擴張＋海綿竇擴大＋眼外肌腫大；CT/CTA/MRA 具提示、DSA 為確診與治療。動脈化血流外流路徑含 SOV/angular-facial（前）、inferior/superior petrosal sinus（後）、pterygoid plexus（下）、superficial sylvian 皮質靜脈（上），但『thalamostriate vein（深部腦靜脈）不是常見外流路徑』（考題陷阱）。皮質靜脈逆流→SAH、眼靜脈高壓→失明、ICA 遠端血流下降→半球缺血，是急症警訊。**
 
 ## Summary

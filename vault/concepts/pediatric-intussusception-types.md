@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # pediatric-intussusception-types
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：小兒腸套疊：辨識與追蹤](https://img-hosting.jieyu166.workers.dev/i/QByVbMl.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QByVbMl.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童腸套疊最常見的型態是「迴結腸型(ileocolic intussusception)」——即迴腸套入結腸——典型好發於嬰幼兒（多6個月至3歲），表現為陣發性哭鬧、血便，超音波右上腹可見「假腎徵(pseudokidney sign)」（縱切面呈腎臟樣分層構造）或「靶徵(target sign)」（橫切面）。** 判讀分水嶺：**迴結腸型(ileocolic)為最常見型態（約80-90%）;迴迴結腸型(ileoileocolic)次之，涉及迴腸先套入迴腸再套入結腸的複合型套疊;單純迴迴腸型(ileo-ileal)較少見且較常自發性復位;中腸扭轉(mid-gut volvulus)則好發更早（新生兒/嬰兒早期），常伴腸旋轉不良病史，與典型血便哭鬧的迴結腸套疊臨床情境不同。**
 
 ## Summary

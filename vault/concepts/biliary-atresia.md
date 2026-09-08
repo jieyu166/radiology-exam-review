@@ -13,6 +13,13 @@ dateRev: 2026-07-12
 
 # biliary-atresia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Biliary atresia｜US 辨識重點](https://img-hosting.jieyu166.workers.dev/i/uM3iaL3.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uM3iaL3.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膽道閉鎖是新生兒膽汁鬱積最常見（需手術）的原因，亞洲（尤其中國、日本嬰兒）好發；影像關鍵三徵：US 的「triangular cord sign（門靜脈分叉前之三角形高回音索）」、異常/消失的膽囊（"ghost GB"）、與 HIDA「無放射示蹤劑排入腸道」。早診至關重要——Kasai 手術於 <2 個月執行暫時有效率約 90%，>3 個月降至 <50%。** 判讀分水嶺：**新生兒直接型高膽紅素 + triangular cord sign + 小/不規則膽囊 + HIDA 肝攝取好但不排入腸道 → 膽道閉鎖；務必在 60 天內確診以利 Kasai。**
 
 ## Summary

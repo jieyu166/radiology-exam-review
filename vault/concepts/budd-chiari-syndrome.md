@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # budd-chiari-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Budd–Chiari syndrome｜肝靜脈流出阻塞](https://img-hosting.jieyu166.workers.dev/i/YTRd2Eu.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YTRd2Eu.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Budd-Chiari 症候群＝肝靜脈流出道（肝靜脈～IVC匯入右心房前）全域或節段性阻塞；CT/MR 典型為「flip-flop」強化型態，都卜勒超音波實際敏感度約 87.5%（非常見誤植的 60%）。**
 
 ## Summary

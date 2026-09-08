@@ -14,6 +14,13 @@ dateRev: 2026-07-10
 
 # takayasu-arteritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Takayasu arteritis](https://img-hosting.jieyu166.workers.dev/i/tDszEB5.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/tDszEB5.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **高安氏動脈炎（Takayasu，pulseless disease）是肉芽腫性大血管炎，主要侵犯主動脈及其主要分支（±肺動脈），好發 40 歲以下亞洲女性（F:M ≈ 8–9:1）。** 判讀分水嶺：其病程由「早期同心圓血管壁增厚＋強化/水腫（活動性發炎）」演變為「後期 **狹窄（stenosis）、閉塞（occlusion）與動脈瘤（aneurysm）** 」——**狹窄/縮窄其實是最常見的結構後果，並非罕見**（本題答案 A「stenosis or coarctation are not common」為錯誤敘述＝正解）。記憶鉤：**年輕亞洲女性＋摸不到脈搏（pulseless）＋主動脈壁同心圓增厚（macaroni sign）＝Takayasu**；壁先增厚發炎，最後管腔「先縮後鼓」（狹窄/閉塞為主，可合併動脈瘤）。
 
 ## Summary

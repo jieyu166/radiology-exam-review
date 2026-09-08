@@ -17,6 +17,13 @@ down:
 
 # rib-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：侵襲性肋骨病灶｜常見 DDx 線索](https://img-hosting.jieyu166.workers.dev/i/VSPBAZa.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/VSPBAZa.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肋骨腫瘤鑑別的起手式是年齡：年輕→Ewing（大型侵襲性、restricted diffusion）；>40→轉移/骨髓瘤最常見、chondrosarcoma 次之（前肋、ring-and-arc 基質、高 ADC）；restricted diffusion 支持 round cell/高惡性度，反向不利於傳統低惡性度 chondrosarcoma。** 判讀分水嶺一：**年齡分流（年輕vs>40）＋已知惡性病史**；判讀分水嶺二：**DWI/ADC — restricted → round cell/轉移/漿細胞瘤；高 ADC → 偏向 chondrosarcoma 低惡性度**。
 
 ## Summary

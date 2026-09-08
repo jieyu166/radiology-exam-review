@@ -13,6 +13,13 @@ dateRev: 2026-06-29
 
 # perilunate-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：月骨周損傷｜先看側位對位](https://img-hosting.jieyu166.workers.dev/i/3Xzen8k.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3Xzen8k.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **月骨周損傷的 Mayfield 四階段「SL→CL→LT→RL」由橈向尺再向掌側推進，最後月骨本身掌側脫位（lunate dislocation）、橈月關節失常。** 記憶鉤：「舟月→頭月→三角月→橈月」，像拉鍊從橈側拉到掌側。判讀分水嶺一：**lesser arc＝純韌帶環繞月骨；greater arc＝經骨（scaphoid、capitate 等骨折）**；判讀分水嶺二：**第 4 階段累及 radius-lunate 關節（月骨掌側脫位）**。
 
 ## Summary

@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # cerebral-microbleeds
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Cerebral microbleeds：分布導向DDx](https://img-hosting.jieyu166.workers.dev/i/bnXsdm7.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/bnXsdm7.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **T2\* GRE/SWI 上多發低訊號焦點（cerebral microbleeds／"black dots"）的常見病因：cavernous malformations（Zabramski type IV）、慢性高血壓性腦病變、cerebral amyloid angiopathy（CAA）、diffuse axonal injury（DAI）——神經纖維瘤病第一型（NF1）不在此清單（NF1 為 T2/FLAIR 高訊號 UBOs，非微出血）。** 判讀分水嶺：**用「分佈」定因——lobar/皮質-皮質下、spares 深部＝CAA（正常血壓、失智老人、可合併 cortical superficial siderosis 與 lobar ICH）；深部（基底核/視丘/腦幹/小腦）＝高血壓（較年輕 <65、常與 CAA 並存）；灰白交界＋胼胝體壓部＋背外側腦幹＝DAI（外傷）。SWI 比 T2\* GRE 更敏感。記憶鉤：CAA 淺葉、高血壓深部、DAI 外傷、NF1 不算。**
 
 ## Summary

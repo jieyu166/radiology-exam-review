@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # hepatic-schistosomiasis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hepatic schistosomiasis：門脈周圍纖維化](https://img-hosting.jieyu166.workers.dev/i/ulmjJON.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ulmjJON.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **非洲/中東/亞洲流行地區病史合併肝硬化伴隨顯著回音性間隔(hyperechoic septa)分隔相對正常肝實質，形成特徵性「龜背徵(turtle back appearance)」，最可能診斷為肝血吸蟲病(schistosomiasis)——蟲卵沉積於門脈周圍造成「pipestem fibrosis（管狀纖維化）」，門脈周圍纖維化增厚形成超音波上的高回音間隔網。** 判讀分水嶺：**血吸蟲病肝纖維化主要侵犯門脈周圍(periportal)，形成pipestem fibrosis，超音波呈turtle back/網狀高回音間隔;此與病毒性肝炎肝硬化的瀰漫結節狀再生(regenerative nodules)分佈型態不同;好發於血吸蟲病流行地區（非洲、中東、東南亞部分地區、南美）有疫水接觸史之族群。**
 
 ## Summary

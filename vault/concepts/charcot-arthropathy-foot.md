@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # charcot-arthropathy-foot
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Charcot foot｜神經病變性關節病](https://img-hosting.jieyu166.workers.dev/i/eSEn555.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/eSEn555.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **足部 Charcot（神經病變）關節病最常繼發糖尿病；影像有兩型——atrophic（骨端『吸收 reabsorption』，多在前足/MTP）與 hypertrophic（6D：density/debris/dislocation/disorganization/destruction/distension，多在承重中足）。跗蹠關節（Lisfranc/TMT）侵犯典型造成蹠骨背外側脫位 → 縱弓完全塌陷（"rocker-bottom" foot）。** 判讀分水嶺：**病灶為受侵犯『骨端吸收（reabsorption）』而非蹠骨 metaphysis 破壞；好發糖尿病、足部常見潰瘍；痛感常小於破壞程度；抬高患肢腫脹減輕、發炎指數正常/輕升 → 偏 Charcot 而非感染。**
 
 ## Summary

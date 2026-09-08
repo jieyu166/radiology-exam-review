@@ -14,6 +14,13 @@ same:
 
 # ra-cervical-spine
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：RA 頸椎｜三種不穩定與 MRI](https://img-hosting.jieyu166.workers.dev/i/fFDCZX0.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/fFDCZX0.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **RA 頸椎（C1–C2 為主）有四個經典表現，考題陷阱是「cranial settling＝C2 向頭側移位（basilar invagination）」，而非向尾側。** 判讀分水嶺一：**RA 四特徵＝齒突侵蝕、寰樞前脫位（ADI >3 mm 屈曲位）、apophyseal 融合、cranial settling**，這四個全部正確。判讀分水嶺二：**cranial settling＝C2『頭側』移位（cephalad migration）**，答「C2 向尾側（caudal）移位」為非——方向反了即是錯誤選項。記憶鉤：RA 使 C2「往上沉」（cranial settling，如同地基被侵蝕後向上崩入顱底），不是往下掉。
 
 ## Summary

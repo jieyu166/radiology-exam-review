@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # arterial-dissection-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Arterial dissection：MRI重點](https://img-hosting.jieyu166.workers.dev/i/RtyDqSB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RtyDqSB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **動脈剝離的壁內血腫（intramural hematoma）訊號隨血紅素分解演變——急性期反而是『低/等訊號』而非高訊號（最常見陷阱）；亞急性期（methemoglobin）才轉為典型偏心/環周新月形高訊號。** 判讀分水嶺：**急性（deoxyhemoglobin）低-等訊號 → 亞急性（methemoglobin）高訊號新月徵（T1 FS 最可靠）；判讀須用『脂肪抑制 T1（T1 FS）』（血管旁脂肪亦亮）；殘餘管腔隨血栓化縮窄、流空減少/消失；經典＝偏心狹窄管腔 + 新月形壁內血腫 + 薄環狀（vasa vasorum）強化。**
 
 ## Summary

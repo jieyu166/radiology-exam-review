@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # medial-epicondyle-avulsion
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：兒童內上髁撕脫｜別漏掉關節內碎片](https://img-hosting.jieyu166.workers.dev/i/gZGiYes.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/gZGiYes.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肱骨內上髁撕裂性骨折（medial epicondyle avulsion）好發於年輕棒球投手（Little League elbow），因反覆投球動作造成 valgus stress 牽扯內側韌帶附著點。**
 
 ## Summary

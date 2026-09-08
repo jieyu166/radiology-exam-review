@@ -12,6 +12,16 @@ dateRev: 2026-07-10
 
 # gbm
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Glioblastoma：典型 MRI](https://img-hosting.jieyu166.workers.dev/i/7CyWslh.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7CyWslh.png)
+>
+> ![Summary 圖：Ring-enhancing lesion — 常見 DDx](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **GBM 四大招牌：中央壞死＋厚不規則環狀強化＋周圍 vasogenic edema＋可出血；它沿白質「往內打」，不會「往外跑」——顱外轉移極罕見，這是題目最愛考的「非特徵」陷阱。** 判讀分水嶺一：**環狀強化厚且不規則 + 中央壞死 + 可越胼胝體呈 butterfly pattern。** 判讀分水嶺二：**擴散方式＝沿白質束局部浸潤；顱外轉移不是 GBM 的特徵。**
 
 ## Summary

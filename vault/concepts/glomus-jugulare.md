@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # glomus-jugulare
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Jugular paraganglioma](https://img-hosting.jieyu166.workers.dev/i/SGnmAvN.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/SGnmAvN.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **頸靜脈孔有個「鹽與胡椒」腫瘤：flow void 黑點（胡椒）＋出血/慢流高訊號（鹽）= T2 salt-and-pepper，配上搏動性耳鳴、聽損，這就是 glomus jugulare。** 判讀分水嶺一：**富血管＋頸靜脈孔溶骨擴大＋salt-and-pepper T2 三件套，是 glomus jugulare 的影像識別鏈。** 判讀分水嶺二：**「絕不惡性」是陷阱——惡性轉化約 2–13%，「可惡性轉化」才是正確說法。**
 
 ## Summary

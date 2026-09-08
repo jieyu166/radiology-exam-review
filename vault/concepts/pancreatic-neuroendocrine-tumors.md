@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # pancreatic-neuroendocrine-tumors
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PanNET：典型與例外](https://img-hosting.jieyu166.workers.dev/i/fR6Qkrj.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/fR6Qkrj.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胰臟 NET 的核心分流是「功能性 vs 非功能性」：insulinoma 最常見（Whipple triad）、gastrinoma 次之（ZES、60–80% 惡性）；非功能性腫瘤晚發現、體積大。** 記憶鉤：syndromic（MEN1）＝小而多、早；nonsyndromic＝大而少、晚且易囊變壞死——兩者「誰較易壞死」是逆向陷阱。判讀分水嶺一：**功能性首位為 insulinoma，非 gastrinoma**；判讀分水嶺二：**nonsyndromic（非 syndromic）較易囊變/壞死**。
 
 ## Summary

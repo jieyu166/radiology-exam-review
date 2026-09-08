@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # adult-intussusception
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：成人腸套疊｜Adult intussusception](https://img-hosting.jieyu166.workers.dev/i/nYgMQ0Z.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nYgMQ0Z.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **成人腸套疊沒有固定好發部位——不像兒童好發迴結腸型，成人絕大多數存在導引點病灶(lead point lesion)，套疊發生位置完全取決於該病灶所在，這是與兒童腸套疊最根本的差異。**
 
 ## Summary

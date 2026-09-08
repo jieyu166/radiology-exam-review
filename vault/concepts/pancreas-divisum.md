@@ -10,6 +10,13 @@ dateRev: 2026-07-04
 
 # pancreas-divisum
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pancreas divisum：引流路徑](https://img-hosting.jieyu166.workers.dev/i/sKFvDoB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/sKFvDoB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Pancreas divisum＝最常見的胰臟先天解剖變異，胚胎期腹側與背側胰管未融合，使大部分胰腺經背側胰管（Santorini）→副乳頭（minor papilla）引流——引流走副乳頭而非主乳頭是常見陷阱。**
 
 ## Summary

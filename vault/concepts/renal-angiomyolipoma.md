@@ -12,6 +12,13 @@ dateRev: 2026-07-13
 
 # renal-angiomyolipoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Renal AML：脂肪、血管與陷阱](https://img-hosting.jieyu166.workers.dev/i/u7lmBQi.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/u7lmBQi.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **巨大腹膜後含脂肪病灶的分水嶺在「血管」：AML 富血管（動脈瘤樣血管延入腎皮質＋腎實質缺損 / beak sign），脂肪肉瘤 hypovascular；找到「病灶內動脈瘤樣血管」即鎖定 AML。** 判讀分水嶺一：**AML → 腎實質缺損＋供應血管深入腎皮質；>4 cm 微動脈瘤破裂 → Wunderlich syndrome**；判讀分水嶺二：**脂肪肉瘤 → hypovascular、外推腎臟、無腎實質缺損**。
 
 ## Summary

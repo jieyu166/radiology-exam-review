@@ -15,6 +15,13 @@ dateRev: 2026-07-01
 
 # nerve-entrapment-syndromes
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：上肢神經症候群｜神經對照](https://img-hosting.jieyu166.workers.dev/i/3E1MRQS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3E1MRQS.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **上肢常見神經壓迫症候群依部位/神經對應：quadrilateral space syndrome→axillary nerve、pronator syndrome→median nerve（非radial nerve）、cubital tunnel syndrome→ulnar nerve、Kiloh-Nevin syndrome→anterior interosseous nerve（AIN，為median nerve分支）。**
 
 ## Summary

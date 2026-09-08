@@ -13,6 +13,13 @@ dateRev: 2026-07-05
 
 # primary-bone-lymphoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：原發性骨淋巴瘤 Primary bone lymphoma](https://img-hosting.jieyu166.workers.dev/i/L45NNvb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/L45NNvb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **原發性骨骼淋巴瘤（PBL）幾乎都是非何杰金氏淋巴瘤（NHL），最常見的兩種組織型為 diffuse large B-cell lymphoma（DLBCL）與 follicular lymphoma；其中 DLBCL 為單一最常見亞型。判讀分水嶺：長骨骨幹／骨幹端出現「穿蝕性（permeative）、寬移行帶」溶骨性破壞，卻常伴不成比例的巨大軟組織腫塊，且對化放療反應極佳（5 年存活率可達 95%）。**
 
 ## Summary

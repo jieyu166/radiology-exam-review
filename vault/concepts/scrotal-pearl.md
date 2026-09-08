@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # scrotal-pearl
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：陰囊鈣化：Scrotal pearl vs microlithiasis](https://img-hosting.jieyu166.workers.dev/i/xTkOKBN.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/xTkOKBN.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Scrotal pearl 的定位記憶：兩層「vaginalis」之間的睪丸外游離鈣化體——考題常把 tunica albuginea 與 tunica vaginalis 對調，記住「珍珠在陰道膜（vaginalis）裡游泳、不在白膜（albuginea）」。** 判讀分水嶺：**extratesticular、位於 tunica vaginalis 腔、可游離移動**；「tunica albuginea 兩層之間」為錯誤選項。
 
 ## Summary

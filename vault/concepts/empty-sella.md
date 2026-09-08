@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # empty-sella
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Empty sella](https://img-hosting.jieyu166.workers.dev/i/BSPruA7.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/BSPruA7.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **空蝶鞍是 CSF 從「鞍膈（diaphragma sellae）」的破洞鑽進蝶鞍，壓扁垂體；不是鞍背（dorsum sellae）壞掉。** MRI 上鞍內訊號跟 CSF 一樣、蝶鞍骨性輪廓可擴大重塑，但垂體殘留組織仍能正常強化，多為偶發、無臨床意義。記憶鉤：**「鞍膈是蝶鞍的『天花板』，天花板破洞，CSF 漏進來把垂體壓扁」**；考題陷阱在「dorsum sellae 缺損」——那是鞍背，不是天花板。
 
 ## Summary

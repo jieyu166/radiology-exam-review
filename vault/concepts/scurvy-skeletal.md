@@ -10,6 +10,13 @@ dateRev: 2026-07-12
 
 # scurvy-skeletal
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Scurvy｜兒童骨骼影像](https://img-hosting.jieyu166.workers.dev/i/33AGxU2.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/33AGxU2.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **壞血病（Vitamin C 缺乏）的骨骼表現包括 Frankel line（白色線）、Trummerfeld zone（lucent zone）、periosteal elevation（subperiosteal hemorrhage）、corner sign / Pelkan spur。但 epiphyseal hypoplasia 不是 scurvy 的典型表現。**
 
 ## Summary

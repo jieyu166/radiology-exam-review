@@ -14,6 +14,13 @@ same:
 
 # cerebral-amyloid-angiopathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CAA：出血分布](https://img-hosting.jieyu166.workers.dev/i/BwFDsqx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/BwFDsqx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CAA 是類澱粉蛋白沉積在皮質及軟腦膜血管，造成正常血壓老年人反覆的「腦葉（lobar）出血」；最關鍵的鑑別要素：出血在皮質-皮質下，保留基底核與腦幹——與高血壓出血好發深部（基底核、視丘、腦橋）恰好相反。** GRE/SWI 可見多發皮質-皮質下微出血黑點（susceptibility）及表淺鐵質沉著。記憶鉤：「CAA 淺、HTN 深；一個老年人lobar、一個高壓打深部」。
 
 ## Summary

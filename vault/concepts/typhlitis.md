@@ -12,6 +12,13 @@ dateRev: 2026-07-04
 
 # typhlitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Typhlitis：嗜中性球低下性腸炎](https://img-hosting.jieyu166.workers.dev/i/scRIkmH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/scRIkmH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Typhlitis（neutropenic enterocolitis）是化療後嗜中性白血球減少（neutropenia）病人最常見、也是右下腹痛的重要病因；判讀分水嶺——好發族群（化療/血液惡性/免疫抑制、ANC 低下）＋以盲腸為主的腸壁增厚是關鍵。CT 見盲腸（±升結腸、末端迴腸）壁增厚水腫、周圍脂肪浸潤，可有腸壁積氣（pneumatosis）；需與 ischemic colitis（好發年長者）、radiation colitis（放療史）、GVHD（骨髓移植史）鑑別。**
 
 ## Summary

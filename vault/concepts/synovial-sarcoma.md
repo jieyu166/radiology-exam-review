@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # synovial-sarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Synovial sarcoma｜小腫瘤也會偽裝](https://img-hosting.jieyu166.workers.dev/i/QBDckxx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QBDckxx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **滑膜肉瘤是青少年至年輕成人（15–40 歲）最常見的軟組織肉瘤之一，典型以「關節旁（非關節內）緩慢長大的無痛腫塊」表現；名稱是誤稱——不具滑膜分化，多長在大關節附近深部軟組織（下肢/膝膕窩最多，手腕屬較少見的上肢部位）。** 判讀分水嶺：**「小而界清、看似良性」正是它的陷阱**——小病灶（<5 cm）生長慢、邊界清、訊號較均質，可被誤當成 ganglion cyst 等良性囊腫；但它是實質腫瘤，**T2 雖高卻「不到純水那麼亮」**，不可輕率當囊腫放掉（本題答案 A「小時 T2 等同 fluid」為錯誤敘述）。記憶鉤：**小滑膜肉瘤＝披著羊皮的狼**（貌似囊腫、實為肉瘤）；**大滑膜肉瘤＝一串葡萄（bowl of grapes）＋三重訊號（triple sign）**。
 
 ## Summary

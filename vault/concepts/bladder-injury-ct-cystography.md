@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # bladder-injury-ct-cystography
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：膀胱破裂｜腹膜內 vs 腹膜外](https://img-hosting.jieyu166.workers.dev/i/QtRqrfC.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QtRqrfC.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **創傷性膀胱損傷之 CT 膀胱攝影分五型（Sandler）：關鍵臨床原則是「先排除尿道損傷再放 Foley」——尿道已傷卻強插導尿管會加重損傷。影像上「molar tooth sign」是 extraperitoneal（type 4）破裂的典型；管理分水嶺＝腹膜腔內破裂（type 2，dome）需手術、腹膜腔外破裂（type 4，最常見）多以導尿保守治療。** 判讀分水嶺：**對比劑「環繞腸道/進 Douglas/Morrison pouch」＝intraperitoneal（手術）；對比劑「局限骨盆腔外間隙（space of Retzius）呈 molar tooth」＝extraperitoneal（保守）。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # meniscal-tear-patterns
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Wrisberg rip｜外側半月板後角撕裂](https://img-hosting.jieyu166.workers.dev/i/N7EYfgj.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/N7EYfgj.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Wrisberg rip 撕裂發生在外側半月板後角、起源於 Wrisberg 韌帶（後 meniscofemoral 韌帶）附著處，常與前十字韌帶(ACL)撕裂合併發生——因急性 ACL 損傷時外側半月板後角承受異常剪力。** 判讀分水嶺：**看似矛盾但要並記——「整體」半月板撕裂內側:外側≈2:1（退化性以內側為主）；但「急性 ACL 損傷」時反而外側半月板撕裂較多（42–80% 合併半月板撕裂、lateral>medial）——Wrisberg rip 屬於後者情境，故與 ACL 撕裂關聯。**
 
 ## Summary

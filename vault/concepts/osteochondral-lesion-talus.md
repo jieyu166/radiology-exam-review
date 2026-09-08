@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # osteochondral-lesion-talus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：距骨 OLT｜位置、形態與完整度](https://img-hosting.jieyu166.workers.dev/i/jctmCbl.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jctmCbl.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **踝關節骨軟骨損傷的核心心法：內、外側距骨圓頂病灶都由「內翻（inversion）」損傷造成，但機轉相反——外側（前外側）是距骨圓頂對脛骨關節面「剪切」出的薄片狀病灶（合併背屈），內側（後內側）是距骨對關節面「撞擠」出的深碗狀病灶（合併蹠屈）；兩者合計佔 OLT 約 80%。內翻幾乎必伴外側副韌帶（ATFL/LCL）損傷。**
 
 ## Summary

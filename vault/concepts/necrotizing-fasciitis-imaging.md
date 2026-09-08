@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # necrotizing-fasciitis-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：壞死性筋膜炎 Necrotizing fasciitis](https://img-hosting.jieyu166.workers.dev/i/ptbCszr.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ptbCszr.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **懷疑壞死性筋膜炎(NF)時，CT 上最具定性價值的徵象是「氣體沿深筋膜層追蹤合併液體聚積」——在無穿刺傷/近期術式的前提下，筋膜層氣體「近乎病理性徵象(nearly pathognomonic)」；皮下脂肪絮狀、皮膚增厚、肌肉腫大強化雖提示軟組織感染，但屬非特異性。** 判讀分水嶺：**筋膜氣體雖具高特異性，卻僅見於「不到一半」的病例；因此陰性影像不能排除 NF——NF 是「臨床診斷」，真有臨床懷疑時影像不應延誤手術清創。另一高特異 MR 徵象是「深筋膜局部不強化（壞死）」。**
 
 ## Summary

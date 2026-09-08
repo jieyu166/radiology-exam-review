@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # urachal-carcinoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Urachal carcinoma：膀胱頂部的線索](https://img-hosting.jieyu166.workers.dev/i/6H5bRLz.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6H5bRLz.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **臍尿管（urachus）為胚胎 allantois 與 cloaca 之遺跡，自膀胱前上緣/頂部延伸至臍、位於 Retzius 腹膜外間隙；urachal carcinoma 典型為中線、臍下（infraumbilical）之軟組織腫塊含『周邊（peripheral）鈣化』（鈣化約 70%），多為黏液性腺癌。** 判讀分水嶺：**中線臍下軟組織腫塊 + 周邊鈣化＝urachal adenocarcinoma until proven otherwise；鈣化為『周邊』非中央；位置沿膀胱頂→臍之 urachus 走行（space of Retzius）。**
 
 ## Summary

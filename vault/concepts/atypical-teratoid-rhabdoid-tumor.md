@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # atypical-teratoid-rhabdoid-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：AT/RT](https://img-hosting.jieyu166.workers.dev/i/cNsCvUd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/cNsCvUd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **AT/RT 是 3 歲以下嬰幼兒的高惡性度（WHO grade 4）胚胎性腦瘤——「罕見於 3 歲以下」是錯誤敘述；它正是這個年齡層最典型的腫瘤。判讀分水嶺：影像酷似 medulloblastoma（後顱窩、CT 高密度、DWI 擴散受限），但 AT/RT 更常「偏中線外（小腦橋腦角）」、更年幼、常見出血與囊變，並常見軟腦膜播散。**
 
 ## Summary

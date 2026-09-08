@@ -15,6 +15,13 @@ dateRev: 2026-07-10
 
 # milwaukee-shoulder
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Milwaukee shoulder｜破壞性肩關節病](https://img-hosting.jieyu166.workers.dev/i/DlPUKJO.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/DlPUKJO.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Milwaukee shoulder 是由鹼性磷酸鈣（basic calcium phosphate, BCP；主要為 hydroxyapatite）結晶沉積所致的「快速破壞性」肩關節病變，好發族群是**老年女性（50–90 歲），常有患側創傷史**——這正是本題陷阱：「typically involve older men（老年男性）」為錯誤敘述，實為老年女性。** 判讀分水嶺：影像上呈現「類神經病變關節（neuropathic-like）」的劇烈破壞——完全性旋轉肌袖撕裂使肱骨頭上移（superior subluxation）、關節面破壞、關節內游離骨體，但臨床症狀相對輕微，與破壞程度不成比例。[^1][^2]
 
 ## Summary

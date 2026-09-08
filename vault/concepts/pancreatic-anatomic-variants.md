@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # pancreatic-anatomic-variants
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：pancreatic-anatomic-variants — summary 圖覆核](https://img-hosting.jieyu166.workers.dev/i/sKFvDoB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/sKFvDoB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胰臟最常見的解剖變異是 pancreas divisum（背側與腹側胰管未融合），環狀胰為次常見但知名度高的變異；環狀胰約 1/3 為 incomplete type（未完全環繞十二指腸），十二指腸阻塞風險與 complete type 相近。** 判讀分水嶺：**「最常見」變異＝pancreas divisum，非 annular pancreas**——考題常以環狀胰的知名度誤導。
 
 ## Summary

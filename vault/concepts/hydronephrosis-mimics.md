@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # hydronephrosis-mimics
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hydronephrosis vs Parapelvic cysts](https://img-hosting.jieyu166.workers.dev/i/iAMuEA3.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iAMuEA3.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎竇囊腫模擬水腎症時，要靠CT IVP等排泄性影像看集尿系統「有沒有真的擴張」來鑑別——不是靠延遲期對比增強超音波(CEUS)。**
 
 ## Summary

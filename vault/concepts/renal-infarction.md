@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # renal-infarction
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Renal infarction：楔形缺血與皮質環](https://img-hosting.jieyu166.workers.dev/i/U1a5OlZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/U1a5OlZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性腎梗塞 CT 三大所見同時記：①周邊楔形無強化區（base 朝腎包膜、apex 朝腎門）②cortical rim sign（皮質環徵，包膜下薄環仍強化，靠包膜側支供血，約梗塞後 6–8 小時出現、見於約半數）③急性期腎臟可正常或腫大（水腫性膨大）＋包膜下積液／腎周條紋。因此「以上皆是」為正解。判讀分水嶺：straight-line demarcation（直線分界）＋cortical rim sign 傾向梗塞；腎周脂肪條紋較明顯則傾向腎盂腎炎。**
 
 ## Summary

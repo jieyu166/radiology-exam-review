@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # hand-wrist-soft-tissue-masses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：手腕腫塊｜常見 DDx 線索](https://img-hosting.jieyu166.workers.dev/i/ZdZbQqd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ZdZbQqd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **手與腕的軟組織腫塊絕大多數為良性；常見度排序為 ganglion cyst（第一）＞ localized tenosynovial giant cell tumor／giant cell tumor of tendon sheath（第二）＞ epidermal inclusion cyst（第三）。判讀分水嶺：先用超音波分「囊性 vs 實質」並看 Doppler 血流，實質或不確定者再用 MRI 定性——MRI 是特徵化這些腫塊的最佳工具。** 記憶鉤：EIC 來自穿刺傷把上皮角質植入皮下、好發手指觸感面；**EIC 內部鈣化並不常見——若腫塊明顯鈣化反而要想 pilomatricoma（鈣化上皮瘤，calcifying epithelioma of Malherbe）**，這是最常考的陷阱。
 
 ## Summary

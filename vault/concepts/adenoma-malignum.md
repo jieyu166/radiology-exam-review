@@ -11,6 +11,13 @@ dateRev: 2026-06-28
 
 # adenoma-malignum
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Adenoma malignum｜子宮頸多囊性病灶](https://img-hosting.jieyu166.workers.dev/i/HHpnuXZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/HHpnuXZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **子宮頸冒出一串葡萄、卻流出大量水——這是 adenoma malignum 的經典場景。** 本質是高度分化的黏液腺癌亞型（gastric-type、HPV 無關），初症為大量**水樣/黏液性**分泌（非陰道出血）。判讀分水嶺：影像見子宮頸**多囊性病灶＋深部間質的實性強化成分**，且病灶**延伸超出正常 endocervical glands 範圍**（>正常腺體深度）——這正是它與良性多囊病灶（nabothian cyst、tunnel cluster）的關鍵分野。外觀雖「良性」，實則早期腹腔播散、對放化療反應差，預後不良；與 Peutz-Jeghers 相關。
 
 ## Summary

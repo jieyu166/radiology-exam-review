@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # struma-ovarii
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Struma ovarii：卵巢甲狀腺腫](https://img-hosting.jieyu166.workers.dev/i/XydA22Y.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/XydA22Y.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Struma ovarii不是「全部良性」——絕大多數是良性沒錯，但仍有小比例（約5-10%）為惡性，最常見的惡性型態是papillary thyroid carcinoma，這正是本題「all are benign」為錯誤敘述的關鍵。**
 
 ## Summary

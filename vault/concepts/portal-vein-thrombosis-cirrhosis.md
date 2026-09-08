@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # portal-vein-thrombosis-cirrhosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：門脈血栓：Bland vs tumor thrombus](https://img-hosting.jieyu166.workers.dev/i/pxKjnew.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/pxKjnew.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝硬化併門靜脈血栓（PVT）成因＝Virchow 三要素（血流淤滯／高凝狀態／內皮受損）共同作用，非單一因素。判讀分水嶺：先分辨「良性血栓（bland）vs 腫瘤血栓（tumor thrombus）」——腫瘤血栓會擴張管腔、有強化、且與肝實質腫瘤（多為 HCC）相連。**
 
 ## Summary

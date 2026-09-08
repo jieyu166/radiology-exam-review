@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # npsle-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：NPSLE：影像表現](https://img-hosting.jieyu166.workers.dev/i/xxl9eCx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/xxl9eCx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **神經精神性系統性紅斑狼瘡（NPSLE）的影像表現包括新發梗塞、局部高訊號病灶與廣泛可逆性白質變化；腦膿瘍並非NPSLE的表現，若見腦膿瘍應考慮其他病因（如伺機性感染，尤其在免疫抑制病人）。**
 
 ## Summary

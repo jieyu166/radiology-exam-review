@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # postpartum-uterine-dehiscence-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：子宮切口：Dehiscence vs rupture](https://img-hosting.jieyu166.workers.dev/i/qEf8QLF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/qEf8QLF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Dehiscence（裂開）vs Rupture（破裂）差在「漿膜層是否完整」——dehiscence 內膜/肌層裂開但漿膜完整，rupture 為全層破裂含漿膜。** 判讀分水嶺：**MRI（非 CT）才是分辨兩者的關鍵**——因為多切面與軟組織對比可顯示「完整漿膜層」；CT 對子宮切口 dehiscence 敏感度差、影像徵象非特異。臨床重要性在於：**rupture 需手術修補，dehiscence 多可保守**。故本題「CT 優於 MRI」的敘述錯誤。
 
 ## Summary

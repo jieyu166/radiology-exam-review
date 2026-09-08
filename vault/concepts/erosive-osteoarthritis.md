@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # erosive-osteoarthritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Erosive OA｜侵蝕性骨關節炎](https://img-hosting.jieyu166.workers.dev/i/Ikkgpr8.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Ikkgpr8.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Erosive (inflammatory) osteoarthritis 是手部骨關節炎的一種亞型，除了退化性變化外，另具「侵蝕性/發炎性」成分。流行病學上有顯著女性偏好（F:M 約 12:1），典型出現在停經後（postmenopausal）婦女。** 判讀分水嶺：**好發手部 DIP、PIP 與第一 CMC 關節，特徵為「中央性（central）」軟骨下侵蝕（至少兩處分屬不同指間關節），中央侵蝕合併邊緣骨贅產生經典的「gull-wing（海鷗翼）」外觀；缺乏 RA 的邊緣性（marginal）侵蝕與骨質疏鬆。此題以「性別分布」作鑑別：erosive OA 明顯偏女性，可與偏男性的 reactive arthritis／gout、以及無性別偏好的 psoriatic arthritis 區分。**
 
 ## Summary

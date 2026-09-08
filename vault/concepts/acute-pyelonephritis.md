@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # acute-pyelonephritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：急性腎盂腎炎｜CT 線索](https://img-hosting.jieyu166.workers.dev/i/EBIKkbZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EBIKkbZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性腎盂腎炎是臨床診斷，影像多正常——僅約 25% 有異常所見。** 非顯影 CT 多正常或僅見腎腫大；診斷性特徵（striated nephrogram、楔形低強化區）要靠顯影後 CT 才看得到。記憶鉤：「非顯影＝normal or 腎腫大；顯影＝striated stripe 加楔形缺損」。另須記，cortical rim sign 屬**腎梗塞**（包膜側支）而非腎盂腎炎。
 
 ## Summary

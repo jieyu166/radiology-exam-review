@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # nf1-dystrophic-scoliosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：NF1 dystrophic scoliosis｜組合辨識](https://img-hosting.jieyu166.workers.dev/i/iyZn8IW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iyZn8IW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脊椎側彎的「彎多長」是分水嶺：神經纖維瘤病（NF1）造成的是『短節段、銳角』的營養不良型（dystrophic）胸椎後側凸，累及 < 6 個脊椎節；神經肌肉型與特發型則是『長節段、平緩』的長弧曲線。看到短而尖銳的角狀後側凸＋椎體扇形凹陷／肋骨帶狀變形，先想 NF1。**
 
 ## Summary

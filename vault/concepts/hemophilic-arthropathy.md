@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # hemophilic-arthropathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hemophilic arthropathy｜血友病關節病變](https://img-hosting.jieyu166.workers.dev/i/GNiUuqg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GNiUuqg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **血友病關節病變來自反覆積血→含鐵血黃素滑膜增生→軟骨/骨破壞，膝部典型是髁間窩變寬＋方形髕骨；肩部最少受累，且不長骨刺（osteophytes）——「肱骨頭增大＋骨刺」是陷阱。** 判讀分水嶺一：**膝典型＝widened intercondylar notch＋squared patella＋股骨髁球狀增大**；判讀分水嶺二：**肩部最少受累且無 osteophyte（非骨關節炎型）；踝→距骨塌陷似 Charcot**。記憶鉤：好發順序「膝肘踝髖肩」（下肢→上肢→最少）；肩部不長骨刺這一點反直覺，要特別記。
 
 ## Summary

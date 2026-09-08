@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # muscle-degloving-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：股直肌肌內剝離 Intramuscular degloving](https://img-hosting.jieyu166.workers.dev/i/6Y2TklE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6Y2TklE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肌肉內脫套傷（intramuscular degloving injury）特別好發於雙羽狀肌（bipennate muscle）——內側肌腱複合體被外層肌肉「脫套」分離、被液體填充分開，最經典的例子就是rectus femoris（股四頭肌之一，具中央腱膜的雙羽狀構造）。記憶鉤：這類損傷需要肌肉本身有「內外兩層＋中央腱膜」的雙羽狀構造才會發生，非雙羽狀肌（如半腱肌、內收大肌、腓腸肌內側頭）不會呈現此特定型態。**
 
 ## Summary

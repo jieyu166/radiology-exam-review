@@ -11,6 +11,13 @@ dateRev: 2026-07-05
 
 # multinodular-vacuolating-neuronal-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：MVNT：皮質下泡泡群](https://img-hosting.jieyu166.workers.dev/i/SQrw1va.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/SQrw1va.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **MVNT 的判讀分水嶺：沿內側皮質「緊貼」排列、變亮如 CSF 卻不被 FLAIR 壓抑、不強化、無腫塊效應的一叢 T2 高訊號「泡泡」——認得這組合就能大膽當作「leave-alone」良性病灶，不必追蹤。**
 
 ## Summary

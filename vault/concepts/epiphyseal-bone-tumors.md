@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # epiphyseal-bone-tumors
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Epiphyseal lesions｜三個代表 DDx](https://img-hosting.jieyu166.workers.dev/i/lDbIJvb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/lDbIJvb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **侵犯長骨『骨骺（epiphysis）』的病灶 DDx 有限，Ewing sarcoma 不在其中（偏骨幹）。** 判讀分水嶺一：**骨骺/骨骺端病灶＝chondroblastoma（骨骺未閉、青少年、男略多）、giant cell tumor（骨骺已閉、延伸至軟骨下）、clear cell chondrosarcoma、感染、(偶) osteosarcoma 延伸**；判讀分水嶺二：**Ewing sarcoma 好發『骨幹/metadiaphysis』，骨骺受累僅 1–2%**。助記 epiphyseal lesions：「CGI」（Chondroblastoma、GCT、Infection）。
 
 ## Summary

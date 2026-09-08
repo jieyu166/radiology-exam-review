@@ -13,6 +13,13 @@ same:
 
 # capillary-telangiectasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Capillary telangiectasia vs cavernous malformation](https://img-hosting.jieyu166.workers.dev/i/Pt6Cu9J.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Pt6Cu9J.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腦微血管擴張是一簇擴張的微血管，血管之間「夾有正常腦實質」——這正是與 cavernoma 最核心的區別（cavernoma 血管之間無腦實質）。** 好發橋腦（約 80%），多無症狀，對比後呈點狀/花邊狀淡強化，SWI 上有 blooming 低訊號。記憶鉤：「毛細血管海綿夾著正常腦、cavernoma 是純血管沒有腦」——有沒有夾腦組織，決定診斷。
 
 ## Summary

@@ -13,6 +13,13 @@ same:
 
 # endometriosis-malignant-transformation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：endometriosis-malignant-transformation：共用 Summary 圖](https://img-hosting.jieyu166.workers.dev/i/6Vqp2yR.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6Vqp2yR.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **子宮內膜異位症惡性轉化最常見的組織型是「Endometrioid adenocarcinoma」（約 2/3，66.7%），其次「Clear cell adenocarcinoma」（約 1/7，14.8%）——兩者皆好發於 MRI 上 T1/T2 皆呈中等訊號的實質腫塊。** 判讀分水嶺：**serous/mucinous 與內膜異位關聯遠低於 endometrioid/clear cell；懷疑惡性轉化看『囊內強化壁結節（T1WI 高度懷疑）』、T2 shading 消失、病灶增大、對側卵巢病灶、子宮內膜增厚；發生率約 1-2%、發病早 10-20 年；HE4+CA125 升高有助鑑別（並非不會升高）。**
 
 ## Summary

@@ -14,6 +14,13 @@ same:
 
 # dish
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：DISH｜瀰漫性特發性骨肥厚](https://img-hosting.jieyu166.workers.dev/i/aeotzwk.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/aeotzwk.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **DISH 的骨化像融化的蠟燭油沿前縱韌帶流注（≥4 連續椎節），但椎間盤高度維持、小面關節與薦髂關節全身而退。** 關鍵鑑別 AS：AS 是細的 syndesmophyte（竹節脊椎）＋薦髂關節早期受累；DISH 是粗的流注狀骨贅＋薦髂正常＋無 facet ankylosis。記憶鉤：**「DISH 不進關節，AS 不離關節」**。
 
 ## Summary

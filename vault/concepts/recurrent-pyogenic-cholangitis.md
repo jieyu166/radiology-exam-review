@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # recurrent-pyogenic-cholangitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Recurrent pyogenic cholangitis](https://img-hosting.jieyu166.workers.dev/i/30EUpLm.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/30EUpLm.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **RPC（東方膽管肝炎）的空間記憶：肝外→肝內→好發左葉外側段→節段萎縮，管內全是色素結石（Clonorchis 為蟲核），且有膽管癌風險——「無膽管癌風險」是考試陷阱。** 判讀分水嶺：**肝內外膽管多發狹窄＋擴張、管內 pigmented stone（常無膽囊結石）、好發左葉外側段節段萎縮；膽管癌為重要併發症**。
 
 ## Summary

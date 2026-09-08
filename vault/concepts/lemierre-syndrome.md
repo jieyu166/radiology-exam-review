@@ -12,6 +12,13 @@ dateRev: 2026-06-28
 
 # lemierre-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Lemierre syndrome](https://img-hosting.jieyu166.workers.dev/i/VIHj0Cs.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/VIHj0Cs.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Lemierre 症候群＝喉嚨發炎後菌（Fusobacterium，厭氧 Gram 陰性桿菌）跑進內頸靜脈造成化膿性血栓，再飄到肺（~90%）；影像要找的是 IJV 血栓＋肺敗血栓，不是咽炎本身。** 判讀分水嶺一：**影像 hallmark＝IJV 化膿性血栓性靜脈炎＋肺敗血栓**（非咽炎或淋巴炎）；判讀分水嶺二：**Fusobacterium necrophorum＝anaerobic Gram-陰性 bacillus（非陽性 cocci）**——這個 Gram 染色方向是常考陷阱。
 
 ## Summary

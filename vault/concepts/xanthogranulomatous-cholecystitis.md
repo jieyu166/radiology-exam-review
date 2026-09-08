@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # xanthogranulomatous-cholecystitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：XGC：膽囊壁內結節，仍需排除癌](https://img-hosting.jieyu166.workers.dev/i/fpmyOrU.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/fpmyOrU.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **黃色肉芽腫性膽囊炎（XGC）與膽囊癌影像鑑別的關鍵徵象是「膽囊壁內低衰減結節（intramural hypoattenuating nodules）」——代表壁內的黃色肉芽腫/膿瘍或Rokitansky-Aschoff sinus，這一點傾向XGC而非膽囊癌。膽囊壁增厚、膽囊癌與XGC皆可有膽周脂肪浸潤/肝侵犯/淋巴腫大，無法單獨區分。**
 
 ## Summary

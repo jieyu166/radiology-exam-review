@@ -9,6 +9,13 @@ dateRev: 2026-07-02
 
 # acro-osteolysis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Acro-osteolysis｜常見 DDx 線索](https://img-hosting.jieyu166.workers.dev/i/caJX46F.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/caJX46F.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Acro-osteolysis（指/趾端骨溶解）常見於：scleroderma、psoriatic arthritis、hyperparathyroidism、thermal injury、PVC exposure、leprosy 等。NF1 不是典型原因。**
 
 ## Summary

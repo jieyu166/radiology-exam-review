@@ -10,6 +10,13 @@ dateRev: 2026-06-28
 
 # pituicytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pituicytoma](https://img-hosting.jieyu166.workers.dev/i/33E19ZW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/33E19ZW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Pituicytoma 最常考的陷阱：它源自「神經垂體（neurohypophysis）/漏斗部」，不是腺垂體（adenohypophysis）。** 記憶鉤：pituicyte 是神經垂體的膠質細胞，pituicytoma 就住在「後葉那一側」（鞍內後部或漏斗），WHO grade 1、生長緩慢。判讀分水嶺一：**起源 neurohypophysis/infundibulum（非 adenohypophysis）**；判讀分水嶺二：**WHO grade 1、鞍/鞍上、S100 ＋ vimentin ＋ TTF-1 陽性**；判讀分水嶺三（影像）：**邊界清楚的實性腫塊、T2 等-高訊號、強烈均勻強化、富血管（術中易大出血）**。
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # chronic-cholecystitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：慢性膽囊炎｜Chronic cholecystitis](https://img-hosting.jieyu166.workers.dev/i/SikEnjE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/SikEnjE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **慢性膽囊炎讓膽汁「濃縮變亮」，亮了之後肝與膽汁的訊號比值反而下降。** 膽汁 T1 訊號與膽鹽/蛋白濃度正相關：禁食、滯留、sludge 形成→濃度升高→T1 變亮（高訊號）。因此 liver/GB-bile SI ratio＝肝訊號（相對穩定）÷膽汁訊號（升高），比值「顯著下降」。記憶鉤：「膽汁越濃越亮（T1↑），比值越小」——分子固定、分母變大，商必然縮小。
 
 ## Summary

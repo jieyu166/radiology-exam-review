@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # sacral-chordoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：sacral-chordoma：共用圖稿](https://img-hosting.jieyu166.workers.dev/i/nOf1ThP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nOf1ThP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脊索瘤(chordoma)是薦骨『最常見的原發惡性腫瘤』，也是薦骨(不論良惡性)最常見的腫瘤(約佔 40%)。它源自胚胎脊索殘餘、沿中軸骨中線分布(薦尾＞斜坡＞脊椎)，影像典型為『中線、溶骨破壞性、軟組織腫塊常大到與骨破壞不成比例、T2 極高訊號、CT 有 90% 可見鈣化(多為破壞骨碎屑)』。**
 
 判讀分水嶺：**問「薦骨最常見腫瘤」時答脊索瘤；第二常見的原發薦骨腫瘤是巨細胞瘤(GCT)。中線＋T2 極高訊號＋不成比例大軟組織腫塊＋周邊鈣化＝脊索瘤；偏心、上位薦椎(S1/S2)則偏 GCT。**

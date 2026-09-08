@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # sufe-vs-perthes-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：SCFE vs Perthes｜位移或骨骺變化](https://img-hosting.jieyu166.workers.dev/i/rBsMpHg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rBsMpHg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SUFE(股骨頭骨骺滑脫)與Perthes disease(股骨頭缺血性壞死)皆好發於兒童髖痛，但關鍵鑑別徵象是「內側股骨頸幹端與髖臼重疊消失(loss of overlap)」即「Capener三角徵消失(loss of triangular sign of Capener)」——此為SUFE特有的骨骺向後內側滑脫所致，而非Perthes disease的表現。** 判讀分水嶺：**股骨頭骨骺縮小、規則性股骨頭去礦質化、股骨頭軟骨下新月狀透亮(crescent sign)、股骨頭碎裂皆為Perthes disease的典型影像特徵;而Capener三角徵消失(內側幹端-髖臼重疊喪失)反映骨骺實質滑脫，為SUFE的特異性徵象。**
 
 ## Summary

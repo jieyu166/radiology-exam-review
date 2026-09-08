@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # hip-labral-tear
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hip labral tear｜髖臼唇撕裂](https://img-hosting.jieyu166.workers.dev/i/hYz48yF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/hYz48yF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **髖臼唇裂最好發於「前上象限（anterosuperior quadrant）」——這是頻率考題的固定答案；影像判讀分水嶺是 MR arthrography（直接關節注射）遠比平掃 MRI 準確（91% vs 36%），因為唇的完整性只有在關節腔有液體/對比劑撐開時才看得清楚。**
 
 ## Summary

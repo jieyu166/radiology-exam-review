@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # gastric-adenocarcinoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gastric adenocarcinoma：胃腺癌](https://img-hosting.jieyu166.workers.dev/i/TXhnF4p.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TXhnF4p.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胃惡性腫瘤「腺癌一枝獨秀」——adenocarcinoma 佔胃惡性腫瘤約 80–90%，遠多於 GIST、淋巴瘤（約 5%）與類癌（carcinoid）。判讀分水嶺：胃壁增厚／腫塊先想腺癌；GIST 是最常見的間葉腫瘤但整體佔比遠低於腺癌，淋巴瘤約佔 5%。**
 
 ## Summary

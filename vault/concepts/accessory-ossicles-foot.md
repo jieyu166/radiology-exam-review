@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # accessory-ossicles-foot
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：足部常見 accessory ossicles](https://img-hosting.jieyu166.workers.dev/i/5DnyKpO.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/5DnyKpO.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **足部副骨（accessory ossicles）為正常變異，多數無症狀但部分可引起疼痛。Os trigonum（距骨後方）可因 posterior impingement 產生後踝痛；accessory navicular（舟狀骨內側）可因 tibialis posterior 牽拉而疼痛；os peroneum（cuboid 外側、peroneus longus 腱內）骨折時可致外踝痛；os intermetatarseum（第一、二蹠骨基部背側）通常無症狀，是最不易引起疼痛的副骨之一。**
 
 ## Summary

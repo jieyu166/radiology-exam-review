@@ -15,6 +15,13 @@ same:
 
 # infiltrative-hcc
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Infiltrative HCC：邊界不清時看門脈](https://img-hosting.jieyu166.workers.dev/i/OUyH1Dj.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/OUyH1Dj.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Infiltrative HCC 沒有邊界清楚的腫塊——整個肝布滿微小結節，偽裝成肝硬化（cirrhotomimetic）；破案的線索通常是「門脈瘤栓讓血管膨大且像腫瘤一樣強化」。** 判讀分水嶺一：**型態＝瀰漫微小結節、無主導腫塊，邊界不清，易誤為肝硬化**；判讀分水嶺二：**惡性門脈瘤栓＝管腔擴張（expand）＋腫瘤樣 arterialization（強化型態同鄰近腫瘤）＋T2 高訊號/DWI 受限**——這組合高度提示惡性瘤栓，常為唯一診斷線索。
 
 ## Summary

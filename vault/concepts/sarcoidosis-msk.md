@@ -9,6 +9,13 @@ dateRev: 2026-07-06
 
 # sarcoidosis-msk
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨骼 Sarcoidosis｜花邊狀指骨病灶](https://img-hosting.jieyu166.workers.dev/i/nPOlGkY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nPOlGkY.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性類肉瘤關節炎（Lofgren syndrome）的踝關節腫脹為 periarticular soft tissue swelling 及 tenosynovitis，真正的 synovitis 或 joint effusion 少見。**
 
 ## Summary

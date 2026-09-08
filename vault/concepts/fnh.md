@@ -15,6 +15,13 @@ same:
 
 # fnh
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：FNH：中央供血與肝膽期線索](https://img-hosting.jieyu166.workers.dev/i/aAfDQeE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/aAfDQeE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **FNH 就靠 Doppler 上中央動脈向外放射的「輪輻」（spoke-wheel）認出來；好發年輕女性（20–50 歲），不是 5th–6th decade。** 判讀分水嶺一：**spoke-wheel ＝ 中央大動脈離心放射狀分支 → FNH 的代名詞**；判讀分水嶺二：**central scar（僅 <50% 可見）＋ 無包膜＋肝膽期等/高訊號（含膽管，與 adenoma 鑑別）**。記憶鉤：FNH 像腳踏車輪，中央一根動脈往外輻射——看到輪輻就喊 FNH。
 
 ## Summary

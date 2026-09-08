@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # subdural-empyema
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Subdural empyema](https://img-hosting.jieyu166.workers.dev/i/EX0vKyE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EX0vKyE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **硬膜下積膿（SDE）的影像邏輯：新月形硬膜下積液 + 邊緣（軟腦膜/硬膜面）明顯強化 + DWI 擴散受限。三件事一起看，才能與慢性硬膜下血腫（可長得一模一樣）分開。** 記憶鉤：SDE 是「硬膜下的膿」，跟腦膿瘍一樣**DWI 典型受限（高訊號）**——所以「SDE 少見 DWI 高訊號」是錯的。病因看年齡：嬰幼兒多為**細菌性腦膜炎**併發；大兒童與成人則多來自**副鼻竇疾病（尤其額竇炎，>2/3）**。SDE 比 epidural empyema 更常見、也更容易併發（thrombophlebitis、cerebritis），需緊急神經外科處置。
 
 ## Summary

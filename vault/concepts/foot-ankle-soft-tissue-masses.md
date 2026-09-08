@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # foot-ankle-soft-tissue-masses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Foot／ankle masses｜三個常見線索](https://img-hosting.jieyu166.workers.dev/i/bVhbmDQ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/bVhbmDQ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **足踝軟組織腫塊靠MRI訊號『指紋』分類——homogeneous low T1 AND low T2 且會強化，最典型的是『纖維性腫塊(plantar fibromatosis / fibroma of tendon sheath)』，因含成熟膠原(mature collagen)。** 判讀口訣:T1、T2皆低訊號＝想fibrous tissue;含未成熟纖維/纖維母細胞者訊號可呈中等。其他腫塊的訊號各有指紋,是鑑別關鍵。
 
 ## Summary

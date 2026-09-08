@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # acute-appendicitis-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：急性闌尾炎｜Acute appendicitis](https://img-hosting.jieyu166.workers.dev/i/vMsGola.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/vMsGola.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性闌尾炎超音波診斷：擴張的盲端管狀構造、無蠕動且無法壓縮，管壁增厚（單壁 >3 mm）——管徑門檻有來源分歧：傳統/考題用「外徑 >6 mm」，STATdx 則用「外徑 ≥7 mm」（6-7 mm 為灰色地帶、以次要徵象輔助）。CT/MR 以起自盲腸之擴張盲端管狀構造、盲腸壁增厚（cecal bar sign）及闌尾結石為特徵。** 判讀分水嶺：**外徑 >6-7 mm + 無法壓縮 + 管壁增厚/強化 + 周邊脂肪炎（echogenic fat / fat stranding）＝闌尾炎；power Doppler 管壁充血支持；穿孔看「黏膜下高回音層不連續 + 周邊積液 + loose appendicolith」。**
 
 ## Summary

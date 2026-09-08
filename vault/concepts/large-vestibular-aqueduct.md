@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # large-vestibular-aqueduct
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Large vestibular aqueduct](https://img-hosting.jieyu166.workers.dev/i/8YozzZG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/8YozzZG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **大前庭導水管（Large / enlarged vestibular aqueduct, LVA/EVA）是兒童感音性聽力損失 CT 上最常見的發現。判定標準（Cincinnati criteria）：midpoint ≥1.0 mm 或 operculum ≥2.0 mm（正常上限 95th 百分位為 midpoint 0.9 mm／operculum 1.9 mm）。常合併其他內耳異常。**
 
 > [!warning] 閾值已修正

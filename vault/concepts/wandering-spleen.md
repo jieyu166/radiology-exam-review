@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # wandering-spleen
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Wandering spleen：異位與血管蒂扭轉](https://img-hosting.jieyu166.workers.dev/i/rexqsAD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rexqsAD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Wandering spleen 因脾臟懸韌帶（splenic ligaments）發育不良或鬆弛，脾臟失去正常固定位置、可游移至腹腔任何部位，最危險的併發症是脾臟自身血管蒂扭轉（splenic torsion）致缺血梗塞。** 判讀分水嶺：**splenic torsion（脾臟血管蒂扭轉致缺血）是最重要且最常考的併發症**，非壓迫 IVC、脾挫傷或橫膈疝氣。
 
 ## Summary

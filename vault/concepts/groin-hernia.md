@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # groin-hernia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Groin hernia：定位與絞扼風險](https://img-hosting.jieyu166.workers.dev/i/7S94LSZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7S94LSZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **股疝（femoral hernia）靠四個字記：「窄頸、小囊、外側、壓靜脈」——頸窄所以囊小局限（不像腹股溝疝有延伸大疝囊）、位置在恥骨結節外側、幾乎必定壓迫股靜脈。** 判讀分水嶺一：**「延伸的大疝囊（extended sac）」是股疝少見的特徵，反而是腹股溝疝的表現。** 判讀分水嶺二：**位置記憶：恥骨結節「外下」= 股疝；「內上」= 腹股溝疝；壓股靜脈幾乎是股疝專屬。**
 
 ## Summary

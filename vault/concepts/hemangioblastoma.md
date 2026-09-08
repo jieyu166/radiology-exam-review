@@ -12,6 +12,13 @@ same:
 
 # hemangioblastoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hemangioblastoma：囊與壁結節](https://img-hosting.jieyu166.workers.dev/i/NTfBEdW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/NTfBEdW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **成人後顱窩囊加強化壁結節，首先想 hemangioblastoma（兒童同樣型態則想 pilocytic astrocytoma）；結節富血管、貼軟膜、可見 flow void，多發時要排 VHL。** 判讀分水嶺一：**成人＋小腦囊＋強化壁結節（貼軟膜）＝hemangioblastoma**；判讀分水嶺二：**結節有 flow void（富血管）；多發或年輕成人 → 排 von Hippel-Lindau（VHL）**。記憶鉤：年齡配型態——成人（hemangioblastoma）vs 兒童（pilocytic astrocytoma）各守一方；兩者長相一樣，年齡是關鍵。
 
 ## Summary

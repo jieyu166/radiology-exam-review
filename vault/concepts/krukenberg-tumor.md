@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # krukenberg-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Krukenberg tumor：卵巢轉移線索](https://img-hosting.jieyu166.workers.dev/i/nElOKBv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nElOKBv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Krukenberg腫瘤的影像表現大多「不是」單純囊性——多數病灶影像表現非特異性，以實質為主或囊實混合，這是本題最容易誤判的方向。**
 
 ## Summary

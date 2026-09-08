@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # fitz-hugh-curtis-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Fitz–Hugh–Curtis syndrome](https://img-hosting.jieyu166.workers.dev/i/LgJIJuv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LgJIJuv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Fitz-Hugh-Curtis（FHC）症候群＝肝包膜與其上腹膜之發炎（perihepatitis）+ 黏連形成，『不』侵犯肝實質；典型續發於骨盆腔發炎（PID，Chlamydia/Gonorrhea 上行感染直接腹腔內蔓延至肝周）。** 判讀分水嶺：**典型病因＝PID（~4% 輕中度 PID；育齡女性，罕見男性；生殖器結核更高）；急性 CT 見『肝包膜動脈期強化』，慢性見肝周 + 骨盆『violin-string』黏連；少見/非典型病因含 SLE、IUD、子宮內膜異位、術後（如卵巢皮樣囊腫破裂致化學性腹膜炎/黏連）。本題為非典型病因案例＝卵巢皮樣囊腫破裂。**
 
 ## Summary

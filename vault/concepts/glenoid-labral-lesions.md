@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # glenoid-labral-lesions
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肩盂唇｜前下損傷與前上變異](https://img-hosting.jieyu166.workers.dev/i/ywN0yJ1.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ywN0yJ1.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **前下盂唇損傷（Bankart／Perthes／ALPSA）是肩前脫位的結果;但 Buford complex 是『正常變異』（前上盂唇缺如＋中盂肱韌帶呈索狀增厚）,不是傷害,勿誤判為撕裂。** 判讀分水嶺：**Bankart＝前下盂唇撕脫（±骨性 bony Bankart）;Perthes＝前下盂唇撕脫但骨膜完整、盂唇仍貼附（非移位）、易漏需 ABER 姿勢;ALPSA＝盂唇骨膜袖套向內下移位且內側化癒合;Buford complex＝前上（1-3 點鐘）盂唇缺如＋索狀中盂肱韌帶,屬正常變異。**
 
 ## Summary

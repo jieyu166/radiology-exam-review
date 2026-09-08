@@ -12,6 +12,13 @@ dateRev: 2026-06-15
 
 # pres
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PRES：典型影像與背景](https://img-hosting.jieyu166.workers.dev/i/yjAetfW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/yjAetfW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PRES 的因果鏈：血壓失調 → 高灌流破壞血腦屏障 → vasogenic edema 在後頂枕葉堆積 → T2/FLAIR 亮、DWI 不受限（可逆）。** 常見誘因「高血壓、子癇、免疫抑制藥物（tacrolimus/cyclosporine 等）、腎病」；糖尿病不在此列（考試陷阱）。判讀分水嶺一：**DWI 不受限 ＋ ADC 升高 → vasogenic edema → PRES（區別急性梗塞的 DWI 受限）**；判讀分水嶺二：**移除誘因多可逆；DM 不是典型危險因子**。
 
 ## Summary

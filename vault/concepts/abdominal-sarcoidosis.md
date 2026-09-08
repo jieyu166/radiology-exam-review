@@ -13,6 +13,13 @@ same:
 
 # abdominal-sarcoidosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：腹部 Sarcoidosis](https://img-hosting.jieyu166.workers.dev/i/Srzij3P.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Srzij3P.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腹部肉樣瘤病侵犯脾臟時，CT上最常見的異常是「脾腫大（splenomegaly）」——比起多發低衰減結節，脾腫大才是最常見的表現。多發低衰減結節雖具特徵性但較不常見。**
 
 ## Summary

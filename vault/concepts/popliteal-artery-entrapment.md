@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # popliteal-artery-entrapment
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PAES｜動態血流與結構一起看](https://img-hosting.jieyu166.workers.dev/i/YYPI2GP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YYPI2GP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PAES 的核心概念：「站靜止時沒事，踮腳時腓腸肌夾住膕動脈」——靜息 Doppler 正常不能排除診斷，一定要做誘發姿勢。** 多因腓腸肌內側頭（medial head of gastrocnemius）位置異常壓迫膕動脈，蹠屈（plantar flexion）時壓迫最明顯，傳統金標準是 DSA 加誘發姿勢。判讀分水嶺一：**誘發姿勢（蹠屈/背屈）才壓迫，中立位可正常**；判讀分水嶺二：**正常靜息 Doppler 不排除 PAES**。
 
 ## Summary

@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # synovial-osteochondromatosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Synovial chondromatosis｜滑膜軟骨瘤病](https://img-hosting.jieyu166.workers.dev/i/sH4GPKg.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/sH4GPKg.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **原發性滑膜（骨）軟骨瘤病是滑膜的良性化生性腫瘤——滑膜下組織緩慢形成多顆透明軟骨結節，日後鈣化/骨化並可脫落為關節內游離體；好發膝（up to 70%）＞髖，男性成人為主。** 判讀分水嶺：其病理切片有「顯著細胞異型性」，若病理科不知道病灶「源自滑膜」，極易被誤判為 **extraskeletal（滑膜）chondrosarcoma**——因此放射科務必把「病灶為滑膜起源、關節內、ring-and-arc 軟骨型鈣化」這個定位訊息傳達給病理科（本題答案 D「Synovial origin」）。記憶鉤：**軟骨的鈣化＝ring-and-arc，軟骨的訊號＝T2 很亮**，而「救命的一句話」是告訴病理科「這是滑膜長出來的」。
 
 ## Summary

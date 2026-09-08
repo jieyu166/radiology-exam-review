@@ -15,6 +15,13 @@ dateRev: 2026-07-10
 
 # corpus-callosum-agenesis-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Corpus callosum agenesis：三個影像徵象](https://img-hosting.jieyu166.workers.dev/i/UCvfGws.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/UCvfGws.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胼胝體發育不全（ACC）的所有經典徵象都源自同一個解剖機轉：本應跨中線的白質束無法交叉，改沿中線縱走形成 Probst bundles，把兩側側腦室「平行」推開。冠狀切面的「麋鹿頭徵象」與軸切面的「賽車徵象」都在描述這個平行擴大變形；molar tooth sign 則屬 Joubert 症候群的中腦徵象，與 ACC 無關。** 判讀分水嶺：**看到「側腦室平行、額角上翹、第三腦室高位、枕角不成比例擴大（colpocephaly）」＝ ACC；別把 Joubert 的 molar tooth（上小腦腳拉長）算進來。**
 
 ## Summary

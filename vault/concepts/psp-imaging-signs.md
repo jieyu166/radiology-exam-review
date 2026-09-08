@@ -16,6 +16,13 @@ dateRev: 2026-07-03
 
 # psp-imaging-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PSP：中腦萎縮徵象](https://img-hosting.jieyu166.workers.dev/i/0sIGMud.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0sIGMud.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **進行性核上性麻痺（PSP）＝中腦被蓋（tegmentum）萎縮；矢狀面中腦上緣由正常「上凸」變為「扁平/凹陷」→ hummingbird / penguin sign，軸位中腦被蓋外側緣凹陷 → morning glory / Mickey Mouse sign。但「最準確」的不是這些定性徵象，而是「中腦面積：橋腦面積比」下降（PSP ≈ 0.12，正常 ≈ 0.24）。** 判讀分水嶺：**定性徵象憑印象、易有觀察者差異；定量指標（midbrain area < 70 mm²、midbrain:pons ratio < 0.15、MRPI/MRPI 2.0）才最準確，並能與 MSA-P（比值反而偏高 ~0.27、有橋腦小腦萎縮）、PD（無明顯中腦萎縮）區分。記憶鉤：矢狀面看蜂鳥、軸位看米奇、算比值最準（PSP 中腦瘦、橋腦相對胖）。**
 
 ## Summary

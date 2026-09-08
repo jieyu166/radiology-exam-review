@@ -14,6 +14,13 @@ same:
 
 # hepatocellular-adenoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hepatocellular adenoma：MRI 線索與例外](https://img-hosting.jieyu166.workers.dev/i/adeY7sX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/adeY7sX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝細胞腺瘤（HCA）是年輕女性第二常見的肝腫瘤（僅次於 FNH），與 FNH 最大的不同是「有出血與惡性轉化風險」，且與口服避孕藥/雄性素類固醇密切關聯——這是 HCA 是否需切除的核心考量。** 判讀分水嶺：**Gadoxetate（肝細胞特異對比劑）肝膽期，多數 HCA 呈低訊號、而 FNH 呈等/高訊號——這是區分兩者的關鍵；分子亞型以 MRI（脂肪、T2、atoll sign、肝膽期）鑑別優於 CT。**
 
 ## Summary

@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # esophageal-diverticula
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Esophageal diverticula：依位置區分](https://img-hosting.jieyu166.workers.dev/i/5FXbVMM.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/5FXbVMM.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **食道/下咽憩室依部位分三層——上段（Zenker 最常見、Killian-Jamieson 相對最少見）、中段（traction）、下段（epiphrenic）。另一個關鍵軸線是「true vs false」：traction 是唯一的 true diverticulum（含全層肌肉），Zenker/KJ/epiphrenic 都是 pulsion／false（僅黏膜+黏膜下、無肌層）。** 判讀分水嶺：**Zenker 與 Killian-Jamieson 都在環咽肌附近但要分清——Zenker＝後方、環咽肌「上方」、經 Killian 三角；KJ＝前外側/左側、環咽肌「下方」、經 Killian-Jamieson space，且體積更小（<1.5 cm）、最少見。**
 
 ## Summary

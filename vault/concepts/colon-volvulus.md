@@ -12,6 +12,13 @@ dateRev: 2026-06-28
 
 # colon-volvulus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Colonic volvulus｜乙狀結腸 vs 盲腸](https://img-hosting.jieyu166.workers.dev/i/K1dTxRW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/K1dTxRW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **結腸扭轉（colonic volvulus）最常見的是乙狀結腸（sigmoid，~60%），其次是盲腸（cecal，~25–40%）——這個順序考試最常逆轉設陷。** 扭轉造成閉鎖環阻塞（closed-loop obstruction），平片與 CT 各有特徵徵象，而判斷有無**缺血／絞扼**是影響處置（內視鏡 detorsion vs 手術）的關鍵。
 
 兩型在年齡、位置、影像型態上對比鮮明：

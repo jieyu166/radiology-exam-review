@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # lisfranc-injury
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Lisfranc injury｜中足損傷](https://img-hosting.jieyu166.workers.dev/i/b7NJaKd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/b7NJaKd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Lisfranc 韌帶連接第 1 楔狀骨（medial cuneiform）與第 2 蹠骨基部，是穩定跗蹠關節內側柱的關鍵斜行骨間韌帶——記憶鉤「1 楔到 2 蹠」，是唯一橫跨第 1、2 列的骨間韌帶。** 判讀分水嶺：**Lisfranc 韌帶三束（背側、骨間、蹠側；骨間束最厚最強）；fleck sign（第 2 蹠骨基/楔狀骨撕脫）為 pathognomonic；第 2 蹠骨基相對中楔狀骨外/背側移位、1-2 蹠骨基間隙加寬（>2 mm）為不穩定徵象。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # osgood-schlatter-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Osgood–Schlatter disease｜脛骨粗隆牽引傷](https://img-hosting.jieyu166.workers.dev/i/0J7zFUD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0J7zFUD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Osgood-Schlatter disease是重複性微創傷引起的慢性疲勞性損傷，發生在「髕韌帶(patellar tendon)」在脛骨粗隆的附著處增厚——不是股四頭肌肌腱(quadriceps tendon)，這是常見的解剖部位混淆陷阱。**
 
 ## Summary

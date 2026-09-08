@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # enchondromatosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Enchondromatosis｜Ollier 與 Maffucci](https://img-hosting.jieyu166.workers.dev/i/acP1Fkv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/acP1Fkv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **平片上多發幹骺端軟骨病灶，「有沒有靜脈石」是 Ollier 與 Maffucci 的分水嶺。** Ollier＝非遺傳、多發內生軟骨瘤＋手足變形/肢長不等、**無**軟組織血管瘤；Maffucci＝Ollier 全部特徵**加**軟組織血管瘤（phleboliths 是靜脈石，平片可見）。記憶鉤：Maffucci 多一個「M」＝多一個 More（血管瘤更多），兩者皆可惡性變為軟骨肉瘤，Maffucci 風險更高。
 
 ## Summary

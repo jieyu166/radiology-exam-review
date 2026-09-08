@@ -12,6 +12,13 @@ dateRev: 2026-06-17
 
 # musculoskeletal-amyloidosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Amyloid arthropathy｜關節影像線索](https://img-hosting.jieyu166.workers.dev/i/uKRYdbE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/uKRYdbE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **透析相關 amyloid 關節病變：amyloid（β2-microglobulin）沉積呈 T1/T2 皆低訊號（類比：纖維性緻密物「黑到底」）、滑膜增厚＋骨侵蝕、關節間隙保留至晚期，肩部對稱堆積成「shoulder pad sign」。** 判讀分水嶺一：**T1/T2 皆低訊號（纖維性 amyloid）**；判讀分水嶺二：**不以鈣化為特徵**（痛風 tophi/CPPD 才鈣化，amyloid 不是）——此為最常考的「為非」選項。
 
 ## Summary

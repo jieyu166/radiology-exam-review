@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # hypertrophic-osteoarthropathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：HOA｜肥厚性骨關節病變](https://img-hosting.jieyu166.workers.dev/i/TocbRtK.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TocbRtK.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肥厚性骨關節病（HOA）的臨床三聯徵：杵狀指（digital clubbing）、長管骨骨膜增生（periostosis of tubular bones）、關節積液合併滑膜絨毛增生（synovial effusions and synovial villous proliferation）——三者常同時並存，共同構成 HOA 的臨床影像診斷架構。**
 
 ## Summary

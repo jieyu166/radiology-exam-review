@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # spontaneous-osteonecrosis-knee
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：SIFK｜重新理解傳統 SONK](https://img-hosting.jieyu166.workers.dev/i/MghSimP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MghSimP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **自發性膝關節骨壞死(SONK/Ahlbäck disease)之傳統危險因子包含肥胖、皮質類固醇使用、半月板撕裂——教科書列骨質疏鬆非其危險因子，但SONK現多被重新命名為「subchondral insufficiency fracture」，本質與骨質疏鬆之骨小樑弱化相關，故部分文獻將骨質疏鬆亦列為危險因子，此為考題之爭議點。**
 
 ## Summary

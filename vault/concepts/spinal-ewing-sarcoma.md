@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # spinal-ewing-sarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：spinal-ewing-sarcoma：共用圖稿](https://img-hosting.jieyu166.workers.dev/i/XgLYNMU.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/XgLYNMU.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Ewing sarcoma 為兒童/青少年（多在 20-25 歲前）之惡性小圓細胞腫瘤（ESFT），為兒童第二常見原發惡性骨腫瘤（次於骨肉瘤），男略多；脊椎受累時『以薦尾部（sacrococcygeal）最常見』，非下胸椎。** 判讀分水嶺：**好發 20 歲前；脊椎以薦尾部最常見、可沿神經根/椎管蔓延；X 光呈蟲蝕狀（moth-eaten）滲透性破壞 + 大軟組織腫塊 + onion-skin 骨膜反應；MRI T1 中等、T2/STIR 中-高訊號、不均強化；up to 30% 可硬化。**
 
 ## Summary

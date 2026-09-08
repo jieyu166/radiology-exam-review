@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # renal-lymphoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Renal lymphoma：常見分布型態](https://img-hosting.jieyu166.workers.dev/i/NP4whz9.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/NP4whz9.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎淋巴瘤多為續發（系統性 NHL 浸潤，原發罕見 <1%）、腎臟為淋巴瘤最常侵犯之腹部器官；典型『多發雙側乏血管腫塊』。可侵犯腎竇酷似 urothelial carcinoma；瀰漫浸潤致腎腫大 + 不均強化 + 急性腎衰；單發腫塊（>20%）常難與 RCC 區分。** 判讀分水嶺：**最常見＝多發實質腫塊（雙側、乏血管、均質、輕度強化，<60%）；腎竇浸潤酷似移行細胞癌；瀰漫浸潤＝腎腫大 + 輪廓破壞 + 不均強化；後腹腔淋巴瘤『包繞腎血管/輸尿管而不阻塞』為旁證。**
 
 ## Summary

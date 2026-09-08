@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # gallbladder-adenomyomatosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gallbladder adenomyomatosis：找壁內小囊](https://img-hosting.jieyu166.workers.dev/i/3cH0Gix.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3cH0Gix.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膽囊腺肌症是良性壁增生，黏膜陷入肌層形成 Rokitansky-Aschoff sinuses（RAS），超音波上三項「都是」典型：瀰漫壁增厚、局部（fundal/annular）壁增厚、comet-tail 偽影——三者皆典型，考「何者非典型」答案是「以上皆典型」。** 判讀分水嶺一：**comet-tail（V 形 reverberation）源自 RAS 內膽固醇結晶，是最具特異性的辨識鑰匙。** 判讀分水嶺二：**diffuse 與 focal 壁增厚兩型皆屬典型，見到任一型加 comet-tail 即可診斷。**
 
 ## Summary

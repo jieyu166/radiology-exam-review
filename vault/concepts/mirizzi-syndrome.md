@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # mirizzi-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Mirizzi syndrome：外壓性膽道阻塞](https://img-hosting.jieyu166.workers.dev/i/itejBqs.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/itejBqs.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膽囊頸/膽囊管/Hartmann pouch 結石嵌塞，慢性發炎並「外壓」鄰近之總肝管(CHD)，造成上游肝內膽管擴張——與 choledocholithiasis（結石直接位於膽道「內」造成阻塞）的關鍵區別在「結石位置」：Mirizzi 是膽囊側結石的外壓性阻塞，而非膽道內結石。** 判讀分水嶺：**CHD 之狹窄處因發炎常「壁增厚且過度強化」，可被誤認為膽管癌(cholangiocarcinoma)；且 Mirizzi 與膽囊癌高度相關（達 25%）——見膽囊頸結石＋CHD 外壓時，勿只想結石，要一併排除腫瘤。**
 
 ## Summary

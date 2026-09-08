@@ -12,6 +12,13 @@ dateRev: 2026-07-05
 
 # calcific-tendinitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Calcific tendinitis｜鈣化性肌腱炎](https://img-hosting.jieyu166.workers.dev/i/DjexPbW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/DjexPbW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **鈣化性肌腱炎＝羥基磷灰石（hydroxyapatite）沉積於肌腱，最好發旋轉肌袖的棘上肌腱（supraspinatus，約 80%）。鈣化在 MRI 各序列皆呈低訊號，容易被忽略——所以要靠「梯度回訊（GRE）序列的 blooming artifact」來放大偵測微小鈣化。** 判讀分水刀：X 光/CT 對鈣化最敏感；MRI 上鈣化為 all-sequence 低訊號，GRE 的磁化率 blooming 反而是幫手（不是無用）。
 
 ## Summary

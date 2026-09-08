@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # ewing-sarcoma-family
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ewing sarcoma｜骨病灶重點](https://img-hosting.jieyu166.workers.dev/i/0ZMCRSZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0ZMCRSZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Ewing肉瘤家族腫瘤（ESFT）是一組源自神經外胚層（神經脊/副交感起源）的小圓細胞惡性腫瘤譜系，現統一視為單一腫瘤實體的不同表現形式，包含：骨的Ewing肉瘤、骨外Ewing肉瘤(EES)、周邊原始神經外胚層瘤(pPNET)、Askin瘤（胸壁）、神經上皮瘤(neuroepithelioma)——但『淋巴瘤(lymphoma)不屬於此家族』（淋巴瘤為造血系統腫瘤，非神經外胚層起源）。** 判讀分水嶺：**ESFT 各成員共享相同細胞遺傳學（多為 EWSR1 基因重排/t(11;22)）與神經脊來源，僅發生部位/分化程度命名不同（骨内=Ewing sarcoma、骨外軟組織=EES、周邊神經=pPNET、胸壁=Askin tumor）;淋巴瘤是完全不同譜系（B/T淋巴球起源），與ESFT無關。**
 
 ## Summary

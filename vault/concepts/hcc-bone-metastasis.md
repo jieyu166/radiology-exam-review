@@ -16,6 +16,13 @@ same:
 
 # hcc-bone-metastasis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：HCC bone metastasis｜肝癌骨轉移](https://img-hosting.jieyu166.workers.dev/i/nA1OYGh.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nA1OYGh.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **HCC 骨轉移是少數「blow-out」膨脹性轉移之一，跟 RCC、甲狀腺癌齊名——溶骨、膨脹、富血管不均勻強化＋大塊軟組織腫塊；骨掃描常偽陰性，要靠 CT/MRI/PET-CT。** 判讀分水嶺一：**溶骨＋膨脹性（blow-out）→ HCC / RCC / thyroid / pheo / melanoma / gastric 六種 blow-out 轉移**；判讀分水嶺二：**骨掃描偽陰性（低 osteoblastic 反應）→ 勿單靠骨掃；肋骨與脊椎為最常見部位（各 13/22 Kuhlman 系列）**。記憶鉤：HCC 轉移到骨「溶骨膨脹像氣球、血多掃描看不到」——富血管卻骨掃陰性，這個矛盾就是 HCC 的特色。
 
 ## Summary

@@ -18,6 +18,13 @@ dateRev: 2026-06-28
 
 # parasitic-leiomyoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Parasitic leiomyoma](https://img-hosting.jieyu166.workers.dev/i/4jsKQ0n.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/4jsKQ0n.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Parasitic leiomyoma 是脫離子宮、自立門戶的子宮外平滑肌瘤，向腹膜/網膜血管「寄生」獲血供，外觀與子宮肌瘤相同但兩者之間無蒂連接。** 判讀分水嶺：**與子宮分離（非有蒂腫塊）、有大引流靜脈、動脈血供 MRA/CTA 可見**——「由子宮長出的有蒂軟組織腫塊」是排除選項。
 
 ## Summary

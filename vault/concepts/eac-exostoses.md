@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # eac-exostoses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：外耳道骨性病灶：Exostoses vs osteoma](https://img-hosting.jieyu166.workers.dev/i/FWlJ1aD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/FWlJ1aD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **寒冷水域反覆刺激造成的「衝浪者耳」＝外耳道 exostoses：兩側、寬基底、環繞骨性外耳道的骨性增生；與 osteoma 的「單側、單發、有蒂」是判讀分水嶺。**
 
 ## Summary

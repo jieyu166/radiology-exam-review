@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # metachromatic-leukodystrophy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Metachromatic leukodystrophy](https://img-hosting.jieyu166.workers.dev/i/mnIs5WX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/mnIs5WX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **異染性腦白質失養症（MLD）是先天缺乏arylsulfatase A所致的溶酶體儲積疾病，最常見亞型為晚期嬰兒型（late infantile variant）；MRI T2WI白質訊號增加，於軸位呈虎斑紋（tigroid pattern）或矢狀面呈豹紋（leopard pattern），代表沿小靜脈周圍白質保留正常訊號；典型的白質病變會保留（sparing）皮質下U型纖維，並非侵犯U fiber。**
 
 ## Summary

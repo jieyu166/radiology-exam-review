@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # ureteral-duplication
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：輸尿管重複：共用圖稿](https://img-hosting.jieyu166.workers.dev/i/eKMUMm6.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/eKMUMm6.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **輸尿管/集尿系統重複『女性較常見』（非男性）；依 Weigert-Meyer 法則：上極（upper pole）輸尿管開口偏『內下（medial/inferior）』、ectopic、易合併 ureterocele → 阻塞；下極（lower pole）輸尿管開口偏『外上（lateral/superior）』、正位、易 VUR。** 判讀分水嶺：**女性好發；upper pole→內下/ureterocele/阻塞、lower pole→外上/VUR（短壁內段）；胚胎為單一 Wolffian duct 生兩個 ureteric bud；雙側完全重複時四管可正位開於膀胱三角。**
 
 ## Summary

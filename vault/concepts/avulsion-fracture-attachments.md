@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # avulsion-fracture-attachments
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pelvic avulsion｜常見附著點](https://img-hosting.jieyu166.workers.dev/i/WXLMQLs.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/WXLMQLs.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Segond fracture 是外側關節囊韌帶（lateral capsular ligaments／anterolateral ligament複合體）在脛骨外側平台的撕脫，不是前十字韌帶（ACL）——雖然Segond fracture高度伴隨ACL斷裂，但骨折本身的附著結構是外側關節囊韌帶，別把「伴隨」與「附著」搞混。**
 
 ## Summary

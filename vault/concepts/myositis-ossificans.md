@@ -10,6 +10,13 @@ dateRev: 2026-06-28
 
 # myositis-ossificans
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨化性肌炎 Myositis ossificans](https://img-hosting.jieyu166.workers.dev/i/aoXufQH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/aoXufQH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **創傷後骨化性肌炎好發四肢近端前側肌群（股四頭肌、肱肌），成熟後呈「外熟內嫩」的 zonal phenomenon，與骨旁骨肉瘤的「外嫩內熟」正好相反。** 判讀分水嶺：**好發部位＝proximal/anterior 肢體肌群（股四頭肌、肱肌）**；成熟期**周邊骨化成熟、中央未成熟**（zonal pattern）；與骨皮質間有透亮帶（cleavage plane），為良性線索。記憶鉤：MO「由外往內熟」＝由外往內讀；骨旁骨肉瘤相反（由中心往外熟）。
 
 ## Summary

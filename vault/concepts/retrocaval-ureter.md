@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # retrocaval-ureter
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Retrocaval ureter：輸尿管繞到 IVC 後方](https://img-hosting.jieyu166.workers.dev/i/cJ6IYEl.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/cJ6IYEl.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **下腔靜脈腎段正常由 subcardinal 與 supracardinal 靜脈系統形成，right posterior cardinal vein 正常應退化——若此靜脈異常殘留並參與 IVC 形成，輸尿管會被夾在其間，形成「輸尿管走行於下腔靜脈後方」的 retrocaval ureter。**
 
 ## Summary

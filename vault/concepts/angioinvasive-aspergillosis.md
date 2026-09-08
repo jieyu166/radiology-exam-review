@@ -12,6 +12,13 @@ dateRev: 2026-06-17
 
 # angioinvasive-aspergillosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Angioinvasive aspergillosis](https://img-hosting.jieyu166.workers.dev/i/3U9AiGQ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3U9AiGQ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **免疫低下的麴菌腦膿瘍強化很弱——這是它和普通化膿性膿瘍最大的差異。** 因宿主免疫反應不足，病灶強化微弱或不規則（非強烈均勻環狀強化）。MRI 特徵：周邊 T2 低訊號（出血/真菌菌絲成分，GRE/SWI 最明顯）＋異質性、周邊 ring-like 擴散受限（非普通膿瘍的均勻高 DWI）。血管侵犯可致梗塞與黴菌性動脈瘤。
 
 ## Summary

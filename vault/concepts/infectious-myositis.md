@@ -7,6 +7,13 @@ aliases:
   - pyomyositis
 ---
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pyomyositis｜感染性肌炎重點](https://img-hosting.jieyu166.workers.dev/i/ap8stbZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ap8stbZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **感染性肌炎**分為化膿性（pyomyositis）與病毒性（viral myositis），兩者預後與影像表現不同。
 
 ## Summary

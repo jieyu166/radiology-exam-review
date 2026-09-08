@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # rhombencephalosynapsis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Rhombencephalosynapsis](https://img-hosting.jieyu166.workers.dev/i/72DD4tj.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/72DD4tj.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Rhombencephalosynapsis（菱腦融合症）＝小腦蚓部缺失 + 兩側小腦半球、齒狀核、上小腦腳融合成橫向連續的單一構造。可孤立（罕見）或為更廣泛畸形之一部分，且『常合併其他中樞神經異常』（並非孤立不合併）、部分為症候群性。** 判讀分水嶺：**軸位見小腦葉片橫跨中線連續、無蚓部、第四腦室呈鑰匙孔/菱形；常合併視丘融合、下丘融合、透明隔缺失、腦室擴大（導水管狹窄）、顱縫早閉；可為 Gómez-López-Hernández 症候群或 VACTERL 一部分。**
 
 ## Summary

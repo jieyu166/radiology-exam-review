@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # hypervascular-liver-metastases
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肝轉移：乏血管 vs 富血管](https://img-hosting.jieyu166.workers.dev/i/edyOVXW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/edyOVXW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **多數肝臟轉移瘤（如肺癌）為乏血管性(hypovascular)，但少數原發癌好發富血管性(hypervascular)肝轉移——記住「腎絕胰甲乳癌黑色素瘤」（腎細胞癌、絨毛膜癌、胰島細胞瘤、甲狀腺癌、乳癌、黑色素瘤）及嗜鉻細胞瘤等神經內分泌/富血管腫瘤家族。**
 
 ## Summary

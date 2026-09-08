@@ -14,6 +14,13 @@ same:
 
 # spontaneous-skull-base-cephalocele
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Spontaneous skull-base cephalocele](https://img-hosting.jieyu166.workers.dev/i/cUbL7QS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/cUbL7QS.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **自發性顱底腦膜腦膨出（尤其外側蝶竇型）被視為隱性慢性顱內壓升高（idiopathic intracranial hypertension, IIH）的一種表現，好發於肥胖中年女性，且與蝶竇過度氣化（非氣化不良）造成骨壁變薄有關。** 判讀分水嶺：**顱內壓升高的典型影像徵象包含視神經鞘複合體異常、突出的arachnoid granulation、dural ectasia、meningoencephalocele與empty sella syndrome；pachymeningeal enhancement並非其特徵，而是顱內低壓的表現，為常見鑑別陷阱。**
 
 ## Summary

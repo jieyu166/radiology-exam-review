@@ -12,6 +12,13 @@ same:
 
 # solitary-fibrous-tumor-hemangiopericytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Dural mass：SFT vs meningioma](https://img-hosting.jieyu166.workers.dev/i/ciYbXwx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ciYbXwx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **顱內 solitary fibrous tumor/hemangiopericytoma（SFT/HPC）的影像提示為硬腦膜附著基部窄、鄰近骨質侵蝕（而非增生硬化）、無鈣化；鄰近骨質hyperostosis與瘤內鈣化反而是腦膜瘤（meningioma）的典型特徵，為兩者鑑別的關鍵陷阱。**
 
 ## Summary

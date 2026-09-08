@@ -11,6 +11,13 @@ dateRev: 2026-07-04
 
 # gastrocolic-fistula
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gastrocolic fistula：異常胃結腸交通](https://img-hosting.jieyu166.workers.dev/i/MD7FSyy.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MD7FSyy.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胃與橫結腸間的異常通道；判讀分水嶺——傳統教科書視惡性腫瘤（胃/結腸癌）為主因，但據 Levine 等 Radiology 系列，慢性 aspirin/NSAID 誘發之胃大彎巨大穿透性潰瘍已成為現今「最常見病因」，且多為良性（8 例中 7 例為良性）。故本考點正解為 chronic NSAID/aspirin use。影像以鋇劑攝影顯示胃大彎潰瘍經廔管與橫結腸上緣相通。**
 
 ## Summary

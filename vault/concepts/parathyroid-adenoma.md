@@ -10,6 +10,13 @@ dateRev: 2026-07-06
 
 # parathyroid-adenoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Parathyroid adenoma：US](https://img-hosting.jieyu166.workers.dev/i/TaCudH5.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/TaCudH5.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **副甲狀腺腺瘤超音波的最佳描述：均質低回音（uniformly/homogeneously hypoechoic）腫塊，合併極性供血血管（polar vessel）造成的周邊／病灶周圍（peripheral / perilesional）血流——與甲狀腺結節的「內部雜亂血流」不同。**
 
 ## Summary

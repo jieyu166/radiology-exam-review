@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # thalassemia-skeletal-survey
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Thalassemia｜骨髓增生的影像](https://img-hosting.jieyu166.workers.dev/i/Yhsl2rM.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Yhsl2rM.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **重型海洋性貧血因骨髓代償性增生，顱骨呈「hair-on-end」放射狀骨針樣外觀合併板障間隙增寬——這是慢性溶血性貧血的共通骨骼表現，助記口訣「HINEST」涵蓋六種會造成hair-on-end的疾病。**
 
 ## Summary

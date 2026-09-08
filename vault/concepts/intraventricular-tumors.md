@@ -13,6 +13,13 @@ dateRev: 2026-07-13
 
 # intraventricular-tumors
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：腦室內腫瘤：年齡與位置 DDx](https://img-hosting.jieyu166.workers.dev/i/3W4cDCc.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3W4cDCc.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腦室內腫瘤記「偶然碰到中年男性腦室腫塊 → 先想 subependymoma」；不要把它錯認成 ependymoma（後者偏年輕）。** 判讀分水嶺一：**Subependymoma＝中年/老年男性、偶發無症狀、四/側腦室**；判讀分水嶺二：**Central neurocytoma ~50% 含鈣化、可出血（非「從不出血」）**；Choroid plexus tumor 整體最常見於側腦室房部(atrium，~50%)＞第四腦室(40%)＞第三腦室(10%)；惟**側腦室型以兒童為主，成人反而好發第四腦室**——位置與年齡都是考點。
 
 ## Summary

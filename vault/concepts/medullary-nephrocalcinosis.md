@@ -10,6 +10,13 @@ dateRev: 2026-07-06
 
 # medullary-nephrocalcinosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Medullary nephrocalcinosis](https://img-hosting.jieyu166.workers.dev/i/GQThH1L.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GQThH1L.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **髓質腎鈣質沉著「鈣沉在腎椎體（髓質），成因記三大＋利尿劑」——鈣化位於 renal pyramids／medulla（佔腎鈣質沉著約 95%，皮質型僅約 5%）；三大成因為副甲狀腺功能亢進、遠端(第一型)腎小管酸化障礙、海綿腎，藥物中 furosemide／acetazolamide／triamterene 等利尿劑亦為公認成因。判讀分水嶺：緻密濃厚髓質鈣化想 RTA；單側／節段多發想海綿腎。**
 
 ## Summary

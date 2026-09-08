@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # gist-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：GIST：胃腸道基質瘤](https://img-hosting.jieyu166.workers.dev/i/YxWpHR2.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YxWpHR2.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **GIST 是腸胃道最常見的間葉腫瘤（源自 interstitial cells of Cajal、c-KIT/CD117 突變），部位頻率『胃 > 小腸 > 大腸直腸 > 其他 > 食道』（胃約 55-60%、小腸約 30% 為第二，非大腸）。典型為黏膜下、well-circumscribed、常向外（exophytic）生長之腫塊，潰瘍/壞死/出血常見；淋巴結轉移少見；Imatinib 治療後可呈囊性/黏液樣退化與疤痕化。** 判讀分水嶺：**>3 cm 富血管黏膜下腫塊 → GIST 最常見 DDx；淋巴瘤型態相似但『非富血管』且 GIST 少淋巴結轉移；glomus tumor 呈動脈期即強烈、延遲持續強化。**
 
 ## Summary

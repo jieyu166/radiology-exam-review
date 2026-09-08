@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # hemimegalencephaly
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hemimegalencephaly](https://img-hosting.jieyu166.workers.dev/i/Vrayocu.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Vrayocu.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **半側巨腦症是一側大腦半球（部分或全部）錯構瘤樣過度生長，本質為細胞組織結構與神經元移行缺陷。MRI特徵矛盾點：白質因『加速髓鞘化(accelerated myelination)』而在T1呈『增高』訊號、CT值增高——不是『減少髓鞘化致T1低訊號』，這是本題陷阱。**
 
 ## Summary

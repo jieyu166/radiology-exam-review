@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # neurofibromatosis-type-1
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：NF1：典型影像關聯](https://img-hosting.jieyu166.workers.dev/i/v8vKKgo.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/v8vKKgo.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **NF1的典型找法：視神經膠質瘤、蝶骨發育不良、神經根神經纖維瘤——但「雙側聽神經鞘瘤」是NF2的招牌，不是NF1，這是兩型神經纖維瘤病最常見的混淆陷阱。**
 
 ## Summary

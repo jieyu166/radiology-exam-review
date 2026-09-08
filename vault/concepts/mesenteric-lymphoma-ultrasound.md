@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # mesenteric-lymphoma-ultrasound
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Mesenteric lymphoma：sandwich sign](https://img-hosting.jieyu166.workers.dev/i/BOwT14e.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/BOwT14e.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腸繫膜淋巴瘤的典型徵象為『sandwich sign（三明治徵象；亦稱 hamburger sign）』——融合的腸繫膜淋巴結團塊自兩側包夾腸繫膜血管與周圍脂肪，形似三明治；彩色都卜勒/CT 可見血管貫穿融合淋巴結團塊中心。此徵象對腸繫膜淋巴瘤（多為 non-Hodgkin）具特異性。** 判讀分水嶺：**sandwich sign＝血管兩側之融合淋巴結包夾血管；特異於腸繫膜淋巴瘤（NHL），惟移植後須想 PTLD。與 target（腸套疊/腸壁）、keyboard（小腸阻塞皺襞）、doughnut（腸套疊橫切）不同。**
 
 ## Summary

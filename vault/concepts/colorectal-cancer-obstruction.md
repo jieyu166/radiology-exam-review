@@ -11,6 +11,13 @@ dateRev: 2026-07-06
 
 # colorectal-cancer-obstruction
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：大腸癌阻塞｜CT 判讀](https://img-hosting.jieyu166.workers.dev/i/MTCTq2Z.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MTCTq2Z.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **大腸機械性阻塞的頭號元凶是大腸癌（約佔大腸阻塞的 50–60%）；反過來看，只有少數（約 10–20%）大腸癌病人一生會因腫瘤發生阻塞。判讀分水嶺：apple-core（napkin-ring）短節段環狀狹窄＋近端大腸擴張＝阻塞型大腸癌；遠端（乙狀結腸）較易阻塞，右側常以貧血表現。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # androgen-insensitivity-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：完全型 AIS｜影像與臨床線索](https://img-hosting.jieyu166.workers.dev/i/Lnulxg2.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Lnulxg2.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **雄性素不敏感症候群病人是46,XY基因型男性，表現卻是女性表現型——子宮缺如或殘跡，性腺是隱睪不是卵巢，這是「男性假兩性畸形」的典型代表。**
 
 ## Summary

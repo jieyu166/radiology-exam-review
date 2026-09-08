@@ -14,6 +14,13 @@ same:
 
 # odontoid-fracture
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：齒突骨折｜骨折線位置辨識](https://img-hosting.jieyu166.workers.dev/i/UhAJLoG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/UhAJLoG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **齒突骨折 Anderson-D'Alonzo 分型從上往下記：I 尖（撕脫、穩定、罕見）→ II 基部（最常見、不穩定、血供差易 nonunion）→ III 延入 C2 椎體（較易癒合）。** 判讀分水嶺一：**Type II 骨折線位於齒突「基部」橫切，是最常見且臨床最重要的型態**；判讀分水嶺二：**Type II 血供差（基部為分水嶺區）→ nonunion 風險高，常需手術固定**。記憶鉤：骨折線越低越穩定——II 在腰（基部）最危險，III 進椎體反而癒合較好。
 
 ## Summary

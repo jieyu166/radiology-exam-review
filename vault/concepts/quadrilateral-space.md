@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # quadrilateral-space
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：四邊孔症候群｜神經與肌群線索](https://img-hosting.jieyu166.workers.dev/i/QRIBRR2.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QRIBRR2.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **四邊孔（quadrilateral space）是肩後方的解剖通道，內含腋神經＋後旋肱動脈，兩者皆可被肱骨外科頸骨折或占位壓迫。** 判讀分水嶺一：**邊界四面＝上 teres minor、下 teres major、內三頭肌長頭、外肱骨頸**，考「哪條神經通過」答 axillary nerve。判讀分水嶺二：**suprascapular nerve 走 suprascapular notch**，不過四邊孔——考題正解就在此陷阱。記憶鉤：四邊孔「上小下大夾三頭，腋神經後旋動脈過，肩胛上神經走另路（notch）」。
 
 ## Summary

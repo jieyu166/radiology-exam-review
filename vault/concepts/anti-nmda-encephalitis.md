@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # anti-nmda-encephalitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Anti-NMDAR encephalitis](https://img-hosting.jieyu166.workers.dev/i/B6BF1ak.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/B6BF1ak.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **年輕女性突然行為異常＋癲癇，而 MRI 幾乎看不出來——抗 NMDAR 腦炎的特徵就是「臨床鬧很大、影像很正常」。** 好發年輕患者，女性為主（F:M≈4:1），「老年女性好發」是考試最常出現的錯誤選項。關鍵搜查：腹/骨盆超音波或 MRI 找卵巢畸胎瘤（約 40–60%），早期切除腫瘤可改善預後；確診靠 CSF 或血清抗 NMDAR 抗體，不靠影像。
 
 ## Summary

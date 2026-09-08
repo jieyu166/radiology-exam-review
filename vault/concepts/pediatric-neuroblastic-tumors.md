@@ -13,6 +13,13 @@ dateRev: 2026-07-02
 
 # pediatric-neuroblastic-tumors
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Neuroblastoma：影像辨識](https://img-hosting.jieyu166.workers.dev/i/EW7xf8x.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/EW7xf8x.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童神經母細胞腫瘤譜系（neuroblastic tumors）＝neuroblastoma、ganglioneuroblastoma、ganglioneuroma，皆源自交感神經系統的原始交感神經母細胞。三個「最」：neuroblastoma是『最常見的兒童顱外實質腫瘤』、也是『最常見的兒童偶見腎上腺腫塊』；但整體排第三常見兒童癌症（次於白血病、腦瘤）。畸胎瘤(teratoma)是生殖細胞來源，不屬神經母細胞（髓質）腫瘤。**
 
 ## Summary

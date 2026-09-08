@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # hepatic-hydatid-cyst
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hepatic hydatid cyst：子囊與內膜](https://img-hosting.jieyu166.workers.dev/i/jtJw82h.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jtJw82h.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **畜牧/流行地區旅遊史 + 肝囊性病灶內含多個「子囊（daughter cysts）」＝肝包蟲囊腫（E. granulosus 之 cystic echinococcosis, CE）。肝為最常受累器官；WHO-IWGE 依超音波分五型（CE1-5）反映寄生蟲活性。** 判讀分水嶺：**CE1（單純囊 + 雪花徵/hydatid sand）與 CE2（多房子囊，honeycomb/rosette）＝活性；CE3（water lily/floating membrane）＝過渡期；CE4（ball of wool 退化內容）與 CE5（厚壁鈣化）＝非活性。子囊為 CE2 特徵、是最具特異性的診斷徵象之一。**
 
 ## Summary

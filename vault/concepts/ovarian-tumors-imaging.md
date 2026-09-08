@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # ovarian-tumors-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ovarian dermoid：脂肪辨識](https://img-hosting.jieyu166.workers.dev/i/OCMnvyB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/OCMnvyB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **卵巢皮樣囊腫（dermoid cyst/mature cystic teratoma）診斷靠「脂肪」——影像上偵測到脂肪成分是最主要的診斷依據，優先於鈣化或軟組織成分。卵巢惡性腫瘤中，漿液性癌（serous carcinoma）是最常見的組織型別。以實質為主的卵巢腫塊，良性以纖維瘤（fibroma）/thecoma 為代表，clear cell carcinoma 則屬惡性、非典型「以實質為主」的良性分類。**
 
 ## Summary

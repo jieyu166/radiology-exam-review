@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # melioidosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Melioidosis：肝脾膿瘍線索](https://img-hosting.jieyu166.workers.dev/i/m3ZCiD8.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/m3ZCiD8.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **類鼻疽（melioidosis）由「革蘭氏陰性桿菌 Burkholderia pseudomallei」引起——是「細菌」不是寄生蟲（考題陷阱）；流行於東南亞與澳洲北部之熱帶地區，經皮膚傷口接觸/吸入/食入受污染土壤與水傳播。肺為最常受影響器官，肝/脾膿瘍可呈特徵性「honeycomb（蜂窩狀）」多房外觀。糖尿病是最重要的宿主危險因子。** 判讀分水嶺：**①病原是細菌 B. pseudomallei（非 parasite）；②急性（85%）＝小結節快速增大融合空洞＋上肺為主之 consolidation/膿瘍，擬金黃色葡萄球菌肺炎/敗血性栓子；慢性（11%）＝混合陰影/空洞、擬結核（尖端纖維化）；③腹部見肝脾多房 honeycomb 膿瘍要在流行區發燒病人聯想此症。記憶鉤：細菌非蟲、肺最常、肝蜂窩、糖尿病。**
 
 ## Summary

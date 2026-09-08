@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # acquired-cystic-kidney-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：ACKD｜後天性囊性腎病](https://img-hosting.jieyu166.workers.dev/i/n6saRDk.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/n6saRDk.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **透析越久腎越囊，囊越多癌風險越高——這是 ACKD 的核心邏輯。** 末期腎病（ESRD）/長期透析病人、且無其他遺傳性囊腎病史,原本萎縮變小的 native 腎內長出**多發雙側囊腫（定義多採 ≥3–4 個/腎、非遺傳）**;增生性囊腫是 ACKD-associated RCC 的可能來源,故 ACKD **顯著增加**腎細胞癌風險（「不增加」是常考錯選項）,且風險隨透析時間延長上升,需影像監測。囊內出血/感染可致 flank pain、血尿;患腎多偏小,囊腫有時致明顯腫大。
 
 ## Summary

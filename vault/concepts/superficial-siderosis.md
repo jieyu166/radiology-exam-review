@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # superficial-siderosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Superficial siderosis](https://img-hosting.jieyu166.workers.dev/i/S15AZeF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/S15AZeF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **表面含鐵血黃素沉積症（SS）三主徵記憶「聽小腦錐體」——雙側感音性聽力喪失（~95%）、進行性小腦性運動失調（~88%）、錐體徵；沉積範圍涵蓋腦幹與小腦「以及顱神經」表面，尤其 CN VIII，並非僅限小腦。** 判讀分水嶺：**SS 是「反覆蛛網膜下腔出血」的結果（effect）而非病因——診斷後必須全神經軸搜尋出血來源（腦陰性就做全脊椎 MR），治療來源才能阻止惡化；T2\*/SWI 是把「表面黑線」找出來的關鍵序列。**
 
 ## Summary

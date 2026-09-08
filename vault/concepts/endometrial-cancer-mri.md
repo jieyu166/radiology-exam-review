@@ -10,6 +10,13 @@ dateRev: 2026-07-12
 
 # endometrial-cancer-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Endometrial carcinoma：MRI 辨識](https://img-hosting.jieyu166.workers.dev/i/lCjB2Le.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/lCjB2Le.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **子宮內膜癌在 MRI 上：T1 與肌層「同灰」、T2 比肌層「亮」，但打顯影劑後反而比肌層「暗」（hypoenhancement）——這個對比差正是判斷肌層侵犯深度的依據。** 記憶鉤：T2 亮→顯影後暗，「先亮後暗」；凡題目說「對比後 hyperenhancement」即非典型、選「錯」。
 
 ## Summary

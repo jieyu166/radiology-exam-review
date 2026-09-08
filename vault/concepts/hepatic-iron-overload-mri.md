@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # hepatic-iron-overload-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肝鐵過載：看訊號，也看分布](https://img-hosting.jieyu166.workers.dev/i/dM8VNYJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dM8VNYJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝鐵過載的判讀陷阱在於「哪個 MRI 序列對輕度鐵沉積較敏感」——答案是 Gradient-echo（T2\* 弛豫），而非 Spin-echo（T2 弛豫）：GRE 缺 180° 重聚脈衝，對鐵之磁化率（susceptibility）造成的磁場不均勻更敏感，且延長 TE 可再增敏。** 判讀分水嶺：**分佈型態可分辨病因——原發性（hemochromatosis）沉積在「實質細胞」（肝細胞、胰、心，脾/骨髓相對倖免）；續發性（輸血性 siderosis）先沉積在「網狀內皮系統」（肝、脾、骨髓，胰早期倖免）。另：鐵在 in-phase（TE 較長）掉訊號、脂肪在 out-of-phase 掉訊號，剛好相反。**
 
 ## Summary

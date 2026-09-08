@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # pilocytic-astrocytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pilocytic astrocytoma](https://img-hosting.jieyu166.workers.dev/i/1N9V01T.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/1N9V01T.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童最常見原發腦瘤（WHO grade 1）；無 NF1 時最常見於小腦，NF1 則以視路（optic pathway）最常見。典型為「囊狀腫塊＋強化壁結節（真正腫瘤在結節）」，>95% 會強化，且「擴散度增加（ADC 亮、非受限）」——這與高細胞密度惡性腫瘤相反，是與 medulloblastoma 鑑別的關鍵。** 判讀分水嶺：**PA 影像良性（囊＋壁結節、ADC 高），但 MRS/PET 卻呈「矛盾性侵襲外觀」（高 Cho、低 NAA±lactate、PET 高代謝）——別被 MRS 嚇到而誤判為惡性；DWI 高擴散度＋偏中線外（off-midline）有助與 medulloblastoma/ependymoma（第四腦室中心、擴散受限）區分。**
 
 ## Summary

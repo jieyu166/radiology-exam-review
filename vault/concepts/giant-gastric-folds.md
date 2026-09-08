@@ -10,6 +10,13 @@ dateRev: 2026-07-01
 
 # giant-gastric-folds
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Giant gastric folds：重點鑑別](https://img-hosting.jieyu166.workers.dev/i/KiQDHdd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/KiQDHdd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **巨大胃皺襞的鑑別關鍵：「壁分層（wall stratification）還在不在」——惡性（scirrhous ca、B-cell lymphoma）分層消失，良性（Ménétrier、急性胃黏膜病變）分層保留；MDCT 是辨別的好工具，不是差選擇。** 判讀分水嶺一：**壁分層消失 = 惡性最佳 MDCT 預測因子，是分水嶺中的分水嶺。** 判讀分水嶺二：**胃淋巴瘤源自黏膜下（submucosa），這是其生長特性，保留黏膜層使皺襞「大而平滑」。**
 
 ## 定義與判讀技術

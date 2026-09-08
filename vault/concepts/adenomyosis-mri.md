@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # adenomyosis-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：子宮肌腺症｜Adenomyosis](https://img-hosting.jieyu166.workers.dev/i/IplOS4l.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IplOS4l.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Adenomyosis 是子宮肌壁裡的「浸潤」，不是「腫塊」——邊界不清才是重點。** MRI 上 junctional zone（JZ）≥12 mm（正常 ≤5 mm）是最易辨識的特徵，T2 肌層內散布小灶高訊號（異位腺體囊變）。記憶鉤：「ill-defined 增厚＝adenomyosis；well-defined 圓形腫塊＝leiomyoma」，兩者可並存，但邊界感是分水嶺。
 
 ## Summary

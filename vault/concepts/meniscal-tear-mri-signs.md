@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # meniscal-tear-mri-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：桶柄狀半月板撕裂｜Double PCL sign](https://img-hosting.jieyu166.workers.dev/i/rIdeAhG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rIdeAhG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **「Double PCL sign（雙重後十字韌帶徵象）」高度特異性指向「桶柄狀撕裂（bucket-handle tear）」——撕裂的半月板碎片（內側半月板占 80%）翻轉移位至髁間窩、於矢狀面位於 PCL 之『前下方（anteroinferior）』，形似「兩條 PCL」。** 判讀分水嶺：**Double PCL sign 幾乎只見於 ACL 完整（intact）者（完整 ACL 限制碎片翻轉）；內側半月板碎片移前上、外側碎片移後下；Double ACL sign（flipped meniscus）＝碎片平行/前於 ACL，內外側皆可。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # peritoneal-inclusion-cyst
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Peritoneal inclusion cyst](https://img-hosting.jieyu166.workers.dev/i/sHg2zCb.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/sHg2zCb.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腹膜包涵囊腫不是真性腫瘤，而是停經前有腹膜沾黏史（手術/PID/子宮內膜異位）的婦女，卵巢分泌的液體被沾黏困住形成 spider web 分隔囊腫——「停經後最常見」是陷阱。** 記憶鉤：沾黏當「網」，卵巢液當「水」，形成蜘蛛網狀囊腫，卵巢本身正常只是被包圍。判讀分水嶺：**停經前、有沾黏因子、卵巢正常被包繞、spider web 分隔、無強化實質、無惡性潛能**。
 
 ## Summary

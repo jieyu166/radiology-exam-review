@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # facial-nerve-schwannoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Facial nerve schwannoma](https://img-hosting.jieyu166.workers.dev/i/mGjhM4O.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/mGjhM4O.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **判讀分水嶺：顏面神經鞘瘤（FNS）最好發於「geniculate ganglion（膝狀神經節）」，且 >90% 會跨越 ≥3 個顏面神經段——影像上呈沿 CN VII 骨管的「管狀（tubular）平滑擴大」，這正是與更常見的前庭神經鞘瘤（CN VIII）鑑別的最佳線索（尤其看到 labyrinthine 迷路段的延伸尾巴）。**
 
 ## Summary

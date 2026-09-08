@@ -7,6 +7,13 @@ aliases:
   - knee AVN
 ---
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：膝部 AVN｜Avascular necrosis](https://img-hosting.jieyu166.workers.dev/i/U4ix6j1.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/U4ix6j1.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膝關節缺血性壞死（AVN）**的 MRI 表現具有特徵性 double-line sign，壞死區域保留原始骨髓訊號。
 
 ## Summary

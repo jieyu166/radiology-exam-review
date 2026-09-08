@@ -13,6 +13,13 @@ dateRev: 2026-07-12
 
 # solid-pseudopapillary-neoplasm
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：胰臟 SPN：實質、囊變與出血](https://img-hosting.jieyu166.workers.dev/i/VoPuq2w.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/VoPuq2w.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SPN（胰臟實性偽乳頭狀腫瘤）是年輕女性的大型混合性胰臟腫塊，低惡性潛能、預後佳——三個關鍵字：「年輕女性、大腫塊、低惡性」。** 判讀分水嶺一：**好發年輕女性（20–30 歲）、佔外分泌胰腫瘤 1–2%（少見）**；判讀分水嶺二：**腫塊大（中位 ~8 cm）、有出血/囊變＋纖維包膜＋可周邊鈣化，低惡性潛能**——體積大＋有症狀，但不等於高惡性。
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # carpal-arcs-lunate-dislocation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Lunate vs perilunate dislocation](https://img-hosting.jieyu166.workers.dev/i/T48DnGS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/T48DnGS.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **月狀骨脫位破壞的是Arc II（近排腕骨遠端凸面弧線）——這條弧線描繪舟狀骨、月狀骨、三角骨的遠端凸面輪廓，月狀骨脫位時此弧線的連續性首當其衝被打斷。**
 
 ## Summary

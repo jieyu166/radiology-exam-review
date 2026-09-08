@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # acalculous-cholecystitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：無結石性膽囊炎｜共用比較圖](https://img-hosting.jieyu166.workers.dev/i/IHHtY3e.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IHHtY3e.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性膽囊炎中約『5-10%』並無膽結石（acute acalculous cholecystitis）——好發於重症/受傷病人（創傷、燒傷、敗血症、禁食/TPN、機械通氣、ICU），機轉為膽汁淤積 + 膽囊缺血，而非結石阻塞。** 判讀分水嶺：**多數急性膽囊炎（~90-95%）為結石性；無結石性好發 ICU 重症、預後較差、壞疽/穿孔率較高、診斷較難（鎮靜病人 Murphy 徵可缺）；影像＝膽囊壁增厚、膨大、腔內淤泥、周圍積液，但『無結石』。**
 
 ## Summary

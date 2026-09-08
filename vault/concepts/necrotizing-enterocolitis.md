@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # necrotizing-enterocolitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：NEC：三種氣體定位](https://img-hosting.jieyu166.workers.dev/i/0fQU0Gr.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0fQU0Gr.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **壞死性腸炎（NEC）是早產兒最常見、危及生命的腸胃道急症，好發右下腹（升結腸/終端迴腸）；影像以「連續 X 光」為主力，徵象由非特異（腸氣稀少/多邊形氣型消失）→ 提示（不對稱擴張、固定腸環、腸環分離）→ 診斷性（腸壁積氣 pneumatosis 50–75%、門靜脈氣體 PVG、氣腹）逐級升高。新生兒腹脹＋餵食不耐/血便＋腸壁積氣＋thumbprinting ＝ NEC 的招牌組合。** 判讀分水嶺：**①嚴重度階梯 pneumatosis → PVG → 氣腹（穿孔）；②PVG 分布在肝「周邊」（膽道氣則中央、新生兒罕見）；③US 對「surgical NEC（腸壞死）」敏感度可達 100%——血流下降＝缺血、複雜積液＝穿孔；④NEC 因沾黏，腹腔游離氣可能被包裹（loculated），要加左側躺/水平側射片。記憶鉤：X 光看階梯、Duke 分數評嚴重度、US 抓缺血穿孔。**
 
 ## Summary

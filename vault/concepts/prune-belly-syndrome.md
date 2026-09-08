@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # prune-belly-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Prune belly syndrome：典型三聯](https://img-hosting.jieyu166.workers.dev/i/6RJJDSW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6RJJDSW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Prune belly 三聯的空間記憶：「從外到內、從上到下」——① 腹壁肌爛掉（梅干皺褶外觀）→ ② 泌尿道撐大（腎盂輸尿管擴張＋腎發育不良）→ ③ 睪丸沒下來（雙側隱睪）。** 幾乎只見於男嬰；spina bifida（脊柱裂）是考題常放的干擾選項，不在三聯內。判讀分水嶺：**腹壁 ＋ 泌尿道 ＋ 隱睪三聯；排除脊柱裂**。
 
 ## Summary

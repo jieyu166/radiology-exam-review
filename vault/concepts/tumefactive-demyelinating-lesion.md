@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # tumefactive-demyelinating-lesion
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ring-enhancing lesion — 常見 DDx](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Tumefactive demyelinating lesion（假瘤型脫髓鞘病灶）常因體積大、佔位效應被誤診為惡性腦瘤或轉移；其特徵性強化型態為「不完全強化（incomplete/open-ring enhancement）」，外側呈英文C字形，此型態於腦室旁（periventricular）病灶較常見，較subcortical病灶更常見（並非subcortical>>>periventricular）。**
 
 ## Summary

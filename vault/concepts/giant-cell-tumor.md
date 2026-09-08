@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # giant-cell-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：GCT of bone｜骨巨細胞瘤](https://img-hosting.jieyu166.workers.dev/i/MykCAE6.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MykCAE6.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **GCT 的三個空間關鍵字：骨骺閉合後、長骨末端（直抵軟骨下）、偏心溶骨——且邊緣「不硬化」（non-sclerotic）；記住「偏心頂關節面、無硬化緣」就抓住核心。** 判讀分水嶺一：**邊緣非硬化、窄移行帶是 GCT 的定義特徵；出現明顯硬化緣應懷疑其他診斷。** 判讀分水嶺二：**次發動脈瘤樣骨囊腫（ABC）→ 出現 fluid-fluid levels；侵襲性徵象（皮質破壞、軟組織腫塊）不代表惡性，GCT 本身即可有。**
 
 ## Summary

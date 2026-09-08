@@ -9,6 +9,13 @@ dateRev: 2026-07-02
 
 # chest-wall-malignancy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Chest wall chondrosarcoma｜軟骨肉瘤](https://img-hosting.jieyu166.workers.dev/i/QkbahrW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/QkbahrW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胸壁最常見的原發性骨惡性腫瘤為 chondrosarcoma（軟骨肉瘤），好發於肋軟骨交界處。**
 
 ## Summary

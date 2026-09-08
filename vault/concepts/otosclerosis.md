@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # otosclerosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Otosclerosis：Fenestral vs retrofenestral](https://img-hosting.jieyu166.workers.dev/i/RweGpf4.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RweGpf4.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **耳硬化症（otosclerosis）：fenestral type 最常見（oval window 周圍），retrofenestral type 幾乎不單獨出現，常伴隨 fenestral 病變。Fenestral 型表現為 oval window 周圍 "halo"。**
 
 ## Summary

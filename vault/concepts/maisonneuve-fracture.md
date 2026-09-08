@@ -8,6 +8,13 @@ dateRev: 2026-06-29
 
 # maisonneuve-fracture
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Maisonneuve｜踝傷要看到近端腓骨](https://img-hosting.jieyu166.workers.dev/i/UrsvGlU.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/UrsvGlU.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Maisonneuve fracture 的精神:扭傷的力量從腳踝『一路往上傳』,在『近端腓骨（靠膝蓋那端）』折斷。想像踝關節被外旋扭開,力量沿著脛腓骨之間的韌帶（syndesmosis）往上撕,最後在高位腓骨斷掉——三處連成一線。** 判讀分水嶺（也是最大陷阱）:**病人只喊腳踝痛、踝 X 光看似單純（只見內踝骨折或 syndesmosis 增寬）,真正的骨折卻在沒照到的近端腓骨**——所以懷疑時一定要加照全腓骨。
 
 ## Summary

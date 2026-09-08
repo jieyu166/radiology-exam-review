@@ -12,6 +12,13 @@ dateRev: 2026-06-19
 
 # passive-hepatic-congestion
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Congestive hepatopathy](https://img-hosting.jieyu166.workers.dev/i/eY6eR4p.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/eY6eR4p.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **鬱血性肝病變是右心回流受阻導致對比劑自右房「早期逆流」入擴張 IVC 與肝靜脈——說「延遲強化」即錯。** 記憶鉤：心臟打不出去→血液逆堵回肝→CT 上對比劑也跟著逆流（early reflux），肝實質呈 nutmeg 樣不均勻。判讀分水嶺一：**IVC/肝靜脈擴張 + early retrograde reflux（非 delayed）**；判讀分水嶺二：**US 見 to-and-fro 血流、DDx Budd-Chiari**。
 
 ## Summary

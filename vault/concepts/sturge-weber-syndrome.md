@@ -11,6 +11,13 @@ dateRev: 2026-07-12
 
 # sturge-weber-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Sturge–Weber：顱內表現](https://img-hosting.jieyu166.workers.dev/i/ysk1qbX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ysk1qbX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Sturge-Weber症候群是神經皮膚症候群，本質為軟腦膜靜脈血管異常(leptomeningeal venous angiomatosis)。血流動力學關鍵：淺層皮質靜脈『缺如/發育不良』，血流改經『深部』側枝引流(deep venous drainage擴大)——不是「經深部側枝引流到淺層」，本題陷阱把方向弄反。其他：顱骨板障增厚(thickened diploe)、皮質下T2低訊號區(鈣化/缺血)、tram-track鈣化、患側腦萎縮。**
 
 ## Summary

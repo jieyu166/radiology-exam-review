@@ -17,6 +17,13 @@ same:
 
 # cholesterol-granuloma-petrous-apex
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Petrous apex cholesterol granuloma](https://img-hosting.jieyu166.workers.dev/i/JQRbr7c.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/JQRbr7c.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **膽固醇肉芽腫（cholesterol granuloma, CG）是「氣化」岩尖/中耳氣室對膽固醇結晶產生異物巨細胞反應、伴纖維化與血管增生所形成的膨脹性病灶，內含反覆微出血的「巧克力囊液（chocolate cyst）」。判讀分水嶺：CG 在 T1 與 T2「兩者皆高訊號」、周邊低訊號含鐵血黃素環、無中央強化，且『DWI 不受限（不亮）』。反過來說，non-EPI DWI 呈高訊號／擴散受限者要想 cholesteatoma／epidermoid，而不是 CG——這正是 2021-279 選項 C 之所以「最不可能」的關鍵。**
 
 ## Summary

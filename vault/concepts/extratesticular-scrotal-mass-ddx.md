@@ -12,6 +12,13 @@ dateRev: 2026-07-06
 
 # extratesticular-scrotal-mass-ddx
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：腹股溝／陰囊含脂肪腫塊 DDx](https://img-hosting.jieyu166.workers.dev/i/c0rpJ9i.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/c0rpJ9i.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **陰囊腫脹／睪丸外腫塊判讀分水嶺：先分「睪丸內 vs 睪丸外」——睪丸外（extratesticular）腫塊多為良性。成人含脂肪的腹股溝/陰囊腫塊三大鑑別＝腹股溝疝氣（inguinal hernia）、精索脂肪瘤（spermatic cord lipoma）、脂肪肉瘤（liposarcoma）；用 Valsalva 動態掃描與脂肪走向鑑別疝氣 vs 脂肪瘤。**
 
 ## Summary

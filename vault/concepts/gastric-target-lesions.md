@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # gastric-target-lesions
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gastric bull’s-eye：中央潰瘍型病灶](https://img-hosting.jieyu166.workers.dev/i/aZGhi6S.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/aZGhi6S.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胃 bull's-eye（牛眼）病灶 = 中央潰瘍的黏膜下隆起，多發時幾乎必是惡性血行轉移，不要誤判為良性。** 判讀分水嶺一：**多發 bull's-eye → 惡性（轉移），最常見原發為 melanoma（黑色素瘤），非淋巴瘤。** 判讀分水嶺二：**Kaposi sarcoma 也可呈牛眼外觀，這是考試陷阱選項；記住「黑（melanoma）+ 卡（Kaposi）= 牛眼雙王」。**
 
 ## Summary

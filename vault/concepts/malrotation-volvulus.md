@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # malrotation-volvulus
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Malrotation／midgut volvulus](https://img-hosting.jieyu166.workers.dev/i/jB58R5P.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jB58R5P.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腸旋轉不良（胚胎期 ~270° 逆時針旋轉失敗）使腸繫膜附著縮短 → 易發生中腸扭轉（midgut volvulus，可致命外科急症）；Ladd bands 致十二指腸阻塞/內疝。但並非每個疑似旋轉不良都需緊急介入——僅合併 volvulus/症狀者需緊急。** 判讀分水嶺：**midgut volvulus（膽汁性嘔吐新生兒）→ 緊急 UGI（gold standard）：DJ flexure 位置異常（正常應在中線左、L1 高度）、corkscrew/whirlpool、duodenum 不過中線；US 見 SMA/SMV 反位（whirlpool）；無症狀旋轉不良不需緊急手術。**
 
 ## Summary

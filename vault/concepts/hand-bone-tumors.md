@@ -13,6 +13,13 @@ dateRev: 2026-07-01
 
 # hand-bone-tumors
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hand bone lesion｜髓內或骨表面](https://img-hosting.jieyu166.workers.dev/i/RxSBQBG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RxSBQBG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **內生軟骨瘤是手部最常見的良性骨腫瘤，典型平片「沒有硬化緣」；BPOP（Nora lesion）雖名字聽起來嚇人，但它是良性病灶，只是局部侵襲性強、易復發。**
 
 ## Summary（Enchondroma，內生軟骨瘤）

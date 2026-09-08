@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # fatty-liver
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：局部脂肪沉積／保留：辨認肝臟假病灶](https://img-hosting.jieyu166.workers.dev/i/v6jFFzW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/v6jFFzW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脂肪肝靠 CT 的兩個門檻確診：肝衰減 <40 HU，或肝比脾低 ≥10 HU；局部脂肪/spared 區無腫塊效應，但多灶性脂肪沉積可酷似低血管性轉移——兩者不易區別，故「可區別」之說為錯。** 判讀分水嶺一：**肝<脾 ≥10 HU（或<40 HU）＝脂肪肝**；判讀分水嶺二：**多灶脂肪 mimic 轉移，屬 pitfall，非優點**。記憶鉤：「低於脾十度才是真脂肪，多點時像轉移别猜了」。
 
 ## Summary

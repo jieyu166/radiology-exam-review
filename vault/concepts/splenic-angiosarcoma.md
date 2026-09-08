@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # splenic-angiosarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Splenic angiosarcoma：複雜脾腫塊](https://img-hosting.jieyu166.workers.dev/i/CTtq6AK.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/CTtq6AK.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脾血管肉瘤（angiosarcoma）是最常見的非淋巴造血性原發脾惡性腫瘤——考題必須先排除 lymphoma（造血性），再選 angiosarcoma。** 判讀分水嶺一：**淋巴瘤是脾最常見惡性腫瘤，但題目若限定「非造血性（non-hematolymphoid）」，答案即為 angiosarcoma**。判讀分水嶺二：**易自發破裂（hemoperitoneum）、早期肝/骨轉移、預後極差**——影像呈出血/壞死異質腫塊，破裂前可無明顯徵象。
 
 ## Summary

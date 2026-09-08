@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # ev71-cns-complications
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：EV71：Polio-like radiculomyelitis](https://img-hosting.jieyu166.workers.dev/i/HFtxlte.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/HFtxlte.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **嬰幼兒腸病毒第71型感染合併脊髓病變導致之急性弛緩性麻痺，MRI典型表現為病灶同側（ipsilateral）前角細胞（anterior horn cells）之T2高訊號合併強化，並非雙側後柱（posterior columns）或雙側前角區受累；合併脊髓神經根炎時，馬尾腹側神經根可見增厚與強化。**
 
 ## Summary

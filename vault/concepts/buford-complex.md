@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # buford-complex
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Buford complex｜肩盂唇變異](https://img-hosting.jieyu166.workers.dev/i/Y5hyWyP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Y5hyWyP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Buford complex 為肩關節先天正常解剖變異＝「前上方盂唇缺失（1–3 點鐘）」＋「索狀增厚之中盂肱韌帶（cord-like MGHL）」；盛行率約 3%。它與 sublabral foramen（SLF, 13.5%）、sublabral recess（57%）同屬「11–3 點鐘」之前上/上盂唇正常變異譜，最易被誤判為病理性撕裂；且 Buford 是 SLAP 撕裂的『易感因子』，看到它反而要仔細評估上盂唇。** 判讀分水嶺：**①「11–3 點鐘」出現的盂唇『異常』先想正常變異；②前上方＝SLF（盂唇未附著但完整）/Buford（盂唇缺失＋索狀 MGHL），上方 11–1 點＝sublabral recess；③與 SLAP 鑑別：sublabral recess 高訊號『向內側彎（medial）』且不跨越整個附著、SLAP『向外側彎（lateral）』且 >2mm（MRA >3mm）、延伸至 biceps anchor 後方（Double-Oreo sign 可見兩條高訊號線）。次要徵象＝索狀 MGHL、無 Hill-Sachs 支持正常變異。記憶鉤：缺盂唇＋索狀韌帶＝Buford，勿當撕裂、勿修（會限制 ROM）。**
 
 ## Summary

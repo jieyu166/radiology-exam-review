@@ -11,6 +11,13 @@ dateRev: 2026-06-17
 
 # cpa-masses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CPA masses：常見三者](https://img-hosting.jieyu166.workers.dev/i/RBmsLMK.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RBmsLMK.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CPA 腫瘤的「頻率答案」幾乎都是 vestibular schwannoma（~80%），第二永遠是 meningioma（~10%）。** 三者用影像特徵一刀切：vestibular schwannoma 以 IAC 為中心（ice-cream-cone）、meningioma 有硬膜基底＋dural tail＋可鈣化但不進 IAC、epidermoid 外觀像 CSF 但 DWI 受限（鑽縫走）。記憶鉤：**「80-10-其他」順序＋S（schwannoma 進孔）vs M（meningioma 貼膜）vs E（epidermoid DWI 亮）**。
 
 ## Summary

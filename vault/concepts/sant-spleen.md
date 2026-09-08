@@ -10,6 +10,13 @@ dateRev: 2026-07-02
 
 # sant-spleen
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：脾 SANT：T2 低訊號與 Spoke-wheel](https://img-hosting.jieyu166.workers.dev/i/DZa3yCu.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/DZa3yCu.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **SANT 是脾臟的良性血管病灶，由多個 angiomatoid nodules 被 dense fibrous tissue 包圍形成中央瘢痕。CT/MRI 典型表現為 spoke-wheel pattern + central hypoenhancing stellate scar（非 hyperenhancing）。延遲期呈 progressive enhancement。**
 
 ## Summary

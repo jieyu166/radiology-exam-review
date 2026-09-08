@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # rheumatoid-arthritis-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：RA 影像｜滑膜炎、邊緣侵蝕與骨髓](https://img-hosting.jieyu166.workers.dev/i/HDmD4j8.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/HDmD4j8.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **RA 的影像本質是「滑膜病（synovialopathy）」——最早的變化是非骨性的（hyperemia／synovitis／effusion／bone marrow edema），因此偵測早期病灶時 US 與 MRI 遠優於 X 光與 CT，MRI 為最佳工具。** 判讀分水嶺一：**侵蝕先發生在「bare area（裸區，關節囊附著與軟骨之間、滑膜直接接觸皮質骨處）」，呈邊緣性（marginal）侵蝕**；判讀分水嶺二：**bone marrow edema（骨髓水腫）＝活動性發炎，且是後續侵蝕（erosion）最強的預測因子——見到 BME 要預警未來 erosion**；判讀分水嶺三：**分布型態為雙側對稱多發小關節（MCP／PIP／腕／MTP），近端關節、對稱、無明顯骨增生，用以與退化性及血清陰性脊椎關節病鑑別**。
 
 ## Summary

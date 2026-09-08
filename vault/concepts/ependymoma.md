@@ -12,6 +12,13 @@ same:
 
 # ependymoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：第四腦室 ependymoma](https://img-hosting.jieyu166.workers.dev/i/KMPVtOW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/KMPVtOW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **後顱窩 ependymoma 的招牌：從第四腦室底長出，像牙膏般從 Magendie 孔擠進 cisterna magna、從 Luschka 孔擠向 CPA——這個「從孔擠出」的 plastic 行為是與 medulloblastoma 的最重要區別。** 鈣化/出血所致的 SWI blooming 是另一個提示；T2 高、強化不均。記憶鉤：ependymoma 從「底部」長，像浴缸排水孔流出；medulloblastoma 從「頂部/小腦蚓」往下長。
 
 ## Summary

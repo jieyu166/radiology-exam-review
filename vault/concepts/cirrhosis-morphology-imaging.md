@@ -10,6 +10,13 @@ dateRev: 2026-07-04
 
 # cirrhosis-morphology-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肝硬化｜形態重點](https://img-hosting.jieyu166.workers.dev/i/LgxMxIo.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LgxMxIo.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝硬化的典型形態學變化＝尾葉（caudate lobe, 第 I 段）與左葉外側段（第 II/III 段）肥大、右葉萎縮、膽囊窩（gallbladder fossa）擴張——記住是「肥大」與「擴張」，不是萎縮或緊縮。**
 
 ## Summary

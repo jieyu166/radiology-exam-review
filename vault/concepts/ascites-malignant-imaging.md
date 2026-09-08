@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # ascites-malignant-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：惡性腹水｜CT 傾向性線索](https://img-hosting.jieyu166.workers.dev/i/XNhzcxa.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/XNhzcxa.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腹水影像表現中，最能提示惡性病因的徵象是腹水呈分隔化/局限化（loculation of ascitic fluid），而非單純大量腹水、高密度腹水或出血性腹水（這些徵象特異度較低，良性病因如感染、出血性疾患亦可造成）。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # sacroiliitis-spondyloarthropathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Sacroiliitis｜影像與臨床一起判讀](https://img-hosting.jieyu166.workers.dev/i/Dh2Itvv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Dh2Itvv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **薦腸關節炎的軟骨解剖陷阱：前方關節的透明軟骨在「薦骨側（sacral side）較厚」、髂骨側較薄——正因髂骨側軟骨薄，結構性變化（骨侵蝕/硬化）從髂骨側開始且較嚴重（more profuse on the iliac facet）。題目若說「髂骨側軟骨較厚、薦骨翼較嚴重」則方向顛倒為錯。**
 
 ## Summary

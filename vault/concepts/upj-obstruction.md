@@ -12,6 +12,13 @@ concepts: [upj-obstruction]
 
 # upj-obstruction
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：UPJ obstruction：腎盂輸尿管交界阻塞](https://img-hosting.jieyu166.workers.dev/i/jA1e76K.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/jA1e76K.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **UPJ obstruction 的判讀核心是「解剖擴張 ≠ 功能性阻塞」——影像（超音波/CT）的腎盂擴張只負責提出懷疑，diuretic renogram 才是確認功能性阻塞的黃金標準。** 記憶鉤：「腎大尿管小＝UPJ 的指紋」——腎盂腎盞氣球狀擴張但近端輸尿管正常口徑，是 UPJ level 的空間特徵；若輸尿管也擴張，阻塞點在更下游。判讀分水嶺一：**hydronephrosis + 輸尿管不擴張 → 阻塞在 UPJ 層級；腎功能正常不代表無阻塞**；判讀分水嶺二：**成人需評估 crossing vessel，但血管「鄰近」UPJ ≠ 真正壓迫——因果關係須保守陳述**。
 
 ## Summary

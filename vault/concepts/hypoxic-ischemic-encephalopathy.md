@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # hypoxic-ischemic-encephalopathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：HIE：分布與嚴重度](https://img-hosting.jieyu166.workers.dev/i/tS8qUQJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/tS8qUQJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **HIE 影像依缺氧嚴重度（與年齡）分布：輕度/部分缺氧＝watershed（分水嶺區）；嚴重/全面缺氧＝深部灰質（basal ganglia/thalami）、perirolandic 皮質、海馬、腦幹（代謝活躍區）。『white cerebellum sign』代表嚴重 HIE、預後差。** 判讀分水嶺：**mild/partial → watershed；severe/profound → 深部灰質 + perirolandic 皮質 + 海馬 + 腦幹；white cerebellum sign＝大腦瀰漫水腫/低密度使小腦相對高密度＝嚴重 HIE、預後不良（非預後好）；delayed post-hypoxic leukoencephalopathy 致皮質下白質瀰漫 T2 延長。**
 
 ## Summary

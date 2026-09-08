@@ -14,6 +14,13 @@ dateRev: 2026-07-10
 
 # peripheral-nerve-sheath-tumor-mri-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：PNST：MRI 提示徵象](https://img-hosting.jieyu166.workers.dev/i/9T6sVlP.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/9T6sVlP.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **四個把腫塊「認回神經來源」的 MRI 徵象，關鍵是各自的訊號幾何：fascicular＝多條束狀（低訊號束＋周邊高訊號）、target＝靶心（中央低、周邊高）、split-fat＝脂肪薄緣、fusiform＋entering/exiting nerve＝紡錘形沿神經。** 判讀分水嶺：本題問「多條低訊號束、周邊高訊號」＝**fascicular sign（束狀徵象）**；別和 target sign（單一同心圓靶）混淆。這些徵象在 retrorectal/presacral schwannoma 與 neurofibroma 情境常用來提示神經源性、並縮小鑑別。
 
 ## Summary

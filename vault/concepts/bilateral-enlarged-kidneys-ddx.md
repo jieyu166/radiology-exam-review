@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # bilateral-enlarged-kidneys-ddx
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：雙側腎腫大｜DDx 形態線索](https://img-hosting.jieyu166.workers.dev/i/F8l2moE.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/F8l2moE.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童雙側腎臟腫大常見鑑別：腎母細胞瘤病（nephroblastomatosis）、多囊腎（PKD）、淋巴瘤/白血病——但『慢性腎盂腎炎（chronic pyelonephritis）』造成腎臟『疤痕化縮小』而非腫大，故不屬雙側腎腫大鑑別。** 判讀分水嶺：**nephroblastomatosis＝瀰漫/多發性 nephrogenic rests（持續存在之後腎胚基），reniform 增大 + 皮質低回音結節、T1/T2 低訊號、強化低於腎組織、有惡性轉化 Wilms 潛能（見於高達 99% 雙側 Wilms）；慢性腎盂腎炎→小腎（排除法關鍵）。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-06-17
 
 # endometrioma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Endometrioma：MRI 指紋](https://img-hosting.jieyu166.workers.dev/i/6Vqp2yR.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6Vqp2yR.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **巧克力囊腫的 MRI 指紋：T1 亮（陳舊出血）＋T2 暗（shading sign）＋「無內部強化」——這三點合起來幾乎確診，hypervascular 反而是惡性警訊。** 記憶鉤：「巧克力」是深色的——T1 亮如紅棕、T2 暗如黑巧克力；無強化才安全，強化壁結節要懷疑 clear cell/endometrioid 癌變。
 
 ## Summary

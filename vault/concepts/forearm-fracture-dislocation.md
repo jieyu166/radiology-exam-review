@@ -13,6 +13,13 @@ dateRev: 2026-07-02
 
 # forearm-fracture-dislocation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Forearm fracture-dislocation｜共用比較圖](https://img-hosting.jieyu166.workers.dev/i/y2mHBOG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/y2mHBOG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **前臂骨折合併關節脫臼三大型態：Monteggia（尺骨幹骨折 + 橈骨頭脫臼，近端橈尺關節）、Galeazzi（橈骨遠端骨折 + DRUJ 脫臼）、Essex-Lopresti（橈骨頭骨折 + 骨間膜撕裂 + DRUJ 脫臼）。Monteggia 為近端問題，與 DRUJ 無關。**
 
 ## Summary

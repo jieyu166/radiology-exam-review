@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # cleidocranial-dysplasia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Cleidocranial dysplasia｜鎖骨顱骨發育不全](https://img-hosting.jieyu166.workers.dev/i/Zz68P06.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Zz68P06.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Cleidocranial dysplasia 的名字藏著兩個線索：cleido（鎖骨）＋cranial（顱骨），兩端同時出問題。** 影像三招牌：①多發 wormian bones＋顱縫延遲閉合；②鎖骨發育不良或缺如（肩可異常靠攏）；③超多牙齒（supernumerary teeth）。雖名稱著重「膜性骨」，但長骨的軟骨內骨化也受累——所以「膜性＋軟骨內缺陷」並存，不要只記一個。判讀核心是**廣泛性骨化延遲/不全**：哪裡的骨化最晚（顱縫、囟門、恥骨聯合），那裡就最常見到「假性變寬」的影像。
 
 ## Summary

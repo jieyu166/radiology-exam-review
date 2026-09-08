@@ -12,6 +12,13 @@ same:
 
 # mccune-albright
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：McCune–Albright｜骨、皮、內分泌](https://img-hosting.jieyu166.workers.dev/i/hKm8JGY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/hKm8JGY.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **McCune-Albright 三聯靠一個鉤記牢：「骨（多骨性 FD）、皮（coast-of-Maine 咖啡牛奶斑）、荷爾蒙（性早熟）」，其中性早熟以女孩為主——「男性為主」恰好是考題的假選項。** 判讀分水嶺一：**café-au-lait 邊界不規則（coast of Maine）**，與神經纖維瘤病（光滑邊界）不同；判讀分水嶺二：**性早熟＝最典型內分泌異常、女性偏多**（GNAS 鑲嵌突變）。
 
 ## Summary

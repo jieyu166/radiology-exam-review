@@ -14,6 +14,13 @@ dateRev: 2026-07-14
 
 # spondylodiscitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：感染 vs Modic 1｜避免單徵象定論](https://img-hosting.jieyu166.workers.dev/i/nIe5CSV.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nIe5CSV.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **感染性椎間盤炎（discitis-osteomyelitis）與 Modic type 1 退化性終板變化在 MRI 上都可見終板 T1 低/T2 高，鑑別關鍵在「椎間盤本身」：感染才有椎間盤 T2 高訊號＋椎間盤強化。** 判讀分水嶺：**感染**＝T2 椎間盤內高訊號（fluid）＋核間裂消失＋椎間盤強化＋終板皮質破壞＋椎旁/硬膜外積液/膿瘍；**Modic 1（退化）**＝終板/骨髓 T1 低 T2 高，但椎間盤訊號正常、不強化、終板無破壞。記憶鉤：「感染侵椎間盤、退化留椎間盤」——椎間盤 T2 高訊號是感染的獨家標記。
 
 ## Summary

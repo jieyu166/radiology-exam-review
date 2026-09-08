@@ -12,6 +12,13 @@ same:
 
 # renal-oncocytoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：實質腎腫塊：常見影像差異](https://img-hosting.jieyu166.workers.dev/i/dEUFnXd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dEUFnXd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎 oncocytoma 的記憶鉤：外觀像車輪（spoke-wheel 血管攝影）、中心有疤（星狀疤痕）、本身良性；「bizarre neoplastic vessels＋AV shunting」是 RCC 的特徵，oncocytoma 沒有。** 判讀分水嶺一：**中央星狀疤痕＋spoke-wheel 血管 → oncocytoma 典型**；判讀分水嶺二：**bizarre vessels / AV shunting → 屬 RCC，非 oncocytoma**；影像仍難與 RCC 可靠區分，多需手術確診。
 
 ## Summary

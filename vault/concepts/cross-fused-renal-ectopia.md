@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # cross-fused-renal-ectopia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Crossed fused renal ectopia｜交叉融合異位腎](https://img-hosting.jieyu166.workers.dev/i/1PxoC1P.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/1PxoC1P.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **交叉融合腎異位（cross-fused renal ectopia）＝兩腎融合且位於身體『同一側』，發育中未正常跨中線上升就位（輸尿管跨中線引流至對側正常膀胱三角）。與馬蹄腎（horseshoe kidney）是不同實體——馬蹄腎為最常見整體腎融合異常，但兩腎仍分居兩側、僅下極經峽部相連。** 判讀分水嶺：**cross-fused ectopia＝同側融合、輸尿管跨中線；>90% crossed ectopia 會融合（其餘為 crossed-unfused）；最常見型為 inferior crossed fusion，disc/pancake 為少見型；影像（urography/CT）『可』區分各融合型態。**
 
 ## Summary

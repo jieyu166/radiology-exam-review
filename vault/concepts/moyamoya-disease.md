@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # moyamoya-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Moyamoya disease](https://img-hosting.jieyu166.workers.dev/i/LyhoXdV.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LyhoXdV.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Moyamoya disease＝顱內內頸動脈末端進行性阻塞，代償性形成迂曲擴張的側枝血管網(基底核/視丘的signal void＝moyamoya vessels)。Ivy sign(常春藤徵)＝軟腦膜側枝於『FLAIR』及T1增強後呈溝狀高訊號(sulcal hyperintensity)，並非典型T2WI——本題把ivy sign歸於T2WI故為錯誤。SWI可見15-44%微出血。**
 
 ## Summary

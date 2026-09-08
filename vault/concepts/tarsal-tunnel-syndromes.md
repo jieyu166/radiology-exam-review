@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # tarsal-tunnel-syndromes
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Tarsal tunnel｜前方 vs 內踝後方](https://img-hosting.jieyu166.workers.dev/i/0TVUH4t.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0TVUH4t.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **方向詞對應神經：「前」跗骨隧道症候群壓迫「深腓神經（deep peroneal nerve）」（足背/踝前、下伸肌支持帶下）；「（後）」跗骨隧道症候群壓迫「（後）脛神經（posterior tibial nerve）」（內踝後、屈肌支持帶下之纖維骨隧道）。別把神經名與方向配錯。** 判讀分水嶺：**後跗骨隧道＝脛神經於屈肌支持帶下受壓 → 分支 medial/lateral plantar nerve（Baxter nerve 為 lateral plantar 第一分支、支配 abductor digiti minimi）；影像找「足底內在肌去神經（肌內水腫為最可靠徵象、脂肪置換為晚期且可為老化偶見）」＋「隧道內腫塊（ganglion/神經鞘瘤/靜脈曲張/副肌/疤痕）或骨性壓迫（骨刺/subtalar coalition）」。前跗骨隧道＝深腓神經於踝前/足背、第一二趾蹼感覺異常。記憶鉤：前=深腓=足背、後=脛=足底。**
 
 ## Summary

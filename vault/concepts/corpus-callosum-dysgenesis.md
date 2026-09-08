@@ -15,6 +15,13 @@ same:
 
 # corpus-callosum-dysgenesis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Corpus callosum dysgenesis](https://img-hosting.jieyu166.workers.dev/i/81LMVzI.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/81LMVzI.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **胼胝體發育不良（agenesis/dysgenesis of corpus callosum）的典型伴隨徵象：colpocephaly（枕角不成比例擴大）、interhemispheric lipoma（大腦間裂脂肪瘤）、Probst bundle（本應跨中線的白質改與半球間裂平行走向，使側腦室分得很開 → racing car sign）——但『扁桃體下降（descended tonsil）』與其無關（屬 Chiari malformation）。** 判讀分水嶺：**Probst bundle → racing car sign 為特徵；colpocephaly 反映壓部/後方白質缺失；interhemispheric lipoma 常併存（原始腦膜異常分化）；descended cerebellar tonsil＝Chiari，非胼胝體發育不良徵象。詳細徵象機轉見 [[corpus-callosum-agenesis-signs]]。**
 
 ## Summary

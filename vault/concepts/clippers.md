@@ -11,6 +11,13 @@ dateRev: 2026-07-03
 
 # clippers
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CLIPPERS](https://img-hosting.jieyu166.workers.dev/i/nvOX8FC.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nvOX8FC.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CLIPPERS 是排除性診斷——目前無特異性血清/CSF標記，靠臨床＋典型影像＋審慎排除其他鑑別後才能下診斷，且停類固醇易復發需長期免疫抑制。** 判讀分水嶺：MRI 呈橋腦為主的「點狀與曲線狀（punctate and curvilinear）」或「胡椒粉狀（peppering）」強化，但「有特異性生物標記可確診」為錯誤敘述。
 
 ## Summary

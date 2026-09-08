@@ -14,6 +14,13 @@ same:
 
 # ectopic-ureter
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ectopic ureter：沿輸尿管找開口](https://img-hosting.jieyu166.workers.dev/i/YxQXrEG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YxQXrEG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **異位輸尿管會不會漏尿，看插入點有沒有越過外括約肌遠端——女性可以，男性解剖上不行。** 女性異位口可落在陰道/前庭/遠端尿道（括約肌遠端）→ 繞過控尿機制，結果是邊正常排尿邊持續滴尿；男性異位口最遠只到後尿道或精囊（括約肌近端），括約肌還管得到，所以不漏。記憶鉤：**「女性括約肌以下有地方可以插，男性沒有」**。
 
 ## Summary

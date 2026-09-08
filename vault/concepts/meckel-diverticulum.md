@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # meckel-diverticulum
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Meckel diverticulum：CT 辨識](https://img-hosting.jieyu166.workers.dev/i/ayH1qon.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ayH1qon.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Meckel憩室是卵黃管(omphalomesenteric duct)殘留，但典型『不』與臍部相通形成瘻管（那是更少見的臍腸瘻）;診斷出血性 Meckel憩室首選為 Meckel scan（Technetium-99m pertechnetate scintigraphy）或腸繫膜血管攝影（非CT）;Meckel scan 對含異位胃黏膜的憩室敏感,但『可有偽陰性也可有偽陽性』——合併發炎性疾病時偽陽性可能發生。** 判讀分水嶺：**Meckel scan 敏感度有限（成人約60%,兒童較高約85-90%）,非「無偽陰性」;偽陽性可因腸阻塞、腸套疊、發炎性腸病、血管病灶等合併發炎狀態而產生;CT非首選診斷工具。**
 
 ## Summary

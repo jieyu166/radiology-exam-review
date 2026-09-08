@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # gout-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Gout｜痛風影像重點](https://img-hosting.jieyu166.workers.dev/i/xtHKdNQ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/xtHKdNQ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **痛風＝單鈉尿酸鹽（MSU）結晶沉積在滑膜與關節旁組織所致的代謝性關節病；招牌影像是「保留關節腔＋無關節旁骨質疏鬆＋懸垂邊緣的穿鑿狀（punched-out）邊緣性糜爛＋痛風石軟組織腫塊」，好發第一蹠趾關節（podagra）等周邊關節。** 判讀分水嶺一：**分布『主要在周邊關節』（非中軸骨）——雖然中軸骨/大關節也可受侵，但不是主要部位，這是題目最愛考的『非特徵』陷阱。** 判讀分水嶺二：**與其他侵蝕性關節炎（RA、CPPD、psoriatic）鑑別靠『關節腔保留＋懸垂緣糜爛＋DECT 綠色 urate coding』。**
 
 ## Summary

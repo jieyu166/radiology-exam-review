@@ -13,6 +13,13 @@ dateRev: 2026-07-02
 
 # pediatric-presacral-masses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Presacral cystic masses：DDx 線索](https://img-hosting.jieyu166.workers.dev/i/qP8CbPX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/qP8CbPX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童薦前腫塊要點：sacrococcygeal germ cell tumor最常見為teratoma(多良性、非皆惡性)；anterior sacral meningocele是最常見的先天脊椎脊膜膨出，可為ASP/Currarino triad(anorectal malformation + sacrococcygeal osseous defect + presacral mass)之一部分；tailgut cyst可任何年齡(常30-60歲)非僅兒童；cystic lymphatic malformation呈均質高T2訊號(fluid-fluid level僅見於出血時)。本題正解B。**
 
 ## Summary

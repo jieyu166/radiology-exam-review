@@ -13,6 +13,13 @@ dateRev: 2026-07-01
 
 # crps
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CRPS｜影像的角色與限制](https://img-hosting.jieyu166.workers.dev/i/9NoNW6n.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/9NoNW6n.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CRPS（複雜性局部疼痛症候群，舊稱reflex sympathetic dystrophy）為交感神經系統之慢性疼痛疾患，通常繼發於外傷、手術或石膏固定等併發症；依是否有明確單一神經病灶分為type 1（無明確神經病灶，約佔90%）與type 2（有明確神經病灶，舊稱causalgia）。**
 
 ## Summary

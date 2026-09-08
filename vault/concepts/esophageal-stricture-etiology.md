@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # esophageal-stricture-etiology
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Esophageal stricture：型態比較](https://img-hosting.jieyu166.workers.dev/i/YSKPxIX.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/YSKPxIX.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **食道狹窄常見病因中，嗜酸性球性食道炎（eosinophilic esophagitis, EoE）相對「最少」造成狹窄——EoE 的食道攝影常「正常」，雖長期病程（>20 年）約 71% 仍會出現狹窄，但相較 Barrett esophagus、藥物性食道炎、逆流性食道炎（peptic），仍是四者中最少見的狹窄病因。** 判讀分水嶺：**用「部位」鎖定病因——peptic/reflux 在遠端、藥物性在主動脈弓/左心房壓迫處、caustic 在近端+中段且長、EoE 呈瀰漫小口徑或同心環（ringed/feline esophagus）。**
 
 ## Summary

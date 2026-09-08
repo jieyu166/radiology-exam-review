@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # splenic-trauma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Splenic trauma：活動性出血 vs pseudoaneurysm](https://img-hosting.jieyu166.workers.dev/i/mZ4GGPk.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/mZ4GGPk.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脾是腹部鈍傷最常受傷實質器官；AAST 2018 納入血管損傷分級，但 CT 分級對臨床結果預測性有限，且初始 CT 正常仍可發生延遲破裂——「初始 CT 正常即安全」是常考的錯誤敘述。** 判讀分水嶺一：**perisplenic sentinel clot 可能是脾損傷的唯一 CT 徵象**，低密度脾（shock spleen）不代表直接損傷。判讀分水嶺二：**血管損傷（pseudoaneurysm/AVF，~15%）與 active extravasation** 在延遲影像才顯現，影響栓塞/手術決策；CT 分級本身與是否需介入相關性不佳。
 
 ## Summary

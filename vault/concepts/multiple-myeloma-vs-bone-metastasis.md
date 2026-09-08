@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # multiple-myeloma-vs-bone-metastasis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨髓瘤 vs 骨轉移｜避免單徵象定論](https://img-hosting.jieyu166.workers.dev/i/DHlRoYt.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/DHlRoYt.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **脊椎病灶鑑別多發性骨髓瘤（MM）與骨轉移的關鍵是「椎弓根（pedicle）」——MM 典型「侵犯椎體但相對保留椎弓根」，骨轉移則常早期侵犯椎弓根（"winking owl"/absent pedicle sign）。** 判讀分水嶺：**MM 侵犯下頜骨與椎間盤、常伴椎旁軟組織腫塊、骨掃描常「假陰性/photopenic」（溶骨為主、缺骨母細胞反應）；骨轉移少侵下頜骨/椎間盤、常侵椎弓根、骨掃描常陽性。MM 的硬化通常僅見於治療後或病理性骨折。**
 
 ## Summary

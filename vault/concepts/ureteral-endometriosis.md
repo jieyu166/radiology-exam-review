@@ -12,6 +12,13 @@ same:
 
 # ureteral-endometriosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ureteral endometriosis：纖維化與阻塞](https://img-hosting.jieyu166.workers.dev/i/mhEG7cu.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/mhEG7cu.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **輸尿管子宮內膜異位症（ureteral endometriosis, UE）盛行率介於0.01–1.7%，好發30–35歲、左側較常見，評估的第一線影像檢查是超音波而非MRI。** 判讀分水嶺：**經陰道超音波可偵測卵巢子宮內膜異位瘤與直腸陰道中隔結節，腹部超音波可辨識泌尿道阻塞——依此step-by-step流程安排檢查順序，MRI僅作為後續進一步評估工具，並非第一線。**
 
 ## Summary

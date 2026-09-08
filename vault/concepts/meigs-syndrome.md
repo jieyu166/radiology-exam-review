@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # meigs-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Meigs syndrome](https://img-hosting.jieyu166.workers.dev/i/iOtImM3.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iOtImM3.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Meigs syndrome 三聯症＝腹水（ascites）＋肋膜積水（pleural effusion）＋「良性」實質性卵巢腫瘤（絕大多數為卵巢纖維瘤 fibroma）；關鍵在「良性」——腫瘤切除後兩處積液會一併消退。若合併的是「惡性」腫瘤或有腹膜結節，則屬 pseudo-Meigs 或應懷疑惡性，非典型 Meigs。** 判讀分水嶺：**①腫瘤成分必須良性（惡性 → pseudo-Meigs）；②不合併腹膜結節（有結節 → 疑腹膜轉移/惡性）；③纖維瘤因膠原含量高 T2WI 典型低訊號、乏血流延遲強化。記憶鉤：良性纖維瘤＋上下積液、切掉就好、無腹膜結節。**
 
 ## Summary

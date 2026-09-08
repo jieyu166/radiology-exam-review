@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # ovarian-mass-benign-vs-malignant
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Adnexal mass：形態風險線索](https://img-hosting.jieyu166.workers.dev/i/gNweHEd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/gNweHEd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **卵巢腫塊良惡性看幾大影像特徵：良性典型「小（<4 cm）、單側、完全囊性（無回音 anechoic）、壁/隔薄而光滑（<3 mm）、無乳突狀突起、無腹水/轉移」；惡性典型相反（大、雙側、囊實混合/實質為主、壁隔厚不規則、乳突狀突起、血流增加、腹水/腹膜植入、腫瘤標記陽性）。「囊內回音增加」不屬於典型單純良性囊腫（後者應無回音）。** 判讀分水嶺：**「實質成分＋血流＋乳突狀突起＋厚不規則隔＋腹水」是惡性核心組合；單純良性囊腫應為薄壁無回音——但要記得 hemorrhagic cyst／endometrioma／dermoid 這些「良性但有內部回音」的例外，別一律當惡性。**
 
 ## Summary

@@ -13,6 +13,13 @@ dateRev: 2026-06-29
 
 # choledochal-cyst
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Choledochal cyst｜膽管囊腫辨識](https://img-hosting.jieyu166.workers.dev/i/nwDxbvH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/nwDxbvH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **先天膽道囊腫,白話就是膽道某一段「鼓起來」變成囊腫;Todani 把它分成五型。記憶主線一句話:從膽總管本身鼓大（type I,最常見）→ 側壁凸個憩室（II）→ 末端鑽進十二指腸壁（III）→ 多處都有（IV）→ 一路長進肝內（V）。** 判讀分水嶺一:**Type I 膽總管囊狀/梭狀擴張最常見(~77–80%),看到膽總管整段腫先想它**;判讀分水嶺二(考試最愛的陷阱):**choledochocele 是 type III（十二指腸內遠端膽總管囊腫）,不是 IV;Type II＝膽總管憩室、Type IVa/b＝多發肝內外或多發肝外、Type V＝Caroli disease（肝內膽管囊狀擴張）**。
 ![Todani classification](https://img-hosting.jieyu166.workers.dev/i/MGf6prC.png) from Radiopaedia
 

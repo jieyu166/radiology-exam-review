@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # tarsal-coalition-signs
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Tarsal coalition｜跟舟 vs 距跟](https://img-hosting.jieyu166.workers.dev/i/ktAV0HO.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/ktAV0HO.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **跗骨聯合的間接 X 光徵象要對號入座——「食蟻獸徵象（anteater sign）＝跟骨前突延長」指向跟舟骨聯合（calcaneonavicular），「C sign＝側位反 C 形硬化」指向距跟骨聯合（talocalcaneal）；兩大聯合各約 45%。** 判讀分水嶺：**單一部位聯合常在 AP＋側位兩張片上看不到直接橋接，必須靠間接徵象警覺，再以 CT/MR 直接確認（尤其纖維／軟骨性聯合）。**
 
 ## Summary

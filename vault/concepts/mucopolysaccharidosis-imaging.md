@@ -11,6 +11,13 @@ dateRev: 2026-07-02
 
 # mucopolysaccharidosis-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：MPS：神經影像與脊椎](https://img-hosting.jieyu166.workers.dev/i/9sELk0C.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/9sELk0C.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **黏多醣症（MPS）的神經影像特徵包括 MACROcephaly（大頭）而非 microcephaly；白質病變（perivascular spaces 擴大呈「篩孔狀」）；厚硬腦膜（pachymeningeal thickening）；脊椎椎體前喙突（anterior vertebral body beaking）。** 判讀分水嶺：**MPS 是大頭而非小頭——選項將 macrocephaly 寫成 microcephaly 為陷阱。**
 
 ## Summary

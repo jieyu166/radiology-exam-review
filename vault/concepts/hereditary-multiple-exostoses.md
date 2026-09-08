@@ -13,6 +13,13 @@ dateRev: 2026-07-03
 
 # hereditary-multiple-exostoses
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：HME｜遺傳性多發骨軟骨瘤](https://img-hosting.jieyu166.workers.dev/i/U0U6rdq.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/U0U6rdq.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **HME＝體染色體顯性（autosomal dominant）之多發性骨軟骨瘤（EXT1/EXT2），因女性不完全外顯 → 男性略多；別名 diaphyseal aclasis / osteochondromatosis / multiple osteochondromas；osteochondroma 以 sessile（廣基）型較 pedunculated（帶蒂）常見。** 判讀分水嶺：**多發 osteochondroma（干骺端、朝關節反向、皮質髓腔連續）+ 骨塑形不良（前臂尺骨短縮、橈骨彎曲、Madelung 樣）；惡性轉變 chondrosarcoma 風險高於孤立型（3-5%，可達 25%）；軟骨帽增厚（成人 >1.5-2cm）、骨成熟後再長大、疼痛＝惡變警訊。相關：[[osteochondroma]]。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-06-17
 
 # ureteral-calculi-imaging
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ureteral filling defect：結石、血塊、UTUC](https://img-hosting.jieyu166.workers.dev/i/JCAttyz.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/JCAttyz.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **輸尿管結石首選非顯影螺旋 CT（CT KUB）——敏感度最高、已取代 IVU 成為 gold standard；超音波敏感度僅約 24%，KUB 平片漏掉透 X 光結石，兩者皆非首選。** 判讀分水嶺一：**NCCT＝gold standard**；判讀分水嶺二：**超音波只見音影＋twinkle，75% <3 mm 結石被漏掉**。記憶鏈：敏感度 CT >> IVU >> KUB >> US，US 雖「首先執行」卻非「最敏感」。
 
 ## Summary

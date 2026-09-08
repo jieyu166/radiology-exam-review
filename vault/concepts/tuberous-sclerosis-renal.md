@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # tuberous-sclerosis-renal
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Renal AML：脂肪、血管與陷阱](https://img-hosting.jieyu166.workers.dev/i/u7lmBQi.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/u7lmBQi.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **結節性硬化症中，腎血管平滑肌脂肪瘤(AML)比腎囊腫更常見(53–75% vs 18–53%)——AML 才是本病最常見的良性腫瘤，也是最常見的腎臟表現，這是本題判讀關鍵。**
 
 ## Summary

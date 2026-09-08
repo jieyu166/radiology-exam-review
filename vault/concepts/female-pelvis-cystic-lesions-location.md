@@ -12,6 +12,13 @@ dateRev: 2026-07-01
 
 # female-pelvis-cystic-lesions-location
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨盆囊腫：依位置辨識](https://img-hosting.jieyu166.workers.dev/i/JonRTVv.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/JonRTVv.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **女性骨盆常見囊性病灶由上到下的位置口訣：子宮頸表面的Nabothian囊腫最高、陰道側壁上段的Gartner氏管囊腫居中、陰道口/會陰的Bartholin氏腺囊腫最低——三者依生殖泌尿道發育解剖位置由上而下排列。**
 
 ## Summary

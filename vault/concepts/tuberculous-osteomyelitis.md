@@ -15,6 +15,13 @@ dateRev: 2026-07-03
 
 # tuberculous-osteomyelitis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：結核性骨髓炎｜慢性骨病灶的鑑別](https://img-hosting.jieyu166.workers.dev/i/321y7ch.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/321y7ch.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **結核性骨髓炎最大的陷阱是「早期 X 光正常」——不像化膿性骨髓炎進展快速，結核桿菌毒性低、病程緩慢、周圍組織反應少，早期 X 光常無異常，診斷因此常延遲（文獻中位可達 26.4 個月、STATdx 亦述常 >1 年）。** 判讀分水嶺：**與化膿性感染的關鍵區別——結核「少骨膜反應/少硬化、晚期才破壞椎間盤與關節間隙、可跨生長板、可侵犯脊椎後柱、椎旁冷膿瘍鈣化近乎診斷性」；晚期病灶型態近腫瘤，確診仍須取樣找 Mycobacterium。**
 
 ## Summary

@@ -9,6 +9,13 @@ dateRev: 2026-07-02
 
 # gbm-vs-pcnsl
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：GBM vs PCNSL](https://img-hosting.jieyu166.workers.dev/i/MKLeZWx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/MKLeZWx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PCNSL 比 GBM 有更低的 ADC value（cellularity 更高）。GBM 特徵為更多壞死、更大腫瘤、不規則邊緣、發生率更高。當題目問「非 GBM 特徵」時，lower ADC 是 PCNSL 的特徵。**
 
 ## Summary

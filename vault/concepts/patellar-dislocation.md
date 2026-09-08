@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # patellar-dislocation
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：暫時性外側髕骨脫位｜MRI 尋找線索](https://img-hosting.jieyu166.workers.dev/i/hVexr7B.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/hVexr7B.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **髕骨向外側脫位後自行復位，MRI 留下「對吻挫傷」：髕骨內側面（medial facet）＋外側股骨髁（lateral femoral condyle）各有骨髓水腫，同時伴 MPFL/內側支持帶撕裂及關節積液。** 記憶鉤：脫向外→回彈時「內側面撞外側髁」，方向對立才能對吻。判讀分水嶺一：**medial patella facet + lateral femoral condyle 骨髓水腫**；判讀分水嶺二：**MPFL 撕裂 + 關節積液**。
 
 ## Summary

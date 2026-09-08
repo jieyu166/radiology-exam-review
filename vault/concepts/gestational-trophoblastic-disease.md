@@ -14,6 +14,13 @@ dateRev: 2026-07-02
 
 # gestational-trophoblastic-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hydatidiform mole：Complete vs Partial](https://img-hosting.jieyu166.workers.dev/i/j8eEKUJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/j8eEKUJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **葡萄胎染色體口訣「完全胎46、部分胎69」：complete hydatidiform mole (CHM)為46 XX/XY（雙父源、無胎兒）；partial hydatidiform mole (PHM)為69三倍體（常有胎兒/胎兒部分）。影像上mole被子宮肌層包繞、於T2WI肌層相對mole呈低訊號；超音波CHM呈「葡萄串（cluster of grapes）」；CECT呈低衰減腫塊併薄強化分隔。**
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # bowed-legs-children-ddx
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：兒童 O 型腿｜常見 DDx 線索](https://img-hosting.jieyu166.workers.dev/i/VSWYhVJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/VSWYhVJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童弓形腿（bowed legs/genu varum）最常見病因是『生理性（physiologic）』——開始走路後的正常發育性內翻，2-3 歲自然轉外翻、6-7 歲恢復成人型態；其餘病理性病因含佝僂病（rickets）與 Blount disease（脛骨近端內側幹骺端-骨骺 Drennan 角 >11°），但『肌肉無力（muscular weakness）』本身並非常見病因。** 判讀分水嶺：**physiologic：雙側對稱、2-3 歲轉外翻、6-7 歲成人型；Blount＝medial proximal tibia 生長障礙、metaphyseal-diaphyseal(Drennan)角 >11°（生理性 <11°）、內側乾骺端 beak；NF1＝脛骨前外側弓形 + 腓骨發育不全；rickets/scurvy/syphilis(saber shin) 亦是。**
 
 ## Summary

@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # calcified-liver-metastases
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：鈣化肝轉移｜Calcified liver metastases](https://img-hosting.jieyu166.workers.dev/i/5HSHoiu.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/5HSHoiu.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝轉移瘤內出現鈣化時，原發灶清單遠比「只有黏液性大腸癌」廣——凡是會產生黏液、骨基質、軟骨基質，或本身易壞死出血的腫瘤，其肝轉移都可能鈣化。** 判讀分水嶺有二：（1）先確認是「鈣化」而非顯影後的腫瘤強化——鈣化在**非顯影** CT 即為高密度，動脈／靜脈／延遲期都不會像血管性強化般沖刷變化；（2）看到鈣化性肝病灶，第一鑑別其實不是轉移，而是**肉芽腫性感染（結核）**，因為單就「肝內鈣化」而言，發炎／肉芽腫才是最常見成因。記憶鉤：**「黏液（colon/stomach/ovary/pancreas）＋成骨成軟骨（osteosarcoma/chondrosarcoma）＋神經內分泌（neuroblastoma/carcinoid）＋肺癌」都可鈣化——故本題『以上皆為可能』正確。**
 
 ## Summary

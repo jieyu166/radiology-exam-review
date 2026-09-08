@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # column-of-bertin
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：柏氏柱肥大｜Column of Bertin](https://img-hosting.jieyu166.workers.dev/i/tJ8EUjG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/tJ8EUjG.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **柏氏柱肥大是「腎皮質夾在兩個腎錐體之間、突入腎竇」的正常變異，本質上就是一塊多出來的正常皮質，不是腫瘤。** 超音波三個「和皮質一樣」的特徵可確認：回音相同、紋理相同、和皮質連續；關鍵排除點是腎外緣輪廓保持完整——沒有外凸或凹陷，腎表面凹陷反而不是其特徵。記憶鉤：「形狀跟皮質同、輪廓正常無凸出」→放心是正常變異，不必追蹤。
 
 ## Summary

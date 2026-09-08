@@ -14,6 +14,13 @@ dateRev: 2026-07-10
 
 # facet-joint-osteoarthritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Facet joint OA｜小面關節退化](https://img-hosting.jieyu166.workers.dev/i/9AY1u0T.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/9AY1u0T.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Facet（小面/椎間關節）退化性關節病是下背痛的常見原因，最常由骨關節炎（OA）造成——軟骨流失、骨刺與關節突肥厚，嚴重時致椎管狹窄。它是「三關節複合體」（椎間盤在前、雙側 facet 在後）的一環，椎間盤退化後負荷後移，facet OA 隨之發生。** 判讀分水嶺一：**極常見且隨年齡增——約 50% 的 30 歲以下成人、約 95% 的 60 歲以上長者已有某程度 facet 退化；所以『30 歲以下找不到 OA』是錯的。** 判讀分水嶺二：**X 光對輕中度不敏感（僅篩檢），CT 較敏感、MRI 可能低估嚴重度但能顯示 juxta-facet cyst／軟骨下水腫／關節積液；SPECT-CT 最能挑出可受惠於關節注射的 facetogenic 疼痛者。**
 
 ## Summary

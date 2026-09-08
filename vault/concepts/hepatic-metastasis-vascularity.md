@@ -10,6 +10,13 @@ dateRev: 2026-07-04
 
 # hepatic-metastasis-vascularity
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肝轉移：乏血管 vs 富血管](https://img-hosting.jieyu166.workers.dev/i/edyOVXW.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/edyOVXW.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **肝轉移由肝動脈供血；腺癌（adenocarcinoma）轉移多為 hypovascular（動脈期不強化），而 RCC、黑色素瘤、神經內分泌瘤、肉瘤等為 hypervascular（動脈期明顯強化）。**
 
 ## Summary

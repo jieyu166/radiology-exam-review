@@ -11,6 +11,13 @@ dateRev: 2026-06-29
 
 # portal-hypertension-us
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Portal hypertension：US 線索](https://img-hosting.jieyu166.workers.dev/i/vm3vs9h.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/vm3vs9h.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **門脈高壓的超音波記憶鉤：「壓力高 → 門脈撐大、血流變慢甚至倒流、側枝繞路」。** 門脈擴張（>13 mm）、流速下降（<16 cm/s）、hepatofugal 逆流；臍靜脈再通等側枝出現幾乎有診斷意義。考試陷阱：「門脈直徑變小」是錯的——門脈高壓使門脈擴張、不是變細。判讀分水嶺一：**門脈擴張 >13 mm ＋ 流速 <16 cm/s**；判讀分水嶺二：**臍靜脈（paraumbilical）再通＝近乎診斷性**。
 
 ## Summary

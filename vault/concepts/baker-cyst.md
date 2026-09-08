@@ -12,6 +12,13 @@ dateRev: 2026-06-18
 
 # baker-cyst
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Baker cyst｜膕窩囊腫](https://img-hosting.jieyu166.workers.dev/i/IAH0Mvs.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/IAH0Mvs.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Baker cyst 是膝後內側的滑液囊積水——積液從膝關節腔「往後滲」，擠進 semimembranosus 與 medial gastrocnemius 肌腱之間的縫隙。** 診斷性超音波特徵就是：液體坐落在這兩條肌腱之間（頸部徵），不是 gracilis 或 sartorius 旁。兩個常見誤解：① Baker cyst 其實相當常見（膝 MRI 盛行率 10–41%）；② 內部有回音（出血、碎屑）**不能排除**診斷。破裂時積液沿小腿筋膜下滲，臨床似 DVT，需注意鑑別。
 
 ## Summary

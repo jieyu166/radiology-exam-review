@@ -11,6 +11,13 @@ dateRev: 2026-06-30
 
 # crmo
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CNO／CRMO｜非細菌性骨發炎](https://img-hosting.jieyu166.workers.dev/i/8r8mehN.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/8r8mehN.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CRMO 是兒童/青少年的無菌性（非感染性）自體發炎性骨病，典型臨床病程為『長期、反覆惡化緩解交替（prolonged course with periodic exacerbations）』，而非急性猛爆或單一自限病程。** 判讀分水嶺：**CRMO 主症狀為多灶性骨痛（非全身性猛爆症狀）;鎖骨內側端(medial clavicle)受累為特徵性表現（因血源性骨髓炎罕見侵犯此處）;需與化膿性骨髓炎鑑別的警訊徵象＝大量液體積聚、膿瘍、瘻管、死骨——這些提示真正感染而非CRMO。**
 
 ## Summary

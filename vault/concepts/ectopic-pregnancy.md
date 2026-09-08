@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # ectopic-pregnancy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Tubal ectopic pregnancy：影像線索](https://img-hosting.jieyu166.workers.dev/i/d6JMyuC.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/d6JMyuC.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **β-HCG判別區（discriminatory zone）的口訣：陰道超音波(transvaginal)約1500-1800 mIU/mL、腹部超音波(abdominal)約6000-6500 mIU/mL——這是「該濃度以上應能可靠看到子宮內妊娠囊」的門檻。本題陷阱：β-HCG 1600且腹部超音波未見妊娠囊時『不能』排除正常懷孕（因腹部US判別區高達6000-6500，1600遠低於此門檻）。**
 
 ## Summary

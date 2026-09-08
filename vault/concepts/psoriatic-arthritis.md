@@ -11,6 +11,13 @@ dateRev: 2026-07-10
 
 # psoriatic-arthritis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：乾癬性關節炎｜周邊影像重點](https://img-hosting.jieyu166.workers.dev/i/im1AtoF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/im1AtoF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **乾癬性關節炎的影像特點是「破壞與增生同時存在」：DIP 為主的 mouse-ear 侵蝕、pencil-in-cup 搭配蓬鬆骨膜炎與香腸指，這種「邊侵蝕邊長骨」的雙重面貌是血清陰性脊椎關節病的特徵。** 判讀分水嶺一：**新骨形成（fluffy periostitis/附著點炎）與侵蝕並存**，純侵蝕沒新骨→想 RA。判讀分水嶺二：**gull-wing 侵蝕是 EOA（中央侵蝕），非乾癬**——考題最愛的陷阱。記憶鉤：乾癬「邊長新骨邊咬掉舊骨」；鷗翼（gull-wing）只在 EOA 展翅。
 
 ## Summary

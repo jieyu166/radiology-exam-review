@@ -12,6 +12,16 @@ dateRev: 2026-06-17
 
 # brain-abscess
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：化膿性腦膿瘍 — Summary 圖稿](https://img-hosting.jieyu166.workers.dev/i/GuquYhT.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GuquYhT.png)
+>
+> ![Summary 圖：Ring-enhancing lesion — 常見 DDx](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腦膿瘍的影像邏輯：中央是黏稠的膿液（DWI 明顯受限）、外包一層薄而平滑的強化環——這兩點加在一起就能與壞死腫瘤（GBM/轉移）做出有力區別。** 進階特徵是 SWI/T2-FLAIR 上的 dual rim sign：兩個同心環，外環低訊號、內環相對高訊號，約見於 75% 腦膿瘍。記憶鉤：膿瘍環「薄而光滑」（包裝整齊的膿包），GBM 環「厚而不規則」（腫瘤邊緣凹凸）；DWI 受限是最快的鑑別點，壞死腫瘤中央通常不受限。
 
 ## Summary

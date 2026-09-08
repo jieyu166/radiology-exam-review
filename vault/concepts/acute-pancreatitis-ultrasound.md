@@ -10,6 +10,13 @@ dateRev: 2026-07-04
 
 # acute-pancreatitis-ultrasound
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：急性胰臟炎｜US 重點](https://img-hosting.jieyu166.workers.dev/i/7hhwmRF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7hhwmRF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **急性胰臟炎的超音波發現由高到低頻率為：胰周發炎（peripancreatic inflammation）＞ 腹側輪廓模糊（indistinct ventral margin）＞ 局灶腫塊（focal mass）＞ 靜脈血栓（venous thrombosis），靜脈血栓最少見。**
 
 ## Summary

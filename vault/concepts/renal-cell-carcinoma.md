@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # renal-cell-carcinoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：實質腎腫塊：常見影像差異](https://img-hosting.jieyu166.workers.dev/i/dEUFnXd.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dEUFnXd.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Clear cell RCC 是最常見亞型（~70%）且『高血流（hypervascular）』,動脈期明顯強化＋洗出;papillary RCC 則『乏血管（hypovascular）』、均質、強化弱。** 判讀分水嶺：**clear cell＝富血管、不均、可含脂肪/壞死/出血,CT/MR/血管攝影皆呈高強化;papillary＝乏血管、均質、低度漸進強化,T2 常低訊號、易出血含鐵血黃素;chromophobe＝中等強化、輻輪狀（spoke-wheel）。**
 
 ## Summary

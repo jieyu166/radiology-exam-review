@@ -13,6 +13,13 @@ same:
 
 # ureteral-filling-defect
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ureteral filling defect：結石、血塊、UTUC](https://img-hosting.jieyu166.workers.dev/i/JCAttyz.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/JCAttyz.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **輸尿管充盈缺損最常見原因是結石，TCC（urothelial carcinoma）只是最常見的「腫瘤性」充盈缺損，整體頻率遠低於結石——考題最常考此層次差異。** 判讀分水嶺一：**最常見＝石頭**，CT 平掃直接確認；判讀分水嶺二：排除結石後展開 CUPS MET（Clot、stone、Polyp、Sloughed papilla、Metastasis、Endometriosis、TB、urothelial Carcinoma）。
 
 ## Summary

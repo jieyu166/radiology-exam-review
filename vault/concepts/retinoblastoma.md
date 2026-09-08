@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # retinoblastoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Retinoblastoma](https://img-hosting.jieyu166.workers.dev/i/dNsDu1K.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dNsDu1K.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **兒童眼球內鈣化腫塊＝retinoblastoma until proven otherwise；白瞳（leukocoria）是最常見臨床表現，但白瞳鑑別廣（Coats、PHPV、ROP、Toxocara）。hemangioblastoma 是 VHL 相關的成人視網膜腫瘤，不是兒童最常見，此點為考試陷阱。** 判讀分水嶺一：**兒童眼球鈣化腫塊 → retinoblastoma 首選（CT 顯示鈣化最佳，非 DWI）**；判讀分水嶺二：**hemangioblastoma（VHL）≠ 兒童最常見視網膜腫瘤**。
 
 ## Summary

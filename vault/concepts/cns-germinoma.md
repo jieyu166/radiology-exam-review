@@ -12,6 +12,13 @@ dateRev: 2026-07-10
 
 # cns-germinoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：CNS germinoma：位置與 MRI](https://img-hosting.jieyu166.workers.dev/i/4B3rmrF.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/4B3rmrF.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **CNS germinoma 的三個關鍵詞：年輕、中線、男性為主。** 最常見的顱內生殖細胞瘤；好發兒童/青年（peak 10–12 歲、90% <20 歲），沿**中線**分布——松果體（最多，男童為主）、鞍上/神經垂體（可與松果體形成 bifocal）、基底節/視丘。影像招牌：CT 相對**高密度**、MRI T1/T2 大致**等訊號**、**DWI 受限**、注射後**顯著且均勻強化**；松果體者把既有鈣化「包進」腫瘤裡（engulf，對比 pineoblastoma 把鈣化往周邊「炸開」exploded）。記憶鉤：「松果體找男生、鞍上偏女生」，但整體以男性為主；germinoma「engulf」鈣化、pineoblastoma「explode」鈣化。
 
 ## Summary

@@ -12,6 +12,13 @@ dateRev: 2026-06-29
 
 # pelvic-congestion-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Pelvic venous disorders：影像線索](https://img-hosting.jieyu166.workers.dev/i/KhslVuB.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/KhslVuB.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **PCS 的影像核心是卵巢靜脈「逆向（caudal/retrograde）」血流加上迂曲擴張（>4 mm）、慢速（<3 cm/s）——「cranial 方向」是考試陷阱。** 記憶鉤：正常卵巢靜脈血往上走（cranial），PCS 逆流往下（caudal），方向顛倒才是病態。判讀分水嶺：**US 見 caudal/retrograde 慢血流、卵巢靜脈 >4 mm、子宮肌層弓狀靜脈擴張、>50% 合併囊性卵巢**；T1WI varices 呈 flow void。
 
 ## Summary

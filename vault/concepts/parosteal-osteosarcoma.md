@@ -11,6 +11,13 @@ dateRev: 2026-06-28
 
 # parosteal-osteosarcoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：骨旁骨肉瘤 Parosteal osteosarcoma](https://img-hosting.jieyu166.workers.dev/i/4gcd3Hy.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/4gcd3Hy.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Parosteal osteosarcoma 是最常見的 surface/juxtacortical 骨肉瘤，但只佔所有骨肉瘤約 4%——「最常見的骨肉瘤」是陷阱，那個位子屬於 conventional 髓內型。** 好發遠端股骨後方，分葉狀骨旁腫塊與皮質間保有 cleavage plane（透亮裂隙）、包繞骨幹生長；低惡性度、預後佳。判讀分水嶺一：**surface 最常見 ≠ 所有骨肉瘤最常見**；判讀分水嶺二：**cleavage plane + 包繞骨幹 + 遠端股骨後方**。
 
 ## Summary

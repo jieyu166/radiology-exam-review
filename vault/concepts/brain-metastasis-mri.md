@@ -12,6 +12,13 @@ dateRev: 2026-07-03
 
 # brain-metastasis-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ring-enhancing lesion — 常見 DDx](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/rG8V49a.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **提升腦/軟腦膜轉移偵測敏感度的核心是「對比增強 MR」——它偵測、定位、定量皆優於增強 CT 與非增強 MR；再往上加可提升偵測的招數有：加大對比劑量（double/triple dose，但偽陽性↑、NSF 風險↑而屬 off-label）、magnetization transfer（可把所需劑量減半）、3D T1 SPGR＋顯影後 T2 FLAIR（偵測 <3 mm 及軟腦膜）、薄切/延遲/高解析規劃影像。** 判讀分水嶺：**「顯影後加 DWI」不提升強化性轉移的偵測敏感度——DWI 的用途是鑑別「膿瘍 vs 腫瘤」（膿瘍受限），對已強化的轉移偵測沒有加分。記憶鉤：偵測靠「對比＋序列＋劑量＋薄切延遲」，DWI 是拿來「分辨是不是膿瘍」不是拿來「多找幾顆轉移」。**
 
 ## Summary

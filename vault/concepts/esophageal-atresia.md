@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # esophageal-atresia
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Esophageal atresia：盲端與腹部氣體](https://img-hosting.jieyu166.workers.dev/i/6pMQAQy.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/6pMQAQy.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **食道閉鎖（EA）常合併氣管食道瘻管（TEF）。判讀分水嶺三合一（本考點正解為「以上皆是」）：① 與 VACTERL 及 CHARGE association 相關；② 產前超音波線索為羊水過多（polyhydramnios）＋胃泡縮小或消失；③ 出生後腹部有無腸氣可判讀 distal fistula 狀態——腹部有氣＝有 distal TEF（Type C/D），腹部無氣＝無 distal fistula（Type A/B）。經口鼻胃管於上段食道盲端捲曲（coiling）是典型放射線徵象。**
 
 ## Summary

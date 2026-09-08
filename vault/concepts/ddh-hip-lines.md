@@ -14,6 +14,13 @@ dateRev: 2026-07-03
 
 # ddh-hip-lines
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：DDH｜骨盆正位的定位線](https://img-hosting.jieyu166.workers.dev/i/GYQjiTn.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/GYQjiTn.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **DDH 三條參考線口訣「H 水平、P 垂直、S 弧線」——Hilgenreiner 連雙側 triradiate/髂骨最低點的水平基準線、Perkins 垂直通過髖臼外側緣、Shenton 是股骨頸內緣到閉孔上緣的弧線；正常股骨頭在 H 線下方、P 線內側（下內象限），Shenton 連續。** 判讀分水嶺：**兩個「角」別混淆——X 光的 acetabular index（Hilgenreiner 與髖臼頂連線，正常 <30°）與超音波 Graf 的 alpha 角（正常 >60°）是不同測量；骨骺骨化前用超音波，約 4-6 個月骨化後 X 光才可靠。**
 
 ## Summary

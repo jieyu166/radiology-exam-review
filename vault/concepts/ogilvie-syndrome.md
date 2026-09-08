@@ -11,6 +11,13 @@ dateRev: 2026-07-01
 
 # ogilvie-syndrome
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Ogilvie syndrome](https://img-hosting.jieyu166.workers.dev/i/I08pP98.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/I08pP98.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Ogilvie's syndrome 是「結腸」的假性阻塞，不是小腸——這是最常考的誤導選項；本質是自主神經失衡（副交感活性下降）造成的結腸運動失調，無實際機械性阻塞病灶。** 判讀分水嶺：**急性結腸擴張＋無解剖阻塞病灶＝定義核心**；好發於術後（尤其骨科/婦產科手術後）、創傷、電解質不平衡等病人。
 
 ## Summary

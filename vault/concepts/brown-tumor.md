@@ -8,6 +8,13 @@ dateRev: 2026-06-29
 
 # brown-tumor
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Brown tumor｜副甲狀腺機能亢進](https://img-hosting.jieyu166.workers.dev/i/7MlQmVc.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/7MlQmVc.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **棕色瘤是副甲狀腺機能亢進（HPT）破壞骨骼時出現的局部溶骨病灶，因含鐵血黃素沉積而呈棕色，非真腫瘤。** 好發部位：下頷/顎、骨盆、肋骨、長骨（股骨）；「肩部」不是常見部位，考題陷阱在此。記憶鉤：**「HPT 攻的是顎/盆/肋/腿——不愛肩膀」**；背景脈絡：同步出現 subperiosteal resorption（橈側指骨）與 salt-and-pepper skull，即高度懷疑 HPT。
 
 ## Summary

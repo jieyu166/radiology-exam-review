@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # kienbock-disease
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Kienböck disease｜月狀骨缺血性壞死](https://img-hosting.jieyu166.workers.dev/i/0pp3hwL.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/0pp3hwL.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **Kienböck disease＝『月狀骨(lunate)』缺血性壞死——記憶關鍵在部位（lunate，不是scaphoid）與訊號（AVN進展期於T1與T2皆呈低訊號）。對比：Preiser disease＝舟狀骨(scaphoid) AVN。負性尺骨變異(ulnar negative variance)為危險因子。**
 
 ## Summary

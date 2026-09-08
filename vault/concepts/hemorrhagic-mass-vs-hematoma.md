@@ -12,6 +12,13 @@ dateRev: 2026-07-02
 
 # hemorrhagic-mass-vs-hematoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Hemorrhagic mass｜血腫還是腫瘤？](https://img-hosting.jieyu166.workers.dev/i/A9bsEkH.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/A9bsEkH.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **軟組織出血性腫瘤(hemorrhagic neoplasm)與單純血腫(simple hematoma)在MRI上難以區分——唯一能可靠指向腫瘤的顯影特徵是『結節狀強化(nodular contrast enhancement)』;fluid-fluid level、周邊肌肉水腫/強化、延遲強化、無強化皆非可靠鑑別點,因兩者皆可出現。** 判讀分水嶺:**看到enhancing nodule就要優先考慮腫瘤**;打顯影劑後應「立即」成像,以免gadolinium緩慢擴散進血腫/膿瘍之fluid space造成pseudoenhancement假象。
 
 ## Summary

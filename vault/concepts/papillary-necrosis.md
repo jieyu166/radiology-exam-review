@@ -12,6 +12,13 @@ dateRev: 2026-06-17
 
 # papillary-necrosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Renal papillary necrosis](https://img-hosting.jieyu166.workers.dev/i/iwdGSAx.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iwdGSAx.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎乳頭壞死病因口訣「NSAID」：NSAIDs/Sickle cell/Analgesic nephropathy/Infection/Diabetes（另加 obstruction、RVT）。** 平片通常正常，鐮型球患者約 50%（非 90%）發生；兩型：medullary＝乳頭中央空蝕（lobster-claw）；papillary/total＝整顆乳頭脫落（signet ring + clubbed calyx）。判讀分水嶺一：**三大陷阱——平片非特徵鈣化、sickle cell 50% 非 90%、medullary 型是中央侵蝕非整顆缺失**；判讀分水嶺二：**papillary/total 型脫落乳頭可成 collecting system 填充缺損致阻塞**。
 
 ## Summary

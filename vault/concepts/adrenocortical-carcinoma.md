@@ -14,6 +14,13 @@ same:
 
 # adrenocortical-carcinoma
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：ACC｜腎上腺皮質癌](https://img-hosting.jieyu166.workers.dev/i/Lef2ejh.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Lef2ejh.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **腎上腺腫塊越大越要想惡性——>4–6 cm 加上壞死鈣化侵犯血管，指向 ACC。** 腎上腺皮質癌常呈大型異質腫塊（壞死/出血）、周邊不均勻強化、約 30% 鈣化，且相對常侵犯腎靜脈、IVC 及肝。記憶鉤：「大（>4 cm）＋異質＋鈣化＋血管栓」＝ACC；反之，小＋均質＋富脂快 washout＝adenoma；T2 燈泡亮＋顯著強化＝pheo；跨中線包繞血管的兒童＝neuroblastoma。
 
 ## Summary

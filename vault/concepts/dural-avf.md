@@ -13,6 +13,13 @@ dateRev: 2026-07-10
 
 # dural-avf
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Dural arteriovenous fistula](https://img-hosting.jieyu166.workers.dev/i/XtAAfAD.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/XtAAfAD.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **顱內硬腦膜動靜脈瘻管（dAVF）多為『後天』（常伴靜脈竇栓塞、外傷、開顱後之新生血管），非先天；好發 transverse-sigmoid sinus，最常見症狀搏動性耳鳴；有無皮質靜脈逆流（CVR）決定危險度。** 判讀分水嶺：**後天性、最常見 transverse-sigmoid sinus、最常見症狀 pulsatile tinnitus；Cognard/Borden 依 CVR 分級，有 CVR（Borden II-III、Cognard ≥IIb）→ 出血/神經惡化風險高；治療以血管內栓塞為主、常優於放射手術；ethmoidal（篩竇）dAVF 因引流缺竇保護、直入皮質靜脈，SAH 風險最高（雖僅約 6%）。**
 
 ## Summary

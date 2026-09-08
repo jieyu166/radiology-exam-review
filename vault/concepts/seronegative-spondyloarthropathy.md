@@ -15,6 +15,13 @@ dateRev: 2026-07-03
 
 # seronegative-spondyloarthropathy
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：脊椎炎｜Syndesmophyte 型態比較](https://img-hosting.jieyu166.workers.dev/i/sDDQnbw.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/sDDQnbw.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **血清陰性脊椎關節病變（現稱 axial spondyloarthritis）＝類風濕因子陰性之發炎性關節炎＋附著點病變（enthesopathy），侵犯脊椎與薦髂關節；共同特徵是 HLA-B27 相關與「薦髂關節（SIJ）常受侵犯」（絕非罕見）。** 判讀分水嶺：**syndesmophyte 型態＋SIJ 對稱性分型——僵直性脊椎炎（AS）＝薄、邊緣性、對稱性（bamboo spine），乾癬性/反應性關節炎＝粗、非邊緣性、不對稱性；SIJ 若完全正常則「無法」下血清陰性脊椎關節病變之影像診斷。**
 
 ## Summary

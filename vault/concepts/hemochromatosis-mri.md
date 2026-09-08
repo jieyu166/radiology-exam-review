@@ -12,6 +12,13 @@ dateRev: 2026-07-12
 
 # hemochromatosis-mri
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：肝鐵過載：看訊號，也看分布](https://img-hosting.jieyu166.workers.dev/i/dM8VNYJ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/dM8VNYJ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **記憶口訣「Primary＝Pancreas、Secondary＝Spleen」：原發性血鐵沉積症早期鐵沉積於肝臟（胰臟亦可受累），脾臟通常不受影響；續發性（輸血相關）血鐵沉積症則肝臟與脾臟皆受網狀內皮系統鐵沉積影響，兩者於T2皆呈低訊號。**
 
 ## Summary

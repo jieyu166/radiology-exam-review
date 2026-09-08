@@ -14,6 +14,13 @@ up: "[[rib-tumor]]"
 
 # langerhans-cell-histiocytosis
 
+> [!info] Summary 圖・待醫師覆核
+> ![Summary 圖：Skeletal LCH｜骨骼影像線索](https://img-hosting.jieyu166.workers.dev/i/RBD5yvZ.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/RBD5yvZ.png)
+>
+> 教學摘要圖，內容仍待醫師覆核。
+
+
 **骨骼 LCH 的招牌是「洞中有洞」（beveled edge，hole-within-a-hole）——內外骨板侵蝕不對稱；脊椎壓扁成餅叫 vertebra plana，兒童最常見的病因就是它。** 判讀分水嶺一：**骨骼表現＝無硬化緣溶骨＋beveled edge（hole-within-a-hole）＋button sequestrum；脊椎→vertebra plana（兒童最常見病因）；下頜→floating tooth**；判讀分水嶺二：**臨床分型：單發（eosinophilic granuloma）→ 多發單系統（Hand-Schüller-Christian：顱骨缺損＋尿崩＋突眼）→ 多系統（Letterer-Siwe，嬰幼兒最惡性）**；肺型（PLCH）屬同譜但需分開看 → [[plch]]。
 
 ## Summary
