@@ -81,7 +81,7 @@ dateRev: 2026-06-29
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Radiology Review Manual 7th, p883：PMP 呈肝脾 scalloping、含分隔/鈣化、多源自闌尾。
-[^2]: RadioGraphics（教科書級回顧文，最高層級）— Mucinous Appendiceal Neoplasms and Pseudomyxoma Peritonei: Imaging Features and Current Therapies, RSNA RadioGraphics 2024, doi:10.1148/rg.240131：黏液腹水較單純腹水複雜（衰減略高／分隔）、肝脾表面 scalloping 為黏液壓迫所致、US 黏液不可移動且回音強、CRS+HIPEC 治療。
+[^2]: RadioGraphics（教科書級回顧文，最高層級）— Mucinous Appendiceal Neoplasms and Pseudomyxoma Peritonei: Imaging Features and Current Therapies, Jorgenson LC, et al. RadioGraphics 2025;45(6):e240131（PMID 40440192；2024 為投稿／接受年，2026-09-24 更正）, doi:10.1148/rg.240131：黏液腹水較單純腹水複雜（衰減略高／分隔）、肝脾表面 scalloping 為黏液壓迫所致、US 黏液不可移動且回音強、CRS+HIPEC 治療。
 [^3]: StatPearls（教科書級，NCBI Bookshelf）— Pseudomyxoma Peritonei, NBK541116：女性多於男性；最常見原發為闌尾黏液性腺瘤/腫瘤；年發生率約 1–4／百萬；jelly belly 為瀰漫膠狀腹水＋腹膜黏液植入之典型表現。
 [^4]: PMC 開放全文（同儕審查回顧，高層級）— Peritoneal Carcinomatosis and Its Mimics: Review of CT Findings for Differential Diagnosis, PMC6993595：scalloping 反映黏液植入對臟器表面外加壓迫為 PMP 典型 CT 徵象；轉移癌以結節狀／浸潤性腹膜增厚為主；結核性腹膜炎為平滑瀰漫增厚＋中央壞死低衰減淋巴結；CT 常難確診須切片。
 [^5]: RadioGraphics（回顧文）— Spectrum of MRI Features of Mucin-producing Neoplasms in the Abdomen and Pelvis, RSNA RadioGraphics 2022, doi:10.1148/rg.210055：黏液 T2WI 高訊號、可見小葉/分隔/不均，T2 利於與其他積液鑑別。
