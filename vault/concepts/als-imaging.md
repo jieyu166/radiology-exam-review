@@ -13,11 +13,10 @@ dateRev: 2026-06-19
 
 # als-imaging
 
-> [!info] Summary 圖・待醫師覆核
-> ![Summary 圖：ALS：MRI提示徵象](https://img-hosting.jieyu166.workers.dev/i/Avj2HGm.png)
-> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Avj2HGm.png)
->
-> 教學摘要圖，內容仍待醫師覆核。
+> [!info] Summary 圖・醫師已覆核
+> ![Summary 圖：als-imaging・醫師已覆核](https://img-hosting.jieyu166.workers.dev/i/u1MHcRS.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/u1MHcRS.png)
+> 圖片來源：StatDx, Radiology Case Reports。
 
 
 **ALS 有兩個 MRI 標記，一高一低：舌頭 T1 變「亮」（bright tongue）、運動皮質 T2 變「暗」（motor band）。** Bright tongue sign：舌肌因慢性去神經萎縮，脂肪取代致 T1 高訊號，是 ALS 的診斷性標記。Motor band sign：precentral gyrus 沿皮質 T2/SWI 低訊號，反映小膠質細胞鐵沉積；另有皮質脊髓束 T2 高訊號。鑑別：ALD、MLD、PML 均非 bright tongue sign 的病因。
