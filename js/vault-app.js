@@ -299,6 +299,7 @@ const VaultApp = (function () {
     });
     try {
       state.indexes = await ContentStore.loadIndexes();
+      if (typeof NoteRenderer !== 'undefined' && typeof NoteRenderer.setLinkIndexes === 'function') NoteRenderer.setLinkIndexes(state.indexes);
       _populateFilters();
       await _renderRoute();
     } catch (error) {

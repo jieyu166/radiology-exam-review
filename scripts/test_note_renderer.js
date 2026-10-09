@@ -52,3 +52,24 @@ assert(folded.html.includes('<h2>判讀</h2>') && folded.html.includes('src="ass
 const expanded = context.NoteRenderer.renderDocument('> [!note]+ 提示\n> 內容');
 assert(expanded.html.includes(' open') && !expanded.html.includes('+ 提示'), 'plus callouts should start expanded');
 console.log('note renderer tests passed');
+
+// Wikilinks must resolve against the published indexes: questions open as cards, concepts stay concept pages.
+const linkIndexes = {
+  questions: { entries: [{ id: '2018-419', sourcePath: 'questions/2018/2018-419.md' }] },
+  concepts: { entries: [{ id: 'aspergilloma', sourcePath: 'concepts/aspergilloma.md' }] },
+};
+const linked = context.NoteRenderer.renderDocument('[[2018-419]] [[questions/2018/2018-419|題 419]] [[questions/2018/2018-419.md]] [[../questions/2018/2018-419|相對]] [[Aspergilloma|麴菌球]] [[concepts/aspergilloma|路徑概念]] [[aspergilloma#影像|段落]] [[not-published|缺]]', { linkIndexes });
+assert(linked.html.includes('href="#/card?qid=2018-419">2018-419</a>'), 'bare question ids should open the question card');
+assert(linked.html.includes('href="#/card?qid=2018-419">題 419</a>'), 'path-style question links should open the question card');
+assert(!linked.html.includes('#/concept/2018-419') && !linked.html.includes('#/concept/questions'), 'question targets must not become concept links');
+assert((linked.html.match(/#\/card\?qid=2018-419/g) || []).length === 4, '.md suffixed and relative question paths should resolve too');
+assert(linked.html.includes('href="#/concept/aspergilloma">麴菌球</a>'), 'concept links should keep the concept route');
+assert(linked.html.includes('href="#/concept/aspergilloma">路徑概念</a>'), 'path-style concept links should resolve to the concept id');
+assert(linked.html.includes('href="#/concept/aspergilloma">段落</a>'), 'heading anchors should resolve to the concept');
+assert(/class="note-wikilink note-wikilink-unresolved" href="#\/concept\/not-published"/.test(linked.html), 'unknown targets keep the legacy route and are marked unresolved');
+context.NoteRenderer.setLinkIndexes(linkIndexes);
+const configured = context.NoteRenderer.render('[[2018-419]] [[aspergilloma]]');
+assert(configured.includes('#/card?qid=2018-419') && configured.includes('#/concept/aspergilloma'), 'configured indexes should apply without per-call options');
+context.NoteRenderer.setLinkIndexes(null);
+assert(context.NoteRenderer.render('[[2018-419]]').includes('href="#/concept/2018-419"'), 'without indexes the legacy behaviour is retained');
+console.log('note renderer wikilink tests passed');

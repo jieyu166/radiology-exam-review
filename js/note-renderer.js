@@ -45,6 +45,52 @@ const NoteRenderer = (function () {
     return map;
   }
 
+  let _configuredLinks = null;
+
+  function _buildLinkIndex(indexes) {
+    if (!indexes) return null;
+    const lookup = kind => {
+      const entries = indexes[kind] && Array.isArray(indexes[kind].entries) ? indexes[kind].entries : [];
+      const ids = new Map();
+      const paths = new Map();
+      for (const entry of entries) {
+        if (!entry || !entry.id) continue;
+        ids.set(String(entry.id).toLowerCase(), entry.id);
+        if (entry.sourcePath) paths.set(String(entry.sourcePath).replace(/\.md$/i, '').toLowerCase(), entry.id);
+      }
+      return { ids, paths };
+    };
+    return { questions: lookup('questions'), concepts: lookup('concepts') };
+  }
+
+  function setLinkIndexes(indexes) {
+    _configuredLinks = _buildLinkIndex(indexes);
+  }
+
+  const _linkIndexCache = new WeakMap();
+
+  function _linkIndex(options) {
+    const indexes = options && options.linkIndexes;
+    if (!indexes || typeof indexes !== 'object') return _configuredLinks;
+    if (!_linkIndexCache.has(indexes)) _linkIndexCache.set(indexes, _buildLinkIndex(indexes));
+    return _linkIndexCache.get(indexes);
+  }
+
+  // Obsidian resolves [[target]] by vault path or file basename; mirror that against published ids.
+  function _resolveWikilink(target, options) {
+    const legacyId = String(target || '').trim().toLowerCase().replace(/\s+/g, '-');
+    const index = _linkIndex(options);
+    if (!index) return { href: `#/concept/${legacyId}`, unresolved: false };
+    const path = String(target || '').trim().replace(/#.*$/, '').replace(/\\/g, '/').replace(/^(?:\.{1,2}\/|\/)+/, '').replace(/\.md$/i, '').toLowerCase();
+    const base = path.split('/').pop();
+    const question = index.questions.paths.get(path)
+      || (!path.includes('/') || path.startsWith('questions/') ? index.questions.ids.get(base) : null);
+    if (question) return { href: `#/card?qid=${encodeURIComponent(question)}`, unresolved: false };
+    const concept = index.concepts.paths.get(path) || index.concepts.ids.get(base.replace(/\s+/g, '-'));
+    if (concept) return { href: `#/concept/${encodeURIComponent(concept)}`, unresolved: false };
+    return { href: `#/concept/${legacyId}`, unresolved: true };
+  }
+
   function _inline(raw, options, embeds, footnotes) {
     let text = _esc(raw);
     const placeholders = [];
@@ -66,9 +112,10 @@ const NoteRenderer = (function () {
       return safe ? hold(`<img class="note-image" src="${_esc(safe)}" alt="${_esc(alt)}" loading="lazy" />`) : _esc(alt);
     });
     text = text.replace(/\[\[([^\]|]+?)(?:\|([^\]]+?))?\]\]/g, (_, target, label) => {
-      const id = String(target || '').trim().toLowerCase().replace(/\s+/g, '-');
       const display = label || target;
-      return `<a class="note-wikilink" href="#/concept/${_esc(id)}">${_esc(display)}</a>`;
+      const link = _resolveWikilink(target, options);
+      const className = link.unresolved ? 'note-wikilink note-wikilink-unresolved' : 'note-wikilink';
+      return `<a class="${className}" href="${_esc(link.href)}">${_esc(display)}</a>`;
     });
     text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
       const safe = _safeHref(href);
@@ -254,5 +301,5 @@ const NoteRenderer = (function () {
     return result;
   }
 
-  return { render, renderDocument, renderTo };
+  return { render, renderDocument, renderTo, setLinkIndexes };
 })();
