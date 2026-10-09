@@ -69,13 +69,13 @@ dateRev: 2026-10-09
 
 ### 重要徵象一覽
 
-| 徵象 | 在哪裡看 | 長什麼樣子 | 代表什麼 |
-| --- | --- | --- | --- |
-| Fleeting opacities | X 光，上肺 | 會出現、消失、換位置的陰影 | 實質化或肺塌陷[^1][^3]，可為嗜酸性肺炎[^5] |
-| Finger-in-glove | X 光、CT | 從肺門往外分岔的管狀白影，形狀像倒 V、倒 Y 或擠出來的牙膏 | 擴張的支氣管被黏液塞滿[^3][^7] |
-| 中央型支氣管擴張 | CT | 上葉為主、靠近肺門的段及次段支氣管變粗 | 位置見[^1][^6]；成因是持續發炎[^5] |
-| High-attenuation mucus | 非顯影 CT | 黏液比背部肌肉（paraspinal muscle）更白[^2]；客觀定義 >70 HU[^4]；用 mediastinal window 看最清楚[^15] | 特異度接近 100%[^2][^4] |
-| Tram-track | X 光 | 兩條平行線 | 支氣管擴張、管壁增厚[^1] |
+| 徵象                     | 在哪裡看   | 長什麼樣子                                                                                | 代表什麼                        |
+| ---------------------- | ------ | ------------------------------------------------------------------------------------ | --------------------------- |
+| Fleeting opacities     | X 光，上肺 | 會出現、消失、換位置的陰影                                                                        | 實質化或肺塌陷[^1][^3]，可為嗜酸性肺炎[^5] |
+| Finger-in-glove        | X 光、CT | 從肺門往外分岔的管狀白影，形狀像倒 V、倒 Y 或擠出來的牙膏                                                      | 擴張的支氣管被黏液塞滿[^3][^7]         |
+| 中央型支氣管擴張               | CT     | 上葉為主、靠近肺門的段及次段支氣管變粗                                                                  | 位置見[^1][^6]；成因是持續發炎[^5]     |
+| High-attenuation mucus | 非顯影 CT | 黏液比背部肌肉（paraspinal muscle）更白[^2]；客觀定義 >70 HU[^4]；在 mediastinal window 下黏液比軟組織更白[^15] | 特異度接近 100%[^2][^4]          |
+| Tram-track             | X 光    | 兩條平行線                                                                                | 支氣管擴張、管壁增厚[^1]              |
 
 ### 胸部 X 光
 
@@ -87,7 +87,7 @@ dateRev: 2026-10-09
 
 - **支氣管擴張**：約 95% 病人有[^1]。
   - 分布：上葉為主、中央型，通常雙側多葉，但不對稱[^1]。
-  - 侵犯範圍：主要是段及次段支氣管，遠端相對正常[^6]。
+  - 侵犯範圍：主要是上葉的段及次段支氣管[^6]。
 - **黏液栓**：約 70% 病人有；呈管狀或分枝狀，填在擴張的支氣管內[^1]。
 - **HAM**：
   - 判讀方法：在非顯影 CT 上，把黏液和背部肌肉比亮度[^2]。用 mediastinal window（縱膈腔視窗，看軟組織用的窗寬窗位）看，黏液比軟組織還白[^15]。
@@ -95,7 +95,7 @@ dateRev: 2026-10-09
   - 成因不完全明確，推測是鈣鹽、鐵、錳等金屬離子，或乾掉的黏液[^4]。
   - 預後：有 HAM 的病人比較容易反覆發作[^2]。
 - **其他表現**：
-  - 小葉中心結節或 tree-in-bud（小支氣管被填滿，像發芽的樹枝）[^1]；是細支氣管被黏液塞住造成的[^15]。
+  - 小葉中心結節或 tree-in-bud（小支氣管被填滿，像發芽的樹枝）[^1]；ABPA 的 tree-in-bud 是細支氣管被黏液塞住造成的[^15]。
   - 呼氣相 air trapping（吐氣時部分肺排不出空氣，顯得較黑）、mosaic attenuation（肺實質黑白相間）[^1]。
   - 晚期上葉纖維化[^3]。
 - **MRI**：HAM 在 MRI 上 T1 亮、T2 暗；但 MRI 不是常規檢查[^2][^5]。
@@ -154,7 +154,7 @@ dateRev: 2026-10-09
 解題思路：
 - (A) **錯誤**：ABPA 是過敏反應，好發於氣喘和 CF 病人[^1][^3]；嚴重免疫低下者得的是 angioinvasive aspergillosis[^10]。
 - (B) 正確：CF 是 ABPA 的易感疾病[^1][^2]。
-- (C) 題意應指 ABPA 病理上可見嗜酸性肺炎、同屬嗜酸性肺病[^1][^16]。但嚴格說，idiopathic chronic eosinophilic pneumonia 是 ABPA 的鑑別診斷[^5][^17]；選項措辭模糊，本題以 A 為明確錯誤選項。
+- (C) 題意應指 ABPA 同屬嗜酸性肺病[^16]，組織學上也可見嗜酸性肺炎[^1]。但嚴格說，idiopathic chronic eosinophilic pneumonia 是 ABPA 的鑑別診斷[^5][^17]；選項措辭模糊，本題以 A 為明確錯誤選項。
 - (D) 正確：finger-in-glove 是典型的黏液嵌塞表現[^1][^7]。
 - 官方詳解出處為 Diagnostic Imaging: Chest；詳解原文寫「severely immunosuppressed asthma patients」，疑為筆誤，待核。
 
@@ -165,7 +165,7 @@ dateRev: 2026-10-09
 [^3]: Amini B, Weerakkody Y, Silverstone L, et al. Allergic bronchopulmonary aspergillosis. Radiopaedia.org, rID 873. doi:10.53347/rID-873. Last revised 2026-01-29.（全文已讀；該頁診斷標準段仍為舊版）
 [^4]: Weerakkody Y, et al. High attenuation mucus. Radiopaedia.org, rID 81040. doi:10.53347/rID-81040. Last revised 2026-09-20.（全文已讀）
 [^5]: Agarwal R, Sehgal IS, Dhooria S, et al. Allergic bronchopulmonary aspergillosis. Indian J Med Res 2020;151(6):529-549. doi:10.4103/ijmr.IJMR_1187_19. PMID 32719226. PMC7602921.（開放全文已讀）
-[^6]: Little BP. Ch57 Bronchiectasis and Other Bronchial Abnormalities. Muller's Imaging of the Chest. Elsevier; 2019. pp.713–732.e3.（ClinicalKey 經機構登入已讀；版次頁面未顯示）
+[^6]: Little BP. Ch57 Bronchiectasis and Other Bronchial Abnormalities. Muller's Imaging of the Chest. 2nd ed. Elsevier; 2019. pp.713–732.e3.（ClinicalKey 經機構登入已讀）
 [^7]: Carrillo-Bayona JA. Finger-in-Glove Sign. STATdx, Chest › Differential Diagnosis › Airways › General Imaging Patterns, last updated 2020-02-10. Elsevier.（經機構登入已讀；頁面分 Common／Less Common 兩級）
 [^8]: Shah A, Kunal S. A review of 42 asthmatic children with allergic bronchopulmonary aspergillosis. Asia Pac Allergy 2017;7(3):148-155. doi:10.5415/apallergy.2017.7.3.148. PMID 28765819. PMC5537079.（依摘要，2026-10-09 PubMed 覆核）
 [^9]: Gaillard F, Wanderley M, Silverstone L, et al. Pulmonary aspergillosis. Radiopaedia.org, rID 937. doi:10.53347/rID-937. Last revised 2025-12-08.（全文已讀）
@@ -174,7 +174,7 @@ dateRev: 2026-10-09
 [^12]: Gaillard F, Goel A. Bronchial atresia. Radiopaedia.org, rID 1020. doi:10.53347/rID-1020. Last revised 2025-05-23.（全文已讀）
 [^13]: Gaillard F. Aspergilloma. Radiopaedia.org, rID 8680. doi:10.53347/rID-8680. Last revised 2025-05-22.（全文已讀）
 [^14]: Radiology Review Manual p.466（2018／2019／2022 交換考官方詳解所引；本輪未讀原書，僅作題目出處）。
-[^15]: Webb WR. Ch6 Lung Disease. Fundamentals of Body CT. Elsevier; 2020. pp.105–155.（ClinicalKey 經機構登入已讀；版次頁面未顯示）
+[^15]: Webb WR. Ch6 Lung Disease. Fundamentals of Body CT. 5th ed. Elsevier; 2020. pp.105–155.（ClinicalKey 經機構登入已讀）
 [^16]: Sirajuddin A, Kanne JP. Ch22 Eosinophilic Lung Disease. Problem Solving in Chest Imaging. Elsevier; 2020. pp.327–335.（ClinicalKey 經機構登入已讀；版次頁面未顯示）
 [^17]: Weerakkody Y, Goel A. Chronic eosinophilic pneumonia. Radiopaedia.org, rID 19123. doi:10.53347/rID-19123. Last revised 2026-06-05.（全文已讀）
 
