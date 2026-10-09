@@ -2066,7 +2066,7 @@
       "reference": "",
       "explanation": "[[Pulmonary embolism]]",
       "images": [],
-      "concepts": [],
+      "concepts": ["invasive-pulmonary-aspergillosis"],
       "checked": false
     },
     {

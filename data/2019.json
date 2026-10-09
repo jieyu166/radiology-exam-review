@@ -883,7 +883,7 @@
       "reference": "",
       "explanation": "",
       "images": [],
-      "concepts": [],
+      "concepts": ["invasive-pulmonary-aspergillosis"],
       "checked": false
     },
     {
@@ -918,7 +918,7 @@
       "reference": "",
       "explanation": "通常是Immunocompetent. from Chest. 2017 Jun;151(6):1356-1374.",
       "images": [],
-      "concepts": [],
+      "concepts": ["aspergilloma"],
       "checked": false
     },
     {
