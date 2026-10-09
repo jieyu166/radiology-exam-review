@@ -3571,7 +3571,7 @@
       "reference": "",
       "explanation": "The reverse halo sign has been shown to be a specific sign of mucormycosis, occurring in 19%–94% of patients with PM.\n- **A) TRUE** — RadioGraphics 文獻開宗明義指出 PM 是好發於免疫抑制患者的真菌感染。\n- **B) TRUE** — 文獻明確描述早期影像表現為 peribronchial ground-glass opacity，之後進展為 consolidation、nodules 或 masses。\n- **C) TRUE** — 經支氣管鏡取樣辨識菌絲形態可幫助確認診斷並與 IPA 鑑別。\n- **D) ❌ FALSE** — 這是關鍵考點。**Reverse halo sign（反暈徵）** 才是 PM 的特徵性表現（約 54–67% 出現），而 **halo sign** 是 invasive pulmonary aspergillosis（IPA）的特徵。EORTC/MSGERC 指引也指出 reverse halo sign 在 PM 中出現頻率遠高於 IPA（54% vs 6%）。選項把 halo sign 說成 mucormycosis 的特徵，張冠李戴。\n\n[!tip] 記憶口訣 **Halo → Aspergillosis** ｜ **Reverse Halo → Mucormycosis**",
       "images": [],
-      "concepts": [],
+      "concepts": ["mucormycosis"],
       "checked": false
     },
     {
