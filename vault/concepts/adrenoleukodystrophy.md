@@ -11,11 +11,10 @@ dateRev: 2026-07-12
 
 # adrenoleukodystrophy
 
-> [!info] Summary 圖・待醫師覆核
-> ![Summary 圖：X-linked ALD：兒童腦型](https://img-hosting.jieyu166.workers.dev/i/eEJux6R.png)
-> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/eEJux6R.png)
->
-> 教學摘要圖，內容仍待醫師覆核。
+> [!info] Summary 圖・醫師已覆核
+> ![Summary 圖：adrenoleukodystrophy・醫師已覆核](https://img-hosting.jieyu166.workers.dev/i/iQljMqY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/iQljMqY.png)
+> 圖片來源：Radiopaedia。依醫師指定更新 DDx 與覆核標示。
 
 
 **男童行為退步＋腦後部對稱白質 T2 亮＋周邊強化——這是 X-ALD 的三件套。** 過氧化體病，VLCFA 堆積；白質病灶從頂枕（peritrigonal）向前推進，最先侵犯 splenium（胼胝體壓部）。三區帶記憶：中央壞死（T2 最亮）→ 中間活動性脫髓鞘（leading edge 強化）→ 前緣活動帶。鑑別：Alexander 額葉為主；Krabbe 後肢/錐體束及視放射；MS 不對稱且年長。

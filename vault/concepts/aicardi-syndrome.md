@@ -13,11 +13,10 @@ same:
 
 # aicardi-syndrome
 
-> [!info] Summary 圖・待醫師覆核
-> ![Summary 圖：Aicardi syndrome](https://img-hosting.jieyu166.workers.dev/i/LL33cbz.png)
-> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/LL33cbz.png)
->
-> 教學摘要圖，內容仍待醫師覆核。
+> [!info] Summary 圖・醫師已覆核
+> ![Summary 圖：aicardi-syndrome・醫師已覆核](https://img-hosting.jieyu166.workers.dev/i/3PjxS5N.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/3PjxS5N.png)
+> 教學摘要圖；2026-09-25 醫師確認覆核。
 
 
 **Aicardi 症候群為 X 連鎖、對男性致死之罕見嚴重發育性疾病（幾乎僅女性表現，罕見 47,XXY 男性例外），典型三主徵：胼胝體發育不良（agenesis of CC）、脈絡膜視網膜缺損（chorioretinal lacunae，almost pathognomonic）、嬰兒痙攣（infantile spasms/早發癲癇）——『顱內囊腫』不屬三主徵。** 判讀分水嶺：**胼胝體發育不良最一致；chorioretinal lacunae 為視神經盤周圍點狀 punched-out 病灶、近 pathognomonic；infantile spasms 呈點頭式（salaam）；interhemispheric/後顱窩囊腫與 choroid plexus papilloma 雖常見但非三主徵成員。**

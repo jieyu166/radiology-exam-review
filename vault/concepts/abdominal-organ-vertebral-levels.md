@@ -11,6 +11,10 @@ dateRev: 2026-07-03
 
 # abdominal-organ-vertebral-levels
 
+> [!info] Summary 圖・醫師已覆核
+> ![腹部解剖定位 T12–L4：醫師已覆核](https://img-hosting.jieyu166.workers.dev/i/9jlDpoz.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/9jlDpoz.png)
+
 **腹部器官頭尾側排列記憶：T12（右腎上腺、celiac trunk）→ L1（幽門、SMA）→ L2（左腎靜脈）→ L3（十二指腸水平部、IMA）→ L4（腹主動脈/髂總動脈分叉）——由上而下依脊椎節數排列是此類排序題的解法。** 判讀分水嶺：**celiac T12、SMA L1、IMA L3、aortic bifurcation L4（Radiopaedia 確認）；left renal vein L2（走 SMA 下方、aorta 前方 → nutcracker）；D3 於 L3 走 SMA 與 aorta 之間（SMA syndrome）。**
 
 ## Summary
