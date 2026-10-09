@@ -5,9 +5,8 @@ subspecialty: [NR]
 aliases:
   - CNS opportunistic infection
   - ring-enhancing lesion DWI
-  - cerebral toxoplasmosis
   - 中樞神經伺機性感染
-dateRev: 2026-06-29
+dateRev: 2026-10-09
 same:
   - "[[brain-abscess]]"
 ---
@@ -27,7 +26,7 @@ same:
 | 特徵 | Toxoplasmosis | Primary CNS lymphoma（PCNSL） |
 |---|---|---|
 | 部位 | 多發，**基底節／灰白質交界**為主[^2] | **室周（periventricular）／胼胝體**，常**室管膜下擴散（subependymal spread）**[^3] |
-| 強化型態 | **環狀**或結節強化；**eccentric target sign**（偏心強化核心＋中間低訊號＋外環強化）[^4] | 在 AIDS（免疫低下）常呈**環狀**強化（壞死所致）；免疫健全者多為**均勻實質強化**[^3] |
+| 強化型態 | **環狀**或結節強化；**eccentric target sign**（強化環的壁上一顆偏心強化小結節；細節見 [[cerebral-toxoplasmosis]]）[^4] | 在 AIDS（免疫低下）常呈**環狀**強化（壞死所致）；免疫健全者多為**均勻實質強化**[^3] |
 | 數目 | 通常多發 | 可單發或多發 |
 | 非顯影 CT | — | 病灶可呈**高衰減（hyperattenuation）**，反映高細胞密度[^3] |
 | 擴散（DWI/ADC） | 核心擴散多**不明顯受限**（不同於化膿性膿瘍）[^4] | 高細胞密度 → **擴散受限、ADC 偏低**；惟與 toxo **ADC 有重疊**，不可單獨判讀[^5] |
@@ -35,7 +34,7 @@ same:
 | 類固醇反應 | 對 anti-toxo 治療反應 | 對類固醇常**暫時消退（vanishing tumor）**，但會復發[^3] |
 
 - **判讀分水嶺**：DWI／ADC 兩者重疊，**單靠擴散無法可靠區分** toxo 與 PCNSL[^5]；**Thallium-201 SPECT 或 FDG-PET 的代謝高低（lymphoma 高、toxo 低）較具鑑別力**[^5][^6]，必要時輔以灌注（PCNSL rCBV 通常不高，異於高惡性度膠質瘤）、MRS 與 **anti-toxoplasma 經驗性治療試驗（2 週影像未改善偏向 lymphoma）**作為臨床決策依據。[^3][^5]
-- **陷阱**：toxo 與 PCNSL 影像（環狀強化＋擴散受限）可重疊；type sign（target sign）非 toxo 專屬，淋巴瘤亦可偽裝。[^4]
+- **陷阱**：toxo 與 PCNSL 影像（環狀強化＋擴散受限）可重疊；target sign 非 toxo 專屬，淋巴瘤亦可偽裝。[^4]
 
 ### 二、白質與室管膜病變（多不強化或線狀強化）
 
@@ -56,7 +55,7 @@ same:
 [^1]: *Cerebral abscess* / *Dual rim sign*. Radiopaedia.org（Tier 輔助，實際查證 accessed 2026-06-29）：化膿性膿瘍中心 **DWI 明顯受限**,與壞死腫瘤（多不受限）區別;DWI 為鑑別環狀強化病灶之關鍵。見 [[brain-abscess]]。
 [^2]: *Cerebral toxoplasmosis*. Radiopaedia.org（Tier 輔助，實際查證 accessed 2026-06-29）：**AIDS 最常見的機會性 CNS 感染**;多發環狀強化、好發基底節/灰白質交界、eccentric target sign。
 [^3]: Dina TS. Primary central nervous system lymphoma versus toxoplasmosis in AIDS. *Radiology*. 1991;179(3):823-828.（Tier 1，Radiology；DOI: 10.1148/radiology.179.3.2027999）：PCNSL 之**室管膜下擴散**與**非顯影 CT 高衰減**為與 toxo 較可靠的鑑別徵象；類固醇後可暫時消退。
-[^4]: Mahadevan A, et al.（eurorad case 17054）/ Radiopaedia *Cerebral toxoplasmosis*（Tier 輔助，accessed 2026-06-29）：toxo 之 **eccentric target sign**（偏心強化核心、中間低訊號、外環強化）；核心擴散多不明顯受限；target sign 非 toxo 專屬，淋巴瘤可偽裝。
+[^4]: Mahadevan A, et al.（eurorad case 17054）/ Radiopaedia *Cerebral toxoplasmosis*（Tier 輔助，accessed 2026-06-29）：toxo 之 **eccentric target sign**（強化環壁上的偏心強化小結節）；核心擴散多不明顯受限；target sign 非 toxo 專屬，淋巴瘤可偽裝。
 [^5]: Skiest DJ 等綜述 / *Different facets of intracranial CNS lymphoma and its imaging mimics*（J Clin Imaging Sci，accessed 2026-06-29）：DWI/ADC 在 toxo 與 PCNSL **有重疊、不可靠**;**Thallium-201 SPECT 或 PET**中 lymphoma 攝取增加、toxoplasmosis 攝取低/極微，可協助鑑別。
 [^6]: Yamashita K, et al. Imaging in Differentiating Cerebral Toxoplasmosis and Primary CNS Lymphoma With Special Focus on FDG PET/CT. *AJR Am J Roentgenol*. 2021.（Tier 1，AJR；DOI: 10.2214/AJR.19.22629）：**FDG-PET/CT 中 PCNSL 高代謝、toxoplasmosis 低代謝**為主要鑑別依據。
 [^7]: Radiopaedia *Progressive multifocal leukoencephalopathy* 及相關影像綜述（Tier 輔助，accessed 2026-06-29）：PML 為**不對稱**、T2 高/T1 低之白質病變，**侵犯皮質下 U-fiber**、好發頂枕葉，**典型無強化、無腫塊效應**（約 90% 典型表現）;HIV 腦病變對稱、不強化、合併萎縮。
