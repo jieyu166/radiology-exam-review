@@ -4745,9 +4745,9 @@
       ],
       "correctAnswer": "C",
       "reference": "",
-      "explanation": "這是gelatinous pseudycysts不會顯影。\nA.  備註 Cyst with dot sign -> vesicular stage",
+      "explanation": "**答案有爭議**：官方詳解答案欄以紅字註記「4（都對?????）」（官方答案為 D），題卡依原詳解採 C。題目出處：Diagnostic Imaging: Brain 3rd ed. p.712, 716, 747。\n- (A) 原詳解備註：cyst with dot sign → vesicular stage（本輪未查證）。\n- (B) TB 腦膜炎好發腦底（STATdx Cryptococcosis 2025 鑑別段）；TB 比隱球菌更常有腦底腦池強化（Sakai, Jpn J Radiol 2021）。\n- (C) 爭議點：gelatinous pseudocyst 典型**不強化**（STATdx Cryptococcosis 2025），所以題卡判 C 錯；但重症或 IRIS 時可以強化（STATdx Bilateral Basal Ganglia Lesions、IRIS），Requisites 5e Ch5 也寫擴大的 VR 腔可強化也可不強化，所以 C 也可能被視為正確。\n- (D) PML 白質病灶一般不強化、無腫塊效應（Sakai, Jpn J Radiol 2021）。",
       "images": [],
-      "concepts": [],
+      "concepts": ["cryptococcosis"],
       "checked": false
     },
     {
