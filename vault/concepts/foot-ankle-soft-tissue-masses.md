@@ -45,7 +45,7 @@ dateRev: 2026-07-10
 [^2]: *Ganglion cyst*. Radiopaedia.org（實際查證 accessed 2026-07-06）：ganglion cyst 為**最常見的軟組織腫塊**，好發年輕女性，約 70–80% 位於手／腕，足踝亦為好發部位；為含膠狀液之囊性病灶（T1 低、T2 高），與關節囊／腱鞘相通。
 
 ## 題目
-> [!question]- An MRI appearance of homogeneous low T1- and T2-weighted signal with enhancement is MOST typical of which foot and ankle mass? (2018-069)
+> [!question]- An MRI appearance of homogeneous low T1- and T2-weighted signal with enhancement is MOST typical of which foot and ankle mass? (2018-069；2018、2019、2021、2022、2023 年重複出題)
 > **Plantar fibromatosis（C）**——纖維性腫塊含成熟膠原,T1/T2皆均勻低訊號且強化。Lipoma(A,脂肪高訊號)、Ganglion cyst(B,T2高)、Hemangioma(D,混雜)、Morton neuroma(E,T1等肌肉/T2低)訊號皆不符。[^1]
 
 > [!question]- Which soft-tissue mass is MOST common in foot and ankle? (2022-460)
@@ -53,9 +53,6 @@ dateRev: 2026-07-10
 
 > [!question]- Which is the most specific examination for characterization of a soft-tissue neoplasm in the foot? (2022-461)
 > **MRI（A，關鍵）**——MRI 高軟組織對比，可依 T1／T2／脂肪抑制／強化型態辨別脂肪、纖維、囊液、血管等成分，為足部軟組織腫瘤特徵化最具特異性之檢查。CT(B) 軟組織對比差、PET(C) 主用於代謝／分期、Sonography(D) 適合初步囊實性判別但特異度較低。詳見 [[foot-ankle-soft-tissue-masses]]。[^1]
-
-> [!question]- An MRI appearance of homogeneous low T1- and T2-weighted signal with enhancement is MOST typical of which foot and ankle mass? (2021-334)
-> **D（Plantar fibromatosis）**——纖維性腫塊含成熟膠原，呈 T1、T2 皆均勻低訊號且會強化。A Morton's neuroma（T1 等肌肉、T2 低）、B Lipoma（T1/T2 高）、C Ganglion cyst（T1 低 T2 高、僅薄邊環狀強化）、E Hemangioma（混雜訊號）訊號組合皆不符。
 
 ## 考題
 ```dataview
