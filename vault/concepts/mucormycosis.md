@@ -7,6 +7,7 @@ aliases:
   - zygomycosis
   - rhinocerebral mucormycosis
   - rhino-orbito-cerebral mucormycosis
+  - ROCM
   - sinonasal mucormycosis
   - pulmonary mucormycosis
   - black turbinate sign
@@ -24,15 +25,15 @@ dateRev: 2026-10-09
 > 教學摘要圖，內容仍待醫師覆核。
 
 
-**白黴菌（mucor）和麴菌一樣會鑽進血管，把組織弄死。** 最常考的兩型是[^2][^3]：
+**白黴菌（mucor）和麴菌一樣會鑽進血管，把組織弄死。** 最重要的兩型是[^2][^3]：
 - **鼻竇–眼眶–腦型（ROCM）**：典型病人是控制不良的糖尿病。
 - **肺型**：典型病人是血液腫瘤。
 
-影像的核心是「組織已經壞死」：增強 MRI 上黏膜不強化（black turbinate sign），骨頭還沒被破壞，周圍脂肪就先浸潤了[^1][^4]。
+影像的核心是「組織已經壞死」：增強 MRI 上黏膜不強化（black turbinate sign）；鼻竇骨壁還沒被破壞，竇壁外的脂肪就先變髒了[^1][^4]。
 
 ## Summary
 
-- **誰會得**：糖尿病（尤其酮酸中毒）、血液腫瘤、器官移植、類固醇、嗜中性球低下；用 deferoxamine 治療鐵過載的病人也是高危險群[^2][^3]。
+- **誰會得**：糖尿病（尤其酮酸中毒）、血液腫瘤、器官移植、類固醇、嗜中性球低下；用 deferoxamine（鐵螯合劑）治療鐵過載的病人也是高危險群，因為它和鐵的螯合物會刺激黴菌生長[^2]。
 - **ROCM**：常從中鼻甲開始；最早表現是單側鼻腔軟組織增厚[^1][^4]。
 - **MRI 訊號**：T1 多為等訊號（約 80%），T2 多變、只有約 20% 呈高訊號[^5]。
 - **肺型**：結節或實質化；reversed halo、≥10 顆結節、肋膜積液偏向 mucor 而非麴菌[^2][^7]。
@@ -41,9 +42,11 @@ dateRev: 2026-10-09
 ## 定義與術語
 
 - **Mucormycosis（zygomycosis）**：Mucorales 目黴菌造成的感染，最常見 Rhizopus、Mucor[^2]。
-- **侵犯血管（angioinvasive）**：菌絲鑽進血管壁 → 血栓、梗塞、壞死[^2][^3]。
+- **侵犯血管（angioinvasive）**：菌絲鑽進血管壁 → 梗塞、壞死[^2][^3]。
 - **Black turbinate sign**：增強 MRI 上，該強化的鼻甲黏膜不強化，代表黏膜已經壞死[^5][^6]。
+- **Halo sign**：結節周圍一圈毛玻璃影，代表周邊出血[^2]。
 - **Reversed halo sign**：肺部病灶中央是毛玻璃影（GGO），外圍一圈實質化[^3]。
+- **Air crescent**：空洞內的新月形空氣[^2]。
 - **侵襲性黴菌鼻竇炎三型**[^1][^8]：
   - 急性侵襲型：數小時到數天內進展，侵犯血管、骨頭、眼眶、顱內。
   - 慢性侵襲型：病程超過 12 週。
@@ -51,17 +54,17 @@ dateRev: 2026-10-09
 
 ## 病因與機轉
 
-- 族群決定菌種：急性侵襲性黴菌鼻竇炎中，嗜中性球低下者 80% 是麴菌，糖尿病者 80% 是白黴菌[^1]。
-- 為什麼糖尿病容易得 ROCM：ROCM 典型出現在糖尿病病人，而糖尿病病人很少有肺部感染[^3]。
+- 宿主不同，菌種比例不同：急性侵襲性黴菌鼻竇炎中，嗜中性球低下者 80% 是麴菌，糖尿病者 80% 是白黴菌[^1]。
+- 族群與型別對應：ROCM 典型見於糖尿病病人；糖尿病病人很少出現肺部感染[^3]。
 - 擴散：
   - 菌絲侵犯血管 → 黏膜梗塞壞死 → 迅速擴散到鼻竇、眼眶 → 經篩板、眼動脈或海綿竇進入顱內[^9]。
   - 黴菌沿血管周圍通道穿過骨頭，所以**骨壁看起來完整時，病灶可能已經在外面了**[^1][^4]。
-  - 也可以沿神經擴散，例如沿三叉神經到腦幹[^3][^10]。
+  - 也可以沿神經擴散，例如沿三叉神經到橋腦[^3][^10]。
 
 ## 臨床表現
 
-- 糖尿病合併鼻竇炎、眼痛或臉痛時，要高度懷疑[^9]；出現突眼、眼肌麻痺、新發失明時，ECMM 指引強烈建議做頭部 CT 或 MRI[^3]。
-- 鼻竇型死亡率 30–80%；顱內擴散是死亡最強的預測因子[^1]。
+- 糖尿病病人出現臉痛、鼻竇炎、突眼、眼肌麻痺或新發失明時，歐洲醫學真菌學聯盟（ECMM）指引強烈建議做頭部 CT 或 MRI[^3]。
+- 急性侵襲性黴菌鼻竇炎（不分菌種）死亡率 30–80%；顱內擴散是死亡最強的預測因子[^1]。
 - COVID-19 期間印度出現大量病例（CAM），主因是未控制的糖尿病與不當使用類固醇[^11]。
 
 ## 影像診斷
@@ -74,7 +77,7 @@ dateRev: 2026-10-09
 | 上頷竇周圍脂肪浸潤 | CT、T1 | 竇壁外面的脂肪變髒 | 黴菌已經穿出鼻竇，常是血管侵犯的第一個徵象[^1][^4] |
 | Black turbinate | 增強 MRI | 鼻甲黏膜不強化 | 黏膜壞死[^5][^6] |
 | T2 低訊號 | MRI | 病灶在 T2 偏暗 | 黴菌成分[^1][^5] |
-| 海綿竇、ICA 侵犯 | MRI、CTA | 海綿竇不強化、ICA 狹窄或閉塞 | 血管被侵犯[^1][^9] |
+| 海綿竇、內頸動脈（ICA）侵犯 | MRI、CTA（電腦斷層血管攝影）、CTV | 海綿竇血栓（CTV 較適合）、ICA 狹窄或閉塞 | 血管被侵犯，可造成腦梗塞[^1] |
 | Reversed halo | 胸部 CT | 中央 GGO、外圍一圈實質化 | 中央梗塞，周邊機化性肺炎與出血[^12] |
 
 ### CT（鼻竇）
@@ -85,20 +88,20 @@ dateRev: 2026-10-09
 
 ### MRI
 
-- MRI 是看軟組織延伸的首選；骨頭變化看 CT，眼眶和顱內侵犯看增強 MRI[^4][^9]。
+- MRI 是看軟組織延伸的首選；骨頭變化看 CT，眼眶和顱內侵犯看增強 MRI[^4][^19]。
 - T1：多數（約 80%）與腦等訊號[^5]。
 - T2：多變，只有約 20% 呈高訊號，黴菌成分偏低訊號[^5]。
-- 增強後：壞死黏膜不強化＝black turbinate sign[^5]；強化可從均勻、不均勻到完全不強化[^5][^6]。
+- 增強後：壞死黏膜不強化＝black turbinate sign[^5]；被侵犯的軟組織仍可強化[^1]。
 - 腦實質：mucor 常見**額葉**病灶，擴散明顯受限[^14]。
 
 > [!warning] Black turbinate 的假陽性
-> 沒有黴菌鼻竇炎的人，30% 的 MRI 也看得到不強化的鼻甲，多在**下鼻甲後段**[^15]。良性者在後續序列強化漸增、周邊保留一圈薄薄的強化[^15]。
+> 沒有黴菌鼻竇炎的人，30% 的 MRI 也看得到不強化的鼻甲，多在**下鼻甲後段**[^15]。良性者在較晚的增強影像上強化會逐漸增加、周邊保留一圈薄薄的強化[^15]。
 
 ### 肺部
 
 - 早期是支氣管周圍毛玻璃影，之後進展為實質化、結節或腫塊[^16]。
 - 結節或腫塊周圍可以有 halo，通常在第一次 CT 就看得到[^2]。
-- **Reversed halo**：在免疫低下宿主中，mucor 是最常見的原因[^2]；但在一般族群，reversed halo 最常見的原因是 organizing pneumonia[^17]。
+- **Reversed halo**：在免疫低下宿主中，mucor 是最常見的原因[^2]；但在一般族群，reversed halo 最常見的原因是 organizing pneumonia（OP，機化性肺炎）[^17]。
 - 空洞或 air crescent 通常較晚出現[^2]。
 
 ## 鑑別與報告要點
@@ -125,23 +128,23 @@ dateRev: 2026-10-09
 - (D) **錯誤**：T1 多為等訊號（約 80%），T2 多變、只有約 20% 高訊號，黴菌成分偏低訊號[^5]。
 - (A) 正確：好發糖尿病與免疫低下[^1][^2]。
 - (B) 正確：侵犯血管、造成壞死，迅速擴散到深部臉部、眼眶、顱內[^1][^9]。
-- (C) 正確：強化型態多變，壞死黏膜不強化[^5]。
-- (E) 正確：侵犯血管造成血栓，可導致腦梗塞[^1][^9]。
+- (C) 本題視為正確：壞死黏膜不強化[^5]，被侵犯的軟組織仍可強化[^1]；「從均勻到不均勻都有」的完整說法本次查證未見出處，來源待查。
+- (E) 正確：侵犯血管造成 ICA 狹窄閉塞，可導致腦梗塞[^1][^20]。
 
 > [!note] 考點（2020 交換：[[2020-100]]）
 > 問「pulmonary mucormycosis 何者**錯誤**」，答 **D（halo sign 是 mucor 的特徵）**。題目出處是 Agrawal 2020 RadioGraphics[^16]。
 
 解題思路：
-- (D) **錯誤**：halo 不是 mucor 的「特徵」。mucor 也可以有 halo[^2]，而且 halo 在 mucor 和麴菌出現的頻率沒有差異[^7]；比較偏向 mucor 的是 reversed halo[^2]。
+- (D) **錯誤**：halo（結節外一圈毛玻璃）mucor 和麴菌都會有[^2]，出現頻率差不多，所以不能拿來區分[^7]；比較偏向 mucor 的是 reversed halo[^2]。
 - (A) 正確：好發免疫低下病人[^2][^16]。
 - (B) 正確：早期支氣管周圍毛玻璃影，之後進展為實質化、結節或腫塊[^16]。
-- (C) 正確：組織中找到菌絲有助確診；ECMM 指引強烈建議切片[^3]。
+- (C) 正確：題目的 endobronchial sampling 就是經支氣管鏡取樣；切片（病理）有助確診，ECMM 指引強烈建議切片[^3]。
 
 ### 參考來源
 
 [^1]: Winegar BA, Koontz NA. Invasive Fungal Sinusitis. STATdx, Head and Neck › Diagnosis › Nose and Sinus › Infectious and Inflammatory Lesions, last updated 2025-07-10. Elsevier.（經機構登入全文已讀，2026-10-09）
 [^2]: Betancourt-Cuellar SL. Zygomycosis. STATdx, Chest › Diagnosis › Infections › Fungi, last updated 2021-09-27. Elsevier.（經機構登入全文已讀）
-[^3]: Cornely OA, Alastruey-Izquierdo A, Arenz D, et al. Global guideline for the diagnosis and management of mucormycosis: an initiative of the European Confederation of Medical Mycology in cooperation with the Mycoses Study Group Education and Research Consortium. Lancet Infect Dis 2019;19(12):e405-e421. doi:10.1016/S1473-3099(19)30312-3. PMID 31699664. PMC8559573.（開放全文已讀）
+[^3]: Cornely OA, Alastruey-Izquierdo A, Arenz D, et al. Global guideline for the diagnosis and management of mucormycosis: an initiative of the European Confederation of Medical Mycology in cooperation with the Mycoses Study Group Education and Research Consortium. Lancet Infect Dis 2019;19(12):e405-e421. doi:10.1016/S1473-3099(19)30312-3. PMID 31699664. PMC8559573.（開放全文已讀；附錄未讀）
 [^4]: Gaillard F, Weerakkody Y. Acute invasive fungal sinusitis. Radiopaedia.org, rID 9367. doi:10.53347/rID-9367. Last revised 2026-09-18.（全文已讀）
 [^5]: Weerakkody Y, Yap J, Bell D, et al. Sinonasal mucormycosis. Radiopaedia.org, rID 42058. doi:10.53347/rID-42058. Last revised 2025-10-13.（全文已讀）
 [^6]: Holland M, Niknejad M. Black turbinate sign (nasal cavity). Radiopaedia.org, rID 19404. doi:10.53347/rID-19404. Last revised 2025-07-29.（全文已讀）
@@ -157,6 +160,8 @@ dateRev: 2026-10-09
 [^16]: Agrawal R, Yeldandi A, Savas H, Parekh ND, Lombardi PJ, Hart EM. Pulmonary Mucormycosis: Risk Factors, Radiologic Findings, and Pathologic Correlation. RadioGraphics 2020;40(3):656-666. doi:10.1148/rg.2020190156. PMID 32196429.（依摘要；2020 交換考題出處）
 [^17]: Martínez-Jiménez S. Reversed Halo Sign. STATdx, Chest › Differential Diagnosis › Lungs and Airspaces › Modality-Specific Imaging Findings: Computed Tomography, last updated 2019-10-16. Elsevier.（經機構登入已讀）
 [^18]: Marchiori E, Marom EM, Zanetti G, et al. Reversed halo sign in invasive fungal infections: criteria for differentiation from organizing pneumonia. Chest 2012;142(6):1469-1473. doi:10.1378/chest.12-0114. PMID 22539645.（依摘要）
+[^19]: Joshi V, Sansi R, Sen S, Saxena P. Ch23 Paranasal Sinuses, Invasive Fungal Sinusitis 小節. CT and MRI of the Whole Body. 6th ed. Elsevier; 2017. pp.684–702.（ClinicalKey 經機構登入已讀）
+[^20]: Kurokawa M, Kurokawa R, Baba A, et al. Deadly Fungi: Invasive Fungal Rhinosinusitis in the Head and Neck. RadioGraphics 2022;42(7):2075-2094. doi:10.1148/rg.220059. PMID 36178803.（依摘要）
 
 ## 題目
 
