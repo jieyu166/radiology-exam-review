@@ -197,6 +197,17 @@ a { color: var(--primary); text-decoration: none; }
   box-shadow: var(--shadow-lg);
   z-index: 200;
   padding: 20px;
+  max-height: calc(100vh - var(--nav-h));
+  max-height: calc(100dvh - var(--nav-h));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 639px) {
+  .settings-panel {
+    max-height: calc(100vh - var(--nav-h) - var(--bottom-nav-h));
+    max-height: calc(100dvh - var(--nav-h) - var(--bottom-nav-h));
+  }
 }
 .settings-title { font-size: 1rem; font-weight: 700; margin-bottom: 16px; color: var(--text); }
 .settings-row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
