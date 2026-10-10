@@ -1,7 +1,7 @@
 ---
 concepts: [necrotizing-fasciitis-imaging]
 name: Necrotizing Fasciitis — CT Diagnosis
-subspecialty: [MSK, ER]
+subspecialty: [MSK]
 aliases:
   - necrotizing fasciitis
   - gas tracking fascial planes
