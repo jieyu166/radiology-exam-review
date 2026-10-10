@@ -1,5 +1,6 @@
 ---
 concepts: [medulloblastoma-subtypes]
+subspecialty: [NR]
 tags: [concept, NR, PED]
 aliases: [medulloblastoma molecular subtypes, MB subtypes]
 see: "[[medulloblastoma-molecular-subgroups]]"

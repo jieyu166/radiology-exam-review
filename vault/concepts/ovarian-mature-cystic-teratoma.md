@@ -1,5 +1,6 @@
 ---
 concepts: [ovarian-mature-cystic-teratoma]
+subspecialty: [OBGYN, ABD]
 tags: [radiology-concept, GU]
 aliases: [dermoid cyst, mature cystic teratoma]
 dateCreated: 2026-07-02
