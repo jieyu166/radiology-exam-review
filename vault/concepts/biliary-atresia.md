@@ -1,7 +1,7 @@
 ---
 concepts: [biliary-atresia]
 name: Biliary Atresia
-subspecialty: [PE, ABD]
+subspecialty: [PED, ABD]
 aliases:
   - biliary atresia
   - triangular cord sign

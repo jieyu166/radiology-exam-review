@@ -1,7 +1,7 @@
 ---
 concepts: [radiation-dose-pregnancy]
 name: Radiation Dose Thresholds in Pregnancy
-subspecialty: [RP]
+subspecialty: [Physics]
 aliases:
   - 懷孕輻射劑量
   - pregnancy radiation dose

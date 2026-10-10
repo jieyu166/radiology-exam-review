@@ -1,7 +1,7 @@
 ---
 concepts: [congenital-syphilis-imaging]
 name: Congenital Syphilis Imaging Signs
-subspecialty: [PE]
+subspecialty: [PED]
 aliases:
   - congenital syphilis
   - Wimberger corner sign
@@ -12,6 +12,11 @@ dateRev: 2026-07-03
 ---
 
 # congenital-syphilis-imaging
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-bph-congenital-syphilis-skeletal-v1.png]]
+> [[summary-graphics/images/remaining-bph-congenital-syphilis-skeletal-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-congenital-syphilis-skeletal|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **先天性梅毒的骨骼影像以「對稱、多發」為特徵——osteochondritis/metaphysitis（乾骺端透亮帶）、對稱性 periostitis、以及 Wimberger corner sign（雙側近端脛骨「內側」乾骺端破壞，pathognomonic）。考題核心陷阱：Wimberger corner sign 屬梅毒，而 Wimberger ring sign（骨骺周圍環狀鈣化）屬壞血病（scurvy），兩者常被混稱。** 判讀分水嶺：**看到「雙側對稱、內側近端脛骨乾骺端破壞」＝梅毒 Wimberger corner；看到「骨骺骨化中心外圍環狀緻密環」＝壞血病 Wimberger ring——名字像、疾病不同。**
 

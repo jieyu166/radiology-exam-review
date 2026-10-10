@@ -1,7 +1,7 @@
 ---
 concepts: [intracranial-high-t1]
 name: Intracranial Lesions with High T1 Signal
-subspecialty: [Neuro]
+subspecialty: [NR]
 aliases:
   - 顱內T1高訊號病灶
 ---

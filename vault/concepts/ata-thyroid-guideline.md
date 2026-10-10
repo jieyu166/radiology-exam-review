@@ -1,7 +1,7 @@
 ---
 concepts: [ata-thyroid-guideline]
 name: 2015 ATA Thyroid Nodule Guideline
-subspecialty: [HN]
+subspecialty: [H&N]
 aliases:
   - ATA 2015
   - thyroid nodule management

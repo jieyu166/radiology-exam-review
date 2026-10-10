@@ -1,7 +1,7 @@
 ---
 concepts: [adult-congenital-heart-disease-followup]
 name: Adult Congenital Heart Disease (ACHD) — Epidemiology & Imaging Follow-up
-subspecialty: [PE, CV]
+subspecialty: [PED, CV]
 aliases:
   - ACHD
   - adult congenital heart disease

@@ -1,7 +1,7 @@
 ---
 concepts: [ring-sling-syndrome]
 name: Ring-Sling Syndrome (Congenital Tracheal Stenosis + Pulmonary Artery Sling)
-subspecialty: [PE, CH]
+subspecialty: [PED, CH]
 aliases:
   - ring-sling complex
   - pulmonary artery sling
@@ -13,6 +13,11 @@ dateRev: 2026-07-12
 ---
 
 # ring-sling-syndrome
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-bph-ring-sling-syndrome-v1.png]]
+> [[summary-graphics/images/remaining-bph-ring-sling-syndrome-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-ring-sling-syndrome|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **環形氣管-左肺動脈吊索（ring-sling complex）＝肺動脈吊索（PAS）合併「完整軟骨環（complete cartilaginous rings）之內在性氣管狹窄」——關鍵是「氣管本身發育不良/內在狹窄才是病灶，吊索壓迫是另一問題」。氣管狹窄範圍常遠超吊索壓迫處，單純把左肺動脈重植到主肺動脈幹並不能解決內在氣管狹窄，需另做氣管支氣管重建（如滑動氣管整形術）。** 判讀分水嶺：**肺動脈吊索是「唯一固定走行於氣管與食道之間」的血管環→食道攝影呈「前方」壓跡（別的血管環是後方）；軸位 CT 見「圓形小口徑氣管」＝完整軟骨環，提示 ring-sling complex（Type II），此型才需氣管重建。**
 

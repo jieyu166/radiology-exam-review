@@ -1,7 +1,7 @@
 ---
 concepts: [pediatric-cervical-spine-trauma-imaging]
 name: Pediatric Cervical Spine Trauma — Imaging Pearls
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 aliases:
   - pediatric cervical spine trauma
   - pseudosubluxation

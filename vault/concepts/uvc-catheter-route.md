@@ -1,7 +1,7 @@
 ---
 concepts: [uvc-catheter-route]
 name: Umbilical Venous Catheter Route
-subspecialty: [PE]
+subspecialty: [PED]
 aliases:
   - UVC
   - 臍靜脈導管路徑

@@ -1,7 +1,7 @@
 ---
 concepts: [posttreatment-head-neck-cancer]
 name: Posttreatment Head and Neck Cancer Imaging
-subspecialty: [Neuro]
+subspecialty: [NR]
 aliases:
   - 頭頸癌治療後影像
 ---

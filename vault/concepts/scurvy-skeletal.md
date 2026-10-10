@@ -1,7 +1,7 @@
 ---
 concepts: [scurvy-skeletal]
 name: Scurvy Skeletal Findings
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 aliases:
   - 壞血病骨骼表現
   - vitamin C deficiency

@@ -1,7 +1,7 @@
 ---
 concepts: [corpus-callosum-agenesis-signs]
 name: Agenesis of Corpus Callosum — Imaging Signs
-subspecialty: [NR, PE]
+subspecialty: [NR, PED]
 aliases:
   - agenesis of corpus callosum
   - dysgenesis of corpus callosum

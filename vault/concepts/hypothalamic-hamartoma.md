@@ -1,7 +1,7 @@
 ---
 concepts: [hypothalamic-hamartoma]
 name: Hypothalamic Hamartoma
-subspecialty: [NR, PE]
+subspecialty: [NR, PED]
 aliases:
   - hypothalamic hamartoma
   - tuber cinereum hamartoma

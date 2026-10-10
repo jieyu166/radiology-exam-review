@@ -1,7 +1,7 @@
 ---
 concepts: [ajcc-head-neck-8th]
 name: AJCC 8th Edition Head & Neck Staging
-subspecialty: [HN]
+subspecialty: [H&N]
 aliases:
   - AJCC 8th head neck
   - p16 oropharyngeal staging

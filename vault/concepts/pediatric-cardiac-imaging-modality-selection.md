@@ -1,7 +1,7 @@
 ---
 concepts: [pediatric-cardiac-imaging-modality-selection]
 name: Pediatric Cardiac Imaging — Modality Selection (CHD)
-subspecialty: [PE, CV]
+subspecialty: [PED, CV]
 aliases:
   - cardiac CT vs MRI children
   - CHD imaging modality

@@ -1,7 +1,7 @@
 ---
 concepts: [hair-on-end-skull]
 name: Hair-on-End Skull Appearance
-subspecialty: [NR, PE]
+subspecialty: [NR, PED]
 aliases:
   - crew-cut skull
   - 頭骨毛刷樣外觀

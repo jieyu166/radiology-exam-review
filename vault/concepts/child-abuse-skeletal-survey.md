@@ -1,7 +1,7 @@
 ---
 concepts: [child-abuse-skeletal-survey]
 name: Child Abuse — Skeletal Survey Protocol
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 aliases:
   - non-accidental trauma imaging
   - skeletal survey child abuse

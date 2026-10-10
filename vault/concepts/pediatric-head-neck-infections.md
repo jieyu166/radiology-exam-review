@@ -1,7 +1,7 @@
 ---
 concepts: [pediatric-head-neck-infections]
 name: Pediatric Head and Neck Infections
-subspecialty: [PE, NR]
+subspecialty: [PED, NR]
 modality: [CT, US, MR]
 aliases:
   - pediatric cervical adenitis

@@ -1,7 +1,7 @@
 ---
 concepts: [bone-age-assessment]
 name: Bone Age Assessment
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 modality: [XR]
 aliases:
   - skeletal maturity

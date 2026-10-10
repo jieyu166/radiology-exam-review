@@ -1,7 +1,7 @@
 ---
 concepts: [scfe-imaging]
 name: Slipped Capital Femoral Epiphysis (SCFE) — Imaging
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 aliases:
   - SCFE
   - slipped capital femoral epiphysis

@@ -1,7 +1,7 @@
 ---
 concepts: [noe-fracture]
 name: Naso-Orbito-Ethmoidal (NOE) Fracture
-subspecialty: [Neuro]
+subspecialty: [NR]
 aliases:
   - NOE fracture
   - 鼻-眼眶-篩骨骨折

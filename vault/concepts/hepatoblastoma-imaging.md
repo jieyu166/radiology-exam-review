@@ -1,7 +1,7 @@
 ---
 concepts: [hepatoblastoma-imaging]
 name: Hepatoblastoma Imaging Features
-subspecialty: [PE, ABD]
+subspecialty: [PED, ABD]
 aliases:
   - hepatoblastoma
   - 肝母細胞瘤

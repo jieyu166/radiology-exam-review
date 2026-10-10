@@ -1,7 +1,7 @@
 ---
 concepts: [scheuermann-disease]
 name: Scheuermann Disease
-subspecialty: [PE, MSK]
+subspecialty: [PED, MSK]
 modality: [XR, MR]
 aliases:
   - vertebral epiphysitis

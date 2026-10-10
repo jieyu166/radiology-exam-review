@@ -1,7 +1,7 @@
 ---
 concepts: [dysmyelinating-u-fiber]
 name: Dysmyelinating Disorders and U-fibers
-subspecialty: [Neuro]
+subspecialty: [NR]
 aliases:
   - 脫髓鞘疾病 U-fiber
   - subcortical U-fiber sparing

@@ -1,7 +1,7 @@
 ---
 concepts: [ddh-hip-lines]
 name: DDH — Reference Lines (Hilgenreiner, Perkins, Shenton) & Graf
-subspecialty: [MSK, PE]
+subspecialty: [MSK, PED]
 aliases:
   - Hilgenreiner line
   - Perkins line

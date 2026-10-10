@@ -1,7 +1,7 @@
 ---
 concepts: [dorv-diagnostic-criteria]
 name: Double Outlet Right Ventricle (DORV) — Diagnostic Criteria
-subspecialty: [PE, CV]
+subspecialty: [PED, CV]
 aliases:
   - DORV
   - Anderson definition DORV

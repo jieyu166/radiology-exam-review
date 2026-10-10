@@ -1,7 +1,7 @@
 ---
 concepts: [pediatric-neck-mass-us-findings]
 name: Pediatric Head/Neck Masses — US Findings (Thyroid CA & Lymphangioma)
-subspecialty: [US, PE]
+subspecialty: [US, PED]
 aliases:
   - pediatric thyroid papillary carcinoma US
   - pediatric lymphangioma US

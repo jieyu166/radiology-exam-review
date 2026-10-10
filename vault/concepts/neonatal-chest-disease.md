@@ -1,7 +1,7 @@
 ---
 concepts: [neonatal-chest-disease]
 name: Neonatal Chest Disease — Term vs Preterm Distribution
-subspecialty: [PE, CH]
+subspecialty: [PED, CH]
 aliases:
   - infantile respiratory distress syndrome
   - hyaline membrane disease
@@ -13,6 +13,11 @@ dateRev: 2026-07-12
 ---
 
 # neonatal-chest-disease
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-bph-neonatal-lung-disease-v1.png]]
+> [[summary-graphics/images/remaining-bph-neonatal-lung-disease-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-neonatal-lung-disease|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **新生兒胸腔疾病的好發族群是重要鑑別線索——表面張力素缺乏病(SDD／IRDS／舊稱透明膜病)好發早產兒（低肺容積＋瀰漫顆粒狀陰影），但胎便吸入症候群(MAS)恰好相反，好發足月或過期產兒（過度充氣＋肋門放射狀繩索狀陰影），因與周產期窘迫及子宮內/產程缺氧相關，早產兒罕見。** 判讀分水嶺：**先看「肺容積」——SDD 低肺容積+顆粒狀+air bronchogram；MAS 高肺容積(過度充氣)+繩索狀+不對稱。新生兒胸片正確判讀「一定要問病史」（早產？剖腹產？羊水胎便染色 MSAF？），影像本身多有重疊。**
 
