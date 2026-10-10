@@ -226,7 +226,7 @@ tests:
 ---
 ### Requirement: Emit explicit answer-state projections
 
-For every eligible question, the `sr` projection SHALL contain `answerStatus`, `answerMode`, `acceptedAnswers`, and `scorable`. `acceptedAnswers` SHALL contain normalized option letters only. A `confirmed` question SHALL have a non-empty accepted set and a scoring mode other than `none`; an `unresolved` or `no_valid_answer` question SHALL have an empty accepted set and `scorable: false`.
+For every eligible question, the `sr` projection SHALL contain `answerStatus`, `answerMode`, `acceptedAnswers`, `scorable` and `officialAnswer`. `acceptedAnswers` SHALL contain normalized option letters only. A `confirmed` or `corrected` question SHALL have a non-empty accepted set and a scoring mode other than `none`; an `unresolved` or `no_valid_answer` question SHALL have an empty accepted set and `scorable: false`. `officialAnswer` SHALL be the declared letter for `corrected` questions and the empty string otherwise.
 
 #### Scenario: Publish a question where either of two answers is acceptable
 
@@ -238,49 +238,24 @@ For every eligible question, the `sr` projection SHALL contain `answerStatus`, `
 - **WHEN** a question declares `answerStatus: unresolved`, `answerMode: none`, and `acceptedAnswers: []`
 - **THEN** its raw note and record are published with `scorable: false`, and the projection does not invent a correct answer
 
+#### Scenario: Publish a corrected question
+
+- **WHEN** a question declares `answerStatus: corrected`, `officialAnswer: B`, `correctAnswer: D`
+- **THEN** its projection has `acceptedAnswers: ["D"]`, `officialAnswer: "B"`, `answerMode: "single"`, `scorable: true`
+
 <!-- @trace
-source: vault-native-review-site
+source: account-progress-sync
 updated: 2026-10-10
 code:
-  - scripts/vault_site/compiler.py
-  - scripts/build_static_site.py
-  - start-image-manager.cmd
-  - js/content-store.js
-  - scripts/image_asset_manager.js
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/audit_vault_native_cutover.py
-  - docs/image-asset-manager.md
-  - js/vault-app.js
-  - js/exam-mode.js
-  - scripts/build_phase2b_evidence.py
-  - scripts/start_image_asset_manager.ps1
-  - scripts/nr_summary_audit.py
-  - js/data-loader.js
-  - .github/workflows/deploy-pages.yml
-  - scripts/validate_vault_site.py
-  - index.html
-  - scripts/vault_site/__init__.py
-  - README.md
-  - scripts/image_asset_manager.html
-  - css/main.css
-  - scripts/build_vault_site.py
-  - docs/concept-summary-review-publication.md
-  - js/vault-question-view.js
-  - scripts/accept_vault_native_migration.py
-  - scripts/image_asset_manager.py
   - output/imagegen/adrenoleukodystrophy-background-draft.png
-  - js/note-renderer.js
-  - scripts/build_concepts.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - scripts/image_asset_manager.js
+  - scripts/image_asset_manager.py
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
+  - docs/image-asset-manager.md
 tests:
-  - scripts/test_build_concepts.py
   - scripts/test_image_asset_manager.js
-  - scripts/test_study_progress.js
-  - scripts/test_deploy_workflow.py
-  - scripts/test_vault_question_view.js
   - scripts/test_image_asset_manager.py
-  - scripts/test_legacy_isolation.py
-  - scripts/test_vault_site.py
-  - scripts/test_content_store.js
-  - scripts/test_nr_summary_audit.py
-  - scripts/test_note_renderer.js
 -->

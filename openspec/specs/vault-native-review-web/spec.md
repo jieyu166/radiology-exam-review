@@ -220,56 +220,36 @@ tests:
 ---
 ### Requirement: Render answer states without false scoring
 
-The question view SHALL render `answerMode: single` and `answerMode: any` as single-choice controls, `answerMode: all` as multi-select controls, and `answerMode: none` as a review-only question. Exam pools SHALL exclude questions with `scorable: false`; card and concept routes MAY display them with an explicit unresolved/no-valid-answer badge. Scoring SHALL compare the selected set with `acceptedAnswers` according to `answerMode`.
+The question view SHALL render `answerMode: single` and `answerMode: any` as single-choice controls, `answerMode: all` as multi-select controls, and `answerMode: none` as a review-only question. Exam pools SHALL exclude questions with `scorable: false` and SHALL include `corrected` questions; card and concept routes MAY display unscorable questions with an explicit unresolved/no-valid-answer badge. Scoring SHALL compare the selected set with `acceptedAnswers` according to `answerMode`. For `corrected` questions the revealed back SHALL show the official-answer correction text. Every revealed answer in card mode SHALL be recorded as an attempt event carrying the elapsed time and the optional confidence rating; exam answers SHALL be recorded as `exam` attempts when the exam is submitted.
 
 #### Scenario: Do not score an unresolved question
 
 - **WHEN** a question record has `scorable: false` and `answerStatus: unresolved`
 - **THEN** the exam pool excludes it and the card view shows that it is pending review rather than marking a guessed option correct
 
+#### Scenario: Corrected question is scored by the reviewed answer
+
+- **WHEN** a question record has `answerStatus: corrected`, `officialAnswer: "B"`, `acceptedAnswers: ["D"]` and the user chooses `D`
+- **THEN** the attempt is correct and the revealed back shows `官方公布 B 有誤，依覆核答案 D 計分`
+
+#### Scenario: Confidence control only in card mode
+
+- **WHEN** a question is rendered in card mode before reveal
+- **THEN** three optional confidence buttons (猜／普通／有把握) are shown; in exam mode they are not rendered
+
 <!-- @trace
-source: vault-native-review-site
+source: account-progress-sync
 updated: 2026-10-10
 code:
-  - scripts/vault_site/compiler.py
-  - scripts/build_static_site.py
-  - start-image-manager.cmd
-  - js/content-store.js
-  - scripts/image_asset_manager.js
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/audit_vault_native_cutover.py
-  - docs/image-asset-manager.md
-  - js/vault-app.js
-  - js/exam-mode.js
-  - scripts/build_phase2b_evidence.py
-  - scripts/start_image_asset_manager.ps1
-  - scripts/nr_summary_audit.py
-  - js/data-loader.js
-  - .github/workflows/deploy-pages.yml
-  - scripts/validate_vault_site.py
-  - index.html
-  - scripts/vault_site/__init__.py
-  - README.md
-  - scripts/image_asset_manager.html
-  - css/main.css
-  - scripts/build_vault_site.py
-  - docs/concept-summary-review-publication.md
-  - js/vault-question-view.js
-  - scripts/accept_vault_native_migration.py
-  - scripts/image_asset_manager.py
   - output/imagegen/adrenoleukodystrophy-background-draft.png
-  - js/note-renderer.js
-  - scripts/build_concepts.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - scripts/image_asset_manager.js
+  - scripts/image_asset_manager.py
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
+  - docs/image-asset-manager.md
 tests:
-  - scripts/test_build_concepts.py
   - scripts/test_image_asset_manager.js
-  - scripts/test_study_progress.js
-  - scripts/test_deploy_workflow.py
-  - scripts/test_vault_question_view.js
   - scripts/test_image_asset_manager.py
-  - scripts/test_legacy_isolation.py
-  - scripts/test_vault_site.py
-  - scripts/test_content_store.js
-  - scripts/test_nr_summary_audit.py
-  - scripts/test_note_renderer.js
 -->
