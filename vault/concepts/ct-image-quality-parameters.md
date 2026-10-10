@@ -1,7 +1,7 @@
 ---
 concepts: [ct-image-quality-parameters]
 name: CT Image Quality — Low Contrast, Noise & Spatial Resolution
-subspecialty: [Physics, CT]
+subspecialty: [Physics]
 aliases:
   - CT low contrast detectability
   - CT noise SNR
