@@ -1,7 +1,7 @@
 ---
 concepts: [juvenile-idiopathic-arthritis-imaging]
 name: Juvenile Idiopathic Arthritis (JIA) Imaging
-subspecialty: [PED, MK]
+subspecialty: [PED, MSK]
 aliases:
   - JIA
   - juvenile idiopathic arthritis

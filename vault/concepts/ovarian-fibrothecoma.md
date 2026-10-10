@@ -1,7 +1,7 @@
 ---
 concepts: [ovarian-fibrothecoma]
 name: Ovarian Fibrothecoma
-subspecialty: [GYN]
+subspecialty: [OBGYN]
 aliases:
   - ovarian fibroma-thecoma
   - Meigs syndrome

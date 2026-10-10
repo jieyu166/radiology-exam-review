@@ -1,7 +1,7 @@
 ---
 concepts: [ovarian-mucinous-cystadenoma]
 name: Ovarian Mucinous Cystadenoma
-subspecialty: [GYN]
+subspecialty: [OBGYN]
 aliases:
   - stained glass appearance
   - 卵巢黏液性囊腺瘤
