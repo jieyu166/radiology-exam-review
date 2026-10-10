@@ -18,6 +18,8 @@ const VaultApp = (function () {
     examAnswers: {},
     examElapsed: {},
     drillQueue: null,
+    conceptSub: '',
+    conceptQuery: '',
     examIndex: 0,
     routeToken: 0,
   };
@@ -366,7 +368,24 @@ const VaultApp = (function () {
   function _renderConceptList() {
     const concepts = _entries('concept');
     const relations = new Map((_indexEntries('relations')).map(item => [item.conceptId, item.questionIds || []]));
-    const section = _shell('概念列表', `<div class="vault-concept-grid">${concepts.map(entry => `<a class="vault-concept-item" href="#/concept/${encodeURIComponent(entry.id)}"><strong>${_esc(entry.name || entry.id)}</strong><span>${_esc(Array.isArray(entry.subspecialty) ? entry.subspecialty.join(', ') : entry.subspecialty || '')}</span><small>相關 ${relations.get(entry.id)?.length || 0} 題</small></a>`).join('')}</div>`);
+    const CF = typeof ConceptFilter !== 'undefined' ? ConceptFilter : null;
+    const pills = CF ? CF.buildPills(concepts) : [];
+    const section = _shell('概念列表', `<div class="vault-list-toolbar vault-concept-toolbar"><span id="vault-concept-count"></span><input id="vault-concept-search" class="text-input" placeholder="搜尋概念名稱、別名或 id" value="${_esc(state.conceptQuery || '')}" /></div>${pills.length ? `<div class="pill-row vault-concept-pills" id="vault-concept-pills">${pills.map(p => `<button type="button" class="pill${(state.conceptSub || '') === p.key ? ' active' : ''}" data-concept-sub="${_esc(p.key)}">${_esc(p.label)} <small>${p.count}</small></button>`).join('')}</div>` : ''}<div class="vault-concept-grid" id="vault-concept-grid"></div>`);
+    const grid = section.querySelector('#vault-concept-grid');
+    const countEl = section.querySelector('#vault-concept-count');
+    const draw = () => {
+      const visible = CF ? CF.filterConcepts(concepts, { sub: state.conceptSub, query: state.conceptQuery }) : concepts;
+      countEl.textContent = `共 ${visible.length} 個概念`;
+      grid.innerHTML = visible.map(entry => `<a class="vault-concept-item" href="#/concept/${encodeURIComponent(entry.id)}"><strong>${_esc(entry.name || entry.id)}</strong><span>${_esc(Array.isArray(entry.subspecialty) ? entry.subspecialty.join(', ') : entry.subspecialty || '')}</span><small>相關 ${relations.get(entry.id)?.length || 0} 題</small></a>`).join('') || '<div class="vault-empty">沒有符合條件的概念</div>';
+    };
+    section.querySelectorAll('[data-concept-sub]').forEach(button => button.addEventListener('click', () => {
+      state.conceptSub = button.dataset.conceptSub || '';
+      section.querySelectorAll('[data-concept-sub]').forEach(item => item.classList.toggle('active', (item.dataset.conceptSub || '') === state.conceptSub));
+      draw();
+    }));
+    const search = section.querySelector('#vault-concept-search');
+    search.addEventListener('input', () => { state.conceptQuery = search.value; draw(); });
+    draw();
     return section;
   }
 

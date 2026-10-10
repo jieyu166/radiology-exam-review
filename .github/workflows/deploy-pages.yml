@@ -64,6 +64,7 @@ jobs:
           node scripts/test_scheduler.js
           node scripts/test_review_view.js
           node scripts/test_exam_builder.js
+          node scripts/test_concept_filter.js
 
       - name: Upload failed build reports
         if: always()

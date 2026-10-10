@@ -594,6 +594,9 @@ a { color: var(--primary); text-decoration: none; }
 .account-role { color: var(--text-muted); font-size: .85rem; }
 .account-message { margin: 8px 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: #f0fdf4; color: #166534; font-size: .9rem; }
 .account-message.error { background: #fef2f2; color: #991b1b; }
+.vault-concept-toolbar { margin-bottom: 10px; }
+.vault-concept-pills { margin-bottom: 14px; }
+.vault-concept-pills .pill small { opacity: .75; font-size: .75em; margin-left: 2px; }
 .vault-exam-setup fieldset { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; margin: 0; }
 .vault-exam-setup legend { padding: 0 6px; color: var(--text-muted); font-size: .85rem; }
 .pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
