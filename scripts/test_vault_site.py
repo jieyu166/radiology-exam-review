@@ -155,6 +155,48 @@ class VaultSiteCompilerTests(unittest.TestCase):
         index_by_id = {entry["id"]: entry for entry in question_index}
         self.assertFalse(index_by_id["2024-005"]["scorable"])
 
+    def test_corrected_answer_state_validation_matrix(self) -> None:
+        body = "(A) One\n(B) Two\n(C) Three\n(D) Four\n??\n**Ans: {ans}**\n"
+        cases = {
+            "2024-010": ("corrected", "B", "D"),
+            "2024-011": ("corrected", None, "D"),
+            "2024-012": ("corrected", "BD", "A"),
+            "2024-013": ("confirmed", "B", "B"),
+        }
+        for qid, (status, official, correct) in cases.items():
+            front = f"---\nid: {qid}\nanswerStatus: {status}\ncorrectAnswer: {correct}\n"
+            if official is not None:
+                front += f"officialAnswer: {official}\n"
+            (self.vault / "questions" / "2024" / f"{qid}.md").write_text(front + "---\n" + body.format(ans=correct), encoding="utf-8")
+        output = self.root / "corrected-dist"
+        result = build_package(self.vault, output, strict=False, write=True)
+        errors = {}
+        for error in result.errors:
+            errors.setdefault(error["sourcePath"], set()).add(error["code"])
+        self.assertNotIn("questions/2024/2024-010.md", errors)
+        self.assertEqual(errors.get("questions/2024/2024-011.md"), {"question_official_answer"})
+        self.assertEqual(errors.get("questions/2024/2024-012.md"), {"question_official_answer"})
+        self.assertNotIn("questions/2024/2024-013.md", errors)
+
+        published = json.loads((output / "records/question/2024-010.json").read_text(encoding="utf-8"))["sr"]
+        self.assertEqual(published["acceptedAnswers"], ["D"])
+        self.assertEqual(published["officialAnswer"], "B")
+        self.assertEqual(published["answerMode"], "single")
+        self.assertTrue(published["scorable"])
+
+        confirmed = json.loads((output / "records/question/2024-013.json").read_text(encoding="utf-8"))["sr"]
+        self.assertEqual(confirmed["officialAnswer"], "")
+        ignored = [item for item in result.warnings if item["code"] == "official_answer_ignored"]
+        self.assertEqual([item["sourcePath"] for item in ignored], ["questions/2024/2024-013.md"])
+        plain = json.loads((output / "records/question/2024-001.json").read_text(encoding="utf-8"))["sr"]
+        self.assertEqual(plain["officialAnswer"], "")
+
+        unresolved_corrected = self.vault / "questions" / "2024" / "2024-014.md"
+        unresolved_corrected.write_text("---\nid: 2024-014\nanswerStatus: corrected\nofficialAnswer: C\n---\n" + "(A) One\n(B) Two\n(C) Three\n??\nno answer line\n", encoding="utf-8")
+        strict = build_package(self.vault, self.root / "corrected-strict", strict=True, write=False)
+        codes = {error["code"] for error in strict.errors if error["sourcePath"] == "questions/2024/2024-014.md"}
+        self.assertIn("question_missing_answer", codes)
+
     def test_reference_projection_string_absent_and_non_string(self) -> None:
         (self.vault / "questions" / "2024" / "2024-006.md").write_text(
             "---\nid: 2024-006\nreference: Radiology Review Manual P.466\n---\n"

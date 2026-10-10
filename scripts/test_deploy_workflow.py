@@ -22,6 +22,20 @@ class DeployWorkflowTests(unittest.TestCase):
         self.assertIn('("index.html", "css", "js")', text)
         self.assertNotIn('"data"', text)
 
+    def test_worker_workflow_tests_and_migrates_before_deploy(self) -> None:
+        text = Path(".github/workflows/deploy-worker.yml").read_text(encoding="utf-8")
+        self.assertIn("branches: [main]", text)
+        self.assertIn("'worker/**'", text)
+        self.assertIn("npm test", text)
+        self.assertIn("wrangler d1 migrations apply rex-progress --remote", text)
+        self.assertIn("wrangler deploy", text)
+        self.assertLess(text.index("npm test"), text.index("migrations apply"), "tests run before migrations")
+        self.assertLess(text.index("migrations apply"), text.index("wrangler deploy"), "migrations run before deploy")
+        self.assertIn("secrets.CLOUDFLARE_API_TOKEN", text)
+        self.assertNotIn("BOOTSTRAP_INVITE_CODE", text, "bootstrap secret stays in wrangler secrets, not in CI")
+        pages = Path(".github/workflows/deploy-pages.yml").read_text(encoding="utf-8")
+        self.assertNotIn("worker/", pages, "pages workflow does not build or deploy the worker")
+
     def test_dist_is_ignored_and_build_is_source_hash_neutral(self) -> None:
         ignored = subprocess.run(
             ["git", "check-ignore", "--no-index", "dist/"],

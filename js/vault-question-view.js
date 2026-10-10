@@ -63,6 +63,31 @@ const VaultQuestionView = (function () {
     return { questionText, options };
   }
 
+  const CONFIDENCE_LEVELS = [{ value: 1, label: '猜' }, { value: 2, label: '普通' }, { value: 3, label: '有把握' }];
+
+  function _timer() {
+    return typeof QuestionTimer !== 'undefined' ? QuestionTimer : null;
+  }
+
+  /** 組出作答結果（供 onAnswer 與 DataLoader.recordAnswer 使用）；純函式，便於測試。 */
+  function buildResult(note, state, config, now) {
+    const sr = note.record.sr;
+    const timer = _timer();
+    const reading = timer && state.timer ? timer.read(state.timer, now) : { elapsedMs: null, outlier: false };
+    return {
+      id: note.record.id,
+      sourceSha256: note.record.sourceSha256,
+      chosen: state.selected,
+      correct: _isCorrect(sr, state.selected),
+      scorable: _isScorable(sr),
+      source: config && config.mode === 'exam' ? 'exam' : 'card',
+      elapsedMs: reading.elapsedMs,
+      elapsedOutlier: reading.outlier === true,
+      confidence: [1, 2, 3].includes(state.confidence) ? state.confidence : null,
+      clientTs: now,
+    };
+  }
+
   function _noteRenderer(raw, note, options) {
     if (typeof NoteRenderer !== 'undefined') return NoteRenderer.render(raw, Object.assign({}, options || {}, { record: note.record }));
     return _esc(raw).replace(/\n/g, '<br />');
@@ -89,11 +114,19 @@ const VaultQuestionView = (function () {
     }).join('');
     const reference = typeof sr.reference === 'string' ? sr.reference.trim() : '';
     const referenceHtml = revealed && reference ? `<div class="vault-question-reference">參考來源：${_esc(reference)}</div>` : '';
-    const backHtml = revealed ? `<div class="vault-question-back"><div class="vault-answer-badge">${_esc(scorable ? `答案：${correct || '?'}` : (sr.answerStatus === 'no_valid_answer' ? '無可接受答案' : '答案待覆核'))}</div>${referenceHtml}${_noteRenderer(_sliceLines(note.raw, sr.back), note, options)}</div>` : '';
+    const officialAnswer = typeof sr.officialAnswer === 'string' ? sr.officialAnswer.trim() : '';
+    const correctionHtml = revealed && sr.answerStatus === 'corrected' && officialAnswer
+      ? `<div class="vault-question-correction">官方公布 ${_esc(officialAnswer)} 有誤，依覆核答案 ${_esc(correct || '?')} 計分</div>`
+      : '';
+    const backHtml = revealed ? `<div class="vault-question-back"><div class="vault-answer-badge">${_esc(scorable ? `答案：${correct || '?'}` : (sr.answerStatus === 'no_valid_answer' ? '無可接受答案' : '答案待覆核'))}</div>${correctionHtml}${referenceHtml}${_noteRenderer(_sliceLines(note.raw, sr.back), note, options)}</div>` : '';
     const relationHtml = (sr.conceptIds || []).map(id => `<a class="concept-link vault-question-concept" href="#/concept/${encodeURIComponent(id)}">${_esc(id)}</a>`).join('');
+    const confidenceHtml = mode === 'card' && !revealed && scorable
+      ? `<div class="vault-question-confidence"><span>答前信心（可略過）：</span>${CONFIDENCE_LEVELS.map(level => `<button type="button" class="vault-confidence-btn${current.confidence === level.value ? ' selected' : ''}" data-confidence="${level.value}">${_esc(level.label)}</button>`).join('')}</div>`
+      : '';
     return `<article class="vault-question" data-question-id="${_esc(note.record.id)}" data-source-sha256="${_esc(note.record.sourceSha256 || '')}">
       <div class="vault-question-front">${_noteRenderer(parts.questionText, note, options)}</div>
       ${reviewBadge}
+      ${confidenceHtml}
       <div class="vault-question-options">${optionHtml}</div>
       ${revealed && scorable ? `<div class="vault-question-result ${_isCorrect(sr, selected) ? 'correct' : 'incorrect'}">${_isCorrect(sr, selected) ? '答對' : '答錯'}</div>` : ''}
       ${backHtml}
@@ -117,9 +150,24 @@ const VaultQuestionView = (function () {
   function bind(container, note, options) {
     if (!container || !note) return null;
     const config = Object.assign({ mode: 'card' }, options || {});
-    const state = { selected: note.record.sr && note.record.sr.answerMode === 'all' ? [] : '', revealed: false };
+    const timer = _timer();
+    const state = { selected: note.record.sr && note.record.sr.answerMode === 'all' ? [] : '', revealed: false, confidence: null, timer: timer ? timer.startTimer(Date.now()) : null };
     const render = () => { container.innerHTML = renderHtml(note, state, config); };
+    if (timer && typeof document !== 'undefined' && typeof document.addEventListener === 'function') {
+      const onVisibility = () => {
+        if (!container.isConnected) { document.removeEventListener('visibilitychange', onVisibility); return; }
+        state.timer = document.visibilityState === 'visible' ? timer.show(state.timer, Date.now()) : timer.hide(state.timer, Date.now());
+      };
+      document.addEventListener('visibilitychange', onVisibility);
+    }
     container.addEventListener('click', event => {
+      const confidenceButton = event.target.closest && event.target.closest('[data-confidence]');
+      if (confidenceButton) {
+        const level = Number(confidenceButton.dataset.confidence);
+        state.confidence = state.confidence === level ? null : level;
+        render();
+        return;
+      }
       const option = event.target.closest && event.target.closest('[data-option]');
       if (!option) return;
       const mode = note.record.sr && note.record.sr.answerMode;
@@ -131,7 +179,7 @@ const VaultQuestionView = (function () {
         state.selected = option.dataset.option || '';
       }
       if (config.mode === 'card') state.revealed = true;
-      const result = { id: note.record.id, sourceSha256: note.record.sourceSha256, chosen: state.selected, correct: _isCorrect(note.record.sr, state.selected), scorable: _isScorable(note.record.sr) };
+      const result = buildResult(note, state, config, Date.now());
       if (typeof config.onAnswer === 'function') config.onAnswer(result, note);
       render();
     });
@@ -139,5 +187,5 @@ const VaultQuestionView = (function () {
     return { state, render };
   }
 
-  return { renderHtml, scoreAnswers, bind };
+  return { renderHtml, scoreAnswers, bind, buildResult, isCorrect: _isCorrect, isScorable: _isScorable, CONFIDENCE_LEVELS };
 })();

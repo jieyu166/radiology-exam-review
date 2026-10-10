@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' https: data:; font-src 'self' data:; connect-src 'self' https://*.workers.dev http://127.0.0.1:8787 http://localhost:8787; object-src 'none'; base-uri 'self'; form-action 'self'" />
   <title>放射科交換考題複習</title>
   <link rel="stylesheet" href="css/main.css?v=vault-native-20260908" />
 </head>
@@ -113,6 +114,40 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/></svg>
         放棄所有編輯
       </button>
+    </div>
+    <div class="settings-section" id="account-section">
+      <h3 class="settings-subtitle">帳號與同步</h3>
+      <div id="account-logged-out">
+        <form id="login-form" class="account-form" autocomplete="on">
+          <label>帳號 <input class="text-input" id="login-username" name="username" autocomplete="username" required minlength="3" maxlength="32" /></label>
+          <label>密碼 <input class="text-input" id="login-password" name="password" type="password" autocomplete="current-password" required minlength="8" maxlength="128" /></label>
+          <div class="settings-actions">
+            <button class="btn btn-primary" type="submit" id="login-btn">登入</button>
+            <button class="btn btn-outline" type="button" id="show-register-btn">用邀請碼註冊</button>
+          </div>
+        </form>
+        <form id="register-form" class="account-form" hidden autocomplete="on">
+          <label>邀請碼 <input class="text-input" id="register-invite" name="inviteCode" required minlength="24" maxlength="24" spellcheck="false" /></label>
+          <label>帳號 <input class="text-input" id="register-username" name="username" autocomplete="username" required minlength="3" maxlength="32" pattern="[A-Za-z0-9][A-Za-z0-9_\.\-]{2,31}" /></label>
+          <label>顯示名稱（選填） <input class="text-input" id="register-display" name="displayName" maxlength="64" /></label>
+          <label>密碼（8 字以上） <input class="text-input" id="register-password" name="password" type="password" autocomplete="new-password" required minlength="8" maxlength="128" /></label>
+          <div class="settings-actions">
+            <button class="btn btn-primary" type="submit" id="register-btn">註冊並登入</button>
+            <button class="btn btn-outline" type="button" id="show-login-btn">返回登入</button>
+          </div>
+        </form>
+      </div>
+      <div id="account-logged-in" hidden>
+        <p class="account-line">已登入：<strong id="account-username"></strong> <span class="account-role" id="account-role"></span></p>
+        <p class="account-line" id="sync-status">同步狀態：—</p>
+        <div class="settings-actions">
+          <button class="btn btn-outline" id="sync-now-btn">立即同步</button>
+          <button class="btn btn-outline" id="logout-btn">登出</button>
+          <button class="btn btn-outline" id="invite-btn" hidden>簽發邀請碼</button>
+        </div>
+        <p class="account-line" id="invite-output" hidden></p>
+      </div>
+      <p class="account-message" id="account-message" role="status" hidden></p>
     </div>
     <div class="settings-section">
       <h3 class="settings-subtitle">學習記錄</h3>
@@ -302,7 +337,11 @@
 <div class="toast-container" id="toast-container" aria-live="polite"></div>
 
 <!-- ===== 載入 JS ===== -->
-<script src="js/data-loader.js?v=vault-native"></script>
+<script src="js/config.js?v=progress-v3"></script>
+<script src="js/data-loader.js?v=progress-v3"></script>
+<script src="js/question-timer.js?v=progress-v3"></script>
+<script src="js/attempt-outbox.js?v=progress-v3"></script>
+<script src="js/sync-client.js?v=progress-v3"></script>
 <script src="js/content-store.js?v=vault-native"></script>
 <script src="js/note-renderer.js?v=vault-native-wikilink-20261009"></script>
 <script src="js/vault-question-view.js?v=vault-native"></script>

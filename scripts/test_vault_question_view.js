@@ -1,7 +1,7 @@
 const fs = require('fs');
 const vm = require('vm');
 
-const code = fs.readFileSync('js/note-renderer.js', 'utf8') + '\n' + fs.readFileSync('js/vault-question-view.js', 'utf8') + '\nglobalThis.VaultQuestionView = VaultQuestionView;';
+const code = fs.readFileSync('js/question-timer.js', 'utf8') + '\nglobalThis.QuestionTimer = QuestionTimer;\n' + fs.readFileSync('js/note-renderer.js', 'utf8') + '\n' + fs.readFileSync('js/vault-question-view.js', 'utf8') + '\nglobalThis.VaultQuestionView = VaultQuestionView;';
 const context = { console, window: { REX_PUBLICATION_BASE: 'dist/' } };
 vm.createContext(context);
 vm.runInContext(code, context);
@@ -90,4 +90,30 @@ escNote.record.sr.reference = '<b>bold</b> & more';
 const escHtml = context.VaultQuestionView.renderHtml(escNote, { selected: 'B', revealed: true });
 assert(escHtml.includes('參考來源：&lt;b&gt;bold&lt;/b&gt; &amp; more'), 'reference text must be HTML-escaped');
 assert(!escHtml.includes('<b>bold</b>'), 'reference markup must not be interpreted');
+// corrected answer state: official answer shown as wrong, reviewed answer scores
+const correctedNote = JSON.parse(JSON.stringify(note));
+correctedNote.record.id = '2020-013';
+Object.assign(correctedNote.record.sr, { answerStatus: 'corrected', answerMode: 'single', acceptedAnswers: ['D'], correctAnswer: 'D', officialAnswer: 'B', scorable: true });
+const correctedWrong = context.VaultQuestionView.renderHtml(correctedNote, { selected: 'B', revealed: true });
+assert(correctedWrong.includes('<div class="vault-question-correction">官方公布 B 有誤，依覆核答案 D 計分</div>'), 'corrected question should explain the official answer error');
+assert(correctedWrong.includes('vault-question-result incorrect'), 'choosing the official (wrong) answer must be marked incorrect');
+const correctedScore = context.VaultQuestionView.scoreAnswers([correctedNote.record], { '2020-013': 'D' });
+assert(correctedScore.correct === 1 && correctedScore.total === 1, 'reviewed answer must score on a corrected question');
+const confirmedHtml = context.VaultQuestionView.renderHtml(note, { selected: 'B', revealed: true });
+assert(!confirmedHtml.includes('vault-question-correction'), 'confirmed question must not show a correction');
+const correctedHidden = context.VaultQuestionView.renderHtml(correctedNote, { selected: 'B', revealed: false });
+assert(!correctedHidden.includes('vault-question-correction'), 'correction must not show before reveal');
+// confidence buttons only in card mode before reveal; result carries timing + confidence
+const cardBefore = context.VaultQuestionView.renderHtml(note, { selected: '', revealed: false }, { mode: 'card' });
+assert((cardBefore.match(/data-confidence="/g) || []).length === 3, 'card mode shows three confidence buttons before reveal');
+const cardAfter = context.VaultQuestionView.renderHtml(note, { selected: 'B', revealed: true }, { mode: 'card' });
+assert(!cardAfter.includes('data-confidence'), 'confidence buttons disappear after reveal');
+const examBefore = context.VaultQuestionView.renderHtml(note, { selected: '', revealed: false }, { mode: 'exam' });
+assert(!examBefore.includes('data-confidence'), 'exam mode never shows confidence buttons');
+const timerState = context.QuestionTimer.startTimer(1000);
+const built = context.VaultQuestionView.buildResult(note, { selected: 'C', revealed: true, confidence: 3, timer: timerState }, { mode: 'card' }, 43000);
+assert(built.elapsedMs === 42000 && built.confidence === 3 && built.source === 'card' && built.correct === false && built.clientTs === 43000, 'buildResult carries elapsedMs, confidence, source: ' + JSON.stringify(built));
+const builtExam = context.VaultQuestionView.buildResult(note, { selected: 'B', revealed: false, confidence: 2, timer: null }, { mode: 'exam' }, 5000);
+assert(builtExam.source === 'exam' && builtExam.elapsedMs === null && builtExam.correct === true, 'exam result without timer');
+assert(context.VaultQuestionView.isCorrect(note.record.sr, 'B') === true && context.VaultQuestionView.isScorable(note.record.sr) === true, 'isCorrect/isScorable exported');
 console.log('vault question view tests passed');

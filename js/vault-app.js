@@ -16,6 +16,7 @@ const VaultApp = (function () {
     examEntries: [],
     examNotes: [],
     examAnswers: {},
+    examElapsed: {},
     examIndex: 0,
     routeToken: 0,
   };
@@ -154,6 +155,125 @@ const VaultApp = (function () {
     }
   }
 
+  /* ── 帳號與同步面板 ── */
+  function _formatSyncTime(ts) {
+    if (!Number.isFinite(ts)) return '尚未同步';
+    const d = new Date(ts);
+    return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+  }
+
+  function _accountMessage(text, isError) {
+    const el = document.getElementById('account-message');
+    if (!el) return;
+    el.hidden = !text;
+    el.textContent = text || '';
+    el.classList.toggle('error', !!isError);
+  }
+
+  function _refreshAccountPanel() {
+    if (typeof SyncClient === 'undefined') return;
+    const status = SyncClient.status();
+    const loggedOut = document.getElementById('account-logged-out');
+    const loggedIn = document.getElementById('account-logged-in');
+    if (loggedOut) loggedOut.hidden = status.loggedIn;
+    if (loggedIn) loggedIn.hidden = !status.loggedIn;
+    const name = document.getElementById('account-username');
+    if (name) name.textContent = status.username || '';
+    const role = document.getElementById('account-role');
+    if (role) role.textContent = status.role === 'admin' ? '（管理者）' : '';
+    const invite = document.getElementById('invite-btn');
+    if (invite) invite.hidden = status.role !== 'admin';
+    const sync = document.getElementById('sync-status');
+    if (sync) sync.textContent = status.loggedIn
+      ? `同步狀態：待同步 ${status.pending} 筆，上次同步 ${_formatSyncTime(status.lastSyncAt)}`
+      : `同步狀態：未登入（本機已記錄，登入後上傳）`;
+  }
+
+  async function _afterLoginFlow() {
+    try {
+      _accountMessage('登入成功，正在同步學習紀錄…');
+      const result = await SyncClient.afterLogin();
+      _accountMessage(`同步完成：上傳 ${result.uploaded.attempts} 筆作答，合併 ${result.merged.answers} 筆。`);
+    } catch (error) {
+      _accountMessage(`已登入，但同步失敗：${error.message}`, true);
+    }
+    _refreshAccountPanel();
+    _renderRoute();
+  }
+
+  function _bindAccountPanel() {
+    if (typeof SyncClient === 'undefined' || typeof AttemptOutbox === 'undefined') return;
+    AttemptOutbox.configure({ transport: SyncClient.transport });
+    AttemptOutbox.subscribe(_refreshAccountPanel);
+    const loginForm = document.getElementById('login-form');
+    const registerForm = document.getElementById('register-form');
+    if (loginForm && !loginForm.dataset.vaultBound) {
+      loginForm.dataset.vaultBound = '1';
+      loginForm.addEventListener('submit', async event => {
+        event.preventDefault();
+        const button = document.getElementById('login-btn'); button.disabled = true;
+        try {
+          await SyncClient.login(document.getElementById('login-username').value, document.getElementById('login-password').value);
+          loginForm.reset();
+          await _afterLoginFlow();
+        } catch (error) {
+          _accountMessage(error.status === 423 ? `帳號暫時鎖定，請 ${Math.ceil((error.extra && error.extra.retryAfterSeconds || 900) / 60)} 分鐘後再試` : (error.status === 401 ? '帳號或密碼錯誤' : error.message), true);
+        } finally { button.disabled = false; }
+      });
+      document.getElementById('show-register-btn').addEventListener('click', () => { loginForm.hidden = true; registerForm.hidden = false; _accountMessage(''); });
+    }
+    if (registerForm && !registerForm.dataset.vaultBound) {
+      registerForm.dataset.vaultBound = '1';
+      registerForm.addEventListener('submit', async event => {
+        event.preventDefault();
+        const button = document.getElementById('register-btn'); button.disabled = true;
+        try {
+          await SyncClient.register(document.getElementById('register-username').value, document.getElementById('register-password').value, document.getElementById('register-invite').value, document.getElementById('register-display').value);
+          registerForm.reset();
+          await _afterLoginFlow();
+        } catch (error) {
+          const messages = { invite_invalid: '邀請碼無效、已使用、已撤銷或已過期', username_taken: '帳號已存在', invalid_username: '帳號格式：3–32 字，英數開頭，可含 _ . -', invalid_password: '密碼需 8–128 字' };
+          _accountMessage(messages[error.code] || error.message, true);
+        } finally { button.disabled = false; }
+      });
+      document.getElementById('show-login-btn').addEventListener('click', () => { registerForm.hidden = true; loginForm.hidden = false; _accountMessage(''); });
+    }
+    const syncNow = document.getElementById('sync-now-btn');
+    if (syncNow && !syncNow.dataset.vaultBound) {
+      syncNow.dataset.vaultBound = '1';
+      syncNow.addEventListener('click', async () => {
+        syncNow.disabled = true;
+        try {
+          const pushed = await SyncClient.pushOutbox();
+          const merged = await SyncClient.pullSnapshot();
+          _accountMessage(`同步完成：送出 ${pushed.sent || 0} 筆，合併 ${merged.answers} 筆。`);
+          _renderRoute();
+        } catch (error) { _accountMessage(`同步失敗：${error.message}`, true); }
+        finally { syncNow.disabled = false; _refreshAccountPanel(); }
+      });
+    }
+    const logout = document.getElementById('logout-btn');
+    if (logout && !logout.dataset.vaultBound) {
+      logout.dataset.vaultBound = '1';
+      logout.addEventListener('click', async () => { await SyncClient.logout(); _accountMessage('已登出；本機學習紀錄保留。'); _refreshAccountPanel(); });
+    }
+    const invite = document.getElementById('invite-btn');
+    if (invite && !invite.dataset.vaultBound) {
+      invite.dataset.vaultBound = '1';
+      invite.addEventListener('click', async () => {
+        const note = window.prompt('邀請碼備註（例如：R2 王醫師）') || '';
+        try {
+          const created = await SyncClient.createInvite(note);
+          const out = document.getElementById('invite-output');
+          out.hidden = false;
+          out.textContent = `邀請碼（只顯示這一次，14 天內有效）：${created.code}`;
+        } catch (error) { _accountMessage(`簽發失敗：${error.message}`, true); }
+      });
+    }
+    _refreshAccountPanel();
+    AttemptOutbox.install(window);
+  }
+
   function _download(value, filename) {
     const blob = new Blob([JSON.stringify(value, null, 2)], { type: 'application/json' });
     const link = document.createElement('a');
@@ -168,10 +288,16 @@ const VaultApp = (function () {
     return main.querySelector('.vault-view-section');
   }
 
+  function _kickSync() {
+    if (typeof AttemptOutbox !== 'undefined') AttemptOutbox.kick();
+    _refreshAccountPanel();
+  }
+
   function _recordAnswer(result) {
     if (typeof DataLoader !== 'undefined') {
       DataLoader.markSeen(result.id);
       if (result.scorable !== false) DataLoader.recordAnswer(result.id, result);
+      _kickSync();
     }
   }
 
@@ -244,7 +370,7 @@ const VaultApp = (function () {
     const section = _shell('模擬考', `<div class="vault-exam-setup"><p>目前篩選後共有 ${_questionEntries().length} 題。</p><label>題數 <input id="vault-exam-count" class="text-input" type="number" min="1" max="${Math.max(1, _questionEntries().length)}" value="${count || 1}" /></label><button id="vault-exam-start" class="btn btn-primary">開始模擬考</button></div>`);
     section.querySelector('#vault-exam-start').onclick = () => {
       const n = Math.max(1, Math.min(Number(section.querySelector('#vault-exam-count').value) || 1, _questionEntries().length));
-      state.examEntries = _questionEntries({ scorableOnly: true }).slice(0, n); state.examNotes = []; state.examAnswers = {}; state.examIndex = 0; _navigate('#/exam/active');
+      state.examEntries = _questionEntries({ scorableOnly: true }).slice(0, n); state.examNotes = []; state.examAnswers = {}; state.examElapsed = {}; state.examIndex = 0; _navigate('#/exam/active');
     };
   }
 
@@ -261,7 +387,8 @@ const VaultApp = (function () {
       if (token !== state.routeToken) return;
       state.examNotes[state.examIndex] = note;
       const slot = section.querySelector('#vault-exam-slot'); slot.innerHTML = '<div class="vault-question-host"></div>';
-      VaultQuestionView.bind(slot.firstElementChild, note, { mode: 'exam', onAnswer: result => { state.examAnswers[entry.id] = result.chosen; _recordAnswer(result); } });
+      if (typeof DataLoader !== 'undefined') DataLoader.markSeen(entry.id);
+      VaultQuestionView.bind(slot.firstElementChild, note, { mode: 'exam', onAnswer: result => { state.examAnswers[entry.id] = result.chosen; state.examElapsed[entry.id] = result.elapsedMs; } });
     } catch (error) { section.querySelector('#vault-exam-slot').innerHTML = `<div class="vault-error">${_esc(error.message || error)}</div>`; }
   }
 
@@ -269,8 +396,17 @@ const VaultApp = (function () {
     const records = state.examNotes.filter(Boolean).map(note => note.record);
     const score = VaultQuestionView.scoreAnswers(records, state.examAnswers);
     const sourceSha256ByQuestion = {};
-    records.forEach(record => { sourceSha256ByQuestion[record.id] = record.sourceSha256 || null; });
-    if (records.length && typeof DataLoader !== 'undefined') DataLoader.addExamRecord(Object.assign({}, score, { sourceSha256ByQuestion }));
+    const wrongIds = [];
+    const submittedAt = Date.now();
+    records.forEach(record => {
+      sourceSha256ByQuestion[record.id] = record.sourceSha256 || null;
+      const chosen = state.examAnswers[record.id];
+      if (!chosen || !VaultQuestionView.isScorable(record.sr) || typeof DataLoader === 'undefined') return;
+      const correct = VaultQuestionView.isCorrect(record.sr, chosen);
+      if (!correct) wrongIds.push(record.id);
+      DataLoader.recordAnswer(record.id, { chosen, correct, scorable: true, source: 'exam', elapsedMs: state.examElapsed[record.id], sourceSha256: record.sourceSha256, clientTs: submittedAt });
+    });
+    if (records.length && typeof DataLoader !== 'undefined') { DataLoader.addExamRecord(Object.assign({}, score, { wrongIds, sourceSha256ByQuestion })); _kickSync(); }
     const section = _shell('模擬考結果', `<div class="vault-exam-result"><h3>${score.correct} / ${score.total}（${score.pct}%）</h3><p>答錯 ${score.wrong} 題，未作答 ${score.skipped} 題。</p><button class="btn btn-primary" id="vault-exam-retry">重新開始</button></div>`);
     section.querySelector('#vault-exam-retry').onclick = () => _navigate('#/exam');
   }
@@ -292,6 +428,7 @@ const VaultApp = (function () {
 
   async function init() {
     _hideLegacyEditorControls();
+    _bindAccountPanel();
     document.querySelectorAll('.nav-tab, .bottom-tab').forEach(button => {
       if (button.dataset.vaultBound) return;
       button.dataset.vaultBound = '1';

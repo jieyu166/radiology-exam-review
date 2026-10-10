@@ -32,7 +32,8 @@ SUPPORTED_SYNTAX = {
     "heading", "paragraph", "unordered_list", "ordered_list", "table", "footnote",
     "callout", "blockquote", "wikilink", "image_embed", "math",
 }
-ANSWER_STATUSES = {"confirmed", "unresolved", "no_valid_answer"}
+ANSWER_STATUSES = {"confirmed", "corrected", "unresolved", "no_valid_answer"}
+SCORABLE_STATUSES = {"confirmed", "corrected"}
 ANSWER_MODES = {"single", "any", "all", "none"}
 
 
@@ -400,7 +401,18 @@ def _question_projection(note: SourceNote) -> tuple[dict[str, Any] | None, list[
         if answer_mode == "single" and len(accepted) != 1:
             errors.append({"code": "question_answer_mode", "sourcePath": note.relative_path, "line": separator + 1, "message": "answerMode: single requires exactly one accepted answer"})
         if not accepted:
-            errors.append({"code": "question_missing_answer", "sourcePath": note.relative_path, "line": note.body_start_line, "message": "confirmed question must declare at least one accepted answer"})
+            errors.append({"code": "question_missing_answer", "sourcePath": note.relative_path, "line": note.body_start_line, "message": "scorable question must declare at least one accepted answer"})
+
+    official_answer = ""
+    if answer_status == "corrected":
+        official_raw = note.frontmatter.get("officialAnswer")
+        official_values, official_invalid = _answer_values(official_raw)
+        if official_raw in (None, "") or official_invalid or len(official_values) != 1:
+            errors.append({"code": "question_official_answer", "sourcePath": note.relative_path, "line": note.body_start_line, "message": "answerStatus: corrected requires officialAnswer to be a single letter A-E"})
+        elif official_values[0] in accepted:
+            errors.append({"code": "question_official_answer", "sourcePath": note.relative_path, "line": note.body_start_line, "message": f"officialAnswer {official_values[0]} must differ from the accepted answers {accepted}"})
+        else:
+            official_answer = official_values[0]
 
     correct = accepted[0] if len(accepted) == 1 else None
     concepts = note.frontmatter.get("concepts", [])
@@ -423,7 +435,8 @@ def _question_projection(note: SourceNote) -> tuple[dict[str, Any] | None, list[
         "acceptedAnswers": accepted,
         "answerStatus": answer_status,
         "answerMode": answer_mode or "none",
-        "scorable": answer_status == "confirmed" and bool(accepted) and answer_mode != "none" and not errors,
+        "officialAnswer": official_answer,
+        "scorable": answer_status in SCORABLE_STATUSES and bool(accepted) and answer_mode != "none" and not errors,
         "reviewStatus": str(note.frontmatter.get("reviewStatus") or ""),
         "reference": reference,
         "conceptIds": sorted({str(item) for item in concepts if str(item).strip()}),
@@ -443,6 +456,9 @@ def _syntax_diagnostics(note: SourceNote, syntax_inventory: list[dict[str, Any]]
         _, reference_warning = _reference_value(note)
         if reference_warning:
             diagnostics.append(reference_warning)
+        status = str(note.frontmatter.get("answerStatus") or "confirmed").strip().lower()
+        if status != "corrected" and note.frontmatter.get("officialAnswer") not in (None, ""):
+            diagnostics.append({"severity": "warning", "code": "official_answer_ignored", "line": 1, "message": "officialAnswer is only used with answerStatus: corrected; projected as empty"})
     return diagnostics
 
 

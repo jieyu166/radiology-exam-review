@@ -75,6 +75,15 @@ vault Markdown
 
 GitHub repository 的 **Settings → Pages → Source** 應使用 **GitHub Actions**。Workflow 在 `main` 的 vault、網站程式或建置相關路徑變更時觸發，也可於 Actions 手動執行；只修改 README 不會自動觸發。建置／驗證／測試失敗時不進入部署，報告另存為 Actions artifact。
 
+## 帳號與跨裝置同步
+
+網站可不登入使用（學習紀錄只在本機）。登入後，作答事件（題號、選項、對錯、耗時、信心、來源版本）會以離線優先的方式上傳到 Cloudflare Worker `rex-api`（`worker/`，D1 資料庫），換裝置登入即取回。
+
+- 帳號為邀請制：管理者在設定面板簽發一次性邀請碼；第一位管理者以 `BOOTSTRAP_INVITE_CODE` 註冊。
+- 登入用帳號密碼，session 為 Bearer token（30 天），不使用 cookie。
+- 題卡可標記官方答案有誤：frontmatter `answerStatus: corrected` 加 `officialAnswer`，以 `correctAnswer` 為覆核答案計分。
+- 後端架構、API 契約、本機開發與正式部署步驟見 [`docs/account-sync.md`](docs/account-sync.md)。
+
 ## 資料來源與覆核限制
 
 - 交換考題 PDF（2016–2024）；實際發布題數以本次 `dist/build-report.json` 為準。

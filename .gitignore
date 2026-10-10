@@ -27,3 +27,8 @@ scripts/_*.json
 
 # legacy JSON data flow retired 2026-10-10 (remove-legacy-data-json); vault is the only source
 data/
+
+# Cloudflare Worker local state
+worker/.dev.vars
+worker/.wrangler/
+.wrangler/

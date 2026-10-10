@@ -576,6 +576,17 @@ a { color: var(--primary); text-decoration: none; }
 .vault-question-result.correct, .vault-answer-badge { color: #166534; background: #f0fdf4; }
 .vault-question-result.incorrect { color: #991b1b; background: #fef2f2; }
 .vault-question-back { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); line-height: 1.7; }
+.account-form { display: grid; gap: 10px; margin-bottom: 8px; }
+.account-form label { display: grid; gap: 4px; font-size: .9rem; color: var(--text-muted); }
+.account-form .text-input { width: 100%; max-width: 360px; }
+.account-line { margin: 6px 0; font-size: .92rem; }
+.account-role { color: var(--text-muted); font-size: .85rem; }
+.account-message { margin: 8px 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: #f0fdf4; color: #166534; font-size: .9rem; }
+.account-message.error { background: #fef2f2; color: #991b1b; }
+.vault-question-confidence { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; color: var(--text-muted); font-size: .9rem; }
+.vault-confidence-btn { padding: 4px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--card-bg); color: var(--text); cursor: pointer; font-size: .85rem; }
+.vault-confidence-btn:hover, .vault-confidence-btn.selected { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
+.vault-question-correction { margin: 10px 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: #fffbeb; color: #92400e; font-weight: 600; }
 .vault-question-reference { margin: 10px 0 14px; padding: 8px 12px; border-left: 3px solid var(--border); color: var(--text-muted); font-size: .9rem; line-height: 1.6; word-break: break-word; }
 .vault-question-relations, .vault-related { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--text-muted); }
 .vault-question-concept, .vault-related a { margin-left: 6px; }

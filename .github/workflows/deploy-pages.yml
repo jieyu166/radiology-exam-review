@@ -58,6 +58,9 @@ jobs:
           node scripts/test_note_renderer.js
           node scripts/test_vault_question_view.js
           node scripts/test_study_progress.js
+          node scripts/test_question_timer.js
+          node scripts/test_attempt_outbox.js
+          node scripts/test_sync_client.js
 
       - name: Upload failed build reports
         if: always()
