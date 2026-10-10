@@ -34,9 +34,6 @@ dateRev: 2026-07-12
 [^4]: **Tier 1** Iv M, Bisdas S. *Neuroimaging in the Era of the Evolving WHO Classification of Brain Tumors.* AJR Am J Roentgenol. 2021;217(1):3-15（DOI [10.2214/AJR.20.25246](https://doi.org/10.2214/AJR.20.25246)；摘要 accessed 2026-07-12）：分子資訊（含 IDH 狀態）已整合入 WHO 腦腫瘤分類。
 
 ## 題目
-> [!question]- Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選) (2022-396)
-> **A + B（關鍵）** 2-HG 只在 **IDH-mutant** 神經膠質瘤堆積：故 A. Diffuse Astrocytoma, IDH-Mutant 與 B. Anaplastic Astrocytoma, IDH-Mutant 皆可見 2.25 ppm 的 2-HG 峰。C（Diffuse Astrocytoma, IDH-Wild-Type）與 D（Glioblastoma, IDH-Wild-Type）為 IDH-wild-type，**不產生 2-HG**，故不會出現此峰。此為複選題，正解為 A 與 B。[^1][^2]
-
 > [!question]- Elevated 2-hydroxyglutarate peak (2-HG) resonating at 2.25 ppm can be found in (可複選) (2021-144)
 > **A＋B**——2-HG 為 IDH 突變腫瘤專屬代謝物，故 A（Diffuse Astrocytoma, IDH-Mutant）與 B（Anaplastic Astrocytoma, IDH-Mutant）皆可於 2.25 ppm 見 2-HG 峰；C、D 為 IDH-wild-type，不產生 2-HG，故無此峰。此為複選題。
 
