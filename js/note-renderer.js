@@ -115,7 +115,8 @@ const NoteRenderer = (function () {
       const display = label || target;
       const link = _resolveWikilink(target, options);
       const className = link.unresolved ? 'note-wikilink note-wikilink-unresolved' : 'note-wikilink';
-      return `<a class="${className}" href="${_esc(link.href)}">${_esc(display)}</a>`;
+      const targetAttr = options && options.linkTarget === '_blank' ? ' target="_blank" rel="noopener"' : '';
+      return `<a class="${className}" href="${_esc(link.href)}"${targetAttr}>${_esc(display)}</a>`;
     });
     text = text.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, label, href) => {
       const safe = _safeHref(href);

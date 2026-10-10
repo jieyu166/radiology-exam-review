@@ -89,7 +89,8 @@ const VaultQuestionView = (function () {
   }
 
   function _noteRenderer(raw, note, options) {
-    if (typeof NoteRenderer !== 'undefined') return NoteRenderer.render(raw, Object.assign({}, options || {}, { record: note.record }));
+    // 做題中的概念連結一律開新分頁，避免蓋掉目前的題目／考試
+    if (typeof NoteRenderer !== 'undefined') return NoteRenderer.render(raw, Object.assign({ linkTarget: '_blank' }, options || {}, { record: note.record }));
     return _esc(raw).replace(/\n/g, '<br />');
   }
 
@@ -119,7 +120,7 @@ const VaultQuestionView = (function () {
       ? `<div class="vault-question-correction">官方公布 ${_esc(officialAnswer)} 有誤，依覆核答案 ${_esc(correct || '?')} 計分</div>`
       : '';
     const backHtml = revealed ? `<div class="vault-question-back"><div class="vault-answer-badge">${_esc(scorable ? `答案：${correct || '?'}` : (sr.answerStatus === 'no_valid_answer' ? '無可接受答案' : '答案待覆核'))}</div>${correctionHtml}${referenceHtml}${_noteRenderer(_sliceLines(note.raw, sr.back), note, options)}</div>` : '';
-    const relationHtml = (sr.conceptIds || []).map(id => `<a class="concept-link vault-question-concept" href="#/concept/${encodeURIComponent(id)}">${_esc(id)}</a>`).join('');
+    const relationHtml = (sr.conceptIds || []).map(id => `<a class="concept-link vault-question-concept" href="#/concept/${encodeURIComponent(id)}" target="_blank" rel="noopener">${_esc(id)}</a>`).join('');
     const confidenceHtml = mode === 'card' && !revealed && scorable
       ? `<div class="vault-question-confidence"><span>答前信心（可略過）：</span>${CONFIDENCE_LEVELS.map(level => `<button type="button" class="vault-confidence-btn${current.confidence === level.value ? ' selected' : ''}" data-confidence="${level.value}">${_esc(level.label)}</button>`).join('')}</div>`
       : '';

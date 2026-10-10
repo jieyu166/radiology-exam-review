@@ -1,7 +1,7 @@
 const fs = require('fs');
 const vm = require('vm');
 
-const code = fs.readFileSync('js/question-timer.js', 'utf8') + '\nglobalThis.QuestionTimer = QuestionTimer;\n' + fs.readFileSync('js/note-renderer.js', 'utf8') + '\n' + fs.readFileSync('js/vault-question-view.js', 'utf8') + '\nglobalThis.VaultQuestionView = VaultQuestionView;';
+const code = fs.readFileSync('js/question-timer.js', 'utf8') + '\nglobalThis.QuestionTimer = QuestionTimer;\n' + fs.readFileSync('js/note-renderer.js', 'utf8') + '\nglobalThis.NoteRenderer = NoteRenderer;\n' + fs.readFileSync('js/vault-question-view.js', 'utf8') + '\nglobalThis.VaultQuestionView = VaultQuestionView;';
 const context = { console, window: { REX_PUBLICATION_BASE: 'dist/' } };
 vm.createContext(context);
 vm.runInContext(code, context);
@@ -103,6 +103,14 @@ const confirmedHtml = context.VaultQuestionView.renderHtml(note, { selected: 'B'
 assert(!confirmedHtml.includes('vault-question-correction'), 'confirmed question must not show a correction');
 const correctedHidden = context.VaultQuestionView.renderHtml(correctedNote, { selected: 'B', revealed: false });
 assert(!correctedHidden.includes('vault-question-correction'), 'correction must not show before reveal');
+// concept links inside a question open in a new tab (relation links and wikilinks in the explanation)
+const linkNote = JSON.parse(JSON.stringify(note));
+linkNote.raw = 'Question text\n\n(A) One\n(B) Two\n(C) Three\n(D) Four\n(E) Five\n??\nAns: B\nSee [[brain-abscess]] for details';
+const linkHtml = context.VaultQuestionView.renderHtml(linkNote, { selected: 'B', revealed: true });
+assert(linkHtml.includes('class="concept-link vault-question-concept" href="#/concept/brain-abscess" target="_blank" rel="noopener"'), 'relation link opens in a new tab');
+assert(/<a class="note-wikilink[^"]*" href="#\/concept\/brain-abscess" target="_blank" rel="noopener">/.test(linkHtml), 'explanation wikilink opens in a new tab: ' + linkHtml.match(/<a class="note-wikilink[^>]*>/)?.[0]);
+assert(!context.NoteRenderer.render('See [[brain-abscess]]', {}).includes('target="_blank"'), 'plain concept-page rendering keeps same-tab links');
+
 // confidence buttons only in card mode before reveal; result carries timing + confidence
 const cardBefore = context.VaultQuestionView.renderHtml(note, { selected: '', revealed: false }, { mode: 'card' });
 assert((cardBefore.match(/data-confidence="/g) || []).length === 3, 'card mode shows three confidence buttons before reveal');
