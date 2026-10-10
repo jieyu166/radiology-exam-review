@@ -21,4 +21,4 @@
 
 ## 4. 驗收與部署
 
-- [ ] 4.1 全量驗收：`node scripts/test_scheduler.js`、`test_review_view.js`、`test_exam_builder.js`、`test_study_progress.js`、`test_sync_client.js`、`test_vault_question_view.js`、`test_content_store.js`、`test_note_renderer.js`、`node --test worker/test/`、`python scripts/test_vault_site.py`、`python scripts/accept_vault_native_migration.py` 全部通過；推 main 後 `deploy-worker.yml` 與 `deploy-pages.yml` success；線上兩裝置 `#/review` 計數一致並截圖；報告寫入 `docs/reports/study-scheduler-<date>.md`。驗證：上述指令輸出與 `gh run list` 兩個 workflow 最新一筆皆 success。
+- [x] 4.1 全量驗收：`node scripts/test_scheduler.js`、`test_review_view.js`、`test_exam_builder.js`、`test_study_progress.js`、`test_sync_client.js`、`test_vault_question_view.js`、`test_content_store.js`、`test_note_renderer.js`、`node --test worker/test/`、`python scripts/test_vault_site.py`、`python scripts/accept_vault_native_migration.py` 全部通過；推 main 後 `deploy-worker.yml` 與 `deploy-pages.yml` success；線上兩裝置 `#/review` 計數一致並截圖；報告寫入 `docs/reports/study-scheduler-<date>.md`。驗證：上述指令輸出與 `gh run list` 兩個 workflow 最新一筆皆 success。
