@@ -47,6 +47,13 @@ window.RexScheduler.testBuilder = (function () {
     };
   }
 
+  /** Question entries may carry one subspecialty (string) or several (list). */
+  function _subs(entry) {
+    const value = entry.subspecialty;
+    if (Array.isArray(value)) return value.map(v => String(v)).filter(Boolean);
+    return value ? [String(value)] : [];
+  }
+
   function _years(entry) {
     const years = Array.isArray(entry.years) ? entry.years : (entry.year == null ? [] : [entry.year]);
     return years.map(v => Math.trunc(Number(v)));
@@ -73,7 +80,7 @@ window.RexScheduler.testBuilder = (function () {
     return (entries || []).filter(entry => {
       if (entry.scorable === false) return false;
       if (filters.years.length && !_years(entry).some(y => filters.years.includes(y))) return false;
-      if (filters.subspecialties.length && !filters.subspecialties.includes(String(entry.subspecialty || ''))) return false;
+      if (filters.subspecialties.length && !_subs(entry).some(s => filters.subspecialties.includes(s))) return false;
       if (filters.concepts.length && !(entry.conceptIds || []).some(c => filters.concepts.includes(c))) return false;
       return _matchesStatus(entry, filters, p, wrongFn);
     }).map(entry => entry.id);
@@ -96,5 +103,5 @@ window.RexScheduler.testBuilder = (function () {
     return seededShuffle(pool, seed).slice(0, n);
   }
 
-  return { STATUSES, DEFAULT_COUNT, MAX_COUNT, normalizeFilters, buildPool, seededShuffle, sample };
+  return { STATUSES, DEFAULT_COUNT, MAX_COUNT, normalizeFilters, buildPool, seededShuffle, sample, subspecialtiesOf: _subs };
 })();

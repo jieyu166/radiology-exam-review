@@ -197,6 +197,23 @@ class VaultSiteCompilerTests(unittest.TestCase):
         codes = {error["code"] for error in strict.errors if error["sourcePath"] == "questions/2024/2024-014.md"}
         self.assertIn("question_missing_answer", codes)
 
+    def test_question_subspecialty_is_published_as_a_list(self) -> None:
+        (self.vault / "questions" / "2024" / "2024-020.md").write_text(
+            "---\nid: 2024-020\nsubspecialty: [GI, ABD]\n---\n(A) One\n(B) Two\n(C) Three\n??\n**Ans: A**\n",
+            encoding="utf-8",
+        )
+        (self.vault / "questions" / "2024" / "2024-021.md").write_text(
+            "---\nid: 2024-021\n---\n(A) One\n(B) Two\n(C) Three\n??\n**Ans: A**\n",
+            encoding="utf-8",
+        )
+        output = self.root / "subspecialty-dist"
+        result = build_package(self.vault, output, strict=True)
+        self.assertTrue(result.ok, result.errors)
+        index_by_id = {entry["id"]: entry for entry in json.loads((output / "indexes/questions.json").read_text(encoding="utf-8"))["entries"]}
+        self.assertEqual(index_by_id["2024-001"]["subspecialty"], ["NR"], "single string frontmatter becomes a one-item list")
+        self.assertEqual(index_by_id["2024-020"]["subspecialty"], ["GI", "ABD"])
+        self.assertEqual(index_by_id["2024-021"]["subspecialty"], [])
+
     def test_reference_projection_string_absent_and_non_string(self) -> None:
         (self.vault / "questions" / "2024" / "2024-006.md").write_text(
             "---\nid: 2024-006\nreference: Radiology Review Manual P.466\n---\n"

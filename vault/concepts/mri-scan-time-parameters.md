@@ -1,7 +1,7 @@
 ---
 concepts: [mri-scan-time-parameters]
 name: MRI Scan Time — Governing Parameters
-subspecialty: [Physics, MR]
+subspecialty: [Physics, MRI]
 aliases:
   - MRI scan time
   - MRI acquisition time formula

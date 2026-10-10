@@ -1,7 +1,7 @@
 ---
 concepts: [thyroglossal-duct-cyst]
 name: Thyroglossal Duct Cyst (TDC) — Ultrasound Features
-subspecialty: [US, ENT]
+subspecialty: [US, H&N]
 aliases:
   - thyroglossal duct cyst
   - TDC

@@ -54,6 +54,13 @@ const VaultApp = (function () {
     return years.map(value => String(value));
   }
 
+  /** A question may belong to several subspecialties (list) — older indexes carried a single string. */
+  function _subs(entry) {
+    const value = entry.subspecialty;
+    if (Array.isArray(value)) return value.map(v => String(v)).filter(Boolean);
+    return value ? [String(value)] : [];
+  }
+
   function _isWrong(answerEntry) {
     const wc = window.RexScheduler && window.RexScheduler.wrongCriterion;
     return wc ? wc.isWrong(answerEntry) : (!!answerEntry && answerEntry.correct === false);
@@ -65,7 +72,7 @@ const VaultApp = (function () {
     return _entries('question').filter(entry => {
       if (config.scorableOnly && entry.scorable === false) return false;
       if (state.year && !_years(entry).includes(String(state.year))) return false;
-      if (state.sub && String(entry.subspecialty || '') !== state.sub) return false;
+      if (state.sub && !_subs(entry).includes(state.sub)) return false;
       if (state.checked && entry.checked !== true) return false;
       if (state.starred && progress.starred[entry.id] !== true) return false;
       if (state.wrong && !_isWrong(progress.answers[entry.id])) return false;
@@ -86,7 +93,7 @@ const VaultApp = (function () {
     const years = [...new Set(_entries('question').flatMap(_years))].sort();
     const yearSelect = document.getElementById('year-select');
     if (yearSelect) yearSelect.innerHTML = '<option value="">全部年份</option>' + years.map(year => `<option value="${_esc(year)}">${_esc(year)} 年</option>`).join('');
-    const subs = [...new Set(_entries('question').map(entry => String(entry.subspecialty || '')).filter(Boolean))].sort();
+    const subs = [...new Set(_entries('question').flatMap(_subs))].sort();
     const pills = document.getElementById('subspecialty-pills');
     if (pills) pills.innerHTML = ['<button class="pill active" data-sub="">全部</button>'].concat(subs.map(sub => `<button class="pill" data-sub="${_esc(sub)}">${_esc(sub)}</button>`)).join('');
     if (yearSelect) yearSelect.value = state.year;
@@ -350,7 +357,7 @@ const VaultApp = (function () {
     const draw = query => {
       const needle = String(query || '').toLowerCase();
       const visible = entries.filter(entry => !needle || JSON.stringify(entry).toLowerCase().includes(needle));
-      list.innerHTML = visible.map(entry => `<a class="vault-list-item" href="#/card?qid=${encodeURIComponent(entry.id)}"><strong>${_esc(entry.id)}</strong><span>${_esc(entry.subspecialty || '')}</span><span>${_esc(_years(entry).join(' / '))}</span><span>${_esc((entry.conceptIds || []).join(', '))}</span></a>`).join('') || '<div class="vault-empty">沒有符合條件的題目</div>';
+      list.innerHTML = visible.map(entry => `<a class="vault-list-item" href="#/card?qid=${encodeURIComponent(entry.id)}"><strong>${_esc(entry.id)}</strong><span>${_esc(_subs(entry).join(', '))}</span><span>${_esc(_years(entry).join(' / '))}</span><span>${_esc((entry.conceptIds || []).join(', '))}</span></a>`).join('') || '<div class="vault-empty">沒有符合條件的題目</div>';
     };
     draw('');
     section.querySelector('#vault-search').addEventListener('input', event => draw(event.target.value));
@@ -475,7 +482,7 @@ const VaultApp = (function () {
     const progress = DataLoader.getProgress();
     const active = DataLoader.getActiveExam();
     const years = [...new Set(entries.flatMap(_years))].sort();
-    const subs = [...new Set(entries.map(e => String(e.subspecialty || '')).filter(Boolean))].sort();
+    const subs = [...new Set(entries.flatMap(_subs))].sort();
     const f = examUi.filters;
     const pill = (attr, value, label, on) => `<label class="pill-check"><input type="checkbox" ${attr}="1" value="${_esc(value)}" ${on ? 'checked' : ''}/> ${_esc(label)}</label>`;
     const resumeHtml = active && active.entryIds.length

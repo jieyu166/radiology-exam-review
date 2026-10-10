@@ -284,6 +284,19 @@ def _syntax_inventory(note: SourceNote, links: list[dict[str, str]], embeds: lis
     return entries
 
 
+def _subspecialty_list(value: Any) -> list[str]:
+    """Question frontmatter ``subspecialty`` may be a string or a list; the index always publishes a list."""
+    if value is None or value == "":
+        return []
+    items = value if isinstance(value, list) else [value]
+    out: list[str] = []
+    for item in items:
+        text = str(item).strip()
+        if text and text not in out:
+            out.append(text)
+    return out
+
+
 def _reference_value(note: SourceNote) -> tuple[str, dict[str, Any] | None]:
     """Project frontmatter ``reference`` as a string; non-string values degrade to "" with a warning."""
     value = note.frontmatter.get("reference")
@@ -598,7 +611,7 @@ def build_package(vault_root: Path, output_root: Path, *, strict: bool = True, w
             questions.append(dict(
                 entry,
                 years=years,
-                subspecialty=frontmatter.get("subspecialty", ""),
+                subspecialty=_subspecialty_list(frontmatter.get("subspecialty")),
                 conceptIds=concept_ids,
                 checked=frontmatter.get("checked", False),
                 reviewStatus=sr.get("reviewStatus", ""),

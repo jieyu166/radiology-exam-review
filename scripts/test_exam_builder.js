@@ -27,6 +27,7 @@ const entries = [
   { id: '2019-001', years: [2019], subspecialty: 'CH', conceptIds: [], scorable: true },
   { id: '2020-005', years: [2020], subspecialty: 'CH', conceptIds: [], scorable: false },
   { id: '2021-144', years: [2021, 2022], subspecialty: 'NR', conceptIds: [], scorable: true },
+  { id: '2020-900', years: [2020], subspecialty: ['GI', 'ABD'], conceptIds: [], scorable: true },
 ];
 const progress = {
   answers: { '2020-001': { correct: false }, '2020-002': { correct: true }, '2020-004': { correct: false }, '2019-001': { correct: false }, '2020-005': { correct: false } },
@@ -34,10 +35,12 @@ const progress = {
 };
 const pool = tb.buildPool(entries, progress, { status: ['wrong', 'bookmarked'], years: [2020], subspecialties: ['CH'] });
 assert(pool.join(',') === '2020-001,2020-002,2020-003', 'wrong OR bookmarked AND 2020 AND CH: ' + pool.join(','));
-assert(tb.buildPool(entries, progress, { status: ['unseen'] }).join(',') === '2020-003,2021-144', 'unseen = no attempt (scorable only)');
+assert(tb.buildPool(entries, progress, { status: ['unseen'] }).join(',') === '2020-003,2021-144,2020-900', 'unseen = no attempt (scorable only)');
 assert(tb.buildPool(entries, progress, { status: ['correct'], concepts: ['abpa'] }).length === 0, 'AND across dimensions');
 assert(tb.buildPool(entries, progress, { years: [2022] }).join(',') === '2021-144', 'multi-year entry matches either year');
-assert(tb.buildPool(entries, progress, {}).length === 6, 'no filters = all scorable');
+assert(tb.buildPool(entries, progress, { subspecialties: ['ABD'] }).join(',') === '2020-900' && tb.buildPool(entries, progress, { subspecialties: ['GI'] }).join(',') === '2020-900', 'multi-subspecialty entry matches either subspecialty');
+assert(tb.subspecialtiesOf({ subspecialty: 'CH' }).join() === 'CH' && tb.subspecialtiesOf({ subspecialty: ['GI', 'ABD'] }).join() === 'GI,ABD' && tb.subspecialtiesOf({}).length === 0, 'subspecialtiesOf handles string, list, missing');
+assert(tb.buildPool(entries, progress, {}).length === 7, 'no filters = all scorable');
 
 // sampling is reproducible for a seed and bounded by count/pool
 const all = tb.buildPool(entries, progress, {});
@@ -53,7 +56,7 @@ assert(er.resumeIndex(['a', 'b'], {}) === 0 && er.resumeIndex([], {}) === 0, 'em
 vm.runInContext(fs.readFileSync('js/exam-session.js', 'utf8') + '\nglobalThis.ExamSession = ExamSession;', context);
 const ES = context.ExamSession;
 const session = ES.start({ entries, progress, filters: { status: [], count: 5, timed: true }, seed: 7, now: 1000, secondsPerQuestion: 90 });
-assert(session.entryIds.length === 5 && session.poolSize === 6 && session.secondsPerQuestion === 90 && session.seed === 7, 'start builds a 5-question timed paper: ' + JSON.stringify(session.entryIds));
+assert(session.entryIds.length === 5 && session.poolSize === 7 && session.secondsPerQuestion === 90 && session.seed === 7, 'start builds a 5-question timed paper: ' + JSON.stringify(session.entryIds));
 assert(JSON.stringify(ES.start({ entries, progress, filters: { count: 5 }, seed: 7, now: 1 }).entryIds) === JSON.stringify(session.entryIds), 'same seed reproduces the paper');
 const ids = session.entryIds;
 ES.answer(session, ids[0], 'A', 1200); ES.advance(session);

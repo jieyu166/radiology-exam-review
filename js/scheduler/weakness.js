@@ -39,7 +39,8 @@ window.RexScheduler.weakness = (function () {
   function rowsFromEntries(entries, conceptNames) {
     const rows = [];
     for (const e of entries || []) {
-      if (e.subspecialty) rows.push({ slug: `sub:${e.subspecialty}`, label: String(e.subspecialty), questionId: e.id });
+      const subs = Array.isArray(e.subspecialty) ? e.subspecialty : (e.subspecialty ? [e.subspecialty] : []);
+      for (const sub of subs) rows.push({ slug: `sub:${sub}`, label: String(sub), questionId: e.id });
       for (const c of e.conceptIds || []) rows.push({ slug: `concept:${c}`, label: (conceptNames && conceptNames[c]) || c, questionId: e.id });
     }
     return rows;

@@ -22,7 +22,8 @@ const AnalyticsView = (function () {
     const buckets = S.calibration.calibration(attempts);
     const hyper = S.calibration.hypercorrectionCandidates(attempts, 20).map(a => {
       const e = entriesById.get(a.questionId) || {};
-      return { questionId: a.questionId, years: e.years || [], subspecialty: e.subspecialty || '', clientTs: a.clientTs, chosen: a.chosen };
+      const subs = Array.isArray(e.subspecialty) ? e.subspecialty : (e.subspecialty ? [e.subspecialty] : []);
+      return { questionId: a.questionId, years: e.years || [], subspecialty: subs.join('/'), clientTs: a.clientTs, chosen: a.chosen };
     });
     const wrongIds = S.wrongCriterion.wrongIds(input.progress || {});
     const wrongEntries = wrongIds.map(id => entriesById.get(id)).filter(Boolean);

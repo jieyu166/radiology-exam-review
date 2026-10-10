@@ -81,6 +81,8 @@ assert(groups.map(g => `${g.label}:${g.size}`).join(',') === 'MSK:3,CH:2,foot-an
 assert(!groups.find(g => g.label === 'NR'), 'single-question group omitted');
 assert(groups[0].anchor === 'm2' && groups[1].anchor === 'c1', 'anchor is the most recently wrong question');
 assert(wk.groupByTopic(wk.rowsFromEntries(wrongEntries), [], { limit: 1 }).length === 1, 'limit respected');
+const multiRows = wk.rowsFromEntries([{ id: 'g1', subspecialty: ['GI', 'ABD'], conceptIds: [] }, { id: 'g2', subspecialty: ['GU', 'ABD'], conceptIds: [] }]);
+assert(wk.groupByTopic(multiRows, ['g1', 'g2']).map(g => `${g.label}:${g.size}`).join(',') === 'ABD:2', 'multi-subspecialty entries contribute a row per subspecialty');
 
 // ── drill ──
 const dr = S.drill;
