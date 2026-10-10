@@ -8,11 +8,11 @@ TBD - created by archiving change 'concept-subspecialty-filter'. Update Purpose 
 
 ### Requirement: Subspecialty filter on the concept list
 
-The concept list view SHALL render a row of subspecialty filter controls above the concept grid. The first control SHALL be an "All" control, followed by one control per subspecialty. The controls SHALL be derived by de-duplicating the `subspecialty` values present in the already-loaded `data/concepts-index.json`; the view MUST NOT issue any additional network request to build them. Each subspecialty control SHALL display the count of concepts in that subspecialty. Concepts whose `subspecialty` is empty SHALL be grouped under an "Uncategorized" control.
+The concept list view SHALL render a row of subspecialty filter controls above the concept grid. The first control SHALL be an "All" control, followed by one control per subspecialty. The controls SHALL be derived by de-duplicating the `subspecialty` values present in the already-loaded `indexes/concepts.json`; the view MUST NOT issue any additional network request to build them. Each subspecialty control SHALL display the count of concepts in that subspecialty. Concepts whose `subspecialty` is empty SHALL be grouped under an "Uncategorized" control.
 
 #### Scenario: Filter controls derived from loaded index
 
-- **WHEN** the concept list view renders with the concept index already loaded
+- **WHEN** the concept list view renders with `indexes/concepts.json` already loaded
 - **THEN** an "All" control plus one control per distinct subspecialty present in the index is shown, each subspecialty control showing its concept count, with no extra network request
 
 #### Scenario: Empty subspecialty grouped as Uncategorized
@@ -22,18 +22,20 @@ The concept list view SHALL render a row of subspecialty filter controls above t
 
 
 <!-- @trace
-source: concept-subspecialty-filter
-updated: 2026-07-04
+source: remove-legacy-data-json
+updated: 2026-10-10
 code:
-  - js/question-store.js
-  - js/editor.js
-  - js/concept-cards.js
-  - js/exam-mode.js
-  - js/card-mode.js
-  - js/app.js
-  - index.html
-  - css/main.css
-  - js/data-loader.js
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
+tests:
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
 -->
 
 ---
@@ -54,24 +56,26 @@ The subspecialty controls SHALL be ordered with the exam question subspecialties
 
 
 <!-- @trace
-source: concept-subspecialty-filter
-updated: 2026-07-04
+source: remove-legacy-data-json
+updated: 2026-10-10
 code:
-  - js/question-store.js
-  - js/editor.js
-  - js/concept-cards.js
-  - js/exam-mode.js
-  - js/card-mode.js
-  - js/app.js
-  - index.html
-  - css/main.css
-  - js/data-loader.js
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
+tests:
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
 -->
 
 ---
 ### Requirement: Selecting a subspecialty filters the grid
 
-Selecting a subspecialty control SHALL filter the concept grid to that subspecialty using only already-loaded data (no re-fetch), and SHALL mark the selected control as active. Selecting "All" SHALL show every concept. The related-question count on each concept and the "concepts to be created" block SHALL be unaffected by the filter.
+Selecting a subspecialty control SHALL filter the concept grid to that subspecialty using only the already-loaded `indexes/concepts.json` data (no re-fetch), and SHALL mark the selected control as active. Selecting "All" SHALL show every concept. The related-question count on each concept, derived from `indexes/relations.json`, SHALL be unaffected by the filter.
 
 #### Scenario: Filter to one subspecialty
 
@@ -84,16 +88,18 @@ Selecting a subspecialty control SHALL filter the concept grid to that subspecia
 - **THEN** the grid shows all concepts again and "All" is marked active
 
 <!-- @trace
-source: concept-subspecialty-filter
-updated: 2026-07-04
+source: remove-legacy-data-json
+updated: 2026-10-10
 code:
-  - js/question-store.js
-  - js/editor.js
-  - js/concept-cards.js
-  - js/exam-mode.js
-  - js/card-mode.js
-  - js/app.js
-  - index.html
-  - css/main.css
-  - js/data-loader.js
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
+tests:
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
 -->

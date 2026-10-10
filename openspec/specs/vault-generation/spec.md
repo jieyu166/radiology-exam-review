@@ -6,53 +6,40 @@ TBD - created by archiving change 'obsidian-exam-vault'. Update Purpose after ar
 
 ## Requirements
 
-### Requirement: Publish verified 100-note Phase 2B concept summaries from the vault
+### Requirement: Vault is the sole authoritative source
 
-The generation workflow SHALL derive Phase 2B concept detail JSON and the concept index from validated vault Summary content for exactly the 100 notes in `scheduled-disease-01` through `scheduled-disease-10`. It MUST validate and publish one ten-note scheduled sub-batch at a time, and it MUST reject a publication attempt unless every selected note in that sub-batch has passed its evidence and structure gates.
+The repository SHALL NOT contain any generator that writes vault Markdown from JSON, nor any script that writes question or concept JSON under `data/`. The directory `data/` MUST NOT exist in the tracked tree and SHALL be listed in `.gitignore`. The cutover audit SHALL report `legacyToolsAbsent: true` only when `data/` is absent and none of the retired scripts (`build_concepts.py`, `vault_to_json.py`, `json_to_vault.py`, `merge_edits.py`, `nr_summary_audit.py`, `sheets_to_json.py`, `json_to_sheets.py`, `import_obsidian_sr.py`) exist under `scripts/`; otherwise it SHALL report `legacyToolsAbsent: false`, list every residual path under `legacyResidue`, and exit with status 1.
 
-#### Scenario: Publish one validated disease sub-batch
+#### Scenario: Audit passes on a clean tree
 
-- **WHEN** all ten notes in `scheduled-disease-01` pass Phase 2B validation
-- **THEN** the generation workflow writes only the ten matching concept detail JSON files and `data/concepts-index.json` from the vault Summary content
+- **WHEN** the cutover audit runs on a checkout with no `data/` directory and none of the retired scripts
+- **THEN** the report has `legacyToolsAbsent: true`, an empty `legacyResidue`, and the process exits 0
 
-#### Scenario: Refuse a sub-batch with an unvalidated disease note
+#### Scenario: Audit fails on residue
 
-- **WHEN** one `scheduled-disease-07` note has `newUnsupportedFacts` greater than zero or fails its footnote gate
-- **THEN** the generation workflow rejects that sub-batch and writes no selected detail JSON file
+- **WHEN** a checkout contains `scripts/merge_edits.py` or a `data/` directory
+- **THEN** the report has `legacyToolsAbsent: false`, `legacyResidue` names each residual path, and the process exits 1
 
+##### Example: Residue listing
 
-<!-- @trace
-source: restructure-nr-concept-summaries-phase2b
-updated: 2026-08-02
-code:
-  - scripts/build_phase2b_evidence.py
-  - scripts/nr_summary_audit.py
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/build_concepts.py
-tests:
-  - scripts/test_build_concepts.py
-  - scripts/test_nr_summary_audit.py
--->
-
----
-### Requirement: Preserve sub-batch publication isolation
-
-The generation workflow MUST serialize Phase 2B scoped builds and generated-manifest seals. The workflow SHALL permit a validated sub-batch to coexist with other evidence and Markdown rewrites in progress, but it MUST NOT accept unrelated selected-detail or index drift as part of its own two-run observation.
-
-#### Scenario: Isolate a later sub-batch build
-
-- **WHEN** `scheduled-disease-03` has a sealed generated observation and `scheduled-disease-04` begins its scoped build
-- **THEN** validation preserves the sealed observation for `scheduled-disease-03` and evaluates `scheduled-disease-04` only against its own selected detail files and shared-index snapshot
+| Residual paths present | legacyResidue |
+| --- | --- |
+| `data/` | `["data"]` |
+| `scripts/merge_edits.py`, `scripts/build_concepts.py` | `["scripts/build_concepts.py", "scripts/merge_edits.py"]` |
 
 <!-- @trace
-source: restructure-nr-concept-summaries-phase2b
-updated: 2026-08-02
+source: remove-legacy-data-json
+updated: 2026-10-10
 code:
-  - scripts/build_phase2b_evidence.py
-  - scripts/nr_summary_audit.py
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/build_concepts.py
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
 tests:
-  - scripts/test_build_concepts.py
-  - scripts/test_nr_summary_audit.py
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
 -->

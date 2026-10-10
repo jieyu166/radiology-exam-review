@@ -135,59 +135,34 @@ tests:
 ---
 ### Requirement: Emit minimal question interaction projections
 
-For an eligible question note, the compiler SHALL emit an `sr` projection containing front and back source line ranges, option line ranges, the parsed correct answer, and linked concept ids. The projection SHALL reference the raw Markdown and SHALL NOT become an editable content source.
+For an eligible question note, the compiler SHALL emit an `sr` projection containing front and back source line ranges, option line ranges, the parsed correct answer, linked concept ids, and the frontmatter `reference` string (empty string when absent). The projection SHALL reference the raw Markdown and SHALL NOT become an editable content source. The `reference` value SHALL also appear on the matching entry of `indexes/questions.json` and SHALL NOT be indexed in `indexes/search.json`.
 
 #### Scenario: Build a question projection
 
-- **WHEN** an eligible question contains one SR front/back boundary, options A through E, `Ans: B`, and `[[brain-abscess]]`
-- **THEN** its question record contains the front and back line ranges, five option ranges, correct answer `B`, and concept id `brain-abscess`
+- **WHEN** an eligible question contains one SR front/back boundary, options A through E, `Ans: B`, `[[brain-abscess]]`, and frontmatter `reference: Radiology Review Manual P.466`
+- **THEN** its question record contains the front and back line ranges, five option ranges, correct answer `B`, concept id `brain-abscess`, and `reference` equal to `Radiology Review Manual P.466`
+
+#### Scenario: Build a projection without reference
+
+- **WHEN** an eligible question has no `reference` frontmatter key
+- **THEN** `sr.reference` is the empty string and the build emits no warning for that field
 
 
 <!-- @trace
-source: vault-native-review-site
+source: remove-legacy-data-json
 updated: 2026-10-10
 code:
-  - scripts/vault_site/compiler.py
-  - scripts/build_static_site.py
-  - start-image-manager.cmd
-  - js/content-store.js
   - scripts/image_asset_manager.js
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/audit_vault_native_cutover.py
-  - docs/image-asset-manager.md
-  - js/vault-app.js
-  - js/exam-mode.js
-  - scripts/build_phase2b_evidence.py
-  - scripts/start_image_asset_manager.ps1
-  - scripts/nr_summary_audit.py
-  - js/data-loader.js
-  - .github/workflows/deploy-pages.yml
-  - scripts/validate_vault_site.py
-  - index.html
-  - scripts/vault_site/__init__.py
-  - README.md
-  - scripts/image_asset_manager.html
-  - css/main.css
-  - scripts/build_vault_site.py
-  - docs/concept-summary-review-publication.md
-  - js/vault-question-view.js
-  - scripts/accept_vault_native_migration.py
-  - scripts/image_asset_manager.py
   - output/imagegen/adrenoleukodystrophy-background-draft.png
-  - js/note-renderer.js
-  - scripts/build_concepts.py
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
 tests:
-  - scripts/test_build_concepts.py
-  - scripts/test_image_asset_manager.js
-  - scripts/test_study_progress.js
-  - scripts/test_deploy_workflow.py
-  - scripts/test_vault_question_view.js
   - scripts/test_image_asset_manager.py
-  - scripts/test_legacy_isolation.py
-  - scripts/test_vault_site.py
-  - scripts/test_content_store.js
-  - scripts/test_nr_summary_audit.py
-  - scripts/test_note_renderer.js
+  - scripts/test_image_asset_manager.js
 -->
 
 ---

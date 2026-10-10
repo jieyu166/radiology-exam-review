@@ -96,7 +96,7 @@ tests:
 ---
 ### Requirement: Verifiable 100-note batch acceptance
 
-A Phase 2B note MUST NOT be marked verified unless its source hash, lossless pre-edit Summary lock, Summary structure, footnotes, fact coverage, and generated keyPoints validation all pass with `newUnsupportedFacts` equal to zero. Each ten-note scheduled sub-batch MUST NOT be accepted unless its scoped build writes only its selected detail JSON files and the concept index on its first execution and produces no byte or mtime changes on its second execution. The 100-note tranche MUST NOT be accepted unless every sub-batch has an independent approved review and the derived manual queue matches every unresolved fact ID.
+A Phase 2B note MUST NOT be marked verified unless its source hash, lossless pre-edit Summary lock, Summary structure, footnotes, and fact coverage all pass with `newUnsupportedFacts` equal to zero. The 100-note tranche MUST NOT be accepted unless every sub-batch has an independent approved review and the derived manual queue matches every unresolved fact ID. Acceptance evidence SHALL be recorded under `docs/reports/nr-summary-rewrite/phase2b/` and SHALL remain byte-for-byte unchanged after the audit tooling is retired. Acceptance MUST NOT depend on any generated JSON under `data/`; the vault Summary section is the final published form of each note.
 
 #### Scenario: Block publication when a fact lacks coverage
 
@@ -109,26 +109,24 @@ A Phase 2B note MUST NOT be marked verified unless its source hash, lossless pre
 - **WHEN** batch validation runs
 - **THEN** validation reports fact-coverage failure and does not mark `brain-abscess` verified
 
-#### Scenario: Block publication for a non-idempotent build
+#### Scenario: Preserve sealed evidence after tooling retirement
 
-- **WHEN** the second scoped build changes a selected detail JSON byte or modification time
-- **THEN** generated-output validation fails and the affected sub-batch remains unaccepted
-
-##### Example: Second-run JSON mutation
-
-- **GIVEN** the first scoped build records `data/concepts/brain-abscess.json` as an allowed selected output
-- **WHEN** the second scoped build changes that file's byte hash or modification time
-- **THEN** generated-output validation fails and the affected sub-batch remains unaccepted
+- **WHEN** the audit scripts are deleted from `scripts/`
+- **THEN** every file under `docs/reports/nr-summary-rewrite/phase2b/` keeps the same SHA-256 as in the preservation commit, and the vault Summary sections of the 100 notes are unchanged
 
 <!-- @trace
-source: restructure-nr-concept-summaries-phase2b
-updated: 2026-08-02
+source: remove-legacy-data-json
+updated: 2026-10-10
 code:
-  - scripts/build_phase2b_evidence.py
-  - scripts/nr_summary_audit.py
-  - scripts/rewrite_phase2b_summary.py
-  - scripts/build_concepts.py
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - start-image-manager.cmd
+  - docs/image-asset-manager.md
+  - scripts/image_asset_manager.html
+  - docs/concept-summary-review-publication.md
 tests:
-  - scripts/test_build_concepts.py
-  - scripts/test_nr_summary_audit.py
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
 -->
