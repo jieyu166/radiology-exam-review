@@ -22,17 +22,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -64,17 +58,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -96,17 +84,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -127,17 +109,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->

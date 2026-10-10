@@ -27,17 +27,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -59,17 +53,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -96,17 +84,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -128,17 +110,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -165,17 +141,11 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
 -->
@@ -201,17 +171,126 @@ updated: 2026-07-04
 code:
   - index.html
   - js/data-loader.js
-  - vault/concepts/pyloric-stenosis.md
-  - vault/questions/2016/2016-105.md
   - js/question-store.js
   - js/concept-cards.js
-  - .agents/skills/spectra-analyze/SKILL.md
   - js/card-mode.js
   - js/app.js
-  - vault/questions/2016/2016-256.md
   - js/exam-mode.js
-  - .agents/skills/spectra-verify/SKILL.md
-  - vault/concepts/hepatic-hemangioma.md
   - css/main.css
   - js/editor.js
+-->
+
+---
+### Requirement: Answer history records the source revision
+
+The system SHALL store `sourceSha256` with every answer entry and every completed exam history record that contains published question results. A current question record SHALL remain the source of displayed content even when an older progress entry has a different source hash.
+
+#### Scenario: Preserve an old attempt after a question revision
+
+- **WHEN** an answer history entry for `2021-001` has source hash `old-hash` and the published question record has source hash `new-hash`
+- **THEN** the current question renders from `new-hash` source content while the old attempt remains identifiable as an attempt against `old-hash`
+
+
+<!-- @trace
+source: vault-native-review-site
+updated: 2026-10-10
+code:
+  - scripts/vault_site/compiler.py
+  - scripts/build_static_site.py
+  - start-image-manager.cmd
+  - js/content-store.js
+  - scripts/image_asset_manager.js
+  - scripts/rewrite_phase2b_summary.py
+  - scripts/audit_vault_native_cutover.py
+  - docs/image-asset-manager.md
+  - js/vault-app.js
+  - js/exam-mode.js
+  - scripts/build_phase2b_evidence.py
+  - scripts/start_image_asset_manager.ps1
+  - scripts/nr_summary_audit.py
+  - js/data-loader.js
+  - .github/workflows/deploy-pages.yml
+  - scripts/validate_vault_site.py
+  - index.html
+  - scripts/vault_site/__init__.py
+  - README.md
+  - scripts/image_asset_manager.html
+  - css/main.css
+  - scripts/build_vault_site.py
+  - docs/concept-summary-review-publication.md
+  - js/vault-question-view.js
+  - scripts/accept_vault_native_migration.py
+  - scripts/image_asset_manager.py
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - js/note-renderer.js
+  - scripts/build_concepts.py
+tests:
+  - scripts/test_build_concepts.py
+  - scripts/test_image_asset_manager.js
+  - scripts/test_study_progress.js
+  - scripts/test_deploy_workflow.py
+  - scripts/test_vault_question_view.js
+  - scripts/test_image_asset_manager.py
+  - scripts/test_legacy_isolation.py
+  - scripts/test_vault_site.py
+  - scripts/test_content_store.js
+  - scripts/test_nr_summary_audit.py
+  - scripts/test_note_renderer.js
+-->
+
+---
+### Requirement: Study progress does not override published content
+
+The system SHALL use `rex_progress` only for study state. The system SHALL not use `rex_edits_*` to override titles, question text, options, answers, explanations, concept fields, or any published raw Markdown. The system SHALL provide an explicit export of detected `rex_edits_*` entries before removing legacy content-edit controls.
+
+#### Scenario: Export legacy patches without applying them
+
+- **WHEN** browser storage contains one or more `rex_edits_*` entries during migration
+- **THEN** the user can export the entries and the displayed published content remains unchanged by those entries
+
+<!-- @trace
+source: vault-native-review-site
+updated: 2026-10-10
+code:
+  - scripts/vault_site/compiler.py
+  - scripts/build_static_site.py
+  - start-image-manager.cmd
+  - js/content-store.js
+  - scripts/image_asset_manager.js
+  - scripts/rewrite_phase2b_summary.py
+  - scripts/audit_vault_native_cutover.py
+  - docs/image-asset-manager.md
+  - js/vault-app.js
+  - js/exam-mode.js
+  - scripts/build_phase2b_evidence.py
+  - scripts/start_image_asset_manager.ps1
+  - scripts/nr_summary_audit.py
+  - js/data-loader.js
+  - .github/workflows/deploy-pages.yml
+  - scripts/validate_vault_site.py
+  - index.html
+  - scripts/vault_site/__init__.py
+  - README.md
+  - scripts/image_asset_manager.html
+  - css/main.css
+  - scripts/build_vault_site.py
+  - docs/concept-summary-review-publication.md
+  - js/vault-question-view.js
+  - scripts/accept_vault_native_migration.py
+  - scripts/image_asset_manager.py
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - js/note-renderer.js
+  - scripts/build_concepts.py
+tests:
+  - scripts/test_build_concepts.py
+  - scripts/test_image_asset_manager.js
+  - scripts/test_study_progress.js
+  - scripts/test_deploy_workflow.py
+  - scripts/test_vault_question_view.js
+  - scripts/test_image_asset_manager.py
+  - scripts/test_legacy_isolation.py
+  - scripts/test_vault_site.py
+  - scripts/test_content_store.js
+  - scripts/test_nr_summary_audit.py
+  - scripts/test_note_renderer.js
 -->
