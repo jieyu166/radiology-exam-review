@@ -138,6 +138,47 @@ function assert(condition, message) {
   const fromV3 = api.getProgress();
   assert(JSON.stringify(fromV2.attempts) === JSON.stringify(fromV3.attempts) && JSON.stringify(fromV2.examHistory) === JSON.stringify(fromV3.examHistory), 'importing v2 equals importing the converted v3');
 
+  // ── scheduler state: older v3 without cards gets defaults, cards/reviewLogs/settings/activeExam APIs ──
+  api.clearProgress();
+  localStorage.setItem('rex_progress', JSON.stringify({ schemaVersion: 3, attempts: [{ clientId: 'old-1', questionId: '2016-001', chosen: 'A', isCorrect: true, source: 'card', clientTs: 1 }], outbox: { attempts: [] }, sync: {} }));
+  progress = api.getProgress();
+  assert(progress.attempts.length === 1 && JSON.stringify(progress.cards) === '{}' && progress.reviewLogs.length === 0, 'older v3 entry gets empty cards/reviewLogs and keeps attempts');
+  assert(progress.settings.newPerDay === 20 && progress.settings.dayStartHour === 4 && progress.settings.examSecondsPerQuestion === 90, 'default settings');
+  assert(Array.isArray(progress.outbox.cards) && Array.isArray(progress.outbox.reviewLogs) && Array.isArray(progress.outbox.settings), 'new outbox queues exist');
+  assert(progress.activeExam === null && progress.sync.latestReviewLogId === 0, 'activeExam null, review log cursor 0');
+
+  const cardRow = { questionId: '2020-100', dueAt: 1800000600000, stability: 1.2, difficulty: 5, elapsedDays: 0, scheduledDays: 0, learningSteps: 1, reps: 1, lapses: 0, state: 1, lastReviewAt: 1800000000000, updatedAt: 100 };
+  api.setCard(cardRow);
+  api.setCard(Object.assign({}, cardRow, { reps: 2, updatedAt: 200 }));
+  progress = api.getProgress();
+  assert(progress.cards['2020-100'].reps === 2 && progress.outbox.cards.length === 1 && progress.outbox.cards[0].reps === 2, 'setCard stores the card and keeps one outbox item per question');
+  assert(api.getCard('2020-100').updatedAt === 200 && api.getCard('nope') === null, 'getCard');
+  api.appendReviewLog({ clientId: 'log-1', questionId: '2020-100', rating: 'good', state: 0, dueAt: 1800000600000, reviewedAt: 1800000000000 });
+  api.appendReviewLog({ clientId: 'log-1', questionId: '2020-100', rating: 'good', state: 0, dueAt: 1800000600000, reviewedAt: 1800000000000 });
+  assert(api.getReviewLogs().length === 1 && api.getOutbox().reviewLogs.length === 1, 'review log appended once per clientId');
+  assert(api.appendReviewLog({ clientId: 'bad', questionId: 'q', rating: 'meh', reviewedAt: 1 }) === null, 'invalid rating rejected');
+  api.setSettings({ newPerDay: 999, dayStartHour: 5 });
+  progress = api.getProgress();
+  assert(progress.settings.newPerDay === 200 && progress.settings.dayStartHour === 5 && progress.settings.updatedAt > 0 && progress.outbox.settings.length === 1, 'setSettings clamps and enqueues');
+  api.setActiveExam({ entryIds: ['a', 'b'], answers: { a: 'A' }, index: 1, startedAt: 5, filters: {}, seed: 9 });
+  assert(api.getActiveExam().entryIds.length === 2 && api.getActiveExam().answers.a === 'A', 'activeExam persisted');
+  api.setActiveExam(null);
+  assert(api.getActiveExam() === null, 'activeExam cleared');
+  api.markSynced({ cards: ['2020-100'], reviewLogs: ['log-1'], settings: true });
+  progress = api.getProgress();
+  assert(progress.outbox.cards.length === 0 && progress.outbox.reviewLogs.length === 0 && progress.outbox.settings.length === 0, 'markSynced clears scheduler queues');
+  api.mergeSnapshot({ attempts: [], bookmarks: [], exams: [], cards: [Object.assign({}, cardRow, { reps: 7, updatedAt: 300 }), Object.assign({}, cardRow, { questionId: '2019-521', updatedAt: 50 })], reviewLogs: [{ id: 9, clientId: 'log-1', questionId: '2020-100', rating: 'good', state: 0, dueAt: 1, reviewedAt: 1 }, { id: 10, clientId: 'srv-log', questionId: '2019-521', rating: 'again', state: 2, dueAt: 1, reviewedAt: 2 }], settings: { newPerDay: 15, dayStartHour: 4, examSecondsPerQuestion: 90, updatedAt: Date.now() + 1000 }, latestAttemptId: 0, latestReviewLogId: 10 });
+  progress = api.getProgress();
+  assert(progress.cards['2020-100'].reps === 7 && progress.cards['2019-521'], 'snapshot cards merged by newer updatedAt');
+  assert(progress.reviewLogs.filter(l => l.clientId === 'log-1').length === 1 && progress.reviewLogs.find(l => l.clientId === 'log-1').serverId === 9 && progress.reviewLogs.some(l => l.clientId === 'srv-log'), 'snapshot review logs deduped and serverId assigned');
+  assert(progress.settings.newPerDay === 15 && progress.sync.latestReviewLogId === 10, 'snapshot settings and cursor applied');
+  api.mergeSnapshot({ cards: [Object.assign({}, cardRow, { reps: 1, updatedAt: 10 })] });
+  assert(api.getProgress().cards['2020-100'].reps === 7, 'older snapshot card does not overwrite');
+  const bigLogs = api.getProgress();
+  for (let i = 0; i < 5010; i++) bigLogs.reviewLogs.push({ clientId: 'cap-log-' + i, questionId: 'q', rating: 'good', state: 2, dueAt: 1, reviewedAt: 1900000000000 + i });
+  localStorage.setItem('rex_progress', JSON.stringify(bigLogs));
+  assert(api.getProgress().reviewLogs.length === 5000 && api.getProgress().reviewLogs[4999].clientId === 'cap-log-5009', 'review logs capped at 5000 newest');
+
   // ── session ──
   assert(api.getSession().username === 'chen.wei', 'session readable');
   api.setSession({ token: 'expired', expiresAt: Date.now() - 1 });

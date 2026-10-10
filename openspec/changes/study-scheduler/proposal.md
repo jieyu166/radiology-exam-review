@@ -32,6 +32,6 @@
 
 - Affected specs: spaced-repetition-scheduling（新）、review-queue-ui（新）、answer-analytics（新）、exam-builder（新）、study-progress、progress-sync、vault-native-review-web
 - Affected code:
-  - New: js/scheduler/fsrs-adapter.js、js/scheduler/due-window.js、js/scheduler/queue-mix.js、js/scheduler/wrong-criterion.js、js/scheduler/calibration.js、js/scheduler/test-builder.js、js/scheduler/weakness.js、js/scheduler/drill.js、js/scheduler/exam-resume.js、js/review-view.js、js/analytics-view.js、scripts/test_scheduler.js、scripts/test_review_view.js、scripts/test_exam_builder.js、worker/migrations/0003_fsrs.sql、worker/src/fsrs-sync.js、worker/test/fsrs-sync.test.js
-  - Modified: index.html、css/main.css、js/vault-app.js、js/vault-question-view.js、js/data-loader.js、js/sync-client.js、js/attempt-outbox.js、worker/src/index.js、worker/src/sync.js、scripts/test_study_progress.js、scripts/test_vault_question_view.js、README.md、docs/account-sync.md、THIRD_PARTY_NOTICES.md
+  - New: js/scheduler/fsrs-adapter.js, js/scheduler/due-window.js, js/scheduler/queue-mix.js, js/scheduler/wrong-criterion.js, js/scheduler/calibration.js, js/scheduler/test-builder.js, js/scheduler/weakness.js, js/scheduler/drill.js, js/scheduler/exam-resume.js, js/review-view.js, js/analytics-view.js, scripts/test_scheduler.js, scripts/test_review_view.js, scripts/test_exam_builder.js, worker/migrations/0003_fsrs.sql, worker/src/fsrs-sync.js, worker/test/fsrs-sync.test.js
+  - Modified: index.html, css/main.css, js/vault-app.js, js/vault-question-view.js, js/data-loader.js, js/sync-client.js, js/attempt-outbox.js, worker/src/index.js, worker/src/sync.js, scripts/test_study_progress.js, scripts/test_vault_question_view.js, README.md, docs/account-sync.md, THIRD_PARTY_NOTICES.md
   - Removed: 無

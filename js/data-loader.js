@@ -17,9 +17,12 @@ const DataLoader = (function () {
   const SESSION_KEY = 'rex_session';
   const PROGRESS_VERSION = 3;
   const MAX_ATTEMPTS = 5000;
+  const MAX_REVIEW_LOGS = 5000;
   const MAX_OUTBOX_ATTEMPTS = 300;
   const LETTERS = ['A', 'B', 'C', 'D', 'E'];
-  const SOURCES = ['card', 'exam', 'legacy'];
+  const SOURCES = ['card', 'exam', 'review', 'legacy'];
+  const DEFAULT_SETTINGS = { newPerDay: 20, dayStartHour: 4, examSecondsPerQuestion: 90, updatedAt: 0 };
+  const CARD_FIELDS = ['dueAt', 'stability', 'difficulty', 'elapsedDays', 'scheduledDays', 'learningSteps', 'reps', 'lapses', 'state', 'lastReviewAt', 'updatedAt'];
 
   function _uuid() {
     if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') return crypto.randomUUID();
@@ -84,6 +87,65 @@ const DataLoader = (function () {
     });
   }
 
+  /* ── FSRS card / review log / settings 正規化 ── */
+  function _normalizeCard(raw, questionId) {
+    if (!_isObject(raw)) return null;
+    const id = typeof raw.questionId === 'string' && raw.questionId ? raw.questionId : questionId;
+    if (!id || !Number.isFinite(raw.dueAt)) return null;
+    const card = { questionId: id };
+    for (const key of CARD_FIELDS) {
+      const value = raw[key];
+      card[key] = key === 'lastReviewAt' ? (Number.isFinite(value) ? value : null) : (Number.isFinite(value) ? value : 0);
+    }
+    return card;
+  }
+
+  function _normalizeReviewLog(raw) {
+    if (!_isObject(raw) || typeof raw.questionId !== 'string' || !raw.questionId) return null;
+    const rating = ['again', 'hard', 'good', 'easy'].includes(raw.rating) ? raw.rating : null;
+    if (!rating) return null;
+    return {
+      clientId: typeof raw.clientId === 'string' && raw.clientId ? raw.clientId : _uuid(),
+      questionId: raw.questionId,
+      rating,
+      state: _int(raw.state, 0),
+      dueAt: _int(raw.dueAt, 0),
+      stability: Number.isFinite(raw.stability) ? raw.stability : 0,
+      difficulty: Number.isFinite(raw.difficulty) ? raw.difficulty : 0,
+      elapsedDays: _int(raw.elapsedDays, 0),
+      lastElapsedDays: _int(raw.lastElapsedDays, 0),
+      scheduledDays: _int(raw.scheduledDays, 0),
+      learningSteps: _int(raw.learningSteps, 0),
+      reviewedAt: _int(raw.reviewedAt, _int(raw.clientTs, Date.now())),
+      serverId: Number.isFinite(raw.serverId) ? raw.serverId : (Number.isFinite(raw.id) ? raw.id : null),
+    };
+  }
+
+  function _normalizeSettings(raw) {
+    const s = Object.assign({}, DEFAULT_SETTINGS);
+    if (!_isObject(raw)) return s;
+    if (Number.isFinite(raw.newPerDay)) s.newPerDay = Math.min(200, Math.max(0, Math.trunc(raw.newPerDay)));
+    if (Number.isFinite(raw.dayStartHour)) s.dayStartHour = Math.min(23, Math.max(0, Math.trunc(raw.dayStartHour)));
+    if (Number.isFinite(raw.examSecondsPerQuestion)) s.examSecondsPerQuestion = Math.min(600, Math.max(0, Math.trunc(raw.examSecondsPerQuestion)));
+    s.updatedAt = _int(raw.updatedAt, 0);
+    return s;
+  }
+
+  function _normalizeActiveExam(raw) {
+    if (!_isObject(raw) || !Array.isArray(raw.entryIds) || !raw.entryIds.length) return null;
+    return {
+      entryIds: raw.entryIds.filter(id => typeof id === 'string'),
+      answers: _isObject(raw.answers) ? raw.answers : {},
+      elapsed: _isObject(raw.elapsed) ? raw.elapsed : {},
+      index: _int(raw.index, 0),
+      startedAt: _int(raw.startedAt, Date.now()),
+      filters: _isObject(raw.filters) ? raw.filters : {},
+      seed: _int(raw.seed, 1),
+      secondsPerQuestion: Math.max(0, _int(raw.secondsPerQuestion, 0)),
+      poolSize: _int(raw.poolSize, 0),
+    };
+  }
+
   function _dedupeByClientId(items, normalize) {
     const seen = new Map();
     for (const raw of items || []) {
@@ -116,8 +178,12 @@ const DataLoader = (function () {
       answers: {},
       examHistory: [],
       attempts: [],
-      outbox: { attempts: [], bookmarks: [], exams: [] },
-      sync: { latestAttemptId: 0, lastSyncAt: null, migratedLegacy: false },
+      cards: {},
+      reviewLogs: [],
+      settings: Object.assign({}, DEFAULT_SETTINGS),
+      activeExam: null,
+      outbox: { attempts: [], bookmarks: [], exams: [], cards: [], reviewLogs: [], settings: [] },
+      sync: { latestAttemptId: 0, latestReviewLogId: 0, lastSyncAt: null, migratedLegacy: false },
     };
   }
 
@@ -159,11 +225,21 @@ const DataLoader = (function () {
     const examHistory = _dedupeByClientId(Array.isArray(raw.examHistory) ? raw.examHistory : [], _normalizeExam)
       .sort((a, b) => (b.ts || 0) - (a.ts || 0));
 
+    const cards = {};
+    if (_isObject(raw.cards)) {
+      Object.keys(raw.cards).forEach(id => { const card = _normalizeCard(raw.cards[id], id); if (card) cards[card.questionId] = card; });
+    }
+    let reviewLogs = _dedupeByClientId(Array.isArray(raw.reviewLogs) ? raw.reviewLogs : [], _normalizeReviewLog).sort((a, b) => a.reviewedAt - b.reviewedAt);
+    if (reviewLogs.length > MAX_REVIEW_LOGS) reviewLogs = reviewLogs.slice(reviewLogs.length - MAX_REVIEW_LOGS);
+
     const rawOutbox = _isObject(raw.outbox) ? raw.outbox : {};
     const outbox = {
       attempts: _dedupeByClientId(Array.isArray(rawOutbox.attempts) ? rawOutbox.attempts : [], _normalizeAttempt).slice(-MAX_OUTBOX_ATTEMPTS),
       bookmarks: (Array.isArray(rawOutbox.bookmarks) ? rawOutbox.bookmarks : []).filter(item => _isObject(item) && typeof item.questionId === 'string'),
       exams: _dedupeByClientId(Array.isArray(rawOutbox.exams) ? rawOutbox.exams : [], _normalizeExam),
+      cards: (Array.isArray(rawOutbox.cards) ? rawOutbox.cards : []).map(item => _normalizeCard(item)).filter(Boolean),
+      reviewLogs: _dedupeByClientId(Array.isArray(rawOutbox.reviewLogs) ? rawOutbox.reviewLogs : [], _normalizeReviewLog).slice(-MAX_OUTBOX_ATTEMPTS),
+      settings: Array.isArray(rawOutbox.settings) && rawOutbox.settings.length ? [_normalizeSettings(rawOutbox.settings[rawOutbox.settings.length - 1])] : [],
     };
     const rawSync = _isObject(raw.sync) ? raw.sync : {};
 
@@ -175,9 +251,14 @@ const DataLoader = (function () {
       answers: _deriveAnswers(attempts),
       examHistory,
       attempts,
+      cards,
+      reviewLogs,
+      settings: _normalizeSettings(raw.settings),
+      activeExam: _normalizeActiveExam(raw.activeExam),
       outbox,
       sync: {
         latestAttemptId: _int(rawSync.latestAttemptId, 0),
+        latestReviewLogId: _int(rawSync.latestReviewLogId, 0),
         lastSyncAt: Number.isFinite(rawSync.lastSyncAt) ? rawSync.lastSyncAt : null,
         migratedLegacy: rawSync.migratedLegacy === true,
       },
@@ -274,6 +355,61 @@ const DataLoader = (function () {
     return getProgress().attempts;
   }
 
+  /* ── FSRS cards / review logs / settings / active exam ── */
+  function getCard(questionId) {
+    return getProgress().cards[questionId] || null;
+  }
+
+  function setCard(row) {
+    const card = _normalizeCard(row);
+    if (!card) return null;
+    const progress = getProgress();
+    if (!Number.isFinite(row.updatedAt)) card.updatedAt = Date.now();
+    progress.cards[card.questionId] = card;
+    _pushOutbox(progress, 'cards', card, 'questionId');
+    _saveProgress(progress);
+    return card;
+  }
+
+  function appendReviewLog(raw) {
+    const log = _normalizeReviewLog(raw);
+    if (!log) return null;
+    const progress = getProgress();
+    if (progress.reviewLogs.some(existing => existing.clientId === log.clientId)) return log;
+    progress.reviewLogs.push(log);
+    _pushOutbox(progress, 'reviewLogs', log, 'clientId');
+    _saveProgress(progress);
+    return log;
+  }
+
+  function getReviewLogs() {
+    return getProgress().reviewLogs;
+  }
+
+  function getSettings() {
+    return getProgress().settings;
+  }
+
+  function setSettings(partial) {
+    const progress = getProgress();
+    const next = _normalizeSettings(Object.assign({}, progress.settings, partial || {}, { updatedAt: Date.now() }));
+    progress.settings = next;
+    progress.outbox.settings = [next];
+    _saveProgress(progress);
+    return next;
+  }
+
+  function getActiveExam() {
+    return getProgress().activeExam;
+  }
+
+  function setActiveExam(exam) {
+    const progress = getProgress();
+    progress.activeExam = _normalizeActiveExam(exam);
+    _saveProgress(progress);
+    return progress.activeExam;
+  }
+
   function getOutbox() {
     return getProgress().outbox;
   }
@@ -284,11 +420,16 @@ const DataLoader = (function () {
       attempts: new Set((done && done.attempts) || []),
       bookmarks: new Set((done && done.bookmarks) || []),
       exams: new Set((done && done.exams) || []),
+      cards: new Set((done && done.cards) || []),
+      reviewLogs: new Set((done && done.reviewLogs) || []),
     };
     progress.outbox.attempts = progress.outbox.attempts.filter(item => !ids.attempts.has(item.clientId));
     progress.attempts.forEach(item => { if (ids.attempts.has(item.clientId)) item.synced = true; });
     progress.outbox.bookmarks = progress.outbox.bookmarks.filter(item => !ids.bookmarks.has(item.questionId));
     progress.outbox.exams = progress.outbox.exams.filter(item => !ids.exams.has(item.clientId));
+    progress.outbox.cards = progress.outbox.cards.filter(item => !ids.cards.has(item.questionId));
+    progress.outbox.reviewLogs = progress.outbox.reviewLogs.filter(item => !ids.reviewLogs.has(item.clientId));
+    if (done && done.settings) progress.outbox.settings = [];
     progress.sync.lastSyncAt = Date.now();
     _saveProgress(progress);
     return progress.outbox;
@@ -330,6 +471,35 @@ const DataLoader = (function () {
       stats.examHistory++;
       if (enqueue) _pushOutbox(progress, 'exams', item, 'clientId');
     }
+    stats.cards = 0;
+    for (const raw of Object.values(incoming.cards || {})) {
+      const card = _normalizeCard(raw);
+      if (!card) continue;
+      const current = progress.cards[card.questionId];
+      if (current && current.updatedAt >= card.updatedAt) continue;
+      progress.cards[card.questionId] = card;
+      stats.cards++;
+      if (enqueue) _pushOutbox(progress, 'cards', card, 'questionId');
+    }
+    stats.reviewLogs = 0;
+    const knownLogs = new Map(progress.reviewLogs.map(l => [l.clientId, l]));
+    for (const raw of incoming.reviewLogs || []) {
+      const log = _normalizeReviewLog(raw);
+      if (!log) continue;
+      const existing = knownLogs.get(log.clientId);
+      if (existing) { if (existing.serverId == null && log.serverId != null) existing.serverId = log.serverId; continue; }
+      progress.reviewLogs.push(log);
+      knownLogs.set(log.clientId, log);
+      stats.reviewLogs++;
+      if (enqueue) _pushOutbox(progress, 'reviewLogs', log, 'clientId');
+    }
+    if (_isObject(incoming.settings)) {
+      const settings = _normalizeSettings(incoming.settings);
+      if (settings.updatedAt > progress.settings.updatedAt) {
+        progress.settings = settings;
+        if (enqueue) progress.outbox.settings = [settings];
+      }
+    }
     return stats;
   }
 
@@ -340,12 +510,19 @@ const DataLoader = (function () {
       attempts: snapshot.attempts || [],
       bookmarks: {},
       examHistory: snapshot.exams || snapshot.examHistory || [],
+      cards: {},
+      reviewLogs: snapshot.reviewLogs || [],
+      settings: snapshot.settings || null,
     };
     for (const item of snapshot.bookmarks || []) {
       if (_isObject(item) && typeof item.questionId === 'string') incoming.bookmarks[item.questionId] = { starred: item.starred === true, updatedAt: _int(item.updatedAt, 0) };
     }
+    for (const item of snapshot.cards || []) {
+      if (_isObject(item) && typeof item.questionId === 'string') incoming.cards[item.questionId] = item;
+    }
     const stats = _mergeInto(progress, incoming, false);
     if (Number.isFinite(snapshot.latestAttemptId)) progress.sync.latestAttemptId = Math.max(progress.sync.latestAttemptId, snapshot.latestAttemptId);
+    if (Number.isFinite(snapshot.latestReviewLogId)) progress.sync.latestReviewLogId = Math.max(progress.sync.latestReviewLogId, snapshot.latestReviewLogId);
     progress.sync.lastSyncAt = Date.now();
     _saveProgress(progress);
     return stats;
@@ -423,6 +600,14 @@ const DataLoader = (function () {
     recordAttempt,
     addExamRecord,
     getAttempts,
+    getCard,
+    setCard,
+    appendReviewLog,
+    getReviewLogs,
+    getSettings,
+    setSettings,
+    getActiveExam,
+    setActiveExam,
     getOutbox,
     markSynced,
     mergeSnapshot,

@@ -7,8 +7,8 @@
 const SyncClient = (function () {
   'use strict';
 
-  const QUEUE_PATH = { attempts: '/sync/attempts', bookmarks: '/sync/bookmarks', exams: '/sync/exams' };
-  const KEY_FIELD = { attempts: 'clientId', bookmarks: 'questionId', exams: 'clientId' };
+  const QUEUE_PATH = { attempts: '/sync/attempts', cards: '/sync/cards', reviewLogs: '/sync/review-logs', bookmarks: '/sync/bookmarks', exams: '/sync/exams', settings: '/sync/settings' };
+  const KEY_FIELD = { attempts: 'clientId', cards: 'questionId', reviewLogs: 'clientId', bookmarks: 'questionId', exams: 'clientId', settings: 'updatedAt' };
   const BATCH = 40;
   let _base = null;
   let _fetch = null;
@@ -117,8 +117,8 @@ const SyncClient = (function () {
 
   async function pullSnapshot() {
     const s = store();
-    const since = s.getProgress().sync.latestAttemptId || 0;
-    const snapshot = await request('GET', `/sync/snapshot?sinceAttemptId=${encodeURIComponent(since)}`, { auth: true });
+    const sync = s.getProgress().sync;
+    const snapshot = await request('GET', `/sync/snapshot?sinceAttemptId=${encodeURIComponent(sync.latestAttemptId || 0)}&sinceReviewLogId=${encodeURIComponent(sync.latestReviewLogId || 0)}`, { auth: true });
     return s.mergeSnapshot(snapshot);
   }
 
@@ -147,6 +147,26 @@ const SyncClient = (function () {
       const data = await request('POST', QUEUE_PATH.bookmarks, { body: { items: chunk }, auth: true });
       result.bookmarks += data.accepted || 0;
       s.markSynced({ bookmarks: chunk.map(b => b.questionId) });
+    }
+    result.cards = 0;
+    const cards = Object.values(progress.cards || {});
+    for (let i = 0; i < cards.length; i += BATCH) {
+      const chunk = cards.slice(i, i + BATCH);
+      const data = await request('POST', QUEUE_PATH.cards, { body: { items: chunk }, auth: true });
+      result.cards += data.accepted || 0;
+      s.markSynced({ cards: chunk.map(c => c.questionId) });
+    }
+    result.reviewLogs = 0;
+    const logs = (progress.reviewLogs || []).filter(l => l.serverId == null);
+    for (let i = 0; i < logs.length; i += BATCH) {
+      const chunk = logs.slice(i, i + BATCH);
+      const data = await request('POST', QUEUE_PATH.reviewLogs, { body: { items: chunk }, auth: true });
+      result.reviewLogs += data.accepted || 0;
+      s.markSynced({ reviewLogs: chunk.map(l => l.clientId) });
+    }
+    if (progress.settings && progress.settings.updatedAt > 0) {
+      await request('POST', QUEUE_PATH.settings, { body: { items: [progress.settings] }, auth: true });
+      s.markSynced({ settings: true });
     }
     return result;
   }

@@ -11,8 +11,8 @@ const AttemptOutbox = (function () {
   'use strict';
 
   const BATCH = 40;
-  const QUEUES = ['attempts', 'bookmarks', 'exams'];
-  const KEY_FIELD = { attempts: 'clientId', bookmarks: 'questionId', exams: 'clientId' };
+  const QUEUES = ['attempts', 'cards', 'reviewLogs', 'bookmarks', 'exams', 'settings'];
+  const KEY_FIELD = { attempts: 'clientId', cards: 'questionId', reviewLogs: 'clientId', bookmarks: 'questionId', exams: 'clientId', settings: 'updatedAt' };
 
   let running = false;
   let transport = null;

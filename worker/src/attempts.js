@@ -4,7 +4,7 @@
 export const MAX_ELAPSED_MS = 30 * 60 * 1000;
 export const MAX_BATCH = 40;
 export const LETTERS = ['A', 'B', 'C', 'D', 'E'];
-export const SOURCES = ['card', 'exam', 'legacy'];
+export const SOURCES = ['card', 'exam', 'review', 'legacy'];
 
 export function clampElapsedMs(value) {
   if (typeof value !== 'number' || !Number.isFinite(value)) return null;
@@ -23,7 +23,7 @@ export function validateAttempt(raw) {
   const chosen = raw.chosen == null ? null : String(raw.chosen).toUpperCase();
   if (chosen !== null && !LETTERS.includes(chosen)) errors.push('chosen must be A-E or null');
   if (!(raw.isCorrect === true || raw.isCorrect === false || raw.isCorrect == null)) errors.push('isCorrect must be boolean or null');
-  if (!SOURCES.includes(raw.source)) errors.push('source must be card, exam or legacy');
+  if (!SOURCES.includes(raw.source)) errors.push('source must be card, exam, review or legacy');
   if (!(raw.confidence == null || [1, 2, 3].includes(raw.confidence))) errors.push('confidence must be 1, 2, 3 or null');
   if (raw.sourceSha256 != null && typeof raw.sourceSha256 !== 'string') errors.push('sourceSha256 must be a string or null');
   if (!Number.isFinite(raw.clientTs)) errors.push('clientTs must be a number');

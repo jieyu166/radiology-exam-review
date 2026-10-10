@@ -3,6 +3,7 @@
 import { json, readJson, HttpError } from './http.js';
 import { requireUser } from './session.js';
 import { validateAttempt, validateBookmark, validateExam, validateBatch } from './attempts.js';
+import { uploadCards, uploadReviewLogs, uploadSettings, fsrsSnapshot } from './fsrs-sync.js';
 
 function changes(result) {
   return result && result.meta && Number.isFinite(result.meta.changes) ? result.meta.changes : 0;
@@ -85,18 +86,28 @@ export async function snapshot(db, userId, sinceAttemptId) {
   return { attempts, bookmarks, exams, latestAttemptId: latest ? Number(latest.latest) : 0 };
 }
 
+const UPLOADERS = {
+  '/sync/attempts': uploadAttempts,
+  '/sync/bookmarks': uploadBookmarks,
+  '/sync/exams': uploadExams,
+  '/sync/cards': uploadCards,
+  '/sync/review-logs': uploadReviewLogs,
+  '/sync/settings': uploadSettings,
+};
+
 export async function routeSync(request, env, ctx, { path, url, cors }) {
   const now = Date.now();
   const { user } = await requireUser(request, env, now);
-  if (request.method === 'POST' && (path === '/sync/attempts' || path === '/sync/bookmarks' || path === '/sync/exams')) {
+  if (request.method === 'POST' && UPLOADERS[path]) {
     const body = await readJson(request);
-    const handler = path === '/sync/attempts' ? uploadAttempts : (path === '/sync/bookmarks' ? uploadBookmarks : uploadExams);
-    const result = await handler(env.DB, user.id, body.items, now);
+    const result = await UPLOADERS[path](env.DB, user.id, body.items, now);
     return json(200, result, cors);
   }
   if (path === '/sync/snapshot' && request.method === 'GET') {
     const since = Number(url.searchParams.get('sinceAttemptId') || 0);
-    return json(200, await snapshot(env.DB, user.id, since), cors);
+    const sinceLog = Number(url.searchParams.get('sinceReviewLogId') || 0);
+    const [base, fsrs] = await Promise.all([snapshot(env.DB, user.id, since), fsrsSnapshot(env.DB, user.id, sinceLog)]);
+    return json(200, Object.assign({}, base, fsrs), cors);
   }
   throw new HttpError(404, 'not_found', `no route for ${request.method} ${path}`);
 }

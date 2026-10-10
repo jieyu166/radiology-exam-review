@@ -594,6 +594,42 @@ a { color: var(--primary); text-decoration: none; }
 .account-role { color: var(--text-muted); font-size: .85rem; }
 .account-message { margin: 8px 0 0; padding: 8px 12px; border-radius: var(--radius-sm); background: #f0fdf4; color: #166534; font-size: .9rem; }
 .account-message.error { background: #fef2f2; color: #991b1b; }
+.vault-exam-setup fieldset { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; margin: 0; }
+.vault-exam-setup legend { padding: 0 6px; color: var(--text-muted); font-size: .85rem; }
+.pill-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.pill-check { display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border: 1px solid var(--border); border-radius: 999px; font-size: .85rem; cursor: pointer; }
+.pill-check:has(input:checked) { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
+.pill-check input { margin: 0; }
+.vault-exam-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.toggle-inline { display: inline-flex; align-items: center; gap: 6px; font-size: .9rem; }
+.vault-exam-pool { margin: 0; font-weight: 600; }
+.vault-exam-resume { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; padding: 10px 14px; border-radius: var(--radius-sm); background: #fffbeb; color: #92400e; }
+.vault-exam-clock { font-variant-numeric: tabular-nums; font-weight: 700; color: #991b1b; }
+.vault-exam-result .muted { color: var(--text-muted); font-size: .85rem; }
+.vault-stats-block { margin-bottom: 24px; }
+.vault-stats-block h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.vault-stats-block .muted, .vault-weak-group .muted, .vault-hyper-list .muted { color: var(--text-muted); font-size: .85rem; }
+.vault-calibration { max-width: 480px; }
+.vault-hyper-list { margin: 0; padding-left: 18px; line-height: 1.8; }
+.vault-weak-groups { display: grid; gap: 8px; }
+.vault-weak-group { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--card-bg); }
+.btn-sm { padding: 4px 10px; font-size: .85rem; }
+.vault-drill-banner { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; padding: 8px 12px; border-radius: var(--radius-sm); background: #fffbeb; color: #92400e; font-size: .9rem; }
+.vault-review-counts { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 14px; font-size: .95rem; }
+.vault-review-counts strong { font-size: 1.1rem; }
+.vault-review-counts .muted { color: var(--text-muted); font-size: .85rem; flex-basis: 100%; }
+.vault-review-kind { display: inline-block; margin-bottom: 8px; padding: 2px 10px; border-radius: 999px; background: #eff6ff; color: var(--primary); font-size: .8rem; }
+.vault-review-hint { margin-top: 12px; color: var(--text-muted); font-size: .85rem; }
+.vault-review-done { padding: 40px 20px; text-align: center; }
+.vault-rating-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 16px; }
+.vault-rating-btn { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 10px 6px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--card-bg); color: var(--text); cursor: pointer; font-weight: 600; }
+.vault-rating-btn small { color: var(--text-muted); font-weight: 400; }
+.vault-rating-btn .rating-key { font-size: .7rem; color: var(--text-muted); }
+.vault-rating-btn:hover, .vault-rating-btn:focus, .vault-rating-btn.is-default { outline: 2px solid var(--primary); outline-offset: 1px; }
+.vault-rating-btn.rating-again { border-color: #fca5a5; }
+.vault-rating-btn.rating-hard { border-color: #fcd34d; }
+.vault-rating-btn.rating-good { border-color: #86efac; }
+.vault-rating-btn.rating-easy { border-color: #93c5fd; }
 .vault-question-confidence { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 0 0 12px; color: var(--text-muted); font-size: .9rem; }
 .vault-confidence-btn { padding: 4px 12px; border: 1px solid var(--border); border-radius: 999px; background: var(--card-bg); color: var(--text); cursor: pointer; font-size: .85rem; }
 .vault-confidence-btn:hover, .vault-confidence-btn.selected { border-color: var(--primary); background: #eff6ff; color: var(--primary); }

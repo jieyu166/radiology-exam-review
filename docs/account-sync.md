@@ -85,3 +85,18 @@ BASE=http://127.0.0.1:8787 bash test/smoke.sh   # 需 worker/.dev.vars 的 BOOTS
 - 登入後：首次把本機 v2 進度轉成的 legacy attempts 上傳（`sync.migratedLegacy`），再 `pullSnapshot` 合併；之後每次作答即時入 outbox，啟動／上線／回前景／pagehide 自動補送；設定面板顯示待同步筆數與上次同步時間。
 - 401：清除本機 session、保留 outbox、提示重新登入。
 - 題卡 `answerStatus: corrected`：frontmatter `officialAnswer` 記錄有誤的官方答案，`correctAnswer` 為覆核答案；揭曉後顯示「官方公布 X 有誤，依覆核答案 Y 計分」。
+
+## 學習排程（study-scheduler，2026-10-10）
+
+- 前端 `js/scheduler/`（全部純函式，掛在 `window.RexScheduler`）：`fsrs-adapter`（ts-fsrs UMD 包裝；retention 0.9、max 36500、fuzz off、short-term on、learning 1m/10m、relearning 10m）、`due-window`（UTC+8、日界 4 點）、`queue-mix`（learning 優先、每 4 張 1 新、每日新卡上限）、`wrong-criterion`、`calibration`、`test-builder`、`exam-resume`、`weakness`、`drill`。`js/review-view.js`、`js/analytics-view.js`、`js/exam-session.js` 為 view／session 層。
+- `rex_progress` v3 新增：`cards{questionId → cardRow}`、`reviewLogs[]`（≤5000）、`settings{newPerDay, dayStartHour, examSecondsPerQuestion, updatedAt}`、`activeExam`、outbox 佇列 `cards`／`reviewLogs`／`settings`、`sync.latestReviewLogId`；attempts `source` 新增 `review`。
+- 同步順序：attempts → cards → reviewLogs → bookmarks → exams → settings。
+
+| 方法 | 路徑 | 語意 |
+|---|---|---|
+| POST | /sync/cards | `{items:[cardRow]}`，`updated_at` 新者勝 |
+| POST | /sync/review-logs | `{items:[log]}`，`UNIQUE(user_id, client_id)` + `INSERT OR IGNORE` |
+| POST | /sync/settings | `{items:[settings]}`，`updated_at` 新者勝 |
+| GET | /sync/snapshot?sinceAttemptId&sinceReviewLogId | 回傳另含 `cards`、`reviewLogs`（id > since）、`settings`、`latestReviewLogId` |
+
+D1 migration `0003_fsrs.sql`：新增 `fsrs_cards`、`fsrs_review_logs`、`user_settings`，並重建 `attempts` 讓 `source` CHECK 含 `review`（既有列與 id 保留）。

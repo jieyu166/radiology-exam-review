@@ -22,6 +22,10 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
         列表模式
       </button>
+      <button class="nav-tab" data-route="#/review" role="tab" aria-selected="false">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        今日複習
+      </button>
       <button class="nav-tab" data-route="#/exam" role="tab" aria-selected="false">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
         模擬考
@@ -87,7 +91,7 @@
       <label class="toggle-label" for="wrong-toggle">
         <input type="checkbox" id="wrong-toggle" />
         <span class="toggle-track"></span>
-        只顯示答錯過
+        只顯示最近答錯
       </label>
     </div>
   </div>
@@ -148,6 +152,17 @@
         <p class="account-line" id="invite-output" hidden></p>
       </div>
       <p class="account-message" id="account-message" role="status" hidden></p>
+    </div>
+    <div class="settings-section" id="scheduler-section">
+      <h3 class="settings-subtitle">複習排程</h3>
+      <div class="account-form">
+        <label>每日新卡上限（0–200） <input class="text-input" id="setting-new-per-day" type="number" min="0" max="200" step="1" /></label>
+        <label>日界時刻（0–23 點） <input class="text-input" id="setting-day-start" type="number" min="0" max="23" step="1" /></label>
+        <label>模擬考每題秒數（0 = 不計時） <input class="text-input" id="setting-exam-seconds" type="number" min="0" max="600" step="5" /></label>
+      </div>
+      <div class="settings-row settings-actions">
+        <a class="btn btn-outline" href="#/stats" id="stats-link">統計與弱點</a>
+      </div>
     </div>
     <div class="settings-section">
       <h3 class="settings-subtitle">學習記錄</h3>
@@ -323,6 +338,10 @@
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
     <span>列表</span>
   </button>
+  <button class="bottom-tab" data-route="#/review" role="tab">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <span>今日複習</span>
+  </button>
   <button class="bottom-tab" data-route="#/exam" role="tab">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
     <span>模擬考</span>
@@ -337,11 +356,24 @@
 <div class="toast-container" id="toast-container" aria-live="polite"></div>
 
 <!-- ===== 載入 JS ===== -->
+<script src="https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.2/dist/index.umd.js" integrity="sha384-i45WWZuHT8d0SsGTvLVWyTzhdBv5HC8FV4XO+Lh5VBFpzLoqhoqwKFxc+Vqa/1SA" crossorigin="anonymous"></script>
 <script src="js/config.js?v=progress-v3"></script>
 <script src="js/data-loader.js?v=progress-v3"></script>
 <script src="js/question-timer.js?v=progress-v3"></script>
 <script src="js/attempt-outbox.js?v=progress-v3"></script>
 <script src="js/sync-client.js?v=progress-v3"></script>
+<script src="js/scheduler/fsrs-adapter.js?v=scheduler-1"></script>
+<script src="js/scheduler/due-window.js?v=scheduler-1"></script>
+<script src="js/scheduler/queue-mix.js?v=scheduler-1"></script>
+<script src="js/scheduler/wrong-criterion.js?v=scheduler-1"></script>
+<script src="js/scheduler/calibration.js?v=scheduler-1"></script>
+<script src="js/scheduler/test-builder.js?v=scheduler-1"></script>
+<script src="js/scheduler/exam-resume.js?v=scheduler-1"></script>
+<script src="js/scheduler/weakness.js?v=scheduler-1"></script>
+<script src="js/scheduler/drill.js?v=scheduler-1"></script>
+<script src="js/review-view.js?v=scheduler-1"></script>
+<script src="js/analytics-view.js?v=scheduler-1"></script>
+<script src="js/exam-session.js?v=scheduler-1"></script>
 <script src="js/content-store.js?v=vault-native"></script>
 <script src="js/note-renderer.js?v=vault-native-wikilink-20261009"></script>
 <script src="js/vault-question-view.js?v=vault-native"></script>

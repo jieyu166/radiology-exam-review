@@ -2,6 +2,11 @@
 
 本專案除下列項目外皆為自有程式碼。
 
+## ts-fsrs（MIT）
+
+前端以 `<script>` 自 jsDelivr 載入 `ts-fsrs@5.4.2/dist/index.umd.js`（SRI 固定），用於 `js/scheduler/fsrs-adapter.js` 的間隔重複排程。
+https://github.com/open-spaced-repetition/ts-fsrs — MIT License, Copyright (c) 2023 Open Spaced Repetition。
+
 ## mcq-bank（MIT）
 
 以下模組的設計與邏輯移植自 https://github.com/htlin222/mcq-bank（commit 2e411ef0，2026-09-17），並改寫為本專案的 vanilla JS／plain Worker 形式：

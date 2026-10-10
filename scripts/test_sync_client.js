@@ -47,11 +47,12 @@ async function mockFetch(url, init) {
     for (const item of body.items) { if (!serverAttempts.has(item.clientId)) { serverAttempts.set(item.clientId, Object.assign({ id: nextId++ }, item)); accepted++; } }
     return response(200, { accepted, ignored: body.items.length - accepted, acceptedIds: body.items.map(i => i.clientId) });
   }
-  if (path === '/sync/bookmarks' || path === '/sync/exams') return response(200, { accepted: body.items.length, ignored: 0, acceptedIds: body.items.map(i => i.clientId || i.questionId) });
+  if (path === '/sync/bookmarks' || path === '/sync/exams' || path === '/sync/cards' || path === '/sync/review-logs') return response(200, { accepted: body.items.length, ignored: 0, acceptedIds: body.items.map(i => i.clientId || i.questionId) });
+  if (path === '/sync/settings') return response(200, { accepted: 1, ignored: 0, acceptedIds: [body.items[0].updatedAt] });
   if (path.startsWith('/sync/snapshot')) {
     const since = Number(new URL(url).searchParams.get('sinceAttemptId') || 0);
     const attempts = [...serverAttempts.values()].filter(a => a.id > since);
-    return response(200, { attempts, bookmarks: [{ questionId: '2016-001', starred: true, updatedAt: 1 }], exams: [], latestAttemptId: nextId - 1 });
+    return response(200, { attempts, bookmarks: [{ questionId: '2016-001', starred: true, updatedAt: 1 }], exams: [], cards: [{ questionId: '2016-001', dueAt: 5, stability: 1, difficulty: 5, elapsedDays: 0, scheduledDays: 1, learningSteps: 0, reps: 1, lapses: 0, state: 2, lastReviewAt: 1, updatedAt: 999 }], reviewLogs: [{ id: 1, clientId: 'srv-log-1', questionId: '2016-001', rating: 'good', state: 0, dueAt: 5, reviewedAt: 1 }], settings: null, latestAttemptId: nextId - 1, latestReviewLogId: 1 });
   }
   if (path === '/auth/logout') return response(200, { ok: true });
   return response(404, { error: 'not_found' });
@@ -108,6 +109,28 @@ outbox.configure({ transport: client.transport });
   api.recordAnswer('2024-004', { chosen: 'A', correct: true, clientTs: 1800000200000 });
   const r = await outbox.flush();
   assert(r.failed === 1 && api.getSession() === null && outbox.pendingCount() === 1, '401 clears session, keeps outbox: ' + JSON.stringify(r));
+
+  // scheduler queues: flush order attempts → cards → reviewLogs → bookmarks → exams → settings, snapshot merges cards/logs
+  api.setSession({ token: 'tok-1', username: 'chen.wei', expiresAt: Date.now() + 1e6 });
+  calls.length = 0;
+  api.recordAnswer('2024-007', { chosen: 'A', correct: true, clientTs: 1800000300000 });
+  api.setCard({ questionId: '2024-007', dueAt: 1800000900000, stability: 1, difficulty: 5, elapsedDays: 0, scheduledDays: 0, learningSteps: 1, reps: 1, lapses: 0, state: 1, lastReviewAt: 1800000300000, updatedAt: 1800000300000 });
+  api.appendReviewLog({ clientId: 'local-log-1', questionId: '2024-007', rating: 'good', state: 0, dueAt: 1800000900000, reviewedAt: 1800000300000 });
+  api.toggleStar('2024-007');
+  api.addExamRecord({ total: 1, correct: 1, wrong: 0, skipped: 0 });
+  api.setSettings({ newPerDay: 30 });
+  const flushAll = await outbox.flush();
+  const order = calls.map(c => c.path).join(',');
+  assert(order === '/sync/attempts,/sync/cards,/sync/review-logs,/sync/bookmarks,/sync/exams,/sync/settings', 'queue order: ' + order);
+  assert(flushAll.failed === 0 && outbox.pendingCount() === 0, 'all six queues drained');
+  const pulled = await client.pullSnapshot();
+  const prog = api.getProgress();
+  assert(prog.cards['2016-001'] && prog.cards['2016-001'].reps === 1 && prog.reviewLogs.some(l => l.clientId === 'srv-log-1'), 'snapshot cards and review logs merged');
+  assert(prog.sync.latestReviewLogId === 1, 'review log cursor stored');
+  const lastSnapshotCall = calls.filter(c => c.path.startsWith('/sync/snapshot')).pop();
+  assert(lastSnapshotCall.path.includes('sinceReviewLogId='), 'snapshot request carries both cursors');
+  await client.pullSnapshot();
+  assert(api.getProgress().reviewLogs.filter(l => l.clientId === 'srv-log-1').length === 1, 'second pull does not duplicate review logs');
 
   // logout clears session even if the server call fails
   api.setSession({ token: 'tok-1', username: 'chen.wei', expiresAt: Date.now() + 1e6 });
