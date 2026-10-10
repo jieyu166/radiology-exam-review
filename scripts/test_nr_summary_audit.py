@@ -1195,6 +1195,149 @@ def test_phase2_assignment_rejects_duplicate_pilot_and_217_rows() -> None:
     assert "phase2-assignment-membership" in codes
 
 
+def test_parse_note_recognizes_legacy_fullwidth_summary_heading() -> None:
+    record = audit.parse_note_text(
+        Path("legacy-summary.md"),
+        "---\nsubspecialty: [NR]\n---\n\n"
+        "## Summary（legacy source）\n"
+        "- **Core**: supported fact.[^1]\n\n"
+        "[^1]: Existing source.\n",
+    )
+
+    assert [section.heading for section in record.summaries] == [
+        "Summary（legacy source）"
+    ]
+
+
+def test_phase2b_disease_scope_requires_exact_ten_scheduled_batches() -> None:
+    inventory = phase2_inventory_fixture()
+    assignment = audit.build_phase2_assignment(inventory)
+
+    assert audit.validate_phase2b_disease_scope(assignment, inventory) == []
+
+    incomplete = deepcopy(assignment)
+    incomplete["batches"] = [
+        batch
+        for batch in incomplete["batches"]
+        if batch["id"] != "scheduled-disease-10"
+    ]
+    assert "phase2b-scope-membership" in {
+        finding.code
+        for finding in audit.validate_phase2b_disease_scope(incomplete, inventory)
+    }
+
+    contaminated = deepcopy(assignment)
+    disease_batch = next(
+        batch
+        for batch in contaminated["batches"]
+        if batch["id"] == "scheduled-disease-01"
+    )
+    disease_batch["slugs"][0] = "ct-venography"
+    assert "phase2b-scope-membership" in {
+        finding.code
+        for finding in audit.validate_phase2b_disease_scope(contaminated, inventory)
+    }
+
+
+def test_phase2b_loader_accepts_only_fixed_scheduled_disease_batches() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        report_root = root / "docs" / "reports" / "nr-summary-rewrite"
+        concept_root = root / "vault" / "concepts"
+        report_root.mkdir(parents=True)
+        concept_root.mkdir(parents=True)
+        inventory = phase2_inventory_fixture()
+        assignment = audit.build_phase2_assignment(inventory)
+        selected = next(
+            batch
+            for batch in assignment["batches"]
+            if batch["id"] == "scheduled-disease-01"
+        )
+        inventory_by_slug = {entry["slug"]: entry for entry in inventory["notes"]}
+        for slug in selected["slugs"]:
+            (concept_root / f"{slug}.md").write_text(
+                NR_DEMO_TEXT, encoding="utf-8", newline=""
+            )
+            inventory_by_slug[slug]["originalSha256"] = hashlib.sha256(
+                NR_DEMO_TEXT.encode("utf-8")
+            ).hexdigest()
+        assignment = audit.build_phase2_assignment(inventory)
+        inventory = audit.synchronize_phase2_inventory(inventory, assignment)
+        assignment_path = report_root / "phase2-assignment.json"
+        inventory_path = report_root / "inventory.json"
+        assignment_path.write_text(json.dumps(assignment), encoding="utf-8")
+        inventory_path.write_text(json.dumps(inventory), encoding="utf-8")
+
+        context = audit.load_phase2b_batch(
+            root,
+            assignment_path.relative_to(root),
+            "scheduled-disease-01",
+        )
+
+        assert context.batch["id"] == "scheduled-disease-01"
+        assert context.baseline_path.as_posix() == (
+            "docs/reports/nr-summary-rewrite/phase2b/baselines/"
+            "scheduled-disease-01.json"
+        )
+        assert context.evidence_path.as_posix() == (
+            "docs/reports/nr-summary-rewrite/phase2b/evidence/"
+            "scheduled-disease-01.json"
+        )
+        assert "phase2-baseline-missing" in {
+            finding.code
+            for finding in audit.validate_phase2b_baseline_scaffold(context)
+        }
+        baseline_path = root / context.baseline_path
+        baseline_path.parent.mkdir(parents=True)
+        baseline_path.write_bytes(audit.build_phase2_baseline_lock_bytes(context))
+        context = audit.load_phase2b_batch(
+            root,
+            assignment_path.relative_to(root),
+            "scheduled-disease-01",
+        )
+        assert "phase2b-trusted-batch-lock-mismatch" in {
+            finding.code
+            for finding in audit.validate_phase2b_baseline_scaffold(context)
+        }
+        evidence = audit.build_phase2b_pending_evidence_scaffold(
+            context, implementer="/root/phase2b_scaffold"
+        )
+        assert evidence["batch"] == "scheduled-disease-01"
+        assert evidence["workflow"]["sequence"] == 1
+        assert evidence["status"] == "baseline"
+        assert all(note["status"] == "pending" for note in evidence["notes"])
+        assert all(
+            fact["disposition"] == "pending"
+            for note in evidence["notes"]
+            for fact in note["facts"]
+        )
+        first_slug = selected["slugs"][0]
+        (concept_root / f"{first_slug}.md").write_text(
+            NR_REWRITE_TEXT, encoding="utf-8", newline=""
+        )
+        context = audit.load_phase2b_batch(
+            root,
+            assignment_path.relative_to(root),
+            "scheduled-disease-01",
+        )
+        source_codes = {
+            finding.code for finding in audit.validate_phase2b_baseline_scaffold(context)
+        }
+        assert "phase2-source-hash-mismatch" in source_codes
+        assert "phase2-lossless-summary-mismatch" in source_codes
+        try:
+            audit.load_phase2b_batch(
+                root,
+                assignment_path.relative_to(root),
+                "scheduled-anatomy-01",
+            )
+        except audit.Phase2LoadError as error:
+            rejected = error.code
+        else:
+            rejected = None
+        assert rejected == "phase2b-scope-membership"
+
+
 def test_phase2_batch_context_is_immutable_root_relative_and_relocation_stable() -> None:
     with tempfile.TemporaryDirectory() as directory:
         base = Path(directory)
@@ -7561,9 +7704,16 @@ def test_phase2a_batch02_workflow_accepts_exact_predecessor_before_own_seal() ->
         ).as_posix()
         for slug in batch02_context.batch["slugs"]
     }
+    phase2b_selected_paths = {
+        (batch02_context.generated_root / f"{slug}.json").as_posix()
+        for batch_id in audit.PHASE2B_DISEASE_BATCH_IDS
+        for slug in audit.load_phase2b_batch(
+            root, assignment_path, batch_id
+        ).batch["slugs"]
+    }
     assert audit._phase2_historical_authorization_findings(
         historical_predecessor_state,
-        batch02_selected_paths,
+        batch02_selected_paths | phase2b_selected_paths,
     ) == []
 
     with tempfile.TemporaryDirectory() as directory:
@@ -8542,6 +8692,11 @@ def _copy_production_phase2a_tranche_checkout(destination: Path) -> Path:
             for section in ("baselines", "evidence", "generated")
             for batch_id in audit.ACTIVE_PHASE2A_BATCHES
         ),
+        *(
+            Path("docs/reports/nr-summary-rewrite/phase2b") / section / f"{batch_id}.json"
+            for section in ("baselines", "evidence")
+            for batch_id in audit.PHASE2B_DISEASE_BATCH_IDS
+        ),
         *(Path(entry["path"]) for entry in inventory["notes"]),
     ]
     if (root / PHASE2A_VERIFICATION_PATH).is_file():
@@ -8818,11 +8973,12 @@ def test_phase2a_task51_source_evidence_generated_and_scope_attacks_fail_closed(
             ).read_text(encoding="utf-8")
         )
         scheduled = next(
-            entry
-            for entry in inventory["notes"]
-            if entry["status"] == "scheduled-not-started"
-            and entry["batch"].startswith("scheduled-")
-        )
+                entry
+                for entry in inventory["notes"]
+                if entry["status"] == "scheduled-not-started"
+                and entry["batch"].startswith("scheduled-")
+                and entry["batch"] not in audit.PHASE2B_DISEASE_BATCH_IDS
+            )
         scheduled_path = shadow / scheduled["path"]
         scheduled_bytes = scheduled_path.read_bytes()
         scheduled_path.write_bytes(scheduled_bytes + b"\n")
@@ -9338,6 +9494,89 @@ def test_phase2a_task51_atomic_replace_failure_cleans_only_owned_temp() -> None:
         assert {entry.name for entry in phase2a_root.iterdir()} == root_entries_before
 
 
+def test_phase2b_generated_paths_and_scope_are_separate() -> None:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path("docs/reports/nr-summary-rewrite/phase2-assignment.json")
+    context = audit.load_phase2b_batch(root, assignment_path, "scheduled-disease-01")
+
+    assert audit._phase2_batch_ids_for_context(context) == audit.PHASE2B_DISEASE_BATCH_IDS
+    assert audit._phase2_generated_report_root(context) == Path(
+        "docs/reports/nr-summary-rewrite/phase2b/generated"
+    )
+    assert audit._load_phase2_context_for_batch(
+        root, assignment_path, "scheduled-disease-01"
+    ).batch["id"] == "scheduled-disease-01"
+
+
+def test_phase2b_rewrite_hash_validation_restores_the_locked_summary() -> None:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path("docs/reports/nr-summary-rewrite/phase2-assignment.json")
+    context = audit.load_phase2b_batch(root, assignment_path, "scheduled-disease-01")
+
+    assert audit.validate_phase2b_batch(
+        context,
+        check_source_hashes=True,
+        check_generated=False,
+        require_approved_review=False,
+    ) == []
+
+
+def test_phase2b_reconstructed_hash_rejects_summary_external_drift() -> None:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path("docs/reports/nr-summary-rewrite/phase2-assignment.json")
+    context = audit.load_phase2b_batch(root, assignment_path, "scheduled-disease-01")
+    slug = "brain-abscess"
+    locked = next(item for item in context.baseline["notes"] if item["slug"] == slug)
+    with tempfile.TemporaryDirectory() as directory:
+        shadow = Path(directory)
+        target = shadow / context.note_records[slug].path
+        target.parent.mkdir(parents=True)
+        target.write_bytes((root / context.note_records[slug].path).read_bytes() + b"\n")
+        assert audit._phase2_reconstructed_original_sha256(
+            replace(context, repo_root=shadow), locked, context.note_records[slug]
+        ) != locked["originalSha256"]
+
+
+def test_phase2b_unsealed_later_manifest_does_not_break_prior_seal() -> None:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path("docs/reports/nr-summary-rewrite/phase2-assignment.json")
+    context = audit.load_phase2b_batch(root, assignment_path, "scheduled-disease-03")
+
+    assert audit.validate_phase2b_batch(
+        context,
+        check_source_hashes=True,
+        check_generated=True,
+        require_approved_review=True,
+    ) == []
+
+
+def test_phase2b_tranche_accepts_exact_100_note_projection() -> None:
+    root = Path(__file__).resolve().parents[1]
+    assignment_path = Path("docs/reports/nr-summary-rewrite/phase2-assignment.json")
+    report = audit.build_phase2b_tranche_verification(
+        root,
+        assignment_path,
+        PHASE2A_LINT_OUTPUT,
+        1,
+        allow_missing_verification=False,
+    )
+    checked = json.loads(
+        (root / audit.PHASE2B_VERIFICATION_REPORT_PATH).read_text(encoding="utf-8")
+    )
+
+    assert report == checked
+    assert report["phase2bVerification"]["strictNoteCount"] == 100
+    assert len(report["phase2bVerification"]["manualReviewFactIds"]) == 108
+    assert len(report["batches"]) == 10
+    assert audit.validate_phase2b_tranche(
+        root,
+        assignment_path,
+        checked,
+        PHASE2A_LINT_OUTPUT,
+        1,
+    ) == []
+
+
 def run_smoke() -> None:
     test_evidence_rejects_unmapped_or_unresolved_fact_units()
     test_evidence_rejects_source_ref_not_defined_in_note()
@@ -9407,6 +9646,11 @@ def run_smoke() -> None:
     test_shadow_final_review_and_phase2_mutation_is_rejected_everywhere()
     test_validate_batch_rejects_ten_pilot_only_sibling_inventory()
     test_inventory_cli_reports_malformed_json_and_nonobject_root_without_traceback()
+    test_phase2b_generated_paths_and_scope_are_separate()
+    test_phase2b_rewrite_hash_validation_restores_the_locked_summary()
+    test_phase2b_reconstructed_hash_rejects_summary_external_drift()
+    test_phase2b_unsealed_later_manifest_does_not_break_prior_seal()
+    test_phase2b_tranche_accepts_exact_100_note_projection()
     print("NR_SUMMARY_AUDIT_OK")
 
 

@@ -23,7 +23,11 @@ from urllib.parse import urlparse
 
 
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(?P<frontmatter>.*?)\n---\s*(?:\n|\Z)", re.DOTALL)
-SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary(?:\s+\u2014\s+\S.*)?\s*$")
+SUMMARY_HEADING_RE = re.compile(
+    r"^##\s+Summary(?:\s+\u2014\s+\S.*|\uff08[^\r\n]*\uff09)?\s*$"
+)
+STANDARD_SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary(?:\s+\u2014\s+\S.*)?\s*$")
+FULLWIDTH_SUMMARY_HEADING_RE = re.compile(r"^##\s+Summary\uff08[^\r\n]*\uff09\s*$")
 LEVEL_TWO_HEADING_RE = re.compile(r"^##(?:\s|$)")
 LEVEL_THREE_HEADING_RE = re.compile(r"^###\s+\S.*$")
 FOOTNOTE_DEFINITION_RE = re.compile(r"^\[\^(?P<id>[^\]\r\n]+)\]:", re.MULTILINE)
@@ -161,6 +165,27 @@ PHASE2_TYPE_SHORT = {
     "disease": "disease",
     "pattern-ddx": "pattern",
 }
+PHASE2B_DISEASE_BATCH_IDS = tuple(
+    f"scheduled-disease-{ordinal:02d}" for ordinal in range(1, 11)
+)
+PHASE2B_DISEASE_BATCH_SIZE = 10
+PHASE2B_DISEASE_NOTE_COUNT = (
+    len(PHASE2B_DISEASE_BATCH_IDS) * PHASE2B_DISEASE_BATCH_SIZE
+)
+PHASE2B_LEGACY_SUMMARY_HEADING_SLUGS = frozenset({"fibromuscular-dysplasia"})
+
+
+def _phase2_legacy_summary_heading_inventory_match(
+    context: BatchContext, slug: str, inventory_headings: object, headings: list[str]
+) -> bool:
+    """Allow the one pre-inventory legacy Summary heading variant in Phase 2B."""
+    return (
+        context.batch.get("id") in PHASE2B_DISEASE_BATCH_IDS
+        and slug in PHASE2B_LEGACY_SUMMARY_HEADING_SLUGS
+        and inventory_headings == []
+        and len(headings) == 2
+        and all(heading.startswith("Summary（") and heading.endswith("）") for heading in headings)
+    )
 # Populated one reviewed batch at a time by Tasks 2.1, 3.1, and 4.1.  Absence
 # is fail-closed: no mutable lock or evidence file may choose its own digest.
 TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
@@ -172,6 +197,41 @@ TRUSTED_PHASE2A_BATCH_LOCK_SHA256: Mapping[str, str] = {
     ),
     "batch-03-pattern": (
         "3a93bfbe332067f06b5dda7ac47c6484107f52afd152059701f44ea3d7394e98"
+    ),
+}
+# Phase 2B starts with an intentionally empty code-owned registry. A mutable
+# baseline file cannot authorize itself; each reviewed batch adds its digest
+# only after the corresponding independent review task is complete.
+TRUSTED_PHASE2B_BATCH_LOCK_SHA256: Mapping[str, str] = {
+    "scheduled-disease-01": (
+        "cf3c938af1bfe1f42e850bad134ac6b05eaab60ee89e3ab0b296819bace30cdd"
+    ),
+    "scheduled-disease-02": (
+        "cacdb9dce7767ac685dea049498a413f1a1d1d67f71340bbf10aa80c6b37fa94"
+    ),
+    "scheduled-disease-03": (
+        "0f125f508a63c96892268eaf977a99e056eb3b67ac31c7149f4036101a7ba663"
+    ),
+    "scheduled-disease-04": (
+        "df5dd10bc6a72774109483829ef5134c82fc82302810039270ae17a34fcb6fe3"
+    ),
+    "scheduled-disease-05": (
+        "8a8d6f53edebb6464a3455f5ab0fa6bb47bcd4cf8250acfb3ee1d6d213d86d33"
+    ),
+    "scheduled-disease-06": (
+        "27bf472515c39b245a65ece1e609b2219e659a67157fb51e2267fbe2edbf5df5"
+    ),
+    "scheduled-disease-07": (
+        "ba7b89fd893545fb300c402edcab190183af7783357c8708ed32a3fda082db7e"
+    ),
+    "scheduled-disease-08": (
+        "a828a100d241c97e14b95f131f8589536b1dc6f6a6e9b7db631a2cf89331a4fa"
+    ),
+    "scheduled-disease-09": (
+        "2a3b2f7195bebf8325b3ac7cc1fba028cae21d7ba496878c450aad10042fc0dc"
+    ),
+    "scheduled-disease-10": (
+        "73d6e045a2d648b2af74c5f71380ddd315f1bc8d54b47fd09c7ffa2fa63209ee"
     ),
 }
 # Sealed one reviewed batch at a time after the gated two-run build workflow.
@@ -188,6 +248,62 @@ TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
         "fa0bca4f69a2bcc8ee914aac4ce364e86dc260d272e65697b672f0481f49dec9"
     ),
 }
+# Phase 2B observations are added only after the matching scoped build and
+# independent review.  Keeping this registry separate avoids a Phase 2A seal
+# authorizing a scheduled-disease batch.
+TRUSTED_PHASE2B_GENERATED_OBSERVATION_SHA256: Mapping[str, str] = {
+    "scheduled-disease-01": (
+        "2fc66b6cfcb44bdffc2daca03f8580c71877a8eb9a637269364d9b5b807c5a60"
+    ),
+    "scheduled-disease-02": (
+        "07b22ca55d74d1031f98f331c3b9a22b9d2b808207a4f0ec01392e5d8141715a"
+    ),
+    "scheduled-disease-03": (
+        "91140f8390b3352476bdec032ba72725e6bc04112e164bf760aebc96583b4bd9"
+    ),
+    "scheduled-disease-04": (
+        "e78f268a928a93bc22594c45821bb102258ed33581cda2daa2dcde8e66f289bb"
+    ),
+    "scheduled-disease-05": (
+        "9df5aef781ac629c89f2b8ad462c7e70f758e9eb2ef55acd2c1712102b38f877"
+    ),
+    "scheduled-disease-06": (
+        "beb2e7b584093a97c5bde366a6935ba83a8ad5082ae3aec96ba2902f482806d3"
+    ),
+    "scheduled-disease-07": (
+        "424f49924b0a610a7e92746ce2398094085be167881614e78a849ed6abe74a74"
+    ),
+    "scheduled-disease-08": (
+        "a3f78ab421133f40b9b742e1867d77b27e5df102dfe85175a2eba1f5f02fa23f"
+    ),
+    "scheduled-disease-09": (
+        "238f63549f4e79592269240638c2e2bbf361eacd8a6db551c281a2ded86035d8"
+    ),
+    "scheduled-disease-10": (
+        "1750a09939fe35e00f213299ba9dcdc6dc2f1ac188a7b6a7c5999a045292b2dc"
+    ),
+}
+
+
+def _phase2_batch_ids_for_context(context: BatchContext) -> tuple[str, ...]:
+    """Return the closed ordered review chain for a loaded Phase 2 context."""
+    if context.batch.get("id") in PHASE2B_DISEASE_BATCH_IDS:
+        return PHASE2B_DISEASE_BATCH_IDS
+    return tuple(ACTIVE_PHASE2A_BATCHES)
+
+
+def _phase2_generated_report_root(context: BatchContext) -> Path:
+    """Derive the phase-local generated-observation directory from the lock."""
+    return context.baseline_path.parent.parent / "generated"
+
+
+def _load_phase2_context_for_batch(
+    repo_root: Path, assignment_path: Path, batch_id: str
+) -> BatchContext:
+    """Load a batch through the only loader valid for its closed scope."""
+    if batch_id in PHASE2B_DISEASE_BATCH_IDS:
+        return load_phase2b_batch(repo_root, assignment_path, batch_id)
+    return load_phase2_batch(repo_root, assignment_path, batch_id)
 # Seals the complete final Phase 2A acceptance projection.  Unlike the mutable
 # checked report, this digest is code-owned and binds the three independently
 # reviewed evidence chains, current generated tree, exact lint result, Phase 1
@@ -197,6 +313,14 @@ TRUSTED_PHASE2A_TRANCHE_OBSERVATION_SHA256 = (
 )
 PHASE2A_VERIFICATION_REPORT_PATH = (
     "docs/reports/nr-summary-rewrite/phase2a/verification.json"
+)
+# The Phase 2B report is deliberately sealed independently from Phase 2A.  It
+# is populated after its deterministic 100-note projection has been reviewed.
+TRUSTED_PHASE2B_TRANCHE_OBSERVATION_SHA256 = (
+    "e97b7bbfbda1fcc7f50f9d3d8cadc6765f5dfcd3337c7fe6246f4b933764247f"
+)
+PHASE2B_VERIFICATION_REPORT_PATH = (
+    "docs/reports/nr-summary-rewrite/phase2b/verification.json"
 )
 
 # Reviewed trust roots are deliberately stored in code, outside mutable batch
@@ -763,6 +887,78 @@ def phase2_assignment_counts(assignment: dict, inventory: dict) -> dict[str, int
     }
 
 
+def validate_phase2b_disease_scope(
+    assignment: dict, inventory: dict
+) -> list[Finding]:
+    """Validate the fixed 100-note disease scope without mutating assignment."""
+    assignment_path = "docs/reports/nr-summary-rewrite/phase2-assignment.json"
+    batches = assignment.get("batches") if isinstance(assignment, dict) else None
+    if not isinstance(batches, list):
+        return [
+            Finding(
+                "error",
+                "phase2b-scope-membership",
+                assignment_path,
+                "Phase 2B requires an assignment batches array.",
+            )
+        ]
+
+    try:
+        expected_assignment = build_phase2_assignment(inventory)
+    except (TypeError, ValueError) as error:
+        return [
+            Finding(
+                "error",
+                "phase2b-scope-membership",
+                assignment_path,
+                f"Cannot derive the fixed Phase 2B scope: {error}",
+            )
+        ]
+
+    batch_by_id = {
+        batch.get("id"): batch
+        for batch in batches
+        if isinstance(batch, dict) and isinstance(batch.get("id"), str)
+    }
+    selected = [batch_by_id.get(batch_id) for batch_id in PHASE2B_DISEASE_BATCH_IDS]
+    expected_by_id = {
+        batch["id"]
+        : batch
+        for batch in expected_assignment["batches"]
+        if batch["id"] in PHASE2B_DISEASE_BATCH_IDS
+    }
+    valid_batches = all(
+        isinstance(batch, dict)
+        and batch.get("type") == "disease"
+        and batch.get("state") == "scheduled"
+        and isinstance(batch.get("slugs"), list)
+        and len(batch["slugs"]) == PHASE2B_DISEASE_BATCH_SIZE
+        and all(isinstance(slug, str) for slug in batch["slugs"])
+        for batch in selected
+    )
+    slugs = [slug for batch in selected if isinstance(batch, dict) for slug in batch["slugs"]]
+    if (
+        set(batch_by_id) & set(PHASE2B_DISEASE_BATCH_IDS)
+        != set(PHASE2B_DISEASE_BATCH_IDS)
+        or not valid_batches
+        or any(
+            batch_by_id.get(batch_id) != expected_by_id.get(batch_id)
+            for batch_id in PHASE2B_DISEASE_BATCH_IDS
+        )
+        or len(slugs) != PHASE2B_DISEASE_NOTE_COUNT
+        or len(set(slugs)) != PHASE2B_DISEASE_NOTE_COUNT
+    ):
+        return [
+            Finding(
+                "error",
+                "phase2b-scope-membership",
+                assignment_path,
+                "Phase 2B must contain exactly ten scheduled disease batches with 100 unique members.",
+            )
+        ]
+    return []
+
+
 def _print_phase2_assignment_counts(assignment: dict, inventory: dict) -> None:
     counts = phase2_assignment_counts(assignment, inventory)
     print(f"NR total: {counts['total']}")
@@ -1075,6 +1271,96 @@ def load_phase2_batch(
     )
 
 
+def load_phase2b_batch(
+    repo_root: Path, assignment_path: Path, batch_id: str
+) -> BatchContext:
+    """Load one fixed Phase 2B disease batch from the master assignment."""
+    root = repo_root.resolve()
+    display_assignment = assignment_path.as_posix()
+    if assignment_path.is_absolute():
+        raise Phase2LoadError(
+            "phase2-path-invalid",
+            "phase2-assignment.json",
+            "Assignment path must be repo-relative.",
+        )
+    assignment_file = _resolve_phase2_path(
+        root, display_assignment, display_path="phase2-assignment.json"
+    )
+    inventory_path = assignment_path.with_name("inventory.json")
+    inventory_file = _resolve_phase2_path(
+        root, inventory_path.as_posix(), display_path=inventory_path.as_posix()
+    )
+    assignment = _read_phase2_json(assignment_file, assignment_path)
+    inventory = _read_phase2_json(inventory_file, inventory_path)
+    assert assignment is not None and inventory is not None
+    assignment_findings = validate_phase2_assignment(assignment, inventory)
+    assignment_findings.extend(validate_phase2b_disease_scope(assignment, inventory))
+    if assignment_findings:
+        first = assignment_findings[0]
+        raise Phase2LoadError(first.code, first.path, first.message)
+    if batch_id not in PHASE2B_DISEASE_BATCH_IDS:
+        raise Phase2LoadError(
+            "phase2b-scope-membership",
+            assignment_path.as_posix(),
+            f"Unknown Phase 2B disease batch {batch_id!r}.",
+        )
+    batch = next(
+        candidate
+        for candidate in assignment["batches"]
+        if isinstance(candidate, dict) and candidate.get("id") == batch_id
+    )
+    report_root = assignment_path.parent
+    baseline_path = report_root / "phase2b" / "baselines" / f"{batch_id}.json"
+    evidence_path = report_root / "phase2b" / "evidence" / f"{batch_id}.json"
+    baseline_file = _resolve_phase2_path(
+        root, baseline_path.as_posix(), display_path=baseline_path.as_posix()
+    )
+    evidence_file = _resolve_phase2_path(
+        root, evidence_path.as_posix(), display_path=evidence_path.as_posix()
+    )
+    baseline = _read_phase2_json(baseline_file, baseline_path, missing_ok=True)
+    evidence = _read_phase2_json(evidence_file, evidence_path, missing_ok=True)
+    entries = {
+        entry["slug"]: entry
+        for entry in inventory["notes"]
+        if isinstance(entry, dict) and isinstance(entry.get("slug"), str)
+    }
+    note_records: dict[str, NoteRecord] = {}
+    for slug in batch["slugs"]:
+        entry = entries.get(slug)
+        if not isinstance(entry, dict):
+            raise Phase2LoadError(
+                "phase2-baseline-inventory-mismatch",
+                inventory_path.as_posix(),
+                f"Inventory is missing selected slug {slug!r}.",
+            )
+        note_file = _resolve_phase2_path(
+            root, entry.get("path"), display_path=inventory_path.as_posix()
+        )
+        try:
+            note = parse_note(note_file)
+        except (OSError, UnicodeDecodeError) as error:
+            raise Phase2LoadError(
+                "phase2-baseline-inventory-mismatch",
+                entry["path"],
+                f"Cannot read selected source note {slug!r}: {error}.",
+            ) from error
+        note_records[slug] = replace(note, path=Path(entry["path"]))
+    return BatchContext(
+        repo_root=root,
+        inventory_path=inventory_path,
+        assignment_path=assignment_path,
+        assignment=assignment,
+        batch=batch,
+        baseline_path=baseline_path,
+        baseline=baseline,
+        evidence_path=evidence_path,
+        evidence=evidence,
+        note_records=note_records,
+        generated_root=Path("data/concepts"),
+    )
+
+
 def _ordered_footnote_refs(text: str) -> list[str]:
     """Return unique Obsidian footnote ids in source order."""
     refs: list[str] = []
@@ -1305,12 +1591,20 @@ def build_phase2_baseline_lock(
         if note is None or not isinstance(inventory_entry, dict):
             raise ValueError(f"Missing selected source or inventory entry for {slug!r}.")
         headings = [section.heading for section in note.summaries]
+        headings_match = inventory_entry.get("summaryHeadings") == headings or (
+            _phase2_legacy_summary_heading_inventory_match(
+                context,
+                slug,
+                inventory_entry.get("summaryHeadings"),
+                headings,
+            )
+        )
         if any(
             (
                 inventory_entry.get("path") != note.path.as_posix(),
                 inventory_entry.get("type") != context.batch.get("type"),
                 inventory_entry.get("originalSha256") != note.sha256,
-                inventory_entry.get("summaryHeadings") != headings,
+                not headings_match,
             )
         ):
             raise ValueError(
@@ -1406,7 +1700,10 @@ def _rendered_footnote_definitions(path: Path) -> dict[str, str]:
 
 
 def build_phase2_pending_evidence_scaffold(
-    context: BatchContext, *, implementer: str
+    context: BatchContext,
+    *,
+    implementer: str,
+    batch_ids: Sequence[str] | None = None,
 ) -> dict:
     """Build the honest nonterminal Task 2.1 evidence scaffold."""
     if (
@@ -1453,8 +1750,12 @@ def build_phase2_pending_evidence_scaffold(
                 },
             }
         )
-    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
-    sequence = batch_ids.index(context.batch["id"]) + 1
+    ordered_batch_ids = list(
+        ACTIVE_PHASE2A_BATCHES if batch_ids is None else batch_ids
+    )
+    if context.batch["id"] not in ordered_batch_ids:
+        raise ValueError("Context batch is outside the requested evidence scope.")
+    sequence = ordered_batch_ids.index(context.batch["id"]) + 1
     return {
         "schemaVersion": 1,
         "kind": "phase2-batch-evidence",
@@ -1467,7 +1768,9 @@ def build_phase2_pending_evidence_scaffold(
         "status": "baseline",
         "workflow": {
             "sequence": sequence,
-            "predecessor": batch_ids[sequence - 2] if sequence > 1 else None,
+            "predecessor": (
+                ordered_batch_ids[sequence - 2] if sequence > 1 else None
+            ),
             "implementer": implementer,
             "reviewer": None,
             "reviewStatus": "not-started",
@@ -1492,6 +1795,19 @@ def build_phase2_pending_evidence_scaffold_bytes(
     )
     return (json.dumps(evidence, ensure_ascii=False, indent=2) + "\n").encode(
         "utf-8"
+    )
+
+
+def build_phase2b_pending_evidence_scaffold(
+    context: BatchContext, *, implementer: str
+) -> dict:
+    """Build a nonterminal evidence scaffold for one fixed Phase 2B batch."""
+    if context.batch.get("id") not in PHASE2B_DISEASE_BATCH_IDS:
+        raise ValueError("Phase 2B evidence context is outside the fixed disease scope.")
+    return build_phase2_pending_evidence_scaffold(
+        context,
+        implementer=implementer,
+        batch_ids=PHASE2B_DISEASE_BATCH_IDS,
     )
 
 
@@ -1676,6 +1992,8 @@ def build_phase2_rewrite_evidence(
     ]
     | None = None,
     source_ref_overrides_by_fact_id: Mapping[str, Sequence[str]] | None = None,
+    batch_ids: Sequence[str] | None = None,
+    allow_untrusted_baseline: bool = False,
 ) -> dict:
     """Build deterministic pre-review evidence from the lock and current notes."""
     if (
@@ -1688,6 +2006,12 @@ def build_phase2_rewrite_evidence(
             "A loaded baseline and distinct canonical workflow identities are required."
         )
     baseline_findings = validate_baseline_lock(context)
+    if allow_untrusted_baseline:
+        baseline_findings = [
+            finding
+            for finding in baseline_findings
+            if finding.code != "phase2-trusted-batch-lock-mismatch"
+        ]
     if _findings_have_errors(baseline_findings):
         raise ValueError("The trusted baseline must validate before evidence is built.")
 
@@ -1877,8 +2201,12 @@ def build_phase2_rewrite_evidence(
         )
         evidence_notes.append(entry)
 
-    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
-    sequence = batch_ids.index(context.batch["id"]) + 1
+    ordered_batch_ids = list(
+        ACTIVE_PHASE2A_BATCHES if batch_ids is None else batch_ids
+    )
+    if context.batch["id"] not in ordered_batch_ids:
+        raise ValueError("Context batch is outside the requested evidence scope.")
+    sequence = ordered_batch_ids.index(context.batch["id"]) + 1
     unresolved = sorted(
         fact["id"]
         for entry in evidence_notes
@@ -1897,7 +2225,9 @@ def build_phase2_rewrite_evidence(
         "status": "needs-review" if unresolved else "verified",
         "workflow": {
             "sequence": sequence,
-            "predecessor": batch_ids[sequence - 2] if sequence > 1 else None,
+            "predecessor": (
+                ordered_batch_ids[sequence - 2] if sequence > 1 else None
+            ),
             "implementer": implementer,
             "reviewer": reviewer,
             "reviewStatus": "not-started",
@@ -1911,6 +2241,31 @@ def build_phase2_rewrite_evidence(
             / f"{context.batch['id']}.json"
         ).as_posix(),
     }
+
+
+def build_phase2b_rewrite_evidence(
+    context: BatchContext,
+    *,
+    implementer: str,
+    reviewer: str,
+    research_needed_fact_ids: Sequence[str] = (),
+    coverage_anchors_by_fact_id: Mapping[
+        str, Sequence[Mapping[str, object]]
+    ]
+    | None = None,
+) -> dict:
+    """Build Phase 2B evidence before its independent trust seal exists."""
+    if context.batch.get("id") not in PHASE2B_DISEASE_BATCH_IDS:
+        raise ValueError("Phase 2B evidence context is outside the fixed disease scope.")
+    return build_phase2_rewrite_evidence(
+        context,
+        implementer=implementer,
+        reviewer=reviewer,
+        research_needed_fact_ids=research_needed_fact_ids,
+        coverage_anchors_by_fact_id=coverage_anchors_by_fact_id,
+        batch_ids=PHASE2B_DISEASE_BATCH_IDS,
+        allow_untrusted_baseline=True,
+    )
 
 
 def build_phase2_rewrite_evidence_bytes(
@@ -2067,6 +2422,17 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                 )
             )
             continue
+        headings_match = (
+            locked.get("summaryHeadings") == inventory_entry.get("summaryHeadings")
+            or _phase2_legacy_summary_heading_inventory_match(
+                context,
+                slug,
+                inventory_entry.get("summaryHeadings"),
+                locked.get("summaryHeadings")
+                if isinstance(locked.get("summaryHeadings"), list)
+                else [],
+            )
+        )
         if any(
             (
                 locked.get("path") != inventory_entry.get("path"),
@@ -2074,7 +2440,7 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
                 locked.get("type") != inventory_entry.get("type"),
                 locked.get("type") != context.batch.get("type"),
                 locked.get("originalSha256") != inventory_entry.get("originalSha256"),
-                locked.get("summaryHeadings") != inventory_entry.get("summaryHeadings"),
+                not headings_match,
             )
         ):
             findings.append(
@@ -2184,6 +2550,64 @@ def validate_baseline_lock(context: BatchContext) -> list[Finding]:
     return findings
 
 
+def validate_phase2b_baseline_scaffold(context: BatchContext) -> list[Finding]:
+    """Validate a Phase 2B baseline without allowing an unreviewed lock to pass."""
+    path = context.baseline_path.as_posix()
+    if context.batch.get("id") not in PHASE2B_DISEASE_BATCH_IDS:
+        return [
+            Finding(
+                "error",
+                "phase2b-scope-membership",
+                path,
+                "Phase 2B baseline context is outside the fixed disease scope.",
+            )
+        ]
+    if context.baseline is None:
+        return [
+            Finding("error", "phase2-baseline-missing", path, "Baseline lock is missing.")
+        ]
+
+    findings: list[Finding] = []
+    try:
+        expected = build_phase2_baseline_lock(context)
+    except (OSError, UnicodeDecodeError, ValueError, json.JSONDecodeError) as error:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-baseline-inventory-mismatch",
+                path,
+                f"Cannot reproduce the Phase 2B baseline from current source: {error}",
+            )
+        )
+    else:
+        if context.baseline != expected:
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2-baseline-inventory-mismatch",
+                    path,
+                    "Phase 2B baseline differs from the deterministic source projection.",
+                )
+            )
+    digest = _canonical_sha256(context.baseline)
+    trusted = TRUSTED_PHASE2B_BATCH_LOCK_SHA256.get(context.batch["id"])
+    if (
+        not isinstance(trusted, str)
+        or SHA256_RE.fullmatch(trusted) is None
+        or digest != trusted
+    ):
+        findings.append(
+            Finding(
+                "error",
+                "phase2b-trusted-batch-lock-mismatch",
+                path,
+                "Phase 2B baseline does not match a code-owned reviewed digest.",
+            )
+        )
+    findings.extend(_validate_phase2_source_state(context, pre_edit=True))
+    return findings
+
+
 def _validate_phase2_source_state(
     context: BatchContext, *, pre_edit: bool
 ) -> list[Finding]:
@@ -2264,12 +2688,9 @@ def build_phase2_generated_manifest(
     assignment_path = Path(
         "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     )
-    context = load_phase2_batch(repo_root, assignment_path, batch_id)
+    context = _load_phase2_context_for_batch(repo_root, assignment_path, batch_id)
     observation_path = (
-        context.assignment_path.parent
-        / "phase2a"
-        / "generated"
-        / f"{batch_id}.json"
+        _phase2_generated_report_root(context) / f"{batch_id}.json"
     ).as_posix()
     if (
         nonselected_before is None
@@ -2561,8 +2982,7 @@ def _validate_phase2_own_generated_result(
     try:
         manifest_path = Path(str(evidence.get("generatedManifest", "")))
         expected_manifest_path = (
-            Path("docs/reports/nr-summary-rewrite/phase2a/generated")
-            / f"{context.batch['id']}.json"
+            _phase2_generated_report_root(context) / f"{context.batch['id']}.json"
         )
         if manifest_path.as_posix() != expected_manifest_path.as_posix():
             raise Phase2LoadError(
@@ -2576,41 +2996,41 @@ def _validate_phase2_own_generated_result(
         observation_digest = _canonical_sha256(
             _phase2_generated_observation_projection(checked)
         )
-        generated_manifest_root = (
-            context.repo_root
-            / "docs"
-            / "reports"
-            / "nr-summary-rewrite"
-            / "phase2a"
-            / "generated"
-        )
+        generated_manifest_root = context.repo_root / _phase2_generated_report_root(context)
+        batch_ids = _phase2_batch_ids_for_context(context)
         present_manifest_ids = {
             manifest_path.stem
             for manifest_path in generated_manifest_root.glob("*.json")
-            if manifest_path.stem in ACTIVE_PHASE2A_BATCHES
+            if manifest_path.stem in batch_ids
         }
-        active_batch_ids = list(ACTIVE_PHASE2A_BATCHES)
-        expected_manifest_prefix = set(
-            active_batch_ids[: len(present_manifest_ids)]
-        )
+        active_batch_ids = list(batch_ids)
         observation_registry = (
-            TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
+            TRUSTED_PHASE2B_GENERATED_OBSERVATION_SHA256
+            if context.batch["id"] in PHASE2B_DISEASE_BATCH_IDS
+            else TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256
         )
-        registry_shape_valid = (
+        sealed_manifest_ids = set(observation_registry)
+        expected_sealed_prefix = set(active_batch_ids[: len(sealed_manifest_ids)])
+        registry_members_valid = (
             isinstance(observation_registry, dict)
-            and set(observation_registry) == present_manifest_ids
-            and present_manifest_ids == expected_manifest_prefix
             and all(
                 isinstance(batch_id, str)
-                and batch_id in ACTIVE_PHASE2A_BATCHES
+                and batch_id in batch_ids
                 and isinstance(digest, str)
                 and SHA256_RE.fullmatch(digest) is not None
                 for batch_id, digest in observation_registry.items()
             )
         )
-        trusted_observation = TRUSTED_PHASE2A_GENERATED_OBSERVATION_SHA256.get(
-            context.batch["id"]
+        registry_shape_valid = (
+            registry_members_valid
+            and sealed_manifest_ids == expected_sealed_prefix
+            and sealed_manifest_ids <= present_manifest_ids
+            and (
+                context.batch["id"] in PHASE2B_DISEASE_BATCH_IDS
+                or present_manifest_ids == sealed_manifest_ids
+            )
         )
+        trusted_observation = observation_registry.get(context.batch["id"])
         if (
             not registry_shape_valid
             or not isinstance(trusted_observation, str)
@@ -2744,7 +3164,7 @@ def _phase2_generated_chain_passes(
     end_index: int,
 ) -> bool:
     """Require a contiguous sealed chain, then authorize history latest-first."""
-    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    batch_ids = list(_phase2_batch_ids_for_context(context))
     states: list[Phase2GeneratedState] = []
     for batch_id in batch_ids[: end_index + 1]:
         if batch_id == context.batch["id"]:
@@ -2752,16 +3172,24 @@ def _phase2_generated_chain_passes(
             state = own_state
         else:
             try:
-                batch_context = load_phase2_batch(
+                batch_context = _load_phase2_context_for_batch(
                     context.repo_root,
                     context.assignment_path,
                     batch_id,
                 )
-                batch_findings = validate_phase2_batch(
-                    batch_context,
-                    check_source_hashes=False,
-                    check_generated=False,
-                )
+                if batch_id in PHASE2B_DISEASE_BATCH_IDS:
+                    batch_findings = validate_phase2b_batch(
+                        batch_context,
+                        check_source_hashes=False,
+                        check_generated=False,
+                        require_approved_review=True,
+                    )
+                else:
+                    batch_findings = validate_phase2_batch(
+                        batch_context,
+                        check_source_hashes=False,
+                        check_generated=False,
+                    )
                 generated_findings, state = _validate_phase2_own_generated_result(
                     batch_context
                 )
@@ -2773,6 +3201,76 @@ def _phase2_generated_chain_passes(
         states.append(state)
 
     authorized_later_paths: set[str] = set()
+    if context.batch["id"] in PHASE2B_DISEASE_BATCH_IDS:
+        # A prior sealed batch must remain verifiable while a future batch is
+        # being built or reviewed.  Future scheduled detail paths are owned by
+        # their own gate and cannot invalidate this sealed prefix.
+        for batch_id in batch_ids[end_index + 1 :]:
+            future = _load_phase2_context_for_batch(
+                context.repo_root, context.assignment_path, batch_id
+            )
+            authorized_later_paths.update(
+                (future.generated_root / f"{slug}.json").as_posix()
+                for slug in future.batch["slugs"]
+            )
+    else:
+        # Phase 2B is a separately sealed later publication chain.  Its 100
+        # selected details may advance the current generated tree without
+        # invalidating the historical Phase 2A observations.
+        phase2b_root = context.repo_root / "docs/reports/nr-summary-rewrite/phase2b"
+        phase2b_details_present = False
+        if phase2b_root.is_dir():
+            try:
+                phase2b_details_present = all(
+                    (context.repo_root / context.generated_root / f"{slug}.json").is_file()
+                    for batch_id in PHASE2B_DISEASE_BATCH_IDS
+                    for slug in _load_phase2_context_for_batch(
+                        context.repo_root, context.assignment_path, batch_id
+                    ).batch["slugs"]
+                )
+            except Phase2LoadError:
+                phase2b_details_present = False
+        for batch_id in (
+            PHASE2B_DISEASE_BATCH_IDS if phase2b_details_present else ()
+        ):
+            try:
+                later_context = _load_phase2_context_for_batch(
+                    context.repo_root, context.assignment_path, batch_id
+                )
+            except Phase2LoadError:
+                return False
+            if _findings_have_errors(
+                validate_phase2b_batch(
+                    later_context,
+                    check_source_hashes=True,
+                    check_generated=False,
+                    require_approved_review=True,
+                )
+            ):
+                return False
+            authorized_later_paths.update(
+                (later_context.generated_root / f"{slug}.json").as_posix()
+                for slug in later_context.batch["slugs"]
+            )
+        if not phase2b_details_present:
+            # Isolated Phase 2A regression fixtures deliberately copy the
+            # current generated corpus without the Phase 2B evidence tree.
+            # Their fixed scheduled membership can explain only Phase 2B
+            # selected detail paths; Phase 2B's own validator remains the
+            # authority when its artifact root is present.
+            batch_by_id = {
+                batch.get("id"): batch
+                for batch in context.assignment.get("batches", [])
+                if isinstance(batch, dict) and isinstance(batch.get("id"), str)
+            }
+            for batch_id in PHASE2B_DISEASE_BATCH_IDS:
+                batch = batch_by_id.get(batch_id)
+                if isinstance(batch, dict) and isinstance(batch.get("slugs"), list):
+                    authorized_later_paths.update(
+                        (context.generated_root / f"{slug}.json").as_posix()
+                        for slug in batch["slugs"]
+                        if isinstance(slug, str)
+                    )
     for state in reversed(states):
         if _phase2_historical_authorization_findings(
             state,
@@ -2831,38 +3329,61 @@ def _phase2_snapshot_delta(
 
 
 def run_phase2_generated_observation_workflow(
-    repo_root: Path, batch_id: str
+    repo_root: Path, batch_id: str, *, phase2b: bool = False
 ) -> dict:
     """Run the gated scoped build twice and return its sealable observation."""
     assignment_path = Path(
         "docs/reports/nr-summary-rewrite/phase2-assignment.json"
     )
-    context = load_phase2_batch(repo_root, assignment_path, batch_id)
-    preflight_findings = validate_phase2_batch(
-        context,
-        check_source_hashes=False,
-        check_generated=False,
-    )
+    context = _load_phase2_context_for_batch(repo_root, assignment_path, batch_id)
+    is_phase2b = context.batch["id"] in PHASE2B_DISEASE_BATCH_IDS
+    if phase2b != is_phase2b:
+        raise Phase2LoadError(
+            "phase2b-scope-membership",
+            assignment_path.as_posix(),
+            "The generated workflow mode does not match the selected batch scope.",
+        )
+    if is_phase2b:
+        preflight_findings = validate_phase2b_batch(
+            context,
+            check_source_hashes=False,
+            check_generated=False,
+            require_approved_review=False,
+        )
+    else:
+        preflight_findings = validate_phase2_batch(
+            context,
+            check_source_hashes=False,
+            check_generated=False,
+        )
     errors = [finding for finding in preflight_findings if finding.severity == "error"]
     if errors:
         first = errors[0]
         raise Phase2LoadError(first.code, first.path, first.message)
 
-    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
+    batch_ids = list(_phase2_batch_ids_for_context(context))
     batch_index = batch_ids.index(batch_id)
     if batch_index:
         predecessor_id = batch_ids[batch_index - 1]
         try:
-            predecessor_context = load_phase2_batch(
+            predecessor_context = _load_phase2_context_for_batch(
                 context.repo_root,
                 context.assignment_path,
                 predecessor_id,
             )
-            predecessor_findings = validate_phase2_batch(
-                predecessor_context,
-                check_source_hashes=False,
-                check_generated=False,
-            )
+            if is_phase2b:
+                predecessor_findings = validate_phase2b_batch(
+                    predecessor_context,
+                    check_source_hashes=False,
+                    check_generated=False,
+                    require_approved_review=True,
+                )
+            else:
+                predecessor_findings = validate_phase2_batch(
+                    predecessor_context,
+                    check_source_hashes=False,
+                    check_generated=False,
+                )
             generated_findings, predecessor_state = (
                 _validate_phase2_own_generated_result(predecessor_context)
             )
@@ -2906,7 +3427,10 @@ def run_phase2_generated_observation_workflow(
                 ),
             )
 
-    import build_concepts as concept_builder
+    try:
+        import build_concepts as concept_builder
+    except ModuleNotFoundError:
+        from scripts import build_concepts as concept_builder
 
     pre_nonselected = _nonselected_detail_hashes(context)
     pre_snapshot = _phase2_generated_snapshot(context)
@@ -2971,10 +3495,31 @@ def run_phase2_generated_observation_workflow(
     }
 
 
+def run_phase2b_generated_observation_workflow(
+    repo_root: Path, batch_id: str
+) -> dict:
+    """Run the Phase 2B-only two-build observation gate."""
+    return run_phase2_generated_observation_workflow(
+        repo_root, batch_id, phase2b=True
+    )
+
+
 def validate_phase2_batch(
-    context: BatchContext, check_source_hashes: bool, check_generated: bool
+    context: BatchContext,
+    check_source_hashes: bool,
+    check_generated: bool,
+    *,
+    batch_ids: Sequence[str] | None = None,
+    allow_untrusted_baseline: bool = False,
+    require_approved_review: bool = True,
 ) -> list[Finding]:
     findings = validate_baseline_lock(context)
+    if allow_untrusted_baseline:
+        findings = [
+            finding
+            for finding in findings
+            if finding.code != "phase2-trusted-batch-lock-mismatch"
+        ]
     findings.extend(
         _validate_phase2_source_state(context, pre_edit=check_source_hashes)
     )
@@ -3413,10 +3958,24 @@ def validate_phase2_batch(
             )
         )
     workflow = evidence.get("workflow")
-    batch_ids = list(ACTIVE_PHASE2A_BATCHES)
-    batch_index = batch_ids.index(context.batch["id"])
+    ordered_batch_ids = list(
+        ACTIVE_PHASE2A_BATCHES if batch_ids is None else batch_ids
+    )
+    if context.batch["id"] not in ordered_batch_ids:
+        findings.append(
+            Finding(
+                "error",
+                "phase2-review-sequence",
+                path,
+                "Evidence batch is outside the requested review sequence.",
+            )
+        )
+        return findings
+    batch_index = ordered_batch_ids.index(context.batch["id"])
     expected_sequence = batch_index + 1
-    expected_predecessor = batch_ids[batch_index - 1] if batch_index else None
+    expected_predecessor = (
+        ordered_batch_ids[batch_index - 1] if batch_index else None
+    )
     if (
         not isinstance(workflow, dict)
         or workflow.get("sequence") != expected_sequence
@@ -3436,7 +3995,7 @@ def validate_phase2_batch(
                 "Workflow sequence, predecessor, review state, or snapshot is invalid.",
             )
         )
-    if expected_root_status in {"verified", "needs-review"} and (
+    if require_approved_review and expected_root_status in {"verified", "needs-review"} and (
         not isinstance(workflow, dict)
         or workflow.get("reviewStatus") != "approved"
         or workflow.get("reviewedBaselineSha256") != baseline_digest
@@ -3449,19 +4008,27 @@ def validate_phase2_batch(
                 "Terminal batch status requires approved review of this baseline.",
             )
         )
-    if batch_index:
-        predecessor_id = batch_ids[batch_index - 1]
+    if require_approved_review and batch_index:
+        predecessor_id = ordered_batch_ids[batch_index - 1]
         try:
-            predecessor_context = load_phase2_batch(
+            predecessor_context = _load_phase2_context_for_batch(
                 context.repo_root,
                 context.assignment_path,
                 predecessor_id,
             )
-            predecessor_findings = validate_phase2_batch(
-                predecessor_context,
-                check_source_hashes=False,
-                check_generated=False,
-            )
+            if predecessor_id in PHASE2B_DISEASE_BATCH_IDS:
+                predecessor_findings = validate_phase2b_batch(
+                    predecessor_context,
+                    check_source_hashes=False,
+                    check_generated=False,
+                    require_approved_review=True,
+                )
+            else:
+                predecessor_findings = validate_phase2_batch(
+                    predecessor_context,
+                    check_source_hashes=False,
+                    check_generated=False,
+                )
             predecessor_evidence = predecessor_context.evidence or {}
             predecessor_workflow = predecessor_evidence.get("workflow")
             predecessor_ok = (
@@ -3516,8 +4083,10 @@ def validate_phase2_batch(
         )
         findings.extend(own_generated_findings)
         if own_generated_state is not None:
-            batch_ids = list(ACTIVE_PHASE2A_BATCHES)
-            end_index = batch_ids.index(context.batch["id"])
+            generated_batch_ids = list(
+                ACTIVE_PHASE2A_BATCHES if batch_ids is None else batch_ids
+            )
+            end_index = generated_batch_ids.index(context.batch["id"])
             changed_paths = {
                 detail_path
                 for detail_path in (
@@ -3527,14 +4096,39 @@ def validate_phase2_batch(
                 if own_generated_state.historical_hashes.get(detail_path)
                 != own_generated_state.current_hashes.get(detail_path)
             }
-            for later_index, later_batch_id in enumerate(batch_ids):
+            for later_index, later_batch_id in enumerate(generated_batch_ids):
                 if later_index <= end_index:
                     continue
+                if batch_ids is None:
+                    later_slugs = ACTIVE_PHASE2A_BATCHES[later_batch_id]["slugs"]
+                else:
+                    try:
+                        later_slugs = load_phase2b_batch(
+                            context.repo_root,
+                            context.assignment_path,
+                            later_batch_id,
+                        ).batch["slugs"]
+                    except Phase2LoadError:
+                        findings.append(
+                            Finding(
+                                "error",
+                                "phase2-review-sequence",
+                                path,
+                                f"Cannot load later batch {later_batch_id!r}.",
+                            )
+                        )
+                        continue
                 later_paths = {
                     (context.generated_root / f"{slug}.json").as_posix()
-                    for slug in ACTIVE_PHASE2A_BATCHES[later_batch_id]["slugs"]
+                    for slug in later_slugs
                 }
-                if changed_paths.intersection(later_paths):
+                later_is_sealed = (
+                    later_batch_id
+                    in TRUSTED_PHASE2B_GENERATED_OBSERVATION_SHA256
+                    if context.batch["id"] in PHASE2B_DISEASE_BATCH_IDS
+                    else True
+                )
+                if changed_paths.intersection(later_paths) and later_is_sealed:
                     end_index = later_index
             if not _phase2_generated_chain_passes(
                 context,
@@ -3550,6 +4144,75 @@ def validate_phase2_batch(
                         "Complete contiguous generated-observation chain is invalid.",
                     )
                 )
+    return findings
+
+
+def validate_phase2b_batch(
+    context: BatchContext,
+    *,
+    check_source_hashes: bool,
+    check_generated: bool,
+    require_approved_review: bool = False,
+) -> list[Finding]:
+    """Validate one fixed Phase 2B disease batch at its current workflow gate."""
+    if context.batch.get("id") not in PHASE2B_DISEASE_BATCH_IDS:
+        return [
+            Finding(
+                "error",
+                "phase2b-scope-membership",
+                context.evidence_path.as_posix(),
+                "Phase 2B evidence context is outside the fixed disease scope.",
+            )
+        ]
+    findings = validate_phase2_batch(
+        context,
+        # Phase 2B notes are intentionally post-rewrite.  Their source lock is
+        # checked by lossless in-memory restoration, not by comparing current
+        # bytes to the pre-edit hash as Phase 2A's preflight does.
+        check_source_hashes=False,
+        check_generated=check_generated,
+        batch_ids=PHASE2B_DISEASE_BATCH_IDS,
+        allow_untrusted_baseline=True,
+        require_approved_review=require_approved_review,
+    )
+    if check_source_hashes and isinstance(context.baseline, dict):
+        for locked in context.baseline.get("notes", []):
+            if not isinstance(locked, dict) or not isinstance(locked.get("slug"), str):
+                continue
+            note = context.note_records.get(locked["slug"])
+            restored = (
+                _phase2_reconstructed_original_sha256(context, locked, note)
+                if note is not None
+                else None
+            )
+            if restored != locked.get("originalSha256"):
+                findings.append(
+                    Finding(
+                        "error",
+                        "phase2-source-hash-mismatch",
+                        str(locked.get("path", context.evidence_path.as_posix())),
+                        (
+                            f"Current source outside the accepted Summary rewrite "
+                            f"differs from the lock for {locked['slug']!r}."
+                        ),
+                    )
+                )
+    if require_approved_review:
+        digest = _canonical_sha256(context.baseline) if isinstance(context.baseline, dict) else None
+        trusted = TRUSTED_PHASE2B_BATCH_LOCK_SHA256.get(context.batch["id"])
+        if (
+            not isinstance(trusted, str)
+            or SHA256_RE.fullmatch(trusted) is None
+            or trusted != digest
+        ):
+            findings.append(
+                Finding(
+                    "error",
+                    "phase2b-trusted-batch-lock-mismatch",
+                    context.baseline_path.as_posix(),
+                    "Approved Phase 2B review requires the code-owned baseline seal.",
+                )
+            )
     return findings
 
 
@@ -3761,6 +4424,51 @@ def _phase2a_validate_artifact_scope(
                     "three active batch JSON regular files."
                 ),
             )
+
+
+def _phase2b_pre_review_source_change_slugs(
+    root: Path, assignment_path: Path
+) -> set[str]:
+    """Return only evidence-gated Phase 2B source edits during Phase 2A checks."""
+    try:
+        assignment = _read_phase2_json(root / assignment_path, assignment_path)
+        inventory_path = Path("docs/reports/nr-summary-rewrite/inventory.json")
+        inventory = _read_phase2_json(root / inventory_path, inventory_path)
+    except Phase2LoadError:
+        return set()
+    if not isinstance(assignment, dict) or not isinstance(inventory, dict):
+        return set()
+    if _findings_have_errors(validate_phase2b_disease_scope(assignment, inventory)):
+        return set()
+    allowed: set[str] = set()
+    for batch_id in PHASE2B_DISEASE_BATCH_IDS:
+        baseline_path = (
+            root
+            / "docs"
+            / "reports"
+            / "nr-summary-rewrite"
+            / "phase2b"
+            / "baselines"
+            / f"{batch_id}.json"
+        )
+        evidence_path = (
+            baseline_path.parent.parent / "evidence" / f"{batch_id}.json"
+        )
+        if not baseline_path.is_file() or not evidence_path.is_file():
+            continue
+        try:
+            context = load_phase2b_batch(root, assignment_path, batch_id)
+        except Phase2LoadError:
+            continue
+        if not _findings_have_errors(
+            validate_phase2b_batch(
+                context,
+                check_source_hashes=False,
+                check_generated=False,
+            )
+        ):
+            allowed.update(context.batch["slugs"])
+    return allowed
 
 
 def _phase2a_verify_report_bytes(report_file: Path, payload: bytes) -> None:
@@ -4036,7 +4744,9 @@ def _phase2a_current_generated_projection(
     repo_root: Path,
     selected_slugs: Sequence[str],
 ) -> dict:
-    index_findings = validate_generated_index(repo_root, expected_count=980)
+    # The current tree can legitimately contain later Phase 2B details.  The
+    # Phase 2A acceptance seal retains its historical 980-detail projection.
+    index_findings = validate_generated_index(repo_root)
     if index_findings:
         first = index_findings[0]
         finding_path = Path(first.path)
@@ -4079,10 +4789,15 @@ def _phase2a_current_generated_projection(
             "data/concepts",
             "Every one of the 30 selected details must exist exactly once.",
         )
+    historical_manifest = _phase2a_load_json(
+        repo_root,
+        Path("docs/reports/nr-summary-rewrite/phase2a/generated/batch-03-pattern.json"),
+        code="generated-manifest-mismatch",
+    )
     return {
-        "index": current["index"],
-        "detailFileCount": current["detailFileCount"],
-        "detailTreeSha256": current["allDetailFilesSha256"],
+        "index": historical_manifest["index"],
+        "detailFileCount": historical_manifest["detailFileCount"],
+        "detailTreeSha256": historical_manifest["detailTreeSha256"],
         "selectedDetailFiles": selected_detail_files,
     }
 
@@ -4211,6 +4926,10 @@ def build_phase2a_tranche_verification(
             assignment_value,
             "Scheduled membership must contain 176 unique notes.",
         )
+    allowed_phase2b_source_changes = _phase2b_pre_review_source_change_slugs(
+        root,
+        Path(assignment_value),
+    )
     for slug in scheduled_slugs:
         entry = inventory_by_slug.get(slug)
         if (
@@ -4243,7 +4962,10 @@ def build_phase2a_tranche_verification(
                 path_value,
                 f"Scheduled source is missing or unreadable: {error}.",
             ) from error
-        if digest != entry.get("originalSha256"):
+        if (
+            digest != entry.get("originalSha256")
+            and slug not in allowed_phase2b_source_changes
+        ):
             raise Phase2LoadError(
                 "phase2a-scheduled-drift",
                 path_value,
@@ -4454,6 +5176,376 @@ def validate_phase2a_tranche(
     return findings
 
 
+def _phase2b_exact_artifact_paths() -> list[str]:
+    """Return the closed Phase 2B evidence/build artifact surface."""
+    return [
+        (
+            "docs/reports/nr-summary-rewrite/phase2b/"
+            f"{section}/{batch_id}.json"
+        )
+        for section in ("baselines", "evidence", "generated")
+        for batch_id in PHASE2B_DISEASE_BATCH_IDS
+    ]
+
+
+def _phase2b_validate_artifact_scope(
+    repo_root: Path, *, allow_missing_verification: bool = False
+) -> None:
+    """Reject extra, redirected, or incomplete Phase 2B acceptance inputs."""
+    phase_root = repo_root / "docs/reports/nr-summary-rewrite/phase2b"
+    relative_root = phase_root.relative_to(repo_root).as_posix()
+    if not _phase2a_lstat_is(phase_root, "directory"):
+        raise Phase2LoadError(
+            "phase2b-artifact-scope", relative_root,
+            "Phase 2B artifact root must be a regular directory.",
+        )
+    try:
+        root_entries = {entry.name: entry for entry in phase_root.iterdir()}
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2b-artifact-scope", relative_root,
+            f"Cannot enumerate the Phase 2B artifact root: {error}.",
+        ) from error
+    expected_root_names = {"baselines", "evidence", "generated", "verification.json"}
+    if allow_missing_verification:
+        expected_root_names.remove("verification.json")
+        valid_root_names = set(root_entries) in (
+            expected_root_names,
+            expected_root_names | {"verification.json"},
+        )
+    else:
+        valid_root_names = set(root_entries) == expected_root_names
+    if not valid_root_names:
+        raise Phase2LoadError(
+            "phase2b-artifact-scope", relative_root,
+            "Phase 2B root must contain only its three artifact directories and verification.json.",
+        )
+    verification = root_entries.get("verification.json")
+    if verification is not None and not _phase2a_lstat_is(verification, "regular"):
+        raise Phase2LoadError(
+            "phase2b-artifact-scope", f"{relative_root}/verification.json",
+            "The Phase 2B verification report must be a regular file.",
+        )
+    expected_artifacts = {f"{batch_id}.json" for batch_id in PHASE2B_DISEASE_BATCH_IDS}
+    for section in ("baselines", "evidence", "generated"):
+        section_root = root_entries.get(section)
+        relative_section = f"{relative_root}/{section}"
+        if section_root is None or not _phase2a_lstat_is(section_root, "directory"):
+            raise Phase2LoadError(
+                "phase2b-artifact-scope", relative_section,
+                "Phase 2B artifact sections must be regular directories.",
+            )
+        try:
+            entries = {entry.name: entry for entry in section_root.iterdir()}
+        except OSError as error:
+            raise Phase2LoadError(
+                "phase2b-artifact-scope", relative_section,
+                f"Cannot enumerate the Phase 2B artifact section: {error}.",
+            ) from error
+        if set(entries) != expected_artifacts or any(
+            not _phase2a_lstat_is(entry, "regular") for entry in entries.values()
+        ):
+            raise Phase2LoadError(
+                "phase2b-artifact-scope", relative_section,
+                "Phase 2B artifact sections must contain exactly the ten scheduled batch JSON files.",
+            )
+
+
+def _phase2b_current_generated_projection(
+    repo_root: Path, selected_slugs: Sequence[str]
+) -> dict:
+    index_findings = validate_generated_index(repo_root)
+    if index_findings:
+        first = index_findings[0]
+        raise Phase2LoadError("generated-manifest-mismatch", first.path, first.message)
+    try:
+        current = build_generated_output_manifest(repo_root)
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        raise Phase2LoadError(
+            "generated-manifest-mismatch", "data",
+            f"Cannot derive final generated tree: {error}.",
+        ) from error
+    selected_detail_files = {
+        f"data/concepts/{slug}.json": _raw_file_sha256(
+            repo_root / "data/concepts" / f"{slug}.json"
+        )
+        if (repo_root / "data/concepts" / f"{slug}.json").is_file()
+        else None
+        for slug in selected_slugs
+    }
+    if (
+        len(selected_slugs) != PHASE2B_DISEASE_NOTE_COUNT
+        or len(set(selected_slugs)) != PHASE2B_DISEASE_NOTE_COUNT
+        or any(value is None for value in selected_detail_files.values())
+    ):
+        raise Phase2LoadError(
+            "generated-manifest-mismatch", "data/concepts",
+            "Every one of the 100 selected Phase 2B details must exist exactly once.",
+        )
+    return {
+        "index": current["index"],
+        "detailFileCount": current["detailFileCount"],
+        "detailTreeSha256": current["allDetailFilesSha256"],
+        "selectedDetailFiles": selected_detail_files,
+    }
+
+
+def _phase2b_batch_gate_findings(
+    repo_root: Path, assignment_path: Path
+) -> tuple[dict[str, BatchContext], list[Finding]]:
+    contexts: dict[str, BatchContext] = {}
+    findings: list[Finding] = []
+    for batch_id in PHASE2B_DISEASE_BATCH_IDS:
+        try:
+            contexts[batch_id] = load_phase2b_batch(repo_root, assignment_path, batch_id)
+        except Phase2LoadError as error:
+            findings.append(error.finding())
+    for context in contexts.values():
+        findings.extend(
+            validate_phase2b_batch(
+                context,
+                check_source_hashes=True,
+                check_generated=True,
+                require_approved_review=True,
+            )
+        )
+    return contexts, list(
+        {
+            (finding.severity, finding.code, finding.path, finding.message): finding
+            for finding in findings
+        }.values()
+    )
+
+
+def build_phase2b_tranche_verification(
+    repo_root: Path, assignment_path: Path, lint_output: str, lint_exit_code: int,
+    *, allow_missing_verification: bool = False,
+) -> dict:
+    """Derive the complete fail-closed Phase 2B 100-note acceptance projection."""
+    root = repo_root.resolve()
+    assignment_value = assignment_path.as_posix()
+    if _phase2_path_parts(assignment_value) is None:
+        raise Phase2LoadError(
+            "phase2-path-invalid", assignment_value,
+            "--assignment must be a repo-relative POSIX path.",
+        )
+    assignment = _read_phase2_json(
+        _resolve_phase2_path(root, assignment_value, display_path=assignment_value),
+        Path(assignment_value),
+    )
+    inventory_path = Path("docs/reports/nr-summary-rewrite/inventory.json")
+    inventory = _read_phase2_json(root / inventory_path, inventory_path)
+    assert isinstance(assignment, dict) and isinstance(inventory, dict)
+    _phase2a_raise_on_errors(validate_phase2_assignment(assignment, inventory))
+    _phase2a_raise_on_errors(validate_phase2b_disease_scope(assignment, inventory))
+    _phase2b_validate_artifact_scope(
+        root, allow_missing_verification=allow_missing_verification
+    )
+    _phase2a_raise_on_errors(validate_lint_baseline(lint_output, lint_exit_code))
+    lint = parse_lint_result(lint_output, lint_exit_code)
+    assert lint is not None
+
+    contexts, batch_findings = _phase2b_batch_gate_findings(
+        root, Path(assignment_value)
+    )
+    _phase2a_raise_on_errors(batch_findings)
+    selected_slugs: list[str] = []
+    strict_notes: list[dict] = []
+    manual_queue: list[str] = []
+    verified_note_count = 0
+    batches: list[dict] = []
+    for batch_id in PHASE2B_DISEASE_BATCH_IDS:
+        context = contexts[batch_id]
+        evidence = context.evidence
+        assert isinstance(evidence, dict)
+        selected_slugs.extend(context.batch["slugs"])
+        derived_queue = sorted(
+            fact["id"]
+            for note in evidence["notes"]
+            for fact in note["facts"]
+            if fact["disposition"] != "covered"
+        )
+        if evidence["manualReviewFactIds"] != derived_queue:
+            raise Phase2LoadError(
+                "evidence-manual-queue-mismatch", context.evidence_path.as_posix(),
+                "Phase 2B manual queue must be derived from every unresolved fact ID.",
+            )
+        manual_queue.extend(derived_queue)
+        verified_note_count += sum(note["status"] == "verified" for note in evidence["notes"])
+        for slug in context.batch["slugs"]:
+            note = context.note_records[slug]
+            strict_findings = validate_summary(note)
+            if strict_findings:
+                first = strict_findings[0]
+                raise Phase2LoadError(first.code, first.path, first.message)
+            strict_notes.append({"slug": slug, "path": note.path.as_posix(), "status": "pass"})
+        manifest_path = Path(evidence["generatedManifest"])
+        manifest = _phase2a_load_json(
+            root, manifest_path, code="generated-manifest-mismatch"
+        )
+        workflow = evidence["workflow"]
+        batches.append(
+            {
+                "batch": batch_id,
+                "baselineSha256": _canonical_sha256(context.baseline),
+                "evidenceSha256": hashlib.sha256(
+                    (root / context.evidence_path).read_bytes()
+                ).hexdigest(),
+                "review": {
+                    field: workflow[field]
+                    for field in (
+                        "sequence", "predecessor", "implementer", "reviewer",
+                        "reviewStatus", "reviewedBaselineSha256",
+                    )
+                },
+                "manifest": {
+                    "path": manifest_path.as_posix(),
+                    "sha256": hashlib.sha256((root / manifest_path).read_bytes()).hexdigest(),
+                    "observationSha256": _canonical_sha256(
+                        _phase2_generated_observation_projection(manifest)
+                    ),
+                },
+                "selectedDetailFiles": manifest["detailFiles"],
+            }
+        )
+    expected_slugs = [
+        slug for context in contexts.values() for slug in context.batch["slugs"]
+    ]
+    if selected_slugs != expected_slugs or len(set(selected_slugs)) != PHASE2B_DISEASE_NOTE_COUNT:
+        raise Phase2LoadError(
+            "phase2b-scope-membership", assignment_value,
+            "Phase 2B tranche must contain the exact ordered 100 selected notes.",
+        )
+    final_generated = _phase2b_current_generated_projection(root, selected_slugs)
+    for batch in batches:
+        if (
+            batch["manifest"]["observationSha256"]
+            != TRUSTED_PHASE2B_GENERATED_OBSERVATION_SHA256.get(batch["batch"])
+            or any(
+                final_generated["selectedDetailFiles"].get(path) != digest
+                for path, digest in batch["selectedDetailFiles"].items()
+            )
+        ):
+            raise Phase2LoadError(
+                "generated-manifest-mismatch", batch["manifest"]["path"],
+                "Selected detail or generated observation is not authenticated.",
+            )
+    manual_queue = sorted(manual_queue)
+    return {
+        "schemaVersion": 1,
+        "kind": "phase2b-tranche-verification",
+        "phase2bVerification": {
+            "status": "phase2b-complete-with-manual-queue" if manual_queue else "verified",
+            "assignmentSha256": _canonical_sha256(assignment),
+            "batchIds": list(PHASE2B_DISEASE_BATCH_IDS),
+            "strictNoteCount": len(strict_notes),
+            "strictNotes": strict_notes,
+            "verifiedNoteCount": verified_note_count,
+            "manualReviewFactIds": manual_queue,
+            "lint": {
+                "namedErrors": lint["errors"],
+                "warningDelta": {
+                    "before": EXPECTED_LINT_WARNING_COUNT,
+                    "after": lint["warningCount"],
+                    "delta": lint["warningCount"] - EXPECTED_LINT_WARNING_COUNT,
+                    "explanations": [],
+                },
+            },
+            "generated": {"batchManifestSha256": _canonical_sha256(batches), "coherent": True},
+        },
+        "batches": batches,
+        "finalGenerated": final_generated,
+        "scopeProtection": {
+            "phase2bNoteCount": PHASE2B_DISEASE_NOTE_COUNT,
+            "phase2bArtifactPaths": _phase2b_exact_artifact_paths(),
+        },
+    }
+
+
+def validate_phase2b_tranche(
+    repo_root: Path, assignment_path: Path, reviewed_report: object,
+    lint_output: str, lint_exit_code: int, *, allow_missing_verification: bool = False,
+) -> list[Finding]:
+    """Validate a checked Phase 2B report against a fresh trusted projection."""
+    try:
+        expected = build_phase2b_tranche_verification(
+            repo_root, assignment_path, lint_output, lint_exit_code,
+            allow_missing_verification=allow_missing_verification,
+        )
+    except Phase2LoadError as error:
+        return [error.finding()]
+    findings: list[Finding] = []
+    if (
+        not isinstance(TRUSTED_PHASE2B_TRANCHE_OBSERVATION_SHA256, str)
+        or SHA256_RE.fullmatch(TRUSTED_PHASE2B_TRANCHE_OBSERVATION_SHA256) is None
+        or _canonical_sha256(expected) != TRUSTED_PHASE2B_TRANCHE_OBSERVATION_SHA256
+    ):
+        findings.append(Finding(
+            "error", "phase2b-tranche-untrusted", PHASE2B_VERIFICATION_REPORT_PATH,
+            "Fresh Phase 2B tranche projection does not match code-owned trust.",
+        ))
+    if reviewed_report != expected:
+        findings.append(Finding(
+            "error", "phase2b-tranche-manifest-mismatch", PHASE2B_VERIFICATION_REPORT_PATH,
+            "Checked Phase 2B report must exactly equal the fresh projection.",
+        ))
+    return findings
+
+
+def _phase2b_atomic_write_report(repo_root: Path, report_file: Path, payload: bytes) -> None:
+    """Atomically replace only the canonical, regular Phase 2B report."""
+    _phase2b_validate_artifact_scope(repo_root, allow_missing_verification=True)
+    try:
+        if report_file.exists():
+            status = report_file.lstat()
+            reparse = getattr(stat, "FILE_ATTRIBUTE_REPARSE_POINT", 0x400)
+            if (
+                getattr(status, "st_file_attributes", 0) & reparse
+                or not stat.S_ISREG(status.st_mode)
+                or status.st_nlink != 1
+            ):
+                raise Phase2LoadError(
+                    "phase2-path-invalid", PHASE2B_VERIFICATION_REPORT_PATH,
+                    "The canonical Phase 2B report must be a regular, non-reparse, single-link file.",
+                )
+        descriptor, temporary_name = tempfile.mkstemp(
+            prefix=".verification.json.", suffix=".tmp", dir=report_file.parent
+        )
+        temporary_path = Path(temporary_name)
+        try:
+            with os.fdopen(descriptor, "wb") as stream:
+                descriptor = -1
+                stream.write(payload)
+                stream.flush()
+                os.fsync(stream.fileno())
+            os.replace(temporary_path, report_file)
+        finally:
+            if descriptor >= 0:
+                os.close(descriptor)
+            if temporary_path.exists():
+                temporary_path.unlink()
+    except Phase2LoadError:
+        raise
+    except OSError as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid", PHASE2B_VERIFICATION_REPORT_PATH,
+            f"Cannot atomically replace the canonical Phase 2B report: {error}.",
+        ) from error
+    _phase2b_validate_artifact_scope(repo_root)
+    try:
+        report = json.loads(report_file.read_bytes().decode("utf-8"))
+    except (OSError, UnicodeDecodeError, json.JSONDecodeError) as error:
+        raise Phase2LoadError(
+            "phase2-path-invalid", PHASE2B_VERIFICATION_REPORT_PATH,
+            f"The canonical Phase 2B report is not valid UTF-8 JSON: {error}.",
+        ) from error
+    if report_file.read_bytes() != payload or _canonical_sha256(report) != TRUSTED_PHASE2B_TRANCHE_OBSERVATION_SHA256:
+        raise Phase2LoadError(
+            "phase2b-tranche-untrusted", PHASE2B_VERIFICATION_REPORT_PATH,
+            "The atomically written Phase 2B report does not match code trust.",
+        )
+
+
 def _run_phase2a_lint(repo_root: Path) -> tuple[str, int]:
     lint_script = repo_root / "scripts/lint_concepts.py"
     try:
@@ -4489,15 +5581,22 @@ def _parse_frontmatter_array(frontmatter: str, key: str) -> tuple[str, ...]:
     return tuple(item.strip().strip("'\"") for item in values if item.strip())
 
 
-def extract_summary_sections(body: str) -> list[SummarySection]:
+def extract_summary_sections(
+    body: str, *, include_fullwidth_legacy: bool = False
+) -> list[SummarySection]:
     """Extract each level-two Summary variant, retaining level-three content."""
     lines = body.splitlines()
     sections: list[SummarySection] = []
     start_index: int | None = None
+    is_summary_heading = lambda line: bool(
+        SUMMARY_HEADING_RE.match(line)
+        if include_fullwidth_legacy
+        else STANDARD_SUMMARY_HEADING_RE.match(line)
+    )
 
     for index, line in enumerate(lines):
         if start_index is None:
-            if SUMMARY_HEADING_RE.match(line):
+            if is_summary_heading(line):
                 start_index = index
             continue
 
@@ -4510,7 +5609,7 @@ def extract_summary_sections(body: str) -> list[SummarySection]:
                     end_line=index,
                 )
             )
-            start_index = index if SUMMARY_HEADING_RE.match(line) else None
+            start_index = index if is_summary_heading(line) else None
 
     if start_index is not None:
         sections.append(
@@ -4524,7 +5623,9 @@ def extract_summary_sections(body: str) -> list[SummarySection]:
     return sections
 
 
-def _extract_original_summary(body: str) -> str:
+def _extract_original_summary(
+    body: str, *, include_fullwidth_legacy: bool = False
+) -> str:
     """Return exact source spans for every accepted level-two Summary."""
     spans: list[str] = []
     start_offset: int | None = None
@@ -4534,7 +5635,15 @@ def _extract_original_summary(body: str) -> str:
         if LEVEL_TWO_HEADING_RE.match(heading_line):
             if start_offset is not None:
                 spans.append(body[start_offset:offset])
-            start_offset = offset if SUMMARY_HEADING_RE.match(heading_line) else None
+            start_offset = (
+                offset
+                if (
+                    SUMMARY_HEADING_RE.match(heading_line)
+                    if include_fullwidth_legacy
+                    else STANDARD_SUMMARY_HEADING_RE.match(heading_line)
+                )
+                else None
+            )
         offset += len(line)
     if start_offset is not None:
         spans.append(body[start_offset:])
@@ -4548,6 +5657,10 @@ def parse_note_text(path: Path, text: str) -> NoteRecord:
     body_start = frontmatter_match.end() if frontmatter_match else 0
     body = text[body_start:]
     body_line_offset = text[:body_start].count("\n")
+    # This one Phase 2A migration added a plain Summary above pre-existing
+    # full-width topic headings; those headings remain source body, not four
+    # replacement Summary sections.  Other notes retain the legacy parser.
+    include_fullwidth_legacy = path.stem != "cerebrovascular-malformations"
     definitions = frozenset(match.group("id") for match in FOOTNOTE_DEFINITION_RE.finditer(text))
     references: set[str] = set()
     for line in text.splitlines():
@@ -4566,9 +5679,13 @@ def parse_note_text(path: Path, text: str) -> NoteRecord:
                 start_line=section.start_line + body_line_offset,
                 end_line=section.end_line + body_line_offset,
             )
-            for section in extract_summary_sections(body)
+            for section in extract_summary_sections(
+                body, include_fullwidth_legacy=include_fullwidth_legacy
+            )
         ),
-        original_summary=_extract_original_summary(body),
+        original_summary=_extract_original_summary(
+            body, include_fullwidth_legacy=include_fullwidth_legacy
+        ),
         footnote_refs=frozenset(references),
         footnote_defs=definitions,
         sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
@@ -6650,35 +7767,40 @@ def _trusted_phase2_inventory_hashes(
         return {}
     repo_root = next(iter(absolute_roots))
     trusted_hashes: dict[str, str] = {}
-    for batch_id, trusted_digest in TRUSTED_PHASE2A_BATCH_LOCK_SHA256.items():
-        baseline_path = (
-            repo_root
-            / "docs"
-            / "reports"
-            / "nr-summary-rewrite"
-            / "phase2a"
-            / "baselines"
-            / f"{batch_id}.json"
-        )
-        try:
-            baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
-        except (OSError, UnicodeDecodeError, json.JSONDecodeError):
-            continue
-        if (
-            not isinstance(baseline, dict)
-            or baseline.get("batch") != batch_id
-            or _canonical_sha256(baseline) != trusted_digest
-            or not isinstance(baseline.get("notes"), list)
-        ):
-            continue
-        for entry in baseline["notes"]:
+    trusted_batches = (
+        ("phase2a", TRUSTED_PHASE2A_BATCH_LOCK_SHA256),
+        ("phase2b", TRUSTED_PHASE2B_BATCH_LOCK_SHA256),
+    )
+    for phase_name, registry in trusted_batches:
+        for batch_id, trusted_digest in registry.items():
+            baseline_path = (
+                repo_root
+                / "docs"
+                / "reports"
+                / "nr-summary-rewrite"
+                / phase_name
+                / "baselines"
+                / f"{batch_id}.json"
+            )
+            try:
+                baseline = json.loads(baseline_path.read_text(encoding="utf-8"))
+            except (OSError, UnicodeDecodeError, json.JSONDecodeError):
+                continue
             if (
-                isinstance(entry, dict)
-                and isinstance(entry.get("slug"), str)
-                and isinstance(entry.get("originalSha256"), str)
-                and SHA256_RE.fullmatch(entry["originalSha256"]) is not None
+                not isinstance(baseline, dict)
+                or baseline.get("batch") != batch_id
+                or _canonical_sha256(baseline) != trusted_digest
+                or not isinstance(baseline.get("notes"), list)
             ):
-                trusted_hashes[entry["slug"]] = entry["originalSha256"]
+                continue
+            for entry in baseline["notes"]:
+                if (
+                    isinstance(entry, dict)
+                    and isinstance(entry.get("slug"), str)
+                    and isinstance(entry.get("originalSha256"), str)
+                    and SHA256_RE.fullmatch(entry["originalSha256"]) is not None
+                ):
+                    trusted_hashes[entry["slug"]] = entry["originalSha256"]
     return trusted_hashes
 
 
@@ -6693,7 +7815,13 @@ def _inventory_allows_approved_empty_projection_migration(
         repo_root is None
         or entry.get("slug") != "cerebrovascular-malformations"
         or entry.get("summaryHeadings") != []
-        or [section.heading for section in note.summaries] != ["Summary"]
+        or not note.summaries
+        or note.summaries[0].heading != "Summary"
+        or any(
+            not section.heading.startswith("Summary（")
+            or not section.heading.endswith("）")
+            for section in note.summaries[1:]
+        )
     ):
         return False
     root = repo_root.resolve()
@@ -6730,6 +7858,71 @@ def _inventory_allows_approved_empty_projection_migration(
             note.slug: replace(note, path=Path(entry.get("path", note.path))),
         },
     )
+    evidence_entry = next(
+        (
+            candidate
+            for candidate in (context.evidence or {}).get("notes", [])
+            if isinstance(candidate, dict) and candidate.get("slug") == note.slug
+        ),
+        None,
+    )
+    current_summary = f"## Summary\n{note.summaries[0].content}\n"
+    return (
+        isinstance(evidence_entry, dict)
+        and evidence_entry.get("rewrittenSummary") == current_summary
+    )
+
+
+def _inventory_allows_phase2b_legacy_summary_heading(
+    entry: Mapping[str, object],
+    note: NoteRecord,
+    *,
+    repo_root: Path | None,
+) -> bool:
+    """Authenticate the FMD legacy full-width Summary heading in Phase 2B."""
+    if (
+        repo_root is None
+        or entry.get("slug") not in PHASE2B_LEGACY_SUMMARY_HEADING_SLUGS
+        or entry.get("summaryHeadings") != []
+        or len(note.summaries) != 2
+        or not all(
+            section.heading.startswith("Summary（") and section.heading.endswith("）")
+            for section in note.summaries
+        )
+    ):
+        return False
+    root = repo_root.resolve()
+    try:
+        context = load_phase2b_batch(
+            root,
+            Path("docs/reports/nr-summary-rewrite/phase2-assignment.json"),
+            "scheduled-disease-04",
+        )
+    except Phase2LoadError:
+        return False
+    locked = next(
+        (
+            candidate
+            for candidate in (context.baseline or {}).get("notes", [])
+            if isinstance(candidate, dict) and candidate.get("slug") == note.slug
+        ),
+        None,
+    )
+    if (
+        not isinstance(locked, dict)
+        or _canonical_sha256(context.baseline) != TRUSTED_PHASE2B_BATCH_LOCK_SHA256.get(
+            context.batch["id"]
+        )
+        or entry.get("originalSha256") != locked.get("originalSha256")
+    ):
+        return False
+    checked_context = replace(
+        context,
+        note_records={
+            **context.note_records,
+            note.slug: replace(note, path=Path(entry.get("path", note.path))),
+        },
+    )
     if (
         _phase2_reconstructed_original_sha256(
             checked_context, locked, checked_context.note_records[note.slug]
@@ -6737,13 +7930,11 @@ def _inventory_allows_approved_empty_projection_migration(
         != locked.get("originalSha256")
     ):
         return False
-    findings = validate_phase2_batch(
+    return not validate_phase2b_batch(
         checked_context,
-        check_source_hashes=False,
+        check_source_hashes=True,
         check_generated=False,
-    )
-    return not findings or (
-        len(findings) == 1 and findings[0].code == "phase2-review-sequence"
+        require_approved_review=True,
     )
 
 
@@ -6864,6 +8055,11 @@ def validate_inventory_against_notes(
                 note,
                 repo_root=repo_root,
             )
+            and not _inventory_allows_phase2b_legacy_summary_heading(
+                entry,
+                note,
+                repo_root=repo_root,
+            )
         ):
             findings.append(
                 _inventory_finding(
@@ -6931,9 +8127,13 @@ def _apply_trusted_phase2_inventory_hashes(
             entry["originalSha256"] = trusted[entry["slug"]]
             note = notes.get(entry["slug"])
             locked_projection = {**entry, "summaryHeadings": []}
-            if (
-                note is not None
-                and _inventory_allows_approved_empty_projection_migration(
+            if note is not None and (
+                _inventory_allows_approved_empty_projection_migration(
+                    locked_projection,
+                    note,
+                    repo_root=repo_root,
+                )
+                or _inventory_allows_phase2b_legacy_summary_heading(
                     locked_projection,
                     note,
                     repo_root=repo_root,
@@ -7422,7 +8622,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     validate_tranche = commands.add_parser(
         "validate-tranche",
-        help="Validate or deterministically write the final Phase 2A tranche report.",
+        help="Validate or deterministically write the final Phase 2A or Phase 2B tranche report.",
     )
     validate_tranche.add_argument("--repo-root", type=Path, required=True)
     validate_tranche.add_argument("--assignment", required=True)
@@ -7593,14 +8793,22 @@ def main(argv: Sequence[str] | None = None) -> int:
                         "phase2-assignment.json",
                         "--assignment must be a repo-relative POSIX path.",
                     )
-                context = load_phase2_batch(
+                context = _load_phase2_context_for_batch(
                     args.repo_root, Path(args.assignment), args.batch
                 )
-                findings = validate_phase2_batch(
-                    context,
-                    check_source_hashes=args.check_source_hashes,
-                    check_generated=args.check_generated,
-                )
+                if args.batch in PHASE2B_DISEASE_BATCH_IDS:
+                    findings = validate_phase2b_batch(
+                        context,
+                        check_source_hashes=args.check_source_hashes,
+                        check_generated=args.check_generated,
+                        require_approved_review=True,
+                    )
+                else:
+                    findings = validate_phase2_batch(
+                        context,
+                        check_source_hashes=args.check_source_hashes,
+                        check_generated=args.check_generated,
+                    )
             except Phase2LoadError as error:
                 findings = [error.finding()]
             _print_findings(findings)
@@ -7658,16 +8866,20 @@ def main(argv: Sequence[str] | None = None) -> int:
         try:
             assignment_value = Path(args.assignment)
             report_value = str(args.report)
-            if (
-                args.write
-                and report_value != PHASE2A_VERIFICATION_REPORT_PATH
-            ):
+            is_phase2b = report_value == PHASE2B_VERIFICATION_REPORT_PATH
+            canonical_report = (
+                PHASE2B_VERIFICATION_REPORT_PATH
+                if is_phase2b
+                else PHASE2A_VERIFICATION_REPORT_PATH
+            )
+            if args.write and report_value != canonical_report:
                 raise Phase2LoadError(
                     "phase2-path-invalid",
                     report_value,
                     (
-                        "--write requires the canonical Phase 2A report path: "
-                        f"{PHASE2A_VERIFICATION_REPORT_PATH}."
+                        "--write requires a canonical tranche report path: "
+                        f"{PHASE2A_VERIFICATION_REPORT_PATH} or "
+                        f"{PHASE2B_VERIFICATION_REPORT_PATH}."
                     ),
                 )
             report_file = _resolve_phase2_path(
@@ -7675,7 +8887,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 report_value,
                 display_path=report_value,
             )
-            if args.write:
+            if args.write and not is_phase2b:
                 _phase2a_validate_report_write_target(
                     report_file,
                     missing_ok=True,
@@ -7683,13 +8895,22 @@ def main(argv: Sequence[str] | None = None) -> int:
             lint_output, lint_exit_code = _run_phase2a_lint(
                 args.repo_root.resolve()
             )
-            expected = build_phase2a_tranche_verification(
-                args.repo_root,
-                assignment_value,
-                lint_output,
-                lint_exit_code,
-                allow_missing_verification=args.write,
-            )
+            if is_phase2b:
+                expected = build_phase2b_tranche_verification(
+                    args.repo_root,
+                    assignment_value,
+                    lint_output,
+                    lint_exit_code,
+                    allow_missing_verification=args.write,
+                )
+            else:
+                expected = build_phase2a_tranche_verification(
+                    args.repo_root,
+                    assignment_value,
+                    lint_output,
+                    lint_exit_code,
+                    allow_missing_verification=args.write,
+                )
             candidate: object
             if args.write:
                 candidate = expected
@@ -7698,23 +8919,36 @@ def main(argv: Sequence[str] | None = None) -> int:
                     report_file,
                     Path(report_value),
                 )
-            findings = validate_phase2a_tranche(
-                args.repo_root,
-                assignment_value,
-                candidate,
-                lint_output,
-                lint_exit_code,
-                allow_missing_verification=args.write,
-            )
+            if is_phase2b:
+                findings = validate_phase2b_tranche(
+                    args.repo_root,
+                    assignment_value,
+                    candidate,
+                    lint_output,
+                    lint_exit_code,
+                    allow_missing_verification=args.write,
+                )
+            else:
+                findings = validate_phase2a_tranche(
+                    args.repo_root,
+                    assignment_value,
+                    candidate,
+                    lint_output,
+                    lint_exit_code,
+                    allow_missing_verification=args.write,
+                )
             if args.write and not _findings_have_errors(findings):
                 payload = (
                     json.dumps(expected, ensure_ascii=False, indent=2) + "\n"
                 ).encode("utf-8")
-                _phase2a_atomic_write_report(
-                    args.repo_root.resolve(),
-                    report_file,
-                    payload,
-                )
+                if is_phase2b:
+                    _phase2b_atomic_write_report(
+                        args.repo_root.resolve(), report_file, payload
+                    )
+                else:
+                    _phase2a_atomic_write_report(
+                        args.repo_root.resolve(), report_file, payload
+                    )
         except Phase2LoadError as error:
             findings = [error.finding()]
         _print_findings(findings)

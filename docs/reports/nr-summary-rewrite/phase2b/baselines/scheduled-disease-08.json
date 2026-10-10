@@ -1,0 +1,1082 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "scheduled-disease-08",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "odontoid-fracture",
+      "path": "vault/concepts/odontoid-fracture.md",
+      "type": "disease",
+      "originalSha256": "5bfdcd5ca788792714ce9e69ae77bc4fb9c62e90b218568d73f799fabae4eb47",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n\n### 定義與流行病學\n- 齒突（dens / odontoid process）骨折是 **C2（axis）最常見的骨折**，也是 **>65 歲族群最常見的頸椎骨折**；佔成人頸椎骨折約 1/5。[^2][^3]\n- 年齡呈雙峰分布：年輕族群多為高能量創傷（車禍、墜落），年長族群常因低能量跌倒（osteoporosis 背景）。[^1][^3]\n- 機轉為過屈/過伸暴力作用於頭頸交界（craniocervical junction）。[^1]\n\n### Anderson-D'Alonzo 分型（依骨折線高度，由上往下）\n- **Type I**：齒突『尖端』斜行/撕脫骨折，為 alar ligament 附著處撕脫；**少見、多屬穩定**；但若合併寰枕分離（atlanto-occipital dissociation）則屬不穩定，須警覺。[^1][^4]\n- **Type II**：骨折線橫過齒突『**基部（waist）**』、位於 C2 椎體上方；**最常見、不穩定**。基部為相對乏血管的分水嶺區（watershed），加上骨折面積小，**癒合差、nonunion 風險最高**（2016-149 正解 D）。[^1][^2][^4]\n- **Type III**：骨折線向下延伸進入 **C2 椎體（含側塊/上關節面）**；骨折面為鬆質骨、血供佳，**較易癒合**。[^1][^4]\n- 補充：Type II 可再用 **Grauer 亞型**（依骨折線方向：橫向 IIA、前上斜→後下 IIB、前下斜→後上 IIC）細分，影響前路 vs 後路螺釘固定的選擇。[^5]\n\n### X 光徵象（open-mouth odontoid view + lateral）\n- **Open-mouth（張口齒突位 / peg view）**：正面評估齒突輪廓、皮質中斷與寰齒間隙（ADI）、C1 側塊與 C2 對位是否對稱。[^6]\n- **Lateral**：看齒突後緣連續性、ADI、椎前軟組織腫脹（C2 前緣 prevertebral soft tissue 增厚為間接徵象）。[^6]\n- X 光敏感度有限：齒突可被牙齒、枕骨或 Mach 效應重疊遮蔽；**移位不明顯或無移位的骨折在平片上可能看不到，需靠 CT 確診**。[^6]\n\n### CT（首選 / 確診工具）\n- 多排 CT 加薄層多平面重組（MPR，含矢狀面/冠狀面）是頸椎創傷骨性評估的**首選與確診工具**；高能量創傷、明顯神經學缺損、多處骨折者有絕對 CT 指徵。[^1][^7]\n- CT 用於：精確定位骨折線高度以分型（決定 Anderson-D'Alonzo type I/II/III）、評估移位/成角/粉碎程度、判讀骨折面方向（Grauer 亞型）。這些都是手術 vs 保守決策依據。[^1][^5]\n- **年長/骨質疏鬆病人即使 MRI STIR 陰性，仍須以 CT 形態與臨床病史判定急性骨折**（見下方 MRI 陷阱）。[^7]\n\n### MRI（韌帶與脊髓）\n- MRI 用於評估**橫韌帶（transverse ligament）/翼狀韌帶（alar）等韌帶完整性、椎前/硬膜外血腫、脊髓挫傷或受壓**，補 CT 不足；疑似 SCIWORA、中央索症候群、血管損傷時有指徵。[^1]\n- **STIR 急性判讀陷阱**：STIR 高訊號（骨髓水腫）常用來判定骨折急性度，但在 **≥57 歲、特別是骨質疏鬆病人，STIR 偵測 type II 骨折的敏感度顯著下降（57 歲以上 54% vs 57 歲以下 82%）**；觀察者間一致性也隨年齡下降。故年長者 **STIR 陰性不能排除急性骨折**，須回頭對照 CT 形態與臨床史。[^7]\n\n### 鑑別診斷與判讀陷阱\n- **Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。[^8][^1]\n- **Mach 效應（假骨折）**：張口位上枕骨後緣、後弓或牙齒與齒突重疊，因視覺邊緣增強形成貫穿齒突基部的透亮線、模擬 type II 骨折；其特徵是延伸超出骨緣、無皮質中斷對應，必要時以 CT 釐清。[^6]\n- 兒童 **subdental synchondrosis**（軟骨結合，約 5–7 歲前可見）位於齒突基部，邊緣規則、有硬化緣，勿誤判為骨折。[^6]\n\n### 臨床重要性（為何要正確分型）\n- Type II nonunion 風險高：移位、成角、粉碎、年齡大、診治延遲皆為不癒合危險因子，是手術考量的關鍵。[^4][^2]\n- 統合分析顯示 >65 歲 type II 病人手術組癒合率（74%）高於保守組（40%），但保守組「穩定纖維性不癒合（stable fibrous nonunion）」常為可接受的治療目標，<5% 保守者最終需翻修手術。[^3]\n\n> [!note] 考點：最常見的齒突骨折型?\n> **Type II（齒突基部橫向骨折）**——最常見、不穩定、易 nonunion。[^1][^4]\n\n",
+      "factUnits": [
+        {
+          "id": "odontoid-fracture-f01",
+          "text": "齒突（dens / odontoid process）骨折是 C2（axis）最常見的骨折，也是 >65 歲族群最常見的頸椎骨折；",
+          "sourceStatement": "- 齒突（dens / odontoid process）骨折是 **C2（axis）最常見的骨折**，也是 **>65 歲族群最常見的頸椎骨折**；佔成人頸椎骨折約 1/5。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f02",
+          "text": "佔成人頸椎骨折約 1/5。",
+          "sourceStatement": "- 齒突（dens / odontoid process）骨折是 **C2（axis）最常見的骨折**，也是 **>65 歲族群最常見的頸椎骨折**；佔成人頸椎骨折約 1/5。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f03",
+          "text": "年齡呈雙峰分布：年輕族群多為高能量創傷（車禍、墜落），年長族群常因低能量跌倒（osteoporosis 背景）。",
+          "sourceStatement": "- 年齡呈雙峰分布：年輕族群多為高能量創傷（車禍、墜落），年長族群常因低能量跌倒（osteoporosis 背景）。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f04",
+          "text": "機轉為過屈/過伸暴力作用於頭頸交界（craniocervical junction）。",
+          "sourceStatement": "- 機轉為過屈/過伸暴力作用於頭頸交界（craniocervical junction）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f05",
+          "text": "Type I：齒突『尖端』斜行/撕脫骨折，為 alar ligament 附著處撕脫；",
+          "sourceStatement": "- **Type I**：齒突『尖端』斜行/撕脫骨折，為 alar ligament 附著處撕脫；**少見、多屬穩定**；但若合併寰枕分離（atlanto-occipital dissociation）則屬不穩定，須警覺。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f06",
+          "text": "少見、多屬穩定；",
+          "sourceStatement": "- **Type I**：齒突『尖端』斜行/撕脫骨折，為 alar ligament 附著處撕脫；**少見、多屬穩定**；但若合併寰枕分離（atlanto-occipital dissociation）則屬不穩定，須警覺。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f07",
+          "text": "但若合併寰枕分離（atlanto-occipital dissociation）則屬不穩定，須警覺。",
+          "sourceStatement": "- **Type I**：齒突『尖端』斜行/撕脫骨折，為 alar ligament 附著處撕脫；**少見、多屬穩定**；但若合併寰枕分離（atlanto-occipital dissociation）則屬不穩定，須警覺。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f08",
+          "text": "Type II：骨折線橫過齒突『基部（waist）』、位於 C2 椎體上方；",
+          "sourceStatement": "- **Type II**：骨折線橫過齒突『**基部（waist）**』、位於 C2 椎體上方；**最常見、不穩定**。基部為相對乏血管的分水嶺區（watershed），加上骨折面積小，**癒合差、nonunion 風險最高**（2016-149 正解 D）。[^1][^2][^4]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f09",
+          "text": "最常見、不穩定。",
+          "sourceStatement": "- **Type II**：骨折線橫過齒突『**基部（waist）**』、位於 C2 椎體上方；**最常見、不穩定**。基部為相對乏血管的分水嶺區（watershed），加上骨折面積小，**癒合差、nonunion 風險最高**（2016-149 正解 D）。[^1][^2][^4]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f10",
+          "text": "基部為相對乏血管的分水嶺區（watershed），加上骨折面積小，癒合差、nonunion 風險最高（2016-149 正解 D）。",
+          "sourceStatement": "- **Type II**：骨折線橫過齒突『**基部（waist）**』、位於 C2 椎體上方；**最常見、不穩定**。基部為相對乏血管的分水嶺區（watershed），加上骨折面積小，**癒合差、nonunion 風險最高**（2016-149 正解 D）。[^1][^2][^4]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f11",
+          "text": "Type III：骨折線向下延伸進入 C2 椎體（含側塊/上關節面）；",
+          "sourceStatement": "- **Type III**：骨折線向下延伸進入 **C2 椎體（含側塊/上關節面）**；骨折面為鬆質骨、血供佳，**較易癒合**。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f12",
+          "text": "骨折面為鬆質骨、血供佳，較易癒合。",
+          "sourceStatement": "- **Type III**：骨折線向下延伸進入 **C2 椎體（含側塊/上關節面）**；骨折面為鬆質骨、血供佳，**較易癒合**。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f13",
+          "text": "補充：Type II 可再用 Grauer 亞型（依骨折線方向：橫向 IIA、前上斜→後下 IIB、前下斜→後上 IIC）細分，影響前路 vs 後路螺釘固定的選擇。",
+          "sourceStatement": "- 補充：Type II 可再用 **Grauer 亞型**（依骨折線方向：橫向 IIA、前上斜→後下 IIB、前下斜→後上 IIC）細分，影響前路 vs 後路螺釘固定的選擇。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f14",
+          "text": "Open-mouth（張口齒突位 / peg view）：正面評估齒突輪廓、皮質中斷與寰齒間隙（ADI）、C1 側塊與 C2 對位是否對稱。",
+          "sourceStatement": "- **Open-mouth（張口齒突位 / peg view）**：正面評估齒突輪廓、皮質中斷與寰齒間隙（ADI）、C1 側塊與 C2 對位是否對稱。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f15",
+          "text": "Lateral：看齒突後緣連續性、ADI、椎前軟組織腫脹（C2 前緣 prevertebral soft tissue 增厚為間接徵象）。",
+          "sourceStatement": "- **Lateral**：看齒突後緣連續性、ADI、椎前軟組織腫脹（C2 前緣 prevertebral soft tissue 增厚為間接徵象）。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f16",
+          "text": "X 光敏感度有限：齒突可被牙齒、枕骨或 Mach 效應重疊遮蔽；",
+          "sourceStatement": "- X 光敏感度有限：齒突可被牙齒、枕骨或 Mach 效應重疊遮蔽；**移位不明顯或無移位的骨折在平片上可能看不到，需靠 CT 確診**。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f17",
+          "text": "移位不明顯或無移位的骨折在平片上可能看不到，需靠 CT 確診。",
+          "sourceStatement": "- X 光敏感度有限：齒突可被牙齒、枕骨或 Mach 效應重疊遮蔽；**移位不明顯或無移位的骨折在平片上可能看不到，需靠 CT 確診**。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f18",
+          "text": "多排 CT 加薄層多平面重組（MPR，含矢狀面/冠狀面）是頸椎創傷骨性評估的首選與確診工具；",
+          "sourceStatement": "- 多排 CT 加薄層多平面重組（MPR，含矢狀面/冠狀面）是頸椎創傷骨性評估的**首選與確診工具**；高能量創傷、明顯神經學缺損、多處骨折者有絕對 CT 指徵。[^1][^7]",
+          "sourceRefs": [
+            "1",
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f19",
+          "text": "高能量創傷、明顯神經學缺損、多處骨折者有絕對 CT 指徵。",
+          "sourceStatement": "- 多排 CT 加薄層多平面重組（MPR，含矢狀面/冠狀面）是頸椎創傷骨性評估的**首選與確診工具**；高能量創傷、明顯神經學缺損、多處骨折者有絕對 CT 指徵。[^1][^7]",
+          "sourceRefs": [
+            "1",
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f20",
+          "text": "CT 用於：精確定位骨折線高度以分型（決定 Anderson-D'Alonzo type I/II/III）、評估移位/成角/粉碎程度、判讀骨折面方向（Grauer 亞型）。",
+          "sourceStatement": "- CT 用於：精確定位骨折線高度以分型（決定 Anderson-D'Alonzo type I/II/III）、評估移位/成角/粉碎程度、判讀骨折面方向（Grauer 亞型）。這些都是手術 vs 保守決策依據。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f21",
+          "text": "這些都是手術 vs 保守決策依據。",
+          "sourceStatement": "- CT 用於：精確定位骨折線高度以分型（決定 Anderson-D'Alonzo type I/II/III）、評估移位/成角/粉碎程度、判讀骨折面方向（Grauer 亞型）。這些都是手術 vs 保守決策依據。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f22",
+          "text": "年長/骨質疏鬆病人即使 MRI STIR 陰性，仍須以 CT 形態與臨床病史判定急性骨折（見下方 MRI 陷阱）。",
+          "sourceStatement": "- **年長/骨質疏鬆病人即使 MRI STIR 陰性，仍須以 CT 形態與臨床病史判定急性骨折**（見下方 MRI 陷阱）。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f23",
+          "text": "MRI 用於評估橫韌帶（transverse ligament）/翼狀韌帶（alar）等韌帶完整性、椎前/硬膜外血腫、脊髓挫傷或受壓，補 CT 不足；",
+          "sourceStatement": "- MRI 用於評估**橫韌帶（transverse ligament）/翼狀韌帶（alar）等韌帶完整性、椎前/硬膜外血腫、脊髓挫傷或受壓**，補 CT 不足；疑似 SCIWORA、中央索症候群、血管損傷時有指徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f24",
+          "text": "疑似 SCIWORA、中央索症候群、血管損傷時有指徵。",
+          "sourceStatement": "- MRI 用於評估**橫韌帶（transverse ligament）/翼狀韌帶（alar）等韌帶完整性、椎前/硬膜外血腫、脊髓挫傷或受壓**，補 CT 不足；疑似 SCIWORA、中央索症候群、血管損傷時有指徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f25",
+          "text": "STIR 急性判讀陷阱：STIR 高訊號（骨髓水腫）常用來判定骨折急性度，但在 ≥57 歲、特別是骨質疏鬆病人，STIR 偵測 type II 骨折的敏感度顯著下降（57 歲以上 54% vs 57 歲以下 82%）；",
+          "sourceStatement": "- **STIR 急性判讀陷阱**：STIR 高訊號（骨髓水腫）常用來判定骨折急性度，但在 **≥57 歲、特別是骨質疏鬆病人，STIR 偵測 type II 骨折的敏感度顯著下降（57 歲以上 54% vs 57 歲以下 82%）**；觀察者間一致性也隨年齡下降。故年長者 **STIR 陰性不能排除急性骨折**，須回頭對照 CT 形態與臨床史。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f26",
+          "text": "觀察者間一致性也隨年齡下降。",
+          "sourceStatement": "- **STIR 急性判讀陷阱**：STIR 高訊號（骨髓水腫）常用來判定骨折急性度，但在 **≥57 歲、特別是骨質疏鬆病人，STIR 偵測 type II 骨折的敏感度顯著下降（57 歲以上 54% vs 57 歲以下 82%）**；觀察者間一致性也隨年齡下降。故年長者 **STIR 陰性不能排除急性骨折**，須回頭對照 CT 形態與臨床史。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f27",
+          "text": "故年長者 STIR 陰性不能排除急性骨折，須回頭對照 CT 形態與臨床史。",
+          "sourceStatement": "- **STIR 急性判讀陷阱**：STIR 高訊號（骨髓水腫）常用來判定骨折急性度，但在 **≥57 歲、特別是骨質疏鬆病人，STIR 偵測 type II 骨折的敏感度顯著下降（57 歲以上 54% vs 57 歲以下 82%）**；觀察者間一致性也隨年齡下降。故年長者 **STIR 陰性不能排除急性骨折**，須回頭對照 CT 形態與臨床史。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f28",
+          "text": "Os odontoideum（游離齒突小骨）：與 type II 骨折的關鍵鑑別。",
+          "sourceStatement": "- **Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。[^8][^1]",
+          "sourceRefs": [
+            "8",
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f29",
+          "text": "os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），邊緣有皮質、間隙平滑；",
+          "sourceStatement": "- **Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。[^8][^1]",
+          "sourceRefs": [
+            "8",
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f30",
+          "text": "急性骨折則為邊緣銳利、無皮質的鋸齒狀骨折線。",
+          "sourceStatement": "- **Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。[^8][^1]",
+          "sourceRefs": [
+            "8",
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f31",
+          "text": "鑑別困難時用動態屈伸 X 光（flexion-extension）在透視下評估不穩定。",
+          "sourceStatement": "- **Os odontoideum（游離齒突小骨）**：與 type II 骨折的關鍵鑑別。os odontoideum 為與 C2 體分離的圓滑、皮質完整骨片（多被視為兒童 subdental synchondrosis 損傷後的舊 pseudarthrosis），**邊緣有皮質、間隙平滑**；急性骨折則為**邊緣銳利、無皮質的鋸齒狀骨折線**。鑑別困難時用**動態屈伸 X 光（flexion-extension）在透視下評估不穩定**。[^8][^1]",
+          "sourceRefs": [
+            "8",
+            "1"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f32",
+          "text": "Mach 效應（假骨折）：張口位上枕骨後緣、後弓或牙齒與齒突重疊，因視覺邊緣增強形成貫穿齒突基部的透亮線、模擬 type II 骨折；",
+          "sourceStatement": "- **Mach 效應（假骨折）**：張口位上枕骨後緣、後弓或牙齒與齒突重疊，因視覺邊緣增強形成貫穿齒突基部的透亮線、模擬 type II 骨折；其特徵是延伸超出骨緣、無皮質中斷對應，必要時以 CT 釐清。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f33",
+          "text": "其特徵是延伸超出骨緣、無皮質中斷對應，必要時以 CT 釐清。",
+          "sourceStatement": "- **Mach 效應（假骨折）**：張口位上枕骨後緣、後弓或牙齒與齒突重疊，因視覺邊緣增強形成貫穿齒突基部的透亮線、模擬 type II 骨折；其特徵是延伸超出骨緣、無皮質中斷對應，必要時以 CT 釐清。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f34",
+          "text": "兒童 subdental synchondrosis（軟骨結合，約 5–7 歲前可見）位於齒突基部，邊緣規則、有硬化緣，勿誤判為骨折。",
+          "sourceStatement": "- 兒童 **subdental synchondrosis**（軟骨結合，約 5–7 歲前可見）位於齒突基部，邊緣規則、有硬化緣，勿誤判為骨折。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f35",
+          "text": "Type II nonunion 風險高：移位、成角、粉碎、年齡大、診治延遲皆為不癒合危險因子，是手術考量的關鍵。",
+          "sourceStatement": "- Type II nonunion 風險高：移位、成角、粉碎、年齡大、診治延遲皆為不癒合危險因子，是手術考量的關鍵。[^4][^2]",
+          "sourceRefs": [
+            "4",
+            "2"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f36",
+          "text": "統合分析顯示 >65 歲 type II 病人手術組癒合率（74%）高於保守組（40%），但保守組「穩定纖維性不癒合（stable fibrous nonunion）」常為可接受的治療目標，<5% 保守者最終需翻修手術。",
+          "sourceStatement": "- 統合分析顯示 >65 歲 type II 病人手術組癒合率（74%）高於保守組（40%），但保守組「穩定纖維性不癒合（stable fibrous nonunion）」常為可接受的治療目標，<5% 保守者最終需翻修手術。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "odontoid-fracture-f37",
+          "text": "Type II（齒突基部橫向骨折）——最常見、不穩定、易 nonunion。",
+          "sourceStatement": "> **Type II（齒突基部橫向骨折）**——最常見、不穩定、易 nonunion。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "opscc-hpv",
+      "path": "vault/concepts/opscc-hpv.md",
+      "type": "disease",
+      "originalSha256": "622c813d3ffb04eb386b1ffd1145bc53ace74616875875e020cabb27474b802a",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **年齡/族群分布**：**HPV相關（p16陽性）OPSCC好發於較年輕病人**（中年 31–78 歲、>90% 白人、85% 男性、多為**不吸菸者**）；**抽菸相關（HPV陰性）OPSCC好發於較年長病人**——與直覺相反的常考陷阱。[^1][^2]\n- **預後最佳族群**：**不吸菸之HPV陽性OPSCC病人預後最佳**（題引三年整體存活率 **93%**；STATdx：無吸菸史 **5 年存活率約 90%**，>10 包-年者降至約 50%）。[^1][^2]\n- **多發轉移淋巴結≠預後差**：**extranodal extension(ENE) 為所有頭頸癌之高風險不良預後因子，惟「病毒相關癌」與黏膜黑色素瘤除外**；故 p16 陽性腫瘤即使多發轉移/ENE 預後仍不差，促使 **N 分期重新評估**（AJCC 8th 為 HPV(+) 另訂獨立分期、9th 2025 秋再修訂 N）。[^1][^2]\n- **level II 淋巴結最常見原發部位**：**level II 頸部轉移淋巴結最常見來源**為 **p16 陽性 OPSCC**，原發自**顎扁桃體與舌扁桃體(palatine/lingual tonsils)之扁桃體隱窩(tonsillar crypts)**。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "opscc-hpv-f01",
+          "text": "年齡/族群分布：HPV相關（p16陽性）OPSCC好發於較年輕病人（中年 31–78 歲、>90% 白人、85% 男性、多為不吸菸者）；",
+          "sourceStatement": "- **年齡/族群分布**：**HPV相關（p16陽性）OPSCC好發於較年輕病人**（中年 31–78 歲、>90% 白人、85% 男性、多為**不吸菸者**）；**抽菸相關（HPV陰性）OPSCC好發於較年長病人**——與直覺相反的常考陷阱。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "opscc-hpv-f02",
+          "text": "抽菸相關（HPV陰性）OPSCC好發於較年長病人——與直覺相反的常考陷阱。",
+          "sourceStatement": "- **年齡/族群分布**：**HPV相關（p16陽性）OPSCC好發於較年輕病人**（中年 31–78 歲、>90% 白人、85% 男性、多為**不吸菸者**）；**抽菸相關（HPV陰性）OPSCC好發於較年長病人**——與直覺相反的常考陷阱。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "opscc-hpv-f03",
+          "text": "預後最佳族群：不吸菸之HPV陽性OPSCC病人預後最佳（題引三年整體存活率 93%；STATdx：無吸菸史 5 年存活率約 90%，>10 包-年者降至約 50%）。",
+          "sourceStatement": "- **預後最佳族群**：**不吸菸之HPV陽性OPSCC病人預後最佳**（題引三年整體存活率 **93%**；STATdx：無吸菸史 **5 年存活率約 90%**，>10 包-年者降至約 50%）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "opscc-hpv-f04",
+          "text": "多發轉移淋巴結≠預後差：extranodal extension(ENE) 為所有頭頸癌之高風險不良預後因子，惟「病毒相關癌」與黏膜黑色素瘤除外；",
+          "sourceStatement": "- **多發轉移淋巴結≠預後差**：**extranodal extension(ENE) 為所有頭頸癌之高風險不良預後因子，惟「病毒相關癌」與黏膜黑色素瘤除外**；故 p16 陽性腫瘤即使多發轉移/ENE 預後仍不差，促使 **N 分期重新評估**（AJCC 8th 為 HPV(+) 另訂獨立分期、9th 2025 秋再修訂 N）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "opscc-hpv-f05",
+          "text": "故 p16 陽性腫瘤即使多發轉移/ENE 預後仍不差，促使 N 分期重新評估（AJCC 8th 為 HPV(+) 另訂獨立分期、9th 2025 秋再修訂 N）。",
+          "sourceStatement": "- **多發轉移淋巴結≠預後差**：**extranodal extension(ENE) 為所有頭頸癌之高風險不良預後因子，惟「病毒相關癌」與黏膜黑色素瘤除外**；故 p16 陽性腫瘤即使多發轉移/ENE 預後仍不差，促使 **N 分期重新評估**（AJCC 8th 為 HPV(+) 另訂獨立分期、9th 2025 秋再修訂 N）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "opscc-hpv-f06",
+          "text": "level II 淋巴結最常見原發部位：level II 頸部轉移淋巴結最常見來源為 p16 陽性 OPSCC，原發自顎扁桃體與舌扁桃體(palatine/lingual tonsils)之扁桃體隱窩(tonsillar crypts)。",
+          "sourceStatement": "- **level II 淋巴結最常見原發部位**：**level II 頸部轉移淋巴結最常見來源**為 **p16 陽性 OPSCC**，原發自**顎扁桃體與舌扁桃體(palatine/lingual tonsils)之扁桃體隱窩(tonsillar crypts)**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "optic-nerve-meningioma",
+      "path": "vault/concepts/optic-nerve-meningioma.md",
+      "type": "disease",
+      "originalSha256": "37ed454ee8e1b58be4da9534f1922d585cd0d66dbd2cb72c719b7a0435ded7b6",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **好發族群**：中年女性，漸進性單側視力喪失，可合併眼球突出(proptosis)。[^1]\n- **起源與生長型態**：起源於**視神經鞘（optic nerve sheath）**，沿神經**包繞（surrounding）**生長，非取代神經本身。[^1]\n- **影像特徵（tram-track sign）**：軸位增強CT/MRI上，強化之腫瘤組織包繞中央不強化（或較不強化）之視神經，形成兩條平行高密度/高訊號軌道狀外觀，稱為「軌道徵(tram-track sign)」。[^1]\n- **鑑別診斷**：\n  - **Optic nerve glioma**：視神經本身**增粗且強化**（非周邊包繞型態），好發兒童（可合併第一型神經纖維瘤NF1）。\n  - **Orbital lymphoma／metastasis**：影像型態不呈典型tram-track sign，通常為眼眶內軟組織腫塊，需依臨床病史（如已知原發惡性腫瘤病史）輔助鑑別。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "optic-nerve-meningioma-f01",
+          "text": "好發族群：中年女性，漸進性單側視力喪失，可合併眼球突出(proptosis)。",
+          "sourceStatement": "- **好發族群**：中年女性，漸進性單側視力喪失，可合併眼球突出(proptosis)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-meningioma-f02",
+          "text": "起源與生長型態：起源於視神經鞘（optic nerve sheath），沿神經包繞（surrounding）生長，非取代神經本身。",
+          "sourceStatement": "- **起源與生長型態**：起源於**視神經鞘（optic nerve sheath）**，沿神經**包繞（surrounding）**生長，非取代神經本身。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-meningioma-f03",
+          "text": "影像特徵（tram-track sign）：軸位增強CT/MRI上，強化之腫瘤組織包繞中央不強化（或較不強化）之視神經，形成兩條平行高密度/高訊號軌道狀外觀，稱為「軌道徵(tram-track sign)」。",
+          "sourceStatement": "- **影像特徵（tram-track sign）**：軸位增強CT/MRI上，強化之腫瘤組織包繞中央不強化（或較不強化）之視神經，形成兩條平行高密度/高訊號軌道狀外觀，稱為「軌道徵(tram-track sign)」。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-meningioma-f04",
+          "text": "鑑別診斷：",
+          "sourceStatement": "- **鑑別診斷**：",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-meningioma-f05",
+          "text": "Optic nerve glioma：視神經本身增粗且強化（非周邊包繞型態），好發兒童（可合併第一型神經纖維瘤NF1）。",
+          "sourceStatement": "  - **Optic nerve glioma**：視神經本身**增粗且強化**（非周邊包繞型態），好發兒童（可合併第一型神經纖維瘤NF1）。",
+          "sourceRefs": []
+        },
+        {
+          "id": "optic-nerve-meningioma-f06",
+          "text": "Orbital lymphoma／metastasis：影像型態不呈典型tram-track sign，通常為眼眶內軟組織腫塊，需依臨床病史（如已知原發惡性腫瘤病史）輔助鑑別。",
+          "sourceStatement": "  - **Orbital lymphoma／metastasis**：影像型態不呈典型tram-track sign，通常為眼眶內軟組織腫塊，需依臨床病史（如已知原發惡性腫瘤病史）輔助鑑別。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "optic-nerve-sheath-meningioma",
+      "path": "vault/concepts/optic-nerve-sheath-meningioma.md",
+      "type": "disease",
+      "originalSha256": "e791f1b0ce42e4f41c5f3036dd614fd4af8fcb7d4472bc90f2910bc7de536edd",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **Tram-tracking sign**：contrast-enhanced MRI 上沿視神經鞘的雙軌強化，為 ONSM 最典型表現 [^1]\n- **Intratumor calcification**：CT 可見腫瘤內鈣化 [^1]\n- **Perioptic cyst**：視神經周圍囊性變化 [^1]\n- Hypointense pseudocapsule **不是** ONSM 的特徵 [^1]\n- 好發於中年女性，通常為單側，緩慢進行性視力喪失 [^1]\n\n",
+      "factUnits": [
+        {
+          "id": "optic-nerve-sheath-meningioma-f01",
+          "text": "Tram-tracking sign：contrast-enhanced MRI 上沿視神經鞘的雙軌強化，為 ONSM 最典型表現",
+          "sourceStatement": "- **Tram-tracking sign**：contrast-enhanced MRI 上沿視神經鞘的雙軌強化，為 ONSM 最典型表現 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-sheath-meningioma-f02",
+          "text": "Intratumor calcification：CT 可見腫瘤內鈣化",
+          "sourceStatement": "- **Intratumor calcification**：CT 可見腫瘤內鈣化 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-sheath-meningioma-f03",
+          "text": "Perioptic cyst：視神經周圍囊性變化",
+          "sourceStatement": "- **Perioptic cyst**：視神經周圍囊性變化 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-sheath-meningioma-f04",
+          "text": "Hypointense pseudocapsule 不是 ONSM 的特徵",
+          "sourceStatement": "- Hypointense pseudocapsule **不是** ONSM 的特徵 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "optic-nerve-sheath-meningioma-f05",
+          "text": "好發於中年女性，通常為單側，緩慢進行性視力喪失",
+          "sourceStatement": "- 好發於中年女性，通常為單側，緩慢進行性視力喪失 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "otosclerosis",
+      "path": "vault/concepts/otosclerosis.md",
+      "type": "disease",
+      "originalSha256": "9ccfbb6e71d7b7f9b9b940aff9de7ea87832bf06ee867688d22ead390228a239",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **Fenestral type**：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 **oval window 周圍 \"halo\"**。[^1]\n- **Retrofenestral type**：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但**幾乎不單獨出現（rarely in isolation）**，通常伴隨 fenestral 病變。[^1]\n- 好發 4-5 十歲，懷孕可加重聽力損失。[^1]\n- CT 上 bony modiolus 多數不可見（up to 90%）。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "otosclerosis-f01",
+          "text": "Fenestral type：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 oval window 周圍 \"halo\"。",
+          "sourceStatement": "- **Fenestral type**：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 **oval window 周圍 \"halo\"**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "otosclerosis-f02",
+          "text": "Retrofenestral type：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但幾乎不單獨出現（rarely in isolation），通常伴隨 fenestral 病變。",
+          "sourceStatement": "- **Retrofenestral type**：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但**幾乎不單獨出現（rarely in isolation）**，通常伴隨 fenestral 病變。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "otosclerosis-f03",
+          "text": "好發 4-5 十歲，懷孕可加重聽力損失。",
+          "sourceStatement": "- 好發 4-5 十歲，懷孕可加重聽力損失。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "otosclerosis-f04",
+          "text": "CT 上 bony modiolus 多數不可見（up to 90%）。",
+          "sourceStatement": "- CT 上 bony modiolus 多數不可見（up to 90%）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "parathyroid-adenoma",
+      "path": "vault/concepts/parathyroid-adenoma.md",
+      "type": "disease",
+      "originalSha256": "b7d20747ad9e36e1592a106b7ad1367f68a694655b2b57b3962244ed17a0c582",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **最佳描述**：副甲狀腺腺瘤在超音波上典型為**均質低回音**橢圓形腫塊，Doppler 可見**極性供血血管**（多來自 inferior thyroid artery）與**周邊／病灶周圍血流**。[^1][^2]\n- **位置與界面**：常位於甲狀腺後方，與甲狀腺間有一薄的高回音界面（capsule/interface）分隔；大者可分葉或部分囊變。[^1][^2]\n- **臨床連結**：多見於原發性副甲狀腺亢進（primary hyperparathyroidism），單一腺體最常見；US 為第一線定位工具之一。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "parathyroid-adenoma-f01",
+          "text": "最佳描述：副甲狀腺腺瘤在超音波上典型為均質低回音橢圓形腫塊，Doppler 可見極性供血血管（多來自 inferior thyroid artery）與周邊／病灶周圍血流。",
+          "sourceStatement": "- **最佳描述**：副甲狀腺腺瘤在超音波上典型為**均質低回音**橢圓形腫塊，Doppler 可見**極性供血血管**（多來自 inferior thyroid artery）與**周邊／病灶周圍血流**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "parathyroid-adenoma-f02",
+          "text": "位置與界面：常位於甲狀腺後方，與甲狀腺間有一薄的高回音界面（capsule/interface）分隔；",
+          "sourceStatement": "- **位置與界面**：常位於甲狀腺後方，與甲狀腺間有一薄的高回音界面（capsule/interface）分隔；大者可分葉或部分囊變。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "parathyroid-adenoma-f03",
+          "text": "大者可分葉或部分囊變。",
+          "sourceStatement": "- **位置與界面**：常位於甲狀腺後方，與甲狀腺間有一薄的高回音界面（capsule/interface）分隔；大者可分葉或部分囊變。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "parathyroid-adenoma-f04",
+          "text": "臨床連結：多見於原發性副甲狀腺亢進（primary hyperparathyroidism），單一腺體最常見；",
+          "sourceStatement": "- **臨床連結**：多見於原發性副甲狀腺亢進（primary hyperparathyroidism），單一腺體最常見；US 為第一線定位工具之一。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "parathyroid-adenoma-f05",
+          "text": "US 為第一線定位工具之一。",
+          "sourceStatement": "- **臨床連結**：多見於原發性副甲狀腺亢進（primary hyperparathyroidism），單一腺體最常見；US 為第一線定位工具之一。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pediatric-lgg-genetics",
+      "path": "vault/concepts/pediatric-lgg-genetics.md",
+      "type": "disease",
+      "originalSha256": "49cacafc2830560650ef2d873e61dcf95616af5dfd586ce49d06d8bf360eceed",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- 基因突變數所有腦瘤中最少：median 1 mutation per tumor [^1]\n- 幾乎都活化 **MAPK pathway** [^1]\n- 最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等） [^1]\n- 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]\n\n",
+      "factUnits": [
+        {
+          "id": "pediatric-lgg-genetics-f01",
+          "text": "基因突變數所有腦瘤中最少：median 1 mutation per tumor",
+          "sourceStatement": "- 基因突變數所有腦瘤中最少：median 1 mutation per tumor [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-lgg-genetics-f02",
+          "text": "幾乎都活化 MAPK pathway",
+          "sourceStatement": "- 幾乎都活化 **MAPK pathway** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-lgg-genetics-f03",
+          "text": "最常見突變：BRAF（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等）",
+          "sourceStatement": "- 最常見突變：**BRAF**（KIAA1549-BRAF fusion 最常見於 pilocytic astrocytoma、BRAF V600E 見於 pleomorphic xanthoastrocytoma 等） [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-lgg-genetics-f04",
+          "text": "風險分層：gene rearrangement / NF-1 = lowest risk；",
+          "sourceStatement": "- 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-lgg-genetics-f05",
+          "text": "BRAF V600E = intermediate；",
+          "sourceStatement": "- 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-lgg-genetics-f06",
+          "text": "H3K27M = high risk",
+          "sourceStatement": "- 風險分層：gene rearrangement / NF-1 = lowest risk；BRAF V600E = intermediate；H3K27M = high risk [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pediatric-meningitis",
+      "path": "vault/concepts/pediatric-meningitis.md",
+      "type": "disease",
+      "originalSha256": "9b885e819258844051dfa85c967ff70950c81a9e7d943fd0bb98139840575b11",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **致病菌依年齡**：新生兒（GBS、E. coli、Listeria）→ 嬰兒（S. pneumoniae、N. meningitidis）→ 兒童（N. meningitidis、Hib）不同。[^1][^3]\n- **病程**：可**數小時內快速惡化**。[^1]\n- **影像指徵（LP 前 CT）**：僅**免疫低下、選定 CNS 病史、papilledema、局部神經缺損、LP 延遲**者;**不應對所有疑似兒童常規影像**。[^1]\n- **併發症追蹤**：腦膜增厚/積膿/腦室炎/梗塞等可影像追蹤。[^1]\n- **隱球菌(Cryptococcal)腦膜炎**：僅**不到一半**病患於磁振造影呈現局部腫塊(mass lesion)，多數影像可正常或僅見非特異性變化，故影像正常不能排除隱球菌腦膜炎。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "pediatric-meningitis-f01",
+          "text": "致病菌依年齡：新生兒（GBS、E. coli、Listeria）→ 嬰兒（S. pneumoniae、N. meningitidis）→ 兒童（N. meningitidis、Hib）不同。",
+          "sourceStatement": "- **致病菌依年齡**：新生兒（GBS、E. coli、Listeria）→ 嬰兒（S. pneumoniae、N. meningitidis）→ 兒童（N. meningitidis、Hib）不同。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "pediatric-meningitis-f02",
+          "text": "病程：可數小時內快速惡化。",
+          "sourceStatement": "- **病程**：可**數小時內快速惡化**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-meningitis-f03",
+          "text": "影像指徵（LP 前 CT）：僅免疫低下、選定 CNS 病史、papilledema、局部神經缺損、LP 延遲者;",
+          "sourceStatement": "- **影像指徵（LP 前 CT）**：僅**免疫低下、選定 CNS 病史、papilledema、局部神經缺損、LP 延遲**者;**不應對所有疑似兒童常規影像**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-meningitis-f04",
+          "text": "不應對所有疑似兒童常規影像。",
+          "sourceStatement": "- **影像指徵（LP 前 CT）**：僅**免疫低下、選定 CNS 病史、papilledema、局部神經缺損、LP 延遲**者;**不應對所有疑似兒童常規影像**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-meningitis-f05",
+          "text": "併發症追蹤：腦膜增厚/積膿/腦室炎/梗塞等可影像追蹤。",
+          "sourceStatement": "- **併發症追蹤**：腦膜增厚/積膿/腦室炎/梗塞等可影像追蹤。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pediatric-meningitis-f06",
+          "text": "隱球菌(Cryptococcal)腦膜炎：僅不到一半病患於磁振造影呈現局部腫塊(mass lesion)，多數影像可正常或僅見非特異性變化，故影像正常不能排除隱球菌腦膜炎。",
+          "sourceStatement": "- **隱球菌(Cryptococcal)腦膜炎**：僅**不到一半**病患於磁振造影呈現局部腫塊(mass lesion)，多數影像可正常或僅見非特異性變化，故影像正常不能排除隱球菌腦膜炎。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pelizaeus-merzbacher-disease",
+      "path": "vault/concepts/pelizaeus-merzbacher-disease.md",
+      "type": "disease",
+      "originalSha256": "daf109031078837f32d424712f8f2cb0180e7d058b700a77d3af6b5a7bcd8c88",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：X 染色體性聯遺傳（男性受影響）之髓鞘發育停滯／發育不良的腦白質失養症。[^1]\n- **基因**：致病於 Xq22 之 **PLP1（proteolipid protein）**基因；可為**點突變、缺失或重複，其中重複最常見**。[^1]\n- **臨床**：嬰兒期眼球擺動性震顫（pendular nystagmus）、肌張力低下、之後錐體束徵、共濟失調。[^1]\n- **鑑別觀念**：屬「hypomyelination（髓鞘生成不足）」而非「demyelination（已成熟髓鞘之脫失）」；連續影像顯示髓鞘化持續延遲／停滯。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "pelizaeus-merzbacher-disease-f01",
+          "text": "本質：X 染色體性聯遺傳（男性受影響）之髓鞘發育停滯／發育不良的腦白質失養症。",
+          "sourceStatement": "- **本質**：X 染色體性聯遺傳（男性受影響）之髓鞘發育停滯／發育不良的腦白質失養症。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pelizaeus-merzbacher-disease-f02",
+          "text": "基因：致病於 Xq22 之 PLP1（proteolipid protein）基因；",
+          "sourceStatement": "- **基因**：致病於 Xq22 之 **PLP1（proteolipid protein）**基因；可為**點突變、缺失或重複，其中重複最常見**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pelizaeus-merzbacher-disease-f03",
+          "text": "可為點突變、缺失或重複，其中重複最常見。",
+          "sourceStatement": "- **基因**：致病於 Xq22 之 **PLP1（proteolipid protein）**基因；可為**點突變、缺失或重複，其中重複最常見**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pelizaeus-merzbacher-disease-f04",
+          "text": "臨床：嬰兒期眼球擺動性震顫（pendular nystagmus）、肌張力低下、之後錐體束徵、共濟失調。",
+          "sourceStatement": "- **臨床**：嬰兒期眼球擺動性震顫（pendular nystagmus）、肌張力低下、之後錐體束徵、共濟失調。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pelizaeus-merzbacher-disease-f05",
+          "text": "鑑別觀念：屬「hypomyelination（髓鞘生成不足）」而非「demyelination（已成熟髓鞘之脫失）」；",
+          "sourceStatement": "- **鑑別觀念**：屬「hypomyelination（髓鞘生成不足）」而非「demyelination（已成熟髓鞘之脫失）」；連續影像顯示髓鞘化持續延遲／停滯。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "pelizaeus-merzbacher-disease-f06",
+          "text": "連續影像顯示髓鞘化持續延遲／停滯。",
+          "sourceStatement": "- **鑑別觀念**：屬「hypomyelination（髓鞘生成不足）」而非「demyelination（已成熟髓鞘之脫失）」；連續影像顯示髓鞘化持續延遲／停滯。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "perimesencephalic-sah",
+      "path": "vault/concepts/perimesencephalic-sah.md",
+      "type": "disease",
+      "originalSha256": "0b44cd15df2198cc9d3e68ff38d0101e7977d89fa2794223b0c59225d85405ed",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **定義**：非動脈瘤性 SAH,出血中心在中腦/橋腦前方的 perimesencephalic 腦池;CT 上定義為症狀發作 **3 天內（72 小時）**所見的此分布。[^1][^4]\n- **流行病學**：罕見（~0.5/10 萬人年）;占所有 SAH 約 **5–10%**、占非動脈瘤性 SAH 約 **1/3（~33%）**。[^1][^2]\n- **臨床**：常有用力/閉氣史;突發劇烈頭痛、噁心嘔吐,但**多半意識清醒、定向正常**;偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。預後極佳、再出血與血管痙攣/腦積水風險低。[^1][^5]\n- **病因**：**約 95% 腦血管攝影正常 → 推測為靜脈性出血**（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;再出血罕見。**其餘約 5–10% 其實是 vertebrobasilar 動脈瘤**（尤 basilar tip、PICA/AICA、SCA）,預後較差;罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。[^1][^3][^5]\n\n### 影像判讀骨架\n- **出血中心（核心判準）**：血液**集中於腦幹正前方的 interpeduncular / prepontine 池**,以中腦/橋腦前方為震央。[^1][^4]\n- **可延伸範圍**：環池（ambient）、四疊體池（quadrigeminal）、鞍上池（suprasellar）、近端/基底段 Sylvian 裂與縱裂近端 — 此延伸仍相容於 pmSAH。[^1][^4]\n- **「不該出現」的型態（出現即偏向動脈瘤性）**：**外側裂遠端 / 前縱裂被血液完全填滿、明顯腦室內大量出血（IVH）**;典型 pmSAH 至多側腦室枕角少量沉積,不應有實質性 IVH 鑄型。[^1][^4]\n- **CT 時機（關鍵陷阱）**：**發作 24 小時內（最遲 72 小時）分布最可靠**;過晚（數天後）血液再分布/再吸收,vertebrobasilar 動脈瘤破裂可被「洗成」近似 perimesencephalic 樣,使型態判讀失準。文獻：72 小時內分布大致穩定（pmSAH 約 61% 不變）,6–24h 間僅 non-perimesencephalic 型出現顯著分布減少。[^4][^6]\n- **與動脈瘤性 SAH 的分水嶺**：典型 pmSAH 對「血管攝影正常」的陽性預測值高（PPV ~0.94–0.95）,但**型態不能單獨確診良性,必須 CTA（±DSA）排除後循環動脈瘤**。CTA 陰性的典型 pmSAH 可不再做 DSA;但分布非典型 / 瀰漫型 / CTA 影像品質不佳者仍建議 DSA,且初次陰性者延遲（10–14 天）重複 DSA 的額外陽性率約 0–4%。[^4][^5]\n\n> [!note] 考點：為何 PMSAH 仍要做 CTA?\n> 因為約 **5–10% 的「perimesencephalic 樣」出血其實是 vertebrobasilar 動脈瘤破裂**（預後差）;典型出血型態不能單獨確診,**必須以影像排除動脈瘤**。[^1][^4][^5]\n\n### DDx（perimesencephalic 樣分布的鑑別）\n- **後循環動脈瘤破裂**（basilar tip、PICA/AICA、SCA）：最關鍵須排除者;若見外側裂遠端/前縱裂填滿或大量 IVH 則高度偏向之。[^4][^5]\n- **椎基底動脈剝離 / dissecting aneurysm**：CTA 可呈管徑不規則、雙腔、壁內血腫。[^5]\n- **腦幹周圍 AVM / dural AVF**：需血管影像評估異常血管巢與引流靜脈。[^1]\n- **延遲影像下的瀰漫性動脈瘤性 SAH**：血液再分布後型態混淆 → 強調以**早期 CT**判讀。[^4][^6]\n- **外傷性 SAH**：以病史與是否合併皮質凸面/挫傷分布鑑別。[^1]\n\n### 參考來源\n[^1]: *Perimesencephalic subarachnoid hemorrhage*. Radiopaedia.org（輔助來源,accessed 2026-06-29）：非動脈瘤性、出血中心於中腦前方腦池;占 SAH 5–10%、占非動脈瘤性 SAH ~33%;~95% 血管攝影正常（靜脈源）、其餘為 vertebrobasilar 動脈瘤;CT 定義為發作 3 天內。\n[^2]: Flaherty ML, Haverbusch M, Kissela B, et al. *Perimesencephalic Subarachnoid Hemorrhage: Incidence, Risk Factors, and Outcome*. J Stroke Cerebrovasc Dis. 2005;14(6):267-271. doi:10.1016/j.jstrokecerebrovasdis.2005.07.004（Tier 2,發生率與預後）。\n[^3]: van der Schaaf IC, Velthuis BK, Gouw A, Rinkel GJE. *Venous Drainage in Perimesencephalic Hemorrhage*. Stroke. 2004;35(7):1614-1618. doi:10.1161/01.STR.0000131657.08655.ce（Tier 2,靜脈引流變異與靜脈源假說）。另 Velthuis BK, et al. *Perimesencephalic Hemorrhage*. Stroke. 1999;30(5):1103-1109. doi:10.1161/01.str.30.5.1103。\n[^4]: Marder CP, Narla V, Fink JR, Tozer Fink KR. *Subarachnoid Hemorrhage: Beyond Aneurysms*. AJR Am J Roentgenol. 2014;202(1):25-37. doi:10.2214/AJR.12.9749（Tier 1,AJR;出血中心於腦幹前方、外側裂遠端與前縱裂不應填滿、不破入腦室;早期 CT 之重要性）;Rinkel GJE, Wijdicks EFM, Vermeulen M, et al. *Nonaneurysmal Perimesencephalic Subarachnoid Hemorrhage: CT and MR Patterns That Differ from Aneurysmal Rupture*. AJNR Am J Neuroradiol. 1991;12(5):829-834（Tier 1,AJNR;PPV ~0.94–0.95、判讀者間一致性高）。\n[^5]: Mensing LA, Vergouwen MDI, Laban KG, et al. *Current status of perimesencephalic non-aneurysmal subarachnoid hemorrhage*. Front Neurol. 2022;13:960702. doi:10.3389/fneur.2022.960702（Tier 2,PMC9475169;7–17% 後循環動脈瘤破裂呈 perimesencephalic 型、約 5–7% perimesencephalic 型最終找到動脈瘤;CTA 陰性可免 DSA、重複 DSA 額外陽性率約 0–4%;靜脈源假說、良好預後）。\n[^6]: *Changes in hemorrhage pattern on consecutive non-contrast CT scans in non-aneurysmal subarachnoid hemorrhage patients*. PMC12466301（Tier 2,連續 NCCT;72 小時內分布大致穩定、pmSAH 約 61% 不變,6–24h 間僅 non-perimesencephalic 型分布顯著減少 → 早期 CT 判讀最可靠）。\n\n",
+      "factUnits": [
+        {
+          "id": "perimesencephalic-sah-f01",
+          "text": "定義：非動脈瘤性 SAH,出血中心在中腦/橋腦前方的 perimesencephalic 腦池;",
+          "sourceStatement": "- **定義**：非動脈瘤性 SAH,出血中心在中腦/橋腦前方的 perimesencephalic 腦池;CT 上定義為症狀發作 **3 天內（72 小時）**所見的此分布。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f02",
+          "text": "CT 上定義為症狀發作 3 天內（72 小時）所見的此分布。",
+          "sourceStatement": "- **定義**：非動脈瘤性 SAH,出血中心在中腦/橋腦前方的 perimesencephalic 腦池;CT 上定義為症狀發作 **3 天內（72 小時）**所見的此分布。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f03",
+          "text": "流行病學：罕見（~0.5/10 萬人年）;",
+          "sourceStatement": "- **流行病學**：罕見（~0.5/10 萬人年）;占所有 SAH 約 **5–10%**、占非動脈瘤性 SAH 約 **1/3（~33%）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f04",
+          "text": "占所有 SAH 約 5–10%、占非動脈瘤性 SAH 約 1/3（~33%）。",
+          "sourceStatement": "- **流行病學**：罕見（~0.5/10 萬人年）;占所有 SAH 約 **5–10%**、占非動脈瘤性 SAH 約 **1/3（~33%）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f05",
+          "text": "臨床：常有用力/閉氣史;",
+          "sourceStatement": "- **臨床**：常有用力/閉氣史;突發劇烈頭痛、噁心嘔吐,但**多半意識清醒、定向正常**;偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。預後極佳、再出血與血管痙攣/腦積水風險低。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f06",
+          "text": "突發劇烈頭痛、噁心嘔吐,但多半意識清醒、定向正常;",
+          "sourceStatement": "- **臨床**：常有用力/閉氣史;突發劇烈頭痛、噁心嘔吐,但**多半意識清醒、定向正常**;偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。預後極佳、再出血與血管痙攣/腦積水風險低。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f07",
+          "text": "偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。",
+          "sourceStatement": "- **臨床**：常有用力/閉氣史;突發劇烈頭痛、噁心嘔吐,但**多半意識清醒、定向正常**;偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。預後極佳、再出血與血管痙攣/腦積水風險低。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f08",
+          "text": "預後極佳、再出血與血管痙攣/腦積水風險低。",
+          "sourceStatement": "- **臨床**：常有用力/閉氣史;突發劇烈頭痛、噁心嘔吐,但**多半意識清醒、定向正常**;偶見短暫腦神經麻痺（常為 oculomotor）、輕度頸僵。預後極佳、再出血與血管痙攣/腦積水風險低。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f09",
+          "text": "病因：約 95% 腦血管攝影正常 → 推測為靜脈性出血（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;",
+          "sourceStatement": "- **病因**：**約 95% 腦血管攝影正常 → 推測為靜脈性出血**（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;再出血罕見。**其餘約 5–10% 其實是 vertebrobasilar 動脈瘤**（尤 basilar tip、PICA/AICA、SCA）,預後較差;罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。[^1][^3][^5]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f10",
+          "text": "再出血罕見。",
+          "sourceStatement": "- **病因**：**約 95% 腦血管攝影正常 → 推測為靜脈性出血**（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;再出血罕見。**其餘約 5–10% 其實是 vertebrobasilar 動脈瘤**（尤 basilar tip、PICA/AICA、SCA）,預後較差;罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。[^1][^3][^5]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f11",
+          "text": "其餘約 5–10% 其實是 vertebrobasilar 動脈瘤（尤 basilar tip、PICA/AICA、SCA）,預後較差;",
+          "sourceStatement": "- **病因**：**約 95% 腦血管攝影正常 → 推測為靜脈性出血**（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;再出血罕見。**其餘約 5–10% 其實是 vertebrobasilar 動脈瘤**（尤 basilar tip、PICA/AICA、SCA）,預後較差;罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。[^1][^3][^5]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f12",
+          "text": "罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。",
+          "sourceStatement": "- **病因**：**約 95% 腦血管攝影正常 → 推測為靜脈性出血**（靜脈壓短暫上升、basal vein of Rosenthal 直接引流入直竇等變異引流為危險因子）;再出血罕見。**其餘約 5–10% 其實是 vertebrobasilar 動脈瘤**（尤 basilar tip、PICA/AICA、SCA）,預後較差;罕見原因含 AVM、dural AVF、椎動脈剝離、外傷、脊髓血管病變。[^1][^3][^5]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f13",
+          "text": "出血中心（核心判準）：血液集中於腦幹正前方的 interpeduncular / prepontine 池,以中腦/橋腦前方為震央。",
+          "sourceStatement": "- **出血中心（核心判準）**：血液**集中於腦幹正前方的 interpeduncular / prepontine 池**,以中腦/橋腦前方為震央。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f14",
+          "text": "可延伸範圍：環池（ambient）、四疊體池（quadrigeminal）、鞍上池（suprasellar）、近端/基底段 Sylvian 裂與縱裂近端 — 此延伸仍相容於 pmSAH。",
+          "sourceStatement": "- **可延伸範圍**：環池（ambient）、四疊體池（quadrigeminal）、鞍上池（suprasellar）、近端/基底段 Sylvian 裂與縱裂近端 — 此延伸仍相容於 pmSAH。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f15",
+          "text": "「不該出現」的型態（出現即偏向動脈瘤性）：外側裂遠端 / 前縱裂被血液完全填滿、明顯腦室內大量出血（IVH）;",
+          "sourceStatement": "- **「不該出現」的型態（出現即偏向動脈瘤性）**：**外側裂遠端 / 前縱裂被血液完全填滿、明顯腦室內大量出血（IVH）**;典型 pmSAH 至多側腦室枕角少量沉積,不應有實質性 IVH 鑄型。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f16",
+          "text": "典型 pmSAH 至多側腦室枕角少量沉積,不應有實質性 IVH 鑄型。",
+          "sourceStatement": "- **「不該出現」的型態（出現即偏向動脈瘤性）**：**外側裂遠端 / 前縱裂被血液完全填滿、明顯腦室內大量出血（IVH）**;典型 pmSAH 至多側腦室枕角少量沉積,不應有實質性 IVH 鑄型。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f17",
+          "text": "CT 時機（關鍵陷阱）：發作 24 小時內（最遲 72 小時）分布最可靠;",
+          "sourceStatement": "- **CT 時機（關鍵陷阱）**：**發作 24 小時內（最遲 72 小時）分布最可靠**;過晚（數天後）血液再分布/再吸收,vertebrobasilar 動脈瘤破裂可被「洗成」近似 perimesencephalic 樣,使型態判讀失準。文獻：72 小時內分布大致穩定（pmSAH 約 61% 不變）,6–24h 間僅 non-perimesencephalic 型出現顯著分布減少。[^4][^6]",
+          "sourceRefs": [
+            "4",
+            "6"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f18",
+          "text": "過晚（數天後）血液再分布/再吸收,vertebrobasilar 動脈瘤破裂可被「洗成」近似 perimesencephalic 樣,使型態判讀失準。",
+          "sourceStatement": "- **CT 時機（關鍵陷阱）**：**發作 24 小時內（最遲 72 小時）分布最可靠**;過晚（數天後）血液再分布/再吸收,vertebrobasilar 動脈瘤破裂可被「洗成」近似 perimesencephalic 樣,使型態判讀失準。文獻：72 小時內分布大致穩定（pmSAH 約 61% 不變）,6–24h 間僅 non-perimesencephalic 型出現顯著分布減少。[^4][^6]",
+          "sourceRefs": [
+            "4",
+            "6"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f19",
+          "text": "文獻：72 小時內分布大致穩定（pmSAH 約 61% 不變）,6–24h 間僅 non-perimesencephalic 型出現顯著分布減少。",
+          "sourceStatement": "- **CT 時機（關鍵陷阱）**：**發作 24 小時內（最遲 72 小時）分布最可靠**;過晚（數天後）血液再分布/再吸收,vertebrobasilar 動脈瘤破裂可被「洗成」近似 perimesencephalic 樣,使型態判讀失準。文獻：72 小時內分布大致穩定（pmSAH 約 61% 不變）,6–24h 間僅 non-perimesencephalic 型出現顯著分布減少。[^4][^6]",
+          "sourceRefs": [
+            "4",
+            "6"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f20",
+          "text": "與動脈瘤性 SAH 的分水嶺：典型 pmSAH 對「血管攝影正常」的陽性預測值高（PPV ~0.94–0.95）,但型態不能單獨確診良性,必須 CTA（±DSA）排除後循環動脈瘤。",
+          "sourceStatement": "- **與動脈瘤性 SAH 的分水嶺**：典型 pmSAH 對「血管攝影正常」的陽性預測值高（PPV ~0.94–0.95）,但**型態不能單獨確診良性,必須 CTA（±DSA）排除後循環動脈瘤**。CTA 陰性的典型 pmSAH 可不再做 DSA;但分布非典型 / 瀰漫型 / CTA 影像品質不佳者仍建議 DSA,且初次陰性者延遲（10–14 天）重複 DSA 的額外陽性率約 0–4%。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f21",
+          "text": "CTA 陰性的典型 pmSAH 可不再做 DSA;",
+          "sourceStatement": "- **與動脈瘤性 SAH 的分水嶺**：典型 pmSAH 對「血管攝影正常」的陽性預測值高（PPV ~0.94–0.95）,但**型態不能單獨確診良性,必須 CTA（±DSA）排除後循環動脈瘤**。CTA 陰性的典型 pmSAH 可不再做 DSA;但分布非典型 / 瀰漫型 / CTA 影像品質不佳者仍建議 DSA,且初次陰性者延遲（10–14 天）重複 DSA 的額外陽性率約 0–4%。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f22",
+          "text": "但分布非典型 / 瀰漫型 / CTA 影像品質不佳者仍建議 DSA,且初次陰性者延遲（10–14 天）重複 DSA 的額外陽性率約 0–4%。",
+          "sourceStatement": "- **與動脈瘤性 SAH 的分水嶺**：典型 pmSAH 對「血管攝影正常」的陽性預測值高（PPV ~0.94–0.95）,但**型態不能單獨確診良性,必須 CTA（±DSA）排除後循環動脈瘤**。CTA 陰性的典型 pmSAH 可不再做 DSA;但分布非典型 / 瀰漫型 / CTA 影像品質不佳者仍建議 DSA,且初次陰性者延遲（10–14 天）重複 DSA 的額外陽性率約 0–4%。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f23",
+          "text": "因為約 5–10% 的「perimesencephalic 樣」出血其實是 vertebrobasilar 動脈瘤破裂（預後差）;",
+          "sourceStatement": "> 因為約 **5–10% 的「perimesencephalic 樣」出血其實是 vertebrobasilar 動脈瘤破裂**（預後差）;典型出血型態不能單獨確診,**必須以影像排除動脈瘤**。[^1][^4][^5]",
+          "sourceRefs": [
+            "1",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f24",
+          "text": "典型出血型態不能單獨確診,必須以影像排除動脈瘤。",
+          "sourceStatement": "> 因為約 **5–10% 的「perimesencephalic 樣」出血其實是 vertebrobasilar 動脈瘤破裂**（預後差）;典型出血型態不能單獨確診,**必須以影像排除動脈瘤**。[^1][^4][^5]",
+          "sourceRefs": [
+            "1",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f25",
+          "text": "後循環動脈瘤破裂（basilar tip、PICA/AICA、SCA）：最關鍵須排除者;",
+          "sourceStatement": "- **後循環動脈瘤破裂**（basilar tip、PICA/AICA、SCA）：最關鍵須排除者;若見外側裂遠端/前縱裂填滿或大量 IVH 則高度偏向之。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f26",
+          "text": "若見外側裂遠端/前縱裂填滿或大量 IVH 則高度偏向之。",
+          "sourceStatement": "- **後循環動脈瘤破裂**（basilar tip、PICA/AICA、SCA）：最關鍵須排除者;若見外側裂遠端/前縱裂填滿或大量 IVH 則高度偏向之。[^4][^5]",
+          "sourceRefs": [
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f27",
+          "text": "椎基底動脈剝離 / dissecting aneurysm：CTA 可呈管徑不規則、雙腔、壁內血腫。",
+          "sourceStatement": "- **椎基底動脈剝離 / dissecting aneurysm**：CTA 可呈管徑不規則、雙腔、壁內血腫。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f28",
+          "text": "腦幹周圍 AVM / dural AVF：需血管影像評估異常血管巢與引流靜脈。",
+          "sourceStatement": "- **腦幹周圍 AVM / dural AVF**：需血管影像評估異常血管巢與引流靜脈。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f29",
+          "text": "延遲影像下的瀰漫性動脈瘤性 SAH：血液再分布後型態混淆 → 強調以早期 CT判讀。",
+          "sourceStatement": "- **延遲影像下的瀰漫性動脈瘤性 SAH**：血液再分布後型態混淆 → 強調以**早期 CT**判讀。[^4][^6]",
+          "sourceRefs": [
+            "4",
+            "6"
+          ]
+        },
+        {
+          "id": "perimesencephalic-sah-f30",
+          "text": "外傷性 SAH：以病史與是否合併皮質凸面/挫傷分布鑑別。",
+          "sourceStatement": "- **外傷性 SAH**：以病史與是否合併皮質凸面/挫傷分布鑑別。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -47,7 +47,9 @@ MD_LINK_START = re.compile(r"\[([^\]]+)\]\((https?://)")
 BARE_URL = re.compile(r"https?://[^\s\]；。，（）]+")
 PLAIN_DOI = re.compile(r"\b(10\.\d{4,9}/[^\s\]>,；。（）]+)")
 INDEX_FIELDS = ("slug", "name", "nameZh", "subspecialty", "checked")
-SUMMARY_SECTION = re.compile(r"^Summary(?:\s+—\s+\S.*)?$")
+SUMMARY_SECTION = re.compile(
+    r"^Summary(?:\s+\u2014\s+\S.*|\uff08[^\r\n]*\uff09)?$"
+)
 
 
 class BuildSelectionError(ValueError):

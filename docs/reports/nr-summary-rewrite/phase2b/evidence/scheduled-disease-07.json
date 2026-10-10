@@ -1,0 +1,1601 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "scheduled-disease-07",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-07.json",
+    "sha256": "ba7b89fd893545fb300c402edcab190183af7783357c8708ed32a3fda082db7e"
+  },
+  "status": "needs-review",
+  "workflow": {
+    "sequence": 7,
+    "predecessor": "scheduled-disease-06",
+    "implementer": "/root/phase2b_task2_7_impl",
+    "reviewer": "/root/phase2b_review_design",
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "ba7b89fd893545fb300c402edcab190183af7783357c8708ed32a3fda082db7e"
+  },
+  "notes": [
+    {
+      "slug": "moyamoya-disease",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **本質**：**顱內內頸動脈(ICA)末端節段進行性阻塞，代償性形成迂曲、擴張之側枝血管網**。[^1]\n- **Moyamoya vessels**：於基底核與視丘呈**signal void(流空)**——即擴張側枝血管。[^1]\n- **Ivy sign（本題重點）**：瀰漫軟腦膜側枝血管(pial collaterals，尤PCA來源)，於**FLAIR呈溝狀高訊號(serpentine sulcal hyperintensity，慢流)、並於T1增強後呈高訊號**；故「on T2WI...ivy sign」為**錯誤**（ivy sign在FLAIR/post-contrast T1，非典型T2WI）。[^1]\n- **SWI**：可見**微出血(microbleeding) 15-44%**。[^1]\n\n",
+      "facts": [
+        {
+          "id": "moyamoya-disease-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "顱內內頸動脈(ICA)末端節段進行性阻塞，代償性形成迂曲、擴張之側枝血管網"
+            }
+          ]
+        },
+        {
+          "id": "moyamoya-disease-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "signal void(流空)"
+            }
+          ]
+        },
+        {
+          "id": "moyamoya-disease-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "FLAIR呈溝狀高訊號(serpentine sulcal hyperintensity，慢流)、並於T1增強後呈高訊號"
+            }
+          ]
+        },
+        {
+          "id": "moyamoya-disease-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "（ivy sign在FLAIR/post-contrast T1，非典型T2WI）。"
+            }
+          ]
+        },
+        {
+          "id": "moyamoya-disease-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "微出血(microbleeding) 15-44%"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*RadioGraphics* 2014;34:873-894（2018 交換考題詳解 p.336 引用；Tier 1 期刊）。moyamoya disease為顱內ICA末端進行性阻塞+代償側枝；基底核/視丘moyamoya vessels呈signal void；ivy sign為pial collateral於FLAIR(高溝狀訊號)及T1增強後呈高訊號(非典型T2WI)；SWI微出血15-44%。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 5,
+          "covered": 5,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**本質**：**顱內內頸動脈(ICA)末端節段進行性阻塞，代償性形成迂曲、擴張之側枝血管網**。",
+        "**Moyamoya vessels**：於基底核與視丘呈**signal void(流空)**——即擴張側枝血管。",
+        "**Ivy sign（本題重點）**：瀰漫軟腦膜側枝血管(pial collaterals，尤PCA來源)，於**FLAIR呈溝狀高訊號(serpentine sulcal hyperintensity，慢流)、並於T1增強後呈高訊號**；故「on T2WI...ivy sign」為**錯誤**（ivy sign在FLAIR/post-contrast T1，非典型T2WI）。",
+        "**SWI**：可見**微出血(microbleeding) 15-44%**。"
+      ],
+      "coverageEvidenceSha256": "a1714e116606f16e790c1f4d5e2be2eeb531bb103560ff9d55509c2fab56567d"
+    },
+    {
+      "slug": "mucormycosis",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **宿主**：**糖尿病（尤控制差）、免疫低下**(option A 對)。[^1]\n- **病理**：**侵血管壞死性血管炎**,快速延伸至深部臉、眼眶、顱內(option B 對);血管侵犯可致**腦梗塞**(option E 對)。[^1]\n- **強化**：**多變,homogeneous 到 heterogeneous**(option C 對);**black turbinate sign**＝鼻甲非強化壞死黏膜（早期線索）。[^1]\n- **T2 訊號**：**多變,僅約 20% 呈高 T2**（真菌元素/出血常低訊號）→ 故「**T2 傾向高訊號（hyperintense）**」**為假**＝題目正解（2016-165 正解 D）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "mucormycosis-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "糖尿病（尤控制差）、免疫低下"
+            }
+          ]
+        },
+        {
+          "id": "mucormycosis-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": ",快速延伸至深部臉、眼眶、顱內(option B 對);"
+            }
+          ]
+        },
+        {
+          "id": "mucormycosis-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "(option E 對)。"
+            }
+          ]
+        },
+        {
+          "id": "mucormycosis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "多變,homogeneous 到 heterogeneous"
+            }
+          ]
+        },
+        {
+          "id": "mucormycosis-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "black turbinate sign"
+            }
+          ]
+        },
+        {
+          "id": "mucormycosis-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "T2 傾向高訊號（hyperintense）"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Sinonasal mucormycosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：好發糖尿病（控制差）/免疫低下;高度侵襲、侵眼眶/顱內、侵血管;**T2 variable，約 20% 高訊號（真菌元素傾向低訊號）**;**black turbinate**（非強化壞死黏膜）;可致腦梗塞。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 6,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**宿主**：**糖尿病（尤控制差）、免疫低下**(option A 對)。",
+        "**病理**：**侵血管壞死性血管炎**,快速延伸至深部臉、眼眶、顱內(option B 對);血管侵犯可致**腦梗塞**(option E 對)。",
+        "**強化**：**多變,homogeneous 到 heterogeneous**(option C 對);**black turbinate sign**＝鼻甲非強化壞死黏膜（早期線索）。",
+        "**T2 訊號**：**多變,僅約 20% 呈高 T2**（真菌元素/出血常低訊號）→ 故「**T2 傾向高訊號（hyperintense）**」**為假**＝題目正解（2016-165 正解 D）。"
+      ],
+      "coverageEvidenceSha256": "0f13c91a5261e99d963d3b8e5c01ebf62f08d4149a3b3764cedcb8e6c970dfd4"
+    },
+    {
+      "slug": "multinodular-vacuolating-neuronal-tumor",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **分類**：MVNT 在 **2021 WHO 中樞神經腫瘤分類**中被列為 **glioneuronal and neuronal tumors（膠質神經元與神經元腫瘤）**之一，屬 WHO grade 1。[^1][^2]\n- **免疫表現**：synaptophysin、HuC/HuD、p62 陽性；IDH1、nestin、NeuN、neurofilament、GFAP、CD34 陰性（STATdx 另記 OLIG2、synaptophysin 陽性，GFAP、NeuN 陰性——兩者於 synaptophysin+、GFAP/NeuN− 一致）。[^1][^2]\n- **影像核心**：一叢邊界清楚的 **T2 高訊號「泡泡」**，主要位於 **皮質下白質**、可延伸到覆蓋其上的皮質；**通常不強化**。[^1][^2]\n- **臨床**：多為偶然發現、臨床惰性、多年穩定；除非證實為致癲癇灶，一般視為「leave-alone」病灶、不需追蹤。[^2]\n\n",
+      "facts": [
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "glioneuronal and neuronal tumors（膠質神經元與神經元腫瘤）"
+            }
+          ]
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：synaptophysin、HuC/HuD、p62 陽性；"
+            }
+          ]
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "IDH1、nestin、NeuN、neurofilament、GFAP、CD34 陰性（STATdx 另記 OLIG2、synaptophysin 陽性，GFAP、NeuN 陰性——兩者於 synaptophysin+、GFAP/NeuN− 一致）。"
+            }
+          ]
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "、可延伸到覆蓋其上的皮質；"
+            }
+          ]
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f05",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f06",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：多為偶然發現、臨床惰性、多年穩定；"
+            }
+          ]
+        },
+        {
+          "id": "multinodular-vacuolating-neuronal-tumor-f07",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "除非證實為致癲癇灶，一般視為「leave-alone」病灶、不需追蹤。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Multinodular and vacuolating neuronal tumor*. Radiopaedia.org（rID 40645；實際查證 accessed 2026-07-05）：MVNT 於 2021 WHO 屬 glioneuronal and neuronal tumors；免疫染色 synaptophysin、HuC/HuD、p62 陽性，IDH1、nestin、NeuN、neurofilament、GFAP、CD34 陰性；MRI 呈一叢邊界清楚之 T2 高訊號「泡泡」，主要位於皮質下白質、可侵犯覆蓋皮質，通常不強化；T2 幾近 CSF 高訊號、FLAIR 不壓抑；MAPK pathway 異常。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** Salzman KL, Osborn AG. *Multinodular and Vacuolating Neuronal Tumor*. STATdx（Brain, Dx, updated 08/15/25）Elsevier（實際查證 accessed 2026-07-05）：2021 WHO 認可之獨立腫瘤、WHO grade 1；一叢大小不一、邊界銳利之結節緊貼內側皮質呈 U 形，位於深皮質 ribbon 與淺層白質、可延伸深部白質；T1 與皮質等訊號、T2 高訊號、FLAIR 不壓抑、DWI 很亮、不強化、無腫塊效應、無鈣化；OLIG2/synaptophysin 陽性、GFAP/NeuN 陰性；MAPK pathway 活化（MAP2K1）；臨床惰性、多年穩定，除非證實致癲癇否則屬 leave-alone 病灶。DDx：DNET（侵淺皮質、有腫塊效應、可強化）、focal cortical dysplasia、擴大 PVS（FLAIR 壓抑）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**分類**：MVNT 在 **2021 WHO 中樞神經腫瘤分類**中被列為 **glioneuronal and neuronal tumors（膠質神經元與神經元腫瘤）**之一，屬 WHO grade 1。",
+        "**免疫表現**：synaptophysin、HuC/HuD、p62 陽性；IDH1、nestin、NeuN、neurofilament、GFAP、CD34 陰性（STATdx 另記 OLIG2、synaptophysin 陽性，GFAP、NeuN 陰性——兩者於 synaptophysin+、GFAP/NeuN− 一致）。",
+        "**影像核心**：一叢邊界清楚的 **T2 高訊號「泡泡」**，主要位於 **皮質下白質**、可延伸到覆蓋其上的皮質；**通常不強化**。",
+        "**臨床**：多為偶然發現、臨床惰性、多年穩定；除非證實為致癲癇灶，一般視為「leave-alone」病灶、不需追蹤。"
+      ],
+      "coverageEvidenceSha256": "5651fa7741b9e4ea55c18c03343e1f74501bff7372232182c0d66470e0311bec"
+    },
+    {
+      "slug": "multiple-sclerosis-imaging",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **好發分布**：MS 斑塊**絕大多數位於幕上（supratentorial）**，並非「超過50%位於後顱窩」——此為常見誤導敘述。[^1]\n- **危險因子**：EBV 病毒感染、化學物質暴露、抽菸、飲食因素、地理變異性皆與 MS 風險相關。[^1]\n- **影像徵象**：**Ependymal dot-dash sign**（腦室周圍垂直於腦室壁的斑塊，沿髓靜脈分布）；活動性去髓鞘病灶可見**短暫強化（transient enhancement during active demyelination）**。[^1]\n- **流行病學（考點）**：MS **好發於女性（female predominance，F:M 約 2–3:1，即女多於男）**，發病年齡青春期至第六十年、**峰值約 30 歲（20–40 歲）**；**optic neuritis** 為常見表現（相當比例日後發展為 MS）；**Dawson fingers**（腦室周圍沿深髓靜脈垂直排列之 T2 高訊號斑塊）為典型徵象。故「F:M ≈ 1:2」為錯誤（把男女比顛倒）。[^3]\n\n",
+      "facts": [
+        {
+          "id": "multiple-sclerosis-imaging-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "，並非「超過50%位於後顱窩」——此為常見誤導敘述。"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：EBV 病毒感染、化學物質暴露、抽菸、飲食因素、地理變異性皆與 MS 風險相關。"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "Ependymal dot-dash sign"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "短暫強化（transient enhancement during active demyelination）"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f05",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "好發於女性（female predominance，F:M 約 2–3:1，即女多於男）"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f06",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "為常見表現（相當比例日後發展為 MS）；"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f07",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "（腦室周圍沿深髓靜脈垂直排列之 T2 高訊號斑塊）為典型徵象。"
+            }
+          ]
+        },
+        {
+          "id": "multiple-sclerosis-imaging-f08",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "故「F:M ≈ 1:2」為錯誤（把男女比顛倒）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；Osborn's Brain, Demyelinating and Inflammatory Diseases, p.449-461。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "*Multiple sclerosis* / *Central vein sign*. Radiopaedia.org（實際查證 accessed 2026-07-05；CVS 搜尋摘要 accessed 2026-07-12）：MS 呈女性優勢（female predominance），發病自青春期至第六十年、**峰值約 30 歲**；表現包含 optic neuritis 等；影像特徵含 periventricular Dawson fingers（沿深髓靜脈垂直側腦室排列之 T2 高訊號斑塊）、central vein sign。支持本題「F:M ≈ 1:2」為錯誤敘述（實為女多於男）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 8,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**好發分布**：MS 斑塊**絕大多數位於幕上（supratentorial）**，並非「超過50%位於後顱窩」——此為常見誤導敘述。",
+        "**危險因子**：EBV 病毒感染、化學物質暴露、抽菸、飲食因素、地理變異性皆與 MS 風險相關。",
+        "**影像徵象**：**Ependymal dot-dash sign**（腦室周圍垂直於腦室壁的斑塊，沿髓靜脈分布）；活動性去髓鞘病灶可見**短暫強化（transient enhancement during active demyelination）**。",
+        "**流行病學（考點）**：MS **好發於女性（female predominance，F:M 約 2–3:1，即女多於男）**，發病年齡青春期至第六十年、**峰值約 30 歲（20–40 歲）**；**optic neuritis** 為常見表現（相當比例日後發展為 MS）；**Dawson fingers**（腦室周圍沿深髓靜脈垂直排列之 T2 高訊號斑塊）為典型徵象。故「F:M ≈ 1:2」為錯誤（把男女比顛倒）。"
+      ],
+      "coverageEvidenceSha256": "712ed872c32935c2dd49acf17afb8d3e91808df3519615c3e9537c17c5789e29"
+    },
+    {
+      "slug": "neurocutaneous-melanosis",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **典型臨床表現**：大片、先天性、長毛的皮膚黑色素痣（giant congenital melanocytic nevi）合併CNS黑色素細胞增生（可導致癲癇、顱內壓升高徵象如視神經頭水腫）。[^1]\n- **MRI/CT特徵**：**T1訊號增高**，好發部位包含內側顳葉（尤其杏仁核）、腹側橋腦與延腦、小腦、額葉下部；CT上黑色素沉積處可呈高密度。[^1]\n- **最常見併發症**：**水腦（hydrocephalus）**。[^1]\n- **惡性轉化**：皮膚痣惡性轉化率約2-13%；CNS黑色素沉積惡性轉化發生率**很高，可達50%**。[^1]\n- **合併症候群**：約10%神經皮膚黑色素沉積症病人合併**Dandy-Walker syndrome**。[^1]\n\n",
+      "facts": [
+        {
+          "id": "neurocutaneous-melanosis-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：大片、先天性、長毛的皮膚黑色素痣（giant congenital melanocytic nevi）合併CNS黑色素細胞增生（可導致癲癇、顱內壓升高徵象如視神經頭水腫）。"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "，好發部位包含內側顳葉（尤其杏仁核）、腹側橋腦與延腦、小腦、額葉下部；"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "CT上黑色素沉積處可呈高密度。"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "水腦（hydrocephalus）"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：皮膚痣惡性轉化率約2-13%；"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "CNS黑色素沉積惡性轉化發生率"
+            }
+          ]
+        },
+        {
+          "id": "neurocutaneous-melanosis-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "Dandy-Walker syndrome"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；Diagnostic Imaging - Pediatric Neuroradiology, P. I-6-30。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**典型臨床表現**：大片、先天性、長毛的皮膚黑色素痣（giant congenital melanocytic nevi）合併CNS黑色素細胞增生（可導致癲癇、顱內壓升高徵象如視神經頭水腫）。",
+        "**MRI/CT特徵**：**T1訊號增高**，好發部位包含內側顳葉（尤其杏仁核）、腹側橋腦與延腦、小腦、額葉下部；CT上黑色素沉積處可呈高密度。",
+        "**最常見併發症**：**水腦（hydrocephalus）**。",
+        "**惡性轉化**：皮膚痣惡性轉化率約2-13%；CNS黑色素沉積惡性轉化發生率**很高，可達50%**。",
+        "**合併症候群**：約10%神經皮膚黑色素沉積症病人合併**Dandy-Walker syndrome**。"
+      ],
+      "coverageEvidenceSha256": "fd501c468c746d9bcc6a41bb687d8b1fd3dc1ee8d1803532389ba923ec5c27ce"
+    },
+    {
+      "slug": "neurofibromatosis-type-1",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **NF1典型發現**：視神經膠質瘤(optic nerve glioma)、蝶骨發育不良(sphenoid dysplasia)、神經根神經纖維瘤(nerve root neurofibroma)、神經纖維瘤(plexiform neurofibroma)、café-au-lait斑點等。[^1]\n- **非NF1典型發現**：**雙側聽神經鞘瘤(bilateral acoustic/vestibular schwannoma)為NF2之特徵性表現**，並非NF1。[^1]\n\n",
+      "facts": [
+        {
+          "id": "neurofibromatosis-type-1-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：視神經膠質瘤(optic nerve glioma)、蝶骨發育不良(sphenoid dysplasia)、神經根神經纖維瘤(nerve root neurofibroma)、神經纖維瘤(plexiform neurofibroma)、café-au-lait斑點等。"
+            }
+          ]
+        },
+        {
+          "id": "neurofibromatosis-type-1-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "雙側聽神經鞘瘤(bilateral acoustic/vestibular schwannoma)為NF2之特徵性表現"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "STATdx. Copyright © 2018 Elsevier（2018 交換考題詳解 p.128 引用；Tier 2 資料庫）。NF1典型發現含視神經膠質瘤、蝶骨發育不良、神經根神經纖維瘤；雙側聽神經鞘瘤為NF2特徵，非NF1。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 2,
+          "covered": 2,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**NF1典型發現**：視神經膠質瘤(optic nerve glioma)、蝶骨發育不良(sphenoid dysplasia)、神經根神經纖維瘤(nerve root neurofibroma)、神經纖維瘤(plexiform neurofibroma)、café-au-lait斑點等。",
+        "**非NF1典型發現**：**雙側聽神經鞘瘤(bilateral acoustic/vestibular schwannoma)為NF2之特徵性表現**，並非NF1。"
+      ],
+      "coverageEvidenceSha256": "d5557786fd3bed957df95c5923b3f6da55e35afe28d973d1503bfd1348b439e4"
+    },
+    {
+      "slug": "neuromyelitis-optica",
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "## Summary\n\n- **MS**：斑塊多 **supratentorial**;**Dawson finger（垂直腦室的卵圓形室周斑）**、juxtacortical/cortical;活性斑可**環狀（open-ring）強化**。[^1]\n- **NMO**：優先侵犯**視神經與脊髓**（LETM ≥3 椎節）;腦病灶**並非沒有**——**亞洲 60–80%、歐洲 25–40%**,鏡像 **aquaporin-4**（室周、導水管周灰質、下視丘/視丘、dorsal pons/medulla、胼胝體;corticospinal tract 長病灶）。[^1]\n\n\n\n\n- **發病年齡**：MOG-IgG 陽性者**發病年齡通常較 AQP4-IgG 陽性者年輕**（好發兒童/年輕成人）。[^4][^5]\n- **病程（monophasic vs relapsing，⚠ 文獻分歧）**：MOGAD 可為 monophasic 亦可 relapsing。**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 轉為復發**；成人及部分系列復發比例更高（約可達 40–50%）。故「MOGAD typically monophasic」與「tend to relapse」在文獻上並非定論——**官方 2021 詳解把選項 C 的「relapsing」判為錯（改為 monophasic），此鑑別點偏軟，判讀時對照原檔並存疑**。[^4]\n- **視神經炎型態**：ON 為 MOGAD 最主要表現；**常雙側、且偏前段（anterior，視神經頭/眶內段、常伴 optic disc oedema/perineural 強化）**——對照 AQP4-NMOSD 之 ON 偏**後段、跨視交叉（chiasm）**。[^4][^5]\n- **預後**：MOGAD 整體預後相對良好（favorable outcome）；MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎。[^4]\n- **兒童 NMOSD 預後（選項 B）**：兒童發病 NMOSD 在失能（disability）預後上通常較成人為佳。[^4][^5]\n\n",
+      "facts": [
+        {
+          "id": "neuromyelitis-optica-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "supratentorial"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "Dawson finger（垂直腦室的卵圓形室周斑）"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "環狀（open-ring）強化"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "（LETM ≥3 椎節）;"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "（室周、導水管周灰質、下視丘/視丘、dorsal pons/medulla、胼胝體;corticospinal tract 長病灶）。"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f06",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f07",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f08",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f09",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f10",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f11",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f12",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f13",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f14",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f15",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f16",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f17",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f18",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f19",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f20",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f21",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f22",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f23",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f24",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f25",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f26",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "neuromyelitis-optica-f27",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "發病年齡通常較 AQP4-IgG 陽性者年輕"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f28",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：MOGAD 可為 monophasic 亦可 relapsing。"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f29",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "約 2/3 為 monophasic、約 1/3 轉為復發"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f30",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "成人及部分系列復發比例更高（約可達 40–50%）。"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f31",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "官方 2021 詳解把選項 C 的「relapsing」判為錯（改為 monophasic），此鑑別點偏軟，判讀時對照原檔並存疑"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f32",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "：ON 為 MOGAD 最主要表現；"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f33",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "常雙側、且偏前段（anterior，視神經頭/眶內段、常伴 optic disc oedema/perineural 強化）"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f34",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "：MOGAD 整體預後相對良好（favorable outcome）；"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f35",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎。"
+            }
+          ]
+        },
+        {
+          "id": "neuromyelitis-optica-f36",
+          "sourceRefs": [
+            "4",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "：兒童發病 NMOSD 在失能（disability）預後上通常較成人為佳。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Osborn's Brain Ch 15（官方 2017 詳解所引）：NMO 腦病灶亞洲 60–80%／歐洲 25–40%,鏡像 aquaporin-4 分布（室周、導水管周、下視丘/視丘、dorsal pons/medulla、胼胝體）;MS Dawson finger／open-ring 強化。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "**Tier-1 RadioGraphics** — Server Alonso A, Sakinis T, Pfeiffer HCV, et al. *Understanding Pediatric Neuroimmune Disorder Conflicts: A Neuroradiologic Approach in the Molecular Era*. RadioGraphics. 2020;40(5):1395-1411. DOI [10.1148/rg.2020200032](https://doi.org/10.1148/rg.2020200032)（RSNA 正文，實際查證 accessed 2026-07-10）：MOGAD 為與 MS、AQP4-NMOSD 不同的獨立疾病；病程可 monophasic 或 relapsing，**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 復發**；**ON 為最主要表現**；MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎；整體預後相對良好。（⚠ 註：MOGAD monophasic vs relapsing 比例隨族群與追蹤時間差異大，成人系列復發比例更高；官方詳解之「typically monophasic」屬偏軟鑑別，本註以此並列存疑。）"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "**Tier-1 RadioGraphics** — Dutra BG, da Rocha AJ, Nunes RH, Maia ACM Jr. *Neuromyelitis Optica Spectrum Disorders: Spectrum of MR Imaging Findings and Their Differential Diagnosis*. RadioGraphics. 2018;38(1):169-193. DOI [10.1148/rg.2018170141](https://doi.org/10.1148/rg.2018170141)（RSNA 正文，實際查證 accessed 2026-07-10）：AQP4-NMOSD 之 ON 常雙側、長節段、偏**後段視神經與視交叉**；MS 之 ON 多單側、短段、較少及 chiasm——用以對照 MOGAD ON 偏前段/雙側之型態。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 36,
+          "covered": 15,
+          "researchNeeded": 21,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**MS**：斑塊多 **supratentorial**;**Dawson finger（垂直腦室的卵圓形室周斑）**、juxtacortical/cortical;活性斑可**環狀（open-ring）強化**。",
+        "**NMO**：優先侵犯**視神經與脊髓**（LETM ≥3 椎節）;腦病灶**並非沒有**——**亞洲 60–80%、歐洲 25–40%**,鏡像 **aquaporin-4**（室周、導水管周灰質、下視丘/視丘、dorsal pons/medulla、胼胝體;corticospinal tract 長病灶）。",
+        "**發病年齡**：MOG-IgG 陽性者**發病年齡通常較 AQP4-IgG 陽性者年輕**（好發兒童/年輕成人）。",
+        "**病程（monophasic vs relapsing，⚠ 文獻分歧）**：MOGAD 可為 monophasic 亦可 relapsing。**兒童 MOGAD 約 2/3 為 monophasic、約 1/3 轉為復發**；成人及部分系列復發比例更高（約可達 40–50%）。故「MOGAD typically monophasic」與「tend to relapse」在文獻上並非定論——**官方 2021 詳解把選項 C 的「relapsing」判為錯（改為 monophasic），此鑑別點偏軟，判讀時對照原檔並存疑**。",
+        "**視神經炎型態**：ON 為 MOGAD 最主要表現；**常雙側、且偏前段（anterior，視神經頭/眶內段、常伴 optic disc oedema/perineural 強化）**——對照 AQP4-NMOSD 之 ON 偏**後段、跨視交叉（chiasm）**。",
+        "**預後**：MOGAD 整體預後相對良好（favorable outcome）；MOG 相關脊髓炎臨床較 MS 重但長期預後優於 AQP4 脊髓炎。",
+        "**兒童 NMOSD 預後（選項 B）**：兒童發病 NMOSD 在失能（disability）預後上通常較成人為佳。"
+      ],
+      "coverageEvidenceSha256": "4dc2b8a23f520db81ea4a4302d3b88394d7452fce94687c4eb2318c53649c434"
+    },
+    {
+      "slug": "neuropsychiatric-sle",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **NPSLE典型影像表現**：[^1]\n- **非NPSLE定義項目（本題重點）**：**Brain abscess(腦膿瘍)**——雖未列於ACR NPSLE準則，可因**心臟瓣膜黴菌性栓子(mycotic emboli)**續發，但**非NPSLE本身之典型表現**；CT呈中央低密度伴等/高密度環，MR呈DWI中央高擴散訊號。[^1]\n\n- **考點**: **Brain abscess（D）**——非ACR NPSLE定義項目(雖可因瓣膜黴菌性栓子續發)。new infarcts(A)、focal areas of hyperintensity(B)、extensive reversible white matter change(C)皆為NPSLE典型表現。[^1]\n\n",
+      "facts": [
+        {
+          "id": "neuropsychiatric-sle-f01",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "neuropsychiatric-sle-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "new infarcts"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "focal areas of hyperintensity"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "extensive reversible white matter change"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "心臟瓣膜黴菌性栓子(mycotic emboli)"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "CT呈中央低密度伴等/高密度環，MR呈DWI中央高擴散訊號。"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "——非ACR NPSLE定義項目(雖可因瓣膜黴菌性栓子續發)。"
+            }
+          ]
+        },
+        {
+          "id": "neuropsychiatric-sle-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "new infarcts(A)、focal areas of hyperintensity(B)、extensive reversible white matter change(C)皆為NPSLE典型表現。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Diagnostic Imaging: Brain*, I-4-64（2018 交換考題詳解 p.340 引用；Tier 2 教科書）。NPSLE典型影像含新發梗塞、局部T2/FLAIR高訊號病灶、廣泛可逆性白質變化；brain abscess非ACR NPSLE準則項目，可因心臟瓣膜黴菌性栓子續發(CT中央低密度伴環、MR DWI中央高擴散訊號)。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**NPSLE典型影像表現**：",
+        "**非NPSLE定義項目（本題重點）**：**Brain abscess(腦膿瘍)**——雖未列於ACR NPSLE準則，可因**心臟瓣膜黴菌性栓子(mycotic emboli)**續發，但**非NPSLE本身之典型表現**；CT呈中央低密度伴等/高密度環，MR呈DWI中央高擴散訊號。",
+        "**考點**: **Brain abscess（D）**——非ACR NPSLE定義項目(雖可因瓣膜黴菌性栓子續發)。new infarcts(A)、focal areas of hyperintensity(B)、extensive reversible white matter change(C)皆為NPSLE典型表現。"
+      ],
+      "coverageEvidenceSha256": "8ff29decc5dfc8d25a8a94393380e2ab6215c1a45625908efa20f540158129e1"
+    },
+    {
+      "slug": "normal-pressure-hydrocephalus",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **臨床三聯（Hakim triad）**：步態/平衡障礙（magnetic gait，常最早出現）、逼尿肌過動之尿失禁、認知障礙（輕至失智）；開口壓在正常範圍（<18–20 cmH₂O）。[^1]\n- **腦室擴大量測**：**Evans index >0.3**（額角最大寬 / 顱內最大橫徑）；顳角 >6 mm（非海馬萎縮所致）；**callosal angle 變銳（<90°，冠狀面經後聯合垂直於 AC-PC 量測）**；胼胝體上弓。[^1][^2]\n- **不成比例蛛網膜下腔變化**：Sylvian fissure 與 insular cistern 擴大、高凸面與 medial/parafalcine 溝回**擁擠（effacement）**、**cingulate sulcus sign（後半段窄於前半段）**、凸面個別溝回局部擴大。[^1][^2]\n- **重點**: **DESH**（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。[^1]\n- **腦實質變化**：室周低密度（CT）或 T2-FLAIR 高訊號（transependymal oedema／小血管病）。[^1]\n- **CSF flow**：導水管 flow void 明顯（流速增高）；aqueductal stroke volume/peak velocity 可輔助但非必要。[^1]\n- **鈑刀刃狀腦回（knife-blade gyri）非 NPH**：屬額顳葉萎縮（FTD/Pick 病）之嚴重局部萎縮徵象。[^2]（詳見「鑑別與報告要點」）\n- **治療**：確診後以 CSF 分流（多為 VP shunt）；病人選對時約 80% 有反應；步態先於認知惡化、症狀短（<6 個月）、CSF tap test 陽性者預後較好。[^1]\n\n",
+      "facts": [
+        {
+          "id": "normal-pressure-hydrocephalus-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：步態/平衡障礙（magnetic gait，常最早出現）、逼尿肌過動之尿失禁、認知障礙（輕至失智）；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "開口壓在正常範圍（<18–20 cmH₂O）。"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "（額角最大寬 / 顱內最大橫徑）；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "顳角 >6 mm（非海馬萎縮所致）；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "callosal angle 變銳（<90°，冠狀面經後聯合垂直於 AC-PC 量測）"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f06",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "：Sylvian fissure 與 insular cistern 擴大、高凸面與 medial/parafalcine 溝回"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "：室周低密度（CT）或 T2-FLAIR 高訊號（transependymal oedema／小血管病）。"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "：導水管 flow void 明顯（流速增高）；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f11",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "aqueductal stroke volume/peak velocity 可輔助但非必要。"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f12",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "：屬額顳葉萎縮（FTD/Pick 病）之嚴重局部萎縮徵象。"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f13",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "（詳見「鑑別與報告要點」）"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f14",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "：確診後以 CSF 分流（多為 VP shunt）；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f15",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "病人選對時約 80% 有反應；"
+            }
+          ]
+        },
+        {
+          "id": "normal-pressure-hydrocephalus-f16",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "步態先於認知惡化、症狀短（<6 個月）、CSF tap test 陽性者預後較好。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Radiopaedia（公開）** — *Normal pressure hydrocephalus*. Radiopaedia.org, rID **6306**, DOI [10.53347/rID-6306](https://doi.org/10.53347/rID-6306)（實際查證 accessed 2026-07-10）：Hakim triad（步態/尿失禁/認知，wet-wacky-wobbly）、開口壓正常；形態變化含 Evans index >0.3、顳角 >6 mm、**callosal angle <90°（acute）**、胼胝體上弓、Sylvian/insular 擴大、凸面/parafalcine 溝回擁擠、**cingulate sulcus sign（後段窄於前段）**、DESH；室周 T2-FLAIR 高訊號；導水管 flow void；VP shunt 選對病人約 80% 反應。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier-1 RadioGraphics** — Wayer DR, Parsons MS. *Big Vents: Causes of Hydrocephalus*. RadioGraphics. 2025;45(2):e240162. DOI [10.1148/rg.240162](https://doi.org/10.1148/rg.240162)（RSNA 正文，Free Access，實際查證 accessed 2026-07-10）：以壓力為基礎的水腦分類（high-pressure、NPH、low-pressure）；NPH 為潛在可治療失智，經典三聯僅少數同時具備，影像不能單獨診斷，但 **Evans index、callosal angle、cingulate sulcus sign** 有助懷疑病例（另有 CSF flow study、cisternography）；cingulate sulcus sign＝矢狀面前段較後段寬。（「刀刃狀腦回屬額顳葉萎縮/FTD、非 NPH」為神經放射標準知識，用於題目陷阱說明。）"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 16,
+          "covered": 15,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**臨床三聯（Hakim triad）**：步態/平衡障礙（magnetic gait，常最早出現）、逼尿肌過動之尿失禁、認知障礙（輕至失智）；開口壓在正常範圍（<18–20 cmH₂O）。",
+        "**腦室擴大量測**：**Evans index >0.3**（額角最大寬 / 顱內最大橫徑）；顳角 >6 mm（非海馬萎縮所致）；**callosal angle 變銳（<90°，冠狀面經後聯合垂直於 AC-PC 量測）**；胼胝體上弓。",
+        "**不成比例蛛網膜下腔變化**：Sylvian fissure 與 insular cistern 擴大、高凸面與 medial/parafalcine 溝回**擁擠（effacement）**、**cingulate sulcus sign（後半段窄於前半段）**、凸面個別溝回局部擴大。",
+        "**重點**: **DESH**（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。",
+        "**腦實質變化**：室周低密度（CT）或 T2-FLAIR 高訊號（transependymal oedema／小血管病）。",
+        "**CSF flow**：導水管 flow void 明顯（流速增高）；aqueductal stroke volume/peak velocity 可輔助但非必要。",
+        "**鈑刀刃狀腦回（knife-blade gyri）非 NPH**：屬額顳葉萎縮（FTD/Pick 病）之嚴重局部萎縮徵象。（詳見「鑑別與報告要點」）",
+        "**治療**：確診後以 CSF 分流（多為 VP shunt）；病人選對時約 80% 有反應；步態先於認知惡化、症狀短（<6 個月）、CSF tap test 陽性者預後較好。"
+      ],
+      "coverageEvidenceSha256": "c8c81dbe5f5809461eea039f51aa0db47b7e5a0d8479c5be0ab67afb36fe2781"
+    },
+    {
+      "slug": "npsle-imaging",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **NPSLE 相關影像表現**：new infarcts（新發梗塞）、focal areas of hyperintensity（局部高訊號病灶）、extensive reversible white matter change（廣泛可逆性白質變化）。[^1]\n- **非NPSLE表現**：**brain abscess（腦膿瘍）並非NPSLE的影像表現**——若免疫抑制之SLE病人出現腦膿瘍，應優先考慮伺機性感染等其他病因，而非直接歸因於NPSLE本身。[^1]\n\n",
+      "facts": [
+        {
+          "id": "npsle-imaging-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：new infarcts（新發梗塞）、focal areas of hyperintensity（局部高訊號病灶）、extensive reversible white matter change（廣泛可逆性白質變化）。"
+            }
+          ]
+        },
+        {
+          "id": "npsle-imaging-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "——若免疫抑制之SLE病人出現腦膿瘍，應優先考慮伺機性感染等其他病因，而非直接歸因於NPSLE本身。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；Diagnostic Imaging, Brain, I-4-64。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 2,
+          "covered": 2,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**NPSLE 相關影像表現**：new infarcts（新發梗塞）、focal areas of hyperintensity（局部高訊號病灶）、extensive reversible white matter change（廣泛可逆性白質變化）。",
+        "**非NPSLE表現**：**brain abscess（腦膿瘍）並非NPSLE的影像表現**——若免疫抑制之SLE病人出現腦膿瘍，應優先考慮伺機性感染等其他病因，而非直接歸因於NPSLE本身。"
+      ],
+      "coverageEvidenceSha256": "aa3dce224d23a59367e5195836926ee62387225e9e8b33296e2b4e6fde3933cc"
+    }
+  ],
+  "manualReviewFactIds": [
+    "multinodular-vacuolating-neuronal-tumor-f05",
+    "neuromyelitis-optica-f06",
+    "neuromyelitis-optica-f07",
+    "neuromyelitis-optica-f08",
+    "neuromyelitis-optica-f09",
+    "neuromyelitis-optica-f10",
+    "neuromyelitis-optica-f11",
+    "neuromyelitis-optica-f12",
+    "neuromyelitis-optica-f13",
+    "neuromyelitis-optica-f14",
+    "neuromyelitis-optica-f15",
+    "neuromyelitis-optica-f16",
+    "neuromyelitis-optica-f17",
+    "neuromyelitis-optica-f18",
+    "neuromyelitis-optica-f19",
+    "neuromyelitis-optica-f20",
+    "neuromyelitis-optica-f21",
+    "neuromyelitis-optica-f22",
+    "neuromyelitis-optica-f23",
+    "neuromyelitis-optica-f24",
+    "neuromyelitis-optica-f25",
+    "neuromyelitis-optica-f26",
+    "neuropsychiatric-sle-f01",
+    "normal-pressure-hydrocephalus-f06"
+  ],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-07.json"
+}

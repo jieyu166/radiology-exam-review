@@ -12,8 +12,8 @@
   "keyPoints": [
     "**Fenestral type**：最常見，oval window 周圍 sclerotic/lucent 病灶，表現為 **oval window 周圍 \"halo\"**。",
     "**Retrofenestral type**：累及 cochlear capsule，表現為 cochlea 周圍 \"halo\"，但**幾乎不單獨出現（rarely in isolation）**，通常伴隨 fenestral 病變。",
-    "好發 4-5 十歲，懷孕可加重聽力損失。",
-    "CT 上 bony modiolus 多數不可見（up to 90%）。"
+    "**重點**: 好發 4-5 十歲，懷孕可加重聽力損失。",
+    "**重點**: CT 上 bony modiolus 多數不可見（up to 90%）。"
   ],
   "management": "- 據 PubMed，耳硬化症是人類特有、以骨迷路（bony labyrinth）異常骨重塑為特徵的疾病，多因子病因。\n- 病灶使 **stapes 固定於 oval window 緣**，中耳阻抗匹配/放大功能下降，導致**傳導性聽損（conductive hearing loss）**。\n- 病程**進行性**；一旦波及內耳結構，會併發感音神經性成分。\n- 及時施行聽力重建手術可預防或延緩病程；**stapedotomy 為首選治療**，可顯著改善氣導閾值、縮小或消除 air-bone gap。\n- 好發 40–50 歲，**懷孕可加重聽力損失**。\n\n**參考來源**\n: 2019 交換考詳解；Radiology 2015; 276:655-672。\n: 據 PubMed，Kriston F, Rovó L, Kiss JG, Jarabin JA. *Clinical aspects of otosclerotic ossicular chain fixations.* Orv Hetil. 2020;161(19):780-788（PMID 32365050，[DOI](https://doi.org/10.1556/650.2020.31701)）：耳硬化症為人類特有骨迷路異常骨重塑、多因子病因；stapes 固定於 oval window 緣→中耳阻抗匹配下降→傳導性聽損；病程進行性、波及內耳則併感音神經成分；stapedotomy 為首選治療，可改善氣導閾值與 air-bone gap。",
   "name": "Otosclerosis",

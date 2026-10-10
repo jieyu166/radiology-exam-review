@@ -1,0 +1,1098 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2b-tranche-verification",
+  "phase2bVerification": {
+    "status": "phase2b-complete-with-manual-queue",
+    "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+    "batchIds": [
+      "scheduled-disease-01",
+      "scheduled-disease-02",
+      "scheduled-disease-03",
+      "scheduled-disease-04",
+      "scheduled-disease-05",
+      "scheduled-disease-06",
+      "scheduled-disease-07",
+      "scheduled-disease-08",
+      "scheduled-disease-09",
+      "scheduled-disease-10"
+    ],
+    "strictNoteCount": 100,
+    "strictNotes": [
+      {
+        "slug": "behcet-disease-neuro",
+        "path": "vault/concepts/behcet-disease-neuro.md",
+        "status": "pass"
+      },
+      {
+        "slug": "brain-abscess",
+        "path": "vault/concepts/brain-abscess.md",
+        "status": "pass"
+      },
+      {
+        "slug": "brain-metastasis-mri",
+        "path": "vault/concepts/brain-metastasis-mri.md",
+        "status": "pass"
+      },
+      {
+        "slug": "capillary-telangiectasia",
+        "path": "vault/concepts/capillary-telangiectasia.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cardioembolic-stroke",
+        "path": "vault/concepts/cardioembolic-stroke.md",
+        "status": "pass"
+      },
+      {
+        "slug": "carotid-cavernous-fistula",
+        "path": "vault/concepts/carotid-cavernous-fistula.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cavernous-sinus-schwannoma",
+        "path": "vault/concepts/cavernous-sinus-schwannoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "central-neurocytoma",
+        "path": "vault/concepts/central-neurocytoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cerebral-cavernous-malformation",
+        "path": "vault/concepts/cerebral-cavernous-malformation.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cerebral-proliferative-angiopathy",
+        "path": "vault/concepts/cerebral-proliferative-angiopathy.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cerebral-pseudoaneurysm",
+        "path": "vault/concepts/cerebral-pseudoaneurysm.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cerebral-venous-thrombosis-mri",
+        "path": "vault/concepts/cerebral-venous-thrombosis-mri.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cervical-radiculopathy",
+        "path": "vault/concepts/cervical-radiculopathy.md",
+        "status": "pass"
+      },
+      {
+        "slug": "chiari-malformation",
+        "path": "vault/concepts/chiari-malformation.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cholesterol-granuloma-petrous-apex",
+        "path": "vault/concepts/cholesterol-granuloma-petrous-apex.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cns-germinoma",
+        "path": "vault/concepts/cns-germinoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "colloid-cyst",
+        "path": "vault/concepts/colloid-cyst.md",
+        "status": "pass"
+      },
+      {
+        "slug": "congenital-aural-atresia",
+        "path": "vault/concepts/congenital-aural-atresia.md",
+        "status": "pass"
+      },
+      {
+        "slug": "corpus-callosum-agenesis-signs",
+        "path": "vault/concepts/corpus-callosum-agenesis-signs.md",
+        "status": "pass"
+      },
+      {
+        "slug": "corpus-callosum-dysgenesis",
+        "path": "vault/concepts/corpus-callosum-dysgenesis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "covid-19-brain-mri",
+        "path": "vault/concepts/covid-19-brain-mri.md",
+        "status": "pass"
+      },
+      {
+        "slug": "craniosynostosis-suture-fusion",
+        "path": "vault/concepts/craniosynostosis-suture-fusion.md",
+        "status": "pass"
+      },
+      {
+        "slug": "cri-du-chat-syndrome",
+        "path": "vault/concepts/cri-du-chat-syndrome.md",
+        "status": "pass"
+      },
+      {
+        "slug": "dandy-walker-malformation",
+        "path": "vault/concepts/dandy-walker-malformation.md",
+        "status": "pass"
+      },
+      {
+        "slug": "dural-av-fistula",
+        "path": "vault/concepts/dural-av-fistula.md",
+        "status": "pass"
+      },
+      {
+        "slug": "dural-avf",
+        "path": "vault/concepts/dural-avf.md",
+        "status": "pass"
+      },
+      {
+        "slug": "dural-venous-sinus-thrombosis",
+        "path": "vault/concepts/dural-venous-sinus-thrombosis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "eac-exostoses",
+        "path": "vault/concepts/eac-exostoses.md",
+        "status": "pass"
+      },
+      {
+        "slug": "empty-sella",
+        "path": "vault/concepts/empty-sella.md",
+        "status": "pass"
+      },
+      {
+        "slug": "ependymoma",
+        "path": "vault/concepts/ependymoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "ev71-cns-complications",
+        "path": "vault/concepts/ev71-cns-complications.md",
+        "status": "pass"
+      },
+      {
+        "slug": "fabry-disease-pulvinar",
+        "path": "vault/concepts/fabry-disease-pulvinar.md",
+        "status": "pass"
+      },
+      {
+        "slug": "facial-nerve-schwannoma",
+        "path": "vault/concepts/facial-nerve-schwannoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "fahr-disease",
+        "path": "vault/concepts/fahr-disease.md",
+        "status": "pass"
+      },
+      {
+        "slug": "fibromuscular-dysplasia",
+        "path": "vault/concepts/fibromuscular-dysplasia.md",
+        "status": "pass"
+      },
+      {
+        "slug": "gbm",
+        "path": "vault/concepts/gbm.md",
+        "status": "pass"
+      },
+      {
+        "slug": "glomus-jugulare",
+        "path": "vault/concepts/glomus-jugulare.md",
+        "status": "pass"
+      },
+      {
+        "slug": "glutaric-aciduria-type1",
+        "path": "vault/concepts/glutaric-aciduria-type1.md",
+        "status": "pass"
+      },
+      {
+        "slug": "head-melanoma-mri-signal",
+        "path": "vault/concepts/head-melanoma-mri-signal.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hemangioblastoma",
+        "path": "vault/concepts/hemangioblastoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hemichorea-hemiballism",
+        "path": "vault/concepts/hemichorea-hemiballism.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hemimegalencephaly",
+        "path": "vault/concepts/hemimegalencephaly.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hepatic-encephalopathy-manganese-deposition",
+        "path": "vault/concepts/hepatic-encephalopathy-manganese-deposition.md",
+        "status": "pass"
+      },
+      {
+        "slug": "herpes-simplex-encephalitis",
+        "path": "vault/concepts/herpes-simplex-encephalitis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hypertensive-hemorrhage",
+        "path": "vault/concepts/hypertensive-hemorrhage.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hypothalamic-hamartoma",
+        "path": "vault/concepts/hypothalamic-hamartoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "hypoxic-ischemic-encephalopathy",
+        "path": "vault/concepts/hypoxic-ischemic-encephalopathy.md",
+        "status": "pass"
+      },
+      {
+        "slug": "iatrogenic-femoral-pseudoaneurysm",
+        "path": "vault/concepts/iatrogenic-femoral-pseudoaneurysm.md",
+        "status": "pass"
+      },
+      {
+        "slug": "idiopathic-intracranial-hypertension",
+        "path": "vault/concepts/idiopathic-intracranial-hypertension.md",
+        "status": "pass"
+      },
+      {
+        "slug": "incomplete-spinal-cord-syndrome",
+        "path": "vault/concepts/incomplete-spinal-cord-syndrome.md",
+        "status": "pass"
+      },
+      {
+        "slug": "intracranial-lipoma",
+        "path": "vault/concepts/intracranial-lipoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "joubert-syndrome",
+        "path": "vault/concepts/joubert-syndrome.md",
+        "status": "pass"
+      },
+      {
+        "slug": "lacunar-infarction",
+        "path": "vault/concepts/lacunar-infarction.md",
+        "status": "pass"
+      },
+      {
+        "slug": "large-vestibular-aqueduct",
+        "path": "vault/concepts/large-vestibular-aqueduct.md",
+        "status": "pass"
+      },
+      {
+        "slug": "lemierre-syndrome",
+        "path": "vault/concepts/lemierre-syndrome.md",
+        "status": "pass"
+      },
+      {
+        "slug": "lipomyelomeningocele",
+        "path": "vault/concepts/lipomyelomeningocele.md",
+        "status": "pass"
+      },
+      {
+        "slug": "men1",
+        "path": "vault/concepts/men1.md",
+        "status": "pass"
+      },
+      {
+        "slug": "metachromatic-leukodystrophy",
+        "path": "vault/concepts/metachromatic-leukodystrophy.md",
+        "status": "pass"
+      },
+      {
+        "slug": "methanol-toxicity",
+        "path": "vault/concepts/methanol-toxicity.md",
+        "status": "pass"
+      },
+      {
+        "slug": "moyamoya",
+        "path": "vault/concepts/moyamoya.md",
+        "status": "pass"
+      },
+      {
+        "slug": "moyamoya-disease",
+        "path": "vault/concepts/moyamoya-disease.md",
+        "status": "pass"
+      },
+      {
+        "slug": "mucormycosis",
+        "path": "vault/concepts/mucormycosis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "multinodular-vacuolating-neuronal-tumor",
+        "path": "vault/concepts/multinodular-vacuolating-neuronal-tumor.md",
+        "status": "pass"
+      },
+      {
+        "slug": "multiple-sclerosis-imaging",
+        "path": "vault/concepts/multiple-sclerosis-imaging.md",
+        "status": "pass"
+      },
+      {
+        "slug": "neurocutaneous-melanosis",
+        "path": "vault/concepts/neurocutaneous-melanosis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "neurofibromatosis-type-1",
+        "path": "vault/concepts/neurofibromatosis-type-1.md",
+        "status": "pass"
+      },
+      {
+        "slug": "neuromyelitis-optica",
+        "path": "vault/concepts/neuromyelitis-optica.md",
+        "status": "pass"
+      },
+      {
+        "slug": "neuropsychiatric-sle",
+        "path": "vault/concepts/neuropsychiatric-sle.md",
+        "status": "pass"
+      },
+      {
+        "slug": "normal-pressure-hydrocephalus",
+        "path": "vault/concepts/normal-pressure-hydrocephalus.md",
+        "status": "pass"
+      },
+      {
+        "slug": "npsle-imaging",
+        "path": "vault/concepts/npsle-imaging.md",
+        "status": "pass"
+      },
+      {
+        "slug": "odontoid-fracture",
+        "path": "vault/concepts/odontoid-fracture.md",
+        "status": "pass"
+      },
+      {
+        "slug": "opscc-hpv",
+        "path": "vault/concepts/opscc-hpv.md",
+        "status": "pass"
+      },
+      {
+        "slug": "optic-nerve-meningioma",
+        "path": "vault/concepts/optic-nerve-meningioma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "optic-nerve-sheath-meningioma",
+        "path": "vault/concepts/optic-nerve-sheath-meningioma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "otosclerosis",
+        "path": "vault/concepts/otosclerosis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "parathyroid-adenoma",
+        "path": "vault/concepts/parathyroid-adenoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pediatric-lgg-genetics",
+        "path": "vault/concepts/pediatric-lgg-genetics.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pediatric-meningitis",
+        "path": "vault/concepts/pediatric-meningitis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pelizaeus-merzbacher-disease",
+        "path": "vault/concepts/pelizaeus-merzbacher-disease.md",
+        "status": "pass"
+      },
+      {
+        "slug": "perimesencephalic-sah",
+        "path": "vault/concepts/perimesencephalic-sah.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pilocytic-astrocytoma",
+        "path": "vault/concepts/pilocytic-astrocytoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pituicytoma",
+        "path": "vault/concepts/pituicytoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pituitary-macroadenoma",
+        "path": "vault/concepts/pituitary-macroadenoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "pres",
+        "path": "vault/concepts/pres.md",
+        "status": "pass"
+      },
+      {
+        "slug": "psp-imaging-signs",
+        "path": "vault/concepts/psp-imaging-signs.md",
+        "status": "pass"
+      },
+      {
+        "slug": "ra-cervical-spine",
+        "path": "vault/concepts/ra-cervical-spine.md",
+        "status": "pass"
+      },
+      {
+        "slug": "radiation-induced-hypopituitarism",
+        "path": "vault/concepts/radiation-induced-hypopituitarism.md",
+        "status": "pass"
+      },
+      {
+        "slug": "remote-cerebellar-hemorrhage",
+        "path": "vault/concepts/remote-cerebellar-hemorrhage.md",
+        "status": "pass"
+      },
+      {
+        "slug": "retinoblastoma",
+        "path": "vault/concepts/retinoblastoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "rhombencephalosynapsis",
+        "path": "vault/concepts/rhombencephalosynapsis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "schwannomatosis",
+        "path": "vault/concepts/schwannomatosis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "sciwora",
+        "path": "vault/concepts/sciwora.md",
+        "status": "pass"
+      },
+      {
+        "slug": "second-impact-syndrome",
+        "path": "vault/concepts/second-impact-syndrome.md",
+        "status": "pass"
+      },
+      {
+        "slug": "skull-base-osteomyelitis",
+        "path": "vault/concepts/skull-base-osteomyelitis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "solitary-fibrous-tumor-hemangiopericytoma",
+        "path": "vault/concepts/solitary-fibrous-tumor-hemangiopericytoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "spinal-cord-astrocytoma",
+        "path": "vault/concepts/spinal-cord-astrocytoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "spinal-ewing-sarcoma",
+        "path": "vault/concepts/spinal-ewing-sarcoma.md",
+        "status": "pass"
+      },
+      {
+        "slug": "spondylodiscitis",
+        "path": "vault/concepts/spondylodiscitis.md",
+        "status": "pass"
+      },
+      {
+        "slug": "spontaneous-intracranial-hypotension",
+        "path": "vault/concepts/spontaneous-intracranial-hypotension.md",
+        "status": "pass"
+      },
+      {
+        "slug": "spontaneous-skull-base-cephalocele",
+        "path": "vault/concepts/spontaneous-skull-base-cephalocele.md",
+        "status": "pass"
+      }
+    ],
+    "verifiedNoteCount": 62,
+    "manualReviewFactIds": [
+      "behcet-disease-neuro-f02",
+      "brain-abscess-f04",
+      "brain-abscess-f05",
+      "cerebral-pseudoaneurysm-f02",
+      "cerebral-pseudoaneurysm-f04",
+      "cerebral-pseudoaneurysm-f05",
+      "cerebral-pseudoaneurysm-f06",
+      "cerebral-pseudoaneurysm-f07",
+      "cerebral-venous-thrombosis-mri-f01",
+      "cerebral-venous-thrombosis-mri-f02",
+      "cerebral-venous-thrombosis-mri-f05",
+      "cervical-radiculopathy-f01",
+      "cervical-radiculopathy-f02",
+      "chiari-malformation-f07",
+      "chiari-malformation-f40",
+      "cholesterol-granuloma-petrous-apex-f03",
+      "cholesterol-granuloma-petrous-apex-f04",
+      "cholesterol-granuloma-petrous-apex-f05",
+      "cholesterol-granuloma-petrous-apex-f06",
+      "cholesterol-granuloma-petrous-apex-f08",
+      "cholesterol-granuloma-petrous-apex-f10",
+      "cholesterol-granuloma-petrous-apex-f11",
+      "cns-germinoma-f03",
+      "cns-germinoma-f05",
+      "cns-germinoma-f10",
+      "cns-germinoma-f24",
+      "cns-germinoma-f33",
+      "colloid-cyst-f02",
+      "colloid-cyst-f03",
+      "colloid-cyst-f04",
+      "congenital-aural-atresia-f06",
+      "congenital-aural-atresia-f07",
+      "congenital-aural-atresia-f10",
+      "congenital-aural-atresia-f11",
+      "congenital-aural-atresia-f12",
+      "corpus-callosum-agenesis-signs-f02",
+      "corpus-callosum-agenesis-signs-f05",
+      "cri-du-chat-syndrome-f04",
+      "dural-venous-sinus-thrombosis-f01",
+      "ependymoma-f01",
+      "fibromuscular-dysplasia-f01",
+      "fibromuscular-dysplasia-f02",
+      "fibromuscular-dysplasia-f03",
+      "fibromuscular-dysplasia-f04",
+      "fibromuscular-dysplasia-f05",
+      "fibromuscular-dysplasia-f11",
+      "gbm-f30",
+      "glomus-jugulare-f04",
+      "glomus-jugulare-f06",
+      "hemangioblastoma-f06",
+      "hemichorea-hemiballism-f06",
+      "herpes-simplex-encephalitis-f02",
+      "herpes-simplex-encephalitis-f03",
+      "herpes-simplex-encephalitis-f04",
+      "herpes-simplex-encephalitis-f05",
+      "hypertensive-hemorrhage-f18",
+      "hypertensive-hemorrhage-f32",
+      "joubert-syndrome-f04",
+      "joubert-syndrome-f05",
+      "joubert-syndrome-f06",
+      "lipomyelomeningocele-f02",
+      "men1-f10",
+      "methanol-toxicity-f04",
+      "moyamoya-f01",
+      "moyamoya-f02",
+      "moyamoya-f03",
+      "moyamoya-f04",
+      "moyamoya-f06",
+      "moyamoya-f07",
+      "moyamoya-f08",
+      "moyamoya-f14",
+      "multinodular-vacuolating-neuronal-tumor-f05",
+      "neuromyelitis-optica-f06",
+      "neuromyelitis-optica-f07",
+      "neuromyelitis-optica-f08",
+      "neuromyelitis-optica-f09",
+      "neuromyelitis-optica-f10",
+      "neuromyelitis-optica-f11",
+      "neuromyelitis-optica-f12",
+      "neuromyelitis-optica-f13",
+      "neuromyelitis-optica-f14",
+      "neuromyelitis-optica-f15",
+      "neuromyelitis-optica-f16",
+      "neuromyelitis-optica-f17",
+      "neuromyelitis-optica-f18",
+      "neuromyelitis-optica-f19",
+      "neuromyelitis-optica-f20",
+      "neuromyelitis-optica-f21",
+      "neuromyelitis-optica-f22",
+      "neuromyelitis-optica-f23",
+      "neuromyelitis-optica-f24",
+      "neuromyelitis-optica-f25",
+      "neuromyelitis-optica-f26",
+      "neuropsychiatric-sle-f01",
+      "normal-pressure-hydrocephalus-f06",
+      "odontoid-fracture-f06",
+      "odontoid-fracture-f09",
+      "optic-nerve-meningioma-f04",
+      "optic-nerve-meningioma-f05",
+      "perimesencephalic-sah-f10",
+      "pres-f02",
+      "pres-f03",
+      "ra-cervical-spine-f06",
+      "ra-cervical-spine-f07",
+      "ra-cervical-spine-f08",
+      "rhombencephalosynapsis-f08",
+      "sciwora-f05",
+      "spondylodiscitis-f03"
+    ],
+    "lint": {
+      "namedErrors": [
+        "[footnote 未定義] ceap-classification.md 用了 [^*] 但無定義",
+        "[json 殘留 ![[...]]] 2022-264"
+      ],
+      "warningDelta": {
+        "before": 124,
+        "after": 124,
+        "delta": 0,
+        "explanations": []
+      }
+    },
+    "generated": {
+      "batchManifestSha256": "1f96e27760db3a496baebed0c2720c3d1ad8279157b7a3061fa0f3b659b4abc2",
+      "coherent": true
+    }
+  },
+  "batches": [
+    {
+      "batch": "scheduled-disease-01",
+      "baselineSha256": "cf3c938af1bfe1f42e850bad134ac6b05eaab60ee89e3ab0b296819bace30cdd",
+      "evidenceSha256": "c0ac65d4cb5d45f4040668c0cecedf5bb93cda90cb4648363ec1ef018c0d2013",
+      "review": {
+        "sequence": 1,
+        "predecessor": null,
+        "implementer": "/root/phase2b_task2_1_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "cf3c938af1bfe1f42e850bad134ac6b05eaab60ee89e3ab0b296819bace30cdd"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-01.json",
+        "sha256": "73689aaf59ef660c1b110e2cfef51c3af6d99b38f2be29ba5b8617196a6c04bb",
+        "observationSha256": "2fc66b6cfcb44bdffc2daca03f8580c71877a8eb9a637269364d9b5b807c5a60"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/behcet-disease-neuro.json": "9741079e88a4b82e50fc0da581845966a7623a3882e4c4024e6c7abdfcec8b2d",
+        "data/concepts/brain-abscess.json": "340fbca6b57d9220baa3a11419381f74be76ea98781a83df7d28d127523479f2",
+        "data/concepts/brain-metastasis-mri.json": "8094f7a912f5b4cc563a23166f2388ba332640c7eb3494a3a9c375d61b4c6d71",
+        "data/concepts/capillary-telangiectasia.json": "3bef0b61303182520b06bbe65811d83bd2210911181e2f250ca83382ba3e3da8",
+        "data/concepts/cardioembolic-stroke.json": "cb0ec42ea10c5f644a4cfc2b5028b02f912cbc890057b5b6b2443dd59b73575d",
+        "data/concepts/carotid-cavernous-fistula.json": "e04a5a35d2772afa3b001d13949530be362aa329eaff8677858bd149051b8c7d",
+        "data/concepts/cavernous-sinus-schwannoma.json": "d59de8c1224ad3aa8ec358d0a0bda566ba18ea28b0a39f8a1537b535f0a804b1",
+        "data/concepts/central-neurocytoma.json": "5ef9fa2cf81e45237059c76fb0b1ae2c2e477ec45fa2e0d28cda3ae18723caaa",
+        "data/concepts/cerebral-cavernous-malformation.json": "bff81913060a251d8c05bd888060811fb63fc27ae64d7cfe129252400fde5b49",
+        "data/concepts/cerebral-proliferative-angiopathy.json": "758fa3e300f875a2b26682d02abef75d8e5a564c4ea92c71ec5dd227d0606f29"
+      }
+    },
+    {
+      "batch": "scheduled-disease-02",
+      "baselineSha256": "cacdb9dce7767ac685dea049498a413f1a1d1d67f71340bbf10aa80c6b37fa94",
+      "evidenceSha256": "703a7bdad7a7ec5bb8bc8d8598d52d3f32cb1b576b41ac832001988b108964d2",
+      "review": {
+        "sequence": 2,
+        "predecessor": "scheduled-disease-01",
+        "implementer": "/root/phase2b_task2_2_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "cacdb9dce7767ac685dea049498a413f1a1d1d67f71340bbf10aa80c6b37fa94"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-02.json",
+        "sha256": "3181eda5faffcba219a52005c4c74420a7c7d257657adbbc416a162ff8698857",
+        "observationSha256": "07b22ca55d74d1031f98f331c3b9a22b9d2b808207a4f0ec01392e5d8141715a"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/cerebral-pseudoaneurysm.json": "1b584d4431ef94ef96ae85bbb32739f94860d66c5602232c99b0f1ac7afad1ac",
+        "data/concepts/cerebral-venous-thrombosis-mri.json": "1eb2cb6bf4855d9260b1e17c4c071a3bb7c8d6827fb591aadb7688644d50c0cd",
+        "data/concepts/cervical-radiculopathy.json": "ab9eea2d2b55a18f41b17eb675d8489be9c710712fec27e055908e9cb1eda072",
+        "data/concepts/chiari-malformation.json": "b9d84b8fc9c836683c7b4974281366bd962b9d32439784effccad171b987cda8",
+        "data/concepts/cholesterol-granuloma-petrous-apex.json": "2226eb79fe692d17d3ce0264eaa750889e364900bb091b7781db386ff0644a1c",
+        "data/concepts/cns-germinoma.json": "8f2d15676b53f4c52852ebd642826fed2a363c0733773eb25e6ab693c1257eda",
+        "data/concepts/colloid-cyst.json": "db61b036367fd62ddafbd7a5c1159d3020ddcbb17842a63c52a4968f909c14ac",
+        "data/concepts/congenital-aural-atresia.json": "7a29cee8fd7689d0f630b59317f037d084ebe877873784afec6f89493dcfccb7",
+        "data/concepts/corpus-callosum-agenesis-signs.json": "25121ef1b86ace2c281a5611b5a1f143aab53533e46e4a5f474526f78a7c5d3b",
+        "data/concepts/corpus-callosum-dysgenesis.json": "b6f0e3f9ec9d8349efd63d9a14fb23a353a76ce0d38bf1d2a1fb4a6927cc33db"
+      }
+    },
+    {
+      "batch": "scheduled-disease-03",
+      "baselineSha256": "0f125f508a63c96892268eaf977a99e056eb3b67ac31c7149f4036101a7ba663",
+      "evidenceSha256": "06b515b21050e9e2829464ddea662a4262ae3abc781ea3b6c35da1a0369a8a92",
+      "review": {
+        "sequence": 3,
+        "predecessor": "scheduled-disease-02",
+        "implementer": "/root/phase2b_task2_3_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "0f125f508a63c96892268eaf977a99e056eb3b67ac31c7149f4036101a7ba663"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-03.json",
+        "sha256": "d1d1e94c2b24e5928aa92f3f8556cd31b99ecdbccedb2a4963ac90fcbe9e4141",
+        "observationSha256": "91140f8390b3352476bdec032ba72725e6bc04112e164bf760aebc96583b4bd9"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/covid-19-brain-mri.json": "0b3f2bfbd44557dcbb4355f2408fcbb12d583f8476dce550f5858d3294d80c06",
+        "data/concepts/craniosynostosis-suture-fusion.json": "305ba14b42eb40eb75aa4fbbabd62a3ee2ca2900d8424a4c80bfe6f6a423f9ca",
+        "data/concepts/cri-du-chat-syndrome.json": "5535a4920fd78117fcb38c9253be530400467c3dea5f93bbddcade0f40683155",
+        "data/concepts/dandy-walker-malformation.json": "fe26c8a9bb342559b2b3dab4882ede97f65e480c44505193fe69500c4e4c8008",
+        "data/concepts/dural-av-fistula.json": "d3a542ed5fd929b4e1155370428b7f8de5ce0ea31ef2d0f3ac07123e7800fa1e",
+        "data/concepts/dural-avf.json": "a40b5bf9e9163d8eb27e1c279d47f3b6bfe5e34eceae3cc246bf2b944f3dfa14",
+        "data/concepts/dural-venous-sinus-thrombosis.json": "4bedc0a0280e975d8af4599aa6eebbcf477f8db8af1a8e6c33099329417b3e28",
+        "data/concepts/eac-exostoses.json": "1ae8efc49ae897ac06a4b0e79a5281f5e787007714ec82d647503ff1bdee4561",
+        "data/concepts/empty-sella.json": "1eedc1ba516a651239620f2e5c1648ec2f4d1402239b7b8cd94fcb3a89daa8c4",
+        "data/concepts/ependymoma.json": "9a391c24912056f998d20c709aeab6aba793b5fefbd5a4dd121216408bc6091d"
+      }
+    },
+    {
+      "batch": "scheduled-disease-04",
+      "baselineSha256": "df5dd10bc6a72774109483829ef5134c82fc82302810039270ae17a34fcb6fe3",
+      "evidenceSha256": "bfe8a12726acbdddfc6dfc5a1ee51105961820130875ea8057d3e86ee105d7fb",
+      "review": {
+        "sequence": 4,
+        "predecessor": "scheduled-disease-03",
+        "implementer": "/root/phase2b_task2_4_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "df5dd10bc6a72774109483829ef5134c82fc82302810039270ae17a34fcb6fe3"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-04.json",
+        "sha256": "61ef72f8d42607d036454de7f9ef88a6ae0bb61287cdbca58aee4c2c42464aaa",
+        "observationSha256": "e78f268a928a93bc22594c45821bb102258ed33581cda2daa2dcde8e66f289bb"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/ev71-cns-complications.json": "b43233f7200d83bfa13815d333c96231f957b475de69b76457b01cefddd8ad76",
+        "data/concepts/fabry-disease-pulvinar.json": "70dfefaa7ac05a392c6d6822b11281c31e53b65e26a1636f893b6fce1cf718a2",
+        "data/concepts/facial-nerve-schwannoma.json": "693cbb2fe9f86ab86badce2c68a995d2528d815487fc5566ddca8c0f190f7775",
+        "data/concepts/fahr-disease.json": "584b7dce39df0c062515c44531083ebc7bd93f91cb4d0c5bf12561a34dceff27",
+        "data/concepts/fibromuscular-dysplasia.json": "24593ae3c39f9ddf9de749e438d197e6642e9439f593866bb8cc71ac45a3d36f",
+        "data/concepts/gbm.json": "f8e79d2a7474582f3bc8ffd47e097724de4e613e25352a86db53fff7fee353b0",
+        "data/concepts/glomus-jugulare.json": "8f29d8d947d20c0420a307664b7374a76557bdbe84dafcff6eb144e97d6bf917",
+        "data/concepts/glutaric-aciduria-type1.json": "c2f8a54c2719e347abc42baf5852366329b9e372aaf521d9b3d3f50764cffa69",
+        "data/concepts/head-melanoma-mri-signal.json": "737c11a82d33c62d7f03258200553f303549311a0295421d6dc38e6e7f4befe5",
+        "data/concepts/hemangioblastoma.json": "2a25640edfd3320e073c08cd01bf2e9d09cb80b0ae70b59b5122534977f63e8d"
+      }
+    },
+    {
+      "batch": "scheduled-disease-05",
+      "baselineSha256": "8a8d6f53edebb6464a3455f5ab0fa6bb47bcd4cf8250acfb3ee1d6d213d86d33",
+      "evidenceSha256": "57c4f88a9967fcffea5084523dbf446149a42b2ee121487c3b31a4f261818f87",
+      "review": {
+        "sequence": 5,
+        "predecessor": "scheduled-disease-04",
+        "implementer": "/root/phase2b_task2_5_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "8a8d6f53edebb6464a3455f5ab0fa6bb47bcd4cf8250acfb3ee1d6d213d86d33"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-05.json",
+        "sha256": "b3ff94db3a925341ac95c3006081d511d21cf55cc5c27809c48ba77444352cde",
+        "observationSha256": "9df5aef781ac629c89f2b8ad462c7e70f758e9eb2ef55acd2c1712102b38f877"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/hemichorea-hemiballism.json": "8b151e1105cd1a09b0f16cf15d4b5637a542153888433ada9e5c8d9f939e7094",
+        "data/concepts/hemimegalencephaly.json": "ec10b7e2ff6645ca21e06552151b3f99feda887df705c1e293a6784eb285487f",
+        "data/concepts/hepatic-encephalopathy-manganese-deposition.json": "74c9bc1c401363f9b247af3d2a50d518f29debda343b681d48d35da168d93397",
+        "data/concepts/herpes-simplex-encephalitis.json": "bddc5ce04ddc4dae042659640289ae21be711e87e962f527068b0006d1750922",
+        "data/concepts/hypertensive-hemorrhage.json": "054deff825bc5365c5301aa1a80ce4d1c35ed8e0d52e04c4146bccf75e885834",
+        "data/concepts/hypothalamic-hamartoma.json": "8e204b8d8bb4dbf3b3f3b670a8b471c84452038ba54316391fb9e8a503aa0e8c",
+        "data/concepts/hypoxic-ischemic-encephalopathy.json": "2f65a8cbebe8616495042b4f7561a39c04089279d2dde18c9862fec28db4ca79",
+        "data/concepts/iatrogenic-femoral-pseudoaneurysm.json": "1f3f84ed573b7f9dfaaa6dd7fbfb39b3eff0f32203fca78765db9e3bf2239b78",
+        "data/concepts/idiopathic-intracranial-hypertension.json": "7100cdd569f83ac08f9e0f6d4a03da44364324520ecb6d5d03c3cd00590ca3e2",
+        "data/concepts/incomplete-spinal-cord-syndrome.json": "f6011a13cb863203cc335e220fbb273bbcf73e2c29357e75487a64d26edbd222"
+      }
+    },
+    {
+      "batch": "scheduled-disease-06",
+      "baselineSha256": "27bf472515c39b245a65ece1e609b2219e659a67157fb51e2267fbe2edbf5df5",
+      "evidenceSha256": "d5470b974cd67c5f1af45e0df5b67d2fa40b9f29f2c9d096ecb3708e03ef2420",
+      "review": {
+        "sequence": 6,
+        "predecessor": "scheduled-disease-05",
+        "implementer": "/root/phase2b_task2_6_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "27bf472515c39b245a65ece1e609b2219e659a67157fb51e2267fbe2edbf5df5"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-06.json",
+        "sha256": "bf99b6b52d5ab7fba60518ee1f2c507b0337703c75e9d065297e7ec77938d585",
+        "observationSha256": "beb2e7b584093a97c5bde366a6935ba83a8ad5082ae3aec96ba2902f482806d3"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/intracranial-lipoma.json": "5b0d50e50805f02d5b9d24107a10269975fd6fdfc908e2b301c5babdfca2a0f8",
+        "data/concepts/joubert-syndrome.json": "203af2da1de448d9b16f711d9b2de4ba792a0bbe99ff328dfaab493e0f8e9371",
+        "data/concepts/lacunar-infarction.json": "b50895787271b7a2d671cd21e654593caac1b5c7b7fa49c747782a9297a268f3",
+        "data/concepts/large-vestibular-aqueduct.json": "b85ce1503229e82bf1d5be14183302c1428bc929078071a55158b6b509b47063",
+        "data/concepts/lemierre-syndrome.json": "54b2bdbc8681af7cd907526e637c661a9c78c67bdf6acce49a42cef12e98bb29",
+        "data/concepts/lipomyelomeningocele.json": "96ba34cc1baf463d925f62cd96cd5ff27feb73d47917d24f41b71dec431fd5b5",
+        "data/concepts/men1.json": "b1b813949af12cb6d0f0ff34debbd0fc5fac8e29295b87ded5bbcff22e7d7e8f",
+        "data/concepts/metachromatic-leukodystrophy.json": "315354e126cd7f5b836b1936d860e09d1583cb73b139db99fb132991d8a4bf66",
+        "data/concepts/methanol-toxicity.json": "ce6c33bdb44804b45c2c2e1215845765019a99728f89e282444bc6ce2fa7ab8f",
+        "data/concepts/moyamoya.json": "9cc659d046597626289ae87fe4a5079a8f9241a54eab60499281c48a456eed27"
+      }
+    },
+    {
+      "batch": "scheduled-disease-07",
+      "baselineSha256": "ba7b89fd893545fb300c402edcab190183af7783357c8708ed32a3fda082db7e",
+      "evidenceSha256": "87f82c4da8e2f431cd55c12fc3f94a7951616abb86aed141dc28dada8c3ab861",
+      "review": {
+        "sequence": 7,
+        "predecessor": "scheduled-disease-06",
+        "implementer": "/root/phase2b_task2_7_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "ba7b89fd893545fb300c402edcab190183af7783357c8708ed32a3fda082db7e"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-07.json",
+        "sha256": "935fcf2095d2edd5f4fe2b0a68ec63fd7e07a059f4908e86ce99c9965064ef7c",
+        "observationSha256": "424f49924b0a610a7e92746ce2398094085be167881614e78a849ed6abe74a74"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/moyamoya-disease.json": "5e45da425028add336184f118e2be8db233bc82d7989d04a3dfcb624ded3f0f3",
+        "data/concepts/mucormycosis.json": "6066e118ef22361942d48d178258927c89073345c89376ef4569fea3db60bcab",
+        "data/concepts/multinodular-vacuolating-neuronal-tumor.json": "9d5a73ad01629820df7a8a33bbc533913fa6034c82c81e1c53ae785f84de3bc4",
+        "data/concepts/multiple-sclerosis-imaging.json": "95570aee34d6c06bfefe4bb862cfb68a65a6d1f43b37593819d2408273d6304c",
+        "data/concepts/neurocutaneous-melanosis.json": "907a2a001465dada63afb89b074a1df6ac9a877a8d2f6843faba203ab2a2297c",
+        "data/concepts/neurofibromatosis-type-1.json": "0d20e44856b4b2de79100cb33c99e16ee25e06791eb665f7660a6d4ca48c155b",
+        "data/concepts/neuromyelitis-optica.json": "c34be2f228bd91c95242f8e6a19e8aba16e01f8bc3929b530d74dfc565bd54fd",
+        "data/concepts/neuropsychiatric-sle.json": "a74a78d9a6a57a061f5241be56485d452a53055e7261a3bc4c616c0f0213e684",
+        "data/concepts/normal-pressure-hydrocephalus.json": "7e2876eef0d4784920fd845f21009750baba8f427bf7fd4f51a2ea2b5f03977e",
+        "data/concepts/npsle-imaging.json": "980be2b28adc74a2a1ab85eff313f0df822db62310a1b2dc38020b92cf57d1a6"
+      }
+    },
+    {
+      "batch": "scheduled-disease-08",
+      "baselineSha256": "a828a100d241c97e14b95f131f8589536b1dc6f6a6e9b7db631a2cf89331a4fa",
+      "evidenceSha256": "b222f73235341492ef7806c1bce8400f9484df06438eb0f1c487beda52e07444",
+      "review": {
+        "sequence": 8,
+        "predecessor": "scheduled-disease-07",
+        "implementer": "/root/phase2b_task2_8_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "a828a100d241c97e14b95f131f8589536b1dc6f6a6e9b7db631a2cf89331a4fa"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-08.json",
+        "sha256": "c51e6526e611accf823cf874c3a6efc7d8f58fb7f7a3946a71ab6b8e319b8aa0",
+        "observationSha256": "a3f78ab421133f40b9b742e1867d77b27e5df102dfe85175a2eba1f5f02fa23f"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/odontoid-fracture.json": "31281fee639fd605bdfd61314dfd220e70462c2387e96778fb6306ff9e86527d",
+        "data/concepts/opscc-hpv.json": "9764af568b597dc89aafeb9fcae374f40b40654be835aae5d0a8822e248dbdc4",
+        "data/concepts/optic-nerve-meningioma.json": "f66e4f9a10d0c036dba8a4e1ac2476c1769b1fb49e4ea5e6da22229c1153a09c",
+        "data/concepts/optic-nerve-sheath-meningioma.json": "ec507dcb303027dba117c3da79475b6f570b23f23ac0c7d77b04a3e9766b3e8f",
+        "data/concepts/otosclerosis.json": "8418ae765a58b99c80735e83adc85e42ce3e53bb53e6cc925afd3836500a9c33",
+        "data/concepts/parathyroid-adenoma.json": "6ec5a4b6e40d3379f1a3941816b143bbc1912599cb3f488eeea9e83d18f1f32e",
+        "data/concepts/pediatric-lgg-genetics.json": "9c44da6651ab9fed919c6def8ec2068c4b185c1b577a4ecb86f9ccd30eef847d",
+        "data/concepts/pediatric-meningitis.json": "9246846468bfb63907a5ce9b26b2473a9293ce647ceead006552e681fe3d1c15",
+        "data/concepts/pelizaeus-merzbacher-disease.json": "36a60404a6825e844c0eaeba504c2938cb7f8c1fc70cc81071ddfeb0d4158cc6",
+        "data/concepts/perimesencephalic-sah.json": "a7a729cbda0a9771b63b547bcd712af53f022f8096b1f86d09d0aadd9644d9ad"
+      }
+    },
+    {
+      "batch": "scheduled-disease-09",
+      "baselineSha256": "2a3b2f7195bebf8325b3ac7cc1fba028cae21d7ba496878c450aad10042fc0dc",
+      "evidenceSha256": "525adec39c41ecd298cf7c30fa83195dc375b413f4acf61e1f4ce640ecc7c946",
+      "review": {
+        "sequence": 9,
+        "predecessor": "scheduled-disease-08",
+        "implementer": "/root/phase2b_task2_9_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "2a3b2f7195bebf8325b3ac7cc1fba028cae21d7ba496878c450aad10042fc0dc"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-09.json",
+        "sha256": "66222824990798cdf62a898b72117421b0eac5ba08f78be488e122dc1e582ca6",
+        "observationSha256": "238f63549f4e79592269240638c2e2bbf361eacd8a6db551c281a2ded86035d8"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/pilocytic-astrocytoma.json": "428c41ed419efea779529fac74654608eadc3aa8de80941fcfe19ea3ac6f7681",
+        "data/concepts/pituicytoma.json": "3cee0bb6597a24e39f867b698f80031ffcf1fb336521788c592d68bc3b8e0e33",
+        "data/concepts/pituitary-macroadenoma.json": "819eb95b31331cd9e365c13d7724ea47de74d6a466152ad8ffa9786bef80b827",
+        "data/concepts/pres.json": "347c178216f332487c6c148fd97ebf408ed3e402f755097a37c9c5b96d88ea7d",
+        "data/concepts/psp-imaging-signs.json": "44b97db9ef649a303ca972129d869b2de629af4b570d00fff9af288090615526",
+        "data/concepts/ra-cervical-spine.json": "348ccd840ebdbdbd8a757baf529650b297bf1cccdc2a7f28747c02273f947756",
+        "data/concepts/radiation-induced-hypopituitarism.json": "265ecfb681fada9ccecd9d4d204a31b757e037e0372f0a7f98b87df2fe9adca5",
+        "data/concepts/remote-cerebellar-hemorrhage.json": "536ccc40984cd664f9e4208e87fec9b087b9398e27a293d2db4c8b5d9ccc0962",
+        "data/concepts/retinoblastoma.json": "66a48745882521a276bb1f86ef15fea9b3f99061995893f7e96b0bd02d691766",
+        "data/concepts/rhombencephalosynapsis.json": "edd9bcd31f0b2056f1a06b01114a19c6f24205fc4d730b20ca6943415d3707b1"
+      }
+    },
+    {
+      "batch": "scheduled-disease-10",
+      "baselineSha256": "73d6e045a2d648b2af74c5f71380ddd315f1bc8d54b47fd09c7ffa2fa63209ee",
+      "evidenceSha256": "b54d45580f9dd61cdd4d5fe2ed25e961b5b8262c6d92a51a8bb68575ba67228e",
+      "review": {
+        "sequence": 10,
+        "predecessor": "scheduled-disease-09",
+        "implementer": "/root/phase2b_task2_10_impl",
+        "reviewer": "/root/phase2b_review_design",
+        "reviewStatus": "approved",
+        "reviewedBaselineSha256": "73d6e045a2d648b2af74c5f71380ddd315f1bc8d54b47fd09c7ffa2fa63209ee"
+      },
+      "manifest": {
+        "path": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-10.json",
+        "sha256": "91fd3081c0007c8cf36bb0d909ce56a10a86ef24b420bf2dd60453a49fc2d742",
+        "observationSha256": "1750a09939fe35e00f213299ba9dcdc6dc2f1ac188a7b6a7c5999a045292b2dc"
+      },
+      "selectedDetailFiles": {
+        "data/concepts/schwannomatosis.json": "e7c879c5eb0de34a52ab6e3f89c6a917f4bc9b44932ae55355513d6b065d7cb7",
+        "data/concepts/sciwora.json": "3e34297306a15d29c50fc2fe2b05c016b6840cfe2ab853af55aad444af0d6357",
+        "data/concepts/second-impact-syndrome.json": "15810582ac5d994f1f35a2a5ccee2a9156b1b6353a8c566fa4236c9703feaa20",
+        "data/concepts/skull-base-osteomyelitis.json": "1837e23d92c5f3c169df40124f20906438b433e5b0e3f10acfabccf586cb59b7",
+        "data/concepts/solitary-fibrous-tumor-hemangiopericytoma.json": "45376d33dfdefee55b1fbd0b9d7de26bca543aa9a70fd9f24b01ac9d6cb9a3d8",
+        "data/concepts/spinal-cord-astrocytoma.json": "7f5ac2332dd8159d6d9c86f658aa83558374adbef6d6849b1030a89e4ba7b8c5",
+        "data/concepts/spinal-ewing-sarcoma.json": "738793544697f54d239095820a9f0d7de2e3ebcc6b20ed652fe98479d007ff36",
+        "data/concepts/spondylodiscitis.json": "3fd25ecacd1a0a43317e85b1fc1152eef086778be8d6d9030b3a4cb3d7aedbdd",
+        "data/concepts/spontaneous-intracranial-hypotension.json": "45768dba5e141b43667906f56a116da29278e420511d8070427e4c34eaee8f12",
+        "data/concepts/spontaneous-skull-base-cephalocele.json": "2a4b33e80123c5a266969145551279c96057462273ed048b13b6c5ddc098f7c9"
+      }
+    }
+  ],
+  "finalGenerated": {
+    "index": {
+      "path": "data/concepts-index.json",
+      "sha256": "74fda793600d3713164dcf06a9414fcc5c5d8241320b26739a048ee42c126413",
+      "entryCount": 994
+    },
+    "detailFileCount": 994,
+    "detailTreeSha256": "4ae724df444990df07dbfb46f7c85570c7463b344aa007defde4f13c048c4ccc",
+    "selectedDetailFiles": {
+      "data/concepts/behcet-disease-neuro.json": "9741079e88a4b82e50fc0da581845966a7623a3882e4c4024e6c7abdfcec8b2d",
+      "data/concepts/brain-abscess.json": "340fbca6b57d9220baa3a11419381f74be76ea98781a83df7d28d127523479f2",
+      "data/concepts/brain-metastasis-mri.json": "8094f7a912f5b4cc563a23166f2388ba332640c7eb3494a3a9c375d61b4c6d71",
+      "data/concepts/capillary-telangiectasia.json": "3bef0b61303182520b06bbe65811d83bd2210911181e2f250ca83382ba3e3da8",
+      "data/concepts/cardioembolic-stroke.json": "cb0ec42ea10c5f644a4cfc2b5028b02f912cbc890057b5b6b2443dd59b73575d",
+      "data/concepts/carotid-cavernous-fistula.json": "e04a5a35d2772afa3b001d13949530be362aa329eaff8677858bd149051b8c7d",
+      "data/concepts/cavernous-sinus-schwannoma.json": "d59de8c1224ad3aa8ec358d0a0bda566ba18ea28b0a39f8a1537b535f0a804b1",
+      "data/concepts/central-neurocytoma.json": "5ef9fa2cf81e45237059c76fb0b1ae2c2e477ec45fa2e0d28cda3ae18723caaa",
+      "data/concepts/cerebral-cavernous-malformation.json": "bff81913060a251d8c05bd888060811fb63fc27ae64d7cfe129252400fde5b49",
+      "data/concepts/cerebral-proliferative-angiopathy.json": "758fa3e300f875a2b26682d02abef75d8e5a564c4ea92c71ec5dd227d0606f29",
+      "data/concepts/cerebral-pseudoaneurysm.json": "1b584d4431ef94ef96ae85bbb32739f94860d66c5602232c99b0f1ac7afad1ac",
+      "data/concepts/cerebral-venous-thrombosis-mri.json": "1eb2cb6bf4855d9260b1e17c4c071a3bb7c8d6827fb591aadb7688644d50c0cd",
+      "data/concepts/cervical-radiculopathy.json": "ab9eea2d2b55a18f41b17eb675d8489be9c710712fec27e055908e9cb1eda072",
+      "data/concepts/chiari-malformation.json": "b9d84b8fc9c836683c7b4974281366bd962b9d32439784effccad171b987cda8",
+      "data/concepts/cholesterol-granuloma-petrous-apex.json": "2226eb79fe692d17d3ce0264eaa750889e364900bb091b7781db386ff0644a1c",
+      "data/concepts/cns-germinoma.json": "8f2d15676b53f4c52852ebd642826fed2a363c0733773eb25e6ab693c1257eda",
+      "data/concepts/colloid-cyst.json": "db61b036367fd62ddafbd7a5c1159d3020ddcbb17842a63c52a4968f909c14ac",
+      "data/concepts/congenital-aural-atresia.json": "7a29cee8fd7689d0f630b59317f037d084ebe877873784afec6f89493dcfccb7",
+      "data/concepts/corpus-callosum-agenesis-signs.json": "25121ef1b86ace2c281a5611b5a1f143aab53533e46e4a5f474526f78a7c5d3b",
+      "data/concepts/corpus-callosum-dysgenesis.json": "b6f0e3f9ec9d8349efd63d9a14fb23a353a76ce0d38bf1d2a1fb4a6927cc33db",
+      "data/concepts/covid-19-brain-mri.json": "0b3f2bfbd44557dcbb4355f2408fcbb12d583f8476dce550f5858d3294d80c06",
+      "data/concepts/craniosynostosis-suture-fusion.json": "305ba14b42eb40eb75aa4fbbabd62a3ee2ca2900d8424a4c80bfe6f6a423f9ca",
+      "data/concepts/cri-du-chat-syndrome.json": "5535a4920fd78117fcb38c9253be530400467c3dea5f93bbddcade0f40683155",
+      "data/concepts/dandy-walker-malformation.json": "fe26c8a9bb342559b2b3dab4882ede97f65e480c44505193fe69500c4e4c8008",
+      "data/concepts/dural-av-fistula.json": "d3a542ed5fd929b4e1155370428b7f8de5ce0ea31ef2d0f3ac07123e7800fa1e",
+      "data/concepts/dural-avf.json": "a40b5bf9e9163d8eb27e1c279d47f3b6bfe5e34eceae3cc246bf2b944f3dfa14",
+      "data/concepts/dural-venous-sinus-thrombosis.json": "4bedc0a0280e975d8af4599aa6eebbcf477f8db8af1a8e6c33099329417b3e28",
+      "data/concepts/eac-exostoses.json": "1ae8efc49ae897ac06a4b0e79a5281f5e787007714ec82d647503ff1bdee4561",
+      "data/concepts/empty-sella.json": "1eedc1ba516a651239620f2e5c1648ec2f4d1402239b7b8cd94fcb3a89daa8c4",
+      "data/concepts/ependymoma.json": "9a391c24912056f998d20c709aeab6aba793b5fefbd5a4dd121216408bc6091d",
+      "data/concepts/ev71-cns-complications.json": "b43233f7200d83bfa13815d333c96231f957b475de69b76457b01cefddd8ad76",
+      "data/concepts/fabry-disease-pulvinar.json": "70dfefaa7ac05a392c6d6822b11281c31e53b65e26a1636f893b6fce1cf718a2",
+      "data/concepts/facial-nerve-schwannoma.json": "693cbb2fe9f86ab86badce2c68a995d2528d815487fc5566ddca8c0f190f7775",
+      "data/concepts/fahr-disease.json": "584b7dce39df0c062515c44531083ebc7bd93f91cb4d0c5bf12561a34dceff27",
+      "data/concepts/fibromuscular-dysplasia.json": "24593ae3c39f9ddf9de749e438d197e6642e9439f593866bb8cc71ac45a3d36f",
+      "data/concepts/gbm.json": "f8e79d2a7474582f3bc8ffd47e097724de4e613e25352a86db53fff7fee353b0",
+      "data/concepts/glomus-jugulare.json": "8f29d8d947d20c0420a307664b7374a76557bdbe84dafcff6eb144e97d6bf917",
+      "data/concepts/glutaric-aciduria-type1.json": "c2f8a54c2719e347abc42baf5852366329b9e372aaf521d9b3d3f50764cffa69",
+      "data/concepts/head-melanoma-mri-signal.json": "737c11a82d33c62d7f03258200553f303549311a0295421d6dc38e6e7f4befe5",
+      "data/concepts/hemangioblastoma.json": "2a25640edfd3320e073c08cd01bf2e9d09cb80b0ae70b59b5122534977f63e8d",
+      "data/concepts/hemichorea-hemiballism.json": "8b151e1105cd1a09b0f16cf15d4b5637a542153888433ada9e5c8d9f939e7094",
+      "data/concepts/hemimegalencephaly.json": "ec10b7e2ff6645ca21e06552151b3f99feda887df705c1e293a6784eb285487f",
+      "data/concepts/hepatic-encephalopathy-manganese-deposition.json": "74c9bc1c401363f9b247af3d2a50d518f29debda343b681d48d35da168d93397",
+      "data/concepts/herpes-simplex-encephalitis.json": "bddc5ce04ddc4dae042659640289ae21be711e87e962f527068b0006d1750922",
+      "data/concepts/hypertensive-hemorrhage.json": "054deff825bc5365c5301aa1a80ce4d1c35ed8e0d52e04c4146bccf75e885834",
+      "data/concepts/hypothalamic-hamartoma.json": "8e204b8d8bb4dbf3b3f3b670a8b471c84452038ba54316391fb9e8a503aa0e8c",
+      "data/concepts/hypoxic-ischemic-encephalopathy.json": "2f65a8cbebe8616495042b4f7561a39c04089279d2dde18c9862fec28db4ca79",
+      "data/concepts/iatrogenic-femoral-pseudoaneurysm.json": "1f3f84ed573b7f9dfaaa6dd7fbfb39b3eff0f32203fca78765db9e3bf2239b78",
+      "data/concepts/idiopathic-intracranial-hypertension.json": "7100cdd569f83ac08f9e0f6d4a03da44364324520ecb6d5d03c3cd00590ca3e2",
+      "data/concepts/incomplete-spinal-cord-syndrome.json": "f6011a13cb863203cc335e220fbb273bbcf73e2c29357e75487a64d26edbd222",
+      "data/concepts/intracranial-lipoma.json": "5b0d50e50805f02d5b9d24107a10269975fd6fdfc908e2b301c5babdfca2a0f8",
+      "data/concepts/joubert-syndrome.json": "203af2da1de448d9b16f711d9b2de4ba792a0bbe99ff328dfaab493e0f8e9371",
+      "data/concepts/lacunar-infarction.json": "b50895787271b7a2d671cd21e654593caac1b5c7b7fa49c747782a9297a268f3",
+      "data/concepts/large-vestibular-aqueduct.json": "b85ce1503229e82bf1d5be14183302c1428bc929078071a55158b6b509b47063",
+      "data/concepts/lemierre-syndrome.json": "54b2bdbc8681af7cd907526e637c661a9c78c67bdf6acce49a42cef12e98bb29",
+      "data/concepts/lipomyelomeningocele.json": "96ba34cc1baf463d925f62cd96cd5ff27feb73d47917d24f41b71dec431fd5b5",
+      "data/concepts/men1.json": "b1b813949af12cb6d0f0ff34debbd0fc5fac8e29295b87ded5bbcff22e7d7e8f",
+      "data/concepts/metachromatic-leukodystrophy.json": "315354e126cd7f5b836b1936d860e09d1583cb73b139db99fb132991d8a4bf66",
+      "data/concepts/methanol-toxicity.json": "ce6c33bdb44804b45c2c2e1215845765019a99728f89e282444bc6ce2fa7ab8f",
+      "data/concepts/moyamoya.json": "9cc659d046597626289ae87fe4a5079a8f9241a54eab60499281c48a456eed27",
+      "data/concepts/moyamoya-disease.json": "5e45da425028add336184f118e2be8db233bc82d7989d04a3dfcb624ded3f0f3",
+      "data/concepts/mucormycosis.json": "6066e118ef22361942d48d178258927c89073345c89376ef4569fea3db60bcab",
+      "data/concepts/multinodular-vacuolating-neuronal-tumor.json": "9d5a73ad01629820df7a8a33bbc533913fa6034c82c81e1c53ae785f84de3bc4",
+      "data/concepts/multiple-sclerosis-imaging.json": "95570aee34d6c06bfefe4bb862cfb68a65a6d1f43b37593819d2408273d6304c",
+      "data/concepts/neurocutaneous-melanosis.json": "907a2a001465dada63afb89b074a1df6ac9a877a8d2f6843faba203ab2a2297c",
+      "data/concepts/neurofibromatosis-type-1.json": "0d20e44856b4b2de79100cb33c99e16ee25e06791eb665f7660a6d4ca48c155b",
+      "data/concepts/neuromyelitis-optica.json": "c34be2f228bd91c95242f8e6a19e8aba16e01f8bc3929b530d74dfc565bd54fd",
+      "data/concepts/neuropsychiatric-sle.json": "a74a78d9a6a57a061f5241be56485d452a53055e7261a3bc4c616c0f0213e684",
+      "data/concepts/normal-pressure-hydrocephalus.json": "7e2876eef0d4784920fd845f21009750baba8f427bf7fd4f51a2ea2b5f03977e",
+      "data/concepts/npsle-imaging.json": "980be2b28adc74a2a1ab85eff313f0df822db62310a1b2dc38020b92cf57d1a6",
+      "data/concepts/odontoid-fracture.json": "31281fee639fd605bdfd61314dfd220e70462c2387e96778fb6306ff9e86527d",
+      "data/concepts/opscc-hpv.json": "9764af568b597dc89aafeb9fcae374f40b40654be835aae5d0a8822e248dbdc4",
+      "data/concepts/optic-nerve-meningioma.json": "f66e4f9a10d0c036dba8a4e1ac2476c1769b1fb49e4ea5e6da22229c1153a09c",
+      "data/concepts/optic-nerve-sheath-meningioma.json": "ec507dcb303027dba117c3da79475b6f570b23f23ac0c7d77b04a3e9766b3e8f",
+      "data/concepts/otosclerosis.json": "8418ae765a58b99c80735e83adc85e42ce3e53bb53e6cc925afd3836500a9c33",
+      "data/concepts/parathyroid-adenoma.json": "6ec5a4b6e40d3379f1a3941816b143bbc1912599cb3f488eeea9e83d18f1f32e",
+      "data/concepts/pediatric-lgg-genetics.json": "9c44da6651ab9fed919c6def8ec2068c4b185c1b577a4ecb86f9ccd30eef847d",
+      "data/concepts/pediatric-meningitis.json": "9246846468bfb63907a5ce9b26b2473a9293ce647ceead006552e681fe3d1c15",
+      "data/concepts/pelizaeus-merzbacher-disease.json": "36a60404a6825e844c0eaeba504c2938cb7f8c1fc70cc81071ddfeb0d4158cc6",
+      "data/concepts/perimesencephalic-sah.json": "a7a729cbda0a9771b63b547bcd712af53f022f8096b1f86d09d0aadd9644d9ad",
+      "data/concepts/pilocytic-astrocytoma.json": "428c41ed419efea779529fac74654608eadc3aa8de80941fcfe19ea3ac6f7681",
+      "data/concepts/pituicytoma.json": "3cee0bb6597a24e39f867b698f80031ffcf1fb336521788c592d68bc3b8e0e33",
+      "data/concepts/pituitary-macroadenoma.json": "819eb95b31331cd9e365c13d7724ea47de74d6a466152ad8ffa9786bef80b827",
+      "data/concepts/pres.json": "347c178216f332487c6c148fd97ebf408ed3e402f755097a37c9c5b96d88ea7d",
+      "data/concepts/psp-imaging-signs.json": "44b97db9ef649a303ca972129d869b2de629af4b570d00fff9af288090615526",
+      "data/concepts/ra-cervical-spine.json": "348ccd840ebdbdbd8a757baf529650b297bf1cccdc2a7f28747c02273f947756",
+      "data/concepts/radiation-induced-hypopituitarism.json": "265ecfb681fada9ccecd9d4d204a31b757e037e0372f0a7f98b87df2fe9adca5",
+      "data/concepts/remote-cerebellar-hemorrhage.json": "536ccc40984cd664f9e4208e87fec9b087b9398e27a293d2db4c8b5d9ccc0962",
+      "data/concepts/retinoblastoma.json": "66a48745882521a276bb1f86ef15fea9b3f99061995893f7e96b0bd02d691766",
+      "data/concepts/rhombencephalosynapsis.json": "edd9bcd31f0b2056f1a06b01114a19c6f24205fc4d730b20ca6943415d3707b1",
+      "data/concepts/schwannomatosis.json": "e7c879c5eb0de34a52ab6e3f89c6a917f4bc9b44932ae55355513d6b065d7cb7",
+      "data/concepts/sciwora.json": "3e34297306a15d29c50fc2fe2b05c016b6840cfe2ab853af55aad444af0d6357",
+      "data/concepts/second-impact-syndrome.json": "15810582ac5d994f1f35a2a5ccee2a9156b1b6353a8c566fa4236c9703feaa20",
+      "data/concepts/skull-base-osteomyelitis.json": "1837e23d92c5f3c169df40124f20906438b433e5b0e3f10acfabccf586cb59b7",
+      "data/concepts/solitary-fibrous-tumor-hemangiopericytoma.json": "45376d33dfdefee55b1fbd0b9d7de26bca543aa9a70fd9f24b01ac9d6cb9a3d8",
+      "data/concepts/spinal-cord-astrocytoma.json": "7f5ac2332dd8159d6d9c86f658aa83558374adbef6d6849b1030a89e4ba7b8c5",
+      "data/concepts/spinal-ewing-sarcoma.json": "738793544697f54d239095820a9f0d7de2e3ebcc6b20ed652fe98479d007ff36",
+      "data/concepts/spondylodiscitis.json": "3fd25ecacd1a0a43317e85b1fc1152eef086778be8d6d9030b3a4cb3d7aedbdd",
+      "data/concepts/spontaneous-intracranial-hypotension.json": "45768dba5e141b43667906f56a116da29278e420511d8070427e4c34eaee8f12",
+      "data/concepts/spontaneous-skull-base-cephalocele.json": "2a4b33e80123c5a266969145551279c96057462273ed048b13b6c5ddc098f7c9"
+    }
+  },
+  "scopeProtection": {
+    "phase2bNoteCount": 100,
+    "phase2bArtifactPaths": [
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-01.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-02.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-03.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-04.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-05.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-06.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-07.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-08.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-09.json",
+      "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-10.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-01.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-02.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-03.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-04.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-05.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-06.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-07.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-08.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-09.json",
+      "docs/reports/nr-summary-rewrite/phase2b/evidence/scheduled-disease-10.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-01.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-02.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-03.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-04.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-05.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-06.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-07.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-08.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-09.json",
+      "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-10.json"
+    ]
+  }
+}

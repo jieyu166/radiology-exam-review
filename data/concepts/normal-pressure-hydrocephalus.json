@@ -1,0 +1,38 @@
+{
+  "checked": false,
+  "definition": "**NPH 是可治療的失智病因，臨床三聯（Hakim triad）＝步態障礙（magnetic gait，常最早）＋尿失禁＋認知障礙（wet, wacky, wobbly），CSF 開口壓正常。** 影像診斷不能單靠一項，關鍵徵象組合為 **Evans index >0.3、acute callosal angle（<90°）、cingulate sulcus sign（後段窄於前段）**，加上 **DESH（腦室擴大＋Sylvian fissure/insular cistern 擴大＋高凸面/parafalcine 溝回擁擠）**。判讀分水嶺：**「刀刃狀腦回（knife-blade gyri）」是額顳葉萎縮（FTD/Pick 病）的徵象，不是 NPH**——NPH 反而在高凸面呈溝回擁擠而非刀刃狀萎縮，考題以此設陷阱。與腦萎縮的核心區分：NPH 為**不成比例**的蛛網膜下腔變化（下方 Sylvian 擴大、上方凸面擁擠）＋鑫狀胼胝體角變銳。",
+  "differentialDiagnosis": [
+    "對照",
+    "Callosal angle（冠狀，經後聯合）",
+    "凸面/高位溝回",
+    "Knife-blade gyri（刀刃狀腦回）",
+    "顳角旁/海馬周裂",
+    "臨床"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-6306",
+      "url": "https://doi.org/10.53347/rID-6306"
+    },
+    {
+      "label": "10.1148/rg.240162",
+      "url": "https://doi.org/10.1148/rg.240162"
+    }
+  ],
+  "imagingFindings": "**CT**\n- 可顯示腦室擴大與不成比例蛛網膜下腔變化，但顯示解剖細節劣於 MRI；可見室周低密度。\n\n**MRI（首選）**\n- **矢狀面**：cingulate sulcus sign（後半窄於前半）、胼胝體上弓。\n- **冠狀面（經後聯合）**：**callosal angle 變銳（<90°）**——與 Alzheimer/腦萎縮（角度較鈍、>90°）鑑別的關鍵量測。\n- **軸位**：Evans index >0.3、顳角擴大、Sylvian/insular 擴大並列高凸面溝回擁擠（DESH）；T2-FLAIR 室周高訊號。\n- **CSF flow study**：導水管 flow void／stroke volume 可輔助排除阻塞性水腦與支持診斷。\n\n**核醫（次要）**\n- Cisternography：放射性藥物早期進入側腦室（heart-shaped）、逾 24–48 小時滯留、不上達凸面——為輔助但重要性低。",
+  "keyPoints": [
+    "**臨床三聯（Hakim triad）**：步態/平衡障礙（magnetic gait，常最早出現）、逼尿肌過動之尿失禁、認知障礙（輕至失智）；開口壓在正常範圍（<18–20 cmH₂O）。",
+    "**腦室擴大量測**：**Evans index >0.3**（額角最大寬 / 顱內最大橫徑）；顳角 >6 mm（非海馬萎縮所致）；**callosal angle 變銳（<90°，冠狀面經後聯合垂直於 AC-PC 量測）**；胼胝體上弓。",
+    "**不成比例蛛網膜下腔變化**：Sylvian fissure 與 insular cistern 擴大、高凸面與 medial/parafalcine 溝回**擁擠（effacement）**、**cingulate sulcus sign（後半段窄於前半段）**、凸面個別溝回局部擴大。",
+    "**重點**: **DESH**（disproportionately enlarged subarachnoid space hydrocephalus）＝腦室擴大＋Sylvian/insular 擴大＋凸面擁擠三者組合，支持診斷。",
+    "**腦實質變化**：室周低密度（CT）或 T2-FLAIR 高訊號（transependymal oedema／小血管病）。",
+    "**CSF flow**：導水管 flow void 明顯（流速增高）；aqueductal stroke volume/peak velocity 可輔助但非必要。",
+    "**鈑刀刃狀腦回（knife-blade gyri）非 NPH**：屬額顳葉萎縮（FTD/Pick 病）之嚴重局部萎縮徵象。（詳見「鑑別與報告要點」）",
+    "**治療**：確診後以 CSF 分流（多為 VP shunt）；病人選對時約 80% 有反應；步態先於認知惡化、症狀短（<6 個月）、CSF tap test 陽性者預後較好。"
+  ],
+  "management": "",
+  "name": "Normal Pressure Hydrocephalus (NPH)",
+  "nameZh": "常壓性水腦",
+  "slug": "normal-pressure-hydrocephalus",
+  "subspecialty": "NR"
+}

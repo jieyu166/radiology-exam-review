@@ -1,0 +1,44 @@
+{
+  "checked": false,
+  "definition": "**顱縫早閉（craniosynostosis）＝顱縫過早融合；因為顱骨生長受阻的方向「垂直於」融合的縫，代償性生長轉往其他方向，形成各具特徵的頭型。** 判讀分水嶺：**要背「哪條縫早閉 → 哪種頭型」，關鍵陷阱在 coronal 縫——「單側（one/unilateral）」coronal 早閉造成 anterior/frontal plagiocephaly（額部斜頭，伴 harlequin eye），而 brachycephaly（短頭）需要「雙側（bicoronal ± bilambdoid）」融合。** 因此把「單側 coronal → brachycephaly」配對是錯的。記憶鉤：**單側偏斜叫 plagio，雙側對稱才 brachy。**",
+  "differentialDiagnosis": [
+    "早閉縫線",
+    "Sagittal（矢狀）",
+    "Metopic（額）",
+    "**單側 coronal（單側冠狀）**",
+    "Bicoronal ± bilambdoid（雙側冠狀±雙側人字）",
+    "單側 lambdoid（單側人字）",
+    "矢狀＋冠狀＋人字",
+    "子宮內矢狀＋冠狀＋人字"
+  ],
+  "externalLinks": [
+    {
+      "label": "10.53347/rID-1179",
+      "url": "https://doi.org/10.53347/rID-1179"
+    },
+    {
+      "label": "DOI",
+      "url": "https://doi.org/10.1148/rg.242035105"
+    },
+    {
+      "label": "https://radiopaedia.org/articles/craniosynostosis",
+      "url": "https://radiopaedia.org/articles/craniosynostosis"
+    }
+  ],
+  "imagingFindings": "**CT（3D 重組，最佳工具）**\n低劑量 CT 加 3D 表面重組為評估顱縫的首選：可見縫線消失／橋接、縫緣硬化與骨脊（ridging），並依受累縫線判定頭型；同時評估顱內壓相關變化。\n\n**超音波（篩檢／臨床不明顯者）**\n正常縫線呈低回音（hypoechoic）；早閉時該處低回音消失、縫線不通（lack of patency）並見骨脊。可減少輻射，適用嬰兒篩檢與姿勢性 vs 真性斜頭之鑑別。\n\n**X 光**\n平片可見縫線硬化、骨橋與特徵性頭型輪廓；生長受限方向垂直於受累縫線。",
+  "keyPoints": [
+    "**定義／機轉**：一或多條顱縫過早融合，顱骨生長受限**垂直於受累縫線**，代償性生長使頭型變形。",
+    "**流行病學**：發生率約 1/2000–2500，男：女約 3:1，約 8% 為症候群型（如 Apert、Crouzon、Carpenter）。",
+    "**矢狀縫（sagittal）早閉 → scaphocephaly／dolichocephaly（舟狀／長頭）**：最常見（約 50%），側向生長受阻、前後拉長。",
+    "**額縫（metopic）早閉 → trigonocephaly（三角頭）**：前額呈龍骨狀尖突。",
+    "**重點**: **單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）**，同側可見 harlequin eye 徵象；**非 brachycephaly**（本題陷阱）。",
+    "**重點**: **雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）**。",
+    "**重點**: **單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）**；須與姿勢性（體位性）斜頭鑑別。",
+    "**其他型**：pachycephaly（lambdoid）、oxycephaly/turricephaly（矢狀＋冠狀＋人字，塔狀頭）、cloverleaf skull/Kleeblattschädel（子宮內矢狀＋冠狀＋人字，最嚴重）、progressive postnatal pansynostosis（罕見，出生後才全縫晚融合）。"
+  ],
+  "management": "",
+  "name": "Craniosynostosis — Suture Fusion & Head Shape",
+  "nameZh": "顱縫早閉",
+  "slug": "craniosynostosis-suture-fusion",
+  "subspecialty": "NR"
+}

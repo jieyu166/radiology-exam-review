@@ -1,0 +1,1650 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "scheduled-disease-09",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-09.json",
+    "sha256": "2a3b2f7195bebf8325b3ac7cc1fba028cae21d7ba496878c450aad10042fc0dc"
+  },
+  "status": "needs-review",
+  "workflow": {
+    "sequence": 9,
+    "predecessor": "scheduled-disease-08",
+    "implementer": "/root/phase2b_task2_9_impl",
+    "reviewer": "/root/phase2b_review_design",
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "2a3b2f7195bebf8325b3ac7cc1fba028cae21d7ba496878c450aad10042fc0dc"
+  },
+  "notes": [
+    {
+      "slug": "pilocytic-astrocytoma",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 好發：兒童最常見原發腦腫瘤（>80% <20 歲、尖峰 5-15 歲）、WHO grade 1；位置無 NF1：小腦 > 下視丘/腦幹/大腦半球 > 視路；NF1：視路最常見（30% 之 PA 發生於 NF1）。 [^1]\n- **重點**: 囊＋壁結節（考點）：經典為囊狀腫塊＋強化壁結節——真正腫瘤成分在壁結節；>95% 強化（50% 囊＋壁結節、40% 異質、10% 實質）；囊壁多不強化/非腫瘤（惟部分可強化）。 [^1] [^2]\n- **重點**: 其他特徵：鈣化 20%、出血少見；常致阻塞性水腦、周圍水腫輕微；擴散度增加（ADC 亮）。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "pilocytic-astrocytoma-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "好發：兒童最常見原發腦腫瘤（>80% <20 歲、尖峰 5-15 歲）、WHO grade 1；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "位置無 NF1：小腦 > 下視丘/腦幹/大腦半球 > 視路；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "NF1：視路最常見（30% 之 PA 發生於 NF1）。"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "囊＋壁結節（考點）：經典為囊狀腫塊＋強化壁結節——真正腫瘤成分在壁結節；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": ">95% 強化（50% 囊＋壁結節、40% 異質、10% 實質）；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "囊壁多不強化/非腫瘤（惟部分可強化）。"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "其他特徵：鈣化 20%、出血少見；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "常致阻塞性水腦、周圍水腫輕微；"
+            }
+          ]
+        },
+        {
+          "id": "pilocytic-astrocytoma-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "擴散度增加（ADC 亮）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Tier 1** Linscott LL. *Pilocytic Astrocytoma*（Pediatrics, Brain, Dx）. STATdx，last updated 2021-11-08. Elsevier（實際查證 accessed 2026-07-03，22 references）：WHO grade 1、兒童最常見原發腦瘤；無 NF1 小腦>下視丘/腦幹/大腦>視路、NF1 視路最常見（30% PA 屬 NF1）；經典囊＋強化壁結節、>95% 強化（50% 囊+結節/40% 異質/10% 實質）；鈣化 20%、出血少；**擴散度增加（ADC 亮，非受限）**、常阻塞性水腦；**矛盾性 MRS（高 Cho 低 NAA±lactate）與 PET 高代謝**；DDx medulloblastoma/ependymoma（中線、擴散受限）；Rosenthal fibers、Ki-67 1-4%、BRAF/NF1；10 年存活>90%、全切除可治癒、視路可觀察。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "官方 2020 詳解（題目所引）；原引 *Diagnostic Imaging: Pediatric Neuroradiology* I(4):6-9——PA 兒童最常見原發腦瘤、小腦最常見、囊壁通常無腫瘤浸潤、腫瘤在強化壁結節、~95% 強化、鈣化約 20%，已由 [^1] STATdx 一手來源查核並補強 DWI/MRS/DDx 與分子病理；官方答案 A/D 重疊之存疑見 warning。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 9,
+          "covered": 9,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 好發：兒童最常見原發腦腫瘤（>80% <20 歲、尖峰 5-15 歲）、WHO grade 1；位置無 NF1：小腦 > 下視丘/腦幹/大腦半球 > 視路；NF1：視路最常見（30% 之 PA 發生於 NF1）。",
+        "**重點**: 囊＋壁結節（考點）：經典為囊狀腫塊＋強化壁結節——真正腫瘤成分在壁結節；>95% 強化（50% 囊＋壁結節、40% 異質、10% 實質）；囊壁多不強化/非腫瘤（惟部分可強化）。",
+        "**重點**: 其他特徵：鈣化 20%、出血少見；常致阻塞性水腦、周圍水腫輕微；擴散度增加（ADC 亮）。"
+      ],
+      "coverageEvidenceSha256": "2df29698b7ebaad92f7327cfd26fd3ebcf69d428fcea63a86c9f0041813e26b7"
+    },
+    {
+      "slug": "pituicytoma",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 起源：神經垂體（neurohypophysis）與漏斗部的 pituicytes;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」錯誤＝題目正解（2016-187 正解 A,起源錯）。 [^1]\n- **重點**: WHO grade 1、生長緩慢、indolent(option B 對)。 [^1] [^2]\n- **重點**: 位置：鞍內或鞍上(option C 對);典型為邊界清楚的實性腫塊，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。 [^1] [^3] [^5]\n- **重點**: 免疫：S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定(option D 對);TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。 [^1] [^5]\n\n",
+      "facts": [
+        {
+          "id": "pituicytoma-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "起源：神經垂體（neurohypophysis）與漏斗部的 pituicytes;"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」錯誤＝題目正解（2016-187 正解 A,起源錯）。"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "WHO grade 1、生長緩慢、indolent(option B 對)。"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f04",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "位置：鞍內或鞍上(option C 對);"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f05",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "典型為邊界清楚的實性腫塊，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f06",
+          "sourceRefs": [
+            "1",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "免疫：S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定(option D 對);"
+            }
+          ]
+        },
+        {
+          "id": "pituicytoma-f07",
+          "sourceRefs": [
+            "1",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Pituicytoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「only found in the **neurohypophysis and infundibulum**」;**WHO grade 1**、indolent;鞍/鞍上;免疫 **S100/vimentin/TTF1 陽性、EMA 不定**。〔開放存取〕"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gibbs WN, et al. *Neuroimaging Features of Pituicytomas*. PMC4976578（accessed 2026-06-28）：T1/T2 等訊號於灰質、DCE「rapid and initial strong enhancement」達峰於第 2–3 期（早於腺垂體第 4 期）、後葉 bright spot 消失、卵圓邊界清楚均勻強化。〔PMC 開放全文〕"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "*Histopathological Types, Clinical Presentation, Imaging Studies, Treatment Strategies, and Prognosis of Posterior Pituitary Tumors: An Updated Review*. J Clin Med 2025;14:4553 / PMC12250221（accessed 2026-06-28）：pituicytoma T1 等、T2 等-略高（~79%）、均勻強化（~74%）；GCT 強化不均、star-like crack；SCO 多發毫米級 T2 低訊號＋線狀 T1 流空；四亞型皆 TTF-1＋、2025 WHO 低惡性度。〔PMC 開放全文〕"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "*Neoplasms and tumor-like lesions of the sellar region: imaging findings with correlation to pathology and 2021 WHO classification*. PMC10033642（accessed 2026-06-28）：pituicytoma 為 WHO grade 1、T1 等-低／T2 等-高、avid homogeneous enhancement、DCE 早期快速強化、TTF-1＋（與 schwannoma 區別）；macroadenoma 與腺體分界不清、強化不均；craniopharyngioma 囊實混合＋鈣化；meningioma dural tail、T2 偏低。〔PMC 開放全文〕"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 起源：神經垂體（neurohypophysis）與漏斗部的 pituicytes;故「成人『腺垂體（adenohypophysis）』的罕見原發腫瘤」錯誤＝題目正解（2016-187 正解 A,起源錯）。",
+        "**重點**: WHO grade 1、生長緩慢、indolent(option B 對)。",
+        "**重點**: 位置：鞍內或鞍上(option C 對);典型為邊界清楚的實性腫塊，中心位於鞍/鞍上，常與漏斗難以分離，可向下推擠正常腺垂體。",
+        "**重點**: 免疫：S-100 陽性、vimentin 陽性、TTF1 陽性、EMA 不定/局部、GFAP 不定(option D 對);TTF-1 陽性反映後垂體起源，也是與 schwannoma 區別點。"
+      ],
+      "coverageEvidenceSha256": "f5ea8e734718f3e83695a880595dd21ac7e34f20781708ce42032663b8acbd1d"
+    },
+    {
+      "slug": "pituitary-macroadenoma",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 復發風險因子：cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection，另 MIB-1 >1%／高 Ki-67 提示早期復發/快速再長。Apoplexy 非復發風險因子。 [^1]\n- **重點**: 海綿竇侵犯＝Knosp grade 3-4：腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）即侵犯；grade 1 至內側 50%、grade 2 至外側 50%。 [^1]\n- **重點**: 診斷要點：蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）；>10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；為成人最常見之鞍上腫塊。 [^1]\n- **重點**: 良性本質：不論多具侵襲外觀，垂體腫瘤幾乎都不是惡性（pituitary carcinoma <0.4%，須有轉移才診斷）。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "pituitary-macroadenoma-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "復發風險因子：cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection，另 MIB-1 >1%／高 Ki-67 提示早期復發/快速再長。"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "Apoplexy 非復發風險因子。"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "海綿竇侵犯＝Knosp grade 3-4：腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）即侵犯；"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "grade 1 至內側 50%、grade 2 至外側 50%。"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "診斷要點：蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）；"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": ">10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "為成人最常見之鞍上腫塊。"
+            }
+          ]
+        },
+        {
+          "id": "pituitary-macroadenoma-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "良性本質：不論多具侵襲外觀，垂體腫瘤幾乎都不是惡性（pituitary carcinoma <0.4%，須有轉移才診斷）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Tier 1** Salzman KL, Osborn AG. *Pituitary Macroadenoma/Pituitary Neuroendocrine Tumor*（Brain, Sella, Dx）. STATdx，last updated 2025-07-25. Elsevier（實際查證 accessed 2026-07-03，29 references）：macroadenoma >10 mm、giant >4 cm、成人最常見鞍上腫塊、「腫塊即垂體」；figure 8/snowman、等灰質訊號強異質強化、囊變 15-20%/出血 10%/鈣化 1-2%；**Knosp 0-4（grade 3 越過海綿竇 ICA 外側緣、grade 4 完全包繞＝侵犯）**；**low ADC/bright DWI 對應軟腫瘤、可能較高復發（爭議）**；**MIB-1 >1%/高 Ki-67 早期復發、切除復發 8 年 15%/20 年 35%**；75% 內分泌活性、泌乳素瘤最常見、雙顳側偏盲；apoplexy 為急性併發症；垂體腫瘤幾乎非惡性（carcinoma <0.4%）；治療手術±放療、泌乳素瘤用多巴胺促效劑。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 8,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 復發風險因子：cavernous sinus invasion（Knosp 3-4）、low ADC、large size、subtotal resection，另 MIB-1 >1%／高 Ki-67 提示早期復發/快速再長。Apoplexy 非復發風險因子。",
+        "**重點**: 海綿竇侵犯＝Knosp grade 3-4：腫瘤越過海綿竇內頸動脈外側緣（grade 3）或完全包繞（grade 4）即侵犯；grade 1 至內側 50%、grade 2 至外側 50%。",
+        "**重點**: 診斷要點：蝶鞍腫塊、無法辨識獨立正常垂體（腫塊即垂體）；>10 mm 為 macroadenoma、>4 cm 為 giant（<0.5%）；為成人最常見之鞍上腫塊。",
+        "**重點**: 良性本質：不論多具侵襲外觀，垂體腫瘤幾乎都不是惡性（pituitary carcinoma <0.4%，須有轉移才診斷）。"
+      ],
+      "coverageEvidenceSha256": "018b2704ff5d567af068d225389e3f79e4e8be27f989270ac86ee96fa7372817"
+    },
+    {
+      "slug": "pres",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 機轉：急性血壓變化超出腦循環自我調節 → 高灌流 → 血腦屏障破壞 → vasogenic edema（典型 parieto-occipital 對稱，T2/FLAIR 高訊號、DWI 多不受限）。 [^1]\n- **重點**: 常見危險因子： [^1]\n- **重點**: 嚴重高血壓。 [^1]\n- **重點**: 子癇前症/子癇（pre-eclampsia/eclampsia）、產後。 [^1]\n- **重點**: 免疫抑制/藥物毒性：tacrolimus、cyclosporine、bevacizumab、methotrexate、vincristine、cisplatin、cyclophosphamide、corticosteroids、rituximab 等。 [^1]\n- **重點**: 腎病：急性腎絲球腎炎、慢性腎功能不全。 [^1]\n- **重點**: 非典型危險因子＝糖尿病（DM）（題目正解）。 [^1]\n- **重點**: 多為可逆（移除誘因/控制血壓後）。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "pres-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "機轉：急性血壓變化超出腦循環自我調節 → 高灌流 → 血腦屏障破壞 → vasogenic edema（典型 parieto-occipital 對稱，T2/FLAIR 高訊號、DWI 多不受限）。"
+            }
+          ]
+        },
+        {
+          "id": "pres-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "pres-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "pres-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "子癇前症/子癇（pre-eclampsia/eclampsia）、產後。"
+            }
+          ]
+        },
+        {
+          "id": "pres-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "免疫抑制/藥物毒性：tacrolimus、cyclosporine、bevacizumab、methotrexate、vincristine、cisplatin、cyclophosphamide、corticosteroids、rituximab 等。"
+            }
+          ]
+        },
+        {
+          "id": "pres-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "腎病：急性腎絲球腎炎、慢性腎功能不全。"
+            }
+          ]
+        },
+        {
+          "id": "pres-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "非典型危險因子＝糖尿病（DM）（題目正解）。"
+            }
+          ]
+        },
+        {
+          "id": "pres-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "多為可逆（移除誘因/控制血壓後）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Posterior reversible encephalopathy syndrome*. Radiopaedia.org。誘因含嚴重高血壓、產後 eclampsia/pre-eclampsia、急性腎絲球腎炎、藥物毒性（tacrolimus/cyclosporine/化療/類固醇等）；機轉為自我調節失衡致 vasogenic edema。影像：parieto-occipital 為主、可延伸後腦以外（額/腦幹/基底節/小腦）、三型分布；CT 低密度；T2/FLAIR 高訊號、DWI 多不受限/ADC 升高（少數真受限提示梗塞）、強化多變、可出血、DSA 可見 vasospasm（實際查證 accessed 2026-06-16）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 2
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 機轉：急性血壓變化超出腦循環自我調節 → 高灌流 → 血腦屏障破壞 → vasogenic edema（典型 parieto-occipital 對稱，T2/FLAIR 高訊號、DWI 多不受限）。",
+        "**重點**: 常見危險因子：",
+        "**重點**: 嚴重高血壓。",
+        "**重點**: 子癇前症/子癇（pre-eclampsia/eclampsia）、產後。",
+        "**重點**: 免疫抑制/藥物毒性：tacrolimus、cyclosporine、bevacizumab、methotrexate、vincristine、cisplatin、cyclophosphamide、corticosteroids、rituximab 等。",
+        "**重點**: 腎病：急性腎絲球腎炎、慢性腎功能不全。",
+        "**重點**: 非典型危險因子＝糖尿病（DM）（題目正解）。",
+        "**重點**: 多為可逆（移除誘因/控制血壓後）。"
+      ],
+      "coverageEvidenceSha256": "d537ea32d29e77dce05c1ac831db47985981fd54ad4f66f5f963466d4ebf4d20"
+    },
+    {
+      "slug": "psp-imaging-signs",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: Hummingbird / penguin sign（矢狀）：中腦上緣由正常上凸變扁平/凹陷、上丘變薄，腦幹輪廓似蜂鳥/企鵝。 [^1] [^2]\n- **重點**: Morning glory / Mickey Mouse sign（軸位）：中腦被蓋外側緣異常凹陷。 [^1] [^2]\n- **重點**: 最準確＝中腦:橋腦面積比：PSP 0.124 vs PD 0.208 / MSA-P 0.266 / 正常 0.237；中腦面積 < 70 mm²＋比值 < 0.15 → 診斷 PSP（敏感度 100%、特異度 91–100%）。 [^1]\n- **重點**: MR parkinsonism index（MRPI）／MRPI 2.0：進一步區分 PSP 與 MSA-P、PD。 [^1]\n- **重點**: DDx 關鍵：MSA-P 有橋腦小腦萎縮（比值偏高）、PD 無明顯中腦萎縮。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "psp-imaging-signs-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "Hummingbird / penguin sign（矢狀）：中腦上緣由正常上凸變扁平/凹陷、上丘變薄，腦幹輪廓似蜂鳥/企鵝。"
+            }
+          ]
+        },
+        {
+          "id": "psp-imaging-signs-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "Morning glory / Mickey Mouse sign（軸位）：中腦被蓋外側緣異常凹陷。"
+            }
+          ]
+        },
+        {
+          "id": "psp-imaging-signs-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "最準確＝中腦:橋腦面積比：PSP 0.124 vs PD 0.208 / MSA-P 0.266 / 正常 0.237；"
+            }
+          ]
+        },
+        {
+          "id": "psp-imaging-signs-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "中腦面積 < 70 mm²＋比值 < 0.15 → 診斷 PSP（敏感度 100%、特異度 91–100%）。"
+            }
+          ]
+        },
+        {
+          "id": "psp-imaging-signs-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "MR parkinsonism index（MRPI）／MRPI 2.0：進一步區分 PSP 與 MSA-P、PD。"
+            }
+          ]
+        },
+        {
+          "id": "psp-imaging-signs-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "DDx 關鍵：MSA-P 有橋腦小腦萎縮（比值偏高）、PD 無明顯中腦萎縮。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Tier 1** Gaddikeri S, Jhaveri MD. *Progressive Supranuclear Palsy*（Brain, Dx）. STATdx, Elsevier, updated 08/14/25（26 refs；實際查證 accessed 2026-07-03）——中腦被蓋萎縮 penguin/hummingbird sign（矢狀上緣凹陷/扁平＋上丘變薄）、morning glory/Mickey Mouse sign（軸位被蓋外側凹陷）、SCP 萎縮；**最準確＝中腦:橋腦面積比（PSP 0.124 vs PD 0.208/MSA-P 0.266/正常 0.237），中腦面積<70mm²＋比值<0.15 診斷（敏 100%/特 91–100%）**；AP 中腦徑<17mm；MRPI/MRPI2.0；DWI putamen ADC↑；FDG/DaT/tau-PET；DDx（MSA-P putamen T2 低訊號+橋腦小腦萎縮、CBD 不對稱額頂萎縮 alien limb、DLB 皮質萎縮幻覺、PD levodopa 反應佳）；4R tauopathy、tufted astrocytes 標誌、tau H1/chr17；PSP-RS vs PSP-P；第二常見神經退化性帕金森、45–75 歲、3–7/10 萬、存活 5.3–9.7 年。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Progressive supranuclear palsy*. Radiopaedia.org（輔助來源，題目所引）——hummingbird/penguin sign（矢狀中腦被蓋萎縮上緣扁平）、mickey mouse/morning glory sign（軸位）、中腦:橋腦面積比降低為最準確特徵、可與 MSA-P 區分。原「官方 2020 詳解（題目所引）」弱來源已由本次 STATdx Tier 1 查核升級。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 6,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: Hummingbird / penguin sign（矢狀）：中腦上緣由正常上凸變扁平/凹陷、上丘變薄，腦幹輪廓似蜂鳥/企鵝。",
+        "**重點**: Morning glory / Mickey Mouse sign（軸位）：中腦被蓋外側緣異常凹陷。",
+        "**重點**: 最準確＝中腦:橋腦面積比：PSP 0.124 vs PD 0.208 / MSA-P 0.266 / 正常 0.237；中腦面積 < 70 mm²＋比值 < 0.15 → 診斷 PSP（敏感度 100%、特異度 91–100%）。",
+        "**重點**: MR parkinsonism index（MRPI）／MRPI 2.0：進一步區分 PSP 與 MSA-P、PD。",
+        "**重點**: DDx 關鍵：MSA-P 有橋腦小腦萎縮（比值偏高）、PD 無明顯中腦萎縮。"
+      ],
+      "coverageEvidenceSha256": "3273b0169cca94fb8d3618cf72cd365e6c8462b10b026b0dd884ce07c6203fbd"
+    },
+    {
+      "slug": "ra-cervical-spine",
+      "sourceStatus": "research-needed",
+      "status": "research-needed",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 齒突侵蝕（erosion of the dens）(option D 對)。 [^1]\n- **重點**: 寰樞椎前脫位（atlantoaxial subluxation）：屈曲位 ADI >3 mm(option C 對)。 [^1]\n- **重點**: Apophyseal/facet 關節融合（含 uncovertebral）(option B 對)。 [^1]\n- **重點**: Cranial settling（atlantoaxial impaction）：C2/齒突向『頭側（cephalad/cranial）』移位、basilar invagination;故「C2 向尾側（caudal）移位」非 RA 表現＝題目正解（2016-168 正解 A）。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "ra-cervical-spine-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "齒突侵蝕（erosion of the dens）(option D 對)。"
+            }
+          ]
+        },
+        {
+          "id": "ra-cervical-spine-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "寰樞椎前脫位（atlantoaxial subluxation）：屈曲位 ADI >3 mm(option C 對)。"
+            }
+          ]
+        },
+        {
+          "id": "ra-cervical-spine-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "Apophyseal/facet 關節融合（含 uncovertebral）(option B 對)。"
+            }
+          ]
+        },
+        {
+          "id": "ra-cervical-spine-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "Cranial settling（atlantoaxial impaction）：C2/齒突向『頭側（cephalad/cranial）』移位、basilar invagination;"
+            }
+          ]
+        },
+        {
+          "id": "ra-cervical-spine-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "故「C2 向尾側（caudal）移位」非 RA 表現＝題目正解（2016-168 正解 A）。"
+            }
+          ]
+        },
+        {
+          "id": "ra-cervical-spine-f06",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "ra-cervical-spine-f07",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        },
+        {
+          "id": "ra-cervical-spine-f08",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Rheumatoid arthritis (musculoskeletal manifestations)*. Radiopaedia.org（輔助來源，accessed 2026-06-17）：頸椎含 **erosion of the dens、atlantoaxial subluxation（ADI >3mm 屈曲）、fusion of apophyseal/facet joints、atlantoaxial impaction（cranial settling）＝cephalad migration of C2**。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 5,
+          "researchNeeded": 3,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 齒突侵蝕（erosion of the dens）(option D 對)。",
+        "**重點**: 寰樞椎前脫位（atlantoaxial subluxation）：屈曲位 ADI >3 mm(option C 對)。",
+        "**重點**: Apophyseal/facet 關節融合（含 uncovertebral）(option B 對)。",
+        "**重點**: Cranial settling（atlantoaxial impaction）：C2/齒突向『頭側（cephalad/cranial）』移位、basilar invagination;故「C2 向尾側（caudal）移位」非 RA 表現＝題目正解（2016-168 正解 A）。"
+      ],
+      "coverageEvidenceSha256": "46308d71594a11a128f1ba2894a766c7ec54a1011a8a7faba84e26121802444b"
+    },
+    {
+      "slug": "radiation-induced-hypopituitarism",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 內分泌軸敏感度排序（考點）：下視丘-腦下垂體軸內，GH 軸對輻射最脆弱（most vulnerable / most radiosensitive），其後依序為 gonadotropin → ACTH（adrenocorticotropic hormone）→ TSH（thyroid-stimulating hormone）。因此臨床上 GH 缺乏最早、最常見。 [^1] [^2]\n- **重點**: 屬 late-onset、不可逆且漸進：放療後前葉激素缺乏為 irreversible & progressive；血中激素異常常在臨床症狀出現前很久即可偵測，異常最早可在完成治療後約 1 年出現，盛行率隨時間增加。 [^1] [^2]\n- **重點**: 盛行率：成人因原發性非腦下垂體腫瘤接受顱部照射後，任何程度 hypopituitarism 的盛行率約 66%（系統性回顧，18 篇研究）。 [^1]\n- **重點**: 劑量-效應關係：嚴重度、發生速度與頻率與『下視丘-腦下垂體軸接受的總劑量』相關，並受 fraction size、照射時年齡較小、腫瘤／手術先前已傷及腦下垂體等影響。 [^1] [^2] [^3]\n- **重點**: <30–40 Gy：多為孤立性 GH 缺乏（isolated GH deficiency）。 [^1] [^2]\n- **重點**: 30–50 Gy：GH 缺乏頻率大增（可達 50–100%），TSH/ACTH 缺乏開始出現（長期累積約 3–6%）。 [^2] [^3]\n- **重點**: ≥60 Gy（鼻咽癌／顱底腫瘤等強化照射）：gonadotropin、ACTH、TSH 缺乏頻率顯著上升，可致 panhypopituitarism。 [^1] [^2]\n- **重點**: 傷害部位與機轉：主要受損部位是下視丘而非腦下垂體本身；腦下垂體萎縮多為次發性（下視丘營養因子分泌下降＋隨時間之直接輻射傷害）。RadioGraphics 目前偏好的機轉是離子輻射造成的直接神經元傷害、退化與細胞死亡，而非血管性傷害。 [^1] [^4]\n- **重點**: 臨床追蹤：接受下視丘／腦下垂體區照射者，應於完成放療 1 年內做基準內分泌評估並定期追蹤，以利及時診斷與荷爾蒙補充。 [^1] [^2]\n- **重點**: GH > gonadotropin > ACTH > TSH（由最脆弱到最耐受）。故『何種激素對輻射最敏感／最先受損』答案為 Growth hormone。孤立性 GH 缺乏最常見（低劑量）；高劑量才逐步累加 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。 [^1] [^2]\n\n",
+      "facts": [
+        {
+          "id": "radiation-induced-hypopituitarism-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "內分泌軸敏感度排序（考點）：下視丘-腦下垂體軸內，GH 軸對輻射最脆弱（most vulnerable / most radiosensitive），其後依序為 gonadotropin → ACTH（adrenocorticotropic hormone）→ TSH（thyroid-stimulating hormone）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "因此臨床上 GH 缺乏最早、最常見。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "屬 late-onset、不可逆且漸進：放療後前葉激素缺乏為 irreversible & progressive；"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "血中激素異常常在臨床症狀出現前很久即可偵測，異常最早可在完成治療後約 1 年出現，盛行率隨時間增加。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "盛行率：成人因原發性非腦下垂體腫瘤接受顱部照射後，任何程度 hypopituitarism 的盛行率約 66%（系統性回顧，18 篇研究）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f06",
+          "sourceRefs": [
+            "1",
+            "2",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "劑量-效應關係：嚴重度、發生速度與頻率與『下視丘-腦下垂體軸接受的總劑量』相關，並受 fraction size、照射時年齡較小、腫瘤／手術先前已傷及腦下垂體等影響。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "<30–40 Gy：多為孤立性 GH 缺乏（isolated GH deficiency）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f08",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "30–50 Gy：GH 缺乏頻率大增（可達 50–100%），TSH/ACTH 缺乏開始出現（長期累積約 3–6%）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f09",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "≥60 Gy（鼻咽癌／顱底腫瘤等強化照射）：gonadotropin、ACTH、TSH 缺乏頻率顯著上升，可致 panhypopituitarism。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f10",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "傷害部位與機轉：主要受損部位是下視丘而非腦下垂體本身；"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f11",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "腦下垂體萎縮多為次發性（下視丘營養因子分泌下降＋隨時間之直接輻射傷害）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f12",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "RadioGraphics 目前偏好的機轉是離子輻射造成的直接神經元傷害、退化與細胞死亡，而非血管性傷害。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f13",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "臨床追蹤：接受下視丘／腦下垂體區照射者，應於完成放療 1 年內做基準內分泌評估並定期追蹤，以利及時診斷與荷爾蒙補充。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f14",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "GH > gonadotropin > ACTH > TSH（由最脆弱到最耐受）。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f15",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "故『何種激素對輻射最敏感／最先受損』答案為 Growth hormone。"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f16",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "孤立性 GH 缺乏最常見（低劑量）；"
+            }
+          ]
+        },
+        {
+          "id": "radiation-induced-hypopituitarism-f17",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "高劑量才逐步累加 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Katsura M, Sato J, Akahane M, Furuta T, Mori H, Abe O. *Recognizing Radiation-induced Changes in the Central Nervous System: Where to Look and What to Look For*. RadioGraphics. 2021;41(1):224-248. doi:10.1148/rg.2021200064（Tier-1；實際查證 pubs.rsna.org accessed 2026-07-05）。原文「Radiation-induced Endocrinopathy (Hypopituitarism)」段落載明：**\"the growth hormone axis is the most vulnerable to radiation damage, followed by the gonadotropin, adrenocorticotropic hormone, and thyroid-stimulating hormone axes\"**；任何程度 hypopituitarism 盛行率 66%；<40 Gy 多為孤立性 GH 缺乏、≥60 Gy 可致 panhypopituitarism；偏好機轉為直接神經元傷害而非血管性；影像見腦下垂體萎縮。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Darzy KH, Shalet SM. *Hypopituitarism following radiotherapy*. Pituitary. 2009;12(1):40-50. doi:10.1007/s11102-008-0088-4（Tier-1 同儕審查綜述；According to PubMed / 實際查證 metadata accessed 2026-07-05）。「Selective radiosensitivity of the neuroendocrine axes, with the GH axis being the most vulnerable」；孤立性 GH 缺乏見於 <30 Gy，30–50 Gy 時 GH 缺乏達 50–100%、TSH/ACTH 缺乏長期累積 3–6%；gonadotropin 缺乏多在 ≥30 Gy 之長期併發；不可逆且漸進。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "Darzy KH, Shalet SM. *Radiation-induced growth hormone deficiency*. Horm Res. 2003;59(Suppl 1):1-11. doi:10.1159/000067834（Tier-1 綜述；According to PubMed accessed 2026-07-05）。劑量依賴：低劑量產生孤立性 GH 缺乏、高劑量致 hypopituitarism；發生時間亦具劑量依賴性。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "Darzy KH, Shalet SM. *Hypopituitarism as a consequence of brain tumours and radiotherapy*. Pituitary. 2005;8(3-4):203-211. doi:10.1007/s11102-006-6042-4（Tier-1 綜述；According to PubMed accessed 2026-07-05）。「the hypothalamus is the primary site of radiation-induced damage, secondary pituitary atrophy evolves with time」。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 17,
+          "covered": 17,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 內分泌軸敏感度排序（考點）：下視丘-腦下垂體軸內，GH 軸對輻射最脆弱（most vulnerable / most radiosensitive），其後依序為 gonadotropin → ACTH（adrenocorticotropic hormone）→ TSH（thyroid-stimulating hormone）。因此臨床上 GH 缺乏最早、最常見。",
+        "**重點**: 屬 late-onset、不可逆且漸進：放療後前葉激素缺乏為 irreversible & progressive；血中激素異常常在臨床症狀出現前很久即可偵測，異常最早可在完成治療後約 1 年出現，盛行率隨時間增加。",
+        "**重點**: 盛行率：成人因原發性非腦下垂體腫瘤接受顱部照射後，任何程度 hypopituitarism 的盛行率約 66%（系統性回顧，18 篇研究）。",
+        "**重點**: 劑量-效應關係：嚴重度、發生速度與頻率與『下視丘-腦下垂體軸接受的總劑量』相關，並受 fraction size、照射時年齡較小、腫瘤／手術先前已傷及腦下垂體等影響。",
+        "**重點**: <30–40 Gy：多為孤立性 GH 缺乏（isolated GH deficiency）。",
+        "**重點**: 30–50 Gy：GH 缺乏頻率大增（可達 50–100%），TSH/ACTH 缺乏開始出現（長期累積約 3–6%）。",
+        "**重點**: ≥60 Gy（鼻咽癌／顱底腫瘤等強化照射）：gonadotropin、ACTH、TSH 缺乏頻率顯著上升，可致 panhypopituitarism。",
+        "**重點**: 傷害部位與機轉：主要受損部位是下視丘而非腦下垂體本身；腦下垂體萎縮多為次發性（下視丘營養因子分泌下降＋隨時間之直接輻射傷害）。RadioGraphics 目前偏好的機轉是離子輻射造成的直接神經元傷害、退化與細胞死亡，而非血管性傷害。",
+        "**重點**: 臨床追蹤：接受下視丘／腦下垂體區照射者，應於完成放療 1 年內做基準內分泌評估並定期追蹤，以利及時診斷與荷爾蒙補充。",
+        "**重點**: GH > gonadotropin > ACTH > TSH（由最脆弱到最耐受）。故『何種激素對輻射最敏感／最先受損』答案為 Growth hormone。孤立性 GH 缺乏最常見（低劑量）；高劑量才逐步累加 gonadotropin/ACTH/TSH 缺乏乃至 panhypopituitarism。"
+      ],
+      "coverageEvidenceSha256": "43db8f2814ebe6862b32bb2451d84f31598eb79288d56c00293526f65b962489"
+    },
+    {
+      "slug": "remote-cerebellar-hemorrhage",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 好發情境：典型發生於天幕上開顱術(supratentorial craniotomy)或脊椎手術後，屬相對良性但極罕見之併發症。 [^1]\n- **重點**: 機轉：術後CSF低容積(hypovolemia)致小腦下垂(sagging)，壓迫上方穿通靜脈，引發出血性梗塞。 [^1]\n- **重點**: 斑馬徵(zebra sign)：血液沿小腦葉層(folia)呈條紋狀分布，形似斑馬紋，此為診斷特徵性徵象。 [^1]\n- **重點**: 分布範圍：出血可為手術部位之同側或對側，甚至雙側，亦可侷限於小腦蚓部——分布多樣，並非「僅限於蚓部」。 [^1]\n- **重點**: 潛在病灶：無潛在病理病灶(no underlying pathologic lesion)，屬繼發於低顱內壓/CSF流失之良性出血性併發症。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "remote-cerebellar-hemorrhage-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "好發情境：典型發生於天幕上開顱術(supratentorial craniotomy)或脊椎手術後，屬相對良性但極罕見之併發症。"
+            }
+          ]
+        },
+        {
+          "id": "remote-cerebellar-hemorrhage-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "機轉：術後CSF低容積(hypovolemia)致小腦下垂(sagging)，壓迫上方穿通靜脈，引發出血性梗塞。"
+            }
+          ]
+        },
+        {
+          "id": "remote-cerebellar-hemorrhage-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "斑馬徵(zebra sign)：血液沿小腦葉層(folia)呈條紋狀分布，形似斑馬紋，此為診斷特徵性徵象。"
+            }
+          ]
+        },
+        {
+          "id": "remote-cerebellar-hemorrhage-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "分布範圍：出血可為手術部位之同側或對側，甚至雙側，亦可侷限於小腦蚓部——分布多樣，並非「僅限於蚓部」。"
+            }
+          ]
+        },
+        {
+          "id": "remote-cerebellar-hemorrhage-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "潛在病灶：無潛在病理病灶(no underlying pathologic lesion)，屬繼發於低顱內壓/CSF流失之良性出血性併發症。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Diagnostic Imaging, Brain*, 3rd edition, p.267（2018 交換考題詳解 p.196 引用；Tier 2 教科書）。遠端小腦出血典型發生於天幕上開顱術後，機轉為CSF低容積致小腦下垂壓迫穿通靜脈；斑馬徵為血液沿小腦葉層條紋狀分布；出血分布可同側/對側/雙側/侷限蚓部，非僅限蚓部；無潛在病理病灶。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 5,
+          "covered": 5,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 好發情境：典型發生於天幕上開顱術(supratentorial craniotomy)或脊椎手術後，屬相對良性但極罕見之併發症。",
+        "**重點**: 機轉：術後CSF低容積(hypovolemia)致小腦下垂(sagging)，壓迫上方穿通靜脈，引發出血性梗塞。",
+        "**重點**: 斑馬徵(zebra sign)：血液沿小腦葉層(folia)呈條紋狀分布，形似斑馬紋，此為診斷特徵性徵象。",
+        "**重點**: 分布範圍：出血可為手術部位之同側或對側，甚至雙側，亦可侷限於小腦蚓部——分布多樣，並非「僅限於蚓部」。",
+        "**重點**: 潛在病灶：無潛在病理病灶(no underlying pathologic lesion)，屬繼發於低顱內壓/CSF流失之良性出血性併發症。"
+      ],
+      "coverageEvidenceSha256": "45b65f68f72cbc7ed1972fcbafe23d66e70504991b5a35af38178320a69b1c05"
+    },
+    {
+      "slug": "retinoblastoma",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 最常見：retinoblastoma 是兒童最常見的眼內腫瘤;故「hemangioblastoma 是兒童最常見視網膜腫瘤」錯誤＝題目正解（2016-166 正解 A）。視網膜 hemangioblastoma 為 VHL 相關,非最常見。 [^1]\n- **重點**: 鈣化：異質視網膜腫塊常鈣化;兒童眼球內鈣化→retinoblastoma until proven otherwise(option C 對)。 [^1]\n- **重點**: leukocoria（白瞳）：最常見臨床表現(option D 對);其他 strabismus、視力下降。 [^1]\n- **重點**: 白瞳鑑別多（option B 對）：Coats disease、PHPV、ROP、Toxocara 等良惡性實體共享影像/臨床表現。 [^1]\n- **重點**: 遺傳：RB1 基因;雙側/三側（pineoblastoma）見於遺傳型。 [^1]\n- **重點**: 「hemangioblastoma 是兒童最常見視網膜腫瘤」錯——retinoblastoma 才是。兒童眼球鈣化＝retinoblastoma until proven otherwise、leukocoria 表現、鑑別多皆對。 [^1]\n\n",
+      "facts": [
+        {
+          "id": "retinoblastoma-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "最常見：retinoblastoma 是兒童最常見的眼內腫瘤;"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "故「hemangioblastoma 是兒童最常見視網膜腫瘤」錯誤＝題目正解（2016-166 正解 A）。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "視網膜 hemangioblastoma 為 VHL 相關,非最常見。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "鈣化：異質視網膜腫塊常鈣化;"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "兒童眼球內鈣化→retinoblastoma until proven otherwise(option C 對)。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "leukocoria（白瞳）：最常見臨床表現(option D 對);"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "其他 strabismus、視力下降。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "白瞳鑑別多（option B 對）：Coats disease、PHPV、ROP、Toxocara 等良惡性實體共享影像/臨床表現。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "遺傳：RB1 基因;"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "雙側/三側（pineoblastoma）見於遺傳型。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f11",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "「hemangioblastoma 是兒童最常見視網膜腫瘤」錯——retinoblastoma 才是。"
+            }
+          ]
+        },
+        {
+          "id": "retinoblastoma-f12",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "兒童眼球鈣化＝retinoblastoma until proven otherwise、leukocoria 表現、鑑別多皆對。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Retinoblastoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：「the **most common intraocular neoplasm found in childhood**」;異質視網膜腫塊**常鈣化**;典型 **leukocoria**、strabismus、視力下降;RB1 基因。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 12,
+          "covered": 12,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 最常見：retinoblastoma 是兒童最常見的眼內腫瘤;故「hemangioblastoma 是兒童最常見視網膜腫瘤」錯誤＝題目正解（2016-166 正解 A）。視網膜 hemangioblastoma 為 VHL 相關,非最常見。",
+        "**重點**: 鈣化：異質視網膜腫塊常鈣化;兒童眼球內鈣化→retinoblastoma until proven otherwise(option C 對)。",
+        "**重點**: leukocoria（白瞳）：最常見臨床表現(option D 對);其他 strabismus、視力下降。",
+        "**重點**: 白瞳鑑別多（option B 對）：Coats disease、PHPV、ROP、Toxocara 等良惡性實體共享影像/臨床表現。",
+        "**重點**: 遺傳：RB1 基因;雙側/三側（pineoblastoma）見於遺傳型。",
+        "**重點**: 「hemangioblastoma 是兒童最常見視網膜腫瘤」錯——retinoblastoma 才是。兒童眼球鈣化＝retinoblastoma until proven otherwise、leukocoria 表現、鑑別多皆對。"
+      ],
+      "coverageEvidenceSha256": "5ff2978034d6498d2b152349829eb6aa4d87b982fce27c95bc479bf3a5f110b1"
+    },
+    {
+      "slug": "rhombencephalosynapsis",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n\n- **重點**: 核心病理：小腦蚓部缺失（前蚓部缺、後蚓部發育不全，nodulus 常仍形成）+ 兩側小腦半球、齒狀核、上小腦腳（SCP）融合成橫向連續之單一構造。 [^1] [^2]\n- **重點**: 胚胎：蚓部分化失敗所致，損傷約在孕 28-44 天；典型呈橫向連續之單一小腦（馬蹄/keyhole 第四腦室）。 [^2]\n- **重點**: 是否孤立/症候群：可孤立（罕見）或為更廣泛腦畸形之一部分；多數非症候群性但確有症候群型——Gómez-López-Hernández 症候群（菱腦融合 + 發展遲緩 + 頭皮脫髮 + 三叉神經感覺缺失 + 顏面/短頭）或 VACTERL 之一部分。 [^1] [^2]\n- **重點**: 常合併之其他 CNS 異常（非孤立）：視丘融合、下丘融合、透明隔缺失、腦室擴大（常因導水管狹窄）、顱縫早閉、椎體融合異常。 [^1] [^2]\n- **重點**: 臨床：軀幹/肢體共濟失調、異常眼動、頭部搖擺（head stereotypies）、動作發展遲緩；程度不一。 [^2]\n\n",
+      "facts": [
+        {
+          "id": "rhombencephalosynapsis-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "核心病理：小腦蚓部缺失（前蚓部缺、後蚓部發育不全，nodulus 常仍形成）+ 兩側小腦半球、齒狀核、上小腦腳（SCP）融合成橫向連續之單一構造。"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f02",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "胚胎：蚓部分化失敗所致，損傷約在孕 28-44 天；"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "典型呈橫向連續之單一小腦（馬蹄/keyhole 第四腦室）。"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "是否孤立/症候群：可孤立（罕見）或為更廣泛腦畸形之一部分；"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "多數非症候群性但確有症候群型——Gómez-López-Hernández 症候群（菱腦融合 + 發展遲緩 + 頭皮脫髮 + 三叉神經感覺缺失 + 顏面/短頭）或 VACTERL 之一部分。"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "常合併之其他 CNS 異常（非孤立）：視丘融合、下丘融合、透明隔缺失、腦室擴大（常因導水管狹窄）、顱縫早閉、椎體融合異常。"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f07",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "臨床：軀幹/肢體共濟失調、異常眼動、頭部搖擺（head stereotypies）、動作發展遲緩；"
+            }
+          ]
+        },
+        {
+          "id": "rhombencephalosynapsis-f08",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Gaillard F, et al. *Rhombencephalosynapsis*. Radiopaedia, rID-8344, DOI 10.53347/rID-8344——**蚓部缺失 + 小腦半球/齒狀核/上小腦腳連續（融合）**；可孤立（罕見）或為更廣泛畸形一部分；**associations：VACTERL、Gómez-López-Hernández 症候群（菱腦融合 + 發展遲緩 + 頭皮脫髮 + 三叉神經感覺缺失）、椎體融合異常**；胚胎為蚓部分化失敗（孕 28-44 天）。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "官方 2017 詳解；Ref: RadioGraphics 2015;35(1):200-220（題目所引）——菱腦融合＝蚓部缺 + 半球/齒狀核/上小腦腳融合；臨床共濟失調/異常眼動/頭部搖擺/動作遲緩；多數非症候群性但可為 GLH 或 VACTERL 一部分；常合併視丘融合、下丘融合、透明隔缺失、腦室擴大、顱縫早閉（結論已由上述 Radiopaedia 一手來源查核佐證）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**重點**: 核心病理：小腦蚓部缺失（前蚓部缺、後蚓部發育不全，nodulus 常仍形成）+ 兩側小腦半球、齒狀核、上小腦腳（SCP）融合成橫向連續之單一構造。",
+        "**重點**: 胚胎：蚓部分化失敗所致，損傷約在孕 28-44 天；典型呈橫向連續之單一小腦（馬蹄/keyhole 第四腦室）。",
+        "**重點**: 是否孤立/症候群：可孤立（罕見）或為更廣泛腦畸形之一部分；多數非症候群性但確有症候群型——Gómez-López-Hernández 症候群（菱腦融合 + 發展遲緩 + 頭皮脫髮 + 三叉神經感覺缺失 + 顏面/短頭）或 VACTERL 之一部分。",
+        "**重點**: 常合併之其他 CNS 異常（非孤立）：視丘融合、下丘融合、透明隔缺失、腦室擴大（常因導水管狹窄）、顱縫早閉、椎體融合異常。",
+        "**重點**: 臨床：軀幹/肢體共濟失調、異常眼動、頭部搖擺（head stereotypies）、動作發展遲緩；程度不一。"
+      ],
+      "coverageEvidenceSha256": "a91b04438df4d738ba4c1c3b0e30c26afeed507c7e7a2a7367a5b663a38c7e6e"
+    }
+  ],
+  "manualReviewFactIds": [
+    "pres-f02",
+    "pres-f03",
+    "ra-cervical-spine-f06",
+    "ra-cervical-spine-f07",
+    "ra-cervical-spine-f08",
+    "rhombencephalosynapsis-f08"
+  ],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-09.json"
+}

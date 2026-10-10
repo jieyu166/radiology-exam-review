@@ -1528,6 +1528,13 @@
     },
     {
       "checked": false,
+      "name": "Cholesterol Granuloma — Petrous Apex / Middle Ear",
+      "nameZh": "膽固醇肉芽腫",
+      "slug": "cholesterol-granuloma-petrous-apex",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Chondroblastoma",
       "nameZh": "軟骨母細胞瘤",
       "slug": "chondroblastoma",
@@ -1658,6 +1665,13 @@
       "nameZh": "先天性腎上腺增生症",
       "slug": "congenital-adrenal-hyperplasia",
       "subspecialty": "PED"
+    },
+    {
+      "checked": false,
+      "name": "Congenital Aural Atresia (External & Middle Ear Malformation)",
+      "nameZh": "先天性外耳道閉鎖",
+      "slug": "congenital-aural-atresia",
+      "subspecialty": "NR"
     },
     {
       "checked": false,
@@ -1822,6 +1836,13 @@
     },
     {
       "checked": false,
+      "name": "Brain MRI Findings in Severe COVID-19",
+      "nameZh": "新冠腦部MRI",
+      "slug": "covid-19-brain-mri",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "COVID-19 — Chest CT Imaging Features & Role",
       "nameZh": "新冠肺炎胸部CT",
       "slug": "covid19-chest-ct",
@@ -1860,6 +1881,13 @@
       "name": "Craniopharyngioma",
       "nameZh": "顱咽管瘤",
       "slug": "craniopharyngioma",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
+      "name": "Craniosynostosis — Suture Fusion & Head Shape",
+      "nameZh": "顱縫早閉",
+      "slug": "craniosynostosis-suture-fusion",
       "subspecialty": "NR"
     },
     {
@@ -2123,6 +2151,13 @@
     },
     {
       "checked": false,
+      "name": "External auditory canal exostoses",
+      "nameZh": "外耳道骨疣",
+      "slug": "eac-exostoses",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Ectopic Pregnancy & β-HCG Discriminatory Zone",
       "nameZh": "子宮外孕",
       "slug": "ectopic-pregnancy",
@@ -2329,6 +2364,13 @@
       "name": "Facial Bone Fracture Complications",
       "nameZh": "顏面骨折併發症",
       "slug": "facial-fracture-complications",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
+      "name": "Facial Nerve Schwannoma (CN VII)",
+      "nameZh": "顏面神經鞘瘤",
+      "slug": "facial-nerve-schwannoma",
       "subspecialty": "NR"
     },
     {
@@ -3036,6 +3078,13 @@
       "name": "Intra-arterial Thrombectomy — Treatment Window & Taiwan NHI Criteria",
       "nameZh": "機械取栓治療窗",
       "slug": "ia-thrombectomy-stroke-window",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
+      "name": "Iatrogenic Femoral Artery Pseudoaneurysm (post-catheterisation)",
+      "nameZh": "醫源性股動脈假性動脈瘤",
+      "slug": "iatrogenic-femoral-pseudoaneurysm",
       "subspecialty": "NR"
     },
     {
@@ -3796,6 +3845,13 @@
     },
     {
       "checked": false,
+      "name": "Methanol Poisoning (Neurotoxicity)",
+      "nameZh": "甲醇中毒",
+      "slug": "methanol-toxicity",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Tumors with Microscopic Fat",
       "nameZh": "含微量脂肪腫瘤",
       "slug": "microscopic-fat-tumors",
@@ -3925,6 +3981,13 @@
       "name": "Rhinocerebral Mucormycosis",
       "nameZh": "毛黴菌症",
       "slug": "mucormycosis",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
+      "name": "Multinodular and Vacuolating Neuronal Tumor (MVNT)",
+      "nameZh": "多結節空泡化神經元腫瘤",
+      "slug": "multinodular-vacuolating-neuronal-tumor",
       "subspecialty": "NR"
     },
     {
@@ -4156,6 +4219,13 @@
       "name": "Normal Brain Myelination Pattern (Pediatric MRI)",
       "nameZh": "正常髓鞘化時程",
       "slug": "normal-myelination-pattern",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
+      "name": "Normal Pressure Hydrocephalus (NPH)",
+      "nameZh": "常壓性水腦",
+      "slug": "normal-pressure-hydrocephalus",
       "subspecialty": "NR"
     },
     {
@@ -4426,6 +4496,13 @@
     },
     {
       "checked": false,
+      "name": "Parathyroid adenoma",
+      "nameZh": "副甲狀腺腺瘤",
+      "slug": "parathyroid-adenoma",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Parosteal Osteosarcoma",
       "nameZh": "骨旁骨肉瘤",
       "slug": "parosteal-osteosarcoma",
@@ -4583,6 +4660,13 @@
       "name": "Pediatric Tuberculosis — Diagnostic Challenges",
       "nameZh": "兒童結核病",
       "slug": "pediatric-tuberculosis",
+      "subspecialty": "PED"
+    },
+    {
+      "checked": false,
+      "name": "Pelizaeus-Merzbacher Disease (PMD)",
+      "nameZh": "培利氏-梅茲巴克氏病",
+      "slug": "pelizaeus-merzbacher-disease",
       "subspecialty": "PED"
     },
     {
@@ -5336,6 +5420,13 @@
     },
     {
       "checked": false,
+      "name": "Radiation-induced Hypopituitarism (Neuroendocrine Sequelae)",
+      "nameZh": "放射線誘發腦下垂體功能低下",
+      "slug": "radiation-induced-hypopituitarism",
+      "subspecialty": "NR"
+    },
+    {
+      "checked": false,
       "name": "Radiation Necrosis vs Brain Tumor Recurrence",
       "nameZh": "放射線壞死",
       "slug": "radiation-necrosis-vs-tumor-recurrence",
@@ -5816,6 +5907,13 @@
       "nameZh": "Skene 腺囊腫",
       "slug": "skene-gland-cyst",
       "subspecialty": "GU"
+    },
+    {
+      "checked": false,
+      "name": "Skull Base Osteomyelitis (Typical/Otogenic vs Central/Atypical)",
+      "nameZh": "顱底骨髓炎",
+      "slug": "skull-base-osteomyelitis",
+      "subspecialty": "NR"
     },
     {
       "checked": false,

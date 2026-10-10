@@ -1,0 +1,949 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "scheduled-disease-01",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "behcet-disease-neuro",
+      "path": "vault/concepts/behcet-disease-neuro.md",
+      "type": "disease",
+      "originalSha256": "d911b66d18917099aaed43f42ee3cf0654a36298809fc750dadb972b87a05226",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **病灶好發部位排序**：**腦幹(brainstem)最常見** ＞ 基底核(basal ganglia，約1/3為雙側) ＞ 視丘(thalamus) ＞ 皮質下白質(subcortical white matter，較少見；深部白質相對常見) ＞ 脊髓(spinal cord，較少見)。[^1]\n\n> [!warning] 官方答案存疑\n> 官方詳解標示答案為**A（midbrain，中腦）**，但頁緣手寫加註「應該B才對」（即pons，橋腦），對此答案表達不確定。原始文獻僅列出廣義「腦幹(brainstem)」為最常見侵犯部位，**並未進一步細分中腦與橋腦之相對頻率**，本題將腦幹拆分為midbrain/pons兩個選項供選，此細分依據不明確，建議醫師對照原始文獻確認何者為官方正確答案。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "behcet-disease-neuro-f01",
+          "text": "病灶好發部位排序：腦幹(brainstem)最常見 ＞ 基底核(basal ganglia，約1/3為雙側) ＞ 視丘(thalamus) ＞ 皮質下白質(subcortical white matter，較少見；深部白質相對常見) ＞ 脊髓(spinal cord，較少見)。",
+          "sourceStatement": "- **病灶好發部位排序**：**腦幹(brainstem)最常見** ＞ 基底核(basal ganglia，約1/3為雙側) ＞ 視丘(thalamus) ＞ 皮質下白質(subcortical white matter，較少見；深部白質相對常見) ＞ 脊髓(spinal cord，較少見)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "behcet-disease-neuro-f02",
+          "text": "官方詳解標示答案為A（midbrain，中腦），但頁緣手寫加註「應該B才對」（即pons，橋腦），對此答案表達不確定。",
+          "sourceStatement": "> 官方詳解標示答案為**A（midbrain，中腦）**，但頁緣手寫加註「應該B才對」（即pons，橋腦），對此答案表達不確定。原始文獻僅列出廣義「腦幹(brainstem)」為最常見侵犯部位，**並未進一步細分中腦與橋腦之相對頻率**，本題將腦幹拆分為midbrain/pons兩個選項供選，此細分依據不明確，建議醫師對照原始文獻確認何者為官方正確答案。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "behcet-disease-neuro-f03",
+          "text": "原始文獻僅列出廣義「腦幹(brainstem)」為最常見侵犯部位，並未進一步細分中腦與橋腦之相對頻率，本題將腦幹拆分為midbrain/pons兩個選項供選，此細分依據不明確，建議醫師對照原始文獻確認何者為官方正確答案。",
+          "sourceStatement": "> 官方詳解標示答案為**A（midbrain，中腦）**，但頁緣手寫加註「應該B才對」（即pons，橋腦），對此答案表達不確定。原始文獻僅列出廣義「腦幹(brainstem)」為最常見侵犯部位，**並未進一步細分中腦與橋腦之相對頻率**，本題將腦幹拆分為midbrain/pons兩個選項供選，此細分依據不明確，建議醫師對照原始文獻確認何者為官方正確答案。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brain-abscess",
+      "path": "vault/concepts/brain-abscess.md",
+      "type": "disease",
+      "originalSha256": "170b9663762d74eebcf54be894e2a5631c5b69351743e9f540fff19086b09600",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **Dual rim sign（雙環徵象）**：SWI/T2/FLAIR 上**兩同心環——外環低訊號、內環相對高訊號**;約見於 **75%** 腦膿瘍,**有助與 GBM 區別**（2016-126 正解 B）。[^1]\n- **DWI**：膿瘍中央膿液**明顯擴散受限（DWI 高、ADC 低）**,異於壞死腫瘤的中央。[^1]\n- **強化**：薄、平滑、完整的環狀強化（常內緣較薄朝向腦室面）。\n- **鑑別**：GBM/轉移（厚不規則環、中央壞死 DWI 不受限）、tumefactive demyelination（開環強化）、PCNSL（均質強化、免疫低下可壞死）。\n- **Cerebritis（前驅期，尚未形成膿瘍）之DWI陷阱**：**cerebritis（早期或晚期）於DWI/ADC亦可見擴散受限**（可呈patchy分布），並**非僅abscess才有擴散受限**——這是常見誤區（誤以為只有已形成膿瘍才擴散受限）。[^2]\n  - **Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。\n  - **Late cerebritis**：漸進性、尤其周邊之強化（邊界不清，與已形成之abscess不易區分）；漸進性擴散受限加劇。\n\n",
+      "factUnits": [
+        {
+          "id": "brain-abscess-f01",
+          "text": "Dual rim sign（雙環徵象）：SWI/T2/FLAIR 上兩同心環——外環低訊號、內環相對高訊號;",
+          "sourceStatement": "- **Dual rim sign（雙環徵象）**：SWI/T2/FLAIR 上**兩同心環——外環低訊號、內環相對高訊號**;約見於 **75%** 腦膿瘍,**有助與 GBM 區別**（2016-126 正解 B）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-abscess-f02",
+          "text": "約見於 75% 腦膿瘍,有助與 GBM 區別（2016-126 正解 B）。",
+          "sourceStatement": "- **Dual rim sign（雙環徵象）**：SWI/T2/FLAIR 上**兩同心環——外環低訊號、內環相對高訊號**;約見於 **75%** 腦膿瘍,**有助與 GBM 區別**（2016-126 正解 B）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-abscess-f03",
+          "text": "DWI：膿瘍中央膿液明顯擴散受限（DWI 高、ADC 低）,異於壞死腫瘤的中央。",
+          "sourceStatement": "- **DWI**：膿瘍中央膿液**明顯擴散受限（DWI 高、ADC 低）**,異於壞死腫瘤的中央。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "brain-abscess-f04",
+          "text": "強化：薄、平滑、完整的環狀強化（常內緣較薄朝向腦室面）。",
+          "sourceStatement": "- **強化**：薄、平滑、完整的環狀強化（常內緣較薄朝向腦室面）。",
+          "sourceRefs": []
+        },
+        {
+          "id": "brain-abscess-f05",
+          "text": "鑑別：GBM/轉移（厚不規則環、中央壞死 DWI 不受限）、tumefactive demyelination（開環強化）、PCNSL（均質強化、免疫低下可壞死）。",
+          "sourceStatement": "- **鑑別**：GBM/轉移（厚不規則環、中央壞死 DWI 不受限）、tumefactive demyelination（開環強化）、PCNSL（均質強化、免疫低下可壞死）。",
+          "sourceRefs": []
+        },
+        {
+          "id": "brain-abscess-f06",
+          "text": "Cerebritis（前驅期，尚未形成膿瘍）之DWI陷阱：cerebritis（早期或晚期）於DWI/ADC亦可見擴散受限（可呈patchy分布），並非僅abscess才有擴散受限——這是常見誤區（誤以為只有已形成膿瘍才擴散受限）。",
+          "sourceStatement": "- **Cerebritis（前驅期，尚未形成膿瘍）之DWI陷阱**：**cerebritis（早期或晚期）於DWI/ADC亦可見擴散受限**（可呈patchy分布），並**非僅abscess才有擴散受限**——這是常見誤區（誤以為只有已形成膿瘍才擴散受限）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f07",
+          "text": "Early cerebritis：病灶局部但邊界不清（focal but not localized）；",
+          "sourceStatement": "  - **Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f08",
+          "text": "T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；",
+          "sourceStatement": "  - **Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f09",
+          "text": "T1顯影後無或輕微不均勻強化；",
+          "sourceStatement": "  - **Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f10",
+          "text": "DWI/ADC擴散受限（可patchy）。",
+          "sourceStatement": "  - **Early cerebritis**：病灶**局部但邊界不清（focal but not localized）**；T1等/低訊號、T2/FLAIR高訊號合併血管性水腫；T1顯影後無或輕微不均勻強化；DWI/ADC擴散受限（可patchy）。",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f11",
+          "text": "Late cerebritis：漸進性、尤其周邊之強化（邊界不清，與已形成之abscess不易區分）；",
+          "sourceStatement": "  - **Late cerebritis**：漸進性、尤其周邊之強化（邊界不清，與已形成之abscess不易區分）；漸進性擴散受限加劇。",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "brain-abscess-f12",
+          "text": "漸進性擴散受限加劇。",
+          "sourceStatement": "  - **Late cerebritis**：漸進性、尤其周邊之強化（邊界不清，與已形成之abscess不易區分）；漸進性擴散受限加劇。",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "brain-metastasis-mri",
+      "path": "vault/concepts/brain-metastasis-mri.md",
+      "type": "disease",
+      "originalSha256": "14d2f94cabf40636e624558617c2cc057dfd08253ce0268117662f6903833651",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **對比增強 MR＝小轉移偵測標準**：偵測/定位/定量皆優於增強 CT 與非增強 MR；為診斷首選。[^1][^3][^4]\n- **提升偵測的策略**（皆可增敏）：加大對比劑量（double/triple dose gadolinium）、**magnetization transfer（MT）**、**3D T1 SPGR＋顯影後 T2 FLAIR**、薄切/延遲/SRS 規劃高解析影像。[^3]\n- **不提升「轉移偵測」**：**顯影後加 DWI**——DWI 用於鑑別膿瘍（受限）vs 腫瘤，對強化性腦/軟腦膜轉移之偵測敏感度無加分。[^1][^3]\n- **軟腦膜轉移**：顯影後 FLAIR 與 3D SPGR 最敏感；CT 不敏感（水腦症可為早期線索）；MR+Gd 整體敏感度僅約 70%。[^2][^3]\n\n",
+      "factUnits": [
+        {
+          "id": "brain-metastasis-mri-f01",
+          "text": "對比增強 MR＝小轉移偵測標準：偵測/定位/定量皆優於增強 CT 與非增強 MR；",
+          "sourceStatement": "- **對比增強 MR＝小轉移偵測標準**：偵測/定位/定量皆優於增強 CT 與非增強 MR；為診斷首選。[^1][^3][^4]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f02",
+          "text": "為診斷首選。",
+          "sourceStatement": "- **對比增強 MR＝小轉移偵測標準**：偵測/定位/定量皆優於增強 CT 與非增強 MR；為診斷首選。[^1][^3][^4]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f03",
+          "text": "提升偵測的策略（皆可增敏）：加大對比劑量（double/triple dose gadolinium）、magnetization transfer（MT）、3D T1 SPGR＋顯影後 T2 FLAIR、薄切/延遲/SRS 規劃高解析影像。",
+          "sourceStatement": "- **提升偵測的策略**（皆可增敏）：加大對比劑量（double/triple dose gadolinium）、**magnetization transfer（MT）**、**3D T1 SPGR＋顯影後 T2 FLAIR**、薄切/延遲/SRS 規劃高解析影像。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f04",
+          "text": "不提升「轉移偵測」：顯影後加 DWI——DWI 用於鑑別膿瘍（受限）vs 腫瘤，對強化性腦/軟腦膜轉移之偵測敏感度無加分。",
+          "sourceStatement": "- **不提升「轉移偵測」**：**顯影後加 DWI**——DWI 用於鑑別膿瘍（受限）vs 腫瘤，對強化性腦/軟腦膜轉移之偵測敏感度無加分。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f05",
+          "text": "軟腦膜轉移：顯影後 FLAIR 與 3D SPGR 最敏感；",
+          "sourceStatement": "- **軟腦膜轉移**：顯影後 FLAIR 與 3D SPGR 最敏感；CT 不敏感（水腦症可為早期線索）；MR+Gd 整體敏感度僅約 70%。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f06",
+          "text": "CT 不敏感（水腦症可為早期線索）；",
+          "sourceStatement": "- **軟腦膜轉移**：顯影後 FLAIR 與 3D SPGR 最敏感；CT 不敏感（水腦症可為早期線索）；MR+Gd 整體敏感度僅約 70%。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        },
+        {
+          "id": "brain-metastasis-mri-f07",
+          "text": "MR+Gd 整體敏感度僅約 70%。",
+          "sourceStatement": "- **軟腦膜轉移**：顯影後 FLAIR 與 3D SPGR 最敏感；CT 不敏感（水腦症可為早期線索）；MR+Gd 整體敏感度僅約 70%。[^2][^3]",
+          "sourceRefs": [
+            "2",
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "capillary-telangiectasia",
+      "path": "vault/concepts/capillary-telangiectasia.md",
+      "type": "disease",
+      "originalSha256": "f28cd32d3c44b91342123562ee4d53992b1c28e1f635a3d7d1f2b606edd78950",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **好發橋腦（~80%）**(option A 對);亦見中腦、基底節、皮質。[^1]\n- **病理**：擴張微血管,**間夾正常腦實質（interspersed with normal brain parenchyma）**;故「dilated capillaries **without** intervening brain parenchyma」**錯誤**＝題目正解（2016-186 正解 B）——「無間質腦組織」才是 cavernoma 的特徵。[^1]\n- **多無症狀、偶見**(option C 對)。[^1]\n- **影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "capillary-telangiectasia-f01",
+          "text": "好發橋腦（~80%）(option A 對);",
+          "sourceStatement": "- **好發橋腦（~80%）**(option A 對);亦見中腦、基底節、皮質。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f02",
+          "text": "亦見中腦、基底節、皮質。",
+          "sourceStatement": "- **好發橋腦（~80%）**(option A 對);亦見中腦、基底節、皮質。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f03",
+          "text": "病理：擴張微血管,間夾正常腦實質（interspersed with normal brain parenchyma）;",
+          "sourceStatement": "- **病理**：擴張微血管,**間夾正常腦實質（interspersed with normal brain parenchyma）**;故「dilated capillaries **without** intervening brain parenchyma」**錯誤**＝題目正解（2016-186 正解 B）——「無間質腦組織」才是 cavernoma 的特徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f04",
+          "text": "故「dilated capillaries without intervening brain parenchyma」錯誤＝題目正解（2016-186 正解 B）——「無間質腦組織」才是 cavernoma 的特徵。",
+          "sourceStatement": "- **病理**：擴張微血管,**間夾正常腦實質（interspersed with normal brain parenchyma）**;故「dilated capillaries **without** intervening brain parenchyma」**錯誤**＝題目正解（2016-186 正解 B）——「無間質腦組織」才是 cavernoma 的特徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f05",
+          "text": "多無症狀、偶見(option C 對)。",
+          "sourceStatement": "- **多無症狀、偶見**(option C 對)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f06",
+          "text": "影像：T1/T2 多不顯;",
+          "sourceStatement": "- **影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f07",
+          "text": "對比後花邊狀/點狀（lacelike/stippled）淡強化(option D 對);",
+          "sourceStatement": "- **影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "capillary-telangiectasia-f08",
+          "text": "SWI/GRE 低訊號（blooming）。",
+          "sourceStatement": "- **影像**：T1/T2 多不顯;對比後**花邊狀/點狀（lacelike/stippled）淡強化**(option D 對);**SWI/GRE 低訊號（blooming）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cardioembolic-stroke",
+      "path": "vault/concepts/cardioembolic-stroke.md",
+      "type": "disease",
+      "originalSha256": "d02be00b80f7c747cf7d077bed0099445e5fd1cc1256a91fa4a68e5fa928a9ca",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **心房顫動(AF)**：左心房/左心耳血栓 → **最常見心源性腦栓塞來源之一**(選項 B 是中風原因)。[^1]\n- **急性心肌梗塞(AMI)**：左室壁運動異常/附壁血栓 → 腦栓塞(選項 A 是中風原因)。[^1]\n- **感染性心內膜炎**：左側瓣膜贅生物 → 敗血性腦栓塞/黴菌性動脈瘤(選項 D 是中風原因)。[^1]\n- **ARVD/ARVC**：**右心室**纖維脂肪置換致**室性心律不整與猝死**;栓子源於右心→**肺**(PE),**非腦缺血中風來源** → 故「ARVD 是腦缺血中風原因」**錯誤**＝題目正解(2016-128 正解 C)。[^2]\n\n> [!note] 考點：哪個心臟疾病「不是」腦缺血中風的原因?\n> **Arrhythmogenic right ventricular dysplasia (ARVD/ARVC)**——右室心律不整/猝死,非腦栓塞源。AF、AMI、感染性心內膜炎皆為心源性腦栓塞來源。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "cardioembolic-stroke-f01",
+          "text": "心房顫動(AF)：左心房/左心耳血栓 → 最常見心源性腦栓塞來源之一(選項 B 是中風原因)。",
+          "sourceStatement": "- **心房顫動(AF)**：左心房/左心耳血栓 → **最常見心源性腦栓塞來源之一**(選項 B 是中風原因)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f02",
+          "text": "急性心肌梗塞(AMI)：左室壁運動異常/附壁血栓 → 腦栓塞(選項 A 是中風原因)。",
+          "sourceStatement": "- **急性心肌梗塞(AMI)**：左室壁運動異常/附壁血栓 → 腦栓塞(選項 A 是中風原因)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f03",
+          "text": "感染性心內膜炎：左側瓣膜贅生物 → 敗血性腦栓塞/黴菌性動脈瘤(選項 D 是中風原因)。",
+          "sourceStatement": "- **感染性心內膜炎**：左側瓣膜贅生物 → 敗血性腦栓塞/黴菌性動脈瘤(選項 D 是中風原因)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f04",
+          "text": "ARVD/ARVC：右心室纖維脂肪置換致室性心律不整與猝死;",
+          "sourceStatement": "- **ARVD/ARVC**：**右心室**纖維脂肪置換致**室性心律不整與猝死**;栓子源於右心→**肺**(PE),**非腦缺血中風來源** → 故「ARVD 是腦缺血中風原因」**錯誤**＝題目正解(2016-128 正解 C)。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f05",
+          "text": "栓子源於右心→肺(PE),非腦缺血中風來源 → 故「ARVD 是腦缺血中風原因」錯誤＝題目正解(2016-128 正解 C)。",
+          "sourceStatement": "- **ARVD/ARVC**：**右心室**纖維脂肪置換致**室性心律不整與猝死**;栓子源於右心→**肺**(PE),**非腦缺血中風來源** → 故「ARVD 是腦缺血中風原因」**錯誤**＝題目正解(2016-128 正解 C)。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f06",
+          "text": "Arrhythmogenic right ventricular dysplasia (ARVD/ARVC)——右室心律不整/猝死,非腦栓塞源。",
+          "sourceStatement": "> **Arrhythmogenic right ventricular dysplasia (ARVD/ARVC)**——右室心律不整/猝死,非腦栓塞源。AF、AMI、感染性心內膜炎皆為心源性腦栓塞來源。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cardioembolic-stroke-f07",
+          "text": "AF、AMI、感染性心內膜炎皆為心源性腦栓塞來源。",
+          "sourceStatement": "> **Arrhythmogenic right ventricular dysplasia (ARVD/ARVC)**——右室心律不整/猝死,非腦栓塞源。AF、AMI、感染性心內膜炎皆為心源性腦栓塞來源。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "carotid-cavernous-fistula",
+      "path": "vault/concepts/carotid-cavernous-fistula.md",
+      "type": "disease",
+      "originalSha256": "1b7fb9a40a98598e069a0cca79d10f57296f4aaf145c38a7cf733f643b509a5b",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n\n### Barrow 分類與病因\n- **Type A（直接型/高流量）**：ICA 海綿竇段與 CS **直接相通（單孔撕裂/斷裂）**，**最常見**；**最常見病因為外傷**（其次 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離）。[^1][^4]\n- **Type B/C/D（間接型/低流量）**：硬腦膜 AVF，繼發海綿竇血栓再血管化；誘因含懷孕、局部手術、鼻竇炎。[^1]\n\n### 顱神經受累\n- **CN VI（外旋神經）最常受累**（游離走行海綿竇內、緊鄰 ICA）致複視；壓力可傳至對側致對側 CN VI 麻痺；CN III/IV/V 走行外側壁亦可受累但較少。[^2][^4]\n\n### 靜脈外流路徑\n- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]\n- **非常見（考題重點）**：**Thalamostriate vein（視丘紋狀體靜脈）屬深部腦靜脈系統，非 CCF 常見外流路徑**。[^3]\n\n",
+      "factUnits": [
+        {
+          "id": "carotid-cavernous-fistula-f01",
+          "text": "Type A（直接型/高流量）：ICA 海綿竇段與 CS 直接相通（單孔撕裂/斷裂），最常見；",
+          "sourceStatement": "- **Type A（直接型/高流量）**：ICA 海綿竇段與 CS **直接相通（單孔撕裂/斷裂）**，**最常見**；**最常見病因為外傷**（其次 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離）。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f02",
+          "text": "最常見病因為外傷（其次 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離）。",
+          "sourceStatement": "- **Type A（直接型/高流量）**：ICA 海綿竇段與 CS **直接相通（單孔撕裂/斷裂）**，**最常見**；**最常見病因為外傷**（其次 ICA 動脈瘤破裂、FMD、Ehlers-Danlos、剝離）。[^1][^4]",
+          "sourceRefs": [
+            "1",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f03",
+          "text": "Type B/C/D（間接型/低流量）：硬腦膜 AVF，繼發海綿竇血栓再血管化；",
+          "sourceStatement": "- **Type B/C/D（間接型/低流量）**：硬腦膜 AVF，繼發海綿竇血栓再血管化；誘因含懷孕、局部手術、鼻竇炎。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f04",
+          "text": "誘因含懷孕、局部手術、鼻竇炎。",
+          "sourceStatement": "- **Type B/C/D（間接型/低流量）**：硬腦膜 AVF，繼發海綿竇血栓再血管化；誘因含懷孕、局部手術、鼻竇炎。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f05",
+          "text": "CN VI（外旋神經）最常受累（游離走行海綿竇內、緊鄰 ICA）致複視；",
+          "sourceStatement": "- **CN VI（外旋神經）最常受累**（游離走行海綿竇內、緊鄰 ICA）致複視；壓力可傳至對側致對側 CN VI 麻痺；CN III/IV/V 走行外側壁亦可受累但較少。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f06",
+          "text": "壓力可傳至對側致對側 CN VI 麻痺；",
+          "sourceStatement": "- **CN VI（外旋神經）最常受累**（游離走行海綿竇內、緊鄰 ICA）致複視；壓力可傳至對側致對側 CN VI 麻痺；CN III/IV/V 走行外側壁亦可受累但較少。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f07",
+          "text": "CN III/IV/V 走行外側壁亦可受累但較少。",
+          "sourceStatement": "- **CN VI（外旋神經）最常受累**（游離走行海綿竇內、緊鄰 ICA）致複視；壓力可傳至對側致對側 CN VI 麻痺；CN III/IV/V 走行外側壁亦可受累但較少。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f08",
+          "text": "常見：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；",
+          "sourceStatement": "- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f09",
+          "text": "後＝inferior/superior petrosal sinus → jugular/transverse sinus；",
+          "sourceStatement": "- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f10",
+          "text": "下＝pterygoid venous plexus、basilar plexus；",
+          "sourceStatement": "- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f11",
+          "text": "上/皮質＝superficial sylvian（中大腦淺）皮質靜脈、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。",
+          "sourceStatement": "- **常見**：前＝SOV/inferior ophthalmic vein → angular/facial vein（眼球突出、結膜水腫）；後＝**inferior/superior petrosal sinus** → jugular/transverse sinus；下＝**pterygoid venous plexus**、basilar plexus；上/皮質＝**superficial sylvian（中大腦淺）皮質靜脈**、uncal vein、sphenoparietal sinus、intercavernous → 對側 CS、basal vein of Rosenthal → vein of Galen。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "carotid-cavernous-fistula-f12",
+          "text": "非常見（考題重點）：Thalamostriate vein（視丘紋狀體靜脈）屬深部腦靜脈系統，非 CCF 常見外流路徑。",
+          "sourceStatement": "- **非常見（考題重點）**：**Thalamostriate vein（視丘紋狀體靜脈）屬深部腦靜脈系統，非 CCF 常見外流路徑**。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cavernous-sinus-schwannoma",
+      "path": "vault/concepts/cavernous-sinus-schwannoma.md",
+      "type": "disease",
+      "originalSha256": "e03e798caab482d53f1a9cfc34df3779765e97bdf1433dd570ec3ff7f7346af3",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **最常見起源神經**：**三叉神經（trigeminal nerve, CN V）**；其次為動眼神經（CN III）。外旋神經（CN VI）、滑車神經（CN IV）起源者相對少見。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "cavernous-sinus-schwannoma-f01",
+          "text": "最常見起源神經：三叉神經（trigeminal nerve, CN V）；",
+          "sourceStatement": "- **最常見起源神經**：**三叉神經（trigeminal nerve, CN V）**；其次為動眼神經（CN III）。外旋神經（CN VI）、滑車神經（CN IV）起源者相對少見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cavernous-sinus-schwannoma-f02",
+          "text": "其次為動眼神經（CN III）。",
+          "sourceStatement": "- **最常見起源神經**：**三叉神經（trigeminal nerve, CN V）**；其次為動眼神經（CN III）。外旋神經（CN VI）、滑車神經（CN IV）起源者相對少見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cavernous-sinus-schwannoma-f03",
+          "text": "外旋神經（CN VI）、滑車神經（CN IV）起源者相對少見。",
+          "sourceStatement": "- **最常見起源神經**：**三叉神經（trigeminal nerve, CN V）**；其次為動眼神經（CN III）。外旋神經（CN VI）、滑車神經（CN IV）起源者相對少見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "central-neurocytoma",
+      "path": "vault/concepts/central-neurocytoma.md",
+      "type": "disease",
+      "originalSha256": "74f70259ab2d010a74a573365702b30fc0a2130d930c6e620405c5cd9e3a8c02",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質/族群**：**WHO grade 2 神經上皮腦室內腫瘤**；好發**年輕成人**，完整切除預後佳。[^1][^2]\n- **位置**：**側腦室、Monro 孔附近（最常，約 50%）、附著於透明隔（septum pellucidum）**；「central」＝腦室內限定。[^1][^2]\n- **影像形態**：**異質、對白質高衰減**、**鈣化 >50%（punctate）**、**多囊（bubbly/swiss cheese/soap bubble，FLAIR 部分衰減）**、輕-中度（多變）強化、常伴**腦室擴大/水腦**。[^1][^2]\n- **MRS（關鍵易錯）**：**glycine peak（3.55 ppm，長 TE）**+ 顯著 **choline** 峰——**非 glutamine**（Glx 位 2.2-2.4 ppm、與 GABA 重疊，非鑑別標記）。[^1][^2]\n- **鈣化/預後**：鈣化常見（非罕見）；合併**腦室外延伸者預後較差**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "central-neurocytoma-f01",
+          "text": "本質/族群：WHO grade 2 神經上皮腦室內腫瘤；",
+          "sourceStatement": "- **本質/族群**：**WHO grade 2 神經上皮腦室內腫瘤**；好發**年輕成人**，完整切除預後佳。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f02",
+          "text": "好發年輕成人，完整切除預後佳。",
+          "sourceStatement": "- **本質/族群**：**WHO grade 2 神經上皮腦室內腫瘤**；好發**年輕成人**，完整切除預後佳。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f03",
+          "text": "位置：側腦室、Monro 孔附近（最常，約 50%）、附著於透明隔（septum pellucidum）；",
+          "sourceStatement": "- **位置**：**側腦室、Monro 孔附近（最常，約 50%）、附著於透明隔（septum pellucidum）**；「central」＝腦室內限定。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f04",
+          "text": "「central」＝腦室內限定。",
+          "sourceStatement": "- **位置**：**側腦室、Monro 孔附近（最常，約 50%）、附著於透明隔（septum pellucidum）**；「central」＝腦室內限定。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f05",
+          "text": "影像形態：異質、對白質高衰減、鈣化 >50%（punctate）、多囊（bubbly/swiss cheese/soap bubble，FLAIR 部分衰減）、輕-中度（多變）強化、常伴腦室擴大/水腦。",
+          "sourceStatement": "- **影像形態**：**異質、對白質高衰減**、**鈣化 >50%（punctate）**、**多囊（bubbly/swiss cheese/soap bubble，FLAIR 部分衰減）**、輕-中度（多變）強化、常伴**腦室擴大/水腦**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f06",
+          "text": "MRS（關鍵易錯）：glycine peak（3.55 ppm，長 TE）+ 顯著 choline 峰——非 glutamine（Glx 位 2.2-2.4 ppm、與 GABA 重疊，非鑑別標記）。",
+          "sourceStatement": "- **MRS（關鍵易錯）**：**glycine peak（3.55 ppm，長 TE）**+ 顯著 **choline** 峰——**非 glutamine**（Glx 位 2.2-2.4 ppm、與 GABA 重疊，非鑑別標記）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f07",
+          "text": "鈣化/預後：鈣化常見（非罕見）；",
+          "sourceStatement": "- **鈣化/預後**：鈣化常見（非罕見）；合併**腦室外延伸者預後較差**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "central-neurocytoma-f08",
+          "text": "合併腦室外延伸者預後較差。",
+          "sourceStatement": "- **鈣化/預後**：鈣化常見（非罕見）；合併**腦室外延伸者預後較差**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cerebral-cavernous-malformation",
+      "path": "vault/concepts/cerebral-cavernous-malformation.md",
+      "type": "disease",
+      "originalSha256": "8b044bfc2cbd298b6c32b5ed0f0c520f7dfb93404613200b572748eaacde2642",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n\n### 典型影像核心\n- **核心訊號**：**桑椹（mulberry）/爆米花狀（popcorn）混雜訊號核心**——T1、T2 皆呈網狀（reticulated）混雜訊號,反映不同期出血、血栓、纖維化與鈣化共存。[^1][^2]\n- **含鐵血黃素環**：核心外包**完整的含鐵血黃素（hemosiderin）低訊號環**,T2/T2* 上最明顯;此環是與「出血性轉移」鑑別的關鍵——cavernoma 的含鐵環完整且封閉,出血性轉移的含鐵環常不完整。[^1][^2]\n- **不同期出血訊號層**：核心內可見不同時期血液產物的訊號分層（T1 高訊號代表亞急性 methemoglobin;深部低訊號代表慢性 hemosiderin/含鐵）——即「分層」外觀。[^1][^2]\n\n### 最敏感序列\n- **SWI / GRE（T2*）blooming 最敏感**：含鐵血黃素的順磁效應造成 blooming artifact,使病灶看起來比實際大;**SWI 比 GRE 更敏感**,是偵測**多發病灶（尤其家族型）**與微小 Zabramski IV 型的首選序列,建議 3T 以上。[^1][^3]\n- **血管攝影為 angiographically occult（血管攝影隱匿）**:屬低流量病灶,DSA 上看不到,與 AVM（有早期引流靜脈、nidus）鑑別。[^2][^4]\n\n### Zabramski 分型 I–IV\n- **Type I**：亞急性出血。T1 高訊號核心,T2 高或低訊號;周邊含鐵環。[^1][^5]\n- **Type II**（最常見,約 50–67%）：**典型 popcorn**——T1、T2 皆網狀混雜訊號核心 + 完整含鐵血黃素低訊號環。[^1][^5]\n- **Type III**：慢性出血,含鐵血黃素為主。T1、T2 皆低訊號;GRE/SWI 上明顯 blooming。[^1][^5]\n- **Type IV**：微小點狀（punctate）病灶,**標準序列幾乎看不到,僅 GRE/SWI 可見**——多發/家族型篩檢的重點。[^1][^5]\n\n### 合併病灶與臨床\n- **常合併 DVA**：約 **13–40%** 合併**發展性靜脈異常（developmental venous anomaly, DVA）**,並列稱混合型血管畸形;發現 cavernoma 應主動找相鄰 DVA。[^1][^6]\n- **臨床表現**：好發**出血**與**癲癇**;Zabramski 分型有助預測再出血風險。[^1][^5]\n\n### 強化（考試陷阱）\n- **強化**：**minimal or no enhancement（微弱或無強化）** → 故「**never shows enhancement（從不強化）**」**錯誤**＝題目正解（2016-170 正解 D）;是「微弱/無」而非「絕對不」。[^1]\n\n### 判讀陷阱與鑑別診斷（DDx）\n- **多發病灶分布是鑑別主軸**:cavernoma 多發時呈隨機分布且各有完整含鐵環;**澱粉樣血管病變（CAA）微出血**呈**嚴格皮質/皮質下葉狀（lobar）分布**,**高血壓性微出血**則偏**深部（基底核、視丘、腦幹、小腦）**——SWI 分布型態為鑑別關鍵。[^2][^7]\n- **出血性轉移**：常有周邊水腫、不完整含鐵環、實質強化結節,且病灶隨追蹤變化;cavernoma 含鐵環完整、少水腫（除非近期出血）。[^1][^2]\n- **鈣化性肉芽腫（calcified granuloma）**：CT 上鈣化、GRE/SWI 亦可 blooming,但缺乏 popcorn 混雜訊號核心與含鐵環分層。[^2]\n- **瀰漫性軸突損傷（diffuse axonal injury, DAI）**：外傷史 + 灰白質交界、胼胝體、腦幹的微出血,GRE/SWI blooming,但無 popcorn 核心、無含鐵環病灶;臨床情境鑑別。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "cerebral-cavernous-malformation-f01",
+          "text": "核心訊號：桑椹（mulberry）/爆米花狀（popcorn）混雜訊號核心——T1、T2 皆呈網狀（reticulated）混雜訊號,反映不同期出血、血栓、纖維化與鈣化共存。",
+          "sourceStatement": "- **核心訊號**：**桑椹（mulberry）/爆米花狀（popcorn）混雜訊號核心**——T1、T2 皆呈網狀（reticulated）混雜訊號,反映不同期出血、血栓、纖維化與鈣化共存。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f02",
+          "text": "含鐵血黃素環：核心外包完整的含鐵血黃素（hemosiderin）低訊號環,T2/T2* 上最明顯;",
+          "sourceStatement": "- **含鐵血黃素環**：核心外包**完整的含鐵血黃素（hemosiderin）低訊號環**,T2/T2* 上最明顯;此環是與「出血性轉移」鑑別的關鍵——cavernoma 的含鐵環完整且封閉,出血性轉移的含鐵環常不完整。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f03",
+          "text": "此環是與「出血性轉移」鑑別的關鍵——cavernoma 的含鐵環完整且封閉,出血性轉移的含鐵環常不完整。",
+          "sourceStatement": "- **含鐵血黃素環**：核心外包**完整的含鐵血黃素（hemosiderin）低訊號環**,T2/T2* 上最明顯;此環是與「出血性轉移」鑑別的關鍵——cavernoma 的含鐵環完整且封閉,出血性轉移的含鐵環常不完整。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f04",
+          "text": "不同期出血訊號層：核心內可見不同時期血液產物的訊號分層（T1 高訊號代表亞急性 methemoglobin;深部低訊號代表慢性 hemosiderin/含鐵）——即「分層」外觀。",
+          "sourceStatement": "- **不同期出血訊號層**：核心內可見不同時期血液產物的訊號分層（T1 高訊號代表亞急性 methemoglobin;深部低訊號代表慢性 hemosiderin/含鐵）——即「分層」外觀。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f05",
+          "text": "SWI / GRE（T2*）blooming 最敏感：含鐵血黃素的順磁效應造成 blooming artifact,使病灶看起來比實際大;",
+          "sourceStatement": "- **SWI / GRE（T2*）blooming 最敏感**：含鐵血黃素的順磁效應造成 blooming artifact,使病灶看起來比實際大;**SWI 比 GRE 更敏感**,是偵測**多發病灶（尤其家族型）**與微小 Zabramski IV 型的首選序列,建議 3T 以上。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f06",
+          "text": "SWI 比 GRE 更敏感,是偵測多發病灶（尤其家族型）與微小 Zabramski IV 型的首選序列,建議 3T 以上。",
+          "sourceStatement": "- **SWI / GRE（T2*）blooming 最敏感**：含鐵血黃素的順磁效應造成 blooming artifact,使病灶看起來比實際大;**SWI 比 GRE 更敏感**,是偵測**多發病灶（尤其家族型）**與微小 Zabramski IV 型的首選序列,建議 3T 以上。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f07",
+          "text": "血管攝影為 angiographically occult（血管攝影隱匿）:屬低流量病灶,DSA 上看不到,與 AVM（有早期引流靜脈、nidus）鑑別。",
+          "sourceStatement": "- **血管攝影為 angiographically occult（血管攝影隱匿）**:屬低流量病灶,DSA 上看不到,與 AVM（有早期引流靜脈、nidus）鑑別。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f08",
+          "text": "Type I：亞急性出血。",
+          "sourceStatement": "- **Type I**：亞急性出血。T1 高訊號核心,T2 高或低訊號;周邊含鐵環。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f09",
+          "text": "T1 高訊號核心,T2 高或低訊號;",
+          "sourceStatement": "- **Type I**：亞急性出血。T1 高訊號核心,T2 高或低訊號;周邊含鐵環。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f10",
+          "text": "周邊含鐵環。",
+          "sourceStatement": "- **Type I**：亞急性出血。T1 高訊號核心,T2 高或低訊號;周邊含鐵環。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f11",
+          "text": "Type II（最常見,約 50–67%）：典型 popcorn——T1、T2 皆網狀混雜訊號核心 + 完整含鐵血黃素低訊號環。",
+          "sourceStatement": "- **Type II**（最常見,約 50–67%）：**典型 popcorn**——T1、T2 皆網狀混雜訊號核心 + 完整含鐵血黃素低訊號環。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f12",
+          "text": "Type III：慢性出血,含鐵血黃素為主。",
+          "sourceStatement": "- **Type III**：慢性出血,含鐵血黃素為主。T1、T2 皆低訊號;GRE/SWI 上明顯 blooming。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f13",
+          "text": "T1、T2 皆低訊號;",
+          "sourceStatement": "- **Type III**：慢性出血,含鐵血黃素為主。T1、T2 皆低訊號;GRE/SWI 上明顯 blooming。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f14",
+          "text": "GRE/SWI 上明顯 blooming。",
+          "sourceStatement": "- **Type III**：慢性出血,含鐵血黃素為主。T1、T2 皆低訊號;GRE/SWI 上明顯 blooming。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f15",
+          "text": "Type IV：微小點狀（punctate）病灶,標準序列幾乎看不到,僅 GRE/SWI 可見——多發/家族型篩檢的重點。",
+          "sourceStatement": "- **Type IV**：微小點狀（punctate）病灶,**標準序列幾乎看不到,僅 GRE/SWI 可見**——多發/家族型篩檢的重點。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f16",
+          "text": "常合併 DVA：約 13–40% 合併發展性靜脈異常（developmental venous anomaly, DVA）,並列稱混合型血管畸形;",
+          "sourceStatement": "- **常合併 DVA**：約 **13–40%** 合併**發展性靜脈異常（developmental venous anomaly, DVA）**,並列稱混合型血管畸形;發現 cavernoma 應主動找相鄰 DVA。[^1][^6]",
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f17",
+          "text": "發現 cavernoma 應主動找相鄰 DVA。",
+          "sourceStatement": "- **常合併 DVA**：約 **13–40%** 合併**發展性靜脈異常（developmental venous anomaly, DVA）**,並列稱混合型血管畸形;發現 cavernoma 應主動找相鄰 DVA。[^1][^6]",
+          "sourceRefs": [
+            "1",
+            "6"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f18",
+          "text": "臨床表現：好發出血與癲癇;",
+          "sourceStatement": "- **臨床表現**：好發**出血**與**癲癇**;Zabramski 分型有助預測再出血風險。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f19",
+          "text": "Zabramski 分型有助預測再出血風險。",
+          "sourceStatement": "- **臨床表現**：好發**出血**與**癲癇**;Zabramski 分型有助預測再出血風險。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f20",
+          "text": "強化：minimal or no enhancement（微弱或無強化） → 故「never shows enhancement（從不強化）」錯誤＝題目正解（2016-170 正解 D）;",
+          "sourceStatement": "- **強化**：**minimal or no enhancement（微弱或無強化）** → 故「**never shows enhancement（從不強化）**」**錯誤**＝題目正解（2016-170 正解 D）;是「微弱/無」而非「絕對不」。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f21",
+          "text": "是「微弱/無」而非「絕對不」。",
+          "sourceStatement": "- **強化**：**minimal or no enhancement（微弱或無強化）** → 故「**never shows enhancement（從不強化）**」**錯誤**＝題目正解（2016-170 正解 D）;是「微弱/無」而非「絕對不」。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f22",
+          "text": "多發病灶分布是鑑別主軸:cavernoma 多發時呈隨機分布且各有完整含鐵環;",
+          "sourceStatement": "- **多發病灶分布是鑑別主軸**:cavernoma 多發時呈隨機分布且各有完整含鐵環;**澱粉樣血管病變（CAA）微出血**呈**嚴格皮質/皮質下葉狀（lobar）分布**,**高血壓性微出血**則偏**深部（基底核、視丘、腦幹、小腦）**——SWI 分布型態為鑑別關鍵。[^2][^7]",
+          "sourceRefs": [
+            "2",
+            "7"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f23",
+          "text": "澱粉樣血管病變（CAA）微出血呈嚴格皮質/皮質下葉狀（lobar）分布,高血壓性微出血則偏深部（基底核、視丘、腦幹、小腦）——SWI 分布型態為鑑別關鍵。",
+          "sourceStatement": "- **多發病灶分布是鑑別主軸**:cavernoma 多發時呈隨機分布且各有完整含鐵環;**澱粉樣血管病變（CAA）微出血**呈**嚴格皮質/皮質下葉狀（lobar）分布**,**高血壓性微出血**則偏**深部（基底核、視丘、腦幹、小腦）**——SWI 分布型態為鑑別關鍵。[^2][^7]",
+          "sourceRefs": [
+            "2",
+            "7"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f24",
+          "text": "出血性轉移：常有周邊水腫、不完整含鐵環、實質強化結節,且病灶隨追蹤變化;",
+          "sourceStatement": "- **出血性轉移**：常有周邊水腫、不完整含鐵環、實質強化結節,且病灶隨追蹤變化;cavernoma 含鐵環完整、少水腫（除非近期出血）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f25",
+          "text": "cavernoma 含鐵環完整、少水腫（除非近期出血）。",
+          "sourceStatement": "- **出血性轉移**：常有周邊水腫、不完整含鐵環、實質強化結節,且病灶隨追蹤變化;cavernoma 含鐵環完整、少水腫（除非近期出血）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f26",
+          "text": "鈣化性肉芽腫（calcified granuloma）：CT 上鈣化、GRE/SWI 亦可 blooming,但缺乏 popcorn 混雜訊號核心與含鐵環分層。",
+          "sourceStatement": "- **鈣化性肉芽腫（calcified granuloma）**：CT 上鈣化、GRE/SWI 亦可 blooming,但缺乏 popcorn 混雜訊號核心與含鐵環分層。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f27",
+          "text": "瀰漫性軸突損傷（diffuse axonal injury, DAI）：外傷史 + 灰白質交界、胼胝體、腦幹的微出血,GRE/SWI blooming,但無 popcorn 核心、無含鐵環病灶;",
+          "sourceStatement": "- **瀰漫性軸突損傷（diffuse axonal injury, DAI）**：外傷史 + 灰白質交界、胼胝體、腦幹的微出血,GRE/SWI blooming,但無 popcorn 核心、無含鐵環病灶;臨床情境鑑別。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "cerebral-cavernous-malformation-f28",
+          "text": "臨床情境鑑別。",
+          "sourceStatement": "- **瀰漫性軸突損傷（diffuse axonal injury, DAI）**：外傷史 + 灰白質交界、胼胝體、腦幹的微出血,GRE/SWI blooming,但無 popcorn 核心、無含鐵環病灶;臨床情境鑑別。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cerebral-proliferative-angiopathy",
+      "path": "vault/concepts/cerebral-proliferative-angiopathy.md",
+      "type": "disease",
+      "originalSha256": "7f8e923933f7cde794cf05758210004da46ec37914fd9a77db664e2c92ee8e9e",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **定義**：CPA 為一種罕見的腦血管畸形，血管叢廣泛分布、**病灶間夾雜正常腦實質** [^1]\n- **與 AVM 鑑別**：典型 AVM 有 compact nidus、無正常腦組織夾雜；CPA 為 diffuse、**含 interposed normal brain tissue** [^1]\n- **影像特徵**：大範圍、跨多個血管分布區域、無明確 nidus；常見 transdural supply [^1]\n- **臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療** [^1]\n- **常見表現**：頭痛、癲癇；較少以出血為初始表現 [^1]\n\n",
+      "factUnits": [
+        {
+          "id": "cerebral-proliferative-angiopathy-f01",
+          "text": "定義：CPA 為一種罕見的腦血管畸形，血管叢廣泛分布、病灶間夾雜正常腦實質",
+          "sourceStatement": "- **定義**：CPA 為一種罕見的腦血管畸形，血管叢廣泛分布、**病灶間夾雜正常腦實質** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f02",
+          "text": "與 AVM 鑑別：典型 AVM 有 compact nidus、無正常腦組織夾雜；",
+          "sourceStatement": "- **與 AVM 鑑別**：典型 AVM 有 compact nidus、無正常腦組織夾雜；CPA 為 diffuse、**含 interposed normal brain tissue** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f03",
+          "text": "CPA 為 diffuse、含 interposed normal brain tissue",
+          "sourceStatement": "- **與 AVM 鑑別**：典型 AVM 有 compact nidus、無正常腦組織夾雜；CPA 為 diffuse、**含 interposed normal brain tissue** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f04",
+          "text": "影像特徵：大範圍、跨多個血管分布區域、無明確 nidus；",
+          "sourceStatement": "- **影像特徵**：大範圍、跨多個血管分布區域、無明確 nidus；常見 transdural supply [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f05",
+          "text": "常見 transdural supply",
+          "sourceStatement": "- **影像特徵**：大範圍、跨多個血管分布區域、無明確 nidus；常見 transdural supply [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f06",
+          "text": "臨床意義：出血風險低於 AVM；",
+          "sourceStatement": "- **臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f07",
+          "text": "因含正常腦組織，不適合手術切除或立體定位放射治療",
+          "sourceStatement": "- **臨床意義**：出血風險低於 AVM；因含正常腦組織，**不適合手術切除或立體定位放射治療** [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f08",
+          "text": "常見表現：頭痛、癲癇；",
+          "sourceStatement": "- **常見表現**：頭痛、癲癇；較少以出血為初始表現 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "cerebral-proliferative-angiopathy-f09",
+          "text": "較少以出血為初始表現",
+          "sourceStatement": "- **常見表現**：頭痛、癲癇；較少以出血為初始表現 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

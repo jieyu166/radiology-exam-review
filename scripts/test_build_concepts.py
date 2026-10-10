@@ -157,6 +157,23 @@ def test_build_concept_aggregates_all_summary_variants_and_subsections() -> None
     ]
 
 
+def test_build_concept_accepts_fullwidth_summary_suffix() -> None:
+    with tempfile.TemporaryDirectory() as directory:
+        path = Path(directory) / "legacy-summary.md"
+        path.write_text(
+            "---\nconcepts: [legacy-summary]\nsubspecialty: [NR]\n---\n"
+            "## Summary\uff08legacy\uff09\n"
+            "- **Label**: Supported fact.[^1]\n\n"
+            "## References\n[^1]: Example.\n",
+            encoding="utf-8",
+            newline="",
+        )
+        detail, warning = build.build_concept(path)
+
+    assert warning is None
+    assert detail["keyPoints"] == ["**Label**: Supported fact."]
+
+
 def test_batch_scoped_build_is_byte_idempotent_and_never_writes_nonpilot_detail() -> None:
     assert hasattr(build, "build_selected_concepts")
     assert hasattr(build, "load_batch_slugs")
@@ -534,6 +551,7 @@ def run_smoke() -> None:
     test_bare_url_fallback_stops_before_fullwidth_semicolon_prose()
     test_index_rebuild_uses_only_existing_detail_json_metadata()
     test_build_concept_aggregates_all_summary_variants_and_subsections()
+    test_build_concept_accepts_fullwidth_summary_suffix()
     test_batch_scoped_build_is_byte_idempotent_and_never_writes_nonpilot_detail()
     print("BUILD_CONCEPTS_TEST_OK")
 

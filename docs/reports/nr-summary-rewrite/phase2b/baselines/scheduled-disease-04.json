@@ -1,0 +1,1142 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "scheduled-disease-04",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "ev71-cns-complications",
+      "path": "vault/concepts/ev71-cns-complications.md",
+      "type": "disease",
+      "originalSha256": "82b3c9766a2662e37b9189ab1bd99c72bccfd35b9a75de51c4e2e79900d89092",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **典型受累部位**：**同側（ipsilateral）前角細胞（anterior horn cells）**，MRI呈T2高訊號合併強化。[^1]\n- **合併脊髓神經根炎（radiculomyelitis）**：可見馬尾腹側神經根（ventral nerve roots of cauda equina）增厚與強化。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "ev71-cns-complications-f01",
+          "text": "典型受累部位：同側（ipsilateral）前角細胞（anterior horn cells），MRI呈T2高訊號合併強化。",
+          "sourceStatement": "- **典型受累部位**：**同側（ipsilateral）前角細胞（anterior horn cells）**，MRI呈T2高訊號合併強化。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "ev71-cns-complications-f02",
+          "text": "合併脊髓神經根炎（radiculomyelitis）：可見馬尾腹側神經根（ventral nerve roots of cauda equina）增厚與強化。",
+          "sourceStatement": "- **合併脊髓神經根炎（radiculomyelitis）**：可見馬尾腹側神經根（ventral nerve roots of cauda equina）增厚與強化。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fabry-disease-pulvinar",
+      "path": "vault/concepts/fabry-disease-pulvinar.md",
+      "type": "disease",
+      "originalSha256": "e230f3e0dc83376a471b693e44a3b6da0997ea190fe373e6734f68dc395911ff",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **疾病本質**：**X 性聯（GLA 基因）之溶酶體儲積症**，α-半乳糖苷酶 A 缺乏 → globotriaosylceramide 堆積於血管內皮/平滑肌與腎/心/神經。[^1]\n- **Pulvinar sign（考點）**：**T1WI 外側視丘枕核高訊號＝pathognomonic**（源自鈣化）；CT 見**雙側深部灰質鈣化（外側枕核/蒼白球/被殼/黑質/齒狀核）**。[^1]\n- **其他神經影像**：T2/FLAIR 白質與深部灰質高訊號（隨時間增強融合，**白質病變為最常見表現，約 80%**）、皮質/深灰質梗塞、**微出血 15–30%（GRE）**、**基底動脈 dolichoectasia**、MRS NAA:Cr 下降。[^1][^2]\n- **DDx**：Fahr disease、內分泌鈣化（副甲/甲狀腺）、HIV 礦化性微血管病。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "fabry-disease-pulvinar-f01",
+          "text": "疾病本質：X 性聯（GLA 基因）之溶酶體儲積症，α-半乳糖苷酶 A 缺乏 → globotriaosylceramide 堆積於血管內皮/平滑肌與腎/心/神經。",
+          "sourceStatement": "- **疾病本質**：**X 性聯（GLA 基因）之溶酶體儲積症**，α-半乳糖苷酶 A 缺乏 → globotriaosylceramide 堆積於血管內皮/平滑肌與腎/心/神經。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fabry-disease-pulvinar-f02",
+          "text": "Pulvinar sign（考點）：T1WI 外側視丘枕核高訊號＝pathognomonic（源自鈣化）；",
+          "sourceStatement": "- **Pulvinar sign（考點）**：**T1WI 外側視丘枕核高訊號＝pathognomonic**（源自鈣化）；CT 見**雙側深部灰質鈣化（外側枕核/蒼白球/被殼/黑質/齒狀核）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fabry-disease-pulvinar-f03",
+          "text": "CT 見雙側深部灰質鈣化（外側枕核/蒼白球/被殼/黑質/齒狀核）。",
+          "sourceStatement": "- **Pulvinar sign（考點）**：**T1WI 外側視丘枕核高訊號＝pathognomonic**（源自鈣化）；CT 見**雙側深部灰質鈣化（外側枕核/蒼白球/被殼/黑質/齒狀核）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fabry-disease-pulvinar-f04",
+          "text": "其他神經影像：T2/FLAIR 白質與深部灰質高訊號（隨時間增強融合，白質病變為最常見表現，約 80%）、皮質/深灰質梗塞、微出血 15–30%（GRE）、基底動脈 dolichoectasia、MRS NAA:Cr 下降。",
+          "sourceStatement": "- **其他神經影像**：T2/FLAIR 白質與深部灰質高訊號（隨時間增強融合，**白質病變為最常見表現，約 80%**）、皮質/深灰質梗塞、**微出血 15–30%（GRE）**、**基底動脈 dolichoectasia**、MRS NAA:Cr 下降。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "fabry-disease-pulvinar-f05",
+          "text": "DDx：Fahr disease、內分泌鈣化（副甲/甲狀腺）、HIV 礦化性微血管病。",
+          "sourceStatement": "- **DDx**：Fahr disease、內分泌鈣化（副甲/甲狀腺）、HIV 礦化性微血管病。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "facial-nerve-schwannoma",
+      "path": "vault/concepts/facial-nerve-schwannoma.md",
+      "type": "disease",
+      "originalSha256": "459ae5aee278beb83c7ccb11f56f5be8c4229de89934987c94908f1310019379",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **最好發位置＝geniculate ganglion（膝狀神經節）**；其次沿 labyrinthine、tympanic、mastoid 段延伸。[^1][^2]\n- **>90% 跨越 ≥3 個顳骨內 CN VII 段**，呈管狀生長、常長達數公分但橫斷面常 <1 cm。[^2]\n- **罕見**：占顳骨腫瘤 <1%；平均診斷年齡約 50 歲。[^1][^2]\n- **症狀**：漸進、常不完全的顏面神經麻痺（可類似 Bell palsy）；聽力障礙約 70%、CN VII 麻痺約 50%——腫瘤壓迫致 SNHL，若長入中耳影響聽小骨則 conductive loss。[^1][^2]\n- **多發鞘瘤 ± 腦膜瘤 → 想 NF2**。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "facial-nerve-schwannoma-f01",
+          "text": "最好發位置＝geniculate ganglion（膝狀神經節）；",
+          "sourceStatement": "- **最好發位置＝geniculate ganglion（膝狀神經節）**；其次沿 labyrinthine、tympanic、mastoid 段延伸。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f02",
+          "text": "其次沿 labyrinthine、tympanic、mastoid 段延伸。",
+          "sourceStatement": "- **最好發位置＝geniculate ganglion（膝狀神經節）**；其次沿 labyrinthine、tympanic、mastoid 段延伸。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f03",
+          "text": ">90% 跨越 ≥3 個顳骨內 CN VII 段，呈管狀生長、常長達數公分但橫斷面常 <1 cm。",
+          "sourceStatement": "- **>90% 跨越 ≥3 個顳骨內 CN VII 段**，呈管狀生長、常長達數公分但橫斷面常 <1 cm。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f04",
+          "text": "罕見：占顳骨腫瘤 <1%；",
+          "sourceStatement": "- **罕見**：占顳骨腫瘤 <1%；平均診斷年齡約 50 歲。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f05",
+          "text": "平均診斷年齡約 50 歲。",
+          "sourceStatement": "- **罕見**：占顳骨腫瘤 <1%；平均診斷年齡約 50 歲。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f06",
+          "text": "症狀：漸進、常不完全的顏面神經麻痺（可類似 Bell palsy）；",
+          "sourceStatement": "- **症狀**：漸進、常不完全的顏面神經麻痺（可類似 Bell palsy）；聽力障礙約 70%、CN VII 麻痺約 50%——腫瘤壓迫致 SNHL，若長入中耳影響聽小骨則 conductive loss。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f07",
+          "text": "聽力障礙約 70%、CN VII 麻痺約 50%——腫瘤壓迫致 SNHL，若長入中耳影響聽小骨則 conductive loss。",
+          "sourceStatement": "- **症狀**：漸進、常不完全的顏面神經麻痺（可類似 Bell palsy）；聽力障礙約 70%、CN VII 麻痺約 50%——腫瘤壓迫致 SNHL，若長入中耳影響聽小骨則 conductive loss。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "facial-nerve-schwannoma-f08",
+          "text": "多發鞘瘤 ± 腦膜瘤 → 想 NF2。",
+          "sourceStatement": "- **多發鞘瘤 ± 腦膜瘤 → 想 NF2**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fahr-disease",
+      "path": "vault/concepts/fahr-disease.md",
+      "type": "disease",
+      "originalSha256": "b374c6faf9ec3fa65ab78994df7a7f84a1e9e2cb017cb086622ace60ffb61f63",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **雙側對稱基底核鈣化（bilateral symmetric basal ganglia calcifications）**。[^1]\n- 鈣化在 **T1WI 上通常為高訊號（hyperintense）**。[^1]\n- 臨床症狀發病年齡通常 **30-60 歲**。[^1]\n- **存在 infantile form**（有 case reports），\"no infantile form\" 為錯誤敘述。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "fahr-disease-f01",
+          "text": "雙側對稱基底核鈣化（bilateral symmetric basal ganglia calcifications）。",
+          "sourceStatement": "- **雙側對稱基底核鈣化（bilateral symmetric basal ganglia calcifications）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fahr-disease-f02",
+          "text": "鈣化在 T1WI 上通常為高訊號（hyperintense）。",
+          "sourceStatement": "- 鈣化在 **T1WI 上通常為高訊號（hyperintense）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fahr-disease-f03",
+          "text": "臨床症狀發病年齡通常 30-60 歲。",
+          "sourceStatement": "- 臨床症狀發病年齡通常 **30-60 歲**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fahr-disease-f04",
+          "text": "存在 infantile form（有 case reports），\"no infantile form\" 為錯誤敘述。",
+          "sourceStatement": "- **存在 infantile form**（有 case reports），\"no infantile form\" 為錯誤敘述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fibromuscular-dysplasia",
+      "path": "vault/concepts/fibromuscular-dysplasia.md",
+      "type": "disease",
+      "originalSha256": "6d65ed718d9281b3da1f1eb3482f60d907620c3b8c183300f11a6a8ab50515ae",
+      "summaryHeadings": [
+        "Summary（好發血管，依Olin 2012, 447例資料）",
+        "Summary（三型分類）"
+      ],
+      "originalSummary": "## Summary（好發血管，依Olin 2012, 447例資料）\n- **腎動脈(renal arteries)**：約79.7%，**最常侵犯**。[^1]\n- **肋外頸動脈(extracranial carotid)**：約74.4%。\n- **椎動脈(vertebral arteries)**：約36.6%。\n- **腸繫膜動脈(mesenteric arteries)**：約26%。\n- **顱內頸動脈(intracranial carotid arteries)**：約17%。[^1]\n\n## Summary（三型分類）\n- **Type I（85%，最常見）**：典型「string of beads（串珠狀）」外觀＝**medial fibroplasia（中膜纖維增生）**。[^2]\n- **Type II（10%）**：長管狀狹窄(long, tubular stenosis)＝**intimal fibroplasia（內膜纖維增生）**。[^2]\n- **Type III（5%）**：單側不對稱外突(asymmetric outpouching from 1 side of artery)＝**periadventitial fibroplasia（外膜周圍纖維增生）**。[^2]\n- **Type I細分（另一分類系統）**：medial dysplasia(70%，最常見亞型)、perimedial(subadventitial) fibroplasia(15-20%)、medial hyperplasia(8-10%)。[^2]\n\n> [!note] 考點：FMD好發血管排序何者「錯誤」？\n> **外頸動脈>內頸動脈>椎動脈（A）**——實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈，此敘述錯誤。Type I/II/III分型與型態學對應皆為正確描述。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "fibromuscular-dysplasia-f01",
+          "text": "腎動脈(renal arteries)：約79.7%，最常侵犯。",
+          "sourceStatement": "- **腎動脈(renal arteries)**：約79.7%，**最常侵犯**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f02",
+          "text": "肋外頸動脈(extracranial carotid)：約74.4%。",
+          "sourceStatement": "- **肋外頸動脈(extracranial carotid)**：約74.4%。",
+          "sourceRefs": []
+        },
+        {
+          "id": "fibromuscular-dysplasia-f03",
+          "text": "椎動脈(vertebral arteries)：約36.6%。",
+          "sourceStatement": "- **椎動脈(vertebral arteries)**：約36.6%。",
+          "sourceRefs": []
+        },
+        {
+          "id": "fibromuscular-dysplasia-f04",
+          "text": "腸繫膜動脈(mesenteric arteries)：約26%。",
+          "sourceStatement": "- **腸繫膜動脈(mesenteric arteries)**：約26%。",
+          "sourceRefs": []
+        },
+        {
+          "id": "fibromuscular-dysplasia-f05",
+          "text": "顱內頸動脈(intracranial carotid arteries)：約17%。",
+          "sourceStatement": "- **顱內頸動脈(intracranial carotid arteries)**：約17%。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f06",
+          "text": "Type I（85%，最常見）：典型「string of beads（串珠狀）」外觀＝medial fibroplasia（中膜纖維增生）。",
+          "sourceStatement": "- **Type I（85%，最常見）**：典型「string of beads（串珠狀）」外觀＝**medial fibroplasia（中膜纖維增生）**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f07",
+          "text": "Type II（10%）：長管狀狹窄(long, tubular stenosis)＝intimal fibroplasia（內膜纖維增生）。",
+          "sourceStatement": "- **Type II（10%）**：長管狀狹窄(long, tubular stenosis)＝**intimal fibroplasia（內膜纖維增生）**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f08",
+          "text": "Type III（5%）：單側不對稱外突(asymmetric outpouching from 1 side of artery)＝periadventitial fibroplasia（外膜周圍纖維增生）。",
+          "sourceStatement": "- **Type III（5%）**：單側不對稱外突(asymmetric outpouching from 1 side of artery)＝**periadventitial fibroplasia（外膜周圍纖維增生）**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f09",
+          "text": "Type I細分（另一分類系統）：medial dysplasia(70%，最常見亞型)、perimedial(subadventitial) fibroplasia(15-20%)、medial hyperplasia(8-10%)。",
+          "sourceStatement": "- **Type I細分（另一分類系統）**：medial dysplasia(70%，最常見亞型)、perimedial(subadventitial) fibroplasia(15-20%)、medial hyperplasia(8-10%)。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f10",
+          "text": "外頸動脈>內頸動脈>椎動脈（A）——實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈，此敘述錯誤。",
+          "sourceStatement": "> **外頸動脈>內頸動脈>椎動脈（A）**——實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈，此敘述錯誤。Type I/II/III分型與型態學對應皆為正確描述。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "fibromuscular-dysplasia-f11",
+          "text": "Type I/II/III分型與型態學對應皆為正確描述。",
+          "sourceStatement": "> **外頸動脈>內頸動脈>椎動脈（A）**——實際排序為腎動脈>肋外頸動脈≈椎動脈>腸繫膜動脈>顱內頸動脈，此敘述錯誤。Type I/II/III分型與型態學對應皆為正確描述。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gbm",
+      "path": "vault/concepts/gbm.md",
+      "type": "disease",
+      "originalSha256": "06afa678c22ef624ee10e0aa0c658e11274a88f375db88f89168a76fc44946c2",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **典型 MRI**：白質為中心、**不規則周邊（環狀）強化、中央壞死、周圍 vasogenic edema**（內含浸潤腫瘤）。[^1]\n- **出血**：腫瘤內出血可見（急性可似中風）。[^1]（選項 B 為特徵）\n- **強化**：厚、不規則環狀強化。[^1]（選項 D 為特徵）\n- **Perifocal（vasogenic）edema**：常見且明顯。[^1]（選項 C 為特徵）\n- **壞死**：中央壞死為標誌。[^1]（選項 A 為特徵）\n- **擴散方式**：沿白質束/胼胝體局部浸潤、可多中心；**顱外轉移極罕見** → **Metastasis 非 GBM 之特徵**（題目正解）。[^1]\n\n### 判讀骨架：典型 MRI 徵象\n- **T1+C 強化形態**：厚、不規則、結節狀的周邊（環狀）強化，內襯不平整；環圍繞中央壞死。此「壞死＋不規則厚壁強化」是高惡性度膠質瘤標誌，亦反映 WHO grade 4 之微血管增生與壞死病理。[^2]\n- **Butterfly glioma（蝴蝶型）**：沿胼胝體跨中線雙側對稱性侵犯，呈蝴蝶狀；GBM 與 PCNSL 為跨胼胝體病灶最典型病因，影像見此形態須優先考慮兩者。[^2]\n- **瘤周 T2/FLAIR 高訊號**：並非單純血管源性水腫，而是**含浸潤腫瘤細胞的非強化浸潤帶**；這是 GBM 復發/殘餘常落在強化邊緣外的病理基礎，放療標靶亦據此外擴。[^3]\n- **DWI**：實質（細胞密集）部位可見限制擴散、ADC 偏低反映高細胞密度；中央壞死區 ADC 高。GBM 整體 ADC 通常**不像 PCNSL 那樣全瘤均勻明顯低下**。[^3][^4]\n- **SWI / GRE**：瘤內出血與微出血、腫瘤新生血管使 SWI 出現低訊號（瘤內易感性訊號 ITSS）；GBM 強化環外緣與 T2 低訊號鈣化/出血環關係，是與膿瘍鑑別重點（見下）。[^5]\n\n### 判讀骨架：Advanced（perfusion / spectroscopy / 治療後變化）\n- **DSC perfusion（rCBV）**：實質部 **rCBV 升高**，反映新生血管；**瘤周非強化帶 rCBV 亦升高**（浸潤性腫瘤血管），此點有助與轉移鑑別。[^4]\n- **MRS**：Choline 升高、NAA 下降（Cho/NAA 比上升），壞死區可見 lipid-lactate；瘤周帶 Cho 升高同樣提示腫瘤浸潤而非單純水腫。[^3]\n- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]\n\n### 判讀骨架：分子時代對影像角色\n- 2021 WHO 後，「glioblastoma」專指 **IDH-wildtype**（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。[^2]\n- **cIMPACT-NOW update 3／WHO 2021 分子升級三聯**：在成人、瀰漫性星狀細胞瘤、**IDH-wildtype** 前提下，即使組織學未達 grade 4，只要具備下列**任一**分子/組織學特徵即診斷為 glioblastoma（CNS WHO grade 4）：**壞死、微血管增生、TERT promoter mutation、EGFR gene amplification、或第 7 對染色體整體獲得＋第 10 對整體缺失（+7/−10）**。換言之，這些分子標記可把「組織學低度」的 IDHwt astrocytoma **升級**為 glioblastoma。[^8]\n- **注意（近期修訂方向）**：cIMPACT-NOW 另建議對 **< 40 歲**病人，勿以「僅 TERT promoter」或單獨 EGFR amp／+7/−10 作為診斷高度膠質瘤為 glioblastoma 的唯一依據，此領域仍在演進。[^8]\n- **MGMT promoter methylation**：為對 temozolomide 反應與預後的標記；methylated 者治療反應較佳但**也較常出現 pseudoprogression**，影響追蹤影像判讀。影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。[^7]\n\n### 判讀骨架：DDx（單發環狀強化/壞死病灶）\n- **單發腦轉移（solitary metastasis）**：核心灌注/擴散與 GBM 可重疊難分；**關鍵在瘤周帶**——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；轉移瘤周為純血管源性水腫故灌注接近正常。瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。[^4]\n- **PCNSL（原發中樞淋巴瘤）**：高細胞密度致**全瘤均勻明顯限制擴散（ADC 低）**、**rCBV 偏低、PSR 偏高**（相對 GBM/轉移），常較均質強化、出血壞死少（未治療免疫正常者）；max rCBV 低（cut-off 約 2.18）有助辨識。[^4]\n- **Tumefactive demyelination（腫瘤樣脫髓鞘）**：典型**開放環狀（open-ring）強化**（缺口朝灰質側）、佔位效應與水腫相對輕、灌注偏低，可資與 GBM 厚閉合不規則環區分。[^2]\n- **腦膿瘍（abscess）**：中央膿腔**明顯限制擴散（ADC 低）**為招牌；SWI 上常見**雙環徵（dual rim sign）**——外圈低訊號、內圈相對高訊號的雙同心環，約見於三分之二膿瘍而 GBM 不具；膿瘍強化環平滑薄而完整、且強化環對應 T2 低訊號內囊（GBM 強化在 T2 低訊號環之外）。[^5]\n\n> [!note] 考點：何者「非」GBM 特徵？\n> **Metastasis（顱外轉移）**。GBM 以中央壞死、出血、perifocal edema、不規則環狀強化為特徵；顱外轉移極罕見。[^1]\n\n### 參考來源\n[^1]: *Glioblastoma, IDH-wildtype*. Radiopaedia.org。白質不規則周邊強化、中央壞死、周圍 vasogenic edema；可腫瘤內出血；沿白質/胼胝體浸潤；顱外轉移極罕見（實際查證 accessed 2026-06-15）。題目另引 Kickingereder et al.（PCNSL vs atypical GBM 多參數 MRI 鑑別）。輔助來源（依摘要未讀全文）。\n[^2]: 綜合 2021 WHO CNS5 分類與膠質瘤影像通則：GBM=IDH-wildtype（grade 4，微血管增生＋壞死）、butterfly glioma 跨胼胝體、IDH-mutant 較常額葉/壞死少、tumefactive demyelination 開放環徵。依摘要與分類共識整理，未逐句讀單一全文。\n[^3]: 瘤周非強化 T2/FLAIR 帶含浸潤腫瘤細胞、MRS Cho↑NAA↓、瘤周 Cho 升高提示浸潤。依 GBM 多參數 MRI 文獻摘要整理（PLOS One PMC5771619 等），開放全文部分已讀（核心/瘤周參數段落）。\n[^4]: Bonm 等／Server 等多參數 perfusion+diffusion 鑑別 GBM、轉移、PCNSL（PLOS One, PMC5771619）。瘤核 GBM 與轉移灌注/擴散無顯著差異；瘤周 GBM 之 mean/max rCBV、rPH 較高、min ADC 較低（max rCBV 區分 GBM cut-off≈0.98，準確度≈0.94）；PCNSL 瘤核 rCBV/rPH 低、PSR 高、ADC 低（max rCBV cut-off≈2.18，準確度≈0.985）。開放全文已讀（結果與 cut-off 表）。DOI:10.1371/journal.pone.0191341。\n[^5]: Toh 等. *Differentiation of Pyogenic Brain Abscesses from Necrotic Glioblastomas with Use of Susceptibility-Weighted Imaging*. AJNR 2012;33(8):1534-8（PMC7966558）。膿瘍 SWI 完整平滑低訊號環、dual rim sign（雙同心環）見於膿瘍而不見於 GBM；膿瘍強化環對應 T2 低訊號內囊，GBM 強化位於 T2 低訊號環之外。開放全文已讀（結果段）。dual rim sign 定義另參 Radiopaedia（輔助）。DOI:10.3174/ajnr.A2986。\n[^6]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-01）** Gahramanov 等. *Pseudoprogression of Glioblastoma after Chemo- and Radiation Therapy: DSC Perfusion MR with Ferumoxytol vs Gadoteridol and Correlation with Survival*. Radiology 2013（19 例化放療後 apparently progressive GBM）。**高 rCBV(>1.75)＝腫瘤/真進展、≤1.75＝pseudoprogression;ferumoxytol（血池劑）不需 contrast leakage correction（gadoteridol 需）、且為好的預後 biomarker;pseudoprogression 於 temozolomide 化放療較 RT-only 常見**。DOI:10.1148/radiol.12111472。\n[^7]: MRI perfusion 區分 pseudoprogression 與真進展之綜述/研究：真進展 rCBV、rPH 較高、PSR 較低；MGMT methylated 者較常 pseudoprogression（PMC4755513、PMC7915936）。依摘要整理，部分開放全文已讀（rCBV/PSR 方向性段落）。\n[^8]: *Glioblastoma, IDH-wildtype*. Radiopaedia.org, rID-4910, DOI 10.53347/rID-4910（實際查證 accessed 2026-07-10）。WHO 2021 診斷 glioblastoma 之要件＝成人＋瀰漫性星狀細胞瘤＋IDH-wildtype，並具下列**至少一項**：necrosis、microvascular proliferation、**TERT promoter mutation、EGFR gene amplification、+7/−10（第 7 對整體獲得＋第 10 對整體缺失）**（即 cIMPACT-NOW update 3 之分子升級準則）；另載 cIMPACT-NOW 對 <40 歲慎用單一分子標記之修訂建議。\n\n",
+      "factUnits": [
+        {
+          "id": "gbm-f01",
+          "text": "典型 MRI：白質為中心、不規則周邊（環狀）強化、中央壞死、周圍 vasogenic edema（內含浸潤腫瘤）。",
+          "sourceStatement": "- **典型 MRI**：白質為中心、**不規則周邊（環狀）強化、中央壞死、周圍 vasogenic edema**（內含浸潤腫瘤）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f02",
+          "text": "出血：腫瘤內出血可見（急性可似中風）。",
+          "sourceStatement": "- **出血**：腫瘤內出血可見（急性可似中風）。[^1]（選項 B 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f03",
+          "text": "（選項 B 為特徵）",
+          "sourceStatement": "- **出血**：腫瘤內出血可見（急性可似中風）。[^1]（選項 B 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f04",
+          "text": "強化：厚、不規則環狀強化。",
+          "sourceStatement": "- **強化**：厚、不規則環狀強化。[^1]（選項 D 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f05",
+          "text": "（選項 D 為特徵）",
+          "sourceStatement": "- **強化**：厚、不規則環狀強化。[^1]（選項 D 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f06",
+          "text": "Perifocal（vasogenic）edema：常見且明顯。",
+          "sourceStatement": "- **Perifocal（vasogenic）edema**：常見且明顯。[^1]（選項 C 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f07",
+          "text": "（選項 C 為特徵）",
+          "sourceStatement": "- **Perifocal（vasogenic）edema**：常見且明顯。[^1]（選項 C 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f08",
+          "text": "壞死：中央壞死為標誌。",
+          "sourceStatement": "- **壞死**：中央壞死為標誌。[^1]（選項 A 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f09",
+          "text": "（選項 A 為特徵）",
+          "sourceStatement": "- **壞死**：中央壞死為標誌。[^1]（選項 A 為特徵）",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f10",
+          "text": "擴散方式：沿白質束/胼胝體局部浸潤、可多中心；",
+          "sourceStatement": "- **擴散方式**：沿白質束/胼胝體局部浸潤、可多中心；**顱外轉移極罕見** → **Metastasis 非 GBM 之特徵**（題目正解）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f11",
+          "text": "顱外轉移極罕見 → Metastasis 非 GBM 之特徵（題目正解）。",
+          "sourceStatement": "- **擴散方式**：沿白質束/胼胝體局部浸潤、可多中心；**顱外轉移極罕見** → **Metastasis 非 GBM 之特徵**（題目正解）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f12",
+          "text": "T1+C 強化形態：厚、不規則、結節狀的周邊（環狀）強化，內襯不平整；",
+          "sourceStatement": "- **T1+C 強化形態**：厚、不規則、結節狀的周邊（環狀）強化，內襯不平整；環圍繞中央壞死。此「壞死＋不規則厚壁強化」是高惡性度膠質瘤標誌，亦反映 WHO grade 4 之微血管增生與壞死病理。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f13",
+          "text": "環圍繞中央壞死。",
+          "sourceStatement": "- **T1+C 強化形態**：厚、不規則、結節狀的周邊（環狀）強化，內襯不平整；環圍繞中央壞死。此「壞死＋不規則厚壁強化」是高惡性度膠質瘤標誌，亦反映 WHO grade 4 之微血管增生與壞死病理。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f14",
+          "text": "此「壞死＋不規則厚壁強化」是高惡性度膠質瘤標誌，亦反映 WHO grade 4 之微血管增生與壞死病理。",
+          "sourceStatement": "- **T1+C 強化形態**：厚、不規則、結節狀的周邊（環狀）強化，內襯不平整；環圍繞中央壞死。此「壞死＋不規則厚壁強化」是高惡性度膠質瘤標誌，亦反映 WHO grade 4 之微血管增生與壞死病理。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f15",
+          "text": "Butterfly glioma（蝴蝶型）：沿胼胝體跨中線雙側對稱性侵犯，呈蝴蝶狀；",
+          "sourceStatement": "- **Butterfly glioma（蝴蝶型）**：沿胼胝體跨中線雙側對稱性侵犯，呈蝴蝶狀；GBM 與 PCNSL 為跨胼胝體病灶最典型病因，影像見此形態須優先考慮兩者。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f16",
+          "text": "GBM 與 PCNSL 為跨胼胝體病灶最典型病因，影像見此形態須優先考慮兩者。",
+          "sourceStatement": "- **Butterfly glioma（蝴蝶型）**：沿胼胝體跨中線雙側對稱性侵犯，呈蝴蝶狀；GBM 與 PCNSL 為跨胼胝體病灶最典型病因，影像見此形態須優先考慮兩者。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f17",
+          "text": "瘤周 T2/FLAIR 高訊號：並非單純血管源性水腫，而是含浸潤腫瘤細胞的非強化浸潤帶；",
+          "sourceStatement": "- **瘤周 T2/FLAIR 高訊號**：並非單純血管源性水腫，而是**含浸潤腫瘤細胞的非強化浸潤帶**；這是 GBM 復發/殘餘常落在強化邊緣外的病理基礎，放療標靶亦據此外擴。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "gbm-f18",
+          "text": "這是 GBM 復發/殘餘常落在強化邊緣外的病理基礎，放療標靶亦據此外擴。",
+          "sourceStatement": "- **瘤周 T2/FLAIR 高訊號**：並非單純血管源性水腫，而是**含浸潤腫瘤細胞的非強化浸潤帶**；這是 GBM 復發/殘餘常落在強化邊緣外的病理基礎，放療標靶亦據此外擴。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "gbm-f19",
+          "text": "DWI：實質（細胞密集）部位可見限制擴散、ADC 偏低反映高細胞密度；",
+          "sourceStatement": "- **DWI**：實質（細胞密集）部位可見限制擴散、ADC 偏低反映高細胞密度；中央壞死區 ADC 高。GBM 整體 ADC 通常**不像 PCNSL 那樣全瘤均勻明顯低下**。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f20",
+          "text": "中央壞死區 ADC 高。",
+          "sourceStatement": "- **DWI**：實質（細胞密集）部位可見限制擴散、ADC 偏低反映高細胞密度；中央壞死區 ADC 高。GBM 整體 ADC 通常**不像 PCNSL 那樣全瘤均勻明顯低下**。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f21",
+          "text": "GBM 整體 ADC 通常不像 PCNSL 那樣全瘤均勻明顯低下。",
+          "sourceStatement": "- **DWI**：實質（細胞密集）部位可見限制擴散、ADC 偏低反映高細胞密度；中央壞死區 ADC 高。GBM 整體 ADC 通常**不像 PCNSL 那樣全瘤均勻明顯低下**。[^3][^4]",
+          "sourceRefs": [
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f22",
+          "text": "SWI / GRE：瘤內出血與微出血、腫瘤新生血管使 SWI 出現低訊號（瘤內易感性訊號 ITSS）；",
+          "sourceStatement": "- **SWI / GRE**：瘤內出血與微出血、腫瘤新生血管使 SWI 出現低訊號（瘤內易感性訊號 ITSS）；GBM 強化環外緣與 T2 低訊號鈣化/出血環關係，是與膿瘍鑑別重點（見下）。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "gbm-f23",
+          "text": "GBM 強化環外緣與 T2 低訊號鈣化/出血環關係，是與膿瘍鑑別重點（見下）。",
+          "sourceStatement": "- **SWI / GRE**：瘤內出血與微出血、腫瘤新生血管使 SWI 出現低訊號（瘤內易感性訊號 ITSS）；GBM 強化環外緣與 T2 低訊號鈣化/出血環關係，是與膿瘍鑑別重點（見下）。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "gbm-f24",
+          "text": "DSC perfusion（rCBV）：實質部 rCBV 升高，反映新生血管；",
+          "sourceStatement": "- **DSC perfusion（rCBV）**：實質部 **rCBV 升高**，反映新生血管；**瘤周非強化帶 rCBV 亦升高**（浸潤性腫瘤血管），此點有助與轉移鑑別。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f25",
+          "text": "瘤周非強化帶 rCBV 亦升高（浸潤性腫瘤血管），此點有助與轉移鑑別。",
+          "sourceStatement": "- **DSC perfusion（rCBV）**：實質部 **rCBV 升高**，反映新生血管；**瘤周非強化帶 rCBV 亦升高**（浸潤性腫瘤血管），此點有助與轉移鑑別。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f26",
+          "text": "MRS：Choline 升高、NAA 下降（Cho/NAA 比上升），壞死區可見 lipid-lactate；",
+          "sourceStatement": "- **MRS**：Choline 升高、NAA 下降（Cho/NAA 比上升），壞死區可見 lipid-lactate；瘤周帶 Cho 升高同樣提示腫瘤浸潤而非單純水腫。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "gbm-f27",
+          "text": "瘤周帶 Cho 升高同樣提示腫瘤浸潤而非單純水腫。",
+          "sourceStatement": "- **MRS**：Choline 升高、NAA 下降（Cho/NAA 比上升），壞死區可見 lipid-lactate；瘤周帶 Cho 升高同樣提示腫瘤浸潤而非單純水腫。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "gbm-f28",
+          "text": "Pseudoprogression / treatment-related change vs 真進展：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。",
+          "sourceStatement": "- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]",
+          "sourceRefs": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f29",
+          "text": "灌注是關鍵：真進展傾向 rCBV 較高、rPH 較高、PSR（percent signal recovery）較低；",
+          "sourceStatement": "- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]",
+          "sourceRefs": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f30",
+          "text": "pseudoprogression 則 rCBV/rPH 較低、PSR 較高。",
+          "sourceStatement": "- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]",
+          "sourceRefs": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f31",
+          "text": "文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker），須結合時序與臨床。",
+          "sourceStatement": "- **Pseudoprogression / treatment-related change vs 真進展**：放化療後（尤其 6 個月內、replace；MGMT methylated 者更常見）新增或擴大的強化可能是 pseudoprogression。**灌注是關鍵**：真進展傾向 **rCBV 較高、rPH 較高、PSR（percent signal recovery）較低**；pseudoprogression 則 rCBV/rPH 較低、PSR 較高。文獻常用 rCBV cut-off 約 1.75 區分（>1.75 偏向腫瘤、≤1.75 偏向 pseudoprogression），但數值依後處理而異（**gadolinium 因 BBB 破壞外漏需 leakage correction;血池劑 ferumoxytol 無滲漏、不需校正且為好的預後 biomarker**），須結合時序與臨床。[^6][^7]",
+          "sourceRefs": [
+            "6",
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f32",
+          "text": "2021 WHO 後，「glioblastoma」專指 IDH-wildtype（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。",
+          "sourceStatement": "- 2021 WHO 後，「glioblastoma」專指 **IDH-wildtype**（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f33",
+          "text": "影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。",
+          "sourceStatement": "- 2021 WHO 後，「glioblastoma」專指 **IDH-wildtype**（IDH-mutant 者改歸 astrocytoma；過去的「secondary GBM」概念已重新分類）。影像本身無法確診 IDH 狀態，但 IDH-mutant 膠質瘤較常位於額葉、邊界相對清楚、壞死較少，可供推斷方向。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f34",
+          "text": "cIMPACT-NOW update 3／WHO 2021 分子升級三聯：在成人、瀰漫性星狀細胞瘤、IDH-wildtype 前提下，即使組織學未達 grade 4，只要具備下列任一分子/組織學特徵即診斷為 glioblastoma（CNS WHO grade 4）：壞死、微血管增生、TERT promoter mutation、EGFR gene amplification、或第 7 對染色體整體獲得＋第 10 對整體缺失（+7/−10）。",
+          "sourceStatement": "- **cIMPACT-NOW update 3／WHO 2021 分子升級三聯**：在成人、瀰漫性星狀細胞瘤、**IDH-wildtype** 前提下，即使組織學未達 grade 4，只要具備下列**任一**分子/組織學特徵即診斷為 glioblastoma（CNS WHO grade 4）：**壞死、微血管增生、TERT promoter mutation、EGFR gene amplification、或第 7 對染色體整體獲得＋第 10 對整體缺失（+7/−10）**。換言之，這些分子標記可把「組織學低度」的 IDHwt astrocytoma **升級**為 glioblastoma。[^8]",
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "gbm-f35",
+          "text": "換言之，這些分子標記可把「組織學低度」的 IDHwt astrocytoma 升級為 glioblastoma。",
+          "sourceStatement": "- **cIMPACT-NOW update 3／WHO 2021 分子升級三聯**：在成人、瀰漫性星狀細胞瘤、**IDH-wildtype** 前提下，即使組織學未達 grade 4，只要具備下列**任一**分子/組織學特徵即診斷為 glioblastoma（CNS WHO grade 4）：**壞死、微血管增生、TERT promoter mutation、EGFR gene amplification、或第 7 對染色體整體獲得＋第 10 對整體缺失（+7/−10）**。換言之，這些分子標記可把「組織學低度」的 IDHwt astrocytoma **升級**為 glioblastoma。[^8]",
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "gbm-f36",
+          "text": "注意（近期修訂方向）：cIMPACT-NOW 另建議對 < 40 歲病人，勿以「僅 TERT promoter」或單獨 EGFR amp／+7/−10 作為診斷高度膠質瘤為 glioblastoma 的唯一依據，此領域仍在演進。",
+          "sourceStatement": "- **注意（近期修訂方向）**：cIMPACT-NOW 另建議對 **< 40 歲**病人，勿以「僅 TERT promoter」或單獨 EGFR amp／+7/−10 作為診斷高度膠質瘤為 glioblastoma 的唯一依據，此領域仍在演進。[^8]",
+          "sourceRefs": [
+            "8"
+          ]
+        },
+        {
+          "id": "gbm-f37",
+          "text": "MGMT promoter methylation：為對 temozolomide 反應與預後的標記；",
+          "sourceStatement": "- **MGMT promoter methylation**：為對 temozolomide 反應與預後的標記；methylated 者治療反應較佳但**也較常出現 pseudoprogression**，影響追蹤影像判讀。影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f38",
+          "text": "methylated 者治療反應較佳但也較常出現 pseudoprogression，影響追蹤影像判讀。",
+          "sourceStatement": "- **MGMT promoter methylation**：為對 temozolomide 反應與預後的標記；methylated 者治療反應較佳但**也較常出現 pseudoprogression**，影響追蹤影像判讀。影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f39",
+          "text": "影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。",
+          "sourceStatement": "- **MGMT promoter methylation**：為對 temozolomide 反應與預後的標記；methylated 者治療反應較佳但**也較常出現 pseudoprogression**，影響追蹤影像判讀。影像/radiomics 嘗試非侵入預測 MGMT，但臨床仍以分子病理為準。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "gbm-f40",
+          "text": "單發腦轉移（solitary metastasis）：核心灌注/擴散與 GBM 可重疊難分；",
+          "sourceStatement": "- **單發腦轉移（solitary metastasis）**：核心灌注/擴散與 GBM 可重疊難分；**關鍵在瘤周帶**——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；轉移瘤周為純血管源性水腫故灌注接近正常。瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f41",
+          "text": "關鍵在瘤周帶——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；",
+          "sourceStatement": "- **單發腦轉移（solitary metastasis）**：核心灌注/擴散與 GBM 可重疊難分；**關鍵在瘤周帶**——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；轉移瘤周為純血管源性水腫故灌注接近正常。瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f42",
+          "text": "轉移瘤周為純血管源性水腫故灌注接近正常。",
+          "sourceStatement": "- **單發腦轉移（solitary metastasis）**：核心灌注/擴散與 GBM 可重疊難分；**關鍵在瘤周帶**——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；轉移瘤周為純血管源性水腫故灌注接近正常。瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f43",
+          "text": "瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。",
+          "sourceStatement": "- **單發腦轉移（solitary metastasis）**：核心灌注/擴散與 GBM 可重疊難分；**關鍵在瘤周帶**——GBM 瘤周為腫瘤浸潤故 rCBV、rPH 較高、ADC 較低；轉移瘤周為純血管源性水腫故灌注接近正常。瘤周 max rCBV 用以區分 GBM 之最高準確度約 0.94（cut-off 因研究而異）。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f44",
+          "text": "PCNSL（原發中樞淋巴瘤）：高細胞密度致全瘤均勻明顯限制擴散（ADC 低）、rCBV 偏低、PSR 偏高（相對 GBM/轉移），常較均質強化、出血壞死少（未治療免疫正常者）；",
+          "sourceStatement": "- **PCNSL（原發中樞淋巴瘤）**：高細胞密度致**全瘤均勻明顯限制擴散（ADC 低）**、**rCBV 偏低、PSR 偏高**（相對 GBM/轉移），常較均質強化、出血壞死少（未治療免疫正常者）；max rCBV 低（cut-off 約 2.18）有助辨識。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f45",
+          "text": "max rCBV 低（cut-off 約 2.18）有助辨識。",
+          "sourceStatement": "- **PCNSL（原發中樞淋巴瘤）**：高細胞密度致**全瘤均勻明顯限制擴散（ADC 低）**、**rCBV 偏低、PSR 偏高**（相對 GBM/轉移），常較均質強化、出血壞死少（未治療免疫正常者）；max rCBV 低（cut-off 約 2.18）有助辨識。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "gbm-f46",
+          "text": "Tumefactive demyelination（腫瘤樣脫髓鞘）：典型開放環狀（open-ring）強化（缺口朝灰質側）、佔位效應與水腫相對輕、灌注偏低，可資與 GBM 厚閉合不規則環區分。",
+          "sourceStatement": "- **Tumefactive demyelination（腫瘤樣脫髓鞘）**：典型**開放環狀（open-ring）強化**（缺口朝灰質側）、佔位效應與水腫相對輕、灌注偏低，可資與 GBM 厚閉合不規則環區分。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "gbm-f47",
+          "text": "腦膿瘍（abscess）：中央膿腔明顯限制擴散（ADC 低）為招牌；",
+          "sourceStatement": "- **腦膿瘍（abscess）**：中央膿腔**明顯限制擴散（ADC 低）**為招牌；SWI 上常見**雙環徵（dual rim sign）**——外圈低訊號、內圈相對高訊號的雙同心環，約見於三分之二膿瘍而 GBM 不具；膿瘍強化環平滑薄而完整、且強化環對應 T2 低訊號內囊（GBM 強化在 T2 低訊號環之外）。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "gbm-f48",
+          "text": "SWI 上常見雙環徵（dual rim sign）——外圈低訊號、內圈相對高訊號的雙同心環，約見於三分之二膿瘍而 GBM 不具；",
+          "sourceStatement": "- **腦膿瘍（abscess）**：中央膿腔**明顯限制擴散（ADC 低）**為招牌；SWI 上常見**雙環徵（dual rim sign）**——外圈低訊號、內圈相對高訊號的雙同心環，約見於三分之二膿瘍而 GBM 不具；膿瘍強化環平滑薄而完整、且強化環對應 T2 低訊號內囊（GBM 強化在 T2 低訊號環之外）。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "gbm-f49",
+          "text": "膿瘍強化環平滑薄而完整、且強化環對應 T2 低訊號內囊（GBM 強化在 T2 低訊號環之外）。",
+          "sourceStatement": "- **腦膿瘍（abscess）**：中央膿腔**明顯限制擴散（ADC 低）**為招牌；SWI 上常見**雙環徵（dual rim sign）**——外圈低訊號、內圈相對高訊號的雙同心環，約見於三分之二膿瘍而 GBM 不具；膿瘍強化環平滑薄而完整、且強化環對應 T2 低訊號內囊（GBM 強化在 T2 低訊號環之外）。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "gbm-f50",
+          "text": "Metastasis（顱外轉移）。",
+          "sourceStatement": "> **Metastasis（顱外轉移）**。GBM 以中央壞死、出血、perifocal edema、不規則環狀強化為特徵；顱外轉移極罕見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f51",
+          "text": "GBM 以中央壞死、出血、perifocal edema、不規則環狀強化為特徵；",
+          "sourceStatement": "> **Metastasis（顱外轉移）**。GBM 以中央壞死、出血、perifocal edema、不規則環狀強化為特徵；顱外轉移極罕見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "gbm-f52",
+          "text": "顱外轉移極罕見。",
+          "sourceStatement": "> **Metastasis（顱外轉移）**。GBM 以中央壞死、出血、perifocal edema、不規則環狀強化為特徵；顱外轉移極罕見。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "glomus-jugulare",
+      "path": "vault/concepts/glomus-jugulare.md",
+      "type": "disease",
+      "originalSha256": "07dc48b2efb854d351b990db17454f4c89dab782f63a274f2339a10056c540d5",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：頸靜脈孔副神經節瘤，**富血管**；侵蝕性溶骨破壞頸靜脈孔（\"moth-eaten\"）。[^1]\n- **MRI**：T2 **salt-and-pepper**（flow void 黑點＋出血/慢流高訊號）；強烈強化。[^1]\n- **血供**：由 **ICA 與 ECA 分枝**（如 ascending pharyngeal）供應；術前可栓塞。[^1]\n- **臨床**：**pulsatile tinnitus、聽損**、後組顱神經病變。[^1]\n- **惡性轉化**：**可發生，約 2–13%**；故「**不會** malignant transformation」**錯誤**（2016-089 正解 C）。[^1]\n\n> [!note] 考點：何者「為非」？\n> 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]\n\n> [!question]- Which one of the following is most likely to cause a jugular foramen mass? (2018-227)\n> **Paraganglioma（A）**——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。[^5]\n\n",
+      "factUnits": [
+        {
+          "id": "glomus-jugulare-f01",
+          "text": "本質：頸靜脈孔副神經節瘤，富血管；",
+          "sourceStatement": "- **本質**：頸靜脈孔副神經節瘤，**富血管**；侵蝕性溶骨破壞頸靜脈孔（\"moth-eaten\"）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f02",
+          "text": "侵蝕性溶骨破壞頸靜脈孔（\"moth-eaten\"）。",
+          "sourceStatement": "- **本質**：頸靜脈孔副神經節瘤，**富血管**；侵蝕性溶骨破壞頸靜脈孔（\"moth-eaten\"）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f03",
+          "text": "MRI：T2 salt-and-pepper（flow void 黑點＋出血/慢流高訊號）；",
+          "sourceStatement": "- **MRI**：T2 **salt-and-pepper**（flow void 黑點＋出血/慢流高訊號）；強烈強化。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f04",
+          "text": "強烈強化。",
+          "sourceStatement": "- **MRI**：T2 **salt-and-pepper**（flow void 黑點＋出血/慢流高訊號）；強烈強化。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f05",
+          "text": "血供：由 ICA 與 ECA 分枝（如 ascending pharyngeal）供應；",
+          "sourceStatement": "- **血供**：由 **ICA 與 ECA 分枝**（如 ascending pharyngeal）供應；術前可栓塞。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f06",
+          "text": "術前可栓塞。",
+          "sourceStatement": "- **血供**：由 **ICA 與 ECA 分枝**（如 ascending pharyngeal）供應；術前可栓塞。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f07",
+          "text": "臨床：pulsatile tinnitus、聽損、後組顱神經病變。",
+          "sourceStatement": "- **臨床**：**pulsatile tinnitus、聽損**、後組顱神經病變。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f08",
+          "text": "惡性轉化：可發生，約 2–13%；",
+          "sourceStatement": "- **惡性轉化**：**可發生，約 2–13%**；故「**不會** malignant transformation」**錯誤**（2016-089 正解 C）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f09",
+          "text": "故「不會 malignant transformation」錯誤（2016-089 正解 C）。",
+          "sourceStatement": "- **惡性轉化**：**可發生，約 2–13%**；故「**不會** malignant transformation」**錯誤**（2016-089 正解 C）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f10",
+          "text": "「不會 malignant transformation」為非——glomus jugulare 可惡性轉化（~2–13%）。",
+          "sourceStatement": "> 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f11",
+          "text": "salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。",
+          "sourceStatement": "> 「**不會 malignant transformation**」為非——glomus jugulare **可惡性轉化（~2–13%）**。salt-and-pepper、ICA/ECA 供血、tinnitus/聽損皆正確。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glomus-jugulare-f12",
+          "text": "Paraganglioma（A）——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。",
+          "sourceStatement": "> **Paraganglioma（A）**——glomus jugulare（頸靜脈孔副神經節瘤）為頸靜脈孔最常見腫瘤。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "glutaric-aciduria-type1",
+      "path": "vault/concepts/glutaric-aciduria-type1.md",
+      "type": "disease",
+      "originalSha256": "7b0bf3c6c3105f90fca8b3ad09ef8f7d0108fb1308497f6a222fa8f7143fa438",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **遺傳模式**：**體染色體隱性遺傳（autosomal recessive）**。[^1]\n- **影像特徵**：**外側裂寬大（wide operculae）**、**基底節亮訊號（bright basal ganglia）**。[^1]\n- **病程**：**早期巨頭畸形（early macrocephaly）、晚期腦萎縮（late atrophy）**。[^1]\n- **髓鞘化**：**嚴重受影響之嬰兒常合併髓鞘化延遲（delay in myelination）**，並非「正常髓鞘化」——此為考題易混淆之錯誤敘述。[^1]\n- **鑑別診斷（BESS，良性蛛網膜下腔擴大）**：BESS雖常見凸面（convexity）蛛網膜下腔明顯擴大，但**不會**合併外側裂（sylvian fissure）或前顳極（anterior temporal poles）之CSF空間明顯擴大，且**無實質病變**——可作為與GA1鑑別之參考。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "glutaric-aciduria-type1-f01",
+          "text": "遺傳模式：體染色體隱性遺傳（autosomal recessive）。",
+          "sourceStatement": "- **遺傳模式**：**體染色體隱性遺傳（autosomal recessive）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glutaric-aciduria-type1-f02",
+          "text": "影像特徵：外側裂寬大（wide operculae）、基底節亮訊號（bright basal ganglia）。",
+          "sourceStatement": "- **影像特徵**：**外側裂寬大（wide operculae）**、**基底節亮訊號（bright basal ganglia）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glutaric-aciduria-type1-f03",
+          "text": "病程：早期巨頭畸形（early macrocephaly）、晚期腦萎縮（late atrophy）。",
+          "sourceStatement": "- **病程**：**早期巨頭畸形（early macrocephaly）、晚期腦萎縮（late atrophy）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glutaric-aciduria-type1-f04",
+          "text": "髓鞘化：嚴重受影響之嬰兒常合併髓鞘化延遲（delay in myelination），並非「正常髓鞘化」——此為考題易混淆之錯誤敘述。",
+          "sourceStatement": "- **髓鞘化**：**嚴重受影響之嬰兒常合併髓鞘化延遲（delay in myelination）**，並非「正常髓鞘化」——此為考題易混淆之錯誤敘述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "glutaric-aciduria-type1-f05",
+          "text": "鑑別診斷（BESS，良性蛛網膜下腔擴大）：BESS雖常見凸面（convexity）蛛網膜下腔明顯擴大，但不會合併外側裂（sylvian fissure）或前顳極（anterior temporal poles）之CSF空間明顯擴大，且無實質病變——可作為與GA1鑑別之參考。",
+          "sourceStatement": "- **鑑別診斷（BESS，良性蛛網膜下腔擴大）**：BESS雖常見凸面（convexity）蛛網膜下腔明顯擴大，但**不會**合併外側裂（sylvian fissure）或前顳極（anterior temporal poles）之CSF空間明顯擴大，且**無實質病變**——可作為與GA1鑑別之參考。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "head-melanoma-mri-signal",
+      "path": "vault/concepts/head-melanoma-mri-signal.md",
+      "type": "disease",
+      "originalSha256": "e99d6b46a6d05320d79ec5499d3fffacd87473c0d3be4c0d9cf9005f311e71ae",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **兩型（依黑色素含量）**：**melanotic（組織學 >10% 黑色素細胞）** vs **amelanotic（<10%）**。[^1][^2]\n- **Melanotic pattern**：**T1 高訊號、T2 低訊號**——黑色素為**順磁性**（穩定自由基），縮短 T1 與 T2；**唯一提供一致可靠 MR 表現者**。[^1][^2]\n- **Amelanotic pattern**：**T1 低-等訊號、T2 高-等訊號**——**非特異**，似一般軟組織腫瘤。[^1][^2]\n- **出血因素**：melanoma 為典型**出血性轉移**；血產物亦致 T1 高/T2 低，故訊號可源自黑色素**或**出血（黑色素對 T1/T2 有平行效應）。[^2]\n- **比例**：腦轉移中僅約 **25%** 為 melanotic 型。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "head-melanoma-mri-signal-f01",
+          "text": "兩型（依黑色素含量）：melanotic（組織學 >10% 黑色素細胞） vs amelanotic（<10%）。",
+          "sourceStatement": "- **兩型（依黑色素含量）**：**melanotic（組織學 >10% 黑色素細胞）** vs **amelanotic（<10%）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f02",
+          "text": "Melanotic pattern：T1 高訊號、T2 低訊號——黑色素為順磁性（穩定自由基），縮短 T1 與 T2；",
+          "sourceStatement": "- **Melanotic pattern**：**T1 高訊號、T2 低訊號**——黑色素為**順磁性**（穩定自由基），縮短 T1 與 T2；**唯一提供一致可靠 MR 表現者**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f03",
+          "text": "唯一提供一致可靠 MR 表現者。",
+          "sourceStatement": "- **Melanotic pattern**：**T1 高訊號、T2 低訊號**——黑色素為**順磁性**（穩定自由基），縮短 T1 與 T2；**唯一提供一致可靠 MR 表現者**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f04",
+          "text": "Amelanotic pattern：T1 低-等訊號、T2 高-等訊號——非特異，似一般軟組織腫瘤。",
+          "sourceStatement": "- **Amelanotic pattern**：**T1 低-等訊號、T2 高-等訊號**——**非特異**，似一般軟組織腫瘤。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f05",
+          "text": "出血因素：melanoma 為典型出血性轉移；",
+          "sourceStatement": "- **出血因素**：melanoma 為典型**出血性轉移**；血產物亦致 T1 高/T2 低，故訊號可源自黑色素**或**出血（黑色素對 T1/T2 有平行效應）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f06",
+          "text": "血產物亦致 T1 高/T2 低，故訊號可源自黑色素或出血（黑色素對 T1/T2 有平行效應）。",
+          "sourceStatement": "- **出血因素**：melanoma 為典型**出血性轉移**；血產物亦致 T1 高/T2 低，故訊號可源自黑色素**或**出血（黑色素對 T1/T2 有平行效應）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "head-melanoma-mri-signal-f07",
+          "text": "比例：腦轉移中僅約 25% 為 melanotic 型。",
+          "sourceStatement": "- **比例**：腦轉移中僅約 **25%** 為 melanotic 型。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hemangioblastoma",
+      "path": "vault/concepts/hemangioblastoma.md",
+      "type": "disease",
+      "originalSha256": "9df7b12ff946b8293cd22adef5322f485f663b205de6ecbf242b55eb329e9802",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **族群定位**：**成人後顱窩最常見的原發軸內（intra-axial）腫瘤**；好發小腦半球，發病年齡多在第 3–5 個十年（中位 ~37 歲），WHO grade 1。[^1][^2][^5]\n- **影像招牌（cyst with mural nodule）**：典型為**囊腫＋強化壁結節**型；壁結節**強烈、均勻強化**，**緊貼軟膜（pial）面**（這是定位線索），囊壁本身**不強化**。[^1][^2]\n- **型態分布**：文獻彙整以**實質型（solid）最常見約 47.7%**，純囊型約 26.3%，cyst with mural nodule 型約 21.3%——故「囊＋結節」雖最經典，但實際上實質型反而較多。[^1]\n- **訊號／徵象**：壁結節在 **T2 呈高訊號**；**結節內或周邊可見 flow voids（約 60–69%）**，反映豐富的滋養／引流血管，是與轉移、astrocytoma 鑑別的重點。[^1][^2]\n- **進階 MR**：實質強化部分 **rCBV 明顯升高（DSC-PWI）**、**ADC 升高（DWI 不受限）**，MRS 可見 lipid/lactate peak——有助與轉移（常 DWI 受限）區分。[^1]\n- **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]\n- **脊髓型**：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；脊髓型多發時尤其要想 VHL。[^2]\n- 臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。[^1][^2]\n- 與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → **hemangioblastoma**（2016-090 正解 B）。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "hemangioblastoma-f01",
+          "text": "族群定位：成人後顱窩最常見的原發軸內（intra-axial）腫瘤；",
+          "sourceStatement": "- **族群定位**：**成人後顱窩最常見的原發軸內（intra-axial）腫瘤**；好發小腦半球，發病年齡多在第 3–5 個十年（中位 ~37 歲），WHO grade 1。[^1][^2][^5]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f02",
+          "text": "好發小腦半球，發病年齡多在第 3–5 個十年（中位 ~37 歲），WHO grade 1。",
+          "sourceStatement": "- **族群定位**：**成人後顱窩最常見的原發軸內（intra-axial）腫瘤**；好發小腦半球，發病年齡多在第 3–5 個十年（中位 ~37 歲），WHO grade 1。[^1][^2][^5]",
+          "sourceRefs": [
+            "1",
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f03",
+          "text": "影像招牌（cyst with mural nodule）：典型為囊腫＋強化壁結節型；",
+          "sourceStatement": "- **影像招牌（cyst with mural nodule）**：典型為**囊腫＋強化壁結節**型；壁結節**強烈、均勻強化**，**緊貼軟膜（pial）面**（這是定位線索），囊壁本身**不強化**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f04",
+          "text": "壁結節強烈、均勻強化，緊貼軟膜（pial）面（這是定位線索），囊壁本身不強化。",
+          "sourceStatement": "- **影像招牌（cyst with mural nodule）**：典型為**囊腫＋強化壁結節**型；壁結節**強烈、均勻強化**，**緊貼軟膜（pial）面**（這是定位線索），囊壁本身**不強化**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f05",
+          "text": "型態分布：文獻彙整以實質型（solid）最常見約 47.7%，純囊型約 26.3%，cyst with mural nodule 型約 21.3%——故「囊＋結節」雖最經典，但實際上實質型反而較多。",
+          "sourceStatement": "- **型態分布**：文獻彙整以**實質型（solid）最常見約 47.7%**，純囊型約 26.3%，cyst with mural nodule 型約 21.3%——故「囊＋結節」雖最經典，但實際上實質型反而較多。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f06",
+          "text": "訊號／徵象：壁結節在 T2 呈高訊號；",
+          "sourceStatement": "- **訊號／徵象**：壁結節在 **T2 呈高訊號**；**結節內或周邊可見 flow voids（約 60–69%）**，反映豐富的滋養／引流血管，是與轉移、astrocytoma 鑑別的重點。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f07",
+          "text": "結節內或周邊可見 flow voids（約 60–69%），反映豐富的滋養／引流血管，是與轉移、astrocytoma 鑑別的重點。",
+          "sourceStatement": "- **訊號／徵象**：壁結節在 **T2 呈高訊號**；**結節內或周邊可見 flow voids（約 60–69%）**，反映豐富的滋養／引流血管，是與轉移、astrocytoma 鑑別的重點。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f08",
+          "text": "進階 MR：實質強化部分 rCBV 明顯升高（DSC-PWI）、ADC 升高（DWI 不受限），MRS 可見 lipid/lactate peak——有助與轉移（常 DWI 受限）區分。",
+          "sourceStatement": "- **進階 MR**：實質強化部分 **rCBV 明顯升高（DSC-PWI）**、**ADC 升高（DWI 不受限）**，MRS 可見 lipid/lactate peak——有助與轉移（常 DWI 受限）區分。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f09",
+          "text": "VHL 關聯：約四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關；",
+          "sourceStatement": "- **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f10",
+          "text": "CNS hemangioblastoma 中約 20% 合併 VHL。",
+          "sourceStatement": "- **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f11",
+          "text": "VHL 者常多發、年輕，需全神經軸（腦＋全脊髓）篩檢，並排查合併的clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）。",
+          "sourceStatement": "- **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f12",
+          "text": "診斷要點：≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL（VHL 為 HIF 路徑失調之遺傳症候群）。",
+          "sourceStatement": "- **VHL 關聯**：約**四分之三為偶發、四分之一與 von Hippel-Lindau（VHL）相關**；CNS hemangioblastoma 中約 20% 合併 VHL。VHL 者常**多發、年輕**，需**全神經軸（腦＋全脊髓）篩檢**，並排查合併的**clear cell RCC、pheochromocytoma、胰臟神經內分泌瘤、視網膜血管母細胞瘤、內淋巴囊腫瘤（endolymphatic sac tumor）**。診斷要點：**≥2 個 CNS hemangioblastoma（或 1 個 CNS HB＋1 個典型內臟病灶）即可臨床診斷 VHL**（VHL 為 HIF 路徑失調之遺傳症候群）。[^2][^4]",
+          "sourceRefs": [
+            "2",
+            "4"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f13",
+          "text": "脊髓型：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；",
+          "sourceStatement": "- **脊髓型**：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；脊髓型多發時尤其要想 VHL。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f14",
+          "text": "脊髓型多發時尤其要想 VHL。",
+          "sourceStatement": "- **脊髓型**：約 30–40% 位於脊髓（小腦約 45–50%、腦幹 5–10%）；脊髓型多發時尤其要想 VHL。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f15",
+          "text": "臨床：頭痛、ataxia、nystagmus（小腦症狀）；",
+          "sourceStatement": "- 臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f16",
+          "text": "因 VHL 蛋白功能喪失致 EPO 過度分泌→紅血球增多（polycythemia）。",
+          "sourceStatement": "- 臨床：頭痛、**ataxia、nystagmus**（小腦症狀）；因 VHL 蛋白功能喪失致 **EPO 過度分泌→紅血球增多（polycythemia）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hemangioblastoma-f17",
+          "text": "與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → hemangioblastoma（2016-090 正解 B）。",
+          "sourceStatement": "- 與本題相符：30 歲男、ataxia/nystagmus、後顱窩 cystic mass＋enhancing solid component → **hemangioblastoma**（2016-090 正解 B）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}

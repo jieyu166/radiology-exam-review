@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "scheduled-disease-10",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "schwannomatosis",
+      "path": "vault/concepts/schwannomatosis.md",
+      "type": "disease",
+      "originalSha256": "e12fdab341b4c5022d5f794f8e93e6c11882d706ef0a7a171dbd172ff54e0aa5",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **發生率**：與NF2相近。[^1]\n- **基因**：可有**SMARCB1**基因生殖細胞突變(germline mutation)。[^1]\n- **周邊神經侵犯**：**多發性神經鞘瘤**侵犯周邊神經系統，但**不合併前庭神經(vestibular nerve)侵犯**——此為診斷準則核心要求，若合併前庭神經腫瘤應診斷為NF2，而非schwannomatosis。診斷準則另包含：≥2個非皮內(non-intradermal)神經鞘瘤(至少1個經病理確認)、無任何前庭腫瘤證據(需高品質前庭神經影像)、通常於診斷時>30歲、無已知NF2基因突變。[^1]\n- **好發年齡**：高峰發生年齡通常在**30-60歲**之間，較NF2發病年齡(18-24歲)為晚。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "schwannomatosis-f01",
+          "text": "發生率：與NF2相近。",
+          "sourceStatement": "- **發生率**：與NF2相近。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "schwannomatosis-f02",
+          "text": "基因：可有SMARCB1基因生殖細胞突變(germline mutation)。",
+          "sourceStatement": "- **基因**：可有**SMARCB1**基因生殖細胞突變(germline mutation)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "schwannomatosis-f03",
+          "text": "周邊神經侵犯：多發性神經鞘瘤侵犯周邊神經系統，但不合併前庭神經(vestibular nerve)侵犯——此為診斷準則核心要求，若合併前庭神經腫瘤應診斷為NF2，而非schwannomatosis。",
+          "sourceStatement": "- **周邊神經侵犯**：**多發性神經鞘瘤**侵犯周邊神經系統，但**不合併前庭神經(vestibular nerve)侵犯**——此為診斷準則核心要求，若合併前庭神經腫瘤應診斷為NF2，而非schwannomatosis。診斷準則另包含：≥2個非皮內(non-intradermal)神經鞘瘤(至少1個經病理確認)、無任何前庭腫瘤證據(需高品質前庭神經影像)、通常於診斷時>30歲、無已知NF2基因突變。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "schwannomatosis-f04",
+          "text": "診斷準則另包含：≥2個非皮內(non-intradermal)神經鞘瘤(至少1個經病理確認)、無任何前庭腫瘤證據(需高品質前庭神經影像)、通常於診斷時>30歲、無已知NF2基因突變。",
+          "sourceStatement": "- **周邊神經侵犯**：**多發性神經鞘瘤**侵犯周邊神經系統，但**不合併前庭神經(vestibular nerve)侵犯**——此為診斷準則核心要求，若合併前庭神經腫瘤應診斷為NF2，而非schwannomatosis。診斷準則另包含：≥2個非皮內(non-intradermal)神經鞘瘤(至少1個經病理確認)、無任何前庭腫瘤證據(需高品質前庭神經影像)、通常於診斷時>30歲、無已知NF2基因突變。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "schwannomatosis-f05",
+          "text": "好發年齡：高峰發生年齡通常在30-60歲之間，較NF2發病年齡(18-24歲)為晚。",
+          "sourceStatement": "- **好發年齡**：高峰發生年齡通常在**30-60歲**之間，較NF2發病年齡(18-24歲)為晚。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sciwora",
+      "path": "vault/concepts/sciwora.md",
+      "type": "disease",
+      "originalSha256": "2d9f11abfc00602200933607aa041cfae4f0356ed0d167bce0f957d9b80b0a88",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **定義**：脊髓損傷但**平片 + CT 無異常**；**MRI 為適應症**（外傷後持續客觀脊髓病、影像陰性時）；約占 SCI **~10%**。[^1][^2]\n- **好發兒童**：因**韌帶鬆弛 + 頭身比大 + 脊柱彈性**；**<8 歲最易**；兒童 SCI 整體相對少見。[^1][^2]\n- **機轉族群**：運動傷害約 **75%**、**兒虐近 100%** 為 SCIWORA（故「兒虐少見 SCIWORA」錯）。[^1]\n- **後遺脊柱側彎**：生長陡增期『前』受傷者 **~97% 發展脊柱側彎**（之後 ~52%）→ 側彎『常見』。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "sciwora-f01",
+          "text": "定義：脊髓損傷但平片 + CT 無異常；",
+          "sourceStatement": "- **定義**：脊髓損傷但**平片 + CT 無異常**；**MRI 為適應症**（外傷後持續客觀脊髓病、影像陰性時）；約占 SCI **~10%**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f02",
+          "text": "MRI 為適應症（外傷後持續客觀脊髓病、影像陰性時）；",
+          "sourceStatement": "- **定義**：脊髓損傷但**平片 + CT 無異常**；**MRI 為適應症**（外傷後持續客觀脊髓病、影像陰性時）；約占 SCI **~10%**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f03",
+          "text": "約占 SCI ~10%。",
+          "sourceStatement": "- **定義**：脊髓損傷但**平片 + CT 無異常**；**MRI 為適應症**（外傷後持續客觀脊髓病、影像陰性時）；約占 SCI **~10%**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f04",
+          "text": "好發兒童：因韌帶鬆弛 + 頭身比大 + 脊柱彈性；",
+          "sourceStatement": "- **好發兒童**：因**韌帶鬆弛 + 頭身比大 + 脊柱彈性**；**<8 歲最易**；兒童 SCI 整體相對少見。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f05",
+          "text": "<8 歲最易；",
+          "sourceStatement": "- **好發兒童**：因**韌帶鬆弛 + 頭身比大 + 脊柱彈性**；**<8 歲最易**；兒童 SCI 整體相對少見。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f06",
+          "text": "兒童 SCI 整體相對少見。",
+          "sourceStatement": "- **好發兒童**：因**韌帶鬆弛 + 頭身比大 + 脊柱彈性**；**<8 歲最易**；兒童 SCI 整體相對少見。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "sciwora-f07",
+          "text": "機轉族群：運動傷害約 75%、兒虐近 100% 為 SCIWORA（故「兒虐少見 SCIWORA」錯）。",
+          "sourceStatement": "- **機轉族群**：運動傷害約 **75%**、**兒虐近 100%** 為 SCIWORA（故「兒虐少見 SCIWORA」錯）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "sciwora-f08",
+          "text": "後遺脊柱側彎：生長陡增期『前』受傷者 ~97% 發展脊柱側彎（之後 ~52%）→ 側彎『常見』。",
+          "sourceStatement": "- **後遺脊柱側彎**：生長陡增期『前』受傷者 **~97% 發展脊柱側彎**（之後 ~52%）→ 側彎『常見』。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "second-impact-syndrome",
+      "path": "vault/concepts/second-impact-syndrome.md",
+      "type": "disease",
+      "originalSha256": "2e7a81143d7edb797a69c2bc009b615134fdb86b93923190b801cb5fc1877153",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：好發於運動員之罕見創傷性腦損傷，於前次頭部創傷症狀「尚未緩解」時，於「**易感窗期(window of vulnerability)**」內再度發生頭部創傷(repeated head trauma)。[^1]\n- **影像所見**：CT/MRI可見**腦部充血性腫脹(cerebral hyperaemic swelling)**、腦疝、疝後缺血；顱內**硬腦膜下出血通常「薄(thin，<0.5cm)」**，但可見與血腫大小「**不成比例(disproportionate)**」之嚴重中線偏移與腫塊效應。[^1]\n- **預後**：可導致災難性腦腫脹，合併永久性失能或死亡。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "second-impact-syndrome-f01",
+          "text": "本質：好發於運動員之罕見創傷性腦損傷，於前次頭部創傷症狀「尚未緩解」時，於「易感窗期(window of vulnerability)」內再度發生頭部創傷(repeated head trauma)。",
+          "sourceStatement": "- **本質**：好發於運動員之罕見創傷性腦損傷，於前次頭部創傷症狀「尚未緩解」時，於「**易感窗期(window of vulnerability)**」內再度發生頭部創傷(repeated head trauma)。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "second-impact-syndrome-f02",
+          "text": "影像所見：CT/MRI可見腦部充血性腫脹(cerebral hyperaemic swelling)、腦疝、疝後缺血；",
+          "sourceStatement": "- **影像所見**：CT/MRI可見**腦部充血性腫脹(cerebral hyperaemic swelling)**、腦疝、疝後缺血；顱內**硬腦膜下出血通常「薄(thin，<0.5cm)」**，但可見與血腫大小「**不成比例(disproportionate)**」之嚴重中線偏移與腫塊效應。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "second-impact-syndrome-f03",
+          "text": "顱內硬腦膜下出血通常「薄(thin，<0.5cm)」，但可見與血腫大小「不成比例(disproportionate)」之嚴重中線偏移與腫塊效應。",
+          "sourceStatement": "- **影像所見**：CT/MRI可見**腦部充血性腫脹(cerebral hyperaemic swelling)**、腦疝、疝後缺血；顱內**硬腦膜下出血通常「薄(thin，<0.5cm)」**，但可見與血腫大小「**不成比例(disproportionate)**」之嚴重中線偏移與腫塊效應。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "second-impact-syndrome-f04",
+          "text": "預後：可導致災難性腦腫脹，合併永久性失能或死亡。",
+          "sourceStatement": "- **預後**：可導致災難性腦腫脹，合併永久性失能或死亡。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "skull-base-osteomyelitis",
+      "path": "vault/concepts/skull-base-osteomyelitis.md",
+      "type": "disease",
+      "originalSha256": "d8ec3417cfdd8148f0261f74758904e63ce639c605e3abad29c45f78a3451316",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **兩型**：**典型（otogenic）**——惡性外耳炎（necrotizing otitis externa）併發、以**顳骨**為主；**中央/非典型（central/atypical）**——無明顯耳源，常自**鼻竇炎、牙源性感染**或進行性鼻竇病續發，侵犯**斜坡（clivus）/蝶骨**。[^1][^2]\n- **致病菌**：**Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus**（考點 B，正確）；真菌（Aspergillus、Zygomycetes/Mucor）多見於**非典型型與嚴重免疫低下者**。[^1][^2]\n- **來源（考點 A，正確）**：可續發自**未妥善治療之牙源性（odontogenic）或鼻竇（sinonasal）感染**，經 Haversian 系統擴散。[^1][^2]\n- **MRI 訊號（考點 C，錯誤所在）**：發炎/水腫在 **T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號**；題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 **T2WI 高訊號**。[^1]\n- **鑑別（考點 D，正確）**：須含**鼻咽癌（NPC）、脊索瘤（chordoma）**、SNUC、淋巴瘤、轉移；影像重疊常需**反覆切片**排除惡性。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "skull-base-osteomyelitis-f01",
+          "text": "兩型：典型（otogenic）——惡性外耳炎（necrotizing otitis externa）併發、以顳骨為主；",
+          "sourceStatement": "- **兩型**：**典型（otogenic）**——惡性外耳炎（necrotizing otitis externa）併發、以**顳骨**為主；**中央/非典型（central/atypical）**——無明顯耳源，常自**鼻竇炎、牙源性感染**或進行性鼻竇病續發，侵犯**斜坡（clivus）/蝶骨**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f02",
+          "text": "中央/非典型（central/atypical）——無明顯耳源，常自鼻竇炎、牙源性感染或進行性鼻竇病續發，侵犯斜坡（clivus）/蝶骨。",
+          "sourceStatement": "- **兩型**：**典型（otogenic）**——惡性外耳炎（necrotizing otitis externa）併發、以**顳骨**為主；**中央/非典型（central/atypical）**——無明顯耳源，常自**鼻竇炎、牙源性感染**或進行性鼻竇病續發，侵犯**斜坡（clivus）/蝶骨**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f03",
+          "text": "致病菌：Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus（考點 B，正確）；",
+          "sourceStatement": "- **致病菌**：**Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus**（考點 B，正確）；真菌（Aspergillus、Zygomycetes/Mucor）多見於**非典型型與嚴重免疫低下者**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f04",
+          "text": "真菌（Aspergillus、Zygomycetes/Mucor）多見於非典型型與嚴重免疫低下者。",
+          "sourceStatement": "- **致病菌**：**Pseudomonas aeruginosa 最常見，其次 Staphylococcus aureus**（考點 B，正確）；真菌（Aspergillus、Zygomycetes/Mucor）多見於**非典型型與嚴重免疫低下者**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f05",
+          "text": "來源（考點 A，正確）：可續發自未妥善治療之牙源性（odontogenic）或鼻竇（sinonasal）感染，經 Haversian 系統擴散。",
+          "sourceStatement": "- **來源（考點 A，正確）**：可續發自**未妥善治療之牙源性（odontogenic）或鼻竇（sinonasal）感染**，經 Haversian 系統擴散。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f06",
+          "text": "MRI 訊號（考點 C，錯誤所在）：發炎/水腫在 T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號；",
+          "sourceStatement": "- **MRI 訊號（考點 C，錯誤所在）**：發炎/水腫在 **T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號**；題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 **T2WI 高訊號**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f07",
+          "text": "題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 T2WI 高訊號。",
+          "sourceStatement": "- **MRI 訊號（考點 C，錯誤所在）**：發炎/水腫在 **T1WI 低訊號（正常脂肪髓被取代）、T2WI/STIR 高訊號**；題幹「high signal at T1-weighted MRI (edema)」錯——水腫應為 **T2WI 高訊號**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f08",
+          "text": "鑑別（考點 D，正確）：須含鼻咽癌（NPC）、脊索瘤（chordoma）、SNUC、淋巴瘤、轉移；",
+          "sourceStatement": "- **鑑別（考點 D，正確）**：須含**鼻咽癌（NPC）、脊索瘤（chordoma）**、SNUC、淋巴瘤、轉移；影像重疊常需**反覆切片**排除惡性。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "skull-base-osteomyelitis-f09",
+          "text": "影像重疊常需反覆切片排除惡性。",
+          "sourceStatement": "- **鑑別（考點 D，正確）**：須含**鼻咽癌（NPC）、脊索瘤（chordoma）**、SNUC、淋巴瘤、轉移；影像重疊常需**反覆切片**排除惡性。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "solitary-fibrous-tumor-hemangiopericytoma",
+      "path": "vault/concepts/solitary-fibrous-tumor-hemangiopericytoma.md",
+      "type": "disease",
+      "originalSha256": "46d4a7b33016cd5b2fa3b13d55ae18534cdbd40bf89921e5769f7fe445bf173f",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **SFT/HPC 提示徵象**：**硬腦膜附著基部窄（narrow dural base）**、associated flow voids、明顯強化（vivid enhancement）、鄰近骨質**侵蝕（erosion）**、**無 hyperostosis**、**無鈣化**、邊界清楚分葉狀軟組織腫塊。ADC 值下限約 1100(±130)×10⁻⁶ mm²/s；MRS 可見 alanine peak 缺如（meningioma 則可見）。[^1]\n- **鑑別重點（vs meningioma）**：meningioma 通常硬腦膜**廣基附著**、鄰近骨質**hyperostosis**、瘤內**鈣化**——三者皆與 SFT/HPC 相反。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "solitary-fibrous-tumor-hemangiopericytoma-f01",
+          "text": "SFT/HPC 提示徵象：硬腦膜附著基部窄（narrow dural base）、associated flow voids、明顯強化（vivid enhancement）、鄰近骨質侵蝕（erosion）、無 hyperostosis、無鈣化、邊界清楚分葉狀軟組織腫塊。",
+          "sourceStatement": "- **SFT/HPC 提示徵象**：**硬腦膜附著基部窄（narrow dural base）**、associated flow voids、明顯強化（vivid enhancement）、鄰近骨質**侵蝕（erosion）**、**無 hyperostosis**、**無鈣化**、邊界清楚分葉狀軟組織腫塊。ADC 值下限約 1100(±130)×10⁻⁶ mm²/s；MRS 可見 alanine peak 缺如（meningioma 則可見）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "solitary-fibrous-tumor-hemangiopericytoma-f02",
+          "text": "ADC 值下限約 1100(±130)×10⁻⁶ mm²/s；",
+          "sourceStatement": "- **SFT/HPC 提示徵象**：**硬腦膜附著基部窄（narrow dural base）**、associated flow voids、明顯強化（vivid enhancement）、鄰近骨質**侵蝕（erosion）**、**無 hyperostosis**、**無鈣化**、邊界清楚分葉狀軟組織腫塊。ADC 值下限約 1100(±130)×10⁻⁶ mm²/s；MRS 可見 alanine peak 缺如（meningioma 則可見）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "solitary-fibrous-tumor-hemangiopericytoma-f03",
+          "text": "MRS 可見 alanine peak 缺如（meningioma 則可見）。",
+          "sourceStatement": "- **SFT/HPC 提示徵象**：**硬腦膜附著基部窄（narrow dural base）**、associated flow voids、明顯強化（vivid enhancement）、鄰近骨質**侵蝕（erosion）**、**無 hyperostosis**、**無鈣化**、邊界清楚分葉狀軟組織腫塊。ADC 值下限約 1100(±130)×10⁻⁶ mm²/s；MRS 可見 alanine peak 缺如（meningioma 則可見）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "solitary-fibrous-tumor-hemangiopericytoma-f04",
+          "text": "鑑別重點（vs meningioma）：meningioma 通常硬腦膜廣基附著、鄰近骨質hyperostosis、瘤內鈣化——三者皆與 SFT/HPC 相反。",
+          "sourceStatement": "- **鑑別重點（vs meningioma）**：meningioma 通常硬腦膜**廣基附著**、鄰近骨質**hyperostosis**、瘤內**鈣化**——三者皆與 SFT/HPC 相反。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spinal-cord-astrocytoma",
+      "path": "vault/concepts/spinal-cord-astrocytoma.md",
+      "type": "disease",
+      "originalSha256": "c540060fc82abc5cd01b3463420bcc55b421127e3a74c91181907b3e379cd608",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **流行病學**：**兒童最常見脊髓（髓內）腫瘤**（成人則 ependymoma 較多，astrocytoma 次之）。[^1][^2]\n- **惡性度（低於顱內對應）**：**75-80% 為 low grade**；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。[^1][^2]\n- **好發部位**：**頸段 > 胸段 > 腰段**；偏心性、膨大脊髓、界限不清（浸潤性）。[^1][^2]\n- **強化/出血**：**變異性強化**（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；**出血相對少見**（ependymoma 較常出血/hemosiderin cap）。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "spinal-cord-astrocytoma-f01",
+          "text": "流行病學：兒童最常見脊髓（髓內）腫瘤（成人則 ependymoma 較多，astrocytoma 次之）。",
+          "sourceStatement": "- **流行病學**：**兒童最常見脊髓（髓內）腫瘤**（成人則 ependymoma 較多，astrocytoma 次之）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f02",
+          "text": "惡性度（低於顱內對應）：75-80% 為 low grade；",
+          "sourceStatement": "- **惡性度（低於顱內對應）**：**75-80% 為 low grade**；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f03",
+          "text": "成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；",
+          "sourceStatement": "- **惡性度（低於顱內對應）**：**75-80% 為 low grade**；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f04",
+          "text": "兒童（<3 歲）約 80% grade I/II——多數低惡性度。",
+          "sourceStatement": "- **惡性度（低於顱內對應）**：**75-80% 為 low grade**；成人 low-grade ~75%、anaplastic ~25%、glioblastoma ~1%；兒童（<3 歲）約 80% grade I/II——多數低惡性度。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f05",
+          "text": "好發部位：頸段 > 胸段 > 腰段；",
+          "sourceStatement": "- **好發部位**：**頸段 > 胸段 > 腰段**；偏心性、膨大脊髓、界限不清（浸潤性）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f06",
+          "text": "偏心性、膨大脊髓、界限不清（浸潤性）。",
+          "sourceStatement": "- **好發部位**：**頸段 > 胸段 > 腰段**；偏心性、膨大脊髓、界限不清（浸潤性）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f07",
+          "text": "強化/出血：變異性強化（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；",
+          "sourceStatement": "- **強化/出血**：**變異性強化**（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；**出血相對少見**（ependymoma 較常出血/hemosiderin cap）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spinal-cord-astrocytoma-f08",
+          "text": "出血相對少見（ependymoma 較常出血/hemosiderin cap）。",
+          "sourceStatement": "- **強化/出血**：**變異性強化**（pilocytic WHO 1 強化明顯、diffuse WHO 2 幾乎不強化）；**出血相對少見**（ependymoma 較常出血/hemosiderin cap）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spinal-ewing-sarcoma",
+      "path": "vault/concepts/spinal-ewing-sarcoma.md",
+      "type": "disease",
+      "originalSha256": "e520f91cab0c4cfa713a1e470f0ead40f05b4fe818e91653cd391b6c559f2cda",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質/流行病學**：**小圓（藍）細胞腫瘤（ESFT）**；**兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）**；**多在 20-25 歲前**（Radiopaedia：10-20 歲、95% 於 4-25 歲）；**男略多（M:F 約 1.5-2:1，來源略異並列）**。[^1][^2]\n- **脊椎分布**：脊椎 Ewing **以薦尾部（sacrococcygeal region）最常見**（題述「下胸椎最常見」為錯）；可沿神經根/椎管蔓延。[^1]\n- **X 光/CT**：**蟲蝕狀（moth-eaten）、滲透性（permeative）破壞**、大軟組織腫塊、**onion-skin 骨膜反應**；可硬化（up to 30%）。[^1][^2]\n- **MRI**：T1 中等、**T2/STIR 中-高訊號**、增強呈**不均（heterogeneous）強化**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "spinal-ewing-sarcoma-f01",
+          "text": "本質/流行病學：小圓（藍）細胞腫瘤（ESFT）；",
+          "sourceStatement": "- **本質/流行病學**：**小圓（藍）細胞腫瘤（ESFT）**；**兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）**；**多在 20-25 歲前**（Radiopaedia：10-20 歲、95% 於 4-25 歲）；**男略多（M:F 約 1.5-2:1，來源略異並列）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f02",
+          "text": "兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）；",
+          "sourceStatement": "- **本質/流行病學**：**小圓（藍）細胞腫瘤（ESFT）**；**兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）**；**多在 20-25 歲前**（Radiopaedia：10-20 歲、95% 於 4-25 歲）；**男略多（M:F 約 1.5-2:1，來源略異並列）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f03",
+          "text": "多在 20-25 歲前（Radiopaedia：10-20 歲、95% 於 4-25 歲）；",
+          "sourceStatement": "- **本質/流行病學**：**小圓（藍）細胞腫瘤（ESFT）**；**兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）**；**多在 20-25 歲前**（Radiopaedia：10-20 歲、95% 於 4-25 歲）；**男略多（M:F 約 1.5-2:1，來源略異並列）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f04",
+          "text": "男略多（M:F 約 1.5-2:1，來源略異並列）。",
+          "sourceStatement": "- **本質/流行病學**：**小圓（藍）細胞腫瘤（ESFT）**；**兒童第二常見原發惡性骨腫瘤（次於 osteosarcoma）**；**多在 20-25 歲前**（Radiopaedia：10-20 歲、95% 於 4-25 歲）；**男略多（M:F 約 1.5-2:1，來源略異並列）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f05",
+          "text": "脊椎分布：脊椎 Ewing 以薦尾部（sacrococcygeal region）最常見（題述「下胸椎最常見」為錯）；",
+          "sourceStatement": "- **脊椎分布**：脊椎 Ewing **以薦尾部（sacrococcygeal region）最常見**（題述「下胸椎最常見」為錯）；可沿神經根/椎管蔓延。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f06",
+          "text": "可沿神經根/椎管蔓延。",
+          "sourceStatement": "- **脊椎分布**：脊椎 Ewing **以薦尾部（sacrococcygeal region）最常見**（題述「下胸椎最常見」為錯）；可沿神經根/椎管蔓延。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f07",
+          "text": "X 光/CT：蟲蝕狀（moth-eaten）、滲透性（permeative）破壞、大軟組織腫塊、onion-skin 骨膜反應；",
+          "sourceStatement": "- **X 光/CT**：**蟲蝕狀（moth-eaten）、滲透性（permeative）破壞**、大軟組織腫塊、**onion-skin 骨膜反應**；可硬化（up to 30%）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f08",
+          "text": "可硬化（up to 30%）。",
+          "sourceStatement": "- **X 光/CT**：**蟲蝕狀（moth-eaten）、滲透性（permeative）破壞**、大軟組織腫塊、**onion-skin 骨膜反應**；可硬化（up to 30%）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "spinal-ewing-sarcoma-f09",
+          "text": "MRI：T1 中等、T2/STIR 中-高訊號、增強呈不均（heterogeneous）強化。",
+          "sourceStatement": "- **MRI**：T1 中等、**T2/STIR 中-高訊號**、增強呈**不均（heterogeneous）強化**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spondylodiscitis",
+      "path": "vault/concepts/spondylodiscitis.md",
+      "type": "disease",
+      "originalSha256": "343ad55615a266c082eca0ea55b4d431c8af083460f8875c78444e2e89ac3562",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **感染性 spondylodiscitis（MRI 為首選,敏感度 >95%、特異度 >90%）**：[^1]\n  - **T2：椎間盤內高訊號（fluid）＋鄰近終板高訊號（骨髓水腫）**;核間裂消失。\n  - **T1：椎間盤與終板低訊號**、終板皮質低訊號線消失（破壞）。\n  - **增強：椎間盤強化**、椎旁/腰大肌軟組織與膿瘍環狀強化。\n- **Modic type 1（退化性終板變化）**：終板/軟骨下骨髓 **T1 低、T2 高**（血管化纖維水腫）,但**椎間盤本身不呈高 T2、不強化、終板不破壞** → 與感染區分。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "spondylodiscitis-f01",
+          "text": "感染性 spondylodiscitis（MRI 為首選,敏感度 >95%、特異度 >90%）：",
+          "sourceStatement": "- **感染性 spondylodiscitis（MRI 為首選,敏感度 >95%、特異度 >90%）**：[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spondylodiscitis-f02",
+          "text": "T2：椎間盤內高訊號（fluid）＋鄰近終板高訊號（骨髓水腫）;",
+          "sourceStatement": "  - **T2：椎間盤內高訊號（fluid）＋鄰近終板高訊號（骨髓水腫）**;核間裂消失。",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spondylodiscitis-f03",
+          "text": "核間裂消失。",
+          "sourceStatement": "  - **T2：椎間盤內高訊號（fluid）＋鄰近終板高訊號（骨髓水腫）**;核間裂消失。",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spondylodiscitis-f04",
+          "text": "T1：椎間盤與終板低訊號、終板皮質低訊號線消失（破壞）。",
+          "sourceStatement": "  - **T1：椎間盤與終板低訊號**、終板皮質低訊號線消失（破壞）。",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spondylodiscitis-f05",
+          "text": "增強：椎間盤強化、椎旁/腰大肌軟組織與膿瘍環狀強化。",
+          "sourceStatement": "  - **增強：椎間盤強化**、椎旁/腰大肌軟組織與膿瘍環狀強化。",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spondylodiscitis-f06",
+          "text": "Modic type 1（退化性終板變化）：終板/軟骨下骨髓 T1 低、T2 高（血管化纖維水腫）,但椎間盤本身不呈高 T2、不強化、終板不破壞 → 與感染區分。",
+          "sourceStatement": "- **Modic type 1（退化性終板變化）**：終板/軟骨下骨髓 **T1 低、T2 高**（血管化纖維水腫）,但**椎間盤本身不呈高 T2、不強化、終板不破壞** → 與感染區分。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spontaneous-intracranial-hypotension",
+      "path": "vault/concepts/spontaneous-intracranial-hypotension.md",
+      "type": "disease",
+      "originalSha256": "dd1555994a98de46fe3258431de4e8d9276332f7b67867849e5e89583b2f2923",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **瀰漫性硬腦膜強化（diffuse pachymeningeal enhancement）**：SIH 常見表現。[^1]\n- **中腦-橋腦夾角（midbrain-pons angle）**：SIH 病人因腦幹下沉（sagging brain）而使此夾角**縮小（narrowing）**，並非增大；**夾角 <50° 提示顱內低壓**。[^1]\n- **夾角縮小與治療反應**：**Narrowing 之夾角預測對 blood patch 治療反應不佳**。[^1] ⚠️ **來源caveat**：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）**未能明確證實**，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。[^3][^4]\n- **定量門檻（原始 Tier-1）**：**mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50°** 為敏感／特異之顱內低壓徵象；此夾角是**縮小**而非變寬。[^3]\n- **可逆性 vs Chiari I（鑑別）**：SIH 之腦幹／小腦扁桃體下垂**可逆**，扁桃體維持正常圓鈍輪廓；有別於 Chiari I 固定之 **peglike（尖楔狀）**扁桃體。[^4]\n- **脊椎漏定位輔助**：可用 **Bern score** 綜合腦部 MRI 徵象評估脊椎 CSF 漏之機率，指引是否進一步 myelography。[^5]\n- **ICHD-3 診斷標準**：需有**低 CSF 壓力測量值**及/或**CT myelography 或 MR myelography 上 CSF 滲漏證據**；**陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點**。[^1][^5]\n\n",
+      "factUnits": [
+        {
+          "id": "spontaneous-intracranial-hypotension-f01",
+          "text": "瀰漫性硬腦膜強化（diffuse pachymeningeal enhancement）：SIH 常見表現。",
+          "sourceStatement": "- **瀰漫性硬腦膜強化（diffuse pachymeningeal enhancement）**：SIH 常見表現。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f02",
+          "text": "中腦-橋腦夾角（midbrain-pons angle）：SIH 病人因腦幹下沉（sagging brain）而使此夾角縮小（narrowing），並非增大；",
+          "sourceStatement": "- **中腦-橋腦夾角（midbrain-pons angle）**：SIH 病人因腦幹下沉（sagging brain）而使此夾角**縮小（narrowing）**，並非增大；**夾角 <50° 提示顱內低壓**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f03",
+          "text": "夾角 <50° 提示顱內低壓。",
+          "sourceStatement": "- **中腦-橋腦夾角（midbrain-pons angle）**：SIH 病人因腦幹下沉（sagging brain）而使此夾角**縮小（narrowing）**，並非增大；**夾角 <50° 提示顱內低壓**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f04",
+          "text": "夾角縮小與治療反應：Narrowing 之夾角預測對 blood patch 治療反應不佳。",
+          "sourceStatement": "- **夾角縮小與治療反應**：**Narrowing 之夾角預測對 blood patch 治療反應不佳**。[^1] ⚠️ **來源caveat**：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）**未能明確證實**，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。[^3][^4]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f05",
+          "text": "⚠️ 來源caveat：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）未能明確證實，僅可溯及原題所引 Brain 2017 詳解；",
+          "sourceStatement": "- **夾角縮小與治療反應**：**Narrowing 之夾角預測對 blood patch 治療反應不佳**。[^1] ⚠️ **來源caveat**：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）**未能明確證實**，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。[^3][^4]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f06",
+          "text": "宜視為待覆核之較弱論述。",
+          "sourceStatement": "- **夾角縮小與治療反應**：**Narrowing 之夾角預測對 blood patch 治療反應不佳**。[^1] ⚠️ **來源caveat**：此「夾角縮小預測血液貼片反應差」之因果推論，在本次查得之 Tier-1（Shah AJR 2013、Bond AJNR 2020）**未能明確證實**，僅可溯及原題所引 Brain 2017 詳解；宜視為待覆核之較弱論述。[^3][^4]",
+          "sourceRefs": [
+            "1",
+            "3",
+            "4"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f07",
+          "text": "定量門檻（原始 Tier-1）：mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50° 為敏感／特異之顱內低壓徵象；",
+          "sourceStatement": "- **定量門檻（原始 Tier-1）**：**mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50°** 為敏感／特異之顱內低壓徵象；此夾角是**縮小**而非變寬。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f08",
+          "text": "此夾角是縮小而非變寬。",
+          "sourceStatement": "- **定量門檻（原始 Tier-1）**：**mamillopontine distance ≤5.5 mm、pontomesencephalic（腦橋中腦）夾角 ≤50°** 為敏感／特異之顱內低壓徵象；此夾角是**縮小**而非變寬。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f09",
+          "text": "可逆性 vs Chiari I（鑑別）：SIH 之腦幹／小腦扁桃體下垂可逆，扁桃體維持正常圓鈍輪廓；",
+          "sourceStatement": "- **可逆性 vs Chiari I（鑑別）**：SIH 之腦幹／小腦扁桃體下垂**可逆**，扁桃體維持正常圓鈍輪廓；有別於 Chiari I 固定之 **peglike（尖楔狀）**扁桃體。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f10",
+          "text": "有別於 Chiari I 固定之 peglike（尖楔狀）扁桃體。",
+          "sourceStatement": "- **可逆性 vs Chiari I（鑑別）**：SIH 之腦幹／小腦扁桃體下垂**可逆**，扁桃體維持正常圓鈍輪廓；有別於 Chiari I 固定之 **peglike（尖楔狀）**扁桃體。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f11",
+          "text": "脊椎漏定位輔助：可用 Bern score 綜合腦部 MRI 徵象評估脊椎 CSF 漏之機率，指引是否進一步 myelography。",
+          "sourceStatement": "- **脊椎漏定位輔助**：可用 **Bern score** 綜合腦部 MRI 徵象評估脊椎 CSF 漏之機率，指引是否進一步 myelography。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f12",
+          "text": "ICHD-3 診斷標準：需有低 CSF 壓力測量值及/或CT myelography 或 MR myelography 上 CSF 滲漏證據；",
+          "sourceStatement": "- **ICHD-3 診斷標準**：需有**低 CSF 壓力測量值**及/或**CT myelography 或 MR myelography 上 CSF 滲漏證據**；**陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點**。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        },
+        {
+          "id": "spontaneous-intracranial-hypotension-f13",
+          "text": "陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點。",
+          "sourceStatement": "- **ICHD-3 診斷標準**：需有**低 CSF 壓力測量值**及/或**CT myelography 或 MR myelography 上 CSF 滲漏證據**；**陰性腦 MRI 不可排除 SIH，須以 myelography 找漏點**。[^1][^5]",
+          "sourceRefs": [
+            "1",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spontaneous-skull-base-cephalocele",
+      "path": "vault/concepts/spontaneous-skull-base-cephalocele.md",
+      "type": "disease",
+      "originalSha256": "3f4a596cad9f5504a6765af1cc875b5375ef8687f5007267abe0c5a7d49759ac",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **IIH 典型影像徵象**：視神經鞘複合體異常（optic nerve sheath complex abnormalities）、突出之 arachnoid granulation、meningoencephalocele、empty sella syndrome。[^1]\n- **非典型徵象（陷阱）**：**pachymeningeal（硬腦膜）enhancement 並非 IIH 特徵**，屬顱內低壓（intracranial hypotension）的典型表現，考題常以此作誤導選項。[^1]\n- **自發性外側蝶骨腦膜腦膨出危險因子**：**肥胖**、**中年女性**、**IIH**；解剖上與蝶竇**過度氣化（hyperpneumatization）**造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "spontaneous-skull-base-cephalocele-f01",
+          "text": "IIH 典型影像徵象：視神經鞘複合體異常（optic nerve sheath complex abnormalities）、突出之 arachnoid granulation、meningoencephalocele、empty sella syndrome。",
+          "sourceStatement": "- **IIH 典型影像徵象**：視神經鞘複合體異常（optic nerve sheath complex abnormalities）、突出之 arachnoid granulation、meningoencephalocele、empty sella syndrome。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spontaneous-skull-base-cephalocele-f02",
+          "text": "非典型徵象（陷阱）：pachymeningeal（硬腦膜）enhancement 並非 IIH 特徵，屬顱內低壓（intracranial hypotension）的典型表現，考題常以此作誤導選項。",
+          "sourceStatement": "- **非典型徵象（陷阱）**：**pachymeningeal（硬腦膜）enhancement 並非 IIH 特徵**，屬顱內低壓（intracranial hypotension）的典型表現，考題常以此作誤導選項。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "spontaneous-skull-base-cephalocele-f03",
+          "text": "自發性外側蝶骨腦膜腦膨出危險因子：肥胖、中年女性、IIH；",
+          "sourceStatement": "- **自發性外側蝶骨腦膜腦膨出危險因子**：**肥胖**、**中年女性**、**IIH**；解剖上與蝶竇**過度氣化（hyperpneumatization）**造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "spontaneous-skull-base-cephalocele-f04",
+          "text": "解剖上與蝶竇過度氣化（hyperpneumatization）造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。",
+          "sourceStatement": "- **自發性外側蝶骨腦膜腦膨出危險因子**：**肥胖**、**中年女性**、**IIH**；解剖上與蝶竇**過度氣化（hyperpneumatization）**造成骨壁菲薄相關，並非氣化不良（poor pneumatization）。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2059 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "scheduled-disease-02",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-02.json",
+    "sha256": "cacdb9dce7767ac685dea049498a413f1a1d1d67f71340bbf10aa80c6b37fa94"
+  },
+  "status": "needs-review",
+  "workflow": {
+    "sequence": 2,
+    "predecessor": "scheduled-disease-01",
+    "implementer": "/root/phase2b_task2_2_impl",
+    "reviewer": "/root/phase2b_review_design",
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "cacdb9dce7767ac685dea049498a413f1a1d1d67f71340bbf10aa80c6b37fa94"
+  },
+  "notes": [
+    {
+      "slug": "cerebral-pseudoaneurysm",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **本質**：局部動脈擴張，未被正常動脈壁各層完整包覆。[^1]\n- **病因**：最常見為外傷。[^1]\n- **DSA**：瘤腔對比劑延遲廓清，呈緩慢填充、緩慢排空；遠端節段血流可較慢，瘤體常為分葉狀動脈膨出。[^1]\n- **診斷／處置**：導管血管攝影可確診並同步血管內處置；治療包含血管內支架與手術阻斷。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-pseudoaneurysm-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：局部動脈擴張，未被正常動脈壁各層完整包覆"
+            }
+          ]
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f02",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "緩慢填充、緩慢排空"
+            }
+          ]
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f04",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f05",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f06",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-pseudoaneurysm-f07",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；Diagnostic Imaging, Brain, P. I-3-17。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 2,
+          "researchNeeded": 0,
+          "manualReview": 5
+        }
+      },
+      "summaryBulletEvidence": [
+        "**本質**：局部動脈擴張，未被正常動脈壁各層完整包覆。",
+        "**病因**：最常見為外傷。",
+        "**DSA**：瘤腔對比劑延遲廓清，呈緩慢填充、緩慢排空；遠端節段血流可較慢，瘤體常為分葉狀動脈膨出。",
+        "**診斷／處置**：導管血管攝影可確診並同步血管內處置；治療包含血管內支架與手術阻斷。"
+      ],
+      "coverageEvidenceSha256": "a450d5e23b45b39c1274eddbb2473eb0edba9a8044c235af0b3d891bae3b73f8"
+    },
+    {
+      "slug": "cerebral-venous-thrombosis-mri",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **T1 演變**：急性期血栓為 T1 等訊號，易與正常 flow void 混淆；亞急性期轉為 T1 高訊號。[^1]\n- **T2 陷阱**：急性血栓 T2 低訊號，可酷似正常 flow void。[^1]\n- **GRE**：T2* 磁化率效應使血栓呈誇大的訊號流失；是偵測靜脈竇栓塞最敏感的序列之一（本題文獻 T2*SW 敏感度 94%）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cerebral-venous-thrombosis-mri-f01",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-venous-thrombosis-mri-f02",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cerebral-venous-thrombosis-mri-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：急性血栓 T2 低訊號，可酷似正常"
+            }
+          ]
+        },
+        {
+          "id": "cerebral-venous-thrombosis-mri-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "文獻 T2*SW 敏感度 94%）。"
+            }
+          ]
+        },
+        {
+          "id": "cerebral-venous-thrombosis-mri-f05",
+          "sourceRefs": [],
+          "disposition": "research-needed",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Neurol Int*. 2011 Nov 29（2018 交換考題詳解 p.59 引用；Tier 2）。急性血栓 T1 等訊號、T2 低訊號（似 flow void）；亞急性血栓 T1 轉高訊號；T2*GRE 因磁化率效應訊號誇大流失，T1SE（87%）與 T2*SW（94%）敏感度高於其他序列。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 5,
+          "covered": 2,
+          "researchNeeded": 1,
+          "manualReview": 2
+        }
+      },
+      "summaryBulletEvidence": [
+        "**T1 演變**：急性期血栓為 T1 等訊號，易與正常 flow void 混淆；亞急性期轉為 T1 高訊號。",
+        "**T2 陷阱**：急性血栓 T2 低訊號，可酷似正常 flow void。",
+        "**GRE**：T2* 磁化率效應使血栓呈誇大的訊號流失；是偵測靜脈竇栓塞最敏感的序列之一（本題文獻 T2*SW 敏感度 94%）。"
+      ],
+      "coverageEvidenceSha256": "55d0c214c1ff4f4c2291c5162692e69798986119160df94605a8c01c00df7d78"
+    },
+    {
+      "slug": "cervical-radiculopathy",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **C6**：拇指酸麻刺痛最可能為 C6 神經根壓迫；常見病灶在 C5/6 節間。[^1]\n- **皮節定位**：C5 上臂外側／三角肌區、C6 拇指／食指、C7 中指、C8 小指／手掌尺側、T1 前臂內側。[^1]\n\n",
+      "facts": [
+        {
+          "id": "cervical-radiculopathy-f01",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cervical-radiculopathy-f02",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {},
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 2,
+          "covered": 0,
+          "researchNeeded": 0,
+          "manualReview": 2
+        }
+      },
+      "summaryBulletEvidence": [
+        "**C6**：拇指酸麻刺痛最可能為 C6 神經根壓迫；常見病灶在 C5/6 節間。",
+        "**皮節定位**：C5 上臂外側／三角肌區、C6 拇指／食指、C7 中指、C8 小指／手掌尺側、T1 前臂內側。"
+      ],
+      "coverageEvidenceSha256": "a499d13fa33dad77b5e46652775ca8b6bc018300acd982ecec729150f84dd74c"
+    },
+    {
+      "slug": "chiari-malformation",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n\n- **Chiari I**：小腦扁桃體（cerebellar tonsils）下疝過枕骨大孔，**無**腦幹下疝或脊髓脊膜膨出；近年文獻傾向稱「Chiari 1 deformity（後天形變）」而非 malformation。[^1][^2]\n- **譜系變異**：**Chiari 0**（扁桃體下疝極小或無，卻有 syrinx；FM 處 CSF 流動受阻）、**Chiari 0.5**（扁桃體繞行下疝伴 axial rotation）、**Chiari 1.5**（扁桃體＋腦幹／第四腦室一起下疝，介於 I 與 II 之間）。[^2]\n- **Chiari II**：後顱窩過小，小腦蚓部＋扁桃體＋腦幹＋第四腦室一起下疝，**幾乎都合併 myelomeningocele**。[^3]\n- **Chiari III**：最罕見、最嚴重——**枕部或高位頸椎 encephalocele**，內含下疝之小腦／腦幹。[^3]\n\n- **量測法**：矢狀正中切面，沿 **McRae line**（basion→opisthion 連線，即枕骨大孔平面）量至扁桃體最下緣的垂直距離。[^4]\n- **閾值**：成人 **≥5 mm** 為異常；**3–5 mm** 為 borderline ectopia，若伴 syrinx 等支持徵象仍可診斷。[^1][^4]\n- **年齡差異（Mikulis 標準）**：<10 歲容許至 6 mm、10–30 歲 5 mm、>30 歲 4 mm；正常扁桃體位置隨年齡上升而略升高。[^4]\n- **扁桃體形態**：受擠壓變成尖／**peg-like（楔形）**而非圓鈍，>5 mm 下疝者楔形比例顯著較高。[^1][^4]\n- **枕骨大孔擁擠**：FM 處 CSF 間隙被填塞／消失（crowded foramen magnum），可進一步阻礙 CSF 流動。[^1][^4]\n- **後顱窩小**：clivus 短、後顱窩體積偏小（size-content mismatch）。[^1][^4]\n- **骨性標記與 clival hypoplasia 線索**：**McRae line**（basion→opisthion＝FM 平面）＋**Chamberlain line**（硬顎→basion）;**齒突尖高於 Chamberlain line >4.5 mm ＝ basilar invagination**;Chamberlain line 正常與 McRae line 平行，**兩線 dissociation（分離）＝ clival hypoplasia（斜坡發育不良）的重要線索**。[^2]\n- **生理性評估（phase-contrast MRI）**：以心動週期閘控 cine phase-contrast MRI 評估**小腦扁桃體與脊髓的異常運動**及**CSF 流動受阻部位**;產生 rephased（背景可見、評估扁桃體/脊髓運動）、magnitude（判斷流動強度）、phase 三組影像;**定量 PC-MRI 目前幾乎僅用於研究**，非臨床常規。cine balanced SSFP 亦可輔助觀察 CSF 動力學。[^2]\n- **報告要件（RG 2024 建議）**：扁桃體下疝程度＋形態、骨性後顱窩是否 hypoplasia、Chamberlain/McRae 線是否 dissociation（clival hypoplasia）、顱底與顱頸交界（CCJ）異常、腦室是否 hydrocephalus、syrinx 大小/位置、以及（若有 PC-MRI/cine bSSFP）CSF 流動受阻部位與扁桃體/脊髓異常運動。[^2]\n\n- **Syringomyelia／syrinx**：症狀性病人約 **60%** 合併，多位於頸髓（可延伸至胸髓）；T1 低、T2 高、無強化；**syrinx 之有無是預測是否需手術減壓最重要的因子**（扁桃體下疝程度本身與症狀相關性差）。[^4][^5][^6]\n- **合併異常—其他**：脊柱側彎、腦幹壓迫、hydrocephalus；部分 CM-1 第四腦室可擴大（為輔助徵象）。[^1][^6]\n- **繼發性 Chiari I**：顱縫早閉致後顱窩變小；多縫症候型 craniosynostosis 強相關。[^7]\n\n- **Chiari II—後顱窩**：後顱窩極小，tentorium 與 torcula 低位，可見 towering cerebellum。[^3]\n- **Chiari II—腦幹**：tectal beaking、第四腦室拉長與 cervicomedullary kink。[^3]\n- **Chiari II—合併異常**：myelomeningocele 幾乎必有，並可見 callosal dysgenesis、interdigitated gyri、hydrocephalus。[^3]\n- **Chiari II 記憶鉤**：myelomeningocele、callosal dysgenesis、medullary spur 或 kink 出現時，排除純 Chiari I。[^3]\n\n- **後天性／繼發性扁桃體下疝（pseudo-Chiari）**：自發性顱內低壓（SIH）或顱內壓增高、後顱窩腫瘤、tethered cord 等都可把扁桃體壓下去。[^1][^8]\n- **SIH「brain sag」陷阱**：扁桃體下疝＋**中腦／腦幹下移**、**瀰漫性硬腦膜（pachymeningeal）增厚強化**、**靜脈竇充血擴張**、腦下垂體增大、硬腦膜下積液——這些是 SIH 的標誌，congenital Chiari I 不會有；只盯著扁桃體位置易誤診。治療原發病因後下疝可逆轉。[^8][^9]\n\n- **判讀陷阱—borderline**：3–5 mm 時須合併年齡、扁桃體形態、syrinx 與 FM 擁擠判讀。[^1][^4]\n- **判讀陷阱—量測**：矢狀面量測有 ±2 mm 的觀察者間差異，必要時於冠狀面確認。[^1]\n- **判讀陷阱—SIH**：見扁桃體下疝時，先評估硬腦膜強化與腦幹下移，排除 SIH 再診斷 Chiari I。[^8][^9]\n- **考題**：顱縫早閉致後顱窩小支持 Chiari I；myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II。[^7][^3]\n\n### 參考來源\n[^1]: *Chiari 1 malformation*. Radiopaedia.org（輔助來源，實際查證 accessed 2026-06-17）：小腦扁桃體下疝過枕骨大孔；機轉為 small cranial vault and/or posterior fossa 與 overcrowding（size-content mismatch）；扁桃體 peg-like；FM CSF 間隙受壓；矢狀面量測有 ±2 mm 觀察者間差異、可於冠狀面確認；3–5 mm 伴 syrinx 仍可診斷；與 Chiari II（myelomeningocele）區別。\n[^2]: **Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Loftus JR, Wassef C, Ellika S. *Chiari I Deformity: Beyond 5 mm below the Foramen Magnum*. RadioGraphics. 2024;44(9):e230227. DOI [10.1148/rg.230227](https://doi.org/10.1148/rg.230227)。主張 Chiari 1 為發育性 deformity 而非真正 malformation；描述 Chiari 0、0.5、1.5 譜系。**形態評估**：McRae line（basion→opisthion＝FM）、Chamberlain line（硬顎→basion，齒突尖高於此 >4.5 mm＝basilar invagination）；**Chamberlain 正常與 McRae 平行，兩線 dissociation＝clival hypoplasia 線索**。**生理評估**：cine phase-contrast MRI（心動閘控，rephased/magnitude/phase 三組影像）評估扁桃體與脊髓異常運動及 CSF 流動受阻部位；定量 PC-MRI 幾乎僅研究用。**報告要件**：下疝程度/形態、骨性 PCF hypoplasia、Chamberlain/McRae dissociation、CCJ 異常、hydrocephalus、syrinx 大小位置、CSF 動力學。\n[^3]: *Chiari Type I/II/III Malformation*. RadiologyKey（節錄自 Osborn 系神經放射教科書內容，開放頁面，accessed 2026-06-29）：Chiari II 後顱窩小、tectal beaking、towering cerebellum、callosal dysgenesis、低位 torcula、interdigitated gyri、hydrocephalus、cervicomedullary kink、myelomeningocele；Chiari III 為高位頸椎／枕部 encephalocele 內含下疝小腦與延髓。\n[^4]: *Chiari I Malformation*. Radsource MRI Web Clinic（開放全文已讀，accessed 2026-06-29）：以 McRae line（basion–opisthion）量扁桃體下緣；≥5 mm 為標準、3–5 mm borderline；Mikulis 年齡標準 <10 歲 6 mm、10–30 歲 5 mm、>30 歲 4 mm；peg-like／尖形扁桃體與 FM CSF 受壓提示症狀性；syrinx 多在頸髓、約 60% 症狀性病人。\n[^5]: Davidson L, et al. *Long-term outcomes for children with an incidentally discovered Chiari malformation type 1*. Childs Nerv Syst. 2020;37(4):1191-1197. DOI [10.1007/s00381-020-04980-1](https://doi.org/10.1007/s00381-020-04980-1)。（依 PubMed 摘要，未讀全文）：偶見 CM-1 兒童中僅 syringomyelia 之有無與是否需手術顯著相關；年齡、性別、扁桃體下疝程度皆非預測因子。\n[^6]: Seaman SC, et al. *Fourth Ventricle Enlargement in Chiari Malformation Type I*. World Neurosurg. 2019;133:e259-e266. DOI [10.1016/j.wneu.2019.08.230](https://doi.org/10.1016/j.wneu.2019.08.230)。（依 PubMed 摘要，未讀全文）：CM-I 第四腦室體積較對照大且與扁桃體下疝量相關，可作為輔助判讀指標。\n[^7]: Dastagirzada YM, et al. *Craniovertebral Junction Instability in the Setting of Chiari Malformation*. Neurosurg Clin N Am. 2023;34(1):131-142. DOI [10.1016/j.nec.2022.09.006](https://doi.org/10.1016/j.nec.2022.09.006)。（依 PubMed 摘要，未讀全文）：CM-I 為影像診斷，定義為扁桃體下疝 >5 mm；MRI 病人 1%–4% 可見；含 Chiari 0、1.5、complex Chiari 譜系。Bambakidis E, et al. *Craniosynostosis and Chiari I Malformation*. J Craniofac Surg. 2025;36(5):1596-1599. DOI [10.1097/SCS.0000000000011281](https://doi.org/10.1097/SCS.0000000000011281)（依摘要）：craniosynostosis 致顱腦不對稱可繼發 Chiari，擴顱後扁桃體下疝改善——佐證後顱窩過小支持 Chiari I。\n[^8]: *Chiari I Malformation imaging — differential diagnosis*. RadiologyKey（開放頁面，accessed 2026-06-29）：扁桃體下疝鑑別含繼發性／後天性 Chiari I（顱內壓增高或低壓）、其他原因 syringohydromyelia、後顱窩腫瘤、tethered cord。\n[^9]: *Overview of Spontaneous Intracranial Hypotension and Differential Diagnosis with Chiari I Malformation*. J Clin Med (MDPI). 2023;12(9):3287；及 *Acquired tonsillar herniation related to spontaneous intracranial hypotension*. Front Neurol. 2024;15:1309718（依開放摘要與全文片段，accessed 2026-06-29）：SIH 之 brain sag 可致扁桃體下疝偽裝 Chiari I，關鍵區別為 pachymeningeal（硬腦膜）增厚強化、靜脈竇充血、腦下垂體增大、硬腦膜下積液、腦幹／中腦下移；治療原發 CSF 漏後可逆轉。\n\n",
+      "facts": [
+        {
+          "id": "chiari-malformation-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：小腦扁桃體（cerebellar tonsils）下疝過枕骨大孔，"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "近年文獻傾向稱「Chiari 1 deformity（後天形變）」而非 malformation。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "（扁桃體下疝極小或無，卻有 syrinx；FM 處 CSF 流動受阻）、"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f04",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "：後顱窩過小，小腦蚓部＋扁桃體＋腦幹＋第四腦室一起下疝，"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f05",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "枕部或高位頸椎 encephalocele"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f06",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "（basion→opisthion 連線，即枕骨大孔平面）量至扁桃體最下緣的垂直距離。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f07",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "chiari-malformation-f08",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "為 borderline ectopia，若伴 syrinx 等支持徵象仍可診斷。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f09",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "：<10 歲容許至 6 mm、10–30 歲 5 mm、>30 歲 4 mm；"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f10",
+          "sourceRefs": [
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "正常扁桃體位置隨年齡上升而略升高。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f11",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "而非圓鈍，>5 mm 下疝者楔形比例顯著較高。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f12",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "：FM 處 CSF 間隙被填塞／消失（crowded foramen magnum），可進一步阻礙 CSF 流動。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f13",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "：clivus 短、後顱窩體積偏小（size-content mismatch）。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f14",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "（basion→opisthion＝FM 平面）＋"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f15",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "齒突尖高於 Chamberlain line >4.5 mm ＝ basilar invagination"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f16",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "兩線 dissociation（分離）＝ clival hypoplasia（斜坡發育不良）的重要線索"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f17",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 12,
+              "quote": "：以心動週期閘控 cine phase-contrast MRI 評估"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f18",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 12,
+              "quote": "產生 rephased（背景可見、評估扁桃體/脊髓運動）、magnitude（判斷流動強度）、phase 三組影像;"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f19",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 12,
+              "quote": "定量 PC-MRI 目前幾乎僅用於研究"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f20",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 12,
+              "quote": "cine balanced SSFP 亦可輔助觀察 CSF 動力學。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f21",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 13,
+              "quote": "：扁桃體下疝程度＋形態、骨性後顱窩是否 hypoplasia、Chamberlain/McRae 線是否 dissociation（clival hypoplasia）、顱底與顱頸交界（CCJ）異常、腦室是否 hydrocephalus、syrinx 大小/位置、以及（若有 PC-MRI/cine bSSFP）CSF 流動受阻部位與扁桃體/脊髓異常運動。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f22",
+          "sourceRefs": [
+            "4",
+            "5",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 14,
+              "quote": "合併，多位於頸髓（可延伸至胸髓）；"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f23",
+          "sourceRefs": [
+            "4",
+            "5",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 14,
+              "quote": "T1 低、T2 高、無強化；"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f24",
+          "sourceRefs": [
+            "4",
+            "5",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 14,
+              "quote": "syrinx 之有無是預測是否需手術減壓最重要的因子"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f25",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 15,
+              "quote": "脊柱側彎、腦幹壓迫、hydrocephalus；"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f26",
+          "sourceRefs": [
+            "1",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 15,
+              "quote": "部分 CM-1 第四腦室可擴大（為輔助徵象）。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f27",
+          "sourceRefs": [
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 16,
+              "quote": "craniosynostosis"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f28",
+          "sourceRefs": [
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 16,
+              "quote": "多縫症候型 craniosynostosis 強相關。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f29",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 17,
+              "quote": "tentorium 與 torcula"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f30",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 18,
+              "quote": "cervicomedullary kink"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f31",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 19,
+              "quote": "callosal dysgenesis、interdigitated gyri、hydrocephalus。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f32",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 19,
+              "quote": "callosal dysgenesis"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f33",
+          "sourceRefs": [
+            "1",
+            "8"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 21,
+              "quote": "：自發性顱內低壓（SIH）或顱內壓增高、後顱窩腫瘤、tethered cord 等都可把扁桃體壓下去。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f34",
+          "sourceRefs": [
+            "8",
+            "9"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 22,
+              "quote": "、腦下垂體增大、硬腦膜下積液——這些是 SIH 的標誌，congenital Chiari I 不會有；"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f35",
+          "sourceRefs": [
+            "8",
+            "9"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 22,
+              "quote": "只盯著扁桃體位置易誤診。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f36",
+          "sourceRefs": [
+            "8",
+            "9"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 22,
+              "quote": "治療原發病因後下疝可逆轉。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f37",
+          "sourceRefs": [
+            "1",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 23,
+              "quote": "syrinx 與 FM 擁擠"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f38",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 24,
+              "quote": "矢狀面量測有 ±2 mm 的觀察者間差異，必要時於冠狀面確認。"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f39",
+          "sourceRefs": [
+            "8",
+            "9"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 25,
+              "quote": "硬腦膜強化與腦幹下移，"
+            }
+          ]
+        },
+        {
+          "id": "chiari-malformation-f40",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "chiari-malformation-f41",
+          "sourceRefs": [
+            "7",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 26,
+              "quote": "myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Chiari 1 malformation*. Radiopaedia.org（輔助來源，實際查證 accessed 2026-06-17）：小腦扁桃體下疝過枕骨大孔；機轉為 small cranial vault and/or posterior fossa 與 overcrowding（size-content mismatch）；扁桃體 peg-like；FM CSF 間隙受壓；矢狀面量測有 ±2 mm 觀察者間差異、可於冠狀面確認；3–5 mm 伴 syrinx 仍可診斷；與 Chiari II（myelomeningocele）區別。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1（全文已讀，via 個人訂閱 pubs.rsna.org，accessed 2026-07-03）** Loftus JR, Wassef C, Ellika S. *Chiari I Deformity: Beyond 5 mm below the Foramen Magnum*. RadioGraphics. 2024;44(9):e230227. DOI [10.1148/rg.230227](https://doi.org/10.1148/rg.230227)。主張 Chiari 1 為發育性 deformity 而非真正 malformation；描述 Chiari 0、0.5、1.5 譜系。**形態評估**：McRae line（basion→opisthion＝FM）、Chamberlain line（硬顎→basion，齒突尖高於此 >4.5 mm＝basilar invagination）；**Chamberlain 正常與 McRae 平行，兩線 dissociation＝clival hypoplasia 線索**。**生理評估**：cine phase-contrast MRI（心動閘控，rephased/magnitude/phase 三組影像）評估扁桃體與脊髓異常運動及 CSF 流動受阻部位；定量 PC-MRI 幾乎僅研究用。**報告要件**：下疝程度/形態、骨性 PCF hypoplasia、Chamberlain/McRae dissociation、CCJ 異常、hydrocephalus、syrinx 大小位置、CSF 動力學。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "*Chiari Type I/II/III Malformation*. RadiologyKey（節錄自 Osborn 系神經放射教科書內容，開放頁面，accessed 2026-06-29）：Chiari II 後顱窩小、tectal beaking、towering cerebellum、callosal dysgenesis、低位 torcula、interdigitated gyri、hydrocephalus、cervicomedullary kink、myelomeningocele；Chiari III 為高位頸椎／枕部 encephalocele 內含下疝小腦與延髓。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "*Chiari I Malformation*. Radsource MRI Web Clinic（開放全文已讀，accessed 2026-06-29）：以 McRae line（basion–opisthion）量扁桃體下緣；≥5 mm 為標準、3–5 mm borderline；Mikulis 年齡標準 <10 歲 6 mm、10–30 歲 5 mm、>30 歲 4 mm；peg-like／尖形扁桃體與 FM CSF 受壓提示症狀性；syrinx 多在頸髓、約 60% 症狀性病人。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "Davidson L, et al. *Long-term outcomes for children with an incidentally discovered Chiari malformation type 1*. Childs Nerv Syst. 2020;37(4):1191-1197. DOI [10.1007/s00381-020-04980-1](https://doi.org/10.1007/s00381-020-04980-1)。（依 PubMed 摘要，未讀全文）：偶見 CM-1 兒童中僅 syringomyelia 之有無與是否需手術顯著相關；年齡、性別、扁桃體下疝程度皆非預測因子。"
+        },
+        "6": {
+          "kind": "existing-footnote",
+          "locator": "6",
+          "citation": "Seaman SC, et al. *Fourth Ventricle Enlargement in Chiari Malformation Type I*. World Neurosurg. 2019;133:e259-e266. DOI [10.1016/j.wneu.2019.08.230](https://doi.org/10.1016/j.wneu.2019.08.230)。（依 PubMed 摘要，未讀全文）：CM-I 第四腦室體積較對照大且與扁桃體下疝量相關，可作為輔助判讀指標。"
+        },
+        "7": {
+          "kind": "existing-footnote",
+          "locator": "7",
+          "citation": "Dastagirzada YM, et al. *Craniovertebral Junction Instability in the Setting of Chiari Malformation*. Neurosurg Clin N Am. 2023;34(1):131-142. DOI [10.1016/j.nec.2022.09.006](https://doi.org/10.1016/j.nec.2022.09.006)。（依 PubMed 摘要，未讀全文）：CM-I 為影像診斷，定義為扁桃體下疝 >5 mm；MRI 病人 1%–4% 可見；含 Chiari 0、1.5、complex Chiari 譜系。Bambakidis E, et al. *Craniosynostosis and Chiari I Malformation*. J Craniofac Surg. 2025;36(5):1596-1599. DOI [10.1097/SCS.0000000000011281](https://doi.org/10.1097/SCS.0000000000011281)（依摘要）：craniosynostosis 致顱腦不對稱可繼發 Chiari，擴顱後扁桃體下疝改善——佐證後顱窩過小支持 Chiari I。"
+        },
+        "8": {
+          "kind": "existing-footnote",
+          "locator": "8",
+          "citation": "*Chiari I Malformation imaging — differential diagnosis*. RadiologyKey（開放頁面，accessed 2026-06-29）：扁桃體下疝鑑別含繼發性／後天性 Chiari I（顱內壓增高或低壓）、其他原因 syringohydromyelia、後顱窩腫瘤、tethered cord。"
+        },
+        "9": {
+          "kind": "existing-footnote",
+          "locator": "9",
+          "citation": "*Overview of Spontaneous Intracranial Hypotension and Differential Diagnosis with Chiari I Malformation*. J Clin Med (MDPI). 2023;12(9):3287；及 *Acquired tonsillar herniation related to spontaneous intracranial hypotension*. Front Neurol. 2024;15:1309718（依開放摘要與全文片段，accessed 2026-06-29）：SIH 之 brain sag 可致扁桃體下疝偽裝 Chiari I，關鍵區別為 pachymeningeal（硬腦膜）增厚強化、靜脈竇充血、腦下垂體增大、硬腦膜下積液、腦幹／中腦下移；治療原發 CSF 漏後可逆轉。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 41,
+          "covered": 39,
+          "researchNeeded": 0,
+          "manualReview": 2
+        }
+      },
+      "summaryBulletEvidence": [
+        "**Chiari I**：小腦扁桃體（cerebellar tonsils）下疝過枕骨大孔，**無**腦幹下疝或脊髓脊膜膨出；近年文獻傾向稱「Chiari 1 deformity（後天形變）」而非 malformation。",
+        "**譜系變異**：**Chiari 0**（扁桃體下疝極小或無，卻有 syrinx；FM 處 CSF 流動受阻）、**Chiari 0.5**（扁桃體繞行下疝伴 axial rotation）、**Chiari 1.5**（扁桃體＋腦幹／第四腦室一起下疝，介於 I 與 II 之間）。",
+        "**Chiari II**：後顱窩過小，小腦蚓部＋扁桃體＋腦幹＋第四腦室一起下疝，**幾乎都合併 myelomeningocele**。",
+        "**Chiari III**：最罕見、最嚴重——**枕部或高位頸椎 encephalocele**，內含下疝之小腦／腦幹。",
+        "**量測法**：矢狀正中切面，沿 **McRae line**（basion→opisthion 連線，即枕骨大孔平面）量至扁桃體最下緣的垂直距離。",
+        "**閾值**：成人 **≥5 mm** 為異常；**3–5 mm** 為 borderline ectopia，若伴 syrinx 等支持徵象仍可診斷。",
+        "**年齡差異（Mikulis 標準）**：<10 歲容許至 6 mm、10–30 歲 5 mm、>30 歲 4 mm；正常扁桃體位置隨年齡上升而略升高。",
+        "**扁桃體形態**：受擠壓變成尖／**peg-like（楔形）**而非圓鈍，>5 mm 下疝者楔形比例顯著較高。",
+        "**枕骨大孔擁擠**：FM 處 CSF 間隙被填塞／消失（crowded foramen magnum），可進一步阻礙 CSF 流動。",
+        "**後顱窩小**：clivus 短、後顱窩體積偏小（size-content mismatch）。",
+        "**骨性標記與 clival hypoplasia 線索**：**McRae line**（basion→opisthion＝FM 平面）＋**Chamberlain line**（硬顎→basion）;**齒突尖高於 Chamberlain line >4.5 mm ＝ basilar invagination**;Chamberlain line 正常與 McRae line 平行，**兩線 dissociation（分離）＝ clival hypoplasia（斜坡發育不良）的重要線索**。",
+        "**生理性評估（phase-contrast MRI）**：以心動週期閘控 cine phase-contrast MRI 評估**小腦扁桃體與脊髓的異常運動**及**CSF 流動受阻部位**;產生 rephased（背景可見、評估扁桃體/脊髓運動）、magnitude（判斷流動強度）、phase 三組影像;**定量 PC-MRI 目前幾乎僅用於研究**，非臨床常規。cine balanced SSFP 亦可輔助觀察 CSF 動力學。",
+        "**報告要件（RG 2024 建議）**：扁桃體下疝程度＋形態、骨性後顱窩是否 hypoplasia、Chamberlain/McRae 線是否 dissociation（clival hypoplasia）、顱底與顱頸交界（CCJ）異常、腦室是否 hydrocephalus、syrinx 大小/位置、以及（若有 PC-MRI/cine bSSFP）CSF 流動受阻部位與扁桃體/脊髓異常運動。",
+        "**Syringomyelia／syrinx**：症狀性病人約 **60%** 合併，多位於頸髓（可延伸至胸髓）；T1 低、T2 高、無強化；**syrinx 之有無是預測是否需手術減壓最重要的因子**（扁桃體下疝程度本身與症狀相關性差）。",
+        "**合併異常—其他**：脊柱側彎、腦幹壓迫、hydrocephalus；部分 CM-1 第四腦室可擴大（為輔助徵象）。",
+        "**繼發性 Chiari I**：顱縫早閉致後顱窩變小；多縫症候型 craniosynostosis 強相關。",
+        "**Chiari II—後顱窩**：後顱窩極小，tentorium 與 torcula 低位，可見 towering cerebellum。",
+        "**Chiari II—腦幹**：tectal beaking、第四腦室拉長與 cervicomedullary kink。",
+        "**Chiari II—合併異常**：myelomeningocele 幾乎必有，並可見 callosal dysgenesis、interdigitated gyri、hydrocephalus。",
+        "**Chiari II 記憶鉤**：myelomeningocele、callosal dysgenesis、medullary spur 或 kink 出現時，排除純 Chiari I。",
+        "**後天性／繼發性扁桃體下疝（pseudo-Chiari）**：自發性顱內低壓（SIH）或顱內壓增高、後顱窩腫瘤、tethered cord 等都可把扁桃體壓下去。",
+        "**SIH「brain sag」陷阱**：扁桃體下疝＋**中腦／腦幹下移**、**瀰漫性硬腦膜（pachymeningeal）增厚強化**、**靜脈竇充血擴張**、腦下垂體增大、硬腦膜下積液——這些是 SIH 的標誌，congenital Chiari I 不會有；只盯著扁桃體位置易誤診。治療原發病因後下疝可逆轉。",
+        "**判讀陷阱—borderline**：3–5 mm 時須合併年齡、扁桃體形態、syrinx 與 FM 擁擠判讀。",
+        "**判讀陷阱—量測**：矢狀面量測有 ±2 mm 的觀察者間差異，必要時於冠狀面確認。",
+        "**判讀陷阱—SIH**：見扁桃體下疝時，先評估硬腦膜強化與腦幹下移，排除 SIH 再診斷 Chiari I。",
+        "**考題**：顱縫早閉致後顱窩小支持 Chiari I；myelomeningocele、callosal dysgenesis、medullary spur 屬 Chiari II。"
+      ],
+      "coverageEvidenceSha256": "c6b03579971ee391130a977d30a4c8f496754bc8e00381d142503e7e6c28daf4"
+    },
+    {
+      "slug": "cholesterol-granuloma-petrous-apex",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **定義**：岩尖或中耳氣化氣室對膽固醇結晶的異物巨細胞反應，伴纖維化與血管增生。[^1][^2]\n- **定位**：岩尖最常見囊性與手術性病灶；中耳型較岩尖型常見。[^1][^2]\n- **機轉**：需有氣化岩尖氣室；可由阻塞－真空或暴露骨髓假說解釋反覆微出血與膽固醇結晶。[^1][^2]\n- **MRI**：T1、T2 皆高訊號，周邊可有低訊號 hemosiderin ring；FLAIR 不衰減、脂肪抑制仍高，T1 C+ 無中央強化。[^1][^2]\n- **鑑別—DWI**：典型不擴散受限；non-EPI DWI 高訊號／受限較提示 cholesteatoma 或 epidermoid。[^1][^2]\n- **臨床／處置**：年輕至中年成人，常偶發；頭痛、頭暈常見。無症狀追蹤，有症狀才手術；復發率可達 60%。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "伴纖維化與血管增生"
+            }
+          ]
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "choleste"
+            }
+          ]
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f03",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f04",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f05",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f06",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "hemosiderin ring"
+            }
+          ]
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f08",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f09",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "non-EPI DWI 高訊號／"
+            }
+          ]
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f10",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f11",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cholesterol-granuloma-petrous-apex-f12",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "；復發率可達 60%"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Cholesterol granuloma*. Radiopaedia.org，rID 1117，DOI [10.53347/rID-1117](https://doi.org/10.53347/rID-1117)（Gaillard F, Drozdov A, Culshaw S, et al.；last revised 25 Apr 2026；實際查證 accessed 2026-07-10）——中耳肉芽組織特殊型、chocolate/blue-domed cyst、**岩尖最常見囊性病灶**；病理含膽固醇結晶（造成高 T1、高 T2）、多核巨細胞、含鐵血黃素；MRI T1 高（膽固醇＋methemoglobin）、T2 中央高＋周邊 hemosiderin 環、FLAIR 不衰減、脂肪抑制仍高、T1C+ 無中央強化；**DWI 典型不受限**，鑑別 white epidermoid（DWI 極亮±ADC 受限）。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** Thiessen JE, Ledbetter LN. *Petrous Apex Cholesterol Granuloma*. STATdx, Elsevier，Dx，last updated 06/25/25（32 refs；實際查證 accessed 2026-07-10）——PA-CG＝岩尖氣室膽固醇結晶之異物巨細胞反應＋纖維化＋血管增生；**岩尖最常見手術性病灶、中耳型比岩尖型常見**；CT 邊界清膨脹、小樑破壞、皮質變薄±裂開、eggshell 內側皮質；MR **高 T1＋高 T2、周邊低 T2 hemosiderin 環、FLAIR 不衰減、T1C+ 無強化**、MRA 高 T1 假動脈瘤；**DDx：congenital cholesteatoma＝DWI 擴散受限（高訊號）、mucocele＝facilitated diffusion**；病生成阻塞-真空 vs 暴露骨髓；好發年輕-中年、頭痛頭暈、藍黑鼓膜後腫塊；症狀性才手術、復發率達 60%。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 12,
+          "covered": 5,
+          "researchNeeded": 0,
+          "manualReview": 7
+        }
+      },
+      "summaryBulletEvidence": [
+        "**定義**：岩尖或中耳氣化氣室對膽固醇結晶的異物巨細胞反應，伴纖維化與血管增生。",
+        "**定位**：岩尖最常見囊性與手術性病灶；中耳型較岩尖型常見。",
+        "**機轉**：需有氣化岩尖氣室；可由阻塞－真空或暴露骨髓假說解釋反覆微出血與膽固醇結晶。",
+        "**MRI**：T1、T2 皆高訊號，周邊可有低訊號 hemosiderin ring；FLAIR 不衰減、脂肪抑制仍高，T1 C+ 無中央強化。",
+        "**鑑別—DWI**：典型不擴散受限；non-EPI DWI 高訊號／受限較提示 cholesteatoma 或 epidermoid。",
+        "**臨床／處置**：年輕至中年成人，常偶發；頭痛、頭暈常見。無症狀追蹤，有症狀才手術；復發率可達 60%。"
+      ],
+      "coverageEvidenceSha256": "0752415b7c614423a123b64763b11b4e51bb45498d0e921f699994f40540ebc0"
+    },
+    {
+      "slug": "cns-germinoma",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **流行病學**：**最常見顱內生殖細胞瘤**；好發兒童/青年，**peak 10–12 歲、90% <20 歲**。[^1][^2]\n- **性別**：整體**男性為主**；松果體區 **M:F 約 5–22:1**（男童多）；鞍上者反而**女童略多**；基底節者亦男性為主。故「女性約男性 10 倍」**錯誤**＝題目正解（2016-173 正解 B，性別方向相反）。[^1][^2]\n- **位置（中線）**：**松果體 ~50%（最多）**、**鞍上/神經垂體 ~20–30%**、**基底節/視丘 ~5–10%**；松果體＋鞍上同時出現＝**bifocal**（具高度提示性）。[^2]\n- **CT**：實質部分相對**高密度/等密度**；松果體者「**engulfed**（包覆型）」鈣化＝把腺體既有鈣化吞入腫瘤——對比 pineoblastoma 的「**exploded**（周邊炸開型）」鈣化（鑑別 specificity 高）。[^1][^3][^5]\n- **MRI**：T1 等/略低、T2 等/略高（細胞密集）；實質部分 **DWI 受限／ADC 偏低**；注射後**顯著、相對均勻強化**（vs 非生殖細胞瘤 NGGCT 之不均勻強化）。[^1][^2][^4]\n- **播散傾向**：易沿 CSF/室管膜播散 → bifocal 或診斷時應做**全神經軸（whole-neuraxis）MRI** 分期。[^2]\n- **腫瘤標記**：純 germinoma **AFP 應陰性**；β-hCG 可**輕度**升高（合併 syncytiotrophoblastic 成分時）；**AFP 升高或 β-hCG 顯著升高 → 提示非生殖細胞瘤性（NGGCT）**，影響治療與預後。[^2][^6]\n- **治療**：對**放療/化療高度敏感**，預後相對佳。[^1][^2]\n\n- **松果體型**：邊界清楚的結節/分葉狀腫塊、均勻強化；「engulfed」鈣化；可伴 bithalamic 延伸與瘤周水腫；可壓迫導水管造成阻塞性水腦、Parinaud 症候群。[^1][^3]\n- **鞍上/神經垂體型**：臨床以**尿崩（DI）**起病；MRI 見**神經垂體 T1 高訊號亮點（bright spot）消失**、**垂體柄增厚**。[^2]\n- **基底節/視丘型**：起病較隱匿（進行性偏癱、認知/精神症狀）；早期可僅見 **SWI/T2\\* 低訊號**；具特徵的**同側大腦/腦幹萎縮（Wallerian degeneration，約 1/3 病例）**——兒童基底節病灶＋進行性偏癱＋同側半球萎縮應高度懷疑此型。[^2][^7]\n\n- **松果體區**：pineoblastoma（鈣化「exploded」周邊、DWI 受限、預後差）、pineocytoma（成人、邊界清、強化均勻）、teratoma（含脂肪/鈣化/囊變、訊號雜亂）、tectal glioma。[^1][^3]\n- **鞍上**：Langerhans cell histiocytosis（亦造成柄增厚＋DI，兒童）、顱咽瘤、視路/下視丘 glioma、lymphocytic hypophysitis、轉移。[^2]\n- **基底節**：低度 glioma、缺血/血管病變、感染——但同側半球萎縮較偏向 germinoma。[^7]\n\n- **考題**：「女性約男性 10 倍」錯；germinoma 男性為主，松果體 M:F 約 5–22:1。[^1][^2]\n\n### 參考來源\n[^1]: *Intracranial germ cell tumours / CNS germinoma*. Radiopaedia.org（accessed 2026-06-28，開放）：最常見顱內生殖細胞瘤；松果體區「marked male preponderance, M:F 5–22:1」、peak 10–12 歲、90% <20 歲；中線（松果體 majority/第三腦室底/鞍上）；CT 相對高密度、T2 等/略高、注射後均勻強化；對放療敏感。\n[^2]: Liang SH, et al. *Update on MRI in pediatric intracranial germ cell tumors—the clinical and radiological features*. Front Pediatr. 2023;11:1141397（PMC/Frontiers 開放全文，accessed 2026-06-28）：位置占比（松果體 ~50%、鞍上 ~20–30%、基底節 ~5–10%）、各位置性別傾向（鞍上女童略多）；engulfed vs exploded 鈣化；DWI/ADC 受限、均勻強化（vs NGGCT 不均勻）；鞍上 DI＋神經垂體亮點消失＋柄增厚；基底節 SWI 低訊號與 Wallerian 萎縮；bifocal 須做 whole-neuroaxis MRI；AFP 陰性、β-hCG 可輕升、升高提示 NGGCT。\n[^3]: Smith AB, Rushing EJ, Smirniotopoulos JG. *From the Archives of the AFIP: Lesions of the Pineal Region: Radiologic-Pathologic Correlation*. RadioGraphics. 2010;30(7):2001–2020（RSNA，摘要開放/全文訂閱，accessed 2026-06-28）：松果體區病灶鑑別；germinoma「engulfed」鈣化 vs 松果體實質腫瘤「exploded/dispersed」鈣化型態。\n[^4]: *Differentiation between germinoma and other pineal region tumors using diffusion- and susceptibility-weighted MRI*. Eur J Radiol. 2022（摘要開放，accessed 2026-06-28）：germinoma 實質部分 DWI 受限／ADC 偏低，engulfed 鈣化於影像辨識之鑑別效能（specificity 高、PPV 高）。\n[^5]: *Distinguishing between Germinomas and Pineal Cell Tumors on MR Imaging*. AJNR. 2012;33(3):550（開放，accessed 2026-06-28）：以鈣化型態與訊號特徵區分 germinoma 與松果體細胞腫瘤。\n[^6]: *An update on the clinical diagnostic value of β-hCG and αFP for intracranial germ cell tumors*. PMC4788851（開放，accessed 2026-06-28）：純 germinoma AFP 應陰性、β-hCG 可輕度升高（syncytiotrophoblastic 成分）；標記顯著升高提示 NGGCT。\n[^7]: *Basal ganglia germinoma in children with associated ipsilateral cerebral and brain stem hemiatrophy*. Pediatr Radiol. 2006;36（摘要開放，accessed 2026-06-28）：基底節 germinoma 約 1/3 伴同側大腦/腦幹萎縮（Wallerian degeneration）；兒童基底節病灶＋進行性偏癱＋同側半球萎縮應懷疑 ectopic germinoma。\n\n",
+      "facts": [
+        {
+          "id": "cns-germinoma-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "最常見顱內生殖細胞瘤"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "peak 10–12 歲、90% <20 歲"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f03",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cns-germinoma-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "M:F 約 5–22:1"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f05",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cns-germinoma-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "基底節者亦男性為主。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f07",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "＝題目正解（2016-173 正解 B，性別方向相反）。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f08",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "鞍上/神經垂體 ~20–30%"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f09",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "松果體＋鞍上同時出現＝"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f10",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cns-germinoma-f11",
+          "sourceRefs": [
+            "1",
+            "3",
+            "5"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "（包覆型）」鈣化＝把腺體既有鈣化吞入腫瘤——對比 pineoblastoma 的「"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f12",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "：T1 等/略低、T2 等/略高（細胞密集）；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f13",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "DWI 受限／ADC 偏低"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f14",
+          "sourceRefs": [
+            "1",
+            "2",
+            "4"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "（vs 非生殖細胞瘤 NGGCT 之不均勻強化）。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f15",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "：易沿 CSF/室管膜播散 → bifocal 或診斷時應做"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f16",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "：純 germinoma"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f17",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "升高（合併 syncytiotrophoblastic 成分時）；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f18",
+          "sourceRefs": [
+            "2",
+            "6"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "AFP 升高或 β-hCG 顯著升高 → 提示非生殖細胞瘤性（NGGCT）"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f19",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "放療/化療高度敏感"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f20",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "：邊界清楚的結節/分葉狀腫塊、均勻強化；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f21",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "「engulfed」鈣化；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f22",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "可伴 bithalamic 延伸與瘤周水腫；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f23",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 9,
+              "quote": "可壓迫導水管造成阻塞性水腦、Parinaud 症候群。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f24",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cns-germinoma-f25",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 10,
+              "quote": "神經垂體 T1 高訊號亮點（bright spot）消失"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f26",
+          "sourceRefs": [
+            "2",
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "：起病較隱匿（進行性偏癱、認知/精神症狀）；"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f27",
+          "sourceRefs": [
+            "2",
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "SWI/T2\\* 低訊號"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f28",
+          "sourceRefs": [
+            "2",
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 11,
+              "quote": "同側大腦/腦幹萎縮（Wallerian degeneration，約 1/3 病例）"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f29",
+          "sourceRefs": [
+            "1",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 12,
+              "quote": "：pineoblastoma（鈣化「exploded」周邊、DWI 受限、預後差）、pineocytoma（成人、邊界清、強化均勻）、teratoma（含脂肪/鈣化/囊變、訊號雜亂）、tectal glioma。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f30",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 13,
+              "quote": "：Langerhans cell histiocytosis（亦造成柄增厚＋DI，兒童）、顱咽瘤、視路/下視丘 glioma、lymphocytic hypophysitis、轉移。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f31",
+          "sourceRefs": [
+            "7"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 14,
+              "quote": "：低度 glioma、缺血/血管病變、感染——但同側半球萎縮較偏向 germinoma。"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f32",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 15,
+              "quote": "松果體 M:F 約 5–22:1"
+            }
+          ]
+        },
+        {
+          "id": "cns-germinoma-f33",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Intracranial germ cell tumours / CNS germinoma*. Radiopaedia.org（accessed 2026-06-28，開放）：最常見顱內生殖細胞瘤；松果體區「marked male preponderance, M:F 5–22:1」、peak 10–12 歲、90% <20 歲；中線（松果體 majority/第三腦室底/鞍上）；CT 相對高密度、T2 等/略高、注射後均勻強化；對放療敏感。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Liang SH, et al. *Update on MRI in pediatric intracranial germ cell tumors—the clinical and radiological features*. Front Pediatr. 2023;11:1141397（PMC/Frontiers 開放全文，accessed 2026-06-28）：位置占比（松果體 ~50%、鞍上 ~20–30%、基底節 ~5–10%）、各位置性別傾向（鞍上女童略多）；engulfed vs exploded 鈣化；DWI/ADC 受限、均勻強化（vs NGGCT 不均勻）；鞍上 DI＋神經垂體亮點消失＋柄增厚；基底節 SWI 低訊號與 Wallerian 萎縮；bifocal 須做 whole-neuroaxis MRI；AFP 陰性、β-hCG 可輕升、升高提示 NGGCT。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "Smith AB, Rushing EJ, Smirniotopoulos JG. *From the Archives of the AFIP: Lesions of the Pineal Region: Radiologic-Pathologic Correlation*. RadioGraphics. 2010;30(7):2001–2020（RSNA，摘要開放/全文訂閱，accessed 2026-06-28）：松果體區病灶鑑別；germinoma「engulfed」鈣化 vs 松果體實質腫瘤「exploded/dispersed」鈣化型態。"
+        },
+        "5": {
+          "kind": "existing-footnote",
+          "locator": "5",
+          "citation": "*Distinguishing between Germinomas and Pineal Cell Tumors on MR Imaging*. AJNR. 2012;33(3):550（開放，accessed 2026-06-28）：以鈣化型態與訊號特徵區分 germinoma 與松果體細胞腫瘤。"
+        },
+        "4": {
+          "kind": "existing-footnote",
+          "locator": "4",
+          "citation": "*Differentiation between germinoma and other pineal region tumors using diffusion- and susceptibility-weighted MRI*. Eur J Radiol. 2022（摘要開放，accessed 2026-06-28）：germinoma 實質部分 DWI 受限／ADC 偏低，engulfed 鈣化於影像辨識之鑑別效能（specificity 高、PPV 高）。"
+        },
+        "6": {
+          "kind": "existing-footnote",
+          "locator": "6",
+          "citation": "*An update on the clinical diagnostic value of β-hCG and αFP for intracranial germ cell tumors*. PMC4788851（開放，accessed 2026-06-28）：純 germinoma AFP 應陰性、β-hCG 可輕度升高（syncytiotrophoblastic 成分）；標記顯著升高提示 NGGCT。"
+        },
+        "7": {
+          "kind": "existing-footnote",
+          "locator": "7",
+          "citation": "*Basal ganglia germinoma in children with associated ipsilateral cerebral and brain stem hemiatrophy*. Pediatr Radiol. 2006;36（摘要開放，accessed 2026-06-28）：基底節 germinoma 約 1/3 伴同側大腦/腦幹萎縮（Wallerian degeneration）；兒童基底節病灶＋進行性偏癱＋同側半球萎縮應懷疑 ectopic germinoma。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 33,
+          "covered": 28,
+          "researchNeeded": 0,
+          "manualReview": 5
+        }
+      },
+      "summaryBulletEvidence": [
+        "**流行病學**：**最常見顱內生殖細胞瘤**；好發兒童/青年，**peak 10–12 歲、90% <20 歲**。",
+        "**性別**：整體**男性為主**；松果體區 **M:F 約 5–22:1**（男童多）；鞍上者反而**女童略多**；基底節者亦男性為主。故「女性約男性 10 倍」**錯誤**＝題目正解（2016-173 正解 B，性別方向相反）。",
+        "**位置（中線）**：**松果體 ~50%（最多）**、**鞍上/神經垂體 ~20–30%**、**基底節/視丘 ~5–10%**；松果體＋鞍上同時出現＝**bifocal**（具高度提示性）。",
+        "**CT**：實質部分相對**高密度/等密度**；松果體者「**engulfed**（包覆型）」鈣化＝把腺體既有鈣化吞入腫瘤——對比 pineoblastoma 的「**exploded**（周邊炸開型）」鈣化（鑑別 specificity 高）。",
+        "**MRI**：T1 等/略低、T2 等/略高（細胞密集）；實質部分 **DWI 受限／ADC 偏低**；注射後**顯著、相對均勻強化**（vs 非生殖細胞瘤 NGGCT 之不均勻強化）。",
+        "**播散傾向**：易沿 CSF/室管膜播散 → bifocal 或診斷時應做**全神經軸（whole-neuraxis）MRI** 分期。",
+        "**腫瘤標記**：純 germinoma **AFP 應陰性**；β-hCG 可**輕度**升高（合併 syncytiotrophoblastic 成分時）；**AFP 升高或 β-hCG 顯著升高 → 提示非生殖細胞瘤性（NGGCT）**，影響治療與預後。",
+        "**治療**：對**放療/化療高度敏感**，預後相對佳。",
+        "**松果體型**：邊界清楚的結節/分葉狀腫塊、均勻強化；「engulfed」鈣化；可伴 bithalamic 延伸與瘤周水腫；可壓迫導水管造成阻塞性水腦、Parinaud 症候群。",
+        "**鞍上/神經垂體型**：臨床以**尿崩（DI）**起病；MRI 見**神經垂體 T1 高訊號亮點（bright spot）消失**、**垂體柄增厚**。",
+        "**基底節/視丘型**：起病較隱匿（進行性偏癱、認知/精神症狀）；早期可僅見 **SWI/T2\\* 低訊號**；具特徵的**同側大腦/腦幹萎縮（Wallerian degeneration，約 1/3 病例）**——兒童基底節病灶＋進行性偏癱＋同側半球萎縮應高度懷疑此型。",
+        "**松果體區**：pineoblastoma（鈣化「exploded」周邊、DWI 受限、預後差）、pineocytoma（成人、邊界清、強化均勻）、teratoma（含脂肪/鈣化/囊變、訊號雜亂）、tectal glioma。",
+        "**鞍上**：Langerhans cell histiocytosis（亦造成柄增厚＋DI，兒童）、顱咽瘤、視路/下視丘 glioma、lymphocytic hypophysitis、轉移。",
+        "**基底節**：低度 glioma、缺血/血管病變、感染——但同側半球萎縮較偏向 germinoma。",
+        "**考題**：「女性約男性 10 倍」錯；germinoma 男性為主，松果體 M:F 約 5–22:1。"
+      ],
+      "coverageEvidenceSha256": "fd7a63b0409a2f5cece492c6b208cf7cadc6ab9e2bf8c313f213de9a0cb08ca0"
+    },
+    {
+      "slug": "colloid-cyst",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **位置**：大多位於 Monro 氏孔，第三腦室前上方。[^1]\n- **CT**：約 2/3 於非顯影 CT 呈高密度。[^1]\n- **MRI**：約 2/3 於 T1WI 呈高訊號。[^1]\n- **考題**：Monro 氏孔位置、非顯影 CT 高密度與 T1WI 高訊號皆為正確描述。[^1]\n\n",
+      "facts": [
+        {
+          "id": "colloid-cyst-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "，第三腦室前上方。"
+            }
+          ]
+        },
+        {
+          "id": "colloid-cyst-f02",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "colloid-cyst-f03",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "colloid-cyst-f04",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Diagnostic Imaging, Brain*, 3rd edition, p.612-613（2018 交換考題詳解 p.199 引用；Tier 2 教科書）。膠樣囊腫大多位於Monro氏孔；約2/3非顯影CT呈高密度；約2/3 T1WI呈高訊號。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 1,
+          "researchNeeded": 0,
+          "manualReview": 3
+        }
+      },
+      "summaryBulletEvidence": [
+        "**位置**：大多位於 Monro 氏孔，第三腦室前上方。",
+        "**CT**：約 2/3 於非顯影 CT 呈高密度。",
+        "**MRI**：約 2/3 於 T1WI 呈高訊號。",
+        "**考題**：Monro 氏孔位置、非顯影 CT 高密度與 T1WI 高訊號皆為正確描述。"
+      ],
+      "coverageEvidenceSha256": "cc797d20cafcef0966252b6370f2e9c5ab203e361fb98df6a8e814df851b2d59"
+    },
+    {
+      "slug": "congenital-aural-atresia",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **臨床**：最常見為傳導性聽力障礙，聲音無法經外耳道／鼓膜／聽小骨傳入內耳。[^1][^2]\n- **內耳**：內耳與內聽道通常正常；CEMEM 內耳異常少於 30%，出現時提示症候群。[^1][^2]\n- **分級**：輕為 EAC 狹窄；中為 EAC 狹窄或閉鎖加中耳中度發育不良；重為 EAC 閉鎖及中耳腔、聽小骨嚴重缺損。microtia 嚴重度大致相應。[^2]\n- **流行病學**：每 10,000–20,000 活產 1 例；單側：雙側約 4:1，男性略多，非症候群多為單側。[^2]\n- **胚胎學**：第一鰓溝與第一咽囊形成 EAC；第三孕期未腔道化可致 CEMEM。第一、二鰓弓分別形成特定聽小骨部分。[^2]\n\n",
+      "facts": [
+        {
+          "id": "congenital-aural-atresia-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "聲音無法經外耳道"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "CEMEM 內耳異常少"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "EAC 狹窄或閉鎖"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f04",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "microtia 嚴重度大致"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f05",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "10,000–20,000 活產"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f06",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "congenital-aural-atresia-f07",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "congenital-aural-atresia-f08",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "非症候群多為單側。"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f09",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "與第一咽囊形成 EAC；"
+            }
+          ]
+        },
+        {
+          "id": "congenital-aural-atresia-f10",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "congenital-aural-atresia-f11",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "congenital-aural-atresia-f12",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*External auditory canal atresia*（congenital aural atresia）. Radiopaedia.org（rID 1305, DOI 10.53347/rID-1305；經實際查證 accessed 2026-07-10）：臨床＝外耳異常外觀＋**出生即傳導性聽力障礙**；內耳與內聽道通常正常（較早於胚胎期形成）；約 1/3 雙側；HRCT 為首選，需評估中耳腔容積（>3 mm 利手術）、聽小骨（stapes 異常/缺如需假體）、卵圓窗與圓窗、頸內動脈與頸靜脈球位置、顏面神經常異常前置；可併發 atresia plate 後方先天性 cholesteatoma。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** O'Brien WT, Robson CD, Harnsberger HR. *Congenital External and Middle Ear Malformation (CEMEM)*（Head and Neck, Dx, updated 08/12/25）STATdx, Elsevier（經奇美 EZproxy 實際查證 accessed 2026-07-10）：**Conductive hearing loss ＝最常見症狀**；內耳源自較早形成的 otocyst，CEMEM 內耳異常少見（<30% 者提示症候群）；EAC atresia＝EAC/tympanic plate/鼓膜缺如＋中重度中耳畸形；oval window atresia 35%、round window atresia 5%；乳突段 CN VII 較正常更前外側；Jahrsdoerfer 評分 ≥7 預後佳；發生率 1/10,000–20,000，單:雙側 4:1，男性略多。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 12,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 5
+        }
+      },
+      "summaryBulletEvidence": [
+        "**臨床**：最常見為傳導性聽力障礙，聲音無法經外耳道／鼓膜／聽小骨傳入內耳。",
+        "**內耳**：內耳與內聽道通常正常；CEMEM 內耳異常少於 30%，出現時提示症候群。",
+        "**分級**：輕為 EAC 狹窄；中為 EAC 狹窄或閉鎖加中耳中度發育不良；重為 EAC 閉鎖及中耳腔、聽小骨嚴重缺損。microtia 嚴重度大致相應。",
+        "**流行病學**：每 10,000–20,000 活產 1 例；單側：雙側約 4:1，男性略多，非症候群多為單側。",
+        "**胚胎學**：第一鰓溝與第一咽囊形成 EAC；第三孕期未腔道化可致 CEMEM。第一、二鰓弓分別形成特定聽小骨部分。"
+      ],
+      "coverageEvidenceSha256": "61724342582317d7cb46a4a3a8354322f964f7aa41b6f45ab924b3735557bc4a"
+    },
+    {
+      "slug": "corpus-callosum-agenesis-signs",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **共同機轉—Probst bundles**：孕期約 8–12 週損傷使胼胝體無法形成；白質束改在半球間裂旁縱向平行走行，將兩側側腦室平行推開。[^1][^2]\n- **Racing car sign**：軸位額角／體部平行外移，加上居中的高位擴張第三腦室，形似賽車。[^1][^2]\n- **Moose head sign**：冠狀位上翹分離的額角似鹿角，高位第三腦室似頭部；亦稱 trident／Viking helmet。[^1]\n- **Colpocephaly**：枕角／三角區不成比例擴大、額角尖角，與缺乏壓部及後方白質束正常發育有關。[^1][^2]\n- **鑑別—molar tooth sign**：與 ACC 無關；是 Joubert 症候群及相關疾病的中腦徵象。[^3]\n\n",
+      "facts": [
+        {
+          "id": "corpus-callosum-agenesis-signs-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "損傷使胼胝體無法形成"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-agenesis-signs-f02",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "corpus-callosum-agenesis-signs-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "Viking helmet"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-agenesis-signs-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "後方白質束正常發育"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-agenesis-signs-f05",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "corpus-callosum-agenesis-signs-f06",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "Joubert 症候群及相關疾病"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "Nagaraj UD. *Callosal Anomalies* (Dx). STATdx, updated 10/21/21（26 refs）. Elsevier——軸切面側腦室平行 + colpocephaly（三角區/後角擴大）+ 尖額角；**Probst bundles**（緊密異位白質束平行半球間裂）；矢狀面 cingulate sulcus 消失、腦溝放射狀達第三腦室邊緣；冠狀面高位第三腦室 + 上翹側腦室（trident）。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gaillard F, et al. *Dysgenesis of the corpus callosum*. Radiopaedia, rID-864——胚胎損傷約孕 8-12 週致胼胝體無法形成、白質縱走成 Probst bundles（**racing car sign**）；盛行率約 1:20,000（兒童神經影像轉診可達 1%）；症狀取決於合併異常。原「官方 2020 詳解／Cherian 2013 BMJ Case Rep」弱來源已由上述一手來源查核取代。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "molar tooth sign 標準文獻——中腦因上小腦腳拉長形似臼齒，最初描述於 Joubert 症候群及相關疾病（JSRD），亦見於腎消耗症、肝纖維化、Cogan 症候群、pontine tegmental cap dysplasia，**與 ACC 無關**（作為考題鑑別點）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 6,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 2
+        }
+      },
+      "summaryBulletEvidence": [
+        "**共同機轉—Probst bundles**：孕期約 8–12 週損傷使胼胝體無法形成；白質束改在半球間裂旁縱向平行走行，將兩側側腦室平行推開。",
+        "**Racing car sign**：軸位額角／體部平行外移，加上居中的高位擴張第三腦室，形似賽車。",
+        "**Moose head sign**：冠狀位上翹分離的額角似鹿角，高位第三腦室似頭部；亦稱 trident／Viking helmet。",
+        "**Colpocephaly**：枕角／三角區不成比例擴大、額角尖角，與缺乏壓部及後方白質束正常發育有關。",
+        "**鑑別—molar tooth sign**：與 ACC 無關；是 Joubert 症候群及相關疾病的中腦徵象。"
+      ],
+      "coverageEvidenceSha256": "d385218e67a6be865d88e6048d09b1a041a99546ce61293b46dd88e4e2b15f56"
+    },
+    {
+      "slug": "corpus-callosum-dysgenesis",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **Colpocephaly**：側腦室枕角不成比例擴大，與壓部／後方白質正常發育缺損相關。[^1][^2]\n- **Interhemispheric lipoma**：常與胼胝體發育不良併存，源自原始腦膜異常分化成脂肪。[^1]\n- **Probst bundle**：白質無法跨中線而平行縱走，使側腦室平行分開，形成 racing car sign。[^1][^2]\n- **鑑別**：小腦扁桃體下疝為 Chiari malformation，非胼胝體發育不良伴隨徵象。[^1]\n\n",
+      "facts": [
+        {
+          "id": "corpus-callosum-dysgenesis-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：側腦室枕角不成比例擴大"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-dysgenesis-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "與胼胝體發育不良"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-dysgenesis-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "racing car sign"
+            }
+          ]
+        },
+        {
+          "id": "corpus-callosum-dysgenesis-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "Chiari malformation，非胼胝體發育不良"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解；Ref: Diagnostic Imaging: Brain, 2nd ed., I(1):18-21（題目所引）——胼胝體發育不良伴隨 colpocephaly、interhemispheric lipoma（常併存）、Probst bundle（白質平行半球間裂、致 racing car sign）；descended tonsil 屬 Chiari，非相關。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gaillard F, et al. *Dysgenesis of the corpus callosum*. Radiopaedia, rID-864, DOI 10.53347/rID-864（輔助來源）——白質縱走成 **Probst bundle（racing car sign）**、colpocephaly、常合併其他中樞畸形；為與 [[corpus-callosum-agenesis-signs]] 同一實體之伴隨徵象查核來源。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**Colpocephaly**：側腦室枕角不成比例擴大，與壓部／後方白質正常發育缺損相關。",
+        "**Interhemispheric lipoma**：常與胼胝體發育不良併存，源自原始腦膜異常分化成脂肪。",
+        "**Probst bundle**：白質無法跨中線而平行縱走，使側腦室平行分開，形成 racing car sign。",
+        "**鑑別**：小腦扁桃體下疝為 Chiari malformation，非胼胝體發育不良伴隨徵象。"
+      ],
+      "coverageEvidenceSha256": "f55cf3cb9a5c471d71d7a6c5626f97a6286fdcb7c3dc696a0cc253b5eed9fcde"
+    }
+  ],
+  "manualReviewFactIds": [
+    "cerebral-pseudoaneurysm-f02",
+    "cerebral-pseudoaneurysm-f04",
+    "cerebral-pseudoaneurysm-f05",
+    "cerebral-pseudoaneurysm-f06",
+    "cerebral-pseudoaneurysm-f07",
+    "cerebral-venous-thrombosis-mri-f01",
+    "cerebral-venous-thrombosis-mri-f02",
+    "cerebral-venous-thrombosis-mri-f05",
+    "cervical-radiculopathy-f01",
+    "cervical-radiculopathy-f02",
+    "chiari-malformation-f07",
+    "chiari-malformation-f40",
+    "cholesterol-granuloma-petrous-apex-f03",
+    "cholesterol-granuloma-petrous-apex-f04",
+    "cholesterol-granuloma-petrous-apex-f05",
+    "cholesterol-granuloma-petrous-apex-f06",
+    "cholesterol-granuloma-petrous-apex-f08",
+    "cholesterol-granuloma-petrous-apex-f10",
+    "cholesterol-granuloma-petrous-apex-f11",
+    "cns-germinoma-f03",
+    "cns-germinoma-f05",
+    "cns-germinoma-f10",
+    "cns-germinoma-f24",
+    "cns-germinoma-f33",
+    "colloid-cyst-f02",
+    "colloid-cyst-f03",
+    "colloid-cyst-f04",
+    "congenital-aural-atresia-f06",
+    "congenital-aural-atresia-f07",
+    "congenital-aural-atresia-f10",
+    "congenital-aural-atresia-f11",
+    "congenital-aural-atresia-f12",
+    "corpus-callosum-agenesis-signs-f02",
+    "corpus-callosum-agenesis-signs-f05"
+  ],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-02.json"
+}

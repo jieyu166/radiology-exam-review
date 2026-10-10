@@ -1,0 +1,1368 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-batch-evidence",
+  "batch": "scheduled-disease-03",
+  "scope": "NR",
+  "baselineLock": {
+    "path": "docs/reports/nr-summary-rewrite/phase2b/baselines/scheduled-disease-03.json",
+    "sha256": "0f125f508a63c96892268eaf977a99e056eb3b67ac31c7149f4036101a7ba663"
+  },
+  "status": "needs-review",
+  "workflow": {
+    "sequence": 3,
+    "predecessor": "scheduled-disease-02",
+    "implementer": "/root/phase2b_task2_3_impl",
+    "reviewer": "/root/phase2b_review_design",
+    "reviewStatus": "approved",
+    "reviewedBaselineSha256": "0f125f508a63c96892268eaf977a99e056eb3b67ac31c7149f4036101a7ba663"
+  },
+  "notes": [
+    {
+      "slug": "covid-19-brain-mri",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **研究背景**：Kremer 等（Radiology 2020）回溯 16 家醫院、37 名重症 COVID-19（需住院＋氧療）併神經症狀且腦 MRI 異常者，排除缺血性梗塞、靜脈竇栓塞與陳舊病灶。[^2]\n- **型態一（最常見，~43%）**：訊號異常位於**內側顳葉**（FLAIR 和/或 DWI 高訊號），16/37（95% CI 27–59%）。[^2]\n- **型態二（~30%）**：**非融合性多灶白質高訊號**（FLAIR＋DWI），強化程度可變，合併出血性病灶，11/37（95% CI 15–45%）。[^2]\n- **型態三（~24%）**：**廣泛且孤立之白質微出血**，9/37（95% CI 10–38%）。[^2]\n- **出血與嚴重度**：54%（20/37）有腦內出血性病灶，這些病人 100% 入住 ICU 並發展 ARDS，臨床較重；腦脊髓液幾乎測不到 SARS-CoV-2 RNA（37 例中僅 1 例陽性）。[^2]\n\n",
+      "facts": [
+        {
+          "id": "covid-19-brain-mri-f01",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：Kremer 等（Radiology 2020）回溯 16 家醫院、37 名重症 COVID-19（需住院＋氧療）併神經症狀且腦 MRI 異常者，排除缺血性梗塞、靜脈竇栓塞與陳舊病灶。"
+            }
+          ]
+        },
+        {
+          "id": "covid-19-brain-mri-f02",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "（FLAIR 和/或 DWI 高訊號），16/37（95% CI 27–59%）。"
+            }
+          ]
+        },
+        {
+          "id": "covid-19-brain-mri-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "（FLAIR＋DWI），強化程度可變，合併出血性病灶，11/37（95% CI 15–45%）。"
+            }
+          ]
+        },
+        {
+          "id": "covid-19-brain-mri-f04",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "，9/37（95% CI 10–38%）。"
+            }
+          ]
+        },
+        {
+          "id": "covid-19-brain-mri-f05",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "：54%（20/37）有腦內出血性病灶，這些病人 100% 入住 ICU 並發展 ARDS，臨床較重；"
+            }
+          ]
+        },
+        {
+          "id": "covid-19-brain-mri-f06",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "腦脊髓液幾乎測不到 SARS-CoV-2 RNA（37 例中僅 1 例陽性）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** 據 PubMed，Kremer S, Lersy F, de Sèze J, et al. *Brain MRI Findings in Severe COVID-19: A Retrospective Observational Study*. Radiology 2020;297(2):E242-E251. [DOI](https://doi.org/10.1148/radiol.2020202222)（實際查證 accessed 2026-07-10）——37 例重症 COVID-19：內側顳葉訊號異常 16/37（43%；95% CI 27–59%）＞非融合多灶白質 FLAIR/DWI 病灶、可變強化、合併出血 11/37（30%；95% CI 15–45%）＞廣泛孤立白質微出血 9/37（24%；95% CI 10–38%）；54% 有腦內出血、與較重臨床及 ARDS 相關；CSF 幾乎測不到病毒 RNA。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 6,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**研究背景**：Kremer 等（Radiology 2020）回溯 16 家醫院、37 名重症 COVID-19（需住院＋氧療）併神經症狀且腦 MRI 異常者，排除缺血性梗塞、靜脈竇栓塞與陳舊病灶。",
+        "**型態一（最常見，~43%）**：訊號異常位於**內側顳葉**（FLAIR 和/或 DWI 高訊號），16/37（95% CI 27–59%）。",
+        "**型態二（~30%）**：**非融合性多灶白質高訊號**（FLAIR＋DWI），強化程度可變，合併出血性病灶，11/37（95% CI 15–45%）。",
+        "**型態三（~24%）**：**廣泛且孤立之白質微出血**，9/37（95% CI 10–38%）。",
+        "**出血與嚴重度**：54%（20/37）有腦內出血性病灶，這些病人 100% 入住 ICU 並發展 ARDS，臨床較重；腦脊髓液幾乎測不到 SARS-CoV-2 RNA（37 例中僅 1 例陽性）。"
+      ],
+      "coverageEvidenceSha256": "bf3c4a71046778be3af5a0013783823be26c37d5c3f75b67df07e07a669ff557"
+    },
+    {
+      "slug": "craniosynostosis-suture-fusion",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **定義／機轉**：一或多條顱縫過早融合，顱骨生長受限**垂直於受累縫線**，代償性生長使頭型變形。[^1]\n- **流行病學**：發生率約 1/2000–2500，男：女約 3:1，約 8% 為症候群型（如 Apert、Crouzon、Carpenter）。[^1][^2]\n- **矢狀縫（sagittal）早閉 → scaphocephaly／dolichocephaly（舟狀／長頭）**：最常見（約 50%），側向生長受阻、前後拉長。[^1]\n- **額縫（metopic）早閉 → trigonocephaly（三角頭）**：前額呈龍骨狀尖突。[^1]\n- **重點**: **單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）**，同側可見 harlequin eye 徵象；**非 brachycephaly**（本題陷阱）。[^1]\n- **重點**: **雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）**。[^1]\n- **重點**: **單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）**；須與姿勢性（體位性）斜頭鑑別。[^1]\n- **其他型**：pachycephaly（lambdoid）、oxycephaly/turricephaly（矢狀＋冠狀＋人字，塔狀頭）、cloverleaf skull/Kleeblattschädel（子宮內矢狀＋冠狀＋人字，最嚴重）、progressive postnatal pansynostosis（罕見，出生後才全縫晚融合）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "craniosynostosis-suture-fusion-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：一或多條顱縫過早融合，顱骨生長受限"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：發生率約 1/2000–2500，男：女約 3:1，約 8% 為症候群型（如 Apert、Crouzon、Carpenter）。"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "：最常見（約 50%），側向生長受阻、前後拉長。"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：前額呈龍骨狀尖突。"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "非 brachycephaly"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 7,
+              "quote": "須與姿勢性（體位性）斜頭鑑別。"
+            }
+          ]
+        },
+        {
+          "id": "craniosynostosis-suture-fusion-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 8,
+              "quote": "：pachycephaly（lambdoid）、oxycephaly/turricephaly（矢狀＋冠狀＋人字，塔狀頭）、cloverleaf skull/Kleeblattschädel（子宮內矢狀＋冠狀＋人字，最嚴重）、progressive postnatal pansynostosis（罕見，出生後才全縫晚融合）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Radiopaedia（公開）**：*Craniosynostosis*. rID-1179（DOI [10.53347/rID-1179](https://doi.org/10.53347/rID-1179)），https://radiopaedia.org/articles/craniosynostosis （accessed 2026-07-10）。生長受限垂直於受累縫；1/2000–2500、男:女 3:1、8% 症候群；分型：brachycephaly（bicoronal±bilambdoid）、scaphocephaly/dolichocephaly（sagittal，最常見）、plagiocephaly（單側 coronal→frontal；單側 lambdoid→occipital）、trigonocephaly（metopic）、pachycephaly（lambdoid）、oxycephaly（矢+冠+人字）、cloverleaf、harlequin eye（同側 coronal）、progressive postnatal pansynostosis；CT 低劑量3D 為最佳、US 可篩檢。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1（RadioGraphics）**：Glass RB, Fernbach SK, Norton KI, et al. *The Infant Skull: A Vault of Information.* RadioGraphics. 2004;24(2):507-22. [DOI](https://doi.org/10.1148/rg.242035105)（PMID 15026597，據 Radiopaedia 參考書目，accessed 2026-07-10）。佐證嬰兒顱骨縫線正常發育與顱縫早閉之影像評估；另 AJR Benson ML et al. *Primary craniosynostosis: imaging features.* AJR 1996;166(3):697-703 描述各縫早閉之影像特徵。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 10,
+          "covered": 10,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**定義／機轉**：一或多條顱縫過早融合，顱骨生長受限**垂直於受累縫線**，代償性生長使頭型變形。",
+        "**流行病學**：發生率約 1/2000–2500，男：女約 3:1，約 8% 為症候群型（如 Apert、Crouzon、Carpenter）。",
+        "**矢狀縫（sagittal）早閉 → scaphocephaly／dolichocephaly（舟狀／長頭）**：最常見（約 50%），側向生長受阻、前後拉長。",
+        "**額縫（metopic）早閉 → trigonocephaly（三角頭）**：前額呈龍骨狀尖突。",
+        "**重點**: **單側冠狀縫（unilateral coronal）早閉 → anterior/frontal plagiocephaly（前部斜頭）**，同側可見 harlequin eye 徵象；**非 brachycephaly**（本題陷阱）。",
+        "**重點**: **雙側冠狀縫和／或雙側人字縫（bicoronal ± bilambdoid）早閉 → brachycephaly（短頭）**。",
+        "**重點**: **單側人字縫（unilateral lambdoid）早閉 → posterior/occipital plagiocephaly（後部斜頭）**；須與姿勢性（體位性）斜頭鑑別。",
+        "**其他型**：pachycephaly（lambdoid）、oxycephaly/turricephaly（矢狀＋冠狀＋人字，塔狀頭）、cloverleaf skull/Kleeblattschädel（子宮內矢狀＋冠狀＋人字，最嚴重）、progressive postnatal pansynostosis（罕見，出生後才全縫晚融合）。"
+      ],
+      "coverageEvidenceSha256": "d633cbe852546c2bf23113db2c6c6067603dfeb5f0e08dcd3951bde17a96a8a9"
+    },
+    {
+      "slug": "cri-du-chat-syndrome",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **病因/遺傳**：**第 5 號染色體短臂缺失（5p−），缺失大小可變**；多為新發（de novo）末端缺失，少數源自親代平衡轉位。[^1]\n- **發生率**：**1:15,000–1:50,000 活產**，為最常見染色體缺失症候群之一；女略多於男。[^1]\n- **核心臨床特徵**：**高亢單調貓叫哭聲（cat cry，多於頭幾年消失）、小頭症（microcephaly）、寬鼻樑、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、異常掌紋（dermatoglyphics）、嚴重精神運動與智能遲滯**。[^1]\n- **較少見畸形**：心臟、神經、腎臟異常、preauricular tags、併指（syndactyly）、hypospadias、cryptorchidism。[^1]\n- **基因型-表現型（genotype-phenotype）**：**臨床與細胞遺傳變異大**；特定缺失大小/型態對應表現型子集，具診斷與預後意義；**貓叫聲關鍵區與智能遲滯關鍵區位於 5p 不同區段**；候選基因 SEMAF/CTNND2（腦發育、智能遲滯）、hTERT（5p15.33）。[^1]\n- **影像**：屬 syndromic microcephaly——顱面比例下降、顱縫緊貼/重疊；可伴胼胝體發育不全、小腦/腦幹發育不良；產前 US 可見 nuchal fold 增厚/cystic hygroma、生長受限、心臟缺損、唇顎裂。[^2][^3]\n\n",
+      "facts": [
+        {
+          "id": "cri-du-chat-syndrome-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "第 5 號染色體短臂缺失（5p−），缺失大小可變"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "多為新發（de novo）末端缺失，少數源自親代平衡轉位。"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "1:15,000–1:50,000 活產"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f04",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "cri-du-chat-syndrome-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "高亢單調貓叫哭聲（cat cry，多於頭幾年消失）、小頭症（microcephaly）、寬鼻樑、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、異常掌紋（dermatoglyphics）、嚴重精神運動與智能遲滯"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：心臟、神經、腎臟異常、preauricular tags、併指（syndactyly）、hypospadias、cryptorchidism。"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "臨床與細胞遺傳變異大"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f08",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "特定缺失大小/型態對應表現型子集，具診斷與預後意義；"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f09",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "貓叫聲關鍵區與智能遲滯關鍵區位於 5p 不同區段"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f10",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "候選基因 SEMAF/CTNND2（腦發育、智能遲滯）、hTERT（5p15.33）。"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f11",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "：屬 syndromic microcephaly——顱面比例下降、顱縫緊貼/重疊；"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f12",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "可伴胼胝體發育不全、小腦/腦幹發育不良；"
+            }
+          ]
+        },
+        {
+          "id": "cri-du-chat-syndrome-f13",
+          "sourceRefs": [
+            "2",
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "產前 US 可見 nuchal fold 增厚/cystic hygroma、生長受限、心臟缺損、唇顎裂。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "**Tier 1** Cerruti Mainardi P. *Cri du Chat syndrome*. Orphanet J Rare Dis 2006;1:33（據 PubMed，DOI [10.1186/1750-1172-1-33](https://doi.org/10.1186/1750-1172-1-33)，PMC1574300；Review；實際查證 accessed 2026-07-04）——CdCS＝5p 短臂可變大小缺失、發生率 1:15,000–1:50,000；核心＝高亢單調貓叫哭聲/小頭症/寬鼻樑/內眥贅皮/小下頜/異常掌紋/嚴重精神運動與智能遲滯；較少見畸形（心/神經/腎、preauricular tags、syndactyly、hypospadias、cryptorchidism）；**基因型-表現型變異大、貓叫聲與智能遲滯關鍵區位於 5p 不同區段、候選基因 SEMAF/CTNND2/hTERT**；診斷（臨床 + karyotype，疑難 FISH/array-CGH）；已建立生長/精神運動發展曲線；無專一療法、早期療育改善預後。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** Moore KR. *Congenital Microcephaly*（Pediatrics, Pediatric Neuroradiology, Dx）. STATdx, Elsevier, updated 02/02/24（22 refs；實際查證 accessed 2026-07-04）——microcephaly＝OFC >3 SD 低於同齡同性別均值；**顱面比下降/額頭後斜/顱縫緊貼重疊 ± 續發顱縫早閉**；primary（MCPH，體隱性、腦回簡化 oligogyria）vs secondary（HIE/感染/代謝）；**syndrome associations 明列 Cri-du-chat（5p−）、Down、Edward、Cornelia de Lange、Rubinstein-Taybi**；MR 為評估腦回/皮質移行/髓鞘化/中線最佳、NECT 看鈣化 subdural；小腦發育不良於基因性小頭較常見；中線異常合併小頭想 FAS。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "*The cri du chat syndrome*. Radiopaedia.org（輔助來源）——5p 缺失、貓叫哭聲、小頭、內眥贅皮、小下頜、遠距眼、鼻骨發育不全；影像可見胼胝體發育不全、小腦/腦幹（尤 pons）發育不良、Dandy-Walker；產前 nuchal fold 增厚/cystic hygroma、心臟缺損、唇顎裂、生長受限。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 13,
+          "covered": 12,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**病因/遺傳**：**第 5 號染色體短臂缺失（5p−），缺失大小可變**；多為新發（de novo）末端缺失，少數源自親代平衡轉位。",
+        "**發生率**：**1:15,000–1:50,000 活產**，為最常見染色體缺失症候群之一；女略多於男。",
+        "**核心臨床特徵**：**高亢單調貓叫哭聲（cat cry，多於頭幾年消失）、小頭症（microcephaly）、寬鼻樑、內眥贅皮（epicanthal folds）、小下頜（micrognathia）、異常掌紋（dermatoglyphics）、嚴重精神運動與智能遲滯**。",
+        "**較少見畸形**：心臟、神經、腎臟異常、preauricular tags、併指（syndactyly）、hypospadias、cryptorchidism。",
+        "**基因型-表現型（genotype-phenotype）**：**臨床與細胞遺傳變異大**；特定缺失大小/型態對應表現型子集，具診斷與預後意義；**貓叫聲關鍵區與智能遲滯關鍵區位於 5p 不同區段**；候選基因 SEMAF/CTNND2（腦發育、智能遲滯）、hTERT（5p15.33）。",
+        "**影像**：屬 syndromic microcephaly——顱面比例下降、顱縫緊貼/重疊；可伴胼胝體發育不全、小腦/腦幹發育不良；產前 US 可見 nuchal fold 增厚/cystic hygroma、生長受限、心臟缺損、唇顎裂。"
+      ],
+      "coverageEvidenceSha256": "51e129c58b2158b7f41c73551657a22308c70e86b96581a97e9538046a146722"
+    },
+    {
+      "slug": "dandy-walker-malformation",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **流行病學**：**最常見的後顱窩畸形**，多為**偶發性**，整體復發風險低（**1%–5%**）。[^1]\n- **臨床表現**：多數病人於**1歲前**即以顱內壓升高之徵象與症狀表現。[^1]\n- **關鍵神經影像特徵**：**小腦蚓部發育不全（hypoplasia of cerebellar vermis）**與**呈囊狀擴大的第四腦室（dilated cystic-appearing fourth ventricle）**。[^1]\n- **最常見表現徵象**：**巨頭畸形（macrocephaly）**，而非小頭畸形（microcephaly）——好發於出生後最初數月，影響**90–100%**病人。[^1]\n\n",
+      "facts": [
+        {
+          "id": "dandy-walker-malformation-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "最常見的後顱窩畸形"
+            }
+          ]
+        },
+        {
+          "id": "dandy-walker-malformation-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "即以顱內壓升高之徵象與症狀表現。"
+            }
+          ]
+        },
+        {
+          "id": "dandy-walker-malformation-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "呈囊狀擴大的第四腦室（dilated cystic-appearing fourth ventricle）"
+            }
+          ]
+        },
+        {
+          "id": "dandy-walker-malformation-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "，而非小頭畸形（microcephaly）——好發於出生後最初數月，影響"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "2019 交換考詳解；RadioGraphics 2015;35:200-220。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**流行病學**：**最常見的後顱窩畸形**，多為**偶發性**，整體復發風險低（**1%–5%**）。",
+        "**臨床表現**：多數病人於**1歲前**即以顱內壓升高之徵象與症狀表現。",
+        "**關鍵神經影像特徵**：**小腦蚓部發育不全（hypoplasia of cerebellar vermis）**與**呈囊狀擴大的第四腦室（dilated cystic-appearing fourth ventricle）**。",
+        "**最常見表現徵象**：**巨頭畸形（macrocephaly）**，而非小頭畸形（microcephaly）——好發於出生後最初數月，影響**90–100%**病人。"
+      ],
+      "coverageEvidenceSha256": "fda8e480d9924e88c8a256c0e3d7444a71e9658cc1e92de6fd7e321fe613173c"
+    },
+    {
+      "slug": "dural-av-fistula",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **最常見部位**：**transverse/sigmoid sinus**（非cavernous sinus，此為常見誤植陷阱）。[^1]\n- **最佳診斷線索**：血栓化硬腦膜靜脈竇壁上見**網狀細小血管（network of tiny vessels in wall of thrombosed dural venous sinus）**。[^1]\n- **侵犯性（aggressive）DAVF徵象**：**皮質引流靜脈擴大（enlarged cortical draining veins）**代表逆流入皮質靜脈系統，出血風險上升。[^1]\n- **本質**：**後天性（acquired）**硬腦膜動脈與硬腦膜靜脈竇或皮質靜脈間之直接分流。[^1]\n\n",
+      "facts": [
+        {
+          "id": "dural-av-fistula-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "（非cavernous sinus，此為常見誤植陷阱）。"
+            }
+          ]
+        },
+        {
+          "id": "dural-av-fistula-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "網狀細小血管（network of tiny vessels in wall of thrombosed dural venous sinus）"
+            }
+          ]
+        },
+        {
+          "id": "dural-av-fistula-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "皮質引流靜脈擴大（enlarged cortical draining veins）"
+            }
+          ]
+        },
+        {
+          "id": "dural-av-fistula-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "硬腦膜動脈與硬腦膜靜脈竇或皮質靜脈間之直接分流。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "STATdx → Dural Arteriovenous Fistula（2018 交換考題詳解 p.241 引用；Tier 2 教學資料庫）。DAVF最常見部位為transverse/sigmoid sinus（非cavernous sinus）；血栓化靜脈竇壁網狀細小血管為最佳診斷線索；皮質引流靜脈擴大代表侵犯性DAVF；本質為後天性硬腦膜動脈與靜脈竇/皮質靜脈間直接分流。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**最常見部位**：**transverse/sigmoid sinus**（非cavernous sinus，此為常見誤植陷阱）。",
+        "**最佳診斷線索**：血栓化硬腦膜靜脈竇壁上見**網狀細小血管（network of tiny vessels in wall of thrombosed dural venous sinus）**。",
+        "**侵犯性（aggressive）DAVF徵象**：**皮質引流靜脈擴大（enlarged cortical draining veins）**代表逆流入皮質靜脈系統，出血風險上升。",
+        "**本質**：**後天性（acquired）**硬腦膜動脈與硬腦膜靜脈竇或皮質靜脈間之直接分流。"
+      ],
+      "coverageEvidenceSha256": "df1952ac181946b7bca6d442ed4122ca9f514eca420345a8c418159346c9fef6"
+    },
+    {
+      "slug": "dural-avf",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **本質**：**後天性**（多 idiopathic；常源自**已栓塞之硬腦膜靜脈竇（典型 transverse sinus）之新生血管**、外傷、開顱後；prothrombotic 體質相關），**非先天**。[^1][^2]\n- **位置**：最常見 **transverse-sigmoid sinus（~60%）**。[^1][^2]\n- **症狀**：最常見 **pulsatile tinnitus（搏動性耳鳴）**；亦可出血/靜脈高壓。[^1][^2]\n- **分類/危險**：**Borden（I-III）、Cognard（I-V）依皮質靜脈逆流（CVR）**；**有 CVR → 出血/神經功能惡化風險升高**。[^1][^2]\n- **治療**：以**血管內栓塞**為主（常較放射手術有效）。[^1]\n- **SAH 風險最高位置**：**Ethmoidal（篩竇區，約 6%）**——引流靜脈缺竇保護、直接引流入軟腦膜/皮質靜脈，故出血風險高於其他（SSS 8%、middle fossa 4%、petrosal 9%、CCF 12%、transverse/sigmoid 60%）。[^3]\n\n",
+      "facts": [
+        {
+          "id": "dural-avf-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "已栓塞之硬腦膜靜脈竇（典型 transverse sinus）之新生血管"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "transverse-sigmoid sinus（~60%）"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "pulsatile tinnitus（搏動性耳鳴）"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "亦可出血/靜脈高壓。"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "Borden（I-III）、Cognard（I-V）依皮質靜脈逆流（CVR）"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f06",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "有 CVR → 出血/神經功能惡化風險升高"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "為主（常較放射手術有效）。"
+            }
+          ]
+        },
+        {
+          "id": "dural-avf-f08",
+          "sourceRefs": [
+            "3"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 6,
+              "quote": "——引流靜脈缺竇保護、直接引流入軟腦膜/皮質靜脈，故出血風險高於其他（SSS 8%、middle fossa 4%、petrosal 9%、CCF 12%、transverse/sigmoid 60%）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "官方 2017 詳解；Ref: Handbook of Cerebrovascular Disease and Neurointerventional Technique, Ch.15（Springer 2009）——dAVF 多為後天、好發橫竇-乙狀竇、症狀 pulsatile tinnitus、Borden/Cognard 依 CVR 分級、血管內栓塞為主。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "Gaillard F, et al. *Dural arteriovenous fistula*. Radiopaedia, rID-4233, DOI 10.53347/rID-4233——dAVF 為硬腦膜血管之 AV 分流、以出血/靜脈高壓表現；**通常後天、多 idiopathic**、documented 者源自**已栓塞硬腦膜竇（典型 transverse sinus）之新生血管**（外傷/開顱/prothrombotic）；症狀含 pulsatile tinnitus；Borden/Cognard 依 CVR 分級。"
+        },
+        "3": {
+          "kind": "existing-footnote",
+          "locator": "3",
+          "citation": "官方 2020 詳解；Ref: Practical Neuroangiography, 2nd ed., p.386（題目所引）——dAVF 位置分布：SSS 8%、Ethmoidal 6%、Middle fossa 4%、Petrosal 9%、CCF 12%、Transverse/Sigmoid 60%；**Ethmoidal dAVF 引流靜脈缺竇保護、SAH 風險最高**。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 8,
+          "covered": 8,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**本質**：**後天性**（多 idiopathic；常源自**已栓塞之硬腦膜靜脈竇（典型 transverse sinus）之新生血管**、外傷、開顱後；prothrombotic 體質相關），**非先天**。",
+        "**位置**：最常見 **transverse-sigmoid sinus（~60%）**。",
+        "**症狀**：最常見 **pulsatile tinnitus（搏動性耳鳴）**；亦可出血/靜脈高壓。",
+        "**分類/危險**：**Borden（I-III）、Cognard（I-V）依皮質靜脈逆流（CVR）**；**有 CVR → 出血/神經功能惡化風險升高**。",
+        "**治療**：以**血管內栓塞**為主（常較放射手術有效）。",
+        "**SAH 風險最高位置**：**Ethmoidal（篩竇區，約 6%）**——引流靜脈缺竇保護、直接引流入軟腦膜/皮質靜脈，故出血風險高於其他（SSS 8%、middle fossa 4%、petrosal 9%、CCF 12%、transverse/sigmoid 60%）。"
+      ],
+      "coverageEvidenceSha256": "5bdab4511b9c3211c7087f728283e259ad91dcea0e8bcb8922a6ee27e41dc38d"
+    },
+    {
+      "slug": "dural-venous-sinus-thrombosis",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **背景/危險因子**：好發年輕女性;**懷孕/產褥、口服避孕藥、血栓體質、感染（乳突炎/鼻竇炎→sigmoid/海綿竇）、脫水、惡性腫瘤、自體免疫**;約 1/4–1/3 idiopathic。[^2]\n- **影像策略**：**MRI＋MRV（或 CTV）為診斷主力**;同時看「**直接徵象（竇內血栓）＋間接徵象（靜脈梗塞/出血/水腫）**」。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "dural-venous-sinus-thrombosis-f01",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "dural-venous-sinus-thrombosis-f02",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "懷孕/產褥、口服避孕藥、血栓體質、感染（乳突炎/鼻竇炎→sigmoid/海綿竇）、脫水、惡性腫瘤、自體免疫"
+            }
+          ]
+        },
+        {
+          "id": "dural-venous-sinus-thrombosis-f03",
+          "sourceRefs": [
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "約 1/4–1/3 idiopathic。"
+            }
+          ]
+        },
+        {
+          "id": "dural-venous-sinus-thrombosis-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "MRI＋MRV（或 CTV）為診斷主力"
+            }
+          ]
+        },
+        {
+          "id": "dural-venous-sinus-thrombosis-f05",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "直接徵象（竇內血栓）＋間接徵象（靜脈梗塞/出血/水腫）"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "*Imaging of Cerebral Venous Thrombosis*（PMC9410175,**開放全文已讀** accessed 2026-06-28）：dense cord/clot sign 敏感 ~64%/特異 ~97%、第一週;empty delta 5 天–2 月;血栓訊號隨血腫演變（急性 T1 等/T2 低、亞急性 T1/T2 高、慢性不定）;T2*/SWI 對皮質靜脈最敏感;DWI 特異高於 T2;CTV/MRV ~82%/92%;靜脈梗塞跨動脈分布、~2/3 出血、位置依竇（SSS 額頂、lateral 顳枕、deep 視丘）;陷阱含 lateral sinus hypoplasia、arachnoid granulation、慢流。另參標準綜述 Leach JL, et al. *Imaging of Cerebral Venous Thrombosis: Current Techniques, Spectrum of Findings, and Diagnostic Pitfalls*. RadioGraphics 2006;26 Suppl 1:S19-S41. DOI 10.1148/rg.26si055174（pre-2022,未讀全文）。"
+        },
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Cerebral venous thrombosis*. Radiopaedia.org（實際查證 accessed 2026-06-17）：顯影見 **empty delta sign**;急性血栓 **T1 等、T2 低訊號（可模擬 flow void）**,亞急性 T1 高;**「the clot may demonstrate diffusion restriction」（非全部）**;鑑別含 **hypoplastic venous sinuses**（低流變異模擬血栓）。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 5,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**背景/危險因子**：好發年輕女性;**懷孕/產褥、口服避孕藥、血栓體質、感染（乳突炎/鼻竇炎→sigmoid/海綿竇）、脫水、惡性腫瘤、自體免疫**;約 1/4–1/3 idiopathic。",
+        "**影像策略**：**MRI＋MRV（或 CTV）為診斷主力**;同時看「**直接徵象（竇內血栓）＋間接徵象（靜脈梗塞/出血/水腫）**」。"
+      ],
+      "coverageEvidenceSha256": "09cc24681ef1c40eda8a5b0e590fcfab827fcbe1f9c61e2f89d0419b15498833"
+    },
+    {
+      "slug": "eac-exostoses",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **別名即答案**：外耳道 exostoses 俗稱「surfer's ear（衝浪者耳）」，肇因於冷水反覆暴露引起的骨性外耳道反應性骨增生。[^1][^2]\n- **典型影像**：顳骨 CT 上幾乎皆為**兩側**、寬基底或環繞性的骨性外耳道骨增生，可造成不等程度外耳道狹窄。[^1][^2]\n- **關鍵鑑別**：與 osteoma 對比——exostoses 多發、兩側、寬基底；osteoma 為單側、單發、有蒂（pedunculated）。[^1][^2]\n\n",
+      "facts": [
+        {
+          "id": "eac-exostoses-f01",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "：外耳道 exostoses 俗稱「surfer's ear（衝浪者耳）」，肇因於冷水反覆暴露引起的骨性外耳道反應性骨增生。"
+            }
+          ]
+        },
+        {
+          "id": "eac-exostoses-f02",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "、寬基底或環繞性的骨性外耳道骨增生，可造成不等程度外耳道狹窄。"
+            }
+          ]
+        },
+        {
+          "id": "eac-exostoses-f03",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "：與 osteoma 對比——exostoses 多發、兩側、寬基底；"
+            }
+          ]
+        },
+        {
+          "id": "eac-exostoses-f04",
+          "sourceRefs": [
+            "1",
+            "2"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "osteoma 為單側、單發、有蒂（pedunculated）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*External auditory canal exostoses*. Radiopaedia.org（rID 4054，DOI 10.53347/rID-4054，實際查證 accessed 2026-07-06）：同義詞包含「Surfer's ear」；影像為寬基底或較局部之環繞性骨性外耳道骨增生，many cases 為兩側；鑑別診斷 osteoma 為單側局部有蒂骨增生。"
+        },
+        "2": {
+          "kind": "existing-footnote",
+          "locator": "2",
+          "citation": "**Tier 1** *EAC Exostoses*. STATdx（Head & Neck, Diagnosis）Elsevier（經奇美 proxy 實際查證 accessed 2026-07-06）：Terminology 為冷水暴露之骨性外耳道反應；顳骨 CT 顯示兩側病灶（lesions in all cases）、寬基底或較局部環繞性骨性外耳道骨增生、外耳道狹窄程度不一。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 4,
+          "covered": 4,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**別名即答案**：外耳道 exostoses 俗稱「surfer's ear（衝浪者耳）」，肇因於冷水反覆暴露引起的骨性外耳道反應性骨增生。",
+        "**典型影像**：顳骨 CT 上幾乎皆為**兩側**、寬基底或環繞性的骨性外耳道骨增生，可造成不等程度外耳道狹窄。",
+        "**關鍵鑑別**：與 osteoma 對比——exostoses 多發、兩側、寬基底；osteoma 為單側、單發、有蒂（pedunculated）。"
+      ],
+      "coverageEvidenceSha256": "2b9907083faad500f6a34d3c60744555f60cdc21dda3447095241577283e7eff"
+    },
+    {
+      "slug": "empty-sella",
+      "sourceStatus": "existing-sufficient",
+      "status": "verified",
+      "rewrittenSummary": "## Summary\n- **機轉**：CSF 經**缺損/不全的 diaphragma sellae（鞍膈）**疝入蝶鞍（見於約 20% 人口）;故「因 **dorsum sellae（鞍背）**缺損所致」**錯誤**＝題目正解（2016-172 正解 D）。[^1]\n- **MRI 訊號同 CSF**：垂體被壓扁、CSF 填充鞍內(option C 對)。[^1]\n- **重點**: **骨性蝶鞍可擴大/重塑**(option A 對)。[^1]\n- **垂體仍可正常強化**：被壓的垂體組織仍正常強化(option B 對)。[^1]\n- **重點**: 多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。[^1]\n\n",
+      "facts": [
+        {
+          "id": "empty-sella-f01",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "缺損/不全的 diaphragma sellae（鞍膈）"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "＝題目正解（2016-172 正解 D）。"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：垂體被壓扁、CSF 填充鞍內(option C 對)。"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "(option A 對)。"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "：被壓的垂體組織仍正常強化(option B 對)。"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "多為偶見、無臨床意義;"
+            }
+          ]
+        },
+        {
+          "id": "empty-sella-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 5,
+              "quote": "部分與 idiopathic intracranial hypertension 相關。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Empty sella*. Radiopaedia.org（實際查證 accessed 2026-06-17）：CSF 經「**deficient diaphragma sellae**」疝入蝶鞍（~20% 人口）;垂體被壓、CSF 填充;骨性蝶鞍可至少略擴大;多為偶見無臨床意義。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 7,
+          "researchNeeded": 0,
+          "manualReview": 0
+        }
+      },
+      "summaryBulletEvidence": [
+        "**機轉**：CSF 經**缺損/不全的 diaphragma sellae（鞍膈）**疝入蝶鞍（見於約 20% 人口）;故「因 **dorsum sellae（鞍背）**缺損所致」**錯誤**＝題目正解（2016-172 正解 D）。",
+        "**MRI 訊號同 CSF**：垂體被壓扁、CSF 填充鞍內(option C 對)。",
+        "**重點**: **骨性蝶鞍可擴大/重塑**(option A 對)。",
+        "**垂體仍可正常強化**：被壓的垂體組織仍正常強化(option B 對)。",
+        "**重點**: 多為偶見、無臨床意義;部分與 idiopathic intracranial hypertension 相關。"
+      ],
+      "coverageEvidenceSha256": "8d37e05d0e815e47fdea4577702a094901e8ce0be7879d600c7dfe11b6d43f53"
+    },
+    {
+      "slug": "ependymoma",
+      "sourceStatus": "conflict",
+      "status": "manual-review",
+      "rewrittenSummary": "## Summary\n- **位置**：兒童多為**第四腦室底**起源；經 **foramen of Magendie → cisterna magna**、foramina of Luschka → CPA 延伸（\"plastic\" 可塑性）。[^1]\n- **訊號**：T2 高訊號、T1 低訊號、不均；**常鈣化(~50%)/出血 → SWI blooming foci**；注射後**不均勻（強/弱不一）強化**。[^1]\n- **重點**: 與本題相符：第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、strong（部分 minimal）enhancement → **ependymoma**（2016-088 正解 C）。[^1]\n- **重點**: 鑑別：medulloblastoma（中線、DWI 受限、兒童）、choroid plexus papilloma（強化均勻、好發側腦室/兒童）。[^1]\n\n",
+      "facts": [
+        {
+          "id": "ependymoma-f01",
+          "sourceRefs": [],
+          "disposition": "manual-review",
+          "coverage": null
+        },
+        {
+          "id": "ependymoma-f02",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 1,
+              "quote": "、foramina of Luschka → CPA 延伸（\"plastic\" 可塑性）。"
+            }
+          ]
+        },
+        {
+          "id": "ependymoma-f03",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "：T2 高訊號、T1 低訊號、不均；"
+            }
+          ]
+        },
+        {
+          "id": "ependymoma-f04",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "常鈣化(~50%)/出血 → SWI blooming foci"
+            }
+          ]
+        },
+        {
+          "id": "ependymoma-f05",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 2,
+              "quote": "不均勻（強/弱不一）強化"
+            }
+          ]
+        },
+        {
+          "id": "ependymoma-f06",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 3,
+              "quote": "與本題相符：第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、strong（部分 minimal）enhancement →"
+            }
+          ]
+        },
+        {
+          "id": "ependymoma-f07",
+          "sourceRefs": [
+            "1"
+          ],
+          "disposition": "covered",
+          "coverage": [
+            {
+              "bulletIndex": 4,
+              "quote": "鑑別：medulloblastoma（中線、DWI 受限、兒童）、choroid plexus papilloma（強化均勻、好發側腦室/兒童）。"
+            }
+          ]
+        }
+      ],
+      "sourceDefinitions": {
+        "1": {
+          "kind": "existing-footnote",
+          "locator": "1",
+          "citation": "*Posterior fossa ependymoma*. Radiopaedia.org（實際查證 accessed 2026-06-17）：為**最常見 ependymoma 型、兒童最多**、源自**第四腦室底**；經 **foramina of Luschka 與 Magendie 擠出 → \"plastic ependymoma\"**；**CT coarse calcification 常見(~50%)**、伴 necrosis/cystic/hemorrhage → 各模態皆異質、**不均勻強化**（實心強化至囊+壁結節）。鑑別 medulloblastoma/CPP。"
+        }
+      },
+      "newUnsupportedFacts": 0,
+      "validation": {
+        "hashMatches": true,
+        "losslessSummaryMatches": true,
+        "allSourceRefsDefined": true,
+        "structure": {
+          "errors": 0,
+          "codes": []
+        },
+        "footnotes": {
+          "errors": 0,
+          "codes": []
+        },
+        "factCoverage": {
+          "total": 7,
+          "covered": 6,
+          "researchNeeded": 0,
+          "manualReview": 1
+        }
+      },
+      "summaryBulletEvidence": [
+        "**位置**：兒童多為**第四腦室底**起源；經 **foramen of Magendie → cisterna magna**、foramina of Luschka → CPA 延伸（\"plastic\" 可塑性）。",
+        "**訊號**：T2 高訊號、T1 低訊號、不均；**常鈣化(~50%)/出血 → SWI blooming foci**；注射後**不均勻（強/弱不一）強化**。",
+        "**重點**: 與本題相符：第四腦室 mass 經 Magendie 延伸至 cisterna magna、SWI blooming、strong（部分 minimal）enhancement → **ependymoma**（2016-088 正解 C）。",
+        "**重點**: 鑑別：medulloblastoma（中線、DWI 受限、兒童）、choroid plexus papilloma（強化均勻、好發側腦室/兒童）。"
+      ],
+      "coverageEvidenceSha256": "8760934356ccd049787d1092de2998d5038e5726a8434007e3647482e49a03e0"
+    }
+  ],
+  "manualReviewFactIds": [
+    "cri-du-chat-syndrome-f04",
+    "dural-venous-sinus-thrombosis-f01",
+    "ependymoma-f01"
+  ],
+  "generatedManifest": "docs/reports/nr-summary-rewrite/phase2b/generated/scheduled-disease-03.json"
+}

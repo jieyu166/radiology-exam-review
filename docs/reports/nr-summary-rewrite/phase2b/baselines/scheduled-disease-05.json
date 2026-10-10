@@ -1,0 +1,972 @@
+{
+  "schemaVersion": 1,
+  "kind": "phase2-baseline-lock",
+  "batch": "scheduled-disease-05",
+  "scope": "NR",
+  "assignmentSha256": "b9dfbf5361392c03178928b591c09839fa7f6fc08e7c0072867657bc361a8c0e",
+  "notes": [
+    {
+      "slug": "hemichorea-hemiballism",
+      "path": "vault/concepts/hemichorea-hemiballism.md",
+      "type": "disease",
+      "originalSha256": "f6db399ea099894a330c0674993f59ed63df5b87b1d7ca9a7d4079cc5dd7a4c9",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **成因**：通常源自**糖尿病之非酮性高血糖（nonketotic hyperglycemia）**。[^1]\n- **分布**：**通常單側（unilateral）**，侵犯**尾核（caudate nucleus）與被殼（putamen）**（對側於症狀）。[^1]\n- **影像表現**：**非顯影CT呈高密度（hyperdense，非低密度）**；**T1WI呈高訊號（hyperintensity）**——CT高密度與T1高訊號並存為特徵。[^1]\n- **MR異常之成因（組織學）**：gemistocytes（肥胖性星形膠細胞）、microbleeds（微出血）、calcium（鈣質）、demyelination（脫髓鞘）、macrophages（巨噬細胞）等。[^1]\n- 相關：基底核T1縮短（T1高訊號）病因見 [[basal-ganglia-t1-shortening]]（NHH/hyperglycemia相關chorea-ballism為其一）。\n\n",
+      "factUnits": [
+        {
+          "id": "hemichorea-hemiballism-f01",
+          "text": "成因：通常源自糖尿病之非酮性高血糖（nonketotic hyperglycemia）。",
+          "sourceStatement": "- **成因**：通常源自**糖尿病之非酮性高血糖（nonketotic hyperglycemia）**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemichorea-hemiballism-f02",
+          "text": "分布：通常單側（unilateral），侵犯尾核（caudate nucleus）與被殼（putamen）（對側於症狀）。",
+          "sourceStatement": "- **分布**：**通常單側（unilateral）**，侵犯**尾核（caudate nucleus）與被殼（putamen）**（對側於症狀）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemichorea-hemiballism-f03",
+          "text": "影像表現：非顯影CT呈高密度（hyperdense，非低密度）；",
+          "sourceStatement": "- **影像表現**：**非顯影CT呈高密度（hyperdense，非低密度）**；**T1WI呈高訊號（hyperintensity）**——CT高密度與T1高訊號並存為特徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemichorea-hemiballism-f04",
+          "text": "T1WI呈高訊號（hyperintensity）——CT高密度與T1高訊號並存為特徵。",
+          "sourceStatement": "- **影像表現**：**非顯影CT呈高密度（hyperdense，非低密度）**；**T1WI呈高訊號（hyperintensity）**——CT高密度與T1高訊號並存為特徵。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemichorea-hemiballism-f05",
+          "text": "MR異常之成因（組織學）：gemistocytes（肥胖性星形膠細胞）、microbleeds（微出血）、calcium（鈣質）、demyelination（脫髓鞘）、macrophages（巨噬細胞）等。",
+          "sourceStatement": "- **MR異常之成因（組織學）**：gemistocytes（肥胖性星形膠細胞）、microbleeds（微出血）、calcium（鈣質）、demyelination（脫髓鞘）、macrophages（巨噬細胞）等。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemichorea-hemiballism-f06",
+          "text": "相關：基底核T1縮短（T1高訊號）病因見 [[basal-ganglia-t1-shortening]]（NHH/hyperglycemia相關chorea-ballism為其一）。",
+          "sourceStatement": "- 相關：基底核T1縮短（T1高訊號）病因見 [[basal-ganglia-t1-shortening]]（NHH/hyperglycemia相關chorea-ballism為其一）。",
+          "sourceRefs": []
+        }
+      ]
+    },
+    {
+      "slug": "hemimegalencephaly",
+      "path": "vault/concepts/hemimegalencephaly.md",
+      "type": "disease",
+      "originalSha256": "3dd8e52198935af6b45b647f1e9c6da1809df6ae4da2e863ad24650e6e1bc085",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：先天畸形，因**細胞組織結構與神經元移行缺陷(defect of cellular organization and neuronal migration)**，致一側大腦半球錯構瘤樣過度生長。[^1]\n- **半球腫大**：**一側大腦半球部分或全部腫大(enlargement of part or all of a hemisphere)**、皮質增厚、腦溝異常。[^1]\n- **髓鞘化**：**髓鞘化進展(progression of myelination)、且相對年齡呈『加速髓鞘化』**——受累白質於**T1呈增高訊號、CT值增高**（非減少）。[^1]\n- **本題陷阱**：「白質於T1呈訊號減低，因髓鞘化減少」為**錯誤**——實際為**加速髓鞘化致T1訊號增高**（另白質亦可增高訊號、異位神經元造成T1縮短）。[^1]\n- 其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。[^1]\n\n> [!note] 考點：關於hemimegalencephaly何者「不正確」？\n> **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "hemimegalencephaly-f01",
+          "text": "本質：先天畸形，因細胞組織結構與神經元移行缺陷(defect of cellular organization and neuronal migration)，致一側大腦半球錯構瘤樣過度生長。",
+          "sourceStatement": "- **本質**：先天畸形，因**細胞組織結構與神經元移行缺陷(defect of cellular organization and neuronal migration)**，致一側大腦半球錯構瘤樣過度生長。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f02",
+          "text": "半球腫大：一側大腦半球部分或全部腫大(enlargement of part or all of a hemisphere)、皮質增厚、腦溝異常。",
+          "sourceStatement": "- **半球腫大**：**一側大腦半球部分或全部腫大(enlargement of part or all of a hemisphere)**、皮質增厚、腦溝異常。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f03",
+          "text": "髓鞘化：髓鞘化進展(progression of myelination)、且相對年齡呈『加速髓鞘化』——受累白質於T1呈增高訊號、CT值增高（非減少）。",
+          "sourceStatement": "- **髓鞘化**：**髓鞘化進展(progression of myelination)、且相對年齡呈『加速髓鞘化』**——受累白質於**T1呈增高訊號、CT值增高**（非減少）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f04",
+          "text": "本題陷阱：「白質於T1呈訊號減低，因髓鞘化減少」為錯誤——實際為加速髓鞘化致T1訊號增高（另白質亦可增高訊號、異位神經元造成T1縮短）。",
+          "sourceStatement": "- **本題陷阱**：「白質於T1呈訊號減低，因髓鞘化減少」為**錯誤**——實際為**加速髓鞘化致T1訊號增高**（另白質亦可增高訊號、異位神經元造成T1縮短）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f05",
+          "text": "其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；",
+          "sourceStatement": "- 其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f06",
+          "text": "臨床常見難治性癲癇、發展遲緩、偏癱。",
+          "sourceStatement": "- 其他：增厚皮質、異位灰質(heterotopia)、同側腦室擴大；臨床常見難治性癲癇、發展遲緩、偏癱。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f07",
+          "text": "Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。",
+          "sourceStatement": "> **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hemimegalencephaly-f08",
+          "text": "細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。",
+          "sourceStatement": "> **Decreased signal of white matter on T1-weighted MR images caused by reduced myelination（D）**——實際為加速髓鞘化致T1訊號『增高』(increased T1 signal and CT values)。細胞組織結構與神經元移行缺陷(A對)、一側半球部分或全部腫大(B對)、髓鞘化進展(C對)皆為正確描述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hepatic-encephalopathy-manganese-deposition",
+      "path": "vault/concepts/hepatic-encephalopathy-manganese-deposition.md",
+      "type": "disease",
+      "originalSha256": "5b21ee9a184bca0186e1209823f328c6074fbf7c3629e5dabb28e38018c622b2",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **好發部位**：**globus pallidus（蒼白球）為主**，可及 **substantia nigra（黑質）、subthalamic region、中腦**，呈雙側對稱 T1WI 高訊號，**無需顯影劑**。[^1][^2]\n- **機轉**：**錳（manganese）主要經膽道排泄**；肝硬化/肝功能不良或門體分流使錳滯留、沉積於上述核團造成 T1 縮短；**total parenteral nutrition（TPN）**亦為另一沉積來源。[^1][^2]\n- **可逆性**：訊號異常於**肝移植後可隨時間消退/逆轉**（臨床退化一般被視為較難逆轉，但移植後恢復有報告）。[^1][^2]\n- **臨床關聯**：與肝性腦病變/acquired hepatocerebral degeneration 相關，惟**訊號程度與臨床嚴重度不一定平行**。[^2]\n- **金屬離子 T1↑ 鑑別（核心）**：**Manganese**（肝病/TPN，主 GP）vs **Gadolinium**（多次線性 Gd 對比劑後，典型**齒狀核 + GP**、即使 BBB 完整/腎功能正常仍可沉積）；此為「雙側基底核異常」系統性鑑別之一環。[^1][^3]\n- **非沉積物**：**Ammonia（氨）**為肝性腦病變主要神經毒素但**本身非造成 T1 高訊號之沉積物質**；**Magnesium（鎂）**亦非此類沉積物。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f01",
+          "text": "好發部位：globus pallidus（蒼白球）為主，可及 substantia nigra（黑質）、subthalamic region、中腦，呈雙側對稱 T1WI 高訊號，無需顯影劑。",
+          "sourceStatement": "- **好發部位**：**globus pallidus（蒼白球）為主**，可及 **substantia nigra（黑質）、subthalamic region、中腦**，呈雙側對稱 T1WI 高訊號，**無需顯影劑**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f02",
+          "text": "機轉：錳（manganese）主要經膽道排泄；",
+          "sourceStatement": "- **機轉**：**錳（manganese）主要經膽道排泄**；肝硬化/肝功能不良或門體分流使錳滯留、沉積於上述核團造成 T1 縮短；**total parenteral nutrition（TPN）**亦為另一沉積來源。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f03",
+          "text": "肝硬化/肝功能不良或門體分流使錳滯留、沉積於上述核團造成 T1 縮短；",
+          "sourceStatement": "- **機轉**：**錳（manganese）主要經膽道排泄**；肝硬化/肝功能不良或門體分流使錳滯留、沉積於上述核團造成 T1 縮短；**total parenteral nutrition（TPN）**亦為另一沉積來源。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f04",
+          "text": "total parenteral nutrition（TPN）亦為另一沉積來源。",
+          "sourceStatement": "- **機轉**：**錳（manganese）主要經膽道排泄**；肝硬化/肝功能不良或門體分流使錳滯留、沉積於上述核團造成 T1 縮短；**total parenteral nutrition（TPN）**亦為另一沉積來源。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f05",
+          "text": "可逆性：訊號異常於肝移植後可隨時間消退/逆轉（臨床退化一般被視為較難逆轉，但移植後恢復有報告）。",
+          "sourceStatement": "- **可逆性**：訊號異常於**肝移植後可隨時間消退/逆轉**（臨床退化一般被視為較難逆轉，但移植後恢復有報告）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f06",
+          "text": "臨床關聯：與肝性腦病變/acquired hepatocerebral degeneration 相關，惟訊號程度與臨床嚴重度不一定平行。",
+          "sourceStatement": "- **臨床關聯**：與肝性腦病變/acquired hepatocerebral degeneration 相關，惟**訊號程度與臨床嚴重度不一定平行**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f07",
+          "text": "金屬離子 T1↑ 鑑別（核心）：Manganese（肝病/TPN，主 GP）vs Gadolinium（多次線性 Gd 對比劑後，典型齒狀核 + GP、即使 BBB 完整/腎功能正常仍可沉積）；",
+          "sourceStatement": "- **金屬離子 T1↑ 鑑別（核心）**：**Manganese**（肝病/TPN，主 GP）vs **Gadolinium**（多次線性 Gd 對比劑後，典型**齒狀核 + GP**、即使 BBB 完整/腎功能正常仍可沉積）；此為「雙側基底核異常」系統性鑑別之一環。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f08",
+          "text": "此為「雙側基底核異常」系統性鑑別之一環。",
+          "sourceStatement": "- **金屬離子 T1↑ 鑑別（核心）**：**Manganese**（肝病/TPN，主 GP）vs **Gadolinium**（多次線性 Gd 對比劑後，典型**齒狀核 + GP**、即使 BBB 完整/腎功能正常仍可沉積）；此為「雙側基底核異常」系統性鑑別之一環。[^1][^3]",
+          "sourceRefs": [
+            "1",
+            "3"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f09",
+          "text": "非沉積物：Ammonia（氨）為肝性腦病變主要神經毒素但本身非造成 T1 高訊號之沉積物質；",
+          "sourceStatement": "- **非沉積物**：**Ammonia（氨）**為肝性腦病變主要神經毒素但**本身非造成 T1 高訊號之沉積物質**；**Magnesium（鎂）**亦非此類沉積物。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hepatic-encephalopathy-manganese-deposition-f10",
+          "text": "Magnesium（鎂）亦非此類沉積物。",
+          "sourceStatement": "- **非沉積物**：**Ammonia（氨）**為肝性腦病變主要神經毒素但**本身非造成 T1 高訊號之沉積物質**；**Magnesium（鎂）**亦非此類沉積物。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "herpes-simplex-encephalitis",
+      "path": "vault/concepts/herpes-simplex-encephalitis.md",
+      "type": "disease",
+      "originalSha256": "0b1325c1d6b5a8c16ebbc79b44554bdad0e8da118a935131548a95d9f42ba72f",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **典型分布：顳葉（尤其內側顳葉/邊緣系統）侵犯，且保留豆狀核**——此為 HSV 腦炎的診斷特徵性影像表現，區別於其他侵犯基底核灰質的病灶。[^1]\n- **好發部位延伸**：常同時侵犯島葉皮質（insular cortex）與扣帶回（cingulate gyrus），因病毒沿嗅覺/邊緣路徑擴散。\n- **影像表現**：T2/FLAIR 高訊號、常見不對稱侵犯（雖可雙側），急性期可合併出血（T1 高訊號、GRE/SWI 低訊號）及輕度腫脹/佔位效應；DWI 可呈瀰散受限。\n- **臨床急迫性**：HSV 腦炎為神經科急症，及早經驗性抗病毒治療（acyclovir）可顯著降低死亡率與神經學後遺症，故影像高度懷疑時應立即通報臨床。\n\n",
+      "factUnits": [
+        {
+          "id": "herpes-simplex-encephalitis-f01",
+          "text": "典型分布：顳葉（尤其內側顳葉/邊緣系統）侵犯，且保留豆狀核——此為 HSV 腦炎的診斷特徵性影像表現，區別於其他侵犯基底核灰質的病灶。",
+          "sourceStatement": "- **典型分布：顳葉（尤其內側顳葉/邊緣系統）侵犯，且保留豆狀核**——此為 HSV 腦炎的診斷特徵性影像表現，區別於其他侵犯基底核灰質的病灶。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "herpes-simplex-encephalitis-f02",
+          "text": "好發部位延伸：常同時侵犯島葉皮質（insular cortex）與扣帶回（cingulate gyrus），因病毒沿嗅覺/邊緣路徑擴散。",
+          "sourceStatement": "- **好發部位延伸**：常同時侵犯島葉皮質（insular cortex）與扣帶回（cingulate gyrus），因病毒沿嗅覺/邊緣路徑擴散。",
+          "sourceRefs": []
+        },
+        {
+          "id": "herpes-simplex-encephalitis-f03",
+          "text": "影像表現：T2/FLAIR 高訊號、常見不對稱侵犯（雖可雙側），急性期可合併出血（T1 高訊號、GRE/SWI 低訊號）及輕度腫脹/佔位效應；",
+          "sourceStatement": "- **影像表現**：T2/FLAIR 高訊號、常見不對稱侵犯（雖可雙側），急性期可合併出血（T1 高訊號、GRE/SWI 低訊號）及輕度腫脹/佔位效應；DWI 可呈瀰散受限。",
+          "sourceRefs": []
+        },
+        {
+          "id": "herpes-simplex-encephalitis-f04",
+          "text": "DWI 可呈瀰散受限。",
+          "sourceStatement": "- **影像表現**：T2/FLAIR 高訊號、常見不對稱侵犯（雖可雙側），急性期可合併出血（T1 高訊號、GRE/SWI 低訊號）及輕度腫脹/佔位效應；DWI 可呈瀰散受限。",
+          "sourceRefs": []
+        },
+        {
+          "id": "herpes-simplex-encephalitis-f05",
+          "text": "臨床急迫性：HSV 腦炎為神經科急症，及早經驗性抗病毒治療（acyclovir）可顯著降低死亡率與神經學後遺症，故影像高度懷疑時應立即通報臨床。",
+          "sourceStatement": "- **臨床急迫性**：HSV 腦炎為神經科急症，及早經驗性抗病毒治療（acyclovir）可顯著降低死亡率與神經學後遺症，故影像高度懷疑時應立即通報臨床。",
+          "sourceRefs": []
+        }
+      ]
+    },
+    {
+      "slug": "hypertensive-hemorrhage",
+      "path": "vault/concepts/hypertensive-hemorrhage.md",
+      "type": "disease",
+      "originalSha256": "9e0ec252f29312819e57f737d22929e97158fa72dedaf32ddf87248a853a2775",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n\n### 好發部位與機轉（穿通枝病變）\n- **最常見位置**：**putamen / external capsule（基底節，lenticulostriate 供應區）約 80%**（2016-143 正解 A）。[^1]\n- **其他深部部位**：**pons（橋腦）~10%、cerebellum（小腦，多在齒狀核附近）~10%**，以及 **thalamus（視丘）**。這些都是**穿通小動脈（lenticulostriate、thalamoperforator、basilar perforator）供應區**。[^1][^2]\n- **機轉**：慢性高血壓造成穿通小動脈玻璃樣變性（lipohyalinosis）與 **Charcot-Bouchard 微動脈瘤**破裂；好發深部正源於這些終末穿通枝缺乏側枝、直接承受高壓。[^1][^2]\n- **判讀分流要點**：**深部（基底節／視丘／橋腦／小腦）＝偏高血壓**；**腦葉（lobar）＝在老年人偏 cerebral amyloid angiopathy（CAA）**，非高血壓。深部 vs 腦葉是最重要的病因分流。[^2][^5]\n\n### CT 演化（判讀時間軸）\n- **急性期高密度**：新鮮血腫因血球比容與血紅素濃縮呈高密度，約 **50–80 HU（文獻 40–100 HU 區間）**。[^4]\n- **密度衰退**：血腫衰減約 **0.7–1.5 HU/天**（約 ~1.5 HU/天），由周邊向中心溶解。[^4]\n- **等密度／低密度時程**：約 **1–2 週**變為與腦實質等密度（isodense，此時易漏看，須看 mass effect 與周邊水腫線索）；約 **2–4 週後至 1–2 個月**漸成低密度，最終趨近 CSF。[^4]\n- **周圍水腫**：血腫周邊低密度血管源性水腫於數天內達高峰，加重佔位效應。[^4]\n- **IVH（腦室內出血延伸）**：基底節／視丘出血易破入腦室，是 ICH score 計分項，亦增加水腦風險。[^3]\n- **佔位效應評估**：須評 **midline shift（中線偏移）、腦室受壓、腦溝消失、herniation（subfalcine／uncal／經天幕／扁桃體疝）**；後顱窩（小腦／橋腦）出血特別注意第四腦室受壓、阻塞性水腦與腦幹壓迫。[^4]\n\n### MRI 出血分期（訊號演化）\n血紅素演化序列：oxyHb → deoxyHb → 細胞內 metHb → 細胞外 metHb → ferritin/hemosiderin。[^6]\n- **Hyperacute（<24h，細胞內 oxyHb）**：T1 等／略低、**T2 高**。[^6]\n- **Acute（1–3 天，細胞內 deoxyHb）**：T1 等、**T2 低**（磁化率效應）。[^6]\n- **Early subacute（3–7 天，細胞內 metHb）**：**T1 高**、T2 低。[^6]\n- **Late subacute（約 1–2 週至數週，細胞外 metHb）**：**T1 高、T2 高**。[^6]\n- **Chronic（週至月，ferritin／hemosiderin）**：T1 低、**T2 低**；**含鐵血黃素邊緣於 T2*/GRE/SWI 呈持久低訊號（blooming）**，可永久殘留。[^6]\n\n### 微出血（CMB）分布——病因定位\n- **深部 CMB（基底節、視丘、腦幹）＝高血壓性小血管病**；**嚴格腦葉分布 CMB＝CAA**；混合型則兩者皆可能。[^5]\n- 「probable CAA」（Boston criteria 2.0）以**無深部出血性病灶**為前提；深部出血或 CMB 偏向高血壓。[^5]\n\n### 血腫擴大預測與嚴重度評分\n- **Spot sign**：CTA 上血腫內**對比劑外滲**的局灶高衰減點（與鄰近血管不連續），是**血腫擴大與不良預後的強力預測因子**（OR 約 3–5），亦與 30 天死亡率相關。[^7]\n- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]\n\n### DDx（須排除續發病因）\n- **年輕患者或非典型部位（腦葉、皮質下、非穿通枝區）須積極找續發病因**；CTA 無明確巨血管病因時，建議所有 ICH 病人做 MRI。[^2]\n- 須考慮：**出血性轉移／腫瘤內出血**（多病灶、不成比例水腫、結節強化）、**AVM／動脈瘤**（異常血管、SAH 合併）、**海綿狀血管瘤（cavernoma，\"爆米花\"狀、T2* blooming）**、**CAA（老年腦葉出血＋皮質 CMB／表淺含鐵血黃素沉積）**、**靜脈梗塞／腦靜脈竇栓塞（非動脈分布、合併靜脈竇異常）**、以及 dural AVF、夾層、moyamoya、血管炎、RCVS、感染性心內膜炎等。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "hypertensive-hemorrhage-f01",
+          "text": "最常見位置：putamen / external capsule（基底節，lenticulostriate 供應區）約 80%（2016-143 正解 A）。",
+          "sourceStatement": "- **最常見位置**：**putamen / external capsule（基底節，lenticulostriate 供應區）約 80%**（2016-143 正解 A）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f02",
+          "text": "其他深部部位：pons（橋腦）~10%、cerebellum（小腦，多在齒狀核附近）~10%，以及 thalamus（視丘）。",
+          "sourceStatement": "- **其他深部部位**：**pons（橋腦）~10%、cerebellum（小腦，多在齒狀核附近）~10%**，以及 **thalamus（視丘）**。這些都是**穿通小動脈（lenticulostriate、thalamoperforator、basilar perforator）供應區**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f03",
+          "text": "這些都是穿通小動脈（lenticulostriate、thalamoperforator、basilar perforator）供應區。",
+          "sourceStatement": "- **其他深部部位**：**pons（橋腦）~10%、cerebellum（小腦，多在齒狀核附近）~10%**，以及 **thalamus（視丘）**。這些都是**穿通小動脈（lenticulostriate、thalamoperforator、basilar perforator）供應區**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f04",
+          "text": "機轉：慢性高血壓造成穿通小動脈玻璃樣變性（lipohyalinosis）與 Charcot-Bouchard 微動脈瘤破裂；",
+          "sourceStatement": "- **機轉**：慢性高血壓造成穿通小動脈玻璃樣變性（lipohyalinosis）與 **Charcot-Bouchard 微動脈瘤**破裂；好發深部正源於這些終末穿通枝缺乏側枝、直接承受高壓。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f05",
+          "text": "好發深部正源於這些終末穿通枝缺乏側枝、直接承受高壓。",
+          "sourceStatement": "- **機轉**：慢性高血壓造成穿通小動脈玻璃樣變性（lipohyalinosis）與 **Charcot-Bouchard 微動脈瘤**破裂；好發深部正源於這些終末穿通枝缺乏側枝、直接承受高壓。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f06",
+          "text": "判讀分流要點：深部（基底節／視丘／橋腦／小腦）＝偏高血壓；",
+          "sourceStatement": "- **判讀分流要點**：**深部（基底節／視丘／橋腦／小腦）＝偏高血壓**；**腦葉（lobar）＝在老年人偏 cerebral amyloid angiopathy（CAA）**，非高血壓。深部 vs 腦葉是最重要的病因分流。[^2][^5]",
+          "sourceRefs": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f07",
+          "text": "腦葉（lobar）＝在老年人偏 cerebral amyloid angiopathy（CAA），非高血壓。",
+          "sourceStatement": "- **判讀分流要點**：**深部（基底節／視丘／橋腦／小腦）＝偏高血壓**；**腦葉（lobar）＝在老年人偏 cerebral amyloid angiopathy（CAA）**，非高血壓。深部 vs 腦葉是最重要的病因分流。[^2][^5]",
+          "sourceRefs": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f08",
+          "text": "深部 vs 腦葉是最重要的病因分流。",
+          "sourceStatement": "- **判讀分流要點**：**深部（基底節／視丘／橋腦／小腦）＝偏高血壓**；**腦葉（lobar）＝在老年人偏 cerebral amyloid angiopathy（CAA）**，非高血壓。深部 vs 腦葉是最重要的病因分流。[^2][^5]",
+          "sourceRefs": [
+            "2",
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f09",
+          "text": "急性期高密度：新鮮血腫因血球比容與血紅素濃縮呈高密度，約 50–80 HU（文獻 40–100 HU 區間）。",
+          "sourceStatement": "- **急性期高密度**：新鮮血腫因血球比容與血紅素濃縮呈高密度，約 **50–80 HU（文獻 40–100 HU 區間）**。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f10",
+          "text": "密度衰退：血腫衰減約 0.7–1.5 HU/天（約 ~1.5 HU/天），由周邊向中心溶解。",
+          "sourceStatement": "- **密度衰退**：血腫衰減約 **0.7–1.5 HU/天**（約 ~1.5 HU/天），由周邊向中心溶解。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f11",
+          "text": "等密度／低密度時程：約 1–2 週變為與腦實質等密度（isodense，此時易漏看，須看 mass effect 與周邊水腫線索）；",
+          "sourceStatement": "- **等密度／低密度時程**：約 **1–2 週**變為與腦實質等密度（isodense，此時易漏看，須看 mass effect 與周邊水腫線索）；約 **2–4 週後至 1–2 個月**漸成低密度，最終趨近 CSF。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f12",
+          "text": "約 2–4 週後至 1–2 個月漸成低密度，最終趨近 CSF。",
+          "sourceStatement": "- **等密度／低密度時程**：約 **1–2 週**變為與腦實質等密度（isodense，此時易漏看，須看 mass effect 與周邊水腫線索）；約 **2–4 週後至 1–2 個月**漸成低密度，最終趨近 CSF。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f13",
+          "text": "周圍水腫：血腫周邊低密度血管源性水腫於數天內達高峰，加重佔位效應。",
+          "sourceStatement": "- **周圍水腫**：血腫周邊低密度血管源性水腫於數天內達高峰，加重佔位效應。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f14",
+          "text": "IVH（腦室內出血延伸）：基底節／視丘出血易破入腦室，是 ICH score 計分項，亦增加水腦風險。",
+          "sourceStatement": "- **IVH（腦室內出血延伸）**：基底節／視丘出血易破入腦室，是 ICH score 計分項，亦增加水腦風險。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f15",
+          "text": "佔位效應評估：須評 midline shift（中線偏移）、腦室受壓、腦溝消失、herniation（subfalcine／uncal／經天幕／扁桃體疝）；",
+          "sourceStatement": "- **佔位效應評估**：須評 **midline shift（中線偏移）、腦室受壓、腦溝消失、herniation（subfalcine／uncal／經天幕／扁桃體疝）**；後顱窩（小腦／橋腦）出血特別注意第四腦室受壓、阻塞性水腦與腦幹壓迫。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f16",
+          "text": "後顱窩（小腦／橋腦）出血特別注意第四腦室受壓、阻塞性水腦與腦幹壓迫。",
+          "sourceStatement": "- **佔位效應評估**：須評 **midline shift（中線偏移）、腦室受壓、腦溝消失、herniation（subfalcine／uncal／經天幕／扁桃體疝）**；後顱窩（小腦／橋腦）出血特別注意第四腦室受壓、阻塞性水腦與腦幹壓迫。[^4]",
+          "sourceRefs": [
+            "4"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f17",
+          "text": "血紅素演化序列：oxyHb → deoxyHb → 細胞內 metHb → 細胞外 metHb → ferritin/hemosiderin。",
+          "sourceStatement": "血紅素演化序列：oxyHb → deoxyHb → 細胞內 metHb → 細胞外 metHb → ferritin/hemosiderin。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f18",
+          "text": "Hyperacute（<24h，細胞內 oxyHb）：T1 等／略低、T2 高。",
+          "sourceStatement": "- **Hyperacute（<24h，細胞內 oxyHb）**：T1 等／略低、**T2 高**。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f19",
+          "text": "Acute（1–3 天，細胞內 deoxyHb）：T1 等、T2 低（磁化率效應）。",
+          "sourceStatement": "- **Acute（1–3 天，細胞內 deoxyHb）**：T1 等、**T2 低**（磁化率效應）。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f20",
+          "text": "Early subacute（3–7 天，細胞內 metHb）：T1 高、T2 低。",
+          "sourceStatement": "- **Early subacute（3–7 天，細胞內 metHb）**：**T1 高**、T2 低。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f21",
+          "text": "Late subacute（約 1–2 週至數週，細胞外 metHb）：T1 高、T2 高。",
+          "sourceStatement": "- **Late subacute（約 1–2 週至數週，細胞外 metHb）**：**T1 高、T2 高**。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f22",
+          "text": "Chronic（週至月，ferritin／hemosiderin）：T1 低、T2 低；",
+          "sourceStatement": "- **Chronic（週至月，ferritin／hemosiderin）**：T1 低、**T2 低**；**含鐵血黃素邊緣於 T2*/GRE/SWI 呈持久低訊號（blooming）**，可永久殘留。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f23",
+          "text": "含鐵血黃素邊緣於 T2*/GRE/SWI 呈持久低訊號（blooming），可永久殘留。",
+          "sourceStatement": "- **Chronic（週至月，ferritin／hemosiderin）**：T1 低、**T2 低**；**含鐵血黃素邊緣於 T2*/GRE/SWI 呈持久低訊號（blooming）**，可永久殘留。[^6]",
+          "sourceRefs": [
+            "6"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f24",
+          "text": "深部 CMB（基底節、視丘、腦幹）＝高血壓性小血管病；",
+          "sourceStatement": "- **深部 CMB（基底節、視丘、腦幹）＝高血壓性小血管病**；**嚴格腦葉分布 CMB＝CAA**；混合型則兩者皆可能。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f25",
+          "text": "嚴格腦葉分布 CMB＝CAA；",
+          "sourceStatement": "- **深部 CMB（基底節、視丘、腦幹）＝高血壓性小血管病**；**嚴格腦葉分布 CMB＝CAA**；混合型則兩者皆可能。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f26",
+          "text": "混合型則兩者皆可能。",
+          "sourceStatement": "- **深部 CMB（基底節、視丘、腦幹）＝高血壓性小血管病**；**嚴格腦葉分布 CMB＝CAA**；混合型則兩者皆可能。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f27",
+          "text": "「probable CAA」（Boston criteria 2.0）以無深部出血性病灶為前提；",
+          "sourceStatement": "- 「probable CAA」（Boston criteria 2.0）以**無深部出血性病灶**為前提；深部出血或 CMB 偏向高血壓。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f28",
+          "text": "深部出血或 CMB 偏向高血壓。",
+          "sourceStatement": "- 「probable CAA」（Boston criteria 2.0）以**無深部出血性病灶**為前提；深部出血或 CMB 偏向高血壓。[^5]",
+          "sourceRefs": [
+            "5"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f29",
+          "text": "Spot sign：CTA 上血腫內對比劑外滲的局灶高衰減點（與鄰近血管不連續），是血腫擴大與不良預後的強力預測因子（OR 約 3–5），亦與 30 天死亡率相關。",
+          "sourceStatement": "- **Spot sign**：CTA 上血腫內**對比劑外滲**的局灶高衰減點（與鄰近血管不連續），是**血腫擴大與不良預後的強力預測因子**（OR 約 3–5），亦與 30 天死亡率相關。[^7]",
+          "sourceRefs": [
+            "7"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f30",
+          "text": "ICH score（預測 30 天死亡率，0–6 分）：GCS 3–4 為 2 分／5–12 為 1 分；",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f31",
+          "text": "ICH 體積 ≥30 cm³ 為 1 分；",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f32",
+          "text": "IVH 1 分；",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f33",
+          "text": "幕下（infratentorial）來源 1 分；",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f34",
+          "text": "年齡 ≥80 歲 1 分。",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f35",
+          "text": "分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。",
+          "sourceStatement": "- **ICH score**（預測 30 天死亡率，0–6 分）：**GCS 3–4 為 2 分／5–12 為 1 分；ICH 體積 ≥30 cm³ 為 1 分；IVH 1 分；幕下（infratentorial）來源 1 分；年齡 ≥80 歲 1 分**。分數越高死亡率越高（如 0 分約 0%、3 分約 72%、5–6 分接近 100%）。[^3]",
+          "sourceRefs": [
+            "3"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f36",
+          "text": "年輕患者或非典型部位（腦葉、皮質下、非穿通枝區）須積極找續發病因；",
+          "sourceStatement": "- **年輕患者或非典型部位（腦葉、皮質下、非穿通枝區）須積極找續發病因**；CTA 無明確巨血管病因時，建議所有 ICH 病人做 MRI。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f37",
+          "text": "CTA 無明確巨血管病因時，建議所有 ICH 病人做 MRI。",
+          "sourceStatement": "- **年輕患者或非典型部位（腦葉、皮質下、非穿通枝區）須積極找續發病因**；CTA 無明確巨血管病因時，建議所有 ICH 病人做 MRI。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "hypertensive-hemorrhage-f38",
+          "text": "須考慮：出血性轉移／腫瘤內出血（多病灶、不成比例水腫、結節強化）、AVM／動脈瘤（異常血管、SAH 合併）、海綿狀血管瘤（cavernoma，\"爆米花\"狀、T2* blooming）、CAA（老年腦葉出血＋皮質 CMB／表淺含鐵血黃素沉積）、靜脈梗塞／腦靜脈竇栓塞（非動脈分布、合併靜脈竇異常）、以及 dural AVF、夾層、moyamoya、血管炎、RCVS、感染性心內膜炎等。",
+          "sourceStatement": "- 須考慮：**出血性轉移／腫瘤內出血**（多病灶、不成比例水腫、結節強化）、**AVM／動脈瘤**（異常血管、SAH 合併）、**海綿狀血管瘤（cavernoma，\"爆米花\"狀、T2* blooming）**、**CAA（老年腦葉出血＋皮質 CMB／表淺含鐵血黃素沉積）**、**靜脈梗塞／腦靜脈竇栓塞（非動脈分布、合併靜脈竇異常）**、以及 dural AVF、夾層、moyamoya、血管炎、RCVS、感染性心內膜炎等。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hypothalamic-hamartoma",
+      "path": "vault/concepts/hypothalamic-hamartoma.md",
+      "type": "disease",
+      "originalSha256": "25ca046af13d409e98a05f5763cbd0f15507986a442a1ce7f242b6382e01c524",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：**非腫瘤性、先天性灰質異位**（tuber cinereum / diencephalic hamartoma），病理為**成熟但發育異常的神經節細胞組織**——非真性腫瘤，不會生長惡變。[^1][^2]\n- **位置**：與 **tuber cinereum 相連**、位於**乳頭體（mammillary bodies）與漏斗（infundibulum）之間**的下視丘腫塊。[^1]\n- **形態**：可為**無柄（sessile）或有柄（pedunculated，\"collar button\"）**，大小數 mm 至數 cm；大病灶可異質、含囊。[^1]\n- **臨床表現**：可造成 **gelastic seizures（大笑性癲癇）**與**中樞性性早熟（precocious puberty）**；常合併認知/神經精神共病。[^1]\n- **形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。[^1]\n- **顯影特徵（關鍵鑑別點）**：**注射對比劑後無強化（no enhancement）**——為與其他強化性下視丘腫塊（生殖細胞瘤、顱咽管瘤等）鑑別之核心。[^1][^2]\n\n",
+      "factUnits": [
+        {
+          "id": "hypothalamic-hamartoma-f01",
+          "text": "本質：非腫瘤性、先天性灰質異位（tuber cinereum / diencephalic hamartoma），病理為成熟但發育異常的神經節細胞組織——非真性腫瘤，不會生長惡變。",
+          "sourceStatement": "- **本質**：**非腫瘤性、先天性灰質異位**（tuber cinereum / diencephalic hamartoma），病理為**成熟但發育異常的神經節細胞組織**——非真性腫瘤，不會生長惡變。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f02",
+          "text": "位置：與 tuber cinereum 相連、位於乳頭體（mammillary bodies）與漏斗（infundibulum）之間的下視丘腫塊。",
+          "sourceStatement": "- **位置**：與 **tuber cinereum 相連**、位於**乳頭體（mammillary bodies）與漏斗（infundibulum）之間**的下視丘腫塊。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f03",
+          "text": "形態：可為無柄（sessile）或有柄（pedunculated，\"collar button\"），大小數 mm 至數 cm；",
+          "sourceStatement": "- **形態**：可為**無柄（sessile）或有柄（pedunculated，\"collar button\"）**，大小數 mm 至數 cm；大病灶可異質、含囊。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f04",
+          "text": "大病灶可異質、含囊。",
+          "sourceStatement": "- **形態**：可為**無柄（sessile）或有柄（pedunculated，\"collar button\"）**，大小數 mm 至數 cm；大病灶可異質、含囊。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f05",
+          "text": "臨床表現：可造成 gelastic seizures（大笑性癲癇）與中樞性性早熟（precocious puberty）；",
+          "sourceStatement": "- **臨床表現**：可造成 **gelastic seizures（大笑性癲癇）**與**中樞性性早熟（precocious puberty）**；常合併認知/神經精神共病。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f06",
+          "text": "常合併認知/神經精神共病。",
+          "sourceStatement": "- **臨床表現**：可造成 **gelastic seizures（大笑性癲癇）**與**中樞性性早熟（precocious puberty）**；常合併認知/神經精神共病。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f07",
+          "text": "形態-症狀相關：大、sessile → 癲癇；",
+          "sourceStatement": "- **形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f08",
+          "text": "小、pedunculated → 中樞性性早熟（CPP）；",
+          "sourceStatement": "- **形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f09",
+          "text": "CPP 兒童常身高偏高、體重過重、骨齡超前。",
+          "sourceStatement": "- **形態-症狀相關**：**大、sessile → 癲癇**；**小、pedunculated → 中樞性性早熟（CPP）**；CPP 兒童常身高偏高、體重過重、骨齡超前。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypothalamic-hamartoma-f10",
+          "text": "顯影特徵（關鍵鑑別點）：注射對比劑後無強化（no enhancement）——為與其他強化性下視丘腫塊（生殖細胞瘤、顱咽管瘤等）鑑別之核心。",
+          "sourceStatement": "- **顯影特徵（關鍵鑑別點）**：**注射對比劑後無強化（no enhancement）**——為與其他強化性下視丘腫塊（生殖細胞瘤、顱咽管瘤等）鑑別之核心。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hypoxic-ischemic-encephalopathy",
+      "path": "vault/concepts/hypoxic-ischemic-encephalopathy.md",
+      "type": "disease",
+      "originalSha256": "6c5adfa6e73d68072f4f04ba2c3edc851a0b5d96c94c6cf5d6b2b9057afb73c8",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **輕/部分缺氧**：影響 **watershed zones（分水嶺區、parasagittal 皮質/皮質下白質）**。[^1][^2]\n- **嚴重/全面缺氧**：影響**深部灰質（basal ganglia、thalami）、perirolandic 運動皮質、海馬、腦幹**（代謝活躍區）。[^1][^2]\n- **White cerebellum sign**：大腦瀰漫水腫/密度下降使**小腦（+腦幹）相對高密度**；**屬嚴重 HIE、預後差**（非預後好）。[^1]\n- **Delayed post-hypoxic leukoencephalopathy**：缺氧後數週，皮質下/深部白質**瀰漫 T2 延長**。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "hypoxic-ischemic-encephalopathy-f01",
+          "text": "輕/部分缺氧：影響 watershed zones（分水嶺區、parasagittal 皮質/皮質下白質）。",
+          "sourceStatement": "- **輕/部分缺氧**：影響 **watershed zones（分水嶺區、parasagittal 皮質/皮質下白質）**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypoxic-ischemic-encephalopathy-f02",
+          "text": "嚴重/全面缺氧：影響深部灰質（basal ganglia、thalami）、perirolandic 運動皮質、海馬、腦幹（代謝活躍區）。",
+          "sourceStatement": "- **嚴重/全面缺氧**：影響**深部灰質（basal ganglia、thalami）、perirolandic 運動皮質、海馬、腦幹**（代謝活躍區）。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "hypoxic-ischemic-encephalopathy-f03",
+          "text": "White cerebellum sign：大腦瀰漫水腫/密度下降使小腦（+腦幹）相對高密度；",
+          "sourceStatement": "- **White cerebellum sign**：大腦瀰漫水腫/密度下降使**小腦（+腦幹）相對高密度**；**屬嚴重 HIE、預後差**（非預後好）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypoxic-ischemic-encephalopathy-f04",
+          "text": "屬嚴重 HIE、預後差（非預後好）。",
+          "sourceStatement": "- **White cerebellum sign**：大腦瀰漫水腫/密度下降使**小腦（+腦幹）相對高密度**；**屬嚴重 HIE、預後差**（非預後好）。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "hypoxic-ischemic-encephalopathy-f05",
+          "text": "Delayed post-hypoxic leukoencephalopathy：缺氧後數週，皮質下/深部白質瀰漫 T2 延長。",
+          "sourceStatement": "- **Delayed post-hypoxic leukoencephalopathy**：缺氧後數週，皮質下/深部白質**瀰漫 T2 延長**。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "iatrogenic-femoral-pseudoaneurysm",
+      "path": "vault/concepts/iatrogenic-femoral-pseudoaneurysm.md",
+      "type": "disease",
+      "originalSha256": "0ebed6e14736778f01697a8c4f2db896ecd43d92e7ed863dc6f678b07451c96a",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **本質**：假性動脈瘤（false aneurysm）＝動脈壁連續性中斷,血液外漏但被**僅存的外膜（tunica adventitia）或周邊軟組織**包裹;與真性動脈瘤（三層皆完整）不同,破裂風險較同尺寸真性動脈瘤高、故通常需處置。[^1]\n- **成因分層**：外傷、發炎（胰臟炎/感染）、腫瘤侵蝕、血管炎皆可;**醫源性中以動脈導管術（arterial catheterization）最常見**,其次為切片、手術;**共同股動脈為導管路徑相關假性動脈瘤的常見部位**。[^1][^2]\n- **發生率與風險因子**：穿刺點形成假性動脈瘤在**診斷性血管術約低至 1%**,**治療性（介入）術上升至 3.2%–7.7%**;風險隨**大口徑鞘（large-bore sheath）、術中/術後抗凝與抗血小板治療**增加,其他報導的風險因子含女性、高齡、合併靜脈穿刺、高血壓、嚴重鈣化血管。[^2]\n- **自然史**：小者可能自發血栓化,但**目前無法可靠預測哪些會自行栓塞**;未處置者可能感染、壓迫神經血管、致深部靜脈血栓/栓塞或破裂出血。[^2]\n- **治療階梯（依部位、破裂風險、臨床情境與共病量身訂做）**：**觀察**（小且無症狀者）→ **US-guided compression** → **US-guided percutaneous thrombin injection（首選微創,成功率 >90%,注射量約 0.5–1.0 mL）** → **開放手術修補（open surgical repair）／血管內治療（栓塞、覆膜支架）**;**開刀主要保留給有併發症或微創失敗者**。[^2]\n\n",
+      "factUnits": [
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f01",
+          "text": "本質：假性動脈瘤（false aneurysm）＝動脈壁連續性中斷,血液外漏但被僅存的外膜（tunica adventitia）或周邊軟組織包裹;",
+          "sourceStatement": "- **本質**：假性動脈瘤（false aneurysm）＝動脈壁連續性中斷,血液外漏但被**僅存的外膜（tunica adventitia）或周邊軟組織**包裹;與真性動脈瘤（三層皆完整）不同,破裂風險較同尺寸真性動脈瘤高、故通常需處置。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f02",
+          "text": "與真性動脈瘤（三層皆完整）不同,破裂風險較同尺寸真性動脈瘤高、故通常需處置。",
+          "sourceStatement": "- **本質**：假性動脈瘤（false aneurysm）＝動脈壁連續性中斷,血液外漏但被**僅存的外膜（tunica adventitia）或周邊軟組織**包裹;與真性動脈瘤（三層皆完整）不同,破裂風險較同尺寸真性動脈瘤高、故通常需處置。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f03",
+          "text": "成因分層：外傷、發炎（胰臟炎/感染）、腫瘤侵蝕、血管炎皆可;",
+          "sourceStatement": "- **成因分層**：外傷、發炎（胰臟炎/感染）、腫瘤侵蝕、血管炎皆可;**醫源性中以動脈導管術（arterial catheterization）最常見**,其次為切片、手術;**共同股動脈為導管路徑相關假性動脈瘤的常見部位**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f04",
+          "text": "醫源性中以動脈導管術（arterial catheterization）最常見,其次為切片、手術;",
+          "sourceStatement": "- **成因分層**：外傷、發炎（胰臟炎/感染）、腫瘤侵蝕、血管炎皆可;**醫源性中以動脈導管術（arterial catheterization）最常見**,其次為切片、手術;**共同股動脈為導管路徑相關假性動脈瘤的常見部位**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f05",
+          "text": "共同股動脈為導管路徑相關假性動脈瘤的常見部位。",
+          "sourceStatement": "- **成因分層**：外傷、發炎（胰臟炎/感染）、腫瘤侵蝕、血管炎皆可;**醫源性中以動脈導管術（arterial catheterization）最常見**,其次為切片、手術;**共同股動脈為導管路徑相關假性動脈瘤的常見部位**。[^1][^2]",
+          "sourceRefs": [
+            "1",
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f06",
+          "text": "發生率與風險因子：穿刺點形成假性動脈瘤在診斷性血管術約低至 1%,治療性（介入）術上升至 3.2%–7.7%;",
+          "sourceStatement": "- **發生率與風險因子**：穿刺點形成假性動脈瘤在**診斷性血管術約低至 1%**,**治療性（介入）術上升至 3.2%–7.7%**;風險隨**大口徑鞘（large-bore sheath）、術中/術後抗凝與抗血小板治療**增加,其他報導的風險因子含女性、高齡、合併靜脈穿刺、高血壓、嚴重鈣化血管。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f07",
+          "text": "風險隨大口徑鞘（large-bore sheath）、術中/術後抗凝與抗血小板治療增加,其他報導的風險因子含女性、高齡、合併靜脈穿刺、高血壓、嚴重鈣化血管。",
+          "sourceStatement": "- **發生率與風險因子**：穿刺點形成假性動脈瘤在**診斷性血管術約低至 1%**,**治療性（介入）術上升至 3.2%–7.7%**;風險隨**大口徑鞘（large-bore sheath）、術中/術後抗凝與抗血小板治療**增加,其他報導的風險因子含女性、高齡、合併靜脈穿刺、高血壓、嚴重鈣化血管。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f08",
+          "text": "自然史：小者可能自發血栓化,但目前無法可靠預測哪些會自行栓塞;",
+          "sourceStatement": "- **自然史**：小者可能自發血栓化,但**目前無法可靠預測哪些會自行栓塞**;未處置者可能感染、壓迫神經血管、致深部靜脈血栓/栓塞或破裂出血。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f09",
+          "text": "未處置者可能感染、壓迫神經血管、致深部靜脈血栓/栓塞或破裂出血。",
+          "sourceStatement": "- **自然史**：小者可能自發血栓化,但**目前無法可靠預測哪些會自行栓塞**;未處置者可能感染、壓迫神經血管、致深部靜脈血栓/栓塞或破裂出血。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f10",
+          "text": "治療階梯（依部位、破裂風險、臨床情境與共病量身訂做）：觀察（小且無症狀者）→ US-guided compression → US-guided percutaneous thrombin injection（首選微創,成功率 >90%,注射量約 0.5–1.0 mL） → 開放手術修補（open surgical repair）／血管內治療（栓塞、覆膜支架）;",
+          "sourceStatement": "- **治療階梯（依部位、破裂風險、臨床情境與共病量身訂做）**：**觀察**（小且無症狀者）→ **US-guided compression** → **US-guided percutaneous thrombin injection（首選微創,成功率 >90%,注射量約 0.5–1.0 mL）** → **開放手術修補（open surgical repair）／血管內治療（栓塞、覆膜支架）**;**開刀主要保留給有併發症或微創失敗者**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        },
+        {
+          "id": "iatrogenic-femoral-pseudoaneurysm-f11",
+          "text": "開刀主要保留給有併發症或微創失敗者。",
+          "sourceStatement": "- **治療階梯（依部位、破裂風險、臨床情境與共病量身訂做）**：**觀察**（小且無症狀者）→ **US-guided compression** → **US-guided percutaneous thrombin injection（首選微創,成功率 >90%,注射量約 0.5–1.0 mL）** → **開放手術修補（open surgical repair）／血管內治療（栓塞、覆膜支架）**;**開刀主要保留給有併發症或微創失敗者**。[^2]",
+          "sourceRefs": [
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "idiopathic-intracranial-hypertension",
+      "path": "vault/concepts/idiopathic-intracranial-hypertension.md",
+      "type": "disease",
+      "originalSha256": "e6d2a0a11327221a286cecdf8dc09716e8c30652ea55ad845ecd461cc0912659",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **靜脈竇表現**：IIH常見**橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web**（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。**橫竇擴張(distention)反而是「低顱內壓」的表現**，兩者方向相反。[^1]\n- **蝶鞍表現**：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。[^1]\n- **眼球/視神經表現**：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。[^1]\n\n> [!note] 考點：IIH影像表現何者「錯誤」？\n> **常見橫竇擴大（B）**——實際上IIH常見橫竇狹窄/血栓/web，橫竇擴張反而見於低顱內壓，此敘述錯誤。空蝶鞍(A)、視神經頭眼球內突出(C)、後眼球扁平化(D)皆為正確描述。[^1]\n\n",
+      "factUnits": [
+        {
+          "id": "idiopathic-intracranial-hypertension-f01",
+          "text": "靜脈竇表現：IIH常見橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。",
+          "sourceStatement": "- **靜脈竇表現**：IIH常見**橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web**（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。**橫竇擴張(distention)反而是「低顱內壓」的表現**，兩者方向相反。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "idiopathic-intracranial-hypertension-f02",
+          "text": "橫竇擴張(distention)反而是「低顱內壓」的表現，兩者方向相反。",
+          "sourceStatement": "- **靜脈竇表現**：IIH常見**橫竇狹窄(stenosis)、血栓(thrombosis)或竇內web**（非橫竇擴大enlargement）——高顱內壓壓迫靜脈竇致管腔狹窄。**橫竇擴張(distention)反而是「低顱內壓」的表現**，兩者方向相反。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "idiopathic-intracranial-hypertension-f03",
+          "text": "蝶鞍表現：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。",
+          "sourceStatement": "- **蝶鞍表現**：空蝶鞍或部分空蝶鞍(empty or partially empty sella)——CSF壓力升高致蝶鞍內腦垂體受壓變扁。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "idiopathic-intracranial-hypertension-f04",
+          "text": "眼球/視神經表現：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。",
+          "sourceStatement": "- **眼球/視神經表現**：視神經頭眼球內突出(intraocular protrusion of optic nerve head)、後眼球扁平化(posterior globe flattening)——皆為顱內壓升高傳導至視神經鞘/眼球之典型徵象。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "idiopathic-intracranial-hypertension-f05",
+          "text": "常見橫竇擴大（B）——實際上IIH常見橫竇狹窄/血栓/web，橫竇擴張反而見於低顱內壓，此敘述錯誤。",
+          "sourceStatement": "> **常見橫竇擴大（B）**——實際上IIH常見橫竇狹窄/血栓/web，橫竇擴張反而見於低顱內壓，此敘述錯誤。空蝶鞍(A)、視神經頭眼球內突出(C)、後眼球扁平化(D)皆為正確描述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "idiopathic-intracranial-hypertension-f06",
+          "text": "空蝶鞍(A)、視神經頭眼球內突出(C)、後眼球扁平化(D)皆為正確描述。",
+          "sourceStatement": "> **常見橫竇擴大（B）**——實際上IIH常見橫竇狹窄/血栓/web，橫竇擴張反而見於低顱內壓，此敘述錯誤。空蝶鞍(A)、視神經頭眼球內突出(C)、後眼球扁平化(D)皆為正確描述。[^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "incomplete-spinal-cord-syndrome",
+      "path": "vault/concepts/incomplete-spinal-cord-syndrome.md",
+      "type": "disease",
+      "originalSha256": "c2373756267cb76c040c2956487628c820de3e2e7e03eae775bd8be07f108468",
+      "summaryHeadings": [
+        "Summary"
+      ],
+      "originalSummary": "## Summary\n- **CCS**：最常見 ISCS，外傷（cervical hyperextension）為最常見原因 [^1]\n- Ventral horn / peripheral nerve injury → LMN deficits [^1]\n- **Conus medullaris syndrome**：mixed UMN + LMN deficits [^1]\n- **Cauda equina syndrome**：purely LMN deficits [^1]\n- 鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss） [^1]\n\n",
+      "factUnits": [
+        {
+          "id": "incomplete-spinal-cord-syndrome-f01",
+          "text": "CCS：最常見 ISCS，外傷（cervical hyperextension）為最常見原因",
+          "sourceStatement": "- **CCS**：最常見 ISCS，外傷（cervical hyperextension）為最常見原因 [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "incomplete-spinal-cord-syndrome-f02",
+          "text": "Ventral horn / peripheral nerve injury → LMN deficits",
+          "sourceStatement": "- Ventral horn / peripheral nerve injury → LMN deficits [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "incomplete-spinal-cord-syndrome-f03",
+          "text": "Conus medullaris syndrome：mixed UMN + LMN deficits",
+          "sourceStatement": "- **Conus medullaris syndrome**：mixed UMN + LMN deficits [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "incomplete-spinal-cord-syndrome-f04",
+          "text": "Cauda equina syndrome：purely LMN deficits",
+          "sourceStatement": "- **Cauda equina syndrome**：purely LMN deficits [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        },
+        {
+          "id": "incomplete-spinal-cord-syndrome-f05",
+          "text": "鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss）",
+          "sourceStatement": "- 鑑別：anterior cord syndrome（motor + pain/temp loss, 保留 proprioception）、Brown-Sequard（同側 motor/proprioception loss + 對側 pain/temp loss） [^1]",
+          "sourceRefs": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ]
+}
