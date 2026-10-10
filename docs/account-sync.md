@@ -55,7 +55,7 @@ Cloudflare Worker rex-api（worker/，plain JS ES module，wrangler.jsonc）
 - Workers Free 每請求 CPU 10 ms。正式部署後以 `npx wrangler tail --format json` 觀察 `/auth/login` 的 `cpuTime`；若超過限制，於 `wrangler.jsonc` `vars.PBKDF2_ITERATIONS` 設為可通過的最大值（預估 20,000–50,000），並把數值記在下方；升級 Paid（cpu_ms 可到 30,000）後移除覆寫即回到 100,000。
 - 補償措施：邀請制、`ratelimits` 每帳號 5 次／60 秒、D1 連續 5 次失敗鎖 15 分鐘、密碼 8–128 字元。
 
-正式環境：Worker 網址 `https://rex-api.jieyu166.workers.dev`（2026-10-10 部署，D1 `rex-progress` 於 APAC）。登入 CPU 量測結果：（待第一位使用者登入後以 `wrangler tail` 填入）
+正式環境：Worker 網址 `https://rex-api.jieyu166.workers.dev`（2026-10-10 部署，D1 `rex-progress` 於 APAC）。登入 CPU 量測結果（2026-10-10，`wrangler tail --format json`，PBKDF2 100,000 次）：`/auth/register` cpuTime 28 ms、`/auth/login` 25–38 ms（三次成功登入與一次錯密碼皆 outcome ok、未被截斷）。雖高於 Free 方案標示的 10 ms，實測未觸發限制；若日後出現 Cloudflare 1102（CPU 超限）錯誤，先在 `wrangler.jsonc` 的 `vars` 設 `PBKDF2_ITERATIONS: "20000"`（約 6 ms）並重新部署，既有帳號下次登入會自動改用新迭代數。
 
 ## 本機開發
 
