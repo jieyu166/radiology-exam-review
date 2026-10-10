@@ -32,3 +32,4 @@ data/
 worker/.dev.vars
 worker/.wrangler/
 .wrangler/
+worker/.bootstrap-code.txt

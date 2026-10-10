@@ -13,7 +13,7 @@
     {
       "binding": "DB",
       "database_name": "rex-progress",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "66b6e529-765a-4d49-a0d5-4a6250fdc414",
       "migrations_dir": "migrations"
     }
   ],
