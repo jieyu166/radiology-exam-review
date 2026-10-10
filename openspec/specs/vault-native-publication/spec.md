@@ -259,3 +259,43 @@ tests:
   - scripts/test_image_asset_manager.js
   - scripts/test_image_asset_manager.py
 -->
+
+---
+### Requirement: Question index entries publish subspecialty as a list
+
+The compiler SHALL publish `subspecialty` on every `indexes/questions.json` entry as a de-duplicated list of strings: a frontmatter string becomes a one-item list, a frontmatter list is kept in order, and a missing value becomes an empty list. The question record SHALL keep the frontmatter value unchanged.
+
+#### Scenario: Single string frontmatter
+
+- **WHEN** a question card declares `subspecialty: NR`
+- **THEN** its index entry has `subspecialty: ["NR"]`
+
+#### Scenario: Multi-subspecialty frontmatter
+
+- **WHEN** a question card declares `subspecialty: [GI, ABD]`
+- **THEN** its index entry has `subspecialty: ["GI", "ABD"]` and the question appears under both the GI and ABD filters
+
+##### Example: Normalization
+
+| frontmatter | index entry |
+| --- | --- |
+| `subspecialty: NR` | `["NR"]` |
+| `subspecialty: [GI, ABD]` | `["GI", "ABD"]` |
+| (missing) | `[]` |
+
+<!-- @trace
+source: question-subspecialty-list
+updated: 2026-10-11
+code:
+  - scripts/image_asset_manager.py
+  - scripts/start_image_asset_manager.ps1
+  - scripts/image_asset_manager.html
+  - scripts/image_asset_manager.js
+  - output/imagegen/adrenoleukodystrophy-background-draft.png
+  - docs/image-asset-manager.md
+  - docs/concept-summary-review-publication.md
+  - start-image-manager.cmd
+tests:
+  - scripts/test_image_asset_manager.py
+  - scripts/test_image_asset_manager.js
+-->

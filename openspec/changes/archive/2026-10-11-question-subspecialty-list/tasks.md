@@ -6,4 +6,4 @@
 ## 2. 資料與上線
 
 - [x] 2.1 104 張 GI／GU／OBGYN 題卡 frontmatter 改為 `[X, ABD]` 並在題幹 tag 補 `#ABD`；2 張概念卡 ENT→H&N、MR→MRI；只提交別名變更，不帶入其他 session 的未提交修改。驗證：`git show --numstat HEAD -- vault` 每檔皆為 2/2（題卡）或 1/1（概念卡）；重建索引後題目次專科集合不含 OB／GYN／ENT／MR，ABD 計數增加 104。
-- [ ] 2.2 推送 main，`deploy-pages.yml` success；線上 `indexes/questions.json` 所有 entry 的 `subspecialty` 為 list，GI 題在 ABD 篩選下可見。驗證：`gh run list --workflow deploy-pages.yml --limit 1` success；curl 線上索引統計；瀏覽器 read_page 確認。
+- [x] 2.2 推送 main，`deploy-pages.yml` success；線上 `indexes/questions.json` 所有 entry 的 `subspecialty` 為 list，GI 題在 ABD 篩選下可見。驗證：`gh run list --workflow deploy-pages.yml --limit 1` success；curl 線上索引統計；瀏覽器 read_page 確認。
