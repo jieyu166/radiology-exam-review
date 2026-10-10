@@ -3,7 +3,7 @@
 """上傳圖片到 R2 圖床（img-hosting worker），回傳公開 URL 或 markdown。
 
 圖片改走 R2、不再進 git：用本工具上傳後，把回傳的 URL（或 markdown）貼進
-data/{year}.json 的 questionText/explanation，網站 js/format.js 已允許該 host。
+vault 題卡或概念筆記的 Markdown 內文；網站的 note renderer 會直接顯示該 host 的圖片。
 
 設定來源（依序，先有先用）：
   1. 環境變數 WORKER_URL / API_KEY

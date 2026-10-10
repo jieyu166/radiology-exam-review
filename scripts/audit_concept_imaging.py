@@ -4,7 +4,8 @@
 
 啟發式：抽每個概念的實質內容（frontmatter 之後、`### 參考來源`／`## 考題` 之前,
 即導讀＋Summary＋各節＋考點），計算「影像關鍵詞涵蓋分數」與「應試詞密度」,
-並對照該概念被幾題交換考引用（考題數），輸出依「分數低、考題多」排序的補強清單。
+並對照該概念被幾題交換考引用（考題數，依 vault/questions 題卡 frontmatter concepts 統計，
+由 scripts/vault_questions.py 讀取），輸出依「分數低、考題多」排序的補強清單。
 
 分數為粗略指標、供醫師覆核;不是自動改寫,只標記哪些概念可能只是考題詳解、缺影像特徵。
 
@@ -14,11 +15,14 @@
 輸出：vault/概念影像補強清單.md
 """
 from __future__ import annotations
-import glob, re, json, sys, pathlib, datetime, collections
+import glob, re, sys, pathlib, datetime, collections
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-CONCEPTS = ROOT / "vault" / "concepts"
-DATA = ROOT / "data"
+VAULT = ROOT / "vault"
+CONCEPTS = VAULT / "concepts"
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from vault_questions import iter_question_cards  # noqa: E402
+
 OUT = ROOT / "vault" / "概念影像補強清單.md"
 
 # 影像關鍵詞（分組;每組命中即 +1,計「涵蓋廣度」而非次數）
@@ -72,15 +76,11 @@ def img_score(body: str) -> int:
 
 
 def qcount_map() -> dict:
+    """每個概念 slug 被幾張題卡的 frontmatter concepts 引用。"""
     c = collections.Counter()
-    for f in glob.glob(str(DATA / "*.json")):
-        try:
-            d = json.load(open(f, encoding="utf-8"))
-        except Exception:
-            continue
-        for q in d.get("questions", []):
-            for slug in (q.get("concepts") or []):
-                c[slug] += 1
+    for card in iter_question_cards(VAULT):
+        for slug in card.concepts:
+            c[slug] += 1
     return c
 
 

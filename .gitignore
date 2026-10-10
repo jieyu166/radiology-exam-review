@@ -24,3 +24,6 @@ vault/images/
 vault/.obsidian/
 scripts/_*.txt
 scripts/_*.json
+
+# legacy JSON data flow retired 2026-10-10 (remove-legacy-data-json); vault is the only source
+data/

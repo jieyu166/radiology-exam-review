@@ -1,73 +1,65 @@
 # Scripts
 
+所有腳本都以 `vault/` 的 Markdown 為唯一輸入；repo 內沒有任何 JSON 資料來源（legacy `data/` 已於 2026-10-10 退役）。
+產出一律寫到 `tmp/`（已 gitignore）或 `dist/`（已 gitignore）。
+
 ## 安裝依賴
 
-```bash
-pip install -r scripts/requirements.txt
-```
+建置與測試只需要 Python 3.12 標準函式庫與 Node.js。PDF 詳解抽取工具另需系統指令 `pdftotext`（poppler）。
 
-依賴套件：`pymupdf`、`google-auth`、`google-auth-httplib2`、`google-api-python-client`。
+```bash
+pip install -r scripts/requirements.txt   # 目前無必要第三方套件
+```
 
 ---
 
-## Google Sheets 同步
+## 發布流程（GitHub Actions 同一順序）
 
-### 環境設定
+| 腳本 | 用途 |
+|---|---|
+| `audit_vault_native_cutover.py --vault vault --report tmp/cutover-audit.json` | 唯讀稽核：vault 來源雜湊不變、`index.html` 與 workflow 無 legacy 引用、`data/` 與退役腳本不存在（`legacyToolsAbsent`）。任一不符 exit 1。 |
+| `build_vault_site.py --vault vault --output dist --report dist/build-report.json` | 以 `vault_site/compiler.py` 把 vault 編譯成 `dist/`（manifest、indexes、records、notes 原文、assets）。 |
+| `validate_vault_site.py --vault vault --output dist --report tmp/build-report-validate.json` | 重新編譯並與 `dist/` 比對完整性與雜湊。 |
+| `build_static_site.py --output dist` | 複製 `index.html`、`css/`、`js/` 進 `dist/`。 |
+| `accept_vault_native_migration.py` | 遷移驗收總閘：真實 vault 盤點、雙次 build 確定性、失敗部署保留、全部測試；報告寫到 `tmp/vault-native-migration-acceptance.json`。 |
 
-1. 複製 `.env.example` 為 `.env`，填入實際值：
-   ```
-   SHEET_ID=<your-spreadsheet-id>
-   GOOGLE_KEY_PATH=~/.config/radiology-sheets-key.json
-   ```
-2. 下載 Google service account JSON 金鑰至 `GOOGLE_KEY_PATH` 指定路徑。
-3. 在 Google Sheet 上將服務帳戶 email 加為「編輯者」。
+## 題目工具（讀 `vault/questions/**/*.md`）
 
-### json_to_sheets.py — 一次性初始匯出
+共用解析模組 `vault_questions.py`：`iter_question_cards(vault_root)` 以 compiler 相同規則回傳每張題卡的 `id / year / subspecialty / correct_answer / concepts / reference / stem / options / explanation / path`。
 
-將 `data/*.json` + `data/concepts.json` 全部寫入 Google Sheets（清空後重寫）。
-**首次設定時執行一次，日後改用 `sheets_to_json.py` 同步。**
+| 腳本 | 用途 |
+|---|---|
+| `lint_concepts.py [--quiet]` | 專案慣例 linter：概念檔結構、題卡 `concepts` 是否存在、`correctAnswer` 是否合法。 |
+| `audit_questions.py {year}` | 題目品質五項清單稽核，輸出 `tmp/audit-{year}.json`。 |
+| `extract_official_explanations.py {year} [--pdf PATH]` | 以 `pdftotext` 抽官方詳解 PDF、切題並對齊題卡題幹，輸出 `tmp/official-{year}.json`。 |
+| `extract_subscription_refs.py` | 彙整題卡 `reference` 與概念 footnote 中需訂閱／館藏的來源。 |
+| `verify_reference.py --selftest` | 放射來源白名單閘（`passes_gate()`），供詳解流水線使用。 |
+| `extract_pdf_questions.py {year}` | 從官方詳解 PDF 文字擷取結構化題目（回填新年份時用）。 |
 
-```bash
-python scripts/json_to_sheets.py
-```
+詳解流水線（`/exam-explanation-pipeline` skill）直接編輯題卡的詳解段與 frontmatter `reference`，不再產生 patch。
 
-執行後會建立 `questions`、`concepts`、`_metadata` 三個 sheet，並將 `question_id` 欄設為 warning-only Protected Range。
+## 概念工具（讀 `vault/concepts/*.md`）
 
-### sheets_to_json.py — 日常同步
+| 腳本 | 用途 |
+|---|---|
+| `find_weak_concepts.py [-n N]` | 找出弱來源概念，供五來源補強。 |
+| `find_shallow_concepts.py [-n N]` | 找出淺層概念，供深補。 |
+| `audit_concept_imaging.py [--thr N]` | 稽核概念是否含一般放射科判讀影像知識；考題數依題卡 `concepts` 統計。 |
+| `dedupe_concept_questions.py` | 移除概念檔中重抄的 `## 題目` 區。 |
 
-從 Google Sheets 讀取題目，寫回 `data/*.json` 與 `data/concepts.json`。
+## 圖片
 
-```bash
-# 預覽變更（不寫入）
-python scripts/sheets_to_json.py --dry-run
+圖片不進 git。`r2_upload.py` 與 `image_asset_manager.py --port 8765`（本機目錄工具）都透過 img-hosting CLI 上傳 Cloudflare 圖床，把回傳的 URL 貼進筆記。
 
-# 實際同步
-python scripts/sheets_to_json.py
-```
-
-同步完成後建議執行 `git diff data/` 確認變更，再 `git commit` 發布。
-
-驗證失敗的列（例如答案不在 A-E 或 subspecialty 無效）會輸出至 stderr 並略過，原始 JSON 不受影響。
-
----
-
-## Obsidian SR Import
-
-Use `import_obsidian_sr.py` to scan the Radiology Obsidian vault for spaced-repetition exchange-question notes and export compatible JSON into this project.
-
-The importer treats the vault as read-only. It records hashes before and after the run and exits with an error if any source Markdown file changes.
+## 測試
 
 ```bash
-python scripts/import_obsidian_sr.py --dry-run --report tmp/obsidian-sr-import-report.json
-python scripts/import_obsidian_sr.py --merge-mode keep
+python scripts/test_vault_site.py          # compiler fixture
+python scripts/test_vault_questions.py     # 題卡解析模組
+python scripts/test_deploy_workflow.py     # workflow 契約
+python scripts/test_legacy_isolation.py    # legacy 隔離與 cutover audit
+node scripts/test_content_store.js
+node scripts/test_note_renderer.js
+node scripts/test_vault_question_view.js
+node scripts/test_study_progress.js
 ```
-
-Useful options:
-
-- `--vault <path>`: Obsidian vault root. Defaults to the sibling `0筆記/Radiology` vault.
-- `--target <path>`: `radiology-exam-review` root. Defaults to this project.
-- `--dry-run`: parse and print/report counts without writing `data/{year}.json` or `data/index.json`.
-- `--merge-mode keep|replace|update`: default `keep`; controls behavior when an imported deterministic id already exists.
-- `--report <path>`: write a JSON report with scanned files, imported/skipped counts, skip reasons, fallback specialty decisions, and written files.
-
-Question blocks are detected from SR structure: `#YYYY交換`, a `??` separator, and an `Ans:` line. Multiple year tags are exported as `years`; the canonical `year` is the earliest year. `#NR考` overrides YAML subspecialty, otherwise valid YAML `subspecialty` is used. Missing or broad YAML values are exported as `Unknown` with `subspecialty_confidence: "auto"` and are listed in the report.

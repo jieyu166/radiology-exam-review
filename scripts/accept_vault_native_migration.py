@@ -21,7 +21,7 @@ from typing import Any
 if __package__ in (None, ""):
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from scripts.audit_vault_native_cutover import audit
+from scripts.audit_vault_native_cutover import audit, audit_passed
 from scripts.vault_site.compiler import build_package, discover_sources
 
 
@@ -146,7 +146,8 @@ def _review_annotation_acceptance(vault: Path, errors: list[dict[str, Any]]) -> 
         "missingReviewStatus": missing_review_status,
         "wrongUnresolvedAnnotations": wrong_unresolved,
         "multiAnswer2017_010": multi_ok,
-        "passed": len(reviewed_sources) == 49 and len(expected_unresolved) == 19 and not missing_review_status and not wrong_unresolved and multi_ok,
+        # 49 notes from the 2026-09 migration review queue + 2021-334 (rebuilt 2026-10-10 without its figure)
+        "passed": len(reviewed_sources) == 50 and len(expected_unresolved) == 19 and not missing_review_status and not wrong_unresolved and multi_ok,
     }
 
 
@@ -193,7 +194,7 @@ def main() -> int:
         blockers.append("failedDeployRetention")
     if not annotations["passed"]:
         blockers.append("reviewAnnotations")
-    if cutover["sourceIntegrity"] != "clean" or cutover["legacyIndexRefs"] or cutover["legacyWorkflowRefs"] or not cutover["legacyRecoveryToolsPresent"]:
+    if not audit_passed(cutover):
         blockers.append("cutover")
     blockers.extend(check["label"] for check in checks if not check["passed"])
     report["passed"] = not blockers

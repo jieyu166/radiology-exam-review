@@ -15,6 +15,25 @@ LEGACY_PRODUCTION_NAMES = (
     "exam-mode.js", "question-store.js", "editor.js", "card-mode.js", "list-mode.js",
 )
 
+# Retired with the legacy data/ JSON flow (change remove-legacy-data-json, 2026-10-10).
+# None of these may exist in a checkout; the vault is the only content source.
+RETIRED_SCRIPTS = (
+    "build_concepts.py", "vault_to_json.py", "json_to_vault.py", "merge_edits.py",
+    "nr_summary_audit.py", "sheets_to_json.py", "json_to_sheets.py", "import_obsidian_sr.py",
+)
+RETIRED_JS = ("concept-cards.js", "exam-mode.js", "question-store.js", "editor.js", "card-mode.js", "list-mode.js", "app.js", "format.js")
+
+
+def legacy_residue(repo_root: Path) -> list[str]:
+    """Repo-relative paths of legacy data flow leftovers that must not exist."""
+    repo_root = Path(repo_root)
+    residue: list[str] = []
+    if (repo_root / "data").exists():
+        residue.append("data")
+    residue.extend(f"scripts/{name}" for name in RETIRED_SCRIPTS if (repo_root / "scripts" / name).exists())
+    residue.extend(f"js/{name}" for name in RETIRED_JS if (repo_root / "js" / name).exists())
+    return sorted(residue)
+
 
 def _hash_sources(vault: Path) -> dict[str, str]:
     result = {}
@@ -34,6 +53,7 @@ def audit(repo_root: Path, vault: Path) -> dict:
     workflow_text = (repo_root / ".github" / "workflows" / "deploy-pages.yml").read_text(encoding="utf-8")
     legacy_index_refs = [name for name in LEGACY_PRODUCTION_NAMES if name in index_text]
     legacy_workflow_refs = [name for name in LEGACY_PRODUCTION_NAMES if name in workflow_text]
+    residue = legacy_residue(repo_root)
     return {
         "sourceIntegrity": "clean" if not changed else "changed",
         "changedSourcePaths": changed,
@@ -41,8 +61,18 @@ def audit(repo_root: Path, vault: Path) -> dict:
         "publicationErrors": compiled.errors,
         "legacyIndexRefs": legacy_index_refs,
         "legacyWorkflowRefs": legacy_workflow_refs,
-        "legacyRecoveryToolsPresent": all((repo_root / "scripts" / name).exists() for name in ("vault_to_json.py", "json_to_vault.py")),
+        "legacyToolsAbsent": not residue,
+        "legacyResidue": residue,
     }
+
+
+def audit_passed(result: dict) -> bool:
+    return (
+        result["sourceIntegrity"] == "clean"
+        and not result["legacyIndexRefs"]
+        and not result["legacyWorkflowRefs"]
+        and result["legacyToolsAbsent"]
+    )
 
 
 def main() -> int:
@@ -55,8 +85,8 @@ def main() -> int:
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(json.dumps({"sourceIntegrity": result["sourceIntegrity"], "publicationErrors": len(result["publicationErrors"]), "legacyIndexRefs": result["legacyIndexRefs"], "legacyWorkflowRefs": result["legacyWorkflowRefs"]}, ensure_ascii=False))
-    return 0 if result["sourceIntegrity"] == "clean" and not result["legacyIndexRefs"] and not result["legacyWorkflowRefs"] and result["legacyRecoveryToolsPresent"] else 1
+    print(json.dumps({"sourceIntegrity": result["sourceIntegrity"], "publicationErrors": len(result["publicationErrors"]), "legacyIndexRefs": result["legacyIndexRefs"], "legacyWorkflowRefs": result["legacyWorkflowRefs"], "legacyToolsAbsent": result["legacyToolsAbsent"], "legacyResidue": result["legacyResidue"]}, ensure_ascii=False))
+    return 0 if audit_passed(result) else 1
 
 
 if __name__ == "__main__":

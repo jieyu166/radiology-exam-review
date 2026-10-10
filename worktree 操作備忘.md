@@ -41,15 +41,14 @@
 
 ## 3. 工作紀律
 
-- **檔案分區**：各 session 只改**自己年份**的 `data/{year}.json` 與 `vault/questions/{year}/`。
+- **檔案分區**：各 session 只改**自己年份**的 `vault/questions/{year}/`（vault Markdown 是唯一來源，已無 `data/{year}.json`）。
 - **commit 列明確路徑**（別用 `git add` 後裸 `git commit`）：
   ```
   git add <我的新檔...>
   git commit <我的所有檔...> -m "..."
   ```
   worktree 各有獨立 index，理論上不會互相污染，但保持此習慣最保險。
-- **跨年去重**：優先寫進 `data/rex-edits-*.json` patch，由協調者用 `merge_edits.py` 併入；
-  若真的要改更早年份的 json，它會留在你的 worktree，日後 merge 回 main 時變成**看得到的衝突**（不再無聲蓋檔）。
+- **跨年去重**：直接改對方年份的題卡 `.md`（最小 diff），它會留在你的 worktree，日後 merge 回 main 時變成**看得到的衝突**（不再無聲蓋檔）；或在 commit 訊息註明請協調者處理。
 - **共用 concept 檔**：worktree 內是你自己的副本，不會即時被別人蓋；但若兩年都改同一個 concept 檔，
   merge 回 main 時會產生**真正的 git merge 衝突**（可解、可見，這正是我們要的）。
 - **第一次 push**：
@@ -59,24 +58,13 @@
 
 ---
 
-## 4. 兩個同步方向要分清（重要）
+## 4. 只有一個來源：vault Markdown（重要）
 
-| 方向 | 內容 | 在哪裡做 |
-|---|---|---|
-| **json → vault** | 產生新題卡（`json_to_vault.py {year} --force`） | **你的 worktree** |
-| **vault → json** | 醫師確認回寫 checked 旗標（`vault_to_json.py {year} --write`） | **main** |
+2026-10-10 起 `data/*.json` 與 `json_to_vault.py`／`vault_to_json.py` 已退役，**沒有任何同步方向**：
 
-- 醫師的 Obsidian 主庫是 **main**，他的 `checked:true`、詳解修正只存在 main 的卡片裡。
-- 所以「醫師修改回寫 json」一律在 **main** 執行：
-  ```
-  # 在 main 目錄
-  python scripts/vault_to_json.py 2017          # dry-run 先看差異
-  python scripts/vault_to_json.py 2017 --write  # 回寫 checked 至 json
-  git commit data/2017.json -m "醫師審閱回寫：checked 同步"
-  ```
-- `vault_to_json.py` **只回寫結構性欄位**（預設 `checked`，可加 `--fields checked,subspecialty,correctAnswer,concepts`）；
-  **不碰** `<!--SR:!...-->` 間隔複習註解、也不碰自由文字詳解（那些以 .md 為準，受 genHash 保護）。
-- worktree session 之後 `git merge main` 就能拿到這些 checked 更新。
+- 醫師的 Obsidian 主庫是 **main**，他的 `checked:true`、詳解修正、frontmatter `reference` 都直接存在題卡 `.md` 裡。
+- 新題卡、詳解、分類修正一律直接寫 `vault/questions/{year}/{id}.md`；frontmatter 欄位見 README「醫師與 AI 編輯流程」。
+- worktree session 之後 `git merge main` 就能拿到醫師在 main 的更新；push `main` 會觸發 Actions 重新編譯部署。
 
 ---
 
@@ -98,8 +86,8 @@ git push
 - 2016 留在 **main**，與醫師主庫共用。**session 進行期間醫師不要在 Obsidian 改庫**，以免撞車。
 - 2016 session 恢復後：
   1. 先把目前卡在 main 的未提交 2016 工作 commit 掉。
-  2. 跑 `python scripts/vault_to_json.py 2016 --write` 補上醫師的 checked 確認（約 35 題）。
-  3. commit（列明確路徑，只 commit `data/2016.json` 與自己的卡片）。
+  2. 醫師的 checked 確認已直接在題卡 frontmatter 內，不需另外回寫。
+  3. commit（列明確路徑，只 commit 自己的卡片）。
 
 ---
 

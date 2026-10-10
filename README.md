@@ -36,7 +36,7 @@ python -m http.server 8080 --directory dist
 ## 醫師與 AI 編輯流程
 
 1. 用 Obsidian 開啟專案內的 `vault/`，或直接使用文字編輯器。
-2. 題目編輯 `vault/questions/{year}/{id}.md`；概念編輯 `vault/concepts/{slug}.md`。保留既有 frontmatter、題目的 `??` 正反面分隔、選項與答案格式，以及引用來源。
+2. 題目編輯 `vault/questions/{year}/{id}.md`；概念編輯 `vault/concepts/{slug}.md`。保留既有 frontmatter、題目的 `??` 正反面分隔、選項與答案格式，以及引用來源。題目的參考書目寫在 frontmatter `reference`（純字串），網站揭曉答案後會顯示。
 3. 使用 `[[concepts/slug]]`、`[[questions/year/id]]` 等 wikilink 連結待覆核筆記。AI 補充的醫學內容與 Summary 圖仍須醫師覆核；確認後再更新適當的覆核欄位。
 4. 不應發布的題目／概念在 frontmatter 明確設定 `publish: false`。編譯器也排除檔名以 `_` 開頭的筆記。其餘位於 questions／concepts 的筆記會進入發布範圍，即使 `checked: false` 亦然。
 5. 執行上述建置與驗證，完成下列測試，再用本機網站檢視內容與圖片。
@@ -108,18 +108,11 @@ radiology-exam-review/
 │   ├── build_static_site.py
 │   └── test_*                   # Python / JavaScript 測試
 ├── .github/workflows/deploy-pages.yml
-├── dist/                        # 產生的發布套件
-└── data/                        # legacy 匯入／遷移資料，非日常編輯來源
+└── dist/                        # 產生的發布套件（不進 git）
 ```
 
-## Legacy：舊匯入與詳解工具
+## 已退役：legacy JSON 資料流
 
-以下保留供歷史資料整理、遷移或復原，**不屬於新版日常編輯／發布流程，不得直接覆寫醫師已編輯的 vault**：
+2026-10-10 起 `data/` 目錄（`20xx.json`、`concepts/*.json`、`rex-edits` patch）與其讀寫工具（Google Sheets 同步、`json_to_vault.py`／`vault_to_json.py`、`merge_edits.py`、`build_concepts.py`、NR Summary 稽核鏈）已全部自 repo 移除；題目 `reference` 已遷入題卡 frontmatter，題圖改放 Cloudflare 圖床。vault Markdown 是唯一來源，任何內容修正直接改 `vault/` 下的 `.md`，push `main` 後由 Actions 重新編譯部署。
 
-- `sheets_to_json.py`／`json_to_sheets.py`：舊 Google Sheets 與 JSON 同步；Sheets 已不是權威來源。
-- `json_to_vault.py`／`vault_to_json.py`：舊格式匯入／匯出；不要以 `json_to_vault.py --force` 日常重生筆記。
-- `merge_edits.py`：合併舊 `rex-edits` JSON patch；新版網站只提供舊 patch 匯出，不自動套用。需要保留的內容應逐項比較並轉入 Markdown，交由醫師覆核。
-- `extract_official_explanations.py`／`audit_questions.py`：舊 JSON 詳解流水線的抽取與稽核工具。其輸出可供人工參考，不能直接視為新版 vault 已更新或已核准。
-- `verify_reference.py --selftest`：舊流水線的來源辨識自測。
-
-舊 PDF／Sheets 工具的額外依賴與設定見 [`scripts/README.md`](scripts/README.md)。該文件的同步流程僅適用 legacy 作業；不要將 Google 金鑰或私人來源檔提交至 GitHub。
+`scripts/audit_vault_native_cutover.py` 會在 CI 檢查 `data/` 與退役腳本不得重新出現。歷史資料可在 commit `342a349`（封存 Phase 2B 成果）之前的版本取得。題目層級的輔助工具（`audit_questions.py`、`extract_official_explanations.py`、`lint_concepts.py` 等）現在一律讀 vault 題卡，用法見 [`scripts/README.md`](scripts/README.md)。

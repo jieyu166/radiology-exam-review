@@ -14,17 +14,7 @@ Object.defineProperties(localStorage, {
   key: { enumerable: false, value: index => Object.keys(storage)[index] || null },
   length: { enumerable: false, get: () => Object.keys(storage).length },
 });
-const context = {
-  console,
-  localStorage,
-  fetch: async url => {
-    if (url === 'data/2024.json') return { ok: true, json: async () => ({ questions: [{ id: '2024-001', questionText: 'vault text' }] }) };
-    if (url === 'data/concepts.json') return { ok: true, json: async () => ({ concepts: { 'brain-abscess': { name: 'vault name' } } }) };
-    if (url === 'data/concepts-index.json') return { ok: true, json: async () => ({ concepts: [{ slug: 'brain-abscess', name: 'vault name' }] }) };
-    if (url === 'data/index.json') return { ok: true, json: async () => ({ years: [{ year: 2024 }] }) };
-    return { ok: false, status: 404, json: async () => ({}) };
-  },
-};
+const context = { console, localStorage };
 vm.createContext(context);
 vm.runInContext(code, context);
 
@@ -33,17 +23,27 @@ function assert(condition, message) {
 }
 
 (async () => {
-  const questions = await context.DataLoader.loadYear(2024);
-  assert(questions[0].questionText === 'vault text', 'rex_edits must not override loaded content');
-  const progress = context.DataLoader.getProgress();
+  const api = context.DataLoader;
+  const legacyLoaders = ['loadIndex', 'loadYear', 'loadConcepts', 'loadConceptsIndex', 'loadConcept', 'loadAllAvailableYears', 'getLoadedQuestions', 'saveQuestionEdit', 'saveConceptEdit', 'discardAllEdits', 'countPendingEdits'];
+  legacyLoaders.forEach(name => assert(typeof api[name] === 'undefined', 'legacy data/ loader must be removed: ' + name));
+  assert(!/fetch\(/.test(code), 'data-loader.js must not fetch legacy data/ JSON');
+
+  const progress = api.getProgress();
   assert(progress.schemaVersion === 2, 'progress should use schema version 2');
-  context.DataLoader.recordAnswer('2024-001', { chosen: 'C', correct: false, sourceSha256: 'new-hash' });
-  context.DataLoader.addExamRecord({ total: 1, correct: 0, wrong: 1, skipped: 0, sourceSha256ByQuestion: { '2024-001': 'new-hash' } });
-  const saved = context.DataLoader.getProgress();
+  api.recordAnswer('2024-001', { chosen: 'C', correct: false, sourceSha256: 'new-hash' });
+  api.addExamRecord({ total: 1, correct: 0, wrong: 1, skipped: 0, sourceSha256ByQuestion: { '2024-001': 'new-hash' } });
+  const saved = api.getProgress();
   assert(saved.answers['2024-001'].sourceSha256 === 'new-hash', 'answer should keep source revision');
   assert(saved.examHistory[0].sourceSha256ByQuestion['2024-001'] === 'new-hash', 'exam history should keep source revision');
-  assert(context.DataLoader.exportLegacyEdits()['rex_edits_concepts']['brain-abscess'].name === 'legacy override', 'legacy edits must remain exportable');
-  context.DataLoader.saveQuestionEdit('2024-001', { questionText: 'attempted override' });
-  assert(!Object.prototype.hasOwnProperty.call(storage, 'rex_edits_year_2024'), 'new content patches must not be written');
+  assert(api.exportLegacyEdits()['rex_edits_concepts']['brain-abscess'].name === 'legacy override', 'legacy edits must remain exportable');
+  assert(api.exportAllEdits === api.exportLegacyEdits, 'exportLegacyEdits should alias exportAllEdits');
+  ['markSeen', 'toggleStar', 'isStarred', 'exportProgress', 'importProgress', 'clearProgress'].forEach(name => assert(typeof api[name] === 'function', 'progress API missing: ' + name));
+  assert(api.toggleStar('2024-001') === true && api.isStarred('2024-001') === true, 'toggleStar should star a question');
+  const exported = api.exportProgress();
+  assert(exported.rex_progress.schemaVersion === 2, 'exportProgress should wrap rex_progress');
+  api.clearProgress();
+  assert(api.getProgress().examHistory.length === 0, 'clearProgress should reset progress');
+  const stats = api.importProgress(exported);
+  assert(stats.answers === 1 && stats.examHistory === 1 && stats.starred === 1, 'importProgress should restore exported progress');
   console.log('study progress tests passed');
 })().catch(error => { console.error(error); process.exitCode = 1; });

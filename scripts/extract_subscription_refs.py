@@ -3,7 +3,7 @@
 """掃描 exam-review 全部 reference，抽出「全文需訂閱／館藏」的來源，供醫師找全文。
 
 來源範圍：
-  1. data/*.json 每題的 `reference` 欄
+  1. vault/questions 每張題卡 frontmatter 的 `reference` 欄（scripts/vault_questions.py 讀取）
   2. vault/concepts/*.md 的 footnote（`[^n]: ...`）
 
 做法：把每條 reference 依分隔符拆成citation 片段 → 過濾掉免費可得者
@@ -16,10 +16,13 @@
 輸出：vault/全文待查清單.md
 """
 from __future__ import annotations
-import json, glob, re, collections, pathlib, datetime
+import glob, re, collections, pathlib, datetime, sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-DATA = ROOT / "data"
+VAULT = ROOT / "vault"
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from vault_questions import iter_question_cards  # noqa: E402
+
 CONCEPTS = ROOT / "vault" / "concepts"
 OUT = ROOT / "vault" / "全文待查清單.md"
 
@@ -148,17 +151,12 @@ def collect():
             e["rep"] = seg.strip()
         e["locs"].add(loc)
 
-    for f in sorted(glob.glob(str(DATA / "*.json"))):
-        try:
-            d = json.load(open(f, encoding="utf-8"))
-        except Exception:
+    for card in iter_question_cards(VAULT):
+        r = (card.reference or "").strip()
+        if not r:
             continue
-        for q in d.get("questions", []):
-            r = (q.get("reference") or "").strip()
-            if not r:
-                continue
-            for seg in split_segments(r):
-                add(seg, q.get("id", "?"))
+        for seg in split_segments(r):
+            add(seg, card.id)
 
     for f in sorted(glob.glob(str(CONCEPTS / "*.md"))):
         slug = pathlib.Path(f).stem
@@ -215,7 +213,7 @@ def main():
     L = []
     L.append("# 全文待查清單（需訂閱／館藏，供醫師找全文）")
     L.append("")
-    L.append("> 自動掃描 `data/*.json` 的 reference 欄與 `vault/concepts/*.md` 的 footnote 抽出。")
+    L.append("> 自動掃描 `vault/questions` 題卡的 reference 欄與 `vault/concepts/*.md` 的 footnote 抽出。")
     L.append("> **免費可得／已讀／有本機 PDF 的來源已排除**（Radiopaedia、實際查證網頁、NBK、PMC 開放、本機 PDF 等）。")
     L.append("> 分類為啟發式比對、**供醫師覆核**；同一來源已去重並附引用位置。")
     L.append("> **回填方式**：找到全文後在該條目後貼 `[[檔名.pdf]]` 並把 `[ ]` 改成 `[x]`；"

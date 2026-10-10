@@ -9,8 +9,8 @@
     A. Incorrect ...    ← 逐選項詳解
     B. Correct ...
 
-本腳本抽取並解析為結構化候選，再用題幹文字相似度對齊 data/{year}.json 的題號，
-輸出 tmp/official-{year}.json。智慧層（skill）據此重構 explanation + 補 reference。
+本腳本抽取並解析為結構化候選，再用題幹文字相似度對齊 vault/questions/{year}/ 題卡
+（scripts/vault_questions.py 讀取，題幹用 QuestionCard.stem），輸出 tmp/official-{year}.json。智慧層（skill）據此重構 explanation + 補 reference。
 
 用法：
   python scripts/extract_official_explanations.py 2016
@@ -29,8 +29,11 @@ from difflib import SequenceMatcher
 from pathlib import Path
 
 REPO = Path(__file__).parent.parent
-DATA_DIR = REPO / "data"
+VAULT_DIR = REPO / "vault"
 TMP_DIR = REPO / "tmp"
+
+sys.path.insert(0, str(Path(__file__).parent))
+from vault_questions import QuestionCard, iter_question_cards  # noqa: E402
 
 # 官方詳解 PDF 預設搜尋目錄（vault）。可用 --pdf 覆寫。
 VAULT_EXAM_DIR = Path(
@@ -173,13 +176,20 @@ def _norm(text: str) -> str:
     return re.sub(r"[^a-z0-9 ]", " ", text.lower())
 
 
-def align(blocks_parsed: list[dict], questions: list[dict], threshold: float = 0.45) -> dict:
-    """全域貪婪指派對齊（不依賴題序；JSON 來自 Obsidian 匯入，與 PDF 順序未必一致）。
+def _card_number(card: QuestionCard) -> int | None:
+    """題號：取 id 最後一段數字（2020-001 → 1）；非數字回 None。"""
+    tail = card.id.rsplit("-", 1)[-1]
+    return int(tail) if tail.isdigit() else None
+
+
+def align(blocks_parsed: list[dict], questions: list[QuestionCard], threshold: float = 0.45) -> dict:
+    """全域貪婪指派對齊（不依賴題序；題卡順序與 PDF 順序未必一致）。
 
     算每個 (題, 區塊) 配對相似度，以 quick_ratio 預篩再算精確 ratio，
     依相似度由高到低貪婪配對（兩端皆未用且過門檻才配）。高精度：寧缺勿錯配。
+    輸出鍵名維持舊格式（answer_json＝題卡 correct_answer）。
     """
-    q_norm = [_norm(q.get("questionText", "")) for q in questions]
+    q_norm = [_norm(q.stem) for q in questions]
     b_norm = [_norm(b["question_text"]) for b in blocks_parsed]
 
     pairs = []
@@ -208,11 +218,11 @@ def align(blocks_parsed: list[dict], questions: list[dict], threshold: float = 0
         if qi in q_assigned:
             b = blocks_parsed[q_assigned[qi]]
             matches.append({
-                "qid": q.get("id"),
-                "number": q.get("number"),
+                "qid": q.id,
+                "number": _card_number(q),
                 "answer_official": b["answer"],
-                "answer_json": q.get("correctAnswer"),
-                "answer_agree": b["answer"] == q.get("correctAnswer"),
+                "answer_json": q.correct_answer,
+                "answer_agree": b["answer"] == q.correct_answer,
                 "similarity": round(SequenceMatcher(None, q_norm[qi],
                                                     b_norm[q_assigned[qi]]).ratio(), 3),
                 "citations": b["citations"],
@@ -223,8 +233,8 @@ def align(blocks_parsed: list[dict], questions: list[dict], threshold: float = 0
             })
         else:
             matches.append({
-                "qid": q.get("id"),
-                "number": q.get("number"),
+                "qid": q.id,
+                "number": _card_number(q),
                 "matched": False,
             })
     return {
@@ -254,17 +264,16 @@ def main() -> None:
         print(f"Error: 找不到 {args.year} 的官方詳解 PDF（用 --pdf 指定）。", file=sys.stderr)
         sys.exit(1)
 
-    json_path = DATA_DIR / f"{args.year}.json"
-    if not json_path.exists():
-        print(f"Error: {json_path} 不存在。", file=sys.stderr)
+    questions = [c for c in iter_question_cards(VAULT_DIR) if c.path.parent.name == args.year]
+    if not questions:
+        print(f"Error: {VAULT_DIR / 'questions' / args.year} 無題卡。", file=sys.stderr)
         sys.exit(1)
-    questions = json.loads(json_path.read_text(encoding="utf-8")).get("questions", [])
 
     print(f"PDF      : {pdf.name}")
     lines = run_pdftotext(pdf)
     blocks = split_blocks(lines)
     parsed = [parse_block(b) for b in blocks]
-    print(f"PDF 區塊 : {len(parsed)}  /  JSON 題數 : {len(questions)}")
+    print(f"PDF 區塊 : {len(parsed)}  /  題卡數 : {len(questions)}")
 
     result = align(parsed, questions)
     result["year"] = args.year
