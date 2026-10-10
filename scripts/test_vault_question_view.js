@@ -69,4 +69,25 @@ const unresolvedHtml = context.VaultQuestionView.renderHtml(unresolvedNote, { se
 assert(unresolvedHtml.includes('待覆核，不計分'), 'unresolved question should show review-only status');
 const unresolvedScore = context.VaultQuestionView.scoreAnswers([unresolvedNote.record], { '2018-360': 'A' });
 assert(unresolvedScore.total === 0 && unresolvedScore.unscored === 1, 'unresolved question should not be scored');
+
+// reference projection: shown after reveal, hidden before reveal and when empty, always escaped
+const refNote = JSON.parse(JSON.stringify(note));
+refNote.record.id = '2008-001';
+refNote.record.sr.reference = 'AJR 2008;190:S18-S22';
+const refRevealed = context.VaultQuestionView.renderHtml(refNote, { selected: 'B', revealed: true });
+assert(refRevealed.includes('<div class="vault-question-reference">參考來源：AJR 2008;190:S18-S22</div>'), 'revealed back should show reference block');
+assert(refRevealed.indexOf('vault-answer-badge') < refRevealed.indexOf('vault-question-reference'), 'reference block should follow the answer badge');
+const refHidden = context.VaultQuestionView.renderHtml(refNote, { selected: 'B', revealed: false });
+assert(!refHidden.includes('vault-question-reference'), 'reference must not render before reveal');
+const emptyRefNote = JSON.parse(JSON.stringify(note));
+emptyRefNote.record.sr.reference = '';
+const emptyRefHtml = context.VaultQuestionView.renderHtml(emptyRefNote, { selected: 'B', revealed: true });
+assert(!emptyRefHtml.includes('vault-question-reference'), 'empty reference must not render a block');
+const noRefHtml = context.VaultQuestionView.renderHtml(note, { selected: 'B', revealed: true });
+assert(!noRefHtml.includes('vault-question-reference'), 'missing reference key must not render a block');
+const escNote = JSON.parse(JSON.stringify(note));
+escNote.record.sr.reference = '<b>bold</b> & more';
+const escHtml = context.VaultQuestionView.renderHtml(escNote, { selected: 'B', revealed: true });
+assert(escHtml.includes('參考來源：&lt;b&gt;bold&lt;/b&gt; &amp; more'), 'reference text must be HTML-escaped');
+assert(!escHtml.includes('<b>bold</b>'), 'reference markup must not be interpreted');
 console.log('vault question view tests passed');

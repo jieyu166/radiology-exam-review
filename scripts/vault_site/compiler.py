@@ -62,6 +62,19 @@ class SourceNote:
             return str(value).strip()
         return PurePosixPath(self.relative_path).with_suffix("").name
 
+    @property
+    def body_text(self) -> str:
+        """Source text after the frontmatter block; links, embeds and SR syntax are only scanned here."""
+        lines = self.text.splitlines()
+        return "\n".join(lines[self.body_start_line - 1:])
+
+    def body_line(self, needle: str) -> int:
+        """1-based source line of the first body line containing ``needle`` (frontmatter never matches)."""
+        for offset, line in enumerate(self.body_text.splitlines()):
+            if needle in line:
+                return self.body_start_line + offset
+        return self.body_start_line
+
 
 @dataclass
 class BuildResult:
@@ -259,15 +272,25 @@ def _syntax_inventory(note: SourceNote, links: list[dict[str, str]], embeds: lis
             syntax = "unknown_safe_markdown"
         entries.append({"sourcePath": note.relative_path, "line": line_number, "syntax": syntax, "supported": syntax in SUPPORTED_SYNTAX})
 
-    for match in WIKILINK_RE.finditer(note.text):
+    for match in WIKILINK_RE.finditer(note.body_text):
         if match.group(0).startswith("![["):
             continue
-        entries.append({"sourcePath": note.relative_path, "line": _find_line(note.text, match.group(0)), "syntax": "wikilink", "supported": True})
+        entries.append({"sourcePath": note.relative_path, "line": note.body_line(match.group(0)), "syntax": "wikilink", "supported": True})
     for item in embeds:
         target = item["target"]
         syntax = "image_embed" if Path(target).suffix.lower() in SUPPORTED_IMAGE_EXTENSIONS else "embed"
-        entries.append({"sourcePath": note.relative_path, "line": _find_line(note.text, f"![[{target}"), "syntax": syntax, "supported": syntax in SUPPORTED_SYNTAX})
+        entries.append({"sourcePath": note.relative_path, "line": note.body_line(f"![[{target}"), "syntax": syntax, "supported": syntax in SUPPORTED_SYNTAX})
     return entries
+
+
+def _reference_value(note: SourceNote) -> tuple[str, dict[str, Any] | None]:
+    """Project frontmatter ``reference`` as a string; non-string values degrade to "" with a warning."""
+    value = note.frontmatter.get("reference")
+    if value is None:
+        return "", None
+    if isinstance(value, str):
+        return value.strip(), None
+    return "", {"severity": "warning", "code": "reference_not_string", "line": 1, "message": f"frontmatter reference must be a string, got {type(value).__name__}; projected as empty"}
 
 
 def _safe_path(value: str) -> str:
@@ -385,12 +408,13 @@ def _question_projection(note: SourceNote) -> tuple[dict[str, Any] | None, list[
         concepts = [concepts]
     if not isinstance(concepts, list):
         concepts = []
-    for match in WIKILINK_RE.finditer(note.text):
+    for match in WIKILINK_RE.finditer(note.body_text):
         if match.group(0).startswith("![["):
             continue
         target, _ = _split_target(match.group(1))
         if target and target not in concepts:
             concepts.append(target)
+    reference, _ = _reference_value(note)
     projection = {
         "front": {"startLine": note.body_start_line, "endLine": separator + 1},
         "back": {"startLine": separator + 2, "endLine": len(lines)},
@@ -401,6 +425,7 @@ def _question_projection(note: SourceNote) -> tuple[dict[str, Any] | None, list[
         "answerMode": answer_mode or "none",
         "scorable": answer_status == "confirmed" and bool(accepted) and answer_mode != "none" and not errors,
         "reviewStatus": str(note.frontmatter.get("reviewStatus") or ""),
+        "reference": reference,
         "conceptIds": sorted({str(item) for item in concepts if str(item).strip()}),
     }
     return projection, errors
@@ -413,7 +438,11 @@ def _syntax_diagnostics(note: SourceNote, syntax_inventory: list[dict[str, Any]]
             diagnostics.append({"severity": "warning", "code": "unknown_safe_markdown", "line": entry["line"], "message": f"{entry['syntax']} is preserved as raw source and rendered as degraded content"})
     for item in embeds:
         if Path(_split_target(item["target"])[0]).suffix.lower() not in SUPPORTED_IMAGE_EXTENSIONS:
-            diagnostics.append({"severity": "warning", "code": "unsupported_embed", "line": _find_line(note.text, f"![[{item['target']}"), "message": f"unsupported embed preserved: {item['target']}"})
+            diagnostics.append({"severity": "warning", "code": "unsupported_embed", "line": note.body_line(f"![[{item['target']}"), "message": f"unsupported embed preserved: {item['target']}"})
+    if note.kind == "question":
+        _, reference_warning = _reference_value(note)
+        if reference_warning:
+            diagnostics.append(reference_warning)
     return diagnostics
 
 
@@ -486,7 +515,7 @@ def build_package(vault_root: Path, output_root: Path, *, strict: bool = True, w
             seen_ids[note.note_id] = note
 
     for note in published:
-        links, embeds = _links_and_embeds(note.text)
+        links, embeds = _links_and_embeds(note.body_text)
         note_syntax = _syntax_inventory(note, links, embeds)
         syntax_inventory.extend(note_syntax)
         diagnostics = _syntax_diagnostics(note, note_syntax, embeds)
@@ -498,7 +527,7 @@ def build_package(vault_root: Path, output_root: Path, *, strict: bool = True, w
             if ext not in SUPPORTED_IMAGE_EXTENSIONS:
                 continue
             resolved, candidates = _resolve_asset(target, vault_root, by_relative, by_name)
-            line = _find_line(note.text, f"![[{target}")
+            line = note.body_line(f"![[{target}")
             if resolved is None and not candidates:
                 errors.append({"code": "missing_required_asset", "sourcePath": note.relative_path, "line": line, "target": target, "message": f"required embed not found: {target}"})
                 continue
@@ -561,6 +590,7 @@ def build_package(vault_root: Path, output_root: Path, *, strict: bool = True, w
                 answerMode=sr.get("answerMode", "single"),
                 acceptedAnswers=sr.get("acceptedAnswers", []),
                 scorable=sr.get("scorable", False),
+                reference=sr.get("reference", ""),
             ))
     relation_map: dict[str, list[str]] = {}
     search_entries: list[dict[str, Any]] = []

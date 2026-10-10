@@ -1137,6 +1137,7 @@ a { color: var(--primary); text-decoration: none; }
 .vault-question-result.correct, .vault-answer-badge { color: #166534; background: #f0fdf4; }
 .vault-question-result.incorrect { color: #991b1b; background: #fef2f2; }
 .vault-question-back { margin-top: 18px; padding-top: 16px; border-top: 1px solid var(--border); line-height: 1.7; }
+.vault-question-reference { margin: 10px 0 14px; padding: 8px 12px; border-left: 3px solid var(--border); color: var(--text-muted); font-size: .9rem; line-height: 1.6; word-break: break-word; }
 .vault-question-relations, .vault-related { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--text-muted); }
 .vault-question-concept, .vault-related a { margin-left: 6px; }
 .vault-question-list { display: grid; gap: 8px; }

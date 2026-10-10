@@ -155,6 +155,52 @@ class VaultSiteCompilerTests(unittest.TestCase):
         index_by_id = {entry["id"]: entry for entry in question_index}
         self.assertFalse(index_by_id["2024-005"]["scorable"])
 
+    def test_reference_projection_string_absent_and_non_string(self) -> None:
+        (self.vault / "questions" / "2024" / "2024-006.md").write_text(
+            "---\nid: 2024-006\nreference: Radiology Review Manual P.466\n---\n"
+            "(A) One\n(B) Two\n(C) Three\n??\n**Ans: B**\n",
+            encoding="utf-8",
+        )
+        (self.vault / "questions" / "2024" / "2024-007.md").write_text(
+            "---\nid: 2024-007\nreference: [AJR, RadioGraphics]\n---\n"
+            "(A) One\n(B) Two\n(C) Three\n??\n**Ans: A**\n",
+            encoding="utf-8",
+        )
+        output = self.root / "reference-dist"
+        result = build_package(self.vault, output, strict=True)
+        self.assertTrue(result.ok, result.errors)
+
+        with_ref = json.loads((output / "records/question/2024-006.json").read_text(encoding="utf-8"))
+        self.assertEqual(with_ref["sr"]["reference"], "Radiology Review Manual P.466")
+        without_ref = json.loads((output / "records/question/2024-001.json").read_text(encoding="utf-8"))
+        self.assertEqual(without_ref["sr"]["reference"], "")
+        list_ref = json.loads((output / "records/question/2024-007.json").read_text(encoding="utf-8"))
+        self.assertEqual(list_ref["sr"]["reference"], "")
+
+        warnings = [item for item in result.warnings if item["code"] == "reference_not_string"]
+        self.assertEqual([item["sourcePath"] for item in warnings], ["questions/2024/2024-007.md"])
+
+        index_by_id = {entry["id"]: entry for entry in json.loads((output / "indexes/questions.json").read_text(encoding="utf-8"))["entries"]}
+        self.assertEqual(index_by_id["2024-006"]["reference"], "Radiology Review Manual P.466")
+        self.assertEqual(index_by_id["2024-001"]["reference"], "")
+        search_text = (output / "indexes/search.json").read_text(encoding="utf-8")
+        self.assertNotIn("Radiology Review Manual", search_text)
+
+    def test_frontmatter_wikilink_in_reference_does_not_duplicate_links(self) -> None:
+        (self.vault / "questions" / "2024" / "2024-008.md").write_text(
+            "---\nid: 2024-008\nconcepts: [brain-abscess]\nreference: \"See [[brain-abscess]] and [[other-concept]]\"\n---\n"
+            "Stem [[brain-abscess]]\n(A) One\n(B) Two\n(C) Three\n??\n**Ans: C**\n",
+            encoding="utf-8",
+        )
+        output = self.root / "wikilink-dist"
+        result = build_package(self.vault, output, strict=True)
+        self.assertTrue(result.ok, result.errors)
+        record = json.loads((output / "records/question/2024-008.json").read_text(encoding="utf-8"))
+        self.assertEqual(record["links"], [{"target": "brain-abscess", "display": ""}])
+        self.assertEqual(record["sr"]["conceptIds"], ["brain-abscess"])
+        wikilink_lines = [item["line"] for item in result.report["syntaxInventory"] if item["sourcePath"] == "questions/2024/2024-008.md" and item["syntax"] == "wikilink"]
+        self.assertEqual(wikilink_lines, [6])
+
     def test_missing_and_ambiguous_assets_are_hard_errors(self) -> None:
         (self.vault / "concepts" / "missing.md").write_text(
             "# Missing\n![[not-found.png]]\n",

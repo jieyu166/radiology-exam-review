@@ -87,7 +87,9 @@ const VaultQuestionView = (function () {
       const tag = mode === 'exam' ? 'button' : 'button';
       return `<${tag} type="button" class="vault-question-option${selectedClass}${answerClass}" data-option="${_esc(option.letter)}"><span class="option-letter">${_esc(option.letter)}.</span><span>${_noteRenderer(option.text, note, options)}</span></${tag}>`;
     }).join('');
-    const backHtml = revealed ? `<div class="vault-question-back"><div class="vault-answer-badge">${_esc(scorable ? `答案：${correct || '?'}` : (sr.answerStatus === 'no_valid_answer' ? '無可接受答案' : '答案待覆核'))}</div>${_noteRenderer(_sliceLines(note.raw, sr.back), note, options)}</div>` : '';
+    const reference = typeof sr.reference === 'string' ? sr.reference.trim() : '';
+    const referenceHtml = revealed && reference ? `<div class="vault-question-reference">參考來源：${_esc(reference)}</div>` : '';
+    const backHtml = revealed ? `<div class="vault-question-back"><div class="vault-answer-badge">${_esc(scorable ? `答案：${correct || '?'}` : (sr.answerStatus === 'no_valid_answer' ? '無可接受答案' : '答案待覆核'))}</div>${referenceHtml}${_noteRenderer(_sliceLines(note.raw, sr.back), note, options)}</div>` : '';
     const relationHtml = (sr.conceptIds || []).map(id => `<a class="concept-link vault-question-concept" href="#/concept/${encodeURIComponent(id)}">${_esc(id)}</a>`).join('');
     return `<article class="vault-question" data-question-id="${_esc(note.record.id)}" data-source-sha256="${_esc(note.record.sourceSha256 || '')}">
       <div class="vault-question-front">${_noteRenderer(parts.questionText, note, options)}</div>
