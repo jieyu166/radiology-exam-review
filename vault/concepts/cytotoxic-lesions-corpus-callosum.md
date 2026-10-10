@@ -13,11 +13,6 @@ dateRev: 2026-07-02
 
 # cytotoxic-lesions-corpus-callosum
 
-> [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-nma-cytotoxic-lesions-corpus-callosum-v1.png]]
-> [[summary-graphics/images/remaining-nma-cytotoxic-lesions-corpus-callosum-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-nma-cytotoxic-lesions-corpus-callosum|圖稿與覆核紀錄]]
-> 教學示意，待醫師覆核。
-
 **CLOCCs（cytotoxic lesions of the corpus callosum）為胼胝體壓部（splenium）出現的暫時性細胞毒性水腫，DWI 呈高訊號合併 ADC 降低，通常為可逆性；常見原因包括抗癲癇藥物驟停、瀰漫性軸索損傷、腦膜腦炎、肝性腦病變等。**
 
 ## Summary

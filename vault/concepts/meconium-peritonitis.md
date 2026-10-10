@@ -9,11 +9,6 @@ dateRev: 2026-07-02
 
 # meconium-peritonitis
 
-> [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-bph-meconium-peritonitis-v1.png]]
-> [[summary-graphics/images/remaining-bph-meconium-peritonitis-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-meconium-peritonitis|圖稿與覆核紀錄]]
-> 教學示意，待醫師覆核。
-
 **Meconium peritonitis 因胎兒時期腸穿孔導致 chemical peritonitis。Fibroadhesive type 最常見。Water-soluble contrast enema 可用於鑑別診斷。嚴重者（calcification + ascites + pseudocyst）需要手術。**
 
 ## Summary

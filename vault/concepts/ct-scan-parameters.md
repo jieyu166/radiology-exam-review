@@ -13,11 +13,6 @@ dateRev: 2026-07-02
 
 # ct-scan-parameters
 
-> [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-other-ct-scan-parameters-v1.png]]
-> [[summary-graphics/images/remaining-other-ct-scan-parameters-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-other-ct-scan-parameters|圖稿與覆核紀錄]]
-> 教學示意，待醫師覆核。
-
 **CT 掃描關鍵參數：Pitch = 每轉一圈床台移動距離 / beam collimation，僅適用於 helical 模式，axial 模式下不需調整。減少 motion artifact 靠加快掃描速度（縮短 rotation time、增加 pitch）。**
 
 ## Summary

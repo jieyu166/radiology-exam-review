@@ -14,11 +14,6 @@ dateRev: 2026-07-03
 
 # fibromatosis-colli
 
-> [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-bph-fibromatosis-colli-v1.png]]
-> [[summary-graphics/images/remaining-bph-fibromatosis-colli-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-fibromatosis-colli|圖稿與覆核紀錄]]
-> 教學示意，待醫師覆核。
-
 **新生兒單側頸部腫塊合併斜頸、病灶「侷限在胸鎖乳突肌（SCM）內」、有產傷（forceps/難產/breech）病史——三者合一直接指向 fibromatosis colli；此為非腫瘤性、自限性疾病，多於 4-8 個月自行緩解，僅需物理治療，無需切片或手術。** 判讀分水嶺：**超音波上「病灶在 SCM 肌肉內、縱切面可見完整肌纖維穿過、無肌外腫塊或淋巴結」＝良性肌內病變；一旦見到肌外延伸/淋巴結腫大/破壞，就要往 neuroblastoma、rhabdomyosarcoma 等惡性想。**
 
 ## Summary
