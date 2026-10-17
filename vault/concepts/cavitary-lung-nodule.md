@@ -1,7 +1,9 @@
 ---
-concepts: [cavitary-lung-nodule]
+concepts:
+  - cavitary-lung-nodule
 name: Cavitary Lung Nodule — DDx
-subspecialty: [CH]
+subspecialty:
+  - CH
 aliases:
   - cavitary lung lesion
   - cavitating pulmonary nodule
@@ -12,6 +14,11 @@ same:
 ---
 
 # cavitary-lung-nodule
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-chcv-cavitary-lung-lesions-v1.png]]
+> [[summary-graphics/images/remaining-chcv-cavitary-lung-lesions-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-cavitary-lung-lesions|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **空洞(cavity)＝壞死組織液化經支氣管排出後留下的厚壁含氣腔（壁＞4 mm；薄壁＜4 mm 多為 cyst/bulla/pneumatocele）。DDx 用 CAVITY 口訣：Cancer／Autoimmune／Vascular／Infection／Trauma／Youth(congenital)。** 判讀分水嶺一：**壁厚（Woodring）——壁＜7 mm 對良性高度特異、＞24 mm 幾乎惡性、內壁不規則＋外緣局部凹陷偏惡性**;分水嶺二：**數目（單發＝癌/膿瘍 vs 多發＝轉移/septic emboli/GPA/類風濕）＋位置（上葉＝癌/再活化 TB;下肺周邊＝septic emboli/轉移）**;分水嶺三：**特異徵象——air crescent(aspergilloma)、feeding vessel(septic emboli)、air-fluid level(膿瘍)、satellite/tree-in-bud(TB)**。
 
@@ -64,7 +71,7 @@ same:
 [^2]: *Pneumocystis pneumonia*. Radiopaedia.org（實際查證 accessed 2026-06-17）：典型瀰漫毛玻璃、可形成囊腔/pneumatocele；非以厚壁空洞結節為主要表現。
 [^3]: *Differential Diagnosis of Cavitary Lung Lesions*（PMC6100641,**開放全文已讀** accessed 2026-06-28）：Woodring 壁厚——**＜7 mm 對良性高度特異、＞24 mm 對惡性**（薄壁癌存在,非絕對）;肺癌 10–15% 空洞、GPA ~25%、sarcoidosis ＜1%;膿瘍中-厚壁＋邊緣強化;TB 上葉＋satellite;NTM 小空洞 ＜2.5 cm;轉移以 SCC/adeno/sarcoma;強調需合併臨床判斷。
 [^4]: *Pulmonary cavitary lesions: a captivating visual review*（PMC12433063,依搜尋摘要＋多來源交叉確認、未逐段讀全文 accessed 2026-06-28）＋ Radiopaedia *Pulmonary cavity*：壁厚 ≤4 mm 良性/≥15 mm 惡性、內壁不規則＋外緣凹陷偏惡性;單發(癌/膿瘍) vs 多發(轉移/septic emboli/GPA);上葉(癌/TB) vs 下肺周邊(septic emboli/轉移);feeding vessel(septic emboli)、air crescent(aspergilloma)、air-fluid level(膿瘍)、satellite/tree-in-bud(TB)。
-[^5]: 2019 交換考詳解；Radiology: Review Manual, 7th edition, page 278：胸部X光/CT見開洞與air-fluid levels之鑑別診斷；empyema合併氣液平面應聯想bronchopleural fistula。
+[^5]: 2019 交換考詳解；Radiology Review Manual, 7th edition, page 278：胸部X光/CT見開洞與air-fluid levels之鑑別診斷；empyema合併氣液平面應聯想bronchopleural fistula。
 
 ## 考題
 ```dataview

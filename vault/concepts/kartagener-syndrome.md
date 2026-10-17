@@ -1,7 +1,9 @@
 ---
-concepts: [kartagener-syndrome]
+concepts:
+  - kartagener-syndrome
 name: Kartagener Syndrome (Primary Ciliary Dyskinesia with Situs Inversus)
-subspecialty: [CH]
+subspecialty:
+  - CH
 aliases:
   - primary ciliary dyskinesia
   - situs inversus
@@ -10,6 +12,11 @@ dateRev: 2026-07-01
 ---
 
 # kartagener-syndrome
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-chcv-kartagener-syndrome-v1.png]]
+> [[summary-graphics/images/remaining-chcv-kartagener-syndrome-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-kartagener-syndrome|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **Kartagener syndrome為原發性纖毛運動不良（primary ciliary dyskinesia）合併situs inversus（內臟逆位）之典型三聯症，兒童常見表現包含situs inversus（含dextrocardia）、支氣管擴張、慢性鼻竇炎；並有3-5%合併先天性心臟病風險。**
 
@@ -37,7 +44,7 @@ dateRev: 2026-07-01
 - 「Situs solitus為Kartagener syndrome的表現」為錯誤——Kartagener syndrome之特徵為**situs inversus**，並非situs solitus（正常內臟位置）。[^1]
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Radiology: Review Manual, 7th edition, page 367。
+[^1]: 2019 交換考詳解；Radiology Review Manual, 7th edition, page 367。
 [^2]: **Tier 1** Raidt J, Loges NT, Olbrich H, Wallmeier J, Pennekamp P, Omran H. *Primary ciliary dyskinesia*. Presse Med 2023;52(3):104171（據 PubMed，DOI [10.1016/j.lpm.2023.104171](https://doi.org/10.1016/j.lpm.2023.104171)；實際查證 accessed 2026-07-04）——PCD綜論，說明Kartagener為PCD合併situs inversus（約占半數PCD）、支氣管擴張與全鼻竇炎之表現、超過50個致病基因、以及需整合nNO／纖毛擺動／電顯／基因之診斷路徑。原「官方詳解/教科書」弱來源已由本次 DOI Tier 1 查核升級。
 
 > [!question]- Which of the following is NOT characterized Kartagener syndrome? (2022-353)

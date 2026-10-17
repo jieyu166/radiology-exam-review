@@ -1,7 +1,9 @@
 ---
-concepts: [pneumothorax-imaging]
+concepts:
+  - pneumothorax-imaging
 name: Pneumothorax — Imaging & Absorption
-subspecialty: [CH]
+subspecialty:
+  - CH
 aliases:
   - pneumothorax
   - tension pneumothorax
@@ -10,6 +12,11 @@ dateRev: 2026-07-03
 ---
 
 # pneumothorax-imaging
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-chcv-pneumothorax-imaging-v1.png]]
+> [[summary-graphics/images/remaining-chcv-pneumothorax-imaging-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-pneumothorax-imaging|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **氣胸要點：放胸管前須與大泡性肺氣腫/囊腫病區分以免造成醫源性支氣管胸膜瘻;自行吸收約 1.5%/天（room air）;『純氧』可使吸收加速約 3-4 倍。** 判讀分水嶺：**置胸管前辨識 bulla/cyst（避免誤插造成瘻管）;吸收速率約 1.25-1.8% 半胸容積/天（room air），補充純氧加速約 3-4 倍;吐氣相 X 光是否較吸氣相更敏感存爭議（現代證據多認為全吸氣足夠）。**
 
@@ -46,7 +53,7 @@ dateRev: 2026-07-03
 
 ### 參考來源
 [^1]: 官方 2017 詳解；Diagnostic Imaging: Chest, 2nd ed., II.4.28：氣胸放胸管前須與 bulla/cyst 區分（避免支氣管胸膜瘻）;吸收約 1.25-1.8% 半胸/天（~1.5%/天 room air）;純氧加速吸收約 3-4 倍;吐氣相 vs 吸氣相敏感度有爭議。
-[^2]: 2019 交換考詳解；Radiology: Review Manual, 7th edition, page 273：氣漏症候群（張力性氣胸、心包膜積氣、縱膈積氣、腹膜積氣）中，張力性氣胸應立即處置。
+[^2]: 2019 交換考詳解；Radiology Review Manual, 7th edition, page 273：氣漏症候群（張力性氣胸、心包膜積氣、縱膈積氣、腹膜積氣）中，張力性氣胸應立即處置。
 [^3]: Gaillard F, et al. *Pneumothorax*. Radiopaedia, rID-4578, DOI 10.53347/rID-4578（輔助來源）——吐氣相 X 光：肺變小變緻密、氣胸大小不變故更明顯，**惟有作者認為偵測率無差異**（"some authors suggest that there is no difference in detection rate"）——佐證吐氣相 vs 吸氣相敏感度之爭議。
 [^4]: **Tier 1** Nirattisaikul S, Franquet T. *Pneumothorax*（Chest, Pleura, General Imaging Patterns, DDx）. STATdx, Elsevier, updated 02/13/20（11 refs；實際查證 accessed 2026-07-04）——**直立位（臟層胸膜外側之氣、pleural line、線外無肺紋）；仰臥位（deep sulcus sign、上腹過度透亮、posteromedial 透亮三角）；吐氣相放大氣胸**；**US 較仰臥胸片敏感、如 CT 敏感於外傷性（lung sliding/B 線/lung pulse 消失、lung point）**；**張力性（對側縱膈移位、橫膈下陷、患側塌陷）、再擴張肺水腫**；病因（原發自發 10-30 歲高瘦吸菸、續發自發 COPD/CF/肺癌/ILD/sarcoid、囊腫性肺病 LAM 80%/LCH 25%/BHD 80%、catamenial 95% 右側、metastatic sarcoma、Marfan/EDS、GPA/bronchocentric granulomatosis、scuba diving）；**mimics（皮膚皺褶、胸管軌跡、巨大 bulla、肩胛緣、肋骨伴隨陰影）**。原「官方/Radiopaedia」弱來源已由本次 STATdx Tier 1 查核升級。
 
