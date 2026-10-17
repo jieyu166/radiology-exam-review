@@ -1,7 +1,9 @@
 ---
-concepts: [sinus-venosus-atrial-septal-defect]
+concepts:
+  - sinus-venosus-atrial-septal-defect
 name: Sinus Venosus Atrial Septal Defect (SV-ASD)
-subspecialty: [CV]
+subspecialty:
+  - CV
 aliases:
   - sinus venosus ASD
   - SV-ASD
@@ -10,6 +12,11 @@ dateRev: 2026-07-05
 ---
 
 # sinus-venosus-atrial-septal-defect
+
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-transfer-sinus-venosus-atrial-septal-defect-v1.png]]
+> [[summary-graphics/images/remaining-transfer-sinus-venosus-atrial-septal-defect-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-transfer-sinus-venosus-atrial-septal-defect|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
 
 **Sinus venosus ASD（靜脈竇型）位於『上腔靜脈-右心房交界（superior，較常見）』或『下腔靜脈交界（inferior）』附近，位在 fossa ovalis 之上或下方——不是靠近／位於 coronary sinus 後方（那是 coronary sinus / unroofed coronary sinus 型，另一種類）。判讀分水嶺：SV-ASD 與 partial anomalous pulmonary venous return（PAPVR）關聯最強；右上／右中肺葉靜脈異常引流入 SVC，導致右心房、右心室擴大與右心壓力上升。若沒做 ECG-gated cardiac CT／MR，缺損與異常肺靜脈回流易被漏診而誤判為原發性肺高壓。**
 
@@ -20,7 +27,7 @@ dateRev: 2026-07-05
 - **診斷陷阱**：右心擴大合併肺高壓表現時，若未用 ECG-gated cardiac CT／cine MR 直接顯示缺損與 PAPVR，可能誤判為 **primary pulmonary hypertension**。[^1][^2]
 
 ## 放射科醫師影像判讀重點
-- **ASD 四型定位**：ostium secundum（75%，fossa ovalis 中段）、ostium primum（15–20%，前下、近房室瓣）、**sinus venosus（5–10%，SVC/IVC 交界，fossa ovalis 之上/下）**、unroofed coronary sinus（<1%，LA 與 coronary sinus 相通，可伴 persistent left SVC）。SV-ASD 與 coronary sinus 型定位不同，勿混淆。[^1][^2]
+- **ASD 四型定位**：secundum、primum、sinus venosus、coronary sinus 的位置、比例與合併異常，統一見 [[asd-types]]。
 - **最佳工具**：ECG-gated cardiac CTA／cine MR 可直接顯示缺損、定量分流（Qp:Qs，>1.5 為顯著分流）並評估 PAPVR；echocardiography、MR、CT 互補。[^2]
 - **CT/MR 徵象**：SVC-RA 交界之上房中膈缺損、fallen contrast sign（左心房相依處高密度對比）、右上肺靜脈引流入 SVC 之 PAPVR。[^2]
 - **X 光**：RA、RV 擴大、shunt vascularity、肺動脈幹增大；左心房通常正常（有別於 VSD/PDA）。[^2]

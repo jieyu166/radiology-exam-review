@@ -1,7 +1,9 @@
 ---
-concepts: [endocardial-cushion-defect]
+concepts:
+  - endocardial-cushion-defect
 name: Endocardial Cushion Defect (AV Septal Defect)
-subspecialty: [CV]
+subspecialty:
+  - CV
 aliases:
   - endocardial cushion defect
   - ECD
@@ -24,8 +26,8 @@ dateRev: 2026-07-10
 
 ### 型態分型
 - **完全型 CAVSD（complete）**：原發孔(ostium primum) ASD ＋ 流入道(inlet) VSD ＋**單一共同房室瓣（common AV valve，通常 5 葉）**，房、室在共同瓣下方互相交通。[^1][^2]
-- **部分型 partial（=incomplete）**：原發孔 ASD ＋**兩個分開的房室瓣口**＋**二尖瓣裂隙（cleft mitral valve）**；無（或極小）室中隔層級分流。[^1][^2]
-- **中間／過渡型 intermediate / transitional**：有原發孔 ASD ＋流入道 VSD ＋**兩個分開的瓣口**，但缺乏完全型那種裸露的共同瓣下中隔脊。[^2]
+- **部分型 partial（=incomplete）**：原發孔 ASD ＋**兩個分開的房室瓣口**＋**二尖瓣裂隙（cleft mitral valve）**；沒有心室層級分流。[^2][^5]（[^1] StatPearls 的轉述把 inlet VSD 也列入 partial，與 STATdx 的定義不同；STATdx 把「再加上限制性 inlet VSD」者歸為 intermediate／transitional[^6]。）
+- **中間／過渡型 intermediate / transitional**：有原發孔 ASD ＋**限制性**流入道 VSD ＋**兩個分開的瓣口**，但缺乏完全型那種裸露的共同瓣下中隔脊。[^2][^6]
 - **Rastelli 分型（僅用於完全型）**：依**前上橋葉(anterosuperior bridging leaflet)**對室中隔的附著／騎跨程度分 A/B/C — A：橋葉於室中隔上分開且附著（約 69%，最常見）；B：乳突肌異常由右側騎跨附著至左橋葉（約 9%）；C：橋葉未分開、無中隔附著、形成大缺損且最常合併其他異常（約 22%）。短軸切面（echo 或 CTA）最適合判讀 Rastelli。[^1][^4]
 
 ### 影像判讀骨架（依模態）
@@ -41,7 +43,7 @@ dateRev: 2026-07-10
 - 與**唐氏症（trisomy 21）高度相關** — 約 40–50% 唐氏症兒童有 AVSD，且為該族群最常見的心臟缺損；亦與**內臟異位症（heterotaxy，asplenia/polysplenia）**及其他遺傳症候群相關。[^1][^2][^3]
 
 ### 鑑別診斷（DDx）
-- **單純續發孔 / 原發孔 ASD**：原發孔 ASD 位置低、緊鄰房室瓣，但**單純 primum ASD 不具 inlet VSD 與共同瓣**；ECD 的關鍵是房室瓣 offset 消失。[^2]
+- **續發孔 ASD**：位於中段卵圓窩，房室瓣 offset 正常、二尖瓣無裂隙。**原發孔（primum）ASD 本身就是 partial AVSD**（AVSD 光譜最輕的一型），和完全型的差別在沒有 inlet VSD 與共同瓣；ECD 的關鍵是房室瓣 offset 消失。[^2][^6]
 - **單純 inlet VSD**：有室中隔流入道缺損但房室瓣 offset 正常、無原發孔 ASD。[^2]
 - **其他先心**（共同房室瓣可見於 heterotaxy 複雜先心）：須一併評估內臟位置與靜脈回流。[^2]
 
@@ -64,6 +66,7 @@ dateRev: 2026-07-10
 [^2]: Radiopaedia（輔助）＋ StatPearls 交叉比對：ECD 本質為 common AV junction;diagnostic hallmark＝房室瓣 offset 消失、同一水平;DDx 與單純 primum ASD／inlet VSD 之區分;與 heterotaxy 關聯。
 [^3]: Radiology Key《Atrioventricular Septal Defects》（教科書章節摘錄, Tier 2）：CXR 心臟擴大＋肺血增多、右房與肺動脈擴大;echo pathognomonic signs（goose-neck、unwedged aorta、房室瓣 offset loss 同一水平、共同瓣、scooped inlet septum）;唐氏症關聯。https://radiologykey.com/atrioventricular-septal-defects/
 [^4]: 多排 CT 血管攝影 AVSD 影像（ESR/ECR 教學海報, Tier 2）＋ Thoracic Key/Radiology Key：Rastelli A/B/C 依前上橋葉騎跨分型可於短軸 CTA 判讀;LVOT 拉長前移、主動脈不再 wedged 於房室瓣環之間→ goose-neck deformity。https://thoracickey.com/atrioventricular-canal-defects-2/
+[^6]: Rojas CA, Abbara S. Endocardial Cushion Defect. STATdx, Cardiac › Diagnosis › Congenital Heart Disease, last updated 2025-01-23. Elsevier.（經機構登入已讀，2026-10-17）：partial＝primum ASD、兩個瓣口；intermediate／transitional＝再加上限制性 inlet VSD；complete＝primum ASD＋非限制性 inlet VSD＋共同房室瓣；primum ASD 屬 endocardial cushion 缺損光譜最輕型。
 [^5]: **Tier 1** Richardson RR. *Atrioventricular Septal Defect*（Pediatrics, Cardiac, Congenital Heart Disease, Dx）. STATdx, Elsevier, updated 10/20/21（20 refs；實際查證 accessed 2026-07-04）——**AVSD/AVC/endocardial cushion defect＝房中隔+室中隔+單/雙 AV 瓣受累之譜系**；complete（房室中隔缺損 + 共同 AV 瓣）、partial（primum ASD + 分開瓣口 + 二尖瓣裂）、unbalanced（一心室發育不全）；**CXR 大心臟+大主肺動脈+肺血增加、肺高壓者肺過度充氣橫膈外翻**；**anterior/superior aorta + LVOT 拉長變窄 + dysplastic 5 葉共同瓣 → gooseneck deformity**；**echo 定病灶（primum echo dropout + 二尖瓣裂）、MR 算共同瓣逆流/Qp:Qs/心室發育不全最佳**；**唐氏症 44-48% 有 AVC、佔先心 5-8%（先心 4-8/1000）、關聯 heterotaxy/TOF**；治療（部分型 pericardial patch 經右房、完全型 2-5 歲修補死亡率 3%、unbalanced Glenn→Fontan、併發 MR/心律不整/heart block）；DDx（VSD、ASD、PDA）。原「StatPearls/Radiopaedia/教學海報」弱來源已由本次 STATdx Tier 1 查核升級。
 
 ## 題目

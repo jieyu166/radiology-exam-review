@@ -1,7 +1,10 @@
 ---
-concepts: [cardioembolic-stroke]
+concepts:
+  - cardioembolic-stroke
 name: Cardioembolic Stroke — Sources
-subspecialty: [NR, CV]
+subspecialty:
+  - NR
+  - CV
 aliases:
   - cardioembolic stroke
   - cardiac sources of embolism
@@ -13,7 +16,7 @@ same:
 
 # cardioembolic-stroke
 
-**腦栓塞來自「左心」——左心的血栓直接打入體循環、進入腦動脈；右心的栓子走肺動脈，造成 PE 而非腦梗。** 因此 AF（左心耳）、AMI（左室附壁血栓）、感染性心內膜炎（左側瓣膜）都是腦栓塞來源；ARVD/ARVC 雖引起心律不整卻是「右室」病，栓子打往肺，是猝死原因而非腦中風原因。記憶鉤：「左心→腦、右心→肺，記住方向不搞混」。
+**腦栓塞來自「左心」——左心的血栓直接打入體循環、進入腦動脈；右心的栓子走肺動脈，造成 PE 而非腦梗。** 因此 AF（左心耳）、AMI（左室附壁血栓）、感染性心內膜炎（左側瓣膜）都是腦栓塞來源；ARVD/ARVC 雖引起心律不整卻是「右室」病，栓子打往肺，是猝死原因而非腦中風原因。記憶鉤：「左心→腦、右心→肺，記住方向不搞混」。例外是**矛盾栓塞（paradoxical embolism）**：靜脈血栓經 PFO 或 ASD 由右往左穿過心房，進入體循環造成腦栓塞，栓子來源是靜脈，不是左心[^6]。
 
 ## Summary
 - **心房顫動（AF）**：左心房／左心耳血栓，是最常見心源性腦栓塞來源之一。[^1]
@@ -30,7 +33,7 @@ same:
 - **判讀陷阱**：SVS 形態差異為統計傾向、單一個案不可據以斷定來源；MRA 易把重度狹窄誤判為阻塞造成 LAA 之 SVS 假陰性；約 1/4「看似腔隙」的小皮質下梗塞其實為 branch atheromatous disease（大血管機轉），不應一律歸為小血管病。[^4][^5]
 
 ## 臨床重點（5 句）
-- 心源性腦栓塞屬 TOAST 分型中的 cardioembolism，占缺血性中風相當比例，來源包含心房顫動、近期心肌梗塞、感染性心內膜炎、人工瓣膜、PFO/ASD 之矛盾栓塞等左心來源。[^1]
+- 心源性腦栓塞屬 TOAST 分型中的 cardioembolism，占缺血性中風相當比例，來源包含心房顫動、近期心肌梗塞、感染性心內膜炎、人工瓣膜、以及經 PFO/ASD 的矛盾栓塞（栓子來自靜脈，經心房右向左分流進入體循環）。[^1][^6]
 - 心房顫動（左心房/左心耳血栓）是最常見的高風險心源性栓塞來源之一，治療核心為抗凝而非抗血小板。[^1]
 - ARVD/ARVC 為右心室心肌病，以室性心律不整與年輕人猝死為主要表現，栓子走肺循環（PE），**非**腦缺血中風來源。[^2]
 - 心源性梗塞體積大、再灌流時血腦障壁破壞，出血性轉化率高於粥狀硬化阻塞（一研究 27.8% vs 7.6%），影響抗凝啟動時機。[^4]
@@ -39,7 +42,7 @@ same:
 # 影像判讀
 
 ## 定義與機轉
-- **心源性腦栓塞**：栓子源自左心（左心耳血栓、左室附壁血栓、瓣膜贅生物、PFO/ASD 之矛盾栓塞），順血流打入體循環、卡在腦動脈近端分叉處，造成突發、完全性的血管阻塞。屬 TOAST 分型中的 **cardioembolism**。[^3]
+- **心源性腦栓塞**：栓子多源自左心（左心耳血栓、左室附壁血栓、瓣膜贅生物）；另有經 PFO/ASD 的矛盾栓塞，栓子來自靜脈[^6]。順血流打入體循環、卡在腦動脈近端分叉處，造成突發、完全性的血管阻塞。屬 TOAST 分型中的 **cardioembolism**。[^3]
 - 栓子成分多為 **紅色血栓**（富含紅血球與纖維蛋白），與大動脈粥狀硬化的原位白色血栓（血小板/纖維蛋白為主、紅血球少）組成不同，是兩者影像徵象差異的病理基礎。[^4]
 
 ## 影像分布特徵（最具鑑別力）
@@ -69,6 +72,7 @@ same:
 [^2]: *Arrhythmogenic right ventricular cardiomyopathy（ARVD/ARVC）*. Radiopaedia.org（實際查證 accessed 2026-06-17）：右心室心肌病,「one of the more common causes of **sudden cardiac death** in young patients」——以室性心律不整/猝死為主,非腦栓塞來源。
 [^3]: 教學參考（vascular territories / embolic vs watershed vs lacunar 分布）：*Vascular territories of the Brain*, The Radiology Assistant（radiologyassistant.nl，accessed 2026-06-29）。栓塞性梗塞為皮質/灰白質交界、楔形、可單一領域亦可多領域雙側散在（栓子陣雨）；分水嶺位主要動脈交界、深部白質；腔隙為深部穿支供應區小病灶。
 [^4]: PMC 開放全文（susceptibility vessel sign 形態 / 出血性轉化 / 紅白血栓組成 / TOAST 區分 CE vs LAA）：Sun A-P, et al. *Acute Cardioembolic and Thrombotic Middle Cerebral Artery Occlusions Have Different Morphological Susceptibility Signs on T2*-Weighted MR Images*. BioMed Research International. 2015;2015:839820. [DOI](https://doi.org/10.1155/2015/839820)（PMC4620393，據 PubMed 檢索）。心源性 SVS 直徑較大、長度較短、陽性率較高；梗塞體積較大、HT 率 27.8% vs 7.6%。
+[^6]: Rojas CA, Kligerman S, Abbara S. Atrial Septal Defects. STATdx, Cardiac › Diagnosis › Congenital Heart Disease, last updated 2025-01-28. Elsevier.（經機構登入已讀，2026-10-17）：PFO 與隱源性中風相關；疑似或確定 paradoxical embolism 是關閉 ASD/PFO 的適應症之一。
 [^5]: 小皮質下梗塞 / 腔隙與穿支機轉、branch atheromatous disease 參考：*Examining Subcortical Infarcts in the Era of Acute Multimodality CT Imaging*（PMC5136539，accessed 2026-06-29）；腔隙 ≤20 mm 單一穿支供應區，約 1/4 小皮質下梗塞具大血管（CTP/CTA 可見）機轉。
 
 ## 考題
