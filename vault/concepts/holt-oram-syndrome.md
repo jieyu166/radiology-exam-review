@@ -14,7 +14,7 @@ dateRev: 2026-10-17
 > [!info] Summary 圖・待醫師覆核
 > ![Summary 圖：Holt-Oram 症候群（待醫師覆核 v2）](https://img-hosting.jieyu166.workers.dev/i/XuNoMHk.png)
 > [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/XuNoMHk.png)
-> 心手症候群：橈側列、心臟中膈與傳導異常的教學示意。
+> 心手症候群：橈側列、心臟中膈與傳導異常的教學示意。左X光 from Radiopaedia.
 
 **Holt-Oram 症候群又叫「心手症候群」：TBX5 基因突變、體染色體顯性遺傳，所有病人都有上肢（橈側、拇指）異常，大多數合併先天性心臟病，最常見是 secundum ASD。**[^1][^2] 考題常問「哪一個不是它的特徵」：上肢異常、ASD、VSD 都是[^1][^4]；2022 官方答案是 pulmonary atresia（來源列出的心臟異常中沒有它）。
 

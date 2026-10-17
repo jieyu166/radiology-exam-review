@@ -1,7 +1,9 @@
 ---
-concepts: [atypical-teratoid-rhabdoid-tumor]
+concepts:
+  - atypical-teratoid-rhabdoid-tumor
 name: Atypical Teratoid/Rhabdoid Tumor
-subspecialty: [NR]
+subspecialty:
+  - NR
 aliases:
   - atypical teratoid rhabdoid tumor
   - AT/RT
