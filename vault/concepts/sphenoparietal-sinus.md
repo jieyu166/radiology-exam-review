@@ -13,13 +13,11 @@ dateRev: 2026-10-17
 # sphenoparietal-sinus
 
 > [!info] 解剖圖（Posey 2023，CC BY）
-> ![[images/sphenoparietal-sinus-posey2023-fig1.jpg]]
-> 右側蝶頂竇逐步大體解剖：(A) 移除蝶骨小翼前、(B) 移除後；B 圖可見蝶頂竇沿小翼走向海綿竇[^1]。
->
-> ![[images/sphenoparietal-sinus-posey2023-fig5.jpg]]
+> ![Posey 2023 Figure 5：顱底硬膜靜脈竇示意圖（CC BY）](https://img-hosting.jieyu166.workers.dev/i/DzI9cMX.jpg)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/DzI9cMX.jpg)
 > 作者繪製的顱底硬膜靜脈竇示意圖，標出蝶頂竇位置[^1]。
 >
-> 圖片出處：Posey G, et al. Cureus 2023;15(1):e33419，Figure 1、5，[doi:10.7759/cureus.33419](https://doi.org/10.7759/cureus.33419)。Copyright © 2023 Posey et al.，以 Creative Commons Attribution License 釋出；圖片未修改。
+> 圖片出處：Posey G, et al. Cureus 2023;15(1):e33419，Figure 5，[doi:10.7759/cureus.33419](https://doi.org/10.7759/cureus.33419)。Copyright © 2023 Posey et al.，以 Creative Commons Attribution License 釋出；圖片未修改。
 
 **蝶頂竇（sphenoparietal sinus）是沿蝶骨小翼下方、往內流進海綿竇的小硬膜竇。** 課本常寫「淺中大腦靜脈（SMCV）流進蝶頂竇」，但解剖研究對這點有爭議：有研究認為 SMCV 從來不接蝶頂竇，而是流到海綿竇旁的通道或直接入海綿竇[^2][^3]。考題描述的「三種引流型」，和 Suzuki 對 SMCV 引流型的描述對得上（本頁推論）[^5]。
 
