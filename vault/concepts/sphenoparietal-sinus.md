@@ -1,69 +1,133 @@
 ---
 concepts: [sphenoparietal-sinus]
-name: Sphenoparietal Sinus — Drainage Patterns
+name: Sphenoparietal Sinus
 subspecialty: [NR]
 aliases:
   - sphenoparietal sinus
   - sphenoparietal sinus of Breschet
+  - sinus of the lesser sphenoid wing
   - 蝶頂竇
-dateRev: 2026-06-29
+dateRev: 2026-10-17
 ---
 
 # sphenoparietal-sinus
 
-**蝶頂竇沿蝶骨小翼後下緣走行，收 superficial middle cerebral vein（Sylvian vein）後有三條出路；考題常問「哪個不是引流型」，陷阱是把屬支（MCV 流入竇）誤當出路（竇流向 SSS）。** 判讀分水嶺一：**superficial MCV 是流『入』蝶頂竇的屬支，不是竇流出的出路**——方向相反。判讀分水嶺二：三型出路＝①海綿竇（最常見、前內側）→②翼叢（sphenobasal，basal emissary）→③沿中顱窩底越岩錐入岩下/橫竇（sphenopetrosal）；空間記憶：前→海綿、下→翼叢、後→岩錐。
+> [!info] 解剖圖（Posey 2023，CC BY）
+> ![[images/sphenoparietal-sinus-posey2023-fig1.jpg]]
+> 右側蝶頂竇逐步大體解剖：(A) 移除蝶骨小翼前、(B) 移除後；B 圖可見蝶頂竇沿小翼走向海綿竇[^1]。
+>
+> ![[images/sphenoparietal-sinus-posey2023-fig5.jpg]]
+> 作者繪製的顱底硬膜靜脈竇示意圖，標出蝶頂竇位置[^1]。
+>
+> 圖片出處：Posey G, et al. Cureus 2023;15(1):e33419，Figure 1、5，[doi:10.7759/cureus.33419](https://doi.org/10.7759/cureus.33419)。Copyright © 2023 Posey et al.，以 Creative Commons Attribution License 釋出；圖片未修改。
+
+**蝶頂竇（sphenoparietal sinus）是沿蝶骨小翼下方、往內流進海綿竇的小硬膜竇。** 課本常寫「淺中大腦靜脈（SMCV）流進蝶頂竇」，但解剖研究對這點有爭議：有研究認為 SMCV 從來不接蝶頂竇，而是流到海綿竇旁的通道或直接入海綿竇[^2][^3]。考題描述的「三種引流型」，和 Suzuki 對 SMCV 引流型的描述對得上（本頁推論）[^5]。
 
 ## Summary
 
-### 解剖與走行
-- **位置與走行**：硬腦膜靜脈竇，沿**蝶骨小翼（lesser wing of sphenoid）後下緣／脊（ridge）**走行，又稱 **sinus of Breschet**。[^1][^2]
-- **屬支（tributaries，血流『流入』竇）**：**superficial middle cerebral vein（superficial Sylvian vein）**、**middle meningeal veins（frontal ramus）**、**anterior temporal（diploic）veins**。[^1][^2]
-- **典型出路**：向內側引流入**海綿竇（cavernous sinus）**，可於眼神經（ophthalmic nerve）上方或下方進入。[^2]
-- **是否恆存**：屍體研究顯示**並非恆定存在**——肉眼解剖約 70%（14/20 側）見明確 SPS、組織學約 85% 符合硬腦膜竇、合併盛行率約 78%；管徑多偏小（≤3 mm 居多），少數 >6 mm。判讀含義：影像上「看不到明顯 SPS」可為正常變異，不必然病理。[^1]
+- **位置**：沿蝶骨小翼後下緣走，往內注入海綿竇[^1][^4]。
+- **不一定存在**：一篇大體解剖研究在 70% 的側別找到，組織學 85% 符合硬膜竇[^1]。
+- **爭議**：SMCV 有沒有流進蝶頂竇，兩派研究結論相反（見下方表格）[^1][^2]。
+- **SMCV 引流變異很多**：一篇 500 側的研究中，入蝶頂竇 54%、直接入海綿竇 7%、經卵圓孔導靜脈入翼叢 12%[^5]。
+- **臨床**：海綿竇 DAVF 可經蝶頂竇與 SMCV 逆流到腦皮質靜脈，造成出血或靜脈梗塞[^6]。
 
-### 引流型態與變異（sphenoparietal venous system 三型）
-- 蝶骨區的淺 Sylvian／蝶頂靜脈系統有三條主要出路（與 sphenoidal-region DAVF 分類相對應）：[^2][^3]
-  1. **海綿竇型（sphenoparietal，小翼）**：經 SPS 入海綿竇，再走眼上靜脈（SOV）／一般靜脈回流——最常見、最「benign」。[^3]
-  2. **sphenobasal 型（大翼，greater wing）**：**向下經 emissary foramina（常為 foramen ovale 周邊）入翼叢（pterygoid plexus）**。[^3]
-  3. **sphenopetrosal 型（大翼）**：**向後外側沿中顱窩底走行**入**岩上／岩下竇或橫竇（transverse sinus）**。[^3]
-- **laterocavernous / paracavernous 變異**：部分淺 Sylvian 靜脈不直接入海綿竇本體，而入海綿竇外側一獨立腔室（lateral compartment），或經卵圓孔直接通翼叢——即「paracavernous/laterocavernous sinus」概念；DSA 上沿蝶脊可見**多條平行淺 Sylvian 靜脈**，未必只有一條為真正的「竇」。[^4]
+## 定義與術語
 
-### MRV／CTV／DSA 辨識
-- **DSA（金標準）**：靜脈期沿蝶骨脊的細小竇道；辨流向——SMCV 為**流入**屬支、SPS 向內引流入海綿竇。沿蝶脊可見多條平行淺 Sylvian 靜脈，需判斷哪一條為主竇。[^4]
-- **MRV／對比後 T1**：對比後 T1WI 對顯示這些可變的靜脈排列與外側腔室化（compartmentalization）最佳；SPS 細小，TOF-MRV 易因慢流／小管徑而顯影不全，judgement 應以對比序列佐證。[^4]
-- **判讀要點**：先定位蝶骨小翼後下緣，再追 SMCV 與海綿竇之連續性，確認**方向**（屬支 vs 出路）與**最終出口**（海綿竇 / 翼叢 / 岩錐橫竇）。
+- **硬膜竇（dural venous sinus）**：夾在兩層硬腦膜之間的靜脈通道，收集腦靜脈血。
+- **海綿竇（cavernous sinus）**：蝶鞍兩側的硬膜竇，內有內頸動脈與第 III、IV、V1、V2、VI 對腦神經通過。
+- **淺中大腦靜脈（superficial middle cerebral vein，SMCV）**：沿 sylvian fissure 表面走的腦表面靜脈，又叫 superficial sylvian vein。
+- **翼叢（pterygoid plexus）**：顱底下方、咀嚼肌間的靜脈叢，經卵圓孔的導靜脈和顱內相通。
+- **Paracavernous sinus**：走在中顱窩底硬膜內、海綿竇外側的靜脈通道[^7]。
+- **Laterocavernous sinus**：位於海綿竇外側壁兩層硬膜之間的靜脈通道[^7]。SMCV 可以不進海綿竇本體，而走這兩條通道[^7]。
+- **DAVF（dural arteriovenous fistula）**：硬膜上的動靜脈短路；若血流逆流進腦皮質靜脈，出血風險會升高。
 
-### 臨床意義
-- **靜脈引流路徑與手術解剖**：SPS 與其三型出路是中顱窩底靜脈通路與顱底手術（海綿竇、Meckel cave 區）解剖的關鍵；術前需辨清屬於 cavernous / sphenobasal / sphenopetrosal 何型，以規劃靜脈犧牲與入路。[^2][^3]
-- **硬腦膜動靜脈瘻（DAVF）**：蝶骨區 DAVF 罕見但 angioarchitecture 特殊。**小翼（sphenoparietal）型較 benign，皮質靜脈逆流（CVR）約 20%**；**大翼（sphenobasal/sphenopetrosal）型更易引流入 SMCV（約 66%）、CVR 約 50%、靜脈瘤（varix）形成達 100%（vs 小翼 20%，P=.02）**——大翼型出血風險顯著較高。[^3]
-- **臨床表現（10 例手術系列）**：可表現顱內出血、頭痛、搏動性耳鳴或偶然發現；多為高流量 **Borden type III**（9/10）含 CVR；手術完全阻斷可達良好預後。[^5]
+> [!warning] 縮寫陷阱
+> 多數影像文獻的「SPS」指上岩竇（superior petrosal sinus），但也有文獻用 SPS 指蝶頂竇[^1][^8]。看到 SPS 要先確認是哪一個。
 
-### DDx／鑑別
-- **正常 SPS vs sphenobasal/sphenopetrosal 變異引流**：以**最終出口**區分（海綿竇 vs 翼叢 vs 岩錐橫竇），而非單看 SMCV。[^3]
-- **正常變異（細小／缺如 SPS）vs 病理性擴張**：盛行率僅約 70–85%、管徑多小；若 SPS／SMCV 異常擴張、迂曲、合併早顯影，需警覺 **DAVF**（尤其大翼型伴 varix）。[^1][^3]
-- **多條平行淺 Sylvian 靜脈** vs 單一真竇：DSA 上常見數條沿蝶脊平行靜脈，僅其一為真正的竇，勿一概視為單一結構。[^4]
+## 解剖與爭議
 
-### 判讀陷阱
-- **方向陷阱（最常考）**：**SMCV 是流『入』SPS 的屬支，不是 SPS 的出路**；「SPS 向上至 MCV 再入上矢狀竇（SSS）」方向相反，**非其引流型**。[^2][^3]
-- **「看不到 SPS」≠ 異常**：約 1/4–1/3 側別本就無明確 SPS，TOF-MRV 又易漏顯小竇，勿過度解讀為閉塞。[^1][^4]
-- **大翼型低估風險**：sphenobasal/sphenopetrosal（大翼）DAVF 的 CVR、SMCV 受累、varix 比例遠高於小翼型，判讀時不可因「蝶骨區瘻」一概視為良性。[^3]
+| | 傳統說法 | 解剖修正說法 |
+| --- | --- | --- |
+| 代表 | STATdx、Suzuki 2000、Posey 2023[^1][^5][^9] | San Millán Ruíz 2004、Takahashi 2007[^2][^3] |
+| 蝶頂竇是什麼 | 沿小翼走、注入海綿竇的硬膜竇 | 其實是兩段：中腦膜靜脈前支的頂部段，加上小翼下方的「蝶骨小翼竇」 |
+| SMCV 接不接 | 接，是蝶頂竇的支流 | 不接；SMCV 走 paracavernous、laterocavernous 或直接入海綿竇 |
 
-> [!note] 考點：除哪一項外？
-> 三型＝海綿竇／翼叢（sphenobasal, basal emissary）／沿中顱窩底越岩錐入岩下或橫竇（sphenopetrosal）。**「向上至 MCV 再入 SSS」非其引流型**（MCV 為其屬支、流向相反）。[^2][^3]
+- 修正說法的證據：解剖加鑄型共 27 側，沒有一側 SMCV 接蝶骨小翼竇[^2]；MRI 48 側結果相同[^3]。
+- 傳統說法的證據：Posey 2023 把 superficial Sylvian vein 列為支流；它雖引用 Takahashi 2007，卻只用在術語和影像技術，沒有討論 SMCV 不接蝶頂竇的結論，也沒有引用 San Millán Ruíz 2004[^1]。
 
-## 放射科醫師影像判讀重點
-- **定位起點**：先於影像定位**蝶骨小翼後下緣／脊**，沿此追蹤細小竇道即蝶頂竇（sinus of Breschet）。[^1][^2]
-- **辨方向（最常考）**：**superficial MCV（Sylvian vein）是流『入』SPS 的屬支**，SPS 再向內引流入海綿竇；「SPS 向上至 MCV 再入 SSS」方向相反，非其引流型。[^2][^3]
-- **三型出路（依最終出口分）**：①海綿竇型（小翼→海綿竇，最常見、最 benign）②sphenobasal（大翼→經 emissary foramina 入翼叢）③sphenopetrosal（大翼→沿中顱窩底至岩竇／橫竇）——判讀以**最終出口**而非單看 SMCV。[^3]
-- **序列選擇**：DSA 為金標準（辨流向與多條平行淺 Sylvian 靜脈中的真竇）；**對比後 T1WI／MRV** 對顯示外側腔室化（laterocavernous/paracavernous）最佳，TOF-MRV 因慢流／小管徑易漏顯小竇。[^4]
-- **DDx／陷阱**：①「看不到 SPS」≠異常（盛行率僅約 70–85%、管徑多 ≤3 mm）②沿蝶脊多條平行淺 Sylvian 靜脈勿一概當單一竇③SPS／SMCV 異常擴張、迂曲、早顯影須警覺 **DAVF**，尤其**大翼型（sphenobasal/sphenopetrosal）** CVR、SMCV 受累、varix 比例遠高於小翼型，不可一概視為良性。[^1][^3][^4]
+## SMCV 的引流型（Suzuki 2000，3D CTA 500 側）[^5]
+
+1. **Sphenoparietal type**：沿小翼經蝶頂竇入海綿竇。
+2. **Cavernous type**：直接入海綿竇前端。
+3. **Emissary type**：轉向中顱窩底，經卵圓孔導靜脈入翼叢。
+4. **Superior petrosal type**：接上岩竇。
+5. **Basal type**：沿中顱窩底、跨過岩錐，到橫竇。
+6. **Squamosal type**：沿顳骨鱗部內面往後到橫竇。
+7. **Undeveloped type**：沒有 SMCV，改由其他大靜脈往上矢狀竇或橫竇引流。
+
+- 500 側中：sphenoparietal 271 側（54%）、cavernous 36 側（7%）、emissary 62 側（12%）；其餘各型都少見，另有 39 側（8%）前三型無法區分[^5]。
+- 其他研究的比例差很多，因為方法和定義不同：例如血管攝影研究中 SMCV 入海綿竇 20%、paracavernous 39%、laterocavernous 22%、不存在 19%[^7]。
+
+## 影像診斷
+
+| 檢查 | 怎麼看 |
+| --- | --- |
+| 軸切 MRI／CT | 看得到沿小翼、向內接海綿竇的蝶頂竇；SMCV 不在同一平面，要用斜切或曲面重組[^8] |
+| 3D CTA | sphenoparietal、cavernous、emissary 三型有部分分不清（8%），要多方向、薄層重組[^5] |
+| DSA | 蝶頂竇不一定顯影[^10]；SMCV 與 Trolard、Labbé 靜脈大小互補，一條大，其他通常小或缺如[^9] |
+
+> [!warning] TOF MRA 偽陽性
+> 正常的蝶頂竇血流，可能在 TOF MRA 上讓海綿竇出現異常訊號，看起來像 cavernous DAVF[^11]。
+
+> [!warning] 看不到不等於阻塞
+> 蝶頂竇本身不一定存在、口徑又小，DSA 上沒顯影不代表血栓[^1][^10]。
+
+## 臨床意義
+
+- **外傷**：蝶骨翼骨折跨過蝶頂竇，可造成前顳硬膜外血腫；屬靜脈性，通常小、不會變大，多半不需開刀[^12]。
+- **DAVF／CCF**：
+  - 海綿竇 DAVF 經蝶頂竇與 SMCV 逆流到皮質靜脈，會造成靜脈梗塞與出血[^6]。
+  - 外傷性 CCF 有時可見蝶頂竇擴大[^13]。
+  - 蝶骨區 DAVF 的嚴重度，研究結論不一：有解剖研究認為無症狀的小翼竇 DAVF 大概不需處理，靜脈高壓主要見於累及 SMCV 的瘻管[^2]；但一篇 10 例手術系列中 9 例是高危險的 Borden III、4 例出血[^14]。
+- **手術**：翼點入路要保護 SMCV 與蝶頂竇；沒有 Trolard 靜脈時，犧牲 SMCV 可能造成靜脈梗塞[^8]。
+
+## 解題
+
+> [!note] 考點（2016 交換：[[2016-030]]）
+> 問蝶頂竇「三種典型引流」何者為非，答 (D)「直接往上接 middle cerebral vein 再到上矢狀竇」[^15]。
+> - (A) 入海綿竇、(B) 經導靜脈入翼叢、(C) 沿中顱窩底越岩錐到 inferior petrosal vein 或橫竇：都屬課本描述的三型[^15]。
+> - 本頁推論：A、B 大致對應 Suzuki 的 sphenoparietal／cavernous 與 emissary 型；C 大致對應 basal 型（Suzuki 寫的是經 lateral tentorial sinus 或上岩竇到橫竇，沒有提到岩下靜脈），superior petrosal 型也可能相關[^5]。
+> - (D) 不是這三型之一。
+> - 官方詳解另外指出：SMCV 並不注入蝶頂竇，兩者各自獨立；這是解剖修正說法[^2][^15]。
 
 ### 參考來源
-[^1]: Posey RG, et al. *The Sphenoparietal Sinus Revisited: Anatomical and Histological Study With Application to Interventional Procedures and Skull Base Surgery.* Cureus. 2023（解剖／組織學研究，article 級）。SPS 沿蝶骨小翼走行；屬支含 superficial Sylvian、middle meningeal、anterior temporal veins，向內側入海綿竇；盛行率肉眼 70%（14/20）、組織學 85%、合併約 78%；管徑多 ≤3 mm。DOI: 10.7759/cureus.33419。
-[^2]: *Sphenoparietal sinus.* Radiopaedia.org（輔助來源，accessed 2026-06-29）。沿蝶骨小翼後下緣；接收 superficial middle cerebral vein 等屬支；典型引流入海綿竇。
-[^3]: *Middle Cranial Fossa Sphenoidal Region Dural Arteriovenous Fistulas: Anatomic and Treatment Considerations.* AJNR Am J Neuroradiol. 2013（article 級）。三型分類：sphenoparietal（小翼→海綿竇）、sphenobasal（大翼→經 emissary foramina 入翼叢）、sphenopetrosal（大翼→沿中顱窩底外側至岩錐／橫竇）。CVR 小翼 20% vs 大翼 50%；SMCV 受累 20% vs 66%；varix 20% vs 100%（P=.02）。DOI: 10.3174/ajnr.A3193。
-[^4]: *Venous Sinuses — Sphenoparietal sinus.* neuroangio.org（專家影像參考，accessed 2026-06-29）。淺 Sylvian／SPS 三種引流配置（海綿竇／paracavernous 經卵圓孔入翼叢／岩竇）；DSA 沿蝶脊可見多條平行淺 Sylvian 靜脈、僅其一為真竇；對比後 T1WI／MRV 對外側腔室化顯示最佳。
-[^5]: Srinivasan VM, et al. *Sphenoparietal Sinus Dural Arteriovenous Fistulas: A Series of 10 Patients.* Oper Neurosurg (Hagerstown). 2022（臨床系列，article 級）。表現含顱內出血、頭痛、搏動性耳鳴、偶發；9/10 為 Borden type III、1 為 type II；手術完全阻斷、預後多良好。DOI: 10.1227/ons.0000000000000269。
+
+[^1]: Posey G, Grayson V, Cardona JJ, et al. The Sphenoparietal Sinus Revisited: Anatomical and Histological Study With Application to Interventional Procedures and Skull Base Surgery. Cureus 2023;15(1):e33419. doi:10.7759/cureus.33419. PMID 36751209. PMC9899132.（開放全文已讀；CC BY）
+[^2]: San Millán Ruíz D, Fasel JH, Rüfenacht DA, Gailloud P. The sphenoparietal sinus of breschet: does it exist? An anatomic study. AJNR Am J Neuroradiol 2004;25(1):112-20. PMID 14729539. PMC7974157.（開放全文已讀）
+[^3]: Takahashi S, Sakuma I, Otani T, et al. Venous Anatomy of the Sphenoparietal Sinus: Evaluation by MR Imaging. Interv Neuroradiol 2007;13 Suppl 1:84-9. doi:10.1177/15910199070130S111. PMID 20566082. PMC3345471.（依摘要）
+[^4]: Gaillard F, Knipe H, et al. Sphenoparietal sinus. Radiopaedia.org, rID 5360. doi:10.53347/rID-5360. Last revised 2024-11-28.（全文已讀）
+[^5]: Suzuki Y, Matsumoto K. Variations of the superficial middle cerebral vein: classification using three-dimensional CT angiography. AJNR Am J Neuroradiol 2000;21(5):932-8. PMID 10815671. PMC7976758.（開放全文已讀）
+[^6]: Kiyosue H, Hori Y, Okahara M, et al. Treatment of intracranial dural arteriovenous fistulas: current strategies based on location and hemodynamics, and alternative techniques of transcatheter embolization. Radiographics 2004;24(6):1637-53. doi:10.1148/rg.246045026. PMID 15537974.（依摘要與圖說）
+[^7]: Gailloud P, San Millán Ruíz D, Muster M, et al. Angiographic anatomy of the laterocavernous sinus. AJNR Am J Neuroradiol 2000;21(10):1923-9. PMID 11110548. PMC7974304.（開放全文已讀）
+[^8]: Wangaryattawanich P, Chavali LS, Shah KB, et al. Contrast-enhanced Reformatted MR Images for Preoperative Assessment of the Bridging Veins of the Skull Base. Radiographics 2016;36(1):244-57. doi:10.1148/rg.2016150084. PMID 26761539.（全文已讀）
+[^9]: Osborn AG, Quigley EP, Eastaway A. Superficial Cerebral Veins. STATdx, Brain › Anatomy › Veins and Venous Sinuses, last updated 2020-10-20. Elsevier.（經機構登入已讀，2026-10-17）
+[^10]: Osborn AG. Intracranial Venous System Overview. STATdx, Brain › Anatomy › Veins and Venous Sinuses, last updated 2020-10-20. Elsevier.（經機構登入已讀）
+[^11]: Kim E, Kim JH, Choi BS, et al. MRI and MR Angiography Findings to Differentiate Jugular Venous Reflux From Cavernous Dural Arteriovenous Fistula. AJR Am J Roentgenol 2014;202(4):839-46. doi:10.2214/AJR.13.11048. PMID 24660714.（全文已讀）
+[^12]: Salzman KL, Osborn AG. Epidural Hematoma, Variant. STATdx, Brain › Diagnosis › Pathology-Based Diagnoses › Trauma › Primary Effects, last updated 2025-08-20. Elsevier.（經機構登入已讀）
+[^13]: Vattoth S, Osborn AG. Traumatic Carotid Cavernous Fistula. STATdx, Brain › Diagnosis › Pathology-Based Diagnoses › Trauma › Secondary Effects, last updated 2025-08-21. Elsevier.（經機構登入已讀）
+[^14]: Hartke JN, Srinivasan VM, Rahmani R, et al. Sphenoparietal Sinus Dural Arteriovenous Fistulas: A Series of 10 Patients. Oper Neurosurg 2022;23(2):139-147. doi:10.1227/ons.0000000000000269. PMID 35838453.（依摘要）
+[^15]: 2016 交換考官方詳解 p.32，出處 Takahashi S. Neurovascular imaging, p.264（書目細節待查）。
+
+## 題目
+
+> [!question]- 淺中大腦靜脈（SMCV）一定流進蝶頂竇嗎？
+> 不一定。傳統說法認為會[^9]；但解剖研究發現 SMCV 從不接蝶頂竇，而是走 paracavernous、laterocavernous 或直接入海綿竇[^2][^3]。SMCV 本身的引流也有很多變異[^5]。
+
+> [!question]- TOF MRA 上海綿竇有異常訊號，一定是 cavernous DAVF 嗎？
+> 不一定。正常的蝶頂竇血流也可能造成類似訊號，要結合臨床與其他序列判斷[^11]。
+
+> [!question]- 為什麼海綿竇 DAVF 經 SMCV 引流要特別注意？
+> 這代表血流逆流到腦皮質靜脈，可造成靜脈梗塞與出血[^6]。
 
 ## 考題
 ```dataview
