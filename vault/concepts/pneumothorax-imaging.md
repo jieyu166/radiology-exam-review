@@ -14,8 +14,8 @@ dateRev: 2026-07-03
 # pneumothorax-imaging
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-chcv-pneumothorax-imaging-v1.png]]
-> [[summary-graphics/images/remaining-chcv-pneumothorax-imaging-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-pneumothorax-imaging|圖稿與覆核紀錄]]
+> ![Summary 圖：氣胸影像（待醫師覆核 v1）](https://img-hosting.jieyu166.workers.dev/i/OXbEWM1.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/OXbEWM1.png)
 > 教學示意，待醫師覆核。
 
 **氣胸要點：放胸管前須與大泡性肺氣腫/囊腫病區分以免造成醫源性支氣管胸膜瘻;自行吸收約 1.5%/天（room air）;『純氧』可使吸收加速約 3-4 倍。** 判讀分水嶺：**置胸管前辨識 bulla/cyst（避免誤插造成瘻管）;吸收速率約 1.25-1.8% 半胸容積/天（room air），補充純氧加速約 3-4 倍;吐氣相 X 光是否較吸氣相更敏感存爭議（現代證據多認為全吸氣足夠）。**

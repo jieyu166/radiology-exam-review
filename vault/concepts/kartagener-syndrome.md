@@ -14,8 +14,8 @@ dateRev: 2026-07-01
 # kartagener-syndrome
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-chcv-kartagener-syndrome-v1.png]]
-> [[summary-graphics/images/remaining-chcv-kartagener-syndrome-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-kartagener-syndrome|圖稿與覆核紀錄]]
+> ![Summary 圖：Kartagener 症候群（待醫師覆核 v1）](https://img-hosting.jieyu166.workers.dev/i/NEGSQJo.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/NEGSQJo.png)
 > 教學示意，待醫師覆核。
 
 **Kartagener syndrome為原發性纖毛運動不良（primary ciliary dyskinesia）合併situs inversus（內臟逆位）之典型三聯症，兒童常見表現包含situs inversus（含dextrocardia）、支氣管擴張、慢性鼻竇炎；並有3-5%合併先天性心臟病風險。**

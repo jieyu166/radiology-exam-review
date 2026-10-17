@@ -14,8 +14,8 @@ dateRev: 2026-07-05
 # sinus-venosus-atrial-septal-defect
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-transfer-sinus-venosus-atrial-septal-defect-v1.png]]
-> [[summary-graphics/images/remaining-transfer-sinus-venosus-atrial-septal-defect-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-transfer-sinus-venosus-atrial-septal-defect|圖稿與覆核紀錄]]
+> ![Summary 圖：Sinus venosus ASD（待醫師覆核 v1）](https://img-hosting.jieyu166.workers.dev/i/WocmhXa.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/WocmhXa.png)
 > 教學示意，待醫師覆核。
 
 **Sinus venosus ASD（靜脈竇型）位於『上腔靜脈-右心房交界（superior，較常見）』或『下腔靜脈交界（inferior）』附近，位在 fossa ovalis 之上或下方——不是靠近／位於 coronary sinus 後方（那是 coronary sinus / unroofed coronary sinus 型，另一種類）。判讀分水嶺：SV-ASD 與 partial anomalous pulmonary venous return（PAPVR）關聯最強；右上／右中肺葉靜脈異常引流入 SVC，導致右心房、右心室擴大與右心壓力上升。若沒做 ECG-gated cardiac CT／MR，缺損與異常肺靜脈回流易被漏診而誤判為原發性肺高壓。**

@@ -16,8 +16,8 @@ same:
 # cavitary-lung-nodule
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-chcv-cavitary-lung-lesions-v1.png]]
-> [[summary-graphics/images/remaining-chcv-cavitary-lung-lesions-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-chcv-cavitary-lung-lesions|圖稿與覆核紀錄]]
+> ![Summary 圖：空洞性肺病灶（待醫師覆核 v1）](https://img-hosting.jieyu166.workers.dev/i/Yg2y7OY.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/Yg2y7OY.png)
 > 教學示意，待醫師覆核。
 
 **空洞(cavity)＝壞死組織液化經支氣管排出後留下的厚壁含氣腔（壁＞4 mm；薄壁＜4 mm 多為 cyst/bulla/pneumatocele）。DDx 用 CAVITY 口訣：Cancer／Autoimmune／Vascular／Infection／Trauma／Youth(congenital)。** 判讀分水嶺一：**壁厚（Woodring）——壁＜7 mm 對良性高度特異、＞24 mm 幾乎惡性、內壁不規則＋外緣局部凹陷偏惡性**;分水嶺二：**數目（單發＝癌/膿瘍 vs 多發＝轉移/septic emboli/GPA/類風濕）＋位置（上葉＝癌/再活化 TB;下肺周邊＝septic emboli/轉移）**;分水嶺三：**特異徵象——air crescent(aspergilloma)、feeding vessel(septic emboli)、air-fluid level(膿瘍)、satellite/tree-in-bud(TB)**。
