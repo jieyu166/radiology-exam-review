@@ -18,6 +18,8 @@ dateRev: 2026-10-17
 **ASD（心房中膈缺損）依「缺損在哪裡」分四型：secundum 在中段卵圓窩、primum 在前下方靠房室瓣、sinus venosus 在上下腔靜脈入口、coronary sinus 型在冠狀竇和左心房之間。** 只有 secundum 長在真正的房間隔上，經導管關閉也以它為主[^1][^2][^3]。CXR 上看到右心房、右心室、肺動脈變大和肺血增加，但左心房通常正常，要想到 ASD[^1]。
 
 ## Summary
+![ASD 分型示意圖（Radiology Key）](https://img-hosting.jieyu166.workers.dev/i/dRogQlb.png)
+圖片來源：Radiology Key
 
 - **常見**：ASD 約占所有先天性心臟病 10%，是成人期才診斷的先天性心臟病中最常見者之一（25–30%，不計 bicuspid aortic valve）[^1][^4]。
 - **四型位置**：secundum＝卵圓窩；primum＝前下方、緊鄰房室瓣；sinus venosus＝上腔或下腔靜脈與右心房交界；coronary sinus 型＝冠狀竇頂部缺損[^1][^3]。
