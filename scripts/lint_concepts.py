@@ -18,16 +18,17 @@ os.chdir(REPO)
 sys.stdout.reconfigure(encoding="utf-8")
 sys.path.insert(0, os.path.join(REPO, "scripts"))
 from vault_questions import iter_question_cards  # noqa: E402
+from vault_site.compiler import parse_frontmatter  # noqa: E402  與網站共用 frontmatter 解析（支援行內與多行清單）
 
 errors: list[str] = []
 warns: list[str] = []
 def err(m): errors.append(m)
 def warn(m): warns.append(m)
 
-WIKI_EMBED = re.compile(r"!\[\[")                      # Obsidian 嵌入（網站不認）
+WIKI_EMBED = re.compile(r"!\[\[([^\]|#]+)")              # Obsidian 嵌入
+IMAGE_EXT = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg")  # 網站 compiler 支援的圖片嵌入
 FN_DEF = re.compile(r"(?m)^\[\^([^\]]+)\]:")
 FN_REF = re.compile(r"\[\^([^\]]+)\](?!:)")
-FM_CONCEPTS = re.compile(r"(?m)^concepts:\s*\[([^\]]+)\]")
 DV_SLUG = re.compile(r'contains\(concepts,\s*"([^"]+)"\)')
 INTERNAL_NOTE = re.compile(r"院內筆記|整理自.{0,8}筆記|演講筆記")
 # 一手來源標記：同一條 footnote 若含這些,代表演講/院內筆記僅為 provenance、已附可查證一手來源
@@ -41,16 +42,20 @@ concept_files = [p for p in sorted(glob.glob("vault/concepts/*.md"))
 for p in concept_files:
     name = os.path.basename(p)[:-3]
     t = open(p, encoding="utf-8").read()
-    fm = FM_CONCEPTS.search(t)
-    slug = fm.group(1).strip() if fm else None
+    fmd, _ = parse_frontmatter(t)
+    cs = fmd.get("concepts")
+    if isinstance(cs, str):
+        cs = [cs]
+    slug = str(cs[0]).strip() if cs else None
     if slug:
         concept_slugs.add(slug)
         if slug != name:
             err(f"[概念slug≠檔名] {name}.md 的 concepts:[{slug}]")
     else:
         warn(f"[概念缺 concepts 欄] {name}.md")
-    if WIKI_EMBED.search(t):
-        warn(f"[概念含 ![[...]] 嵌入(網站不認)] {name}.md")
+    bad_embeds = [e for e in WIKI_EMBED.findall(t) if not e.strip().lower().endswith(IMAGE_EXT)]
+    if bad_embeds:
+        warn(f"[概念含非圖片 ![[...]] 嵌入(網站不認)] {name}.md：{bad_embeds[0]}")
     if "### 參考來源" not in t:
         warn(f"[概念缺 ### 參考來源] {name}.md")
     dv = DV_SLUG.search(t)
