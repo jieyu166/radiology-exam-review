@@ -1,7 +1,9 @@
 ---
-concepts: [tuberculous-osteomyelitis]
+concepts:
+  - tuberculous-osteomyelitis
 name: Tuberculous Osteomyelitis
-subspecialty: [MSK]
+subspecialty:
+  - MSK
 aliases:
   - tuberculous osteomyelitis
   - skeletal tuberculosis
@@ -34,7 +36,7 @@ dateRev: 2026-07-03
 - **結核性脊椎炎（Pott disease）**：血行播種至**椎體前緣終板角（最先破壞處）**→ **subligamentous 蔓延、椎間盤相對保留至晚期**、**廣泛椎旁冷膿瘍**、**膿瘍內鈣化近乎診斷性**、可扇形侵蝕椎體前緣、**可累及後柱（有別於化膿性脊椎椎間盤炎）**；晚期 vertebra plana／kyphosis／gibbus 駝峰畸形。[^1]
 - **附肢骨髓炎**：血行播種至**幹骺端**、兒童常多發且分期不一；表現為骨質疏鬆＋邊界不清溶骨、**少/無骨膜反應與硬化**；cystic TB 呈地圖狀邊界清楚溶骨。**結核可跨生長板（化膿性不跨）**。[^1]
 - **Spina ventosa**：短管狀骨結核，梭形軟組織腫脹＋骨膜炎、幹骨膨大含囊腔、可有死骨；**手多於足、多見於 <6 歲**。[^1]
-- **MR 與核醫**：骨髓與軟組織 ↓T1/↑T2，**膿瘍厚而不規則之周邊強化為特徵**；TB 脊椎炎相較化膿性可見 T1 異質訊號、硬膜外膿瘍、嚴重椎體破壞、缺 phlegmon；**骨掃描於 TB 偽陰性率高**（骨反應輕），PET/CT 較佳，**gallium 陽性而 bone scan 陰性之不一致高度提示活動性慢性骨髓炎**。[^1]
+- **MR 與核醫**：骨髓與軟組織 ↓T1/↑T2，膿瘍呈周邊強化：STATdx MSK 版描述為厚而不規則[^1]，但脊椎結核與化膿性的對照研究中，TB 膿瘍壁多**薄而平滑**（95% vs 15%）[^3]，兩說並列；TB 脊椎炎相較化膿性可見 T1 異質訊號、硬膜外膿瘍、嚴重椎體破壞、缺 phlegmon；**骨掃描於 TB 偽陰性率高**（骨反應輕），PET/CT 較佳，**gallium 陽性而 bone scan 陰性之不一致高度提示活動性慢性骨髓炎**。[^1]
 
 ## 臨床重點（5 句）
 1. 病原為 **M. tuberculosis**，多為肺部感染**再活化之血行播種**；MSK 結核占所有結核 1–3%（開發中國家 10–15%）。[^1]
@@ -49,6 +51,7 @@ dateRev: 2026-07-03
 ### 參考來源
 [^1]: **Tier 1** Ladd LM, Petersilge CA. *Tuberculosis*（Musculoskeletal, Dx）. STATdx，last updated 2022-02-17. Elsevier（實際查證 accessed 2026-07-03，12 references）：MSK 結核 50% 侵脊椎（胸腰交界 Pott disease）、次為關節炎（髖/膝）；Phemister triad＝關節旁骨疏鬆＋周邊侵蝕＋晚期關節間隙變窄；脊椎炎自椎體前緣終板角破壞、subligamentous 蔓延、椎間盤晚期才受累、椎旁冷膿瘍鈣化近診斷性、可累及後柱；附肢骨髓炎於幹骺端、少骨膜反應/硬化、可跨生長板（化膿性不跨）；spina ventosa 短管狀骨、手>足、<6 歲；膿瘍厚不規則周邊強化、骨掃描偽陰性率高、gallium(+)/bone scan(-) 高度提示活動性慢性骨髓炎；確診需 core biopsy 找 Mycobacterium；診斷延遲常 >1 年、50% 合併肺結核、危險因子免疫抑制、可治癒（清創＋抗結核藥）。
 [^2]: 官方 2020 詳解（題目所引）；原引 *Tuberculous osteomyelitis*, J Bone Joint Surg Br 1997;79(4):562-566 與 *Radiologic case study: Tuberculous osteomyelitis and arthritis*, Orthopedics——早期 X 光可正常、中位診斷延遲 26.4 個月、確診需 biopsy、可合併關節炎、晚期需與腫瘤鑑別，已由 [^1] STATdx 一手來源查核並補強影像判讀與臨床。
+[^3]: Jung NY, Jee WH, Ha KY, et al. Discrimination of tuberculous spondylitis from pyogenic spondylitis on MRI. AJR Am J Roentgenol 2004;182(6):1405-10. doi:10.2214/ajr.182.6.1821405. PMID 15149983.（依摘要）
 
 ## 題目
 > [!question]- 關於Tuberculous osteomyelitis,下列何者為非? (2020-189)

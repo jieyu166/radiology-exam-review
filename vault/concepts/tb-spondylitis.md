@@ -1,12 +1,18 @@
 ---
-concepts: [tb-spondylitis]
+concepts:
+  - tb-spondylitis
 name: Tuberculous Spondylitis (Pott's Disease)
-subspecialty: [MSK]
+subspecialty:
+  - MSK
+  - NR
 aliases:
   - Pott's disease
-  - 脊椎結核
+  - Pott disease
   - TB spondylitis
-dateRev: 2026-07-02
+  - tuberculous spondylitis
+  - 脊椎結核
+  - 結核性脊椎炎
+dateRev: 2026-10-23
 ---
 
 # tb-spondylitis
@@ -18,49 +24,95 @@ dateRev: 2026-07-02
 > 教學摘要圖，內容仍待醫師覆核。
 
 
-**TB spondylitis 與 pyogenic spondylitis 比較：TB 特徵為 subligamentous spread of large paraspinal abscesses、skip lesions、panvertebral involvement，但椎間盤破壞相對較晚且較輕（early and severe disc destruction 是 pyogenic 的特徵）。**
+**結核性脊椎炎（Pott disease）好發胸椎，從椎體前方開始，沿前縱韌帶下面爬到好幾節，形成很大的椎旁膿瘍；椎間盤相對保留到晚期。** 和化膿性感染比，「早期就嚴重破壞椎間盤」是化膿性的特徵，不是結核的[^1][^2][^3]。
 
 ## Summary
-- TB vs pyogenic 鑑別重點 [^1]：
-  - **TB 特徵**：subligamentous spread（大範圍椎旁膿瘍）、skip lesions、panvertebral involvement、relative disc preservation（椎間盤相對保留）
-  - **Pyogenic 特徵**：early and severe disc destruction、局限性椎旁膿瘍
-- TB 好發 thoracolumbar junction（T10-L2）[^1]
-- Gibbus deformity 為 TB spondylitis 晚期典型表現 [^1]
 
-## 放射科醫師影像判讀重點
-- **MRI（首選）**：TB spondylitis 典型見椎體破壞併相對椎間盤保留（relative disc preservation）、韌帶下擴散（subligamentous spread）之大範圍椎旁膿瘍、薄而光滑之膿瘍壁緣強化；相對地 pyogenic 常早期即嚴重椎間盤破壞、椎間盤 T2 高訊號並增強。[^1][^2][^3]
-- **分布型態**：TB 好發胸腰交界（T10–L2），可見跳躍性病灶（skip lesions）與 panvertebral（全椎體）受累；韌帶下擴散可跨多節，此為與 pyogenic 之重要區辨點。[^1][^2]
-- **膿瘍特徵**：TB 之椎旁／腰大肌膿瘍常較大、可鈣化、壁薄光滑；pyogenic 膿瘍多較局限、壁厚不規則。[^2]
-- **X 光／CT**：晚期見椎體楔形塌陷併後凸（Gibbus deformity）、椎旁鈣化膿瘍；CT 對骨破壞細節與鈣化膿瘍評估佳。[^1][^3]
-- **判讀陷阱（pitfall）**：早期 TB 椎間盤尚保留時易被誤判為腫瘤或壓迫性骨折；掌握「椎間盤相對保留＋大範圍韌帶下膿瘍＋跳躍病灶」三特徵有助定向。[^2]
+- **怎麼來的**：血行散播（經動脈或 Batson 靜脈叢）[^4]；鄰近感染直接擴散的出處待查。
+- **好發位置**：胸椎中段或胸腰交界，多於腰椎、頸椎[^1][^2][^5]。
+- **典型影像**：韌帶下擴散、多節段甚至跳躍、邊界清楚的大椎旁膿瘍、薄而平滑的膿瘍壁[^3][^5]。
+- **晚期**：椎體塌陷、gibbus（駝背）變形；膿瘍鈣化幾乎可診斷結核[^1][^2]。
+- **治療**：抗結核藥至少 1 年，10–25% 需要手術[^1]。
 
-## 臨床重點（5 句）
-- 脊椎結核（Pott's disease）多為肺外結核之血行播散結果，病程進展較化膿性感染緩慢。[^1]
-- 臨床上背痛與全身症狀較隱匿，發炎指標（CRP）升幅通常低於化膿性脊椎炎。[^2][^3]
-- 化膿性脊椎炎病程較急、CRP 較高、臨床病程較重，最常見致病菌為金黃色葡萄球菌。[^2][^3]
-- 延誤治療可致椎體塌陷、後凸畸形與神經壓迫，故正確區辨病因攸關治療與預後。[^2]
-- 確診與致病菌鑑定常需影像導引切片或培養，以指引抗結核或抗生素療程。[^3]
+## 定義與術語
 
-## 陷阱
-- Early and severe disc destruction 是 **pyogenic** 的特徵，NOT TB
+- **韌帶下擴散（subligamentous spread）**：膿沿著前縱韌帶下方往上下延伸，侵犯好幾節椎體前緣。
+- **跳躍病灶（skip lesion）**：中間隔著正常節段的多處病灶。
+- **Cold abscess（冷膿瘍）**：結核造成、發炎反應較輕的大膿瘍。
+- **Gibbus**：椎體前方塌陷造成的尖角狀駝背。
+
+## 病因與臨床
+
+- 結核菌缺乏分解蛋白的酶，被認為是椎間盤相對保留、以韌帶下擴散為主的原因[^1][^5]。
+- 病程慢性、進展隱伏[^6]。
+- 抗酸菌培養陽性率不到 50%[^1]。
+- 和肺結核同時存在的比例，各來源不同（約 10% 或 50%）[^1][^2]。
+
+## 影像診斷
+
+### TB vs 化膿性（MRI）
+
+| 特徵 | TB | 化膿性 |
+| --- | --- | --- |
+| 好發節段 | 胸椎（40% vs 10%）[^3] | 腰椎[^7] |
+| 椎間盤 | 相對保留到晚期[^1][^5] | 早期就受侵[^8]；細菌性椎間盤破壞 93%[^10] |
+| 椎旁異常訊號邊界清楚 | 95%[^3] | 僅 25%[^3] |
+| 膿瘍壁薄而平滑 | 95%[^3] | 僅 15%[^3] |
+| 韌帶下擴散 ≥3 節 | 85%[^3] | 40%[^3] |
+| 椎體增強 | 局部、不均勻[^5][^9] | 瀰漫、均勻[^5][^9] |
+| 骨內膿瘍伴邊緣增強 | 79%[^9] | 0%；但椎間盤膿瘍較多（64% vs TB 9%）[^9] |
+
+- 一篇 TB、化膿性各 20 例的研究：MRI 判讀 TB 的敏感度 100%、特異度 80%[^3]。
+- 結核的椎體受侵型態：椎間盤旁型最常見（椎間盤會變矮）、前方型、中央型（可壓扁成 vertebra plana）[^5]。
+
+> [!warning] 椎間盤「保留」是相對的
+> 結核的椎間盤到晚期仍會受侵[^1][^5]；一篇比較研究中結核的椎間盤破壞也有 30%[^10]。不能只因為椎間盤破壞就排除結核。
+
+> [!warning] 後方結構
+> 比化膿性常受侵，但並不常見：單獨侵犯後方結構只占 3–5%，但「胸椎＋後方結構受侵＋大膿瘍」提示結核[^1]；Grainger 寫少見、亞洲病人較常見[^5]。
+
+## 鑑別與報告要點
+
+| 鑑別 | 怎麼和結核分 |
+| --- | --- |
+| 化膿性椎間盤炎 | 腰椎多、椎間盤早期破壞、厚壁膿瘍，見 [[spondylodiscitis]][^3] |
+| Brucella | 下腰椎（尤其 L4）、前上終板、椎體形態保留、很少變形[^11] |
+| 黴菌 | 影像可像結核；結核在鑑別名單上時應一併考慮黴菌[^12] |
+| 轉移 | 椎間盤保留、跳躍多發的結核可以很像轉移；腫瘤常侵犯後方結構與椎弓根[^1][^8] |
+
+報告時：寫出受侵節段數、是否跳躍、椎旁膿瘍範圍、有無鈣化、椎體塌陷與後凸角度、脊髓有無受壓。
+
+## 解題
+
+> [!note] 考點
+> - 2019 交換（[[2019-414]]）：和化膿性相比，哪個**不是** TB 的常見特徵——答 (B) early severe disc destruction；這是化膿性的特徵[^1][^3]。
+> - 2022 交換（[[2022-401]]）：TB 脊椎炎的感染機轉何者錯——官方答 (D) Traumatic insult。教科書描述的途徑是血行散播（含經 Batson 靜脈叢）[^4]，沒有外傷這一項。
 
 ### 參考來源
-[^1]: 2019 交換考詳解。
-[^2]: **Tier 1** Zhang N, Zeng X, He L, Liu Z, Liu J, Zhang Z, Chen X, Shu Y. *The Value of MR Imaging in Comparative Analysis of Spinal Infection in Adults: Pyogenic Versus Tuberculous.* World Neurosurg 2019;128:e806-e813（據 PubMed，DOI [10.1016/j.wneu.2019.04.260](https://doi.org/10.1016/j.wneu.2019.04.260)；實際查證 accessed 2026-07-04）——回溯 70 例脊椎感染，建立 MRI 參數評分系統區辨化膿性與結核性脊椎炎（AUC 1.00），16 項參數具顯著差異，佐證 TB 之椎間盤保留與韌帶下擴散特徵。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
-[^3]: **Tier 1** Lee Y, Kim BJ, Kim SH, Lee SH, Kim WH, Jin SW. *Comparative Analysis of Spontaneous Infectious Spondylitis: Pyogenic versus Tuberculous.* J Korean Neurosurg Soc 2017;61(1):81-88（據 PubMed，DOI [10.3340/jkns.2016.1212.005](https://doi.org/10.3340/jkns.2016.1212.005)；實際查證 accessed 2026-07-04）——比較 51 例化膿性與 18 例結核性脊椎炎，結核組椎間盤於增強 MRI 較常保留（50% vs 23.5%）、椎體塌陷較常見（66.6% vs 15.7%），化膿組 CRP 較高、病程較重。原「官方/Radiopaedia」弱來源已由本次 DOI Tier 1 查核升級。
-[^4]: *Tuberculous spondylitis*. Radiopaedia.org（實際查證 accessed 2026-07-05）：脊椎受累係經 **hematogenous spread（可經動脈與靜脈，含 Batson's paravertebral venous plexus）**；感染典型呈 subligamentous spread（沿前縱韌帶下擴散）、相對椎間盤保留、後期可形成極大的椎旁膿瘍。支持本題「hematogenous、Batson's plexus 靜脈途徑、鄰近感染直接擴散」為正確途徑，而 **traumatic insult（外傷）並非 TB 脊椎炎的感染機轉**。
+
+[^1]: Moore KR. Tuberculous Osteomyelitis. STATdx, Spine › Infection and Inflammatory Disorders › Infections, last updated 2025-02-25. Elsevier.（經機構登入已讀，2026-10-23）
+[^2]: Ladd LM, Petersilge CA. Tuberculosis. STATdx, Musculoskeletal › Non-Trauma › Infection › Specific Pathogens, last updated 2022-02-17. Elsevier.（經機構登入已讀）
+[^3]: Jung NY, Jee WH, Ha KY, et al. Discrimination of tuberculous spondylitis from pyogenic spondylitis on MRI. AJR Am J Roentgenol 2004;182(6):1405-10. doi:10.2214/ajr.182.6.1821405. PMID 15149983.（依摘要）
+[^4]: Al Salam H, St-Amant M, et al. Tuberculous spondylitis. Radiopaedia.org, rID 8759. doi:10.53347/rID-8759. Last revised 2026-05-14.（全文已讀）
+[^5]: Singh J, Lalam R. Ch46 Bone, Joint and Spinal Infections. In: Grainger & Allison's Diagnostic Radiology. 7th ed. Elsevier; 2021. pp.1184–1222.（ClinicalKey 經機構登入已讀）
+[^6]: Hong SH, Choi JY, Lee JW, et al. MR imaging assessment of the spine: infection or an imitation? Radiographics 2009;29(2):599-612. doi:10.1148/rg.292085137. PMID 19325068.（全文已讀）
+[^7]: Moore KR. Pyogenic Osteomyelitis. STATdx, Spine › Infection and Inflammatory Disorders › Infections, last updated 2025-02-11. Elsevier.（經機構登入已讀）
+[^8]: Chapman MN. Ch16 Non-degenerative Disease of the Spine. In: Neuroradiology: The Requisites. 5th ed. Elsevier; 2025. pp.486–532.（ClinicalKey 經機構登入已讀）
+[^9]: Chang MC, Wu HT, Lee CH, et al. Tuberculous spondylitis and pyogenic spondylitis: comparative magnetic resonance imaging features. Spine 2006;31(7):782-8. doi:10.1097/01.brs.0000206385.11684.d5. PMID 16582852.（依摘要）
+[^10]: Lee SW, Lee SH, Chung HW, et al. Candida spondylitis: Comparison of MRI findings with bacterial and tuberculous causes. AJR Am J Roentgenol 2013;201(4):872-7. doi:10.2214/AJR.12.10344. PMID 24059378.（依摘要）
+[^11]: Ross JS, Moore KR. Brucellar Spondylitis. STATdx, Spine › Infection and Inflammatory Disorders › Infections, last updated 2025-02-03. Elsevier.（經機構登入已讀）
+[^12]: Ross JS. Fungal and Miscellaneous Osteomyelitis. STATdx, Spine › Infection and Inflammatory Disorders › Infections, last updated 2025-02-07. Elsevier.（經機構登入已讀）
 
 ## 題目
-> [!question]- The listed mechanisms for tuberculosis spondylitis infection are incorrect? (2022-401)
-> **D. Traumatic insult（關鍵）** TB 脊椎炎的感染機轉為 **hematogenous source（血行播散）**、**direct implantation by way of the venous system（Batson's plexus 靜脈途徑）**、**direct extension from an adjacent infection（鄰近感染直接擴散）**——這三項皆正確；**Traumatic insult（外傷）並非 TB 脊椎炎的感染途徑**，故為錯誤選項。[^3][^4]
 
-## 考題
-> [!question]- 相關考題
-> ```dataview
-> TABLE WITHOUT ID file.link AS "概念卡", concepts AS "概念"
-> FROM "vault/cards"
-> WHERE contains(concepts, this.file.name)
-> ```
+> [!question]- 胸椎多節段病灶、韌帶下擴散、薄壁大膿瘍、椎間盤還算完整，最可能是什麼？
+> 結核性脊椎炎[^1][^3]。
+
+> [!question]- 椎旁膿瘍裡看到鈣化，代表什麼？
+> 幾乎可診斷為結核[^2]。
+
+> [!question]- 結核性脊椎炎的椎間盤一定保留嗎？
+> 不一定。相對保留到晚期，但最常見的椎間盤旁型會讓椎間盤變矮，研究中也有約 30% 椎間盤破壞[^5][^10]。
 
 ## 考題
 ```dataview
