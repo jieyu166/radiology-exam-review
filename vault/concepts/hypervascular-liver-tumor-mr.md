@@ -1,7 +1,9 @@
 ---
-concepts: [hypervascular-liver-tumor-mr]
+concepts:
+  - hypervascular-liver-tumor-mr
 name: MR Imaging of Hypervascular Liver Masses
-subspecialty: [ABD]
+subspecialty:
+  - ABD
 aliases:
   - hypervascular liver mass MRI
   - hemangioma washout
@@ -48,7 +50,7 @@ dateRev: 2026-07-01
 - 肝最常見原發惡性；多合併肝硬化（肝炎/酒精/血鐵沉積/Wilson/α1-antitrypsin）。硬化結節從良性 regenerative → dysplastic → HCC 連續光譜、影像重疊大。[^2]
 - 訊號：**<1.5 cm 常 iso**，較大者可因脂質/銅/肝醣 T1 高；**硬化結節內出現脂肪變性 fatty metamorphosis 高度可疑 HCC**；T2 多為高/等（分化良好可低）；**T2 訊號接近脾臟的 hypervascular 腫塊可疑 HCC**；可擴散受限。[^2]
 - 強化：**動脈期 hypervascular ＋門脈/平衡期 rapid washout（由亮轉暗、變 iso 至低）**；**延遲強化的 capsule（10–78%，愈大愈明顯）**。[^2]
-- **判讀分水嶺**：**venous washout（延遲期相對周邊肝實質變低訊號）提高 HCC 特異度——regenerative/dysplastic nodule 通常不 washout**；脂肪、T2 升高、擴散受限、追蹤變大亦有助與 THID/regen/dysplastic 區分。註：hepatic adenoma 與 HCC 組織學皆為腺癌譜系，影像可相似。[^2]
+- **判讀分水嶺**：**venous washout（延遲期相對周邊肝實質變低訊號）提高 HCC 特異度——regenerative/dysplastic nodule 通常不 washout**；脂肪、T2 升高、擴散受限、追蹤變大亦有助與 THID/regen/dysplastic 區分。註：hepatic adenoma 是良性肝細胞腫瘤、HCC 是惡性肝細胞腫瘤，兩者同為肝細胞來源（hepatocellular origin），都不是腺癌；兩者影像可相似。[^2]
 
 ### Nodular Regenerative Hyperplasia（NRH）
 - 少見良性；瀰漫再生結節；合併 Budd-Chiari、骨髓增生、淋巴增生、膠原血管病或藥物（免疫抑制/抗腫瘤）；機轉與竇狀血流阻力增加＋門脈血流減少有關（可致門脈高壓）。影像常似 FNH。[^2]

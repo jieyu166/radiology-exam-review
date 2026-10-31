@@ -1,10 +1,13 @@
 ---
-concepts: [li-rads-ancillary-benignity]
+concepts:
+  - li-rads-ancillary-benignity
 name: LI-RADS Ancillary Features Favoring Benignity
-subspecialty: [ABD]
+subspecialty:
+  - ABD
 aliases:
   - ancillary features favoring benignity
   - LI-RADS 良性輔助特徵
+  - LI-RADS ancillary features
 dateRev: 2026-07-12
 ---
 
