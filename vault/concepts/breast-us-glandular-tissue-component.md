@@ -37,8 +37,8 @@ dateRev: 2026-11-09
 1. 先判 tissue pattern，再另外判 GTC[^3][^4]。
 2. 圈出 FGT；皮下脂肪、乳後脂肪、FGT 內的脂肪小葉都不算[^2]。
 3. 在 FGT 內看「灰」與「白」的比例，給四級[^2]。
-4. 原作者建議掃完整個乳房再判；分布不均時取至少兩個象限的主要型態；兩側不同取較高側[^2]。
-5. 綜述給的四級百分比：<25%、25–49%、50–74%、≥75%[^3][^4]；原作者綜述只明列 50% 這條線[^2]。
+4. 原作者掃完整個乳房後，依兩側影像給一個等級[^1]；分布不均時取至少兩個象限的主要型態；兩側不同取較高側[^2]。
+5. 四級百分比（腺體占 FGT）：minimal <25%、mild 25–49%、moderate 50–74%、marked ≥75%[^1][^3][^4]。
 
 ### 範例圖
 - [Lee 2022 Fig 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC9174505/figure/F2/)：橫切面超音波四級 A–D[^2]。
@@ -46,7 +46,7 @@ dateRev: 2026-11-09
 - [Uematsu 2024 Fig 2](https://pmc.ncbi.nlm.nih.gov/articles/PMC11272726/figure/Fig2/)：high GTC 的灰色樹枝狀結構[^5]。
 
 > [!warning] 一致性只有中等
-> Kim 2017 的 background echotexture 四級分類（Lee 2022 視為 GTC 分類的前身）閱讀者間平均 κ=0.45[^2][^6]。fatty／scattered 乳房腺體太少，GTC 不可靠[^7]。
+> 31 位乳攝緻密志願者的 GTC 判讀，四級平均 κ=0.41、二分 κ=0.52[^1]（原始研究見 Kim 2017[^6]）。fatty／scattered 乳房腺體太少，GTC 不可靠[^7]。
 
 ## 鑑別
 
@@ -65,7 +65,7 @@ dateRev: 2026-11-09
 
 ### 參考來源
 
-[^1]: Lee SH, Ryu HS, Jang MJ, et al. Glandular Tissue Component and Breast Cancer Risk in Mammographically Dense Breasts at Screening Breast US. Radiology 2021;301(1):57-65. doi:10.1148/radiol.2021210367. PMID 34282967.（依 PubMed 摘要）
+[^1]: Lee SH, Ryu HS, Jang MJ, et al. Glandular Tissue Component and Breast Cancer Risk in Mammographically Dense Breasts at Screening Breast US. Radiology 2021;301(1):57-65. doi:10.1148/radiol.2021210367. PMID 34282967.（全文已讀，院內機構訂閱，2026-11-09）
 [^2]: Lee SH, Moon WK. Glandular Tissue Component on Breast Ultrasound in Dense Breasts: A New Imaging Biomarker for Breast Cancer Risk. Korean J Radiol 2022;23(6):574-580. doi:10.3348/kjr.2022.0099. PMID 35617993.（全文已讀）
 [^3]: Song H, Shu R, Uematsu T, Moon WK. BI-RADS v2025 for breast ultrasound: key updates and Asian perspectives. Ultrasonography 2026;45(4):311-324. doi:10.14366/usg.26107. PMID 42403201.（全文已讀）
 [^4]: Chang JM, Ha SM, Yoen H. Breast Imaging Reporting and Data System v2025: Key Updates in US. J Korean Soc Radiol 2026;87(3):460-472. doi:10.3348/jksr.2026.0044. PMID 42306158.（全文已讀）
