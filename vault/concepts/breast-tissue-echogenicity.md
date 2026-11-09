@@ -15,8 +15,8 @@ dateRev: 2026-11-09
 # breast-tissue-echogenicity
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-other-breast-tissue-echogenicity-v1.png]]
-> [[summary-graphics/images/remaining-other-breast-tissue-echogenicity-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-other-breast-tissue-echogenicity|圖稿與覆核紀錄]]
+> ![Summary 圖：乳房 US 脂肪與纖維腺體回音](https://img-hosting.jieyu166.workers.dev/i/b7nhcPp.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/b7nhcPp.png)
 > 教學示意，待醫師覆核。
 
 **乳房超音波的回音基準是皮下脂肪：比脂肪亮叫 hyperechoic，和脂肪一樣叫 isoechoic，比脂肪暗叫 hypoechoic。整層纖維腺體（FGT）比脂肪亮，但它是由兩種成分組成：白色的纖維基質，和近乎與脂肪等回音、灰色的腺體（TDLU）。**[^1][^2] 考題說「glandular tissue 比脂肪 moderately hyperechoic」，本題庫解讀為指整層纖維腺體，不是腺體成分本身（來源未明說）。

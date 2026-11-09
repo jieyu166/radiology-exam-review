@@ -15,8 +15,8 @@ dateRev: 2026-11-09
 # breast-mri-bpe
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-bph-breast-bpe-v1.png]]
-> [[summary-graphics/images/remaining-bph-breast-bpe-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-breast-bpe|圖稿與覆核紀錄]]
+> ![Summary 圖：BPE 四級示意](https://img-hosting.jieyu166.workers.dev/i/a1VovsG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/a1VovsG.png)
 > 教學示意，待醫師覆核。
 
 **BPE 是正常纖維腺體的強化背景，讀懂它的兩大反直覺：「緻密不等於 BPE 多」、「散在小點被正常實質分開就是 BPE，不是多發病灶」。** BPE 程度（minimal/mild/moderate/marked）與乳房緻密度不成正比；強度受月經週期控制——**黃體期最強、第 2 週（7–14 天）最弱，排程非急迫 MRI 優先選第 2 週**。Focus < 5 mm 無法形態學分類；若多發 foci 被「不強化正常實質」隔開，視為 BPE 型態，不要過判。

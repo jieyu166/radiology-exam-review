@@ -13,8 +13,8 @@ dateRev: 2026-11-09
 # breast-bpe
 
 > [!info] Summary 圖・待醫師覆核
-> ![[summary-graphics/images/remaining-bph-breast-bpe-v1.png]]
-> [[summary-graphics/images/remaining-bph-breast-bpe-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-bph-breast-bpe|圖稿與覆核紀錄]]
+> ![Summary 圖：BPE 四級示意](https://img-hosting.jieyu166.workers.dev/i/a1VovsG.png)
+> [開啟原尺寸圖片](https://img-hosting.jieyu166.workers.dev/i/a1VovsG.png)
 > 教學示意，待醫師覆核。
 
 **Background parenchymal enhancement (BPE) 受月經週期影響，第 2 週（約 day 7–14，濾泡期）最低，是停經前女性排乳房 MRI 的最佳時機；第 1、4 週最強。**[^2] 更完整的判讀見 [[breast-mri-bpe]]。
