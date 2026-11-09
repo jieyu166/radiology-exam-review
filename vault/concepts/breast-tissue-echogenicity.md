@@ -1,43 +1,70 @@
 ---
-concepts: [breast-tissue-echogenicity]
+concepts:
+  - breast-tissue-echogenicity
 name: Normal Breast Tissue Echogenicity (Ultrasound)
-subspecialty: [US, Breast]
+subspecialty:
+  - US
+  - Breast
 aliases:
   - glandular breast tissue echogenicity
   - fatty breast lobule
   - 乳房組織回音性
-dateRev: 2026-07-12
+dateRev: 2026-11-09
 ---
 
 # breast-tissue-echogenicity
 
-**乳房超音波上，腺體組織（glandular tissue）相對於脂肪小葉（fatty lobule）呈現中度回音增強（moderately hyperechoic），此為判讀乳房超音波組織背景時的基本參考點。**
+> [!info] Summary 圖・待醫師覆核
+> ![[summary-graphics/images/remaining-other-breast-tissue-echogenicity-v1.png]]
+> [[summary-graphics/images/remaining-other-breast-tissue-echogenicity-v1.png|開啟原尺寸圖片]] · [[summary-graphics/briefs/remaining-other-breast-tissue-echogenicity|圖稿與覆核紀錄]]
+> 教學示意，待醫師覆核。
+
+**乳房超音波的回音基準是皮下脂肪：比脂肪亮叫 hyperechoic，和脂肪一樣叫 isoechoic，比脂肪暗叫 hypoechoic。整層纖維腺體（FGT）比脂肪亮，但它是由兩種成分組成：白色的纖維基質，和近乎與脂肪等回音、灰色的腺體（TDLU）。**[^1][^2] 考題說「glandular tissue 比脂肪 moderately hyperechoic」，本題庫解讀為指整層纖維腺體，不是腺體成分本身（來源未明說）。
 
 ## Summary
-- **腺體組織 vs 脂肪小葉**：腺體組織之回音性相對於脂肪小葉為**中度增強（moderately hyperechoic）**，並非等回音、明顯高回音或中度減弱。[^1]
-- **echotexture 分類與基準**：乳房 echotexture 類比乳攝 density，BI-RADS 分 **homogeneous fat／homogeneous fibroglandular／heterogeneous** 三類，且**僅用於篩檢超音波**;纖維腺體呈 **echogenic**、乳房脂肪呈 **hypoechoic**（與他處脂肪相反），故以脂肪為等回音基準時腺體高於脂肪。[^3]
+- **回音基準**：BI-RADS 以**皮下脂肪**為參考；hyperechoic＝比脂肪亮或與纖維腺體一樣亮[^1]。
+- **正常層次**：薄的低回音脂肪小葉層下方，是一厚層均勻高回音的纖維腺體實質[^1]。
+- **FGT 內部**：纖維基質高回音（白），腺體近乎與脂肪等回音（灰）；兩者比例就是 [[breast-us-glandular-tissue-component|GTC]][^2]。
+- **背景分類（tissue pattern）**：BI-RADS 2013 分 homogeneous-fat／homogeneous-fibroglandular／heterogeneous 三型，這是超音波自己的分類，**不是**乳攝密度 a–d[^1]。
 
-## 放射科醫師影像判讀重點
-- **回音層次基準（判讀背景之錨點）**：正常乳房超音波由淺至深為皮膚（薄高回音）→皮下脂肪（低回音）→纖維腺體層（相對脂肪為**中度高回音**）→後方脂肪與胸大肌（低回音）。以脂肪為「等回音基準」，腺體高於脂肪、病灶回音則相對腺體與脂肪判定。[^2]
-- **為何以脂肪為對照**：Stavros 體系將病灶回音強度分為 markedly / mildly hypoechoic 等，皆以**脂肪小葉為參考基準**；正確認識「腺體＞脂肪」的正常關係，才能避免把正常高回音腺體誤判為病灶，或把等脂肪回音的腫瘤漏看。[^2]
-- **判讀 pitfalls**：(1) 高回音的正常纖維腺體團塊（fibroglandular tissue）勿誤為病灶，其無局灶性腫塊、無惡性徵象；(2) 均質強高回音的實質結節多為良性（脂肪、纖維化），與「明顯低回音」的可疑病灶相反；(3) 年齡／荷爾蒙狀態改變腺體與脂肪比例，緻密腺體背景會降低低回音病灶的對比而增加漏診風險。[^2]
-- **臨床應用**：辨識正常回音層次是判定 BI-RADS 組織背景（脂肪型至極緻密型）與偵測異常低回音腫塊的前提，尤其在緻密乳房中更為重要。[^2]
+## 定義與術語
+- **Homogeneous background echotexture – fat**：大部分是脂肪小葉加上均勻高回音的支持結構[^1]。
+- **Homogeneous background echotexture – fibroglandular**：薄的低回音脂肪層下方，有一厚層均勻高回音的纖維腺體實質；許多病灶就長在這層或它和脂肪的交界[^1]。
+- **Heterogeneous background echotexture**：多處小區域回音忽高忽低，脂肪與實質交界可有聲影；多見於年輕乳房與乳攝 heterogeneously dense 者，可能讓小病灶不易察覺[^1]。
+- **報告位置**：BI-RADS 2013 把整體 tissue composition 列在**篩檢**超音波報告中[^1]。
 
-## 臨床重點（5 句）
-- 乳房組織成分（脂肪 vs 纖維腺體）比例受年齡、荷爾蒙狀態與哺乳影響而變化。[^2]
-- 緻密乳房會降低乳房攝影敏感度，超音波為重要輔助篩檢與診斷工具。[^2]
-- 正確辨識正常組織背景有助於區分生理性變化與病理性腫塊，避免不必要切片。[^2]
-- 觸診異常但影像判為正常腺體者，若臨床高度懷疑仍應追蹤或取樣（triple assessment）。[^2]
-- 系統化描述組織背景與病灶特徵是標準化報告（BI-RADS）的基礎。[^2]
+## 影像
+- **為何用脂肪當基準**：病灶回音（hypoechoic、isoechoic）都以皮下脂肪定義；isoechoic 病灶夾在脂肪小葉之間時不顯眼，是篩檢超音波的限制[^1]。
+- **乳房脂肪是低回音**：BI-RADS 描述脂肪小葉為低回音層[^1][^4]，所以病灶的回音要和這層灰暗的脂肪比，不是和亮的實質比。
+- **均勻高回音的實質結節多為良性**：Stavros 研究中，明顯均勻高回音的結節屬良性特徵[^3]。
+
+> [!warning] 兩種「腺體」
+> 舊考題答 glandular tissue 比脂肪 moderately hyperechoic[^5]；GTC 文獻裡的 glandular component 指 FGT 內的腺體本身，近乎與脂肪等回音[^2]。本題庫解讀：舊用語應是指整層纖維腺體實質。看清題目問的是哪一個。
+
+## 鑑別
+| 容易混淆 | 差別 |
+|---|---|
+| 乳攝密度 a–d | 乳攝的分類；超音波用 tissue pattern 三型[^1] |
+| GTC | FGT 內腺體對纖維的比例，見 [[breast-us-glandular-tissue-component]][^2] |
+
+## 解題
+> [!note] 考點
+> - 2019 交換（[[2019-151]]）：腺體組織相對脂肪小葉——答 (C) moderately hyperechoic[^5]；本題庫解讀題意為整層纖維腺體。
+> - 2021 交換（[[2021-002]]）：何者錯——答 (B)；回音基準是皮下脂肪，不是纖維腺體[^1]。
 
 ### 參考來源
-[^1]: 2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, Edition 2, p.236。
-[^2]: **Tier 1** Stavros AT, Thickman D, Rapp CL, Dennis MA, Parker SH, Sisney GA. *Solid breast nodules: use of sonography to distinguish between benign and malignant lesions.* Radiology 1995;196(1):123-134（據 PubMed，DOI [10.1148/radiology.196.1.7784555](https://doi.org/10.1148/radiology.196.1.7784555)；實際查證 accessed 2026-07-04；並對照 ACR BI-RADS Atlas 5th ed, 2013 之組織回音描述作為參考標準）——確立以**脂肪小葉為回音參考基準**之乳房超音波判讀體系，病灶回音強度（如 markedly hypoechoic）皆相對脂肪判定；均質強高回音之實質結節屬良性提示，據此可推得正常纖維腺體相對脂肪呈中度高回音之組織背景關係。原「官方詳解／教科書」弱來源已由本次 DOI Tier 1 查核升級。
-[^3]: **Radiopaedia（snippet/403）** *Breast echotexture*. Radiopaedia.org, rID 49435, DOI 10.53347/rID-49435（搜尋摘要 accessed 2026-07-12）——echotexture 類比 mammographic density;BI-RADS 分 homogeneous fat／homogeneous fibroglandular／heterogeneous 三類、僅用於篩檢超音波;纖維腺體 echogenic、乳房脂肪 hypoechoic。
+[^1]: D'Orsi CJ, Sickles EA, Mendelson EB, Morris EA, et al. ACR BI-RADS® Atlas. 5th ed. Reston, VA: American College of Radiology; 2013. Ultrasound：Tissue Composition（PDF p.257–260）；Masses, Echo pattern（hyperechoic p.278、hypoechoic p.282、isoechoic p.283–284）；報告 overall breast composition (screening only)（PDF p.334）。（vault 內 PDF 已讀，2026-11-09）
+[^2]: Lee SH, Moon WK. Glandular Tissue Component on Breast Ultrasound in Dense Breasts: A New Imaging Biomarker for Breast Cancer Risk. Korean J Radiol 2022;23(6):574-580. doi:10.3348/kjr.2022.0099. PMID 35617993.（全文已讀）
+[^3]: Stavros AT, Thickman D, Rapp CL, Dennis MA, Parker SH, Sisney GA. Solid breast nodules: use of sonography to distinguish between benign and malignant lesions. Radiology 1995;196(1):123-134. doi:10.1148/radiology.196.1.7784555.（依 PubMed）
+[^4]: *Breast echotexture*. Radiopaedia.org, rID 49435. doi:10.53347/rID-49435.（搜尋摘要，accessed 2026-07-12）
+[^5]: 2019 交換考詳解；Sonography Exam Review: Physics, Abdomen, Obstetrics and Gynecology, 2nd ed., p.236。
 
 ## 題目
 > [!question]- Which one of the following descriptions about anatomy imaging issues of breast sonography is **not true**? (2021-002)
-> **B（Echogenicity is defined relative to fibroglandular tissue）**——乳房超音波的回音性是以**皮下脂肪**為參考基準，而非纖維腺體。脂肪呈中灰、較纖維腺體（淺灰）為暗，腺體相對脂肪呈中度高回音，故 B 敘述錯誤。其餘：皮膚線正常 <2 mm（A）、前懸韌帶（Cooper 韌帶）可見於皮下區（C）、間葉腺體組織多呈高回音（D）皆正確。
+> **B（Echogenicity is defined relative to fibroglandular tissue）**——BI-RADS 以皮下脂肪為回音基準，不是纖維腺體[^1]。選項 D（interlobular stroma and glandular elements are usually hyperechoic）在原題算正確；依 GTC 文獻，小葉間基質高回音、腺體本身近乎等回音[^2]，D 的寫法較粗略，但不影響 B 是最明確的錯誤。
+
+> [!question]- Echogenicity of glandular breast tissue when compared to a fatty breast lobule? (2019-151)
+> **C（moderately hyperechoic）**[^5]——本題庫解讀此處「glandular tissue」指整層纖維腺體實質；GTC 語境下的腺體成分本身近乎與脂肪等回音[^2]。
 
 ## 考題
 ```dataview

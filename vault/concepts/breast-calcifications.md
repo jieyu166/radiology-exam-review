@@ -1,7 +1,9 @@
 ---
-concepts: [breast-calcifications]
+concepts:
+  - breast-calcifications
 name: Breast Calcifications (BI-RADS Morphology)
-subspecialty: [Breast]
+subspecialty:
+  - Breast
 aliases:
   - breast calcifications
   - typically benign calcifications
@@ -129,6 +131,9 @@ dateRev: 2026-07-12
 
 > [!question]- Which of the following distribution is no longer used in the BI-RADS 5th edition (2013)? (2021-339)
 > **C（Clustered）**——BI-RADS 5th ed (2013) 以 **grouped** 取代 clustered，clustered 成為歷史用語（historically cluster），現行版本不再使用。**Grouped（A）、Segmental（B）、Regional（D）皆仍為現行正式分布詞**，故非答案。[^1][^10]
+
+> [!question]- According to BI-RADS fifth edition, which of the following statement is wrong? (2022-247)
+> **B 為錯誤**——dystrophic 屬典型良性型態，不在可疑型態之列；第 5 版 rim（合併 eggshell 與 lucent-centered）、round（合併 round 與 punctate）、五種分布、grouped 定義修訂皆正確。[^1][^11]
 
 ## 考題
 ```dataview

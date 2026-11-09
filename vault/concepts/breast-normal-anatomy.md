@@ -1,18 +1,20 @@
 ---
-concepts: [breast-normal-anatomy]
+concepts:
+  - breast-normal-anatomy
 name: Normal Breast Anatomy
-subspecialty: [Breast]
+subspecialty:
+  - Breast
 aliases:
   - normal breast anatomy
   - Cooper ligaments
   - breast lobes
   - 乳房正常解剖
-dateRev: 2026-07-03
+dateRev: 2026-11-09
 ---
 
 # breast-normal-anatomy
 
-**乳房由15-25個腺葉組成（不是常被誤記的5-10個），各自匯入獨立主乳管終於乳頭；Cooper氏韌帶為深真皮延伸入乳房組織的纖維支持結構；小葉（由終末導管與腺泡組成）才是功能單位。**
+**乳房的腺葉數，Bassett 教材記載 15-25 個、Radiopaedia 14-18 個，絕不是常被誤記的 5-10 個[^1][^2]，各自匯入獨立主乳管終於乳頭；Cooper氏韌帶為深真皮延伸入乳房組織的纖維支持結構；小葉（由終末導管與腺泡組成）才是功能單位。**
 
 ## Summary
 - **腺葉數目**：乳房由**約 15-20 個腺葉(lobes)**組成（文獻分歧：Bassett 教材 15-25、Radiopaedia 14-18），各自匯入獨立主乳管終於乳頭——**常見誤植為5-10個為錯，須留意**；各 lobe→數個 lobule→數個 acinus。[^1][^2]
@@ -35,7 +37,7 @@ dateRev: 2026-07-03
 5. **風險關聯**：緻密乳房降低乳攝敏感度且為獨立風險因子——緻密者考慮補充 US/MRI 篩檢。[^1]
 
 > [!note] 考點：關於正常乳房解剖,何者為非?
-> 「**乳房由5-10個腺葉組成**」為非——實際為15-25個腺葉，各自匯入獨立主乳管終於乳頭。Cooper氏韌帶、小葉為功能單位、組織組成影響乳攝偵測能力皆正確。[^1]
+> 「**乳房由5-10個腺葉組成**」為非——Bassett 教材記載 15-25 個腺葉（Radiopaedia 14-18）[^2]，各自匯入獨立主乳管終於乳頭。Cooper氏韌帶、小葉為功能單位、組織組成影響乳攝偵測能力皆正確。[^1]
 
 ### 參考來源
 [^1]: 官方2016詳解；Breast Imaging (Bassett LW et al.), p.224-226（題目所引）——乳房由15-25個腺葉組成（非5-10個）各自匯入獨立主乳管終於乳頭；Cooper氏韌帶定義；小葉為功能單位（終末導管+腺泡）；組織組成與乳攝偵測敏感度關聯。

@@ -1,7 +1,9 @@
 ---
-concepts: [breast-composition]
+concepts:
+  - breast-composition
 name: Breast Composition / Density (BI-RADS 2013)
-subspecialty: [Breast]
+subspecialty:
+  - Breast
 aliases:
   - breast composition
   - breast density
@@ -63,16 +65,13 @@ dateRev: 2026-06-29
 [^3]: ACR BI-RADS Atlas 5th ed. / The Radiology Assistant, *BI-RADS for Mammography and Ultrasound 2013*（開放全文已讀 accessed 2026-06-29，radiologyassistant.nl）：「use of percentages is discouraged, because ... more important to take into account the chance that a mass can be obscured ... than the percentage」;範例：纖維腺體 <50% 但上部夠緻密足以遮蔽小腫塊故定 **c**;BPE 屬 MRI 正常實質強化、與 density 為不同概念。
 [^4]: McCormack VA, dos Santos Silva I 等及後續系統性回顧;*Mammographic breast density and the risk of breast cancer: a systematic review and meta-analysis*. PMC9530665（開放全文已讀 accessed 2026-06-29）：緻密度為獨立風險因子;extremely dense 相對 scattered（B）約 2 倍（~2.11×）乳癌風險。
 [^5]: *Update on Breast Density, Risk Estimation, and Supplemental Screening*. AJR Am J Roentgenol（依摘要未讀全文 accessed 2026-06-29）DOI:10.2214/AJR.19.21994：dense breast（C/D）兼具遮蔽效應降低乳攝敏感度與獨立提高乳癌風險之雙重意義。
-[^6]: ACR Appropriateness Criteria® *Supplemental Breast Cancer Screening Based on Breast Density: 2024 Update*. J Am Coll Radiol（依摘要未讀全文 accessed 2026-06-29）DOI:10.1016/j.jacr.2025.xxxxx（S1546-1440(25)00129-2）；acsearch.acr.org doc 3158166：MRI／AB-MRI 補充篩檢敏感度與 CDR 最高、extremely dense 獲益最大;US（含 ABUS）提升 CDR 但偽陽性高;DBT 增益不一致。
+[^6]: Expert Panel on Breast Imaging; Paulis LV, Lewin AA, Weinstein SP, et al. ACR Appropriateness Criteria® *Supplemental Breast Cancer Screening Based on Breast Density: 2024 Update*. J Am Coll Radiol 2025;22(5S):S405-S423. doi:10.1016/j.jacr.2025.02.023. PMID 40409891.（依摘要；DOI 2026-11-09 依 PubMed 補正）；acsearch.acr.org doc 3158166：MRI／AB-MRI 補充篩檢敏感度與 CDR 最高、extremely dense 獲益最大;US（含 ABUS）提升 CDR 但偽陽性高;DBT 增益不一致。
 [^7]: DENSE trial（Bakker MF 等, *Supplemental MRI Screening for Women with Extremely Dense Breast Tissue*, N Engl J Med 2019）及後續 DENSE-2;與 ACR AC 2024 一致（依摘要未讀全文 accessed 2026-06-29）：extremely dense 補充 MRI 顯著降低間隔癌。
 [^8]: U.S. FDA, *MQSA Final Rule — National Breast Density Reporting Standard*（開放全文已讀 accessed 2026-06-29，fda.gov / densebreast-info.org）：自 2024-09-10 起乳攝報告須以「dense／not dense」告知病人，說明緻密組織較難偵測癌、增加罹癌風險並提示可考慮補充影像。
 [^9]: *Comparison of breast density assessments according to BI-RADS 4th and 5th editions and experience level*. PubMed 32733694;及 *Breast Density Evaluation ... AI Automated vs Human Visual Assessment*. PMC10146726（依摘要未讀全文 accessed 2026-06-29）：定性分級具觀察者間變異、受經驗影響，AI 自動化評估用以提升一致性。
 [^10]: ACR BI-RADS Atlas 5th ed.（MRI）, BPE 分級 minimal/mild/moderate/marked;*From Variability to Standardization: ... Breast Density on Background Parenchymal Enhancement*（依摘要未讀全文 accessed 2026-06-29，medRxiv 2025.04.15.25325851）：BPE 為 MRI／對比乳攝上正常實質強化程度，與乳攝緻密度為不同概念、可不平行。
 
 ## 題目
-> [!question]- According to BI-RADS fifth edition, which of the following statement is wrong? (2022-247)
-> ⚠️ 選項文字 OCR 不完整，暫依來源答案 D；BI-RADS 2013 以 a–d 主觀描述取代百分比估計、強調遮蔽效應。[^2]
-
 > [!question]- Which of the following about Mammographic Breast Density is CORRECT? (2022-266)
 > **C**——緻密纖維腺體重疊遮蔽腫塊、降低乳攝敏感度即 masking effect；乳癌源自上皮而非脂肪、體積大非風險、間隔癌敘述不精確。[^2]
 
